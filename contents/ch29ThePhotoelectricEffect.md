@@ -11,14 +11,14 @@ chapterNumber: 29
 </div>
 
 When light strikes materials, it can eject electrons from them. This is called
-the **photoelectric effect**, meaning that light (*photo*) produces electricity.
+the **photoelectric effect**, meaning that light (_photo_) produces electricity.
 One common use of the photoelectric effect is in light meters, such as those
 that adjust the automatic iris on various types of cameras. In a similar way,
 another use is in solar cells, as you probably have in your calculator or have
 seen on a roof top or a roadside sign. These make use of the photoelectric
 effect to convert light into electricity for running different devices.
 
-![An image of a vacuum tube is shown.](../resources/Figure_29_02_01.jpg "The photoelectric effect can be observed by allowing light to fall on the metal plate in this evacuated tube. Electrons ejected by the light are collected on the collector wire and measured as a current. A retarding voltage between the collector wire and plate can then be adjusted so as to determine the energy of the ejected electrons. For example, if it is sufficiently negative, no electrons will reach the wire. (credit: P.P. Urone)")
+![An image of a vacuum tube is shown.](../resources/Figure_29_02_01.jpg 'The photoelectric effect can be observed by allowing light to fall on the metal plate in this evacuated tube. Electrons ejected by the light are collected on the collector wire and measured as a current. A retarding voltage between the collector wire and plate can then be adjusted so as to determine the energy of the ejected electrons. For example, if it is sufficiently negative, no electrons will reach the wire. (credit: P.P. Urone)')
 {: #Figure1}
 
 This effect has been known for more than a century and can be studied using a
@@ -40,8 +40,8 @@ meter.
 
 What is really important about the photoelectric effect is what Albert Einstein
 deduced from it. Einstein realized that there were several characteristics of
-the photoelectric effect that could be explained only if *EM radiation is itself
-quantized*\: the apparently continuous stream of energy in an EM wave is
+the photoelectric effect that could be explained only if _EM radiation is itself
+quantized_\: the apparently continuous stream of energy in an EM wave is
 actually composed of energy quanta called photons. In his explanation of the
 photoelectric effect, Einstein defined a quantized unit or quantum of EM energy,
 which we now call a **photon**, with an energy proportional to the frequency of
@@ -68,7 +68,7 @@ a discussion of photons and some of their characteristics and implications. For
 now, we will use the photon concept to explain the photoelectric effect, much as
 Einstein did.
 
-![Light rays coming out of a flashlight. The photons are depicted as small ellipses enclosing a wave each and moving in the direction of the rays. Energies of photons are labeled as E and E prime, where E is equal to h f and E prime is equal to h f prime.](../resources/Figure_29_02_02.jpg "An EM wave of frequency \( f \) is composed of photons, or individual quanta of EM radiation. The energy of each photon is \( E=hf \), where \( h \) is Planck&#x2019;s constant and \( f \) is the frequency of the EM radiation. Higher intensity means more photons per unit area. The flashlight emits large numbers of photons of many different frequencies, hence others have energy \( E{^\prime}=hf{^\prime} \), and so on. ")
+![Light rays coming out of a flashlight. The photons are depicted as small ellipses enclosing a wave each and moving in the direction of the rays. Energies of photons are labeled as E and E prime, where E is equal to h f and E prime is equal to h f prime.](../resources/Figure_29_02_02.jpg 'An EM wave of frequency ( f ) is composed of photons, or individual quanta of EM radiation. The energy of each photon is ( E=hf ), where ( h ) is Planck’s constant and ( f ) is the frequency of the EM radiation. Higher intensity means more photons per unit area. The flashlight emits large numbers of photons of many different frequencies, hence others have energy ( E{^\\prime}=hf{^\\prime} ), and so on. ')
 {: #Figure2}
 
 The photoelectric effect has the properties discussed below. All these
@@ -77,29 +77,30 @@ are absorbed by individual electrons in a material, with the electron gaining
 the photon’s energy. Some of these properties are inconsistent with the idea
 that EM radiation is a simple wave. For simplicity, let us consider what happens
 with monochromatic EM radiation in which all photons have the same energy $$ hf
-$$.
+
+$$
+.
 
 1. If we vary the frequency of the EM radiation falling on a material, we find
    the following: For a given material, there is a threshold frequency $${f}_{0}
-   $$     
-   for the EM radiation below which no electrons are ejected, regardless of
-   intensity. Individual photons interact with individual electrons. Thus if the
-   photon energy is too small to break an electron away, no electrons will be
-   ejected. If EM radiation was a simple wave, sufficient energy could be
-   obtained by increasing the intensity.
-2. *Once EM radiation falls on a material, electrons are ejected without delay*.
-   As soon as an individual photon of a sufficiently high frequency is absorbed
-   by an individual electron, the electron is ejected. If the EM radiation were
-   a simple wave, several minutes would be required for sufficient energy to be
-   deposited to the metal surface to eject an electron.
-3. The number of electrons ejected per unit time is proportional to the
-   intensity of the EM radiation and to no other characteristic. High-intensity
-   EM radiation consists of large numbers of photons per unit area, with all
-   photons having the same characteristic energy $$ hf $$ .
+$$
+
+for the EM radiation below which no electrons are ejected, regardless of
+intensity. Individual photons interact with individual electrons. Thus if the
+photon energy is too small to break an electron away, no electrons will be
+ejected. If EM radiation was a simple wave, sufficient energy could be
+obtained by increasing the intensity. 2. _Once EM radiation falls on a material, electrons are ejected without delay_.
+As soon as an individual photon of a sufficiently high frequency is absorbed
+by an individual electron, the electron is ejected. If the EM radiation were
+a simple wave, several minutes would be required for sufficient energy to be
+deposited to the metal surface to eject an electron. 3. The number of electrons ejected per unit time is proportional to the
+intensity of the EM radiation and to no other characteristic. High-intensity
+EM radiation consists of large numbers of photons per unit area, with all
+photons having the same characteristic energy $$ hf $$ .
 
 4. If we vary the intensity of the EM radiation and measure the energy of
-   ejected electrons, we find the following: *The maximum kinetic energy of
-   ejected electrons is independent of the intensity of the EM radiation*. Since
+   ejected electrons, we find the following: _The maximum kinetic energy of
+   ejected electrons is independent of the intensity of the EM radiation_. Since
    there are so many electrons in a material, it is extremely unlikely that two
    photons will interact with the same electron at the same time, thereby
    increasing the energy given it. Instead (as noted in 3 above), increased
@@ -123,12 +124,14 @@ $$.
    individual electron, supplying enough energy, BE, to break it away, with the
    remainder going to kinetic energy. The binding energy is $$\text{BE}=hf_{0}
    $$ , where $${f}_{0} $$ is the threshold frequency for the particular
-   material. [[Figure 3]](#Figure3) shows a graph of maximum $${\text{KE}}_{e}
-   $$     
+   material. [[Figure 3]](#Figure3) shows a graph of maximum $${\text{KE}}\_{e}
+
+   $$
    versus the frequency of incident EM radiation falling on a particular
    material.
+   $$
 
-![A graph of frequency verses kinetic energy of an electron is shown, where frequency is along x axis and kinetic energy is along the y axis. The plot is a straight line having an inclination with x axis and meets the x axis at f sub zero, known as threshold frequency, given by B E divided by h. The threshold kinetic energy is written as equal to h f minus B E.](../resources/Figure_29_02_03.jpg "Photoelectric effect. A graph of the kinetic energy of an ejected electron, \( \text{KE}_\text{e} \), versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, \( \text{KE}_\text{e} \) increases linearly with \( f \) , consistent with \( \text{KE}_\text{e}=hf -\text{BE} \). The slope of this line is \( h \) &#x2014;the data can be used to determine Planck&#x2019;s constant experimentally. Einstein gave the first successful explanation of such data by proposing the idea of photons&#x2014;quanta of EM radiation.  ")
+![A graph of frequency verses kinetic energy of an electron is shown, where frequency is along x axis and kinetic energy is along the y axis. The plot is a straight line having an inclination with x axis and meets the x axis at f sub zero, known as threshold frequency, given by B E divided by h. The threshold kinetic energy is written as equal to h f minus B E.](../resources/Figure_29_02_03.jpg 'Photoelectric effect. A graph of the kinetic energy of an ejected electron, ( \\text{KE}_\\text{e} ), versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, ( \\text{KE}_\\text{e} ) increases linearly with ( f ) , consistent with ( \\text{KE}_\\text{e}=hf -\\text{BE} ). The slope of this line is ( h ) —the data can be used to determine Planck’s constant experimentally. Einstein gave the first successful explanation of such data by proposing the idea of photons—quanta of EM radiation.  ')
 {: #Figure3}
 
 Einstein’s idea that EM radiation is quantized was crucial to the beginnings of
@@ -136,8 +139,8 @@ quantum mechanics. It is a far more general concept than its explanation of the
 photoelectric effect might imply. All EM radiation can also be modeled in the
 form of photons, and the characteristics of EM radiation are entirely consistent
 with this fact. (As we will see in the next section, many aspects of EM
-radiation, such as the hazards of ultraviolet (UV) radiation, can be explained *
-only* by photon properties.) More famous for modern relativity, Einstein planted
+radiation, such as the hazards of ultraviolet (UV) radiation, can be explained _
+only_ by photon properties.) More famous for modern relativity, Einstein planted
 an important seed for quantum mechanics in 1905, the same year he published his
 first paper on special relativity. His explanation of the photoelectric effect
 was the basis for the Nobel Prize awarded to him in 1921. Although his other
@@ -204,7 +207,7 @@ at the energy in electron volts, we can see that this photon has enough energy
 to affect atoms and molecules. A DNA molecule can be broken with about 1 eV of
 energy, for example, and typical atomic and molecular energies are on the order
 of eV, so that the UV photon in this example could have biological effects. The
-ejected electron (called a *photoelectron*) has a rather low energy, and it
+ejected electron (called a _photoelectron_) has a rather low energy, and it
 would not travel far, except in a vacuum. The electron would be stopped by a
 retarding potential of but 0.26 eV. In fact, if the photon wavelength were
 longer and its energy less than 2.71 eV, then the formula would give a negative
@@ -224,7 +227,6 @@ PhET Explorations: Photoelectric Effect
 See how light knocks electrons off a metal target, and recreate the experiment that spawned the field of quantum mechanics.
 {: class="newline"}
 
-
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
@@ -234,17 +236,19 @@ See how light knocks electrons off a metal target, and recreate the experiment t
 
 ### Section Summary
 
-* The photoelectric effect is the process in which EM radiation ejects electrons
+- The photoelectric effect is the process in which EM radiation ejects electrons
   from a material.
-* Einstein proposed photons to be quanta of EM radiation having energy $$E= hf
+- Einstein proposed photons to be quanta of EM radiation having energy $$E= hf
   $$ , where $$f $$ is the frequency of the radiation.
-* All EM radiation is composed of photons. As Einstein explained, all
+- All EM radiation is composed of photons. As Einstein explained, all
   characteristics of the photoelectric effect are due to the interaction of
   individual photons with individual electrons.
-* The maximum kinetic energy $${\text{KE}}_{e} $$ of ejected electrons (
+- The maximum kinetic energy $${\text{KE}}_{e} $$ of ejected electrons (
   photoelectrons) is given by $${\text{KE}}_{e}= hf\text{- BE} $$ , where $$ hf
-  $$ is the photon energy and BE is the binding energy (or work function) of the
+  $$
+  is the photon energy and BE is the binding energy (or work function) of the
   electron to the particular material.
+  $$
 
 ### Conceptual Questions
 
@@ -460,7 +464,7 @@ photon energy
 : the amount of energy a photon has; $$E= hf $$
 
 binding energy
-: also called the *work function*; the amount of energy necessary to eject an
+: also called the _work function_; the amount of energy necessary to eject an
 electron from a material
 
 </div>

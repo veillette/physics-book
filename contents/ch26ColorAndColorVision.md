@@ -36,9 +36,8 @@ million rods in the human retina. Rods do not yield color information. You may
 notice that you lose color vision when it is very dark, but you retain the
 ability to discern grey scales.
 
-
-![The top panel shows the cellular structure of the different cells in the eye. The bottom panel shows a micrograph of the cellular structure.](../resources/Figure_26_03_01.jpg "
-(a) All photoreceptors have inner segments containing the nucleus and other important organelles and outer segments with membrane arrays containing the photosensitive opsin molecules. Rod outer segments are long columnar shapes with stacks of membrane-bound discs that contain the rhodopsin pigment. Cone outer segments are short, tapered shapes with folds of membrane in place of the discs in the rods. (b) Tissue of the retina shows a dense layer of nuclei of the rods and cones. LM × 800. (Micrograph provided by the Regents of University of Michigan Medical School-  2012)")
+![The top panel shows the cellular structure of the different cells in the eye. The bottom panel shows a micrograph of the cellular structure.](../resources/Figure_26_03_01.jpg '
+(a) All photoreceptors have inner segments containing the nucleus and other important organelles and outer segments with membrane arrays containing the photosensitive opsin molecules. Rod outer segments are long columnar shapes with stacks of membrane-bound discs that contain the rhodopsin pigment. Cone outer segments are short, tapered shapes with folds of membrane in place of the discs in the rods. (b) Tissue of the retina shows a dense layer of nuclei of the rods and cones. LM × 800. (Micrograph provided by the Regents of University of Michigan Medical School-  2012)')
 {: #Figure1}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -46,7 +45,7 @@ ability to discern grey scales.
 Take-Home Experiment: Rods and Cones
 </div>
 1.   Go into a darkened room from a brightly lit room, or from outside in the Sun. How long did it take to start seeing shapes more clearly? What about color? Return to the bright room. Did it take a few minutes before you could see things clearly?
-2.   Demonstrate the sensitivity of foveal vision. Look at the letter G in the word ROGERS. What about the clarity of the letters on either side of G? 
+2.   Demonstrate the sensitivity of foveal vision. Look at the letter G in the word ROGERS. What about the clarity of the letters on either side of G?
 
 </div>
 
@@ -57,7 +56,7 @@ bright light and are responsible for high resolution vision. There are about 6
 million cones in the human retina. There are three types of cones, and each type
 is sensitive to different ranges of wavelengths, as illustrated
 in [[Figure 2]](#Figure2). A **simplified theory of color vision** is that there
-are three *primary colors* corresponding to the three types of cones. The
+are three _primary colors_ corresponding to the three types of cones. The
 thousands of other hues that we can distinguish among are created by various
 combinations of stimulations of the three types of cones. Color television uses
 a three-color system in which the screen is covered with equal numbers of red,
@@ -75,25 +74,25 @@ white light from which violet has been removed. The three-primary-colors aspect
 of color vision is well established; more sophisticated theories expand on it
 rather than deny it.
 
-![A line graph of sensitivity on y axis and wavelength on x axis is shown. The graph depicts three skewed curves, representing three types of cones and each type is sensitive to different ranges of wavelengths. The range of wavelength is between three hundred and fifty to seven hundred nanometers. For blue range, the curve peaks at four hundred and twenty nanometers and sensitivity is zero point two. For green range, the curve peaks at five hundred and twenty nanometers and the sensitivity is shown to be one point zero. For yellow range, the curve peaks at five hundred and ninety nanometers and sensitivity is at one point zero.](../resources/Figure_26_03_02.jpg "The image shows the relative sensitivity of the three types of cones, which are named according to wavelengths of greatest sensitivity. Rods are about 1000 times more sensitive, and their curve peaks at about 500 nm. Evidence for the three types of cones comes from direct measurements in animal and human eyes and testing of color blind people.")
+![A line graph of sensitivity on y axis and wavelength on x axis is shown. The graph depicts three skewed curves, representing three types of cones and each type is sensitive to different ranges of wavelengths. The range of wavelength is between three hundred and fifty to seven hundred nanometers. For blue range, the curve peaks at four hundred and twenty nanometers and sensitivity is zero point two. For green range, the curve peaks at five hundred and twenty nanometers and the sensitivity is shown to be one point zero. For yellow range, the curve peaks at five hundred and ninety nanometers and sensitivity is at one point zero.](../resources/Figure_26_03_02.jpg 'The image shows the relative sensitivity of the three types of cones, which are named according to wavelengths of greatest sensitivity. Rods are about 1000 times more sensitive, and their curve peaks at about 500 nm. Evidence for the three types of cones comes from direct measurements in animal and human eyes and testing of color blind people.')
 {: #Figure2}
 
 Consider why various objects display color—that is, why are feathers blue and
-red in a crimson rosella? The *true color of an object* is defined by its
+red in a crimson rosella? The _true color of an object_ is defined by its
 absorptive or reflective characteristics. [[Figure 3]](#Figure3) shows white
 light falling on three different objects, one pure blue, one pure red, and one
 black, as well as pure red light falling on a white object. Other hues are
 created by more complex absorption characteristics. Pink, for example on a galah
 cockatoo, can be due to weak absorption of all colors except red. An object can
 appear a different color under non-white illumination. For example, a pure blue
-object illuminated with pure red light will *appear* black, because it absorbs
+object illuminated with pure red light will _appear_ black, because it absorbs
 all the red light falling on it. But, the true color of the object is blue,
 which is independent of illumination.
 
-![Four flat rectangular structures, named as Blue object, Red object, Black object, and White object are shown. The red, blue, and black objects are illuminated by white light shown by siX-rays of red, orange, yellow, green, blue, and violet. The blue rectangle is emitting blue ray and it appears blue. The red rectangle is emitting red ray and it appears red while the black rectangle has absorbed all colors and appears black. The white rectangle is illuminated only by red light and emits red ray but appears white.](../resources/Figure_26_03_03.jpg "Absorption characteristics determine the true color of an object. Here, three objects are illuminated by white light, and one by pure red light. White is the equal mixture of all visible wavelengths; black is the absence of light.")
+![Four flat rectangular structures, named as Blue object, Red object, Black object, and White object are shown. The red, blue, and black objects are illuminated by white light shown by siX-rays of red, orange, yellow, green, blue, and violet. The blue rectangle is emitting blue ray and it appears blue. The red rectangle is emitting red ray and it appears red while the black rectangle has absorbed all colors and appears black. The white rectangle is illuminated only by red light and emits red ray but appears white.](../resources/Figure_26_03_03.jpg 'Absorption characteristics determine the true color of an object. Here, three objects are illuminated by white light, and one by pure red light. White is the equal mixture of all visible wavelengths; black is the absence of light.')
 {: #Figure3}
 
-Similarly, *light sources have colors* that are defined by the wavelengths they
+Similarly, _light sources have colors_ that are defined by the wavelengths they
 produce. A helium-neon laser emits pure red light. In fact, the phrase “pure red
 light” is defined by having a sharp constrained spectrum, a characteristic of
 laser light. The Sun produces a broad yellowish spectrum, fluorescent lights
@@ -111,7 +110,7 @@ This activity is best done with plastic sheets of different colors as they allow
 
 </div>
 
-![Four curves showing emission spectra for light sources like the Sun shown as curve A, fluorescent light source shown as curve B, incandescent light source as curve C, and helium-neon laser light source as curve D are depicted in a relative intensity versus wavelength graph. Curve A is a simple curve. Curve B has four spikes at different intensity. Curve C is a linear curve. Curve D is represented as a spike with relative intensity around two hundred and twenty on the scale of zero to two hundred and twenty and wavelength around six hundred and twenty nanometers.](../resources/Figure_26_03_04.jpg "Emission spectra for various light sources are shown. Curve A is average sunlight at Earth&#x2019;s surface, curve B is light from a fluorescent lamp, and curve C is the output of an incandescent light. The spike for a helium-neon laser (curve D) is due to its pure wavelength emission. The spikes in the fluorescent output are due to atomic spectra&#x2014;a topic that will be explored later.")
+![Four curves showing emission spectra for light sources like the Sun shown as curve A, fluorescent light source shown as curve B, incandescent light source as curve C, and helium-neon laser light source as curve D are depicted in a relative intensity versus wavelength graph. Curve A is a simple curve. Curve B has four spikes at different intensity. Curve C is a linear curve. Curve D is represented as a spike with relative intensity around two hundred and twenty on the scale of zero to two hundred and twenty and wavelength around six hundred and twenty nanometers.](../resources/Figure_26_03_04.jpg 'Emission spectra for various light sources are shown. Curve A is average sunlight at Earth’s surface, curve B is light from a fluorescent lamp, and curve C is the output of an incandescent light. The spike for a helium-neon laser (curve D) is due to its pure wavelength emission. The spikes in the fluorescent output are due to atomic spectra—a topic that will be explored later.')
 {: #Figure4}
 
 ### Color Constancy and a Modified Theory of Color Vision
@@ -136,7 +135,7 @@ simply to the light entering the eye, which is uniform in the various rectangles
 in this figure, the eye responds to the edges and senses false darkness
 variations.
 
-![An image of black and gray gradient in stripes pattern is shown in first figure. A step graph in increasing order below the image shows actual light intensities of the above pattern. The graph appears uniform as the grey strips are also uniform, but they are not. Instead, they are perceived darker on the dark side and lighter on the light side of the edge as depicted in the graph below it, which shows a step graph with spikes at the beginning of the next step.](../resources/Figure_26_03_05.jpg "The importance of edges is shown. Although the grey strips are uniformly shaded, as indicated by the graph immediately below them, they do not appear uniform at all. Instead, they are perceived darker on the dark side and lighter on the light side of the edge, as shown in the bottom graph. This is due to nerve impulse processing in the eye.")
+![An image of black and gray gradient in stripes pattern is shown in first figure. A step graph in increasing order below the image shows actual light intensities of the above pattern. The graph appears uniform as the grey strips are also uniform, but they are not. Instead, they are perceived darker on the dark side and lighter on the light side of the edge as depicted in the graph below it, which shows a step graph with spikes at the beginning of the next step.](../resources/Figure_26_03_05.jpg 'The importance of edges is shown. Although the grey strips are uniformly shaded, as indicated by the graph immediately below them, they do not appear uniform at all. Instead, they are perceived darker on the dark side and lighter on the light side of the edge, as shown in the bottom graph. This is due to nerve impulse processing in the eye.')
 {: #Figure5}
 
 One theory that takes various factors into account was advanced by Edwin Land (
@@ -167,7 +166,6 @@ PhET Explorations: Color Vision
 Make a whole rainbow by mixing red, green, and blue light. Change the wavelength of a monochromatic beam or filter white light. View the light as a solid beam, or see the individual photons. 
 {: class="newline"}
 
-
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
@@ -177,20 +175,20 @@ Make a whole rainbow by mixing red, green, and blue light. Change the wavelength
 
 ### Section Summary
 
-* The eye has four types of light receptors—rods and three types of
+- The eye has four types of light receptors—rods and three types of
   color-sensitive cones.
-* The rods are good for night vision, peripheral vision, and motion changes,
+- The rods are good for night vision, peripheral vision, and motion changes,
   while the cones are responsible for central vision and color.
-* We perceive many hues, from light having mixtures of wavelengths.
-* A simplified theory of color vision states that there are three primary
+- We perceive many hues, from light having mixtures of wavelengths.
+- A simplified theory of color vision states that there are three primary
   colors, which correspond to the three types of cones, and that various
   combinations of the primary colors produce all the hues.
-* The true color of an object is related to its relative absorption of various
+- The true color of an object is related to its relative absorption of various
   wavelengths of light. The color of a light source is related to the
   wavelengths it produces.
-* Color constancy is the ability of the eye-brain system to discern the true
+- Color constancy is the ability of the eye-brain system to discern the true
   color of an object illuminated by various light sources.
-* The retinex theory of color vision explains color constancy by postulating the
+- The retinex theory of color vision explains color constancy by postulating the
   existence of three retinexes or image systems, associated with the three types
   of cones that are compared to obtain sophisticated information.
 

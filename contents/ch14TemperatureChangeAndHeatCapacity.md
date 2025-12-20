@@ -16,7 +16,7 @@ phase change and that no work is done on or by the system. Experiments show that
 the transferred heat depends on three factors—the change in temperature, the
 mass of the system, and the substance and phase of the substance.
 
-![Figure a shows a copper-colored cylinder of mass m and temperature change delta T. The heat Q, shown as a wavy rightward horizontal arrow, is transferred to the cylinder from the left. To the right of this image is a similar image, except that the heat transferred Q prime is twice the heat Q. The temperature change of this second cylinder, which is also labeled m, is two delta T. This cylinder is surrounded by small black wavy lines radiating outward. Figure b shows the same two cylinders as in Figure a. The left cylinder is labeled m and delta T and has a wavy heat arrow pointing at it from the left that is labeled Q. The right cylinder is labeled two m and delta T and has a wavy heat arrow pointing to it from the left labeled Q prime equals two Q. Figure c shows the same copper cylinder of mass m and with temperature change delta T, with heat Q being transferred to it. To the right of this cylinder, Q prime equals ten point eight times Q is being transferred to another cylinder filled with water whose mass and change in temperature are the same as that of the copper cylinder.](../resources/Figure_14_02_01.jpg "The heat \( Q \) transferred to cause a temperature change depends on the magnitude of the temperature change, the mass of the system, and the substance and phase involved. (a) The amount of heat transferred is directly proportional to the temperature change. To double the temperature change of a mass \( m \) , you need to add twice the heat. (b) The amount of heat transferred is also directly proportional to the mass. To cause an equivalent temperature change in a doubled mass, you need to add twice the heat. (c) The amount of heat transferred depends on the substance and its phase. If it takes an amount \( Q \) of heat to cause a temperature change \(\Delta T \) in a given mass of copper, it will take 10.8 times that amount of heat to cause the equivalent temperature change in the same mass of water assuming no phase change in either substance.")
+![Figure a shows a copper-colored cylinder of mass m and temperature change delta T. The heat Q, shown as a wavy rightward horizontal arrow, is transferred to the cylinder from the left. To the right of this image is a similar image, except that the heat transferred Q prime is twice the heat Q. The temperature change of this second cylinder, which is also labeled m, is two delta T. This cylinder is surrounded by small black wavy lines radiating outward. Figure b shows the same two cylinders as in Figure a. The left cylinder is labeled m and delta T and has a wavy heat arrow pointing at it from the left that is labeled Q. The right cylinder is labeled two m and delta T and has a wavy heat arrow pointing to it from the left labeled Q prime equals two Q. Figure c shows the same copper cylinder of mass m and with temperature change delta T, with heat Q being transferred to it. To the right of this cylinder, Q prime equals ten point eight times Q is being transferred to another cylinder filled with water whose mass and change in temperature are the same as that of the copper cylinder.](../resources/Figure_14_02_01.jpg 'The heat ( Q ) transferred to cause a temperature change depends on the magnitude of the temperature change, the mass of the system, and the substance and phase involved. (a) The amount of heat transferred is directly proportional to the temperature change. To double the temperature change of a mass ( m ) , you need to add twice the heat. (b) The amount of heat transferred is also directly proportional to the mass. To cause an equivalent temperature change in a doubled mass, you need to add twice the heat. (c) The amount of heat transferred depends on the substance and its phase. If it takes an amount ( Q ) of heat to cause a temperature change (\\Delta T ) in a given mass of copper, it will take 10.8 times that amount of heat to cause the equivalent temperature change in the same mass of water assuming no phase change in either substance.')
 {: #Figure1}
 
 The dependence on temperature change and mass are easily understood. Owing to
@@ -134,7 +134,7 @@ given temperature change for the water as compared to the aluminum pan.
 
 </div>
 
-![The figure shows a truck coming from the left and moving on a road which is sloping downhill to the right. Smoke is coming from the area of the wheels of the truck.](../resources/Figure_14_02_02.jpg "The smoking brakes on this truck are a visible evidence of the mechanical equivalent of heat.")
+![The figure shows a truck coming from the left and moving on a road which is sloping downhill to the right. Smoke is coming from the area of the wheels of the truck.](../resources/Figure_14_02_02.jpg 'The smoking brakes on this truck are a visible evidence of the mechanical equivalent of heat.')
 {: #Figure2}
 
 <div id="Example2" class="example" markdown="1">
@@ -332,7 +332,7 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
 
 **Solution**
 
-1. Use the equation for heat transfer $$Q=mc\Delta T $$     
+1. Use the equation for heat transfer $$Q=mc\Delta T $$  
    to express the heat lost by the aluminum pan in terms of the mass of the pan,
    the specific heat of aluminum, the initial temperature of the pan, and the
    final temperature:
@@ -349,8 +349,8 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
    \text{.} $$
    </div>
 
-3. Note that $${Q}_{\text{hot}}<0 $$     
-   and $${Q}_{\text{cold}}>0 $$     
+3. Note that $${Q}_{\text{hot}}<0 $$  
+   and $${Q}_{\text{cold}}>0 $$  
    and that they must sum to zero because the heat lost by the hot pan must be
    the same as the heat gained by the cold water:
    <div class="equation" >
@@ -363,7 +363,7 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
 4. This an equation for the unknown final temperature, $${T}_{\text{f}} $$
 5. Bring all terms involving $${T}_{\text{f}} $$     
    on the left-hand side and all other terms on the right-hand side. Solve for
-   $${T}_{\text{f}} $$ ,
+   $${T}\_{\text{f}} $$ ,
    <div class="equation" >
    $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150
    \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_
@@ -378,7 +378,7 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
 
 **Discussion**
 
-This is a typical *calorimetry* problem—two bodies at different temperatures are
+This is a typical _calorimetry_ problem—two bodies at different temperatures are
 brought in contact with each other and exchange heat until a common temperature
 is reached. Why is the final temperature so much closer to $$20.0 \text{ºC} $$
 than $$150 \text{ºC} $$ ? The reason is that water has a greater specific heat
@@ -399,15 +399,15 @@ What heats faster, land or water?
 
 To study differences in heat capacity:
 
-* Place equal masses of dry sand (or soil) and water at the same temperature
+- Place equal masses of dry sand (or soil) and water at the same temperature
   into two small jars. (The average density of soil or sand is about 1.6 times
   that of water, so you can achieve approximately equal masses by using $$50 \%
   $$ more water by volume.)
-* Heat both (using an oven or a heat lamp) for the same amount of time.
-* Record the final temperature of the two masses.
-* Now bring both jars to the same temperature by heating for a longer period of
+- Heat both (using an oven or a heat lamp) for the same amount of time.
+- Record the final temperature of the two masses.
+- Now bring both jars to the same temperature by heating for a longer period of
   time.
-* Remove the jars from the heat source and measure their temperature every 5
+- Remove the jars from the heat source and measure their temperature every 5
   minutes for about 30 minutes.
 
 Which sample cools off the fastest? This activity replicates the phenomena
@@ -434,7 +434,7 @@ The heat transfer depends only on the temperature difference. Since the temperat
 
 ### Summary
 
-* The transfer of heat $$Q $$ that leads to a change $$\Delta T $$ in the
+- The transfer of heat $$Q $$ that leads to a change $$\Delta T $$ in the
   temperature of a body with mass $$m $$ is $$Q=mc\Delta T $$ , where $$c $$ is
   the specific heat of the material. This relationship can also be considered as
   the definition of specific heat.
@@ -568,21 +568,21 @@ Even when shut down after a period of normal use, a large commercial nuclear rea
 </div>
 </div>
 
-![The figure shows a view from above of a radioactive spent fuel pool inside a nuclear power plant.](../resources/Figure_14_02_03.jpg "Radioactive spent-fuel pool at a nuclear power plant. Spent fuel stays hot for a long time. (credit: U.S. Department of Energy)")
+![The figure shows a view from above of a radioactive spent fuel pool inside a nuclear power plant.](../resources/Figure_14_02_03.jpg 'Radioactive spent-fuel pool at a nuclear power plant. Spent fuel stays hot for a long time. (credit: U.S. Department of Energy)')
 {: #Figure3}
 
 <div class="footnote-refs" markdown="1">
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">The values for solids
   and liquids are at constant volume and at $$25 \text{ºC} $$ , except as
   noted.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content">These values are
   identical in units of $$\text{cal/g}\cdot ºC $$ .</span>
-* {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
+- {: class="footnote-ref" #footnote3} [3](#footnote-ref3){: class="
   footnote-ref-link"} <span class="footnote-ref-content"> $${c}_{\text{v}} $$ at
   constant volume and at $$ 20.0ºC $$ , except as noted, and at 1.00 atm average
   pressure. Values in parentheses are $${c}_{\text{p}} $$ at a constant pressure

@@ -21,7 +21,7 @@ all interference depends in some way on the ratio of $$\lambda $$ to the size of
 the object involved, we should expect to see different colors for different
 thicknesses of a film, as in [[Figure 1]](#Figure1).
 
-![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_07_01.jpg "These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)")
+![Soap bubbles reflecting mostly purple and blue light with some regions of orange.](../resources/Figure_27_07_01.jpg 'These soap bubbles exhibit brilliant colors when exposed to sunlight. (credit: Scott Robinson, Flickr)')
 {: #Figure1}
 
 What causes thin film interference? [[Figure 2]](#Figure2) shows how light
@@ -44,7 +44,7 @@ occur upon reflection. The rule is as follows:
 that of the medium in which it is traveling, a $$180 ^\circ $$ phase change (
 or a $$\lambda /2 $$ shift) occurs.**
 
-![The figure shows three materials, or media, stacked one upon the other. The topmost medium is labeled n one, the next is labeled n two and its thickness is t, and the lowest is labeled n three. A light ray labeled incident light starts in the n one medium and propagates down and to the right to strike the n one n two interface. The ray gets partially reflected and partially refracted. The partially reflected ray is labeled ray one. The refracted ray continues downward in the n two medium and is reflected back up from the n two n three interface. This reflected ray, labeled ray two, refracts again upon passing up through the n two n one interface and continues upward parallel to ray one. Ray one and ray two then enter an observer&#x2019;s eye.](../resources/Figure_27_07_02.jpg "Light striking a thin film is partially reflected (ray 1) and partially refracted at the top surface. The refracted ray is partially reflected at the bottom surface and emerges as ray 2. These rays will interfere in a way that depends on the thickness of the film and the indices of refraction of the various media.")
+![The figure shows three materials, or media, stacked one upon the other. The topmost medium is labeled n one, the next is labeled n two and its thickness is t, and the lowest is labeled n three. A light ray labeled incident light starts in the n one medium and propagates down and to the right to strike the n one n two interface. The ray gets partially reflected and partially refracted. The partially reflected ray is labeled ray one. The refracted ray continues downward in the n two medium and is reflected back up from the n two n three interface. This reflected ray, labeled ray two, refracts again upon passing up through the n two n one interface and continues upward parallel to ray one. Ray one and ray two then enter an observer’s eye.](../resources/Figure_27_07_02.jpg 'Light striking a thin film is partially reflected (ray 1) and partially refracted at the top surface. The refracted ray is partially reflected at the bottom surface and emerges as ray 2. These rays will interfere in a way that depends on the thickness of the film and the indices of refraction of the various media.')
 {: #Figure2}
 
 If the film in [[Figure 2]](#Figure2) is a soap bubble (essentially water with
@@ -64,8 +64,8 @@ in vacuum and $$n $$ is the index of refraction), constructive or destructive
 interference occurs, depending also on whether there is a phase change in either
 ray.
 
-Thin-film interference has created an entire field of research and industrial applications. Its foundations were laid by Irving Langmuir and Katharine Burr Blodgett, working at General Electric in the 1920s and 1930s. Langmuir had pioneered a method for producing ultra-thin layers on materials. Blodgett built on these practices by creating a method to precisely stack and compress these layers in order to produce a film of a desired thickness and quality. The device they developed became known as the Langmuir-Blodgett trough, built from principles developed by Agnes Pockels and still used in laboratories today. The earliest widely applied use of these principles was non-reflective glass, which Blodgett patented in 1938 and which was used almost immediately in the making of 
-the film *Gone With the Wind*. The film is viewed as a tremendous leap in cinematography; cameras, microscopes, telescopes, and many other instruments rely on Blodgett's invention as well.
+Thin-film interference has created an entire field of research and industrial applications. Its foundations were laid by Irving Langmuir and Katharine Burr Blodgett, working at General Electric in the 1920s and 1930s. Langmuir had pioneered a method for producing ultra-thin layers on materials. Blodgett built on these practices by creating a method to precisely stack and compress these layers in order to produce a film of a desired thickness and quality. The device they developed became known as the Langmuir-Blodgett trough, built from principles developed by Agnes Pockels and still used in laboratories today. The earliest widely applied use of these principles was non-reflective glass, which Blodgett patented in 1938 and which was used almost immediately in the making of
+the film _Gone With the Wind_. The film is viewed as a tremendous leap in cinematography; cameras, microscopes, telescopes, and many other instruments rely on Blodgett's invention as well.
 
 <div id="Example1" class="example" markdown="1">
 <div class="title">
@@ -140,11 +140,11 @@ must be a half-integral multiple of the wavelength—the first three being
 $${\lambda }_{n}/2, {3\lambda }_{n}/2 $$ , and $${5\lambda }_{n}/2 $$ . To get
 destructive interference, the path length difference must be an integral
 multiple of the wavelength—the first three being $$0, {\lambda }_{n} $$ , and
-$${2\lambda }_{n} $$.
+$${2\lambda }\_{n} $$.
 
 **Solution for (a)**
 
-*Constructive interference* occurs here when
+_Constructive interference_ occurs here when
 
 <div class="equation" >
  $$2{t}_{\text{c}}=\frac{ {\lambda }_{n}}{2}, \frac{ {3\lambda }_{n}}{2}, \frac{ {5\lambda }_{n}}{2}\text{,}\dots . $$
@@ -169,7 +169,7 @@ Finally, the third thickness producing constructive interference is  $${t^{\prim
 </div>
 **Solution for (b)**
 
-For *destructive interference*, the path length difference here is an integral
+For _destructive interference_, the path length difference here is an integral
 multiple of the wavelength. The first occurs for zero thickness, since there is
 a phase change at the top surface. That is,
 
@@ -213,7 +213,7 @@ see, because slight changes in incident angle have greater effects on path
 length differences. If pure-wavelength light instead of white light is used,
 then bright and dark bands are obtained rather than repeating rainbow colors.
 
-![Figure A shows two microscope slides that have been pressed together. Multicolor swirling rainbow bands are visible coming from the slides. Figure B shows a cross section of two glass slides stacked one on top of the other. The lower slide is horizontal and the upper slide is tilted up at an angle that is larger than the actual angle between slides would be. Two rays come from above and impinge upon the slides. Their refraction and partial reflection is shown at each glass air interface.](../resources/Figure_27_07_03.jpg "(a) The rainbow color bands are produced by thin film interference in the air between the two glass slides. (b) Schematic of the paths taken by rays in the wedge of air between the slides.")
+![Figure A shows two microscope slides that have been pressed together. Multicolor swirling rainbow bands are visible coming from the slides. Figure B shows a cross section of two glass slides stacked one on top of the other. The lower slide is horizontal and the upper slide is tilted up at an angle that is larger than the actual angle between slides would be. Two rays come from above and impinge upon the slides. Their refraction and partial reflection is shown at each glass air interface.](../resources/Figure_27_07_03.jpg '(a) The rainbow color bands are produced by thin film interference in the air between the two glass slides. (b) Schematic of the paths taken by rays in the wedge of air between the slides.')
 {: #Figure3}
 
 An important application of thin film interference is found in the manufacturing
@@ -229,7 +229,7 @@ increase of only one wavelength in the distance between the lens and the blank,
 so that great precision can be obtained. Once the lens is perfect, there will be
 no rings.
 
-![This figure shows rainbow-colored concentric rings obtained when two plano-convex lenses are placed together with their flat surfaces in contact.](../resources/Figure_27_07_04.jpg "&#x201C;Newton's rings&#x201D; interference fringes are produced when two plano-convex lenses are placed together with their plane surfaces in contact. The rings are created by interference between the light reflected off the two surfaces as a result of a slight gap between them, indicating that these surfaces are not precisely plane but are slightly convex. (credit: Ulf Seifert, Wikimedia Commons)")
+![This figure shows rainbow-colored concentric rings obtained when two plano-convex lenses are placed together with their flat surfaces in contact.](../resources/Figure_27_07_04.jpg "“Newton's rings” interference fringes are produced when two plano-convex lenses are placed together with their plane surfaces in contact. The rings are created by interference between the light reflected off the two surfaces as a result of a slight gap between them, indicating that these surfaces are not precisely plane but are slightly convex. (credit: Ulf Seifert, Wikimedia Commons)")
 {: #Figure4}
 
 The wings of certain moths and butterflies have nearly iridescent colors due to
@@ -254,49 +254,50 @@ One feature of thin film interference and diffraction gratings is that the patte
 </div>
 
 ### Problem-Solving Strategies for Wave Optics
+
 {: #Note1}
 
-**Step 1.** *Examine the situation to determine that interference is involved*.
+**Step 1.** _Examine the situation to determine that interference is involved_.
 Identify whether slits or thin film interference are considered in the problem.
 
-**Step 2.** *If slits are involved*, note that diffraction gratings and double
+**Step 2.** _If slits are involved_, note that diffraction gratings and double
 slits produce very similar interference patterns, but that gratings have
 narrower (sharper) maxima. Single slit patterns are characterized by a large
 central maximum and smaller maxima to the sides.
 
-**Step 3.** *If thin film interference is involved, take note of the path length
-difference between the two rays that interfere*. Be certain to use the
+**Step 3.** _If thin film interference is involved, take note of the path length
+difference between the two rays that interfere_. Be certain to use the
 wavelength in the medium involved, since it differs from the wavelength in
 vacuum. Note also that there is an additional $$\lambda /2 $$ phase shift when
 light reflects from a medium with a greater index of refraction.
 
-**Step 4.** *Identify exactly what needs to be determined in the problem (
-identify the unknowns)*. A written list is useful. Draw a diagram of the
+**Step 4.** _Identify exactly what needs to be determined in the problem (
+identify the unknowns)_. A written list is useful. Draw a diagram of the
 situation. Labeling the diagram is useful.
 
-**Step 5.** *Make a list of what is given or can be inferred from the problem as
-stated (identify the knowns)*.
+**Step 5.** _Make a list of what is given or can be inferred from the problem as
+stated (identify the knowns)_.
 
-**Step 6.** *Solve the appropriate equation for the quantity to be determined (
-the unknown), and enter the knowns*. Slits, gratings, and the Rayleigh limit
+**Step 6.** _Solve the appropriate equation for the quantity to be determined (
+the unknown), and enter the knowns_. Slits, gratings, and the Rayleigh limit
 involve equations.
 
-**Step 7.** *For thin film interference, you will have constructive interference
+**Step 7.** _For thin film interference, you will have constructive interference
 for a total shift that is an integral number of wavelengths. You will have
 destructive interference for a total shift of a half-integral number of
-wavelengths*. Always keep in mind that crest to crest is constructive whereas
+wavelengths_. Always keep in mind that crest to crest is constructive whereas
 crest to trough is destructive.
 
-**Step 8.** *Check to see if the answer is reasonable: Does it make sense?*
+**Step 8.** _Check to see if the answer is reasonable: Does it make sense?_
 Angles in interference patterns cannot be greater than $$90 ^\circ $$ , for
 example.
 
 ### Section Summary
 
-* Thin film interference occurs between the light reflected from the top and
+- Thin film interference occurs between the light reflected from the top and
   bottom surfaces of a film. In addition to the path length difference, there
   can be a phase change.
-* When light reflects from a medium having an index of refraction greater than
+- When light reflects from a medium having an index of refraction greater than
   that of the medium in which it is traveling, a $$180 ^\circ $$ phase
   change (or a $$\lambda /2 $$ shift) occurs.
 

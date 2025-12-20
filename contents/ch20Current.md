@@ -17,7 +17,7 @@ Electric current is defined to be the rate at which charge flows. A large
 current, such as that used to start a truck engine, moves a large amount of
 charge in a small time, whereas a small current, such as that used to operate a
 hand-held calculator, moves a small amount of charge over a long period of time.
-In equation form, **electric current**  $$I $$ is defined to be
+In equation form, **electric current** $$I $$ is defined to be
 
 <div class="equation" >
  $$I=\frac{\Delta Q}{\Delta t}\text{,} $$
@@ -38,7 +38,7 @@ Q/\Delta t $$ , we see that an ampere is one coulomb per second:
 Not only are fuses and circuit breakers rated in amperes (or amps), so are many
 electrical appliances.
 
-![Charges are shown as small spheres moving through a section of a conducting wire. The direction of movement of charge is indicated by arrows along the length of the conductor toward the right. The cross-sectional area of the wire is labeled as A. The current is equal to the flow of charge.](../resources/Figure_20_01_01.jpg "The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.")
+![Charges are shown as small spheres moving through a section of a conducting wire. The direction of movement of charge is indicated by arrows along the length of the conductor toward the right. The cross-sectional area of the wire is labeled as A. The current is equal to the flow of charge.](../resources/Figure_20_01_01.jpg 'The rate of flow of charge is current. An ampere is the flow of one coulomb through an area in one second.')
 {: #Figure1}
 
 <div id="Example1" class="example" markdown="1">
@@ -103,7 +103,7 @@ schematics are useful because the analysis is the same for a wide variety of
 situations. We need to understand a few schematics to apply the concepts and
 analysis to many more situations.
 
-![Part a shows a bulb glowing when its terminals are connected to a battery through a wire. The voltage of the battery is labeled as V. The current through the bulb is represented as I, and the current direction is shown using arrows emerging from the positive terminal of the battery, passing through the bulb, and entering the negative terminal of the battery. Part b shows an electric circuit diagram with a resistance connected across the terminals of a battery of voltage V. The current is shown using arrows as emerging from the positive terminal of the battery, passing through the resistance, and entering the negative terminal of the battery.](../resources/Figure_20_01_02.jpg "(a) A simple electric circuit. A closed path for current to flow through is supplied by conducting wires connecting a load to the terminals of a battery. (b) In this schematic, the battery is represented by the two parallel red lines, conducting wires are shown as straight lines, and the zigzag represents the load. The schematic represents a wide variety of similar circuits.")
+![Part a shows a bulb glowing when its terminals are connected to a battery through a wire. The voltage of the battery is labeled as V. The current through the bulb is represented as I, and the current direction is shown using arrows emerging from the positive terminal of the battery, passing through the bulb, and entering the negative terminal of the battery. Part b shows an electric circuit diagram with a resistance connected across the terminals of a battery of voltage V. The current is shown using arrows as emerging from the positive terminal of the battery, passing through the resistance, and entering the negative terminal of the battery.](../resources/Figure_20_01_02.jpg '(a) A simple electric circuit. A closed path for current to flow through is supplied by conducting wires connecting a load to the terminals of a battery. (b) In this schematic, the battery is represented by the two parallel red lines, conducting wires are shown as straight lines, and the zigzag represents the load. The schematic represents a wide variety of similar circuits.')
 {: #Figure2}
 
 Note that the direction of current flow in [[Figure 2]](#Figure2) is from
@@ -139,7 +139,7 @@ other; electrons flow due to mutually repulsive electrostatic forces.
 
 </div>
 
-![In part a, positive charges move toward the right through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, in the same direction as movement of positive charge. The current direction is also toward the right, shown by an arrow. In part b, negative charges move toward the left through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, opposite the direction of movement of negative charge. The current direction is also toward the right, shown by an arrow.](../resources/Figure_20_01_03.jpg "Current \( I \) is the rate at which charge moves through an area \( A \) , such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow. ")
+![In part a, positive charges move toward the right through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, in the same direction as movement of positive charge. The current direction is also toward the right, shown by an arrow. In part b, negative charges move toward the left through a conducting wire. The direction of movement of charge is indicated by arrows along the length of the wire. The area of a cross section of the wire is labeled as A. The direction of the electric field E is toward the right, opposite the direction of movement of negative charge. The current direction is also toward the right, shown by an arrow.](../resources/Figure_20_01_03.jpg 'Current ( I ) is the rate at which charge moves through an area ( A ) , such as the cross-section of a wire. Conventional current is defined to move in the direction of the electric field. (a) Positive charges move in the direction of the electric field and the same direction as conventional current. (b) Negative charges move in the direction opposite to the electric field. Conventional current is in the direction opposite to the movement of negative charge. The flow of electrons is sometimes referred to as electronic flow. ')
 {: #Figure3}
 
 <div id="Example2" class="example" markdown="1">
@@ -206,7 +206,7 @@ passed on rapidly. The resulting electrical shock wave moves through the system
 at nearly the speed of light. To be precise, this rapidly moving signal or shock
 wave is a rapidly propagating change in electric field.
 
-![Negatively charged electrons move through a conducting wire. Two electrons are shown entering the wire from one end, and two electrons are shown leaving the wire at the other end. The direction of movement of charge is indicated by arrows along the length of the wire toward the right. Some electrons are shown inside the wire.](../resources/Figure_20_01_04.jpg "When charged particles are forced into this volume of a conductor, an equal number are quickly forced to leave. The repulsion between like charges makes it difficult to increase the number of charges in a volume. Thus, as one charge enters, another leaves almost immediately, carrying the signal rapidly forward.")
+![Negatively charged electrons move through a conducting wire. Two electrons are shown entering the wire from one end, and two electrons are shown leaving the wire at the other end. The direction of movement of charge is indicated by arrows along the length of the wire toward the right. Some electrons are shown inside the wire.](../resources/Figure_20_01_04.jpg 'When charged particles are forced into this volume of a conductor, an equal number are quickly forced to leave. The repulsion between like charges makes it difficult to increase the number of charges in a volume. Thus, as one charge enters, another leaves almost immediately, carrying the signal rapidly forward.')
 {: #Figure4}
 
 Good conductors have large numbers of free charges in them. In metals, the free
@@ -216,13 +216,13 @@ between collisions with atoms or other electrons is quite small. The electron
 paths thus appear nearly random, like the motion of atoms in a gas. But there is
 an electric field in the conductor that causes the electrons to drift in the
 direction shown (opposite to the field, since they are negative). The **drift
-velocity**  $${v}_{\text{d}} $$ is the average velocity of the free charges.
+velocity** $${v}_{\text{d}} $$ is the average velocity of the free charges.
 Drift velocity is quite small, since there are so many free charges. If we have
 an estimate of the density of free electrons in a conductor, we can calculate
 the drift velocity for a given current. The larger the density, the lower the
 velocity required for a given current.
 
-![The diagram shows a section of a conducting wire. A free electron is shown in the wire, and the path of the electron is shown as zigzag arrows along the length of the wire. The path is shown beginning at one end of the wire and ending at the other end. The drift velocity, v sub d, is indicated by an arrow toward the right, opposite the direction of the electric field E and the current I.](../resources/Figure_20_01_05.jpg "Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of the free charges is called the drift velocity, \( v_{d} \), and it is in the direction opposite to the electric field for electrons. The collisions normally transfer energy to the conductor, requiring a constant supply of energy to maintain a steady current.")
+![The diagram shows a section of a conducting wire. A free electron is shown in the wire, and the path of the electron is shown as zigzag arrows along the length of the wire. The path is shown beginning at one end of the wire and ending at the other end. The drift velocity, v sub d, is indicated by an arrow toward the right, opposite the direction of the electric field E and the current I.](../resources/Figure_20_01_05.jpg 'Free electrons moving in a conductor make many collisions with other electrons and atoms. The path of one electron is shown. The average velocity of the free charges is called the drift velocity, ( v_{d} ), and it is in the direction opposite to the electric field for electrons. The collisions normally transfer energy to the conductor, requiring a constant supply of energy to maintain a steady current.')
 {: #Figure5}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -281,7 +281,7 @@ of a material with a free charge density $$n $$ . The carriers of the current
 each have charge $$q $$ and move with a drift velocity of magnitude $${v}_
 {\text{d}} $$.
 
-![Charges are shown moving through a section of a conducting wire. The charges have a drift velocity v sub d along the length of the wire, shown by an arrow pointing to the right. The volume of a segment of the wire is equal to A times x, where x equals the product of the drift velocity, v sub d, and time t. A cross section of the wire is marked as A, and the length of the section is x.](../resources/Figure_20_01_06.jpg "All the charges in the shaded volume of this wire move out in a time \( t \) , having a drift velocity of magnitude \( v_\text{d}=x/t \) . See text for further discussion.")
+![Charges are shown moving through a section of a conducting wire. The charges have a drift velocity v sub d along the length of the wire, shown by an arrow pointing to the right. The volume of a segment of the wire is equal to A times x, where x equals the product of the drift velocity, v sub d, and time t. A cross section of the wire is marked as A, and the length of the section is x.](../resources/Figure_20_01_06.jpg 'All the charges in the shaded volume of this wire move out in a time ( t ) , having a drift velocity of magnitude ( v_\\text{d}=x/t ) . See text for further discussion.')
 {: #Figure6}
 
 Note that simple drift velocity is not the entire story. The speed of an
@@ -308,7 +308,9 @@ Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a
 
 We can calculate the drift velocity using the equation $$I= n q A v_d $$ . The
 current $$I=20.0 \text{A} $$ is given, and $$q= -1.60 \times 10^{-19} \text{C}
-$$ is the charge of an electron. We can calculate the area of a cross-section of
+
+$$
+is the charge of an electron. We can calculate the area of a cross-section of
 the wire using the formula $$A=\pi {r}^{2}, $$ where $$r $$ is one-half the
 given diameter, 2.053 mm. We are given the density of copper, $$8.80 \times
 10^{3} {\text{kg/m}}^{3}, $$ and the periodic table shows that the atomic mass
@@ -323,8 +325,10 @@ electron per copper atom. Therefore, is the same as the number of copper atoms
 per $$\text{m}^{3} $$ . We can now find $$n $$ as follows:
 
 <div class="equation" >
- $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23}  \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3}  \text{kg}}{ {1 \text{m}}^{3}}\\ 
-  n & =&  8.342  \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array} $$
+ $$\begin{array}{lll}n& =& \frac{1 {e}^{-}}{\text{atom}}×\frac{ 6.02 \times 10^{23}  \text{atoms}}{\text{mol}}×\frac{1 mol}{63.54 \text{g}}×\frac{1000 \text{g}}{\text{kg}}×\frac{ 8.80 \times 10^{3}  \text{kg}}{ {1 \text{m}}^{3}}\\
+  n & =&  8.342  \times 10^{28} {e}^{-}{\text{/m}}^{3}\text{.}\end{array}
+$$
+
 </div>
 The cross-sectional area of the wire is
 
@@ -354,29 +358,29 @@ than the charges that carry it.
 
 ### Section Summary
 
-* Electric current $$I $$ is the rate at which charge flows, given by
+- Electric current $$I $$ is the rate at which charge flows, given by
 
   <div class="equation" >
    $$I=\frac{\Delta Q}{\Delta t}\text{,} $$
   </div>
      where
    $$\Delta Q $$ is the amount of charge passing through an area in time
-   $$\Delta t $$ . 
+   $$\Delta t $$ .
 
-* The direction of conventional current is taken as the direction in which
+- The direction of conventional current is taken as the direction in which
   positive charge moves.
-* The SI unit for current is the ampere (A), where $$1 \text{A}=1 \text{C/s}
+- The SI unit for current is the ampere (A), where $$1 \text{A}=1 \text{C/s}
   \text{.} $$
-* Current is the flow of free charges, such as electrons and ions.
-* Drift velocity $${v}_{\text{d}} $$ is the average speed at which these charges
+- Current is the flow of free charges, such as electrons and ions.
+- Drift velocity $${v}_{\text{d}} $$ is the average speed at which these charges
   move.
-* Current $$I $$ is proportional to drift velocity $${v}_{\text{d}} $$ , as
+- Current $$I $$ is proportional to drift velocity $${v}_{\text{d}} $$ , as
   expressed in the relationship $$I=nqAv_{\text{d}} $$ . Here, $$I $$
   is the current through a wire of cross-sectional area $$A $$ . The wire’s
   material has a free-charge density $$n $$ , and each carrier has charge $$q $$
   and a drift velocity $${v}_{\text{d}} $$ .
 
-* Electrical signals travel at speeds about $$ 10^{12} $$ times greater than the
+- Electrical signals travel at speeds about $$ 10^{12} $$ times greater than the
   drift velocity of free electrons.
 
 ### Conceptual Questions
@@ -434,29 +438,7 @@ What is the current in milliamperes produced by the solar cells of a pocket calc
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-We use the definition of current $$I = \Delta Q / \Delta t$$ to find the current. We need to convert time from hours to seconds for proper SI units.
-
-**Solution**
-
-First, convert time to seconds:
-
-<div class="equation">
-$$\Delta t = 4.00 \text{ h} \times \frac{3600 \text{ s}}{1 \text{ h}} = 1.44 \times 10^{4} \text{ s}$$
-</div>
-
-Now apply the definition of current:
-
-<div class="equation">
-$$I = \frac{\Delta Q}{\Delta t} = \frac{4.00 \text{ C}}{1.44 \times 10^{4} \text{ s}} = 2.78 \times 10^{-4} \text{ A} = 0.278 \text{ mA}$$
-</div>
-
-**Discussion**
-
-This small current is typical of low-power electronic devices like calculators. The solar cells provide just enough current to operate the calculator's circuits, which require very little power. This demonstrates why calculators can run for extended periods on minimal energy input.
-
-The current produced by the solar cells is 0.278 mA.
+0.278 mA
 
 </div>
 </div>
@@ -469,17 +451,17 @@ A total of 600 C of charge passes through a flashlight in 0.500 h. What is the a
 <div class="solution" markdown="1">
 **Strategy**
 
-We apply the definition of current $$I = \Delta Q / \Delta t$$ directly. The time must be converted from hours to seconds.
+We use the definition of electric current as the rate of charge flow: $$I = \frac{\Delta Q}{\Delta t}$$. The charge is given directly, but the time must be converted from hours to seconds to obtain the current in amperes.
 
 **Solution**
 
-Convert time to seconds:
+First, convert the time to seconds:
 
 <div class="equation">
 $$\Delta t = 0.500 \text{ h} \times \frac{3600 \text{ s}}{1 \text{ h}} = 1800 \text{ s}$$
 </div>
 
-Calculate the current:
+Now apply the definition of current:
 
 <div class="equation">
 $$I = \frac{\Delta Q}{\Delta t} = \frac{600 \text{ C}}{1800 \text{ s}} = 0.333 \text{ A} = 333 \text{ mA}$$
@@ -487,9 +469,9 @@ $$I = \frac{\Delta Q}{\Delta t} = \frac{600 \text{ C}}{1800 \text{ s}} = 0.333 \
 
 **Discussion**
 
-This current of 0.333 A (or 333 mA) is much larger than the calculator current in the previous problem, which makes sense because a flashlight bulb requires considerably more power to produce light. Flashlight batteries must provide substantial current, which is why they drain relatively quickly during use.
+This current of about one-third of an ampere is typical for a flashlight. It is much larger than the milliamp currents in small electronics like calculators, but much smaller than the hundreds of amperes used to start a car engine. The flashlight bulb requires enough current to heat the filament to incandescence, which demands more power than a calculator's LED display but far less than overcoming the mechanical resistance of an engine.
 
-The average current through the flashlight is 0.333 A.
+The average current of 0.333 A through the flashlight is reasonable for illuminating a bulb.
 
 </div>
 </div>
@@ -501,33 +483,7 @@ What is the current when a typical static charge of  $$ 0.250 \mu \text{C} $$
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-We use $$I = \Delta Q / \Delta t$$ with the given charge and time values. Both quantities need to be converted to SI base units.
-
-**Solution**
-
-Convert the charge and time to SI units:
-
-<div class="equation">
-$$\Delta Q = 0.250 \text{ μC} = 0.250 \times 10^{-6} \text{ C}$$
-</div>
-
-<div class="equation">
-$$\Delta t = 1.00 \text{ μs} = 1.00 \times 10^{-6} \text{ s}$$
-</div>
-
-Calculate the current:
-
-<div class="equation">
-$$I = \frac{\Delta Q}{\Delta t} = \frac{0.250 \times 10^{-6} \text{ C}}{1.00 \times 10^{-6} \text{ s}} = 0.250 \text{ A}$$
-</div>
-
-**Discussion**
-
-Despite the tiny amount of charge involved, the extremely short discharge time results in a significant current of 0.250 A—comparable to the current through a small lightbulb. This explains why static shocks can be felt: the momentary current is substantial enough to stimulate nerve endings. The brief duration prevents any harmful effects.
-
-The current during the static discharge is 0.250 A.
+0.250 A
 
 </div>
 </div>
@@ -541,21 +497,21 @@ Find the current when 2.00 nC jumps between your comb and hair over a  $$0.500 \
 <div class="solution" markdown="1">
 **Strategy**
 
-Apply $$I = \Delta Q / \Delta t$$ after converting nanocoulombs and microseconds to SI base units.
+This problem involves the same fundamental relationship as static discharge: $$I = \frac{\Delta Q}{\Delta t}$$. The charge is given in nanocoulombs and the time in microseconds, so we must convert both to SI base units (coulombs and seconds) before calculating.
 
 **Solution**
 
-Convert units:
+Convert the given values to SI units:
 
 <div class="equation">
 $$\Delta Q = 2.00 \text{ nC} = 2.00 \times 10^{-9} \text{ C}$$
 </div>
 
 <div class="equation">
-$$\Delta t = 0.500 \text{ μs} = 0.500 \times 10^{-6} \text{ s} = 5.00 \times 10^{-7} \text{ s}$$
+$$\Delta t = 0.500 \text{ } \mu\text{s} = 0.500 \times 10^{-6} \text{ s} = 5.00 \times 10^{-7} \text{ s}$$
 </div>
 
-Calculate the current:
+Now calculate the current:
 
 <div class="equation">
 $$I = \frac{\Delta Q}{\Delta t} = \frac{2.00 \times 10^{-9} \text{ C}}{5.00 \times 10^{-7} \text{ s}} = 4.00 \times 10^{-3} \text{ A} = 4.00 \text{ mA}$$
@@ -563,9 +519,9 @@ $$I = \frac{\Delta Q}{\Delta t} = \frac{2.00 \times 10^{-9} \text{ C}}{5.00 \tim
 
 **Discussion**
 
-This current of 4.00 mA is below the threshold of sensation (about 1 mA for perception, 5 mA for harmless shocks), which is why small static discharges from combing hair often go unnoticed. The charge transferred is much smaller than in the doorknob example, and the resulting current, while brief, is correspondingly lower.
+This milliamp-level current during static discharge is consistent with the everyday experience of static shocks. Although the charge transferred is very small (nanocoulombs), the extremely short discharge time (microseconds) creates a measurable current. This brief but noticeable current is why static discharge can feel like a small shock, even though the total energy transferred is quite small.
 
-The current during the comb discharge is 4.00 mA.
+The current produced when 2.00 nC jumps between comb and hair in 0.500 μs is 4.00 mA.
 
 </div>
 </div>
@@ -576,23 +532,7 @@ A large lightning bolt had a 20 000-A current and moved 30.0 C of charge. What w
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-Rearrange the definition of current $$I = \Delta Q / \Delta t$$ to solve for time: $$\Delta t = \Delta Q / I$$.
-
-**Solution**
-
-Rearranging $$I = \Delta Q / \Delta t$$ for time:
-
-<div class="equation">
-$$\Delta t = \frac{\Delta Q}{I} = \frac{30.0 \text{ C}}{20\,000 \text{ A}} = \frac{30.0 \text{ C}}{2.00 \times 10^{4} \text{ A}} = 1.50 \times 10^{-3} \text{ s} = 1.50 \text{ ms}$$
-</div>
-
-**Discussion**
-
-Lightning bolts transfer enormous amounts of charge (30 C here compared to microcoulombs in static shocks) in extremely short times. The 1.50 ms duration seems brief, but this is actually relatively long for lightning—the massive current and charge transfer can cause significant damage, vaporizing materials and starting fires. The energy involved (power times time) is substantial despite the short duration because the current is so high.
-
-The lightning bolt lasted 1.50 ms.
+1.50ms
 
 </div>
 </div>
@@ -605,27 +545,27 @@ The 200-A current through a spark plug moves 0.300 mC of charge. How long does t
 <div class="solution" markdown="1">
 **Strategy**
 
-Use the rearranged current equation $$\Delta t = \Delta Q / I$$ to find the duration. Convert milliCoulombs to Coulombs first.
+We need to find the time duration given the current and charge. Starting from the definition $$I = \frac{\Delta Q}{\Delta t}$$, we can solve for time: $$\Delta t = \frac{\Delta Q}{I}$$. The charge must be converted from milliCoulombs to Coulombs.
 
 **Solution**
 
-Convert charge to SI units:
+Convert the charge to SI units:
 
 <div class="equation">
 $$\Delta Q = 0.300 \text{ mC} = 0.300 \times 10^{-3} \text{ C} = 3.00 \times 10^{-4} \text{ C}$$
 </div>
 
-Calculate the time:
+Solve for the time duration:
 
 <div class="equation">
-$$\Delta t = \frac{\Delta Q}{I} = \frac{3.00 \times 10^{-4} \text{ C}}{200 \text{ A}} = 1.50 \times 10^{-6} \text{ s} = 1.50 \text{ μs}$$
+$$\Delta t = \frac{\Delta Q}{I} = \frac{3.00 \times 10^{-4} \text{ C}}{200 \text{ A}} = 1.50 \times 10^{-6} \text{ s} = 1.50 \text{ }\mu\text{s}$$
 </div>
 
 **Discussion**
 
-The spark plug discharge lasts only 1.50 μs—a thousand times shorter than the lightning bolt, despite having a similar current magnitude of hundreds of amperes. The much smaller charge transferred means much less energy is involved, which is appropriate for reliably igniting fuel in an engine cylinder thousands of times per minute. This extremely brief, high-current pulse is precisely timed to ignite the fuel-air mixture at the optimal moment.
+A spark duration of 1.50 microseconds is extremely brief but physically reasonable for a spark plug. In automotive engines, spark plugs must fire rapidly and repeatedly—at high RPM, a 4-cylinder engine might require sparks at rates exceeding 100 per second per cylinder. The short duration allows the spark to initiate combustion without excessive electrode wear. The high current (200 A) during this brief interval provides enough energy to ionize the air-fuel mixture and trigger combustion, yet the total charge transferred remains small.
 
-The spark plug spark lasts 1.50 μs.
+The spark lasts for 1.50 μs, which is sufficient to ignite the fuel-air mixture in the engine cylinder.
 
 </div>
 </div>
@@ -634,48 +574,14 @@ The spark plug spark lasts 1.50 μs.
 <div class="problem" markdown="1">
 (a) A defibrillator sends a 6.00-A current through the chest of a patient by applying a 10 000-V potential as in the figure below. What is the resistance of the path? (b) The defibrillator paddles make contact with the patient through a conducting gel that greatly reduces the path resistance. Discuss the difficulties that would ensue if a larger voltage were used to produce the same current through the patient, but with the path having perhaps 50 times the resistance. (Hint: The current must be about the same, so a higher voltage would imply greater power. Use this equation for power:  $$P={I}^{2}R $$ .)
 
-![Figure represents a defibrillation unit used on a patient. The circuit is also represented. It shows a capacitor driving a current through the chest of a patient. The opposite plates of the capacitor are marked as positive Q and negative Q. The direction of current in the connecting wires from the capacitor to the defibrillation unit is shown in a clockwise direction with an arrow on the wire, and the direction of electrons is shown opposite to this direction with an arrow.](../resources/Figure_20_01_07.jpg "The capacitor in a defibrillation unit drives a current through the heart of a patient.")
+![Figure represents a defibrillation unit used on a patient. The circuit is also represented. It shows a capacitor driving a current through the chest of a patient. The opposite plates of the capacitor are marked as positive Q and negative Q. The direction of current in the connecting wires from the capacitor to the defibrillation unit is shown in a clockwise direction with an arrow on the wire, and the direction of electrons is shown opposite to this direction with an arrow.](../resources/Figure_20_01_07.jpg 'The capacitor in a defibrillation unit drives a current through the heart of a patient.')
 {: #Figure7}
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-(a) Use Ohm's law $$V = IR$$ rearranged to solve for resistance: $$R = V/I$$.
-
-(b) Analyze the power implications using $$P = I^2 R$$ when resistance increases while maintaining constant current.
-
-**Solution for (a)**
-
-Applying Ohm's law to find resistance:
-
-<div class="equation">
-$$R = \frac{V}{I} = \frac{10\,000 \text{ V}}{6.00 \text{ A}} = 1670 \text{ Ω} = 1.67 \text{ kΩ}$$
-</div>
-
-**Solution for (b)**
-
-If resistance increases by a factor of 50 while current remains constant at 6.00 A:
-
-<div class="equation">
-$$R_{\text{new}} = 50 \times 1.67 \text{ kΩ} = 83.5 \text{ kΩ}$$
-</div>
-
-The power dissipated would be:
-
-<div class="equation">
-$$P = I^2 R = (6.00 \text{ A})^2 \times (83\,500 \text{ Ω}) = 3.01 \times 10^6 \text{ W} = 3.01 \text{ MW}$$
-</div>
-
-Compared to the original power: $$P_{\text{original}} = I^2 R = (6.00)^2 \times 1670 = 60.1 \text{ kW}$$
-
-**Discussion**
-
-(a) The resistance of 1.67 kΩ is consistent with the resistance through a human torso when good electrical contact is made using conducting gel.
-
-(b) Increasing resistance 50-fold while maintaining the same current would increase power dissipation by a factor of 50 (since $$P = I^2 R$$). This would cause catastrophic burns to the patient's skin and underlying tissue. The conducting gel serves the critical function of reducing contact resistance, allowing the necessary current to flow while minimizing harmful heating effects. Without the gel, the high contact resistance would require dangerous voltage levels and cause severe thermal damage.
-
-The resistance of the path through the patient is 1.67 kΩ.
+(a)  $$ 1.67\text{k}\Omega  $$
+(b) If a 50 times larger resistance existed, keeping the current about the same, the power would be increased by a factor of about 50 (based on the equation  $$P={I}^{2}R $$ ), 
+causing much more energy to be transferred to the skin, which could cause serious burns. The gel used reduces the resistance, and therefore reduces the power transferred to the skin.
 
 </div>
 </div>
@@ -689,17 +595,15 @@ During open-heart surgery, a defibrillator can be used to bring a patient out of
 <div class="solution" markdown="1">
 **Strategy**
 
-Apply Ohm's law directly: $$V = IR$$. The current must be converted from milliamperes to amperes.
+This problem applies Ohm's Law: $$V = IR$$. During open-heart surgery, the defibrillator electrodes can be placed directly on the heart, resulting in a much lower resistance path than external defibrillation (which must pass current through the chest wall). We use the given resistance and required current to find the necessary voltage.
 
 **Solution**
 
-Convert current to SI units:
+Convert current to SI units and apply Ohm's Law:
 
 <div class="equation">
 $$I = 10.0 \text{ mA} = 10.0 \times 10^{-3} \text{ A} = 0.0100 \text{ A}$$
 </div>
-
-Calculate the required voltage:
 
 <div class="equation">
 $$V = IR = (0.0100 \text{ A})(500 \text{ Ω}) = 5.00 \text{ V}$$
@@ -707,9 +611,9 @@ $$V = IR = (0.0100 \text{ A})(500 \text{ Ω}) = 5.00 \text{ V}$$
 
 **Discussion**
 
-This surprisingly low voltage of only 5.00 V is sufficient because the defibrillator is applied directly to the exposed heart during open-heart surgery. With the skin barrier bypassed, the patient is "microshock sensitive," meaning much smaller currents (and thus voltages) can affect the heart. Compare this 10.0-mA current to the 6.00 A used with external defibrillator paddles—the direct application requires about 600 times less current because the resistance path is much shorter and doesn't include skin resistance.
+The required voltage of 5.00 V is remarkably low compared to the 10,000 V used for external defibrillation (see earlier problem). This dramatic difference occurs because during open-heart surgery, the electrodes are placed directly on the heart muscle, eliminating the high resistance of the chest wall, skin, and other tissues. The direct contact means much less voltage is needed to deliver the therapeutic current. This lower voltage is also much safer for the surgical team and reduces the risk of electrical burns to cardiac tissue. The 10.0 mA current is sufficient to depolarize the heart muscle and restore normal rhythm when applied directly.
 
-The voltage that should be applied is 5.00 V.
+A voltage of 5.00 V should be applied to produce the required 10.0-mA current through the 500-Ω path during open-heart surgery.
 
 </div>
 </div>
@@ -720,33 +624,9 @@ The voltage that should be applied is 5.00 V.
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+(a) 0.120 C
 
-(a) Use the definition of current rearranged: $$\Delta Q = I \Delta t$$.
-
-(b) Divide the total charge by the charge of one electron ($$e = 1.60 \times 10^{-19}$$ C) to find the number of electrons.
-
-**Solution for (a)**
-
-Calculate the charge moved:
-
-<div class="equation">
-$$\Delta Q = I \Delta t = (12.0 \text{ A})(0.0100 \text{ s}) = 0.120 \text{ C}$$
-</div>
-
-**Solution for (b)**
-
-The number of electrons is found by dividing total charge by charge per electron:
-
-<div class="equation">
-$$n = \frac{\Delta Q}{e} = \frac{0.120 \text{ C}}{1.60 \times 10^{-19} \text{ C/electron}} = 7.50 \times 10^{17} \text{ electrons}$$
-</div>
-
-**Discussion**
-
-The charge of 0.120 C represents an enormous number of electrons—750 quadrillion of them! This highlights how tiny the charge of a single electron is compared to the macroscopic charges we work with in electrical circuits. Despite this huge number of electrons, the brief 10-ms duration means the total energy delivered to the heart is controlled and therapeutic rather than harmful.
-
-(a) The charge that moves through the torso is 0.120 C. (b) Approximately $$7.50 \times 10^{17}$$ electrons pass through the wires.
+(b) $$ 7.50 \times 10^{17} \text{electrons} $$
 
 </div>
 </div>
@@ -759,43 +639,37 @@ A clock battery wears out after moving 10 000 C of charge through the clock at a
 <div class="solution" markdown="1">
 **Strategy**
 
-(a) Rearrange $$I = \Delta Q / \Delta t$$ to solve for time: $$\Delta t = \Delta Q / I$$.
+For part (a), we use the definition of current $$I = \frac{\Delta Q}{\Delta t}$$ solved for time: $$\Delta t = \frac{\Delta Q}{I}$$. For part (b), we convert the current (charge per second) to electrons per second by dividing by the charge of one electron.
 
-(b) Use the relationship between current and electron flow rate: $$n/t = I/e$$, where $$e = 1.60 \times 10^{-19}$$ C.
+**Solution**
 
-**Solution for (a)**
-
-Convert current to SI units and calculate time:
+**(a)** Find the time the clock ran:
 
 <div class="equation">
-$$I = 0.500 \text{ mA} = 5.00 \times 10^{-4} \text{ A}$$
+$$I = 0.500 \text{ mA} = 0.500 \times 10^{-3} \text{ A} = 5.00 \times 10^{-4} \text{ A}$$
 </div>
 
 <div class="equation">
 $$\Delta t = \frac{\Delta Q}{I} = \frac{10\,000 \text{ C}}{5.00 \times 10^{-4} \text{ A}} = 2.00 \times 10^{7} \text{ s}$$
 </div>
 
-Convert to more meaningful units:
+Converting to more meaningful units:
 
 <div class="equation">
-$$\Delta t = 2.00 \times 10^{7} \text{ s} \times \frac{1 \text{ h}}{3600 \text{ s}} \times \frac{1 \text{ day}}{24 \text{ h}} \times \frac{1 \text{ year}}{365 \text{ days}} = 0.634 \text{ years} \approx 7.6 \text{ months}$$
+$$\Delta t = 2.00 \times 10^{7} \text{ s} \times \frac{1 \text{ h}}{3600 \text{ s}} \times \frac{1 \text{ day}}{24 \text{ h}} = 231 \text{ days} \approx 7.7 \text{ months}$$
 </div>
 
-**Solution for (b)**
-
-The electron flow rate is:
+**(b)** Find the number of electrons per second:
 
 <div class="equation">
-$$\frac{n}{t} = \frac{I}{e} = \frac{5.00 \times 10^{-4} \text{ A}}{1.60 \times 10^{-19} \text{ C/electron}} = 3.13 \times 10^{15} \text{ electrons/s}$$
+$$\frac{\text{electrons}}{\text{s}} = \frac{I}{e} = \frac{5.00 \times 10^{-4} \text{ C/s}}{1.60 \times 10^{-19} \text{ C/electron}} = 3.13 \times 10^{15} \text{ electrons/s}$$
 </div>
 
 **Discussion**
 
-(a) The clock runs for about 7.6 months (or 231 days), which is reasonable for a small battery-powered clock. Clocks require very little current, allowing batteries to last many months.
+The clock running for about 7.7 months on a single battery is quite reasonable for a small wall clock or desk clock with a low-power quartz movement. Quartz clocks use very little current because they only need to power the oscillator circuit and step motor. The 3.13 × 10^15 electrons per second sounds enormous, but this is actually a very small current—it takes over 3 quadrillion electrons each second just to produce half a milliamp of current. This illustrates how incredibly small the charge of a single electron is.
 
-(b) Even with such a tiny current, over 3 trillion electrons flow per second! This illustrates the incredibly small charge of individual electrons compared to the charges we commonly measure.
-
-(a) The clock ran for $$2.00 \times 10^{7}$$ s (about 7.6 months). (b) Approximately $$3.13 \times 10^{15}$$ electrons per second flowed through the clock.
+(a) The clock ran for $$2.00 \times 10^{7}$$ s, or about 231 days (approximately 7.7 months). (b) The flow rate was $$3.13 \times 10^{15}$$ electrons per second.
 
 </div>
 </div>
@@ -807,29 +681,7 @@ of electrons at this rate?
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-First calculate the total charge corresponding to Avogadro's number of electrons: $$\Delta Q = N_A \times e$$. Then use $$\Delta t = \Delta Q / I$$ to find the time.
-
-**Solution**
-
-Calculate the total charge for $$6.02 \times 10^{23}$$ electrons:
-
-<div class="equation">
-$$\Delta Q = N_A \times e = (6.02 \times 10^{23})(1.60 \times 10^{-19} \text{ C}) = 9.63 \times 10^{4} \text{ C}$$
-</div>
-
-Calculate the time required:
-
-<div class="equation">
-$$\Delta t = \frac{\Delta Q}{I} = \frac{9.63 \times 10^{4} \text{ C}}{1000 \text{ A}} = 96.3 \text{ s}$$
-</div>
-
-**Discussion**
-
-It takes only about 1.5 minutes to move a mole of electrons at this high current! The submarine's batteries must supply enormous amounts of charge, which is why battery capacity is a critical limitation for non-nuclear submarines. At 1000 A, the submarine is drawing massive power, limiting how long it can operate at full speed before needing to recharge its batteries (typically by surfacing and running diesel generators).
-
-It takes 96.3 s (about 1.6 minutes) to move Avogadro's number of electrons at 1000 A.
+96.3 s
 
 </div>
 </div>
@@ -842,37 +694,31 @@ Electron guns are used in X-ray tubes. The electrons are accelerated through a r
 <div class="solution" markdown="1">
 **Strategy**
 
-(a) The number of electrons per second equals the current divided by the charge per electron: $$n/t = I/e$$.
+For part (a), we convert the current from charge per second to electrons per second by dividing by the electron charge. For part (b), we use the definition of current rearranged to find charge: $$\Delta Q = I \cdot \Delta t$$.
 
-(b) Use the definition of current rearranged: $$\Delta Q = I \Delta t$$.
+**Solution**
 
-**Solution for (a)**
-
-Convert current to SI units and calculate electron flow rate:
+**(a)** Find the number of electrons per second:
 
 <div class="equation">
-$$I = 0.500 \text{ mA} = 5.00 \times 10^{-4} \text{ A}$$
+$$I = 0.500 \text{ mA} = 0.500 \times 10^{-3} \text{ A} = 5.00 \times 10^{-4} \text{ C/s}$$
 </div>
 
 <div class="equation">
-$$\frac{n}{t} = \frac{I}{e} = \frac{5.00 \times 10^{-4} \text{ A}}{1.60 \times 10^{-19} \text{ C/electron}} = 3.13 \times 10^{15} \text{ electrons/s}$$
+$$\frac{\text{electrons}}{\text{s}} = \frac{I}{e} = \frac{5.00 \times 10^{-4} \text{ C/s}}{1.60 \times 10^{-19} \text{ C/electron}} = 3.13 \times 10^{15} \text{ electrons/s}$$
 </div>
 
-**Solution for (b)**
-
-Calculate the charge:
+**(b)** Find the charge striking the target in 0.750 s:
 
 <div class="equation">
-$$\Delta Q = I \Delta t = (5.00 \times 10^{-4} \text{ A})(0.750 \text{ s}) = 3.75 \times 10^{-4} \text{ C} = 0.375 \text{ mC}$$
+$$\Delta Q = I \cdot \Delta t = (5.00 \times 10^{-4} \text{ A})(0.750 \text{ s}) = 3.75 \times 10^{-4} \text{ C} = 0.375 \text{ mC}$$
 </div>
 
 **Discussion**
 
-(a) Over 3 trillion electrons strike the target every second, even with this relatively small current. Each electron, accelerated through high voltage (typically 30-150 kV), carries significant kinetic energy that is converted to X-rays and heat upon striking the metal target.
+The electron gun in an X-ray tube produces over 3 quadrillion electrons per second striking the metal target. When these high-speed electrons suddenly decelerate upon hitting the target, they produce X-rays through bremsstrahlung ("braking radiation"). The 0.500 mA beam current is typical for diagnostic X-ray equipment. The charge of 0.375 mC delivered in 0.750 s is small but represents enormous numbers of individual electrons, each contributing to X-ray production. The intensity of X-rays produced is directly related to this electron current.
 
-(b) The charge of 0.375 mC in 0.750 s confirms our current calculation: $$I = 0.375 \text{ mC}/0.750 \text{ s} = 0.500$$ mA.
-
-(a) $$3.13 \times 10^{15}$$ electrons per second strike the target. (b) A charge of 0.375 mC ($$3.75 \times 10^{-4}$$ C) strikes the target in 0.750 s.
+(a) Approximately $$3.13 \times 10^{15}$$ electrons per second strike the target. (b) A charge of 0.375 mC (or $$3.75 \times 10^{-4}$$ C) strikes the target in 0.750 s.
 
 </div>
 </div>
@@ -886,46 +732,9 @@ A large cyclotron directs a beam of  $${\text{He}}^{++} $$
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-(a) Since $$\text{He}^{++}$$ has charge $$+2e$$, the number of nuclei per second is $$n/t = I/(2e)$$.
-
-(b) Use $$\Delta t = \Delta Q / I$$ to find the time for 1.00 C.
-
-(c) Calculate the time to deliver one mole of $$\text{He}^{++}$$ nuclei using the result from part (a).
-
-**Solution for (a)**
-
-Each $$\text{He}^{++}$$ nucleus carries a charge of $$+2e = 2(1.60 \times 10^{-19} \text{ C}) = 3.20 \times 10^{-19}$$ C.
-
-<div class="equation">
-$$\frac{n}{t} = \frac{I}{2e} = \frac{0.250 \times 10^{-3} \text{ A}}{3.20 \times 10^{-19} \text{ C}} = 7.81 \times 10^{14} \text{ He}^{++}\text{/s}$$
-</div>
-
-**Solution for (b)**
-
-<div class="equation">
-$$\Delta t = \frac{\Delta Q}{I} = \frac{1.00 \text{ C}}{0.250 \times 10^{-3} \text{ A}} = 4.00 \times 10^{3} \text{ s}$$
-</div>
-
-This is about 67 minutes, or just over 1 hour.
-
-**Solution for (c)**
-
-One mole contains $$N_A = 6.02 \times 10^{23}$$ nuclei. Using the rate from part (a):
-
-<div class="equation">
-$$\Delta t = \frac{N_A}{n/t} = \frac{6.02 \times 10^{23}}{7.81 \times 10^{14} \text{ /s}} = 7.71 \times 10^{8} \text{ s}$$
-</div>
-
-Convert to years: $$7.71 \times 10^{8} \text{ s} \times \frac{1 \text{ year}}{3.15 \times 10^{7} \text{ s}} = 24.5 \text{ years}$$
-
-**Discussion**
-
-The doubly-charged helium nuclei (alpha particles) contribute twice the charge per particle compared to electrons, resulting in half as many particles needed per unit current. The extremely long time (24.5 years!) to deliver one mole of nuclei illustrates why particle accelerators don't produce macroscopic quantities of matter—even at high currents, the number of particles involved is tiny on a macroscopic scale.
-
-(a) $$7.81 \times 10^{14}$$ He$$^{++}$$ nuclei strike the target per second. (b) It takes $$4.00 \times 10^{3}$$ s (67 min) for 1.00 C to strike the target. (c) It would take $$7.71 \times 10^{8}$$ s (24.5 years) for 1.00 mol of He$$^{++}$$ nuclei to strike the target.
-
+(a)  $$7.81 \times 10^{14} {\text{He}}^{++} \text{nuclei/s} $$
+(b)  $$4.00 \times 10^{3} \text{s} $$
+(c)  $$7.71 \times 10^{8} \text{s} $$
 </div>
 </div>
 
@@ -937,41 +746,40 @@ Repeat the above example on [[Example 3]](#Example3), but for a wire made of sil
 <div class="solution" markdown="1">
 **Strategy**
 
-Follow the same approach as Example 3: calculate the free electron density $$n$$ for silver using its density ($$10.5 \times 10^{3}$$ kg/m³) and atomic mass (107.87 g/mol), then use $$I = nqAv_d$$ to find drift velocity.
+We follow the same approach as Example 3: calculate the drift velocity using $$I = nqAv_d$$, solving for $$v_d = \frac{I}{nqA}$$. We need the density of silver ($$10.49 \times 10^{3}$$ kg/m³) and its atomic mass (107.87 g/mol) to find the free electron density $$n$$. We use the same 12-gauge wire (diameter 2.053 mm) and 20.0-A current as in Example 3.
 
 **Solution**
 
-First, calculate the density of free electrons in silver:
+First, calculate the free electron density in silver:
 
 <div class="equation">
-$$n = \frac{1 \text{ e}^-}{\text{atom}} \times \frac{6.02 \times 10^{23} \text{ atoms}}{\text{mol}} \times \frac{1 \text{ mol}}{107.87 \text{ g}} \times \frac{1000 \text{ g}}{\text{kg}} \times \frac{10.5 \times 10^{3} \text{ kg}}{1 \text{ m}^3}$$
+$$\begin{array}{lll}
+n &=& \frac{1 \text{ }e^{-}}{\text{atom}} \times \frac{6.02 \times 10^{23} \text{ atoms}}{\text{mol}} \times \frac{1 \text{ mol}}{107.87 \text{ g}} \times \frac{1000 \text{ g}}{\text{kg}} \times \frac{10.49 \times 10^{3} \text{ kg}}{1 \text{ m}^{3}} \\
+n &=& 5.86 \times 10^{28} \text{ }e^{-}/\text{m}^{3}
+\end{array}$$
 </div>
 
+The cross-sectional area of the 12-gauge wire is the same as in Example 3:
+
 <div class="equation">
-$$n = 5.86 \times 10^{28} \text{ e}^-/\text{m}^3$$
+$$A = \pi r^{2} = \pi \left(\frac{2.053 \times 10^{-3} \text{ m}}{2}\right)^{2} = 3.310 \times 10^{-6} \text{ m}^{2}$$
 </div>
 
-The cross-sectional area for 12-gauge wire (diameter 2.053 mm):
+Now solve for the drift velocity:
 
 <div class="equation">
-$$A = \pi r^2 = \pi \left(\frac{2.053 \times 10^{-3} \text{ m}}{2}\right)^2 = 3.310 \times 10^{-6} \text{ m}^2$$
-</div>
-
-Calculate drift velocity for 20.0 A current:
-
-<div class="equation">
-$$v_d = \frac{I}{nqA} = \frac{20.0 \text{ A}}{(5.86 \times 10^{28} \text{ /m}^3)(1.60 \times 10^{-19} \text{ C})(3.310 \times 10^{-6} \text{ m}^2)}$$
-</div>
-
-<div class="equation">
-$$v_d = -6.45 \times 10^{-4} \text{ m/s}$$
+$$\begin{array}{lll}
+v_d &=& \frac{I}{nqA} \\
+v_d &=& \frac{20.0 \text{ A}}{(5.86 \times 10^{28} \text{ /m}^{3})(-1.60 \times 10^{-19} \text{ C})(3.310 \times 10^{-6} \text{ m}^{2})} \\
+v_d &=& -6.45 \times 10^{-4} \text{ m/s}
+\end{array}$$
 </div>
 
 **Discussion**
 
-The drift velocity in silver ($$-6.45 \times 10^{-4}$$ m/s) is larger in magnitude than in copper ($$-4.53 \times 10^{-4}$$ m/s) for the same current because silver has a lower free electron density. Since $$v_d = I/(nqA)$$, a smaller $$n$$ requires a larger drift velocity to maintain the same current. Despite being a better conductor (lower resistivity), silver has fewer free electrons per unit volume than copper.
+The drift velocity in silver ($$-6.45 \times 10^{-4}$$ m/s) is larger in magnitude than in copper ($$-4.53 \times 10^{-4}$$ m/s from Example 3). This occurs because silver has a lower free electron density than copper ($$5.86 \times 10^{28}$$ vs. $$8.34 \times 10^{28}$$ electrons/m³). With fewer charge carriers available, each electron must move faster on average to carry the same current. The negative sign indicates electrons move opposite to the conventional current direction. Despite the faster drift velocity, silver is still an excellent conductor—in fact, silver has the highest electrical conductivity of all metals, though it is more expensive than copper.
 
-The drift velocity of electrons in the silver wire is $$-6.45 \times 10^{-4}$$ m/s (about 0.645 mm/s), with the negative sign indicating electrons move opposite to conventional current direction.
+The drift velocity of electrons in a 12-gauge silver wire carrying 20.0 A is $$-6.45 \times 10^{-4}$$ m/s.
 
 </div>
 </div>
@@ -982,42 +790,7 @@ Using the results of the above example on [[Example 3]](#Example3), find the dri
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-Doubling the diameter quadruples the cross-sectional area (since $$A = \pi r^2 \propto d^2$$). Use the drift velocity equation $$v_d = I/(nqA)$$ with the same current and electron density as Example 3.
-
-**Solution**
-
-The original wire has diameter 2.053 mm, so the new diameter is:
-
-<div class="equation">
-$$d_{\text{new}} = 2 \times 2.053 \text{ mm} = 4.106 \text{ mm}$$
-</div>
-
-The new cross-sectional area:
-
-<div class="equation">
-$$A_{\text{new}} = \pi \left(\frac{4.106 \times 10^{-3} \text{ m}}{2}\right)^2 = 1.324 \times 10^{-5} \text{ m}^2$$
-</div>
-
-This is 4 times the original area ($$4 \times 3.310 \times 10^{-6} = 1.324 \times 10^{-5}$$ m²).
-
-Using the electron density from Example 3 ($$n = 8.342 \times 10^{28}$$ electrons/m³ for copper):
-
-<div class="equation">
-$$v_d = \frac{I}{nqA} = \frac{20.0 \text{ A}}{(8.342 \times 10^{28} \text{ /m}^3)(1.60 \times 10^{-19} \text{ C})(1.324 \times 10^{-5} \text{ m}^2)}$$
-</div>
-
-<div class="equation">
-$$v_d = -1.13 \times 10^{-4} \text{ m/s}$$
-</div>
-
-**Discussion**
-
-The drift velocity is exactly 1/4 of the original value ($$-4.53 \times 10^{-4}$$ m/s ÷ 4 = $$-1.13 \times 10^{-4}$$ m/s), as expected since quadrupling the area while keeping current constant reduces drift velocity proportionally. This demonstrates why larger wires can safely carry higher currents—the electrons move more slowly, reducing collisions and heat generation per unit volume.
-
-The drift velocity in the larger copper wire is $$-1.13 \times 10^{-4}$$ m/s (about 0.113 mm/s).
-
+ $$ -1.13 \times 10^{-4} \text{m/s} $$
 </div>
 </div>
 
@@ -1029,35 +802,39 @@ A 14-gauge copper wire has a diameter of 1.628 mm. What magnitude current flows 
 <div class="solution" markdown="1">
 **Strategy**
 
-Use the current equation $$I = nqAv_d$$ with the given drift velocity, the electron density for copper from Example 3, and the cross-sectional area calculated from the wire diameter.
+We use the current-drift velocity relationship $$I = nqAv_d$$ directly. From Example 3, we know the free electron density in copper is $$n = 8.342 \times 10^{28}$$ electrons/m³. We need to calculate the cross-sectional area of the 14-gauge wire and convert the drift velocity to SI units.
 
 **Solution**
 
-Calculate the cross-sectional area of 14-gauge wire:
+First, calculate the cross-sectional area of the 14-gauge wire:
 
 <div class="equation">
-$$A = \pi r^2 = \pi \left(\frac{1.628 \times 10^{-3} \text{ m}}{2}\right)^2 = 2.082 \times 10^{-6} \text{ m}^2$$
+$$\begin{array}{lll}
+A &=& \pi r^{2} = \pi \left(\frac{1.628 \times 10^{-3} \text{ m}}{2}\right)^{2} \\
+A &=& \pi (8.14 \times 10^{-4} \text{ m})^{2} \\
+A &=& 2.082 \times 10^{-6} \text{ m}^{2}
+\end{array}$$
 </div>
 
-Convert drift velocity to SI units:
+Convert the drift velocity to SI units:
 
 <div class="equation">
 $$v_d = 1.00 \text{ mm/s} = 1.00 \times 10^{-3} \text{ m/s}$$
 </div>
 
-Using $$n = 8.342 \times 10^{28}$$ electrons/m³ for copper, calculate current:
+Now calculate the current (using the magnitude of charge):
 
 <div class="equation">
-$$I = nqAv_d = (8.342 \times 10^{28} \text{ /m}^3)(1.60 \times 10^{-19} \text{ C})(2.082 \times 10^{-6} \text{ m}^2)(1.00 \times 10^{-3} \text{ m/s})$$
-</div>
-
-<div class="equation">
-$$I = 27.8 \text{ A}$$
+$$\begin{array}{lll}
+I &=& n|q|Av_d \\
+I &=& (8.342 \times 10^{28} \text{ /m}^{3})(1.60 \times 10^{-19} \text{ C})(2.082 \times 10^{-6} \text{ m}^{2})(1.00 \times 10^{-3} \text{ m/s}) \\
+I &=& 27.8 \text{ A}
+\end{array}$$
 </div>
 
 **Discussion**
 
-A drift velocity of 1.00 mm/s is actually quite fast for electrons in a wire—more than twice the drift velocity in Example 3. The resulting current of 27.8 A exceeds the typical 15-A rating for 14-gauge wire in household circuits. This is why current ratings exist: faster electron drift means more collisions, more heat generation, and potential fire hazards if the wire cannot dissipate heat fast enough.
+A current of 27.8 A is quite large for a 14-gauge wire. In fact, 14-gauge wire is typically rated for only about 15-20 A in household wiring applications because of heating concerns. The drift velocity of 1.00 mm/s is also relatively high compared to typical values (which are on the order of 0.1 mm/s or less for household currents). This problem illustrates that even modest increases in drift velocity result in substantial currents because of the enormous number of free electrons available in metals. It also shows why electrical codes limit currents in specific wire gauges—excessive current causes heating that can damage insulation or cause fires.
 
 A current of 27.8 A flows through the 14-gauge copper wire when the drift velocity is 1.00 mm/s.
 
@@ -1068,47 +845,12 @@ A current of 27.8 A flows through the 14-gauge copper wire when the drift veloci
 <div class="problem" markdown="1">
 SPEAR, a storage ring about 72.0 m in diameter at the Stanford Linear Accelerator (closed in 2009), has a 20.0-A circulating beam of electrons that are moving at nearly the speed of light. (See [[Figure 8]](#Figure8).) How many electrons are in the beam?
 
-![The circuit shows a doughnut shaped storage ring called SPEAR. The cross sections of ring are marked as A and are represented as dotted circular sections. The diameter of storage ring as measured between diametrically opposite cross sections on both ends is seventy two meters. The current in the ring is given as twenty amps. The direction of current I is shown opposite to the direction of movement of electrons e using arrows.](../resources/Figure_20_01_08.jpg "Electrons circulating in the storage ring called SPEAR constitute a 20.0-A current. Because they travel close to the speed of light, each electron completes many orbits in each second.")
+![The circuit shows a doughnut shaped storage ring called SPEAR. The cross sections of ring are marked as A and are represented as dotted circular sections. The diameter of storage ring as measured between diametrically opposite cross sections on both ends is seventy two meters. The current in the ring is given as twenty amps. The direction of current I is shown opposite to the direction of movement of electrons e using arrows.](../resources/Figure_20_01_08.jpg 'Electrons circulating in the storage ring called SPEAR constitute a 20.0-A current. Because they travel close to the speed of light, each electron completes many orbits in each second.')
 {: #Figure8}
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-The electrons complete the circular path at nearly the speed of light. Current is related to the charge passing a point per unit time. The time for one orbit is $$T = \text{circumference}/v = \pi d/c$$. The total charge in the beam is $$Q = IT$$, and dividing by the electron charge gives the number of electrons.
-
-**Solution**
-
-Calculate the circumference of the storage ring:
-
-<div class="equation">
-$$C = \pi d = \pi (72.0 \text{ m}) = 226.2 \text{ m}$$
-</div>
-
-Calculate the time for one orbit at nearly the speed of light ($$c = 3.00 \times 10^{8}$$ m/s):
-
-<div class="equation">
-$$T = \frac{C}{c} = \frac{226.2 \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 7.54 \times 10^{-7} \text{ s}$$
-</div>
-
-The total charge in the beam equals current times orbital period:
-
-<div class="equation">
-$$Q = IT = (20.0 \text{ A})(7.54 \times 10^{-7} \text{ s}) = 1.508 \times 10^{-5} \text{ C}$$
-</div>
-
-The number of electrons:
-
-<div class="equation">
-$$N = \frac{Q}{e} = \frac{1.508 \times 10^{-5} \text{ C}}{1.60 \times 10^{-19} \text{ C/electron}} = 9.42 \times 10^{13} \text{ electrons}$$
-</div>
-
-**Discussion**
-
-The beam contains about 94 trillion electrons—a large number, but still only about $$1.6 \times 10^{-10}$$ moles, far too small to weigh. Despite the high current of 20 A, each electron passes any given point many times per second (about 1.3 million orbits per second), so relatively few electrons are needed to maintain this current. The electrons travel at nearly the speed of light, making many complete circuits each second, which is why a modest number of particles can produce such a large current.
-
-The SPEAR storage ring contains approximately $$9.42 \times 10^{13}$$ electrons.
-
+ $$ 9.42 \times 10^{13} \text{electrons} $$
 </div>
 </div>
 

@@ -12,7 +12,7 @@ chapterNumber: 2
 
 </div>
 
-![Four men racing up a river in their kayaks.](../resources/Figure_02_05_01.jpg "Kinematic equations can help us describe and predict the motion of moving objects such as these kayaks racing in Newbury, England. (credit: Barry Skeates, Flickr)")
+![Four men racing up a river in their kayaks.](../resources/Figure_02_05_01.jpg 'Kinematic equations can help us describe and predict the motion of moving objects such as these kayaks racing in Newbury, England. (credit: Barry Skeates, Flickr)')
 {: #Figure1}
 
 We might know that the greater the acceleration of, say, a car moving away from
@@ -22,20 +22,20 @@ this section, we develop some convenient equations for kinematic relationships,
 starting from the definitions of displacement, velocity, and acceleration
 already covered.
 
-### Notation: *t*, *x*, *v*, *a*
+### Notation: _t_, _x_, _v_, _a_
 
 First, let us make some simplifications in notation. Taking the initial time to
 be zero, as if time is measured with a stopwatch, is a great simplification.
-Since elapsed time is $$ \Delta t=t_{f}-t_{0} $$, taking $$ t_{0}=0 $$ means
+Since elapsed time is $$ \Delta t=t*{f}-t*{0} $$, taking $$ t_{0}=0 $$ means
 that $$ \Delta t=t_{f} $$, the final time on the stopwatch. When initial time is
 taken to be zero, we use the subscript 0 to denote initial values of position
 and velocity. That is, $$ x_{0} $$ is the *initial position* and $$ v_{0} $$ is
 the *initial velocity*. We put no subscripts on the final values. That is, $$ t
-$$ is the *final time*, $$ x $$ is the *final position*, and $$ v $$ is the 
-*final velocity*. This gives a simpler expression for elapsed time—now, $$ \Delta
+$$ is the _final time_, $$ x $$ is the _final position_, and $$ v $$ is the
+_final velocity_. This gives a simpler expression for elapsed time—now, $$ \Delta
 t=t $$. It also simplifies the expression for displacement, which is now $$
-\Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity,
-which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified
+\Delta x=x-x*{0} $$. Also, it simplifies the expression for change in velocity,
+which is now $$ \Delta v=v-v*{0} $$. To summarize, using the simplified
 notation, with the initial time taken to be zero,
 
 <div class="equation">
@@ -48,7 +48,7 @@ notation, with the initial time taken to be zero,
 where *the subscript 0 denotes an initial value and the absence of a subscript
 denotes a final value* in whatever motion is under consideration.
 
-We now make the important assumption that *acceleration is constant*. This
+We now make the important assumption that _acceleration is constant_. This
 assumption allows us to avoid using calculus to find instantaneous acceleration.
 Since acceleration is constant, the average and instantaneous accelerations are
 equal. That is,
@@ -59,7 +59,7 @@ equal. That is,
 
 so we use the symbol $$ a $$ for acceleration at all times. Assuming
 acceleration to be constant does not seriously limit the situations we can study
-nor degrade the accuracy of our treatment. For one thing, acceleration *is*
+nor degrade the accuracy of our treatment. For one thing, acceleration _is_
 constant in a great number of situations. Furthermore, in many other situations
 we can accurately describe motion by assuming a constant acceleration equal to
 the average acceleration for that motion. Finally, in motions where acceleration
@@ -95,12 +95,12 @@ where the average velocity is
 </div>
 </div>
 
-The equation $$ \overline{v}=\frac{ v_{0}+v}{2} $$ reflects the fact that, when
+The equation $$ \overline{v}=\frac{ v*{0}+v}{2} $$ reflects the fact that, when
 acceleration is constant, $$ v $$ is just the simple average of the initial and
 final velocities. For example, if you steadily increase your velocity (
 that is, with constant acceleration) from 30 to 60 km/h, then your average
 velocity during this steady increase is 45 km/h. Using the equation $$
-\overline{v}=\frac{ v_{0}+v}{2} $$ to check this, we see that
+\overline{v}=\frac{ v*{0}+v}{2} $$ to check this, we see that
 
 <div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2}=\frac{30 \text{km/h}+60 \text{km/h}}{2}=45 \text{km/h,} $$
@@ -133,7 +133,7 @@ and $$ t $$ from the statement of the problem and substitute them into the equat
 **Solution**
 
 1\. Identify the knowns. $$ \overline{v}=4.00 \ms $$, $$ \Delta t=2.00
-\text{min} $$, and $$ x_{0}=0 \m $$.
+\text{min} $$, and $$ x\_{0}=0 \m $$.
 
 2\. Enter the known values into the equation.
 
@@ -148,7 +148,7 @@ same direction.
 
 </div>
 
-The equation $$ x=x_{0}+\overline{v}t $$ gives insight into the relationship
+The equation $$ x=x\_{0}+\overline{v}t $$ gives insight into the relationship
 between displacement, average velocity, and time. It shows, for example, that
 displacement is a linear function of average velocity. (By linear function, we
 mean that displacement depends on $$ \overline{v} $$ rather than on $$
@@ -157,7 +157,7 @@ When graphed, linear functions look like straight lines with a constant slope.)
 On a car trip, for example, we will get twice as far in a given time if we
 average 90 km/h than if we average 45 km/h.
 
-![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.jpg "There is a linear relationship between displacement and average velocity. For a given time \( t\) , an object moving twice as fast as another object will move twice as far as the other object.")
+![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.jpg 'There is a linear relationship between displacement and average velocity. For a given time ( t) , an object moving twice as fast as another object will move twice as far as the other object.')
 {: #Figure3}
 
 <div class="note" data-label="" markdown="1">
@@ -198,8 +198,10 @@ velocity vector because the plane is decelerating.
 
 **Solution**
 
-1\. Identify the knowns. $$ v_{0}=70.0 \ms $$, $$ a=-1.50 \mss $$, $$ t=40.0\s
-$$.
+1\. Identify the knowns. $$ v\_{0}=70.0 \ms $$, $$ a=-1.50 \mss $$, $$ t=40.0\s
+
+$$
+.
 
 2\. Identify the unknown. In this case, it is final velocity, $$ v_{f} $$.
 
@@ -374,8 +376,8 @@ Substituting this and $$ \overline{v}=\frac{ v_{0}+v}{2} $$ into $$ x=x_{0}+\ove
 <div class="title">
 Calculating Final Velocity: Dragsters
 </div>
-Calculate the final velocity of the dragster in [Example 3](#example3) 
-without 
+Calculate the final velocity of the dragster in [Example 3](#example3)
+without
 using information about time.
 
 **Strategy**
@@ -536,12 +538,14 @@ how far the car travels during the reaction time, and then add that to the
 stopping time. It is reasonable to assume that the velocity remains constant
 during the driver’s reaction time.
 
-1\. Identify the knowns and what we want to solve for. We know that $$
-\overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_
-{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are
-looking for $$ x_{\text{reaction}} $$.
+1\. Identify the knowns and what we want to solve for. We know that
+$$
 
-2\. Identify the best equation to use. $$ x=x_{0}+\overline{v}t $$ works well
+\overline{v}=30.0 \ms $$; $$ t*{\text{reaction}}=0.500\s $$; $$ a*
+{\text{reaction}}=0 $$. We take $$ x*{0-\text{reaction}} $$ to be 0. We are
+looking for $$ x*{\text{reaction}} $$.
+
+2\. Identify the best equation to use. $$ x=x\_{0}+\overline{v}t $$ works well
 because the only unknown value is $$ x $$, which is what we want to solve for.
 
 3\. Plug in the knowns to solve the equation.
@@ -560,7 +564,7 @@ braking.
 (a)  64.3 m + 15.0 m = 79.3 m when dry
 (b)  90.0 m + 15.0 m = 105 m when wet
 
-![Diagram showing the various braking distances necessary for stopping a car. With no reaction time considered, braking distance is 64 point 3 meters on a dry surface and 90 meters on a wet surface. With reaction time of 0 point 500 seconds, braking distance is 79 point 3 meters on a dry surface and 105 meters on a wet surface.](../resources/Figure_02_05_11.jpg "The distance necessary to stop a car varies greatly, depending on road conditions and driver reaction time. Shown here are the braking distances for dry and wet pavement, as calculated in this example, for a car initially traveling at 30.0 m/s. Also shown are the total distances traveled from the point where the driver first sees a light turn red, assuming a 0.500 s reaction time. ")
+![Diagram showing the various braking distances necessary for stopping a car. With no reaction time considered, braking distance is 64 point 3 meters on a dry surface and 90 meters on a wet surface. With reaction time of 0 point 500 seconds, braking distance is 79 point 3 meters on a dry surface and 105 meters on a wet surface.](../resources/Figure_02_05_11.jpg 'The distance necessary to stop a car varies greatly, depending on road conditions and driver reaction time. Shown here are the braking distances for dry and wet pavement, as calculated in this example, for a car initially traveling at 30.0 m/s. Also shown are the total distances traveled from the point where the driver first sees a light turn red, assuming a 0.500 s reaction time. ')
 {: #Figure11}
 
 **Discussion**
@@ -598,10 +602,10 @@ equation with one unknown, $$ t $$).
 
 **Solution**
 
-1\. Identify the knowns and what we want to solve for. We know that $$ v_{0}=10
+1\. Identify the knowns and what we want to solve for. We know that $$ v\_{0}=10
 \ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
 
-2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_
+2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x*{0}+v*
 {0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
 is the variable $$ t $$ for which we need to solve.
 
@@ -714,10 +718,10 @@ Rearrange to solve for $$ t $$.
 
 ### Section Summary
 
-* To simplify calculations we take acceleration to be constant, so that $$
+- To simplify calculations we take acceleration to be constant, so that $$
   \overline{a}=a $$ at all times.
-* We also take initial time to be zero.
-* Initial position and velocity are given a subscript 0; final values have no
+- We also take initial time to be zero.
+- Initial position and velocity are given a subscript 0; final values have no
   subscript. Thus,
   <div class="equation">
   $$ \begin{array}{lll} 
@@ -727,28 +731,28 @@ Rearrange to solve for $$ t $$.
   \end{array} $$
   </div>
 
-* The following kinematic equations for motion with constant $$ a $$ are useful:
-  <div class="equation">
-    $$ x=x_{0}+\overline{v}t $$
-  </div>
+- The following kinematic equations for motion with constant $$ a $$ are useful:
+   <div class="equation">
+     $$ x=x_{0}+\overline{v}t $$
+   </div>
 
-  <div class="equation">
- $$ \overline{v}=\frac{ v_{0}+v}{2} $$
-  </div>
+   <div class="equation">
+  $$ \overline{v}=\frac{ v_{0}+v}{2} $$
+   </div>
 
-  <div class="equation">
- $$ v=v_{0}+a t $$
-  </div>
+   <div class="equation">
+  $$ v=v_{0}+a t $$
+   </div>
 
-  <div class="equation">
- $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
-  </div>
+   <div class="equation">
+  $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
+   </div>
 
-  <div class="equation">
- $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
-  </div>
+   <div class="equation">
+  $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$
+   </div>
 
-* In vertical motion, $$ y $$ is substituted for $$ x $$.
+- In vertical motion, $$ y $$ is substituted for $$ x $$.
 
 ### Problems &amp; Exercises
 
@@ -788,6 +792,7 @@ $$ v = 0 + (4.50)(2.40) = 10.8 \ms $$
 **(b) Position-time graph:**
 
 The position as a function of time for constant acceleration starting from rest is given by:
+
 <div class="equation">
 $$ x = \frac{1}{2}at^2 = \frac{1}{2}(4.50)t^2 = 2.25t^2 $$
 </div>
@@ -1014,6 +1019,7 @@ This problem involves constant acceleration from rest. We need to use kinematic 
 A car starts from rest (initial position $$x_0 = 0$$, initial velocity $$v_0 = 0$$) and accelerates in the positive direction with acceleration vector $$a = 2.40 \mss$$ for time $$t = 12.0 \s$$.
 
 **(b) Knowns:**
+
 - Initial velocity: $$ v_0 = 0 \ms $$ (starts from rest)
 - Acceleration: $$ a = 2.40 \mss $$
 - Time: $$ t = 12.0 \s $$
@@ -1100,6 +1106,7 @@ This confirms our answer. The acceleration of 2.40 m/s² (about 0.24g) is typica
 (c) The car travels **173 m** in 12.0 seconds.
 
 (d) The car's final velocity is **28.8 m/s** (approximately 104 km/h or 64 mph).
+
 </div>
 </div>
 
@@ -1212,6 +1219,7 @@ Blood is accelerated over a known distance from rest to a known final velocity. 
 Blood starts at rest ($$v_0 = 0$$) in the left ventricle and is accelerated in the positive direction to a final velocity $$v = 30.0$$ cm/s over a distance of $$x - x_0 = 1.80$$ cm.
 
 **(b) Knowns:**
+
 - Initial velocity: $$ v_0 = 0 $$ (blood starts from rest)
 - Final velocity: $$ v = 30.0 \text{ cm/s} = 0.300 \ms $$
 - Displacement: $$ x - x_0 = 1.80 \text{ cm} = 0.0180 \m $$
@@ -1374,6 +1382,7 @@ $$ a = \frac{v - v_0}{t} = \frac{26.8 \ms - 0}{3.90 \s} = 6.87 \mss $$
 **(b) Distance traveled:**
 
 Use the kinematic equation:
+
 <div class="equation">
 $$ x = x_0 + v_0 t + \frac{1}{2}at^2 = 0 + 0 + \frac{1}{2}(6.87 \mss)(3.90 \s)^2 $$
 </div>
@@ -1506,6 +1515,7 @@ A fireworks shell is accelerated from rest to a known final velocity over a know
 **Solution**
 
 **Knowns:**
+
 - Initial velocity: $$ v_0 = 0 $$ (starts from rest)
 - Final velocity: $$ v = 65.0 \ms $$
 - Displacement: $$ x - x_0 = 0.250 \m $$
@@ -1595,6 +1605,7 @@ travel before becoming airborne?
 (a) $$ 51.4\m $$
 
 (b) $$ 17.0 \s $$
+
 </div>
 </div>
 
@@ -1624,15 +1635,16 @@ The woodpecker's head decelerates from a known initial velocity to rest over a k
 **Solution**
 
 **Knowns:**
+
 - Initial velocity: $$ v_0 = 0.600 \ms $$
 - Final velocity: $$ v = 0 $$ (comes to a stop)
-- Head stopping distance: $$ x_{\text{head}} - x_0 = 2.00 \text{ mm} = 2.00 \times 10^{-3} \m $$
-- Brain stopping distance: $$ x_{\text{brain}} - x_0 = 4.50 \text{ mm} = 4.50 \times 10^{-3} \m $$
+- Head stopping distance: $$ x\_{\text{head}} - x_0 = 2.00 \text{ mm} = 2.00 \times 10^{-3} \m $$
+- Brain stopping distance: $$ x\_{\text{brain}} - x_0 = 4.50 \text{ mm} = 4.50 \times 10^{-3} \m $$
 - Acceleration due to gravity: $$ g = 9.80 \mss $$
 
 **(a) Head's deceleration:**
 
-**Unknown:** Acceleration $$ a_{\text{head}} $$
+**Unknown:** Acceleration $$ a\_{\text{head}} $$
 
 **Choosing the equation:** We know $$ v_0 $$, $$ v $$, and the stopping distance. Use:
 
@@ -1676,7 +1688,7 @@ $$ t = \frac{v - v_0}{a_{\text{head}}} = \frac{0 - 0.600 \ms}{-90.0 \mss} = 6.67
 
 **(c) Brain's deceleration:**
 
-**Unknown:** Acceleration $$ a_{\text{brain}} $$
+**Unknown:** Acceleration $$ a\_{\text{brain}} $$
 
 The brain has a longer stopping distance due to the stretching tendons:
 
@@ -1774,6 +1786,7 @@ $$ t = \frac{v - v_0}{a} = \frac{0 - 7.50}{-80.4} = \frac{-7.50}{-80.4} = 0.0933
 **Discussion**
 
 The player experiences a deceleration of $$ 80.4 \mss $$, which is:
+
 <div class="equation">
 $$ \frac{80.4}{9.80} = 8.2g $$
 </div>
@@ -1811,6 +1824,7 @@ The pilot decelerates from a known impact velocity to rest over a known stopping
 **Solution**
 
 **Knowns:**
+
 - Initial velocity (impact speed): $$ v_0 = 54 \ms $$ (or 123 mph)
 - Final velocity: $$ v = 0 $$ (comes to rest)
 - Stopping distance: $$ x - x_0 = 3.0 \m $$
@@ -1854,6 +1868,7 @@ The pilot experienced a deceleration of approximately 50g.
 **Discussion**
 
 A deceleration of 486 m/s² (about 50g) is extraordinary and would normally be fatal. For comparison:
+
 - Modern fighter pilots can withstand up to about 9g with special suits
 - Race car drivers in severe crashes experience 20-40g (often with serious injuries)
 - The human body can survive very brief exposures to high g-forces if properly oriented
@@ -1954,6 +1969,7 @@ $$ \frac{1482}{9.80} \approx 151g $$
 This problem reveals a surprising result: the squirrel experiences about 151g of deceleration - three times more than the airman falling from 6000 m! How can this be? The key is the stopping distance. The squirrel, though falling from only 3.0 m and hitting at "only" 7.7 m/s (compared to the airman's 54 m/s), stops in just 2.0 cm - 150 times shorter than the airman's 3.0 m stopping distance.
 
 Small animals like squirrels can survive these enormous decelerations because of several factors:
+
 1. **Square-cube law**: Smaller animals have proportionally stronger bones and tissues relative to their weight
 2. **Flexible skeletal structure**: The squirrel bends its limbs to maximize the stopping distance for its size
 3. **Lower terminal velocity**: Even without our assumption, a squirrel reaches a much lower terminal velocity in air
@@ -1990,14 +2006,15 @@ The train decelerates at a constant rate as it passes through the station. We ne
 **Solution**
 
 **Knowns:**
+
 - Initial velocity: $$ v_0 = 22.0 \ms $$
 - Acceleration: $$ a = -0.150 \mss $$ (negative because it's decelerating)
-- Station length: $$ L_{\text{station}} = 210 \m $$
-- Train length: $$ L_{\text{train}} = 130 \m $$
+- Station length: $$ L\_{\text{station}} = 210 \m $$
+- Train length: $$ L\_{\text{train}} = 130 \m $$
 
 **(a) Time for nose to traverse the station:**
 
-**Unknown:** Time $$ t_{\text{nose}} $$
+**Unknown:** Time $$ t\_{\text{nose}} $$
 
 The nose travels a distance of 210 m. We know $$ v_0 $$, $$ a $$, and $$ x - x_0 $$, and need to find $$ t $$.
 
@@ -2030,14 +2047,15 @@ $$ t = \frac{22.0 \pm \sqrt{484 - 63.0}}{0.150} = \frac{22.0 \pm \sqrt{421}}{0.1
 </div>
 
 This gives two solutions:
+
 - $$ t_1 = \frac{22.0 + 20.5}{0.150} = \frac{42.5}{0.150} = 283 \s $$
 - $$ t_2 = \frac{22.0 - 20.5}{0.150} = \frac{1.5}{0.150} = 10.0 \s $$
 
-The physically meaningful solution is $$ t_{\text{nose}} = 10.0 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
+The physically meaningful solution is $$ t\_{\text{nose}} = 10.0 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
 
 **(b) Velocity when nose leaves the station:**
 
-**Unknown:** Final velocity $$ v_{\text{nose}} $$
+**Unknown:** Final velocity $$ v\_{\text{nose}} $$
 
 Use $$ v = v_0 + at $$:
 
@@ -2057,7 +2075,7 @@ $$ v_{\text{nose}} = \sqrt{421} = 20.5 \ms $$ ✓
 
 **(c) Time for end of train to leave the station:**
 
-**Unknown:** Time $$ t_{\text{end}} $$
+**Unknown:** Time $$ t\_{\text{end}} $$
 
 The end of the train must travel the station length plus the train length: $$ 210 + 130 = 340 \m $$
 
@@ -2082,14 +2100,15 @@ $$ t = \frac{22.0 \pm \sqrt{382}}{0.150} = \frac{22.0 \pm 19.5}{0.150} $$
 </div>
 
 This gives:
+
 - $$ t_1 = \frac{22.0 + 19.5}{0.150} = 277 \s $$ (unphysical)
 - $$ t_2 = \frac{22.0 - 19.5}{0.150} = \frac{2.5}{0.150} = 16.7 \s $$
 
-So $$ t_{\text{end}} = 16.7 \s $$.
+So $$ t\_{\text{end}} = 16.7 \s $$.
 
 **(d) Velocity of end of train as it leaves:**
 
-**Unknown:** Final velocity $$ v_{\text{end}} $$
+**Unknown:** Final velocity $$ v\_{\text{end}} $$
 
 Use $$ v = v_0 + at $$:
 
@@ -2176,6 +2195,7 @@ $$ v = \sqrt{26,210} = 162 \ms $$
 The calculated final velocity of 162 m/s is greater than the actual top speed of 145 m/s used to find the average acceleration. This discrepancy reveals that the assumption of constant acceleration is not valid for a dragster.
 
 A dragster's acceleration is not constant because:
+
 1. **Gear changes**: The dragster shifts through multiple gears during the run, and acceleration is greatest in first gear
 2. **Decreasing force-to-resistance ratio**: As velocity increases, air resistance increases dramatically (proportional to $$ v^2 $$)
 3. **Tire grip limitations**: Maximum traction force varies with speed and tire heating
@@ -2223,11 +2243,12 @@ This problem involves multiple phases of motion. The winner accelerates for 7.00
 **Solution**
 
 **Knowns:**
+
 - Winner's initial velocity: $$ v_0 = 11.5 \ms $$
 - Winner's acceleration: $$ a = 0.500 \mss $$
-- Acceleration time: $$ t_{\text{accel}} = 7.00 \s $$
-- Distance to finish line: $$ d_{\text{total}} = 300 \m $$
-- Other racer's velocity: $$ v_{\text{other}} = 11.8 \ms $$
+- Acceleration time: $$ t\_{\text{accel}} = 7.00 \s $$
+- Distance to finish line: $$ d\_{\text{total}} = 300 \m $$
+- Other racer's velocity: $$ v\_{\text{other}} = 11.8 \ms $$
 - Other racer's initial advantage: $$ 5.00 \m $$ ahead
 
 **(a) Final velocity after acceleration:**

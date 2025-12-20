@@ -41,7 +41,7 @@ The most certain indication of a wave is interference. This wave characteristic 
 
 </div>
 
-![Part a of the figure shows a thin bright orange laser beam emitted from an observatory traveling in a straight line up into a starry sky. Part b of the figure shows a horizontal pattern of orange red spots produced when a laser beam has passed through a grid of slits. The central spot is the brightest and the spots get dimmer as you move away from the center..](../resources/Figure_27_01_01.jpg "(a) The laser beam emitted by an observatory acts like a ray, traveling in a straight line. This laser beam is from the Paranal Observatory of the European Southern Observatory. (credit: Yuri Beletsky, European Southern Observatory) (b) A laser beam passing through a grid of vertical slits produces an interference pattern&#x2014;characteristic of a wave. (credit: Shim'on and Slava Rybka, Wikimedia Commons)")
+![Part a of the figure shows a thin bright orange laser beam emitted from an observatory traveling in a straight line up into a starry sky. Part b of the figure shows a horizontal pattern of orange red spots produced when a laser beam has passed through a grid of slits. The central spot is the brightest and the spots get dimmer as you move away from the center..](../resources/Figure_27_01_01.jpg "(a) The laser beam emitted by an observatory acts like a ray, traveling in a straight line. This laser beam is from the Paranal Observatory of the European Southern Observatory. (credit: Yuri Beletsky, European Southern Observatory) (b) A laser beam passing through a grid of vertical slits produces an interference pattern—characteristic of a wave. (credit: Shim'on and Slava Rybka, Wikimedia Commons)")
 {: #Figure1}
 
 Light has wave characteristics in various media as well as in a vacuum. When
@@ -67,17 +67,17 @@ another, colors do not, since colors are associated with frequency.
 
 ### Section Summary
 
-* Wave optics is the branch of optics that must be used when light interacts
+- Wave optics is the branch of optics that must be used when light interacts
   with small objects or whenever the wave characteristics of light are
   considered.
-* Wave characteristics are those associated with interference and diffraction.
-* Visible light is the type of electromagnetic wave to which our eyes respond
+- Wave characteristics are those associated with interference and diffraction.
+- Visible light is the type of electromagnetic wave to which our eyes respond
   and has a wavelength in the range of 380 to 760 nm.
-* Like all EM waves, the following relationship is valid in vacuum:
+- Like all EM waves, the following relationship is valid in vacuum:
   $$c=f\lambda $$ , where $$c=3 \times 10^{8} \text{m/s} $$ is the speed of
   light, $$f $$ is the frequency of the electromagnetic wave, and $$\lambda $$
   is its wavelength in vacuum.
-* The wavelength $${\lambda }_{\text{n}} $$ of light in a medium with index of
+- The wavelength $${\lambda }_{\text{n}} $$ of light in a medium with index of
   refraction $$n $$ is $${\lambda }_{\text{n}}=\lambda /n $$ . Its frequency is
   the same as in vacuum.
 
@@ -150,7 +150,7 @@ What is the ratio of thicknesses of crown glass and water that would contain the
 {: class="glossary-title"}
 
 wavelength in a medium
-:  $${\lambda }_{\text{n}}=\lambda /n $$ , where $$\lambda $$ is the wavelength
+: $${\lambda }_{\text{n}}=\lambda /n $$ , where $$\lambda $$ is the wavelength
 in vacuum, and $$n $$ is the index of refraction of the medium
 
 </div>

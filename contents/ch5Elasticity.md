@@ -45,7 +45,7 @@ force. [Figure 1](#Figure1) shows the Hooke’s law relationship between the
 extension $$ \Delta L $$ of a spring or of a human bone. For metals or springs,
 the straight line region in which Hooke’s law pertains is much larger. Bones are
 brittle and the elastic region is small and the fracture abrupt. Eventually a
-large enough stress to the material will cause it to break or fracture. 
+large enough stress to the material will cause it to break or fracture.
 **Tensile strength** is the breaking stress that will cause permanent deformation
 or fracture of a material.
 
@@ -66,7 +66,7 @@ object and the direction of the force.
 </div>
 </div>
 
-![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke&#x2019;s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg "A graph of deformation \( \Delta L \) versus applied force \( F \) . The straight segment is the linear region where Hooke&#x2019;s law is obeyed. The slope of the straight region is \( k \). For larger forces, the graph is curved but the deformation is still elastic&#x2014; \( \Delta L \) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force \( F \) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in \( F \) is producing a large increase in \( L \) near the fracture.")
+![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg 'A graph of deformation ( \\Delta L ) versus applied force ( F ) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is ( k ). For larger forces, the graph is curved but the deformation is still elastic— ( \\Delta L ) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force ( F ) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in ( F ) is producing a large increase in ( L ) near the fracture.')
 {: #Figure1}
 
 The proportionality constant $$ k $$ depends upon a number of factors for the
@@ -80,7 +80,7 @@ lengths when the force is removed, provided the deformation is small. Most
 materials will behave in this manner if the deformation is less than about 0.1%
 or about 1 part in $$ 10^{3} $$.
 
-![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_05_03_02.jpg "The same force, in this case a weight ( \( w \) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.")
+![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_05_03_02.jpg 'The same force, in this case a weight ( ( w ) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.')
 {: #Figure2}
 
 <div class="note" data-label="" markdown="1">
@@ -102,18 +102,18 @@ otherwise stated.
 ### Changes in Length—Tension and Compression: Elastic Modulus
 
 A change in length $$ \Delta L $$ is produced when a force is applied to a wire
-or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
+or rod parallel to its length $$ L\_{0} $$, either stretching it (a tension) or
 compressing it. (
 See [Figure 3](#Figure3).)
 
-![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_05_03_03.jpg "(a) Tension. The rod is stretched a length \( \Delta L \) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.")
+![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_05_03_03.jpg '(a) Tension. The rod is stretched a length ( \\Delta L ) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, ( \\Delta L ) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.')
 {: #Figure3}
 
 Experiments have shown that the change in length ( $$ \Delta L $$)
 depends on only a few variables. As already noted, $$ \Delta L $$ is
 proportional to the force $$ F $$ and depends on the substance from which the
 object is made. Additionally, the change in length is proportional to the
-original length $$ L_{0} $$ and inversely proportional to the cross-sectional
+original length $$ L\_{0} $$ and inversely proportional to the cross-sectional
 area of the wire or rod. For example, a long guitar string will stretch more
 than a short one, and a thick string will stretch less than a thin one. We can
 combine all these factors into one equation for $$ \Delta L $$:
@@ -131,37 +131,39 @@ deform less for a given tension or compression.
 
 ##### Table 1: Elastic Moduli [^1]
 
-|Material|Young’s modulus (tension–compression)Y $$(10^9 \text{N/m}^2)$$ |Shear modulus S $$(10^9 \text{N/m}^2) $$ | Bulk modulus B $$(10^9 \text{N/m}^2) $$ |
-|--- |--- |--- |--- |
-|Aluminum|70|25|75|
-|Bone – tension|16|80|8|
-|Bone – compression|9|||
-|Brass|90|35|75|
-|Brick|15|||
-|Concrete|20|||
-|Glass|70|20|30|
-|Granite|45|20|45|
-|Hair (human)|10|||
-|Hardwood|15|10||
-|Iron, cast|100|40|90|
-|Lead|16|5|50|
-|Marble|60|20|70|
-|Nylon|5|||
-|Polystyrene|3|||
-|Silk|6|||
-|Spider thread|3|||
-|Steel|210|80|130|
-|Tendon|1|||
-|Acetone|||0.7|
-|Ethanol|||0.9|
-|Glycerin|||4.5|
-|Mercury|||25|
-|Water|||2.2|
+| Material           | Young’s modulus (tension–compression)Y $$(10^9 \text{N/m}^2)$$ | Shear modulus S $$(10^9 \text{N/m}^2) $$ | Bulk modulus B $$(10^9 \text{N/m}^2) $$ |
+| ------------------ | -------------------------------------------------------------- | ---------------------------------------- | --------------------------------------- |
+| Aluminum           | 70                                                             | 25                                       | 75                                      |
+| Bone – tension     | 16                                                             | 80                                       | 8                                       |
+| Bone – compression | 9                                                              |                                          |                                         |
+| Brass              | 90                                                             | 35                                       | 75                                      |
+| Brick              | 15                                                             |                                          |                                         |
+| Concrete           | 20                                                             |                                          |                                         |
+| Glass              | 70                                                             | 20                                       | 30                                      |
+| Granite            | 45                                                             | 20                                       | 45                                      |
+| Hair (human)       | 10                                                             |                                          |                                         |
+| Hardwood           | 15                                                             | 10                                       |                                         |
+| Iron, cast         | 100                                                            | 40                                       | 90                                      |
+| Lead               | 16                                                             | 5                                        | 50                                      |
+| Marble             | 60                                                             | 20                                       | 70                                      |
+| Nylon              | 5                                                              |                                          |                                         |
+| Polystyrene        | 3                                                              |                                          |                                         |
+| Silk               | 6                                                              |                                          |                                         |
+| Spider thread      | 3                                                              |                                          |                                         |
+| Steel              | 210                                                            | 80                                       | 130                                     |
+| Tendon             | 1                                                              |                                          |                                         |
+| Acetone            |                                                                |                                          | 0.7                                     |
+| Ethanol            |                                                                |                                          | 0.9                                     |
+| Glycerin           |                                                                |                                          | 4.5                                     |
+| Mercury            |                                                                |                                          | 25                                      |
+| Water              |                                                                |                                          | 2.2                                     |
+
 {: #Table1}
 
-[^1]: Footnote: Approximate and average values. Young’s moduli $$ Y $$ for
-tension and compression sometimes differ but are averaged here. Bone has
-significantly different Young’s moduli for tension and compression.
+[^1]:
+    Footnote: Approximate and average values. Young’s moduli $$ Y $$ for
+    tension and compression sometimes differ but are averaged here. Bone has
+    significantly different Young’s moduli for tension and compression.
 
 Young’s moduli are not listed for liquids and gases in [Table 1](#Table1)
 because they cannot be stretched or compressed in only one direction. Note that
@@ -177,14 +179,14 @@ The Stretch of a Long Cable
 </div>
 Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#Figure4)) Consider a suspension cable that includes an unsupported span of 3020 m. Calculate the amount of stretch in the steel cable. Assume that the cable has a diameter of 5.6 cm and the maximum tension it can withstand is $$ 3.0\times 10^{6}\N $$.
 
-![Ski gondolas travel along suspension cables. A vast forest and snowy mountain peaks can be seen in the background.](../resources/Figure_05_03_04.jpg "Gondolas travel along suspension cables at the Gala Yuzawa ski resort in Japan. (credit: Rudy Herman, Flickr)")
+![Ski gondolas travel along suspension cables. A vast forest and snowy mountain peaks can be seen in the background.](../resources/Figure_05_03_04.jpg 'Gondolas travel along suspension cables at the Gala Yuzawa ski resort in Japan. (credit: Rudy Herman, Flickr)')
 {: #Figure4}
 
 **Strategy**
 
 The force is equal to the maximum tension, or $$ F=3.0\times 10^{6}\N $$. The
 cross-sectional area is $$ \pi r^{2}=2.46 \times 10^{-3} \mm $$. The equation $$
-\Delta L=\frac{1}{Y}\frac{F}{A} L_{0} $$ can be used to find the change in
+\Delta L=\frac{1}{Y}\frac{F}{A} L\_{0} $$ can be used to find the change in
 length.
 
 **Solution**
@@ -227,7 +229,7 @@ or length change; others, like support tendons (as in the leg) can change length
 up to 10%. Note that this stress-strain curve is nonlinear, since the slope of
 the line changes in different regions. In the first part of the stretch called
 the toe region, the fibers in the tendon begin to align in the direction of the
-stress—this is called *uncrimping*. In the linear region, the fibrils will be
+stress—this is called _uncrimping_. In the linear region, the fibrils will be
 stretched, and in the failure region individual fibers begin to break. A simple
 model of this relationship can be illustrated by springs in parallel: different
 springs are activated at different lengths of stretch. Examples of this are
@@ -235,7 +237,7 @@ given in the problems at end of this chapter. Ligaments (tissue connecting bone
 to bone)
 behave in a similar way.
 
-![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_05_03_05.jpg "Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.")
+![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_05_03_05.jpg 'Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.')
 {: #Figure5}
 
 Unlike bones and tendons, which need to be strong as well as elastic, the
@@ -303,7 +305,7 @@ following form:
 
 The ratio of force to area, $$ \frac{F}{A} $$, is defined as **stress** (
 measured in $$ \text{N/m}^{2} $$ ), and the ratio of the change in length to
-length, $$ \frac{ \Delta L}{ L_{0}} $$, is defined as
+length, $$ \frac{ \Delta L}{ L\_{0}} $$, is defined as
 **strain**
 (a unitless quantity). In other words,
 
@@ -352,9 +354,9 @@ is defined as strain (a unitless quantity). In other words,
 
 ### Sideways Stress: Shear Modulus
 
-[Figure 6](#Figure6) illustrates what is meant by a sideways stress or a *shearing
-force*. Here the deformation is called $$ \Delta x $$ and it is perpendicular to
-$$ L_{0} $$, rather than parallel as with tension and compression. Shear
+[Figure 6](#Figure6) illustrates what is meant by a sideways stress or a _shearing
+force_. Here the deformation is called $$ \Delta x $$ and it is perpendicular to
+$$ L\_{0} $$, rather than parallel as with tension and compression. Shear
 deformation behaves similarly to tension and compression and can be described
 with similar equations. The expression for
 **shear deformation** is
@@ -364,10 +366,12 @@ with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L_
+see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L\_
 {0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
 object from accelerating, there are actually two equal and opposite forces $$ F
-$$ applied across opposite faces, as illustrated in [Figure 6](#Figure6). The
+
+$$
+applied across opposite faces, as illustrated in [Figure 6](#Figure6). The
 equation is logical—for example, it is easier to bend a long thin pencil (small
 $$ A $$ )
 than a short thick one, and both are more easily bent than similar steel rods (
@@ -541,7 +545,9 @@ $$ B $$ from [Table 1](#Table1),
  $$ \begin{array}{lll}
 \frac{ \Delta V}{ V_0}&=& \frac{5.00\times 10^{7} \N/\mm }{2.2\times 10^{9} \N/\mm} \\
 \frac{ \Delta V}{ V_0}&=& 0.023=2.3%.
-\end{array} $$
+\end{array}
+$$
+
 </div>
 
 **Discussion**
@@ -584,7 +590,7 @@ Hooke's Law
 
 ### Section Summary
 
-* Hooke’s law is given by
+- Hooke’s law is given by
   <div class="equation">
   $$ F=k\Delta L, $$
   </div>
@@ -599,32 +605,32 @@ as
   $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0}, $$
   </div>
 
-where $$ Y $$ is *Young’s modulus*, which depends on the substance, $$ A $$ is
-the cross-sectional area, and $$ L_{0} $$ is the original length.
+where $$ Y $$ is _Young’s modulus_, which depends on the substance, $$ A $$ is
+the cross-sectional area, and $$ L\_{0} $$ is the original length.
 
-* The ratio of force to area, $$ \frac{F}{A} $$, is defined as *stress*,
+- The ratio of force to area, $$ \frac{F}{A} $$, is defined as *stress*,
   measured in $$\text{N/m}^2$$.
-* The ratio of the change in length to length, $$ \frac{ \Delta L}{ L_{0}} $$,
-  is defined as *strain* (a unitless quantity). In other words,
+- The ratio of the change in length to length, $$ \frac{ \Delta L}{ L\_{0}} $$,
+  is defined as _strain_ (a unitless quantity). In other words,
   <div class="equation">
     $$ \text{stress}=Y \times \text{strain}. $$
   </div>
 
-* The expression for shear deformation is
+- The expression for shear deformation is
   <div class="equation">
     $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0}, $$
   </div>
 
 where $$ S $$ is the shear modulus and $$ F $$ is the force applied
-perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$.
+perpendicular to $$ L\_{0} $$ and parallel to the cross-sectional area $$ A $$.
 
-* The relationship of the change in volume to other physical quantities is given
+- The relationship of the change in volume to other physical quantities is given
   by
   <div class="equation">
     $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
   </div>
 
-where $$ B $$ is the bulk modulus, $$ V_{0} $$ is the original volume, and $$
+where $$ B $$ is the bulk modulus, $$ V\_{0} $$ is the original volume, and $$
 \frac{ F}{A} $$ is the force per unit area applied uniformly inward on all
 surfaces.
 
@@ -1143,10 +1149,11 @@ $$ A = \pi r^2 = \pi(0.00300 \m)^2 = 2.83 \times 10^{-5} \mm $$
 </div>
 
 2. Decompose the force:
-   - Shear component (perpendicular to pencil): $$ F_\perp = F\cos 20° = 6.00 \cos 20° = 5.64 \N $$
-   - Compressive component (along pencil): $$ F_\parallel = F\sin 20° = 6.00 \sin 20° = 2.05 \N $$
+   - Shear component (perpendicular to pencil): $$ F\_\perp = F\cos 20° = 6.00 \cos 20° = 5.64 \N $$
+   - Compressive component (along pencil): $$ F\_\parallel = F\sin 20° = 6.00 \sin 20° = 2.05 \N $$
 
 (a) Shear deformation (flex perpendicular to length):
+
 <div class="equation">
 $$ \Delta x = \frac{F_\perp L}{AS} = \frac{(5.64 \N)(0.0200 \m)}{(2.83 \times 10^{-5} \mm)(1.0 \times 10^{10} \text{ N/m}^2)} $$
 </div>
@@ -1155,6 +1162,7 @@ $$ \Delta x = \frac{0.1128}{2.83 \times 10^5} = 3.99 \times 10^{-7} \m $$
 </div>
 
 (b) Compression (lengthwise):
+
 <div class="equation">
 $$ \Delta L = \frac{F_\parallel L}{AY} = \frac{(2.05 \N)(0.0200 \m)}{(2.83 \times 10^{-5} \mm)(1.5 \times 10^{10} \text{ N/m}^2)} $$
 </div>
@@ -1199,6 +1207,7 @@ $$ A = \pi r^2 = \pi(0.0225 \m)^2 = 1.59 \times 10^{-3} \mm $$
    - Vertical component: $$ F_V = T\sin 30° = 108 \sin 30° = 54.0 \N $$
 
 (a) Sideways bending (shear deformation):
+
 <div class="equation">
 $$ \Delta x = \frac{F_H L}{AS} = \frac{(93.5 \N)(12.0 \m)}{(1.59 \times 10^{-3} \mm)(2.5 \times 10^{10} \text{ N/m}^2)} $$
 </div>
@@ -1207,6 +1216,7 @@ $$ \Delta x = \frac{1122}{3.98 \times 10^7} = 2.82 \times 10^{-5} \m = 0.0282 \t
 </div>
 
 (b) Compression:
+
 <div class="equation">
 $$ \Delta L = \frac{F_V L}{AY} = \frac{(54.0 \N)(12.0 \m)}{(1.59 \times 10^{-3} \mm)(7.0 \times 10^{10} \text{ N/m}^2)} $$
 </div>
@@ -1284,6 +1294,7 @@ We use the same approach as the previous problem, applying the bulk modulus rela
 **Solution**
 
 (a) Calculate the pressure from freezing water:
+
 <div class="equation">
 $$ \Delta P = B \times \frac{\Delta V}{V_0} = (2.2 \times 10^9 \text{ N/m}^2)(9.05 \times 10^{-2}) $$
 </div>
@@ -1292,6 +1303,7 @@ $$ \Delta P = 1.99 \times 10^8 \text{ N/m}^2 \approx 2.0 \times 10^8 \text{ N/m}
 </div>
 
 Convert to atmospheres:
+
 <div class="equation">
 $$ \Delta P = \frac{2.0 \times 10^8}{1.01 \times 10^5} \approx 2000 \text{ atm} $$
 </div>
@@ -1360,7 +1372,7 @@ diameter, and can be considered to have half the stiffness of hardwood.
 to the top of the pole at an angle of $$ 30.0^\circ $$ with the vertical. (
 Clearly, the guy wire must be in the opposite direction of the bend.)
 
-![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_05_03_10.jpg "This telephone pole is at a 90 degrees bend in a power line. A guy wire is attached to the top of the pole at an angle of 30 degrees with the vertical.")
+![A telephone pole is located at a ninety degree bend in a power line. Each part of the line is at an angle of eighty degrees with the pole and has a tension labeled T. A guy wire is attached to the top of the pole at an angle of thirty degrees with the vertical.](../resources/Figure_05_03_10.jpg 'This telephone pole is at a 90 degrees bend in a power line. A guy wire is attached to the top of the pole at an angle of 30 degrees with the vertical.')
 {: #Figure10}
 
 </div>
@@ -1382,11 +1394,12 @@ $$ A = \pi r^2 = \pi(0.090 \m)^2 = 2.54 \times 10^{-2} \mm $$
    - Horizontal component (each): $$ F_H = T\sin 80° = (4.00 \times 10^4)\sin 80° = 3.94 \times 10^4 \N $$
 
 3. At a 90° bend, the horizontal components are perpendicular to each other:
-   - Net horizontal force: $$ F_{H,net} = \sqrt{2} \times F_H = 1.414 \times 3.94 \times 10^4 = 5.57 \times 10^4 \N $$
-   - Total vertical force: $$ F_{V,total} = 2 \times F_V = 2 \times 6.95 \times 10^3 = 1.39 \times 10^4 \N $$
+   - Net horizontal force: $$ F\_{H,net} = \sqrt{2} \times F_H = 1.414 \times 3.94 \times 10^4 = 5.57 \times 10^4 \N $$
+   - Total vertical force: $$ F\_{V,total} = 2 \times F_V = 2 \times 6.95 \times 10^3 = 1.39 \times 10^4 \N $$
    - Direction of bend: 45° from each wire direction (bisecting the 90° angle)
 
 (a) Compression of the pole:
+
 <div class="equation">
 $$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(7.5 \times 10^9)} $$
 </div>
@@ -1395,6 +1408,7 @@ $$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m
 </div>
 
 (b) Bending of the pole:
+
 <div class="equation">
 $$ \Delta x = \frac{F_{H,net} \cdot L_0}{AS} = \frac{(5.57 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(5.0 \times 10^9)} $$
 </div>
@@ -1406,7 +1420,8 @@ The pole bends in the direction that bisects the 90° angle (45° from each wire
 
 (c) Guy wire tension:
 
-The guy wire must provide a horizontal force component equal to $$ F_{H,net} $$ to straighten the pole:
+The guy wire must provide a horizontal force component equal to $$ F\_{H,net} $$ to straighten the pole:
+
 <div class="equation">
 $$ T_{guy}\sin 30° = F_{H,net} $$
 </div>

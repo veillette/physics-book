@@ -17,20 +17,20 @@ chapterNumber: 12
 When you pour yourself a glass of juice, the liquid flows freely and quickly.
 But when you pour syrup on your pancakes, that liquid flows slowly and sticks to
 the pitcher. The difference is fluid friction, both within the fluid itself and
-between the fluid and its surroundings. We call this property of fluids 
-*viscosity*. Juice has low viscosity, whereas syrup has high viscosity. In the
+between the fluid and its surroundings. We call this property of fluids
+_viscosity_. Juice has low viscosity, whereas syrup has high viscosity. In the
 previous sections we have considered ideal fluids with little or no viscosity.
 In this section, we will investigate what factors, including viscosity, affect
 the rate of fluid flow.
 
-The precise definition of viscosity is based on *laminar*, or nonturbulent,
+The precise definition of viscosity is based on _laminar_, or nonturbulent,
 flow. Before we can define viscosity, then, we need to define laminar flow and
 turbulent flow. [[Figure 1]](#Figure1) shows both types of flow. **Laminar**
 flow is characterized by the smooth flow of the fluid in layers that do not mix.
 Turbulent flow, or **turbulence**, is characterized by eddies and swirls that
 mix layers of fluid together.
 
-![Photograph of smoke rising smoothly for a while and then beginning to form swirls and eddies.](../resources/Figure_12_04_01.jpg "Smoke rises smoothly for a while and then begins to form swirls and eddies. The smooth flow is called laminar flow, whereas the swirls and eddies typify turbulent flow. If you watch the smoke (being careful not to breathe on it), you will notice that it rises more rapidly when flowing smoothly than after it becomes turbulent, implying that turbulence poses more resistance to flow. (credit: Creativity103)")
+![Photograph of smoke rising smoothly for a while and then beginning to form swirls and eddies.](../resources/Figure_12_04_01.jpg 'Smoke rises smoothly for a while and then begins to form swirls and eddies. The smooth flow is called laminar flow, whereas the swirls and eddies typify turbulent flow. If you watch the smoke (being careful not to breathe on it), you will notice that it rises more rapidly when flowing smoothly than after it becomes turbulent, implying that turbulence poses more resistance to flow. (credit: Creativity103)')
 {: #Figure1}
 
 [[Figure 2]](#Figure2) shows schematically how laminar and turbulent flow
@@ -38,7 +38,7 @@ differ. Layers flow without mixing when flow is laminar. When there is
 turbulence, the layers mix, and there are significant velocities in directions
 other than the overall direction of flow. The lines that are shown in many
 illustrations are the paths followed by small volumes of fluids. These are
-called *streamlines*. Streamlines are smooth and continuous when flow is
+called _streamlines_. Streamlines are smooth and continuous when flow is
 laminar, but break up and mix when flow is turbulent. Turbulence has two main
 causes. First, any obstruction or sharp corner, such as in a faucet, creates
 turbulence by imparting velocities perpendicular to the flow. Second, high
@@ -47,7 +47,7 @@ between the fluid and its surroundings forms swirls and eddies, if the speed is
 great enough. We shall concentrate on laminar flow for the remainder of this
 section, leaving certain aspects of turbulence for later sections.
 
-![Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.](../resources/Figure_12_04_02.jpg "(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.")
+![Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.](../resources/Figure_12_04_02.jpg '(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -65,7 +65,9 @@ lamina) of fluid in contact with either plate does not move relative to the
 plate, and so the top layer moves at $$v $$ while the bottom layer remains at
 rest. Each successive layer from the top down exerts a force on the one below
 it, trying to drag it along, producing a continuous variation in speed from $$v
-$$ to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
+
+$$
+to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
 layers do not mix. The motion in [[Figure 3]](#Figure3) is like a continuous
 shearing motion. Fluids have zero shear strength, but the *rate* at which they
 are sheared is related to the same geometrical factors $$A $$ and $$L $$ as is
@@ -92,7 +94,7 @@ combined into the equation
  $$F=\eta \frac{vA}{L}\text{,} $$
 </div>
 
-which gives us a working definition of fluid **viscosity** $$\eta $$. 
+which gives us a working definition of fluid **viscosity** $$\eta $$.
 Solving for $$\eta $$ gives
 
 <div class="equation" >
@@ -214,7 +216,7 @@ strain on the heart.
 <table id="Table1" aria-describedby="Coefficients of Viscosity of Various Fluids"><caption><span class="title">Coefficients of Viscosity of Various Fluids</span></caption><thead><tr>
             <th>Fluid</th>
             <th>Temperature (ºC)</th>
-            <th>Viscosity 
+            <th>Viscosity
  $$\eta  \text{(mPa·s)} $$</th>
           </tr></thead><tbody><tr>
             <td><strong><em>Gases</em></strong></td>
@@ -389,8 +391,10 @@ Solving for $${P}_{2} $$ yields
  Substituting this and the other known values yields
 
 <div class="equation" >
- $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\ 
-{P}_{2}& =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array} $$
+ $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\
+{P}_{2}& =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array}
+$$
+
 </div>
 **Discussion**
 
@@ -426,7 +430,7 @@ $${P}_{1} $$ must decrease. It is correct to think of flow and resistance as
 causing the pressure to drop from $${P}_{2} $$ to $${P}_{1} $$ . $${P}_{2}-{P}_
 {1}=RQ $$ is valid for both laminar and turbulent flows.
 
-![Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.](../resources/Figure_12_04_06.jpg "During times of heavy use, there is a significant pressure drop in a water main, and \( P_1 \) supplied to users is significantly less than \( P_2 \) created at the water works. If the flow is very small, then the pressure drop is negligible, and \( P_2 \approx P_1 \).")
+![Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.](../resources/Figure_12_04_06.jpg 'During times of heavy use, there is a significant pressure drop in a water main, and ( P_1 ) supplied to users is significantly less than ( P_2 ) created at the water works. If the flow is very small, then the pressure drop is negligible, and ( P_2 \\approx P_1 ).')
 {: #Figure6}
 
 We can use $${P}_{2}-{P}_{1}=RQ $$ to analyze pressure drops occurring in more
@@ -455,7 +459,7 @@ organs by the dilation and constriction of the arteries leading to them and the
 capillaries within them. The sensitivity of flow to tube radius makes this
 flexibility possible over a large range of flow rates.
 
-![Figure is a schematic diagram of the circulatory system. The lungs, heart, arteries and vein systems are shown. The blood is shown to flow from the left atrium through the arteries, then through the veins and back to the right atrium. The flow is also shown from right atrium to the lungs and from lungs back to left atrium. All parts of the system are labeled. Pressure various points of the system all along the movement of blood across various parts are also marked.](../resources/Figure_12_04_07.jpg "Schematic of the circulatory system. Pressure difference is created by the two pumps in the heart and is reduced by resistance in the vessels. Branching of vessels into capillaries allows blood to reach individual cells and exchange substances, such as oxygen and waste products, with them. The system has an impressive ability to regulate flow to individual organs, accomplished largely by varying vessel diameters.")
+![Figure is a schematic diagram of the circulatory system. The lungs, heart, arteries and vein systems are shown. The blood is shown to flow from the left atrium through the arteries, then through the veins and back to the right atrium. The flow is also shown from right atrium to the lungs and from lungs back to left atrium. All parts of the system are labeled. Pressure various points of the system all along the movement of blood across various parts are also marked.](../resources/Figure_12_04_07.jpg 'Schematic of the circulatory system. Pressure difference is created by the two pumps in the heart and is reduced by resistance in the vessels. Branching of vessels into capillaries allows blood to reach individual cells and exchange substances, such as oxygen and waste products, with them. The system has an impressive ability to regulate flow to individual organs, accomplished largely by varying vessel diameters.')
 {: #Figure7}
 
 Each branching of larger vessels into smaller vessels increases the total
@@ -473,33 +477,33 @@ substances with the cells in the capillaries and alveoli in particular.
 
 ### Section Summary
 
-* Laminar flow is characterized by smooth flow of the fluid in layers that do
+- Laminar flow is characterized by smooth flow of the fluid in layers that do
   not mix.
-* Turbulence is characterized by eddies and swirls that mix layers of fluid
+- Turbulence is characterized by eddies and swirls that mix layers of fluid
   together.
-* Fluid viscosity $$\eta $$ is due to friction within a fluid. Representative values are given
-      in [[Table 1]](#Table1). Viscosity has units of $$\left(
+- Fluid viscosity $$\eta $$ is due to friction within a fluid. Representative values are given
+  in [[Table 1]](#Table1). Viscosity has units of $$\left(
       {\text{N/m}}^{2}\right)\text{s} $$ or $$\text{Pa}\cdot \text{s} $$ .
-* Flow is proportional to pressure difference and inversely proportional to
+- Flow is proportional to pressure difference and inversely proportional to
   resistance:
 
   <div class="equation" >
    $$Q=\frac{ {P}_{2}-{P}_{1}}{R}. $$
   </div>
 
-* For laminar flow in a tube, Poiseuille’s law for resistance states that
+- For laminar flow in a tube, Poiseuille’s law for resistance states that
 
   <div class="equation" >
    $$R=\frac{8\eta l}{ \pi r^{4}}. $$
   </div>
 
-* Poiseuille’s law for flow in a tube is
+- Poiseuille’s law for flow in a tube is
 
   <div class="equation" >
    $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi {r}^{4}}{8\eta l}. $$
   </div>
 
-* The pressure drop caused by flow and resistance is given by
+- The pressure drop caused by flow and resistance is given by
 
   <div class="equation" >
    $${P}_{2}-{P}_{1}=RQ. $$
@@ -512,12 +516,58 @@ substances with the cells in the capillaries and alveoli in particular.
 Explain why the viscosity of a liquid decreases with temperature—that is, how might increased temperature reduce the effects of cohesive forces in a liquid? Also explain why the viscosity of a gas increases with temperature—that is, how does increased gas temperature create more collisions between atoms and molecules?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We consider the molecular mechanisms that cause viscosity in liquids versus gases, and how temperature affects these mechanisms differently.
+
+**Solution**
+
+**Liquids (viscosity decreases with temperature):**
+In liquids, viscosity is primarily due to intermolecular cohesive forces (van der Waals forces, hydrogen bonding, etc.) that resist the sliding of fluid layers past each other. When temperature increases:
+- Molecules gain kinetic energy and move more rapidly
+- This increased thermal motion helps molecules overcome the cohesive forces binding them to neighbors
+- The "stickiness" between fluid layers decreases
+- Result: Viscosity decreases (honey flows more easily when warmed)
+
+**Gases (viscosity increases with temperature):**
+In gases, molecules are far apart, so cohesive forces are negligible. Instead, viscosity arises from momentum transfer during molecular collisions. When temperature increases:
+- Molecules move faster (average speed $$\propto \sqrt{T}$$)
+- Faster molecules collide more frequently and transfer more momentum between layers
+- This increased momentum exchange creates more internal friction
+- Result: Viscosity increases
+
+**Discussion**
+
+This opposite temperature dependence is a key distinction between liquids and gases. It has practical implications: motor oil thins when hot (problematic for lubrication), while hot exhaust gases are more viscous (affects engine performance).
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 When paddling a canoe upstream, it is wisest to travel as near to the shore as possible. When canoeing downstream, it may be best to stay near the middle. Explain why.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We consider how the velocity profile in a river varies from shore to center due to viscous drag on the riverbed and banks.
+
+**Solution**
+
+Due to viscosity, water in a river doesn't flow at the same speed everywhere. The water experiences drag from the riverbed and banks, creating a velocity profile:
+- **Near shore**: Water flows slowly due to friction with the riverbed and banks
+- **Near center**: Water flows fastest because it's farthest from the frictional boundaries
+
+**Going upstream (against the current):**
+You want to minimize the current working against you. By staying near the shore where the water moves slowly, you paddle against a weaker current, making progress easier.
+
+**Going downstream (with the current):**
+You want to maximize the current helping you. By staying in the middle where the water moves fastest, you get the maximum boost from the current and travel faster with less effort.
+
+**Discussion**
+
+This is a practical application of understanding the velocity profile in viscous flow. The same principle applies to swimmers, kayakers, and even fish—they instinctively use these patterns for efficient movement in rivers.
 </div>
 </div>
 
@@ -526,15 +576,62 @@ When paddling a canoe upstream, it is wisest to travel as near to the shore as p
 Why does flow decrease in your shower when someone flushes the toilet?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply the relationship between pressure, flow rate, and resistance in a plumbing system where multiple fixtures share a common supply.
+
+**Solution**
+
+When someone flushes a toilet, it creates a sudden demand for water that affects the entire plumbing system:
+
+1. **Pressure drop**: The toilet's flush valve opens, creating a large flow through the toilet supply line. From the equation $$P_2 - P_1 = RQ$$, this increased flow causes a larger pressure drop in the main supply pipe.
+
+2. **Reduced pressure at shower**: Since the shower and toilet share the same supply line (at least partially), the pressure available to the shower decreases when the toilet demands water.
+
+3. **Reduced shower flow**: By $$Q = \frac{P_2 - P_1}{R}$$, lower pressure difference at the shower means lower flow rate.
+
+Additionally, if the toilet fills from a cold water line while the shower uses hot water, the sudden cold water demand can cause pressure fluctuations that change the temperature balance in the shower.
+
+**Discussion**
+
+This is why modern plumbing codes require larger supply pipes and pressure-balancing valves in showers. Pressure-balancing valves automatically adjust to maintain constant flow regardless of pressure fluctuations elsewhere in the system.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Plumbing usually includes air-filled tubes near water faucets, as shown in [[Figure 8]](#Figure8). Explain why they are needed and how they work.
 
-![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_12_04_08.jpg "The vertical tube near the water tap remains full of air and serves a useful purpose.")
+![The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.](../resources/Figure_12_04_08.jpg 'The vertical tube near the water tap remains full of air and serves a useful purpose.')
 {: #Figure8}
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We consider the physics of water hammer and how a compressible gas (air) can absorb pressure surges.
+
+**Solution**
+
+These air-filled tubes are called "air chambers" or "water hammer arrestors." They're needed to prevent "water hammer"—the loud banging noise and potential pipe damage that occurs when water flow is suddenly stopped.
+
+**The problem (water hammer):**
+When a faucet is quickly closed, the moving water must stop abruptly. Water is nearly incompressible, so its momentum creates a large pressure spike (often thousands of kPa). This pressure wave travels through the pipes, causing:
+- Loud banging noises
+- Stress on pipe joints
+- Potential pipe damage over time
+
+**How the air chamber works:**
+1. The vertical tube traps a pocket of air at the top (air is much less dense than water and rises)
+2. When water flow stops suddenly, the pressure surge pushes water up into the air chamber
+3. The trapped air compresses, absorbing the shock like a spring
+4. This compression happens gradually, converting the water's kinetic energy into potential energy of compressed air
+5. The air then slowly pushes the water back, eliminating the sharp pressure spike
+
+**Discussion**
+
+Air chambers are simple, passive devices that prevent water hammer without requiring any moving parts. However, over time, air can dissolve into the water, reducing effectiveness—this is why plumbers sometimes need to drain pipes to restore the air cushion, or install mechanical water hammer arrestors with sealed air chambers.
 </div>
 </div>
 
@@ -549,8 +646,32 @@ Plumbing usually includes air-filled tubes near water faucets, as shown in [[Fig
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 3.02 \times 10^{-3}  \text{N} $$
-(b)  $$ 1.03 \times 10^{-3}  $$
+**Strategy**
+
+We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ where $$\eta$$ is the viscosity of air at 20°C.
+
+**Solution**
+
+Given:
+- Air viscosity at 20°C: $$\eta = 0.0181 \text{ mPa·s} = 1.81 \times 10^{-5} \text{ Pa·s}$$
+- Velocity: $$v = 0.400 \text{ m/s}$$
+- Area: $$A = 2.50 \times 10^{-2} \text{ m}^2$$
+- Air layer thickness: $$L = 6.00 \times 10^{-5} \text{ m}$$
+- Cart mass: $$m = 0.300 \text{ kg}$$
+
+**(a)** Calculate the viscous force:
+$$F = \eta \frac{vA}{L} = (1.81 \times 10^{-5} \text{ Pa·s}) \frac{(0.400 \text{ m/s})(2.50 \times 10^{-2} \text{ m}^2)}{6.00 \times 10^{-5} \text{ m}}$$
+
+$$F = (1.81 \times 10^{-5}) \frac{0.0100}{6.00 \times 10^{-5}} = (1.81 \times 10^{-5})(166.7) = 3.02 \times 10^{-3} \text{ N}$$
+
+**(b)** Calculate the weight and ratio:
+$$W = mg = (0.300 \text{ kg})(9.80 \text{ m/s}^2) = 2.94 \text{ N}$$
+
+$$\text{Ratio} = \frac{F}{W} = \frac{3.02 \times 10^{-3} \text{ N}}{2.94 \text{ N}} = 1.03 \times 10^{-3}$$
+
+**Discussion**
+
+The viscous retarding force is **(a) 3.02 × 10⁻³ N**, and the ratio to the cart's weight is **(b) 1.03 × 10⁻³** (about 0.1%). This very small ratio explains why air tracks are excellent for demonstrating nearly frictionless motion—the air cushion reduces friction by about three orders of magnitude compared to solid contact.
 </div>
 </div>
 
@@ -559,6 +680,28 @@ Plumbing usually includes air-filled tubes near water faucets, as shown in [[Fig
 What force is needed to pull one microscope slide over another at a speed of 1.00 cm/s, if there is a 0.500-mm-thick layer of  $$20 \text{ºC} $$
  water between them and the contact area is  $$8.00 {\text{cm}}^{2} $$ ?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the viscosity force equation $$F = \eta \frac{vA}{L}$$ with the viscosity of water at 20°C.
+
+**Solution**
+
+Given:
+- Water viscosity at 20°C: $$\eta = 1.002 \text{ mPa·s} = 1.002 \times 10^{-3} \text{ Pa·s}$$
+- Velocity: $$v = 1.00 \text{ cm/s} = 0.0100 \text{ m/s}$$
+- Layer thickness: $$L = 0.500 \text{ mm} = 5.00 \times 10^{-4} \text{ m}$$
+- Contact area: $$A = 8.00 \text{ cm}^2 = 8.00 \times 10^{-4} \text{ m}^2$$
+
+Calculate the force:
+$$F = \eta \frac{vA}{L} = (1.002 \times 10^{-3} \text{ Pa·s}) \frac{(0.0100 \text{ m/s})(8.00 \times 10^{-4} \text{ m}^2)}{5.00 \times 10^{-4} \text{ m}}$$
+
+$$F = (1.002 \times 10^{-3}) \frac{8.00 \times 10^{-6}}{5.00 \times 10^{-4}} = (1.002 \times 10^{-3})(0.0160) = 1.60 \times 10^{-5} \text{ N}$$
+
+**Discussion**
+
+The force needed is approximately **1.60 × 10⁻⁵ N** (16 micronewtons). This very small force demonstrates why water is an effective lubricant for microscope slides—even a thin layer of water dramatically reduces the friction compared to dry sliding contact.
 </div>
 </div>
 
@@ -569,7 +712,26 @@ A glucose solution being administered with an IV has a flow rate of  $$ 4.00 {\t
 
 </div>
 <div class="solution" markdown="1">
- $$1.60 {\text{cm}}^{3}\text{/min} $$
+**Strategy**
+
+From Poiseuille's law, flow rate is inversely proportional to viscosity when all other factors are constant.
+
+**Solution**
+
+From Poiseuille's law: $$Q = \frac{(P_2 - P_1)\pi r^4}{8\eta l}$$
+
+With all other factors constant:
+$$Q \propto \frac{1}{\eta}$$
+
+Therefore:
+$$\frac{Q_2}{Q_1} = \frac{\eta_1}{\eta_2}$$
+
+Given that $$\eta_2 = 2.50 \eta_1$$:
+$$Q_2 = Q_1 \times \frac{\eta_1}{\eta_2} = Q_1 \times \frac{1}{2.50} = \frac{4.00 \text{ cm}^3/\text{min}}{2.50} = 1.60 \text{ cm}^3/\text{min}$$
+
+**Discussion**
+
+The new flow rate is **1.60 cm³/min**. This illustrates why blood transfusions require careful attention to flow rates—blood's higher viscosity (about 3 times that of water) means it flows more slowly than other IV fluids under the same conditions. Higher pressure or larger needles may be needed to achieve adequate flow rates.
 </div>
 </div>
 
@@ -577,6 +739,35 @@ A glucose solution being administered with an IV has a flow rate of  $$ 4.00 {\t
 <div class="problem" markdown="1">
 The pressure drop along a length of artery is 100 Pa, the radius is 10 mm, and the flow is laminar. The average speed of the blood is 15 mm/s. (a) What is the net force on the blood in this section of artery? (b) What is the power expended maintaining the flow?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) The net force equals the pressure difference times the cross-sectional area.
+(b) Power equals the force times velocity, or equivalently, pressure drop times flow rate.
+
+**Solution**
+
+Given:
+- Pressure drop: $$\Delta P = 100 \text{ Pa}$$
+- Radius: $$r = 10 \text{ mm} = 0.010 \text{ m}$$
+- Average speed: $$v = 15 \text{ mm/s} = 0.015 \text{ m/s}$$
+
+**(a)** Calculate the cross-sectional area:
+$$A = \pi r^2 = \pi (0.010 \text{ m})^2 = 3.14 \times 10^{-4} \text{ m}^2$$
+
+Calculate the net force:
+$$F = \Delta P \times A = (100 \text{ Pa})(3.14 \times 10^{-4} \text{ m}^2) = 3.14 \times 10^{-2} \text{ N}$$
+
+**(b)** Calculate the flow rate:
+$$Q = Av = (3.14 \times 10^{-4} \text{ m}^2)(0.015 \text{ m/s}) = 4.71 \times 10^{-6} \text{ m}^3/\text{s}$$
+
+Calculate the power:
+$$P = \Delta P \times Q = (100 \text{ Pa})(4.71 \times 10^{-6} \text{ m}^3/\text{s}) = 4.71 \times 10^{-4} \text{ W}$$
+
+**Discussion**
+
+The net force on the blood is **(a) 3.14 × 10⁻² N** (about 31 millinewtons), and the power expended is **(b) 4.71 × 10⁻⁴ W** (about 0.47 milliwatts). These small values for a single artery segment multiply across the thousands of vessels in the body, explaining why the heart must continuously supply significant power to maintain blood circulation.
 </div>
 </div>
 
@@ -589,7 +780,30 @@ A small artery has a length of  $$ 1.1 \times 10^{-3}  \text{m} $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 8.7 \times 10^{-11}  {\text{m}}^{3}\text{/s} $$
+**Strategy**
+
+We use Poiseuille's law to calculate the flow rate given the pressure drop, dimensions, and viscosity of blood at body temperature.
+
+**Solution**
+
+Given:
+- Length: $$l = 1.1 \times 10^{-3} \text{ m}$$
+- Radius: $$r = 2.5 \times 10^{-5} \text{ m}$$
+- Pressure drop: $$\Delta P = 1.3 \text{ kPa} = 1300 \text{ Pa}$$
+- Blood viscosity at 37°C: $$\eta = 2.084 \text{ mPa·s} = 2.084 \times 10^{-3} \text{ Pa·s}$$
+
+Apply Poiseuille's law:
+$$Q = \frac{\Delta P \cdot \pi r^4}{8\eta l}$$
+
+$$Q = \frac{(1300 \text{ Pa}) \cdot \pi (2.5 \times 10^{-5} \text{ m})^4}{8(2.084 \times 10^{-3} \text{ Pa·s})(1.1 \times 10^{-3} \text{ m})}$$
+
+$$Q = \frac{(1300) \cdot \pi (3.91 \times 10^{-19})}{8(2.29 \times 10^{-6})} = \frac{1.60 \times 10^{-15}}{1.83 \times 10^{-5}}$$
+
+$$Q = 8.7 \times 10^{-11} \text{ m}^3/\text{s}$$
+
+**Discussion**
+
+The flow rate through this small artery is approximately **8.7 × 10⁻¹¹ m³/s** (0.087 nanoliters per second). This extremely small flow rate is typical for arterioles—individually they carry very little blood, but collectively the millions of small vessels distribute blood throughout the body's tissues.
 </div>
 </div>
 
@@ -599,6 +813,36 @@ Fluid originally flows through a tube at a rate of  $$100 {\text{cm}}^{3}\text{/
  To illustrate the sensitivity of flow rate to various factors, calculate the new flow rate for the following changes with all other factors remaining the same as in the original conditions. (a) Pressure difference increases by a factor of 1.50. (b) A new fluid with 3.00 times greater viscosity is substituted. (c) The tube is replaced by one having 4.00 times the length. (d) Another tube is used with a radius 0.100 times the original. (e) Yet another tube is substituted with a radius 0.100 times the original and half the length, *and* the pressure difference is increased by a factor of 1.50.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Poiseuille's law, $$Q = \frac{\Delta P \cdot \pi r^4}{8\eta l}$$, we analyze how $$Q$$ scales with each parameter.
+
+**Solution**
+
+Original flow rate: $$Q_0 = 100 \text{ cm}^3/\text{s}$$
+
+From Poiseuille's law: $$Q \propto \frac{\Delta P \cdot r^4}{\eta \cdot l}$$
+
+**(a)** Pressure difference increases by 1.50:
+$$Q_a = Q_0 \times 1.50 = 100 \times 1.50 = 150 \text{ cm}^3/\text{s}$$
+
+**(b)** Viscosity increases by 3.00:
+$$Q_b = Q_0 \times \frac{1}{3.00} = 100 \times \frac{1}{3.00} = 33.3 \text{ cm}^3/\text{s}$$
+
+**(c)** Length increases by 4.00:
+$$Q_c = Q_0 \times \frac{1}{4.00} = 100 \times \frac{1}{4.00} = 25.0 \text{ cm}^3/\text{s}$$
+
+**(d)** Radius becomes 0.100 times original:
+$$Q_d = Q_0 \times (0.100)^4 = 100 \times 0.0001 = 0.0100 \text{ cm}^3/\text{s}$$
+
+**(e)** Radius 0.100 times, length half, pressure 1.50 times:
+$$Q_e = Q_0 \times (0.100)^4 \times \frac{1}{0.5} \times 1.50 = 100 \times 0.0001 \times 2 \times 1.50 = 0.0300 \text{ cm}^3/\text{s}$$
+
+**Discussion**
+
+The new flow rates are **(a) 150**, **(b) 33.3**, **(c) 25.0**, **(d) 0.0100**, and **(e) 0.0300 cm³/s**. The dramatic effect of radius (fourth power!) is clearly shown in parts (d) and (e)—reducing the radius to 1/10 reduces flow by a factor of 10,000. This explains why even small changes in blood vessel diameter have profound effects on blood flow.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -607,8 +851,27 @@ The arterioles (small arteries) leading to an organ, constrict in order to decre
 
 </div>
 <div class="solution" markdown="1">
-0.316
+**Strategy**
 
+From Poiseuille's law, flow rate is proportional to $$r^4$$. We find the radius ratio that reduces flow to 1% of original.
+
+**Solution**
+
+From Poiseuille's law with constant pressure, viscosity, and length:
+$$Q \propto r^4$$
+
+Let $$r_2 = x \cdot r_1$$ where $$x$$ is the factor we seek.
+
+Given: $$Q_2 = 0.0100 \cdot Q_1$$
+
+Therefore:
+$$\frac{Q_2}{Q_1} = \frac{r_2^4}{r_1^4} = x^4 = 0.0100$$
+
+$$x = (0.0100)^{1/4} = (0.0100)^{0.25} = 0.316$$
+
+**Discussion**
+
+The radii constricted to **0.316** (or about 31.6%) of their original value. This means the arterioles narrowed to less than one-third of their normal diameter, which reduced flow to just 1% of normal. This remarkable ability to regulate blood flow is crucial for penguins and other animals that must conserve body heat while standing on ice—reducing blood flow to extremities prevents heat loss while keeping vital organs warm.
 </div>
 </div>
 
@@ -617,20 +880,62 @@ The arterioles (small arteries) leading to an organ, constrict in order to decre
 Angioplasty is a technique in which arteries partially blocked with plaque are dilated to increase blood flow. By what factor must the radius of an artery be increased in order to increase blood flow by a factor of 10?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Poiseuille's law, flow rate scales as $$r^4$$. We find the radius factor needed to increase flow by a factor of 10.
+
+**Solution**
+
+From Poiseuille's law with constant pressure, viscosity, and length:
+$$Q \propto r^4$$
+
+Let the radius increase factor be $$x$$ (so $$r_2 = x \cdot r_1$$).
+
+Given: $$Q_2 = 10 \cdot Q_1$$
+
+$$\frac{Q_2}{Q_1} = \frac{r_2^4}{r_1^4} = x^4 = 10$$
+
+$$x = 10^{1/4} = 10^{0.25} = 1.78$$
+
+**Discussion**
+
+The radius must be increased by a factor of **1.78** (about 78% larger) to increase blood flow by a factor of 10. This demonstrates the power of the $$r^4$$ relationship—a relatively modest increase in radius produces a dramatic increase in flow. This is why angioplasty (which typically increases vessel diameter by inserting a balloon or stent) can be so effective at restoring blood flow even when it doesn't fully restore the original vessel size.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Suppose a blood vessel’s radius is decreased to 90.0% of its original value by plaque deposits and the body compensates by increasing the pressure difference along the vessel to keep the flow rate constant. By what factor must the pressure difference increase? (b) If turbulence is created by the obstruction, what additional effect would it have on the flow rate?
+(a) Suppose a blood vessel's radius is decreased to 90.0% of its original value by plaque deposits and the body compensates by increasing the pressure difference along the vessel to keep the flow rate constant. By what factor must the pressure difference increase? (b) If turbulence is created by the obstruction, what additional effect would it have on the flow rate?
 
 </div>
 <div class="solution" markdown="1">
-(a) 1.52
+**Strategy**
 
-(b) Turbulence will decrease the flow rate of the blood, which would require an
-even larger increase in the pressure difference, leading to higher blood
-pressure.
+(a) From Poiseuille's law, for constant Q with changed radius, we find how pressure must change.
+(b) We consider the additional effects of turbulent (non-laminar) flow.
 
+**Solution**
+
+**(a)** From Poiseuille's law: $$Q = \frac{\Delta P \cdot \pi r^4}{8\eta l}$$
+
+For constant Q, viscosity, and length:
+$$\Delta P \propto \frac{1}{r^4}$$
+
+With $$r_2 = 0.90 r_1$$:
+$$\frac{\Delta P_2}{\Delta P_1} = \frac{r_1^4}{r_2^4} = \frac{r_1^4}{(0.90 r_1)^4} = \frac{1}{(0.90)^4} = \frac{1}{0.656} = 1.52$$
+
+**(b)** If turbulence is created by the obstruction:
+- Turbulence significantly increases resistance to flow beyond what Poiseuille's law predicts
+- For turbulent flow, resistance scales approximately with $$v^2$$ rather than $$v$$
+- This would decrease the actual flow rate below the laminar prediction
+- To maintain constant flow, an even larger pressure increase would be needed
+- This leads to higher blood pressure, putting additional strain on the heart and vessel walls
+- The obstruction itself can worsen over time as turbulence promotes further plaque deposition
+
+**Discussion**
+
+The pressure difference must increase by a factor of **(a) 1.52** (a 52% increase). **(b)** Turbulence makes matters worse—it decreases flow efficiency and requires even higher pressure to maintain flow, creating a dangerous cycle that can lead to hypertension and increased cardiovascular risk.
 </div>
 </div>
 
@@ -781,10 +1086,10 @@ Consider a river that spreads out in a delta region on its way to the sea. Const
 ### Footnotes
 {: class="footnote-refs-title"}
 
-* {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
+- {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
   footnote-ref-link"} <span class="footnote-ref-content">The ratios of the
   viscosities of blood to water are nearly constant between 0ºC and 37ºC.</span>
-* {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
+- {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content">See note on Whole
   Blood.</span>
   { data-list-type="bulleted" data-bullet-style="none"}
@@ -805,11 +1110,11 @@ viscosity
 : the friction in a fluid, defined in terms of the friction between layers
 
 Poiseuille’s law for resistance
-: the resistance to laminar flow of an incompressible fluid in a tube: *R = 8
-ηl/πr<sup>4</sup>*
+: the resistance to laminar flow of an incompressible fluid in a tube: _R = 8
+ηl/πr<sup>4</sup>_
 
 Poiseuille’s law
-: the rate of laminar flow of an incompressible fluid in a tube: *Q = (P<sub>
-2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl*
+: the rate of laminar flow of an incompressible fluid in a tube: _Q = (P<sub>
+2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl_
 
 </div>

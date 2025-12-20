@@ -31,7 +31,7 @@ in [Electric Potential Energy: Potential Difference](../contents/ch19ElectricPot
 , this is complex for arbitrary charge distributions, requiring calculus. We
 therefore look at a uniform electric field as an interesting special case.
 
-![The figure shows two vertically oriented parallel plates A and B separated by a distance d. The plate A is positively charged and B is negatively charged. Electric field lines are parallel between the plates and curved at the ends of the plates. A charge q is moved from A to B. The work done W equals q times V sub A B, and the electric field intensity E equals V sub A B over d and potential difference delta V equals q times V sub A B.](../resources/Figure_19_02_01.jpg "The relationship between \( V \) and \( E \) for parallel conducting plates is \( E=V/d \) . (Note that \( \Delta V = V_{\text{AB}} \) in magnitude. For a charge that is moved from plate A at higher potential to plate B at lower potential, a minus sign needs to be included as follows:  \( -\Delta V = V_\text{A} -V_\text{B} = V_{\text{AB}} \). See the text for details.)")
+![The figure shows two vertically oriented parallel plates A and B separated by a distance d. The plate A is positively charged and B is negatively charged. Electric field lines are parallel between the plates and curved at the ends of the plates. A charge q is moved from A to B. The work done W equals q times V sub A B, and the electric field intensity E equals V sub A B over d and potential difference delta V equals q times V sub A B.](../resources/Figure_19_02_01.jpg 'The relationship between ( V ) and ( E ) for parallel conducting plates is ( E=V/d ) . (Note that ( \\Delta V = V_{\\text{AB}} ) in magnitude. For a charge that is moved from plate A at higher potential to plate B at lower potential, a minus sign needs to be included as follows:  ( -\\Delta V = V_\\text{A} -V_\\text{B} = V_{\\text{AB}} ). See the text for details.)')
 {: #Figure1}
 
 The work done by the electric field in [[Figure 1]](#Figure1) to move a positive
@@ -56,7 +56,9 @@ Entering this into the expression for work yields
 
 Work is $$W=Fd \cos \theta $$ ; here $$\cos \theta =1 $$ , since the path is
 parallel to the field, and so $$W=Fd $$ . Since $$F=qE $$ , we see that $$W=qEd
-$$ . Substituting this expression for work into the previous equation gives
+
+$$
+. Substituting this expression for work into the previous equation gives
 
 <div class="equation" >
  $$qEd=qV_{\text{AB}}. $$
@@ -65,14 +67,16 @@ $$ . Substituting this expression for work into the previous equation gives
 The charge cancels, and so the voltage between points A and B is seen to be
 
 <div class="equation" >
- $$
+$$
+
 \begin{array}{c}
 \begin{array}{c}
-V_\text{AB}=Ed \\ 
-E=\frac{ V_\text{AB} }{d}
+V*\text{AB}=Ed \\
+E=\frac{ V*\text{AB} }{d}
 \end{array}
 \left( \text{uniform} E \text{-field only,} \right)  
 \end{array} $$
+
 </div>
 
 where $$d $$ is the distance from A to B, or the distance between the plates
@@ -146,7 +150,7 @@ electricity, on dry days.
 
 </div>
 
-![The picture shows a spark chamber placed on a wooden base.](../resources/Figure_19_02_02.jpg "A spark chamber is used to trace the paths of high-energy particles. Ionization created by the particles as they pass through the gas between the plates allows a spark to jump. The sparks are perpendicular to the plates, following electric field lines between them. The potential difference between adjacent plates is not high enough to cause sparks without the ionization produced by particles from accelerator experiments (or cosmic rays). (credit: Daderot, Wikimedia Commons)")
+![The picture shows a spark chamber placed on a wooden base.](../resources/Figure_19_02_02.jpg 'A spark chamber is used to trace the paths of high-energy particles. Ionization created by the particles as they pass through the gas between the plates allows a spark to jump. The sparks are perpendicular to the plates, following electric field lines between them. The potential difference between adjacent plates is not high enough to cause sparks without the ionization produced by particles from accelerator experiments (or cosmic rays). (credit: Daderot, Wikimedia Commons)')
 {: #Figure2}
 
 <div class="example" markdown="1">
@@ -156,7 +160,7 @@ Field and Force inside an Electron Gun
 (a) An electron gun has parallel plates separated by 4.00 cm and gives electrons 25.0 keV of energy. What is the electric field strength between the plates? (b) What force would this field exert on a piece of plastic with a  $$0.500 \text{μC} $$
  charge that gets between the plates?
 
-**Strategy** 
+**Strategy**
 
 Since the voltage and plate separation are given, the electric field strength
 can be calculated directly from the expression $$E=\frac{ {V}_{\text{AB}}}{d} $$
@@ -192,7 +196,7 @@ Substituting known values gives
 <div class="equation" >
  $$F=\left(0.500 \times 10^{-6} \text{C}\right)\left( 6.25 \times 10^{5}  \text{V/m}\right)=0.313 \text{N}. $$
 </div>
-**Discussion** 
+**Discussion**
 
 Note that the units are newtons, since $$1 \text{V/m}=1 \text{N/C} $$ . The
 force on the charge is the same no matter where the charge is located between
@@ -239,7 +243,7 @@ electric field.
 
 ### Section Summary
 
-* The voltage between points A and B is
+- The voltage between points A and B is
     <div class="equation" >
      $$ \begin{array}{c}
     \begin{array}{c}
@@ -250,12 +254,12 @@ electric field.
     \end{array} $$
     </div>
      where $$d $$ is the distance from A to B, or the distance between the plates.
-*   In equation form, the general relationship between voltage and electric field is
-    <div class="equation" >
-    $$E= -\frac{\Delta V}{\Delta s}, $$
-    </div>
-    where $$\Delta s $$ is the distance over which the change in potential, $$\Delta V $$ ,
-    takes place. The minus sign tells us that $$\vb{E} $$ points in the direction of decreasing potential.) The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
+- In equation form, the general relationship between voltage and electric field is
+  <div class="equation" >
+  $$E= -\frac{\Delta V}{\Delta s}, $$
+  </div>
+  where $$\Delta s $$ is the distance over which the change in potential, $$\Delta V $$ ,
+  takes place. The minus sign tells us that $$\vb{E} $$ points in the direction of decreasing potential.) The electric field is said to be the **gradient** (as in grade or slope) of the electric potential.
 
 ### Conceptual Questions
 
@@ -325,7 +329,7 @@ if the plates are separated by 2.00 mm and a potential difference of  $$ 5.0 \ti
 </div>
 <div class="solution"  markdown="1">
 (a) No. The electric field strength between the plates is  $$ 2.5 \times 10^{6}  \text{V/m} \text{,}  $$
- which is lower than the breakdown strength for air ( $$ 3.0 \times 10^{6}  \text{V/m} $$ ). 
+ which is lower than the breakdown strength for air ( $$ 3.0 \times 10^{6}  \text{V/m} $$ ).
 
 (b) 1.7 mm
 

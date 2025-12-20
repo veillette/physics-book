@@ -24,14 +24,14 @@ cells and the incredibly greater number of connections between them makes this
 system the subtle wonder that it is. **Nerve conduction** is a general term for
 electrical signals carried by nerve cells. It is one aspect of **bioelectricity**, or electrical effects in and created by biological systems.
 
-Nerve cells, properly called *neurons*, look different from other cells—they
+Nerve cells, properly called _neurons_, look different from other cells—they
 have tendrils, some of them many centimeters long, connecting them with other
 cells. (See [[Figure 1]](#Figure1).) Signals arrive at the cell body across **synapses** or through **dendrites**, stimulating the neuron to generate its own
 signal, sent along its long **axon** to other nerve or muscle cells. Signals may
 arrive from many other locations and be transmitted to yet others, conditioning
 the synapses by use, giving the system its complexity and its ability to learn.
 
-![The figure describes a neuron. The neuron has a cell body with a nucleus at the center represented by a circle. The cell body is surrounded by many thin, branching projections called dendrites, represented by ribbon-like structures. The ends of some of these dendrites are shown connected to the ends of dendrites from another neuron at junctions called synapses. The cell body of the neuron also has a long projection called an axon, represented as a vertical tube reaching downward and ending with thin projections inside a muscle fiber, represented by a tubular structure. The ends of the axon are called nerve endings. The axon is covered with myelin sheaths, each of which is one millimeter in length. The myelin sheaths are separated by gaps, called nodes of Ranvier, each of length zero point zero zero one millimeter.](../resources/Figure_20_07_01.jpg "A neuron with its dendrites and long axon. Signals in the form of electric currents reach the cell body through dendrites and across synapses, stimulating the neuron to generate its own signal sent down the axon. The number of interconnections can be far greater than shown here.")
+![The figure describes a neuron. The neuron has a cell body with a nucleus at the center represented by a circle. The cell body is surrounded by many thin, branching projections called dendrites, represented by ribbon-like structures. The ends of some of these dendrites are shown connected to the ends of dendrites from another neuron at junctions called synapses. The cell body of the neuron also has a long projection called an axon, represented as a vertical tube reaching downward and ending with thin projections inside a muscle fiber, represented by a tubular structure. The ends of the axon are called nerve endings. The axon is covered with myelin sheaths, each of which is one millimeter in length. The myelin sheaths are separated by gaps, called nodes of Ranvier, each of length zero point zero zero one millimeter.](../resources/Figure_20_07_01.jpg 'A neuron with its dendrites and long axon. Signals in the form of electric currents reach the cell body through dendrites and across synapses, stimulating the neuron to generate its own signal sent down the axon. The number of interconnections can be far greater than shown here.')
 {: #Figure1}
 
 The method by which these electric currents are generated and transmitted is
@@ -52,7 +52,9 @@ concentration. But the cell membrane is **semipermeable**, meaning that some
 ions may cross it while others cannot. In its resting state, the cell membrane
 is permeable to $${\text{K}}^{+} $$ and $${\text{Cl}}^{-} $$ , and impermeable
 to $${\text{Na}}^{+} $$ . Diffusion of $${\text{K}}^{+} $$ and $${\text{Cl}}^{-}
-$$ thus creates the layers of positive and negative charge on the outside and
+
+$$
+thus creates the layers of positive and negative charge on the outside and
 inside of the membrane. The Coulomb force prevents the ions from diffusing
 across in their entirety. Once the charge layer has built up, the repulsion of
 like charges prevents more from moving across, and the attraction of unlike
@@ -271,25 +273,7 @@ minute assuming a constant time between beats.
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
-
-This is an integrated concepts problem connecting electrical signals (ECG) with biological function (heart rate). To find heart rate:
-1. Measure the time interval between successive heartbeats from Figure 8 (one complete cardiac cycle, from one R-peak to the next)
-2. Convert period to frequency in beats per minute
-
-**Solution**
-
-From Figure 8, examining the ECG trace, one complete cardiac cycle (from one QRS complex to the next, typically measured R-peak to R-peak) spans approximately 0.75 seconds.
-
-<div class="equation">
-$$\text{Heart rate} = \frac{1 \text{ beat}}{T} = \frac{1 \text{ beat}}{0.75 \text{ s}} \times \frac{60 \text{ s}}{1 \text{ min}} = 80 \text{ beats/min}$$
-</div>
-
-**Discussion**
-
-A heart rate of 80 beats per minute is within the normal resting range for adults (60-100 beats/min). The ECG provides precise timing because the electrical signals are sharp, particularly the R-peak of the QRS complex. This is why heart rate monitors typically detect the R-wave—it's the largest, most distinct feature of the ECG waveform. In clinical settings, the R-R interval is often measured over multiple beats and averaged to account for normal heart rate variability.
-
-The heart rate is approximately 80 beats per minute.
+80 beats/minute
 
 </div>
 </div>
@@ -305,48 +289,31 @@ behind the middle of the QRS complex. (b) Discuss the reasons for the time lag.
 <div class="solution" markdown="1">
 **Strategy**
 
-This integrated concepts problem connects electrical physiology (ECG) with fluid mechanics (blood pressure).
+For part (a), examine Figure 8 and measure the time difference between the peak of the R wave (middle of the QRS complex) and the maximum (systolic) blood pressure. For part (b), consider the physiological processes that must occur between the electrical signal and the resulting pressure change.
 
-(a) Measure the time difference between the middle of the QRS complex and the peak systolic pressure from Figure 8.
+**Solution**
 
-(b) Consider the physiological processes that must occur between electrical depolarization and maximum arterial pressure.
-
-**Solution for (a)**
-
-From Figure 8, the middle of the QRS complex occurs at approximately 0.15 s on the time scale shown. The peak systolic blood pressure (approximately 120 mmHg) occurs at about 0.30 s.
+**(a)** From Figure 8, the QRS complex (specifically the R wave peak) occurs at approximately 0.20 s, and the systolic (maximum) blood pressure peak occurs at approximately 0.40 s. Therefore, the time lag is:
 
 <div class="equation">
-$$\Delta t = t_{\text{systolic}} - t_{\text{QRS}} = 0.30 \text{ s} - 0.15 \text{ s} = 0.15 \text{ s}$$
+$$\Delta t = 0.40 \text{ s} - 0.20 \text{ s} = 0.20 \text{ s} = 200 \text{ ms}$$
 </div>
 
-The time lag is approximately **0.15 seconds** (150 ms).
+**(b)** The time lag between the QRS complex and systolic pressure exists for several physiological reasons:
 
-**Solution for (b)**
+1. **Electromechanical coupling delay**: The QRS complex represents the electrical depolarization of the ventricles. After depolarization, there is a delay while calcium ions enter the muscle cells and trigger the actin-myosin interaction that causes muscle contraction.
 
-Several physiological processes account for this time lag:
+2. **Contraction development time**: The ventricular muscle does not reach peak contraction force instantaneously. It takes time for all the muscle fibers to contract and develop maximum force.
 
-1. **Electromechanical coupling delay (~10-50 ms)**: After the electrical depolarization (QRS), calcium ions must enter cardiac muscle cells and trigger the contractile proteins (actin and myosin) to begin generating force. This chemical cascade takes time.
+3. **Isovolumetric contraction phase**: After the ventricles begin contracting, the aortic valve remains closed until ventricular pressure exceeds aortic pressure. During this isovolumetric phase (about 50 ms), no blood is ejected and pressure builds.
 
-2. **Isovolumetric contraction phase (~50 ms)**: The ventricles begin contracting but the aortic and pulmonary valves remain closed until ventricular pressure exceeds arterial pressure. During this phase, the heart builds pressure without ejecting blood.
-
-3. **Pressure wave propagation**: Once the aortic valve opens and blood is ejected, the pressure wave travels through the arterial system. The time for this wave to reach peripheral arteries (where measurements are often taken) adds a small delay. In Figure 8, the measurement appears to be at the aorta, minimizing this component.
-
-4. **Inertia of blood**: The blood, being a real fluid with mass, cannot instantaneously accelerate. It takes time for the ventricular contraction to overcome the inertia of the blood column.
+4. **Pressure wave propagation**: After the aortic valve opens, blood is ejected into the aorta. The pressure wave must then propagate through the arterial system to the measurement site, which introduces additional delay.
 
 **Discussion**
 
-The 150-ms delay between electrical activation and peak mechanical output is remarkably consistent and clinically important. Abnormally long delays can indicate:
-- Cardiomyopathy (weakened heart muscle)
-- Conduction abnormalities
-- Heart failure
+The 200 ms lag is clinically significant. Changes in this interval can indicate cardiac problems. A longer lag might suggest weakened heart muscle (as in heart failure), while electrical conduction abnormalities can alter the timing relationship between the ECG and mechanical events. This electromechanical delay is why doctors use both ECGs (electrical) and blood pressure measurements (mechanical) to get a complete picture of cardiac function.
 
-Abnormally short delays might suggest:
-- Hypertension (already high arterial pressure)
-- Stiff arterial walls
-
-This electromechanical delay is why the heart's pumping function cannot be assessed by ECG alone—echocardiography or pressure measurements provide complementary mechanical information.
-
-(a) The systolic pressure lags behind the QRS complex by approximately 0.15 seconds (150 ms). (b) This delay results from electromechanical coupling time, isovolumetric contraction, pressure wave propagation, and blood inertia.
+(a) The systolic pressure lags approximately 0.20 s (200 ms) behind the QRS complex. (b) This lag is due to electromechanical coupling delay, contraction development time, the isovolumetric contraction phase, and pressure wave propagation time.
 
 </div>
 </div>
@@ -369,3 +336,4 @@ electrocardiogram (ECG)
 repolarization, especially in the heart
 
 </div>
+$$

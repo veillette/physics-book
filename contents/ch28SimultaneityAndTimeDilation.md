@@ -13,7 +13,7 @@ chapterNumber: 28
 * Explain why the twin paradox is a false paradox.
 </div>
 
-![A runner crossing a finishing line on a road with a clock showing his finish time.](../resources/Figure_28_02_01.jpg "Elapsed time for a foot race is the same for all observers, but at relativistic speeds, elapsed time depends on the relative motion of the observer and the event that is observed. (credit: Jason Edward Scott  Bain, Flickr)")
+![A runner crossing a finishing line on a road with a clock showing his finish time.](../resources/Figure_28_02_01.jpg 'Elapsed time for a foot race is the same for all observers, but at relativistic speeds, elapsed time depends on the relative motion of the observer and the event that is observed. (credit: Jason Edward Scott  Bain, Flickr)')
 {: #Figure1}
 
 Do time intervals depend on who observes them? Intuitively, we expect the time
@@ -42,7 +42,7 @@ by the motion of the lamps relative to B. Therefore, light travels equal
 distances to him at equal speeds. Thus observer B measures the flashes to be
 simultaneous.
 
-![A girl as observer A is sitting down midway on a rail car with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from respective flash lamps towards observer A are shown with arrows. A velocity vector arrow for the rail car is shown towards the right. A male observer B standing on the platform is facing her. Now observer A moves with the lamps on a rail car that is as the rail car moves towards the right of observer B. Observer B receives the light flashes simultaneously, but he notes that observer A receives the flash from the right first. B observes the flashes to be simultaneous to him but not to A.](../resources/Figure_28_02_02.jpg "Observer B measures the elapsed time between the arrival of light flashes as described in the text. Observer A moves with the lamps on a rail car. Observer B perceives that the light flashes occurred simultaneously. Observer A perceives that the light on the right flashes before the light on the left.")
+![A girl as observer A is sitting down midway on a rail car with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from respective flash lamps towards observer A are shown with arrows. A velocity vector arrow for the rail car is shown towards the right. A male observer B standing on the platform is facing her. Now observer A moves with the lamps on a rail car that is as the rail car moves towards the right of observer B. Observer B receives the light flashes simultaneously, but he notes that observer A receives the flash from the right first. B observes the flashes to be simultaneous to him but not to A.](../resources/Figure_28_02_02.jpg 'Observer B measures the elapsed time between the arrival of light flashes as described in the text. Observer A moves with the lamps on a rail car. Observer B perceives that the light flashes occurred simultaneously. Observer A perceives that the light on the right flashes before the light on the left.')
 {: #Figure2}
 
 Now consider what observer B sees happen to observer A. Observer B perceives
@@ -104,7 +104,7 @@ distance the light travels in the astronaut’s frame is smaller than in the
 Earth-bound frame. Light travels at the same speed in each frame, and so it will
 take longer to travel the greater distance in the Earth-bound frame.
 
-![For part a, an astronaut is standing inside the spaceship with an electronic timer. The timer is showing the time delta-t-zero. The astronaut has to measure time for an activity which has a mirror, the Sun as a source of light, and a receiver. A ray from the light source is striking the mirror and getting reflected back to the receiver. The distance between the source of light and mirror is given by d. For part b, the same activity is observed by a man standing on Earth. He has an electronic timer showing the time as delta-t. For the observer on earth the activity is fragmented into three portions. In the first portion, the ray of light is travelling a distance of and strikes the mirror in the second portion. The third portion shows the reflected ray of light striking the receiver represented by s and having a vertical distance of d. The horizontal distance L observed by the man from the beginning of the event till the end portion is given as L equals to velocity v into delta t upon two.](../resources/Figure_28_02_03.jpg "(a) An astronaut measures the time \( \Delta t_0 \) for light to cross her ship using an electronic timer. Light travels a distance 2D in the astronaut&#x2019;s frame. (b) A person on the Earth sees the light follow the longer path 2s and take a longer time \( \Delta t \) . (c) These triangles are used to find the relationship between the two distances 2D and 2s.")
+![For part a, an astronaut is standing inside the spaceship with an electronic timer. The timer is showing the time delta-t-zero. The astronaut has to measure time for an activity which has a mirror, the Sun as a source of light, and a receiver. A ray from the light source is striking the mirror and getting reflected back to the receiver. The distance between the source of light and mirror is given by d. For part b, the same activity is observed by a man standing on Earth. He has an electronic timer showing the time as delta-t. For the observer on earth the activity is fragmented into three portions. In the first portion, the ray of light is travelling a distance of and strikes the mirror in the second portion. The third portion shows the reflected ray of light striking the receiver represented by s and having a vertical distance of d. The horizontal distance L observed by the man from the beginning of the event till the end portion is given as L equals to velocity v into delta t upon two.](../resources/Figure_28_02_03.jpg '(a) An astronaut measures the time ( \\Delta t_0 ) for light to cross her ship using an electronic timer. Light travels a distance 2D in the astronaut’s frame. (b) A person on the Earth sees the light follow the longer path 2s and take a longer time ( \\Delta t ) . (c) These triangles are used to find the relationship between the two distances 2D and 2s.')
 {: #Figure3}
 
 To quantitatively verify that time depends on the observer, consider the paths
@@ -203,8 +203,10 @@ where
 
 This equation for $$\Delta t $$ is truly remarkable. First, as contended,
 elapsed time is not the same for different observers moving relative to one
-another, even though both are in inertial frames. Proper time $$\Delta {t}_{0}
-$$ measured by an observer, like the astronaut moving with the apparatus, is
+another, even though both are in inertial frames. Proper time $$\Delta {t}\_{0}
+
+$$
+measured by an observer, like the astronaut moving with the apparatus, is
 smaller than time measured by other observers. Since those other observers
 measure a longer time $$\Delta t $$ , the effect is called time dilation. The
 Earth-bound observer sees time dilate (get longer) for a system moving relative
@@ -383,7 +385,8 @@ Check Your Understanding
 
 <span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
 {c}^{2}}}}=\frac{1}{\sqrt{1-\frac{ {\left(  0.650c \right)}^{2}}{ {c}^{2}}}}=
-1.32 $$
+1.32
+$$
 
 2. A particle travels at $$ 1.90 \times 10^{8} \text{m/s} $$ and lives $$ 2.10
    \times 10^{-8} s $$ when at rest relative to an observer. How long does the
@@ -397,12 +400,12 @@ Check Your Understanding
 
 ### Section Summary
 
-* Two events are defined to be simultaneous if an observer measures them as
+- Two events are defined to be simultaneous if an observer measures them as
   occurring at the same time. They are not necessarily simultaneous to all
   observers—simultaneity is not absolute.
-* Time dilation is the phenomenon of time passing slower for an observer who is
+- Time dilation is the phenomenon of time passing slower for an observer who is
   moving relative to another observer.
-* Observers moving at a relative velocity $$v $$ do not measure the same elapsed
+- Observers moving at a relative velocity $$v $$ do not measure the same elapsed
   time for an event. Proper time $$\Delta {t}_{0} $$ is the time measured by an
   observer at rest relative to the event being observed. Proper time is related
   to the time $$\Delta t $$ measured by an Earth-bound observer by the equation
@@ -415,13 +418,13 @@ Check Your Understanding
    $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}. $$
   </div>
 
-* The equation relating proper time and time measured by an Earth-bound observer
+- The equation relating proper time and time measured by an Earth-bound observer
   implies that relative velocity cannot exceed the speed of light.
-* The twin paradox asks why a twin traveling at a relativistic speed away and
+- The twin paradox asks why a twin traveling at a relativistic speed away and
   then back towards the Earth ages less than the Earth-bound twin. The premise
   to the paradox is faulty because the traveling twin is accelerating. Special
   relativity does not apply to accelerating frames of reference.
-* Time dilation is usually negligible at low relative velocities, but it does
+- Time dilation is usually negligible at low relative velocities, but it does
   occur, and it has been verified by experiment.
 
 ### Conceptual Questions
@@ -570,7 +573,7 @@ inconsistent?
 <div class="solution" markdown="1">
 (a) 0.996
 
-(b)  $$\gamma $$ cannot be less than 1.
+(b) $$\gamma $$ cannot be less than 1.
 
 (c) Assumption that time is longer in moving ship is unreasonable.
 
@@ -586,9 +589,11 @@ time dilation
 another observer
 
 proper time
-:  $$\Delta {t}_{0} $$ . the time measured by an observer at rest relative to
+: $$\Delta {t}_{0} $$ . the time measured by an observer at rest relative to
 the event being observed:
-$$\Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma
+
+$$
+\Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma
 \Delta t}_{0} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}
 $$
 

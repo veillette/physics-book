@@ -97,6 +97,9 @@
     page-break-before: always;
     page-break-after: avoid;
     margin-top: 0;
+    color: #1565c0 !important;
+    border-bottom: 3px solid #1565c0;
+    padding-bottom: 8px;
   }
 
   h1:first-of-type {
@@ -106,20 +109,31 @@
   h2 {
     font-size: 18pt;
     page-break-after: avoid;
+    color: #1976d2 !important;
+    border-bottom: 2px solid #64b5f6;
+    padding-bottom: 6px;
   }
 
   h3 {
     font-size: 14pt;
     page-break-after: avoid;
+    color: #0288d1 !important;
   }
 
-  h4, h5, h6 {
+  h4,
+  h5,
+  h6 {
     font-size: 12pt;
     page-break-after: avoid;
   }
 
   /* Prevent headings at bottom of page */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     page-break-inside: avoid;
     orphans: 3;
     widows: 3;
@@ -140,40 +154,63 @@
   }
 
   /* Show URL for external links */
-  a[href^="http"]:after {
-    content: " (" attr(href) ")";
+  a[href^='http']:after {
+    content: ' (' attr(href) ')';
     font-size: 0.8em;
     color: #666;
     word-break: break-all;
   }
 
   /* Don't show URL for internal links */
-  a[href^="#"]:after,
-  a[href^="/"]:after,
-  a[href^="./"]:after,
-  a[href^="../"]:after {
-    content: "";
+  a[href^='#']:after,
+  a[href^='/']:after,
+  a[href^='./']:after,
+  a[href^='../']:after {
+    content: '';
   }
 
   /* Don't show URL in navigation */
   nav a:after,
   .toc a:after {
-    content: "" !important;
+    content: '' !important;
   }
 
   /* ========================================
      Images and Figures
      ======================================== */
 
+  /* Make images smaller and better integrated with text */
   img {
-    max-width: 100% !important;
+    max-width: 65% !important;
+    max-height: 4in !important;
     height: auto !important;
+    width: auto !important;
+    display: block;
+    margin: 10px auto !important;
     page-break-inside: avoid;
+    object-fit: contain !important;
   }
 
   figure {
+    max-width: 65% !important;
+    max-height: 4.5in !important;
+    margin: 10px auto !important;
     page-break-inside: avoid;
-    margin: 1em 0;
+    page-break-after: avoid;
+  }
+
+  figure img {
+    max-width: 100% !important;
+    max-height: 4in !important;
+    margin: 0 auto !important;
+    object-fit: contain !important;
+  }
+
+  /* Very small images can be even smaller */
+  img[width],
+  img[height] {
+    max-width: 50% !important;
+    max-height: 3in !important;
   }
 
   figcaption {
@@ -202,7 +239,8 @@
     page-break-inside: avoid;
   }
 
-  th, td {
+  th,
+  td {
     border: 1px solid #333;
     padding: 8px;
     text-align: left;
@@ -217,8 +255,9 @@
      Code Blocks
      ======================================== */
 
-  pre, code {
-    font-family: "Courier New", Courier, monospace;
+  pre,
+  code {
+    font-family: 'Courier New', Courier, monospace;
     font-size: 10pt;
     background-color: #f5f5f5 !important;
     border: 1px solid #ddd;
@@ -254,9 +293,30 @@
     page-break-inside: avoid !important;
   }
 
+  /* Scale down math to match text better */
+  mjx-container,
+  mjx-container[display='true'],
+  mjx-container[display='false'],
+  .MathJax,
+  .MathJax_Display,
+  .math,
+  .katex,
+  .katex-display {
+    font-size: 0.95em !important;
+  }
+
+  /* Inline math should be even smaller */
+  mjx-container[display='false'],
+  .MathJax:not(.MathJax_Display),
+  .katex:not(.katex-display),
+  span.math {
+    font-size: 0.9em !important;
+    vertical-align: baseline !important;
+  }
+
   /* Ensure math displays properly */
   .MathJax_Display,
-  mjx-container[display="true"],
+  mjx-container[display='true'],
   .katex-display {
     margin: 1em 0 !important;
     overflow-x: visible !important;
@@ -274,14 +334,15 @@
     page-break-inside: avoid;
   }
 
-  /* Example boxes */
+  /* Example boxes with colorful backgrounds */
   .example,
   .worked-example {
-    border: 2px solid #333;
-    padding: 1em;
-    margin: 1em 0;
     page-break-inside: avoid;
-    background-color: #fafafa !important;
+    border-left: 4px solid #2196f3;
+    background-color: #e3f2fd !important;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
   }
 
   .example-title,
@@ -292,36 +353,40 @@
 
   /* Note/Warning/Info boxes */
   .note,
-  .warning,
-  .info,
-  .tip,
-  .important {
-    border: 1px solid #333;
-    padding: 1em;
-    margin: 1em 0;
-    page-break-inside: avoid;
-  }
-
-  .note {
-    background-color: #e7f3ff !important;
-    border-color: #0066cc;
-  }
-
-  .warning {
-    background-color: #fff3e0 !important;
-    border-color: #ff9800;
-  }
-
   .info {
+    page-break-inside: avoid;
+    border-left: 4px solid #4caf50;
     background-color: #e8f5e9 !important;
-    border-color: #4caf50;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+  }
+
+  .warning,
+  .important {
+    page-break-inside: avoid;
+    border-left: 4px solid #ff9800;
+    background-color: #fff3e0 !important;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+  }
+
+  .tip {
+    page-break-inside: avoid;
+    border-left: 4px solid #9c27b0;
+    background-color: #f3e5f5 !important;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
   }
 
   /* ========================================
      Lists
      ======================================== */
 
-  ul, ol {
+  ul,
+  ol {
     page-break-inside: avoid;
   }
 
@@ -352,7 +417,11 @@
   .equation,
   .formula {
     page-break-inside: avoid;
-    margin: 1em 0;
+    background-color: #f5f5f5 !important;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 3px;
+    text-align: center;
   }
 
   /* Problem sets */
@@ -361,40 +430,83 @@
     page-break-before: always;
   }
 
+  /* Exercise and problem boxes */
   .problem,
   .exercise {
     page-break-inside: avoid;
-    margin: 1em 0;
-    padding: 0.5em 0;
-    border-bottom: 1px dotted #ccc;
-  }
-
-  /* Concept checks */
-  .concept-check,
-  .check-understanding {
-    border: 1px dashed #666;
-    padding: 1em;
-    margin: 1em 0;
-    page-break-inside: avoid;
-  }
-
-  /* Section summaries */
-  .summary,
-  .section-summary {
     background-color: #f5f5f5 !important;
-    border: 1px solid #ddd;
-    padding: 1em;
-    margin: 1em 0;
-    page-break-inside: avoid;
+    border-left: 3px solid #757575;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 3px;
   }
 
-  /* Glossary terms */
+  /* Concept checks with orange dashed border */
+  .concept-check,
+  .check-understanding,
+  [data-element-type='check-understanding'] {
+    page-break-inside: avoid;
+    background-color: #ffe0b2 !important;
+    border: 2px dashed #ff9800;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+  }
+
+  /* Hide solutions to end-of-chapter problems */
+  .solution,
+  div.solution,
+  [data-element-type='solution'] {
+    display: none !important;
+  }
+
+  /* Section summaries with yellow background */
+  .summary,
+  .section-summary,
+  .key-equations,
+  [data-element-type='section-summary'] {
+    page-break-inside: avoid;
+    background-color: #fff9c4 !important;
+    border: 2px solid #fbc02d;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  /* Glossary with purple background */
+  .glossary {
+    page-break-inside: avoid;
+    background-color: #f3e5f5 !important;
+    border: 2px solid #9c27b0;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .glossary-title {
+    color: #6a1b9a !important;
+    border-bottom: 2px solid #9c27b0;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+  }
+
   .glossary-term {
     font-weight: bold;
   }
 
   .glossary-definition {
     margin-left: 1em;
+  }
+
+  /* Abstract/Learning objectives */
+  .abstract,
+  .learning-objectives {
+    page-break-inside: avoid;
+    background-color: #e1f5fe !important;
+    border-left: 4px solid #0288d1;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 4px;
   }
 
   /* ========================================

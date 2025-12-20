@@ -22,24 +22,24 @@ have already begun to develop.
 ### Problem-Solving Strategy for Newton’s Laws of Motion
 
 Step 1. As usual, it is first necessary to identify the physical principles
-involved. *Once it is determined that Newton’s laws of motion are involved (if
+involved. _Once it is determined that Newton’s laws of motion are involved (if
 the problem involves forces), it is particularly important to draw a careful
-sketch of the situation*. Such a sketch is shown in [Figure 1](#Figure1)(a). Then,
+sketch of the situation_. Such a sketch is shown in [Figure 1](#Figure1)(a). Then,
 as in [Figure 1](#Figure1)(b), use arrows to represent all forces, label them
 carefully, and make their lengths and directions correspond to the forces they
 represent (whenever sufficient information exists).
 
 ![(a) A sketch is shown of a man hanging from a vine.
 (b) The forces acting on the person, shown by vector arrows, are tension T, pointing upward at the hand of the man, F sub T, from the same point but in a downward direction, and weight W, acting downward from his stomach.
-(c) In figure (c) we define only the man as the system of interest. Tension T is acting upward from his hand. The weight W acts in a downward direction. In a free-body diagram W is shown by an arrow acting downward and T is shown by an arrow acting vertically upward. (d) Tension T is shown by an arrow vertically upward and another vector, weight W, is shown by an arrow vertically downward, both having the same lengths. It is indicated that T is equal to minus W.](../resources/Figure_04_06_01.jpg "
+(c) In figure (c) we define only the man as the system of interest. Tension T is acting upward from his hand. The weight W acts in a downward direction. In a free-body diagram W is shown by an arrow acting downward and T is shown by an arrow acting vertically upward. (d) Tension T is shown by an arrow vertically upward and another vector, weight W, is shown by an arrow vertically downward, both having the same lengths. It is indicated that T is equal to minus W.](../resources/Figure_04_06_01.jpg '
 (a) A sketch of Tarzan hanging from a vine.
-(b) Arrows are used to represent all forces. \( \vb{T} \) is the tension in the vine above Tarzan, \( \vb{F}_T \) is the force he exerts on the vine, and \( \vb{w} \) is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
-(c) Suppose we are given the ape man&#x2019;s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. \( \vb{F}_T \) is no longer shown, because it is not a force acting on the system of interest; rather, \( \vb{F}_T \) acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that \( \vb{T}=- \vb{w} \), if Tarzan is stationary.")
+(b) Arrows are used to represent all forces. ( \\vb{T} ) is the tension in the vine above Tarzan, ( \\vb{F}_T ) is the force he exerts on the vine, and ( \\vb{w} ) is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
+(c) Suppose we are given the ape man’s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. ( \\vb{F}_T ) is no longer shown, because it is not a force acting on the system of interest; rather, ( \\vb{F}_T ) acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that ( \\vb{T}=- \\vb{w} ), if Tarzan is stationary.')
 {: #Figure1}
 
 Step 2. Identify what needs to be determined and what is known or can be
 inferred from the problem as stated. That is, make a list of knowns and
-unknowns. *Then carefully determine the system of interest*. This decision is a
+unknowns. _Then carefully determine the system of interest_. This decision is a
 crucial step, since Newton’s second law involves only external forces. Once the
 system of interest has been identified, it becomes possible to determine which
 forces are external and which are internal, a necessary step to employ Newton’s
@@ -57,8 +57,8 @@ acceleration or velocity. We have drawn several of these in worked
 examples. [Figure 1](#Figure1)(c) shows a free-body diagram for the system of
 interest. Note that no internal forces are shown in a free-body diagram.
 
-Step 3. Once a free-body diagram is drawn, *Newton’s second law can be applied
-to solve the problem*. This is done in [Figure 1](#Figure1)(d) for a particular
+Step 3. Once a free-body diagram is drawn, _Newton’s second law can be applied
+to solve the problem_. This is done in [Figure 1](#Figure1)(d) for a particular
 situation. In general, once external forces are clearly identified in free-body
 diagrams, it should be a straightforward task to put them into equation form and
 solve for the unknown, as done in all previous examples. If the problem is
@@ -94,7 +94,7 @@ You will need this information in order to determine unknown forces acting in a 
 
 </div>
 
-Step 4. As always, *check the solution to see whether it is reasonable*. In some
+Step 4. As always, _check the solution to see whether it is reasonable_. In some
 cases, this is obvious. For example, it is reasonable to find that friction
 causes an object to slide down an incline more slowly than when no friction
 exists. In practice, intuition develops gradually through problem solving, and
@@ -104,22 +104,22 @@ solving for force and end up with units of m/s, then you have made a mistake.
 
 ### Section Summary
 
-* To solve problems involving Newton’s laws of motion, follow the procedure
+- To solve problems involving Newton’s laws of motion, follow the procedure
   described:
-    1. Draw a sketch of the problem.
-    2. Identify known and unknown quantities, and identify the system of
-       interest. Draw a free-body diagram, which is a sketch showing all of the
-       forces acting on an object. The object is represented by a dot, and the
-       forces are represented by vectors extending in different directions from
-       the dot. If vectors act in directions that are not horizontal or
-       vertical, resolve the vectors into horizontal and vertical components and
-       draw them on the free-body diagram.
-    3. Write Newton’s second law in the horizontal and vertical directions and
-       add the forces acting on the object. If the object does not accelerate in
-       a particular direction (for example, the $$ x $$ -direction) then $$ F_
-       {\text{net}x}=0 $$. If the object does accelerate in that direction, $$
-       F_{\text{net}x}=ma $$.
-    4. Check your answer. Is the answer reasonable? Are the units correct?
+  1. Draw a sketch of the problem.
+  2. Identify known and unknown quantities, and identify the system of
+     interest. Draw a free-body diagram, which is a sketch showing all of the
+     forces acting on an object. The object is represented by a dot, and the
+     forces are represented by vectors extending in different directions from
+     the dot. If vectors act in directions that are not horizontal or
+     vertical, resolve the vectors into horizontal and vertical components and
+     draw them on the free-body diagram.
+  3. Write Newton’s second law in the horizontal and vertical directions and
+     add the forces acting on the object. If the object does not accelerate in
+     a particular direction (for example, the $$ x $$ -direction) then $$ F*
+     {\text{net}x}=0 $$. If the object does accelerate in that direction, $$
+     F*{\text{net}x}=ma $$.
+  4. Check your answer. Is the answer reasonable? Are the units correct?
 
 ### Problem Exercises
 
@@ -137,11 +137,12 @@ in the Problem-Solving Strategy for Newton’s laws of motion.
 
 Using the free-body diagram:
 
-$$ F_{\text{net}}=T-f-mg=ma $$,
+$$ F\_{\text{net}}=T-f-mg=ma $$,
 
 so that
 
-$$ a=\frac{T-f-mg }{m}=\frac{1.250 \times 10^{7}\N -4.50\times 10^{6}N-\left(
+$$
+a=\frac{T-f-mg }{m}=\frac{1.250 \times 10^{7}\N -4.50\times 10^{6}N-\left(
 5.00\times 10^{5}\kg \right)
 \left( 9.80 \mss \right)
 }{5.00\times 10^{5}\kg }=6.20\mss $$.
@@ -640,7 +641,9 @@ Two children pull a third child on a snow saucer sled exerting forces $$ \vb{F}_
 and $$ \vb{F}_{2} $$ as shown from above
 in [Figure below](#Figure5). Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
-unspecified; it will be in the opposite direction of the sum of $$
+unspecified; it will be in the opposite direction of the sum of
+$$
+
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
 
 </div>
@@ -653,6 +656,7 @@ Resolve each pulling force into x and y components, add them to get the net pull
 **Solution**
 
 Given (from Figure 5):
+
 - Mass: $$ m = 49.00 \kg $$
 - $$ F_1 = 10.0 \N $$ at $$ 45.0^\circ $$ above the +x-axis (northeast)
 - $$ F_2 = 8.0 \N $$ at $$ 30.0^\circ $$ below the +x-axis (southeast)
@@ -661,6 +665,7 @@ Given (from Figure 5):
 **Resolve forces into components:**
 
 For $$ F_1 $$ (at 45° above +x-axis):
+
 <div class="equation">
 $$ F_{1x} = F_1 \cos(45°) = 10.0 \times 0.707 = 7.07 \N $$
 </div>
@@ -669,6 +674,7 @@ $$ F_{1y} = F_1 \sin(45°) = 10.0 \times 0.707 = 7.07 \N $$
 </div>
 
 For $$ F_2 $$ (at 30° below +x-axis):
+
 <div class="equation">
 $$ F_{2x} = F_2 \cos(30°) = 8.0 \times 0.866 = 6.93 \N $$
 </div>
@@ -677,6 +683,7 @@ $$ F_{2y} = -F_2 \sin(30°) = -8.0 \times 0.500 = -4.00 \N $$
 </div>
 
 **Net pulling force components:**
+
 <div class="equation">
 $$ F_{pull,x} = F_{1x} + F_{2x} = 7.07 + 6.93 = 14.0 \N $$
 </div>
@@ -685,6 +692,7 @@ $$ F_{pull,y} = F_{1y} + F_{2y} = 7.07 - 4.00 = 3.07 \N $$
 </div>
 
 **Magnitude and direction of net pull:**
+
 <div class="equation">
 $$ F_{pull} = \sqrt{F_{pull,x}^2 + F_{pull,y}^2} = \sqrt{(14.0)^2 + (3.07)^2} = \sqrt{196 + 9.42} = \sqrt{205.42} = 14.3 \N $$
 </div>
@@ -696,11 +704,13 @@ $$ \theta_{pull} = \tan^{-1}\left(\frac{F_{pull,y}}{F_{pull,x}}\right) = \tan^{-
 **Net force including friction:**
 
 Friction opposes motion (opposite to pull direction):
+
 <div class="equation">
 $$ F_{net} = F_{pull} - f = 14.3 - 7.5 = 6.8 \N $$
 </div>
 
 **Calculate acceleration:**
+
 <div class="equation">
 $$ a = \frac{F_{net}}{m} = \frac{6.8 \N}{49.00 \kg} = 0.139 \mss $$
 </div>
@@ -718,7 +728,7 @@ The sled and child system accelerates at **0.139 m/s²** in a direction **12.4°
 </div>
 </div>
 
-![An overhead view of a child sitting on a snow saucer sled. Two forces, F sub one equal to ten newtons and F sub two equal to eight newtons, are acting toward the right. F sub one makes an angle of forty-five degrees from the x axis and F sub two makes an angle of thirty degrees from the x axis in a clockwise direction. A friction force f is equal to seven point five newtons, shown by a vector pointing in negative x direction. In the free-body diagram, F sub one and F sub two are shown by arrows toward the right, making a forty-five degree angle above the horizontal and a thirty-degree angle below the horizontal respectively. The friction force f is shown by an arrow along the negative x axis.](../resources/Figure_04_06_05.jpg "An overhead view of the horizontal forces acting on a child&#x2019;s snow saucer sled.")
+![An overhead view of a child sitting on a snow saucer sled. Two forces, F sub one equal to ten newtons and F sub two equal to eight newtons, are acting toward the right. F sub one makes an angle of forty-five degrees from the x axis and F sub two makes an angle of thirty degrees from the x axis in a clockwise direction. A friction force f is equal to seven point five newtons, shown by a vector pointing in negative x direction. In the free-body diagram, F sub one and F sub two are shown by arrows toward the right, making a forty-five degree angle above the horizontal and a thirty-degree angle below the horizontal respectively. The friction force f is shown by an arrow along the negative x axis.](../resources/Figure_04_06_05.jpg 'An overhead view of the horizontal forces acting on a child’s snow saucer sled.')
 {: #Figure5}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -741,26 +751,31 @@ The rope is attached to the car at both ends, forming a shallow V-shape. When yo
 **Step 2: Identify knowns and unknowns**
 
 Known:
-- Desired force on car: $$ F_{car} = 12{,}000 \N $$
+
+- Desired force on car: $$ F\_{car} = 12{,}000 \N $$
 - Angle each rope makes with horizontal: $$ \theta = 2.00° $$
 
 Unknown:
-- Force to apply at center: $$ F_{app} = ? $$
+
+- Force to apply at center: $$ F\_{app} = ? $$
 - Tension in rope: $$ T = ? $$
 
 **Step 3: Apply Newton's laws**
 
 The force on the car comes from the horizontal components of two tension forces:
+
 <div class="equation">
 $$ F_{car} = 2T\sin\theta $$
 </div>
 
 Solving for tension:
+
 <div class="equation">
 $$ T = \frac{F_{car}}{2\sin\theta} = \frac{12{,}000}{2\sin(2.00°)} = \frac{12{,}000}{2(0.0349)} = \frac{12{,}000}{0.0698} = 172{,}000 \N $$
 </div>
 
 At the center of the rope, for equilibrium, the applied force must balance the vertical components of tension:
+
 <div class="equation">
 $$ F_{app} = 2T\sin\theta = 2(172{,}000)(0.0349) = 12{,}000 \N $$
 </div>
@@ -774,6 +789,7 @@ The large tension (172,000 N) is expected for such a small angle. The mechanical
 If the angle increases to 7.00° but we still apply the same force (12,000 N):
 
 The tension changes. From equilibrium at the center:
+
 <div class="equation">
 $$ F_{app} = 2T\sin(7.00°) $$
 </div>
@@ -783,6 +799,7 @@ $$ T = \frac{12{,}000}{2\sin(7.00°)} = \frac{12{,}000}{2(0.122)} = \frac{12{,}0
 </div>
 
 The force on the car:
+
 <div class="equation">
 $$ F_{car} = 2T\sin(7.00°) = 12{,}000 \N $$
 </div>
@@ -820,11 +837,14 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 3. The tension is given as $$ T=25.0 \N $$. Find $$ F_
    {\text{app}}$$. Using Newton’s laws gives:
-   $$ \sum F_{y}=0, $$ so that applied force is due to the *y*-components of the
+   $$ \sum F\_{y}=0, $$ so that applied force is due to the _y_-components of the
    two tensions:
-   $$ F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right)
+
+   $$
+   F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right)
    \sin\left(15^\circ\right)=12.9 \N $$ The *x*-components of the tension
    cancel. $$ \sum F_{x}=0 $$.
+   $$
 
 4. This seems reasonable, since the applied tensions should be greater than the
    force applied to the tooth.
@@ -832,7 +852,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 </div>
 </div>
 
-![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](../resources/Figure_04_06_07.jpg "Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, \( F_{\text{app}} \) , points straight toward the back of the mouth.")
+![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](../resources/Figure_04_06_07.jpg 'Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, ( F_{\\text{app}} ) , points straight toward the back of the mouth.')
 {: #Figure8}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -850,15 +870,18 @@ while Trusty Sidekick's is 55.0 kg, and the mass of the rope is negligible.
 **(a) Free-body diagrams:**
 
 **For Trusty Sidekick:**
+
 - ↑ Tension $$ T_2 $$ (upward from rope)
 - ↓ Weight $$ w_S = m_S g $$ (downward)
 
 **For Superhero:**
+
 - ↑ Tension $$ T_1 $$ (upward from rope above)
 - ↓ Weight $$ w_H = m_H g $$ (downward)
 - ↓ Tension $$ T_2 $$ (downward pull from Sidekick)
 
 **For the system (both together):**
+
 - ↑ Tension $$ T_1 $$ from bar
 - ↓ Combined weight $$ (m_H + m_S)g $$
 
@@ -881,6 +904,7 @@ $$ T_1 = (m_H + m_S)g = (90.0 + 55.0)(9.80) = (145.0)(9.80) = 1421 \N \approx 1.
 **System of interest:** Trusty Sidekick only
 
 Since Sidekick is motionless:
+
 <div class="equation">
 $$ T_2 - m_S g = 0 $$
 </div>
@@ -900,7 +924,7 @@ $$ T_2 = m_S g = (55.0)(9.80) = 539 \N \approx 5.39 \times 10^{2} \N $$
 </div>
 </div>
 
-![Two caped superheroes hang on a rope suspended vertically from a bar.](../resources/Figure_04_06_08.jpg "Superhero and Trusty Sidekick hang motionless on a rope as they try to figure out what to do next. Will the tension be the same everywhere in the rope?")
+![Two caped superheroes hang on a rope suspended vertically from a bar.](../resources/Figure_04_06_08.jpg 'Superhero and Trusty Sidekick hang motionless on a rope as they try to figure out what to do next. Will the tension be the same everywhere in the rope?')
 {: #Figure9 height="300"}
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -917,6 +941,7 @@ friction is 60.0 N.
 **(a) Free-body diagram:**
 
 Forces on the cart:
+
 - Applied force $$ \vb{F} $$ at 35.0° below horizontal
   - Horizontal component: $$ F\cos(35.0°) $$ (forward)
   - Vertical component: $$ F\sin(35.0°) $$ (downward)
@@ -929,6 +954,7 @@ Forces on the cart:
 At constant velocity, acceleration = 0, so net force = 0 in both directions.
 
 **Horizontal direction:**
+
 <div class="equation">
 $$ F\cos(35.0°) - f = 0 $$
 </div>
@@ -942,6 +968,7 @@ $$ F = \frac{f}{\cos(35.0°)} = \frac{60.0}{0.819} = 73.2 \N $$
 </div>
 
 **Check vertical equilibrium:**
+
 <div class="equation">
 $$ N - mg - F\sin(35.0°) = 0 $$
 </div>
@@ -992,7 +1019,9 @@ children.
 **Unreasonable Results**
 
 (a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss
-$$ is produced.
+
+$$
+is produced.
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable, and why is it unreasonable?
 
@@ -1114,3 +1143,4 @@ The premise is unreasonable because no rocket could launch with such inadequate 
 
 </div>
 </div>
+$$

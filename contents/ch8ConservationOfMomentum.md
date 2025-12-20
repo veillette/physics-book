@@ -31,14 +31,14 @@ be neglected in any practical sense, but it is real nevertheless.
 Consider what happens if the masses of two colliding objects are more similar
 than the masses of a football player and Earth—for example, one car bumping into
 another, as shown in [Figure 1](#Figure1). Both cars are coasting in the same
-direction when the lead car (labeled $$ m_{2} $$)  is bumped by the trailing
-car (labeled $$ m_{1} $$ ). The only unbalanced force on each car is the force
+direction when the lead car (labeled $$ m*{2} $$)  is bumped by the trailing
+car (labeled $$ m*{1} $$ ). The only unbalanced force on each car is the force
 of the collision. (Assume that the effects due to friction are negligible.) Car
 1 slows down as a result of the collision, losing some momentum, while car 2
 speeds up and gains some momentum. We shall now show that the total momentum of
 the two-car system remains constant.
 
-![A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.](../resources/Figure_08_03_01.jpg "A car of mass \( m_1 \) moving with a velocity of \( v_1 \) bumps into another car of mass \( m_2 \) and velocity \( v_2 \) that it is following. As a result, the first car slows down to a velocity of \( v^\prime_1 \) and the second speeds up to a velocity of \( v^\prime_2 \). The momentum of each car is changed, but the total momentum \( p_{\text{tot}} \) of the two cars is the same before and after the collision (if you assume friction is negligible).")
+![A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.](../resources/Figure_08_03_01.jpg 'A car of mass ( m_1 ) moving with a velocity of ( v_1 ) bumps into another car of mass ( m_2 ) and velocity ( v_2 ) that it is following. As a result, the first car slows down to a velocity of ( v^\\prime_1 ) and the second speeds up to a velocity of ( v^\\prime_2 ). The momentum of each car is changed, but the total momentum ( p_{\\text{tot}} ) of the two cars is the same before and after the collision (if you assume friction is negligible).')
 {: #Figure1}
 
 Using the definition of impulse, the change in momentum of car 1 is given by
@@ -47,7 +47,7 @@ Using the definition of impulse, the change in momentum of car 1 is given by
  $$ \Delta p_{1}= F_{1}\Delta t, $$
 </div>
 
-where $$ F_{1} $$ is the force on car 1 due to car 2, and $$ \Delta t $$ is the
+where $$ F\_{1} $$ is the force on car 1 due to car 2, and $$ \Delta t $$ is the
 time the force acts (the duration of the collision). Intuitively, it seems
 obvious that the collision time is the same for both cars, but it is only true
 for objects traveling at ordinary speeds. This assumption must be modified for
@@ -60,9 +60,9 @@ Similarly, the change in momentum of car 2 is
  $$ \Delta p_{2}= F_{2}\Delta t , $$
 </div>
 
-where $$ F_{2} $$ is the force on car 2 due to car 1, and we assume the duration
+where $$ F*{2} $$ is the force on car 2 due to car 1, and we assume the duration
 of the collision $$ \Delta t $$ is the same for both cars. We know from Newton’s
-third law that $$ F_{2}=- F_{1} $$, and so
+third law that $$ F*{2}=- F\_{1} $$, and so
 
 <div class="equation">
  $$ \Delta  p_{2}=- F_{1}\Delta t=-\Delta  p_{1}. $$
@@ -107,8 +107,9 @@ where $$ \vb{p}_{\text{tot}} $$ is the total momentum (the sum of the momenta of
 the individual objects in the system) and $$ {\vb{p}^{\prime} }_{\text{tot}} $$
 is the total momentum some time later. (The total momentum can be shown to be
 the momentum of the center of mass of the system.) An **isolated system** is
-defined to be one for which the net external force is zero $$ \left(\vb{F}_
+defined to be one for which the net external force is zero $$ \left(\vb{F}\_
 {\text{net}}=0\right). $$
+
 <div class="note" data-label="">
 <div class="title">
 Conservation of Momentum Principle
@@ -147,7 +148,7 @@ See [Figure 2](#Figure2)
 .) However, if the momentum of the projectile-Earth system is considered in the
 vertical direction, we find that the total momentum is conserved.
 
-![A space probe is projected upward. It takes a parabolic path. No horizontal net force acts on. The horizontal component of momentum remains conserved. The vertical net force is not zero and the vertical component of momentum is not a constant. When the space probe separates, the horizontal net force remains zero as the force causing separation is internal to the system. The vertical net force is not zero and the vertical component of momentum is also not a constant after separation. The centre of mass however continues in the same parabolic path.](../resources/Figure_08_03_02.jpg "The horizontal component of a projectile&#x2019;s momentum is conserved if air resistance is negligible, even in this case where a space probe separates. The forces causing the separation are internal to the system, so that the net external horizontal force Fx&#x2013;net is still zero. The vertical component of the momentum is not conserved, because the net vertical force Fy&#x2013;net is not zero. In the vertical direction, the space probe-Earth system needs to be considered and we find that the total momentum is conserved. The center of mass of the space probe takes the same path it would if the separation did not occur.")
+![A space probe is projected upward. It takes a parabolic path. No horizontal net force acts on. The horizontal component of momentum remains conserved. The vertical net force is not zero and the vertical component of momentum is not a constant. When the space probe separates, the horizontal net force remains zero as the force causing separation is internal to the system. The vertical net force is not zero and the vertical component of momentum is also not a constant after separation. The centre of mass however continues in the same parabolic path.](../resources/Figure_08_03_02.jpg 'The horizontal component of a projectile’s momentum is conserved if air resistance is negligible, even in this case where a space probe separates. The forces causing the separation are internal to the system, so that the net external horizontal force Fx–net is still zero. The vertical component of the momentum is not conserved, because the net vertical force Fy–net is not zero. In the vertical direction, the space probe-Earth system needs to be considered and we find that the total momentum is conserved. The center of mass of the space probe takes the same path it would if the separation did not occur.')
 {: #Figure2}
 
 The conservation of momentum principle can be applied to systems as different as
@@ -233,17 +234,18 @@ the proton—this observation is considered nearly direct evidence of quarks. Th
 analysis was based partly on the same conservation of momentum principle that
 works so well on the large scale.
 
-![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.jpg "A subatomic particle scatters straight backward from a target particle. In experiments seeking evidence for quarks, electrons were observed to occasionally scatter straight backward from a proton.")
+![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.jpg 'A subatomic particle scatters straight backward from a target particle. In experiments seeking evidence for quarks, electrons were observed to occasionally scatter straight backward from a proton.')
 {: #Figure3}
 
 ### Section Summary
 
-* The conservation of momentum principle is written
+- The conservation of momentum principle is written
   <div class="equation">
     $$ \vb{p}_{\text{tot}}=\text{constant} $$
   </div>
 
 or
+
   <div class="equation">
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right), $$
   </div>
@@ -251,12 +253,12 @@ or
 $$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$ {\vb{p}^{\prime}
 }_{\text{tot}} $$ is the total momentum some time later.
 
-* An isolated system is defined to be one for which the net external force is
-  zero $$ \left( \vb{F}_{\text{net}}=0\right). $$
-* During projectile motion and where air resistance is negligible, momentum is
+- An isolated system is defined to be one for which the net external force is
+  zero $$ \left( \vb{F}\_{\text{net}}=0\right). $$
+- During projectile motion and where air resistance is negligible, momentum is
   conserved in the horizontal direction because horizontal forces are zero.
-* Conservation of momentum applies only when the net external force is zero.
-* The conservation of momentum principle is valid when considering systems of
+- Conservation of momentum applies only when the net external force is zero.
+- The conservation of momentum principle is valid when considering systems of
   particles.
 
 ### Conceptual Questions
@@ -363,6 +365,7 @@ The final velocity of the coupled train cars is 0.122 m/s in the direction of th
 **Discussion**
 
 The positive final velocity indicates the coupled cars move in the direction of the heavier, faster car (car 1). The first car had more momentum (45,000 kg·m/s) than the second car (13,200 kg·m/s), so the net momentum is in the direction of the first car. This is a typical coupling operation where cars are gently bumped together at low speeds to minimize damage.
+
 </div>
 </div>
 
@@ -399,6 +402,7 @@ The final velocity of the combined clay models is 0.273 m/s in the direction of 
 **Discussion**
 
 The final velocity is less than the initial velocity of the moving koala, as expected when momentum is shared with a stationary object. The combined mass is 2.75 times the moving koala's mass, so the final velocity is reduced by approximately this factor (0.750/2.75 ≈ 0.273). This is a classic example of a perfectly inelastic collision where objects stick together and move as one unit afterward.
+
 </div>
 </div>
 
@@ -407,9 +411,9 @@ The final velocity is less than the initial velocity of the moving koala, as exp
 
 **Professional Application**
 
-Consider the following question: *A car moving at 10 m/s crashes into a tree and
+Consider the following question: _A car moving at 10 m/s crashes into a tree and
 stops in 0.26 s. Calculate the force the seatbelt exerts on a passenger in the
-car to bring him to a halt. The mass of the passenger is 70 kg.* Would the
+car to bring him to a halt. The mass of the passenger is 70 kg._ Would the
 answer to this question be different if the car with the 70-kg passenger had
 collided with a car that has a mass equal to and is traveling in the opposite
 direction and at the same speed? Explain your answer.
@@ -445,6 +449,7 @@ Both cars come to rest. The passenger's change in momentum is the same: from $$ 
 **Discussion**
 
 The change in momentum is identical in both cases—the passenger goes from 10 m/s to 0. However, the **force** depends on the collision time, which may differ between the two scenarios. A car-car collision might have different deformation characteristics than hitting a rigid tree, potentially changing the stopping time. If the collision time in the car-car crash were longer (due to crumple zones in both cars absorbing energy over a longer distance), the force would be reduced. If shorter, the force would be greater. Without knowing the collision time for the car-car scenario, we cannot definitively compare the forces, but the momentum change remains the same.
+
 </div>
 </div>
 
@@ -462,7 +467,7 @@ This is a perfectly inelastic collision where the deer remains on the car. Both 
 
 Apply conservation of momentum:
 
-$$ m_{\text{car}} v_{\text{car}} + m_{\text{deer}} v_{\text{deer}} = (m_{\text{car}} + m_{\text{deer}}) v_f $$
+$$ m*{\text{car}} v*{\text{car}} + m*{\text{deer}} v*{\text{deer}} = (m*{\text{car}} + m*{\text{deer}}) v_f $$
 
 Substitute the known values:
 
@@ -483,6 +488,7 @@ The velocity of the car with the deer is 27.4 m/s in the original direction of m
 **Discussion**
 
 The final velocity (27.4 m/s) is less than the car's initial velocity (30.0 m/s) but greater than the deer's initial velocity (12.0 m/s), as expected when two objects moving in the same direction collide and stick together. The car loses about 2.6 m/s of speed. Since both were moving in the same direction, the velocity change is less severe than a head-on collision would produce.
+
 </div>
 </div>
 
@@ -500,7 +506,7 @@ When the falcon catches the dove, they move together as one object—a perfectly
 
 Apply conservation of momentum:
 
-$$ m_{\text{falcon}} v_{\text{falcon}} + m_{\text{dove}} v_{\text{dove}} = (m_{\text{falcon}} + m_{\text{dove}}) v_f $$
+$$ m*{\text{falcon}} v*{\text{falcon}} + m*{\text{dove}} v*{\text{dove}} = (m*{\text{falcon}} + m*{\text{dove}}) v_f $$
 
 Substitute the known values:
 
@@ -521,6 +527,7 @@ The velocity of the falcon and dove after impact is 22.4 m/s in the same directi
 **Discussion**
 
 The final velocity (22.4 m/s) is between the initial velocities of the falcon (28.0 m/s) and the dove (7.00 m/s), as expected for a perfectly inelastic collision where both objects are moving in the same direction. The falcon slows down from 28.0 m/s to 22.4 m/s upon catching the dove. The falcon dominates the outcome because it has both greater mass and greater velocity, contributing 92% of the total initial momentum.
+
 </div>
 </div>
 

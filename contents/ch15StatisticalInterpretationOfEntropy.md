@@ -10,7 +10,7 @@ chapterNumber: 15
 * Analyze statistical probabilities in entropic systems.
 </div>
 
-![Photograph of many coins laid down on a surface, some with heads shown up and some with tails shown up.](../resources/Figure_15_07_01.jpg "When you toss a coin a large number of times, heads and tails tend to come up in roughly equal numbers. Why doesn&#x2019;t heads come up 100, 90, or even 80% of the time? (credit: Jon Sullivan, PDPhoto.org)")
+![Photograph of many coins laid down on a surface, some with heads shown up and some with tails shown up.](../resources/Figure_15_07_01.jpg 'When you toss a coin a large number of times, heads and tails tend to come up in roughly equal numbers. Why doesn’t heads come up 100, 90, or even 80% of the time? (credit: Jon Sullivan, PDPhoto.org)')
 {: #Figure1}
 
 The various ways of formulating the second law of thermodynamics tell what
@@ -250,7 +250,7 @@ now imagine applying this approach to perhaps a small sample of gas. Because
 counting microstates and macrostates involves statistics, this is called **statistical analysis**. The macrostates of a gas correspond to its macroscopic
 properties, such as volume, temperature, and pressure; and its microstates
 correspond to the detailed description of the positions and velocities of its
-atoms. Even a small amount of gas has a huge number of atoms:  $$
+atoms. Even a small amount of gas has a huge number of atoms: $$
 1.0{\text{cm}}^{3} $$ of an ideal gas at 1.0 atm and $$0º C $$ has $$ 2.7 \times
 10^{19} $$ atoms. So each macrostate has an immense number of microstates. In
 plain language, this means that there are an immense number of ways in which the
@@ -268,7 +268,7 @@ exceedingly unlikely ever to occur. (See [[Figure 2]](#Figure2)(b).) Indeed, it
 is so unlikely that we have a law saying that it is impossible, which has never
 been observed to be violated—the second law of thermodynamics.
 
-![Two states of a container of gas are shown. In state a, the gas molecules, depicted as small green spheres, are randomly distributed in the container, with random velocities (an arrow is attached to each sphere, and the arrows vary in length and direction). This state is labeled likely. In state b, the molecules are clustered in the lower left-hand corner of the container and the arrows are much shorter. This state is labeled highly unlikely.](../resources/Figure_15_07_02.jpg "(a) The ordinary state of gas in a container is a disorderly, random distribution of atoms or molecules with a Maxwell-Boltzmann distribution of speeds. It is so unlikely that these atoms or molecules would ever end up in one corner of the container that it might as well be impossible. (b) With energy transfer, the gas can be forced into one corner and its entropy greatly reduced. But left alone, it will spontaneously increase its entropy and return to the normal conditions, because they are immensely more likely.")
+![Two states of a container of gas are shown. In state a, the gas molecules, depicted as small green spheres, are randomly distributed in the container, with random velocities (an arrow is attached to each sphere, and the arrows vary in length and direction). This state is labeled likely. In state b, the molecules are clustered in the lower left-hand corner of the container and the arrows are much shorter. This state is labeled highly unlikely.](../resources/Figure_15_07_02.jpg '(a) The ordinary state of gas in a container is a disorderly, random distribution of atoms or molecules with a Maxwell-Boltzmann distribution of speeds. It is so unlikely that these atoms or molecules would ever end up in one corner of the container that it might as well be impossible. (b) With energy transfer, the gas can be forced into one corner and its entropy greatly reduced. But left alone, it will spontaneously increase its entropy and return to the normal conditions, because they are immensely more likely.')
 {: #Figure2}
 
 The disordered condition is one of high entropy, and the ordered one has low
@@ -302,7 +302,7 @@ Thus the second law of thermodynamics is explained on a very basic level:
 entropy either remains the same or increases in every process. This phenomenon
 is due to the extraordinarily small probability of a decrease, based on the
 extraordinarily larger number of microstates in systems with greater entropy.
-Entropy *can* decrease, but for any macroscopic system, this outcome is so
+Entropy _can_ decrease, but for any macroscopic system, this outcome is so
 unlikely that it will never be observed.
 
 <div class="example" markdown="1">
@@ -348,7 +348,7 @@ environment, there would be a decrease in entropy of $$ 1.22 \times 10^{3}
 \text{J/K} $$ . Given that a $$\Delta S $$ of $$10^{-21} \text{J/K} $$
 corresponds to about a $$1 $$ in $$10^{30} $$ chance, a decrease of this size (
 $$10^{3} \text{J/K} $$ )
-is an *utter* impossibility. Even for a milligram of melted ice to spontaneously
+is an _utter_ impossibility. Even for a milligram of melted ice to spontaneously
 refreeze is impossible.
 
 </div>
@@ -363,14 +363,14 @@ Problem-Solving Strategies for Entropy
 4.   *Make a list of what is given or can be inferred from the problem as stated (identify the knowns).* You must carefully identify the heat transfer, if any, and the temperature at which the process takes place. It is also important to identify the initial and final states.
 5.   *Solve the appropriate equation for the quantity to be determined (the unknown).* Note that the change in entropy can be determined between any states by calculating it for a reversible process.
 6.   *Substitute the known value along with their units into the appropriate equation, and obtain numerical solutions complete with units.*
-7.   *To see if it is reasonable: Does it make sense?* For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states. 
+7.   *To see if it is reasonable: Does it make sense?* For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states.
 
 </div>
 
 ### Section Summary
 
-* Disorder is far more likely than order, which can be seen statistically.
-* The entropy of a system in a given state (a macrostate) can be written as
+- Disorder is far more likely than order, which can be seen statistically.
+- The entropy of a system in a given state (a macrostate) can be written as
   <div class="equation" >
    $$S=k_{B} \ln W, $$
   </div>
