@@ -144,6 +144,23 @@ the terminal speed.
 What direction will a helium balloon move inside a car that is slowing down—toward the front or back? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the forces on the balloon and air inside the car using Newton's laws and the concept of buoyancy in an accelerating reference frame.
+
+**Solution**
+
+The helium balloon will move **toward the front** of the car when the car slows down.
+
+Here's why: When the car decelerates, everything inside experiences a pseudo-force pushing it forward (from the perspective of someone inside the car). The denser air inside the car tends to move forward due to this pseudo-force. Since the helium balloon is less dense than the surrounding air, it experiences a buoyant force in the opposite direction—just as a helium balloon rises upward against gravity because it's less dense than air.
+
+Alternatively, think of it this way: When the car brakes, the air inside piles up toward the front of the car, creating a pressure gradient (higher pressure at front, lower at back). The balloon, being buoyant, moves from high pressure to low pressure—but wait, that would be toward the back. The key insight is that the balloon moves opposite to what denser objects do. The air wants to move forward, so it pushes the lighter balloon backward relative to the air—but the air is moving forward faster than the balloon can be pushed back, so the net effect is the balloon moves forward relative to the car.
+
+**Discussion**
+
+This is counterintuitive because most objects (your coffee cup, loose change) slide forward when you brake. But the helium balloon behaves oppositely because it's buoyant. This same principle explains why a helium balloon leans forward when a car accelerates (instead of tilting back like a hanging object would). It's essentially "falling up" in the direction opposite to the effective gravity created by the car's acceleration.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -153,12 +170,70 @@ Will identical raindrops fall more rapidly in  $$5º C $$
  air, neglecting any differences in air density? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We consider how temperature affects air viscosity, and then how viscosity affects terminal speed through Stokes' law.
+
+**Solution**
+
+Raindrops will fall **faster in 5°C (colder) air** than in 25°C air.
+
+The key factor is how temperature affects air viscosity. Unlike liquids (where viscosity decreases with temperature), **gas viscosity increases with temperature**. This occurs because warmer gas molecules move faster and transfer momentum more effectively between fluid layers.
+
+Typical values:
+- Air viscosity at 5°C: approximately $$1.73 \times 10^{-5} \text{ Pa} \cdot \text{s}$$
+- Air viscosity at 25°C: approximately $$1.84 \times 10^{-5} \text{ Pa} \cdot \text{s}$$
+
+Since terminal velocity is reached when viscous drag equals the net downward force, and Stokes' law gives $$F_S = 6\pi r\eta v$$, a higher viscosity means more drag at any given speed. More drag results in a lower terminal velocity.
+
+Therefore, raindrops reach a **higher terminal velocity in colder (5°C) air** because the lower viscosity produces less drag force.
+
+**Discussion**
+
+This may seem counterintuitive since we often associate warmth with faster processes. However, for gases, viscosity increases with temperature—the opposite of liquids. The effect is relatively small (about 6% difference between these temperatures) but measurable. This principle is relevant to atmospheric science and precipitation studies. Note: if we hadn't neglected density differences as instructed, the lower density of warm air would reduce drag, partially offsetting the viscosity effect.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 If you took two marbles of different sizes, what would you expect to observe about the relative magnitudes of their terminal velocities?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the forces on a falling sphere (gravity, buoyancy, and viscous drag) and determine how terminal velocity depends on radius.
+
+**Solution**
+
+The **larger marble will have a greater terminal velocity** than the smaller marble.
+
+At terminal velocity, the net force is zero:
+$$w - F_B - F_V = 0$$
+
+where $$w$$ is weight, $$F_B$$ is buoyant force, and $$F_V$$ is viscous drag.
+
+For a sphere of radius $$R$$ and density $$\rho_{\text{marble}}$$ in a fluid of density $$\rho_{\text{fluid}}$$:
+- Weight: $$w = \frac{4}{3}\pi R^3 \rho_{\text{marble}} g$$
+- Buoyant force: $$F_B = \frac{4}{3}\pi R^3 \rho_{\text{fluid}} g$$
+- Stokes drag: $$F_V = 6\pi R \eta v$$
+
+Setting $$w - F_B = F_V$$:
+
+$$\frac{4}{3}\pi R^3 (\rho_{\text{marble}} - \rho_{\text{fluid}}) g = 6\pi R \eta v_t$$
+
+Solving for terminal velocity:
+
+$$v_t = \frac{2R^2 (\rho_{\text{marble}} - \rho_{\text{fluid}}) g}{9\eta}$$
+
+Since $$v_t \propto R^2$$, the terminal velocity increases with the **square** of the radius.
+
+**Example:** If one marble has twice the radius of another, it will have **four times** the terminal velocity.
+
+**Discussion**
+
+This $$R^2$$ dependence arises because the net gravitational force (weight minus buoyancy) scales as $$R^3$$ (volume), while Stokes drag scales only as $$R$$ (for a given velocity). The larger marble has more "excess weight" per unit of drag force, so it reaches a higher terminal velocity. This is why sand grains settle faster than fine silt in water, and why centrifuges can separate particles by size—larger particles move outward faster. Note: this analysis assumes laminar flow (low Reynolds number), which is valid for small, slow-moving spheres in viscous fluids like honey or motor oil, as described in the Take-Home Experiment.
 </div>
 </div>
 
