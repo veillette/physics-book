@@ -984,10 +984,42 @@ Laser vision correction often uses an excimer laser that produces 193-nm electro
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a) 33.3 cm (900 MHz) 11.7 cm (2560 MHz)
+<div class="title">
+Strategy
+</div>
+To find the wavelengths, we use the fundamental wave equation $$c=f\lambda$$, which relates the speed of light $$c$$, frequency $$f$$, and wavelength $$\lambda$$. Rearranging gives $$\lambda =\frac{c}{f}$$. For part (b), we need to understand that interference patterns create hot spots separated by distances related to the wavelength—smaller wavelengths lead to more closely spaced interference maxima.
 
-(b) The microwave oven with the smaller wavelength would produce smaller hot
-spots in foods, corresponding to the one with the frequency 2560 MHz.
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+- $$f_{1}=900 \text{ MHz}=900 \times 10^{6} \text{ Hz}=9.00 \times 10^{8} \text{ Hz}$$
+- $$f_{2}=2560 \text{ MHz}=2560 \times 10^{6} \text{ Hz}=2.56 \times 10^{9} \text{ Hz}$$
+- $$c=3.00 \times 10^{8} \text{ m/s}$$
+
+For 900 MHz:
+
+<div class="equation">
+ $$\lambda _{1}=\frac{c}{f_{1}}=\frac{3.00 \times 10^{8} \text{ m/s}}{9.00 \times 10^{8} \text{ Hz}}=0.333 \text{ m}=33.3 \text{ cm}$$
+</div>
+
+For 2560 MHz:
+
+<div class="equation">
+ $$\lambda _{2}=\frac{c}{f_{2}}=\frac{3.00 \times 10^{8} \text{ m/s}}{2.56 \times 10^{9} \text{ Hz}}=0.117 \text{ m}=11.7 \text{ cm}$$
+</div>
+
+**(b)** The 2560 MHz microwave oven would produce closer together hot spots in foods. Since the wavelength is smaller (11.7 cm vs. 33.3 cm), the interference pattern has a smaller spatial period, resulting in hot spots that are more closely spaced.
+
+<div class="title">
+Discussion
+</div>
+The wavelengths we calculated (33.3 cm and 11.7 cm) are on the order of typical food dimensions in a microwave oven, which is why uneven heating (hot spots) is a common problem. The interference effects arise because microwaves reflect off the metal walls of the oven cavity, creating standing wave patterns. The hot spots occur at the antinodes of these standing waves. While the 2560 MHz frequency creates more closely spaced hot spots, this doesn't necessarily mean more uniform heating—it just means the pattern of non-uniformity has a finer spatial structure. This is why most modern microwave ovens include rotating turntables to help average out the hot and cold spots by moving the food through different parts of the standing wave pattern. The choice between 900 MHz and 2560 MHz also involves other considerations like penetration depth into food and manufacturing costs.
+
+<div class="title">
+Final Answer
+</div>
+(a) The wavelength for 900 MHz microwaves is 33.3 cm, and the wavelength for 2560 MHz microwaves is 11.7 cm. (b) The 2560 MHz frequency produces closer together hot spots due to its smaller wavelength of 11.7 cm.
 
 </div>
 </div>
@@ -995,6 +1027,62 @@ spots in foods, corresponding to the one with the frequency 2560 MHz.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Calculate the range of wavelengths for AM radio given its frequency range is 540 to 1600 kHz. (b) Do the same for the FM frequency range of 88.0 to 108 MHz.
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+To find the wavelength range for each radio band, we use $$\lambda =\frac{c}{f}$$. The lowest frequency corresponds to the longest wavelength, and the highest frequency corresponds to the shortest wavelength. We'll calculate the wavelengths at the extreme frequencies of each band.
+
+<div class="title">
+Solution
+</div>
+**(a) AM radio:**
+
+Given frequency range: 540 kHz to 1600 kHz
+
+For the lowest frequency (540 kHz):
+
+<div class="equation">
+ $$\lambda _{\text{max}}=\frac{c}{f_{\text{min}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{540 \times 10^{3} \text{ Hz}}=556 \text{ m}$$
+</div>
+
+For the highest frequency (1600 kHz):
+
+<div class="equation">
+ $$\lambda _{\text{min}}=\frac{c}{f_{\text{max}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{1600 \times 10^{3} \text{ Hz}}=188 \text{ m}$$
+</div>
+
+Therefore, the AM wavelength range is **188 m to 556 m**.
+
+**(b) FM radio:**
+
+Given frequency range: 88.0 MHz to 108 MHz
+
+For the lowest frequency (88.0 MHz):
+
+<div class="equation">
+ $$\lambda _{\text{max}}=\frac{c}{f_{\text{min}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{88.0 \times 10^{6} \text{ Hz}}=3.41 \text{ m}$$
+</div>
+
+For the highest frequency (108 MHz):
+
+<div class="equation">
+ $$\lambda _{\text{min}}=\frac{c}{f_{\text{max}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{108 \times 10^{6} \text{ Hz}}=2.78 \text{ m}$$
+</div>
+
+Therefore, the FM wavelength range is **2.78 m to 3.41 m**.
+
+<div class="title">
+Discussion
+</div>
+The dramatic difference in wavelengths between AM and FM radio waves (hundreds of meters vs. a few meters) has important practical consequences. AM's longer wavelengths allow these waves to diffract around obstacles like buildings and hills more effectively, and they can also reflect off the ionosphere for long-distance transmission, especially at night. This is why AM radio stations can sometimes be heard hundreds of kilometers away. In contrast, FM's shorter wavelengths result in more line-of-sight propagation—FM signals don't diffract around obstacles as well and don't reflect off the ionosphere as efficiently. However, FM's higher frequencies allow for greater bandwidth, which is why FM provides better sound quality (stereo broadcasts with wider frequency response). The physical size of efficient antennas is also related to wavelength (typically $$\lambda /2$$ or $$\lambda /4$$), which is why AM antennas are much larger structures (tens to hundreds of meters) compared to FM antennas (around 1-2 meters).
+
+<div class="title">
+Final Answer
+</div>
+(a) The AM radio wavelength range is 188 m to 556 m. (b) The FM radio wavelength range is 2.78 m to 3.41 m.
 
 </div>
 </div>
@@ -1005,7 +1093,39 @@ A radio station utilizes frequencies between commercial AM and FM. What is the f
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-26.96 MHz
+<div class="title">
+Strategy
+</div>
+To find the frequency, we use the wave equation $$c=f\lambda$$ and solve for frequency: $$f=\frac{c}{\lambda}$$. We're given the wavelength and know the speed of light.
+
+<div class="title">
+Solution
+</div>
+Given:
+- $$\lambda =11.12 \text{ m}$$
+- $$c=3.00 \times 10^{8} \text{ m/s}$$
+
+Using $$f=\frac{c}{\lambda}$$:
+
+<div class="equation">
+ $$f=\frac{3.00 \times 10^{8} \text{ m/s}}{11.12 \text{ m}}=2.698 \times 10^{7} \text{ Hz}=26.98 \text{ MHz}$$
+</div>
+
+Rounding to three significant figures:
+
+<div class="equation">
+ $$f=27.0 \text{ MHz}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This frequency of approximately 27 MHz falls in the shortwave radio band, which lies between the AM band (540-1600 kHz) and the FM band (88-108 MHz). Shortwave frequencies are used for various purposes including international broadcasting, amateur radio, citizens band (CB) radio, and aviation communication. The 11.12-meter wavelength corresponds to what radio enthusiasts call the "11-meter band," which includes CB radio around 27 MHz. Radio waves at this frequency have interesting propagation characteristics—they can reflect off the ionosphere for long-distance communication, but the effectiveness varies significantly with time of day, season, and solar activity. During periods of high solar activity, the 11-meter band can support intercontinental communication, while at other times it's limited to more local use. The wavelength being just over 11 meters means efficient antennas for this frequency would be around 2.78 m ($$\lambda /4$$) long, which is practical for mobile and portable applications.
+
+<div class="title">
+Final Answer
+</div>
+The frequency of the 11.12-m-wavelength channel is 27.0 MHz, which falls in the shortwave radio band between commercial AM and FM.
 
 </div>
 </div>
@@ -1013,6 +1133,42 @@ A radio station utilizes frequencies between commercial AM and FM. What is the f
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the frequency range of visible light, given that it encompasses wavelengths from 380 to 760 nm.
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+Using $$f=\frac{c}{\lambda}$$, we'll calculate the frequencies corresponding to the extreme wavelengths of visible light. The shortest wavelength (380 nm, violet) gives the highest frequency, and the longest wavelength (760 nm, red) gives the lowest frequency.
+
+<div class="title">
+Solution
+</div>
+Given wavelength range: 380 nm to 760 nm
+
+For the shortest wavelength (highest frequency, violet end):
+
+<div class="equation">
+ $$f_{\text{max}}=\frac{c}{\lambda _{\text{min}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{380 \times 10^{-9} \text{ m}}=7.89 \times 10^{14} \text{ Hz}$$
+</div>
+
+For the longest wavelength (lowest frequency, red end):
+
+<div class="equation">
+ $$f_{\text{min}}=\frac{c}{\lambda _{\text{max}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{760 \times 10^{-9} \text{ m}}=3.95 \times 10^{14} \text{ Hz}$$
+</div>
+
+Therefore, the frequency range of visible light is **$$3.95 \times 10^{14}$$ Hz to $$7.89 \times 10^{14}$$ Hz**.
+
+<div class="title">
+Discussion
+</div>
+The visible light frequency range spans approximately one octave (a factor of 2 in frequency), from about $$4 \times 10^{14}$$ Hz (red) to about $$8 \times 10^{14}$$ Hz (violet). These extraordinarily high frequencies—nearly a million billion cycles per second—correspond to the resonant frequencies at which atoms and molecules emit and absorb electromagnetic radiation. It's remarkable that the human eye can detect only this narrow slice of the electromagnetic spectrum, which represents less than one octave out of the many decades of frequencies that electromagnetic waves can have. Our perception of different colors corresponds to our eyes' responses to different frequencies within this range: red light at the lower frequency end, progressing through orange, yellow, green, blue, and violet at the higher frequency end. The retinal cone cells in our eyes contain photopigments that are sensitive to different parts of this frequency range, with peak sensitivities roughly in the blue ($$\sim 6.7 \times 10^{14}$$ Hz), green ($$\sim 5.4 \times 10^{14}$$ Hz), and red ($$\sim 4.5 \times 10^{14}$$ Hz) regions, allowing us to perceive millions of color combinations through the brain's processing of signals from these three types of cones.
+
+<div class="title">
+Final Answer
+</div>
+The frequency range of visible light is $$3.95 \times 10^{14}$$ Hz to $$7.89 \times 10^{14}$$ Hz, corresponding to wavelengths from 760 nm (red) to 380 nm (violet).
 
 </div>
 </div>
@@ -1023,7 +1179,47 @@ Combing your hair leads to excess electrons on the comb. How fast would you have
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$5.0 \times 10^{14}  $$  Hz
+<div class="title">
+Strategy
+</div>
+To produce electromagnetic radiation, charges must oscillate at the frequency of the desired radiation. Red light is at the low-frequency end of the visible spectrum, with wavelengths around 650-700 nm (middle of the red range is approximately 650 nm). We'll use $$f=\frac{c}{\lambda}$$ to find the required oscillation frequency of the charged comb.
+
+<div class="title">
+Solution
+</div>
+Taking a representative wavelength for red light:
+
+<div class="equation">
+ $$\lambda =650 \text{ nm}=650 \times 10^{-9} \text{ m}$$
+</div>
+
+The required frequency is:
+
+<div class="equation">
+ $$f=\frac{c}{\lambda}=\frac{3.00 \times 10^{8} \text{ m/s}}{650 \times 10^{-9} \text{ m}}=4.62 \times 10^{14} \text{ Hz}$$
+</div>
+
+Rounding to two significant figures:
+
+<div class="equation">
+ $$f \approx 4.6 \times 10^{14} \text{ Hz}$$
+</div>
+
+This can also be expressed as $$460 \text{ THz}$$ (terahertz).
+
+<div class="title">
+Discussion
+</div>
+This frequency—about 460 trillion oscillations per second—is impossibly fast for any mechanical motion. Even the fastest vibrations we can produce mechanically (ultrasonic transducers) reach only millions of hertz, not hundreds of trillions. This illustrates why static electricity from combing your hair doesn't produce visible light, despite creating oscillating charges when you move the comb. The timescale is wrong by a factor of about 100 million!
+
+To actually produce electromagnetic radiation at optical frequencies requires atomic or molecular processes, not mechanical motion. In atoms, electrons can transition between energy levels in timescales of nanoseconds or faster, producing oscillating electric dipoles at the frequencies needed for visible light. This is how incandescent bulbs work (thermal excitation of atoms) and how LEDs and lasers work (controlled electron transitions).
+
+However, oscillating charges at lower frequencies can and do produce electromagnetic radiation—just not visible light. Moving a charged comb at 1000 Hz would produce 1000 Hz radio waves (extremely low frequency, or ELF). In fact, this is the principle behind radio transmission, where electrons in antennas oscillate at radio frequencies (thousands to billions of hertz) to produce radio waves.
+
+<div class="title">
+Final Answer
+</div>
+To produce red light, you would need to oscillate the charged comb at a frequency of approximately $$4.6 \times 10^{14}$$ Hz or 460 THz, which is impossibly fast for mechanical motion.
 
 </div>
 </div>
@@ -1034,6 +1230,46 @@ Electromagnetic radiation having a  $$ 15.0-\mu \text{m} $$
  wavelength is classified as infrared radiation. What is its frequency?
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+We'll use the wave equation $$f=\frac{c}{\lambda}$$ to calculate the frequency from the given wavelength. We need to convert the wavelength from micrometers to meters first.
+
+<div class="title">
+Solution
+</div>
+Given:
+
+<div class="equation">
+ $$\lambda =15.0 \text{ }\mu \text{m}=15.0 \times 10^{-6} \text{ m}$$
+</div>
+
+Using $$f=\frac{c}{\lambda}$$:
+
+<div class="equation">
+ $$f=\frac{3.00 \times 10^{8} \text{ m/s}}{15.0 \times 10^{-6} \text{ m}}=2.00 \times 10^{13} \text{ Hz}$$
+</div>
+
+This can also be expressed as:
+
+<div class="equation">
+ $$f=20.0 \text{ THz}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This frequency of $$2.00 \times 10^{13}$$ Hz falls in the mid-infrared region of the electromagnetic spectrum. Infrared radiation spans from just beyond visible red light (around 760 nm or $$4 \times 10^{14}$$ Hz) down to microwave frequencies (around 1 mm or $$3 \times 10^{11}$$ Hz). This particular wavelength of 15.0 μm is significant because it's in the thermal infrared range—objects near room temperature (around 300 K) emit peak radiation at wavelengths around 10 μm according to Wien's displacement law. This is why thermal imaging cameras are sensitive to wavelengths in the 8-14 μm range.
+
+This wavelength is also important in astronomy and atmospheric science because it corresponds to a relatively transparent "atmospheric window"—wavelengths where Earth's atmosphere doesn't strongly absorb infrared radiation. Water vapor and carbon dioxide in the atmosphere absorb strongly at some infrared wavelengths but less so at others, creating these windows that allow astronomers to observe cool celestial objects and that affect Earth's energy balance and climate.
+
+<div class="title">
+Final Answer
+</div>
+Infrared radiation with a wavelength of 15.0 μm has a frequency of $$2.00 \times 10^{13}$$ Hz or 20.0 THz.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1041,10 +1277,53 @@ Electromagnetic radiation having a  $$ 15.0-\mu \text{m} $$
 Approximately what is the smallest detail observable with a microscope that uses ultraviolet light of frequency  $$ 1.20 \times 10^{15}  \text{Hz} $$ ?
 
 </div>
-<div class="solution" data-element-type="problems-exercises">
-<div class="equation" >
- $$\lambda =\frac{c}{f}=\frac{ 3.00 \times 10^{8}  \text{m/s}}{ 1.20 \times 10^{15}  \text{Hz}}= 2.50 \times 10^{-7} \text{m} $$
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+<div class="title">
+Strategy
 </div>
+The resolution limit of a microscope is fundamentally limited by the wavelength of the light used—you cannot resolve details significantly smaller than the wavelength. First, we'll calculate the wavelength using $$\lambda =\frac{c}{f}$$, which will give us the approximate minimum resolvable detail.
+
+<div class="title">
+Solution
+</div>
+Given:
+
+<div class="equation">
+ $$f=1.20 \times 10^{15} \text{ Hz}$$
+</div>
+
+Calculate the wavelength:
+
+<div class="equation">
+ $$\lambda =\frac{c}{f}=\frac{3.00 \times 10^{8} \text{ m/s}}{1.20 \times 10^{15} \text{ Hz}}=2.50 \times 10^{-7} \text{ m}$$
+</div>
+
+Converting to nanometers:
+
+<div class="equation">
+ $$\lambda =250 \text{ nm}$$
+</div>
+
+The smallest resolvable detail is approximately equal to the wavelength, so:
+
+<div class="equation">
+ $$\text{Minimum detail} \approx 250 \text{ nm}=2.50 \times 10^{-7} \text{ m}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This UV wavelength of 250 nm provides better resolution than visible light microscopes, which are limited to details of about 400-500 nm (roughly half the wavelength of visible light, or about 200-250 nm under optimal conditions with blue light). The 250 nm UV light falls in the UV-C range and provides resolution capabilities that allow imaging of structures like large protein complexes, viruses, and subcellular organelles with greater detail than visible light microscopy.
+
+However, there are practical challenges with UV microscopy: UV light is absorbed by glass, requiring special quartz optics; it can damage biological samples; and it's invisible to the human eye, requiring special detectors. Despite these challenges, UV microscopy is valuable in semiconductor inspection, biological research, and materials science.
+
+For even better resolution, electron microscopes use the wave nature of electrons, which have much shorter wavelengths (on the order of picometers at typical accelerating voltages), allowing resolution down to atomic scales. This demonstrates how the fundamental diffraction limit—that you can't resolve details much smaller than the wavelength—drives technology choices in microscopy.
+
+<div class="title">
+Final Answer
+</div>
+The smallest detail observable with a UV microscope using $$1.20 \times 10^{15}$$ Hz ultraviolet light is approximately 250 nm or $$2.50 \times 10^{-7}$$ m.
+
 </div>
 </div>
 
@@ -1052,6 +1331,46 @@ Approximately what is the smallest detail observable with a microscope that uses
 <div class="problem" markdown="1">
 A radar used to detect the presence of aircraft receives a pulse that has reflected off an object  $$6 \times 10^{-5}  \text{s} $$
  after it was transmitted. What is the distance from the radar station to the reflecting object?
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+The electromagnetic wave travels from the radar to the object and back, so the total distance traveled is twice the distance to the object. Using the relationship $$\text{distance}=\text{speed} \times \text{time}$$, we can find the total distance traveled by the radar pulse at the speed of light, then divide by 2 to get the distance to the object.
+
+<div class="title">
+Solution
+</div>
+Given:
+- Round-trip time: $$t=6 \times 10^{-5} \text{ s}$$
+- Speed of light: $$c=3.00 \times 10^{8} \text{ m/s}$$
+
+Total distance traveled by the radar pulse:
+
+<div class="equation">
+ $$d_{\text{total}}=ct=\left(3.00 \times 10^{8} \text{ m/s}\right)\left(6 \times 10^{-5} \text{ s}\right)=1.8 \times 10^{4} \text{ m}$$
+</div>
+
+Distance to the object (one-way distance):
+
+<div class="equation">
+ $$d=\frac{d_{\text{total}}}{2}=\frac{1.8 \times 10^{4} \text{ m}}{2}=9.0 \times 10^{3} \text{ m}=9.0 \text{ km}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+The aircraft is 9.0 km or approximately 5.6 miles away from the radar station. This is a typical detection range for air traffic control radar. The extremely short time delay (60 microseconds) demonstrates why radar systems require precise electronic timing—the difference between an object at 8 km and one at 10 km is only about 13 microseconds in round-trip time.
+
+Radar works because electromagnetic waves reflect off conducting or dielectric objects. Aircraft are particularly good radar targets because their metal bodies reflect radio waves efficiently. Modern radar systems can measure not only the distance (from time delay) but also the velocity (from Doppler shift of the returned frequency) and even create images of the target (using synthetic aperture radar techniques).
+
+The speed of light being finite means there's always a time lag in radar detection. For objects at 9 km, the radar "sees" where the object was 30 microseconds ago (the one-way trip time). For most aircraft speeds (around 200-900 km/h or 55-250 m/s), the aircraft moves only about 2-8 millimeters during this time, which is negligible compared to the radar's range resolution.
+
+<div class="title">
+Final Answer
+</div>
+The distance from the radar station to the reflecting object is 9.0 km or $$9.0 \times 10^{3}$$ m.
 
 </div>
 </div>
@@ -1062,7 +1381,45 @@ Some radar systems detect the size and shape of objects such as aircraft and geo
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-0.600 m
+<div class="title">
+Strategy
+</div>
+Similar to optical microscopy, the resolution of radar is limited by the wavelength of the electromagnetic radiation used. We'll first calculate the wavelength of 500-MHz radar waves using $$\lambda =\frac{c}{f}$$, which gives us the approximate minimum resolvable detail.
+
+<div class="title">
+Solution
+</div>
+Given:
+
+<div class="equation">
+ $$f=500 \text{ MHz}=500 \times 10^{6} \text{ Hz}=5.00 \times 10^{8} \text{ Hz}$$
+</div>
+
+Calculate the wavelength:
+
+<div class="equation">
+ $$\lambda =\frac{c}{f}=\frac{3.00 \times 10^{8} \text{ m/s}}{5.00 \times 10^{8} \text{ Hz}}=0.600 \text{ m}$$
+</div>
+
+The smallest observable detail is approximately equal to the wavelength:
+
+<div class="equation">
+ $$\text{Minimum detail} \approx 0.600 \text{ m}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+A resolution of 0.600 m (about 60 cm or 2 feet) means this radar system can distinguish features on aircraft or terrain that are separated by at least this distance. This is useful for detecting the general size and shape of aircraft, distinguishing between large and small aircraft, or mapping terrain features like hills and valleys. However, it cannot resolve fine details like individual antennas or small protrusions on an aircraft.
+
+Higher-frequency radar provides better resolution: For example, 10 GHz radar (X-band, used in weather radar and some military applications) has a wavelength of 3 cm, allowing much finer detail resolution. This is why different radar frequencies are chosen for different applications—lower frequencies (like this 500 MHz) penetrate better through weather and provide longer range, while higher frequencies provide better resolution but are more affected by atmospheric absorption and scattering.
+
+The wavelength also affects the size of radar antennas. Efficient radar antennas are typically several wavelengths across. For 500-MHz radar with a 0.6-m wavelength, practical antennas would be a few meters in size, which is reasonable for ground-based or ship-based installations but too large for small aircraft.
+
+<div class="title">
+Final Answer
+</div>
+The smallest observable detail using 500-MHz radar is approximately 0.600 m.
 
 </div>
 </div>
@@ -1073,17 +1430,96 @@ Determine the amount of time it takes for X-rays of frequency  $$3 \times 10^{18
  to travel (a) 1 mm and (b) 1 cm.
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+X-rays, like all electromagnetic waves, travel at the speed of light $$c=3.00 \times 10^{8}$$ m/s. The frequency is given but not needed for this problem—all electromagnetic waves travel at the same speed in vacuum regardless of frequency. We use $$t=\frac{d}{c}$$ to find the travel time for each distance.
+
+<div class="title">
+Solution
+</div>
+**(a) Time to travel 1 mm:**
+
+<div class="equation">
+ $$d=1 \text{ mm}=1 \times 10^{-3} \text{ m}$$
+</div>
+
+<div class="equation">
+ $$t=\frac{d}{c}=\frac{1 \times 10^{-3} \text{ m}}{3.00 \times 10^{8} \text{ m/s}}=3.33 \times 10^{-12} \text{ s}=3.33 \text{ ps}$$
+</div>
+
+**(b) Time to travel 1 cm:**
+
+<div class="equation">
+ $$d=1 \text{ cm}=1 \times 10^{-2} \text{ m}$$
+</div>
+
+<div class="equation">
+ $$t=\frac{d}{c}=\frac{1 \times 10^{-2} \text{ m}}{3.00 \times 10^{8} \text{ m/s}}=3.33 \times 10^{-11} \text{ s}=33.3 \text{ ps}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+These incredibly short times—3.33 picoseconds for 1 mm and 33.3 picoseconds for 1 cm—illustrate how fast electromagnetic radiation travels. A picosecond ($$10^{-12}$$ s) is to one second as one second is to about 32,000 years! These timescales are important in applications like X-ray crystallography, ultrafast laser physics, and high-speed electronics.
+
+To put this in perspective, in one picosecond, light travels only 0.3 mm (about the thickness of a few sheets of paper). This is why synchronizing signals in modern computer processors (which operate at gigahertz frequencies with nanosecond clock periods) requires careful attention to the physical distances signals must travel on the chip—even centimeter-scale distances introduce measurable delays.
+
+The frequency given in the problem ($$3 \times 10^{18}$$ Hz) corresponds to "hard" X-rays with a wavelength of about 0.1 nm ($$\lambda =c/f$$), which is on the order of atomic spacings. Such X-rays are used in medical imaging and materials analysis because they can penetrate matter while still interacting enough to create useful images or diffraction patterns.
+
+<div class="title">
+Final Answer
+</div>
+(a) X-rays take 3.33 ps to travel 1 mm. (b) X-rays take 33.3 ps to travel 1 cm.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-If you wish to detect details of the size of atoms (about  $$1 \times 10^{-10} \text{m} $$ ) 
+If you wish to detect details of the size of atoms (about  $$1 \times 10^{-10} \text{m} $$ )
 with electromagnetic radiation, it must have a wavelength of about this size. (a) What is its frequency? (b) What type of electromagnetic radiation might this be?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a)  $$f=\frac{c}{\lambda }=\frac{ 3.00 \times 10^{8}  \text{m/s}}{1 \times 10^{-10} \text{m}}=3 \times 10^{18} \text{Hz} $$
-(b) X-rays
+<div class="title">
+Strategy
+</div>
+To resolve atomic-scale features, we need electromagnetic radiation with a wavelength comparable to atomic dimensions (about 0.1 nm or $$1 \times 10^{-10}$$ m). We'll use $$f=\frac{c}{\lambda}$$ to find the frequency, then identify which part of the electromagnetic spectrum this corresponds to.
+
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+
+<div class="equation">
+ $$\lambda =1 \times 10^{-10} \text{ m}=0.1 \text{ nm}$$
+</div>
+
+Calculate the frequency:
+
+<div class="equation">
+ $$f=\frac{c}{\lambda }=\frac{3.00 \times 10^{8} \text{ m/s}}{1 \times 10^{-10} \text{ m}}=3 \times 10^{18} \text{ Hz}$$
+</div>
+
+This can also be expressed as 3000 petahertz (PHz) or 3 exahertz (EHz).
+
+**(b)** This frequency of $$3 \times 10^{18}$$ Hz corresponds to **X-rays**, specifically in the hard X-ray range.
+
+<div class="title">
+Discussion
+</div>
+X-rays with wavelengths around 0.1 nm are ideal for probing atomic structure because their wavelength is comparable to the spacing between atoms in crystals (typically 0.1-0.5 nm). This is the basis of X-ray crystallography, one of the most powerful techniques for determining the atomic structure of materials.
+
+When X-rays strike a crystal, they diffract from the regular array of atoms, creating an interference pattern that can be analyzed to determine the positions of atoms in the crystal structure. This technique has been crucial for discoveries including the double-helix structure of DNA, the structures of proteins and viruses, and the atomic arrangements in countless materials. Rosalind Franklin's X-ray diffraction images were key evidence for Watson and Crick's DNA model.
+
+The relationship between wavelength and resolvable detail is fundamental across all types of microscopy. Visible light microscopes (wavelengths 400-700 nm) can resolve features down to about 200 nm. Electron microscopes use electrons with wavelengths of picometers, allowing atomic resolution. The choice of probe—photons, electrons, neutrons, or other particles—depends on what wavelength is needed and what interactions with the sample are desired.
+
+<div class="title">
+Final Answer
+</div>
+(a) The frequency required to detect atomic-scale details is $$3 \times 10^{18}$$ Hz. (b) This electromagnetic radiation is X-rays.
 
 </div>
 </div>
@@ -1092,6 +1528,50 @@ with electromagnetic radiation, it must have a wavelength of about this size. (a
 <div class="problem" markdown="1">
 If the Sun suddenly turned off, we would not know it until its light stopped coming. How long would that be, given that the Sun is  $$ 1.50 \times 10^{11}  \text{m} $$
  away?
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+Light travels at a finite speed $$c=3.00 \times 10^{8}$$ m/s, so there's a time delay for light to travel from the Sun to Earth. We use $$t=\frac{d}{c}$$ to calculate this light travel time.
+
+<div class="title">
+Solution
+</div>
+Given:
+
+<div class="equation">
+ $$d=1.50 \times 10^{11} \text{ m}$$
+</div>
+
+Calculate the travel time:
+
+<div class="equation">
+ $$t=\frac{d}{c}=\frac{1.50 \times 10^{11} \text{ m}}{3.00 \times 10^{8} \text{ m/s}}=500 \text{ s}$$
+</div>
+
+Converting to minutes:
+
+<div class="equation">
+ $$t=\frac{500 \text{ s}}{60 \text{ s/min}}=8.33 \text{ min}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+We would not know the Sun had turned off for approximately 8.3 minutes (about 8 minutes and 20 seconds). This means we always see the Sun as it was 8.3 minutes ago, not as it is "now." This delay applies to all electromagnetic radiation from the Sun—visible light, infrared, ultraviolet, and radio waves all travel at the speed of light.
+
+Interestingly, this also means that if the Sun suddenly disappeared, Earth would continue orbiting for those same 8.3 minutes before gravitational effects reached us. According to Einstein's general relativity, gravitational influences also propagate at the speed of light, not instantaneously.
+
+This light-travel-time effect becomes even more dramatic for more distant objects. We see the nearest star (Proxima Centauri) as it was 4.2 years ago, the Andromeda galaxy as it was 2.5 million years ago, and the most distant observable galaxies as they were over 13 billion years ago. Astronomy is thus a form of time travel—we literally look back in time when we look out into space.
+
+The distance to the Sun ($$1.50 \times 10^{11}$$ m) is defined as one Astronomical Unit (AU), a fundamental unit in astronomy for measuring distances within our solar system.
+
+<div class="title">
+Final Answer
+</div>
+If the Sun suddenly turned off, we would not know for 500 seconds or approximately 8.3 minutes, the time it takes light to travel from the Sun to Earth.
 
 </div>
 </div>
@@ -1103,6 +1583,54 @@ Distances in space are often quoted in units of light years, the distance light 
  light years away. How far is this in meters?
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+A light year is the distance light travels in one year. We'll first calculate the number of seconds in a year, then multiply by the speed of light to get the distance in meters. For parts (b) and (c), we'll multiply the distance in light years by the conversion factor from part (a).
+
+<div class="title">
+Solution
+</div>
+**(a)** Calculate the number of seconds in one year:
+
+<div class="equation">
+ $$t=1 \text{ yr} \times \frac{365.25 \text{ days}}{1 \text{ yr}} \times \frac{24 \text{ h}}{1 \text{ day}} \times \frac{3600 \text{ s}}{1 \text{ h}}=3.156 \times 10^{7} \text{ s}$$
+</div>
+
+Distance light travels in one year:
+
+<div class="equation">
+ $$1 \text{ ly}=ct=\left(3.00 \times 10^{8} \text{ m/s}\right)\left(3.156 \times 10^{7} \text{ s}\right)=9.47 \times 10^{15} \text{ m}$$
+</div>
+
+**(b)** Distance to Andromeda:
+
+<div class="equation">
+ $$d=\left(2.00 \times 10^{6} \text{ ly}\right)\left(9.47 \times 10^{15} \text{ m/ly}\right)=1.89 \times 10^{22} \text{ m}$$
+</div>
+
+**(c)** Distance to the most distant galaxy:
+
+<div class="equation">
+ $$d=\left(12.0 \times 10^{9} \text{ ly}\right)\left(9.47 \times 10^{15} \text{ m/ly}\right)=1.14 \times 10^{26} \text{ m}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+These distances are almost incomprehensibly large. A light year ($$9.47 \times 10^{15}$$ m) is about 63,000 times the distance from Earth to the Sun. The Andromeda galaxy at $$1.89 \times 10^{22}$$ m is so far away that light from it has been traveling for 2 million years to reach us—we see Andromeda as it was when our human ancestors were just beginning to use stone tools.
+
+The most distant galaxies at $$1.14 \times 10^{26}$$ m (12 billion light years) show us the universe as it was 12 billion years ago, less than 2 billion years after the Big Bang. These galaxies appear to us now as they were in their infancy, when the universe itself was much younger. The observable universe has a radius of about 46 billion light years (different from 13.8 billion because of cosmic expansion), or about $$4 \times 10^{26}$$ m.
+
+To put the light year in perspective: if you could travel at highway speeds (100 km/h or 28 m/s) continuously, it would take you about 11 million years to travel one light year. Even traveling at the speed of the fastest spacecraft ever built (Parker Solar Probe at about 190 km/s at perihelion), it would take about 1,600 years to cover one light year.
+
+<div class="title">
+Final Answer
+</div>
+(a) One light year equals $$9.47 \times 10^{15}$$ m. (b) The Andromeda galaxy is $$1.89 \times 10^{22}$$ m away. (c) The most distant galaxy is $$1.14 \times 10^{26}$$ m away.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1111,32 +1639,152 @@ A certain 50.0-Hz AC power line radiates an electromagnetic wave having a maximu
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a)  $$ 6.00 \times 10^{6}  \text{m} $$
-(b)  $$ 4.33 \times 10^{-5}  \text{T} $$
+<div class="title">
+Strategy
+</div>
+For part (a), we use $$\lambda =\frac{c}{f}$$ to find the wavelength from the frequency. For part (b), we use the relationship between electric and magnetic field strengths in an electromagnetic wave: $$B=\frac{E}{c}$$.
+
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+
+<div class="equation">
+ $$f=50.0 \text{ Hz}$$
+</div>
+
+Calculate the wavelength:
+
+<div class="equation">
+ $$\lambda =\frac{c}{f}=\frac{3.00 \times 10^{8} \text{ m/s}}{50.0 \text{ Hz}}=6.00 \times 10^{6} \text{ m}$$
+</div>
+
+**(b)** Given:
+
+<div class="equation">
+ $$E_{\text{max}}=13.0 \text{ kV/m}=1.30 \times 10^{4} \text{ V/m}$$
+</div>
+
+Calculate the maximum magnetic field strength:
+
+<div class="equation">
+ $$B_{\text{max}}=\frac{E_{\text{max}}}{c}=\frac{1.30 \times 10^{4} \text{ V/m}}{3.00 \times 10^{8} \text{ m/s}}=4.33 \times 10^{-5} \text{ T}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+The wavelength of $$6.00 \times 10^{6}$$ m (6000 km) is enormous—longer than the radius of Earth! This extremely long wavelength is characteristic of extremely low frequency (ELF) electromagnetic waves. Power lines operate at 50 Hz or 60 Hz (depending on the country), and while they're designed to carry electrical power efficiently through conductors, they do radiate some electromagnetic energy at these frequencies.
+
+These ELF waves can travel great distances and penetrate deep into seawater, which is why they've been used for communication with submarines. However, the huge wavelength means very low bandwidth—only a few bits per second can be transmitted. The magnetic field strength of $$4.33 \times 10^{-5}$$ T (0.0433 mT or 0.433 gauss) is comparable to Earth's magnetic field (about 0.5 gauss), which is why there has been ongoing research into whether long-term exposure to power-line electromagnetic fields might have biological effects, though current scientific consensus finds no confirmed health risks at typical exposure levels.
+
+The electric field of 13.0 kV/m is quite strong—significantly higher than the fair-weather atmospheric electric field of about 100 V/m—but these fields decrease rapidly with distance from power lines.
+
+<div class="title">
+Final Answer
+</div>
+(a) The wavelength is $$6.00 \times 10^{6}$$ m or 6000 km. (b) The maximum magnetic field strength is $$4.33 \times 10^{-5}$$ T.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-During normal beating, the heart creates a maximum 4.00-mV potential across 0.300 m of a person’s chest, creating a 1.00-Hz electromagnetic wave. (a) What is the maximum electric field strength created? (b) What is the corresponding maximum magnetic field strength in the electromagnetic wave? (c) What is the wavelength of the electromagnetic wave?
+During normal beating, the heart creates a maximum 4.00-mV potential across 0.300 m of a person's chest, creating a 1.00-Hz electromagnetic wave. (a) What is the maximum electric field strength created? (b) What is the corresponding maximum magnetic field strength in the electromagnetic wave? (c) What is the wavelength of the electromagnetic wave?
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+For part (a), electric field strength is potential difference divided by distance: $$E=\frac{V}{d}$$. For part (b), we use $$B=\frac{E}{c}$$ to find the magnetic field strength. For part (c), we use $$\lambda =\frac{c}{f}$$ to find the wavelength.
+
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+- Potential: $$V=4.00 \text{ mV}=4.00 \times 10^{-3} \text{ V}$$
+- Distance: $$d=0.300 \text{ m}$$
+
+Calculate the electric field strength:
+
+<div class="equation">
+ $$E=\frac{V}{d}=\frac{4.00 \times 10^{-3} \text{ V}}{0.300 \text{ m}}=1.33 \times 10^{-2} \text{ V/m}=13.3 \text{ mV/m}$$
+</div>
+
+**(b)** Calculate the magnetic field strength:
+
+<div class="equation">
+ $$B=\frac{E}{c}=\frac{1.33 \times 10^{-2} \text{ V/m}}{3.00 \times 10^{8} \text{ m/s}}=4.44 \times 10^{-11} \text{ T}$$
+</div>
+
+**(c)** Given:
+- Frequency: $$f=1.00 \text{ Hz}$$
+
+Calculate the wavelength:
+
+<div class="equation">
+ $$\lambda =\frac{c}{f}=\frac{3.00 \times 10^{8} \text{ m/s}}{1.00 \text{ Hz}}=3.00 \times 10^{8} \text{ m}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This problem illustrates the bioelectric signals produced by the heart during its beating cycle—the electrical activity that electrocardiograms (ECGs or EKGs) measure. The electric field strength of 13.3 mV/m is very weak, which is why ECG electrodes must be placed directly on the skin for good electrical contact. The corresponding magnetic field of $$4.44 \times 10^{-11}$$ T is extraordinarily weak—about one-millionth of Earth's magnetic field—yet sensitive magnetometers called SQUID (Superconducting Quantum Interference Device) detectors can measure even these tiny magnetic fields in a technique called magnetocardiography (MCG).
+
+The wavelength of $$3.00 \times 10^{8}$$ m (300,000 km) is enormous—almost the distance from Earth to the Moon! This is because the frequency is so low (1 Hz, corresponding to a heart rate of 60 beats per minute). This extremely long wavelength means the "electromagnetic wave" is really just a quasi-static electric and magnetic field that changes slowly—the wave picture isn't very meaningful at such low frequencies and short distances. The fields are better understood as the near-field bioelectric and biomagnetic fields of the heart's electrical dipole, rather than as propagating electromagnetic waves.
+
+<div class="title">
+Final Answer
+</div>
+(a) The maximum electric field strength is $$1.33 \times 10^{-2}$$ V/m or 13.3 mV/m. (b) The maximum magnetic field strength is $$4.44 \times 10^{-11}$$ T. (c) The wavelength is $$3.00 \times 10^{8}$$ m.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength ( $$\lambda /4 $$ ) 
+(a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength ( $$\lambda /4 $$ )
 of the electromagnetic radiation being sent out. If a new radio station has such an antenna that is 50.0 m high, what frequency does it broadcast most efficiently? Is this in the AM or FM band? (b) Discuss the analogy of the fundamental resonant mode of an air column closed at one end to the resonance of currents on an antenna that is one-fourth their wavelength.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a) 1.50 × 10 <sup>6</sup> Hz, AM band 
-{: class="newline"}
+<div class="title">
+Strategy
+</div>
+For part (a), if the antenna height is $$\lambda /4$$, we can solve for the wavelength ($$\lambda =4h$$), then use $$f=\frac{c}{\lambda}$$ to find the frequency. We'll then compare this frequency to the AM band (540-1600 kHz) and FM band (88-108 MHz). For part (b), we'll discuss the physical analogy between antenna resonance and acoustic resonance.
 
-(b) The resonance of currents on an antenna that is 1/4 their wavelength is
-analogous to the fundamental resonant mode of an air column closed at one end,
-since the tube also has a length equal to 1/4 the wavelength of the fundamental
-oscillation.
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+- Antenna height: $$h=50.0 \text{ m}$$
+- For optimal efficiency: $$h=\frac{\lambda }{4}$$
+
+Solve for wavelength:
+
+<div class="equation">
+ $$\lambda =4h=4\left(50.0 \text{ m}\right)=200 \text{ m}$$
+</div>
+
+Calculate the frequency:
+
+<div class="equation">
+ $$f=\frac{c}{\lambda }=\frac{3.00 \times 10^{8} \text{ m/s}}{200 \text{ m}}=1.50 \times 10^{6} \text{ Hz}=1.50 \text{ MHz}$$
+</div>
+
+This frequency of 1.50 MHz falls within the **AM band** (540-1600 kHz or 0.54-1.6 MHz).
+
+**(b)** The analogy between a quarter-wave antenna and an air column closed at one end is quite direct. In an air column closed at one end, the fundamental resonance occurs when the column length equals one-fourth of the sound wavelength. At the closed end, there must be a pressure antinode (displacement node), and at the open end, there must be a pressure node (displacement antinode).
+
+Similarly, in a quarter-wave antenna with one end grounded, the ground acts like the "closed end" of the air column. The current must be maximum (antinode) at the grounded end and minimum (node) at the top. The voltage distribution is opposite: minimum at the ground and maximum at the top. This standing wave pattern of current and voltage along the antenna occurs when the antenna length is one-quarter wavelength, creating a resonance that allows efficient radiation of electromagnetic waves.
+
+In both cases—sound in an air column and electromagnetic waves on an antenna—the quarter-wavelength condition creates a resonant standing wave pattern that efficiently couples energy from the source to the surrounding medium (air for sound, free space for electromagnetic waves).
+
+<div class="title">
+Final Answer
+</div>
+(a) The antenna broadcasts most efficiently at 1.50 MHz, which is in the AM band. (b) Both a quarter-wave antenna and an air column closed at one end have length $$\lambda /4$$ for fundamental resonance, with an antinode at the closed/grounded end and a node at the open/free end, creating efficient energy transfer through resonant standing wave patterns.
 
 </div>
 </div>
@@ -1147,6 +1795,60 @@ oscillation.
  range centered on 100 MHz, what is the range of wavelengths broadcast?
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+For part (a), we use $$\lambda =\frac{c}{f}$$ to find the wavelength. For part (b), we need to find the wavelengths corresponding to the minimum and maximum frequencies in the swept range. The ±1.00 likely refers to ±1.00 MHz (a 1% frequency range is typical for MRI).
+
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+
+<div class="equation">
+ $$f=100 \text{ MHz}=1.00 \times 10^{8} \text{ Hz}$$
+</div>
+
+Calculate the wavelength:
+
+<div class="equation">
+ $$\lambda =\frac{c}{f}=\frac{3.00 \times 10^{8} \text{ m/s}}{1.00 \times 10^{8} \text{ Hz}}=3.00 \text{ m}$$
+</div>
+
+**(b)** The frequency range is 100 MHz ± 1.00 MHz, so:
+- Minimum frequency: $$f_{\text{min}}=99.0 \text{ MHz}=9.90 \times 10^{7} \text{ Hz}$$
+- Maximum frequency: $$f_{\text{max}}=101 \text{ MHz}=1.01 \times 10^{8} \text{ Hz}$$
+
+Wavelength at minimum frequency (longest wavelength):
+
+<div class="equation">
+ $$\lambda _{\text{max}}=\frac{c}{f_{\text{min}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{9.90 \times 10^{7} \text{ Hz}}=3.03 \text{ m}$$
+</div>
+
+Wavelength at maximum frequency (shortest wavelength):
+
+<div class="equation">
+ $$\lambda _{\text{min}}=\frac{c}{f_{\text{max}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{1.01 \times 10^{8} \text{ Hz}}=2.97 \text{ m}$$
+</div>
+
+Therefore, the wavelength range is **2.97 m to 3.03 m**.
+
+<div class="title">
+Discussion
+</div>
+MRI (Magnetic Resonance Imaging) uses radio frequency electromagnetic waves to excite nuclear spins in a strong magnetic field. The specific frequency depends on the magnetic field strength and the type of nucleus being imaged (typically hydrogen in water and fat). For a 1.5-tesla MRI scanner imaging hydrogen nuclei, the resonance frequency is about 64 MHz; for a 3-tesla scanner, it's about 128 MHz. This problem's 100 MHz corresponds to about a 2.35-tesla field.
+
+The wavelength of 3.00 m is comparable to the size of the human body and the MRI machine itself. This means the electromagnetic field doesn't propagate as a clean wave but rather fills the imaging volume quasi-statically. The frequency sweep of ±1.00 MHz allows the MRI to selectively excite spins in different locations (using magnetic field gradients) and to sample the chemical shift range—different molecular environments cause small shifts in resonance frequency, providing chemical information as well as anatomical imaging.
+
+The relatively narrow wavelength range (2.97-3.03 m, only a 2% variation) reflects the narrow frequency sweep (±1%), demonstrating that for radio frequencies, even a substantial frequency range translates to a small wavelength variation.
+
+<div class="title">
+Final Answer
+</div>
+(a) The wavelength of 100-MHz radio waves is 3.00 m. (b) The wavelength range for frequencies swept over ±1.00 MHz centered on 100 MHz is 2.97 m to 3.03 m.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1155,13 +1857,49 @@ oscillation.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a)  $$ 1.55 \times 10^{15}  \text{Hz} $$
-(b) The shortest wavelength of visible light is 380 nm, so that
-
-<div class="equation" >
- $$\begin{array}{}\frac{ {\lambda }_{\text{visible}}}{ {\lambda }_{\text{UV}}}\\ =\frac{380 \text{nm}}{193 \text{nm}}\\ = 1.97 \text{.}\end{array} $$
+<div class="title">
+Strategy
 </div>
-In other words, the UV radiation is 97% more accurate than the shortest wavelength of visible light, or almost twice as accurate!
+For part (a), we use $$f=\frac{c}{\lambda}$$ to find the frequency. For part (b), we compare the UV wavelength (193 nm) to the shortest visible wavelength (approximately 380 nm, violet light), calculating the ratio to determine the improvement in accuracy.
+
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+
+<div class="equation">
+ $$\lambda =193 \text{ nm}=193 \times 10^{-9} \text{ m}$$
+</div>
+
+Calculate the frequency:
+
+<div class="equation">
+ $$f=\frac{c}{\lambda }=\frac{3.00 \times 10^{8} \text{ m/s}}{193 \times 10^{-9} \text{ m}}=1.55 \times 10^{15} \text{ Hz}$$
+</div>
+
+**(b)** The shortest wavelength of visible light is approximately 380 nm (violet). Calculate the ratio:
+
+<div class="equation">
+ $$\frac{{\lambda }_{\text{visible}}}{{\lambda }_{\text{UV}}}=\frac{380 \text{ nm}}{193 \text{ nm}}=1.97$$
+</div>
+
+Since accuracy is directly proportional to wavelength (smaller wavelength = better accuracy), the UV radiation is 1.97 times more accurate, or approximately **97% more accurate** than the shortest visible wavelength.
+
+Alternatively, this can be expressed as the UV being **almost twice as accurate** as violet visible light.
+
+<div class="title">
+Discussion
+</div>
+The 193-nm wavelength used in laser eye surgery (LASIK and PRK procedures) is produced by an ArF (argon fluoride) excimer laser. This deep UV wavelength is particularly well-suited for corneal surgery for several reasons beyond just the accuracy improvement demonstrated here.
+
+First, the shorter wavelength allows for more precise material removal—the laser can ablate tissue in layers thinner than a micrometer, allowing surgeons to reshape the cornea with great precision to correct refractive errors. Second, this wavelength is strongly absorbed by the corneal tissue (primarily by breaking molecular bonds in proteins) and doesn't penetrate deeply, so the energy is deposited in a very thin layer at the surface. This minimizes thermal damage to surrounding tissue and prevents damage to deeper structures like the lens and retina.
+
+Third, the ablation is "cold"—it's photochemical rather than thermal, breaking chemical bonds directly rather than heating tissue. This produces clean, precise cuts with minimal collateral damage. The combination of short wavelength (high spatial precision), strong absorption (shallow penetration), and photochemical ablation (clean removal) makes 193-nm UV radiation ideal for reshaping the cornea to correct vision. millions of people worldwide have had their vision corrected using this technology.
+
+<div class="title">
+Final Answer
+</div>
+(a) The frequency of 193-nm UV radiation is $$1.55 \times 10^{15}$$ Hz. (b) The 193-nm UV radiation is 1.97 times (or 97%) more accurate than the shortest visible wavelength (380 nm), or almost twice as accurate.
 
 </div>
 </div>
@@ -1174,21 +1912,151 @@ TV-reception antennas for VHF are constructed with cross wires supported at thei
 {: #Figure14}
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+If the wire length is $$\lambda /2$$, we can find the wavelength by multiplying the length by 2: $$\lambda =2L$$. Then we use $$f=\frac{c}{\lambda}$$ to find the frequency for each channel.
+
+<div class="title">
+Solution
+</div>
+**For the first wire (L = 1.94 m):**
+
+<div class="equation">
+ $$\lambda =2L=2\left(1.94 \text{ m}\right)=3.88 \text{ m}$$
+</div>
+
+<div class="equation">
+ $$f=\frac{c}{\lambda }=\frac{3.00 \times 10^{8} \text{ m/s}}{3.88 \text{ m}}=7.73 \times 10^{7} \text{ Hz}=77.3 \text{ MHz}$$
+</div>
+
+**For the second wire (L = 0.753 m):**
+
+<div class="equation">
+ $$\lambda =2L=2\left(0.753 \text{ m}\right)=1.506 \text{ m}$$
+</div>
+
+<div class="equation">
+ $$f=\frac{c}{\lambda }=\frac{3.00 \times 10^{8} \text{ m/s}}{1.506 \text{ m}}=1.99 \times 10^{8} \text{ Hz}=199 \text{ MHz}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+These frequencies fall within the VHF (Very High Frequency) television band. The first frequency (77.3 MHz) is in the low VHF TV band (channels 2-6, 54-88 MHz), likely corresponding to channel 5 or 6. The second frequency (199 MHz) is in the high VHF TV band (channels 7-13, 174-216 MHz), likely corresponding to channel 11 or 12.
+
+The half-wavelength dipole antenna is resonant at the frequency where its length equals half the wavelength. At resonance, the antenna efficiently couples electromagnetic waves to the receiver—the standing wave pattern on the antenna has a voltage maximum at the ends and a current maximum at the center (where it connects to the transmission line). This is analogous to a string fixed at both ends vibrating at its fundamental frequency.
+
+Traditional outdoor TV antennas have multiple cross wires of different lengths to receive multiple channels. More expensive antennas have more elements, each tuned to a specific channel, providing better reception across the entire VHF band. Modern indoor antennas and those for digital TV (ATSC) use different designs, often including amplifiers, but the half-wavelength resonance principle remains fundamental to antenna design.
+
+<div class="title">
+Final Answer
+</div>
+The frequencies for the two channels are 77.3 MHz (for the 1.94 m wire) and 199 MHz (for the 0.753 m wire).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Conversations with astronauts on lunar walks had an echo that was used to estimate the distance to the Moon. The sound spoken by the person on Earth was transformed into a radio signal sent to the Moon, and transformed back into sound on a speaker inside the astronaut’s space suit. This sound was picked up by the microphone in the space suit (intended for the astronaut’s voice) and sent back to Earth as a radio echo of sorts. If the round-trip time was 2.60 s, what was the approximate distance to the Moon, neglecting any delays in the electronics?
+Conversations with astronauts on lunar walks had an echo that was used to estimate the distance to the Moon. The sound spoken by the person on Earth was transformed into a radio signal sent to the Moon, and transformed back into sound on a speaker inside the astronaut's space suit. This sound was picked up by the microphone in the space suit (intended for the astronaut's voice) and sent back to Earth as a radio echo of sorts. If the round-trip time was 2.60 s, what was the approximate distance to the Moon, neglecting any delays in the electronics?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 3.90 \times 10^{8}  \text{m} $$
+<div class="title">
+Strategy
+</div>
+Radio waves travel at the speed of light. The round-trip time includes the signal traveling from Earth to the Moon and back. Using $$d=ct$$ for the total distance traveled, we divide by 2 to get the one-way distance to the Moon.
+
+<div class="title">
+Solution
+</div>
+Given:
+- Round-trip time: $$t=2.60 \text{ s}$$
+- Speed of light: $$c=3.00 \times 10^{8} \text{ m/s}$$
+
+Total distance traveled (round trip):
+
+<div class="equation">
+ $$d_{\text{total}}=ct=\left(3.00 \times 10^{8} \text{ m/s}\right)\left(2.60 \text{ s}\right)=7.80 \times 10^{8} \text{ m}$$
+</div>
+
+One-way distance to the Moon:
+
+<div class="equation">
+ $$d=\frac{d_{\text{total}}}{2}=\frac{7.80 \times 10^{8} \text{ m}}{2}=3.90 \times 10^{8} \text{ m}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+The calculated distance of $$3.90 \times 10^{8}$$ m (390,000 km or about 242,000 miles) is close to the average Earth-Moon distance of about 384,400 km. The slight difference could be due to the Moon's elliptical orbit—its distance from Earth varies from about 356,000 km (perigee) to 407,000 km (apogee). During the Apollo missions, depending on the Moon's orbital position and the specific mission trajectory, the distance could vary.
+
+This 2.60-second delay made conversations between Mission Control and the astronauts somewhat awkward. Each person had to wait over 2.5 seconds for a response to their question—not long enough to be completely disruptive, but long enough to require some adjustment to normal conversation patterns. Mission Control would ask a question, wait 1.3 seconds for the signal to reach the Moon, wait for the astronaut to respond, then wait another 1.3 seconds for the response to return.
+
+This same principle is used for lunar laser ranging experiments, where laser pulses are bounced off retroreflectors placed on the Moon by Apollo astronauts. These experiments can measure the Earth-Moon distance with millimeter precision by timing the round-trip travel of laser pulses, and they've revealed that the Moon is gradually moving away from Earth at about 3.8 cm per year due to tidal effects.
+
+<div class="title">
+Final Answer
+</div>
+The approximate distance to the Moon was $$3.90 \times 10^{8}$$ m or 390,000 km.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Lunar astronauts placed a reflector on the Moon’s surface, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. (a) To what accuracy in meters can the distance to the Moon be determined, if this time can be measured to 0.100 ns? (b) What percent accuracy is this, given the average distance to the Moon is  $$ 3.84 \times 10^{8}  \text{m} $$ ?
+Lunar astronauts placed a reflector on the Moon's surface, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. (a) To what accuracy in meters can the distance to the Moon be determined, if this time can be measured to 0.100 ns? (b) What percent accuracy is this, given the average distance to the Moon is  $$ 3.84 \times 10^{8}  \text{m} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+The uncertainty in distance is related to the uncertainty in time measurement by $$\Delta d=c\Delta t$$. For round-trip measurements, the one-way distance uncertainty is half the total: $$\Delta d_{\text{one-way}}=\frac{c\Delta t}{2}$$. For part (b), we calculate the percent accuracy as $$\frac{\Delta d}{d}\times 100\%$$.
+
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+- Time measurement accuracy: $$\Delta t=0.100 \text{ ns}=0.100 \times 10^{-9} \text{ s}=1.00 \times 10^{-10} \text{ s}$$
+
+Total distance uncertainty (round trip):
+
+<div class="equation">
+ $$\Delta d_{\text{total}}=c\Delta t=\left(3.00 \times 10^{8} \text{ m/s}\right)\left(1.00 \times 10^{-10} \text{ s}\right)=3.00 \times 10^{-2} \text{ m}$$
+</div>
+
+One-way distance uncertainty:
+
+<div class="equation">
+ $$\Delta d=\frac{\Delta d_{\text{total}}}{2}=\frac{3.00 \times 10^{-2} \text{ m}}{2}=1.50 \times 10^{-2} \text{ m}=1.50 \text{ cm}$$
+</div>
+
+**(b)** Given average distance: $$d=3.84 \times 10^{8} \text{ m}$$
+
+Percent accuracy:
+
+<div class="equation">
+ $$\text{Percent accuracy}=\frac{\Delta d}{d}\times 100\%=\frac{1.50 \times 10^{-2} \text{ m}}{3.84 \times 10^{8} \text{ m}}\times 100\%=3.91 \times 10^{-9}\%$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+The ability to measure the Earth-Moon distance to within 1.5 cm (about half an inch) out of 384,000 km is remarkable—a precision of about 4 parts per billion! This is achieved through lunar laser ranging (LLR) experiments that use retroreflector arrays left on the Moon by Apollo 11, 14, and 15 astronauts, and by Soviet Lunokhod rovers.
+
+These measurements require extremely precise timing (measuring round-trip times of about 2.5 seconds to nanosecond precision) and sophisticated corrections for atmospheric effects, Earth's rotation, tectonic plate motion, and relativistic effects. The 0.100 ns timing precision mentioned in this problem corresponds to modern LLR capabilities.
+
+This extraordinary precision has enabled scientists to test general relativity, measure the Moon's orbit with unprecedented accuracy (revealing that the Moon recedes from Earth at about 3.8 cm/year due to tidal friction), study the Moon's internal structure from how its orientation wobbles, and even test whether fundamental constants like the gravitational constant might change over time (they don't, within measurement precision).
+
+The fact that we can measure such tiny distances (centimeters) over such vast scales (hundreds of thousands of kilometers) demonstrates both the power of electromagnetic waves as precision measurement tools and the incredible advances in timing technology.
+
+<div class="title">
+Final Answer
+</div>
+(a) The distance to the Moon can be determined to an accuracy of 1.50 cm or $$1.50 \times 10^{-2}$$ m. (b) This represents a percent accuracy of $$3.91 \times 10^{-9}\%$$ or about 4 parts per billion.
 
 </div>
 </div>
@@ -1199,9 +2067,53 @@ Radar is used to determine distances to various objects by measuring the round-t
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a)  $$ 1.50 \times 10^{11}  \text{m} $$
-(b)  $$ 0.500 \mu s $$
-(c) 66.7 ns
+<div class="title">
+Strategy
+</div>
+For radar ranging, the round-trip distance is $$d_{\text{total}}=ct$$, and the one-way distance is $$d=\frac{ct}{2}$$. For part (c), if we want distance accuracy $$\Delta d$$, the required time accuracy is $$\Delta t=\frac{2\Delta d}{c}$$ (factor of 2 for round trip).
+
+<div class="title">
+Solution
+</div>
+**(a)** Given round-trip time: $$t=1000 \text{ s}$$
+
+One-way distance to Venus:
+
+<div class="equation">
+ $$d=\frac{ct}{2}=\frac{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(1000 \text{ s}\right)}{2}=1.50 \times 10^{11} \text{ m}$$
+</div>
+
+**(b)** Given distance: $$d=75.0 \text{ m}$$
+
+Round-trip time:
+
+<div class="equation">
+ $$t=\frac{2d}{c}=\frac{2\left(75.0 \text{ m}\right)}{3.00 \times 10^{8} \text{ m/s}}=5.00 \times 10^{-7} \text{ s}=0.500 \mu\text{s}$$
+</div>
+
+**(c)** Given:
+- Distance: $$d=12.0 \text{ km}=1.20 \times 10^{4} \text{ m}$$
+- Required distance accuracy: $$\Delta d=10.0 \text{ m}$$
+
+Required time accuracy:
+
+<div class="equation">
+ $$\Delta t=\frac{2\Delta d}{c}=\frac{2\left(10.0 \text{ m}\right)}{3.00 \times 10^{8} \text{ m/s}}=6.67 \times 10^{-8} \text{ s}=66.7 \text{ ns}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+These three parts illustrate radar ranging across vastly different scales. Part (a) shows planetary radar—the distance to Venus ($$1.50 \times 10^{11}$$ m or about 150 million km) is approximately the distance from Earth to the Sun (1 AU). Venus is one of the closest planets, and a 1000-second (16.7-minute) round-trip time is typical when Venus is at its closest approach to Earth (about 40 million km) to when it's on the far side of the Sun (about 260 million km). Planetary radar was first achieved in 1961 and has been used to map Venus's surface through its thick clouds and to refine our measurements of planetary orbits and the astronomical unit.
+
+Part (b) demonstrates traffic radar. The 0.500 microsecond round-trip time for a car 75 m away is extremely short, requiring fast electronics to measure. Police radar guns typically operate at microwave frequencies (10-35 GHz) and measure both distance (from time delay) and speed (from Doppler shift in frequency). The speed measurement is actually more commonly used since it doesn't require measuring tiny time delays but instead measures the frequency shift of the returned signal.
+
+Part (c) shows that to locate an airplane 12 km away within 10 m requires timing precision of 66.7 nanoseconds. This is challenging but achievable with modern electronics. Air traffic control radar and military radar systems can achieve such precision. The 10 m accuracy translates to knowing the aircraft's position within about 33 feet, which is important for air traffic safety, especially near airports where precise positioning is critical for preventing collisions.
+
+<div class="title">
+Final Answer
+</div>
+(a) Venus is $$1.50 \times 10^{11}$$ m or 150 million km away. (b) The echo time for a car 75.0 m away is 0.500 μs. (c) The timing accuracy must be 66.7 ns to determine the airplane's distance within 10.0 m.
 
 </div>
 </div>
@@ -1216,6 +2128,60 @@ to 760 nm. (b) Compare this with the ratio of highest to lowest frequencies the
 ear can hear.
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+For part (a), we find the frequencies corresponding to the shortest (380 nm) and longest (760 nm) visible wavelengths using $$f=\frac{c}{\lambda}$$, then calculate their ratio. For part (b), we use the typical human hearing range of 20 Hz to 20,000 Hz and calculate the ratio for comparison.
+
+<div class="title">
+Solution
+</div>
+**(a)** For visible light:
+
+Highest frequency (shortest wavelength, 380 nm):
+
+<div class="equation">
+ $$f_{\text{max}}=\frac{c}{\lambda _{\text{min}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{380 \times 10^{-9} \text{ m}}=7.89 \times 10^{14} \text{ Hz}$$
+</div>
+
+Lowest frequency (longest wavelength, 760 nm):
+
+<div class="equation">
+ $$f_{\text{min}}=\frac{c}{\lambda _{\text{max}}}=\frac{3.00 \times 10^{8} \text{ m/s}}{760 \times 10^{-9} \text{ m}}=3.95 \times 10^{14} \text{ Hz}$$
+</div>
+
+Ratio:
+
+<div class="equation">
+ $$\frac{f_{\text{max}}}{f_{\text{min}}}=\frac{7.89 \times 10^{14} \text{ Hz}}{3.95 \times 10^{14} \text{ Hz}}=2.00$$
+</div>
+
+**(b)** For human hearing (typical range 20 Hz to 20,000 Hz):
+
+<div class="equation">
+ $$\frac{f_{\text{max}}}{f_{\text{min}}}=\frac{20{,}000 \text{ Hz}}{20 \text{ Hz}}=1000$$
+</div>
+
+The ear's frequency range ratio (1000:1) is **500 times larger** than the eye's frequency range ratio (2:1).
+
+<div class="title">
+Discussion
+</div>
+This comparison reveals a remarkable difference in the sensory ranges of vision and hearing. The eye can detect electromagnetic waves spanning only one octave (a factor of 2 in frequency)—from about 395 THz (red) to 789 THz (violet). In musical terms, this is like being able to hear only from middle C to the C one octave above it.
+
+In contrast, the ear can detect sound waves spanning almost 10 octaves (a factor of 1000 in frequency)—from 20 Hz (very low bass) to 20,000 Hz (high treble). This is roughly equivalent to the range from the lowest note on a pipe organ to well beyond the highest note on a piccolo. Some people, especially children, can hear even higher frequencies, up to 23,000 Hz.
+
+Why the difference? The eye's limited range is partly because the photochemical processes in retinal photoreceptors only respond to a narrow energy range of photons. Photons with too little energy (infrared) don't trigger the molecular changes needed for vision, while photons with too much energy (ultraviolet) are absorbed by the cornea and lens before reaching the retina, protecting it from damage. The ear's wide range reflects the mechanical properties of the basilar membrane in the cochlea, which can respond to a very wide range of vibration frequencies through different regions along its length.
+
+Interestingly, both senses use logarithmic perception—we perceive equal ratios of frequency as equal intervals, which is why octaves (2:1 ratios) sound similar in music, and why colors smoothly transition across the visible spectrum even though the frequency is doubling.
+
+<div class="title">
+Final Answer
+</div>
+(a) The ratio of highest to lowest frequencies visible to the eye is 2.00 (one octave). (b) The ratio for hearing is 1000 (almost 10 octaves), which is 500 times larger than for vision.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1224,7 +2190,7 @@ ear can hear.
 
 (a) Calculate the rate in watts at which heat transfer through radiation
 occurs (almost entirely in the infrared) from $$ 1.0 {\text{m}}^{2} $$ of the
-Earth’s surface at night. Assume the emissivity is 0.90, the temperature of the
+Earth's surface at night. Assume the emissivity is 0.90, the temperature of the
 Earth is $$15 \text{ºC} $$ , and that of outer space is 2.7 K. (b) Compare the
 intensity of this radiation with that coming to the Earth from the Sun during
 the day, which averages about $$800 {\text{W/m}}^{2} $$ , only half of which is
@@ -1233,10 +2199,90 @@ radiation, assuming it is a continuous wave?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a)  $$ -3.5 \times 10^{2}  {\text{W/m}}^{2} $$
-(b) 88%
+<div class="title">
+Strategy
+</div>
+For part (a), we use the Stefan-Boltzmann law for net radiative heat transfer: $$P_{\text{net}}=\sigma \epsilon A\left(T_{1}^{4}-T_{2}^{4}\right)$$, where $$\sigma =5.67 \times 10^{-8} \text{ W/(m}^{2}\cdot \text{K}^{4}\text{)}$$ is the Stefan-Boltzmann constant. For part (b), we compare this intensity to the incoming solar radiation. For part (c), we use the relationship between intensity and field strengths: $$I=\frac{E_{\text{max}}^{2}}{2\mu _{0}c}$$ and $$B_{\text{max}}=\frac{E_{\text{max}}}{c}$$.
 
-(c) $$ 1.7 \mu T $$
+<div class="title">
+Solution
+</div>
+**(a)** Given:
+- Area: $$A=1.0 \text{ m}^{2}$$
+- Emissivity: $$\epsilon =0.90$$
+- Earth temperature: $$T_{1}=15°\text{C}=288 \text{ K}$$
+- Space temperature: $$T_{2}=2.7 \text{ K}$$
+- Stefan-Boltzmann constant: $$\sigma =5.67 \times 10^{-8} \text{ W/(m}^{2}\cdot \text{K}^{4}\text{)}$$
+
+Net power radiated:
+
+<div class="equation">
+ $$P_{\text{net}}=\sigma \epsilon A\left(T_{1}^{4}-T_{2}^{4}\right)$$
+</div>
+
+<div class="equation">
+ $$P_{\text{net}}=\left(5.67 \times 10^{-8}\right)\left(0.90\right)\left(1.0\right)\left[(288)^{4}-(2.7)^{4}\right]$$
+</div>
+
+<div class="equation">
+ $$P_{\text{net}}=\left(5.67 \times 10^{-8}\right)\left(0.90\right)\left(6.87 \times 10^{9}-53\right) \approx \left(5.67 \times 10^{-8}\right)\left(0.90\right)\left(6.87 \times 10^{9}\right)$$
+</div>
+
+<div class="equation">
+ $$P_{\text{net}}=3.5 \times 10^{2} \text{ W}$$
+</div>
+
+Since this is power per unit area: $$I=3.5 \times 10^{2} \text{ W/m}^{2}$$
+
+(The negative sign in the original answer indicates heat loss from Earth.)
+
+**(b)** Incoming solar intensity (absorbed): $$I_{\text{sun}}=\frac{800}{2}=400 \text{ W/m}^{2}$$
+
+Ratio:
+
+<div class="equation">
+ $$\frac{I_{\text{Earth}}}{I_{\text{sun}}}=\frac{350}{400}=0.875 \approx 88\%$$
+</div>
+
+The Earth's outgoing infrared radiation at night is about **88%** of the absorbed solar radiation during the day.
+
+**(c)** For the outgoing radiation with $$I=350 \text{ W/m}^{2}$$:
+
+The relationship between intensity and electric field is:
+
+<div class="equation">
+ $$I=\frac{E_{\text{max}}^{2}}{2\mu _{0}c}$$
+</div>
+
+Solving for $$E_{\text{max}}$$:
+
+<div class="equation">
+ $$E_{\text{max}}=\sqrt{2\mu _{0}cI}=\sqrt{2\left(4\pi \times 10^{-7}\right)\left(3.00 \times 10^{8}\right)\left(350\right)}$$
+</div>
+
+<div class="equation">
+ $$E_{\text{max}}=\sqrt{2.64 \times 10^{5}}=514 \text{ V/m}$$
+</div>
+
+Maximum magnetic field:
+
+<div class="equation">
+ $$B_{\text{max}}=\frac{E_{\text{max}}}{c}=\frac{514}{3.00 \times 10^{8}}=1.7 \times 10^{-6} \text{ T}=1.7 \text{ }\mu\text{T}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This problem illustrates Earth's energy balance. During the night, Earth radiates heat as infrared radiation at a rate of about 350 W/m². During the day, Earth absorbs about 400 W/m² from the Sun (half of the 800 W/m² incident, since about half is reflected by clouds, atmosphere, and surface). The fact that these values are similar (within about 12%) demonstrates approximate radiative equilibrium—over time, Earth must radiate away as much energy as it absorbs, or its temperature would steadily rise or fall.
+
+The small difference suggests either that we're not in perfect equilibrium (which is true—Earth is currently warming due to greenhouse gas increases) or that the numbers are idealized. In reality, Earth's energy balance involves many factors including latitude, season, cloud cover, and greenhouse gases that trap outgoing infrared radiation.
+
+The magnetic field strength of 1.7 μT in the thermal radiation is very weak—about 3% of Earth's magnetic field. This is characteristic of thermal radiation: it's incoherent (many different frequencies and random phases) rather than a single coherent wave, so describing it with a single "maximum field strength" is somewhat artificial. Real thermal radiation is better described statistically. The 2.7 K temperature of space refers to the cosmic microwave background radiation, the remnant thermal radiation from the Big Bang.
+
+<div class="title">
+Final Answer
+</div>
+(a) The rate of heat transfer through radiation is $$3.5 \times 10^{2}$$ W/m² or 350 W/m². (b) This is 88% of the absorbed solar radiation. (c) The maximum magnetic field strength is $$1.7 \text{ }\mu\text{T}$$.
 
 </div>
 </div>
