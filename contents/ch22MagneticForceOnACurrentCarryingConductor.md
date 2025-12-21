@@ -160,17 +160,30 @@ What is the direction of the magnetic force on the current in each of the six ca
 
 </div>
 <div class="solution" markdown="1">
-(a) west (left)
 
-(b) into page
+**Strategy**
 
-(c) north (up)
+The force on a current-carrying wire in a magnetic field follows the same right-hand rule as for moving charges. Point your thumb in the direction of conventional current $$\vb{I}$$, fingers in the direction of $$\vb{B}$$, and your palm pushes in the direction of the force $$\vb{F}$$. This is RHR-1 applied to current instead of velocity.
 
-(d) no force
+**Solution**
 
-(e) east (right)
+**(a)** Current $$\vb{I}$$ points down, $$\vb{B}$$ points out of page. Using RHR-1: thumb down, fingers out → palm pushes **west (left)**.
 
-(f) south (down)
+**(b)** Current $$\vb{I}$$ points up, $$\vb{B}$$ points right. Using RHR-1: thumb up, fingers right → palm pushes **into the page**.
+
+**(c)** Current $$\vb{I}$$ points right, $$\vb{B}$$ points into page. Using RHR-1: thumb right, fingers into page → palm pushes **north (up)**.
+
+**(d)** Current $$\vb{I}$$ points left, $$\vb{B}$$ points right. The current is antiparallel to the field, so $$\theta = 180°$$ and $$\sin\theta = 0$$. Therefore, there is **no force**.
+
+**(e)** Current $$\vb{I}$$ points into page, $$\vb{B}$$ points up. Using RHR-1: thumb into page, fingers up → palm pushes **east (right)**.
+
+**(f)** Current $$\vb{I}$$ points out of page, $$\vb{B}$$ points left. Using RHR-1: thumb out of page, fingers left → palm pushes **south (down)**.
+
+**Discussion**
+
+These are the same results as for positive charges moving in the same directions—this makes sense because conventional current is defined as the direction of positive charge flow. The case (d) shows why power transmission lines oriented parallel to Earth's magnetic field experience no magnetic force.
+
+**(a) West (left); (b) Into page; (c) North (up); (d) No force; (e) East (right); (f) South (down).**
 
 </div>
 </div>
@@ -181,6 +194,27 @@ What is the direction of a current that experiences the magnetic force shown in 
 
 ![Figure a shows magnetic field B out of the page and force F upward. Figure b shows B toward the right and F upward. Figure c shows B into the page and F toward the left.](../resources/Figure_22_07_06.jpg ' ')
 {: #Figure6}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We work backwards using RHR-1. Given $$\vb{F}$$ and $$\vb{B}$$, we find $$\vb{I}$$. With fingers pointing along $$\vb{B}$$ and palm facing the direction of $$\vb{F}$$, the thumb points in the direction of current.
+
+**Solution**
+
+**(a)** Force $$\vb{F}$$ points up, $$\vb{B}$$ points out of page. Using RHR-1 in reverse: fingers out of page, palm facing up → thumb points **east (right)**.
+
+**(b)** Force $$\vb{F}$$ points up, $$\vb{B}$$ points right. Using RHR-1 in reverse: fingers right, palm facing up → thumb points **out of the page**.
+
+**(c)** Force $$\vb{F}$$ points left, $$\vb{B}$$ points into page. Using RHR-1 in reverse: fingers into page, palm facing left → thumb points **south (down)**.
+
+**Discussion**
+
+This inverse problem-solving technique is useful for designing electromagnetic devices. For instance, in an electric motor, you know the field direction and desired force direction, so you need to determine how to orient the current-carrying windings.
+
+**(a) East (right); (b) Out of the page; (c) South (down).**
 
 </div>
 </div>
@@ -195,19 +229,66 @@ What is the direction of the magnetic field that produces the magnetic force sho
 
 </div>
 <div class="solution" markdown="1">
-(a) into page
 
-(b) west (left)
+**Strategy**
 
-(c) out of page
+We work backwards using RHR-1. Given $$\vb{F}$$ and $$\vb{I}$$, we find $$\vb{B}$$ such that the cross product $$\vb{I} \times \vb{B}$$ gives the observed force direction.
+
+**Solution**
+
+**(a)** Current $$\vb{I}$$ points up, force $$\vb{F}$$ points left. Using RHR-1: thumb up ($$\vb{I}$$), palm facing left ($$\vb{F}$$) → fingers point **into the page**.
+
+**(b)** Current $$\vb{I}$$ points down, force $$\vb{F}$$ points into page. Using RHR-1: thumb down, palm into page → fingers point **west (left)**.
+
+**(c)** Current $$\vb{I}$$ points left, force $$\vb{F}$$ points up. Using RHR-1: thumb left, palm up → fingers point **out of the page**.
+
+**Discussion**
+
+Finding the magnetic field direction from known force and current is important for magnetic field mapping. By measuring forces on calibrated current-carrying wires, we can determine both the magnitude and direction of unknown magnetic fields.
+
+**(a) Into the page; (b) West (left); (c) Out of the page.**
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the force per meter on a lightning bolt at the equator that carries 20 000 A perpendicular to the Earth’s  $$ 3.00 \times 10^{-5} \text{-T} $$
- field? (b) What is the direction of the force if the current is straight up and the Earth’s field direction is due north, parallel to the ground?
+(a) What is the force per meter on a lightning bolt at the equator that carries 20 000 A perpendicular to the Earth's  $$ 3.00 \times 10^{-5} \text{-T} $$
+ field? (b) What is the direction of the force if the current is straight up and the Earth's field direction is due north, parallel to the ground?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The force per unit length on a current-carrying wire is $$F/L = BIL\sin\theta / L = BI\sin\theta$$. For perpendicular orientation, $$\sin\theta = 1$$. For direction, we use RHR-1 with the current up and field north.
+
+**Solution**
+
+*Known quantities:*
+- Current: $$I = 20{,}000 \text{ A}$$
+- Magnetic field: $$B = 3.00 \times 10^{-5} \text{ T}$$
+- Angle: $$\theta = 90°$$ (perpendicular)
+
+**(a) Force per meter:**
+
+$$\frac{F}{L} = BI\sin\theta = BI$$
+
+$$\frac{F}{L} = (3.00 \times 10^{-5} \text{ T})(20{,}000 \text{ A})$$
+
+$$\frac{F}{L} = 0.600 \text{ N/m}$$
+
+**(b) Direction:**
+
+Using RHR-1: current straight up (thumb up), field due north (fingers north) → palm pushes **west**.
+
+**Discussion**
+
+The force of 0.6 N/m seems modest for such an enormous current (20,000 A), but this is because Earth's magnetic field is weak. Over a 1 km lightning bolt, this would be 600 N—significant but still small compared to the enormous electromagnetic forces within the lightning channel itself. The westward deflection is typically negligible compared to the irregular path lightning takes through the atmosphere.
+
+**(a) The force per meter is 0.600 N/m.**
+
+**(b) The force direction is west (toward the left when facing north).**
 
 </div>
 </div>
@@ -220,11 +301,45 @@ What is the direction of the magnetic field that produces the magnetic force sho
 
 </div>
 <div class="solution" markdown="1">
-(a) 2.50 N
 
-(b) This is about half a pound of force per 100 m of wire, which is much less
-than the weight of the wire itself. Therefore, it does not cause any special
-concerns.
+**Strategy**
+
+The force on a current-carrying conductor is $$F = BIL\sin\theta$$. Here we need to account for the angle between the current direction and the magnetic field. The wire length $$L = 100$$ m is the section in the field.
+
+**Solution**
+
+*Known quantities:*
+- Current: $$I = 1000 \text{ A}$$
+- Magnetic field: $$B = 5.00 \times 10^{-5} \text{ T}$$
+- Wire length: $$L = 100 \text{ m}$$
+- Angle: $$\theta = 30.0°$$
+
+**(a) Force on the wire:**
+
+$$F = BIL\sin\theta$$
+
+$$F = (5.00 \times 10^{-5} \text{ T})(1000 \text{ A})(100 \text{ m})(\sin 30.0°)$$
+
+$$F = (5.00 \times 10^{-5})(1000)(100)(0.500) \text{ N}$$
+
+$$F = 2.50 \text{ N}$$
+
+**(b) Practical concerns:**
+
+This force of 2.50 N (about 0.56 pounds) on 100 m of wire is very small compared to:
+- The weight of the wire itself (several hundred newtons for typical power cables)
+- The tension in the wire from stringing between poles (thousands of newtons)
+- Wind loads on the wire (can be tens of newtons per meter)
+
+Therefore, the magnetic force from Earth's field is negligible and does not require special engineering consideration. Power line engineers worry far more about ice loading, wind, and thermal expansion than magnetic forces.
+
+**Discussion**
+
+If the wire were oriented perpendicular to the field ($$\theta = 90°$$), the force would double to 5.0 N, still negligible. The force would only become significant with much stronger fields (like near a large industrial electromagnet) or with very high currents.
+
+**(a) The force on the 100-m section is 2.50 N.**
+
+**(b) This force is negligible compared to the wire's weight and other structural loads. No special concerns arise from this magnetic force.**
 
 </div>
 </div>
@@ -232,6 +347,38 @@ concerns.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What force is exerted on the water in an MHD drive utilizing a 25.0-cm-diameter tube, if 100-A current is passed across the tube that is perpendicular to a 2.00-T magnetic field? (The relatively small size of this force indicates the need for very large currents and magnetic fields to make practical MHD drives.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+In a magnetohydrodynamic (MHD) drive, current flows across a conducting fluid (like seawater) in a magnetic field, producing a force on the fluid that propels it. The force is $$F = BIL$$, where $$L$$ is the length of the current path—here, the tube diameter.
+
+**Solution**
+
+*Known quantities:*
+- Current: $$I = 100 \text{ A}$$
+- Magnetic field: $$B = 2.00 \text{ T}$$
+- Tube diameter (current path length): $$L = 25.0 \text{ cm} = 0.250 \text{ m}$$
+- Angle: $$\theta = 90°$$ (perpendicular)
+
+$$F = BIL\sin\theta = BIL$$
+
+$$F = (2.00 \text{ T})(100 \text{ A})(0.250 \text{ m})$$
+
+$$F = 50.0 \text{ N}$$
+
+**Discussion**
+
+This 50 N force is only about 11 pounds—not nearly enough to effectively propel a marine vessel. For comparison, a small outboard motor produces thousands of newtons of thrust. The problem notes that this demonstrates why practical MHD drives require:
+- Very large currents (thousands of amperes)
+- Very strong magnetic fields (often superconducting magnets)
+- Large cross-sections for the current path
+
+The Japanese experimental ship *Yamato 1* (1992) used a 4 T superconducting magnet and achieved only about 8 knots. MHD drives are quiet (no propeller noise) but currently remain impractical for most applications due to their low efficiency and the engineering challenges of high-current, high-field systems in seawater.
+
+**The force on the water is 50.0 N, which is relatively small for propulsion purposes.**
 
 </div>
 </div>
@@ -242,7 +389,32 @@ A wire carrying a 30.0-A current passes between the poles of a strong magnet tha
 
 </div>
 <div class="solution" markdown="1">
-1.80 T
+
+**Strategy**
+
+We use $$F = BIL\sin\theta$$ and solve for the magnetic field $$B$$. Since the wire is perpendicular to the field, $$\sin\theta = 1$$.
+
+**Solution**
+
+*Known quantities:*
+- Current: $$I = 30.0 \text{ A}$$
+- Force: $$F = 2.16 \text{ N}$$
+- Wire length in field: $$L = 4.00 \text{ cm} = 0.0400 \text{ m}$$
+- Angle: $$\theta = 90°$$
+
+From $$F = BIL$$, solving for $$B$$:
+
+$$B = \frac{F}{IL}$$
+
+$$B = \frac{2.16 \text{ N}}{(30.0 \text{ A})(0.0400 \text{ m})}$$
+
+$$B = \frac{2.16}{1.20} \text{ T} = 1.80 \text{ T}$$
+
+**Discussion**
+
+A field strength of 1.80 T is quite strong—achievable with high-quality permanent magnets (like neodymium-iron-boron) or with electromagnets. This type of measurement, using a known current and measuring the force on a known length of wire, is actually one way to measure magnetic field strength. The technique is called a current balance.
+
+**The average magnetic field strength is 1.80 T.**
 
 </div>
 </div>
@@ -250,9 +422,58 @@ A wire carrying a 30.0-A current passes between the poles of a strong magnet tha
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) A 0.750-m-long section of cable carrying current to a car starter motor makes an angle of  $$60 ^\circ $$
- with the Earth’s  $$ 5.50 \times 10^{-5}  \text{T} $$
+ with the Earth's  $$ 5.50 \times 10^{-5}  \text{T} $$
  field. What is the current when the wire experiences a force of  $$ 7.00 \times 10^{-3}  \text{N} $$ ?
  (b) If you run the wire between the poles of a strong horseshoe magnet, subjecting 5.00 cm of it to a 1.75-T field, what force is exerted on this segment of wire?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Part (a) asks us to find current given force, field, length, and angle using $$F = BIL\sin\theta$$. Part (b) uses the current found in (a) with a different field and length to find force.
+
+**Solution**
+
+**(a) Finding the current:**
+
+*Known quantities:*
+- Wire length: $$L = 0.750 \text{ m}$$
+- Magnetic field: $$B = 5.50 \times 10^{-5} \text{ T}$$
+- Force: $$F = 7.00 \times 10^{-3} \text{ N}$$
+- Angle: $$\theta = 60°$$
+
+From $$F = BIL\sin\theta$$, solving for $$I$$:
+
+$$I = \frac{F}{BL\sin\theta}$$
+
+$$I = \frac{7.00 \times 10^{-3} \text{ N}}{(5.50 \times 10^{-5} \text{ T})(0.750 \text{ m})(\sin 60°)}$$
+
+$$I = \frac{7.00 \times 10^{-3}}{(5.50 \times 10^{-5})(0.750)(0.866)}$$
+
+$$I = \frac{7.00 \times 10^{-3}}{3.57 \times 10^{-5}}$$
+
+$$I = 196 \text{ A}$$
+
+**(b) Force in the horseshoe magnet:**
+
+*Known quantities:*
+- Current: $$I = 196 \text{ A}$$ (from part a)
+- Length in field: $$L = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+- Magnetic field: $$B = 1.75 \text{ T}$$
+- Angle: $$\theta = 90°$$ (assumed perpendicular)
+
+$$F = BIL = (1.75 \text{ T})(196 \text{ A})(0.0500 \text{ m})$$
+
+$$F = 17.2 \text{ N}$$
+
+**Discussion**
+
+The 196 A current is very high—typical of starter motor currents, which must deliver large power briefly. The force in Earth's field is tiny (7 mN), but in the strong horseshoe magnet (1.75 T), the force on just 5 cm of wire is 17.2 N—enough to feel distinctly. This illustrates how the same current can experience vastly different forces depending on the magnetic environment.
+
+**(a) The current is 196 A.**
+
+**(b) The force on the 5.00-cm segment in the 1.75-T field is 17.2 N.**
 
 </div>
 </div>
@@ -264,8 +485,46 @@ A wire carrying a 30.0-A current passes between the poles of a strong magnet tha
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$30 ^\circ $$
-(b) 4.80 N
+
+**Strategy**
+
+Part (a) uses $$F = BIL\sin\theta$$ solved for $$\sin\theta$$ to find the angle. Part (b) calculates the maximum force when perpendicular.
+
+**Solution**
+
+*Known quantities:*
+- Current: $$I = 8.00 \text{ A}$$
+- Magnetic field: $$B = 1.20 \text{ T}$$
+- Wire length: $$L = 50.0 \text{ cm} = 0.500 \text{ m}$$
+- Force: $$F = 2.40 \text{ N}$$
+
+**(a) Finding the angle:**
+
+From $$F = BIL\sin\theta$$:
+
+$$\sin\theta = \frac{F}{BIL}$$
+
+$$\sin\theta = \frac{2.40 \text{ N}}{(1.20 \text{ T})(8.00 \text{ A})(0.500 \text{ m})}$$
+
+$$\sin\theta = \frac{2.40}{4.80} = 0.500$$
+
+$$\theta = \arcsin(0.500) = 30°$$
+
+**(b) Force at 90°:**
+
+$$F_{\max} = BIL\sin(90°) = BIL$$
+
+$$F_{\max} = (1.20 \text{ T})(8.00 \text{ A})(0.500 \text{ m})$$
+
+$$F_{\max} = 4.80 \text{ N}$$
+
+**Discussion**
+
+The force doubles when the wire is rotated from 30° to 90°. This is because $$\sin(90°) = 1.00$$ is twice $$\sin(30°) = 0.50$$. The angular dependence of magnetic force is important in motor design—maximum torque occurs when the coil plane is parallel to the field (so current is perpendicular to field).
+
+**(a) The angle between the wire and the magnetic field is $$30°$$.**
+
+**(b) The force on the wire at 90° is 4.80 N.**
 
 </div>
 </div>
@@ -276,6 +535,48 @@ The force on the rectangular loop of wire in the magnetic field in [[Figure 8]](
 
 ![Diagram showing a rectangular loop of wire, one end of which is within a magnetic field that is present within a circular area. The field B is oriented out of the page. The current I runs in the plane of the page, down the left side of the circuit, toward the right at the bottom of the circuit, and upward on the right side of the circuit. The length of the segment of wire that runs left to right at the bottom of the circuit is twenty centimeters long.](../resources/Figure_22_07_08.jpg 'A rectangular loop of wire carrying a current is perpendicular to a magnetic field. The field is uniform in the region shown and is zero outside that region.')
 {: #Figure8}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We analyze the forces on each segment of the loop separately using RHR-1. The net force comes only from the bottom segment in the field. The force per tesla is $$F/B = IL$$.
+
+**Solution**
+
+**(a) Direction and force analysis:**
+
+Looking at the figure:
+- **Bottom segment:** Current flows right, $$\vb{B}$$ is out of page. Using RHR-1: thumb right, fingers out → force is **upward** (into the field region).
+
+- **Left side segment:** Current flows down. Where this segment is in the field, $$\vb{B}$$ is out of page. Force is to the **left**.
+
+- **Right side segment:** Current flows up. Where this segment is in the field, $$\vb{B}$$ is out of page. Force is to the **right**.
+
+The left and right side forces are **equal and opposite** because:
+1. Both segments carry the same current $$I$$
+2. They experience the same field $$B$$ (uniform field)
+3. The portions inside the field have equal lengths (whatever fraction is inside)
+4. The currents flow in opposite directions (down vs. up)
+
+Therefore, these horizontal forces cancel regardless of how much of the loop is in the field. The only unbalanced force is from the bottom segment—the **net force is upward** (into the field region).
+
+**(b) Force per tesla:**
+
+For the bottom segment (width $$L = 20.0$$ cm = 0.200 m):
+
+$$\frac{F}{B} = IL$$
+
+$$\frac{F}{B} = (5.00 \text{ A})(0.200 \text{ m}) = 1.00 \text{ N/T}$$
+
+**Discussion**
+
+This configuration is the basis of a current balance, used historically to define the ampere. By measuring the force and knowing the current and dimensions, the field strength can be determined. Alternatively, with a known field, the current can be measured. The key insight is that only the segment perpendicular to its own direction and in the field contributes to the net force.
+
+**(a) The net force on the loop is directed upward (into the field region). The forces on the left and right sides are equal and opposite because they carry equal currents in opposite directions through equal lengths of the same uniform field, so they cancel and do not contribute to the net force.**
+
+**(b) The force per tesla on the loop is 1.00 N/T.**
 
 </div>
 </div>
