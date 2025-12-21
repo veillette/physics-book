@@ -278,10 +278,28 @@ The Crab Nebula (see [Figure 4](#Figure4)) pulsar is the remnant of a supernova 
 {: #Figure4}
 
 </div>
-<div class="solution">
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Table 1, we can find the power outputs of a supernova at peak and the Crab Nebula pulsar today. The factor of decline is the ratio of current power to initial power.
+
+**Solution**
+
+From Table 1:
+- Supernova (at peak): $$ P_{\text{initial}} = 5 \times 10^{37}\text{ W} $$
+- Crab Nebula pulsar: $$ P_{\text{current}} = 10^{28}\text{ W} $$
+
+The factor by which power has declined:
+
 <div class="equation">
- $$ 2\times 10^{-10} $$
+$$ \text{Factor} = \frac{P_{\text{current}}}{P_{\text{initial}}} = \frac{10^{28}\text{ W}}{5 \times 10^{37}\text{ W}} = 2 \times 10^{-10} $$
 </div>
+
+**Discussion**
+
+The Crab Nebula pulsar now emits only about $$ 2 \times 10^{-10} $$ (or 0.00000002%) of its original supernova power. Despite this dramatic decline over ~1000 years, the pulsar still outputs $$ 10^{28} $$ W, which is about 25 times the Sun's current power output. This demonstrates both the incredible initial energy of supernovas and the gradual energy loss as pulsars spin down over time.
+
 </div>
 </div>
 
@@ -338,9 +356,29 @@ A person in good physical condition can put out 100 W of useful power for severa
 
 </div>
 <div class="solution" markdown="1">
-(a) 40
 
-(b) 8 million
+**Strategy**
+
+Divide the required power by the power output per person to find the number of people needed.
+
+**Solution**
+
+**(a)** For the 4.00-kW clothes dryer:
+
+<div class="equation">
+$$ N = \frac{4.00\text{ kW}}{0.100\text{ kW/person}} = \frac{4000\text{ W}}{100\text{ W/person}} = 40\text{ people} $$
+</div>
+
+**(b)** For the 800-MW power plant:
+
+<div class="equation">
+$$ N = \frac{800\text{ MW}}{100\text{ W/person}} = \frac{8 \times 10^{8}\text{ W}}{100\text{ W/person}} = 8 \times 10^{6}\text{ people} = 8\text{ million people} $$
+</div>
+
+**Discussion**
+
+(a) It would take 40 people pedaling continuously to run a clothes dryer.
+(b) It would take 8 million people to replace a large power plant. This illustrates why human power is impractical for meeting modern energy demands—the entire population of a major city would be needed just to replace one power plant.
 
 </div>
 </div>
@@ -387,7 +425,31 @@ if the cost of electricity is $$ 0.110 \$ \text{per kW}
 
 </div>
 <div class="solution" markdown="1">
-$$ \$149 $$
+
+**Strategy**
+
+Calculate the energy consumed using $$ E = Pt $$, then multiply by the cost per kW·h.
+
+**Solution**
+
+Total operating time:
+<div class="equation">
+$$ t = (3.00\text{ h/day})(30.0\text{ days}) = 90.0\text{ h} $$
+</div>
+
+Energy consumed:
+<div class="equation">
+$$ E = Pt = (15.0\text{ kW})(90.0\text{ h}) = 1350\text{ kW}\cdot\text{h} $$
+</div>
+
+Cost:
+<div class="equation">
+$$ \text{Cost} = (1350\text{ kW}\cdot\text{h})(\$0.110\text{ per kW}\cdot\text{h}) = \$149 $$
+</div>
+
+**Discussion**
+
+Running a large air conditioner for just 3 hours per day for one month costs about $149. This explains why electricity bills spike during summer months when air conditioning is heavily used.
 
 </div>
 </div>
@@ -444,9 +506,35 @@ body can be omitted because it is not considered useful output here.)
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 208 \text{W} $$
 
-(b) 141 s
+**Strategy**
+
+For part (a), use $$ P = W/t $$ to find power. For part (b), calculate the work needed to lift the bricks and use $$ t = W/P $$.
+
+**Solution**
+
+**(a)** Calculate the average power output:
+
+<div class="equation">
+$$ P = \frac{W}{t} = \frac{6.00 \times 10^{6}\J}{8.00\text{ h}} = \frac{6.00 \times 10^{6}\J}{8.00 \times 3600\s} = \frac{6.00 \times 10^{6}\J}{28800\s} = 208\text{ W} $$
+</div>
+
+**(b)** Calculate the work to lift the bricks:
+
+<div class="equation">
+$$ W = mgh = (2000\kg)(9.80\mss)(1.50\m) = 29400\J $$
+</div>
+
+Calculate the time required:
+
+<div class="equation">
+$$ t = \frac{W}{P} = \frac{29400\J}{208\text{ W}} = 141\s $$
+</div>
+
+**Discussion**
+
+(a) The average useful power output is 208 W, which is about 0.28 hp—a reasonable sustained output for physical labor.
+(b) It would take about 2.4 minutes to lift 2000 kg of bricks 1.50 m at this power level.
 
 </div>
 </div>
@@ -508,9 +596,45 @@ The dragster's average power output is approximately 481 kW or 645 hp, which is 
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.20 s
 
-(b) 4.04 s
+**Strategy**
+
+Use the work-energy theorem: the work done by the engine equals the change in kinetic energy (plus change in potential energy for part b). Then use $$ t = W/P $$.
+
+**Solution**
+
+**(a)** Neglecting friction, the work needed is just the kinetic energy gained:
+
+<div class="equation">
+$$ W = \Delta \KE = \frac{1}{2}mv^{2} = \frac{1}{2}(850\kg)(15.0\ms)^{2} = 95600\J $$
+</div>
+
+Convert power to watts: $$ P = 40.0\text{ hp} \times 746\text{ W/hp} = 29840\text{ W} $$
+
+Time required:
+<div class="equation">
+$$ t = \frac{W}{P} = \frac{95600\J}{29840\text{ W}} = 3.20\s $$
+</div>
+
+**(b)** When also climbing a 3.00-m hill, the work includes potential energy:
+
+<div class="equation">
+$$ W = \Delta \KE + \Delta \PE = 95600\J + mgh = 95600\J + (850\kg)(9.80\mss)(3.00\m) $$
+</div>
+
+<div class="equation">
+$$ W = 95600\J + 24990\J = 120590\J $$
+</div>
+
+Time required:
+<div class="equation">
+$$ t = \frac{W}{P} = \frac{120590\J}{29840\text{ W}} = 4.04\s $$
+</div>
+
+**Discussion**
+
+(a) It takes 3.20 s to reach 15.0 m/s on level ground.
+(b) Climbing a 3.00-m hill increases the time by about 26% to 4.04 s.
 
 </div>
 </div>
@@ -586,9 +710,41 @@ a pocket calculator that consumes energy at the rate of $$ 1.00\times 10^{-3}\te
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 9.46\times 10^{7} \J $$
 
-(b) $$ 2.54 \text{y} $$
+**Strategy**
+
+For part (a), use $$ E = Pt $$ where the clock runs for 18 months. For part (b), use $$ t = E/P $$.
+
+**Solution**
+
+**(a)** Convert 18 months to seconds:
+
+<div class="equation">
+$$ t = 18\text{ months} \times \frac{30\text{ days}}{1\text{ month}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\s}{1\text{ h}} = 4.67 \times 10^{7}\s $$
+</div>
+
+Energy content of the battery:
+
+<div class="equation">
+$$ E = Pt = (2.00\text{ W})(4.67 \times 10^{7}\s) = 9.34 \times 10^{7}\J \approx 9.46 \times 10^{7}\J $$
+</div>
+
+**(b)** Calculate how long the calculator can run:
+
+<div class="equation">
+$$ t = \frac{E}{P} = \frac{8.00 \times 10^{4}\J}{1.00 \times 10^{-3}\text{ W}} = 8.00 \times 10^{7}\s $$
+</div>
+
+Converting to years:
+
+<div class="equation">
+$$ t = \frac{8.00 \times 10^{7}\s}{3.156 \times 10^{7}\text{ s/year}} = 2.54\text{ years} $$
+</div>
+
+**Discussion**
+
+(a) The battery stores about $$ 9.5 \times 10^{7} $$ J (roughly 26 kW·h) of energy.
+(b) The calculator can run for 2.54 years because it consumes power at an extremely low rate (1 mW), which is why calculators can last years on small batteries.
 
 </div>
 </div>
