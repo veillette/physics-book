@@ -336,6 +336,10 @@ If I am driving and I hear Doppler shift in an ambulance siren, I would be able 
 Is the Doppler shift real or just a sensory illusion?
 
 </div>
+<div class="solution" markdown="1">
+The Doppler shift is a **real physical phenomenon**, not a sensory illusion. The frequency of the sound waves arriving at the observer is physically different from the frequency emitted by the source. The relative motion between the source and observer causes the wavefronts to be compressed (higher frequency) or stretched (lower frequency). This change in frequency can be measured by instruments, so it is not just a product of our perception. For example, police radar guns use the Doppler shift of radio waves to measure the speed of vehicles.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -343,11 +347,21 @@ Is the Doppler shift real or just a sensory illusion?
 Due to efficiency considerations related to its bow wake, the supersonic transport aircraft must maintain a cruising speed that is a constant ratio to the speed of sound (a constant Mach number). If the aircraft flies from warm air into colder air, should it increase or decrease its speed? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+The aircraft should **decrease** its speed.
+
+The speed of sound is lower in colder air. To maintain a constant Mach number (which is the ratio of the aircraft's speed to the speed of sound), the aircraft must decrease its speed proportionally as the speed of sound decreases.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 When you hear a sonic boom, you often cannot see the plane that made it. Why is that?
+
+</div>
+<div class="solution" markdown="1">
+This is because the airplane is traveling faster than the speed of sound, while the sonic boom (the shock wave) travels at the speed of sound. By the time the shock wave reaches an observer on the ground, the airplane that created it has already traveled a significant distance ahead of the boom.
 
 </div>
 </div>

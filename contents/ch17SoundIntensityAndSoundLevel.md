@@ -389,11 +389,23 @@ hearing.
 Six members of a synchronized swim team wear earplugs to protect themselves against water pressure at depths, but they can still hear the music and perform the combinations in the water perfectly. One day, they were asked to leave the pool so the dive team could practice a few dives, and they tried to practice on a mat, but seemed to have a lot more difficulty. Why might this be?
 
 </div>
+<div class="solution" markdown="1">
+The swimmers can hear the music in the water due to **bone conduction**. Sound travels much more efficiently from water to the skull than from air to the skull. The sound waves from the underwater speakers travel through the water and are transmitted directly through the swimmers' skulls to the cochlea (inner ear), bypassing the ear canal and eardrum, which are blocked by their earplugs.
+
+On the mat, the sound must travel through the air. The earplugs block most of this airborne sound from entering the ear canal, making it very difficult for them to hear the music clearly.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 A community is concerned about a plan to bring train service to their downtown from the town’s outskirts. The current sound intensity level, even though the rail yard is blocks away, is 70 dB downtown. The mayor assures the public that there will be a difference of only 30 dB in sound in the downtown area. Should the townspeople be concerned? Why?
+
+</div>
+<div class="solution" markdown="1">
+Yes, the townspeople should be very concerned. A 30 dB increase in sound level is not a small change. The decibel scale is logarithmic, and a 30 dB increase corresponds to a $$10^3$$, or **1000-fold**, increase in sound intensity.
+
+The new sound level would be $$70 \text{ dB} + 30 \text{ dB} = 100 \text{ dB}$$. This is a very loud noise, equivalent to a noisy factory or a siren at 30 m. According to [[Table 1]](#Table1), exposure to sounds at this level for 8 hours a day can cause hearing damage. The current 70 dB level is equivalent to busy traffic, but a 100 dB level is significantly more intrusive and potentially harmful.
 
 </div>
 </div>

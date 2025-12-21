@@ -362,6 +362,10 @@ $${f}_{1} $$ is the fundamental and $$L $$ is the length of the tube.
 How does an unamplified guitar produce sounds so much more intense than those of a plucked string held taut by a simple stick?
 
 </div>
+<div class="solution" markdown="1">
+A guitar produces a much more intense sound because its body acts as a **sounding box** or resonator. The vibrations of the plucked string are transferred through the bridge to the large surface of the guitar's body. This large surface moves a much greater volume of air than the thin string alone, resulting in a more intense (louder) sound wave. Additionally, the air inside the guitar's body has its own resonant frequencies, which selectively amplify certain harmonics of the string's vibrations, giving the guitar its rich, characteristic timbre. A simple stick lacks this large resonating surface and therefore cannot efficiently transfer the string's vibrational energy to the air.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -369,11 +373,27 @@ How does an unamplified guitar produce sounds so much more intense than those of
 You are given two wind instruments of identical length. One is open at both ends, whereas the other is closed at one end. Which is able to produce the lowest frequency?
 
 </div>
+<div class="solution" markdown="1">
+The instrument that is **closed at one end** is able to produce the lowest frequency.
+
+The fundamental frequency of a tube closed at one end is given by $$f_1 = \frac{v_w}{4L}$$, whereas the fundamental frequency of a tube open at both ends is $$f_1 = \frac{v_w}{2L}$$. Since the lengths ($$L$$) and the speed of sound ($$v_w$$) are the same for both instruments, the tube closed at one end has a fundamental frequency that is half the frequency of the tube open at both ends.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 What is the difference between an overtone and a harmonic? Are all harmonics overtones? Are all overtones harmonics?
+
+</div>
+<div class="solution" markdown="1">
+**Harmonics** are all integer multiples of the fundamental frequency ($$f_1, 2f_1, 3f_1, ...$$). The fundamental is the first harmonic.
+
+**Overtones** are all resonant frequencies higher than the fundamental. The first overtone is the first frequency above the fundamental, the second overtone is the second frequency above the fundamental, and so on.
+
+- **Are all harmonics overtones?** No. The fundamental frequency is the first harmonic, but it is not an overtone.
+
+- **Are all overtones harmonics?** In many simple instruments, like a tube open at both ends, the overtones are integer multiples of the fundamental, so they are harmonics (e.g., the first overtone is the second harmonic). However, for a tube closed at one end, the overtones are only the *odd* harmonics (3rd, 5th, etc.). In this case, all overtones are harmonics, but not all harmonics are present as overtones. For more complex instruments (like a drum), the overtones are not simple integer multiples of the fundamental, and in that case, the overtones are not harmonics.
 
 </div>
 </div>
