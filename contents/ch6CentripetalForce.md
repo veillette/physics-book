@@ -893,11 +893,40 @@ an unbanked 50.0 m radius curve at 30.0 m/s.
 
 </div>
 <div class="solution" markdown="1">
-a) 1.84
 
-b) A coefficient of friction this much greater than 1 is unreasonable.
+**Strategy**
 
-c) The assumed speed is too great for the tight curve.
+For an unbanked curve, friction provides the centripetal force. We'll set up the equation where friction equals the required centripetal force, then solve for the coefficient of friction. We'll then analyze whether the result is physically reasonable.
+
+**Solution**
+
+**(a)** For circular motion on an unbanked curve:
+
+The centripetal force is provided by friction:
+<div class="equation">
+$$ f = \mu_s N = \mu_s mg $$
+</div>
+
+This must equal the required centripetal force:
+<div class="equation">
+$$ \mu_s mg = \frac{mv^2}{r} $$
+</div>
+
+Solving for the coefficient of friction (mass cancels):
+<div class="equation">
+$$ \mu_s = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84 $$
+</div>
+
+**(b)** A coefficient of friction of 1.84 is unreasonable. Typical coefficients of static friction between rubber tires and dry pavement range from 0.7 to 1.0. Values significantly greater than 1.0 are not physically achievable with normal road surfaces and tires.
+
+**(c)** The assumed speed of 30.0 m/s (108 km/h or 67 mph) is too great for a 50.0 m radius curve. At this tight radius, safer speeds would be around 15-20 m/s. Alternatively, banking the curve would reduce the required friction coefficient.
+
+**Discussion**
+
+This problem illustrates why highway curves are designed with specific speed limits based on their radius. For a 50.0 m radius curve with μ = 0.7 (wet conditions), the maximum safe speed would be:
+$$ v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0)(9.80)} = 18.5 \text{ m/s} \approx 67 \text{ km/h} $$
+
+This is why tight curves on roads have reduced speed limits and are often banked.
 
 </div>
 </div>
