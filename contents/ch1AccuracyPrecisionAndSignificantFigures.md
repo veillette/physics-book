@@ -448,6 +448,30 @@ $$ \delta m = m \times \frac{\%\text{unc}}{100\%} = 65 \text{ kg} \times \frac{3
 A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. What is its percent uncertainty?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the percent uncertainty formula: %unc = (δA/A) × 100%. Convert units so they match before calculating.
+
+**Solution**
+
+First, convert the distance to centimeters so units match:
+<div class="equation">
+$$ 20 \m = 2000 \text{ cm} $$
+</div>
+
+Calculate the percent uncertainty:
+<div class="equation">
+$$ \%\text{unc} = \frac{\delta A}{A} \times 100\% = \frac{0.50 \text{ cm}}{2000 \text{ cm}} \times 100\% = 0.025\% $$
+</div>
+
+**Discussion**
+
+This is a very small percent uncertainty (about 1 part in 4000), indicating a high-quality measuring tape. For most construction and home improvement purposes, this level of precision is more than adequate.
+
+**Answer:** 0.025%
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -499,8 +523,26 @@ $$ 95 \text{ km/h} \times 0.6214 = 59 \text{ mi/h} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An infant’s pulse rate is measured to be  $$ 130  \pm  5  $$ beats/min.
+An infant's pulse rate is measured to be  $$ 130  \pm  5  $$ beats/min.
 What is the percent uncertainty in this measurement?
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the percent uncertainty formula with the measured value and its uncertainty.
+
+**Solution**
+
+<div class="equation">
+$$ \%\text{unc} = \frac{\delta A}{A} \times 100\% = \frac{5 \text{ beats/min}}{130 \text{ beats/min}} \times 100\% = 3.8\% \approx 4\% $$
+</div>
+
+**Discussion**
+
+A 4% uncertainty is reasonable for a manual pulse measurement on an infant, who may be moving or fussy during the measurement. This uncertainty means the true pulse rate could be anywhere from 125 to 135 beats/min.
+
+**Answer:** 4%
+
 </div>
 </div>
 
@@ -552,6 +594,24 @@ $$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.000 \text{ y} \t
 <div class="problem" markdown="1">
 A can contains 375 mL of soda. How much is left after 308 mL is removed?
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Subtract the amount removed from the original amount. For subtraction, the answer cannot have more decimal places than the least precise measurement.
+
+**Solution**
+
+<div class="equation">
+$$ \text{Remaining} = 375 \text{ mL} - 308 \text{ mL} = 67 \text{ mL} $$
+</div>
+
+**Discussion**
+
+Both values are given to the ones place (no decimal places), so the answer is also reported to the ones place. The answer has 2 significant figures.
+
+**Answer:** 67 mL
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -600,6 +660,38 @@ The answer should have **3** significant figures (limited by $$ 1.60 \times 10^{
 (b) If the uncertainty in each number is 1, what is the percent uncertainty in each?
 (c) Which is a more meaningful way to express the accuracy of these two numbers,
 significant figures or percent uncertainties?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Count significant figures using standard rules. Calculate percent uncertainties and compare the two methods of expressing precision.
+
+**Solution**
+
+**(a) Significant figures:**
+- 99 has **2** significant figures (both digits are significant)
+- 100 has **1, 2, or 3** significant figures depending on context. Without additional information (such as a decimal point or scientific notation), it's ambiguous. Typically assumed to be **1** significant figure if the zeros are just placeholders.
+
+**(b) Percent uncertainty with δ = 1 for each:**
+
+For 99:
+<div class="equation">
+$$ \%\text{unc}_{99} = \frac{1}{99} \times 100\% = 1.0\% $$
+</div>
+
+For 100:
+<div class="equation">
+$$ \%\text{unc}_{100} = \frac{1}{100} \times 100\% = 1.0\% $$
+</div>
+
+**(c) Which is more meaningful?**
+
+Percent uncertainty is more meaningful in this case. Both numbers have the same absolute uncertainty (±1), giving them essentially the same percent uncertainty (~1%). However, if we relied only on significant figures, we would conclude that 99 is more precise than 100 (2 sig figs vs. 1 sig fig), which is misleading. The percent uncertainty correctly shows that both measurements have the same relative precision.
+
+**Discussion**
+
+This example illustrates a limitation of significant figures: they can be ambiguous (as with 100) and don't always accurately convey precision. Percent uncertainty provides a clearer, more quantitative measure of measurement quality.
 
 </div>
 </div>
