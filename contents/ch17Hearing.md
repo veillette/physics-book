@@ -325,6 +325,10 @@ No, the range of perceptible sound is based in the range of human hearing. Many 
 Why can a hearing test show that your threshold of hearing is 0 dB at 250 Hz, when [[Figure 2]](#Figure2) implies that no one can hear such a frequency at less than 20 dB?
 
 </div>
+<div class="solution" markdown="1">
+The 0 dB on a hearing test (audiogram) is a **relative** measure, not an absolute one. It is normalized to the average hearing threshold for a population of healthy young adults. Therefore, a 0 dB result on an audiogram at 250 Hz means that your hearing at that frequency is the same as the average normal hearing person. As [[Figure 2]](#Figure2) shows, the absolute threshold of hearing for a 250 Hz sound is approximately 20 dB. So, a 0 dB hearing test result at 250 Hz corresponds to an absolute sound intensity level of about 20 dB.
+
+</div>
 </div>
 
 ### Problems &amp; Exercises

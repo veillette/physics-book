@@ -487,11 +487,21 @@ Ultrasound can be used medically at different intensities. Lower intensities do 
 If audible sound follows a rule of thumb similar to that for ultrasound, in terms of its absorption, would you expect the high or low frequencies from your neighbor’s stereo to penetrate into your house? How does this expectation compare with your experience?
 
 </div>
+<div class="solution" markdown="1">
+Higher frequencies are more readily absorbed than lower frequencies. Therefore, you would expect the **low frequencies** (the bass) from a neighbor's stereo to penetrate into your house more effectively than the high frequencies.
+
+This expectation matches common experience. It is often the case that you can hear the "thump-thump" of the bass from a neighbor's stereo, while the higher-frequency melody and vocals are muffled or inaudible.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Elephants and whales are known to use infrasound to communicate over very large distances. What are the advantages of infrasound for long distance communication?
+
+</div>
+<div class="solution" markdown="1">
+The primary advantage of infrasound for long-distance communication is its **low rate of absorption**. Lower-frequency sounds are less readily absorbed by the medium they travel through (like water or air) than higher-frequency sounds. This allows infrasound waves to travel much longer distances before their energy dissipates, making them ideal for communication over many kilometers.
 
 </div>
 </div>
@@ -501,12 +511,22 @@ Elephants and whales are known to use infrasound to communicate over very large 
 It is more difficult to obtain a high-resolution ultrasound image in the abdominal region of someone who is overweight than for someone who has a slight build. Explain why this statement is accurate.
 
 </div>
+<div class="solution" markdown="1">
+This statement is accurate because ultrasound waves are attenuated (absorbed and scattered) as they pass through tissue. In an overweight person, the ultrasound waves must travel through a thicker layer of subcutaneous fat to reach the abdominal organs. Fat tissue absorbs ultrasound energy, so the signal is weakened on its way to the organs and again on its way back to the transducer. This results in a weaker echo and a lower signal-to-noise ratio, which degrades the quality and resolution of the image.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Suppose you read that 210-dB ultrasound is being used to pulverize cancerous tumors. You calculate the intensity in watts per centimeter squared and find it is unreasonably high ( $$10^{5} {\text{W/cm}}^{2} $$ ).
 What is a possible explanation?
+
+</div>
+<div class="solution" markdown="1">
+A possible explanation is that the 210-dB value is being reported using the **sound pressure level (SPL)** scale, which is commonly used in medical and underwater acoustics, rather than the **sound intensity level (SIL)** scale used in this textbook. The SPL scale uses a different reference pressure and can result in decibel values that are 60-70 dB higher than the SIL for the same sound wave in tissue.
+
+Therefore, a 210-dB SPL is equivalent to roughly $$210 - 65 = 145$$ dB on the SIL scale. An intensity level of 145 dB is still very high, but it is a much more reasonable value for therapeutic ultrasound used to destroy tissue.
 
 </div>
 </div>

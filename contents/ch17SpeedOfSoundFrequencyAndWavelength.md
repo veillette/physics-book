@@ -301,11 +301,23 @@ $${v}_{\text{w}} $$ is the same for all frequencies and wavelengths.
 How do sound vibrations of atoms differ from thermal motion?
 
 </div>
+<div class="solution" markdown="1">
+Sound vibrations are a form of organized, collective motion where atoms oscillate in a coordinated way around their equilibrium positions, creating a pressure wave that propagates through the medium. This motion is coherent, meaning the atoms move in a predictable, synchronized pattern (compressions and rarefactions).
+
+Thermal motion, on the other hand, is the random, chaotic, and incoherent movement of atoms due to their thermal energy. The atoms move in all directions with a wide range of speeds, and their motion is not coordinated. While both sound and thermal motion are forms of kinetic energy, sound is an organized transfer of energy, whereas thermal energy is disorganized.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 When sound passes from one medium to another where its propagation speed is different, does its frequency or wavelength change? Explain your answer briefly.
+
+</div>
+<div class="solution" markdown="1">
+The frequency of the sound wave remains the same, while the wavelength changes.
+
+**Explanation**: The frequency of a wave is determined by its source and does not change when the wave passes from one medium to another. The wave speed, however, is a property of the medium and does change. According to the wave equation ($$v_w = f\lambda$$), if the speed ($$v_w$$) changes and the frequency ($$f$$) remains constant, the wavelength ($$\lambda$$) must change to maintain the equality. For example, when sound travels from air to water, its speed increases, so its wavelength must also increase.
 
 </div>
 </div>
