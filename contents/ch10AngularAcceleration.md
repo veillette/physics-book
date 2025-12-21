@@ -388,7 +388,40 @@ What is its angular velocity in revolutions per second?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ \omega =0.737 \text{rev/s} $$
+
+**Strategy**
+
+The wind speed represents the tangential velocity at the outer edge of the tornado. We can find angular velocity using ω = v/r, where r is the radius (half the diameter).
+
+**Solution**
+
+First, convert the wind speed to m/s:
+
+<div class="equation">
+$$ v = 500 \text{ km/h} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = 139 \text{ m/s} $$
+</div>
+
+The radius is half the diameter:
+
+<div class="equation">
+$$ r = \frac{60.0 \m}{2} = 30.0 \m $$
+</div>
+
+Calculate the angular velocity in rad/s:
+
+<div class="equation">
+$$ \omega = \frac{v}{r} = \frac{139 \text{ m/s}}{30.0 \m} = 4.63 \text{ rad/s} $$
+</div>
+
+Convert to revolutions per second:
+
+<div class="equation">
+$$ \omega = 4.63 \text{ rad/s} \times \frac{1 \text{ rev}}{2\pi \text{ rad}} = 0.737 \text{ rev/s} $$
+</div>
+
+**Discussion**
+
+The tornado completes nearly three-quarters of a revolution every second. This rapid rotation, combined with the large diameter, produces the devastating 500 km/h winds at the edge.
 
 </div>
 </div>
@@ -404,6 +437,49 @@ An ultracentrifuge accelerates from rest to 100 000 rpm in 2.00 min.
 rotation?
 (c) What is the radial acceleration in $$ \mss $$ and multiples of $$ g $$ of
 this point at full rpm?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use rotational kinematics and the relationships between angular and linear quantities. Angular acceleration is found from α = Δω/Δt. Tangential acceleration is a_t = rα, and radial (centripetal) acceleration is a_c = ω²r.
+
+**Solution**
+
+**(a)** First, convert 100,000 rpm to rad/s:
+
+<div class="equation">
+$$ \omega = 100000 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \s} = 10472 \text{ rad/s} $$
+</div>
+
+The angular acceleration (starting from rest, over 2.00 min = 120 s):
+
+<div class="equation">
+$$ \alpha = \frac{\Delta\omega}{\Delta t} = \frac{10472 \text{ rad/s} - 0}{120 \s} = 87.3 \radss $$
+</div>
+
+**(b)** The tangential acceleration at r = 9.50 cm = 0.0950 m:
+
+<div class="equation">
+$$ a_t = r\alpha = (0.0950 \m)(87.3 \radss) = 8.29 \text{ m/s}^2 $$
+</div>
+
+**(c)** The radial (centripetal) acceleration at full speed:
+
+<div class="equation">
+$$ a_c = \omega^2 r = (10472 \text{ rad/s})^2(0.0950 \m) = 1.04 \times 10^7 \text{ m/s}^2 $$
+</div>
+
+In multiples of g:
+
+<div class="equation">
+$$ a_c = \frac{1.04 \times 10^7 \text{ m/s}^2}{9.80 \text{ m/s}^2} = 1.06 \times 10^6 \text{ g} $$
+</div>
+
+**Discussion**
+
+The centripetal acceleration is over a million times g! This enormous acceleration is why ultracentrifuges can separate molecules by mass—even tiny differences in mass result in significant differences in the centripetal force needed to keep particles in circular motion.
 
 </div>
 </div>
@@ -422,9 +498,58 @@ turning at 90.0 rpm, and you press a steel axe against it with a radial force of
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a) $$ -0.26 \radss $$
 
-(b) $$27 \text{rev} $$
+**Strategy**
+
+The friction force creates a torque that decelerates the grindstone. We find the friction force using f = μN, then the torque, and finally the angular acceleration using τ = Iα. For part (b), we use rotational kinematics to find the number of revolutions.
+
+**Solution**
+
+**(a)** The friction force is:
+
+<div class="equation">
+$$ f = \mu_k N = (0.20)(20.0 \N) = 4.0 \N $$
+</div>
+
+The torque from friction (acting at the rim, R = 0.340 m):
+
+<div class="equation">
+$$ \tau = fR = (4.0 \N)(0.340 \m) = 1.36 \N \cdot \m $$
+</div>
+
+The moment of inertia of the disk:
+
+<div class="equation">
+$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(90.0 \kg)(0.340 \m)^2 = 5.20 \kg \cdot \mm $$
+</div>
+
+The angular acceleration (negative because it opposes the rotation):
+
+<div class="equation">
+$$ \alpha = -\frac{\tau}{I} = -\frac{1.36 \N \cdot \m}{5.20 \kg \cdot \mm} = -0.26 \radss $$
+</div>
+
+**(b)** First, convert the initial angular velocity:
+
+<div class="equation">
+$$ \omega_0 = 90.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 9.42 \text{ rad/s} $$
+</div>
+
+Using ω² = ω₀² + 2αθ with ω = 0:
+
+<div class="equation">
+$$ \theta = \frac{-\omega_0^2}{2\alpha} = \frac{-(9.42)^2}{2(-0.26)} = 171 \text{ rad} $$
+</div>
+
+Converting to revolutions:
+
+<div class="equation">
+$$ \theta = \frac{171 \text{ rad}}{2\pi \text{ rad/rev}} = 27 \text{ rev} $$
+</div>
+
+**Discussion**
+
+The grindstone makes 27 complete turns before stopping. The small friction force (only 4 N) produces a modest deceleration, allowing for gradual stopping that's useful for controlled grinding operations.
 
 </div>
 </div>
@@ -436,10 +561,35 @@ turning at 90.0 rpm, and you press a steel axe against it with a radial force of
 
 You are told that a basketball player spins the ball with an angular
 acceleration of $$ 100 \radss $$.
-(a) What is the ball’s final angular velocity if the ball starts from rest and
+(a) What is the ball's final angular velocity if the ball starts from rest and
 the acceleration lasts 2.00 s?
 (b) What is unreasonable about the result?
 (c) Which premises are unreasonable or inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the rotational kinematic equation ω = ω₀ + αt to find the final angular velocity, then analyze whether the result is physically reasonable.
+
+**Solution**
+
+**(a)** Using ω = ω₀ + αt with ω₀ = 0:
+
+<div class="equation">
+$$ \omega = 0 + (100 \radss)(2.00 \s) = 200 \text{ rad/s} $$
+</div>
+
+Converting to more familiar units:
+
+<div class="equation">
+$$ \omega = 200 \text{ rad/s} \times \frac{1 \text{ rev}}{2\pi \text{ rad}} \times \frac{60 \s}{1 \text{ min}} = 1910 \text{ rpm} $$
+</div>
+
+**(b)** This result is unreasonable. A basketball spinning at nearly 2000 rpm (about 32 revolutions per second) would be impossible for a human to control or even perceive as spinning on a fingertip. Professional players typically spin balls at only 3-5 rev/s.
+
+**(c)** The angular acceleration of 100 rad/s² is unreasonable. A more realistic value would be around 5-10 rad/s² for a ball spun by hand, limited by the friction between the player's hand and the ball surface.
 
 </div>
 </div>

@@ -1077,7 +1077,71 @@ You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a t
 
 </div>
 <div class="solution" markdown="1">
-1.91 s
+**Strategy**
+
+Take upward as positive. The ball passes the tree branch twice: once on the way up and once on the way down. We need to find both times when the ball is at height 7.00 m, then calculate the difference between these times.
+
+**Solution**
+
+Given:
+- Initial velocity: $$ v_0 = 15.0 \ms $$
+- Initial position: $$ y_0 = 0 $$ (ground level)
+- Height of tree branch: $$ y = 7.00 \m $$
+- Acceleration: $$ a = -g = -9.80 \mss $$
+
+1. Use the kinematic equation for position:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}at^2 $$
+</div>
+
+2. Substitute the known values:
+<div class="equation">
+$$ 7.00 = 0 + (15.0)t + \frac{1}{2}(-9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ 7.00 = 15.0t - 4.90t^2 $$
+</div>
+
+3. Rearrange into standard quadratic form:
+<div class="equation">
+$$ 4.90t^2 - 15.0t + 7.00 = 0 $$
+</div>
+
+4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
+<div class="equation">
+$$ t = \frac{15.0 \pm \sqrt{(15.0)^2 - 4(4.90)(7.00)}}{2(4.90)} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{15.0 \pm \sqrt{225 - 137.2}}{9.80} = \frac{15.0 \pm \sqrt{87.8}}{9.80} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{15.0 \pm 9.37}{9.80} $$
+</div>
+
+5. This gives two solutions:
+<div class="equation">
+$$ t_1 = \frac{15.0 - 9.37}{9.80} = \frac{5.63}{9.80} = 0.575 \s $$ (on the way up)
+</div>
+
+<div class="equation">
+$$ t_2 = \frac{15.0 + 9.37}{9.80} = \frac{24.37}{9.80} = 2.49 \s $$ (on the way down)
+</div>
+
+6. The additional time between passing the branch on the way up and on the way down:
+<div class="equation">
+$$ \Delta t = t_2 - t_1 = 2.49 \s - 0.575 \s = 1.91 \s $$
+</div>
+
+**Discussion**
+
+The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on its way down, giving an additional time of 1.91 s. This result makes sense because of the symmetry of projectile motion: the ball takes the same amount of time to go from the branch to its maximum height as it does to fall from maximum height back to the branch. Since the ball reaches its maximum height at $$ t = \frac{v_0}{g} = \frac{15.0}{9.80} = 1.53 \s $$, the time from the first branch crossing to the peak is $$ 1.53 - 0.575 = 0.96 \s $$, and from the peak back to the branch is another 0.96 s, giving a total of 1.91 s. This symmetry is a fundamental property of motion under constant acceleration.
+
+**Answer**
+
+The ball will pass the tree branch on the way down **1.91 s** after passing it on the way up.
 
 </div>
 </div>

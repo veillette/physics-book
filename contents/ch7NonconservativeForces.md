@@ -329,7 +329,68 @@ assuming a straight-line path as shown in the figure.)
 
 </div>
 <div class="solution" markdown="1">
-9.46 m/s
+**Strategy**
+
+Use the work-energy theorem including friction. The initial kinetic energy is converted to gravitational potential energy plus thermal energy (work done against friction). First find the distance traveled along the incline using trigonometry, then apply energy conservation.
+
+**Solution**
+
+**Given:**
+- Mass: $$ m = 60.0\text{ kg} $$
+- Initial speed: $$ v_i = 12.0\ms $$
+- Height rise: $$ h = 2.50\text{ m} $$
+- Coefficient of friction: $$ \mu_k = 0.0800 $$
+- Slope angle: $$ \theta = 35° $$ (from the figure)
+
+**Step 1: Find the distance traveled along the incline**
+<div class="equation">
+$$ d = \frac{h}{\sin\theta} = \frac{2.50\text{ m}}{\sin(35°)} = \frac{2.50}{0.574} = 4.36\text{ m} $$
+</div>
+
+**Step 2: Calculate the friction force**
+
+The normal force on an incline: $$ N = mg\cos\theta $$
+
+Friction force:
+<div class="equation">
+$$ f_k = \mu_k N = \mu_k mg\cos\theta = (0.0800)(60.0)(9.80)\cos(35°) = (0.0800)(60.0)(9.80)(0.819) = 38.5\text{ N} $$
+</div>
+
+**Step 3: Calculate work done by friction**
+<div class="equation">
+$$ W_f = -f_k d = -(38.5\text{ N})(4.36\text{ m}) = -168\text{ J} $$
+</div>
+
+**Step 4: Apply the work-energy theorem**
+
+<div class="equation">
+$$ \frac{1}{2}mv_i^2 + W_f = \frac{1}{2}mv_f^2 + mgh $$
+</div>
+
+<div class="equation">
+$$ \frac{1}{2}mv_f^2 = \frac{1}{2}mv_i^2 + W_f - mgh $$
+</div>
+
+Calculate each term:
+- Initial KE: $$ \frac{1}{2}(60.0)(12.0)^2 = 4320\text{ J} $$
+- Work by friction: $$ -168\text{ J} $$
+- Potential energy gained: $$ (60.0)(9.80)(2.50) = 1470\text{ J} $$
+
+<div class="equation">
+$$ \frac{1}{2}mv_f^2 = 4320 - 168 - 1470 = 2682\text{ J} $$
+</div>
+
+<div class="equation">
+$$ v_f = \sqrt{\frac{2(2682)}{60.0}} = \sqrt{89.4} = 9.46\ms $$
+</div>
+
+**Discussion**
+
+The skier loses speed from 12.0 m/s to 9.46 m/s while coasting up the hill. The initial kinetic energy of 4320 J is split between: final kinetic energy (2682 J), gravitational potential energy (1470 J), and thermal energy from friction (168 J). The friction accounts for only about 4% of the energy dissipated, with most of the energy reduction coming from the gain in height. This low friction is characteristic of well-waxed skis on snow.
+
+**Answer**
+
+The skier's final speed at the top is **9.46 m/s**.
 
 </div>
 </div>

@@ -829,9 +829,51 @@ second it makes about the nucleus.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 6.61 \times 10^{15}\text{rev/s} $$
+**Strategy**
 
-(b) 0 m/s
+The electron orbits the nucleus in a circular path. To find the number of revolutions per second, we need to find how far the electron travels in one second and divide by the circumference of one orbit. The average velocity over one complete revolution is zero because the electron returns to its starting position.
+
+**Solution**
+
+Given:
+- Orbital diameter: $$ d = 1.06 \times 10^{-10} \m $$
+- Orbital radius: $$ r = \frac{d}{2} = 5.30 \times 10^{-11} \m $$
+- Average speed: $$ v = 2.20 \times 10^{6} \ms $$
+
+**(a) Number of revolutions per second:**
+
+1. Calculate the circumference of the orbit:
+<div class="equation">
+$$ C = 2\pi r = 2\pi (5.30 \times 10^{-11} \m) = 3.33 \times 10^{-10} \m $$
+</div>
+
+2. The distance traveled in one second equals the speed times one second:
+<div class="equation">
+$$ d_{\text{per second}} = v \times 1 \s = 2.20 \times 10^{6} \m $$
+</div>
+
+3. The number of revolutions per second is the distance traveled per second divided by the circumference of one orbit:
+<div class="equation">
+$$ f = \frac{v}{C} = \frac{2.20 \times 10^{6} \ms}{3.33 \times 10^{-10} \m} = 6.61 \times 10^{15} \text{ rev/s} $$
+</div>
+
+**(b) Average velocity during one revolution:**
+
+After completing one full revolution, the electron returns to its starting position. Therefore:
+- Displacement = 0
+- Average velocity = displacement / time = 0 / t = 0 m/s
+
+**Discussion**
+
+The electron completes an astounding $$ 6.61 \times 10^{15} $$ revolutions every second - that's over 6 quadrillion orbits per second! Despite this incredibly high speed (about 0.7% of the speed of light), the average velocity over one complete orbit is zero because velocity is a vector quantity that depends on displacement, not distance. The electron travels a great distance but ends up back where it started, so its net displacement is zero. This distinction between speed (a scalar based on distance) and velocity (a vector based on displacement) is fundamental to understanding motion.
+
+Note: The planetary model of the atom, while useful for visualization, has been superseded by quantum mechanics. In reality, electrons don't orbit in fixed circular paths but exist in probability clouds called orbitals. Nevertheless, this calculation gives reasonable estimates for the characteristic speeds and frequencies involved in atomic-scale motion.
+
+**Answer**
+
+(a) The electron makes $$ 6.61 \times 10^{15} $$ revolutions per second about the nucleus.
+
+(b) The electron's average velocity during one complete revolution is **0 m/s**.
 
 </div>
 </div>

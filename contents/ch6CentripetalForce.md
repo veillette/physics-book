@@ -575,11 +575,61 @@ The ideal speed to take the 100 m radius curve banked at 20.0° is 18.9 m/s (abo
 
 </div>
 <div class="solution" markdown="1">
-a) 24.6 m
+**Strategy**
 
-b) $$ 36.6 \mss $$ c) $$ \ac=3.73 g$$. This does not seem too large, but it is
-clear that bobsledders feel a lot of force on them going through sharply banked
-turns.
+For an ideally banked curve (no friction required), we use the relationship $$ \tan\theta = \frac{v^2}{rg} $$. We'll solve for the radius $$ r $$, then calculate the centripetal acceleration using $$ a_c = \frac{v^2}{r} $$ and compare it to $$ g $$.
+
+**Solution**
+
+**Given:**
+- Banking angle: $$ \theta = 75.0° $$
+- Speed: $$ v = 30.0 \ms $$
+
+**(a) Radius of the turn:**
+
+From the ideal banking formula:
+
+<div class="equation">
+$$ \tan\theta = \frac{v^2}{rg} $$
+</div>
+
+Solving for $$ r $$:
+
+<div class="equation">
+$$ r = \frac{v^2}{g\tan\theta} $$
+</div>
+
+Substitute values:
+
+<div class="equation">
+$$ r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900}{(9.80)(3.732)} = \frac{900}{36.6} = 24.6\text{ m} $$
+</div>
+
+**(b) Centripetal acceleration:**
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900}{24.6} = 36.6\text{ m/s}^2 $$
+</div>
+
+**(c) Comparison to g:**
+
+<div class="equation">
+$$ \frac{a_c}{g} = \frac{36.6\text{ m/s}^2}{9.80\text{ m/s}^2} = 3.73 $$
+</div>
+
+So $$ a_c = 3.73g $$.
+
+**Discussion**
+
+The centripetal acceleration of 3.73g means that the bobsledders experience a force nearly 4 times their normal weight pushing them into the side of the bobsled. While this might not seem extreme compared to fighter pilots who experience up to 9g, bobsledders must maintain this level of force throughout the turn while also controlling their sled. The 75° banking angle is quite steep - nearly vertical - which is typical for bobsled tracks where tight, fast turns are needed. The small radius of just 24.6 m allows for exciting, high-speed turns while the steep banking keeps the forces manageable. Bobsledders train to handle these forces and must have strong core and neck muscles to maintain proper positioning throughout the run.
+
+**Answer**
+
+(a) The radius of the bobsled turn is **24.6 m**.
+
+(b) The centripetal acceleration is **36.6 m/s²**.
+
+(c) This acceleration is **3.73g**, which is significant but typical for bobsled runs. It requires athletic conditioning but is within human tolerance for short durations.
 
 </div>
 </div>
