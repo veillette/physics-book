@@ -241,7 +241,36 @@ A cosmic ray electron moves at  $$ 7.50 \times 10^{6}  \text{m/s} $$
 
 </div>
 <div class="solution" markdown="1">
-4\.27 m
+
+**Strategy**
+
+When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides the centripetal force for circular motion. We equate the magnetic force $$F = qvB$$ to the centripetal force $$F_c = mv^2/r$$ and solve for the radius $$r = mv/(qB)$$.
+
+**Solution**
+
+*Known quantities:*
+- Electron speed: $$v = 7.50 \times 10^{6} \text{ m/s}$$
+- Magnetic field strength: $$B = 1.00 \times 10^{-5} \text{ T}$$
+- Electron mass: $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
+- Electron charge: $$|q| = e = 1.60 \times 10^{-19} \text{ C}$$
+
+*Unknown:* Radius $$r$$
+
+Using the circular motion radius formula:
+
+$$r = \frac{mv}{qB}$$
+
+$$r = \frac{(9.11 \times 10^{-31} \text{ kg})(7.50 \times 10^{6} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(1.00 \times 10^{-5} \text{ T})}$$
+
+$$r = \frac{6.83 \times 10^{-24} \text{ kg·m/s}}{1.60 \times 10^{-24} \text{ C·T}}$$
+
+$$r = 4.27 \text{ m}$$
+
+**Discussion**
+
+This radius of about 4.3 meters is quite large—much larger than what we'd observe in a laboratory setting with stronger magnets. This is because Earth's magnetic field at high altitude (where the problem specifies $$B = 1.00 \times 10^{-5}$$ T, weaker than at the surface) is relatively weak. Cosmic ray electrons indeed follow curved paths of this scale in Earth's magnetic field, which is part of how they become trapped in the Van Allen radiation belts. In particle physics laboratories, much stronger fields (1-10 T) are used to bend particle paths into tight curves for detection.
+
+**The radius of the electron's circular path is 4.27 m.**
 
 </div>
 </div>
@@ -250,6 +279,39 @@ A cosmic ray electron moves at  $$ 7.50 \times 10^{6}  \text{m/s} $$
 <div class="problem" markdown="1">
 A proton moves at  $$ 7.50 \times 10^{7}  \text{m/s} $$
  perpendicular to a magnetic field. The field causes the proton to travel in a circular path of radius 0.800 m. What is the field strength?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the same relationship between radius, velocity, charge, mass, and magnetic field: $$r = mv/(qB)$$. Here we know the radius and velocity and need to solve for the magnetic field strength $$B$$.
+
+**Solution**
+
+*Known quantities:*
+- Proton speed: $$v = 7.50 \times 10^{7} \text{ m/s}$$
+- Radius of circular path: $$r = 0.800 \text{ m}$$
+- Proton mass: $$m_p = 1.67 \times 10^{-27} \text{ kg}$$
+- Proton charge: $$q = e = 1.60 \times 10^{-19} \text{ C}$$
+
+*Unknown:* Magnetic field strength $$B$$
+
+From $$r = mv/(qB)$$, solving for $$B$$:
+
+$$B = \frac{mv}{qr}$$
+
+$$B = \frac{(1.67 \times 10^{-27} \text{ kg})(7.50 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.800 \text{ m})}$$
+
+$$B = \frac{1.25 \times 10^{-19} \text{ kg·m/s}}{1.28 \times 10^{-19} \text{ C·m}}$$
+
+$$B = 0.977 \text{ T} \approx 0.98 \text{ T}$$
+
+**Discussion**
+
+A field strength just under 1 T is readily achievable with modern permanent magnets or electromagnets. The proton is moving at 25% of the speed of light, which is very fast but not so fast that relativistic corrections are essential (though they would improve accuracy). This type of setup—high-speed protons in a strong magnetic field—is the basis of cyclotrons and synchrotrons used in particle physics and medical proton therapy.
+
+**The magnetic field strength is 0.977 T (approximately 0.98 T).**
 
 </div>
 </div>
@@ -261,10 +323,45 @@ A proton moves at  $$ 7.50 \times 10^{7}  \text{m/s} $$
 
 </div>
 <div class="solution"  markdown="1">
-(a) 0.261 T
 
-(b) This strength is definitely obtainable with today’s technology. Magnetic
-field strengths of 0.500 T are obtainable with permanent magnets.
+**Strategy**
+
+Antiprotons have the same mass as protons but opposite (negative) charge. The magnitude of the charge is still $$e$$. We use $$r = mv/(|q|B)$$ and solve for $$B$$. For part (b), we compare the required field strength to what can be achieved with current technology.
+
+**Solution**
+
+*Known quantities:*
+- Antiproton speed: $$v = 5.00 \times 10^{7} \text{ m/s}$$
+- Desired radius: $$r = 2.00 \text{ m}$$
+- Antiproton mass: $$m = m_p = 1.67 \times 10^{-27} \text{ kg}$$ (same as proton)
+- Antiproton charge magnitude: $$|q| = e = 1.60 \times 10^{-19} \text{ C}$$
+
+**(a) Required magnetic field:**
+
+$$B = \frac{mv}{|q|r}$$
+
+$$B = \frac{(1.67 \times 10^{-27} \text{ kg})(5.00 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(2.00 \text{ m})}$$
+
+$$B = \frac{8.35 \times 10^{-20} \text{ kg·m/s}}{3.20 \times 10^{-19} \text{ C·m}}$$
+
+$$B = 0.261 \text{ T}$$
+
+**(b) Technological feasibility:**
+
+A field of 0.261 T is easily achievable with today's technology:
+- Good permanent magnets (neodymium): 0.5–1.5 T
+- Standard laboratory electromagnets: 1–2 T
+- Superconducting magnets: up to 20+ T
+
+This is well within the capabilities of even relatively inexpensive magnets.
+
+**Discussion**
+
+Antimatter storage is actually done at facilities like CERN, where antiprotons and positrons are stored in magnetic "bottles" called Penning traps and storage rings. The challenge isn't the magnetic field strength but rather maintaining the ultra-high vacuum needed to prevent annihilation with residual gas molecules, and the difficulty of producing significant quantities of antimatter in the first place. The curvature direction for antiprotons would be opposite to protons in the same field because of their negative charge.
+
+**(a) The required magnetic field strength is 0.261 T.**
+
+**(b) This field strength is readily obtainable with current technology. Even permanent magnets can produce fields of 0.5 T or more, so containing antiprotons magnetically is technologically feasible today.**
 
 </div>
 </div>
@@ -276,6 +373,57 @@ field strengths of 0.500 T are obtainable with permanent magnets.
  perpendicular to a 1.20-T magnetic field, which makes it move in a circular arc with a 0.231-m radius. What positive charge is on the ion? (b) What is the ratio of this charge to the charge of an electron? (c) Discuss why the ratio found in (b) should be an integer.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the circular motion equation $$r = mv/(qB)$$ and solve for the charge $$q$$. Then we compare this charge to the elementary charge to find the ionization state.
+
+**Solution**
+
+*Known quantities:*
+- Ion mass: $$m = 2.66 \times 10^{-26} \text{ kg}$$
+- Ion speed: $$v = 5.00 \times 10^{6} \text{ m/s}$$
+- Magnetic field: $$B = 1.20 \text{ T}$$
+- Radius: $$r = 0.231 \text{ m}$$
+- Elementary charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
+
+**(a) Charge on the ion:**
+
+From $$r = mv/(qB)$$, solving for $$q$$:
+
+$$q = \frac{mv}{rB}$$
+
+$$q = \frac{(2.66 \times 10^{-26} \text{ kg})(5.00 \times 10^{6} \text{ m/s})}{(0.231 \text{ m})(1.20 \text{ T})}$$
+
+$$q = \frac{1.33 \times 10^{-19} \text{ kg·m/s}}{0.277 \text{ m·T}}$$
+
+$$q = 4.80 \times 10^{-19} \text{ C}$$
+
+**(b) Ratio to electron charge:**
+
+$$\frac{q}{e} = \frac{4.80 \times 10^{-19} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 3.00$$
+
+**(c) Why the ratio should be an integer:**
+
+Electric charge is quantized—it comes only in integer multiples of the elementary charge $$e$$. This is because charge carriers are discrete particles:
+- Removing 1 electron from a neutral atom gives charge +1e
+- Removing 2 electrons gives charge +2e
+- Removing 3 electrons gives charge +3e
+
+The oxygen-16 ion has lost 3 electrons, making it O$$^{3+}$$ (triply ionized oxygen). Fractional charges are not observed for isolated particles in nature. The slight deviation from exactly 3.00 in calculations is due to rounding in the given values.
+
+**Discussion**
+
+Mass spectrometers exploit this quantization of charge. Since $$r \propto m/q$$, ions with different charge states will follow different radii, allowing them to be separated. The O$$^{3+}$$ ion would follow a different path than O$$^{2+}$$ or O$$^{+}$$ in the same field, even though they have the same mass.
+
+**(a) The charge on the ion is $$4.80 \times 10^{-19}$$ C.**
+
+**(b) The ratio of this charge to the electron charge is 3.00 (the ion is triply ionized: O$$^{3+}$$).**
+
+**(c) The ratio must be an integer because electric charge is quantized—charges exist only in integer multiples of the elementary charge $$e$$, corresponding to the number of electrons removed from or added to an atom.**
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -284,7 +432,33 @@ What radius circular path does an electron travel if it moves at the same speed 
 
 </div>
 <div class="solution" markdown="1">
- $$ 4.36 \times 10^{-4}  \text{m} $$
+
+**Strategy**
+
+The radius of circular motion is $$r = mv/(qB)$$. Since the electron has the same charge magnitude as the proton but much smaller mass (about 1/1836 of the proton mass), it will travel in a much smaller circle at the same speed and in the same field.
+
+**Solution**
+
+*Known quantities (from Exercise 2):*
+- Speed: $$v = 7.50 \times 10^{7} \text{ m/s}$$
+- Magnetic field: $$B = 0.977 \text{ T}$$ (calculated in Exercise 2)
+- Electron mass: $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
+- Electron charge magnitude: $$|q| = e = 1.60 \times 10^{-19} \text{ C}$$
+
+$$r_e = \frac{m_e v}{|q|B}$$
+
+$$r_e = \frac{(9.11 \times 10^{-31} \text{ kg})(7.50 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.977 \text{ T})}$$
+
+$$r_e = \frac{6.83 \times 10^{-23} \text{ kg·m/s}}{1.56 \times 10^{-19} \text{ C·T}}$$
+
+$$r_e = 4.38 \times 10^{-4} \text{ m} = 0.438 \text{ mm}$$
+
+**Discussion**
+
+The electron's radius is about 1836 times smaller than the proton's 0.800 m radius. This ratio equals the proton-to-electron mass ratio, which makes sense since $$r \propto m$$ when $$v$$, $$q$$, and $$B$$ are the same. This dramatic difference in path radius is exploited in mass spectrometers to separate particles by mass. The electron's tiny radius (less than half a millimeter) would require very precise measurement to detect the curvature.
+
+**The electron would travel in a circular path with radius $$4.36 \times 10^{-4}$$ m (0.436 mm).**
+
 </div>
 </div>
 
@@ -292,6 +466,46 @@ What radius circular path does an electron travel if it moves at the same speed 
 <div class="problem" markdown="1">
 A velocity selector in a mass spectrometer uses a 0.100-T magnetic field. (a) What electric field strength is needed to select a speed of  $$ 4.00 \times 10^{6}  \text{m/s} $$ ?
  (b) What is the voltage between the plates if they are separated by 1.00 cm?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+A velocity selector uses crossed electric and magnetic fields. Charged particles experience both forces, but only those with a specific velocity travel straight through—when the electric force equals the magnetic force: $$qE = qvB$$. This gives the selection condition $$v = E/B$$. The voltage is then found from $$V = Ed$$ for a uniform field between parallel plates.
+
+**Solution**
+
+*Known quantities:*
+- Magnetic field: $$B = 0.100 \text{ T}$$
+- Selected speed: $$v = 4.00 \times 10^{6} \text{ m/s}$$
+- Plate separation: $$d = 1.00 \text{ cm} = 0.0100 \text{ m}$$
+
+**(a) Electric field strength:**
+
+From the velocity selector condition $$v = E/B$$:
+
+$$E = vB$$
+
+$$E = (4.00 \times 10^{6} \text{ m/s})(0.100 \text{ T})$$
+
+$$E = 4.00 \times 10^{5} \text{ V/m} = 400 \text{ kV/m}$$
+
+**(b) Voltage between plates:**
+
+$$V = Ed$$
+
+$$V = (4.00 \times 10^{5} \text{ V/m})(0.0100 \text{ m})$$
+
+$$V = 4.00 \times 10^{3} \text{ V} = 4.00 \text{ kV}$$
+
+**Discussion**
+
+The velocity selector is a crucial component of mass spectrometers because it ensures all ions entering the magnetic separation region have the same speed. Without this, particles with different speeds but the same mass-to-charge ratio would follow different paths, reducing the resolution of the instrument. A voltage of 4 kV across a 1 cm gap is substantial but manageable in laboratory settings. Note that the selection condition is independent of the charge and mass of the particles—only their velocity determines whether they pass through undeflected.
+
+**(a) The electric field strength needed is $$4.00 \times 10^{5}$$ V/m (400 kV/m).**
+
+**(b) The voltage between the plates is 4.00 kV (4000 V).**
 
 </div>
 </div>
@@ -304,9 +518,43 @@ An electron in a TV CRT moves with a speed of  $$ 6.00 \times 10^{7}  \text{m/s}
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.00 kV/m
 
-(b) 30.0 V
+**Strategy**
+
+This is similar to the velocity selector problem. To make the electron travel in a straight line, the electric force must balance the magnetic force: $$eE = evB$$, giving $$E = vB$$. The voltage is then $$V = Ed$$.
+
+**Solution**
+
+*Known quantities:*
+- Electron speed: $$v = 6.00 \times 10^{7} \text{ m/s}$$
+- Earth's magnetic field: $$B = 5.00 \times 10^{-5} \text{ T}$$
+- Plate separation: $$d = 1.00 \text{ cm} = 0.0100 \text{ m}$$
+
+**(a) Electric field strength:**
+
+For the electron to travel in a straight line, the electric force must equal the magnetic force:
+
+$$E = vB$$
+
+$$E = (6.00 \times 10^{7} \text{ m/s})(5.00 \times 10^{-5} \text{ T})$$
+
+$$E = 3.00 \times 10^{3} \text{ V/m} = 3.00 \text{ kV/m}$$
+
+**(b) Voltage between plates:**
+
+$$V = Ed$$
+
+$$V = (3.00 \times 10^{3} \text{ V/m})(0.0100 \text{ m})$$
+
+$$V = 30.0 \text{ V}$$
+
+**Discussion**
+
+This relatively modest voltage of 30 V (less than that of a typical laptop charger) would be needed to counteract Earth's magnetic field effect on the electron beam. However, TVs were typically surrounded by ferromagnetic shielding (mu-metal) to reduce the influence of external magnetic fields, making this correction unnecessary in practice. The shielding approach is more practical than actively applying correcting fields, especially since Earth's field direction varies with the TV's orientation.
+
+**(a) The electric field strength needed is 3.00 kV/m (3000 V/m).**
+
+**(b) The voltage between the plates is 30.0 V.**
 
 </div>
 </div>
@@ -314,6 +562,68 @@ An electron in a TV CRT moves with a speed of  $$ 6.00 \times 10^{7}  \text{m/s}
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) At what speed will a proton move in a circular path of the same radius as the electron in [[Exercise1]](#Exercise1)? (b) What would the radius of the path be if the proton had the same speed as the electron? (c) What would the radius be if the proton had the same kinetic energy as the electron? (d) The same momentum?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use $$r = mv/(qB)$$ for all parts. For particles with the same charge magnitude, the radius depends on the mass-velocity product (momentum). We'll compare the proton and electron under different conditions specified in each part.
+
+**Solution**
+
+*Reference values from Exercise 1:*
+- Electron speed: $$v_e = 7.50 \times 10^{6} \text{ m/s}$$
+- Electron radius: $$r_e = 4.27 \text{ m}$$
+- Magnetic field: $$B = 1.00 \times 10^{-5} \text{ T}$$
+- Mass ratio: $$m_p/m_e = 1836$$
+
+**(a) Proton speed for same radius:**
+
+For the same radius with $$r = mv/(qB)$$ and same $$q$$ and $$B$$:
+
+$$\frac{r_p}{r_e} = \frac{m_p v_p}{m_e v_e}$$
+
+For $$r_p = r_e$$:
+
+$$v_p = v_e \frac{m_e}{m_p} = (7.50 \times 10^{6} \text{ m/s}) \times \frac{1}{1836}$$
+
+$$v_p = 4.08 \times 10^{3} \text{ m/s}$$
+
+**(b) Proton radius at same speed:**
+
+$$r_p = r_e \times \frac{m_p}{m_e} = 4.27 \text{ m} \times 1836 = 7840 \text{ m} = 7.84 \text{ km}$$
+
+**(c) Proton radius at same kinetic energy:**
+
+If $$\frac{1}{2}m_p v_p^2 = \frac{1}{2}m_e v_e^2$$, then $$v_p = v_e\sqrt{m_e/m_p}$$
+
+$$r_p = \frac{m_p v_p}{qB} = \frac{m_p v_e \sqrt{m_e/m_p}}{qB} = r_e \times \frac{m_p}{m_e}\sqrt{\frac{m_e}{m_p}} = r_e\sqrt{\frac{m_p}{m_e}}$$
+
+$$r_p = 4.27 \text{ m} \times \sqrt{1836} = 4.27 \times 42.8 = 183 \text{ m}$$
+
+**(d) Proton radius at same momentum:**
+
+If $$m_p v_p = m_e v_e$$, then $$v_p = v_e(m_e/m_p)$$
+
+$$r_p = \frac{m_p v_p}{qB} = \frac{m_p \cdot v_e(m_e/m_p)}{qB} = \frac{m_e v_e}{qB} = r_e$$
+
+$$r_p = 4.27 \text{ m}$$
+
+**Discussion**
+
+These results reveal important physics:
+- Part (d) shows that particles with the same momentum follow the same radius—this is because $$r = p/(qB)$$ where $$p = mv$$ is momentum.
+- Part (c) shows that at the same kinetic energy, the heavier proton has a larger radius by a factor of $$\sqrt{m_p/m_e} \approx 43$$.
+- Part (b) shows that at the same speed, the radius scales directly with mass.
+
+**(a) The proton speed would be $$4.08 \times 10^{3}$$ m/s (about 4 km/s).**
+
+**(b) The proton radius would be 7.84 km (7840 m).**
+
+**(c) The proton radius with equal kinetic energy would be 183 m.**
+
+**(d) The proton radius with equal momentum would be 4.27 m (same as the electron).**
 
 </div>
 </div>
@@ -326,7 +636,37 @@ A mass spectrometer is being used to separate common oxygen-16 from the much rar
 
 </div>
 <div class="solution" markdown="1">
-0\.173 m
+
+**Strategy**
+
+In a mass spectrometer, ions with the same charge and velocity but different masses follow circular paths with different radii. Since $$r = mv/(qB)$$, heavier ions follow larger-radius paths. After a semicircle, ions are separated by the difference in their diameters: separation = $$2(r_{18} - r_{16})$$.
+
+**Solution**
+
+*Known quantities:*
+- Mass of O-16: $$m_{16} = 2.66 \times 10^{-26} \text{ kg}$$
+- Mass ratio: $$m_{18}/m_{16} = 18/16$$, so $$m_{18} = 2.66 \times 10^{-26} \times (18/16) = 2.99 \times 10^{-26} \text{ kg}$$
+- Speed: $$v = 5.00 \times 10^{6} \text{ m/s}$$
+- Magnetic field: $$B = 1.20 \text{ T}$$
+- Charge: $$q = e = 1.60 \times 10^{-19} \text{ C}$$ (singly charged)
+
+*Calculate the radii:*
+
+$$r_{16} = \frac{m_{16}v}{qB} = \frac{(2.66 \times 10^{-26} \text{ kg})(5.00 \times 10^{6} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(1.20 \text{ T})}$$
+
+$$r_{16} = \frac{1.33 \times 10^{-19} \text{ kg·m/s}}{1.92 \times 10^{-19} \text{ C·T}} = 0.693 \text{ m}$$
+
+$$r_{18} = r_{16} \times \frac{m_{18}}{m_{16}} = 0.693 \times \frac{18}{16} = 0.780 \text{ m}$$
+
+*Separation after semicircle:*
+
+$$\text{Separation} = 2(r_{18} - r_{16}) = 2(0.780 - 0.693) = 2(0.0866) = 0.173 \text{ m}$$
+
+**Discussion**
+
+The separation of 17.3 cm is quite large and easily measurable. This is why mass spectrometry can distinguish isotopes with high precision. The key factor is the mass difference (12.5% between O-16 and O-18), which produces a proportional difference in radius. Paleoclimatologists use oxygen isotope ratios in ice cores to reconstruct ancient temperatures because the ratio of O-18 to O-16 in precipitation varies with temperature.
+
+**The separation between the oxygen-16 and oxygen-18 paths is 0.173 m (17.3 cm).**
 
 </div>
 </div>
@@ -337,6 +677,55 @@ A mass spectrometer is being used to separate common oxygen-16 from the much rar
  and  $$ 3.95 \times 10^{-25}  \text{kg} $$ ,
  respectively, and they travel at  $$ 3.00 \times 10^{5}  \text{m/s} $$
  in a 0.250-T field. What is the separation between their paths when they hit a target after traversing a semicircle? (b) Discuss whether this distance between their paths seems to be big enough to be practical in the separation of uranium-235 from uranium-238.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is similar to the oxygen isotope problem, but with triply charged ions ($$q = 3e$$) and heavier masses. We calculate the radius for each isotope using $$r = mv/(qB)$$, then find the separation as the difference in diameters.
+
+**Solution**
+
+*Known quantities:*
+- Mass of U-235: $$m_{235} = 3.90 \times 10^{-25} \text{ kg}$$
+- Mass of U-238: $$m_{238} = 3.95 \times 10^{-25} \text{ kg}$$
+- Speed: $$v = 3.00 \times 10^{5} \text{ m/s}$$
+- Magnetic field: $$B = 0.250 \text{ T}$$
+- Charge: $$q = 3e = 3(1.60 \times 10^{-19} \text{ C}) = 4.80 \times 10^{-19} \text{ C}$$
+
+**(a) Calculate the radii:**
+
+$$r_{235} = \frac{m_{235}v}{qB} = \frac{(3.90 \times 10^{-25} \text{ kg})(3.00 \times 10^{5} \text{ m/s})}{(4.80 \times 10^{-19} \text{ C})(0.250 \text{ T})}$$
+
+$$r_{235} = \frac{1.17 \times 10^{-19} \text{ kg·m/s}}{1.20 \times 10^{-19} \text{ C·T}} = 0.975 \text{ m}$$
+
+$$r_{238} = \frac{m_{238}v}{qB} = \frac{(3.95 \times 10^{-25} \text{ kg})(3.00 \times 10^{5} \text{ m/s})}{(4.80 \times 10^{-19} \text{ C})(0.250 \text{ T})}$$
+
+$$r_{238} = \frac{1.185 \times 10^{-19} \text{ kg·m/s}}{1.20 \times 10^{-19} \text{ C·T}} = 0.988 \text{ m}$$
+
+*Separation after semicircle:*
+
+$$\text{Separation} = 2(r_{238} - r_{235}) = 2(0.988 - 0.975) = 2(0.0125) = 0.025 \text{ m} = 2.5 \text{ cm}$$
+
+**(b) Practical considerations:**
+
+A separation of 2.5 cm is large enough to be practical for separating uranium isotopes. This is detectable and sufficient for directing the ion beams into separate collectors. However, several challenges make large-scale separation difficult:
+
+- The mass difference between U-235 and U-238 is only about 1.3%, requiring precision equipment
+- High throughput is needed since natural uranium is only 0.7% U-235
+- Multiple passes through the separator increase enrichment level
+- The process is energy-intensive and slow
+
+During World War II, electromagnetic separation (calutrons) using this principle was one method used to enrich uranium for the first atomic bombs at Oak Ridge, Tennessee. Today, gas centrifuge technology is more efficient for large-scale enrichment.
+
+**Discussion**
+
+The small mass difference between U-235 and U-238 (compared to oxygen isotopes) results in smaller separation. However, 2.5 cm is still workable with precision engineering. Modern mass spectrometers can resolve mass differences much smaller than this.
+
+**(a) The separation between U-235 and U-238 paths is 0.025 m (2.5 cm).**
+
+**(b) Yes, 2.5 cm is large enough to be practical for isotope separation. While challenging, electromagnetic separation was historically used to enrich uranium, and this separation distance is sufficient for collecting the isotopes separately.**
 
 </div>
 </div>
