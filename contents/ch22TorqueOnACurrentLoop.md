@@ -151,9 +151,40 @@ Draw a diagram and use RHR-1 to show that the forces on the top and bottom segme
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$\tau $$ decreases by 5.00% if B decreases by 5.00%
 
-(b) 5.26% increase
+**Strategy**
+
+Since torque is $$\tau = NIAB\sin\theta$$, it is directly proportional to the magnetic field strength $$B$$. If $$B$$ decreases by some percentage, $$\tau$$ decreases by the same percentage. To restore the original torque with reduced $$B$$, we must increase $$I$$ proportionally.
+
+**Solution**
+
+**(a) Percent decrease in torque:**
+
+Since $$\tau \propto B$$:
+
+$$\frac{\Delta\tau}{\tau_0} = \frac{\Delta B}{B_0}$$
+
+If $$B$$ decreases by 5.00%, then $$\tau$$ also **decreases by 5.00%**.
+
+**(b) Required current increase:**
+
+Let $$B' = 0.950 B_0$$ (5% reduction). For the torque to return to $$\tau_0$$:
+
+$$\tau_0 = NI'AB'\sin\theta = NI'A(0.950 B_0)\sin\theta$$
+
+Since originally $$\tau_0 = NI_0AB_0\sin\theta$$:
+
+$$I' = \frac{I_0}{0.950} = 1.0526 I_0$$
+
+The current must increase by $$\frac{1.0526 - 1}{1} \times 100\% = 5.26\%$$.
+
+**Discussion**
+
+This is an inverse proportionality: a 5% decrease in $$B$$ requires slightly more than a 5% increase in $$I$$ to compensate (specifically, $$1/0.95 = 1.0526$$). This relationship is important for motor performance as permanent magnets age and lose strength.
+
+**(a) The torque decreases by 5.00%.**
+
+**(b) The current must increase by 5.26% to restore the original torque.**
 
 </div>
 </div>
@@ -161,6 +192,44 @@ Draw a diagram and use RHR-1 to show that the forces on the top and bottom segme
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) What is the maximum torque on a 150-turn square loop of wire 18.0 cm on a side that carries a 50.0-A current in a 1.60-T field? (b) What is the torque when  $$\theta  $$  is  $$ 10.9º$$ ?
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use $$\tau = NIAB\sin\theta$$. Maximum torque occurs when $$\sin\theta = 1$$ (i.e., $$\theta = 90°$$). The area of the square loop is $$A = s^2$$ where $$s$$ is the side length.
+
+**Solution**
+
+*Known quantities:*
+- Number of turns: $$N = 150$$
+- Side length: $$s = 18.0 \text{ cm} = 0.180 \text{ m}$$
+- Current: $$I = 50.0 \text{ A}$$
+- Magnetic field: $$B = 1.60 \text{ T}$$
+
+*Area of the loop:*
+$$A = s^2 = (0.180 \text{ m})^2 = 0.0324 \text{ m}^2$$
+
+**(a) Maximum torque ($$\theta = 90°$$):**
+
+$$\tau_{\max} = NIAB = (150)(50.0 \text{ A})(0.0324 \text{ m}^2)(1.60 \text{ T})$$
+
+$$\tau_{\max} = 389 \text{ N·m}$$
+
+**(b) Torque at $$\theta = 10.9°$$:**
+
+$$\tau = NIAB\sin\theta = (389 \text{ N·m})(\sin 10.9°)$$
+
+$$\tau = (389)(0.189) = 73.5 \text{ N·m}$$
+
+**Discussion**
+
+The torque of 389 N·m at maximum is quite large—comparable to the torque output of a small car engine. At $$\theta = 10.9°$$, the torque drops to about 19% of maximum because $$\sin(10.9°) \approx 0.19$$. Motors are designed to operate near $$\theta = 90°$$ for maximum efficiency.
+
+**(a) The maximum torque is 389 N·m.**
+
+**(b) The torque at $$\theta = 10.9°$$ is 73.5 N·m.**
+
 </div>
 </div>
 
@@ -171,7 +240,35 @@ Find the current through a loop needed to create a maximum torque of  $$9.00 \te
 
 </div>
 <div class="solution"  markdown="1">
-10.0 A
+
+**Strategy**
+
+We use $$\tau_{\max} = NIAB$$ and solve for $$I$$. The area of the square loop is $$A = s^2$$.
+
+**Solution**
+
+*Known quantities:*
+- Maximum torque: $$\tau_{\max} = 9.00 \text{ N·m}$$
+- Number of turns: $$N = 50$$
+- Side length: $$s = 15.0 \text{ cm} = 0.150 \text{ m}$$
+- Magnetic field: $$B = 0.800 \text{ T}$$
+
+*Area:*
+$$A = s^2 = (0.150 \text{ m})^2 = 0.0225 \text{ m}^2$$
+
+Solving for current:
+
+$$I = \frac{\tau_{\max}}{NAB}$$
+
+$$I = \frac{9.00 \text{ N·m}}{(50)(0.0225 \text{ m}^2)(0.800 \text{ T})}$$
+
+$$I = \frac{9.00}{0.900} = 10.0 \text{ A}$$
+
+**Discussion**
+
+This is a moderate current for a practical motor or demonstration device. The loop would need to handle 10 A without overheating, which requires appropriately sized wire.
+
+**The required current is 10.0 A.**
 
 </div>
 </div>
@@ -179,6 +276,36 @@ Find the current through a loop needed to create a maximum torque of  $$9.00 \te
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Calculate the magnetic field strength needed on a 200-turn square loop 20.0 cm on a side to create a maximum torque of  $$300 \text{N}\cdot \text{m} $$  if the loop is carrying 25.0 A.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use $$\tau_{\max} = NIAB$$ and solve for $$B$$.
+
+**Solution**
+
+*Known quantities:*
+- Maximum torque: $$\tau_{\max} = 300 \text{ N·m}$$
+- Number of turns: $$N = 200$$
+- Side length: $$s = 20.0 \text{ cm} = 0.200 \text{ m}$$
+- Current: $$I = 25.0 \text{ A}$$
+
+*Area:*
+$$A = s^2 = (0.200 \text{ m})^2 = 0.0400 \text{ m}^2$$
+
+$$B = \frac{\tau_{\max}}{NIA}$$
+
+$$B = \frac{300 \text{ N·m}}{(200)(25.0 \text{ A})(0.0400 \text{ m}^2)}$$
+
+$$B = \frac{300}{200} = 1.50 \text{ T}$$
+
+**Discussion**
+
+A 1.50 T field is achievable with strong permanent magnets or electromagnets. This torque of 300 N·m is substantial—comparable to a car engine.
+
+**The required magnetic field strength is 1.50 T.**
 
 </div>
 </div>
@@ -189,7 +316,36 @@ Since the equation for torque on a current-carrying loop is  $$\tau =NIAB \sin \
 
 </div>
 <div class="solution" markdown="1">
- $$\text{A} \cdot {m}^{2}\cdot \text{T}=\text{A} \cdot {m}^{2}\left(\frac{N}{\text{A} \cdot \text{m}}\right)=\text{N} \cdot \text{m} $$.
+
+**Strategy**
+
+We use the definition of the tesla in terms of base SI units: $$1 \text{ T} = 1 \text{ N/(A·m)}$$, and show that the units work out correctly.
+
+**Solution**
+
+Starting with the units on the right side:
+
+$$[\text{A} \cdot \text{m}^2 \cdot \text{T}]$$
+
+Substituting the definition of tesla:
+
+$$= \text{A} \cdot \text{m}^2 \cdot \frac{\text{N}}{\text{A} \cdot \text{m}}$$
+
+The amperes cancel:
+
+$$= \text{m}^2 \cdot \frac{\text{N}}{\text{m}}$$
+
+One meter cancels:
+
+$$= \text{m} \cdot \text{N} = \text{N·m}$$
+
+This confirms that $$[\text{A} \cdot \text{m}^2 \cdot \text{T}] = [\text{N·m}]$$ ✓
+
+**Discussion**
+
+This dimensional analysis verifies the consistency of the torque equation. The tesla was defined precisely so that electromagnetic equations like this one have consistent units. The fact that $$N$$ (number of turns) and $$\sin\theta$$ are dimensionless doesn't affect this analysis.
+
+**Verified: $$\text{A} \cdot \text{m}^{2} \cdot \text{T} = \text{A} \cdot \text{m}^{2} \cdot \frac{\text{N}}{\text{A} \cdot \text{m}} = \text{N·m}$$.**
 
 </div>
 </div>
@@ -198,6 +354,43 @@ Since the equation for torque on a current-carrying loop is  $$\tau =NIAB \sin \
 <div class="problem" markdown="1">
 (a) At what angle  $$\theta  $$
  is the torque on a current loop 90.0% of maximum? (b) 50.0% of maximum? (c) 10.0% of maximum?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Since $$\tau = \tau_{\max}\sin\theta$$, we have $$\tau/\tau_{\max} = \sin\theta$$. We solve for $$\theta = \arcsin(\tau/\tau_{\max})$$.
+
+**Solution**
+
+**(a) 90.0% of maximum:**
+
+$$\sin\theta = 0.900$$
+
+$$\theta = \arcsin(0.900) = 64.2°$$
+
+**(b) 50.0% of maximum:**
+
+$$\sin\theta = 0.500$$
+
+$$\theta = \arcsin(0.500) = 30.0°$$
+
+**(c) 10.0% of maximum:**
+
+$$\sin\theta = 0.100$$
+
+$$\theta = \arcsin(0.100) = 5.74°$$
+
+**Discussion**
+
+These results show that torque drops off slowly at first but then rapidly as $$\theta$$ decreases. At 64°, we still have 90% of max torque, but we need to be at only 5.7° to get down to 10%. This is because the sine function has its steepest slope near $$\theta = 0°$$. Motors use commutators to keep the coil near $$\theta = 90°$$ where torque is maximum.
+
+**(a) $$\theta = 64.2°$$**
+
+**(b) $$\theta = 30.0°$$**
+
+**(c) $$\theta = 5.74°$$**
 
 </div>
 </div>
@@ -209,30 +402,150 @@ A proton has a magnetic field due to its spin on its axis. The field is similar 
 
 </div>
 <div class="solution" markdown="1">
- $$ 3.48 \times 10^{-26} \text{N} \cdot \text{m} $$
+
+**Strategy**
+
+We model the proton's magnetic moment as a circular current loop and use the torque formula $$\tau_{\max} = NIAB$$. The area is $$A = \pi r^2$$ where $$r$$ is the "radius" of the effective current loop.
+
+**Solution**
+
+*Known quantities:*
+- Equivalent radius: $$r = 0.650 \times 10^{-15} \text{ m}$$
+- Equivalent current: $$I = 1.05 \times 10^{4} \text{ A}$$
+- Magnetic field: $$B = 2.50 \text{ T}$$
+- Number of turns: $$N = 1$$
+
+*Area of the loop:*
+$$A = \pi r^2 = \pi (0.650 \times 10^{-15} \text{ m})^2 = 1.33 \times 10^{-30} \text{ m}^2$$
+
+*Maximum torque:*
+$$\tau_{\max} = NIAB = (1)(1.05 \times 10^{4} \text{ A})(1.33 \times 10^{-30} \text{ m}^2)(2.50 \text{ T})$$
+
+$$\tau_{\max} = 3.49 \times 10^{-26} \text{ N·m}$$
+
+**Discussion**
+
+This tiny torque on a single proton is indeed significant at the atomic scale. It's responsible for nuclear magnetic resonance (NMR) and MRI imaging. The torque causes protons to precess in the magnetic field at a characteristic frequency (the Larmor frequency), which is detected to create medical images. The enormous "equivalent current" comes from the extremely rapid quantum mechanical spin of the proton.
+
+**The maximum torque on the proton is $$3.48 \times 10^{-26}$$ N·m.**
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) A 200-turn circular loop of radius 50.0 cm is vertical, with its axis on an east-west line. A current of 100 A circulates clockwise in the loop when viewed from the east. The Earth’s field here is due north, parallel to the ground, with a strength of  $$ 3.00 \times 10^{-5} \text{T} $$ .
+(a) A 200-turn circular loop of radius 50.0 cm is vertical, with its axis on an east-west line. A current of 100 A circulates clockwise in the loop when viewed from the east. The Earth's field here is due north, parallel to the ground, with a strength of  $$ 3.00 \times 10^{-5} \text{T} $$ .
  What are the direction and magnitude of the torque on the loop? (b) Does this device have any practical applications as a motor?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The loop is vertical with its axis east-west, and the field points north. The magnetic moment of the loop points along its axis. We need to find the angle between the magnetic moment and the field to calculate torque. The direction comes from the right-hand rule for magnetic moment (fingers curl with current, thumb points along moment).
+
+**Solution**
+
+*Known quantities:*
+- Number of turns: $$N = 200$$
+- Radius: $$r = 50.0 \text{ cm} = 0.500 \text{ m}$$
+- Current: $$I = 100 \text{ A}$$
+- Magnetic field: $$B = 3.00 \times 10^{-5} \text{ T}$$ (pointing north)
+
+*Area of the loop:*
+$$A = \pi r^2 = \pi (0.500)^2 = 0.785 \text{ m}^2$$
+
+**(a) Magnitude and direction:**
+
+The loop is vertical with axis east-west. Current flows clockwise when viewed from the east, so by the right-hand rule, the magnetic moment points **west**.
+
+The field points north. The angle between the moment (west) and the field (north) is $$\theta = 90°$$.
+
+$$\tau = NIAB\sin\theta = NIAB$$
+
+$$\tau = (200)(100 \text{ A})(0.785 \text{ m}^2)(3.00 \times 10^{-5} \text{ T})$$
+
+$$\tau = 0.471 \text{ N·m}$$
+
+Direction: The torque is $$\boldsymbol{\tau} = \boldsymbol{\mu} \times \boldsymbol{B}$$ (west × north = upward, but torque tends to align moment with field). The torque acts to rotate the loop so that its moment aligns with the field—this means the torque is directed **downward** (or the loop tries to tip so the west-pointing moment rotates toward north).
+
+**(b) Practical application as a motor:**
+
+This would be an impractical motor:
+- The torque of 0.47 N·m is very weak for the size and current
+- Earth's field is too weak for practical motor applications
+- The current would need to be reversed to continue rotation
+- Efficiency would be extremely low
+
+**Discussion**
+
+Motors require strong magnetic fields (typically 0.1–2 T from permanent magnets or electromagnets), not Earth's field ($$\sim 3 \times 10^{-5}$$ T). The field is about 10,000 times too weak for practical use.
+
+**(a) The torque magnitude is 0.471 N·m. The direction is such that the loop tends to rotate about a vertical axis, bringing the magnetic moment from west toward north.**
+
+**(b) This device would not be practical as a motor due to the extremely weak torque from Earth's field, which is about 10,000 times weaker than fields used in actual motors.**
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Repeat [[Exercise 1]](#Exercise1), but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth’s field is north, but at an angle  $$ 45.0º $$
+Repeat [[Exercise 1]](#Exercise1), but with the loop lying flat on the ground with its current circulating counterclockwise (when viewed from above) in a location where the Earth's field is north, but at an angle  $$ 45.0º $$
  below the horizontal and with a strength of  $$6.00\times 10^{-5} \text{T} $$.
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$0.666 \text{N}\cdot \text{m} $$  west
 
-(b) This is not a very significant torque, so practical use would be limited.
-Also, the current would need to be alternated to make the loop rotate (otherwise
-it would oscillate).
+**Strategy**
+
+With the loop flat on the ground and current counterclockwise (viewed from above), the magnetic moment points **upward** (by right-hand rule). The field points north but 45° below horizontal, so it has both a horizontal (north) and vertical (downward) component. Only the horizontal component creates torque.
+
+**Solution**
+
+*Known quantities (same as Exercise 1):*
+- $$N = 200$$, $$r = 0.500$$ m, $$I = 100$$ A
+- $$A = 0.785 \text{ m}^2$$
+- Magnetic field: $$B = 6.00 \times 10^{-5} \text{ T}$$, 45° below horizontal
+
+**(a) Magnitude and direction:**
+
+The magnetic moment $$\boldsymbol{\mu}$$ points upward (out of the ground).
+
+The field has components:
+- Horizontal: $$B_H = B\cos(45°) = (6.00 \times 10^{-5})\cos(45°)$$ (north)
+- Vertical: $$B_V = B\sin(45°)$$ (downward)
+
+The angle between the upward moment and the field (pointing north and downward at 45°) is $$90° + 45° = 135°$$ from the horizontal field component's perspective. However, since the moment is vertical, we find the torque as:
+
+$$\tau = NIAB\sin\theta$$
+
+The angle $$\theta$$ between the magnetic moment (vertical, upward) and the field (north, 45° below horizontal) is:
+
+$$\theta = 90° + 45° = 135°$$ from moment to field...
+
+Actually, more simply: the moment is perpendicular to the horizontal, so the torque comes from the horizontal component of $$B$$:
+
+$$\tau = NIAB_H = NIA(B\cos 45°)$$
+
+$$\tau = (200)(100)(0.785)(6.00 \times 10^{-5})(\cos 45°)$$
+
+$$\tau = (200)(100)(0.785)(6.00 \times 10^{-5})(0.707)$$
+
+$$\tau = 0.666 \text{ N·m}$$
+
+Direction: $$\boldsymbol{\tau} = \boldsymbol{\mu} \times \boldsymbol{B}$$. With moment up and horizontal field component north, the torque points **west**.
+
+**(b) Practical considerations:**
+
+Same as before—this is not practical as a motor due to the weak field of Earth.
+
+**Discussion**
+
+The vertical component of the field doesn't contribute to torque because it's parallel to the magnetic moment. Only the horizontal component ($$B\cos 45°$$) creates torque.
+
+**(a) The torque is 0.666 N·m directed west.**
+
+**(b) This would not be practical as a motor. The torque is weak, and the current would need to alternate to produce continuous rotation (otherwise the loop would just oscillate about its equilibrium position).**
 
 </div>
 </div>
