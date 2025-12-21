@@ -388,11 +388,62 @@ a Merry-Go-Round](#calculatingTheEffectOfMass).
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.338 s
 
-(b) 0.0403 rev
+**Strategy**
 
-(c) 0.313 s
+This problem builds on the merry-go-round example. We'll use the angular acceleration found there (α = 4.44 rad/s² with the child on board) and the total moment of inertia (I = 84.38 kg·m²). We apply rotational kinematics for parts (a) and (b), and for part (c), we calculate a new torque and angular acceleration for the stopping motion.
+
+**Solution**
+
+**(a)** To find the time to reach ω = 1.50 rad/s starting from rest:
+
+Using the rotational kinematic equation:
+
+<div class="equation">
+$$ \omega = \omega_0 + \alpha t $$
+</div>
+
+With ω₀ = 0:
+
+<div class="equation">
+$$ t = \frac{\omega}{\alpha} = \frac{1.50 \text{ rad/s}}{4.44 \radss} = 0.338 \s $$
+</div>
+
+**(b)** To find the angular displacement (in revolutions):
+
+<div class="equation">
+$$ \theta = \omega_0 t + \frac{1}{2}\alpha t^2 = 0 + \frac{1}{2}(4.44 \radss)(0.338 \s)^2 = 0.253 \text{ rad} $$
+</div>
+
+Converting to revolutions:
+
+<div class="equation">
+$$ \theta = \frac{0.253 \text{ rad}}{2\pi \text{ rad/rev}} = 0.0403 \text{ rev} $$
+</div>
+
+**(c)** For stopping with F = 300 N at r = 1.35 m:
+
+The opposing torque is:
+
+<div class="equation">
+$$ \tau = Fr = (300 \N)(1.35 \m) = 405 \N \cdot \m $$
+</div>
+
+The angular deceleration is:
+
+<div class="equation">
+$$ \alpha = \frac{\tau}{I} = \frac{405 \N \cdot \m}{84.38 \kg \cdot \mm} = 4.80 \radss $$
+</div>
+
+Time to stop from ω = 1.50 rad/s:
+
+<div class="equation">
+$$ t = \frac{\omega}{\alpha} = \frac{1.50 \text{ rad/s}}{4.80 \radss} = 0.313 \s $$
+</div>
+
+**Discussion**
+
+Notice that applying a larger force (300 N vs 250 N) at a slightly smaller radius (1.35 m vs 1.50 m) produces a larger torque (405 N·m vs 375 N·m), resulting in a faster deceleration than the original acceleration. This is why the stopping time (0.313 s) is slightly less than the time needed to reach the same angular velocity (0.338 s).
 
 </div>
 </div>
@@ -402,6 +453,51 @@ a Merry-Go-Round](#calculatingTheEffectOfMass).
 Calculate the moment of inertia of a skater given the following information.
 (a) The 60.0-kg skater is approximated as a cylinder that has a 0.110-m radius.
 (b) The skater with arms extended is approximately a cylinder that is 52.5 kg, has a 0.110-m radius, and has two 0.900-m-long arms which are 3.75 kg each and extend straight out from the cylinder like rods rotated about their ends.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We calculate the moment of inertia using the formulas for standard shapes. For part (a), we use the formula for a solid cylinder rotating about its central axis: I = ½MR². For part (b), we add the moment of inertia of the cylinder (body) to the moments of inertia of the two arms, treating each arm as a rod rotating about one end: I = ⅓ML².
+
+**Solution**
+
+**(a)** For the skater approximated as a cylinder (M = 60.0 kg, R = 0.110 m):
+
+<div class="equation">
+$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(60.0 \kg)(0.110 \m)^2 = 0.363 \kg \cdot \mm $$
+</div>
+
+**(b)** For the skater with arms extended:
+
+First, find the moment of inertia of the body (cylinder with M = 52.5 kg, R = 0.110 m):
+
+<div class="equation">
+$$ I_{\text{body}} = \frac{1}{2}MR^2 = \frac{1}{2}(52.5 \kg)(0.110 \m)^2 = 0.318 \kg \cdot \mm $$
+</div>
+
+Next, find the moment of inertia of each arm (rod with m = 3.75 kg, L = 0.900 m, rotating about one end):
+
+<div class="equation">
+$$ I_{\text{arm}} = \frac{1}{3}mL^2 = \frac{1}{3}(3.75 \kg)(0.900 \m)^2 = 1.01 \kg \cdot \mm $$
+</div>
+
+For two arms:
+
+<div class="equation">
+$$ I_{\text{arms}} = 2 \times 1.01 \kg \cdot \mm = 2.03 \kg \cdot \mm $$
+</div>
+
+Total moment of inertia:
+
+<div class="equation">
+$$ I_{\text{total}} = I_{\text{body}} + I_{\text{arms}} = 0.318 \kg \cdot \mm + 2.03 \kg \cdot \mm = 2.34 \kg \cdot \mm $$
+</div>
+
+**Discussion**
+
+Extending the arms increases the moment of inertia by a factor of about 6.4 (from 0.363 to 2.34 kg·m²). This dramatic increase is why figure skaters spin faster when they pull their arms in—angular momentum is conserved, so reducing I causes ω to increase proportionally.
 
 </div>
 </div>
@@ -416,7 +512,28 @@ inertia of the boxer’s forearm?
 
 </div>
 <div class="solution" markdown="1">
- $$ 0.50 \kg \cdot \mm $$
+
+**Strategy**
+
+We use the rotational form of Newton's second law, τ = Iα. The torque is produced by the muscle force acting at a perpendicular distance (lever arm) from the pivot point (elbow). We can solve for the moment of inertia I = τ/α.
+
+**Solution**
+
+First, calculate the torque produced by the triceps muscle:
+
+<div class="equation">
+$$ \tau = Fr = (2.00 \times 10^3 \N)(0.0300 \m) = 60.0 \N \cdot \m $$
+</div>
+
+Now solve for the moment of inertia using τ = Iα:
+
+<div class="equation">
+$$ I = \frac{\tau}{\alpha} = \frac{60.0 \N \cdot \m}{120 \radss} = 0.50 \kg \cdot \mm $$
+</div>
+
+**Discussion**
+
+This moment of inertia is reasonable for a human forearm. The small lever arm (3.00 cm) requires a large muscle force (2000 N) to produce significant torque, which is characteristic of the human body's biomechanics—muscles insert close to joints for compact design, trading mechanical advantage for range of motion.
 
 </div>
 </div>
@@ -431,6 +548,31 @@ and her lower leg has a moment of inertia of $$ 0.750 \kg \cdot
 perpendicular lever arm is 1.90 cm?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem is the reverse of the boxer problem—here we know the moment of inertia and angular acceleration, and we need to find the force. We first calculate the required torque using τ = Iα, then find the force using τ = Fr.
+
+**Solution**
+
+First, calculate the torque needed to produce the angular acceleration:
+
+<div class="equation">
+$$ \tau = I\alpha = (0.750 \kg \cdot \mm)(30.00 \radss) = 22.5 \N \cdot \m $$
+</div>
+
+Now solve for the muscle force:
+
+<div class="equation">
+$$ F = \frac{\tau}{r} = \frac{22.5 \N \cdot \m}{0.0190 \m} = 1.18 \times 10^3 \N $$
+</div>
+
+**Discussion**
+
+The quadriceps muscle must exert about 1200 N (roughly 270 lbs of force) to produce this angular acceleration of the lower leg. As in the boxer example, the small lever arm (1.90 cm) means the muscle must exert a large force. This is typical of biological systems, where muscles sacrifice mechanical advantage for compact anatomy and a greater range of motion.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -443,10 +585,52 @@ an opposing frictional force of 20.0 N exerted 1.50 cm from the axis?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 50.4 N\cdot \m $$
 
-(b) $$ 17.1 \radss $$
-(c) $$ 17.0 \radss $$
+**Strategy**
+
+For part (a), we calculate torque directly using τ = Fr. For parts (b) and (c), we need the moment of inertia of the grindstone (a solid disk: I = ½MR²) to find the angular acceleration using α = τ/I. In part (c), friction creates an opposing torque that reduces the net torque.
+
+**Solution**
+
+**(a)** The torque exerted by the tangential force:
+
+<div class="equation">
+$$ \tau = Fr = (180 \N)(0.280 \m) = 50.4 \N \cdot \m $$
+</div>
+
+**(b)** First, calculate the moment of inertia of the solid disk:
+
+<div class="equation">
+$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(75.0 \kg)(0.280 \m)^2 = 2.94 \kg \cdot \mm $$
+</div>
+
+The angular acceleration with no friction:
+
+<div class="equation">
+$$ \alpha = \frac{\tau}{I} = \frac{50.4 \N \cdot \m}{2.94 \kg \cdot \mm} = 17.1 \radss $$
+</div>
+
+**(c)** The friction force creates an opposing torque:
+
+<div class="equation">
+$$ \tau_{\text{friction}} = F_f r_f = (20.0 \N)(0.0150 \m) = 0.300 \N \cdot \m $$
+</div>
+
+The net torque is:
+
+<div class="equation">
+$$ \tau_{\text{net}} = \tau - \tau_{\text{friction}} = 50.4 \N \cdot \m - 0.300 \N \cdot \m = 50.1 \N \cdot \m $$
+</div>
+
+The angular acceleration with friction:
+
+<div class="equation">
+$$ \alpha = \frac{\tau_{\text{net}}}{I} = \frac{50.1 \N \cdot \m}{2.94 \kg \cdot \mm} = 17.0 \radss $$
+</div>
+
+**Discussion**
+
+The friction barely affects the angular acceleration because it acts very close to the axis (1.50 cm). Even though 20 N is a significant force, the small lever arm means the friction torque is only 0.300 N·m—less than 1% of the applied torque. Friction would be much more effective at slowing the grindstone if it acted at a larger radius.
 
 </div>
 </div>
@@ -463,11 +647,58 @@ to be approximately an annular ring with an inner radius of 0.280 m and an outer
 {: #Figure6}
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The motorcycle wheel is approximated as an annular ring (a ring with inner and outer radii). Its moment of inertia is I = ½M(R₁² + R₂²). We calculate the torque from the chain, find the angular acceleration, then use rotational kinematics.
+
+**Solution**
+
+**(a)** First, calculate the moment of inertia of the annular ring:
+
+<div class="equation">
+$$ I = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(12.0 \kg)\left[(0.280 \m)^2 + (0.330 \m)^2\right] $$
+</div>
+
+<div class="equation">
+$$ I = \frac{1}{2}(12.0 \kg)(0.0784 \mm + 0.1089 \mm) = \frac{1}{2}(12.0 \kg)(0.1873 \mm) = 1.12 \kg \cdot \mm $$
+</div>
+
+The torque from the chain:
+
+<div class="equation">
+$$ \tau = Fr = (2200 \N)(0.0500 \m) = 110 \N \cdot \m $$
+</div>
+
+The angular acceleration:
+
+<div class="equation">
+$$ \alpha = \frac{\tau}{I} = \frac{110 \N \cdot \m}{1.12 \kg \cdot \mm} = 98.2 \radss $$
+</div>
+
+**(b)** The tangential acceleration at the outer edge of the tire (R₂ = 0.330 m):
+
+<div class="equation">
+$$ a_t = R_2 \alpha = (0.330 \m)(98.2 \radss) = 32.4 \text{ m/s}^2 $$
+</div>
+
+**(c)** Time to reach ω = 80.0 rad/s from rest:
+
+<div class="equation">
+$$ t = \frac{\omega - \omega_0}{\alpha} = \frac{80.0 \text{ rad/s} - 0}{98.2 \radss} = 0.815 \s $$
+</div>
+
+**Discussion**
+
+The wheel reaches 80.0 rad/s (about 760 rpm) in less than a second, which corresponds to a linear speed of v = Rω = (0.330)(80.0) = 26.4 m/s ≈ 95 km/h at the tire's edge. The relatively small moment of inertia allows for quick acceleration, which is important for motorcycle performance.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Zorch, an archenemy of Superman, decides to slow Earth’s rotation to once per 28.0 h
+Zorch, an archenemy of Superman, decides to slow Earth's rotation to once per 28.0 h
 by exerting an opposing force
 at and parallel to the equator. Superman is not immediately concerned,
 because he knows Zorch can only exert a force of $$ 4.00\times 10^{7}\N $$
@@ -479,9 +710,66 @@ in [Problem-Solving Strategy for Rotational Dynamics](#problemSolving) .
 
 </div>
 <div class="solution" markdown="1">
- $$ 3.96\times 10^{18}\s $$
 
-or $$ 1.26\times 10^{11}\text{y} $$
+**Strategy**
+
+Following the Problem-Solving Strategy for Rotational Dynamics:
+1. *Identify*: We need to slow Earth's rotation, so torque and moment of inertia are involved.
+2. *System of interest*: Earth, rotating about its axis.
+3. *Free body*: Zorch applies a tangential force at the equator, creating an opposing torque.
+4. *Apply τ = Iα*: We'll find the angular deceleration, then use kinematics to find the time.
+
+**Solution**
+
+First, determine the initial and final angular velocities:
+
+<div class="equation">
+$$ \omega_0 = \frac{2\pi}{T_0} = \frac{2\pi}{24.0 \times 3600 \s} = 7.27 \times 10^{-5} \text{ rad/s} $$
+</div>
+
+<div class="equation">
+$$ \omega = \frac{2\pi}{T} = \frac{2\pi}{28.0 \times 3600 \s} = 6.24 \times 10^{-5} \text{ rad/s} $$
+</div>
+
+The required change in angular velocity:
+
+<div class="equation">
+$$ \Delta\omega = \omega_0 - \omega = 7.27 \times 10^{-5} - 6.24 \times 10^{-5} = 1.03 \times 10^{-5} \text{ rad/s} $$
+</div>
+
+Earth's moment of inertia (approximating as a uniform solid sphere, M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m):
+
+<div class="equation">
+$$ I = \frac{2}{5}MR^2 = \frac{2}{5}(5.97 \times 10^{24} \kg)(6.37 \times 10^6 \m)^2 = 9.69 \times 10^{37} \kg \cdot \mm $$
+</div>
+
+The torque Zorch produces at the equator:
+
+<div class="equation">
+$$ \tau = FR = (4.00 \times 10^7 \N)(6.37 \times 10^6 \m) = 2.55 \times 10^{14} \N \cdot \m $$
+</div>
+
+The angular deceleration:
+
+<div class="equation">
+$$ \alpha = \frac{\tau}{I} = \frac{2.55 \times 10^{14} \N \cdot \m}{9.69 \times 10^{37} \kg \cdot \mm} = 2.63 \times 10^{-24} \radss $$
+</div>
+
+Time required:
+
+<div class="equation">
+$$ t = \frac{\Delta\omega}{\alpha} = \frac{1.03 \times 10^{-5} \text{ rad/s}}{2.63 \times 10^{-24} \radss} = 3.96 \times 10^{18} \s $$
+</div>
+
+Converting to years:
+
+<div class="equation">
+$$ t = \frac{3.96 \times 10^{18} \s}{3.156 \times 10^7 \text{ s/y}} = 1.26 \times 10^{11} \text{ y} $$
+</div>
+
+**Discussion**
+
+Superman has plenty of time—126 billion years is about 9 times the current age of the universe! This illustrates the enormous moment of inertia of Earth. Even with a force greater than a Saturn V rocket, the tiny angular deceleration (about 10⁻²⁴ rad/s²) means Zorch's plan is essentially impossible on any practical timescale.
 
 </div>
 </div>
@@ -489,6 +777,74 @@ or $$ 1.26\times 10^{11}\text{y} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 An automobile engine can produce 200 N ∙ m of torque. Calculate the angular acceleration produced if 95.0% of this torque is applied to the drive shaft, axle, and rear wheels of a car, given the following information. The car is suspended so that the wheels can turn freely. Each wheel acts like a 15.0 kg disk that has a 0.180 m radius. The walls of each tire act like a 2.00-kg annular ring that has inside radius of 0.180 m and outside radius of 0.320 m. The tread of each tire acts like a 10.0-kg hoop of radius 0.330 m. The 14.0-kg axle acts like a rod that has a 2.00-cm radius. The 30.0-kg drive shaft acts like a rod that has a 3.20-cm radius.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to calculate the total moment of inertia of the rotating system (two wheels, axle, and drive shaft), then apply α = τ/I. Each component uses a different moment of inertia formula based on its shape.
+
+**Solution**
+
+First, calculate the applied torque:
+
+<div class="equation">
+$$ \tau = 0.950 \times 200 \N \cdot \m = 190 \N \cdot \m $$
+</div>
+
+Now calculate the moment of inertia for each component:
+
+**For each wheel** (there are two rear wheels):
+
+Disk (wheel center):
+<div class="equation">
+$$ I_{\text{disk}} = \frac{1}{2}MR^2 = \frac{1}{2}(15.0 \kg)(0.180 \m)^2 = 0.243 \kg \cdot \mm $$
+</div>
+
+Tire walls (annular ring):
+<div class="equation">
+$$ I_{\text{walls}} = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(2.00 \kg)\left[(0.180 \m)^2 + (0.320 \m)^2\right] = 0.135 \kg \cdot \mm $$
+</div>
+
+Tread (hoop):
+<div class="equation">
+$$ I_{\text{tread}} = MR^2 = (10.0 \kg)(0.330 \m)^2 = 1.089 \kg \cdot \mm $$
+</div>
+
+Moment of inertia per wheel:
+<div class="equation">
+$$ I_{\text{wheel}} = 0.243 + 0.135 + 1.089 = 1.467 \kg \cdot \mm $$
+</div>
+
+For two wheels:
+<div class="equation">
+$$ I_{\text{wheels}} = 2 \times 1.467 = 2.934 \kg \cdot \mm $$
+</div>
+
+**For the axle** (solid cylinder, 14.0 kg, R = 0.0200 m):
+<div class="equation">
+$$ I_{\text{axle}} = \frac{1}{2}MR^2 = \frac{1}{2}(14.0 \kg)(0.0200 \m)^2 = 0.00280 \kg \cdot \mm $$
+</div>
+
+**For the drive shaft** (solid cylinder, 30.0 kg, R = 0.0320 m):
+<div class="equation">
+$$ I_{\text{shaft}} = \frac{1}{2}MR^2 = \frac{1}{2}(30.0 \kg)(0.0320 \m)^2 = 0.0154 \kg \cdot \mm $$
+</div>
+
+**Total moment of inertia:**
+<div class="equation">
+$$ I_{\text{total}} = 2.934 + 0.00280 + 0.0154 = 2.95 \kg \cdot \mm $$
+</div>
+
+**Angular acceleration:**
+<div class="equation">
+$$ \alpha = \frac{\tau}{I} = \frac{190 \N \cdot \m}{2.95 \kg \cdot \mm} = 64.4 \radss $$
+</div>
+
+**Discussion**
+
+The wheels dominate the total moment of inertia—they account for over 99% of it. The axle and drive shaft contribute negligibly because their mass is concentrated near the axis of rotation (small radii). This is why performance cars use lightweight wheels: reducing wheel mass has a much greater effect on acceleration than reducing the mass of central components like the axle.
 
 </div>
 </div>
