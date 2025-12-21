@@ -159,6 +159,62 @@ Verify that the correct value for the speed of light  $$c $$
 are entered into the equation  $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}} $$.
 
 </div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+To verify that Maxwell's equation correctly predicts the speed of light, we need to substitute the known values of the permeability of free space $${\mu }_{0}$$ and the permittivity of free space $${\epsilon }_{0}$$ into the equation $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}$$ and confirm that the result equals the experimentally measured speed of light, $$3.00 \times 10^{8} \text{ m/s}$$.
+
+<div class="title">
+Solution
+</div>
+The permeability of free space is:
+
+<div class="equation">
+ $${\mu }_{0}=4\pi \times 10^{-7} \text{ }\frac{\text{T}\cdot \text{m}}{\text{A}}$$
+</div>
+
+The permittivity of free space is:
+
+<div class="equation">
+ $${\epsilon }_{0}=8.85 \times 10^{-12} \text{ }\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$
+</div>
+
+First, let's calculate the product $${\mu }_{0}{\epsilon }_{0}$$:
+
+<div class="equation">
+ $${\mu }_{0}{\epsilon }_{0}=\left(4\pi \times 10^{-7} \text{ }\frac{\text{T}\cdot \text{m}}{\text{A}}\right)\left(8.85 \times 10^{-12} \text{ }\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}\right)$$
+</div>
+
+<div class="equation">
+ $${\mu }_{0}{\epsilon }_{0}=\left(4\pi \times 8.85\right) \times 10^{-19} \text{ }\frac{\text{T}\cdot \text{m}}{\text{A}}\cdot \frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$
+</div>
+
+<div class="equation">
+ $${\mu }_{0}{\epsilon }_{0} \approx 1.112 \times 10^{-17} \text{ }\frac{{\text{s}}^{2}}{{\text{m}}^{2}}$$
+</div>
+
+Now we can calculate the speed of light:
+
+<div class="equation">
+ $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}=\frac{1}{\sqrt{1.112 \times 10^{-17} \text{ }\frac{{\text{s}}^{2}}{{\text{m}}^{2}}}}$$
+</div>
+
+<div class="equation">
+ $$c=\frac{1}{3.336 \times 10^{-9} \text{ }\frac{\text{s}}{\text{m}}}=3.00 \times 10^{8} \text{ m/s}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This calculation demonstrates one of the most profound insights in physics: Maxwell's equations, which were formulated to describe electromagnetic phenomena, predict that electromagnetic waves travel at exactly the speed of light. This was not a coincidence—it led Maxwell to the revolutionary conclusion that light itself is an electromagnetic wave. The fact that fundamental constants from electricity ($${\epsilon }_{0}$$) and magnetism ($${\mu }_{0}$$) combine to give the speed of light reveals the deep connection between these seemingly separate phenomena. This verification was a triumph of theoretical physics, as Maxwell's prediction was later confirmed experimentally by Heinrich Hertz.
+
+<div class="title">
+Final Answer
+</div>
+When the numerical values $${\mu }_{0}=4\pi \times 10^{-7} \text{ T}\cdot \text{m/A}$$ and $${\epsilon }_{0}=8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot \text{m}^{2})$$ are substituted into Maxwell's equation $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}$$, we obtain $$c=3.00 \times 10^{8} \text{ m/s}$$, which is indeed the correct experimentally measured value for the speed of light.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -166,6 +222,67 @@ are entered into the equation  $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}} $
 Show that, when SI units for  $${\mu }_{0} $$
  and  $${\epsilon }_{0} $$
  are entered, the units given by the right-hand side of the equation in the problem above are m/s.
+
+</div>
+<div class="solution" markdown="1">
+<div class="title">
+Strategy
+</div>
+To verify that the equation $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}$$ gives units of velocity (m/s), we need to substitute the SI units for $${\mu }_{0}$$ and $${\epsilon }_{0}$$ into the equation and perform unit analysis to show that all units cancel properly to yield m/s. We'll use the fact that SI units can be expressed in terms of fundamental units (meters, kilograms, seconds, amperes, etc.) and that the tesla and newton can be broken down into these base units.
+
+<div class="title">
+Solution
+</div>
+The SI unit for the permeability of free space $${\mu }_{0}$$ is:
+
+<div class="equation">
+ $$\frac{\text{T}\cdot \text{m}}{\text{A}}$$
+</div>
+
+The SI unit for the permittivity of free space $${\epsilon }_{0}$$ is:
+
+<div class="equation">
+ $$\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$
+</div>
+
+We need to express these in terms of fundamental SI units. First, recall that:
+- Tesla: $$\text{T}=\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}$$
+- Newton: $$\text{N}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}$$
+- Coulomb: $$\text{C}=\text{A}\cdot \text{s}$$
+
+Substituting for the tesla in $${\mu }_{0}$$:
+
+<div class="equation">
+ $$\frac{\text{T}\cdot \text{m}}{\text{A}}=\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}\cdot \frac{\text{m}}{\text{A}}=\frac{\text{kg}\cdot \text{m}}{{\text{A}}^{2}\cdot {\text{s}}^{2}}$$
+</div>
+
+Substituting for the newton and coulomb in $${\epsilon }_{0}$$:
+
+<div class="equation">
+ $$\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}=\frac{{(\text{A}\cdot \text{s})}^{2}}{\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}\cdot {\text{m}}^{2}}=\frac{{\text{A}}^{2}\cdot {\text{s}}^{2}}{\text{kg}\cdot {\text{m}}^{3}}\cdot {\text{s}}^{2}=\frac{{\text{A}}^{2}\cdot {\text{s}}^{4}}{\text{kg}\cdot {\text{m}}^{3}}$$
+</div>
+
+Now we can find the units of $${\mu }_{0}{\epsilon }_{0}$$:
+
+<div class="equation">
+ $${\mu }_{0}{\epsilon }_{0}=\frac{\text{kg}\cdot \text{m}}{{\text{A}}^{2}\cdot {\text{s}}^{2}}\cdot \frac{{\text{A}}^{2}\cdot {\text{s}}^{4}}{\text{kg}\cdot {\text{m}}^{3}}=\frac{{\text{s}}^{2}}{{\text{m}}^{2}}$$
+</div>
+
+Finally, we can find the units of $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}$$:
+
+<div class="equation">
+ $$c=\frac{1}{\sqrt{\frac{{\text{s}}^{2}}{{\text{m}}^{2}}}}=\frac{1}{\frac{\text{s}}{\text{m}}}=\frac{\text{m}}{\text{s}}$$
+</div>
+
+<div class="title">
+Discussion
+</div>
+This dimensional analysis confirms that Maxwell's equation for the speed of electromagnetic waves is dimensionally consistent. The fact that the units work out to m/s (velocity) is not merely a mathematical convenience—it reflects the physical reality that $$c$$ represents the propagation speed of electromagnetic waves through space. The cancellation of units also reveals how electromagnetic and mechanical quantities are interconnected. The ampere (A) cancels because it appears in both electrical and magnetic quantities, the kilogram (kg) cancels because it appears in both the definition of force (newton) and magnetic field (tesla), and what remains is purely the ratio of distance to time, which is velocity. This elegant dimensional consistency was part of what gave Maxwell confidence in his theoretical prediction.
+
+<div class="title">
+Final Answer
+</div>
+When SI units for $${\mu }_{0}$$ and $${\epsilon }_{0}$$ are substituted into the equation $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}$$, the units reduce to $$\text{m/s}$$, confirming that the equation correctly predicts a velocity.
 
 </div>
 </div>
