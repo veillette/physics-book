@@ -434,6 +434,37 @@ With the aid of a string, a gyroscope is accelerated from rest to 32 rad/s in 0.
 Suppose a piece of dust finds itself on a CD. If the spin rate of the CD is 500 rpm, and the piece of dust is 4.3 cm from the center, what is the total distance traveled by the dust in 3 minutes? (Ignore accelerations due to getting the CD rotating.)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The CD rotates at a constant angular velocity of 500 rpm for 3 minutes. We find the total number of revolutions, convert to radians, and then use the relationship between arc length and angle to find the total distance traveled.
+
+**Solution**
+
+First, calculate the total number of revolutions:
+
+<div class="equation">
+$$ \theta = \omega t = (500 \text{ rpm})(3 \text{ min}) = 1500 \text{ rev} $$
+</div>
+
+Convert to radians:
+
+<div class="equation">
+$$ \theta = 1500 \text{ rev} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} = 9425 \text{ rad} $$
+</div>
+
+The distance traveled is:
+
+<div class="equation">
+$$ x = r\theta = (0.043 \m)(9425 \text{ rad}) = 405 \m $$
+</div>
+
+**Discussion**
+
+The dust particle travels about 405 meters (roughly a quarter mile) while riding on the spinning CD for just 3 minutes. This illustrates how even a modest angular velocity can produce significant linear distances when sustained over time.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -468,13 +499,62 @@ initial angular velocity is $$ 95.0 \rads $$ ?
 
 (d) What distance does the car travel in this time?
 
-(e) What was the car’s initial velocity?
+(e) What was the car's initial velocity?
 
 (f) Do the values obtained seem reasonable, considering that this stop happens
 very quickly?
 
 ![The figure shows the left arm of a man with tattoo imprints and wearing a glove. He is circulating a yo-yo toy, which is in mid air and connected by the string to his hand. Some people are standing in the background watching the yo-yo trick.](../resources/Figure_10_02_03.jpg 'Yo-yos are amusing toys that display significant physics and are engineered to enhance performance based on physical laws. (credit: Beyond Neon, Flickr)')
 {: #Figure3}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the relationship between linear and angular quantities, along with rotational kinematics. Since the tires don't slip, we have $$ a = r\alpha $$ and $$ v = r\omega $$.
+
+**Solution**
+
+**(a)** The angular acceleration is related to linear acceleration by:
+
+<div class="equation">
+$$ \alpha = \frac{a}{r} = \frac{-7.00 \text{ m/s}^2}{0.280 \m} = -25.0 \radss $$
+</div>
+
+The negative sign indicates the tires are decelerating.
+
+**(b)** Using $$ \omega^2 = \omega_0^2 + 2\alpha\theta $$ with $$ \omega = 0 $$:
+
+<div class="equation">
+$$ \theta = \frac{-\omega_0^2}{2\alpha} = \frac{-(95.0 \text{ rad/s})^2}{2(-25.0 \radss)} = 180.5 \text{ rad} $$
+</div>
+
+Converting to revolutions:
+
+<div class="equation">
+$$ \theta = \frac{180.5 \text{ rad}}{2\pi \text{ rad/rev}} = 28.7 \text{ rev} $$
+</div>
+
+**(c)** Using $$ \omega = \omega_0 + \alpha t $$ with $$ \omega = 0 $$:
+
+<div class="equation">
+$$ t = \frac{-\omega_0}{\alpha} = \frac{-95.0 \text{ rad/s}}{-25.0 \radss} = 3.80 \s $$
+</div>
+
+**(d)** The distance traveled is:
+
+<div class="equation">
+$$ x = r\theta = (0.280 \m)(180.5 \text{ rad}) = 50.5 \m $$
+</div>
+
+**(e)** The car's initial velocity was:
+
+<div class="equation">
+$$ v_0 = r\omega_0 = (0.280 \m)(95.0 \text{ rad/s}) = 26.6 \text{ m/s} $$
+</div>
+
+**(f)** Yes, the values are reasonable. The initial velocity of 26.6 m/s is about 96 km/h (60 mph), which is a typical highway speed. Stopping in 3.80 s over a distance of 50.5 m (about 166 feet) with a deceleration of 7.00 m/s² (about 0.7g) represents a hard but achievable emergency stop for a car with good brakes and tires.
 
 </div>
 </div>
