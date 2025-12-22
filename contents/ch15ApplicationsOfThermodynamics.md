@@ -317,6 +317,37 @@ Suppose you have an ideal refrigerator that cools an environment at  $$- 20.0\te
  What is its coefficient of performance?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+An ideal refrigerator operates on a Carnot cycle run in reverse. The coefficient of performance for a refrigerator is $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$. For a Carnot cycle, this can be expressed in terms of the absolute temperatures: $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} $$. We must convert temperatures to Kelvin.
+
+**Solution**
+
+Given values:
+- Cold reservoir temperature: $$ T_c = -20.0\text{°C} = 253 \text{ K} $$
+- Hot reservoir temperature: $$ T_h = 50.0\text{°C} = 323 \text{ K} $$
+
+For an ideal (Carnot) refrigerator:
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} $$
+</div>
+
+Substituting values:
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \frac{253 \text{ K}}{323 \text{ K} - 253 \text{ K}} = \frac{253}{70} = 3.61 $$
+</div>
+
+**The coefficient of performance is 3.61.**
+
+**Discussion**
+
+A COP of 3.61 means that for every joule of work input, the refrigerator removes 3.61 joules of heat from the cold environment. This is quite good performance, reflecting the relatively modest temperature difference of 70 K between the reservoirs. Real refrigerators operating between these temperatures would have lower COPs due to irreversibilities. The large temperature difference (70 K) between the cold and hot reservoirs makes this less efficient than a refrigerator operating with a smaller temperature difference, which is why home refrigerators (with smaller temperature differences) typically achieve COPs in the range of 4 to 6.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -337,6 +368,51 @@ In a very mild winter climate, a heat pump has heat transfer from an environment
  to one at  $$ 35.0\text{ºC} $$ .
  What is the best possible coefficient of performance for these temperatures? Explicitly show how you follow the steps
 in the [Problem-Solving Strategies for Thermodynamics](#Note1).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Following the Problem-Solving Strategies for Thermodynamics:
+
+1. **Examine the situation**: This involves a heat pump transferring heat from a cold outdoor environment to a warmer indoor environment. Work input is required.
+
+2. **Identify the system**: The heat pump is the system. Heat transfer $$ Q_c $$ comes from the cold reservoir at $$ T_c = 5.00\text{°C} $$, work $$ W $$ is input, and heat transfer $$ Q_h $$ goes to the hot reservoir at $$ T_h = 35.0\text{°C} $$.
+
+3. **Identify the unknowns**: We need to find the best possible $$ \text{COP}_{\text{hp}} $$.
+
+4. **Identify the knowns**: $$ T_c = 5.00\text{°C} = 278 \text{ K} $$ and $$ T_h = 35.0\text{°C} = 308 \text{ K} $$. "Best possible" means we should use a Carnot cycle.
+
+5. **Solve for the unknown**: For a Carnot heat pump, $$ \text{COP}_{\text{hp}} = \frac{1}{\text{Eff}_C} = \frac{T_h}{T_h - T_c} $$.
+
+6. **Substitute and calculate** (shown below).
+
+7. **Check reasonableness**: COP should be greater than 1.
+
+**Solution**
+
+Given values:
+- Cold reservoir temperature: $$ T_c = 5.00\text{°C} = 278 \text{ K} $$
+- Hot reservoir temperature: $$ T_h = 35.0\text{°C} = 308 \text{ K} $$
+
+For an ideal (Carnot) heat pump:
+
+<div class="equation">
+ $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} $$
+</div>
+
+Substituting values:
+
+<div class="equation">
+ $$ \text{COP}_{\text{hp}} = \frac{308 \text{ K}}{308 \text{ K} - 278 \text{ K}} = \frac{308}{30} = 10.3 $$
+</div>
+
+**The best possible coefficient of performance is 10.3.**
+
+**Discussion**
+
+This remarkably high COP of 10.3 means that the heat pump delivers 10.3 joules of heat to the warm environment for every joule of work input. This excellent performance is due to the small temperature difference (only 30 K) between the indoor and outdoor environments. In a mild winter climate, heat pumps are extremely cost-effective because they can move much more energy than they consume. For every dollar spent on electricity to run the pump, you get the heating equivalent of $10.30 worth of direct electric heating. This is why heat pumps are economically attractive in mild climates. In colder climates with larger temperature differences, the COP drops significantly, making heat pumps less economical. Real heat pumps would achieve COPs of perhaps 6 to 8 under these conditions due to irreversibilities, which is still excellent performance.
 
 </div>
 </div>
@@ -369,6 +445,76 @@ natural gas costs \$1.34.
  (a kilowatt-hour)? (d) How many kJ of heat transfer occurs into the warm environment? (e) Discuss what type of refrigerator might operate between these temperatures.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the Carnot COP formula for a refrigerator: $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} $$. For part (b), we use $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$ to solve for work. For part (c), we calculate cost from the work and given rate. For part (d), we use energy conservation: $$ Q_h = Q_c + W $$. For part (e), we consider what application requires such cold temperatures.
+
+**Solution**
+
+Given values:
+- Cold reservoir temperature: $$ T_c = -30.0\text{°C} = 243 \text{ K} $$
+- Hot reservoir temperature: $$ T_h = 45.0\text{°C} = 318 \text{ K} $$
+- Heat transfer from cold environment: $$ Q_c = 4186 \text{ kJ} = 4.186 \times 10^6 \text{ J} $$
+
+**(a)** Best coefficient of performance:
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} = \frac{243 \text{ K}}{318 \text{ K} - 243 \text{ K}} = \frac{243}{75} = 3.24 $$
+</div>
+
+**The best coefficient of performance is 3.24.**
+
+**(b)** Work required:
+
+From $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$, we solve for work:
+
+<div class="equation">
+ $$ W = \frac{Q_c}{\text{COP}_{\text{ref}}} = \frac{4.186 \times 10^6 \text{ J}}{3.24} = 1.29 \times 10^6 \text{ J} $$
+</div>
+
+**The work required is $$ 1.29 \times 10^6 \text{ J} $$ or 1290 kJ.**
+
+**(c)** Cost of operation:
+
+Cost per kWh: $$ \$0.10 \text{ per } 3.60 \times 10^6 \text{ J} $$
+
+Number of kWh used:
+
+<div class="equation">
+ $$ \text{Energy in kWh} = \frac{1.29 \times 10^6 \text{ J}}{3.60 \times 10^6 \text{ J/kWh}} = 0.358 \text{ kWh} $$
+</div>
+
+<div class="equation">
+ $$ \text{Cost} = (0.358 \text{ kWh})(\$0.10/\text{kWh}) = \$0.0358 \approx \$0.036 $$
+</div>
+
+**The cost is 3.6 cents.**
+
+**(d)** Heat transfer to warm environment:
+
+Using energy conservation:
+
+<div class="equation">
+ $$ Q_h = Q_c + W = 4186 \text{ kJ} + 1290 \text{ kJ} = 5476 \text{ kJ} $$
+</div>
+
+**The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.**
+
+**(e)** This refrigerator operates at −30.0°C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
+- **Commercial freezers** for long-term food storage
+- **Laboratory freezers** for preserving biological samples
+- **Industrial cold storage** facilities
+- **Pharmaceutical storage** requiring very low temperatures
+
+This is not a household refrigerator (which typically operates around −18°C to −20°C in the freezer compartment) but rather a specialized deep-freeze unit.
+
+**Discussion**
+
+The COP of 3.24 is reasonable for this large temperature difference of 75 K. Real freezers operating at these temperatures would have lower COPs (perhaps 2 to 2.5) due to irreversibilities. The cost of 3.6 cents to remove 4186 kJ seems quite economical, but this is for an ideal refrigerator. The heat rejected to the warm environment (5476 kJ) exceeds the heat removed from the cold environment (4186 kJ) by exactly the work input (1290 kJ), as required by energy conservation. This illustrates why freezers warm up the room they're in: they reject more heat than they remove from their interior. The relatively modest COP compared to household refrigerators reflects the challenge of maintaining very low temperatures.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -386,6 +532,61 @@ Suppose you want to operate an ideal refrigerator with a cold temperature of  $$
 <div class="problem" markdown="1">
 An ideal heat pump is being considered for use in heating an environment with a temperature of  $$ 22.0\text{ºC} $$ .
  What is the cold reservoir temperature if the pump is to have a coefficient of performance of 12.0?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For an ideal (Carnot) heat pump, the coefficient of performance is $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} $$. We are given $$ \text{COP}_{\text{hp}} $$ and $$ T_h $$, so we can solve for $$ T_c $$. We must work in absolute temperature (Kelvin).
+
+**Solution**
+
+Given values:
+- Hot reservoir temperature: $$ T_h = 22.0\text{°C} = 295 \text{ K} $$
+- Coefficient of performance: $$ \text{COP}_{\text{hp}} = 12.0 $$
+
+Starting with the Carnot heat pump formula:
+
+<div class="equation">
+ $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} $$
+</div>
+
+Rearranging to solve for $$ T_c $$:
+
+<div class="equation">
+ $$ \text{COP}_{\text{hp}}(T_h - T_c) = T_h $$
+</div>
+
+<div class="equation">
+ $$ \text{COP}_{\text{hp}} \cdot T_h - \text{COP}_{\text{hp}} \cdot T_c = T_h $$
+</div>
+
+<div class="equation">
+ $$ \text{COP}_{\text{hp}} \cdot T_c = \text{COP}_{\text{hp}} \cdot T_h - T_h $$
+</div>
+
+<div class="equation">
+ $$ T_c = T_h \left(\frac{\text{COP}_{\text{hp}} - 1}{\text{COP}_{\text{hp}}}\right) $$
+</div>
+
+Substituting values:
+
+<div class="equation">
+ $$ T_c = 295 \text{ K} \left(\frac{12.0 - 1}{12.0}\right) = 295 \text{ K} \left(\frac{11.0}{12.0}\right) = 270 \text{ K} $$
+</div>
+
+Converting to Celsius:
+
+<div class="equation">
+ $$ T_c = 270 \text{ K} - 273 = -3.0\text{°C} $$
+</div>
+
+**The cold reservoir temperature must be −3.0°C or 270 K.**
+
+**Discussion**
+
+A COP of 12.0 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the outdoor temperature needs to be only 25 K (or 25°C) below the indoor temperature. At −3.0°C outdoor temperature, the heat pump operates very efficiently because it doesn't have to work hard to "lift" heat from the cold reservoir to the hot one. This result illustrates why heat pumps are most effective in mild climates. If the outdoor temperature drops significantly below −3.0°C, the COP would fall below 12.0, making the heat pump less efficient. Conversely, on warmer days above −3.0°C, the COP would exceed 12.0, providing even better performance. This problem shows the strong dependence of heat pump performance on climate conditions.
 
 </div>
 </div>
@@ -418,6 +619,69 @@ energy relationship between $${Q}_{\text{h}} $$ , $${Q}_{\text{c}} $$ , and $$W
 $$
 
 _._
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We start with the definitions of the two coefficients of performance and use the energy conservation relationship for a heat pump or refrigerator operating between the same two temperatures. By algebraic manipulation, we can show that one COP equals the other minus 1.
+
+**Solution**
+
+**Definitions:**
+
+For a heat pump:
+
+<div class="equation">
+ $$ \text{COP}_{\text{hp}} = \frac{Q_h}{W} $$
+</div>
+
+For a refrigerator:
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$
+</div>
+
+**Energy conservation:**
+
+For a cyclic process (heat pump or refrigerator):
+
+<div class="equation">
+ $$ Q_h = Q_c + W $$
+</div>
+
+**Derivation:**
+
+Starting with the definition of $$ \text{COP}_{\text{ref}} $$:
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$
+</div>
+
+From energy conservation, we can express $$ Q_c = Q_h - W $$. Substituting:
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \frac{Q_h - W}{W} = \frac{Q_h}{W} - \frac{W}{W} $$
+</div>
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \frac{Q_h}{W} - 1 $$
+</div>
+
+Recognizing that $$ \frac{Q_h}{W} = \text{COP}_{\text{hp}} $$:
+
+<div class="equation">
+ $$ \text{COP}_{\text{ref}} = \text{COP}_{\text{hp}} - 1 $$
+</div>
+
+**This proves the relationship: $$ \text{COP}_{\text{ref}} = \text{COP}_{\text{hp}} - 1 $$.**
+
+**Discussion**
+
+This elegant relationship shows that for the same device operating between the same two temperatures, the refrigerator COP is always exactly 1 less than the heat pump COP. This makes physical sense: both devices do the same work $$ W $$ and extract the same heat $$ Q_c $$ from the cold reservoir. However, the heat pump "benefits" from delivering $$ Q_h = Q_c + W $$ to the hot reservoir, while the refrigerator only "benefits" from removing $$ Q_c $$ from the cold reservoir. The difference between what each device delivers relative to the work input is exactly the work itself, hence the difference of 1 in their COPs.
+
+For example, if a heat pump has $$ \text{COP}_{\text{hp}} = 5 $$, when operated as a refrigerator between the same temperatures it would have $$ \text{COP}_{\text{ref}} = 4 $$. This relationship is universal for any heat pump/refrigerator, whether ideal (Carnot) or real, as long as it operates between the same two reservoir temperatures in both modes.
 
 </div>
 </div>
