@@ -379,13 +379,90 @@ What is the change in internal energy of a car if you put 12.0 gal of gasoline i
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.6 \times 10^{9}  \text{J} $$
+
+**Strategy**
+
+To find the change in internal energy when gasoline is added to the tank, we recognize that adding fuel increases the chemical potential energy of the system. According to the first law of thermodynamics, $$\Delta U = Q - W$$. Since there is no heat transfer ($$Q = 0$$) and no work is done ($$W = 0$$), the change in internal energy equals the energy content of the added fuel. We multiply the volume of gasoline by its energy density to find the total energy added.
+
+**Solution**
+
+Given values:
+- Volume of gasoline: $$V = 12.0 \text{ gal}$$
+- Energy content of gasoline: $$E_{\text{density}} = 1.3 \times 10^{8} \text{ J/gal}$$
+
+The change in internal energy is:
+
+<div class="equation">
+ $$\Delta U = V \times E_{\text{density}}$$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+ $$\Delta U = 12.0 \text{ gal} \times 1.3 \times 10^{8} \text{ J/gal}$$
+</div>
+
+<div class="equation">
+ $$\Delta U = 1.56 \times 10^{9} \text{ J}$$
+</div>
+
+Rounding to two significant figures:
+
+<div class="equation">
+ $$\Delta U = 1.6 \times 10^{9} \text{ J}$$
+</div>
+
+**Discussion**
+
+The change in internal energy when adding 12.0 gallons of gasoline to a car is $$1.6 \times 10^{9}$$ J, or 1.6 gigajoules. This enormous amount of energy represents the chemical potential energy stored in the molecular bonds of gasoline. To put this in perspective, this is equivalent to about 444 kilowatt-hours or enough energy to lift a 1000-kg car to a height of about 163 km if perfectly converted to gravitational potential energy. Of course, car engines are only about 20-30% efficient, so only a fraction of this energy actually performs useful work. The rest is dissipated as heat to the environment through the exhaust and cooling system. This calculation assumes the temperature and other thermodynamic properties of the car remain constant during the fueling process, which is reasonable since fueling happens relatively quickly.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 How much heat transfer occurs from a system, if its internal energy decreased by 150 J while it was doing 30.0 J of work?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the first law of thermodynamics, $$\Delta U = Q - W$$, to find the heat transfer. We're given that the internal energy decreased by 150 J (so $$\Delta U = -150$$ J) and the system did 30.0 J of work (so $$W = +30.0$$ J, following the sign convention where work done by the system is positive). Solving for $$Q$$ will give us the net heat transfer. If $$Q$$ is negative, heat flows out of the system.
+
+**Solution**
+
+Given values:
+- Change in internal energy: $$\Delta U = -150 \text{ J}$$ (decrease)
+- Work done by the system: $$W = 30.0 \text{ J}$$
+
+Using the first law of thermodynamics:
+
+<div class="equation">
+ $$\Delta U = Q - W$$
+</div>
+
+Solving for $$Q$$:
+
+<div class="equation">
+ $$Q = \Delta U + W$$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+ $$Q = -150 \text{ J} + 30.0 \text{ J}$$
+</div>
+
+<div class="equation">
+ $$Q = -120 \text{ J}$$
+</div>
+
+The negative sign indicates that heat flows out of the system, so **120 J of heat transfer occurs from the system to the environment**.
+
+**Discussion**
+
+The system loses 120 J of energy as heat transfer to the environment. This makes physical sense: the system's internal energy decreased by 150 J, but the system also did 30.0 J of work. Since work takes energy out of the system, not all of the 150 J internal energy decrease can be attributed to heat loss—only 120 J is lost as heat. The remaining 30.0 J left the system as mechanical work. This is a common scenario in engines and other heat-converting devices where both work output and heat rejection occur simultaneously. The first law ensures that all energy is accounted for: the 150 J decrease in internal energy equals the sum of work done (30.0 J) and heat transferred out (120 J).
 
 </div>
 </div>
@@ -398,7 +475,47 @@ A system does  $$ 1.80 \times 10^{8}  \text{J} $$
 
 </div>
 <div class="solution" markdown="1">
- $$ -9.30 \times 10^{8}  \text{J} $$
+
+**Strategy**
+
+We apply the first law of thermodynamics, $$\Delta U = Q - W$$. The system does work ($$W = 1.80 \times 10^{8}$$ J is positive), and heat transfer occurs to the environment, meaning heat leaves the system ($$Q$$ is negative). We need to calculate the net heat transfer and then use it to find the change in internal energy.
+
+**Solution**
+
+Given values:
+- Work done by the system: $$W = 1.80 \times 10^{8} \text{ J}$$
+- Heat transfer to the environment: $$7.50 \times 10^{8} \text{ J}$$ (leaving the system)
+
+Since heat leaves the system, the net heat transfer is:
+
+<div class="equation">
+ $$Q = -7.50 \times 10^{8} \text{ J}$$
+</div>
+
+Using the first law of thermodynamics:
+
+<div class="equation">
+ $$\Delta U = Q - W$$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+ $$\Delta U = (-7.50 \times 10^{8} \text{ J}) - (1.80 \times 10^{8} \text{ J})$$
+</div>
+
+<div class="equation">
+ $$\Delta U = -7.50 \times 10^{8} \text{ J} - 1.80 \times 10^{8} \text{ J}$$
+</div>
+
+<div class="equation">
+ $$\Delta U = -9.30 \times 10^{8} \text{ J}$$
+</div>
+
+**Discussion**
+
+The change in internal energy is $$-9.30 \times 10^{8}$$ J, or $$-930$$ megajoules. The negative value indicates that the system's internal energy has decreased significantly. This makes sense because the system loses energy through two mechanisms: it transfers 750 MJ as heat to the environment and performs 180 MJ of work on the surroundings. The total energy lost (930 MJ) is the sum of these two energy outflows. This scenario might represent a power plant or engine where fuel is burned to produce both useful work and waste heat. The large magnitudes suggest an industrial-scale process. To restore the system to its original energy state, 930 MJ of energy would need to be added, either through heat transfer into the system or by having work done on it.
+
 </div>
 </div>
 
@@ -410,6 +527,56 @@ What is the change in internal energy of a system which does  $$ 4.50 \times 10^
  of heat transfer occurs to the environment?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the first law of thermodynamics, $$\Delta U = Q - W$$. First, we must calculate the net heat transfer $$Q$$ by finding the difference between heat entering and heat leaving the system. Heat into the system is positive, and heat out is negative. The system does work, so $$W$$ is positive.
+
+**Solution**
+
+Given values:
+- Work done by the system: $$W = 4.50 \times 10^{5} \text{ J}$$
+- Heat transfer into the system: $$Q_{\text{in}} = 3.00 \times 10^{6} \text{ J}$$
+- Heat transfer out of the system: $$Q_{\text{out}} = 8.00 \times 10^{6} \text{ J}$$
+
+Calculate the net heat transfer:
+
+<div class="equation">
+ $$Q = Q_{\text{in}} - Q_{\text{out}}$$
+</div>
+
+<div class="equation">
+ $$Q = 3.00 \times 10^{6} \text{ J} - 8.00 \times 10^{6} \text{ J}$$
+</div>
+
+<div class="equation">
+ $$Q = -5.00 \times 10^{6} \text{ J}$$
+</div>
+
+Now apply the first law of thermodynamics:
+
+<div class="equation">
+ $$\Delta U = Q - W$$
+</div>
+
+<div class="equation">
+ $$\Delta U = (-5.00 \times 10^{6} \text{ J}) - (4.50 \times 10^{5} \text{ J})$$
+</div>
+
+<div class="equation">
+ $$\Delta U = -5.00 \times 10^{6} \text{ J} - 0.450 \times 10^{6} \text{ J}$$
+</div>
+
+<div class="equation">
+ $$\Delta U = -5.45 \times 10^{6} \text{ J}$$
+</div>
+
+**Discussion**
+
+The internal energy of the system decreases by $$5.45 \times 10^{6}$$ J (5.45 MJ). Although 3.00 MJ of heat enters the system, this is more than offset by 8.00 MJ of heat leaving the system and 0.45 MJ of work done by the system. The net effect is that the system loses 5.45 MJ of internal energy. This could represent a situation where a system simultaneously receives some heat input (perhaps from a small heater) while losing more heat through cooling (perhaps from a large radiator) and also doing mechanical work. The system would need to have an initial store of internal energy (such as in compressed gas or elevated temperature) to sustain this net energy loss. If this process continued indefinitely without adding more energy, the system would eventually cool down and deplete its internal energy.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -418,16 +585,140 @@ Suppose a woman does 500 J of work and 9500 J of heat transfer occurs into the e
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ -1.0 \times 10^{4}  \text{J} $$ , or  $$-2.39 \text{kcal} $$
-(b) 5.00%
+
+**Strategy**
+
+For part (a), we use the first law of thermodynamics, $$\Delta U = Q - W$$. The woman does 500 J of work ($$W = +500$$ J), and 9500 J of heat transfers into the environment, meaning heat leaves her body ($$Q = -9500$$ J). For part (b), efficiency is defined as the ratio of useful work output to total energy input (or in this case, total energy metabolized): $$\text{Eff} = \frac{W}{|\Delta U|}$$.
+
+**Solution**
+
+Given values:
+- Work done by the woman: $$W = 500 \text{ J}$$
+- Heat transfer to environment: $$Q = -9500 \text{ J}$$
+
+**(a)** Using the first law of thermodynamics:
+
+<div class="equation">
+ $$\Delta U = Q - W$$
+</div>
+
+<div class="equation">
+ $$\Delta U = (-9500 \text{ J}) - (500 \text{ J})$$
+</div>
+
+<div class="equation">
+ $$\Delta U = -10{,}000 \text{ J} = -1.0 \times 10^{4} \text{ J}$$
+</div>
+
+Converting to kilocalories (using $$1 \text{ kcal} = 4184 \text{ J}$$):
+
+<div class="equation">
+ $$\Delta U = \frac{-10{,}000 \text{ J}}{4184 \text{ J/kcal}} = -2.39 \text{ kcal}$$
+</div>
+
+**(b)** Efficiency is the ratio of work done to total energy metabolized:
+
+<div class="equation">
+ $$\text{Efficiency} = \frac{W}{|\Delta U|} \times 100\%$$
+</div>
+
+<div class="equation">
+ $$\text{Efficiency} = \frac{500 \text{ J}}{10{,}000 \text{ J}} \times 100\% = 5.00\%$$
+</div>
+
+**Discussion**
+
+Part (a): The woman's internal energy decreases by 10,000 J (10.0 kJ or 2.39 kcal). This energy comes from her body's stored chemical energy in the form of ATP, glycogen, and fat. The negative sign confirms that her body loses energy during the activity.
+
+Part (b): Her efficiency is only 5.00%, which is typical for human muscle performance during sustained activity. This means that of all the energy her body metabolizes, only 5% is converted into useful mechanical work—the remaining 95% is dissipated as heat. This low efficiency explains why we get warm during exercise: 9500 J out of 10,000 J (95%) is released as heat that must be dissipated through sweating, increased blood flow to the skin, and increased respiration. This 5% efficiency is actually reasonable for the human body during normal activities. Elite athletes performing specific tasks can achieve efficiencies up to 20-25%, but 5% is common for everyday movements. The heat produced is not wasted from a physiological perspective—it helps maintain body temperature in cold environments, though it becomes a burden requiring active cooling (sweating) in warm conditions or during intense exercise.
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found 
+(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found
 in [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#Note1).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), efficiency is defined as $$\text{Eff} = \frac{W}{E_{\text{metabolized}}}$$, where $$W$$ is useful work and $$E_{\text{metabolized}}$$ is total food energy metabolized. We solve for $$E_{\text{metabolized}}$$. For part (b), we use the first law of thermodynamics. Since temperature remains constant, $$\Delta U = 0$$. From $$\Delta U = Q - W$$, we can solve for $$Q$$, which represents the heat transfer to the environment.
+
+**Solution**
+
+Given values:
+- Work done: $$W = 35.0 \text{ kJ} = 35{,}000 \text{ J}$$
+- Efficiency: $$\text{Eff} = 5.00\% = 0.0500$$
+
+**(a)** Using the efficiency equation:
+
+<div class="equation">
+ $$\text{Efficiency} = \frac{W}{E_{\text{metabolized}}}$$
+</div>
+
+Solving for $$E_{\text{metabolized}}$$:
+
+<div class="equation">
+ $$E_{\text{metabolized}} = \frac{W}{\text{Efficiency}}$$
+</div>
+
+<div class="equation">
+ $$E_{\text{metabolized}} = \frac{35{,}000 \text{ J}}{0.0500}$$
+</div>
+
+<div class="equation">
+ $$E_{\text{metabolized}} = 700{,}000 \text{ J} = 700 \text{ kJ}$$
+</div>
+
+**(b)** Since temperature is constant, the change in internal energy is zero:
+
+<div class="equation">
+ $$\Delta U = 0$$
+</div>
+
+Using the first law of thermodynamics:
+
+<div class="equation">
+ $$\Delta U = Q - W$$
+</div>
+
+<div class="equation">
+ $$0 = Q - W$$
+</div>
+
+<div class="equation">
+ $$Q = W$$
+</div>
+
+But this represents net heat transfer. Since the man metabolizes 700 kJ and does 35.0 kJ of work, the heat transferred to the environment is:
+
+<div class="equation">
+ $$Q_{\text{out}} = E_{\text{metabolized}} - W$$
+</div>
+
+<div class="equation">
+ $$Q_{\text{out}} = 700 \text{ kJ} - 35.0 \text{ kJ}$$
+</div>
+
+<div class="equation">
+ $$Q_{\text{out}} = 665 \text{ kJ}$$
+</div>
+
+**Discussion**
+
+Part (a): The man must metabolize 700 kJ of food energy to perform 35.0 kJ of work at 5.00% efficiency. This is equivalent to about 167 dietary Calories (or food calories). This amount might come from eating an apple, a small banana, or a slice of bread.
+
+Part (b): Of the 700 kJ metabolized, only 35.0 kJ (5%) becomes useful work, while 665 kJ (95%) is released as heat to the environment. This large heat output must be dissipated to keep body temperature constant. The body achieves this through several mechanisms: evaporative cooling (sweating), increased blood flow to the skin (radiation and convection), and increased breathing rate (evaporation from lungs). This explains why physical activity makes us feel warm and why we sweat during exercise—the body must actively cool itself to prevent overheating.
+
+Following the thermodynamics problem-solving strategy:
+1. **Identify the system**: The man's body
+2. **Identify the process**: Metabolism of food to do work while maintaining constant temperature
+3. **Apply relevant principles**: Efficiency definition and first law with $$\Delta U = 0$$
+4. **Solve systematically**: Calculate energy input from efficiency, then heat output from energy balance
+5. **Check reasonableness**: 665 kJ of heat from 700 kJ metabolized with 35 kJ work is consistent with low efficiency
 
 </div>
 </div>
@@ -438,11 +729,76 @@ in [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsO
 
 </div>
 <div class="solution" markdown="1">
-(a) 122 W
 
-(b) $$ 2.10 \times 10^{6} \text{J} $$
-(c) Work done by the motor is $$ 1.61 \times 10^{7} \text{J} $$ ; thus the motor
-produces 7.67 times the work done by the man
+**Strategy**
+
+For part (a), metabolic rate is power, which is energy per unit time. We divide the total energy metabolized by the time period (one day = 86,400 s). For part (b), we use the efficiency formula: work output equals efficiency times energy input. For part (c), we calculate the motor's work output (power times time) and compare it to the man's work from part (b).
+
+**Solution**
+
+Given values:
+- Food energy metabolized: $$E = 10{,}500 \text{ kJ} = 1.05 \times 10^{7} \text{ J}$$
+- Time period: $$t = 1 \text{ day} = 24 \text{ hours} = 86{,}400 \text{ s}$$
+- Maximum efficiency: $$\text{Eff} = 20.0\% = 0.200$$
+- Motor power: $$P_{\text{motor}} = 187 \text{ W}$$
+
+**(a)** Average metabolic rate (power):
+
+<div class="equation">
+ $$P = \frac{E}{t}$$
+</div>
+
+<div class="equation">
+ $$P = \frac{1.05 \times 10^{7} \text{ J}}{86{,}400 \text{ s}}$$
+</div>
+
+<div class="equation">
+ $$P = 121.5 \text{ W} \approx 122 \text{ W}$$
+</div>
+
+**(b)** Maximum work output without breaking down fat:
+
+<div class="equation">
+ $$W_{\text{max}} = \text{Efficiency} \times E$$
+</div>
+
+<div class="equation">
+ $$W_{\text{max}} = 0.200 \times 1.05 \times 10^{7} \text{ J}$$
+</div>
+
+<div class="equation">
+ $$W_{\text{max}} = 2.10 \times 10^{6} \text{ J}$$
+</div>
+
+**(c)** Work done by the motor in one day:
+
+<div class="equation">
+ $$W_{\text{motor}} = P_{\text{motor}} \times t$$
+</div>
+
+<div class="equation">
+ $$W_{\text{motor}} = 187 \text{ W} \times 86{,}400 \text{ s}$$
+</div>
+
+<div class="equation">
+ $$W_{\text{motor}} = 1.615 \times 10^{7} \text{ J} \approx 1.61 \times 10^{7} \text{ J}$$
+</div>
+
+Comparison:
+
+<div class="equation">
+ $$\frac{W_{\text{motor}}}{W_{\text{man}}} = \frac{1.61 \times 10^{7} \text{ J}}{2.10 \times 10^{6} \text{ J}} = 7.67$$
+</div>
+
+The motor produces 7.67 times more work than the man.
+
+**Discussion**
+
+Part (a): The average metabolic rate of 122 W is quite reasonable for a person consuming about 2,500 dietary Calories (10,500 kJ) per day, which is typical for an average adult male. This power output is continuous over 24 hours and includes basal metabolism (maintaining body temperature, heart rate, breathing, cellular processes) plus daily activities. For comparison, this is about the power of a bright incandescent light bulb.
+
+Part (b): At 20% efficiency (optimistic for sustained human activity), the man can do $$2.10 \times 10^{6}$$ J (2.10 MJ) of work. This is equivalent to lifting 10,000 kg through 21.4 m, or climbing about 2,800 steps. The 20% efficiency is higher than typical sustained activity (5-10%) but achievable during optimized movements like cycling.
+
+Part (c): The small 0.250-horsepower motor outperforms the man by a factor of 7.67, producing 16.1 MJ of useful work in 24 hours of continuous operation. This comparison highlights why we use machines for sustained physical labor—even a small motor dramatically outperforms human muscle work. However, humans have advantages in versatility, judgment, and adaptability that machines lack. The comparison also shows that human efficiency, even at an optimistic 20%, means most of our food energy goes to heat, not work. If we needed to match the motor's work output, we'd need to consume about 80 MJ of food energy—roughly 19,000 dietary Calories per day, which is unsustainable.
 
 </div>
 </div>
@@ -450,6 +806,66 @@ produces 7.67 times the work done by the man
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) How long will the energy in a 1470-kJ (350-kcal) cup of yogurt last in a woman doing work at the rate of 150 W with an efficiency of 20.0% (such as in leisurely climbing stairs)? (b) Does the time found in part (a) imply that it is easy to consume more food energy than you can reasonably expect to work off with exercise?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we need to find how long the yogurt's energy lasts. At 20.0% efficiency doing work at 150 W, the woman's metabolic rate (total energy consumption rate) is $$P_{\text{metabolic}} = \frac{P_{\text{work}}}{\text{Efficiency}}$$. Then time is energy divided by metabolic power: $$t = \frac{E}{P_{\text{metabolic}}}$$. For part (b), we consider the implications of this time for diet and exercise.
+
+**Solution**
+
+Given values:
+- Energy in yogurt: $$E = 1470 \text{ kJ} = 1{,}470{,}000 \text{ J}$$
+- Work power output: $$P_{\text{work}} = 150 \text{ W}$$
+- Efficiency: $$\text{Eff} = 20.0\% = 0.200$$
+
+**(a)** First, find the metabolic power (total energy consumption rate):
+
+<div class="equation">
+ $$P_{\text{metabolic}} = \frac{P_{\text{work}}}{\text{Efficiency}}$$
+</div>
+
+<div class="equation">
+ $$P_{\text{metabolic}} = \frac{150 \text{ W}}{0.200} = 750 \text{ W}$$
+</div>
+
+Now calculate the time:
+
+<div class="equation">
+ $$t = \frac{E}{P_{\text{metabolic}}}$$
+</div>
+
+<div class="equation">
+ $$t = \frac{1{,}470{,}000 \text{ J}}{750 \text{ W}}$$
+</div>
+
+<div class="equation">
+ $$t = 1960 \text{ s}$$
+</div>
+
+Converting to minutes:
+
+<div class="equation">
+ $$t = \frac{1960 \text{ s}}{60 \text{ s/min}} = 32.7 \text{ min}$$
+</div>
+
+**(b)** Yes, this result strongly suggests it is very easy to consume more food energy than can be worked off through exercise. A 350-calorie cup of yogurt takes only seconds to consume but requires nearly 33 minutes of continuous stair climbing to burn off. Most people would find 33 minutes of continuous stair climbing quite strenuous.
+
+**Discussion**
+
+Part (a): The energy in a single cup of yogurt (350 dietary Calories) will sustain about 33 minutes of vigorous stair climbing. This might seem like a reasonable duration, but consider the effort level—leisurely stair climbing at 150 W work output is actually quite demanding exercise. For context, this is roughly equivalent to climbing 15-20 flights of stairs.
+
+Part (b): This calculation illustrates a fundamental challenge in weight management: the asymmetry between energy intake and expenditure. The yogurt is consumed in perhaps 2-3 minutes, but requires 33 minutes of sustained, moderately vigorous exercise to burn off. Moreover, this assumes the exercise is the *only* energy expenditure beyond basal metabolism.
+
+Consider further implications:
+- At 20% efficiency with 150 W work output, 80% (600 W) becomes heat—this is why stair climbing makes you hot and sweaty
+- A typical meal might contain 2,000-3,000 kJ, requiring 2-3 hours of continuous stair climbing to burn off
+- Many people cannot sustain 150 W of work output for 33 minutes
+- Basal metabolism (60-80 W) is much lower than exercise metabolism (750 W total here)
+
+This explains why diet is often more effective than exercise alone for weight loss—it's much easier to not eat 350 Calories than to burn 350 Calories through exercise. However, exercise has many health benefits beyond calorie burning, including cardiovascular fitness, muscle maintenance, bone density, and mental health.
 
 </div>
 </div>
@@ -461,11 +877,57 @@ produces 7.67 times the work done by the man
 
 </div>
 <div class="solution" markdown="1">
-(a) 492 kJ
 
-(b) This amount of heat is consistent with the fact that you warm quickly when
-exercising. Since the body is inefficient, the excess heat produced must be
-dissipated through sweating, breathing, etc.
+**Strategy**
+
+For part (a), we use the relationship between metabolized energy, work done, and heat transferred. At 18.0% efficiency, the work done is $$W = 0.180 \times E_{\text{metabolized}}$$. The remaining energy must be dissipated as heat to keep temperature constant. Thus, $$Q_{\text{out}} = E_{\text{metabolized}} - W$$. For part (b), we evaluate whether this heat output is consistent with the body warming during exercise.
+
+**Solution**
+
+Given values:
+- Energy metabolized: $$E_{\text{metabolized}} = 6.00 \times 10^{2} \text{ kJ} = 600 \text{ kJ}$$
+- Efficiency: $$\text{Eff} = 18.0\% = 0.180$$
+
+**(a)** Calculate the work done:
+
+<div class="equation">
+ $$W = \text{Efficiency} \times E_{\text{metabolized}}$$
+</div>
+
+<div class="equation">
+ $$W = 0.180 \times 600 \text{ kJ} = 108 \text{ kJ}$$
+</div>
+
+Calculate the heat transfer to the environment:
+
+<div class="equation">
+ $$Q_{\text{out}} = E_{\text{metabolized}} - W$$
+</div>
+
+<div class="equation">
+ $$Q_{\text{out}} = 600 \text{ kJ} - 108 \text{ kJ}$$
+</div>
+
+<div class="equation">
+ $$Q_{\text{out}} = 492 \text{ kJ}$$
+</div>
+
+**(b)** Yes, this amount of heat transfer is very consistent with rapid warming during exercise. The 492 kJ represents 82% of the total metabolized energy being released as heat.
+
+**Discussion**
+
+Part (a): Of the 600 kJ metabolized while climbing the Washington Monument, 108 kJ (18%) performs the mechanical work of lifting the woman's body against gravity, while 492 kJ (82%) is released as heat to the environment. This 492 kJ is a substantial amount of thermal energy that must be dissipated to prevent the body from overheating.
+
+Part (b): The large heat output (492 kJ) strongly explains why you warm up quickly when exercising. To put this in perspective:
+- 492 kJ is enough energy to raise the temperature of 10 liters of water by about 12°C
+- If this heat weren't dissipated, it would raise the body temperature of a 60-kg woman by approximately 2°C, which would be dangerous (normal body temperature is 37°C)
+- The body must actively cool itself through multiple mechanisms:
+  - **Sweating**: Evaporation of sweat removes large amounts of heat (2.4 MJ per liter of sweat evaporated)
+  - **Increased breathing**: Exhaled air carries away heat
+  - **Vasodilation**: Increased blood flow to skin enhances convective and radiative heat loss
+  - **Radiation and convection**: Direct heat transfer to cooler surroundings
+
+The Washington Monument is 169 meters (555 feet) tall with 897 steps. For a 60-kg woman, the gravitational potential energy gain is only about 99 kJ ($$mgh = 60 \times 9.8 \times 169$$), which is close to our calculated 108 kJ of work. The efficiency of 18% is reasonable for climbing, which is one of the more efficient human activities. The high heat output explains why people often feel very warm at the top of a long climb and why good ventilation or cool weather makes climbing more comfortable.
 
 </div>
 </div>

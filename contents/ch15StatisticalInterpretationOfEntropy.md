@@ -409,6 +409,43 @@ What percent of the time will you get something in the range from 60 heads and 4
  (Consult [[Table 2]](#Table2).)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The probability of getting a result in the specified range equals the ratio of microstates in that range to the total number of microstates for all 100-coin tosses. From Table 2, the total number of microstates is $$ 1.27 \times 10^{30} $$. We can then express this as a percentage.
+
+**Solution**
+
+Given values:
+- Microstates in range (40H/60T through 60H/40T): $$ W_{\text{range}} = 1.22 \times 10^{30} $$
+- Total microstates for 100 coins: $$ W_{\text{total}} = 1.27 \times 10^{30} $$
+
+The probability is:
+
+<div class="equation">
+ $$ P = \frac{W_{\text{range}}}{W_{\text{total}}} $$
+</div>
+
+Substituting values:
+
+<div class="equation">
+ $$ P = \frac{1.22 \times 10^{30}}{1.27 \times 10^{30}} = 0.961 $$
+</div>
+
+Converting to percentage:
+
+<div class="equation">
+ $$ P = 0.961 \times 100\% = 96.1\% $$
+</div>
+
+**The result will fall in the range from 40 heads and 60 tails through 60 heads and 40 tails 96.1% of the time.**
+
+**Discussion**
+
+This remarkably high percentage (96.1%) demonstrates that the vast majority of outcomes cluster around the most probable macrostates near 50-50. Even though this range represents only a subset of all possible macrostates (21 out of 101 macrostates), it accounts for nearly all the microstates. The extreme macrostates like 100 heads or 0 heads contribute negligibly to the total probability. This is a powerful illustration of the statistical basis of the second law of thermodynamics: disordered states (those near 50-50) dominate overwhelmingly over ordered states.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -426,6 +463,74 @@ What percent of the time will you get something in the range from 60 heads and 4
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) What is the change in entropy if you start with 100 coins in the 45 heads and 55 tails macrostate, toss them, and get 51 heads and 49 tails? (b) What if you get 75 heads and 25 tails? (c) How much more likely is 51 heads and 49 tails than 75 heads and 25 tails? (d) Does either outcome violate the second law of thermodynamics?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use Boltzmann's entropy formula $$ S = k_B \ln W $$ to calculate entropy changes. The change in entropy is $$ \Delta S = k_B \ln W_f - k_B \ln W_i = k_B \ln(W_f / W_i) $$. We consult Table 2 for the number of microstates for each macrostate. For part (c), we compare probabilities by taking the ratio of microstates. For part (d), we examine whether entropy increases, decreases, or stays the same.
+
+**Solution**
+
+From Table 2:
+- Initial state (45H, 55T): $$ W_i = 6.1 \times 10^{28} $$
+- Final state (51H, 49T): $$ W_{f1} = 9.9 \times 10^{28} $$
+- Alternative final state (75H, 25T): $$ W_{f2} = 2.4 \times 10^{23} $$
+
+**(a)** Change in entropy from 45H/55T to 51H/49T:
+
+<div class="equation">
+ $$ \Delta S_1 = k_B \ln \left(\frac{W_{f1}}{W_i}\right) $$
+</div>
+
+<div class="equation">
+ $$ \Delta S_1 = (1.38 \times 10^{-23} \text{ J/K}) \ln \left(\frac{9.9 \times 10^{28}}{6.1 \times 10^{28}}\right) $$
+</div>
+
+<div class="equation">
+ $$ \Delta S_1 = (1.38 \times 10^{-23} \text{ J/K}) \ln(1.623) $$
+</div>
+
+<div class="equation">
+ $$ \Delta S_1 = (1.38 \times 10^{-23} \text{ J/K})(0.485) = 6.7 \times 10^{-24} \text{ J/K} $$
+</div>
+
+**The change in entropy is $$ 6.7 \times 10^{-24} \text{ J/K} $$ (positive, entropy increases).**
+
+**(b)** Change in entropy from 45H/55T to 75H/25T:
+
+<div class="equation">
+ $$ \Delta S_2 = k_B \ln \left(\frac{W_{f2}}{W_i}\right) $$
+</div>
+
+<div class="equation">
+ $$ \Delta S_2 = (1.38 \times 10^{-23} \text{ J/K}) \ln \left(\frac{2.4 \times 10^{23}}{6.1 \times 10^{28}}\right) $$
+</div>
+
+<div class="equation">
+ $$ \Delta S_2 = (1.38 \times 10^{-23} \text{ J/K}) \ln(3.93 \times 10^{-6}) $$
+</div>
+
+<div class="equation">
+ $$ \Delta S_2 = (1.38 \times 10^{-23} \text{ J/K})(-12.45) = -1.7 \times 10^{-22} \text{ J/K} $$
+</div>
+
+**The change in entropy is $$ -1.7 \times 10^{-22} \text{ J/K} $$ (negative, entropy decreases).**
+
+**(c)** Likelihood ratio:
+
+<div class="equation">
+ $$ \frac{W_{f1}}{W_{f2}} = \frac{9.9 \times 10^{28}}{2.4 \times 10^{23}} = 4.1 \times 10^{5} $$
+</div>
+
+**The 51H/49T outcome is 410,000 times more likely than the 75H/25T outcome.**
+
+**(d)** Neither outcome violates the second law of thermodynamics. The second law states that entropy tends to increase in isolated systems, but it does not forbid temporary decreases. In part (a), entropy increases, which is typical. In part (b), entropy decreases, which is possible but improbable. With only 100 coins, small decreases in entropy can occur. However, as seen from the likelihood ratio, the decrease in part (b) is 410,000 times less likely than the increase in part (a).
+
+**Discussion**
+
+This problem beautifully illustrates the statistical nature of entropy. The 51H/49T outcome in part (a) represents a move toward greater disorder (higher entropy), which is far more likely. The 75H/25T outcome in part (b) represents a move toward greater order (lower entropy), which is possible but extraordinarily unlikely—about 410,000 times less probable. For macroscopic systems with vastly more particles than 100, such entropy decreases become effectively impossible. The second law is not an absolute prohibition but a statement about overwhelming probability. These small-scale examples help us understand why heat never spontaneously flows from cold to hot in real systems: the probability is vanishingly small.
 
 </div>
 </div>
@@ -508,6 +613,69 @@ of 252 to 45.
 (a) If you toss 10 coins, what percent of the time will you get the three most likely macrostates (6 heads and 4 tails, 5 heads and 5 tails, 4 heads and 6 tails)? (b) You can realistically toss 10 coins and count the number of heads and tails about twice a minute. At that rate, how long will it take on average to get either 10 heads and 0 tails or 0 heads and 10 tails?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use Table 3 to find the number of microstates for each of the three most likely macrostates, sum them, and divide by the total number of microstates (1024). For part (b), we calculate the probability of getting 10 heads or 10 tails (2 microstates out of 1024 total), then find the average number of tosses needed and convert to time at 2 tosses per minute.
+
+**Solution**
+
+**(a)** From Table 3:
+- 6 heads, 4 tails: $$ W_1 = 210 $$ microstates
+- 5 heads, 5 tails: $$ W_2 = 252 $$ microstates
+- 4 heads, 6 tails: $$ W_3 = 210 $$ microstates
+- Total for these three macrostates: $$ W_{\text{sum}} = 210 + 252 + 210 = 672 $$
+- Total microstates for 10 coins: $$ W_{\text{total}} = 1024 $$
+
+Probability:
+
+<div class="equation">
+ $$ P = \frac{W_{\text{sum}}}{W_{\text{total}}} = \frac{672}{1024} = 0.656 $$
+</div>
+
+Converting to percentage:
+
+<div class="equation">
+ $$ P = 0.656 \times 100\% = 65.6\% $$
+</div>
+
+**You will get one of the three most likely macrostates 65.6% of the time.**
+
+**(b)** The probability of getting either 10 heads or 10 tails:
+- 10 heads, 0 tails: 1 microstate
+- 0 heads, 10 tails: 1 microstate
+- Total: 2 microstates out of 1024
+
+<div class="equation">
+ $$ P_{\text{extreme}} = \frac{2}{1024} = \frac{1}{512} $$
+</div>
+
+The average number of tosses needed to get one occurrence:
+
+<div class="equation">
+ $$ N_{\text{tosses}} = \frac{1}{P_{\text{extreme}}} = 512 \text{ tosses} $$
+</div>
+
+At 2 tosses per minute:
+
+<div class="equation">
+ $$ t = \frac{512 \text{ tosses}}{2 \text{ tosses/min}} = 256 \text{ min} $$
+</div>
+
+Converting to hours:
+
+<div class="equation">
+ $$ t = \frac{256 \text{ min}}{60 \text{ min/h}} = 4.27 \text{ h} $$
+</div>
+
+**On average, it will take 256 minutes, or approximately 4.3 hours, to get either 10 heads or 10 tails.**
+
+**Discussion**
+
+Part (a) shows that nearly two-thirds of all tosses produce one of the three most likely (most disordered) macrostates. This reinforces the statistical tendency toward disorder. Part (b) demonstrates that even with just 10 coins, the most ordered states (all heads or all tails) are rare enough that you'd need to toss for over 4 hours to see one. This illustrates how quickly improbability grows with the number of particles. For 100 coins, the wait time becomes trillions of times the age of the universe, and for macroscopic systems with $$ 10^{23} $$ particles, ordered states become utterly impossible. This is the foundation of the second law of thermodynamics.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -530,6 +698,69 @@ of 252 to 45.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 In an air conditioner, 12.65 MJ of heat transfer occurs from a cold environment in 1.00 h. (a) What mass of ice melting would involve the same heat transfer? (b) How many hours of operation would be equivalent to melting 900 kg of ice? (c) If ice costs 20 cents per kg, do you think the air conditioner could be operated more cheaply than by simply using ice? Describe in detail how you evaluate the relative costs.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the latent heat of fusion for ice: $$ L_f = 334 \text{ kJ/kg} $$. The heat absorbed during melting is $$ Q = mL_f $$, so we can solve for mass. For part (b), we use the result from part (a) to find the equivalent operating time. For part (c), we compare the cost of ice to the cost of electricity for running the air conditioner.
+
+**Solution**
+
+Given values:
+- Heat transfer per hour: $$ Q = 12.65 \text{ MJ} = 12.65 \times 10^6 \text{ J} = 12{,}650 \text{ kJ} $$
+- Latent heat of fusion for ice: $$ L_f = 334 \text{ kJ/kg} $$
+
+**(a)** The mass of ice needed to absorb the same amount of heat:
+
+<div class="equation">
+ $$ Q = m L_f $$
+</div>
+
+Solving for mass:
+
+<div class="equation">
+ $$ m = \frac{Q}{L_f} = \frac{12{,}650 \text{ kJ}}{334 \text{ kJ/kg}} = 37.9 \text{ kg} $$
+</div>
+
+**Melting 37.9 kg of ice would involve the same heat transfer.**
+
+**(b)** For 900 kg of ice:
+
+<div class="equation">
+ $$ t = \frac{900 \text{ kg}}{37.9 \text{ kg/h}} = 23.7 \text{ h} $$
+</div>
+
+**It would take 23.7 hours of air conditioner operation to be equivalent to melting 900 kg of ice.**
+
+**(c)** Cost comparison:
+
+**Ice cooling cost:**
+<div class="equation">
+ $$ \text{Cost}_{\text{ice}} = (900 \text{ kg})(\$0.20/\text{kg}) = \$180 $$
+</div>
+
+This provides cooling equivalent to 23.7 hours of air conditioner operation.
+
+**Air conditioner cost:**
+To compare, we need to estimate electricity costs. A typical residential air conditioner might consume about 3.5 kW of electrical power. The energy consumed in 23.7 hours would be:
+
+<div class="equation">
+ $$ E = (3.5 \text{ kW})(23.7 \text{ h}) = 83.0 \text{ kWh} $$
+</div>
+
+At a typical electricity rate of $0.12 per kWh:
+
+<div class="equation">
+ $$ \text{Cost}_{\text{AC}} = (83.0 \text{ kWh})(\$0.12/\text{kWh}) = \$10.0 $$
+</div>
+
+**The air conditioner would cost approximately $10 to operate for the same cooling effect that 900 kg of ice provides, compared to $180 for the ice. The air conditioner is about 18 times cheaper to operate than using ice.**
+
+**Discussion**
+
+This problem illustrates why mechanical refrigeration replaced ice-based cooling in the 20th century. Even accounting for the efficiency losses in the air conditioner (the electrical energy input is greater than the heat removed due to the second law of thermodynamics), the convenience and cost-effectiveness of air conditioning far exceeds using ice. The air conditioner removes 12.65 MJ of heat per hour while consuming perhaps 12.6 MJ of electrical energy (assuming a coefficient of performance around 3), making it highly economical compared to ice at 20 cents per kg. Additionally, the air conditioner provides continuous cooling without the logistical challenges of storing, transporting, and managing melting ice. The economic advantage would be even greater if ice required refrigeration for storage, creating a circular dependency. This cost analysis demonstrates a practical application of thermodynamics in everyday technology choices.
 
 </div>
 </div>

@@ -360,8 +360,30 @@ A certain heat engine does 10.0 kJ of work and 8.50 kJ of heat transfer occurs t
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$18.5 \text{kJ} $$
-(b) 54.1%
+
+**Strategy**
+
+For part (a), use energy conservation for a cyclic process: $$Q_{in} = W + Q_{out}$$. For part (b), efficiency is $$\eta = \frac{W}{Q_{in}}$$.
+
+**Solution**
+
+Given: $$W = 10.0 \text{ kJ}$$, $$Q_{out} = 8.50 \text{ kJ}$$
+
+**(a)** Heat input:
+
+<div class="equation">
+ $$Q_{in} = W + Q_{out} = 10.0 + 8.50 = 18.5 \text{ kJ}$$
+</div>
+
+**(b)** Efficiency:
+
+<div class="equation">
+ $$\eta = \frac{W}{Q_{in}} = \frac{10.0}{18.5} = 0.541 = 54.1\%$$
+</div>
+
+**Discussion**
+
+This engine has 54.1% efficiency, which is quite good for a real heat engine. The efficiency tells us that 54.1% of input energy becomes useful work, while 45.9% is rejected as waste heat (8.50 kJ out of 18.5 kJ input). This efficiency is higher than typical car engines (20-30%) but lower than large power station turbines (40-60%). For the numbers to be realistic, this engine would need to operate between a large temperature difference, approaching Carnot efficiency limits.
 
 </div>
 </div>
@@ -370,7 +392,34 @@ A certain heat engine does 10.0 kJ of work and 8.50 kJ of heat transfer occurs t
 <div class="problem" markdown="1">
 With  $$ 2.56 \times 10^{6}  \text{J} $$
  of heat transfer into this engine, a given cyclical heat engine can do only  $$ 1.50 \times 10^{5}  \text{J} $$
- of work. (a) What is the engine’s efficiency? (b) How much heat transfer to the environment takes place?
+ of work. (a) What is the engine's efficiency? (b) How much heat transfer to the environment takes place?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), efficiency is $$\eta = \frac{W}{Q_{in}}$$. For part (b), use $$Q_{out} = Q_{in} - W$$.
+
+**Solution**
+
+Given: $$Q_{in} = 2.56 \times 10^{6} \text{ J}$$, $$W = 1.50 \times 10^{5} \text{ J}$$
+
+**(a)** Efficiency:
+
+<div class="equation">
+ $$\eta = \frac{W}{Q_{in}} = \frac{1.50 \times 10^{5}}{2.56 \times 10^{6}} = 0.0586 = 5.86\%$$
+</div>
+
+**(b)** Heat to environment:
+
+<div class="equation">
+ $$Q_{out} = Q_{in} - W = 2.56 \times 10^{6} - 1.50 \times 10^{5} = 2.41 \times 10^{6} \text{ J}$$
+</div>
+
+**Discussion**
+
+This engine has very low efficiency (5.86%), meaning 94.1% of input energy is wasted as heat. This could represent an old steam engine or a small inefficient motor. The low efficiency means that of 2.56 MJ input, only 150 kJ becomes useful work while 2.41 MJ is rejected to the environment. Such low efficiency is economically wasteful and environmentally problematic due to excessive waste heat.
 
 </div>
 </div>
@@ -382,14 +431,64 @@ With  $$ 2.56 \times 10^{6}  \text{J} $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$1.32 \times 10^{9} \text{J} $$
-(b)  $$4.68 \times 10^{9} \text{J} $$
+
+**Strategy**
+
+For part (a), work is $$W = \eta \times Q_{in}$$. For part (b), $$Q_{out} = Q_{in} - W$$.
+
+**Solution**
+
+Given: $$\eta = 22.0\% = 0.220$$, $$Q_{in} = 6.00 \times 10^{9} \text{ J}$$
+
+**(a)** Work output:
+
+<div class="equation">
+ $$W = \eta \times Q_{in} = 0.220 \times 6.00 \times 10^{9} = 1.32 \times 10^{9} \text{ J}$$
+</div>
+
+**(b)** Heat to environment:
+
+<div class="equation">
+ $$Q_{out} = Q_{in} - W = 6.00 \times 10^{9} - 1.32 \times 10^{9} = 4.68 \times 10^{9} \text{ J}$$
+</div>
+
+**Discussion**
+
+With 22% efficiency, this engine produces 1.32 GJ of work from 6.00 GJ of heat input, while rejecting 4.68 GJ (78%) as waste heat. This efficiency is typical for automotive engines or small power plants. The large waste heat (4.68 GJ) must be dissipated through cooling systems—radiators, cooling towers, or heat exchangers. This illustrates why heat engines are thermodynamically limited: even a well-designed engine operating between practical temperature limits cannot convert all input heat to work.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) What is the efficiency of a cyclical heat engine in which 75.0 kJ of heat transfer occurs to the environment for every 95.0 kJ of heat transfer into the engine? (b) How much work does it produce for 100 kJ of heat transfer into the engine?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), efficiency is $$\eta = \frac{W}{Q_{in}} = \frac{Q_{in} - Q_{out}}{Q_{in}} = 1 - \frac{Q_{out}}{Q_{in}}$$. For part (b), use $$W = \eta \times Q_{in}$$.
+
+**Solution**
+
+Given: $$Q_{out} = 75.0 \text{ kJ}$$ per $$Q_{in} = 95.0 \text{ kJ}$$
+
+**(a)** Efficiency:
+
+<div class="equation">
+ $$\eta = 1 - \frac{Q_{out}}{Q_{in}} = 1 - \frac{75.0}{95.0} = 1 - 0.789 = 0.211 = 21.1\%$$
+</div>
+
+**(b)** Work for 100 kJ input:
+
+<div class="equation">
+ $$W = \eta \times Q_{in} = 0.211 \times 100 = 21.1 \text{ kJ}$$
+</div>
+
+**Discussion**
+
+This engine has 21.1% efficiency, typical for gasoline car engines. For every 100 kJ of fuel energy, only 21.1 kJ becomes useful work to move the car, while 78.9 kJ is wasted as heat through the exhaust and cooling system. This low efficiency explains why cars get hot during operation and why fuel economy is inherently limited. Modern hybrid vehicles improve overall efficiency by capturing some waste energy (regenerative braking) but cannot overcome the fundamental thermodynamic limits of heat engines.
 
 </div>
 </div>
@@ -402,8 +501,36 @@ The engine of a large ship does  $$ 2.00 \times 10^{8}  \text{J} $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$3.80 \times 10^{9} \text{J} $$
-(b) 0.667 barrels
+
+**Strategy**
+
+For part (a), find $$Q_{in}$$ from $$W = \eta \times Q_{in}$$, then $$Q_{out} = Q_{in} - W$$. For part (b), divide total heat input by energy per barrel.
+
+**Solution**
+
+Given: $$W = 2.00 \times 10^{8} \text{ J}$$, $$\eta = 5.00\% = 0.0500$$, energy per barrel = $$6.00 \times 10^{9} \text{ J}$$
+
+First find heat input:
+
+<div class="equation">
+ $$Q_{in} = \frac{W}{\eta} = \frac{2.00 \times 10^{8}}{0.0500} = 4.00 \times 10^{9} \text{ J}$$
+</div>
+
+**(a)** Heat to environment:
+
+<div class="equation">
+ $$Q_{out} = Q_{in} - W = 4.00 \times 10^{9} - 2.00 \times 10^{8} = 3.80 \times 10^{9} \text{ J}$$
+</div>
+
+**(b)** Barrels consumed:
+
+<div class="equation">
+ $$\text{Barrels} = \frac{Q_{in}}{6.00 \times 10^{9}} = \frac{4.00 \times 10^{9}}{6.00 \times 10^{9}} = 0.667 \text{ barrels}$$
+</div>
+
+**Discussion**
+
+This large ship engine is very inefficient at only 5%, typical for marine diesel engines operating at low speeds for fuel economy and durability. Of 4.00 GJ consumed, only 200 MJ (5%) becomes propulsion work, while 3.80 GJ (95%) heats the ocean via cooling systems. The 0.667 barrels consumed for 200 MJ of work shows why shipping is fuel-intensive. However, ships are still the most fuel-efficient transport per ton-kilometer due to low water resistance. Marine engines prioritize reliability and longevity over efficiency, running continuously for months.
 
 </div>
 </div>
@@ -414,6 +541,39 @@ The engine of a large ship does  $$ 2.00 \times 10^{8}  \text{J} $$
  of heat transfer into the engine with an efficiency of 42.0%? (b) What is the ratio of heat transfer to the environment to work output? (c) How much work is done?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (c), work is $$W = \eta \times Q_{in}$$. For part (a), $$Q_{out} = Q_{in} - W$$. For part (b), calculate ratio $$\frac{Q_{out}}{W}$$.
+
+**Solution**
+
+Given: $$Q_{in} = 1.25 \times 10^{14} \text{ J}$$, $$\eta = 42.0\% = 0.420$$
+
+**(c)** Work done:
+
+<div class="equation">
+ $$W = \eta \times Q_{in} = 0.420 \times 1.25 \times 10^{14} = 5.25 \times 10^{13} \text{ J}$$
+</div>
+
+**(a)** Heat to environment:
+
+<div class="equation">
+ $$Q_{out} = Q_{in} - W = 1.25 \times 10^{14} - 5.25 \times 10^{13} = 7.25 \times 10^{13} \text{ J}$$
+</div>
+
+**(b)** Ratio:
+
+<div class="equation">
+ $$\frac{Q_{out}}{W} = \frac{7.25 \times 10^{13}}{5.25 \times 10^{13}} = 1.38$$
+</div>
+
+**Discussion**
+
+This power station produces 52.5 TJ of electrical work from 125 TJ of heat input, with 42% efficiency—good for a coal or nuclear plant. The waste heat of 72.5 TJ is 1.38 times the useful output, requiring massive cooling towers or water cooling. For every joule of electricity produced, 1.38 joules heat the environment. This thermal pollution can affect local ecosystems, warming rivers or creating fog from cooling towers. The 42% efficiency represents the upper range for real thermal power stations, limited by material constraints and Carnot efficiency for practical operating temperatures.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -422,12 +582,47 @@ Assume that the turbines at a coal-powered power plant were upgraded, resulting 
  (a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?
 
 </div>
-<div class="solution"  markdown="1">
-(a)  $$8.30 \times 10^{12} \text{J} $$ ,
- which is 3.32% of  $$2.50 \times 10^{14} \text{J} $$ .
+<div class="solution" markdown="1">
 
-(b) $$-8.30 \times 10^{12} \text{J} $$ , where the negative sign indicates a
-reduction in heat transfer to the environment.
+**Strategy**
+
+For part (a), calculate work before and after upgrade using $$W = \eta \times Q_{in}$$, then find the difference. For part (b), the reduction in heat output equals the increase in work output (since $$Q_{in}$$ is constant).
+
+**Solution**
+
+Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_{old} = 36\% = 0.36$$, $$\eta_{new} = 36\% + 3.32\% = 39.32\% = 0.3932$$
+
+**(a)** Work before upgrade:
+
+<div class="equation">
+ $$W_{old} = 0.36 \times 2.50 \times 10^{14} = 9.00 \times 10^{13} \text{ J}$$
+</div>
+
+Work after upgrade:
+
+<div class="equation">
+ $$W_{new} = 0.3932 \times 2.50 \times 10^{14} = 9.83 \times 10^{13} \text{ J}$$
+</div>
+
+Additional electrical energy:
+
+<div class="equation">
+ $$\Delta W = W_{new} - W_{old} = 9.83 \times 10^{13} - 9.00 \times 10^{13} = 8.30 \times 10^{12} \text{ J}$$
+</div>
+
+Note: $$8.30 \times 10^{12}$$ is exactly 3.32% of $$2.50 \times 10^{14}$$, confirming the efficiency increase.
+
+**(b)** Since $$Q_{in}$$ is constant, any increase in work must come from reduced waste heat:
+
+<div class="equation">
+ $$\Delta Q_{out} = -\Delta W = -8.30 \times 10^{12} \text{ J}$$
+</div>
+
+The negative sign indicates a reduction in heat transfer to the environment.
+
+**Discussion**
+
+The 3.32% efficiency improvement produces 8.30 TJ more electricity daily while reducing environmental heat by the same amount. This seemingly small improvement is huge for a power plant: over a year, it's 3.03 PJ (petajoules) of additional electricity, powering thousands of homes. The reduced thermal pollution (8.30 TJ/day less) benefits ecosystems near the plant. This demonstrates why utilities invest heavily in efficiency upgrades—even small percentage gains yield enormous benefits when applied to large-scale operations. The upgrade might involve better turbine blades, improved steam conditions, or waste heat recovery systems.
 
 </div>
 </div>
@@ -436,6 +631,57 @@ reduction in heat transfer to the environment.
 <div class="problem" markdown="1">
 This problem compares the energy output and heat transfer to the environment by two different types of nuclear power stations—one with the normal efficiency of 34.0%, and another with an improved efficiency of 40.0%. Suppose both have the same heat transfer into the engine in one day,  $$ 2.50 \times 10^{14} \text{J} $$ .
  (a) How much more electrical energy is produced by the more efficient power station? (b) How much less heat transfer occurs to the environment by the more efficient power station? (One type of more efficient nuclear power station, the gas-cooled reactor, has not been reliable enough to be economically feasible in spite of its greater efficiency.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate work output for both stations using $$W = \eta \times Q_{in}$$, then find the difference. The reduction in environmental heat transfer equals the increase in work output.
+
+**Solution**
+
+Given: $$Q_{in} = 2.50 \times 10^{14} \text{ J}$$, $$\eta_1 = 34.0\% = 0.340$$, $$\eta_2 = 40.0\% = 0.400$$
+
+Work from 34% efficient station:
+
+<div class="equation">
+ $$W_1 = 0.340 \times 2.50 \times 10^{14} = 8.50 \times 10^{13} \text{ J}$$
+</div>
+
+Work from 40% efficient station:
+
+<div class="equation">
+ $$W_2 = 0.400 \times 2.50 \times 10^{14} = 1.00 \times 10^{14} \text{ J}$$
+</div>
+
+**(a)** Additional electrical energy:
+
+<div class="equation">
+ $$\Delta W = W_2 - W_1 = 1.00 \times 10^{14} - 8.50 \times 10^{13} = 1.50 \times 10^{13} \text{ J}$$
+</div>
+
+**(b)** Heat outputs to environment:
+
+<div class="equation">
+ $$Q_{out,1} = Q_{in} - W_1 = 2.50 \times 10^{14} - 8.50 \times 10^{13} = 1.65 \times 10^{14} \text{ J}$$
+</div>
+
+<div class="equation">
+ $$Q_{out,2} = Q_{in} - W_2 = 2.50 \times 10^{14} - 1.00 \times 10^{14} = 1.50 \times 10^{14} \text{ J}$$
+</div>
+
+Reduction in heat transfer:
+
+<div class="equation">
+ $$\Delta Q_{out} = Q_{out,1} - Q_{out,2} = 1.65 \times 10^{14} - 1.50 \times 10^{14} = 1.50 \times 10^{13} \text{ J}$$
+</div>
+
+**Discussion**
+
+The more efficient (40%) power station produces 15 TJ more electricity daily while releasing 15 TJ less heat to the environment. The 6% efficiency improvement (from 34% to 40%) represents a 17.6% increase in power output for the same fuel consumption. Over a year, this is 5.48 PJ of additional electricity—enough to power a small city.
+
+The reduced thermal pollution (15 TJ/day less) significantly decreases environmental impact on water bodies used for cooling. However, as noted, gas-cooled reactors achieving this efficiency have reliability issues. This illustrates the engineering trade-off: higher efficiency is desirable but must be balanced against reliability, safety, and economic viability. Water-cooled reactors at 34% efficiency have proven more dependable, explaining their dominance despite lower efficiency.
 
 </div>
 </div>

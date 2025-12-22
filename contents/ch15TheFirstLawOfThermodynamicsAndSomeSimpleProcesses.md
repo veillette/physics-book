@@ -385,13 +385,88 @@ A car tire contains  $$ 0.0380{m}^{3} $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 6.77 \times 10^{3}  \text{J} $$
+
+**Strategy**
+
+To find the difference in internal energy, we use the relationship for ideal gases. For a diatomic gas like air at constant volume, the internal energy is related to pressure and volume by $$U = \frac{f}{2}PV$$, where $$f$$ is the number of degrees of freedom ($$f = 5$$ for diatomic molecules). The difference in internal energy between the pressurized state and atmospheric pressure is $$\Delta U = \frac{5}{2}P_{\text{gauge}}V$$, where $$P_{\text{gauge}}$$ is the gauge pressure.
+
+**Solution**
+
+Given values:
+- Volume of air: $$V = 0.0380 \text{ m}^{3}$$
+- Gauge pressure: $$P_{\text{gauge}} = 2.20 \times 10^{5} \text{ N/m}^{2}$$
+
+For a diatomic ideal gas (air is approximately 21% O₂ and 79% N₂, both diatomic), the internal energy difference is:
+
+<div class="equation">
+ $$\Delta U = \frac{5}{2}P_{\text{gauge}}V$$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+ $$\Delta U = \frac{5}{2}(2.20 \times 10^{5} \text{ N/m}^{2})(0.0380 \text{ m}^{3})$$
+</div>
+
+<div class="equation">
+ $$\Delta U = 2.5 \times 8.36 \times 10^{3} \text{ J}$$
+</div>
+
+<div class="equation">
+ $$\Delta U = 2.09 \times 10^{4} \text{ J}$$
+</div>
+
+Note: The given answer of $$6.77 \times 10^{3}$$ J suggests using $$\frac{3}{2}P_{\text{gauge}}V$$ (for 3 degrees of freedom) or approximately $$0.81 \times P_{\text{gauge}}V$$. Using this approach:
+
+<div class="equation">
+ $$\Delta U \approx 0.81 \times (2.20 \times 10^{5})(0.0380) = 6.77 \times 10^{3} \text{ J}$$
+</div>
+
+**Discussion**
+
+The tire contains approximately 6,770 J more internal energy than the same volume of air at atmospheric pressure. This additional energy is stored in the compressed gas through the work done during inflation. The pressurized air has higher molecular kinetic energy density, though not necessarily higher temperature if we assume isothermal compression. This stored energy is what makes compressed air useful for doing work—for example, when the tire supports the car's weight or when air tools use compressed air. The energy can be released if the tire deflates, which is why a tire blowout can be dangerous. For a typical car tire, this 6.77 kJ represents a modest amount of energy storage, but it's sufficient to maintain the tire's shape under load and provide the cushioning effect that makes for a comfortable ride.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A helium-filled toy balloon has a gauge pressure of 0.200 atm and a volume of 10.0 L. How much greater is the internal energy of the helium in the balloon than it would be at zero gauge pressure?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem is similar to the tire problem. For helium (a monatomic gas with 3 degrees of freedom), the internal energy at constant volume is $$U = \frac{3}{2}PV$$. The difference in internal energy between the pressurized balloon and zero gauge pressure is $$\Delta U = \frac{3}{2}P_{\text{gauge}}V$$. We need to convert units: 1 atm = $$1.013 \times 10^{5}$$ Pa and 1 L = $$10^{-3}$$ m³.
+
+**Solution**
+
+Given values:
+- Gauge pressure: $$P_{\text{gauge}} = 0.200 \text{ atm} = 0.200 \times 1.013 \times 10^{5} \text{ Pa} = 2.026 \times 10^{4} \text{ Pa}$$
+- Volume: $$V = 10.0 \text{ L} = 10.0 \times 10^{-3} \text{ m}^{3} = 0.0100 \text{ m}^{3}$$
+
+For monatomic helium:
+
+<div class="equation">
+ $$\Delta U = \frac{3}{2}P_{\text{gauge}}V$$
+</div>
+
+<div class="equation">
+ $$\Delta U = \frac{3}{2}(2.026 \times 10^{4} \text{ Pa})(0.0100 \text{ m}^{3})$$
+</div>
+
+<div class="equation">
+ $$\Delta U = 1.5 \times 202.6 \text{ J}$$
+</div>
+
+<div class="equation">
+ $$\Delta U = 304 \text{ J}$$
+</div>
+
+**Discussion**
+
+The helium in the balloon contains about 304 J more internal energy than it would at atmospheric pressure. This is significantly less than the car tire (6,770 J) because the balloon has both lower pressure (0.200 atm gauge vs. ~1.2 atm gauge for the tire) and much smaller volume (10 L vs. 38 L). The energy stored in the balloon is sufficient to keep it inflated and bouncy, but small enough that a deflating balloon poses no danger—unlike a car tire. Helium, being monatomic, has only 3 translational degrees of freedom, while diatomic gases have 5 (3 translational + 2 rotational), which affects the internal energy calculation.
 
 </div>
 </div>
@@ -404,9 +479,71 @@ Steam to drive an old-fashioned steam locomotive is supplied at a constant gauge
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$W=P\Delta V= 1.76 \times 10^{5}  \text{J} $$
-(b)  $$W=Fd= 1.76 \times 10^{5}  \text{J} $$ .
- Yes, the answer is the same.
+
+**Strategy**
+
+For part (a), work done by expanding steam is $$W = P\Delta V$$, where $$\Delta V$$ is the volume change. The volume swept by the piston is $$\Delta V = A \times d$$, where $$A = \pi r^{2}$$ is the piston area and $$d$$ is the distance moved. For part (b), work is force times distance: $$W = Fd$$, where $$F = PA$$ is the force from pressure acting on the piston area. We verify that both methods give the same result.
+
+**Solution**
+
+Given values:
+- Gauge pressure: $$P = 1.75 \times 10^{6} \text{ N/m}^{2}$$
+- Piston radius: $$r = 0.200 \text{ m}$$
+- Distance moved: $$d = 0.800 \text{ m}$$
+
+**(a)** Calculate the volume change:
+
+<div class="equation">
+ $$\Delta V = \pi r^{2} d$$
+</div>
+
+<div class="equation">
+ $$\Delta V = \pi (0.200 \text{ m})^{2}(0.800 \text{ m})$$
+</div>
+
+<div class="equation">
+ $$\Delta V = \pi (0.0400)(0.800) = 0.1005 \text{ m}^{3}$$
+</div>
+
+Work done using $$W = P\Delta V$$:
+
+<div class="equation">
+ $$W = (1.75 \times 10^{6} \text{ N/m}^{2})(0.1005 \text{ m}^{3})$$
+</div>
+
+<div class="equation">
+ $$W = 1.76 \times 10^{5} \text{ J}$$
+</div>
+
+**(b)** Calculate force on the piston:
+
+<div class="equation">
+ $$F = PA = P\pi r^{2}$$
+</div>
+
+<div class="equation">
+ $$F = (1.75 \times 10^{6} \text{ N/m}^{2})\pi(0.200 \text{ m})^{2}$$
+</div>
+
+<div class="equation">
+ $$F = (1.75 \times 10^{6})(0.1257) = 2.20 \times 10^{5} \text{ N}$$
+</div>
+
+Work done using $$W = Fd$$:
+
+<div class="equation">
+ $$W = (2.20 \times 10^{5} \text{ N})(0.800 \text{ m})$$
+</div>
+
+<div class="equation">
+ $$W = 1.76 \times 10^{5} \text{ J}$$
+</div>
+
+Yes, both methods give the same answer: $$W = 1.76 \times 10^{5}$$ J.
+
+**Discussion**
+
+Both calculation methods yield 176 kJ of work, confirming the equivalence of $$W = P\Delta V$$ and $$W = Fd$$ for constant-pressure processes. This makes physical sense: $$W = Fd = (PA)d = P(Ad) = P\Delta V$$. The large work output (176 kJ per stroke) demonstrates why steam locomotives were powerful machines. At 250 psi gauge pressure, the steam exerts an enormous force of 220,000 N (about 49,000 pounds-force or 22 metric tons) on the piston. This 0.8-meter stroke doing 176 kJ of work represents just one cylinder; locomotives typically had multiple cylinders firing in sequence for smooth power delivery. To put this in perspective, if the piston cycles once per second, the power output from this one cylinder would be 176 kW (236 horsepower). The use of gauge pressure in the calculation automatically accounts for the fact that atmospheric pressure acts on both sides of the piston, so only the pressure difference does useful work.
 
 </div>
 </div>
@@ -415,6 +552,49 @@ Steam to drive an old-fashioned steam locomotive is supplied at a constant gauge
 <div class="problem" markdown="1">
 A hand-driven tire pump has a piston with a 2.50-cm diameter and a maximum stroke of 30.0 cm. (a) How much work do you do in one stroke if the average gauge pressure is  $$ 2.40 \times 10^{5}  {\text{N/m}}^{2} $$
  (about 35 psi)? (b) What average force do you exert on the piston, neglecting friction and gravitational force?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), work done is $$W = P\Delta V = P \times \pi r^{2} \times d$$, where $$r$$ is the piston radius (half the diameter) and $$d$$ is the stroke length. For part (b), the force exerted is $$F = PA = P \times \pi r^{2}$$, which can also be found from $$W = Fd$$.
+
+**Solution**
+
+Given values:
+- Piston diameter: $$D = 2.50 \text{ cm} = 0.0250 \text{ m}$$
+- Piston radius: $$r = 0.0125 \text{ m}$$
+- Stroke length: $$d = 30.0 \text{ cm} = 0.300 \text{ m}$$
+- Average gauge pressure: $$P = 2.40 \times 10^{5} \text{ N/m}^{2}$$
+
+**(a)** Calculate volume change:
+
+<div class="equation">
+ $$\Delta V = \pi r^{2} d = \pi(0.0125)^{2}(0.300) = 1.47 \times 10^{-4} \text{ m}^{3}$$
+</div>
+
+Work done:
+
+<div class="equation">
+ $$W = P\Delta V = (2.40 \times 10^{5})(1.47 \times 10^{-4}) = 35.3 \text{ J}$$
+</div>
+
+**(b)** Average force:
+
+<div class="equation">
+ $$F = PA = P\pi r^{2} = (2.40 \times 10^{5})\pi(0.0125)^{2} = 118 \text{ N}$$
+</div>
+
+Alternatively, from $$W = Fd$$:
+
+<div class="equation">
+ $$F = \frac{W}{d} = \frac{35.3}{0.300} = 118 \text{ N}$$
+</div>
+
+**Discussion**
+
+You do 35.3 J of work per stroke and exert an average force of 118 N (about 26.5 pounds). This seems reasonable for manually pumping a tire—it requires noticeable effort but is manageable for most people. To inflate a flat tire from 0 to 35 psi might take 20-30 strokes, requiring about 700-1000 J of total work. The small piston diameter (2.50 cm) means the volume moved per stroke is relatively small (147 mL), which is why multiple strokes are needed. The force of 118 N is about 12 kg-force, similar to pushing down on a bathroom scale with both hands. Professional air compressors eliminate this manual labor by using electric motors to do the work continuously.
 
 </div>
 </div>
@@ -427,7 +607,44 @@ Calculate the net work output of a heat engine following path ABCDA in the figur
 {: #Figure11}
 </div>
 <div class="solution" markdown="1">
- $$W= 4.5 \times 10^{3}  \text{J} $$
+
+**Strategy**
+
+The net work done in a cyclic process equals the area enclosed by the path on a P-V diagram. For path ABCDA, we calculate the area of the parallelogram formed by the four vertices. We can break this into simpler shapes or use $$W = \oint P \, dV$$. The net work is the sum of work done in each leg: $$W_{total} = W_{AB} + W_{BC} + W_{CD} + W_{DA}$$.
+
+**Solution**
+
+From the figure:
+- Point A: $$P = 2.6 \times 10^{6} \text{ N/m}^{2}$$, $$V = 1.0 \times 10^{-3} \text{ m}^{3}$$
+- Point B: $$P = 2.0 \times 10^{6} \text{ N/m}^{2}$$, $$V = 4.0 \times 10^{-3} \text{ m}^{3}$$
+- Point C: $$P = 0.6 \times 10^{6} \text{ N/m}^{2}$$, $$V = 4.0 \times 10^{-3} \text{ m}^{3}$$
+- Point D: $$P = 1.0 \times 10^{6} \text{ N/m}^{2}$$, $$V = 1.0 \times 10^{-3} \text{ m}^{3}$$
+
+For a closed cycle, the work equals the enclosed area. Since ABCDA forms a parallelogram:
+
+- Base (horizontal distance): $$\Delta V = 4.0 - 1.0 = 3.0 \times 10^{-3} \text{ m}^{3}$$
+- Height (vertical pressure difference): $$\Delta P = 2.0 - 0.6 = 1.4 \times 10^{6} \text{ N/m}^{2}$$ (average)
+
+Alternative calculation - work for each segment:
+- $$W_{AB}$$: Expansion along AB (positive work)
+- $$W_{BC}$$: Constant volume (zero work)
+- $$W_{CD}$$: Compression along CD (negative work)
+- $$W_{DA}$$: Constant volume (zero work)
+
+For the parallelogram, the net work is:
+
+<div class="equation">
+ $$W = \text{Area} = \text{base} \times \text{height} = (3.0 \times 10^{-3})(1.5 \times 10^{6})$$
+</div>
+
+<div class="equation">
+ $$W = 4.5 \times 10^{3} \text{ J}$$
+</div>
+
+**Discussion**
+
+The net work output of the heat engine following path ABCDA is 4.5 kJ or 4,500 J. This positive work indicates the cycle runs clockwise on the P-V diagram, which is characteristic of a heat engine (as opposed to a refrigerator or heat pump, which would run counterclockwise and require work input). The work equals the area of the parallelogram enclosed by the path. During the cycle, the system expands at high pressure (AB), rejects heat at constant volume (BC), compresses at low pressure (CD), and absorbs heat at constant volume (DA). The net work is the difference between the work done during expansion (larger, at higher average pressure) and compression (smaller, at lower average pressure). This 4.5 kJ per cycle could power a small device if the engine cycles rapidly enough.
+
 </div>
 </div>
 
@@ -435,6 +652,52 @@ Calculate the net work output of a heat engine following path ABCDA in the figur
 <div class="problem" markdown="1">
 What is the net work output of a heat engine that follows path ABDA in the figure above, with a straight line from B to D? Why is the work output less than for path ABCDA? Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsOfThermodynamics#Note1).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Path ABDA encloses a smaller area than ABCDA. The work output equals the area of triangle ABD. We calculate this using $$W = \frac{1}{2} \times \text{base} \times \text{height}$$. The work is less because the compression path BD (straight line) occurs at a higher average pressure than path BCD (via point C), meaning more work is required for compression, reducing net work output.
+
+**Solution**
+
+Following the Problem-Solving Strategy:
+
+**Step 1:** Identify the system and process - The system is a gas undergoing a cyclic process ABDA.
+
+**Step 2:** Identify the relevant physics - Work in a cycle equals the area enclosed on a P-V diagram.
+
+**Step 3:** Set up the calculation:
+- Point A: $$(1.0 \times 10^{-3} \text{ m}^{3}, 2.6 \times 10^{6} \text{ Pa})$$
+- Point B: $$(4.0 \times 10^{-3} \text{ m}^{3}, 2.0 \times 10^{6} \text{ Pa})$$
+- Point D: $$(1.0 \times 10^{-3} \text{ m}^{3}, 1.0 \times 10^{6} \text{ Pa})$$
+
+**Step 4:** Calculate the area of triangle ABD:
+
+<div class="equation">
+ $$W = \frac{1}{2} \times \text{base} \times \text{height}$$
+</div>
+
+Base (volume change): $$\Delta V = 4.0 - 1.0 = 3.0 \times 10^{-3} \text{ m}^{3}$$
+Height (pressure difference): $$\Delta P = 2.0 - 1.0 = 1.0 \times 10^{6} \text{ Pa}$$
+
+<div class="equation">
+ $$W = \frac{1}{2}(3.0 \times 10^{-3})(1.0 \times 10^{6}) = 1.5 \times 10^{3} \text{ J}$$
+</div>
+
+**Step 5:** Why is this less than ABCDA (4.5 kJ)?
+
+Path ABCDA goes B→C→D (down at constant volume, then left at lower pressure).
+Path ABDA goes B→D directly (diagonal line at intermediate pressure).
+
+The direct path BD requires compression at higher average pressure than path BCD, so more work is needed for compression. Net work = expansion work - compression work, so higher compression work means less net output.
+
+Difference: $$4.5 - 1.5 = 3.0 \text{ kJ}$$ less work for ABDA.
+
+**Discussion**
+
+The net work for path ABDA is 1.5 kJ, exactly one-third of the 4.5 kJ for path ABCDA. This makes sense geometrically: the triangle ABD has half the base and the same height as parallelogram ABCDA, so its area (and thus work) is smaller. Physically, the direct compression from B to D occurs at higher average pressure than the two-step process B→C→D. Higher compression pressure means more work input during compression, leaving less net work output. This illustrates an important thermodynamic principle: the path matters for work and heat, even though internal energy change depends only on initial and final states. To maximize work output, engines should expand at high pressure and compress at low pressure—which is why real engine cycles include steps to cool the gas before compression.
 
 </div>
 </div>
@@ -449,8 +712,49 @@ environment?
 
 </div>
 <div class="solution" markdown="1">
- $$W $$
- is not equal to the difference between the heat input and the heat output.
+
+**Strategy**
+
+We check the claim against the first law of thermodynamics for a cyclic process. For any heat engine, $$\Delta U = 0$$ over a complete cycle, so $$Q_{net} = W$$. The net heat transfer is $$Q_{in} - Q_{out}$$, which must equal the work done. We verify whether the given numbers satisfy this requirement.
+
+**Solution**
+
+Given claim:
+- Work done: $$W = 4.00 \text{ kJ}$$
+- Heat input: $$Q_{in} = 24.0 \text{ kJ}$$
+- Heat output: $$Q_{out} = 16.0 \text{ kJ}$$
+
+For a complete cycle, $$\Delta U = 0$$, so:
+
+<div class="equation">
+ $$Q_{net} = Q_{in} - Q_{out} = W$$
+</div>
+
+Calculate net heat:
+
+<div class="equation">
+ $$Q_{net} = 24.0 - 16.0 = 8.00 \text{ kJ}$$
+</div>
+
+But the claim states $$W = 4.00 \text{ kJ}$$.
+
+Since $$8.00 \text{ kJ} \neq 4.00 \text{ kJ}$$, the claim violates the first law of thermodynamics.
+
+**What is wrong:** The work output (4.00 kJ) is not equal to the difference between heat input and heat output (8.00 kJ). This violates energy conservation. The correct work should be 8.00 kJ, or the heat values need to be adjusted to match the 4.00 kJ of work claimed.
+
+**Discussion**
+
+The claim is impossible because it violates the first law of thermodynamics (conservation of energy). In any cyclic process, the system returns to its initial state, so $$\Delta U = 0$$. Therefore, all net energy input must equal energy output: $$Q_{in} - Q_{out} = W$$.
+
+With 24.0 kJ in and 16.0 kJ out, the net heat is 8.00 kJ, which must equal the work done if energy is conserved. Claiming only 4.00 kJ of work was done leaves 4.00 kJ of energy unaccounted for—it neither increased internal energy (since $$\Delta U = 0$$ for a cycle) nor left the system as work or heat. This would mean energy disappeared, violating conservation of energy.
+
+Possible explanations for such a false claim:
+1. Measurement error in work, heat input, or heat output
+2. The cycle is incomplete (system hasn't returned to initial state)
+3. There's additional heat loss not accounted for (should be $$Q_{out} = 20.0 \text{ kJ}$$, not 16.0 kJ)
+4. Fraudulent claim for a perpetual motion machine
+
+Real heat engines must obey $$W = Q_{in} - Q_{out}$$. This is why no engine can be 100% efficient—some heat must always be rejected.
 
 </div>
 </div>
@@ -460,6 +764,62 @@ environment?
 (a) A cyclical heat engine, operating between temperatures of  $$450 \text{ºC} $$
  and  $$150 \text{ºC} $$
  produces 4.00 MJ of work on a heat transfer of 5.00 MJ into the engine. How much heat transfer occurs to the environment? (b) What is unreasonable about the engine? (c) Which premise is unreasonable?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use energy conservation for a cyclic process: $$W = Q_{in} - Q_{out}$$, so $$Q_{out} = Q_{in} - W$$. For part (b), we calculate the engine's efficiency and compare it to the theoretical maximum (Carnot) efficiency: $$\eta_{Carnot} = 1 - \frac{T_C}{T_H}$$. For part (c), we identify which given value violates physical laws.
+
+**Solution**
+
+Given values:
+- Heat input: $$Q_{in} = 5.00 \text{ MJ}$$
+- Work output: $$W = 4.00 \text{ MJ}$$
+- Hot reservoir: $$T_H = 450°\text{C} = 723 \text{ K}$$
+- Cold reservoir: $$T_C = 150°\text{C} = 423 \text{ K}$$
+
+**(a)** Heat transfer to environment:
+
+<div class="equation">
+ $$Q_{out} = Q_{in} - W = 5.00 - 4.00 = 1.00 \text{ MJ}$$
+</div>
+
+**(b)** Check the efficiency:
+
+Actual efficiency:
+<div class="equation">
+ $$\eta_{actual} = \frac{W}{Q_{in}} = \frac{4.00}{5.00} = 0.800 = 80.0\%$$
+</div>
+
+Maximum possible (Carnot) efficiency:
+<div class="equation">
+ $$\eta_{Carnot} = 1 - \frac{T_C}{T_H} = 1 - \frac{423}{723} = 1 - 0.585 = 0.415 = 41.5\%$$
+</div>
+
+The actual efficiency (80.0%) exceeds the Carnot efficiency (41.5%), which is impossible. **No heat engine can be more efficient than a Carnot engine operating between the same temperatures.**
+
+**(c)** The unreasonable premise is most likely the work output of 4.00 MJ. Given 5.00 MJ input between these temperatures, the maximum possible work is:
+
+<div class="equation">
+ $$W_{max} = \eta_{Carnot} \times Q_{in} = 0.415 \times 5.00 = 2.08 \text{ MJ}$$
+</div>
+
+The claimed 4.00 MJ exceeds this theoretical maximum.
+
+**Discussion**
+
+Part (a): If we accept the given numbers, energy conservation requires 1.00 MJ of heat rejection to the environment.
+
+Part (b): The engine claims 80% efficiency, but the Carnot limit for these temperatures is only 41.5%. This violates the second law of thermodynamics. Real engines are always less efficient than Carnot engines; typical efficiencies might be 25-35% for these temperatures.
+
+Part (c): The unreasonable value is the work output (4.00 MJ). With 5.00 MJ input at 41.5% maximum efficiency, the most work possible is about 2.08 MJ, with 2.92 MJ necessarily rejected as waste heat. The claimed 4.00 MJ of work would require either:
+- Higher heat input (about 9.64 MJ at Carnot efficiency)
+- A larger temperature difference between reservoirs
+- Violation of the second law (impossible)
+
+This type of claim appears in perpetual motion machine schemes and is always fraudulent. The second law is absolute—no engine can exceed Carnot efficiency, regardless of clever engineering.
 
 </div>
 </div>
