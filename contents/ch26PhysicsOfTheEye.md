@@ -289,6 +289,43 @@ What is the power of the eye when viewing an object 50.0 cm away?
 Calculate the power of the eye when viewing an object 3.00 m away.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The power of the eye can be calculated using the thin lens equation $$P = \frac{1}{d_o} + \frac{1}{d_i}$$, where $$d_o$$ is the object distance and $$d_i$$ is the image distance (lens-to-retina distance). For clear vision, the image must form on the retina, so $$d_i = 2.00$$ cm. We need to convert all distances to meters since power is measured in diopters ($$1 \text{ D} = 1 \text{ m}^{-1}$$).
+
+**Solution**
+
+Given values:
+- Object distance: $$d_o = 3.00 \text{ m}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+
+Using the power equation:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i}$$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+ $$P = \frac{1}{3.00 \text{ m}} + \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P = 0.333 \text{ D} + 50.0 \text{ D}$$
+</div>
+
+<div class="equation">
+ $$P = 50.3 \text{ D}$$
+</div>
+
+**Discussion**
+
+The power of the eye when viewing an object 3.00 m away is 50.3 D, which is only slightly greater than the 50.0 D required for distant vision (at infinity). This makes sense because 3.00 m is relatively far from the eye, so the eye is nearly completely relaxed. The small additional 0.3 D of power represents minimal accommodation compared to the 4.0 D increase needed for close vision at 25 cm. This demonstrates that objects beyond a few meters require essentially the same eye power as viewing objects at infinity, which is why distant objects from 3 m to infinity are all in clear focus for a relaxed eye.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -310,8 +347,60 @@ processing.)
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem"  markdown="1">
-Suppose a certain person’s visual acuity is such that he can see objects clearly that form an image  $$4.00 \mu m $$
+Suppose a certain person's visual acuity is such that he can see objects clearly that form an image  $$4.00 \mu m $$
  high on his retina. What is the maximum distance at which he can read the 75.0 cm high letters on the side of an airplane?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem involves finding the object distance $$d_o$$ at which a letter of height $$h_o = 75.0$$ cm produces an image of height $$h_i = 4.00 \mu\text{m}$$ on the retina. We use the magnification equation $$\frac{h_i}{h_o} = -\frac{d_i}{d_o}$$, where $$d_i = 2.00$$ cm is the lens-to-retina distance. Solving for $$d_o$$ will give us the maximum distance at which the person can read the letters.
+
+**Solution**
+
+Given values:
+- Object height: $$h_o = 75.0 \text{ cm} = 0.750 \text{ m}$$
+- Image height: $$h_i = 4.00 \mu\text{m} = 4.00 \times 10^{-6} \text{ m}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+
+Using the magnification equation:
+
+<div class="equation">
+ $$\frac{h_i}{h_o} = -\frac{d_i}{d_o}$$
+</div>
+
+Rearranging to solve for $$d_o$$:
+
+<div class="equation">
+ $$d_o = -\frac{h_o \cdot d_i}{h_i}$$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+ $$d_o = -\frac{(0.750 \text{ m})(0.0200 \text{ m})}{4.00 \times 10^{-6} \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$d_o = -\frac{0.0150 \text{ m}^2}{4.00 \times 10^{-6} \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$d_o = -3750 \text{ m}$$
+</div>
+
+Taking the magnitude (the negative sign indicates an inverted image, which is expected):
+
+<div class="equation">
+ $$d_o = 3750 \text{ m} = 3.75 \text{ km}$$
+</div>
+
+**Discussion**
+
+This person can read the 75.0 cm high letters from a maximum distance of 3.75 km (about 2.3 miles). This is a remarkably long distance and demonstrates the impressive resolution of the human visual system. The visual acuity of 4.00 μm corresponds to the ability to distinguish fine details approaching the size of individual photoreceptors on the retina. For reference, the diameter of a cone cell in the fovea is approximately 2-3 μm, so a 4.00 μm image is only slightly larger than a single cone.
+
+This calculation assumes ideal viewing conditions (clear air, good contrast, proper lighting). In practice, atmospheric effects, contrast limitations, and other factors would likely reduce the actual reading distance. Nevertheless, this problem illustrates why large letters are used on aircraft and why they remain legible from considerable distances. The linear relationship between object size and viewing distance means that doubling the letter size would double the maximum readable distance.
 
 </div>
 </div>

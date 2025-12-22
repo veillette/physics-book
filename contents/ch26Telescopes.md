@@ -177,6 +177,33 @@ What is the angular magnification of a telescope that has a 100 cm focal length 
 Find the distance between the objective and eyepiece lenses in the telescope in the above problem needed to produce a final image very far from the observer, where vision is most relaxed. Note that a telescope is normally used to view very distant objects.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a telescope viewing distant objects (at infinity) with a relaxed eye (image at infinity), the intermediate image formed by the objective must be at the focal point of the eyepiece. From the previous problem, we have $$f_o = 100$$ cm and $$f_e = 2.50$$ cm. The distance between the lenses is the sum of the two focal lengths.
+
+**Solution**
+
+Given values from the previous problem:
+- Objective focal length: $$f_o = 100 \text{ cm}$$
+- Eyepiece focal length: $$f_e = 2.50 \text{ cm}$$
+
+For distant objects, the objective forms an image at its focal point ($$d_i = f_o$$). For the final image to be at infinity (relaxed viewing), the intermediate image must be at the focal point of the eyepiece ($$d'_o = f_e$$).
+
+The distance between the lenses:
+
+<div class="equation">
+ $$L = f_o + f_e = 100 \text{ cm} + 2.50 \text{ cm} = 102.5 \text{ cm} = 1.025 \text{ m}$$
+</div>
+
+**Discussion**
+
+The lenses should be separated by 102.5 cm (just over 1 meter) for comfortable viewing of distant objects. This configuration allows the telescope to function with both the object and final image at infinity, which is the standard arrangement for astronomical telescopes. When the object is at infinity, the objective creates an intermediate image at its focal point. By placing the eyepiece such that this intermediate image falls at the eyepiece's focal point, the final image is also projected to infinity, allowing the viewer's eye to remain relaxed.
+
+This is why the tube length of a simple refracting telescope approximately equals the sum of the focal lengths of its two lenses. The relatively short eyepiece focal length (2.50 cm) compared to the objective (100 cm) is what provides the telescope's high angular magnification of -40.0×. The physical length of 1.025 m makes this a reasonably portable telescope suitable for amateur astronomy.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -193,7 +220,68 @@ A large reflecting telescope has an objective mirror with a  $$ 10.0 \text{m} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A small telescope has a concave mirror with a 2.00 m radius of curvature for its objective. Its eyepiece is a 4.00 cm focal length lens. (a) What is the telescope’s angular magnification? (b) What angle is subtended by a 25 000 km diameter sunspot? (c) What is the angle of its telescopic image?
+A small telescope has a concave mirror with a 2.00 m radius of curvature for its objective. Its eyepiece is a 4.00 cm focal length lens. (a) What is the telescope's angular magnification? (b) What angle is subtended by a 25 000 km diameter sunspot? (c) What is the angle of its telescopic image?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the angular magnification formula $$M = -\frac{f_o}{f_e}$$. The focal length of a concave mirror is $$f = R/2$$. For part (b), the angle subtended by an object is approximately $$\theta \approx \frac{d}{D}$$ for small angles, where $$d$$ is the object diameter and $$D$$ is the distance. For part (c), the telescopic image angle is $$\theta' = M \times \theta$$.
+
+**Solution**
+
+Given values:
+- Mirror radius of curvature: $$R = 2.00 \text{ m}$$
+- Eyepiece focal length: $$f_e = 4.00 \text{ cm} = 0.0400 \text{ m}$$
+- Sunspot diameter: $$d = 25\,000 \text{ km} = 2.50 \times 10^7 \text{ m}$$
+- Sun-Earth distance: $$D = 1.50 \times 10^{11} \text{ m}$$ (average)
+
+**(a)** Calculate the objective focal length:
+
+<div class="equation">
+ $$f_o = \frac{R}{2} = \frac{2.00 \text{ m}}{2} = 1.00 \text{ m}$$
+</div>
+
+Calculate the angular magnification:
+
+<div class="equation">
+ $$M = -\frac{f_o}{f_e} = -\frac{1.00 \text{ m}}{0.0400 \text{ m}} = -25.0$$
+</div>
+
+**(b)** Calculate the angle subtended by the sunspot (in radians):
+
+<div class="equation">
+ $$\theta = \frac{d}{D} = \frac{2.50 \times 10^7 \text{ m}}{1.50 \times 10^{11} \text{ m}} = 1.67 \times 10^{-4} \text{ rad}$$
+</div>
+
+Convert to arc seconds (1 rad = 206,265 arc seconds):
+
+<div class="equation">
+ $$\theta = (1.67 \times 10^{-4})(206\,265) = 34.4 \text{ arc seconds}$$
+</div>
+
+**(c)** Calculate the angle of the telescopic image:
+
+<div class="equation">
+ $$\theta' = |M| \times \theta = 25.0 \times (1.67 \times 10^{-4} \text{ rad}) = 4.18 \times 10^{-3} \text{ rad}$$
+</div>
+
+Convert to arc minutes:
+
+<div class="equation">
+ $$\theta' = (4.18 \times 10^{-3})(206\,265/60) = 14.3 \text{ arc minutes} = 0.239°$$
+</div>
+
+**Discussion**
+
+Part (a): The telescope has an angular magnification of -25.0, which is modest but quite useful for astronomical observations. The negative sign indicates an inverted image, which is typical and acceptable for astronomical telescopes.
+
+Part (b): The sunspot subtends an angle of about 34.4 arc seconds (about 0.0096°) when viewed with the naked eye. This is quite small—for reference, the full Moon subtends about 1,800 arc seconds (0.5°). A 25,000 km sunspot is actually quite large, roughly twice Earth's diameter!
+
+Part (c): Through the telescope, the sunspot image subtends 14.3 arc minutes (0.239°), which is nearly half the angular diameter of the full Moon. This makes the sunspot much easier to observe and study in detail. The 25× magnification transforms a barely visible feature (34 arc seconds) into one that's readily observable (14 arc minutes).
+
+This problem demonstrates the power of even modest telescopes for solar astronomy. However, it's crucial to note that **observing the Sun directly through a telescope without proper solar filters is extremely dangerous and can cause permanent eye damage or blindness**. Professional solar observations use specialized equipment with appropriate filters.
 
 </div>
 </div>
@@ -221,6 +309,51 @@ Among the things to be considered are the focal lengths of the lenses and their
 relative placements as well as the size and location of the object. Verify that
 the angular magnification is greater than one. That is, the angle subtended at
 the eye by the image is greater than the angle subtended by the object.
+
+</div>
+<div class="solution" markdown="1">
+
+**Guidance for Constructing This Problem**
+
+When constructing a problem for a Galilean telescope (convex objective + concave eyepiece), follow this framework:
+
+**Choose Your Parameters:**
+
+1. **Objective lens**: Select a convex lens with focal length $$f_o$$ (e.g., $$f_o = +50.0$$ cm)
+2. **Eyepiece lens**: Select a concave lens with focal length $$f_e$$ (e.g., $$f_e = -5.00$$ cm, negative because it's concave)
+3. **Object**: Choose a distant object (e.g., the Moon at $$d_o = 3.84 \times 10^8$$ m, diameter 3,476 km)
+4. **Lens separation**: Set $$L = f_o + f_e$$ (e.g., $$L = 50.0 - 5.0 = 45.0$$ cm for an upright final image)
+
+**Problem to Solve:**
+
+"A Galilean telescope has a +50.0 cm focal length convex objective and a -5.00 cm focal length concave eyepiece placed 45.0 cm apart. An observer views the Moon (diameter 3,476 km at distance $$3.84 \times 10^8$$ m). Calculate: (a) the location and size of the intermediate image formed by the objective, (b) the location and magnification of the final image, (c) the angular magnification of the telescope."
+
+**Solution Approach:**
+
+**(a)** For the objective (object at infinity):
+- Use $$\frac{1}{f_o} = \frac{1}{d_o} + \frac{1}{d_i}$$
+- Since $$d_o \approx \infty$$, then $$d_i \approx f_o = 50.0$$ cm
+- Image size: $$h_i = h_o \times \frac{d_i}{d_o} = (3.476 \times 10^6 \text{ m}) \times \frac{0.50 \text{ m}}{3.84 \times 10^8 \text{ m}} = 4.52 \text{ mm}$$
+
+**(b)** For the eyepiece:
+- Object distance: $$d'_o = L - d_i = 45.0 - 50.0 = -5.00$$ cm (virtual object)
+- Use $$\frac{1}{f_e} = \frac{1}{d'_o} + \frac{1}{d'_i}$$: $$\frac{1}{-5.00} = \frac{1}{-5.00} + \frac{1}{d'_i}$$
+- This gives $$d'_i = \infty$$ (final image at infinity—relaxed viewing)
+- Magnification: $$m_e = -\frac{d'_i}{d'_o} = -\frac{\infty}{-5.00} \approx \infty$$ (but angular magnification is finite)
+
+**(c)** Angular magnification:
+- $$M = -\frac{f_o}{f_e} = -\frac{50.0}{-5.00} = +10.0$$
+- The positive value confirms an upright final image (key advantage of Galilean telescopes)
+- Verify: $$M > 1$$, confirming magnification
+
+**Key Features of Galilean Telescopes:**
+
+1. **Upright image**: Unlike Keplerian telescopes, the image remains upright ($$M > 0$$)
+2. **Compact design**: Length $$L = f_o + f_e < f_o$$ (shorter than Keplerian)
+3. **Limited field of view**: The concave eyepiece restricts the field of view
+4. **Applications**: Opera glasses, binoculars, Galileo's original telescopes
+
+This construction demonstrates why Galileo's design was revolutionary—it provided magnification with an upright image in a compact package.
 
 </div>
 </div>
