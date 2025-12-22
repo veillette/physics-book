@@ -488,9 +488,28 @@ What is the speed of light in water? In glycerine?
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.25 \times 10^{8}  \text{m/s} $$  in water
 
-$$ 2.04 \times 10^{8} \text{m/s} $$ in glycerine
+**Strategy**
+
+We use the relationship $$v = c/n$$ to calculate the speed of light in each medium. From [[Table 1]](#Table1), the index of refraction for water is $$n_{\text{water}} = 1.333$$ and for glycerine is $$n_{\text{glycerine}} = 1.473$$.
+
+**Solution**
+
+For water:
+<div class="equation">
+$$v_{\text{water}} = \frac{c}{n_{\text{water}}} = \frac{3.00 \times 10^{8} \text{ m/s}}{1.333} = 2.25 \times 10^{8} \text{ m/s}$$
+</div>
+
+For glycerine:
+<div class="equation">
+$$v_{\text{glycerine}} = \frac{c}{n_{\text{glycerine}}} = \frac{3.00 \times 10^{8} \text{ m/s}}{1.473} = 2.04 \times 10^{8} \text{ m/s}$$
+</div>
+
+**Answer:** The speed of light in water is **2.25 × 10⁸ m/s** and in glycerine is **2.04 × 10⁸ m/s**.
+
+**Discussion**
+
+Light travels at about 75% of its vacuum speed in water and about 68% in glycerine. The higher index of refraction in glycerine means light interacts more strongly with the material and travels slower. This difference in speed is what causes refraction—when light enters these materials from air, it slows down and bends toward the normal. The larger the index of refraction, the more the light slows down and the more it bends.
 
 </div>
 </div>
@@ -534,7 +553,24 @@ Calculate the index of refraction for a medium in which the speed of light is  $
 
 </div>
 <div class="solution"  markdown="1">
- $$ 1.490 $$, polystyrene
+
+**Strategy**
+
+We use $$n = c/v$$ to calculate the index of refraction, then compare with values in [[Table 1]](#Table1) to identify the substance.
+
+**Solution**
+
+<div class="equation">
+$$n = \frac{c}{v} = \frac{3.00 \times 10^{8} \text{ m/s}}{2.012 \times 10^{8} \text{ m/s}} = 1.491$$
+</div>
+
+Comparing with [[Table 1]](#Table1), this value is very close to **polystyrene**, which has $$n = 1.49$$.
+
+**Answer:** The index of refraction is **1.491**, and the substance is most likely **polystyrene**.
+
+**Discussion**
+
+Polystyrene is a common plastic used in many everyday items including disposable cups, packaging materials, and optical components. Its index of refraction (approximately 1.49) is similar to many other transparent plastics and glasses. The calculated value of 1.491 matches polystyrene within the precision of the measurement. In practice, the index of refraction can vary slightly depending on the exact composition and manufacturing process of the material, so small variations from the table value are expected.
 
 </div>
 </div>
@@ -575,7 +611,29 @@ There was a major collision of an asteroid with the Moon in medieval times. It w
 
 </div>
 <div class="solution" markdown="1">
- $$1.28 \text{s} $$
+
+**Strategy**
+
+Light travels at speed $$c = 3.00 \times 10^{8} \text{ m/s}$$ in the vacuum of space. We use $$t = d/c$$ to find the time, converting the distance to meters first.
+
+**Solution**
+
+Convert distance to meters:
+<div class="equation">
+$$d = 3.84 \times 10^{5} \text{ km} = 3.84 \times 10^{8} \text{ m}$$
+</div>
+
+Calculate time:
+<div class="equation">
+$$t = \frac{d}{c} = \frac{3.84 \times 10^{8} \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 1.28 \text{ s}$$
+</div>
+
+**Answer:** The light would arrive on Earth **1.28 seconds** after the asteroid hit the Moon.
+
+**Discussion**
+
+This remarkably short time—just over one second—shows how fast light travels. The Moon is Earth's closest celestial neighbor, and the short light-travel time means that when we look at the Moon, we're seeing it almost exactly as it is "now" (with only a 1.28-second delay). This historical observation by the Canterbury monks was likely of a major impact that created one of the Moon's craters. The event they described occurred in 1178 CE and has been suggested as possibly creating the crater Giordano Bruno, though this remains debated. The ability to see such an event from Earth demonstrates both the brightness of the impact and the short distance light must travel.
+
 </div>
 </div>
 
@@ -629,7 +687,28 @@ Components of some computers communicate with each other through optical fibers 
 
 </div>
 <div class="solution" markdown="1">
- $$1.03 \text{ns} $$
+
+**Strategy**
+
+The speed of light in the fiber is $$v = c/n$$. We then use $$t = d/v$$ to find the travel time.
+
+**Solution**
+
+Speed of light in the fiber:
+<div class="equation">
+$$v = \frac{c}{n} = \frac{3.00 \times 10^{8} \text{ m/s}}{1.55} = 1.935 \times 10^{8} \text{ m/s}$$
+</div>
+
+Time for signal to travel 0.200 m:
+<div class="equation">
+$$t = \frac{d}{v} = \frac{0.200 \text{ m}}{1.935 \times 10^{8} \text{ m/s}} = 1.03 \times 10^{-9} \text{ s} = 1.03 \text{ ns}$$
+</div>
+
+**Answer:** The signal requires **1.03 nanoseconds** to travel through the fiber.
+
+**Discussion**
+
+Although this seems like an incredibly short time, it's significant in high-speed computing. Modern computer processors operate at gigahertz frequencies (billions of cycles per second), meaning each clock cycle lasts about 1 nanosecond. So this 1.03 ns delay represents roughly one clock cycle—enough to matter in computer design. This is why computer engineers carefully consider the length of connections and use optical fibers for longer distances within and between computers. The speed of light (even when slowed by the fiber's index of refraction) sets a fundamental limit on how fast signals can travel, affecting computer performance and design.
 
 </div>
 </div>
@@ -688,7 +767,29 @@ Suppose you have an unknown clear substance immersed in water, and you wish to i
 
 </div>
 <div class="solution"  markdown="1">
- $$n= 1.46 $$ ,  fused quartz
+
+**Strategy**
+
+Light travels from water ($$n_1 = 1.333$$) into the unknown substance ($$n_2$$). We use Snell's law: $$n_1 \sin \theta_1 = n_2 \sin \theta_2$$ with $$\theta_1 = 45.0°$$ and $$\theta_2 = 40.3°$$.
+
+**Solution**
+
+Apply Snell's law:
+<div class="equation">
+$$n_2 = n_1 \frac{\sin \theta_1}{\sin \theta_2} = 1.333 \times \frac{\sin(45.0°)}{\sin(40.3°)}$$
+</div>
+
+<div class="equation">
+$$n_2 = 1.333 \times \frac{0.7071}{0.6461} = 1.333 \times 1.094 = 1.458$$
+</div>
+
+Comparing with [[Table 1]](#Table1), this matches **fused quartz** ($$n = 1.458$$).
+
+**Answer:** The index of refraction is **1.46** (to three significant figures), and the substance is most likely **fused quartz**.
+
+**Discussion**
+
+Fused quartz (also called fused silica) is a glass made by melting high-purity silica. It's commonly used in optical applications because of its excellent transparency, low thermal expansion, and resistance to thermal shock. The fact that the angle of refraction (40.3°) is less than the angle of incidence (45.0°) confirms that light is bending toward the normal, which is expected since the unknown substance has a higher index of refraction than water (1.458 > 1.333). This technique of measuring refraction angles to identify materials is used in gemology and materials science to distinguish between different transparent substances.
 
 </div>
 </div>

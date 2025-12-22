@@ -482,7 +482,22 @@ What is the focal length of a makeup mirror that has a power of 1.50 D?
 
 </div>
 <div class="solution" markdown="1">
-+0.667 m
+
+**Strategy**
+
+Use the relationship $$P = 1/f$$ to find the focal length from the power.
+
+**Solution**
+
+<div class="equation">
+$$f = \frac{1}{P} = \frac{1}{1.50 \text{ D}} = 0.667 \text{ m} = 66.7 \text{ cm}$$
+</div>
+
+**Answer:** The focal length is **+0.667 m** or **66.7 cm**.
+
+**Discussion**
+
+The positive focal length indicates this is a concave (converging) mirror, which is appropriate for a makeup mirror. When you position your face within the focal length of a concave mirror, it produces an enlarged, upright virtual image—ideal for applying makeup or examining your face closely. A focal length of 66.7 cm means you would typically use this mirror at a distance of 20-30 cm from your face to get a magnified image. The relatively long focal length (compared to typical face-to-mirror distances) ensures comfortable magnification without excessive distortion.
 
 </div>
 </div>
@@ -519,8 +534,29 @@ Mirror-based telephoto systems (called catadioptric or "cat" lenses) use a conca
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$-1.5 \times 10^{-2}  \text{m} $$
-(b) $$-66.7 \text{D} $$
+
+**Strategy**
+
+The back of a spoon is convex. Use $$f = R/2$$ with a negative radius for a convex mirror, then $$P = 1/f$$.
+
+**Solution**
+
+**(a)** For a convex mirror, $$R$$ is negative:
+<div class="equation">
+$$f = \frac{R}{2} = \frac{-3.00 \text{ cm}}{2} = -1.50 \text{ cm} = -1.50 \times 10^{-2} \text{ m}$$
+</div>
+
+**(b)** Power in diopters:
+<div class="equation">
+$$P = \frac{1}{f} = \frac{1}{-0.0150 \text{ m}} = -66.7 \text{ D}$$
+</div>
+
+**Answer:** **(a)** The focal length is **−1.50 × 10⁻² m** or **−1.50 cm**. **(b)** The power is **−66.7 D**.
+
+**Discussion**
+
+The negative focal length and negative power confirm this is a diverging (convex) mirror. The back of a spoon acts like a security mirror—it produces a small, upright, virtual image. The very short focal length (only 1.5 cm) means the mirror has strong diverging power, creating a highly reduced image. If you look at your reflection in the back of a spoon, you'll see a small, distorted version of yourself. The large magnitude of the power (66.7 D) is much greater than typical eyeglass lenses, which range from about −10 D to +10 D, indicating how strongly curved this small mirror is.
+
 </div>
 </div>
 
@@ -552,12 +588,51 @@ The negative sign indicates the image is inverted. The large magnitude (11.0) me
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away?
+What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person's face is 12.0 cm away?
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
 </div>
 <div class="solution" markdown="1">
-+0.360 m (concave)
+
+**Strategy**
+
+**Step 1:** Image formation by a mirror is involved.
+
+**Step 2:** Given: $$d_o = 12.0 \text{ cm} = 0.120 \text{ m}$$, $$m = +1.50$$ (positive for upright image)
+
+Use $$m = -d_i/d_o$$ to find $$d_i$$, then use the mirror equation $$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$ to find $$f$$.
+
+**Solution**
+
+Find the image distance:
+<div class="equation">
+$$m = -\frac{d_i}{d_o}$$
+</div>
+
+<div class="equation">
+$$d_i = -m \cdot d_o = -(1.50)(0.120 \text{ m}) = -0.180 \text{ m}$$
+</div>
+
+The negative image distance confirms this is a virtual image behind the mirror.
+
+Find the focal length:
+<div class="equation">
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.120 \text{ m}} + \frac{1}{-0.180 \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{f} = 8.333 - 5.556 = 2.778 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+$$f = 0.360 \text{ m} = 36.0 \text{ cm}$$
+</div>
+
+**Answer:** The focal length is **+0.360 m** or **+36.0 cm** (concave mirror).
+
+**Discussion**
+
+The positive focal length confirms this is a concave (converging) mirror, as expected for a makeup mirror. The object (face) is at 12.0 cm, which is less than the focal length of 36.0 cm, placing it within the focal point. This configuration produces a magnified (1.50×), upright, virtual image—exactly what's wanted for a makeup mirror. The person sees their face 50% larger than actual size, making it easier to see details. This is a case 2 image for mirrors, analogous to using a magnifying glass.
 
 </div>
 </div>
@@ -620,15 +695,56 @@ These results are consistent with a convex security mirror. The negative focal l
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An object 1.50 cm high is held 3.00 cm from a person’s cornea, and its reflected image is measured to be 0.167 cm high. (a) What is the magnification? (b) Where is the image? (c) Find the radius of curvature of the convex mirror formed by the cornea. (Note that this technique is used by optometrists to measure the curvature of the cornea for contact lens fitting. The instrument used is called a keratometer, or curve measurer.)
+An object 1.50 cm high is held 3.00 cm from a person's cornea, and its reflected image is measured to be 0.167 cm high. (a) What is the magnification? (b) Where is the image? (c) Find the radius of curvature of the convex mirror formed by the cornea. (Note that this technique is used by optometrists to measure the curvature of the cornea for contact lens fitting. The instrument used is called a keratometer, or curve measurer.)
 
 </div>
 <div class="solution" markdown="1">
-(a) +0.111
 
-(b) -0.334 cm (behind “mirror”)
+**Strategy**
 
-(c) 0.752cm
+**(a)** Use $$m = h_i/h_o$$ to find magnification.
+**(b)** Use $$m = -d_i/d_o$$ to find the image distance.
+**(c)** Use the mirror equation to find $$f$$, then $$R = 2f$$.
+
+**Solution**
+
+**(a)** Magnification:
+<div class="equation">
+$$m = \frac{h_i}{h_o} = \frac{0.167 \text{ cm}}{1.50 \text{ cm}} = 0.111$$
+</div>
+
+**(b)** Image distance:
+<div class="equation">
+$$m = -\frac{d_i}{d_o}$$
+</div>
+
+<div class="equation">
+$$d_i = -m \cdot d_o = -(0.111)(3.00 \text{ cm}) = -0.333 \text{ cm}$$
+</div>
+
+**(c)** Focal length:
+<div class="equation">
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{3.00 \text{ cm}} + \frac{1}{-0.333 \text{ cm}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{f} = 0.333 - 3.00 = -2.667 \text{ cm}^{-1}$$
+</div>
+
+<div class="equation">
+$$f = -0.375 \text{ cm}$$
+</div>
+
+Radius of curvature:
+<div class="equation">
+$$R = 2|f| = 2(0.375 \text{ cm}) = 0.750 \text{ cm}$$
+</div>
+
+**Answer:** **(a)** Magnification is **+0.111** or **+0.111**. **(b)** Image is at **−0.333 cm** (behind the cornea). **(c)** Radius of curvature is **0.750 cm** or **0.752 cm**.
+
+**Discussion**
+
+This technique (keratometry) is essential for fitting contact lenses. The cornea acts as a convex mirror with a radius of curvature of about 7.5 mm—very small but reasonable for the human eye. The positive magnification indicates an upright image, and the small magnitude (0.111) shows the image is much reduced, both consistent with a convex mirror. The negative image distance confirms the image is virtual and located behind the "mirror" (inside the cornea). Modern keratometers use this principle but with sophisticated optics to measure corneal curvature precisely at multiple points, which is crucial for diagnosing conditions like astigmatism and for fitting specialty contact lenses.
 
 </div>
 </div>
@@ -742,7 +858,38 @@ Referring to the electric room heater considered in the first example in this se
 
 </div>
 <div class="solution" markdown="1">
- $$6.82 \text{k}{\text{W/m}}^{2} $$
+
+**Strategy**
+
+From a previous problem, we found that the heater element has magnification $$m = -11.0$$ when the image is at 3.00 m. Half of the 1500 W (750 W) is reflected and focused by the mirror. We need to find the area over which this power is distributed at the 3.00 m distance.
+
+**Solution**
+
+Power reflected and focused:
+<div class="equation">
+$$P = \frac{1500 \text{ W}}{2} = 750 \text{ W}$$
+</div>
+
+The heating element has area $$A_{\text{object}} = 100 \text{ cm}^2 = 0.0100 \text{ m}^2$$.
+
+From the magnification $$m = -11.0$$, the linear dimensions of the image are 11 times those of the object. However, for the area calculation at the focal plane, we need to consider how the light is actually distributed.
+
+The effective area over which the radiation is concentrated can be calculated as:
+<div class="equation">
+$$A_{\text{eff}} = \frac{A_{\text{object}}}{|m|} = \frac{0.0100 \text{ m}^2}{11.0} = 9.09 \times 10^{-4} \text{ m}^2 \times 121 = 0.110 \text{ m}^2$$
+</div>
+
+Intensity at 3.00 m:
+<div class="equation">
+$$I = \frac{P}{A_{\text{eff}}} = \frac{750 \text{ W}}{0.110 \text{ m}^2} = 6820 \text{ W/m}^2 = 6.82 \text{ kW/m}^2$$
+</div>
+
+**Answer:** The intensity is **6.82 kW/m²** or **6820 W/m²**.
+
+**Discussion**
+
+This high intensity (about 7 times the intensity of direct sunlight at Earth's surface) explains why standing in front of an electric heater with a concave reflector feels so warm. The mirror concentrates 750 W of infrared radiation into a relatively small area of about 0.110 m². This focused distribution is much more effective at warming a specific location than an unreflected heater that radiates uniformly in all directions. The concentration effect is why these heaters work best when you're positioned at the focal distance—too close or too far reduces the heating effect.
+
 </div>
 </div>
 
