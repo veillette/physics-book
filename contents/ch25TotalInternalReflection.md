@@ -325,12 +325,58 @@ Verify that the critical angle for light going from water to air is  $$48.6 ^\ci
  as discussed at the end of [[Example 1]](#Example1), regarding the critical angle for light traveling in a polystyrene (a type of plastic) pipe surrounded by air.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the formula for critical angle: $$\theta_c = \sin^{-1}(n_2/n_1)$$ where $$n_1 > n_2$$. For water to air, $$n_1 = 1.333$$ (water) and $$n_2 = 1.00$$ (air).
+
+**Solution**
+
+<div class="equation">
+$$\theta_c = \sin^{-1}\left(\frac{n_2}{n_1}\right) = \sin^{-1}\left(\frac{1.00}{1.333}\right)$$
+</div>
+
+<div class="equation">
+$$\theta_c = \sin^{-1}(0.7502) = 48.6°$$
+</div>
+
+**Discussion**
+
+This confirms that the critical angle for light going from water to air is $$48.6°$$. Any light ray in water striking the water-air interface at an angle greater than $$48.6°$$ from the normal will undergo total internal reflection. This phenomenon is why you can sometimes see a mirror-like reflection when looking up at the water surface from underwater—light hitting the surface at shallow angles (large angles from the normal) reflects back down instead of escaping into the air.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 (a) At the end of [[Example 1]](#Example1), it was stated that the critical angle for light going from diamond to air is  $$ 24.4º $$ .
  Verify this. (b) What is the critical angle for light going from zircon to air?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use $$\theta_c = \sin^{-1}(n_2/n_1)$$ for both materials. From tables, $$n_{\text{diamond}} = 2.419$$ and $$n_{\text{zircon}} = 1.923$$.
+
+**Solution**
+
+**(a)** For diamond to air:
+<div class="equation">
+$$\theta_c = \sin^{-1}\left(\frac{1.00}{2.419}\right) = \sin^{-1}(0.4135) = 24.4°$$
+</div>
+
+This verifies the stated value.
+
+**(b)** For zircon to air:
+<div class="equation">
+$$\theta_c = \sin^{-1}\left(\frac{1.00}{1.923}\right) = \sin^{-1}(0.5200) = 31.3°$$
+</div>
+
+**Discussion**
+
+Diamond's very small critical angle (24.4°) is why it sparkles so brilliantly. Most light entering a well-cut diamond undergoes multiple total internal reflections before finding one of the few paths that allows it to exit. This concentrates the light and creates the characteristic sparkle. Zircon, with its larger critical angle of 31.3°, allows more light to escape and thus sparkles less than diamond, though more than most other gemstones. This is why the critical angle is an important factor in determining a gemstone's brilliance.
 
 </div>
 </div>
@@ -350,6 +396,29 @@ An optical fiber uses flint glass clad with crown glass. What is the critical an
 At what minimum angle will you get total internal reflection of light traveling in water and reflected from ice?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Light travels from water ($$n_1 = 1.333$$) to ice ($$n_2 = 1.309$$). Since $$n_1 > n_2$$, total internal reflection is possible. We use $$\theta_c = \sin^{-1}(n_2/n_1)$$.
+
+**Solution**
+
+<div class="equation">
+$$\theta_c = \sin^{-1}\left(\frac{n_{\text{ice}}}{n_{\text{water}}}\right) = \sin^{-1}\left(\frac{1.309}{1.333}\right)$$
+</div>
+
+<div class="equation">
+$$\theta_c = \sin^{-1}(0.9820) = 79.1°$$
+</div>
+
+**Answer:** The minimum angle for total internal reflection is **79.1°** from the normal.
+
+**Discussion**
+
+This very large critical angle (close to 90°) means that light must be traveling almost parallel to the water-ice interface to achieve total internal reflection. This is because the indices of refraction of water and ice are very similar (differing by only about 2%). In practical situations, this means that most light can pass from water into ice without total internal reflection occurring. This is different from the water-air interface where the critical angle is only 48.6°, making total internal reflection much more common.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -367,6 +436,32 @@ Suppose you are using total internal reflection to make an efficient corner refl
 <div class="problem" markdown="1">
 You can determine the index of refraction of a substance by determining its critical angle. (a) What is the index of refraction of a substance that has a critical angle of  $$ 68.4º $$
  when submerged in water? What is the substance, based on [[Table 1]](../contents/ch25TheLawOfRefraction#Table1)? (b) What would the critical angle be for this substance in air?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+**(a)** We use $$\sin \theta_c = n_2/n_1$$ where the substance is medium 1 and water is medium 2. Solve for $$n_1$$.
+**(b)** Use the found index to calculate the critical angle in air.
+
+**Solution**
+
+**(a)** Rearranging the critical angle formula:
+<div class="equation">
+$$n_1 = \frac{n_2}{\sin \theta_c} = \frac{1.333}{\sin(68.4°)} = \frac{1.333}{0.9304} = 1.433$$
+</div>
+
+From [[Table 1]](../contents/ch25TheLawOfRefraction#Table1), this corresponds to **fluorite** ($$n = 1.434$$).
+
+**(b)** For fluorite in air:
+<div class="equation">
+$$\theta_c = \sin^{-1}\left(\frac{1.00}{1.433}\right) = \sin^{-1}(0.6979) = 44.3°$$
+</div>
+
+**Discussion**
+
+The critical angle changes significantly depending on the surrounding medium. When fluorite is submerged in water, the critical angle is 68.4° (measured from the normal), but in air it's only 44.3°. This is because the difference in refractive indices is smaller between fluorite and water than between fluorite and air. This principle is important in fiber optics, where the cladding material is chosen to have an index of refraction slightly less than the core to ensure total internal reflection at reasonable angles.
 
 </div>
 </div>
@@ -391,6 +486,54 @@ A light ray entering an optical fiber surrounded by air is first refracted and t
 
 ![The figure shows light traveling from n1 to n2 is incident on a rectangular transparent object at an angle of incidence theta 1. The angle of refraction is theta 2. On refraction, the ray falls onto the long side and gets totally internally reflected with theta 3 as the angle of incidence.](../resources/Figure_25_04_10.jpg 'A light ray enters the end of a fiber, the surface of which is perpendicular to its sides. Examine the conditions under which it may be totally internally reflected.')
 {: #Figure10}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to show that for crown glass ($$n = 1.52$$), the angle $$\theta_3$$ at which light hits the fiber's side wall is always greater than the critical angle, regardless of the incident angle $$\theta_1$$.
+
+**Solution**
+
+First, find the critical angle for crown glass-air interface:
+<div class="equation">
+$$\theta_c = \sin^{-1}\left(\frac{1.00}{1.52}\right) = \sin^{-1}(0.6579) = 41.1°$$
+</div>
+
+When light enters the fiber end (perpendicular to the sides), it refracts according to Snell's law:
+<div class="equation">
+$$n_{\text{air}} \sin \theta_1 = n_{\text{glass}} \sin \theta_2$$
+</div>
+
+<div class="equation">
+$$\sin \theta_2 = \frac{\sin \theta_1}{1.52}$$
+</div>
+
+The maximum value of $$\theta_2$$ occurs when $$\theta_1 = 90°$$:
+<div class="equation">
+$$\sin \theta_{2,\text{max}} = \frac{1}{1.52} = 0.6579$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{max}} = 41.1°$$
+</div>
+
+When the ray hits the side of the fiber, the angle $$\theta_3$$ (measured from the normal to the side) is complementary to $$\theta_2$$:
+<div class="equation">
+$$\theta_3 = 90° - \theta_2$$
+</div>
+
+The minimum value of $$\theta_3$$ is:
+<div class="equation">
+$$\theta_{3,\text{min}} = 90° - 41.1° = 48.9°$$
+</div>
+
+Since $$\theta_{3,\text{min}} = 48.9° > \theta_c = 41.1°$$, total internal reflection will always occur at the fiber's sides, regardless of the incident angle $$\theta_1$$.
+
+**Discussion**
+
+This proof shows why crown glass optical fibers work effectively. Even light entering at the maximum possible angle (90° to the normal at the entrance) will still undergo total internal reflection when it hits the sides of the fiber. This ensures that light is guided along the fiber with minimal loss. In practice, fibers often use cladding with a slightly lower index of refraction rather than air, which further improves performance and protects the fiber surface.
 
 </div>
 </div>

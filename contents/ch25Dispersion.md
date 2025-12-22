@@ -180,6 +180,37 @@ and our human goals.
 (a) What is the ratio of the speed of red light to violet light in diamond, based on [[Table 1]](#Table1)? (b) What is this ratio in polystyrene? (c) Which is more dispersive?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The speed of light in a medium is $$v = c/n$$. The ratio of speeds equals the inverse ratio of indices of refraction. From [[Table 1]](#Table1), we have values for red (660 nm) and violet (410 nm) light.
+
+**Solution**
+
+**(a)** For diamond:
+- Red: $$n_{\text{red}} = 2.410$$
+- Violet: $$n_{\text{violet}} = 2.458$$
+
+<div class="equation">
+$$\frac{v_{\text{red}}}{v_{\text{violet}}} = \frac{c/n_{\text{red}}}{c/n_{\text{violet}}} = \frac{n_{\text{violet}}}{n_{\text{red}}} = \frac{2.458}{2.410} = 1.020$$
+</div>
+
+**(b)** For polystyrene:
+- Red: $$n_{\text{red}} = 1.488$$
+- Violet: $$n_{\text{violet}} = 1.506$$
+
+<div class="equation">
+$$\frac{v_{\text{red}}}{v_{\text{violet}}} = \frac{1.506}{1.488} = 1.012$$
+</div>
+
+**(c)** Diamond has the larger ratio (1.020 vs 1.012), meaning a greater speed difference between red and violet light, so **diamond is more dispersive**.
+
+**Discussion**
+
+Diamond disperses light more than polystyrene, which contributes to its greater "fire"—the colorful flashes seen in a well-cut diamond. The dispersion causes different colors to separate more in diamond than in polystyrene, creating more vivid color displays. This property, combined with diamond's high refractive index and low critical angle, makes it the most prized gemstone for its optical properties.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -197,6 +228,40 @@ A beam of white light goes from air into water at an incident angle of  $$ 75.0�
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 By how much do the critical angles for red (660 nm) and violet (410 nm) light differ in a diamond surrounded by air?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We calculate the critical angle for each wavelength using $$\theta_c = \sin^{-1}(n_{\text{air}}/n_{\text{diamond}})$$ and find the difference.
+
+**Solution**
+
+From [[Table 1]](#Table1):
+- Red: $$n_{\text{red}} = 2.410$$
+- Violet: $$n_{\text{violet}} = 2.458$$
+
+For red light:
+<div class="equation">
+$$\theta_{c,\text{red}} = \sin^{-1}\left(\frac{1.00}{2.410}\right) = \sin^{-1}(0.4149) = 24.5°$$
+</div>
+
+For violet light:
+<div class="equation">
+$$\theta_{c,\text{violet}} = \sin^{-1}\left(\frac{1.00}{2.458}\right) = \sin^{-1}(0.4068) = 24.0°$$
+</div>
+
+Difference:
+<div class="equation">
+$$\Delta \theta_c = 24.5° - 24.0° = 0.5°$$
+</div>
+
+**Answer:** The critical angles differ by **0.5°**.
+
+**Discussion**
+
+Although this difference seems small, it's significant for diamond cutting. Since violet light has a slightly smaller critical angle than red light, it's slightly easier for violet light to escape the diamond. Skilled diamond cutters must account for this dispersion when creating facets, ensuring that all colors are properly reflected and create the diamond's characteristic brilliance and fire. The color separation also contributes to the rainbow-like flashes seen when a diamond moves.
 
 </div>
 </div>
@@ -219,6 +284,48 @@ A parallel beam of light containing orange (610 nm) and violet (410 nm) waveleng
  incident angle. What is the angle between the two colors in water?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We apply Snell's law for each wavelength separately and find the difference in refraction angles. From [[Table 1]](#Table1): fused quartz has $$n_{\text{orange}} = 1.456$$ and $$n_{\text{violet}} = 1.468$$. For water, we use approximate values $$n_{\text{orange}} \approx 1.332$$ and $$n_{\text{violet}} \approx 1.342$$.
+
+**Solution**
+
+For orange light:
+<div class="equation">
+$$n_{\text{quartz}} \sin \theta_1 = n_{\text{water}} \sin \theta_{2,\text{orange}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta_{2,\text{orange}} = \frac{1.456 \times \sin(60.0°)}{1.332} = \frac{1.456 \times 0.8660}{1.332} = 0.9467$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{orange}} = \sin^{-1}(0.9467) = 71.2°$$
+</div>
+
+For violet light:
+<div class="equation">
+$$\sin \theta_{2,\text{violet}} = \frac{1.468 \times 0.8660}{1.342} = \frac{1.271}{1.342} = 0.9471$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{violet}} = \sin^{-1}(0.9471) = 71.3°$$
+</div>
+
+Angle between the colors:
+<div class="equation">
+$$\Delta \theta = 71.3° - 71.2° = 0.1°$$
+</div>
+
+**Answer:** The angle between the two colors in water is approximately **0.1°**.
+
+**Discussion**
+
+The very small angular separation (0.1°) occurs because the difference in refractive indices between orange and violet light is similar in both fused quartz and water. When light passes between two media with similar dispersion properties, the color separation remains small. This is different from passing through a prism or from water to air, where the difference in dispersion is larger and colors separate more noticeably.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -236,6 +343,71 @@ A ray of 610 nm light goes from air into fused quartz at an incident angle of  $
 <div class="problem" markdown="1">
 A narrow beam of light containing red (660 nm) and blue (470 nm) wavelengths travels from air through a 1.00 cm thick flat piece of crown glass and back to air again. The beam strikes at a  $$ 30.0º $$
  incident angle. (a) At what angles do the two colors emerge? (b) By what distance are the red and blue separated when they emerge?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a parallel-sided plate, light emerges parallel to its incident direction but laterally displaced. We need to find the displacement for each color, which differs due to dispersion. From [[Table 1]](#Table1): $$n_{\text{red}} = 1.512$$ and $$n_{\text{blue}} = 1.524$$ for crown glass.
+
+**Solution**
+
+**(a)** For a parallel-sided glass plate, the emerging ray is parallel to the incident ray. Therefore, both colors emerge at **30.0°** (the same angle as incidence).
+
+**(b)** First, find the refraction angle in the glass for each color.
+
+For red light:
+<div class="equation">
+$$\sin \theta_{2,\text{red}} = \frac{\sin(30.0°)}{1.512} = \frac{0.500}{1.512} = 0.3307$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{red}} = 19.3°$$
+</div>
+
+For blue light:
+<div class="equation">
+$$\sin \theta_{2,\text{blue}} = \frac{0.500}{1.524} = 0.3281$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{blue}} = 19.2°$$
+</div>
+
+The lateral displacement for each color is:
+<div class="equation">
+$$d = \frac{t \sin(\theta_1 - \theta_2)}{\cos \theta_2}$$
+</div>
+
+For red:
+<div class="equation">
+$$d_{\text{red}} = \frac{1.00 \text{ cm} \times \sin(30.0° - 19.3°)}{\cos(19.3°)} = \frac{1.00 \times \sin(10.7°)}{\cos(19.3°)}$$
+</div>
+
+<div class="equation">
+$$d_{\text{red}} = \frac{1.00 \times 0.1857}{0.9434} = 0.197 \text{ cm}$$
+</div>
+
+For blue:
+<div class="equation">
+$$d_{\text{blue}} = \frac{1.00 \times \sin(30.0° - 19.2°)}{\cos(19.2°)} = \frac{1.00 \times \sin(10.8°)}{\cos(19.2°)}$$
+</div>
+
+<div class="equation">
+$$d_{\text{blue}} = \frac{1.00 \times 0.1874}{0.9441} = 0.198 \text{ cm}$$
+</div>
+
+Separation:
+<div class="equation">
+$$\Delta d = 0.198 - 0.197 = 0.001 \text{ cm} = 0.01 \text{ mm}$$
+</div>
+
+**Answer:** (a) Both colors emerge at **30.0°**. (b) They are separated by approximately **0.01 mm** or **10 micrometers**.
+
+**Discussion**
+
+Although both colors emerge parallel to their original direction, they are laterally displaced by slightly different amounts due to dispersion. The separation is very small (only 10 μm for 1 cm of glass) because crown glass has relatively low dispersion. This demonstrates why windowpanes don't noticeably separate colors—the dispersion and thickness are too small to create visible color fringing in normal viewing.
 
 </div>
 </div>

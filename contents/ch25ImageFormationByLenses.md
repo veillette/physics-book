@@ -810,6 +810,31 @@ Will the focal length of a lens change when it is submerged in water? Explain.
 What is the power in diopters of a camera lens that has a 50.0 mm focal length?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the relationship $$P = 1/f$$ where $$f$$ must be in meters and $$P$$ will be in diopters (D).
+
+**Solution**
+
+Convert focal length to meters:
+<div class="equation">
+$$f = 50.0 \text{ mm} = 0.0500 \text{ m}$$
+</div>
+
+Calculate power:
+<div class="equation">
+$$P = \frac{1}{f} = \frac{1}{0.0500 \text{ m}} = 20.0 \text{ D}$$
+</div>
+
+**Answer:** The power is **20.0 diopters**.
+
+**Discussion**
+
+A 50 mm lens is considered a "normal" focal length for 35 mm film cameras, providing a field of view similar to human vision. The positive power indicates this is a converging lens. Camera lenses typically range from about 5 D (200 mm telephoto) to 50 D (20 mm wide-angle), with the 50 mm lens (20 D) in the middle range.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -827,6 +852,25 @@ Your camera’s zoom lens has an adjustable focal length ranging from 80.0 to 20
 What is the focal length of 1.75 D reading glasses found on the rack in a pharmacy?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$f = 1/P$$ to find focal length from power.
+
+**Solution**
+
+<div class="equation">
+$$f = \frac{1}{P} = \frac{1}{1.75 \text{ D}} = 0.571 \text{ m} = 57.1 \text{ cm}$$
+</div>
+
+**Answer:** The focal length is **57.1 cm** or **0.571 m**.
+
+**Discussion**
+
+Reading glasses with +1.75 D are for people with mild presbyopia (age-related farsightedness). The relatively long focal length (57 cm) means these glasses help bring close objects (like books or phones) into focus at comfortable reading distances. The positive power indicates these are converging lenses that help the eye focus on nearby objects.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -842,6 +886,44 @@ You note that your prescription for new eyeglasses is –4.50 D. What will their
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 How far from the lens must the film in a camera be, if the lens has a 35.0 mm focal length and is being used to photograph a flower 75.0 cm away? Explicitly show how you follow the steps in the Problem-Solving Strategy for lenses.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is a case 1 image (real, inverted) since the object is farther from the lens than the focal length. We use the thin lens equation $$\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}$$ to find $$d_i$$.
+
+**Solution**
+
+**Step 1-2:** Image formation by a lens is involved. We'll use the thin lens equation.
+
+**Step 3:** We need to find $$d_i$$ (image distance/film distance).
+
+**Step 4:** Given: $$f = 35.0 \text{ mm} = 3.50 \text{ cm}$$, $$d_o = 75.0 \text{ cm}$$
+
+**Step 5:** (Ray tracing not required)
+
+**Step 6:** Using the thin lens equation:
+<div class="equation">
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{3.50 \text{ cm}} - \frac{1}{75.0 \text{ cm}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{d_i} = 0.2857 - 0.0133 = 0.2724 \text{ cm}^{-1}$$
+</div>
+
+<div class="equation">
+$$d_i = \frac{1}{0.2724} = 3.67 \text{ cm} = 36.7 \text{ mm}$$
+</div>
+
+**Step 7:** This is reasonable—the film must be slightly farther from the lens than the focal length when photographing an object at finite distance. The image distance (36.7 mm) is only slightly more than the focal length (35.0 mm), which makes sense for an object relatively far away.
+
+**Answer:** The film must be **36.7 mm** from the lens.
+
+**Discussion**
+
+Notice that even though the flower is 750 mm away (more than 21 times the focal length), the film needs to be only 1.7 mm beyond the focal point. This demonstrates why camera focusing mechanisms need only small adjustments for objects at different distances—the lens-to-film distance doesn't change much as object distance varies.
 
 </div>
 </div>
