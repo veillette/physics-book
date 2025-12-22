@@ -1183,9 +1183,94 @@ speed relative to the air mass?
 
 </div>
 <div class="solution" markdown="1">
-(a) 63.5 m/s
+**Strategy**
 
-(b) 29.6 m/s
+This is a relative velocity problem in two dimensions. The airplane's velocity relative to Earth equals the airplane's velocity relative to air plus the air's (wind's) velocity relative to Earth. We need to set up vector equations and solve for the unknowns.
+
+**Solution**
+
+**Given:**
+- Wind (jet stream) velocity relative to Earth: $$ v_{wind} = 45.0 \ms $$ at 20° south of east
+- Airplane's direction relative to Earth: 45.0° south of west
+- Airplane's direction relative to air: 5.00° south of west
+
+Let's set up a coordinate system with east as +x and north as +y.
+
+**Wind velocity components:**
+<div class="equation">
+$$ v_{wind,x} = 45.0 \cos(20°) = 45.0(0.940) = 42.3 \ms $$ (east)
+</div>
+<div class="equation">
+$$ v_{wind,y} = -45.0 \sin(20°) = -45.0(0.342) = -15.4 \ms $$ (south)
+</div>
+
+**Vector equation:**
+<div class="equation">
+$$ \vec{v}_{plane/Earth} = \vec{v}_{plane/air} + \vec{v}_{wind/Earth} $$
+</div>
+
+Let $$ v_{p/a} $$ = airplane's speed relative to air (unknown)
+Let $$ v_{p/E} $$ = airplane's speed relative to Earth (unknown)
+
+**Airplane velocity relative to air** (5.00° south of west):
+<div class="equation">
+$$ v_{p/a,x} = -v_{p/a} \cos(5.00°) = -0.996 v_{p/a} $$
+</div>
+<div class="equation">
+$$ v_{p/a,y} = -v_{p/a} \sin(5.00°) = -0.0872 v_{p/a} $$
+</div>
+
+**Airplane velocity relative to Earth** (45.0° south of west):
+<div class="equation">
+$$ v_{p/E,x} = -v_{p/E} \cos(45.0°) = -0.707 v_{p/E} $$
+</div>
+<div class="equation">
+$$ v_{p/E,y} = -v_{p/E} \sin(45.0°) = -0.707 v_{p/E} $$
+</div>
+
+**Setting up equations from vector addition:**
+
+x-component: $$ -0.707 v_{p/E} = -0.996 v_{p/a} + 42.3 $$
+
+y-component: $$ -0.707 v_{p/E} = -0.0872 v_{p/a} - 15.4 $$
+
+Since both left sides are equal:
+<div class="equation">
+$$ -0.996 v_{p/a} + 42.3 = -0.0872 v_{p/a} - 15.4 $$
+</div>
+
+<div class="equation">
+$$ -0.996 v_{p/a} + 0.0872 v_{p/a} = -15.4 - 42.3 $$
+</div>
+
+<div class="equation">
+$$ -0.909 v_{p/a} = -57.7 $$
+</div>
+
+<div class="equation">
+$$ v_{p/a} = \frac{57.7}{0.909} = 63.5 \ms $$
+</div>
+
+**(b) Airplane's speed relative to Earth:**
+
+Substituting back:
+<div class="equation">
+$$ -0.707 v_{p/E} = -0.0872(63.5) - 15.4 = -5.54 - 15.4 = -20.9 $$
+</div>
+
+<div class="equation">
+$$ v_{p/E} = \frac{20.9}{0.707} = 29.6 \ms $$
+</div>
+
+**Discussion**
+
+The airplane must fly at 63.5 m/s relative to the air mass (its airspeed) to achieve a ground track of 45° south of west. Due to the jet stream blowing from the west-southwest, the airplane's ground speed (29.6 m/s) is much less than its airspeed. This illustrates how headwinds can significantly reduce an aircraft's speed over the ground, leading to longer flight times when flying into the wind.
+
+**Answer**
+
+(a) The airplane's speed relative to the air mass is **63.5 m/s**.
+
+(b) The airplane's speed relative to the Earth is **29.6 m/s**.
 
 </div>
 </div>
@@ -1288,7 +1373,68 @@ What is the velocity of the wind relative to the water?
 
 </div>
 <div class="solution" markdown="1">
- $$ 6.68 \ms $$, $$ 53.3^\circ $$ south of west
+**Strategy**
+
+To find the velocity of the wind relative to the water (ocean current), we use the relative velocity relationship:
+<div class="equation">
+$$ \vec{v}_{wind/water} = \vec{v}_{wind/Earth} - \vec{v}_{water/Earth} $$
+</div>
+
+We'll break each velocity into components, subtract, then find the magnitude and direction.
+
+**Solution**
+
+**Given:**
+- Ocean current velocity: $$ v_{water} = 2.20 \ms $$ at 30.0° east of north
+- Wind velocity relative to Earth: $$ v_{wind} = 4.50 \ms $$ at 50.0° south of west
+
+Set up coordinates with east as +x and north as +y.
+
+**Ocean current (water) components:**
+<div class="equation">
+$$ v_{water,x} = 2.20 \sin(30.0°) = 2.20(0.500) = 1.10 \ms $$ (east)
+</div>
+<div class="equation">
+$$ v_{water,y} = 2.20 \cos(30.0°) = 2.20(0.866) = 1.90 \ms $$ (north)
+</div>
+
+**Wind velocity relative to Earth components:**
+
+50.0° south of west means 180° + 50° = 230° from east (or in the third quadrant).
+<div class="equation">
+$$ v_{wind,x} = -4.50 \cos(50.0°) = -4.50(0.643) = -2.89 \ms $$ (west)
+</div>
+<div class="equation">
+$$ v_{wind,y} = -4.50 \sin(50.0°) = -4.50(0.766) = -3.45 \ms $$ (south)
+</div>
+
+**Wind velocity relative to water:**
+<div class="equation">
+$$ v_{wind/water,x} = v_{wind,x} - v_{water,x} = -2.89 - 1.10 = -3.99 \ms $$
+</div>
+<div class="equation">
+$$ v_{wind/water,y} = v_{wind,y} - v_{water,y} = -3.45 - 1.90 = -5.35 \ms $$
+</div>
+
+**Magnitude:**
+<div class="equation">
+$$ v_{wind/water} = \sqrt{(-3.99)^2 + (-5.35)^2} = \sqrt{15.9 + 28.6} = \sqrt{44.5} = 6.67 \ms \approx 6.68 \ms $$
+</div>
+
+**Direction:**
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{|v_{wind/water,y}|}{|v_{wind/water,x}|}\right) = \tan^{-1}\left(\frac{5.35}{3.99}\right) = \tan^{-1}(1.34) = 53.3° $$
+</div>
+
+Since both components are negative (southwest quadrant), the direction is 53.3° south of west.
+
+**Discussion**
+
+The wind velocity relative to the water is different from the wind velocity relative to Earth because the ocean current is also moving. The current is moving northeast (30° east of north), so from the water's reference frame, there's an additional apparent wind component from the northeast. This makes the wind relative to the water faster (6.68 m/s vs. 4.50 m/s relative to Earth) and at a slightly different angle. Sailors must account for this: the wind they feel on a moving boat is the wind relative to the water (and boat), not the wind relative to land.
+
+**Answer**
+
+The velocity of the wind relative to the water is **6.68 m/s** at **53.3° south of west**.
 
 </div>
 </div>
@@ -1408,9 +1554,83 @@ to the Big Bang are determined, respectively.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ H_{\text{average}}=14.9\frac{ \text{km/s}}{\text{Mly}} $$
+**Strategy**
 
-(b) 20.2 billion years
+(a) The Hubble constant represents the rate of expansion of the universe, expressed as velocity per unit distance. Calculate this by dividing each galaxy's velocity by its distance, then average.
+
+(b) If all galaxies were once at the same position, the time since the Big Bang can be estimated by dividing the distance by velocity (or equivalently, by taking the inverse of the Hubble constant).
+
+**Solution**
+
+**Data from Figure 9:**
+- Galaxy 1: distance = 300 Mly, velocity = 4500 km/s
+- Galaxy 2: distance = 150 Mly, velocity = 2200 km/s
+- Galaxy 4: distance = 190 Mly, velocity = 2830 km/s
+- Galaxy 5: distance = 450 Mly, velocity = 6700 km/s
+
+**(a) Rate of expansion (Hubble constant):**
+
+Calculate the ratio of velocity to distance for each galaxy:
+
+<div class="equation">
+$$ H_1 = \frac{4500 \text{ km/s}}{300 \text{ Mly}} = 15.0 \frac{\text{km/s}}{\text{Mly}} $$
+</div>
+
+<div class="equation">
+$$ H_2 = \frac{2200 \text{ km/s}}{150 \text{ Mly}} = 14.7 \frac{\text{km/s}}{\text{Mly}} $$
+</div>
+
+<div class="equation">
+$$ H_4 = \frac{2830 \text{ km/s}}{190 \text{ Mly}} = 14.9 \frac{\text{km/s}}{\text{Mly}} $$
+</div>
+
+<div class="equation">
+$$ H_5 = \frac{6700 \text{ km/s}}{450 \text{ Mly}} = 14.9 \frac{\text{km/s}}{\text{Mly}} $$
+</div>
+
+Average Hubble constant:
+<div class="equation">
+$$ H_{average} = \frac{15.0 + 14.7 + 14.9 + 14.9}{4} = \frac{59.5}{4} = 14.9 \frac{\text{km/s}}{\text{Mly}} $$
+</div>
+
+**(b) Time since the Big Bang:**
+
+If galaxies have been moving apart at constant velocity since the Big Bang, the time elapsed is:
+<div class="equation">
+$$ t = \frac{1}{H} = \frac{1}{14.9 \text{ km/s per Mly}} $$
+</div>
+
+First, convert units. One million light years (Mly) in km:
+<div class="equation">
+$$ 1 \text{ Mly} = 10^6 \text{ ly} \times (3.00 \times 10^8 \text{ m/s}) \times (3.156 \times 10^7 \text{ s/year}) $$
+</div>
+<div class="equation">
+$$ 1 \text{ Mly} = 10^6 \times 9.47 \times 10^{15} \text{ m} = 9.47 \times 10^{21} \text{ m} = 9.47 \times 10^{18} \text{ km} $$
+</div>
+
+Now calculate the time:
+<div class="equation">
+$$ t = \frac{1 \text{ Mly}}{14.9 \text{ km/s}} = \frac{9.47 \times 10^{18} \text{ km}}{14.9 \text{ km/s}} = 6.36 \times 10^{17} \text{ s} $$
+</div>
+
+Convert to years:
+<div class="equation">
+$$ t = \frac{6.36 \times 10^{17} \text{ s}}{3.156 \times 10^{7} \text{ s/year}} = 2.02 \times 10^{10} \text{ years} = 20.2 \text{ billion years} $$
+</div>
+
+**Discussion**
+
+The Hubble constant is remarkably consistent across different galaxies, supporting Hubble's discovery that the universe is expanding uniformly. The value of about 15 km/s per Mly means that for every million light years of distance, galaxies recede 15 km/s faster.
+
+The estimated age of 20.2 billion years is called the Hubble time. However, this is an overestimate because it assumes the expansion rate has been constant since the Big Bang. In reality, gravity slowed the expansion in the early universe, while dark energy has been accelerating it more recently. Current best estimates for the age of the universe are about 13.8 billion years.
+
+The Hubble constant is more commonly expressed in modern units as about 70 km/s per megaparsec (Mpc), where 1 Mpc ≈ 3.26 Mly.
+
+**Answer**
+
+(a) The rate of expansion (Hubble constant) is $$ H_{average} = 14.9 \frac{\text{km/s}}{\text{Mly}} $$
+
+(b) Extrapolating backward, all galaxies would have been at the same position about **20.2 billion years** ago.
 
 </div>
 </div>

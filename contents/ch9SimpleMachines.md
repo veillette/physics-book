@@ -317,9 +317,34 @@ to the nail?
 
 </div>
 <div class="solution" markdown="1">
-25
+**Strategy**
 
-50 N
+Use the mechanical advantage formula for a lever: $$ \text{MA} = \frac{l_i}{l_o} = \frac{F_o}{F_i} $$, where $$ l_i $$ is the distance from pivot to input force and $$ l_o $$ is the distance from pivot to output force.
+
+**Solution**
+
+**Given:**
+- Input lever arm: $$ l_i = 45\text{ cm} = 0.45\text{ m} $$
+- Output lever arm: $$ l_o = 1.8\text{ cm} = 0.018\text{ m} $$
+- Output force on nail: $$ F_o = 1250\text{ N} $$
+
+**Mechanical advantage:**
+<div class="equation">
+$$ \text{MA} = \frac{l_i}{l_o} = \frac{45\text{ cm}}{1.8\text{ cm}} = 25 $$
+</div>
+
+**Minimum force required:**
+<div class="equation">
+$$ F_i = \frac{F_o}{\text{MA}} = \frac{1250\text{ N}}{25} = 50\text{ N} $$
+</div>
+
+**Discussion**
+
+The mechanical advantage of 25 is quite impressive - you only need to exert 50 N (about 11 pounds) to apply 1250 N (about 280 pounds) to the nail. This is why nail pullers are so effective. The long handle multiplies your force by 25 times. However, you must move your hand 25 times farther than the nail moves - when the nail moves 1 mm, your hand moves 25 mm. Energy is conserved, but the work is made easier.
+
+**Answer**
+
+The mechanical advantage is **25**, and the minimum force required is **50 N**.
 
 </div>
 </div>
@@ -392,9 +417,54 @@ This result makes sense: to lift a heavy load with a small force, the fulcrum mu
 
 </div>
 <div class="solution" markdown="1">
-a) $$ \text{MA}=18.5 $$
-b) $$ F_{\text{i}}=29.1 \N  $$
-c) 510 N downward
+**Strategy**
+
+For a wheelbarrow, the mechanical advantage is the ratio of lever arms. Use $$ \text{MA} = \frac{l_i}{l_o} $$. For parts (b) and (c), apply equilibrium conditions.
+
+**Solution**
+
+**Given:**
+- Load lever arm: $$ l_o = 5.50\text{ cm} = 0.0550\text{ m} $$
+- Hands lever arm: $$ l_i = 1.02\text{ m} $$
+- Combined mass: $$ m = 55.0\text{ kg} $$
+
+**(a) Mechanical advantage:**
+<div class="equation">
+$$ \text{MA} = \frac{l_i}{l_o} = \frac{1.02\text{ m}}{0.0550\text{ m}} = 18.5 $$
+</div>
+
+**(b) Upward force to support the load:**
+
+The output force is the weight of the wheelbarrow and load:
+<div class="equation">
+$$ F_o = mg = (55.0\text{ kg})(9.80\mss) = 539\text{ N} $$
+</div>
+
+The input force is:
+<div class="equation">
+$$ F_i = \frac{F_o}{\text{MA}} = \frac{539\text{ N}}{18.5} = 29.1\text{ N} $$
+</div>
+
+**(c) Force the wheel exerts on the ground:**
+
+Using equilibrium (forces must sum to zero):
+<div class="equation">
+$$ N = F_o - F_i = mg - F_i = 539\text{ N} - 29.1\text{ N} = 510\text{ N} $$
+</div>
+
+By Newton's third law, the wheel exerts **510 N downward** on the ground.
+
+**Discussion**
+
+The mechanical advantage of 18.5 means you only need to exert about 29 N (about 6.5 pounds) to support a 55-kg load (121 pounds)! The wheelbarrow is an excellent example of how simple machines make work easier. The wheel bears most of the load (510 N), while your hands provide only the small force needed to maintain equilibrium. The long handles and position of the wheel close to the load create this large mechanical advantage.
+
+**Answer**
+
+(a) The mechanical advantage is **18.5**.
+
+(b) The upward force required is **29.1 N**.
+
+(c) The wheel exerts **510 N downward** on the ground.
 
 </div>
 </div>
@@ -435,7 +505,38 @@ surface? The nail puller has a mass of 2.10 kg.
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.3\times 10^{3}\N $$
+**Strategy**
+
+Apply the equilibrium condition: the sum of all forces on the nail puller must equal zero. Use the values from Problem 1, where we found the mechanical advantage is 25 and the output force on the nail is 1250 N.
+
+**Solution**
+
+**Given (from Problem 1 and figure):**
+- Input force: $$ F_i = 50\text{ N} $$ (downward at handle)
+- Reaction force from nail: $$ F_N = 1250\text{ N} $$ (downward, equal and opposite to force on nail)
+- Mass of nail puller: $$ m = 2.10\text{ kg} $$
+- Weight of nail puller: $$ W = mg = (2.10)(9.80) = 20.6\text{ N} $$ (downward)
+
+For equilibrium, the sum of vertical forces equals zero:
+<div class="equation">
+$$ F_i + F_N + W = N $$
+</div>
+
+where $$ N $$ is the normal force from the supporting surface (upward).
+
+<div class="equation">
+$$ N = F_i + F_N + W = 50\text{ N} + 1250\text{ N} + 20.6\text{ N} = 1321\text{ N} \approx 1.3 \times 10^3\text{ N} $$
+</div>
+
+By Newton's third law, the nail puller exerts a force of **1.3 × 10³ N** downward on the supporting surface.
+
+**Discussion**
+
+The supporting surface must bear the brunt of the forces - it supports not only the force pulling up on the nail (as a reaction) but also the input force and the weight of the puller. This explains why nail pulling can damage surfaces beneath the fulcrum, and why carpenters often place a piece of scrap wood under the nail puller to protect finished surfaces and distribute this large force.
+
+**Answer**
+
+The nail puller exerts $$ 1.3 \times 10^3\text{ N} $$ on the supporting surface.
 
 </div>
 </div>
@@ -501,9 +602,47 @@ assuming you pull straight up on the rope. The pulley system’s mass is $$ 7.00
 
 </div>
 <div class="solution" markdown="1">
-a) $$ T=299 \N $$
+**Strategy**
 
-b) $$ 897 \N $$ upward
+For [Figure 4](#Figure4)(c), this is a more complex pulley system with a mechanical advantage of 4 (four rope segments support the load). The total weight includes the engine plus the pulley system. Since you pull straight up, your force adds to the ceiling support.
+
+**Solution**
+
+**Given:**
+- Engine mass: $$ m_{engine} = 115\text{ kg} $$
+- Pulley system mass: $$ m_{pulley} = 7.00\text{ kg} $$
+- Total mass: $$ m_{total} = 115 + 7.00 = 122\text{ kg} $$
+
+**(a) Tension in the rope:**
+
+Total weight to support:
+<div class="equation">
+$$ W = m_{total}g = (122\text{ kg})(9.80\mss) = 1196\text{ N} $$
+</div>
+
+In [Figure 4](#Figure4)(c), four rope segments support the load, giving MA = 4:
+<div class="equation">
+$$ T = \frac{W}{4} = \frac{1196\text{ N}}{4} = 299\text{ N} $$
+</div>
+
+**(b) Force the ceiling must supply:**
+
+When you pull straight up on the rope with tension $$ T $$, you exert an upward force that helps support the system. The ceiling only needs to supply the rest:
+<div class="equation">
+$$ F_{ceiling} = W - T = 1196\text{ N} - 299\text{ N} = 897\text{ N} $$
+</div>
+
+The ceiling must supply **897 N upward**.
+
+**Discussion**
+
+This pulley arrangement is more efficient than the one in the previous problem. With MA = 4, you only need to pull with 299 N (about 67 pounds) to lift a 122-kg load. Also notice that because you pull upward, the ceiling force is actually less than the total weight - you're helping to support the load. Compare this to the previous problem where pulling downward meant the ceiling had to support more than the load's weight. This is why many pulley arrangements are designed so you pull upward, reducing structural requirements on the support.
+
+**Answer**
+
+(a) The tension in the rope is $$ T = 299\text{ N} $$.
+
+(b) The ceiling must supply **897 N upward**.
 
 </div>
 </div>
