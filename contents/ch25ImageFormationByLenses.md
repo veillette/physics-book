@@ -839,11 +839,41 @@ A 50 mm lens is considered a "normal" focal length for 35 mm film cameras, provi
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Your camera’s zoom lens has an adjustable focal length ranging from 80.0 to 200 mm. What is its range of powers?
+Your camera's zoom lens has an adjustable focal length ranging from 80.0 to 200 mm. What is its range of powers?
 
 </div>
 <div class="solution" markdown="1">
- $$5.00 \text{to} 12.5 \text{D} $$
+
+**Strategy**
+
+Use $$P = 1/f$$ for both the minimum and maximum focal lengths, converting to meters first.
+
+**Solution**
+
+For the minimum focal length (telephoto setting):
+<div class="equation">
+$$f_{\text{min}} = 200 \text{ mm} = 0.200 \text{ m}$$
+</div>
+
+<div class="equation">
+$$P_{\text{min}} = \frac{1}{0.200 \text{ m}} = 5.00 \text{ D}$$
+</div>
+
+For the maximum focal length (wide-angle setting):
+<div class="equation">
+$$f_{\text{max}} = 80.0 \text{ mm} = 0.0800 \text{ m}$$
+</div>
+
+<div class="equation">
+$$P_{\text{max}} = \frac{1}{0.0800 \text{ m}} = 12.5 \text{ D}$$
+</div>
+
+**Answer:** The range of powers is **5.00 D to 12.5 D**.
+
+**Discussion**
+
+The zoom lens can vary its power from 5.00 D (telephoto, longer focal length) to 12.5 D (wide-angle, shorter focal length). This 2.5× zoom range is typical for standard camera zoom lenses. Note that higher power (shorter focal length) provides a wider field of view, while lower power (longer focal length) magnifies distant objects. This is a 80-200mm zoom, which in 35mm camera terms goes from a moderate telephoto to a longer telephoto focal length.
+
 </div>
 </div>
 
@@ -879,7 +909,23 @@ You note that your prescription for new eyeglasses is –4.50 D. What will their
 
 </div>
 <div class="solution" markdown="1">
- $$-0.222 \text{m} $$
+
+**Strategy**
+
+Use $$f = 1/P$$ to find focal length from power. The negative power indicates diverging (concave) lenses.
+
+**Solution**
+
+<div class="equation">
+$$f = \frac{1}{P} = \frac{1}{-4.50 \text{ D}} = -0.222 \text{ m} = -22.2 \text{ cm}$$
+</div>
+
+**Answer:** The focal length is **−0.222 m** or **−22.2 cm**.
+
+**Discussion**
+
+The negative focal length confirms these are diverging (concave) lenses used to correct myopia (nearsightedness). People with myopia can see nearby objects clearly but have difficulty focusing on distant objects because their eye's lens system is too powerful, focusing light in front of the retina. The diverging lenses spread the light slightly before it enters the eye, moving the focal point back onto the retina. A −4.50 D prescription represents moderate myopia. The relatively short focal length (22.2 cm) means these lenses will noticeably reduce the apparent size of objects when looking through them.
+
 </div>
 </div>
 
@@ -972,6 +1018,63 @@ How far from a piece of paper must you hold your father’s 2.25 D reading glass
 A camera with a 50.0 mm focal length lens is being used to photograph a person standing 3.00 m away. (a) How far from the lens must the film be? (b) If the film is 36.0 mm high, what fraction of a 1.75 m tall person will fit on it? (c) Discuss how reasonable this seems, based on your experience in taking or posing for photographs.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+**(a)** Use the thin lens equation to find $$d_i$$. **(b)** Use the magnification equation to relate object and image heights. **(c)** Compare with typical photography experience.
+
+**Solution**
+
+**(a)** Using the thin lens equation:
+<div class="equation">
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{50.0 \text{ mm}} - \frac{1}{3000 \text{ mm}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{d_i} = 0.0200 - 0.000333 = 0.01967 \text{ mm}^{-1}$$
+</div>
+
+<div class="equation">
+$$d_i = 50.8 \text{ mm}$$
+</div>
+
+**(b)** The magnification is:
+<div class="equation">
+$$m = -\frac{d_i}{d_o} = -\frac{50.8 \text{ mm}}{3000 \text{ mm}} = -0.0169$$
+</div>
+
+The image height is:
+<div class="equation">
+$$h_i = m \cdot h_o = -0.0169 \times 1750 \text{ mm} = -29.6 \text{ mm}$$
+</div>
+
+Taking the absolute value, 29.6 mm of the 36.0 mm film height is used. Fraction:
+<div class="equation">
+$$\frac{29.6}{36.0} = 0.822 = 82.2\%$$
+</div>
+
+Alternatively, if the entire person (1750 mm) were to fit on the 36.0 mm film:
+<div class="equation">
+$$\text{Fraction} = \frac{h_i}{h_o} = \frac{29.6 \text{ mm}}{1750 \text{ mm}} \times \frac{1750 \text{ mm}}{36.0 \text{ mm}} = \frac{29.6}{36.0} = 0.822$$
+</div>
+
+Actually, the question asks what fraction of the person fits:
+<div class="equation">
+$$\text{Fraction of person} = \frac{36.0 \text{ mm}}{29.6 \text{ mm}} = 1.22$$
+</div>
+
+This means the entire person (100%) plus 22% more would fit, so the entire person fits comfortably.
+
+**(c)** This is very reasonable. With a 50 mm "normal" lens and the subject 3 m away, getting a full-body portrait that uses about 82% of the frame height is typical. This provides good composition with a little space above the head and below the feet. Professional photographers often aim for this kind of framing for full-body portraits, as it avoids cropping body parts while not wasting too much of the frame.
+
+**Answers:** (a) **50.8 mm**, (b) **The entire 1.75 m person fits, using 82.2% of the film height**, (c) Very reasonable for portrait photography.
+
+**Discussion**
+
+The film needs to be only slightly farther from the lens (50.8 mm) than the focal length (50.0 mm) because the object is relatively far away (60 times the focal length). This small adjustment is why cameras need focusing mechanisms. The 50 mm lens at 3 m gives good perspective for portraits without distortion, which is why 50 mm is considered the "normal" focal length for 35 mm film cameras.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -992,6 +1095,44 @@ A camera lens used for taking close-up photographs has a focal length of 22.0 mm
 Suppose your 50.0 mm focal length camera lens is 51.0 mm away from the film in the camera. (a) How far away is an object that is in focus? (b) What is the height of the object if its image is 2.00 cm high?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+**(a)** Use the thin lens equation with $$f = 50.0 \text{ mm}$$ and $$d_i = 51.0 \text{ mm}$$ to find $$d_o$$. **(b)** Use the magnification equation.
+
+**Solution**
+
+**(a)** From the thin lens equation:
+<div class="equation">
+$$\frac{1}{d_o} = \frac{1}{f} - \frac{1}{d_i} = \frac{1}{50.0 \text{ mm}} - \frac{1}{51.0 \text{ mm}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{d_o} = 0.0200 - 0.0196 = 0.000392 \text{ mm}^{-1}$$
+</div>
+
+<div class="equation">
+$$d_o = 2550 \text{ mm} = 2.55 \text{ m}$$
+</div>
+
+**(b)** The magnification is:
+<div class="equation">
+$$m = -\frac{d_i}{d_o} = -\frac{51.0 \text{ mm}}{2550 \text{ mm}} = -0.0200$$
+</div>
+
+The object height is:
+<div class="equation">
+$$h_o = \frac{h_i}{m} = \frac{-20.0 \text{ mm}}{-0.0200} = 1000 \text{ mm} = 1.00 \text{ m}$$
+</div>
+
+**Answers:** (a) **2.55 m**, (b) **1.00 m** (assuming the image is inverted)
+
+**Discussion**
+
+When the film is moved just 1.0 mm farther from the lens (from 50.0 mm to 51.0 mm), the object in focus moves from infinity to 2.55 m. This demonstrates that small adjustments in lens-to-film distance allow focusing on objects at finite distances. The magnification of −0.0200 means the image is 1/50th the size of the object and inverted, which is typical for camera photography. A 1.00 m tall object creating a 2.00 cm image on film is very reasonable for portrait or documentary photography.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1010,6 +1151,44 @@ Suppose your 50.0 mm focal length camera lens is 51.0 mm away from the film in t
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What magnification will be produced by a lens of power –4.00 D (such as might be used to correct myopia) if an object is held 25.0 cm away?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First find the focal length from $$f = 1/P$$, then use the thin lens equation to find $$d_i$$, and finally calculate magnification from $$m = -d_i/d_o$$.
+
+**Solution**
+
+Focal length:
+<div class="equation">
+$$f = \frac{1}{P} = \frac{1}{-4.00 \text{ D}} = -0.250 \text{ m} = -25.0 \text{ cm}$$
+</div>
+
+Image distance from thin lens equation:
+<div class="equation">
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{-25.0 \text{ cm}} - \frac{1}{25.0 \text{ cm}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{d_i} = -0.0400 - 0.0400 = -0.0800 \text{ cm}^{-1}$$
+</div>
+
+<div class="equation">
+$$d_i = -12.5 \text{ cm}$$
+</div>
+
+Magnification:
+<div class="equation">
+$$m = -\frac{d_i}{d_o} = -\frac{-12.5 \text{ cm}}{25.0 \text{ cm}} = +0.500$$
+</div>
+
+**Answer:** The magnification is **+0.500** or **+0.50**.
+
+**Discussion**
+
+The positive magnification indicates an upright virtual image, and the magnitude less than 1 means the image is smaller than the object (half the size). This is characteristic of diverging lenses (case 3 images). When you hold an object 25 cm from a −4.00 D lens (used for myopia correction), you see a virtual image that appears half the size and 12.5 cm from the lens (on the same side as the object). This is why nearsighted people's eyes appear smaller when viewed through their glasses—the diverging lenses create reduced images.
 
 </div>
 </div>
@@ -1035,6 +1214,46 @@ distance increases to the limit of the focal distance.
 Suppose a 200 mm focal length telephoto lens is being used to photograph mountains 10.0 km away. (a) Where is the image? (b) What is the height of the image of a 1000 m high cliff on one of the mountains?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+**(a)** Use the thin lens equation. Since the object is very far away ($$d_o \gg f$$), the image will be very close to the focal point. **(b)** Use magnification equation.
+
+**Solution**
+
+**(a)** From the thin lens equation:
+<div class="equation">
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o} = \frac{1}{200 \text{ mm}} - \frac{1}{10.0 \times 10^6 \text{ mm}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{d_i} = 0.00500 - 0.0000001 = 0.0049999 \text{ mm}^{-1}$$
+</div>
+
+<div class="equation">
+$$d_i \approx 200 \text{ mm}$$
+</div>
+
+More precisely: $$d_i = 200.004 \text{ mm}$$
+
+**(b)** The magnification is:
+<div class="equation">
+$$m = -\frac{d_i}{d_o} = -\frac{200 \text{ mm}}{10.0 \times 10^6 \text{ mm}} = -2.00 \times 10^{-5}$$
+</div>
+
+Image height:
+<div class="equation">
+$$h_i = m \cdot h_o = (-2.00 \times 10^{-5})(1000 \text{ m}) = -0.0200 \text{ m} = -20.0 \text{ mm}$$
+</div>
+
+**Answers:** (a) **200 mm** (essentially at the focal point), (b) **20.0 mm** (inverted)
+
+**Discussion**
+
+When photographing distant objects (10 km is 50,000 times the focal length), the image forms essentially at the focal point. This is why landscape photographers rarely need to adjust focus when photographing distant scenes—everything from about 30 m to infinity focuses at nearly the same point. The 1000 m cliff creates only a 20 mm image on the film/sensor, demonstrating why telephoto lenses are needed for distant subjects. Even with a 200 mm telephoto, distant mountains create relatively small images.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1052,6 +1271,57 @@ A camera with a 100 mm focal length lens is used to photograph the sun and moon.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Combine thin lens equations to show that the magnification for a thin lens is determined by its focal length and the object distance and is given by  $$m=f/\left(f-{d}_{\text{o}}\right) $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Start with the magnification equation $$m = -d_i/d_o$$ and the thin lens equation $$\frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{f}$$. Eliminate $$d_i$$ to express $$m$$ in terms of $$f$$ and $$d_o$$ only.
+
+**Solution**
+
+From the thin lens equation:
+<div class="equation">
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o}$$
+</div>
+
+Finding a common denominator:
+<div class="equation">
+$$\frac{1}{d_i} = \frac{d_o - f}{fd_o}$$
+</div>
+
+Inverting:
+<div class="equation">
+$$d_i = \frac{fd_o}{d_o - f}$$
+</div>
+
+Substituting into the magnification equation:
+<div class="equation">
+$$m = -\frac{d_i}{d_o} = -\frac{1}{d_o} \cdot \frac{fd_o}{d_o - f}$$
+</div>
+
+<div class="equation">
+$$m = -\frac{f}{d_o - f}$$
+</div>
+
+Multiplying numerator and denominator by −1:
+<div class="equation">
+$$m = \frac{f}{f - d_o}$$
+</div>
+
+Thus we have shown that $$m = \frac{f}{f - d_o}$$.
+
+**Discussion**
+
+This alternative form of the magnification equation is useful because it directly shows how magnification depends on the relationship between focal length and object distance:
+
+- When $$d_o > f$$ (case 1): $$f - d_o < 0$$, so $$m < 0$$ (inverted real image)
+- When $$d_o < f$$ (case 2): $$f - d_o > 0$$, so $$m > 0$$ (upright virtual image)
+- As $$d_o \to f$$: $$m \to \pm \infty$$ (image moves to infinity)
+- As $$d_o \to \infty$$: $$m \to 0$$ (very small image at focal point)
+
+This form makes it easy to calculate magnification without first finding the image distance.
 
 </div>
 </div>

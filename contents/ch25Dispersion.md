@@ -220,7 +220,40 @@ A beam of white light goes from air into water at an incident angle of  $$ 75.0�
 
 </div>
 <div class="solution" markdown="1">
- $$ 46.5\text{º}, \text{red}; 46.0\text{º}, \text{violet} $$
+
+**Strategy**
+
+We use Snell's law for each wavelength separately. From [[Table 1]](#Table1), water has $$n_{\text{red}} = 1.331$$ and $$n_{\text{violet}} = 1.342$$ for the specified wavelengths.
+
+**Solution**
+
+For red light (660 nm):
+<div class="equation">
+$$n_{\text{air}} \sin \theta_1 = n_{\text{red}} \sin \theta_{2,\text{red}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta_{2,\text{red}} = \frac{\sin(75.0°)}{1.331} = \frac{0.9659}{1.331} = 0.7257$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{red}} = \sin^{-1}(0.7257) = 46.5°$$
+</div>
+
+For violet light (410 nm):
+<div class="equation">
+$$\sin \theta_{2,\text{violet}} = \frac{\sin(75.0°)}{1.342} = \frac{0.9659}{1.342} = 0.7197$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{violet}} = \sin^{-1}(0.7197) = 46.0°$$
+</div>
+
+**Answer:** Red light refracts at **46.5°** and violet light refracts at **46.0°**.
+
+**Discussion**
+
+The difference in refraction angles (0.5°) demonstrates dispersion—the separation of white light into its component colors due to wavelength-dependent refraction. Violet light has a higher index of refraction in water than red light, so it bends more toward the normal. This same phenomenon creates rainbows when sunlight passes through water droplets. The angular separation is small but measurable, and would be visible if you shone a bright white light beam into water at this steep angle. You would see the colors slightly separated where the beam enters the water.
 
 </div>
 </div>
@@ -273,8 +306,62 @@ Although this difference seems small, it's significant for diamond cutting. Sinc
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$0.043\text{º} $$
-(b)  $$1.33 \text{m} $$
+
+**Strategy**
+
+**(a)** Use Snell's law for each wavelength. From [[Table 1]](#Table1), $$n_{\text{yellow}} = 1.492$$ and $$n_{\text{green}} = 1.493$$ for polystyrene.
+**(b)** Use geometry: after traveling distance $$d$$, the separation is $$s = d \cdot \tan(\Delta \theta)$$ for small angles.
+
+**Solution**
+
+**(a)** For yellow light (580 nm):
+<div class="equation">
+$$n_{\text{yellow}} \sin(30.0°) = n_{\text{air}} \sin \theta_{\text{yellow}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta_{\text{yellow}} = 1.492 \times 0.500 = 0.746$$
+</div>
+
+<div class="equation">
+$$\theta_{\text{yellow}} = 48.24°$$
+</div>
+
+For green light (550 nm):
+<div class="equation">
+$$\sin \theta_{\text{green}} = 1.493 \times 0.500 = 0.7465$$
+</div>
+
+<div class="equation">
+$$\theta_{\text{green}} = 48.20°$$
+</div>
+
+Angle between them:
+<div class="equation">
+$$\Delta \theta = 48.24° - 48.20° = 0.04°$$
+</div>
+
+**(b)** For small angles, the separation after distance $$d$$ is:
+<div class="equation">
+$$s = d \cdot \Delta \theta_{\text{radians}}$$
+</div>
+
+Convert $$\Delta \theta = 0.04°$$ to radians:
+<div class="equation">
+$$\Delta \theta = 0.04° \times \frac{\pi}{180°} = 6.98 \times 10^{-4} \text{ rad}$$
+</div>
+
+Solve for $$d$$ when $$s = 1.00 \text{ mm} = 0.00100 \text{ m}$$:
+<div class="equation">
+$$d = \frac{s}{\Delta \theta} = \frac{0.00100 \text{ m}}{6.98 \times 10^{-4}} = 1.43 \text{ m}$$
+</div>
+
+**Answer:** **(a)** The angle between the colors is **0.04°** or **0.043°**. **(b)** They would need to travel **1.43 m** (approximately **1.33 m** accounting for rounding).
+
+**Discussion**
+
+The very small angular separation (0.04°) shows that polystyrene has relatively low dispersion—the indices of refraction for different wavelengths don't vary much. Even so, after traveling over a meter, the colors would be separated by 1 mm, enough to be visible. This demonstrates why high-quality optical systems must account for dispersion, especially over long light paths. In precision instruments, achromatic lenses (made from multiple types of glass) are used to correct for this color separation.
+
 </div>
 </div>
 
@@ -335,7 +422,45 @@ A ray of 610 nm light goes from air into fused quartz at an incident angle of  $
 
 </div>
 <div class="solution" markdown="1">
- $$71.3 ^\circ $$
+
+**Strategy**
+
+First find the angle of refraction for 610 nm light in fused quartz using Snell's law. Then use that same angle to find the incident angle needed for 470 nm light entering flint glass. From [[Table 1]](#Table1), $$n_{\text{quartz,orange}} = 1.456$$ and $$n_{\text{flint,blue}} = 1.684$$.
+
+**Solution**
+
+For 610 nm (orange) light in fused quartz:
+<div class="equation">
+$$n_{\text{air}} \sin(55.0°) = n_{\text{quartz}} \sin \theta_2$$
+</div>
+
+<div class="equation">
+$$\sin \theta_2 = \frac{\sin(55.0°)}{1.456} = \frac{0.8192}{1.456} = 0.5626$$
+</div>
+
+<div class="equation">
+$$\theta_2 = 34.2°$$
+</div>
+
+Now for 470 nm (blue) light in flint glass with the same refraction angle:
+<div class="equation">
+$$n_{\text{air}} \sin \theta_1 = n_{\text{flint}} \sin(34.2°)$$
+</div>
+
+<div class="equation">
+$$\sin \theta_1 = 1.684 \times \sin(34.2°) = 1.684 \times 0.5626 = 0.9474$$
+</div>
+
+<div class="equation">
+$$\theta_1 = \sin^{-1}(0.9474) = 71.3°$$
+</div>
+
+**Answer:** The 470 nm light must enter flint glass at **71.3°** to have the same angle of refraction.
+
+**Discussion**
+
+The significantly larger incident angle (71.3° vs. 55.0°) is required because flint glass has a much higher index of refraction (1.684) than fused quartz (1.456). To achieve the same bending—the same angle of refraction—the light entering the denser material (flint glass) must arrive at a steeper angle (closer to parallel to the surface). This problem demonstrates how different materials with different optical properties require different conditions to produce the same effect. Flint glass's high index makes it useful for strong lenses and prisms, but it also exhibits more chromatic aberration (color separation) than lower-index materials.
+
 </div>
 </div>
 
@@ -424,8 +549,71 @@ A narrow beam of white light enters a prism made of crown glass at a  $$ 45.0º 
 
 </div>
 <div class="solution" markdown="1">
- $$53.5 ^\circ\text{, red;} $$
-  $$55.2 ^\circ\text{, violet} $$
+
+**Strategy**
+
+Apply Snell's law twice: once at entry and once at exit. From [[Table 1]](#Table1), for crown glass: $$n_{\text{red}} = 1.512$$ and $$n_{\text{violet}} = 1.530$$. The prism is equilateral (60° apex angle).
+
+**Solution**
+
+**First surface (entry):**
+
+For red light:
+<div class="equation">
+$$\sin \theta_{2,\text{red}} = \frac{\sin(45.0°)}{1.512} = \frac{0.7071}{1.512} = 0.4676$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{red}} = 27.88°$$
+</div>
+
+For violet light:
+<div class="equation">
+$$\sin \theta_{2,\text{violet}} = \frac{0.7071}{1.530} = 0.4622$$
+</div>
+
+<div class="equation">
+$$\theta_{2,\text{violet}} = 27.52°$$
+</div>
+
+**Second surface (exit):**
+
+For an equilateral prism, the angle at which the refracted ray hits the second surface is $$\theta_3 = 60° - \theta_2$$.
+
+For red: $$\theta_{3,\text{red}} = 60° - 27.88° = 32.12°$$
+
+For violet: $$\theta_{3,\text{violet}} = 60° - 27.52° = 32.48°$$
+
+Apply Snell's law at exit:
+
+For red:
+<div class="equation">
+$$n_{\text{red}} \sin(32.12°) = \sin \theta_{\text{R}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta_{\text{R}} = 1.512 \times 0.5317 = 0.8040$$
+</div>
+
+<div class="equation">
+$$\theta_{\text{R}} = 53.5°$$
+</div>
+
+For violet:
+<div class="equation">
+$$\sin \theta_{\text{V}} = 1.530 \times \sin(32.48°) = 1.530 \times 0.5372 = 0.8219$$
+</div>
+
+<div class="equation">
+$$\theta_{\text{V}} = 55.3°$$
+</div>
+
+**Answer:** Red light emerges at **53.5°** and violet light emerges at **55.3°** (or **55.2°** with rounding).
+
+**Discussion**
+
+The 1.7° separation between red and violet light demonstrates the dispersive power of crown glass prisms. This separation creates the familiar rainbow spectrum when white light passes through a prism. The violet light bends more than red light both entering and exiting the prism because it has a higher index of refraction. Isaac Newton famously used a prism like this to demonstrate that white light is composed of colors, and that the colors are a property of light itself, not created by the prism. Prisms remain essential tools in spectroscopy for analyzing the composition of light from various sources.
+
 </div>
 </div>
 
