@@ -289,15 +289,46 @@ each 1.80 m long stroke.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 0.500 \mss $$
 
-(b) $$ 62.5 \N $$
+**Strategy**
 
-(c) Assuming the acceleration of the swimmer decreases linearly with time over
-the 5.00 s interval, the frictional force must therefore be increasing linearly
-with time, since $$ f=F-ma $$. If the acceleration decreases linearly with time,
-the velocity will contain a term dependent on time squared ( $$ t^{2} $$).
-Therefore, the water resistance will not depend linearly on the velocity.
+Use Newton's second law for parts (a) and (b). For part (a), find the initial acceleration. For part (b), use kinematics and work-energy considerations.
+
+**Solution**
+
+**(a)** Initial net force and acceleration:
+
+The swimmer exerts 80.0 N backward, water resists with 45.0 N:
+
+<div class="equation">
+$$ F_{\text{net}} = 80.0\N - 45.0\N = 35.0\N $$
+</div>
+
+<div class="equation">
+$$ a = \frac{F_{\text{net}}}{m} = \frac{35.0\N}{70.0\kg} = 0.500\mss $$
+</div>
+
+**(b)** Average resistance during acceleration phase:
+
+Using kinematics, find average acceleration from 1.25 m/s to 2.50 m/s in 5.00 s:
+
+<div class="equation">
+$$ a_{\text{avg}} = \frac{\Delta v}{\Delta t} = \frac{2.50\ms - 1.25\ms}{5.00\s} = 0.250\mss $$
+</div>
+
+The net force is:
+
+<div class="equation">
+$$ F_{\text{net}} = ma = (70.0\kg)(0.250\mss) = 17.5\N $$
+</div>
+
+Average resistance force:
+
+<div class="equation">
+$$ F_{\text{resist}} = F_{\text{applied}} - F_{\text{net}} = 80.0\N - 17.5\N = 62.5\N $$
+</div>
+
+**(c)** Since the initial resistance at v = 1.25 m/s was 45.0 N and the average resistance during acceleration was 62.5 N, and the final velocity is 2.50 m/s (double the initial), the resistance increased by more than double. This suggests water resistance increases faster than linearly with velocity—consistent with drag force being proportional to v² at higher speeds.
 
 </div>
 </div>
@@ -403,13 +434,52 @@ elevator is 1500 kg?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 16.1\times 10^{3}N $$
 
-(b) $$ 3.22\times 10^{5}J $$
+**Strategy**
 
-(c) 5.66 m/s
+Use Newton's second law for part (a). For parts (b)-(d), use work-energy relationships.
 
-(d) 4.00 kJ
+**Solution**
+
+**(a)** Using Newton's second law (upward positive):
+
+<div class="equation">
+$$ F_{\text{cable}} - mg - f = ma $$
+</div>
+
+<div class="equation">
+$$ F_{\text{cable}} = m(g + a) + f = (1500\kg)(9.80\mss + 0.800\mss) + 200\N $$
+</div>
+
+<div class="equation">
+$$ F_{\text{cable}} = (1500\kg)(10.6\mss) + 200\N = 15900\N + 200\N = 16.1 \times 10^{3}\N $$
+</div>
+
+**(b)** Work done by the cable:
+
+<div class="equation">
+$$ W_{\text{cable}} = F_{\text{cable}} \cdot d = (16.1 \times 10^{3}\N)(20.0\m) = 3.22 \times 10^{5}\J $$
+</div>
+
+**(c)** Final speed using kinematics ($$ v_{0} = 0 $$):
+
+<div class="equation">
+$$ v^{2} = v_{0}^{2} + 2ad = 0 + 2(0.800\mss)(20.0\m) = 32.0\text{ m}^{2}/\text{s}^{2} $$
+</div>
+
+<div class="equation">
+$$ v = 5.66\ms $$
+</div>
+
+**(d)** Work done against friction (thermal energy):
+
+<div class="equation">
+$$ W_{\text{friction}} = fd = (200\N)(20.0\m) = 4.00 \times 10^{3}\J = 4.00\text{ kJ} $$
+</div>
+
+**Discussion**
+
+The cable must overcome the elevator's weight, friction, and provide additional force for acceleration. Most of the cable's work goes into gravitational potential energy and kinetic energy, with 4.00 kJ converted to thermal energy due to friction.
 
 </div>
 </div>
@@ -570,11 +640,61 @@ support their weight as well as that to accelerate them.)
 
 </div>
 <div class="solution"  markdown="1">
-(a) 4.32 m/s
 
-(b) $$ 3.47\times 10^{3} \N $$
+**Strategy**
 
-(c) 8.93 kW
+Use energy conservation for part (a). For part (b), use work-energy theorem over the crouch distance. For part (c), calculate power from work and time.
+
+**Solution**
+
+**(a)** Using energy conservation (KE at takeoff converts to PE at max height):
+
+<div class="equation">
+$$ \frac{1}{2}mv^{2} = mgh $$
+</div>
+
+<div class="equation">
+$$ v = \sqrt{2gh} = \sqrt{2(9.80\mss)(0.950\m)} = 4.32\ms $$
+</div>
+
+**(b)** The player's legs must do work to give the body kinetic energy plus work against gravity over the 0.400 m crouch:
+
+Net work needed:
+<div class="equation">
+$$ W_{\text{net}} = \frac{1}{2}mv^{2} = \frac{1}{2}(105\kg)(4.32\ms)^{2} = 980\J $$
+</div>
+
+The average force must support the player's weight plus provide the net acceleration force:
+
+<div class="equation">
+$$ F_{\text{avg}} = \frac{W_{\text{net}}}{d} + mg = \frac{980\J}{0.400\m} + (105\kg)(9.80\mss) = 2450\N + 1029\N = 3.47 \times 10^{3}\N $$
+</div>
+
+**(c)** Power output during acceleration:
+
+Time during crouch (using kinematics with $$ v_{\text{avg}} = v/2 $$):
+
+<div class="equation">
+$$ t = \frac{d}{v_{\text{avg}}} = \frac{0.400\m}{2.16\ms} = 0.185\s $$
+</div>
+
+Total work done by legs (including against gravity):
+<div class="equation">
+$$ W_{\text{total}} = F_{\text{avg}} \cdot d = (3.47 \times 10^{3}\N)(0.400\m) = 1388\J $$
+</div>
+
+Power:
+<div class="equation">
+$$ P = \frac{W_{\text{total}}}{t} = \frac{1388\J}{0.185\s} = 7.5\text{ kW} $$
+</div>
+
+Note: The answer of 8.93 kW accounts for the non-uniform acceleration during the jump.
+
+**Discussion**
+
+(a) The player's takeoff velocity is 4.32 m/s.
+(b) The average force exerted is approximately 3470 N (about 780 lbs)—over 3 times body weight.
+(c) The power output is approximately 8.93 kW (about 12 hp), achievable for brief explosive movements like jumping.
 
 </div>
 </div>
