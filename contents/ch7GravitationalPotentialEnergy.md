@@ -341,11 +341,48 @@ given that the lake has an average height of 40.0 m above the generators?
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 1.96\times 10^{16} \J $$
+**Strategy**
 
-(b) The ratio of gravitational potential energy in the lake to the energy stored
-in the bomb is 0.52. That is, the energy stored in the lake is approximately
-half that in a 9-megaton fusion bomb.
+(a) Use the gravitational potential energy formula $$ \PE_g = mgh $$ with the given mass and height.
+(b) Compare this to the energy of a 9-megaton fusion bomb, where 1 megaton TNT equivalent = $$ 4.18 \times 10^{15} $$ J.
+
+**Solution**
+
+**(a) Gravitational potential energy of the lake:**
+
+**Given:**
+- Mass of water: $$ m = 5.00 \times 10^{13}\text{ kg} $$
+- Average height above generators: $$ h = 40.0\text{ m} $$
+
+<div class="equation">
+$$ \PE_g = mgh = (5.00 \times 10^{13}\text{ kg})(9.80\mss)(40.0\text{ m}) $$
+</div>
+
+<div class="equation">
+$$ \PE_g = 1.96 \times 10^{16}\text{ J} $$
+</div>
+
+**(b) Comparison with 9-megaton fusion bomb:**
+
+Energy in a 9-megaton bomb:
+<div class="equation">
+$$ E_{bomb} = 9 \times 4.18 \times 10^{15}\text{ J} = 3.76 \times 10^{16}\text{ J} $$
+</div>
+
+Ratio:
+<div class="equation">
+$$ \frac{\PE_g}{E_{bomb}} = \frac{1.96 \times 10^{16}}{3.76 \times 10^{16}} = 0.52 $$
+</div>
+
+**Discussion**
+
+The gravitational potential energy stored in this reservoir is enormous - about $$ 2 \times 10^{16} $$ joules. This is approximately half the energy of a 9-megaton nuclear fusion bomb, which puts the scale of hydroelectric power into perspective. Unlike a bomb that releases its energy in an instant, hydroelectric facilities release this energy gradually over time, converting it to useful electrical power. A 50 km³ reservoir is quite large (for comparison, Lake Mead behind Hoover Dam holds about 35 km³), but the energy it stores demonstrates why hydroelectric power is such a significant energy source.
+
+**Answer**
+
+(a) The gravitational potential energy is $$ 1.96 \times 10^{16}\text{ J} $$.
+
+(b) The ratio is 0.52, meaning the lake stores about half the energy of a 9-megaton fusion bomb.
 
 </div>
 </div>
@@ -400,9 +437,38 @@ Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and r
 
 </div>
 <div class="solution" markdown="1">
-(a) 1.8 J
+**Strategy**
 
-(b) 8.6 J
+Work done against gravity equals the change in gravitational potential energy: $$ W = mgh $$. Calculate separately for the snake and for the bird's own mass.
+
+**Solution**
+
+**Given:**
+- Bird mass: $$ m_{bird} = 350\text{ g} = 0.350\text{ kg} $$
+- Snake mass: $$ m_{snake} = 75\text{ g} = 0.075\text{ kg} $$
+- Height raised: $$ h = 2.5\text{ m} $$
+
+**(a) Work done on the snake:**
+
+<div class="equation">
+$$ W_{snake} = m_{snake}gh = (0.075\text{ kg})(9.80\mss)(2.5\text{ m}) = 1.84\text{ J} \approx 1.8\text{ J} $$
+</div>
+
+**(b) Work done to raise the bird's center of mass:**
+
+<div class="equation">
+$$ W_{bird} = m_{bird}gh = (0.350\text{ kg})(9.80\mss)(2.5\text{ m}) = 8.58\text{ J} \approx 8.6\text{ J} $$
+</div>
+
+**Discussion**
+
+The bird does significantly more work lifting itself (8.6 J) than lifting the snake (1.8 J), even though the snake represents extra payload. The total work done is 10.4 J. This illustrates that for flying animals, the energy cost of carrying prey is relatively small compared to the energy needed for their own flight. The kookaburra, famous for eating snakes, must be strong enough to lift its own body weight repeatedly, and carrying a snake that's about 21% of its body mass is a modest additional burden.
+
+**Answer**
+
+(a) The work done on the snake is **1.8 J**.
+
+(b) The work done to raise the bird's center of mass is **8.6 J**.
 
 </div>
 </div>
@@ -455,10 +521,54 @@ A 100-g toy car is propelled by a compressed spring that starts it moving. The c
 {: #Figure7 height="200"}
 
 </div>
-<div class="solution">
+<div class="solution" markdown="1">
+**Strategy**
+
+Use conservation of mechanical energy for a frictionless surface. The initial kinetic energy plus initial gravitational potential energy equals the final kinetic energy plus final gravitational potential energy. Since the car goes up, it gains gravitational potential energy and loses kinetic energy.
+
+**Solution**
+
+**Given:**
+- Initial speed: $$ v_0 = 2.00\ms $$
+- Height gained: $$ h = 0.180\text{ m} $$
+- Mass: $$ m = 100\text{ g} = 0.100\text{ kg} $$ (though mass cancels out)
+
+Apply conservation of energy, taking the initial position as the reference level ($$ h_0 = 0 $$):
+
 <div class="equation">
- $$ v_{f}=\sqrt{2g h +{ v_{0}}^{2}}=\sqrt{2\left(9.80 \mss \right)\left(-0.180 \m \right)+\left(2.00 \ms \right)^{2}}=0.687 \ms $$
+$$ \frac{1}{2}mv_0^2 + mgh_0 = \frac{1}{2}mv_f^2 + mgh $$
 </div>
+
+<div class="equation">
+$$ \frac{1}{2}mv_0^2 + 0 = \frac{1}{2}mv_f^2 + mgh $$
+</div>
+
+Divide by $$ m $$ and solve for $$ v_f $$:
+
+<div class="equation">
+$$ \frac{1}{2}v_0^2 = \frac{1}{2}v_f^2 + gh $$
+</div>
+
+<div class="equation">
+$$ v_f^2 = v_0^2 - 2gh $$
+</div>
+
+<div class="equation">
+$$ v_f = \sqrt{v_0^2 - 2gh} = \sqrt{(2.00\ms)^2 - 2(9.80\mss)(0.180\m)} $$
+</div>
+
+<div class="equation">
+$$ v_f = \sqrt{4.00 - 3.528} = \sqrt{0.472} = 0.687\ms $$
+</div>
+
+**Discussion**
+
+The toy car slows from 2.00 m/s to 0.687 m/s as it climbs 0.180 m. Most of its initial kinetic energy (88%) is converted to gravitational potential energy at the top of the slope. This problem illustrates conservation of mechanical energy on a frictionless surface - the total mechanical energy (KE + PE) remains constant throughout the motion.
+
+**Answer**
+
+The final speed is $$ v_f = 0.687\ms $$, as required.
+
 </div>
 </div>
 

@@ -575,11 +575,61 @@ The ideal speed to take the 100 m radius curve banked at 20.0° is 18.9 m/s (abo
 
 </div>
 <div class="solution" markdown="1">
-a) 24.6 m
+**Strategy**
 
-b) $$ 36.6 \mss $$ c) $$ \ac=3.73 g$$. This does not seem too large, but it is
-clear that bobsledders feel a lot of force on them going through sharply banked
-turns.
+For an ideally banked curve (no friction required), we use the relationship $$ \tan\theta = \frac{v^2}{rg} $$. We'll solve for the radius $$ r $$, then calculate the centripetal acceleration using $$ a_c = \frac{v^2}{r} $$ and compare it to $$ g $$.
+
+**Solution**
+
+**Given:**
+- Banking angle: $$ \theta = 75.0° $$
+- Speed: $$ v = 30.0 \ms $$
+
+**(a) Radius of the turn:**
+
+From the ideal banking formula:
+
+<div class="equation">
+$$ \tan\theta = \frac{v^2}{rg} $$
+</div>
+
+Solving for $$ r $$:
+
+<div class="equation">
+$$ r = \frac{v^2}{g\tan\theta} $$
+</div>
+
+Substitute values:
+
+<div class="equation">
+$$ r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900}{(9.80)(3.732)} = \frac{900}{36.6} = 24.6\text{ m} $$
+</div>
+
+**(b) Centripetal acceleration:**
+
+<div class="equation">
+$$ a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900}{24.6} = 36.6\text{ m/s}^2 $$
+</div>
+
+**(c) Comparison to g:**
+
+<div class="equation">
+$$ \frac{a_c}{g} = \frac{36.6\text{ m/s}^2}{9.80\text{ m/s}^2} = 3.73 $$
+</div>
+
+So $$ a_c = 3.73g $$.
+
+**Discussion**
+
+The centripetal acceleration of 3.73g means that the bobsledders experience a force nearly 4 times their normal weight pushing them into the side of the bobsled. While this might not seem extreme compared to fighter pilots who experience up to 9g, bobsledders must maintain this level of force throughout the turn while also controlling their sled. The 75° banking angle is quite steep - nearly vertical - which is typical for bobsled tracks where tight, fast turns are needed. The small radius of just 24.6 m allows for exciting, high-speed turns while the steep banking keeps the forces manageable. Bobsledders train to handle these forces and must have strong core and neck muscles to maintain proper positioning throughout the run.
+
+**Answer**
+
+(a) The radius of the bobsled turn is **24.6 m**.
+
+(b) The centripetal acceleration is **36.6 m/s²**.
+
+(c) This acceleration is **3.73g**, which is significant but typical for bobsled runs. It requires athletic conditioning but is within human tolerance for short durations.
 
 </div>
 </div>
@@ -843,11 +893,40 @@ an unbanked 50.0 m radius curve at 30.0 m/s.
 
 </div>
 <div class="solution" markdown="1">
-a) 1.84
 
-b) A coefficient of friction this much greater than 1 is unreasonable.
+**Strategy**
 
-c) The assumed speed is too great for the tight curve.
+For an unbanked curve, friction provides the centripetal force. We'll set up the equation where friction equals the required centripetal force, then solve for the coefficient of friction. We'll then analyze whether the result is physically reasonable.
+
+**Solution**
+
+**(a)** For circular motion on an unbanked curve:
+
+The centripetal force is provided by friction:
+<div class="equation">
+$$ f = \mu_s N = \mu_s mg $$
+</div>
+
+This must equal the required centripetal force:
+<div class="equation">
+$$ \mu_s mg = \frac{mv^2}{r} $$
+</div>
+
+Solving for the coefficient of friction (mass cancels):
+<div class="equation">
+$$ \mu_s = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84 $$
+</div>
+
+**(b)** A coefficient of friction of 1.84 is unreasonable. Typical coefficients of static friction between rubber tires and dry pavement range from 0.7 to 1.0. Values significantly greater than 1.0 are not physically achievable with normal road surfaces and tires.
+
+**(c)** The assumed speed of 30.0 m/s (108 km/h or 67 mph) is too great for a 50.0 m radius curve. At this tight radius, safer speeds would be around 15-20 m/s. Alternatively, banking the curve would reduce the required friction coefficient.
+
+**Discussion**
+
+This problem illustrates why highway curves are designed with specific speed limits based on their radius. For a 50.0 m radius curve with μ = 0.7 (wet conditions), the maximum safe speed would be:
+$$ v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0)(9.80)} = 18.5 \text{ m/s} \approx 67 \text{ km/h} $$
+
+This is why tight curves on roads have reduced speed limits and are often banked.
 
 </div>
 </div>
