@@ -214,7 +214,37 @@ Suppose a speck of dust in an electrostatic precipitator has  $$ 1.0000 \times 1
 
 </div>
 <div class="solution" markdown="1">
- $$1.03 \times 10^{12}  $$
+
+**Strategy**
+
+The net charge is the difference between the positive charge from protons and the negative charge from electrons. Let $$n_p$$ be the number of protons and $$n_e$$ be the number of electrons. The net charge is $$q = n_p e - n_e e = (n_p - n_e)e$$, where $$e = 1.60 \times 10^{-19} \text{ C}$$.
+
+**Solution**
+
+Given: $$n_p = 1.0000 \times 10^{12}$$ and $$q = -5.00 \times 10^{-9} \text{ C}$$.
+
+Rearranging the charge equation:
+
+<div class="equation">
+ $$(n_p - n_e)e = q$$
+</div>
+
+<div class="equation">
+ $$n_e = n_p - \frac{q}{e} = 1.0000 \times 10^{12} - \frac{-5.00 \times 10^{-9} \text{ C}}{1.60 \times 10^{-19} \text{ C}}$$
+</div>
+
+<div class="equation">
+ $$n_e = 1.0000 \times 10^{12} + 3.125 \times 10^{10} = 1.0000 \times 10^{12} + 0.03125 \times 10^{12}$$
+</div>
+
+<div class="equation">
+ $$n_e = 1.03125 \times 10^{12} \approx 1.03 \times 10^{12} \text{ electrons}$$
+</div>
+
+**Discussion**
+
+The dust speck has 1.03 × 10¹² electrons, which is about 3% more electrons than protons. This small excess of electrons (3.125 × 10¹⁰ extra electrons) creates the large net negative charge of −5.00 nC. This illustrates an important principle: a relatively small imbalance in the number of electrons and protons can create a significant net charge. Even though the speck has over a trillion of each type of charge carrier, it's the small difference that determines the net charge.
+
 </div>
 </div>
 
@@ -224,16 +254,85 @@ An amoeba has  $$1.00 \times 10^{16}  $$
  protons and a net charge of 0.300 pC. (a) How many fewer electrons are there than protons? (b) If you paired them up, what fraction of the protons would have no electrons?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The amoeba has a positive net charge, which means it has fewer electrons than protons. The net charge equals the charge of the excess protons: $$q = (n_p - n_e)e$$.
+
+**Solution**
+
+Given: $$n_p = 1.00 \times 10^{16}$$ protons and $$q = 0.300 \times 10^{-12} \text{ C}$$.
+
+**(a)** Number of fewer electrons than protons:
+
+<div class="equation">
+ $$n_p - n_e = \frac{q}{e} = \frac{0.300 \times 10^{-12} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 1.875 \times 10^{6} = 1.88 \times 10^{6}$$
+</div>
+
+**(b)** Fraction of protons with no electrons:
+
+<div class="equation">
+ $$\text{Fraction} = \frac{n_p - n_e}{n_p} = \frac{1.875 \times 10^{6}}{1.00 \times 10^{16}} = 1.875 \times 10^{-10} = 1.88 \times 10^{-10}$$
+</div>
+
+**Discussion**
+
+Part (a): The amoeba has 1.88 × 10⁶ (about 1.88 million) fewer electrons than protons, giving it a net positive charge of 0.300 pC.
+
+Part (b): Only 1.88 × 10⁻¹⁰ (or 0.0000000188%) of the protons would have no paired electrons. This incredibly small fraction demonstrates that even microscopic organisms are overwhelmingly electrically neutral. The tiny charge imbalance of less than one part in 10 billion creates the measurable net charge, while the vast majority of charges are balanced.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 50.0 g ball of copper has a net charge of  $$2.00 µ\text{C} $$ .
- What fraction of the copper’s electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)
+ What fraction of the copper's electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)
 
 </div>
 <div class="solution" markdown="1">
- $$ 9.09 \times 10^{-13}  $$
+
+**Strategy**
+
+First, find the total number of copper atoms using the atomic mass and Avogadro's number. Then calculate the total number of electrons (29 per atom). Finally, determine how many electrons were removed to create the net charge, and find the fraction.
+
+**Solution**
+
+Number of moles of copper:
+
+<div class="equation">
+ $$n = \frac{m}{M} = \frac{50.0 \text{ g}}{63.5 \text{ g/mol}} = 0.787 \text{ mol}$$
+</div>
+
+Number of copper atoms:
+
+<div class="equation">
+ $$N_{\text{atoms}} = n \times N_A = (0.787 \text{ mol})(6.02 \times 10^{23} \text{ atoms/mol}) = 4.74 \times 10^{23} \text{ atoms}$$
+</div>
+
+Total number of electrons (29 per atom):
+
+<div class="equation">
+ $$N_{\text{electrons}} = 29 \times N_{\text{atoms}} = 29 \times 4.74 \times 10^{23} = 1.37 \times 10^{25} \text{ electrons}$$
+</div>
+
+Number of electrons removed:
+
+<div class="equation">
+ $$n_{\text{removed}} = \frac{q}{e} = \frac{2.00 \times 10^{-6} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 1.25 \times 10^{13} \text{ electrons}$$
+</div>
+
+Fraction removed:
+
+<div class="equation">
+ $$\text{Fraction} = \frac{n_{\text{removed}}}{N_{\text{electrons}}} = \frac{1.25 \times 10^{13}}{1.37 \times 10^{25}} = 9.09 \times 10^{-13}$$
+</div>
+
+**Discussion**
+
+Only 9.09 × 10⁻¹³ (about 0.0000000000091%) of the copper's electrons have been removed. This is less than one trillionth of the electrons! This tiny fraction creates a charge of 2.00 μC, which is a significant charge in electrostatic terms. This demonstrates that macroscopic objects contain such enormous numbers of electrons that removing even a very large number of them (12.5 trillion) represents only an infinitesimal fraction of the total.
+
 </div>
 </div>
 
@@ -241,6 +340,43 @@ A 50.0 g ball of copper has a net charge of  $$2.00 µ\text{C} $$ .
 <div class="problem" markdown="1">
 What net charge would you place on a 100 g piece of sulfur if you put an extra electron on 1 in  $$ 10^{12} $$
  of its atoms? (Sulfur has an atomic mass of 32.1.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate the total number of sulfur atoms using the mass, atomic mass, and Avogadro's number. Then find how many atoms receive an extra electron (1 in 10¹²), and multiply by the electron charge.
+
+**Solution**
+
+Number of moles of sulfur:
+
+<div class="equation">
+ $$n = \frac{m}{M} = \frac{100 \text{ g}}{32.1 \text{ g/mol}} = 3.12 \text{ mol}$$
+</div>
+
+Total number of sulfur atoms:
+
+<div class="equation">
+ $$N_{\text{atoms}} = n \times N_A = (3.12 \text{ mol})(6.02 \times 10^{23} \text{ atoms/mol}) = 1.88 \times 10^{24} \text{ atoms}$$
+</div>
+
+Number of atoms with an extra electron:
+
+<div class="equation">
+ $$N_{\text{extra}} = \frac{N_{\text{atoms}}}{10^{12}} = \frac{1.88 \times 10^{24}}{10^{12}} = 1.88 \times 10^{12} \text{ electrons}$$
+</div>
+
+Net charge:
+
+<div class="equation">
+ $$q = -N_{\text{extra}} \times e = -(1.88 \times 10^{12})(1.60 \times 10^{-19} \text{ C}) = -3.00 \times 10^{-7} \text{ C} = -0.300 \text{ μC}$$
+</div>
+
+**Discussion**
+
+The net charge on the sulfur would be −0.300 μC (or −300 nC). The negative sign indicates an excess of electrons. Even though only 1 in a trillion atoms gets an extra electron, the enormous number of atoms in 100 g of sulfur (about 1.88 × 10²⁴) means that 1.88 trillion atoms receive the extra electron, creating a measurable net charge. This charge is typical of static electricity effects.
 
 </div>
 </div>
@@ -251,7 +387,41 @@ How many coulombs of positive charge are there in 4.00 kg of plutonium, given it
 
 </div>
 <div class="solution"  markdown="1">
- $$ 1.48 \times 10^{8}  \text{C} $$
+
+**Strategy**
+
+Find the total number of plutonium atoms using the mass, atomic mass, and Avogadro's number. Multiply by the number of protons per atom (94) to get the total number of protons, then multiply by the proton charge.
+
+**Solution**
+
+Number of moles of plutonium:
+
+<div class="equation">
+ $$n = \frac{m}{M} = \frac{4000 \text{ g}}{244 \text{ g/mol}} = 16.4 \text{ mol}$$
+</div>
+
+Number of plutonium atoms:
+
+<div class="equation">
+ $$N_{\text{atoms}} = n \times N_A = (16.4 \text{ mol})(6.02 \times 10^{23} \text{ atoms/mol}) = 9.87 \times 10^{24} \text{ atoms}$$
+</div>
+
+Total number of protons (94 per atom):
+
+<div class="equation">
+ $$N_{\text{protons}} = 94 \times N_{\text{atoms}} = 94 \times 9.87 \times 10^{24} = 9.28 \times 10^{26} \text{ protons}$$
+</div>
+
+Total positive charge:
+
+<div class="equation">
+ $$q = N_{\text{protons}} \times e = (9.28 \times 10^{26})(1.60 \times 10^{-19} \text{ C}) = 1.48 \times 10^{8} \text{ C}$$
+</div>
+
+**Discussion**
+
+There are 1.48 × 10⁸ C (148 million coulombs) of positive charge in 4.00 kg of plutonium. Of course, there is an equal amount of negative charge from the electrons, so the plutonium is electrically neutral overall. This enormous amount of charge illustrates that ordinary matter contains vast quantities of both positive and negative charge, which normally cancel out exactly. The fact that we don't normally observe electrical effects from neutral matter is a testament to how precisely the positive and negative charges balance.
+
 </div>
 </div>
 
