@@ -921,9 +921,74 @@ answer surprise you?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 1.66\times 10^{-10} \mss $$
+**Strategy**
 
-b) $$ 2.17\times 10^{5} \ms $$
+(a) Use the relationship for centripetal acceleration $$ a_c = \frac{v^2}{r} = \frac{4\pi^2 r}{T^2} $$, converting all units appropriately.
+(b) Use $$ v = \frac{2\pi r}{T} $$ to find the orbital speed.
+
+**Solution**
+
+**Given:**
+- Orbital period: $$ T = 2.60 \times 10^{8}\text{ years} $$
+- Orbital radius: $$ r = 3.00 \times 10^{4}\text{ light years} $$
+
+First, convert to SI units.
+
+**Convert period to seconds:**
+<div class="equation">
+$$ T = 2.60 \times 10^{8}\text{ y} \times 3.156 \times 10^{7}\text{ s/y} = 8.21 \times 10^{15}\text{ s} $$
+</div>
+
+**Convert radius to meters:**
+
+One light year is the distance light travels in one year:
+<div class="equation">
+$$ 1\text{ ly} = c \times 1\text{ y} = (3.00 \times 10^{8}\text{ m/s})(3.156 \times 10^{7}\text{ s}) = 9.47 \times 10^{15}\text{ m} $$
+</div>
+
+<div class="equation">
+$$ r = 3.00 \times 10^{4}\text{ ly} \times 9.47 \times 10^{15}\text{ m/ly} = 2.84 \times 10^{20}\text{ m} $$
+</div>
+
+**(a) Centripetal acceleration:**
+
+<div class="equation">
+$$ a_c = \frac{4\pi^2 r}{T^2} = \frac{4\pi^2 (2.84 \times 10^{20}\text{ m})}{(8.21 \times 10^{15}\text{ s})^2} $$
+</div>
+
+<div class="equation">
+$$ a_c = \frac{4(9.87)(2.84 \times 10^{20})}{6.74 \times 10^{31}} = \frac{1.12 \times 10^{22}}{6.74 \times 10^{31}} = 1.66 \times 10^{-10}\text{ m/s}^2 $$
+</div>
+
+Compare to g:
+<div class="equation">
+$$ \frac{a_c}{g} = \frac{1.66 \times 10^{-10}}{9.80} = 1.69 \times 10^{-11} $$
+</div>
+
+The centripetal acceleration is about $$ 1.7 \times 10^{-11} g $$, which is incredibly small - about 17 billionths of g. This strongly supports the use of the Sun as a nearly inertial reference frame.
+
+**(b) Average orbital speed:**
+
+<div class="equation">
+$$ v = \frac{2\pi r}{T} = \frac{2\pi (2.84 \times 10^{20}\text{ m})}{8.21 \times 10^{15}\text{ s}} $$
+</div>
+
+<div class="equation">
+$$ v = \frac{1.78 \times 10^{21}}{8.21 \times 10^{15}} = 2.17 \times 10^{5}\text{ m/s} = 217\text{ km/s} $$
+</div>
+
+**Discussion**
+
+The Sun orbits the center of the Milky Way galaxy at an impressive speed of 217 km/s (about 780,000 km/h or 485,000 mph)! Despite this tremendous speed, the centripetal acceleration is incredibly small ($$ 1.66 \times 10^{-10}\text{ m/s}^2 $$) because the orbital radius is so enormous. This tiny acceleration - about 17 billionths of the acceleration due to gravity on Earth - confirms that the Sun can be treated as an excellent inertial reference frame for almost all practical purposes.
+
+The Sun's orbital speed might seem surprisingly high, but consider that at this speed, it still takes 260 million years to complete one orbit around the galaxy. The Sun has completed only about 18 orbits since the solar system formed 4.6 billion years ago. This motion carries the entire solar system with it - all the planets, moons, asteroids, and comets move together at 217 km/s through the galaxy.
+
+**Answer**
+
+(a) The centripetal acceleration of the Sun is $$ 1.66 \times 10^{-10}\text{ m/s}^2 $$. This is about $$ 1.7 \times 10^{-11} g $$, which strongly supports using the Sun as a nearly inertial reference frame.
+
+(b) The average speed of the Sun in its galactic orbit is $$ 2.17 \times 10^{5}\text{ m/s} = 217\text{ km/s} $$. This is surprisingly fast - about 0.07% of the speed of light!
+
 </div>
 </div>
 
