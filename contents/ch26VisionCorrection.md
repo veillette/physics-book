@@ -265,6 +265,47 @@ What is the far point of a person whose eyes have a relaxed power of 50.5 D?
 What is the near point of a person whose eyes have an accommodated power of 53.5 D?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The near point is the closest distance at which a person can see clearly with fully accommodated vision. Using the thin lens equation $$P = \frac{1}{d_o} + \frac{1}{d_i}$$, where $$P = 53.5$$ D is the accommodated power and $$d_i = 2.00$$ cm (lens-to-retina distance), we can solve for the object distance $$d_o$$, which is the near point.
+
+**Solution**
+
+Given values:
+- Accommodated power: $$P = 53.5 \text{ D}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+
+Using the power equation:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i}$$
+</div>
+
+Rearranging to solve for $$d_o$$:
+
+<div class="equation">
+ $$\frac{1}{d_o} = P - \frac{1}{d_i}$$
+</div>
+
+<div class="equation">
+ $$\frac{1}{d_o} = 53.5 \text{ D} - \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$\frac{1}{d_o} = 53.5 \text{ m}^{-1} - 50.0 \text{ m}^{-1} = 3.5 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+ $$d_o = \frac{1}{3.5 \text{ m}^{-1}} = 0.286 \text{ m} = 28.6 \text{ cm}$$
+</div>
+
+**Discussion**
+
+The near point of this person is 28.6 cm, which is slightly farther than the normal near point of 25 cm. This indicates a mild degree of presbyopia or early farsightedness. The accommodated power of 53.5 D represents only a 3.5 D increase over the relaxed power of 50.0 D (for distant vision), compared to the normal 4.0 D accommodation ability. This 12.5% reduction in accommodation power is typical for someone in their 40s or early 50s. While this person can still read without glasses, they may find it more comfortable to hold reading material slightly farther away than the standard 25 cm reading distance.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -282,7 +323,51 @@ What is the near point of a person whose eyes have an accommodated power of 53.5
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In a LASIK vision correction, the power of a patient’s eye is increased by 3.00 D. Assuming this produces normal close vision, what was the patient’s near point before the procedure?
+In a LASIK vision correction, the power of a patient's eye is increased by 3.00 D. Assuming this produces normal close vision, what was the patient's near point before the procedure?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Normal close vision corresponds to a near point of 25.0 cm, which requires an accommodated power of 54.0 D (as calculated in the text examples). After the LASIK procedure that increases eye power by 3.00 D, the patient achieves this normal near point. Before the procedure, the patient's accommodated power was 3.00 D less. We use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$ to find the original near point with the reduced power.
+
+**Solution**
+
+Given values:
+- Power increase from LASIK: $$\Delta P = 3.00 \text{ D}$$
+- Normal accommodated power: $$P_{\text{after}} = 54.0 \text{ D}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+
+The patient's accommodated power before the procedure:
+
+<div class="equation">
+ $$P_{\text{before}} = P_{\text{after}} - \Delta P = 54.0 \text{ D} - 3.00 \text{ D} = 51.0 \text{ D}$$
+</div>
+
+Using the power equation to find the original near point:
+
+<div class="equation">
+ $$P_{\text{before}} = \frac{1}{d_o} + \frac{1}{d_i}$$
+</div>
+
+<div class="equation">
+ $$\frac{1}{d_o} = P_{\text{before}} - \frac{1}{d_i} = 51.0 \text{ D} - \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$\frac{1}{d_o} = 51.0 \text{ m}^{-1} - 50.0 \text{ m}^{-1} = 1.0 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+ $$d_o = \frac{1}{1.0 \text{ m}^{-1}} = 1.0 \text{ m} = 100 \text{ cm}$$
+</div>
+
+**Discussion**
+
+Before the LASIK procedure, the patient's near point was 1.0 m (100 cm), indicating significant hyperopia (farsightedness). This person could not see objects clearly closer than one meter, making reading and other close work impossible without corrective lenses. The 3.00 D power increase from LASIK surgery brought the near point from 100 cm to the normal 25 cm, dramatically improving the patient's quality of life.
+
+This large near point distance explains why the patient needed LASIK. With only 1.0 D of accommodation power before surgery (compared to the normal 4.0 D), this person likely suffered from either severe presbyopia (age-related loss of accommodation) or congenital hyperopia. After surgery, with their total accommodated power now at 54.0 D, they can read normally without glasses. This demonstrates how LASIK can correct not just distant vision problems (myopia) but also near vision problems (hyperopia).
 
 </div>
 </div>
@@ -303,6 +388,42 @@ What was the previous far point of a patient who had laser vision correction tha
 A severely myopic patient has a far point of 5.00 cm. By how many diopters should the power of his eye be reduced in laser vision correction to obtain normal distant vision for him?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For normal distant vision, the relaxed eye should have a power of 50.0 D (corresponding to a far point at infinity). The patient's current relaxed power can be calculated from their far point of 5.00 cm using $$P = \frac{1}{d_o} + \frac{1}{d_i}$$. The difference between the current power and the normal power gives the required power reduction.
+
+**Solution**
+
+Given values:
+- Current far point: $$d_o = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+- Normal relaxed power: $$P_{\text{normal}} = 50.0 \text{ D}$$
+
+Calculate the current relaxed power:
+
+<div class="equation">
+ $$P_{\text{current}} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.0500 \text{ m}} + \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P_{\text{current}} = 20.0 \text{ D} + 50.0 \text{ D} = 70.0 \text{ D}$$
+</div>
+
+The required power reduction:
+
+<div class="equation">
+ $$\Delta P = P_{\text{current}} - P_{\text{normal}} = 70.0 \text{ D} - 50.0 \text{ D} = 20.0 \text{ D}$$
+</div>
+
+**Discussion**
+
+The patient's eye power must be reduced by 20.0 D to achieve normal distant vision. This is a very large correction, reflecting the severity of the myopia—the patient can only see clearly up to 5.00 cm away, which is extremely close. With a far point this close, the patient would be unable to perform most daily tasks without corrective lenses.
+
+A 20.0 D power reduction is at the upper limit of what LASIK can typically achieve safely. Most LASIK procedures correct between -1.00 D to -12.00 D of myopia. A 20.0 D correction would require removing a significant amount of corneal tissue, potentially compromising corneal strength and stability. For such severe myopia, alternative procedures like phakic intraocular lenses (implantable lenses placed inside the eye) might be more appropriate. This problem illustrates the limitations of laser vision correction and why careful patient screening is essential before surgery.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -318,7 +439,46 @@ A student’s eyes, while reading the blackboard, have a power of 51.0 D. How fa
 
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
-The power of a physician’s eyes is 53.0 D while examining a patient. How far from her eyes is the feature being examined?
+The power of a physician's eyes is 53.0 D while examining a patient. How far from her eyes is the feature being examined?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Using the thin lens equation $$P = \frac{1}{d_o} + \frac{1}{d_i}$$, where $$P = 53.0$$ D and $$d_i = 2.00$$ cm, we can solve for the object distance $$d_o$$, which represents how far the examined feature is from the physician's eyes.
+
+**Solution**
+
+Given values:
+- Eye power: $$P = 53.0 \text{ D}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+
+Using the power equation:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i}$$
+</div>
+
+Rearranging to solve for $$d_o$$:
+
+<div class="equation">
+ $$\frac{1}{d_o} = P - \frac{1}{d_i} = 53.0 \text{ D} - \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$\frac{1}{d_o} = 53.0 \text{ m}^{-1} - 50.0 \text{ m}^{-1} = 3.0 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+ $$d_o = \frac{1}{3.0 \text{ m}^{-1}} = 0.333 \text{ m} = 33.3 \text{ cm}$$
+</div>
+
+**Discussion**
+
+The feature being examined is 33.3 cm from the physician's eyes. This is a comfortable working distance for close examination, slightly farther than the standard near point of 25 cm. The physician is using an accommodated power of 53.0 D, which represents 3.0 D of accommodation beyond the relaxed power of 50.0 D.
+
+This distance is typical for medical examinations where the physician needs to look closely at a patient's features (such as examining eyes, ears, throat, or skin lesions) but still maintain a comfortable working distance. It's close enough to see fine details but far enough to avoid discomfort for both patient and physician. The 3.0 D of accommodation required is well within the normal accommodation range, so the physician can maintain this examination distance for extended periods without significant eye strain.
 
 </div>
 </div>
@@ -339,6 +499,54 @@ A young woman with normal distant vision has a 10.0% ability to accommodate (tha
 The far point of a myopic administrator is 50.0 cm. (a) What is the relaxed power of their eyes? (b) If they have the normal 8.00% ability to accommodate, what is the closest object they can see clearly?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$ with the far point distance (50.0 cm) as $$d_o$$ to find the relaxed power. For part (b), an 8.00% accommodation ability means the accommodated power is 1.08 times the relaxed power. We then use the power equation to find the near point.
+
+**Solution**
+
+Given values:
+- Far point: $$d_o = 50.0 \text{ cm} = 0.500 \text{ m}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+- Accommodation ability: 8.00%
+
+**(a)** Calculate the relaxed power:
+
+<div class="equation">
+ $$P_{\text{relaxed}} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.500 \text{ m}} + \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P_{\text{relaxed}} = 2.00 \text{ D} + 50.0 \text{ D} = 52.0 \text{ D}$$
+</div>
+
+**(b)** Calculate the accommodated power:
+
+<div class="equation">
+ $$P_{\text{accommodated}} = 1.08 \times P_{\text{relaxed}} = 1.08 \times 52.0 \text{ D} = 56.2 \text{ D}$$
+</div>
+
+Find the near point using the accommodated power:
+
+<div class="equation">
+ $$\frac{1}{d_o} = P_{\text{accommodated}} - \frac{1}{d_i} = 56.2 \text{ D} - 50.0 \text{ D} = 6.2 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+ $$d_o = \frac{1}{6.2 \text{ m}^{-1}} = 0.161 \text{ m} = 16.1 \text{ cm}$$
+</div>
+
+**Discussion**
+
+Part (a): The relaxed power of 52.0 D is higher than the normal 50.0 D, confirming this person is myopic (nearsighted). The excess 2.0 D of power causes distant objects beyond 50.0 cm to appear blurry.
+
+Part (b): The near point of 16.1 cm is actually closer than the normal 25 cm. This is an interesting benefit of mild myopia—myopic people can see close objects more clearly than people with normal vision. The administrator can read comfortably at 16.1 cm, which is advantageous for detailed close work.
+
+This problem illustrates that myopia has a "silver lining": while distant vision is compromised, near vision is enhanced. This is why some older people with presbyopia may deliberately under-correct their myopia or use reading glasses weaker than needed—they want to preserve their advantage in close-up tasks. However, for most daily activities requiring both near and distant vision, corrective lenses for myopia are still beneficial. The administrator would need -2.00 D corrective lenses to see distant objects clearly.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -354,6 +562,39 @@ A very myopic man has a far point of 20.0 cm. What power contact lens (when on t
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
 Repeat the previous problem for eyeglasses held 1.50 cm from the eyes.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The previous problem involved a myopic man with a far point of 20.0 cm who needed a -5.00 D contact lens. For eyeglasses held 1.50 cm from the eye, we must account for this separation. The spectacle lens must create an image at the far point (20.0 cm from the eye, or 18.5 cm from the lens) when viewing distant objects. We use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$ with $$d_o = \infty$$ and $$d_i = -18.5$$ cm.
+
+**Solution**
+
+Given values:
+- Far point from eye: 20.0 cm
+- Spectacle distance from eye: 1.50 cm
+- Image distance from spectacle: $$d_i = -(20.0 - 1.50) = -18.5 \text{ cm} = -0.185 \text{ m}$$
+- Object distance: $$d_o = \infty$$ (distant objects)
+
+The negative image distance indicates the image is on the same side as the object (virtual image).
+
+Using the power equation:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{\infty} + \frac{1}{-0.185 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P = 0 - 5.41 \text{ m}^{-1} = -5.41 \text{ D}$$
+</div>
+
+**Discussion**
+
+The required spectacle lens power is -5.41 D, which is slightly more negative than the -5.00 D contact lens. This difference arises because the spectacle lens is 1.50 cm farther from the eye's optical system. The farther the corrective lens is from the eye, the stronger it must be to create an image at the same location.
+
+This 0.41 D difference may seem small, but it's clinically significant. This is why contact lens and eyeglass prescriptions differ for the same person—the prescription must account for the vertex distance (distance from the lens to the cornea). For mild prescriptions, this difference is negligible, but for strong prescriptions like this one, it becomes important. An optometrist must adjust the prescription when converting between contacts and glasses, typically making spectacles slightly stronger (more negative for myopia) than contact lenses.
 
 </div>
 </div>
@@ -375,6 +616,39 @@ A myopic person sees that her contact lens prescription is  $$-4.00 \text{D} $$ 
 Repeat the previous problem for glasses that are 1.75 cm from the eyes.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The previous problem involved a myopic person with a -4.00 D contact lens prescription and a far point of 25.0 cm. For eyeglasses held 1.75 cm from the eyes, the spectacle lens must create an image at the far point (25.0 cm from the eye, or 23.25 cm from the lens) when viewing distant objects. We use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$ with $$d_o = \infty$$ and $$d_i = -23.25$$ cm.
+
+**Solution**
+
+Given values:
+- Far point from eye: 25.0 cm
+- Spectacle distance from eye: 1.75 cm
+- Image distance from spectacle: $$d_i = -(25.0 - 1.75) = -23.25 \text{ cm} = -0.2325 \text{ m}$$
+- Object distance: $$d_o = \infty$$ (distant objects)
+
+Using the power equation:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{\infty} + \frac{1}{-0.2325 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P = 0 - 4.30 \text{ m}^{-1} = -4.30 \text{ D}$$
+</div>
+
+**Discussion**
+
+The required spectacle lens power is -4.30 D, compared to the -4.00 D contact lens. The spectacle lens must be 0.30 D stronger (more negative) because it sits 1.75 cm from the eye. This vertex distance effect is important for accurate vision correction.
+
+For this moderate myopia prescription, the vertex distance correction is about 7.5% of the contact lens power. This difference becomes more pronounced with stronger prescriptions. An optometrist typically uses the formula $$P_{\text{spectacle}} = \frac{P_{\text{contact}}}{1 - d \cdot P_{\text{contact}}}$$ where $$d$$ is the vertex distance, to accurately convert between contact and spectacle prescriptions.
+
+The fact that spectacle lenses need to be stronger than contact lenses for myopia correction is one reason why some people prefer contacts—they provide correction with less optical power, which can reduce optical distortions and weight of the lenses. However, for mild to moderate myopia like this case, the difference is small enough that either option provides excellent vision correction.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -390,6 +664,37 @@ The contact lens prescription for a mildly farsighted person is 0.750 D, and the
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
 A nearsighted man cannot see objects clearly beyond 20 cm from his eyes. How close must he stand to a mirror in order to see what he is doing when he shaves?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The man's far point is 20 cm, meaning he can see clearly only up to this distance. When looking in a mirror, he sees an image of his face that appears to be behind the mirror at a distance equal to his distance from the mirror. For clear vision, the total optical path (from his eyes to the mirror and back to the apparent image location) must be within his far point of 20 cm. If he stands at distance $$d$$ from the mirror, the image appears at distance $$d$$ behind the mirror, making the total distance $$2d$$.
+
+**Solution**
+
+Given values:
+- Far point: 20 cm
+- Total optical distance to image: $$2d$$ (where $$d$$ is distance to mirror)
+
+For clear vision, the image distance must equal the far point:
+
+<div class="equation">
+ $$2d = 20 \text{ cm}$$
+</div>
+
+<div class="equation">
+ $$d = 10 \text{ cm}$$
+</div>
+
+**Discussion**
+
+The man must stand 10 cm from the mirror to see himself clearly while shaving. At this distance, the image of his face appears 10 cm behind the mirror surface, making the total optical path 20 cm—exactly his far point.
+
+This is quite close to the mirror, which would be awkward and impractical for shaving. The mirror would likely fog from his breath, and maneuvering a razor would be difficult at such close range. This problem illustrates why uncorrected myopia significantly impacts daily activities. With -5.00 D corrective lenses (as calculated for a 20 cm far point), the man could stand at a normal distance from the mirror and see clearly.
+
+This problem also demonstrates an important principle of mirror optics: for a plane mirror, the image appears as far behind the mirror as the object is in front. Therefore, the effective viewing distance is twice the physical distance to the mirror. This doubling effect is why people with limited vision ranges need to stand particularly close to mirrors.
 
 </div>
 </div>
@@ -408,6 +713,46 @@ A mother sees that her child’s contact lens prescription is 0.750 D. What is t
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
 Repeat the previous problem for glasses that are 2.20 cm from the eyes.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The previous problem involved a child with a +0.750 D contact lens prescription and a near point of 30.8 cm. For eyeglasses held 2.20 cm from the eyes, we need to find what prescription will provide the same correction. The spectacle lens must create an image at the child's near point (30.8 cm from the eye, or 28.6 cm from the lens) when viewing an object at the normal near point of 25.0 cm. We use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$.
+
+**Solution**
+
+Given values:
+- Normal near point (object distance from spectacle): $$d_o = 25.0 - 2.20 = 22.8 \text{ cm} = 0.228 \text{ m}$$
+- Child's near point from eye: 30.8 cm
+- Image distance from spectacle: $$d_i = -(30.8 - 2.20) = -28.6 \text{ cm} = -0.286 \text{ m}$$
+
+The negative image distance indicates a virtual image on the same side as the object.
+
+Using the power equation:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.228 \text{ m}} + \frac{1}{-0.286 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P = 4.39 \text{ D} - 3.50 \text{ D} = 0.89 \text{ D}$$
+</div>
+
+Rounding to two significant figures:
+
+<div class="equation">
+ $$P = 0.89 \text{ D}$$
+</div>
+
+**Discussion**
+
+The required spectacle lens power is +0.89 D, compared to the +0.750 D contact lens. The spectacle lens must be stronger (more positive) by about 0.14 D because it sits 2.20 cm from the eye. This is consistent with the vertex distance effect—for hyperopia (farsightedness), spectacle lenses require more positive power than contact lenses.
+
+The 19% increase in power (from +0.75 D to +0.89 D) may seem large, but it's typical for the vertex distance effect with positive lenses. For hyperopia corrections, the relationship is $$P_{\text{spectacle}} = \frac{P_{\text{contact}}}{1 + d \cdot P_{\text{contact}}}$$, where $$d$$ is the vertex distance. This formula confirms our calculation.
+
+For children, eyeglasses are often preferred over contact lenses for safety and ease of use, despite requiring slightly stronger prescriptions. The child would wear +0.89 D glasses to achieve the same vision correction as +0.75 D contacts. This demonstrates why prescriptions must always specify whether they're for contacts or spectacles—using the wrong prescription could result in under-correction or over-correction.
 
 </div>
 </div>
@@ -429,6 +774,50 @@ The contact lens prescription for a nearsighted person is  $$-4.00 \text{D} $$
 
 A boy has a near point of 50 cm and a far point of 500 cm. Will a $$-4.00
 \text{D} $$ lens correct his far point to infinity?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To correct the far point to infinity using a contact lens, we first determine what lens power is actually needed. The lens must create a virtual image at the boy's far point (500 cm) when viewing distant objects. We calculate the required power and compare it to the proposed -4.00 D lens to determine if the correction is appropriate.
+
+**Solution**
+
+Given values:
+- Far point: $$d_i = -500 \text{ cm} = -5.00 \text{ m}$$ (virtual image)
+- Object distance for distant vision: $$d_o = \infty$$
+- Proposed lens power: $$P_{\text{proposed}} = -4.00 \text{ D}$$
+
+Calculate the required lens power:
+
+<div class="equation">
+ $$P_{\text{required}} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{\infty} + \frac{1}{-5.00 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P_{\text{required}} = 0 - 0.20 \text{ D} = -0.20 \text{ D}$$
+</div>
+
+Comparing with the proposed lens:
+
+The proposed -4.00 D lens is **20 times stronger** than needed. This lens would create an image at:
+
+<div class="equation">
+ $$\frac{1}{d_i} = P - \frac{1}{d_o} = -4.00 \text{ D} - 0 = -4.00 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+ $$d_i = -0.25 \text{ m} = -25 \text{ cm}$$
+</div>
+
+**Discussion**
+
+No, a -4.00 D lens will **not** correct the boy's far point to infinity—it will severely over-correct his vision. The boy only needs a -0.20 D lens, but the proposed lens is 20 times too strong. With a -4.00 D lens, distant objects would appear as images only 25 cm from his eyes, which is actually at his near point!
+
+This demonstrates an unreasonable result. The problem reveals that the boy's vision defect is very mild—his far point of 500 cm (5 meters) is quite distant, requiring only minimal correction. In fact, many people with such mild myopia might not need correction at all for daily activities, though it would help for tasks requiring sharp distant vision like driving or reading a blackboard.
+
+The combination of a 50 cm near point and 500 cm far point is unusual but not impossible. It suggests either early presbyopia (loss of accommodation) combined with mild myopia, or simply a person with limited accommodation range. The key lesson is that lens prescriptions must be carefully matched to the actual vision defect—a stronger lens is not necessarily better and can create new vision problems. Using a -4.00 D lens when only -0.20 D is needed would make the boy effectively very nearsighted, with a new far point of only 25 cm!
 
 </div>
 </div>

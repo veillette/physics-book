@@ -387,6 +387,52 @@ A microscope with an overall magnification of 800 has an objective that magnifie
  eyepiece (one that produces a magnification of 8.00) is used?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the thin lens equation to find the image distance, then calculate the magnification using $$m_o = -\frac{d_i}{d_o}$$. For part (b), the overall magnification is the product of the objective and eyepiece magnifications: $$m = m_o \times m_e$$.
+
+**Solution**
+
+Given values:
+- Objective focal length: $$f_o = 0.150 \text{ cm}$$
+- Object distance: $$d_o = 0.155 \text{ cm}$$
+- Eyepiece magnification: $$m_e = 8.00$$
+
+**(a)** First, find the image distance using the thin lens equation:
+
+<div class="equation">
+ $$\frac{1}{d_i} = \frac{1}{f_o} - \frac{1}{d_o} = \frac{1}{0.150 \text{ cm}} - \frac{1}{0.155 \text{ cm}}$$
+</div>
+
+<div class="equation">
+ $$\frac{1}{d_i} = 6.667 \text{ cm}^{-1} - 6.452 \text{ cm}^{-1} = 0.215 \text{ cm}^{-1}$$
+</div>
+
+<div class="equation">
+ $$d_i = \frac{1}{0.215 \text{ cm}^{-1}} = 4.65 \text{ cm}$$
+</div>
+
+Now calculate the magnification:
+
+<div class="equation">
+ $$m_o = -\frac{d_i}{d_o} = -\frac{4.65 \text{ cm}}{0.155 \text{ cm}} = -30.0$$
+</div>
+
+**(b)** The overall magnification:
+
+<div class="equation">
+ $$m = m_o \times m_e = (-30.0)(8.00) = -240$$
+</div>
+
+**Discussion**
+
+Part (a): The objective produces a magnification of -30.0, meaning the intermediate image is 30 times larger than the object and inverted (indicated by the negative sign). The object is placed just slightly beyond the focal length (0.155 cm vs. 0.150 cm), which produces a real, inverted, and greatly magnified image at 4.65 cm from the objective.
+
+Part (b): The overall magnification of -240 is substantial and typical for compound microscopes. The negative sign indicates the final image is inverted relative to the object, which is expected since the objective creates an inverted image and the eyepiece (acting as a magnifier) preserves this orientation. This magnification would be suitable for viewing cellular structures and other microscopic details. The combination of a high-power objective (30×) with a moderate eyepiece (8×) provides good resolution and field of view for detailed microscopic examination.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -408,6 +454,43 @@ A microscope with an overall magnification of 800 has an objective that magnifie
 You switch from a  $$1.40\text{NA} 60× $$
  oil immersion objective to a  $$1.40\text{NA} 60× $$
  oil immersion objective. What are the acceptance angles for each? Compare and comment on the values. Which would you use first to locate the target area on your specimen?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The numerical aperture is related to the acceptance angle by $$\text{NA} = n \sin \alpha$$, where $$\alpha = \theta/2$$ and $$\theta$$ is the full acceptance angle. We solve for $$\alpha$$ and then find $$\theta$$ for each objective. Note: The problem statement appears to list identical objectives, so both will have the same acceptance angle.
+
+**Solution**
+
+Given values:
+- Both objectives: $$\text{NA} = 1.40$$, magnification = 60×
+- For oil immersion: $$n = 1.51$$ (refractive index of immersion oil)
+
+Calculate the half-angle $$\alpha$$:
+
+<div class="equation">
+ $$\sin \alpha = \frac{\text{NA}}{n} = \frac{1.40}{1.51} = 0.927$$
+</div>
+
+<div class="equation">
+ $$\alpha = \arcsin(0.927) = 68.0°$$
+</div>
+
+The full acceptance angle:
+
+<div class="equation">
+ $$\theta = 2\alpha = 2(68.0°) = 136°$$
+</div>
+
+**Discussion**
+
+Since both objectives listed in the problem have identical specifications (1.40 NA, 60×), they have the same acceptance angle of 136°. This is an extremely wide acceptance angle, which is one of the key advantages of oil immersion objectives. The large acceptance angle allows the objective to gather light from a very wide cone, significantly improving resolution and light-gathering ability.
+
+Regarding which to use first: Since both objectives are identical, the question may have a typo. Typically, one would compare objectives of different magnifications or numerical apertures. In general microscopy practice, you should **always use the lower magnification objective first** to locate the target area on your specimen. This provides a wider field of view, making it easier to find and center the region of interest before switching to higher magnification objectives. A common progression would be 4× → 10× → 40× → 100× (oil immersion).
+
+The 1.40 NA represents near the maximum achievable numerical aperture for optical microscopy, providing exceptional resolution for viewing fine cellular details, bacteria, and subcellular structures. The wide acceptance angle of 136° is only achievable through oil immersion, which minimizes refraction at the coverslip-objective interface.
 
 </div>
 </div>
@@ -438,6 +521,61 @@ You are using a standard microscope with a  $$0.10\text{NA} 4× $$
  objective. What are the acceptance angles for each? Compare and comment on the values. Which would you use first to locate the target area on of your specimen? (See [[Figure 3]](#Figure3).)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the relationship $$\text{NA} = n \sin \alpha$$ to find the half-angle $$\alpha$$, then calculate the full acceptance angle $$\theta = 2\alpha$$ for each objective. For air objectives, $$n = 1.00$$. We compare the angles and determine which objective provides a wider field of view for locating specimens.
+
+**Solution**
+
+Given values:
+- Low-power objective: $$\text{NA}_1 = 0.10$$, magnification = 4×
+- High-power objective: $$\text{NA}_2 = 0.65$$, magnification = 40×
+- Medium: air, so $$n = 1.00$$
+
+**For the 0.10 NA, 4× objective:**
+
+<div class="equation">
+ $$\sin \alpha_1 = \frac{\text{NA}_1}{n} = \frac{0.10}{1.00} = 0.10$$
+</div>
+
+<div class="equation">
+ $$\alpha_1 = \arcsin(0.10) = 5.74°$$
+</div>
+
+<div class="equation">
+ $$\theta_1 = 2\alpha_1 = 2(5.74°) = 11.5°$$
+</div>
+
+**For the 0.65 NA, 40× objective:**
+
+<div class="equation">
+ $$\sin \alpha_2 = \frac{\text{NA}_2}{n} = \frac{0.65}{1.00} = 0.65$$
+</div>
+
+<div class="equation">
+ $$\alpha_2 = \arcsin(0.65) = 40.5°$$
+</div>
+
+<div class="equation">
+ $$\theta_2 = 2\alpha_2 = 2(40.5°) = 81.0°$$
+</div>
+
+**Discussion**
+
+The acceptance angles are dramatically different: 11.5° for the 4× objective versus 81.0° for the 40× objective—a factor of 7 difference. Despite the higher magnification objective having a much larger acceptance angle, you should **use the 4× objective first** to locate the target area on your specimen.
+
+Here's why: While the 40× objective has a larger acceptance angle (better light gathering and resolution), it also has a much smaller field of view due to its 10-fold higher magnification. The 4× objective provides a wide field of view, allowing you to:
+1. Quickly scan the specimen to find the region of interest
+2. See the overall context and structure
+3. Navigate to specific features more easily
+
+Once you've located and centered your target area with the 4× objective, you can switch to the 40× objective for detailed examination. The 40×'s larger NA (0.65 vs. 0.10) and wider acceptance angle give it much better resolution—it can resolve details about 6.5 times smaller than the 4× objective.
+
+This progressive approach (low magnification → high magnification) is standard microscopy practice. Trying to locate a specimen at 40× magnification is like trying to find a house by looking through a telescope instead of using a map—you'll have great detail once you find it, but finding it in the first place is much harder!
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -448,6 +586,60 @@ Your friends show you an image through a microscope. They tell you that the
 microscope has an objective with a 0.500 cm focal length and an eyepiece with a
 5.00 cm focal length. The resulting overall magnification is 250 000. Are these
 viable values for a microscope?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We assess whether a magnification of 250,000 is achievable with the given focal lengths. For a compound microscope, the overall magnification $$m = m_o \times m_e$$. We need to determine what magnifications the objective and eyepiece would need to produce individually, and whether these are realistic for optical microscopes.
+
+**Solution**
+
+Given values:
+- Objective focal length: $$f_o = 0.500 \text{ cm} = 5.00 \text{ mm}$$
+- Eyepiece focal length: $$f_e = 5.00 \text{ cm} = 50.0 \text{ mm}$$
+- Claimed overall magnification: $$m = 250,000$$
+
+Typical objective magnification for this focal length:
+A 5 mm focal length objective typically produces about 40× to 50× magnification. Let's generously assume it produces 100× magnification.
+
+Typical eyepiece magnification:
+An eyepiece with 50 mm focal length typically produces about 5× magnification (eyepiece magnification $$\approx 250 \text{ mm}/f_e$$).
+
+Realistic overall magnification:
+
+<div class="equation">
+ $$m_{\text{realistic}} = m_o \times m_e \approx (100)(5) = 500$$
+</div>
+
+To achieve 250,000× magnification:
+
+<div class="equation">
+ $$m_o \times m_e = 250,000$$
+</div>
+
+If $$m_e = 5$$, then:
+
+<div class="equation">
+ $$m_o = \frac{250,000}{5} = 50,000$$
+</div>
+
+This would require the objective to produce a 50,000× magnification—utterly impossible for a 5 mm focal length objective lens!
+
+**Discussion**
+
+No, these are **not** viable values for a microscope. A magnification of 250,000 is unreasonable for an optical microscope with these specifications. Here's why:
+
+1. **Optical microscope limits**: Conventional optical microscopes are fundamentally limited to about 1,500× maximum useful magnification due to the wave nature of light. Beyond this, you get "empty magnification"—the image gets bigger but reveals no additional detail due to diffraction limits.
+
+2. **Required objective magnification**: To achieve 250,000× overall magnification with a 5× eyepiece would require a 50,000× objective—this is physically impossible with visible light optics.
+
+3. **What's actually possible**: With a 0.500 cm focal length objective (typically 40-100×) and a 5.00 cm focal length eyepiece (typically 5×), the realistic overall magnification would be 200× to 500×—about 500 to 1,250 times less than claimed!
+
+4. **Resolution limits**: Even if you could magnify 250,000×, the Rayleigh criterion limits resolution to about λ/(2NA) ≈ 200 nm for optical microscopes. Magnifying beyond the resolution limit just makes a blurry image bigger without revealing more detail.
+
+The claim of 250,000× magnification suggests either a misunderstanding, a typo (perhaps meant 250×?), or confusion with electron microscopes, which *can* achieve such magnifications. For this magnification with optical systems, you would need an electron microscope, not a compound light microscope!
 
 </div>
 </div>
