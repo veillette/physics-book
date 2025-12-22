@@ -284,6 +284,61 @@ Repeat [Example 1](#example1) in which the disk strikes and adheres to the stick
 Repeat [Example 1](#example1) in which the disk originally spins clockwise at 1000 rpm and has a radius of 1.50 cm.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is similar to Example 1, but now the disk has initial angular momentum from spinning before it strikes the stick. We must add the disk's spin angular momentum to its orbital angular momentum about the pivot point.
+
+**Solution**
+
+From Example 1: disk mass m = 0.0500 kg, stick mass M = 2.00 kg, stick length r = 1.20 m, disk velocity v = 30.0 m/s.
+
+New information: disk radius R = 1.50 cm = 0.0150 m, initial spin ω₀ = 1000 rpm
+
+Convert disk's spin to rad/s:
+
+<div class="equation">
+$$ \omega_0 = 1000 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \s} = 105 \text{ rad/s} $$
+</div>
+
+Initial angular momentum has two parts:
+
+**Orbital** (disk moving toward stick):
+
+<div class="equation">
+$$ L_{\text{orbital}} = mvr = (0.0500 \kg)(30.0 \text{ m/s})(1.20 \m) = 1.80 \kg \cdot \mms $$
+</div>
+
+**Spin** (disk rotating about its own axis, treating as a disk):
+
+<div class="equation">
+$$ I_{\text{disk}} = \frac{1}{2}mR^2 = \frac{1}{2}(0.0500 \kg)(0.0150 \m)^2 = 5.625 \times 10^{-6} \kg \cdot \mm $$
+</div>
+
+Since the disk spins clockwise (negative direction):
+
+<div class="equation">
+$$ L_{\text{spin}} = -I_{\text{disk}}\omega_0 = -(5.625 \times 10^{-6})(105) = -5.91 \times 10^{-4} \kg \cdot \mms $$
+</div>
+
+Total initial angular momentum:
+
+<div class="equation">
+$$ L = L_{\text{orbital}} + L_{\text{spin}} = 1.80 - 0.000591 \approx 1.80 \kg \cdot \mms $$
+</div>
+
+The spin contribution is negligible (0.03%), so the final result is essentially the same as Example 1:
+
+<div class="equation">
+$$ \omega' = \frac{L}{I'} = \frac{1.80}{1.032} = 1.74 \text{ rad/s} $$
+</div>
+
+**Discussion**
+
+Even though the disk spins at 1000 rpm, its small radius means its spin angular momentum is negligible compared to its orbital angular momentum. The final answer is virtually identical to Example 1. This demonstrates that for small objects, translational motion typically dominates over rotational effects.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -321,6 +376,84 @@ remains in his geometrical center.
 
 ![Figure a shows a skater through an overhead view with both his hands outstretched. A ball is seen approaching toward him in air with velocity v. Figure b shows that skater catching two balls in his left hand, and then, recoiling toward the left, in clockwise direction, with angular velocity omega and finally, the balls have velocity v prime.](../resources/Figure_10_06_05.jpg 'The figure shows the overhead view of a person standing motionless on ice about to catch a ball. Both arms are outstretched. After catching the ball, the skater recoils and rotates.')
 {: #Figure5}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use linear momentum conservation. For part (b), we use angular momentum conservation about the person's center of mass. For part (c), we compare initial and final kinetic energies.
+
+**Solution**
+
+**(a)** Linear momentum conservation:
+
+<div class="equation">
+$$ m_{\text{ball}}v_{\text{ball}} = (m_{\text{ball}} + m_{\text{person}})v' $$
+</div>
+
+<div class="equation">
+$$ v' = \frac{m_{\text{ball}}v_{\text{ball}}}{m_{\text{ball}} + m_{\text{person}}} = \frac{(0.250 \kg)(15.0 \text{ m/s})}{0.250 + 70.0} = \frac{3.75}{70.25} = 0.0534 \text{ m/s} $$
+</div>
+
+**(b)** For angular momentum, assume the ball is caught at arm's length (0.900 m from center).
+
+Initial angular momentum (ball only):
+
+<div class="equation">
+$$ L = m_{\text{ball}}v_{\text{ball}}r = (0.250 \kg)(15.0 \text{ m/s})(0.900 \m) = 3.375 \kg \cdot \mms $$
+</div>
+
+Moment of inertia of the system after catching:
+
+Body (cylinder, mass = 70 - 2(5) = 60 kg):
+<div class="equation">
+$$ I_{\text{body}} = \frac{1}{2}M_{\text{body}}R^2 = \frac{1}{2}(60 \kg)(0.180 \m)^2 = 0.972 \kg \cdot \mm $$
+</div>
+
+Two arms (rods rotating about center):
+<div class="equation">
+$$ I_{\text{arms}} = 2 \times \frac{1}{3}m_{\text{arm}}L^2 = 2 \times \frac{1}{3}(5.00 \kg)(0.900 \m)^2 = 2.70 \kg \cdot \mm $$
+</div>
+
+Ball (point mass at r = 0.900 m):
+<div class="equation">
+$$ I_{\text{ball}} = m_{\text{ball}}r^2 = (0.250 \kg)(0.900 \m)^2 = 0.203 \kg \cdot \mm $$
+</div>
+
+Total moment of inertia:
+<div class="equation">
+$$ I_{\text{total}} = 0.972 + 2.70 + 0.203 = 3.875 \kg \cdot \mm $$
+</div>
+
+Angular velocity:
+<div class="equation">
+$$ \omega = \frac{L}{I_{\text{total}}} = \frac{3.375 \kg \cdot \mms}{3.875 \kg \cdot \mm} = 0.871 \text{ rad/s} $$
+</div>
+
+**(c)** Initial kinetic energy (ball only):
+
+<div class="equation">
+$$ KE_i = \frac{1}{2}m_{\text{ball}}v_{\text{ball}}^2 = \frac{1}{2}(0.250 \kg)(15.0 \text{ m/s})^2 = 28.1 \J $$
+</div>
+
+Final kinetic energy (translational + rotational):
+
+<div class="equation">
+$$ KE_{\text{trans}} = \frac{1}{2}(m_{\text{ball}} + m_{\text{person}})v'^2 = \frac{1}{2}(70.25 \kg)(0.0534 \text{ m/s})^2 = 0.100 \J $$
+</div>
+
+<div class="equation">
+$$ KE_{\text{rot}} = \frac{1}{2}I_{\text{total}}\omega^2 = \frac{1}{2}(3.875 \kg \cdot \mm)(0.871 \text{ rad/s})^2 = 1.47 \J $$
+</div>
+
+<div class="equation">
+$$ KE_f = 0.100 + 1.47 = 1.57 \J $$
+</div>
+
+**Discussion**
+
+Most of the initial kinetic energy (28.1 - 1.57 = 26.5 J, or 94%) is lost in this inelastic collision. The person acquires a small linear velocity (5.34 cm/s) and rotates at 0.871 rad/s. The energy loss goes into deformation, sound, and heat during the catch.
 
 </div>
 </div>
