@@ -351,10 +351,48 @@ large spring bumper at the end of its track. What is the force constant $$ k $$
 of the spring?
 
 </div>
-<div class="solution">
+<div class="solution" markdown="1">
+**Strategy**
+
+The kinetic energy of the moving train is converted entirely into elastic potential energy stored in the spring when the train comes to rest. Use conservation of energy: $$ \frac{1}{2}mv^2 = \frac{1}{2}kx^2 $$.
+
+**Solution**
+
+**Given:**
+- Train mass: $$ m = 5.00 \times 10^{5}\text{ kg} $$
+- Initial speed: $$ v = 0.500\ms $$
+- Spring compression: $$ x = 0.400\text{ m} $$
+
+Apply conservation of energy (kinetic energy → spring potential energy):
+
 <div class="equation">
- $$ 7.81\times 10^{5}\text{N/m} $$
+$$ \frac{1}{2}mv^2 = \frac{1}{2}kx^2 $$
 </div>
+
+Solve for the spring constant $$ k $$:
+
+<div class="equation">
+$$ k = \frac{mv^2}{x^2} $$
+</div>
+
+Substitute the values:
+
+<div class="equation">
+$$ k = \frac{(5.00 \times 10^{5}\text{ kg})(0.500\ms)^2}{(0.400\text{ m})^2} $$
+</div>
+
+<div class="equation">
+$$ k = \frac{(5.00 \times 10^{5})(0.250)}{0.160} = \frac{1.25 \times 10^{5}}{0.160} = 7.81 \times 10^{5}\text{ N/m} $$
+</div>
+
+**Discussion**
+
+The spring constant of $$ 7.81 \times 10^{5} $$ N/m is quite large, which is necessary to stop such a massive train. To put this in perspective, a typical car suspension spring might have a spring constant of about 50,000 N/m, so this subway bumper spring is about 16 times stiffer. The relatively slow speed (0.500 m/s, about walking pace) and short stopping distance (0.400 m) require this very stiff spring. This design demonstrates how energy methods simplify calculations - we didn't need to analyze the forces at each instant, just the initial and final states.
+
+**Answer**
+
+The spring constant is $$ k = 7.81 \times 10^{5}\text{ N/m} $$.
+
 </div>
 </div>
 
