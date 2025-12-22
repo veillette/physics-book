@@ -550,8 +550,29 @@ Explain why a building made of bricks has smaller entropy than the same bricks i
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 9.78 \times 10^{4}  \text{J/K} $$
-(b) In order to gain more energy, we must generate it from things within the house, like a heat pump, human bodies, and other appliances. As you know, we use a lot of energy to keep our houses warm in the winter because of the loss of heat to the outside.
+
+**Strategy**
+
+Calculate entropy change for both house (losing heat) and outside (gaining heat) using $$\Delta S = \frac{Q}{T}$$. Total entropy change is the sum.
+
+**Solution**
+
+Given: $$Q = 5.00 \times 10^{8} \text{ J}$$, $$T_{in} = 21.0°\text{C} = 294 \text{ K}$$, $$T_{out} = 5.00°\text{C} = 278 \text{ K}$$
+
+**(a)** Entropy decrease of house:
+$$\Delta S_{in} = -\frac{Q}{T_{in}} = -\frac{5.00 \times 10^{8}}{294} = -1.70 \times 10^{6} \text{ J/K}$$
+
+Entropy increase of outside:
+$$\Delta S_{out} = \frac{Q}{T_{out}} = \frac{5.00 \times 10^{8}}{278} = 1.80 \times 10^{6} \text{ J/K}$$
+
+Total entropy change:
+$$\Delta S_{total} = -1.70 \times 10^{6} + 1.80 \times 10^{6} = 9.78 \times 10^{4} \text{ J/K}$$
+
+**(b)** We generate energy from furnaces, heat pumps, and appliances within the house. This large entropy increase shows significant energy becomes unavailable for work.
+
+**Discussion**
+
+The positive total entropy change (97,800 J/K) confirms this is an irreversible process. Though the house loses energy, the outside gains more entropy than the house loses due to lower temperature. This unavailable energy represents why heating is expensive—we must continuously supply energy to counteract heat loss.
 
 </div>
 </div>
@@ -564,6 +585,27 @@ On a hot summer day,  $$ 4.00 \times 10^{6}  \text{J} $$
  What is the increase in entropy of the car due to this heat transfer alone?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For variable temperature process, use average temperature: $$T_{avg} = \frac{T_1 + T_2}{2}$$. Then $$\Delta S = \frac{Q}{T_{avg}}$$.
+
+**Solution**
+
+Given: $$Q = 4.00 \times 10^{6} \text{ J}$$, $$T_1 = 35.0°\text{C} = 308 \text{ K}$$, $$T_2 = 45.0°\text{C} = 318 \text{ K}$$
+
+Average temperature:
+$$T_{avg} = \frac{308 + 318}{2} = 313 \text{ K}$$
+
+Entropy increase:
+$$\Delta S = \frac{Q}{T_{avg}} = \frac{4.00 \times 10^{6}}{313} = 1.28 \times 10^{4} \text{ J/K}$$
+
+**Discussion**
+
+The car's entropy increases by 12,800 J/K as it heats. This represents increased molecular disorder at higher temperature. The irreversible heating makes this energy less useful for work.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -574,7 +616,21 @@ A hot rock ejected from a volcano’s lava fountain cools from  $$1100 \text{ºC
 
 </div>
 <div class="solution" markdown="1">
- $$ 8.01 \times 10^{5}  \text{J} $$
+
+**Strategy**
+
+Use $$\Delta S = \frac{Q}{T_{avg}}$$ and solve for Q. Average temperature: $$T_{avg} = \frac{1373 + 313}{2} = 843 \text{ K}$$.
+
+**Solution**
+
+$$Q = \Delta S \times T_{avg} = (-950)(843) = -8.01 \times 10^{5} \text{ J}$$
+
+The negative sign indicates heat leaves the rock.
+
+**Discussion**
+
+The rock releases 801 kJ as it cools. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
+
 </div>
 </div>
 
@@ -583,6 +639,23 @@ A hot rock ejected from a volcano’s lava fountain cools from  $$1100 \text{ºC
 When  $$ 1.60 \times 10^{5}  \text{J} $$
  of heat transfer occurs into a meat pie initially at  $$20.0 \text{ºC} $$ ,
  its entropy increases by 480 J/K. What is its final temperature?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$\Delta S = \frac{Q}{T_{avg}}$$ to find $$T_{avg}$$, then $$T_f = 2T_{avg} - T_i$$.
+
+**Solution**
+
+$$T_{avg} = \frac{Q}{\Delta S} = \frac{1.60 \times 10^{5}}{480} = 333 \text{ K}$$
+
+$$T_f = 2(333) - 293 = 373 \text{ K} = 100°\text{C}$$
+
+**Discussion**
+
+The pie heats to 100°C (boiling point), reasonable for cooking. The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
 
 </div>
 </div>
@@ -609,6 +682,27 @@ The Sun radiates energy at the rate of  $$ 3.80 \times 10^{26}  \text{W} $$
  Explicitly show how you follow the steps in the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpretationOfEntropy#Note1).
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Final equilibrium T is 30°C (average). Use $$Q = mc\Delta T$$ for heat transfer, $$\Delta S = mc\ln\frac{T_f}{T_i}$$ for entropy, unavailable work = $$T_C\Delta S$$.
+
+**Solution**
+
+**(a)** $$Q = (1.00)(4186)(10.0) = 4.19 \times 10^{4} \text{ J}$$
+
+**(b)** Hot water: $$\Delta S_h = (1.00)(4186)\ln\frac{303}{313} = -136 \text{ J/K}$$
+Cold water: $$\Delta S_c = (1.00)(4186)\ln\frac{303}{293} = 141 \text{ J/K}$$
+Total: $$\Delta S = 5 \text{ J/K}$$
+
+**(c)** $$W_{unavail} = (293)(5) = 1465 \text{ J}$$
+
+**Discussion**
+
+The positive entropy change (5 J/K) confirms irreversibility. About 1.5 kJ becomes unavailable for work—this is the "cost" of irreversible mixing.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -618,7 +712,18 @@ What is the decrease in entropy of 25.0 g of water that condenses on a bathroom 
 
 </div>
 <div class="solution" markdown="1">
-199 J/K
+
+**Strategy**
+
+For phase change at constant T: $$\Delta S = -\frac{mL_v}{T}$$ (negative for condensation).
+
+**Solution**
+
+$$\Delta S = -\frac{(0.025)(2.45 \times 10^{6})}{308} = -199 \text{ J/K}$$
+
+**Discussion**
+
+Entropy decreases by 199 J/K as water vapor becomes liquid—a more ordered state. The environment's entropy increases more, making total entropy positive.
 
 </div>
 </div>
@@ -627,6 +732,25 @@ What is the decrease in entropy of 25.0 g of water that condenses on a bathroom 
 <div class="problem" markdown="1">
 Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its boiling temperature, boils, and warms to  $$20.0 \text{ºC} $$
  at constant pressure.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Two stages: (1) boiling at -196°C: $$\Delta S_1 = \frac{mL_v}{T_b}$$; (2) warming gas: $$\Delta S_2 = mc_p\ln\frac{T_f}{T_b}$$. Use $$L_v = 2.0 \times 10^{5} \text{ J/kg}$$, $$c_p = 1040 \text{ J/(kg·K)}$$.
+
+**Solution**
+
+$$\Delta S_1 = \frac{(1.00)(2.0 \times 10^{5})}{77} = 2597 \text{ J/K}$$
+
+$$\Delta S_2 = (1.00)(1040)\ln\frac{293}{77} = 1340 \text{ J/K}$$
+
+$$\Delta S_{total} = 2597 + 1340 = 3937 \text{ J/K} \approx 3.94 \times 10^{3} \text{ J/K}$$
+
+**Discussion**
+
+Most entropy increase (66%) comes from phase change, reflecting the dramatic disorder increase from liquid to gas.
 
 </div>
 </div>
@@ -661,8 +785,35 @@ A large electrical power station generates 1000 MW of electricity with an effici
  (c) What increase in entropy is produced by mixing 20.0 kg of  $$90.0 \text{ºC} $$
  water with 20.0 kg of  $$10.0 \text{ºC} $$
  water? (d) Calculate the amount of work made unavailable by this mixing using a low temperature of  $$10.0 \text{ºC} $$ ,
- and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in 
+ and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in
 the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpretationOfEntropy#Note1). (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) $$Q = mc\Delta T$$. (b) Carnot work: $$W_C = \eta_C Q_h = (1-\frac{283}{363})(Q)$$. (c) $$\Delta S = mc\ln\frac{T_f}{T_i}$$ for each. (d) Unavailable work = $$T_C \Delta S$$. (e) Discuss irreversibility.
+
+**Solution**
+
+**(a)** $$Q = (20.0)(4186)(40.0) = 3.35 \times 10^{6} \text{ J}$$
+
+**(b)** $$\eta_C = 1 - \frac{283}{363} = 0.220$$
+$$W_C = 0.220 \times 3.35 \times 10^{6} = 7.37 \times 10^{5} \text{ J}$$
+
+**(c)** Hot: $$\Delta S_h = (20)(4186)\ln\frac{323}{363} = -9,610 \text{ J/K}$$
+Cold: $$\Delta S_c = (20)(4186)\ln\frac{323}{283} = 10,860 \text{ J/K}$$
+Total: $$\Delta S = 1,250 \text{ J/K}$$
+
+**(d)** $$W_{unavail} = (283)(1250) = 3.54 \times 10^{5} \text{ J}$$
+This is 48% of the Carnot work, showing significant work loss from irreversible mixing.
+
+**(e)** Everyday processes like mixing hot and cold water permanently degrade energy quality. The 354 kJ that becomes unavailable represents the "cost" of irreversibility—energy that could have done work if we'd used a heat engine instead of direct mixing.
+
+**Discussion**
+
+This problem powerfully illustrates entropy's practical meaning: irreversible processes destroy work potential. The 1,250 J/K entropy increase makes 354 kJ unavailable—nearly half what a Carnot engine could extract. This is why engineers carefully manage heat flows in power plants.
 
 </div>
 </div>
