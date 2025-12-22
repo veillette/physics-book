@@ -168,7 +168,43 @@ What is the angular magnification of a telescope that has a 100 cm focal length 
 
 </div>
 <div class="solution" markdown="1">
- $$- 40.0 $$
+
+**Strategy**
+
+The angular magnification of a telescope is given by $$M = -\frac{f_o}{f_e}$$, where $$f_o$$ is the objective focal length and $$f_e$$ is the eyepiece focal length. The negative sign indicates an inverted final image, which is typical for astronomical telescopes.
+
+**Solution**
+
+Given values:
+- Objective focal length: $$f_o = 100 \text{ cm}$$
+- Eyepiece focal length: $$f_e = 2.50 \text{ cm}$$
+
+Using the angular magnification formula:
+
+<div class="equation">
+ $$M = -\frac{f_o}{f_e} = -\frac{100 \text{ cm}}{2.50 \text{ cm}}$$
+</div>
+
+<div class="equation">
+ $$M = -40.0$$
+</div>
+
+**Discussion**
+
+The telescope has an angular magnification of -40.0, meaning objects appear 40 times larger (in angular size) than when viewed with the naked eye. The negative sign indicates the image is inverted, which is standard for simple two-lens astronomical telescopes (Keplerian design).
+
+This is a substantial magnification suitable for serious amateur astronomy. With 40× magnification:
+- The Moon appears 40 times larger in diameter (filling much of the field of view)
+- Jupiter's cloud bands become clearly visible
+- Saturn's rings are easily resolved
+- Many deep-sky objects (nebulae, galaxies) become observable
+
+The combination of a long focal length objective (100 cm) and short focal length eyepiece (2.50 cm) is what produces this high magnification. The 100 cm focal length makes this a reasonably long telescope (over 1 meter tube length), but still portable for amateur use.
+
+For terrestrial viewing where an upright image is desired, a third lens (erecting lens) would need to be added to reinvert the image. However, for astronomical observations, the inverted image is not a concern since there's no inherent "up" or "down" in space. Professional astronomers routinely work with inverted images.
+
+This magnification represents a good balance: high enough for detailed observation but not so high that atmospheric turbulence ("seeing") significantly degrades the image quality. Beyond about 50-60× magnification, atmospheric effects often limit what can be seen, regardless of the telescope's optical quality.
+
 </div>
 </div>
 
@@ -214,7 +250,48 @@ A large reflecting telescope has an objective mirror with a  $$ 10.0 \text{m} $$
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ -1.67 $$
+
+**Strategy**
+
+For a concave mirror, the focal length is $$f_o = R/2$$ where $$R$$ is the radius of curvature. The angular magnification of a telescope is $$M = -\frac{f_o}{f_e}$$.
+
+**Solution**
+
+Given values:
+- Mirror radius of curvature: $$R = 10.0 \text{ m}$$
+- Eyepiece focal length: $$f_e = 3.00 \text{ m}$$
+
+Calculate the objective (mirror) focal length:
+
+<div class="equation">
+ $$f_o = \frac{R}{2} = \frac{10.0 \text{ m}}{2} = 5.00 \text{ m}$$
+</div>
+
+Calculate the angular magnification:
+
+<div class="equation">
+ $$M = -\frac{f_o}{f_e} = -\frac{5.00 \text{ m}}{3.00 \text{ m}} = -1.67$$
+</div>
+
+**Discussion**
+
+This large reflecting telescope has a modest angular magnification of only -1.67. This may seem surprisingly low for such a large instrument, but this is actually by design for certain applications.
+
+The extremely long eyepiece focal length (3.00 m = 300 cm) is unusual—most eyepieces have focal lengths of 1-5 cm. This ultra-long focal length eyepiece produces minimal magnification but offers several advantages:
+1. **Wide field of view**: Essential for survey telescopes that map large areas of sky
+2. **Bright images**: Lower magnification concentrates light, making faint extended objects (nebulae, galaxies) easier to see
+3. **Easier alignment and tracking**: Less magnification means less sensitivity to vibration and tracking errors
+
+This configuration is characteristic of:
+- **Schmidt cameras** used for photographic sky surveys
+- **Wide-field survey telescopes** searching for asteroids, comets, or supernovae
+- **Astrograph telescopes** designed for astrophotography rather than visual observation
+
+For comparison, changing to a more typical 25 mm (0.025 m) eyepiece would give:
+$$M = -5.00/0.025 = -200$$, which is more typical for visual astronomy.
+
+The negative sign indicates an inverted image. For reflecting telescopes, additional mirrors are often used to fold the light path and make the telescope more compact, which can also affect image orientation. The 5.00 m focal length with 10.0 m radius of curvature follows the mirror equation perfectly, confirming this is a spherical or parabolic primary mirror typical of large research telescopes.
+
 </div>
 </div>
 
@@ -294,7 +371,58 @@ A  $$7.5× $$
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$+10.0 \text{cm} $$
+
+**Strategy**
+
+The angular magnification of a telescope is $$M = -\frac{f_o}{f_e}$$. Given $$M = -7.50$$ and $$f_o = 75.0$$ cm, we solve for the eyepiece focal length $$f_e$$.
+
+**Solution**
+
+Given values:
+- Angular magnification: $$M = -7.50$$
+- Objective focal length: $$f_o = 75.0 \text{ cm}$$
+
+Using the magnification equation:
+
+<div class="equation">
+ $$M = -\frac{f_o}{f_e}$$
+</div>
+
+Rearranging to solve for $$f_e$$:
+
+<div class="equation">
+ $$f_e = -\frac{f_o}{M} = -\frac{75.0 \text{ cm}}{-7.50} = 10.0 \text{ cm}$$
+</div>
+
+**Discussion**
+
+The eyepiece lenses have a focal length of +10.0 cm. The positive focal length indicates convex (converging) lenses, which is standard for binocular eyepieces.
+
+This binocular configuration is typical for quality optics:
+- **7.5× magnification**: A good balance between magnification and field of view, suitable for general observation, wildlife viewing, and sports events
+- **75 cm objective**: Quite long, suggesting these are high-quality binoculars with excellent light-gathering capability
+- **10 cm eyepiece**: Standard focal length providing comfortable viewing
+
+The problem states mirrors are used to make the image upright. In standard binoculars, the optical path includes:
+1. Objective lens creates inverted real image (as in a telescope)
+2. Prism system (typically Porro prisms or roof prisms) uses multiple internal reflections to:
+   - Reinvert the image to make it upright
+   - Fold the optical path to make binoculars more compact
+   - Separate the objectives for stereoscopic (3D) viewing
+
+The mathematical magnification is -7.50, but the actual viewed image is upright due to the prism system, giving an effective +7.5× magnification for the user.
+
+Binocular specifications are commonly written as "7.5×50" where:
+- First number (7.5): magnification
+- Second number (50 typically): objective diameter in mm
+
+The 75 cm focal length with standard 50 mm objectives would make these rather large binoculars, possibly:
+- Astronomical binoculars for stargazing
+- Marine binoculars for ship navigation
+- Long-range surveillance binoculars
+
+The 10 cm eyepiece focal length is quite generous, contributing to a comfortable eye relief (distance from eye to eyepiece) and wide apparent field of view.
+
 </div>
 </div>
 

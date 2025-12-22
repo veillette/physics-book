@@ -280,7 +280,41 @@ What is the power of the eye when viewing an object 50.0 cm away?
 
 </div>
 <div class="solution" markdown="1">
- $$52.0 \text{D} $$
+
+**Strategy**
+
+To find the power of the eye when viewing an object at 50.0 cm, we use the thin lens equation in power form: $$P = \frac{1}{d_o} + \frac{1}{d_i}$$. The object distance is given as $$d_o = 50.0$$ cm, and the image distance (lens-to-retina distance) is $$d_i = 2.00$$ cm. We must convert both distances to meters since power is measured in diopters (D), where $$1 \text{ D} = 1 \text{ m}^{-1}$$.
+
+**Solution**
+
+Given values:
+- Object distance: $$d_o = 50.0 \text{ cm} = 0.500 \text{ m}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+
+Using the power equation:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i}$$
+</div>
+
+Substituting the known values:
+
+<div class="equation">
+ $$P = \frac{1}{0.500 \text{ m}} + \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P = 2.00 \text{ D} + 50.0 \text{ D}$$
+</div>
+
+<div class="equation">
+ $$P = 52.0 \text{ D}$$
+</div>
+
+**Discussion**
+
+The power of the eye when viewing an object 50.0 cm away is 52.0 D. This represents a 2.0 D increase over the relaxed eye power of 50.0 D (for distant vision at infinity). This 2.0 D of accommodation is well within the normal range—a typical young adult can accommodate up to 4.0 D. The calculation shows that reading at arm's length (approximately 50 cm) requires moderate accommodation. This distance is comfortable for extended reading, which is why many people naturally hold books and devices at about this distance. As people age and lose accommodation ability (presbyopia), this 50 cm distance may become the closest they can see clearly without reading glasses.
+
 </div>
 </div>
 
@@ -339,8 +373,54 @@ processing.)
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$-0.233 \text{mm} $$
-(b) The size of the rods and the cones is smaller than the image height, so we can distinguish letters on a page.
+
+**Strategy**
+
+For part (a), we use the magnification formula $$\frac{h_i}{h_o} = -\frac{d_i}{d_o}$$ to find the image height $$h_i$$ on the retina, where $$h_o = 3.50$$ mm is the object height, $$d_o = 30.0$$ cm is the object distance, and $$d_i = 2.00$$ cm is the lens-to-retina distance. For part (b), we compare the calculated image size to the typical dimensions of photoreceptors in the fovea (rods: ~2 μm diameter, cones: ~1.5-3 μm diameter in the fovea).
+
+**Solution**
+
+Given values:
+- Object height: $$h_o = 3.50 \text{ mm} = 3.50 \times 10^{-3} \text{ m}$$
+- Object distance: $$d_o = 30.0 \text{ cm} = 0.300 \text{ m}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+
+**(a)** Using the magnification equation:
+
+<div class="equation">
+ $$\frac{h_i}{h_o} = -\frac{d_i}{d_o}$$
+</div>
+
+Solving for the image height:
+
+<div class="equation">
+ $$h_i = -h_o \times \frac{d_i}{d_o} = -(3.50 \times 10^{-3} \text{ m}) \times \frac{0.0200 \text{ m}}{0.300 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$h_i = -(3.50 \times 10^{-3} \text{ m}) \times 0.0667 = -2.33 \times 10^{-4} \text{ m}$$
+</div>
+
+<div class="equation">
+ $$h_i = -0.233 \text{ mm} = -233 \text{ μm}$$
+</div>
+
+The negative sign indicates an inverted image, which is expected for the eye.
+
+**(b)** Comparison with photoreceptors:
+- Image height: 233 μm
+- Cone diameter in fovea: ~1.5-3 μm
+- Rod diameter: ~2 μm
+
+The image height (233 μm) is approximately **78-155 times larger** than the diameter of individual cones in the fovea. This means the image of a 3.50 mm letter spans about 78-155 cones, allowing excellent resolution of fine details within letters.
+
+**Discussion**
+
+Part (a): The retinal image of 3.50 mm print is 0.233 mm (233 μm) tall. Despite being a ~15-fold reduction in size, this is still quite large relative to the photoreceptors on the retina.
+
+Part (b): Since each 3.50 mm letter produces an image spanning approximately 78-155 photoreceptors, the eye can easily distinguish individual letters and even fine details within letters such as serifs, the crossbar in an "A", or the dot on an "i". Each feature of a letter might span 10-20 or more cones, providing excellent resolution.
+
+The fovea contains approximately 200,000 cones packed into a ~1.5 mm diameter area, giving exceptional acuity for central vision. The fact that the image of a single letter spans dozens of cones explains why we can read small print clearly. The eye-brain system performs even better than this simple calculation suggests due to lateral inhibition, edge detection, pattern recognition, and higher-order visual processing in the visual cortex. This is why we can sometimes read print even smaller than 3.50 mm under good lighting conditions.
 
 </div>
 </div>
@@ -420,9 +500,59 @@ ring, held at this distance?
 
 </div>
 <div class="solution"  markdown="1">
-(a)  $$+62.5 \text{D} $$
-(b)  $$-0.250 \text{mm} $$
-(c)  $$-0.0800 \text{mm} $$
+
+**Strategy**
+
+For part (a), we use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$ with $$d_o = 8.00$$ cm and $$d_i = 2.00$$ cm to find the accommodated power. For parts (b) and (c), we use the magnification equation $$\frac{h_i}{h_o} = -\frac{d_i}{d_o}$$ to calculate the retinal image size for a 1.00 mm object at different viewing distances.
+
+**Solution**
+
+Given values:
+- Near point: $$d_o = 8.00 \text{ cm} = 0.0800 \text{ m}$$
+- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+- Object size: $$h_o = 1.00 \text{ mm} = 1.00 \times 10^{-3} \text{ m}$$
+- Normal near point: $$d_{o,\text{normal}} = 25.0 \text{ cm} = 0.250 \text{ m}$$
+
+**(a)** Calculate the accommodated power:
+
+<div class="equation">
+ $$P = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.0800 \text{ m}} + \frac{1}{0.0200 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$P = 12.5 \text{ D} + 50.0 \text{ D} = 62.5 \text{ D}$$
+</div>
+
+**(b)** Calculate the image size at 8.00 cm:
+
+<div class="equation">
+ $$h_i = -h_o \times \frac{d_i}{d_o} = -(1.00 \times 10^{-3} \text{ m}) \times \frac{0.0200 \text{ m}}{0.0800 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$h_i = -(1.00 \times 10^{-3} \text{ m}) \times 0.250 = -2.50 \times 10^{-4} \text{ m} = -0.250 \text{ mm}$$
+</div>
+
+**(c)** Calculate the image size at 25.0 cm:
+
+<div class="equation">
+ $$h_i = -h_o \times \frac{d_i}{d_{o,\text{normal}}} = -(1.00 \times 10^{-3} \text{ m}) \times \frac{0.0200 \text{ m}}{0.250 \text{ m}}$$
+</div>
+
+<div class="equation">
+ $$h_i = -(1.00 \times 10^{-3} \text{ m}) \times 0.0800 = -8.00 \times 10^{-5} \text{ m} = -0.0800 \text{ mm}$$
+</div>
+
+**Discussion**
+
+Part (a): The jeweller's accommodated power of 62.5 D represents a remarkable 12.5 D of accommodation (compared to 50.0 D for distant vision). This is more than three times the typical 4.0 D accommodation of a young adult. Such exceptional near vision is developed through years of close-up work and may also involve some degree of natural myopia that, while problematic for distant vision, is advantageous for detailed close work.
+
+Part (b): At 8.00 cm, the 1.00 mm object produces a retinal image of 0.250 mm (250 μm). This is larger than typical print images and allows the jeweller to see extremely fine details like hallmarks, engravings, or imperfections in gemstones.
+
+Part (c): At the normal 25.0 cm distance, the same object would produce only a 0.0800 mm (80 μm) image—less than one-third the size. The ratio of image sizes (250 μm / 80 μm = 3.125) equals the ratio of distances (25.0 cm / 8.00 cm = 3.125), as expected from the linear magnification relationship.
+
+This problem illustrates why jewellers and others doing fine detail work benefit from exceptional near vision. The ability to work at 8.00 cm instead of 25.0 cm provides more than 3× magnification "for free" without requiring magnifying glasses. However, this extreme accommodation cannot be maintained for long periods without eye strain, which is why professional jewellers often supplement their natural vision with magnifying loupes or microscopes for extended detailed work.
+
 </div>
 </div>
 
