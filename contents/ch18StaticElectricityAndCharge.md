@@ -270,15 +270,57 @@ Common static electricity involves charges ranging from nanocoulombs to microcou
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.25 \times 10^{10}  $$
-(b)  $$ 3.13 \times 10^{12}  $$
+
+**Strategy**
+
+The fundamental charge of an electron is $$e = 1.60 \times 10^{-19} \text{C}$$. To find the number of electrons, we divide the total charge by the charge per electron. For part (a), we have a negative charge, so electrons are added. For part (b), removing electrons leaves a positive charge.
+
+**Solution**
+
+**(a)** The number of electrons needed to form $$-2.00 \text{ nC}$$:
+
+<div class="equation">
+ $$n = \frac{\mid q \mid}{\mid e \mid} = \frac{2.00 \times 10^{-9} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 1.25 \times 10^{10} \text{ electrons}$$
+</div>
+
+**(b)** The number of electrons that must be removed to leave $$+0.500 \text{ μC}$$:
+
+<div class="equation">
+ $$n = \frac{q}{\mid e \mid} = \frac{0.500 \times 10^{-6} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 3.13 \times 10^{12} \text{ electrons}$$
+</div>
+
+**Discussion**
+
+Part (a): About 12.5 billion electrons are needed to form a charge of −2.00 nC, a typical static electricity charge.
+
+Part (b): About 3.13 trillion electrons must be removed to leave a net charge of +0.500 μC. This larger charge requires removing about 250 times more electrons than in part (a), consistent with the charge being 250 times larger. These numbers show that even small static charges involve enormous numbers of electrons, yet they represent only a tiny fraction of the total electrons in a macroscopic object.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 If  $$ 1.80 \times 10^{20}  $$
- electrons move through a pocket calculator during a full day’s operation, how many coulombs of charge moved through it?
+ electrons move through a pocket calculator during a full day's operation, how many coulombs of charge moved through it?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Each electron carries a charge of $$e = -1.60 \times 10^{-19} \text{ C}$$. The total charge is the number of electrons multiplied by the charge per electron.
+
+**Solution**
+
+The total charge moved through the calculator:
+
+<div class="equation">
+ $$q = ne = (1.80 \times 10^{20})(−1.60 \times 10^{-19} \text{ C}) = -28.8 \text{ C}$$
+</div>
+
+**Discussion**
+
+The charge that moved through the calculator during a full day's operation is −28.8 C. The negative sign indicates that electrons (which carry negative charge) moved through the circuit. This is a substantial amount of charge for such a small device, but spread over an entire day (86,400 seconds), it represents a very small average current of about 0.33 milliamperes, which is reasonable for a low-power device like a calculator.
 
 </div>
 </div>
@@ -290,7 +332,22 @@ To start a car engine, the car battery moves  $$ 3.75 \times 10^{21}  $$
 
 </div>
 <div class="solution" markdown="1">
--600 C
+
+**Strategy**
+
+The charge of one electron is $$e = -1.60 \times 10^{-19} \text{ C}$$. Multiply the number of electrons by the charge per electron to find the total charge.
+
+**Solution**
+
+The total charge moved:
+
+<div class="equation">
+ $$q = ne = (3.75 \times 10^{21})(−1.60 \times 10^{-19} \text{ C}) = -600 \text{ C}$$
+</div>
+
+**Discussion**
+
+The car battery moved −600 C of charge through the starter motor. This is a very large amount of charge, which makes sense because starting a car requires a large current (often 100-200 amperes) for a few seconds. If the starter operates for 3 seconds at 200 amperes, the total charge would be $$Q = It = (200 \text{ A})(3 \text{ s}) = 600 \text{ C}$$, which matches our result. The negative sign indicates electron flow (conventional current flows in the opposite direction).
 
 </div>
 </div>
@@ -299,6 +356,25 @@ To start a car engine, the car battery moves  $$ 3.75 \times 10^{21}  $$
 <div class="problem" markdown="1">
 A certain lightning bolt moves 40.0 C of charge. How many fundamental units of charge  $$\mid {q}_{e}\mid  $$
  is this?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The fundamental unit of charge is the magnitude of the electron charge: $$\mid e \mid = 1.60 \times 10^{-19} \text{ C}$$. Divide the total charge by this fundamental unit to find how many fundamental charges are involved.
+
+**Solution**
+
+The number of fundamental charge units:
+
+<div class="equation">
+ $$n = \frac{q}{\mid e \mid} = \frac{40.0 \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 2.50 \times 10^{20} \text{ fundamental charges}$$
+</div>
+
+**Discussion**
+
+A lightning bolt moving 40.0 C of charge involves 2.50 × 10²⁰ fundamental charge units. This enormous number is consistent with the dramatic nature of lightning. The charge could be carried by this many electrons, protons, or ions, or some combination thereof. In reality, lightning involves the movement of electrons through ionized air. This result demonstrates that even though the fundamental charge is extremely small, macroscopic electrical phenomena involve truly astronomical numbers of these fundamental charges.
 
 </div>
 </div>
