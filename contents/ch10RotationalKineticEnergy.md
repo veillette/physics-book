@@ -603,6 +603,37 @@ Effect of Mass Distribution on a Merry-Go-Round](./ch10DynamicsOfRotationalMotio
 What is the final velocity of a hoop that rolls without slipping down a 5.00-m-high hill, starting from rest?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use conservation of energy. The initial potential energy converts to both translational and rotational kinetic energy. For a hoop, all mass is at radius R, so I = MR².
+
+**Solution**
+
+Conservation of energy gives:
+
+<div class="equation">
+$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 $$
+</div>
+
+For a hoop, $$ I = MR^2 $$, and with no slipping, $$ \omega = v/R $$:
+
+<div class="equation">
+$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}(MR^2)\left(\frac{v}{R}\right)^2 = \frac{1}{2}mv^2 + \frac{1}{2}mv^2 = mv^2 $$
+</div>
+
+Solving for v:
+
+<div class="equation">
+$$ v = \sqrt{gh} = \sqrt{(9.80 \text{ m/s}^2)(5.00 \m)} = 7.00 \text{ m/s} $$
+</div>
+
+**Discussion**
+
+For a hoop, the rotational and translational kinetic energies are equal, so exactly half the initial potential energy goes into each form. This result is independent of the hoop's mass and radius. A solid disk would roll faster (v = √(4gh/3) ≈ 8.08 m/s) because less energy goes into rotation.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -625,6 +656,35 @@ Calculate the rotational kinetic energy in the motorcycle wheel
 ([Figure 6 of Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMotion#Figure6))
 if its angular velocity is 120 rad/s. Assume $$M = 12.0 \kg $$, $$R_1= 0.280 \m $$,
 and $$R_2 = 0.330 \m $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The motorcycle wheel is modeled as an annular ring (ring with inner and outer radii). We first calculate the moment of inertia using $$ I = \frac{1}{2}M(R_1^2 + R_2^2) $$, then use $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 $$.
+
+**Solution**
+
+First, calculate the moment of inertia:
+
+<div class="equation">
+$$ I = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(12.0 \kg)\left[(0.280 \m)^2 + (0.330 \m)^2\right] $$
+</div>
+
+<div class="equation">
+$$ I = \frac{1}{2}(12.0 \kg)(0.0784 + 0.1089) \text{ m}^2 = \frac{1}{2}(12.0 \kg)(0.1873 \text{ m}^2) = 1.12 \kg \cdot \mm $$
+</div>
+
+Now calculate the rotational kinetic energy:
+
+<div class="equation">
+$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 = \frac{1}{2}(1.12 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.12)(14400) \J = 8.06 \times 10^3 \J $$
+</div>
+
+**Discussion**
+
+The wheel stores about 8.06 kJ of rotational kinetic energy at 120 rad/s (about 1150 rpm). This is substantial energy—if released suddenly, it could cause significant damage. This is why motorcycle accidents can be so severe; the rotating wheels carry considerable energy.
 
 </div>
 </div>
@@ -650,10 +710,33 @@ While punting a football, a kicker rotates his leg about the hip joint. The mome
 and its rotational kinetic energy is 175 J.
 (a) What is the angular velocity of
 the leg?
-(b) What is the velocity of tip of the punter’s shoe if it is 1.05 m
+(b) What is the velocity of tip of the punter's shoe if it is 1.05 m
 from the hip joint?
 (c) Explain how the football can be given a velocity greater
 than the tip of the shoe (necessary for a decent kick distance).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we solve $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 $$ for ω. For part (b), we use v = rω. Part (c) requires understanding energy transfer in collisions.
+
+**Solution**
+
+**(a)** Solving for angular velocity:
+
+<div class="equation">
+$$ \omega = \sqrt{\frac{2\KE_{\text{rot}}}{I}} = \sqrt{\frac{2(175 \J)}{3.75 \kg \cdot \mm}} = \sqrt{93.3 \text{ rad}^2/\text{s}^2} = 9.66 \text{ rad/s} $$
+</div>
+
+**(b)** The velocity of the shoe tip is:
+
+<div class="equation">
+$$ v = r\omega = (1.05 \m)(9.66 \text{ rad/s}) = 10.1 \text{ m/s} $$
+</div>
+
+**(c)** The football can be given a velocity greater than the tip of the shoe through elastic collision principles. During the kick, the leg (and foot) continues to accelerate even as it contacts the ball. Additionally, in a nearly elastic collision between the massive leg and the lighter football, momentum conservation means the lighter ball can achieve a velocity nearly twice that of the striking foot. The foot also decelerates during contact, transferring additional energy to the ball. Professional punters can give the ball velocities of 25-30 m/s, well above the 10 m/s shoe velocity calculated here.
 
 </div>
 </div>
@@ -681,6 +764,49 @@ the steps in the [Problem-Solving Strategy for Rotational Energy]
 A ball with an initial velocity of 8.00 m/s rolls up a hill without slipping. Treating the ball as a spherical shell,
 (a) Calculate the vertical height it reaches.
 (b) Repeat the calculation for the same ball if it slides up the hill without rolling.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use conservation of energy. For part (a), initial kinetic energy (both translational and rotational) converts to gravitational potential energy. For part (b), only translational kinetic energy is present initially.
+
+**Solution**
+
+**(a)** For a rolling spherical shell, the moment of inertia is $$ I = \frac{2}{3}MR^2 $$. With no slipping, $$ \omega = v/R $$.
+
+Initial energy:
+
+<div class="equation">
+$$ E_i = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{2}{3}MR^2\right)\left(\frac{v}{R}\right)^2 = \frac{1}{2}mv^2 + \frac{1}{3}mv^2 = \frac{5}{6}mv^2 $$
+</div>
+
+At maximum height, all energy is potential:
+
+<div class="equation">
+$$ mgh = \frac{5}{6}mv^2 $$
+</div>
+
+Solving for h:
+
+<div class="equation">
+$$ h = \frac{5v^2}{6g} = \frac{5(8.00 \text{ m/s})^2}{6(9.80 \text{ m/s}^2)} = \frac{5(64.0)}{58.8} = 5.44 \m $$
+</div>
+
+**(b)** If the ball slides without rolling, only translational kinetic energy is present:
+
+<div class="equation">
+$$ mgh = \frac{1}{2}mv^2 $$
+</div>
+
+<div class="equation">
+$$ h = \frac{v^2}{2g} = \frac{(8.00 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{64.0}{19.6} = 3.27 \m $$
+</div>
+
+**Discussion**
+
+When sliding (frictionless), the ball reaches only 3.27 m, compared to 5.44 m when rolling. The difference is that when rolling, the rotational kinetic energy (which is ⅓ of the translational KE for a spherical shell) also converts to potential energy, allowing the ball to climb higher.
 
 </div>
 </div>
@@ -715,6 +841,61 @@ of 2.00 cm?
 (b) How much work does she do?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we calculate the net torque from the muscle force and the weight, then use τ = Iα to find the angular acceleration. For part (b), we use W = τθ (with θ in radians).
+
+**Solution**
+
+**(a)** First, calculate the torques. The muscle creates a positive torque:
+
+<div class="equation">
+$$ \tau_{\text{muscle}} = F \cdot r = (750 \N)(0.0200 \m) = 15.0 \N \cdot \m $$
+</div>
+
+The weight creates an opposing torque:
+
+<div class="equation">
+$$ \tau_{\text{weight}} = -mgr = -(2.00 \kg)(9.80 \text{ m/s}^2)(0.240 \m) = -4.70 \N \cdot \m $$
+</div>
+
+The net torque is:
+
+<div class="equation">
+$$ \tau_{\text{net}} = 15.0 - 4.70 = 10.3 \N \cdot \m $$
+</div>
+
+The total moment of inertia includes the forearm and the weight:
+
+<div class="equation">
+$$ I_{\text{total}} = I_{\text{arm}} + I_{\text{weight}} = 0.250 \kg \cdot \mm + (2.00 \kg)(0.240 \m)^2 = 0.250 + 0.115 = 0.365 \kg \cdot \mm $$
+</div>
+
+The angular acceleration is:
+
+<div class="equation">
+$$ \alpha = \frac{\tau_{\text{net}}}{I_{\text{total}}} = \frac{10.3 \N \cdot \m}{0.365 \kg \cdot \mm} = 28.2 \radss $$
+</div>
+
+**(b)** Convert the angle to radians:
+
+<div class="equation">
+$$ \theta = 60.0° \times \frac{\pi \text{ rad}}{180°} = 1.047 \text{ rad} $$
+</div>
+
+The work done is:
+
+<div class="equation">
+$$ W = \tau_{\text{net}} \theta = (10.3 \N \cdot \m)(1.047 \text{ rad}) = 10.8 \J $$
+</div>
+
+**Discussion**
+
+The angular acceleration is quite large (28.2 rad/s²), which would produce rapid motion. The work done (10.8 J) goes into rotating the arm and lifting the weight. This is a typical bicep curl exercise, and the 750 N muscle force is reasonable for strength training.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -724,6 +905,41 @@ They both travel a short distance at the bottom and then start up another inclin
 (a) Show that they both reach the same height on the other incline, and that this height is equal to their original height.
 (b) Find the ratio of the time the rolling cylinder takes to reach the height on the second incline to the time the sliding cylinder takes to reach the height on the second incline.
 (c) Explain why the time for the rolling motion is greater than that for the sliding motion.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use conservation of energy throughout. Both cylinders start with the same potential energy mgh. In the absence of friction (or with rolling without slipping), mechanical energy is conserved.
+
+**Solution**
+
+**(a)** Both cylinders start with potential energy $$ PE_i = mgh $$ at height h.
+
+For the **sliding** cylinder (no friction): All PE converts to translational KE at the bottom, then all KE converts back to PE on the second incline, reaching height h.
+
+For the **rolling** cylinder: At the bottom, PE converts to both translational and rotational KE. On the second incline, both forms of KE convert back to PE. Since no energy is lost to friction (rolling without slipping is frictionless in the rotational sense), it also reaches height h.
+
+In both cases: $$ mgh_i = mgh_f $$, so $$ h_f = h_i = h $$.
+
+**(b)** For a solid cylinder rolling down, $$ v_{\text{roll}} = \sqrt{\frac{4gh}{3}} $$
+
+For sliding (frictionless), $$ v_{\text{slide}} = \sqrt{2gh} $$
+
+The ratio of velocities at the bottom:
+
+<div class="equation">
+$$ \frac{v_{\text{roll}}}{v_{\text{slide}}} = \sqrt{\frac{4gh/3}{2gh}} = \sqrt{\frac{2}{3}} = 0.816 $$
+</div>
+
+Since both climb to the same height and start from the same bottom position, the one moving slower takes more time. The time ratio is inversely proportional to the velocity ratio:
+
+<div class="equation">
+$$ \frac{t_{\text{roll}}}{t_{\text{slide}}} = \frac{v_{\text{slide}}}{v_{\text{roll}}} = \sqrt{\frac{3}{2}} = 1.22 $$
+</div>
+
+**(c)** The rolling cylinder takes longer because it moves more slowly throughout its journey. It's slower because some of its gravitational potential energy went into rotational kinetic energy rather than all going into translational motion. With less translational speed, it takes longer to cover the same distances on both inclines.
 
 </div>
 </div>
@@ -736,6 +952,49 @@ Express the moment of inertia as a multiple of $$ M R^{2} $$,
 where $$ M $$ is the mass of the object and $$ R $$ is its radius.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use conservation of energy: $$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 $$. With $$ \omega = v/R $$ for rolling without slipping, we can solve for I in terms of MR².
+
+**Solution**
+
+Starting with energy conservation:
+
+<div class="equation">
+$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2 $$
+</div>
+
+Substituting $$ \omega = v/R $$:
+
+<div class="equation">
+$$ mgh = \frac{1}{2}mv^2 + \frac{1}{2}I\frac{v^2}{R^2} $$
+</div>
+
+Solving for I:
+
+<div class="equation">
+$$ 2mgh - mv^2 = I\frac{v^2}{R^2} $$
+</div>
+
+<div class="equation">
+$$ I = \frac{R^2(2mgh - mv^2)}{v^2} = \frac{mR^2(2gh - v^2)}{v^2} $$
+</div>
+
+Substituting values:
+
+<div class="equation">
+$$ I = \frac{mR^2\left[2(9.80)(2.00) - (6.00)^2\right]}{(6.00)^2} = \frac{mR^2(39.2 - 36.0)}{36.0} = \frac{3.2mR^2}{36.0} = 0.0889 MR^2 $$
+</div>
+
+Rounding: $$ I \approx 0.0900 MR^2 $$ or $$ I = \frac{1}{11}MR^2 $$
+
+**Discussion**
+
+The moment of inertia is about 0.09 MR², which is quite small. This is smaller than a solid cylinder (0.5 MR²), a solid sphere (0.4 MR²), or even a thin spherical shell (⅔ MR²). This unusually low moment of inertia suggests most of the mass is concentrated very close to the rotation axis—perhaps a thin rod or similar object rolling end-over-end.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -743,6 +1002,57 @@ where $$ M $$ is the mass of the object and $$ R $$ is its radius.
 Suppose a 200-kg motorcycle has two wheels like [Figure 6 of Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMotion#Figure6) and is heading toward a hill at a speed of 30.0 m/s.
 (a) How high can it coast up the hill, if you neglect friction?
 (b) How much energy is lost to friction if the motorcycle only gains an altitude of 35.0 m before coming to rest?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use conservation of energy. The motorcycle has both translational KE and rotational KE in its wheels. From the earlier problem, each wheel has I = 1.12 kg·m² and R₂ = 0.330 m (outer radius).
+
+**Solution**
+
+**(a)** Initial translational kinetic energy:
+
+<div class="equation">
+$$ KE_{\text{trans}} = \frac{1}{2}mv^2 = \frac{1}{2}(200 \kg)(30.0 \text{ m/s})^2 = 90000 \J $$
+</div>
+
+For the wheels, $$ \omega = v/R = 30.0/0.330 = 90.9 \text{ rad/s} $$
+
+Rotational KE for both wheels:
+
+<div class="equation">
+$$ KE_{\text{rot}} = 2 \times \frac{1}{2}I\omega^2 = 2 \times \frac{1}{2}(1.12 \kg \cdot \mm)(90.9 \text{ rad/s})^2 = 9240 \J $$
+</div>
+
+Total initial KE:
+
+<div class="equation">
+$$ KE_{\text{total}} = 90000 + 9240 = 99240 \J $$
+</div>
+
+At maximum height (neglecting friction):
+
+<div class="equation">
+$$ h = \frac{KE_{\text{total}}}{mg} = \frac{99240 \J}{(200 \kg)(9.80 \text{ m/s}^2)} = 50.6 \m $$
+</div>
+
+**(b)** Actual potential energy gained:
+
+<div class="equation">
+$$ PE = mgh = (200 \kg)(9.80 \text{ m/s}^2)(35.0 \m) = 68600 \J $$
+</div>
+
+Energy lost to friction:
+
+<div class="equation">
+$$ E_{\text{lost}} = KE_{\text{total}} - PE = 99240 - 68600 = 30640 \J \approx 30.6 \text{ kJ} $$
+</div>
+
+**Discussion**
+
+Without friction, the motorcycle could coast to 50.6 m, but it only reaches 35.0 m, losing about 30.6 kJ (31% of its initial energy) to friction. This demonstrates that friction is a significant factor in real-world motion, even for a relatively streamlined motorcycle.
 
 </div>
 </div>

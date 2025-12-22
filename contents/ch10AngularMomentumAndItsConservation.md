@@ -624,6 +624,57 @@ the fact that tidal effects with Earth have caused the Moon to rotate with one
 side always facing Earth.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we treat the Moon as a point mass orbiting Earth and use L = Iω = mvr. For part (b), we calculate the Moon's rotational angular momentum about its own axis using L = Iω, where I is for a sphere.
+
+**Solution**
+
+**(a)** For the Moon's orbit (treating it as a point mass):
+
+Data: Moon's mass M = 7.35 × 10²² kg, orbital radius r = 3.84 × 10⁸ m, orbital period T = 27.3 days
+
+Angular velocity:
+
+<div class="equation">
+$$ \omega = \frac{2\pi}{T} = \frac{2\pi}{27.3 \times 24 \times 3600 \text{ s}} = 2.66 \times 10^{-6} \text{ rad/s} $$
+</div>
+
+Orbital velocity:
+
+<div class="equation">
+$$ v = r\omega = (3.84 \times 10^8 \m)(2.66 \times 10^{-6} \text{ rad/s}) = 1022 \text{ m/s} $$
+</div>
+
+Orbital angular momentum:
+
+<div class="equation">
+$$ L_{\text{orbit}} = Mvr = (7.35 \times 10^{22} \kg)(1022 \text{ m/s})(3.84 \times 10^8 \m) = 2.89 \times 10^{34} \kg \cdot \mms $$
+</div>
+
+**(b)** For the Moon's rotation about its axis:
+
+Moon's radius R = 1.74 × 10⁶ m. The Moon rotates once per orbit (27.3 days) to keep one face toward Earth.
+
+Moment of inertia (sphere): $$ I = \frac{2}{5}MR^2 = \frac{2}{5}(7.35 \times 10^{22} \kg)(1.74 \times 10^6 \m)^2 = 8.87 \times 10^{34} \kg \cdot \mm $$
+
+Rotational angular momentum:
+
+<div class="equation">
+$$ L_{\text{spin}} = I\omega = (8.87 \times 10^{34} \kg \cdot \mm)(2.66 \times 10^{-6} \text{ rad/s}) = 2.36 \times 10^{29} \kg \cdot \mms $$
+</div>
+
+The ratio:
+
+<div class="equation">
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34}}{2.36 \times 10^{29}} = 1.22 \times 10^5 $$
+</div>
+
+**(c)** The orbital angular momentum is about 122,000 times larger than the rotational angular momentum. This is consistent with tidal locking. Tidal forces from Earth exerted torques on the Moon's rotation, gradually slowing it until the rotational period matched the orbital period. The much smaller rotational angular momentum compared to orbital angular momentum meant the Moon's rotation was relatively easy for Earth's tidal forces to alter, while the orbital angular momentum remained largely unchanged.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -640,6 +691,55 @@ Suppose you start an antique car by exerting a force of 300 N on its crank for 0
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A playground merry-go-round has a mass of 120 kg and a radius of 1.80 m and it is rotating with an angular velocity of 0.500 rev/s. What is its angular velocity after a 22.0-kg child gets onto it by grabbing its outer edge? The child is initially at rest.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Angular momentum is conserved because there's negligible external torque. We use L = L' with the merry-go-round as a disk and the child as a point mass.
+
+**Solution**
+
+Initial moment of inertia (merry-go-round only, disk):
+
+<div class="equation">
+$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(120 \kg)(1.80 \m)^2 = 194.4 \kg \cdot \mm $$
+</div>
+
+Initial angular velocity:
+
+<div class="equation">
+$$ \omega_0 = 0.500 \text{ rev/s} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} = 3.14 \text{ rad/s} $$
+</div>
+
+Initial angular momentum:
+
+<div class="equation">
+$$ L = I\omega_0 = (194.4 \kg \cdot \mm)(3.14 \text{ rad/s}) = 611 \kg \cdot \mms $$
+</div>
+
+Final moment of inertia (merry-go-round + child at edge):
+
+<div class="equation">
+$$ I' = I + m_{\text{child}}R^2 = 194.4 + (22.0 \kg)(1.80 \m)^2 = 194.4 + 71.3 = 265.7 \kg \cdot \mm $$
+</div>
+
+Using conservation of angular momentum:
+
+<div class="equation">
+$$ \omega' = \frac{L}{I'} = \frac{611 \kg \cdot \mms}{265.7 \kg \cdot \mm} = 2.30 \text{ rad/s} $$
+</div>
+
+Converting to rev/s:
+
+<div class="equation">
+$$ \omega' = 2.30 \text{ rad/s} \times \frac{1 \text{ rev}}{2\pi \text{ rad}} = 0.366 \text{ rev/s} $$
+</div>
+
+**Discussion**
+
+The merry-go-round slows from 0.500 rev/s to 0.366 rev/s when the child jumps on, a decrease of about 27%. This is because the child increased the moment of inertia by about 37%, and angular momentum conservation requires ω to decrease proportionally.
 
 </div>
 </div>
@@ -663,6 +763,73 @@ and increasing his moment of inertia. Find the value of his moment of inertia if
 his angular velocity decreases to 1.25 rev/s.
 (c) Suppose instead he keeps his arms in and allows friction of the ice to slow him to 3.00 rev/s. What average
 torque was exerted if this takes 15.0 s?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we calculate L = Iω directly. For part (b), we use conservation of angular momentum. For part (c), we use the relationship between torque and change in angular momentum.
+
+**Solution**
+
+**(a)** First convert to rad/s:
+
+<div class="equation">
+$$ \omega = 6.00 \text{ rev/s} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} = 37.7 \text{ rad/s} $$
+</div>
+
+Angular momentum:
+
+<div class="equation">
+$$ L = I\omega = (0.400 \kg \cdot \mm)(37.7 \text{ rad/s}) = 15.1 \kg \cdot \mms $$
+</div>
+
+**(b)** Angular momentum is conserved when he extends his arms:
+
+<div class="equation">
+$$ L = L' \Rightarrow I\omega = I'\omega' $$
+</div>
+
+Convert the new angular velocity:
+
+<div class="equation">
+$$ \omega' = 1.25 \text{ rev/s} \times 2\pi = 7.85 \text{ rad/s} $$
+</div>
+
+Solving for I':
+
+<div class="equation">
+$$ I' = \frac{I\omega}{\omega'} = \frac{(0.400 \kg \cdot \mm)(37.7 \text{ rad/s})}{7.85 \text{ rad/s}} = 1.92 \kg \cdot \mm $$
+</div>
+
+**(c)** The change in angular velocity:
+
+<div class="equation">
+$$ \omega_f = 3.00 \text{ rev/s} \times 2\pi = 18.8 \text{ rad/s} $$
+</div>
+
+Change in angular momentum:
+
+<div class="equation">
+$$ \Delta L = I(\omega_f - \omega_0) = (0.400 \kg \cdot \mm)(18.8 - 37.7) \text{ rad/s} = -7.56 \kg \cdot \mms $$
+</div>
+
+Average torque:
+
+<div class="equation">
+$$ \tau = \frac{\Delta L}{\Delta t} = \frac{-7.56 \kg \cdot \mms}{15.0 \s} = -0.504 \N \cdot \m $$
+</div>
+
+The magnitude is 0.504 N·m.
+
+**Discussion**
+
+**(a)** The skater has angular momentum of 15.1 kg·m²/s when spinning rapidly.
+
+**(b)** When he extends his arms and slows to 1.25 rev/s, his moment of inertia increases to 1.92 kg·m², nearly 5 times the original value. This large increase is why extending the arms is so effective at slowing rotation.
+
+**(c)** The friction torque is relatively small (about half a newton-meter), but acting over 15 seconds, it's enough to slow him significantly. The negative sign indicates the torque opposes the rotation.
 
 </div>
 </div>
