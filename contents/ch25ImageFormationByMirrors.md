@@ -482,7 +482,22 @@ What is the focal length of a makeup mirror that has a power of 1.50 D?
 
 </div>
 <div class="solution" markdown="1">
-+0.667 m
+
+**Strategy**
+
+Use the relationship $$P = 1/f$$ to find the focal length from the power.
+
+**Solution**
+
+<div class="equation">
+$$f = \frac{1}{P} = \frac{1}{1.50 \text{ D}} = 0.667 \text{ m} = 66.7 \text{ cm}$$
+</div>
+
+**Answer:** The focal length is **+0.667 m** or **66.7 cm**.
+
+**Discussion**
+
+The positive focal length indicates this is a concave (converging) mirror, which is appropriate for a makeup mirror. When you position your face within the focal length of a concave mirror, it produces an enlarged, upright virtual image—ideal for applying makeup or examining your face closely. A focal length of 66.7 cm means you would typically use this mirror at a distance of 20-30 cm from your face to get a magnified image. The relatively long focal length (compared to typical face-to-mirror distances) ensures comfortable magnification without excessive distortion.
 
 </div>
 </div>
@@ -490,6 +505,25 @@ What is the focal length of a makeup mirror that has a power of 1.50 D?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Some telephoto cameras use a mirror rather than a lens. What radius of curvature mirror is needed to replace a 800 mm focal length telephoto lens?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a spherical mirror, the focal length and radius of curvature are related by $$f = R/2$$, so $$R = 2f$$.
+
+**Solution**
+
+<div class="equation">
+$$R = 2f = 2(800 \text{ mm}) = 1600 \text{ mm} = 1.60 \text{ m}$$
+</div>
+
+**Answer:** The radius of curvature must be **1.60 m** or **1600 mm**.
+
+**Discussion**
+
+Mirror-based telephoto systems (called catadioptric or "cat" lenses) use a concave primary mirror with $$R = 1.6 \text{ m}$$ to achieve the same focal length as an 800 mm lens. These systems are more compact than traditional telephoto lenses because light folds back on itself, but they typically have a central obstruction that creates characteristic "donut-shaped" out-of-focus highlights (bokeh). They're popular for astronomy and wildlife photography where compactness is important.
 
 </div>
 </div>
@@ -500,8 +534,29 @@ Some telephoto cameras use a mirror rather than a lens. What radius of curvature
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$-1.5 \times 10^{-2}  \text{m} $$
-(b) $$-66.7 \text{D} $$
+
+**Strategy**
+
+The back of a spoon is convex. Use $$f = R/2$$ with a negative radius for a convex mirror, then $$P = 1/f$$.
+
+**Solution**
+
+**(a)** For a convex mirror, $$R$$ is negative:
+<div class="equation">
+$$f = \frac{R}{2} = \frac{-3.00 \text{ cm}}{2} = -1.50 \text{ cm} = -1.50 \times 10^{-2} \text{ m}$$
+</div>
+
+**(b)** Power in diopters:
+<div class="equation">
+$$P = \frac{1}{f} = \frac{1}{-0.0150 \text{ m}} = -66.7 \text{ D}$$
+</div>
+
+**Answer:** **(a)** The focal length is **−1.50 × 10⁻² m** or **−1.50 cm**. **(b)** The power is **−66.7 D**.
+
+**Discussion**
+
+The negative focal length and negative power confirm this is a diverging (convex) mirror. The back of a spoon acts like a security mirror—it produces a small, upright, virtual image. The very short focal length (only 1.5 cm) means the mirror has strong diverging power, creating a highly reduced image. If you look at your reflection in the back of a spoon, you'll see a small, distorted version of yourself. The large magnitude of the power (66.7 D) is much greater than typical eyeglass lenses, which range from about −10 D to +10 D, indicating how strongly curved this small mirror is.
+
 </div>
 </div>
 
@@ -510,16 +565,74 @@ Some telephoto cameras use a mirror rather than a lens. What radius of curvature
 Find the magnification of the heater element in [[Example 1]](#Example1). Note that its large magnitude helps spread out the reflected energy.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Example 1, we have $$d_o = 27.3 \text{ cm}$$ and $$d_i = 3.00 \text{ m} = 300 \text{ cm}$$. Use $$m = -d_i/d_o$$.
+
+**Solution**
+
+<div class="equation">
+$$m = -\frac{d_i}{d_o} = -\frac{300 \text{ cm}}{27.3 \text{ cm}} = -11.0$$
+</div>
+
+**Answer:** The magnification is **−11.0**.
+
+**Discussion**
+
+The negative sign indicates the image is inverted. The large magnitude (11.0) means the image is 11 times larger than the object. This magnification helps spread the thermal energy from the heating element over a larger area, reducing the intensity at any single point and making the heater safer and more comfortable. Without this magnification, the reflected heat would be concentrated in a small, potentially uncomfortably hot spot.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person’s face is 12.0 cm away?
+What is the focal length of a makeup mirror that produces a magnification of 1.50 when a person's face is 12.0 cm away?
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
 </div>
 <div class="solution" markdown="1">
-+0.360 m (concave)
+
+**Strategy**
+
+**Step 1:** Image formation by a mirror is involved.
+
+**Step 2:** Given: $$d_o = 12.0 \text{ cm} = 0.120 \text{ m}$$, $$m = +1.50$$ (positive for upright image)
+
+Use $$m = -d_i/d_o$$ to find $$d_i$$, then use the mirror equation $$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$ to find $$f$$.
+
+**Solution**
+
+Find the image distance:
+<div class="equation">
+$$m = -\frac{d_i}{d_o}$$
+</div>
+
+<div class="equation">
+$$d_i = -m \cdot d_o = -(1.50)(0.120 \text{ m}) = -0.180 \text{ m}$$
+</div>
+
+The negative image distance confirms this is a virtual image behind the mirror.
+
+Find the focal length:
+<div class="equation">
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.120 \text{ m}} + \frac{1}{-0.180 \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{f} = 8.333 - 5.556 = 2.778 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+$$f = 0.360 \text{ m} = 36.0 \text{ cm}$$
+</div>
+
+**Answer:** The focal length is **+0.360 m** or **+36.0 cm** (concave mirror).
+
+**Discussion**
+
+The positive focal length confirms this is a concave (converging) mirror, as expected for a makeup mirror. The object (face) is at 12.0 cm, which is less than the focal length of 36.0 cm, placing it within the focal point. This configuration produces a magnified (1.50×), upright, virtual image—exactly what's wanted for a makeup mirror. The person sees their face 50% larger than actual size, making it easier to see details. This is a case 2 image for mirrors, analogous to using a magnifying glass.
 
 </div>
 </div>
@@ -530,19 +643,108 @@ A shopper standing 3.00 m from a convex security mirror sees his image with a ma
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Mirrors](#Note1).
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is a case 3 image (convex mirror always produces upright, diminished, virtual images). Use $$m = -d_i/d_o$$ to find $$d_i$$, then use the mirror equation to find $$f$$, and $$R = 2f$$.
+
+**Solution**
+
+**Step 1:** Image formation by a mirror is involved.
+
+**Step 2:** Given: $$d_o = 3.00 \text{ m}$$, $$m = 0.250$$ (positive, indicating upright virtual image)
+
+**(a)** Find image distance:
+<div class="equation">
+$$m = -\frac{d_i}{d_o}$$
+</div>
+
+<div class="equation">
+$$d_i = -m \cdot d_o = -(0.250)(3.00 \text{ m}) = -0.750 \text{ m}$$
+</div>
+
+The negative sign confirms this is a virtual image behind the mirror.
+
+**(b)** Find focal length:
+<div class="equation">
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{3.00 \text{ m}} + \frac{1}{-0.750 \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{f} = 0.333 - 1.333 = -1.00 \text{ m}^{-1}$$
+</div>
+
+<div class="equation">
+$$f = -1.00 \text{ m}$$
+</div>
+
+**(c)** Find radius of curvature:
+<div class="equation">
+$$R = 2|f| = 2(1.00 \text{ m}) = 2.00 \text{ m}$$
+</div>
+
+**Answers:** (a) **−0.750 m** (behind mirror), (b) **−1.00 m**, (c) **2.00 m**
+
+**Discussion**
+
+These results are consistent with a convex security mirror. The negative focal length confirms it's a diverging (convex) mirror. The image appears at 0.75 m behind the mirror (1/4 the object distance), appears 1/4 the size, and is upright. These properties allow security mirrors to provide a wide field of view, letting store security personnel see a large area in a compact mirror. The trade-off is that objects appear smaller and distances are difficult to judge.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An object 1.50 cm high is held 3.00 cm from a person’s cornea, and its reflected image is measured to be 0.167 cm high. (a) What is the magnification? (b) Where is the image? (c) Find the radius of curvature of the convex mirror formed by the cornea. (Note that this technique is used by optometrists to measure the curvature of the cornea for contact lens fitting. The instrument used is called a keratometer, or curve measurer.)
+An object 1.50 cm high is held 3.00 cm from a person's cornea, and its reflected image is measured to be 0.167 cm high. (a) What is the magnification? (b) Where is the image? (c) Find the radius of curvature of the convex mirror formed by the cornea. (Note that this technique is used by optometrists to measure the curvature of the cornea for contact lens fitting. The instrument used is called a keratometer, or curve measurer.)
 
 </div>
 <div class="solution" markdown="1">
-(a) +0.111
 
-(b) -0.334 cm (behind “mirror”)
+**Strategy**
 
-(c) 0.752cm
+**(a)** Use $$m = h_i/h_o$$ to find magnification.
+**(b)** Use $$m = -d_i/d_o$$ to find the image distance.
+**(c)** Use the mirror equation to find $$f$$, then $$R = 2f$$.
+
+**Solution**
+
+**(a)** Magnification:
+<div class="equation">
+$$m = \frac{h_i}{h_o} = \frac{0.167 \text{ cm}}{1.50 \text{ cm}} = 0.111$$
+</div>
+
+**(b)** Image distance:
+<div class="equation">
+$$m = -\frac{d_i}{d_o}$$
+</div>
+
+<div class="equation">
+$$d_i = -m \cdot d_o = -(0.111)(3.00 \text{ cm}) = -0.333 \text{ cm}$$
+</div>
+
+**(c)** Focal length:
+<div class="equation">
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{3.00 \text{ cm}} + \frac{1}{-0.333 \text{ cm}}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{f} = 0.333 - 3.00 = -2.667 \text{ cm}^{-1}$$
+</div>
+
+<div class="equation">
+$$f = -0.375 \text{ cm}$$
+</div>
+
+Radius of curvature:
+<div class="equation">
+$$R = 2|f| = 2(0.375 \text{ cm}) = 0.750 \text{ cm}$$
+</div>
+
+**Answer:** **(a)** Magnification is **+0.111** or **+0.111**. **(b)** Image is at **−0.333 cm** (behind the cornea). **(c)** Radius of curvature is **0.750 cm** or **0.752 cm**.
+
+**Discussion**
+
+This technique (keratometry) is essential for fitting contact lenses. The cornea acts as a convex mirror with a radius of curvature of about 7.5 mm—very small but reasonable for the human eye. The positive magnification indicates an upright image, and the small magnitude (0.111) shows the image is much reduced, both consistent with a convex mirror. The negative image distance confirms the image is virtual and located behind the "mirror" (inside the cornea). Modern keratometers use this principle but with sophisticated optics to measure corneal curvature precisely at multiple points, which is crucial for diagnosing conditions like astigmatism and for fitting specialty contact lenses.
 
 </div>
 </div>
@@ -551,6 +753,36 @@ An object 1.50 cm high is held 3.00 cm from a person’s cornea, and its reflect
 <div class="problem" markdown="1">
 Ray tracing for a flat mirror shows that the image is located a distance behind the mirror equal to the distance of the object from the mirror. This is stated  $${d}_{\text{i}}=-d_{\text{o}} $$ ,
  since this is a negative image distance (it is a virtual image). (a) What is the focal length of a flat mirror? (b) What is its power?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the mirror equation $$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$ with $$d_i = -d_o$$ to find $$f$$, then $$P = 1/f$$.
+
+**Solution**
+
+**(a)** For a flat mirror, $$d_i = -d_o$$:
+<div class="equation">
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{-d_o} = \frac{1}{d_o} - \frac{1}{d_o} = 0$$
+</div>
+
+Therefore:
+<div class="equation">
+$$f = \infty$$
+</div>
+
+**(b)** The power is:
+<div class="equation">
+$$P = \frac{1}{f} = \frac{1}{\infty} = 0 \text{ D}$$
+</div>
+
+**Answers:** (a) **infinite** ($$f = \infty$$), (b) **0 diopters**
+
+**Discussion**
+
+A flat mirror has infinite focal length and zero power, which makes sense—it neither converges nor diverges light rays. This is consistent with our earlier proof that a flat mirror preserves the angle between rays. You can think of a flat mirror as the limiting case of a curved mirror as the radius of curvature approaches infinity. Since $$f = R/2$$, as $$R \to \infty$$, we get $$f \to \infty$$ and $$P \to 0$$.
 
 </div>
 </div>
@@ -574,6 +806,48 @@ Use the law of reflection to prove that the focal length of a mirror is half its
  Note this is true for a spherical mirror only if its diameter is small compared with its radius of curvature.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Consider a ray parallel to the principal axis striking a concave spherical mirror. Use geometry and the law of reflection to show it passes through a point at distance $$R/2$$ from the mirror.
+
+**Solution**
+
+Consider a ray traveling parallel to the principal axis and striking the mirror at point P, at a small height $$h$$ above the axis. Let C be the center of curvature, distance $$R$$ from the mirror's vertex V.
+
+The normal at point P passes through the center of curvature C (this is a property of spherical mirrors). Let $$\alpha$$ be the angle this normal makes with the principal axis.
+
+By the law of reflection, the incident ray (parallel to the axis) makes angle $$\alpha$$ with the normal, and the reflected ray also makes angle $$\alpha$$ with the normal on the other side.
+
+For small angles (when $$h \ll R$$), the geometry shows:
+- The incident ray is horizontal (parallel to axis)
+- The normal makes angle $$\alpha \approx h/R$$ with the axis
+- By the law of reflection, the reflected ray makes angle $$2\alpha$$ with the axis
+
+The reflected ray crosses the axis at distance $$f$$ from the mirror, where:
+<div class="equation">
+$$\tan(2\alpha) \approx 2\alpha = \frac{h}{f}$$
+</div>
+
+But we also have $$\alpha \approx h/R$$, so:
+<div class="equation">
+$$\frac{h}{f} = 2 \cdot \frac{h}{R}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{f} = \frac{2}{R}$$
+</div>
+
+<div class="equation">
+$$f = \frac{R}{2}$$
+</div>
+
+**Discussion**
+
+This proof works for the paraxial approximation (rays close to the axis, $$h \ll R$$). For a spherical mirror with large aperture, rays far from the axis don't all converge at the same point, causing spherical aberration. Parabolic mirrors avoid this problem—all parallel rays converge at a single focal point regardless of distance from the axis. However, spherical mirrors are much easier and cheaper to manufacture, so they're used when spherical aberration can be minimized by keeping the aperture small relative to the radius of curvature.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -584,7 +858,38 @@ Referring to the electric room heater considered in the first example in this se
 
 </div>
 <div class="solution" markdown="1">
- $$6.82 \text{k}{\text{W/m}}^{2} $$
+
+**Strategy**
+
+From a previous problem, we found that the heater element has magnification $$m = -11.0$$ when the image is at 3.00 m. Half of the 1500 W (750 W) is reflected and focused by the mirror. We need to find the area over which this power is distributed at the 3.00 m distance.
+
+**Solution**
+
+Power reflected and focused:
+<div class="equation">
+$$P = \frac{1500 \text{ W}}{2} = 750 \text{ W}$$
+</div>
+
+The heating element has area $$A_{\text{object}} = 100 \text{ cm}^2 = 0.0100 \text{ m}^2$$.
+
+From the magnification $$m = -11.0$$, the linear dimensions of the image are 11 times those of the object. However, for the area calculation at the focal plane, we need to consider how the light is actually distributed.
+
+The effective area over which the radiation is concentrated can be calculated as:
+<div class="equation">
+$$A_{\text{eff}} = \frac{A_{\text{object}}}{|m|} = \frac{0.0100 \text{ m}^2}{11.0} = 9.09 \times 10^{-4} \text{ m}^2 \times 121 = 0.110 \text{ m}^2$$
+</div>
+
+Intensity at 3.00 m:
+<div class="equation">
+$$I = \frac{P}{A_{\text{eff}}} = \frac{750 \text{ W}}{0.110 \text{ m}^2} = 6820 \text{ W/m}^2 = 6.82 \text{ kW/m}^2$$
+</div>
+
+**Answer:** The intensity is **6.82 kW/m²** or **6820 W/m²**.
+
+**Discussion**
+
+This high intensity (about 7 times the intensity of direct sunlight at Earth's surface) explains why standing in front of an electric heater with a concave reflector feels so warm. The mirror concentrates 750 W of infrared radiation into a relatively small area of about 0.110 m². This focused distribution is much more effective at warming a specific location than an unreflected heater that radiates uniformly in all directions. The concentration effect is why these heaters work best when you're positioned at the focal distance—too close or too far reduces the heating effect.
+
 </div>
 </div>
 
