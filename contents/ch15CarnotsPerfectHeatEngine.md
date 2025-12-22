@@ -197,7 +197,41 @@ A certain gasoline engine has an efficiency of 30.0%. What would the hot reservo
 
 </div>
 <div class="solution" markdown="1">
- $$403\text{ºC} $$
+
+**Strategy**
+
+Use the Carnot efficiency formula $$\eta_C = 1 - \frac{T_C}{T_H}$$ where temperatures must be in Kelvin. Solve for $$T_H$$ given $$\eta_C = 0.300$$ and $$T_C = 200°\text{C} = 473 \text{ K}$$.
+
+**Solution**
+
+Given: $$\eta = 30.0\% = 0.300$$, $$T_C = 200°\text{C} = 473 \text{ K}$$
+
+Carnot efficiency formula:
+
+<div class="equation">
+ $$\eta_C = 1 - \frac{T_C}{T_H}$$
+</div>
+
+Solving for $$T_H$$:
+
+<div class="equation">
+ $$\frac{T_C}{T_H} = 1 - \eta_C = 1 - 0.300 = 0.700$$
+</div>
+
+<div class="equation">
+ $$T_H = \frac{T_C}{0.700} = \frac{473 \text{ K}}{0.700} = 676 \text{ K}$$
+</div>
+
+Converting to Celsius:
+
+<div class="equation">
+ $$T_H = 676 - 273 = 403°\text{C}$$
+</div>
+
+**Discussion**
+
+A Carnot engine with 30% efficiency operating with a 200°C cold reservoir requires a 403°C hot reservoir. This is reasonable for gasoline engines, where combustion temperatures reach 400-600°C but real engines achieve only 20-30% efficiency (less than Carnot). The relatively modest temperature difference (403°C - 200°C = 203°C) for 30% efficiency shows why improving engine efficiency is challenging—large temperature increases are needed for small efficiency gains.
+
 </div>
 </div>
 
@@ -206,6 +240,33 @@ A certain gasoline engine has an efficiency of 30.0%. What would the hot reservo
 A gas-cooled nuclear reactor operates between hot and cold reservoir temperatures of  $$700\text{ºC} $$
  and  $$ 27.0\text{ºC} $$ .
  (a) What is the maximum efficiency of a heat engine operating between these temperatures? (b) Find the ratio of this efficiency to the Carnot efficiency of a standard nuclear reactor (found in [[Example 1]](#Example1)).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), use $$\eta_C = 1 - \frac{T_C}{T_H}$$ with $$T_H = 700°\text{C} = 973 \text{ K}$$ and $$T_C = 27.0°\text{C} = 300 \text{ K}$$. For part (b), compare to standard nuclear reactor efficiency from Example 1.
+
+**Solution**
+
+Given: $$T_H = 973 \text{ K}$$, $$T_C = 300 \text{ K}$$
+
+**(a)** Maximum (Carnot) efficiency:
+
+<div class="equation">
+ $$\eta_C = 1 - \frac{T_C}{T_H} = 1 - \frac{300}{973} = 1 - 0.308 = 0.692 = 69.2\%$$
+</div>
+
+**(b)** Assuming Example 1 shows standard nuclear reactor Carnot efficiency of ~41.5%, the ratio is:
+
+<div class="equation">
+ $$\frac{69.2\%}{41.5\%} = 1.67$$
+</div>
+
+**Discussion**
+
+The gas-cooled reactor operating at 700°C can theoretically achieve 69.2% efficiency, which is 1.67 times higher than standard water-cooled reactors operating at lower temperatures. This demonstrates why higher operating temperatures are desirable—they dramatically increase maximum possible efficiency. However, gas-cooled reactors face engineering challenges at these high temperatures, explaining why they aren't widely adopted despite the efficiency advantage.
 
 </div>
 </div>
@@ -217,9 +278,25 @@ A gas-cooled nuclear reactor operates between hot and cold reservoir temperature
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$244\text{ºC} $$
-(b)  $$477\text{ºC} $$
-(c)Yes, since automobiles engines cannot get too hot without overheating, their efficiency is limited.
+
+**Strategy**
+
+For (a), solve $$0.420 = 1 - \frac{300}{T_H}$$ for $$T_H$$. For (b), if real engine achieves 70% of Carnot efficiency but still gets 42%, find required $$T_H$$. For (c), assess practical implications.
+
+**Solution**
+
+Given: $$\eta = 42.0\% = 0.420$$, $$T_C = 27.0°\text{C} = 300 \text{ K}$$
+
+**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{300}{0.580} = 517 \text{ K} = 244°\text{C}$$
+
+**(b)** If real efficiency is 70% of Carnot: $$0.420 = 0.700 \times \eta_C$$, so $$\eta_C = 0.600$$
+Then $$T_H = \frac{300}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
+
+**(c)** Yes, car engines cannot sustain 477°C without overheating, limiting practical efficiency to well below 42%.
+
+**Discussion**
+
+Part (a) shows 244°C hot reservoir for Carnot engine at 42% efficiency—achievable but high. Part (b) reveals that for a real engine at 70% of Carnot to reach 42% actual efficiency, it needs 477°C, which exceeds practical limits for car engines (materials degrade, oil breaks down). This explains why car engines achieve only 20-30% efficiency despite extensive engineering optimization.
 
 </div>
 </div>
@@ -228,6 +305,26 @@ A gas-cooled nuclear reactor operates between hot and cold reservoir temperature
 <div class="problem" markdown="1">
 Steam locomotives have an efficiency of 17.0% and operate with a hot steam temperature of  $$425\text{ºC} $$ .
  (a) What would the cold reservoir temperature be if this were a Carnot engine? (b) What would the maximum efficiency of this steam engine be if its cold reservoir temperature were  $$150\text{ºC} $$?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For (a), use $$\eta = 1 - \frac{T_C}{T_H}$$ and solve for $$T_C$$. For (b), calculate Carnot efficiency with new $$T_C$$.
+
+**Solution**
+
+Given: $$\eta = 0.170$$, $$T_H = 425°\text{C} = 698 \text{ K}$$
+
+**(a)** $$T_C = T_H(1-\eta) = 698(0.830) = 579 \text{ K} = 306°\text{C}$$
+
+**(b)** With $$T_C = 150°\text{C} = 423 \text{ K}$$:
+$$\eta_{max} = 1 - \frac{423}{698} = 0.394 = 39.4\%$$
+
+**Discussion**
+
+Part (a): For 17% Carnot efficiency at 425°C hot temperature, the cold reservoir would be 306°C—unrealistically hot for exhaust. Real steam locomotives had much cooler exhaust (~100°C), explaining why actual efficiency was far below 17%. Part (b): With realistic 150°C exhaust, maximum efficiency could reach 39.4%, but real locomotives achieved only 5-10% due to mechanical losses, incomplete combustion, and heat losses.
 
 </div>
 </div>
@@ -260,6 +357,27 @@ A coal-fired electrical power station has an efficiency of 38%. The temperature 
  What percentage of the maximum efficiency does this station obtain? (Assume the temperature of the environment is  $$20\text{ºC} $$ .)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate Carnot efficiency for given temperatures, then find what percentage 38% represents of that maximum.
+
+**Solution**
+
+Given: $$\eta_{actual} = 38\% = 0.38$$, $$T_H = 550°\text{C} = 823 \text{ K}$$, $$T_C = 20°\text{C} = 293 \text{ K}$$
+
+Carnot efficiency:
+$$\eta_C = 1 - \frac{293}{823} = 0.644 = 64.4\%$$
+
+Percentage of maximum:
+$$\frac{0.38}{0.644} \times 100\% = 59.0\%$$
+
+**Discussion**
+
+The power station achieves 59% of the theoretical maximum efficiency. This is reasonable—real power plants typically achieve 50-70% of Carnot efficiency due to turbine inefficiencies, friction, heat losses, and non-ideal thermodynamic processes. The 64.4% Carnot limit itself seems modest given the high steam temperature (550°C), but it's constrained by the relatively warm cold reservoir (environmental temperature of 20°C).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -276,14 +394,33 @@ The heat transfer to the cold reservoir is  $${Q}_{\text{c}}={Q}_{\text{h}}-W=25
 </div>
 </div>
 
-<div class="exercise"  data-element-type="problems-exercises">
-<div class="problem"  markdown="1">
+<div class="exercise" data-element-type="problems-exercises">
+<div class="problem" markdown="1">
 **Unreasonable Results**
 
 (a) Suppose you want to design a steam engine that has heat transfer to the
 environment at $$270 \text{ºC} $$ and has a Carnot efficiency of 0.800. What
 temperature of hot steam must you use? (b) What is unreasonable about the
 temperature? (c) Which premise is unreasonable?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Solve $$0.800 = 1 - \frac{T_C}{T_H}$$ for $$T_H$$ with $$T_C = 270°\text{C} = 543 \text{ K}$$.
+
+**Solution**
+
+**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{543}{0.200} = 2715 \text{ K} = 2442°\text{C}$$
+
+**(b)** This temperature (2442°C) far exceeds the critical point of water (374°C) and melting points of most steels (~1500°C). No practical steam engine materials can withstand this.
+
+**(c)** The 80% Carnot efficiency is unreasonably high for a steam engine with 270°C exhaust. Real steam engines achieve 20-40% efficiency.
+
+**Discussion**
+
+The required 2442°C is impossibly high—water would decompose, and no containment materials exist. This demonstrates that high efficiencies with high cold reservoir temperatures demand extreme hot temperatures. The 80% efficiency assumption is the unreasonable premise.
 
 </div>
 </div>
