@@ -614,9 +614,9 @@ $$\text{Cost} = (3650 \text{ kW·h})(\$0.120/\text{kW·h}) = \$438/\text{year}$$
 
 **Discussion**
 
-Water heating is typically one of the largest energy expenses in a home, often second only to heating/cooling. At $438/year, this represents a significant operating cost. The "on-demand" or tankless water heater shown in the figure can reduce energy costs compared to traditional tank heaters because it only heats water when needed, eliminating standby heat losses. However, the instantaneous power demand (5 kW) is high, requiring adequate electrical service.
+Water heating is typically one of the largest energy expenses in a home, often second only to heating/cooling. At \$438/year, this represents a significant operating cost. The "on-demand" or tankless water heater shown in the figure can reduce energy costs compared to traditional tank heaters because it only heats water when needed, eliminating standby heat losses. However, the instantaneous power demand (5 kW) is high, requiring adequate electrical service.
 
-The annual cost of running the water heater is $438.
+The annual cost of running the water heater is \$438.
 
 </div>
 </div>
@@ -708,13 +708,13 @@ $$\text{CFL price} + \$1.50 = \$6.25$$
 $$\text{Maximum CFL price} = \$6.25 - \$1.50 = \$4.75$$
 </div>
 
-However, accounting for the CFL's longer lifetime (10,000 hours vs 1,000 hours), only 1/10 of its cost applies to this period, allowing a maximum price of $47.50 for true lifecycle equivalence.
+However, accounting for the CFL's longer lifetime (10,000 hours vs 1,000 hours), only 1/10 of its cost applies to this period, allowing a maximum price of \$47.50 for true lifecycle equivalence.
 
 **Discussion**
 
-The electricity savings of $4.50 over 1000 hours means a CFL costing up to $4.75 more than an incandescent bulb will still break even in this period. When you factor in that the CFL lasts 10× longer, the economics strongly favor CFLs. At typical CFL prices of $1.50-$5.00, they offer significant savings over incandescent bulbs.
+The electricity savings of \$4.50 over 1000 hours means a CFL costing up to \$4.75 more than an incandescent bulb will still break even in this period. When you factor in that the CFL lasts 10× longer, the economics strongly favor CFLs. At typical CFL prices of \$1.50-\$5.00, they offer significant savings over incandescent bulbs.
 
-The maximum CFL cost for equivalent total cost over 1000 hours is $6.25 (when accounting for the full bulb price during the comparison period).
+The maximum CFL cost for equivalent total cost over 1000 hours is \$6.25 (when accounting for the full bulb price during the comparison period).
 
 </div>
 </div>

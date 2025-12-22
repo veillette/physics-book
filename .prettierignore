@@ -35,3 +35,6 @@ doc/KRAMDOWN_*.md
 # Editor files
 .vscode/
 .idea/
+
+# Jekyll templates with front matter
+sw.js

@@ -590,7 +590,7 @@ An array area of 1.43 m² (about 1.2 m × 1.2 m) is quite modest and could fit o
 
 (a) 1.43 m²
 
-(b) $65.70
+(b) \$65.70
 
 </div>
 </div>
