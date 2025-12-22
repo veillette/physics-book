@@ -523,9 +523,9 @@ $$\text{Cost} = E \times \text{rate} = 12000 \text{ kW·h} \times \$0.0900/\text
 
 The effective resistance of 3.33 Ω is quite low, which is typical for high-power devices. A low resistance allows a large current to flow, enabling high power consumption. The current drawn is $$I = P/V = 50000 \text{ W}/408 \text{ V} = 122.5 \text{ A}$$, which is substantial and requires heavy-duty wiring.
 
-The monthly operating cost of $1080 is significant but reasonable for a commercial air conditioning system running 8 hours daily. This cost analysis helps building managers budget for energy expenses and evaluate the economic benefit of more efficient HVAC systems.
+The monthly operating cost of \$1080 is significant but reasonable for a commercial air conditioning system running 8 hours daily. This cost analysis helps building managers budget for energy expenses and evaluate the economic benefit of more efficient HVAC systems.
 
-(a) The effective resistance is 3.33 Ω. (b) The cost of running the air conditioner for the month is $1080.
+(a) The effective resistance is 3.33 Ω. (b) The cost of running the air conditioner for the month is \$1080.
 
 </div>
 </div>

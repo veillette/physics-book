@@ -52,13 +52,30 @@ function countDelimiters(line) {
       // Check if it's likely a currency amount:
       // $ followed by digit(s), possibly with decimals and/or commas
       // Examples: $5, $2.37, $1,000, $123.45
+      // BUT NOT if followed by LaTeX commands or if there's a closing $ nearby (inline math)
       const remainingText = line.substring(i + 1);
-      const currencyPattern = /^(\d{1,3}(,\d{3})*|\d+)(\.\d+)?(\s|,|\.|\)|;|$)/;
 
-      if (currencyPattern.test(remainingText)) {
-        // This is likely currency, skip it
-        i++;
-        continue;
+      // First check: is there a closing $ within a reasonable distance (likely inline math)?
+      const hasNearbyClosingDollar =
+        remainingText.indexOf('$') !== -1 && remainingText.indexOf('$') < 50;
+
+      // Simple currency: digits, optional decimal, followed by space/punctuation/end
+      // But NOT followed by backslash (LaTeX), math symbols, or degree sign
+      const simpleNumberPattern = /^(\d{1,3}(,\d{3})*|\d+)(\.\d+)?/;
+      const match = remainingText.match(simpleNumberPattern);
+
+      if (match && !hasNearbyClosingDollar) {
+        const afterNumber = remainingText.substring(match[0].length);
+        // Check what comes after the number
+        // If it's followed by: word boundary + normal text (not LaTeX or math symbols), treat as currency
+        const isFollowedByText = /^(\s|\/|,|\)|;|\.|\s+[a-z])/i.test(afterNumber);
+        const isFollowedByMath = /^(\s*\\|\s*\^|\s*_|\{|°|\s+times|\s+text)/.test(afterNumber);
+
+        if (isFollowedByText && !isFollowedByMath) {
+          // This is likely currency, skip it
+          i++;
+          continue;
+        }
       }
 
       // Not currency or $$, count it as a single math delimiter
