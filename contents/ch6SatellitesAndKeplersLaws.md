@@ -703,12 +703,76 @@ Moon, calculate the orbital radius for an Earth satellite having a period of
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-a) $$ 5.08 \times 10^{3}\text{km} $$
+**Strategy**
 
-b) This radius is unreasonable because it is less than the radius of earth.
+Use Kepler's third law to relate the orbital period and radius. We know the Moon's orbital characteristics, so we can set up a ratio or use the derived form of Kepler's third law with Earth's mass.
 
-c) The premise of a one-hour orbit is inconsistent with the known radius of the
-earth.
+**Solution**
+
+**(a) Calculate the orbital radius:**
+
+Using Kepler's third law for Earth satellites:
+
+<div class="equation">
+$$ T^2 = \frac{4\pi^2}{GM_{\text{Earth}}}r^3 $$
+</div>
+
+Solving for $$ r $$:
+
+<div class="equation">
+$$ r = \left(\frac{GM_{\text{Earth}}T^2}{4\pi^2}\right)^{1/3} $$
+</div>
+
+**Given:**
+- Period: $$ T = 1.00\text{ h} = 3600\text{ s} $$
+- $$ G = 6.674 \times 10^{-11}\text{ N·m}^2/\text{kg}^2 $$
+- $$ M_{\text{Earth}} = 5.972 \times 10^{24}\text{ kg} $$
+
+<div class="equation">
+$$ r = \left(\frac{(6.674 \times 10^{-11})(5.972 \times 10^{24})(3600)^2}{4\pi^2}\right)^{1/3} $$
+</div>
+
+<div class="equation">
+$$ r = \left(\frac{(3.985 \times 10^{14})(1.296 \times 10^{7})}{39.48}\right)^{1/3} $$
+</div>
+
+<div class="equation">
+$$ r = \left(\frac{5.17 \times 10^{21}}{39.48}\right)^{1/3} = (1.31 \times 10^{20})^{1/3} $$
+</div>
+
+<div class="equation">
+$$ r = 5.08 \times 10^{6}\text{ m} = 5.08 \times 10^{3}\text{ km} = 5080\text{ km} $$
+</div>
+
+**(b) What is unreasonable about this result?**
+
+The calculated orbital radius of 5080 km is **less than Earth's radius** of 6371 km. This means the satellite would need to orbit inside the Earth, which is physically impossible. An orbit can only exist if the satellite is above Earth's surface.
+
+**(c) What is unreasonable about the premise?**
+
+The premise of a 1-hour orbital period is physically impossible for an Earth satellite. The **minimum possible orbital period** occurs when a satellite orbits just above Earth's surface (ignoring atmospheric drag). This minimum period can be calculated:
+
+<div class="equation">
+$$ T_{\text{min}} = 2\pi\sqrt{\frac{R_{\text{Earth}}^3}{GM_{\text{Earth}}}} = 2\pi\sqrt{\frac{(6.371 \times 10^{6})^3}{3.985 \times 10^{14}}} $$
+</div>
+
+<div class="equation">
+$$ T_{\text{min}} = 2\pi\sqrt{\frac{2.586 \times 10^{20}}{3.985 \times 10^{14}}} = 2\pi\sqrt{6.49 \times 10^{5}} = 2\pi(806) = 5063\text{ s} \approx 84.4\text{ min} $$
+</div>
+
+Therefore, the minimum orbital period for an Earth satellite is about 84.4 minutes. A 60-minute (1-hour) orbit would require the satellite to be inside Earth, which is impossible.
+
+**Discussion**
+
+This problem illustrates an important physical constraint: there is a minimum orbital period for any spherical body determined by its density. For Earth, this minimum is about 84-85 minutes. The International Space Station, orbiting at about 400 km altitude, has a period of approximately 92 minutes. Satellites in lower orbits have shorter periods, but they can never go below the ~84-minute minimum. Interestingly, this minimum period depends only on the planet's average density - a larger planet with the same density would have the same minimum period. This is why the minimum period can be expressed as $$ T_{\text{min}} = \sqrt{\frac{3\pi}{G\rho}} $$, where $$ \rho $$ is the average density.
+
+**Answer**
+
+(a) The orbital radius would be $$ 5.08 \times 10^{3}\text{ km} $$ (5080 km).
+
+(b) This radius is unreasonable because it is **less than Earth's radius** (6371 km), meaning the satellite would have to orbit inside the Earth.
+
+(c) The premise of a 1-hour orbit is physically impossible. The **minimum orbital period** for an Earth satellite is about **84.4 minutes**, which occurs at Earth's surface. No satellite can orbit faster than this around Earth.
 
 </div>
 </div>
