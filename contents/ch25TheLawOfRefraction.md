@@ -500,6 +500,31 @@ $$ 2.04 \times 10^{8} \text{m/s} $$ in glycerine
 What is the speed of light in air? In crown glass?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the relationship between the speed of light in a medium, the speed of light in vacuum, and the index of refraction: $$n = c/v$$, which can be rearranged to $$v = c/n$$.
+
+**Solution**
+
+From [[Table 1]](#Table1), the index of refraction for air is $$n_{\text{air}} = 1.000293$$ and for crown glass is $$n_{\text{crown glass}} = 1.52$$.
+
+For air:
+<div class="equation">
+$$v_{\text{air}} = \frac{c}{n_{\text{air}}} = \frac{3.00 \times 10^{8} \text{ m/s}}{1.000293} = 2.9991 \times 10^{8} \text{ m/s}$$
+</div>
+
+For crown glass:
+<div class="equation">
+$$v_{\text{crown glass}} = \frac{c}{n_{\text{crown glass}}} = \frac{3.00 \times 10^{8} \text{ m/s}}{1.52} = 1.97 \times 10^{8} \text{ m/s}$$
+</div>
+
+**Discussion**
+
+The speed of light in air is only slightly less than the speed of light in vacuum (about 0.03% slower), which is why we often approximate $$n_{\text{air}} \approx 1.00$$ for most calculations. In crown glass, however, light travels at about 66% of its vacuum speed. This significant reduction in speed is what causes the bending of light (refraction) when it enters glass from air, which is the basis for lenses and many optical instruments.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -520,6 +545,27 @@ In what substance in [[Table 1]](#Table1) is the speed of light <span> $$ 2.290 
  </span>
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use $$n = c/v$$ to calculate the index of refraction, then compare it with values in [[Table 1]](#Table1) to identify the substance.
+
+**Solution**
+
+<div class="equation">
+$$n = \frac{c}{v} = \frac{3.00 \times 10^{8} \text{ m/s}}{2.290 \times 10^{8} \text{ m/s}} = 1.310$$
+</div>
+
+Comparing with [[Table 1]](#Table1), we find that water (fresh) has $$n = 1.333$$, which is close, and ice at $$-7°\text{C}$$ has $$n = 1.309$$, which matches our calculated value very closely.
+
+**Answer:** The substance is ice (at $$-7°\text{C}$$).
+
+**Discussion**
+
+The slight difference between the index of refraction of water (1.333) and ice (1.309) is due to the different molecular structure. In ice, the water molecules are arranged in a crystalline lattice with more space between molecules than in liquid water, resulting in a slightly lower density and thus a slightly lower index of refraction. This allows light to travel slightly faster in ice than in liquid water.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -535,10 +581,43 @@ There was a major collision of an asteroid with the Moon in medieval times. It w
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]](#Figure5). What angle does the ray from the instructor’s face make with the perpendicular to the water at the point where the ray enters? The angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$.
+A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]](#Figure5). What angle does the ray from the instructor's face make with the perpendicular to the water at the point where the ray enters? The angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$.
 
 ![A scuba diver and his trainer look at each other. For the trainer, the scuba diver appears less deep than he actually is, and to the diver, the trainer appears much higher than she actually is. To the trainer, the scuba diver's feet appear to be at a depth of two point zero meters. The incident ray from the trainer strikes the water surface at a point, the point of incidence, and the trainer is at a horizontal distance of two point zero meters from a perpendicular drawn at the point of incidence.](../resources/Figure_25_03_05.jpg 'A scuba diver in a pool and his trainer look at each other. ')
 {: #Figure5}
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use Snell's law to find the angle in air. Light is traveling from air into water, so $$n_1 = 1.00$$ (air) and $$n_2 = 1.333$$ (water). We're given $$\theta_2 = 25.0°$$ and need to find $$\theta_1$$.
+
+**Solution**
+
+Snell's law states:
+<div class="equation">
+$$n_1 \sin \theta_1 = n_2 \sin \theta_2$$
+</div>
+
+Solving for $$\theta_1$$:
+<div class="equation">
+$$\sin \theta_1 = \frac{n_2}{n_1} \sin \theta_2 = \frac{1.333}{1.00} \sin(25.0°)$$
+</div>
+
+<div class="equation">
+$$\sin \theta_1 = 1.333 \times 0.4226 = 0.5634$$
+</div>
+
+<div class="equation">
+$$\theta_1 = \sin^{-1}(0.5634) = 34.3°$$
+</div>
+
+**Answer:** The ray from the instructor's face makes an angle of **34.3°** with the perpendicular to the water surface.
+
+**Discussion**
+
+Note that the angle in air (34.3°) is larger than the angle in water (25.0°). This is expected because light bends toward the normal when entering a denser medium. This refraction effect causes the instructor to appear higher to the diver than she actually is, and conversely, it makes the diver appear shallower to the instructor. This is why objects underwater always appear closer to the surface than they actually are—an important safety consideration for diving and swimming.
 
 </div>
 </div>
@@ -558,7 +637,45 @@ Components of some computers communicate with each other through optical fibers 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Given that the angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$ ,
- and using information in [[Figure 3]](#Figure3), find the height of the instructor’s head above the water, noting that you will first have to calculate the angle of incidence. (b) Find the apparent depth of the diver’s head below water as seen by the instructor.
+ and using information in [[Figure 3]](#Figure3), find the height of the instructor's head above the water, noting that you will first have to calculate the angle of incidence. (b) Find the apparent depth of the diver's head below water as seen by the instructor.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From [[Figure 5]](#Figure5), we can use geometry and Snell's law. The horizontal distance from the point where the ray enters the water to the instructor is 2.00 m. We first find the angle in air using Snell's law (from the previous problem, $$\theta_1 = 34.3°$$), then use trigonometry.
+
+**Solution**
+
+**(a)** From the previous problem, we found $$\theta_1 = 34.3°$$.
+
+The horizontal distance is 2.00 m. Using trigonometry:
+<div class="equation">
+$$\tan \theta_1 = \frac{\text{horizontal distance}}{\text{height}} = \frac{2.00 \text{ m}}{h}$$
+</div>
+
+<div class="equation">
+$$h = \frac{2.00 \text{ m}}{\tan(34.3°)} = \frac{2.00 \text{ m}}{0.6822} = 2.93 \text{ m}$$
+</div>
+
+**(b)** For the diver, the horizontal distance underwater is also 2.00 m, and $$\theta_2 = 25.0°$$:
+
+<div class="equation">
+$$\tan \theta_2 = \frac{2.00 \text{ m}}{d}$$
+</div>
+
+<div class="equation">
+$$d = \frac{2.00 \text{ m}}{\tan(25.0°)} = \frac{2.00 \text{ m}}{0.4663} = 4.29 \text{ m}$$
+</div>
+
+However, the actual depth is greater. The apparent depth can be found using $$d_{\text{apparent}} = d_{\text{actual}}/n = d_{\text{actual}}/1.333$$. From geometry, the actual depth is approximately 2.00/tan(25.0°) = 4.29 m, but the diver appears to be at:
+
+$$d_{\text{apparent}} = 4.29/1.333 = 3.22 \text{ m}$$
+
+**Discussion**
+
+The instructor's head is 2.93 m above the water. The apparent depth effect makes underwater objects appear about 25% shallower than they actually are when viewed from air. This is why pools always look shallower than they really are.
 
 </div>
 </div>
@@ -578,17 +695,117 @@ Suppose you have an unknown clear substance immersed in water, and you wish to i
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-On the Moon’s surface, lunar astronauts placed a corner reflector, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. What percent correction is needed to account for the delay in time due to the slowing of light in Earth’s atmosphere? Assume the distance to the Moon is precisely  $$ 3.84 \times 10^{8}  \text{m} $$ ,
- and Earth’s atmosphere (which varies in density with altitude) is equivalent to a layer 30.0 km thick with a constant index of refraction  $$n= 1.000293 $$.
+On the Moon's surface, lunar astronauts placed a corner reflector, off which a laser beam is periodically reflected. The distance to the Moon is calculated from the round-trip time. What percent correction is needed to account for the delay in time due to the slowing of light in Earth's atmosphere? Assume the distance to the Moon is precisely  $$ 3.84 \times 10^{8}  \text{m} $$ ,
+ and Earth's atmosphere (which varies in density with altitude) is equivalent to a layer 30.0 km thick with a constant index of refraction  $$n= 1.000293 $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Light travels slower in Earth's atmosphere than in vacuum. We need to find the additional time it takes to travel through the atmosphere (twice, since it's a round trip) and compare it to the total travel time.
+
+**Solution**
+
+Speed of light in the atmosphere:
+<div class="equation">
+$$v = \frac{c}{n} = \frac{3.00 \times 10^{8} \text{ m/s}}{1.000293} = 2.9991 \times 10^{8} \text{ m/s}$$
+</div>
+
+Time through atmosphere (round trip = 60.0 km total):
+<div class="equation">
+$$t_{\text{atm}} = \frac{60.0 \times 10^{3} \text{ m}}{2.9991 \times 10^{8} \text{ m/s}} = 2.0006 \times 10^{-4} \text{ s}$$
+</div>
+
+Time if it were vacuum:
+<div class="equation">
+$$t_{\text{vac}} = \frac{60.0 \times 10^{3} \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 2.000 \times 10^{-4} \text{ s}$$
+</div>
+
+Additional delay:
+<div class="equation">
+$$\Delta t = t_{\text{atm}} - t_{\text{vac}} = (2.0006 - 2.000) \times 10^{-4} \text{ s} = 6 \times 10^{-8} \text{ s}$$
+</div>
+
+This corresponds to an apparent additional distance:
+<div class="equation">
+$$\Delta d = c \cdot \Delta t = (3.00 \times 10^{8})(6 \times 10^{-8}) = 18 \text{ m}$$
+</div>
+
+Percent correction:
+<div class="equation">
+$$\frac{\Delta d}{2 \times 3.84 \times 10^{8} \text{ m}} \times 100\% = \frac{18}{7.68 \times 10^{8}} \times 100\% = 2.3 \times 10^{-6}\%$$
+</div>
+
+**Answer:** The percent correction needed is approximately **0.0000023%** or about **2.3 parts per million**.
+
+**Discussion**
+
+Although this correction is extremely small (only about 18 meters out of 768 million meters), it must be accounted for in precise laser ranging measurements to the Moon. Modern laser ranging can measure the Earth-Moon distance to within a few centimeters, making this atmospheric correction significant for such high-precision work. The Moon is gradually moving away from Earth at about 3.8 cm per year, and these precise measurements help us track this motion.
 
 </div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
 <div class="problem"  markdown="1">
-Suppose [[Figure 5]](#Figure5) represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass ( $$\Delta x $$ ), 
+Suppose [[Figure 5]](#Figure5) represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass ( $$\Delta x $$ ),
 given that the incident angle is  $$ 40.0º $$
  and the glass is 1.00 cm thick.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The ray refracts when entering the glass and again when leaving it. We need to find the lateral displacement $$\Delta x$$ by tracking the ray's path through the glass using Snell's law and geometry.
+
+**Solution**
+
+Entering the glass from air ($$n_1 = 1.00$$, $$n_2 = 1.52$$):
+<div class="equation">
+$$\sin \theta_2 = \frac{n_1}{n_2} \sin \theta_1 = \frac{1.00}{1.52} \sin(40.0°) = \frac{0.6428}{1.52} = 0.4229$$
+</div>
+
+<div class="equation">
+$$\theta_2 = \sin^{-1}(0.4229) = 25.0°$$
+</div>
+
+The ray travels through the glass at angle $$25.0°$$ to the normal. The distance traveled through the glass:
+<div class="equation">
+$$d = \frac{t}{\cos \theta_2} = \frac{1.00 \text{ cm}}{\cos(25.0°)} = \frac{1.00 \text{ cm}}{0.9063} = 1.103 \text{ cm}$$
+</div>
+
+The horizontal displacement within the glass:
+<div class="equation">
+$$\Delta x = d \sin \theta_2 = 1.103 \text{ cm} \times \sin(25.0°) = 1.103 \times 0.4226 = 0.466 \text{ cm}$$
+</div>
+
+However, we need to subtract the horizontal distance if the ray had traveled straight:
+<div class="equation">
+$$\Delta x = t(\tan \theta_2 - \tan \theta_1) = 1.00(\tan 25.0° - \tan 40.0°)$$
+</div>
+
+Actually, the correct lateral displacement is:
+<div class="equation">
+$$\Delta x = t \sin(\theta_1 - \theta_2) \frac{\sin \theta_1}{\cos \theta_2}$$
+</div>
+
+Let me recalculate more carefully. The lateral displacement for a parallel-sided plate is:
+<div class="equation">
+$$\Delta x = \frac{t \sin(\theta_1 - \theta_2)}{\cos \theta_2}$$
+</div>
+
+<div class="equation">
+$$\Delta x = \frac{1.00 \text{ cm} \times \sin(40.0° - 25.0°)}{\cos(25.0°)} = \frac{1.00 \text{ cm} \times \sin(15.0°)}{0.9063}$$
+</div>
+
+<div class="equation">
+$$\Delta x = \frac{1.00 \text{ cm} \times 0.2588}{0.9063} = 0.285 \text{ cm} = 2.85 \text{ mm}$$
+</div>
+
+**Discussion**
+
+The ray is displaced laterally by about 2.85 mm as it passes through the 1 cm thick glass. This displacement is why objects viewed through a window appear slightly shifted from their actual positions. The displacement depends on both the thickness of the glass and the angle of incidence—the greater the angle and the thicker the glass, the larger the displacement.
 
 </div>
 </div>
