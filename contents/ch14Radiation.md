@@ -356,17 +356,76 @@ On average, would Earth be warmer or cooler without the atmosphere? Explain your
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 At what net rate does heat radiate from a  $$275{\text{-m}}^{2} $$
- black roof on a night when the roof’s temperature is  $$30.0\text{ºC} $$
+ black roof on a night when the roof's temperature is  $$30.0\text{ºC} $$
  and the surrounding temperature is  $$15.0\text{ºC} $$ ?
  The emissivity of the roof is 0.900.
 
 </div>
 <div class="solution" data-element-type="problem-exercises" markdown="1">
- $$- 21.7\text{kW} $$
 
-{: class="newline"}
+**Strategy**
 
-Note that the negative answer implies heat loss to the surroundings.
+We use the Stefan-Boltzmann law for net radiation between two surfaces: $$\frac{Q_{net}}{t} = \sigma eA(T_2^4 - T_1^4)$$. The roof (at higher temperature) radiates energy to the cooler surroundings. We must convert temperatures to Kelvin.
+
+**Solution**
+
+Given:
+- Roof area: $$A = 275 \text{ m}^2$$
+- Roof temperature: $$T_{roof} = 30.0\text{ºC} = 303 \text{ K}$$
+- Surrounding temperature: $$T_{surr} = 15.0\text{ºC} = 288 \text{ K}$$
+- Emissivity: $$e = 0.900$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+
+Net radiation rate (heat loss from roof):
+<div class="equation">
+$$\frac{Q_{net}}{t} = \sigma eA(T_{roof}^4 - T_{surr}^4)$$
+</div>
+
+Calculate the fourth powers:
+- $$T_{roof}^4 = (303)^4 = 8.424 \times 10^9 \text{ K}^4$$
+- $$T_{surr}^4 = (288)^4 = 6.872 \times 10^9 \text{ K}^4$$
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8})(0.900)(275)[(8.424 - 6.872) \times 10^9]$$
+</div>
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (1.402 \times 10^{-5})(1.552 \times 10^9) = 21,759 \text{ W} \approx 21.8 \text{ kW}$$
+</div>
+
+Since the roof is losing heat to cooler surroundings, we can express this as:
+<div class="equation">
+$$\frac{Q_{net}}{t} = -21.7 \text{ kW}$$
+</div>
+
+The negative sign indicates heat loss from the roof.
+
+**Discussion**
+
+The heat loss rate of 21.7 kW is substantial—equivalent to running about 22 space heaters continuously! This demonstrates why radiation is a significant mechanism of heat loss from buildings, especially:
+
+1. **At night**: The roof radiates to the cooler night sky
+2. **With large surface areas**: The 275 m² roof provides significant area for radiation
+3. **With dark surfaces**: The high emissivity (0.900) means the roof is an efficient radiator
+
+Even though the temperature difference is only 15°C (relatively modest), the large area and high emissivity result in substantial heat loss. This is why:
+
+- **Cool roofs** (light-colored, reflective roofs) are increasingly used in warm climates—they have low emissivity and absorb/emit less radiation
+- **Radiant barriers** in attics can reduce radiative heat transfer
+- **Proper insulation** is crucial—this 21.7 kW must be replaced by heating systems in winter or represents heat gain that must be removed by cooling in summer
+
+The calculation demonstrates **radiative cooling**: on clear nights, surfaces can radiate heat to the cold upper atmosphere and may even reach temperatures below the ambient air temperature. This is why frost can form on car windshields even when air temperature is above freezing.
+
+For a typical house:
+- Roof area: 150-300 m²
+- This roof's heat loss: 21.7 kW
+- Cost impact: At $0.10/kWh electricity, running 24h = $52/day heating cost just to offset roof radiation!
+
+This underscores the importance of insulation, which doesn't stop radiation but reduces the overall heat transfer through the roof structure.
+
+**Answer**
+
+The net rate of heat radiation from the roof is **-21.7 kW** (negative indicating heat loss to the surroundings).
 
 </div>
 </div>

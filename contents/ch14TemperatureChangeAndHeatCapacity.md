@@ -516,10 +516,46 @@ To sterilize a 50.0-g glass baby bottle, we must raise its temperature from  $$ 
  How much heat transfer is required?
 
 </div>
-<div class="solution" data-element-type="problems-exercises">
-<div class="equation" >
- $$3.07 \times 10^{3}  \text{J} $$
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the equation $$Q = mc\Delta T$$ to calculate the heat transfer required. We need the mass of the glass bottle, the temperature change, and the specific heat of glass from Table 1.
+
+**Solution**
+
+Given:
+- Mass: $$m = 50.0 \text{ g} = 0.0500 \text{ kg}$$
+- Initial temperature: $$T_i = 22.0\text{ºC}$$
+- Final temperature: $$T_f = 95.0\text{ºC}$$
+- Specific heat of glass: $$c = 840 \text{ J/kg}\cdot\text{ºC}$$ (from Table 1)
+
+Calculate the temperature change:
+<div class="equation">
+$$\Delta T = T_f - T_i = 95.0\text{ºC} - 22.0\text{ºC} = 73.0\text{ºC}$$
 </div>
+
+Calculate the heat transfer:
+<div class="equation">
+$$Q = mc\Delta T = (0.0500 \text{ kg})(840 \text{ J/kg}\cdot\text{ºC})(73.0\text{ºC})$$
+</div>
+
+<div class="equation">
+$$Q = 3066 \text{ J} = 3.07 \times 10^3 \text{ J} = 3.07 \text{ kJ}$$
+</div>
+
+**Discussion**
+
+The heat required (3.07 kJ) is relatively small because the mass of the glass bottle is small (only 50 g). This amount of energy is comparable to what a 100-watt light bulb produces in about 30 seconds. Sterilization requires heating to at least 80-100°C to kill bacteria and viruses, and the modest energy requirement makes it practical to sterilize baby bottles frequently.
+
+Glass is chosen for baby bottles (though plastic is now more common) partly because it can withstand repeated heating without degrading. The specific heat of glass (840 J/kg·ºC) is similar to concrete but much lower than water, meaning glass heats up relatively quickly when placed in boiling water or a sterilizer.
+
+In practice, when sterilizing in boiling water, you must also heat the water or contents inside the bottle, which would require significantly more energy due to water's much higher specific heat.
+
+**Answer**
+
+The heat transfer required to sterilize the glass baby bottle is **3.07 kJ** or **3.07 × 10³ J**.
+
 </div>
 </div>
 
@@ -603,10 +639,62 @@ The results clearly show that substances with lower specific heats experience la
 Rubbing your hands together warms them by converting work into thermal energy. If a woman rubs her hands back and forth for a total of 20 rubs, at a distance of 7.50 cm per rub, and with an average frictional force of 40.0 N, what is the temperature increase? The mass of tissues warmed is only 0.100 kg, mostly in the palms and fingers.
 
 </div>
-<div class="solution" data-element-type="problems-exercises">
-<div class="equation" >
- $$0.171\text{ºC} $$
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+This problem illustrates the mechanical equivalent of heat. The work done by friction is converted into thermal energy, which raises the temperature of the hand tissues. We first calculate the total work done using $$W = Fd$$, then equate this to the heat absorbed: $$Q = W = mc\Delta T$$, and solve for the temperature increase.
+
+**Solution**
+
+Given:
+- Number of rubs: $$N = 20$$
+- Distance per rub: $$d = 7.50 \text{ cm} = 0.0750 \text{ m}$$
+- Frictional force: $$F = 40.0 \text{ N}$$
+- Mass of tissue: $$m = 0.100 \text{ kg}$$
+- Specific heat of human tissue: $$c = 3500 \text{ J/kg}\cdot\text{ºC}$$ (from Table 1)
+
+Calculate total distance:
+<div class="equation">
+$$d_{total} = N \times d = 20 \times 0.0750 \text{ m} = 1.50 \text{ m}$$
 </div>
+
+Calculate work done by friction:
+<div class="equation">
+$$W = Fd_{total} = (40.0 \text{ N})(1.50 \text{ m}) = 60.0 \text{ J}$$
+</div>
+
+This work is converted to heat:
+<div class="equation">
+$$Q = W = 60.0 \text{ J}$$
+</div>
+
+Using $$Q = mc\Delta T$$, solve for temperature increase:
+<div class="equation">
+$$\Delta T = \frac{Q}{mc} = \frac{60.0 \text{ J}}{(0.100 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})}$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{60.0}{350} = 0.171\text{ºC}$$
+</div>
+
+**Discussion**
+
+The temperature increase of 0.171°C may seem small, but it's readily perceptible. Human skin is quite sensitive to temperature changes as small as 0.1°C, so you can definitely feel your hands getting warmer when rubbing them together.
+
+This example demonstrates the mechanical equivalent of heat—mechanical work is converted directly into thermal energy. The relatively small temperature increase occurs because human tissue has a high specific heat (3500 J/kg·ºC), nearly as high as water. This high specific heat is beneficial for temperature regulation in the body.
+
+If you wanted to increase the warming effect, you could:
+1. Rub more times (increase N)
+2. Rub faster and with more pressure (increase F)
+3. Use longer strokes (increase d)
+
+This principle is used for survival: rubbing hands together or doing physical exercise generates heat through friction and muscle work, helping maintain body temperature in cold conditions.
+
+**Answer**
+
+The temperature increase from rubbing hands together is **0.171°C**.
+
 </div>
 </div>
 
@@ -659,7 +747,62 @@ Suppose identical amounts of heat transfer into different masses of copper and w
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-10.8
+
+**Strategy**
+
+We use the equation $$Q = mc\Delta T$$ for both copper and water. Since the heat transfer $$Q$$ and temperature change $$\Delta T$$ are identical for both substances, we can set the two equations equal and solve for the mass ratio.
+
+**Solution**
+
+For water:
+<div class="equation">
+$$Q = m_w c_w \Delta T$$
+</div>
+
+For copper:
+<div class="equation">
+$$Q = m_{Cu} c_{Cu} \Delta T$$
+</div>
+
+Since both heat transfers and temperature changes are equal:
+<div class="equation">
+$$m_w c_w \Delta T = m_{Cu} c_{Cu} \Delta T$$
+</div>
+
+The $$\Delta T$$ cancels:
+<div class="equation">
+$$m_w c_w = m_{Cu} c_{Cu}$$
+</div>
+
+Solving for the mass ratio:
+<div class="equation">
+$$\frac{m_{Cu}}{m_w} = \frac{c_w}{c_{Cu}}$$
+</div>
+
+From Table 1:
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Specific heat of copper: $$c_{Cu} = 387 \text{ J/kg}\cdot\text{ºC}$$
+
+<div class="equation">
+$$\frac{m_{Cu}}{m_w} = \frac{4186}{387} = 10.8$$
+</div>
+
+**Discussion**
+
+The mass ratio of 10.8:1 means you need **10.8 kg of copper** to absorb the same amount of heat as **1 kg of water** for the same temperature change. This dramatically illustrates why water has such exceptional thermal properties.
+
+This huge difference arises because water has one of the highest specific heats of any common substance (4186 J/kg·ºC), while copper, like most metals, has a much lower specific heat (387 J/kg·ºC). Water's high specific heat makes it excellent for:
+
+1. **Cooling systems** - Car radiators and industrial cooling use water because it can absorb large amounts of heat with minimal temperature rise
+2. **Climate moderation** - Oceans and lakes moderate coastal and regional climates because water temperature changes slowly
+3. **Thermal energy storage** - Solar hot water systems and heating systems use water to store thermal energy efficiently
+4. **Cooking** - Water in food prevents it from overheating quickly
+
+Conversely, metals like copper heat up and cool down quickly, making them ideal for cooking utensils where rapid heat transfer is desired.
+
+**Answer**
+
+The ratio of the mass of copper to water is **10.8:1** or simply **10.8**.
 
 </div>
 </div>
@@ -730,7 +873,62 @@ Following vigorous exercise, the body temperature of an 80.0-kg person is  $$ 40
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-617 W
+
+**Strategy**
+
+We need to calculate how much heat must be removed to cool the body from 40.0°C to 37.0°C, then determine the rate at which this heat must be transferred. However, the body continues producing heat at 150 W during the cooling period, so the total rate of heat transfer out must account for both cooling AND removing the continuously produced heat.
+
+**Solution**
+
+Given:
+- Mass: $$m = 80.0 \text{ kg}$$
+- Initial temperature: $$T_i = 40.0\text{ºC}$$
+- Final temperature: $$T_f = 37.0\text{ºC}$$
+- Time: $$t = 30.0 \text{ min} = 1800 \text{ s}$$
+- Metabolic heat production: $$P_{metabolic} = 150 \text{ W}$$
+- Specific heat of human body: $$c = 3500 \text{ J/kg}\cdot\text{ºC}$$ (from Table 1)
+
+**Step 1:** Calculate heat that must be removed to cool the body:
+<div class="equation">
+$$Q_{cool} = mc\Delta T = (80.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(40.0 - 37.0)\text{ºC}$$
+</div>
+
+<div class="equation">
+$$Q_{cool} = (80.0)(3500)(3.0) = 840000 \text{ J} = 8.40 \times 10^5 \text{ J}$$
+</div>
+
+**Step 2:** Calculate rate needed to remove this heat in 30 minutes:
+<div class="equation">
+$$P_{cool} = \frac{Q_{cool}}{t} = \frac{8.40 \times 10^5 \text{ J}}{1800 \text{ s}} = 467 \text{ W}$$
+</div>
+
+**Step 3:** Calculate total heat transfer rate needed:
+
+The body must transfer out both:
+- Heat to cool down: 467 W
+- Metabolic heat being produced: 150 W
+
+<div class="equation">
+$$P_{total} = P_{cool} + P_{metabolic} = 467 + 150 = 617 \text{ W}$$
+</div>
+
+**Discussion**
+
+The body must transfer heat at a rate of 617 W to cool down in 30 minutes while continuing to produce metabolic heat. This is a substantial rate—about six times the power of a 100-watt light bulb.
+
+The body accomplishes this cooling through multiple mechanisms:
+1. **Evaporation of sweat** - Most effective, accounts for ~80% of cooling during exercise
+2. **Increased blood flow to skin** - Enhances convection and radiation
+3. **Increased respiration** - Evaporates moisture from lungs and airways
+4. **Radiation and convection** - Direct heat transfer to cooler surroundings
+
+During vigorous exercise, metabolic rates can reach 1000 W or higher, which is why athletes sweat profusely—evaporative cooling is essential. The cooling rate of 617 W could be achieved by evaporating approximately 0.25 kg (250 mL) of sweat over the 30-minute period, which is quite realistic for post-exercise recovery.
+
+This calculation shows why it's important to cool down gradually after exercise and why hydration is critical—you need water for sweat production to dissipate excess heat safely.
+
+**Answer**
+
+The person must transfer thermal energy at a rate of **617 W** to reduce body temperature from 40.0°C to 37.0°C in 30 minutes while metabolic processes continue.
 
 </div>
 </div>

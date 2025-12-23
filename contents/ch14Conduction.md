@@ -429,7 +429,60 @@ Calculate the rate of heat conduction out of the human body, assuming that the c
 
 </div>
 <div class="solution" markdown="1">
-84.0 W
+
+**Strategy**
+
+We use the heat conduction equation: $$\frac{Q}{t} = \frac{kA(T_2 - T_1)}{d}$$, where $$k$$ is the thermal conductivity of human tissue (fatty tissue without blood from Table 1).
+
+**Solution**
+
+Given:
+- Core temperature: $$T_{core} = 37.0\text{ºC}$$
+- Skin temperature: $$T_{skin} = 34.0\text{ºC}$$
+- Tissue thickness: $$d = 1.00 \text{ cm} = 0.0100 \text{ m}$$
+- Surface area: $$A = 1.40 \text{ m}^2$$
+- Thermal conductivity of fatty tissue: $$k = 0.2 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Table 1)
+
+Temperature difference:
+<div class="equation">
+$$\Delta T = T_{core} - T_{skin} = 37.0 - 34.0 = 3.0\text{ºC}$$
+</div>
+
+Rate of heat conduction:
+<div class="equation">
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.2)(1.40)(3.0)}{0.0100}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{0.84}{0.0100} = 84.0 \text{ W}$$
+</div>
+
+**Discussion**
+
+The heat conduction rate of 84.0 W represents the power that must be dissipated from the body's surface to maintain thermal equilibrium. For a resting person, the basal metabolic rate is typically around 80-100 W, so this conduction rate is perfectly consistent with maintaining body temperature.
+
+This calculation assumes:
+1. Average tissue properties (actual human tissue varies in composition)
+2. Steady-state conditions (constant temperatures)
+3. One-dimensional heat flow perpendicular to skin
+4. No blood flow effects (which significantly enhance heat transfer in reality)
+
+In practice, the body uses multiple mechanisms to transfer this heat to the environment:
+- **Conduction** through tissues (84 W calculated here)
+- **Convection** from skin surface to surrounding air
+- **Radiation** from skin to cooler surroundings
+- **Evaporation** of perspiration when needed
+
+The 3°C temperature difference between core and skin is typical for resting conditions in a comfortable environment. During:
+- **Exercise**: Core temperature can rise to 39-40°C, increasing the temperature gradient and heat flow
+- **Cold exposure**: Skin temperature drops, increasing the gradient but requiring more metabolic heat production
+- **Fever**: Core temperature rises, requiring enhanced cooling mechanisms
+
+Blood circulation is crucial—it carries heat from deep organs to the skin surface much more efficiently than conduction alone. That's why blood flow to the skin increases during exercise or hot weather (causing flushing) and decreases in cold weather (causing pale, cool skin).
+
+**Answer**
+
+The rate of heat conduction out of the human body is **84.0 W**.
 
 </div>
 </div>
@@ -514,7 +567,52 @@ A man consumes 3000 kcal of food in one day, converting most of it to maintain b
 
 </div>
 <div class="solution" markdown="1">
-2.59 kg
+
+**Strategy**
+
+Half of the food energy (3000 kcal) is lost through water evaporation. We use $$Q = mL_v$$ to find the mass of water that evaporates, where $$L_v$$ is the latent heat of vaporization at body temperature.
+
+**Solution**
+
+Given:
+- Total food energy: $$E_{food} = 3000 \text{ kcal}$$
+- Energy lost by evaporation: $$Q = \frac{1}{2} \times 3000 = 1500 \text{ kcal}$$
+- Latent heat of vaporization at body temperature (37°C): $$L_v = 580 \text{ kcal/kg}$$ (from Ch 14, Section 3 footnote)
+
+Convert to consistent units (already in kcal).
+
+Using $$Q = mL_v$$, solve for mass:
+<div class="equation">
+$$m = \frac{Q}{L_v} = \frac{1500 \text{ kcal}}{580 \text{ kcal/kg}} = 2.59 \text{ kg}$$
+</div>
+
+**Discussion**
+
+The result of 2.59 kg (approximately 2.6 liters) of water evaporated per day is quite reasonable for a moderately active person. This water loss occurs through:
+
+1. **Perspiration (sweating)**: ~1.0-1.5 kg/day at rest, more during activity
+2. **Respiratory evaporation**: ~0.4-0.5 kg/day from exhaled moisture
+3. **Insensible perspiration**: ~0.6-0.8 kg/day through skin (not visible sweat)
+
+Total: ~2.0-2.8 kg/day, which matches our calculation.
+
+This illustrates why:
+- **Hydration is crucial**: You must replace this 2.6 L of water daily through drinking fluids and eating food (which contains water)
+- **Evaporative cooling is efficient**: Half of your metabolic heat is removed by evaporating just 2.6 kg of water, thanks to water's very high latent heat of vaporization (580 kcal/kg at body temperature)
+- **Dehydration is dangerous**: Losing just 2-3% of body water (1.5-2 kg for a 70-kg person) impairs performance and thermoregulation
+
+For comparison:
+- **Sedentary person in cool climate**: ~1.5-2.0 L/day
+- **Moderate activity or warm climate**: ~2.5-3.0 L/day
+- **Athlete in hot conditions**: 5-10 L/day or more
+
+During intense exercise in heat, sweat rates can exceed 2-3 L per hour, which is why athletes must drink frequently to avoid dangerous dehydration.
+
+The other half of the food energy (1500 kcal) is dissipated through radiation, convection, and conduction from the body surface, and in warming exhaled air and waste products.
+
+**Answer**
+
+Approximately **2.59 kg** (or **2.6 liters**) of water evaporates per day.
 
 </div>
 </div>
@@ -538,15 +636,86 @@ a callus is made of dead cells?
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) What is the rate of heat conduction through the 3.00-cm-thick fur of a large animal having a  $$1.40 {\text{-m}}^{2} $$
- surface area? Assume that the animal’s skin temperature is  $$ 32.0\text{ºC} $$ ,
+ surface area? Assume that the animal's skin temperature is  $$ 32.0\text{ºC} $$ ,
  that the air temperature is  $$-5.00\text{ºC} $$ ,
  and that fur has the same thermal conductivity as air. (b) What food intake will the animal need in one day to replace this heat transfer?
 
 </div>
 <div class="solution" markdown="1">
-(a) 39.7 W
 
-(b) 820 kcal
+**Strategy**
+
+For part (a), we use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ with the thermal conductivity of air (since fur's effectiveness comes from trapping air). For part (b), we calculate the total energy lost in one day and convert to kilocalories of food energy.
+
+**Solution**
+
+Given:
+- Surface area: $$A = 1.40 \text{ m}^2$$
+- Fur thickness: $$d = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+- Skin temperature: $$T_{skin} = 32.0\text{ºC}$$
+- Air temperature: $$T_{air} = -5.00\text{ºC}$$
+- Thermal conductivity (air/fur): $$k = 0.023 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Table 1)
+
+**(a)** Rate of heat conduction:
+
+Temperature difference:
+<div class="equation">
+$$\Delta T = T_{skin} - T_{air} = 32.0 - (-5.00) = 37.0\text{ºC}$$
+</div>
+
+Heat conduction rate:
+<div class="equation">
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.023)(1.40)(37.0)}{0.0300}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{1.1914}{0.0300} = 39.7 \text{ W}$$
+</div>
+
+**(b)** Daily food intake needed:
+
+Energy lost in one day:
+<div class="equation">
+$$Q_{day} = P \times t = (39.7 \text{ W})(86400 \text{ s/day}) = 3430080 \text{ J}$$
+</div>
+
+Convert to kilocalories (1 kcal = 4186 J):
+<div class="equation">
+$$Q_{day} = \frac{3430080 \text{ J}}{4186 \text{ J/kcal}} = 819 \text{ kcal} \approx 820 \text{ kcal}$$
+</div>
+
+**Discussion**
+
+The heat loss rate of 39.7 W is quite modest despite the large temperature difference (37°C) and substantial surface area (1.40 m²). This demonstrates the remarkable insulating ability of fur. The key is that fur traps air in tiny pockets between hair strands, and air is an excellent insulator (k = 0.023 J/s·m·ºC, one of the lowest values in Table 1).
+
+The 3-cm thick fur provides an R-factor of:
+<div class="equation">
+$$R = \frac{d}{k} = \frac{0.03}{0.023} = 1.30 \text{ m}^2\cdot\text{ºC/W}$$
+</div>
+
+For comparison with human clothing:
+- **3 cm of fur**: 39.7 W heat loss
+- **Heavy winter coat** (similar thickness): Comparable insulation
+- **No insulation** (bare skin): Would lose >1000 W in -5°C air (life-threatening)
+
+The daily food requirement of 820 kcal is substantial but manageable for a large animal. For context:
+- This is roughly 30-40% of a typical large mammal's daily energy budget
+- Additional energy is needed for activity, digestion, and other bodily functions
+- Total daily intake might be 2000-3000 kcal for a large herbivore
+
+Arctic and cold-climate animals have evolved several adaptations:
+1. **Thick fur** (polar bears: 5-10 cm; musk oxen: up to 60 cm including guard hairs)
+2. **Fat layer (blubber)** beneath skin for additional insulation
+3. **Countercurrent heat exchange** in limbs to conserve core heat
+4. **Smaller extremities** to reduce surface area (Allen's rule)
+5. **Larger body size** for favorable volume-to-surface ratio (Bergmann's rule)
+
+This problem explains why Arctic mammals can survive extreme cold—their fur creates an effective barrier to heat loss, requiring only moderate increases in food intake.
+
+**Answer**
+
+(a) The rate of heat conduction through the fur is **39.7 W**.
+(b) The animal needs **820 kcal** of food per day to replace this heat loss.
 
 </div>
 </div>

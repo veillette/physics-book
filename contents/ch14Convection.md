@@ -413,7 +413,50 @@ At what wind speed does  $$-10 \text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
-10 m/s
+
+**Strategy**
+
+We use Table 1 (Wind-Chill Factors) to find the wind speed at which $$-10\text{ºC}$$ moving air has an equivalent still air temperature of $$-29\text{ºC}$$.
+
+**Solution**
+
+From Table 1, we need to find the wind-chill factor of $$-29\text{ºC}$$ in the row for moving air temperature $$-10\text{ºC}$$.
+
+Looking at the row for $$-10\text{ºC}$$:
+- At 0 m/s (still air): $$-10\text{ºC}$$
+- At 2 m/s: $$-12\text{ºC}$$
+- At 5 m/s: $$-21\text{ºC}$$
+- At **10 m/s**: $$-29\text{ºC}$$
+- At 15 m/s: $$-34\text{ºC}$$
+- At 20 m/s: $$-36\text{ºC}$$
+
+The wind speed is **10 m/s**.
+
+**Discussion**
+
+This result shows that $$-10\text{ºC}$$ air moving at 10 m/s feels as cold as still air at $$-29\text{ºC}$$—a 19-degree difference in perceived temperature! This demonstrates the dramatic impact of wind on heat loss from exposed skin.
+
+Wind speed of 10 m/s equals:
+- **36 km/h** (22 mph)
+- A moderate to fresh breeze
+- Enough to raise dust and loose paper; small branches begin to move
+
+At this combination (-10°C and 10 m/s wind), exposed skin faces serious frostbite risk:
+- Frostbite can occur in 10-30 minutes on exposed skin
+- Proper protection (hat, gloves, scarf covering face) is essential
+- Outdoor activities should be limited
+
+The wind-chill effect occurs because convection continuously removes the warm boundary layer of air near the skin. In still air, this boundary layer provides some insulation. Moving air strips away this layer, exposing skin directly to colder air and dramatically increasing heat loss.
+
+This is why:
+1. **Windbreaks matter**: Standing behind a wall or in a forest significantly reduces wind chill
+2. **Clothing works**: Wind-resistant outer layers trap still air and block convection
+3. **Activity helps**: Moving generates metabolic heat to offset increased losses
+4. **Wind makes cold dangerous**: -10°C with wind is far more hazardous than -29°C in calm conditions where you can dress appropriately
+
+**Answer**
+
+The wind speed is **10 m/s** (36 km/h or 22 mph).
 
 </div>
 </div>
