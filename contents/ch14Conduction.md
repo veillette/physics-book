@@ -372,6 +372,52 @@ The rate of heat conduction out of a window on a winter day is rapid enough to c
  respectively. This rapid rate will not be maintained—the inner surface will cool, and even result in frost formation.
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the equation for heat conduction: $$\frac{Q}{t} = \frac{kA(T_2 - T_1)}{d}$$, where $$k$$ is the thermal conductivity of glass (from Table 1).
+
+**Solution**
+
+Given:
+- Area: $$A = 3.00 \text{ m}^2$$
+- Thickness: $$d = 0.635 \text{ cm} = 0.00635 \text{ m}$$
+- Inner temperature: $$T_1 = 5.00\text{ºC}$$
+- Outer temperature: $$T_2 = -10.0\text{ºC}$$
+- Thermal conductivity of glass: $$k = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+
+Temperature difference:
+<div class="equation">
+$$\Delta T = T_1 - T_2 = 5.00 - (-10.0) = 15.0\text{ºC}$$
+</div>
+
+Rate of heat conduction:
+<div class="equation">
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.84)(3.00)(15.0)}{0.00635}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{37.8}{0.00635} = 5950 \text{ W} = 5.95 \text{ kW}$$
+</div>
+
+**Discussion**
+
+The heat loss rate of 5.95 kW is enormous—equivalent to running almost six 1000-watt space heaters continuously! This explains why single-pane windows are such poor insulators and why the air near windows feels cold on winter days. The high heat loss rate also explains why frost and condensation readily form on the inner surface: the window surface temperature drops rapidly as heat flows outward.
+
+This dramatic heat loss is why:
+1. Modern buildings use double or triple-pane windows with air or gas-filled gaps
+2. Window treatments (curtains, blinds) significantly reduce heat loss
+3. Windows represent major sources of energy loss in homes
+4. Storm windows that create an air gap can reduce heat loss by 50% or more
+
+The problem notes correctly that this rate won't be maintained because the inner surface temperature will decrease, reducing the temperature difference. Additionally, room air circulation becomes important: without airflow, a cold layer forms next to the window, somewhat insulating it.
+
+**Answer**
+
+The rate of heat conduction through the window is **5.95 kW** or approximately **6000 W**.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -393,6 +439,71 @@ Calculate the rate of heat conduction out of the human body, assuming that the c
 Suppose you stand with one foot on ceramic flooring and one foot on a wool carpet, making contact over an area of  $$ 80.0 {\text{cm}}^{2} $$
  with each foot. Both the ceramic and the carpet are 2.00 cm thick and are  $$10.0\text{ºC} $$
  on their bottom sides. At what rate must heat transfer occur from each foot to keep the top of the ceramic and carpet at  $$ 33.0\text{ºC} $$ ? For ceramic, use the thermal conductivity for glass.
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the heat conduction equation $$\frac{Q}{t} = \frac{kA(T_2 - T_1)}{d}$$ separately for ceramic (using glass conductivity) and wool carpet. The dramatic difference in thermal conductivities will explain why the ceramic feels colder.
+
+**Solution**
+
+Given for both materials:
+- Contact area: $$A = 80.0 \text{ cm}^2 = 80.0 \times 10^{-4} \text{ m}^2 = 0.00800 \text{ m}^2$$
+- Thickness: $$d = 2.00 \text{ cm} = 0.0200 \text{ m}$$
+- Top temperature: $$T_1 = 33.0\text{ºC}$$
+- Bottom temperature: $$T_2 = 10.0\text{ºC}$$
+- Temperature difference: $$\Delta T = 33.0 - 10.0 = 23.0\text{ºC}$$
+
+From Table 1:
+- Thermal conductivity of glass (ceramic): $$k_{ceramic} = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+- Thermal conductivity of wool: $$k_{wool} = 0.04 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+
+**For ceramic floor:**
+<div class="equation">
+$$\frac{Q}{t}_{ceramic} = \frac{k_{ceramic}A\Delta T}{d} = \frac{(0.84)(0.00800)(23.0)}{0.0200}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t}_{ceramic} = \frac{0.155}{0.0200} = 7.73 \text{ W}$$
+</div>
+
+**For wool carpet:**
+<div class="equation">
+$$\frac{Q}{t}_{wool} = \frac{k_{wool}A\Delta T}{d} = \frac{(0.04)(0.00800)(23.0)}{0.0200}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t}_{wool} = \frac{0.00736}{0.0200} = 0.368 \text{ W}$$
+</div>
+
+**Ratio:**
+<div class="equation">
+$$\frac{Q_{ceramic}/t}{Q_{wool}/t} = \frac{7.73}{0.368} = 21.0$$
+</div>
+
+**Discussion**
+
+The ceramic floor conducts heat away from your foot **21 times faster** than the wool carpet! This explains the common experience that tile or ceramic floors feel much colder than carpeted floors, even when both are at the same temperature. Your foot on the ceramic loses 7.73 W compared to only 0.368 W on the carpet.
+
+The sensation of "coldness" is actually the sensation of rapid heat loss from your skin. Good conductors like ceramic, metal, and stone feel cold because they efficiently conduct heat away from your body. Good insulators like wool, wood, and cork feel warm because they conduct heat poorly, allowing your skin to maintain its temperature.
+
+This is why:
+- Tile bathrooms feel cold in winter
+- Wooden floors are preferred barefoot
+- Rugs and carpets make rooms feel warmer
+- Metal feels colder than wood at the same temperature
+
+The human body continuously produces heat (~100 W at rest), so we can easily sustain these heat loss rates. However, standing barefoot on very cold ceramic for extended periods would eventually cool the feet uncomfortably as the heat loss exceeds local blood flow's ability to replace it.
+
+**Answer**
+
+Heat must transfer from the foot at:
+- Ceramic floor: **7.73 W**
+- Wool carpet: **0.368 W**
+
+The ceramic floor conducts heat **21 times faster** than the carpet.
 
 </div>
 </div>

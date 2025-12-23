@@ -572,6 +572,65 @@ A bag containing  $$0\text{ºC} $$
    effective. { type="a"}
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+For part (a), we use $$Q = mc\Delta T$$ to find the heat needed to warm water. For part (b), we must first melt the ice using $$Q = mL_f$$, then warm the resulting water using $$Q = mc\Delta T$$. Part (c) requires comparing the two results.
+
+**Solution**
+
+Given:
+- Mass: $$m = 0.800 \text{ kg}$$
+- Initial temperature: $$T_i = 0\text{ºC}$$
+- Final temperature: $$T_f = 30.0\text{ºC}$$
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of fusion: $$L_f = 334 \text{ kJ/kg} = 334000 \text{ J/kg}$$
+
+**(a)** Heat to warm 0.800 kg of water from 0ºC to 30.0ºC:
+
+<div class="equation">
+$$Q_1 = mc_w\Delta T = (0.800 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(30.0\text{ºC})$$
+</div>
+
+<div class="equation">
+$$Q_1 = 100500 \text{ J} = 101 \text{ kJ}$$
+</div>
+
+**(b)** Heat to melt ice and then warm it to 30.0ºC:
+
+First, melt the ice:
+<div class="equation">
+$$Q_{melt} = mL_f = (0.800 \text{ kg})(334000 \text{ J/kg}) = 267200 \text{ J}$$
+</div>
+
+Then, warm the water from 0ºC to 30.0ºC (this is the same as part a):
+<div class="equation">
+$$Q_{warm} = 100500 \text{ J}$$
+</div>
+
+Total heat transfer:
+<div class="equation">
+$$Q_{total} = Q_{melt} + Q_{warm} = 267200 + 100500 = 367700 \text{ J} = 368 \text{ kJ}$$
+</div>
+
+**(c)** The ice bag requires 368 kJ while the water bag requires only 101 kJ to reach the same final state. The ice absorbs **3.64 times more energy** than the water (368/101 ≈ 3.64). This means ice is much more effective at absorbing heat, which is why ice packs are preferred for cooling injuries or keeping items cold.
+
+**Discussion**
+
+The dramatic difference between parts (a) and (b) illustrates the enormous energy involved in phase changes. The latent heat of fusion for water is so large that it dominates the total energy absorbed. About 73% of the total energy goes into melting the ice, with only 27% going into the temperature increase.
+
+This principle is widely used in practical applications. Ice coolers are effective because the ice absorbs large amounts of heat while melting at constant temperature. Similarly, ice packs for injuries are superior to cold water packs because they can absorb much more heat from the injured tissue while remaining at 0ºC, providing longer-lasting cooling.
+
+The high latent heat of fusion also explains why ice on lakes takes a long time to melt in spring, even when air temperatures rise above freezing—enormous energy must be transferred to convert the ice to water.
+
+**Answer**
+
+(a) Heat needed to warm 0.800 kg of water from 0ºC to 30.0ºC: **101 kJ**
+(b) Heat needed to melt 0.800 kg of ice and warm to 30.0ºC: **368 kJ**
+(c) The ice absorbs **3.64 times more energy** than water, making it far more effective for cooling applications.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -593,6 +652,47 @@ A bag containing  $$0\text{ºC} $$
 The formation of condensation on a glass of ice water causes the ice to melt faster than it would otherwise. If 8.00 g of condensation forms on a glass containing both water and 200 g of ice, how many grams of the ice will melt as a result? Assume no other heat transfer occurs.
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+When water vapor condenses, it releases energy equal to $$Q = mL_v$$. This energy is transferred to the ice, melting it according to $$Q = mL_f$$. We equate the heat released by condensation to the heat absorbed during melting.
+
+**Solution**
+
+Given:
+- Mass of condensation: $$m_{cond} = 8.00 \text{ g} = 0.00800 \text{ kg}$$
+- Latent heat of vaporization (at body/room temp): $$L_v \approx 2430 \text{ kJ/kg}$$
+- Latent heat of fusion: $$L_f = 334 \text{ kJ/kg}$$
+
+Heat released by condensation:
+<div class="equation">
+$$Q_{released} = m_{cond}L_v = (0.00800 \text{ kg})(2430 \text{ kJ/kg}) = 19.44 \text{ kJ}$$
+</div>
+
+This heat melts ice:
+<div class="equation">
+$$Q_{absorbed} = m_{ice}L_f$$
+</div>
+
+Setting $$Q_{released} = Q_{absorbed}$$:
+<div class="equation">
+$$m_{ice} = \frac{Q_{released}}{L_f} = \frac{19.44 \text{ kJ}}{334 \text{ kJ/kg}} = 0.0582 \text{ kg} = 58.2 \text{ g}$$
+</div>
+
+**Discussion**
+
+The formation of just 8.00 g of condensation causes 58.2 g of ice to melt—over 7 times more mass! This dramatic ratio (about 7.3:1) occurs because the latent heat of vaporization is much larger than the latent heat of fusion. Each gram of water vapor releases approximately 2430 J upon condensing, while each gram of ice requires only 334 J to melt.
+
+This effect is why condensation on cold drink glasses causes ice to melt so quickly. The humid air deposits water vapor on the cold surface, and the released energy directly melts the ice inside. In dry climates with low humidity, ice in drinks lasts much longer because there's little condensation.
+
+This principle also applies to meteorology: when water vapor condenses to form rain, the released latent heat powers weather systems and can intensify storms.
+
+**Answer**
+
+**58.2 g** of ice will melt as a result of the condensation.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -610,8 +710,61 @@ On a trip, you notice that a 3.50-kg bag of ice lasts an average of one day in y
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-On a certain dry sunny day, a swimming pool’s temperature would rise by  $$1.50\text{ºC} $$
+On a certain dry sunny day, a swimming pool's temperature would rise by  $$1.50\text{ºC} $$
  if not for evaporation. What fraction of the water must evaporate to carry away precisely enough energy to keep the temperature constant?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+The heat that would raise the pool's temperature by 1.50ºC is instead used to evaporate some fraction of the water. We equate $$Q = mc\Delta T$$ (temperature increase) to $$Q = m_{evap}L_v$$ (evaporation).
+
+**Solution**
+
+Let $$m$$ = total mass of water in pool
+Let $$f$$ = fraction that evaporates, so $$m_{evap} = fm$$
+
+Heat that would warm the entire pool:
+<div class="equation">
+$$Q = mc\Delta T$$
+</div>
+
+Heat removed by evaporation:
+<div class="equation">
+$$Q = m_{evap}L_v = (fm)L_v$$
+</div>
+
+Setting these equal:
+<div class="equation">
+$$mc\Delta T = (fm)L_v$$
+</div>
+
+Solving for $$f$$:
+<div class="equation">
+$$f = \frac{c\Delta T}{L_v}$$
+</div>
+
+Using values:
+- $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- $$\Delta T = 1.50\text{ºC}$$
+- $$L_v = 2256 \text{ kJ/kg} = 2.256 \times 10^6 \text{ J/kg}$$
+
+<div class="equation">
+$$f = \frac{(4186)(1.50)}{2.256 \times 10^6} = \frac{6279}{2.256 \times 10^6} = 0.00278 = 0.278\%$$
+</div>
+
+**Discussion**
+
+Only about 0.28% (roughly 1/360th) of the water needs to evaporate to prevent the temperature rise. This demonstrates the enormous cooling power of evaporation due to water's very large latent heat of vaporization. Each kilogram of water that evaporates removes 2256 kJ of energy—enough to cool about 360 kg of water by 1.50ºC.
+
+This is why evaporation is such an effective cooling mechanism. Pool owners in hot climates lose significant water to evaporation, which simultaneously keeps the pool cooler. The same principle applies to human perspiration: even small amounts of sweat evaporating can remove large quantities of heat from the body.
+
+On humid days when evaporation is reduced, pools warm up more quickly, and people feel hotter because their sweat doesn't evaporate as effectively.
+
+**Answer**
+
+**0.278%** or approximately **1/360** of the water must evaporate to keep the temperature constant.
 
 </div>
 </div>
