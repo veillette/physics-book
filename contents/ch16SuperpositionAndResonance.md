@@ -345,14 +345,14 @@ Two tuning forks having frequencies of 460 and 464 Hz are struck simultaneously.
 <div class="solution" markdown="1">
 **Strategy**
 
-When two tuning forks with different frequencies are struck simultaneously, you hear a sound at the average frequency that fluctuates in amplitude at the beat frequency. The average frequency is $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2} $$ and the beat frequency is $${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $$.
+When two tuning forks with different frequencies are struck simultaneously, you hear a sound at the average frequency that fluctuates in amplitude at the beat frequency. The average frequency is {% raw %}$${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2} $${% endraw %} and the beat frequency is {% raw %}$${f}_{\text{B}}=\mid {f}_{1}-{f}_{2}\mid $${% endraw %}.
 
 **Solution**
 
 Calculate the average frequency:
 
 <div class="equation">
- $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=\frac{460 \text{ Hz}+464 \text{ Hz}}{2} $$
+{% raw %} $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=\frac{460 \text{ Hz}+464 \text{ Hz}}{2} $${% endraw %}
 </div>
 
 <div class="equation">
@@ -426,7 +426,7 @@ Solve for the wavelength:
 Use the wave equation to find the frequency:
 
 <div class="equation">
- $$f=\frac{{v}_{\text{w}}}{\lambda }=\frac{3.33 \text{ m/s}}{2.67 \text{ m}}=1.25 \text{ Hz} $$
+{% raw %} $$f=\frac{{v}_{\text{w}}}{\lambda }=\frac{3.33 \text{ m/s}}{2.67 \text{ m}}=1.25 \text{ Hz} $${% endraw %}
 </div>
 
 **Discussion**
