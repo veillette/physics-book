@@ -627,7 +627,7 @@ There are two important isotopes of uranium—  $${}^{235}\text{U} $$
 **Solution:**
 (a) At the same temperature:
 <div class="equation" >
- $$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}=\sqrt{\frac{352.0}{349.0}}=\sqrt{1.00859}= 1.00429 $$
+ {% raw %}$$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}=\sqrt{\frac{352.0}{349.0}}=\sqrt{1.00859}= 1.00429 $${% endraw %}
 </div>
 
 The lighter isotope moves about 0.429% faster.
