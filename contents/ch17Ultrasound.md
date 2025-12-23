@@ -545,7 +545,7 @@ What is the sound intensity level in decibels of ultrasound of intensity  $$10^{
 <div class="solution" markdown="1">
 **Strategy**
 
-The sound intensity level in decibels is calculated using the logarithmic formula $$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ , where $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ is the threshold of hearing. This relationship allows us to express the enormous range of sound intensities encountered in medical applications on a manageable scale.
+The sound intensity level in decibels is calculated using the logarithmic formula {% raw %}$$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $${% endraw %} , where {% raw %}$${I}_{0}=10^{-12} {\text{W/m}}^{2} $${% endraw %} is the threshold of hearing. This relationship allows us to express the enormous range of sound intensities encountered in medical applications on a manageable scale.
 
 **Solution**
 
@@ -587,19 +587,19 @@ We need to convert the decibel level to intensity using the inverse of the decib
 Start with the decibel formula and solve for intensity:
 
 <div class="equation" >
- $$\beta =10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$
+{% raw %} $$\beta =10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ {% endraw %}
 </div>
 
 Divide both sides by 10:
 
 <div class="equation" >
- $$\frac{\beta }{10}={\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$
+{% raw %} $$\frac{\beta }{10}={\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ {% endraw %}
 </div>
 
 Take the antilogarithm (raise 10 to both sides):
 
 <div class="equation" >
- $$10^{\beta /10}=\frac{I}{{I}_{0}} $$
+{% raw %} $$10^{\beta /10}=\frac{I}{{I}_{0}} $$ {% endraw %}
 </div>
 
 Solve for $$I $$ :
@@ -634,7 +634,7 @@ ultrasound used in medical diagnostics.
 <div class="solution" markdown="1">
 **Strategy**
 
-We use the decibel formula $$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ to convert the given intensity to a sound intensity level. The reference intensity is $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ , the threshold of hearing at 1000 Hz.
+We use the decibel formula {% raw %}$$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $${% endraw %} to convert the given intensity to a sound intensity level. The reference intensity is {% raw %}$${I}_{0}=10^{-12} {\text{W/m}}^{2} $${% endraw %} , the threshold of hearing at 1000 Hz.
 
 **Solution**
 
@@ -1100,7 +1100,7 @@ The calculated value of 19.3 cm/s is consistent with flow in a medium-sized arte
 
 The Doppler shift of 500 Hz represents only a tiny fraction of the original frequency: $$\frac{\Delta f}{f_{s}}=\frac{500}{2\times 10^{6} }=2.5\times 10^{-4} $$ or 0.025%. This extremely small fractional shift highlights why the beat frequency method is used in Doppler ultrasound—it would be nearly impossible to measure such a small shift by directly measuring the echo frequency. Instead, the echo is mixed with the original frequency to produce audible beats at 500 Hz, which are easy to detect and measure.
 
-The factor of 2 in the Doppler formula arises from the double shift: the blood cells receive a Doppler-shifted frequency (first shift), and then they re-radiate this shifted frequency as a moving source (second shift). Each individual shift contributes a factor of approximately $$\frac{{v}_{b}}{v} $$ , so the total shift is approximately $$\frac{2{v}_{b}}{v} $$ .
+The factor of 2 in the Doppler formula arises from the double shift: the blood cells receive a Doppler-shifted frequency (first shift), and then they re-radiate this shifted frequency as a moving source (second shift). Each individual shift contributes a factor of approximately {% raw %}$$\frac{{v}_{b}}{v} $${% endraw %} , so the total shift is approximately {% raw %}$$\frac{2{v}_{b}}{v} $${% endraw %} .
 
 Doppler ultrasound is invaluable in clinical practice for assessing blood flow in arteries and veins, detecting blockages (stenoses) where velocity increases, identifying regurgitant flow (backflow through leaky valves), and monitoring fetal heart rate during pregnancy. The technique is completely non-invasive and safe, making it ideal for routine clinical use. Color Doppler imaging adds a visual dimension by color-coding the velocity information—conventionally showing flow toward the transducer in red and flow away in blue—allowing clinicians to see complex flow patterns at a glance.
 

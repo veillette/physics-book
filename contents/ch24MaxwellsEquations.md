@@ -177,27 +177,27 @@ The permeability of free space is:
 The permittivity of free space is:
 
 <div class="equation">
- $${\epsilon }_{0}=8.85 \times 10^{-12} \text{ }\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$
+{% raw %} $${\epsilon }_{0}=8.85 \times 10^{-12} \text{ }\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$ {% endraw %}
 </div>
 
 First, let's calculate the product $${\mu }_{0}{\epsilon }_{0}$$:
 
 <div class="equation">
- $${\mu }_{0}{\epsilon }_{0}=\left(4\pi \times 10^{-7} \text{ }\frac{\text{T}\cdot \text{m}}{\text{A}}\right)\left(8.85 \times 10^{-12} \text{ }\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}\right)$$
+{% raw %} $${\mu }_{0}{\epsilon }_{0}=\left(4\pi \times 10^{-7} \text{ }\frac{\text{T}\cdot \text{m}}{\text{A}}\right)\left(8.85 \times 10^{-12} \text{ }\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}\right)$$ {% endraw %}
 </div>
 
 <div class="equation">
- $${\mu }_{0}{\epsilon }_{0}=\left(4\pi \times 8.85\right) \times 10^{-19} \text{ }\frac{\text{T}\cdot \text{m}}{\text{A}}\cdot \frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$
+{% raw %} $${\mu }_{0}{\epsilon }_{0}=\left(4\pi \times 8.85\right) \times 10^{-19} \text{ }\frac{\text{T}\cdot \text{m}}{\text{A}}\cdot \frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$ {% endraw %}
 </div>
 
 <div class="equation">
- $${\mu }_{0}{\epsilon }_{0} \approx 1.112 \times 10^{-17} \text{ }\frac{{\text{s}}^{2}}{{\text{m}}^{2}}$$
+{% raw %} $${\mu }_{0}{\epsilon }_{0} \approx 1.112 \times 10^{-17} \text{ }\frac{{\text{s}}^{2}}{{\text{m}}^{2}}$$ {% endraw %}
 </div>
 
 Now we can calculate the speed of light:
 
 <div class="equation">
- $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}=\frac{1}{\sqrt{1.112 \times 10^{-17} \text{ }\frac{{\text{s}}^{2}}{{\text{m}}^{2}}}}$$
+{% raw %} $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}=\frac{1}{\sqrt{1.112 \times 10^{-17} \text{ }\frac{{\text{s}}^{2}}{{\text{m}}^{2}}}}$$ {% endraw %}
 </div>
 
 <div class="equation">
@@ -242,36 +242,36 @@ The SI unit for the permeability of free space $${\mu }_{0}$$ is:
 The SI unit for the permittivity of free space $${\epsilon }_{0}$$ is:
 
 <div class="equation">
- $$\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$
+{% raw %} $$\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}$$ {% endraw %}
 </div>
 
 We need to express these in terms of fundamental SI units. First, recall that:
 - Tesla: $$\text{T}=\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}$$
-- Newton: $$\text{N}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}$$
+- Newton: {% raw %}$$\text{N}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}$${% endraw %}
 - Coulomb: $$\text{C}=\text{A}\cdot \text{s}$$
 
 Substituting for the tesla in $${\mu }_{0}$$:
 
 <div class="equation">
- $$\frac{\text{T}\cdot \text{m}}{\text{A}}=\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}\cdot \frac{\text{m}}{\text{A}}=\frac{\text{kg}\cdot \text{m}}{{\text{A}}^{2}\cdot {\text{s}}^{2}}$$
+{% raw %} $$\frac{\text{T}\cdot \text{m}}{\text{A}}=\frac{\text{kg}}{\text{A}\cdot {\text{s}}^{2}}\cdot \frac{\text{m}}{\text{A}}=\frac{\text{kg}\cdot \text{m}}{{\text{A}}^{2}\cdot {\text{s}}^{2}}$$ {% endraw %}
 </div>
 
 Substituting for the newton and coulomb in $${\epsilon }_{0}$$:
 
 <div class="equation">
- $$\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}=\frac{{(\text{A}\cdot \text{s})}^{2}}{\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}\cdot {\text{m}}^{2}}=\frac{{\text{A}}^{2}\cdot {\text{s}}^{2}}{\text{kg}\cdot {\text{m}}^{3}}\cdot {\text{s}}^{2}=\frac{{\text{A}}^{2}\cdot {\text{s}}^{4}}{\text{kg}\cdot {\text{m}}^{3}}$$
+{% raw %} $$\frac{{\text{C}}^{2}}{\text{N}\cdot {\text{m}}^{2}}=\frac{{(\text{A}\cdot \text{s})}^{2}}{\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}\cdot {\text{m}}^{2}}=\frac{{\text{A}}^{2}\cdot {\text{s}}^{2}}{\text{kg}\cdot {\text{m}}^{3}}\cdot {\text{s}}^{2}=\frac{{\text{A}}^{2}\cdot {\text{s}}^{4}}{\text{kg}\cdot {\text{m}}^{3}}$$ {% endraw %}
 </div>
 
 Now we can find the units of $${\mu }_{0}{\epsilon }_{0}$$:
 
 <div class="equation">
- $${\mu }_{0}{\epsilon }_{0}=\frac{\text{kg}\cdot \text{m}}{{\text{A}}^{2}\cdot {\text{s}}^{2}}\cdot \frac{{\text{A}}^{2}\cdot {\text{s}}^{4}}{\text{kg}\cdot {\text{m}}^{3}}=\frac{{\text{s}}^{2}}{{\text{m}}^{2}}$$
+{% raw %} $${\mu }_{0}{\epsilon }_{0}=\frac{\text{kg}\cdot \text{m}}{{\text{A}}^{2}\cdot {\text{s}}^{2}}\cdot \frac{{\text{A}}^{2}\cdot {\text{s}}^{4}}{\text{kg}\cdot {\text{m}}^{3}}=\frac{{\text{s}}^{2}}{{\text{m}}^{2}}$$ {% endraw %}
 </div>
 
 Finally, we can find the units of $$c=\frac{1}{\sqrt{ {\mu }_{0}{\epsilon }_{0}}}$$:
 
 <div class="equation">
- $$c=\frac{1}{\sqrt{\frac{{\text{s}}^{2}}{{\text{m}}^{2}}}}=\frac{1}{\frac{\text{s}}{\text{m}}}=\frac{\text{m}}{\text{s}}$$
+{% raw %} $$c=\frac{1}{\sqrt{\frac{{\text{s}}^{2}}{{\text{m}}^{2}}}}=\frac{1}{\frac{\text{s}}{\text{m}}}=\frac{\text{m}}{\text{s}}$$ {% endraw %}
 </div>
 
 <div class="title">
