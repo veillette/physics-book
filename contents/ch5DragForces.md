@@ -241,10 +241,7 @@ less but had a smaller frontal area and so a smaller drag due to the air.
 </div>
 
 The size of the object that is falling through air presents another interesting
-application of air drag. If you fall from a 5-m high branch of a tree, you will
-likely get hurt—possibly fracturing a bone. However, a small squirrel does this
-all the time, without getting hurt. You don’t reach a terminal velocity in such
-a short distance, but the squirrel does.
+application of air drag. The terminal velocity of a small squirrel is less than the terminal velocity we found previously for the skydiver, and so the squirrel can fall from a significant height without injury.
 
 The following interesting quote on animal size and terminal velocity is from a
 1928 essay by a British biologist, J.B.S. Haldane, titled “On Being the Right
