@@ -17,6 +17,8 @@
     "check-accessibility:strict": "node scripts/check-accessibility.js --strict",
     "check-yaml": "node scripts/check-yaml.js",
     "check-yaml:strict": "node scripts/check-yaml.js --strict",
+    "fix-liquid-syntax": "node scripts/fix-liquid-syntax.js",
+    "fix-liquid-syntax:apply": "node scripts/fix-liquid-syntax.js --apply",
     "standardize-links": "node scripts/standardize-links.js",
     "standardize-links:apply": "node scripts/standardize-links.js --apply",
     "generate-pdf": "node scripts/generate-pdf.js --all",
