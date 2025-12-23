@@ -257,17 +257,17 @@ At what positions is the speed of a simple harmonic oscillator half its maximum?
 <div class="solution" markdown="1">
 **Strategy**
 
-We use the velocity equation for simple harmonic motion: $$v = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$. Setting $$v = \frac{{v}_{\text{max}}}{2}$$ and solving for $$x/X$$ will give us the positions where the speed is half its maximum.
+We use the velocity equation for simple harmonic motion: {% raw %}$$v = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$${% endraw %}. Setting {% raw %}$$v = \frac{{v}_{\text{max}}}{2}$${% endraw %} and solving for $$x/X$$ will give us the positions where the speed is half its maximum.
 
 **Solution**
 
-Start with the velocity equation and set $$v = \frac{{v}_{\text{max}}}{2}$$:
+Start with the velocity equation and set {% raw %}$$v = \frac{{v}_{\text{max}}}{2}$${% endraw %}:
 
 <div class="equation">
- $$\frac{{v}_{\text{max}}}{2} = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$
+{% raw %} $$\frac{{v}_{\text{max}}}{2} = {v}_{\text{max}}\sqrt{1 - \frac{x^2}{X^2}}$$ {% endraw %}
 </div>
 
-Divide both sides by $${v}_{\text{max}}$$:
+Divide both sides by {% raw %}$${v}_{\text{max}}$${% endraw %}:
 
 <div class="equation">
  $$\frac{1}{2} = \sqrt{1 - \frac{x^2}{X^2}}$$

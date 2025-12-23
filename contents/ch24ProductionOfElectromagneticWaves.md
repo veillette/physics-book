@@ -445,24 +445,24 @@ The SI unit for the speed of light $$c$$ is:
 Substituting these into $$B=\frac{E}{c}$$:
 
 <div class="equation">
- $$\text{Units of }B=\frac{\text{V/m}}{\text{m/s}}=\frac{\text{V}}{\text{m}}\cdot \frac{\text{s}}{\text{m}}=\frac{\text{V}\cdot \text{s}}{{\text{m}}^{2}}$$
+{% raw %} $$\text{Units of }B=\frac{\text{V/m}}{\text{m/s}}=\frac{\text{V}}{\text{m}}\cdot \frac{\text{s}}{\text{m}}=\frac{\text{V}\cdot \text{s}}{{\text{m}}^{2}}$$ {% endraw %}
 </div>
 
 Now we need to express volts in terms of fundamental units. Recall that:
 - Volt: $$\text{V}=\frac{\text{J}}{\text{C}}$$ (joule per coulomb)
 - Joule: $$\text{J}=\text{N}\cdot \text{m}$$ (newton-meter)
-- Newton: $$\text{N}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}$$
+- Newton: {% raw %}$$\text{N}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}$${% endraw %}
 
 Substituting:
 
 <div class="equation">
- $$\text{V}=\frac{\text{J}}{\text{C}}=\frac{\text{N}\cdot \text{m}}{\text{C}}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}\cdot \frac{\text{m}}{\text{C}}=\frac{\text{kg}\cdot {\text{m}}^{2}}{\text{C}\cdot {\text{s}}^{2}}$$
+{% raw %} $$\text{V}=\frac{\text{J}}{\text{C}}=\frac{\text{N}\cdot \text{m}}{\text{C}}=\frac{\text{kg}\cdot \text{m}}{{\text{s}}^{2}}\cdot \frac{\text{m}}{\text{C}}=\frac{\text{kg}\cdot {\text{m}}^{2}}{\text{C}\cdot {\text{s}}^{2}}$$ {% endraw %}
 </div>
 
 Now substituting this expression for volts into our units for $$B$$:
 
 <div class="equation">
- $$\text{Units of }B=\frac{\text{V}\cdot \text{s}}{{\text{m}}^{2}}=\frac{\text{kg}\cdot {\text{m}}^{2}}{\text{C}\cdot {\text{s}}^{2}}\cdot \frac{\text{s}}{{\text{m}}^{2}}=\frac{\text{kg}}{\text{C}\cdot \text{s}}$$
+{% raw %} $$\text{Units of }B=\frac{\text{V}\cdot \text{s}}{{\text{m}}^{2}}=\frac{\text{kg}\cdot {\text{m}}^{2}}{\text{C}\cdot {\text{s}}^{2}}\cdot \frac{\text{s}}{{\text{m}}^{2}}=\frac{\text{kg}}{\text{C}\cdot \text{s}}$$ {% endraw %}
 </div>
 
 Since coulomb equals ampere-second ($$\text{C}=\text{A}\cdot \text{s}$$), we have:
