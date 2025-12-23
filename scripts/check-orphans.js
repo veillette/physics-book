@@ -20,6 +20,7 @@ class OrphanFileFinder {
     this.excludedFiles = new Set([
       'assets/image/imagePWA.png', // Source image for icon generation
       'assets/icon/apple-touch-icon-180x180.png', // Alternative icon size
+      'resources/by_license.svg', // License badge for the project
     ]);
 
     this.stats = {
@@ -439,7 +440,10 @@ class OrphanFileFinder {
           }
         }
 
-        if (!isReferenced) {
+        // Check if file is in the exclusion list
+        const isExcluded = this.excludedFiles.has(normalizedPath);
+
+        if (!isReferenced && !isExcluded) {
           this.stats.orphanImages++;
           this.orphanImages.push({
             path: relativePath,
@@ -448,6 +452,9 @@ class OrphanFileFinder {
             type: this.getFileType(file),
             dimensions: await this.getImageDimensions(path.join(this.resourcesDir, file)),
           });
+        } else if (isExcluded) {
+          // Count excluded files as referenced for stats purposes
+          this.stats.referencedImages++;
         }
       }
     } catch (error) {
