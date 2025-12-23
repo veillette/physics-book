@@ -39,7 +39,9 @@ class LiquidSyntaxFixer {
     this.applyFix = options.applyFix || false;
 
     // Pattern to detect math expressions
+    // eslint-disable-next-line no-useless-escape
     this.inlineMathPattern = /\$(?!\$)([^\$]+)\$/g;
+    // eslint-disable-next-line no-useless-escape
     this.blockMathPattern = /\$\$([^\$]+)\$\$/g;
 
     this.stats = {
@@ -141,7 +143,7 @@ class LiquidSyntaxFixer {
     const lines = content.split('\n');
     const fixedLines = [];
 
-    lines.forEach((line) => {
+    lines.forEach(line => {
       // Skip lines already wrapped in raw tags
       if (line.includes('{%') && line.includes('raw')) {
         fixedLines.push(line);
@@ -221,8 +223,8 @@ class LiquidSyntaxFixer {
       try {
         const allFiles = fs.readdirSync(this.contentDir);
         files = allFiles
-          .filter((file) => file.endsWith('.md'))
-          .map((file) => path.join(this.contentDir, file));
+          .filter(file => file.endsWith('.md'))
+          .map(file => path.join(this.contentDir, file));
       } catch (error) {
         console.error(`❌ Error reading contents directory: ${error.message}`);
         process.exit(1);
@@ -243,7 +245,7 @@ class LiquidSyntaxFixer {
    * Print final report
    */
   printReport() {
-    console.log('\n' + '='.repeat(60));
+    console.log(`\n${'='.repeat(60)}`);
 
     if (this.stats.filesWithIssues === 0) {
       console.log('✅ No Liquid syntax conflicts found!');
@@ -252,9 +254,13 @@ class LiquidSyntaxFixer {
     }
 
     if (this.applyFix) {
-      console.log(`✅ Fixed ${this.stats.totalIssues} issue(s) in ${this.stats.filesFixed} file(s)`);
+      console.log(
+        `✅ Fixed ${this.stats.totalIssues} issue(s) in ${this.stats.filesFixed} file(s)`
+      );
     } else {
-      console.log(`⚠️  Found ${this.issues.length} issue(s) in ${this.stats.filesWithIssues} file(s)`);
+      console.log(
+        `⚠️  Found ${this.issues.length} issue(s) in ${this.stats.filesWithIssues} file(s)`
+      );
       console.log('\nRun with --apply to fix these issues.');
     }
 
@@ -276,7 +282,8 @@ class LiquidSyntaxFixer {
         console.log(`\n📄 ${issue.file}:`);
       }
       console.log(`   Line ${issue.line}: ${issue.type}`);
-      const preview = issue.content.length > 80 ? issue.content.substring(0, 80) + '...' : issue.content;
+      const preview =
+        issue.content.length > 80 ? `${issue.content.substring(0, 80)}...` : issue.content;
       console.log(`   ${preview}`);
     }
   }
@@ -334,7 +341,7 @@ Solution:
   }
 
   const applyFix = args.includes('--apply');
-  const files = args.filter((arg) => !arg.startsWith('--'));
+  const files = args.filter(arg => !arg.startsWith('--'));
 
   const fixer = new LiquidSyntaxFixer({ applyFix });
   const success = await fixer.run(files);
@@ -344,7 +351,7 @@ Solution:
 
 // Run main only when executed directly
 if (import.meta.url === `file://${process.argv[1]}`) {
-  main().catch((error) => {
+  main().catch(error => {
     console.error('Error:', error);
     process.exit(1);
   });
