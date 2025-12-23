@@ -471,7 +471,7 @@ Step 1: Find the critical velocity by rearranging the Reynolds number formula:
 
 $${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
 
-$$v = \frac{{N}_{\text{R}} \eta}{2\rho r} = \frac{(2000)(1.002 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1000 \text{ kg/m}^3)(0.100 \text{ m})}$$
+$$v = \frac{N_{\text{R}} \eta}{2\rho r} = \frac{(2000)(1.002 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1000 \text{ kg/m}^3)(0.100 \text{ m})}$$
 
 $$v = \frac{2.004}{200} \text{ m/s} = 1.00 \times 10^{-2} \text{ m/s} = 1.00 \text{ cm/s}$$
 
@@ -517,7 +517,7 @@ Step 1: Find the maximum velocity for laminar flow:
 
 $${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
 
-$$v_{\text{max}} = \frac{{N}_{\text{R}} \eta}{2\rho r} = \frac{(2000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m})}$$
+$$v_{\text{max}} = \frac{N_{\text{R}} \eta}{2\rho r} = \frac{(2000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m})}$$
 
 $$v_{\text{max}} = \frac{4.168}{4.10} \text{ m/s} = 1.02 \text{ m/s}$$
 
@@ -670,7 +670,7 @@ Step 1: Find the critical velocity for certain turbulence:
 
 $${N}_{\text{R}} = \frac{2\rho v r}{\eta}$$
 
-$$v_{\text{crit}} = \frac{{N}_{\text{R}} \eta}{2\rho r} = \frac{(3000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(0.0125 \text{ m})}$$
+$$v_{\text{crit}} = \frac{N_{\text{R}} \eta}{2\rho r} = \frac{(3000)(2.084 \times 10^{-3} \text{ Pa} \cdot \text{s})}{2(1025 \text{ kg/m}^3)(0.0125 \text{ m})}$$
 
 $$v_{\text{crit}} = \frac{6.252}{25.6} \text{ m/s} = 0.244 \text{ m/s} = 24.4 \text{ cm/s}$$
 
