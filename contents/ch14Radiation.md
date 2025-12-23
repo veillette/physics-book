@@ -419,7 +419,7 @@ The calculation demonstrates **radiative cooling**: on clear nights, surfaces ca
 For a typical house:
 - Roof area: 150-300 m²
 - This roof's heat loss: 21.7 kW
-- Cost impact: At $0.10/kWh electricity, running 24h = $52/day heating cost just to offset roof radiation!
+- Cost impact: At \$0.10/kWh electricity, running 24h = \$52/day heating cost just to offset roof radiation!
 
 This underscores the importance of insulation, which doesn't stop radiation but reduces the overall heat transfer through the roof structure.
 
