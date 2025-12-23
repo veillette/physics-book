@@ -633,7 +633,21 @@ What is the pressure inside an alveolus having a radius of  $$ 2.50 \times 10^{-
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$592 {\text{N/m}}^{2} $$
+**Strategy:**
+Use the gauge pressure formula for a spherical bubble: $$ P = \frac{4\gamma}{r} $$, where $$ \gamma $$ is the surface tension.
+
+**Solution:**
+Given:
+- Alveolus radius: $$ r = 2.50 \times 10^{-4} \text{ m} $$
+- Surface tension of soapy water: $$ \gamma = 0.0370 \text{ N/m} $$ (from Table 1)
+
+Calculate the gauge pressure:
+$$ P = \frac{4\gamma}{r} = \frac{4(0.0370 \text{ N/m})}{2.50 \times 10^{-4} \text{ m}} $$
+
+$$ P = \frac{0.148 \text{ N/m}}{2.50 \times 10^{-4} \text{ m}} = 592 \text{ N/m}^2 = 592 \text{ Pa} $$
+
+**Discussion:**
+The gauge pressure inside the alveolus is approximately **592 Pa** (about 4.4 mm Hg). This is the pressure created by surface tension alone. In reality, lung surfactant reduces the surface tension in alveoli to about 0.020-0.025 N/m, lowering this pressure significantly. Without surfactant, the high surface tension pressure would make breathing very difficult and cause alveoli to collapse. This is critical in premature infants whose lungs haven't yet produced sufficient surfactant, leading to respiratory distress syndrome. The $$ P \propto 1/r $$ relationship also means smaller alveoli would have higher pressures and tend to collapse into larger ones—another reason surfactant is essential.
 
 </div>
 </div>
@@ -677,7 +691,26 @@ What is the gauge pressure in millimeters of mercury inside a soap bubble 0.100 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 2.23 \times 10^{-2}  \text{mm Hg} $$
+**Strategy:**
+Use the gauge pressure formula for a soap bubble: $$ P = \frac{4\gamma}{r} $$, then convert the result to mm Hg.
+
+**Solution:**
+Given:
+- Diameter = 0.100 m, so radius $$ r = 0.0500 \text{ m} $$
+- Surface tension of soapy water: $$ \gamma = 0.0370 \text{ N/m} $$ (from Table 1)
+
+Calculate gauge pressure in Pascals:
+$$ P = \frac{4\gamma}{r} = \frac{4(0.0370 \text{ N/m})}{0.0500 \text{ m}} = \frac{0.148 \text{ N/m}}{0.0500 \text{ m}} = 2.96 \text{ Pa} $$
+
+Convert to mm Hg using $$ P = \rho g h $$, where $$ \rho_{\text{Hg}} = 13.6 \times 10^3 \text{ kg/m}^3 $$:
+
+$$ h = \frac{P}{\rho g} = \frac{2.96 \text{ Pa}}{(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{2.96}{1.33 \times 10^5} \text{ m} $$
+
+$$ h = 2.23 \times 10^{-5} \text{ m} = 2.23 \times 10^{-2} \text{ mm Hg} $$
+
+**Discussion:**
+The gauge pressure inside the soap bubble is approximately **0.0223 mm Hg** (or 2.96 Pa). This is a very small pressure—only about 0.002% of atmospheric pressure. The relatively large radius (5 cm) results in low pressure since $$ P \propto 1/r $$. For comparison, a small bubble with 1 mm radius would have 50 times higher pressure (~1.1 mm Hg). This explains why small soap bubbles "pop" more readily—their higher internal pressure creates greater stress on the thin soap film.
+
 </div>
 </div>
 

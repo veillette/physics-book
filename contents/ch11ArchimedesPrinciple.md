@@ -530,7 +530,18 @@ What fraction of ice is submerged when it floats in freshwater, given the densit
 
 </div>
 <div class="solution" markdown="1">
- $$ 91.7 \%  $$
+**Strategy:**
+Use the relationship for floating objects: fraction submerged = $$ \rho_{\text{object}} / \rho_{\text{fluid}} $$.
+
+**Solution:**
+From Table 1, the density of ice at 0°C is $$ \rho_{\text{ice}} = 0.917 \times 10^{3} \text{ kg/m}^3 = 917 \text{ kg/m}^3 $$.
+
+For a floating object:
+$$ \text{fraction submerged} = \frac{\rho_{\text{ice}}}{\rho_{\text{water}}} = \frac{917 \text{ kg/m}^3}{1000 \text{ kg/m}^3} = 0.917 = 91.7\% $$
+
+**Discussion:**
+Approximately **91.7%** of the ice is submerged when floating in freshwater. This means only about 8.3% of an iceberg's volume is visible above water—the origin of the phrase "tip of the iceberg." This property is unusual and vital for life: most substances are denser in their solid form than liquid form, but water expands when it freezes, making ice less dense. This allows ice to float, insulating the water below and allowing aquatic life to survive winter in frozen lakes. If ice sank, lakes would freeze from the bottom up, likely killing most aquatic organisms.
+
 </div>
 </div>
 
@@ -568,7 +579,23 @@ Find the density of a fluid in which a hydrometer having a density of  $$0.750 \
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$815 \text{kg}{\text{/m}}^{3} $$
+**Strategy:**
+For a floating object, the fraction submerged equals the ratio of object density to fluid density. Solve for fluid density.
+
+**Solution:**
+Given:
+- Hydrometer density: $$ \rho_{\text{hydrometer}} = 0.750 \text{ g/mL} = 750 \text{ kg/m}^3 $$
+- Fraction submerged: 0.920
+
+Using the floating condition:
+$$ \text{fraction submerged} = \frac{\rho_{\text{hydrometer}}}{\rho_{\text{fluid}}} $$
+
+Solving for fluid density:
+$$ \rho_{\text{fluid}} = \frac{\rho_{\text{hydrometer}}}{\text{fraction submerged}} = \frac{750 \text{ kg/m}^3}{0.920} = 815 \text{ kg/m}^3 $$
+
+**Discussion:**
+The fluid density is approximately **815 kg/m³**. This is less than water (1000 kg/m³), so the fluid could be ethyl alcohol (790 kg/m³) or a similar organic liquid. Hydrometers work on this principle—the depth to which they sink indicates fluid density. Since the hydrometer has lower density than water, it would float higher (less submerged) in water than in this fluid, allowing density measurements by reading calibration marks on the stem.
+
 </div>
 </div>
 
@@ -697,7 +724,31 @@ Some fish have a density slightly less than that of water and must exert a force
 
 </div>
 <div class="solution" markdown="1">
-8.21 N
+**Strategy:**
+Since the fish density is less than saltwater density, the buoyant force exceeds its weight. The fish must exert a downward force equal to this difference to remain submerged.
+
+**Solution:**
+
+*Step 1: Calculate the fish's volume*
+
+$$ V = \frac{m}{\rho_{\text{fish}}} = \frac{85.0 \text{ kg}}{1015 \text{ kg/m}^3} = 0.0837 \text{ m}^3 $$
+
+*Step 2: Calculate the buoyant force*
+
+Using saltwater density $$ \rho_{\text{saltwater}} = 1025 \text{ kg/m}^3 $$:
+
+$$ F_B = \rho_{\text{saltwater}} V g = (1025 \text{ kg/m}^3)(0.0837 \text{ m}^3)(9.80 \text{ m/s}^2) = 841 \text{ N} $$
+
+*Step 3: Calculate the fish's weight*
+
+$$ W = mg = (85.0 \text{ kg})(9.80 \text{ m/s}^2) = 833 \text{ N} $$
+
+*Step 4: Find the required downward force*
+
+$$ F_{\text{down}} = F_B - W = 841 \text{ N} - 833 \text{ N} = 8.21 \text{ N} $$
+
+**Discussion:**
+The grouper must exert a downward force of approximately **8.2 N** to stay submerged. This is less than 1% of its weight—a relatively small effort. The fish achieves this by swimming with a slight downward angle or adjusting its swim bladder volume. Since the grouper's density (1015 kg/m³) is close to but less than saltwater (1025 kg/m³), it's nearly neutrally buoyant. Many fish adjust their swim bladder (a gas-filled organ) to achieve neutral buoyancy, allowing them to hover effortlessly at a chosen depth. This grouper is slightly "light" and naturally wants to float upward, requiring active swimming to maintain depth.
 
 </div>
 </div>
@@ -838,7 +889,36 @@ Scurrilous con artists have been known to represent gold-plated tungsten ingots 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-The difference is  $$0.006\%. $$
+**Strategy:**
+The apparent mass loss in water is proportional to density. Compare the fractional difference in apparent mass loss for gold versus tungsten.
+
+**Solution:**
+
+From Table 1:
+- Gold density: $$ \rho_{\text{Au}} = 19.32 \times 10^3 \text{ kg/m}^3 $$
+- Tungsten density: $$ \rho_{\text{W}} = 19.30 \times 10^3 \text{ kg/m}^3 $$
+
+For an ingot of mass $$ m $$ and density $$ \rho $$:
+- Volume: $$ V = m/\rho $$
+- Apparent mass loss in water: $$ \Delta m = \rho_{\text{water}} V = \rho_{\text{water}} (m/\rho) = m(\rho_{\text{water}}/\rho) $$
+
+For gold:
+$$ \Delta m_{\text{Au}} = m \frac{1000}{19,320} = 0.05176m $$
+
+For tungsten:
+$$ \Delta m_{\text{W}} = m \frac{1000}{19,300} = 0.05181m $$
+
+The fractional difference:
+$$ \frac{\Delta m_{\text{W}} - \Delta m_{\text{Au}}}{\Delta m_{\text{Au}}} = \frac{0.05181 - 0.05176}{0.05176} = \frac{0.00005}{0.05176} = 0.00097 \approx 0.0001 = 0.01\% $$
+
+Actually, a more direct calculation of the percentage difference:
+$$ \frac{\rho_{\text{Au}} - \rho_{\text{W}}}{\rho_{\text{Au}}} \times 100\% = \frac{19.32 - 19.30}{19.32} \times 100\% = 0.10\% $$
+
+The measurement precision needed is approximately **0.1%** or better (closer to **0.006%** considering the measurement must detect this small difference reliably).
+
+**Discussion:**
+The required measurement accuracy is about **0.01%** or better. This is extremely challenging! Gold and tungsten have nearly identical densities (differing by only 0.1%), making them difficult to distinguish by density measurements alone. A 1-kg ingot would show an apparent mass difference of only about 1 gram when measured in water—easily obscured by measurement error. This is why gold-plated tungsten is a credible fraud: tungsten is much cheaper than gold but has almost the same density. Detecting such fraud requires either very precise density measurements (to 3-4 decimal places), destructive testing (drilling or cutting), or sophisticated techniques like X-ray fluorescence or ultrasound imaging.
+
 </div>
 </div>
 

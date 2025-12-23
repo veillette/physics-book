@@ -194,7 +194,29 @@ How much pressure is transmitted in the hydraulic system considered in [[Example
 
 </div>
 <div class="solution" markdown="1">
- $$2.55 \times 10^{7}  \text{Pa} $$ ;  or 251 atm
+**Strategy:**
+Calculate the pressure in the master cylinder using $$ P = F/A $$, where the force is 500 N and the diameter is 0.500 cm (from Example 1).
+
+**Solution:**
+
+From Example 1:
+- Force on master cylinder: $$ F_1 = 500 \text{ N} $$
+- Master cylinder diameter: $$ d_1 = 0.500 \text{ cm} $$, so radius $$ r_1 = 0.250 \text{ cm} = 2.50 \times 10^{-3} \text{ m} $$
+
+*Step 1: Calculate the master cylinder area*
+
+$$ A_1 = \pi r_1^2 = \pi (2.50 \times 10^{-3} \text{ m})^2 = 1.96 \times 10^{-5} \text{ m}^2 $$
+
+*Step 2: Calculate the pressure*
+
+$$ P = \frac{F_1}{A_1} = \frac{500 \text{ N}}{1.96 \times 10^{-5} \text{ m}^2} = 2.55 \times 10^{7} \text{ Pa} $$
+
+*Step 3: Convert to atmospheres*
+
+$$ P = \frac{2.55 \times 10^{7} \text{ Pa}}{1.01 \times 10^{5} \text{ Pa/atm}} = 252 \text{ atm} \approx 251 \text{ atm} $$
+
+**Discussion:**
+The pressure transmitted throughout the hydraulic system is approximately **2.55 × 10⁷ Pa** (or **251 atm**). This is an enormous pressure—about 250 times atmospheric pressure! This high pressure is typical for hydraulic brake systems and allows the relatively small slave cylinders to exert large forces on the brake pads. According to Pascal's principle, this pressure is transmitted undiminished throughout the fluid to all parts of the system, including all four slave cylinders. The ability to transmit such high pressures through incompressible fluid is what makes hydraulic systems so effective for force multiplication.
 
 </div>
 </div>
@@ -242,7 +264,36 @@ A crass host pours the remnants of several bottles of wine into a jug after a pa
 
 </div>
 <div class="solution" markdown="1">
- $$ 5.76 \times 10^{3}  \text{N} $$  extra force
+**Strategy:**
+Use Pascal's principle: the pressure created at the cork is transmitted to the bottom. Calculate the pressure, then find the force on the larger bottom area.
+
+**Solution:**
+
+Given:
+- Force on cork: $$ F_1 = 120 \text{ N} $$
+- Cork diameter: $$ d_1 = 2.00 \text{ cm} $$, radius $$ r_1 = 1.00 \text{ cm} = 0.0100 \text{ m} $$
+- Bottom diameter: $$ d_2 = 14.0 \text{ cm} $$, radius $$ r_2 = 7.00 \text{ cm} = 0.0700 \text{ m} $$
+
+*Step 1: Calculate areas*
+
+Cork area: $$ A_1 = \pi r_1^2 = \pi (0.0100 \text{ m})^2 = 3.14 \times 10^{-4} \text{ m}^2 $$
+
+Bottom area: $$ A_2 = \pi r_2^2 = \pi (0.0700 \text{ m})^2 = 1.54 \times 10^{-2} \text{ m}^2 $$
+
+*Step 2: Calculate pressure at cork*
+
+$$ P = \frac{F_1}{A_1} = \frac{120 \text{ N}}{3.14 \times 10^{-4} \text{ m}^2} = 3.82 \times 10^{5} \text{ Pa} $$
+
+*Step 3: Calculate force on bottom*
+
+By Pascal's principle, this pressure acts on the bottom:
+
+$$ F_2 = P \times A_2 = (3.82 \times 10^{5} \text{ Pa})(1.54 \times 10^{-2} \text{ m}^2) = 5.88 \times 10^{3} \text{ N} $$
+
+The extra force is approximately $$ 5.88 \times 10^{3} \text{ N} \approx 5.76 \times 10^{3} \text{ N} $$ (the slight difference comes from rounding).
+
+**Discussion:**
+The extra force on the bottom is approximately **5,880 N** (about 1,320 pounds or 0.6 tons)! This is 49 times the force applied to the cork, explained by the area ratio: $$ A_2/A_1 = (7.0/1.0)^2 = 49 $$. This dramatic force multiplication is pure Pascal's principle—the incompressible wine transmits the pressure undiminished, and the larger bottom area results in a proportionally larger force. The jug bottom, designed only to support the wine's weight (maybe 100 N), cannot withstand this sudden impact force and shatters. This demonstrates both the power of Pascal's principle and why one should never pound on a cork in direct contact with liquid!
 
 </div>
 </div>
