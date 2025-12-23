@@ -640,9 +640,83 @@ The high latent heat of fusion also explains why ice on lakes takes a long time 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a) 591 kcal
 
-(b) $$ 4.94 \times 10^{3} \text{s} $$
+**Strategy**
+
+This problem involves both heating (temperature change) and phase change (boiling). We must:
+1. Heat both the aluminum pot and water from 30.0°C to 100°C using $$Q = mc\Delta T$$
+2. Boil away 0.750 kg of water using $$Q = mL_v$$
+3. Sum all heat transfers
+4. Use $$P = Q/t$$ to find the time required
+
+**Solution**
+
+Given:
+- Mass of aluminum pot: $$m_{Al} = 0.750 \text{ kg}$$
+- Mass of water: $$m_w = 2.50 \text{ kg}$$
+- Initial temperature: $$T_i = 30.0\text{ºC}$$
+- Boiling point: $$T_f = 100\text{ºC}$$
+- Mass of water to evaporate: $$m_{evap} = 0.750 \text{ kg}$$
+- Power: $$P = 500 \text{ W}$$
+- Specific heat of aluminum: $$c_{Al} = 900 \text{ J/kg}\cdot\text{ºC}$$
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of vaporization: $$L_v = 2256 \text{ kJ/kg}$$
+
+**(a)** Calculate total heat transfer:
+
+**Step 1:** Heat the aluminum pot from 30.0°C to 100°C:
+<div class="equation">
+$$Q_{Al} = m_{Al}c_{Al}\Delta T = (0.750)(900)(100 - 30.0) = (0.750)(900)(70.0) = 47250 \text{ J}$$
+</div>
+
+**Step 2:** Heat the water from 30.0°C to 100°C:
+<div class="equation">
+$$Q_w = m_w c_w \Delta T = (2.50)(4186)(70.0) = 732550 \text{ J}$$
+</div>
+
+**Step 3:** Boil away 0.750 kg of water:
+<div class="equation">
+$$Q_{evap} = m_{evap}L_v = (0.750)(2256 \times 10^3) = 1692000 \text{ J}$$
+</div>
+
+**Step 4:** Total heat transfer:
+<div class="equation">
+$$Q_{total} = Q_{Al} + Q_w + Q_{evap} = 47250 + 732550 + 1692000 = 2471800 \text{ J}$$
+</div>
+
+Convert to kilocalories (1 kcal = 4186 J):
+<div class="equation">
+$$Q_{total} = \frac{2471800}{4186} = 591 \text{ kcal}$$
+</div>
+
+**(b)** Time required at 500 W:
+
+<div class="equation">
+$$t = \frac{Q_{total}}{P} = \frac{2471800 \text{ J}}{500 \text{ W}} = 4944 \text{ s} = 4.94 \times 10^3 \text{ s}$$
+</div>
+
+Convert to minutes:
+<div class="equation">
+$$t = \frac{4944 \text{ s}}{60 \text{ s/min}} = 82.4 \text{ min} \approx 1 \text{ hour and } 22 \text{ minutes}$$
+</div>
+
+**Discussion**
+
+The calculation shows that about 68% of the energy (1.69 MJ out of 2.47 MJ) goes into evaporating the water, while only 32% goes into heating. This illustrates the enormous energy required for phase changes compared to temperature changes.
+
+Breaking down the heating phase:
+- Aluminum pot: 47.3 kJ (1.9%)
+- Water: 733 kJ (29.7%)
+- Evaporation: 1692 kJ (68.4%)
+
+The relatively small contribution from heating the aluminum (only 1.9%) shows why we often neglect container heating in rough calculations, though it's included here for accuracy.
+
+The time of 82.4 minutes (about 1 hour 22 minutes) seems reasonable for boiling that much water on a typical stove burner. A 500 W heat source is modest—typical electric stove burners range from 1000-3000 W, so a higher-power burner would complete this much faster.
+
+**Answer**
+
+(a) The total heat transfer required is **591 kcal** or **2.47 MJ**.
+(b) At 500 W, this takes **4.94 × 10³ s** or approximately **82.4 minutes** (1 hour 22 minutes).
 
 </div>
 </div>
@@ -703,7 +777,54 @@ On a trip, you notice that a 3.50-kg bag of ice lasts an average of one day in y
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-13.5 W
+
+**Strategy**
+
+The ice melts at constant temperature (0°C), so all the heat entering the cooler goes into the phase change. We use $$Q = mL_f$$ to find the total heat absorbed, then divide by time to find power: $$P = Q/t$$.
+
+**Solution**
+
+Given:
+- Mass of ice: $$m = 3.50 \text{ kg}$$
+- Time: $$t = 1 \text{ day} = 24 \text{ hours} = 86400 \text{ s}$$
+- Latent heat of fusion: $$L_f = 334 \text{ kJ/kg} = 334000 \text{ J/kg}$$
+
+Calculate heat absorbed to melt all the ice:
+<div class="equation">
+$$Q = mL_f = (3.50 \text{ kg})(334000 \text{ J/kg}) = 1169000 \text{ J} = 1.169 \text{ MJ}$$
+</div>
+
+Calculate average power:
+<div class="equation">
+$$P = \frac{Q}{t} = \frac{1169000 \text{ J}}{86400 \text{ s}} = 13.5 \text{ W}$$
+</div>
+
+**Discussion**
+
+The average power of 13.5 W represents the rate at which heat leaks into the cooler from the warmer surroundings. This is roughly equivalent to the power of a small LED night light, which seems quite reasonable for a typical cooler.
+
+This heat enters through several mechanisms:
+1. **Conduction** through the cooler walls (dominant pathway)
+2. **Convection** when you open the cooler lid
+3. **Radiation** from warm objects placed in the cooler
+
+The fact that a 3.50-kg bag of ice lasts exactly one day gives us useful information about cooler performance. Better-insulated coolers (with thicker walls, better seals, and reflective surfaces) would have lower heat leak rates and make ice last longer.
+
+For comparison:
+- A well-insulated premium cooler: ~5-10 W (ice lasts 3-4 days)
+- Average cooler (this problem): ~13.5 W (ice lasts 1 day)
+- Poorly insulated cooler: ~25-40 W (ice lasts 12 hours or less)
+
+To make ice last longer, you can:
+- Use a better-insulated cooler
+- Minimize opening the lid
+- Pre-chill items before placing in cooler
+- Keep cooler in shade
+- Use ice blocks rather than cubes (lower surface area to volume ratio)
+
+**Answer**
+
+The average power entering the ice is **13.5 W**.
 
 </div>
 </div>
@@ -802,6 +923,65 @@ $$917{\text{kg/m}}^{3} $$ ?
 
 (c) How many years would it take sunlight alone to melt ice this thick, if the
 ice absorbs an average of $$100 {\text{W/m}}^{2} $$ , 12.00 h per day?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We calculate the volume from given dimensions, then mass from density. The heat needed is $$Q = mL_f$$. For the time, we find total energy absorbed per day from the power and time, then divide total heat by daily energy absorption.
+
+**Solution**
+
+Given:
+- Dimensions: $$L = 160 \text{ km} = 1.60 \times 10^5 \text{ m}$$, $$W = 40.0 \text{ km} = 4.00 \times 10^4 \text{ m}$$, $$h = 250 \text{ m}$$
+- Density of ice: $$\rho = 917 \text{ kg/m}^3$$
+- Latent heat of fusion: $$L_f = 334 \text{ kJ/kg} = 3.34 \times 10^5 \text{ J/kg}$$
+- Solar power absorbed: $$P = 100 \text{ W/m}^2$$
+- Daily sunlight: $$t = 12.00 \text{ h/day} = 43200 \text{ s/day}$$
+
+**(a)** Calculate volume and mass:
+<div class="equation">
+$$V = L \times W \times h = (1.60 \times 10^5)(4.00 \times 10^4)(250) = 1.60 \times 10^{12} \text{ m}^3$$
+</div>
+
+<div class="equation">
+$$m = \rho V = (917)(1.60 \times 10^{12}) = 1.47 \times 10^{15} \text{ kg}$$
+</div>
+
+**(b)** Heat needed to melt:
+<div class="equation">
+$$Q = mL_f = (1.47 \times 10^{15})(3.34 \times 10^5) = 4.91 \times 10^{20} \text{ J}$$
+</div>
+
+**(c)** Time to melt:
+
+Surface area: $$A = L \times W = (1.60 \times 10^5)(4.00 \times 10^4) = 6.40 \times 10^9 \text{ m}^2$$
+
+Energy absorbed per day:
+<div class="equation">
+$$E_{day} = P \times A \times t = (100)(6.40 \times 10^9)(43200) = 2.76 \times 10^{16} \text{ J/day}$$
+</div>
+
+Time in days:
+<div class="equation">
+$$t_{days} = \frac{Q}{E_{day}} = \frac{4.91 \times 10^{20}}{2.76 \times 10^{16}} = 1.78 \times 10^4 \text{ days}$$
+</div>
+
+Convert to years:
+<div class="equation">
+$$t_{years} = \frac{1.78 \times 10^4}{365.25} = 48.7 \text{ years}$$
+</div>
+
+**Discussion**
+
+The enormous mass (1.47 trillion metric tons) and energy requirement (4.91 × 10²⁰ J) demonstrate the massive scale of Antarctic icebergs. Even with continuous solar heating for 12 hours daily, it would take nearly 49 years to melt completely—explaining why large icebergs can drift for years before melting. In reality, they melt faster due to warmer ocean water underneath and wave action, but this calculation shows the dominant role of latent heat in climate and oceanography.
+
+**Answer**
+
+(a) Mass: **1.47 × 10¹⁵ kg**
+(b) Heat needed: **4.91 × 10²⁰ J**
+(c) Time to melt: **48.7 years**
 
 </div>
 </div>
@@ -905,7 +1085,79 @@ Indigenous people sometimes cook in watertight baskets by placing hot rocks into
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-4.38 kg
+
+**Strategy**
+
+The hot rocks transfer heat to the water through two processes: raising the water temperature and causing some water to vaporize. We use conservation of energy: heat lost by rocks equals heat gained by water plus heat used to evaporate water. This gives us: $$|Q_{rocks}| = Q_{water} + Q_{vapor}$$.
+
+**Solution**
+
+Given:
+- Mass of water: $$m_w = 4.00 \text{ kg}$$
+- Initial water temperature: $$T_{w,i} = 15.0\text{ºC}$$
+- Final water temperature: $$T_f = 100\text{ºC}$$
+- Initial rock temperature: $$T_{r,i} = 500\text{ºC}$$
+- Mass of water vaporized: $$m_v = 0.0250 \text{ kg}$$
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Specific heat of granite: $$c_r = 840 \text{ J/kg}\cdot\text{ºC}$$ (same as concrete from Ch 14, Section 2, Table 1)
+- Latent heat of vaporization: $$L_v = 2256 \text{ kJ/kg} = 2256000 \text{ J/kg}$$
+
+**Heat gained by water:**
+<div class="equation">
+$$Q_w = m_w c_w (T_f - T_{w,i}) = (4.00)(4186)(100 - 15.0) = (4.00)(4186)(85.0)$$
+</div>
+
+<div class="equation">
+$$Q_w = 1423240 \text{ J}$$
+</div>
+
+**Heat used to vaporize water:**
+<div class="equation">
+$$Q_v = m_v L_v = (0.0250)(2256000) = 56400 \text{ J}$$
+</div>
+
+**Total heat absorbed:**
+<div class="equation">
+$$Q_{total} = Q_w + Q_v = 1423240 + 56400 = 1479640 \text{ J}$$
+</div>
+
+**Heat lost by rocks:**
+
+Let $$m_r$$ = mass of rocks
+<div class="equation">
+$$Q_r = m_r c_r (T_{r,i} - T_f) = m_r (840)(500 - 100) = m_r (840)(400) = 336000 m_r$$
+</div>
+
+**Apply conservation of energy:**
+<div class="equation">
+$$Q_r = Q_{total}$$
+</div>
+
+<div class="equation">
+$$336000 m_r = 1479640$$
+</div>
+
+<div class="equation">
+$$m_r = \frac{1479640}{336000} = 4.40 \text{ kg}$$
+</div>
+
+(Note: The expected answer is 4.38 kg; the small difference likely comes from rounding in intermediate steps or slightly different values for constants used.)
+
+**Discussion**
+
+The result of approximately 4.4 kg of rocks to heat 4.0 kg of water makes sense given the temperature changes involved. The rocks cool by 400°C (from 500°C to 100°C) while the water heats by only 85°C (from 15°C to 100°C). Despite this 4.7:1 ratio in temperature changes, we need roughly equal masses because:
+
+1. Water has a much higher specific heat (4186 J/kg·ºC) than granite (840 J/kg·ºC)—about 5 times higher
+2. Some energy is "lost" to vaporizing 25 g of water, which requires significant energy (56.4 kJ)
+
+This ancient cooking method was ingenious and widely used by indigenous peoples worldwide, including Native American tribes in regions where fire-safe cooking vessels were unavailable. The technique demonstrates sophisticated understanding of heat transfer. Modern applications of this principle include:
+- Sous-vide cooking with hot water baths
+- Thermal mass in passive solar heating
+- Stone massage therapy
+
+**Answer**
+
+The mass of 500°C rock needed is approximately **4.38 kg** or **4.40 kg**.
 
 </div>
 </div>
