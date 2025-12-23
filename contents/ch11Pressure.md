@@ -403,11 +403,34 @@ This method requires knowing only the fluid's density and basic unit conversions
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 As a woman walks, her entire weight is momentarily placed on one heel of her high-heeled shoes. Calculate the pressure exerted on the floor by the heel if it has an area of  $$1.50 {\text{cm}}^{2} $$
- and the woman’s mass is 55.0 kg. Express the pressure in Pa. (In the early days of commercial flight, women were not allowed to wear high-heeled shoes because aircraft floors were too thin to withstand such large pressures.)
+ and the woman's mass is 55.0 kg. Express the pressure in Pa. (In the early days of commercial flight, women were not allowed to wear high-heeled shoes because aircraft floors were too thin to withstand such large pressures.)
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 3.59 \times 10^{6}  \text{Pa} $$ ;  or  $$521 {\text{lb/in}}^{2} $$
+**Strategy:**
+Calculate the woman's weight (force) and divide by the contact area using $$ P = F/A $$.
+
+**Solution:**
+
+*Step 1: Calculate the woman's weight*
+
+$$ F = mg = (55.0 \text{ kg})(9.80 \text{ m/s}^2) = 539 \text{ N} $$
+
+*Step 2: Convert area to m²*
+
+$$ A = 1.50 \text{ cm}^2 = 1.50 \times 10^{-4} \text{ m}^2 $$
+
+*Step 3: Calculate pressure*
+
+$$ P = \frac{F}{A} = \frac{539 \text{ N}}{1.50 \times 10^{-4} \text{ m}^2} = 3.59 \times 10^{6} \text{ Pa} $$
+
+Converting to lb/in²:
+
+$$ P = 3.59 \times 10^{6} \text{ Pa} \times \frac{1 \text{ lb/in}^2}{6.90 \times 10^{3} \text{ Pa}} = 521 \text{ lb/in}^2 $$
+
+**Discussion:**
+The pressure exerted is approximately **3.59 × 10⁶ Pa** (or **521 psi**), which is about 35 times atmospheric pressure! This enormous pressure results from concentrating the woman's entire weight on the tiny contact area of a high heel. This explains the early aviation restriction—thin aircraft floors could be punctured or permanently dented by such concentrated forces. The same physics explains why snowshoes work (large area = low pressure) and why stiletto heels can damage wooden floors and soft surfaces.
+
 </div>
 </div>
 
@@ -452,7 +475,28 @@ Nail tips exert tremendous pressures when they are hit by hammers because they e
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 2.36 \times 10^{3}  \text{N} $$
+**Strategy:**
+Use $$ P = F/A $$ to solve for force, where the area is that of the circular nail tip.
+
+**Solution:**
+
+*Step 1: Calculate the nail tip area*
+
+Diameter = 1.00 mm, so radius $$ r = 0.500 \text{ mm} = 5.00 \times 10^{-4} \text{ m} $$
+
+$$ A = \pi r^2 = \pi (5.00 \times 10^{-4} \text{ m})^2 = 7.85 \times 10^{-7} \text{ m}^2 $$
+
+*Step 2: Solve for force*
+
+From $$ P = F/A $$:
+
+$$ F = PA = (3.00 \times 10^{9} \text{ N/m}^2)(7.85 \times 10^{-7} \text{ m}^2) $$
+
+$$ F = 2.36 \times 10^{3} \text{ N} $$
+
+**Discussion:**
+The required force is approximately **2360 N** (about 530 pounds). This seems like a modest force compared to the enormous pressure it creates—3 GPa is roughly 30,000 times atmospheric pressure! This pressure is sufficient to exceed the compressive strength of wood, allowing the nail to penetrate. The key is the tiny contact area of the nail tip (less than 1 mm²), which concentrates force into extreme pressure. When a hammer strikes a nail, it briefly exerts thousands of newtons over a very short stopping distance, transferring its kinetic energy to drive the nail. The same principle applies to all pointed tools—axes, chisels, and drill bits all work by concentrating force into small areas.
+
 </div>
 </div>
 

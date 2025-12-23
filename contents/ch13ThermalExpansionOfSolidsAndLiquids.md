@@ -583,12 +583,50 @@ B is twice that of Block A.
 Thermal stresses caused by uneven cooling can easily break glass cookware. Explain why Pyrex®, a glass with a small coefficient of linear expansion, is less susceptible.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider how thermal stresses arise from uneven temperature distribution and how the coefficient of expansion affects these stresses.
+
+**Solution:**
+When glass cookware is cooled unevenly (for example, when hot cookware is placed on a cold surface), different parts of the glass are at different temperatures. The cooler parts contract more than the warmer parts, creating internal stresses.
+
+Thermal stress is proportional to the coefficient of thermal expansion ($$\alpha$$). For ordinary glass, $$\alpha = 9 \times 10^{-6} \text{/ºC}$$, while for Pyrex®, $$\alpha = 3 \times 10^{-6} \text{/ºC}$$ (one-third as large).
+
+When Pyrex® experiences the same temperature difference:
+- It contracts three times less than ordinary glass
+- The differential contraction between hot and cold regions is three times smaller
+- The resulting thermal stresses are three times smaller
+- The cookware is much less likely to exceed the breaking stress of the material
+
+**Discussion:**
+Pyrex® was specifically engineered for thermal shock resistance by using borosilicate glass, which has a much lower coefficient of thermal expansion than ordinary soda-lime glass. This makes it ideal for cookware that experiences rapid temperature changes, such as going from oven to countertop or from refrigerator to oven. However, even Pyrex® has limits and can break if subjected to extreme thermal shock or if there are manufacturing defects or scratches that concentrate stress.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Water expands significantly when it freezes: a volume increase of about 9% occurs. As a result of this expansion and because of the formation and growth of crystals as water freezes, anywhere from 10% to 30% of biological cells are burst when animal or plant material is frozen. Discuss the implications of this cell damage for the prospect of preserving human bodies by freezing so that they can be thawed at some future date when it is hoped that all diseases are curable.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider the structural damage caused by ice crystal formation and volume expansion, and what this means for tissue integrity and function.
+
+**Solution:**
+The prospect of preserving human bodies by freezing (cryonics) faces severe challenges due to ice crystal formation:
+
+1. **Cellular damage**: When 10-30% of cells burst during freezing, critical tissue structures are destroyed. This includes neurons in the brain, which cannot regenerate, potentially destroying memories and personality.
+
+2. **Ice crystal damage**: Ice crystals that form between cells can physically tear cell membranes and damage the extracellular matrix that holds tissues together.
+
+3. **Vascular damage**: Blood vessels would be particularly vulnerable, as their thin walls could be ruptured by ice expansion, making it impossible to restore blood circulation upon thawing.
+
+4. **Organ structure**: Even if individual cells could be repaired, the overall architecture of organs and tissues would be compromised, making functional restoration extremely difficult or impossible.
+
+5. **Information loss**: The brain's neural connections (synapses) that encode memories and personality might be physically disrupted by ice crystal formation, resulting in irreversible information loss.
+
+**Discussion:**
+Current cryonics procedures use cryoprotectants (antifreeze chemicals) to try to minimize ice formation, aiming for vitrification (glass-like solidification) rather than freezing. However, these chemicals are toxic and don't completely prevent ice formation in large organs. The fundamental challenge is that the damage from freezing is not merely a matter of preserving cell chemistry—it involves preserving the precise three-dimensional structure and connectivity of trillions of cells, which may be physically impossible with current or foreseeable technology.
 </div>
 </div>
 
@@ -597,6 +635,31 @@ Water expands significantly when it freezes: a volume increase of about 9% occur
 One method of getting a tight fit, say of a metal peg in a hole in a metal block, is to manufacture the peg slightly larger than the hole. The peg is then inserted when at a different temperature than the block. Should the block be hotter or colder than the peg during insertion? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider what needs to happen: either the peg must shrink or the hole must expand (or both) to allow insertion. Use thermal expansion principles.
+
+**Solution:**
+There are two viable approaches:
+
+**Option 1: Heat the block (recommended)**
+- Heating the block causes it to expand, including the hole
+- The hole gets larger, allowing the oversized peg to fit
+- When the block cools back to room temperature, it contracts, creating a very tight fit around the peg
+
+**Option 2: Cool the peg**
+- Cooling the peg causes it to contract and become smaller
+- The peg can then fit into the hole
+- When the peg warms back to room temperature, it expands, creating a tight fit
+
+**Option 1 is generally preferred** because:
+- Heating is usually easier than cooling
+- The block can be heated uniformly
+- The expanded hole provides clearance all around the peg
+
+**Discussion:**
+This technique, called interference fitting or shrink fitting, is commonly used in manufacturing and construction. Examples include fitting metal bands around wooden barrels (cooper's technique), mounting bearing races, and assembling railway wheels. The resulting joint can be extremely strong and doesn't require welding or fasteners. The same principle explains why it's easier to remove a stuck jar lid by running hot water over it—the metal lid expands more than the glass, loosening the fit.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -604,12 +667,52 @@ One method of getting a tight fit, say of a metal peg in a hole in a metal block
 Does it really help to run hot water over a tight metal lid on a glass jar before trying to open it? Explain your answer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Compare the thermal expansion of metal and glass when heated, and consider which expands more.
+
+**Solution:**
+Yes, running hot water over a tight metal lid really does help open it. Here's why:
+
+From Table 1, typical coefficients of linear expansion are:
+- Steel (for metal lid): $$\alpha = 12 \times 10^{-6} \text{/ºC}$$
+- Glass (ordinary): $$\alpha = 9 \times 10^{-6} \text{/ºC}$$
+
+When hot water is applied:
+1. Both the metal lid and glass jar expand
+2. The metal lid expands more than the glass because it has a larger coefficient of expansion (12 vs. 9)
+3. Additionally, the thin metal lid heats up faster than the thick glass jar, so it expands more quickly
+4. The lid's circumference increases more than the jar's opening, loosening the fit
+
+The differential expansion creates a small gap between the lid and jar, breaking the seal and reducing the friction that makes the lid difficult to turn.
+
+**Discussion:**
+This technique works best if you heat just the lid (not the whole jar), maximizing the temperature difference and thus the differential expansion. Some additional factors also help: heating can soften any sticky residue (like dried food) on the threads, and thermal expansion can release some of the vacuum seal that often forms in sealed jars. This is a practical example of how understanding thermal expansion can solve everyday problems.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Liquids and solids expand with increasing temperature, because the kinetic energy of a body’s atoms and molecules increases. Explain why some materials *shrink* with increasing temperature.
+Liquids and solids expand with increasing temperature, because the kinetic energy of a body's atoms and molecules increases. Explain why some materials *shrink* with increasing temperature.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider materials with special molecular structures or bonding arrangements that can change with temperature.
+
+**Solution:**
+Some materials have negative thermal expansion coefficients and shrink when heated due to their unique molecular or crystal structures:
+
+1. **Water (4ºC to 0ºC)**: Water actually expands as it cools from 4ºC to 0ºC due to the formation of an open hexagonal crystal structure driven by hydrogen bonding. This structure has more empty space than liquid water, so cooling causes expansion in this range.
+
+2. **Materials with flexible framework structures**: Some materials like zirconium tungstate (ZrW₂O₈) have crystal structures with flexible bridges or linkages between atoms. When heated, increased vibrations can cause these linkages to flex inward, pulling atoms closer together rather than pushing them apart, resulting in shrinkage.
+
+3. **Materials with reorienting molecules**: In some materials, increasing temperature causes molecules or structural units to reorient themselves into more compact arrangements, leading to overall shrinkage.
+
+4. **Composite materials**: Some engineered materials combine components with different expansion coefficients arranged so that the net effect is shrinkage with heating.
+
+**Discussion:**
+These materials with negative thermal expansion are relatively rare but scientifically important. They're useful for creating materials with zero net thermal expansion when combined with normally expanding materials, which is valuable for precision instruments, optical devices, and electronics that must maintain exact dimensions over temperature changes. The existence of negative thermal expansion shows that thermal expansion is not simply about increased atomic vibration—it depends critically on the specific bonding and structural arrangements in the material.
 </div>
 </div>
 
@@ -634,6 +737,22 @@ How much taller does the Eiffel Tower become at the end of a day when the temper
  Its original height is 321 m and you can assume it is made of steel.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the linear thermal expansion equation $$\Delta L=\alpha L\Delta T$$ with the coefficient of linear expansion for steel from Table 1.
+
+**Solution:**
+From Table 1, for steel: $$\alpha = 12 \times 10^{-6} \text{/ºC}$$
+
+Given: $$L = 321 \text{ m}$$, $$\Delta T = 15\text{ºC}$$
+
+<div class="equation" >
+ $$\Delta L=\alpha L\Delta T=\left( 12 \times 10^{-6} \text{/ºC}\right)\left(321 \text{ m}\right)\left( 15\text{ºC}\right)= 0.058 \text{ m}= 5.8 \text{ cm} $$
+</div>
+
+**Discussion:**
+The Eiffel Tower grows by about 5.8 cm (nearly 2.3 inches) on a warm day. This is a significant amount and must be accounted for in the tower's design. The tower was built with expansion joints and the structure is designed to handle this thermal expansion without damage. Interestingly, the tower also leans slightly toward the sun on hot days because the side facing the sun heats up more and expands more than the shaded side, though this effect is small.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -653,6 +772,24 @@ What is the change in length of a 3.00-cm-long column of mercury if its temperat
 How large an expansion gap should be left between steel railroad rails if they may reach a maximum temperature  $$ 35.0\text{ºC} $$
  greater than when they were laid? Their original length is 10.0 m.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the linear thermal expansion equation to find how much each rail expands, then provide a gap at least this large.
+
+**Solution:**
+From Table 1, for steel: $$\alpha = 12 \times 10^{-6} \text{/ºC}$$
+
+Given: $$L = 10.0 \text{ m}$$, $$\Delta T = 35.0\text{ºC}$$
+
+<div class="equation" >
+ $$\Delta L=\alpha L\Delta T=\left( 12 \times 10^{-6} \text{/ºC}\right)\left( 10.0 \text{ m}\right)\left( 35.0\text{ºC}\right)= 4.2 \times 10^{-3}  \text{ m}= 4.2 \text{ mm} $$
+</div>
+
+The expansion gap should be at least **4.2 mm** (about 0.17 inches).
+
+**Discussion:**
+This expansion gap is essential to prevent rails from buckling on hot days. If rails are constrained and cannot expand, enormous compressive stresses develop that can cause the rails to buckle sideways, creating a serious safety hazard. Modern continuous welded rail (CWR) reduces the number of gaps, but requires careful stress management. The familiar "clickety-clack" sound of older trains comes from wheels passing over these expansion joints. Temperature swings of 35ºC or more are common in many climates, making these gaps crucial for railroad safety.
 </div>
 </div>
 
@@ -674,6 +811,23 @@ Global warming will produce rising sea levels partly due to melting ice caps but
  Note that this calculation is only approximate because ocean warming is not uniform with depth.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the volume (or linear) expansion formula. For a column of water, we can use $$\Delta L=\frac{\beta}{3}L\Delta T$$ or approximate using linear expansion.
+
+**Solution:**
+From Table 1, for water: $$\beta = 210 \times 10^{-6} \text{/ºC}$$
+
+For a vertical column, the height change is:
+<div class="equation" >
+ $$\Delta L=\frac{\beta L\Delta T}{3}=\frac{\left( 210 \times 10^{-6} \text{/ºC}\right)\left(1000 \text{ m}\right)\left( 1.00\text{ºC}\right)}{3}= 0.070 \text{ m}= 7.0 \text{ cm} $$
+</div>
+
+Alternatively, we can say $$\Delta L \approx \beta L\Delta T/3$$, since for isotropic expansion, $$\beta \approx 3\alpha$$.
+
+**Discussion:**
+A 1ºC warming of a 1 km column of ocean water produces about 7 cm of sea level rise due to thermal expansion alone. The average ocean depth is about 3.7 km, so if the entire ocean warmed by 1ºC uniformly, thermal expansion would contribute roughly 26 cm (10 inches) to sea level rise. In reality, the warming is concentrated in the upper layers, but even partial ocean warming contributes significantly to sea level rise. Current estimates suggest that thermal expansion accounts for about 30-50% of observed sea level rise, with melting ice accounting for the remainder. This demonstrates that thermal expansion is a major contributor to climate change impacts.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -694,8 +848,42 @@ Show that 60.0 L of gasoline originally at  $$ 15.0\text{ºC} $$
 <div class="problem" markdown="1">
 (a) Suppose a meter stick made of steel and one made of invar (an alloy of iron and nickel) are the same length at  $$0\text{ºC} $$ .
  What is their difference in length at  $$ 22.0\text{ºC} $$ ?
- (b) Repeat the calculation for two 30.0-m-long surveyor’s tapes.
+ (b) Repeat the calculation for two 30.0-m-long surveyor's tapes.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Calculate the expansion of each material separately, then find the difference.
+
+**Solution:**
+From Table 1:
+- Steel: $$\alpha_{\text{steel}} = 12 \times 10^{-6} \text{/ºC}$$
+- Invar: $$\alpha_{\text{invar}} = 0.9 \times 10^{-6} \text{/ºC}$$
+
+(a) For 1.00 m sticks at $$\Delta T = 22.0\text{ºC}$$:
+
+Steel expansion:
+<div class="equation" >
+ $$\Delta L_{\text{steel}}=\alpha_{\text{steel}} L\Delta T=\left( 12 \times 10^{-6} \text{/ºC}\right)\left( 1.00 \text{ m}\right)\left( 22.0\text{ºC}\right)= 2.64 \times 10^{-4}  \text{ m} $$
+</div>
+
+Invar expansion:
+<div class="equation" >
+ $$\Delta L_{\text{invar}}=\alpha_{\text{invar}} L\Delta T=\left( 0.9 \times 10^{-6} \text{/ºC}\right)\left( 1.00 \text{ m}\right)\left( 22.0\text{ºC}\right)= 1.98 \times 10^{-5}  \text{ m} $$
+</div>
+
+Difference:
+<div class="equation" >
+ $$\Delta L_{\text{steel}}-\Delta L_{\text{invar}}= 2.64 \times 10^{-4} - 1.98 \times 10^{-5}= 2.44 \times 10^{-4}  \text{ m}= 0.244 \text{ mm} $$
+</div>
+
+(b) For 30.0 m surveyor's tapes, the difference scales linearly:
+<div class="equation" >
+ $$\text{Difference}= 30.0 \times 0.244 \text{ mm}= 7.3 \text{ mm}= 0.73 \text{ cm} $$
+</div>
+
+**Discussion:**
+For a meter stick, the difference of 0.244 mm is small but measurable. However, for a 30-m surveyor's tape, the 7.3 mm (0.73 cm) difference is quite significant and could introduce substantial errors in surveying work if not accounted for. This is why Invar was developed—its extremely low coefficient of thermal expansion makes it ideal for precision instruments, surveying equipment, and scientific apparatus that must maintain accurate dimensions despite temperature changes. Invar's name comes from "invariable," reflecting its dimensional stability.
 </div>
 </div>
 
@@ -718,8 +906,35 @@ Show that 60.0 L of gasoline originally at  $$ 15.0\text{ºC} $$
 <div class="problem" markdown="1">
 Most automobiles have a coolant reservoir to catch radiator fluid that may overflow when the engine is hot. A radiator is made of copper and is filled to its 16.0-L capacity when at  $$ 10.0\text{ºC}\text{.} $$
  What volume of radiator fluid will overflow when the radiator and fluid reach their  $$ 95.0\text{ºC} $$
- operating temperature, given that the fluid’s volume coefficient of expansion is  $$\beta =400 \times 10^{-6}/\text{ºC} $$ ?
+ operating temperature, given that the fluid's volume coefficient of expansion is  $$\beta =400 \times 10^{-6}/\text{ºC} $$ ?
  Note that this coefficient is approximate, because most car radiators have operating temperatures of greater than  $$ 95.0\text{ºC}\text{.} $$
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Calculate the volume expansion of both the radiator (copper) and the fluid. The overflow is the difference between the fluid expansion and the radiator expansion.
+
+**Solution:**
+From Table 1: $$\beta_{\text{copper}} = 51 \times 10^{-6} \text{/ºC}$$
+
+Given: $$\beta_{\text{fluid}} = 400 \times 10^{-6} \text{/ºC}$$, $$V = 16.0 \text{ L}$$, $$\Delta T = 95.0\text{ºC} - 10.0\text{ºC} = 85.0\text{ºC}$$
+
+Fluid expansion:
+<div class="equation" >
+ $$\Delta V_{\text{fluid}}=\beta_{\text{fluid}} V\Delta T=\left( 400 \times 10^{-6} \text{/ºC}\right)\left( 16.0 \text{ L}\right)\left( 85.0\text{ºC}\right)= 0.544 \text{ L} $$
+</div>
+
+Radiator expansion:
+<div class="equation" >
+ $$\Delta V_{\text{radiator}}=\beta_{\text{copper}} V\Delta T=\left( 51 \times 10^{-6} \text{/ºC}\right)\left( 16.0 \text{ L}\right)\left( 85.0\text{ºC}\right)= 0.069 \text{ L} $$
+</div>
+
+Volume that overflows:
+<div class="equation" >
+ $${V}_{\text{overflow}}=\Delta V_{\text{fluid}}-\Delta V_{\text{radiator}}= 0.544 \text{ L}- 0.069 \text{ L}= 0.48 \text{ L} $$
+</div>
+
+**Discussion:**
+About 0.48 L (roughly half a liter or one pint) of coolant will overflow, which is why radiator overflow reservoirs are necessary. The fluid expands much more than the copper radiator (coefficient nearly 8 times larger), so the net effect is significant overflow. Modern cooling systems are designed as closed systems with expansion tanks that can accommodate this volume change, preventing coolant loss and allowing the fluid to return to the radiator when the engine cools. Without such a reservoir, coolant would be lost every time the engine heats up, requiring frequent refilling.
 </div>
 </div>
 
@@ -743,9 +958,44 @@ to $$  45.0\text{ºC}\text{.} $$
  is very nearly  $$1000 {\text{kg/m}}^{3} $$
  (it is actually  $$999.84 {\text{kg/m}}^{3} $$ ),
 whereas the density of ice at  $$0\text{ºC} $$
- is  $$9{17 \text{kg/m}}^{3} $$ .
+ is  $$917 {\text{kg/m}}^{3} $$ .
  Calculate the pressure necessary to keep ice from expanding when it freezes, neglecting the effect such a large pressure would have on the freezing temperature. (This problem gives you only an indication of how large the forces associated with freezing water might be.) (b) What are the implications of this result for biological cells that are frozen?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+(a) Find the volume change when water freezes, then use the bulk modulus relationship to find the pressure required to prevent this expansion. (b) Consider what this pressure means for cell membranes.
+
+**Solution:**
+(a) Consider 1 kg of water freezing:
+
+Volume of water: $$V_{\text{water}}=\frac{m}{\rho_{\text{water}}}=\frac{1 \text{ kg}}{1000 \text{ kg/m}^{3}}= 0.001 \text{ m}^{3}$$
+
+Volume of ice: $$V_{\text{ice}}=\frac{m}{\rho_{\text{ice}}}=\frac{1 \text{ kg}}{917 \text{ kg/m}^{3}}= 1.091 \times 10^{-3}  \text{ m}^{3}$$
+
+Volume change:
+<div class="equation" >
+ $$\Delta V=V_{\text{ice}}-V_{\text{water}}= 1.091 \times 10^{-3} - 1.000 \times 10^{-3}= 9.1 \times 10^{-5}  \text{ m}^{3} $$
+</div>
+
+Fractional volume change:
+<div class="equation" >
+ $$\frac{\Delta V}{V_{\text{water}}}=\frac{ 9.1 \times 10^{-5}}{ 0.001}= 0.091 = 9.1\% $$
+</div>
+
+Using the bulk modulus relationship $$P=B\frac{\Delta V}{V}$$ with $$B = 2.2 \times 10^{9} $$ Pa for ice:
+<div class="equation" >
+ $$P=\left( 2.2 \times 10^{9}  \text{Pa}\right)\left( 0.091\right)= 2.0 \times 10^{8}  \text{Pa}= 2000 \text{ atm} $$
+</div>
+
+(b) This enormous pressure (about 2000 atmospheres or 29,000 psi) far exceeds what biological cell membranes can withstand. Cell membranes typically rupture at pressures of just a few atmospheres. This explains why:
+- Freezing bursts 10-30% of cells
+- Frozen foods have different texture when thawed
+- Frostbite causes permanent tissue damage
+- Cryopreservation requires cryoprotectants to minimize ice formation
+
+**Discussion:**
+The tremendous pressure generated by freezing water is why water pipes burst in winter and why rocks can be fractured by freeze-thaw cycles (frost wedging). This pressure is also why it's so dangerous to freeze liquids in sealed containers—they can explode. For biological preservation, this demonstrates why simple freezing is inadequate and why advanced cryopreservation techniques attempt to achieve vitrification (glass-like solidification) rather than ice crystal formation.
 </div>
 </div>
 

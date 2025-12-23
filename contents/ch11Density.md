@@ -428,7 +428,19 @@ Gold is sold by the troy ounce (31.103 g). What is the volume of 1 troy ounce of
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.610 {\text{cm}}^{3} $$
+**Strategy:**
+Use the density formula $$ \rho = m/V $$ and solve for volume, using the density of gold from Table 1.
+
+**Solution:**
+Given:
+- Mass: $$ m = 31.103 \text{ g} $$
+- Gold density (from Table 1): $$ \rho = 19.32 \text{ g/cm}^3 $$
+
+Solving for volume:
+$$ V = \frac{m}{\rho} = \frac{31.103 \text{ g}}{19.32 \text{ g/cm}^3} = 1.610 \text{ cm}^3 $$
+
+**Discussion:**
+One troy ounce of gold has a volume of approximately **1.61 cm³**. This is surprisingly small—about the size of a sugar cube! Gold's extremely high density (19.32 g/cm³) means it packs a lot of mass into a small volume. This property makes gold valuable for coinage and jewelry: a small piece can be quite valuable. It also explains why gold bars are surprisingly small for their weight. For comparison, 1 troy ounce of aluminum would occupy about 11.5 cm³—over 7 times larger—highlighting gold's remarkable density.
 
 </div>
 </div>
@@ -482,11 +494,24 @@ before you took the deep breath.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A straightforward method of finding the density of an object is to measure its mass and then measure its volume by submerging it in a graduated cylinder. What is the density of a 240-g rock that displaces  $$ 89.0 {\text{cm}}^{3} $$
- of water? (Note that the accuracy and practical applications of this technique are more limited than a variety of others that are based on Archimedes’ principle.)
+ of water? (Note that the accuracy and practical applications of this technique are more limited than a variety of others that are based on Archimedes' principle.)
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.70 {\text{g/cm}}^{3} $$
+**Strategy:**
+Use the definition of density $$ \rho = m/V $$, where the volume equals the water displaced.
+
+**Solution:**
+Given:
+- Mass: $$ m = 240 \text{ g} $$
+- Volume displaced: $$ V = 89.0 \text{ cm}^3 $$
+
+Calculate density:
+$$ \rho = \frac{m}{V} = \frac{240 \text{ g}}{89.0 \text{ cm}^3} = 2.70 \text{ g/cm}^3 $$
+
+**Discussion:**
+The density of the rock is approximately **2.70 g/cm³** (or 2700 kg/m³). Comparing to Table 1, this density is close to that of aluminum (2.70 g/cm³) and also consistent with common rock types like granite (~2.7 g/cm³) or limestone (~2.3-2.7 g/cm³). The method works because the volume of water displaced equals the volume of the submerged object. While simple, this technique has limitations: it requires that the object be completely submerged, doesn't absorb water, and that any air bubbles are removed. More sophisticated techniques based on Archimedes' principle (like measuring apparent weight in water) can be more accurate and versatile.
+
 </div>
 </div>
 

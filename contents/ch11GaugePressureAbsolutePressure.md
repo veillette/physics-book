@@ -476,7 +476,25 @@ How tall must a water-filled manometer be to measure blood pressures as high as 
 
 </div>
 <div class="solution" markdown="1">
-4.08 m
+**Strategy:**
+Use the relationship $$ P = \rho g h $$ for both mercury and water to find the equivalent water column height.
+
+**Solution:**
+
+*Step 1: Convert 300 mm Hg to pascals*
+
+$$ P = h \rho_{\text{Hg}} g = (0.300 \text{ m})(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ P = 4.00 \times 10^4 \text{ Pa} $$
+
+*Step 2: Find the water column height for this pressure*
+
+$$ h_{\text{water}} = \frac{P}{\rho_{\text{water}} g} = \frac{4.00 \times 10^4 \text{ Pa}}{(1.00 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} $$
+
+$$ h_{\text{water}} = \frac{4.00 \times 10^4}{9.80 \times 10^3} \text{ m} = 4.08 \text{ m} $$
+
+**Discussion:**
+The water manometer must be approximately **4.08 meters tall** (about 13.4 feet). This is much taller than a mercury manometer, which would only need 0.30 m (30 cm) for the same pressure. The ratio of heights equals the inverse ratio of densities: water is 13.6 times less dense than mercury, so it requires a column 13.6 times taller to create the same pressure. This is why mercury is traditionally used for blood pressure measurements—its high density allows for compact instruments. A 4-meter water manometer would be impractical in clinical settings, though water manometers are sometimes used in research or when mercury's toxicity is a concern.
 
 </div>
 </div>
@@ -577,7 +595,31 @@ Assuming bicycle tires are perfectly flexible and support the weight of bicycle 
 
 </div>
 <div class="solution" markdown="1">
- $$ 22.4 {\text{cm}}^{2} $$
+**Strategy:**
+The upward force from tire pressure must equal the weight of the bicycle and rider. Use $$ F = PA $$ to solve for contact area.
+
+**Solution:**
+
+*Step 1: Calculate the weight*
+
+$$ W = mg = (80.0 \text{ kg})(9.80 \text{ m/s}^2) = 784 \text{ N} $$
+
+*Step 2: Find the contact area*
+
+Since the pressure force supports the weight:
+$$ F = PA = W $$
+
+Solving for area:
+$$ A = \frac{W}{P} = \frac{784 \text{ N}}{3.50 \times 10^5 \text{ Pa}} $$
+
+$$ A = 2.24 \times 10^{-3} \text{ m}^2 $$
+
+Converting to cm²:
+$$ A = 2.24 \times 10^{-3} \text{ m}^2 \times \left(\frac{100 \text{ cm}}{1 \text{ m}}\right)^2 = 22.4 \text{ cm}^2 $$
+
+**Discussion:**
+The total tire contact area is approximately **22.4 cm²** (about 3.5 square inches). This is surprisingly small—roughly the combined area of two postage stamps supporting an 80-kg system! The high tire pressure (3.50 × 10⁵ Pa ≈ 51 psi, typical for a road bike) allows this small contact area to support the weight. For comparison, car tires operate at lower pressures (~30 psi) and have much larger contact patches. The small contact area of high-pressure bicycle tires reduces rolling resistance, improving efficiency, but also makes them more susceptible to punctures and provides less traction. Mountain bike tires use lower pressures (~30 psi) for larger contact patches and better grip.
+
 </div>
 </div>
 

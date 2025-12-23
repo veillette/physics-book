@@ -426,12 +426,38 @@ Heat, cool, and compress atoms and molecules and watch as they change between so
 A pressure cooker contains water and steam in equilibrium at a pressure greater than atmospheric pressure. How does this greater pressure increase cooking speed?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider the relationship between pressure and boiling point, and how temperature affects cooking.
+
+**Solution:**
+Greater pressure increases the boiling point of water. At atmospheric pressure (1 atm), water boils at 100ºC. In a pressure cooker operating at higher pressure (typically 2 atm), water doesn't boil until it reaches approximately 120ºC.
+
+This higher temperature significantly increases cooking speed because chemical reactions (including those that cook food) proceed faster at higher temperatures. The rate of most chemical reactions roughly doubles for every 10ºC increase in temperature. Therefore, cooking at 120ºC instead of 100ºC can reduce cooking time by half or more.
+
+**Discussion:**
+The pressure cooker takes advantage of the phase diagram for water—moving along the liquid-gas boundary to higher pressures allows liquid water to exist at higher temperatures. This is particularly useful for cooking foods that normally require long cooking times, such as tough cuts of meat, dried beans, or root vegetables. The elevated temperature breaks down proteins and softens fibers much faster than boiling at atmospheric pressure.
+</div>
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
 <div class="problem"  markdown="1">
 Why does condensation form most rapidly on the coldest object in a room—for example, on a glass of ice water?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider the relationship between temperature, vapor pressure, and the dew point.
+
+**Solution:**
+Condensation forms most rapidly on the coldest object because that object's surface temperature is most likely to be at or below the dew point of the surrounding air. The dew point is the temperature at which the air becomes saturated with water vapor (100% relative humidity).
+
+When warm, humid air comes into contact with a cold surface (like a glass of ice water), the air immediately adjacent to the surface cools down. As this air cools, its capacity to hold water vapor decreases. If the surface temperature is below the dew point, the water vapor in the air adjacent to the surface becomes supersaturated and must condense into liquid droplets on the surface.
+
+The colder the object, the lower its surface temperature, and the more likely it is to be below the dew point. Additionally, a colder surface creates a larger temperature gradient, which can cool more of the adjacent air below the dew point, resulting in more rapid condensation.
+
+**Discussion:**
+This is why glasses of cold drinks "sweat" on humid days, why bathroom mirrors fog up during hot showers, and why dew forms on grass during cool nights. The coldest surfaces act as condensation nuclei, extracting water vapor from the air and converting it to liquid.
 </div>
 </div>
 
@@ -443,12 +469,36 @@ What is the vapor pressure of solid carbon dioxide (dry ice) at  $$ - 78.5\text{
 {: #Figure5}
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the phase diagram for carbon dioxide. At −78.5ºC, find where the solid-gas boundary intersects this temperature.
+
+**Solution:**
+From Figure 5, at −78.5ºC, the phase diagram shows that solid carbon dioxide (dry ice) sublimes directly to gas at standard atmospheric pressure of **1.0 atmosphere** (or approximately $$ 1.01 \times 10^{5} $$ Pa).
+
+This means the vapor pressure of solid CO₂ at −78.5ºC is exactly 1.0 atm. At this temperature and pressure, solid and gas phases coexist in equilibrium on the solid-gas boundary line.
+
+**Discussion:**
+This is why dry ice sublimes (converts directly from solid to gas) at atmospheric pressure and this temperature, rather than melting. The triple point of CO₂ is at 5.11 atm and −56.6ºC, which is above atmospheric pressure. This means at standard atmospheric pressure (1 atm), there is no liquid phase—CO₂ exists only as solid below −78.5ºC and as gas above this temperature. This property makes dry ice useful for cooling without creating liquid mess, as it goes directly from solid to gas.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Can carbon dioxide be liquefied at room temperature ( $$20\text{ºC} $$)? If so, how? If not, why not? (See [[Figure 5]](#Figure5).)
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Examine the phase diagram for CO₂ and determine if liquid phase exists at 20ºC. Compare this temperature to the critical temperature.
+
+**Solution:**
+Yes, carbon dioxide can be liquefied at room temperature (20ºC), but only by applying sufficient pressure. From Figure 5, the critical temperature of CO₂ is 31ºC. Since room temperature (20ºC) is below the critical temperature, a liquid phase can exist.
+
+To liquefy CO₂ at 20ºC, you would need to increase the pressure significantly. Following the 20ºC vertical line on the phase diagram upward, you would need to apply a pressure of approximately 56-57 atmospheres (about $$ 5.7 \times 10^{6} $$ Pa) to reach the liquid phase region.
+
+**Discussion:**
+This is exactly how CO₂ fire extinguishers work—they store liquid CO₂ at room temperature under high pressure (typically around 60 atm). When released, the pressure drops to atmospheric, and the liquid CO₂ rapidly converts to gas and solid (the white "snow" you see), which helps suppress fires. If the temperature were above 31ºC (the critical temperature), no amount of pressure could liquefy the CO₂—it would exist only as a supercritical fluid.
 </div>
 </div>
 
@@ -457,12 +507,42 @@ Can carbon dioxide be liquefied at room temperature ( $$20\text{ºC} $$)? If so,
 Oxygen cannot be liquefied at room temperature by placing it under a large enough pressure to force its molecules together. Explain why this is.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider the concept of critical temperature and what it means for phase transitions.
+
+**Solution:**
+Oxygen cannot be liquefied at room temperature because room temperature (about 20-25ºC or 293-298 K) is well above oxygen's critical temperature of −118.4ºC (154.8 K).
+
+The critical temperature is the temperature above which a substance cannot exist as a liquid, regardless of how much pressure is applied. Above the critical temperature, the thermal kinetic energy of the molecules is so high that no amount of pressure can force them to remain close enough together in the orderly arrangement characteristic of a liquid. Instead, above the critical temperature and critical pressure, the substance exists as a supercritical fluid—a state that has properties intermediate between liquid and gas.
+
+**Discussion:**
+This is why oxygen must be cooled below 154.8 K (−118.4ºC) before it can be liquefied, even under high pressure. Liquid oxygen (LOX) used in rockets and medical applications must be stored at cryogenic temperatures well below its critical temperature. The same principle applies to other gases with low critical temperatures, such as nitrogen (−146.9ºC) and helium (−267.9ºC), which all require significant cooling before they can be liquefied.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 What is the distinction between gas and vapor?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider the relationship between the gas phase and the boiling temperature of a substance.
+
+**Solution:**
+The distinction between gas and vapor relates to temperature relative to the boiling point:
+
+- A **vapor** is a gas that exists at a temperature **below** its boiling point (at the given pressure). A vapor can be condensed to a liquid simply by increasing the pressure at constant temperature, without cooling.
+
+- A **gas** is used more generally, and often refers to a substance that exists at a temperature **above** its boiling point (at the given pressure). A gas cannot be liquefied merely by increasing pressure at that temperature—it must be cooled below its boiling point first.
+
+For example, at 20ºC and atmospheric pressure:
+- Water exists as a vapor (since 20ºC < 100ºC, water's boiling point)
+- Nitrogen exists as a gas (since 20ºC >> −196ºC, nitrogen's boiling point)
+
+**Discussion:**
+This distinction is useful because vapors are relatively close to their liquid phase and can be liquefied more easily than gases. In everyday usage, "gas" is often used generically to refer to any substance in the gaseous state, but technically "vapor" is more precise when discussing a substance below its boiling point. The phase diagram helps clarify this: a vapor exists in the region where a small increase in pressure or decrease in temperature would cause condensation to liquid.
 </div>
 </div>
 
