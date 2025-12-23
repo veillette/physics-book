@@ -18,7 +18,8 @@
 - **Add content**: Update `contents/` + `SUMMARY.md`.
 - **Fix links**: Always use `{{ site.baseurl }}/path` for Jekyll context.
 - **Run full check**: Run `npm run audit` to check links, orphans, and figures.
-- **Check math**: Run `npm run check-math`.
+- **Check math**: Run `npm run check-math` to validate delimiter balance.
+- **Check Liquid conflicts**: Run `npm run fix-liquid-syntax` to detect LaTeX/Liquid conflicts.
 
 ---
 
@@ -86,6 +87,34 @@ Content is structured modularly in the `contents/` directory.
   - Display math: `$$...$$` or `\\[...\\]`
 - **Validation**: Use `npm run check-math` to find unbalanced delimiters before committing.
 
+### Avoiding Liquid Syntax Conflicts
+
+**IMPORTANT**: Jekyll uses the Liquid templating engine, which can conflict with certain LaTeX patterns. Avoid writing math that uses `{{` patterns that aren't properly closed from Liquid's perspective.
+
+**Problematic patterns to avoid:**
+
+- `{{v}_{\text{...}}}` - Variable in double braces with subscript
+- `{{f}_{...}}` - Any variable in double braces followed by subscript
+- `\frac{{a}_{...}}{{b}_{...}}` - Fractions with subscripted terms in double braces
+
+**Why this is a problem:**
+
+Liquid interprets `{{` as the start of a variable tag (like `{{ site.baseurl }}`). When LaTeX uses `{{v}_{\text{...}}}`, Liquid sees `{{v}` and expects it to be closed with `}}`, but the first `}` actually closes the inner LaTeX brace, causing a Liquid syntax error.
+
+**How to avoid:**
+
+1. **Preferred**: Use single braces where possible: `{v}_{\text{...}}` instead of `{{v}_{\text{...}}}`
+2. **If double braces are necessary**: The script will automatically wrap them with `{% raw %}` tags during checks
+
+**Detection and fixing:**
+
+```bash
+npm run fix-liquid-syntax        # Check for Liquid conflicts (dry run)
+npm run fix-liquid-syntax:apply  # Automatically fix issues
+```
+
+The `fix-liquid-syntax` script will detect these patterns and wrap them with `{% raw %}...{% endraw %}` tags to prevent Liquid from parsing them.
+
 ## Development Workflow
 
 ### Local Development
@@ -146,6 +175,9 @@ npm run audit
 
 # Validate math equations
 npm run check-math
+
+# Check for Liquid syntax conflicts in LaTeX
+npm run fix-liquid-syntax
 ```
 
 ## Utilities and Scripts
@@ -187,6 +219,7 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 - **Orphan Detection (`check-orphans`)**: Finds unreferenced images and assets.
 - **Figure Checking (`check-figures`)**: Validates figure numbering, references, and filenames.
 - **Math Validation (`check-math`)**: Ensures LaTeX delimiters are balanced.
+- **Liquid Syntax Fixing (`fix-liquid-syntax`)**: Detects and fixes LaTeX patterns that conflict with Liquid templating.
 - **Accessibility (`check-accessibility`)**: Checks for common accessibility issues like missing alt text.
 - **YAML Validation (`check-yaml`)**: Validates the front matter of all content files.
 

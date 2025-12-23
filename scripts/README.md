@@ -12,6 +12,7 @@ Build and utility scripts for the Physics Book project.
 | check-math          | `npm run check-math`          | Check LaTeX delimiter balance       |
 | check-accessibility | `npm run check-accessibility` | Check alt text and accessibility    |
 | check-yaml          | `npm run check-yaml`          | Validate YAML front matter          |
+| fix-liquid-syntax   | `npm run fix-liquid-syntax`   | Fix Liquid syntax errors in math    |
 | standardize-links   | `npm run standardize-links`   | Convert links to Jekyll/MyST format |
 | generate-pdf        | `npm run generate-pdf`        | Generate PDF of all chapters        |
 | generate-icons      | `npm run generate-icons`      | Generate PWA icons                  |
@@ -144,6 +145,56 @@ node scripts/check-yaml.js --required "title,layout,chapterNumber"
 
 - `--required <fields>` - Comma-separated list of required fields
 - `--strict` - Enable stricter validation
+
+---
+
+## Fix/Repair Scripts (`fix-*`)
+
+Scripts that automatically fix issues in content files.
+
+### fix-liquid-syntax.js
+
+Detects and fixes Liquid syntax errors that occur when LaTeX math expressions contain patterns that look like Liquid template variables.
+
+**The Problem:**
+
+Jekyll's Liquid templating engine interprets `{{` patterns in LaTeX (e.g., `{{v}_{\text{...}}}`) as variable tags. When these aren't properly closed from Liquid's perspective, it causes syntax errors:
+
+```
+Liquid Exception: Liquid syntax error (line 623): Variable '{{v}' was not properly terminated
+```
+
+**The Solution:**
+
+Wraps problematic math expressions with `{% raw %}` tags to prevent Liquid from parsing them.
+
+```bash
+npm run fix-liquid-syntax              # Check for issues (dry run)
+npm run fix-liquid-syntax:apply        # Apply fixes to files
+node scripts/fix-liquid-syntax.js contents/ch13*.md  # Check specific files
+```
+
+**Options:**
+
+- `--apply` - Apply fixes to files (default is check-only mode)
+
+**Common patterns that trigger errors:**
+
+- `{{v}_{\text{...}}}` - subscripted variable in double braces
+- `{{f}_{...}}` - any variable in double braces with subscript
+- `\frac{{a}_{...}}{{b}_{...}}` - fractions with subscripted numerator/denominator
+
+**Example fix:**
+
+Before:
+```latex
+$$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}$$
+```
+
+After:
+```latex
+{% raw %}$$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}$${% endraw %}
+```
 
 ---
 
@@ -327,6 +378,7 @@ python check_math.py
 | Prefix          | Purpose                   | Examples                     |
 | --------------- | ------------------------- | ---------------------------- |
 | `check-*`       | Validation/quality checks | check-links, check-yaml      |
+| `fix-*`         | Auto-fix issues           | fix-liquid-syntax            |
 | `generate-*`    | File/asset generation     | generate-pdf, generate-icons |
 | `parse-*`       | Parse/extract data        | parse-summary                |
 | `update-*`      | Update existing files     | update-front-matter          |
