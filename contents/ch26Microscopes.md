@@ -489,6 +489,7 @@ Part (b): The overall magnification of -240 is substantial and typical for compo
 <div class="problem" markdown="1">
 (a) Where does an object need to be placed relative to a microscope for its 0.500 cm focal length objective to produce a magnification of  $$-400 $$ ?
  (b) Where should the 5.00 cm focal length eyepiece be placed to produce a further fourfold (4.00) magnification?
+ (c) Is this a realistic design for a microscope?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -569,6 +570,8 @@ Distance from objective = $$d_i + f_e = 200.4 + 5.00 = 205.4 \approx 204 \text{ 
 
 **(Rounding to 204 cm as in the provided answer)**
 
+**(c)** No, a distance of 205 cm (which is over 2 m) is unrealistic for the tube of a microscope.
+
 **Discussion**
 
 Part (a): The object must be placed 0.501 cm from the objective—barely beyond the 0.500 cm focal length. This tiny displacement of only 0.001 cm (10 μm) produces the enormous 400× magnification. The image forms at 200.4 cm, which is 400 times farther than the object distance, confirming the magnification.
@@ -583,7 +586,7 @@ The total magnification is $$m = m_o \times m_e = 400 \times 4.00 = 1600×$$, wh
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 You switch from a  $$1.40\text{NA} 60× $$
- oil immersion objective to a  $$1.40\text{NA} 60× $$
+ oil immersion objective to a  $$0.35\text{NA} 20× $$
  oil immersion objective. What are the acceptance angles for each? Compare and comment on the values. Which would you use first to locate the target area on your specimen?
 
 </div>

@@ -132,10 +132,7 @@ about tumors, strokes, shoulder injuries, infections, etc.
 An image requires position information as well as the density of a nuclear
 type (usually protons). By varying the magnetic field slightly over the volume
 to be imaged, the resonant frequency of the protons is made to vary with
-position. Broadcast radio frequencies are swept over an appropriate range and
-nuclei absorb and reemit them only if the nuclei are in a magnetic field with
-the correct strength. The imaging receiver gathers information through the body
-almost point by point, building up a tissue map. The reception of reemitted
+position. Nuclei absorb and reemit broadcast radio frequencies only if the nuclei are in a magnetic field with the correct strength. The imaging receiver can build up a tissue map either by sweeping the frequency or emitting a range of frequencies at once and analyzing the frequency response of the collected signal. The reception of reemitted
 radio waves as a function of frequency thus gives position information. These
 “slices” or cross-sections through the body are only several mm thick. The
 intensity of the reemitted radio waves is proportional to the concentration of

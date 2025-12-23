@@ -161,7 +161,7 @@ The next thickness that gives constructive interference is  $$t^{\prime}_{\text{
 <div class="equation" >
  $$t^{\prime}_{\text{c}}=366 \text{nm} \text{.}  $$
 </div>
-Finally, the third thickness producing constructive interference is  $${t^{\prime\prime} }_{\text{c}}\le {5\lambda }_{n}/4 $$ ,
+Finally, the third thickness producing constructive interference is  $${t^{\prime\prime} }_{\text{c}}= {5\lambda }_{n}/4 $$ ,
  so that
 
 <div class="equation" >

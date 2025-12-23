@@ -44,7 +44,7 @@ location to another.
 <div class="title">
 Misconception Alert
 </div>
-Many people think that water waves push water from one direction to another. In fact, the particles of water tend to stay in one location, save for moving up and down due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, what you feel is the energy of the wave, not a rush of water.
+Many people think that water waves push water from one direction to another. In fact, in water waves far from shore, the particles of water tend to stay in one location, save for moving in circles due to the energy in the wave. The energy moves forward through the water, but the water stays in one place. If you feel yourself pushed in an ocean, what you feel is the energy of the wave, not a rush of water.
 
 </div>
 

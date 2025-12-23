@@ -73,7 +73,7 @@ lines that are uniformly spaced (hence uniform in strength) and perpendicular to
 the surfaces (hence uniform in direction, since the plates are flat). The edge
 effects are less important when the plates are close together.
 
-![Two charged metal plates are shown. The lower plate has negative charge and the upper plate has positive charge. The electric field lines start from positive plate and enter the negative plate represented by arrows.](../resources/Figure_18_07_05.jpg 'Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.')
+![Two charged metal plates are shown. The lower plate has negative charge and the upper plate has positive charge. The electric field lines start from positive plate and enter the negative plate represented by arrows.](../resources/Figure_18_07_05.jpg 'Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen).')
 {: #Figure4}
 
 ### Earth’s Electric Field

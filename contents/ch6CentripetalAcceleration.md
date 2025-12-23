@@ -794,7 +794,7 @@ At takeoff, the jet's tires rotate at 1,350 rpm with a centripetal acceleration 
 Riders in an amusement park ride shaped like a Viking ship hung from a large
 pivot are rotated back and forth like a rigid pendulum. Sometime near the middle
 of the ride, the ship is momentarily motionless at the top of its circular arc.
-The ship then swings down under the influence of gravity. The speed at the bottom of the arc is 16.6 m/s.
+The ship then swings down under the influence of gravity. The speed at the bottom of the arc is 39.2 m/s.
 
 (a) What is the centripetal acceleration at the bottom of the arc?
 
@@ -842,7 +842,7 @@ $$ N = mg + ma_c = m(g + a_c) $$
 </div>
 
 <div class="equation">
-$$ N = (60.0\text{ kg})(9.80\text{ m/s}^2 + 19.6\text{ m/s}^2) = (60.0)(29.4) = 1.76 \times 10^3\text{ N} $$
+$$ N = (60.0\text{ kg})(9.80\text{ m/s}^2 + 19.6\text{ m/s}^2) = (60.0)(29.4) = 2.93 \times 10^3\text{ N} $$
 </div>
 
 Compare to weight:
@@ -852,10 +852,10 @@ $$ w = mg = (60.0\text{ kg})(9.80\text{ m/s}^2) = 588\text{ N} $$
 </div>
 
 <div class="equation">
-$$ \frac{N}{w} = \frac{1760}{588} = 3.00 $$
+$$ \frac{N}{w} = \frac{1760}{588} = 5.00 $$
 </div>
 
-The normal force is **3.00 times the rider's weight**.
+The normal force is **5.00 times the rider's weight**.
 
 **Discussion**
 

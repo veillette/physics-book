@@ -454,7 +454,7 @@ $${\text{CO}}_{2} $$ and $${\text{H}}_{2}\text{O} $$ in the atmosphere and then
 radiated back to Earth or into outer space. This radiation back to Earth is
 known as the greenhouse effect, and it maintains the surface temperature of the
 Earth about $$40 \text{ºC} $$ higher than it would be if there is no absorption.
-Some scientists think that the increased concentration of $${\text{CO}}_{2} $$
+The increased concentration of $${\text{CO}}_{2} $$
 and other greenhouse gases in the atmosphere, resulting from increases in fossil
 fuel burning, has increased global average temperatures.
 
