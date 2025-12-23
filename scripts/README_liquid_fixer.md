@@ -2,6 +2,8 @@
 
 This script detects and fixes Liquid syntax errors in markdown files that occur when LaTeX math expressions contain patterns that look like Liquid template variables.
 
+Available in both **Python** and **JavaScript** versions with identical functionality.
+
 ## The Problem
 
 Jekyll uses the Liquid templating engine to process markdown files. When LaTeX math expressions contain double curly braces (e.g., `{{v}_{\text{...}}}`), Liquid interprets them as variable tags. If these are not properly closed (in Liquid's perspective), it causes syntax errors like:
@@ -26,40 +28,80 @@ $$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}
 
 ## Usage
 
-### Check for issues without fixing
+Both Python and JavaScript versions have identical command-line interfaces.
+
+### Python Version
+
+#### Check for issues without fixing
 
 ```bash
 python3 scripts/fix_liquid_syntax_errors.py --check-only
 ```
 
-This will scan all markdown files in the `contents/` directory and report any issues found.
-
-### Check specific files
+#### Check specific files
 
 ```bash
 python3 scripts/fix_liquid_syntax_errors.py --check-only contents/ch13KineticTheory.md
 ```
 
-### Fix issues (dry run)
+#### Fix issues (dry run)
 
 ```bash
 python3 scripts/fix_liquid_syntax_errors.py --dry-run
 ```
 
-This shows what would be changed without actually modifying files.
-
-### Fix issues
+#### Fix issues
 
 ```bash
 python3 scripts/fix_liquid_syntax_errors.py
 ```
 
-This will automatically fix all detected issues in all markdown files in `contents/`.
-
-### Fix specific files
+#### Fix specific files
 
 ```bash
-python3 scripts/fix_liquid_syntax_errors.py contents/ch13KineticTheory.md contents/ch16*.md
+python3 scripts/fix_liquid_syntax_errors.py contents/ch13KineticTheory.md
+```
+
+### JavaScript Version
+
+#### Check for issues without fixing
+
+```bash
+node scripts/fix_liquid_syntax_errors.js --check-only
+```
+
+#### Check specific files
+
+```bash
+node scripts/fix_liquid_syntax_errors.js --check-only contents/ch13KineticTheory.md
+```
+
+#### Fix issues (dry run)
+
+```bash
+node scripts/fix_liquid_syntax_errors.js --dry-run
+```
+
+#### Fix issues
+
+```bash
+node scripts/fix_liquid_syntax_errors.js
+```
+
+#### Fix specific files
+
+```bash
+node scripts/fix_liquid_syntax_errors.js contents/ch13KineticTheory.md
+```
+
+### Getting Help
+
+```bash
+# Python version
+python3 scripts/fix_liquid_syntax_errors.py --help
+
+# JavaScript version
+node scripts/fix_liquid_syntax_errors.js --help
 ```
 
 ## How It Works
@@ -74,11 +116,20 @@ python3 scripts/fix_liquid_syntax_errors.py contents/ch13KineticTheory.md conten
 
 You can add this script to your CI/CD pipeline to catch these errors early:
 
+**Python version:**
 ```bash
-# In your CI script
 python3 scripts/fix_liquid_syntax_errors.py --check-only
 if [ $? -ne 0 ]; then
     echo "Liquid syntax errors found. Run fix_liquid_syntax_errors.py to fix them."
+    exit 1
+fi
+```
+
+**JavaScript version:**
+```bash
+node scripts/fix_liquid_syntax_errors.js --check-only
+if [ $? -ne 0 ]; then
+    echo "Liquid syntax errors found. Run fix_liquid_syntax_errors.js to fix them."
     exit 1
 fi
 ```
@@ -96,8 +147,19 @@ The script detects these common LaTeX patterns that conflict with Liquid:
 - `{{f}_{...}}` - any variable in double braces with subscript
 - `\frac{{a}_{...}}{{b}_{...}}` - fractions with subscripted numerator/denominator
 
+## Requirements
+
+**Python version:**
+- Python 3.6 or higher
+- No external dependencies (uses only standard library)
+
+**JavaScript version:**
+- Node.js 14 or higher
+- No external dependencies (uses only built-in modules)
+
 ## Notes
 
-- The script is safe to run multiple times - it won't double-wrap already-fixed content
-- It only modifies lines that contain actual Liquid syntax conflicts
+- Both scripts are safe to run multiple times - they won't double-wrap already-fixed content
+- They only modify lines that contain actual Liquid syntax conflicts
 - Original file formatting and spacing are preserved
+- Both versions produce identical output and behavior
