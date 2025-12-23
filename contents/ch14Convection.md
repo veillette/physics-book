@@ -413,7 +413,50 @@ At what wind speed does  $$-10 \text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
-10 m/s
+
+**Strategy**
+
+We use Table 1 (Wind-Chill Factors) to find the wind speed at which $$-10\text{ºC}$$ moving air has an equivalent still air temperature of $$-29\text{ºC}$$.
+
+**Solution**
+
+From Table 1, we need to find the wind-chill factor of $$-29\text{ºC}$$ in the row for moving air temperature $$-10\text{ºC}$$.
+
+Looking at the row for $$-10\text{ºC}$$:
+- At 0 m/s (still air): $$-10\text{ºC}$$
+- At 2 m/s: $$-12\text{ºC}$$
+- At 5 m/s: $$-21\text{ºC}$$
+- At **10 m/s**: $$-29\text{ºC}$$
+- At 15 m/s: $$-34\text{ºC}$$
+- At 20 m/s: $$-36\text{ºC}$$
+
+The wind speed is **10 m/s**.
+
+**Discussion**
+
+This result shows that $$-10\text{ºC}$$ air moving at 10 m/s feels as cold as still air at $$-29\text{ºC}$$—a 19-degree difference in perceived temperature! This demonstrates the dramatic impact of wind on heat loss from exposed skin.
+
+Wind speed of 10 m/s equals:
+- **36 km/h** (22 mph)
+- A moderate to fresh breeze
+- Enough to raise dust and loose paper; small branches begin to move
+
+At this combination (-10°C and 10 m/s wind), exposed skin faces serious frostbite risk:
+- Frostbite can occur in 10-30 minutes on exposed skin
+- Proper protection (hat, gloves, scarf covering face) is essential
+- Outdoor activities should be limited
+
+The wind-chill effect occurs because convection continuously removes the warm boundary layer of air near the skin. In still air, this boundary layer provides some insulation. Moving air strips away this layer, exposing skin directly to colder air and dramatically increasing heat loss.
+
+This is why:
+1. **Windbreaks matter**: Standing behind a wall or in a forest significantly reduces wind chill
+2. **Clothing works**: Wind-resistant outer layers trap still air and block convection
+3. **Activity helps**: Moving generates metabolic heat to offset increased losses
+4. **Wind makes cold dangerous**: -10°C with wind is far more hazardous than -29°C in calm conditions where you can dress appropriately
+
+**Answer**
+
+The wind speed is **10 m/s** (36 km/h or 22 mph).
 
 </div>
 </div>
@@ -422,6 +465,37 @@ At what wind speed does  $$-10 \text{ºC} $$
 <div class="problem" markdown="1">
 At what temperature does still air cause the same chill factor as  $$-5\text{ºC} $$
  air moving at 15 m/s?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use Table 1 (Wind-Chill Factors) to find the equivalent still air temperature for $$-5\text{ºC}$$ air moving at 15 m/s.
+
+**Solution**
+
+From Table 1, locate the row for moving air temperature of $$-5\text{ºC}$$ and the column for wind speed of 15 m/s.
+
+The wind-chill factor (equivalent still air temperature) is: $$-26\text{ºC}$$
+
+**Discussion**
+
+This dramatic result shows that $$-5\text{ºC}$$ air moving at 15 m/s feels as cold as still air at $$-26\text{ºC}$$—a difference of 21 degrees! This demonstrates the powerful effect of convection on heat loss from the body.
+
+The wind-chill effect occurs because:
+1. Moving air continuously replaces the thin, warmer boundary layer of air next to your skin with colder air
+2. This increases the temperature gradient at the skin surface
+3. Higher temperature gradients increase the rate of heat conduction from skin to air
+4. The faster the wind, the thinner the boundary layer and the greater the heat loss
+
+This is why weather forecasters report "wind chill temperature"—it represents the actual cooling effect on exposed skin. At -5ºC with 15 m/s winds, exposed skin can develop frostbite in a similar time as would occur in still air at -26ºC. This information is critical for safety during winter outdoor activities.
+
+The wind-chill effect is also why fans make us feel cooler in summer even though they don't actually lower air temperature—they increase convective heat transfer and evaporation of perspiration.
+
+**Answer**
+
+Still air at **-26ºC** causes the same chill factor as -5ºC air moving at 15 m/s.
 
 </div>
 </div>
@@ -443,6 +517,57 @@ The “steam” above a freshly made cup of instant coffee is really water vapor
 
 (b) Is this a reasonable amount of water to evaporate in the form of
 perspiration, assuming the relative humidity of the surrounding air is low?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+The heat removed by evaporation ($$Q = mL_v$$) must equal the heat lost from the body ($$Q = mc\Delta T$$). We solve for the mass of water that must evaporate.
+
+**Solution**
+
+Given:
+- Mass of woman: $$M = 60.0 \text{ kg}$$
+- Temperature decrease: $$\Delta T = 0.750\text{ºC}$$
+- Specific heat of human body: $$c = 3500 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of vaporization (at body temp): $$L_v = 2430 \text{ kJ/kg}$$
+
+**(a)** Heat to be removed from body:
+<div class="equation">
+$$Q = Mc\Delta T = (60.0)(3500)(0.750) = 157500 \text{ J} = 157.5 \text{ kJ}$$
+</div>
+
+This heat is removed by evaporation:
+<div class="equation">
+$$Q = m_{evap}L_v$$
+</div>
+
+Solving for mass of water:
+<div class="equation">
+$$m_{evap} = \frac{Q}{L_v} = \frac{157.5 \text{ kJ}}{2430 \text{ kJ/kg}} = 0.0648 \text{ kg} = 64.8 \text{ g}$$
+</div>
+
+**(b)** Yes, this is quite reasonable. During moderate exercise or in hot weather, a person can easily perspire 64.8 g (about 2.3 ounces or a quarter cup) of water. In fact, during vigorous exercise or extreme heat, perspiration rates can exceed 1-2 liters per hour, which is 15-30 times this amount.
+
+**Discussion**
+
+The result shows that evaporation is an extremely efficient cooling mechanism. Only 64.8 g of water evaporation can lower body temperature by 0.75ºC for a 60-kg person—demonstrating water's remarkable latent heat of vaporization.
+
+This calculation explains several physiological phenomena:
+1. **Why we sweat:** It's the body's primary cooling mechanism during heat stress or exercise
+2. **Importance of hydration:** We must replace lost water to maintain cooling capacity
+3. **Humidity effects:** In high humidity, sweat doesn't evaporate efficiently, reducing cooling and causing overheating
+4. **Effectiveness of wet clothing:** Wet shirts or towels can provide significant cooling through evaporation
+
+During intense exercise, the body can produce 500-1000 W of heat. To dissipate this without evaporation would require unrealistic convective and radiative heat loss. Evaporative cooling handles the majority of heat dissipation, especially in warm environments.
+
+In low humidity environments (deserts), this small amount of perspiration can evaporate almost immediately, providing efficient cooling even though you may not notice being "sweaty." In humid environments, the same sweat may not evaporate, leaving you feeling hot and uncomfortable despite profuse sweating.
+
+**Answer**
+
+(a) **0.0648 kg** or **64.8 g** of water must evaporate.
+(b) Yes, this is a **reasonable and typical amount** for perspiration in warm conditions or during moderate physical activity.
 
 </div>
 </div>
