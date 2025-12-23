@@ -356,17 +356,76 @@ On average, would Earth be warmer or cooler without the atmosphere? Explain your
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 At what net rate does heat radiate from a  $$275{\text{-m}}^{2} $$
- black roof on a night when the roof’s temperature is  $$30.0\text{ºC} $$
+ black roof on a night when the roof's temperature is  $$30.0\text{ºC} $$
  and the surrounding temperature is  $$15.0\text{ºC} $$ ?
  The emissivity of the roof is 0.900.
 
 </div>
 <div class="solution" data-element-type="problem-exercises" markdown="1">
- $$- 21.7\text{kW} $$
 
-{: class="newline"}
+**Strategy**
 
-Note that the negative answer implies heat loss to the surroundings.
+We use the Stefan-Boltzmann law for net radiation between two surfaces: $$\frac{Q_{net}}{t} = \sigma eA(T_2^4 - T_1^4)$$. The roof (at higher temperature) radiates energy to the cooler surroundings. We must convert temperatures to Kelvin.
+
+**Solution**
+
+Given:
+- Roof area: $$A = 275 \text{ m}^2$$
+- Roof temperature: $$T_{roof} = 30.0\text{ºC} = 303 \text{ K}$$
+- Surrounding temperature: $$T_{surr} = 15.0\text{ºC} = 288 \text{ K}$$
+- Emissivity: $$e = 0.900$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+
+Net radiation rate (heat loss from roof):
+<div class="equation">
+$$\frac{Q_{net}}{t} = \sigma eA(T_{roof}^4 - T_{surr}^4)$$
+</div>
+
+Calculate the fourth powers:
+- $$T_{roof}^4 = (303)^4 = 8.424 \times 10^9 \text{ K}^4$$
+- $$T_{surr}^4 = (288)^4 = 6.872 \times 10^9 \text{ K}^4$$
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8})(0.900)(275)[(8.424 - 6.872) \times 10^9]$$
+</div>
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (1.402 \times 10^{-5})(1.552 \times 10^9) = 21,759 \text{ W} \approx 21.8 \text{ kW}$$
+</div>
+
+Since the roof is losing heat to cooler surroundings, we can express this as:
+<div class="equation">
+$$\frac{Q_{net}}{t} = -21.7 \text{ kW}$$
+</div>
+
+The negative sign indicates heat loss from the roof.
+
+**Discussion**
+
+The heat loss rate of 21.7 kW is substantial—equivalent to running about 22 space heaters continuously! This demonstrates why radiation is a significant mechanism of heat loss from buildings, especially:
+
+1. **At night**: The roof radiates to the cooler night sky
+2. **With large surface areas**: The 275 m² roof provides significant area for radiation
+3. **With dark surfaces**: The high emissivity (0.900) means the roof is an efficient radiator
+
+Even though the temperature difference is only 15°C (relatively modest), the large area and high emissivity result in substantial heat loss. This is why:
+
+- **Cool roofs** (light-colored, reflective roofs) are increasingly used in warm climates—they have low emissivity and absorb/emit less radiation
+- **Radiant barriers** in attics can reduce radiative heat transfer
+- **Proper insulation** is crucial—this 21.7 kW must be replaced by heating systems in winter or represents heat gain that must be removed by cooling in summer
+
+The calculation demonstrates **radiative cooling**: on clear nights, surfaces can radiate heat to the cold upper atmosphere and may even reach temperatures below the ambient air temperature. This is why frost can form on car windshields even when air temperature is above freezing.
+
+For a typical house:
+- Roof area: 150-300 m²
+- This roof's heat loss: 21.7 kW
+- Cost impact: At $0.10/kWh electricity, running 24h = $52/day heating cost just to offset roof radiation!
+
+This underscores the importance of insulation, which doesn't stop radiation but reduces the overall heat transfer through the roof structure.
+
+**Answer**
+
+The net rate of heat radiation from the roof is **-21.7 kW** (negative indicating heat loss to the surroundings).
 
 </div>
 </div>
@@ -377,6 +436,72 @@ Note that the negative answer implies heat loss to the surroundings.
  and have an exposed area of  $$ 0.200 {\text{m}}^{2} $$
  and an emissivity of 0.980. The surrounding room has a temperature of  $$ 18.0\text{ºC} $$ .
  If 50% of the radiant energy enters the room, what is the net rate of radiant heat transfer in kilowatts? (b) Does your answer support the contention that most of the heat transfer into a room by a fireplace comes from infrared radiation?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the Stefan-Boltzmann law for net radiation: $$\frac{Q_{net}}{t} = \sigma eA(T_2^4 - T_1^4)$$. Since only 50% enters the room, we multiply the result by 0.50. Remember to convert temperatures to Kelvin.
+
+**Solution**
+
+Given:
+- Embers temperature: $$T_{embers} = 850\text{ºC} = 1123 \text{ K}$$
+- Room temperature: $$T_{room} = 18.0\text{ºC} = 291 \text{ K}$$
+- Area: $$A = 0.200 \text{ m}^2$$
+- Emissivity: $$e = 0.980$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+- Fraction entering room: 50% = 0.50
+
+**(a)** Net radiation rate:
+<div class="equation">
+$$\frac{Q_{net}}{t} = \sigma eA(T_{embers}^4 - T_{room}^4)$$
+</div>
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8})(0.980)(0.200)[(1123)^4 - (291)^4]$$
+</div>
+
+Calculate the fourth powers:
+- $$T_{embers}^4 = (1123)^4 = 1.592 \times 10^{12} \text{ K}^4$$
+- $$T_{room}^4 = (291)^4 = 7.166 \times 10^9 \text{ K}^4$$
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (1.112 \times 10^{-8})(1.592 \times 10^{12} - 0.007166 \times 10^{12})$$
+</div>
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (1.112 \times 10^{-8})(1.585 \times 10^{12}) = 17,600 \text{ W}$$
+</div>
+
+Heat entering room (50%):
+<div class="equation">
+$$\frac{Q_{room}}{t} = 0.50 \times 17,600 = 8,800 \text{ W} = 8.80 \text{ kW}$$
+</div>
+
+**(b)** Yes, absolutely! The radiation alone transfers 8.80 kW into the room, which is substantial. For comparison:
+- A typical space heater produces 1-2 kW
+- This radiation is equivalent to 4-9 space heaters
+
+This strongly supports that radiation is the dominant heat transfer mechanism from a fireplace. Convection through the chimney actually removes hot air from the room, making traditional fireplaces relatively inefficient for heating. However, the radiant heat creates a pleasant warming sensation for people in direct view of the fire, even though the room temperature may not rise significantly.
+
+**Discussion**
+
+The huge radiative power (17.6 kW total, 8.8 kW into room) demonstrates why:
+1. You can feel intense heat from across a room when near a fireplace
+2. Objects in line-of-sight with embers warm quickly
+3. Fireplaces can be uncomfortably hot when sitting close
+4. The fourth-power temperature dependence makes hot embers incredibly effective radiators
+
+The cherry-red color indicates temperatures around 850ºC, confirming significant visible light emission. However, most radiated energy is still in the infrared (which we feel as heat but cannot see). The Stefan-Boltzmann law's $$T^4$$ dependence means the 1123 K embers radiate about $(1123/291)^4 \approx 230$ times more power per unit area than room-temperature objects.
+
+Modern fireplace inserts and stoves capture more of this heat through convection and conduction, making them much more efficient than open fireplaces where most heat escapes up the chimney.
+
+**Answer**
+
+(a) The net rate of radiant heat transfer into the room is **8.80 kW**.
+(b) Yes, this demonstrates that **radiation is the dominant mechanism** for heat transfer from a fireplace into a room.
 
 </div>
 </div>
@@ -401,6 +526,82 @@ Radiation makes it impossible to stand close to a hot lava flow. Calculate the r
  environment, if the radiator has an emissivity of 0.750 and a  $$1.20-m^{2} $$
  surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of  $$200 \text{hp} \left(1.5 \text{kW}\right) $$
  and the efficiency of automobile engines as 25%.
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+For part (a), we use the Stefan-Boltzmann law for net radiation. For part (b), we calculate the waste heat produced by the engine (75% of input power) and compare it to the radiative heat transfer.
+
+**Solution**
+
+Given:
+- Radiator temperature: $$T_1 = 110\text{ºC} = 383 \text{ K}$$
+- Environment temperature: $$T_2 = 50.0\text{ºC} = 323 \text{ K}$$
+- Emissivity: $$e = 0.750$$
+- Surface area: $$A = 1.20 \text{ m}^2$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+- Engine power output: $$P_{out} = 200 \text{ hp} = 1.5 \times 10^5 \text{ W} = 150 \text{ kW}$$
+- Engine efficiency: $$\eta = 25\% = 0.25$$
+
+**(a)** Net radiation rate:
+<div class="equation">
+$$\frac{Q_{net}}{t} = \sigma eA(T_1^4 - T_2^4)$$
+</div>
+
+Calculate fourth powers:
+- $$T_1^4 = (383)^4 = 2.150 \times 10^{10} \text{ K}^4$$
+- $$T_2^4 = (323)^4 = 1.086 \times 10^{10} \text{ K}^4$$
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8})(0.750)(1.20)(2.150 - 1.086) \times 10^{10}$$
+</div>
+
+<div class="equation">
+$$\frac{Q_{net}}{t} = (5.10 \times 10^{-8})(1.064 \times 10^{10}) = 543 \text{ W}$$
+</div>
+
+**(b)** Calculate engine waste heat:
+
+If efficiency is 25%, then 75% of input power becomes waste heat.
+Input power: $$P_{in} = \frac{P_{out}}{\eta} = \frac{150 \text{ kW}}{0.25} = 600 \text{ kW}$$
+
+Waste heat: $$P_{waste} = P_{in} - P_{out} = 600 - 150 = 450 \text{ kW}$$
+
+Fraction of waste heat removed by radiation:
+<div class="equation">
+$$\text{Fraction} = \frac{543 \text{ W}}{450,000 \text{ W}} = 0.00121 = 0.121\%$$
+</div>
+
+No, radiative heat transfer is **not significant**—it represents only about 0.12% of the waste heat that must be removed.
+
+**Discussion**
+
+The calculation reveals why car radiators rely overwhelmingly on **convection**, not radiation:
+
+**(a)** The radiative heat transfer of only 543 W is relatively small. This occurs because:
+1. The temperature difference is modest (60ºC)
+2. The fourth-power dependence means moderate temperatures radiate weakly compared to very hot objects
+3. The emissivity (0.75) is good but not perfect
+
+**(b)** The engine produces 450 kW of waste heat—the radiation removes only 0.12% of it! The vast majority of cooling comes from:
+- **Forced convection:** Coolant (water/antifreeze mixture) circulating through the engine
+- **Air flow:** Fan-driven or motion-induced air flowing through radiator fins
+- **Conduction:** Heat transfer from coolant to radiator metal to air
+
+This is why:
+- Radiators have many thin fins (maximizing surface area for convection)
+- Coolant must circulate continuously
+- Fans are essential when the car isn't moving
+- Overheating occurs rapidly if coolant stops circulating
+
+A stationary car with the engine running will overheat in minutes without functioning coolant circulation and fans, proving that radiation alone is utterly inadequate for cooling. The term "radiator" is actually a misnomer—it should be called a "convector"!
+
+**Answer**
+
+(a) The rate of radiative heat transfer is **543 W** or approximately **0.54 kW**.
+(b) No, this is **not significant**—it represents only **0.12%** of the engine's waste heat. The radiator relies primarily on **convection** for cooling.
 
 </div>
 </div>
