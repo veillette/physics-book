@@ -1880,7 +1880,7 @@ Calculate the frequency:
 **(b)** The shortest wavelength of visible light is approximately 380 nm (violet). Calculate the ratio:
 
 <div class="equation">
- $$\frac{{\lambda }_{\text{visible}}}{{\lambda }_{\text{UV}}}=\frac{380 \text{ nm}}{193 \text{ nm}}=1.97$$
+{% raw %} $$\frac{{\lambda }_{\text{visible}}}{{\lambda }_{\text{UV}}}=\frac{380 \text{ nm}}{193 \text{ nm}}=1.97$$ {% endraw %}
 </div>
 
 Since accuracy is directly proportional to wavelength (smaller wavelength = better accuracy), the UV radiation is 1.97 times more accurate, or approximately **97% more accurate** than the shortest visible wavelength.
