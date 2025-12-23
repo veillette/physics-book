@@ -478,6 +478,35 @@ On a hot day, the temperature of an 80 000-L swimming pool increases by  $$1.50\
 Show that  $$1 \text{cal/g}\cdot \text{ºC}=1 \text{kcal/kg}\cdot \text{ºC} $$.
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We need to show that these two units are equivalent by converting from one to the other using the relationships: 1 kilocalorie = 1000 calories and 1 kilogram = 1000 grams.
+
+**Solution**
+
+Start with $$1 \text{cal/g}\cdot \text{ºC}$$ and convert to $$\text{kcal/kg}\cdot \text{ºC}$$:
+
+<div class="equation">
+$$1 \frac{\text{cal}}{\text{g}\cdot\text{ºC}} \times \frac{1 \text{ kcal}}{1000 \text{ cal}} \times \frac{1000 \text{ g}}{1 \text{ kg}} = 1 \frac{\text{kcal}}{\text{kg}\cdot\text{ºC}}$$
+</div>
+
+The factors of 1000 cancel:
+
+<div class="equation">
+$$1 \frac{\text{cal}}{\text{g}\cdot\text{ºC}} = \frac{1000}{1000} \frac{\text{kcal}}{\text{kg}\cdot\text{ºC}} = 1 \frac{\text{kcal}}{\text{kg}\cdot\text{ºC}}$$
+</div>
+
+**Discussion**
+
+This demonstrates that the two units are indeed equivalent. This is why the specific heat of water can be expressed as either 1.00 cal/g·ºC or 1.00 kcal/kg·ºC. When we increase the mass unit by a factor of 1000 (g to kg), we must also increase the energy unit by the same factor (cal to kcal) to maintain the same value for specific heat.
+
+**Answer**
+
+The two units are equivalent: $$1 \text{ cal/g}\cdot \text{ºC} = 1 \text{ kcal/kg}\cdot \text{ºC}$$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -498,6 +527,73 @@ To sterilize a 50.0-g glass baby bottle, we must raise its temperature from  $$ 
 <div class="problem" markdown="1">
 The same heat transfer into identical masses of different substances produces different temperature changes. Calculate the final temperature when 1.00 kcal of heat transfers into 1.00 kg of the following, originally at  $$ 20.0\text{ºC} $$
 : (a) water; (b) concrete; (c) steel; and (d) mercury.
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the equation $$Q = mc\Delta T$$ to find the temperature change for each substance. The final temperature is $$T_f = T_i + \Delta T$$. We need to look up the specific heat values from Table 1 and convert the heat from kcal to appropriate units.
+
+**Solution**
+
+Given: $$Q = 1.00 \text{ kcal} = 4186 \text{ J}$$, $$m = 1.00 \text{ kg}$$, $$T_i = 20.0\text{ºC}$$
+
+Rearranging $$Q = mc\Delta T$$:
+<div class="equation">
+$$\Delta T = \frac{Q}{mc}$$
+</div>
+
+**(a) Water:** $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
+
+<div class="equation">
+$$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})} = 1.00\text{ºC}$$
+</div>
+
+<div class="equation">
+$$T_f = 20.0\text{ºC} + 1.00\text{ºC} = 21.0\text{ºC}$$
+</div>
+
+**(b) Concrete:** $$c = 840 \text{ J/kg}\cdot\text{ºC}$$
+
+<div class="equation">
+$$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(840 \text{ J/kg}\cdot\text{ºC})} = 4.98\text{ºC}$$
+</div>
+
+<div class="equation">
+$$T_f = 20.0\text{ºC} + 4.98\text{ºC} = 25.0\text{ºC}$$
+</div>
+
+**(c) Steel:** $$c = 452 \text{ J/kg}\cdot\text{ºC}$$
+
+<div class="equation">
+$$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(452 \text{ J/kg}\cdot\text{ºC})} = 9.26\text{ºC}$$
+</div>
+
+<div class="equation">
+$$T_f = 20.0\text{ºC} + 9.26\text{ºC} = 29.3\text{ºC}$$
+</div>
+
+**(d) Mercury:** $$c = 139 \text{ J/kg}\cdot\text{ºC}$$
+
+<div class="equation">
+$$\Delta T = \frac{4186 \text{ J}}{(1.00 \text{ kg})(139 \text{ J/kg}\cdot\text{ºC})} = 30.1\text{ºC}$$
+</div>
+
+<div class="equation">
+$$T_f = 20.0\text{ºC} + 30.1\text{ºC} = 50.1\text{ºC}$$
+</div>
+
+**Discussion**
+
+The results clearly show that substances with lower specific heats experience larger temperature changes for the same heat transfer. Water, with its very high specific heat, changes temperature the least (only 1.00°C), while mercury, with a much lower specific heat, experiences the largest temperature change (30.1°C). This is why water is an excellent thermal regulator and is used in cooling systems—it can absorb large amounts of heat with minimal temperature change. The large specific heat of water is also why coastal regions have more moderate climates than inland areas.
+
+**Answer**
+
+(a) Water: $$T_f = 21.0\text{ºC}$$
+(b) Concrete: $$T_f = 25.0\text{ºC}$$
+(c) Steel: $$T_f = 29.3\text{ºC}$$
+(d) Mercury: $$T_f = 50.1\text{ºC}$$
 
 </div>
 </div>
@@ -521,6 +617,40 @@ A 0.250-kg block of a pure material is heated from  $$ 20.0\text{ºC} $$
  by the addition of 4.35 kJ of energy. Calculate its specific heat and identify the substance of which it is most likely composed.
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the equation $$Q = mc\Delta T$$ and solve for the specific heat $$c$$. Then we compare the calculated value to the specific heats in Table 1 to identify the substance.
+
+**Solution**
+
+Given:
+- $$m = 0.250 \text{ kg}$$
+- $$T_i = 20.0\text{ºC}$$, $$T_f = 65.0\text{ºC}$$
+- $$Q = 4.35 \text{ kJ} = 4350 \text{ J}$$
+
+Calculate the temperature change:
+<div class="equation">
+$$\Delta T = T_f - T_i = 65.0\text{ºC} - 20.0\text{ºC} = 45.0\text{ºC}$$
+</div>
+
+Solve $$Q = mc\Delta T$$ for $$c$$:
+<div class="equation">
+$$c = \frac{Q}{m\Delta T} = \frac{4350 \text{ J}}{(0.250 \text{ kg})(45.0\text{ºC})} = \frac{4350}{11.25} = 387 \text{ J/kg}\cdot\text{ºC}$$
+</div>
+
+Comparing to Table 1, we find that copper has a specific heat of 387 J/kg·ºC.
+
+**Discussion**
+
+The calculated specific heat of 387 J/kg·ºC matches exactly with the specific heat of copper listed in Table 1. This is a reasonable result because copper is a common material used for blocks in calorimetry experiments due to its good thermal properties and availability. The relatively low specific heat of copper (compared to water) means that it doesn't take much energy to change its temperature significantly, which is characteristic of metals.
+
+**Answer**
+
+The specific heat is $$c = 387 \text{ J/kg}\cdot\text{ºC}$$, and the substance is most likely **copper**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -538,6 +668,56 @@ Suppose identical amounts of heat transfer into different masses of copper and w
 <div class="problem" markdown="1">
 (a) The number of kilocalories in food is determined by calorimetry techniques in which the food is burned and the amount of heat transfer is measured. How many kilocalories per gram are there in a 5.00-g peanut if the energy from burning it is transferred to 0.500 kg of water held in a 0.100-kg aluminum cup, causing a  $$ 54.9\text{ºC} $$
  temperature increase? (b) Compare your answer to labeling information found on a package of peanuts and comment on whether the values are consistent.
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+The energy released by burning the peanut equals the heat absorbed by both the water and the aluminum cup. We calculate the heat absorbed using $$Q = mc\Delta T$$ for both, then divide by the mass of the peanut to get energy per gram.
+
+**Solution**
+
+Given:
+- Mass of peanut: $$m_p = 5.00 \text{ g}$$
+- Mass of water: $$m_w = 0.500 \text{ kg} = 500 \text{ g}$$
+- Mass of aluminum cup: $$m_{Al} = 0.100 \text{ kg} = 100 \text{ g}$$
+- Temperature increase: $$\Delta T = 54.9\text{ºC}$$
+- Specific heat of water: $$c_w = 1.00 \text{ kcal/kg}\cdot\text{ºC} = 1.00 \text{ cal/g}\cdot\text{ºC}$$
+- Specific heat of aluminum: $$c_{Al} = 0.215 \text{ kcal/kg}\cdot\text{ºC} = 0.215 \text{ cal/g}\cdot\text{ºC}$$
+
+**(a)** Calculate heat absorbed by water:
+<div class="equation">
+$$Q_w = m_w c_w \Delta T = (500 \text{ g})(1.00 \text{ cal/g}\cdot\text{ºC})(54.9\text{ºC}) = 27450 \text{ cal}$$
+</div>
+
+Calculate heat absorbed by aluminum cup:
+<div class="equation">
+$$Q_{Al} = m_{Al} c_{Al} \Delta T = (100 \text{ g})(0.215 \text{ cal/g}\cdot\text{ºC})(54.9\text{ºC}) = 1180 \text{ cal}$$
+</div>
+
+Total heat released by peanut:
+<div class="equation">
+$$Q_{total} = Q_w + Q_{Al} = 27450 + 1180 = 28630 \text{ cal} = 28.6 \text{ kcal}$$
+</div>
+
+Energy per gram of peanut:
+<div class="equation">
+$$\frac{Q_{total}}{m_p} = \frac{28.6 \text{ kcal}}{5.00 \text{ g}} = 5.72 \text{ kcal/g}$$
+</div>
+
+**(b)** Typical nutritional labels for peanuts show approximately 5.5-6.0 kcal/g (or about 160-170 Calories per ounce, where 1 Calorie = 1 kcal). Our calculated value of 5.72 kcal/g is consistent with this range.
+
+**Discussion**
+
+The calculated energy content of 5.72 kcal/g is very reasonable for peanuts. Peanuts are high in fat and protein, making them energy-dense foods. The fact that we must heat both the water and the aluminum cup is important—if we had neglected the cup, we would have underestimated the energy content of the peanut by about 4%. This demonstrates why precise calorimetry requires accounting for all objects that absorb heat in the system.
+
+The consistency with nutritional labeling validates both our calculation and the bomb calorimetry techniques used to determine food energy content. These techniques are fundamental to nutrition science and food labeling requirements.
+
+**Answer**
+
+(a) The peanut contains **5.72 kcal/g** of energy.
+(b) This value is consistent with typical peanut labeling (5.5-6.0 kcal/g), confirming our calculation.
 
 </div>
 </div>
@@ -564,6 +744,55 @@ Even when shut down after a period of normal use, a large commercial nuclear rea
  (b) How long would it take to obtain a temperature increase of  $$2000\text{ºC} $$ ,
  which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the  $$5 \times 10^{5} \text{-kg} $$
  steel containment vessel would also begin to heat up.)
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the relationship between power (rate of heat transfer), mass, specific heat, and rate of temperature change. Starting with $$Q = mc\Delta T$$ and dividing both sides by time $$t$$, we get $$\frac{Q}{t} = mc\frac{\Delta T}{t}$$, where $$\frac{Q}{t}$$ is the power and $$\frac{\Delta T}{t}$$ is the rate of temperature change.
+
+**Solution**
+
+Given:
+- Power: $$P = \frac{Q}{t} = 150 \text{ MW} = 150 \times 10^6 \text{ W} = 1.50 \times 10^8 \text{ J/s}$$
+- Mass: $$m = 1.60 \times 10^5 \text{ kg}$$
+- Specific heat: $$c = 0.3349 \text{ kJ/kg}\cdot\text{ºC} = 334.9 \text{ J/kg}\cdot\text{ºC}$$
+
+**(a)** Solve for the rate of temperature increase:
+
+From $$P = mc\frac{\Delta T}{t}$$:
+<div class="equation">
+$$\frac{\Delta T}{t} = \frac{P}{mc} = \frac{1.50 \times 10^8 \text{ J/s}}{(1.60 \times 10^5 \text{ kg})(334.9 \text{ J/kg}\cdot\text{ºC})}$$
+</div>
+
+<div class="equation">
+$$\frac{\Delta T}{t} = \frac{1.50 \times 10^8}{5.358 \times 10^7} = 2.80\text{ ºC/s}$$
+</div>
+
+**(b)** Time to reach $$\Delta T = 2000\text{ºC}$$:
+
+<div class="equation">
+$$t = \frac{\Delta T}{\Delta T/t} = \frac{2000\text{ºC}}{2.80\text{ ºC/s}} = 714 \text{ s}$$
+</div>
+
+Converting to minutes:
+<div class="equation">
+$$t = \frac{714 \text{ s}}{60 \text{ s/min}} = 11.9 \text{ min}$$
+</div>
+
+**Discussion**
+
+The results are alarming. At a rate of 2.80°C per second, the reactor core temperature would rise rapidly without cooling. In less than 12 minutes, the temperature could increase by 2000°C, potentially causing structural metals to melt and leading to a catastrophic failure. This demonstrates why continuous cooling is absolutely critical for nuclear reactors, even after shutdown—the decay of fission products continues to generate enormous amounts of heat.
+
+As noted in the problem, this calculation represents an initial rate. In reality, the temperature rise would initially be even faster in localized hot spots, then would slow as heat spreads to the larger containment vessel. This scenario illustrates the importance of backup cooling systems and the dangers highlighted by accidents like Fukushima (2011), where cooling system failure led to core melting.
+
+The decay heat typically decreases with time following shutdown, dropping to about 1-2% of operational power after a few hours, but this is still substantial and requires active cooling for days or weeks.
+
+**Answer**
+
+(a) The rate of temperature increase is **2.80ºC/s**.
+(b) It would take approximately **714 s** or **11.9 minutes** to reach a 2000ºC temperature increase.
 
 </div>
 </div>
