@@ -421,6 +421,20 @@ Pump gas molecules into a box and see what happens as you change the volume, add
 How is momentum related to the pressure exerted by a gas? Explain on the atomic and molecular level, considering the behavior of atoms and molecules.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider what happens when gas molecules collide with the walls of a container and how Newton's laws relate force to momentum change.
+
+**Solution:**
+Pressure is directly related to the rate of momentum transfer from gas molecules to the container walls. When a molecule collides elastically with a wall, its momentum component perpendicular to the wall reverses direction. According to Newton's second law, $$F=\Delta p/\Delta t$$, this change in momentum creates a force on the wall.
+
+For a single molecule moving perpendicular to a wall with velocity $$v_{x}$$, the momentum change is $$\Delta p=2mv_{x}$$. The force exerted depends on how frequently collisions occur, which is related to the molecule's speed and the container dimensions. When we consider billions of molecules constantly colliding with the walls, the average force per unit area (pressure) emerges from the collective momentum transfers.
+
+The relationship is quantified in the kinetic theory expression: $$PV=\frac{1}{3}Nm\overline{v^{2}}$$. The pressure is proportional to both the number density of molecules ($$N/V$$) and their average squared velocity ($$\overline{v^{2}}$$), which relates to their momentum squared ($$p^{2}=m^{2}v^{2}$$).
+
+**Discussion:**
+This molecular explanation reveals that gas pressure is fundamentally a statistical result of countless molecular collisions. Higher molecular speeds (greater momentum) or more molecules (more collisions) both increase pressure. This connects macroscopic pressure to microscopic molecular motion, demonstrating the power of kinetic theory to explain observable properties in terms of atomic behavior.
+</div>
 </div>
 
 ### Problems &amp; Exercises
@@ -440,8 +454,26 @@ Some incandescent light bulbs are filled with argon gas. What is  $${v}_{\text{r
 <div class="problem" markdown="1">
 Average atomic and molecular speeds  $$\left({v}_{\text{rms}}\right) $$
  are large, even at low temperatures. What is  $${v}_{\text{rms}} $$
- for helium atoms at 5.00 K, just one degree above helium’s liquefaction temperature?
+ for helium atoms at 5.00 K, just one degree above helium's liquefaction temperature?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ with the temperature and the mass of a helium atom.
+
+**Solution:**
+First, find the mass of a helium atom using its molar mass:
+<div class="equation" >
+ $$m=\frac{ 4.00 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{atoms/mol}}= 6.64 \times 10^{-27}  \text{kg} $$
+</div>
+
+Now calculate the rms speed:
+<div class="equation" >
+ $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}=\sqrt{\frac{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left( 5.00 \text{K}\right)}{ 6.64 \times 10^{-27}  \text{kg}}}=177 \text{ m/s} $$
+</div>
+
+**Discussion:**
+Even at this extremely low temperature (just 5 K above absolute zero), helium atoms are moving at 177 m/s, which is about 640 km/h or 400 mph. This demonstrates that molecular motion remains significant even at temperatures close to absolute zero. This high speed explains why helium is difficult to liquefy and why it has the lowest boiling point of any element (4.2 K at atmospheric pressure).
 </div>
 </div>
 
@@ -460,8 +492,36 @@ Average atomic and molecular speeds  $$\left({v}_{\text{rms}}\right) $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The escape velocity of any object from Earth is 11.2 km/s. (a) Express this speed in m/s and km/h. (b) At what temperature would oxygen molecules (molecular mass is equal to 32.0 g/mol) have an average velocity  $${v}_{\text{rms}} $$
- equal to Earth’s escape velocity of 11.1 km/s?
+ equal to Earth's escape velocity of 11.1 km/s?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+(a) Use unit conversion. (b) Rearrange the rms speed equation to solve for temperature.
+
+**Solution:**
+(a) Converting to m/s:
+<div class="equation" >
+ $$v= 11.2 \text{ km/s} \times \frac{1000 \text{ m}}{1 \text{ km}}= 11 200 \text{ m/s}= 1.12 \times 10^{4}  \text{ m/s} $$
+</div>
+
+Converting to km/h:
+<div class="equation" >
+ $$v= 11.2 \text{ km/s} \times \frac{3600 \text{ s}}{1 \text{ h}}= 4.03 \times 10^{4}  \text{ km/h} $$
+</div>
+
+(b) First find the mass of an oxygen molecule:
+<div class="equation" >
+ $$m=\frac{ 32.0 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 5.32 \times 10^{-26}  \text{kg} $$
+</div>
+
+Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
+<div class="equation" >
+ $$T=\frac{m{v}_{\text{rms}}^{2}}{3k_{B}}=\frac{\left( 5.32 \times 10^{-26}  \text{kg}\right){\left( 1.11 \times 10^{4}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 1.58 \times 10^{5}  \text{K} $$
+</div>
+
+**Discussion:**
+This extremely high temperature (158,000 K) is much higher than any naturally occurring temperature in Earth's atmosphere. This explains why Earth retains its oxygen atmosphere—at normal atmospheric temperatures, very few oxygen molecules have speeds approaching escape velocity. Lighter molecules like hydrogen and helium, however, can reach escape velocity at lower temperatures, which is why Earth has lost most of its primordial hydrogen and helium.
 </div>
 </div>
 
@@ -482,6 +542,19 @@ Nuclear fusion, the energy source of the Sun, hydrogen bombs, and fusion reactor
  What temperature is needed?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the relationship between average kinetic energy and temperature: $$\overline{\text{KE}}=\frac{3}{2}k_{B}T$$. Solve for temperature.
+
+**Solution:**
+Rearranging the equation:
+<div class="equation" >
+ $$T=\frac{2\overline{\text{KE}}}{3k_{B}}=\frac{2\left( 6.40 \times 10^{-14}  \text{J}\right)}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 3.09 \times 10^{9}  \text{K} $$
+</div>
+
+**Discussion:**
+This incredibly high temperature of about 3 billion kelvin is typical for nuclear fusion reactions. At such temperatures, atoms are fully ionized (stripped of electrons) forming a plasma, and nuclei have enough kinetic energy to overcome the strong electrostatic repulsion between positively charged nuclei and get close enough for the strong nuclear force to bind them together. The core of the Sun has a temperature of about 15 million kelvin, while fusion reactors on Earth require even higher temperatures (100-150 million kelvin) because they operate at lower densities than the Sun's core. This explains why controlled nuclear fusion remains one of the great technological challenges—maintaining such extreme temperatures is extraordinarily difficult.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -501,6 +574,24 @@ Suppose that the average velocity  $$\left({v}_{\text{rms}}\right) $$
 Hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity  $${v}_{\text{rms}} $$
  equal to 193 m/s. What is the temperature?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Use the rms speed equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ and solve for temperature $$T$$. First find the mass of a hydrogen molecule.
+
+**Solution:**
+Mass of one hydrogen molecule:
+<div class="equation" >
+ $$m=\frac{ 2.016 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 3.35 \times 10^{-27}  \text{kg} $$
+</div>
+
+Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
+<div class="equation" >
+ $$T=\frac{m{v}_{\text{rms}}^{2}}{3k_{B}}=\frac{\left( 3.35 \times 10^{-27}  \text{kg}\right){\left(193 \text{ m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 3.02 \text{ K} $$
+</div>
+
+**Discussion:**
+This extremely low temperature (about 3 K or -270ºC) is just above absolute zero. At such low temperatures, hydrogen would normally be a solid (it solidifies at 14 K at atmospheric pressure), but this calculation assumes the gas behaves ideally. The low rms speed of only 193 m/s (compared to ~1900 m/s at room temperature) is consistent with this very cold temperature. This temperature is in the range used in cryogenic research and is close to the temperature of liquid helium.
 </div>
 </div>
 
@@ -528,6 +619,57 @@ There are two important isotopes of uranium—  $${}^{235}\text{U} $$
  $$ {\text{UF}}_{6} $$
  are 349.0 g/mol and 352.0 g/mol, respectively. What is the ratio of their average velocities? (b) At what temperature would their average velocities differ by 1.00 m/s? (c) Do your answers in this problem imply that this technique may be difficult?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+(a) Use $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to find the ratio of velocities. At the same temperature, the ratio depends only on mass. (b) Set up equations for both isotopes and find when the difference equals 1.00 m/s. (c) Evaluate the practical implications.
+
+**Solution:**
+(a) At the same temperature:
+<div class="equation" >
+ $$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}=\sqrt{\frac{352.0}{349.0}}=\sqrt{1.00859}= 1.00429 $$
+</div>
+
+The lighter isotope moves about 0.429% faster.
+
+(b) Using $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$:
+<div class="equation" >
+ $${v}_{\text{rms,235}}-{v}_{\text{rms,238}}= 1.00 \text{ m/s} $$
+</div>
+
+<div class="equation" >
+ $$\sqrt{\frac{3k_{B}T}{m_{235}}}-\sqrt{\frac{3k_{B}T}{m_{238}}}= 1.00 \text{ m/s} $$
+</div>
+
+This can be rewritten as:
+<div class="equation" >
+ $$\sqrt{3k_{B}T}\left(\frac{1}{\sqrt{m_{235}}}-\frac{1}{\sqrt{m_{238}}}\right)= 1.00 \text{ m/s} $$
+</div>
+
+First find the molecular masses in kg:
+- $$m_{235}= 349.0 \times 10^{-3} / 6.02 \times 10^{23}= 5.80 \times 10^{-25}$$ kg
+- $$m_{238}= 352.0 \times 10^{-3} / 6.02 \times 10^{23}= 5.85 \times 10^{-25}$$ kg
+
+<div class="equation" >
+ $$\sqrt{3k_{B}T}\left(\frac{1}{\sqrt{ 5.80 \times 10^{-25}}}-\frac{1}{\sqrt{ 5.85 \times 10^{-25}}}\right)= 1.00 $$
+</div>
+
+<div class="equation" >
+ $$\sqrt{3k_{B}T}\left( 1.313 \times 10^{12}- 1.307 \times 10^{12}\right)= 1.00 $$
+</div>
+
+<div class="equation" >
+ $$\sqrt{3k_{B}T}\left( 6 \times 10^{9}\right)= 1.00 $$
+</div>
+
+<div class="equation" >
+ $$T=\frac{(1.00)^{2}}{3k_{B}(6 \times 10^{9})^{2}}=\frac{1}{3( 1.38 \times 10^{-23})( 3.6 \times 10^{19})}= 672 \text{ K}= 399\text{ºC} $$
+</div>
+
+(c) Yes, this technique is very difficult! The velocity difference is less than 0.5%, requiring many stages of separation (diffusion through barriers) to achieve significant enrichment. The process must be done at high temperature (around 400ºC) to achieve even a 1 m/s difference. Historically, gaseous diffusion plants were enormous facilities with thousands of stages, consuming vast amounts of energy. This is why uranium enrichment is technically challenging and why newer methods (like gas centrifuges) have largely replaced diffusion.
+
+**Discussion:**
+This problem illustrates why uranium enrichment was such a challenge during the Manhattan Project and remains a proliferation concern today. The tiny mass difference (less than 1%) between isotopes results in minuscule velocity differences, requiring massive industrial plants with thousands of separation stages. Modern centrifuge methods exploit the same mass difference but are more efficient.
 </div>
 </div>
 

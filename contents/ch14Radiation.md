@@ -626,6 +626,79 @@ Suppose you walk into a sauna that has an ambient temperature of  $$50.0\text{º
  (b) If all other forms of heat transfer are balanced (the net heat transfer is zero), at what rate will your body temperature increase if your mass is 75.0 kg?
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+For part (a), we use the Stefan-Boltzmann law for net radiation: $$Q/t = \sigma eA(T_2^4 - T_1^4)$$, where $$T_2$$ is the ambient temperature and $$T_1$$ is the skin temperature (both in Kelvin). For part (b), we use $$Q = mc\Delta T$$ to find the rate of temperature increase.
+
+**Solution**
+
+Given:
+- Ambient temperature: $$T_{ambient} = 50.0\text{ºC} = 323.15 \text{ K}$$
+- Skin temperature: $$T_{skin} = 37.0\text{ºC} = 310.15 \text{ K}$$
+- Emissivity: $$e = 0.98$$
+- Surface area: $$A = 1.50 \text{ m}^2$$
+- Mass: $$m = 75.0 \text{ kg}$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+- Specific heat of human body: $$c = 3500 \text{ J/kg}\cdot\text{ºC}$$
+
+**(a)** Rate of heat transfer by radiation:
+
+<div class="equation">
+$$\frac{Q}{t} = \sigma e A(T_{ambient}^4 - T_{skin}^4)$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t} = (5.67 \times 10^{-8})(0.98)(1.50)[(323.15)^4 - (310.15)^4]$$
+</div>
+
+Calculate the temperature powers:
+- $$(323.15)^4 = 1.0903 \times 10^{10} \text{ K}^4$$
+- $$(310.15)^4 = 9.245 \times 10^9 \text{ K}^4$$
+- Difference: $$1.0903 \times 10^{10} - 9.245 \times 10^9 = 1.658 \times 10^9 \text{ K}^4$$
+
+<div class="equation">
+$$\frac{Q}{t} = (5.67 \times 10^{-8})(0.98)(1.50)(1.658 \times 10^9) = 138 \text{ W}$$
+</div>
+
+**(b)** Rate of body temperature increase:
+
+From $$Q = mc\Delta T$$, the rate of temperature change is:
+<div class="equation">
+$$\frac{\Delta T}{t} = \frac{Q/t}{mc} = \frac{138}{(75.0)(3500)} = \frac{138}{262500} = 5.26 \times 10^{-4} \text{ ºC/s}$$
+</div>
+
+Converting to more practical units:
+<div class="equation">
+$$\frac{\Delta T}{t} = (5.26 \times 10^{-4} \text{ ºC/s})(60 \text{ s/min}) = 0.0316 \text{ ºC/min}$$
+</div>
+
+Or approximately:
+<div class="equation">
+$$\frac{\Delta T}{t} = 1.9 \text{ ºC/hour}$$
+</div>
+
+**Discussion**
+
+**(a)** The body absorbs heat at a rate of 138 W from the hot sauna environment through radiation alone. This is significant—comparable to a moderate-powered light bulb. Since the sauna is hotter than your skin, you receive net heat transfer.
+
+**(b)** The rate of temperature increase of approximately 0.03ºC/min or 1.9ºC/hour seems reasonable for a sauna. In reality:
+- You wouldn't stay in a sauna long enough for your core temperature to rise dangerously
+- Your body activates cooling mechanisms (sweating) very quickly
+- Evaporative cooling from sweat can remove much more than 138 W
+- Convection also plays a significant role in heat transfer
+
+A typical sauna session lasts 10-20 minutes. At 0.03ºC/min, this would only raise body temperature by 0.3-0.6ºC if other heat transfer mechanisms were truly balanced, which is manageable. However, the problem states "all other forms of heat transfer are balanced," which is unrealistic—in practice, you'd sweat profusely to dissipate this heat and maintain homeostasis.
+
+This calculation demonstrates why saunas are uncomfortable but tolerable: while you gain heat through radiation (and convection), your body can compensate through evaporative cooling. If you couldn't sweat, a sauna would quickly become dangerous.
+
+**Answer**
+
+(a) The rate of heat transfer by radiation is approximately **138 W**.
+(b) The body temperature would increase at a rate of **5.26 × 10⁻⁴ ºC/s**, or **0.032 ºC/min**, or approximately **1.9 ºC/hour**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -656,6 +729,95 @@ The Sun radiates like a perfect black body with an emissivity of exactly 1. (a) 
  away? (This number is called the solar constant.)
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+For part (a), we use Stefan-Boltzmann law $$P = \sigma eA T^4$$ and solve for $$T$$. Since $$T_{space} = 3$$ K is negligible compared to the Sun's temperature, we can ignore it. For part (b), we divide total power by surface area. For part (c), we use the inverse square law—power spreads over a sphere at Earth's distance.
+
+**Solution**
+
+Given:
+- Sun's radius: $$R_s = 7.00 \times 10^8 \text{ m}$$
+- Total power radiated: $$P = 3.80 \times 10^{26} \text{ W}$$
+- Emissivity: $$e = 1.00$$
+- Space temperature: $$T_{space} = 3 \text{ K}$$ (negligible)
+- Earth's orbital radius: $$R_E = 1.50 \times 10^{11} \text{ m}$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+
+**(a)** Surface temperature of the Sun:
+
+Surface area of Sun:
+<div class="equation">
+$$A_s = 4\pi R_s^2 = 4\pi(7.00 \times 10^8)^2 = 6.16 \times 10^{18} \text{ m}^2$$
+</div>
+
+Using Stefan-Boltzmann law:
+<div class="equation">
+$$P = \sigma e A_s T^4$$
+</div>
+
+<div class="equation">
+$$T^4 = \frac{P}{\sigma e A_s} = \frac{3.80 \times 10^{26}}{(5.67 \times 10^{-8})(1.00)(6.16 \times 10^{18})}$$
+</div>
+
+<div class="equation">
+$$T^4 = \frac{3.80 \times 10^{26}}{3.49 \times 10^{11}} = 1.089 \times 10^{15} \text{ K}^4$$
+</div>
+
+<div class="equation">
+$$T = (1.089 \times 10^{15})^{1/4} = 5760 \text{ K}$$
+</div>
+
+**(b)** Power per square meter at Sun's surface:
+
+<div class="equation">
+$$\frac{P}{A_s} = \frac{3.80 \times 10^{26}}{6.16 \times 10^{18}} = 6.17 \times 10^7 \text{ W/m}^2$$
+</div>
+
+Or using Stefan-Boltzmann directly:
+<div class="equation">
+$$\frac{P}{A} = \sigma T^4 = (5.67 \times 10^{-8})(5760)^4 = 6.17 \times 10^7 \text{ W/m}^2$$
+</div>
+
+**(c)** Solar constant at Earth's distance:
+
+Power spreads over a sphere of radius $$R_E$$:
+<div class="equation">
+$$A_E = 4\pi R_E^2 = 4\pi(1.50 \times 10^{11})^2 = 2.83 \times 10^{23} \text{ m}^2$$
+</div>
+
+Solar constant:
+<div class="equation">
+$$S = \frac{P}{A_E} = \frac{3.80 \times 10^{26}}{2.83 \times 10^{23}} = 1.34 \times 10^3 \text{ W/m}^2 = 1340 \text{ W/m}^2$$
+</div>
+
+**Discussion**
+
+**(a)** The calculated surface temperature of 5760 K (about 5487ºC) is remarkably accurate! The accepted value is approximately 5778 K, so our calculation is within 0.3%. This validates both the Stefan-Boltzmann law and the black body approximation for the Sun.
+
+**(b)** The Sun's surface radiates an incredible 61.7 million watts per square meter! This enormous power output is sustained by nuclear fusion in the Sun's core, where hydrogen fuses into helium at temperatures of about 15 million K.
+
+**(c)** The solar constant of approximately 1340 W/m² (often rounded to 1370 W/m² in current measurements) is fundamental to understanding Earth's climate and energy balance. This means:
+- Each square meter facing the Sun at Earth's distance receives about 1.34 kW
+- This drives photosynthesis, weather patterns, and ocean currents
+- Solar panels on Earth receive this maximum power (minus atmospheric absorption)
+- The actual value varies slightly (~±3%) due to Earth's elliptical orbit
+
+The factor by which power decreases from Sun's surface to Earth is:
+<div class="equation">
+$$\frac{6.17 \times 10^7}{1.34 \times 10^3} = 4.6 \times 10^4$$
+</div>
+
+This illustrates the inverse square law: $$\left(\frac{R_E}{R_s}\right)^2 = \left(\frac{1.50 \times 10^{11}}{7.00 \times 10^8}\right)^2 = (214)^2 \approx 4.6 \times 10^4$$.
+
+**Answer**
+
+(a) The Sun's surface temperature is approximately **5760 K** (or **5487ºC**).
+(b) The Sun radiates **6.17 × 10⁷ W/m²** from its surface.
+(c) The solar constant at Earth is approximately **1340 W/m²** or **1.34 kW/m²**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -680,6 +842,78 @@ A large body of lava from a volcano has stopped flowing and is slowly cooling. T
 <div class="problem" markdown="1">
 Calculate the temperature the entire sky would have to be in order to transfer energy by radiation at  $$1000 {\text{W/m}}^{2} $$
  —about the rate at which the Sun radiates when it is directly overhead on a clear day. This value is the effective temperature of the sky, a kind of average that takes account of the fact that the Sun occupies only a small part of the sky but is much hotter than the rest. Assume that the body receiving the energy has a temperature of  $$27.0\text{ºC} $$.
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the Stefan-Boltzmann law for net radiation: $$\frac{Q}{t \cdot A} = \sigma e(T_{sky}^4 - T_{body}^4)$$. We solve for $$T_{sky}$$ given the rate of energy transfer per unit area. Assuming emissivity $$e = 1$$ for simplicity.
+
+**Solution**
+
+Given:
+- Rate of energy transfer per unit area: $$\frac{Q}{t \cdot A} = 1000 \text{ W/m}^2$$
+- Body temperature: $$T_{body} = 27.0\text{ºC} = 300.15 \text{ K}$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+- Assume emissivity: $$e = 1.00$$
+
+Using the radiation equation:
+<div class="equation">
+$$1000 = \sigma(T_{sky}^4 - T_{body}^4)$$
+</div>
+
+<div class="equation">
+$$1000 = (5.67 \times 10^{-8})(T_{sky}^4 - (300.15)^4)$$
+</div>
+
+Calculate $$T_{body}^4$$:
+<div class="equation">
+$$(300.15)^4 = 8.119 \times 10^9 \text{ K}^4$$
+</div>
+
+Solve for $$T_{sky}^4$$:
+<div class="equation">
+$$T_{sky}^4 = \frac{1000}{5.67 \times 10^{-8}} + 8.119 \times 10^9$$
+</div>
+
+<div class="equation">
+$$T_{sky}^4 = 1.764 \times 10^{10} + 8.119 \times 10^9 = 2.576 \times 10^{10} \text{ K}^4$$
+</div>
+
+<div class="equation">
+$$T_{sky} = (2.576 \times 10^{10})^{1/4} = 2267 \text{ K}$$
+</div>
+
+Convert to Celsius:
+<div class="equation">
+$$T_{sky} = 2267 - 273.15 = 1994\text{ºC} \approx 2000\text{ºC}$$
+</div>
+
+**Discussion**
+
+The effective temperature of the sky would need to be approximately 2267 K (about 2000ºC) to deliver 1000 W/m² to a body at 27ºC. This is an interesting concept:
+
+- The Sun's actual surface temperature is about 5778 K
+- But the Sun occupies only a tiny fraction of the sky (~0.01% by solid angle)
+- The rest of the sky is much cooler (near 3 K for deep space, somewhat warmer for atmosphere)
+- The "effective temperature" of 2267 K represents a weighted average
+
+This effective temperature concept is useful for:
+1. **Solar engineering**: Designing solar collectors and thermal systems
+2. **Climate modeling**: Understanding Earth's radiative balance
+3. **Satellite thermal design**: Predicting heating/cooling in orbit
+
+The actual solar irradiance reaching Earth's surface is typically:
+- About 1000 W/m² on a clear day with the Sun directly overhead
+- This matches the problem setup
+- Lower at other times due to atmosphere, angle, clouds, etc.
+
+For comparison, if the entire sky were uniformly at 2267 K, it would appear as a dull red glow (like molten steel), rather than the intense white-yellow point source we actually see as the Sun.
+
+**Answer**
+
+The effective temperature of the sky would be **2267 K** or approximately **2000ºC** (or **1994ºC** more precisely).
 
 </div>
 </div>
@@ -747,6 +981,71 @@ is released at 12.0 km altitude while moving at 250 m/s and strikes the ground
 at 100 m/s (since less than 20.0 kg melts, a significant mess results).
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+The energy available for melting comes from: (1) loss of kinetic energy and (2) loss of gravitational potential energy. We calculate total energy lost and divide by the latent heat of fusion to find the mass that can be melted.
+
+**Solution**
+
+Given:
+- Mass: $$m = 20.0 \text{ kg}$$
+- Initial height: $$h_i = 12.0 \text{ km} = 12000 \text{ m}$$
+- Final height: $$h_f = 0 \text{ m}$$
+- Initial velocity: $$v_i = 250 \text{ m/s}$$
+- Final velocity: $$v_f = 100 \text{ m/s}$$
+- Latent heat of fusion for ice: $$L_f = 334 \times 10^3 \text{ J/kg}$$
+- Gravitational acceleration: $$g = 9.80 \text{ m/s}^2$$
+
+**Energy calculations:**
+
+Loss of kinetic energy:
+<div class="equation">
+$$\Delta KE = \frac{1}{2}m(v_i^2 - v_f^2) = \frac{1}{2}(20.0)[(250)^2 - (100)^2]$$
+</div>
+
+<div class="equation">
+$$\Delta KE = 10.0[62500 - 10000] = 10.0(52500) = 525000 \text{ J}$$
+</div>
+
+Loss of gravitational potential energy:
+<div class="equation">
+$$\Delta PE = mgh = (20.0)(9.80)(12000) = 2.352 \times 10^6 \text{ J}$$
+</div>
+
+Total energy available:
+<div class="equation">
+$$E_{total} = \Delta KE + \Delta PE = 525000 + 2352000 = 2.877 \times 10^6 \text{ J}$$
+</div>
+
+Mass of ice that can be melted:
+<div class="equation">
+$$m_{melted} = \frac{E_{total}}{L_f} = \frac{2.877 \times 10^6}{334 \times 10^3} = 8.61 \text{ kg}$$
+</div>
+
+**Discussion**
+
+About 8.61 kg of the 20.0 kg frozen waste can be melted, meaning about 43% melts. This demonstrates:
+
+1. **Gravitational potential energy dominates**: GPE = 2.35 MJ vs KE loss = 0.53 MJ (ratio ~4.4:1)
+2. **Air resistance is significant**: The object slows from 250 m/s to 100 m/s, losing 82% of its kinetic energy to air friction
+3. **Partial melting**: Less than half the mass melts, so a solid (but messy) core remains
+
+The problem notes parenthetically that "less than 20.0 kg melts, a significant mess results"—our calculation confirms this. The 11.4 kg of remaining ice, combined with 8.6 kg of liquid water created from melting, would indeed create a substantial impact.
+
+This type of incident, while rare, has actually occurred and caused damage to property. It illustrates:
+- The importance of proper aircraft waste system maintenance
+- The danger of falling objects from high altitude
+- The significant energy involved in high-altitude, high-velocity objects
+
+If all the energy went into melting, we could melt: $$\frac{2.877 \times 10^6}{334 \times 10^3} = 8.61$$ kg, which matches our answer since the ice starts at 0ºC (no cooling or heating needed before melting).
+
+**Answer**
+
+Approximately **8.61 kg** of ice can be melted (about **43%** of the total mass).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -781,6 +1080,89 @@ body are balanced? (b) Is this consistent with your experience in getting warm
 while exercising?
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We first calculate the mechanical power output, then find total metabolic power using efficiency. The waste heat (80%) raises body temperature. We use $$Q = mc\Delta T$$ to find the time needed.
+
+**Solution**
+
+Given:
+- Mass: $$m = 76.0 \text{ kg}$$
+- Stairs per minute: 116
+- Typical stair height: $$h = 0.20 \text{ m}$$ (assumption)
+- Efficiency: $$\eta = 20.0\% = 0.200$$
+- Temperature rise: $$\Delta T = 1.00\text{ºC}$$
+- Specific heat of human body: $$c = 3500 \text{ J/kg}\cdot\text{ºC}$$
+- Gravitational acceleration: $$g = 9.80 \text{ m/s}^2$$
+
+**(a)** Calculate time for 1.00ºC temperature rise:
+
+Mechanical power output:
+<div class="equation">
+$$P_{mech} = \frac{mgh \times n}{t} = \frac{(76.0)(9.80)(0.20)(116)}{60}$$
+</div>
+
+<div class="equation">
+$$P_{mech} = \frac{17317}{60} = 289 \text{ W}$$
+</div>
+
+Total metabolic power:
+<div class="equation">
+$$P_{total} = \frac{P_{mech}}{\eta} = \frac{289}{0.200} = 1445 \text{ W}$$
+</div>
+
+Waste heat (power going into raising temperature):
+<div class="equation">
+$$P_{waste} = P_{total} - P_{mech} = 1445 - 289 = 1156 \text{ W}$$
+</div>
+
+Or: $$P_{waste} = (1 - \eta)P_{total} = (0.80)(1445) = 1156 \text{ W}$$
+
+Heat needed to raise temperature by 1.00ºC:
+<div class="equation">
+$$Q = mc\Delta T = (76.0)(3500)(1.00) = 266000 \text{ J}$$
+</div>
+
+Time required:
+<div class="equation">
+$$t = \frac{Q}{P_{waste}} = \frac{266000}{1156} = 230 \text{ s} = 3.83 \text{ min}$$
+</div>
+
+**(b)** Yes, this is consistent with experience. When exercising vigorously:
+- You typically start feeling warmer within 3-5 minutes
+- Sweating usually begins around this time to dissipate the excess heat
+- The calculation assumes "all other forms of heat transfer are balanced," but in reality, your body quickly activates cooling mechanisms (sweating, increased blood flow to skin) to prevent dangerous temperature rise
+- A 1ºC rise (from ~37ºC to ~38ºC) is noticeable but not dangerous, explaining why exercise feels warm but tolerable
+
+**Discussion**
+
+The result of 3.83 minutes makes excellent physical sense. The calculation reveals important insights about exercise physiology:
+
+1. **High metabolic rate**: 1445 W is substantial—about 17 times the basal metabolic rate (~80-100 W)
+2. **Inefficiency is normal**: Only 20% efficiency means 80% becomes heat, which is typical for human muscle
+3. **Need for cooling**: 1156 W of waste heat requires active cooling to prevent overheating
+4. **Sweating is essential**: Without sweating and increased blood flow to skin, body temperature would rise dangerously within minutes
+
+In practice, your body prevents the full 1ºC rise by:
+- Increasing skin blood flow (vasodilation)
+- Sweating (evaporative cooling can remove 500+ W)
+- Increased respiration
+- Radiative and convective heat loss
+
+This problem illustrates why:
+- Athletes can exercise for hours without overheating (if properly hydrated)
+- Exercise in hot, humid conditions is dangerous (reduced cooling effectiveness)
+- Acclimatization to heat involves improved sweating response
+- Dehydration is dangerous during exercise (reduces sweating capacity)
+
+**Answer**
+
+(a) It would take approximately **230 seconds** or **3.83 minutes** for body temperature to rise by 1.00ºC.
+(b) Yes, this is consistent with getting warm within a few minutes of starting vigorous exercise.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -808,7 +1190,83 @@ drilled and water circulated through the rock for heat transfer for the
 generation of electricity. (a) Calculate the heat transfer that can be extracted
 by cooling $$1.00 {\text{km}}^{3} $$ of granite by $$100 \text{ºC} $$ .
 (b) How long will this take if heat is transferred at a rate of 300 MW, assuming
-no heat transfers back into the 1.00 km of rock by its surroundings?
+no heat transfers back into the 1.00 km³ of rock by its surroundings?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+For part (a), we use $$Q = mc\Delta T$$, where the mass is calculated from the volume and density of granite. For part (b), we use $$t = Q/P$$ where $$P$$ is the power (rate of heat transfer).
+
+**Solution**
+
+Given:
+- Volume: $$V = 1.00 \text{ km}^3 = 1.00 \times 10^9 \text{ m}^3$$
+- Temperature change: $$\Delta T = 100\text{ºC}$$
+- Density of granite: $$\rho = 2700 \text{ kg/m}^3$$ (typical value)
+- Specific heat of granite: $$c = 840 \text{ J/kg}\cdot\text{ºC}$$ (same as concrete, from Ch 14 Table 1)
+- Power output: $$P = 300 \text{ MW} = 3.00 \times 10^8 \text{ W}$$
+
+**(a)** Heat transfer from cooling granite:
+
+Mass of granite:
+<div class="equation">
+$$m = \rho V = (2700)(1.00 \times 10^9) = 2.70 \times 10^{12} \text{ kg}$$
+</div>
+
+Heat extracted:
+<div class="equation">
+$$Q = mc\Delta T = (2.70 \times 10^{12})(840)(100)$$
+</div>
+
+<div class="equation">
+$$Q = 2.268 \times 10^{17} \text{ J}$$
+</div>
+
+**(b)** Time to extract this heat at 300 MW:
+
+<div class="equation">
+$$t = \frac{Q}{P} = \frac{2.268 \times 10^{17}}{3.00 \times 10^8} = 7.56 \times 10^8 \text{ s}$$
+</div>
+
+Convert to years:
+<div class="equation">
+$$t = \frac{7.56 \times 10^8 \text{ s}}{365.25 \times 24 \times 3600 \text{ s/year}} = \frac{7.56 \times 10^8}{31,557,600} = 23.9 \text{ years}$$
+</div>
+
+**Discussion**
+
+**(a)** The heat energy stored in 1 km³ of hot granite is enormous: $$2.27 \times 10^{17}$$ joules or 227 petajoules (PJ). For perspective:
+- This equals about 63 billion kilowatt-hours of energy
+- Enough to power a city of 1 million people for several years
+- Equivalent to burning about 5 million tons of coal
+
+**(b)** The geothermal resource would last approximately 24 years at 300 MW extraction rate. This demonstrates:
+
+1. **Geothermal is substantial**: Large reserves of thermal energy exist in hot rock
+2. **Long lifetime**: A single geothermal field can operate for decades
+3. **Renewable character**: Heat conducts back from surrounding rock over time, partially replenishing the resource
+4. **Clean energy**: No combustion, minimal emissions
+
+Real geothermal plants typically:
+- Extract heat more slowly to allow replenishment
+- Operate for 20-30 years or longer
+- Use multiple wells to access larger rock volumes
+- Account for heat conduction from surrounding regions
+
+Notable geothermal regions include:
+- Iceland (powers ~90% of homes with geothermal)
+- The Geysers, California (largest geothermal complex in the world)
+- New Zealand's Taupo Volcanic Zone
+- Italy's Larderello field
+
+The calculation assumes perfect insulation (no heat return from surroundings), which is pessimistic. In reality, heat conducts from the surrounding hot rock, extending the operational lifetime significantly beyond 24 years.
+
+**Answer**
+
+(a) The heat transfer that can be extracted is **2.27 × 10¹⁷ J** or approximately **227 PJ**.
+(b) This would take approximately **7.56 × 10⁸ seconds** or **24 years** at a 300 MW extraction rate.
 
 </div>
 </div>
@@ -842,6 +1300,98 @@ resting rate of 10.0 breaths per minute?
 
 (a) What is the temperature increase of water falling 55.0 m over Niagara
 Falls? (b) What fraction must evaporate to keep the temperature constant?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+For part (a), gravitational potential energy converts to thermal energy. We use $$mgh = mc\Delta T$$ and solve for $$\Delta T$$. For part (b), we calculate what fraction must evaporate so that the latent heat of vaporization equals the gravitational potential energy.
+
+**Solution**
+
+Given:
+- Height: $$h = 55.0 \text{ m}$$
+- Gravitational acceleration: $$g = 9.80 \text{ m/s}^2$$
+- Specific heat of water: $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of vaporization: $$L_v = 2256 \times 10^3 \text{ J/kg}$$
+
+**(a)** Temperature increase:
+
+Gravitational potential energy per unit mass:
+<div class="equation">
+$$gh = (9.80)(55.0) = 539 \text{ J/kg}$$
+</div>
+
+This equals the heat absorbed per unit mass:
+<div class="equation">
+$$gh = c\Delta T$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{gh}{c} = \frac{539}{4186} = 0.129\text{ºC}$$
+</div>
+
+**(b)** Fraction that must evaporate:
+
+Let $$f$$ = fraction that evaporates. Energy to evaporate fraction $$f$$:
+<div class="equation">
+$$Q_{evap} = f \cdot m \cdot L_v$$
+</div>
+
+Energy from falling:
+<div class="equation">
+$$Q_{fall} = mgh$$
+</div>
+
+Setting them equal:
+<div class="equation">
+$$f \cdot m \cdot L_v = mgh$$
+</div>
+
+<div class="equation">
+$$f = \frac{gh}{L_v} = \frac{539}{2256 \times 10^3} = \frac{539}{2256000} = 2.39 \times 10^{-4}$$
+</div>
+
+As a percentage:
+<div class="equation">
+$$f = 0.0239\% \approx 0.024\%$$
+</div>
+
+**Discussion**
+
+**(a)** The temperature increase of only 0.129ºC (about 0.13ºC) is surprisingly small for such a dramatic 55-meter drop. This demonstrates that:
+- Water has a very high specific heat (4186 J/kg·ºC)
+- Gravitational potential energy, while significant, produces only modest heating
+- The temperature change would be barely perceptible
+
+In reality, the temperature increase at the bottom of Niagara Falls is even less than calculated because:
+- Much energy goes into turbulence, sound, and spray
+- Evaporation occurs (cooling effect)
+- Mixing with cooler water
+- Air incorporation into the falling water
+
+**(b)** Only about 0.024% (roughly 1/4000th) of the water needs to evaporate to completely prevent temperature rise. This tiny fraction demonstrates:
+- The enormous energy required for phase changes (latent heat)
+- Why evaporation is such an effective cooling mechanism
+- How mist and spray at the base of waterfalls provide natural cooling
+
+For Niagara Falls' flow rate of roughly 750,000 gallons per second (2.8 million liters/second or 2800 tonnes/second):
+<div class="equation">
+$$\text{Evaporation rate} = (2800 \text{ tonnes/s})(2.39 \times 10^{-4}) = 0.67 \text{ tonnes/s} = 670 \text{ kg/s}$$
+</div>
+
+This creates the characteristic mist and contributes to the spectacular visual effect!
+
+The calculation also explains why:
+- Hydroelectric dams don't significantly heat rivers
+- Waterfalls are often surrounded by cool, moist microclimates
+- The energy from falling water is substantial but distributed across the large thermal capacity of water
+
+**Answer**
+
+(a) The temperature increase is approximately **0.129ºC** or **0.13ºC**.
+(b) Approximately **2.39 × 10⁻⁴** or **0.024%** must evaporate to keep temperature constant.
 
 </div>
 </div>
@@ -898,10 +1448,83 @@ A slightly deranged Arctic inventor surrounded by ice thinks it would be much
 less mechanically complex to cool a car engine by melting ice on it than by
 having a water-cooled system with a radiator, water pump, antifreeze, and so
 on. (a) If $$80.0\% $$ of the energy in 1.00 gal of gasoline is converted into
-“waste heat” in a car engine, how many kilograms of $$0 \text{ºC} $$ ice could
+"waste heat" in a car engine, how many kilograms of $$0 \text{ºC} $$ ice could
 it melt? (b) Is this a reasonable amount of ice to carry around to cool the
 engine for 1.00 gal of gasoline consumption? (c) What premises or assumptions
 are unreasonable?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We calculate the waste heat from burning gasoline, then determine how much ice this could melt using $$Q = mL_f$$. We evaluate whether this is practical.
+
+**Solution**
+
+Given:
+- Volume of gasoline: $$V = 1.00 \text{ gal} = 3.785 \text{ L}$$
+- Density of gasoline: $$\rho = 0.75 \text{ kg/L}$$ (typical)
+- Energy content of gasoline: $$E = 46 \text{ MJ/kg}$$ (typical)
+- Efficiency to waste heat: $$80.0\%$$
+- Latent heat of fusion for ice: $$L_f = 334 \times 10^3 \text{ J/kg}$$
+
+**(a)** Mass of ice that can be melted:
+
+Mass of gasoline:
+<div class="equation">
+$$m_{gas} = \rho V = (0.75)(3.785) = 2.84 \text{ kg}$$
+</div>
+
+Total energy in gasoline:
+<div class="equation">
+$$E_{total} = (2.84 \text{ kg})(46 \times 10^6 \text{ J/kg}) = 1.31 \times 10^8 \text{ J}$$
+</div>
+
+Waste heat (80%):
+<div class="equation">
+$$Q_{waste} = 0.800 \times 1.31 \times 10^8 = 1.05 \times 10^8 \text{ J}$$
+</div>
+
+Mass of ice melted:
+<div class="equation">
+$$m_{ice} = \frac{Q_{waste}}{L_f} = \frac{1.05 \times 10^8}{334 \times 10^3} = 314 \text{ kg}$$
+</div>
+
+**(b)** No, this is NOT reasonable! Carrying 314 kg (about 692 pounds) of ice to cool the engine for burning just 1 gallon of gasoline is completely impractical.
+
+For perspective:
+- A typical car's fuel tank holds 12-15 gallons
+- This would require nearly 4000 kg (4 metric tons) of ice
+- The ice would weigh more than the car itself!
+- You'd need to refill ice more often than gasoline
+
+**(c)** Unreasonable premises/assumptions:
+
+1. **Ice is impractical to carry**: The enormous mass makes it infeasible
+2. **Ice availability**: Finding ice in the Arctic might seem easy, but constantly harvesting, storing, and loading 314 kg per gallon is labor-intensive
+3. **Melting doesn't cool efficiently**: Ice at 0ºC melting to water at 0ºC removes heat, but the resulting water at 0ºC then heats up rapidly, reducing cooling effectiveness
+4. **Phase change only**: The calculation assumes ice only melts, not that the resulting water also heats up, which would require even more ice
+5. **Continuous supply needed**: Unlike a radiator that recirculates coolant, ice is consumed and must be constantly replenished
+6. **Storage problems**: 314 kg of ice takes significant space and would begin melting immediately
+
+**Discussion**
+
+This problem illustrates why conventional cooling systems exist. A water-cooled system:
+- Recirculates the same coolant repeatedly
+- Uses airflow through radiator to dissipate heat
+- Weighs only ~10-20 kg (coolant + radiator + pump)
+- Operates continuously without refilling (except for minor losses)
+
+The "Arctic inventor" is indeed "slightly deranged"! The calculation shows that even with unlimited ice access, the logistics make it absurdly impractical. Modern cooling systems are far more elegant and efficient.
+
+Historical note: Early engines did experiment with evaporative cooling (letting water boil away), but even that was abandoned in favor of recirculating systems.
+
+**Answer**
+
+(a) The waste heat could melt approximately **314 kg** of ice.
+(b) **No**, this is completely unreasonable—314 kg per gallon is far too much to carry practically.
+(c) The premise that ice-cooling is simpler or practical is unreasonable due to the enormous mass required and the one-time use nature of the ice.
 
 </div>
 </div>
@@ -939,6 +1562,98 @@ atmosphere that it radiates 20.0 kW of power. (a) What is its temperature, if
 the surroundings are at $$20.0 \text{ºC} $$ and it has an emissivity of 0.800? (
 b) What is unreasonable about this result? (c) Which premise or assumption is
 responsible?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the Stefan-Boltzmann law $$P = \sigma eA(T^4 - T_{surr}^4)$$ to solve for the meteorite's temperature. We then evaluate whether this temperature is physically reasonable.
+
+**Solution**
+
+Given:
+- Diameter: $$d = 1.20 \text{ cm} = 0.0120 \text{ m}$$
+- Radius: $$r = 0.00600 \text{ m}$$
+- Power radiated: $$P = 20.0 \text{ kW} = 20000 \text{ W}$$
+- Surroundings temperature: $$T_{surr} = 20.0\text{ºC} = 293.15 \text{ K}$$
+- Emissivity: $$e = 0.800$$
+- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+
+**(a)** Calculate the meteorite's temperature:
+
+Surface area (sphere):
+<div class="equation">
+$$A = 4\pi r^2 = 4\pi(0.00600)^2 = 4.52 \times 10^{-4} \text{ m}^2$$
+</div>
+
+Using Stefan-Boltzmann law:
+<div class="equation">
+$$P = \sigma eA(T^4 - T_{surr}^4)$$
+</div>
+
+Since $$T \gg T_{surr}$$, we can approximate $$T^4 - T_{surr}^4 \approx T^4$$:
+<div class="equation">
+$$20000 = (5.67 \times 10^{-8})(0.800)(4.52 \times 10^{-4})T^4$$
+</div>
+
+<div class="equation">
+$$20000 = 2.05 \times 10^{-11} T^4$$
+</div>
+
+<div class="equation">
+$$T^4 = \frac{20000}{2.05 \times 10^{-11}} = 9.76 \times 10^{14} \text{ K}^4$$
+</div>
+
+<div class="equation">
+$$T = (9.76 \times 10^{14})^{1/4} = 31400 \text{ K}$$
+</div>
+
+Converting to Celsius:
+<div class="equation">
+$$T = 31400 - 273 = 31127\text{ºC} \approx 31000\text{ºC}$$
+</div>
+
+**(b)** This result is UNREASONABLE because:
+- 31,400 K (31,000ºC) is approximately **5.4 times the Sun's surface temperature** (5778 K)
+- This is hotter than many stellar surfaces!
+- No meteorite could maintain such a temperature
+- At this temperature, the meteorite would vaporize instantly
+- Materials begin to vaporize at much lower temperatures (most metals vaporize below 3000ºC)
+
+**(c)** The unreasonable assumption is the **power output of 20.0 kW from such a small meteorite**.
+
+For perspective:
+- The meteorite has diameter 1.20 cm (about the size of a large marble)
+- 20 kW from this tiny object means enormous energy density
+- This would require impossibly high temperature or impossibly high emissivity beyond physical limits
+
+More reasonable scenarios:
+- A 1.2-cm meteorite entering atmosphere heats to ~1500-2000°C
+- At this temperature, it would radiate only ~10-50 W, not 20,000 W
+- Most meteorites ablate (vaporize) during entry, never reaching such extreme temperatures at ground level
+
+**Discussion**
+
+This problem demonstrates the importance of checking whether calculated results make physical sense. The telltale signs that something is wrong:
+
+1. **Temperature exceeds known limits**: Nothing solid exists above ~4000°C (tungsten's melting point)
+2. **Exceeds stellar temperatures**: Hotter than most stars is a red flag for Earth-based objects
+3. **Power density is absurd**: 20 kW from a marble-sized object implies extraordinary energy flux
+
+In reality, small meteorites:
+- Heat to 1000-2000°C during atmospheric entry
+- Ablate (surface vaporizes), which limits temperature rise
+- Often cool significantly before impact
+- Typically radiate 10s to 100s of watts, not kilowatts
+
+The problem is intentionally designed to produce an unreasonable answer, teaching students to critically evaluate results rather than blindly accepting calculations.
+
+**Answer**
+
+(a) The calculated temperature is approximately **31,400 K** or **31,000ºC**.
+(b) This is unreasonable because it's about **5.4 times hotter than the Sun's surface**—no meteorite could exist at this temperature.
+(c) The unreasonable premise is the **20.0 kW power output** from such a small meteorite, which is far too high for its size and realistic temperature.
 
 </div>
 </div>

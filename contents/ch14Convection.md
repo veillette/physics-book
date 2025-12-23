@@ -593,6 +593,64 @@ One winter day, the climate control system of a large university classroom build
  (that is, to bring the air to room temperature)?
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We need to calculate the mass of air brought in per minute, then use $$Q = mc\Delta T$$ to find the energy needed. Dividing by time gives the power (rate of heat transfer) in watts, which we convert to kilowatts.
+
+**Solution**
+
+Given:
+- Volume of air per minute: $$V = 500 \text{ m}^3$$
+- Temperature increase: $$\Delta T = 10.0\text{ºC}$$
+- Time: $$t = 1.00 \text{ min} = 60.0 \text{ s}$$
+- Density of air: $$\rho = 1.29 \text{ kg/m}^3$$ (from Convection example)
+- Specific heat of air at constant pressure: $$c_p = 1000 \text{ J/kg}\cdot\text{ºC}$$ (from Convection example)
+
+Calculate mass of air per minute:
+<div class="equation">
+$$m = \rho V = (1.29 \text{ kg/m}^3)(500 \text{ m}^3) = 645 \text{ kg}$$
+</div>
+
+Calculate heat needed to warm this air:
+<div class="equation">
+$$Q = mc\Delta T = (645 \text{ kg})(1000 \text{ J/kg}\cdot\text{ºC})(10.0\text{ºC}) = 6.45 \times 10^6 \text{ J}$$
+</div>
+
+Calculate power (rate of heat transfer):
+<div class="equation">
+$$P = \frac{Q}{t} = \frac{6.45 \times 10^6 \text{ J}}{60.0 \text{ s}} = 1.075 \times 10^5 \text{ W} = 107.5 \text{ kW}$$
+</div>
+
+Rounding to three significant figures:
+<div class="equation">
+$$P = 108 \text{ kW}$$
+</div>
+
+**Discussion**
+
+The required heating rate of approximately 108 kW (or about 108,000 watts) is substantial—equivalent to running about 1080 hundred-watt light bulbs or about 50 typical home space heaters (2 kW each) simultaneously! This demonstrates why HVAC (heating, ventilation, and air conditioning) systems for large buildings must be very powerful.
+
+The malfunction bringing in 500 m³ of cold air per minute represents a significant air exchange rate. For context:
+- A typical classroom might be 10 m × 10 m × 3 m = 300 m³
+- This malfunction completely replaces 1.67 classroom volumes per minute
+- That's an air change every 36 seconds—far too rapid!
+
+Normal ventilation systems aim for 4-6 air changes per hour (one change every 10-15 minutes), not per minute. This malfunction is bringing in about 100 times more cold air than necessary, explaining the enormous heating demand.
+
+The cost to heat this air continuously would be significant. At typical electricity rates of \$0.10/kWh, running this heating for one hour would cost:
+<div class="equation">
+$$\text{Cost} = (108 \text{ kW})(1 \text{ h})(\$0.10/\text{kWh}) = \$10.80/\text{hour}$$
+</div>
+
+Over an 8-hour day, this would cost about \$86, clearly motivating quick repair of the malfunction!
+
+**Answer**
+
+Heat must be transferred at a rate of approximately **108 kW** to warm the incoming cold air.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -616,6 +674,69 @@ The Kilauea volcano in Hawaii is the world’s most active, disgorging about  $$
 <div class="problem" markdown="1">
 During heavy exercise, the body pumps 2.00 L of blood per minute to the surface, where it is cooled by  $$2.00\text{ºC} $$ .
  What is the rate of heat transfer from this forced convection alone, assuming blood has the same specific heat as water and its density is  $$1050{\text{kg/m}}^{3} $$ ?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We calculate the mass of blood pumped per minute using its density and volume, then use $$Q = mc\Delta T$$ to find the heat removed. Dividing by time gives the rate of heat transfer (power).
+
+**Solution**
+
+Given:
+- Volume of blood per minute: $$V = 2.00 \text{ L} = 2.00 \times 10^{-3} \text{ m}^3$$
+- Temperature decrease: $$\Delta T = 2.00\text{ºC}$$
+- Time: $$t = 1.00 \text{ min} = 60.0 \text{ s}$$
+- Density of blood: $$\rho = 1050 \text{ kg/m}^3$$
+- Specific heat (same as water): $$c = 4186 \text{ J/kg}\cdot\text{ºC}$$
+
+Calculate mass of blood per minute:
+<div class="equation">
+$$m = \rho V = (1050 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m}^3) = 2.10 \text{ kg}$$
+</div>
+
+Calculate heat removed per minute:
+<div class="equation">
+$$Q = mc\Delta T = (2.10 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(2.00\text{ºC}) = 17,581 \text{ J}$$
+</div>
+
+Calculate rate of heat transfer:
+<div class="equation">
+$$P = \frac{Q}{t} = \frac{17,581 \text{ J}}{60.0 \text{ s}} = 293 \text{ W}$$
+</div>
+
+**Discussion**
+
+The rate of heat removal by blood circulation to the skin during exercise is approximately 293 W. This is a substantial cooling mechanism. During heavy exercise, the body can produce 500-1000 W of metabolic heat, so this circulatory cooling represents a significant portion of the body's heat dissipation capability.
+
+The circulatory system is remarkably efficient at heat transfer:
+- Blood is pumped from the hot core (muscles, organs) to the skin surface
+- At the skin, heat is transferred to the environment by convection, radiation, and evaporation
+- Cooled blood returns to the core to absorb more heat
+- This continuous cycle transfers heat much faster than conduction through tissue alone
+
+The 2°C temperature drop (from ~37°C core to ~35°C at skin surface) seems modest, but because 2.10 kg of blood circulates every minute, the cumulative effect is significant. The body enhances this during exercise by:
+- **Vasodilation**: Blood vessels near the skin expand, increasing blood flow from ~0.5 L/min at rest to 2+ L/min during exercise
+- **Increased cardiac output**: Heart rate and stroke volume both increase
+- **Blood redistribution**: Blood is diverted from digestive organs to muscles and skin
+
+For comparison:
+- Basal metabolic rate: ~80-100 W
+- Light exercise: ~200-300 W
+- Heavy exercise: ~500-1000 W
+- This circulatory cooling: 293 W
+
+Since this accounts for only part of the total cooling needed during heavy exercise, the body must also rely on:
+- Evaporative cooling (sweating): Most important, can remove 500+ W
+- Radiation and convection from skin: 100-200 W
+- Respiratory heat loss: 20-50 W
+
+Without this efficient circulatory heat transport, the body would overheat rapidly during exercise, leading to dangerous hyperthermia within minutes.
+
+**Answer**
+
+The rate of heat transfer by forced convection through blood circulation is approximately **293 W**.
 
 </div>
 </div>
@@ -663,6 +784,84 @@ the inside temperature is $$60.0\text{ºC} $$ ?
 (b) If the temperature of the coffee remains constant and all of the heat
 transfer is removed by evaporation, how many grams per minute evaporate? Take
 the heat of vaporization to be 2340 kJ/kg.
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+For part (a), we use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ to solve for the temperature difference across the glass, then add this to the inside temperature to get the outside (bottom) temperature. For part (b), we use $$Q = mL_v$$ to find how much water evaporates.
+
+**Solution**
+
+Given:
+- Diameter: $$D = 9.00 \text{ cm} = 0.0900 \text{ m}$$
+- Radius: $$r = 4.50 \text{ cm} = 0.0450 \text{ m}$$
+- Thickness: $$d = 3.00 \text{ mm} = 0.00300 \text{ m}$$
+- Inside temperature: $$T_{inside} = 60.0\text{ºC}$$
+- Heat transfer rate: $$\frac{Q}{t} = 50.0 \text{ W}$$
+- Thermal conductivity of glass: $$k = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Ch 14, Section 5, Table 1)
+- Heat of vaporization: $$L_v = 2340 \text{ kJ/kg} = 2.34 \times 10^6 \text{ J/kg}$$
+
+**(a)** Temperature of the bottom of the pot:
+
+Calculate the area of the circular bottom:
+<div class="equation">
+$$A = \pi r^2 = \pi(0.0450)^2 = 6.36 \times 10^{-3} \text{ m}^2$$
+</div>
+
+Solve for temperature difference across the glass:
+<div class="equation">
+$$\frac{Q}{t} = \frac{kA\Delta T}{d}$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(50.0)(0.00300)}{(0.84)(6.36 \times 10^{-3})}$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{0.150}{5.34 \times 10^{-3}} = 28.1\text{ºC}$$
+</div>
+
+Temperature of the bottom (heating element side):
+<div class="equation">
+$$T_{bottom} = T_{inside} + \Delta T = 60.0 + 28.1 = 88.1\text{ºC}$$
+</div>
+
+**(b)** Mass evaporated per minute:
+
+In one minute, energy transferred:
+<div class="equation">
+$$Q = (50.0 \text{ W})(60 \text{ s}) = 3000 \text{ J}$$
+</div>
+
+Using $$Q = mL_v$$:
+<div class="equation">
+$$m = \frac{Q}{L_v} = \frac{3000 \text{ J}}{2.34 \times 10^6 \text{ J/kg}} = 1.28 \times 10^{-3} \text{ kg} = 1.28 \text{ g}$$
+</div>
+
+**Discussion**
+
+**(a)** The bottom of the coffee pot reaches 88.1ºC, which is quite hot but reasonable for a warming plate. The 28.1ºC temperature difference across the 3-mm glass bottom is significant, showing that even thin glass provides some thermal resistance. This temperature is below water's boiling point at atmospheric pressure (100ºC), which is appropriate for keeping coffee warm without boiling it.
+
+**(b)** Evaporating 1.28 g of coffee per minute seems modest, but over an hour this would be:
+<div class="equation">
+$$m_{hour} = (1.28 \text{ g/min})(60 \text{ min}) = 76.8 \text{ g} \approx 77 \text{ mL}$$
+</div>
+
+For a typical coffee pot holding 1-2 liters, losing 77 mL per hour (about 4-8% of volume) would be noticeable but acceptable for keeping coffee warm for an hour or two. This explains why coffee pots left on warming plates gradually concentrate and become stronger—water evaporates while the coffee solids remain.
+
+The calculation assumes all heat goes into evaporation, which is reasonable if:
+- The pot is well-insulated on the sides and top (only bottom heated)
+- The coffee is already at steady-state temperature
+- Heat loss by radiation and convection is minimal
+
+In reality, some heat is also lost through the pot walls and by radiation, so actual evaporation might be slightly less. The use of $$L_v = 2340 \text{ kJ/kg}$$ (rather than 2256 kJ/kg at 100ºC) accounts for evaporation occurring at the lower temperature of 60ºC, where the latent heat is somewhat higher.
+
+**Answer**
+
+(a) The temperature of the bottom of the pot is **88.1ºC**.
+(b) Approximately **1.28 g** of coffee evaporates per minute.
 
 </div>
 </div>

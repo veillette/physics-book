@@ -1024,6 +1024,68 @@ by the oil.
 The energy released from condensation in thunderstorms can be very large. Calculate the energy released into the atmosphere for a small storm of radius 1 km, assuming that 1.0 cm of rain is precipitated uniformly over this area.
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We calculate the volume and mass of water precipitated, then use $$Q = mL_v$$ to find the energy released when that water vapor condenses to form rain.
+
+**Solution**
+
+Given:
+- Radius of storm: $$r = 1 \text{ km} = 1000 \text{ m}$$
+- Depth of rain: $$h = 1.0 \text{ cm} = 0.010 \text{ m}$$
+- Density of water: $$\rho = 1000 \text{ kg/m}^3$$
+- Latent heat of vaporization: $$L_v = 2256 \text{ kJ/kg}$$ (from Table 1)
+
+Calculate the area of the storm:
+<div class="equation">
+$$A = \pi r^2 = \pi(1000)^2 = 3.14 \times 10^6 \text{ m}^2$$
+</div>
+
+Calculate the volume of rain:
+<div class="equation">
+$$V = Ah = (3.14 \times 10^6)(0.010) = 3.14 \times 10^4 \text{ m}^3$$
+</div>
+
+Calculate the mass of water:
+<div class="equation">
+$$m = \rho V = (1000)(3.14 \times 10^4) = 3.14 \times 10^7 \text{ kg}$$
+</div>
+
+Calculate energy released by condensation:
+<div class="equation">
+$$Q = mL_v = (3.14 \times 10^7 \text{ kg})(2256 \times 10^3 \text{ J/kg}) = 7.08 \times 10^{13} \text{ J}$$
+</div>
+
+**Discussion**
+
+The energy released is approximately $$7.1 \times 10^{13}$$ joules, which is enormous! To put this in perspective:
+
+- This equals about **70.8 trillion joules** or **70,800 gigajoules**
+- Converting to kilowatt-hours: $$7.08 \times 10^{13} \text{ J} / (3.6 \times 10^6 \text{ J/kWh}) = 1.97 \times 10^7 \text{ kWh}$$ or about **20 million kWh**
+- This could power a typical home (using 30 kWh/day) for about 650,000 days or **1,800 years**!
+- It's equivalent to detonating about **17 tons of TNT** (1 ton TNT ≈ 4.2 × 10⁹ J)
+
+This demonstrates why thunderstorms are such powerful weather phenomena. The energy released through condensation:
+1. **Drives updrafts**: Rising warm, moist air provides the engine for storm development
+2. **Creates violent weather**: This energy powers strong winds, hail, lightning, and tornadoes
+3. **Positive feedback**: Released energy warms the air, causing more rising and more condensation
+
+A "small storm" with just 1 cm of rain over a 1-km radius releases this much energy. Large thunderstorm complexes can be 10-100 times larger and produce much more rain, releasing proportionally more energy. Hurricane systems can release energy equivalent to detonating a nuclear weapon every few seconds!
+
+This is why meteorologists describe thunderstorms as "heat engines"—they convert latent heat stored in water vapor into kinetic energy of wind and updrafts. The condensation process is the energy source that makes thunderstorms self-sustaining and sometimes severe.
+
+For comparison, a typical nuclear power plant produces about 1000 MW = $$10^9$$ W, so this storm releases energy equivalent to the power plant running for:
+<div class="equation">
+$$t = \frac{7.08 \times 10^{13} \text{ J}}{10^9 \text{ W}} = 7.08 \times 10^4 \text{ s} \approx 20 \text{ hours}$$
+</div>
+
+**Answer**
+
+The energy released into the atmosphere is approximately **7.1 × 10¹³ J** or **71 trillion joules**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1049,8 +1111,119 @@ b) $$2.00\text{ºC} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 0.250-kg aluminum bowl holding 0.800 kg of soup at  $$ 25.0\text{ºC} $$
- is placed in a freezer. What is the final temperature if 377 kJ of energy is transferred from the bowl and soup, assuming the soup’s thermal properties are the same as that of water? 
+ is placed in a freezer. What is the final temperature if 377 kJ of energy is transferred from the bowl and soup, assuming the soup's thermal properties are the same as that of water?
 Explicitly show how you follow the steps in [ Problem-Solving Strategies for the Effects of Heat Transfer](#Note1).
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+Following the Problem-Solving Strategies:
+1. Heat is transferred OUT of the system (bowl + soup)
+2. Objects changing temperature: aluminum bowl and soup (water)
+3. Unknown: Final temperature $$T_f$$
+4. Knowns: masses, initial temperature, total heat transferred, specific heats
+5. Check if phase change occurs by calculating temperature change without phase change first
+6. Use $$Q = mc\Delta T$$ for both materials
+
+**Solution**
+
+Given:
+- Mass of aluminum bowl: $$m_{Al} = 0.250 \text{ kg}$$
+- Mass of soup: $$m_w = 0.800 \text{ kg}$$
+- Initial temperature: $$T_i = 25.0\text{ºC}$$
+- Heat transferred OUT: $$Q_{total} = -377 \text{ kJ} = -377000 \text{ J}$$
+- Specific heat of aluminum: $$c_{Al} = 900 \text{ J/kg}\cdot\text{ºC}$$
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of fusion: $$L_f = 334 \text{ kJ/kg}$$
+
+**Step 1:** Check if phase change occurs by assuming no freezing:
+
+Heat capacity of system:
+<div class="equation">
+$$C = m_{Al}c_{Al} + m_w c_w = (0.250)(900) + (0.800)(4186) = 225 + 3349 = 3574 \text{ J/ºC}$$
+</div>
+
+Temperature change if no freezing:
+<div class="equation">
+$$\Delta T = \frac{Q_{total}}{C} = \frac{-377000}{3574} = -105.5\text{ºC}$$
+</div>
+
+Final temperature would be:
+<div class="equation">
+$$T_f = 25.0 - 105.5 = -80.5\text{ºC}$$
+</div>
+
+This is below 0ºC, so freezing DOES occur! We must account for the phase change.
+
+**Step 2:** Calculate in stages:
+
+**(a)** Cool from 25.0ºC to 0ºC:
+<div class="equation">
+$$Q_1 = -C(25.0) = -(3574)(25.0) = -89350 \text{ J}$$
+</div>
+
+**(b)** Freeze some soup at 0ºC:
+
+Remaining energy for freezing:
+<div class="equation">
+$$Q_{freeze} = Q_{total} - Q_1 = -377000 - (-89350) = -287650 \text{ J}$$
+</div>
+
+Mass of soup frozen:
+<div class="equation">
+$$m_{frozen} = \frac{|Q_{freeze}|}{L_f} = \frac{287650}{334000} = 0.861 \text{ kg}$$
+</div>
+
+Since $$m_{frozen} = 0.861 \text{ kg} > m_w = 0.800 \text{ kg}$$, ALL the soup freezes with energy left over!
+
+**Step 3:** Recalculate with complete freezing:
+
+**(a)** Cool from 25.0ºC to 0ºC: $$Q_1 = -89350 \text{ J}$$
+
+**(b)** Freeze all 0.800 kg of soup:
+<div class="equation">
+$$Q_2 = -m_w L_f = -(0.800)(334000) = -267200 \text{ J}$$
+</div>
+
+**(c)** Energy used so far:
+<div class="equation">
+$$Q_{used} = Q_1 + Q_2 = -89350 - 267200 = -356550 \text{ J}$$
+</div>
+
+**(d)** Remaining energy to cool frozen soup and bowl below 0ºC:
+<div class="equation">
+$$Q_{remaining} = -377000 - (-356550) = -20450 \text{ J}$$
+</div>
+
+**(e)** Cool below 0ºC with new heat capacity:
+- Specific heat of ice: $$c_{ice} = 2090 \text{ J/kg}\cdot\text{ºC}$$
+- New heat capacity: $$C_{frozen} = m_{Al}c_{Al} + m_w c_{ice} = (0.250)(900) + (0.800)(2090) = 225 + 1672 = 1897 \text{ J/ºC}$$
+
+Temperature drop below 0ºC:
+<div class="equation">
+$$\Delta T_{below} = \frac{Q_{remaining}}{C_{frozen}} = \frac{-20450}{1897} = -10.8\text{ºC}$$
+</div>
+
+**Final temperature:**
+<div class="equation">
+$$T_f = 0 + \Delta T_{below} = -10.8\text{ºC}$$
+</div>
+
+**Discussion**
+
+The final temperature of **-10.8ºC** makes sense. The 377 kJ of heat removed is enough to:
+1. Cool the bowl and soup from 25ºC to 0ºC (89.4 kJ)
+2. Freeze all the soup (267.2 kJ)
+3. Cool the frozen system to -10.8ºC (20.5 kJ)
+Total: 377 kJ ✓
+
+This problem demonstrates the importance of checking for phase changes. The soup completely freezes because sufficient energy is removed. The answer also seems reasonable for a home freezer, which typically operates around -18ºC to -20ºC, so reaching -10.8ºC partway through cooling is plausible.
+
+**Answer**
+
+The final temperature is **-10.8ºC** (or approximately **-11ºC**).
 
 </div>
 </div>
@@ -1063,15 +1236,201 @@ A 0.0500-kg ice cube at  $$- 30.0\text{ºC} $$
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$20.6\text{ºC} $$
+
+**Strategy**
+
+We must determine if the ice completely melts and find the equilibrium temperature. Heat lost by warm water equals heat gained by ice. We'll calculate in stages: warming ice to 0ºC, melting ice, and warming melted ice, then compare to heat available from cooling water.
+
+**Solution**
+
+Given:
+- Mass of ice: $$m_{ice} = 0.0500 \text{ kg}$$
+- Initial temperature of ice: $$T_{ice,i} = -30.0\text{ºC}$$
+- Mass of water: $$m_w = 0.400 \text{ kg}$$
+- Initial temperature of water: $$T_{w,i} = 35.0\text{ºC}$$
+- Specific heat of ice: $$c_{ice} = 2090 \text{ J/kg}\cdot\text{ºC}$$
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of fusion: $$L_f = 334 \times 10^3 \text{ J/kg}$$
+
+**Step 1:** Calculate heat needed to bring ice to 0ºC and melt it:
+
+Heat to warm ice from -30.0ºC to 0ºC:
+<div class="equation">
+$$Q_1 = m_{ice}c_{ice}\Delta T = (0.0500)(2090)(30.0) = 3135 \text{ J}$$
+</div>
+
+Heat to melt ice at 0ºC:
+<div class="equation">
+$$Q_2 = m_{ice}L_f = (0.0500)(334000) = 16700 \text{ J}$$
+</div>
+
+Total heat to get ice to 0ºC liquid water:
+<div class="equation">
+$$Q_{ice\to water} = Q_1 + Q_2 = 3135 + 16700 = 19835 \text{ J}$$
+</div>
+
+**Step 2:** Calculate maximum heat available from water cooling to 0ºC:
+
+<div class="equation">
+$$Q_{available} = m_w c_w \Delta T = (0.400)(4186)(35.0) = 58604 \text{ J}$$
+</div>
+
+Since $$Q_{available} = 58604 \text{ J} > Q_{ice\to water} = 19835 \text{ J}$$, the ice will completely melt and the final temperature will be above 0ºC.
+
+**Step 3:** Find equilibrium temperature:
+
+Heat lost by warm water = Heat gained by ice:
+<div class="equation">
+$$m_w c_w (T_{w,i} - T_f) = m_{ice}c_{ice}(0 - T_{ice,i}) + m_{ice}L_f + m_{ice}c_w(T_f - 0)$$
+</div>
+
+<div class="equation">
+$$m_w c_w T_{w,i} - m_w c_w T_f = 3135 + 16700 + m_{ice}c_w T_f$$
+</div>
+
+<div class="equation">
+$$m_w c_w T_{w,i} - 19835 = (m_w + m_{ice})c_w T_f$$
+</div>
+
+<div class="equation">
+$$(0.400)(4186)(35.0) - 19835 = (0.400 + 0.0500)(4186)T_f$$
+</div>
+
+<div class="equation">
+$$58604 - 19835 = (0.450)(4186)T_f$$
+</div>
+
+<div class="equation">
+$$38769 = 1883.7 T_f$$
+</div>
+
+<div class="equation">
+$$T_f = \frac{38769}{1883.7} = 20.6\text{ºC}$$
+</div>
+
+**Discussion**
+
+The final temperature of 20.6ºC is reasonable. The warm water (0.400 kg at 35ºC) has much more thermal energy than the cold ice (0.050 kg at -30ºC), so we expect the final temperature to be closer to the initial water temperature than to 0ºC.
+
+Energy balance check:
+- Heat lost by water: $$(0.400)(4186)(35.0 - 20.6) = 24,110 \text{ J}$$
+- Heat gained by ice: $$3135 + 16700 + (0.0500)(4186)(20.6) = 3135 + 16700 + 4312 = 24,147 \text{ J}$$
+
+The slight difference (24,147 - 24,110 = 37 J) is due to rounding. The values match within calculation precision, confirming our answer.
+
+The mass ratio of water to ice is 8:1, and the temperature change of water (14.4ºC) is much less than the total temperature change of ice (50.6ºC including phase change), which reflects the large amount of energy required for the phase change.
+
+**Answer**
+
+The final temperature is **20.6ºC**.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 If you pour 0.0100 kg of  $$ 20.0\text{ºC} $$
- water onto a 1.20-kg block of ice (which is initially at  $$- 15.0\text{ºC} $$ ), 
+ water onto a 1.20-kg block of ice (which is initially at  $$- 15.0\text{ºC} $$ ),
 what is the final temperature? You may assume that the water cools so rapidly that effects of the surroundings are negligible.
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+The warm water will cool and may freeze, transferring heat to the cold ice block. We need to check if the water freezes completely or if some remains liquid. We calculate the heat available from the water and compare it to the heat needed to warm the ice.
+
+**Solution**
+
+Given:
+- Mass of water: $$m_w = 0.0100 \text{ kg} = 10.0 \text{ g}$$
+- Initial water temperature: $$T_{w,i} = 20.0\text{ºC}$$
+- Mass of ice: $$m_{ice} = 1.20 \text{ kg}$$
+- Initial ice temperature: $$T_{ice,i} = -15.0\text{ºC}$$
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Specific heat of ice: $$c_{ice} = 2090 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of fusion: $$L_f = 334 \times 10^3 \text{ J/kg}$$
+
+**Step 1:** Calculate maximum heat available from water cooling to 0ºC and freezing:
+
+Heat from cooling water to 0ºC:
+<div class="equation">
+$$Q_1 = m_w c_w \Delta T = (0.0100)(4186)(20.0) = 837.2 \text{ J}$$
+</div>
+
+Heat from freezing water at 0ºC:
+<div class="equation">
+$$Q_2 = m_w L_f = (0.0100)(334000) = 3340 \text{ J}$$
+</div>
+
+Total heat available if water freezes completely:
+<div class="equation">
+$$Q_{water,total} = Q_1 + Q_2 = 837.2 + 3340 = 4177 \text{ J}$$
+</div>
+
+**Step 2:** Calculate heat needed to warm ice from -15ºC to 0ºC:
+
+<div class="equation">
+$$Q_{ice} = m_{ice} c_{ice} \Delta T = (1.20)(2090)(15.0) = 37620 \text{ J}$$
+</div>
+
+**Step 3:** Compare:
+
+Since $$Q_{water,total} = 4177 \text{ J} \ll Q_{ice} = 37620 \text{ J}$$, the water cannot warm the ice to 0ºC. The water will freeze completely, and the final temperature will be below 0ºC.
+
+**Step 4:** Find final temperature:
+
+All water freezes, releasing 4177 J to the ice. The system (now all ice/frozen water) reaches equilibrium at some temperature $$T_f < 0\text{ºC}$$.
+
+Heat lost by water:
+<div class="equation">
+$$Q_w = m_w c_w (20.0 - 0) + m_w L_f + m_w c_{ice}(0 - T_f)$$
+</div>
+
+<div class="equation">
+$$Q_w = 837.2 + 3340 - m_w c_{ice} T_f = 4177.2 - (0.0100)(2090)T_f$$
+</div>
+
+Heat gained by ice block:
+<div class="equation">
+$$Q_{ice} = m_{ice} c_{ice} (T_f - (-15.0)) = (1.20)(2090)(T_f + 15.0)$$
+</div>
+
+Energy conservation: $$Q_w = Q_{ice}$$
+<div class="equation">
+$$4177.2 - (0.0100)(2090)T_f = (1.20)(2090)(T_f + 15.0)$$
+</div>
+
+<div class="equation">
+$$4177.2 - 20.9 T_f = 2508 T_f + 37620$$
+</div>
+
+<div class="equation">
+$$4177.2 - 37620 = 2508 T_f + 20.9 T_f$$
+</div>
+
+<div class="equation">
+$$-33442.8 = 2528.9 T_f$$
+</div>
+
+<div class="equation">
+$$T_f = \frac{-33442.8}{2528.9} = -13.2\text{ºC}$$
+</div>
+
+**Discussion**
+
+The final temperature of -13.2ºC makes sense. The small amount of warm water (10 g at 20ºC) has very little thermal energy compared to the large, cold ice block (1200 g at -15ºC). The mass ratio is 120:1 in favor of the ice!
+
+The water quickly freezes and slightly warms the ice block from -15.0ºC to -13.2ºC—a mere 1.8ºC increase. This demonstrates:
+1. **Thermal mass matters**: The 120× larger mass of ice dominates the final temperature
+2. **Phase change helps**: The 3340 J from freezing provides most of the heating (80% of total)
+3. **Limited effect**: Despite releasing 4177 J, this only warms 1.2 kg of ice by 1.8ºC
+
+This scenario might occur when pouring water onto an ice sculpture on a cold day, or in industrial processes involving cryogenic cooling. The calculation shows that small amounts of warm liquid have minimal effect on large masses of cold solid.
+
+**Answer**
+
+The final temperature is **-13.2ºC** or approximately **-13ºC**.
 
 </div>
 </div>
@@ -1168,6 +1527,103 @@ What would be the final temperature of the pan and water in [Calculating the Fin
 Between Two Bodies: Pouring Cold Water in a Hot Pan](../contents/ch14TemperatureChangeAndHeatCapacity#Example3) if 0.260 kg of water was placed in the pan and 0.0100 kg of the water evaporated immediately, leaving the remainder to come to a common temperature with the pan?
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+From Example 3 in Ch14TemperatureChangeAndHeatCapacity, we have a 0.500-kg aluminum pan at 150ºC and water initially at 20.0ºC. In this modified scenario, 0.260 kg of water is poured in, 0.0100 kg evaporates immediately (using heat from the pan), and the remaining 0.250 kg reaches equilibrium with the pan. We use energy conservation.
+
+**Solution**
+
+Given (from Example 3):
+- Mass of aluminum pan: $$m_{Al} = 0.500 \text{ kg}$$
+- Initial pan temperature: $$T_{pan,i} = 150\text{ºC}$$
+- Initial water temperature: $$T_{w,i} = 20.0\text{ºC}$$
+- Initial water mass: $$m_{w,initial} = 0.260 \text{ kg}$$
+- Mass evaporated: $$m_{evap} = 0.0100 \text{ kg}$$
+- Remaining water: $$m_w = 0.260 - 0.0100 = 0.250 \text{ kg}$$
+- Specific heat of aluminum: $$c_{Al} = 900 \text{ J/kg}\cdot\text{ºC}$$
+- Specific heat of water: $$c_w = 4186 \text{ J/kg}\cdot\text{ºC}$$
+- Latent heat of vaporization: $$L_v = 2256 \times 10^3 \text{ J/kg}$$
+
+**Step 1:** Calculate heat required to evaporate 0.0100 kg of water:
+
+The water that evaporates must first be heated from 20.0ºC to 100ºC, then evaporated:
+<div class="equation">
+$$Q_{evap} = m_{evap}c_w(100 - 20.0) + m_{evap}L_v$$
+</div>
+
+<div class="equation">
+$$Q_{evap} = (0.0100)(4186)(80.0) + (0.0100)(2256000)$$
+</div>
+
+<div class="equation">
+$$Q_{evap} = 3348.8 + 22560 = 25909 \text{ J}$$
+</div>
+
+**Step 2:** Find final temperature of pan and remaining water:
+
+The pan cools from 150ºC to $$T_f$$, losing heat that:
+1. Evaporates 0.0100 kg of water (25,909 J)
+2. Heats remaining 0.250 kg from 20.0ºC to $$T_f$$
+
+Energy conservation:
+<div class="equation">
+$$m_{Al}c_{Al}(150 - T_f) = Q_{evap} + m_w c_w(T_f - 20.0)$$
+</div>
+
+<div class="equation">
+$$(0.500)(900)(150 - T_f) = 25909 + (0.250)(4186)(T_f - 20.0)$$
+</div>
+
+<div class="equation">
+$$450(150 - T_f) = 25909 + 1046.5(T_f - 20.0)$$
+</div>
+
+<div class="equation">
+$$67500 - 450 T_f = 25909 + 1046.5 T_f - 20930$$
+</div>
+
+<div class="equation">
+$$67500 - 450 T_f = 4979 + 1046.5 T_f$$
+</div>
+
+<div class="equation">
+$$67500 - 4979 = 1046.5 T_f + 450 T_f$$
+</div>
+
+<div class="equation">
+$$62521 = 1496.5 T_f$$
+</div>
+
+<div class="equation">
+$$T_f = \frac{62521}{1496.5} = 41.8\text{ºC}$$
+</div>
+
+**Discussion**
+
+The final temperature of 41.8ºC is significantly lower than the 59.1ºC found in Example 3 (where 0.250 kg of water was added with no evaporation). The difference is due to:
+
+1. **Evaporation cost**: The 25,909 J required to evaporate 10 g of water is substantial—about 29% of the total heat available from the pan cooling from 150ºC to 42ºC
+2. **Same final water mass**: Despite starting with 0.260 kg, we end with 0.250 kg (same as Example 3), but significant energy went into the phase change rather than temperature change
+
+Comparing to Example 3:
+- Example 3: 0.250 kg water added → final temp 59.1ºC
+- This problem: 0.260 kg added, 0.010 kg evaporates → final temp 41.8ºC
+
+The 17.3ºC lower final temperature demonstrates the enormous cooling power of evaporation. This is why:
+- Sweating is so effective for cooling the human body
+- Evaporative coolers work in dry climates
+- A wet towel feels much cooler than a dry one
+- Water spilled on a hot surface quickly cools it
+
+The sizzle and steam when water first contacts the hot pan represents significant energy transfer through evaporation.
+
+**Answer**
+
+The final temperature is **41.8ºC** or approximately **42ºC**.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1195,6 +1651,73 @@ $$0\text{ºC} $$ ice with that from evaporating the liquid nitrogen.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Some gun fanciers make their own bullets, which involves melting and casting the lead slugs. How much heat transfer is needed to raise the temperature and melt 0.500 kg of lead, starting from  $$ 25.0\text{ºC} $$ ?
+
+</div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We need to calculate heat in two stages: (1) raising the temperature of solid lead from 25.0ºC to its melting point of 327ºC, and (2) melting the lead at 327ºC. We use $$Q = mc\Delta T$$ for heating and $$Q = mL_f$$ for melting.
+
+**Solution**
+
+Given:
+- Mass of lead: $$m = 0.500 \text{ kg}$$
+- Initial temperature: $$T_i = 25.0\text{ºC}$$
+- Melting point of lead: $$T_m = 327\text{ºC}$$
+- Specific heat of lead: $$c = 128 \text{ J/kg}\cdot\text{ºC}$$ (from Ch 14, Section 2, Table 1)
+- Latent heat of fusion for lead: $$L_f = 24.5 \text{ kJ/kg} = 24500 \text{ J/kg}$$ (from Table 1)
+
+**Step 1:** Heat solid lead from 25.0ºC to 327ºC:
+
+<div class="equation">
+$$Q_1 = mc\Delta T = (0.500)(128)(327 - 25.0) = (0.500)(128)(302)$$
+</div>
+
+<div class="equation">
+$$Q_1 = 19328 \text{ J} = 19.3 \text{ kJ}$$
+</div>
+
+**Step 2:** Melt lead at 327ºC:
+
+<div class="equation">
+$$Q_2 = mL_f = (0.500)(24500) = 12250 \text{ J} = 12.3 \text{ kJ}$$
+</div>
+
+**Step 3:** Total heat transfer:
+
+<div class="equation">
+$$Q_{total} = Q_1 + Q_2 = 19328 + 12250 = 31578 \text{ J} = 31.6 \text{ kJ}$$
+</div>
+
+**Discussion**
+
+The total heat required is approximately 31.6 kJ to melt 0.500 kg of lead. This breaks down as:
+- Heating from 25ºC to 327ºC: 19.3 kJ (61% of total)
+- Melting at 327ºC: 12.3 kJ (39% of total)
+
+Lead has relatively low values for both specific heat (128 J/kg·ºC) and latent heat of fusion (24.5 kJ/kg) compared to many other materials. For comparison:
+- Water's specific heat: 4186 J/kg·ºC (33× higher than lead)
+- Ice's latent heat of fusion: 334 kJ/kg (14× higher than lead)
+
+This means lead is relatively easy to melt, which is one reason it has historically been used for:
+- Bullet casting (as in this problem)
+- Plumbing (from Latin "plumbum" = lead, though no longer used due to toxicity)
+- Solder (now replaced by lead-free alternatives)
+- Fishing sinkers and weights
+
+For bullet casting, 31.6 kJ for 0.5 kg is quite manageable. This could be provided by:
+- A small propane torch in minutes
+- A hot plate or furnace
+- Even a campfire with sufficient time
+
+Safety note: When melting lead, proper ventilation is crucial as lead vapor is toxic. Modern bullet casters use proper safety equipment and ventilation systems.
+
+The relatively low melting point (327ºC) compared to other metals (iron: 1538ºC, copper: 1085ºC, aluminum: 660ºC) also makes lead easier to work with using simple equipment.
+
+**Answer**
+
+The heat transfer needed is approximately **31.6 kJ** or **3.16 × 10⁴ J**.
 
 </div>
 </div>

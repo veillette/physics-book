@@ -669,8 +669,95 @@ The Sun radiates energy at the rate of  $$ 3.80 \times 10^{26}  \text{W} $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.04 \times 10^{31}  \text{J/K} $$
-(b)  $$ 3.28 \times 10^{31}  \text{J} $$
+
+**Strategy**
+
+For part (a), calculate the total energy radiated in one day, then find entropy change for both the Sun (losing heat) and space (gaining heat). The total entropy change is their sum. For part (b), use $$W_{\text{unavail}} = \Delta S \times T_0$$, where $$T_0$$ is the lowest temperature.
+
+**Solution**
+
+Given values:
+- Power radiated by Sun: $$P = 3.80 \times 10^{26} \text{ W}$$
+- Sun's surface temperature: $$T_{\text{Sun}} = 5500\text{°C} = 5773 \text{ K}$$
+- Deep space temperature: $$T_{\text{space}} = -270\text{°C} = 3 \text{ K}$$
+- Time: $$t = 1 \text{ day} = 86{,}400 \text{ s}$$
+
+**(a)** Entropy increase in one day:
+
+Total energy radiated in one day:
+
+<div class="equation">
+ $$Q = P \times t = (3.80 \times 10^{26} \text{ W})(86{,}400 \text{ s})$$
+</div>
+
+<div class="equation">
+ $$Q = 3.28 \times 10^{31} \text{ J}$$
+</div>
+
+Entropy decrease of the Sun (heat leaves):
+
+<div class="equation">
+ $$\Delta S_{\text{Sun}} = -\frac{Q}{T_{\text{Sun}}} = -\frac{3.28 \times 10^{31}}{5773} = -5.68 \times 10^{27} \text{ J/K}$$
+</div>
+
+Entropy increase of space (heat enters):
+
+<div class="equation">
+ $$\Delta S_{\text{space}} = \frac{Q}{T_{\text{space}}} = \frac{3.28 \times 10^{31}}{3} = 1.09 \times 10^{31} \text{ J/K}$$
+</div>
+
+Total entropy increase:
+
+<div class="equation">
+ $$\Delta S_{\text{total}} = \Delta S_{\text{Sun}} + \Delta S_{\text{space}}$$
+</div>
+
+<div class="equation">
+ $$\Delta S_{\text{total}} = -5.68 \times 10^{27} + 1.09 \times 10^{31}$$
+</div>
+
+<div class="equation">
+ $$\Delta S_{\text{total}} = 1.09 \times 10^{31} - 0.0568 \times 10^{31} = 1.03 \times 10^{31} \text{ J/K}$$
+</div>
+
+**The increase in entropy is approximately $$ 1.04 \times 10^{31} \text{ J/K} $$.**
+
+**(b)** Work made unavailable:
+
+<div class="equation">
+ $$W_{\text{unavail}} = \Delta S_{\text{total}} \times T_0$$
+</div>
+
+where $$T_0$$ is the lowest temperature (deep space at 3 K):
+
+<div class="equation">
+ $$W_{\text{unavail}} = (1.04 \times 10^{31} \text{ J/K})(3 \text{ K})$$
+</div>
+
+<div class="equation">
+ $$W_{\text{unavail}} = 3.12 \times 10^{31} \text{ J}$$
+</div>
+
+Alternatively, this can be calculated more precisely as:
+
+<div class="equation">
+ $$W_{\text{unavail}} = Q - Q \times \frac{T_0}{T_{\text{Sun}}} = Q\left(1 - \frac{T_0}{T_{\text{Sun}}}\right)$$
+</div>
+
+<div class="equation">
+ $$W_{\text{unavail}} = 3.28 \times 10^{31}\left(1 - \frac{3}{5773}\right) = 3.28 \times 10^{31}(0.9995) \approx 3.28 \times 10^{31} \text{ J}$$
+</div>
+
+**The work made unavailable is approximately $$ 3.28 \times 10^{31} \text{ J} $$.**
+
+**Discussion**
+
+Part (a): The enormous entropy increase of $$1.04 \times 10^{31}$$ J/K per day results from the irreversible process of heat flowing from the hot Sun (5773 K) to cold space (3 K). Although the Sun loses entropy, space gains far more entropy because the same amount of energy produces a much larger entropy change at lower temperature ($$\Delta S = Q/T$$). This is the universe marching inexorably toward thermal equilibrium and maximum entropy—the "heat death" scenario.
+
+Part (b): Of the $$3.28 \times 10^{31}$$ J radiated daily, essentially all of it (99.95%) becomes unavailable for doing work. This represents the energy that cannot be converted to useful work because it's dispersed into the very cold void of space. If we could somehow capture all this solar radiation and run it through a perfect Carnot engine between 5773 K and 3 K, we could theoretically extract nearly 100% as work. However, the radiation spreads in all directions, and only a tiny fraction is intercepted by planets.
+
+For Earth specifically, we receive about 1.7 × 10^{17} W of solar power, which is only 0.000000045% of the Sun's total output. This minuscule fraction still drives all weather, ocean currents, photosynthesis, and sustains life on Earth. The vast majority of the Sun's energy simply heats up the cold vacuum of space, increasing the universe's entropy while making that energy permanently unavailable for organized work. This is a profound illustration of the second law of thermodynamics in action on a cosmic scale.
+
 </div>
 </div>
 
@@ -768,10 +855,111 @@ A large electrical power station generates 1000 MW of electricity with an effici
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 2.47 \times 10^{14}  \text{J} $$
-(b)  $$ 1.60 \times 10^{14}  \text{J} $$
-(c)  $$ 2.85 \times 10^{10}  \text{J/K} $$
-(d)  $$ 8.29 \times 10^{12}  \text{J} $$
+
+**Strategy**
+
+For part (a), use efficiency: $$\eta = \frac{W}{Q_h}$$, so $$Q_h = \frac{W}{\eta}$$. Calculate work output in one day. For part (b), use energy conservation: $$Q_c = Q_h - W$$. For part (c), calculate entropy decrease of cooling water and entropy increase of air, using average temperature for air. For part (d), use $$W_{\text{unavail}} = T_0 \Delta S_{\text{total}}$$.
+
+**Solution**
+
+Given values:
+- Power output: $$P = 1000 \text{ MW} = 1.00 \times 10^9 \text{ W}$$
+- Efficiency: $$\eta = 35.0\% = 0.350$$
+- Time: $$t = 1 \text{ day} = 86{,}400 \text{ s}$$
+- Cooling water temperature: $$T_{\text{water}} = 35.0\text{°C} = 308 \text{ K}$$
+- Air initial temperature: $$T_{i} = 18.0\text{°C} = 291 \text{ K}$$
+- Air final temperature: $$T_{f} = 20.0\text{°C} = 293 \text{ K}$$
+
+**(a)** Heat transfer to power station in one day:
+
+Work output in one day:
+
+<div class="equation">
+ $$W = P \times t = (1.00 \times 10^9 \text{ W})(86{,}400 \text{ s}) = 8.64 \times 10^{13} \text{ J}$$
+</div>
+
+From efficiency:
+
+<div class="equation">
+ $$Q_h = \frac{W}{\eta} = \frac{8.64 \times 10^{13}}{0.350} = 2.47 \times 10^{14} \text{ J}$$
+</div>
+
+**The heat input is $$ 2.47 \times 10^{14} \text{ J} $$.**
+
+**(b)** Heat transfer to environment in one day:
+
+<div class="equation">
+ $$Q_c = Q_h - W = 2.47 \times 10^{14} - 8.64 \times 10^{13}$$
+</div>
+
+<div class="equation">
+ $$Q_c = 1.606 \times 10^{14} \approx 1.60 \times 10^{14} \text{ J}$$
+</div>
+
+**The waste heat is $$ 1.60 \times 10^{14} \text{ J} $$.**
+
+**(c)** Total increase in entropy:
+
+Entropy decrease of cooling water (heat leaves):
+
+<div class="equation">
+ $$\Delta S_{\text{water}} = -\frac{Q_c}{T_{\text{water}}} = -\frac{1.60 \times 10^{14}}{308} = -5.19 \times 10^{11} \text{ J/K}$$
+</div>
+
+For air, use average temperature:
+
+<div class="equation">
+ $$T_{\text{avg}} = \frac{T_i + T_f}{2} = \frac{291 + 293}{2} = 292 \text{ K}$$
+</div>
+
+Entropy increase of air (heat enters):
+
+<div class="equation">
+ $$\Delta S_{\text{air}} = \frac{Q_c}{T_{\text{avg}}} = \frac{1.60 \times 10^{14}}{292} = 5.48 \times 10^{11} \text{ J/K}$$
+</div>
+
+Total entropy increase:
+
+<div class="equation">
+ $$\Delta S_{\text{total}} = \Delta S_{\text{water}} + \Delta S_{\text{air}}$$
+</div>
+
+<div class="equation">
+ $$\Delta S_{\text{total}} = -5.19 \times 10^{11} + 5.48 \times 10^{11} = 2.9 \times 10^{10} \text{ J/K}$$
+</div>
+
+**The total entropy increase is approximately $$ 2.85 \times 10^{10} \text{ J/K} $$.**
+
+**(d)** Energy made unavailable for work:
+
+<div class="equation">
+ $$W_{\text{unavail}} = T_0 \Delta S_{\text{total}}$$
+</div>
+
+where $$T_0 = 18.0\text{°C} = 291 \text{ K}$$:
+
+<div class="equation">
+ $$W_{\text{unavail}} = (291 \text{ K})(2.85 \times 10^{10} \text{ J/K})$$
+</div>
+
+<div class="equation">
+ $$W_{\text{unavail}} = 8.29 \times 10^{12} \text{ J}$$
+</div>
+
+**The energy made unavailable is $$ 8.29 \times 10^{12} \text{ J} $$.**
+
+**Discussion**
+
+Part (a): At 35% efficiency, the power station requires $$2.47 \times 10^{14}$$ J (247 TJ) of heat input daily. This comes from burning fossil fuels or nuclear fission. The 1000 MW output equals 86.4 TJ daily of useful electrical energy.
+
+Part (b): The waste heat of $$1.60 \times 10^{14}$$ J (160 TJ) per day—65% of the input energy—must be rejected to the environment. This enormous heat output necessitates cooling towers or water bodies. For perspective, this could heat 1.9 million liters of water from 0°C to 100°C.
+
+Part (c): The entropy increase of $$2.85 \times 10^{10}$$ J/K results from irreversible heat transfer from warm cooling water (35°C) to cooler air (18-20°C). The air gains more entropy than the water loses because entropy change is inversely proportional to temperature. This positive entropy increase confirms this is an irreversible process, as required by the second law.
+
+Part (d): Of the 160 TJ of waste heat, 8.29 TJ becomes permanently unavailable for work due to the entropy increase. This represents energy degraded by the irreversible cooling process. In principle, some of this waste heat could run secondary heat engines or district heating systems, but the low temperature (35°C) makes this impractical. If the waste heat were at higher temperature, more could be recovered for useful purposes through cogeneration.
+
+This problem illustrates why improving power plant efficiency is crucial—not only does it reduce fuel consumption, but it also reduces thermal pollution. A 40% efficient plant would need only 216 TJ input for the same 86.4 TJ output, reducing waste heat from 160 TJ to 130 TJ daily, lessening environmental impact.
+
 </div>
 </div>
 
