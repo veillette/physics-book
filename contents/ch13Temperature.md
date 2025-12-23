@@ -374,12 +374,46 @@ No, the system can be divided into smaller parts each of which is at the same te
 What does it mean to say that two systems are in thermal equilibrium?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider what happens when two objects at different temperatures are brought into thermal contact.
+
+**Solution:**
+Two systems are in thermal equilibrium when they are at the same temperature and there is no net heat transfer between them. When systems in thermal contact reach thermal equilibrium, their temperatures become equal and remain constant over time (assuming no external influences).
+
+More specifically, thermal equilibrium means:
+1. The two systems have the same temperature
+2. No net energy flows between them as heat
+3. Their macroscopic properties (like temperature, pressure, volume) remain constant
+4. If a thermometer is placed in either system, it will read the same temperature
+
+**Discussion:**
+Thermal equilibrium is the basis for temperature measurement. When a thermometer is placed in contact with an object, heat flows between them until they reach thermal equilibrium. The thermometer then reads the temperature of the object. The zeroth law of thermodynamics formalizes this concept: if system A is in thermal equilibrium with system C, and system B is in thermal equilibrium with system C, then A and B are in thermal equilibrium with each other (and all three have the same temperature).
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Give an example of a physical property that varies with temperature and describe how it is used to measure temperature.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Think of properties that change predictably and measurably with temperature.
+
+**Solution:**
+Many physical properties vary with temperature and can be used for thermometry. Here are several examples:
+
+1. **Volume expansion of liquids**: Mercury and alcohol thermometers use this property. As temperature increases, the liquid expands and rises in a narrow tube. The height of the liquid column is calibrated to indicate temperature. This works because liquids expand more than the glass container.
+
+2. **Electrical resistance**: Resistance thermometers (RTDs) use metals like platinum whose electrical resistance increases predictably with temperature. By measuring resistance, temperature can be determined accurately.
+
+3. **Thermoelectric voltage**: Thermocouples consist of two different metals joined together. When the junction is heated, a voltage is generated that depends on temperature. This voltage can be measured and converted to temperature.
+
+4. **Color/radiation**: Infrared thermometers measure the electromagnetic radiation emitted by objects. Hotter objects emit more infrared radiation, allowing non-contact temperature measurement.
+
+**Discussion:**
+Different temperature-dependent properties are useful in different ranges and applications. Mercury thermometers work well for everyday temperatures but are limited by mercury's freezing (−39ºC) and boiling (357ºC) points. Thermocouples can measure very high temperatures (up to 2000ºC), while resistance thermometers offer high precision for scientific work.
 </div>
 </div>
 
@@ -388,12 +422,46 @@ Give an example of a physical property that varies with temperature and describe
 When a cold alcohol thermometer is placed in a hot liquid, the column of alcohol goes **down** slightly before going up. Explain why.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider which part of the thermometer heats up first and how thermal expansion occurs at different rates for glass and alcohol.
+
+**Solution:**
+When a cold thermometer is placed in hot liquid, the glass bulb and tube heat up first because they are in direct contact with the hot liquid. The glass expands, increasing the volume of the bulb and tube slightly. This expansion creates more space for the alcohol.
+
+Initially, the alcohol inside is still cold and hasn't expanded yet. As the glass bulb expands, the same amount of alcohol now occupies a larger container volume, causing the alcohol level in the tube to drop slightly.
+
+After this brief moment, heat conducts through the glass to the alcohol. The alcohol then heats up and expands. Since the coefficient of volume expansion for alcohol is much larger than for glass, the alcohol expands significantly more than the glass. This causes the alcohol column to rise, eventually reaching a height that indicates the temperature of the hot liquid.
+
+**Discussion:**
+This effect is transient and only noticeable when there's a large temperature difference between the thermometer and the liquid. It demonstrates the different rates of thermal expansion for different materials and the time required for heat to transfer through materials. Good thermometer design minimizes this effect by using thin glass bulbs that heat quickly and by choosing liquid-glass combinations with very different expansion coefficients.
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 If you add boiling water to a cup at room temperature, what would you expect the final equilibrium temperature of the unit to be? You will need to include the surroundings as part of the system. Consider the zeroth law of thermodynamics.
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Consider all components that will exchange heat: the boiling water, the cup, and the surrounding air. Apply the principle that heat flows from hot to cold until thermal equilibrium is reached.
+
+**Solution:**
+The final equilibrium temperature will be somewhere between room temperature and 100ºC, but will ultimately approach room temperature over time. The specific equilibrium temperature depends on several factors:
+
+**Short-term equilibrium** (cup + water system):
+- The boiling water (100ºC) will transfer heat to the cooler cup (≈20ºC)
+- They will quickly reach an intermediate temperature, typically 80-95ºC depending on the masses and specific heats of water and cup material
+- A ceramic cup will absorb less heat than a metal cup due to different heat capacities
+
+**Long-term equilibrium** (including surroundings):
+- The hot water-cup system then exchanges heat with the surrounding air at room temperature
+- Heat continues to flow from the system to the surroundings
+- Eventually, the entire system (water + cup + surrounding air) reaches thermal equilibrium at essentially room temperature
+
+**Discussion:**
+By the zeroth law of thermodynamics, when thermal equilibrium is reached, all parts of the system will be at the same temperature. In practice, in an open room with good air circulation, the final temperature will be very close to room temperature, though the room itself might warm slightly. If the system were perfectly insulated from its surroundings, the equilibrium temperature would be determined by the relative heat capacities and masses of the water and cup alone.
 </div>
 </div>
 
@@ -416,6 +484,24 @@ Frost damage to most plants occurs at temperatures of  $$ 28.0\text{ºF} $$
  or lower. What is this temperature on the Kelvin scale?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+First convert from Fahrenheit to Celsius, then from Celsius to Kelvin.
+
+**Solution:**
+Convert ºF to ºC:
+<div class="equation" >
+ $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right)=\frac{5}{9}\left( 28.0-32\right)=\frac{5}{9}\left(-4.0\right)=-2.22\text{ºC} $$
+</div>
+
+Convert ºC to K:
+<div class="equation" >
+ $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15 =-2.22+ 273.15 = 271 \text{ K} $$
+</div>
+
+**Discussion:**
+This temperature of 271 K is just below the freezing point of water (273.15 K or 0ºC or 32ºF). Plants can often survive brief exposures to temperatures slightly below freezing, but prolonged exposure causes ice crystals to form in plant cells, rupturing cell walls and causing permanent damage. This is why farmers monitor frost warnings carefully and may use protective measures like covering plants or using heaters when temperatures approach 28ºF.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -436,6 +522,24 @@ To conserve energy, room temperatures are kept at  $$ 68.0\text{ºF} $$
 A tungsten light bulb filament may operate at 2900 K. What is its Fahrenheit temperature? What is this on the Celsius scale?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy:**
+First convert from Kelvin to Celsius, then from Celsius to Fahrenheit.
+
+**Solution:**
+Convert K to ºC:
+<div class="equation" >
+ $${T}_{\text{ºC}}={T}_{\text{K}}- 273.15 = 2900- 273.15 = 2627\text{ºC}  $$
+</div>
+
+Convert ºC to ºF:
+<div class="equation" >
+ $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32=\frac{9}{5}\left( 2627\right)+32= 4761\text{ºF} $$
+</div>
+
+**Discussion:**
+This extremely high temperature (nearly 2627ºC or 4761ºF) explains why tungsten is used for incandescent light bulb filaments—it has the highest melting point of all metals (3422ºC). At this operating temperature, the filament glows white-hot, emitting visible light along with significant infrared radiation (heat). This is also why incandescent bulbs are inefficient—much of the energy goes into heat rather than visible light. The tungsten filament must be enclosed in an inert gas (argon or nitrogen) or vacuum to prevent oxidation at these extreme temperatures.
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -453,6 +557,24 @@ The surface temperature of the Sun is about 5750 K. What is this temperature on 
 One of the hottest temperatures ever recorded on the surface of Earth was  $$134\text{ºF} $$
  in Death Valley, CA. What is this temperature in Celsius degrees? What is this temperature in Kelvin?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+Convert from Fahrenheit to Celsius first, then to Kelvin.
+
+**Solution:**
+Convert ºF to ºC:
+<div class="equation" >
+ $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right)=\frac{5}{9}\left(134-32\right)=\frac{5}{9}\left(102\right)= 56.7\text{ºC} $$
+</div>
+
+Convert ºC to K:
+<div class="equation" >
+ $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15 = 56.7+ 273.15 = 330 \text{ K} $$
+</div>
+
+**Discussion:**
+This temperature of 56.7ºC (134ºF or 330 K) is extremely hot and life-threatening for humans without proper precautions. At such temperatures, the human body's cooling mechanisms (primarily evaporative cooling through sweating) are severely challenged, especially if humidity is also high. Death Valley holds this record due to its below-sea-level elevation, surrounding mountains that trap heat, and desert conditions that prevent cloud cover and evaporative cooling. For comparison, normal human body temperature is 37ºC, so this environmental temperature is nearly 20ºC higher than body temperature, making heat gain from the environment a serious concern.
 </div>
 </div>
 
@@ -472,6 +594,60 @@ One of the hottest temperatures ever recorded on the surface of Earth was  $$134
 <div class="problem" markdown="1">
 (a) At what temperature do the Fahrenheit and Celsius scales have the same numerical value? (b) At what temperature do the Fahrenheit and Kelvin scales have the same numerical value?
 
+</div>
+<div class="solution" markdown="1">
+**Strategy:**
+(a) Set $$T_{\text{ºF}}=T_{\text{ºC}}=T$$ and solve using the conversion equation. (b) Set $$T_{\text{ºF}}=T_{\text{K}}=T$$ and solve using the appropriate conversions.
+
+**Solution:**
+(a) Using the equation $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32$$, and setting $${T}_{\text{ºF}}={T}_{\text{ºC}}=T$$:
+
+<div class="equation" >
+ $$T=\frac{9}{5}T+32 $$
+</div>
+
+Solving for T:
+<div class="equation" >
+ $$T-\frac{9}{5}T=32 $$
+</div>
+
+<div class="equation" >
+ $$-\frac{4}{5}T=32 $$
+</div>
+
+<div class="equation" >
+ $$T=-40 $$
+</div>
+
+Therefore, −40ºC = −40ºF.
+
+(b) Using $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15$$ and $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32$$, and setting $${T}_{\text{ºF}}={T}_{\text{K}}=T$$:
+
+From the first equation: $${T}_{\text{ºC}}=T- 273.15$$
+
+Substituting into the second equation:
+<div class="equation" >
+ $$T=\frac{9}{5}\left(T- 273.15\right)+32 $$
+</div>
+
+<div class="equation" >
+ $$T=\frac{9}{5}T- 491.67 +32 $$
+</div>
+
+<div class="equation" >
+ $$T-\frac{9}{5}T=- 459.67 $$
+</div>
+
+<div class="equation" >
+ $$-\frac{4}{5}T=- 459.67 $$
+</div>
+
+<div class="equation" >
+ $$T= 574.6 \text{ K} = 574.6\text{ºF} $$
+</div>
+
+**Discussion:**
+The temperature of −40 degrees is the unique point where Celsius and Fahrenheit scales intersect, making it a memorable reference point. This temperature is encountered in very cold climates like Antarctica or northern Canada in winter. The Fahrenheit-Kelvin equivalence at 574.6 degrees occurs at a very high temperature (301.4ºC), well above the boiling point of water. These equivalence points are mathematical curiosities that arise from the different zero points and scale sizes of the temperature systems.
 </div>
 </div>
 

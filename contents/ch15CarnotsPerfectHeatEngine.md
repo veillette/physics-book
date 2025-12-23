@@ -385,11 +385,65 @@ The power station achieves 59% of the theoretical maximum efficiency. This is re
 Would you be willing to financially back an inventor who is marketing a device that she claims has 25 kJ of heat transfer at 600 K, has heat transfer to the environment at 300 K, and does 12 kJ of work? Explain your answer.
 
 </div>
-<div class="solution"  markdown="1">
-The heat transfer to the cold reservoir is  $${Q}_{\text{c}}={Q}_{\text{h}}-W=25 \text{kJ}-12 \text{kJ}=13 \text{kJ} $$ ,
- so the efficiency is  $$\text{Eff}=1-\frac{ {Q}_{\text{c}}}{ {Q}_{\text{h}}}=1-\frac{13 \text{kJ}}{25 \text{kJ}}= 0.48 $$ .
- The Carnot efficiency is  $$\text{Eff}_{\text{C}}=1-\frac{ {T}_{\text{c}}}{ {T}_{\text{h}}}=1-\frac{300 \text{K}}{600 \text{K}}= 0.50 $$ .
- The actual efficiency is 96% of the Carnot efficiency, which is much higher than the best-ever achieved of about 70%, so her scheme is likely to be fraudulent.
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to check if the inventor's claims violate thermodynamic laws. First, calculate the actual efficiency of the claimed device using $$\text{Eff} = \frac{W}{Q_h}$$. Then calculate the maximum possible (Carnot) efficiency for engines operating between 600 K and 300 K using $$\text{Eff}_C = 1 - \frac{T_c}{T_h}$$. If the claimed efficiency exceeds or is unrealistically close to the Carnot efficiency, the device is fraudulent.
+
+**Solution**
+
+Given values:
+- Heat input: $$Q_h = 25 \text{ kJ}$$
+- Hot reservoir temperature: $$T_h = 600 \text{ K}$$
+- Cold reservoir temperature: $$T_c = 300 \text{ K}$$
+- Work output: $$W = 12 \text{ kJ}$$
+
+First, find the heat rejected using energy conservation:
+
+<div class="equation">
+ $$Q_c = Q_h - W = 25 \text{ kJ} - 12 \text{ kJ} = 13 \text{ kJ}$$
+</div>
+
+Calculate the claimed efficiency:
+
+<div class="equation">
+ $$\text{Eff}_{\text{claimed}} = \frac{W}{Q_h} = \frac{12 \text{ kJ}}{25 \text{ kJ}} = 0.480 = 48.0\%$$
+</div>
+
+Alternatively, using heat transfers:
+
+<div class="equation">
+ $$\text{Eff}_{\text{claimed}} = 1 - \frac{Q_c}{Q_h} = 1 - \frac{13}{25} = 0.480 = 48.0\%$$
+</div>
+
+Calculate the maximum possible (Carnot) efficiency:
+
+<div class="equation">
+ $$\text{Eff}_C = 1 - \frac{T_c}{T_h} = 1 - \frac{300 \text{ K}}{600 \text{ K}} = 1 - 0.500 = 0.500 = 50.0\%$$
+</div>
+
+Compare the claimed efficiency to Carnot efficiency:
+
+<div class="equation">
+ $$\frac{\text{Eff}_{\text{claimed}}}{\text{Eff}_C} = \frac{0.480}{0.500} = 0.96 = 96\%$$
+</div>
+
+**Conclusion: No, I would not financially back this inventor. The claimed device operates at 96% of the Carnot efficiency, which is impossible in practice.**
+
+**Discussion**
+
+The inventor's device claims to achieve 48% efficiency, which is 96% of the theoretical maximum (Carnot) efficiency of 50%. This is extraordinarily suspicious for several reasons:
+
+1. **Real-world efficiency limits**: Even the most advanced heat engines, built with the best materials and engineering, achieve only about 60-70% of Carnot efficiency. Typical power plants reach 40-42% actual efficiency when the Carnot limit might be 60-65%, giving them about 65% of Carnot. Gas turbines might reach 70% of Carnot under ideal conditions.
+
+2. **Irreversibilities**: All real processes involve friction, turbulence, heat losses, and other irreversibilities that prevent achieving Carnot efficiency. A device at 96% of Carnot would be nearly reversible, which is physically unrealistic for any macroscopic heat engine.
+
+3. **The 2:1 temperature ratio**: With $$T_h = 600$$ K and $$T_c = 300$$ K (exactly 2:1), this looks like a contrived example designed to appear legitimate while being fraudulent.
+
+4. **Red flags**: The inventor is "marketing" the device rather than publishing peer-reviewed results or demonstrating it to independent engineers. This is a classic sign of pseudoscience or fraud.
+
+**Verdict**: This scheme is almost certainly fraudulent. The claimed performance is thermodynamically implausible. Real devices with such exceptional efficiency would be revolutionary and would be demonstrated to scientists and engineers, not marketed to investors. The inventor is likely either deceiving investors deliberately or has made fundamental measurement errors. Either way, investment would be unwise.
 
 </div>
 </div>
@@ -435,10 +489,69 @@ unreasonable about the temperature? (c) Which premise is unreasonable?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$-56.3\text{ºC} $$
-(b) The temperature is too cold for the output of a steam engine (the local environment). It is below the freezing point of water.
 
-(c) The assumed efficiency is too high.
+**Strategy**
+
+Use the Carnot efficiency formula $$\eta_C = 1 - \frac{T_c}{T_h}$$ and solve for $$T_c$$. Then evaluate whether the result is physically reasonable for a steam engine's cold reservoir (typically the local environment).
+
+**Solution**
+
+Given values:
+- Hot reservoir temperature: $$T_h = 450\text{°C} = 723 \text{ K}$$
+- Carnot efficiency: $$\eta_C = 0.700$$
+
+**(a)** Solve for cold reservoir temperature:
+
+<div class="equation">
+ $$\eta_C = 1 - \frac{T_c}{T_h}$$
+</div>
+
+<div class="equation">
+ $$\frac{T_c}{T_h} = 1 - \eta_C = 1 - 0.700 = 0.300$$
+</div>
+
+<div class="equation">
+ $$T_c = 0.300 \times T_h = 0.300 \times 723 \text{ K} = 217 \text{ K}$$
+</div>
+
+Converting to Celsius:
+
+<div class="equation">
+ $$T_c = 217 - 273 = -56.3\text{°C}$$
+</div>
+
+**The cold reservoir temperature would be −56.3°C or 217 K.**
+
+**(b)** What is unreasonable about this temperature?
+
+This temperature is far too cold for the cold reservoir of a steam engine. The cold reservoir is typically the local environment (air, cooling water, or a cooling tower), which normally operates at temperatures between 0°C and 40°C. Several problems arise:
+
+- **Below water's freezing point**: At −56.3°C, water-based cooling systems would freeze solid, making the engine inoperable.
+- **Colder than most natural environments**: Even Arctic winter temperatures rarely drop below −40°C. Achieving −56.3°C would require artificial refrigeration.
+- **Steam would freeze**: The exhaust steam at this temperature would solidify as ice, not condense as liquid water.
+- **Impractical and expensive**: Maintaining such a cold reservoir would require more energy than the engine produces.
+
+**(c)** Which premise is unreasonable?
+
+The assumed efficiency of 70% (0.700) is unreasonably high for a steam engine. Real steam engines and power plants typically achieve:
+- **Actual efficiencies**: 25-42% for modern power plants
+- **Carnot efficiency percentage**: 50-70% of theoretical Carnot maximum
+- **Best steam turbines**: About 40% actual efficiency when Carnot limit might be 60-65%
+
+A 70% Carnot efficiency with $$T_h = 450\text{°C}$$ would require an impossibly low cold reservoir temperature. More reasonable efficiencies for this hot temperature would be:
+- With $$T_c = 20\text{°C}$$ (293 K): $$\eta_C = 1 - \frac{293}{723} = 59.5\%$$ (Carnot)
+- Actual efficiency would be about 35-42%
+
+**Discussion**
+
+This problem illustrates the relationship between efficiency and reservoir temperatures. To achieve high efficiency, you need either:
+1. Very high hot reservoir temperature, or
+2. Very low cold reservoir temperature, or
+3. Both
+
+Since the cold reservoir is typically the environment (which we cannot change easily), efficiency improvements usually focus on increasing the hot reservoir temperature. However, materials limitations prevent steam temperatures much above 500-600°C in conventional power plants.
+
+The calculated −56.3°C cold temperature is absurd because it violates practical and economic constraints. It would be like saying "to cool my house efficiently, I need outdoor temperature of −56°C"—which defeats the purpose entirely. The error lies in the unrealistic 70% efficiency assumption. When solving thermodynamics problems, always check if your answer makes physical sense in the context of real-world operation.
 
 </div>
 </div>

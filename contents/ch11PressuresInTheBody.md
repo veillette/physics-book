@@ -364,7 +364,27 @@ During forced exhalation, such as when blowing up a balloon, the diaphragm and c
 
 </div>
 <div class="solution" markdown="1">
-479 N
+**Strategy:**
+Convert the pressure from mm Hg to Pa using $$ P = \rho g h $$, then use $$ F = PA $$ to find the force.
+
+**Solution:**
+
+*Step 1: Convert pressure to pascals*
+
+$$ P = h \rho_{\text{Hg}} g = (60.0 \times 10^{-3} \text{ m})(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ P = 7.99 \times 10^{3} \text{ Pa} $$
+
+*Step 2: Convert area to m²*
+
+$$ A = 600 \text{ cm}^2 = 600 \times 10^{-4} \text{ m}^2 = 0.0600 \text{ m}^2 $$
+
+*Step 3: Calculate force*
+
+$$ F = PA = (7.99 \times 10^{3} \text{ Pa})(0.0600 \text{ m}^2) = 479 \text{ N} $$
+
+**Discussion:**
+The force on the diaphragm is approximately **479 N** (about 108 pounds). This substantial force is what allows forceful exhalation for activities like blowing up balloons, coughing, or playing wind instruments. The diaphragm is a strong, dome-shaped muscle that separates the chest from the abdomen, and during forced exhalation, it contracts upward while chest muscles squeeze inward, compressing the lungs. This 60 mm Hg pressure (about 0.08 atm gauge) is modest compared to maximum efforts, where pressures can exceed 100 mm Hg. The large diaphragm area means even moderate pressures create significant forces.
 
 </div>
 </div>
@@ -401,11 +421,31 @@ This pressure is extremely high—about 5000 times atmospheric pressure! This ex
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-One way to force air into an unconscious person’s lungs is to squeeze on a balloon appropriately connected to the subject. What force must you exert on the balloon with your hands to create a gauge pressure of 4.00 cm water, assuming you squeeze on an effective area of  $$ 50.0 {\text{cm}}^{2} $$ ?
+One way to force air into an unconscious person's lungs is to squeeze on a balloon appropriately connected to the subject. What force must you exert on the balloon with your hands to create a gauge pressure of 4.00 cm water, assuming you squeeze on an effective area of  $$ 50.0 {\text{cm}}^{2} $$ ?
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-1.96 N
+**Strategy:**
+Convert the pressure from cm water to Pa, then use $$ F = PA $$ to find the required force.
+
+**Solution:**
+
+*Step 1: Convert pressure to pascals*
+
+$$ P = h \rho_{\text{water}} g = (0.0400 \text{ m})(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ P = 392 \text{ Pa} $$
+
+*Step 2: Convert area to m²*
+
+$$ A = 50.0 \text{ cm}^2 = 50.0 \times 10^{-4} \text{ m}^2 = 5.00 \times 10^{-3} \text{ m}^2 $$
+
+*Step 3: Calculate force*
+
+$$ F = PA = (392 \text{ Pa})(5.00 \times 10^{-3} \text{ m}^2) = 1.96 \text{ N} $$
+
+**Discussion:**
+The required force is approximately **1.96 N** (about 0.44 pounds or 7 ounces). This is a modest force—easily applied by hand squeezing. The 4 cm water pressure (about 392 Pa or 0.004 atm) is sufficient to inflate the lungs without causing damage. Manual resuscitation devices (bag valve masks) work on this principle, allowing rescuers to provide ventilation by rhythmic squeezing. The relatively small force needed makes this technique accessible even during prolonged rescue efforts. Modern devices include pressure relief valves to prevent excessive pressures that could damage the lungs.
 
 </div>
 </div>
@@ -417,7 +457,26 @@ Heroes in movies hide beneath water and breathe through a hollow reed (villains 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$-63.0 \text{cm} {\text{H}}_{2}\text{O} $$
+**Strategy:**
+When submerged, your lungs must overcome both the water pressure at depth and create the negative pressure for inhalation. Find the total negative pressure capability.
+
+**Solution:**
+
+When your lungs are 60.0 cm below the surface:
+- Water pressure at lung depth: $$ P_{\text{water}} = \rho g h = (1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.600 \text{ m}) $$
+
+Converting to cm water: $$ P_{\text{water}} = 60.0 \text{ cm H}_2\text{O} $$
+
+If you can achieve −3.00 cm water pressure at the lung surface while submerged at 60.0 cm depth, you must create a pressure difference of:
+
+$$ P_{\text{lung, abs}} = P_{\text{atm}} + 60.0 \text{ cm H}_2\text{O} - 3.00 \text{ cm H}_2\text{O} $$
+
+To inhale, you must reduce lung pressure from atmospheric to this value. The total negative gauge pressure you can create is:
+
+$$ P_{\text{max negative}} = -(60.0 + 3.00) \text{ cm H}_2\text{O} = -63.0 \text{ cm H}_2\text{O} $$
+
+**Discussion:**
+The maximum negative gauge pressure you can create in your lungs on dry land is approximately **−63.0 cm H₂O** (about −0.062 atm or −6.2 kPa). This represents the total pressure difference your respiratory muscles can generate. When submerged 60 cm deep, you need 60 cm H₂O just to counteract water pressure on your chest, leaving only 3 cm H₂O for actual air flow. Beyond about 60-70 cm depth, most people cannot generate sufficient negative pressure to inhale through a snorkel, which is why snorkels are limited to ~30-40 cm length (half the theoretical maximum, with safety margin). This limitation explains why scuba tanks are necessary for deeper diving—they provide pressurized air matching ambient water pressure.
 
 </div>
 </div>

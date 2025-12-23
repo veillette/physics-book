@@ -501,7 +501,23 @@ What depth of mercury creates a pressure of 1.00 atm?
 
 </div>
 <div class="solution" markdown="1">
-0.760 m
+**Strategy:**
+Use the hydrostatic pressure formula $$ P = \rho g h $$ and solve for depth.
+
+**Solution:**
+
+Given:
+- Pressure: $$ P = 1.00 \text{ atm} = 1.01 \times 10^5 \text{ Pa} $$
+- Mercury density: $$ \rho = 13.6 \times 10^3 \text{ kg/m}^3 $$
+- $$ g = 9.80 \text{ m/s}^2 $$
+
+Solving for depth:
+$$ h = \frac{P}{\rho g} = \frac{1.01 \times 10^5 \text{ Pa}}{(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} $$
+
+$$ h = \frac{1.01 \times 10^5}{1.33 \times 10^5} \text{ m} = 0.760 \text{ m} = 76.0 \text{ cm} $$
+
+**Discussion:**
+A mercury column **0.760 m** (or **76.0 cm**, about 30 inches) tall creates a pressure of 1.00 atm. This is the basis for the mercury barometer invented by Torricelli in 1643. At sea level, atmospheric pressure supports a mercury column of this height in an evacuated tube. This is why atmospheric pressure is often expressed as "760 mm Hg" or "760 torr" (named after Torricelli). Mercury is ideal for barometers because its high density allows a compact instrument—a water barometer would need to be over 10 meters tall!
 
 </div>
 </div>
@@ -641,7 +657,26 @@ What pressure is exerted on the bottom of a 0.500-m-wide by 0.900-m-long gas tan
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.09 \times 10^{3}  {\text{N/m}}^{2} $$
+**Strategy:**
+Calculate the weight of the gasoline, then divide by the bottom area to find pressure.
+
+**Solution:**
+
+*Step 1: Calculate the weight of gasoline*
+
+$$ W = mg = (50.0 \text{ kg})(9.80 \text{ m/s}^2) = 490 \text{ N} $$
+
+*Step 2: Calculate the bottom area*
+
+$$ A = (0.500 \text{ m})(0.900 \text{ m}) = 0.450 \text{ m}^2 $$
+
+*Step 3: Calculate pressure*
+
+$$ P = \frac{W}{A} = \frac{490 \text{ N}}{0.450 \text{ m}^2} = 1.09 \times 10^{3} \text{ Pa} $$
+
+**Discussion:**
+The pressure on the bottom of the gas tank is approximately **1.09 × 10³ Pa** (about 1.09 kPa or 0.011 atm). This is a relatively modest pressure—only about 1% of atmospheric pressure. This makes sense because gasoline is not very dense (about 680 kg/m³) and the tank is relatively shallow. For comparison, if we calculate the depth of gasoline: $$ h = V/A = (m/\rho)/A = 50/(680 × 0.45) = 0.164 \text{ m} $$, we can verify using $$ P = \rho g h = (680)(9.80)(0.164) = 1090 \text{ Pa} $$. The tank experiences more pressure from atmospheric pressure (101 kPa) than from its own fuel!
+
 </div>
 </div>
 
@@ -689,7 +724,27 @@ The left side of the heart creates a pressure of 120 mm Hg by exerting a force d
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-24.0 N
+**Strategy:**
+Convert the pressure from mm Hg to Pa, then use $$ F = PA $$ to find the force.
+
+**Solution:**
+
+*Step 1: Convert pressure to pascals*
+
+$$ P = h \rho_{\text{Hg}} g = (0.120 \text{ m})(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2) $$
+
+$$ P = 1.60 \times 10^{4} \text{ Pa} $$
+
+*Step 2: Convert area to m²*
+
+$$ A = 15.0 \text{ cm}^2 = 15.0 \times 10^{-4} \text{ m}^2 = 1.50 \times 10^{-3} \text{ m}^2 $$
+
+*Step 3: Calculate force*
+
+$$ F = PA = (1.60 \times 10^{4} \text{ Pa})(1.50 \times 10^{-3} \text{ m}^2) = 24.0 \text{ N} $$
+
+**Discussion:**
+The heart exerts a force of approximately **24.0 N** (about 5.4 pounds) to create the systolic blood pressure of 120 mm Hg. This seems modest, but the heart must maintain this rhythmically about 70 times per minute, every minute, for decades—an impressive feat of biological engineering! The effective area (15 cm²) represents the internal surface of the left ventricle that contacts the blood during contraction. The heart's muscle tissue is specially adapted for this continuous, rhythmic work, with its own dedicated blood supply (coronary arteries) and electrical conduction system. This 24 N force pumps blood through the entire systemic circulation, from the aorta to the smallest capillaries and back to the right atrium.
 
 </div>
 </div>
