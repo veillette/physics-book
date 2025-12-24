@@ -12,6 +12,10 @@ Build and utility scripts for the Physics Book project.
 | check-math          | `npm run check-math`           | Check LaTeX delimiter balance       |
 | check-accessibility | `npm run check-accessibility`  | Check alt text and accessibility    |
 | check-yaml          | `npm run check-yaml`           | Validate YAML front matter          |
+| check-content       | `npm run check-content`        | Validate content quality            |
+| check-structure     | `npm run check-structure`      | Validate document structure         |
+| check-cross-references | `npm run check-cross-references` | Validate cross-references       |
+| check-equations     | `npm run check-equations`      | Validate equations and math         |
 | check-physics       | `npm run check-physics`        | Verify physics calculations (Python)|
 | fix-liquid-syntax   | `npm run fix-liquid-syntax`    | Fix Liquid syntax errors in math    |
 | standardize-links   | `npm run standardize-links`    | Convert links to Jekyll/MyST format |
@@ -147,6 +151,110 @@ node scripts/check-yaml.js --required "title,layout,chapterNumber"
 **Options:**
 
 - `--required <fields>` - Comma-separated list of required fields
+- `--strict` - Enable stricter validation
+
+### check-content.js
+
+Validates content quality and consistency in markdown files.
+
+```bash
+npm run check-content          # Standard validation
+npm run check-content:strict   # Strict mode
+```
+
+**Checks performed:**
+
+- Physical units spacing (e.g., "20m" should be "20 m")
+- Common terminology consistency (American English)
+- Duplicate words
+- Common physics typos
+- Inconsistent notation (vector notation, angle units)
+
+**Strict mode adds:**
+
+- Additional notation checks
+- More stringent spacing rules
+
+**Options:**
+
+- `--strict` - Enable stricter validation
+
+### check-structure.js
+
+Validates document structure and organization.
+
+```bash
+npm run check-structure          # Standard validation
+npm run check-structure:strict   # Strict mode
+```
+
+**Checks performed:**
+
+- Chapter numbering consistency
+- File naming conventions
+- Front matter consistency
+- Heading hierarchy (no skipped levels)
+- Chapter/section structure
+- Document organization
+
+**Strict mode adds:**
+
+- File naming pattern validation
+- Introduction text requirements
+- Additional structural checks
+
+**Options:**
+
+- `--strict` - Enable stricter validation
+
+### check-cross-references.js
+
+Validates cross-references between chapters and sections.
+
+```bash
+npm run check-cross-references          # Standard validation
+npm run check-cross-references:strict   # Strict mode
+```
+
+**Checks performed:**
+
+- Internal link validation
+- Broken anchor links
+- Figure reference consistency
+- Table reference consistency
+- Equation reference consistency
+- Cross-chapter reference validation
+
+**Options:**
+
+- `--strict` - Enable stricter validation
+
+### check-equations.js
+
+Validates equations and mathematical notation.
+
+```bash
+npm run check-equations          # Standard validation
+npm run check-equations:strict   # Strict mode
+```
+
+**Checks performed:**
+
+- LaTeX syntax errors
+- Unbalanced delimiters and braces
+- Equation numbering consistency
+- Equation references
+- Common LaTeX mistakes (incomplete commands, missing braces)
+- Empty math blocks
+- Spacing issues in math mode
+
+**Strict mode adds:**
+
+- Equation label verification
+- Additional LaTeX style checks
+
+**Options:**
+
 - `--strict` - Enable stricter validation
 
 ---
@@ -393,6 +501,10 @@ This runs:
 3. `check-figures` - Figure validation
 4. `check-yaml` - YAML front matter validation
 5. `check-accessibility` - Accessibility checks
+6. `check-content` - Content quality validation
+7. `check-structure` - Document structure validation
+8. `check-cross-references` - Cross-reference validation
+9. `check-equations` - Equation validation
 
 For a comprehensive check including all validations:
 
