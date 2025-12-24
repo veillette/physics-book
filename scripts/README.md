@@ -17,6 +17,8 @@ Build and utility scripts for the Physics Book project.
 | check-cross-references | `npm run check-cross-references` | Validate cross-references       |
 | check-equations     | `npm run check-equations`      | Validate equations and math         |
 | check-physics       | `npm run check-physics`        | Verify physics calculations (Python)|
+| fix-content         | `npm run fix-content`          | Auto-fix content quality issues     |
+| fix-equations       | `npm run fix-equations`        | Auto-fix equation formatting        |
 | fix-liquid-syntax   | `npm run fix-liquid-syntax`    | Fix Liquid syntax errors in math    |
 | standardize-links   | `npm run standardize-links`    | Convert links to Jekyll/MyST format |
 | generate-pdf        | `npm run generate-pdf`         | Generate PDF of all chapters        |
@@ -261,7 +263,64 @@ npm run check-equations:strict   # Strict mode
 
 ## Fix/Repair Scripts (`fix-*`)
 
-Scripts that automatically fix issues in content files.
+Scripts that automatically fix issues in content files. All fix scripts run in **dry-run mode by default** and require the `--apply` flag to actually modify files.
+
+### fix-content.js
+
+Automatically fixes common content quality issues detected by `check-content.js`.
+
+```bash
+npm run fix-content              # Dry run - show what would be fixed
+npm run fix-content:apply        # Apply fixes to files
+node scripts/fix-content.js contents/ch*.md  # Fix specific files
+```
+
+**Fixes applied:**
+
+- **Unit spacing**: Adds missing spaces before units (e.g., `20m` → `20 m`)
+- **Terminology**: Converts British to American English (`centre` → `center`, `metre` → `meter`)
+- **Duplicate words**: Removes unintentional word repetitions
+- **Common typos**: Fixes physics-specific typos (`velcoity` → `velocity`, `fricion` → `friction`)
+
+**Options:**
+
+- `--apply` - Apply fixes to files (default is dry run)
+
+**Safety:**
+
+- Skips code blocks and LaTeX math to avoid breaking formulas
+- Preserves front matter
+- Shows detailed before/after for all changes
+
+### fix-equations.js
+
+Automatically fixes equation formatting issues detected by `check-equations.js`.
+
+```bash
+npm run fix-equations            # Dry run - show what would be fixed
+npm run fix-equations:apply      # Apply fixes to files
+```
+
+**Fixes applied:**
+
+- **Broken inline math**: Merges inline math split across lines
+  ```markdown
+  Before: text $$ formula
+          $$
+          more text
+  After:  text $$ formula more text
+  ```
+- **Empty math blocks**: Removes empty `$$ $$` blocks
+
+**Options:**
+
+- `--apply` - Apply fixes to files (default is dry run)
+
+**Safety:**
+
+- Skips code blocks
+- Preserves front matter and YAML structure
+- Only fixes clear formatting errors, not mathematical content
 
 ### fix-liquid-syntax.js
 
