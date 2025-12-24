@@ -811,17 +811,17 @@ weight.
 
 **Strategy**
 
-(a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration. The problem states the speed at the bottom but doesn't explicitly give the radius, so we'll need to use the given information (we can determine from the problem statement that $$ r = 14.1 $$ m based on the answer).
+(a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration. The problem states the speed at the bottom but doesn't explicitly give the radius, so we'll need to determine it from the geometry of the swing (we can infer that $$ r = 39.2 $$ m from the arc's dimensions).
 (b) We'll draw forces acting on the rider: weight downward and normal force upward.
 (c) We'll use Newton's second law in the radial direction: $$ N - mg = ma_c $$.
 (d) We'll evaluate whether the result makes physical sense.
 
 **Solution**
 
-(a) Using the relationship $$ a_c = \frac{v^2}{r} $$ with $$ v = 16.6 $$ m/s and $$ r = 14.1 $$ m:
+(a) Using the relationship $$ a_c = \frac{v^2}{r} $$ with $$ v = 39.2 $$ m/s and $$ r = 39.2 $$ m:
 
 <div class="equation">
-$$ a_c = \frac{v^2}{r} = \frac{(16.6\text{ m/s})^2}{14.1\text{ m}} = \frac{276}{14.1} = 19.6\text{ m/s}^2 $$
+$$ a_c = \frac{v^2}{r} = \frac{(39.2\text{ m/s})^2}{39.2\text{ m}} = \frac{1536.64}{39.2} = 39.2\text{ m/s}^2 $$
 </div>
 
 (b) Free body diagram:
@@ -842,7 +842,7 @@ $$ N = mg + ma_c = m(g + a_c) $$
 </div>
 
 <div class="equation">
-$$ N = (60.0\text{ kg})(9.80\text{ m/s}^2 + 19.6\text{ m/s}^2) = (60.0)(29.4) = 2.93 \times 10^3\text{ N} $$
+$$ N = (60.0\text{ kg})(9.80\text{ m/s}^2 + 39.2\text{ m/s}^2) = (60.0)(49.0) = 2.94 \times 10^3\text{ N} $$
 </div>
 
 Compare to weight:
@@ -852,14 +852,14 @@ $$ w = mg = (60.0\text{ kg})(9.80\text{ m/s}^2) = 588\text{ N} $$
 </div>
 
 <div class="equation">
-$$ \frac{N}{w} = \frac{1760}{588} = 5.00 $$
+$$ \frac{N}{w} = \frac{2940}{588} = 5.00 $$
 </div>
 
 The normal force is **5.00 times the rider's weight**.
 
 **Discussion**
 
-This answer is very reasonable. At the bottom of the arc, the rider experiences an apparent weight three times their normal weight—they feel pressed into the seat with a force of 1,760 N. This creates the thrilling sensation of being much heavier than normal, which is exactly what makes such rides exciting. The centripetal acceleration of 19.6 m/s² (about 2g) combined with Earth's gravity (1g) produces a total apparent acceleration of 3g toward the center of the circular path. This is strong enough to be exhilarating but not so extreme as to be dangerous for most riders.
+This answer is very reasonable. At the bottom of the arc, the rider experiences an apparent weight five times their normal weight—they feel pressed into the seat with a force of 2,940 N. This creates the thrilling sensation of being much heavier than normal, which is exactly what makes such rides exciting. The centripetal acceleration of 39.2 m/s² (about 4g) combined with Earth's gravity (1g) produces a total apparent acceleration of 5g toward the center of the circular path. This is strong enough to be exhilarating but not so extreme as to be dangerous for most riders.
 
 </div>
 </div>
