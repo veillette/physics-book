@@ -199,14 +199,12 @@ indication of gravitational waves, and were awarded the 1993 Nobel Prize. But
 direct detection of gravitational waves on Earth would be conclusive. For many
 years, various attempts have been made to detect gravitational waves by
 observing vibrations induced in matter distorted by these waves. American
-physicist Joseph Weber pioneered this field in the 1960s, but no conclusive
-events have been observed. (No gravity wave detectors were in operation at the
-time of the 1987A supernova, unfortunately.) There are now several ambitious
+physicist Joseph Weber pioneered this field in the 1960s. Gravitational wave signals were first observed directly on September 14, 2015 by the LIGO system. On February 11, 2016, LIGO and the VIRGO facility announced the first confirmed observation of gravitational waves from colliding black holes. There are now several ambitious
 systems of gravitational wave detectors in use around the world. These include
 the LIGO (Laser Interferometer Gravitational Wave Observatory) system with two
 laser interferometer detectors, one in the state of Washington and another in
 Louisiana (See [[Figure 6]](#Figure6)) and the VIRGO (Variability of Irradiance
-and Gravitational Oscillations) facility in Italy with a single detector.
+and Gravitational Oscillations) facility in Italy with a single detector. Since then, LIGO has discovered additional merger events and neutron star collisions.
 
 ### Quantum Gravity
 
