@@ -175,23 +175,55 @@ class ContentFixer {
   }
 
   fixUnitSpacing(text) {
-    // Skip if line contains LaTeX math (to avoid breaking formulas)
-    if (text.includes('$')) return text;
+    // Skip image markdown lines (alt text shouldn't be modified)
+    if (text.trim().startsWith('![')) return text;
 
-    // Pattern: digit followed directly by unit (without space)
-    const unitPattern = new RegExp(`(\\d)(${UNITS.join('|').replace(/\//g, '\\/')})(?!\\w)`, 'g');
+    // Skip lines with inline LaTeX commands (likely in formulas)
+    if (text.match(/\\(text|mathrm|frac|sqrt|begin)/)) return text;
 
-    return text.replace(unitPattern, (match, digit, unit, offset) => {
-      // Avoid false positives in references like "Figure 20m" or dates
-      const before = text.substring(Math.max(0, offset - 10), offset);
-      if (before.match(/Figure\s+\d+$/i) || before.match(/\d{4}-\d{2}-$/)) {
-        return match;
+    let result = text;
+
+    // Split by inline math delimiters to avoid modifying inside math
+    const parts = text.split(/(\$\$[^$]*\$\$|\$[^$]+\$)/);
+
+    for (let i = 0; i < parts.length; i++) {
+      // Skip math parts (odd indices after split)
+      if (parts[i] && (parts[i].startsWith('$$') || parts[i].startsWith('$'))) {
+        continue;
       }
-      return `${digit} ${unit}`;
-    });
+
+      // Only process non-math parts
+      if (parts[i]) {
+        // Pattern: digit followed directly by unit (without space)
+        // Exclude degree symbol (°) as it's often intentional
+        const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
+        const unitPattern = new RegExp(`(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`, 'g');
+
+        parts[i] = parts[i].replace(unitPattern, (match, digit, unit, offset) => {
+          // Avoid false positives in references like "Figure 20m" or dates
+          const before = parts[i].substring(Math.max(0, offset - 10), offset);
+          if (before.match(/Figure\s+\d+$/i) || before.match(/\d{4}-\d{2}-$/)) {
+            return match;
+          }
+          // Avoid chapter/section references like "ch20m"
+          if (before.match(/ch\d+$/i) || before.match(/section\s*\d+$/i)) {
+            return match;
+          }
+          return `${digit} ${unit}`;
+        });
+      }
+    }
+
+    return parts.join('');
   }
 
   fixTerminology(text) {
+    // Skip image markdown lines
+    if (text.trim().startsWith('![')) return text;
+
+    // Skip URLs and file paths
+    if (text.match(/https?:\/\//) || text.match(/\.md|\.js|\.py/)) return text;
+
     let result = text;
 
     for (const [british, american] of Object.entries(TERMINOLOGY)) {
@@ -215,13 +247,32 @@ class ContentFixer {
       return text;
     }
 
+    // Skip image markdown lines
+    if (text.trim().startsWith('![')) return text;
+
+    // Skip LaTeX array/matrix definitions which may have repeated delimiters
+    if (text.match(/\\begin\{(array|matrix|align)/)) return text;
+
     // Pattern: word repeated with space
-    return text.replace(/\b(\w+)\s+\1\b/gi, (match, word) => {
-      // Ignore intentional repetitions
+    return text.replace(/\b(\w+)\s+\1\b/gi, (match, word, offset) => {
+      // Ignore intentional repetitions and common patterns
       const lowerWord = word.toLowerCase();
-      if (['that', 'can', 'had', 'will', 'very', 'long', 'well'].includes(lowerWord)) {
+      const commonRepeats = [
+        'that', 'can', 'had', 'will', 'very', 'long', 'well',
+        'is', 'was', 'the', 'no', 'so', 'go', 'do', 'to'
+      ];
+
+      if (commonRepeats.includes(lowerWord)) {
         return match;
       }
+
+      // Check context - don't fix if it looks intentional (e.g., "row row row")
+      const before = text.substring(Math.max(0, offset - 20), offset);
+      if (before.match(/\b\w+\s+\w+\s+$/)) {
+        // Multiple words before suggests intentional pattern
+        return match;
+      }
+
       return word;
     });
   }
