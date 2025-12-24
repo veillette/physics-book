@@ -9,6 +9,7 @@ This document verifies that all corrected problems have internally consistent pr
 ## Audit Methodology
 
 For each problem correction:
+
 1. ✓ Verify problem statement contains correct values
 2. ✓ Trace values through solution steps
 3. ✓ Check all intermediate calculations
@@ -24,11 +25,13 @@ For each problem correction:
 **File**: ch6CentripetalAcceleration.md
 
 **Problem Statement**:
+
 - Speed at bottom: v = 39.2 m/s ✓
 - Mass of rider: m = 60.0 kg ✓
 - Asks for centripetal acceleration and normal force
 
 **Solution Verification**:
+
 ```
 Step 1: Centripetal acceleration
   Given: v = 39.2 m/s, r = 39.2 m
@@ -44,6 +47,7 @@ Step 3: Ratio
 ```
 
 **Consistency**: ✅ PASS
+
 - All values match problem statement
 - All calculations are correct
 - Final answer is consistent
@@ -55,11 +59,13 @@ Step 3: Ratio
 **File**: ch4NewtonsSecondLawOfMotion.md
 
 **Problem Statement**:
+
 - Mass: m = 2100 kg ✓
 - Thrust: T = 2.59×10⁴ N ✓
 - Friction: f = 650 N ✓
 
 **Solution Verification**:
+
 ```
 Part (a): One rocket
   F_net = T - f = 2.59×10⁴ - 650 = 25,250 N ✓
@@ -73,6 +79,7 @@ Part (b): Four rockets comparison
 ```
 
 **Consistency**: ✅ PASS
+
 - Thrust value used consistently
 - All dependent calculations updated
 - Explanation matches calculations
@@ -84,11 +91,13 @@ Part (b): Four rockets comparison
 **File**: ch23RLCSeriesACircuits.md
 
 **Problem Statement**:
+
 - Frequency: f = 60.0 Hz ✓
 - Voltage: V_rms = 120 V ✓
 - References Example 2 for I_rms = 3.00 A ✓
 
 **Solution Verification**:
+
 ```
 Example 2 (Resonant frequency):
   At resonance: Z = R = 40.0 Ω
@@ -100,6 +109,7 @@ Example 3 (Power calculation):
 ```
 
 **Consistency**: ✅ PASS
+
 - Frequency correct (60.0 Hz)
 - Current reference verified
 - Power calculation correct
@@ -111,11 +121,13 @@ Example 3 (Power calculation):
 **File**: ch26Microscopes.md
 
 **Problem Statement**:
+
 - First objective: 1.40 NA, 60× ✓
 - Second objective: 0.35 NA, 20× ✓
 - Asks for acceptance angles of BOTH
 
 **Solution Verification**:
+
 ```
 Objective 1 (1.40 NA 60×):
   sin α₁ = NA/n = 1.40/1.51 = 0.927
@@ -132,6 +144,7 @@ Recommendation: Use 20× first, then 60× ✓
 ```
 
 **Consistency**: ✅ PASS
+
 - Both objectives calculated
 - Comparison provided
 - Recommendation logical
@@ -143,6 +156,7 @@ Recommendation: Use 20× first, then 60× ✓
 **File**: ch14TemperatureChangeAndHeatCapacity.md
 
 **Problem Statement**:
+
 - Mass of truck: M = 10,000 kg ✓
 - Height: h = 75.0 m ✓
 - Mass of brakes: m = 100 kg ✓
@@ -150,6 +164,7 @@ Recommendation: Use 20× first, then 60× ✓
 - **Retains 10% of energy** ✓
 
 **Solution Verification**:
+
 ```
 Step 1: Total gravitational PE
   Mgh = (10,000)(9.80)(75.0) = 7.35×10⁶ J ✓
@@ -163,6 +178,7 @@ Step 3: Temperature increase
 ```
 
 **Consistency**: ✅ PASS
+
 - Problem states "10% retained"
 - Calculation explicitly shows 10% factor
 - Final answer uses correct value (7.35×10⁵ J, not 7.35×10⁶ J)
@@ -176,10 +192,12 @@ Step 3: Temperature increase
 **File**: ch31NuclearDecayAndConservationLaws.md
 
 **Problem Statement**:
+
 - Decay: ²³⁹Pu → ²³⁵U + ⁴He
 - Calculate energy released
 
 **Solution Verification**:
+
 ```
 Mass calculation:
   m(²³⁹Pu) = 239.052157 u ✓
@@ -196,6 +214,7 @@ Energy calculation:
 ```
 
 **Consistency**: ✅ PASS
+
 - Corrected mass difference used
 - Energy calculation correct
 - Units proper throughout
@@ -204,14 +223,14 @@ Energy calculation:
 
 ## Summary
 
-| Problem | File | Status | Issues Found |
-|---------|------|--------|--------------|
-| Centripetal Force | ch6 | ✅ PASS | None |
-| Rocket Sled | ch4 | ✅ PASS | None |
-| RLC Circuit | ch23 | ✅ PASS | None |
-| Microscope | ch26 | ✅ PASS | None |
-| Gravitational PE | ch14 | ✅ PASS | Fixed 10% calculation |
-| Nuclear Decay | ch31 | ✅ PASS | None |
+| Problem           | File | Status  | Issues Found          |
+| ----------------- | ---- | ------- | --------------------- |
+| Centripetal Force | ch6  | ✅ PASS | None                  |
+| Rocket Sled       | ch4  | ✅ PASS | None                  |
+| RLC Circuit       | ch23 | ✅ PASS | None                  |
+| Microscope        | ch26 | ✅ PASS | None                  |
+| Gravitational PE  | ch14 | ✅ PASS | Fixed 10% calculation |
+| Nuclear Decay     | ch31 | ✅ PASS | None                  |
 
 **Total Problems Audited**: 6
 **Inconsistencies Found**: 1 (gravitational PE)
@@ -237,6 +256,7 @@ For each corrected problem:
 ## Conclusion
 
 All problem/solution pairs are now internally consistent. Students following the solutions will:
+
 - Use correct given values
 - Perform correct calculations
 - Arrive at correct answers
