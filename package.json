@@ -47,7 +47,7 @@
     "test:ci": "npm run check-links -- --timeout 15000",
     "test:unit": "vitest run",
     "test:watch": "vitest",
-    "audit": "npm run check-links && npm run check-orphans && npm run check-figures"
+    "audit": "npm run check-links && npm run check-orphans && npm run check-figures && npm run check-yaml"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
