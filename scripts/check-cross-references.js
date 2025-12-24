@@ -101,6 +101,18 @@ class CrossReferenceValidator {
       for (const match of anchorMatches) {
         anchors.add(match[1]);
       }
+
+      // Extract id attributes from any HTML element (e.g., <div id="example1">)
+      const htmlIdMatches = line.matchAll(/<\w+[^>]*\sid=["']([^"']+)["']/g);
+      for (const match of htmlIdMatches) {
+        anchors.add(match[1]);
+      }
+
+      // Extract anchors from Kramdown attribute list syntax: {: #id} or {: #id attr="value"}
+      const kramdownIdMatch = line.match(/^\{:.*?#([^\s}]+)/);
+      if (kramdownIdMatch) {
+        anchors.add(kramdownIdMatch[1]);
+      }
     }
 
     this.anchors.set(fileName, anchors);
@@ -162,7 +174,8 @@ class CrossReferenceValidator {
         }
 
         // Skip image links (handled by check-figures)
-        if (linkTarget.match(/\.(png|jpg|jpeg|gif|svg|webp)$/i)) {
+        // Images may have captions: image.jpg 'caption' or image.jpg "caption"
+        if (linkTarget.match(/\.(png|jpg|jpeg|gif|svg|webp)(\s|$|['"])/i)) {
           continue;
         }
 
