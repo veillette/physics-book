@@ -805,7 +805,7 @@ A force of **4.12 × 10⁵ N** (or **412 kN**) in the direction opposite to the 
 (a) If the rocket sled shown in [Figure 6](#Figure6) starts with only one rocket
 burning, what is the magnitude of
 its acceleration? Assume that the mass of the system is 2100 kg,
-the thrust T is $$ 2.4\times 10^{4} \N $$, and the force of friction opposing the motion is known to be 650 N.
+the thrust T is $$ 2.59\times 10^{4} \N $$, and the force of friction opposing the motion is known to be 650 N.
 (b) Why is the acceleration not one-fourth of what it is with all rockets burning?
 
 </div>
@@ -821,31 +821,31 @@ For part (a), use Newton's second law to find the acceleration. The net force eq
 
 Given:
 - Mass of system: $$ m = 2100 \kg $$
-- Thrust from one rocket: $$ T = 2.4 \times 10^{4} \N $$
+- Thrust from one rocket: $$ T = 2.59 \times 10^{4} \N $$
 - Friction force: $$ f = 650 \N $$
 
 The net force is the thrust minus friction:
 <div class="equation">
-$$ F_{\text{net}} = T - f = 2.4 \times 10^{4} \N - 650 \N = 23{,}350 \N $$
+$$ F_{\text{net}} = T - f = 2.59 \times 10^{4} \N - 650 \N = 25{,}250 \N $$
 </div>
 
 Apply Newton's second law:
 <div class="equation">
-$$ a = \frac{F_{\text{net}}}{m} = \frac{23{,}350 \N}{2100 \kg} = 11.1 \mss \approx 12 \mss $$
+$$ a = \frac{F_{\text{net}}}{m} = \frac{25{,}250 \N}{2100 \kg} = 12.0 \mss $$
 </div>
 
 **(b) Why not one-fourth of the acceleration with four rockets:**
 
-If all four rockets were burning, the thrust would be $$ 4 \times 2.4 \times 10^{4} \N = 9.6 \times 10^{4} \N $$.
+If all four rockets were burning, the thrust would be $$ 4 \times 2.59 \times 10^{4} \N = 1.036 \times 10^{5} \N $$.
 
 Net force with four rockets:
 <div class="equation">
-$$ F_{\text{net, 4}} = 96{,}000 \N - 650 \N = 95{,}350 \N $$
+$$ F_{\text{net, 4}} = 103{,}600 \N - 650 \N = 102{,}950 \N $$
 </div>
 
 Acceleration with four rockets:
 <div class="equation">
-$$ a_4 = \frac{95{,}350 \N}{2100 \kg} = 45.4 \mss $$
+$$ a_4 = \frac{102{,}950 \N}{2100 \kg} = 49.0 \mss $$
 </div>
 
 One-fourth of this would be:
