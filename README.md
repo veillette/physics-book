@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![CI](https://github.com/veillette/physics-book/actions/workflows/ci.yml/badge.svg)](https://github.com/veillette/physics-book/actions/workflows/ci.yml)
 [![Live Preview (GitHub Pages)](https://img.shields.io/badge/Live%20Preview-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://veillette.github.io/physics-book/)
 [![Table of Contents](https://img.shields.io/badge/TOC-Table%20of%20Contents-orange?style=for-the-badge&logo=bookmark)](./SUMMARY.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.txt)
@@ -42,7 +43,8 @@ Want to contribute or run a local copy? It's easy!
 ### Prerequisites
 
 - **Ruby** 2.7 or higher ([Installation Guide](https://www.ruby-lang.org/en/documentation/installation/))
-- **Node.js** 16+ (for utility scripts)
+- **Node.js** 18+ (for utility scripts)
+- **Python** 3.x (optional, for physics calculation verification)
 - **Git** for version control
 
 ### Setup & Execution
@@ -70,23 +72,30 @@ bundle exec jekyll serve --incremental
 The project includes a suite of Node.js scripts for quality assurance and content management. See the [scripts README](./scripts/README.md) for full details.
 
 ```console
-# Run a full audit (links, orphans, figures)
+# Run a full audit (links, orphans, figures, YAML, accessibility)
 npm run audit
 
-# Check for broken links (internal & external)
-npm run check-links
+# Run ALL checks including math delimiter validation
+npm run check-all
 
-# Find unreferenced files in assets/ and resources/
-npm run check-orphans
+# Verify physics calculations (requires Python 3)
+npm run check-physics
 
-# Validate mathematical notation (LaTeX delimiters)
-npm run check-math
+# Individual quality checks
+npm run check-links           # Internal & external links
+npm run check-orphans         # Unreferenced files
+npm run check-figures         # Figure references
+npm run check-yaml            # YAML front matter
+npm run check-accessibility   # Alt text, headings
+npm run check-math            # LaTeX delimiter balance
 
-# Check for accessibility issues (alt text, heading levels)
-npm run check-accessibility
-
-# Generate a combined PDF of a specific chapter (e.g., Chapter 1)
+# Generate PDFs (requires Jekyll server running)
 npm run generate-pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book
+
+# Code quality
+npm run lint                  # ESLint check
+npm run format                # Prettier formatting
+npm run test:unit             # Run unit tests
 ```
 
 ## Deployment

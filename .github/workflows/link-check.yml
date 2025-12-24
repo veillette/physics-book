@@ -1,17 +1,23 @@
 name: Check Links
 
+# This workflow handles scheduled and post-merge link checks.
+# PR link checking is handled by ci.yml to avoid duplication.
+
 permissions:
   contents: read
 
 on:
   push:
-    branches: [main, gh-pages]
-  pull_request:
-    branches: [main, gh-pages]
+    branches: [main]
   schedule:
     # Run weekly on Sundays at 2 AM UTC
     - cron: "0 2 * * 0"
   workflow_dispatch: # Allow manual triggering
+
+# Cancel redundant runs
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check-links:
@@ -31,9 +37,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Make scripts executable
-        run: chmod +x scripts/check-links.js
-
       - name: Run link checker
         run: npm run test:ci
 
@@ -48,6 +51,16 @@ jobs:
           path: |
             link-check-results.json
           retention-days: 7
+
+      - name: Write summary
+        if: always()
+        run: |
+          echo "## Link Check Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Internal Links** | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Orphan Files** | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
 
   check-external-links:
     permissions:
@@ -70,9 +83,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Make scripts executable
-        run: chmod +x scripts/check-links.js
 
       - name: Run comprehensive link checker (including external)
         run: npm run check-links -- --timeout 20000 --concurrent 5
