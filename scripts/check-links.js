@@ -10,6 +10,10 @@ import chalk from 'chalk';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Default cache file location and TTL (7 days in milliseconds)
+const DEFAULT_CACHE_FILE = path.join(__dirname, '..', '.link-cache.json');
+const DEFAULT_CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
+
 class LinkChecker {
   constructor(options = {}) {
     this.baseDir = options.baseDir || path.join(__dirname, '..');
@@ -19,6 +23,11 @@ class LinkChecker {
     this.concurrent = options.concurrent || 10;
     this.userAgent = 'Mozilla/5.0 (compatible; LinkChecker/1.0)';
 
+    // Persistent cache options
+    this.cacheFile = options.cacheFile || DEFAULT_CACHE_FILE;
+    this.cacheTTL = options.cacheTTL || DEFAULT_CACHE_TTL;
+    this.useCache = options.useCache !== false; // Default to true
+
     this.stats = {
       totalFiles: 0,
       totalLinks: 0,
@@ -26,11 +35,64 @@ class LinkChecker {
       externalLinks: 0,
       internalLinks: 0,
       warnings: 0,
+      cachedLinks: 0,
     };
 
     this.brokenLinks = [];
     this.warnings = [];
     this.checkedUrls = new Map(); // Cache for external URLs
+
+    // Load persistent cache if enabled
+    if (this.useCache) {
+      this.loadCache();
+    }
+  }
+
+  /**
+   * Load cached link results from disk
+   */
+  loadCache() {
+    try {
+      if (fs.existsSync(this.cacheFile)) {
+        const cacheData = JSON.parse(fs.readFileSync(this.cacheFile, 'utf8'));
+        const now = Date.now();
+
+        // Load only non-expired entries
+        for (const [url, entry] of Object.entries(cacheData)) {
+          if (entry.timestamp && now - entry.timestamp < this.cacheTTL) {
+            this.checkedUrls.set(url, entry);
+          }
+        }
+
+        console.log(chalk.gray(`Loaded ${this.checkedUrls.size} cached external link results\n`));
+      }
+    } catch (error) {
+      console.log(chalk.yellow(`Warning: Could not load cache: ${error.message}\n`));
+    }
+  }
+
+  /**
+   * Save cached link results to disk
+   */
+  saveCache() {
+    try {
+      const cacheData = {};
+      for (const [url, entry] of this.checkedUrls) {
+        // Only cache successful results and non-network errors
+        // Network errors are transient and shouldn't be cached long-term
+        if (entry.success || !entry.isNetworkError) {
+          cacheData[url] = {
+            ...entry,
+            timestamp: entry.timestamp || Date.now(),
+          };
+        }
+      }
+
+      fs.writeFileSync(this.cacheFile, JSON.stringify(cacheData, null, 2));
+      console.log(chalk.gray(`Saved ${Object.keys(cacheData).length} link results to cache\n`));
+    } catch (error) {
+      console.log(chalk.yellow(`Warning: Could not save cache: ${error.message}\n`));
+    }
   }
 
   async checkLinks() {
@@ -58,6 +120,11 @@ class LinkChecker {
     for (let i = 0; i < markdownFiles.length; i += batchSize) {
       const batch = markdownFiles.slice(i, i + batchSize);
       await Promise.all(batch.map(file => this.checkFileLinks(file)));
+    }
+
+    // Save cache if enabled
+    if (this.useCache) {
+      this.saveCache();
     }
 
     this.printResults();
@@ -178,6 +245,7 @@ class LinkChecker {
     // Check cache first
     if (this.checkedUrls.has(url)) {
       const cachedResult = this.checkedUrls.get(url);
+      this.stats.cachedLinks++;
       if (!cachedResult.success) {
         // Network errors should be warnings, not broken links
         if (cachedResult.isNetworkError) {
@@ -224,7 +292,7 @@ class LinkChecker {
         }
       }
 
-      this.checkedUrls.set(url, { success: true });
+      this.checkedUrls.set(url, { success: true, timestamp: Date.now() });
     } catch (error) {
       let errorMessage = error.message;
       let isNetworkError = false;
@@ -256,7 +324,12 @@ class LinkChecker {
         isNetworkError = true;
       }
 
-      this.checkedUrls.set(url, { success: false, error: errorMessage, isNetworkError });
+      this.checkedUrls.set(url, {
+        success: false,
+        error: errorMessage,
+        isNetworkError,
+        timestamp: Date.now(),
+      });
 
       // Treat network errors as warnings (don't fail the build for transient network issues)
       // This prevents CI failures due to temporary DNS or connection problems
@@ -349,6 +422,9 @@ class LinkChecker {
     console.log(chalk.gray(`Total links: ${this.stats.totalLinks}`));
     console.log(chalk.gray(`Internal links: ${this.stats.internalLinks}`));
     console.log(chalk.gray(`External links: ${this.stats.externalLinks}`));
+    if (this.stats.cachedLinks > 0) {
+      console.log(chalk.gray(`Cached results used: ${this.stats.cachedLinks}`));
+    }
 
     if (this.stats.brokenLinks === 0) {
       console.log(chalk.green(`✅ All links are working! (${this.stats.totalLinks} checked)`));
@@ -395,6 +471,16 @@ async function main() {
       case '--concurrent':
         options.concurrent = parseInt(args[++i]) || 10;
         break;
+      case '--no-cache':
+        options.useCache = false;
+        break;
+      case '--cache-file':
+        options.cacheFile = args[++i];
+        break;
+      case '--cache-ttl':
+        // Parse TTL in days and convert to milliseconds
+        options.cacheTTL = parseInt(args[++i]) * 24 * 60 * 60 * 1000;
+        break;
       case '--help':
         console.log(`
 Usage: node scripts/check-links.js [options]
@@ -403,7 +489,15 @@ Options:
   --timeout <ms>     Request timeout in milliseconds (default: 10000)
   --retries <num>    Number of retries for failed requests (default: 2)
   --concurrent <num> Maximum concurrent requests (default: 10)
+  --no-cache         Disable persistent caching of external link results
+  --cache-file <path> Path to cache file (default: .link-cache.json)
+  --cache-ttl <days> Cache TTL in days (default: 7)
   --help             Show this help message
+
+Caching:
+  External link results are cached to speed up subsequent runs.
+  Successful results and definitive errors (404, etc.) are cached.
+  Transient network errors are not cached.
 `);
         process.exit(0);
     }

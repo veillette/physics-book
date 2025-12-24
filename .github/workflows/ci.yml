@@ -8,6 +8,11 @@ on:
 permissions:
   contents: read
 
+# Cancel redundant CI runs on the same PR
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     name: Lint
