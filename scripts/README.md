@@ -17,8 +17,8 @@ Build and utility scripts for the Physics Book project.
 | check-cross-references | `npm run check-cross-references` | Validate cross-references       |
 | check-equations     | `npm run check-equations`      | Validate equations and math         |
 | check-physics       | `npm run check-physics`        | Verify physics calculations (Python)|
-| fix-content         | `npm run fix-content`          | Auto-fix content quality issues     |
-| fix-equations       | `npm run fix-equations`        | Auto-fix equation formatting        |
+| validate-content    | `npm run validate-content`     | Auto-fix content quality issues     |
+| validate-equations  | `npm run validate-equations`   | Auto-fix equation formatting        |
 | fix-liquid-syntax   | `npm run fix-liquid-syntax`    | Fix Liquid syntax errors in math    |
 | standardize-links   | `npm run standardize-links`    | Convert links to Jekyll/MyST format |
 | generate-pdf        | `npm run generate-pdf`         | Generate PDF of all chapters        |
@@ -261,18 +261,18 @@ npm run check-equations:strict   # Strict mode
 
 ---
 
-## Fix/Repair Scripts (`fix-*`)
+## Fix/Repair Scripts (`validate-*` and `fix-*`)
 
 Scripts that automatically fix issues in content files. All fix scripts run in **dry-run mode by default** and require the `--apply` flag to actually modify files.
 
-### fix-content.js
+### validate-content.js
 
 Automatically fixes common content quality issues detected by `check-content.js`.
 
 ```bash
-npm run fix-content              # Dry run - show what would be fixed
-npm run fix-content:apply        # Apply fixes to files
-node scripts/fix-content.js contents/ch*.md  # Fix specific files
+npm run validate-content              # Dry run - show what would be fixed
+npm run validate-content:apply        # Apply fixes to files
+node scripts/validate-content.js contents/ch*.md  # Fix specific files
 ```
 
 **Fixes applied:**
@@ -295,17 +295,17 @@ node scripts/fix-content.js contents/ch*.md  # Fix specific files
 **Combined check + fix workflow:**
 
 ```bash
-npm run fix-content:check        # Run check, then preview fixes
-npm run fix-content:check-apply  # Run check, then apply fixes
+npm run validate-content:check        # Run check, then preview fixes
+npm run validate-content:check-apply  # Run check, then apply fixes
 ```
 
-### fix-equations.js
+### validate-equations.js
 
 Automatically fixes equation formatting issues detected by `check-equations.js`.
 
 ```bash
-npm run fix-equations            # Dry run - show what would be fixed
-npm run fix-equations:apply      # Apply fixes to files
+npm run validate-equations            # Dry run - show what would be fixed
+npm run validate-equations:apply      # Apply fixes to files
 ```
 
 **Fixes applied:**
@@ -332,8 +332,8 @@ npm run fix-equations:apply      # Apply fixes to files
 **Combined check + fix workflow:**
 
 ```bash
-npm run fix-equations:check        # Run check, then preview fixes
-npm run fix-equations:check-apply  # Run check, then apply fixes
+npm run validate-equations:check        # Run check, then preview fixes
+npm run validate-equations:check-apply  # Run check, then apply fixes
 ```
 
 ### fix-liquid-syntax.js
