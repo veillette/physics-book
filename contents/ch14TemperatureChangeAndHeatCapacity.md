@@ -167,18 +167,18 @@ the brake material alone.
    \text{J} \text{.} $$
    </div>
 
-2. Calculate the temperature from the heat transferred using $$Q=\text{Mgh} $$
+2. Calculate the temperature from the heat transferred using $$Q=0.1\text{Mgh} $$, since only 10% of the energy calculated in step 1 is retained as heat,
    and
    <div class="equation" >
    $$\Delta T=\frac{Q}{mc}\text{,} $$
    </div>
-   where $$m $$     
+   where $$m $$
    is the mass of the brake material. Insert the values $$m=100 \text{kg} $$
 
    and $$c=800 \text{J/kg}\cdot \text{ºC} $$ to find
    <div class="equation" >
-   $$\Delta T=\frac{\left( 7.35 \times 10^{5} \text{J}\right)}{\left(100
-   \text{kg}\right)\left(800 \text{J/kgºC}\right)}=9.2 \text{ºC.} $$
+   $$\Delta T=\frac{\left( 7.35 \times 10^{6} \text{J}\right)}{\left(100
+   \text{kg}\right)\left(800 \text{J/kgºC}\right)}=92 \text{ºC.} $$
    </div>
 
 **Discussion**
