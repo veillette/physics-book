@@ -52,7 +52,7 @@ To contribute to this project, you'll need:
 
 - **Git**: For version control
 - **Ruby** 2.7 or higher: For running Jekyll locally
-- **Node.js** 16+: For running validation scripts (optional but recommended)
+- **Node.js** 18+: For running validation scripts (optional but recommended)
 - **Text Editor**: Any editor that supports Markdown (VS Code, Atom, Sublime, etc.)
 
 ### Setup Instructions
