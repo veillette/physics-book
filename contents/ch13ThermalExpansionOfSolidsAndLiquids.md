@@ -514,7 +514,7 @@ Another example of thermal stress is found in the mouth. Dental fillings can
 expand differently from tooth enamel. It can give pain when eating ice cream or
 having a hot drink. Cracks might occur in the filling. Metal fillings (gold,
 silver, etc.) are being replaced by composite fillings (porcelain), which have
-smaller coefficients of expansion, and are closer to those of teeth.
+smaller coefficients of expansion closer to those of teeth.
 
 <div class="exercise"  data-element-type="check-understanding" data-label="">
 <div class="title">

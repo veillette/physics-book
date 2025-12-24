@@ -33,13 +33,13 @@ thermometer.
 <div class="title">
 Misconception Alert: Human Perception vs. Reality
 </div>
-On a cold winter morning, the wood on a porch feels warmer than the metal of your bike. The wood and bicycle are in thermal equilibrium with the outside air, and are thus the same temperature. They **feel** different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in [Conduction](../contents/ch14Conduction)). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.
+On a cold winter morning, a wooden bench feels warmer than a metal bench. The wood and metal are in thermal equilibrium with the outside air, and are thus the same temperature. They **feel** different because of the difference in the way that they conduct heat away from your skin. The metal conducts heat away from your body faster than the wood does (see more about conductivity in [Conduction](../contents/ch14Conduction)). This is just one example demonstrating that the human sense of hot and cold is not determined by temperature alone.
 
 Another factor that affects our perception of temperature is humidity. Most
 people feel much hotter on hot, humid days than on hot, dry days. This is
-because on humid days, sweat does not evaporate from the skin as efficiently as
+because on humid days, sweat does not evaporate from the skin and in our lungs as efficiently as
 it does on dry days. It is the evaporation of sweat (or water from a sprinkler
-or pool) that cools us off.
+or pool) as well as water in the lungs that cools us off.
 
 </div>
 
