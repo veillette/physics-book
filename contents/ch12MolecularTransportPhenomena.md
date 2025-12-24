@@ -554,8 +554,7 @@ semipermeable
 : a type of membrane that allows only certain small molecules to pass through
 
 osmosis
-: the transport of water through a semipermeable membrane from a region of high
-concentration to one of low concentration
+: a process by which molecules of a solvent pass through a semipermeable membrane from a less concentrated solution into a more concentrated one, thus, equalizing the solute concentrations on each side of the membrane
 
 dialysis
 : the transport of any molecule other than water through a semipermeable

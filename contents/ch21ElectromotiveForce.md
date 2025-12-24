@@ -509,7 +509,7 @@ What is the output voltage of a 3.0000-V lithium cell in a digital wristwatch th
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the terminal voltage of a large 1.54-V carbon-zinc dry cell used in a physics lab to supply 2.00 A to a circuit, if the cell’s internal resistance is  $$0.100 \text{Ω} $$ ?
+(a) What is the terminal voltage of a large 1.54-V alkaline dry cell used in a physics lab to supply 2.00 A to a circuit, if the cell's internal resistance is  $$0.100 \text{Ω} $$ ?
  (b) How much electrical power does the cell produce? (c) What power goes to its load?
 
 </div>
@@ -591,8 +591,8 @@ An automobile starter motor has an equivalent resistance of  $$ 0.0500 \Omega  $
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A child’s electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of  $$ 0.0200 \Omega  $$
- in series with a 1.53-V carbon-zinc dry cell having a  $$0.100\text{-Ω} $$
+A child's electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of  $$ 0.0200 \Omega  $$
+ in series with a 1.53-V alkaline dry cell having a  $$0.100\text{-Ω} $$
  internal resistance. The load resistance is  $$ 10.0 \Omega  $$ .
  (a) Draw a circuit diagram of the toy and its batteries. (b) What current flows? (c) How much power is supplied to the load? (d) What is the internal resistance of the dry cell if it goes bad, resulting in only 0.500 W being supplied to the load?
 

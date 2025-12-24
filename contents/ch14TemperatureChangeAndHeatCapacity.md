@@ -167,14 +167,14 @@ the brake material alone.
    \text{J} \text{.} $$
    </div>
 
-2. Calculate the temperature from the heat transferred using $$Q=\text{Mgh} $$
-   and
+2. Calculate the temperature from the heat transferred using $$Q=0.1\text{Mgh} $$
    <div class="equation" >
    $$\Delta T=\frac{Q}{mc}\text{,} $$
    </div>
-   where $$m $$     
-   is the mass of the brake material. Insert the values $$m=100 \text{kg} $$
+   where $$m $$
+   is the mass of the brake material. Since only 10% of the gravitational potential energy is retained as heat, $$Q = 0.1 \times 7.35 \times 10^{6} \text{J} = 7.35 \times 10^{5} \text{J} $$.
 
+   Insert the values $$m=100 \text{kg} $$
    and $$c=800 \text{J/kg}\cdot \text{ºC} $$ to find
    <div class="equation" >
    $$\Delta T=\frac{\left( 7.35 \times 10^{5} \text{J}\right)}{\left(100

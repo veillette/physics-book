@@ -151,7 +151,7 @@ Thus the pertinent masses are those of  $${}^{239}\text{Pu} $$ ,
  Thus,
 
 <div class="equation" >
- $$\begin{array}{lll}\Delta m& =& m\left({}^{239}\text{Pu}\right)-\left[m\left({}^{235}\text{U}\right)+m\left({}^{4}\text{He}\right)\right]\\ & =&  239.052157 \text{u}-239.046526 \text{u}\\ & =& 0.0005631 \text{u} \text{.} \end{array} $$
+ $$\begin{array}{lll}\Delta m& =& m\left({}^{239}\text{Pu}\right)-\left[m\left({}^{235}\text{U}\right)+m\left({}^{4}\text{He}\right)\right]\\ & =&  239.052157 \text{u}-239.046526 \text{u}\\ & =& 0.005631 \text{u} \text{.} \end{array} $$
 </div>
 Now we can find  $$E $$
  by entering  $$\Delta m $$
