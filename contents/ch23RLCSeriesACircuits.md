@@ -303,7 +303,7 @@ For the same *RLC* series circuit having a  $$40.0 \Omega  $$
  resistor, a 3.00 mH inductor, a  $$5.00 \text{μF} $$
  capacitor, and a voltage source with a  $${V}_{\text{rms}} $$
  of 120 V: (a) Calculate the power factor and phase angle for  $$f= 60.0\text{Hz} $$ .
- (b) What is the average power at 50.0 Hz? (c) Find the average power at the circuit’s resonant frequency.
+ (b) What is the average power at 60.0 Hz? (c) Find the average power at the circuit's resonant frequency.
 
 **Strategy and Solution for (a)**
 
@@ -345,7 +345,7 @@ The average power at 60.0 Hz is
 **Strategy and Solution for (c)**
 
 At the resonant frequency, we know $$\cos \varphi =1 $$ , and $${I}_{\text{rms}}
-$$ was found to be 6.00 A in [[Example 2]](#Example2). Thus,
+$$ was found to be 3.00 A in [[Example 2]](#Example2). Thus,
 
 $${P}_{\text{ave}}=\left( 3.00 \text{A}\right)\left(120 \text{V}\right)\left(
 1\right)=360 \text{W} $$ at resonance (1.30 kHz)

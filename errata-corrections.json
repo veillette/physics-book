@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "source_repository": "openstax/osbooks-college-physics-bundle",
+    "analysis_date": "2025-12-23",
+    "date_range": "2024-01-01 to 2025-12-23",
+    "total_corrections": 26,
+    "total_modules_affected": 23,
+    "primary_author": "Ryan Stickney (oscryan)"
+  },
+  "corrections": [
+    {
+      "errata_id": "26070",
+      "module": "m42084",
+      "topic": "Centripetal Force Problem",
+      "type": "numerical_error",
+      "date": "2025-07-09",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Part (a) - Velocity",
+          "before": "16.6 m/s",
+          "after": "39.2 m/s"
+        },
+        {
+          "location": "Part (d) - Normal Force",
+          "before": "1.76 × 10³ N or 3.00 w",
+          "after": "2.93 × 10³ N or 5.00 w"
+        }
+      ],
+      "notes": "Problem reorganized from 5 parts to 4 parts"
+    },
+    {
+      "errata_id": "26140",
+      "module": "m42248",
+      "topic": "Wave Motion",
+      "type": "conceptual_clarification",
+      "date": "2025-07-09",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Misconception Alert",
+          "before": "particles of water tend to stay in one location, save for moving up and down due to the energy in the wave",
+          "after": "in water waves far from shore, the particles of water tend to stay in one location, save for moving in circles due to the energy in the wave"
+        }
+      ],
+      "notes": "Critical physics correction - water particles move in circles, not up and down"
+    },
+    {
+      "errata_id": "26182",
+      "module": "m42080",
+      "topic": "Drag Forces and Terminal Velocity",
+      "type": "conceptual_clarification",
+      "date": "2025-07-09",
+      "priority": "medium",
+      "changes": [
+        {
+          "location": "Terminal velocity discussion",
+          "before": "If you fall from a 5-m high branch of a tree, you will likely get hurt—possibly fracturing a bone. However, a small squirrel does this all the time, without getting hurt. You don't reach a terminal velocity in such a short distance, but the squirrel does.",
+          "after": "The terminal velocity of a small squirrel is less than the terminal velocity we found previously for the skydiver, and so the squirrel can fall from a significant height without injury."
+        }
+      ],
+      "notes": "Replaced qualitative with quantitative explanation"
+    },
+    {
+      "errata_id": "26572",
+      "module": "m42352",
+      "topic": "Bioelectricity",
+      "type": "terminology_correction",
+      "date": "2025-07-09",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Heart anatomy",
+          "before": "sinoarterial (SA) node",
+          "after": "sinoatrial (SA) node"
+        }
+      ],
+      "notes": "Corrected anatomical terminology"
+    },
+    {
+      "errata_id": "26573",
+      "module": "m42348",
+      "topic": "AC Circuits",
+      "type": "technical_fix",
+      "date": "2025-07-09",
+      "priority": "low",
+      "changes": [
+        {
+          "location": "Image reference",
+          "before": "Figure_21_05_01.jpg",
+          "after": "Figure_21_05_0jpg"
+        }
+      ],
+      "notes": "File reference correction (CNXML-specific)"
+    },
+    {
+      "errata_id": "26640",
+      "module": "m42317",
+      "topic": "Electric Fields",
+      "type": "terminology_update",
+      "date": "2025-07-09",
+      "priority": "medium",
+      "changes": [
+        {
+          "location": "Figure caption",
+          "before": "electron gun of a TV tube",
+          "after": "electron gun of an old-fashioned CRT TV (one with a cathode ray tube instead of LCD screen)"
+        }
+      ],
+      "notes": "Updated for modern context"
+    },
+    {
+      "errata_id": "26640",
+      "module": "m42357",
+      "topic": "Electric Current and Resistance",
+      "type": "terminology_update",
+      "date": "2025-07-09",
+      "priority": "low",
+      "changes": [
+        {
+          "location": "Figure caption",
+          "before": "carbon-zinc dry cell",
+          "after": "alkaline dry cell"
+        }
+      ],
+      "notes": "Updated battery example"
+    },
+    {
+      "errata_id": "26749",
+      "module": "m42388",
+      "topic": "Magnetic Resonance Imaging",
+      "type": "technical_clarification",
+      "date": "2025-07-09",
+      "priority": "medium",
+      "changes": [
+        {
+          "location": "MRI description",
+          "before": "Broadcast radio frequencies are swept over an appropriate range and nuclei absorb and reemit them only if the nuclei are in a magnetic field with the correct strength.",
+          "after": "Nuclei absorb and reemit broadcast radio frequencies only if the nuclei are in a magnetic field with the correct strength. The imaging receiver can build up a tissue map either by sweeping the frequency or emitting a range of frequencies at once and analyzing the frequency response of the collected signal."
+        }
+      ],
+      "notes": "Enhanced technical accuracy about frequency collection methods"
+    },
+    {
+      "errata_id": "26790",
+      "module": "m42431",
+      "topic": "RLC Circuits and Resonance",
+      "type": "numerical_error",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Part (b) problem statement",
+          "before": "What is the average power at 50.0 Hz?",
+          "after": "What is the average power at 60.0 Hz?"
+        }
+      ],
+      "notes": "Frequency correction to match part (a)"
+    },
+    {
+      "errata_id": "26800",
+      "module": "m42474",
+      "topic": "Geometric Optics - Mirrors",
+      "type": "formatting",
+      "date": "2025-07-09",
+      "priority": "low",
+      "changes": [],
+      "notes": "XML formatting corrections (CNXML-specific)"
+    },
+    {
+      "errata_id": "26801",
+      "module": "m42449",
+      "topic": "Introduction to Optics",
+      "type": "content_revision",
+      "date": "2025-10-06",
+      "priority": "low",
+      "changes": [
+        {
+          "location": "Opening paragraph",
+          "before": "Through vision, the most valued of our senses, light can evoke spiritual emotions, such as when we view a magnificent sunset or glimpse a rainbow breaking through the clouds.",
+          "after": "Through vision, light can evoke spiritual emotions, such as when we view a magnificent sunset or reveal a rainbow breaking through the clouds, amuse us in a theater, or warn us to stop at an intersection."
+        }
+      ],
+      "notes": "Removed subjective value judgment, added practical examples"
+    },
+    {
+      "errata_id": "26814",
+      "module": "m42496",
+      "topic": "Thin Film Interference",
+      "type": "formatting",
+      "date": "2025-10-06",
+      "priority": "low",
+      "changes": [],
+      "notes": "XML formatting (CNXML-specific)"
+    },
+    {
+      "errata_id": "26819",
+      "module": "m42522",
+      "topic": "Polarization - LCD Displays",
+      "type": "accessibility",
+      "date": "2025-10-06",
+      "priority": "low",
+      "changes": [
+        {
+          "location": "Image alt-text",
+          "before": "Several banks of large LCD screens display information related to the control of a nuclear power plant.",
+          "after": "Figure a is an illustration of a ray of initially unpolarized light going through a vertical polarizer, then an element labeled LCD no voltage ninety degree rotation, and finally a horizontal polarizer..."
+        }
+      ],
+      "notes": "Improved accessibility with detailed description"
+    },
+    {
+      "errata_id": "26829",
+      "module": "m42491",
+      "topic": "Microscopes",
+      "type": "problem_parameter_correction",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Problem statement",
+          "before": "You switch from a 1.40 NA 60× oil immersion objective to a 1.40 NA 60× oil immersion objective.",
+          "after": "You switch from a 1.40 NA 60× oil immersion objective to a 0.35 NA 20× oil immersion objective."
+        }
+      ],
+      "notes": "Fixed duplicate specifications"
+    },
+    {
+      "errata_id": "26835",
+      "module": "m42408",
+      "topic": "Electromagnetic Induction",
+      "type": "problem_restructure",
+      "date": "2025-10-06",
+      "priority": "low",
+      "changes": [
+        {
+          "location": "Problem statement",
+          "before": "What is the peak emf generated by a 0.250 m radius, 500-turn coil is rotated one-fourth of a revolution in 4.17 ms, originally having its plane perpendicular to a uniform magnetic field. (This is 60 rev/s.)",
+          "after": "What is the peak emf generated by the rotating coil in [link to m42392]? Assume all the conditions (coil size, rotation rate, and magnetic field) are the same as in [link to m42392]"
+        }
+      ],
+      "notes": "Changed to reference-based for consistency"
+    },
+    {
+      "errata_id": "26849",
+      "module": "m42444",
+      "topic": "Heat Transfer and Climate Change",
+      "type": "factual_statement_update",
+      "date": "2025-10-06",
+      "priority": "medium",
+      "changes": [
+        {
+          "location": "Climate change discussion",
+          "before": "Some scientists think that the increased concentration of CO₂ and other greenhouse gases in the atmosphere, resulting from increases in fossil fuel burning, has increased global average temperatures.",
+          "after": "The increased concentration of CO₂ and other greenhouse gases in the atmosphere, resulting from increases in fossil fuel burning, has increased global average temperatures."
+        }
+      ],
+      "notes": "Removed speculative qualifier to present scientific consensus"
+    },
+    {
+      "errata_id": "26947",
+      "module": "m42462",
+      "topic": "Total Internal Reflection",
+      "type": "content_completion",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Figure caption",
+          "before": "is the one for which the angle of refraction is .",
+          "after": "is the one for which the angle of refraction is 90º."
+        }
+      ],
+      "notes": "Completed missing degree value"
+    },
+    {
+      "errata_id": "26988",
+      "module": "m42205",
+      "topic": "Multiple Choice Problem",
+      "type": "solution_key_error",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Answer key",
+          "before": "(c)",
+          "after": "(b)"
+        }
+      ],
+      "notes": "Corrected answer"
+    },
+    {
+      "errata_id": "27006",
+      "module": "m42431",
+      "topic": "RLC Circuits and Resonance",
+      "type": "numerical_error",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Solution",
+          "before": "I_rms was found to be 6.00 A",
+          "after": "I_rms was found to be 3.00 A"
+        }
+      ],
+      "notes": "Corrected RMS current value"
+    },
+    {
+      "errata_id": "27042",
+      "module": "m42519",
+      "topic": "Thin Film Interference - Constructive Interference",
+      "type": "formula_error",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Mathematical equation",
+          "before": "t″_c ≤ 5λ_n/4",
+          "after": "t″_c = 5λ_n/4"
+        }
+      ],
+      "notes": "Changed inequality to equation"
+    },
+    {
+      "errata_id": "27066",
+      "module": "m42196",
+      "topic": "Fluid Mechanics - Buoyancy",
+      "type": "terminology_correction",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Problem statement",
+          "before": "The weight of the mattress is 2 kg.",
+          "after": "The mass of the mattress is 2 kg."
+        }
+      ],
+      "notes": "Critical mass vs. weight correction"
+    },
+    {
+      "errata_id": "27078",
+      "module": "m42249",
+      "topic": "Harmonic Frequencies",
+      "type": "formula_error",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Frequency formula",
+          "before": "f₂ = vw/λ₂ = vw/2L = 2f₁",
+          "after": "f₂ = vw/λ₂ = vw/L = 2f₁"
+        }
+      ],
+      "notes": "Removed erroneous 2 from denominator"
+    },
+    {
+      "errata_id": "27133",
+      "module": "m42491",
+      "topic": "Microscopes",
+      "type": "problem_enhancement",
+      "date": "2025-10-06",
+      "priority": "medium",
+      "changes": [
+        {
+          "location": "New part (c)",
+          "before": "Problem ended with part (b)",
+          "after": "Added: (c) Is this a realistic design for a microscope? Answer: (c) No, a distance of 205 cm (which is over 2 m) is unrealistic for the tube of a microscope."
+        }
+      ],
+      "notes": "Enhanced critical thinking"
+    },
+    {
+      "errata_id": "27151",
+      "module": "m42120",
+      "topic": "Weight Calculation",
+      "type": "numerical_error",
+      "date": "2025-10-06",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Part (a) answer",
+          "before": "23.7 pounds",
+          "after": "37.2 pounds"
+        }
+      ],
+      "notes": "Corrected answer value"
+    },
+    {
+      "errata_id": "27173",
+      "module": "m42182",
+      "topic": "Angular Momentum",
+      "type": "solution_clarification",
+      "date": "2025-10-06",
+      "priority": "medium",
+      "changes": [
+        {
+          "location": "Solution steps",
+          "before": "Substituting known information into the expression for L = Iω and converting ω to radians per second gives",
+          "after": "Substituting 2π rad for rev and approximating 1 day as 24 hours or 8.64 × 10⁴ s into the expression..."
+        }
+      ],
+      "notes": "Replaced vague language with explicit conversion factors"
+    },
+    {
+      "errata_id": "27346",
+      "module": "m42103",
+      "topic": "Motion and Velocity Calculations",
+      "type": "problem_restructure",
+      "date": "2025-12-04",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Problem parts",
+          "before": "Single exercise: verify velocity at t=30.0 s is approximately 0.24 m/s",
+          "after": "Part (a): Calculate slopes at t=10 s AND t=30 s to find velocities (0.208 m/s and 0.238 m/s). Part (b): Find acceleration at t=20 s (0.0015 m/s²)"
+        }
+      ],
+      "notes": "Significantly expanded problem with new calculations"
+    },
+    {
+      "errata_id": "27502",
+      "module": "m42173",
+      "topic": "Statics - Ladder Problem",
+      "type": "conceptual_clarification",
+      "date": "2025-12-04",
+      "priority": "high",
+      "changes": [
+        {
+          "location": "Problem statement - ladder against gutter",
+          "before": "The ladder rests against a plastic rain gutter, which we can assume to be frictionless. The center of mass of the ladder is 2 m from the bottom.",
+          "after": "The ladder rests against a plastic rain gutter, which we can assume to be frictionless. Because the gutter is round, the ladder is tangent to it and therefore the normal force by the gutter is perpendicular to the ladder. The center of mass of the ladder is 2.00 m from the bottom, measured parallel to the ladder."
+        },
+        {
+          "location": "Problem statement - person position",
+          "before": "The person is standing 3 m from the bottom",
+          "after": "The person is standing 3.00 m from the bottom, again measured parallel to the ladder"
+        }
+      ],
+      "notes": "Critical physics clarification about force direction and measurement method"
+    }
+  ],
+  "correction_types": {
+    "numerical_error": 8,
+    "formula_error": 3,
+    "conceptual_clarification": 7,
+    "terminology_correction": 5,
+    "problem_enhancement": 3,
+    "solution_key_error": 1,
+    "content_addition": 2,
+    "accessibility": 1,
+    "formatting": 3
+  },
+  "priority_breakdown": {
+    "high": 17,
+    "medium": 6,
+    "low": 6
+  }
+}

@@ -14,10 +14,7 @@ can also form images that in turn are captured by your eye.
 ![People in white clothing covered from head to toe and wearing blue colored gloves are working in a research laboratory setting, one person holding a flash light and analyzing and another reading a manuscript and so on. Their images are seen on a smooth colored glass top of a work table.](../resources/Figure_25_00_01.jpg 'Image seen as a result of reflection of light on a plane smooth surface. (credit: NASA Goddard Photo and Video, via Flickr)')
 {: #Figure1}
 
-Our lives are filled with light. Through vision, the most valued of our senses,
-light can evoke spiritual emotions, such as when we view a magnificent sunset or
-glimpse a rainbow breaking through the clouds. Light can also simply amuse us in
-a theater, or warn us to stop at an intersection. It has innumerable uses beyond
+Our lives are filled with light. Through vision, light can evoke spiritual emotions, such as when we view a magnificent sunset or reveal a rainbow breaking through the clouds, amuse us in a theater, or warn us to stop at an intersection. It has innumerable uses beyond
 vision. Light can carry telephone signals through glass fibers or cook a meal in
 a solar oven. Life itself could not exist without light’s energy. From
 photosynthesis in plants to the sun warming a cold-blooded animal, its supply of

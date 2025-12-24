@@ -252,7 +252,7 @@ This carrying technique, common in many cultures, is remarkably efficient. Studi
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (mass 10.0 kg) against the house on a concrete pad with the base of the ladder 2.00 m from the house. The ladder rests against a plastic rain gutter, which we can assume to be frictionless. The center of mass of the ladder is 2 m from the bottom. The person is standing 3 m from the bottom. What are the magnitudes of the forces on the ladder at the top and bottom?
+To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (mass 10.0 kg) against the house on a concrete pad with the base of the ladder 2.00 m from the house. The ladder rests against a plastic rain gutter, which we can assume to be frictionless. Because the gutter is round, the ladder is tangent to it and therefore the normal force by the gutter is perpendicular to the ladder. The center of mass of the ladder is 2.00 m from the bottom, measured parallel to the ladder. The person is standing 3.00 m from the bottom, again measured parallel to the ladder. What are the magnitudes of the forces on the ladder at the top and bottom?
 
 </div>
 <div class="solution" markdown="1">
