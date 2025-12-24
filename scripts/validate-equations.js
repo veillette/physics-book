@@ -77,39 +77,63 @@ class EquationFixer {
 
         // Check if this is inline math broken across lines
         // Pattern: "text $$ formula" on prev line, "$$" standalone, "more text" on next line
-        if (prevLine.includes('$$') && !prevLine.trim().startsWith('$$')) {
-          // Merge the lines
-          const mergedLine = `${prevLine.trimEnd()} ${nextLine.trimStart()}`;
+        // OR: "text" on prev line, "$$" standalone, "$$" on next (closing delimiter)
+        const shouldMerge = (
+          // Case 1: Opening delimiter on prev line
+          (prevLine.includes('$$') && !prevLine.trim().startsWith('$$') &&
+           !prevLine.trim().startsWith('<div class="equation">')) ||
+          // Case 2: Both prev and next lines are short and this looks like a delimiter
+          (prevLine.trim().length > 0 && nextLine.trim().length > 0 &&
+           prevLine.trim().length < 100 && !prevLine.trim().startsWith('#'))
+        );
 
-          // Remove the last line we added (it was prevLine)
-          newLines.pop();
+        if (shouldMerge) {
+          // Count $$ on previous line to determine if this is opening or closing
+          const prevDollarCount = (prevLine.match(/\$\$/g) || []).length;
 
-          // Add merged line
-          newLines.push(mergedLine);
+          // If odd number of $$ on prev line, this is a closing delimiter
+          if (prevDollarCount % 2 === 1) {
+            // Merge: prevLine + $$ + space + nextLine
+            const mergedLine = `${prevLine.trimEnd()}$$ ${nextLine.trimStart()}`;
 
-          modified = true;
-          this.fixes.push({
-            file: fileName,
-            line: i,
-            type: 'Merged broken inline math',
-            before: `${prevLine}\\n$$\\n${nextLine}`,
-            after: mergedLine
-          });
+            // Remove the last line we added (it was prevLine)
+            newLines.pop();
 
-          // Skip the next line (already merged)
-          i += 2;
-          continue;
+            // Add merged line
+            newLines.push(mergedLine);
+
+            modified = true;
+            this.fixes.push({
+              file: fileName,
+              line: i,
+              type: 'Merged broken inline math',
+              before: `${prevLine}\\n$$\\n${nextLine}`,
+              after: mergedLine
+            });
+
+            // Skip the next line (already merged)
+            i += 2;
+            continue;
+          }
         }
       }
 
+      // Fix empty inline math and extra spaces
+      let fixedLine = line;
+
       // Remove empty inline math $$ $$
-      const fixedLine = line.replace(/\$\$\s*\$\$/g, '');
+      fixedLine = fixedLine.replace(/\$\$\s*\$\$/g, '');
+
       if (fixedLine !== line) {
         modified = true;
+        const changeType = line.includes('$$ $$')
+          ? 'Removed empty inline math'
+          : 'Fixed math spacing';
+
         this.fixes.push({
           file: fileName,
           line: i + 1,
-          type: 'Removed empty inline math',
+          type: changeType,
           before: line.trim(),
           after: fixedLine.trim()
         });

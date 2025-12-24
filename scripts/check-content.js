@@ -120,17 +120,30 @@ class ContentValidator {
   }
 
   checkUnitSpacing(file, line, text) {
-    // Skip if line contains LaTeX math
-    if (text.includes('$') || text.includes('\\')) return;
+    // Skip image markdown lines (alt text)
+    if (text.trim().startsWith('![')) return;
 
-    // Pattern: digit followed directly by unit (without space)
-    const unitPattern = new RegExp(`(\\d)(${UNITS.join('|').replace(/\//g, '\\/')})(?!\\w)`, 'g');
+    // Skip lines with LaTeX commands
+    if (text.match(/\\(text|mathrm|frac|sqrt|begin)/)) return;
+
+    // Skip URLs
+    if (text.match(/https?:\/\//)) return;
+
+    // Skip if line contains inline LaTeX math (preserve math content)
+    if (text.includes('$')) return;
+
+    // Exclude degree symbol from checking as it's often intentional
+    const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
+    const unitPattern = new RegExp(`(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`, 'g');
 
     let match;
     while ((match = unitPattern.exec(text)) !== null) {
       // Avoid false positives in references like "Figure 20m" or dates
       const before = text.substring(Math.max(0, match.index - 10), match.index);
       if (before.match(/Figure\s+\d+$/i) || before.match(/\d{4}-\d{2}-$/)) continue;
+
+      // Avoid chapter/section references
+      if (before.match(/ch\d+$/i) || before.match(/section\s*\d+$/i)) continue;
 
       this.warnings.push({
         file,
@@ -145,6 +158,12 @@ class ContentValidator {
     // Skip if line is very short or contains special formatting
     if (text.length < 10 || text.includes('|') || text.includes('#')) return;
 
+    // Skip image markdown lines
+    if (text.trim().startsWith('![')) return;
+
+    // Skip LaTeX array/matrix definitions
+    if (text.match(/\\begin\{(array|matrix|align)/)) return;
+
     // Pattern: word repeated with possible space/punctuation
     const duplicatePattern = /\b(\w+)\s+\1\b/gi;
 
@@ -152,7 +171,12 @@ class ContentValidator {
     while ((match = duplicatePattern.exec(text)) !== null) {
       // Ignore intentional repetitions and common phrases
       const word = match[1].toLowerCase();
-      if (['that', 'can', 'had', 'will', 'very', 'long', 'well'].includes(word)) continue;
+      const commonRepeats = [
+        'that', 'can', 'had', 'will', 'very', 'long', 'well',
+        'is', 'was', 'the', 'no', 'so', 'go', 'do', 'to', 'c', 'r'
+      ];
+
+      if (commonRepeats.includes(word)) continue;
 
       this.warnings.push({
         file,
@@ -164,6 +188,12 @@ class ContentValidator {
   }
 
   checkTerminology(file, line, text) {
+    // Skip image markdown lines
+    if (text.trim().startsWith('![')) return;
+
+    // Skip URLs and file paths
+    if (text.match(/https?:\/\//) || text.match(/\.md|\.js|\.py/)) return;
+
     for (const [preferred, pattern] of Object.entries(TERMINOLOGY)) {
       if (pattern.test(text)) {
         const match = text.match(pattern);
