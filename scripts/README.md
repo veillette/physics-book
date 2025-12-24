@@ -292,6 +292,13 @@ node scripts/fix-content.js contents/ch*.md  # Fix specific files
 - Preserves front matter
 - Shows detailed before/after for all changes
 
+**Combined check + fix workflow:**
+
+```bash
+npm run fix-content:check        # Run check, then preview fixes
+npm run fix-content:check-apply  # Run check, then apply fixes
+```
+
 ### fix-equations.js
 
 Automatically fixes equation formatting issues detected by `check-equations.js`.
@@ -321,6 +328,13 @@ npm run fix-equations:apply      # Apply fixes to files
 - Skips code blocks
 - Preserves front matter and YAML structure
 - Only fixes clear formatting errors, not mathematical content
+
+**Combined check + fix workflow:**
+
+```bash
+npm run fix-equations:check        # Run check, then preview fixes
+npm run fix-equations:check-apply  # Run check, then apply fixes
+```
 
 ### fix-liquid-syntax.js
 
