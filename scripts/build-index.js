@@ -31,6 +31,7 @@ console.log(`Found ${htmlFiles.length} HTML files to index`);
 
 // Extract content from each HTML file
 const documents = [];
+const errors = [];
 let docId = 1;
 
 for (const filePath of htmlFiles) {
@@ -78,6 +79,7 @@ for (const filePath of htmlFiles) {
     console.log(`Indexed: ${title} (${url})`);
   } catch (error) {
     console.error(`Error processing ${filePath}:`, error.message);
+    errors.push({ file: filePath, error: error.message });
   }
 }
 
@@ -114,3 +116,10 @@ writeFileSync(OUTPUT_FILE, JSON.stringify(indexData), 'utf-8');
 console.log(`\n✓ Search index created: ${OUTPUT_FILE}`);
 console.log(`✓ Indexed ${documents.length} pages`);
 console.log(`✓ Index size: ${(JSON.stringify(indexData).length / 1024).toFixed(2)} KB`);
+
+// Exit with error code if any files failed to process
+if (errors.length > 0) {
+  console.error(`\n✗ ${errors.length} file(s) failed to process:`);
+  errors.forEach(({ file, error }) => console.error(`  - ${file}: ${error}`));
+  process.exit(1);
+}
