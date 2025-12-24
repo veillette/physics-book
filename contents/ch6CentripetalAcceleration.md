@@ -794,7 +794,7 @@ At takeoff, the jet's tires rotate at 1,350 rpm with a centripetal acceleration 
 Riders in an amusement park ride shaped like a Viking ship hung from a large
 pivot are rotated back and forth like a rigid pendulum. Sometime near the middle
 of the ride, the ship is momentarily motionless at the top of its circular arc.
-The ship then swings down under the influence of gravity. The speed at the bottom of the arc is 39.2 m/s.
+The ship then swings down under the influence of gravity. The radius of the circular arc is 39.2 m, and the speed at the bottom of the arc is 39.2 m/s.
 
 (a) What is the centripetal acceleration at the bottom of the arc?
 
@@ -811,7 +811,7 @@ weight.
 
 **Strategy**
 
-(a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration. The problem states the speed at the bottom but doesn't explicitly give the radius, so we'll need to determine it from the geometry of the swing (we can infer that $$ r = 39.2 $$ m from the arc's dimensions).
+(a) We'll use $$ a_c = \frac{v^2}{r} $$ to find the centripetal acceleration with the given values $$ v = 39.2 $$ m/s and $$ r = 39.2 $$ m.
 (b) We'll draw forces acting on the rider: weight downward and normal force upward.
 (c) We'll use Newton's second law in the radial direction: $$ N - mg = ma_c $$.
 (d) We'll evaluate whether the result makes physical sense.
