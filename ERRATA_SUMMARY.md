@@ -14,27 +14,29 @@ This document summarizes all errata corrections applied to the physics textbook 
 
 ## Quick Statistics
 
-| Metric | Count |
-|--------|-------|
-| Total errata analyzed | 70+ |
-| Corrections applied | 34 |
-| Critical numerical errors fixed | 11 |
-| Conceptual clarifications | 8 |
-| Formula/notation fixes | 4 |
-| Modernization updates | 4 |
-| Consistency fixes verified | 6 |
-| Content files modified | 23 |
-| Documentation files created | 3 |
+| Metric                          | Count |
+| ------------------------------- | ----- |
+| Total errata analyzed           | 70+   |
+| Corrections applied             | 34    |
+| Critical numerical errors fixed | 11    |
+| Conceptual clarifications       | 8     |
+| Formula/notation fixes          | 4     |
+| Modernization updates           | 4     |
+| Consistency fixes verified      | 6     |
+| Content files modified          | 23    |
+| Documentation files created     | 3     |
 
 ---
 
 ## Corrections by Year
 
 ### 2025 (July - December)
+
 **Analyzed**: 26 errata
 **Applied**: 24 corrections
 
 #### Critical Fixes:
+
 - **Centripetal force** (26070): Velocity 16.6→39.2 m/s, all calculations updated
 - **Wave motion** (26140): Particles move in circles, not up/down
 - **RLC circuits** (26790, 27006): Frequency 50→60 Hz, current 6→3 A
@@ -44,26 +46,31 @@ This document summarizes all errata corrections applied to the physics textbook 
 - **Ladder problem** (27502): Added force direction clarifications
 
 #### Pedagogical Improvements:
+
 - **Drag forces** (26182): Replaced anecdote with quantitative explanation
 - **Climate change** (26849): Removed speculative language
 - **Technology updates** (26640): Updated CRT TV and battery descriptions
 - **MRI description** (26749): Enhanced technical accuracy
 
 ### 2024
+
 **Analyzed**: 24+ errata
 **Applied**: 4 corrections
 
 #### Critical Fixes:
+
 - **Gravitational waves** (24419): Added LIGO 2015/2016 discoveries
 - **Rocket sled thrust** (23918): 2.4×10⁴→2.59×10⁴ N
 - **Nuclear mass** (24999): 0.0005631→0.005631 u (factor of 10)
 - **Hoover Dam** (23631): Added "maximum" qualifier, ratio 1.4→1.41
 
 ### 2023
+
 **Analyzed**: 20 errata
 **Applied**: 6 corrections
 
 #### Critical Fixes:
+
 - **Gravitational PE** (22084): 7.35×10⁵→7.35×10⁶ J (order of magnitude), added Q=0.1Mgh clarification
 - **Osmosis definition** (22278): Complete rewrite for accuracy
 - **Evaporative cooling** (22246): Added "and in our lungs"
@@ -75,6 +82,7 @@ This document summarizes all errata corrections applied to the physics textbook 
 ## Files Modified
 
 ### Physics Content (23 files):
+
 - ch1AccuracyPrecisionAndSignificantFigures.md
 - ch4NewtonsSecondLawOfMotion.md
 - ch5DragForces.md
@@ -105,7 +113,9 @@ This document summarizes all errata corrections applied to the physics textbook 
 ## Correction Categories
 
 ### Critical Numerical Errors (11 corrections)
+
 Problems that would cause students to calculate wrong answers:
+
 1. Gravitational PE: 10⁵→10⁶ J (factor of 10)
 2. Nuclear mass: 0.0005631→0.005631 u (factor of 10)
 3. Centripetal force: 16.6→39.2 m/s (incorrect velocity)
@@ -117,7 +127,9 @@ Problems that would cause students to calculate wrong answers:
 9. Hoover Dam ratio: 1.4→1.41
 
 ### Conceptual Clarifications (8 corrections)
+
 Corrections that improve understanding:
+
 1. Osmosis: solvent moves from less→more concentrated (was backwards!)
 2. Wave motion: particles move in circles, not up/down
 3. Evaporative cooling: added lung mechanism
@@ -128,21 +140,27 @@ Corrections that improve understanding:
 8. MRI: enhanced frequency collection description
 
 ### Formula/Notation Fixes (4 corrections)
+
 Mathematical accuracy improvements:
+
 1. Thin film: ≤ changed to = (inequality to equation)
 2. Gravitational PE: added Q=0.1Mgh clarification
 3. Unit notations: proper formatting
 4. Significant figures: decimal precision
 
 ### Modernization Updates (4 corrections)
+
 Bringing content up to date:
+
 1. LIGO: added 2015/2016 gravitational wave discoveries
 2. CRT TV: updated to modern display technology
 3. Battery: carbon-zinc→alkaline
 4. Periscope: would be photonic masts (not in markdown)
 
 ### Consistency Fixes (6 verified)
+
 Ensuring problems match solutions:
+
 1. Centripetal force: all calculations updated to 39.2 m/s
 2. Rocket sled: all calculations updated to 2.59×10⁴ N
 3. Microscope: complete solution rewrite for different objectives
@@ -155,12 +173,15 @@ Ensuring problems match solutions:
 ## Impact Assessment
 
 ### High Impact - Student Learning (28 corrections)
+
 Students would get wrong answers or learn incorrect concepts without these fixes.
 
 ### Medium Impact - Clarity (15 corrections)
+
 Improvements in understanding through better explanations and updated references.
 
 ### Low Impact - Polish (27 corrections)
+
 Grammar, formatting, and minor wording improvements not applied (mostly CNXML-specific).
 
 ---
@@ -168,6 +189,7 @@ Grammar, formatting, and minor wording improvements not applied (mostly CNXML-sp
 ## Quality Assurance
 
 All applied corrections have been:
+
 - ✅ Verified against OpenStax commit history
 - ✅ Checked for problem/solution consistency
 - ✅ Validated mathematically
@@ -175,6 +197,7 @@ All applied corrections have been:
 - ✅ Documented with full audit trail
 
 ### Verification Process:
+
 1. Each correction sourced from official OpenStax repository
 2. Before/after values documented
 3. Dependent calculations updated
@@ -186,6 +209,7 @@ All applied corrections have been:
 ## Not Applied
 
 Approximately 36 corrections were analyzed but not applied because:
+
 - Already correct in markdown version
 - CNXML-specific formatting (not applicable)
 - Figure/image updates (binary files)
@@ -199,6 +223,7 @@ This is expected when converting from CNXML to Markdown format.
 ## Documentation
 
 This errata correction includes:
+
 1. **ERRATA_SUMMARY.md** (this file) - Overview and statistics
 2. **ERRATA_DETAILED_CORRECTIONS.md** - Complete correction listing
 3. **ERRATA_CONSISTENCY_AUDIT.md** - Problem/solution verification
@@ -209,6 +234,7 @@ This errata correction includes:
 ## Source
 
 All corrections verified from:
+
 - **Repository**: https://github.com/openstax/osbooks-college-physics-bundle
 - **Commit Range**: 2023-01-01 through 2025-12-31
 - **Primary Authors**: Ryan Stickney (oscryan), theresamasciale
@@ -219,16 +245,19 @@ All corrections verified from:
 ## Recommendations
 
 ### For Instructors:
+
 1. Review critical numerical corrections (especially order of magnitude errors)
 2. Note conceptual clarifications (osmosis, wave motion)
 3. Be aware of modernized content (LIGO, technology updates)
 
 ### For Students:
+
 1. All problem solutions now match problem statements
 2. All calculations are internally consistent
 3. Final answers are mathematically verified
 
 ### For Future Updates:
+
 1. Continue monitoring OpenStax repository
 2. Apply new corrections as published
 3. Maintain problem/solution consistency
