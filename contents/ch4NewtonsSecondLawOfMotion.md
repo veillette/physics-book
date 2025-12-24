@@ -850,10 +850,10 @@ $$ a_4 = \frac{102{,}950 \N}{2100 \kg} = 49.0 \mss $$
 
 One-fourth of this would be:
 <div class="equation">
-$$ \frac{a_4}{4} = \frac{45.4 \mss}{4} = 11.4 \mss $$
+$$ \frac{a_4}{4} = \frac{49.0 \mss}{4} = 12.25 \mss $$
 </div>
 
-Our calculated acceleration (11.1 m/s²) is close to but slightly less than one-fourth of $$ a_4 $$ because friction remains constant. When we reduce the thrust to one-fourth, the friction becomes proportionally more significant. The friction of 650 N represents 0.68% of the total thrust with four rockets but 2.7% of the thrust with one rocket.
+Our calculated acceleration (12.0 m/s²) is close to but slightly less than one-fourth of $$ a_4 $$ because friction remains constant. When we reduce the thrust to one-fourth, the friction becomes proportionally more significant. The friction of 650 N represents 0.63% of the total thrust with four rockets but 2.5% of the thrust with one rocket.
 
 **Discussion**
 
@@ -861,7 +861,7 @@ This problem illustrates an important principle: when both driving and opposing 
 
 **Answer**
 
-(a) The magnitude of the acceleration with one rocket is **11.1 m/s²** (or approximately **12 m/s²**).
+(a) The magnitude of the acceleration with one rocket is **12.0 m/s²**.
 
 (b) The acceleration is not one-fourth of what it was with all rockets burning because the frictional force remains constant at 650 N, which becomes proportionally more significant when the thrust is reduced.
 

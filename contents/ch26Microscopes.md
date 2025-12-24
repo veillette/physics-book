@@ -594,37 +594,70 @@ You switch from a  $$1.40\text{NA} 60× $$
 
 **Strategy**
 
-The numerical aperture is related to the acceptance angle by $$\text{NA} = n \sin \alpha$$, where $$\alpha = \theta/2$$ and $$\theta$$ is the full acceptance angle. We solve for $$\alpha$$ and then find $$\theta$$ for each objective. Note: The problem statement appears to list identical objectives, so both will have the same acceptance angle.
+The numerical aperture is related to the acceptance angle by $$\text{NA} = n \sin \alpha$$, where $$\alpha = \theta/2$$ and $$\theta$$ is the full acceptance angle. We solve for $$\alpha$$ and then find $$\theta$$ for each objective. We compare the two objectives to determine which would be better for initially locating the target area.
 
 **Solution**
 
 Given values:
-- Both objectives: $$\text{NA} = 1.40$$, magnification = 60×
+- First objective: $$\text{NA} = 1.40$$, magnification = 60×
+- Second objective: $$\text{NA} = 0.35$$, magnification = 20×
 - For oil immersion: $$n = 1.51$$ (refractive index of immersion oil)
 
-Calculate the half-angle $$\alpha$$:
+**For the 1.40 NA 60× objective:**
+
+Calculate the half-angle $$\alpha_1$$:
 
 <div class="equation">
- $$\sin \alpha = \frac{\text{NA}}{n} = \frac{1.40}{1.51} = 0.927$$
+ $$\sin \alpha_1 = \frac{\text{NA}_1}{n} = \frac{1.40}{1.51} = 0.927$$
 </div>
 
 <div class="equation">
- $$\alpha = \arcsin(0.927) = 68.0°$$
+ $$\alpha_1 = \arcsin(0.927) = 68.0°$$
 </div>
 
-The full acceptance angle:
+The full acceptance angle for the first objective:
 
 <div class="equation">
- $$\theta = 2\alpha = 2(68.0°) = 136°$$
+ $$\theta_1 = 2\alpha_1 = 2(68.0°) = 136°$$
 </div>
+
+**For the 0.35 NA 20× objective:**
+
+Calculate the half-angle $$\alpha_2$$:
+
+<div class="equation">
+ $$\sin \alpha_2 = \frac{\text{NA}_2}{n} = \frac{0.35}{1.51} = 0.232$$
+</div>
+
+<div class="equation">
+ $$\alpha_2 = \arcsin(0.232) = 13.4°$$
+</div>
+
+The full acceptance angle for the second objective:
+
+<div class="equation">
+ $$\theta_2 = 2\alpha_2 = 2(13.4°) = 26.8°$$
+</div>
+
+**Comparison:**
+
+The 60× objective (NA = 1.40) has an acceptance angle of **136°**, while the 20× objective (NA = 0.35) has an acceptance angle of only **26.8°**. The higher NA objective collects light from a much wider cone, providing:
+- Better resolution (proportional to NA)
+- More light-gathering ability
+- Ability to see finer details
+
+**Which to use first?**
+
+You should use the **20× objective first** to locate the target area on your specimen. Although it has lower resolution and a smaller acceptance angle, it provides:
+- A wider field of view (inversely proportional to magnification)
+- Easier navigation and target location
+- Better overview of the specimen
+
+Once you've located and centered your target, switch to the 60× objective for detailed high-resolution examination. This follows standard microscopy practice of starting with lower magnification and progressively increasing magnification as needed.
 
 **Discussion**
 
-Since both objectives listed in the problem have identical specifications (1.40 NA, 60×), they have the same acceptance angle of 136°. This is an extremely wide acceptance angle, which is one of the key advantages of oil immersion objectives. The large acceptance angle allows the objective to gather light from a very wide cone, significantly improving resolution and light-gathering ability.
-
-Regarding which to use first: Since both objectives are identical, the question may have a typo. Typically, one would compare objectives of different magnifications or numerical apertures. In general microscopy practice, you should **always use the lower magnification objective first** to locate the target area on your specimen. This provides a wider field of view, making it easier to find and center the region of interest before switching to higher magnification objectives. A common progression would be 4× → 10× → 40× → 100× (oil immersion).
-
-The 1.40 NA represents near the maximum achievable numerical aperture for optical microscopy, providing exceptional resolution for viewing fine cellular details, bacteria, and subcellular structures. The wide acceptance angle of 136° is only achievable through oil immersion, which minimizes refraction at the coverslip-objective interface.
+The 1.40 NA objective represents near the maximum achievable numerical aperture for optical microscopy, providing exceptional resolution for viewing fine cellular details, bacteria, and subcellular structures. Its extremely wide acceptance angle of 136° is only achievable through oil immersion, which minimizes refraction at the coverslip-objective interface. The 0.35 NA objective, with its more modest 26.8° acceptance angle, is better suited for initial specimen survey and target location.
 
 </div>
 </div>
