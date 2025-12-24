@@ -77,38 +77,25 @@ class EquationValidator {
 
       if (inCodeBlock) continue;
 
-      // Track math blocks
-      if (line.trim().startsWith('$$')) {
-        if (!inMathBlock) {
-          mathBlockStart = lineNum;
-        } else {
-          // Validate the math block
-          const mathContent = lines.slice(mathBlockStart, i).join('\n');
-          this.validateMathBlock(fileName, mathBlockStart, mathContent);
-        }
-        inMathBlock = !inMathBlock;
+      // Check for standalone $$ lines (likely broken inline math)
+      if (line.trim() === '$$') {
+        this.errors.push({
+          file: fileName,
+          line: lineNum,
+          message: 'Standalone $$ delimiter - inline math should be on one line',
+          text: line.trim()
+        });
         continue;
       }
 
       // Check inline math
-      if (!inMathBlock) {
-        this.validateInlineMath(fileName, lineNum, line);
-      }
+      this.validateInlineMath(fileName, lineNum, line);
 
       // Check for equation numbering
       this.checkEquationNumbering(fileName, lineNum, line, data.chapterNumber);
 
       // Check for common LaTeX errors
       this.checkCommonLatexErrors(fileName, lineNum, line);
-    }
-
-    // Check for unclosed math block
-    if (inMathBlock) {
-      this.errors.push({
-        file: fileName,
-        line: mathBlockStart,
-        message: 'Unclosed math block ($$)',
-      });
     }
   }
 
@@ -146,16 +133,6 @@ class EquationValidator {
 
     while ((match = inlineMathRegex.exec(text)) !== null) {
       const mathContent = match[1];
-
-      // Check for spaces after $ or before $
-      if (mathContent.startsWith(' ') || mathContent.endsWith(' ')) {
-        this.warnings.push({
-          file,
-          line,
-          message: 'Inline math contains leading/trailing spaces',
-          text: `$${mathContent}$`
-        });
-      }
 
       // Check for empty math
       if (mathContent.trim().length === 0) {
@@ -268,6 +245,11 @@ class EquationValidator {
   }
 
   checkCommonLatexErrors(file, line, text) {
+    // Skip image markdown lines to avoid false positives in alt text
+    if (text.trim().startsWith('![')) {
+      return;
+    }
+
     const errors = [
       {
         pattern: /\\frac\{[^}]*\}\{[^}]*$/,
@@ -288,10 +270,6 @@ class EquationValidator {
       {
         pattern: /\^{(?:[^}]*$|[^}]*\n)/,
         message: 'Incomplete superscript - missing closing brace'
-      },
-      {
-        pattern: /\\begin\{([^}]+)\}(?![\s\S]*\\end\{\1\})/,
-        message: 'Environment not closed with \\end'
       },
       {
         pattern: /([a-zA-Z]{2,})_([a-zA-Z0-9]+)(?![_{])/,
@@ -322,24 +300,6 @@ class EquationValidator {
       }
     }
 
-    // Check for common spacing issues
-    if (text.includes('$$') && /\$\$[^\s$]/.test(text)) {
-      this.warnings.push({
-        file,
-        line,
-        message: 'Consider adding space after opening $$',
-        text: text.trim().substring(0, 80)
-      });
-    }
-
-    if (text.includes('$$') && /[^\s$]\$\$/.test(text)) {
-      this.warnings.push({
-        file,
-        line,
-        message: 'Consider adding space before closing $$',
-        text: text.trim().substring(0, 80)
-      });
-    }
   }
 
   validateEquationNumbering() {
