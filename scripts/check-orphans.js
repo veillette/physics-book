@@ -124,19 +124,19 @@ class OrphanFileFinder {
 
     // Markdown/HTML image and link patterns
     const patterns = [
-      /\[([^\]]*)\]\(([^)\s]+)(?:\s+['"][^'"]*['"])?\)/g, // Markdown links
-      /!\[([^\]]*)\]\(([^)\s]+)(?:\s+['"][^'"]*['"])?\)/g, // Markdown images
+      /\]\(([^)\s]+?)(?:\s+['"]|\))/g, // Markdown links/images - captures URL before space+quote or )
       /<img[^>]+src=["']([^"']+)["'][^>]*>/gi, // HTML images
       /<(?:link[^>]+href=["']([^"']+)["']|script[^>]+src=["']([^"']+)["'])[^>]*>/gi, // CSS/JS
       /url\(\s*(['"]?)([^'")\s]+)\1\s*\)/gi, // CSS url()
       /['"]([^'"]*\/[^'"]*\.(jpg|jpeg|png|gif|svg|webp|css|js|html))['"]/gi, // JS strings
+      /\.\.\/resources\/[A-Za-z0-9_-]+\.(jpg|jpeg|png|gif|svg|webp)/g, // Direct resource paths
     ];
 
     for (const pattern of patterns) {
       let match;
       while ((match = pattern.exec(normalizedContent)) !== null) {
-        // Get the URL from the appropriate capture group
-        const url = match[2] || match[1];
+        // Get the URL from the appropriate capture group (or full match for direct paths)
+        const url = match[1] || match[0];
         if (url && this.isLocalFile(url)) {
           const resolvedPath = this.resolvePath(url, sourceFile);
           if (resolvedPath) {
