@@ -141,7 +141,7 @@ than their static counterparts. That values of $$ \mu $$ in [Table 1](#Table1)
 are stated to only one or, at most, two digits is an indication of the
 approximate description of friction given by the above two equations.
 
-##### Table 1: Coefficients of friction
+#### Table 1: Coefficients of friction
 
 | System                            | Coefficients of Static friction $$ \mu\_{\s} $$ | Coefficients of Kinetic friction $$ \mu\_{\text{k}} $$ |
 | --------------------------------- | ----------------------------------------------- | ------------------------------------------------------ |

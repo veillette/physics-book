@@ -162,7 +162,7 @@ This is {abbr}`MyST (Markedly Structured Text)`.
 (section-label)=
 ## My Section
 
-Reference it with {ref}`section-label` or [](#section-label).
+Reference it with {ref}`section-label` or [link text](#section-label).
 ```
 
 ### 3.3 MyST Native Features Aligned with Physics Book
@@ -172,7 +172,7 @@ Reference it with {ref}`section-label` or [](#section-label).
 | Math (LaTeX) | `$inline$` and `$$display$$` native | Same |
 | Figures with labels | `:::{figure}` with `:label:` | `{: #Figure1}` |
 | Admonitions/Notes | `:::{note}`, `:::{warning}` | `<div class="note">` |
-| Cross-references | `{ref}`, `{numref}`, `{eq}` | Manual `[](#id)` links |
+| Cross-references | `{ref}`, `{numref}`, `{eq}` | Manual `[text](#id)` links |
 | Glossary | `{term}` role + glossary directive | `<div class="glossary">` |
 | Exercises | Custom directive possible | `<div class="exercise">` |
 | Solutions (hideable) | `:::{dropdown}` or custom | `<div class="solution">` |
@@ -240,7 +240,7 @@ Caption
 1. **Every figure requires restructuring** - Not just attribute relocation
 2. **Inline images** - Some images don't need figure treatment
 3. **Height/width units** - Must add CSS units (px, em, %)
-4. **Cross-references** - All `[](#Figure1)` links must become `{ref}`Figure1``
+4. **Cross-references** - All `[text](#Figure1)` links must become `{ref}`Figure1``
 
 ### 4.3 MEDIUM: Block Type Mapping
 

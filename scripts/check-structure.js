@@ -67,7 +67,7 @@ class StructureValidator {
 
   async validateFile(filePath) {
     const content = fs.readFileSync(filePath, 'utf-8');
-    const fileName = path.basename(filePath);
+    const _fileName = path.basename(filePath);
 
     // Validate front matter
     this.validateFrontMatter(filePath, content);
@@ -256,7 +256,7 @@ class StructureValidator {
 
   validateChapterSectionStructure(filePath, content) {
     const fileName = path.basename(filePath);
-    const { data } = matter(content);
+    const { data: _data } = matter(content);
 
     // Skip non-chapter files
     if (!fileName.startsWith('ch')) return;
@@ -271,7 +271,6 @@ class StructureValidator {
     let hasIntro = false;
     let inFrontMatter = false;
     let frontMatterEnded = false;
-    let firstContentLine = '';
 
     for (const line of lines) {
       if (line.trim() === '---') {
@@ -286,7 +285,7 @@ class StructureValidator {
 
       if (frontMatterEnded && line.trim().length > 0 && !line.trim().startsWith('#')) {
         hasIntro = true;
-        firstContentLine = line.trim();
+        const _firstContentLine = line.trim();
         break;
       }
 
@@ -339,7 +338,7 @@ class StructureValidator {
     if (this.errors.length > 0) {
       console.log(chalk.red.bold(`\n❌ Errors: ${this.errors.length}`));
       this.errors.forEach(error => {
-        console.log(chalk.red(`  ${error.file}${error.line ? ':' + error.line : ''}`));
+        console.log(chalk.red(`  ${error.file}${error.line ? `:${  error.line}` : ''}`));
         console.log(chalk.gray(`    ${error.message}`));
         if (error.text) {
           console.log(chalk.gray(`    "${error.text}"`));
@@ -350,7 +349,7 @@ class StructureValidator {
     if (this.warnings.length > 0) {
       console.log(chalk.yellow.bold(`\n⚠️  Warnings: ${this.warnings.length}`));
       this.warnings.slice(0, 20).forEach(warning => {
-        console.log(chalk.yellow(`  ${warning.file}${warning.line ? ':' + warning.line : ''}`));
+        console.log(chalk.yellow(`  ${warning.file}${warning.line ? `:${  warning.line}` : ''}`));
         console.log(chalk.gray(`    ${warning.message}`));
         if (warning.text) {
           console.log(chalk.gray(`    "${warning.text}"`));
@@ -366,7 +365,7 @@ class StructureValidator {
       console.log(chalk.green('✅ All structure checks passed!'));
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
     console.log(
       chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
     );

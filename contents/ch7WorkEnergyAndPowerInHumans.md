@@ -37,7 +37,7 @@ functions. The BMR is a function of age, gender, total body weight, and amount
 of muscle mass (which burns more calories than body fat). Athletes have a
 greater BMR due to this last factor.
 
-##### Table 1: Basal Metabolic Rates (BMR) for a 76-kg person.
+#### Table 1: Basal Metabolic Rates (BMR) for a 76-kg person.
 
 | Organ           | Power consumed at rest (W) | Oxygen consumption (mL/min) | Percent of BMR |
 | --------------- | -------------------------- | --------------------------- | -------------- |
@@ -110,7 +110,7 @@ assuming the energy content of fat to be 39 kJ/g.
 ![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person’s wrist, and the index finger is inside the clip.](../resources/Figure_07_08_02.jpg 'A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person’s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)')
 {: #Figure2}
 
-##### Table 2: Energy and Oxygen Consumption Rates
+#### Table 2: Energy and Oxygen Consumption Rates
 
 | Activity                    | Energy consumption in watts | Oxygen consumption in liters O2/min |
 | --------------------------- | --------------------------- | ----------------------------------- |

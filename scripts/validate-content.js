@@ -203,7 +203,7 @@ class ContentFixer {
     // Skip lines with inline LaTeX commands (likely in formulas)
     if (text.match(/\\(text|mathrm|frac|sqrt|begin)/)) return text;
 
-    let result = text;
+    const _result = text;
 
     // Split by inline math delimiters to avoid modifying inside math
     const parts = text.split(/(\$\$[^$]*\$\$|\$[^$]+\$)/);
@@ -355,7 +355,7 @@ class ContentFixer {
       }
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
   }
 }
 

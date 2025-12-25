@@ -54,7 +54,7 @@ class EquationFixer {
     let i = 0;
 
     while (i < lines.length) {
-      let line = lines[i];
+      const line = lines[i];
 
       // Track code blocks
       if (line.trim().startsWith('```')) {
@@ -197,7 +197,7 @@ class EquationFixer {
       }
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
   }
 }
 

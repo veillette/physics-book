@@ -49,8 +49,8 @@ class EquationValidator {
     const lines = content.split('\n');
 
     let inCodeBlock = false;
-    let inMathBlock = false;
-    let mathBlockStart = 0;
+    const _inMathBlock = false;
+    const _mathBlockStart = 0;
     let inFrontMatter = false;
     let frontMatterEnded = false;
 
@@ -188,7 +188,7 @@ class EquationValidator {
     }
 
     // Check for unbalanced \left and \right
-    const leftCount = (mathContent.match(/\\left[(\[{|]/g) || []).length;
+    const leftCount = (mathContent.match(/\\left[([{|]/g) || []).length;
     const rightCount = (mathContent.match(/\\right[)\]}|]/g) || []).length;
 
     if (leftCount !== rightCount) {
@@ -366,7 +366,7 @@ class EquationValidator {
       console.log(chalk.green('✅ All equation checks passed!'));
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
     console.log(
       chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
     );
