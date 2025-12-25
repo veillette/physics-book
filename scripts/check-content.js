@@ -19,38 +19,60 @@ import chalk from 'chalk';
 
 // Physical units that should have a space before them
 const UNITS = [
-  'm', 'km', 'cm', 'mm', 'nm',
-  's', 'ms', 'ns',
-  'kg', 'g', 'mg',
-  'N', 'J', 'W', 'Pa',
-  'm/s', 'km/h', 'm/s²', 'km/s',
-  'rad', 'deg', '°',
-  'Hz', 'kHz', 'MHz',
-  'V', 'A', 'Ω',
-  'K', '°C', '°F'
+  'm',
+  'km',
+  'cm',
+  'mm',
+  'nm',
+  's',
+  'ms',
+  'ns',
+  'kg',
+  'g',
+  'mg',
+  'N',
+  'J',
+  'W',
+  'Pa',
+  'm/s',
+  'km/h',
+  'm/s²',
+  'km/s',
+  'rad',
+  'deg',
+  '°',
+  'Hz',
+  'kHz',
+  'MHz',
+  'V',
+  'A',
+  'Ω',
+  'K',
+  '°C',
+  '°F',
 ];
 
 // Common physics terminology that should be consistent
 const TERMINOLOGY = {
   'center of mass': /centre of mass/gi,
-  'meter': /metre(?!d)/g,  // metre but not metered
-  'analyzer': /analyser/g,
-  'labeled': /labelled/g,
-  'modeling': /modelling/g,
-  'traveled': /travelled/g,
+  meter: /metre(?!d)/g, // metre but not metered
+  analyzer: /analyser/g,
+  labeled: /labelled/g,
+  modeling: /modelling/g,
+  traveled: /travelled/g,
 };
 
 // Common typos in physics texts
 const COMMON_TYPOS = {
-  'acceleratoin': 'acceleration',
-  'velcoity': 'velocity',
-  'graivty': 'gravity',
-  'fricion': 'friction',
-  'enegy': 'energy',
-  'momentun': 'momentum',
-  'equaiton': 'equation',
-  'equlibrium': 'equilibrium',
-  'themodynamics': 'thermodynamics',
+  acceleratoin: 'acceleration',
+  velcoity: 'velocity',
+  graivty: 'gravity',
+  fricion: 'friction',
+  enegy: 'energy',
+  momentun: 'momentum',
+  equaiton: 'equation',
+  equlibrium: 'equilibrium',
+  themodynamics: 'thermodynamics',
 };
 
 class ContentValidator {
@@ -134,7 +156,10 @@ class ContentValidator {
 
     // Exclude degree symbol from checking as it's often intentional
     const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
-    const unitPattern = new RegExp(`(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`, 'g');
+    const unitPattern = new RegExp(
+      `(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`,
+      'g'
+    );
 
     let match;
     while ((match = unitPattern.exec(text)) !== null) {
@@ -149,7 +174,7 @@ class ContentValidator {
         file,
         line,
         message: `Missing space before unit: "${match[0]}" should be "${match[1]} ${match[2]}"`,
-        text: text.trim()
+        text: text.trim(),
       });
     }
   }
@@ -172,8 +197,23 @@ class ContentValidator {
       // Ignore intentional repetitions and common phrases
       const word = match[1].toLowerCase();
       const commonRepeats = [
-        'that', 'can', 'had', 'will', 'very', 'long', 'well',
-        'is', 'was', 'the', 'no', 'so', 'go', 'do', 'to', 'c', 'r'
+        'that',
+        'can',
+        'had',
+        'will',
+        'very',
+        'long',
+        'well',
+        'is',
+        'was',
+        'the',
+        'no',
+        'so',
+        'go',
+        'do',
+        'to',
+        'c',
+        'r',
       ];
 
       if (commonRepeats.includes(word)) continue;
@@ -182,7 +222,7 @@ class ContentValidator {
         file,
         line,
         message: `Duplicate word: "${match[1]}" appears twice`,
-        text: text.trim()
+        text: text.trim(),
       });
     }
   }
@@ -201,7 +241,7 @@ class ContentValidator {
           file,
           line,
           message: `Inconsistent terminology: "${match[0]}" should be "${preferred}" (American English)`,
-          text: text.trim()
+          text: text.trim(),
         });
       }
     }
@@ -215,7 +255,7 @@ class ContentValidator {
           file,
           line,
           message: `Possible typo: "${typo}" should be "${correct}"`,
-          text: text.trim()
+          text: text.trim(),
         });
       }
     }
@@ -229,7 +269,7 @@ class ContentValidator {
         file,
         line,
         message: 'Inconsistent vector notation: mixing bold and arrow notation',
-        text: text.trim()
+        text: text.trim(),
       });
     }
 
@@ -242,7 +282,7 @@ class ContentValidator {
         file,
         line,
         message: 'Mixing degree and radian notation - verify consistency',
-        text: text.trim()
+        text: text.trim(),
       });
     }
   }
@@ -255,7 +295,9 @@ class ContentValidator {
       this.errors.slice(0, 20).forEach(error => {
         console.log(chalk.red(`  ${error.file}:${error.line}`));
         console.log(chalk.gray(`    ${error.message}`));
-        console.log(chalk.gray(`    "${error.text.substring(0, 80)}${error.text.length > 80 ? '...' : ''}"`));
+        console.log(
+          chalk.gray(`    "${error.text.substring(0, 80)}${error.text.length > 80 ? '...' : ''}"`)
+        );
       });
 
       if (this.errors.length > 20) {
@@ -268,7 +310,11 @@ class ContentValidator {
       this.warnings.slice(0, 20).forEach(warning => {
         console.log(chalk.yellow(`  ${warning.file}:${warning.line}`));
         console.log(chalk.gray(`    ${warning.message}`));
-        console.log(chalk.gray(`    "${warning.text.substring(0, 80)}${warning.text.length > 80 ? '...' : ''}"`));
+        console.log(
+          chalk.gray(
+            `    "${warning.text.substring(0, 80)}${warning.text.length > 80 ? '...' : ''}"`
+          )
+        );
       });
 
       if (this.warnings.length > 20) {
@@ -281,14 +327,16 @@ class ContentValidator {
     }
 
     console.log(chalk.gray('\n' + '─'.repeat(60)));
-    console.log(chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`));
+    console.log(
+      chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
+    );
   }
 }
 
 // CLI
 const args = process.argv.slice(2);
 const options = {
-  strict: args.includes('--strict')
+  strict: args.includes('--strict'),
 };
 
 const directory = args.find(arg => !arg.startsWith('--')) || 'contents';

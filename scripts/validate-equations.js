@@ -78,14 +78,16 @@ class EquationFixer {
         // Check if this is inline math broken across lines
         // Pattern: "text $$ formula" on prev line, "$$" standalone, "more text" on next line
         // OR: "text" on prev line, "$$" standalone, "$$" on next (closing delimiter)
-        const shouldMerge = (
+        const shouldMerge =
           // Case 1: Opening delimiter on prev line
-          (prevLine.includes('$$') && !prevLine.trim().startsWith('$$') &&
-           !prevLine.trim().startsWith('<div class="equation">')) ||
+          (prevLine.includes('$$') &&
+            !prevLine.trim().startsWith('$$') &&
+            !prevLine.trim().startsWith('<div class="equation">')) ||
           // Case 2: Both prev and next lines are short and this looks like a delimiter
-          (prevLine.trim().length > 0 && nextLine.trim().length > 0 &&
-           prevLine.trim().length < 100 && !prevLine.trim().startsWith('#'))
-        );
+          (prevLine.trim().length > 0 &&
+            nextLine.trim().length > 0 &&
+            prevLine.trim().length < 100 &&
+            !prevLine.trim().startsWith('#'));
 
         if (shouldMerge) {
           // Count $$ on previous line to determine if this is opening or closing
@@ -108,7 +110,7 @@ class EquationFixer {
               line: i,
               type: 'Merged broken inline math',
               before: `${prevLine}\\n$$\\n${nextLine}`,
-              after: mergedLine
+              after: mergedLine,
             });
 
             // Skip the next line (already merged)
@@ -135,7 +137,7 @@ class EquationFixer {
           line: i + 1,
           type: changeType,
           before: line.trim(),
-          after: fixedLine.trim()
+          after: fixedLine.trim(),
         });
         newLines.push(fixedLine);
       } else {
@@ -202,7 +204,7 @@ class EquationFixer {
 // CLI
 const args = process.argv.slice(2);
 const options = {
-  apply: args.includes('--apply')
+  apply: args.includes('--apply'),
 };
 
 const directory = args.find(arg => !arg.startsWith('--')) || 'contents';
