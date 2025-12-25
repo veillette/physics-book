@@ -153,11 +153,17 @@ class LinkChecker {
   extractLinks(content) {
     const links = [];
 
+    // Strip code blocks before extracting links to avoid false positives
+    // Remove fenced code blocks (```...```)
+    let strippedContent = content.replace(/```[\s\S]*?```/g, '');
+    // Remove inline code (`...`)
+    strippedContent = strippedContent.replace(/`[^`]+`/g, '');
+
     // Markdown links: [text](url)
     const markdownLinkRegex = /\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
     let match;
 
-    while ((match = markdownLinkRegex.exec(content)) !== null) {
+    while ((match = markdownLinkRegex.exec(strippedContent)) !== null) {
       const [, text, url] = match;
       if (url && !url.startsWith('#')) {
         links.push({
@@ -171,7 +177,7 @@ class LinkChecker {
 
     // HTML links: <a href="url">
     const htmlLinkRegex = /<a[^>]+href=["']([^"']+)["'][^>]*>/gi;
-    while ((match = htmlLinkRegex.exec(content)) !== null) {
+    while ((match = htmlLinkRegex.exec(strippedContent)) !== null) {
       const [, url] = match;
       if (url && !url.startsWith('#')) {
         links.push({
@@ -185,7 +191,7 @@ class LinkChecker {
 
     // Image links: ![alt](src)
     const imageRegex = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
-    while ((match = imageRegex.exec(content)) !== null) {
+    while ((match = imageRegex.exec(strippedContent)) !== null) {
       const [, alt, src] = match;
       if (src) {
         links.push({
