@@ -71,28 +71,37 @@ bundle exec jekyll serve --incremental
 
 ### Useful Development Commands
 
-The project includes a suite of Node.js scripts for quality assurance and content management. See the [scripts README](./scripts/README.md) for full details.
+The project includes a suite of Node.js scripts for quality assurance and content management. All scripts use a shared utilities library (`scripts/lib/`) for consistent output formatting and CLI handling. See the [scripts README](./scripts/README.md) for full details.
 
 ```console
-# Run a full audit (links, orphans, figures, YAML, accessibility)
+# Run a full audit (links, orphans, figures, YAML, accessibility, content)
 npm run audit
 
 # Run ALL checks including math delimiter validation
-npm run check-all
+npm run check:all
 
 # Verify physics calculations (requires Python 3)
-npm run check-physics
+npm run check:physics
 
 # Individual quality checks
-npm run check-links           # Internal & external links
-npm run check-orphans         # Unreferenced files
-npm run check-figures         # Figure references
-npm run check-yaml            # YAML front matter
-npm run check-accessibility   # Alt text, headings
-npm run check-math            # LaTeX delimiter balance
+npm run check:links           # Internal & external links
+npm run check:orphans         # Unreferenced files
+npm run check:figures         # Figure references
+npm run check:yaml            # YAML front matter
+npm run check:accessibility   # Alt text, headings
+npm run check:math            # LaTeX delimiter balance
+npm run check:content         # Content quality validation
+npm run check:equations       # Equation validation
 
-# Generate PDFs (requires Jekyll server running)
-npm run generate-pdf -- --chapter 1 --combined --base-url http://localhost:4000/physics-book
+# Content fixes
+npm run fix:content           # Fix content issues
+npm run fix:equations         # Fix equation issues
+npm run fix:liquid            # Fix Liquid syntax in math
+
+# Generate assets
+npm run generate:icons        # Generate PWA icons
+npm run generate:pdf          # Generate PDF chapters (requires Jekyll server)
+npm run generate:search-index # Build search index
 
 # Code quality
 npm run lint                  # ESLint check

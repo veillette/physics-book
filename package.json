@@ -48,6 +48,8 @@
     "update:front-matter": "node scripts/update-front-matter.js",
     "update:figures": "node scripts/rename-figures.js",
     "convert:webp": "node scripts/convert-webp.js",
+    "convert:math-delimiters": "node scripts/convert_math_delimiters.js",
+    "convert:math-delimiters:apply": "node scripts/convert_math_delimiters.js --apply",
     "sync:config": "node scripts/sync-config.js",
     "deploy:validate": "node scripts/validate-deploy.js",
     "deploy:validate:github": "node scripts/validate-deploy.js --github",
