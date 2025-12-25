@@ -93,9 +93,17 @@ class AccessibilityChecker {
     const imageRegex = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
     let match;
 
+    // Get code block ranges to exclude them from image detection
+    const codeBlockRanges = this.getCodeBlockRanges(content);
+
     while ((match = imageRegex.exec(content)) !== null) {
       const [_fullMatch, altText, src] = match;
       const lineNum = this.getLineNumber(content, match.index);
+
+      // Skip if this image is inside a code block
+      if (this.isInsideCodeBlock(lineNum, codeBlockRanges)) {
+        continue;
+      }
 
       // Check for missing alt text
       if (!altText || altText.trim() === '') {
@@ -135,6 +143,11 @@ class AccessibilityChecker {
       const imgTag = match[0];
       const lineNum = this.getLineNumber(content, match.index);
 
+      // Skip if this image is inside a code block
+      if (this.isInsideCodeBlock(lineNum, codeBlockRanges)) {
+        continue;
+      }
+
       // Check for alt attribute
       const altMatch = imgTag.match(/alt=["']([^"']*)["']/i);
       if (!altMatch) {
@@ -162,10 +175,18 @@ class AccessibilityChecker {
     const headings = [];
     let match;
 
+    // Get code block ranges to exclude them from heading detection
+    const codeBlockRanges = this.getCodeBlockRanges(content);
+
     while ((match = headingRegex.exec(content)) !== null) {
       const level = match[1].length;
       const text = match[2].trim();
       const lineNum = this.getLineNumber(content, match.index);
+
+      // Skip if this heading is inside a code block
+      if (this.isInsideCodeBlock(lineNum, codeBlockRanges)) {
+        continue;
+      }
 
       headings.push({ level, text, lineNum });
 
@@ -204,6 +225,9 @@ class AccessibilityChecker {
     const linkRegex = /\[([^\]]*)\]\(([^)]+)\)/g;
     let match;
 
+    // Get code block ranges to exclude them from link detection
+    const codeBlockRanges = this.getCodeBlockRanges(content);
+
     const uninformativeTexts = [
       'click here',
       'here',
@@ -224,6 +248,11 @@ class AccessibilityChecker {
 
       // Skip image links
       if (content[match.index - 1] === '!') continue;
+
+      // Skip if this link is inside a code block
+      if (this.isInsideCodeBlock(lineNum, codeBlockRanges)) {
+        continue;
+      }
 
       // Check for empty link text
       if (!linkText || linkText.trim() === '') {
@@ -252,6 +281,12 @@ class AccessibilityChecker {
       const bareUrlRegex = /(?<!\(|<)https?:\/\/[^\s)>\]]+(?!\))/g;
       while ((match = bareUrlRegex.exec(content)) !== null) {
         const lineNum = this.getLineNumber(content, match.index);
+
+        // Skip if this URL is inside a code block
+        if (this.isInsideCodeBlock(lineNum, codeBlockRanges)) {
+          continue;
+        }
+
         this.warnings.push({
           type: 'warning',
           file: filePath,
@@ -327,6 +362,45 @@ class AccessibilityChecker {
 
   getLineNumber(content, index) {
     return content.substring(0, index).split('\n').length;
+  }
+
+  /**
+   * Get ranges of code blocks in the content
+   * Returns array of {start, end} line numbers
+   */
+  getCodeBlockRanges(content) {
+    const lines = content.split('\n');
+    const ranges = [];
+    let inCodeBlock = false;
+    let codeBlockStart = -1;
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      // Match both ``` and ~~~  and indented code blocks
+      if (line.trim().match(/^```|^~~~/)) {
+        if (!inCodeBlock) {
+          inCodeBlock = true;
+          codeBlockStart = i + 1; // Line numbers are 1-based
+        } else {
+          inCodeBlock = false;
+          ranges.push({ start: codeBlockStart, end: i + 1 });
+        }
+      }
+    }
+
+    // Handle unclosed code block
+    if (inCodeBlock) {
+      ranges.push({ start: codeBlockStart, end: lines.length });
+    }
+
+    return ranges;
+  }
+
+  /**
+   * Check if a line number is inside any code block
+   */
+  isInsideCodeBlock(lineNum, codeBlockRanges) {
+    return codeBlockRanges.some(range => lineNum >= range.start && lineNum <= range.end);
   }
 
   printResults() {
