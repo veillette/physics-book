@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * validate-yaml.js
+ * YAML Front Matter Validation Script
  *
  * Validates YAML front matter in markdown files:
  * - Ensures required fields are present
@@ -10,83 +10,68 @@
  * - Optionally validates against a schema
  *
  * Usage:
- *   node scripts/validate-yaml.js [options]
+ *   node scripts/check-yaml.js [options]
  *
  * Options:
  *   --required <fields>  Comma-separated list of required fields
  *   --strict             Enable stricter validation
- *   --fix                Attempt to fix common issues
  *   --help               Show this help message
  */
 
-import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import { glob } from 'glob';
 import yaml from 'js-yaml';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const baseDir = path.join(__dirname, '..');
+import { YAML_SCHEMA, DEFAULT_GLOB_PATTERNS } from './lib/constants.js';
 
-// Default schema for physics book front matter
-const DEFAULT_SCHEMA = {
-  required: ['title', 'layout'],
-  optional: [
-    'chapterNumber',
-    'sectionNumber',
-    'description',
-    'keywords',
-    'author',
-    'date',
-    'order',
-    'toc',
-    'mathjax',
-  ],
-  types: {
-    title: 'string',
-    layout: 'string',
-    chapterNumber: 'number',
-    sectionNumber: 'number',
-    description: 'string',
-    keywords: ['string', 'array'],
-    author: 'string',
-    date: ['string', 'date'],
-    order: 'number',
-    toc: 'boolean',
-    mathjax: 'boolean',
-  },
-  validValues: {
-    layout: ['default', 'chapter', 'section', 'page', 'home', 'post'],
-  },
-};
+import {
+  printHeader,
+  printDivider,
+  printFileCount,
+  printStrictModeNotice,
+  printErrors,
+  printWarnings,
+  printSuccess,
+  printIssueSummary,
+} from './lib/reporter.js';
 
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { findFiles, readFile, getBaseDir } from './lib/files.js';
+
+/**
+ * YAML validator class.
+ */
 class YAMLValidator {
   constructor(options = {}) {
     this.strict = options.strict || false;
-    this.fix = options.fix || false;
-    this.requiredFields = options.required || DEFAULT_SCHEMA.required;
-    this.schema = DEFAULT_SCHEMA;
+    this.requiredFields = options.required || YAML_SCHEMA.required;
+    this.schema = YAML_SCHEMA;
+    this.baseDir = getBaseDir(import.meta.url);
     this.errors = [];
     this.warnings = [];
     this.filesChecked = 0;
     this.filesWithIssues = 0;
-    this.fixedFiles = 0;
   }
 
+  /**
+   * Run the YAML validation.
+   * @returns {Promise<boolean>} - Success status
+   */
   async run() {
-    console.log('YAML Front Matter Validator');
-    console.log('='.repeat(60));
+    printHeader('📋', 'YAML Front Matter Validation');
 
     if (this.strict) {
-      console.log('(Strict mode enabled)');
+      printStrictModeNotice();
     }
+
     console.log(`Required fields: ${this.requiredFields.join(', ')}\n`);
 
-    const files = await glob('**/*.md', {
-      cwd: baseDir,
-      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**', 'scripts/**'],
+    const files = await findFiles(DEFAULT_GLOB_PATTERNS.markdown, {
+      cwd: this.baseDir,
+      ignore: DEFAULT_GLOB_PATTERNS.ignore,
     });
+
+    printFileCount(files.length);
 
     for (const file of files) {
       await this.validateFile(file);
@@ -96,9 +81,12 @@ class YAMLValidator {
     return this.errors.length === 0;
   }
 
+  /**
+   * Validate a single file.
+   */
   async validateFile(filePath) {
-    const fullPath = path.join(baseDir, filePath);
-    const content = fs.readFileSync(fullPath, 'utf8');
+    const fullPath = path.join(this.baseDir, filePath);
+    const content = readFile(fullPath);
 
     this.filesChecked++;
 
@@ -106,7 +94,6 @@ class YAMLValidator {
     const yamlMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
 
     if (!yamlMatch) {
-      // Check if file should have front matter
       if (this.shouldHaveFrontMatter(filePath)) {
         this.errors.push({
           file: filePath,
@@ -129,13 +116,12 @@ class YAMLValidator {
         file: filePath,
         message: `Invalid YAML syntax: ${error.message}`,
         code: 'YAML_PARSE_ERROR',
-        details: error.mark ? `Line ${error.mark.line + 1}, Column ${error.mark.column + 1}` : null,
+        text: error.mark ? `Line ${error.mark.line + 1}, Column ${error.mark.column + 1}` : null,
       });
       this.filesWithIssues++;
       return;
     }
 
-    // Validate the parsed YAML
     const fileErrors = [];
     const fileWarnings = [];
 
@@ -146,7 +132,6 @@ class YAMLValidator {
           file: filePath,
           message: `Missing required field: ${field}`,
           code: 'YAML_MISSING_FIELD',
-          field,
         });
       }
     }
@@ -164,9 +149,6 @@ class YAMLValidator {
             file: filePath,
             message: `Field "${field}" should be ${validTypes.join(' or ')}, got ${actualType}`,
             code: 'YAML_WRONG_TYPE',
-            field,
-            expected: validTypes,
-            actual: actualType,
           });
         }
       }
@@ -178,60 +160,16 @@ class YAMLValidator {
           file: filePath,
           message: `Field "${field}" has invalid value "${value}". Expected: ${validValues.join(', ')}`,
           code: 'YAML_INVALID_VALUE',
-          field,
-          value,
-          validValues,
         });
       }
     }
 
     // Strict mode checks
     if (this.strict) {
-      // Check for unknown fields
-      const knownFields = [...this.schema.required, ...this.schema.optional];
-      for (const field of Object.keys(data)) {
-        if (!knownFields.includes(field)) {
-          fileWarnings.push({
-            file: filePath,
-            message: `Unknown field: ${field}`,
-            code: 'YAML_UNKNOWN_FIELD',
-            field,
-          });
-        }
-      }
-
-      // Check for empty values
-      for (const [field, value] of Object.entries(data)) {
-        if (value === '' || value === null) {
-          fileWarnings.push({
-            file: filePath,
-            message: `Field "${field}" has empty value`,
-            code: 'YAML_EMPTY_VALUE',
-            field,
-          });
-        }
-      }
-
-      // Check chapter/section consistency
-      if ('chapterNumber' in data && 'sectionNumber' in data) {
-        if (typeof data.chapterNumber !== 'number' || data.chapterNumber < 0) {
-          fileWarnings.push({
-            file: filePath,
-            message: `Invalid chapterNumber: ${data.chapterNumber}`,
-            code: 'YAML_INVALID_CHAPTER',
-          });
-        }
-        if (typeof data.sectionNumber !== 'number' || data.sectionNumber < 0) {
-          fileWarnings.push({
-            file: filePath,
-            message: `Invalid sectionNumber: ${data.sectionNumber}`,
-            code: 'YAML_INVALID_SECTION',
-          });
-        }
-      }
+      this.strictValidation(data, filePath, fileWarnings);
     }
 
-    // Check for common formatting issues
+    // Check for formatting issues
     this.checkFormattingIssues(yamlContent, filePath, fileWarnings);
 
     if (fileErrors.length > 0 || fileWarnings.length > 0) {
@@ -241,14 +179,63 @@ class YAMLValidator {
     }
   }
 
+  /**
+   * Strict mode validation.
+   */
+  strictValidation(data, filePath, warnings) {
+    // Check for unknown fields
+    const knownFields = [...this.schema.required, ...this.schema.optional];
+    for (const field of Object.keys(data)) {
+      if (!knownFields.includes(field)) {
+        warnings.push({
+          file: filePath,
+          message: `Unknown field: ${field}`,
+          code: 'YAML_UNKNOWN_FIELD',
+        });
+      }
+    }
+
+    // Check for empty values
+    for (const [field, value] of Object.entries(data)) {
+      if (value === '' || value === null) {
+        warnings.push({
+          file: filePath,
+          message: `Field "${field}" has empty value`,
+          code: 'YAML_EMPTY_VALUE',
+        });
+      }
+    }
+
+    // Check chapter/section consistency
+    if ('chapterNumber' in data && 'sectionNumber' in data) {
+      if (typeof data.chapterNumber !== 'number' || data.chapterNumber < 0) {
+        warnings.push({
+          file: filePath,
+          message: `Invalid chapterNumber: ${data.chapterNumber}`,
+          code: 'YAML_INVALID_CHAPTER',
+        });
+      }
+      if (typeof data.sectionNumber !== 'number' || data.sectionNumber < 0) {
+        warnings.push({
+          file: filePath,
+          message: `Invalid sectionNumber: ${data.sectionNumber}`,
+          code: 'YAML_INVALID_SECTION',
+        });
+      }
+    }
+  }
+
+  /**
+   * Check for formatting issues.
+   */
   checkFormattingIssues(yamlContent, filePath, warnings) {
     const lines = yamlContent.split('\n');
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
-      const lineNum = i + 2; // +2 for 0-index and opening ---
+      const lineNum = i + 2;
 
-      // Check for tabs (YAML prefers spaces)
+      // Check for tabs
       if (line.includes('\t')) {
         warnings.push({
           file: filePath,
@@ -257,7 +244,7 @@ class YAMLValidator {
         });
       }
 
-      // Check for trailing whitespace
+      // Check for trailing whitespace (strict mode)
       if (this.strict && line !== line.trimEnd()) {
         warnings.push({
           file: filePath,
@@ -266,11 +253,10 @@ class YAMLValidator {
         });
       }
 
-      // Check for unquoted strings that might cause issues
+      // Check for unquoted special values
       const colonMatch = line.match(/^(\s*)(\w+):\s*(.+)$/);
       if (colonMatch) {
         const value = colonMatch[3];
-        // Values starting with special characters should be quoted
         if (/^[@*&!|>]/.test(value) && !value.startsWith('"') && !value.startsWith("'")) {
           warnings.push({
             file: filePath,
@@ -282,55 +268,36 @@ class YAMLValidator {
     }
   }
 
+  /**
+   * Check if file should have front matter.
+   */
   shouldHaveFrontMatter(filePath) {
-    // Files in contents/ directory should have front matter
     return filePath.startsWith('contents/') || filePath.includes('/contents/');
   }
 
+  /**
+   * Print results.
+   */
   printResults() {
-    console.log(`\n${'='.repeat(60)}`);
-    console.log('RESULTS');
-    console.log('='.repeat(60));
+    printDivider();
 
     console.log(`\nFiles checked: ${this.filesChecked}`);
     console.log(`Files with issues: ${this.filesWithIssues}`);
 
-    if (this.errors.length > 0) {
-      console.log(`\n❌ ${this.errors.length} Error(s):\n`);
-      for (const error of this.errors) {
-        console.log(`  ${error.file}`);
-        console.log(`    [${error.code}] ${error.message}`);
-        if (error.details) {
-          console.log(`    ${error.details}`);
-        }
-      }
-    }
+    printErrors(this.errors);
+    printWarnings(this.warnings);
 
-    if (this.warnings.length > 0) {
-      console.log(`\n⚠️  ${this.warnings.length} Warning(s):\n`);
-      for (const warning of this.warnings) {
-        console.log(`  ${warning.file}`);
-        console.log(`    [${warning.code}] ${warning.message}`);
-      }
-    }
-
-    console.log(`\n${'='.repeat(60)}`);
+    printDivider();
 
     if (this.errors.length === 0 && this.warnings.length === 0) {
-      console.log('\n✅ All YAML front matter is valid!');
+      printSuccess('All YAML front matter is valid!');
     } else if (this.errors.length === 0) {
-      console.log('\n✅ No errors, but some warnings to review.');
+      printSuccess('No errors, but some warnings to review.');
     } else {
       console.log(`\n❌ Found ${this.errors.length} error(s) that should be fixed.`);
     }
 
-    // Summary by code
-    console.log('\nIssue Summary:');
-    const codeCounts = {};
-    [...this.errors, ...this.warnings].forEach(issue => {
-      codeCounts[issue.code] = (codeCounts[issue.code] || 0) + 1;
-    });
-
+    // Issue summary
     const codeDescriptions = {
       YAML_MISSING: 'Missing front matter',
       YAML_PARSE_ERROR: 'YAML syntax errors',
@@ -346,65 +313,37 @@ class YAMLValidator {
       YAML_UNQUOTED_SPECIAL: 'Unquoted special values',
     };
 
-    for (const [code, count] of Object.entries(codeCounts).sort((a, b) => b[1] - a[1])) {
-      console.log(`  ${code}: ${count} (${codeDescriptions[code] || code})`);
-    }
+    printIssueSummary([...this.errors, ...this.warnings], codeDescriptions);
   }
 }
 
-// CLI
-async function main() {
-  const args = process.argv.slice(2);
-
-  if (args.includes('--help')) {
-    console.log(`
-Usage: node scripts/validate-yaml.js [options]
-
-Validates YAML front matter in markdown files.
-
-Options:
-  --required <fields>  Comma-separated list of required fields
-                       (default: title,layout)
-  --strict             Enable stricter validation
-  --help               Show this help message
-
-Examples:
-  node scripts/validate-yaml.js
-  node scripts/validate-yaml.js --strict
-  node scripts/validate-yaml.js --required "title,layout,chapterNumber"
-
-Validation checks:
-  - Required fields are present
-  - Field types are correct
-  - Values are valid (e.g., layout values)
-  - YAML syntax is valid
-
-Strict mode adds:
-  - Unknown field warnings
-  - Empty value warnings
-  - Chapter/section number validation
-  - Trailing whitespace warnings
-`);
-    process.exit(0);
-  }
-
-  const options = {
-    strict: args.includes('--strict'),
-    fix: args.includes('--fix'),
-  };
-
-  // Parse required fields
-  const reqIndex = args.indexOf('--required');
-  if (reqIndex !== -1 && args[reqIndex + 1]) {
-    options.required = args[reqIndex + 1].split(',').map(f => f.trim());
-  }
-
-  const validator = new YAMLValidator(options);
-  const success = await validator.run();
-  process.exit(success ? 0 : 1);
-}
-
-main().catch(error => {
-  console.error('Error:', error.message);
-  process.exit(1);
+// CLI Configuration
+runCli({
+  name: 'check-yaml',
+  description: `Validates YAML front matter in markdown files:
+- Required fields are present
+- Field types are correct
+- Values are valid
+- YAML syntax is valid`,
+  flags: {
+    strict: STANDARD_FLAGS.strict,
+    required: {
+      flag: '--required',
+      description: 'Comma-separated list of required fields',
+      type: 'array',
+      default: YAML_SCHEMA.required,
+    },
+  },
+  examples: [
+    'node scripts/check-yaml.js',
+    'node scripts/check-yaml.js --strict',
+    'node scripts/check-yaml.js --required "title,layout,chapterNumber"',
+  ],
+  run: async options => {
+    const validator = new YAMLValidator({
+      strict: options.strict,
+      required: options.required,
+    });
+    return validator.run();
+  },
 });

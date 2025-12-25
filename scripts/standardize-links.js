@@ -1,263 +1,297 @@
 #!/usr/bin/env node
 
 /**
- * Script to standardize internal links in markdown files.
+ * Link Standardization Script
+ *
+ * Standardizes internal links in markdown files.
  *
  * Converts old format: ../contents/filename.md
  * To new format: ./filename (no .md extension)
  *
  * This follows Jekyll/MyST conventions for extension-less links.
+ *
+ * Usage:
+ *   node scripts/standardize-links.js [options] [directory]
+ *
+ * Options:
+ *   --fix, --apply     Apply fixes to files
+ *   --validate         Only validate existing links
+ *   --strict           Enable stricter validation
+ *   --help, -h         Show help message
  */
 
-import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import { glob } from 'glob';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import {
+  printHeader,
+  printDivider,
+  printFixes,
+  printErrors,
+  printSuccess,
+  printSummary,
+} from './lib/reporter.js';
 
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { findFiles, readFile, writeFile, getBaseDir } from './lib/files.js';
+
+import { getLineNumber } from './lib/parser.js';
+
+/**
+ * Link standardizer class.
+ */
 class LinkStandardizer {
   constructor(options = {}) {
-    this.baseDir = options.baseDir || path.join(__dirname, '..');
+    this.apply = options.apply || false;
+    this.validateOnly = options.validate || false;
+    this.strict = options.strict || false;
+    this.baseDir = getBaseDir(import.meta.url);
     this.contentDir = path.join(this.baseDir, 'contents');
-    this.dryRun = options.dryRun || false;
-
-    this.stats = {
-      filesProcessed: 0,
-      filesModified: 0,
-      linksConverted: 0,
-      errors: [],
-    };
-
-    this.changes = [];
+    this.errors = [];
+    this.warnings = [];
+    this.fixes = [];
+    this.filesChecked = 0;
+    this.filesModified = 0;
+    this.linksConverted = 0;
   }
 
-  async run() {
-    console.log('🔗 Internal Link Standardization Tool\n');
-    console.log(
-      `Mode: ${this.dryRun ? 'DRY RUN (no changes will be made)' : 'LIVE (changes will be applied)'}\n`
-    );
+  /**
+   * Run the standardization process.
+   * @param {string} directory - Directory to process
+   * @returns {Promise<boolean>} - Success status
+   */
+  async run(directory = 'contents') {
+    if (this.validateOnly) {
+      return this.validate(directory);
+    }
+
+    const emoji = this.apply ? '🔧' : '🔗';
+    const title = this.apply ? 'Link Standardization (Apply)' : 'Link Standardization (Check)';
+
+    printHeader(emoji, title);
+
+    if (!this.apply) {
+      console.log('Mode: DRY RUN (no changes will be made)\n');
+    } else {
+      console.log('Mode: APPLY CHANGES\n');
+    }
 
     // Find all markdown files in contents directory
-    const markdownFiles = await glob('*.md', {
-      cwd: this.contentDir,
-    });
+    const files = await findFiles('*.md', { cwd: this.contentDir });
+    console.log(`Found ${files.length} markdown files\n`);
 
-    console.log(`Found ${markdownFiles.length} markdown files in contents/\n`);
-
-    for (const file of markdownFiles) {
+    for (const file of files) {
       await this.processFile(file);
     }
 
-    this.printReport();
-    return this.stats.errors.length === 0;
+    this.printResults();
+
+    // Also run validation after standardization if applying
+    if (this.apply) {
+      await this.validate(directory);
+    }
+
+    return this.errors.length === 0;
   }
 
+  /**
+   * Validate existing links.
+   * @param {string} directory - Directory to validate
+   * @returns {Promise<boolean>} - Success status
+   */
+  async validate(directory = 'contents') {
+    printHeader('🔍', 'Link Validation');
+
+    const files = await findFiles('*.md', { cwd: this.contentDir });
+    console.log(`Validating links in ${files.length} files\n`);
+
+    // Build list of valid targets
+    const validTargets = new Set(files.map(f => f.replace('.md', '')));
+
+    let valid = 0;
+    let invalid = 0;
+    const linkErrors = [];
+
+    for (const file of files) {
+      const filePath = path.join(this.contentDir, file);
+      const content = readFile(filePath);
+
+      // Find all ./filename links
+      const linkPattern = /\[([^\]]*)\]\(\.\/([^)#\s]+)(#[^)]*)?\)/g;
+      let match;
+
+      while ((match = linkPattern.exec(content)) !== null) {
+        const [, , targetFile] = match;
+
+        if (validTargets.has(targetFile)) {
+          valid++;
+        } else {
+          invalid++;
+          const line = getLineNumber(content, match.index);
+          linkErrors.push({
+            file,
+            line,
+            message: `Broken link: target "${targetFile}" not found`,
+            text: match[0],
+          });
+        }
+      }
+    }
+
+    printDivider();
+
+    console.log(`✓ Valid links: ${valid}`);
+    console.log(`✗ Invalid links: ${invalid}`);
+
+    if (linkErrors.length > 0) {
+      printErrors(linkErrors);
+    } else {
+      printSuccess('All links are valid!');
+    }
+
+    printDivider();
+
+    return invalid === 0;
+  }
+
+  /**
+   * Process a single file.
+   * @param {string} filename - File name
+   */
   async processFile(filename) {
     const filePath = path.join(this.contentDir, filename);
-    this.stats.filesProcessed++;
+    this.filesChecked++;
 
-    try {
-      let content = fs.readFileSync(filePath, 'utf8');
-      const originalContent = content;
+    const content = readFile(filePath);
+    const originalContent = content;
 
-      // Pattern to match: [text](../contents/filename.md) or [text](../contents/filename.md#anchor)
-      const oldLinkPattern = /\[([^\]]*)\]\(\.\.\/contents\/([^)#\s]+)\.md(#[^)]*)?\)/g;
+    // Pattern to match: [text](../contents/filename.md) or [text](../contents/filename.md#anchor)
+    const oldLinkPattern = /\[([^\]]*)\]\(\.\.\/contents\/([^)#\s]+)\.md(#[^)]*)?\)/g;
 
-      let match;
-      const fileChanges = [];
+    let match;
+    const fileChanges = [];
 
-      // First pass: collect all matches
-      while ((match = oldLinkPattern.exec(originalContent)) !== null) {
-        const [fullMatch, linkText, targetFile, anchor] = match;
-        const newLink = `[${linkText}](./${targetFile}${anchor || ''})`;
-        fileChanges.push({
-          old: fullMatch,
-          new: newLink,
-          targetFile,
-          line: this.getLineNumber(originalContent, match.index),
-        });
-      }
+    // First pass: collect all matches
+    while ((match = oldLinkPattern.exec(originalContent)) !== null) {
+      const [fullMatch, linkText, targetFile, anchor] = match;
+      const newLink = `[${linkText}](./${targetFile}${anchor || ''})`;
+      fileChanges.push({
+        old: fullMatch,
+        new: newLink,
+        targetFile,
+        line: getLineNumber(originalContent, match.index),
+      });
+    }
 
-      if (fileChanges.length === 0) {
-        return; // No changes needed
-      }
+    if (fileChanges.length === 0) {
+      return; // No changes needed
+    }
 
-      // Second pass: apply replacements
-      for (const change of fileChanges) {
-        content = content.replace(change.old, change.new);
-        this.stats.linksConverted++;
-        this.changes.push({
-          file: filename,
-          line: change.line,
-          old: change.old,
-          new: change.new,
-        });
-      }
+    // Second pass: apply replacements
+    let newContent = originalContent;
+    for (const change of fileChanges) {
+      newContent = newContent.replace(change.old, change.new);
+      this.linksConverted++;
+      this.fixes.push({
+        file: filename,
+        line: change.line,
+        before: change.old,
+        after: change.new,
+      });
+    }
 
-      // Write changes if not dry run
-      if (!this.dryRun && content !== originalContent) {
-        fs.writeFileSync(filePath, content, 'utf8');
-        this.stats.filesModified++;
-        console.log(`✓ ${filename}: ${fileChanges.length} link(s) converted`);
-      } else if (fileChanges.length > 0) {
-        console.log(`  ${filename}: ${fileChanges.length} link(s) would be converted`);
-      }
-    } catch (error) {
-      this.stats.errors.push(`Error processing ${filename}: ${error.message}`);
-      console.error(`✗ ${filename}: ${error.message}`);
+    // Write changes if not dry run
+    if (this.apply && newContent !== originalContent) {
+      writeFile(filePath, newContent);
+      this.filesModified++;
+      console.log(`✓ ${filename}: ${fileChanges.length} link(s) converted`);
+    } else if (fileChanges.length > 0) {
+      console.log(`  ${filename}: ${fileChanges.length} link(s) would be converted`);
     }
   }
 
-  getLineNumber(content, index) {
-    return content.substring(0, index).split('\n').length;
-  }
+  /**
+   * Print results.
+   */
+  printResults() {
+    printDivider();
 
-  printReport() {
-    console.log(`\n${'='.repeat(70)}`);
-    console.log('📊 STANDARDIZATION REPORT');
-    console.log('='.repeat(70));
+    console.log(`\nFiles processed: ${this.filesChecked}`);
+    console.log(`Files modified: ${this.filesModified}`);
+    console.log(`Links converted: ${this.linksConverted}`);
 
-    console.log(`\nFiles processed: ${this.stats.filesProcessed}`);
-    console.log(`Files modified: ${this.stats.filesModified}`);
-    console.log(`Links converted: ${this.stats.linksConverted}`);
-
-    if (this.stats.errors.length > 0) {
-      console.log(`\n❌ Errors: ${this.stats.errors.length}`);
-      for (const error of this.stats.errors) {
-        console.log(`   ${error}`);
-      }
-    }
-
-    if (this.changes.length > 0 && this.dryRun) {
-      console.log('\n📝 Changes that would be made:');
-      console.log('-'.repeat(70));
+    if (this.apply) {
+      printFixes(this.fixes, this.filesModified, true);
+    } else if (this.fixes.length > 0) {
+      console.log('\nChanges that would be made:');
+      console.log('-'.repeat(60));
 
       // Group by file
       const byFile = {};
-      for (const change of this.changes) {
-        if (!byFile[change.file]) {
-          byFile[change.file] = [];
+      for (const fix of this.fixes) {
+        if (!byFile[fix.file]) {
+          byFile[fix.file] = [];
         }
-        byFile[change.file].push(change);
+        byFile[fix.file].push(fix);
       }
 
-      for (const [file, changes] of Object.entries(byFile)) {
+      for (const [file, fixes] of Object.entries(byFile)) {
         console.log(`\n${file}:`);
-        for (const change of changes) {
-          console.log(`  Line ${change.line}:`);
-          console.log(`    - ${change.old}`);
-          console.log(`    + ${change.new}`);
+        for (const fix of fixes.slice(0, 5)) {
+          console.log(`  Line ${fix.line}:`);
+          console.log(`    - ${fix.before}`);
+          console.log(`    + ${fix.after}`);
+        }
+        if (fixes.length > 5) {
+          console.log(`  ... and ${fixes.length - 5} more changes`);
         }
       }
     }
 
-    console.log(`\n${'='.repeat(70)}`);
-
-    if (this.dryRun && this.changes.length > 0) {
-      console.log('\n💡 Run with --apply to make these changes');
+    if (this.errors.length > 0) {
+      printErrors(this.errors);
     }
+
+    if (this.fixes.length === 0 && this.errors.length === 0) {
+      printSuccess('All links are already standardized!');
+    } else if (!this.apply && this.fixes.length > 0) {
+      console.log('\n💡 Run with --apply or --fix to make these changes');
+    }
+
+    printDivider();
+    printSummary(this.errors.length, this.warnings.length);
   }
 }
 
-// Validation function to check if target files exist
-async function validateLinks(baseDir) {
-  const contentDir = path.join(baseDir, 'contents');
-  const markdownFiles = await glob('*.md', { cwd: contentDir });
-
-  console.log('\n🔍 Validating converted links...\n');
-
-  let valid = 0;
-  let invalid = 0;
-  const errors = [];
-
-  // Build list of valid targets
-  const validTargets = new Set(markdownFiles.map(f => f.replace('.md', '')));
-
-  for (const file of markdownFiles) {
-    const filePath = path.join(contentDir, file);
-    const content = fs.readFileSync(filePath, 'utf8');
-
-    // Find all ./filename links
-    const linkPattern = /\[([^\]]*)\]\(\.\/([^)#\s]+)(#[^)]*)?\)/g;
-    let match;
-
-    while ((match = linkPattern.exec(content)) !== null) {
-      const [, , targetFile] = match;
-
-      if (validTargets.has(targetFile)) {
-        valid++;
-      } else {
-        invalid++;
-        const line = content.substring(0, match.index).split('\n').length;
-        errors.push({
-          file,
-          line,
-          target: targetFile,
-          link: match[0],
-        });
-      }
-    }
-  }
-
-  console.log(`✓ Valid links: ${valid}`);
-  console.log(`✗ Invalid links: ${invalid}`);
-
-  if (errors.length > 0) {
-    console.log('\n❌ Broken links found:');
-    for (const error of errors) {
-      console.log(`  ${error.file}:${error.line}`);
-      console.log(`    Link: ${error.link}`);
-      console.log(`    Target "${error.target}" not found`);
-    }
-  }
-
-  return invalid === 0;
-}
-
-// CLI
-async function main() {
-  const args = process.argv.slice(2);
-  const options = {
-    dryRun: !args.includes('--apply'),
-    baseDir: path.join(__dirname, '..'),
-  };
-
-  if (args.includes('--help')) {
-    console.log(`
-Usage: node scripts/standardize-links.js [options]
-
-Options:
-  --apply    Apply changes (default is dry run)
-  --validate Only validate existing links, don't transform
-  --help     Show this help message
-
-Examples:
-  node scripts/standardize-links.js           # Dry run - show what would change
-  node scripts/standardize-links.js --apply   # Apply the changes
-  node scripts/standardize-links.js --validate # Just validate links
-`);
-    process.exit(0);
-  }
-
-  if (args.includes('--validate')) {
-    const valid = await validateLinks(options.baseDir);
-    process.exit(valid ? 0 : 1);
-  }
-
-  const standardizer = new LinkStandardizer(options);
-  const success = await standardizer.run();
-
-  // Also run validation after standardization
-  if (!options.dryRun) {
-    await validateLinks(options.baseDir);
-  }
-
-  process.exit(success ? 0 : 1);
-}
-
-main().catch(error => {
-  console.error('Fatal error:', error);
-  process.exit(1);
+// CLI Configuration
+runCli({
+  name: 'standardize-links',
+  description: `Standardizes internal links in markdown files:
+- Converts ../contents/filename.md to ./filename
+- Removes .md extensions (Jekyll/MyST convention)
+- Validates that link targets exist`,
+  flags: {
+    strict: STANDARD_FLAGS.strict,
+    apply: STANDARD_FLAGS.apply,
+    fix: STANDARD_FLAGS.fix,
+    validate: {
+      flag: '--validate',
+      description: 'Only validate existing links, don\'t transform',
+      default: false,
+    },
+  },
+  examples: [
+    'node scripts/standardize-links.js',
+    'node scripts/standardize-links.js --apply',
+    'node scripts/standardize-links.js --validate',
+    'node scripts/standardize-links.js contents/',
+  ],
+  run: async options => {
+    const standardizer = new LinkStandardizer({
+      strict: options.strict,
+      apply: options.apply || options.fix,
+      validate: options.validate,
+    });
+    return standardizer.run(options.directory);
+  },
 });

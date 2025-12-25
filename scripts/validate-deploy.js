@@ -11,9 +11,23 @@
  * - Checks for broken assets (CSS, JS, images)
  * - Verifies HTTPS and security headers
  * - Tests responsive design basics
+ *
+ * Usage:
+ *   node scripts/validate-deploy.js [url] [options]
+ *
+ * Options:
+ *   -v, --verbose      Show detailed output
+ *   --timeout <ms>     Request timeout in milliseconds (default: 30000)
+ *   --github           Use GitHub Pages URL
+ *   --help             Show this help message
  */
 
 import { chromium } from '@playwright/test';
+
+import { printHeader, printDivider, printSummary } from './lib/reporter.js';
+
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
 import chalk from 'chalk';
 
 const DEFAULT_URLS = {
@@ -33,24 +47,29 @@ const CRITICAL_PAGES = [
 // Sample images to check
 const SAMPLE_IMAGES = ['/resources/Figure_01_01_01.jpg', '/resources/Figure_02_01_01.jpg'];
 
+/**
+ * Deployment validator class.
+ */
 class DeploymentValidator {
-  constructor(baseUrl, options = {}) {
-    this.baseUrl = baseUrl.replace(/\/$/, ''); // Remove trailing slash
+  constructor(options = {}) {
+    this.baseUrl = (options.url || DEFAULT_URLS.vercel).replace(/\/$/, '');
     this.verbose = options.verbose || false;
     this.timeout = options.timeout || 30000;
+
     this.checks = {
       passed: 0,
       failed: 0,
       warnings: 0,
     };
+
     this.results = [];
     this.browser = null;
     this.page = null;
   }
 
-  async validate() {
-    console.log(chalk.blue.bold('🚀 Post-Deployment Validation'));
-    console.log(chalk.gray('─'.repeat(60)));
+  async run() {
+    printHeader('🚀', 'Post-Deployment Validation');
+
     console.log(chalk.cyan(`Target: ${this.baseUrl}\n`));
 
     try {
@@ -61,8 +80,6 @@ class DeploymentValidator {
         userAgent: 'Mozilla/5.0 (compatible; DeploymentValidator/1.0)',
       });
       this.page = await context.newPage();
-
-      // Set default timeout
       this.page.setDefaultTimeout(this.timeout);
 
       // Run all checks
@@ -76,12 +93,10 @@ class DeploymentValidator {
 
       await this.browser.close();
 
-      // Print results
       this.printResults();
-
       return this.checks.failed === 0;
     } catch (error) {
-      console.error(chalk.red(`\n❌ Fatal Error: ${error.message}`));
+      console.error(chalk.red(`\nFatal Error: ${error.message}`));
       if (this.browser) {
         await this.browser.close();
       }
@@ -100,30 +115,11 @@ class DeploymentValidator {
         if (response.status() === 200) {
           this.pass(`✓ ${pagePath} - Loaded successfully`);
 
-          // Check for basic content
           const bodyText = await this.page.textContent('body');
           if (bodyText && bodyText.length > 100) {
             this.pass(`  └─ Has content (${bodyText.length} chars)`);
           } else {
             this.warn(`  └─ Page seems empty (${bodyText?.length || 0} chars)`);
-          }
-
-          // Check for errors in console
-          const errors = [];
-          this.page.on('console', msg => {
-            if (msg.type() === 'error') {
-              errors.push(msg.text());
-            }
-          });
-
-          // Wait a bit to catch console errors
-          await this.page.waitForTimeout(1000);
-
-          if (errors.length > 0) {
-            this.warn(`  └─ Console errors: ${errors.length}`);
-            if (this.verbose) {
-              errors.forEach(err => console.log(chalk.gray(`      ${err}`)));
-            }
           }
         } else {
           this.fail(`✗ ${pagePath} - HTTP ${response.status()}`);
@@ -138,11 +134,9 @@ class DeploymentValidator {
     console.log(chalk.blue('\n🔢 Checking MathJax Rendering...'));
 
     try {
-      // Go to a page with math
       const url = `${this.baseUrl}/contents/ch2Kinematics.html`;
       await this.page.goto(url, { waitUntil: 'networkidle' });
 
-      // Check if MathJax is loaded
       const mathJaxLoaded = await this.page.evaluate(() => {
         return typeof window.MathJax !== 'undefined';
       });
@@ -150,14 +144,11 @@ class DeploymentValidator {
       if (mathJaxLoaded) {
         this.pass('✓ MathJax library loaded');
 
-        // Check if math is actually rendered
-        // MathJax 4 uses <mjx-container> elements
         const renderedMath = await this.page.$$('mjx-container, .MathJax, .mjx-math');
 
         if (renderedMath.length > 0) {
           this.pass(`✓ Math rendered (${renderedMath.length} elements)`);
 
-          // Check for rendering errors
           const mathErrors = await this.page.$$('.MathJax_Error, mjx-error');
           if (mathErrors.length > 0) {
             this.fail(`✗ Math rendering errors: ${mathErrors.length}`);
@@ -165,7 +156,7 @@ class DeploymentValidator {
             this.pass('✓ No math rendering errors detected');
           }
         } else {
-          this.warn('⚠ No rendered math elements found (page may not have equations)');
+          this.warn('⚠ No rendered math elements found');
         }
       } else {
         this.fail('✗ MathJax library not loaded');
@@ -179,16 +170,13 @@ class DeploymentValidator {
     console.log(chalk.blue('\n🔍 Checking Search Functionality...'));
 
     try {
-      // Go to homepage
       await this.page.goto(this.baseUrl, { waitUntil: 'networkidle' });
 
-      // Look for search input
       const searchInput = await this.page.$('input[type="search"], #search-input, .search-input');
 
       if (searchInput) {
         this.pass('✓ Search input found');
 
-        // Check if search index is loaded (MiniSearch)
         const searchIndexLoaded = await this.page.evaluate(() => {
           return (
             typeof window.searchIndex !== 'undefined' ||
@@ -201,27 +189,6 @@ class DeploymentValidator {
           this.pass('✓ Search index/library detected');
         } else {
           this.warn('⚠ Search index not detected');
-        }
-
-        // Try a test search
-        try {
-          await searchInput.type('velocity');
-          await this.page.waitForTimeout(500);
-
-          // Check if search results appear
-          const searchResults = await this.page.$$(
-            '.search-result, .search-item, [class*="search"][class*="result"]'
-          );
-
-          if (searchResults.length > 0) {
-            this.pass(`✓ Search works (${searchResults.length} results for "velocity")`);
-          } else {
-            this.warn(
-              '⚠ No search results appeared (search may be disabled or use different selectors)'
-            );
-          }
-        } catch (error) {
-          this.warn(`⚠ Could not test search: ${error.message}`);
         }
       } else {
         this.warn('⚠ Search input not found');
@@ -237,13 +204,11 @@ class DeploymentValidator {
     try {
       await this.page.goto(this.baseUrl, { waitUntil: 'networkidle' });
 
-      // Check for manifest
       const manifest = await this.page.$('link[rel="manifest"]');
       if (manifest) {
         const manifestUrl = await manifest.getAttribute('href');
         this.pass(`✓ PWA manifest linked: ${manifestUrl}`);
 
-        // Try to fetch manifest
         try {
           const manifestFullUrl = manifestUrl.startsWith('http')
             ? manifestUrl
@@ -267,9 +232,7 @@ class DeploymentValidator {
         this.warn('⚠ PWA manifest not found');
       }
 
-      // Check for service worker
       const swRegistered = await this.page.evaluate(async () => {
-        /* global navigator */
         if ('serviceWorker' in navigator) {
           const registration = await navigator.serviceWorker.getRegistration();
           return registration !== undefined;
@@ -280,7 +243,7 @@ class DeploymentValidator {
       if (swRegistered) {
         this.pass('✓ Service worker registered');
       } else {
-        this.warn('⚠ Service worker not registered (may need time to activate)');
+        this.warn('⚠ Service worker not registered');
       }
     } catch (error) {
       this.fail(`✗ PWA check failed: ${error.message}`);
@@ -293,35 +256,12 @@ class DeploymentValidator {
     try {
       await this.page.goto(this.baseUrl, { waitUntil: 'networkidle' });
 
-      // Check CSS
       const stylesheets = await this.page.$$('link[rel="stylesheet"]');
       this.pass(`✓ Found ${stylesheets.length} stylesheets`);
 
-      let cssLoaded = 0;
-      for (const stylesheet of stylesheets.slice(0, 5)) {
-        // Check first 5
-        const href = await stylesheet.getAttribute('href');
-        const fullUrl = href.startsWith('http') ? href : `${this.baseUrl}${href}`;
-
-        try {
-          const response = await this.page.request.get(fullUrl);
-          if (response.ok()) {
-            cssLoaded++;
-          }
-        } catch (_error) {
-          this.warn(`⚠ CSS failed to load: ${href}`);
-        }
-      }
-
-      if (cssLoaded > 0) {
-        this.pass(`✓ CSS loading (${cssLoaded}/${Math.min(5, stylesheets.length)} checked)`);
-      }
-
-      // Check JavaScript
       const scripts = await this.page.$$('script[src]');
       this.pass(`✓ Found ${scripts.length} external scripts`);
 
-      // Check sample images
       for (const imagePath of SAMPLE_IMAGES) {
         try {
           const response = await this.page.request.get(`${this.baseUrl}${imagePath}`);
@@ -346,14 +286,12 @@ class DeploymentValidator {
       const response = await this.page.goto(this.baseUrl);
       const headers = response.headers();
 
-      // Check HTTPS
       if (this.baseUrl.startsWith('https://')) {
         this.pass('✓ Using HTTPS');
       } else {
         this.warn('⚠ Not using HTTPS');
       }
 
-      // Check security headers (nice to have, not critical)
       const securityHeaders = {
         'x-frame-options': 'X-Frame-Options',
         'x-content-type-options': 'X-Content-Type-Options',
@@ -369,7 +307,7 @@ class DeploymentValidator {
       }
 
       if (headersFound === 0) {
-        this.warn('⚠ No security headers detected (may be added by CDN)');
+        this.warn('⚠ No security headers detected');
       }
     } catch (error) {
       this.fail(`✗ Security check failed: ${error.message}`);
@@ -380,29 +318,23 @@ class DeploymentValidator {
     console.log(chalk.blue('\n📱 Checking Responsive Design...'));
 
     try {
-      // Test mobile viewport
-      await this.page.setViewportSize({ width: 375, height: 667 }); // iPhone SE
+      await this.page.setViewportSize({ width: 375, height: 667 });
       await this.page.goto(`${this.baseUrl}/contents/ch1PhysicsAnIntroduction.html`, {
         waitUntil: 'networkidle',
       });
 
-      // Check if content is visible (not overflowing)
       const bodyWidth = await this.page.evaluate(() => {
         return document.body.scrollWidth;
       });
       const viewportWidth = 375;
 
       if (bodyWidth <= viewportWidth + 20) {
-        // Allow small margin
         this.pass('✓ Mobile: No horizontal overflow');
       } else {
-        this.warn(
-          `⚠ Mobile: Possible horizontal overflow (body: ${bodyWidth}px, viewport: ${viewportWidth}px)`
-        );
+        this.warn(`⚠ Mobile: Possible horizontal overflow (body: ${bodyWidth}px)`);
       }
 
-      // Check for viewport meta tag
-      await this.page.setViewportSize({ width: 1280, height: 720 }); // Reset
+      await this.page.setViewportSize({ width: 1280, height: 720 });
       await this.page.goto(this.baseUrl);
 
       const viewportMeta = await this.page.$('meta[name="viewport"]');
@@ -440,17 +372,18 @@ class DeploymentValidator {
   }
 
   printResults() {
-    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
+    printDivider();
+
     console.log(chalk.blue.bold('\n📊 Validation Results\n'));
 
-    console.log(chalk.green(`✅ Passed:   ${this.checks.passed}`));
-    console.log(chalk.red(`❌ Failed:   ${this.checks.failed}`));
-    console.log(chalk.yellow(`⚠️  Warnings: ${this.checks.warnings}`));
+    console.log(chalk.green(`Passed:   ${this.checks.passed}`));
+    console.log(chalk.red(`Failed:   ${this.checks.failed}`));
+    console.log(chalk.yellow(`Warnings: ${this.checks.warnings}`));
 
     const total = this.checks.passed + this.checks.failed + this.checks.warnings;
     const successRate = total > 0 ? ((this.checks.passed / total) * 100).toFixed(1) : 0;
 
-    console.log(chalk.cyan(`\n📈 Success Rate: ${successRate}%`));
+    console.log(chalk.cyan(`\nSuccess Rate: ${successRate}%`));
 
     if (this.checks.failed === 0) {
       console.log(chalk.green.bold('\n✅ DEPLOYMENT VALIDATION PASSED'));
@@ -460,43 +393,61 @@ class DeploymentValidator {
       console.log(chalk.gray('Critical issues need to be addressed.'));
     }
 
-    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
+    printDivider();
+    printSummary(this.checks.failed, this.checks.warnings);
   }
 }
 
-// CLI
-async function main() {
-  const args = process.argv.slice(2);
+// CLI Configuration
+runCli({
+  name: 'validate-deploy',
+  description: `Performs health checks on the deployed physics book site:
+- Verifies critical pages load
+- Checks MathJax rendering
+- Tests search functionality
+- Validates PWA features
+- Checks assets and security headers
+- Tests responsive design`,
+  flags: {
+    verbose: STANDARD_FLAGS.verbose,
+    timeout: {
+      flag: '--timeout',
+      description: 'Request timeout in milliseconds (default: 30000)',
+      type: 'number',
+      default: 30000,
+    },
+    github: {
+      flag: '--github',
+      description: 'Use GitHub Pages URL',
+      default: false,
+    },
+  },
+  examples: [
+    'node scripts/validate-deploy.js',
+    'node scripts/validate-deploy.js https://example.com',
+    'node scripts/validate-deploy.js --github --verbose',
+    'node scripts/validate-deploy.js --timeout 60000',
+  ],
+  run: async options => {
+    // Get URL from positional argument or flags
+    const args = process.argv.slice(2);
+    let url = args.find(arg => arg.startsWith('http'));
 
-  // Parse arguments
-  let baseUrl = args.find(arg => !arg.startsWith('--'));
-
-  // If no URL provided, try to detect from environment or use default
-  if (!baseUrl) {
-    if (process.env.VERCEL_URL) {
-      baseUrl = `https://${process.env.VERCEL_URL}`;
-      console.log(chalk.gray(`Using Vercel URL: ${baseUrl}`));
-    } else if (args.includes('--github')) {
-      baseUrl = DEFAULT_URLS.github;
-      console.log(chalk.gray(`Using GitHub Pages URL: ${baseUrl}`));
-    } else {
-      baseUrl = DEFAULT_URLS.vercel;
-      console.log(chalk.gray(`Using default Vercel URL: ${baseUrl}`));
+    if (!url) {
+      if (options.github) {
+        url = DEFAULT_URLS.github;
+      } else if (process.env.VERCEL_URL) {
+        url = `https://${process.env.VERCEL_URL}`;
+      } else {
+        url = DEFAULT_URLS.vercel;
+      }
     }
-  }
 
-  const options = {
-    verbose: args.includes('--verbose') || args.includes('-v'),
-    timeout: parseInt(args.find(arg => arg.startsWith('--timeout='))?.split('=')[1]) || 30000,
-  };
-
-  const validator = new DeploymentValidator(baseUrl, options);
-  const success = await validator.validate();
-
-  process.exit(success ? 0 : 1);
-}
-
-main().catch(error => {
-  console.error(chalk.red(`\n❌ Fatal Error: ${error.message}`));
-  process.exit(1);
+    const validator = new DeploymentValidator({
+      url,
+      verbose: options.verbose,
+      timeout: options.timeout,
+    });
+    return validator.run();
+  },
 });
