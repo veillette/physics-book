@@ -83,7 +83,7 @@ class EquationValidator {
           file: fileName,
           line: lineNum,
           message: 'Standalone $$ delimiter - inline math should be on one line',
-          text: line.trim()
+          text: line.trim(),
         });
         continue;
       }
@@ -123,7 +123,7 @@ class EquationValidator {
         file,
         line,
         message: 'Unbalanced inline math delimiters ($)',
-        text: text.trim().substring(0, 80)
+        text: text.trim().substring(0, 80),
       });
     }
 
@@ -140,7 +140,7 @@ class EquationValidator {
           file,
           line,
           message: 'Empty inline math',
-          text: text.trim().substring(0, 80)
+          text: text.trim().substring(0, 80),
         });
       }
     }
@@ -183,7 +183,7 @@ class EquationValidator {
         file,
         line,
         message: `Unbalanced braces in math block (${braceCount > 0 ? 'missing }' : 'extra }'})`,
-        text: mathContent.substring(0, 80)
+        text: mathContent.substring(0, 80),
       });
     }
 
@@ -196,7 +196,7 @@ class EquationValidator {
         file,
         line,
         message: `Unbalanced \\left (${leftCount}) and \\right (${rightCount}) delimiters`,
-        text: mathContent.substring(0, 80)
+        text: mathContent.substring(0, 80),
       });
     }
 
@@ -218,7 +218,7 @@ class EquationValidator {
       this.equations.get(eqChapter).push({
         file,
         line,
-        number: eqNumber
+        number: eqNumber,
       });
 
       // Check if equation number matches file chapter
@@ -227,7 +227,7 @@ class EquationValidator {
           file,
           line,
           message: `Equation ${eqChapter}.${eqNumber} appears in Chapter ${chapterNumber}`,
-          text: text.trim().substring(0, 80)
+          text: text.trim().substring(0, 80),
         });
       }
     }
@@ -239,7 +239,7 @@ class EquationValidator {
         file,
         line,
         message: `Equation reference \\ref{eq:${refMatch[1]}} - verify label exists`,
-        text: text.trim().substring(0, 80)
+        text: text.trim().substring(0, 80),
       });
     }
   }
@@ -253,34 +253,34 @@ class EquationValidator {
     const errors = [
       {
         pattern: /\\frac\{[^}]*\}\{[^}]*$/,
-        message: 'Incomplete \\frac command - missing closing brace'
+        message: 'Incomplete \\frac command - missing closing brace',
       },
       {
         pattern: /\\sqrt\{[^}]*$/,
-        message: 'Incomplete \\sqrt command - missing closing brace'
+        message: 'Incomplete \\sqrt command - missing closing brace',
       },
       {
         pattern: /\\text\{[^}]*$/,
-        message: 'Incomplete \\text command - missing closing brace'
+        message: 'Incomplete \\text command - missing closing brace',
       },
       {
         pattern: /_{(?:[^}]*$|[^}]*\n)/,
-        message: 'Incomplete subscript - missing closing brace'
+        message: 'Incomplete subscript - missing closing brace',
       },
       {
         pattern: /\^{(?:[^}]*$|[^}]*\n)/,
-        message: 'Incomplete superscript - missing closing brace'
+        message: 'Incomplete superscript - missing closing brace',
       },
       {
         pattern: /([a-zA-Z]{2,})_([a-zA-Z0-9]+)(?![_{])/,
         message: 'Multi-character subscript without braces (use _{...})',
-        warning: true
+        warning: true,
       },
       {
         pattern: /([a-zA-Z]{2,})\^([a-zA-Z0-9]+)(?![\^{])/,
         message: 'Multi-character superscript without braces (use ^{...})',
-        warning: true
-      }
+        warning: true,
+      },
     ];
 
     for (const { pattern, message, warning } of errors) {
@@ -289,7 +289,7 @@ class EquationValidator {
           file,
           line,
           message,
-          text: text.trim().substring(0, 80)
+          text: text.trim().substring(0, 80),
         };
 
         if (warning) {
@@ -299,7 +299,6 @@ class EquationValidator {
         }
       }
     }
-
   }
 
   validateEquationNumbering() {
@@ -316,7 +315,7 @@ class EquationValidator {
           this.warnings.push({
             file: equations[i].file,
             line: equations[i].line,
-            message: `Gap in equation numbering: ${chapter}.${current} followed by ${chapter}.${next}`
+            message: `Gap in equation numbering: ${chapter}.${current} followed by ${chapter}.${next}`,
           });
         }
       }
@@ -327,7 +326,7 @@ class EquationValidator {
           this.errors.push({
             file: equations[i + 1].file,
             line: equations[i + 1].line,
-            message: `Duplicate equation number: ${chapter}.${equations[i].number}`
+            message: `Duplicate equation number: ${chapter}.${equations[i].number}`,
           });
         }
       }
@@ -368,7 +367,9 @@ class EquationValidator {
     }
 
     console.log(chalk.gray('\n' + '─'.repeat(60)));
-    console.log(chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`));
+    console.log(
+      chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
+    );
 
     // Print equation overview
     if (this.equations.size > 0) {
@@ -385,7 +386,7 @@ class EquationValidator {
 // CLI
 const args = process.argv.slice(2);
 const options = {
-  strict: args.includes('--strict')
+  strict: args.includes('--strict'),
 };
 
 const directory = args.find(arg => !arg.startsWith('--')) || 'contents';

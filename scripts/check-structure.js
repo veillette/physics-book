@@ -60,7 +60,7 @@ class StructureValidator {
       this.chapters.get(data.chapterNumber).push({
         file: path.basename(filePath),
         section: data.sectionNumber,
-        title: data.title
+        title: data.title,
       });
     }
   }
@@ -91,7 +91,7 @@ class StructureValidator {
     } catch (error) {
       this.errors.push({
         file: fileName,
-        message: `Invalid YAML front matter: ${error.message}`
+        message: `Invalid YAML front matter: ${error.message}`,
       });
       return;
     }
@@ -102,14 +102,14 @@ class StructureValidator {
     if (!data.title) {
       this.errors.push({
         file: fileName,
-        message: 'Missing required field: title'
+        message: 'Missing required field: title',
       });
     }
 
     if (!data.layout) {
       this.errors.push({
         file: fileName,
-        message: 'Missing required field: layout'
+        message: 'Missing required field: layout',
       });
     }
 
@@ -118,7 +118,7 @@ class StructureValidator {
       if (!data.chapterNumber && !fileName.includes('Glossary')) {
         this.warnings.push({
           file: fileName,
-          message: 'Chapter file missing chapterNumber in front matter'
+          message: 'Chapter file missing chapterNumber in front matter',
         });
       }
     }
@@ -130,7 +130,7 @@ class StructureValidator {
       if (fileChapter !== data.chapterNumber) {
         this.errors.push({
           file: fileName,
-          message: `Chapter number mismatch: filename has ${fileChapter}, front matter has ${data.chapterNumber}`
+          message: `Chapter number mismatch: filename has ${fileChapter}, front matter has ${data.chapterNumber}`,
         });
       }
     }
@@ -141,13 +141,13 @@ class StructureValidator {
 
     // Check for proper naming convention
     const validPatterns = [
-      /^ch\d+[A-Z][a-zA-Z]+\.md$/,     // ch10AngularMomentum.md
-      /^appendix[A-Z]\.md$/,            // appendixA.md
+      /^ch\d+[A-Z][a-zA-Z]+\.md$/, // ch10AngularMomentum.md
+      /^appendix[A-Z]\.md$/, // appendixA.md
       /^Glossary\.md$/,
       /^README\.md$/,
       /^SUMMARY\.md$/,
       /^CHANGELOG\.md$/,
-      /^CONTRIBUTE\.md$/
+      /^CONTRIBUTE\.md$/,
     ];
 
     const isValid = validPatterns.some(pattern => pattern.test(fileName));
@@ -155,7 +155,7 @@ class StructureValidator {
     if (!isValid && this.strict) {
       this.warnings.push({
         file: fileName,
-        message: 'File name does not follow naming convention (chXXTitleInCamelCase.md)'
+        message: 'File name does not follow naming convention (chXXTitleInCamelCase.md)',
       });
     }
 
@@ -163,7 +163,7 @@ class StructureValidator {
     if (fileName.includes(' ')) {
       this.errors.push({
         file: fileName,
-        message: 'File name contains spaces - use camelCase instead'
+        message: 'File name contains spaces - use camelCase instead',
       });
     }
 
@@ -171,7 +171,7 @@ class StructureValidator {
     if (fileName.match(/^ch\d+[a-z]/)) {
       this.warnings.push({
         file: fileName,
-        message: 'Chapter title should start with uppercase after chapter number'
+        message: 'Chapter title should start with uppercase after chapter number',
       });
     }
   }
@@ -212,7 +212,7 @@ class StructureValidator {
             file: fileName,
             line: lineNum,
             message: `Heading level skipped: jumped from h${previousLevel} to h${level}`,
-            text: line
+            text: line,
           });
         }
 
@@ -222,17 +222,21 @@ class StructureValidator {
             file: fileName,
             line: lineNum,
             message: 'Empty heading',
-            text: line
+            text: line,
           });
         }
 
         // Check for proper capitalization
-        if (level <= 2 && text.charAt(0) !== text.charAt(0).toUpperCase() && !text.startsWith('$')) {
+        if (
+          level <= 2 &&
+          text.charAt(0) !== text.charAt(0).toUpperCase() &&
+          !text.startsWith('$')
+        ) {
           this.warnings.push({
             file: fileName,
             line: lineNum,
             message: 'Major heading should start with capital letter',
-            text: line
+            text: line,
           });
         }
 
@@ -245,7 +249,7 @@ class StructureValidator {
     if (headingStack.length === 0 && !fileName.includes('README')) {
       this.warnings.push({
         file: fileName,
-        message: 'Document has no headings'
+        message: 'Document has no headings',
       });
     }
   }
@@ -294,7 +298,7 @@ class StructureValidator {
     if (this.strict && !hasIntro && expectedChapter > 0) {
       this.warnings.push({
         file: fileName,
-        message: 'Chapter should have introductory text before first heading'
+        message: 'Chapter should have introductory text before first heading',
       });
     }
   }
@@ -310,7 +314,7 @@ class StructureValidator {
       if (next - current > 1) {
         this.warnings.push({
           file: 'General',
-          message: `Gap in chapter numbering: chapter ${current} followed by chapter ${next}`
+          message: `Gap in chapter numbering: chapter ${current} followed by chapter ${next}`,
         });
       }
     }
@@ -323,7 +327,7 @@ class StructureValidator {
       if (sections.length > 0 && sections.length !== uniqueSections.size) {
         this.errors.push({
           file: `Chapter ${chapterNum}`,
-          message: 'Duplicate section numbers within the same chapter'
+          message: 'Duplicate section numbers within the same chapter',
         });
       }
     }
@@ -363,7 +367,9 @@ class StructureValidator {
     }
 
     console.log(chalk.gray('\n' + '─'.repeat(60)));
-    console.log(chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`));
+    console.log(
+      chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
+    );
 
     // Print chapter overview
     if (this.chapters.size > 0) {
@@ -380,7 +386,7 @@ class StructureValidator {
 // CLI
 const args = process.argv.slice(2);
 const options = {
-  strict: args.includes('--strict')
+  strict: args.includes('--strict'),
 };
 
 const directory = args.find(arg => !arg.startsWith('--')) || 'contents';
