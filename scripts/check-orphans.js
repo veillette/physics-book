@@ -124,8 +124,8 @@ class OrphanFileFinder {
 
     // Markdown/HTML image and link patterns
     const patterns = [
-      /\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g, // Markdown links
-      /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g, // Markdown images
+      /\[([^\]]*)\]\(([^)\s]+)(?:\s+['"][^'"]*['"])?\)/g, // Markdown links
+      /!\[([^\]]*)\]\(([^)\s]+)(?:\s+['"][^'"]*['"])?\)/g, // Markdown images
       /<img[^>]+src=["']([^"']+)["'][^>]*>/gi, // HTML images
       /<(?:link[^>]+href=["']([^"']+)["']|script[^>]+src=["']([^"']+)["'])[^>]*>/gi, // CSS/JS
       /url\(\s*(['"]?)([^'")\s]+)\1\s*\)/gi, // CSS url()
