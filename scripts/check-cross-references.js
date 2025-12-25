@@ -358,7 +358,7 @@ class CrossReferenceValidator {
       console.log(chalk.green('✅ All cross-reference checks passed!'));
     }
 
-    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
+    console.log(chalk.gray(`\n${'─'.repeat(60)}`));
     console.log(
       chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
     );
