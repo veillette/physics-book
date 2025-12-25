@@ -1,26 +1,32 @@
 #!/usr/bin/env node
 
 /**
- * check-math-delimiters.js
+ * Math Delimiter Validation Script
  *
  * Validates math delimiters ($...$) in markdown files to ensure they are balanced.
  * Finds lines with uneven number of $ delimiters (accounting for escaped \$).
  *
  * Usage:
- *   node scripts/check-math-delimiters.js [directory]
+ *   node scripts/check-math.js [options] [directory]
  *
- * Arguments:
- *   directory    Directory to check (default: contents/)
+ * Options:
+ *   --strict           Enable stricter validation
+ *   --help, -h         Show help message
  */
 
-import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import {
+  printHeader,
+  printDivider,
+  printErrors,
+  printSuccess,
+  printSummary,
+} from './lib/reporter.js';
 
-const baseDir = path.join(__dirname, '..');
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { findMarkdownFiles, readFile } from './lib/files.js';
 
 /**
  * Count unescaped $ delimiters in a line, ignoring currency amounts
@@ -89,119 +95,102 @@ function countDelimiters(line) {
 }
 
 /**
- * Process a single file
+ * Math delimiter validator class.
  */
-function processFile(filePath) {
-  const issues = [];
-  const content = fs.readFileSync(filePath, 'utf8');
-  const lines = content.split('\n');
-
-  for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    const lineNumber = i + 1;
-    const delimiterCount = countDelimiters(line);
-
-    if (delimiterCount % 2 !== 0) {
-      issues.push({
-        line: lineNumber,
-        content: line.trim(),
-        count: delimiterCount,
-      });
-    }
+class MathDelimiterValidator {
+  constructor(options = {}) {
+    this.strict = options.strict || false;
+    this.errors = [];
+    this.warnings = [];
+    this.filesChecked = 0;
   }
 
-  return issues;
-}
+  /**
+   * Validate all files in a directory.
+   * @param {string} directory - Directory to validate
+   * @returns {Promise<boolean>} - Success status
+   */
+  async validate(directory = 'contents') {
+    printHeader('🔢', 'Math Delimiter Validation');
 
-/**
- * Process all markdown files in a directory
- */
-function processDirectory(directoryPath) {
-  const results = [];
-  const files = fs.readdirSync(directoryPath);
+    const files = await findMarkdownFiles(directory);
+    console.log(`Found ${files.length} markdown files\n`);
 
-  for (const file of files) {
-    const filePath = path.join(directoryPath, file);
-    const stats = fs.statSync(filePath);
+    for (const file of files) {
+      this.validateFile(file);
+    }
 
-    if (stats.isFile() && file.endsWith('.md')) {
-      const issues = processFile(filePath);
-      if (issues.length > 0) {
-        results.push({ file, issues });
+    this.printResults();
+    return this.errors.length === 0;
+  }
+
+  /**
+   * Validate a single file.
+   * @param {string} filePath - Path to file
+   */
+  validateFile(filePath) {
+    this.filesChecked++;
+    const content = readFile(filePath);
+    const lines = content.split('\n');
+    const fileName = path.basename(filePath);
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const lineNumber = i + 1;
+      const delimiterCount = countDelimiters(line);
+
+      if (delimiterCount % 2 !== 0) {
+        this.errors.push({
+          file: fileName,
+          line: lineNumber,
+          message: `Unbalanced math delimiters (${delimiterCount} $ found)`,
+          text: line.trim().substring(0, 80) + (line.trim().length > 80 ? '...' : ''),
+        });
       }
-    } else if (stats.isDirectory()) {
-      // Recursively process subdirectories
-      const subResults = processDirectory(filePath);
-      results.push(...subResults);
     }
   }
 
-  return results;
-}
+  /**
+   * Print results.
+   */
+  printResults() {
+    printDivider();
 
-// CLI
-function main() {
-  const args = process.argv.slice(2);
+    console.log(`Files checked: ${this.filesChecked}`);
 
-  if (args.includes('--help')) {
-    console.log(`
-Usage: node scripts/check-math-delimiters.js [directory]
+    printErrors(this.errors);
 
-Arguments:
-  directory    Directory to check (default: contents/)
-
-Options:
-  --help       Show this help message
-
-Examples:
-  node scripts/check-math-delimiters.js
-  node scripts/check-math-delimiters.js contents/
-`);
-    process.exit(0);
-  }
-
-  const targetDir = args[0] || 'contents';
-  const fullPath = path.isAbsolute(targetDir) ? targetDir : path.join(baseDir, targetDir);
-
-  if (!fs.existsSync(fullPath)) {
-    console.error(`Error: Directory not found: ${fullPath}`);
-    process.exit(1);
-  }
-
-  console.log(`Checking math delimiters in: ${fullPath}`);
-  console.log('='.repeat(60));
-
-  const results = processDirectory(fullPath);
-
-  if (results.length === 0) {
-    console.log('\n✅ All files have balanced math delimiters!');
-    process.exit(0);
-  }
-
-  console.log(`\n❌ Found ${results.length} file(s) with unbalanced delimiters:\n`);
-
-  let totalIssues = 0;
-  for (const { file, issues } of results) {
-    console.log(`📄 ${file}:`);
-    for (const issue of issues) {
-      totalIssues++;
-      console.log(
-        `   Line ${issue.line} (${issue.count} delimiters): ${issue.content.substring(0, 80)}...`
-      );
+    if (this.errors.length === 0) {
+      printSuccess('All files have balanced math delimiters!');
     }
-    console.log();
+
+    printDivider();
+    printSummary(this.errors.length, this.warnings.length);
   }
-
-  console.log('='.repeat(60));
-  console.log(`Total: ${totalIssues} issue(s) in ${results.length} file(s)`);
-
-  process.exit(1);
 }
 
-// Run main only when executed directly
-if (import.meta.url === `file://${process.argv[1]}`) {
-  main();
-}
+// CLI Configuration
+runCli({
+  name: 'check-math',
+  description: `Validates math delimiters ($...$) in markdown files:
+- Checks for balanced $ delimiters
+- Accounts for escaped \\$ characters
+- Ignores currency amounts (e.g., $5, $2.37)`,
+  flags: {
+    strict: STANDARD_FLAGS.strict,
+  },
+  examples: [
+    'node scripts/check-math.js',
+    'node scripts/check-math.js --strict',
+    'node scripts/check-math.js contents/',
+  ],
+  run: async options => {
+    const validator = new MathDelimiterValidator({
+      strict: options.strict,
+    });
+    return validator.validate(options.directory);
+  },
+});
 
 // Export functions for testing
-export { countDelimiters, processFile, processDirectory };
+export { countDelimiters };

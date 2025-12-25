@@ -13,70 +13,36 @@
  * - Missing alt text in images
  * - Broken internal references
  * - Math delimiter balance
+ *
+ * Usage:
+ *   node scripts/lint-markdown.js [options] [directory]
+ *
+ * Options:
+ *   --fix, --apply     Apply fixes to files
+ *   --strict           Enable stricter validation
+ *   --help, -h         Show help message
  */
 
-import fs from 'fs';
 import path from 'path';
-import { glob } from 'glob';
+
+import { UNITS } from './lib/constants.js';
+
+import {
+  printHeader,
+  printDivider,
+  printFixes,
+  printSuccess,
+} from './lib/reporter.js';
+
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
+
 import chalk from 'chalk';
 
-// Common physics units that should be in \text{}
-const PHYSICS_UNITS = [
-  'm',
-  'km',
-  'cm',
-  'mm',
-  'nm',
-  'pm',
-  's',
-  'ms',
-  'ns',
-  'min',
-  'h',
-  'kg',
-  'g',
-  'mg',
-  'μg',
-  'N',
-  'J',
-  'W',
-  'Pa',
-  'kPa',
-  'MPa',
-  'm/s',
-  'km/h',
-  'mph',
-  'm/s²',
-  'km/s',
-  'rad',
-  'deg',
-  'rad/s',
-  'Hz',
-  'kHz',
-  'MHz',
-  'GHz',
-  'V',
-  'A',
-  'Ω',
-  'mA',
-  'kV',
-  'K',
-  '°C',
-  '°F',
-  'mol',
-  'L',
-  'mL',
-  'eV',
-  'keV',
-  'MeV',
-  'C',
-  'F',
-  'H',
-  'T',
-  'Wb',
-  'Gauss',
-];
-
+/**
+ * Markdown linter class.
+ */
 class MarkdownLinter {
   constructor(options = {}) {
     this.apply = options.apply || false;
@@ -87,16 +53,23 @@ class MarkdownLinter {
     this.fixedCount = 0;
   }
 
+  /**
+   * Lint all files in a directory.
+   * @param {string} directory - Directory to lint
+   * @returns {Promise<boolean>} - Success status
+   */
   async lint(directory = 'contents') {
-    console.log(chalk.blue.bold('📝 Markdown Linter'));
-    console.log(chalk.gray('─'.repeat(60)));
+    const emoji = this.apply ? '🔧' : '📝';
+    const title = this.apply ? 'Markdown Lint + Fix' : 'Markdown Linter';
+
+    printHeader(emoji, title);
 
     if (!this.apply) {
       console.log(chalk.yellow('DRY RUN MODE - No files will be modified'));
-      console.log(chalk.gray('Use --apply to fix issues automatically\n'));
+      console.log(chalk.gray('Use --apply or --fix to fix issues automatically\n'));
     }
 
-    const files = await glob(`${directory}/**/*.md`);
+    const files = await findMarkdownFiles(directory);
     console.log(chalk.gray(`Found ${files.length} markdown files\n`));
 
     for (const file of files) {
@@ -107,9 +80,13 @@ class MarkdownLinter {
     return this.issues.length === 0 || !this.strict;
   }
 
+  /**
+   * Lint a single file.
+   * @param {string} filePath - Path to file
+   */
   async lintFile(filePath) {
     this.filesChecked++;
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const content = readFile(filePath);
     const lines = content.split('\n');
     const fileName = path.basename(filePath);
 
@@ -258,18 +235,7 @@ class MarkdownLinter {
         continue;
       }
 
-      // 7. Check list formatting (no auto-fix)
-      if (line.match(/^\s*[-*+]\s+\S/)) {
-        // Check if next line is also a list item or blank
-        if (i < lines.length - 1) {
-          const nextLine = lines[i + 1];
-          if (nextLine && !nextLine.match(/^\s*[-*+]/) && nextLine.trim() !== '') {
-            // This might be a paragraph continuation, which is fine
-          }
-        }
-      }
-
-      // 8. Check for bare URLs (not in links)
+      // 7. Check for bare URLs (not in links)
       const bareUrlMatch = line.match(/(?<!\(|\[|href="|src=")(https?:\/\/[^\s)<]+)(?![\])])/);
       if (bareUrlMatch && !line.includes('```')) {
         fileIssues.push({
@@ -282,8 +248,6 @@ class MarkdownLinter {
 
       newLines.push(line);
     }
-
-    // Additional whole-file checks
 
     // Check for missing final newline
     if (content && !content.endsWith('\n')) {
@@ -299,7 +263,7 @@ class MarkdownLinter {
 
     // Save file if modified
     if (modified && this.apply) {
-      fs.writeFileSync(filePath, newLines.join('\n'), 'utf-8');
+      writeFile(filePath, newLines.join('\n'));
       this.fixedCount++;
     }
 
@@ -314,6 +278,9 @@ class MarkdownLinter {
     }
   }
 
+  /**
+   * Check for units not wrapped in \text{} in inline math.
+   */
   checkUnitsInMath(line, lineNum) {
     const issues = [];
 
@@ -325,7 +292,7 @@ class MarkdownLinter {
       const mathContent = match[1];
 
       // Check if math contains units not wrapped in \text{}
-      for (const unit of PHYSICS_UNITS) {
+      for (const unit of UNITS) {
         // Pattern: unit appears but not inside \text{...}
         // Look for units that appear as standalone or after a space/number
         const unitPattern = new RegExp(
@@ -353,6 +320,9 @@ class MarkdownLinter {
     return issues;
   }
 
+  /**
+   * Fix units in math expressions by wrapping in \text{}.
+   */
   fixUnitsInMath(line) {
     // This is a simplified fix - wraps common unit patterns in \text{}
     // More sophisticated would require full LaTeX parsing
@@ -364,7 +334,7 @@ class MarkdownLinter {
       let fixed = mathContent;
 
       // Fix patterns like "5 m/s" -> "5\text{ m/s}"
-      for (const unit of PHYSICS_UNITS) {
+      for (const unit of UNITS) {
         const escapedUnit = unit.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
         // Pattern: number followed by space and unit
@@ -393,14 +363,17 @@ class MarkdownLinter {
     return result;
   }
 
+  /**
+   * Print results.
+   */
   printResults() {
-    console.log(chalk.gray('─'.repeat(60)));
+    printDivider();
 
     console.log(chalk.cyan(`\n📊 Files Checked: ${this.filesChecked}`));
     console.log(chalk.cyan(`   Files with Issues: ${this.filesWithIssues}`));
 
     if (this.issues.length === 0) {
-      console.log(chalk.green('\n✅ No issues found - markdown is clean!'));
+      printSuccess('No issues found - markdown is clean!');
     } else {
       // Count issues by type and severity
       const issueStats = {};
@@ -463,27 +436,43 @@ class MarkdownLinter {
       }
 
       if (this.apply && this.fixedCount > 0) {
-        console.log(chalk.green(`\n✅ Fixed issues in ${this.fixedCount} files`));
+        printFixes([], this.fixedCount, true);
       } else if (!this.apply) {
         console.log(chalk.yellow('\n⚠️  DRY RUN - No files were modified'));
-        console.log(chalk.gray('Run with --apply to fix auto-fixable issues'));
+        console.log(chalk.gray('Run with --apply or --fix to fix auto-fixable issues'));
       }
     }
 
-    console.log(chalk.gray(`\n${'─'.repeat(60)}`));
+    printDivider();
   }
 }
 
-// CLI
-const args = process.argv.slice(2);
-const options = {
-  apply: args.includes('--apply'),
-  strict: args.includes('--strict'),
-};
-
-const directory = args.find(arg => !arg.startsWith('--')) || 'contents';
-
-const linter = new MarkdownLinter(options);
-linter.lint(directory).then(success => {
-  process.exit(success ? 0 : 1);
+// CLI Configuration
+runCli({
+  name: 'lint-markdown',
+  description: `Lints markdown files for common issues and physics-specific rules:
+- Units in LaTeX should use \\text{}
+- Heading hierarchy and structure
+- Trailing whitespace
+- Multiple consecutive blank lines
+- Missing alt text in images
+- Math delimiter balance`,
+  flags: {
+    strict: STANDARD_FLAGS.strict,
+    apply: STANDARD_FLAGS.apply,
+    fix: STANDARD_FLAGS.fix,
+  },
+  examples: [
+    'node scripts/lint-markdown.js',
+    'node scripts/lint-markdown.js --strict',
+    'node scripts/lint-markdown.js --apply',
+    'node scripts/lint-markdown.js contents/',
+  ],
+  run: async options => {
+    const linter = new MarkdownLinter({
+      strict: options.strict,
+      apply: options.apply || options.fix,
+    });
+    return linter.lint(options.directory);
+  },
 });
