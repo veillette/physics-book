@@ -260,7 +260,7 @@ classified as “dwarf planet.”
 In 2006, Pluto was demoted to a ‘dwarf planet’ after scientists revised their
 definition of what constitutes a “true” planet.
 
-##### Table 1: Orbital Data and Kepler’s Third Law
+#### Table 1: Orbital Data and Kepler’s Third Law
 
 | Parent  | Satellite | Average orbital radius r(km) | Period T(y)      | $$ r^3/ T^2 $$, $$\left( \text{km}^3/ \text{y}^2 \right) $$ |
 | ------- | --------- | ---------------------------- | ---------------- | ----------------------------------------------------------- |

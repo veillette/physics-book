@@ -178,7 +178,7 @@ The procedures for calculating the position and velocity at $$ t=2.00\s $$ and
 $$ 3.00 \s $$ are the same as those above. The results are summarized
 in [Table 1](#Table1) and illustrated in [Figure 3](#Figure3).
 
-##### Table: Results
+#### Table: Results
 
 | Time, t      | Position, y   | Velocity, v    | Acceleration, a |
 | ------------ | ------------- | -------------- | --------------- |

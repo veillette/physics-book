@@ -270,7 +270,7 @@ class CrossReferenceValidator {
 
     while ((match = figurePattern.exec(text)) !== null) {
       const chapter = parseInt(match[1]);
-      const figureNum = parseInt(match[2]);
+      const _figureNum = parseInt(match[2]);
 
       // Check if reference is in the correct chapter
       const currentFile = this.files.get(path.basename(file, '.md'));
@@ -292,7 +292,7 @@ class CrossReferenceValidator {
 
     while ((match = tablePattern.exec(text)) !== null) {
       const chapter = parseInt(match[1]);
-      const tableNum = parseInt(match[2]);
+      const _tableNum = parseInt(match[2]);
 
       // Check if reference is in the correct chapter
       const currentFile = this.files.get(path.basename(file, '.md'));
@@ -314,7 +314,7 @@ class CrossReferenceValidator {
 
     while ((match = equationPattern.exec(text)) !== null) {
       const chapter = parseInt(match[1]);
-      const eqNum = parseInt(match[2]);
+      const _eqNum = parseInt(match[2]);
 
       // Check if reference is in the correct chapter
       const currentFile = this.files.get(path.basename(file, '.md'));
@@ -358,7 +358,7 @@ class CrossReferenceValidator {
       console.log(chalk.green('✅ All cross-reference checks passed!'));
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
     console.log(
       chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
     );

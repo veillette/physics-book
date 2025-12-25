@@ -190,7 +190,6 @@ class DeploymentValidator {
 
         // Check if search index is loaded (MiniSearch)
         const searchIndexLoaded = await this.page.evaluate(() => {
-          /* global window, document */
           return (
             typeof window.searchIndex !== 'undefined' ||
             typeof window.MiniSearch !== 'undefined' ||
@@ -389,7 +388,6 @@ class DeploymentValidator {
 
       // Check if content is visible (not overflowing)
       const bodyWidth = await this.page.evaluate(() => {
-        /* global document */
         return document.body.scrollWidth;
       });
       const viewportWidth = 375;
@@ -442,7 +440,7 @@ class DeploymentValidator {
   }
 
   printResults() {
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
     console.log(chalk.blue.bold('\n📊 Validation Results\n'));
 
     console.log(chalk.green(`✅ Passed:   ${this.checks.passed}`));
@@ -462,7 +460,7 @@ class DeploymentValidator {
       console.log(chalk.gray('Critical issues need to be addressed.'));
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
   }
 }
 

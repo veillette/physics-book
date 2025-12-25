@@ -470,7 +470,7 @@ class MarkdownLinter {
       }
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
   }
 }
 

@@ -47,7 +47,7 @@ The nuclear forces are vital to the substructure of matter, but they are not dir
 experienced on the macroscopic scale.
 </div>
 
-##### Table 1: Properties of the Four Basic Forces
+#### Table 1: Properties of the Four Basic Forces
 
 | Force           | Approximate Relative Strengths | Range          | Attraction/Repulsion     | Carrier Particle |
 | --------------- | ------------------------------ | -------------- | ------------------------ | ---------------- |

@@ -62,7 +62,7 @@ very common use, such as the measurement of blood pressure in millimeters of
 mercury (mm Hg). Whenever non-SI units are discussed, they will be tied to SI
 units through conversions.
 
-##### Table 1: Fundamental SI Units
+#### Table 1: Fundamental SI Units
 
 | Length    | Mass          | Time       | Electric Current |
 | --------- | ------------- | ---------- | ---------------- |
@@ -196,7 +196,7 @@ are related to large-scale currents and forces between wires.
 
 </div>
 
-##### Table 2: Metric Prefixes for Powers of 10 and their Symbols
+#### Table 2: Metric Prefixes for Powers of 10 and their Symbols
 
 | Prefix | Symbol | Value         | Example    |     |                 | Example (some are approximate)      |
 | ------ | ------ | ------------- | ---------- | --- | --------------- | ----------------------------------- |
@@ -271,7 +271,7 @@ use this method to convert between any types of unit.
 The [Appendix](./appendixA) has a more complete list of
 conversion factors.
 
-##### Table 3: Approximate Values of Length, Mass, and Time
+#### Table 3: Approximate Values of Length, Mass, and Time
 
 |                | Lengths in meters                                               |                | Masses in kilograms (more precise values in parentheses) |                | Times in seconds (more precise values in parentheses) |
 | -------------- | --------------------------------------------------------------- | -------------- | -------------------------------------------------------- | -------------- | ----------------------------------------------------- |
