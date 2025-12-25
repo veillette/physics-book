@@ -37,11 +37,29 @@ class OrphanFileFinder {
     this.assetsDir = path.join(this.baseDir, 'assets');
     this.generateCleanup = options.generateCleanup || false;
 
-    // Files to exclude from orphan detection
+    // Files to exclude from orphan detection (referenced from HTML layouts, manifest, etc.)
     this.excludedFiles = new Set([
+      // Images referenced in HTML layouts
       'assets/image/imagePWA.png',
-      'assets/icon/apple-touch-icon-180x180.png',
+      'assets/image/favicon.ico',
       'resources/by_license.svg',
+      // PWA manifest and offline page
+      'assets/manifest/manifest.json',
+      'assets/pwa/offline.html',
+      // Icons referenced in manifest.json and HTML
+      'assets/icon/apple-touch-icon-180x180.png',
+      'assets/icon/icon-48x48.png',
+      'assets/icon/icon-72x72.png',
+      'assets/icon/icon-96x96.png',
+      'assets/icon/icon-128x128.png',
+      'assets/icon/icon-144x144.png',
+      'assets/icon/icon-152x152.png',
+      'assets/icon/icon-168x168.png',
+      'assets/icon/icon-192x192.png',
+      'assets/icon/icon-192x192-maskable.png',
+      'assets/icon/icon-384x384.png',
+      'assets/icon/icon-512x512.png',
+      'assets/icon/icon-512x512-maskable.png',
     ]);
 
     this.stats = {
