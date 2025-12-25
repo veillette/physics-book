@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * fix-liquid-syntax.js
+ * Liquid Syntax Fixer Script
  *
  * Detects and fixes Liquid syntax errors in markdown files that occur when
  * LaTeX math expressions contain patterns that look like Liquid variables.
@@ -13,54 +13,87 @@
  * Solution: Wraps problematic math expressions with {% raw %} tags.
  *
  * Usage:
- *   node scripts/fix-liquid-syntax.js [options] [files...]
+ *   node scripts/fix-liquid-syntax.js [options] [directory]
  *
  * Options:
- *   --apply      Apply fixes to files (default: dry run)
- *   --help       Show this help message
- *
- * Examples:
- *   node scripts/fix-liquid-syntax.js                    # Check all files
- *   node scripts/fix-liquid-syntax.js --apply            # Fix all files
- *   node scripts/fix-liquid-syntax.js contents/ch13*.md  # Check specific files
+ *   --fix, --apply     Apply fixes to files
+ *   --strict           Enable stricter validation
+ *   --help, -h         Show help message
  */
 
-import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import {
+  printHeader,
+  printDivider,
+  printErrors,
+  printFixes,
+  printSuccess,
+  printSummary,
+} from './lib/reporter.js';
 
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { findMarkdownFiles, readFile, writeFile, getBaseDir } from './lib/files.js';
+
+/**
+ * Liquid syntax fixer class.
+ */
 class LiquidSyntaxFixer {
   constructor(options = {}) {
-    this.baseDir = options.baseDir || path.join(__dirname, '..');
-    this.contentDir = path.join(this.baseDir, 'contents');
-    this.applyFix = options.applyFix || false;
+    this.apply = options.apply || false;
+    this.strict = options.strict || false;
+    this.baseDir = getBaseDir(import.meta.url);
+    this.errors = [];
+    this.warnings = [];
+    this.fixes = [];
+    this.filesChecked = 0;
+    this.filesFixed = 0;
 
     // Pattern to detect math expressions
     // eslint-disable-next-line no-useless-escape
     this.inlineMathPattern = /\$(?!\$)([^\$]+)\$/g;
     // eslint-disable-next-line no-useless-escape
     this.blockMathPattern = /\$\$([^\$]+)\$\$/g;
+  }
 
-    this.stats = {
-      filesProcessed: 0,
-      filesWithIssues: 0,
-      filesFixed: 0,
-      totalIssues: 0,
-    };
+  /**
+   * Process all files in a directory.
+   * @param {string} directory - Directory to process
+   * @returns {Promise<boolean>} - Success status
+   */
+  async process(directory = 'contents') {
+    const emoji = this.apply ? '🔧' : '🔍';
+    const title = this.apply ? 'Liquid Syntax Fix' : 'Liquid Syntax Check';
 
-    this.issues = [];
+    printHeader(emoji, title);
+
+    if (!this.apply) {
+      console.log('Mode: CHECK ONLY (dry run)\n');
+    } else {
+      console.log('Mode: APPLY FIXES\n');
+    }
+
+    const files = await findMarkdownFiles(directory);
+    console.log(`Found ${files.length} markdown files\n`);
+
+    for (const file of files) {
+      this.processFile(file);
+    }
+
+    this.printResults();
+    return this.errors.length === 0;
   }
 
   /**
    * Check for Liquid syntax conflicts in text.
-   * Returns array of issues with line numbers.
+   * @param {string} content - File content
+   * @param {string} fileName - File name
+   * @returns {Array} - Array of issues
    */
-  checkForLiquidConflicts(text, filename) {
+  checkForLiquidConflicts(content, fileName) {
     const issues = [];
-    const lines = text.split('\n');
+    const lines = content.split('\n');
 
     lines.forEach((line, index) => {
       const lineNum = index + 1;
@@ -84,10 +117,10 @@ class LiquidSyntaxFixer {
             if (!remaining.match(/\{\{[^}]*\}\}/)) {
               // Found an improperly closed {{ pattern
               issues.push({
-                file: filename,
+                file: fileName,
                 line: lineNum,
-                content: line.trim(),
-                type: 'Unclosed {{ in math expression',
+                message: 'Unclosed {{ in math expression',
+                text: line.trim().substring(0, 80) + (line.trim().length > 80 ? '...' : ''),
               });
               break; // Only report once per line
             }
@@ -139,23 +172,34 @@ class LiquidSyntaxFixer {
   /**
    * Fix Liquid syntax errors in file content.
    */
-  fixContent(content) {
+  fixContent(content, fileName) {
     const lines = content.split('\n');
     const fixedLines = [];
+    let fixCount = 0;
 
-    lines.forEach(line => {
+    lines.forEach((line, index) => {
+      const lineNum = index + 1;
+
       // Skip lines already wrapped in raw tags
       if (line.includes('{%') && line.includes('raw')) {
         fixedLines.push(line);
         return;
       }
 
+      const originalLine = line;
+
       // Check for block math ($$...$$)
       if (line.includes('$$')) {
         line = line.replace(this.blockMathPattern, (match, mathContent) => {
           const fixed = this.fixMathExpression(mathContent, '$$');
           if (fixed !== `$$${mathContent}$$`) {
-            this.stats.totalIssues++;
+            fixCount++;
+            this.fixes.push({
+              file: fileName,
+              line: lineNum,
+              before: originalLine.trim(),
+              after: line.trim(),
+            });
           }
           return fixed;
         });
@@ -164,7 +208,7 @@ class LiquidSyntaxFixer {
         line = line.replace(this.inlineMathPattern, (match, mathContent) => {
           const fixed = this.fixMathExpression(mathContent, '$');
           if (fixed !== `$${mathContent}$`) {
-            this.stats.totalIssues++;
+            fixCount++;
           }
           return fixed;
         });
@@ -173,189 +217,89 @@ class LiquidSyntaxFixer {
       fixedLines.push(line);
     });
 
-    return fixedLines.join('\n');
+    return { content: fixedLines.join('\n'), fixCount };
   }
 
   /**
-   * Process a single file
+   * Process a single file.
+   * @param {string} filePath - Path to file
    */
-  processFile(filepath) {
-    this.stats.filesProcessed++;
+  processFile(filePath) {
+    this.filesChecked++;
+    const content = readFile(filePath);
+    const fileName = path.basename(filePath);
 
-    try {
-      const content = fs.readFileSync(filepath, 'utf-8');
-      const filename = path.relative(this.baseDir, filepath);
+    // Check for issues
+    const fileIssues = this.checkForLiquidConflicts(content, fileName);
 
-      // Check for issues
-      const fileIssues = this.checkForLiquidConflicts(content, filename);
-
-      if (fileIssues.length === 0) {
-        return { hasIssues: false };
-      }
-
-      this.stats.filesWithIssues++;
-      this.issues.push(...fileIssues);
-
-      // Fix if in apply mode
-      if (this.applyFix) {
-        const fixedContent = this.fixContent(content);
-
-        if (fixedContent !== content) {
-          fs.writeFileSync(filepath, fixedContent, 'utf-8');
-          this.stats.filesFixed++;
-          return { hasIssues: true, fixed: true };
-        }
-      }
-
-      return { hasIssues: true, fixed: false };
-    } catch (error) {
-      console.error(`❌ Error processing ${filepath}: ${error.message}`);
-      return { hasIssues: false, error: true };
-    }
-  }
-
-  /**
-   * Process all files in a directory or specific files
-   */
-  async processFiles(files) {
-    if (files.length === 0) {
-      // Process all markdown files in contents/
-      try {
-        const allFiles = fs.readdirSync(this.contentDir);
-        files = allFiles
-          .filter(file => file.endsWith('.md'))
-          .map(file => path.join(this.contentDir, file));
-      } catch (error) {
-        console.error(`❌ Error reading contents directory: ${error.message}`);
-        process.exit(1);
-      }
-    }
-
-    for (const filepath of files) {
-      if (!fs.existsSync(filepath)) {
-        console.error(`❌ File not found: ${filepath}`);
-        continue;
-      }
-
-      this.processFile(filepath);
-    }
-  }
-
-  /**
-   * Print final report
-   */
-  printReport() {
-    console.log(`\n${'='.repeat(60)}`);
-
-    if (this.stats.filesWithIssues === 0) {
-      console.log('✅ No Liquid syntax conflicts found!');
-      console.log(`\nProcessed ${this.stats.filesProcessed} file(s)`);
+    if (fileIssues.length === 0) {
       return;
     }
 
-    if (this.applyFix) {
-      console.log(
-        `✅ Fixed ${this.stats.totalIssues} issue(s) in ${this.stats.filesFixed} file(s)`
-      );
-    } else {
-      console.log(
-        `⚠️  Found ${this.issues.length} issue(s) in ${this.stats.filesWithIssues} file(s)`
-      );
-      console.log('\nRun with --apply to fix these issues.');
-    }
+    this.errors.push(...fileIssues);
 
-    console.log(`\nProcessed ${this.stats.filesProcessed} file(s)`);
-  }
+    // Fix if in apply mode
+    if (this.apply) {
+      const { content: fixedContent, fixCount } = this.fixContent(content, fileName);
 
-  /**
-   * Print issues found
-   */
-  printIssues() {
-    if (this.issues.length === 0) return;
-
-    console.log('\n📋 Issues found:\n');
-
-    let currentFile = '';
-    for (const issue of this.issues) {
-      if (issue.file !== currentFile) {
-        currentFile = issue.file;
-        console.log(`\n📄 ${issue.file}:`);
+      if (fixedContent !== content && fixCount > 0) {
+        writeFile(filePath, fixedContent);
+        this.filesFixed++;
       }
-      console.log(`   Line ${issue.line}: ${issue.type}`);
-      const preview =
-        issue.content.length > 80 ? `${issue.content.substring(0, 80)}...` : issue.content;
-      console.log(`   ${preview}`);
     }
   }
 
   /**
-   * Run the fixer
+   * Print results.
    */
-  async run(files = []) {
-    console.log('🔧 Liquid Syntax Error Fixer\n');
-    console.log(`Mode: ${this.applyFix ? 'APPLY FIXES' : 'CHECK ONLY (dry run)'}\n`);
+  printResults() {
+    printDivider();
 
-    await this.processFiles(files);
+    console.log(`Files checked: ${this.filesChecked}`);
 
-    if (!this.applyFix) {
-      this.printIssues();
+    if (this.apply) {
+      printFixes(this.fixes, this.filesFixed, true);
+    } else {
+      printErrors(this.errors);
     }
 
-    this.printReport();
+    if (this.errors.length === 0) {
+      printSuccess('No Liquid syntax conflicts found!');
+    } else if (!this.apply) {
+      console.log('\nRun with --apply or --fix to fix these issues.');
+    }
 
-    return this.stats.filesWithIssues === 0;
+    printDivider();
+    printSummary(this.apply ? 0 : this.errors.length, this.warnings.length);
   }
 }
 
-// CLI
-async function main() {
-  const args = process.argv.slice(2);
-
-  if (args.includes('--help') || args.includes('-h')) {
-    console.log(`
-🔧 Liquid Syntax Error Fixer
-
-Detects and fixes Liquid syntax errors in LaTeX math expressions.
-
-Usage:
-  node scripts/fix-liquid-syntax.js [options] [files...]
-
-Options:
-  --apply      Apply fixes to files (default: check only)
-  --help, -h   Show this help message
-
-Examples:
-  node scripts/fix-liquid-syntax.js                    # Check all files
-  node scripts/fix-liquid-syntax.js --apply            # Fix all files
-  node scripts/fix-liquid-syntax.js contents/ch13*.md  # Check specific files
-
-Common patterns that trigger errors:
-  - {{v}_{{\\text{{...}}}}  - subscripted variable in double braces
-  - {{f}}_{{...}}          - any variable in double braces with subscript
-  - \\frac{{{{a}}_{{...}}}}{{{{b}}_{{...}}}}  - fractions with subscripted terms
-
-Solution:
-  Wraps problematic expressions with {{% raw %}} tags to prevent Liquid parsing.
-`);
-    process.exit(0);
-  }
-
-  const applyFix = args.includes('--apply');
-  const files = args.filter(arg => !arg.startsWith('--'));
-
-  const fixer = new LiquidSyntaxFixer({ applyFix });
-  const success = await fixer.run(files);
-
-  process.exit(success ? 0 : 1);
-}
-
-// Run main only when executed directly
-if (import.meta.url === `file://${process.argv[1]}`) {
-  main().catch(error => {
-    console.error('Error:', error);
-    process.exit(1);
-  });
-}
+// CLI Configuration
+runCli({
+  name: 'fix-liquid-syntax',
+  description: `Detects and fixes Liquid syntax errors in LaTeX math expressions:
+- Finds {{ patterns that conflict with Liquid templating
+- Wraps problematic expressions with {% raw %} tags
+- Preserves already-wrapped expressions`,
+  flags: {
+    strict: STANDARD_FLAGS.strict,
+    apply: STANDARD_FLAGS.apply,
+    fix: STANDARD_FLAGS.fix,
+  },
+  examples: [
+    'node scripts/fix-liquid-syntax.js',
+    'node scripts/fix-liquid-syntax.js --apply',
+    'node scripts/fix-liquid-syntax.js --fix',
+    'node scripts/fix-liquid-syntax.js contents/',
+  ],
+  run: async options => {
+    const fixer = new LiquidSyntaxFixer({
+      strict: options.strict,
+      apply: options.apply || options.fix,
+    });
+    return fixer.process(options.directory);
+  },
+});
 
 // Export for testing
 export { LiquidSyntaxFixer };

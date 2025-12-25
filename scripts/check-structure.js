@@ -9,28 +9,62 @@
  * - Front matter consistency
  * - File naming conventions
  * - Proper document organization
+ *
+ * Usage:
+ *   node scripts/check-structure.js [options] [directory]
+ *
+ * Options:
+ *   --strict          Enable stricter validation
+ *   --help            Show this help message
  */
 
-import fs from 'fs';
 import path from 'path';
-import { glob } from 'glob';
 import matter from 'gray-matter';
-import chalk from 'chalk';
 
+import { ContentParser } from './lib/parser.js';
+
+import {
+  printHeader,
+  printDivider,
+  printFileCount,
+  printStrictModeNotice,
+  printErrors,
+  printWarnings,
+  printSuccess,
+  printSummary,
+  printOverview,
+} from './lib/reporter.js';
+
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { findMarkdownFiles, readFile } from './lib/files.js';
+
+/**
+ * Structure validator class.
+ */
 class StructureValidator {
   constructor(options = {}) {
     this.strict = options.strict || false;
     this.errors = [];
     this.warnings = [];
     this.chapters = new Map();
+    this.parser = new ContentParser();
   }
 
+  /**
+   * Validate all files in a directory.
+   * @param {string} directory - Directory to validate
+   * @returns {Promise<boolean>} - Success status
+   */
   async validate(directory = 'contents') {
-    console.log(chalk.blue.bold('🏗️  Document Structure Validation'));
-    console.log(chalk.gray('─'.repeat(60)));
+    printHeader('🏗️', 'Document Structure Validation');
 
-    const files = await glob(`${directory}/**/*.md`);
-    console.log(chalk.gray(`Found ${files.length} markdown files\n`));
+    if (this.strict) {
+      printStrictModeNotice();
+    }
+
+    const files = await findMarkdownFiles(directory);
+    printFileCount(files.length);
 
     // First pass: collect all chapters
     for (const file of files) {
@@ -49,8 +83,11 @@ class StructureValidator {
     return this.errors.length === 0;
   }
 
+  /**
+   * Collect chapter information from a file.
+   */
   async collectChapterInfo(filePath) {
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const content = readFile(filePath);
     const { data } = matter(content);
 
     if (data.chapterNumber) {
@@ -65,26 +102,23 @@ class StructureValidator {
     }
   }
 
+  /**
+   * Validate a single file.
+   */
   async validateFile(filePath) {
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const _fileName = path.basename(filePath);
-
-    // Validate front matter
-    this.validateFrontMatter(filePath, content);
-
-    // Validate file naming
-    this.validateFileNaming(filePath);
-
-    // Validate heading hierarchy
-    this.validateHeadingHierarchy(filePath, content);
-
-    // Validate chapter/section structure
-    this.validateChapterSectionStructure(filePath, content);
-  }
-
-  validateFrontMatter(filePath, content) {
+    const content = readFile(filePath);
     const fileName = path.basename(filePath);
 
+    this.validateFrontMatter(fileName, content);
+    this.validateFileNaming(fileName);
+    this.validateHeadingHierarchy(fileName, content);
+    this.validateChapterSectionStructure(fileName, content);
+  }
+
+  /**
+   * Validate front matter.
+   */
+  validateFrontMatter(fileName, content) {
     let frontMatter;
     try {
       frontMatter = matter(content);
@@ -136,13 +170,13 @@ class StructureValidator {
     }
   }
 
-  validateFileNaming(filePath) {
-    const fileName = path.basename(filePath);
-
-    // Check for proper naming convention
+  /**
+   * Validate file naming conventions.
+   */
+  validateFileNaming(fileName) {
     const validPatterns = [
-      /^ch\d+[A-Z][a-zA-Z]+\.md$/, // ch10AngularMomentum.md
-      /^appendix[A-Z]\.md$/, // appendixA.md
+      /^ch\d+[A-Z][a-zA-Z]+\.md$/,
+      /^appendix[A-Z]\.md$/,
       /^Glossary\.md$/,
       /^README\.md$/,
       /^SUMMARY\.md$/,
@@ -159,7 +193,6 @@ class StructureValidator {
       });
     }
 
-    // Check for spaces in filename
     if (fileName.includes(' ')) {
       this.errors.push({
         file: fileName,
@@ -167,7 +200,6 @@ class StructureValidator {
       });
     }
 
-    // Check for lowercase chapter files
     if (fileName.match(/^ch\d+[a-z]/)) {
       this.warnings.push({
         file: fileName,
@@ -176,35 +208,27 @@ class StructureValidator {
     }
   }
 
-  validateHeadingHierarchy(filePath, content) {
-    const fileName = path.basename(filePath);
+  /**
+   * Validate heading hierarchy.
+   */
+  validateHeadingHierarchy(fileName, content) {
     const lines = content.split('\n');
+    this.parser.reset();
 
-    let inFrontMatter = false;
-    let frontMatterEnded = false;
     let previousLevel = 0;
     const headingStack = [];
 
     for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].trim();
+      const line = lines[i];
       const lineNum = i + 1;
 
-      // Track front matter
-      if (line === '---') {
-        if (!frontMatterEnded) {
-          inFrontMatter = !inFrontMatter;
-          if (!inFrontMatter) frontMatterEnded = true;
-        }
-        continue;
-      }
+      const result = this.parser.processLine(line);
+      if (!result.isContent) continue;
 
-      if (inFrontMatter) continue;
-
-      // Check for ATX-style headings
       const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
       if (headingMatch) {
         const level = headingMatch[1].length;
-        const text = headingMatch[2];
+        const text = headingMatch[2].trim();
 
         // Check for skipped levels
         if (previousLevel > 0 && level > previousLevel + 1) {
@@ -212,31 +236,27 @@ class StructureValidator {
             file: fileName,
             line: lineNum,
             message: `Heading level skipped: jumped from h${previousLevel} to h${level}`,
-            text: line,
+            text: line.trim(),
           });
         }
 
         // Check for empty headings
-        if (text.trim().length === 0) {
+        if (text.length === 0) {
           this.errors.push({
             file: fileName,
             line: lineNum,
             message: 'Empty heading',
-            text: line,
+            text: line.trim(),
           });
         }
 
         // Check for proper capitalization
-        if (
-          level <= 2 &&
-          text.charAt(0) !== text.charAt(0).toUpperCase() &&
-          !text.startsWith('$')
-        ) {
+        if (level <= 2 && text.charAt(0) !== text.charAt(0).toUpperCase() && !text.startsWith('$')) {
           this.warnings.push({
             file: fileName,
             line: lineNum,
             message: 'Major heading should start with capital letter',
-            text: line,
+            text: line.trim(),
           });
         }
 
@@ -254,38 +274,26 @@ class StructureValidator {
     }
   }
 
-  validateChapterSectionStructure(filePath, content) {
-    const fileName = path.basename(filePath);
-    const { data: _data } = matter(content);
-
-    // Skip non-chapter files
+  /**
+   * Validate chapter/section structure.
+   */
+  validateChapterSectionStructure(fileName, content) {
     if (!fileName.startsWith('ch')) return;
 
     const chapterMatch = fileName.match(/^ch(\d+)/);
     if (!chapterMatch) return;
 
     const expectedChapter = parseInt(chapterMatch[1]);
-
-    // Check if chapter has proper introduction
     const lines = content.split('\n');
+    this.parser.reset();
+
     let hasIntro = false;
-    let inFrontMatter = false;
-    let frontMatterEnded = false;
 
     for (const line of lines) {
-      if (line.trim() === '---') {
-        if (!frontMatterEnded) {
-          inFrontMatter = !inFrontMatter;
-          if (!inFrontMatter) frontMatterEnded = true;
-        }
-        continue;
-      }
+      const result = this.parser.processLine(line);
 
-      if (inFrontMatter) continue;
-
-      if (frontMatterEnded && line.trim().length > 0 && !line.trim().startsWith('#')) {
+      if (result.isContent && line.trim().length > 0 && !line.trim().startsWith('#')) {
         hasIntro = true;
-        const _firstContentLine = line.trim();
         break;
       }
 
@@ -302,6 +310,9 @@ class StructureValidator {
     }
   }
 
+  /**
+   * Validate chapter numbering across files.
+   */
   validateChapterNumbering() {
     const sortedChapters = Array.from(this.chapters.keys()).sort((a, b) => a - b);
 
@@ -318,7 +329,7 @@ class StructureValidator {
       }
     }
 
-    // Check for duplicate chapter numbers with different sections
+    // Check for duplicate section numbers
     for (const [chapterNum, files] of this.chapters.entries()) {
       const sections = files.map(f => f.section).filter(s => s !== undefined);
       const uniqueSections = new Set(sections);
@@ -332,65 +343,55 @@ class StructureValidator {
     }
   }
 
+  /**
+   * Print results.
+   */
   printResults() {
-    console.log(chalk.gray('─'.repeat(60)));
+    printDivider();
 
-    if (this.errors.length > 0) {
-      console.log(chalk.red.bold(`\n❌ Errors: ${this.errors.length}`));
-      this.errors.forEach(error => {
-        console.log(chalk.red(`  ${error.file}${error.line ? `:${error.line}` : ''}`));
-        console.log(chalk.gray(`    ${error.message}`));
-        if (error.text) {
-          console.log(chalk.gray(`    "${error.text}"`));
-        }
-      });
-    }
-
-    if (this.warnings.length > 0) {
-      console.log(chalk.yellow.bold(`\n⚠️  Warnings: ${this.warnings.length}`));
-      this.warnings.slice(0, 20).forEach(warning => {
-        console.log(chalk.yellow(`  ${warning.file}${warning.line ? `:${warning.line}` : ''}`));
-        console.log(chalk.gray(`    ${warning.message}`));
-        if (warning.text) {
-          console.log(chalk.gray(`    "${warning.text}"`));
-        }
-      });
-
-      if (this.warnings.length > 20) {
-        console.log(chalk.gray(`  ... and ${this.warnings.length - 20} more warnings`));
-      }
-    }
+    printErrors(this.errors);
+    printWarnings(this.warnings);
 
     if (this.errors.length === 0 && this.warnings.length === 0) {
-      console.log(chalk.green('✅ All structure checks passed!'));
+      printSuccess('All structure checks passed!');
     }
 
-    console.log(chalk.gray(`\n${'─'.repeat(60)}`));
-    console.log(
-      chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
-    );
+    printDivider();
+    printSummary(this.errors.length, this.warnings.length);
 
     // Print chapter overview
     if (this.chapters.size > 0) {
-      console.log(chalk.blue.bold('\n📚 Chapter Overview:'));
       const sortedChapters = Array.from(this.chapters.keys()).sort((a, b) => a - b);
-      sortedChapters.forEach(num => {
-        const files = this.chapters.get(num);
-        console.log(chalk.gray(`  Chapter ${num}: ${files.length} file(s)`));
-      });
+      const items = sortedChapters.map(num => ({
+        label: `Chapter ${num}`,
+        value: `${this.chapters.get(num).length} file(s)`,
+      }));
+      printOverview('📚', 'Chapter Overview', items);
     }
   }
 }
 
-// CLI
-const args = process.argv.slice(2);
-const options = {
-  strict: args.includes('--strict'),
-};
-
-const directory = args.find(arg => !arg.startsWith('--')) || 'contents';
-
-const validator = new StructureValidator(options);
-validator.validate(directory).then(success => {
-  process.exit(success ? 0 : 1);
+// CLI Configuration
+runCli({
+  name: 'check-structure',
+  description: `Validates document structure including:
+- Chapter numbering consistency
+- Section hierarchy (no skipped heading levels)
+- Front matter consistency
+- File naming conventions
+- Proper document organization`,
+  flags: {
+    strict: STANDARD_FLAGS.strict,
+  },
+  examples: [
+    'node scripts/check-structure.js',
+    'node scripts/check-structure.js --strict',
+    'node scripts/check-structure.js contents/',
+  ],
+  run: async options => {
+    const validator = new StructureValidator({
+      strict: options.strict,
+    });
+    return validator.validate(options.directory);
+  },
 });
