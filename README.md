@@ -25,6 +25,20 @@ This open-source textbook aims to make physics education accessible to everyone.
 - **PDF Export**: Generate PDF versions of individual chapters or the complete book.
 - **Free & Open**: Licensed under CC BY-NC-SA 4.0 for educational use.
 
+## 📥 PDF Downloads
+
+Each page features a convenient PDF download button in the upper right corner:
+
+- **Chapter Pages**: Download the complete chapter with all sections
+- **Preface & Summary**: Download the entire book as a single PDF
+
+PDFs are automatically generated weekly (every Sunday) via GitHub Actions and include:
+- Beautifully rendered mathematical equations
+- All figures and diagrams
+- Clean, print-optimized formatting
+
+To manually generate PDFs locally, see [PDF Generation Documentation](./assets/pdf/README.md).
+
 ## 📖 About the Project
 
 This modern, interactive textbook is built with:
