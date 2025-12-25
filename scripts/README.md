@@ -26,7 +26,9 @@ Build and utility scripts for the Physics Book project.
 | update-front-matter | `npm run update:front-matter` | Update YAML front matter |
 | rename-figures | `npm run update:figures` | Rename figures and update refs |
 | convert-webp | `npm run convert:webp` | Convert images to WebP |
+| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters |
 | sync-config | `npm run sync:config` | Sync package.json with \_config.yml |
+| validate-deploy | `npm run deploy:validate` | Validate deployment |
 
 ---
 
@@ -328,7 +330,35 @@ Converts images to WebP format for better compression.
 
 ```bash
 npm run convert:webp
+npm run convert:webp -- --dry-run   # Preview changes
 ```
+
+### convert_math_delimiters.js
+
+Converts LaTeX math delimiters between formats (e.g., `\(...\)` to `$...$`).
+
+```bash
+npm run convert:math-delimiters           # Dry run
+npm run convert:math-delimiters -- --apply  # Apply changes
+```
+
+---
+
+## Deployment Scripts (`deploy:*`)
+
+### validate-deploy.js
+
+Validates deployed site with Playwright browser tests.
+
+```bash
+npm run deploy:validate           # Validate Vercel deployment
+npm run deploy:validate:github    # Validate GitHub Pages
+npm run deploy:validate:verbose   # Verbose output
+```
+
+**Prerequisites:**
+
+- Playwright browsers installed: `npx playwright install chromium`
 
 ---
 
