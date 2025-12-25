@@ -119,6 +119,8 @@ The `fix-liquid-syntax` script will detect these patterns and wrap them with `{%
 
 ### Local Development
 
+#### Setup Steps
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/veillette/physics-book.git

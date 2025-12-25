@@ -65,7 +65,7 @@ $$ \Delta\theta $$ to be **radians** (rad), defined so that
 A comparison of some useful angles expressed in both degrees and radians is
 shown in [Table 1](#Table1).
 
-##### Table 1: Comparison of Angular units
+#### Table 1: Comparison of Angular units
 
 | Degree Measures | Radian Measure |
 | --------------- | -------------- |

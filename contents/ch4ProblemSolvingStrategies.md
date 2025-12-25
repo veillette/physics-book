@@ -817,7 +817,7 @@ Actually, with a larger angle and same applied force, the tension decreases, but
 </div>
 </div>
 
-![](../resources/Figure_04_06_09.jpg){: #Figure6}
+![Diagram showing orthodontic forces applied to a tooth](../resources/Figure_04_06_09.jpg){: #Figure6}
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">

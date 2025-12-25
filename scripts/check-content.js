@@ -275,7 +275,7 @@ class ContentValidator {
 
     // Check for inconsistent angle notation (degrees vs radians)
     const degreePattern = /(\d+)\s*degrees?/i;
-    const radianPattern = /(\d+)\s*radians?/i;
+    const _radianPattern = /(\d+)\s*radians?/i;
 
     if (degreePattern.test(text) && text.includes('rad') && !text.includes('radian')) {
       this.warnings.push({
@@ -326,7 +326,7 @@ class ContentValidator {
       console.log(chalk.green('✅ All content checks passed!'));
     }
 
-    console.log(chalk.gray('\n' + '─'.repeat(60)));
+    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
     console.log(
       chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
     );

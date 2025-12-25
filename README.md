@@ -40,7 +40,9 @@ The entire book is stored directly in GitHub and automatically regenerated whene
 
 Want to contribute or run a local copy? It's easy!
 
-### Prerequisites
+### Getting Started
+
+#### Prerequisites
 
 - **Ruby** 2.7 or higher ([Installation Guide](https://www.ruby-lang.org/en/documentation/installation/))
 - **Node.js** 18+ (for utility scripts)

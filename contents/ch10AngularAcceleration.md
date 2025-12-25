@@ -262,7 +262,7 @@ $$ x $$, $$v $$ and $$ a $$. [Table 1](#Table1)
 displays rotational quantities, the analogous translational quantities, and the
 relationships between them.
 
-##### Table: Rotational and Translational Quantities
+#### Table: Rotational and Translational Quantities
 
 {: #Table1}
 
