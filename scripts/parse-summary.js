@@ -17,11 +17,12 @@
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const baseDir = path.join(__dirname, '..');
+import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
+
+import { runCli } from './lib/cli.js';
+
+import { getBaseDir, readFile, writeFile } from './lib/files.js';
 
 /**
  * Extract chapter and section information from SUMMARY.md markdown content
@@ -83,77 +84,111 @@ function extractInfo(markdown) {
 }
 
 /**
- * Write the parsed data to a JSON file
+ * Summary parser class.
  */
-function writeToJson(chapters, outputFilePath) {
-  const data = JSON.stringify(chapters, null, 2);
-  fs.writeFileSync(outputFilePath, data, 'utf8');
-}
+class SummaryParser {
+  constructor(options = {}) {
+    this.baseDir = getBaseDir(import.meta.url);
+    this.inputFile = options.input
+      ? path.isAbsolute(options.input)
+        ? options.input
+        : path.join(this.baseDir, options.input)
+      : path.join(this.baseDir, 'SUMMARY.md');
+    this.outputFile = options.output
+      ? path.isAbsolute(options.output)
+        ? options.output
+        : path.join(this.baseDir, options.output)
+      : path.join(this.baseDir, 'summary.json');
 
-// CLI
-function main() {
-  const args = process.argv.slice(2);
-
-  if (args.includes('--help')) {
-    console.log(`
-Usage: node scripts/parse-summary.js [options]
-
-Parses SUMMARY.md to generate summary.json with chapter/section structure.
-
-Options:
-  --output <path>   Output file path (default: summary.json)
-  --input <path>    Input SUMMARY.md path (default: SUMMARY.md)
-  --help            Show this help message
-
-Examples:
-  node scripts/parse-summary.js
-  node scripts/parse-summary.js --output _data/summary.json
-`);
-    process.exit(0);
+    this.stats = {
+      chapters: 0,
+      sections: 0,
+      errors: 0,
+    };
   }
 
-  // Parse arguments
-  let inputFile = path.join(baseDir, 'SUMMARY.md');
-  let outputFile = path.join(baseDir, 'summary.json');
+  async run() {
+    printHeader('📚', 'SUMMARY.md Parser');
 
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--input' && args[i + 1]) {
-      inputFile = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
-      i++;
-    } else if (args[i] === '--output' && args[i + 1]) {
-      outputFile = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
-      i++;
+    // Check if input file exists
+    if (!fs.existsSync(this.inputFile)) {
+      console.error(`Error: Input file not found: ${this.inputFile}`);
+      this.stats.errors++;
+      return false;
+    }
+
+    console.log(`Input:  ${this.inputFile}`);
+    console.log(`Output: ${this.outputFile}\n`);
+
+    try {
+      // Read and parse SUMMARY.md
+      const markdown = readFile(this.inputFile);
+      const chapters = extractInfo(markdown);
+
+      this.stats.chapters = chapters.length;
+      this.stats.sections = chapters.reduce((sum, ch) => sum + ch.sections.length, 0);
+
+      // Write JSON output
+      const data = JSON.stringify(chapters, null, 2);
+      writeFile(this.outputFile, data);
+
+      this.printResults();
+      return true;
+    } catch (error) {
+      console.error(`Error: ${error.message}`);
+      this.stats.errors++;
+      return false;
     }
   }
 
-  // Check if input file exists
-  if (!fs.existsSync(inputFile)) {
-    console.error(`Error: Input file not found: ${inputFile}`);
-    process.exit(1);
+  printResults() {
+    printDivider();
+
+    console.log(`\nChapters found:  ${this.stats.chapters}`);
+    console.log(`Sections found:  ${this.stats.sections}`);
+    console.log(`Output file:     ${this.outputFile}`);
+
+    if (this.stats.errors === 0) {
+      printSuccess('Summary parsed successfully!');
+    }
+
+    printDivider();
+    printSummary(this.stats.errors, 0);
   }
-
-  console.log(`Parsing: ${inputFile}`);
-
-  // Read and parse SUMMARY.md
-  const markdown = fs.readFileSync(inputFile, 'utf8');
-  const chapters = extractInfo(markdown);
-
-  // Write JSON output
-  writeToJson(chapters, outputFile);
-
-  console.log(`Generated: ${outputFile}`);
-  console.log(`  - ${chapters.length} chapters found`);
-
-  const totalSections = chapters.reduce((sum, ch) => sum + ch.sections.length, 0);
-  console.log(`  - ${totalSections} sections found`);
-
-  console.log('\n✅ Summary parsed successfully!');
 }
 
-// Run main only when executed directly
-if (import.meta.url === `file://${process.argv[1]}`) {
-  main();
-}
+// CLI Configuration
+runCli({
+  name: 'parse-summary',
+  description: `Parses SUMMARY.md to generate summary.json with chapter/section structure.
+
+The generated JSON file is used by other scripts such as:
+- generate-pdf.js for PDF generation
+- update-front-matter.js for updating YAML front matter`,
+  flags: {
+    input: {
+      flag: '--input',
+      description: 'Input SUMMARY.md path (default: SUMMARY.md)',
+      type: 'string',
+      default: 'SUMMARY.md',
+    },
+    output: {
+      flag: '--output',
+      description: 'Output file path (default: summary.json)',
+      type: 'string',
+      default: 'summary.json',
+    },
+  },
+  examples: [
+    'node scripts/parse-summary.js',
+    'node scripts/parse-summary.js --output _data/summary.json',
+    'node scripts/parse-summary.js --input docs/SUMMARY.md',
+  ],
+  run: async options => {
+    const parser = new SummaryParser(options);
+    return parser.run();
+  },
+});
 
 // Export functions for testing
-export { extractInfo, writeToJson };
+export { extractInfo };

@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 /**
- * convert-to-webp.js
+ * WebP Image Converter Script
  *
  * Converts images (JPG, PNG) to WebP format for better compression.
  *
  * Usage:
- *   node scripts/convert-to-webp.js [options]
+ *   node scripts/convert-webp.js [options]
  *
  * Options:
  *   --input <dir>    Input directory (default: resources)
@@ -19,11 +19,12 @@
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const baseDir = path.join(__dirname, '..');
+import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
+
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { getBaseDir } from './lib/files.js';
 
 // Dynamic import for sharp (optional dependency)
 let sharp;
@@ -37,155 +38,176 @@ async function loadSharp() {
   }
 }
 
-async function convertToWebp(inputDir, outputDir, options = {}) {
-  const { quality = 80, overwrite = false, dryRun = false } = options;
+/**
+ * WebP converter class.
+ */
+class WebPConverter {
+  constructor(options = {}) {
+    this.baseDir = getBaseDir(import.meta.url);
+    this.inputDir = options.input
+      ? path.isAbsolute(options.input)
+        ? options.input
+        : path.join(this.baseDir, options.input)
+      : path.join(this.baseDir, 'resources');
+    this.outputDir = options.output
+      ? path.isAbsolute(options.output)
+        ? options.output
+        : path.join(this.baseDir, options.output)
+      : path.join(this.baseDir, 'resources-webp');
+    this.quality = options.quality || 80;
+    this.overwrite = options.overwrite || false;
+    this.dryRun = options.dryRun || false;
 
-  // Ensure output directory exists
-  if (!dryRun && !fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-    console.log(`Created output directory: ${outputDir}`);
+    this.stats = {
+      total: 0,
+      converted: 0,
+      skipped: 0,
+      errors: 0,
+    };
   }
 
-  const files = fs.readdirSync(inputDir);
-  const imageFiles = files.filter(f => /\.(jpg|jpeg|png)$/i.test(f));
+  async run() {
+    printHeader('🖼️', 'WebP Image Converter');
 
-  console.log(`Found ${imageFiles.length} image(s) to convert\n`);
-
-  let converted = 0;
-  let skipped = 0;
-  let errors = 0;
-
-  for (const file of imageFiles) {
-    const inputPath = path.join(inputDir, file);
-    const baseName = path.basename(file, path.extname(file));
-    const outputPath = path.join(outputDir, `${baseName}.webp`);
-
-    // Skip if output already exists and not overwriting
-    if (!overwrite && fs.existsSync(outputPath)) {
-      console.log(`  ⏭ Skipping (exists): ${file}`);
-      skipped++;
-      continue;
+    // Check for sharp
+    const hasSharp = await loadSharp();
+    if (!hasSharp) {
+      console.error('Error: sharp package is required for image conversion.');
+      console.error('Install it with: npm install sharp');
+      return false;
     }
 
-    if (dryRun) {
+    // Check input directory
+    if (!fs.existsSync(this.inputDir)) {
+      console.error(`Error: Input directory not found: ${this.inputDir}`);
+      return false;
+    }
+
+    console.log(`Input:   ${this.inputDir}`);
+    console.log(`Output:  ${this.outputDir}`);
+    console.log(`Quality: ${this.quality}`);
+
+    if (this.dryRun) {
+      console.log('\n(DRY RUN - no files will be converted)\n');
+    } else {
+      console.log();
+    }
+
+    // Ensure output directory exists
+    if (!this.dryRun && !fs.existsSync(this.outputDir)) {
+      fs.mkdirSync(this.outputDir, { recursive: true });
+      console.log(`Created output directory: ${this.outputDir}`);
+    }
+
+    // Get image files
+    const files = fs.readdirSync(this.inputDir);
+    const imageFiles = files.filter(f => /\.(jpg|jpeg|png)$/i.test(f));
+
+    this.stats.total = imageFiles.length;
+    console.log(`Found ${imageFiles.length} image(s) to convert\n`);
+
+    // Convert each image
+    for (const file of imageFiles) {
+      await this.convertImage(file);
+    }
+
+    this.printResults();
+    return this.stats.errors === 0;
+  }
+
+  async convertImage(file) {
+    const inputPath = path.join(this.inputDir, file);
+    const baseName = path.basename(file, path.extname(file));
+    const outputPath = path.join(this.outputDir, `${baseName}.webp`);
+
+    // Skip if output exists and not overwriting
+    if (!this.overwrite && fs.existsSync(outputPath)) {
+      console.log(`  ⏭ Skipping (exists): ${file}`);
+      this.stats.skipped++;
+      return;
+    }
+
+    if (this.dryRun) {
       console.log(`  📷 Would convert: ${file} -> ${baseName}.webp`);
-      converted++;
-      continue;
+      this.stats.converted++;
+      return;
     }
 
     try {
-      await sharp(inputPath).webp({ quality }).toFile(outputPath);
+      await sharp(inputPath).webp({ quality: this.quality }).toFile(outputPath);
 
       const inputStats = fs.statSync(inputPath);
       const outputStats = fs.statSync(outputPath);
       const savings = ((1 - outputStats.size / inputStats.size) * 100).toFixed(1);
 
       console.log(`  ✓ ${file} -> ${baseName}.webp (${savings}% smaller)`);
-      converted++;
+      this.stats.converted++;
     } catch (error) {
       console.error(`  ✗ ${file}: ${error.message}`);
-      errors++;
+      this.stats.errors++;
     }
   }
 
-  return { converted, skipped, errors, total: imageFiles.length };
-}
+  printResults() {
+    printDivider();
 
-// CLI
-async function main() {
-  const args = process.argv.slice(2);
-
-  if (args.includes('--help')) {
-    console.log(`
-Usage: node scripts/convert-to-webp.js [options]
-
-Converts images (JPG, PNG) to WebP format for better compression.
-
-Options:
-  --input <dir>    Input directory (default: resources)
-  --output <dir>   Output directory (default: resources-webp)
-  --quality <num>  WebP quality 0-100 (default: 80)
-  --overwrite      Overwrite existing WebP files
-  --dry-run        Show what would be converted without converting
-  --help           Show this help message
-
-Examples:
-  node scripts/convert-to-webp.js
-  node scripts/convert-to-webp.js --quality 90 --overwrite
-  node scripts/convert-to-webp.js --input images --output images-webp
-`);
-    process.exit(0);
-  }
-
-  // Check for sharp
-  const hasSharp = await loadSharp();
-  if (!hasSharp) {
-    console.error('Error: sharp package is required for image conversion.');
-    console.error('Install it with: npm install sharp');
-    process.exit(1);
-  }
-
-  // Parse arguments
-  let inputDir = path.join(baseDir, 'resources');
-  let outputDir = path.join(baseDir, 'resources-webp');
-  let quality = 80;
-  const overwrite = args.includes('--overwrite');
-  const dryRun = args.includes('--dry-run');
-
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--input' && args[i + 1]) {
-      inputDir = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
-      i++;
-    } else if (args[i] === '--output' && args[i + 1]) {
-      outputDir = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
-      i++;
-    } else if (args[i] === '--quality' && args[i + 1]) {
-      quality = parseInt(args[i + 1]) || 80;
-      i++;
+    console.log(`\nTotal images:    ${this.stats.total}`);
+    console.log(`Converted:       ${this.stats.converted}`);
+    console.log(`Skipped:         ${this.stats.skipped}`);
+    if (this.stats.errors > 0) {
+      console.log(`Errors:          ${this.stats.errors}`);
     }
-  }
 
-  // Check input directory
-  if (!fs.existsSync(inputDir)) {
-    console.error(`Error: Input directory not found: ${inputDir}`);
-    process.exit(1);
-  }
+    if (this.stats.errors === 0) {
+      printSuccess('Conversion completed!');
+    } else {
+      console.log('\n⚠️ Some conversions failed.');
+    }
 
-  console.log('WebP Image Converter');
-  console.log('='.repeat(60));
-  console.log(`Input:   ${inputDir}`);
-  console.log(`Output:  ${outputDir}`);
-  console.log(`Quality: ${quality}`);
-
-  if (dryRun) {
-    console.log('\n(DRY RUN - no files will be converted)');
-  }
-
-  console.log();
-
-  const results = await convertToWebp(inputDir, outputDir, { quality, overwrite, dryRun });
-
-  // Summary
-  console.log(`\n${'='.repeat(60)}`);
-  console.log('SUMMARY');
-  console.log('='.repeat(60));
-
-  console.log(`\nTotal images:    ${results.total}`);
-  console.log(`Converted:       ${results.converted}`);
-  console.log(`Skipped:         ${results.skipped}`);
-  if (results.errors > 0) {
-    console.log(`Errors:          ${results.errors}`);
-  }
-
-  if (results.errors === 0) {
-    console.log('\n✅ Conversion completed!');
-  } else {
-    console.log('\n⚠️ Some conversions failed.');
-    process.exit(1);
+    printDivider();
+    printSummary(this.stats.errors, 0);
   }
 }
 
-main().catch(error => {
-  console.error('Error:', error.message);
-  process.exit(1);
+// CLI Configuration
+runCli({
+  name: 'convert-webp',
+  description: `Converts images (JPG, PNG) to WebP format for better compression.
+Requires the 'sharp' package to be installed.`,
+  flags: {
+    input: {
+      flag: '--input',
+      description: 'Input directory (default: resources)',
+      type: 'string',
+      default: 'resources',
+    },
+    output: {
+      flag: '--output',
+      description: 'Output directory (default: resources-webp)',
+      type: 'string',
+      default: 'resources-webp',
+    },
+    quality: {
+      flag: '--quality',
+      description: 'WebP quality 0-100 (default: 80)',
+      type: 'number',
+      default: 80,
+    },
+    overwrite: {
+      flag: '--overwrite',
+      description: 'Overwrite existing WebP files',
+      default: false,
+    },
+    dryRun: STANDARD_FLAGS.dryRun,
+  },
+  examples: [
+    'node scripts/convert-webp.js',
+    'node scripts/convert-webp.js --quality 90 --overwrite',
+    'node scripts/convert-webp.js --input images --output images-webp',
+    'node scripts/convert-webp.js --dry-run',
+  ],
+  run: async options => {
+    const converter = new WebPConverter(options);
+    return converter.run();
+  },
 });
