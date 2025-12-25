@@ -4,46 +4,147 @@ Build and utility scripts for the Physics Book project.
 
 ## Quick Reference
 
-| Script              | Command                        | Description                         |
-| ------------------- | ------------------------------ | ----------------------------------- |
-| check-links         | `npm run check-links`          | Validate internal/external links    |
-| check-orphans       | `npm run check-orphans`        | Find unreferenced files             |
-| check-figures       | `npm run check-figures`        | Validate figure references          |
-| check-math          | `npm run check-math`           | Check LaTeX delimiter balance       |
-| check-accessibility | `npm run check-accessibility`  | Check alt text and accessibility    |
-| check-yaml          | `npm run check-yaml`           | Validate YAML front matter          |
-| check-content       | `npm run check-content`        | Validate content quality            |
-| check-structure     | `npm run check-structure`      | Validate document structure         |
-| check-cross-references | `npm run check-cross-references` | Validate cross-references       |
-| check-equations     | `npm run check-equations`      | Validate equations and math         |
-| check-physics       | `npm run check-physics`        | Verify physics calculations (Python)|
-| validate-content    | `npm run validate-content`     | Auto-fix content quality issues     |
-| validate-equations  | `npm run validate-equations`   | Auto-fix equation formatting        |
-| fix-liquid-syntax   | `npm run fix-liquid-syntax`    | Fix Liquid syntax errors in math    |
-| standardize-links   | `npm run standardize-links`    | Convert links to Jekyll/MyST format |
-| generate-pdf        | `npm run generate-pdf`         | Generate PDF of all chapters        |
-| generate-icons      | `npm run generate-icons`       | Generate PWA icons                  |
-| build-search-index  | `npm run build-search-index`   | Generate search index for PWA       |
-| parse-summary       | `npm run parse-summary`        | Generate summary.json               |
-| update-front-matter | `npm run update-front-matter`  | Update chapter/section in YAML      |
-| rename-figures      | `npm run rename-figures`       | Rename figures and update refs      |
-| convert-webp        | `npm run convert-webp`         | Convert images to WebP              |
-| sync-config         | `npm run sync-config`          | Sync package.json with \_config.yml |
+| Script | Command | Description |
+| --- | --- | --- |
+| content | `npm run check:content` | Validate and fix content quality |
+| equations | `npm run check:equations` | Validate and fix equations |
+| check-links | `npm run check:links` | Validate internal/external links |
+| check-orphans | `npm run check:orphans` | Find unreferenced files |
+| check-figures | `npm run check:figures` | Validate figure references |
+| check-math | `npm run check:math` | Check LaTeX delimiter balance |
+| check-accessibility | `npm run check:accessibility` | Check alt text and accessibility |
+| check-yaml | `npm run check:yaml` | Validate YAML front matter |
+| check-structure | `npm run check:structure` | Validate document structure |
+| check-cross-references | `npm run check:cross-refs` | Validate cross-references |
+| lint-markdown | `npm run lint:markdown` | Lint markdown files |
+| fix-liquid-syntax | `npm run fix:liquid` | Fix Liquid syntax in math |
+| standardize-links | `npm run fix:links` | Convert links to Jekyll format |
+| generate-pdf | `npm run generate:pdf` | Generate PDF of chapters |
+| generate-icons | `npm run generate:icons` | Generate PWA icons |
+| build-index | `npm run generate:search-index` | Generate search index |
+| parse-summary | `npm run parse:summary` | Generate summary.json |
+| update-front-matter | `npm run update:front-matter` | Update YAML front matter |
+| rename-figures | `npm run update:figures` | Rename figures and update refs |
+| convert-webp | `npm run convert:webp` | Convert images to WebP |
+| sync-config | `npm run sync:config` | Sync package.json with \_config.yml |
 
 ---
 
-## Quality Assurance Scripts (`check-*`)
+## Script Naming Convention
 
-All validation scripts follow the `check-*` naming convention.
+All scripts follow a consistent naming convention using colons as separators:
+
+| Prefix | Purpose | Examples |
+| --- | --- | --- |
+| `check:*` | Validation/quality checks | check:links, check:yaml, check:content |
+| `fix:*` | Auto-fix issues | fix:content, fix:equations, fix:liquid |
+| `lint:*` | Lint files | lint:markdown |
+| `generate:*` | File/asset generation | generate:pdf, generate:icons |
+| `parse:*` | Parse/extract data | parse:summary |
+| `update:*` | Update existing files | update:front-matter, update:figures |
+| `convert:*` | Format conversion | convert:webp |
+| `sync:*` | Synchronize data | sync:config |
+| `deploy:*` | Deployment operations | deploy:validate |
+
+### Common Modifiers
+
+- `:strict` - Enable stricter validation (e.g., `check:content:strict`)
+- `:fix` - Apply fixes (e.g., `check:content:fix`)
+- `:apply` - Apply changes to files (e.g., `fix:liquid:apply`)
+
+---
+
+## Shared Utilities Library
+
+All scripts use a shared utilities library in `scripts/lib/`:
+
+```
+scripts/lib/
+├── index.js       # Re-exports all utilities
+├── constants.js   # Shared constants (UNITS, TERMINOLOGY, etc.)
+├── parser.js      # Content parsing utilities
+├── reporter.js    # Output formatting with chalk
+├── cli.js         # CLI argument parsing
+└── files.js       # File operations
+```
+
+### Using the Library
+
+```javascript
+// Import everything
+import { UNITS, ContentParser, printHeader, runCli } from './lib/index.js';
+
+// Or import specific modules
+import { UNITS, TERMINOLOGY } from './lib/constants.js';
+import { ContentParser } from './lib/parser.js';
+import { printHeader, printResults } from './lib/reporter.js';
+```
+
+---
+
+## Consolidated Scripts
+
+### content.js
+
+Combined content validation and fixing script. Replaces the old `check-content.js` and `validate-content.js`.
+
+```bash
+npm run check:content              # Check only
+npm run check:content:strict       # Stricter validation
+npm run check:content:fix          # Apply fixes
+npm run fix:content                # Alias for --fix
+```
+
+**Checks/Fixes:**
+
+- Physical units spacing (e.g., "20m" -> "20 m")
+- Terminology consistency (British -> American English)
+- Duplicate words
+- Common typos
+- Inconsistent notation
+
+**Options:**
+
+- `--fix` - Apply fixes to files
+- `--strict` - Enable stricter validation
+- `--check` - Check only mode
+
+### equations.js
+
+Combined equation validation and fixing script. Replaces the old `check-equations.js` and `validate-equations.js`.
+
+```bash
+npm run check:equations              # Check only
+npm run check:equations:strict       # Stricter validation
+npm run check:equations:fix          # Apply fixes
+npm run fix:equations                # Alias for --fix
+```
+
+**Checks/Fixes:**
+
+- Equation numbering consistency
+- LaTeX syntax errors
+- Unbalanced delimiters (braces, $, \left/\right)
+- Equation references
+- Common LaTeX mistakes
+- Broken inline math
+
+**Options:**
+
+- `--fix` - Apply fixes to files
+- `--strict` - Enable stricter validation
+
+---
+
+## Quality Assurance Scripts (`check:*`)
 
 ### check-links.js
 
 Validates all links (internal and external) in markdown files.
 
 ```bash
-npm run check-links              # Standard check
-npm run check-links:fast         # Faster with shorter timeouts
-npm run test:ci                  # CI-optimized with longer timeouts
+npm run check:links              # Standard check
+npm run check:links:fast         # Faster with shorter timeouts
 ```
 
 **Options:**
@@ -54,49 +155,29 @@ npm run test:ci                  # CI-optimized with longer timeouts
 
 ### check-orphans.js
 
-Detects unreferenced files in `assets/` and `resources/` directories by scanning all content and template files for references.
-
-This script scans for file paths in:
-
-- Markdown (`.md`)
-- HTML (`.html`) - for Jekyll templates and includes
-- CSS (`.css`) - for `url()` references
-- JavaScript (`.js`) - for string literals containing paths
-- JSON (`.json`) - for paths in configuration or manifest files
-
-This ensures that even files referenced in templates or stylesheets are correctly identified.
+Detects unreferenced files in `assets/` and `resources/` directories.
 
 ```bash
-npm run check-orphans            # Report orphaned files
-npm run check-orphans:cleanup    # Generate a cleanup shell script (cleanup-orphans.sh)
+npm run check:orphans            # Report orphaned files
+npm run check:orphans:cleanup    # Generate cleanup script
 ```
 
 ### check-figures.js
 
-Comprehensive figure validation combining multiple checks.
+Comprehensive figure validation.
 
 ```bash
-npm run check-figures            # Run all checks
-npm run check-figures:pattern    # Check filename patterns only
-npm run check-figures:missing    # Check for missing files only
+npm run check:figures            # Run all checks
+npm run check:figures:pattern    # Check filename patterns only
+npm run check:figures:missing    # Check for missing files only
 ```
-
-**Options:**
-
-- `--check-pattern` - Validate figure filename patterns
-- `--check-consistency` - Check figures match chapter/section
-- `--check-duplicates` - Find duplicate references
-- `--check-sequence` - Check sequential numbering
-- `--check-missing` - Find references to missing files
-- `--all` - Run all checks (default)
 
 ### check-math.js
 
-Checks for unbalanced LaTeX math delimiters (`$...$`) in markdown files.
+Checks for unbalanced LaTeX math delimiters.
 
 ```bash
-npm run check-math               # Check contents/ directory
-node scripts/check-math.js path/to/dir  # Custom directory
+npm run check:math               # Check contents/ directory
 ```
 
 ### check-accessibility.js
@@ -104,305 +185,110 @@ node scripts/check-math.js path/to/dir  # Custom directory
 Checks accessibility concerns in markdown files.
 
 ```bash
-npm run check-accessibility          # Standard check
-npm run check-accessibility:strict   # Strict mode with more checks
+npm run check:accessibility          # Standard check
+npm run check:accessibility:strict   # Strict mode
 ```
 
-**Checks performed:**
+**Checks:**
 
 - Missing or empty alt text on images
-- Uninformative alt text (e.g., "image", "figure")
-- Heading level skips (e.g., h1 -> h3)
-- Empty or uninformative link text ("click here", "read more")
-
-**Strict mode adds:**
-
-- Short alt text warnings
-- Bare URL detection
-- Table header validation
-
-**Options:**
-
-- `--strict` - Enable stricter checks
+- Uninformative alt text
+- Heading level skips
+- Empty or uninformative link text
 
 ### check-yaml.js
 
-Validates YAML front matter structure in markdown files.
+Validates YAML front matter structure.
 
 ```bash
-npm run check-yaml               # Standard validation
-npm run check-yaml:strict        # Strict mode
-node scripts/check-yaml.js --required "title,layout,chapterNumber"
+npm run check:yaml               # Standard validation
+npm run check:yaml:strict        # Strict mode
 ```
-
-**Checks performed:**
-
-- Required fields are present (default: title, layout)
-- Field types are correct
-- Layout values are valid
-- YAML syntax is valid
-
-**Strict mode adds:**
-
-- Unknown field warnings
-- Empty value warnings
-- Chapter/section number validation
-- Tab character detection
-- Trailing whitespace warnings
-
-**Options:**
-
-- `--required <fields>` - Comma-separated list of required fields
-- `--strict` - Enable stricter validation
-
-### check-content.js
-
-Validates content quality and consistency in markdown files.
-
-```bash
-npm run check-content          # Standard validation
-npm run check-content:strict   # Strict mode
-```
-
-**Checks performed:**
-
-- Physical units spacing (e.g., "20m" should be "20 m")
-- Common terminology consistency (American English)
-- Duplicate words
-- Common physics typos
-- Inconsistent notation (vector notation, angle units)
-
-**Strict mode adds:**
-
-- Additional notation checks
-- More stringent spacing rules
-
-**Options:**
-
-- `--strict` - Enable stricter validation
 
 ### check-structure.js
 
 Validates document structure and organization.
 
 ```bash
-npm run check-structure          # Standard validation
-npm run check-structure:strict   # Strict mode
+npm run check:structure          # Standard validation
+npm run check:structure:strict   # Strict mode
 ```
-
-**Checks performed:**
-
-- Chapter numbering consistency
-- File naming conventions
-- Front matter consistency
-- Heading hierarchy (no skipped levels)
-- Chapter/section structure
-- Document organization
-
-**Strict mode adds:**
-
-- File naming pattern validation
-- Introduction text requirements
-- Additional structural checks
-
-**Options:**
-
-- `--strict` - Enable stricter validation
 
 ### check-cross-references.js
 
-Validates cross-references between chapters and sections.
+Validates cross-references between chapters.
 
 ```bash
-npm run check-cross-references          # Standard validation
-npm run check-cross-references:strict   # Strict mode
+npm run check:cross-refs          # Standard validation
+npm run check:cross-refs:strict   # Strict mode
 ```
-
-**Checks performed:**
-
-- Internal link validation
-- Broken anchor links
-- Figure reference consistency
-- Table reference consistency
-- Equation reference consistency
-- Cross-chapter reference validation
-
-**Options:**
-
-- `--strict` - Enable stricter validation
-
-### check-equations.js
-
-Validates equations and mathematical notation.
-
-```bash
-npm run check-equations          # Standard validation
-npm run check-equations:strict   # Strict mode
-```
-
-**Checks performed:**
-
-- LaTeX syntax errors
-- Unbalanced delimiters and braces
-- Equation numbering consistency
-- Equation references
-- Common LaTeX mistakes (incomplete commands, missing braces)
-- Empty math blocks
-- Spacing issues in math mode
-
-**Strict mode adds:**
-
-- Equation label verification
-- Additional LaTeX style checks
-
-**Options:**
-
-- `--strict` - Enable stricter validation
 
 ---
 
-## Fix/Repair Scripts (`validate-*` and `fix-*`)
-
-Scripts that automatically fix issues in content files. All fix scripts run in **dry-run mode by default** and require the `--apply` flag to actually modify files.
-
-### validate-content.js
-
-Automatically fixes common content quality issues detected by `check-content.js`.
-
-```bash
-npm run validate-content              # Dry run - show what would be fixed
-npm run validate-content:apply        # Apply fixes to files
-node scripts/validate-content.js contents/ch*.md  # Fix specific files
-```
-
-**Fixes applied:**
-
-- **Unit spacing**: Adds missing spaces before units (e.g., `20m` → `20 m`)
-- **Terminology**: Converts British to American English (`centre` → `center`, `metre` → `meter`)
-- **Duplicate words**: Removes unintentional word repetitions
-- **Common typos**: Fixes physics-specific typos (`velcoity` → `velocity`, `fricion` → `friction`)
-
-**Options:**
-
-- `--apply` - Apply fixes to files (default is dry run)
-
-**Safety:**
-
-- Skips code blocks and LaTeX math to avoid breaking formulas
-- Preserves front matter
-- Shows detailed before/after for all changes
-
-**Combined check + fix workflow:**
-
-```bash
-npm run validate-content:check        # Run check, then preview fixes
-npm run validate-content:check-apply  # Run check, then apply fixes
-```
-
-### validate-equations.js
-
-Automatically fixes equation formatting issues detected by `check-equations.js`.
-
-```bash
-npm run validate-equations            # Dry run - show what would be fixed
-npm run validate-equations:apply      # Apply fixes to files
-```
-
-**Fixes applied:**
-
-- **Broken inline math**: Merges inline math split across lines
-  ```markdown
-  Before: text $$ formula
-          $$
-          more text
-  After:  text $$ formula more text
-  ```
-- **Empty math blocks**: Removes empty `$$ $$` blocks
-
-**Options:**
-
-- `--apply` - Apply fixes to files (default is dry run)
-
-**Safety:**
-
-- Skips code blocks
-- Preserves front matter and YAML structure
-- Only fixes clear formatting errors, not mathematical content
-
-**Combined check + fix workflow:**
-
-```bash
-npm run validate-equations:check        # Run check, then preview fixes
-npm run validate-equations:check-apply  # Run check, then apply fixes
-```
+## Fix Scripts (`fix:*`)
 
 ### fix-liquid-syntax.js
 
-Detects and fixes Liquid syntax errors that occur when LaTeX math expressions contain patterns that look like Liquid template variables.
-
-**The Problem:**
-
-Jekyll's Liquid templating engine interprets `{{` patterns in LaTeX (e.g., `{{v}_{\text{...}}}`) as variable tags. When these aren't properly closed from Liquid's perspective, it causes syntax errors:
-
-```
-Liquid Exception: Liquid syntax error (line 623): Variable '{{v}' was not properly terminated
-```
-
-**The Solution:**
-
-Wraps problematic math expressions with `{% raw %}` tags to prevent Liquid from parsing them.
+Fixes Liquid syntax errors in LaTeX math expressions.
 
 ```bash
-npm run fix-liquid-syntax              # Check for issues (dry run)
-npm run fix-liquid-syntax:apply        # Apply fixes to files
-node scripts/fix-liquid-syntax.js contents/ch13*.md  # Check specific files
+npm run fix:liquid              # Check for issues (dry run)
+npm run fix:liquid:apply        # Apply fixes to files
 ```
 
-**Options:**
+### standardize-links.js
 
-- `--apply` - Apply fixes to files (default is check-only mode)
+Converts internal links to Jekyll/MyST convention.
 
-**Common patterns that trigger errors:**
-
-- `{{v}_{\text{...}}}` - subscripted variable in double braces
-- `{{f}_{...}}` - any variable in double braces with subscript
-- `\frac{{a}_{...}}{{b}_{...}}` - fractions with subscripted numerator/denominator
-
-**Example fix:**
-
-Before:
-```latex
-$$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}$$
-```
-
-After:
-```latex
-{% raw %}$$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}$${% endraw %}
+```bash
+npm run fix:links               # Dry run
+npm run fix:links:apply         # Apply changes
 ```
 
 ---
 
-## Link Transformation
+## Lint Scripts (`lint:*`)
 
-### standardize-links.js
+### lint-markdown.js
 
-Converts internal links to Jekyll/MyST convention (extension-less format).
+Lints markdown files for common issues and physics-specific rules.
 
 ```bash
-npm run standardize-links        # Dry run - show what would change
-npm run standardize-links:apply  # Apply the changes
-node scripts/standardize-links.js --validate  # Just validate links
+npm run lint:markdown            # Dry run
+npm run lint:markdown:apply      # Apply fixes
+npm run lint:markdown:strict     # Strict mode
 ```
 
-**Conversions:**
+---
 
-- `../contents/filename.md` → `./filename`
-- `../contents/filename.md#anchor` → `./filename#anchor`
+## Generation Scripts (`generate:*`)
 
-**Options:**
+### generate-pdf.js
 
-- `--apply` - Apply changes (default is dry run)
-- `--validate` - Only validate existing links
+Generates PDF versions of chapters using Playwright.
+
+```bash
+npm run generate:pdf             # All chapters separately
+npm run generate:pdf:combined    # All chapters in one PDF
+npm run generate:pdf:chapter     # Specific chapter
+npm run generate:pdf:install     # Install Playwright browsers
+```
+
+### generate-icons.js
+
+Generates PWA icons and favicons from source logo.
+
+```bash
+npm run generate:icons
+```
+
+### build-index.js
+
+Creates a searchable index for the PWA using MiniSearch.
+
+```bash
+npm run generate:search-index
+```
 
 ---
 
@@ -410,82 +296,27 @@ node scripts/standardize-links.js --validate  # Just validate links
 
 ### parse-summary.js
 
-Parses `SUMMARY.md` to generate `summary.json` with book structure.
+Parses `SUMMARY.md` to generate `summary.json`.
 
 ```bash
-npm run parse-summary
-node scripts/parse-summary.js --output _data/summary.json
+npm run parse:summary
 ```
-
-**Options:**
-
-- `--input <path>` - Input SUMMARY.md path
-- `--output <path>` - Output JSON path
 
 ### update-front-matter.js
 
-Updates YAML front matter in markdown files with chapter/section numbers.
+Updates YAML front matter with chapter/section numbers.
 
 ```bash
-npm run update-front-matter       # Update all files
-node scripts/update-front-matter.js --dry-run  # Preview changes
+npm run update:front-matter
 ```
-
-**Options:**
-
-- `--summary <path>` - Path to summary.json
-- `--dry-run` - Preview without changes
 
 ### rename-figures.js
 
-Renames figure files and updates all references in markdown.
+Renames figure files and updates all references.
 
 ```bash
-npm run rename-figures -- Figure_01_02_03 Figure_01_02_04
-npm run rename-figures -- --pattern "Figure_01_" "Figure_02_"
-npm run rename-figures -- Figure_01_02_03 Figure_01_02_04 --dry-run
+npm run update:figures -- Figure_01_02_03 Figure_01_02_04
 ```
-
-**Options:**
-
-- `--pattern` - Use pattern matching for bulk renames
-- `--dry-run` - Preview without changes
-
----
-
-## Generation Scripts (`generate-*`)
-
-### generate-pdf.js
-
-Generates PDF versions of chapters using Playwright.
-
-```bash
-npm run generate-pdf             # All chapters separately
-npm run generate-pdf:combined    # All chapters in one PDF
-npm run generate-pdf:chapter     # Specific chapter
-npm run generate-pdf:install     # Install Playwright browsers
-npm run generate-pdf:help        # Show options
-```
-
-**Requirements:**
-
-- Jekyll server running on `localhost:4000`
-- Playwright Chromium browser (`npm run generate-pdf:install`)
-
-### generate-icons.js
-
-Generates PWA icons and favicons from source logo.
-
-```bash
-npm run generate-icons
-```
-
-**Generates:**
-
-- Standard icons (48-512px)
-- Maskable icons with safe zone
-- Apple touch icons
-- Favicon (PNG and ICO)
 
 ---
 
@@ -496,66 +327,8 @@ npm run generate-icons
 Converts images to WebP format for better compression.
 
 ```bash
-npm run convert-webp              # Convert resources/ to resources-webp/
-node scripts/convert-webp.js --quality 90 --overwrite
+npm run convert:webp
 ```
-
-**Options:**
-
-- `--input <dir>` - Input directory (default: resources)
-- `--output <dir>` - Output directory (default: resources-webp)
-- `--quality <num>` - WebP quality 0-100 (default: 80)
-- `--overwrite` - Overwrite existing files
-- `--dry-run` - Preview without converting
-
----
-
-## Build Scripts
-
-### build-index.js
-
-Creates a searchable index for the Physics Book PWA using MiniSearch.
-
-```bash
-npm run build-search-index
-```
-
-**Process:**
-
-1. Scans all HTML files in `_site/` (excluding assets, offline.html, 404.html)
-2. Extracts title and content from each page
-3. Creates a MiniSearch index for full-text search
-4. Outputs `search_index.json` to the `_site/` directory
-
-**Requirements:**
-
-- Jekyll build must be completed first (`npm run build`)
-
-### sync-config.js
-
-Synchronizes configuration values between `package.json` and `_config.yml`.
-
-```bash
-npm run sync-config
-```
-
-**Syncs:**
-
-- Repository URL
-- Base URL (from package name)
-
----
-
-## Configuration Files
-
-### check-links.config.js
-
-Configuration for the link checker including:
-
-- Domains to skip
-- Timeout settings
-- Rate limiting
-- Feature toggles
 
 ---
 
@@ -567,60 +340,23 @@ Full audit of the project:
 npm run audit
 ```
 
-This runs:
+This runs all validation scripts:
 
-1. `check-links` - Link validation
-2. `check-orphans` - Orphan file detection
-3. `check-figures` - Figure validation
-4. `check-yaml` - YAML front matter validation
-5. `check-accessibility` - Accessibility checks
-6. `check-content` - Content quality validation
-7. `check-structure` - Document structure validation
-8. `check-cross-references` - Cross-reference validation
-9. `check-equations` - Equation validation
+1. `check:links` - Link validation
+2. `check:orphans` - Orphan file detection
+3. `check:figures` - Figure validation
+4. `check:yaml` - YAML front matter validation
+5. `check:accessibility` - Accessibility checks
+6. `check:content` - Content quality validation
+7. `check:structure` - Document structure validation
+8. `check:cross-refs` - Cross-reference validation
+9. `check:equations` - Equation validation
 
 For a comprehensive check including all validations:
 
 ```bash
-npm run check-all
+npm run check:all
 ```
-
-This includes everything in `audit` plus:
-
-- `check-math` - Math delimiter balance
-
-To verify physics calculations (requires Python):
-
-```bash
-npm run check-physics
-```
-
----
-
-## Physics Calculation Verification
-
-The project includes `check_math.py` (in root) for verifying physics calculations in the textbook content. This Python script checks that numerical examples and problems have mathematically correct solutions.
-
-```bash
-python check_math.py
-```
-
----
-
-## Script Naming Conventions
-
-| Prefix          | Purpose                   | Examples                     |
-| --------------- | ------------------------- | ---------------------------- |
-| `check-*`       | Validation/quality checks | check-links, check-yaml      |
-| `fix-*`         | Auto-fix issues           | fix-liquid-syntax            |
-| `generate-*`    | File/asset generation     | generate-pdf, generate-icons |
-| `build-*`       | Build outputs/indexes     | build-index                  |
-| `parse-*`       | Parse/extract data        | parse-summary                |
-| `update-*`      | Update existing files     | update-front-matter          |
-| `convert-*`     | Format conversion         | convert-webp                 |
-| `rename-*`      | Rename operations         | rename-figures               |
-| `standardize-*` | Normalize formats         | standardize-links            |
-| `sync-*`        | Synchronize data          | sync-config                  |
 
 ---
 

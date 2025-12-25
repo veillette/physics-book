@@ -440,7 +440,7 @@ class DeploymentValidator {
   }
 
   printResults() {
-    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
+    console.log(chalk.gray(`\n${'─'.repeat(60)}`));
     console.log(chalk.blue.bold('\n📊 Validation Results\n'));
 
     console.log(chalk.green(`✅ Passed:   ${this.checks.passed}`));
@@ -460,7 +460,7 @@ class DeploymentValidator {
       console.log(chalk.gray('Critical issues need to be addressed.'));
     }
 
-    console.log(chalk.gray(`\n${  '─'.repeat(60)}`));
+    console.log(chalk.gray(`\n${'─'.repeat(60)}`));
   }
 }
 
