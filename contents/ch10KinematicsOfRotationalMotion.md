@@ -73,7 +73,7 @@ in [One-Dimensional Kinematics](./ch2Kinematics), we can derive the
 following four rotational kinematic equations (presented together with their
 translational counterparts):
 
-##### Table: Rotational Kinematic Equations
+#### Table: Rotational Kinematic Equations
 
 | Rotational                                      | Translational                       | Conditions                          |
 | ----------------------------------------------- | ----------------------------------- | ----------------------------------- |

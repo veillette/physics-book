@@ -129,7 +129,7 @@ length. [Table 1](#Table1) lists values of $$ Y$$ for several materials—those
 with a large $$ Y $$ are said to have a large tensile stiffness because they
 deform less for a given tension or compression.
 
-##### Table 1: Elastic Moduli [^1]
+#### Table 1: Elastic Moduli [^1]
 
 | Material           | Young’s modulus (tension–compression)Y $$(10^9 \text{N/m}^2)$$ | Shear modulus S $$(10^9 \text{N/m}^2) $$ | Bulk modulus B $$(10^9 \text{N/m}^2) $$ |
 | ------------------ | -------------------------------------------------------------- | ---------------------------------------- | --------------------------------------- |

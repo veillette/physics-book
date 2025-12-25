@@ -159,7 +159,7 @@ solar energy into electrical energy and then into mechanical energy.
 ![A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.](../resources/Figure_07_06_01.jpg 'Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)')
 {: #Figure1}
 
-##### Table 1:Energy of Various Objects and Phenomena
+#### Table 1:Energy of Various Objects and Phenomena
 
 | Object/phenomenon                                | Energy in joules   |
 | ------------------------------------------------ | ------------------ |
@@ -205,7 +205,7 @@ energy in the coal becomes useful electrical energy. The other 60% transforms
 into other (perhaps less useful) energy forms, such as thermal energy, which is
 then released to the environment through combustion gases and cooling towers.
 
-##### Table 2: Efficiency of the Human Body and Mechanical Devices (representative values)
+#### Table 2: Efficiency of the Human Body and Mechanical Devices (representative values)
 
 | Activity/device           | Efficiency (%) |
 | ------------------------- | -------------- |
