@@ -134,6 +134,48 @@ function parser() {
       nextPage.innerHTML = "<i class='fa-solid fa-chevron-right'></i>";
       bookBody.appendChild(nextPage);
     }
+
+    renderPdfDownload();
+  };
+
+  const renderPdfDownload = () => {
+    // Remove existing PDF download button
+    const existingPdfBtn = bookBody.querySelector('.pdf-download-btn');
+    if (existingPdfBtn) {
+      existingPdfBtn.remove();
+    }
+
+    const currentPath = new URL(window.location.href).pathname;
+    let pdfUrl = null;
+    let pdfTitle = '';
+
+    // Determine which PDF to link based on current page
+    // Check if it's the preface or summary page
+    if (currentPath.includes('/preface.html') || currentPath.includes('/SUMMARY.html') || currentPath === BookConfig.baseHref || currentPath === BookConfig.baseHref + '/') {
+      // Link to complete book PDF
+      pdfUrl = BookConfig.baseHref + '/assets/pdf/complete-book.pdf';
+      pdfTitle = 'Download Complete Book PDF';
+    } else {
+      // Try to extract chapter number from the path
+      const chapterMatch = currentPath.match(/\/ch(\d+)/);
+      if (chapterMatch) {
+        const chapterNum = chapterMatch[1].padStart(2, '0');
+        pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
+        pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
+      }
+    }
+
+    // Only add button if we have a PDF URL
+    if (pdfUrl) {
+      const pdfBtn = document.createElement('a');
+      pdfBtn.className = 'pdf-download-btn';
+      pdfBtn.href = pdfUrl;
+      pdfBtn.title = pdfTitle;
+      pdfBtn.setAttribute('aria-label', pdfTitle);
+      pdfBtn.setAttribute('download', '');
+      pdfBtn.innerHTML = "<i class='fa-solid fa-file-pdf'></i>";
+      bookBody.appendChild(pdfBtn);
+    }
   };
 
   /**

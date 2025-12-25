@@ -41,6 +41,7 @@
   .footer-links,
   .edit-link,
   .btn-group,
+  .pdf-download-btn,
   header nav,
   footer nav {
     display: none !important;
