@@ -17,47 +17,69 @@ import chalk from 'chalk';
 
 // Physical units that should have a space before them
 const UNITS = [
-  'm', 'km', 'cm', 'mm', 'nm',
-  's', 'ms', 'ns',
-  'kg', 'g', 'mg',
-  'N', 'J', 'W', 'Pa',
-  'm/s', 'km/h', 'm/s²', 'km/s',
-  'rad', 'deg', '°',
-  'Hz', 'kHz', 'MHz',
-  'V', 'A', 'Ω',
-  'K', '°C', '°F'
+  'm',
+  'km',
+  'cm',
+  'mm',
+  'nm',
+  's',
+  'ms',
+  'ns',
+  'kg',
+  'g',
+  'mg',
+  'N',
+  'J',
+  'W',
+  'Pa',
+  'm/s',
+  'km/h',
+  'm/s²',
+  'km/s',
+  'rad',
+  'deg',
+  '°',
+  'Hz',
+  'kHz',
+  'MHz',
+  'V',
+  'A',
+  'Ω',
+  'K',
+  '°C',
+  '°F',
 ];
 
 // Terminology replacements (British → American English)
 const TERMINOLOGY = {
   'centre of mass': 'center of mass',
-  'metre': 'meter',
-  'metres': 'meters',
-  'analyser': 'analyzer',
-  'analysers': 'analyzers',
-  'labelled': 'labeled',
-  'modelling': 'modeling',
-  'travelled': 'traveled',
-  'travelling': 'traveling',
-  'colour': 'color',
-  'colours': 'colors',
-  'favour': 'favor',
-  'favours': 'favors',
-  'honour': 'honor',
-  'honours': 'honors',
+  metre: 'meter',
+  metres: 'meters',
+  analyser: 'analyzer',
+  analysers: 'analyzers',
+  labelled: 'labeled',
+  modelling: 'modeling',
+  travelled: 'traveled',
+  travelling: 'traveling',
+  colour: 'color',
+  colours: 'colors',
+  favour: 'favor',
+  favours: 'favors',
+  honour: 'honor',
+  honours: 'honors',
 };
 
 // Common typos in physics texts
 const COMMON_TYPOS = {
-  'acceleratoin': 'acceleration',
-  'velcoity': 'velocity',
-  'graivty': 'gravity',
-  'fricion': 'friction',
-  'enegy': 'energy',
-  'momentun': 'momentum',
-  'equaiton': 'equation',
-  'equlibrium': 'equilibrium',
-  'themodynamics': 'thermodynamics',
+  acceleratoin: 'acceleration',
+  velcoity: 'velocity',
+  graivty: 'gravity',
+  fricion: 'friction',
+  enegy: 'energy',
+  momentun: 'momentum',
+  equaiton: 'equation',
+  equlibrium: 'equilibrium',
+  themodynamics: 'thermodynamics',
 };
 
 class ContentFixer {
@@ -159,7 +181,7 @@ class ContentFixer {
           file: fileName,
           line: lineNum,
           before: originalLine.trim(),
-          after: line.trim()
+          after: line.trim(),
         });
       }
 
@@ -197,7 +219,10 @@ class ContentFixer {
         // Pattern: digit followed directly by unit (without space)
         // Exclude degree symbol (°) as it's often intentional
         const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
-        const unitPattern = new RegExp(`(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`, 'g');
+        const unitPattern = new RegExp(
+          `(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`,
+          'g'
+        );
 
         parts[i] = parts[i].replace(unitPattern, (match, digit, unit, offset) => {
           // Avoid false positives in references like "Figure 20m" or dates
@@ -229,7 +254,7 @@ class ContentFixer {
     for (const [british, american] of Object.entries(TERMINOLOGY)) {
       // Use word boundaries to avoid partial matches
       const regex = new RegExp(`\\b${british}\\b`, 'gi');
-      result = result.replace(regex, (match) => {
+      result = result.replace(regex, match => {
         // Preserve case
         if (match[0] === match[0].toUpperCase()) {
           return american.charAt(0).toUpperCase() + american.slice(1);
@@ -258,8 +283,21 @@ class ContentFixer {
       // Ignore intentional repetitions and common patterns
       const lowerWord = word.toLowerCase();
       const commonRepeats = [
-        'that', 'can', 'had', 'will', 'very', 'long', 'well',
-        'is', 'was', 'the', 'no', 'so', 'go', 'do', 'to'
+        'that',
+        'can',
+        'had',
+        'will',
+        'very',
+        'long',
+        'well',
+        'is',
+        'was',
+        'the',
+        'no',
+        'so',
+        'go',
+        'do',
+        'to',
       ];
 
       if (commonRepeats.includes(lowerWord)) {
@@ -324,7 +362,7 @@ class ContentFixer {
 // CLI
 const args = process.argv.slice(2);
 const options = {
-  apply: args.includes('--apply')
+  apply: args.includes('--apply'),
 };
 
 const directory = args.find(arg => !arg.startsWith('--')) || 'contents';

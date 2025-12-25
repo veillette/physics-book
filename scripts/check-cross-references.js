@@ -61,7 +61,7 @@ class CrossReferenceValidator {
       path: filePath,
       chapter: data.chapterNumber,
       section: data.sectionNumber,
-      title: data.title
+      title: data.title,
     });
 
     // Collect all anchors (headings) in the file
@@ -123,9 +123,9 @@ class CrossReferenceValidator {
     return text
       .toLowerCase()
       .replace(/[^\w\s-]/g, '') // Remove special chars
-      .replace(/\s+/g, '-')      // Replace spaces with hyphens
-      .replace(/-+/g, '-')       // Collapse multiple hyphens
-      .replace(/^-|-$/g, '');    // Remove leading/trailing hyphens
+      .replace(/\s+/g, '-') // Replace spaces with hyphens
+      .replace(/-+/g, '-') // Collapse multiple hyphens
+      .replace(/^-|-$/g, ''); // Remove leading/trailing hyphens
   }
 
   async validateFile(filePath) {
@@ -204,7 +204,7 @@ class CrossReferenceValidator {
       text,
       target,
       filePart: filePart || null,
-      anchorPart: anchorPart || null
+      anchorPart: anchorPart || null,
     });
 
     // If it's just an anchor (same-file reference)
@@ -217,7 +217,7 @@ class CrossReferenceValidator {
           file,
           line,
           message: `Broken anchor link: #${anchorPart} not found in current file`,
-          text: `[${text}](${target})`
+          text: `[${text}](${target})`,
         });
       }
     }
@@ -242,7 +242,7 @@ class CrossReferenceValidator {
             file,
             line,
             message: `Broken file reference: ${targetFile}.md not found`,
-            text: `[${text}](${target})`
+            text: `[${text}](${target})`,
           });
           continue;
         }
@@ -255,7 +255,7 @@ class CrossReferenceValidator {
               file,
               line,
               message: `Broken anchor link: #${anchorPart} not found in ${targetFile}.md`,
-              text: `[${text}](${target})`
+              text: `[${text}](${target})`,
             });
           }
         }
@@ -279,7 +279,7 @@ class CrossReferenceValidator {
           file,
           line,
           message: `Figure reference ${match[0]} appears in Chapter ${currentFile.chapter}`,
-          text: text.trim().substring(0, 80)
+          text: text.trim().substring(0, 80),
         });
       }
     }
@@ -301,7 +301,7 @@ class CrossReferenceValidator {
           file,
           line,
           message: `Table reference ${match[0]} appears in Chapter ${currentFile.chapter}`,
-          text: text.trim().substring(0, 80)
+          text: text.trim().substring(0, 80),
         });
       }
     }
@@ -323,7 +323,7 @@ class CrossReferenceValidator {
           file,
           line,
           message: `Equation reference ${match[0]} appears in Chapter ${currentFile.chapter}`,
-          text: text.trim().substring(0, 80)
+          text: text.trim().substring(0, 80),
         });
       }
     }
@@ -359,7 +359,9 @@ class CrossReferenceValidator {
     }
 
     console.log(chalk.gray('\n' + '─'.repeat(60)));
-    console.log(chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`));
+    console.log(
+      chalk.gray(`Summary: ${this.errors.length} errors, ${this.warnings.length} warnings`)
+    );
     console.log(chalk.gray(`Total internal references found: ${this.references.length}`));
   }
 }
@@ -367,7 +369,7 @@ class CrossReferenceValidator {
 // CLI
 const args = process.argv.slice(2);
 const options = {
-  strict: args.includes('--strict')
+  strict: args.includes('--strict'),
 };
 
 const directory = args.find(arg => !arg.startsWith('--')) || 'contents';
