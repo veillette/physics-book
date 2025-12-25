@@ -19,8 +19,8 @@ import { DEFAULT_GLOB_PATTERNS } from './constants.js';
 export function getBaseDir(importMetaUrl) {
   const __filename = fileURLToPath(importMetaUrl);
   const __dirname = path.dirname(__filename);
-  // Go up from scripts/lib/ to project root
-  return path.join(__dirname, '..', '..');
+  // Go up from scripts/ to project root
+  return path.join(__dirname, '..');
 }
 
 /**
