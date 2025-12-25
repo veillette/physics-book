@@ -17,18 +17,19 @@
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import yaml from 'js-yaml';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const baseDir = path.join(__dirname, '..');
+import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
+
+import { runCli, STANDARD_FLAGS } from './lib/cli.js';
+
+import { getBaseDir, readFile, writeFile } from './lib/files.js';
 
 /**
  * Update the YAML front matter in a markdown file
  */
 function updateYAMLBlock(filePath, sectionNumber, chapterNumber, dryRun = false) {
-  const fileContent = fs.readFileSync(filePath, 'utf8');
+  const fileContent = readFile(filePath);
 
   // Regex to locate the YAML front matter block
   const yamlRegex = /^---\s*[\r\n]([\s\S]*?)\r?\n?---\s*[\r\n]/;
@@ -51,7 +52,7 @@ function updateYAMLBlock(filePath, sectionNumber, chapterNumber, dryRun = false)
     const updatedFileContent = fileContent.replace(yamlRegex, `---\n${updatedYAML}---\n\n`);
 
     if (!dryRun) {
-      fs.writeFileSync(filePath, updatedFileContent, 'utf8');
+      writeFile(filePath, updatedFileContent);
     }
 
     return {
@@ -67,132 +68,143 @@ function updateYAMLBlock(filePath, sectionNumber, chapterNumber, dryRun = false)
 }
 
 /**
- * Process all files based on summary data
+ * Front matter updater class.
  */
-function processContentsDirectory(summaryData, dryRun = false) {
-  let updatedCount = 0;
-  let errorCount = 0;
+class FrontMatterUpdater {
+  constructor(options = {}) {
+    this.baseDir = getBaseDir(import.meta.url);
+    this.summaryFile = options.summary
+      ? path.isAbsolute(options.summary)
+        ? options.summary
+        : path.join(this.baseDir, options.summary)
+      : path.join(this.baseDir, 'summary.json');
+    this.dryRun = options.dryRun || false;
 
-  for (const chapterData of summaryData) {
-    // Process chapter file
-    const chapterFile = path.join(baseDir, chapterData.chapterFile);
-    if (fs.existsSync(chapterFile)) {
-      const result = updateYAMLBlock(chapterFile, 0, chapterData.chapterNumber, dryRun);
-      if (result.changed) {
-        console.log(`  ✓ ${chapterData.chapterFile} (Chapter ${chapterData.chapterNumber})`);
-        updatedCount++;
-      } else if (result.error) {
-        console.log(`  ✗ ${chapterData.chapterFile}: ${result.error}`);
-        errorCount++;
-      }
-    }
-
-    // Process section files
-    for (const section of chapterData.sections) {
-      const sectionFile = path.join(baseDir, section.sectionFile);
-      if (fs.existsSync(sectionFile)) {
-        const result = updateYAMLBlock(
-          sectionFile,
-          section.sectionNumber,
-          chapterData.chapterNumber,
-          dryRun
-        );
-        if (result.changed) {
-          console.log(
-            `  ✓ ${section.sectionFile} (Ch ${chapterData.chapterNumber}, Sec ${section.sectionNumber})`
-          );
-          updatedCount++;
-        } else if (result.error) {
-          console.log(`  ✗ ${section.sectionFile}: ${result.error}`);
-          errorCount++;
-        }
-      } else {
-        console.log(`  ⚠ ${section.sectionFile}: File not found`);
-      }
-    }
+    this.stats = {
+      updated: 0,
+      skipped: 0,
+      errors: 0,
+    };
   }
 
-  return { updatedCount, errorCount };
+  async run() {
+    printHeader('📝', 'Front Matter Updater');
+
+    if (this.dryRun) {
+      console.log('(DRY RUN - no changes will be made)\n');
+    }
+
+    // Check if summary.json exists
+    if (!fs.existsSync(this.summaryFile)) {
+      console.error(`Error: Summary file not found: ${this.summaryFile}`);
+      console.error('Run "node scripts/parse-summary.js" first to generate it.');
+      this.stats.errors++;
+      return false;
+    }
+
+    // Load summary data
+    const summaryContent = readFile(this.summaryFile);
+    const summaryData = JSON.parse(summaryContent);
+
+    console.log(`Loaded ${summaryData.length} chapters from ${path.basename(this.summaryFile)}\n`);
+
+    // Process files
+    for (const chapterData of summaryData) {
+      // Process chapter file
+      const chapterFile = path.join(this.baseDir, chapterData.chapterFile);
+      if (fs.existsSync(chapterFile)) {
+        const result = updateYAMLBlock(chapterFile, 0, chapterData.chapterNumber, this.dryRun);
+        if (result.changed) {
+          console.log(`  ✓ ${chapterData.chapterFile} (Chapter ${chapterData.chapterNumber})`);
+          this.stats.updated++;
+        } else if (result.error) {
+          console.log(`  ✗ ${chapterData.chapterFile}: ${result.error}`);
+          this.stats.errors++;
+        } else {
+          this.stats.skipped++;
+        }
+      }
+
+      // Process section files
+      for (const section of chapterData.sections) {
+        const sectionFile = path.join(this.baseDir, section.sectionFile);
+        if (fs.existsSync(sectionFile)) {
+          const result = updateYAMLBlock(
+            sectionFile,
+            section.sectionNumber,
+            chapterData.chapterNumber,
+            this.dryRun
+          );
+          if (result.changed) {
+            console.log(
+              `  ✓ ${section.sectionFile} (Ch ${chapterData.chapterNumber}, Sec ${section.sectionNumber})`
+            );
+            this.stats.updated++;
+          } else if (result.error) {
+            console.log(`  ✗ ${section.sectionFile}: ${result.error}`);
+            this.stats.errors++;
+          } else {
+            this.stats.skipped++;
+          }
+        } else {
+          console.log(`  ⚠ ${section.sectionFile}: File not found`);
+        }
+      }
+    }
+
+    this.printResults();
+    return this.stats.errors === 0;
+  }
+
+  printResults() {
+    printDivider();
+
+    if (this.dryRun) {
+      console.log('\n(DRY RUN - no changes were made)');
+    }
+
+    console.log(`\nFiles ${this.dryRun ? 'would be ' : ''}updated: ${this.stats.updated}`);
+    console.log(`Files skipped (no changes needed): ${this.stats.skipped}`);
+    if (this.stats.errors > 0) {
+      console.log(`Errors: ${this.stats.errors}`);
+    }
+
+    if (this.stats.errors === 0) {
+      if (this.dryRun && this.stats.updated > 0) {
+        console.log('\n⚠️ DRY RUN - Use without --dry-run to apply changes');
+      } else {
+        printSuccess('Front matter update completed!');
+      }
+    }
+
+    printDivider();
+    printSummary(this.stats.errors, 0);
+  }
 }
 
-// CLI
-function main() {
-  const args = process.argv.slice(2);
-
-  if (args.includes('--help')) {
-    console.log(`
-Usage: node scripts/update-front-matter.js [options]
-
-Updates YAML front matter in markdown files with chapter/section numbers
+// CLI Configuration
+runCli({
+  name: 'update-front-matter',
+  description: `Updates YAML front matter in markdown files with chapter/section numbers
 based on the book structure defined in summary.json.
 
-Options:
-  --summary <path>   Path to summary.json (default: summary.json)
-  --dry-run          Show changes without making them
-  --help             Show this help message
-
-Examples:
-  node scripts/update-front-matter.js
-  node scripts/update-front-matter.js --dry-run
-  node scripts/update-front-matter.js --summary _data/summary.json
-`);
-    process.exit(0);
-  }
-
-  // Parse arguments
-  let summaryFile = path.join(baseDir, 'summary.json');
-  const dryRun = args.includes('--dry-run');
-
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === '--summary' && args[i + 1]) {
-      summaryFile = path.isAbsolute(args[i + 1]) ? args[i + 1] : path.join(baseDir, args[i + 1]);
-      i++;
-    }
-  }
-
-  // Check if summary.json exists
-  if (!fs.existsSync(summaryFile)) {
-    console.error(`Error: Summary file not found: ${summaryFile}`);
-    console.error('Run "node scripts/parse-summary.js" first to generate it.');
-    process.exit(1);
-  }
-
-  console.log('Updating YAML Front Matter');
-  console.log('='.repeat(60));
-
-  if (dryRun) {
-    console.log('(DRY RUN - no changes will be made)\n');
-  }
-
-  // Load summary data
-  const summaryContent = fs.readFileSync(summaryFile, 'utf8');
-  const summaryData = JSON.parse(summaryContent);
-
-  console.log(`Loaded ${summaryData.length} chapters from ${path.basename(summaryFile)}\n`);
-
-  // Process files
-  const { updatedCount, errorCount } = processContentsDirectory(summaryData, dryRun);
-
-  // Summary
-  console.log(`\n${'='.repeat(60)}`);
-  console.log('SUMMARY');
-  console.log('='.repeat(60));
-
-  if (dryRun) {
-    console.log('\n(DRY RUN - no changes were made)');
-  }
-
-  console.log(`\nFiles updated: ${updatedCount}`);
-  if (errorCount > 0) {
-    console.log(`Errors: ${errorCount}`);
-  }
-
-  if (updatedCount > 0 || errorCount === 0) {
-    console.log('\n✅ Front matter update completed!');
-  } else {
-    console.log('\n⚠️ Some errors occurred.');
-    process.exit(1);
-  }
-}
-
-main();
+Requires summary.json to exist (run parse-summary.js first).`,
+  flags: {
+    summary: {
+      flag: '--summary',
+      description: 'Path to summary.json (default: summary.json)',
+      type: 'string',
+      default: 'summary.json',
+    },
+    dryRun: STANDARD_FLAGS.dryRun,
+  },
+  examples: [
+    'node scripts/update-front-matter.js',
+    'node scripts/update-front-matter.js --dry-run',
+    'node scripts/update-front-matter.js --summary _data/summary.json',
+  ],
+  run: async options => {
+    const updater = new FrontMatterUpdater(options);
+    return updater.run();
+  },
+});

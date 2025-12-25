@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * validate-figures.js
+ * Figure Validation Script
  *
  * Comprehensive figure validation utility for the physics textbook.
  * Consolidates multiple validation checks into a single tool.
@@ -14,7 +14,7 @@
  * - Check for missing figure files
  *
  * Usage:
- *   node scripts/validate-figures.js [options]
+ *   node scripts/check-figures.js [options]
  *
  * Options:
  *   --check-pattern      Check if figure filenames match expected pattern
@@ -28,57 +28,64 @@
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import { promisify } from 'util';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import {
+  printHeader,
+  printDivider,
+  printErrors,
+  printWarnings,
+  printSuccess,
+  printSummary,
+} from './lib/reporter.js';
 
-const readdir = promisify(fs.readdir);
-const readFile = promisify(fs.readFile);
+import { runCli } from './lib/cli.js';
 
-const baseDir = path.join(__dirname, '..');
-const contentsDir = path.join(baseDir, 'contents');
-const resourcesDir = path.join(baseDir, 'resources');
+import { getBaseDir, findFiles, readFile } from './lib/files.js';
 
 // Figure filename pattern: Figure_XX_XX_XX.{jpg|svg|png|webp}
 const FIGURE_REGEX = /Figure_(\d{2})_(\d{2})_(\d{2})\.(jpg|svg|png|webp)/g;
 
+/**
+ * Figure validator class.
+ */
 class FigureValidator {
-  constructor() {
+  constructor(options = {}) {
+    this.baseDir = getBaseDir(import.meta.url);
+    this.contentsDir = path.join(this.baseDir, 'contents');
+    this.resourcesDir = path.join(this.baseDir, 'resources');
+    this.options = options;
     this.errors = [];
     this.warnings = [];
   }
 
-  async run(options) {
+  async run() {
     const runAll =
-      options.all ||
-      (!options.checkPattern &&
-        !options.checkConsistency &&
-        !options.checkDuplicates &&
-        !options.checkSequence &&
-        !options.checkMissing);
+      this.options.all ||
+      (!this.options.checkPattern &&
+        !this.options.checkConsistency &&
+        !this.options.checkDuplicates &&
+        !this.options.checkSequence &&
+        !this.options.checkMissing);
 
-    console.log('Figure Validation Report');
-    console.log('='.repeat(60));
+    printHeader('🖼️', 'Figure Validation');
 
-    if (runAll || options.checkPattern) {
+    if (runAll || this.options.checkPattern) {
       await this.checkPattern();
     }
-    if (runAll || options.checkConsistency) {
+    if (runAll || this.options.checkConsistency) {
       await this.checkConsistency();
     }
-    if (runAll || options.checkDuplicates) {
+    if (runAll || this.options.checkDuplicates) {
       await this.checkDuplicates();
     }
-    if (runAll || options.checkSequence) {
+    if (runAll || this.options.checkSequence) {
       await this.checkSequence();
     }
-    if (runAll || options.checkMissing) {
+    if (runAll || this.options.checkMissing) {
       await this.checkMissing();
     }
 
-    this.printSummary();
+    this.printResults();
     return this.errors.length === 0;
   }
 
@@ -88,12 +95,11 @@ class FigureValidator {
   async checkPattern() {
     console.log('\n[1] Checking figure filename patterns...');
 
-    const files = await readdir(contentsDir);
-    const mdFiles = files.filter(f => f.endsWith('.md'));
+    const files = await findFiles('*.md', { cwd: this.contentsDir });
 
-    for (const file of mdFiles) {
-      const filePath = path.join(contentsDir, file);
-      const content = await readFile(filePath, 'utf8');
+    for (const file of files) {
+      const filePath = path.join(this.contentsDir, file);
+      const content = readFile(filePath);
 
       // Find all figure references (including potentially malformed ones)
       const figurePattern = /Figure_\S+\.(jpg|svg|png|webp)/gi;
@@ -103,12 +109,16 @@ class FigureValidator {
         // Reset regex lastIndex for each test
         FIGURE_REGEX.lastIndex = 0;
         if (!FIGURE_REGEX.test(match)) {
-          this.errors.push(`Invalid figure pattern in ${file}: ${match}`);
+          this.errors.push({
+            file,
+            line: 0,
+            message: `Invalid figure pattern: ${match}`,
+          });
         }
       }
     }
 
-    console.log(`   Checked ${mdFiles.length} markdown files`);
+    console.log(`   Checked ${files.length} markdown files`);
   }
 
   /**
@@ -117,12 +127,11 @@ class FigureValidator {
   async checkConsistency() {
     console.log('\n[2] Checking figure/chapter consistency...');
 
-    const files = await readdir(contentsDir);
-    const mdFiles = files.filter(f => f.endsWith('.md'));
+    const files = await findFiles('*.md', { cwd: this.contentsDir });
 
-    for (const file of mdFiles) {
-      const filePath = path.join(contentsDir, file);
-      const content = await readFile(filePath, 'utf8');
+    for (const file of files) {
+      const filePath = path.join(this.contentsDir, file);
+      const content = readFile(filePath);
 
       // Extract chapter and section from YAML front matter
       const yamlMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
@@ -146,9 +155,11 @@ class FigureValidator {
         const figSection = parseInt(match[2]);
 
         if (figChapter !== chapterNumber || figSection !== sectionNumber) {
-          this.warnings.push(
-            `${file}: Figure ${match[0]} doesn't match chapter ${chapterNumber}, section ${sectionNumber}`
-          );
+          this.warnings.push({
+            file,
+            line: 0,
+            message: `Figure ${match[0]} doesn't match chapter ${chapterNumber}, section ${sectionNumber}`,
+          });
         }
       }
     }
@@ -162,14 +173,12 @@ class FigureValidator {
   async checkDuplicates() {
     console.log('\n[3] Checking for duplicate figure references...');
 
-    const files = await readdir(contentsDir);
-    const mdFiles = files.filter(f => f.endsWith('.md'));
-
+    const files = await findFiles('*.md', { cwd: this.contentsDir });
     const figureMap = new Map(); // figure -> [files]
 
-    for (const file of mdFiles) {
-      const filePath = path.join(contentsDir, file);
-      const content = await readFile(filePath, 'utf8');
+    for (const file of files) {
+      const filePath = path.join(this.contentsDir, file);
+      const content = readFile(filePath);
 
       let match;
       const figureRegex = /Figure_(\d{2})_(\d{2})_(\d{2})\.(jpg|svg|png|webp)/g;
@@ -185,12 +194,14 @@ class FigureValidator {
 
     // Find duplicates
     let duplicateCount = 0;
-    for (const [figure, files] of figureMap) {
-      if (files.size > 1) {
+    for (const [figure, fileSet] of figureMap) {
+      if (fileSet.size > 1) {
         duplicateCount++;
-        this.warnings.push(
-          `Figure ${figure} referenced in multiple files: ${Array.from(files).join(', ')}`
-        );
+        this.warnings.push({
+          file: Array.from(fileSet).join(', '),
+          line: 0,
+          message: `Figure ${figure} referenced in multiple files`,
+        });
       }
     }
 
@@ -205,7 +216,7 @@ class FigureValidator {
 
     let files;
     try {
-      files = await readdir(resourcesDir);
+      files = fs.readdirSync(this.resourcesDir);
     } catch (_error) {
       console.log('   Resources directory not found, skipping');
       return;
@@ -233,7 +244,11 @@ class FigureValidator {
 
       const missing = [...expected].filter(n => !figNumbers.has(n));
       if (missing.length > 0) {
-        this.warnings.push(`Chapter/Section ${key}: Missing figure numbers: ${missing.join(', ')}`);
+        this.warnings.push({
+          file: `Chapter/Section ${key}`,
+          line: 0,
+          message: `Missing figure numbers: ${missing.join(', ')}`,
+        });
       }
     }
 
@@ -248,20 +263,18 @@ class FigureValidator {
 
     let resourceFiles;
     try {
-      resourceFiles = new Set(await readdir(resourcesDir));
+      resourceFiles = new Set(fs.readdirSync(this.resourcesDir));
     } catch (_error) {
       console.log('   Resources directory not found, skipping');
       return;
     }
 
-    const files = await readdir(contentsDir);
-    const mdFiles = files.filter(f => f.endsWith('.md'));
-
+    const files = await findFiles('*.md', { cwd: this.contentsDir });
     const missingFigures = new Set();
 
-    for (const file of mdFiles) {
-      const filePath = path.join(contentsDir, file);
-      const content = await readFile(filePath, 'utf8');
+    for (const file of files) {
+      const filePath = path.join(this.contentsDir, file);
+      const content = readFile(filePath);
 
       let match;
       const figureRegex = /Figure_(\d{2})_(\d{2})_(\d{2})\.(jpg|svg|png|webp)/g;
@@ -270,7 +283,11 @@ class FigureValidator {
         const figureName = match[0];
         if (!resourceFiles.has(figureName)) {
           missingFigures.add(figureName);
-          this.errors.push(`${file}: References missing figure: ${figureName}`);
+          this.errors.push({
+            file,
+            line: 0,
+            message: `References missing figure: ${figureName}`,
+          });
         }
       }
     }
@@ -278,64 +295,70 @@ class FigureValidator {
     console.log(`   Found ${missingFigures.size} missing figure files`);
   }
 
-  printSummary() {
-    console.log(`\n${'='.repeat(60)}`);
-    console.log('SUMMARY');
-    console.log('='.repeat(60));
+  printResults() {
+    printDivider();
+
+    printErrors(this.errors);
+    printWarnings(this.warnings);
 
     if (this.errors.length === 0 && this.warnings.length === 0) {
-      console.log('\n✅ All figure validations passed!');
-    } else {
-      if (this.errors.length > 0) {
-        console.log(`\n❌ ${this.errors.length} error(s):`);
-        this.errors.forEach(e => console.log(`   - ${e}`));
-      }
-
-      if (this.warnings.length > 0) {
-        console.log(`\n⚠️  ${this.warnings.length} warning(s):`);
-        this.warnings.forEach(w => console.log(`   - ${w}`));
-      }
+      printSuccess('All figure validations passed!');
     }
 
-    console.log(`\n${'='.repeat(60)}`);
+    printDivider();
+    printSummary(this.errors.length, this.warnings.length);
   }
 }
 
-// CLI
-async function main() {
-  const args = process.argv.slice(2);
-
-  if (args.includes('--help')) {
-    console.log(`
-Usage: node scripts/validate-figures.js [options]
-
-Options:
-  --check-pattern      Check if figure filenames match expected pattern
-  --check-consistency  Check if figures in each file match chapter/section
-  --check-duplicates   Find figures referenced in multiple files
-  --check-sequence     Check for sequential figure numbering in resources/
-  --check-missing      Check for figure references pointing to missing files
-  --all                Run all checks (default)
-  --help               Show this help message
-`);
-    process.exit(0);
-  }
-
-  const options = {
-    all: args.includes('--all') || args.length === 0,
-    checkPattern: args.includes('--check-pattern'),
-    checkConsistency: args.includes('--check-consistency'),
-    checkDuplicates: args.includes('--check-duplicates'),
-    checkSequence: args.includes('--check-sequence'),
-    checkMissing: args.includes('--check-missing'),
-  };
-
-  const validator = new FigureValidator();
-  const success = await validator.run(options);
-  process.exit(success ? 0 : 1);
-}
-
-main().catch(error => {
-  console.error('Error:', error.message);
-  process.exit(1);
+// CLI Configuration
+runCli({
+  name: 'check-figures',
+  description: `Validates figure files and references:
+- Check figure filename patterns
+- Verify figures match chapter/section
+- Find duplicate figure references
+- Check sequential numbering
+- Find missing figure files`,
+  flags: {
+    checkPattern: {
+      flag: '--check-pattern',
+      description: 'Check if figure filenames match expected pattern',
+      default: false,
+    },
+    checkConsistency: {
+      flag: '--check-consistency',
+      description: 'Check if figures match chapter/section',
+      default: false,
+    },
+    checkDuplicates: {
+      flag: '--check-duplicates',
+      description: 'Find figures referenced in multiple files',
+      default: false,
+    },
+    checkSequence: {
+      flag: '--check-sequence',
+      description: 'Check for sequential figure numbering',
+      default: false,
+    },
+    checkMissing: {
+      flag: '--check-missing',
+      description: 'Check for missing figure files',
+      default: false,
+    },
+    all: {
+      flag: '--all',
+      description: 'Run all checks (default)',
+      default: false,
+    },
+  },
+  examples: [
+    'node scripts/check-figures.js',
+    'node scripts/check-figures.js --all',
+    'node scripts/check-figures.js --check-missing',
+    'node scripts/check-figures.js --check-pattern --check-consistency',
+  ],
+  run: async options => {
+    const validator = new FigureValidator(options);
+    return validator.run();
+  },
 });

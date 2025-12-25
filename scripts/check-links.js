@@ -1,32 +1,53 @@
 #!/usr/bin/env node
 
+/**
+ * Link Checker Script
+ *
+ * Validates internal and external links in markdown files.
+ * Caches external link results for faster subsequent runs.
+ *
+ * Usage:
+ *   node scripts/check-links.js [options]
+ *
+ * Options:
+ *   --timeout <ms>     Request timeout in milliseconds (default: 10000)
+ *   --no-cache         Disable persistent caching
+ *   --cache-ttl <days> Cache TTL in days (default: 7)
+ *   --help             Show this help message
+ */
+
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { glob } from 'glob';
 import fetch from 'node-fetch';
+
+import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
+
+import { runCli } from './lib/cli.js';
+
+import { getBaseDir, readFile } from './lib/files.js';
+
+import { getLineNumber } from './lib/parser.js';
+
 import chalk from 'chalk';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Default cache settings
+const DEFAULT_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
 
-// Default cache file location and TTL (7 days in milliseconds)
-const DEFAULT_CACHE_FILE = path.join(__dirname, '..', '.link-cache.json');
-const DEFAULT_CACHE_TTL = 7 * 24 * 60 * 60 * 1000;
-
+/**
+ * Link checker class.
+ */
 class LinkChecker {
   constructor(options = {}) {
-    this.baseDir = options.baseDir || path.join(__dirname, '..');
+    this.baseDir = getBaseDir(import.meta.url);
     this.contentDir = path.join(this.baseDir, 'contents');
     this.timeout = options.timeout || 10000;
-    this.retries = options.retries || 2;
-    this.concurrent = options.concurrent || 10;
     this.userAgent = 'Mozilla/5.0 (compatible; LinkChecker/1.0)';
 
-    // Persistent cache options
-    this.cacheFile = options.cacheFile || DEFAULT_CACHE_FILE;
+    // Cache settings
+    this.cacheFile = path.join(this.baseDir, '.link-cache.json');
     this.cacheTTL = options.cacheTTL || DEFAULT_CACHE_TTL;
-    this.useCache = options.useCache !== false; // Default to true
+    this.useCache = options.noCache !== true;
 
     this.stats = {
       totalFiles: 0,
@@ -40,51 +61,66 @@ class LinkChecker {
 
     this.brokenLinks = [];
     this.warnings = [];
-    this.checkedUrls = new Map(); // Cache for external URLs
+    this.checkedUrls = new Map();
 
-    // Load persistent cache if enabled
     if (this.useCache) {
       this.loadCache();
     }
   }
 
-  /**
-   * Load cached link results from disk
-   */
+  async run() {
+    printHeader('🔗', 'Link Checker');
+
+    // Find all markdown files
+    const markdownFiles = await glob('**/*.md', {
+      cwd: this.baseDir,
+      ignore: ['node_modules/**', '_site/**', '.jekyll-cache/**'],
+    });
+
+    this.stats.totalFiles = markdownFiles.length;
+    console.log(chalk.gray(`Found ${markdownFiles.length} markdown files\n`));
+
+    // Process files in batches
+    const batchSize = 5;
+    for (let i = 0; i < markdownFiles.length; i += batchSize) {
+      const batch = markdownFiles.slice(i, i + batchSize);
+      await Promise.all(batch.map(file => this.checkFileLinks(file)));
+    }
+
+    // Save cache
+    if (this.useCache) {
+      this.saveCache();
+    }
+
+    this.printResults();
+    return this.stats.brokenLinks === 0;
+  }
+
   loadCache() {
     try {
       if (fs.existsSync(this.cacheFile)) {
         const cacheData = JSON.parse(fs.readFileSync(this.cacheFile, 'utf8'));
         const now = Date.now();
 
-        // Load only non-expired entries
         for (const [url, entry] of Object.entries(cacheData)) {
           if (entry.timestamp && now - entry.timestamp < this.cacheTTL) {
             this.checkedUrls.set(url, entry);
           }
         }
 
-        console.log(chalk.gray(`Loaded ${this.checkedUrls.size} cached external link results\n`));
+        console.log(chalk.gray(`Loaded ${this.checkedUrls.size} cached link results\n`));
       }
     } catch (error) {
       console.log(chalk.yellow(`Warning: Could not load cache: ${error.message}\n`));
     }
   }
 
-  /**
-   * Save cached link results to disk
-   */
   saveCache() {
     try {
       const cacheData = {};
       for (const [url, entry] of this.checkedUrls) {
-        // Only cache successful results and non-network errors
-        // Network errors are transient and shouldn't be cached long-term
         if (entry.success || !entry.isNetworkError) {
-          cacheData[url] = {
-            ...entry,
-            timestamp: entry.timestamp || Date.now(),
-          };
+          cacheData[url] = { ...entry, timestamp: entry.timestamp || Date.now() };
         }
       }
 
@@ -95,47 +131,11 @@ class LinkChecker {
     }
   }
 
-  async checkLinks() {
-    console.log(chalk.blue('🔍 Starting link check...\n'));
-
-    // Find all markdown files
-    const markdownFiles = await glob('**/*.md', {
-      cwd: this.baseDir,
-      ignore: [
-        'node_modules/**',
-        '_site/**',
-        '.jekyll-cache/**',
-        // Skip migration documentation files that contain example/placeholder syntax
-        'JEKYLL_TO_*.md',
-        'KRAMDOWN_*.md',
-        '*_MIGRATION_*.md',
-      ],
-    });
-
-    this.stats.totalFiles = markdownFiles.length;
-    console.log(chalk.gray(`Found ${markdownFiles.length} markdown files\n`));
-
-    // Process files in batches to avoid overwhelming the system
-    const batchSize = 5;
-    for (let i = 0; i < markdownFiles.length; i += batchSize) {
-      const batch = markdownFiles.slice(i, i + batchSize);
-      await Promise.all(batch.map(file => this.checkFileLinks(file)));
-    }
-
-    // Save cache if enabled
-    if (this.useCache) {
-      this.saveCache();
-    }
-
-    this.printResults();
-    return this.stats.brokenLinks === 0;
-  }
-
   async checkFileLinks(filePath) {
     const fullPath = path.join(this.baseDir, filePath);
 
     try {
-      const content = fs.readFileSync(fullPath, 'utf8');
+      const content = readFile(fullPath);
       const links = this.extractLinks(content);
 
       if (links.length > 0) {
@@ -143,59 +143,62 @@ class LinkChecker {
       }
 
       for (const link of links) {
-        await this.checkSingleLink(link, filePath);
+        await this.checkSingleLink(link, filePath, content);
       }
     } catch (error) {
-      this.addWarning(`Error reading file ${filePath}: ${error.message}`);
+      this.warnings.push(`Error reading ${filePath}: ${error.message}`);
     }
   }
 
   extractLinks(content) {
     const links = [];
 
-    // Match markdown links: [text](url) and [text](url "title")
+    // Strip code blocks before extracting links to avoid false positives
+    // Remove fenced code blocks (```...```)
+    let strippedContent = content.replace(/```[\s\S]*?```/g, '');
+    // Remove inline code (`...`)
+    strippedContent = strippedContent.replace(/`[^`]+`/g, '');
+
+    // Markdown links: [text](url)
     const markdownLinkRegex = /\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
     let match;
 
-    while ((match = markdownLinkRegex.exec(content)) !== null) {
-      const [_fullMatch, text, url] = match;
+    while ((match = markdownLinkRegex.exec(strippedContent)) !== null) {
+      const [, text, url] = match;
       if (url && !url.startsWith('#')) {
-        // Skip anchor-only links
         links.push({
           text: text.trim(),
           url: url.trim(),
           type: 'markdown',
-          line: this.getLineNumber(content, match.index),
+          index: match.index,
         });
       }
     }
 
-    // Match HTML links: <a href="url">
+    // HTML links: <a href="url">
     const htmlLinkRegex = /<a[^>]+href=["']([^"']+)["'][^>]*>/gi;
-
-    while ((match = htmlLinkRegex.exec(content)) !== null) {
-      const [_fullMatch, url] = match;
+    while ((match = htmlLinkRegex.exec(strippedContent)) !== null) {
+      const [, url] = match;
       if (url && !url.startsWith('#')) {
         links.push({
           text: 'HTML link',
           url: url.trim(),
           type: 'html',
-          line: this.getLineNumber(content, match.index),
+          index: match.index,
         });
       }
     }
 
-    // Match image links: ![alt](src) and ![alt](src "title")
+    // Image links: ![alt](src)
     const imageRegex = /!\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
-
-    while ((match = imageRegex.exec(content)) !== null) {
-      const [_fullMatch, alt, src] = match;
+    while ((match = imageRegex.exec(strippedContent)) !== null) {
+      const [, alt, src] = match;
       if (src) {
         links.push({
           text: alt || 'Image',
           url: src.trim(),
           type: 'image',
-          line: this.getLineNumber(content, match.index),
+          index: match.index,
         });
       }
     }
@@ -204,34 +207,27 @@ class LinkChecker {
     return links;
   }
 
-  getLineNumber(content, index) {
-    return content.substring(0, index).split('\n').length;
-  }
-
-  async checkSingleLink(link, filePath) {
+  async checkSingleLink(link, filePath, content) {
     const { url } = link;
 
-    // Skip mailto and other protocol links
+    // Skip special protocols
     if (url.match(/^(mailto:|tel:|javascript:|data:)/i)) {
       return;
     }
 
-    // Skip template syntax (Jekyll/Liquid/Nunjucks variables)
+    // Skip template syntax
     if (url.includes('{{') || url.includes('{%') || url.includes('${')) {
       return;
     }
 
-    // Skip common placeholder/example URLs in documentation
-    if (/^(src|image\.jpg|example\.|placeholder\.)/.test(url) || url === 'url') {
-      return;
-    }
+    const lineNum = getLineNumber(content, link.index);
 
     if (this.isExternalLink(url)) {
       this.stats.externalLinks++;
-      await this.checkExternalLink(link, filePath);
+      await this.checkExternalLink({ ...link, line: lineNum }, filePath);
     } else {
       this.stats.internalLinks++;
-      await this.checkInternalLink(link, filePath);
+      await this.checkInternalLink({ ...link, line: lineNum }, filePath);
     }
   }
 
@@ -244,17 +240,10 @@ class LinkChecker {
 
     // Check cache first
     if (this.checkedUrls.has(url)) {
-      const cachedResult = this.checkedUrls.get(url);
+      const cached = this.checkedUrls.get(url);
       this.stats.cachedLinks++;
-      if (!cachedResult.success) {
-        // Network errors should be warnings, not broken links
-        if (cachedResult.isNetworkError) {
-          this.addWarning(
-            `${filePath}:${link.line} - External link may be unreachable: ${url} (${cachedResult.error})`
-          );
-        } else {
-          this.addBrokenLink(link, filePath, cachedResult.error);
-        }
+      if (!cached.success && !cached.isNetworkError) {
+        this.addBrokenLink(link, filePath, cached.error);
       }
       return;
     }
@@ -264,10 +253,8 @@ class LinkChecker {
       const timeoutId = setTimeout(() => controller.abort(), this.timeout);
 
       const response = await fetch(url, {
-        method: 'HEAD', // Use HEAD to avoid downloading content
-        headers: {
-          'User-Agent': this.userAgent,
-        },
+        method: 'HEAD',
+        headers: { 'User-Agent': this.userAgent },
         signal: controller.signal,
         redirect: 'follow',
       });
@@ -275,21 +262,7 @@ class LinkChecker {
       clearTimeout(timeoutId);
 
       if (!response.ok && response.status !== 405) {
-        // 405 = Method Not Allowed (some servers don't support HEAD)
-        if (response.status === 405) {
-          // Try GET request for servers that don't support HEAD
-          const getResponse = await fetch(url, {
-            method: 'GET',
-            headers: { 'User-Agent': this.userAgent },
-            signal: controller.signal,
-          });
-
-          if (!getResponse.ok) {
-            throw new Error(`HTTP ${getResponse.status}: ${getResponse.statusText}`);
-          }
-        } else {
-          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-        }
+        throw new Error(`HTTP ${response.status}`);
       }
 
       this.checkedUrls.set(url, { success: true, timestamp: Date.now() });
@@ -297,30 +270,11 @@ class LinkChecker {
       let errorMessage = error.message;
       let isNetworkError = false;
 
-      // Detect various types of network/connection errors
-      const networkErrorPatterns = [
-        'EAI_AGAIN', // DNS resolution failure (transient)
-        'ENOTFOUND', // DNS lookup failed
-        'ECONNREFUSED', // Connection refused
-        'ECONNRESET', // Connection reset
-        'ETIMEDOUT', // Connection timed out
-        'ENETUNREACH', // Network unreachable
-        'EHOSTUNREACH', // Host unreachable
-        'getaddrinfo', // DNS lookup errors
-        'socket hang up', // Socket closed unexpectedly
-      ];
-
       if (error.name === 'AbortError') {
         errorMessage = `Timeout after ${this.timeout}ms`;
         isNetworkError = true;
-      } else if (
-        networkErrorPatterns.some(
-          pattern =>
-            (error.code && error.code.includes(pattern)) ||
-            (error.message && error.message.includes(pattern))
-        )
-      ) {
-        errorMessage = `Network error: ${error.message || error.code}`;
+      } else if (error.code?.includes('ENOTFOUND') || error.code?.includes('EAI_AGAIN')) {
+        errorMessage = `Network error: ${error.message}`;
         isNetworkError = true;
       }
 
@@ -331,14 +285,11 @@ class LinkChecker {
         timestamp: Date.now(),
       });
 
-      // Treat network errors as warnings (don't fail the build for transient network issues)
-      // This prevents CI failures due to temporary DNS or connection problems
-      if (isNetworkError) {
-        this.addWarning(
-          `${filePath}:${link.line} - External link may be unreachable: ${url} (${errorMessage})`
-        );
-      } else {
+      if (!isNetworkError) {
         this.addBrokenLink(link, filePath, errorMessage);
+      } else {
+        this.warnings.push(`${filePath}:${link.line} - Network issue: ${url}`);
+        this.stats.warnings++;
       }
     }
   }
@@ -356,40 +307,25 @@ class LinkChecker {
       targetPath = url.substring(1);
     }
 
-    // Remove URL fragments (anchors)
+    // Remove anchors
     targetPath = targetPath.split('#')[0];
-
-    // Skip empty paths (pure anchor links that were stripped)
-    if (!targetPath) {
-      return;
-    }
+    if (!targetPath) return;
 
     const fullTargetPath = path.join(this.baseDir, targetPath);
 
-    // Check if file exists, trying multiple extensions for Jekyll/MyST style links
+    // Check if file exists (try multiple extensions)
     const pathsToTry = [fullTargetPath];
-
-    // If the path has no extension, try common markdown extensions
-    const ext = path.extname(fullTargetPath);
-    if (!ext) {
-      pathsToTry.push(`${fullTargetPath}.md`);
-      pathsToTry.push(`${fullTargetPath}.html`);
-      pathsToTry.push(path.join(fullTargetPath, 'index.md'));
-      pathsToTry.push(path.join(fullTargetPath, 'index.html'));
+    if (!path.extname(fullTargetPath)) {
+      pathsToTry.push(`${fullTargetPath}.md`, `${fullTargetPath}.html`);
     }
 
-    let found = false;
-    for (const pathToCheck of pathsToTry) {
+    const found = pathsToTry.some(p => {
       try {
-        const stats = fs.statSync(pathToCheck);
-        if (stats.isFile() || stats.isDirectory()) {
-          found = true;
-          break;
-        }
-      } catch (_error) {
-        // Continue trying other paths
+        return fs.statSync(p).isFile();
+      } catch {
+        return false;
       }
-    }
+    });
 
     if (!found) {
       this.addBrokenLink(link, filePath, 'File not found');
@@ -408,15 +344,8 @@ class LinkChecker {
     });
   }
 
-  addWarning(message) {
-    this.stats.warnings++;
-    this.warnings.push(message);
-  }
-
   printResults() {
-    console.log(`\n${'='.repeat(80)}`);
-    console.log(chalk.bold('📊 LINK CHECK RESULTS'));
-    console.log('='.repeat(80));
+    printDivider();
 
     console.log(chalk.gray(`Files checked: ${this.stats.totalFiles}`));
     console.log(chalk.gray(`Total links: ${this.stats.totalLinks}`));
@@ -427,95 +356,69 @@ class LinkChecker {
     }
 
     if (this.stats.brokenLinks === 0) {
-      console.log(chalk.green(`✅ All links are working! (${this.stats.totalLinks} checked)`));
+      printSuccess(`All links are working! (${this.stats.totalLinks} checked)`);
     } else {
-      console.log(chalk.red(`❌ Found ${this.stats.brokenLinks} broken links:`));
-      console.log();
+      console.log(chalk.red(`\n❌ Found ${this.stats.brokenLinks} broken links:\n`));
 
-      this.brokenLinks.forEach((broken, index) => {
-        console.log(chalk.red(`${index + 1}. ${broken.file}:${broken.line}`));
-        console.log(chalk.gray(`   Text: "${broken.text}"`));
+      this.brokenLinks.slice(0, 20).forEach((broken, i) => {
+        console.log(chalk.red(`${i + 1}. ${broken.file}:${broken.line}`));
         console.log(chalk.gray(`   URL: ${broken.url}`));
-        console.log(chalk.gray(`   Type: ${broken.type}`));
         console.log(chalk.red(`   Error: ${broken.error}`));
-        console.log();
       });
+
+      if (this.brokenLinks.length > 20) {
+        console.log(chalk.gray(`\n... and ${this.brokenLinks.length - 20} more`));
+      }
     }
 
     if (this.warnings.length > 0) {
-      console.log(chalk.yellow(`⚠️  ${this.warnings.length} warnings:`));
-      this.warnings.forEach(warning => {
-        console.log(chalk.yellow(`   ${warning}`));
-      });
-      console.log();
+      console.log(chalk.yellow(`\n⚠️  ${this.warnings.length} warnings`));
     }
 
-    console.log('='.repeat(80));
+    printDivider();
+    printSummary(this.stats.brokenLinks, this.stats.warnings);
   }
 }
 
-// CLI execution
-async function main() {
-  const args = process.argv.slice(2);
-  const options = {};
-
-  // Parse command line arguments
-  for (let i = 0; i < args.length; i++) {
-    switch (args[i]) {
-      case '--timeout':
-        options.timeout = parseInt(args[++i]) || 10000;
-        break;
-      case '--retries':
-        options.retries = parseInt(args[++i]) || 2;
-        break;
-      case '--concurrent':
-        options.concurrent = parseInt(args[++i]) || 10;
-        break;
-      case '--no-cache':
-        options.useCache = false;
-        break;
-      case '--cache-file':
-        options.cacheFile = args[++i];
-        break;
-      case '--cache-ttl':
-        // Parse TTL in days and convert to milliseconds
-        options.cacheTTL = parseInt(args[++i]) * 24 * 60 * 60 * 1000;
-        break;
-      case '--help':
-        console.log(`
-Usage: node scripts/check-links.js [options]
-
-Options:
-  --timeout <ms>     Request timeout in milliseconds (default: 10000)
-  --retries <num>    Number of retries for failed requests (default: 2)
-  --concurrent <num> Maximum concurrent requests (default: 10)
-  --no-cache         Disable persistent caching of external link results
-  --cache-file <path> Path to cache file (default: .link-cache.json)
-  --cache-ttl <days> Cache TTL in days (default: 7)
-  --help             Show this help message
-
-Caching:
-  External link results are cached to speed up subsequent runs.
-  Successful results and definitive errors (404, etc.) are cached.
-  Transient network errors are not cached.
-`);
-        process.exit(0);
-    }
-  }
-
-  const checker = new LinkChecker(options);
-
-  try {
-    const success = await checker.checkLinks();
-    process.exit(success ? 0 : 1);
-  } catch (error) {
-    console.error(chalk.red('❌ Link checking failed:'), error.message);
-    process.exit(1);
-  }
-}
-
-if (import.meta.url === `file://${process.argv[1]}`) {
-  main();
-}
+// CLI Configuration
+runCli({
+  name: 'check-links',
+  description: `Validates internal and external links in markdown files:
+- Checks for broken internal links
+- Validates external URL accessibility
+- Caches results for faster runs`,
+  flags: {
+    timeout: {
+      flag: '--timeout',
+      description: 'Request timeout in milliseconds (default: 10000)',
+      type: 'number',
+      default: 10000,
+    },
+    noCache: {
+      flag: '--no-cache',
+      description: 'Disable persistent caching',
+      default: false,
+    },
+    cacheTTL: {
+      flag: '--cache-ttl',
+      description: 'Cache TTL in days (default: 7)',
+      type: 'number',
+      default: 7,
+    },
+  },
+  examples: [
+    'node scripts/check-links.js',
+    'node scripts/check-links.js --timeout 5000',
+    'node scripts/check-links.js --no-cache',
+  ],
+  run: async options => {
+    const checker = new LinkChecker({
+      timeout: options.timeout,
+      noCache: options.noCache,
+      cacheTTL: options.cacheTTL * 24 * 60 * 60 * 1000,
+    });
+    return checker.run();
+  },
+});
 
 export default LinkChecker;
