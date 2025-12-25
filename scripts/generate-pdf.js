@@ -12,6 +12,7 @@
  *   -c, --chapter <num>   Generate PDF for specific chapter number
  *   -a, --all             Generate separate PDFs for all chapters and sections
  *   --combined            Generate combined PDFs (one per chapter with all sections)
+ *   --book                Generate complete book PDF (all chapters)
  *   -u, --url <url>       Generate PDF from a specific URL
  *   -o, --output <name>   Output filename (for --url mode)
  *   -b, --base-url <url>  Base URL for Jekyll server
@@ -39,6 +40,7 @@ class PDFGenerator {
     this.chapter = options.chapter || null;
     this.all = options.all || false;
     this.combined = options.combined || false;
+    this.book = options.book || false;
     this.url = options.url || null;
     this.output = options.output || null;
 
@@ -108,12 +110,14 @@ class PDFGenerator {
         const chapters = this.loadBookStructure();
         console.log(`Loaded ${chapters.length} chapters from summary.json\n`);
 
-        if (this.combined) {
+        if (this.book) {
+          await this.generateCompletBookPdf(chapters);
+        } else if (this.combined) {
           await this.generateCombinedPdfs(chapters);
         } else if (this.all || this.chapter !== null) {
           await this.generateChapterPdfs(chapters);
         } else {
-          console.log('No action specified. Use --all, --chapter, or --url');
+          console.log('No action specified. Use --all, --chapter, --book, or --url');
           return false;
         }
       }
@@ -389,6 +393,86 @@ class PDFGenerator {
     await context.close();
   }
 
+  async generateCompletBookPdf(chapters) {
+    const context = await this.browser.newContext();
+    const page = await context.newPage();
+    await page.setViewportSize(this.viewport);
+
+    const outputPath = path.join(this.outputDir, 'complete-book.pdf');
+
+    console.log('\nGenerating complete book PDF with all chapters');
+
+    // Collect all URLs for preface and all chapters
+    const urls = [];
+
+    // Add preface if it exists
+    const prefacePath = path.join(this.baseDir, 'contents', 'preface.md');
+    if (fs.existsSync(prefacePath)) {
+      urls.push(`${this.baseUrl}/contents/preface.html`);
+    }
+
+    // Add all chapters and their sections
+    for (const chapter of chapters) {
+      urls.push(this.fileToUrl(chapter.chapterFile));
+      for (const section of chapter.sections) {
+        urls.push(this.fileToUrl(section.sectionFile));
+      }
+    }
+
+    let combinedHtml = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>General Physics - Complete Book</title>
+        <style>
+          body { font-family: serif; }
+          .chapter-break { page-break-before: always; }
+          h1 { font-size: 24pt; }
+          h2 { font-size: 18pt; }
+        </style>
+      </head>
+      <body>
+    `;
+
+    for (let i = 0; i < urls.length; i++) {
+      console.log(`  Loading (${i + 1}/${urls.length}): ${urls[i]}`);
+      try {
+        await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
+        await this.waitForMathJax(page);
+
+        const content = await page.evaluate(() => {
+          const main =
+            document.querySelector('.markdown-section') ||
+            document.querySelector('main') ||
+            document.querySelector('article') ||
+            document.body;
+          return main.innerHTML;
+        });
+
+        combinedHtml += `<div class="${i > 0 ? 'chapter-break' : ''}">${content}</div>`;
+      } catch (e) {
+        console.error(`  Failed to load: ${urls[i]} - ${e.message}`);
+      }
+    }
+
+    combinedHtml += '</body></html>';
+
+    await page.setContent(combinedHtml, { waitUntil: 'networkidle' });
+    await this.preparePage(page, true);
+    await page.waitForTimeout(this.mathJaxWaitTime);
+
+    console.log(`  Generating PDF: ${outputPath}`);
+    await page.pdf({
+      ...this.pdfOptions,
+      path: outputPath,
+    });
+
+    console.log(`  Generated: ${outputPath}`);
+    this.stats.success++;
+
+    await context.close();
+  }
+
   async generateUrlPdf(url, outputName) {
     const context = await this.browser.newContext();
     const page = await context.newPage();
@@ -433,6 +517,7 @@ Modes:
 - --all: Generate separate PDFs for all chapters and sections
 - --chapter N: Generate PDFs for a specific chapter
 - --combined: Generate one PDF per chapter with all sections
+- --book: Generate complete book PDF (all chapters)
 - --url: Generate PDF from a specific URL
 
 Prerequisites:
@@ -452,6 +537,11 @@ Prerequisites:
     combined: {
       flag: '--combined',
       description: 'Generate combined PDFs (one per chapter with all sections)',
+      default: false,
+    },
+    book: {
+      flag: '--book',
+      description: 'Generate complete book PDF (all chapters)',
       default: false,
     },
     url: {
@@ -475,6 +565,7 @@ Prerequisites:
     'node scripts/generate-pdf.js --all',
     'node scripts/generate-pdf.js --chapter 5',
     'node scripts/generate-pdf.js --combined',
+    'node scripts/generate-pdf.js --book',
     'node scripts/generate-pdf.js --url http://localhost:4000/physics-book/contents/ch1PhysicsAnIntroduction.html',
   ],
   run: async options => {

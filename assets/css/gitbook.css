@@ -1013,4 +1013,46 @@ body {
   overflow: hidden; /* Hide scrollbars */
 }
 
+/* PDF Download Button */
+.book .book-body .pdf-download-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c0392b;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-size: 24px;
+  transition: all 250ms ease;
+  z-index: 1000;
+}
+
+.book .book-body .pdf-download-btn:hover {
+  background-color: #e74c3c;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+}
+
+.book .book-body .pdf-download-btn:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .book .book-body .pdf-download-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    top: 10px;
+    right: 10px;
+  }
+}
+
 /* End Gitbook CSS */
