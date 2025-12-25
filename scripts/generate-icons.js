@@ -1,61 +1,104 @@
+#!/usr/bin/env node
 /**
  * Generate PWA icons and favicon from the project logo
+ *
  * This script uses Sharp to resize the logo to various sizes needed for PWA
  * Source: assets/image/imagePWA.png
  * Output: assets/icon/ (icons), assets/image/ (favicon)
+ *
+ * Usage:
+ *   node scripts/generate-icons.js [options]
+ *
+ * Options:
+ *   --source <path>   Source logo file (default: assets/image/imagePWA.png)
+ *   --help            Show this help message
  */
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import sharp from 'sharp';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
+
+import { runCli } from './lib/cli.js';
+
+import { getBaseDir } from './lib/files.js';
 
 const ICON_SIZES = [48, 72, 96, 128, 144, 152, 192, 384, 512];
-const ROOT_DIR = path.join(__dirname, '..');
-const ICONS_DIR = path.join(ROOT_DIR, 'assets', 'icon');
-const IMAGE_DIR = path.join(ROOT_DIR, 'assets', 'image');
-const SOURCE_LOGO = path.join(IMAGE_DIR, 'imagePWA.png');
 
 // Theme color extracted from the logo (blue background)
 const THEME_COLOR = { r: 30, g: 64, b: 120, alpha: 1 };
 
-// Ensure icons directory exists
-if (!fs.existsSync(ICONS_DIR)) {
-  fs.mkdirSync(ICONS_DIR, { recursive: true });
-  console.log(`✅ Created icons directory: ${ICONS_DIR}`);
-}
+/**
+ * Icon generator class.
+ */
+class IconGenerator {
+  constructor(options = {}) {
+    this.baseDir = getBaseDir(import.meta.url);
+    this.iconsDir = path.join(this.baseDir, 'assets', 'icon');
+    this.imageDir = path.join(this.baseDir, 'assets', 'image');
+    this.sourceLogo = options.source
+      ? path.isAbsolute(options.source)
+        ? options.source
+        : path.join(this.baseDir, options.source)
+      : path.join(this.imageDir, 'imagePWA.png');
 
-// Ensure image directory exists
-if (!fs.existsSync(IMAGE_DIR)) {
-  fs.mkdirSync(IMAGE_DIR, { recursive: true });
-  console.log(`✅ Created image directory: ${IMAGE_DIR}`);
-}
-
-async function generateIcons() {
-  console.log('=== PWA Icon Generation Tool ===\n');
-
-  if (!fs.existsSync(SOURCE_LOGO)) {
-    console.error(`❌ Source logo not found: ${SOURCE_LOGO}`);
-    process.exit(1);
+    this.stats = {
+      generated: 0,
+      errors: 0,
+    };
   }
 
-  console.log(`📷 Source logo: ${SOURCE_LOGO}`);
-  console.log(`📁 Output directory: ${ICONS_DIR}\n`);
+  async run() {
+    printHeader('🎨', 'PWA Icon Generator');
 
-  try {
-    // Get original image metadata
-    const metadata = await sharp(SOURCE_LOGO).metadata();
-    console.log(`Original image size: ${metadata.width}x${metadata.height}\n`);
+    // Ensure directories exist
+    if (!fs.existsSync(this.iconsDir)) {
+      fs.mkdirSync(this.iconsDir, { recursive: true });
+      console.log(`Created icons directory: ${this.iconsDir}`);
+    }
 
-    // Generate standard icons
+    if (!fs.existsSync(this.imageDir)) {
+      fs.mkdirSync(this.imageDir, { recursive: true });
+      console.log(`Created image directory: ${this.imageDir}`);
+    }
+
+    // Check source logo
+    if (!fs.existsSync(this.sourceLogo)) {
+      console.error(`Source logo not found: ${this.sourceLogo}`);
+      return false;
+    }
+
+    console.log(`Source logo: ${this.sourceLogo}`);
+    console.log(`Output directory: ${this.iconsDir}\n`);
+
+    try {
+      // Get original image metadata
+      const metadata = await sharp(this.sourceLogo).metadata();
+      console.log(`Original image size: ${metadata.width}x${metadata.height}\n`);
+
+      // Generate all icons
+      await this.generateStandardIcons();
+      await this.generateMaskableIcons();
+      await this.generateFavicons();
+      await this.generateAppleTouchIcons();
+
+      this.printResults();
+      return this.stats.errors === 0;
+    } catch (error) {
+      console.error(`Error generating icons: ${error.message}`);
+      this.stats.errors++;
+      return false;
+    }
+  }
+
+  async generateStandardIcons() {
     console.log('Generating standard icons:');
-    for (const size of ICON_SIZES) {
-      const outputPath = path.join(ICONS_DIR, `icon-${size}x${size}.png`);
 
-      await sharp(SOURCE_LOGO)
+    for (const size of ICON_SIZES) {
+      const outputPath = path.join(this.iconsDir, `icon-${size}x${size}.png`);
+
+      await sharp(this.sourceLogo)
         .resize(size, size, {
           fit: 'contain',
           background: THEME_COLOR,
@@ -63,13 +106,16 @@ async function generateIcons() {
         .png()
         .toFile(outputPath);
 
-      console.log(`✅ Generated ${size}x${size} icon`);
+      console.log(`  ✓ Generated ${size}x${size} icon`);
+      this.stats.generated++;
     }
+  }
 
-    // Generate maskable icons (with safe zone padding)
+  async generateMaskableIcons() {
     console.log('\nGenerating maskable icons:');
+
     for (const size of [192, 512]) {
-      const outputPath = path.join(ICONS_DIR, `icon-${size}x${size}-maskable.png`);
+      const outputPath = path.join(this.iconsDir, `icon-${size}x${size}-maskable.png`);
 
       // Maskable icons should have 40% padding (safe zone)
       const iconSize = Math.floor(size * 0.6);
@@ -85,7 +131,7 @@ async function generateIcons() {
       })
         .composite([
           {
-            input: await sharp(SOURCE_LOGO)
+            input: await sharp(this.sourceLogo)
               .resize(iconSize, iconSize, {
                 fit: 'contain',
                 background: { r: 0, g: 0, b: 0, alpha: 0 },
@@ -98,77 +144,103 @@ async function generateIcons() {
         .png()
         .toFile(outputPath);
 
-      console.log(`✅ Generated ${size}x${size} maskable icon`);
+      console.log(`  ✓ Generated ${size}x${size} maskable icon`);
+      this.stats.generated++;
     }
+  }
 
-    // Generate favicon sizes
-    console.log('\nGenerating favicon PNG files:');
-    await sharp(SOURCE_LOGO)
-      .resize(32, 32, {
-        fit: 'contain',
-        background: THEME_COLOR,
-      })
+  async generateFavicons() {
+    console.log('\nGenerating favicon files:');
+
+    // 32x32 favicon PNG
+    await sharp(this.sourceLogo)
+      .resize(32, 32, { fit: 'contain', background: THEME_COLOR })
       .png()
-      .toFile(path.join(ICONS_DIR, 'favicon-32x32.png'));
-    console.log('✅ Generated 32x32 favicon');
+      .toFile(path.join(this.iconsDir, 'favicon-32x32.png'));
+    console.log('  ✓ Generated 32x32 favicon');
+    this.stats.generated++;
 
-    await sharp(SOURCE_LOGO)
-      .resize(16, 16, {
-        fit: 'contain',
-        background: THEME_COLOR,
-      })
+    // 16x16 favicon PNG
+    await sharp(this.sourceLogo)
+      .resize(16, 16, { fit: 'contain', background: THEME_COLOR })
       .png()
-      .toFile(path.join(ICONS_DIR, 'favicon-16x16.png'));
-    console.log('✅ Generated 16x16 favicon');
+      .toFile(path.join(this.iconsDir, 'favicon-16x16.png'));
+    console.log('  ✓ Generated 16x16 favicon');
+    this.stats.generated++;
 
-    // Generate main favicon.ico (32x32)
-    console.log('\nGenerating favicon.ico:');
-    const faviconBuffer = await sharp(SOURCE_LOGO)
-      .resize(32, 32, {
-        fit: 'contain',
-        background: THEME_COLOR,
-      })
+    // Main favicon.ico (32x32)
+    const faviconBuffer = await sharp(this.sourceLogo)
+      .resize(32, 32, { fit: 'contain', background: THEME_COLOR })
       .png()
       .toBuffer();
 
-    // Write to assets/image directory
-    fs.writeFileSync(path.join(IMAGE_DIR, 'favicon.ico'), faviconBuffer);
-    console.log('✅ Generated favicon.ico (32x32) in assets/image directory');
+    fs.writeFileSync(path.join(this.imageDir, 'favicon.ico'), faviconBuffer);
+    console.log('  ✓ Generated favicon.ico (32x32)');
+    this.stats.generated++;
+  }
 
-    // Generate Apple Touch Icon
-    console.log('\nGenerating Apple Touch Icon:');
-    await sharp(SOURCE_LOGO)
-      .resize(180, 180, {
-        fit: 'contain',
-        background: THEME_COLOR,
-      })
+  async generateAppleTouchIcons() {
+    console.log('\nGenerating Apple Touch Icons:');
+
+    // Main Apple Touch Icon (180x180)
+    await sharp(this.sourceLogo)
+      .resize(180, 180, { fit: 'contain', background: THEME_COLOR })
       .png()
-      .toFile(path.join(ICONS_DIR, 'apple-touch-icon.png'));
-    console.log('✅ Generated 180x180 Apple Touch Icon');
+      .toFile(path.join(this.iconsDir, 'apple-touch-icon.png'));
+    console.log('  ✓ Generated 180x180 Apple Touch Icon');
+    this.stats.generated++;
 
-    // Generate additional Apple icon sizes
+    // Additional Apple icon sizes
     for (const size of [120, 152, 167, 180]) {
-      await sharp(SOURCE_LOGO)
-        .resize(size, size, {
-          fit: 'contain',
-          background: THEME_COLOR,
-        })
+      await sharp(this.sourceLogo)
+        .resize(size, size, { fit: 'contain', background: THEME_COLOR })
         .png()
-        .toFile(path.join(ICONS_DIR, `apple-touch-icon-${size}x${size}.png`));
-      console.log(`✅ Generated ${size}x${size} Apple Touch Icon`);
+        .toFile(path.join(this.iconsDir, `apple-touch-icon-${size}x${size}.png`));
+      console.log(`  ✓ Generated ${size}x${size} Apple Touch Icon`);
+      this.stats.generated++;
+    }
+  }
+
+  printResults() {
+    printDivider();
+
+    console.log(`\nTotal icons generated: ${this.stats.generated}`);
+    console.log(`Icons location: ${this.iconsDir}`);
+    console.log(`Favicon location: ${path.join(this.imageDir, 'favicon.ico')}`);
+
+    if (this.stats.errors === 0) {
+      printSuccess('All icons generated successfully!');
     }
 
-    console.log('\n✅ All icons generated successfully!');
-    console.log(`\nIcons location: ${ICONS_DIR}`);
-    console.log(`Favicon location: ${path.join(IMAGE_DIR, 'favicon.ico')}`);
-
-    const totalIcons = ICON_SIZES.length + 2 + 1 + 4 + 2; // standard + maskable + favicon + apple touch
-    console.log(`Total icons generated: ${totalIcons}`);
-  } catch (error) {
-    console.error('\n❌ Error generating icons:', error);
-    process.exit(1);
+    printDivider();
+    printSummary(this.stats.errors, 0);
   }
 }
 
-// Run the icon generation
-generateIcons();
+// CLI Configuration
+runCli({
+  name: 'generate-icons',
+  description: `Generates PWA icons and favicons from the project logo.
+
+Creates:
+- Standard icons (48-512px)
+- Maskable icons for PWA
+- Favicons (16x16, 32x32)
+- Apple Touch Icons`,
+  flags: {
+    source: {
+      flag: '--source',
+      description: 'Source logo file (default: assets/image/imagePWA.png)',
+      type: 'string',
+      default: 'assets/image/imagePWA.png',
+    },
+  },
+  examples: [
+    'node scripts/generate-icons.js',
+    'node scripts/generate-icons.js --source path/to/logo.png',
+  ],
+  run: async options => {
+    const generator = new IconGenerator(options);
+    return generator.run();
+  },
+});
