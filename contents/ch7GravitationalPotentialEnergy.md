@@ -27,10 +27,10 @@ Let us calculate the work done in lifting an object of mass $$ m $$ through a
 height $$ h $$, such as in [Figure 1](#Figure1). If the object is lifted straight
 up at constant speed, then the force needed to lift it is equal to its weight $$
 mg $$. The work done on the mass is then $$ W = Fd = mgh $$. We define this to
-be the **gravitational potential energy** $$ \left(\PE*{\text{g}}\right) $$ put
+be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ put
 into (or gained by) the object-Earth system. This energy is associated with the
 state of separation between two objects that attract each other by the
-gravitational force. For convenience, we refer to this as the $$ \PE*{\text{g}}
+gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}}
 
 $$
 gained by the object, recognizing that this is energy stored in the
@@ -231,8 +231,8 @@ $$
 
 **Solution for (b)**
 
-Again $$ -\Delta \PE*{\text{g}}=\Delta \KE $$. In this case there is initial
-kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v*{0}^{2} $$.
+Again $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. In this case there is initial
+kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2} $$.
 Thus,
 
 <div class="equation">
@@ -300,8 +300,8 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 - Work done against gravity in lifting an object becomes potential energy of the
   object-Earth system.
-- The change in gravitational potential energy, $$ \Delta \PE*{\text{g}} $$, is
-  $$ \Delta \PE*{g}=mgh $$, with $$ h $$ being the increase in height and $$ g
+- The change in gravitational potential energy, $$ \Delta \PE_{\text{g}} $$, is
+  $$ \Delta \PE_{g}=mgh $$, with $$ h $$ being the increase in height and $$ g
   $$ the acceleration due to gravity.
 - The gravitational potential energy of an object near Earth’s surface is due to
   its position in the mass-Earth system. Only differences in gravitational
@@ -484,7 +484,7 @@ to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
 
 **Strategy**
 
-We calculate the change in potential energy $$ \Delta \PE = mg\mid h\mid $$ and the initial kinetic energy $$ \KE*{\text{i}} = \frac{1}{2}mv*{0}^{2} $$, then find their ratio. The mass will cancel out.
+We calculate the change in potential energy $$ \Delta \PE = mg\mid h\mid $$ and the initial kinetic energy $$ \KE_{\text{i}} = \frac{1}{2}mv_{0}^{2} $$, then find their ratio. The mass will cancel out.
 
 **Solution**
 
@@ -586,7 +586,7 @@ slope neglecting friction:
 
 **Strategy**
 
-We use conservation of energy: $$ \KE*{\text{i}} + \PE*{\text{i}} = \KE*{\text{f}} + \PE*{\text{f}} $$. The height descended is $$ h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m $$. For the time, we use kinematics with constant acceleration $$ a = g\sin{\theta} $$ down the slope.
+We use conservation of energy: $$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$. The height descended is $$ h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m $$. For the time, we use kinematics with constant acceleration $$ a = g\sin{\theta} $$ down the slope.
 
 **Solution for (a)**
 

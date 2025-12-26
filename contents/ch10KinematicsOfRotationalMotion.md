@@ -85,7 +85,7 @@ translational counterparts):
 {: #Table1}
 
 In these equations, the subscript 0 denotes initial values
-($$ \theta*{0} $$, $$ x*{0} $$, and $$ t\_{0} $$ are initial values), and the
+($$ \theta_{0} $$, $$ x_{0} $$, and $$ t\_{0} $$ are initial values), and the
 average angular velocity $$ \overline{\omega } $$ and average velocity $$
 \overline{v} $$ are defined as follows:
 
@@ -171,8 +171,8 @@ Note again that radians must always be used in any calculation relating linear a
 
 Here, we are asked to find the number of revolutions. Because $$ 1 \text{rev}=2
 \pi \text{rad} $$, we can find the number of revolutions by finding $$ \theta $$
-in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega*{0} $$
-is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega*{0}
+in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega_{0} $$
+is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega_{0}
 t+\frac{1}{2} \alpha t^{2} $$.
 
 <div class="equation">
@@ -224,10 +224,10 @@ Now let us consider what happens if the fisherman applies a brake to the spinnin
 We are asked to find the time $$ t $$ for the reel to come to a stop. The
 initial and final conditions are different from those in the previous problem,
 which involved the same fishing reel. Now we see that the initial angular
-velocity is $$ \omega*{0}=220 \rads $$ and the final angular velocity $$ \omega
+velocity is $$ \omega_{0}=220 \rads $$ and the final angular velocity $$ \omega
 $$ is zero. The angular acceleration is given to be $$ \alpha =-300 \radss $$.
 Examining the available equations, we see all quantities but *t* are known in $$
-\omega =\omega*{0}+ \alpha t, $$ making it easiest to use this equation.
+\omega =\omega_{0}+ \alpha t, $$ making it easiest to use this equation.
 
 **Solution**
 
@@ -401,8 +401,8 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
   the [One-Dimensional Kinematics](./ch2Kinematics), we can derive
   the four rotational kinematic equations (presented together with their
   translational counterparts) seen in [Table 1](#Table1).
-- In these equations, the subscript 0 denotes initial values ($$ x*{0} $$ and $$
-  t*{0} $$ are initial values), and the average angular velocity $$
+- In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$
+  t_{0} $$ are initial values), and the average angular velocity $$
   \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
   follows:
   <div class="equation">

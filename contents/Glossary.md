@@ -112,8 +112,8 @@ transmitted wave | | $$I $$ | moment of inertia (also called rotational inertia)
 | | $${I}_{\text{ave}} $$ | average intensity for a continuous sinusoidal
 electromagnetic wave | | $${I}_{\text{rms}} $$ | average current | | $$\text{J}
 $$ | joule | | $$J/\text{Ψ} $$ | Joules/psi meson | | $$\text{K} $$ | kelvin | |
-$$k*{B} $$ | Boltzmann constant | | $$k $$ | force constant of a spring | |
-$${K}*{\alpha } $$ | X-rays created when an electron falls into an $$n=1 $$
+$$k_{B} $$ | Boltzmann constant | | $$k $$ | force constant of a spring | |
+$${K}_{\alpha } $$ | X-rays created when an electron falls into an $$n=1 $$
 shell vacancy from the $$n=3 $$ shell | | $${K}_{\beta } $$ | X-rays created
 when an electron falls into an $$n=2 $$ shell vacancy from the $$n=3 $$ shell |
 | $$\text{kcal} $$ | kilocalorie | | $$\text{KE} $$ | translational kinetic

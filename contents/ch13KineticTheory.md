@@ -80,7 +80,7 @@ wall.
 
 If the molecule’s velocity changes in the $$x $$ -direction, its momentum
 changes from $$-mv_{x} $$ to $$+mv_{x} $$ . Thus, its change in momentum is
-$$\Delta mv = + mv*{x}-\left(-mv*{x}\right)=2mv\_{x} $$ . The force exerted on
+$$\Delta mv = + mv_{x}-\left(-mv_{x}\right)=2mv\_{x} $$ . The force exerted on
 the molecule is given by
 
 <div class="equation" >

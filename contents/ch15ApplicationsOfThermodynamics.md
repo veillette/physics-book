@@ -496,15 +496,15 @@ Given values:
 - Electricity cost: \$0.10 per kWh
 - Natural gas cost: \$0.85 per therm, where 1 therm = $$ 1.055 \times 10^{8} \text{ J} $$
 
-**(a)** Best coefficient of performance:
+__(a)__ Best coefficient of performance:
 
 <div class="equation">
  $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} = \frac{323 \text{ K}}{323 \text{ K} - 253 \text{ K}} = \frac{323}{70} = 4.61 $$
 </div>
 
-**The best COP is 4.61.**
+__The best COP is 4.61.__
 
-**(b)** Heat transfer to warm environment:
+__(b)__ Heat transfer to warm environment:
 
 <div class="equation">
  $$ Q_h = \text{COP}_{\text{hp}} \times W = 4.61 \times 3.60 \times 10^{7} \text{ J} $$
@@ -520,18 +520,18 @@ Converting to kilocalories (1 kcal = 4186 J):
  $$ Q_h = \frac{1.66 \times 10^{8}}{4186} = 3.97 \times 10^{4} \text{ kcal} $$
 </div>
 
-**The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{4} \text{ kcal} $$.**
+__The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{4} \text{ kcal} $$.__
 
-**(c)** Cost comparison:
+__(c)__ Cost comparison:
 
-**Heat pump cost:**
-- Cost = 10.0 kWh × \$0.10/kWh = **\$1.00**
+__Heat pump cost:__
+- Cost = 10.0 kWh × \$0.10/kWh = **\$1.00__
 
-**Natural gas cost** for same heat output:
+__Natural gas cost__ for same heat output:
 - Number of therms needed: $$ \frac{1.66 \times 10^{8} \text{ J}}{1.055 \times 10^{8} \text{ J/therm}} = 1.57 \text{ therms} $$
-- Cost = 1.57 therms × \$0.85/therm = **\$1.34**
+- Cost = 1.57 therms × \$0.85/therm = **\$1.34__
 
-**The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).**
+__The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).**
 
 **Discussion**
 
@@ -565,15 +565,15 @@ Given values:
 - Hot reservoir temperature: $$ T_h = 45.0\text{°C} = 318 \text{ K} $$
 - Heat transfer from cold environment: $$ Q_c = 4186 \text{ kJ} = 4.186 \times 10^6 \text{ J} $$
 
-**(a)** Best coefficient of performance:
+__(a)__ Best coefficient of performance:
 
 <div class="equation">
  $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} = \frac{243 \text{ K}}{318 \text{ K} - 243 \text{ K}} = \frac{243}{75} = 3.24 $$
 </div>
 
-**The best coefficient of performance is 3.24.**
+__The best coefficient of performance is 3.24.__
 
-**(b)** Work required:
+__(b)__ Work required:
 
 From $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$, we solve for work:
 
@@ -581,9 +581,9 @@ From $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$, we solve for work:
  $$ W = \frac{Q_c}{\text{COP}_{\text{ref}}} = \frac{4.186 \times 10^6 \text{ J}}{3.24} = 1.29 \times 10^6 \text{ J} $$
 </div>
 
-**The work required is $$ 1.29 \times 10^6 \text{ J} $$ or 1290 kJ.**
+__The work required is $$ 1.29 \times 10^6 \text{ J} $$ or 1290 kJ.__
 
-**(c)** Cost of operation:
+__(c)__ Cost of operation:
 
 Cost per kWh: $$ \$0.10 \text{ per } 3.60 \times 10^6 \text{ J} $$
 
@@ -597,9 +597,9 @@ Number of kWh used:
  $$ \text{Cost} = (0.358 \text{ kWh})(\$0.10/\text{kWh}) = \$0.0358 \approx \$0.036 $$
 </div>
 
-**The cost is 3.6 cents.**
+__The cost is 3.6 cents.__
 
-**(d)** Heat transfer to warm environment:
+__(d)__ Heat transfer to warm environment:
 
 Using energy conservation:
 
@@ -607,13 +607,13 @@ Using energy conservation:
  $$ Q_h = Q_c + W = 4186 \text{ kJ} + 1290 \text{ kJ} = 5476 \text{ kJ} $$
 </div>
 
-**The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.**
+__The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.__
 
-**(e)** This refrigerator operates at −30.0°C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
-- **Commercial freezers** for long-term food storage
-- **Laboratory freezers** for preserving biological samples
-- **Industrial cold storage** facilities
-- **Pharmaceutical storage** requiring very low temperatures
+__(e)__ This refrigerator operates at −30.0°C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
+- __Commercial freezers__ for long-term food storage
+- __Laboratory freezers__ for preserving biological samples
+- __Industrial cold storage__ facilities
+- __Pharmaceutical storage__ requiring very low temperatures
 
 This is not a household refrigerator (which typically operates around −18°C to −20°C in the freezer compartment) but rather a specialized deep-freeze unit.
 
@@ -682,7 +682,7 @@ Converting to Celsius:
  $$ T_h = 300.6 - 273 = 27.6\text{°C} $$
 </div>
 
-**The hot reservoir temperature must be 27.6°C or 301 K.**
+__The hot reservoir temperature must be 27.6°C or 301 K.__
 
 **Discussion**
 
@@ -745,7 +745,7 @@ Converting to Celsius:
  $$ T_c = 270 \text{ K} - 273 = -3.0\text{°C} $$
 </div>
 
-**The cold reservoir temperature must be −3.0°C or 270 K.**
+__The cold reservoir temperature must be −3.0°C or 270 K.__
 
 **Discussion**
 
@@ -776,7 +776,7 @@ Given values:
 - Energy efficiency rating: $$ \text{EER} = 12.0 $$
 - Electricity cost: \$0.10 per kWh = \$0.10 per $$ 3.60 \times 10^{6} \text{ J} $$
 
-**(a)** Energy input required:
+__(a)__ Energy input required:
 
 The EER is defined as:
 
@@ -798,9 +798,9 @@ Energy input over 1.00 hour:
 
 Alternatively, in kWh: $$ W = 4.00 \text{ kW} \times 1.00 \text{ hr} = 4.00 \text{ kWh} $$
 
-**The energy input is $$ 1.44 \times 10^{7} \text{ J} $$ or 4.00 kWh.**
+__The energy input is $$ 1.44 \times 10^{7} \text{ J} $$ or 4.00 kWh.__
 
-**(b)** Cost of operation:
+__(b)__ Cost of operation:
 
 <div class="equation">
  $$ \text{Cost} = \frac{1.44 \times 10^{7} \text{ J}}{3.60 \times 10^{6} \text{ J/kWh}} \times \$0.10/\text{kWh} $$
@@ -810,9 +810,9 @@ Alternatively, in kWh: $$ W = 4.00 \text{ kW} \times 1.00 \text{ hr} = 4.00 \tex
  $$ \text{Cost} = 4.00 \text{ kWh} \times \$0.10/\text{kWh} = \$0.40 $$
 </div>
 
-**The cost is 40 cents per hour.**
+__The cost is 40 cents per hour.__
 
-**(c)** Is this cost realistic?
+__(c)__ Is this cost realistic?
 
 If the air conditioner runs continuously for 24 hours:
 

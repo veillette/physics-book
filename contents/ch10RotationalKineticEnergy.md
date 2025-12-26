@@ -383,9 +383,9 @@ should the thickest soup roll the slowest?
 
 The easiest way to answer these questions is to consider energy. Suppose each
 can starts down the ramp from rest. Each can starting from rest means each
-starts with the same gravitational potential energy $$ \PE*{\text{grav}} $$,
+starts with the same gravitational potential energy $$ \PE_{\text{grav}} $$,
 which is converted entirely to $$ \KE $$, provided each rolls without slipping.
-$$ \KE $$, however, can take the form of $$ \KE*
+$$ \KE $$, however, can take the form of $$ \KE_
 {\text{trans}} $$ or $$ \KE\_{\text{rot}} $$, and total $$ \KE $$ is the sum of
 the two. If a can rolls down a ramp, it puts part of its energy into rotation,
 leaving less for translation. Thus, the can goes slower than it would if it slid
@@ -1093,7 +1093,7 @@ increase in kinetic energy.
 
 work-energy theorem
 : if one or more external forces act upon a rigid object, causing its kinetic
-energy to change from $$ \KE*{1} $$ to $$ \KE*{2} $$, then the work $$ W $$ done
+energy to change from $$ \KE_{1} $$ to $$ \KE_{2} $$, then the work $$ W $$ done
 by the net force is equal to the change in kinetic energy
 
 rotational kinetic energy

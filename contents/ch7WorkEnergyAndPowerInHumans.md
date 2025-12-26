@@ -285,7 +285,7 @@ an efficiency of 20%?
 
 **Strategy**
 
-Efficiency is defined as $$ \text{Eff} = \frac{W*{\text{out}}}{E*{\text{in}}} $$. We need to convert kcal to joules using 1 kcal = 4184 J.
+Efficiency is defined as $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} $$. We need to convert kcal to joules using 1 kcal = 4184 J.
 
 **Solution for (a)**
 
@@ -560,7 +560,7 @@ calculate the food energy in kilojoules he metabolized during the flight.
 
 **Strategy**
 
-From the Conservation of Energy module, Table 2 shows that cycling has an efficiency of 20%. We can use $$ \text{Eff} = \frac{P*{\text{useful}}}{P*{\text{metabolic}}} $$ to find the metabolic power, then multiply by time.
+From the Conservation of Energy module, Table 2 shows that cycling has an efficiency of 20%. We can use $$ \text{Eff} = \frac{P_{\text{useful}}}{P_{\text{metabolic}}} $$ to find the metabolic power, then multiply by time.
 
 **Solution**
 

@@ -51,14 +51,14 @@ and beginning time,
  $$ \Delta t=t_{f}-t_{0}, $$
 </div>
 
-where $$ \Delta t $$ is the change in time or elapsed time, $$ t*{f} $$ is the
-time at the end of the motion, and $$ t*{0} $$ is the time at the beginning of
+where $$ \Delta t $$ is the change in time or elapsed time, $$ t_{f} $$ is the
+time at the end of the motion, and $$ t_{0} $$ is the time at the beginning of
 the motion. (As usual, the delta symbol, $$ \Delta $$, means the change in the
 quantity that follows it.)
 
-Life is simpler if the beginning time $$ t*{0} $$ is taken to be zero, as when
+Life is simpler if the beginning time $$ t_{0} $$ is taken to be zero, as when
 we use a stopwatch. If we were using a stopwatch, it would simply read zero at
-the start of the lecture and 50 min at the end. If $$ t*{0}=0 $$, then $$ \Delta
+the start of the lecture and 50 min at the end. If $$ t_{0}=0 $$, then $$ \Delta
 t=t\_{f}\equiv t $$.
 
 In this text, for simplicity’s sake,
@@ -224,7 +224,7 @@ travels 40 miles one way and 40 miles back, for a total distance of 80 miles.
   $$ \Delta t=t_{f}-t_{0}, $$
   </div>
 
-where $$ t*{f} $$ is the final time and $$ t*{0} $$ is the initial time. The
+where $$ t_{f} $$ is the final time and $$ t_{0} $$ is the initial time. The
 initial time is often taken to be zero, as if measured with a stopwatch; the
 elapsed time is then just $$ t $$.
 

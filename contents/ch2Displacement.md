@@ -77,7 +77,7 @@ displacement is 2.0 m to the right, and the airline passenger’s displacement i
 with a plus or minus sign. When you begin a problem, you should select which
 direction is positive (usually that will be to the right or up, but you are free
 to select positive as being any direction). The professor’s initial position is
-$$ x*{0}=1.5\m $$ and her final position is $$ x*{\text{f}}=3.5\m $$. Thus her
+$$ x_{0}=1.5\m $$ and her final position is $$ x_{\text{f}}=3.5\m $$. Thus her
 displacement is
 
 <div class="equation">
@@ -151,7 +151,7 @@ pair of x and y axes, showing that east is the positive x direction and west
 is the negative x direction.](../resources/Figure_02_01_04.jpg 'Displacements 
 '){: #Figure4}
 
-(a) The rider’s displacement is $$ \Delta x=x*{f}-x*{0}=\text{−1 km} $$. (The
+(a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
 displacement is negative because we take east to be positive and west to be
 negative.)
 
@@ -173,7 +173,7 @@ negative.)
   $$ \Delta x=x_{f}-x_{0}, $$
   </div>
 
-where $$ x*{0} $$ is the initial position and $$ x*{f} $$ is the final position.
+where $$ x_{0} $$ is the initial position and $$ x_{f} $$ is the final position.
 In this text, the Greek letter $$ \Delta $$
 (delta) always means “change in” whatever quantity follows it. The SI unit for
 displacement is the meter (m). Displacement has a direction as well as a

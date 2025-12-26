@@ -202,7 +202,7 @@ If the cost of electricity in your area is 12 cents per kWh, what is the total c
 To find the operating cost, we first find the energy used in kilowatt-hours and
 then multiply by the cost per kilowatt-hour.
 
-**Solution for (a)**
+__Solution for (a)__
 
 The energy used in kilowatt-hours is found by entering the power and time into
 the expression for energy:
@@ -248,9 +248,9 @@ Making Connections: Take-Home Experiment—Electrical Energy Use Inventory
 
 ### Section Summary
 
-* Electric power $$P $$ is the rate (in watts) that energy is supplied by a
+_ Electric power $$P $$ is the rate (in watts) that energy is supplied by a
   source or dissipated by a device.
-* Three expressions for electrical power are
+_ Three expressions for electrical power are
 
   <div class="equation" >
    $$P=IV, $$
@@ -264,7 +264,7 @@ Making Connections: Take-Home Experiment—Electrical Energy Use Inventory
    $$P={I}^{2}R\text{.} $$
   </div>
 
-* The energy used by a device with a power $$P $$ over a time $$t $$ is $$E=P t
+_ The energy used by a device with a power $$P $$ over a time $$t $$ is $$E=P t
   $$ .
 
 ### Conceptual Questions
@@ -428,13 +428,13 @@ Use the power equation $$P = I^{2}R$$ since we know current and resistance. This
 
 **Solution**
 
-**(a)** For the quality extension cord:
+__(a)__ For the quality extension cord:
 
 <div class="equation">
 $$P = I^{2}R = (5.00 \text{ A})^{2}(0.0600 \text{ Ω}) = (25.0 \text{ A}^{2})(0.0600 \text{ Ω}) = 1.50 \text{ W}$$
 </div>
 
-**(b)** For the cheaper cord with higher resistance:
+__(b)__ For the cheaper cord with higher resistance:
 
 <div class="equation">
 $$P = I^{2}R = (5.00 \text{ A})^{2}(0.300 \text{ Ω}) = (25.0 \text{ A}^{2})(0.300 \text{ Ω}) = 7.50 \text{ W}$$
@@ -731,13 +731,13 @@ For part (a), use $$P = V^{2}/R$$ rearranged to $$R = V^{2}/P$$. For part (b), u
 
 **Solution**
 
-**(a)** Calculate the hot resistance:
+__(a)__ Calculate the hot resistance:
 
 <div class="equation">
 $$R = \frac{V^{2}}{P} = \frac{(6.00 \text{ V})^{2}}{30.0 \text{ W}} = \frac{36.0 \text{ V}^{2}}{30.0 \text{ W}} = 1.20 \text{ Ω}$$
 </div>
 
-**(b)** Calculate the current:
+__(b)__ Calculate the current:
 
 <div class="equation">
 $$I = \frac{P}{V} = \frac{30.0 \text{ W}}{6.00 \text{ V}} = 5.00 \text{ A}$$
@@ -808,13 +808,13 @@ $$I = 2.00 \text{ mA} = 2.00 \times 10^{-3} \text{ A}$$
 $$V = 15.0 \text{ kV} = 15.0 \times 10^{3} \text{ V} = 1.50 \times 10^{4} \text{ V}$$
 </div>
 
-**(a)** Calculate the power:
+__(a)__ Calculate the power:
 
 <div class="equation">
 $$P = IV = (2.00 \times 10^{-3} \text{ A})(1.50 \times 10^{4} \text{ V}) = 30.0 \text{ W}$$
 </div>
 
-**(b)** Calculate the resistance:
+__(b)__ Calculate the resistance:
 
 <div class="equation">
 $$R = \frac{V}{I} = \frac{1.50 \times 10^{4} \text{ V}}{2.00 \times 10^{-3} \text{ A}} = 7.50 \times 10^{6} \text{ Ω} = 7.50 \text{ MΩ}$$
@@ -890,7 +890,7 @@ The filament diameter is reduced by a factor of 0.913 (or reduced to 91.3% of it
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 Cold vaporizers pass a current through water, evaporating it with only a small
 increase in temperature. One such home device is rated at 3.50 A and utilizes
@@ -909,7 +909,7 @@ Calculate the useful power output, then use the heat of vaporization of water ($
 
 **Solution**
 
-**(a)** Calculate the useful power:
+__(a)__ Calculate the useful power:
 
 <div class="equation">
 $$P_{\text{useful}} = \eta \times P = \eta \times IV = (0.950)(3.50 \text{ A})(120 \text{ V}) = 399 \text{ W}$$
@@ -927,7 +927,7 @@ Converting to grams per minute:
 $$\text{Rate} = 1.77 \times 10^{-4} \text{ kg/s} \times \frac{1000 \text{ g}}{1 \text{ kg}} \times \frac{60 \text{ s}}{1 \text{ min}} = 10.6 \text{ g/min}$$
 </div>
 
-**(b)** For 8.00 hours of operation:
+__(b)__ For 8.00 hours of operation:
 
 <div class="equation">
 $$\text{Water needed} = 10.6 \text{ g/min} \times 60 \text{ min/h} \times 8.00 \text{ h} = 5090 \text{ g} = 5.09 \text{ kg}$$
@@ -944,7 +944,7 @@ Over 5 kg (about 5 liters) of water is needed for overnight operation. This is a
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 (a) What energy is dissipated by a lightning bolt having a 20 000-A current, a
 voltage of $$ 1.00 \times 10^{2} \text{MV} $$ , and a length of 1.00 ms? (b)
@@ -962,7 +962,7 @@ characteristics as water?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 What current must be produced by a 12.0-V battery-operated bottle warmer in
 order to heat 75.0 g of glass, 250 g of baby formula, and $$ 3.00 \times 10^{2}
@@ -1018,7 +1018,7 @@ The bottle warmer must produce a current of 26.8 A.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 How much time is needed for a surgical cauterizer to raise the temperature of
 1.00 g of tissue from $$ 37.0\text{ºC} $$ to $$100 \text{ºC} $$ and then boil
@@ -1034,7 +1034,7 @@ to the surroundings.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 Hydroelectric generators (see [[Figure 5]](#Figure5)) at Hoover Dam produce a
 maximum current of $$ 8.00 \times 10^{3} \text{A} $$ at 250 kV. (a) What is the
@@ -1051,7 +1051,7 @@ efficiency?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 (a) Assuming 95.0% efficiency for the conversion of electrical power by the
 motor, what current must the 12.0-V batteries of a 750-kg electric car be able
@@ -1076,7 +1076,7 @@ See [[Figure 6]](#Figure6).
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 A light-rail commuter train draws 630 A of 650-V DC electricity when
 accelerating. (a) What is its power consumption rate in kilowatts? (b) How long
@@ -1090,7 +1090,7 @@ the light-rail train compares to what might be typical for an automobile.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 (a) An aluminum power transmission line has a resistance of $$ 0.0580 \Omega
 /\text{km} $$ . What is its mass per kilometer? (b) What is the mass per
@@ -1107,7 +1107,7 @@ by lowering the resistance.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 (a) An immersion heater utilizing 120 V can raise the temperature of a $$ 1.00
 \times 10^{2} \text{-g} $$ aluminum cup containing 350 g of water from $$
@@ -1121,7 +1121,7 @@ lowering the resistance.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Integrated Concepts**
+__Integrated Concepts__
 
 (a) What is the cost of heating a hot tub containing 1500 kg of water from
 $$
@@ -1136,7 +1136,7 @@ for heat transfer to the surroundings? The cost of electricity is $$9
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Unreasonable Results**
+__Unreasonable Results__
 
 (a) What current is needed to transmit $$ 1.00 \times 10^{2} \text{MW} $$ of
 power at 480 V? (b) What power is dissipated by the transmission lines if they
@@ -1159,7 +1159,7 @@ hundreds of kilovolts) to reduce power losses.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Unreasonable Results**
+__Unreasonable Results__
 
 (a) What current is needed to transmit $$ 1.00 \times 10^{2} \text{MW} $$ of
 power at 10.0 kV? (b) Find the resistance of 1.00 km of wire that would cause a
@@ -1172,7 +1172,7 @@ assumptions are unreasonable, or which premises are inconsistent?
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-**Construct Your Own Problem**
+__Construct Your Own Problem__
 
 Consider an electric immersion heater used to heat a cup of water to make tea.
 Construct a problem in which you calculate the needed resistance of the heater

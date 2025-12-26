@@ -49,11 +49,11 @@ Of course, to describe motion we must deal with velocity and acceleration, as
 well as with displacement. We must find their components along the **x**- and
 **y**-axes, too. We will assume all forces except gravity (such as air
 resistance and friction, for example) are negligible. The components of
-acceleration are then very simple: $$ a*{y}=-g=-9.80 \mss $$. (Note that this
+acceleration are then very simple: $$ a_{y}=-g=-9.80 \mss $$. (Note that this
 definition assumes that the upwards direction is defined as the positive
 direction. If you arrange the coordinate system instead such that the downwards
 direction is positive, then acceleration due to gravity takes a positive value.)
-Because gravity is vertical, $$ a*{x}=0 $$. Both accelerations are constant, so
+Because gravity is vertical, $$ a_{x}=0 $$. Both accelerations are constant, so
 the kinematic equations can be used.
 
 <div class="note" data-label="">
@@ -84,8 +84,8 @@ Given these assumptions, the following steps are then used to analyze projectile
 motion:
 
 **_Step 1._** _Resolve or break the motion into horizontal and vertical
-components along the x- and y-axes._ These axes are perpendicular, so $$ A*
-{x}=A\cos{\theta} $$ and $$ A*{y}=A\sin{\theta} $$ are used. The magnitude of
+components along the x- and y-axes._ These axes are perpendicular, so $$ A_
+{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The magnitude of
 the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$
 y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_
 {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
@@ -137,9 +137,9 @@ one-dimensional **kinematics** and are illustrated in the solved examples below.
 \vb{s} $$ _and velocity_ $$ \vb{v} $$. Because the *x*- and *y*-motions are
 perpendicular, we determine these vectors by using the techniques outlined in
 the [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
-and employing $$ A=\sqrt{ A*x^2+ A_y^2} $$ and $$ \theta ={\tan}^{-1}\left(
+and employing $$ A=\sqrt{ A_x^2+ A_y^2} $$ and $$ \theta ={\tan}^{-1}\left(
 \frac{A_y}{A_x}\right) $$ in the following form, where $$ \theta $$ is the
-direction of the displacement $$ \vb{s} $$ and $$\theta*{v} $$ is the direction
+direction of the displacement $$ \vb{s} $$ and $$\theta_{v} $$ is the direction
 of the velocity $$ \vb{v} $$.
 
 **Total displacement and velocity**
@@ -182,8 +182,8 @@ ground.
 
 Because air resistance is negligible for the unexploded shell, the analysis
 method outlined above can be used. The motion can be broken into horizontal and
-vertical motions in which $$ a*{x}=0 $$ and $$ a*{y}=-g $$. We can then define
-$$ x*{0} $$ and $$ y*{0} $$ to be zero and solve for the desired quantities.
+vertical motions in which $$ a_{x}=0 $$ and $$ a_{y}=-g $$. We can then define
+$$ x_{0} $$ and $$ y_{0} $$ to be zero and solve for the desired quantities.
 
 **Solution for (a)**
 
@@ -197,7 +197,7 @@ initial position, we use the following equation to find $$ y $$:
 </div>
 ![The x y graph shows the trajectory of fireworks shell. The initial velocity of the shell v zero is at angle theta zero equal to seventy five degrees with the horizontal x axis. The fuse is set to explode the shell at the highest point of the trajectory which is at a height h equal to two hundred thirty three meters and at a horizontal distance x equal to one hundred twenty five meters from the origin.](../resources/Figure_03_04_03.jpg "The trajectory of a fireworks shell. The fuse is set to explode the shell at the highest point in its trajectory, which is found to be at a height of 233 m and 125 m away horizontally."){: #Figure3 height="250"}
 
-Because $$ y*{0} $$ and $$ v*{y} $$ are both zero, the equation simplifies to
+Because $$ y_{0} $$ and $$ v_{y} $$ are both zero, the equation simplifies to
 
 <div class="equation">
  $$ 0=v_{0y}^{2}-2\text{gy.} $$
@@ -242,8 +242,8 @@ larger than that given to reach the same height.
 **Solution for (b)**
 
 As in many physics problems, there is more than one way to solve for the time to
-the highest point. In this case, the easiest method is to use $$ y=y*
-{0}+\frac{1}{2}\left(v*{0y}+v*{y}\right)t $$. Because $$ y*{0} $$ is zero, this
+the highest point. In this case, the easiest method is to use $$ y=y_
+{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$. Because $$ y_{0} $$ is zero, this
 equation reduces to simply
 
 <div class="equation">
@@ -262,14 +262,14 @@ t&=& 6.90 \s .
 
 This time is also reasonable for large fireworks. When you are able to see the
 launch of fireworks, you will notice several seconds pass before the shell
-explodes. (Another way of finding the time is by using $$ y=y*{0}+v*
+explodes. (Another way of finding the time is by using $$ y=y_{0}+v_
 {0y}t-\frac{1}{2}g t^{2} $$, and solving the quadratic equation for $$ t $$.)
 
 **Solution for (c)**
 
-Because air resistance is negligible, $$ a*{x}=0 $$ and the horizontal velocity
+Because air resistance is negligible, $$ a_{x}=0 $$ and the horizontal velocity
 is constant, as discussed above. The horizontal displacement is horizontal
-velocity multiplied by time as given by $$ x=x*{0}+v*{x}t $$, where $$ x*{0} $$
+velocity multiplied by time as given by $$ x=x_{0}+v_{x}t $$, where $$ x_{0} $$
 is equal to zero:
 
 <div class="equation">
@@ -484,8 +484,8 @@ Earth. Let us consider projectile range further.
 {: #Figure5 height="300"}
 
 How does the initial velocity of a projectile affect its range? Obviously, the
-greater the initial speed $$ v*{0} $$, the greater the range, as shown
-in [Figure 5](#Figure5)(a). The initial angle $$ \theta*{0} $$ also has a dramatic
+greater the initial speed $$ v_{0} $$, the greater the range, as shown
+in [Figure 5](#Figure5)(a). The initial angle $$ \theta_{0} $$ also has a dramatic
 effect on the range, as illustrated in [Figure 5](#Figure5)(b). For a fixed initial
 speed, such as might be produced by a cannon, the maximum range is obtained with
 
@@ -744,7 +744,7 @@ The horizontal and vertical velocity components are given directly. Use projecti
 
 **Solution**
 
-Given: $$ v*{0x} = 16 \ms $$, $$ v*{0y} = 12 \ms $$, $$ a_y = -g = -9.80 \mss $$
+Given: $$ v_{0x} = 16 \ms $$, $$ v_{0y} = 12 \ms $$, $$ a_y = -g = -9.80 \mss $$
 
 **(a) Speed when the ball hits the ground:**
 
@@ -760,7 +760,7 @@ $$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(16 \ms)^2 + (-12 \ms)^2} = \sqrt{256 + 144}
 
 **(b) Time in the air:**
 
-The ball rises until $$ v*y = 0 $$, then falls back. Using $$ v_y = v*{0y} - gt $$:
+The ball rises until $$ v_y = 0 $$, then falls back. Using $$ v_y = v_{0y} - gt $$:
 
 Time to reach maximum height:
 
@@ -776,7 +776,7 @@ $$ t_{total} = 2 \times t_{up} = 2 \times 1.22 \s = 2.45 \s $$
 
 **(c) Maximum height:**
 
-At maximum height, $$ v*y = 0 $$. Using $$ v_y^2 = v*{0y}^2 - 2gy $$:
+At maximum height, $$ v_y = 0 $$. Using $$ v_y^2 = v_{0y}^2 - 2gy $$:
 
 <div class="equation">
 $$ 0 = (12 \ms)^2 - 2(9.80 \mss)y_{max} $$
@@ -816,7 +816,7 @@ Since the ball is thrown horizontally, $$ v\_{0y} = 0 $$. The vertical motion de
 
 **Solution**
 
-Given: $$ y*0 = 60.0 \m $$, $$ y = 0 $$, $$ x = 100.0 \m $$, $$ v*{0y} = 0 $$
+Given: $$ y_0 = 60.0 \m $$, $$ y = 0 $$, $$ x = 100.0 \m $$, $$ v_{0y} = 0 $$
 
 **(a) Time in the air:**
 
@@ -2780,7 +2780,7 @@ $$ a = \frac{v_{0y}}{v_{0x}} = \tan\theta_0 $$
 $$ b = -\frac{g}{2v_{0x}^2} $$
 </div>
 
-Since $$ v*{0x} = v_0\cos\theta_0 $$ and $$ v*{0y} = v_0\sin\theta_0 $$:
+Since $$ v_{0x} = v_0\cos\theta_0 $$ and $$ v_{0y} = v_0\sin\theta_0 $$:
 
 <div class="equation">
 $$ y = (\tan\theta_0)x - \frac{g}{2v_0^2\cos^2\theta_0}x^2 $$
@@ -2792,7 +2792,7 @@ This equation has the form $$ y = ax + bx^2 $$, which is a parabola. The coeffic
 
 **Answer**
 
-The trajectory equation $$ y = \frac{v*{0y}}{v*{0x}}x - \frac{g}{2v\_{0x}^2}x^2 $$ is in the form **y = ax + bx²**, proving that projectile motion follows a **parabolic path**.
+The trajectory equation $$ y = \frac{v_{0y}}{v_{0x}}x - \frac{g}{2v\_{0x}^2}x^2 $$ is in the form **y = ax + bx²**, proving that projectile motion follows a **parabolic path**.
 
 </div>
 </div>
