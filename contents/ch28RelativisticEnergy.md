@@ -607,6 +607,27 @@ What is the rest energy of an electron, given its mass is  $$ 9.11 \times 10^{-3
 Find the rest energy in joules and MeV of a proton, given its mass is  $$ 1.67 \times 10^{-27}  \text{kg} $$.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use Einstein's rest energy formula $$E_0 = mc^2$$ and convert the result from joules to MeV using the conversion factor $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
+
+**Solution**
+
+$$E_0 = mc^2 = (1.67 \times 10^{-27} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
+
+$$E_0 = (1.67 \times 10^{-27})(9.00 \times 10^{16}) = 1.503 \times 10^{-10} \text{ J}$$
+
+Converting to MeV:
+
+$$E_0 = \frac{1.503 \times 10^{-10} \text{ J}}{1.602 \times 10^{-13} \text{ J/MeV}} = 938 \text{ MeV}$$
+
+**Discussion**
+
+The proton's rest mass energy is approximately 938 MeV, a fundamental constant in particle physics. This is the minimum energy required to create a proton-antiproton pair from pure energy, and it represents the energy that would be released if a proton could be completely annihilated. The value 938 MeV is used so frequently in nuclear and particle physics that it's worth memorizing. It's about 1836 times larger than the electron's rest energy (0.511 MeV), reflecting the proton's greater mass.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -622,7 +643,36 @@ If the rest energies of a proton and a neutron (the two constituents of nuclei) 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 The Big Bang that began the universe is estimated to have released  $${10}^{68} \text{J} $$
- of energy. How many stars could half this energy create, assuming the average star’s mass is  $$ 4.00 \times 10^{30}  \text{kg} $$ ?
+ of energy. How many stars could half this energy create, assuming the average star's mass is  $$ 4.00 \times 10^{30}  \text{kg} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Half the Big Bang energy available is $$E = 0.5 \times 10^{68} = 5 \times 10^{67}$$ J. Each star requires $$E_{\text{star}} = mc^2$$ to create from pure energy. Divide the available energy by the energy per star.
+
+**Solution**
+
+Energy per star:
+
+$$E_{\text{star}} = mc^2 = (4.00 \times 10^{30} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
+
+$$E_{\text{star}} = (4.00 \times 10^{30})(9.00 \times 10^{16}) = 3.60 \times 10^{47} \text{ J}$$
+
+Number of stars:
+
+$$N = \frac{E_{\text{available}}}{E_{\text{star}}} = \frac{5 \times 10^{67}}{3.60 \times 10^{47}} = 1.39 \times 10^{20} \text{ stars}$$
+
+**Discussion**
+
+Half the Big Bang energy could theoretically create about $$1.4 \times 10^{20}$$ (140 billion billion) stars the size of our Sun! For perspective, the observable universe contains an estimated $$10^{24}$$ stars, which is 10,000 times more than this calculation suggests. This apparent discrepancy makes sense because:
+
+1. Not all Big Bang energy went into creating matter—much went into kinetic energy, radiation, and dark energy
+2. Most matter in the universe is not in stars (dark matter comprises ~85% of all matter)
+3. The Big Bang energy estimate includes all forms of energy throughout cosmic history
+
+This problem illustrates the mind-boggling energy scale of the Big Bang and demonstrates that mass-energy conversion, while incredibly powerful at human scales, operates on scales matched by cosmic events.
 
 </div>
 </div>
@@ -646,6 +696,31 @@ A supernova explosion of a  $$ 2.00 \times 10^{31}  \text{kg} $$
 (a) Using data from [[Table]](../contents/ch7ConservationOfEnergy#Table1), calculate the mass converted to energy by the fission of 1.00 kg of uranium. (b) What is the ratio of mass destroyed to the original mass,  $$\Delta m/m $$ ?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From energy tables, uranium fission releases approximately $$8.0 \times 10^{13}$$ J/kg. Use $$E = \Delta mc^2$$ to find the mass converted. Then calculate the ratio $$\Delta m/m$$.
+
+**Solution**
+
+(a) Energy released by fission of 1.00 kg uranium: $$E = 8.0 \times 10^{13}$$ J
+
+Mass converted to energy:
+
+$$\Delta m = \frac{E}{c^2} = \frac{8.0 \times 10^{13} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{8.0 \times 10^{13}}{9.00 \times 10^{16}} = 8.9 \times 10^{-4} \text{ kg}$$
+
+(b) Ratio of mass destroyed to original mass:
+
+$$\frac{\Delta m}{m} = \frac{8.9 \times 10^{-4} \text{ kg}}{1.00 \text{ kg}} = 8.9 \times 10^{-4} = 0.089\%$$
+
+**Discussion**
+
+Less than one-tenth of one percent (0.089%) of the uranium's mass is converted to energy during fission. While this seems small, it represents an enormous energy release—about $$8 \times 10^{13}$$ J from just 1 kg of fuel, equivalent to burning roughly 3 million kg of coal! This efficiency is what makes nuclear power viable: a single kilogram of uranium can power a city for days.
+
+The small mass loss (0.89 grams per kilogram) explains why mass-energy equivalence wasn't discovered earlier—the mass decrease is measurable with modern precision balances but would have been impossible to detect in the 19th century. This also explains why nuclear reactors don't visibly "shrink" as they operate—the spent fuel looks nearly identical in mass to fresh fuel, despite having released tremendous energy.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -665,8 +740,37 @@ A supernova explosion of a  $$ 2.00 \times 10^{31}  \text{kg} $$
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 There is approximately  $${10}^{34} \text{J} $$
- of energy available from fusion of hydrogen in the world’s oceans. (a) If  $${10}^{33} \text{J} $$
+ of energy available from fusion of hydrogen in the world's oceans. (a) If  $${10}^{33} \text{J} $$
  of this energy were utilized, what would be the decrease in mass of the oceans? Assume that 0.08% of the mass of a water molecule is converted to energy during the fusion of hydrogen. (b) How great a volume of water does this correspond to? (c) Comment on whether this is a significant fraction of the total mass of the oceans.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$E = \Delta mc^2$$ to find mass decrease. (b) If 0.08% of water mass is converted, the total water mass involved is $$m_{\text{water}} = \Delta m / 0.0008$$. Convert to volume using water density (1000 kg/m³). (c) Compare to ocean mass (~$$1.4 \times 10^{21}$$ kg).
+
+**Solution**
+
+(a) Mass decrease from energy utilization:
+
+$$\Delta m = \frac{E}{c^2} = \frac{10^{33} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{10^{33}}{9.00 \times 10^{16}} = 1.11 \times 10^{16} \text{ kg}$$
+
+(b) If 0.08% of water mass converts to energy:
+
+$$m_{\text{water}} = \frac{\Delta m}{0.0008} = \frac{1.11 \times 10^{16}}{0.0008} = 1.39 \times 10^{19} \text{ kg}$$
+
+Volume (using density = 1000 kg/m³):
+
+$$V = \frac{m_{\text{water}}}{\rho} = \frac{1.39 \times 10^{19}}{1000} = 1.39 \times 10^{16} \text{ m}^3 = 1.39 \times 10^{13} \text{ km}^3$$
+
+(c) The oceans contain approximately $$1.4 \times 10^{21}$$ kg of water. The fraction used:
+
+$$\frac{m_{\text{water}}}{m_{\text{oceans}}} = \frac{1.39 \times 10^{19}}{1.4 \times 10^{21}} = 0.01 = 1\%$$
+
+**Discussion**
+
+Remarkably, utilizing just 10% of the available fusion energy ($$10^{33}$$ out of $$10^{34}$$ J) would consume only about 1% of the ocean's water! This demonstrates the incredible energy density of fusion. The volume involved ($$1.4 \times 10^{13}$$ km³) sounds enormous, but it's tiny compared to the total ocean volume ($$1.4 \times 10^9$$ km³). If fusion power becomes practical, the deuterium in Earth's oceans could power human civilization for millions of years without significantly depleting the oceans. This is one reason fusion is considered the "ultimate" energy source—the fuel is virtually inexhaustible and readily available.
 
 </div>
 </div>
@@ -690,7 +794,44 @@ $$0.999988c $$
 A  $$\pi  $$
 -meson is a particle that decays into a muon and a massless particle. The  $$\pi  $$
 -meson has a rest mass energy of 139.6 MeV, and the muon has a rest mass energy of 105.7 MeV. Suppose the  $$\pi  $$
--meson is at rest and all of the missing mass goes into the muon’s kinetic energy. How fast will the muon move?
+-meson is at rest and all of the missing mass goes into the muon's kinetic energy. How fast will the muon move?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Energy conservation: $$E_{\pi} = E_{\mu} + E_{\nu}$$. Since the $$\pi$$ is at rest, $$E_{\pi} = 139.6$$ MeV. The muon has rest energy 105.7 MeV plus kinetic energy. The missing mass-energy ($$139.6 - 105.7 = 33.9$$ MeV) goes into kinetic energy. Use $$KE = (\gamma - 1)mc^2$$ to find $$\gamma$$, then solve for $$v$$.
+
+**Solution**
+
+Kinetic energy of muon:
+
+$$KE_{\mu} = E_{\pi} - E_{\mu,\text{rest}} = 139.6 - 105.7 = 33.9 \text{ MeV}$$
+
+Using $$KE = (\gamma - 1)mc^2$$:
+
+$$33.9 = (\gamma - 1)(105.7)$$
+
+$$\gamma - 1 = \frac{33.9}{105.7} = 0.3207$$
+
+$$\gamma = 1.3207$$
+
+From $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$:
+
+$$1.3207 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+
+$$\sqrt{1-\frac{v^2}{c^2}} = \frac{1}{1.3207} = 0.7571$$
+
+$$1-\frac{v^2}{c^2} = 0.5732$$
+
+$$\frac{v^2}{c^2} = 0.4268$$
+
+$$v = 0.653c$$
+
+**Discussion**
+
+The muon emerges traveling at about 65% the speed of light. This problem illustrates several important principles: (1) energy conservation applies to particle decays, (2) "missing mass" is converted to kinetic energy, and (3) momentum conservation also applies (the massless particle—a neutrino—carries away momentum to balance the muon's momentum). The fact that the muon takes most of the available energy but not all of it is due to momentum conservation: in the pion's rest frame, the products must have equal and opposite momenta, so the massless neutrino (traveling at $$c$$) must carry significant energy despite having no mass.
 
 </div>
 </div>
@@ -713,6 +854,35 @@ Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium
  and is given 5.00 MeV of kinetic energy, what is its velocity?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First check if relativistic treatment is needed by comparing KE to rest energy. The helium nucleus (alpha particle) has rest energy $$E_0 = mc^2$$. If $$KE \ll E_0$$, classical formula $$KE = \frac{1}{2}mv^2$$ suffices. Otherwise, use relativistic $$KE = (\gamma - 1)mc^2$$.
+
+**Solution**
+
+Rest energy of alpha particle:
+
+$$E_0 = mc^2 = (6.80 \times 10^{-27})(3.00 \times 10^8)^2 = 6.12 \times 10^{-10} \text{ J}$$
+
+Converting to MeV: $$E_0 = \frac{6.12 \times 10^{-10}}{1.602 \times 10^{-13}} = 3820 \text{ MeV}$$
+
+Since $$KE = 5.00$$ MeV $$\ll 3820$$ MeV, classical treatment is adequate:
+
+$$KE = \frac{1}{2}mv^2$$
+
+$$v = \sqrt{\frac{2 \cdot KE}{m}} = \sqrt{\frac{2(5.00 \times 1.602 \times 10^{-13})}{6.80 \times 10^{-27}}}$$
+
+$$v = \sqrt{\frac{1.602 \times 10^{-12}}{6.80 \times 10^{-27}}} = \sqrt{2.356 \times 10^{14}} = 1.54 \times 10^7 \text{ m/s}$$
+
+As a fraction of $$c$$: $$v = \frac{1.54 \times 10^7}{3.00 \times 10^8} = 0.0513c$$
+
+**Discussion**
+
+The alpha particle travels at about 5% the speed of light, or 15,400 km/s. At this velocity, relativistic corrections are only about $$\frac{1}{2}\gamma^2 v^2/c^2 \approx 0.13\%$$, confirming that classical mechanics is adequate. This velocity is typical for alpha particles from radioactive decay. While 5% of $$c$$ seems fast, it's slow enough that alpha particles can be stopped by a sheet of paper or a few centimeters of air. This low penetration (despite high energy) is due to the alpha particle's relatively large mass and double positive charge, which cause strong interactions with matter.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -730,6 +900,49 @@ Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 A positron is an antimatter version of the electron, having exactly the same mass. When a positron and an electron meet, they annihilate, converting all of their mass into energy. (a) Find the energy released, assuming negligible kinetic energy before the annihilation. (b) If this energy is given to a proton in the form of kinetic energy, what is its velocity? (c) If this energy is given to another electron in the form of kinetic energy, what is its velocity?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Two electron rest masses (electron + positron) are converted: $$E = 2m_ec^2$$. (b) For proton: $$KE = (\gamma - 1)m_pc^2 = 2m_ec^2$$, solve for $$v$$. (c) Similarly for electron: $$(\gamma - 1)m_ec^2 = 2m_ec^2$$, giving $$\gamma = 3$$.
+
+**Solution**
+
+(a) Energy released:
+
+$$E = 2m_ec^2 = 2(9.11 \times 10^{-31})(3.00 \times 10^8)^2 = 1.64 \times 10^{-13} \text{ J}$$
+
+In MeV: $$E = 2(0.511) = 1.02 \text{ MeV}$$
+
+(b) For proton ($$m_p = 1.67 \times 10^{-27}$$ kg, rest energy 938 MeV):
+
+$$KE = (\gamma - 1)m_pc^2 = 1.02 \text{ MeV}$$
+
+$$\gamma - 1 = \frac{1.02}{938} = 0.001088$$
+
+$$\gamma = 1.001088$$
+
+Since $$\gamma \approx 1$$, use classical approximation:
+
+$$v = c\sqrt{1-\frac{1}{\gamma^2}} \approx c\sqrt{2(\gamma-1)} = c\sqrt{2(0.001088)} = 0.0467c$$
+
+Or $$v = 1.40 \times 10^7 \text{ m/s}$$
+
+(c) For electron:
+
+$$(\gamma - 1)m_ec^2 = 2m_ec^2$$
+
+$$\gamma - 1 = 2$$
+
+$$\gamma = 3$$
+
+$$v = c\sqrt{1-\frac{1}{\gamma^2}} = c\sqrt{1-\frac{1}{9}} = c\sqrt{\frac{8}{9}} = 0.943c$$
+
+**Discussion**
+
+Part (a) shows that electron-positron annihilation releases 1.02 MeV, which appears as two gamma-ray photons in practice (to conserve momentum). Part (b) demonstrates that this energy barely accelerates a proton—only to 4.7% of $$c$$—because the proton is 1836 times heavier than the electron. Part (c) shows that the same energy accelerates an electron to 94% of $$c$$, illustrating how particle mass dramatically affects the velocity achieved for a given energy. This is why particle accelerators use electrons for certain experiments: they reach relativistic speeds with much less energy than protons require.
 
 </div>
 </div>
@@ -753,6 +966,29 @@ What is the kinetic energy in MeV of a  $$\pi  $$
 Find the kinetic energy in MeV of a neutron with a measured life span of 2065 s, given its rest energy is 939.6 MeV, and rest life span is 900s.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Time dilation relates the lifetimes: $$\Delta t = \gamma \Delta t_0$$, so $$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{2065}{900}$$. Then use $$KE = (\gamma - 1)mc^2$$ where $$mc^2 = 939.6$$ MeV.
+
+**Solution**
+
+Calculate $$\gamma$$:
+
+$$\gamma = \frac{2065 \text{ s}}{900 \text{ s}} = 2.294$$
+
+Kinetic energy:
+
+$$KE = (\gamma - 1)mc^2 = (2.294 - 1)(939.6 \text{ MeV})$$
+
+$$KE = (1.294)(939.6) = 1216 \text{ MeV} = 1.22 \text{ GeV}$$
+
+**Discussion**
+
+This relativistic neutron has kinetic energy of about 1.22 GeV, which is greater than its rest mass energy (940 MeV). At this energy, $$\gamma = 2.3$$, meaning the neutron's lifetime is extended by that factor, allowing it to travel much farther before decaying than it would at rest. Such high-energy neutrons are produced in cosmic ray interactions and particle accelerators. The extended lifetime due to time dilation is crucial for detecting these particles—without relativistic effects, they would decay before reaching detectors. This problem beautifully connects time dilation with energy, showing how measuring a particle's lifetime can reveal its kinetic energy.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -774,8 +1010,49 @@ Find the kinetic energy in MeV of a neutron with a measured life span of 2065 s,
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 One cosmic ray neutron has a velocity of  $$0.250c $$
- relative to the Earth. (a) What is the neutron’s total energy in MeV? (b) Find its momentum. (c) Is  $$E\approx \text{pc} $$
+ relative to the Earth. (a) What is the neutron's total energy in MeV? (b) Find its momentum. (c) Is  $$E\approx \text{pc} $$
  in this situation? Discuss in terms of the equation given in part (a) of the previous problem.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Calculate $$\gamma$$ for $$v = 0.250c$$, then $$E = \gamma mc^2$$ where neutron rest energy is 939.6 MeV. (b) Use $$p = \gamma mv$$. (c) Compare $$E$$ to $$pc$$ and discuss using $$E^2 = (pc)^2 + (mc^2)^2$$.
+
+**Solution**
+
+(a) Calculate $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.250c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.0625}} = \frac{1}{\sqrt{0.9375}} = 1.033$$
+
+Total energy:
+
+$$E = \gamma mc^2 = (1.033)(939.6 \text{ MeV}) = 970.6 \text{ MeV}$$
+
+(b) Momentum (neutron mass $$m = 1.675 \times 10^{-27}$$ kg):
+
+$$p = \gamma mv = (1.033)(1.675 \times 10^{-27})(0.250)(3.00 \times 10^8)$$
+
+$$p = 1.295 \times 10^{-19} \text{ kg·m/s}$$
+
+In MeV/c units: $$pc = \gamma mvc = (1.033)(939.6 \text{ MeV})(0.250) = 242.5 \text{ MeV}$$
+
+(c) Compare $$E$$ to $$pc$$:
+
+$$E = 970.6 \text{ MeV}, \quad pc = 242.5 \text{ MeV}$$
+
+Clearly $$E \not\approx pc$$. Using $$E^2 = (pc)^2 + (mc^2)^2$$:
+
+$$(970.6)^2 = (242.5)^2 + (939.6)^2$$
+
+$$942,064 = 58,806 + 882,848 = 941,654$$ ✓ (close agreement within rounding)
+
+The approximation $$E \approx pc$$ is only valid when $$pc \gg mc^2$$, i.e., when $$\gamma \gg 1$$. Here $$\gamma = 1.033$$ (barely relativistic), so the rest energy term dominates: $$mc^2 = 939.6$$ MeV is much larger than the momentum term $$pc = 242.5$$ MeV.
+
+**Discussion**
+
+At $$v = 0.250c$$, the neutron is mildly relativistic but not ultra-relativistic. The total energy is dominated by rest mass (97% rest energy, only 3% kinetic energy). For the approximation $$E \approx pc$$ to hold, we typically need $$\gamma > 10$$, where kinetic energy far exceeds rest energy. This problem illustrates the transition from non-relativistic ($$E \approx mc^2$$) to ultra-relativistic ($$E \approx pc$$) regimes, with this neutron falling in between.
 
 </div>
 </div>
@@ -797,6 +1074,37 @@ What is  $$\gamma  $$
  for them? (b) What is their total energy (nearly the same as kinetic in this case) in GeV?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) The kinetic energy equals the energy gained from the accelerating potential: $$KE = eV$$, where $$e$$ is the electron charge and $$V$$ is the potential. Use $$KE = (\gamma - 1)m_ec^2$$. (b) Total energy is $$E = \gamma m_ec^2$$.
+
+**Solution**
+
+(a) Kinetic energy of electron:
+
+$$KE = (\gamma - 1)m_ec^2 = (1.00 \times 10^5 - 1)(0.511 \text{ MeV})$$
+
+$$KE \approx (1.00 \times 10^5)(0.511 \text{ MeV}) = 51,100 \text{ MeV} = 51.1 \text{ GeV}$$
+
+Accelerating potential:
+
+$$V = \frac{KE}{e} = 51.1 \text{ GV (gigavolts)}$$
+
+Or $$V = 5.11 \times 10^{10}$$ V
+
+(b) Total energy:
+
+$$E = \gamma m_ec^2 = (1.00 \times 10^5)(0.511 \text{ MeV}) = 51,100 \text{ MeV} = 51.1 \text{ GeV}$$
+
+Note that $$KE \approx E$$ since $$\gamma \gg 1$$ (rest energy is negligible compared to total energy).
+
+**Discussion**
+
+At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v = c\sqrt{1-\frac{1}{\gamma^2}} \approx c(1 - 5 \times 10^{-11})$$, differing from light speed by less than one part in 10 billion! The 51 GeV energy was typical for SLAC's highest-energy experiments. At this energy, the electron's kinetic energy is 100,000 times its rest mass, demonstrating the ultra-relativistic regime where essentially all energy goes into kinetic energy rather than increasing rest mass. This is why particle physicists often quote energies in GeV rather than speeds—at these energies, everything travels at essentially $$c$$, so energy is the more meaningful parameter.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -814,6 +1122,36 @@ What is  $$\gamma  $$
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 (a) Calculate the energy released by the destruction of 1.00 kg of mass. (b) How many kilograms could be lifted to a 10.0 km height by this amount of energy?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$E = mc^2$$. (b) Work done lifting mass is $$W = mgh$$. Set $$W = E$$ and solve for mass.
+
+**Solution**
+
+(a) Energy from 1.00 kg:
+
+$$E = mc^2 = (1.00 \text{ kg})(3.00 \times 10^8 \text{ m/s})^2 = 9.00 \times 10^{16} \text{ J}$$
+
+(b) Mass that can be lifted to 10.0 km:
+
+$$E = mgh$$
+
+$$m = \frac{E}{gh} = \frac{9.00 \times 10^{16}}{(9.80)(10.0 \times 10^3)} = \frac{9.00 \times 10^{16}}{9.80 \times 10^4}$$
+
+$$m = 9.18 \times 10^{11} \text{ kg}$$
+
+**Discussion**
+
+Complete conversion of just 1 kg of mass releases $$9 \times 10^{16}$$ J—enough energy to lift over 900 billion kilograms to a height of 10 km! To put this in perspective, that's roughly:
+- The mass of 6 million full Boeing 747 aircraft
+- Enough to lift all the buildings in a major city to that height
+- About 10,000 times the energy released by the Hiroshima bomb
+
+This staggering energy density explains why even tiny amounts of mass-energy conversion (as in nuclear reactions) produce enormous energy outputs, and why complete matter-antimatter annihilation would be the ultimate energy source—if we could harness it practically.
 
 </div>
 </div>
@@ -834,6 +1172,41 @@ A Van de Graaff accelerator utilizes a 50.0 MV potential difference to accelerat
 Suppose you use an average of  $$500 kW·h $$
  of electric energy per month in your home. (a) How long would 1.00 g of mass converted to electric energy with an efficiency of 38.0% last you? (b) How many homes could be supplied at the  $$500 kW·h $$
  per month rate for one year by the energy from the described mass conversion?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Total energy from 1.00 g is $$E = mc^2$$. With 38% efficiency, available energy is $$0.38E$$. Divide by monthly usage. (b) Calculate total energy for all homes for one year and divide into available energy.
+
+**Solution**
+
+(a) Energy from 1.00 g = $$10^{-3}$$ kg:
+
+$$E = mc^2 = (10^{-3})(3.00 \times 10^8)^2 = 9.00 \times 10^{13} \text{ J}$$
+
+Useful energy (38% efficient):
+
+$$E_{\text{useful}} = 0.38 \times 9.00 \times 10^{13} = 3.42 \times 10^{13} \text{ J}$$
+
+Convert to kW·h: $$E_{\text{useful}} = \frac{3.42 \times 10^{13}}{3.6 \times 10^6} = 9.50 \times 10^{6} \text{ kW·h}$$
+
+Number of months:
+
+$$t = \frac{9.50 \times 10^6}{500} = 19,000 \text{ months} = 1583 \text{ years}$$
+
+(b) Energy needed for one home for one year:
+
+$$E_{\text{home/year}} = 500 \times 12 = 6000 \text{ kW·h}$$
+
+Number of homes for one year:
+
+$$N = \frac{9.50 \times 10^6}{6000} = 1583 \text{ homes}$$
+
+**Discussion**
+
+One gram of mass, converted to electricity at 38% efficiency (typical for a good power plant), could power your home for over 1500 years, or power 1583 homes for an entire year! This demonstrates the incredible energy density inherent in mass. For comparison, a typical coal plant burns about 2-3 million kg of coal per year to produce similar energy output. The 38% efficiency assumed is realistic for modern power plants, where much energy is lost as waste heat. If we could achieve 100% efficiency, that single gram would last over 4000 years!
 
 </div>
 </div>
@@ -880,9 +1253,36 @@ The Sun produces energy at a rate of  $$ 4.00 \times 10^{26}  $$
 **Unreasonable Results**
 
 A proton has a mass of $$ 1.67 \times 10^{-27} \text{kg} $$ . A physicist
-measures the proton’s total energy to be 50.0 MeV. (a) What is the proton’s
+measures the proton's total energy to be 50.0 MeV. (a) What is the proton's
 kinetic energy? (b) What is unreasonable about this result? (c) Which
 assumptions are unreasonable or inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) The proton's rest energy is approximately 938 MeV. Use $$KE = E - E_0$$. (b) Check if the result is physically reasonable. (c) Identify the problematic assumption.
+
+**Solution**
+
+(a) Proton rest energy:
+
+$$E_0 = m_pc^2 = 938 \text{ MeV}$$
+
+Kinetic energy:
+
+$$KE = E - E_0 = 50.0 - 938 = -888 \text{ MeV}$$
+
+(b) **This result is unreasonable because kinetic energy cannot be negative.** Kinetic energy represents the energy of motion and must always be ≥ 0. A negative kinetic energy would imply that the proton has less than its rest energy, which violates the fundamental relation $$E = \gamma mc^2$$ where $$\gamma \geq 1$$.
+
+(c) The unreasonable assumption is that the **total energy is only 50.0 MeV**. The total energy of any massive particle must be at least its rest energy. For a proton, $$E_{\text{min}} = m_pc^2 = 938$$ MeV. A measured total energy of 50 MeV is less than the rest energy, which is impossible.
+
+The physicist may have mistakenly measured the kinetic energy (50 MeV is a reasonable KE for a proton) and called it total energy, or there was an error in the measurement. If the proton truly has $$KE = 50$$ MeV, its total energy would be $$E = 938 + 50 = 988$$ MeV.
+
+**Discussion**
+
+This "unreasonable results" problem teaches an important lesson about total vs. kinetic energy in relativity. In classical physics, where rest energy isn't considered, we might casually use "energy" to mean kinetic energy. In relativity, we must be precise: total energy $$E = \gamma mc^2$$ always exceeds rest energy $$mc^2$$, with the difference being kinetic energy. Any measurement showing total energy less than rest energy signals an error in measurement or interpretation.
 
 </div>
 </div>
