@@ -378,8 +378,8 @@ Create file: **`src/_includes/head.njk`**
   <title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
 
   <link rel="manifest" href="{{ site.baseUrl }}assets/manifest/manifest.json">
-  <link rel="stylesheet" href="{{ site.baseUrl }}assets/css/gitbook.css">
-  <link rel="stylesheet" href="{{ site.baseUrl }}assets/css/styles.css">
+  <link rel="stylesheet" href="{{ site.baseUrl }}assets/css/theme.css">
+  <link rel="stylesheet" href="{{ site.baseUrl }}assets/css/book.css">
 
   <script>
     window.Book = {
@@ -868,10 +868,10 @@ await esbuild.build({
 
 // Minify CSS
 await esbuild.build({
-  entryPoints: ['src/assets/css/styles.css'],
+  entryPoints: ['src/assets/css/book.css'],
   bundle: true,
   minify: true,
-  outfile: '_site/assets/css/styles.min.css',
+  outfile: '_site/assets/css/book.min.css',
 });
 ```
 
@@ -974,8 +974,8 @@ The existing `serviceWorker.js` should work with minimal changes. Update cache p
 // In serviceWorker.js - update CACHE_URLS if needed
 const CACHE_URLS = [
   '/physics-book/',
-  '/physics-book/assets/css/gitbook.css',
-  '/physics-book/assets/css/styles.css',
+  '/physics-book/assets/css/theme.css',
+  '/physics-book/assets/css/book.css',
   '/physics-book/assets/js/book-viewer.js',
   // ... etc
 ];
