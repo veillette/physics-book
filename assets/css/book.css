@@ -1,0 +1,684 @@
+/* ==================== Physics Book Custom Styles ==================== */
+/* This file contains ONLY physics book-specific customizations */
+/* Generic theme styles are in theme.css */
+
+/* ==================== Custom Properties for Physics Book ==================== */
+:root {
+  /* Physics Book Colors - Overrides for theme */
+  --physics-color-primary: #0d9488;
+  --physics-color-primary-hover: #0f766e;
+  --physics-color-secondary: #7c3aed;
+  --physics-color-accent: #ea580c;
+  --physics-color-note: #0369a1;
+  --physics-color-note-bg: #f0f9ff;
+  --physics-color-abstract: #0d9488;
+  --physics-color-abstract-bg: #ecfdf5;
+  --physics-color-glossary: #92400e;
+  --physics-color-glossary-bg: #fef3c7;
+  --physics-color-example: #ea580c;
+  --physics-color-example-bg: #fef2f2;
+  --physics-color-exercise: #7c3aed;
+  --physics-color-exercise-bg: #faf5ff;
+  --physics-color-solution-border: #cbd5e1;
+  --physics-color-problem: #475569;
+  --physics-color-target: #fef3c7;
+  --physics-color-header-link: #0d9488;
+
+  /* Layout Constants for Educational Elements */
+  --abstract-margin: 30px 6rem 0 6rem;
+  --abstract-padding: 15px;
+  --glossary-margin: 30px 2rem 0 6rem;
+  --note-margin: 30px 6rem 0 6rem;
+  --example-margin-top: 30px;
+
+  /* Typography for Educational Elements */
+  --font-size-note-title: 1.5rem;
+  --font-size-abstract-title: 1.8rem;
+  --font-size-glossary-title: 1.5rem;
+
+  /* Transitions */
+  --transition-opacity: opacity 0.2s ease-in-out 0.1s;
+
+  /* Touch Targets */
+  --touch-target-min: 44px;
+  --touch-target-md: 48px;
+  --touch-target-lg: 52px;
+}
+
+/* ==================== Summary Checkmarks ==================== */
+
+:is(.summary li:not(.visited) > .fa-check) {
+  display: none !important;
+}
+
+.summary li.visited > .fa-check {
+  display: inline-block !important;
+  inset-inline-end: auto !important;
+  inset-block-start: auto !important;
+}
+
+/* ==================== Page Title and Content ==================== */
+
+section.normal > .title {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal {
+  counter-reset: figure note exercise equation example table;
+}
+
+/* When the URL refers to in-page elements make them stand out */
+:target {
+  background-color: var(--physics-color-target);
+}
+
+/* ==================== Header Links ==================== */
+
+.header-link {
+  position: absolute;
+  inset-inline-start: -1em;
+  opacity: 0;
+  transition: var(--transition-opacity);
+}
+
+:is(h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover) .header-link {
+  opacity: 1;
+  color: var(--physics-color-header-link) !important;
+}
+
+/* ==================== Responsive Page Width ==================== */
+
+.book .book-body .page-wrapper .page-inner {
+  max-inline-size: calc(80% - 100px);
+}
+
+@media (max-width: 1000px) {
+  .book .book-body .page-wrapper .page-inner {
+    max-inline-size: calc(100% - 100px);
+  }
+}
+
+@media (max-width: 600px) {
+  .book .book-body .page-wrapper .page-inner {
+    max-inline-size: calc(100% - 50px);
+  }
+}
+
+/* ==================== Figures ==================== */
+
+.book .book-body .page-wrapper .page-inner figure {
+  display: table;
+  inline-size: 100%;
+  counter-increment: figure;
+}
+
+.book .book-body .page-wrapper .page-inner figure img {
+  display: table;
+  inline-size: 50%;
+}
+
+.book .book-body .page-wrapper .page-inner figure > [data-type='title'] {
+  font-weight: bold;
+  font-size: small;
+}
+
+.book .book-body .page-wrapper .page-inner figure > figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  font-size: small;
+}
+
+.book .book-body .page-wrapper .page-inner figure > figcaption::before {
+  font-weight: bold;
+  content: 'Figure ' counter(figure) ': ';
+}
+
+/* ==================== Abstract / Learning Outcomes ==================== */
+
+.abstract {
+  margin: var(--abstract-margin);
+  padding: var(--abstract-padding);
+  background-color: var(--physics-color-abstract-bg);
+}
+
+.abstract::before {
+  margin: 2px 6rem 0 6rem;
+  padding: 1px;
+  font-size: var(--font-size-abstract-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--physics-color-abstract);
+  content: 'Learning Outcomes:';
+}
+
+/* ==================== Glossary ==================== */
+
+.glossary {
+  margin: var(--glossary-margin);
+  padding: 10px 20px;
+  background-color: var(--physics-color-glossary-bg);
+}
+
+.glossary-title {
+  display: inline-block;
+  color: var(--physics-color-glossary);
+  font-size: var(--font-size-glossary-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ==================== Equations ==================== */
+
+.equation::before {
+  content: '';
+}
+
+.equation {
+  display: flex;
+  justify-content: space-evenly;
+  counter-increment: equation;
+}
+
+.equation::after {
+  content: 'Eq.(' counter(equation) ')';
+}
+
+/* ==================== Notes ==================== */
+
+.note {
+  margin: var(--note-margin);
+  padding: 15px;
+  background-color: var(--physics-color-note-bg);
+}
+
+/* Note title variations */
+:is(
+  .note:not([data-label]).ui-has-child-title > header > .title,
+  .note:not([data-label]).ui-has-child-title > .title
+) {
+  display: inline-block;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+:is(
+  .note:not([data-label]).ui-has-child-title > header > .title::before,
+  .note:not([data-label]).ui-has-child-title > .title::before
+) {
+  content: 'Note: ';
+}
+
+.note:not([data-label]):not(.ui-has-child-title)::before {
+  display: inline-block;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  content: 'Note';
+}
+
+:is(
+  .note[data-label=''].ui-has-child-title > header > .title,
+  .note[data-label=''].ui-has-child-title > .title
+) {
+  display: inline-block;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.note[data-label='']:not(.ui-has-child-title)::before {
+  display: inline-block;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+:is(
+  .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+  .note[data-label]:not([data-label='']).ui-has-child-title > .title
+) {
+  display: inline-block;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+:is(
+  .note[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+  .note[data-label]:not([data-label='']).ui-has-child-title > .title::before
+) {
+  content: attr(data-label-parent) ': ';
+}
+
+.note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+  display: inline-block;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  content: attr(data-label);
+}
+
+.book .book-body .page-wrapper .page-inner .note > section {
+  padding: 5px 15px;
+  border-block-start: 1px solid var(--physics-color-note);
+  background-color: var(--physics-color-note-bg);
+}
+
+/* ==================== Examples ==================== */
+
+.example {
+  margin-block-start: var(--example-margin-top);
+  counter-increment: example;
+}
+
+:is(
+  .example:not([data-label]).ui-has-child-title > header > .title,
+  .example:not([data-label]).ui-has-child-title > .title
+) {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-accent);
+}
+
+.example:not([data-label]).ui-has-child-title > header > .title::before {
+  content: 'Example ' counter(example) ': ';
+}
+
+.example:not([data-label]):not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-accent);
+  content: 'Example';
+}
+
+.example[data-label=''].ui-has-child-title > header > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-accent);
+}
+
+.example[data-label='']:not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-accent);
+}
+
+.example[data-label]:not([data-label='']).ui-has-child-title > header > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-accent);
+}
+
+.example[data-label]:not([data-label='']).ui-has-child-title > header > .title::before {
+  content: attr(data-label-parent) ': ';
+}
+
+.example[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-accent);
+  content: attr(data-label);
+}
+
+.book .book-body .page-wrapper .page-inner .example > section {
+  padding: 5px 15px;
+  border-block-start: 1px solid var(--physics-color-accent);
+  background-color: var(--physics-color-example-bg);
+}
+
+/* ==================== Exercises ==================== */
+
+.exercise {
+  margin-block-start: var(--example-margin-top);
+}
+
+.exercise:not([data-element-type='check-understanding']) {
+  counter-increment: exercise;
+}
+
+.exercise:not([data-label]).ui-has-child-title > header > .title {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-exercise);
+}
+
+.exercise:not([data-label]).ui-has-child-title > header > .title::before {
+  content: 'Exercise: ';
+}
+
+.exercise:not([data-label]):not(.ui-has-child-title)::before {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-exercise);
+  content: 'Exercise ' counter(exercise);
+}
+
+:is(
+  .exercise[data-label=''].ui-has-child-title > header > .title,
+  .exercise[data-label=''].ui-has-child-title > .title
+) {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-exercise);
+}
+
+:is(
+  .exercise[data-label='']:not(.ui-has-child-title)::before,
+  .exercise[data-label='']:not(.ui-has-child-title)::before
+) {
+  display: inline-block;
+  padding: 0.1em 1em;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: var(--physics-color-exercise);
+}
+
+.book .book-body .page-wrapper .page-inner .exercise > section {
+  padding: 5px 15px;
+  border-block-start: 1px solid var(--physics-color-exercise);
+  background-color: var(--physics-color-exercise-bg);
+}
+
+/* ==================== Problems and Solutions ==================== */
+
+:is(.example .problem, .exercise .problem, .example .solution, .exercise .solution) {
+  padding: 0.5em 1em;
+}
+
+:is(.example .solution, .exercise .solution) {
+  border-block-start: 1px solid var(--physics-color-solution-border);
+}
+
+:is(.example .solution > .ui-toggle-wrapper, .exercise .solution > .ui-toggle-wrapper) {
+  text-align: center;
+}
+
+:is(.example .solution > .ui-toggle-wrapper > .ui-toggle, .exercise .solution > .ui-toggle-wrapper > .ui-toggle) {
+  outline: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+:is(
+  .example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+  .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before
+) {
+  content: 'Show Solution';
+}
+
+:is(
+  .example .solution:not(.ui-solution-visible) > section,
+  .exercise .solution:not(.ui-solution-visible) > section
+) {
+  display: none;
+}
+
+:is(
+  .example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+  .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before
+) {
+  content: 'Hide Solution';
+}
+
+:is(
+  .example[data-element-type='check-understanding'] .title::before,
+  .exercise[data-element-type='check-understanding'] .title::before
+) {
+  margin-inline-end: 0;
+  content: '';
+}
+
+:is(
+  .example[data-element-type='conceptual-questions'] .problem,
+  .exercise[data-element-type='conceptual-questions'] .problem
+) {
+  border-block-start: none;
+}
+
+:is(
+  .example[data-element-type='conceptual-questions'] .problem p,
+  .exercise[data-element-type='conceptual-questions'] .problem p
+) {
+  margin: 0;
+}
+
+:is(
+  .example[data-element-type='problems-exercises'] .problem::before,
+  .exercise[data-element-type='problems-exercises'] .problem::before,
+  .example[data-element-type='problems-exercises'] .solution::before,
+  .exercise[data-element-type='problems-exercises'] .solution::before
+) {
+  font-weight: bold;
+  color: var(--physics-color-problem);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+:is(
+  .example[data-element-type='problems-exercises'] .problem::before,
+  .exercise[data-element-type='problems-exercises'] .problem::before
+) {
+  content: '';
+}
+
+:is(
+  .example[data-element-type='problems-exercises'] .solution::before,
+  .exercise[data-element-type='problems-exercises'] .solution::before
+) {
+  content: '';
+}
+
+/* ==================== Chapter Numbering (Physics Book Specific) ==================== */
+
+.book .book-summary ul.summary {
+  counter-reset: chapter;
+}
+
+.book .book-summary ul.summary li.part {
+  font-size: 130%;
+  font-weight: bold;
+  color: #1e293b;
+  padding-inline-start: 15px;
+}
+
+.book .book-summary ul.summary li.part > ol {
+  font-size: 70%;
+  font-weight: normal;
+}
+
+.book .book-summary ul.summary ol {
+  padding: 0;
+}
+
+.book .book-summary ul.summary li {
+  padding-block: 10px;
+  list-style-type: none;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.book .book-summary ul.summary li > a {
+  display: inline !important;
+}
+
+.book .book-summary ul.summary li::before {
+  font-weight: bold;
+}
+
+.book .book-summary ul.summary li.chapter {
+  counter-increment: chapter;
+  counter-reset: section;
+}
+
+.book .book-summary ul.summary li.chapter::before {
+  content: counter(chapter) '. ';
+  color: var(--physics-color-primary);
+  font-weight: bold;
+  font-size: 120%;
+  padding-inline-start: 1em;
+}
+
+.book .book-summary ul.summary li.chapter > a {
+  font-size: 120%;
+}
+
+.book .book-summary ul.summary li.chapter > ol > li {
+  counter-increment: section;
+}
+
+.book .book-summary ul.summary li.chapter > ol > li::before {
+  content: counter(chapter) '.' counter(section) ' ';
+  color: var(--physics-color-primary);
+  font-weight: bold;
+  padding-inline-start: 2em;
+}
+
+/* ==================== Page Counters ==================== */
+
+.page {
+  counter-reset: figure example exercise equation;
+}
+
+.page-title {
+  font-weight: bold;
+  color: var(--physics-color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ==================== Iframe ==================== */
+
+iframe {
+  display: block;
+  inline-size: 100%;
+}
+
+/* ==================== Enhanced Mobile Touch Interactions ==================== */
+
+/* Prevent text selection during swipe gestures */
+.book .book-body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection in actual content */
+.book .book-body .page-inner {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Smooth transitions for swipe feedback */
+.book .book-body .page-wrapper {
+  will-change: transform, opacity;
+}
+
+/* Larger touch targets for navigation buttons on mobile */
+@media (max-width: 768px) {
+  .book .book-body .navigation {
+    min-inline-size: 48px;
+    min-block-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  /* Enhanced tap feedback for navigation buttons */
+  .book .book-body .navigation:active {
+    background-color: rgb(0 0 0 / 0.1);
+    transform: scale(0.95);
+    transition: all 0.1s ease;
+  }
+
+  /* Improve toggle summary button touch target */
+  .book .toggle-summary {
+    min-inline-size: 48px;
+    min-block-size: 48px;
+    padding: 12px;
+  }
+
+  .book .toggle-summary:active {
+    background-color: rgb(0 0 0 / 0.1);
+    transform: scale(0.95);
+  }
+
+  /* Enhanced touch targets for dark mode and PDF buttons */
+  :is(.book .book-body .dark-mode-toggle, .book .book-body .pdf-download-btn) {
+    min-inline-size: var(--touch-target-min);
+    min-block-size: var(--touch-target-min);
+    padding: 8px;
+  }
+
+  :is(.book .book-body .dark-mode-toggle:active, .book .book-body .pdf-download-btn:active) {
+    background-color: rgb(0 0 0 / 0.2);
+  }
+
+  /* Improve spacing for summary links */
+  .book .book-summary ul.summary li a {
+    padding: 12px 15px;
+    min-block-size: var(--touch-target-min);
+    display: flex;
+    align-items: center;
+  }
+
+  /* Better active state for summary links */
+  .book .book-summary ul.summary li a:active {
+    background-color: rgb(0 0 0 / 0.08);
+  }
+}
+
+/* Extra small screens - more touch-friendly */
+@media (max-width: 480px) {
+  .book .book-body .navigation {
+    min-inline-size: var(--touch-target-lg);
+    min-block-size: var(--touch-target-lg);
+    padding: 14px;
+    font-size: 20px;
+  }
+
+  .book .book-summary ul.summary li a {
+    padding: 14px 16px;
+    min-block-size: var(--touch-target-md);
+  }
+}
+
+/* Add subtle visual feedback for swipe direction indicators */
+body.dark-mode .book .book-body .navigation:active {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
+body.dark-mode .book .toggle-summary:active {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
+body.dark-mode .book .book-summary ul.summary li a:active {
+  background-color: rgb(255 255 255 / 0.08);
+}

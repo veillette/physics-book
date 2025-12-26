@@ -4,79 +4,124 @@
  */
 
 @media print {
-  /* ========================================
-     Page Setup
-     ======================================== */
-
+  /* ==================== Print Variables ==================== */
   @page {
     size: letter;
     margin: 0.75in;
   }
 
   @page :first {
-    margin-top: 1in;
+    margin-block-start: 1in;
   }
 
-  /* ========================================
-     Hide Non-Essential Elements
-     ======================================== */
+  /* CSS Custom Properties for Print */
+  :root {
+    --print-color-primary: #1565c0;
+    --print-color-secondary: #1976d2;
+    --print-color-tertiary: #0288d1;
+    --print-color-border: #64b5f6;
+    --print-color-text: black;
+    --print-color-bg: white;
+    --print-color-code-bg: #f5f5f5;
+    --print-color-code-border: #ddd;
+    --print-color-table-border: #333;
+    --print-color-blockquote-border: #333;
+    --print-color-example: #2196f3;
+    --print-color-example-bg: #e3f2fd;
+    --print-color-note: #4caf50;
+    --print-color-note-bg: #e8f5e9;
+    --print-color-warning: #ff9800;
+    --print-color-warning-bg: #fff3e0;
+    --print-color-tip: #9c27b0;
+    --print-color-tip-bg: #f3e5f5;
+    --print-color-problem-bg: #f5f5f5;
+    --print-color-problem-border: #757575;
+    --print-color-concept-bg: #ffe0b2;
+    --print-color-concept-border: #ff9800;
+    --print-color-summary-bg: #fff9c4;
+    --print-color-summary-border: #fbc02d;
+    --print-color-glossary-bg: #f3e5f5;
+    --print-color-glossary-border: #9c27b0;
+    --print-color-glossary-title: #6a1b9a;
+    --print-color-abstract-bg: #e1f5fe;
+    --print-color-abstract-border: #0288d1;
 
-  /* Navigation and UI elements */
-  nav,
-  .navigation,
-  .nav,
-  .sidebar,
-  .menu,
-  .toc-toggle,
-  .book-search,
-  .gitbook-link,
-  #gitbook-toolbar,
-  .toolbar,
-  .book-menu-btn,
-  .font-settings,
-  .pull-right,
-  .dropdown,
-  .social-share,
-  .comments,
-  .footer-links,
-  .edit-link,
-  .btn-group,
-  .pdf-download-btn,
-  header nav,
-  footer nav {
+    --print-border-width-thin: 2px;
+    --print-border-width-medium: 3px;
+    --print-border-width-thick: 4px;
+    --print-border-radius: 4px;
+    --print-border-radius-sm: 3px;
+
+    --print-spacing-sm: 10px;
+    --print-spacing-md: 15px;
+    --print-spacing-lg: 1em;
+
+    --print-font-size-base: 11pt;
+    --print-font-size-h1: 24pt;
+    --print-font-size-h2: 18pt;
+    --print-font-size-h3: 14pt;
+    --print-font-size-h4: 12pt;
+    --print-font-size-small: 0.9em;
+    --print-font-size-tiny: 0.8em;
+  }
+
+  /* ==================== Hide Non-Essential Elements ==================== */
+
+  :is(
+    nav,
+    .navigation,
+    .nav,
+    .sidebar,
+    .menu,
+    .toc-toggle,
+    .book-search,
+    .gitbook-link,
+    #gitbook-toolbar,
+    .toolbar,
+    .book-menu-btn,
+    .font-settings,
+    .pull-right,
+    .dropdown,
+    .social-share,
+    .comments,
+    .footer-links,
+    .edit-link,
+    .btn-group,
+    .pdf-download-btn,
+    header nav,
+    footer nav,
+    .pwa-install,
+    .offline-indicator,
+    .update-notification,
+    .book-summary,
+    .book-header,
+    .no-print
+  ) {
     display: none !important;
   }
 
-  /* Service worker and PWA elements */
-  .pwa-install,
-  .offline-indicator,
-  .update-notification {
-    display: none !important;
-  }
+  /* ==================== Layout Adjustments ==================== */
 
-  /* ========================================
-     Layout Adjustments
-     ======================================== */
-
-  /* Make content full width */
   body {
-    background: white !important;
-    color: black !important;
-    font-size: 11pt;
+    background: var(--print-color-bg) !important;
+    color: var(--print-color-text) !important;
+    font-size: var(--print-font-size-base);
     line-height: 1.5;
   }
 
-  .book,
-  .book-body,
-  .body-inner,
-  .page-wrapper,
-  .page-inner,
-  .markdown-section,
-  main,
-  article,
-  .content {
-    width: 100% !important;
-    max-width: 100% !important;
+  :is(
+    .book,
+    .book-body,
+    .body-inner,
+    .page-wrapper,
+    .page-inner,
+    .markdown-section,
+    main,
+    article,
+    .content
+  ) {
+    inline-size: 100% !important;
+    max-inline-size: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
     float: none !important;
@@ -84,23 +129,16 @@
     overflow: visible !important;
   }
 
-  .book-summary,
-  .book-header {
-    display: none !important;
-  }
-
-  /* ========================================
-     Typography
-     ======================================== */
+  /* ==================== Typography ==================== */
 
   h1 {
-    font-size: 24pt;
+    font-size: var(--print-font-size-h1);
     page-break-before: always;
     page-break-after: avoid;
-    margin-top: 0;
-    color: #1565c0 !important;
-    border-bottom: 3px solid #1565c0;
-    padding-bottom: 8px;
+    margin-block-start: 0;
+    color: var(--print-color-primary) !important;
+    border-block-end: var(--print-border-width-medium) solid var(--print-color-primary);
+    padding-block-end: 8px;
   }
 
   h1:first-of-type {
@@ -108,33 +146,26 @@
   }
 
   h2 {
-    font-size: 18pt;
+    font-size: var(--print-font-size-h2);
     page-break-after: avoid;
-    color: #1976d2 !important;
-    border-bottom: 2px solid #64b5f6;
-    padding-bottom: 6px;
+    color: var(--print-color-secondary) !important;
+    border-block-end: var(--print-border-width-thin) solid var(--print-color-border);
+    padding-block-end: 6px;
   }
 
   h3 {
-    font-size: 14pt;
+    font-size: var(--print-font-size-h3);
     page-break-after: avoid;
-    color: #0288d1 !important;
+    color: var(--print-color-tertiary) !important;
   }
 
-  h4,
-  h5,
-  h6 {
-    font-size: 12pt;
+  :is(h4, h5, h6) {
+    font-size: var(--print-font-size-h4);
     page-break-after: avoid;
   }
 
   /* Prevent headings at bottom of page */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  :is(h1, h2, h3, h4, h5, h6) {
     page-break-inside: avoid;
     orphans: 3;
     widows: 3;
@@ -145,91 +176,81 @@
     widows: 3;
   }
 
-  /* ========================================
-     Links
-     ======================================== */
+  /* ==================== Links ==================== */
 
   a {
-    color: black !important;
+    color: var(--print-color-text) !important;
     text-decoration: underline;
   }
 
   /* Show URL for external links */
-  a[href^='http']:after {
+  a[href^='http']::after {
     content: ' (' attr(href) ')';
-    font-size: 0.8em;
+    font-size: var(--print-font-size-tiny);
     color: #666;
     word-break: break-all;
   }
 
   /* Don't show URL for internal links */
-  a[href^='#']:after,
-  a[href^='/']:after,
-  a[href^='./']:after,
-  a[href^='../']:after {
-    content: '';
-  }
-
-  /* Don't show URL in navigation */
-  nav a:after,
-  .toc a:after {
+  :is(
+    a[href^='#']::after,
+    a[href^='/']::after,
+    a[href^='./']::after,
+    a[href^='../']::after,
+    nav a::after,
+    .toc a::after
+  ) {
     content: '' !important;
   }
 
-  /* ========================================
-     Images and Figures
-     ======================================== */
+  /* ==================== Images and Figures ==================== */
 
-  /* Make images smaller and better integrated with text */
   img {
-    max-width: 65% !important;
-    max-height: 4in !important;
-    height: auto !important;
-    width: auto !important;
+    max-inline-size: 65% !important;
+    max-block-size: 4in !important;
+    block-size: auto !important;
+    inline-size: auto !important;
     display: block;
-    margin: 10px auto !important;
+    margin: var(--print-spacing-sm) auto !important;
     page-break-inside: avoid;
     object-fit: contain !important;
   }
 
   figure {
-    max-width: 65% !important;
-    max-height: 4.5in !important;
-    margin: 10px auto !important;
+    max-inline-size: 65% !important;
+    max-block-size: 4.5in !important;
+    margin: var(--print-spacing-sm) auto !important;
     page-break-inside: avoid;
     page-break-after: avoid;
   }
 
   figure img {
-    max-width: 100% !important;
-    max-height: 4in !important;
+    max-inline-size: 100% !important;
+    max-block-size: 4in !important;
     margin: 0 auto !important;
     object-fit: contain !important;
   }
 
   /* Very small images can be even smaller */
-  img[width],
-  img[height] {
-    max-width: 50% !important;
-    max-height: 3in !important;
+  :is(img[width], img[height]) {
+    max-inline-size: 50% !important;
+    max-block-size: 3in !important;
   }
 
   figcaption {
-    font-size: 0.9em;
+    font-size: var(--print-font-size-small);
     font-style: italic;
     text-align: center;
-    margin-top: 0.5em;
+    margin-block-start: 0.5em;
   }
 
-  /* ========================================
-     Tables
-     ======================================== */
+  /* ==================== Tables ==================== */
 
   table {
     border-collapse: collapse;
-    width: 100%;
+    inline-size: 100%;
     page-break-inside: avoid;
-    margin: 1em 0;
+    margin-block: var(--print-spacing-lg);
   }
 
   thead {
@@ -240,11 +261,10 @@
     page-break-inside: avoid;
   }
 
-  th,
-  td {
-    border: 1px solid #333;
+  :is(th, td) {
+    border: 1px solid var(--print-color-table-border);
     padding: 8px;
-    text-align: left;
+    text-align: start;
   }
 
   th {
@@ -252,20 +272,17 @@
     font-weight: bold;
   }
 
-  /* ========================================
-     Code Blocks
-     ======================================== */
+  /* ==================== Code Blocks ==================== */
 
-  pre,
-  code {
+  :is(pre, code) {
     font-family: 'Courier New', Courier, monospace;
     font-size: 10pt;
-    background-color: #f5f5f5 !important;
-    border: 1px solid #ddd;
+    background-color: var(--print-color-code-bg) !important;
+    border: 1px solid var(--print-color-code-border);
   }
 
   pre {
-    padding: 10px;
+    padding: var(--print-spacing-sm);
     page-break-inside: avoid;
     overflow-x: auto;
     white-space: pre-wrap;
@@ -281,113 +298,110 @@
     padding: 0;
   }
 
-  /* ========================================
-     Math (MathJax)
-     ======================================== */
+  /* ==================== Math (MathJax) ==================== */
 
-  .MathJax,
-  .MathJax_Display,
-  mjx-container,
-  .math,
-  .katex,
-  .katex-display {
+  :is(
+    .MathJax,
+    .MathJax_Display,
+    mjx-container,
+    .math,
+    .katex,
+    .katex-display
+  ) {
     page-break-inside: avoid !important;
   }
 
   /* Scale down math to match text better */
-  mjx-container,
-  mjx-container[display='true'],
-  mjx-container[display='false'],
-  .MathJax,
-  .MathJax_Display,
-  .math,
-  .katex,
-  .katex-display {
+  :is(
+    mjx-container,
+    mjx-container[display='true'],
+    mjx-container[display='false'],
+    .MathJax,
+    .MathJax_Display,
+    .math,
+    .katex,
+    .katex-display
+  ) {
     font-size: 0.95em !important;
   }
 
   /* Inline math should be even smaller */
-  mjx-container[display='false'],
-  .MathJax:not(.MathJax_Display),
-  .katex:not(.katex-display),
-  span.math {
+  :is(
+    mjx-container[display='false'],
+    .MathJax:not(.MathJax_Display),
+    .katex:not(.katex-display),
+    span.math
+  ) {
     font-size: 0.9em !important;
     vertical-align: baseline !important;
   }
 
   /* Ensure math displays properly */
-  .MathJax_Display,
-  mjx-container[display='true'],
-  .katex-display {
-    margin: 1em 0 !important;
+  :is(
+    .MathJax_Display,
+    mjx-container[display='true'],
+    .katex-display
+  ) {
+    margin-block: var(--print-spacing-lg) !important;
     overflow-x: visible !important;
   }
 
-  /* ========================================
-     Blockquotes and Special Boxes
-     ======================================== */
+  /* ==================== Blockquotes and Special Boxes ==================== */
 
   blockquote {
-    border-left: 3px solid #333;
-    margin: 1em 0;
+    border-inline-start: var(--print-border-width-medium) solid var(--print-color-blockquote-border);
+    margin-block: var(--print-spacing-lg);
     padding: 0.5em 1em;
     background-color: #f9f9f9 !important;
     page-break-inside: avoid;
   }
 
   /* Example boxes with colorful backgrounds */
-  .example,
-  .worked-example {
+  :is(.example, .worked-example) {
     page-break-inside: avoid;
-    border-left: 4px solid #2196f3;
-    background-color: #e3f2fd !important;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 4px;
+    border-inline-start: var(--print-border-width-thick) solid var(--print-color-example);
+    background-color: var(--print-color-example-bg) !important;
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
+    border-radius: var(--print-border-radius);
   }
 
-  .example-title,
-  .example h4:first-child {
+  :is(.example-title, .example h4:first-child) {
     font-weight: bold;
-    margin-bottom: 0.5em;
+    margin-block-end: 0.5em;
   }
 
   /* Note/Warning/Info boxes */
-  .note,
-  .info {
+  :is(.note, .info) {
     page-break-inside: avoid;
-    border-left: 4px solid #4caf50;
-    background-color: #e8f5e9 !important;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 4px;
+    border-inline-start: var(--print-border-width-thick) solid var(--print-color-note);
+    background-color: var(--print-color-note-bg) !important;
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
+    border-radius: var(--print-border-radius);
   }
 
-  .warning,
-  .important {
+  :is(.warning, .important) {
     page-break-inside: avoid;
-    border-left: 4px solid #ff9800;
-    background-color: #fff3e0 !important;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 4px;
+    border-inline-start: var(--print-border-width-thick) solid var(--print-color-warning);
+    background-color: var(--print-color-warning-bg) !important;
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
+    border-radius: var(--print-border-radius);
   }
 
   .tip {
     page-break-inside: avoid;
-    border-left: 4px solid #9c27b0;
-    background-color: #f3e5f5 !important;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 4px;
+    border-inline-start: var(--print-border-width-thick) solid var(--print-color-tip);
+    background-color: var(--print-color-tip-bg) !important;
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
+    border-radius: var(--print-border-radius);
   }
 
-  /* ========================================
-     Lists
-     ======================================== */
+  /* ==================== Lists ==================== */
 
-  ul,
-  ol {
+  :is(ul, ol, dl) {
     page-break-inside: avoid;
   }
 
@@ -395,100 +409,96 @@
     page-break-inside: avoid;
   }
 
-  /* Definition lists */
-  dl {
-    page-break-inside: avoid;
-  }
-
   dt {
     font-weight: bold;
-    margin-top: 0.5em;
+    margin-block-start: 0.5em;
   }
 
   dd {
-    margin-left: 2em;
-    margin-bottom: 0.5em;
+    margin-inline-start: 2em;
+    margin-block-end: 0.5em;
   }
 
-  /* ========================================
-     Physics-Specific Elements
-     ======================================== */
+  /* ==================== Physics-Specific Elements ==================== */
 
   /* Equations that should stay together */
-  .equation,
-  .formula {
+  :is(.equation, .formula) {
     page-break-inside: avoid;
-    background-color: #f5f5f5 !important;
-    padding: 10px;
-    margin: 15px 0;
-    border-radius: 3px;
+    background-color: var(--print-color-code-bg) !important;
+    padding: var(--print-spacing-sm);
+    margin-block: var(--print-spacing-md);
+    border-radius: var(--print-border-radius-sm);
     text-align: center;
   }
 
   /* Problem sets */
-  .problems,
-  .exercises {
+  :is(.problems, .exercises) {
     page-break-before: always;
   }
 
   /* Exercise and problem boxes */
-  .problem,
-  .exercise {
+  :is(.problem, .exercise) {
     page-break-inside: avoid;
-    background-color: #f5f5f5 !important;
-    border-left: 3px solid #757575;
+    background-color: var(--print-color-problem-bg) !important;
+    border-inline-start: var(--print-border-width-medium) solid var(--print-color-problem-border);
     padding: 12px;
-    margin: 12px 0;
-    border-radius: 3px;
+    margin-block: 12px;
+    border-radius: var(--print-border-radius-sm);
   }
 
   /* Concept checks with orange dashed border */
-  .concept-check,
-  .check-understanding,
-  [data-element-type='check-understanding'] {
+  :is(
+    .concept-check,
+    .check-understanding,
+    [data-element-type='check-understanding']
+  ) {
     page-break-inside: avoid;
-    background-color: #ffe0b2 !important;
-    border: 2px dashed #ff9800;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 4px;
+    background-color: var(--print-color-concept-bg) !important;
+    border: 2px dashed var(--print-color-concept-border);
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
+    border-radius: var(--print-border-radius);
   }
 
   /* Hide solutions to end-of-chapter problems */
-  .solution,
-  div.solution,
-  [data-element-type='solution'] {
+  :is(
+    .solution,
+    div.solution,
+    [data-element-type='solution']
+  ) {
     display: none !important;
   }
 
   /* Section summaries with yellow background */
-  .summary,
-  .section-summary,
-  .key-equations,
-  [data-element-type='section-summary'] {
+  :is(
+    .summary,
+    .section-summary,
+    .key-equations,
+    [data-element-type='section-summary']
+  ) {
     page-break-inside: avoid;
-    background-color: #fff9c4 !important;
-    border: 2px solid #fbc02d;
-    border-radius: 4px;
-    padding: 15px;
-    margin: 15px 0;
+    background-color: var(--print-color-summary-bg) !important;
+    border: var(--print-border-width-thin) solid var(--print-color-summary-border);
+    border-radius: var(--print-border-radius);
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
   }
 
   /* Glossary with purple background */
   .glossary {
     page-break-inside: avoid;
-    background-color: #f3e5f5 !important;
-    border: 2px solid #9c27b0;
-    border-radius: 4px;
-    padding: 15px;
-    margin: 15px 0;
+    background-color: var(--print-color-glossary-bg) !important;
+    border: var(--print-border-width-thin) solid var(--print-color-glossary-border);
+    border-radius: var(--print-border-radius);
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
   }
 
   .glossary-title {
-    color: #6a1b9a !important;
-    border-bottom: 2px solid #9c27b0;
-    padding-bottom: 8px;
-    margin-bottom: 12px;
+    color: var(--print-color-glossary-title) !important;
+    border-block-end: var(--print-border-width-thin) solid var(--print-color-glossary-border);
+    padding-block-end: 8px;
+    margin-block-end: 12px;
   }
 
   .glossary-term {
@@ -496,28 +506,25 @@
   }
 
   .glossary-definition {
-    margin-left: 1em;
+    margin-inline-start: 1em;
   }
 
   /* Abstract/Learning objectives */
-  .abstract,
-  .learning-objectives {
+  :is(.abstract, .learning-objectives) {
     page-break-inside: avoid;
-    background-color: #e1f5fe !important;
-    border-left: 4px solid #0288d1;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 4px;
+    background-color: var(--print-color-abstract-bg) !important;
+    border-inline-start: var(--print-border-width-thick) solid var(--print-color-abstract-border);
+    padding: var(--print-spacing-md);
+    margin-block: var(--print-spacing-md);
+    border-radius: var(--print-border-radius);
   }
 
-  /* ========================================
-     Chapter/Section Headers
-     ======================================== */
+  /* ==================== Chapter/Section Headers ==================== */
 
   .chapter-header {
     page-break-before: always;
     text-align: center;
-    margin-bottom: 2em;
+    margin-block-end: 2em;
   }
 
   .chapter-number {
@@ -526,17 +533,11 @@
   }
 
   .chapter-title {
-    font-size: 24pt;
-    margin-top: 0.5em;
+    font-size: var(--print-font-size-h1);
+    margin-block-start: 0.5em;
   }
 
-  /* ========================================
-     Utility Classes
-     ======================================== */
-
-  .no-print {
-    display: none !important;
-  }
+  /* ==================== Utility Classes ==================== */
 
   .print-only {
     display: block !important;
