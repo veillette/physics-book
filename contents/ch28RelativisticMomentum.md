@@ -164,6 +164,29 @@ Find the momentum of a helium nucleus having a mass of  $$ 6.68 \times 10^{-27} 
 What is the momentum of an electron traveling at  $$ 0.980c $$ ?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the relativistic momentum formula $$p = \gamma mu$$, where $$m = 9.11 \times 10^{-31}$$ kg (electron mass), $$u = 0.980c$$, and $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}}$$.
+
+**Solution**
+
+First, calculate $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.980c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.9604}} = \frac{1}{\sqrt{0.0396}} = \frac{1}{0.1990} = 5.025$$
+
+Now calculate the relativistic momentum:
+
+$$p = \gamma mu = (5.025)(9.11 \times 10^{-31} \text{ kg})(0.980)(3.00 \times 10^8 \text{ m/s})$$
+
+$$p = (5.025)(9.11 \times 10^{-31})(2.94 \times 10^8) = 1.35 \times 10^{-21} \text{ kg·m/s}$$
+
+**Discussion**
+
+The electron's relativistic momentum is $$1.35 \times 10^{-21}$$ kg·m/s. For comparison, the classical momentum would be $$p_{\text{classical}} = mu = (9.11 \times 10^{-31})(2.94 \times 10^8) = 2.68 \times 10^{-22}$$ kg·m/s, which is about 5 times smaller than the relativistic value. This factor of 5 matches our calculated $$\gamma = 5.025$$, confirming that $$p_{\text{rel}} = \gamma p_{\text{classical}}$$. At 98% the speed of light, electrons carry significantly more momentum than classical physics predicts, which is important in particle accelerator design and high-energy physics experiments.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -189,6 +212,41 @@ to show small effects)
  at low velocities.)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Convert velocity to m/s and use $$p = \gamma mu$$ with the low-velocity approximation for $$\gamma$$. (b) Compare to classical momentum $$p_{\text{classical}} = mu$$.
+
+**Solution**
+
+(a) Given: $$m = 2000$$ kg, $$u = 4.00$$ km/s $$= 4.00 \times 10^3$$ m/s
+
+Using the approximation $$\gamma \approx 1 + \frac{1}{2}\frac{u^2}{c^2}$$:
+
+$$\gamma \approx 1 + \frac{1}{2}\frac{(4.00 \times 10^3)^2}{(3.00 \times 10^8)^2} = 1 + \frac{1}{2}\frac{1.60 \times 10^7}{9.00 \times 10^{16}}$$
+
+$$\gamma \approx 1 + \frac{1}{2}(1.778 \times 10^{-10}) = 1 + 8.89 \times 10^{-11} \approx 1.0000000000889$$
+
+Relativistic momentum:
+
+$$p = \gamma mu = (1.0000000000889)(2000)(4.00 \times 10^3)$$
+
+$$p = 8.000000000711 \times 10^6 \text{ kg·m/s} \approx 8.00 \times 10^6 \text{ kg·m/s}$$
+
+(b) Classical momentum:
+
+$$p_{\text{classical}} = mu = (2000)(4.00 \times 10^3) = 8.00 \times 10^6 \text{ kg·m/s}$$
+
+Ratio:
+
+$$\frac{p_{\text{rel}}}{p_{\text{classical}}} = \gamma = 1.0000000000889 \approx 1 + 8.89 \times 10^{-11}$$
+
+**Discussion**
+
+The satellite's velocity (4 km/s) is only $$1.33 \times 10^{-5}c$$, making relativistic effects incredibly tiny. The relativistic momentum exceeds the classical value by less than one part in 10 billion! This is why satellites, spacecraft, and everyday objects can be accurately described using classical mechanics. Even at orbital velocities of several kilometers per second—speeds that seem enormous to us—objects are moving so slowly compared to light that relativistic corrections are utterly negligible for practical purposes. This problem illustrates why special relativity wasn't discovered until the 20th century: its effects are simply too small to detect in ordinary circumstances.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -205,6 +263,47 @@ What is the velocity of an electron that has a momentum of  $$3.04 \times 10^{-2
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 Find the velocity of a proton that has a momentum of  $$ 4.48\times 10^{-19} \text{kg⋅m/s}\text{.} $$
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$p = \gamma mu$$ where $$m_p = 1.67 \times 10^{-27}$$ kg (proton mass). This gives $$p = \frac{mu}{\sqrt{1-\frac{u^2}{c^2}}}$$. Square both sides and solve for $$u$$.
+
+**Solution**
+
+Starting with:
+
+$$p = \frac{mu}{\sqrt{1-\frac{u^2}{c^2}}}$$
+
+Square both sides:
+
+$$p^2 = \frac{m^2u^2}{1-\frac{u^2}{c^2}}$$
+
+$$p^2\left(1-\frac{u^2}{c^2}\right) = m^2u^2$$
+
+$$p^2 - \frac{p^2u^2}{c^2} = m^2u^2$$
+
+$$p^2 = m^2u^2 + \frac{p^2u^2}{c^2} = u^2\left(m^2 + \frac{p^2}{c^2}\right)$$
+
+$$u^2 = \frac{p^2}{m^2 + \frac{p^2}{c^2}} = \frac{p^2c^2}{m^2c^2 + p^2}$$
+
+$$u = \frac{pc}{\sqrt{m^2c^2 + p^2}}$$
+
+Substituting values:
+
+$$u = \frac{(4.48 \times 10^{-19})(3.00 \times 10^8)}{\sqrt{(1.67 \times 10^{-27})^2(3.00 \times 10^8)^2 + (4.48 \times 10^{-19})^2}}$$
+
+$$u = \frac{1.344 \times 10^{-10}}{\sqrt{(2.511 \times 10^{-54})(9.00 \times 10^{16}) + 2.007 \times 10^{-37}}}$$
+
+$$u = \frac{1.344 \times 10^{-10}}{\sqrt{2.260 \times 10^{-37} + 2.007 \times 10^{-37}}} = \frac{1.344 \times 10^{-10}}{\sqrt{4.267 \times 10^{-37}}}$$
+
+$$u = \frac{1.344 \times 10^{-10}}{6.532 \times 10^{-19}} = 2.058 \times 10^8 \text{ m/s} = 0.686c$$
+
+**Discussion**
+
+The proton is traveling at about 69% the speed of light. At this velocity, $$\gamma = \frac{1}{\sqrt{1-0.686^2}} = \frac{1}{\sqrt{0.529}} = 1.37$$, so the relativistic momentum is 37% greater than the classical prediction. Such high-energy protons are produced in particle accelerators and cosmic ray showers. The formula used here—expressing velocity in terms of momentum—is particularly useful in particle physics where momentum is often the directly measured quantity (through particle tracks in detectors), and velocity must be inferred.
+
 </div>
 </div>
 
@@ -227,6 +326,43 @@ Find the velocity of a proton that has a momentum of  $$ 4.48\times 10^{-19} \te
 (a) Calculate  $$\gamma  $$
  for a proton that has a momentum of  $$1.00 \text{kg⋅m/s}\text{.} $$
  (b) What is its speed? Such protons form a rare component of cosmic radiation with uncertain origins.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$p = \gamma mu$$ to find $$\gamma = \frac{p}{mu}$$, but we don't know $$u$$ yet. Instead, use the energy-momentum relation or recognize that $$\gamma = \frac{p}{m_0c}\cdot\frac{c}{u}$$. Better approach: From $$p = \gamma mu$$ and $$\gamma = \frac{E}{mc^2}$$, we can derive $$\gamma = \sqrt{1 + \left(\frac{p}{mc}\right)^2}$$. (b) Once we have $$\gamma$$, solve for $$u$$.
+
+**Solution**
+
+(a) Using the relation $$\gamma^2 = 1 + \left(\frac{p}{mc}\right)^2$$:
+
+$$\gamma = \sqrt{1 + \left(\frac{p}{mc}\right)^2} = \sqrt{1 + \left(\frac{1.00}{(1.67 \times 10^{-27})(3.00 \times 10^8)}\right)^2}$$
+
+$$\gamma = \sqrt{1 + \left(\frac{1.00}{5.01 \times 10^{-19}}\right)^2} = \sqrt{1 + (1.996 \times 10^{18})^2}$$
+
+$$\gamma = \sqrt{1 + 3.984 \times 10^{36}} \approx \sqrt{3.984 \times 10^{36}} = 1.996 \times 10^{18}$$
+
+(Note: Since the momentum term dominates, $$\gamma \approx \frac{p}{mc} = 1.996 \times 10^{18}$$)
+
+(b) From $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}}$$:
+
+$$1 - \frac{u^2}{c^2} = \frac{1}{\gamma^2} = \frac{1}{(1.996 \times 10^{18})^2} = 2.51 \times 10^{-37}$$
+
+$$\frac{u^2}{c^2} = 1 - 2.51 \times 10^{-37} \approx 0.999999999999999999999999999999999999$$
+
+$$u \approx c\left(1 - 1.25 \times 10^{-37}\right)$$
+
+To many significant figures: $$u = 0.999999999999999999999999999999999999c$$
+
+Or more practically: $$u \approx c - 3.8 \times 10^{-29}$$ m/s
+
+**Discussion**
+
+This ultra-relativistic proton has $$\gamma \approx 2 \times 10^{18}$$—an almost incomprehensibly large Lorentz factor! Its speed differs from $$c$$ by less than one part in $$10^{36}$$. Such particles, known as ultra-high-energy cosmic rays, are among the most energetic particles ever detected. Their kinetic energy is roughly $$\gamma mc^2 \approx (2 \times 10^{18})(938 \text{ MeV}) \approx 10^{21}$$ eV or 1 ZeV (zettaelectronvolt)—equivalent to the kinetic energy of a baseball traveling at 100 km/h, concentrated in a single proton!
+
+The origins of such particles remain mysterious. They require acceleration mechanisms far more powerful than any human-made accelerator. Possible sources include active galactic nuclei, gamma-ray bursts, or exotic physics beyond the Standard Model. The detection of even a single such proton is a significant scientific event, as they are extraordinarily rare and provide insights into the most violent astrophysical processes in the universe.
 
 </div>
 </div>

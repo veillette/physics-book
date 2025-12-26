@@ -309,6 +309,39 @@ A spaceship, 200 m long as seen on board, moves by the Earth at  $$ 0.970c $$ .
 How fast would a 6.0 m-long sports car have to be going past you in order for it to appear only 5.5 m long?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The car's rest length is $$L_0 = 6.0$$ m (its proper length), and the contracted length is $$L = 5.5$$ m. Use the length contraction formula $$L = L_0\sqrt{1-\frac{v^2}{c^2}}$$ and solve for $$v$$.
+
+**Solution**
+
+Starting with the length contraction equation:
+
+$$L = L_0\sqrt{1-\frac{v^2}{c^2}}$$
+
+$$5.5 = 6.0\sqrt{1-\frac{v^2}{c^2}}$$
+
+$$\frac{5.5}{6.0} = \sqrt{1-\frac{v^2}{c^2}}$$
+
+$$0.9167 = \sqrt{1-\frac{v^2}{c^2}}$$
+
+Squaring both sides:
+
+$$(0.9167)^2 = 1-\frac{v^2}{c^2}$$
+
+$$0.8403 = 1-\frac{v^2}{c^2}$$
+
+$$\frac{v^2}{c^2} = 1 - 0.8403 = 0.1597$$
+
+$$v = c\sqrt{0.1597} = 0.400c$$
+
+**Discussion**
+
+The sports car would have to be traveling at 40% the speed of light, or approximately $$1.20 \times 10^8$$ m/s (120,000 km/s), for its length to contract from 6.0 m to 5.5 m. This is an enormous velocity—far beyond anything achievable with current technology. The 0.5 m contraction (about 8.3% of the original length) requires this incredibly high speed, illustrating why we never observe length contraction in everyday life. Even our fastest spacecraft travel at less than 0.01% the speed of light, producing completely negligible length contractions of much less than the width of an atom.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
@@ -331,7 +364,40 @@ in parts (a) and (b) are related when $$\gamma =3.20 $$.
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 (a) How long would the muon in [[Example 1]](../contents/ch28SimultaneityAndTimeDilation#Example1) have lived as observed on the Earth if its velocity was  $$ 0.0500c $$ ?
- (b) How far would it have traveled as observed on the Earth? (c) What distance is this in the muon’s frame?
+ (b) How far would it have traveled as observed on the Earth? (c) What distance is this in the muon's frame?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The muon's rest lifetime is $$\Delta t_0 = 2.20 \times 10^{-6}$$ s (from Example 1 in the Time Dilation section). For part (a), find the dilated time using $$\Delta t = \gamma \Delta t_0$$. For part (b), calculate the distance traveled on Earth using $$L_0 = v\Delta t$$. For part (c), use the muon's proper time to find the contracted distance in its frame.
+
+**Solution**
+
+(a) First, calculate $$\gamma$$ for $$v = 0.0500c$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.0500c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.00250}} = \frac{1}{\sqrt{0.9975}} = \frac{1}{0.9987} = 1.0013$$
+
+Now find the observed lifetime:
+
+$$\Delta t = \gamma \Delta t_0 = (1.0013)(2.20 \times 10^{-6} \text{ s}) = 2.203 \times 10^{-6} \text{ s}$$
+
+(b) Distance traveled as observed on Earth:
+
+$$L_0 = v\Delta t = (0.0500)(3.00 \times 10^8 \text{ m/s})(2.203 \times 10^{-6} \text{ s}) = 33.0 \text{ m}$$
+
+(c) Distance in the muon's frame (using proper time):
+
+$$L = v\Delta t_0 = (0.0500)(3.00 \times 10^8 \text{ m/s})(2.20 \times 10^{-6} \text{ s}) = 33.0 \text{ m}$$
+
+Alternatively, using length contraction:
+
+$$L = \frac{L_0}{\gamma} = \frac{33.0 \text{ m}}{1.0013} = 33.0 \text{ m}$$
+
+**Discussion**
+
+At only 5% the speed of light, relativistic effects are minuscule. The time dilation factor $$\gamma = 1.0013$$ means the muon lives only 0.13% longer than its rest lifetime, and the distances in parts (b) and (c) are essentially identical (both 33.0 m to three significant figures). This demonstrates that at low velocities ($$v \ll c$$), relativistic and classical predictions converge. The muon would travel only 33 meters before decaying—much less than the distance in the high-speed example where $$v = 0.950c$$ and the muon traveled over 2000 meters due to significant time dilation.
 
 </div>
 </div>
@@ -357,6 +423,41 @@ related when $$\text{γ} = 30.00 $$.
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
 (a) How fast would an athlete need to be running for a 100-m race to look 100 yd long? (b) Is the answer consistent with the fact that relativistic effects are difficult to observe in ordinary circumstances? Explain.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First convert 100 yd to meters: $$100 \text{ yd} = 100 \times 0.9144 \text{ m} = 91.44$$ m. The proper length is $$L_0 = 100$$ m, and the contracted length is $$L = 91.44$$ m. Use $$L = L_0\sqrt{1-\frac{v^2}{c^2}}$$ to find the required velocity.
+
+**Solution**
+
+(a) Using the length contraction formula:
+
+$$91.44 = 100\sqrt{1-\frac{v^2}{c^2}}$$
+
+$$\frac{91.44}{100} = \sqrt{1-\frac{v^2}{c^2}}$$
+
+$$0.9144 = \sqrt{1-\frac{v^2}{c^2}}$$
+
+Squaring both sides:
+
+$$(0.9144)^2 = 1-\frac{v^2}{c^2}$$
+
+$$0.8361 = 1-\frac{v^2}{c^2}$$
+
+$$\frac{v^2}{c^2} = 1 - 0.8361 = 0.1639$$
+
+$$v = c\sqrt{0.1639} = 0.405c$$
+
+$$v = (0.405)(3.00 \times 10^8 \text{ m/s}) = 1.21 \times 10^8 \text{ m/s}$$
+
+(b) **Yes, this is entirely consistent** with the fact that relativistic effects are difficult to observe in ordinary circumstances. The athlete would need to run at 40.5% the speed of light—over 121 million meters per second! For comparison, the world record 100-m sprint is run at about 10 m/s, which is $$3.3 \times 10^{-8}c$$. At this actual speed, the relativistic contraction would be utterly negligible—far less than the size of an atomic nucleus. Even if the athlete could somehow run at 1000 m/s (faster than a rifle bullet), the velocity would still be only $$3.3 \times 10^{-6}c$$, producing immeasurably small relativistic effects.
+
+**Discussion**
+
+This problem beautifully illustrates why special relativity seemed counterintuitive when first proposed. The speed required for even modest length contractions (8.56% in this case) is so enormous that no human experience prior to particle physics could have revealed these effects. It's only in the realm of particle accelerators and cosmic rays, where particles routinely travel at significant fractions of $$c$$, that length contraction becomes observable and must be accounted for in experimental design and data analysis.
 
 </div>
 </div>
@@ -391,6 +492,45 @@ The astronaut on board claims that he can send a canister toward the Earth at $$
 1.20c $$ relative to the Earth. (a) Calculate the velocity the canister must
 have relative to the spaceship. (b) What is unreasonable about this result? (c)
 Which assumptions are unreasonable or inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the relativistic velocity addition formula: $$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$, where $$v = 0.800c$$ is the spaceship's velocity relative to Earth, $$u = 1.20c$$ is the desired canister velocity relative to Earth, and $$u'$$ is the canister velocity relative to the spaceship. Solve for $$u'$$.
+
+**Solution**
+
+(a) Rearranging the relativistic velocity addition formula to solve for $$u'$$:
+
+$$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$
+
+$$u\left(1 + \frac{vu'}{c^2}\right) = v + u'$$
+
+$$u + \frac{uvu'}{c^2} = v + u'$$
+
+$$u - v = u' - \frac{uvu'}{c^2}$$
+
+$$u - v = u'\left(1 - \frac{uv}{c^2}\right)$$
+
+$$u' = \frac{u - v}{1 - \frac{uv}{c^2}}$$
+
+Substituting values:
+
+$$u' = \frac{1.20c - 0.800c}{1 - \frac{(1.20c)(0.800c)}{c^2}} = \frac{0.400c}{1 - \frac{0.960c^2}{c^2}} = \frac{0.400c}{1 - 0.960} = \frac{0.400c}{0.040} = 10.0c$$
+
+(b) This result is unreasonable because **no object with mass can travel at or exceed the speed of light**. The canister would need to travel at 10 times the speed of light relative to the spaceship, which violates the fundamental postulate of special relativity that nothing with mass can reach or exceed $$c$$ in any reference frame.
+
+(c) The unreasonable assumption is that the canister can reach a velocity of $$1.20c$$ relative to the Earth. According to special relativity, no matter how fast the canister is shot from the spaceship, its velocity relative to Earth must be less than $$c$$. Even if the canister could somehow travel at $$c$$ relative to the spaceship (which is impossible for massive objects), the relativistic velocity addition formula would give:
+
+$$u = \frac{0.800c + c}{1 + \frac{(0.800c)(c)}{c^2}} = \frac{1.800c}{1 + 0.800} = \frac{1.800c}{1.800} = c$$
+
+So the maximum possible velocity relative to Earth is $$c$$, not $$1.20c$$.
+
+**Discussion**
+
+This problem illustrates the fundamental difference between classical and relativistic velocity addition. Classically, we might add $$0.800c + 0.400c = 1.20c$$ without concern, but special relativity forbids velocities exceeding $$c$$. The relativistic velocity addition formula ensures that no combination of subluminal velocities can produce a velocity ≥ $$c$$ in any reference frame, protecting the speed of light as the ultimate speed limit. This "unreasonable results" problem helps students recognize when their assumptions violate relativistic principles.
 
 </div>
 </div>
