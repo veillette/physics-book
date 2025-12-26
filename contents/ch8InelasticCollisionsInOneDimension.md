@@ -112,9 +112,9 @@ velocity, as we might expect.
 
 **Solution for (b)**
 
-Before the collision, the internal kinetic energy $$ \KE*{\text{int}} $$ of the
+Before the collision, the internal kinetic energy $$ \KE_{\text{int}} $$ of the
 system is that of the hockey puck, because the goalie is initially at rest.
-Therefore, $$ \KE*{\text{int}} $$ is initially
+Therefore, $$ \KE_{\text{int}} $$ is initially
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -500,9 +500,9 @@ This is an "explosion" type problem where an initially stationary system separat
 
 Initial momentum is zero (ship and shell at rest). Apply conservation of momentum:
 
-$$ 0 = m*{\text{ship}} v*{\text{ship}} + m*{\text{shell}} v*{\text{shell}} $$
+$$ 0 = m_{\text{ship}} v_{\text{ship}} + m_{\text{shell}} v_{\text{shell}} $$
 
-$$ v*{\text{ship}} = -\frac{m*{\text{shell}} v*{\text{shell}}}{m*{\text{ship}}} $$
+$$ v_{\text{ship}} = -\frac{m_{\text{shell}} v_{\text{shell}}}{m_{\text{ship}}} $$
 
 $$ v\_{\text{ship}} = -\frac{(1100 \kg)(575 \ms)}{6.00 \times 10^{7} \kg} = -1.05 \times 10^{-2} \ms $$
 
@@ -514,7 +514,7 @@ Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE*f = \frac{1}{2}m*{\text{shell}} v*{\text{shell}}^2 + \frac{1}{2}m*{\text{ship}} v\_{\text{ship}}^2 $$
+$$ \KE_f = \frac{1}{2}m_{\text{shell}} v_{\text{shell}}^2 + \frac{1}{2}m_{\text{ship}} v\_{\text{ship}}^2 $$
 
 $$ \KE_f = \frac{1}{2}(1100 \kg)(575 \ms)^2 + \frac{1}{2}(6.00 \times 10^{7} \kg)(1.05 \times 10^{-2} \ms)^2 $$
 
@@ -582,7 +582,7 @@ This is a perfectly inelastic collision where the scrap metal (initially at rest
 
 The scrap metal has no horizontal velocity before landing in the car. Apply conservation of momentum:
 
-$$ m*{\text{car}} v*{\text{car}} + m*{\text{scrap}} v*{\text{scrap}} = (m*{\text{car}} + m*{\text{scrap}}) v_f $$
+$$ m_{\text{car}} v_{\text{car}} + m_{\text{scrap}} v_{\text{scrap}} = (m_{\text{car}} + m_{\text{scrap}}) v_f $$
 
 $$ (30000 \kg)(0.850 \ms) + (110000 \kg)(0) = (140000 \kg) v_f $$
 
@@ -689,15 +689,15 @@ We use conservation of momentum to find recoil velocities. The rifle (or rifle-s
 
 Conservation of momentum (initially at rest):
 
-$$ m*{\text{bullet}} v*{\text{bullet}} + m*{\text{rifle}} v*{\text{rifle}} = 0 $$
+$$ m_{\text{bullet}} v_{\text{bullet}} + m_{\text{rifle}} v_{\text{rifle}} = 0 $$
 
-$$ v*{\text{rifle}} = -\frac{m*{\text{bullet}} v*{\text{bullet}}}{m*{\text{rifle}}} = -\frac{(0.0250 \kg)(550 \ms)}{3.00 \kg} = -4.58 \ms $$
+$$ v_{\text{rifle}} = -\frac{m_{\text{bullet}} v_{\text{bullet}}}{m_{\text{rifle}}} = -\frac{(0.0250 \kg)(550 \ms)}{3.00 \kg} = -4.58 \ms $$
 
 The rifle recoils at 4.58 m/s away from the bullet.
 
 **Solution for (b)**
 
-$$ \KE*{\text{rifle}} = \frac{1}{2} m*{\text{rifle}} v\_{\text{rifle}}^2 = \frac{1}{2}(3.00 \kg)(4.58 \ms)^2 = 31.5 \J $$
+$$ \KE_{\text{rifle}} = \frac{1}{2} m_{\text{rifle}} v\_{\text{rifle}}^2 = \frac{1}{2}(3.00 \kg)(4.58 \ms)^2 = 31.5 \J $$
 
 The rifle gains 31.5 J of kinetic energy.
 
@@ -761,17 +761,17 @@ This is similar to an explosion problem: initial momentum is zero, and energy is
 
 Conservation of momentum (plutonium initially at rest):
 
-$$ m*{\text{He}} v*{\text{He}} + m*{\text{U}} v*{\text{U}} = 0 $$
+$$ m_{\text{He}} v_{\text{He}} + m_{\text{U}} v_{\text{U}} = 0 $$
 
-$$ v*{\text{U}} = -\frac{m*{\text{He}}}{m*{\text{U}}} v*{\text{He}} = -\frac{6.68 \times 10^{-27}}{3.92 \times 10^{-25}} v*{\text{He}} = -0.01704 v*{\text{He}} $$
+$$ v_{\text{U}} = -\frac{m_{\text{He}}}{m_{\text{U}}} v_{\text{He}} = -\frac{6.68 \times 10^{-27}}{3.92 \times 10^{-25}} v_{\text{He}} = -0.01704 v_{\text{He}} $$
 
 Total kinetic energy:
 
-$$ \frac{1}{2} m*{\text{He}} v*{\text{He}}^2 + \frac{1}{2} m*{\text{U}} v*{\text{U}}^2 = 8.40 \times 10^{-13} \J $$
+$$ \frac{1}{2} m_{\text{He}} v_{\text{He}}^2 + \frac{1}{2} m_{\text{U}} v_{\text{U}}^2 = 8.40 \times 10^{-13} \J $$
 
-Substituting $$ v*{\text{U}} = -0.01704 v*{\text{He}} $$:
+Substituting $$ v_{\text{U}} = -0.01704 v_{\text{He}} $$:
 
-$$ \frac{1}{2}(6.68 \times 10^{-27}) v*{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25})(0.01704)^2 v*{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ \frac{1}{2}(6.68 \times 10^{-27}) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25})(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
 $$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v\_{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
@@ -886,7 +886,7 @@ This is a perfectly inelastic collision where the trash can (initially at rest) 
 
 Apply conservation of momentum:
 
-$$ m*{\text{truck}} v*{\text{truck}} + m*{\text{can}} v*{\text{can}} = (m*{\text{truck}} + m*{\text{can}}) v_f $$
+$$ m_{\text{truck}} v_{\text{truck}} + m_{\text{can}} v_{\text{can}} = (m_{\text{truck}} + m_{\text{can}}) v_f $$
 
 Since the trash can is initially at rest:
 
@@ -919,7 +919,7 @@ This is a perfectly inelastic collision. The performer (initially at rest on fri
 
 Apply conservation of momentum:
 
-$$ m*{\text{ball}} v*{\text{ball}} + m*{\text{performer}} v*{\text{performer}} = (m*{\text{ball}} + m*{\text{performer}}) v_f $$
+$$ m_{\text{ball}} v_{\text{ball}} + m_{\text{performer}} v_{\text{performer}} = (m_{\text{ball}} + m_{\text{performer}}) v_f $$
 
 The performer is initially at rest:
 
@@ -954,7 +954,7 @@ This is an "explosion" type problem where an initially stationary system separat
 
 Conservation of momentum (initial momentum = 0):
 
-$$ m*{\text{clown}} v*{\text{clown}} + m*{\text{barbell}} v*{\text{barbell}} = 0 $$
+$$ m_{\text{clown}} v_{\text{clown}} + m_{\text{barbell}} v_{\text{barbell}} = 0 $$
 
 Note: The clown and barbell move in opposite directions, so their velocities have opposite signs. Let the barbell move in the positive direction.
 
@@ -972,7 +972,7 @@ Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE*f = \frac{1}{2} m*{\text{clown}} v*{\text{clown}}^2 + \frac{1}{2} m*{\text{barbell}} v\_{\text{barbell}}^2 $$
+$$ \KE_f = \frac{1}{2} m_{\text{clown}} v_{\text{clown}}^2 + \frac{1}{2} m_{\text{barbell}} v\_{\text{barbell}}^2 $$
 
 $$ \KE_f = \frac{1}{2}(80.0 \kg)(0.500 \ms)^2 + \frac{1}{2}(4.00 \kg)(10.0 \ms)^2 $$
 

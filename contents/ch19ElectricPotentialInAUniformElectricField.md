@@ -71,8 +71,8 @@ $$
 
 \begin{array}{c}
 \begin{array}{c}
-V*\text{AB}=Ed \\
-E=\frac{ V*\text{AB} }{d}
+V_\text{AB}=Ed \\
+E=\frac{ V_\text{AB} }{d}
 \end{array}
 \left( \text{uniform} E \text{-field only,} \right)  
 \end{array} $$

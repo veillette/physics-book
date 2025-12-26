@@ -756,9 +756,9 @@ At a typical electricity rate of $0.12 per kWh:
  $$ \text{Cost}_{\text{AC}} = (83.0 \text{ kWh})(\$0.12/\text{kWh}) = \$10.0 $$
 </div>
 
-**The air conditioner would cost approximately $10 to operate for the same cooling effect that 900 kg of ice provides, compared to $180 for the ice. The air conditioner is about 18 times cheaper to operate than using ice.**
+__The air conditioner would cost approximately $10 to operate for the same cooling effect that 900 kg of ice provides, compared to $180 for the ice. The air conditioner is about 18 times cheaper to operate than using ice.__
 
-**Discussion**
+__Discussion__
 
 This problem illustrates why mechanical refrigeration replaced ice-based cooling in the 20th century. Even accounting for the efficiency losses in the air conditioner (the electrical energy input is greater than the heat removed due to the second law of thermodynamics), the convenience and cost-effectiveness of air conditioning far exceeds using ice. The air conditioner removes 12.65 MJ of heat per hour while consuming perhaps 12.6 MJ of electrical energy (assuming a coefficient of performance around 3), making it highly economical compared to ice at 20 cents per kg. Additionally, the air conditioner provides continuous cooling without the logistical challenges of storing, transporting, and managing melting ice. The economic advantage would be even greater if ice required refrigeration for storage, creating a circular dependency. This cost analysis demonstrates a practical application of thermodynamics in everyday technology choices.
 

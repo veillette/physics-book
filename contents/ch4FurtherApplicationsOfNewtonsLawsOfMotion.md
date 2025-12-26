@@ -139,7 +139,7 @@ in [Figure 2](#Figure2)(c). The three forces involved are not parallel, and so t
 must be projected onto a coordinate system. The most convenient coordinate
 system has one axis vertical and one horizontal, and the vector projections on
 it are shown in part (d) of the figure. There are two unknowns in this problem (
-$$ T*{1} $$ and $$ T*{2} $$), so two equations are needed to find them. These
+$$ T_{1} $$ and $$ T_{2} $$), so two equations are needed to find them. These
 two equations come from applying Newton’s second law along the vertical and
 horizontal axes, noting that the net external force is zero along each axis
 because acceleration is zero.
@@ -239,7 +239,7 @@ What Does the Bathroom Scale Read in an Elevator?
 
 **Strategy**
 
-If the scale is accurate, its reading will equal $$ F*{\text{p}} $$, the
+If the scale is accurate, its reading will equal $$ F_{\text{p}} $$, the
 magnitude of the force the person exerts downward on it. [Figure 3](#Figure3)(a)
 shows the numerous forces acting on the elevator, scale, and person. It makes
 this one-dimensional problem look much more formidable than if the person is
@@ -248,7 +248,7 @@ in [Figure 3](#Figure3)(b). Analysis of the free-body diagram using Newton’s l
 can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
 The only forces acting on the person are his weight $$ \vb{w} $$ and the upward
-force of the scale $$ \vb{F}*{\s} $$. According to Newton’s third law $$ \vb{F}_
+force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_
 {\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
 direction, so that we need to find $$ F\_{\s} $$ in order to find what the scale
 reads. We can do this, as usual, by applying Newton’s second law,

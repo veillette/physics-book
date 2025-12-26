@@ -170,13 +170,13 @@ to each ball is normal to the wall along the positive $$ x $$ -direction.
 Our definition of impulse includes an assumption that the force is constant over
 the time interval $$ \Delta t $$. *Forces are usually not constant*. Forces vary
 considerably even during the brief time intervals considered. It is, however,
-possible to find an average effective force $$ F*{\text{eff}} $$ that produces
+possible to find an average effective force $$ F_{\text{eff}} $$ that produces
 the same result as the corresponding time-varying force. [Figure 1](#Figure1) shows
 a graph of what an actual force looks like as a function of time for a ball
 bouncing off the floor. The area under the curve has units of momentum and is
-equal to the impulse or change in momentum between times $$ t*{1} $$ and $$ t*
-{2} $$. That area is equal to the area inside the rectangle bounded by $$ F*
-{\text{eff}} $$, $$ t*{1} $$, and $$ t*{2} $$. Thus, the impulses and their
+equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_
+{2} $$. That area is equal to the area inside the rectangle bounded by $$ F_
+{\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus, the impulses and their
 effects are the same for both the actual and effective forces.
 
 ![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_08_02_01.jpg 'A graph of force versus time with time along the ( x ) -axis and force along the ( y ) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.')
@@ -426,7 +426,7 @@ If struck in the body's center of mass, the opponent's final velocity is 1.43 m/
 
 If the same impulse is delivered to just the head:
 
-$$ v*f = \frac{J}{m*{\text{head}}} = \frac{150 \kg \cdot \ms}{10.0 \kg} = 15.0 \ms $$
+$$ v_f = \frac{J}{m_{\text{head}}} = \frac{150 \kg \cdot \ms}{10.0 \kg} = 15.0 \ms $$
 
 If hit in the head, the head would recoil at 15.0 m/s.
 
@@ -631,9 +631,9 @@ For part (a), we use conservation of momentum between the bullet and plunger. Fo
 
 By conservation of momentum (initial momentum is zero):
 
-$$ m*{\text{bullet}} v*{\text{bullet}} + m*{\text{plunger}} v*{\text{plunger}} = 0 $$
+$$ m_{\text{bullet}} v_{\text{bullet}} + m_{\text{plunger}} v_{\text{plunger}} = 0 $$
 
-$$ v*{\text{plunger}} = -\frac{m*{\text{bullet}} v*{\text{bullet}}}{m*{\text{plunger}}} $$
+$$ v_{\text{plunger}} = -\frac{m_{\text{bullet}} v_{\text{bullet}}}{m_{\text{plunger}}} $$
 
 $$ v\_{\text{plunger}} = -\frac{(0.0200 \kg)(600 \ms)}{1.00 \kg} = -12.0 \ms $$
 
@@ -661,11 +661,11 @@ Calculate the force to accelerate the bullet:
 
 $$ a\_{\text{bullet}} = \frac{\Delta v}{\Delta t} = \frac{600 \ms}{10.0 \times 10^{-3} \s} = 6.00 \times 10^{4} \mss $$
 
-$$ F*{\text{bullet}} = m*{\text{bullet}} a\_{\text{bullet}} = (0.0200 \kg)(6.00 \times 10^{4} \mss) = 1200 \N $$
+$$ F_{\text{bullet}} = m_{\text{bullet}} a\_{\text{bullet}} = (0.0200 \kg)(6.00 \times 10^{4} \mss) = 1200 \N $$
 
 Compare the forces:
 
-$$ \frac{F*{\text{bullet}}}{F*{\text{plunger}}} = \frac{1200 \N}{360 \N} = 3.33 $$
+$$ \frac{F_{\text{bullet}}}{F_{\text{plunger}}} = \frac{1200 \N}{360 \N} = 3.33 $$
 
 The force on the gun from accelerating the bullet (1200 N) is 3.33 times larger than the force on the plunger mechanism (360 N).
 
@@ -906,9 +906,9 @@ $$ v\_{fy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
 
 Calculate the change in momentum components:
 
-$$ \Delta p*x = m(v*{fx} - v\_{ix}) = (0.055 \kg)(-5.00 - 5.00) \ms = -0.55 \kg \cdot \ms $$
+$$ \Delta p_x = m(v_{fx} - v\_{ix}) = (0.055 \kg)(-5.00 - 5.00) \ms = -0.55 \kg \cdot \ms $$
 
-$$ \Delta p*y = m(v*{fy} - v\_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
+$$ \Delta p_y = m(v_{fy} - v\_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
 
 Find the magnitude of the impulse:
 
@@ -995,9 +995,9 @@ $$ p\_{fy} = m v_f \sin 55^\circ = (0.075 \kg)(18 \ms)(0.819) = 1.11 \kg \cdot \
 
 Calculate the impulse components:
 
-$$ J*x = p*{fx} - p\_{ix} = 0.775 - 0 = 0.775 \kg \cdot \ms $$
+$$ J_x = p_{fx} - p\_{ix} = 0.775 - 0 = 0.775 \kg \cdot \ms $$
 
-$$ J*y = p*{fy} - p\_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
+$$ J_y = p_{fy} - p\_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
 
 Find the magnitude and direction:
 

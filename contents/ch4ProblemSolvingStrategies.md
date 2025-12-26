@@ -116,9 +116,9 @@ solving for force and end up with units of m/s, then you have made a mistake.
      draw them on the free-body diagram.
   3. Write Newton’s second law in the horizontal and vertical directions and
      add the forces acting on the object. If the object does not accelerate in
-     a particular direction (for example, the $$ x $$ -direction) then $$ F*
+     a particular direction (for example, the $$ x $$ -direction) then $$ F_
      {\text{net}x}=0 $$. If the object does accelerate in that direction, $$
-     F*{\text{net}x}=ma $$.
+     F_{\text{net}x}=ma $$.
   4. Check your answer. Is the answer reasonable? Are the units correct?
 
 ### Problem Exercises
@@ -867,27 +867,27 @@ while Trusty Sidekick's is 55.0 kg, and the mass of the rope is negligible.
 </div>
 <div class="solution" markdown="1">
 
-**(a) Free-body diagrams:**
+__(a) Free-body diagrams:__
 
-**For Trusty Sidekick:**
+__For Trusty Sidekick:__
 
 - ↑ Tension $$ T_2 $$ (upward from rope)
 - ↓ Weight $$ w_S = m_S g $$ (downward)
 
-**For Superhero:**
+__For Superhero:__
 
 - ↑ Tension $$ T_1 $$ (upward from rope above)
 - ↓ Weight $$ w_H = m_H g $$ (downward)
 - ↓ Tension $$ T_2 $$ (downward pull from Sidekick)
 
-**For the system (both together):**
+__For the system (both together):__
 
 - ↑ Tension $$ T_1 $$ from bar
 - ↓ Combined weight $$ (m_H + m_S)g $$
 
-**(b) Tension above Superhero:**
+__(b) Tension above Superhero:__
 
-**System of interest:** Both Superhero and Trusty Sidekick
+__System of interest:__ Both Superhero and Trusty Sidekick
 
 Since they're motionless, acceleration = 0, so net force = 0.
 
@@ -899,9 +899,9 @@ $$ T_1 - (m_H + m_S)g = 0 $$
 $$ T_1 = (m_H + m_S)g = (90.0 + 55.0)(9.80) = (145.0)(9.80) = 1421 \N \approx 1.42 \times 10^{3} \N $$
 </div>
 
-**(c) Tension between Superhero and Trusty Sidekick:**
+__(c) Tension between Superhero and Trusty Sidekick:__
 
-**System of interest:** Trusty Sidekick only
+__System of interest:__ Trusty Sidekick only
 
 Since Sidekick is motionless:
 
@@ -913,13 +913,13 @@ $$ T_2 - m_S g = 0 $$
 $$ T_2 = m_S g = (55.0)(9.80) = 539 \N \approx 5.39 \times 10^{2} \N $$
 </div>
 
-**Answer**
+__Answer__
 
 (a) Free-body diagrams show tension forces upward and weight forces downward for each person.
 
-(b) The tension in the rope above Superhero is **1.42 × 10³ N** (or **1420 N**), which supports both heroes.
+(b) The tension in the rope above Superhero is __1.42 × 10³ N__ (or __1420 N__), which supports both heroes.
 
-(c) The tension between Superhero and Trusty Sidekick is **5.39 × 10² N** (or **539 N**), which equals Sidekick's weight.
+(c) The tension between Superhero and Trusty Sidekick is __5.39 × 10² N__ (or __539 N__), which equals Sidekick's weight.
 
 </div>
 </div>
@@ -938,7 +938,7 @@ friction is 60.0 N.
 </div>
 <div class="solution" markdown="1">
 
-**(a) Free-body diagram:**
+__(a) Free-body diagram:__
 
 Forces on the cart:
 
@@ -949,11 +949,11 @@ Forces on the cart:
 - Normal force $$ N $$ (upward from floor)
 - Weight $$ w = mg = (28.0)(9.80) = 274 \N $$ (downward)
 
-**(b) Force needed for constant velocity:**
+__(b) Force needed for constant velocity:__
 
 At constant velocity, acceleration = 0, so net force = 0 in both directions.
 
-**Horizontal direction:**
+__Horizontal direction:__
 
 <div class="equation">
 $$ F\cos(35.0°) - f = 0 $$
@@ -967,7 +967,7 @@ $$ F\cos(35.0°) = f $$
 $$ F = \frac{f}{\cos(35.0°)} = \frac{60.0}{0.819} = 73.2 \N $$
 </div>
 
-**Check vertical equilibrium:**
+__Check vertical equilibrium:__
 
 <div class="equation">
 $$ N - mg - F\sin(35.0°) = 0 $$
@@ -975,11 +975,11 @@ $$ N - mg - F\sin(35.0°) = 0 $$
 
 This confirms the normal force adjusts to balance the downward push and weight.
 
-**Answer**
+__Answer__
 
 (a) The free-body diagram shows: applied force at 35° below horizontal, friction opposing motion, normal force upward, and weight downward.
 
-(b) The nurse must exert a force of **73.2 N** at 35.0° below the horizontal to move the cart at constant velocity.
+(b) The nurse must exert a force of __73.2 N__ at 35.0° below the horizontal to move the cart at constant velocity.
 
 </div>
 </div>
@@ -987,7 +987,7 @@ This confirms the normal force adjusts to balance the downward push and weight.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
-**Construct Your Own Problem**
+__Construct Your Own Problem__
 
 Consider the tension in an elevator cable during the time the elevator starts
 from rest and accelerates its load upward to some cruising velocity. Taking the
@@ -1002,7 +1002,7 @@ reach that velocity.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
-**Construct Your Own Problem**
+__Construct Your Own Problem__
 
 Consider two people pushing a toboggan with four children on it up a
 snow-covered slope. Construct a problem in which you calculate the acceleration
@@ -1016,7 +1016,7 @@ children.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
-**Unreasonable Results**
+__Unreasonable Results__
 
 (a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss
 
@@ -1028,7 +1028,7 @@ is produced.
 </div>
 <div class="solution" markdown="1">
 
-**(a) Repeat Exercise 7 with a = 1.20 m/s²:**
+__(a) Repeat Exercise 7 with a = 1.20 m/s²:__
 
 From Exercise 7:
 - Car mass: $$ m_{car} = 1100 \kg $$
@@ -1046,11 +1046,11 @@ $$ F - f_{total} = m_{total}a $$
 $$ f_{total} = F - m_{total}a = 1900 - (1800)(1.20) = 1900 - 2160 = -260 \N $$
 </div>
 
-**(b) What is unreasonable?**
+__(b) What is unreasonable?__
 
-The total friction force is **negative (-260 N)**, which is physically impossible. Friction always opposes motion, so it must be positive (acting backward when the car moves forward).
+The total friction force is __negative (-260 N)__, which is physically impossible. Friction always opposes motion, so it must be positive (acting backward when the car moves forward).
 
-**(c) Which premise is unreasonable?**
+__(c) Which premise is unreasonable?__
 
 The acceleration of 1.20 m/s² is unreasonably high for the given forward force of 1900 N.
 
@@ -1061,9 +1061,9 @@ $$ a_{max} = \frac{F}{m_{total}} = \frac{1900}{1800} = 1.06 \mss $$
 
 An acceleration of 1.20 m/s² exceeds this maximum, which is impossible.
 
-**Answer**
+__Answer__
 
-(a) The calculated friction force is **−260 N**.
+(a) The calculated friction force is __−260 N__.
 
 (b) A negative friction force is unreasonable - friction cannot help accelerate the vehicle forward.
 
@@ -1075,7 +1075,7 @@ An acceleration of 1.20 m/s² exceeds this maximum, which is impossible.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
-**Unreasonable Results**
+__Unreasonable Results__
 
 (a) What is the initial acceleration of a rocket that has a mass of $$ 1.50
 \times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00
@@ -1089,7 +1089,7 @@ section.)
 </div>
 <div class="solution" markdown="1">
 
-**(a) Initial acceleration:**
+__(a) Initial acceleration:__
 
 Forces on the rocket:
 - Thrust (upward): $$ T = 2.00 \times 10^{6} \N $$
@@ -1108,18 +1108,18 @@ $$ a = \frac{T - mg}{m} = \frac{2.00 \times 10^{6} - 1.47 \times 10^{7}}{1.50 \t
 $$ a = \frac{2.00 \times 10^{6} - 14.7 \times 10^{6}}{1.50 \times 10^{6}} = \frac{-12.7 \times 10^{6}}{1.50 \times 10^{6}} = -8.47 \mss $$
 </div>
 
-**(b) What is unreasonable?**
+__(b) What is unreasonable?__
 
-The acceleration is **negative (−8.47 m/s²)**, meaning the rocket accelerates downward! Instead of launching, the rocket would crash back down. The thrust is far too small to overcome the rocket's weight.
+The acceleration is __negative (−8.47 m/s²)__, meaning the rocket accelerates downward! Instead of launching, the rocket would crash back down. The thrust is far too small to overcome the rocket's weight.
 
 For comparison, the rocket in the first problem of this section had:
 - Mass: $$ 5.00 \times 10^{5} \kg $$
 - Thrust: $$ 1.25 \times 10^{7} \N $$
 - This gave $$ a = 6.20 \mss $$ upward
 
-**(c) Which premises are inconsistent?**
+__(c) Which premises are inconsistent?__
 
-The **thrust of 2.00 × 10⁶ N is far too small** for a rocket with mass 1.50 × 10⁶ kg.
+The __thrust of 2.00 × 10⁶ N is far too small__ for a rocket with mass 1.50 × 10⁶ kg.
 
 The thrust must exceed the weight just to lift off:
 <div class="equation">
@@ -1133,9 +1133,9 @@ $$ T_{typical} = (1.2 \text{ to } 1.5) \times mg \approx 1.76 \times 10^{7} \tex
 
 The premise is unreasonable because no rocket could launch with such inadequate thrust.
 
-**Answer**
+__Answer__
 
-(a) The initial acceleration is **−8.47 m/s²** (downward).
+(a) The initial acceleration is __−8.47 m/s²__ (downward).
 
 (b) A negative acceleration is unreasonable - the rocket would crash instead of launching.
 

@@ -158,18 +158,18 @@ same point. In particular, the person could have walked first in the *x*
 -direction and then in the *y*-direction. Those paths are the *x*- and
 *y*-components of the resultant, $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$. If we
 know $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$, we can find $$ R $$ and $$ \theta $$
-using the equations $$ A=\sqrt{ A*{x}^{2}+ A*
-{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A*{y}/ A*{x}\right) $$. When you
+using the equations $$ A=\sqrt{ A_{x}^{2}+ A_
+{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
 use the analytical method of vector addition, you can determine the components
 or the magnitude and direction of a vector.
 
 **_Step 1._** _Identify the x- and y-axes that will be used in the problem.
 Then, find the components of each vector to be added along the chosen
-perpendicular axes._ Use the equations $$ A*{x}=A\cos{\theta} $$ and $$ A*
+perpendicular axes._ Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_
 {y}=A\sin{\theta} $$ to find the components. In [Figure 6](#Figure6), these
-components are $$ A*{x} $$, $$ A*{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The
+components are $$ A_{x} $$, $$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The
 angles that vectors $$ \vb{A} $$ and $$ \vb{B} $$ make with the **x**-axis are
-$$ \theta*{\text{A}} $$ and $$ \theta*{\text{B}} $$, respectively.
+$$ \theta_{\text{A}} $$ and $$ \theta_{\text{B}} $$, respectively.
 
 ![Two vectors A and B are shown. The tail of the vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The horizontal and vertical components of the vectors A and B are shown with the help of dotted lines. The vectors labeled as A sub x and A sub y are the components of vector A, and B sub x and B sub y as the components of vector B..](../resources/Figure_03_03_06.jpg 'To add vectors ( A ) and ( B ) , first determine the horizontal and vertical components of each vector. These are the dotted vectors ( A_x ) , ( A_y ) , ( B_x ) and ( B_y ) shown in the image.')
 {: #Figure6}
@@ -245,7 +245,7 @@ point. Once found, they are combined to produce the resultant.
 
 Following the method outlined above, we first find the components of $$ \vb{A}
 $$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$ A=53.0 \m $$,
-$$ \theta*{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta*
+$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_
 {\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A\_
 {x}=A\cos{\theta} $$, which gives
 
@@ -387,7 +387,7 @@ B_{y}&=& B\sin{\theta} .
   </div>
 
 Step 2: Add the horizontal and vertical components of each vector to determine
-the components $$ R*{x} $$ and $$ R*{y} $$ of the resultant vector, $$ \vb{R}
+the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R}
 
 $$
 :

@@ -60,8 +60,8 @@ the work done. [Figure 1](#Figure1)(b) shows a more general process where the fo
 varies. The area under the curve is divided into strips, each having an average
 force $$ \left(
 F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$ \left(
-F\cos{\theta} \right)_{i\left(\text{ave}\right)}d*{i} $$ for each strip, and the
-total work done is the sum of the $$ W*{i} $$. Thus the total work done is the
+F\cos{\theta} \right)_{i\left(\text{ave}\right)}d_{i} $$ for each strip, and the
+total work done is the sum of the $$ W_{i} $$. Thus the total work done is the
 total area under the curve, a useful property to which we shall refer later.
 
 ![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_07_02_01.jpg '(a) A graph of ( F\\cos{ \\theta} ) vs. ( d ) , when ( F \\cos{ \\theta} ) is constant. The area under the curve represents the work done by the force. (b) A graph of ( F \\cos{ \\theta} ) vs. ( d ) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.')
@@ -99,13 +99,13 @@ can reach an interesting conclusion. Substituting $$ F\_
 </div>
 
 To get a relationship between net work and the speed given to a system by the
-net force acting on it, we take $$ d=x-x*{0} $$ and use the equation studied
+net force acting on it, we take $$ d=x-x_{0} $$ and use the equation studied
 in [Motion Equations for Constant Acceleration in One Dimension](./ch2MotionEquationsForConstantAccelerationInOneDimension)
 for the change in speed over a distance $$ d $$ if the acceleration has the
-constant value $$ a $$; namely, $$ v^{2}= v*{0}^{2}+2ad $$
+constant value $$ a $$; namely, $$ v^{2}= v_{0}^{2}+2ad $$
 (note that $$ a $$ appears in the expression for the net work). Solving for
-acceleration gives $$ a=\frac{ v^{2}-v*{0}^{2}}{2d} $$. When $$ a $$ is
-substituted into the preceding expression for $$ W*{\text{net}} $$, we obtain
+acceleration gives $$ a=\frac{ v^{2}-v_{0}^{2}}{2d} $$. When $$ a $$ is
+substituted into the preceding expression for $$ W_{\text{net}} $$, we obtain
 
 <div class="equation">
  $$ W_{\text{net}}=m\left(\frac{ v^{2}-{ v_{0}}^{2}}{2d}\right)d. $$
@@ -279,8 +279,8 @@ The total work done as the sum of the work done by each force is then seen to be
 
 **Discussion for (b)**
 
-The calculated total work $$ W*{\text{total}} $$ as the sum of the work by each
-force agrees, as expected, with the work $$ W*{\text{net}} $$ done by the net
+The calculated total work $$ W_{\text{total}} $$ as the sum of the work by each
+force agrees, as expected, with the work $$ W_{\text{net}} $$ done by the net
 force. The work done by a collection of forces acting on an object can be
 calculated by either approach.
 
@@ -295,8 +295,8 @@ Find the speed of the package in [Figure 2](#Figure2) at the end of the push, us
 **Strategy**
 
 Here the work-energy theorem can be used, because we have just calculated the
-net work, $$ W*{\text{net}} $$, and the initial kinetic energy, $$
-\frac{1}{2}{mv*{0}}^{2} $$. These calculations allow us to find the final
+net work, $$ W_{\text{net}} $$, and the initial kinetic energy, $$
+\frac{1}{2}{mv_{0}}^{2} $$. These calculations allow us to find the final
 kinetic energy, $$ \frac{1}{2}m v^{2} $$, and thus the final speed $$ v $$.
 
 **Solution**
@@ -353,9 +353,9 @@ distance traveled after the person stops pushing.
 The normal force and force of gravity cancel in calculating the net force. The
 horizontal friction force is then the net force, and it acts opposite to the
 displacement, so $$ \theta =180^\circ $$. To reduce the kinetic energy of the
-package to zero, the work $$ W*{\text{fr}} $$ by friction must be minus the
+package to zero, the work $$ W_{\text{fr}} $$ by friction must be minus the
 kinetic energy that the package started with plus what the package accumulated
-due to the pushing. Thus $$ W*{\text{fr}}=-95.75 \J $$. Furthermore, $$ W\_
+due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W\_
 {\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
 is the distance it takes to stop. Thus,
 
@@ -389,8 +389,8 @@ generally shorter and easier than those using kinematics and dynamics alone.
 - Work done on an object transfers energy to the object.
 - The translational kinetic energy of an object of mass $$ m $$ moving at speed
   $$ v $$ is $$ \KE=\frac{1}{2}m v^{2} $$.
-- The work-energy theorem states that the net work $$ W*{\text{net}} $$ on a
-  system changes its kinetic energy, $$ W*{\text{net}}=\frac{1}{2}m
+- The work-energy theorem states that the net work $$ W_{\text{net}} $$ on a
+  system changes its kinetic energy, $$ W_{\text{net}}=\frac{1}{2}m
   v^{2}-\frac{1}{2} mv\_{0}^{2} $$.
 
 ### Conceptual Questions
@@ -562,7 +562,7 @@ The calculated kinetic energy of $$ 1.1 \times 10^{10} $$ J confirms the value i
 
 **Strategy**
 
-We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv*{0}^{2} = -\frac{1}{2}mv*{0}^{2} $$.
+We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} = -\frac{1}{2}mv_{0}^{2} $$.
 
 **Solution for (a)**
 
@@ -723,7 +723,7 @@ force of 30.0 N against him.
 
 **Strategy**
 
-The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W*{\text{net}} = (F*{\text{sprinter}} - F\_{\text{wind}})d = \Delta \KE $$.
+The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W_{\text{net}} = (F_{\text{sprinter}} - F\_{\text{wind}})d = \Delta \KE $$.
 
 **Solution**
 

@@ -483,11 +483,11 @@ is put into it? (c) If the cost of this work input is  $$10.0 \text{cents/kW}\cd
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 For part (a), we use the Carnot heat pump formula: $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} $$. For part (b), we use $$ \text{COP}_{\text{hp}} = \frac{Q_h}{W} $$ to find $$ Q_h $$. For part (c), we calculate and compare costs per unit of heat delivered for both the heat pump and natural gas.
 
-**Solution**
+__Solution__
 
 Given values:
 - Cold reservoir temperature: $$ T_c = -20.0\text{°C} = 253 \text{ K} $$
@@ -496,15 +496,15 @@ Given values:
 - Electricity cost: \$0.10 per kWh
 - Natural gas cost: \$0.85 per therm, where 1 therm = $$ 1.055 \times 10^{8} \text{ J} $$
 
-**(a)** Best coefficient of performance:
+__(a)__ Best coefficient of performance:
 
 <div class="equation">
  $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} = \frac{323 \text{ K}}{323 \text{ K} - 253 \text{ K}} = \frac{323}{70} = 4.61 $$
 </div>
 
-**The best COP is 4.61.**
+__The best COP is 4.61.__
 
-**(b)** Heat transfer to warm environment:
+__(b)__ Heat transfer to warm environment:
 
 <div class="equation">
  $$ Q_h = \text{COP}_{\text{hp}} \times W = 4.61 \times 3.60 \times 10^{7} \text{ J} $$
@@ -520,18 +520,18 @@ Converting to kilocalories (1 kcal = 4186 J):
  $$ Q_h = \frac{1.66 \times 10^{8}}{4186} = 3.97 \times 10^{4} \text{ kcal} $$
 </div>
 
-**The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{4} \text{ kcal} $$.**
+__The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{4} \text{ kcal} $$.__
 
-**(c)** Cost comparison:
+__(c)__ Cost comparison:
 
-**Heat pump cost:**
-- Cost = 10.0 kWh × \$0.10/kWh = **\$1.00**
+__Heat pump cost:__
+- Cost = 10.0 kWh × \$0.10/kWh = **\$1.00__
 
-**Natural gas cost** for same heat output:
+__Natural gas cost__ for same heat output:
 - Number of therms needed: $$ \frac{1.66 \times 10^{8} \text{ J}}{1.055 \times 10^{8} \text{ J/therm}} = 1.57 \text{ therms} $$
-- Cost = 1.57 therms × \$0.85/therm = **\$1.34**
+- Cost = 1.57 therms × \$0.85/therm = **\$1.34__
 
-**The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).**
+__The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).**
 
 **Discussion**
 
@@ -554,26 +554,26 @@ Part (c): Despite electricity typically being more expensive per joule than natu
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 For part (a), we use the Carnot COP formula for a refrigerator: $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} $$. For part (b), we use $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$ to solve for work. For part (c), we calculate cost from the work and given rate. For part (d), we use energy conservation: $$ Q_h = Q_c + W $$. For part (e), we consider what application requires such cold temperatures.
 
-**Solution**
+__Solution__
 
 Given values:
 - Cold reservoir temperature: $$ T_c = -30.0\text{°C} = 243 \text{ K} $$
 - Hot reservoir temperature: $$ T_h = 45.0\text{°C} = 318 \text{ K} $$
 - Heat transfer from cold environment: $$ Q_c = 4186 \text{ kJ} = 4.186 \times 10^6 \text{ J} $$
 
-**(a)** Best coefficient of performance:
+__(a)__ Best coefficient of performance:
 
 <div class="equation">
  $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} = \frac{243 \text{ K}}{318 \text{ K} - 243 \text{ K}} = \frac{243}{75} = 3.24 $$
 </div>
 
-**The best coefficient of performance is 3.24.**
+__The best coefficient of performance is 3.24.__
 
-**(b)** Work required:
+__(b)__ Work required:
 
 From $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$, we solve for work:
 
@@ -581,9 +581,9 @@ From $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$, we solve for work:
  $$ W = \frac{Q_c}{\text{COP}_{\text{ref}}} = \frac{4.186 \times 10^6 \text{ J}}{3.24} = 1.29 \times 10^6 \text{ J} $$
 </div>
 
-**The work required is $$ 1.29 \times 10^6 \text{ J} $$ or 1290 kJ.**
+__The work required is $$ 1.29 \times 10^6 \text{ J} $$ or 1290 kJ.__
 
-**(c)** Cost of operation:
+__(c)__ Cost of operation:
 
 Cost per kWh: $$ \$0.10 \text{ per } 3.60 \times 10^6 \text{ J} $$
 
@@ -597,9 +597,9 @@ Number of kWh used:
  $$ \text{Cost} = (0.358 \text{ kWh})(\$0.10/\text{kWh}) = \$0.0358 \approx \$0.036 $$
 </div>
 
-**The cost is 3.6 cents.**
+__The cost is 3.6 cents.__
 
-**(d)** Heat transfer to warm environment:
+__(d)__ Heat transfer to warm environment:
 
 Using energy conservation:
 
@@ -607,17 +607,17 @@ Using energy conservation:
  $$ Q_h = Q_c + W = 4186 \text{ kJ} + 1290 \text{ kJ} = 5476 \text{ kJ} $$
 </div>
 
-**The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.**
+__The heat transfer to the warm environment is 5476 kJ or $$ 5.48 \times 10^6 \text{ J} $$.__
 
-**(e)** This refrigerator operates at −30.0°C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
-- **Commercial freezers** for long-term food storage
-- **Laboratory freezers** for preserving biological samples
-- **Industrial cold storage** facilities
-- **Pharmaceutical storage** requiring very low temperatures
+__(e)__ This refrigerator operates at −30.0°C, which is well below the freezing point of water and typical household refrigeration temperatures. Such temperatures are characteristic of:
+- __Commercial freezers__ for long-term food storage
+- __Laboratory freezers__ for preserving biological samples
+- __Industrial cold storage__ facilities
+- __Pharmaceutical storage__ requiring very low temperatures
 
 This is not a household refrigerator (which typically operates around −18°C to −20°C in the freezer compartment) but rather a specialized deep-freeze unit.
 
-**Discussion**
+__Discussion__
 
 The COP of 3.24 is reasonable for this large temperature difference of 75 K. Real freezers operating at these temperatures would have lower COPs (perhaps 2 to 2.5) due to irreversibilities. The cost of 3.6 cents to remove 4186 kJ seems quite economical, but this is for an ideal refrigerator. The heat rejected to the warm environment (5476 kJ) exceeds the heat removed from the cold environment (4186 kJ) by exactly the work input (1290 kJ), as required by energy conservation. This illustrates why freezers warm up the room they're in: they reject more heat than they remove from their interior. The relatively modest COP compared to household refrigerators reflects the challenge of maintaining very low temperatures.
 
@@ -632,11 +632,11 @@ Suppose you want to operate an ideal refrigerator with a cold temperature of  $$
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 For an ideal (Carnot) refrigerator, the coefficient of performance is $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} $$. We are given $$ \text{COP}_{\text{ref}} $$ and $$ T_c $$, so we can solve for $$ T_h $$. We must work in absolute temperature (Kelvin).
 
-**Solution**
+__Solution__
 
 Given values:
 - Cold reservoir temperature: $$ T_c = -10.0\text{°C} = 263 \text{ K} $$
@@ -682,9 +682,9 @@ Converting to Celsius:
  $$ T_h = 300.6 - 273 = 27.6\text{°C} $$
 </div>
 
-**The hot reservoir temperature must be 27.6°C or 301 K.**
+__The hot reservoir temperature must be 27.6°C or 301 K.__
 
-**Discussion**
+__Discussion__
 
 A COP of 7.00 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the hot reservoir must be only 37.6 K (or 37.6°C) warmer than the cold reservoir. At −10.0°C cold temperature and 27.6°C warm temperature, the temperature difference is modest, allowing for good efficiency. This result makes sense for a household freezer: the freezer compartment might be at −10°C, while the room temperature is around 28°C, achieving a COP of about 7 in ideal conditions. Real refrigerators would achieve COPs of perhaps 4 to 6 due to irreversibilities. If the room were significantly warmer than 27.6°C, the COP would drop below 7.00, requiring more energy per unit of heat removed. This demonstrates why refrigerators and freezers work more efficiently in cooler environments and why keeping them in hot rooms or garages increases electricity costs.
 
@@ -699,11 +699,11 @@ An ideal heat pump is being considered for use in heating an environment with a 
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 For an ideal (Carnot) heat pump, the coefficient of performance is $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} $$. We are given $$ \text{COP}_{\text{hp}} $$ and $$ T_h $$, so we can solve for $$ T_c $$. We must work in absolute temperature (Kelvin).
 
-**Solution**
+__Solution__
 
 Given values:
 - Hot reservoir temperature: $$ T_h = 22.0\text{°C} = 295 \text{ K} $$
@@ -745,9 +745,9 @@ Converting to Celsius:
  $$ T_c = 270 \text{ K} - 273 = -3.0\text{°C} $$
 </div>
 
-**The cold reservoir temperature must be −3.0°C or 270 K.**
+__The cold reservoir temperature must be −3.0°C or 270 K.__
 
-**Discussion**
+__Discussion__
 
 A COP of 12.0 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the outdoor temperature needs to be only 25 K (or 25°C) below the indoor temperature. At −3.0°C outdoor temperature, the heat pump operates very efficiently because it doesn't have to work hard to "lift" heat from the cold reservoir to the hot one. This result illustrates why heat pumps are most effective in mild climates. If the outdoor temperature drops significantly below −3.0°C, the COP would fall below 12.0, making the heat pump less efficient. Conversely, on warmer days above −3.0°C, the COP would exceed 12.0, providing even better performance. This problem shows the strong dependence of heat pump performance on climate conditions.
 
@@ -765,18 +765,18 @@ of an air conditioner or refrigerator is defined to be the number of British the
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 For part (a), we use the EER definition to find the power input, then multiply by time to get total energy. EER relates heat removed (in BTU/hr) to power input (in watts). For part (b), we calculate cost based on energy consumed and the given rate. For part (c), we assess reasonableness by calculating daily cost.
 
-**Solution**
+__Solution__
 
 Given values:
 - Heat removed: $$ Q_c = 5.06 \times 10^{7} \text{ J} = 48{,}000 \text{ BTU} $$ in 1.00 hour
 - Energy efficiency rating: $$ \text{EER} = 12.0 $$
 - Electricity cost: \$0.10 per kWh = \$0.10 per $$ 3.60 \times 10^{6} \text{ J} $$
 
-**(a)** Energy input required:
+__(a)__ Energy input required:
 
 The EER is defined as:
 
@@ -798,9 +798,9 @@ Energy input over 1.00 hour:
 
 Alternatively, in kWh: $$ W = 4.00 \text{ kW} \times 1.00 \text{ hr} = 4.00 \text{ kWh} $$
 
-**The energy input is $$ 1.44 \times 10^{7} \text{ J} $$ or 4.00 kWh.**
+__The energy input is $$ 1.44 \times 10^{7} \text{ J} $$ or 4.00 kWh.__
 
-**(b)** Cost of operation:
+__(b)__ Cost of operation:
 
 <div class="equation">
  $$ \text{Cost} = \frac{1.44 \times 10^{7} \text{ J}}{3.60 \times 10^{6} \text{ J/kWh}} \times \$0.10/\text{kWh} $$
@@ -810,9 +810,9 @@ Alternatively, in kWh: $$ W = 4.00 \text{ kW} \times 1.00 \text{ hr} = 4.00 \tex
  $$ \text{Cost} = 4.00 \text{ kWh} \times \$0.10/\text{kWh} = \$0.40 $$
 </div>
 
-**The cost is 40 cents per hour.**
+__The cost is 40 cents per hour.__
 
-**(c)** Is this cost realistic?
+__(c)__ Is this cost realistic?
 
 If the air conditioner runs continuously for 24 hours:
 

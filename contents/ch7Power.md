@@ -60,8 +60,8 @@ What is the power output for a 60.0-kg woman who runs up a 3.00 m high flight of
 **Strategy and Concept**
 
 The work going into mechanical energy is $$ W=\KE + \PE $$. At the bottom of the
-stairs, we take both $$ \KE $$ and $$ \PE*{g} $$ as initially zero; thus, $$
-W=\KE*{f}+\PE*{g}=\frac{1}{2} m v*
+stairs, we take both $$ \KE $$ and $$ \PE_{g} $$ as initially zero; thus, $$
+W=\KE_{f}+\PE_{g}=\frac{1}{2} m v_
 {f}^{2}+mgh $$, where $$ h $$ is the vertical height of the stairs. Because all
 terms are given, we can calculate $$ W $$ and then divide it by time to get
 power.
@@ -426,11 +426,11 @@ if the cost of electricity is $$ 0.110 \$ \text{per kW}
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 Calculate the energy consumed using $$ E = Pt $$, then multiply by the cost per kW·h.
 
-**Solution**
+__Solution__
 
 Total operating time:
 <div class="equation">
@@ -447,7 +447,7 @@ Cost:
 $$ \text{Cost} = (1350\text{ kW}\cdot\text{h})(\$0.110\text{ per kW}\cdot\text{h}) = \$149 $$
 </div>
 
-**Discussion**
+__Discussion__
 
 Running a large air conditioner for just 3 hours per day for one month costs about $149. This explains why electricity bills spike during summer months when air conditioning is heavily used.
 

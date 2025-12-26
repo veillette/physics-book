@@ -53,7 +53,7 @@ to $$ \vb{F}\_{\N } $$.) Hence,
  $$ l_{\text{i}}F_{\text{i}}=l_{\text{o}}F_{\text{o}} $$
 </div>
 
-where $$ l*{\text{i}} $$ and $$ l*{\text{o}} $$ are the distances from where the
+where $$ l_{\text{i}} $$ and $$ l_{\text{o}} $$ are the distances from where the
 input and output forces are applied to the pivot, as shown in the figure.
 Rearranging the last equation gives
 
@@ -78,8 +78,8 @@ Two other types of levers that differ slightly from the nail puller are a
 wheelbarrow and a shovel, shown in [Figure 2](#Figure2). All these lever types are
 similar in that only three forces are involved – the input force, the output
 force, and the force on the pivot – and thus their MAs are given by $$
-\text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d*{1}}{
-d*{2}} $$, with distances being measured relative to the physical pivot. The
+\text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d_{1}}{
+d_{2}} $$, with distances being measured relative to the physical pivot. The
 wheelbarrow and shovel differ from the nail puller because both the input and
 output forces are on the same side of the pivot.
 
@@ -106,7 +106,7 @@ Here, we use the concept of mechanical advantage.
 
 **Solution**
 
-(a) In this case, $$ \frac{ F*{\text{o}}}{ F*{\text{i}}}=\frac{ l*{i}}{ l*{o}}
+(a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}}
 
 $$
 becomes

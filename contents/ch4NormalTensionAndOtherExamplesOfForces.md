@@ -99,17 +99,17 @@ friction, and the support of the slope, respectively labeled $$\vb{w} $$, $$
 \vb{f} $$, and $$ \vb{N} $$ in [Figure 2](#Figure2). $$ \vb{N} $$ is always
 perpendicular to the slope, and $$ \vb{f} $$ is parallel to it. But $$ \vb{w} $$
 is not in the direction of either axis, and so the first step we take is to
-project it into components along the chosen axes, defining $$ w*{\parallel } $$
-to be the component of weight parallel to the slope and $$ w*{\perp } $$ the
+project it into components along the chosen axes, defining $$ w_{\parallel } $$
+to be the component of weight parallel to the slope and $$ w_{\perp } $$ the
 component of weight perpendicular to the slope. Once this is done, we can
 consider the two separate problems of forces parallel to the slope and forces
 perpendicular to the slope.
 
 **Solution**
 
-The magnitude of the component of the weight parallel to the slope is $$ w*
+The magnitude of the component of the weight parallel to the slope is $$ w_
 {\parallel}=w \sin{\left(25^\circ\right)}=mg\sin{\left(25^\circ\right)} $$, and
-the magnitude of the component of the weight perpendicular to the slope is $$ w*
+the magnitude of the component of the weight perpendicular to the slope is $$ w_
 {\perp}=w \cos{\left(25^\circ\right)}=mg\cos{\left(25^\circ\right)} $$.
 
 (a) Neglecting friction. Since the acceleration is parallel to the slope, we
@@ -313,9 +313,9 @@ and the two tensions $$ \vb{T}_{\text{L}} $$
 wire itself. The net external force is zero since the system is stationary. A
 little trigonometry can now be used to find the tensions. One conclusion is
 possible at the outset—we can see from part (b) of the figure that the
-magnitudes of the tensions $$ T*{\text{L}} $$ and $$ T*{\text{R}} $$ must be
+magnitudes of the tensions $$ T_{\text{L}} $$ and $$ T_{\text{R}} $$ must be
 equal. This is because there is no horizontal acceleration in the rope, and the
-only forces acting to the left and right are $$ T*{\text{L}} $$ and $$ T*{R} $$.
+only forces acting to the left and right are $$ T_{\text{L}} $$ and $$ T_{R} $$.
 Thus, the magnitude of those forces must be equal so that they cancel each other
 out.
 
@@ -877,7 +877,7 @@ For small angles, $$ \sin(\theta) \approx \theta $$ (in radians), and tension in
 
 **Answer**
 
-The derivation shows that a perpendicular force $$ F*{\perp} $$ applied at the center of a flexible medium produces a tension of magnitude $$ T = \frac{F*{\perp}}{2\sin(\theta)} $$, where $$ \theta $$ is the angle the medium makes with the horizontal.
+The derivation shows that a perpendicular force $$ F_{\perp} $$ applied at the center of a flexible medium produces a tension of magnitude $$ T = \frac{F_{\perp}}{2\sin(\theta)} $$, where $$ \theta $$ is the angle the medium makes with the horizontal.
 
 </div>
 </div>
@@ -942,7 +942,7 @@ $$ T_1 = w_{\text{baby}} = 55 \N $$
 
 Consider the entire system (baby + basket + scale). Forces acting on this system:
 
-- Combined weight: $$ w*{\text{baby}} + w*{\text{scale}} $$ (downward)
+- Combined weight: $$ w_{\text{baby}} + w_{\text{scale}} $$ (downward)
 - Tension from ceiling: $$ T_2 $$ (upward)
 
 Weight of scale:

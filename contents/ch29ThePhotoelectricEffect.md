@@ -155,14 +155,14 @@ Calculating Photon Energy and the Photoelectric Effect: A Violet Light
 </div>
 (a) What is the energy in joules and electron volts of a photon of 420-nm violet light? (b) What is the maximum kinetic energy of electrons ejected from calcium by 420-nm violet light, given that the binding energy (or work function) of electrons for calcium metal is 2.71 eV?
 
-**Strategy**
+__Strategy__
 
 To solve part (a), note that the energy of a photon is given by $$E= hf $$ . For
 part (b), once the energy of the photon is calculated, it is a straightforward
 application of $${\text{KE}}_{e}= hf- \text{BE} $$ to find the ejected
 electron’s maximum kinetic energy, since BE is given.
 
-**Solution for (a)**
+__Solution for (a)__
 
 Photon energy is given by
 
@@ -189,7 +189,7 @@ Converting to eV, the energy of the photon is
 <div class="equation" >
  $$E=\left( 4.74 \times 10^{-19} \text{J}\right)\frac{1 \text{eV}}{1.6 \times 10^{-19} \text{J}}=2.96 \text{eV}. $$
 </div>
-**Solution for (b)**
+__Solution for (b)__
 
 Finding the kinetic energy of the ejected electron is now a simple application
 of the equation $${\text{KE}}_{e}= hf- \text{BE} $$ . Substituting the photon
@@ -198,7 +198,7 @@ energy and binding energy yields
 <div class="equation" >
  $${\text{KE}}_{e}= hf- \text{BE}=2.96 \text{eV} - 2.71 \text{eV}=0.246 \text{eV}. $$
 </div>
-**Discussion**
+__Discussion__
 
 The energy of this 420-nm photon of violet light is a tiny fraction of a joule,
 and so it is no wonder that a single photon would be difficult for us to sense
