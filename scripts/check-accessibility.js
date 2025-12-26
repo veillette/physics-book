@@ -398,10 +398,7 @@ runCli({
   flags: {
     strict: STANDARD_FLAGS.strict,
   },
-  examples: [
-    'node scripts/check-accessibility.js',
-    'node scripts/check-accessibility.js --strict',
-  ],
+  examples: ['node scripts/check-accessibility.js', 'node scripts/check-accessibility.js --strict'],
   run: async options => {
     const checker = new AccessibilityChecker({
       strict: options.strict,

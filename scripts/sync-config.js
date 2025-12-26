@@ -155,10 +155,7 @@ Updates:
   flags: {
     dryRun: STANDARD_FLAGS.dryRun,
   },
-  examples: [
-    'node scripts/sync-config.js',
-    'node scripts/sync-config.js --dry-run',
-  ],
+  examples: ['node scripts/sync-config.js', 'node scripts/sync-config.js --dry-run'],
   run: async options => {
     const synchronizer = new ConfigSynchronizer(options);
     return synchronizer.run();

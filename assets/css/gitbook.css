@@ -1015,7 +1015,7 @@ body {
 
 /* PDF Download Button */
 .book .book-body .pdf-download-btn {
-  position: fixed;
+  position: absolute;
   top: 20px;
   right: 20px;
   width: 50px;

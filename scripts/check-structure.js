@@ -251,7 +251,11 @@ class StructureValidator {
         }
 
         // Check for proper capitalization
-        if (level <= 2 && text.charAt(0) !== text.charAt(0).toUpperCase() && !text.startsWith('$')) {
+        if (
+          level <= 2 &&
+          text.charAt(0) !== text.charAt(0).toUpperCase() &&
+          !text.startsWith('$')
+        ) {
           this.warnings.push({
             file: fileName,
             line: lineNum,
