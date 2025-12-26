@@ -474,6 +474,27 @@ How could you travel far into the future without aging significantly? Could this
  (b) If  $$v= 0.900c $$ ?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the definition of the relativistic factor $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$ and substitute the given velocities to calculate the Lorentz factor for each case.
+
+**Solution**
+
+(a) For $$v = 0.100c$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{(0.100c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.0100}} = \frac{1}{\sqrt{0.9900}} = \frac{1}{0.9950} = 1.005$$
+
+(b) For $$v = 0.900c$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{(0.900c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.8100}} = \frac{1}{\sqrt{0.1900}} = \frac{1}{0.4359} = 2.29$$
+
+**Discussion**
+
+At 10% the speed of light, relativistic effects are very small—$$\gamma$$ differs from 1 by only 0.5%. However, at 90% the speed of light, $$\gamma = 2.29$$, meaning time dilation effects are significant. A clock moving at $$0.900c$$ would run at less than half the rate of a stationary clock. This dramatic difference illustrates why relativistic effects become important only at very high velocities approaching the speed of light.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -496,6 +517,27 @@ Suppose a particle called a kaon is created by cosmic radiation striking the atm
  when at rest relative to an observer. How long does it live as you observe it?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The kaon's lifetime when at rest ($$1.24 \times 10^{-8}$$ s) is the proper time $$\Delta t_0$$. We need to find the dilated time $$\Delta t$$ as observed by someone relative to whom the kaon is moving at $$0.980c$$. Use $$\Delta t = \gamma \Delta t_0$$.
+
+**Solution**
+
+First, calculate $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.980c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.9604}} = \frac{1}{\sqrt{0.0396}} = \frac{1}{0.1990} = 5.03$$
+
+Now calculate the observed lifetime:
+
+$$\Delta t = \gamma \Delta t_0 = (5.03)(1.24 \times 10^{-8} \text{ s}) = 6.23 \times 10^{-8} \text{ s}$$
+
+**Discussion**
+
+The kaon lives about 5 times longer when observed from our frame compared to its rest frame. This time dilation allows the kaon to travel much farther through the atmosphere than it could if it lived only $$1.24 \times 10^{-8}$$ s at its high velocity. From the Earth observer's perspective, the kaon travels a distance $$d = v \Delta t = (0.980)(3.00 \times 10^8)(6.23 \times 10^{-8}) \approx 18.3$$ m, whereas without time dilation it would travel only about 3.6 m before decaying. This time dilation is crucial for detecting such particles at ground level.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -516,6 +558,41 @@ A neutral  $$\pi  $$
 A neutron lives 900 s when at rest relative to an observer. How fast is the neutron moving relative to an observer who measures its life span to be 2065 s?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The neutron's rest lifetime (900 s) is the proper time $$\Delta t_0$$, and the observed lifetime (2065 s) is the dilated time $$\Delta t$$. From $$\Delta t = \gamma \Delta t_0$$, we can find $$\gamma$$, then solve for the velocity $$v$$.
+
+**Solution**
+
+First, find $$\gamma$$:
+
+$$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{2065 \text{ s}}{900 \text{ s}} = 2.294$$
+
+Now use the definition of $$\gamma$$ to find $$v$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+
+Squaring both sides:
+
+$$\gamma^2 = \frac{1}{1-\frac{v^2}{c^2}}$$
+
+Rearranging:
+
+$$1 - \frac{v^2}{c^2} = \frac{1}{\gamma^2}$$
+
+$$\frac{v^2}{c^2} = 1 - \frac{1}{\gamma^2} = 1 - \frac{1}{(2.294)^2} = 1 - \frac{1}{5.263} = 1 - 0.1900 = 0.8100$$
+
+$$\frac{v}{c} = \sqrt{0.8100} = 0.900$$
+
+$$v = 0.900c$$
+
+**Discussion**
+
+The neutron must be moving at 90% the speed of light for its lifetime to be extended from 900 s to 2065 s—more than double its rest lifetime. This illustrates the substantial time dilation that occurs at velocities close to the speed of light. Such relativistic neutrons are produced in cosmic ray showers and in particle accelerators. The factor of 2.3 in lifetime extension corresponds exactly to $$\gamma = 2.294$$ for this velocity, confirming the consistency of special relativity.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -533,6 +610,39 @@ If relativistic effects are to be less than 1%, then  $$\gamma  $$
 <div class="problem" markdown="1">
 If relativistic effects are to be less than 3%, then  $$\gamma  $$
  must be less than 1.03. At what relative velocity is  $$\gamma = 1.03 $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Given $$\gamma = 1.03$$, use the definition $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$ and solve for $$v$$.
+
+**Solution**
+
+Starting with:
+
+$$1.03 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+
+Square both sides:
+
+$$(1.03)^2 = \frac{1}{1-\frac{v^2}{c^2}}$$
+
+$$1.0609 = \frac{1}{1-\frac{v^2}{c^2}}$$
+
+Inverting:
+
+$$1 - \frac{v^2}{c^2} = \frac{1}{1.0609} = 0.9426$$
+
+$$\frac{v^2}{c^2} = 1 - 0.9426 = 0.0574$$
+
+$$\frac{v}{c} = \sqrt{0.0574} = 0.2396$$
+
+$$v = 0.240c$$
+
+**Discussion**
+
+At approximately 24% the speed of light, relativistic effects reach 3%. This corresponds to a velocity of about $$7.2 \times 10^7$$ m/s or 72,000 km/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed, making relativistic corrections essential in particle physics. The 3% threshold is often used as a practical criterion for when classical mechanics begins to give noticeably inaccurate results.
 
 </div>
 </div>
@@ -555,6 +665,47 @@ If relativistic effects are to be less than 3%, then  $$\gamma  $$
 <div class="problem" markdown="1">
 (a) At what relative velocity is  $$\gamma = 2.00 $$ ?
  (b) At what relative velocity is  $$\gamma = 10.0 $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For both parts, use $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$ and solve for $$v$$ in terms of $$c$$.
+
+**Solution**
+
+(a) For $$\gamma = 2.00$$:
+
+$$2.00 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+
+Squaring both sides:
+
+$$4.00 = \frac{1}{1-\frac{v^2}{c^2}}$$
+
+$$1 - \frac{v^2}{c^2} = \frac{1}{4.00} = 0.250$$
+
+$$\frac{v^2}{c^2} = 1 - 0.250 = 0.750$$
+
+$$v = c\sqrt{0.750} = 0.866c$$
+
+(b) For $$\gamma = 10.0$$:
+
+$$10.0 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+
+Squaring both sides:
+
+$$100 = \frac{1}{1-\frac{v^2}{c^2}}$$
+
+$$1 - \frac{v^2}{c^2} = \frac{1}{100} = 0.0100$$
+
+$$\frac{v^2}{c^2} = 1 - 0.0100 = 0.9900$$
+
+$$v = c\sqrt{0.9900} = 0.995c$$
+
+**Discussion**
+
+Part (a) shows that $$\gamma = 2$$ (a doubling of time dilation) occurs at about 87% the speed of light. At this velocity, moving clocks run at half speed, and lengths contract to half their proper length. Part (b) shows that even at $$\gamma = 10$$ (extreme time dilation), the velocity is "only" 99.5% of $$c$$—not quite the speed of light. This illustrates how $$\gamma$$ increases very rapidly as $$v$$ approaches $$c$$. The difference between 0.866c and 0.995c seems small (about 13% of $$c$$), but the time dilation factor increases five-fold from 2 to 10. This increasingly steep relationship makes it progressively harder to accelerate particles to higher and higher fractions of the speed of light.
 
 </div>
 </div>
