@@ -335,10 +335,7 @@ class ContentProcessor {
       if (parts[i]) {
         const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
         const escapedUnits = unitsWithoutDegree.map(escapeRegExp);
-        const unitPattern = new RegExp(
-          `(\\d)(${escapedUnits.join('|')})(?!\\w)`,
-          'g'
-        );
+        const unitPattern = new RegExp(`(\\d)(${escapedUnits.join('|')})(?!\\w)`, 'g');
 
         parts[i] = parts[i].replace(unitPattern, (match, digit, unit, offset) => {
           const before = parts[i].substring(Math.max(0, offset - 10), offset);
