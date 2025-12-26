@@ -208,7 +208,7 @@ class ContentProcessor {
 
     const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
     const unitPattern = new RegExp(
-      `(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`,
+      `(\\d)(${unitsWithoutDegree.map(escapeRegExp).join('|')})(?!\\w)`,
       'g'
     );
 
