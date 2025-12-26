@@ -556,6 +556,93 @@ function parser() {
     }
   });
 
+  // Swipe navigation for mobile
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let touchEndX = 0;
+  let touchEndY = 0;
+  let isSwiping = false;
+
+  const MIN_SWIPE_DISTANCE = 50; // minimum distance for a swipe (pixels)
+  const MAX_VERTICAL_DISTANCE = 100; // maximum vertical movement allowed (pixels)
+  const SWIPE_VELOCITY_THRESHOLD = 0.3; // minimum velocity (pixels/ms)
+
+  bookBody.addEventListener('touchstart', function (event) {
+    // Only track single-finger touches
+    if (event.touches.length === 1) {
+      touchStartX = event.touches[0].clientX;
+      touchStartY = event.touches[0].clientY;
+      isSwiping = false;
+    }
+  }, { passive: true });
+
+  bookBody.addEventListener('touchmove', function (event) {
+    if (event.touches.length === 1) {
+      touchEndX = event.touches[0].clientX;
+      touchEndY = event.touches[0].clientY;
+
+      const deltaX = Math.abs(touchEndX - touchStartX);
+      const deltaY = Math.abs(touchEndY - touchStartY);
+
+      // Detect horizontal swipe (more horizontal than vertical movement)
+      if (deltaX > deltaY && deltaX > 10) {
+        isSwiping = true;
+        // Add visual feedback
+        const swipeDistance = touchEndX - touchStartX;
+        const pageWrapper = bookBody.querySelector('.page-wrapper');
+        if (pageWrapper) {
+          const transform = Math.max(-100, Math.min(100, swipeDistance * 0.2));
+          pageWrapper.style.transition = 'none';
+          pageWrapper.style.transform = `translateX(${transform}px)`;
+          pageWrapper.style.opacity = 1 - Math.abs(transform) / 200;
+        }
+      }
+    }
+  }, { passive: true });
+
+  bookBody.addEventListener('touchend', function (event) {
+    if (isSwiping) {
+      const swipeDistance = touchEndX - touchStartX;
+      const verticalDistance = Math.abs(touchEndY - touchStartY);
+      const timeElapsed = event.timeStamp - (event.timeStamp - 300); // approximate
+
+      // Reset visual feedback
+      const pageWrapper = bookBody.querySelector('.page-wrapper');
+      if (pageWrapper) {
+        pageWrapper.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+        pageWrapper.style.transform = '';
+        pageWrapper.style.opacity = '';
+      }
+
+      // Only navigate if swipe is primarily horizontal and meets minimum distance
+      if (verticalDistance < MAX_VERTICAL_DISTANCE && Math.abs(swipeDistance) >= MIN_SWIPE_DISTANCE) {
+        let link = null;
+
+        if (swipeDistance > 0) {
+          // Swipe right (go to previous page)
+          link = document.querySelector('.book .navigation-prev');
+        } else {
+          // Swipe left (go to next page)
+          link = document.querySelector('.book .navigation-next');
+        }
+
+        if (link !== null) {
+          // Delay navigation slightly to allow visual feedback to complete
+          setTimeout(() => {
+            link.click();
+          }, 100);
+        }
+      }
+
+      isSwiping = false;
+    }
+
+    touchStartX = 0;
+    touchStartY = 0;
+    touchEndX = 0;
+    touchEndY = 0;
+  }, { passive: true });
+
   document.body.addEventListener('click', function (event) {
     let target = event.target;
     while (target && target.tagName !== 'A') {
