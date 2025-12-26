@@ -190,6 +190,31 @@ unified?
 The ratio of the strong to the weak force and the ratio of the strong force to the electromagnetic force become 1 under circumstances where they are unified. What are the ratios of the strong force to those two forces under normal circumstances?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From [[Table 1]](#Table1), we can find the approximate relative strengths of the four basic forces under ordinary circumstances. The strong force has a relative strength of 1, the electromagnetic force has a relative strength of $$10^{-2}$$, and the weak force has a relative strength of $$10^{-13}$$. We need to calculate the ratios of the strong force to each of the other two forces.
+
+**Solution**
+
+The ratio of the strong force to the weak force is:
+
+<div class="equation">
+$$\frac{\text{strong}}{\text{weak}} = \frac{1}{10^{-13}} = 10^{13} \text{ to } 1$$
+</div>
+
+The ratio of the strong force to the electromagnetic force is:
+
+<div class="equation">
+$$\frac{\text{strong}}{\text{EM}} = \frac{1}{10^{-2}} = 10^{2} = 100 \text{ to } 1$$
+</div>
+
+**Discussion**
+
+These ratios show the dramatic differences in strength between the forces under normal circumstances. The strong force is $$10^{13}$$ (ten trillion) times stronger than the weak force and 100 times stronger than the electromagnetic force. These enormous differences explain why the forces appear so distinct in everyday physics and why their unification only occurs at extremely high energies or very small distances. At the unification scale, these ratios all become 1:1, meaning the forces become indistinguishable. The weak force is much weaker than the strong force, which is why weak interactions (like beta decay) proceed much more slowly than strong force interactions. Similarly, the electromagnetic force being 100 times weaker than the strong force explains why electrostatic repulsion between protons in a nucleus is overwhelmed by the strong force at nuclear distances.
+
+</div>
 </div>
 
 <div class="footnote-refs" markdown="1">
