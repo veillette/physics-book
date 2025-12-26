@@ -1274,11 +1274,29 @@ body.dark-mode .book .book-body .page-wrapper .page-inner .exercise > section {
 body.dark-mode .example .solution,
 body.dark-mode .exercise .solution {
   border-top-color: #505050;
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark-mode .example[data-element-type='problems-exercises'] .solution::before,
+body.dark-mode .exercise[data-element-type='problems-exercises'] .solution::before,
+body.dark-mode .example[data-element-type='problems-exercises'] .problem::before,
+body.dark-mode .exercise[data-element-type='problems-exercises'] .problem::before {
+  color: #b0b0b0;
 }
 
 body.dark-mode table {
   background-color: #2d2d2d;
   color: #e0e0e0;
+}
+
+body.dark-mode table tr {
+  border-top-color: #505050;
+  background-color: #2d2d2d;
+}
+
+body.dark-mode table tr:nth-child(2n) {
+  background-color: #252525;
 }
 
 body.dark-mode table th {
@@ -1288,6 +1306,8 @@ body.dark-mode table th {
 }
 
 body.dark-mode table td {
+  background-color: transparent;
+  color: #e0e0e0;
   border-color: #505050;
 }
 
