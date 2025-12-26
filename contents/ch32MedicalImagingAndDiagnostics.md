@@ -307,9 +307,46 @@ A neutron generator uses an  $$\alpha  $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Neutrons from a source (perhaps the one discussed in the preceding problem) bombard natural molybdenum, which is 24 percent  $${}^{98}\text{Mo} $$ .
- What is the energy output of the reaction  $${}^{98}\text{Mo}+n\to {}^{99}\text{Mo}+\gamma  $$ ? 
+ What is the energy output of the reaction  $${}^{98}\text{Mo}+n\to {}^{99}\text{Mo}+\gamma  $$ ?
 The mass of  $${}^{98}\text{Mo} $$ is given in [Appendix A: Atomic Masses](../contents/appendixA), and that of  $${}^{99}\text{Mo} $$
  is 98.907711 u.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The energy released in this neutron capture reaction is found from the mass defect: $$E = (\Delta m)c^{2}$$, where $$\Delta m = m_{\text{reactants}} - m_{\text{products}}$$. We need to look up the mass of $${}^{98}\text{Mo}$$ from Appendix A (97.905406 u) and use the given mass of $${}^{99}\text{Mo}$$ (98.907711 u). The neutron mass is 1.008665 u.
+
+**Solution**
+
+Calculate the total mass of reactants:
+
+<div class="equation">
+$$ m_{\text{reactants}} = m({}^{98}\text{Mo}) + m(n) = 97.905406 \text{ u} + 1.008665 \text{ u} = 98.914071 \text{ u} $$
+</div>
+
+The mass of the product is:
+
+<div class="equation">
+$$ m_{\text{products}} = m({}^{99}\text{Mo}) = 98.907711 \text{ u} $$
+</div>
+
+Calculate the mass defect:
+
+<div class="equation">
+$$ \Delta m = 98.914071 \text{ u} - 98.907711 \text{ u} = 0.006360 \text{ u} $$
+</div>
+
+Convert to energy:
+
+<div class="equation">
+$$ E = (\Delta m)c^{2} = (0.006360 \text{ u})\left(\frac{931.5 \text{ MeV}}{1 \text{ u}}\right) = 5.93 \text{ MeV} $$
+</div>
+
+**Discussion**
+
+This 5.93 MeV of energy is released as a gamma ray (or possibly multiple gamma rays that sum to this energy). Neutron capture reactions like this are exothermic because the product nucleus has greater binding energy than the sum of the reactants. This particular reaction is extremely important in nuclear medicine because it is the first step in producing $${}^{99\text{m}}\text{Tc}$$, the most widely used radiopharmaceutical. The $${}^{99}\text{Mo}$$ produced undergoes beta decay with a half-life of 66 hours to form $${}^{99\text{m}}\text{Tc}$$, which has ideal properties for medical imaging: a 6-hour half-life that limits patient dose, and emission of a single easily-detected 0.142-MeV gamma ray. The fact that natural molybdenum is 24% $${}^{98}\text{Mo}$$ means that natural molybdenum can be used directly as a target material in reactors without expensive isotopic enrichment. The relatively large energy release of nearly 6 MeV helps ensure a reasonable reaction probability (cross-section) when thermal neutrons are used, making this a practical production method. This reaction is performed continuously in nuclear reactors around the world to supply $${}^{99}\text{Mo}$$/$${}^{99\text{m}}\text{Tc}$$ generators to hospitals and clinics.
 
 </div>
 </div>
@@ -339,6 +376,39 @@ The purpose of producing  $${}^{99}\text{Mo} $$
 to get a position resolution of 1.00 mm?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Gamma rays (photons) travel at the speed of light $$c = 3.00 \times 10^{8} \text{ m/s}$$. The time difference is found from $$\Delta t = \Delta d / c$$, where $$\Delta d$$ is the difference in distance traveled. For part (a), $$\Delta d = 9.00 \text{ cm}$$. For part (b), we need $$\Delta d = 1.00 \text{ mm}$$ resolution.
+
+**Solution**
+
+(a) Convert distance to meters and calculate time difference:
+
+<div class="equation">
+$$ \Delta d = 9.00 \text{ cm} = 0.0900 \text{ m} $$
+</div>
+
+<div class="equation">
+$$ \Delta t = \frac{\Delta d}{c} = \frac{0.0900 \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 3.00 \times 10^{-10} \text{ s} = 0.300 \text{ ns} $$
+</div>
+
+(b) For 1.00 mm resolution:
+
+<div class="equation">
+$$ \Delta d = 1.00 \text{ mm} = 1.00 \times 10^{-3} \text{ m} $$
+</div>
+
+<div class="equation">
+$$ \Delta t = \frac{1.00 \times 10^{-3} \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 3.33 \times 10^{-12} \text{ s} = 3.33 \text{ ps} $$
+</div>
+
+**Discussion**
+
+These incredibly short time intervals illustrate both the potential and the challenge of using time-of-flight information in PET imaging. In part (a), the time difference of 0.300 nanoseconds for a 9-cm offset is at the edge of what modern electronics can reliably measure. Current state-of-the-art PET scanners can achieve timing resolution of about 200-500 picoseconds, which would give position resolution of about 3-7.5 cm. To achieve the 1-mm resolution specified in part (b) would require measuring time differences of only 3.33 picoseconds—more than 60 times better than current technology! This is why conventional PET relies primarily on coincidence detection (detecting that two photons arrived at nearly the same time on opposite detectors) rather than precise time-of-flight measurements. The coincidence requirement determines that the photons came from somewhere along the line connecting the two detectors, and computer tomography techniques reconstruct the image from many such lines. Modern "time-of-flight PET" (TOF-PET) scanners do use the achievable ~200-500 ps timing resolution to narrow down the position along each line to about 3-7 cm, which significantly improves image quality and reduces scanning time. However, the fundamental spatial resolution of PET (about 4-6 mm) is still limited by other factors including positron range (the distance the positron travels before annihilation) and photon non-collinearity (the annihilation photons aren't exactly 180° apart due to the momentum of the positron-electron pair).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -360,6 +430,70 @@ The activities of  $${}^{131}\text{I} $$
  respectively. Find and compare the masses of  $${}^{131}\text{I} $$
  and  $${}^{123}\text{I} $$
  in such scans, given their respective half-lives are 8.04 d and 13.2 h. The masses are so small that the radioiodine is usually mixed with stable iodine as a carrier to ensure normal chemistry and distribution in the body.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For each isotope, we'll use $$R = \frac{0.693N}{t_{1/2}}$$ to find the number of nuclei N, then convert to mass. First, convert activities to Bq and half-lives to seconds. Then solve for N and convert to mass using the respective molar masses.
+
+**Solution**
+
+**For $${}^{131}\text{I}$$:**
+
+Convert activity:
+<div class="equation">
+$$ R_{131} = 50 \text{ μCi} = 50 \times 10^{-6} \times 3.70 \times 10^{10} \text{ Bq} = 1.85 \times 10^{6} \text{ Bq} $$
+</div>
+
+Convert half-life:
+<div class="equation">
+$$ t_{1/2} = 8.04 \text{ d} \times \frac{24 \text{ h}}{1 \text{ d}} \times \frac{3600 \text{ s}}{1 \text{ h}} = 6.95 \times 10^{5} \text{ s} $$
+</div>
+
+Find number of nuclei:
+<div class="equation">
+$$ N_{131} = \frac{R \times t_{1/2}}{0.693} = \frac{(1.85 \times 10^{6})(6.95 \times 10^{5})}{0.693} = 1.86 \times 10^{12} \text{ nuclei} $$
+</div>
+
+Convert to mass:
+<div class="equation">
+$$ m_{131} = \frac{N_{131}}{N_A} \times M = \frac{1.86 \times 10^{12}}{6.022 \times 10^{23}} \times 131 \text{ g/mol} = 4.05 \times 10^{-10} \text{ g} = 0.405 \text{ ng} $$
+</div>
+
+**For $${}^{123}\text{I}$$:**
+
+Convert activity:
+<div class="equation">
+$$ R_{123} = 70 \text{ μCi} = 70 \times 10^{-6} \times 3.70 \times 10^{10} \text{ Bq} = 2.59 \times 10^{6} \text{ Bq} $$
+</div>
+
+Convert half-life:
+<div class="equation">
+$$ t_{1/2} = 13.2 \text{ h} \times \frac{3600 \text{ s}}{1 \text{ h}} = 4.75 \times 10^{4} \text{ s} $$
+</div>
+
+Find number of nuclei:
+<div class="equation">
+$$ N_{123} = \frac{(2.59 \times 10^{6})(4.75 \times 10^{4})}{0.693} = 1.78 \times 10^{11} \text{ nuclei} $$
+</div>
+
+Convert to mass:
+<div class="equation">
+$$ m_{123} = \frac{1.78 \times 10^{11}}{6.022 \times 10^{23}} \times 123 \text{ g/mol} = 3.63 \times 10^{-11} \text{ g} = 0.0363 \text{ ng} $$
+</div>
+
+**Comparison:**
+<div class="equation">
+$$ \frac{m_{131}}{m_{123}} = \frac{0.405 \text{ ng}}{0.0363 \text{ ng}} \approx 11.2 $$
+</div>
+
+The $${}^{131}\text{I}$$ mass is about **11 times larger** than the $${}^{123}\text{I}$$ mass.
+
+**Discussion**
+
+Despite $${}^{123}\text{I}$$ having higher activity (70 μCi vs 50 μCi), it requires much less mass (only 0.036 ng compared to 0.405 ng for $${}^{131}\text{I}$$). This factor of 11 difference is primarily due to the vastly different half-lives: $${}^{131}\text{I}$$ has a half-life of 8.04 days while $${}^{123}\text{I}$$ has a much shorter half-life of only 13.2 hours. Shorter half-life means more decays per second for a given number of nuclei, so less mass is needed to achieve a given activity. This illustrates an important principle: to achieve high activity with less mass (and therefore potentially less total radiation dose), isotopes with shorter half-lives are preferred. Both masses are incredibly small—in the nanogram range—which is why carrier-free radiopharmaceuticals cannot be used directly. Without adding stable iodine as a carrier, these tiny amounts would stick to container walls, fail to dissolve properly, and not distribute normally in the body. The carrier ensures that the radioiodine behaves chemically like normal iodine and concentrates in the thyroid as expected. The shorter half-life of $${}^{123}\text{I}$$ (13.2 h vs 8.04 d) also means the patient's radiation dose decays away much faster, making $${}^{123}\text{I}$$ preferable when available, despite being more expensive and difficult to produce.
 
 </div>
 </div>
