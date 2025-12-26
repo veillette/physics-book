@@ -868,10 +868,10 @@ await esbuild.build({
 
 // Minify CSS
 await esbuild.build({
-  entryPoints: ['src/assets/css/styles.css'],
+  entryPoints: ['src/assets/css/book.css'],
   bundle: true,
   minify: true,
-  outfile: '_site/assets/css/styles.min.css',
+  outfile: '_site/assets/css/book.min.css',
 });
 ```
 
