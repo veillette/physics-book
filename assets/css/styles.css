@@ -683,3 +683,113 @@ iframe {
     font-size: 11px;
   }
 }
+
+/* Enhanced Mobile Touch Interactions */
+
+/* Prevent text selection during swipe gestures */
+.book .book-body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Allow text selection in actual content */
+.book .book-body .page-inner {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+/* Smooth transitions for swipe feedback */
+.book .book-body .page-wrapper {
+  will-change: transform, opacity;
+}
+
+/* Larger touch targets for navigation buttons on mobile */
+@media (max-width: 768px) {
+  .book .book-body .navigation {
+    min-width: 48px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  /* Enhanced tap feedback for navigation buttons */
+  .book .book-body .navigation:active {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(0.95);
+    transition: all 0.1s ease;
+  }
+
+  /* Improve toggle summary button touch target */
+  .book .toggle-summary {
+    min-width: 48px;
+    min-height: 48px;
+    padding: 12px;
+  }
+
+  .book .toggle-summary:active {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(0.95);
+  }
+
+  /* Enhanced touch targets for dark mode and PDF buttons */
+  .book .book-body .dark-mode-toggle,
+  .book .book-body .pdf-download-btn {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 8px;
+  }
+
+  .book .book-body .dark-mode-toggle:active,
+  .book .book-body .pdf-download-btn:active {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  /* Improve spacing for summary links */
+  .book .book-summary ul.summary li a {
+    padding: 12px 15px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Better active state for summary links */
+  .book .book-summary ul.summary li a:active {
+    background-color: rgba(0, 0, 0, 0.08);
+  }
+}
+
+/* Extra small screens - more touch-friendly */
+@media (max-width: 480px) {
+  .book .book-body .navigation {
+    min-width: 52px;
+    min-height: 52px;
+    padding: 14px;
+    font-size: 20px;
+  }
+
+  .book .book-summary ul.summary li a {
+    padding: 14px 16px;
+    min-height: 48px;
+  }
+}
+
+/* Add subtle visual feedback for swipe direction indicators */
+body.dark-mode .book .book-body .navigation:active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .book .toggle-summary:active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .book .book-summary ul.summary li a:active {
+  background-color: rgba(255, 255, 255, 0.08);
+}
