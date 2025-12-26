@@ -442,12 +442,46 @@ How can you tell that a hologram is a true three-dimensional image and that thos
 
 </div>
 <div class="solution" markdown="1">
-(a) 1.96 eV
 
-(b) $$\left(1240 \text{eV·nm}\right)/\left(1.96 \text{eV}\right)=633 \text{nm}
+**Strategy**
 
-$$
-(c) 60.0 nm
+From [[Figure 10]](#Figure10), we can identify the energy levels of neon. The metastable state is at 20.66 eV, and the state immediately below it is at 18.70 eV. For part (a), we calculate the energy difference between these levels. For part (b), we use the relationship $$ \lambda = \frac{hc}{E} $$ with the convenient form $$ hc = 1240 \text{ eV·nm} $$ . For part (c), we calculate the energy difference from the metastable state to the ground state (0 eV) and find the corresponding wavelength.
+
+**Solution**
+
+(a) The energy of the photon emitted when neon transitions from the metastable state to the level immediately below is:
+
+<div class="equation">
+$$ \Delta E = 20.66 \text{ eV} - 18.70 \text{ eV} = 1.96 \text{ eV} $$
+</div>
+
+This verifies that the photon energy is **1.96 eV**.
+
+(b) The wavelength corresponding to this energy is:
+
+<div class="equation">
+$$ \lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{1.96 \text{ eV}} = 633 \text{ nm} $$
+</div>
+
+This confirms that the wavelength is **633 nm**, which is the characteristic red light of helium-neon lasers.
+
+(c) For a direct transition from the metastable state to the ground state:
+
+<div class="equation">
+$$ \Delta E = 20.66 \text{ eV} - 0 \text{ eV} = 20.66 \text{ eV} $$
+</div>
+
+The wavelength is:
+
+<div class="equation">
+$$ \lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{20.66 \text{ eV}} = 60.0 \text{ nm} $$
+</div>
+
+The wavelength emitted is **60.0 nm**, which is in the extreme ultraviolet (EUV) region.
+
+**Discussion**
+
+The 633 nm red light from the neon transition is what makes helium-neon lasers produce their characteristic red beam, which is widely used in laser pointers, barcode scanners, and laboratory demonstrations. The metastable state at 20.66 eV is crucial for laser operation—its relatively long lifetime allows a population inversion to build up. The direct transition to ground state (60.0 nm) is in the UV range and is much more energetic than the visible red emission. This UV wavelength matches the energy needed to initially excite helium atoms in the He-Ne laser (as shown in Figure 10), creating a closed energy cycle. The fact that neon preferentially emits at 633 nm rather than 60 nm is due to the quantum mechanical selection rules and the availability of the intermediate energy level at 18.70 eV.
 
 </div>
 </div>
@@ -455,6 +489,31 @@ $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A helium-neon laser is pumped by electric discharge. What wavelength electromagnetic radiation would be needed to pump it? See [[Figure 10]](#Figure10) for energy-level information.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From [[Figure 10]](#Figure10), we can see that helium atoms need to be excited from the ground state (0 eV) to the first metastable state at 20.61 eV. We'll use the relationship between photon energy and wavelength: $$ E = \frac{hc}{\lambda} $$ or equivalently $$ \lambda = \frac{hc}{E} $$ , where we can use the convenient form $$ hc = 1240 \text{ eV·nm} $$ .
+
+**Solution**
+
+The energy required to pump helium from its ground state to the metastable state is:
+
+<div class="equation">
+$$ \Delta E = 20.61 \text{ eV} - 0 \text{ eV} = 20.61 \text{ eV} $$
+</div>
+
+The wavelength of electromagnetic radiation with this energy is:
+
+<div class="equation">
+$$ \lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{20.61 \text{ eV}} = 60.2 \text{ nm} $$
+</div>
+
+**Discussion**
+
+This wavelength of 60.2 nm is in the extreme ultraviolet (EUV) region of the electromagnetic spectrum, far below the visible range (400–700 nm). In practice, helium-neon lasers use electrical discharge rather than optical pumping because it's more practical to excite helium atoms through collisions with electrons in the discharge rather than trying to produce intense EUV radiation. Once the helium atoms are excited to their metastable state, they transfer energy to neon atoms through collisions, which is why helium-neon lasers work so efficiently. The laser output at 633 nm (red light) comes from the neon atoms, not the helium.
 
 </div>
 </div>
@@ -468,7 +527,30 @@ Ruby lasers have chromium atoms doped in an aluminum oxide crystal. The energy l
 
 </div>
 <div class="solution" markdown="1">
-693 nm
+
+**Strategy**
+
+From [[Figure 17]](#Figure17), we can see that the ruby laser operates by transitions from the metastable state at 1.79 eV down to the ground state at 0.0 eV. The wavelength of the emitted photon can be calculated using $$ \lambda = \frac{hc}{E} $$ , where $$ E = 1.79 \text{ eV} $$ is the energy difference and $$ hc = 1240 \text{ eV·nm} $$ .
+
+**Solution**
+
+The energy of the laser transition is:
+
+<div class="equation">
+$$ E = 1.79 \text{ eV} - 0.0 \text{ eV} = 1.79 \text{ eV} $$
+</div>
+
+The wavelength of the emitted radiation is:
+
+<div class="equation">
+$$ \lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{1.79 \text{ eV} } = 693 \text{ nm} $$
+</div>
+
+The ruby laser emits light with a wavelength of **693 nm**.
+
+**Discussion**
+
+This wavelength of 693 nm is in the deep red portion of the visible spectrum, which is why ruby lasers produce a characteristic red beam. Ruby was the material used in the very first laser, built by Theodore Maiman in 1960. The chromium atoms (which give ruby its red color) are the active lasing medium. Visible light (green and blue wavelengths around 400-600 nm) from a flash lamp is absorbed to pump chromium atoms from the ground state to higher excited states at 2.3 eV and 3.0 eV. These atoms quickly relax non-radiatively to the metastable state at 1.79 eV, where they remain for a relatively long time (on the order of milliseconds). This allows a population inversion to build up. When stimulated emission begins, all the stored energy is released coherently as intense red light at 693 nm. Ruby lasers typically operate in pulsed mode rather than continuously because it's difficult to maintain a population inversion continuously. Despite being the first type of laser ever built, ruby lasers are still used today in applications such as holography, tattoo removal, and as pump sources for other lasers.
 
 </div>
 </div>
@@ -476,6 +558,49 @@ Ruby lasers have chromium atoms doped in an aluminum oxide crystal. The energy l
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) What energy photons can pump chromium atoms in a ruby laser from the ground state to its second and third excited states? (b) What are the wavelengths of these photons? Verify that they are in the visible part of the spectrum.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From [[Figure 17]](#Figure17), we can identify the energy levels of chromium in aluminum oxide: ground state at 0.0 eV, first metastable state at 1.79 eV, second excited state at 2.3 eV, and third excited state at 3.0 eV. For part (a), we need the energy differences from the ground state to the second and third excited states. For part (b), we'll use $$ \lambda = \frac{hc}{E} $$ with $$ hc = 1240 \text{ eV·nm} $$ to find the wavelengths and verify they fall within the visible spectrum (approximately 400–700 nm).
+
+**Solution**
+
+(a) The energy required to excite chromium from the ground state to the second excited state is:
+
+<div class="equation">
+$$ E_2 = 2.3 \text{ eV} - 0.0 \text{ eV} = 2.3 \text{ eV} $$
+</div>
+
+The energy required to excite chromium from the ground state to the third excited state is:
+
+<div class="equation">
+$$ E_3 = 3.0 \text{ eV} - 0.0 \text{ eV} = 3.0 \text{ eV} $$
+</div>
+
+(b) The wavelength corresponding to the 2.3 eV photon is:
+
+<div class="equation">
+$$ \lambda_2 = \frac{hc}{E_2} = \frac{1240 \text{ eV·nm}}{2.3 \text{ eV}} = 539 \text{ nm} $$
+</div>
+
+This is in the green portion of the visible spectrum.
+
+The wavelength corresponding to the 3.0 eV photon is:
+
+<div class="equation">
+$$ \lambda_3 = \frac{hc}{E_3} = \frac{1240 \text{ eV·nm}}{3.0 \text{ eV}} = 413 \text{ nm} $$
+</div>
+
+This is in the violet portion of the visible spectrum.
+
+Both wavelengths fall within the visible range of approximately 400–700 nm, confirming that visible light can be used to optically pump a ruby laser.
+
+**Discussion**
+
+This is why ruby lasers can be pumped with visible light, typically using intense white light from a flash lamp. The chromium atoms absorb the green and violet/blue components of the white light, becoming excited to the higher energy states. They then quickly relax to the metastable state at 1.79 eV through non-radiative transitions. Once a population inversion is achieved in the metastable state, stimulated emission produces the characteristic red laser light at 693 nm (from the 1.79 eV transition back to ground state). The ability to pump with visible light makes ruby lasers relatively practical compared to systems requiring UV pumping. The green (539 nm) absorption is particularly strong, which is why ruby crystals appear red—they absorb the green light and reflect/transmit the red.
 
 </div>
 </div>
@@ -490,10 +615,44 @@ Some of the most powerful lasers are based on the energy levels of neodymium in 
 
 </div>
 <div class="solution" markdown="1">
-(a) 590 nm
 
-(b)  $$\left(1240 \text{eV·nm}\right)/\left(1.17 \text{eV}\right)=1.06 \text{μm}
-$$
+**Strategy**
+
+From [[Figure 18]](#Figure18), we see that neodymium has energy levels at 0 eV (ground state), 0.50 eV, 1.67 eV (metastable state), and a group of levels around 2.1 eV. For part (a), we need the energy to pump atoms from ground state (0 eV) to the group above the metastable state (2.1 eV), then calculate the wavelength using $$ \lambda = \frac{hc}{E} $$ . For part (b), we verify that the 1.17 eV transition (from 1.67 eV metastable state to 0.50 eV first excited state) produces 1.06 μm radiation using $$ hc = 1240 \text{ eV·nm} $$ .
+
+**Solution**
+
+(a) The average energy required to pump neodymium from ground state to the levels above the metastable state is:
+
+<div class="equation">
+$$ E = 2.1 \text{ eV} - 0 \text{ eV} = 2.1 \text{ eV} $$
+</div>
+
+The wavelength of pump light is:
+
+<div class="equation">
+$$ \lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{2.1 \text{ eV}} = 590 \text{ nm} $$
+</div>
+
+The average pump wavelength is **590 nm**, which is in the yellow-orange region of the spectrum.
+
+(b) The laser transition is from the metastable state at 1.67 eV down to the first excited state at 0.50 eV:
+
+<div class="equation">
+$$ E = 1.67 \text{ eV} - 0.50 \text{ eV} = 1.17 \text{ eV} $$
+</div>
+
+The wavelength is:
+
+<div class="equation">
+$$ \lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{1.17 \text{ eV}} = 1060 \text{ nm} = 1.06 \text{ μm} $$
+</div>
+
+This verifies that the 1.17 eV transition produces **1.06 μm** radiation.
+
+**Discussion**
+
+Neodymium lasers (Nd:YAG or Nd:glass) are among the most powerful and versatile lasers available. The 1.06 μm wavelength is in the near-infrared, just beyond the visible red end of the spectrum. This makes the beam invisible to the human eye, which is both an advantage (no visible glare) and a safety concern (operators cannot see the beam). Neodymium lasers are widely used in materials processing (cutting, welding, marking), medical procedures (surgery, dentistry, dermatology), military applications (range finding, target designation), and scientific research. The pump wavelength of 590 nm (yellow-orange) is convenient because it can be provided by flashlamps or by laser diodes. The "group of levels" around 2.1 eV is particularly advantageous because atoms can be pumped to any of several closely-spaced levels, making the laser less sensitive to the exact pump wavelength—this is called broadband pumping. After being pumped to these upper levels, atoms quickly relax non-radiatively to the metastable state at 1.67 eV, where they accumulate to create a population inversion. The lasing transition brings atoms down to 0.50 eV, from which they quickly relax to the ground state, ready to be pumped again. This four-level laser scheme is very efficient and allows continuous operation at high power levels. Neodymium lasers can be Q-switched or mode-locked to produce extremely short, intense pulses, making them valuable for applications requiring precise energy delivery in very short time intervals.
 
 </div>
 </div>
