@@ -34,7 +34,7 @@ MathJax = {
     },
   },
   chtml: {
-    displayOverflow: 'linebreak',
+    displayOverflow: 'overflow',
     scale: 1.0,
     minScale: 0.5,
   },
