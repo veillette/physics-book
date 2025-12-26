@@ -227,7 +227,7 @@ $$ \text{Number of generations} = \frac{2000 \text{ years}}{25 \text{ years/gene
 
 **Answer**
 
-Approximately **80 generations** have passed since the year 0 AD (assuming about 25 years per generation).
+Approximately __80 generations__ have passed since the year 0 AD (assuming about 25 years per generation).
 
 </div>
 </div>
@@ -292,7 +292,7 @@ $$ N = \frac{m_{bact}}{m_{atom}} = \frac{10^{-15} \kg}{10^{-26} \kg} = 10^{11} \
 
 **Answer**
 
-A bacterium contains approximately **10¹¹ atoms** (or about 100 billion atoms).
+A bacterium contains approximately __10¹¹ atoms__ (or about 100 billion atoms).
 
 </div>
 </div>
@@ -350,13 +350,13 @@ From Table 3:
 - Greatest ocean depth: $$ d\_{ocean} = 10^{4} \m $$ (about 10,000 m, or the Mariana Trench at ~11,000 m)
 - Greatest mountain height: $$ h\_{mountain} = 10^{4} \m $$ (Mt. Everest is about 8,850 m)
 
-**(a) Fraction for ocean depth:**
+__(a) Fraction for ocean depth:__
 
 <div class="equation">
 $$ \text{Fraction} = \frac{d_{ocean}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
 </div>
 
-**(b) Fraction for mountain height:**
+__(b) Fraction for mountain height:__
 
 <div class="equation">
 $$ \text{Fraction} = \frac{h_{mountain}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
@@ -364,9 +364,9 @@ $$ \text{Fraction} = \frac{h_{mountain}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m
 
 **Answer**
 
-(a) The greatest ocean depth is approximately **1/1000** (or **0.001** or **10⁻³**) of Earth's diameter.
+(a) The greatest ocean depth is approximately __1/1000__ (or __0.001__ or __10⁻³__) of Earth's diameter.
 
-(b) The greatest mountain height is approximately **1/1000** (or **0.001** or **10⁻³**) of Earth's diameter.
+(b) The greatest mountain height is approximately __1/1000__ (or __0.001__ or __10⁻³__) of Earth's diameter.
 
 Both the deepest ocean trenches and highest mountains are tiny compared to Earth's diameter, representing only about 0.1% of it.
 
@@ -391,7 +391,7 @@ We need to estimate the number of cells by dividing the total mass by the mass o
 $$ \text{Cell mass} \approx 10 \times 10^{-15} \kg = 10^{-14} \kg $$
 </div>
 
-**(a) Cells in a hummingbird:**
+__(a) Cells in a hummingbird:__
 
 2. The mass of a hummingbird is approximately $$ 10^{-2} \kg $$ (about 10 grams, or roughly 0.01 kg).
 
@@ -400,7 +400,7 @@ $$ \text{Cell mass} \approx 10 \times 10^{-15} \kg = 10^{-14} \kg $$
 $$ \text{Number of cells} = \frac{\text{Hummingbird mass}}{\text{Cell mass}} = \frac{10^{-2} \kg}{10^{-14} \kg} = 10^{12} \text{ cells} $$
 </div>
 
-**(b) Cells in a human:**
+__(b) Cells in a human:__
 
 4. The mass of a human is approximately $$ 10^{2} \kg $$ (about 100 kg, though 70 kg is more typical).
 
@@ -439,7 +439,7 @@ $$ \text{Firing rate} = \frac{1}{\text{Duration}} = \frac{1}{10^{-3} \s} = 10^{3
 
 **Answer**
 
-The maximum firing rate of a nerve is approximately **1000 impulses per second** (or **1000 Hz**, or **10³ Hz**).
+The maximum firing rate of a nerve is approximately __1000 impulses per second__ (or __1000 Hz__, or __10³ Hz__).
 
 This is consistent with known biological limits - most neurons fire at rates well below 1000 Hz, with typical maximum rates being a few hundred Hz for most neurons.
 

@@ -310,7 +310,7 @@ This problem applies the definition of linear momentum $$ p = mv $$ to calculate
 
 Using the definition of momentum:
 
-$$ p*{\text{elephant}} = m*{\text{elephant}} \times v\_{\text{elephant}} $$
+$$ p_{\text{elephant}} = m_{\text{elephant}} \times v\_{\text{elephant}} $$
 
 $$ p\_{\text{elephant}} = (2000 \kg)(7.50 \ms) = 1.50 \times 10^{4} \kg \cdot \ms $$
 
@@ -320,19 +320,19 @@ The momentum of the charging elephant is $$ 1.50 \times 10^{4} \kg \cdot \ms $$.
 
 First, calculate the dart's momentum:
 
-$$ p*{\text{dart}} = m*{\text{dart}} \times v\_{\text{dart}} $$
+$$ p_{\text{dart}} = m_{\text{dart}} \times v\_{\text{dart}} $$
 
 $$ p\_{\text{dart}} = (0.0400 \kg)(600 \ms) = 24.0 \kg \cdot \ms $$
 
 Now find the ratio:
 
-$$ \frac{p*{\text{elephant}}}{p*{\text{dart}}} = \frac{1.50 \times 10^{4} \kg \cdot \ms}{24.0 \kg \cdot \ms} = 625 $$
+$$ \frac{p_{\text{elephant}}}{p_{\text{dart}}} = \frac{1.50 \times 10^{4} \kg \cdot \ms}{24.0 \kg \cdot \ms} = 625 $$
 
 The elephant's momentum is 625 times greater than the dart's momentum.
 
 **Solution for (c)**
 
-$$ p*{\text{hunter}} = m*{\text{hunter}} \times v\_{\text{hunter}} $$
+$$ p_{\text{hunter}} = m_{\text{hunter}} \times v\_{\text{hunter}} $$
 
 $$ p\_{\text{hunter}} = (90.0 \kg)(7.40 \ms) = 6.66 \times 10^{2} \kg \cdot \ms $$
 
@@ -375,11 +375,11 @@ The mass of the ship is $$ 1.20 \times 10^{8} \kg $$ (120 million kilograms, or 
 
 Calculate the artillery shell's momentum:
 
-$$ p*{\text{shell}} = m*{\text{shell}} \times v\_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
+$$ p_{\text{shell}} = m_{\text{shell}} \times v\_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
 
 Find the ratio:
 
-$$ \frac{p*{\text{ship}}}{p*{\text{shell}}} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{1.32 \times 10^{6} \kg \cdot \ms} = 1.21 \times 10^{3} $$
+$$ \frac{p_{\text{ship}}}{p_{\text{shell}}} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{1.32 \times 10^{6} \kg \cdot \ms} = 1.21 \times 10^{3} $$
 
 The ship's momentum is approximately 1210 times greater than the artillery shell's momentum.
 

@@ -60,8 +60,8 @@ What is the power output for a 60.0-kg woman who runs up a 3.00 m high flight of
 **Strategy and Concept**
 
 The work going into mechanical energy is $$ W=\KE + \PE $$. At the bottom of the
-stairs, we take both $$ \KE $$ and $$ \PE*{g} $$ as initially zero; thus, $$
-W=\KE*{f}+\PE*{g}=\frac{1}{2} m v*
+stairs, we take both $$ \KE $$ and $$ \PE_{g} $$ as initially zero; thus, $$
+W=\KE_{f}+\PE_{g}=\frac{1}{2} m v_
 {f}^{2}+mgh $$, where $$ h $$ is the vertical height of the stairs. Because all
 terms are given, we can calculate $$ W $$ and then divide it by time to get
 power.

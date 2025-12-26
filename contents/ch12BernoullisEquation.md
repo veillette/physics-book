@@ -134,7 +134,7 @@ to be relative to this). In that case, we get
 This equation tells us that, in static fluids, pressure increases with depth. As
 we go from point 1 to point 2 in the fluid, the depth increases by $${h}_{1} $$
 , and consequently, $${P}_{2} $$ is greater than $${P}_{1} $$ by an amount
-$$\rho gh*{1} $$ . In the very simplest case, $${P}*{1} $$ is zero at the top of
+$$\rho gh_{1} $$ . In the very simplest case, $${P}_{1} $$ is zero at the top of
 the fluid, and we get the familiar relationship $$P=\rho gh $$ .
 (Recall that $$P=\rho gh $$ and $$\Delta {\text{PE}}_{\text{g}}=mgh. $$ )
 Bernoulli’s equation includes the fact that the pressure due to the weight of a

@@ -196,10 +196,10 @@ Graphing the data helps us understand it more clearly.
 **Discussion**
 
 The interpretation of these results is important. At 1.00 s the rock is above
-its starting point and heading upward, since $$ y*{1} $$ and $$ v*{1} $$ are
+its starting point and heading upward, since $$ y_{1} $$ and $$ v_{1} $$ are
 both positive. At 2.00 s, the rock is still above its starting point, but the
-negative velocity means it is moving downward. At 3.00 s, both $$ y*{3} $$ and
-$$ v*{3} $$ are negative, meaning the rock is below its starting point and
+negative velocity means it is moving downward. At 3.00 s, both $$ y_{3} $$ and
+$$ v_{3} $$ are negative, meaning the rock is below its starting point and
 continuing to move downward. Notice that when the rock is at its highest point (
 at 1.3 s), its velocity is zero, but its acceleration is still $$ -9.80 \mss $$.
 Its acceleration is $$ -9.80 \mss $$ for the whole trip—while it is moving up
@@ -242,11 +242,11 @@ continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y*{0}=0 $$; $$ y*{1}=-5.10 \m $$; $$ v\_
+1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_
 {0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
-The equation $$ v^{2}=v*{0}^{2}+2a\left(y-y*{0}\right) $$ works well because the
+The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
 only unknown in it is $$ v $$. (We will plug $$ y\_{1} $$ in for $$ y $$.)
 
 3\. Enter the known values
@@ -325,8 +325,8 @@ is downward and therefore negative, as is acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ y*{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173 \s $$;
-$$ v*{0}=0 $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; $$ y=-1.0000 \m $$; $$ t=0.45173 \s $$;
+$$ v_{0}=0 $$.
 
 2\. Choose the equation that allows you to solve for $$ a $$ using the known
 values.
@@ -503,7 +503,7 @@ For position: $$ y = y_0 + v_0 t + \frac{1}{2}at^2 = v_0 t - \frac{1}{2}gt^2 $$
 
 For velocity: $$ v = v_0 + at = v_0 - gt $$
 
-**(a) At t = 0.500 s:**
+__(a) At t = 0.500 s:__
 
 <div class="equation">
 $$ y_1 = (15.0 \ms)(0.500 \s) - \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.50 \m - 1.23 \m = 6.28 \m $$
@@ -513,7 +513,7 @@ $$ y_1 = (15.0 \ms)(0.500 \s) - \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.50 \m - 1
 $$ v_1 = 15.0 \ms - (9.80 \mss)(0.500 \s) = 15.0 \ms - 4.90 \ms = 10.1 \ms $$
 </div>
 
-**(b) At t = 1.00 s:**
+__(b) At t = 1.00 s:__
 
 <div class="equation">
 $$ y_2 = (15.0 \ms)(1.00 \s) - \frac{1}{2}(9.80 \mss)(1.00 \s)^2 = 15.0 \m - 4.90 \m = 10.1 \m $$
@@ -523,7 +523,7 @@ $$ y_2 = (15.0 \ms)(1.00 \s) - \frac{1}{2}(9.80 \mss)(1.00 \s)^2 = 15.0 \m - 4.9
 $$ v_2 = 15.0 \ms - (9.80 \mss)(1.00 \s) = 5.20 \ms $$
 </div>
 
-**(c) At t = 1.50 s:**
+__(c) At t = 1.50 s:__
 
 <div class="equation">
 $$ y_3 = (15.0 \ms)(1.50 \s) - \frac{1}{2}(9.80 \mss)(1.50 \s)^2 = 22.5 \m - 11.0 \m = 11.5 \m $$
@@ -533,7 +533,7 @@ $$ y_3 = (15.0 \ms)(1.50 \s) - \frac{1}{2}(9.80 \mss)(1.50 \s)^2 = 22.5 \m - 11.
 $$ v_3 = 15.0 \ms - (9.80 \mss)(1.50 \s) = 0.300 \ms $$
 </div>
 
-**(d) At t = 2.00 s:**
+__(d) At t = 2.00 s:__
 
 <div class="equation">
 $$ y_4 = (15.0 \ms)(2.00 \s) - \frac{1}{2}(9.80 \mss)(2.00 \s)^2 = 30.0 \m - 19.6 \m = 10.4 \m $$
@@ -579,7 +579,7 @@ For position: $$ y = y_0 + v_0 t + \frac{1}{2}gt^2 = v_0 t + \frac{1}{2}gt^2 $$
 
 For velocity: $$ v = v_0 + gt $$
 
-**(a) At t = 0.500 s:**
+__(a) At t = 0.500 s:__
 
 <div class="equation">
 $$ y_1 = (14.0 \ms)(0.500 \s) + \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.00 \m + 1.23 \m = 8.23 \m $$
@@ -589,7 +589,7 @@ $$ y_1 = (14.0 \ms)(0.500 \s) + \frac{1}{2}(9.80 \mss)(0.500 \s)^2 = 7.00 \m + 1
 $$ v_1 = 14.0 \ms + (9.80 \mss)(0.500 \s) = 18.9 \ms $$
 </div>
 
-**(b) At t = 1.00 s:**
+__(b) At t = 1.00 s:__
 
 <div class="equation">
 $$ y_2 = (14.0 \ms)(1.00 \s) + \frac{1}{2}(9.80 \mss)(1.00 \s)^2 = 14.0 \m + 4.90 \m = 18.9 \m $$
@@ -599,7 +599,7 @@ $$ y_2 = (14.0 \ms)(1.00 \s) + \frac{1}{2}(9.80 \mss)(1.00 \s)^2 = 14.0 \m + 4.9
 $$ v_2 = 14.0 \ms + (9.80 \mss)(1.00 \s) = 23.8 \ms $$
 </div>
 
-**(c) At t = 1.50 s:**
+__(c) At t = 1.50 s:__
 
 <div class="equation">
 $$ y_3 = (14.0 \ms)(1.50 \s) + \frac{1}{2}(9.80 \mss)(1.50 \s)^2 = 21.0 \m + 11.0 \m = 32.0 \m $$
@@ -609,7 +609,7 @@ $$ y_3 = (14.0 \ms)(1.50 \s) + \frac{1}{2}(9.80 \mss)(1.50 \s)^2 = 21.0 \m + 11.
 $$ v_3 = 14.0 \ms + (9.80 \mss)(1.50 \s) = 28.7 \ms $$
 </div>
 
-**(d) At t = 2.00 s:**
+__(d) At t = 2.00 s:__
 
 <div class="equation">
 $$ y_4 = (14.0 \ms)(2.00 \s) + \frac{1}{2}(9.80 \mss)(2.00 \s)^2 = 28.0 \m + 19.6 \m = 47.6 \m $$
@@ -619,7 +619,7 @@ $$ y_4 = (14.0 \ms)(2.00 \s) + \frac{1}{2}(9.80 \mss)(2.00 \s)^2 = 28.0 \m + 19.
 $$ v_4 = 14.0 \ms + (9.80 \mss)(2.00 \s) = 33.6 \ms $$
 </div>
 
-**(e) At t = 2.50 s:**
+__(e) At t = 2.50 s:__
 
 <div class="equation">
 $$ y_5 = (14.0 \ms)(2.50 \s) + \frac{1}{2}(9.80 \mss)(2.50 \s)^2 = 35.0 \m + 30.6 \m = 65.6 \m $$
@@ -708,14 +708,14 @@ Take downward as positive since the preserver is thrown downward. Use the kinema
 
 **Solution**
 
-**(a) Known values:**
+__(a) Known values:__
 
 - Initial velocity: $$ v_0 = 1.40 \ms $$ (downward, positive)
 - Time: $$ t = 1.8 \s $$
 - Acceleration: $$ a = g = 9.80 \mss $$ (downward, positive)
 - Initial position: $$ y_0 = 0 $$
 
-**(b) Height above water:**
+__(b) Height above water:__
 
 Use the kinematic equation:
 
@@ -795,7 +795,7 @@ Take upward as positive. The swimmer launches upward from the diving board with 
 
 **Solution**
 
-**(a) Time in the air:**
+__(a) Time in the air:__
 
 1. Identify the known values:
    - Initial velocity: $$ v_0 = +4.00 \ms $$ (upward)
@@ -838,7 +838,7 @@ Taking the positive root:
 $$ t = \frac{4.00 + 7.16}{9.80} = \frac{11.16}{9.80} = 1.14 \s $$
 </div>
 
-**(b) Highest point above the board:**
+__(b) Highest point above the board:__
 
 1. At maximum height, velocity equals zero: $$ v = 0 $$
 
@@ -860,7 +860,7 @@ $$ 0 = 16.0 - 19.6y $$
 $$ y = \frac{16.0}{19.6} = 0.816 \m $$
 </div>
 
-**(c) Velocity when feet hit the water:**
+__(c) Velocity when feet hit the water:__
 
 Use the kinematic equation relating velocity, displacement, and acceleration:
 
@@ -918,7 +918,7 @@ Take upward as positive. The rock is thrown upward, goes up, then comes back dow
 
 **Solution**
 
-**(a) Height of the cliff:**
+__(a) Height of the cliff:__
 
 1. Identify the known values:
    - Initial velocity: $$ v_0 = +8.00 \ms $$ (upward)
@@ -946,7 +946,7 @@ $$ y = 18.8 \m - 27.1 \m = -8.26 \m $$
 
 The negative sign indicates the ground is 8.26 m below the cliff top.
 
-**(b) Time if thrown straight down:**
+__(b) Time if thrown straight down:__
 
 1. Identify the known values:
    - Initial velocity: $$ v_0 = -8.00 \ms $$ (downward)
@@ -1141,7 +1141,7 @@ The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on 
 
 **Answer**
 
-The ball will pass the tree branch on the way down **1.91 s** after passing it on the way up.
+The ball will pass the tree branch on the way down __1.91 s__ after passing it on the way up.
 
 </div>
 </div>
@@ -1161,7 +1161,7 @@ Take upward as positive. The kangaroo leaves the ground with some initial veloci
 
 **Solution**
 
-**(a) Vertical speed when leaving the ground:**
+__(a) Vertical speed when leaving the ground:__
 
 1. Identify the known values:
    - Initial position: $$ y_0 = 0 $$ (ground level)
@@ -1191,7 +1191,7 @@ $$ v_0^2 = 2(9.80)(2.50) = 49.0 \mmss $$
 $$ v_0 = \sqrt{49.0} = 7.00 \ms $$
 </div>
 
-**(b) Time in the air:**
+__(b) Time in the air:__
 
 Method 1: Use the velocity equation to find time to reach maximum height, then double it.
 
@@ -1263,7 +1263,7 @@ Take downward as positive since the object is dropped and falls downward. The in
 
 **Solution**
 
-**(a) Distance traveled during the first second:**
+__(a) Distance traveled during the first second:__
 
 1. Identify the known values:
    - Initial position: $$ y_0 = 0 $$
@@ -1285,7 +1285,7 @@ $$ y = 0 + 0 + \frac{1}{2}(9.80)(1.00)^2 $$
 $$ y = \frac{1}{2}(9.80)(1.00) = 4.90 \m $$
 </div>
 
-**(b) Final velocity when hitting the ground:**
+__(b) Final velocity when hitting the ground:__
 
 1. Identify the known values:
    - Initial velocity: $$ v_0 = 0 $$
@@ -1310,7 +1310,7 @@ $$ v^2 = 1470 \mmss $$
 $$ v = \sqrt{1470} = 38.3 \ms $$
 </div>
 
-**(c) Distance traveled during the last second:**
+__(c) Distance traveled during the last second:__
 
 First, find the total time to fall 75.0 m:
 
@@ -1386,7 +1386,7 @@ Take upward as positive. We'll solve this in two steps as suggested by the hint:
 
 **Solution**
 
-**Step 1: Find velocity at the bottom of the window**
+__Step 1: Find velocity at the bottom of the window__
 
 The window is 2.00 m high and the ball takes 0.312 s to pass through it.
 
@@ -1421,7 +1421,7 @@ $$ v_{bottom}(0.312) = 2.00 + 0.477 = 2.477 $$
 $$ v_{bottom} = \frac{2.477}{0.312} = 7.94 \ms $$
 </div>
 
-**Step 2: Find initial velocity from ground to bottom of window**
+__Step 2: Find initial velocity from ground to bottom of window__
 
 The bottom of the window is 7.50 m above the ground.
 
@@ -1478,7 +1478,7 @@ Take downward as positive. For part (a), we neglect the time for sound to travel
 
 **Solution**
 
-**(a) Neglecting sound travel time:**
+__(a) Neglecting sound travel time:__
 
 1. Identify the known values:
    - Initial position: $$ y_0 = 0 $$
@@ -1500,9 +1500,9 @@ $$ y = 0 + 0 + \frac{1}{2}(9.80)(2.0000)^2 $$
 $$ y = \frac{1}{2}(9.80)(4.0000) = 19.6 \m $$
 </div>
 
-**(b) Accounting for sound travel time:**
+__(b) Accounting for sound travel time:__
 
-The total time is the sum of the fall time $$ t*{\text{fall}} $$ and the sound travel time $$ t*{\text{sound}} $$:
+The total time is the sum of the fall time $$ t_{\text{fall}} $$ and the sound travel time $$ t_{\text{sound}} $$:
 
 <div class="equation">
 $$ t_{\text{total}} = t_{\text{fall}} + t_{\text{sound}} = 2.0000 \s $$
@@ -1527,7 +1527,7 @@ $$ t_{\text{sound}} = \frac{d}{v_{\text{sound}}} = \frac{d}{332.00} $$
 $$ t_{\text{fall}} + \frac{d}{332.00} = 2.0000 $$
 </div>
 
-4. But $$ d = \frac{1}{2}gt*{\text{fall}}^2 = 4.90 t*{\text{fall}}^2 $$, so:
+4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 t_{\text{fall}}^2 $$, so:
 <div class="equation">
 $$ t_{\text{fall}} + \frac{4.90 t_{\text{fall}}^2}{332.00} = 2.0000 $$
 </div>
@@ -1595,7 +1595,7 @@ Take upward as positive. The ball falls from rest, hits the floor, and rebounds.
 
 **Solution**
 
-**(a) Velocity just before striking the floor:**
+__(a) Velocity just before striking the floor:__
 
 1. Identify the known values for the downward fall:
    - Initial position: $$ y_0 = 1.50 \m $$
@@ -1627,7 +1627,7 @@ Taking the negative root (downward motion):
 $$ v = -5.42 \ms $$
 </div>
 
-**(b) Velocity just after leaving the floor:**
+__(b) Velocity just after leaving the floor:__
 
 1. Identify the known values for the upward rebound:
    - Initial position: $$ y_0 = 0 $$ (floor level)
@@ -1653,7 +1653,7 @@ $$ v_0^2 = 2(9.80)(1.45) = 28.42 \mmss $$
 $$ v_0 = \sqrt{28.42} = +5.33 \ms $$
 </div>
 
-**(c) Acceleration during contact with the floor:**
+__(c) Acceleration during contact with the floor:__
 
 During the collision, the ball's velocity changes from -5.42 m/s to +5.33 m/s.
 
@@ -1676,7 +1676,7 @@ $$ a = \frac{v - v_0}{t} = \frac{5.33 - (-5.42)}{8.00 \times 10^{-5}} $$
 $$ a = \frac{10.75}{8.00 \times 10^{-5}} = 1.34 \times 10^{5} \mss $$
 </div>
 
-**(d) Distance the ball compressed during collision:**
+__(d) Distance the ball compressed during collision:__
 
 1. Use the kinematic equation with average velocity:
 <div class="equation">
@@ -1744,7 +1744,7 @@ Take upward as positive. The coin is released from a balloon that is already mov
 
 **Solution**
 
-**(a) Maximum height reached:**
+__(a) Maximum height reached:__
 
 1. Identify the known values:
    - Initial position: $$ y_0 = 300 \m $$ (above ground)
@@ -1778,7 +1778,7 @@ $$ y - 300 = \frac{100}{19.6} = 5.10 \m $$
 $$ y = 305 \m $$
 </div>
 
-**(b) Position and velocity at t = 4.00 s:**
+__(b) Position and velocity at t = 4.00 s:__
 
 1. Position after 4.00 s:
 <div class="equation">
@@ -1812,7 +1812,7 @@ $$ v = 10.0 - 39.2 = -29.2 \ms $$
 
 The negative sign indicates the coin is moving downward.
 
-**(c) Time before hitting the ground:**
+__(c) Time before hitting the ground:__
 
 1. When the coin hits the ground, $$ y = 0 $$. Use:
 <div class="equation">
@@ -1883,7 +1883,7 @@ Take upward as positive. The tennis ball falls from rest, hits the floor, compre
 
 **Solution**
 
-**(a) Velocity just before striking the floor:**
+__(a) Velocity just before striking the floor:__
 
 1. Identify the known values for the downward fall:
    - Initial position: $$ y_0 = 1.50 \m $$
@@ -1915,7 +1915,7 @@ Taking the negative root (downward motion):
 $$ v = -5.42 \ms $$
 </div>
 
-**(b) Velocity just after leaving the floor:**
+__(b) Velocity just after leaving the floor:__
 
 1. Identify the known values for the upward rebound:
    - Initial position: $$ y_0 = 0 $$ (floor level)
@@ -1941,7 +1941,7 @@ $$ v_0^2 = 2(9.80)(1.10) = 21.56 \mmss $$
 $$ v_0 = \sqrt{21.56} = +4.64 \ms $$
 </div>
 
-**(c) Acceleration during contact with the floor:**
+__(c) Acceleration during contact with the floor:__
 
 During the collision, the ball's velocity changes from -5.42 m/s to +4.64 m/s.
 
@@ -1964,7 +1964,7 @@ $$ a = \frac{v - v_0}{t} = \frac{4.64 - (-5.42)}{3.50 \times 10^{-3}} $$
 $$ a = \frac{10.06}{3.50 \times 10^{-3}} = 2.87 \times 10^{3} \mss $$
 </div>
 
-**(d) Distance the ball compressed during collision:**
+__(d) Distance the ball compressed during collision:__
 
 1. Use the kinematic equation:
 <div class="equation">

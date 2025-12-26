@@ -1103,7 +1103,7 @@ In reality, energy costs fluctuate and are often higher than \$1.00/MJ (especial
 
 **Answer**
 
-The simple payback time is approximately **0.264 years**, or about **3.2 months** of the heating season, or approximately **one-quarter of a year**.
+The simple payback time is approximately __0.264 years__, or about __3.2 months__ of the heating season, or approximately __one-quarter of a year__.
 
 </div>
 </div>

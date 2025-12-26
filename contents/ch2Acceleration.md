@@ -103,12 +103,12 @@ as positive and west as negative. Thus, in this case, we have negative velocity.
 
 We can solve this problem by identifying $$ \Delta v $$ and $$ \Delta t $$ from
 the given information and then calculating the average acceleration directly
-from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v*{f}-v*
-{0}}{ t*{f}-t*{0}} $$.
+from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_
+{0}}{ t_{f}-t_{0}} $$.
 
 **Solution**
 
-1\. Identify the knowns. $$ v*{0}=0 $$, $$ v*{f}=-15.0 \ms $$
+1\. Identify the knowns. $$ v_{0}=0 $$, $$ v_{f}=-15.0 \ms $$
 (the negative sign indicates direction toward the west), $$ \Delta t=1\text{.80
 s} $$.
 
@@ -177,13 +177,13 @@ What are the magnitude and sign of displacements for the motions of the subway t
 A drawing with a coordinate system is already provided, so we don’t need to make
 a sketch, but we should analyze it to make sure we understand what it is
 showing. Pay particular attention to the coordinate system. To find
-displacement, we use the equation $$ \Delta x=x*{f}-x*{0} $$. This is
+displacement, we use the equation $$ \Delta x=x_{f}-x_{0} $$. This is
 straightforward since the initial and final positions are given.
 
 **Solution**
 
-1\. Identify the knowns. In the figure we see that $$ x*{f}=6.70 \text{km} $$
-and $$ x*{0}=4.70 \text{km} $$ for part (a), and $$ x^{\prime}_{f}=3.75
+1\. Identify the knowns. In the figure we see that $$ x_{f}=6.70 \text{km} $$
+and $$ x_{0}=4.70 \text{km} $$ for part (a), and $$ x^{\prime}_{f}=3.75
 \text{km} $$ and $$ x^{\prime}_{0}=5.25 \text{km} $$ for part (b).
 
 2\. Solve for displacement in part (a).
@@ -257,8 +257,8 @@ values to calculate the acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ v*{0}=0 $$
-(the trains starts at rest), $$ v*{f}=30.0 \text{km/h} $$, and $$ \Delta t=20.0
+1\. Identify the knowns. $$ v_{0}=0 $$
+(the trains starts at rest), $$ v_{f}=30.0 \text{km/h} $$, and $$ \Delta t=20.0
 \s $$.
 
 2\. Calculate $$ \Delta v $$. Since the train starts from rest, its change in
@@ -303,7 +303,7 @@ velocity and the change in time and then solve for acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ v*{0}=30.0 \text{km/h} $$, $$ v*{f}=0 \text{km/h} $$
+1\. Identify the knowns. $$ v_{0}=30.0 \text{km/h} $$, $$ v_{f}=0 \text{km/h} $$
 (the train is stopped, so its velocity is 0), and $$ \Delta t=8.00 \s $$.
 
 2\. Solve for the change in velocity, $$ \Delta v $$.
@@ -402,7 +402,7 @@ calculate average acceleration.
 
 **Solution**
 
-1\. Identify the knowns. $$ v*{0}=-20 \text{km/h} $$, $$ v*{f}=0 \text{km/h} $$,
+1\. Identify the knowns. $$ v_{0}=-20 \text{km/h} $$, $$ v_{f}=0 \text{km/h} $$,
 $$ \Delta t=10.0 s $$.
 
 2\. Calculate $$ \Delta v $$. The change in velocity here is actually positive,

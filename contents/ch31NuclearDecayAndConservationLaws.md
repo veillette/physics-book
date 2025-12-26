@@ -444,7 +444,7 @@ $$ s, an indication of the great strength of the forces pulling the nucleons to
 lower states. The $$\gamma $$ decay equation is simply
 
 <div class="equation">
- $${}_{Z}^{A}{\text{X}}_{N}^{*}\to {}_{Z}{}^{A} {\text{X}}_{N}+{\gamma }_{1}+{\gamma }_{2}+\cdots  \left(\gamma  \text{decay}\right) $$
+ $${}_{Z}^{A}{\text{X}}_{N}^{_}\to {}_{Z}{}^{A} {\text{X}}_{N}+{\gamma }_{1}+{\gamma }_{2}+\cdots  \left(\gamma  \text{decay}\right) $$
 </div>
 
 where the asterisk indicates the nucleus is in an excited state. There may be
@@ -452,11 +452,11 @@ one or more $$\gamma $$ s emitted, depending on how the nuclide de-excites. In
 radioactive decay, $$\gamma $$ emission is common and is preceded by $$\gamma $$
 or $$\beta $$ decay. For example, when $${}^{60}\text{Co} $$ $${\beta }^{-} $$
 decays, it most often leaves the daughter nucleus in an excited state, written
-$${}^{60}\text{Ni*} $$ . Then the nickel nucleus quickly $$\gamma $$ decays by
+$${}^{60}\text{Ni_} $$ . Then the nickel nucleus quickly $$\gamma $$ decays by
 the emission of two penetrating $$\gamma $$ s:
 
 <div class="equation" >
- $${}^{60}\text{Ni*}\to {}^{60}\text{Ni}+{\gamma }_{1}+{\gamma }_{2}. $$
+ $${}^{60}\text{Ni_}\to {}^{60}\text{Ni}+{\gamma }_{1}+{\gamma }_{2}. $$
 </div>
 
 These are called cobalt $$\gamma $$ rays, although they come from nickel—they
@@ -514,7 +514,7 @@ in nuclear power and weapons. It is covered in the next chapter.
   $$\gamma $$ decay equation is
 
   <div class="equation" >
-   $${}_{Z}{}^{A} {\text{X}}_{N}^{*}\to {}_{Z}{}^{A} {\text{X}}_{N}+{\gamma }_{1}+{\gamma }_{2}+\cdots  $$
+   $${}_{Z}{}^{A} {\text{X}}_{N}^{_}\to {}_{Z}{}^{A} {\text{X}}_{N}+{\gamma }_{1}+{\gamma }_{2}+\cdots  $$
   </div>
 
 $$\gamma $$ is a high-energy photon originating in a nucleus.
