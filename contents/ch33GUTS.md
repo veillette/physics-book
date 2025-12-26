@@ -293,6 +293,37 @@ produced in the decay of a neutral at rest pion, in the reaction $${\pi }^{0}\to
 \gamma +\gamma $$ ?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Since the $${\pi}^{0}$$ is at rest, its initial momentum is zero. By conservation of momentum, the two photons must move in opposite directions with equal and opposite momenta. Since photons have $$E = pc$$ and equal magnitudes of momentum, they must have equal energies. The total energy equals the rest mass energy of the $${\pi}^{0}$$, which is 135.0 MeV.
+
+**Solution**
+
+The rest mass energy of the $${\pi}^{0}$$ is completely converted to photon energies:
+
+<div class="equation">
+$$E_{\text{total}} = m_{\pi^{0}} c^2 = 135.0 \text{ MeV}$$
+</div>
+
+By conservation of momentum, the two photons must have equal and opposite momenta. Since $$E = pc$$ for photons, equal momenta means equal energies. Therefore:
+
+<div class="equation">
+$$E_{\gamma} = \frac{E_{\text{total}}}{2} = \frac{135.0 \text{ MeV}}{2} = 67.5 \text{ MeV}$$
+</div>
+
+**Each photon has an energy of 67.5 MeV.**
+
+**Discussion**
+
+This symmetric two-photon decay is characteristic of neutral particles that are their own antiparticles, like the $${\pi}^{0}$$. The decay proceeds via the electromagnetic force—the quark-antiquark pair in the pion ($$u\overline{u}$$ or $$d\overline{d}$$) annihilates to produce two photons. The extremely short lifetime of the $${\pi}^{0}$$ ($$8.4 \times 10^{-17}$$ s) is consistent with electromagnetic decay.
+
+The equal energy sharing between the two photons is a direct consequence of momentum conservation and the symmetry of the decay. In the pion's rest frame, there is no preferred direction, so the photons must emerge back-to-back with equal energies. If the pion were moving, the photon energies would be different in the lab frame due to Doppler shifting, but in the pion's rest frame they would still be equal.
+
+This decay mode occurs nearly 99% of the time for the $${\pi}^{0}$$. The photons produced have energies in the gamma-ray range (67.5 MeV is much higher than typical atomic transition energies). These high-energy photons can be detected in particle detectors, and their back-to-back emission pattern is a signature of $${\pi}^{0}$$ decay. This process is important in high-energy physics experiments and also occurs in cosmic ray showers when high-energy protons strike atmospheric nuclei, producing pions that quickly decay into photons.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -317,6 +348,51 @@ provides an idea of the limit to the detail it can probe.
 Fermilab. (b) If such a proton created a $${\pi }^{+} $$ having the same speed,
 how long would its life be in the laboratory? (c) How far could it travel in
 this time?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we'll use the relativistic energy relation $$E = \gamma m c^2$$ to find $$\gamma$$. For parts (b) and (c), we'll use time dilation: the pion's lifetime in the lab frame is $$\tau_{\text{lab}} = \gamma \tau_0$$, where $$\tau_0 = 2.60 \times 10^{-8}$$ s is the pion's rest lifetime.
+
+**Solution**
+
+(a) The total energy of the proton is its kinetic energy plus rest mass energy:
+
+<div class="equation">
+$$E = KE + m_p c^2 = 1.00 \text{ TeV} + 0.938 \text{ GeV} = 1000.938 \text{ GeV}$$
+</div>
+
+Using $$E = \gamma m_p c^2$$:
+
+<div class="equation">
+$$\gamma = \frac{E}{m_p c^2} = \frac{1000.938 \text{ GeV}}{0.938 \text{ GeV}} = 1067 \approx 1.07 \times 10^{3}$$
+</div>
+
+(b) The $${\pi}^{+}$$ rest lifetime is $$\tau_0 = 2.60 \times 10^{-8}$$ s. In the laboratory frame, time dilation gives:
+
+<div class="equation">
+$$\tau_{\text{lab}} = \gamma \tau_0 = (1067)(2.60 \times 10^{-8} \text{ s}) = 2.77 \times 10^{-5} \text{ s} = 27.7 \text{ μs}$$
+</div>
+
+(c) The distance traveled is:
+
+<div class="equation">
+$$d = v \tau_{\text{lab}} \approx c \tau_{\text{lab}} = (3.00 \times 10^{8} \text{ m/s})(2.77 \times 10^{-5} \text{ s})$$
+</div>
+
+<div class="equation">
+$$d = 8.31 \times 10^{3} \text{ m} = 8.31 \text{ km}$$
+</div>
+
+**Discussion**
+
+The $$\gamma$$ factor of 1067 indicates the proton is traveling at extremely relativistic speeds, very close to the speed of light. At this speed, $$v/c = \sqrt{1 - 1/\gamma^2} \approx 0.999999560$$ or 99.999956% the speed of light.
+
+Time dilation dramatically extends the observed lifetime of the pion from 26 nanoseconds in its rest frame to 27.7 microseconds in the lab frame—over 1000 times longer. This allows the pion to travel 8.31 km before decaying, compared to only about 7.8 meters it would travel without time dilation.
+
+This effect is crucial for particle physics experiments. High-energy particles created in accelerators travel macroscopic distances before decaying, allowing physicists to track and study them. Without time dilation, many particles would decay too quickly to be detected. The observation of such effects provides direct experimental confirmation of special relativity. Similar time dilation effects are observed with cosmic ray muons, which can reach Earth's surface only because their lifetimes are extended by their high speeds, providing one of the most accessible demonstrations of relativistic time dilation in nature.
 
 </div>
 </div>
@@ -351,6 +427,57 @@ a kinetic energy of 500 MeV. (a) What would the relativistic quantity $$\gamma
 =\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ be for these particles? (b) How long
 would their average lifetime be in the laboratory? (c) How far could they travel
 in this time?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use the charged kaon $$K^{+}$$ (or $$K^{-}$$) with mass 493.7 MeV/$$c^2$$ and rest lifetime $$1.24 \times 10^{-8}$$ s. For part (a), use $$KE = (\gamma - 1)mc^2$$. For parts (b) and (c), apply time dilation.
+
+**Solution**
+
+(a) The kinetic energy is related to $$\gamma$$ by:
+
+<div class="equation">
+$$KE = (\gamma - 1) m_K c^2$$
+</div>
+
+Solving for $$\gamma$$:
+
+<div class="equation">
+$$\gamma = 1 + \frac{KE}{m_K c^2} = 1 + \frac{500 \text{ MeV}}{493.7 \text{ MeV}} = 1 + 1.013 = 2.013 \approx 2.01$$
+</div>
+
+(b) The K-meson's rest lifetime is $$\tau_0 = 1.24 \times 10^{-8}$$ s. In the laboratory:
+
+<div class="equation">
+$$\tau_{\text{lab}} = \gamma \tau_0 = (2.01)(1.24 \times 10^{-8} \text{ s}) = 2.49 \times 10^{-8} \text{ s}$$
+</div>
+
+(c) First, find the velocity from $$\gamma$$:
+
+<div class="equation">
+$$v = c\sqrt{1 - \frac{1}{\gamma^2}} = c\sqrt{1 - \frac{1}{(2.01)^2}} = c\sqrt{1 - 0.247} = 0.868c$$
+</div>
+
+The distance traveled is:
+
+<div class="equation">
+$$d = v \tau_{\text{lab}} = (0.868)(3.00 \times 10^8 \text{ m/s})(2.49 \times 10^{-8} \text{ s})$$
+</div>
+
+<div class="equation">
+$$d = 6.49 \text{ m}$$
+</div>
+
+**Discussion**
+
+With a $$\gamma$$ factor of 2.01, the K-mesons are moderately relativistic, traveling at about 87% the speed of light. This is significantly slower than the 1-TeV protons in the previous problem, but still fast enough that relativistic effects are important.
+
+Time dilation approximately doubles the K-meson's lifetime from 12.4 ns to 24.9 ns, allowing it to travel about 6.5 meters before decaying. This is a manageable distance for experimental setups—K-meson beams can be transported through beam lines to experimental targets where they scatter from nuclei.
+
+K-mesons are particularly useful for studying the strong force because they contain a strange quark, which interacts via the strong force but isn't present in ordinary matter (protons and neutrons contain only up and down quarks). The kinetic energy of 500 MeV is chosen to be high enough to probe nuclear structure effectively but low enough that the beam can be produced and controlled with reasonable accelerator technology. K-meson scattering experiments have provided important information about the strong nuclear force and the structure of nucleons, complementing electron scattering experiments which probe electromagnetic properties.
 
 </div>
 </div>
@@ -391,8 +518,65 @@ sooner does the photon arrive? This is not a large time difference, given that
 it is impossible to know which neutrino left with which photon and the poor
 efficiency of the neutrino detectors. Thus, the fact that neutrinos were
 observed within hours of the brightening of the supernova only places an upper
-limit on the neutrino’s mass. (Hint: You may need to use a series expansion to
+limit on the neutrino's mass. (Hint: You may need to use a series expansion to
 find _v_ for the neutrino, since its $$\gamma $$ is so large.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), use $$KE = (\gamma - 1)mc^2$$ with $$m = 7$$ eV/$$c^2$$ and $$KE = 700$$ keV = $$7 \times 10^5$$ eV. For part (b), find the neutrino's velocity, calculate travel times for both neutrino and photon, and find the difference.
+
+**Solution**
+
+(a) Using the kinetic energy relation:
+
+<div class="equation">
+$$\gamma = 1 + \frac{KE}{mc^2} = 1 + \frac{700,000 \text{ eV}}{7 \text{ eV}} = 1 + 100,000 = 100,001 \approx 1.0 \times 10^{5}$$
+</div>
+
+(b) To find the neutrino's velocity, use:
+
+<div class="equation">
+$$v = c\sqrt{1 - \frac{1}{\gamma^2}}$$
+</div>
+
+Since $$\gamma$$ is very large ($$10^5$$), use the approximation $$\sqrt{1-x} \approx 1 - \frac{x}{2}$$ for small $$x$$:
+
+<div class="equation">
+$$v \approx c\left(1 - \frac{1}{2\gamma^2}\right) = c\left(1 - \frac{1}{2(10^5)^2}\right) = c\left(1 - 5 \times 10^{-11}\right)$$
+</div>
+
+The distance is $$d = 120,000$$ light years. Travel times are:
+- Photon: $$t_{\gamma} = \frac{d}{c} = 120,000$$ years
+- Neutrino: $$t_{\nu} = \frac{d}{v} = \frac{d}{c(1 - 5 \times 10^{-11})} \approx \frac{120,000}{1 - 5 \times 10^{-11}}$$ years
+
+Using $$\frac{1}{1-x} \approx 1 + x$$ for small $$x$$:
+
+<div class="equation">
+$$t_{\nu} \approx 120,000(1 + 5 \times 10^{-11}) \text{ years}$$
+</div>
+
+The time difference is:
+
+<div class="equation">
+$$\Delta t = t_{\nu} - t_{\gamma} = 120,000 \times 5 \times 10^{-11} \text{ years} = 6.0 \times 10^{-6} \text{ years}$$
+</div>
+
+Converting to seconds:
+
+<div class="equation">
+$$\Delta t = 6.0 \times 10^{-6} \text{ years} \times 3.16 \times 10^7 \text{ s/year} \approx 190 \text{ s} \approx 3.2 \text{ minutes}$$
+</div>
+
+**Discussion**
+
+The enormous $$\gamma$$ factor of $$10^5$$ shows that despite having a tiny mass (7 eV/$$c^2$$, about 70,000 times smaller than an electron), the neutrino with 700 keV kinetic energy travels at 99.99999999995% the speed of light—extraordinarily close to $$c$$.
+
+The photon arrives only about 3 minutes sooner after a journey of 120,000 years! This tiny difference is completely negligible compared to the uncertainties in when specific neutrinos and photons were emitted and the detection efficiency. The fact that neutrinos from SN 1987A were detected within hours of the optical brightening places strong constraints on the neutrino mass but cannot determine it precisely.
+
+This observation was historic—it was the first time neutrinos were detected from a supernova, confirming theoretical predictions about stellar collapse and supernova mechanisms. The near-simultaneous arrival of neutrinos and photons after traveling 120,000 light years demonstrates that neutrinos have very small (possibly zero) mass and travel at speeds indistinguishable from light speed over astronomical distances. Modern experiments suggest neutrino masses are even smaller than 7 eV/$$c^2$$, possibly less than 0.1 eV/$$c^2$$.
 
 </div>
 </div>
@@ -401,12 +585,66 @@ find _v_ for the neutrino, since its $$\gamma $$ is so large.)
 <div class="problem" markdown="1">
 **Construct Your Own Problem**
 
-Consider an ultrahigh-energy cosmic ray entering the Earth’s atmosphere (some
+Consider an ultrahigh-energy cosmic ray entering the Earth's atmosphere (some
 have energies approaching a joule). Construct a problem in which you calculate
 the energy of the particle based on the number of particles in an observed
 cosmic ray shower. Among the things to consider are the average mass of the
 shower particles, the average number per square meter, and the extent (number of
 square meters covered) of the shower. Express the energy in eV and joules.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To construct a problem about ultrahigh-energy cosmic rays, we need to specify realistic parameters for the cosmic ray shower and use energy conservation principles. The primary cosmic ray converts its energy into a shower of secondary particles.
+
+**Sample Problem Construction**
+
+**Problem:** A cosmic ray proton strikes Earth's atmosphere and creates an extensive air shower. Ground detectors observe approximately $$2.5 \times 10^{5}$$ particles per square meter over a circular area of radius 500 meters. If the average particle mass is 200 MeV/$$c^2$$ (mostly pions, muons, and electrons/positrons), estimate the energy of the primary cosmic ray.
+
+**Solution Approach:**
+
+1. **Calculate total shower area:**
+
+<div class="equation">
+$$A = \pi r^2 = \pi (500 \text{ m})^2 = 7.85 \times 10^5 \text{ m}^2$$
+</div>
+
+2. **Calculate total number of particles:**
+
+<div class="equation">
+$$N = (2.5 \times 10^5 \text{ particles/m}^2)(7.85 \times 10^5 \text{ m}^2) = 1.96 \times 10^{11} \text{ particles}$$
+</div>
+
+3. **Calculate total energy (assuming most energy goes into particle rest masses):**
+
+<div class="equation">
+$$E \approx N \times m_{\text{avg}}c^2 = (1.96 \times 10^{11})(200 \text{ MeV}) = 3.92 \times 10^{13} \text{ MeV}$$
+</div>
+
+4. **Convert to eV and joules:**
+
+<div class="equation">
+$$E = 3.92 \times 10^{19} \text{ eV} = 3.92 \times 10^{10} \text{ GeV} = 39.2 \text{ EeV (exaelectronvolts)}$$
+</div>
+
+<div class="equation">
+$$E = (3.92 \times 10^{19} \text{ eV})(1.6 \times 10^{-19} \text{ J/eV}) = 6.3 \text{ J}$$
+</div>
+
+**Discussion**
+
+This constructed problem illustrates the extraordinary energies of ultrahigh-energy cosmic rays. An energy of 6.3 joules may seem small macroscopically (enough to lift a 1-kg mass about 60 cm), but concentrated in a single subatomic particle, it represents an astounding $$10^{10}$$ GeV—far beyond anything achievable in human-made accelerators like the LHC (maximum 14 TeV = 14,000 GeV).
+
+**Key considerations for constructing similar problems:**
+
+1. **Particle density:** Realistic values range from $$10^4$$ to $$10^6$$ particles/m$$^2$$ depending on primary energy
+2. **Shower extent:** Can range from hundreds of meters ($$10^{18}$$ eV) to several kilometers ($$10^{20}$$ eV)
+3. **Average particle mass:** Most shower particles are pions (140 MeV), muons (106 MeV), and electrons (0.5 MeV); 200 MeV/$$c^2$$ is reasonable
+4. **Energy distribution:** Most energy goes into particle production, though some is lost to neutrinos and undetected particles
+
+Such cosmic rays pose fundamental questions: What accelerates particles to these energies? Candidates include supermassive black holes, active galactic nuclei, or exotic physics. The GZK cutoff (Greisen-Zatsepin-Kuzmin limit) predicts cosmic rays above $$\sim 5 \times 10^{19}$$ eV should be rare due to interactions with cosmic microwave background radiation, yet some ultra-high-energy events above this limit have been observed, making them among the most mysterious phenomena in astrophysics.
 
 </div>
 </div>
@@ -422,6 +660,93 @@ signature that is clearly identifiable. Among the things to consider are the
 estimated half life (long for rare events), and the number of decays per unit
 time that you wish to observe, as well as the number of electrons in the
 detector substance.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Electron decay is not observed in nature and would violate charge conservation (unless it decays into something with the same charge). However, some extensions of the Standard Model predict extremely rare processes. We'll construct a problem based on detecting such hypothetical decays using realistic detector parameters.
+
+**Sample Problem Construction**
+
+**Problem:** Suppose a theoretical extension of the Standard Model predicts that electrons might decay via a process with a half-life of $$10^{35}$$ years (far longer than the proton decay lifetime). You want to design a detector to observe at least one electron decay per year. Assuming your detector uses water (H₂O) and has 80% detection efficiency, how many kilograms of water are needed?
+
+**Solution Approach:**
+
+1. **Determine the number of electrons needed:**
+
+The decay rate is given by $$R = \frac{\ln 2}{t_{1/2}} N$$, where $$N$$ is the number of electrons.
+
+To observe 1 decay per year with 80% efficiency, we need:
+
+<div class="equation">
+$$R_{\text{detected}} = 0.80 \times R = 1 \text{ decay/year}$$
+</div>
+
+<div class="equation">
+$$R_{\text{actual}} = \frac{1}{0.80} = 1.25 \text{ decays/year}$$
+</div>
+
+Converting to decays per second:
+
+<div class="equation">
+$$R = \frac{1.25 \text{ decays/year}}{3.16 \times 10^7 \text{ s/year}} = 3.96 \times 10^{-8} \text{ decays/s}$$
+</div>
+
+2. **Calculate number of electrons needed:**
+
+The half-life in seconds:
+
+<div class="equation">
+$$t_{1/2} = 10^{35} \text{ years} \times 3.16 \times 10^7 \text{ s/year} = 3.16 \times 10^{42} \text{ s}$$
+</div>
+
+From $$R = \frac{\ln 2}{t_{1/2}} N$$:
+
+<div class="equation">
+$$N = \frac{R \times t_{1/2}}{\ln 2} = \frac{(3.96 \times 10^{-8})(3.16 \times 10^{42})}{0.693} = 1.81 \times 10^{35} \text{ electrons}$$
+</div>
+
+3. **Calculate mass of water needed:**
+
+Water (H₂O) has 10 electrons per molecule (8 from oxygen + 1 from each hydrogen).
+
+Molar mass of water = 18 g/mol, and Avogadro's number = $$6.02 \times 10^{23}$$ molecules/mol.
+
+Electrons per mole of water:
+
+<div class="equation">
+$$N_e/\text{mol} = 10 \times 6.02 \times 10^{23} = 6.02 \times 10^{24} \text{ electrons/mol}$$
+</div>
+
+Moles needed:
+
+<div class="equation">
+$$n = \frac{1.81 \times 10^{35}}{6.02 \times 10^{24}} = 3.01 \times 10^{10} \text{ moles}$$
+</div>
+
+Mass of water:
+
+<div class="equation">
+$$m = (3.01 \times 10^{10} \text{ mol})(18 \text{ g/mol}) = 5.42 \times 10^{11} \text{ g} = 5.42 \times 10^{8} \text{ kg}$$
+</div>
+
+**This requires approximately 540 million kilograms (540,000 metric tons) of water.**
+
+**Discussion**
+
+This constructed problem demonstrates the enormous challenge of detecting extremely rare decays. A detector containing 540,000 tons of water is comparable to large neutrino detectors like Super-Kamiokande (50,000 tons) but would need to be an order of magnitude larger. The detector would need to be deep underground to shield from cosmic rays and equipped with thousands of photomultiplier tubes to detect decay products.
+
+**Key considerations for constructing similar problems:**
+
+1. **Half-life estimates:** For electron decay, theoretical predictions range from $$10^{30}$$ to beyond $$10^{50}$$ years
+2. **Detection efficiency:** Realistic values are 50-90% depending on decay mode and detector type
+3. **Detector material:** Water, liquid scintillator, or pure metals; each has different electron densities
+4. **Background noise:** Real detectors must distinguish signal from cosmic rays, radioactivity, and other backgrounds
+5. **Observation time:** Longer observation times allow smaller detectors
+
+**Fundamental implications:** Electron decay would violate both charge conservation and lepton number conservation, fundamental principles never observed to be violated. Its observation would revolutionize physics, suggesting new physics beyond the Standard Model. The fact that no electron decay has been observed despite sensitive searches places experimental lower limits on the electron lifetime exceeding $$10^{28}$$ years, making the electron one of the most stable particles known—possibly absolutely stable. This stability is deeply connected to charge conservation, one of the most fundamental symmetries in nature.
 
 </div>
 </div>

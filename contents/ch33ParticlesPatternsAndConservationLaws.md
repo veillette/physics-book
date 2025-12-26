@@ -872,6 +872,29 @@ The primary decay mode for the negative pion is  $${\pi }^{-}\to {\mu }^{-}+{\st
  What is the energy release in MeV in this decay?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The energy released in a decay is the difference between the initial mass energy and the final mass energies. From the particle tables, we need the masses of the $${\pi}^{-}$$ and $${\mu}^{-}$$. The muon antineutrino $${\stackrel{-}{\nu}}_{\mu}$$ is essentially massless. Using [[Table 1]](#Table1), the $${\pi}^{-}$$ has a mass of 139.6 MeV/$$c^2$$ and the $${\mu}^{-}$$ has a mass of 105.7 MeV/$$c^2$$.
+
+**Solution**
+
+The energy release is:
+
+<div class="equation">
+$$Q = (m_{\pi^{-}} - m_{\mu^{-}} - m_{\overline{\nu}_{\mu}}) c^2$$
+</div>
+
+<div class="equation">
+$$Q = (139.6 - 105.7 - 0) \text{ MeV} = 33.9 \text{ MeV}$$
+</div>
+
+**Discussion**
+
+The decay releases 33.9 MeV of energy, which is shared between the kinetic energy of the muon and the energy carried away by the massless muon antineutrino. This represents about 24% of the pion's rest mass energy being converted into kinetic energy of the decay products. The fact that this decay is energetically favorable (positive Q-value) means it can occur spontaneously. This is the dominant decay mode of the $${\pi}^{-}$$, occurring about 99.99% of the time. The energy is shared unequally between the products due to momentum conservation—since the neutrino is massless and the muon is massive, the neutrino carries away most of the energy while the muon carries most of the momentum. The muon itself is unstable and will subsequently decay via $${\mu}^{-} \to e^{-} + \overline{\nu}_e + \nu_{\mu}$$, but with a much longer lifetime ($$2.20 \times 10^{-6}$$ s compared to the pion's $$2.60 \times 10^{-8}$$ s).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -898,6 +921,48 @@ The decay mode of the negative muon is  $${\mu }^{-}\to {e}^{-}+{\stackrel{-}{\n
 (a) Find the energy released in MeV.
 
 (b) Verify that charge and lepton family numbers are conserved.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we need to find the mass difference between the initial and final particles. The muon mass is 105.7 MeV/$$c^2$$ and the electron mass is 0.511 MeV/$$c^2$$. Both neutrinos are essentially massless. For part (b), we check conservation of charge and the three lepton family numbers ($$L_e$$, $$L_{\mu}$$, $$L_{\tau}$$).
+
+**Solution**
+
+(a) The energy released is:
+
+<div class="equation">
+$$Q = (m_{\mu^{-}} - m_{e^{-}} - m_{\overline{\nu}_e} - m_{\nu_{\mu}}) c^2$$
+</div>
+
+<div class="equation">
+$$Q = (105.7 - 0.511 - 0 - 0) \text{ MeV} = 105.2 \text{ MeV}$$
+</div>
+
+(b) **Charge conservation:**
+- Before: $$Q = -1$$ (from $${\mu}^{-}$$)
+- After: $$Q = -1 + 0 + 0 = -1$$ (from $$e^{-}$$, $$\overline{\nu}_e$$, $$\nu_{\mu}$$)
+- Charge is conserved: $$-1 = -1$$ ✓
+
+**Electron family number ($$L_e$$):**
+- Before: $$L_e = 0$$ (muon is not in electron family)
+- After: $$L_e = +1 - 1 + 0 = 0$$ (from $$e^{-}$$, $$\overline{\nu}_e$$, $$\nu_{\mu}$$)
+- Electron family number is conserved: $$0 = 0$$ ✓
+
+**Muon family number ($$L_{\mu}$$):**
+- Before: $$L_{\mu} = +1$$ (from $${\mu}^{-}$$)
+- After: $$L_{\mu} = 0 + 0 + 1 = +1$$ (from $$e^{-}$$, $$\overline{\nu}_e$$, $$\nu_{\mu}$$)
+- Muon family number is conserved: $$+1 = +1$$ ✓
+
+**Tau family number ($$L_{\tau}$$):**
+- Before and after: $$L_{\tau} = 0$$ (no tau particles involved)
+- Tau family number is conserved: $$0 = 0$$ ✓
+
+**Discussion**
+
+Nearly all of the muon's rest mass energy (105.2 out of 105.7 MeV, or 99.5%) is released in this decay, shared among the three decay products. The electron receives some kinetic energy, while the two neutrinos carry away the rest. This decay demonstrates the weak force in action—the creation of leptons and the relatively long lifetime ($$2.20 \times 10^{-6}$$ s) are characteristic of weak interactions. The conservation of lepton family numbers is a fundamental principle: the electron antineutrino is created to balance the electron family number when an electron is created, and the muon neutrino preserves the muon family number from the original muon. This decay mode has been studied extensively and provides precise tests of the Standard Model of particle physics.
 
 </div>
 </div>
@@ -938,6 +1003,41 @@ decay.
 responsible? State why or why not.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the masses from [[Table 1]](#Table1): $${\Sigma}^{0}$$ has mass 1192.6 MeV/$$c^2$$ and $${\Lambda}^{0}$$ has mass 1115.7 MeV/$$c^2$$. For parts (b)-(d), we examine quark structure, conservation laws, and force characteristics.
+
+**Solution**
+
+(a) The energy released is the mass difference:
+
+<div class="equation">
+$$Q = (m_{\Sigma^{0}} - m_{\Lambda^{0}} - m_{\gamma}) c^2 = (1192.6 - 1115.7 - 0) \text{ MeV} = 76.9 \text{ MeV}$$
+</div>
+
+(b) From quark tables, both $${\Sigma}^{0}$$ and $${\Lambda}^{0}$$ have the quark composition _uds_ (one up, one down, one strange quark). Since they have identical quark content but different masses and spins, **yes, the $${\Sigma}^{0}$$ appears to be an excited state of the $${\Lambda}^{0}$$**. The extra 76.9 MeV represents the excitation energy.
+
+(c) **Conservation checks:**
+- **Strangeness:** $$S = -1$$ before ($${\Sigma}^{0}$$), $$S = -1 + 0 = -1$$ after ($${\Lambda}^{0} + \gamma$$) ✓
+- **Charge:** $$Q = 0$$ before, $$Q = 0 + 0 = 0$$ after ✓
+- **Baryon number:** $$B = +1$$ before, $$B = +1 + 0 = +1$$ after ✓
+
+All three quantum numbers are conserved.
+
+(d) **No, the weak force cannot be responsible** for this decay. The evidence:
+1. **Strangeness is conserved**, which indicates the strong or electromagnetic force (the weak force violates strangeness conservation)
+2. **The lifetime is extremely short** ($$7.4 \times 10^{-20}$$ s), characteristic of electromagnetic decay, not weak decay which typically has lifetimes of $$10^{-10}$$ s or longer
+3. **A photon is emitted**, which is characteristic of an electromagnetic transition
+
+This is an electromagnetic decay of an excited baryon state, analogous to an atomic electron transitioning to a lower energy level and emitting a photon.
+
+**Discussion**
+
+This decay is a beautiful example of how particle physics mirrors atomic physics. Just as atoms have excited states that decay by photon emission, baryons can also exist in excited states. The $${\Sigma}^{0}$$ is essentially a $${\Lambda}^{0}$$ with its quarks in an excited configuration—perhaps with different relative spins or orbital angular momenta. The electromagnetic force mediates the transition, conserving strangeness (unlike weak decays), and the process is very rapid (unlike weak decays). The photon carries away the 76.9 MeV excitation energy. After this electromagnetic decay, the $${\Lambda}^{0}$$ itself will eventually decay via the weak force (which can change strangeness) with its much longer lifetime of $$2.63 \times 10^{-10}$$ s.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -964,6 +1064,49 @@ $${\pi }^{0}\to \gamma +\gamma $$
 
 (b) Is the uncertainty in this energy greater than or less than the uncertainty
 in the mass of the tau neutrino? Discuss the source of the uncertainty.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use the Heisenberg uncertainty principle $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ with the lifetime of the tau from [[Table 1]](#Table1): $$\tau = 2.91 \times 10^{-13}$$ s. For part (b), we compare this energy uncertainty to the experimental upper limit on the tau neutrino mass.
+
+**Solution**
+
+(a) Using the Heisenberg uncertainty principle:
+
+<div class="equation">
+$$\Delta E \approx \frac{h}{4\pi \Delta t} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (2.91 \times 10^{-13} \text{ s})}$$
+</div>
+
+<div class="equation">
+$$\Delta E \approx \frac{6.63 \times 10^{-34}}{3.66 \times 10^{-12}} \text{ J} = 1.81 \times 10^{-22} \text{ J}$$
+</div>
+
+Converting to eV:
+
+<div class="equation">
+$$\Delta E = \frac{1.81 \times 10^{-22} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 1.13 \times 10^{-3} \text{ eV} \approx 1.1 \text{ meV}$$
+</div>
+
+(b) From [[Table 1]](#Table1), the experimental upper limit on the tau neutrino mass is less than 31 MeV/$$c^2$$ = 31,000,000 eV. The uncertainty in the tau decay energy ($$\sim 1.1 \times 10^{-3}$$ eV) is **vastly smaller** than the uncertainty in the neutrino mass.
+
+The ratio is:
+
+<div class="equation">
+$$\frac{\Delta E_{\tau}}{\Delta m_{\nu_{\tau}}c^2} = \frac{1.1 \times 10^{-3} \text{ eV}}{3.1 \times 10^{7} \text{ eV}} \approx 3.5 \times 10^{-11}$$
+</div>
+
+**Discussion**
+
+The energy uncertainty from the tau's finite lifetime is about 1.1 millielectronvolts (meV), which is incredibly small—ten billion times smaller than the upper limit on the tau neutrino mass. This demonstrates two different sources of uncertainty:
+
+1. **Quantum uncertainty from finite lifetime**: The tau's lifetime of $$2.91 \times 10^{-13}$$ s leads to an intrinsic energy uncertainty via the Heisenberg principle. This is a fundamental quantum mechanical effect—short-lived particles have broader energy distributions.
+
+2. **Experimental uncertainty in neutrino mass**: The much larger uncertainty in the neutrino mass (< 31 MeV) comes from experimental limitations in measuring such tiny masses. Neutrinos interact so weakly that determining their masses precisely is extremely challenging.
+
+The fact that the lifetime-induced uncertainty is negligible compared to the neutrino mass uncertainty means that the tau's finite lifetime doesn't significantly hamper our ability to measure the neutrino mass—the limitation is purely experimental. Recent experiments suggest the tau neutrino mass is actually much smaller than 31 MeV, possibly even zero like its counterparts, but this remains an area of active research.
 
 </div>
 </div>

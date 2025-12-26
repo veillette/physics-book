@@ -907,6 +907,53 @@ unaffected.
 weak force is responsible.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use the quantum numbers from the particle tables and quark compositions. From [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2), $${\Omega}^{-}$$ has $$S = -3$$, $${\Xi}^{0}$$ has $$S = -2$$, and $${\pi}^{-}$$ has $$S = 0$$. The quark compositions are: $${\Omega}^{-}$$ is _sss_, $${\Xi}^{0}$$ is _uss_, and $${\pi}^{-}$$ is $$\overline{u}d$$.
+
+**Solution**
+
+(a) The change in strangeness is:
+
+<div class="equation">
+$$\Delta S = S_{\text{final}} - S_{\text{initial}} = (S_{\Xi^{0}} + S_{\pi^{-}}) - S_{\Omega^{-}} = (-2 + 0) - (-3) = +1$$
+</div>
+
+(b) **Baryon number:**
+- Before: $$B = +1$$ ($${\Omega}^{-}$$ is a baryon)
+- After: $$B = +1 + 0 = +1$$ ($${\Xi}^{0}$$ is a baryon, $${\pi}^{-}$$ is a meson)
+- Baryon number is conserved ✓
+
+**Charge:**
+- Before: $$Q = -1$$ ($${\Omega}^{-}$$)
+- After: $$Q = 0 + (-1) = -1$$ ($${\Xi}^{0} + {\pi}^{-}$$)
+- Charge is conserved ✓
+
+**Lepton numbers:**
+- All lepton numbers ($$L_e$$, $$L_{\mu}$$, $$L_{\tau}$$) are zero before and after (no leptons involved)
+- Lepton numbers are unaffected ✓
+
+(c) In terms of quark constituents:
+
+<div class="equation">
+$$\text{sss} \to \text{uss} + \overline{u}d$$
+</div>
+
+This can be rewritten to show the quark flavor change:
+
+<div class="equation">
+$$\text{sss} \to \text{us(s)} + \overline{u}d \quad \Rightarrow \quad s \to u + \overline{u} + d$$
+</div>
+
+The weak force is responsible because strangeness changes by 1, indicating a quark flavor change from strange to up and down quarks.
+
+**Discussion**
+
+This decay clearly demonstrates the weak force at work. The change in strangeness ($$\Delta S = +1$$) is a signature of the weak interaction—neither the strong nor electromagnetic forces can change strangeness. At the quark level, one of the three strange quarks in the $${\Omega}^{-}$$ transforms into an up quark (creating the $${\Xi}^{0}$$), while simultaneously creating an up-antiup quark-antiquark pair along with a down quark (forming the $${\pi}^{-}$$). The relatively long lifetime of the $${\Omega}^{-}$$ ($$0.82 \times 10^{-10}$$ s) is also consistent with weak decay, being many orders of magnitude longer than strong force decays (typically $$10^{-23}$$ to $$10^{-16}$$ s). This decay mode occurs about 68% of the time, making it one of the dominant decay channels for the omega minus.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -935,6 +982,56 @@ One decay mode for the eta-zero meson is  $${\eta }^{0}\to \gamma +\mathrm{\gamm
 (c) Write the decay in terms of the constituent quarks.
 
 (d) Verify that baryon number, lepton numbers, and charge are conserved.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From [[Table 1]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1), the $${\eta}^{0}$$ has mass 547.9 MeV/$$c^2$$ and lifetime $$2.53 \times 10^{-19}$$ s. The photons are massless. For part (b), we'll use the Heisenberg uncertainty principle.
+
+**Solution**
+
+(a) Since the $${\eta}^{0}$$ decays completely into two photons, all its rest mass energy is released:
+
+<div class="equation">
+$$E = m_{\eta^{0}} c^2 = 547.9 \text{ MeV}$$
+</div>
+
+Each photon carries half the energy (by momentum conservation, since the $${\eta}^{0}$$ is at rest):
+
+<div class="equation">
+$$E_{\gamma} = \frac{547.9}{2} = 274.0 \text{ MeV per photon}$$
+</div>
+
+(b) Using the Heisenberg uncertainty principle:
+
+<div class="equation">
+$$\Delta E \approx \frac{h}{4\pi \Delta t} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (2.53 \times 10^{-19} \text{ s})} = 2.09 \times 10^{-16} \text{ J}$$
+</div>
+
+Converting to eV:
+
+<div class="equation">
+$$\Delta E = \frac{2.09 \times 10^{-16} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 1.31 \times 10^{3} \text{ eV} = 1.31 \text{ keV}$$
+</div>
+
+(c) From [[Table 2]](#Table2), the $${\eta}^{0}$$ is a mixture of $$u\overline{u}$$ and $$d\overline{d}$$. The decay in terms of quarks is:
+
+<div class="equation">
+$$(u\overline{u} + d\overline{d}) \to \gamma + \gamma$$
+</div>
+
+The quark-antiquark pairs annihilate to produce the two photons.
+
+(d) **Conservation checks:**
+- **Baryon number:** $$B = 0$$ before and after (mesons and photons have $$B = 0$$) ✓
+- **Lepton numbers:** All lepton numbers are zero before and after ✓
+- **Charge:** $$Q = 0$$ before and after ✓
+
+**Discussion**
+
+This two-photon decay is characteristic of the $${\eta}^{0}$$ being its own antiparticle. The particle-antiparticle pair (quark and antiquark) annihilate completely, converting all the rest mass into electromagnetic energy. The energy uncertainty of 1.31 keV is tiny compared to the total energy of 547.9 MeV (about 0.0002%), showing that the short lifetime introduces only a small uncertainty in the energy. This decay proceeds via the electromagnetic force, as evidenced by the photon production and the relatively short (but not extremely short) lifetime of $$2.53 \times 10^{-19}$$ s. Compare this to $${\pi}^{0} \to \gamma + \gamma$$ with an even shorter lifetime of $$8.4 \times 10^{-17}$$ s—both are electromagnetic decays of neutral mesons that are their own antiparticles.
 
 </div>
 </div>
@@ -966,6 +1063,38 @@ Is the decay  $$n\to {e}^{+}+{e}^{-} $$
  possible considering the appropriate conservation laws? State why or why not.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to check all relevant conservation laws: charge, baryon number, lepton family numbers, and energy.
+
+**Solution**
+
+**No, this decay is not possible.** It violates multiple conservation laws:
+
+**Charge conservation:**
+- Before: $$Q = 0$$ (neutron is neutral)
+- After: $$Q = +1 + (-1) = 0$$
+- Charge is conserved ✓ (but this alone isn't sufficient)
+
+**Baryon number conservation:**
+- Before: $$B = +1$$ (neutron is a baryon)
+- After: $$B = 0 + 0 = 0$$ (electrons are leptons, not baryons)
+- **Baryon number is NOT conserved** ✗
+
+**Electron family number ($$L_e$$):**
+- Before: $$L_e = 0$$ (neutron is not a lepton)
+- After: $$L_e = -1 + 1 = 0$$ (positron has $$L_e = -1$$, electron has $$L_e = +1$$)
+- Electron family number is conserved ✓ (but not enough)
+
+**Discussion**
+
+This decay violates baryon number conservation, which is one of the most fundamental conservation laws in particle physics. **Baryon number has never been observed to be violated in any experiment.** The neutron is a baryon ($$B = +1$$), and this quantum number must be preserved in any decay. Electrons and positrons are leptons ($$B = 0$$), so the final state has zero baryon number. This means a baryon would simply disappear, which is forbidden.
+
+The actual decay mode of a free neutron is $$n \to p + e^{-} + \overline{\nu}_e$$, which conserves baryon number (both neutron and proton have $$B = +1$$). Grand Unified Theories (GUTs) do predict extremely rare baryon number violation in processes like proton decay ($$p \to \pi^{0} + e^{+}$$), but with lifetimes exceeding $$10^{31}$$ years—far longer than the age of the universe. No such violation has ever been observed experimentally. The conservation of baryon number is why the total number of nucleons (protons plus neutrons) remains constant in nuclear reactions, a fact that was discovered long before the concept of baryon number was formulated.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -991,6 +1120,52 @@ No.  $$\text{Charge}=-1 $$
 (b) Write the decay in terms of the quark constituents of the particles.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll check all relevant conservation laws and examine the quark compositions. From the tables: $${\Lambda}^{0}$$ is _uds_, neutron _n_ is _udd_, and $${\pi}^{0}$$ is $$u\overline{u} + d\overline{d}$$.
+
+**Solution**
+
+(a) **Yes, this decay is possible.** Let's verify all conservation laws:
+
+**Charge:**
+- Before: $$Q = 0$$ ($${\Lambda}^{0}$$ is neutral)
+- After: $$Q = 0 + 0 = 0$$ (neutron and $${\pi}^{0}$$ are both neutral)
+- Charge is conserved ✓
+
+**Baryon number:**
+- Before: $$B = +1$$ ($${\Lambda}^{0}$$ is a baryon)
+- After: $$B = +1 + 0 = +1$$ (neutron is a baryon, pion is a meson)
+- Baryon number is conserved ✓
+
+**Strangeness:**
+- Before: $$S = -1$$ ($${\Lambda}^{0}$$ has one strange quark)
+- After: $$S = 0 + 0 = 0$$ (neither neutron nor $${\pi}^{0}$$ have strangeness)
+- **Strangeness changes by +1**, indicating weak force
+
+**Lepton numbers:**
+- All lepton family numbers are zero before and after ✓
+
+**Energy:**
+- $$m_{\Lambda^{0}} = 1115.7$$ MeV/$$c^2$$, $$m_n = 939.6$$ MeV/$$c^2$$, $$m_{\pi^{0}} = 135.0$$ MeV/$$c^2$$
+- Total final mass: $$939.6 + 135.0 = 1074.6$$ MeV/$$c^2$$ < $$1115.7$$ MeV/$$c^2$$
+- Energy is conserved (spontaneous decay, releases 41.1 MeV) ✓
+
+(b) In terms of quark constituents:
+
+<div class="equation">
+$$\text{uds} \to \text{udd} + (u\overline{u} + d\overline{d})$$
+</div>
+
+This shows that the strange quark changes to a down quark, consistent with the weak force: $$s \to d$$.
+
+**Discussion**
+
+This decay is allowed and does occur in nature, proceeding via the weak force. The key signature is the change in strangeness ($$\Delta S = +1$$), which can only occur through weak interactions. The quark-level process involves the strange quark transforming into a down quark via emission of a $$W^{+}$$ boson (the carrier of the weak force), which then creates quark-antiquark pairs that form the $${\pi}^{0}$$. The relatively long lifetime of the $${\Lambda}^{0}$$ ($$2.63 \times 10^{-10}$$ s) is characteristic of weak decay—much longer than strong force decays but shorter than typical beta decay. This is actually one of the dominant decay modes of the $${\Lambda}^{0}$$, occurring about 36% of the time. The energy release of 41.1 MeV is shared between the kinetic energies of the neutron and pion.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1012,6 +1187,29 @@ No.  $$\text{Charge}=-1 $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The only combination of quark colors that produces a white baryon is *RGB*. Identify all the color combinations that can produce a white meson.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Mesons consist of a quark-antiquark pair. For a meson to be "white" (color neutral), the antiquark must carry the anticolor of the quark's color. This is analogous to how a color and its complement make white in the RGB color model.
+
+**Solution**
+
+The color combinations that produce a white meson are:
+
+1. **Red quark + Antired antiquark:** $$R\overline{R}$$
+2. **Green quark + Antigreen antiquark:** $$G\overline{G}$$
+3. **Blue quark + Antiblue antiquark:** $$B\overline{B}$$
+
+**Discussion**
+
+In quantum chromodynamics (QCD), color charge works differently than regular electric charge. While baryons require all three colors (RGB) to be colorless (white), mesons achieve color neutrality through color-anticolor pairs. This is similar to how a particle and its antiparticle have opposite charges that cancel. The three combinations listed above are the only ways to make a colorless meson.
+
+It's important to note that "color" in QCD is just a label for a type of charge—quarks don't actually have visible color. The terminology comes from the mathematical similarity to how red, green, and blue light combine to make white light. Just as RGB combine to white, the three color charges in a baryon combine to be colorless. And just as red light plus "anti-red" (cyan) makes white, a red quark plus an antired antiquark makes a colorless meson.
+
+This color neutrality requirement is fundamental to quark confinement—all observable hadrons must be color neutral ("white"). Individual colored quarks or gluons cannot exist in isolation, which is why we never observe free quarks despite their being the fundamental constituents of matter. Any meson in nature will be in one of these three color states (though quantum mechanically, it's actually a superposition of all three), ensuring it remains colorless and observable.
 
 </div>
 </div>
@@ -1040,6 +1238,46 @@ mixtures of quarks (as for the π-meson) as well.
 (b) What is the analogous decay process for the antiproton?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll check baryon number and lepton family number conservation for this conjectured decay predicted by Grand Unified Theories (GUTs).
+
+**Solution**
+
+(a) **Baryon number violation:**
+- Before: $$B = +1$$ (proton is a baryon)
+- After: $$B = 0 + 0 = 0$$ ($${\pi}^{0}$$ is a meson, $$e^{+}$$ is a lepton)
+- **Baryon number changes from +1 to 0** (violated by 1 unit) ✗
+
+**Electron family number violation:**
+- Before: $$L_e = 0$$ (proton is not a lepton)
+- After: $$L_e = -1 + 0 = -1$$ (positron has $$L_e = -1$$, $${\pi}^{0}$$ has $$L_e = 0$$)
+- **Electron family number changes from 0 to -1** (violated by 1 unit) ✗
+
+Note that charge IS conserved: $$Q = +1$$ before and $$Q = 0 + 1 = +1$$ after.
+
+(b) For the antiproton, the analogous decay would be:
+
+<div class="equation">
+$$\overline{p} \to {\pi}^{0} + e^{-}$$
+</div>
+
+In this case:
+- Baryon number: $$B = -1 \to 0$$ (violation)
+- Electron family number: $$L_e = 0 \to +1$$ (violation)
+- Charge: $$Q = -1 \to 0 + (-1) = -1$$ (conserved)
+
+**Discussion**
+
+This hypothetical proton decay is forbidden by the conservation laws that have been observed to hold in all experiments to date. However, **Grand Unified Theories predict that baryon and lepton number conservation are not absolute** at extremely high energies where the forces unify. GUTs predict proton lifetimes of about $$10^{31}$$ years or longer—far exceeding the age of the universe ($$\sim 10^{10}$$ years).
+
+Extensive experiments have searched for proton decay using huge tanks of water instrumented with detectors. Despite monitoring trillions of protons for years, no confirmed proton decay has been observed, placing the experimental lower limit on the proton lifetime at greater than $$5 \times 10^{32}$$ years. This doesn't disprove GUTs but does constrain their parameters.
+
+If protons could decay rapidly, all matter would be unstable—atoms would disintegrate, and the universe as we know it couldn't exist. The extraordinary stability of the proton (and hence all atomic nuclei) is one of the most important facts about our universe. The search for proton decay continues, as observing it would be revolutionary evidence for grand unification and would fundamentally change our understanding of matter's ultimate fate.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1056,6 +1294,65 @@ Verify the quantum numbers given for the  $${\Omega }^{+} $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify the quantum numbers given for the proton and neutron in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2) by adding the quantum numbers for their quark constituents as given in [[Table 2]](#Table2).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll add the quantum numbers (charge $$Q$$, baryon number $$B$$, and strangeness $$S$$) for the constituent quarks of the proton (_uud_) and neutron (_udd_), using values from [[Table 1]](#Table1) in this section.
+
+**Solution**
+
+**Proton (p = uud):**
+
+From [[Table 1]](#Table1), for each quark:
+- Up quark (u): $$Q = +\frac{2}{3}q_e$$, $$B = +\frac{1}{3}$$, $$S = 0$$
+- Down quark (d): $$Q = -\frac{1}{3}q_e$$, $$B = +\frac{1}{3}$$, $$S = 0$$
+
+For the proton (two up quarks, one down quark):
+
+<div class="equation">
+$$Q_p = \frac{2}{3} + \frac{2}{3} - \frac{1}{3} = \frac{3}{3} = +1 \text{ (in units of } q_e \text{)}$$
+</div>
+
+<div class="equation">
+$$B_p = \frac{1}{3} + \frac{1}{3} + \frac{1}{3} = +1$$
+</div>
+
+<div class="equation">
+$$S_p = 0 + 0 + 0 = 0$$
+</div>
+
+Lepton numbers: $$L_e = L_{\mu} = L_{\tau} = 0$$ (quarks are not leptons)
+
+These match the values in the particle tables: $$Q = +1$$, $$B = +1$$, $$S = 0$$ ✓
+
+**Neutron (n = udd):**
+
+For the neutron (one up quark, two down quarks):
+
+<div class="equation">
+$$Q_n = \frac{2}{3} - \frac{1}{3} - \frac{1}{3} = 0$$
+</div>
+
+<div class="equation">
+$$B_n = \frac{1}{3} + \frac{1}{3} + \frac{1}{3} = +1$$
+</div>
+
+<div class="equation">
+$$S_n = 0 + 0 + 0 = 0$$
+</div>
+
+Lepton numbers: $$L_e = L_{\mu} = L_{\tau} = 0$$
+
+These match the values in the particle tables: $$Q = 0$$, $$B = +1$$, $$S = 0$$ ✓
+
+**Discussion**
+
+This verification demonstrates the power of the quark model. The quantum numbers of composite particles (hadrons) are simply the sums of their constituent quark quantum numbers. The fractional charges of quarks ($$\pm\frac{2}{3}q_e$$ and $$\mp\frac{1}{3}q_e$$) combine to give integral charges for all observable particles—this was initially a radical proposal by Gell-Mann and Zweig, but it has been completely vindicated by experiment.
+
+The difference between a proton and neutron is simply one quark: swapping one up quark for a down quark changes the charge from +1 to 0, converting a proton into a neutron. This is exactly what happens in beta-minus decay at the quark level: $$d \to u + e^{-} + \overline{\nu}_e$$. The fact that both have $$B = +1$$ explains why baryon number is conserved in nuclear reactions—at the quark level, the number of quarks minus antiquarks remains constant. This beautifully explains the empirical observation that the total number of nucleons is conserved in nuclear reactions and decays.
 
 </div>
 </div>
@@ -1091,6 +1388,49 @@ energy.
 (b) Do the same for the $$\Upsilon $$ particle.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From [[Table 2]](#Table2), the $$J/\Psi$$ has quark composition $$c\overline{c}$$ (charm-anticharm) and the $$\Upsilon$$ has composition $$b\overline{b}$$ (bottom-antibottom). We'll add the quantum numbers from [[Table 1]](#Table1).
+
+**Solution**
+
+(a) **$$J/\Psi$$ particle ($$c\overline{c}$$):**
+
+From [[Table 1]](#Table1):
+- Charm quark (c): $$Q = +\frac{2}{3}q_e$$, $$B = +\frac{1}{3}$$, $$S = 0$$, $$c = +1$$, $$b = 0$$
+- Anticharm quark ($$\overline{c}$$): $$Q = -\frac{2}{3}q_e$$, $$B = -\frac{1}{3}$$, $$S = 0$$, $$c = -1$$, $$b = 0$$
+
+For $$J/\Psi$$:
+- **Charge:** $$Q = +\frac{2}{3} - \frac{2}{3} = 0$$
+- **Baryon number:** $$B = +\frac{1}{3} - \frac{1}{3} = 0$$
+- **Strangeness:** $$S = 0 + 0 = 0$$
+- **Charm:** $$c = +1 - 1 = 0$$
+- **Bottomness:** $$b = 0 + 0 = 0$$
+
+(b) **$$\Upsilon$$ particle ($$b\overline{b}$$):**
+
+From [[Table 1]](#Table1):
+- Bottom quark (b): $$Q = -\frac{1}{3}q_e$$, $$B = +\frac{1}{3}$$, $$S = 0$$, $$c = 0$$, $$b = -1$$
+- Antibottom quark ($$\overline{b}$$): $$Q = +\frac{1}{3}q_e$$, $$B = -\frac{1}{3}$$, $$S = 0$$, $$c = 0$$, $$b = +1$$
+
+For $$\Upsilon$$:
+- **Charge:** $$Q = -\frac{1}{3} + \frac{1}{3} = 0$$
+- **Baryon number:** $$B = +\frac{1}{3} - \frac{1}{3} = 0$$
+- **Strangeness:** $$S = 0 + 0 = 0$$
+- **Charm:** $$c = 0 + 0 = 0$$
+- **Bottomness:** $$b = -1 + 1 = 0$$
+
+**Discussion**
+
+Both the $$J/\Psi$$ and $$\Upsilon$$ are examples of **hidden flavor mesons**—they contain a heavy quark and its own antiquark, so the net flavor quantum number is zero. Despite being made of charmed quarks, the $$J/\Psi$$ has zero net charm; similarly, the $$\Upsilon$$ has zero net bottomness.
+
+These particles are particularly important in particle physics history. The $$J/\Psi$$ (discovered independently by two teams in 1974, hence the double name) was the first particle containing charm quarks to be discovered, providing crucial evidence for the quark model and specifically for the existence of the charm quark. Its discovery is known as the "November Revolution" in particle physics and led to Nobel Prizes for Burton Richter and Samuel Ting in 1976.
+
+The $$\Upsilon$$ (discovered in 1977) similarly provided the first evidence for the existence of the bottom quark. Both particles are relatively long-lived for their masses because their decay requires the annihilation of the heavy quark-antiquark pair or a flavor-changing weak interaction. These particles and their excited states have been extensively studied and provide a testing ground for quantum chromodynamics (QCD), analogous to how hydrogen atom spectroscopy tested quantum electrodynamics (QED).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1110,6 +1450,45 @@ There are particles called *D*-mesons. One of them is the  $${D}^{+} $$
 There are particles called bottom mesons or *B*-mesons. One of them is the  $${B}^{-} $$
  meson, which has a single negative charge; its baryon number is zero, as are its strangeness, charm, and topness. It has a bottomness of  $$-1 $$ .
  What is its quark configuration?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to find a quark-antiquark combination (since it's a meson with $$B = 0$$) that gives $$Q = -1$$, $$S = 0$$, $$c = 0$$, $$t = 0$$, and $$b = -1$$. From [[Table 1]](#Table1), the bottom quark has $$b = -1$$.
+
+**Solution**
+
+Since the $${B}^{-}$$ has bottomness $$b = -1$$, it must contain one bottom quark. From [[Table 1]](#Table1), the bottom quark has:
+- $$Q = -\frac{1}{3}q_e$$
+- $$b = -1$$
+
+To make a meson with total charge $$Q = -1$$, we need an antiquark with charge $$-\frac{2}{3}q_e$$. The only antiquark with this charge is the anti-up quark ($$\overline{u}$$), which has:
+- $$Q = -\frac{2}{3}q_e$$
+- $$S = 0$$, $$c = 0$$, $$b = 0$$, $$t = 0$$
+
+The quark configuration is:
+
+<div class="equation">
+$${B}^{-} = b\overline{u}$$
+</div>
+
+**Verification:**
+- Charge: $$Q = -\frac{1}{3} - \frac{2}{3} = -1$$ ✓
+- Baryon number: $$B = +\frac{1}{3} - \frac{1}{3} = 0$$ ✓
+- Strangeness: $$S = 0 + 0 = 0$$ ✓
+- Charm: $$c = 0 + 0 = 0$$ ✓
+- Topness: $$t = 0 + 0 = 0$$ ✓
+- Bottomness: $$b = -1 + 0 = -1$$ ✓
+
+**Discussion**
+
+The $${B}^{-}$$ meson consists of a bottom quark and an anti-up antiquark. This is an example of an "open flavor" meson, where the heavy quark (bottom) is paired with a light antiquark rather than with its own antiparticle. Unlike the $$\Upsilon$$ particle ($$b\overline{b}$$) which has hidden bottom, the $${B}^{-}$$ has explicit bottomness of -1.
+
+B-mesons are particularly important in modern particle physics research. They are produced copiously in particle colliders and are extensively studied in dedicated "B-factory" experiments like BaBar and Belle. These experiments have made precise measurements of CP violation (matter-antimatter asymmetry) in B-meson decays, helping to explain why our universe contains more matter than antimatter. The 2008 Nobel Prize in Physics was awarded to Kobayashi and Maskawa for their work predicting CP violation in systems with three or more generations of quarks, which was confirmed through B-meson studies.
+
+The $${B}^{-}$$ meson has a relatively long lifetime for a particle containing a heavy quark (about $$1.6 \times 10^{-12}$$ s) because its decay requires a flavor-changing weak interaction where the bottom quark transforms into a charm or up quark. This long lifetime allows B-mesons to travel measurable distances before decaying, enabling detailed study of their decay properties.
 
 </div>
 </div>
@@ -1135,6 +1514,103 @@ b) $$\stackrel{-}{p}\to {\pi }^{0}+{e}^{-} $$
 
 (b) Show that all combinations of a quark and an antiquark produce only integral
 charges. Thus mesons must have integral charge.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Quarks have charges of $$+\frac{2}{3}q_e$$ (up-type: u, c, t) or $$-\frac{1}{3}q_e$$ (down-type: d, s, b). Antiquarks have opposite charges. We'll show that all possible combinations yield integral multiples of $$q_e$$.
+
+**Solution**
+
+(a) **Baryons (three quarks):**
+
+For three quarks, we can have different combinations of up-type ($$Q = +\frac{2}{3}$$) and down-type ($$Q = -\frac{1}{3}$$) quarks:
+
+**Case 1: Three up-type quarks**
+
+<div class="equation">
+$$Q = +\frac{2}{3} + \frac{2}{3} + \frac{2}{3} = +\frac{6}{3} = +2$$
+</div>
+
+Example: $$\Delta^{++}$$ = uuu has charge +2 ✓
+
+**Case 2: Two up-type, one down-type**
+
+<div class="equation">
+$$Q = +\frac{2}{3} + \frac{2}{3} - \frac{1}{3} = +\frac{3}{3} = +1$$
+</div>
+
+Example: proton = uud has charge +1 ✓
+
+**Case 3: One up-type, two down-type**
+
+<div class="equation">
+$$Q = +\frac{2}{3} - \frac{1}{3} - \frac{1}{3} = 0$$
+</div>
+
+Example: neutron = udd has charge 0 ✓
+
+**Case 4: Three down-type quarks**
+
+<div class="equation">
+$$Q = -\frac{1}{3} - \frac{1}{3} - \frac{1}{3} = -\frac{3}{3} = -1$$
+</div>
+
+Example: $$\Omega^{-}$$ = sss has charge -1 ✓
+
+**All combinations give integral charges: +2, +1, 0, or -1.**
+
+(b) **Mesons (quark-antiquark pair):**
+
+Antiquarks have charges $$-\frac{2}{3}q_e$$ (anti-up-type) or $$+\frac{1}{3}q_e$$ (anti-down-type).
+
+**Case 1: Up-type quark + anti-up-type antiquark**
+
+<div class="equation">
+$$Q = +\frac{2}{3} - \frac{2}{3} = 0$$
+</div>
+
+Example: $$J/\Psi = c\overline{c}$$ has charge 0 ✓
+
+**Case 2: Up-type quark + anti-down-type antiquark**
+
+<div class="equation">
+$$Q = +\frac{2}{3} + \frac{1}{3} = +\frac{3}{3} = +1$$
+</div>
+
+Example: $$\pi^{+} = u\overline{d}$$ has charge +1 ✓
+
+**Case 3: Down-type quark + anti-up-type antiquark**
+
+<div class="equation">
+$$Q = -\frac{1}{3} - \frac{2}{3} = -\frac{3}{3} = -1$$
+</div>
+
+Example: $$\pi^{-} = \overline{u}d$$ has charge -1 ✓
+
+**Case 4: Down-type quark + anti-down-type antiquark**
+
+<div class="equation">
+$$Q = -\frac{1}{3} + \frac{1}{3} = 0$$
+</div>
+
+Example: $$\pi^{0} = d\overline{d}$$ (partial composition) has charge 0 ✓
+
+**All combinations give integral charges: +1, 0, or -1.**
+
+**Discussion**
+
+This elegant result shows that despite quarks having fractional electric charges ($$\pm\frac{1}{3}q_e$$ and $$\pm\frac{2}{3}q_e$$), all observable composite particles—baryons and mesons—must have integral charges. This is a consequence of:
+
+1. **Color confinement:** Only color-neutral ("white") combinations can exist as free particles
+2. **Baryons must have three quarks** (to combine RGB colors)
+3. **Mesons must have quark-antiquark pairs** (color-anticolor)
+
+The fact that we only observe integral charges in nature was originally one of the objections to the quark model when it was first proposed. How could particles with fractional charges combine to make only integral charges? The answer is that fractional charges are confined—free quarks cannot exist in isolation. The combinations that CAN exist (three quarks or quark-antiquark) automatically produce integral charges.
+
+This also explains why we've never observed a particle with charge $$+\frac{1}{3}q_e$$ or $$+\frac{2}{3}q_e$$—such charges would require an isolated quark, which is forbidden by confinement. The elementary charge $$q_e$$ remains the smallest observed unit of charge, even though quarks have smaller fractional charges. This beautiful consistency of the quark model with observed phenomena is one of many pieces of evidence supporting it.
 
 </div>
 </div>
