@@ -1013,30 +1013,71 @@ body {
   overflow: hidden; /* Hide scrollbars */
 }
 
-/* PDF Download Button */
-.book .book-body .pdf-download-btn {
+/* Dark Mode Toggle Button */
+.book .book-body .dark-mode-toggle {
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c0392b;
+  background-color: #34495e;
   color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 250ms ease;
+  z-index: 1000;
+}
+
+.book .book-body .dark-mode-toggle:hover {
+  background-color: #4a5f7f;
+  transform: scale(1.05);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.book .book-body .dark-mode-toggle:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .book .book-body .dark-mode-toggle {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* PDF Download Button - Made smaller and less prominent */
+.book .book-body .pdf-download-btn {
+  position: absolute;
+  top: 20px;
+  right: 70px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7f8c8d;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   transition: all 250ms ease;
   z-index: 1000;
 }
 
 .book .book-body .pdf-download-btn:hover {
-  background-color: #e74c3c;
+  background-color: #95a5a6;
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
   text-decoration: none;
   color: white;
 }
@@ -1047,12 +1088,289 @@ body {
 
 @media (max-width: 768px) {
   .book .book-body .pdf-download-btn {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
     top: 10px;
-    right: 10px;
+    right: 55px;
   }
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .book {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-summary {
+  background-color: #2d2d2d;
+  border-right: 1px solid #404040;
+}
+
+body.dark-mode .book.with-summary .toggle-summary {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-summary ul.summary li.part {
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-summary ul.summary li a {
+  color: #b0b0b0;
+}
+
+body.dark-mode .book .book-summary ul.summary li a:hover {
+  color: #ffffff;
+}
+
+body.dark-mode .book .book-summary ul.summary li.chapter::before {
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-summary ul.summary li.chapter > ol > li::before {
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-body {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-body .page-wrapper .page-inner section.normal {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-body .navigation {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode .book .book-body .navigation:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+body.dark-mode .page-title {
+  color: #7b9ff5;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .header-link:hover {
+  color: #ffffff !important;
+}
+
+body.dark-mode a {
+  color: #6ba3ff;
+}
+
+body.dark-mode a:hover {
+  color: #89b8ff;
+}
+
+body.dark-mode code {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border: 1px solid #404040;
+}
+
+body.dark-mode pre {
+  background-color: #2d2d2d;
+  border: 1px solid #404040;
+}
+
+body.dark-mode pre code {
+  background-color: transparent;
+  border: none;
+}
+
+body.dark-mode .abstract {
+  background-color: #2a3344;
+  color: #e0e0e0;
+}
+
+body.dark-mode .abstract::before {
+  color: #b0b0b0;
+}
+
+body.dark-mode .glossary {
+  background-color: #3a3f4a;
+}
+
+body.dark-mode .glossary-title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .note {
+  background-color: #2d2d2d;
+}
+
+body.dark-mode .note:not([data-label]).ui-has-child-title > header > .title,
+body.dark-mode .note:not([data-label]).ui-has-child-title > .title,
+body.dark-mode .note:not([data-label]):not(.ui-has-child-title)::before,
+body.dark-mode .note[data-label=''].ui-has-child-title > header > .title,
+body.dark-mode .note[data-label=''].ui-has-child-title > .title,
+body.dark-mode .note[data-label='']:not(.ui-has-child-title)::before,
+body.dark-mode .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+body.dark-mode .note[data-label]:not([data-label='']).ui-has-child-title > .title,
+body.dark-mode .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+  color: #b0b0b0;
+}
+
+body.dark-mode .book .book-body .page-wrapper .page-inner .note > section {
+  background-color: #2d2d2d;
+  border-top-color: #505050;
+}
+
+body.dark-mode .example:not([data-label]).ui-has-child-title > header > .title,
+body.dark-mode .example[data-label=''].ui-has-child-title > header > .title,
+body.dark-mode .example[data-label]:not([data-label='']).ui-has-child-title > header > .title {
+  background-color: #404040;
+  color: #e0e0e0;
+}
+
+body.dark-mode .example:not([data-label]):not(.ui-has-child-title)::before,
+body.dark-mode .example[data-label='']:not(.ui-has-child-title)::before,
+body.dark-mode .example[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
+  background-color: #404040;
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-body .page-wrapper .page-inner .example > section {
+  background-color: #2d2d2d;
+  border-top-color: #505050;
+}
+
+body.dark-mode .exercise:not([data-label]).ui-has-child-title > header > .title,
+body.dark-mode .exercise[data-label=''].ui-has-child-title > header > .title,
+body.dark-mode .exercise[data-label=''].ui-has-child-title > .title {
+  background-color: #404040;
+  color: #e0e0e0;
+}
+
+body.dark-mode .exercise:not([data-label]):not(.ui-has-child-title)::before,
+body.dark-mode .exercise[data-label='']:not(.ui-has-child-title)::before {
+  background-color: #404040;
+  color: #e0e0e0;
+}
+
+body.dark-mode .book .book-body .page-wrapper .page-inner .exercise > section {
+  background-color: #2d2d2d;
+  border-top-color: #505050;
+}
+
+body.dark-mode .example .solution,
+body.dark-mode .exercise .solution {
+  border-top-color: #505050;
+}
+
+body.dark-mode table {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark-mode table th {
+  background-color: #404040;
+  color: #e0e0e0;
+  border-color: #505050;
+}
+
+body.dark-mode table td {
+  border-color: #505050;
+}
+
+body.dark-mode blockquote {
+  border-left-color: #505050;
+  color: #b0b0b0;
+}
+
+body.dark-mode :target {
+  background-color: #3a3a00;
+}
+
+body.dark-mode .book-search {
+  background-color: #2d2d2d;
+  border-bottom-color: #404040;
+}
+
+body.dark-mode .search-input {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-color: #404040;
+}
+
+body.dark-mode .search-input::placeholder {
+  color: #666;
+}
+
+body.dark-mode .search-input:focus {
+  border-color: #6ba3ff;
+}
+
+body.dark-mode .search-clear {
+  color: #b0b0b0;
+}
+
+body.dark-mode .search-clear:hover {
+  color: #e0e0e0;
+}
+
+body.dark-mode .search-results {
+  background-color: #2d2d2d;
+  border-color: #404040;
+}
+
+body.dark-mode .search-results-header {
+  background-color: #1a1a1a;
+  border-bottom-color: #404040;
+  color: #b0b0b0;
+}
+
+body.dark-mode .search-result-link {
+  color: #e0e0e0;
+}
+
+body.dark-mode .search-result-link:hover {
+  background-color: #404040;
+}
+
+body.dark-mode .search-result-title {
+  color: #6ba3ff;
+}
+
+body.dark-mode .search-result-link:hover .search-result-title {
+  color: #89b8ff;
+}
+
+body.dark-mode .search-result-preview {
+  color: #b0b0b0;
+}
+
+body.dark-mode .search-message {
+  color: #b0b0b0;
+}
+
+body.dark-mode .btn-link {
+  background: #404040 linear-gradient(to bottom, #404040 5%, #2d2d2d 100%);
+  border-color: #505050;
+  color: #e0e0e0;
+  text-shadow: 0 1px 0 #000000;
+}
+
+body.dark-mode .btn-link:hover {
+  background: #2d2d2d linear-gradient(to bottom, #2d2d2d 5%, #404040 100%);
 }
 
 /* End Gitbook CSS */
