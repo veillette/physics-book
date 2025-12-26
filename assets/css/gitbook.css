@@ -1300,6 +1300,27 @@ body.dark-mode :target {
   background-color: #3a3a00;
 }
 
+body.dark-mode figure {
+  border-color: #404040;
+}
+
+body.dark-mode figcaption {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark-mode mark {
+  background-color: #5a5000;
+  color: #ffeb3b;
+}
+
+body.dark-mode .example[data-element-type='problems-exercises'] .problem::before,
+body.dark-mode .exercise[data-element-type='problems-exercises'] .problem::before,
+body.dark-mode .example[data-element-type='problems-exercises'] .solution::before,
+body.dark-mode .exercise[data-element-type='problems-exercises'] .solution::before {
+  color: #b0b0b0;
+}
+
 body.dark-mode .book-search {
   background-color: #2d2d2d;
   border-bottom-color: #404040;
