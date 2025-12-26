@@ -130,7 +130,7 @@ this.miniSearch = MiniSearch.loadJSON(data.index, {
 
 ### Customizing UI
 
-Edit `assets/css/styles.css` under the "Search UI Styles" section to customize:
+Edit `assets/css/theme.css` under the "Search UI Styles" section to customize:
 
 - Colors
 - Spacing
