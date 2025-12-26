@@ -629,6 +629,22 @@ Identify the shell, subshell, and number of electrons for the following: (a)  $$
  (d)  $$5{g}^{16} $$.
 
 </div>
+<div class="solution" markdown="1">
+**Solution**
+
+(a) $$2{p}^{3} $$ : Shell $$n=2 $$ , subshell $$p $$ (which means $$l=1 $$ ), 3 electrons.
+
+(b) $$4{d}^{9} $$ : Shell $$n=4 $$ , subshell $$d $$ (which means $$l=2 $$ ), 9 electrons.
+
+(c) $$3{s}^{1} $$ : Shell $$n=3 $$ , subshell $$s $$ (which means $$l=0 $$ ), 1 electron.
+
+(d) $$5{g}^{16} $$ : Shell $$n=5 $$ , subshell $$g $$ (which means $$l=4 $$ ), 16 electrons.
+
+**Discussion**
+
+In spectroscopic notation $$\text{nl}^{x} $$ , the number gives the principal quantum number $$n $$ (the shell), the letter gives the orbital angular momentum quantum number $$l $$ (the subshell: $$s, p, d, f, g, h... $$ correspond to $$l=0, 1, 2, 3, 4, 5... $$ ), and the superscript gives the number of electrons in that subshell.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -637,6 +653,18 @@ Which of the following are not allowed? State which rule is violated for any tha
  (b)  $$2{p}^{8} $$
 (c)  $$3{g}^{11} $$
  (d)  $$4{f}^{2} $$
+</div>
+<div class="solution" markdown="1">
+**Solution**
+
+(a) $$1{p}^{3} $$ is **not allowed**. For $$n=1 $$ , the only allowed value of $$l $$ is $$l=0 $$ (the $$s $$ subshell). The rule $$l<n $$ is violated, since $$p $$ corresponds to $$l=1 $$ , but $$l $$ must be less than $$n=1 $$ .
+
+(b) $$2{p}^{8} $$ is **not allowed**. The $$p $$ subshell has $$l=1 $$ , so it can hold a maximum of $$2\left(2l+1\right)=2\left(2\cdot 1+1\right)=6 $$ electrons. Having 8 electrons exceeds this maximum.
+
+(c) $$3{g}^{11} $$ is **not allowed**. For $$n=3 $$ , the maximum value of $$l $$ is $$l=n-1=2 $$ (the $$d $$ subshell). The $$g $$ subshell corresponds to $$l=4 $$ , which violates the rule $$l<n $$ .
+
+(d) $$4{f}^{2} $$ is **allowed**. For $$n=4 $$ , $$l $$ can range from 0 to 3. The $$f $$ subshell corresponds to $$l=3 $$ , which satisfies $$l<n $$ . The $$f $$ subshell can hold up to $$2\left(2l+1\right)=2\left(2\cdot 3+1\right)=14 $$ electrons, so having 2 electrons is allowed.
+
 </div>
 </div>
 
@@ -665,6 +693,27 @@ Which of the following are not allowed? State which rule is violated for any tha
 notation for this atom?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The maximum number of electrons that can occupy a subshell is given by $$2\left(2l+1\right) $$ . We need to find the minimum value of $$l $$ such that this maximum is at least 11.
+
+**Solution**
+
+(a) We need $$2\left(2l+1\right)\ge 11 $$ . Solving for $$l $$ :
+
+<div class="equation" >
+ $$\begin{array}{l}2\left(2l+1\right)\ge 11\\ 2l+1\ge 5.5\\ 2l\ge 4.5\\ l\ge 2.25\end{array} $$
+</div>
+Since $$l $$ must be an integer, the minimum value is $$l=3 $$ . We can verify: $$2\left(2\cdot 3+1\right)=2\left(7\right)=14 $$ electrons maximum, which can indeed hold 11 electrons. Note that $$l=2 $$ would only allow $$2\left(2\cdot 2+1\right)=10 $$ electrons, which is insufficient.
+
+(b) For $$n=5 $$ and $$l=3 $$ , the subshell is $$f $$ (since $$l=3 $$ corresponds to the $$f $$ subshell). The spectroscopic notation is $$5{f}^{11} $$ .
+
+**Discussion**
+
+This problem illustrates how the Pauli exclusion principle limits the number of electrons in each subshell. The $$f $$ subshell ( $$l=3 $$ ) is the smallest subshell that can accommodate 11 electrons. This is relevant for understanding the electron configurations of heavy elements in the lanthanide and actinide series, where $$f $$ orbitals begin to fill.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -689,6 +738,59 @@ notation for this atom?
 
 (b) Show that the number of electrons in the shell equals $$2{n}^{2} $$ and that
 the number in each subshell is $$2\left(2l+1\right) $$.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For $$n=3 $$ , the allowed values of $$l $$ are $$0, 1, $$ and $$2 $$ (corresponding to $$3s, 3p, $$ and $$3d $$ subshells). For each value of $$l $$ , $${m}_{l} $$ ranges from $$-l $$ to $$+l $$ , and $${m}_{s} $$ can be $$±1/2 $$ .
+
+**Solution**
+
+(a) The complete list of quantum numbers for the $$n=3 $$ shell:
+
+**3s subshell** ( $$l=0 $$ ):
+- $$\left(3, 0, 0, +1/2\right) $$
+- $$\left(3, 0, 0, -1/2\right) $$
+
+Total: 2 electrons in $$3s $$
+
+**3p subshell** ( $$l=1 $$ ):
+- $$\left(3, 1, -1, +1/2\right) $$
+- $$\left(3, 1, -1, -1/2\right) $$
+- $$\left(3, 1, 0, +1/2\right) $$
+- $$\left(3, 1, 0, -1/2\right) $$
+- $$\left(3, 1, +1, +1/2\right) $$
+- $$\left(3, 1, +1, -1/2\right) $$
+
+Total: 6 electrons in $$3p $$
+
+**3d subshell** ( $$l=2 $$ ):
+- $$\left(3, 2, -2, +1/2\right) $$
+- $$\left(3, 2, -2, -1/2\right) $$
+- $$\left(3, 2, -1, +1/2\right) $$
+- $$\left(3, 2, -1, -1/2\right) $$
+- $$\left(3, 2, 0, +1/2\right) $$
+- $$\left(3, 2, 0, -1/2\right) $$
+- $$\left(3, 2, +1, +1/2\right) $$
+- $$\left(3, 2, +1, -1/2\right) $$
+- $$\left(3, 2, +2, +1/2\right) $$
+- $$\left(3, 2, +2, -1/2\right) $$
+
+Total: 10 electrons in $$3d $$
+
+**Total electrons in $$n=3 $$ shell**: $$2+6+10=18 $$
+
+(b) For each subshell, we can verify $$2\left(2l+1\right) $$ :
+- $$3s $$ : $$2\left(2\cdot 0+1\right)=2\left(1\right)=2 $$ ✓
+- $$3p $$ : $$2\left(2\cdot 1+1\right)=2\left(3\right)=6 $$ ✓
+- $$3d $$ : $$2\left(2\cdot 2+1\right)=2\left(5\right)=10 $$ ✓
+
+For the entire shell: $$2{n}^{2}=2{\left(3\right)}^{2}=2\left(9\right)=18 $$ ✓
+
+**Discussion**
+
+This systematic enumeration demonstrates how the Pauli exclusion principle limits electron capacity. Each unique set of quantum numbers can hold exactly one electron. The factor of 2 in $$2\left(2l+1\right) $$ comes from the two possible spin states ( $${m}_{s}=±1/2 $$ ), while $$2l+1 $$ represents the number of possible $${m}_{l} $$ values for a given $$l $$ . The formula $$2{n}^{2} $$ emerges from summing over all possible $$l $$ values for a given $$n $$ .
 
 </div>
 </div>
@@ -719,6 +821,28 @@ Which of the following spectroscopic notations are allowed (that is, which viola
 (c)  $$4{s}^{2} $$
 (d)  $$3{p}^{7} $$
 (e)  $$6{h}^{20} $$
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For each notation, we must check two conditions: (1) $$l<n $$ , and (2) the number of electrons does not exceed $$2\left(2l+1\right) $$ for that subshell.
+
+**Solution**
+
+(a) $$1{s}^{1} $$ is **allowed**. For $$n=1 $$ , we can have $$l=0 $$ ( $$s $$ subshell). The maximum number of electrons is $$2\left(2\cdot 0+1\right)=2 $$ , so having 1 electron is allowed.
+
+(b) $$1{d}^{3} $$ is **not allowed**. The $$d $$ subshell corresponds to $$l=2 $$ . For $$n=1 $$ , the maximum value of $$l $$ is $$n-1=0 $$ . Since $$l=2>n=1 $$ violates the rule $$l<n $$ , this configuration is forbidden.
+
+(c) $$4{s}^{2} $$ is **allowed**. For $$n=4 $$ , we can have $$l=0 $$ ( $$s $$ subshell). The maximum number of electrons is $$2\left(2\cdot 0+1\right)=2 $$ , so having 2 electrons exactly fills this subshell.
+
+(d) $$3{p}^{7} $$ is **not allowed**. The $$p $$ subshell has $$l=1 $$ , which is allowed for $$n=3 $$ . However, the maximum number of electrons in a $$p $$ subshell is $$2\left(2\cdot 1+1\right)=6 $$ . Having 7 electrons exceeds this limit.
+
+(e) $$6{h}^{20} $$ is **allowed**. The $$h $$ subshell corresponds to $$l=5 $$ . For $$n=6 $$ , the maximum value of $$l $$ is $$n-1=5 $$ , so $$l=5 $$ is allowed. The maximum number of electrons is $$2\left(2\cdot 5+1\right)=2\left(11\right)=22 $$ , so having 20 electrons is within the limit.
+
+**Discussion**
+
+The allowed configurations are **(a), (c), and (e)**. This problem reinforces the two fundamental constraints on electron configurations: the orbital angular momentum quantum number must satisfy $$l\le n-1 $$ , and the number of electrons in a subshell cannot exceed $$2\left(2l+1\right) $$ . These constraints arise directly from the Pauli exclusion principle and the rules governing quantum numbers.
+
 </div>
 </div>
 
@@ -767,6 +891,33 @@ it to be a sphere 1.2 fm in diameter. Compare your result with the value
 estimated in this chapter.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We can estimate nuclear density by treating a proton as a sphere with diameter $$d=1.2 \text{ fm}=1.2\times 10^{-15} \text{ m} $$ . The density is $$\rho =m/V $$ , where the mass of a proton is $${m}_{p}=1.67\times 10^{-27} \text{ kg} $$ and the volume is $$V=\frac{4}{3}\pi {r}^{3} $$ .
+
+**Solution**
+
+The radius of the proton is:
+
+<div class="equation" >
+ $$r=\frac{d}{2}=\frac{1.2\times 10^{-15} \text{ m}}{2}= 6.0\times 10^{-16} \text{ m} $$
+</div>
+The volume is:
+
+<div class="equation" >
+ $$V=\frac{4}{3}\pi {r}^{3}=\frac{4}{3}\pi {\left( 6.0\times 10^{-16} \text{ m}\right)}^{3}= 9.05\times 10^{-46} {\text{ m}}^{3} $$
+</div>
+The density is:
+
+<div class="equation" >
+ $$\rho =\frac{m}{V}=\frac{1.67\times 10^{-27} \text{ kg}}{ 9.05\times 10^{-46} {\text{ m}}^{3}}= 1.8\times 10^{17} \text{ kg/}{\text{m}}^{3} $$
+</div>
+**Discussion**
+
+This density is extraordinarily large—about $$10^{14} $$ times greater than the density of water ( $$10^{3} \text{ kg/}{\text{m}}^{3} $$ ) or solid matter ( $$\sim 10^{4} \text{ kg/}{\text{m}}^{3} $$ ). This result is typical of nuclear densities and demonstrates that nuclei are incredibly compact objects. All atomic nuclei have approximately the same density because they are composed of closely packed nucleons (protons and neutrons). This uniform density is a key feature of the nuclear structure and validates the liquid drop model of the nucleus.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -796,6 +947,39 @@ order?
 (c) At what angle will the second-order maximum be for the first line?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The diffraction grating equation is $$d\sin\theta =m\lambda $$ , where $$d $$ is the slit separation, $$\theta $$ is the angle, $$m $$ is the order, and $$\lambda $$ is the wavelength. The first Balmer line ( $${n}_{\text{i}}=3 $$ to $${n}_{\text{f}}=2 $$ ) has $$\lambda =656 \text{ nm} $$ . The fourth line ( $${n}_{\text{i}}=6 $$ to $${n}_{\text{f}}=2 $$ ) has $$\lambda =410 \text{ nm} $$ .
+
+**Solution**
+
+(a) For $$m=1 $$ , $$\theta =20.0^\circ $$ , and $$\lambda =656 \text{ nm} $$ :
+
+<div class="equation" >
+ $$d=\frac{m\lambda }{\sin\theta }=\frac{\left(1\right)\left(656\times 10^{-9} \text{ m}\right)}{\sin 20.0^\circ }=\frac{656\times 10^{-9} \text{ m}}{0.342}= 1.92\times 10^{-6} \text{ m}=1.92 \text{ μm} $$
+</div>
+(b) For the fourth Balmer line with $$\lambda =410 \text{ nm} $$ , $$m=1 $$ , and $$d= 1.92\times 10^{-6} \text{ m} $$ :
+
+<div class="equation" >
+ $$\sin\theta =\frac{m\lambda }{d}=\frac{\left(1\right)\left(410\times 10^{-9} \text{ m}\right)}{ 1.92\times 10^{-6} \text{ m}}=0.214 $$
+</div>
+<div class="equation" >
+ $$\theta ={\sin}^{-1}\left(0.214\right)=12.4^\circ $$
+</div>
+(c) For $$m=2 $$ (second order), $$\lambda =656 \text{ nm} $$ , and $$d= 1.92\times 10^{-6} \text{ m} $$ :
+
+<div class="equation" >
+ $$\sin\theta =\frac{m\lambda }{d}=\frac{\left(2\right)\left(656\times 10^{-9} \text{ m}\right)}{ 1.92\times 10^{-6} \text{ m}}=0.683 $$
+</div>
+<div class="equation" >
+ $$\theta ={\sin}^{-1}\left(0.683\right)=43.1^\circ $$
+</div>
+**Discussion**
+
+Diffraction gratings are powerful tools for analyzing spectral lines. The angular separation of different wavelengths increases with order $$m $$ , but higher orders also require larger angles. Note that shorter wavelengths (like the fourth Balmer line at 410 nm) appear at smaller angles than longer wavelengths (like the first line at 656 nm), which is why dispersive elements can separate colors. This technique is fundamental to spectroscopy and was crucial in the early studies of atomic structure.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -821,6 +1005,45 @@ Calculate the velocity of a star moving relative to the earth if you observe a
 wavelength of 91.0 nm for ionized hydrogen capturing an electron directly into
 the lowest orbital (that is, a $${n}_{\text{i}}=\infty $$ to $${n}_{\text{f}}=1
 $$ , or a Lyman series transition).
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First, we need to find the rest wavelength for the transition $${n}_{\text{i}}=\infty $$ to $${n}_{\text{f}}=1 $$ using the Rydberg formula. Then we can use the Doppler shift formula for non-relativistic velocities: $$\frac{\Delta \lambda }{\lambda }=\frac{v}{c} $$ .
+
+**Solution**
+
+The Rydberg formula gives:
+
+<div class="equation" >
+ $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$
+</div>
+For $${n}_{\text{f}}=1 $$ and $${n}_{\text{i}}=\infty $$ :
+
+<div class="equation" >
+ $$\frac{1}{\lambda }=R\left(\frac{1}{{1}^{2}}-\frac{1}{{\infty }^{2}}\right)=R\left(1-0\right)=R $$
+</div>
+With $$R= 1.097\times 10^{7} {\text{ m}}^{-1} $$ :
+
+<div class="equation" >
+ $${\lambda }_{0}=\frac{1}{R}=\frac{1}{ 1.097\times 10^{7} {\text{ m}}^{-1}}= 9.116\times 10^{-8} \text{ m}=91.16 \text{ nm} $$
+</div>
+The observed wavelength is $$\lambda =91.0 \text{ nm} $$ , which is less than $${\lambda }_{0} $$ , indicating a blueshift (star moving toward us).
+
+The velocity is:
+
+<div class="equation" >
+ $$v=c\frac{\Delta \lambda }{{\lambda }_{0}}=c\frac{{\lambda }_{0}-\lambda }{{\lambda }_{0}}=\left( 3.00\times 10^{8} \text{ m/s}\right)\frac{91.16-91.0}{91.16} $$
+</div>
+<div class="equation" >
+ $$v=\left( 3.00\times 10^{8} \text{ m/s}\right)\left(0.00175\right)= 5.26\times 10^{5} \text{ m/s}=526 \text{ km/s} $$
+</div>
+The star is moving **toward** Earth at approximately **526 km/s**.
+
+**Discussion**
+
+This large velocity is typical of stellar motions in our galaxy. The blueshift (shorter observed wavelength) indicates motion toward us. This Lyman series limit transition ( $$n=\infty $$ to $$n=1 $$ ) corresponds to the ionization edge of hydrogen and is an important feature in stellar spectra. Such Doppler measurements are crucial for understanding galactic dynamics and stellar velocities.
 
 </div>
 </div>
@@ -853,6 +1076,34 @@ character of X-rays is best determined by having them interact with very small
 objects such as atoms and molecules.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First, we need to find the wavelength of 25.0-keV X-rays using $$E=hf=hc/\lambda $$ . Then we can use the double-slit equation $$d\sin\theta =m\lambda $$ to find the slit separation $$d $$ .
+
+**Solution**
+
+The wavelength of the X-rays is:
+
+<div class="equation" >
+ $$\lambda =\frac{hc}{E}=\frac{\left( 6.63\times 10^{-34} \text{ J}\cdot \text{s}\right)\left( 3.00\times 10^{8} \text{ m/s}\right)}{25.0\times 10^{3} \text{ eV}\times 1.60\times 10^{-19} \text{ J/eV}} $$
+</div>
+<div class="equation" >
+ $$\lambda =\frac{ 1.989\times 10^{-25} \text{ J}\cdot \text{m}}{ 4.00\times 10^{-15} \text{ J}}= 4.97\times 10^{-11} \text{ m}=0.0497 \text{ nm} $$
+</div>
+For the first-order maximum ( $$m=1 $$ ) at $$\theta =3.00^\circ $$ :
+
+<div class="equation" >
+ $$d=\frac{m\lambda }{\sin\theta }=\frac{\left(1\right)\left( 4.97\times 10^{-11} \text{ m}\right)}{\sin 3.00^\circ }=\frac{ 4.97\times 10^{-11} \text{ m}}{0.0523} $$
+</div>
+<div class="equation" >
+ $$d= 9.50\times 10^{-10} \text{ m}=0.950 \text{ nm} $$
+</div>
+**Discussion**
+
+This slit separation of about 1 nm is on the order of atomic dimensions (typical atomic radii are 0.1–0.3 nm, and atomic spacings in crystals are 0.2–0.5 nm). This explains why X-ray diffraction is performed using crystal lattices rather than manufactured gratings—the regular spacing of atoms in crystals provides the necessary small-scale structure. X-ray crystallography has been instrumental in determining molecular structures, including the double helix structure of DNA. The wave nature of X-rays at these energy levels is essential for such applications.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -882,6 +1133,41 @@ Find the value of $$l $$ , the orbital angular momentum quantum number, for the
 moon around the earth. The extremely large value obtained implies that it is
 impossible to tell the difference between adjacent quantized orbits for
 macroscopic objects.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The orbital angular momentum of the moon is $$L=mvr $$ , where $$m $$ is the moon's mass, $$v $$ is its orbital velocity, and $$r $$ is its orbital radius. According to quantum mechanics, $$L=\sqrt{l\left(l+1\right)}\hbar $$ . For large $$l $$ , this simplifies to $$L\approx l\hbar $$ , so $$l\approx L/\hbar $$ .
+
+**Solution**
+
+First, we need the moon's orbital angular momentum. Using:
+- Moon's mass: $$m= 7.35\times 10^{22} \text{ kg} $$
+- Orbital radius: $$r= 3.84\times 10^{8} \text{ m} $$
+- Orbital period: $$T=27.3 \text{ days}= 2.36\times 10^{6} \text{ s} $$
+
+The orbital velocity is:
+
+<div class="equation" >
+ $$v=\frac{2\pi r}{T}=\frac{2\pi \left( 3.84\times 10^{8} \text{ m}\right)}{ 2.36\times 10^{6} \text{ s}}= 1.02\times 10^{3} \text{ m/s} $$
+</div>
+The orbital angular momentum is:
+
+<div class="equation" >
+ $$L=mvr=\left( 7.35\times 10^{22} \text{ kg}\right)\left( 1.02\times 10^{3} \text{ m/s}\right)\left( 3.84\times 10^{8} \text{ m}\right) $$
+</div>
+<div class="equation" >
+ $$L= 2.88\times 10^{34} \text{ kg}\cdot {\text{m}}^{2}\text{/s} $$
+</div>
+The quantum number $$l $$ is:
+
+<div class="equation" >
+ $$l\approx \frac{L}{\hbar }=\frac{ 2.88\times 10^{34} \text{ kg}\cdot {\text{m}}^{2}\text{/s}}{ 1.055\times 10^{-34} \text{ J}\cdot \text{s}}= 2.73\times 10^{68} $$
+</div>
+**Discussion**
+
+This extraordinarily large quantum number demonstrates why quantum effects are unobservable for macroscopic objects. The difference between adjacent quantum states would be $$\Delta L=\hbar = 1.055\times 10^{-34} \text{ J}\cdot \text{s} $$ , which is completely negligible compared to the total angular momentum of $$ 2.88\times 10^{34} \text{ kg}\cdot {\text{m}}^{2}\text{/s} $$ . The fractional change would be $$\Delta L/L\sim 10^{-68} $$ , far too small to measure. This illustrates the correspondence principle: quantum mechanics gives the same results as classical mechanics for macroscopic systems.
 
 </div>
 </div>
@@ -924,6 +1210,41 @@ inversion in a helium-neon laser containing $$ 1.00 \times 10^{-4} $$ moles of
 neon.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+A helium-neon laser produces red light at $$\lambda =632.8 \text{ nm} $$ . To create a population inversion, at least half of the neon atoms must be excited to the upper laser level. The energy per photon is $$E=hc/\lambda $$ . We need to find the total energy to excite half of the neon atoms.
+
+**Solution**
+
+The energy per photon is:
+
+<div class="equation" >
+ $$E=\frac{hc}{\lambda }=\frac{\left( 6.63\times 10^{-34} \text{ J}\cdot \text{s}\right)\left( 3.00\times 10^{8} \text{ m/s}\right)}{632.8\times 10^{-9} \text{ m}} $$
+</div>
+<div class="equation" >
+ $$E=\frac{ 1.989\times 10^{-25} \text{ J}\cdot \text{m}}{ 6.328\times 10^{-7} \text{ m}}= 3.14\times 10^{-19} \text{ J} $$
+</div>
+The number of neon atoms is:
+
+<div class="equation" >
+ $$N=n{N}_{\text{A}}=\left( 1.00\times 10^{-4} \text{ mol}\right)\left( 6.022\times 10^{23} {\text{ atoms/mol}}\right)= 6.022\times 10^{19} \text{ atoms} $$
+</div>
+For a population inversion, at least half the atoms must be in the excited state:
+
+<div class="equation" >
+ $${N}_{\text{excited}}=\frac{N}{2}=\frac{ 6.022\times 10^{19}}{2}= 3.01\times 10^{19} \text{ atoms} $$
+</div>
+The total energy required is:
+
+<div class="equation" >
+ $${E}_{\text{total}}={N}_{\text{excited}}\times E=\left( 3.01\times 10^{19}\right)\left( 3.14\times 10^{-19} \text{ J}\right)=9.45 \text{ J} $$
+</div>
+**Discussion**
+
+This represents the minimum energy needed to create a population inversion. In practice, more energy is required because not all the pump energy efficiently excites the neon atoms, and some atoms spontaneously emit before stimulated emission occurs. Helium-neon lasers use electrical discharge to excite helium atoms first, which then transfer energy to neon atoms through collisions, creating the population inversion necessary for laser action. The relatively modest energy requirement (less than 10 J) explains why He-Ne lasers are efficient and commonly used in laboratories and laser pointers.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -955,6 +1276,35 @@ Suppose an MRI scanner uses 100-MHz radio waves.
 (a) Calculate the photon energy.
 
 (b) How does this compare to typical molecular binding energies?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The photon energy is given by $$E=hf $$ , where $$h= 6.63\times 10^{-34} \text{ J}\cdot \text{s} $$ and $$f=100 \text{ MHz}=1.00\times 10^{8} \text{ Hz} $$ . We can compare this to typical molecular binding energies, which are on the order of a few eV.
+
+**Solution**
+
+(a) The photon energy is:
+
+<div class="equation" >
+ $$E=hf=\left( 6.63\times 10^{-34} \text{ J}\cdot \text{s}\right)\left( 1.00\times 10^{8} \text{ Hz}\right)= 6.63\times 10^{-26} \text{ J} $$
+</div>
+Converting to eV:
+
+<div class="equation" >
+ $$E=\frac{ 6.63\times 10^{-26} \text{ J}}{ 1.60\times 10^{-19} \text{ J/eV}}= 4.14\times 10^{-7} \text{ eV}=0.414 \text{ μeV} $$
+</div>
+(b) Typical molecular binding energies range from about 1 eV to 10 eV. The ratio is:
+
+<div class="equation" >
+ $$\frac{{E}_{\text{binding}}}{{E}_{\text{photon}}}\sim \frac{1 \text{ eV}}{ 4.14\times 10^{-7} \text{ eV}}\sim 2.4\times 10^{6} $$
+</div>
+The MRI photon energy is about **2.4 million times smaller** than typical molecular binding energies.
+
+**Discussion**
+
+This enormous difference explains why MRI is safe and non-destructive. The radio wave photons used in MRI have far too little energy to break chemical bonds or ionize atoms. Instead, MRI works by detecting the magnetic resonance of hydrogen nuclei (protons) in the body's water and fat molecules. The low-energy photons can flip nuclear spins without damaging tissue, making MRI an ideal diagnostic tool. In contrast, X-rays and gamma rays have energies comparable to or greater than binding energies, which is why they can damage DNA and living tissue.
 
 </div>
 </div>
@@ -998,6 +1348,35 @@ observe for the 656.0-nm line in the Balmer series of hydrogen emitted by stars
 in this galaxy. (This is called line broadening.)
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For non-relativistic velocities, the Doppler shift is $$\frac{\Delta \lambda }{\lambda }=\frac{v}{c} $$ . For stars moving toward us ( $$v=-200 \text{ km/s} $$ ), we observe a blueshift (shorter wavelength). For stars moving away ( $$v=+200 \text{ km/s} $$ ), we observe a redshift (longer wavelength).
+
+**Solution**
+
+The rest wavelength is $${\lambda }_{0}=656.0 \text{ nm} $$ .
+
+For stars moving **toward** us at $$v=200 \text{ km/s}=2.00\times 10^{5} \text{ m/s} $$ :
+
+<div class="equation" >
+ $$\Delta \lambda ={\lambda }_{0}\frac{v}{c}=\left(656.0 \text{ nm}\right)\frac{ 2.00\times 10^{5} \text{ m/s}}{ 3.00\times 10^{8} \text{ m/s}}=\left(656.0 \text{ nm}\right)\left( 6.67\times 10^{-4}\right)=0.437 \text{ nm} $$
+</div>
+<div class="equation" >
+ $${\lambda }_{\text{blue}}={\lambda }_{0}-\Delta \lambda =656.0-0.437=655.6 \text{ nm} $$
+</div>
+For stars moving **away** from us at $$v=200 \text{ km/s} $$ :
+
+<div class="equation" >
+ $${\lambda }_{\text{red}}={\lambda }_{0}+\Delta \lambda =656.0+0.437=656.4 \text{ nm} $$
+</div>
+The observed wavelength range is **655.6 nm to 656.4 nm**.
+
+**Discussion**
+
+This line broadening effect is a powerful tool for astronomers to study galactic rotation. By measuring the width of spectral lines, we can determine rotation velocities and infer the mass distribution of galaxies. The broader the spectral line, the faster the galaxy is rotating. This technique has been crucial in discovering dark matter—galaxies rotate faster than expected based on visible matter alone, suggesting the presence of unseen mass. The symmetric broadening around the rest wavelength indicates that we're observing the galaxy edge-on, with equal numbers of stars moving toward and away from us.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1027,6 +1406,45 @@ Prove that the velocity of charged particles moving along a straight path
 through perpendicular electric and magnetic fields is $$v=E/B $$ . Thus crossed
 electric and magnetic fields can be used as a velocity selector independent of
 the charge and mass of the particle involved.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For a charged particle to move in a straight line through crossed electric and magnetic fields, the electric force and magnetic force must exactly balance. The electric force is $${F}_{E}=qE $$ and the magnetic force is $${F}_{B}=qvB $$ (for perpendicular velocity and field).
+
+**Solution**
+
+For a particle with charge $$q $$ moving with velocity $$v $$ :
+
+The **electric force** is:
+
+<div class="equation" >
+ $${F}_{E}=qE $$
+</div>
+The **magnetic force** is:
+
+<div class="equation" >
+ $${F}_{B}=qvB $$
+</div>
+For the particle to travel in a straight line, these forces must be equal in magnitude and opposite in direction:
+
+<div class="equation" >
+ $${F}_{E}={F}_{B} $$
+</div>
+<div class="equation" >
+ $$qE=qvB $$
+</div>
+Dividing both sides by $$q $$ and $$B $$ :
+
+<div class="equation" >
+ $$v=\frac{E}{B} $$
+</div>
+Notice that this result is **independent of both charge $$q $$ and mass $$m $$** of the particle.
+
+**Discussion**
+
+This elegant result shows that only particles with velocity $$v=E/B $$ will pass through undeflected, regardless of their charge or mass. Particles moving faster will be deflected more by the magnetic force, while slower particles will be deflected more by the electric force. This principle is used in mass spectrometers and particle physics experiments to select particles with specific velocities. J.J. Thomson used this technique in his cathode ray experiments to measure the charge-to-mass ratio of electrons. The velocity selector is a beautiful example of how electric and magnetic forces can be balanced to achieve precise control over charged particle beams.
 
 </div>
 </div>
@@ -1062,6 +1480,45 @@ unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The Balmer series has $${n}_{\text{f}}=2 $$ . We can use the Rydberg formula $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ to solve for $${n}_{\text{i}} $$ .
+
+**Solution**
+
+(a) Using the Rydberg formula with $$\lambda =589 \text{ nm}= 5.89\times 10^{-7} \text{ m} $$ , $$R= 1.097\times 10^{7} {\text{ m}}^{-1} $$ , and $${n}_{\text{f}}=2 $$ :
+
+<div class="equation" >
+ $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$
+</div>
+<div class="equation" >
+ $$\frac{1}{ 5.89\times 10^{-7} \text{ m}}= 1.097\times 10^{7} {\text{ m}}^{-1}\left(\frac{1}{4}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$
+</div>
+<div class="equation" >
+ $$ 1.698\times 10^{6} {\text{ m}}^{-1}= 1.097\times 10^{7} {\text{ m}}^{-1}\left(\frac{1}{4}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$
+</div>
+<div class="equation" >
+ $$0.1548=\frac{1}{4}-\frac{1}{ {n}_{\text{i}}^{2}} $$
+</div>
+<div class="equation" >
+ $$\frac{1}{ {n}_{\text{i}}^{2}}=0.250-0.1548=0.0952 $$
+</div>
+<div class="equation" >
+ $${n}_{\text{i}}^{2}=10.5 $$
+</div>
+<div class="equation" >
+ $${n}_{\text{i}}=3.24 $$
+</div>
+(b) The result $${n}_{\text{i}}=3.24 $$ is **unreasonable** because the principal quantum number $$n $$ must be a positive integer (1, 2, 3, 4, ...). A non-integer value violates the fundamental quantization condition.
+
+(c) The assumption that the 589-nm yellow line is part of the hydrogen Balmer series is **incorrect**. In reality, 589 nm is the famous sodium D-line doublet (589.0 nm and 589.6 nm), not a hydrogen line. The student likely observed sodium contamination in the hydrogen lamp or confused the spectral lines. The Balmer series wavelengths are: 656 nm (red), 486 nm (cyan), 434 nm (blue), and 410 nm (violet)—none are yellow.
+
+**Discussion**
+
+This problem illustrates the importance of recognizing when results don't make physical sense. Non-integer quantum numbers should immediately signal an error in assumptions or calculations. The 589-nm sodium lines are extremely common in laboratory spectra because sodium is ubiquitous (from salt, fingerprints, etc.) and has a very strong emission at this wavelength, which is why sodium vapor lamps produce characteristic yellow light. This highlights the need for careful spectral identification and understanding of atomic physics principles.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1076,6 +1533,40 @@ presence in a very hot gas. You will need to choose the atomic number of the
 atom, identify the element, and choose which spectral lines to consider.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+To construct this problem, we need to: (1) choose a highly ionized element likely present in the solar corona, (2) identify specific spectral transitions, and (3) calculate wavelengths and energies that could be observed.
+
+**Solution**
+
+**Example Problem Construction:**
+
+The solar corona has temperatures of 1–2 million kelvin, hot enough to fully ionize lighter elements. Consider **helium II** (He<sup>+</sup>), which is singly ionized helium with $$Z=2 $$ and one electron, making it hydrogen-like.
+
+**Part (a):** Calculate the wavelength of the first line in the Lyman series (transition from $$n=2 $$ to $$n=1 $$ ) for He<sup>+</sup>.
+
+For hydrogen-like ions, the wavelengths are modified by $$Z^2 $$ :
+
+<div class="equation" >
+ $$\frac{1}{\lambda }={Z}^{2}R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right)={2}^{2}\left( 1.097\times 10^{7} {\text{ m}}^{-1}\right)\left(\frac{1}{{1}^{2}}-\frac{1}{{2}^{2}}\right) $$
+</div>
+<div class="equation" >
+ $$\frac{1}{\lambda }=4\left( 1.097\times 10^{7}\right)\left(\frac{3}{4}\right)= 3.29\times 10^{7} {\text{ m}}^{-1} $$
+</div>
+<div class="equation" >
+ $$\lambda =30.4 \text{ nm (extreme UV)} $$
+</div>
+**Part (b):** Calculate the photon energy for this transition.
+
+<div class="equation" >
+ $$E=\frac{hc}{\lambda }=\frac{\left( 6.63\times 10^{-34}\right)\left( 3.00\times 10^{8}\right)}{30.4\times 10^{-9}}= 6.54\times 10^{-18} \text{ J}=40.9 \text{ eV} $$
+</div>
+**Discussion**
+
+This approach can be extended to other ions like O<sup>7+</sup> ( $$Z=8 $$ ) or Fe<sup>25+</sup> ( $$Z=26 $$ ), which are observed in coronal spectra. The high $$Z $$ values shift spectral lines to much shorter wavelengths (UV and X-ray regions), which is why space-based telescopes are essential for coronal observations. Students could construct variations by: (1) choosing different elements, (2) examining different series (Balmer, Paschen), (3) calculating ionization energies, or (4) comparing multiple transitions to create a spectral fingerprint for element identification. This problem teaches how atomic spectroscopy is used to determine the composition and temperature of stellar atmospheres.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1088,6 +1579,53 @@ spectral lines in the Balmer series and examine whether they can be described
 with a formula like that in the equation $$\frac{1}{\lambda }=R\left(\frac{1}{
 {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ , but with a
 different constant $$R $$.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+To construct this problem, we need to: (1) choose a recession velocity for the galaxy, (2) calculate Doppler-shifted wavelengths for several Balmer series lines, (3) determine if the shifted wavelengths follow the Rydberg formula with a modified constant, and (4) relate the modified constant to the recession velocity.
+
+**Solution**
+
+**Example Problem Construction:**
+
+A distant galaxy is receding from Earth at $$v=0.050c $$ ( $$1.50\times 10^{7} \text{ m/s} $$ or 5% the speed of light).
+
+**Part (a):** Calculate the observed wavelengths for the first three Balmer series lines.
+
+For non-relativistic Doppler shift: $${\lambda }_{\text{observed}}={\lambda }_{0}\left(1+\frac{v}{c}\right) $$
+
+First Balmer line ( $$n=3 $$ to $$n=2 $$ ): $${\lambda }_{0}=656 \text{ nm} $$
+
+<div class="equation" >
+ $${\lambda }_{\text{obs}}=656\left(1+0.050\right)=656\times 1.050=689 \text{ nm} $$
+</div>
+Second Balmer line ( $$n=4 $$ to $$n=2 $$ ): $${\lambda }_{0}=486 \text{ nm} $$
+
+<div class="equation" >
+ $${\lambda }_{\text{obs}}=486\times 1.050=510 \text{ nm} $$
+</div>
+Third Balmer line ( $$n=5 $$ to $$n=2 $$ ): $${\lambda }_{0}=434 \text{ nm} $$
+
+<div class="equation" >
+ $${\lambda }_{\text{obs}}=434\times 1.050=456 \text{ nm} $$
+</div>
+**Part (b):** Determine if these wavelengths follow $$\frac{1}{\lambda }=R\text{'}\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ with a modified Rydberg constant $$R\text{'} $$ .
+
+Since $${\lambda }_{\text{obs}}={\lambda }_{0}\left(1+\frac{v}{c}\right) $$ , we have:
+
+<div class="equation" >
+ $$\frac{1}{{\lambda }_{\text{obs}}}=\frac{1}{{\lambda }_{0}\left(1+v/c\right)}=\frac{1}{1+v/c}\cdot \frac{1}{{\lambda }_{0}}=\frac{R}{1+v/c}\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$
+</div>
+Therefore, the modified Rydberg constant is:
+
+<div class="equation" >
+ $$R\text{'}=\frac{R}{1+v/c}=\frac{ 1.097\times 10^{7} {\text{ m}}^{-1}}{1.050}= 1.045\times 10^{7} {\text{ m}}^{-1} $$
+</div>
+**Discussion**
+
+This demonstrates that Doppler-shifted spectra from receding galaxies follow the same Rydberg formula but with an effective Rydberg constant reduced by the factor $$1/\left(1+v/c\right) $$ . This principle is crucial for measuring cosmological redshifts and determining distances to galaxies. Students could vary this problem by: (1) using different recession velocities, (2) examining other spectral series, (3) considering relativistic velocities requiring the formula $$z=\sqrt{\frac{1+v/c}{1-v/c}}-1 $$ , or (4) investigating how astronomers use multiple spectral lines to confirm redshift measurements. This illustrates how fundamental atomic physics combined with the Doppler effect enables the study of galactic motion and cosmological expansion.
 
 </div>
 </div>
