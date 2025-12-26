@@ -483,11 +483,11 @@ is put into it? (c) If the cost of this work input is  $$10.0 \text{cents/kW}\cd
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 For part (a), we use the Carnot heat pump formula: $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} $$. For part (b), we use $$ \text{COP}_{\text{hp}} = \frac{Q_h}{W} $$ to find $$ Q_h $$. For part (c), we calculate and compare costs per unit of heat delivered for both the heat pump and natural gas.
 
-__Solution__
+**Solution**
 
 Given values:
 - Cold reservoir temperature: $$ T_c = -20.0\text{°C} = 253 \text{ K} $$
@@ -554,11 +554,11 @@ Part (c): Despite electricity typically being more expensive per joule than natu
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 For part (a), we use the Carnot COP formula for a refrigerator: $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} $$. For part (b), we use $$ \text{COP}_{\text{ref}} = \frac{Q_c}{W} $$ to solve for work. For part (c), we calculate cost from the work and given rate. For part (d), we use energy conservation: $$ Q_h = Q_c + W $$. For part (e), we consider what application requires such cold temperatures.
 
-__Solution__
+**Solution**
 
 Given values:
 - Cold reservoir temperature: $$ T_c = -30.0\text{°C} = 243 \text{ K} $$
@@ -617,7 +617,7 @@ __(e)__ This refrigerator operates at −30.0°C, which is well below the freezi
 
 This is not a household refrigerator (which typically operates around −18°C to −20°C in the freezer compartment) but rather a specialized deep-freeze unit.
 
-__Discussion__
+**Discussion**
 
 The COP of 3.24 is reasonable for this large temperature difference of 75 K. Real freezers operating at these temperatures would have lower COPs (perhaps 2 to 2.5) due to irreversibilities. The cost of 3.6 cents to remove 4186 kJ seems quite economical, but this is for an ideal refrigerator. The heat rejected to the warm environment (5476 kJ) exceeds the heat removed from the cold environment (4186 kJ) by exactly the work input (1290 kJ), as required by energy conservation. This illustrates why freezers warm up the room they're in: they reject more heat than they remove from their interior. The relatively modest COP compared to household refrigerators reflects the challenge of maintaining very low temperatures.
 
@@ -632,11 +632,11 @@ Suppose you want to operate an ideal refrigerator with a cold temperature of  $$
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 For an ideal (Carnot) refrigerator, the coefficient of performance is $$ \text{COP}_{\text{ref}} = \frac{T_c}{T_h - T_c} $$. We are given $$ \text{COP}_{\text{ref}} $$ and $$ T_c $$, so we can solve for $$ T_h $$. We must work in absolute temperature (Kelvin).
 
-__Solution__
+**Solution**
 
 Given values:
 - Cold reservoir temperature: $$ T_c = -10.0\text{°C} = 263 \text{ K} $$
@@ -684,7 +684,7 @@ Converting to Celsius:
 
 __The hot reservoir temperature must be 27.6°C or 301 K.__
 
-__Discussion__
+**Discussion**
 
 A COP of 7.00 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the hot reservoir must be only 37.6 K (or 37.6°C) warmer than the cold reservoir. At −10.0°C cold temperature and 27.6°C warm temperature, the temperature difference is modest, allowing for good efficiency. This result makes sense for a household freezer: the freezer compartment might be at −10°C, while the room temperature is around 28°C, achieving a COP of about 7 in ideal conditions. Real refrigerators would achieve COPs of perhaps 4 to 6 due to irreversibilities. If the room were significantly warmer than 27.6°C, the COP would drop below 7.00, requiring more energy per unit of heat removed. This demonstrates why refrigerators and freezers work more efficiently in cooler environments and why keeping them in hot rooms or garages increases electricity costs.
 
@@ -699,11 +699,11 @@ An ideal heat pump is being considered for use in heating an environment with a 
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 For an ideal (Carnot) heat pump, the coefficient of performance is $$ \text{COP}_{\text{hp}} = \frac{T_h}{T_h - T_c} $$. We are given $$ \text{COP}_{\text{hp}} $$ and $$ T_h $$, so we can solve for $$ T_c $$. We must work in absolute temperature (Kelvin).
 
-__Solution__
+**Solution**
 
 Given values:
 - Hot reservoir temperature: $$ T_h = 22.0\text{°C} = 295 \text{ K} $$
@@ -747,7 +747,7 @@ Converting to Celsius:
 
 __The cold reservoir temperature must be −3.0°C or 270 K.__
 
-__Discussion__
+**Discussion**
 
 A COP of 12.0 is quite high, which requires a small temperature difference between the reservoirs. Indeed, we find that the outdoor temperature needs to be only 25 K (or 25°C) below the indoor temperature. At −3.0°C outdoor temperature, the heat pump operates very efficiently because it doesn't have to work hard to "lift" heat from the cold reservoir to the hot one. This result illustrates why heat pumps are most effective in mild climates. If the outdoor temperature drops significantly below −3.0°C, the COP would fall below 12.0, making the heat pump less efficient. Conversely, on warmer days above −3.0°C, the COP would exceed 12.0, providing even better performance. This problem shows the strong dependence of heat pump performance on climate conditions.
 
@@ -765,11 +765,11 @@ of an air conditioner or refrigerator is defined to be the number of British the
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 For part (a), we use the EER definition to find the power input, then multiply by time to get total energy. EER relates heat removed (in BTU/hr) to power input (in watts). For part (b), we calculate cost based on energy consumed and the given rate. For part (c), we assess reasonableness by calculating daily cost.
 
-__Solution__
+**Solution**
 
 Given values:
 - Heat removed: $$ Q_c = 5.06 \times 10^{7} \text{ J} = 48{,}000 \text{ BTU} $$ in 1.00 hour

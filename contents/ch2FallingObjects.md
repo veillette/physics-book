@@ -493,11 +493,11 @@ Take the point of release to be $$ y_{0}=0 $$.
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Use the kinematic equations for free-fall with upward as positive. Since the ball is thrown upward, the initial velocity is positive, while the acceleration due to gravity is negative ($$ a = -g = -9.80 \mss $$).
 
-__Solution__
+**Solution**
 
 For position: $$ y = y_0 + v_0 t + \frac{1}{2}at^2 = v_0 t - \frac{1}{2}gt^2 $$
 
@@ -543,7 +543,7 @@ $$ y_4 = (15.0 \ms)(2.00 \s) - \frac{1}{2}(9.80 \mss)(2.00 \s)^2 = 30.0 \m - 19.
 $$ v_4 = 15.0 \ms - (9.80 \mss)(2.00 \s) = -4.60 \ms $$
 </div>
 
-__Discussion__
+**Discussion**
 
 At t = 1.50 s, the velocity is nearly zero, indicating the ball is near its maximum height. The negative velocity at t = 2.00 s confirms the ball is now moving downward.
 
@@ -569,11 +569,11 @@ Calculate the displacement and velocity at times of
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take downward as positive since the rock is thrown downward. This means the initial velocity $$ v_0 = +14.0 \ms $$ and $$ a = +g = +9.80 \mss $$. Set $$ y_0 = 0 $$ at the bridge.
 
-__Solution__
+**Solution**
 
 For position: $$ y = y_0 + v_0 t + \frac{1}{2}gt^2 = v_0 t + \frac{1}{2}gt^2 $$
 
@@ -629,7 +629,7 @@ $$ y_5 = (14.0 \ms)(2.50 \s) + \frac{1}{2}(9.80 \mss)(2.50 \s)^2 = 35.0 \m + 30.
 $$ v_5 = 14.0 \ms + (9.80 \mss)(2.50 \s) = 38.5 \ms $$
 </div>
 
-__Discussion__
+**Discussion**
 
 At 2.50 s, the rock has fallen 65.6 m, which is still above the water (70.0 m below the bridge). The rock continues to accelerate as it falls.
 
@@ -654,11 +654,11 @@ above the floor in an attempt to get the ball?
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 At the maximum height, the player's velocity is zero. We can use the kinematic equation relating velocity, displacement, and acceleration to find the initial velocity needed to reach 1.25 m.
 
-__Solution__
+**Solution**
 
 1. Identify the known values:
    - Maximum height: $$ y = 1.25 \m $$
@@ -684,7 +684,7 @@ $$ v_0^2 = 2(9.80 \mss)(1.25 \m) = 24.5 \mmss $$
 $$ v_0 = \sqrt{24.5 \mmss} = 4.95 \ms $$
 </div>
 
-__Discussion__
+**Discussion**
 
 This is a reasonable jumping speed for an athlete. The calculation shows that to reach a height of 1.25 m, a player must leave the ground with a velocity of about 5 m/s (approximately 18 km/h).
 
@@ -702,11 +702,11 @@ A rescue helicopter is hovering over a person whose boat has sunk. One of the re
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take downward as positive since the preserver is thrown downward. Use the kinematic equation for displacement.
 
-__Solution__
+**Solution**
 
 __(a) Known values:__
 
@@ -737,7 +737,7 @@ $$ y = 2.52 \m + \frac{1}{2}(9.80 \mss)(3.24 \s^2) $$
 $$ y = 2.52 \m + 15.9 \m = 18.4 \m $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The helicopter was hovering about 18 meters above the water. This is a reasonable height for a rescue operation, allowing the crew to see the victim while staying clear of the water.
 
@@ -789,11 +789,11 @@ She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above th
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. The swimmer launches upward from the diving board with initial velocity $$ v_0 = 4.00 \ms $$, reaches a maximum height, then falls through the air until her feet hit the water 1.80 m below the starting point. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
-__Solution__
+**Solution**
 
 __(a) Time in the air:__
 
@@ -888,11 +888,11 @@ Taking the negative root (downward motion):
 $$ v = -7.16 \ms $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The swimmer is in the air for about 1.1 seconds, which is reasonable for a dive. She rises 0.816 m (about 82 cm) above the board before falling. Her final velocity of 7.16 m/s downward is greater in magnitude than her initial upward velocity because she falls through a greater distance (1.80 m) than she rises (0.82 m). The symmetry of projectile motion would give her a velocity of -4.00 m/s when passing the board on the way down; the additional 1.80 m of fall increases her speed further.
 
-__Answer__
+**Answer**
 
 (a) The swimmer's feet are in the air for $$ 1.14 \s $$.
 
@@ -912,11 +912,11 @@ __Answer__
 <div class="solution" markdown="1">
 ![Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.](../resources/Figure_02_07_05.jpg){: #Figure8}
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. The rock is thrown upward, goes up, then comes back down past the cliff and hits the ground below. The final position is negative (below the starting point).
 
-__Solution__
+**Solution**
 
 __(a) Height of the cliff:__
 
@@ -979,7 +979,7 @@ $$ t = \frac{-8.00 \pm 15.03}{9.80} $$
 
 Taking the positive root: $$ t = \frac{-8.00 + 15.03}{9.80} = 0.717 \s $$
 
-__Discussion__
+**Discussion**
 
 When thrown downward, the rock takes much less time (0.717 s vs. 2.35 s) because it doesn't have to go up first and then come back down.
 
@@ -999,11 +999,11 @@ and he is 1.80 m tall?
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. The shot is released at height 2.20 m with initial upward velocity of 11.0 m/s. The shot putter is 1.80 m tall, so his head is at 1.80 m. We need to find when the shot returns to this height on its way back down. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
-__Solution__
+**Solution**
 
 1. Identify the known values:
    - Initial position: $$ y_0 = 2.20 \m $$ (release height)
@@ -1060,11 +1060,11 @@ $$ t_1 = \frac{11.0 - 11.35}{9.80} = \frac{-0.35}{9.80} = -0.036 \s $$ (not phys
 $$ t_2 = \frac{11.0 + 11.35}{9.80} = \frac{22.35}{9.80} = 2.28 \s $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The negative time solution represents when the shot would have been at head height before being released (if we extended the trajectory backward in time), which is not physically relevant. The positive solution of 2.28 s is the time when the shot passes his head height on the way back down. This gives him just over 2 seconds to move out of the way after releasing the shot - not much time! The shot goes up, reaches a maximum height above his release point, then comes back down and passes head level at 2.28 s.
 
-__Answer__
+**Answer**
 
 The shot putter has $$ 2.28 \s $$ (about 2.3 seconds) to get out of the way before the shot comes back down to head level.
 
@@ -1077,11 +1077,11 @@ You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a t
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 Take upward as positive. The ball passes the tree branch twice: once on the way up and once on the way down. We need to find both times when the ball is at height 7.00 m, then calculate the difference between these times.
 
-__Solution__
+**Solution**
 
 Given:
 - Initial velocity: $$ v_0 = 15.0 \ms $$
@@ -1135,11 +1135,11 @@ $$ t_2 = \frac{15.0 + 9.37}{9.80} = \frac{24.37}{9.80} = 2.49 \s $$ (on the way 
 $$ \Delta t = t_2 - t_1 = 2.49 \s - 0.575 \s = 1.91 \s $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on its way down, giving an additional time of 1.91 s. This result makes sense because of the symmetry of projectile motion: the ball takes the same amount of time to go from the branch to its maximum height as it does to fall from maximum height back to the branch. Since the ball reaches its maximum height at $$ t = \frac{v_0}{g} = \frac{15.0}{9.80} = 1.53 \s $$, the time from the first branch crossing to the peak is $$ 1.53 - 0.575 = 0.96 \s $$, and from the peak back to the branch is another 0.96 s, giving a total of 1.91 s. This symmetry is a fundamental property of motion under constant acceleration.
 
-__Answer__
+**Answer**
 
 The ball will pass the tree branch on the way down __1.91 s__ after passing it on the way up.
 
@@ -1155,11 +1155,11 @@ A kangaroo can jump over an object 2.50 m high.
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. The kangaroo leaves the ground with some initial velocity, reaches a maximum height of 2.50 m where its velocity becomes zero, then returns to the ground. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
-__Solution__
+**Solution**
 
 __(a) Vertical speed when leaving the ground:__
 
@@ -1218,11 +1218,11 @@ $$ t = \frac{7.00}{9.80} = 0.714 \s $$
 $$ t_{total} = 2 \times 0.714 = 1.43 \s $$
 </div>
 
-__Discussion__
+**Discussion**
 
 A takeoff speed of 7.00 m/s (about 25 km/h) is quite impressive for an animal jump. The kangaroo can clear a 2.50 m obstacle, which is taller than most humans. The total air time of 1.43 seconds is reasonable - the kangaroo spends about 0.71 seconds going up and 0.71 seconds coming down. This symmetric motion is characteristic of free-fall under constant gravitational acceleration.
 
-__Answer__
+**Answer**
 
 (a) The kangaroo leaves the ground with a vertical speed of $$ 7.00 \ms $$.
 
@@ -1257,11 +1257,11 @@ An object is dropped from a height of 75.0 m above ground level.
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take downward as positive since the object is dropped and falls downward. The initial velocity is zero (dropped, not thrown). Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
-__Solution__
+**Solution**
 
 __(a) Distance traveled during the first second:__
 
@@ -1341,11 +1341,11 @@ $$ y_{2.91} = \frac{1}{2}(9.80)(2.91)^2 = \frac{1}{2}(9.80)(8.468) = 41.5 \m $$
 $$ \Delta y = 75.0 - 41.5 = 33.5 \m $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The object falls only 4.90 m in the first second but travels 33.5 m in the last second - nearly 7 times as far! This illustrates how falling objects accelerate continuously. The final velocity of 38.3 m/s (about 138 km/h or 86 mph) is quite fast, which explains why falling from such heights is dangerous. The asymmetry between the first and last seconds demonstrates that the object is continuously gaining speed as it falls.
 
-__Answer__
+**Answer**
 
 (a) The object travels $$ 4.90 \m $$ during the first second.
 
@@ -1377,14 +1377,14 @@ A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off the grou
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. We'll solve this in two steps as suggested by the hint:
 
 1. First, analyze the motion through the window to find the velocity at the bottom of the window
 2. Then, analyze the motion from ground to the bottom of the window to find the initial velocity
 
-__Solution__
+**Solution**
 
 __Step 1: Find velocity at the bottom of the window__
 
@@ -1453,11 +1453,11 @@ $$ v_0^2 = 63.0 + 147 = 210 \mmss $$
 $$ v_0 = \sqrt{210} = 14.5 \ms $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The ball was thrown with an initial velocity of 14.5 m/s. By the time it reaches the bottom of the window at 7.50 m, it has slowed to 7.94 m/s due to gravity. This is reasonable - the ball is still moving upward but has lost significant speed. The two-step approach allows us to work backwards from the observable motion (passing the window) to find the initial condition.
 
-__Answer__
+**Answer**
 
 The ball's initial velocity was $$ 14.5 \ms $$ upward.
 
@@ -1472,11 +1472,11 @@ Suppose you drop a rock into a dark well and, using precision equipment, you mea
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take downward as positive. For part (a), we neglect the time for sound to travel up and assume all 2.0000 s is the time for the rock to fall. For part (b), we must account for the fact that the total time includes both the fall time and the sound travel time. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity and a sound speed of 332.00 m/s.
 
-__Solution__
+**Solution**
 
 __(a) Neglecting sound travel time:__
 
@@ -1564,11 +1564,11 @@ $$ t_{\text{fall}} = \frac{0.0574}{0.02952} = 1.944 \s $$
 $$ d = 4.90 \times (1.944)^2 = 4.90 \times 3.779 = 18.5 \m $$
 </div>
 
-__Discussion__
+**Discussion**
 
 When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t\_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
 
-__Answer__
+**Answer**
 
 (a) Neglecting the time for sound to travel up the well, the distance to the water is 19.6 m.
 
@@ -1589,11 +1589,11 @@ assuming the floor is absolutely rigid?
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. The ball falls from rest, hits the floor, and rebounds. We'll analyze the motion in stages: before impact, during collision, and after rebound. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
-__Solution__
+**Solution**
 
 __(a) Velocity just before striking the floor:__
 
@@ -1712,11 +1712,11 @@ $$ \Delta y = -4.34 \times 10^{-4} + 4.30 \times 10^{-4} = -4.0 \times 10^{-6} \
 $$ |\Delta y| \approx 4.0 \times 10^{-6} \m = 4.0 \text{ μm} $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The ball hits the floor at 5.42 m/s and rebounds at 5.33 m/s - nearly the same speed, indicating an almost elastic collision. The acceleration during contact is enormous - about 13,700 times the acceleration due to gravity (about 13,700 g's)! Despite this huge acceleration, the ball compresses only about 4 micrometers because the contact time is so brief (0.08 milliseconds). These values are reasonable for a hard steel ball on a hard floor. The small loss in rebound height (from 1.50 m to 1.45 m) represents energy lost to heat and sound during the collision.
 
-__Answer__
+**Answer**
 
 (a) The velocity just before striking the floor is $$ 5.42 \ms $$ downward.
 
@@ -1738,11 +1738,11 @@ A coin is dropped from a hot-air balloon that is 300 m above the ground and risi
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. The coin is released from a balloon that is already moving upward at 10.0 m/s, so the coin inherits this initial velocity. After release, the coin decelerates, reaches a maximum height, then falls back down. We'll analyze the motion in stages using $$ g = 9.80 \mss $$.
 
-__Solution__
+**Solution**
 
 __(a) Maximum height reached:__
 
@@ -1850,11 +1850,11 @@ Taking the positive root:
 $$ t = \frac{10.0 + 77.33}{9.80} = \frac{87.33}{9.80} = 8.91 \s $$
 </div>
 
-__Discussion__
+**Discussion**
 
 This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0}{9.80} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300)}{9.80}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
 
-__Answer__
+**Answer**
 
 (a) The maximum height reached by the coin is 305 m above the ground.
 
@@ -1877,11 +1877,11 @@ assuming the floor is absolutely rigid?
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Take upward as positive. The tennis ball falls from rest, hits the floor, compresses, and rebounds. We'll analyze the motion in stages: before impact, during collision, and after rebound. Note that the longer contact time and lower rebound height indicate a less elastic collision compared to the steel ball. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
-__Solution__
+**Solution**
 
 __(a) Velocity just before striking the floor:__
 
@@ -2004,11 +2004,11 @@ $$ \Delta y = \frac{-0.78}{2} \times (3.50 \times 10^{-3}) = -1.37 \times 10^{-3
 $$ |\Delta y| \approx 1.4 \times 10^{-3} \m = 1.4 \text{ mm} $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The soft tennis ball shows markedly different behavior from the steel ball. It hits the floor at the same speed (5.42 m/s) since both are dropped from 1.50 m, but rebounds at only 4.64 m/s compared to the steel ball's 5.33 m/s. This represents greater energy loss during the collision. The contact time is much longer (3.50 ms vs. 0.08 ms), resulting in a much smaller acceleration (about 293 g's vs. 13,700 g's for the steel ball). The soft tennis ball compresses about 1.4 mm, which is over 300 times more than the steel ball (4 micrometers). This greater compression and longer contact time are characteristic of softer materials and less elastic collisions. The significant loss in rebound height (from 1.50 m to 1.10 m, a 27% loss) shows that much more energy was dissipated as heat, sound, and permanent deformation compared to the steel ball.
 
-__Answer__
+**Answer**
 
 (a) The velocity just before striking the floor is $$ 5.42 \ms $$ downward.
 

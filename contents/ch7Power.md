@@ -426,11 +426,11 @@ if the cost of electricity is $$ 0.110 \$ \text{per kW}
 </div>
 <div class="solution" markdown="1">
 
-__Strategy__
+**Strategy**
 
 Calculate the energy consumed using $$ E = Pt $$, then multiply by the cost per kW·h.
 
-__Solution__
+**Solution**
 
 Total operating time:
 <div class="equation">
@@ -447,7 +447,7 @@ Cost:
 $$ \text{Cost} = (1350\text{ kW}\cdot\text{h})(\$0.110\text{ per kW}\cdot\text{h}) = \$149 $$
 </div>
 
-__Discussion__
+**Discussion**
 
 Running a large air conditioner for just 3 hours per day for one month costs about $149. This explains why electricity bills spike during summer months when air conditioning is heavily used.
 
