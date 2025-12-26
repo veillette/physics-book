@@ -399,6 +399,55 @@ and
 Calculate the energy output in each of the fusion reactions in the proton-proton cycle, and verify the values given in the above summary.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For each reaction, calculate the mass defect and convert to energy using $$E = (\Delta m)c^{2}$$. The three reactions are: (1) $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}}$$, (2) $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$, and (3) $${}^{3}\text{He}+{}^{3}\text{He}\to {}^{4}\text{He}+{}^{1}\text{H}+{}^{1}\text{H}$$. Use atomic masses from Appendix A: $$m({}^{1}\text{H}) = 1.007825$$ u, $$m({}^{2}\text{H}) = 2.014102$$ u, $$m({}^{3}\text{He}) = 3.016029$$ u, $$m({}^{4}\text{He}) = 4.002603$$ u, $$m(e) = 0.000549$$ u.
+
+**Solution**
+
+**Reaction 1:** $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}}$$
+
+<div class="equation">
+$$ \Delta m = 2m({}^{1}\text{H}) - [m({}^{2}\text{H}) + m_e] = 2(1.007825) - [2.014102 + 0.000549] = 0.000999 \text{ u} $$
+</div>
+
+<div class="equation">
+$$ E_1 = (0.000999)(931.5) = 0.931 \text{ MeV} $$
+</div>
+
+However, the positron will annihilate with an electron, releasing $$2m_ec^2 = 1.022$$ MeV, but this is external to the nucleus. The nuclear energy release is 0.931 MeV. The text gives 0.42 MeV, which is the energy carried away by the positron and neutrino (kinetic energy), not the total Q-value. Let me recalculate using the Q-value approach properly:
+
+<div class="equation">
+$$ Q = [2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e]c^2 = [2(1.007825) - 2.014102 - 2(0.000549)](931.5) = 0.420 \text{ MeV} $$
+</div>
+
+**Reaction 2:** $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$
+
+<div class="equation">
+$$ \Delta m = [m({}^{1}\text{H}) + m({}^{2}\text{H})] - m({}^{3}\text{He}) = [1.007825 + 2.014102] - 3.016029 = 0.005898 \text{ u} $$
+</div>
+
+<div class="equation">
+$$ E_2 = (0.005898)(931.5) = 5.49 \text{ MeV} \quad \checkmark $$
+</div>
+
+**Reaction 3:** $${}^{3}\text{He}+{}^{3}\text{He}\to {}^{4}\text{He}+{}^{1}\text{H}+{}^{1}\text{H}$$
+
+<div class="equation">
+$$ \Delta m = 2m({}^{3}\text{He}) - [m({}^{4}\text{He}) + 2m({}^{1}\text{H})] = 2(3.016029) - [4.002603 + 2(1.007825)] = 0.013805 \text{ u} $$
+</div>
+
+<div class="equation">
+$$ E_3 = (0.013805)(931.5) = 12.86 \text{ MeV} \quad \checkmark $$
+</div>
+
+**Discussion**
+
+The calculated values of 0.42 MeV, 5.49 MeV, and 12.86 MeV match the values given in the text for the proton-proton cycle. These energies represent the kinetic energy available to the products. The first reaction has the smallest energy release, which partially explains why it has the lowest probability and longest timescale—the Sun will last about 10 billion years because this bottleneck reaction is so slow. The energy released in each step increases, with the third reaction releasing the most energy per event. However, note that the third reaction requires two $${}^{3}\text{He}$$ nuclei, each of which must be produced by reactions 1 and 2, so the full cycle must have reactions 1 and 2 occur twice before reaction 3 can occur once.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -419,6 +468,31 @@ Show that the total energy released in the proton-proton cycle is 26.7 MeV, cons
 Verify by listing the number of nucleons, total charge, and electron family number before and after the cycle that these quantities are conserved in the overall proton-proton cycle in  $$2{e}^{-}+4{}^{1}\text{H}\to {}^{4}\text{He}+{2v}_{\text{e}}+6\gamma  $$.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Count nucleons (A), charge (Z), and electron family number (efn) on both sides. For efn: electrons have efn = +1, positrons have efn = -1, electron neutrinos have efn = +1.
+
+**Solution**
+
+**Before (left side):**
+- Nucleons: $$A = 0 + 4(1) = 4$$
+- Charge: $$Z = 2(-1) + 4(+1) = -2 + 4 = +2$$
+- Electron family number: $$\text{efn} = 2(+1) + 0 = +2$$
+
+**After (right side):**
+- Nucleons: $$A = 4 + 0 + 0 = 4$$ ✓
+- Charge: $$Z = +2 + 0 + 0 = +2$$ ✓
+- Electron family number: $$\text{efn} = 0 + 2(+1) + 0 = +2$$ ✓
+
+All conserved quantities match, verifying conservation laws are satisfied.
+
+**Discussion**
+
+This overall reaction represents the net effect after the proton-proton cycle runs through completely: two electrons from the surrounding medium annihilate with the two positrons produced in the cycle (reactions 1 occurs twice), four protons fuse to form one helium-4 nucleus, two electron neutrinos carry away some energy, and six gamma rays are produced (two from positron-electron annihilation plus those from the reactions). The conservation of nucleon number reflects baryon number conservation—4 protons in, 4 nucleons in helium out. Charge conservation is maintained throughout. Electron family number conservation accounts for the two electrons consumed and two neutrinos produced, balancing the two positrons created and annihilated in intermediate steps.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -437,6 +511,27 @@ The energy produced by the fusion of a 1.00-kg mixture of deuterium and tritium 
 <div class="problem" markdown="1">
 Tritium is naturally rare, but can be produced by the reaction  $$n+{}^{2}\text{H}\to {}^{3}\text{H}+\gamma  $$ .
  How much energy in MeV is released in this neutron capture?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate mass defect using atomic masses: $$m(n) = 1.008665$$ u, $$m({}^{2}\text{H}) = 2.014102$$ u, $$m({}^{3}\text{H}) = 3.016049$$ u.
+
+**Solution**
+
+<div class="equation">
+$$ \Delta m = [m(n) + m({}^{2}\text{H})] - m({}^{3}\text{H}) = [1.008665 + 2.014102] - 3.016049 = 0.006718 \text{ u} $$
+</div>
+
+<div class="equation">
+$$ E = (0.006718)(931.5) = 6.26 \text{ MeV} $$
+</div>
+
+**Discussion**
+
+This 6.26 MeV neutron capture reaction is an important way to produce tritium for fusion reactors, since tritium doesn't exist naturally (half-life only 12.3 years). The reaction can occur when neutrons from D-D or D-T fusion reactions are captured by deuterium. This creates a self-sustaining fuel cycle where fusion neutrons breed more fusion fuel.
 
 </div>
 </div>
@@ -475,6 +570,35 @@ that in, say, a gallon of gasoline, also taking into consideration that water is
 far more abundant.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Find mass of water, then mass of hydrogen (11.1% of water mass), then mass of deuterium (0.0150% of hydrogen). (b) Use the D-D reaction energy of 3.27 MeV and calculate number of reactions. (c) Consider neutron capture reactions. (d) Compare with gasoline energy density.
+
+**Solution**
+
+(a) Mass of water in pool: $$(80,000 \text{ L})(1 \text{ kg/L}) = 80,000 \text{ kg} = 8.0 \times 10^{7} \text{ g}$$
+
+Mass of hydrogen: $$(8.0 \times 10^{7})(0.111) = 8.88 \times 10^{6} \text{ g}$$
+
+Mass of deuterium: $$(8.88 \times 10^{6})(0.000150) = 1.33 \times 10^{3} \text{ g} = 1.33 \text{ kg}$$
+
+(b) Moles of D: $$1330/2.014 = 660 \text{ mol}$$, giving $$N = (660)(6.022 \times 10^{23}) = 3.97 \times 10^{26}$$ atoms.
+
+Number of D-D reactions: $$3.97 \times 10^{26}/2 = 1.99 \times 10^{26}$$
+
+Energy: $$E = (1.99 \times 10^{26})(3.27 \text{ MeV})(1.602 \times 10^{-13} \text{ J/MeV}) = 1.04 \times 10^{14} \text{ J}$$
+
+(c) Yes! The neutrons can capture on hydrogen to form deuterium (releasing 2.22 MeV) or on other nuclei, extracting additional energy.
+
+(d) Gasoline has energy density ~$$ 1.3 \times 10^{8} \text{ J/gallon}$$. The pool's deuterium energy equals $$(1.04 \times 10^{14})/(1.3 \times 10^{8}) \approx 800,000$$ gallons of gasoline—an enormous amount from just the deuterium in a backyard pool! And water is essentially free and unlimited compared to fossil fuels.
+
+**Discussion**
+
+This problem dramatically illustrates fusion's potential: a single swimming pool contains deuterium fuel equivalent to 800,000 gallons of gasoline. The oceans contain enough deuterium to power human civilization for billions of years. The challenge isn't fuel availability but achieving the extreme conditions (100 million K temperatures, sufficient density and confinement time) needed to make fusion practical. If fusion can be controlled economically, humanity will have virtually unlimited clean energy, since deuterium comprises 0.015% of all hydrogen in water—a practically inexhaustible supply.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -497,6 +621,33 @@ consumed per second?
 (b) How many neutrinos per second should there be per square meter at the Earth
 from this process? This huge number is indicative of how rarely a neutrino
 interacts, since large detectors observe very few per day.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) The proton-proton cycle converts 4 protons to 1 He-4, releasing 26.7 MeV. Find the number of cycles per second from power, then multiply by 4. (b) Each cycle produces 2 neutrinos. Calculate neutrino flux at Earth's distance (1.5 × 10¹¹ m).
+
+**Solution**
+
+(a) Power from p-p cycle: $$(0.90)(4 \times 10^{26}) = 3.6 \times 10^{26} \text{ W}$$
+
+Energy per cycle: $$26.7 \text{ MeV} = (26.7)(1.602 \times 10^{-13}) = 4.28 \times 10^{-12} \text{ J}$$
+
+Cycles per second: $$\frac{3.6 \times 10^{26}}{4.28 \times 10^{-12}} = 8.41 \times 10^{37} \text{ cycles/s}$$
+
+Protons consumed per second: $$(8.41 \times 10^{37})(4) = 3.4 \times 10^{38} \text{ protons/s}$$
+
+(b) Neutrinos produced per second: $$(8.41 \times 10^{37})(2) = 1.68 \times 10^{38} \text{ neutrinos/s}$$
+
+Surface area of sphere at Earth's orbit: $$A = 4\pi r^{2} = 4\pi(1.5 \times 10^{11})^{2} = 2.83 \times 10^{23} \text{ m}^{2}$$
+
+Neutrino flux at Earth: $$\frac{1.68 \times 10^{38}}{2.83 \times 10^{23}} = 5.9 \times 10^{14} \text{ neutrinos/(m}^{2}\cdot\text{s)}$$
+
+**Discussion**
+
+Nearly 600 trillion neutrinos pass through each square meter of Earth every second! Yet detectors observe only a few neutrinos per day because neutrinos interact so weakly with matter—they can pass through the entire Earth without being stopped. This incredibly low interaction probability is why detecting solar neutrinos is so challenging and requires massive detectors. The huge proton consumption rate of $$3.4 \times 10^{38}$$ protons/s sounds enormous, but the Sun contains about $$10^{57}$$ protons, giving it a lifetime of billions of years.
 
 </div>
 </div>
@@ -525,6 +676,27 @@ annihilate electrons to form more  $$\gamma  $$  rays.
 (a) Find the total energy released in MeV in each carbon cycle (elaborated in the above problem) including the annihilation energy.
 
 (b) How does this compare with the proton-proton cycle output?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate using $$E = (4m({}^{1}\text{H}) - m({}^{4}\text{He}))c^{2}$$, which is the same as for the p-p cycle since the carbon is just a catalyst. Add 2 positron annihilations ($$2 \times 2m_ec^2 = 2.044$$ MeV).
+
+**Solution**
+
+(a) Net reaction: $$4{}^{1}\text{H} \to {}^{4}\text{He} + 2e^{+} + 2\nu_e + 7\gamma$$
+
+Nuclear energy: $$E = [4(1.007825) - 4.002603](931.5) = 26.73 \text{ MeV}$$
+
+Including annihilation of 2 positrons with 2 electrons from surroundings, the total is **26.7 MeV** (same as p-p cycle).
+
+(b) The carbon cycle releases the same 26.7 MeV as the proton-proton cycle. This makes sense because both cycles have the same net reaction: converting 4 protons into 1 helium-4 nucleus. The carbon acts only as a catalyst, being regenerated at the end.
+
+**Discussion**
+
+Both the carbon cycle and proton-proton cycle yield identical energy because they accomplish the same net nuclear transformation. The carbon cycle dominates in stars hotter than the Sun (above ~17 million K) because it has a stronger temperature dependence, while the p-p cycle dominates in cooler stars like our Sun. The carbon cycle's reliance on heavier nuclei (C, N, O) means it's only possible in second-generation stars formed from material enriched by earlier stellar nucleosynthesis.
 
 </div>
 </div>
@@ -572,6 +744,31 @@ brief pulse?
 deuterium nucleus?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Power = Energy/time. (b) Find photon energy from $$E = hc/\lambda$$, then divide total by photon energy. (c) Photon momentum $$p = E/c$$. (d) For deuterium, use $$p = \sqrt{2mKE}$$.
+
+**Solution**
+
+(a) $$P = \frac{100 \times 10^{3} \text{ J}}{1.00 \times 10^{-9} \text{ s}} = 1.0 \times 10^{14} \text{ W} = 100 \text{ TW}$$
+
+(b) $$E_{\gamma} = \frac{hc}{\lambda} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^{8})}{1.06 \times 10^{-6}} = 1.88 \times 10^{-19} \text{ J}$$
+
+Number: $$N = \frac{1.0 \times 10^{5}}{1.88 \times 10^{-19}} = 5.3 \times 10^{23} \text{ photons}$$
+
+(c) $$p_{\text{total}} = \frac{E}{c} = \frac{1.0 \times 10^{5}}{3.0 \times 10^{8}} = 3.3 \times 10^{-4} \text{ kg·m/s}$$
+
+(d) $$p_D = \sqrt{2m_{D}KE} = \sqrt{2(2.014)(1.66 \times 10^{-27})(1.0)(1.602 \times 10^{-13})} = 1.96 \times 10^{-20} \text{ kg·m/s}$$
+
+Ratio: $$\frac{3.3 \times 10^{-4}}{1.96 \times 10^{-20}} = 1.7 \times 10^{16}$$
+
+**Discussion**
+
+The laser delivers 100 terawatts in one nanosecond! The photon momentum is $$10^{16}$$ times that of a single deuterium nucleus, demonstrating how laser-driven compression can implode fusion fuel.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -602,6 +799,33 @@ of these doubly charged nuclei when just in contact with one another.
 
 (b) Does this high temperature imply practical difficulties for doing this in
 controlled fusion?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Two $${}^{3}\text{He}$$ nuclei (each with charge +2e) need $$\frac{3}{2}kT = \frac{1}{2}U_e$$ where $$U_e = \frac{k(2e)(2e)}{r}$$ and $$r \approx 2 \times 10^{-15}$$ m (sum of nuclear radii). Solve for T. (b) Consider plasma confinement challenges.
+
+**Solution**
+
+(a) Electric potential energy when just touching:
+
+<div class="equation">
+$$ U_e = \frac{k(2e)(2e)}{r} = \frac{(8.99 \times 10^{9})(4)(1.602 \times 10^{-19})^{2}}{2 \times 10^{-15}} = 4.61 \times 10^{-13} \text{ J} = 2.88 \text{ MeV} $$
+</div>
+
+Average kinetic energy needed per nucleus: $$\frac{3}{2}kT = \frac{1}{2}U_e$$
+
+<div class="equation">
+$$ T = \frac{U_e}{3k} = \frac{4.61 \times 10^{-13}}{3(1.38 \times 10^{-23})} = 1.11 \times 10^{10} \text{ K} $$
+</div>
+
+(b) Yes! This temperature of 11 billion kelvin is extremely high—much higher than typical fusion reactor targets (100-200 million K for D-T fusion). At such temperatures, containing the plasma becomes extraordinarily difficult. The plasma would vaporize any material container instantly, requiring advanced magnetic or inertial confinement. This explains why $${}^{3}\text{He}$$ fusion, despite being "cleaner" (no neutrons), is much harder to achieve than D-T fusion which requires "only" 100 million K.
+
+**Discussion**
+
+The $${}^{3}\text{He} + {}^{3}\text{He}$$ reaction requires such high temperatures because both nuclei carry charge +2e, creating a strong Coulomb barrier. D-T fusion is easier because the products (neutron and alpha) carry less initial charge to overcome. The 100-fold higher temperature requirement for He-3 fusion makes it impractical with current technology, though it remains attractive for future advanced fusion systems due to its lack of neutron production.
 
 </div>
 </div>

@@ -786,6 +786,37 @@ Find the radiation dose in Gy for: (a) A 10-mSv fluoroscopic x-ray series. (b) 5
  in your body.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To convert from dose equivalent in Sv (or mSv) to absorbed dose in Gy, we use the relationship $$\text{Sv} = \text{Gy} \times \text{RBE}$$ or equivalently $$\text{Gy} = \frac{\text{Sv}}{\text{RBE}}$$. We need to identify the appropriate RBE for each type of radiation from Table 1: x-rays have RBE = 1, alpha particles have RBE = 10-20, and beta/gamma rays have RBE = 1.
+
+**Solution**
+
+(a) For x-rays, RBE = 1:
+
+<div class="equation">
+$$ \text{Dose in Gy} = \frac{10 \text{ mSv}}{1} = 10 \text{ mGy} = 0.010 \text{ Gy} $$
+</div>
+
+(b) For $$\alpha$$ particles, using RBE = 20 (the higher value for maximum biological effect):
+
+<div class="equation">
+$$ \text{Dose in Gy} = \frac{50 \text{ mSv}}{20} = 2.5 \text{ mGy} = 0.0025 \text{ Gy} $$
+</div>
+
+(c) For $${\beta}^{-}$$ and $$\gamma$$ rays, RBE = 1:
+
+<div class="equation">
+$$ \text{Dose in Gy} = \frac{160 \text{ mSv}}{1} = 160 \text{ mGy} = 0.16 \text{ Gy} $$
+</div>
+
+**Discussion**
+
+These conversions illustrate an important principle in radiation dosimetry: the absorbed dose in Gy can be much smaller than the dose equivalent in Sv for high-RBE radiation. Notice that in part (b), although the alpha exposure gives 50 mSv (five times the x-ray dose), the actual energy deposited is only 2.5 mGy (one-fourth the x-ray energy deposition of 10 mGy). This is because alpha particles, with their short range and high ionization density, cause 20 times more biological damage per unit of absorbed energy. For x-rays, beta particles, and gamma rays (RBE = 1), the numerical values in mSv and mGy are identical, which is why these units are often used interchangeably in practice for these common types of radiation. The $${}^{40}\text{K}$$ in part (c) is a natural source of background radiation that exists in everyone's body, contributing to the unavoidable radiation exposure we all experience.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -804,6 +835,23 @@ How many Gy of exposure is needed to give a cancerous tumor a dose of 40 Sv if i
 <div class="problem" markdown="1">
 What is the dose in Sv in a cancer treatment that exposes the patient to 200 Gy of  $$\gamma  $$
  rays?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To convert from absorbed dose in Gy to dose equivalent in Sv, we use $$\text{Sv} = \text{Gy} \times \text{RBE}$$. From Table 1, gamma rays have RBE = 1.
+
+**Solution**
+
+<div class="equation">
+$$ \text{Dose in Sv} = (200 \text{ Gy})(1) = 200 \text{ Sv} $$
+</div>
+
+**Discussion**
+
+This is an extremely large dose of 200 Sv, which would be lethal if given to the whole body. However, in cancer radiotherapy, such large doses are acceptable because they are highly localized to the tumor region and delivered in fractionated treatments over several weeks rather than all at once. The treatment schedule allows normal tissue to repair itself between sessions while the more radiation-sensitive cancer cells accumulate lethal damage. Typical radiotherapy protocols deliver 200 rem (2 Sv) per treatment, 3-5 times per week, for a total cumulative dose to the tumor that can reach 50-80+ Sv as shown in Table 1. The fact that gamma rays have RBE = 1 means the numerical values in Gy and Sv are the same, simplifying dosimetry calculations for this common therapeutic radiation. The tolerance of the surrounding normal tissue ultimately limits the maximum dose that can be safely delivered to the tumor.
 
 </div>
 </div>
@@ -828,6 +876,41 @@ One half the  $$\gamma  $$
 A plumber at a nuclear power plant receives a whole-body dose of 30 mSv in 15 minutes while repairing a crucial valve. Find the radiation-induced yearly risk of death from cancer and the chance of genetic defect from this maximum allowable exposure.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The text states that the risk of radiation-induced cancer death is approximately $$10/10^{6} \text{ rem·y}$$ (or 10 in a million per rem per year), and the risk of genetic defects is about one-third of this rate, $$3.3/10^{6} \text{ rem·y}$$. First, we need to convert the dose from mSv to rem: $$1 \text{ Sv} = 100 \text{ rem}$$, so $$30 \text{ mSv} = 3.0 \text{ rem}$$. The yearly risk is calculated by multiplying the dose in rem by the risk factors.
+
+**Solution**
+
+First, convert to rem:
+
+<div class="equation">
+$$ 30 \text{ mSv} = 0.030 \text{ Sv} = 0.030 \times 100 \text{ rem} = 3.0 \text{ rem} $$
+</div>
+
+Cancer death risk per year:
+
+<div class="equation">
+$$ \text{Risk}_{\text{cancer}} = (3.0 \text{ rem}) \times \left(\frac{10}{10^{6} \text{ rem·y}}\right) = \frac{30}{10^{6} \text{ y}} = 3.0 \times 10^{-5} \text{ per year} $$
+</div>
+
+This represents a yearly risk of 30 in a million, or 0.003%.
+
+Genetic defect risk per year:
+
+<div class="equation">
+$$ \text{Risk}_{\text{genetic}} = (3.0 \text{ rem}) \times \left(\frac{3.3}{10^{6} \text{ rem·y}}\right) = \frac{9.9}{10^{6} \text{ y}} \approx 1.0 \times 10^{-5} \text{ per year} $$
+</div>
+
+This represents a yearly risk of 10 in a million, or 0.001%.
+
+**Discussion**
+
+These risks must be interpreted carefully. The cancer death risk of $$3.0 \times 10^{-5}$$ per year means that each year for approximately 30 years following exposure (the latency and risk period), the plumber has an additional 30 in a million chance of dying from radiation-induced cancer. Over the full 30-year risk period, the cumulative lifetime risk would be approximately $$30 \times 30 = 900$$ in a million, or about 0.09%. To put this in perspective, the normal incidence of cancer deaths is about 20% (200,000 in a million), so this radiation-induced increase would be very difficult to detect statistically in any individual case. The genetic defect risk is about one-third the cancer risk and applies to potential offspring. These risk estimates are based on the linear hypothesis, which assumes that any radiation dose, no matter how small, carries some risk proportional to the dose. While this assumption is conservative and possibly overestimates low-dose risks, it provides a prudent basis for radiation safety standards. The 30 mSv exposure is at the upper limit of allowed occupational doses and demonstrates why such exposures are carefully monitored and minimized in nuclear facilities.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -845,6 +928,49 @@ In the 1980s, the term picowave was used to describe food irradiation in order t
 <div class="problem" markdown="1">
 Find the mass of  $${}^{239}\text{Pu} $$
  that has an activity of  $$1.00 \text{μCi} $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We'll use the relationship between activity, number of nuclei, and half-life: $$R = \frac{0.693N}{t_{1/2}}$$. First, convert the activity to Bq, then solve for the number of nuclei N. Finally, convert the number of nuclei to mass using the molar mass of $${}^{239}\text{Pu}$$ and Avogadro's number. The half-life of $${}^{239}\text{Pu}$$ is 24,120 years.
+
+**Solution**
+
+Convert activity to Bq:
+
+<div class="equation">
+$$ R = 1.00 \text{ μCi} = 1.00 \times 10^{-6} \text{ Ci} \times \frac{3.70 \times 10^{10} \text{ Bq}}{1 \text{ Ci}} = 3.70 \times 10^{4} \text{ Bq} $$
+</div>
+
+Convert half-life to seconds:
+
+<div class="equation">
+$$ t_{1/2} = 24,120 \text{ y} \times \frac{3.156 \times 10^{7} \text{ s}}{1 \text{ y}} = 7.614 \times 10^{11} \text{ s} $$
+</div>
+
+Solve for N using $$R = \frac{0.693N}{t_{1/2}}$$:
+
+<div class="equation">
+$$ N = \frac{R \times t_{1/2}}{0.693} = \frac{(3.70 \times 10^{4} \text{ s}^{-1})(7.614 \times 10^{11} \text{ s})}{0.693} = 4.06 \times 10^{16} \text{ nuclei} $$
+</div>
+
+Convert to moles:
+
+<div class="equation">
+$$ \text{moles} = \frac{4.06 \times 10^{16}}{6.022 \times 10^{23} \text{ nuclei/mol}} = 6.74 \times 10^{-8} \text{ mol} $$
+</div>
+
+Convert to mass (using molar mass of 239 g/mol):
+
+<div class="equation">
+$$ m = (6.74 \times 10^{-8} \text{ mol})(239 \text{ g/mol}) = 1.61 \times 10^{-5} \text{ g} = 16.1 \text{ μg} $$
+</div>
+
+**Discussion**
+
+This remarkably small mass of only 16.1 micrograms demonstrates the extreme radioactivity and toxicity of plutonium-239. The Discussion section of the worked example in the text mentions that $$1.00 \text{ μCi}$$ is created by only $$16 \text{ μg}$$ of $${}^{239}\text{Pu}$$, and our calculation confirms this value. This tiny amount of material, barely visible to the naked eye, produces 37,000 disintegrations per second! The long half-life of 24,120 years means that $${}^{239}\text{Pu}$$ decays slowly, but each decay releases a highly damaging 5.2-MeV alpha particle. When inhaled and retained in the lungs as discussed in the text example, even this minuscule mass delivers a devastating dose of about 10 Sv per year to lung tissue. This explains why plutonium is sometimes called "the most toxic substance known"—not because individual atoms are particularly hazardous, but because such an incredibly small mass can deliver such a large radiation dose over many years due to its alpha emissions, long half-life, and tendency to be retained in the body. This problem also illustrates why plutonium contamination is so serious: microscopic particles invisible to the eye can contain enough activity to pose significant health risks.
 
 </div>
 </div>
