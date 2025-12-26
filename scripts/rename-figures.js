@@ -225,8 +225,12 @@ class FigureRenamer {
       console.log('\n(DRY RUN - no changes were made)');
     }
 
-    console.log(`\nFigure files ${this.dryRun ? 'would be ' : ''}renamed: ${this.stats.figuresRenamed}`);
-    console.log(`Markdown files ${this.dryRun ? 'would be ' : ''}updated: ${this.stats.filesModified}`);
+    console.log(
+      `\nFigure files ${this.dryRun ? 'would be ' : ''}renamed: ${this.stats.figuresRenamed}`
+    );
+    console.log(
+      `Markdown files ${this.dryRun ? 'would be ' : ''}updated: ${this.stats.filesModified}`
+    );
 
     if (this.stats.figuresRenamed > 0 || this.stats.filesModified > 0) {
       if (this.dryRun) {

@@ -276,7 +276,7 @@ runCli({
     fix: STANDARD_FLAGS.fix,
     validate: {
       flag: '--validate',
-      description: 'Only validate existing links, don\'t transform',
+      description: "Only validate existing links, don't transform",
       default: false,
     },
   },
