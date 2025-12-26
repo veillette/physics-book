@@ -1502,7 +1502,7 @@ $$ y = \frac{1}{2}(9.80)(4.0000) = 19.6 \m $$
 
 __(b) Accounting for sound travel time:__
 
-The total time is the sum of the fall time $$ t*{\text{fall}} $$ and the sound travel time $$ t*{\text{sound}} $$:
+The total time is the sum of the fall time $$ t_{\text{fall}} $$ and the sound travel time $$ t_{\text{sound}} $$:
 
 <div class="equation">
 $$ t_{\text{total}} = t_{\text{fall}} + t_{\text{sound}} = 2.0000 \s $$
@@ -1527,7 +1527,7 @@ $$ t_{\text{sound}} = \frac{d}{v_{\text{sound}}} = \frac{d}{332.00} $$
 $$ t_{\text{fall}} + \frac{d}{332.00} = 2.0000 $$
 </div>
 
-4. But $$ d = \frac{1}{2}gt*{\text{fall}}^2 = 4.90 t*{\text{fall}}^2 $$, so:
+4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 t_{\text{fall}}^2 $$, so:
 <div class="equation">
 $$ t_{\text{fall}} + \frac{4.90 t_{\text{fall}}^2}{332.00} = 2.0000 $$
 </div>

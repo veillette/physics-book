@@ -79,8 +79,8 @@ def process_file(filepath):
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # Check if file contains any asterisks in math mode
-        if not re.search(r'\$[^$]*\*[^$]*\$', content):
+        # Check if file contains any asterisks in math mode (both $ and $$)
+        if not re.search(r'\$+[^$]*\*[^$]*\$+', content):
             return 0
 
         fixed_content = fix_math_subscripts(content)
