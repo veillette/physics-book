@@ -33,6 +33,7 @@ Each page features a convenient PDF download button in the upper right corner:
 - **Preface & Summary**: Download the entire book as a single PDF
 
 PDFs are automatically generated weekly (every Sunday) via GitHub Actions and include:
+
 - Beautifully rendered mathematical equations
 - All figures and diagrams
 - Clean, print-optimized formatting

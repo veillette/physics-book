@@ -27,12 +27,7 @@ import path from 'path';
 
 import { UNITS } from './lib/constants.js';
 
-import {
-  printHeader,
-  printDivider,
-  printFixes,
-  printSuccess,
-} from './lib/reporter.js';
+import { printHeader, printDivider, printFixes, printSuccess } from './lib/reporter.js';
 
 import { runCli, STANDARD_FLAGS } from './lib/cli.js';
 

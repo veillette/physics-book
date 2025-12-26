@@ -53,19 +53,19 @@ jobs:
         run: npm ci
 
       - name: Check math syntax
-        run: npm run check-math
+        run: npm run check:math
 
       - name: Check for orphan files
-        run: npm run check-orphans
+        run: npm run check:orphans
 
       - name: Check figures
-        run: npm run check-figures
+        run: npm run check:figures
 
       - name: Check YAML front matter
-        run: npm run check-yaml
+        run: npm run check:yaml
 
       - name: Check accessibility
-        run: npm run check-accessibility
+        run: npm run check:accessibility
 
   physics-checks:
     name: Physics Calculations
