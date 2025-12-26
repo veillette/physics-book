@@ -136,6 +136,46 @@ function parser() {
     }
 
     renderPdfDownload();
+    renderDarkModeToggle();
+  };
+
+  const renderDarkModeToggle = () => {
+    // Remove existing dark mode toggle button
+    const existingToggle = bookBody.querySelector('.dark-mode-toggle');
+    if (existingToggle) {
+      existingToggle.remove();
+    }
+
+    const toggleBtn = document.createElement('button');
+    toggleBtn.className = 'dark-mode-toggle';
+    toggleBtn.title = 'Toggle Dark Mode';
+    toggleBtn.setAttribute('aria-label', 'Toggle Dark Mode');
+
+    // Check if dark mode is already enabled from localStorage
+    const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+    if (isDarkMode) {
+      document.body.classList.add('dark-mode');
+      toggleBtn.innerHTML = "<i class='fa-solid fa-sun'></i>";
+    } else {
+      toggleBtn.innerHTML = "<i class='fa-solid fa-moon'></i>";
+    }
+
+    // Add click event listener to toggle dark mode
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      const isDarkMode = document.body.classList.contains('dark-mode');
+
+      // Update localStorage
+      if (isDarkMode) {
+        localStorage.setItem('darkMode', 'enabled');
+        toggleBtn.innerHTML = "<i class='fa-solid fa-sun'></i>";
+      } else {
+        localStorage.setItem('darkMode', 'disabled');
+        toggleBtn.innerHTML = "<i class='fa-solid fa-moon'></i>";
+      }
+    });
+
+    bookBody.appendChild(toggleBtn);
   };
 
   const renderPdfDownload = () => {
