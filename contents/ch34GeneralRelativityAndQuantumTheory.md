@@ -372,7 +372,45 @@ What is the Schwarzschild radius of a black hole that has a mass eight times tha
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Black holes with masses smaller than those formed in supernovas may have been created in the Big Bang. Calculate the radius of one that has a mass equal to the Earth’s.
+Black holes with masses smaller than those formed in supernovas may have been created in the Big Bang. Calculate the radius of one that has a mass equal to the Earth's.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The Schwarzschild radius (event horizon radius) of a black hole is given by $$ R_S = \frac{2GM}{c^2} $$, where $$ G $$ is the gravitational constant, $$ M $$ is the mass of the black hole, and $$ c $$ is the speed of light. We'll substitute Earth's mass and calculate the radius.
+
+**Solution**
+
+Given:
+- Mass of Earth: $$ M_{\text{Earth}} = 5.97 \times 10^{24} \text{ kg} $$
+- Gravitational constant: $$ G = 6.67 \times 10^{-11} \text{ N·m}^2\text{/kg}^2 $$
+- Speed of light: $$ c = 3.00 \times 10^8 \text{ m/s} $$
+
+The Schwarzschild radius is:
+<div class="equation">
+$$ R_S = \frac{2GM}{c^2} $$
+</div>
+
+Substituting values:
+<div class="equation">
+$$ R_S = \frac{2 \times (6.67 \times 10^{-11}) \times (5.97 \times 10^{24})}{(3.00 \times 10^8)^2} $$
+</div>
+
+<div class="equation">
+$$ R_S = \frac{7.96 \times 10^{14}}{9.00 \times 10^{16}} = 8.84 \times 10^{-3} \text{ m} = 8.84 \text{ mm} $$
+</div>
+
+The Schwarzschild radius of an Earth-mass black hole is approximately **8.8 mm** (or about **0.9 cm**).
+
+**Discussion**
+
+If the entire Earth were compressed into a black hole, its event horizon would have a radius of less than **1 centimeter**—about the size of a marble! This astonishingly small size illustrates just how dense a black hole must be. The Earth's actual radius is about 6,371 km, so compressing it to a black hole would require reducing its radius by a factor of about 700 million while keeping all its mass.
+
+This calculation reveals the extreme nature of black holes. For an object to become a black hole, it must be compressed to incredibly high densities. The average density required for Earth to become a black hole would be approximately $$ 2 \times 10^{30} \text{ kg/m}^3 $$—far denser than any known material, even nuclear matter. For comparison, nuclear matter has a density of about $$ 10^{17} \text{ kg/m}^3 $$, so a black hole's core would be trillions of times denser still.
+
+Small primordial black holes like this (if they exist) would have formed in the extremely dense conditions of the early Big Bang, not through stellar collapse. A black hole with Earth's mass would be too small to form from normal astrophysical processes. According to Hawking radiation theory, such a small black hole would also evaporate relatively quickly (on cosmic timescales)—in roughly $$ 10^{50} $$ years. While this is still an enormous amount of time (far longer than the current age of the universe), it's much shorter than the lifetime of solar-mass black holes, which would take $$ 10^{67} $$ years or more to evaporate. The existence of primordial black holes remains hypothetical, but they are actively searched for as potential dark matter candidates.
 
 </div>
 </div>
@@ -401,6 +439,66 @@ radius of such an object based on its mass. You must consider how much mass is
 reasonable for these large objects, and which is now nearly directly observed. (
 Information on black holes posted on the Web by NASA and other agencies is
 reliable, for example.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Sample Problem**
+
+Astronomers have observed the supermassive black hole Sagittarius A* (Sgr A*) at the center of our Milky Way galaxy. Based on observations of stellar orbits around this object, its mass has been determined to be approximately 4 million solar masses. Calculate (a) the Schwarzschild radius of this supermassive black hole in meters, (b) express this radius in kilometers, and (c) compare this radius to the Earth-Sun distance (1 AU = 1.50 × 10¹¹ m).
+
+**Strategy**
+
+We'll use the Schwarzschild radius formula $$ R_S = \frac{2GM}{c^2} $$ with the mass of Sgr A*. We need to convert the mass from solar masses to kilograms, then calculate the radius and make the requested comparisons.
+
+**Solution**
+
+Given information:
+- Mass of Sgr A*: $$ M = 4.0 \times 10^6 M_{\odot} $$
+- Solar mass: $$ M_{\odot} = 2.0 \times 10^{30} \text{ kg} $$
+- Gravitational constant: $$ G = 6.67 \times 10^{-11} \text{ N·m}^2\text{/kg}^2 $$
+- Speed of light: $$ c = 3.00 \times 10^8 \text{ m/s} $$
+
+(a) Convert the mass to kilograms:
+<div class="equation">
+$$ M = 4.0 \times 10^6 \times 2.0 \times 10^{30} \text{ kg} = 8.0 \times 10^{36} \text{ kg} $$
+</div>
+
+Calculate the Schwarzschild radius:
+<div class="equation">
+$$ R_S = \frac{2GM}{c^2} = \frac{2 \times (6.67 \times 10^{-11}) \times (8.0 \times 10^{36})}{(3.00 \times 10^8)^2} $$
+</div>
+
+<div class="equation">
+$$ R_S = \frac{1.067 \times 10^{27}}{9.00 \times 10^{16}} = 1.19 \times 10^{10} \text{ m} $$
+</div>
+
+(b) Converting to kilometers:
+<div class="equation">
+$$ R_S = 1.19 \times 10^{10} \text{ m} = 1.19 \times 10^7 \text{ km} = 11{,}900{,}000 \text{ km} \approx 12 \text{ million km} $$
+</div>
+
+(c) Comparing to the Earth-Sun distance:
+<div class="equation">
+$$ \frac{R_S}{1 \text{ AU}} = \frac{1.19 \times 10^{10} \text{ m}}{1.50 \times 10^{11} \text{ m}} = 0.079 \approx 0.08 $$
+</div>
+
+The Schwarzschild radius is approximately **8%** of the Earth-Sun distance, or about **1/12 AU**.
+
+**Answer:** The Schwarzschild radius of Sagittarius A* is **(a) 1.19 × 10¹⁰ m**, **(b) 12 million km**, and **(c) 0.08 AU or about 8% of the Earth-Sun distance**.
+
+**Discussion**
+
+This calculation shows that the supermassive black hole at the center of our galaxy, despite having a mass 4 million times that of the Sun, has an event horizon with a radius of only about 12 million kilometers. While this sounds large (it's about 17 times the radius of the Sun), it's remarkably small compared to astronomical distances—less than 1/10 the distance from Earth to the Sun. If Sgr A* were placed at the center of our solar system, its event horizon wouldn't even reach Mercury's orbit (0.39 AU).
+
+What makes supermassive black holes particularly fascinating is their relatively low average density compared to stellar-mass black holes. The average density within the event horizon goes as $$ \rho \propto 1/M^2 $$, so more massive black holes are actually less dense on average. For Sgr A*, the average density is about $$ 5 \times 10^3 \text{ kg/m}^3 $$—only about 5 times the density of water! Of course, the actual density increases dramatically as you approach the singularity at the center.
+
+Students constructing their own version should choose masses in the realistic range for supermassive black holes:
+- **Small supermassive:** $$ 10^5 - 10^6 $$ solar masses (found in smaller galaxies)
+- **Moderate:** $$ 10^6 - 10^8 $$ solar masses (like Sgr A* in the Milky Way)
+- **Giant:** $$ 10^9 - 10^{10} $$ solar masses (found in quasars and giant elliptical galaxies)
+
+The corresponding Schwarzschild radii range from about 300,000 km (smaller than the Sun-Mercury distance) to 30 billion km (about 200 AU, or 5 times Neptune's orbit) for the largest. These calculations have been confirmed by direct observations, including the Event Horizon Telescope's imaging of the supermassive black hole in M87 (mass $$ \sim 6.5 \times 10^9 M_{\odot} $$) in 2019, providing stunning visual confirmation of Einstein's predictions.
 
 </div>
 </div>
