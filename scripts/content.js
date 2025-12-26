@@ -55,6 +55,13 @@ import { runCli, createCheckFixFlags, getMode } from './lib/cli.js';
 import { findMarkdownFiles, readFile, writeFile } from './lib/files.js';
 
 /**
+ * Escape a string so it can be safely used inside a RegExp pattern.
+ */
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
  * Content validator and fixer class.
  */
 class ContentProcessor {
@@ -327,8 +334,9 @@ class ContentProcessor {
 
       if (parts[i]) {
         const unitsWithoutDegree = UNITS.filter(u => u !== '°' && u !== 'deg');
+        const escapedUnits = unitsWithoutDegree.map(escapeRegExp);
         const unitPattern = new RegExp(
-          `(\\d)(${unitsWithoutDegree.join('|').replace(/\//g, '\\/')})(?!\\w)`,
+          `(\\d)(${escapedUnits.join('|')})(?!\\w)`,
           'g'
         );
 
