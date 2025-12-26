@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![CI](https://github.com/veillette/physics-book/actions/workflows/ci.yml/badge.svg)](https://github.com/veillette/physics-book/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/veillette/physics-book/ci.yml?style=for-the-badge&logo=github)](https://github.com/veillette/physics-book/actions/workflows/ci.yml)
 [![Live Preview (GitHub Pages)](https://img.shields.io/badge/Live%20Preview-GitHub%20Pages-blue?style=for-the-badge&logo=github)](https://veillette.github.io/physics-book/)
 [![Table of Contents](https://img.shields.io/badge/TOC-Table%20of%20Contents-orange?style=for-the-badge&logo=bookmark)](./SUMMARY.md)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge)](LICENSE.txt)
