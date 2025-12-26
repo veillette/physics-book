@@ -1,0 +1,43 @@
+#!/bin/sh
+# Pre-commit hook to run linting and formatting
+
+echo "Running pre-commit checks..."
+
+# Get list of staged JavaScript files
+STAGED_JS_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.js$' || true)
+
+# Run ESLint on staged JavaScript files
+if [ -n "$STAGED_JS_FILES" ]; then
+  echo "Running ESLint..."
+  npm run lint:fix
+  ESLINT_EXIT=$?
+
+  if [ $ESLINT_EXIT -ne 0 ]; then
+    echo "❌ ESLint found errors that couldn't be auto-fixed. Please fix them before committing."
+    exit 1
+  fi
+
+  # Re-add any files that were modified by ESLint
+  echo "$STAGED_JS_FILES" | xargs git add
+fi
+
+# Run Prettier on all staged files
+echo "Running Prettier..."
+npm run format
+PRETTIER_EXIT=$?
+
+if [ $PRETTIER_EXIT -ne 0 ]; then
+  echo "❌ Prettier formatting failed. Please check the errors."
+  exit 1
+fi
+
+# Get all files that might have been formatted
+FORMATTED_FILES=$(git diff --name-only --diff-filter=ACM)
+
+if [ -n "$FORMATTED_FILES" ]; then
+  # Re-add any files that were modified by Prettier
+  echo "$FORMATTED_FILES" | xargs git add 2>/dev/null || true
+fi
+
+echo "✅ Pre-commit checks passed!"
+exit 0
