@@ -356,10 +356,11 @@ class OrphanFileFinder {
     if (totalOrphans === 0) {
       printSuccess(`All files are referenced! (${totalFiles} files checked)`);
     } else {
-      const percentage =
-        totalFiles > 0 ? ((totalOrphans / totalFiles) * 100).toFixed(1) : 0;
+      const percentage = totalFiles > 0 ? ((totalOrphans / totalFiles) * 100).toFixed(1) : 0;
       console.log(
-        chalk.yellow(`📊 Summary: ${totalOrphans} orphan files out of ${totalFiles} (${percentage}%)`)
+        chalk.yellow(
+          `📊 Summary: ${totalOrphans} orphan files out of ${totalFiles} (${percentage}%)`
+        )
       );
     }
 
@@ -381,10 +382,7 @@ runCli({
       default: false,
     },
   },
-  examples: [
-    'node scripts/check-orphans.js',
-    'node scripts/check-orphans.js --generate-cleanup',
-  ],
+  examples: ['node scripts/check-orphans.js', 'node scripts/check-orphans.js --generate-cleanup'],
   run: async options => {
     const finder = new OrphanFileFinder(options);
     return finder.run();
