@@ -33,4 +33,18 @@ MathJax = {
       ac: 'a_\\mathrm{c}',
     },
   },
+  chtml: {
+    displayOverflow: 'linebreak',
+    scale: 1.0,
+    minScale: 0.5,
+  },
+  options: {
+    menuOptions: {
+      settings: {
+        assistiveMml: true,
+        explorer: true,
+        texHints: true,
+      },
+    },
+  },
 };
