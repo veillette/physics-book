@@ -5,6 +5,8 @@
   "repository": "https://github.com/veillette/physics-book",
   "type": "module",
   "scripts": {
+    "prepare": "sh hooks/install.sh",
+    "install:hooks": "sh hooks/install.sh",
     "check:links": "node scripts/check-links.js",
     "check:links:fast": "node scripts/check-links.js --timeout 5000 --concurrent 15",
     "check:orphans": "node scripts/check-orphans.js",
