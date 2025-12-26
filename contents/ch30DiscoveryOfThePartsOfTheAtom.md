@@ -437,15 +437,90 @@ Rutherford found the size of the nucleus to be about  $$ 10^{-15} \text{m} $$ .
 
 </div>
 <div class="solution"  markdown="1">
- $$6 \times 10^{20} {\text{kg/m}}^{3} $$
+
+**Strategy**
+
+To find the density of the gold nucleus, we need to calculate the mass of the nucleus and divide by its volume. For gold (Au), the atomic mass is approximately 197 u (unified atomic mass units), where $$ 1 \text{ u} = 1.66 \times 10^{-27} \text{ kg} $$ . Nearly all the mass of an atom is in the nucleus, so we can use the atomic mass as the nuclear mass. We'll treat the nucleus as a sphere with diameter $$ d = 10^{-15} \text{ m} $$ (radius $$ r = 0.5 \times 10^{-15} \text{ m} $$ ), and calculate its volume using $$ V = \frac{4}{3}\pi r^3 $$ .
+
+**Solution**
+
+The mass of a gold nucleus (atomic mass number A = 197) is:
+<div class="equation">
+$$ m = 197 \text{ u} = 197 \times 1.66 \times 10^{-27} \text{ kg} = 3.27 \times 10^{-25} \text{ kg} $$
+</div>
+
+The volume of the nucleus, assuming a spherical shape with radius $$ r = 0.5 \times 10^{-15} \text{ m} $$ :
+<div class="equation">
+$$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi (0.5 \times 10^{-15} \text{ m})^3 $$
+</div>
+
+<div class="equation">
+$$ V = \frac{4}{3}\pi (1.25 \times 10^{-46} \text{ m}^3) = 5.24 \times 10^{-46} \text{ m}^3 $$
+</div>
+
+The density is:
+<div class="equation">
+$$ \rho = \frac{m}{V} = \frac{3.27 \times 10^{-25} \text{ kg}}{5.24 \times 10^{-46} \text{ m}^3} = 6.2 \times 10^{20} \text{ kg/m}^3 $$
+</div>
+
+Rounding to one significant figure: $$ \rho \approx 6 \times 10^{20} \text{ kg/m}^3 $$
+
+**Discussion**
+
+This density is absolutely enormous—about $$ 6 \times 10^{17} $$ times greater than the density of ordinary matter! For comparison, gold metal has a density of about $$ 1.9 \times 10^4 \text{ kg/m}^3 $$ , water has a density of $$ 10^3 \text{ kg/m}^3 $$ , and even the densest stable element (osmium) is only about $$ 2.3 \times 10^4 \text{ kg/m}^3 $$ . A single cubic centimeter of nuclear matter would have a mass of about $$ 6 \times 10^{14} \text{ kg} $$ or 600 million metric tons! This incredible density was one of the most surprising discoveries from Rutherford's experiment. It explained why alpha particles could be scattered backwards—they were encountering something incredibly massive and concentrated in an extremely small volume. This nuclear density is essentially the same for all nuclei (it's approximately constant at about $$ 2 \times 10^{17} \text{ kg/m}^3 $$ ), which means that nuclear volume is proportional to the number of nucleons (protons plus neutrons). Only in exotic astrophysical objects like neutron stars do we find densities comparable to nuclear density. The existence of such high density confined to such a tiny volume also implied the existence of previously unknown nuclear forces—the gravitational and electromagnetic forces alone could not explain how the nucleus stays together, given the enormous electrostatic repulsion between protons packed into such a small space.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-In Millikan’s oil-drop experiment, one looks at a small oil drop held motionless between two plates. Take the voltage between the plates to be 2033 V, and the plate separation to be 2.00 cm. The oil drop (of density  $$0.81 \text{g/cm}^{3} $$ ) 
+In Millikan's oil-drop experiment, one looks at a small oil drop held motionless between two plates. Take the voltage between the plates to be 2033 V, and the plate separation to be 2.00 cm. The oil drop (of density  $$0.81 \text{g/cm}^{3} $$ )
 has a diameter of  $$ 4.0 \times 10^{-6}  \text{m} $$ .
  Find the charge on the drop, in terms of electron units.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+In Millikan's oil-drop experiment, a charged oil drop is suspended motionless when the upward electric force exactly balances the downward gravitational force. The condition for equilibrium is $$ q E = m_{\text{drop}} g $$ , where $$ E = V/d $$ is the electric field. The mass of the spherical drop can be found from its volume and density: $$ m_{\text{drop}} = \rho V = \rho \frac{4}{3} \pi r^3 $$ . We'll solve for the charge $$ q $$ and then express it in terms of the elementary charge $$ e = 1.60 \times 10^{-19} \text{ C} $$ .
+
+**Solution**
+
+First, calculate the mass of the oil drop. The radius is $$ r = \frac{d}{2} = \frac{4.0 \times 10^{-6} \text{ m}}{2} = 2.0 \times 10^{-6} \text{ m} $$ .
+
+The volume of the spherical drop is:
+<div class="equation">
+$$ V = \frac{4}{3} \pi r^3 = \frac{4}{3} \pi (2.0 \times 10^{-6} \text{ m})^3 = 3.35 \times 10^{-17} \text{ m}^3 $$
+</div>
+
+Converting the density to SI units: $$ \rho = 0.81 \text{ g/cm}^3 = 810 \text{ kg/m}^3 $$
+
+The mass is:
+<div class="equation">
+$$ m_{\text{drop}} = \rho V = (810 \text{ kg/m}^3)(3.35 \times 10^{-17} \text{ m}^3) = 2.71 \times 10^{-14} \text{ kg} $$
+</div>
+
+The electric field between the plates is:
+<div class="equation">
+$$ E = \frac{V}{d} = \frac{2033 \text{ V}}{0.0200 \text{ m}} = 1.017 \times 10^5 \text{ V/m} $$
+</div>
+
+For equilibrium, $$ q E = m_{\text{drop}} g $$ , so:
+<div class="equation">
+$$ q = \frac{m_{\text{drop}} g}{E} = \frac{(2.71 \times 10^{-14} \text{ kg})(9.80 \text{ m/s}^2)}{1.017 \times 10^5 \text{ V/m}} = 2.61 \times 10^{-18} \text{ C} $$
+</div>
+
+To express this in terms of electron units:
+<div class="equation">
+$$ n = \frac{q}{e} = \frac{2.61 \times 10^{-18} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 16.3 \approx 16 $$
+</div>
+
+The charge on the drop is approximately **16 electron units** (or 16e).
+
+**Discussion**
+
+The result that the charge is approximately 16 times the elementary charge demonstrates Millikan's crucial discovery: electric charge is quantized in units of the electron charge. In his experiments, Millikan observed that the charge on any oil drop was always an integer multiple of the elementary charge $$ e $$ , never a fractional value. This provided direct evidence that charge comes in discrete units. Our calculation gives 16.3, which rounds to 16, showing that this particular drop carries 16 excess electrons (or is missing 16 electrons, depending on the sign). The slight deviation from a perfect integer (16.3 vs 16) can be attributed to experimental uncertainties in measuring the drop's diameter, the voltage, the plate separation, or the density. Millikan's painstaking measurements of thousands of oil drops, combined with careful statistical analysis, allowed him to determine the elementary charge to within 1% accuracy, a remarkable achievement that earned him the 1923 Nobel Prize in Physics.
 
 </div>
 </div>
@@ -458,8 +533,40 @@ has a diameter of  $$ 4.0 \times 10^{-6}  \text{m} $$ .
 
 </div>
 <div class="solution"  markdown="1">
-(a)  $$10.0 \text{μm} $$
-(b) It isn’t hard to make one of approximately this size. It would be harder to make it exactly  $$10.0 \text{μm} $$.
+
+**Strategy**
+
+For a hydrogen atom, the atomic diameter is approximately $$ 10^{-10} \text{ m} $$ (the Bohr radius is about $$ 0.5 \times 10^{-10} \text{ m} $$ , making the diameter about $$ 10^{-10} \text{ m} $$ ), and the nuclear diameter is approximately $$ 10^{-15} \text{ m} $$ . To find the scale model size, we need to determine the ratio of these dimensions and apply it to the 1.00 m model atom diameter.
+
+**Solution**
+
+(a) The scale factor for the model is:
+<div class="equation">
+$$ \text{Scale factor} = \frac{\text{Model atom diameter}}{\text{Actual atom diameter}} = \frac{1.00 \text{ m}}{10^{-10} \text{ m}} = 10^{10} $$
+</div>
+
+The nucleus size in the model should be:
+<div class="equation">
+$$ \text{Model nucleus diameter} = \text{Scale factor} \times \text{Actual nucleus diameter} $$
+</div>
+
+<div class="equation">
+$$ \text{Model nucleus diameter} = 10^{10} \times 10^{-15} \text{ m} = 10^{-5} \text{ m} = 10 \text{ μm} $$
+</div>
+
+The nucleus in the model should be approximately **10.0 μm** in diameter (or 0.010 mm).
+
+(b) Making a nucleus of approximately this size is relatively easy. A diameter of 10 μm is about 1/10 the thickness of a human hair (which is typically 50-100 μm), or about the size of a small dust particle. Such an object could be created using:
+- A very fine grain of sand or dust
+- A small pinhead of paint
+- A tiny bead or sphere from precision manufacturing
+- Modern 3D printing techniques
+
+However, making it **exactly** 10.0 μm would be quite difficult and would require precision instruments like micrometers or microscopy to measure and verify the size. For a science fair project, an approximate size would be acceptable and educational.
+
+**Discussion**
+
+This problem beautifully illustrates the vast emptiness of the atom. In a model where the atom is 1 meter across (about the width of a doorway), the nucleus would be only 10 micrometers—barely visible to the naked eye! This is like having a grain of dust in the center of a sphere the size of a large room. The rest of the atom is essentially empty space where the electron probability cloud exists. This visualization helps explain several phenomena: (1) Why most alpha particles in Rutherford's experiment passed straight through the gold foil—they were passing through mostly empty space; (2) Why X-rays and other high-energy radiation can penetrate matter—there's very little solid material to stop them; (3) Why matter seems solid despite being mostly empty—the electromagnetic forces from electron clouds extend throughout the atomic volume, creating effective "boundaries" even though there's no solid material there. This scale model also demonstrates that if we could somehow remove all the empty space from atoms, all the matter in a human body could be compressed into a volume smaller than a grain of sand (though its mass would remain the same). Such "collapsed" matter actually exists in neutron stars, where gravitational forces are strong enough to overcome the electromagnetic forces that normally keep atomic matter spread out.
 
 </div>
 </div>
