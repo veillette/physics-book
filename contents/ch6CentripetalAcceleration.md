@@ -40,7 +40,7 @@ The direction of centripetal acceleration is toward the center of curvature, but
 what is its magnitude? Note that the triangle formed by the velocity vectors and
 the one formed by the radii $$ r $$ and $$ \Delta s $$ are similar. Both the
 triangles ABC and PQR are isosceles triangles (two equal sides). The two equal
-sides of the velocity vector triangle are the speeds $$ v*{1}= v*{2}=v $$. Using
+sides of the velocity vector triangle are the speeds $$ v_{1}= v_{2}=v $$. Using
 the properties of two similar triangles, we obtain
 
 <div class="equation">

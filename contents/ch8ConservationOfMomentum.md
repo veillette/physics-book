@@ -31,8 +31,8 @@ be neglected in any practical sense, but it is real nevertheless.
 Consider what happens if the masses of two colliding objects are more similar
 than the masses of a football player and Earth—for example, one car bumping into
 another, as shown in [Figure 1](#Figure1). Both cars are coasting in the same
-direction when the lead car (labeled $$ m*{2} $$)  is bumped by the trailing
-car (labeled $$ m*{1} $$ ). The only unbalanced force on each car is the force
+direction when the lead car (labeled $$ m_{2} $$)  is bumped by the trailing
+car (labeled $$ m_{1} $$ ). The only unbalanced force on each car is the force
 of the collision. (Assume that the effects due to friction are negligible.) Car
 1 slows down as a result of the collision, losing some momentum, while car 2
 speeds up and gains some momentum. We shall now show that the total momentum of
@@ -60,9 +60,9 @@ Similarly, the change in momentum of car 2 is
  $$ \Delta p_{2}= F_{2}\Delta t , $$
 </div>
 
-where $$ F*{2} $$ is the force on car 2 due to car 1, and we assume the duration
+where $$ F_{2} $$ is the force on car 2 due to car 1, and we assume the duration
 of the collision $$ \Delta t $$ is the same for both cars. We know from Newton’s
-third law that $$ F*{2}=- F\_{1} $$, and so
+third law that $$ F_{2}=- F\_{1} $$, and so
 
 <div class="equation">
  $$ \Delta  p_{2}=- F_{1}\Delta t=-\Delta  p_{1}. $$
@@ -467,7 +467,7 @@ This is a perfectly inelastic collision where the deer remains on the car. Both 
 
 Apply conservation of momentum:
 
-$$ m*{\text{car}} v*{\text{car}} + m*{\text{deer}} v*{\text{deer}} = (m*{\text{car}} + m*{\text{deer}}) v_f $$
+$$ m_{\text{car}} v_{\text{car}} + m_{\text{deer}} v_{\text{deer}} = (m_{\text{car}} + m_{\text{deer}}) v_f $$
 
 Substitute the known values:
 
@@ -506,7 +506,7 @@ When the falcon catches the dove, they move together as one object—a perfectly
 
 Apply conservation of momentum:
 
-$$ m*{\text{falcon}} v*{\text{falcon}} + m*{\text{dove}} v*{\text{dove}} = (m*{\text{falcon}} + m*{\text{dove}}) v_f $$
+$$ m_{\text{falcon}} v_{\text{falcon}} + m_{\text{dove}} v_{\text{dove}} = (m_{\text{falcon}} + m_{\text{dove}}) v_f $$
 
 Substitute the known values:
 

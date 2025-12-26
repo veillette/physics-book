@@ -586,7 +586,7 @@ Revenue at 9.00 ¢/kWh:
 
 An array area of 1.43 m² (about 1.2 m × 1.2 m) is quite modest and could fit on a small portion of a roof. However, the maximum cost of only $65.70 for a two-year payback is unrealistically low—actual solar panels cost hundreds to thousands of dollars. This problem illustrates why solar power has historically required subsidies or higher electricity rates to be economically viable. With typical electricity rates of 9 ¢/kWh, a small 100 W system would take many years to pay for itself. Higher electricity rates, government incentives, or longer amortization periods make solar more economically attractive.
 
-**Answer**
+__Answer__
 
 (a) 1.43 m²
 

@@ -328,8 +328,8 @@ Choose the pivot at the location of $$ F_1 $$ (the end of the plank). Then $$ F_
 The torque due to the weight (at 1.00 m from the pivot) is clockwise (negative):
 $$ \tau_W = -W \times 1.00 \m = -(196 \N)(1.00 \m) = -196 \text{ N·m} $$
 
-The torque due to $$ F*2 $$ (at 0.500 m from the pivot) is counterclockwise (positive):
-$$ \tau*{F_2} = F_2 \times 0.500 \m $$
+The torque due to $$ F_2 $$ (at 0.500 m from the pivot) is counterclockwise (positive):
+$$ \tau_{F_2} = F_2 \times 0.500 \m $$
 
 For equilibrium: $$ \text{net}\tau = 0 $$
 
@@ -407,7 +407,7 @@ Given:
 Taking torques about the pivot point (the foot):
 
 - The weight creates a clockwise torque: $$ \tau_W = W \times d_x $$
-- The wind force creates a counterclockwise torque: $$ \tau*{\text{wind}} = F*{\text{wind}} \times h $$
+- The wind force creates a counterclockwise torque: $$ \tau_{\text{wind}} = F_{\text{wind}} \times h $$
 
 For equilibrium:
 
@@ -637,7 +637,7 @@ Torque due to weight (clockwise, about foot):
 $$ \tau_W = W \times 0.275 \m = (39.2 \N)(0.275 \m) = 10.78 \text{ N·m} $$
 
 Torque due to horizontal hinge force (counterclockwise, about foot):
-$$ \tau*{Fh} = F*{h,horizontal} \times 1.30 \m $$
+$$ \tau_{Fh} = F_{h,horizontal} \times 1.30 \m $$
 
 For equilibrium:
 

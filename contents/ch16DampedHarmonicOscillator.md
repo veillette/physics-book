@@ -177,7 +177,7 @@ Identify the known:
     $$d= 1.59 \text{m}. $$
    </div>
 
-**Discussion b**
+__Discussion b__
 
 This is the total distance traveled back and forth across $$x=0 $$ , which is
 the undamped equilibrium position. The number of oscillations about the

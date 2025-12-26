@@ -69,7 +69,7 @@ We will use feet/inches rather than meters here because football fields are
 measured in yards.) One of your friends says 3 in., while another says 10 ft.
 What do you think?
 
-**Strategy**
+__Strategy__
 
 When you imagine the situation, you probably envision thousands of small stacks
 of 100 wrapped $$100 bills, such as you might see in movies or at a bank. Since
@@ -136,7 +136,7 @@ The height of the money will be about 100 in. high. Converting this value to fee
   $$ 100 \text{in.}×\frac{1 \text{ft}}{12 \text{in.}}=8.33 \text{ft}\approx 8 \text{ft.}  $$
 </div>
 
-**Discussion**
+__Discussion__
 
 The final approximate value is much higher than the early estimate of 3 in., but
 the other early estimate of 10 ft (120 in.) was roughly correct. How did the
@@ -173,11 +173,11 @@ How many heartbeats are there in a lifetime?
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 To estimate heartbeats in a lifetime, we need to estimate the average heart rate and average lifespan.
 
-**Solution**
+__Solution__
 
 1. Estimate average heart rate: approximately 70 beats per minute (at rest, it varies but this is a reasonable average including sleep and activity).
 
@@ -204,11 +204,11 @@ A generation is about one-third of a lifetime. Approximately how many generation
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 Estimate the time since year 0 AD, then divide by the length of a generation.
 
-**Solution**
+__Solution__
 
 1. Time since year 0 AD to present (2025):
 <div class="equation">
@@ -225,9 +225,9 @@ $$ \text{Generation length} \approx \frac{70 \text{ years}}{3} \approx 25 \text{
 $$ \text{Number of generations} = \frac{2000 \text{ years}}{25 \text{ years/generation}} = 80 \text{ generations} $$
 </div>
 
-**Answer**
+__Answer__
 
-Approximately **80 generations** have passed since the year 0 AD (assuming about 25 years per generation).
+Approximately __80 generations__ have passed since the year 0 AD (assuming about 25 years per generation).
 
 </div>
 </div>
@@ -239,11 +239,11 @@ nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nu
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 We need to compare the human lifetime to the lifetime of an unstable atomic nucleus by finding their ratio.
 
-**Solution**
+__Solution__
 
 1. From the hint, the lifetime of an unstable atomic nucleus is on the order of $$ 10^{-22} \s $$.
 
@@ -270,11 +270,11 @@ and the mass of a bacterium is on the order of  $$ 10^{-15} \kg  $$) .
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 Divide the total mass of the bacterium by the average mass of an atom to find the number of atoms.
 
-**Solution**
+__Solution__
 
 1. From the hint:
    - Mass of hydrogen atom: $$ m\_{H} \approx 10^{-27} \kg $$
@@ -290,9 +290,9 @@ $$ m_{atom} = 10 \times m_{H} = 10 \times 10^{-27} \kg = 10^{-26} \kg $$
 $$ N = \frac{m_{bact}}{m_{atom}} = \frac{10^{-15} \kg}{10^{-26} \kg} = 10^{11} \text{ atoms} $$
 </div>
 
-**Answer**
+__Answer__
 
-A bacterium contains approximately **10¹¹ atoms** (or about 100 billion atoms).
+A bacterium contains approximately __10¹¹ atoms__ (or about 100 billion atoms).
 
 </div>
 </div>
@@ -306,11 +306,11 @@ Approximately how many atoms thick is a cell membrane, assuming all atoms there 
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 We need to estimate how many atoms fit across the thickness of a cell membrane, given that the atoms are about twice the size of a hydrogen atom.
 
-**Solution**
+__Solution__
 
 1. A typical cell membrane thickness is approximately $$ 10^{-8} \m $$ (or about 10 nm).
 
@@ -338,11 +338,11 @@ Sample answer: 50 atoms
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 Use Table 3 to find the relevant values, then calculate the ratios.
 
-**Solution**
+__Solution__
 
 From Table 3:
 
@@ -350,23 +350,23 @@ From Table 3:
 - Greatest ocean depth: $$ d\_{ocean} = 10^{4} \m $$ (about 10,000 m, or the Mariana Trench at ~11,000 m)
 - Greatest mountain height: $$ h\_{mountain} = 10^{4} \m $$ (Mt. Everest is about 8,850 m)
 
-**(a) Fraction for ocean depth:**
+__(a) Fraction for ocean depth:__
 
 <div class="equation">
 $$ \text{Fraction} = \frac{d_{ocean}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
 </div>
 
-**(b) Fraction for mountain height:**
+__(b) Fraction for mountain height:__
 
 <div class="equation">
 $$ \text{Fraction} = \frac{h_{mountain}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
 </div>
 
-**Answer**
+__Answer__
 
-(a) The greatest ocean depth is approximately **1/1000** (or **0.001** or **10⁻³**) of Earth's diameter.
+(a) The greatest ocean depth is approximately __1/1000__ (or __0.001__ or __10⁻³__) of Earth's diameter.
 
-(b) The greatest mountain height is approximately **1/1000** (or **0.001** or **10⁻³**) of Earth's diameter.
+(b) The greatest mountain height is approximately __1/1000__ (or __0.001__ or __10⁻³__) of Earth's diameter.
 
 Both the deepest ocean trenches and highest mountains are tiny compared to Earth's diameter, representing only about 0.1% of it.
 
@@ -380,18 +380,18 @@ Both the deepest ocean trenches and highest mountains are tiny compared to Earth
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 We need to estimate the number of cells by dividing the total mass by the mass of a single cell (which is 10 times the mass of a bacterium).
 
-**Solution**
+__Solution__
 
 1. From the problem, an average cell mass is ten times the mass of a bacterium. From Table 3, the mass of a bacterium is approximately $$ 10^{-15} \kg $$, so:
 <div class="equation">
 $$ \text{Cell mass} \approx 10 \times 10^{-15} \kg = 10^{-14} \kg $$
 </div>
 
-**(a) Cells in a hummingbird:**
+__(a) Cells in a hummingbird:__
 
 2. The mass of a hummingbird is approximately $$ 10^{-2} \kg $$ (about 10 grams, or roughly 0.01 kg).
 
@@ -400,7 +400,7 @@ $$ \text{Cell mass} \approx 10 \times 10^{-15} \kg = 10^{-14} \kg $$
 $$ \text{Number of cells} = \frac{\text{Hummingbird mass}}{\text{Cell mass}} = \frac{10^{-2} \kg}{10^{-14} \kg} = 10^{12} \text{ cells} $$
 </div>
 
-**(b) Cells in a human:**
+__(b) Cells in a human:__
 
 4. The mass of a human is approximately $$ 10^{2} \kg $$ (about 100 kg, though 70 kg is more typical).
 
@@ -424,11 +424,11 @@ Assuming one nerve impulse must end before another can begin, what is the maximu
 
 </div>
 <div class="solution" markdown="1">
-**Strategy**
+__Strategy__
 
 From Table 3, find the duration of a nerve impulse, then calculate the maximum firing rate.
 
-**Solution**
+__Solution__
 
 1. From Table 3, the duration of a nerve impulse is approximately $$ 10^{-3} \s $$ (or 1 millisecond).
 
@@ -437,9 +437,9 @@ From Table 3, find the duration of a nerve impulse, then calculate the maximum f
 $$ \text{Firing rate} = \frac{1}{\text{Duration}} = \frac{1}{10^{-3} \s} = 10^{3} \text{ impulses/s} = 1000 \text{ Hz} $$
 </div>
 
-**Answer**
+__Answer__
 
-The maximum firing rate of a nerve is approximately **1000 impulses per second** (or **1000 Hz**, or **10³ Hz**).
+The maximum firing rate of a nerve is approximately __1000 impulses per second__ (or __1000 Hz__, or __10³ Hz__).
 
 This is consistent with known biological limits - most neurons fire at rates well below 1000 Hz, with typical maximum rates being a few hundred Hz for most neurons.
 

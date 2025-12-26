@@ -70,13 +70,13 @@ so that
       ')
 {: #Figure2}
 
-The perpendicular lever arm $$ r*{\perp } $$ is the shortest distance from the
+The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
 pivot point to the line along which $$ \vb{F} $$ acts; it is shown as a dashed
 line in [Figure 1](#Figure1)
 and [Figure 2](#Figure2). Note that the line segment that defines the distance $$
-r*{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
-sometimes easier to find or visualize $$ r*{\perp } $$ than to find both $$ r $$
-and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r*
+r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
+sometimes easier to find or visualize $$ r_{\perp } $$ than to find both $$ r $$
+and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_
 {\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
 equally valid.
 
@@ -262,8 +262,8 @@ location of the seesaw’s actual pivot!
 
 Several aspects of the preceding example have broad implications. First, the
 choice of the pivot as the point around which torques are calculated simplified
-the problem. Since $$ F*{\text{p}} $$ is exerted on the pivot point, its lever
-arm is zero. Hence, the torque exerted by the supporting force $$ F*{\text{p}}
+the problem. Since $$ F_{\text{p}} $$ is exerted on the pivot point, its lever
+arm is zero. Hence, the torque exerted by the supporting force $$ F_{\text{p}}
 
 $$
 is zero relative to that pivot point. The second condition for equilibrium

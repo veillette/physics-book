@@ -57,7 +57,7 @@ example, the four legs of a uniform table each support one-fourth of its weight.
 
 In [Figure 1](#Figure1), a pole vaulter holding a pole with its cg halfway between
 his hands is shown. Each hand exerts a force equal to half the weight of the
-pole,$$ F*{R}=F*{L}=w/2 $$.
+pole,$$ F_{R}=F_{L}=w/2 $$.
 (b) The pole vaulter moves the pole to his left, and the forces that the hands
 exert are no longer equal. See [Figure 1](#Figure1). If the pole is held with its
 cg to the left of the person, then he must push down with his right hand and up
@@ -78,13 +78,13 @@ along its length.
 
 If the pole vaulter holds the pole as shown in [Figure 2](#Figure2), the situation
 is not as simple. The total force he exerts is still equal to the weight of the
-pole, but it is not evenly divided between his hands. (If $$ F*
-{L}=F*{R} $$, then the torques about the cg would not be equal since the lever
+pole, but it is not evenly divided between his hands. (If $$ F_
+{L}=F_{R} $$, then the torques about the cg would not be equal since the lever
 arms are different.) Logically, the right hand should support more weight, since
 it is closer to the cg. In fact, if the right hand is moved directly under the
 cg, it will support all the weight. This situation is exactly analogous to two
 people carrying a load; the one closer to the cg carries more of its weight.
-Finding the forces $$ F*{L} $$ and $$ F*{R} $$ is straightforward, as the next
+Finding the forces $$ F_{L} $$ and $$ F_{R} $$ is straightforward, as the next
 example shows.
 
 If the pole vaulter holds the pole from near the end of the
@@ -175,8 +175,8 @@ F_{L}&=& 16.3 \N
 
 **Discussion**
 
-$$ F*{L} $$ is seen to be exactly half of $$ F*{R} $$, as we might have guessed,
-since $$ F*{L} $$ is applied twice as far from the cg as $$ F*{R} $$.
+$$ F_{L} $$ is seen to be exactly half of $$ F_{R} $$, as we might have guessed,
+since $$ F_{L} $$ is applied twice as far from the cg as $$ F_{R} $$.
 
 </div>
 

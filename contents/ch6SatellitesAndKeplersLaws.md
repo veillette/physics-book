@@ -92,13 +92,13 @@ orbiting at an average altitude of 1500 km above Earth’s surface.
 **Strategy**
 
 The period, or time for one orbit, is related to the radius of the orbit by
-Kepler’s third law, given in mathematical form in $$ \frac{ T*{1}^{2}}{ T*
-{2}^{2}}=\frac{ r*{1}^{3}}{ r*{2}^{3}} $$. Let us use the subscript 1 for the
-Moon and the subscript 2 for the satellite. We are asked to find $$ T*{2} $$.
-The given information tells us that the orbital radius of the Moon is $$ r*
-{1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T*{1}=27.3
+Kepler’s third law, given in mathematical form in $$ \frac{ T_{1}^{2}}{ T_
+{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}} $$. Let us use the subscript 1 for the
+Moon and the subscript 2 for the satellite. We are asked to find $$ T_{2} $$.
+The given information tells us that the orbital radius of the Moon is $$ r_
+{1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3
 \text{d} $$. The height of the artificial satellite above Earth’s surface is
-given, and so we must add the radius of Earth (6380 km) to get $$ r*{2}=\left(
+given, and so we must add the radius of Earth (6380 km) to get $$ r_{2}=\left(
 1500 +6380 \right)
 \text{km}=7880 \text{km} $$. Now all quantities are known, and so $$ T\_{2} $$
 can be found.
@@ -382,11 +382,11 @@ of such an orbit based on the data for the moon in [Table 1](#Table1).
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 We'll use Kepler's third law: $$ \frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3} $$. We'll use the Moon's data as reference (subscript 1) and solve for the geosynchronous satellite's orbital radius (subscript 2).
 
-**Solution**
+__Solution__
 
 From Table 1, the Moon has:
 
@@ -416,7 +416,7 @@ $$ r_2 = r_1 \left(\frac{T_2}{T_1}\right)^{2/3} = (3.84 \times 10^5\text{ km})\l
 $$ r_2 = (3.84 \times 10^5)\left(0.0366\right)^{2/3} = (3.84 \times 10^5)(0.110) = 4.23 \times 10^4\text{ km} $$
 </div>
 
-**Discussion**
+__Discussion__
 
 The orbital radius of a geosynchronous satellite is approximately $$ 4.23 \times 10^4 $$ km or 42,300 km from Earth's center. This corresponds to an altitude of about 35,900 km above Earth's surface (subtracting Earth's radius of 6,400 km). At this altitude and with a 24-hour orbital period, the satellite remains fixed above the same point on Earth's equator, making it ideal for communications and weather monitoring.
 
@@ -431,11 +431,11 @@ the value obtained with the Sun's actual mass.
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 
-**Strategy**
+__Strategy__
 
 We'll use the relationship $$ M = \frac{4\pi^2 r^3}{GT^2} $$ derived from Kepler's third law. We know Earth's orbital radius is $$ 1.50 \times 10^{11} $$ m and its period is 1 year.
 
-**Solution**
+__Solution__
 
 Convert Earth's period to seconds:
 
@@ -455,7 +455,7 @@ $$ M = \frac{4\pi^2 (3.375 \times 10^{33})}{(6.67 \times 10^{-11})(9.96 \times 1
 
 The actual mass of the Sun is $$ 1.989 \times 10^{30} $$ kg.
 
-**Discussion**
+__Discussion__
 
 The calculated mass of the Sun based on Earth's orbital data is $$ 2.00 \times 10^{30} $$ kg, which agrees remarkably well with the accepted value of $$ 1.989 \times 10^{30} $$ kg. This excellent agreement validates both Newton's law of universal gravitation and Kepler's laws, demonstrating that we can determine the mass of distant celestial bodies simply by observing the orbital motion of objects around them.
 
@@ -469,11 +469,11 @@ Find the mass of Jupiter based on data for the orbit of one of its moons, and co
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 We'll use the relationship $$ \frac{r^3}{T^2} = \frac{GM}{4\pi^2} $$ derived from Kepler's third law to find Jupiter's mass $$ M $$. We can use data for any of Jupiter's moons from Table 1. Let's use Io's data.
 
-**Solution**
+__Solution__
 
 From Table 1, Io has:
 
@@ -498,7 +498,7 @@ $$ M = \frac{4\pi^2 (7.51 \times 10^{25})}{(6.67 \times 10^{-11})(2.34 \times 10
 
 The actual mass of Jupiter is $$ 1.90 \times 10^{27} $$ kg.
 
-**Discussion**
+__Discussion__
 
 The calculated mass of Jupiter based on Io's orbital data is $$ 1.90 \times 10^{27} $$ kg, which matches Jupiter's actual mass perfectly (to three significant figures). This demonstrates the power of Kepler's laws and Newton's law of gravitation - we can determine the mass of a distant planet simply by observing the motion of its satellites. This same technique has been used to find the masses of all planets with moons, as well as stars with orbiting planets.
 
@@ -512,11 +512,11 @@ Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 
-**Strategy**
+__Strategy__
 
 We'll use Kepler's third law in the form $$ \frac{r^3}{T^2} = \frac{GM}{4\pi^2} $$ for both Jupiter (with its moon) and Earth (with its moon). Taking the ratio will allow $$ G $$ and $$4\pi^2$$ to cancel, leaving us with the mass ratio.
 
-**Solution**
+__Solution__
 
 From Kepler's third law:
 
@@ -544,7 +544,7 @@ From Table 1, we can read the $$ r^3/T^2 $$ values directly:
 $$ \frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21}}{1.01 \times 10^{19}} = 316 $$
 </div>
 
-**Discussion**
+__Discussion__
 
 Jupiter's mass is approximately 316 times Earth's mass. This enormous mass difference reflects Jupiter's status as a gas giant - it contains more than twice the mass of all other planets in our solar system combined. The fact that we can calculate this mass ratio simply from observational data in Table 1 demonstrates the elegance and power of Kepler's laws. Remarkably, Jupiter is so massive that the Sun-Jupiter center of mass actually lies slightly outside the Sun's surface, making it almost a binary star system rather than a simple planet-star system.
 
@@ -566,12 +566,12 @@ very massive black holes at the centers of some galaxies.
 </div>
 <div class="solution" markdown="1">
 
-**Strategy**
+__Strategy__
 
 (a) We'll use $$ T^2 = \frac{4\pi^2}{GM}r^3 $$ to find the orbital period. We need to convert units: 1 solar mass $$ = 1.99 \times 10^{30} $$ kg, and 1 light year $$ = 9.46 \times 10^{15} $$ m.
 (b) We'll use the same equation solved for mass: $$ M = \frac{4\pi^2 r^3}{GT^2} $$.
 
-**Solution**
+__Solution__
 
 (a) Convert the given values to SI units:
 
@@ -606,7 +606,7 @@ $$ M = \frac{7.25 \times 10^{63}}{2.38 \times 10^{31}} = 3.05 \times 10^{42}\tex
 
 Convert to solar masses: $$ M = \frac{3.05 \times 10^{42}}{1.99 \times 10^{30}} = 1.5 \times 10^{12} $$ solar masses
 
-**Discussion**
+__Discussion__
 
 (a) Based on the observed mass of $$ 8.0 \times 10^{11} $$ solar masses, the star should have an orbital period of about $$ 8.3 \times 10^7 $$ years. (b) However, if the actual observed period is $$ 6.0 \times 10^7 $$ years (faster than expected), this implies the galaxy has a mass of about $$ 1.5 \times 10^{12} $$ solar masses - nearly twice the visible mass. This discrepancy is evidence for "dark matter" - matter that doesn't emit light but exerts gravitational force. Such calculations have revolutionized our understanding of galactic structure and the composition of the universe.
 
@@ -616,7 +616,7 @@ Convert to solar masses: $$ M = \frac{3.05 \times 10^{42}}{1.99 \times 10^{30}} 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
-**Integrated Concepts**
+__Integrated Concepts__
 
 Space debris left from old satellites and their launchers is becoming a hazard
 to other satellites.
@@ -635,7 +635,7 @@ rivet’s.)
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
 
-**Strategy**
+__Strategy__
 
 (a) We'll use $$ v = \sqrt{\frac{GM}{r}} $$ where $$ r $$ is the distance from Earth's center.
 (b) Since the orbits intersect at 90°, the velocities are perpendicular, so we'll use the Pythagorean theorem: $$ v_{\text{rel}} = \sqrt{v_1^2 + v_2^2} $$.
@@ -643,7 +643,7 @@ rivet’s.)
 (d) We'll use impulse-momentum: $$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} $$.
 (e) We'll calculate the kinetic energy lost by the rivet.
 
-**Solution**
+__Solution__
 
 (a) Calculate satellite orbital speed. The orbital radius is:
 
@@ -683,7 +683,7 @@ $$ F_{\text{avg}} = \frac{5.25}{2.86 \times 10^{-7}} = 1.84 \times 10^7\text{ N}
 $$ E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3})(1.05 \times 10^4)^2 = (2.50 \times 10^{-4})(1.10 \times 10^8) = 2.76 \times 10^4\text{ J} $$
 </div>
 
-**Discussion**
+__Discussion__
 
 This problem illustrates the serious hazard posed by space debris. Even though the rivet is tiny (3 mm, 0.5 g), the relative velocity of 10.5 km/s creates enormous forces and energy. The average force of 18.4 million newtons during the microsecond-long collision is equivalent to the weight of about 1,880 tons! The 27.6 kJ of energy released is comparable to a small explosive. This is why even paint flecks in orbit can damage spacecraft windows, and why tracking and avoiding space debris is critical for satellite and space station safety. The problem also demonstrates why the International Space Station has shielding and why astronauts performing spacewalks face real danger from hypervelocity impacts.
 
@@ -693,7 +693,7 @@ This problem illustrates the serious hazard posed by space debris. Even though t
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
-**Unreasonable Results**
+__Unreasonable Results__
 
 (a) Based on Kepler’s laws and information on the orbital characteristics of the
 Moon, calculate the orbital radius for an Earth satellite having a period of
@@ -703,13 +703,13 @@ Moon, calculate the orbital radius for an Earth satellite having a period of
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-**Strategy**
+__Strategy__
 
 Use Kepler's third law to relate the orbital period and radius. We know the Moon's orbital characteristics, so we can set up a ratio or use the derived form of Kepler's third law with Earth's mass.
 
-**Solution**
+__Solution__
 
-**(a) Calculate the orbital radius:**
+__(a) Calculate the orbital radius:__
 
 Using Kepler's third law for Earth satellites:
 
@@ -723,7 +723,7 @@ Solving for $$ r $$:
 $$ r = \left(\frac{GM_{\text{Earth}}T^2}{4\pi^2}\right)^{1/3} $$
 </div>
 
-**Given:**
+__Given:__
 - Period: $$ T = 1.00\text{ h} = 3600\text{ s} $$
 - $$ G = 6.674 \times 10^{-11}\text{ N·m}^2/\text{kg}^2 $$
 - $$ M_{\text{Earth}} = 5.972 \times 10^{24}\text{ kg} $$
@@ -744,13 +744,13 @@ $$ r = \left(\frac{5.17 \times 10^{21}}{39.48}\right)^{1/3} = (1.31 \times 10^{2
 $$ r = 5.08 \times 10^{6}\text{ m} = 5.08 \times 10^{3}\text{ km} = 5080\text{ km} $$
 </div>
 
-**(b) What is unreasonable about this result?**
+__(b) What is unreasonable about this result?__
 
-The calculated orbital radius of 5080 km is **less than Earth's radius** of 6371 km. This means the satellite would need to orbit inside the Earth, which is physically impossible. An orbit can only exist if the satellite is above Earth's surface.
+The calculated orbital radius of 5080 km is __less than Earth's radius__ of 6371 km. This means the satellite would need to orbit inside the Earth, which is physically impossible. An orbit can only exist if the satellite is above Earth's surface.
 
-**(c) What is unreasonable about the premise?**
+__(c) What is unreasonable about the premise?__
 
-The premise of a 1-hour orbital period is physically impossible for an Earth satellite. The **minimum possible orbital period** occurs when a satellite orbits just above Earth's surface (ignoring atmospheric drag). This minimum period can be calculated:
+The premise of a 1-hour orbital period is physically impossible for an Earth satellite. The __minimum possible orbital period__ occurs when a satellite orbits just above Earth's surface (ignoring atmospheric drag). This minimum period can be calculated:
 
 <div class="equation">
 $$ T_{\text{min}} = 2\pi\sqrt{\frac{R_{\text{Earth}}^3}{GM_{\text{Earth}}}} = 2\pi\sqrt{\frac{(6.371 \times 10^{6})^3}{3.985 \times 10^{14}}} $$
@@ -762,17 +762,17 @@ $$ T_{\text{min}} = 2\pi\sqrt{\frac{2.586 \times 10^{20}}{3.985 \times 10^{14}}}
 
 Therefore, the minimum orbital period for an Earth satellite is about 84.4 minutes. A 60-minute (1-hour) orbit would require the satellite to be inside Earth, which is impossible.
 
-**Discussion**
+__Discussion__
 
 This problem illustrates an important physical constraint: there is a minimum orbital period for any spherical body determined by its density. For Earth, this minimum is about 84-85 minutes. The International Space Station, orbiting at about 400 km altitude, has a period of approximately 92 minutes. Satellites in lower orbits have shorter periods, but they can never go below the ~84-minute minimum. Interestingly, this minimum period depends only on the planet's average density - a larger planet with the same density would have the same minimum period. This is why the minimum period can be expressed as $$ T_{\text{min}} = \sqrt{\frac{3\pi}{G\rho}} $$, where $$ \rho $$ is the average density.
 
-**Answer**
+__Answer__
 
 (a) The orbital radius would be $$ 5.08 \times 10^{3}\text{ km} $$ (5080 km).
 
-(b) This radius is unreasonable because it is **less than Earth's radius** (6371 km), meaning the satellite would have to orbit inside the Earth.
+(b) This radius is unreasonable because it is __less than Earth's radius__ (6371 km), meaning the satellite would have to orbit inside the Earth.
 
-(c) The premise of a 1-hour orbit is physically impossible. The **minimum orbital period** for an Earth satellite is about **84.4 minutes**, which occurs at Earth's surface. No satellite can orbit faster than this around Earth.
+(c) The premise of a 1-hour orbit is physically impossible. The __minimum orbital period__ for an Earth satellite is about __84.4 minutes__, which occurs at Earth's surface. No satellite can orbit faster than this around Earth.
 
 </div>
 </div>
@@ -780,7 +780,7 @@ This problem illustrates an important physical constraint: there is a minimum or
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
-**Construct Your Own Problem**
+__Construct Your Own Problem__
 
 On February 14, 2000, the NEAR spacecraft was successfully inserted into orbit
 around Eros, becoming the first artificial satellite of an asteroid. Construct a
