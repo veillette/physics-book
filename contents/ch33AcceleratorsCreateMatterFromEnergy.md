@@ -233,6 +233,29 @@ Suppose a  $${W}^{-} $$
  lifetime, which can be due to the statistical nature of decay or time dilation.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The distance traveled by a particle is simply the product of its velocity and time: $$d = vt$$. We are given that the $${W}^{-}$$ travels at $$0.900c$$ for a time of $$5.00 \times 10^{-25}$$ s.
+
+**Solution**
+
+Calculate the distance:
+
+<div class="equation">
+$$d = vt = (0.900)(3.00 \times 10^8 \text{ m/s})(5.00 \times 10^{-25} \text{ s})$$
+</div>
+
+<div class="equation">
+$$d = 1.35 \times 10^{-16} \text{ m} = 0.135 \text{ fm}$$
+</div>
+
+**Discussion**
+
+This distance is incredibly small—only 0.135 femtometers, which is about one-seventh the diameter of a proton (approximately 1 fm). This is far too short to produce a visible track in a bubble chamber, which typically requires distances of micrometers or more. Therefore, the existence of the $${W}^{-}$$ particle must be inferred indirectly from its decay products rather than from direct observation of its track. The short lifetime and high speed of the $${W}^{-}$$ are characteristic of particles that mediate the weak nuclear force. The fact that the particle lives for $$5.00 \times 10^{-25}$$ s (longer than its rest lifetime of $$1.6 \times 10^{-25}$$ s from the particle tables) can be explained by time dilation—at $$0.900c$$, the relativistic $$\gamma$$ factor extends the observed lifetime in the laboratory frame.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -253,6 +276,29 @@ What length track does a  $${\pi }^{+} $$
 The 3.20-km-long SLAC produces a beam of 50.0-GeV electrons. If there are 15 000 accelerating tubes, what average voltage must be across the gaps between them to achieve this energy?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem is analogous to the worked example in this section. Each gap provides an energy boost equal to $$qV$$, where $$q$$ is the charge of the electron and $$V$$ is the voltage across the gap. Since $$1 \text{ eV} = (1 \text{ V})(1.6 \times 10^{-19} \text{ C})$$, an electron gains 1 eV for each volt it passes through. The total energy equals the number of gaps times the voltage per gap.
+
+**Solution**
+
+The total energy is 50.0 GeV, which must equal the sum of energies gained across all gaps. There are 15,000 gaps (between 15,000 tubes), so:
+
+<div class="equation">
+$$V_{\text{gap}} = \frac{\text{Total Energy}}{\text{Number of gaps}} = \frac{50.0 \text{ GeV}}{15,000}$$
+</div>
+
+<div class="equation">
+$$V_{\text{gap}} = \frac{50.0 \times 10^9 \text{ eV}}{15,000} = 3.33 \times 10^6 \text{ eV} = 3.33 \text{ MV}$$
+</div>
+
+**Discussion**
+
+An average voltage of 3.33 million volts per gap is required. This is a substantial voltage but achievable in a vacuum environment. The advantage of using many accelerating tubes is that the voltage per gap can be kept at a manageable level while still achieving very high total energies. In SLAC's linear design, particles make a single pass through all the gaps, unlike in circular accelerators where particles can orbit many times. The 3.20-km length of SLAC was specifically chosen to accommodate the number of accelerating structures needed to reach 50 GeV with practically achievable gap voltages. Modern linear accelerators continue to use this principle, balancing the length of the machine against the voltage gradients that can be sustained in each accelerating structure.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -268,6 +314,37 @@ Because of energy loss due to synchrotron radiation in the LHC at CERN, only 5.0
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A proton and an antiproton collide head-on, with each having a kinetic energy of 7.00 TeV (such as in the LHC at CERN). How much collision energy is available, taking into account the annihilation of the two masses? (Note that this is not significantly greater than the extremely relativistic kinetic energy.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The total collision energy available includes the kinetic energy of both particles plus their rest mass energies. When a proton and antiproton annihilate, both their masses are converted to energy according to $$E = mc^2$$. The rest mass energy of a proton (or antiproton) is 938.3 MeV or 0.9383 GeV.
+
+**Solution**
+
+The total collision energy is the sum of:
+- Kinetic energy of the proton: 7.00 TeV = 7000 GeV
+- Kinetic energy of the antiproton: 7.00 TeV = 7000 GeV
+- Rest mass energy of the proton: 0.938 GeV
+- Rest mass energy of the antiproton: 0.938 GeV
+
+<div class="equation">
+$$E_{\text{total}} = KE_p + KE_{\overline{p}} + m_p c^2 + m_{\overline{p}} c^2$$
+</div>
+
+<div class="equation">
+$$E_{\text{total}} = 7000 \text{ GeV} + 7000 \text{ GeV} + 0.938 \text{ GeV} + 0.938 \text{ GeV}$$
+</div>
+
+<div class="equation">
+$$E_{\text{total}} = 14,001.876 \text{ GeV} \approx 14.0 \text{ TeV}$$
+</div>
+
+**Discussion**
+
+The total collision energy is approximately 14.0 TeV, which is essentially just twice the kinetic energy (14.0 TeV versus 14.00 TeV). The rest mass energies of the proton and antiproton contribute only about 1.88 GeV out of 14,000 GeV total—less than 0.014% of the total energy. This confirms the note in the problem that the annihilation energy is not significantly greater than the extremely relativistic kinetic energy. At these ultra-high energies, the particles are moving at speeds extremely close to the speed of light, and their kinetic energies vastly exceed their rest mass energies. This is characteristic of the ultra-relativistic regime. The advantage of colliding beams is evident here: all 14 TeV is available for particle creation, whereas if a 7 TeV proton struck a stationary target, much of the energy would go into recoil momentum rather than particle creation.
 
 </div>
 </div>
