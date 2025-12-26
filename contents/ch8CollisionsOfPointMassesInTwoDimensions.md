@@ -38,8 +38,8 @@ particles is initially at rest. (
 See [Figure 1](#Figure1).) The best choice for a coordinate system is one with an
 axis parallel to the velocity of the incoming particle, as shown
 in [Figure 1](#Figure1). Because momentum is conserved, the components of momentum
-along the $$ x $$- and $$ y $$-axes $$ \left( p_{x}\text{ and } p*{y}\right) $$
-will also be conserved, but with the chosen coordinate system, $$ p*{y} $$ is
+along the $$ x $$- and $$ y $$-axes $$ \left( p_{x}\text{ and } p_{y}\right) $$
+will also be conserved, but with the chosen coordinate system, $$ p_{y} $$ is
 initially zero and $$ p\_{x} $$ is the momentum of the incoming particle. Both
 facts simplify the analysis. ( Even with the simplifying assumptions of point
 masses, one particle initially at rest, and a convenient coordinate system, we
@@ -71,7 +71,7 @@ But because particle 2 is initially at rest, this equation becomes
 
 The components of the velocities along the $$ x $$ -axis have the form $$
 v\cos{\theta} $$. Because particle 1 initially moves along the $$ x $$ -axis, we
-find $$ v*{1x}= v*{1} $$.
+find $$ v_{1x}= v_{1} $$.
 
 Conservation of momentum along the $$ x $$ -axis gives the following equation:
 
@@ -102,8 +102,8 @@ or
  $$ m_{1} v_{1y}+ m_{2} v_{2y}= m_{1}v^{\prime}_{1y}+ m_{2}v^{\prime}_{2y}. $$
 </div>
 
-But $$ v*{1y} $$ is zero, because particle 1 initially moves along the $$ x $$
--axis. Because particle 2 is initially at rest, $$ v*{2y} $$ is also zero. The
+But $$ v_{1y} $$ is zero, because particle 1 initially moves along the $$ x $$
+-axis. Because particle 2 is initially at rest, $$ v_{2y} $$ is also zero. The
 equation for conservation of momentum along the $$ y $$ -axis becomes
 
 <div class="equation">
@@ -164,9 +164,9 @@ conservation of momentum in the $$ x $$- and $$ y $$ -directions.
 
 **Solution**
 
-Solving $$ m*{1} v*{1}= m*{1}v^{\prime}*{1}\cos{\theta }_{1}+ m_{2}v^{\prime}_
-{2}\cos{\theta }_{2} $$ for $$ v*{2}^{\prime }\cos{\theta*{2}} $$ and $$ 0= m*
-{1}v^{\prime}*{1}\sin{\theta }_{1}+ m_{2}v^{\prime}_{2}\sin{\theta }_{2} $$ for
+Solving $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta }_{1}+ m_{2}v^{\prime}_
+{2}\cos{\theta }_{2} $$ for $$ v_{2}^{\prime }\cos{\theta_{2}} $$ and $$ 0= m_
+{1}v^{\prime}_{1}\sin{\theta }_{1}+ m_{2}v^{\prime}_{2}\sin{\theta }_{2} $$ for
 $$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
 in which $$ \theta_2 $$ is the only unknown quantity. Applying the identity $$
 \left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
@@ -233,7 +233,7 @@ before and after the collision of two objects that have equal masses is
  $$ \frac{1}{2}m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime}}_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}. $$
 </div>
 
-Because the masses are equal, $$ m*{1}=m*{2}=m $$. Algebraic manipulation (left
+Because the masses are equal, $$ m_{1}=m_{2}=m $$. Algebraic manipulation (left
 to the reader) of conservation of momentum in the $$ x $$- and $$ y $$
 -directions can show that
 
@@ -254,8 +254,8 @@ There are three ways that this term can be zero. They are
 
 - $$ v^{\prime}\_{2}=0 $$: no collision; incoming ball continues unaffected
 
-- $$ \cos\left({\theta*{1}}-{\theta*{2}}\right)=0 $$: angle of separation $$
-  \left({\theta*{1}}-{\theta*{2}}\right) $$ is $$ 90^\circ $$ after the
+- $$ \cos\left({\theta_{1}}-{\theta_{2}}\right)=0 $$: angle of separation $$
+  \left({\theta_{1}}-{\theta_{2}}\right) $$ is $$ 90^\circ $$ after the
   collision
 
 All three of these ways are familiar occurrences in billiards and pool, although
@@ -288,10 +288,10 @@ the atomic nucleus from such experiments.
   velocity of the incoming particle.
 - Two-dimensional collisions of point masses where mass 2 is initially at rest
   conserve momentum along the initial direction of mass 1 (the $$ x $$ -axis),
-  stated by $$ m*{1} v*{1} = m*{1} v^{\prime}*{1} \cos{\theta }_{1}+m_
+  stated by $$ m_{1} v_{1} = m_{1} v^{\prime}_{1} \cos{\theta }_{1}+m_
   {2}v^{\prime}_{2} \cos{\theta }_{2} $$ and along the direction perpendicular
-  to the initial direction (the $$ y $$ -axis) stated by $$ 0= m*{1}v^{\prime}*
-  {1y}+m*{2}v^{\prime}*{2y} $$.
+  to the initial direction (the $$ y $$ -axis) stated by $$ 0= m_{1}v^{\prime}_
+  {1y}+m_{2}v^{\prime}_{2y} $$.
 - The internal kinetic before and after the collision of two objects that have
 equal masses is
   <div class="equation">
@@ -409,7 +409,7 @@ $$ p\_{x,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(0.662) $$
 
 $$ p\_{x,f} = 0.265 \kg \cdot \ms + 0.235 \kg \cdot \ms = 0.500 \kg \cdot \ms $$
 
-Since $$ p*{x,i} = p*{x,f} = 0.500 \kg \cdot \ms $$, x-momentum is conserved. ✓
+Since $$ p_{x,i} = p_{x,f} = 0.500 \kg \cdot \ms $$, x-momentum is conserved. ✓
 
 **y-direction momentum:**
 
@@ -423,7 +423,7 @@ $$ p\_{y,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(-0.749) $$
 
 $$ p\_{y,f} = 0.265 \kg \cdot \ms - 0.265 \kg \cdot \ms = 0 $$
 
-Since $$ p*{y,i} = p*{y,f} = 0 $$, y-momentum is conserved. ✓
+Since $$ p_{y,i} = p_{y,f} = 0 $$, y-momentum is conserved. ✓
 
 **Discussion**
 
@@ -452,19 +452,19 @@ Since the cannon can only recoil horizontally, we apply conservation of momentum
 
 Find the horizontal component of the shell's velocity:
 
-$$ v*{\text{shell},x} = v*{\text{shell}} \cos{20.0^\circ} = (480 \ms)(0.940) = 451 \ms $$
+$$ v_{\text{shell},x} = v_{\text{shell}} \cos{20.0^\circ} = (480 \ms)(0.940) = 451 \ms $$
 
 Apply conservation of horizontal momentum (initial momentum = 0):
 
-$$ 0 = m*{\text{cannon}} v*{\text{cannon}} + m*{\text{shell}} v*{\text{shell},x} $$
+$$ 0 = m_{\text{cannon}} v_{\text{cannon}} + m_{\text{shell}} v_{\text{shell},x} $$
 
-$$ v*{\text{cannon}} = -\frac{m*{\text{shell}} v*{\text{shell},x}}{m*{\text{cannon}}} = -\frac{(15.0 \kg)(451 \ms)}{3000 \kg} = -2.26 \ms $$
+$$ v_{\text{cannon}} = -\frac{m_{\text{shell}} v_{\text{shell},x}}{m_{\text{cannon}}} = -\frac{(15.0 \kg)(451 \ms)}{3000 \kg} = -2.26 \ms $$
 
 The cannon recoils at 2.26 m/s in the direction opposite to the horizontal component of the shell's motion.
 
 **Solution for (b)**
 
-$$ \KE*{\text{cannon}} = \frac{1}{2} m*{\text{cannon}} v\_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.26 \ms)^2 = 7.66 \times 10^{3} \J $$
+$$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v\_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.26 \ms)^2 = 7.66 \times 10^{3} \J $$
 
 The kinetic energy of the cannon is approximately $$ 7.63 \times 10^{3} \J $$ (7.63 kJ).
 
@@ -472,7 +472,7 @@ The kinetic energy of the cannon is approximately $$ 7.63 \times 10^{3} \J $$ (7
 
 The vertical component of the shell's momentum is:
 
-$$ p*{\text{shell},y} = m*{\text{shell}} v\_{\text{shell}} \sin{20.0^\circ} = (15.0 \kg)(480 \ms)(0.342) = 2460 \kg \cdot \ms $$
+$$ p_{\text{shell},y} = m_{\text{shell}} v\_{\text{shell}} \sin{20.0^\circ} = (15.0 \kg)(480 \ms)(0.342) = 2460 \kg \cdot \ms $$
 
 Since the cannon cannot move vertically, this momentum is transferred to the ground through the cannon's mounting. The ground exerts an upward normal force on the cannon that absorbs this vertical momentum. Over time, repeated firings transfer significant momentum to the ground, which can cause the cannon to sink or shift, affecting aim accuracy.
 
@@ -506,7 +506,7 @@ We apply conservation of momentum in both x and y directions to find the ball's 
 
 Conservation of x-momentum:
 
-$$ m*{\text{ball}} v*{\text{ball}} = m*{\text{ball}} v'*{\text{ball},x} + m*{\text{pin}} v'*{\text{pin}} \cos{85.0^\circ} $$
+$$ m_{\text{ball}} v_{\text{ball}} = m_{\text{ball}} v'_{\text{ball},x} + m_{\text{pin}} v'_{\text{pin}} \cos{85.0^\circ} $$
 
 $$ (5.50)(9.00) = (5.50) v'\_{\text{ball},x} + (0.850)(15.0)(0.0872) $$
 
@@ -516,7 +516,7 @@ $$ v'\_{\text{ball},x} = \frac{49.5 - 1.11}{5.50} = 8.80 \ms $$
 
 Conservation of y-momentum (initially zero):
 
-$$ 0 = m*{\text{ball}} v'*{\text{ball},y} + m*{\text{pin}} v'*{\text{pin}} \sin{85.0^\circ} $$
+$$ 0 = m_{\text{ball}} v'_{\text{ball},y} + m_{\text{pin}} v'_{\text{pin}} \sin{85.0^\circ} $$
 
 $$ v'\_{\text{ball},y} = -\frac{(0.850)(15.0)(0.996)}{5.50} = -2.31 \ms $$
 
@@ -602,13 +602,13 @@ Define coordinates: let +x be east and +y be north. Car 1 moves south (-y direct
 
 **Solution for (a)**
 
-Car 1: $$ m*1 = 1200 \kg $$, $$ v*{1x} = 0 $$, $$ v\_{1y} = -8.00 \ms $$ (south)
+Car 1: $$ m_1 = 1200 \kg $$, $$ v_{1x} = 0 $$, $$ v\_{1y} = -8.00 \ms $$ (south)
 
-Car 2: $$ m*2 = 850 \kg $$, $$ v*{2x} = -17.0 \ms $$ (west), $$ v\_{2y} = 0 $$
+Car 2: $$ m_2 = 850 \kg $$, $$ v_{2x} = -17.0 \ms $$ (west), $$ v\_{2y} = 0 $$
 
 Conservation of x-momentum:
 
-$$ m*1 v*{1x} + m*2 v*{2x} = (m*1 + m_2) v*{fx} $$
+$$ m_1 v_{1x} + m_2 v_{2x} = (m_1 + m_2) v_{fx} $$
 
 $$ (1200)(0) + (850)(-17.0) = (2050) v\_{fx} $$
 
@@ -616,7 +616,7 @@ $$ v\_{fx} = \frac{-14450}{2050} = -7.05 \ms $$
 
 Conservation of y-momentum:
 
-$$ m*1 v*{1y} + m*2 v*{2y} = (m*1 + m_2) v*{fy} $$
+$$ m_1 v_{1y} + m_2 v_{2y} = (m_1 + m_2) v_{fy} $$
 
 $$ (1200)(-8.00) + (850)(0) = (2050) v\_{fy} $$
 
@@ -624,11 +624,11 @@ $$ v\_{fy} = \frac{-9600}{2050} = -4.68 \ms $$
 
 Final velocity magnitude:
 
-$$ v*f = \sqrt{v*{fx}^2 + v\_{fy}^2} = \sqrt{(-7.05)^2 + (-4.68)^2} = \sqrt{49.7 + 21.9} = 8.46 \ms $$
+$$ v_f = \sqrt{v_{fx}^2 + v\_{fy}^2} = \sqrt{(-7.05)^2 + (-4.68)^2} = \sqrt{49.7 + 21.9} = 8.46 \ms $$
 
 Direction (angle from west toward south):
 
-$$ \theta = \tan^{-1}\left(\frac{|v*{fy}|}{|v*{fx}|}\right) = \tan^{-1}\left(\frac{4.68}{7.05}\right) = 33.6^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68}{7.05}\right) = 33.6^\circ $$
 
 The final velocity is 8.46 m/s in a direction $$ 33.6^\circ $$ south of west.
 
@@ -727,9 +727,9 @@ First, use conservation of momentum to find the player's recoil velocity. Then c
 
 Conservation of momentum (both initially at rest):
 
-$$ 0 = m*{\text{player}} v*{\text{player}} + m*{\text{puck}} v*{\text{puck}} $$
+$$ 0 = m_{\text{player}} v_{\text{player}} + m_{\text{puck}} v_{\text{puck}} $$
 
-$$ v*{\text{player}} = -\frac{m*{\text{puck}} v*{\text{puck}}}{m*{\text{player}}} = -\frac{(0.150 \kg)(45.0 \ms)}{90.0 \kg} = -0.0750 \ms $$
+$$ v_{\text{player}} = -\frac{m_{\text{puck}} v_{\text{puck}}}{m_{\text{player}}} = -\frac{(0.150 \kg)(45.0 \ms)}{90.0 \kg} = -0.0750 \ms $$
 
 The player recoils at 0.0750 m/s in the direction opposite to the puck.
 
@@ -739,7 +739,7 @@ $$ t = \frac{d}{v\_{\text{puck}}} = \frac{15.0 \m}{45.0 \ms} = 0.333 \s $$
 
 Distance the player recoils in this time:
 
-$$ d*{\text{player}} = |v*{\text{player}}| \times t = (0.0750 \ms)(0.333 \s) = 0.0250 \m = 2.50 \text{ cm} $$
+$$ d_{\text{player}} = |v_{\text{player}}| \times t = (0.0750 \ms)(0.333 \s) = 0.0250 \m = 2.50 \text{ cm} $$
 
 The player recoils 2.50 cm (0.025 m) in the time it takes the puck to reach the goal.
 

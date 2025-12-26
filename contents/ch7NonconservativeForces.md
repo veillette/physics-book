@@ -68,8 +68,8 @@ so that
  $$ W_{\text{nc}}+ W_{c}=\Delta \KE, $$
 </div>
 
-where $$ W*{\text{nc}} $$ is the total work done by all nonconservative forces
-and $$ W*{\text{c}} $$ is the total work done by all conservative forces.
+where $$ W_{\text{nc}} $$ is the total work done by all nonconservative forces
+and $$ W_{\text{c}} $$ is the total work done by all conservative forces.
 
 ![A person pushing a heavy box up an incline. A force F p applied by the person is shown by a vector pointing up the incline. And frictional force f is shown by a vector pointing down the incline, acting on the box.](../resources/Figure_07_05_03.jpg 'A person pushes a crate up a ramp, doing work on the crate. Friction and gravitational force (not shown) also do work on the crate; both forces oppose the person’s push. As the crate is pushed up the ramp, it gains mechanical energy, implying that the work done by the person is greater than the work done by friction.')
 {: #Figure3}
@@ -77,8 +77,8 @@ and $$ W*{\text{c}} $$ is the total work done by all conservative forces.
 Consider [Figure 3](#Figure3), in which a person pushes a crate up a ramp and is
 opposed by friction. As in the previous section, we note that work done by a
 conservative force comes from a loss of gravitational potential energy, so that
-$$ W*{\text{c}}=-\Delta \PE $$. Substituting this equation into the previous one
-and solving for $$ W*{\text{nc}} $$ gives
+$$ W_{\text{c}}=-\Delta \PE $$. Substituting this equation into the previous one
+and solving for $$ W_{\text{nc}} $$ gives
 
 <div class="equation">
  $$ W_{\text{nc}}=\Delta \KE+\Delta \PE . $$
@@ -202,9 +202,9 @@ by the equation
 
 **Solution**
 
-The work done by friction is again $$ W*{\text{nc}}=-f d $$; initially the
-potential energy is $$ \PE*{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE*
-{i}=\frac{1}{2} m v*{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
+The work done by friction is again $$ W_{\text{nc}}=-f d $$; initially the
+potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_
+{i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
 $$ for the kinetic energy and $$ \PE\_{f}=mgh = m g d \sin{\theta} $$ for the
 potential energy.
 

@@ -54,13 +54,13 @@ Calculate the force the biceps muscle must exert to hold the forearm and its loa
 **Strategy**
 
 There are four forces acting on the forearm and its load (the system of
-interest). The magnitude of the force of the biceps is $$ F*{\text{B}} $$; that
-of the elbow joint is $$ F*{\text{E}} $$; that of the weights of the forearm is
-$$ w*{\text{a}} $$, and its load is $$ w*{\text{b}} $$. Two of these are
-unknown ( $$ F*{\text{B}} $$ and $$ F*{\text{E}} $$), so that the first
-condition for equilibrium cannot by itself yield $$ F*
+interest). The magnitude of the force of the biceps is $$ F_{\text{B}} $$; that
+of the elbow joint is $$ F_{\text{E}} $$; that of the weights of the forearm is
+$$ w_{\text{a}} $$, and its load is $$ w_{\text{b}} $$. Two of these are
+unknown ( $$ F_{\text{B}} $$ and $$ F_{\text{E}} $$), so that the first
+condition for equilibrium cannot by itself yield $$ F_
 {\text{B}} $$. But if we use the second condition and choose the pivot to be at
-the elbow, then the torque due to $$ F*{\text{E}} $$ is zero, and the only
+the elbow, then the torque due to $$ F_{\text{E}} $$ is zero, and the only
 unknown becomes $$ F\_{\text{B}} $$.
 
 **Solution**
@@ -112,9 +112,9 @@ the biceps muscle can exert depends upon its length; it is smaller when it is
 shorter than when it is stretched.
 
 Very large forces are also created in the joints. In the previous example, the
-downward force $$ F*{\text{E}} $$ exerted by the humerus at the elbow joint
+downward force $$ F_{\text{E}} $$ exerted by the humerus at the elbow joint
 equals 407 N, or 6.38 times the total weight supported. (The calculation of $$
-F*{\text{E}} $$ is straightforward and is left as an end-of-chapter problem.)
+F_{\text{E}} $$ is straightforward and is left as an end-of-chapter problem.)
 Because muscles can contract, but not expand beyond their resting length, joints
 and muscles often exert forces that act in opposite directions and thus
 subtract. (In the above example, the upward force of the muscle minus the
@@ -212,8 +212,8 @@ in the figure may be taken to be accurate to three significant figures.
 
 By now, we sense that the second condition for equilibrium is a good place to
 start, and inspection of the known values confirms that it can be used to solve
-for $$ F*{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
-created by $$ \vb{w}*{\text{ub}} $$ and $$ \vb{w}_
+for $$ F_{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
+created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_
 {\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_
 {\text{B}}– $$ is counterclockwise.
 
@@ -354,9 +354,9 @@ We analyze the lever systems in the body, noting that muscles attach close to jo
 
 The forces exerted on the outside world are smaller than muscle forces because **muscles attach very close to joints**, giving most body lever systems a mechanical advantage much less than 1.
 
-From the lever equation: $$ F*{\text{out}} \cdot l*{\text{out}} = F*{\text{muscle}} \cdot l*{\text{muscle}} $$
+From the lever equation: $$ F_{\text{out}} \cdot l_{\text{out}} = F_{\text{muscle}} \cdot l_{\text{muscle}} $$
 
-Since $$ l*{\text{muscle}} << l*{\text{out}} $$, we have $$ F*{\text{muscle}} >> F*{\text{out}} $$.
+Since $$ l_{\text{muscle}} << l_{\text{out}} $$, we have $$ F_{\text{muscle}} >> F_{\text{out}} $$.
 
 For example, in the forearm ([Figure 1](#Figure1)):
 
@@ -387,10 +387,10 @@ We apply force equilibrium to analyze joint forces, recognizing that joints must
 Joint forces are large because **joints must counterbalance the large muscle forces** that arise from the MA < 1 lever systems.
 
 From force equilibrium in the forearm example:
-$$ F*{\text{biceps}} = F*{\text{joint}} + W\_{\text{load}} $$
+$$ F_{\text{biceps}} = F_{\text{joint}} + W\_{\text{load}} $$
 
-Since $$ F*{\text{biceps}} >> W*{\text{load}} $$, the joint force must be:
-$$ F*{\text{joint}} = F*{\text{biceps}} - W\_{\text{load}} $$
+Since $$ F_{\text{biceps}} >> W_{\text{load}} $$, the joint force must be:
+$$ F_{\text{joint}} = F_{\text{biceps}} - W\_{\text{load}} $$
 
 **Can joint forces exceed muscle forces?** Yes! This happens when the geometry causes muscle forces and external loads to have components in the same direction relative to the joint.
 
@@ -430,7 +430,7 @@ The physics:
 4. The tail acts as a counterbalance, keeping the overall cg positioned above the base of support
 
 Mathematically, for torque balance about the hips:
-$$ m*{\text{neck}} \cdot d*{\text{neck}} \approx m*{\text{tail}} \cdot d*{\text{tail}} $$
+$$ m_{\text{neck}} \cdot d_{\text{neck}} \approx m_{\text{tail}} \cdot d_{\text{tail}} $$
 
 where $$ d $$ represents the horizontal distance of each mass from the hip pivot.
 
@@ -490,10 +490,10 @@ We apply the mechanical advantage analysis of the forearm system, recognizing th
 
 From [Figure 1](#Figure1), the forearm's mechanical advantage is approximately:
 
-$$ \text{MA} = \frac{l*{\text{biceps}}}{l*{\text{hand}}} = \frac{4.0 \text{ cm}}{38 \text{ cm}} \approx 0.105 $$
+$$ \text{MA} = \frac{l_{\text{biceps}}}{l_{\text{hand}}} = \frac{4.0 \text{ cm}}{38 \text{ cm}} \approx 0.105 $$
 
 This means:
-$$ F*{\text{output}} = \text{MA} \times F*{\text{input}} = 0.105 \times 1000 \N \approx 105 \N $$
+$$ F_{\text{output}} = \text{MA} \times F_{\text{input}} = 0.105 \times 1000 \N \approx 105 \N $$
 
 A biceps force of 1000 N can only lift about **105 N** (approximately 10.7 kg) at the hand!
 
@@ -571,12 +571,12 @@ The physics:
 4. This creates a clockwise torque about the hips that must be countered by the back muscles
 
 From the posture diagram ([Figure 2](#Figure2)(b)):
-$$ \tau*{\text{forward mass}} = m*{\text{baby+uterus}} \cdot g \cdot d\_{\text{forward}} $$
+$$ \tau_{\text{forward mass}} = m_{\text{baby+uterus}} \cdot g \cdot d\_{\text{forward}} $$
 
 This torque must be balanced by:
-$$ \tau*{\text{back muscles}} = F*{\text{back}} \cdot r\_{\text{back}} $$
+$$ \tau_{\text{back muscles}} = F_{\text{back}} \cdot r\_{\text{back}} $$
 
-Since $$ r*{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F*{\text{back}} $$ must be very large.
+Since $$ r_{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F_{\text{back}} $$ must be very large.
 
 Additional factors:
 
@@ -888,7 +888,7 @@ We apply the conditions for equilibrium (constant speed means equilibrium). The 
 From [Figure 11](#Figure11):
 
 - Child's mass: $$ m_c = 10 \kg $$, at $$ r_c = 38 \text{ cm} = 0.38 \m $$ from knee
-- Leg mass: $$ m*{\text{leg}} = 4 \kg $$, at $$ r*{\text{leg}} = 20 \text{ cm} = 0.20 \m $$ from knee
+- Leg mass: $$ m_{\text{leg}} = 4 \kg $$, at $$ r_{\text{leg}} = 20 \text{ cm} = 0.20 \m $$ from knee
 - Quadriceps attachment: approximately $$ r_q = 2.5 \text{ cm} = 0.025 \m $$ from knee (typical value)
 
 Calculate the weights:
@@ -1028,7 +1028,7 @@ The ball hits at the top of the 2.0 m tree, creating a torque about the base. Th
 Taking the base of the tree as the pivot:
 
 - Force from ball: $$ F\_{\text{ball}} = 250 \N $$ at height $$ h = 2.0 \m $$
-- Torque from ball: $$ \tau*{\text{ball}} = F*{\text{ball}} \times h = (250 \N)(2.0 \m) = 500 \text{ N·m} $$
+- Torque from ball: $$ \tau_{\text{ball}} = F_{\text{ball}} \times h = (250 \N)(2.0 \m) = 500 \text{ N·m} $$
 
 The root (at lever arm $$ r\_{\text{root}} = 0.20 \m $$) must provide equal opposing torque:
 

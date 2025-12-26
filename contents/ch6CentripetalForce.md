@@ -82,7 +82,7 @@ $$ F_{\text{c}}=\frac{m v^{2}}{r}
 ground) curve. Friction is to the left, keeping the car from slipping, and
 because it is the only horizontal force acting on the car, the friction is the
 centripetal force in this case. We know that the maximum static friction (at
-which the tires roll but do not slip) is $$ \mu*{\s}N $$, where $$ \mu*{\s} $$
+which the tires roll but do not slip) is $$ \mu_{\s}N $$, where $$ \mu_{\s} $$
 is the static coefficient of friction and N is the normal force. The normal
 force equals the car’s weight on level ground, so that $$ N=mg $$. Thus the
 centripetal force in this situation is
@@ -125,7 +125,7 @@ digits.)
 **Discussion**
 
 We could also solve part (a) using the first expression in $$ \left.
-\begin{array}{lll} F*{\text{c}}&=&m\frac{ v^{2}}{r}\\ F*
+\begin{array}{lll} F_{\text{c}}&=&m\frac{ v^{2}}{r}\\ F_
 {\text{c}}&=&mr\omega^{2} \end{array} \right\} , $$ because $$m$$, $$v$$, and
 $$r$$ are given. The coefficient of friction found in part (b) is much smaller
 than is typically found between tires and roads. The car will still negotiate

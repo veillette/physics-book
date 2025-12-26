@@ -55,7 +55,7 @@ $$ equals the current in amps (A) and $$R $$ is the resistance in ohms $$\left(
 necessary to make a current $$I $$ flow through a resistance $$R $$.
 
 So the voltage drop across $${R}_{1} $$ is $${V}_{1}=IR_{1} $$ , that across
-$${R}_{2} $$ is $${V}_{2}=IR*{2} $$ , and that across $${R}*{3} $$ is $${V}_
+$${R}_{2} $$ is $${V}_{2}=IR_{2} $$ , and that across $${R}_{3} $$ is $${V}_
 {3}=IR_{3} $$ . The sum of these voltages equals the voltage output of the
 source; that is,
 

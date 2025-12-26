@@ -187,8 +187,8 @@ conservation of mechanical energy can be used. Thus,
 <div class="equation">
 $$
 
-\KE*{\text{i}}+\PE*{\text{i}}=
-\KE*{\text{f}}+\PE*{\text{f}} $$
+\KE_{\text{i}}+\PE_{\text{i}}=
+\KE_{\text{f}}+\PE_{\text{f}} $$
 
 </div>
 or
@@ -208,9 +208,9 @@ into the last equation to solve for an unknown.
 
 This part of the problem is limited to conditions just before the car is
 released and just after it leaves the spring. Take the initial height to be
-zero, so that both $$ h*{\text{i}} $$ and $$ h*{\text{f}} $$ are zero.
-Furthermore, the initial speed $$ v*{\text{i}} $$ is zero and the final
-compression of the spring $$ x*{\text{f}} $$ is zero, and so several terms in
+zero, so that both $$ h_{\text{i}} $$ and $$ h_{\text{f}} $$ are zero.
+Furthermore, the initial speed $$ v_{\text{i}} $$ is zero and the final
+compression of the spring $$ x_{\text{f}} $$ is zero, and so several terms in
 the conservation of mechanical energy equation are zero and it simplifies to
 
 <div class="equation">
@@ -416,11 +416,11 @@ Following the Problem-Solving Strategies for Energy:
 **Step 2:** The forces are the spring force (conservative) and gravity (conservative), so we can use conservation of mechanical energy.
 
 **Step 3:** Since all forces are conservative:
-$$ \KE*{\text{i}} + \PE*{\text{i}} = \KE*{\text{f}} + \PE*{\text{f}} $$
+$$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$
 
 **Step 4:** Not needed here since all forces are conservative.
 
-**Step 5:** Simplify by noting that at both initial and final points, the child is momentarily at rest, so $$ \KE*{\text{i}} = \KE*{\text{f}} = 0 $$. Choose $$ h = 0 $$ at the initial compressed position, so $$ \PE*{\text{g,i}} = 0 $$ and $$ \PE*{\text{g,f}} = mgh $$. The spring potential energy is $$ \PE*{\text{s,i}} = \frac{1}{2}kx^{2} $$ initially and $$ \PE*{\text{s,f}} = 0 $$ at maximum height.
+**Step 5:** Simplify by noting that at both initial and final points, the child is momentarily at rest, so $$ \KE_{\text{i}} = \KE_{\text{f}} = 0 $$. Choose $$ h = 0 $$ at the initial compressed position, so $$ \PE_{\text{g,i}} = 0 $$ and $$ \PE_{\text{g,f}} = mgh $$. The spring potential energy is $$ \PE_{\text{s,i}} = \frac{1}{2}kx^{2} $$ initially and $$ \PE_{\text{s,f}} = 0 $$ at maximum height.
 
 **Solution**
 

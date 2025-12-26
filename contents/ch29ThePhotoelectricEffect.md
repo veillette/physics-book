@@ -162,7 +162,7 @@ part (b), once the energy of the photon is calculated, it is a straightforward
 application of $${\text{KE}}_{e}= hf- \text{BE} $$ to find the ejected
 electron’s maximum kinetic energy, since BE is given.
 
-**Solution for (a)**
+__Solution for (a)__
 
 Photon energy is given by
 
@@ -189,7 +189,7 @@ Converting to eV, the energy of the photon is
 <div class="equation" >
  $$E=\left( 4.74 \times 10^{-19} \text{J}\right)\frac{1 \text{eV}}{1.6 \times 10^{-19} \text{J}}=2.96 \text{eV}. $$
 </div>
-**Solution for (b)**
+__Solution for (b)__
 
 Finding the kinetic energy of the ejected electron is now a simple application
 of the equation $${\text{KE}}_{e}= hf- \text{BE} $$ . Substituting the photon

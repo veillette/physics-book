@@ -26,7 +26,7 @@ already covered.
 
 First, let us make some simplifications in notation. Taking the initial time to
 be zero, as if time is measured with a stopwatch, is a great simplification.
-Since elapsed time is $$ \Delta t=t*{f}-t*{0} $$, taking $$ t_{0}=0 $$ means
+Since elapsed time is $$ \Delta t=t_{f}-t_{0} $$, taking $$ t_{0}=0 $$ means
 that $$ \Delta t=t_{f} $$, the final time on the stopwatch. When initial time is
 taken to be zero, we use the subscript 0 to denote initial values of position
 and velocity. That is, $$ x_{0} $$ is the *initial position* and $$ v_{0} $$ is
@@ -34,8 +34,8 @@ the *initial velocity*. We put no subscripts on the final values. That is, $$ t
 $$ is the _final time_, $$ x $$ is the _final position_, and $$ v $$ is the
 _final velocity_. This gives a simpler expression for elapsed time—now, $$ \Delta
 t=t $$. It also simplifies the expression for displacement, which is now $$
-\Delta x=x-x*{0} $$. Also, it simplifies the expression for change in velocity,
-which is now $$ \Delta v=v-v*{0} $$. To summarize, using the simplified
+\Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity,
+which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified
 notation, with the initial time taken to be zero,
 
 <div class="equation">
@@ -95,12 +95,12 @@ where the average velocity is
 </div>
 </div>
 
-The equation $$ \overline{v}=\frac{ v*{0}+v}{2} $$ reflects the fact that, when
+The equation $$ \overline{v}=\frac{ v_{0}+v}{2} $$ reflects the fact that, when
 acceleration is constant, $$ v $$ is just the simple average of the initial and
 final velocities. For example, if you steadily increase your velocity (
 that is, with constant acceleration) from 30 to 60 km/h, then your average
 velocity during this steady increase is 45 km/h. Using the equation $$
-\overline{v}=\frac{ v*{0}+v}{2} $$ to check this, we see that
+\overline{v}=\frac{ v_{0}+v}{2} $$ to check this, we see that
 
 <div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2}=\frac{30 \text{km/h}+60 \text{km/h}}{2}=45 \text{km/h,} $$
@@ -541,9 +541,9 @@ during the driver’s reaction time.
 1\. Identify the knowns and what we want to solve for. We know that
 $$
 
-\overline{v}=30.0 \ms $$; $$ t*{\text{reaction}}=0.500\s $$; $$ a*
-{\text{reaction}}=0 $$. We take $$ x*{0-\text{reaction}} $$ to be 0. We are
-looking for $$ x*{\text{reaction}} $$.
+\overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_
+{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are
+looking for $$ x_{\text{reaction}} $$.
 
 2\. Identify the best equation to use. $$ x=x\_{0}+\overline{v}t $$ works well
 because the only unknown value is $$ x $$, which is what we want to solve for.
@@ -605,7 +605,7 @@ equation with one unknown, $$ t $$).
 1\. Identify the knowns and what we want to solve for. We know that $$ v\_{0}=10
 \ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
 
-2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x*{0}+v*
+2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_
 {0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
 is the variable $$ t $$ for which we need to solve.
 
