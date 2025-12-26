@@ -41,7 +41,7 @@ jobs:
         run: npm run test:ci
 
       - name: Check for orphan files
-        run: npm run check-orphans
+        run: npm run check:orphans
 
       - name: Upload link check results (on failure)
         if: failure()
