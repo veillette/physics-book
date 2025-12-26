@@ -1101,7 +1101,7 @@ Factors making this attractive:
 
 In reality, energy costs fluctuate and are often higher than \$1.00/MJ (especially for electricity or oil heating), which would make the payback even faster. This problem demonstrates why energy auditors consistently recommend adding attic insulation as a top priority for reducing heating costs.
 
-__Answer__
+**Answer**
 
 The simple payback time is approximately __0.264 years__, or about __3.2 months__ of the heating season, or approximately __one-quarter of a year__.
 

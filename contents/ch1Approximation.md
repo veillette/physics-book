@@ -69,7 +69,7 @@ We will use feet/inches rather than meters here because football fields are
 measured in yards.) One of your friends says 3 in., while another says 10 ft.
 What do you think?
 
-__Strategy__
+**Strategy**
 
 When you imagine the situation, you probably envision thousands of small stacks
 of 100 wrapped $$100 bills, such as you might see in movies or at a bank. Since
@@ -136,7 +136,7 @@ The height of the money will be about 100 in. high. Converting this value to fee
   $$ 100 \text{in.}×\frac{1 \text{ft}}{12 \text{in.}}=8.33 \text{ft}\approx 8 \text{ft.}  $$
 </div>
 
-__Discussion__
+**Discussion**
 
 The final approximate value is much higher than the early estimate of 3 in., but
 the other early estimate of 10 ft (120 in.) was roughly correct. How did the
@@ -173,11 +173,11 @@ How many heartbeats are there in a lifetime?
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 To estimate heartbeats in a lifetime, we need to estimate the average heart rate and average lifespan.
 
-__Solution__
+**Solution**
 
 1. Estimate average heart rate: approximately 70 beats per minute (at rest, it varies but this is a reasonable average including sleep and activity).
 
@@ -204,11 +204,11 @@ A generation is about one-third of a lifetime. Approximately how many generation
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 Estimate the time since year 0 AD, then divide by the length of a generation.
 
-__Solution__
+**Solution**
 
 1. Time since year 0 AD to present (2025):
 <div class="equation">
@@ -225,7 +225,7 @@ $$ \text{Generation length} \approx \frac{70 \text{ years}}{3} \approx 25 \text{
 $$ \text{Number of generations} = \frac{2000 \text{ years}}{25 \text{ years/generation}} = 80 \text{ generations} $$
 </div>
 
-__Answer__
+**Answer**
 
 Approximately __80 generations__ have passed since the year 0 AD (assuming about 25 years per generation).
 
@@ -239,11 +239,11 @@ nucleus is the lifetime of a human? (Hint: The lifetime of an unstable atomic nu
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 We need to compare the human lifetime to the lifetime of an unstable atomic nucleus by finding their ratio.
 
-__Solution__
+**Solution**
 
 1. From the hint, the lifetime of an unstable atomic nucleus is on the order of $$ 10^{-22} \s $$.
 
@@ -270,11 +270,11 @@ and the mass of a bacterium is on the order of  $$ 10^{-15} \kg  $$) .
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 Divide the total mass of the bacterium by the average mass of an atom to find the number of atoms.
 
-__Solution__
+**Solution**
 
 1. From the hint:
    - Mass of hydrogen atom: $$ m\_{H} \approx 10^{-27} \kg $$
@@ -290,7 +290,7 @@ $$ m_{atom} = 10 \times m_{H} = 10 \times 10^{-27} \kg = 10^{-26} \kg $$
 $$ N = \frac{m_{bact}}{m_{atom}} = \frac{10^{-15} \kg}{10^{-26} \kg} = 10^{11} \text{ atoms} $$
 </div>
 
-__Answer__
+**Answer**
 
 A bacterium contains approximately __10¹¹ atoms__ (or about 100 billion atoms).
 
@@ -306,11 +306,11 @@ Approximately how many atoms thick is a cell membrane, assuming all atoms there 
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 We need to estimate how many atoms fit across the thickness of a cell membrane, given that the atoms are about twice the size of a hydrogen atom.
 
-__Solution__
+**Solution**
 
 1. A typical cell membrane thickness is approximately $$ 10^{-8} \m $$ (or about 10 nm).
 
@@ -338,11 +338,11 @@ Sample answer: 50 atoms
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 Use Table 3 to find the relevant values, then calculate the ratios.
 
-__Solution__
+**Solution**
 
 From Table 3:
 
@@ -362,7 +362,7 @@ __(b) Fraction for mountain height:__
 $$ \text{Fraction} = \frac{h_{mountain}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
 </div>
 
-__Answer__
+**Answer**
 
 (a) The greatest ocean depth is approximately __1/1000__ (or __0.001__ or __10⁻³__) of Earth's diameter.
 
@@ -380,11 +380,11 @@ Both the deepest ocean trenches and highest mountains are tiny compared to Earth
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 We need to estimate the number of cells by dividing the total mass by the mass of a single cell (which is 10 times the mass of a bacterium).
 
-__Solution__
+**Solution**
 
 1. From the problem, an average cell mass is ten times the mass of a bacterium. From Table 3, the mass of a bacterium is approximately $$ 10^{-15} \kg $$, so:
 <div class="equation">
@@ -424,11 +424,11 @@ Assuming one nerve impulse must end before another can begin, what is the maximu
 
 </div>
 <div class="solution" markdown="1">
-__Strategy__
+**Strategy**
 
 From Table 3, find the duration of a nerve impulse, then calculate the maximum firing rate.
 
-__Solution__
+**Solution**
 
 1. From Table 3, the duration of a nerve impulse is approximately $$ 10^{-3} \s $$ (or 1 millisecond).
 
@@ -437,7 +437,7 @@ __Solution__
 $$ \text{Firing rate} = \frac{1}{\text{Duration}} = \frac{1}{10^{-3} \s} = 10^{3} \text{ impulses/s} = 1000 \text{ Hz} $$
 </div>
 
-__Answer__
+**Answer**
 
 The maximum firing rate of a nerve is approximately __1000 impulses per second__ (or __1000 Hz__, or __10³ Hz__).
 

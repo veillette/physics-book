@@ -913,7 +913,7 @@ $$ T_2 - m_S g = 0 $$
 $$ T_2 = m_S g = (55.0)(9.80) = 539 \N \approx 5.39 \times 10^{2} \N $$
 </div>
 
-__Answer__
+**Answer**
 
 (a) Free-body diagrams show tension forces upward and weight forces downward for each person.
 
@@ -975,7 +975,7 @@ $$ N - mg - F\sin(35.0°) = 0 $$
 
 This confirms the normal force adjusts to balance the downward push and weight.
 
-__Answer__
+**Answer**
 
 (a) The free-body diagram shows: applied force at 35° below horizontal, friction opposing motion, normal force upward, and weight downward.
 
@@ -1061,7 +1061,7 @@ $$ a_{max} = \frac{F}{m_{total}} = \frac{1900}{1800} = 1.06 \mss $$
 
 An acceleration of 1.20 m/s² exceeds this maximum, which is impossible.
 
-__Answer__
+**Answer**
 
 (a) The calculated friction force is __−260 N__.
 
@@ -1133,7 +1133,7 @@ $$ T_{typical} = (1.2 \text{ to } 1.5) \times mg \approx 1.76 \times 10^{7} \tex
 
 The premise is unreasonable because no rocket could launch with such inadequate thrust.
 
-__Answer__
+**Answer**
 
 (a) The initial acceleration is __−8.47 m/s²__ (downward).
 
