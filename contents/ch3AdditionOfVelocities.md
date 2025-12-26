@@ -53,7 +53,7 @@ in front of the goal.
 In two-dimensional motion, either graphical or analytical techniques can be used
 to add velocities. We will concentrate on analytical techniques. The following
 equations give the relationships between the magnitude and direction of
-velocity ( $$ v $$ and $$ \theta $$ ) and its components ( $$ v*{x} $$ and $$ v*
+velocity ( $$ v $$ and $$ \theta $$ ) and its components ( $$ v_{x} $$ and $$ v_
 {y} $$ ) along the **x**- and **y**-axes of an appropriately chosen coordinate
 system:
 
@@ -108,8 +108,8 @@ We start by choosing a coordinate system with its $$ x $$ -axis parallel to the
 velocity of the river, as shown in [Figure 4](#Figure4). Because the boat is
 directed straight toward the other shore, its velocity relative to the water is
 parallel to the $$ y $$ -axis and perpendicular to the velocity of the river.
-Thus, we can add the two velocities by using the equations $$ v*
-{\text{tot}}=\sqrt{ v*{x}^{2}+v*{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v*
+Thus, we can add the two velocities by using the equations $$ v_
+{\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_
 {y}/v\_{x}\right) $$ directly.
 
 **Solution**
@@ -198,7 +198,7 @@ in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndS
 Because $$ \vb{v}_{\text{tot}} $$ is the vector sum of the $$ \vb{v}_{\text{w}}
 $$ and $$ \vb{v}_{\text{p}} $$, its *x*- and *y*-components are the sums of
 the *x*- and *y*-components of the wind and plane velocities. Note that the
-plane only has vertical component of velocity so $$ v_{px}=0 $$ and $$ v*{py}=v*
+plane only has vertical component of velocity so $$ v_{px}=0 $$ and $$ v_{py}=v_
 {\text{p}} $$. That is,
 
 <div class="equation">
@@ -235,8 +235,8 @@ Here $$ v_{\text{tot}y}=v_{\text{tot}}\sin{110^\circ } $$; thus,
 </div>
 This minus sign indicates motion south which is consistent with the diagram.
 
-Now that the perpendicular components of the wind velocity $$ v*{\text{w}x} $$
-and $$ v*{\text{w}y} $$ are known, we can find the magnitude and direction of $$
+Now that the perpendicular components of the wind velocity $$ v_{\text{w}x} $$
+and $$ v_{\text{w}y} $$ are known, we can find the magnitude and direction of $$
 \vb{v}_{\text{w}} $$. First, the magnitude is
 
 <div class="equation">
@@ -368,10 +368,10 @@ is straight down relative to the plane.
 
 Because the initial vertical velocity is zero relative to the ground and
 vertical motion is independent of horizontal motion, the final vertical velocity
-for the coin relative to the ground is $$ v*{y}=-5.42 \ms $$, the same as found
+for the coin relative to the ground is $$ v_{y}=-5.42 \ms $$, the same as found
 in part (a). In contrast to part (a), there now is a horizontal component of the
 velocity. However, since there is no horizontal acceleration, the initial and
-final horizontal velocities are the same and $$ v*{x}=260 \ms $$. The _x_- and
+final horizontal velocities are the same and $$ v_{x}=260 \ms $$. The _x_- and
 _y_-components of velocity can be combined to find the magnitude of the final
 velocity:
 
@@ -627,14 +627,14 @@ The seagull's velocity relative to the Earth is its velocity relative to the air
 $$ v_{ground} = \frac{d}{t} = \frac{6.00 \text{ km}}{20.0 \text{ min}} = \frac{6000 \m}{1200 \s} = 5.00 \ms $$
 </div>
 
-2. When flying into the wind: $$ v*{ground} = v*{bird} - v\_{wind} $$
+2. When flying into the wind: $$ v_{ground} = v_{bird} - v\_{wind} $$
 <div class="equation">
 $$ v_{wind} = v_{bird} - v_{ground} = 9.00 \ms - 5.00 \ms = 4.00 \ms $$
 </div>
 
 **(b) Time to return with the wind:**
 
-1. When flying with the wind: $$ v*{return} = v*{bird} + v\_{wind} = 9.00 \ms + 4.00 \ms = 13.0 \ms $$
+1. When flying with the wind: $$ v_{return} = v_{bird} + v\_{wind} = 9.00 \ms + 4.00 \ms = 13.0 \ms $$
 
 2. Calculate time:
 <div class="equation">
@@ -1119,7 +1119,7 @@ To travel straight north relative to Earth, the ship must aim at an angle that c
 
 - Ship speed relative to water: $$ v\_{ship,water} = 7.00 \ms $$
 - Current velocity: $$ v\_{current} = 1.50 \ms $$ at $$ 40.0° $$ north of east
-- From previous exercise: $$ v*{current,x} = 1.15 \ms $$ (east), $$ v*{current,y} = 0.965 \ms $$ (north)
+- From previous exercise: $$ v_{current,x} = 1.15 \ms $$ (east), $$ v_{current,y} = 0.965 \ms $$ (north)
 
 **(a) Direction to travel:**
 
@@ -1987,8 +1987,8 @@ Ground (5° south of east):
 
 Wind:
 
-- $$ v*{wind,x} = v*{ground,x} - v\_{plane,x} = 554 - 280 = 274 \ms $$ (east)
-- $$ v*{wind,y} = v*{ground,y} - v\_{plane,y} = -48.5 - 0 = -48.5 \ms $$ (south)
+- $$ v_{wind,x} = v_{ground,x} - v\_{plane,x} = 554 - 280 = 274 \ms $$ (east)
+- $$ v_{wind,y} = v_{ground,y} - v\_{plane,y} = -48.5 - 0 = -48.5 \ms $$ (south)
 
 Magnitude:
 

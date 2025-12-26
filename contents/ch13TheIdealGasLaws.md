@@ -540,10 +540,10 @@ Find out the human population of Earth. Is there a mole of people inhabiting Ear
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Compare the current human population to Avogadro's number, then calculate the mass of a mole of people and compare to Earth's mass.
 
-**Solution:**
+__Solution:__
 The current human population is approximately 8 billion people = $$ 8 \times 10^{9} $$ people.
 
 Avogadro's number is $$ 6.02 \times 10^{23} $$, so we have:
@@ -551,7 +551,7 @@ Avogadro's number is $$ 6.02 \times 10^{23} $$, so we have:
  $$\frac{ 8 \times 10^{9}}{ 6.02 \times 10^{23}}=1.3 \times 10^{-14} \text{ moles of people} $$
 </div>
 
-Clearly, we do **not** have a mole of people on Earth—we have only about $$10^{-14}$$ moles of people.
+Clearly, we do __not__ have a mole of people on Earth—we have only about $$10^{-14}$$ moles of people.
 
 If we had a mole of people ($$6.02 \times 10^{23}$$ people), each with mass 60 kg:
 <div class="equation" >
@@ -563,7 +563,7 @@ Earth's mass is approximately $$ 5.97 \times 10^{24} $$ kg. The ratio is:
  $$\frac{ 3.61 \times 10^{25}  \text{kg}}{ 5.97 \times 10^{24}  \text{kg}}\approx 6.0 $$
 </div>
 
-**Discussion:**
+__Discussion:__
 A mole of people would have about 6 times the mass of Earth! This illustrates the enormous magnitude of Avogadro's number. The fact that Avogadro's number is so large explains why macroscopic amounts of substances contain such huge numbers of atoms and molecules, and why we can observe statistical properties like temperature and pressure despite the random motion of individual particles.
 </div>
 </div>
@@ -574,10 +574,10 @@ Under what circumstances would you expect a gas to behave significantly differen
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Consider the assumptions of the ideal gas law and when they break down.
 
-**Solution:**
+__Solution:__
 The ideal gas law assumes that:
 1. Gas molecules have negligible volume compared to the container volume
 2. There are no intermolecular forces (except during collisions)
@@ -585,15 +585,15 @@ The ideal gas law assumes that:
 
 A gas behaves significantly differently from ideal when:
 
-1. **High pressures**: At high pressure, molecules are forced close together, and their finite volume becomes significant compared to the available space. The actual volume available for molecular motion is less than the container volume.
+1. __High pressures__: At high pressure, molecules are forced close together, and their finite volume becomes significant compared to the available space. The actual volume available for molecular motion is less than the container volume.
 
-2. **Low temperatures**: At low temperatures (near the boiling point), intermolecular attractive forces become significant. Molecules spend more time near each other, and these attractive forces affect pressure and can lead to condensation.
+2. __Low temperatures__: At low temperatures (near the boiling point), intermolecular attractive forces become significant. Molecules spend more time near each other, and these attractive forces affect pressure and can lead to condensation.
 
-3. **Near phase transitions**: When a gas is close to liquefying or solidifying, intermolecular forces dominate and the ideal gas law fails.
+3. __Near phase transitions__: When a gas is close to liquefying or solidifying, intermolecular forces dominate and the ideal gas law fails.
 
-4. **Large, complex molecules**: Larger molecules have greater intermolecular forces (van der Waals forces) and occupy more volume, causing deviations from ideal behavior.
+4. __Large, complex molecules__: Larger molecules have greater intermolecular forces (van der Waals forces) and occupy more volume, causing deviations from ideal behavior.
 
-**Discussion:**
+__Discussion:__
 Real gases are described more accurately by the van der Waals equation, which includes correction terms for molecular volume and intermolecular forces. However, under normal conditions (room temperature and atmospheric pressure), most gases behave nearly ideally because molecules are far apart and moving fast. The ideal gas law is an excellent approximation for gases like nitrogen, oxygen, and helium under typical conditions.
 </div>
 </div>
@@ -604,11 +604,11 @@ A constant-volume gas thermometer contains a fixed amount of gas. What property 
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Consider the ideal gas law with constant volume and constant amount of gas.
 
-**Solution:**
-In a constant-volume gas thermometer, the **pressure** of the gas is measured to indicate temperature.
+__Solution:__
+In a constant-volume gas thermometer, the __pressure__ of the gas is measured to indicate temperature.
 
 From the ideal gas law: $$PV=nRT$$
 
@@ -619,7 +619,7 @@ When volume ($$V$$) and amount of gas ($$n$$) are held constant:
 
 This shows that pressure is directly proportional to absolute temperature when volume and amount of gas are fixed. Therefore, by measuring the pressure of the gas, we can determine its temperature.
 
-**Discussion:**
+__Discussion:__
 Constant-volume gas thermometers are among the most accurate thermometers available and are used to calibrate other thermometers. They work over a wide temperature range and can measure temperatures from near absolute zero to very high temperatures. The gas used (often helium or hydrogen) must behave ideally over the measurement range. The direct proportionality between pressure and temperature makes these thermometers particularly useful for defining the Kelvin temperature scale, as they can extrapolate to find absolute zero (the temperature at which an ideal gas would have zero pressure).
 </div>
 </div>
@@ -648,10 +648,10 @@ Convert an absolute pressure of  $$ 7.00 \times 10^{5}  {\text{N/m}}^{2} $$
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Gauge pressure is absolute pressure minus atmospheric pressure. Convert to psi using the conversion 1 atm = 14.7 psi = $$ 1.01 \times 10^{5} $$ Pa.
 
-**Solution:**
+__Solution:__
 First find gauge pressure in Pa:
 <div class="equation" >
  $${P}_{\text{gauge}}={P}_{\text{abs}}-{P}_{\text{atm}}= 7.00 \times 10^{5}  \text{Pa}- 1.01 \times 10^{5}  \text{Pa}= 5.99 \times 10^{5}  \text{Pa} $$
@@ -662,7 +662,7 @@ Convert to psi (pounds per square inch):
  $${P}_{\text{gauge}}= 5.99 \times 10^{5}  \text{Pa} \times \frac{14.7 \text{ psi}}{ 1.01 \times 10^{5}  \text{Pa}}= 87.1 \text{ psi} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 Yes, this confirms the statement—87.1 psi is indeed just less than 90.0 psi. Gauge pressure is what's typically displayed on tire pressure gauges because it represents the excess pressure above atmospheric pressure. The absolute pressure of $$ 7.00 \times 10^{5} $$ Pa corresponds to about 6.93 atm, meaning the tire pressure is about 5.93 atm above atmospheric pressure.
 </div>
 </div>
@@ -691,10 +691,10 @@ volume is twenty times the original volume?
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 This is a multi-step problem. First find the amount of helium (moles) in the initial state. Then use this with the new conditions to find the new pressure.
 
-**Solution:**
+__Solution:__
 (a) Initial conditions: $$T_0 = 10.0ºC = 283 K$$, $$P_0 = 1.00 atm$$, $$V_0$$
 
 Final conditions: $$T_f = -50.0ºC = 223 K$$, $$V_f = 20V_0$$, $$P_f = ?$$
@@ -719,7 +719,7 @@ Converting to Pa:
  $${P}_{\text{gauge}}=P_f-{P}_{\text{atm}}= 0.0394 \text{ atm}- 1.00 \text{ atm}=-0.96 \text{ atm} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 The negative gauge pressure indicates that the pressure inside the balloon is less than atmospheric pressure—the balloon would be partially deflated or collapsed. This makes sense: the temperature decreased (reducing pressure), and the volume increased dramatically (also reducing pressure). The combined effect overwhelms the initial pressure, resulting in a final pressure well below atmospheric.
 </div>
 </div>
@@ -748,10 +748,10 @@ In the text, it was shown that  $$N/V= 2.68 \times 10^{25}  {\text{m}}^{-3} $$
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 (a) Convert from m⁻³ to cm⁻³ using the fact that 1 m = 100 cm. (b) Calculate the number in one μm³. (c) Consider what this means for molecular spacing.
 
-**Solution:**
+__Solution:__
 (a) Convert from m⁻³ to cm⁻³:
 <div class="equation" >
  $$\frac{N}{V}= 2.68 \times 10^{25}  {\text{m}}^{-3} \times {\left(\frac{1 \text{ m}}{100 \text{ cm}}\right)}^{3}= 2.68 \times 10^{25}  {\text{m}}^{-3} \times \frac{1}{ 10^{6}  {\text{cm}}^{3}/{\text{m}}^{3}} $$
@@ -771,7 +771,7 @@ First convert: $$1 \text{ μm}= 10^{-6} \text{ m}= 10^{-4} \text{ cm}$$
  $$N=\left( 2.68 \times 10^{19}  {\text{cm}}^{-3}\right) \times {\left( 10^{-4} \text{ cm}\right)}^{3}=\left( 2.68 \times 10^{19}\right) \times \left( 10^{-12}\right)= 2.68 \times 10^{7}  \text{ molecules} $$
 </div>
 
-About **27 million molecules** in one cubic micrometer.
+About __27 million molecules__ in one cubic micrometer.
 
 (c) This implies that even in a very small volume (1 μm)³, there are still millions of molecules. Since molecules are separated by relatively large distances in a gas, we can estimate the average separation. If we have $$2.68 \times 10^{7}$$ molecules in a cube of side 1 μm, then each molecule occupies on average:
 
@@ -784,7 +784,7 @@ Taking the cube root to find typical spacing:
  $$d=\sqrt[3]{ 3.7 \times 10^{-8}  {\text{μm}}^{3}}= 3.3 \times 10^{-3}  \text{ μm}= 3.3 \text{ nm} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 Molecules at STP are separated by about 3.3 nanometers on average, which is about 10 times the diameter of a typical molecule (around 0.3 nm). This explains why gases are compressible—there's lots of empty space between molecules. It also explains why gases have much lower densities than liquids or solids, where molecules are essentially touching. This large separation is why intermolecular forces are negligible in ideal gases.
 </div>
 </div>
@@ -806,10 +806,10 @@ An airplane passenger has  $$100 {\text{cm}}^{3} $$
  of air in his stomach just before the plane takes off from a sea-level airport. What volume will the air have at cruising altitude if cabin pressure drops to  $$ 7.50 \times 10^{4}  {\text{N/m}}^{2}$$ ?
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Assume temperature and amount of gas remain constant. Use $$P_1V_1=P_2V_2$$ (Boyle's law).
 
-**Solution:**
+__Solution:__
 Initial conditions: $$P_1 = 1.01 \times 10^{5} $$ Pa (atmospheric), $$V_1 = 100 $$ cm³
 
 Final conditions: $$P_2 = 7.50 \times 10^{4} $$ Pa, $$V_2 = ?$$
@@ -819,7 +819,7 @@ Using $$P_1V_1=P_2V_2$$:
  $$V_2=V_1\frac{P_1}{P_2}=(100 \text{ cm}^{3})\frac{ 1.01 \times 10^{5}  \text{Pa}}{ 7.50 \times 10^{4}  \text{Pa}}=135 \text{ cm}^{3} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 The air expands by 35% as cabin pressure decreases, which can cause discomfort. This is why passengers sometimes experience bloating or digestive discomfort during flights. The expansion occurs because the external pressure decreases while the gas inside maintains its tendency to expand. This same principle explains why it's important not to hold your breath when ascending while scuba diving—the air in your lungs would expand as you rise and pressure decreases, potentially causing serious injury.
 </div>
 </div>
@@ -844,10 +844,10 @@ An expensive vacuum system can achieve a pressure as low as  $$ 1.00 \times 10^{
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Use the ideal gas law $$PV=Nk_{B}T$$ to find the number of atoms $$N$$ in a cubic centimeter at the given pressure and temperature.
 
-**Solution:**
+__Solution:__
 Given:
 - $$P= 1.00 \times 10^{-7} $$ Pa
 - $$T= 20\text{ºC}= 293 \text{ K}$$
@@ -863,7 +863,7 @@ Using $$PV=Nk_{B}T$$:
  $$N=\frac{ 1.00 \times 10^{-13}  \text{J}}{ 4.04 \times 10^{-21}  \text{J}}= 2.47 \times 10^{7}  \text{ atoms} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 Even in an "excellent" vacuum of $$10^{-7}$$ Pa (about $$10^{-12}$$ atmospheres), there are still about 25 million atoms per cubic centimeter! This is a very good vacuum by laboratory standards, but it still contains enormous numbers of atoms compared to interstellar space. For comparison, at atmospheric pressure and room temperature, there are about $$2.7 \times 10^{19}$$ molecules per cm³—about a trillion times more. This shows how difficult it is to create a true vacuum, and why ultra-high vacuum systems (UHV) operating at $$10^{-10}$$ Pa or lower are needed for surface science experiments where even trace contamination is problematic.
 </div>
 </div>
@@ -889,10 +889,10 @@ A bicycle tire has a pressure of  $$ 7.00 \times 10^{5}  {\text{N/m}}^{2} $$
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Find how many moles of gas are removed (the 100 cm³ at atmospheric pressure), then calculate the new pressure in the tire with fewer moles. Use $$PV=nRT$$ for both calculations.
 
-**Solution:**
+__Solution:__
 Initial conditions in tire:
 - $$P_{i}= 7.00 \times 10^{5} $$ Pa
 - $$V_{\text{tire}}= 2.00 \text{ L}= 2.00 \times 10^{-3} \text{ m}^{3}$$
@@ -920,7 +920,7 @@ Final pressure in tire (same volume and temperature):
  $$P_{f}=\frac{n_{f}RT}{V_{\text{tire}}}=\frac{\left( 0.575 \text{ mol}\right)\left( 8.31 \text{ J/mol}\cdot \text{K}\right)\left(291 \text{ K}\right)}{ 2.00 \times 10^{-3}  \text{m}^{3}}= 6.95 \times 10^{5}  \text{Pa} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 The pressure drops from $$ 7.00 \times 10^{5} $$ Pa to $$ 6.95 \times 10^{5} $$ Pa, a decrease of about $$ 5.0 \times 10^{3} $$ Pa (or about 0.05 atm). This small change makes sense because we only removed about 0.7% of the gas ($$4.18 \times 10^{-3}$$ mol out of 0.579 mol). This illustrates why bike tires don't lose much pressure from small leaks, but also why it's important to check tire pressure regularly—small amounts of gas loss can accumulate over time. The key insight is that 100 cm³ at atmospheric pressure contains much less gas than 100 cm³ at tire pressure, so removing it has a relatively small effect.
 </div>
 </div>
@@ -952,10 +952,10 @@ Find the number of moles in 2.00 L of gas at  $$ 35.0\text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 Use the ideal gas law $$PV=nRT$$ and solve for the number of moles $$n$$.
 
-**Solution:**
+__Solution:__
 Given:
 - $$P= 7.41 \times 10^{7} $$ Pa
 - $$V= 2.00 \text{ L}= 2.00 \times 10^{-3} \text{ m}^{3}$$
@@ -971,7 +971,7 @@ Rearranging $$PV=nRT$$ to solve for $$n$$:
  $$n=\frac{ 1.482 \times 10^{5}  \text{J}}{ 2559 \text{ J/mol}}= 57.9 \text{ mol} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 This is a very large number of moles for such a small volume (2.00 L). At this extremely high pressure (about 730 atmospheres), the gas is compressed to about 730 times the density it would have at atmospheric pressure. This is why high-pressure gas cylinders must be extremely strong and carefully designed. At such high pressures, real gases start to deviate from ideal gas behavior because the molecules are forced close together and intermolecular forces become significant. However, the ideal gas law still provides a reasonable approximation for many practical purposes. This amount of gas (58 moles) would occupy about 1400 L at standard temperature and pressure!
 </div>
 </div>
@@ -996,10 +996,10 @@ Calculate the depth to which Avogadro’s number of table tennis balls would cov
 
 </div>
 <div class="solution" markdown="1">
-**Strategy:**
+__Strategy:__
 (a) Use $$PV=nRT$$ to find absolute pressure, then subtract atmospheric pressure to get gauge pressure. (b) Find how many moles are added, calculate new absolute pressure, then find new gauge pressure.
 
-**Solution:**
+__Solution:__
 (a) Initial conditions:
 - $$n= 3.60 \text{ mol}$$
 - $$V= 30.0 \text{ L}= 3.00 \times 10^{-2} \text{ m}^{3}$$
@@ -1036,7 +1036,7 @@ New gauge pressure:
  $${P}_{\text{gauge,new}}= 3.00 \times 10^{5}  \text{Pa}- 1.01 \times 10^{5}  \text{Pa}= 1.99 \times 10^{5}  \text{Pa}= 1.97 \text{ atm} $$
 </div>
 
-**Discussion:**
+__Discussion:__
 Adding 1.00 L of gas at atmospheric pressure adds only 0.0408 moles, which is a small fraction (about 1.1%) of the original 3.60 moles. Consequently, the gauge pressure increases only slightly from 1.94 atm to 1.97 atm. This illustrates an important point: when adding gas to a tire, the volume of gas measured at atmospheric pressure is much less significant than the same volume measured at tire pressure. To significantly increase tire pressure, you need to add many liters of atmospheric-pressure gas, which is why it takes time to pump up a tire with a hand pump.
 </div>
 </div>

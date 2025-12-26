@@ -79,8 +79,8 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 
 A rocket’s acceleration depends on three major factors, consistent with the
 equation for acceleration of a rocket. First, the greater the exhaust velocity
-of the gases relative to the rocket, $$ v*{\text{e}} $$, the greater the
-acceleration is. The practical limit for $$ v*{\text{e}} $$ is about $$
+of the gases relative to the rocket, $$ v_{\text{e}} $$, the greater the
+acceleration is. The practical limit for $$ v_{\text{e}} $$ is about $$
 2.5\times 10^{3} \ms $$ for conventional (non-nuclear) hot-gas propulsion
 systems. The second factor is the rate at which mass is ejected from the rocket.
 This is the factor $$ \Delta m/\Delta t $$ in the equation. The quantity $$
@@ -150,9 +150,9 @@ is
  $$ v=v_{\text{e}} \ln \frac{ m_{0}}{ m_{\text{r}}}, $$
 </div>
 
-where $$ \text{ln}\left(m*{0}/m*{\text{r}}\right) $$ is the natural logarithm of
-the ratio of the initial mass of the rocket $$ \left(m*{0}\right) $$ to what is
-left $$ \left(m*{\text{r}}\right) $$ after all of the fuel is exhausted. (Note
+where $$ \text{ln}\left(m_{0}/m_{\text{r}}\right) $$ is the natural logarithm of
+the ratio of the initial mass of the rocket $$ \left(m_{0}\right) $$ to what is
+left $$ \left(m_{\text{r}}\right) $$ after all of the fuel is exhausted. (Note
 that $$ v $$ is actually the change in velocity, so the equation can be used for
 any segment of the flight. If we start from rest, the change in velocity equals
 the final velocity.) For example, let us calculate the mass ratio needed to
@@ -164,7 +164,7 @@ v\_{\text{e}}=2.5\times 10^{3} \ms $$.
  $$ \ln \frac{ m_{0}}{ m_{\text{r}}}=\frac{v}{ v_{\text{e}}}=\frac{11.2\times 10^{3} \ms }{2.5\times 10^{3} \ms }=4.48 $$
 </div>
 
-Solving for $$ m*{0}/m*{\text{r}} $$ gives
+Solving for $$ m_{0}/m_{\text{r}} $$ gives
 
 <div class="equation">
  $$ \frac{ m_{0}}{ m_{\text{r}}}={e}^{4.48}=88. $$
@@ -180,7 +180,7 @@ This result means that only $$ 1/88 $$ of the mass is left when the fuel is
 burnt, and $$ 87/88 $$ of the initial mass was fuel. Expressed as percentages,
 98.9% of the rocket is fuel, while payload, engines, fuel tanks, and other
 components make up only 1.10%. Taking air resistance and gravitational force
-into account, the mass $$ m*{\text{r}} $$ remaining can only be about $$ m*
+into account, the mass $$ m_{\text{r}} $$ remaining can only be about $$ m_
 {0}/180 $$. It is difficult to build a rocket in which the fuel has a mass 180
 times everything else. The solution is multistage rockets. Each stage only needs
 to achieve part of the final velocity and is discarded after it burns its fuel.
@@ -368,7 +368,7 @@ assume the gravitational force is negligible at the probe's location.
 <div class="solution" markdown="1">
 **Strategy**
 
-Since gravity is negligible, we use the rocket velocity equation $$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$, where $$ m*0 $$ is the initial mass and $$ m*{\text{r}} $$ is the remaining mass after fuel is expended. This equation comes from integrating the rocket equation with no external forces.
+Since gravity is negligible, we use the rocket velocity equation $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$, where $$ m_0 $$ is the initial mass and $$ m_{\text{r}} $$ is the remaining mass after fuel is expended. This equation comes from integrating the rocket equation with no external forces.
 
 **Solution**
 
@@ -381,7 +381,7 @@ Given:
 
 Apply the rocket velocity equation:
 
-$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
+$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 $$ v = (2.00 \times 10^{3} \ms) \ln\left(\frac{4000 \kg}{500 \kg}\right) $$
 
@@ -433,7 +433,7 @@ Given:
 
 Apply the rocket velocity equation:
 
-$$ \Delta v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
+$$ \Delta v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 $$ \Delta v = (8.00 \times 10^{6} \ms) \ln\left(\frac{20\,000}{19\,960}\right) $$
 
@@ -560,7 +560,7 @@ Given the following data for a fire extinguisher-toy wagon rocket experiment, ca
 <div class="solution" markdown="1">
 **Strategy**
 
-Use the rocket velocity equation $$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$ and solve for the exhaust velocity. We assume the experiment occurs horizontally on a frictionless surface, so gravity does not affect the horizontal motion.
+Use the rocket velocity equation $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$ and solve for the exhaust velocity. We assume the experiment occurs horizontally on a frictionless surface, so gravity does not affect the horizontal motion.
 
 **Solution**
 
@@ -572,11 +572,11 @@ Given:
 
 The rocket velocity equation is:
 
-$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
+$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 Solve for exhaust velocity:
 
-$$ v*{\text{e}} = \frac{v}{\ln\left(\frac{m_0}{m*{\text{r}}}\right)} $$
+$$ v_{\text{e}} = \frac{v}{\ln\left(\frac{m_0}{m_{\text{r}}}\right)} $$
 
 $$ v\_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0}{70.0}\right)} $$
 
@@ -614,13 +614,13 @@ Given:
 
 The rocket velocity equation:
 
-$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
+$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 Solve for the mass ratio:
 
-$$ \ln\left(\frac{m*0}{m*{\text{r}}}\right) = \frac{v}{v\_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
+$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v\_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
 
-$$ \frac{m*0}{m*{\text{r}}} = e^{3.636} = 37.9 $$
+$$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.9 $$
 
 $$ m\_{\text{r}} = \frac{m_0}{37.9} = \frac{100\,000 \kg}{37.9} = 2.63 \times 10^{3} \kg $$
 
@@ -653,13 +653,13 @@ For part (a), use conservation of momentum to find the initial recoil velocity, 
 
 First, find the recoil velocity without friction using conservation of momentum:
 
-$$ 0 = m*{\text{squid}} v*{\text{squid}} + m*{\text{fluid}} v*{\text{fluid}} $$
+$$ 0 = m_{\text{squid}} v_{\text{squid}} + m_{\text{fluid}} v_{\text{fluid}} $$
 
-$$ v*{\text{squid,initial}} = -\frac{m*{\text{fluid}} v*{\text{fluid}}}{m*{\text{squid}}} = -\frac{(0.250 \kg)(10.0 \ms)}{5.00 \kg} = -0.500 \ms $$
+$$ v_{\text{squid,initial}} = -\frac{m_{\text{fluid}} v_{\text{fluid}}}{m_{\text{squid}}} = -\frac{(0.250 \kg)(10.0 \ms)}{5.00 \kg} = -0.500 \ms $$
 
 Now account for friction. The impulse from friction over the ejection time:
 
-$$ J*{\text{friction}} = F*{\text{friction}} \cdot \Delta t = (5.00 \N)(0.100 \s) = 0.500 \N \cdot \s $$
+$$ J_{\text{friction}} = F_{\text{friction}} \cdot \Delta t = (5.00 \N)(0.100 \s) = 0.500 \N \cdot \s $$
 
 This impulse opposes motion, so it reduces the momentum:
 
@@ -739,17 +739,17 @@ The squid would need an initial speed of approximately 21.4 m/s (about 77 km/h o
 
 Using the rocket equation with negligible gravity and friction:
 
-$$ v = v*{\text{e}} \ln\left(\frac{m_0}{m*{\text{r}}}\right) $$
+$$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 With $$ v = 21.4 \ms $$ and $$ v\_{\text{e}} = 12.0 \ms $$:
 
-$$ \ln\left(\frac{m*0}{m*{\text{r}}}\right) = \frac{21.4}{12.0} = 1.78 $$
+$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{21.4}{12.0} = 1.78 $$
 
-$$ \frac{m*0}{m*{\text{r}}} = e^{1.78} = 5.93 $$
+$$ \frac{m_0}{m_{\text{r}}} = e^{1.78} = 5.93 $$
 
 Fraction ejected:
 
-$$ \frac{m*{\text{ejected}}}{m_0} = 1 - \frac{m*{\text{r}}}{m_0} = 1 - \frac{1}{5.93} = 0.831 $$
+$$ \frac{m_{\text{ejected}}}{m_0} = 1 - \frac{m_{\text{r}}}{m_0} = 1 - \frac{1}{5.93} = 0.831 $$
 
 The squid would need to eject 83.1% of its body mass to achieve this velocity.
 

@@ -162,7 +162,7 @@ from [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGrav
 that in circular motion centripetal acceleration, $$ \ac $$, refers to changes
 in the direction of the velocity but not its magnitude. An object undergoing
 circular motion experiences centripetal acceleration, as seen
-in [Figure 3](#Figure3). Thus, $$ a*{\text{t}} $$ and $$ a*{\text{c}} $$ are
+in [Figure 3](#Figure3). Thus, $$ a_{\text{t}} $$ and $$ a_{\text{c}} $$ are
 perpendicular and independent of one another. Tangential acceleration $$ a\_
 {\text{t}} $$ is directly related to the angular acceleration $$ \alpha $$ and
 is linked to an increase or decrease in the velocity, but not its direction.
@@ -224,8 +224,8 @@ What is the angular acceleration of its 0.320-m-radius wheels? (See [Figure 4](#
 **Strategy**
 
 We are given information about the linear velocities of the motorcycle. Thus, we
-can find its linear acceleration $$ a*{\text{t}} $$. Then, the expression $$
-\alpha =\frac{ a*{\text{t}}}{r} $$ can be used to find the angular acceleration.
+can find its linear acceleration $$ a_{\text{t}} $$. Then, the expression $$
+\alpha =\frac{ a_{\text{t}}}{r} $$ can be used to find the angular acceleration.
 
 **Solution**
 

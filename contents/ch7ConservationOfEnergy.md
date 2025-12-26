@@ -247,9 +247,9 @@ Masses and Springs
   any process. Energy may change in form or be transferred from one system to
   another, but the total remains the same.
 - When all forms of energy are considered, conservation of energy is written in
-  equation form as $$ \KE*
-  {i}+\PE*{i}+W*{\text{nc}}+\text{OE}*{i}=\KE*
-  {f}+\PE*{f}+\text{OE}\_{f} $$, where $$ \text{OE} $$ is all **other forms of
+  equation form as $$ \KE_
+  {i}+\PE_{i}+W_{\text{nc}}+\text{OE}_{i}=\KE_
+  {f}+\PE_{f}+\text{OE}\_{f} $$, where $$ \text{OE} $$ is all **other forms of
   energy** besides mechanical energy.
 - Commonly encountered forms of energy include electric energy, chemical energy,
   radiant energy, nuclear energy, and thermal energy.

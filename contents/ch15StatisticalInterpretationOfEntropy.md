@@ -756,7 +756,7 @@ At a typical electricity rate of $0.12 per kWh:
  $$ \text{Cost}_{\text{AC}} = (83.0 \text{ kWh})(\$0.12/\text{kWh}) = \$10.0 $$
 </div>
 
-**The air conditioner would cost approximately $10 to operate for the same cooling effect that 900 kg of ice provides, compared to $180 for the ice. The air conditioner is about 18 times cheaper to operate than using ice.**
+__The air conditioner would cost approximately $10 to operate for the same cooling effect that 900 kg of ice provides, compared to $180 for the ice. The air conditioner is about 18 times cheaper to operate than using ice.__
 
 **Discussion**
 

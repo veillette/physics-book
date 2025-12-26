@@ -408,6 +408,6 @@ relative to the Earth
 length contraction
 : $$L $$ , the shortening of the measured length of an object moving relative
 to the observer’s frame:
-$$L=L*{0}\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}=\frac{ {L}*{0}}{\gamma } $$
+$$L=L_{0}\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}=\frac{ {L}_{0}}{\gamma } $$
 
 </div>
