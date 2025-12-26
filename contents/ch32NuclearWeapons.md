@@ -235,6 +235,31 @@ Find the mass converted into energy by a 12.0-kT bomb.
 What mass is converted into energy by a 1.00-MT bomb?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Convert 1.00 MT to joules (1 MT = $$4.184 \times 10^{15}$$ J), then use $$E = mc^{2}$$ to find mass.
+
+**Solution**
+
+Energy:
+
+<div class="equation">
+$$ E = 1.00 \text{ MT} = 4.184 \times 10^{15} \text{ J} $$
+</div>
+
+Mass from $$E = mc^{2}$$:
+
+<div class="equation">
+$$ m = \frac{E}{c^{2}} = \frac{4.184 \times 10^{15}}{(3.00 \times 10^{8})^{2}} = 4.65 \times 10^{-2} \text{ kg} = 46.5 \text{ g} $$
+</div>
+
+**Discussion**
+
+Only 46.5 grams of mass—about 1.6 ounces—is converted to energy in a 1-megaton nuclear explosion! This demonstrates the incredible mass-energy equivalence of $$E=mc^{2}$$. A typical thermonuclear bomb contains several kilograms of nuclear fuel, but only a tiny fraction (about 1%) of that mass is actually converted to energy through fission and fusion reactions. The rest remains as fission products and unconsumed fuel. This small mass conversion releases energy equivalent to one million tons of TNT, capable of destroying an entire city. Compare this to chemical explosives where molecular bonds rearrange but no mass is converted—nuclear reactions are millions of times more energy-dense.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -260,6 +285,37 @@ It is estimated that the total explosive yield of all the nuclear bombs in exist
 electricity costing 10 cents per kW·h?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Convert 4000 MT to joules, then to kWh. (b) Multiply kWh by $0.10/kWh.
+
+**Solution**
+
+(a) Energy in joules:
+
+<div class="equation">
+$$ E = 4000 \text{ MT} \times \frac{4.184 \times 10^{15} \text{ J}}{1 \text{ MT}} = 1.674 \times 10^{19} \text{ J} $$
+</div>
+
+Convert to kWh:
+
+<div class="equation">
+$$ E = \frac{1.674 \times 10^{19} \text{ J}}{3.60 \times 10^{6} \text{ J/kWh}} = 4.65 \times 10^{12} \text{ kWh} = 4.65 \text{ trillion kWh} $$
+</div>
+
+(b) Monetary value:
+
+<div class="equation">
+$$ \text{Value} = (4.65 \times 10^{12} \text{ kWh})(\$0.10/\text{kWh}) = \$4.65 \times 10^{11} = \$465 \text{ billion} $$
+</div>
+
+**Discussion**
+
+The world's nuclear arsenal contains energy worth about $465 billion if it could be peacefully converted to electricity—equivalent to about half a trillion dollars. To put this in perspective, world annual electricity consumption is about 25,000 TWh = $$2.5 \times 10^{13}$$ kWh, so these weapons contain enough energy to power the world for about 2-3 weeks. However, this comparison is somewhat misleading: nuclear weapons release their energy in microseconds in an uncontrolled explosion, while peaceful power generation requires controlled, sustained reactions over months or years. The uranium and plutonium in weapons could theoretically be "downblended" and used as reactor fuel, and some weapons-grade material has indeed been converted for civilian power use under nonproliferation agreements. This problem highlights both the enormous destructive potential and the tragic waste represented by nuclear arsenals—energy that could power cities instead threatens to destroy them.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -282,6 +338,43 @@ A radiation-enhanced nuclear weapon (or neutron bomb) can have a smaller total y
 <div class="problem" markdown="1">
 (a) How many  $${}^{239}\text{Pu} $$
  nuclei must fission to produce a 20.0-kT yield, assuming 200 MeV per fission? (b) What is the mass of this much  $${}^{239}\text{Pu} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Convert 20.0 kT to joules, then to MeV. Divide by 200 MeV/fission to get number of fissions. (b) Convert number of nuclei to mass using molar mass 239 g/mol.
+
+**Solution**
+
+(a) Energy in joules:
+
+<div class="equation">
+$$ E = 20.0 \text{ kT} \times \frac{4.184 \times 10^{12} \text{ J}}{1 \text{ kT}} = 8.368 \times 10^{13} \text{ J} $$
+</div>
+
+Convert to MeV:
+
+<div class="equation">
+$$ E = \frac{8.368 \times 10^{13}}{1.602 \times 10^{-13}} = 5.22 \times 10^{26} \text{ MeV} $$
+</div>
+
+Number of fissions:
+
+<div class="equation">
+$$ N = \frac{5.22 \times 10^{26}}{200} = 2.61 \times 10^{24} \text{ fissions} $$
+</div>
+
+(b) Mass:
+
+<div class="equation">
+$$ m = \frac{2.61 \times 10^{24}}{6.022 \times 10^{23}} \times 239 = 1.04 \times 10^{3} \text{ g} = 1.04 \text{ kg} $$
+</div>
+
+**Discussion**
+
+Only about 1 kilogram of $${}^{239}\text{Pu}$$ needs to fission to produce a 20-kiloton explosion like the Nagasaki bomb. However, an actual weapon requires several kilograms of plutonium because: (1) Not all nuclei fission—efficiency is typically 10-20%, so the bomb needs 5-10 kg total; (2) A critical mass must be assembled to sustain the chain reaction; (3) Some material is blown apart before it can fission. The fact that about 1 kg actually fissioned in the Nagasaki bomb means roughly 80-85% of the plutonium did NOT fission but was scattered as radioactive fallout. This is why nuclear weapons are so "dirty"—they spread kilograms of unfissioned plutonium across the environment. Modern weapons achieve higher efficiency (up to 50%), requiring less material and producing less fallout, but even these convert only a fraction of their nuclear fuel. This calculation shows why plutonium is such a proliferation concern: just a few kilograms can make a devastating weapon.
 
 </div>
 </div>
@@ -322,6 +415,37 @@ is not an unreasonable weight for a missile.
 This problem gives some idea of the magnitude of the energy yield of a small tactical bomb. Assume that half the energy of a 1.00-kT nuclear depth charge set off under an aircraft carrier goes into lifting it out of the water—that is, into gravitational potential energy. How high is the carrier lifted if its mass is 90 000 tons?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$PE = mgh$$. Half the bomb energy (0.50 kT) goes into lifting. Convert to joules, solve for h using $$m = 90,000 \text{ tons} = 9.0 \times 10^{7} \text{ kg}$$.
+
+**Solution**
+
+Energy available for lifting:
+
+<div class="equation">
+$$ E = 0.50 \text{ kT} = 0.50 \times 4.184 \times 10^{12} = 2.09 \times 10^{12} \text{ J} $$
+</div>
+
+Mass of carrier:
+
+<div class="equation">
+$$ m = 90,000 \text{ tons} \times \frac{907 \text{ kg}}{1 \text{ ton}} = 8.16 \times 10^{7} \text{ kg} $$
+</div>
+
+Height from $$PE = mgh$$:
+
+<div class="equation">
+$$ h = \frac{E}{mg} = \frac{2.09 \times 10^{12}}{(8.16 \times 10^{7})(9.8)} = 2.61 \times 10^{3} \text{ m} = 2.61 \text{ km} $$
+</div>
+
+**Discussion**
+
+The aircraft carrier would be lifted 2.6 kilometers (about 1.6 miles) into the air! This astonishing result—lifting a 90,000-ton warship higher than many mountains—demonstrates the incredible energy density of nuclear weapons. Of course, in reality the carrier wouldn't be lifted as a rigid body to this height. Instead, the explosion would: (1) Create a massive bubble of superheated steam and gas that expands rapidly; (2) Shock the hull, breaking it apart; (3) Lift fragments in a chaotic spray rather than the whole ship intact. Nevertheless, this calculation shows why nuclear depth charges are so devastating to surface ships—even a "small" 1-kiloton weapon underwater releases enough energy to completely destroy the largest vessels. The water coupling makes underwater nuclear explosions particularly effective: the incompressible water transmits the shock wave with little attenuation, and the expanding gas bubble creates a powerful lifting force. This is why nuclear depth charges were developed during the Cold War for anti-submarine warfare—one bomb could sink an entire carrier battle group.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -342,8 +466,51 @@ A 1.00-MT bomb exploded a few kilometers above the ground deposits 25.0% of its 
 (a) Find the calories per $${\text{cm}}^{2} $$ at a distance of 10.0 km by
 assuming a uniform distribution over a spherical surface of that radius.
 
-(b) If this heat falls on a person’s body, what temperature increase does it
+(b) If this heat falls on a person's body, what temperature increase does it
 cause in the affected tissue, assuming it is absorbed in a layer 1.00-cm deep?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Find total thermal energy (25% of 1.00 MT), distribute over sphere surface area $$A = 4\pi r^{2}$$ at r = 10 km. Convert to cal/cm². (b) Use $$Q = mc\Delta T$$ with c = 1 cal/(g·°C) for tissue (similar to water), assuming 1 cm² of 1-cm-deep tissue has mass 1 g.
+
+**Solution**
+
+(a) Thermal energy:
+
+<div class="equation">
+$$ E = 0.250 \times 4.184 \times 10^{15} = 1.046 \times 10^{15} \text{ J} $$
+</div>
+
+Convert to calories (1 cal = 4.184 J):
+
+<div class="equation">
+$$ E = \frac{1.046 \times 10^{15}}{4.184} = 2.50 \times 10^{14} \text{ cal} $$
+</div>
+
+Surface area at 10 km:
+
+<div class="equation">
+$$ A = 4\pi r^{2} = 4\pi(10 \times 10^{5} \text{ cm})^{2} = 1.26 \times 10^{13} \text{ cm}^{2} $$
+</div>
+
+Energy per unit area:
+
+<div class="equation">
+$$ \frac{E}{A} = \frac{2.50 \times 10^{14}}{1.26 \times 10^{13}} = 19.8 \text{ cal/cm}^{2} $$
+</div>
+
+(b) For 1 cm² area, 1 cm deep: mass = 1 g (tissue density ≈ 1 g/cm³)
+
+<div class="equation">
+$$ \Delta T = \frac{Q}{mc} = \frac{19.8 \text{ cal}}{(1 \text{ g})(1 \text{ cal/g·°C})} = 19.8°\text{C} \approx 20°\text{C} $$
+</div>
+
+**Discussion**
+
+At 10 km from a 1-megaton airburst, exposed skin receives about 20 cal/cm², causing a temperature rise of 20°C. This is enough to cause second-degree burns (blistering) on exposed skin. The thermal pulse lasts only a few seconds, but delivers intense heat almost instantaneously. This explains the horrific burn injuries at Hiroshima and Nagasaki—people 10 km away received severe burns on exposed skin facing the blast. Closer distances are far worse: at 5 km the energy scales as $$1/r^{2}$$, giving ~80 cal/cm² and nearly instant third-degree burns. At 2 km, it's ~500 cal/cm²—enough to ignite clothing and vaporize skin. This thermal radiation, traveling at the speed of light, arrives before the blast wave, giving no warning. The combination of thermal and blast effects creates a zone of near-total lethality extending kilometers from a large nuclear explosion. This problem demonstrates why nuclear weapons cause such widespread casualties—the thermal effects alone can inflict mass casualties over enormous areas.
 
 </div>
 </div>
