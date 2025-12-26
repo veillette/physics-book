@@ -1,51 +1,140 @@
 /* Start GitBook CSS */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
+
+/* ==================== CSS Custom Properties ==================== */
+:root {
+  /* Color Palette */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-text-primary: #1e293b;
+  --color-text-muted: #999999;
+  --color-text-dark: #333;
+  --color-text-medium: #666666;
+  --color-text-light: #555;
+
+  --color-primary: #0d9488;
+  --color-primary-hover: #0f766e;
+  --color-link: #0d9488;
+  --color-link-hover: #0f766e;
+
+  --color-border: #dcdcdc;
+  --color-border-light: #eeeeee;
+  --color-border-medium: #e0e0e0;
+  --color-border-dark: #c0c0c0;
+  --color-border-subtle: rgb(0 0 0 / 0.07);
+
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f6f6f6;
+  --color-bg-tertiary: #f0f2f4;
+  --color-bg-sidebar: #ffffff;
+  --color-bg-sidebar-active: #f8fafc;
+  --color-bg-button: #ffffff;
+  --color-bg-code: #f8fafc;
+
+  --color-shadow-light: rgb(0 0 0 / 0.15);
+  --color-shadow-medium: rgb(0 0 0 / 0.2);
+  --color-focus-ring: -webkit-focus-ring-color;
+
+  --color-nav-text: #364149;
+  --color-nav-muted: #c4cdd4;
+
+  --color-teal-light: #e0f2f1;
+  --color-slate-200: #e2e8f0;
+  --color-slate-400: #cbd5e1;
+  --color-slate-600: #64748b;
+
+  /* Dark Mode Colors */
+  --color-dark-bg-primary: #1a1a1a;
+  --color-dark-bg-secondary: #2d2d2d;
+  --color-dark-bg-tertiary: #404040;
+  --color-dark-text-primary: #e0e0e0;
+  --color-dark-text-muted: #b0b0b0;
+  --color-dark-border: #505050;
+  --color-dark-link: #6ba3ff;
+  --color-dark-link-hover: #89b8ff;
+
+  /* Spacing */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+
+  /* Typography */
+  --font-family-base: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-serif: 'Merriweather', Georgia, serif;
+  --font-family-mono: monospace, serif;
+
+  --font-size-base: 12px;
+  --font-size-h1: 36px;
+  --font-size-h2: 30px;
+  --font-size-h3: 24px;
+  --font-size-h4: 18px;
+  --font-size-section: 1.6rem;
+
+  --line-height-base: 1.428571429;
+  --line-height-headings: 1.1;
+
+  /* Layout */
+  --sidebar-width: 250px;
+  --page-max-width: 800px;
+  --border-radius-sm: 3px;
+  --border-radius-md: 4px;
+  --border-radius-lg: 6px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-base: all 0.3s ease;
+  --transition-sidebar: all 0.5s ease;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 6px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 2px 8px rgb(0 0 0 / 0.15);
+  --shadow-lg: 0 3px 12px rgb(0 0 0 / 0.2);
+
+  /* Z-index layers */
+  --z-sidebar: 1;
+  --z-toggle: 10;
+  --z-buttons: 1000;
+}
+
+/* ==================== CSS Reset & Base Styles ==================== */
+
+:is(article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary) {
   display: block;
 }
 
 .btn-link {
-  box-shadow: inset 0 1px 0 0 #ffffff;
-  background: #ffffff linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-  border-radius: 6px;
-  border: 1px solid #dcdcdc;
+  box-shadow: inset 0 1px 0 0 var(--color-white);
+  background: var(--color-white) linear-gradient(to bottom, var(--color-white) 5%, var(--color-bg-secondary) 100%);
+  border-radius: var(--border-radius-lg);
+  border: 1px solid var(--color-border);
   display: inline-block;
   cursor: pointer;
-  color: #666666;
+  color: var(--color-text-medium);
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
-  text-shadow: 0 1px 0 #ffffff;
+  text-shadow: 0 1px 0 var(--color-white);
 }
 
 .btn-link:hover {
-  background: #f6f6f6 linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+  background: var(--color-bg-secondary) linear-gradient(to bottom, var(--color-bg-secondary) 5%, var(--color-white) 100%);
 }
 
 .btn-link:active {
   position: relative;
-  top: 1px;
+  inset-block-start: 1px;
 }
 
-audio,
-canvas,
-video {
+:is(audio, canvas, video) {
   display: inline-block;
 }
 
 audio:not([controls]) {
   display: none;
-  height: 0;
+  block-size: 0;
 }
 
 [hidden] {
@@ -56,19 +145,43 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  font-size: 50%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   margin: 0;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+
+:is(html, body) {
+  block-size: 100%;
 }
 
 a:focus {
   outline: thin dotted;
+  outline: 5px auto var(--color-focus-ring);
+  outline-offset: -2px;
 }
 
-a:active,
-a:hover {
+:is(a:active, a:hover) {
   outline: 0;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+:is(a:hover, a:focus) {
+  color: var(--color-link-hover);
+  text-decoration: underline;
 }
 
 h1 {
@@ -77,11 +190,10 @@ h1 {
 }
 
 abbr[title] {
-  border-bottom: 1px dotted;
+  border-block-end: 1px dotted;
 }
 
-b,
-strong {
+:is(b, strong) {
   font-weight: bold;
 }
 
@@ -91,19 +203,19 @@ dfn {
 
 hr {
   box-sizing: content-box;
-  height: 0;
+  block-size: 0;
+  margin-block: var(--spacing-lg);
+  border: 0;
+  border-block-start: 1px solid var(--color-border-light);
 }
 
 mark {
   background: #ff0;
-  color: #000000;
+  color: var(--color-black);
 }
 
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
+:is(code, kbd, pre, samp) {
+  font-family: var(--font-family-mono);
   font-size: 1em;
 }
 
@@ -119,8 +231,7 @@ small {
   font-size: 80%;
 }
 
-sub,
-sup {
+:is(sub, sup) {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -128,15 +239,16 @@ sup {
 }
 
 sup {
-  top: -0.5em;
+  inset-block-start: -0.5em;
 }
 
 sub {
-  bottom: -0.25em;
+  inset-block-end: -0.25em;
 }
 
 img {
   border: 0;
+  vertical-align: middle;
 }
 
 svg:not(:root) {
@@ -145,18 +257,18 @@ svg:not(:root) {
 
 figure {
   margin: 0;
-  border: solid #e0f2f1;
+  border: solid var(--color-teal-light);
   border-width: 3px 2px 0 2px;
 }
 
 figcaption {
   margin: 0;
-  background-color: #e0f2f1;
+  background-color: var(--color-teal-light);
   padding: 0.35em 0.625em 0.75em;
 }
 
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid var(--color-border-dark);
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -166,40 +278,30 @@ legend {
   padding: 0;
 }
 
-button,
-input,
-select,
-textarea {
+:is(button, input, select, textarea) {
   font-family: inherit;
   font-size: 100%;
   margin: 0;
 }
 
-button,
-input {
+:is(button, input) {
   line-height: normal;
 }
 
-button,
-select {
+:is(button, select) {
   text-transform: none;
 }
 
-button,
-html input[type='button'],
-input[type='reset'],
-input[type='submit'] {
+:is(button, html input[type='button'], input[type='reset'], input[type='submit']) {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
-button[disabled],
-html input[disabled] {
+:is(button[disabled], html input[disabled]) {
   cursor: default;
 }
 
-input[type='checkbox'],
-input[type='radio'] {
+:is(input[type='checkbox'], input[type='radio']) {
   box-sizing: border-box;
   padding: 0;
 }
@@ -209,13 +311,11 @@ input[type='search'] {
   box-sizing: content-box;
 }
 
-input[type='search']::-webkit-search-cancel-button,
-input[type='search']::-webkit-search-decoration {
+:is(input[type='search']::-webkit-search-cancel-button, input[type='search']::-webkit-search-decoration) {
   -webkit-appearance: none;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+:is(button::-moz-focus-inner, input::-moz-focus-inner) {
   border: 0;
   padding: 0;
 }
@@ -230,199 +330,133 @@ table {
   border-spacing: 0;
 }
 
-*,
-*:before,
-*:after {
+:is(*, *::before, *::after) {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 50%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-body {
-  font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  line-height: 1.428571429;
-  color: #1e293b;
-  background-color: #ffffff;
-}
-
-input,
-button,
-select,
-textarea {
+:is(input, button, select, textarea) {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
-button,
-input,
-select[multiple],
-textarea {
+:is(button, input, select[multiple], textarea) {
   background-image: none;
 }
 
-a {
-  color: #0d9488;
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #0f766e;
-  text-decoration: underline;
-}
-
-a:focus {
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-
-img {
-  vertical-align: middle;
-}
-
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-}
-
 p {
-  margin: 0 0 10px;
-}
-
-small {
-  font-size: 85%;
+  margin: 0 0 var(--spacing-sm);
 }
 
 cite {
   font-style: normal;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+:is(h1, h2, h3, h4, h5, h6) {
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: var(--line-height-headings);
 }
 
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small {
+:is(h1, h2, h3, h4, h5, h6) small {
   font-weight: normal;
   line-height: 1;
-  color: #999999;
+  color: var(--color-text-muted);
 }
 
-h1,
-h2,
-h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+:is(h1, h2, h3) {
+  margin-block-start: var(--spacing-lg);
+  margin-block-end: var(--spacing-sm);
 }
 
-h4,
-h5,
-h6 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+:is(h4, h5, h6) {
+  margin-block-start: var(--spacing-sm);
+  margin-block-end: var(--spacing-sm);
 }
 
 h1 {
-  font-size: 36px;
+  font-size: var(--font-size-h1);
 }
 
 h2 {
-  font-size: 30px;
+  font-size: var(--font-size-h2);
 }
 
 h3 {
-  font-size: 24px;
+  font-size: var(--font-size-h3);
 }
 
 h4 {
-  font-size: 18px;
+  font-size: var(--font-size-h4);
 }
 
-/* Floating toggle button for sidebar */
+/* ==================== Toggle Summary Button ==================== */
+
 .book > .toggle-summary {
   position: fixed;
-  top: 10px;
-  left: 10px;
-  z-index: 10;
+  inset-block-start: var(--spacing-sm);
+  inset-inline-start: var(--spacing-sm);
+  z-index: var(--z-toggle);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  inline-size: 40px;
+  block-size: 40px;
   padding: 0;
   border: none;
-  border-radius: 6px;
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  color: #555;
+  border-radius: var(--border-radius-lg);
+  background: rgb(255 255 255 / 0.95);
+  box-shadow: var(--shadow-md);
+  color: var(--color-text-light);
   font-size: 18px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: var(--transition-base);
 }
 
 .book > .toggle-summary:hover {
-  background: #f0f2f4;
-  color: #333;
+  background: var(--color-bg-tertiary);
+  color: var(--color-text-dark);
   text-decoration: none;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-lg);
 }
 
 .book.with-summary > .toggle-summary {
-  left: 260px;
-  background: #f8fafc;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  inset-inline-start: calc(var(--sidebar-width) + var(--spacing-sm));
+  background: var(--color-bg-sidebar-active);
+  box-shadow: var(--shadow-sm);
 }
 
 @media (max-width: 600px) {
   .book.with-summary > .toggle-summary {
-    left: 10px;
-    background: rgba(255, 255, 255, 0.95);
+    inset-inline-start: var(--spacing-sm);
+    background: rgb(255 255 255 / 0.95);
   }
 }
 
+/* ==================== Book Summary Sidebar ==================== */
+
 .book .book-summary {
-  font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-base);
   position: absolute;
-  top: 0;
-  left: -250px;
-  bottom: 0;
-  z-index: 1;
-  width: 250px;
-  color: #c4cdd4;
-  background: #fff;
-  border-right: 1px solid rgba(0, 0, 0, 0.07);
-  transition: all 0.5s ease;
+  inset-block-start: 0;
+  inset-inline-start: calc(-1 * var(--sidebar-width));
+  inset-block-end: 0;
+  z-index: var(--z-sidebar);
+  inline-size: var(--sidebar-width);
+  color: var(--color-nav-muted);
+  background: var(--color-bg-sidebar);
+  border-inline-end: 1px solid var(--color-border-subtle);
+  transition: var(--transition-sidebar);
 }
 
 .book .book-summary ul.summary {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   overflow-y: auto;
   list-style: none;
   margin: 0;
-  padding: 60px 0 0 0;
-  transition: top 0.5s ease;
+  padding-block-start: 60px;
+  transition: top var(--transition-slow);
 }
 
 .book .book-summary ul.summary li {
@@ -430,23 +464,23 @@ h4 {
 }
 
 .book .book-summary ul.summary li.divider {
-  height: 1px;
-  margin: 7px 0;
+  block-size: 1px;
+  margin-block: 7px;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.07);
+  background: var(--color-border-subtle);
 }
 
 .book .book-summary ul.summary li i.fa-check {
   display: none;
   position: absolute;
-  right: 9px;
-  top: 16px;
+  inset-inline-end: 9px;
+  inset-block-start: 16px;
   font-size: 9px;
   color: #33cc33;
 }
 
 .book .book-summary ul.summary li.done > a {
-  color: #364149;
+  color: var(--color-nav-text);
   font-weight: normal;
 }
 
@@ -454,12 +488,11 @@ h4 {
   display: inline;
 }
 
-.book .book-summary ul.summary li a,
-.book .book-summary ul.summary li span {
+:is(.book .book-summary ul.summary li a, .book .book-summary ul.summary li span) {
   display: block;
-  padding: 10px 15px;
-  border-bottom: 0;
-  color: #364149;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-block-end: 0;
+  color: var(--color-nav-text);
   background: transparent;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -470,59 +503,53 @@ h4 {
 .book .book-summary ul.summary li span {
   cursor: not-allowed;
   opacity: 0.3;
-  filter: alpha(opacity=30);
 }
 
-.book .book-summary ul.summary li.active > a,
-.book .book-summary ul.summary li a:hover {
-  color: #0d9488;
+:is(.book .book-summary ul.summary li.active > a, .book .book-summary ul.summary li a:hover) {
+  color: var(--color-primary);
   background: transparent;
   text-decoration: none;
 }
 
 .book .book-summary ul.summary li ul {
-  padding-left: 20px;
+  padding-inline-start: var(--spacing-lg);
 }
 
 @media (max-width: 600px) {
   .book .book-summary {
-    width: 100%;
-    bottom: 0;
-    left: -100%;
+    inline-size: 100%;
+    inset-block-end: 0;
+    inset-inline-start: -100%;
   }
 }
 
 .book.with-summary .book-summary {
-  left: 0;
+  inset-inline-start: 0;
 }
 
 .book.without-animation .book-summary {
   transition: none !important;
 }
 
+/* ==================== Book Body ==================== */
+
 .book {
   position: relative;
-  width: 100%;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .book .book-body {
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  color: #000;
-  background: #fff;
-  transition: left 0.5s ease;
+  inset: 0;
+  color: var(--color-black);
+  background: var(--color-bg-sidebar);
+  transition: left var(--transition-slow);
 }
 
 .book .book-body .body-inner {
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  inset: 0;
   overflow-y: auto;
 }
 
@@ -532,17 +559,17 @@ h4 {
 }
 
 .book .book-body .page-wrapper .page-inner {
-  max-width: 800px;
-  margin: 0 auto;
+  max-inline-size: var(--page-max-width);
+  margin-inline: auto;
 }
 
 .book .book-body .page-wrapper .page-inner section {
   margin: 0;
-  padding: 5px 15px;
-  background: #fff;
+  padding: var(--spacing-xs) var(--spacing-md);
+  background: var(--color-bg-sidebar);
   border-radius: 2px;
   line-height: 1.6em;
-  font-size: 1.6rem;
+  font-size: var(--font-size-section);
 }
 
 @media (max-width: 1240px) {
@@ -552,14 +579,14 @@ h4 {
 
   .book .book-body .body-inner {
     position: static;
-    padding-bottom: 20px;
-    min-height: calc(43%);
+    padding-block-end: var(--spacing-lg);
+    min-block-size: 43%;
   }
 }
 
 @media (min-width: 600px) {
   .book.with-summary .book-body {
-    left: 250px;
+    inset-inline-start: var(--sidebar-width);
   }
 }
 
@@ -567,6 +594,7 @@ h4 {
   transition: none !important;
 }
 
+/* Font size variations */
 .book.font-size-0 .book-body {
   font-size: 1.2rem;
 }
@@ -587,31 +615,34 @@ h4 {
   font-size: 4rem;
 }
 
+/* Font family variations */
 .book.font-family-0 {
-  font-family: 'Merriweather', Georgia, serif;
+  font-family: var(--font-family-serif);
 }
 
 .book.font-family-1 {
-  font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-base);
 }
 
+/* ==================== Page Content Styles ==================== */
+
 .book .book-body .page-wrapper .page-inner section.normal {
-  padding-bottom: 25px;
-  padding-top: 15px;
-  color: #000;
+  padding-block-end: 25px;
+  padding-block-start: var(--spacing-md);
+  color: var(--color-black);
   letter-spacing: 0.01rem;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal > *:first-child {
-  margin-top: 0 !important;
+:is(.book .book-body .page-wrapper .page-inner section.normal > *:first-child) {
+  margin-block-start: 0 !important;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal > *:last-child {
-  margin-bottom: 0 !important;
+:is(.book .book-body .page-wrapper .page-inner section.normal > *:last-child) {
+  margin-block-end: 0 !important;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal a {
-  color: #0d9488;
+  color: var(--color-link);
 }
 
 .book .book-body .page-wrapper .page-inner section.normal a.absent {
@@ -620,23 +651,23 @@ h4 {
 
 .book .book-body .page-wrapper .page-inner section.normal a.anchor {
   display: block;
-  padding-left: 30px;
-  margin-left: -30px;
+  padding-inline-start: var(--spacing-xl);
+  margin-inline-start: calc(-1 * var(--spacing-xl));
   cursor: pointer;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  inset: 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal h1,
-.book .book-body .page-wrapper .page-inner section.normal h2,
-.book .book-body .page-wrapper .page-inner section.normal h3,
-.book .book-body .page-wrapper .page-inner section.normal h4,
-.book .book-body .page-wrapper .page-inner section.normal h5,
-.book .book-body .page-wrapper .page-inner section.normal h6 {
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal h1,
+  .book .book-body .page-wrapper .page-inner section.normal h2,
+  .book .book-body .page-wrapper .page-inner section.normal h3,
+  .book .book-body .page-wrapper .page-inner section.normal h4,
+  .book .book-body .page-wrapper .page-inner section.normal h5,
+  .book .book-body .page-wrapper .page-inner section.normal h6
+) {
   line-height: 1.7;
-  margin: 20px 0 10px;
+  margin: var(--spacing-lg) 0 var(--spacing-sm);
   padding: 0;
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
@@ -650,7 +681,7 @@ h4 {
 
 .book .book-body .page-wrapper .page-inner section.normal h2 {
   font-size: 2em;
-  border-bottom: 1px solid #e2e8f0;
+  border-block-end: 1px solid var(--color-slate-200);
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h3 {
@@ -669,75 +700,74 @@ h4 {
   font-size: 1em;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal p,
-.book .book-body .page-wrapper .page-inner section.normal blockquote,
-.book .book-body .page-wrapper .page-inner section.normal ul,
-.book .book-body .page-wrapper .page-inner section.normal ol,
-.book .book-body .page-wrapper .page-inner section.normal dl,
-.book .book-body .page-wrapper .page-inner section.normal table,
-.book .book-body .page-wrapper .page-inner section.normal pre {
-  margin: 15px 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal p,
+  .book .book-body .page-wrapper .page-inner section.normal blockquote,
+  .book .book-body .page-wrapper .page-inner section.normal ul,
+  .book .book-body .page-wrapper .page-inner section.normal ol,
+  .book .book-body .page-wrapper .page-inner section.normal dl,
+  .book .book-body .page-wrapper .page-inner section.normal table,
+  .book .book-body .page-wrapper .page-inner section.normal pre
+) {
+  margin: var(--spacing-md) 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal body > h2:first-child {
-  margin-top: 0;
-  padding-top: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal body > h2:first-child,
+  .book .book-body .page-wrapper .page-inner section.normal body > h1:first-child,
+  .book .book-body .page-wrapper .page-inner section.normal body > h1:first-child + h2,
+  .book .book-body .page-wrapper .page-inner section.normal body > h3:first-child,
+  .book .book-body .page-wrapper .page-inner section.normal body > h4:first-child,
+  .book .book-body .page-wrapper .page-inner section.normal body > h5:first-child,
+  .book .book-body .page-wrapper .page-inner section.normal body > h6:first-child
+) {
+  margin-block-start: 0;
+  padding-block-start: 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal body > h1:first-child {
-  margin-top: 0;
-  padding-top: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal a:first-child h1,
+  .book .book-body .page-wrapper .page-inner section.normal a:first-child h2,
+  .book .book-body .page-wrapper .page-inner section.normal a:first-child h3,
+  .book .book-body .page-wrapper .page-inner section.normal a:first-child h4,
+  .book .book-body .page-wrapper .page-inner section.normal a:first-child h5,
+  .book .book-body .page-wrapper .page-inner section.normal a:first-child h6
+) {
+  margin-block-start: 0;
+  padding-block-start: 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal body > h1:first-child + h2 {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal body > h3:first-child,
-.book .book-body .page-wrapper .page-inner section.normal body > h4:first-child,
-.book .book-body .page-wrapper .page-inner section.normal body > h5:first-child,
-.book .book-body .page-wrapper .page-inner section.normal body > h6:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal a:first-child h1,
-.book .book-body .page-wrapper .page-inner section.normal a:first-child h2,
-.book .book-body .page-wrapper .page-inner section.normal a:first-child h3,
-.book .book-body .page-wrapper .page-inner section.normal a:first-child h4,
-.book .book-body .page-wrapper .page-inner section.normal a:first-child h5,
-.book .book-body .page-wrapper .page-inner section.normal a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal h1 p,
-.book .book-body .page-wrapper .page-inner section.normal h2 p,
-.book .book-body .page-wrapper .page-inner section.normal h3 p,
-.book .book-body .page-wrapper .page-inner section.normal h4 p,
-.book .book-body .page-wrapper .page-inner section.normal h5 p,
-.book .book-body .page-wrapper .page-inner section.normal h6 p {
-  margin-top: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal h1 p,
+  .book .book-body .page-wrapper .page-inner section.normal h2 p,
+  .book .book-body .page-wrapper .page-inner section.normal h3 p,
+  .book .book-body .page-wrapper .page-inner section.normal h4 p,
+  .book .book-body .page-wrapper .page-inner section.normal h5 p,
+  .book .book-body .page-wrapper .page-inner section.normal h6 p
+) {
+  margin-block-start: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal li p.first {
   display: inline-block;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal ul,
-.book .book-body .page-wrapper .page-inner section.normal ol {
-  padding-left: 30px;
+:is(.book .book-body .page-wrapper .page-inner section.normal ul, .book .book-body .page-wrapper .page-inner section.normal ol) {
+  padding-inline-start: var(--spacing-xl);
 }
 
-.book .book-body .page-wrapper .page-inner section.normal ul :first-child,
-.book .book-body .page-wrapper .page-inner section.normal ol :first-child {
-  margin-top: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal ul :first-child,
+  .book .book-body .page-wrapper .page-inner section.normal ol :first-child
+) {
+  margin-block-start: 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal ul :last-child,
-.book .book-body .page-wrapper .page-inner section.normal ol :last-child {
-  margin-bottom: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal ul :last-child,
+  .book .book-body .page-wrapper .page-inner section.normal ol :last-child
+) {
+  margin-block-end: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal ul p {
@@ -757,97 +787,101 @@ h4 {
   font-weight: bold;
   font-style: italic;
   padding: 0;
-  margin: 15px 0 5px;
+  margin: var(--spacing-md) 0 var(--spacing-xs);
 }
 
 .book .book-body .page-wrapper .page-inner section.normal dl dt:first-child {
   padding: 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal dl dt > :first-child {
-  margin-top: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal dl dt > :first-child,
+  .book .book-body .page-wrapper .page-inner section.normal dl dd > :first-child
+) {
+  margin-block-start: 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal dl dt > :last-child {
-  margin-bottom: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal dl dt > :last-child,
+  .book .book-body .page-wrapper .page-inner section.normal dl dd > :last-child
+) {
+  margin-block-end: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal dl dd {
-  margin: 0 0 15px;
-  padding: 0 15px;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal dl dd > :first-child {
-  margin-top: 0;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal dl dd > :last-child {
-  margin-bottom: 0;
+  margin: 0 0 var(--spacing-md);
+  padding-inline: var(--spacing-md);
 }
 
 .book .book-body .page-wrapper .page-inner section.normal blockquote {
-  border-left: 4px solid #cbd5e1;
-  padding: 0 15px;
-  color: #64748b;
+  border-inline-start: 4px solid var(--color-slate-400);
+  padding-inline: var(--spacing-md);
+  color: var(--color-slate-600);
 }
 
 .book .book-body .page-wrapper .page-inner section.normal blockquote p {
   font-size: inherit;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal blockquote > :first-child {
-  margin-top: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal blockquote > :first-child,
+  .book .book-body .page-wrapper .page-inner section.normal blockquote > :last-child
+) {
+  margin-block-start: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal blockquote > :last-child {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal table {
-  width: 100%;
+  inline-size: 100%;
   padding: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal table tr {
-  border-top: 1px solid #cbd5e1;
+  border-block-start: 1px solid var(--color-slate-400);
   background-color: white;
   margin: 0;
   padding: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
-  background-color: #f8fafc;
+  background-color: var(--color-bg-sidebar-active);
+}
+
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal table tr th,
+  .book .book-body .page-wrapper .page-inner section.normal table tr td
+) {
+  border: 1px solid var(--color-slate-400);
+  text-align: start;
+  margin: 0;
+  padding: 6px 13px;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal table tr th {
   font-weight: bold;
-  border: 1px solid #cbd5e1;
-  text-align: left;
-  margin: 0;
-  padding: 6px 13px;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal table tr td {
-  border: 1px solid #cbd5e1;
-  text-align: left;
-  margin: 0;
-  padding: 6px 13px;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal table tr th :first-child,
+  .book .book-body .page-wrapper .page-inner section.normal table tr td :first-child
+) {
+  margin-block-start: 0;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal table tr th :first-child,
-.book .book-body .page-wrapper .page-inner section.normal table tr td :first-child {
-  margin-top: 0;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal table tr th :last-child,
-.book .book-body .page-wrapper .page-inner section.normal table tr td :last-child {
-  margin-bottom: 0;
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal table tr th :last-child,
+  .book .book-body .page-wrapper .page-inner section.normal table tr td :last-child
+) {
+  margin-block-end: 0;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal img {
-  max-width: 50%;
+  max-inline-size: 50%;
   display: block;
-  margin: 0 auto;
+  margin-inline: auto;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal span.frame {
@@ -856,13 +890,13 @@ h4 {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal span.frame > span {
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--color-slate-200);
   display: block;
   float: left;
   overflow: hidden;
-  margin: 13px 0 0;
+  margin-block-start: 13px;
   padding: 7px;
-  width: auto;
+  inline-size: auto;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal span.frame span img {
@@ -872,12 +906,15 @@ h4 {
 
 .book .book-body .page-wrapper .page-inner section.normal span.frame span span {
   clear: both;
-  color: #333;
+  color: var(--color-text-dark);
   display: block;
-  padding: 5px 0 0;
+  padding-block-start: var(--spacing-xs);
 }
 
-.book .book-body .page-wrapper .page-inner section.normal span.align-center {
+:is(
+  .book .book-body .page-wrapper .page-inner section.normal span.align-center,
+  .book .book-body .page-wrapper .page-inner section.normal span.align-right
+) {
   display: block;
   overflow: hidden;
   clear: both;
@@ -886,25 +923,20 @@ h4 {
 .book .book-body .page-wrapper .page-inner section.normal span.align-center > span {
   display: block;
   overflow: hidden;
-  margin: 13px auto 0;
+  margin-block-start: 13px;
+  margin-inline: auto 0;
   text-align: center;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal span.align-center span img {
-  margin: 0 auto;
+  margin-inline: auto;
   text-align: center;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal span.align-right {
-  display: block;
-  overflow: hidden;
-  clear: both;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal span.align-right > span {
   display: block;
   overflow: hidden;
-  margin: 13px 0 0;
+  margin-block-start: 13px;
   text-align: right;
 }
 
@@ -915,18 +947,18 @@ h4 {
 
 .book .book-body .page-wrapper .page-inner section.normal span.float-left {
   display: block;
-  margin-right: 13px;
+  margin-inline-end: 13px;
   overflow: hidden;
   float: left;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal span.float-left span {
-  margin: 13px 0 0;
+  margin-block-start: 13px;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal span.float-right {
   display: block;
-  margin-left: 13px;
+  margin-inline-start: 13px;
   overflow: hidden;
   float: right;
 }
@@ -934,65 +966,68 @@ h4 {
 .book .book-body .page-wrapper .page-inner section.normal span.float-right > span {
   display: block;
   overflow: hidden;
-  margin: 13px auto 0;
+  margin-block-start: 13px;
+  margin-inline: auto 0;
   text-align: right;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal code,
-.book .book-body .page-wrapper .page-inner section.normal tt {
-  margin: 0 2px;
-  padding: 0 5px;
+:is(.book .book-body .page-wrapper .page-inner section.normal code, .book .book-body .page-wrapper .page-inner section.normal tt) {
+  margin-inline: 2px;
+  padding-inline: var(--spacing-xs);
   white-space: nowrap;
-  border: 1px solid #e2e8f0;
-  background-color: #f8fafc;
-  border-radius: 3px;
+  border: 1px solid var(--color-slate-200);
+  background-color: var(--color-bg-code);
+  border-radius: var(--border-radius-sm);
 }
+
+/* ==================== Navigation ==================== */
 
 .book .book-body .navigation {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  inset-block: 0;
   margin: 0;
-  max-width: 150px;
-  min-width: 90px;
+  max-inline-size: 150px;
+  min-inline-size: 90px;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
   font-size: 40px;
-  color: rgba(0, 0, 0, 0.2);
+  color: rgb(0 0 0 / 0.2);
   text-align: center;
   transition: all 350ms ease;
 }
 
 .book .book-body .navigation:hover {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgb(0 0 0 / 0.6);
 }
 
 .book .book-body .navigation.navigation-next {
-  right: 2%; /* To allow scroll */
+  inset-inline-end: 2%;
 }
 
 .book .book-body .navigation.navigation-prev {
-  left: 0;
+  inset-inline-start: 0;
 }
 
 @media (max-width: 1240px) {
   .book .book-body .navigation {
     position: static;
-    top: auto;
-    max-width: 50%;
-    width: 50%;
+    inset-block-start: auto;
+    max-inline-size: 50%;
+    inline-size: 50%;
     display: inline-block;
     float: left;
   }
 
   .book .book-body .navigation.navigation-unique {
-    max-width: 100%;
-    width: 100%;
+    max-inline-size: 100%;
+    inline-size: 100%;
   }
 }
+
+/* ==================== Global Utilities ==================== */
 
 * {
   -webkit-overflow-scrolling: touch;
@@ -1002,42 +1037,32 @@ h4 {
   -webkit-font-smoothing: antialiased;
 }
 
-html,
-body {
-  height: 100%;
-}
+/* ==================== Dark Mode Toggle Button ==================== */
 
-body {
-  text-rendering: optimizeLegibility;
-  font-family: 'Open Sans', 'Clear Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow: hidden; /* Hide scrollbars */
-}
-
-/* Dark Mode Toggle Button */
 .book .book-body .dark-mode-toggle {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 40px;
-  height: 40px;
+  inset-block-start: var(--spacing-lg);
+  inset-inline-end: var(--spacing-lg);
+  inline-size: 40px;
+  block-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0d9488;
+  background-color: var(--color-primary);
   color: white;
   border: none;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
   cursor: pointer;
   font-size: 18px;
   transition: all 250ms ease;
-  z-index: 1000;
+  z-index: var(--z-buttons);
 }
 
 .book .book-body .dark-mode-toggle:hover {
-  background-color: #0f766e;
+  background-color: var(--color-primary-hover);
   transform: scale(1.05);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.25);
 }
 
 .book .book-body .dark-mode-toggle:active {
@@ -1046,38 +1071,39 @@ body {
 
 @media (max-width: 768px) {
   .book .book-body .dark-mode-toggle {
-    width: 35px;
-    height: 35px;
+    inline-size: 35px;
+    block-size: 35px;
     font-size: 16px;
-    top: 10px;
-    right: 10px;
+    inset-block-start: var(--spacing-sm);
+    inset-inline-end: var(--spacing-sm);
   }
 }
 
-/* PDF Download Button - Made smaller and less prominent */
+/* ==================== PDF Download Button ==================== */
+
 .book .book-body .pdf-download-btn {
   position: absolute;
-  top: 20px;
-  right: 70px;
-  width: 40px;
-  height: 40px;
+  inset-block-start: var(--spacing-lg);
+  inset-inline-end: 70px;
+  inline-size: 40px;
+  block-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #64748b;
+  background-color: var(--color-slate-600);
   color: white;
-  border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
   text-decoration: none;
   font-size: 18px;
   transition: all 250ms ease;
-  z-index: 1000;
+  z-index: var(--z-buttons);
 }
 
 .book .book-body .pdf-download-btn:hover {
   background-color: #475569;
   transform: scale(1.05);
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.25);
   text-decoration: none;
   color: white;
 }
@@ -1088,107 +1114,104 @@ body {
 
 @media (max-width: 768px) {
   .book .book-body .pdf-download-btn {
-    width: 35px;
-    height: 35px;
+    inline-size: 35px;
+    block-size: 35px;
     font-size: 16px;
-    top: 10px;
-    right: 55px;
+    inset-block-start: var(--spacing-sm);
+    inset-inline-end: 55px;
   }
 }
 
-/* Dark Mode Styles */
+/* ==================== Dark Mode Styles ==================== */
+
 body.dark-mode {
-  background-color: #1a1a1a;
-  color: #e0e0e0;
+  background-color: var(--color-dark-bg-primary);
+  color: var(--color-dark-text-primary);
 }
 
-body.dark-mode .book {
-  background-color: #1a1a1a;
-  color: #e0e0e0;
+:is(body.dark-mode .book, body.dark-mode .book .book-body) {
+  background-color: var(--color-dark-bg-primary);
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .book .book-summary {
-  background-color: #2d2d2d;
-  border-right: 1px solid #404040;
+  background-color: var(--color-dark-bg-secondary);
+  border-inline-end: 1px solid var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode .book.with-summary .toggle-summary {
-  background-color: #2d2d2d;
-  color: #e0e0e0;
+  background-color: var(--color-dark-bg-secondary);
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .book .book-summary ul.summary li.part {
-  color: #e0e0e0;
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .book .book-summary ul.summary li a {
-  color: #b0b0b0;
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .book .book-summary ul.summary li a:hover {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
-body.dark-mode .book .book-summary ul.summary li.chapter::before {
-  color: #e0e0e0;
-}
-
-body.dark-mode .book .book-summary ul.summary li.chapter > ol > li::before {
-  color: #e0e0e0;
-}
-
-body.dark-mode .book .book-body {
-  background-color: #1a1a1a;
-  color: #e0e0e0;
+:is(
+  body.dark-mode .book .book-summary ul.summary li.chapter::before,
+  body.dark-mode .book .book-summary ul.summary li.chapter > ol > li::before
+) {
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .book .book-body .page-wrapper .page-inner section.normal {
-  background-color: #1a1a1a;
-  color: #e0e0e0;
+  background-color: var(--color-dark-bg-primary);
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .book .book-body .navigation {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgb(255 255 255 / 0.3);
 }
 
 body.dark-mode .book .book-body .navigation:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(255 255 255 / 0.7);
 }
 
 body.dark-mode .page-title {
   color: #7b9ff5;
 }
 
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode h3,
-body.dark-mode h4,
-body.dark-mode h5,
-body.dark-mode h6 {
-  color: #e0e0e0;
+:is(
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode h5,
+  body.dark-mode h6
+) {
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .header-link:hover {
-  color: #ffffff !important;
+  color: var(--color-white) !important;
 }
 
 body.dark-mode a {
-  color: #6ba3ff;
+  color: var(--color-dark-link);
 }
 
 body.dark-mode a:hover {
-  color: #89b8ff;
+  color: var(--color-dark-link-hover);
 }
 
 body.dark-mode code {
-  background-color: #2d2d2d;
-  color: #e0e0e0;
-  border: 1px solid #404040;
+  background-color: var(--color-dark-bg-secondary);
+  color: var(--color-dark-text-primary);
+  border: 1px solid var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode pre {
-  background-color: #2d2d2d;
-  border: 1px solid #404040;
+  background-color: var(--color-dark-bg-secondary);
+  border: 1px solid var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode pre code {
@@ -1198,11 +1221,11 @@ body.dark-mode pre code {
 
 body.dark-mode .abstract {
   background-color: #2a3344;
-  color: #e0e0e0;
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .abstract::before {
-  color: #b0b0b0;
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .glossary {
@@ -1210,89 +1233,88 @@ body.dark-mode .glossary {
 }
 
 body.dark-mode .glossary-title {
-  color: #e0e0e0;
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .note {
-  background-color: #2d2d2d;
+  background-color: var(--color-dark-bg-secondary);
 }
 
-body.dark-mode .note:not([data-label]).ui-has-child-title > header > .title,
-body.dark-mode .note:not([data-label]).ui-has-child-title > .title,
-body.dark-mode .note:not([data-label]):not(.ui-has-child-title)::before,
-body.dark-mode .note[data-label=''].ui-has-child-title > header > .title,
-body.dark-mode .note[data-label=''].ui-has-child-title > .title,
-body.dark-mode .note[data-label='']:not(.ui-has-child-title)::before,
-body.dark-mode .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
-body.dark-mode .note[data-label]:not([data-label='']).ui-has-child-title > .title,
-body.dark-mode .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
-  color: #b0b0b0;
+:is(
+  body.dark-mode .note:not([data-label]).ui-has-child-title > header > .title,
+  body.dark-mode .note:not([data-label]).ui-has-child-title > .title,
+  body.dark-mode .note:not([data-label]):not(.ui-has-child-title)::before,
+  body.dark-mode .note[data-label=''].ui-has-child-title > header > .title,
+  body.dark-mode .note[data-label=''].ui-has-child-title > .title,
+  body.dark-mode .note[data-label='']:not(.ui-has-child-title)::before,
+  body.dark-mode .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+  body.dark-mode .note[data-label]:not([data-label='']).ui-has-child-title > .title,
+  body.dark-mode .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before
+) {
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .book .book-body .page-wrapper .page-inner .note > section {
-  background-color: #2d2d2d;
-  border-top-color: #505050;
+  background-color: var(--color-dark-bg-secondary);
+  border-block-start-color: var(--color-dark-border);
 }
 
-body.dark-mode .example:not([data-label]).ui-has-child-title > header > .title,
-body.dark-mode .example[data-label=''].ui-has-child-title > header > .title,
-body.dark-mode .example[data-label]:not([data-label='']).ui-has-child-title > header > .title {
-  background-color: #404040;
-  color: #e0e0e0;
-}
-
-body.dark-mode .example:not([data-label]):not(.ui-has-child-title)::before,
-body.dark-mode .example[data-label='']:not(.ui-has-child-title)::before,
-body.dark-mode .example[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
-  background-color: #404040;
-  color: #e0e0e0;
+:is(
+  body.dark-mode .example:not([data-label]).ui-has-child-title > header > .title,
+  body.dark-mode .example[data-label=''].ui-has-child-title > header > .title,
+  body.dark-mode .example[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+  body.dark-mode .example:not([data-label]):not(.ui-has-child-title)::before,
+  body.dark-mode .example[data-label='']:not(.ui-has-child-title)::before,
+  body.dark-mode .example[data-label]:not([data-label='']):not(.ui-has-child-title)::before
+) {
+  background-color: var(--color-dark-bg-tertiary);
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .book .book-body .page-wrapper .page-inner .example > section {
-  background-color: #2d2d2d;
-  border-top-color: #505050;
+  background-color: var(--color-dark-bg-secondary);
+  border-block-start-color: var(--color-dark-border);
 }
 
-body.dark-mode .exercise:not([data-label]).ui-has-child-title > header > .title,
-body.dark-mode .exercise[data-label=''].ui-has-child-title > header > .title,
-body.dark-mode .exercise[data-label=''].ui-has-child-title > .title {
-  background-color: #404040;
-  color: #e0e0e0;
-}
-
-body.dark-mode .exercise:not([data-label]):not(.ui-has-child-title)::before,
-body.dark-mode .exercise[data-label='']:not(.ui-has-child-title)::before {
-  background-color: #404040;
-  color: #e0e0e0;
+:is(
+  body.dark-mode .exercise:not([data-label]).ui-has-child-title > header > .title,
+  body.dark-mode .exercise[data-label=''].ui-has-child-title > header > .title,
+  body.dark-mode .exercise[data-label=''].ui-has-child-title > .title,
+  body.dark-mode .exercise:not([data-label]):not(.ui-has-child-title)::before,
+  body.dark-mode .exercise[data-label='']:not(.ui-has-child-title)::before
+) {
+  background-color: var(--color-dark-bg-tertiary);
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .book .book-body .page-wrapper .page-inner .exercise > section {
-  background-color: #2d2d2d;
-  border-top-color: #505050;
+  background-color: var(--color-dark-bg-secondary);
+  border-block-start-color: var(--color-dark-border);
 }
 
-body.dark-mode .example .solution,
-body.dark-mode .exercise .solution {
-  border-top-color: #505050;
-  background-color: #2d2d2d;
-  color: #e0e0e0;
+:is(body.dark-mode .example .solution, body.dark-mode .exercise .solution) {
+  border-block-start-color: var(--color-dark-border);
+  background-color: var(--color-dark-bg-secondary);
+  color: var(--color-dark-text-primary);
 }
 
-body.dark-mode .example[data-element-type='problems-exercises'] .solution::before,
-body.dark-mode .exercise[data-element-type='problems-exercises'] .solution::before,
-body.dark-mode .example[data-element-type='problems-exercises'] .problem::before,
-body.dark-mode .exercise[data-element-type='problems-exercises'] .problem::before {
-  color: #b0b0b0;
+:is(
+  body.dark-mode .example[data-element-type='problems-exercises'] .solution::before,
+  body.dark-mode .exercise[data-element-type='problems-exercises'] .solution::before,
+  body.dark-mode .example[data-element-type='problems-exercises'] .problem::before,
+  body.dark-mode .exercise[data-element-type='problems-exercises'] .problem::before
+) {
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode table {
-  background-color: #2d2d2d;
-  color: #e0e0e0;
+  background-color: var(--color-dark-bg-secondary);
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode table tr {
-  border-top-color: #505050;
-  background-color: #2d2d2d;
+  border-block-start-color: var(--color-dark-border);
+  background-color: var(--color-dark-bg-secondary);
 }
 
 body.dark-mode table tr:nth-child(2n) {
@@ -1300,20 +1322,20 @@ body.dark-mode table tr:nth-child(2n) {
 }
 
 body.dark-mode table th {
-  background-color: #404040;
-  color: #e0e0e0;
-  border-color: #505050;
+  background-color: var(--color-dark-bg-tertiary);
+  color: var(--color-dark-text-primary);
+  border-color: var(--color-dark-border);
 }
 
 body.dark-mode table td {
   background-color: transparent;
-  color: #e0e0e0;
-  border-color: #505050;
+  color: var(--color-dark-text-primary);
+  border-color: var(--color-dark-border);
 }
 
 body.dark-mode blockquote {
-  border-left-color: #505050;
-  color: #b0b0b0;
+  border-inline-start-color: var(--color-dark-border);
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode :target {
@@ -1321,12 +1343,12 @@ body.dark-mode :target {
 }
 
 body.dark-mode figure {
-  border-color: #404040;
+  border-color: var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode figcaption {
-  background-color: #2d2d2d;
-  color: #e0e0e0;
+  background-color: var(--color-dark-bg-secondary);
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode mark {
@@ -1334,22 +1356,24 @@ body.dark-mode mark {
   color: #ffeb3b;
 }
 
-body.dark-mode .example[data-element-type='problems-exercises'] .problem::before,
-body.dark-mode .exercise[data-element-type='problems-exercises'] .problem::before,
-body.dark-mode .example[data-element-type='problems-exercises'] .solution::before,
-body.dark-mode .exercise[data-element-type='problems-exercises'] .solution::before {
-  color: #b0b0b0;
+:is(
+  body.dark-mode .example[data-element-type='problems-exercises'] .problem::before,
+  body.dark-mode .exercise[data-element-type='problems-exercises'] .problem::before,
+  body.dark-mode .example[data-element-type='problems-exercises'] .solution::before,
+  body.dark-mode .exercise[data-element-type='problems-exercises'] .solution::before
+) {
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .book-search {
-  background-color: #2d2d2d;
-  border-bottom-color: #404040;
+  background-color: var(--color-dark-bg-secondary);
+  border-block-end-color: var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode .search-input {
-  background-color: #1a1a1a;
-  color: #e0e0e0;
-  border-color: #404040;
+  background-color: var(--color-dark-bg-primary);
+  color: var(--color-dark-text-primary);
+  border-color: var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode .search-input::placeholder {
@@ -1357,61 +1381,61 @@ body.dark-mode .search-input::placeholder {
 }
 
 body.dark-mode .search-input:focus {
-  border-color: #6ba3ff;
+  border-color: var(--color-dark-link);
 }
 
 body.dark-mode .search-clear {
-  color: #b0b0b0;
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .search-clear:hover {
-  color: #e0e0e0;
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .search-results {
-  background-color: #2d2d2d;
-  border-color: #404040;
+  background-color: var(--color-dark-bg-secondary);
+  border-color: var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode .search-results-header {
-  background-color: #1a1a1a;
-  border-bottom-color: #404040;
-  color: #b0b0b0;
+  background-color: var(--color-dark-bg-primary);
+  border-block-end-color: var(--color-dark-bg-tertiary);
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .search-result-link {
-  color: #e0e0e0;
+  color: var(--color-dark-text-primary);
 }
 
 body.dark-mode .search-result-link:hover {
-  background-color: #404040;
+  background-color: var(--color-dark-bg-tertiary);
 }
 
 body.dark-mode .search-result-title {
-  color: #6ba3ff;
+  color: var(--color-dark-link);
 }
 
 body.dark-mode .search-result-link:hover .search-result-title {
-  color: #89b8ff;
+  color: var(--color-dark-link-hover);
 }
 
 body.dark-mode .search-result-preview {
-  color: #b0b0b0;
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .search-message {
-  color: #b0b0b0;
+  color: var(--color-dark-text-muted);
 }
 
 body.dark-mode .btn-link {
-  background: #404040 linear-gradient(to bottom, #404040 5%, #2d2d2d 100%);
-  border-color: #505050;
-  color: #e0e0e0;
-  text-shadow: 0 1px 0 #000000;
+  background: var(--color-dark-bg-tertiary) linear-gradient(to bottom, var(--color-dark-bg-tertiary) 5%, var(--color-dark-bg-secondary) 100%);
+  border-color: var(--color-dark-border);
+  color: var(--color-dark-text-primary);
+  text-shadow: 0 1px 0 var(--color-black);
 }
 
 body.dark-mode .btn-link:hover {
-  background: #2d2d2d linear-gradient(to bottom, #2d2d2d 5%, #404040 100%);
+  background: var(--color-dark-bg-secondary) linear-gradient(to bottom, var(--color-dark-bg-secondary) 5%, var(--color-dark-bg-tertiary) 100%);
 }
 
 /* End Gitbook CSS */

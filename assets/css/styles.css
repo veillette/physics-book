@@ -1,11 +1,70 @@
-.summary li:not(.visited) > .fa-check {
+/* ==================== Custom Properties for Physics Book ==================== */
+:root {
+  /* Physics Book Colors */
+  --physics-color-primary: #0d9488;
+  --physics-color-primary-hover: #0f766e;
+  --physics-color-secondary: #7c3aed;
+  --physics-color-accent: #ea580c;
+  --physics-color-note: #0369a1;
+  --physics-color-note-bg: #f0f9ff;
+  --physics-color-abstract: #0d9488;
+  --physics-color-abstract-bg: #ecfdf5;
+  --physics-color-glossary: #92400e;
+  --physics-color-glossary-bg: #fef3c7;
+  --physics-color-example: #ea580c;
+  --physics-color-example-bg: #fef2f2;
+  --physics-color-exercise: #7c3aed;
+  --physics-color-exercise-bg: #faf5ff;
+  --physics-color-solution-border: #cbd5e1;
+  --physics-color-problem: #475569;
+  --physics-color-target: #fef3c7;
+  --physics-color-header-link: #0d9488;
+
+  /* Search Colors */
+  --search-border: #e0e0e0;
+  --search-border-focus: #14b8a6;
+  --search-bg: #fff;
+  --search-bg-header: #f5f5f5;
+  --search-bg-hover: #f8f9fa;
+  --search-text: #666;
+  --search-placeholder: #999;
+  --search-shadow: rgb(0 0 0 / 0.1);
+
+  /* Layout Constants */
+  --sidebar-width: 250px;
+  --abstract-margin: 30px 6rem 0 6rem;
+  --abstract-padding: 15px;
+  --glossary-margin: 30px 2rem 0 6rem;
+  --note-margin: 30px 6rem 0 6rem;
+  --example-margin-top: 30px;
+
+  /* Typography */
+  --font-size-note-title: 1.5rem;
+  --font-size-abstract-title: 1.8rem;
+  --font-size-glossary-title: 1.5rem;
+
+  /* Transitions */
+  --transition-color: color 0.2s;
+  --transition-background: background-color 0.2s;
+  --transition-border: border-color 0.2s;
+  --transition-opacity: opacity 0.2s ease-in-out 0.1s;
+
+  /* Touch Targets */
+  --touch-target-min: 44px;
+  --touch-target-md: 48px;
+  --touch-target-lg: 52px;
+}
+
+/* ==================== Summary and Navigation ==================== */
+
+:is(.summary li:not(.visited) > .fa-check) {
   display: none !important;
 }
 
 .summary li.visited > .fa-check {
   display: inline-block !important;
-  right: auto !important;
-  top: auto !important;
+  inset-inline-end: auto !important;
+  inset-block-start: auto !important;
 }
 
 section.normal > .title {
@@ -17,54 +76,52 @@ section.normal > .title {
   counter-reset: figure note exercise equation example table;
 }
 
-/* When the URL refers to in-page elements make them stand out a bit */
+/* When the URL refers to in-page elements make them stand out */
 :target {
-  background-color: #fef3c7;
+  background-color: var(--physics-color-target);
 }
 
 .header-link {
   position: absolute;
-  left: -1em;
+  inset-inline-start: -1em;
   opacity: 0;
-  -webkit-transition: opacity 0.2s ease-in-out 0.1s;
-  -moz-transition: opacity 0.2s ease-in-out 0.1s;
+  transition: var(--transition-opacity);
 }
 
-h1:hover .header-link,
-h2:hover .header-link,
-h3:hover .header-link,
-h4:hover .header-link,
-h5:hover .header-link,
-h6:hover .header-link {
+:is(h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover) .header-link {
   opacity: 1;
-  color: #0d9488 !important;
+  color: var(--physics-color-header-link) !important;
 }
+
+/* ==================== Responsive Page Width ==================== */
 
 .book .book-body .page-wrapper .page-inner {
-  max-width: calc(80% - 100px);
+  max-inline-size: calc(80% - 100px);
 }
 
 @media (max-width: 1000px) {
   .book .book-body .page-wrapper .page-inner {
-    max-width: calc(100% - 100px);
+    max-inline-size: calc(100% - 100px);
   }
 }
 
 @media (max-width: 600px) {
   .book .book-body .page-wrapper .page-inner {
-    max-width: calc(100% - 50px);
+    max-inline-size: calc(100% - 50px);
   }
 }
 
+/* ==================== Figures ==================== */
+
 .book .book-body .page-wrapper .page-inner figure {
   display: table;
-  width: 100%;
+  inline-size: 100%;
   counter-increment: figure;
 }
 
 .book .book-body .page-wrapper .page-inner figure img {
   display: table;
-  width: 50%;
+  inline-size: 50%;
 }
 
 .book .book-body .page-wrapper .page-inner figure > [data-type='title'] {
@@ -83,35 +140,41 @@ h6:hover .header-link {
   content: 'Figure ' counter(figure) ': ';
 }
 
+/* ==================== Abstract / Learning Outcomes ==================== */
+
 .abstract {
-  margin: 30px 6rem 0 6rem;
-  padding: 15px;
-  background-color: #ecfdf5;
+  margin: var(--abstract-margin);
+  padding: var(--abstract-padding);
+  background-color: var(--physics-color-abstract-bg);
 }
 
 .abstract::before {
   margin: 2px 6rem 0 6rem;
   padding: 1px;
-  font-size: 1.8rem;
+  font-size: var(--font-size-abstract-title);
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #0d9488;
+  color: var(--physics-color-abstract);
   content: 'Learning Outcomes:';
 }
 
+/* ==================== Glossary ==================== */
+
 .glossary {
-  margin: 30px 2rem 0 6rem;
+  margin: var(--glossary-margin);
   padding: 10px 20px;
-  background-color: #fef3c7;
+  background-color: var(--physics-color-glossary-bg);
 }
 
 .glossary-title {
   display: inline-block;
-  color: #92400e;
-  font-size: 1.5rem;
+  color: var(--physics-color-glossary);
+  font-size: var(--font-size-glossary-title);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+/* ==================== Equations ==================== */
 
 .equation::before {
   content: '';
@@ -127,70 +190,83 @@ h6:hover .header-link {
   content: 'Eq.(' counter(equation) ')';
 }
 
+/* ==================== Notes ==================== */
+
 .note {
-  margin: 30px 6rem 0 6rem;
+  margin: var(--note-margin);
   padding: 15px;
-  background-color: #f0f9ff;
+  background-color: var(--physics-color-note-bg);
 }
 
-.note:not([data-label]).ui-has-child-title > header > .title,
-.note:not([data-label]).ui-has-child-title > .title {
+/* Note title variations */
+:is(
+  .note:not([data-label]).ui-has-child-title > header > .title,
+  .note:not([data-label]).ui-has-child-title > .title
+) {
   display: inline-block;
-  color: #0369a1;
-  font-size: 1.5rem;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.note:not([data-label]).ui-has-child-title > header > .title::before,
-.note:not([data-label]).ui-has-child-title > .title::before {
+:is(
+  .note:not([data-label]).ui-has-child-title > header > .title::before,
+  .note:not([data-label]).ui-has-child-title > .title::before
+) {
   content: 'Note: ';
 }
 
 .note:not([data-label]):not(.ui-has-child-title)::before {
   display: inline-block;
-  color: #0369a1;
-  font-size: 1.5rem;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
   text-transform: uppercase;
   letter-spacing: 1px;
   content: 'Note';
 }
 
-.note[data-label=''].ui-has-child-title > header > .title,
-.note[data-label=''].ui-has-child-title > .title {
+:is(
+  .note[data-label=''].ui-has-child-title > header > .title,
+  .note[data-label=''].ui-has-child-title > .title
+) {
   display: inline-block;
-  color: #0369a1;
-  font-size: 1.5rem;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .note[data-label='']:not(.ui-has-child-title)::before {
   display: inline-block;
-  color: #0369a1;
-  font-size: 1.5rem;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
-.note[data-label]:not([data-label='']).ui-has-child-title > .title {
+:is(
+  .note[data-label]:not([data-label='']).ui-has-child-title > header > .title,
+  .note[data-label]:not([data-label='']).ui-has-child-title > .title
+) {
   display: inline-block;
-  color: #0369a1;
-  font-size: 1.5rem;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.note[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
-.note[data-label]:not([data-label='']).ui-has-child-title > .title::before {
+:is(
+  .note[data-label]:not([data-label='']).ui-has-child-title > header > .title::before,
+  .note[data-label]:not([data-label='']).ui-has-child-title > .title::before
+) {
   content: attr(data-label-parent) ': ';
 }
 
 .note[data-label]:not([data-label='']):not(.ui-has-child-title)::before {
   display: inline-block;
-  color: #0369a1;
-  font-size: 1.5rem;
+  color: var(--physics-color-note);
+  font-size: var(--font-size-note-title);
   text-transform: uppercase;
   letter-spacing: 1px;
   content: attr(data-label);
@@ -198,22 +274,26 @@ h6:hover .header-link {
 
 .book .book-body .page-wrapper .page-inner .note > section {
   padding: 5px 15px;
-  border-top: 1px solid #0369a1;
-  background-color: #f0f9ff;
+  border-block-start: 1px solid var(--physics-color-note);
+  background-color: var(--physics-color-note-bg);
 }
 
+/* ==================== Examples ==================== */
+
 .example {
-  margin-top: 30px;
+  margin-block-start: var(--example-margin-top);
   counter-increment: example;
 }
 
-.example:not([data-label]).ui-has-child-title > header > .title,
-.example:not([data-label]).ui-has-child-title > .title {
+:is(
+  .example:not([data-label]).ui-has-child-title > header > .title,
+  .example:not([data-label]).ui-has-child-title > .title
+) {
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #ea580c;
+  background-color: var(--physics-color-accent);
 }
 
 .example:not([data-label]).ui-has-child-title > header > .title::before {
@@ -225,7 +305,7 @@ h6:hover .header-link {
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #ea580c;
+  background-color: var(--physics-color-accent);
   content: 'Example';
 }
 
@@ -234,7 +314,7 @@ h6:hover .header-link {
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #ea580c;
+  background-color: var(--physics-color-accent);
 }
 
 .example[data-label='']:not(.ui-has-child-title)::before {
@@ -242,7 +322,7 @@ h6:hover .header-link {
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #ea580c;
+  background-color: var(--physics-color-accent);
 }
 
 .example[data-label]:not([data-label='']).ui-has-child-title > header > .title {
@@ -250,7 +330,7 @@ h6:hover .header-link {
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #ea580c;
+  background-color: var(--physics-color-accent);
 }
 
 .example[data-label]:not([data-label='']).ui-has-child-title > header > .title::before {
@@ -262,18 +342,20 @@ h6:hover .header-link {
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #ea580c;
+  background-color: var(--physics-color-accent);
   content: attr(data-label);
 }
 
 .book .book-body .page-wrapper .page-inner .example > section {
   padding: 5px 15px;
-  border-top: 1px solid #ea580c;
-  background-color: #fef2f2;
+  border-block-start: 1px solid var(--physics-color-accent);
+  background-color: var(--physics-color-example-bg);
 }
 
+/* ==================== Exercises ==================== */
+
 .exercise {
-  margin-top: 30px;
+  margin-block-start: var(--example-margin-top);
 }
 
 .exercise:not([data-element-type='check-understanding']) {
@@ -285,7 +367,7 @@ h6:hover .header-link {
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #7c3aed;
+  background-color: var(--physics-color-exercise);
 }
 
 .exercise:not([data-label]).ui-has-child-title > header > .title::before {
@@ -297,115 +379,135 @@ h6:hover .header-link {
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #7c3aed;
+  background-color: var(--physics-color-exercise);
   content: 'Exercise ' counter(exercise);
 }
 
-.exercise[data-label=''].ui-has-child-title > header > .title,
-.exercise[data-label=''].ui-has-child-title > .title {
+:is(
+  .exercise[data-label=''].ui-has-child-title > header > .title,
+  .exercise[data-label=''].ui-has-child-title > .title
+) {
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #7c3aed;
+  background-color: var(--physics-color-exercise);
 }
 
-.exercise[data-label='']:not(.ui-has-child-title)::before,
-.exercise[data-label='']:not(.ui-has-child-title)::before {
+:is(
+  .exercise[data-label='']:not(.ui-has-child-title)::before,
+  .exercise[data-label='']:not(.ui-has-child-title)::before
+) {
   display: inline-block;
   padding: 0.1em 1em;
   font-weight: bold;
   color: #ffffff;
-  background-color: #7c3aed;
+  background-color: var(--physics-color-exercise);
 }
 
 .book .book-body .page-wrapper .page-inner .exercise > section {
   padding: 5px 15px;
-  border-top: 1px solid #7c3aed;
-  background-color: #faf5ff;
+  border-block-start: 1px solid var(--physics-color-exercise);
+  background-color: var(--physics-color-exercise-bg);
 }
 
-.example .problem,
-.exercise .problem,
-.example .solution,
-.exercise .solution {
+/* ==================== Problems and Solutions ==================== */
+
+:is(.example .problem, .exercise .problem, .example .solution, .exercise .solution) {
   padding: 0.5em 1em;
 }
 
-.example .solution,
-.exercise .solution {
-  border-top: 1px solid #cbd5e1;
+:is(.example .solution, .exercise .solution) {
+  border-block-start: 1px solid var(--physics-color-solution-border);
 }
 
-.example .solution > .ui-toggle-wrapper,
-.exercise .solution > .ui-toggle-wrapper {
+:is(.example .solution > .ui-toggle-wrapper, .exercise .solution > .ui-toggle-wrapper) {
   text-align: center;
 }
 
-.example .solution > .ui-toggle-wrapper > .ui-toggle,
-.exercise .solution > .ui-toggle-wrapper > .ui-toggle {
+:is(.example .solution > .ui-toggle-wrapper > .ui-toggle, .exercise .solution > .ui-toggle-wrapper > .ui-toggle) {
   outline: 0;
   text-align: center;
   font-weight: bold;
 }
 
-.example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
-.exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+:is(
+  .example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before,
+  .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before
+) {
   content: 'Show Solution';
 }
 
-.example .solution:not(.ui-solution-visible) > section,
-.exercise .solution:not(.ui-solution-visible) > section {
+:is(
+  .example .solution:not(.ui-solution-visible) > section,
+  .exercise .solution:not(.ui-solution-visible) > section
+) {
   display: none;
 }
 
-.example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
-.exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+:is(
+  .example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before,
+  .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before
+) {
   content: 'Hide Solution';
 }
 
-.example[data-element-type='check-understanding'] .title::before,
-.exercise[data-element-type='check-understanding'] .title::before {
-  margin-right: 0;
+:is(
+  .example[data-element-type='check-understanding'] .title::before,
+  .exercise[data-element-type='check-understanding'] .title::before
+) {
+  margin-inline-end: 0;
   content: '';
 }
 
-.example[data-element-type='conceptual-questions'] .problem,
-.exercise[data-element-type='conceptual-questions'] .problem {
-  border-top: none;
+:is(
+  .example[data-element-type='conceptual-questions'] .problem,
+  .exercise[data-element-type='conceptual-questions'] .problem
+) {
+  border-block-start: none;
 }
 
-.example[data-element-type='conceptual-questions'] .problem p,
-.exercise[data-element-type='conceptual-questions'] .problem p {
+:is(
+  .example[data-element-type='conceptual-questions'] .problem p,
+  .exercise[data-element-type='conceptual-questions'] .problem p
+) {
   margin: 0;
 }
 
-.example[data-element-type='problems-exercises'] .problem::before,
-.exercise[data-element-type='problems-exercises'] .problem::before,
-.example[data-element-type='problems-exercises'] .solution::before,
-.exercise[data-element-type='problems-exercises'] .solution::before {
+:is(
+  .example[data-element-type='problems-exercises'] .problem::before,
+  .exercise[data-element-type='problems-exercises'] .problem::before,
+  .example[data-element-type='problems-exercises'] .solution::before,
+  .exercise[data-element-type='problems-exercises'] .solution::before
+) {
   font-weight: bold;
-  color: #475569;
+  color: var(--physics-color-problem);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-.example[data-element-type='problems-exercises'] .problem::before,
-.exercise[data-element-type='problems-exercises'] .problem::before {
+:is(
+  .example[data-element-type='problems-exercises'] .problem::before,
+  .exercise[data-element-type='problems-exercises'] .problem::before
+) {
   content: '';
 }
 
-.example[data-element-type='problems-exercises'] .solution::before,
-.exercise[data-element-type='problems-exercises'] .solution::before {
+:is(
+  .example[data-element-type='problems-exercises'] .solution::before,
+  .exercise[data-element-type='problems-exercises'] .solution::before
+) {
   content: '';
 }
+
+/* ==================== Sidebar Styling ==================== */
 
 .book.with-summary .book-body {
-  left: 250px;
+  inset-inline-start: var(--sidebar-width);
 }
 
 .book.with-summary .book-summary {
-  width: 250px;
+  inline-size: var(--sidebar-width);
 }
 
 .book.with-summary .toggle-summary {
@@ -424,7 +526,7 @@ h6:hover .header-link {
   font-size: 130%;
   font-weight: bold;
   color: #1e293b;
-  padding-left: 15px;
+  padding-inline-start: 15px;
 }
 
 .book .book-summary ul.summary li.part > ol {
@@ -437,9 +539,8 @@ h6:hover .header-link {
 }
 
 .book .book-summary ul.summary li {
-  padding: 10px 0;
+  padding-block: 10px;
   list-style-type: none;
-  /* Add ellipses if the title is long */
   white-space: nowrap;
   overflow-x: hidden;
   text-overflow: ellipsis;
@@ -460,10 +561,10 @@ h6:hover .header-link {
 
 .book .book-summary ul.summary li.chapter::before {
   content: counter(chapter) '. ';
-  color: #0d9488;
+  color: var(--physics-color-primary);
   font-weight: bold;
   font-size: 120%;
-  padding-left: 1em;
+  padding-inline-start: 1em;
 }
 
 .book .book-summary ul.summary li.chapter > a {
@@ -476,10 +577,12 @@ h6:hover .header-link {
 
 .book .book-summary ul.summary li.chapter > ol > li::before {
   content: counter(chapter) '.' counter(section) ' ';
-  color: #0d9488;
+  color: var(--physics-color-primary);
   font-weight: bold;
-  padding-left: 2em;
+  padding-inline-start: 2em;
 }
+
+/* ==================== Page Counters ==================== */
 
 .page {
   counter-reset: figure example exercise equation;
@@ -487,22 +590,24 @@ h6:hover .header-link {
 
 .page-title {
   font-weight: bold;
-  color: #7c3aed;
+  color: var(--physics-color-secondary);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
+/* ==================== Iframe ==================== */
+
 iframe {
   display: block;
-  width: 100%; /* fit iframe to div */
+  inline-size: 100%;
 }
 
 /* ==================== Search UI Styles ==================== */
 
 .book-search {
   padding: 15px;
-  border-bottom: 1px solid #ddd;
-  background-color: #fff;
+  border-block-end: 1px solid #ddd;
+  background-color: var(--search-bg);
   position: relative;
   z-index: 2;
 }
@@ -523,37 +628,37 @@ iframe {
 }
 
 .search-input {
-  width: 100%;
+  inline-size: 100%;
   padding: 10px 35px 10px 12px;
   font-size: 14px;
-  border: 2px solid #e0e0e0;
+  border: 2px solid var(--search-border);
   border-radius: 4px;
   outline: none;
-  transition: border-color 0.2s;
+  transition: var(--transition-border);
   font-family: inherit;
 }
 
 .search-input:focus {
-  border-color: #14b8a6;
+  border-color: var(--search-border-focus);
 }
 
 .search-input::placeholder {
-  color: #999;
+  color: var(--search-placeholder);
 }
 
 .search-clear {
   position: absolute;
-  right: 8px;
+  inset-inline-end: 8px;
   background: none;
   border: none;
   cursor: pointer;
   padding: 5px;
-  color: #666;
+  color: var(--search-text);
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.2s;
+  transition: var(--transition-color);
 }
 
 .search-clear:hover {
@@ -561,30 +666,30 @@ iframe {
 }
 
 .search-results {
-  max-height: 400px;
+  max-block-size: 400px;
   overflow-y: auto;
-  background-color: #fff;
-  border: 1px solid #e0e0e0;
+  background-color: var(--search-bg);
+  border: 1px solid var(--search-border);
   border-radius: 4px;
-  margin-top: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-block-start: 8px;
+  box-shadow: 0 2px 8px var(--search-shadow);
 }
 
 .search-results-header {
   padding: 8px 12px;
   font-size: 12px;
-  color: #666;
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #e0e0e0;
+  color: var(--search-text);
+  background-color: var(--search-bg-header);
+  border-block-end: 1px solid var(--search-border);
   font-weight: 500;
 }
 
 .search-result-item {
-  border-bottom: 1px solid #f0f0f0;
+  border-block-end: 1px solid #f0f0f0;
 }
 
 .search-result-item:last-child {
-  border-bottom: none;
+  border-block-end: none;
 }
 
 .search-result-link {
@@ -592,24 +697,24 @@ iframe {
   padding: 12px;
   text-decoration: none;
   color: inherit;
-  transition: background-color 0.2s;
+  transition: var(--transition-background);
 }
 
 .search-result-link:hover {
-  background-color: #f8f9fa;
+  background-color: var(--search-bg-hover);
 }
 
 .search-result-title {
   font-size: 14px;
   font-weight: 600;
-  color: #0d9488;
-  margin-bottom: 4px;
+  color: var(--physics-color-primary);
+  margin-block-end: 4px;
   line-height: 1.4;
 }
 
 .search-result-preview {
   font-size: 12px;
-  color: #666;
+  color: var(--search-text);
   line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -619,20 +724,19 @@ iframe {
 }
 
 .search-result-link:hover .search-result-title {
-  color: #0f766e;
+  color: var(--physics-color-primary-hover);
 }
 
 .search-message {
   padding: 16px;
   text-align: center;
-  color: #666;
+  color: var(--search-text);
   font-size: 14px;
 }
 
 /* Highlight matched text */
-.search-result-title mark,
-.search-result-preview mark {
-  background-color: #fef3c7;
+:is(.search-result-title mark, .search-result-preview mark) {
+  background-color: var(--physics-color-target);
   padding: 1px 2px;
   border-radius: 2px;
   font-weight: inherit;
@@ -640,7 +744,7 @@ iframe {
 
 /* Scrollbar styling for search results */
 .search-results::-webkit-scrollbar {
-  width: 8px;
+  inline-size: 8px;
 }
 
 .search-results::-webkit-scrollbar-track {
@@ -668,7 +772,7 @@ iframe {
   }
 
   .search-results {
-    max-height: 300px;
+    max-block-size: 300px;
   }
 
   .search-result-link {
@@ -684,23 +788,18 @@ iframe {
   }
 }
 
-/* Enhanced Mobile Touch Interactions */
+/* ==================== Enhanced Mobile Touch Interactions ==================== */
 
 /* Prevent text selection during swipe gestures */
 .book .book-body {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
 /* Allow text selection in actual content */
 .book .book-body .page-inner {
   -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
   user-select: text;
 }
 
@@ -712,8 +811,8 @@ iframe {
 /* Larger touch targets for navigation buttons on mobile */
 @media (max-width: 768px) {
   .book .book-body .navigation {
-    min-width: 48px;
-    min-height: 48px;
+    min-inline-size: 48px;
+    min-block-size: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -722,74 +821,72 @@ iframe {
 
   /* Enhanced tap feedback for navigation buttons */
   .book .book-body .navigation:active {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(0 0 0 / 0.1);
     transform: scale(0.95);
     transition: all 0.1s ease;
   }
 
   /* Improve toggle summary button touch target */
   .book .toggle-summary {
-    min-width: 48px;
-    min-height: 48px;
+    min-inline-size: 48px;
+    min-block-size: 48px;
     padding: 12px;
   }
 
   .book .toggle-summary:active {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(0 0 0 / 0.1);
     transform: scale(0.95);
   }
 
   /* Enhanced touch targets for dark mode and PDF buttons */
-  .book .book-body .dark-mode-toggle,
-  .book .book-body .pdf-download-btn {
-    min-width: 44px;
-    min-height: 44px;
+  :is(.book .book-body .dark-mode-toggle, .book .book-body .pdf-download-btn) {
+    min-inline-size: var(--touch-target-min);
+    min-block-size: var(--touch-target-min);
     padding: 8px;
   }
 
-  .book .book-body .dark-mode-toggle:active,
-  .book .book-body .pdf-download-btn:active {
-    background-color: rgba(0, 0, 0, 0.2);
+  :is(.book .book-body .dark-mode-toggle:active, .book .book-body .pdf-download-btn:active) {
+    background-color: rgb(0 0 0 / 0.2);
   }
 
   /* Improve spacing for summary links */
   .book .book-summary ul.summary li a {
     padding: 12px 15px;
-    min-height: 44px;
+    min-block-size: var(--touch-target-min);
     display: flex;
     align-items: center;
   }
 
   /* Better active state for summary links */
   .book .book-summary ul.summary li a:active {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgb(0 0 0 / 0.08);
   }
 }
 
 /* Extra small screens - more touch-friendly */
 @media (max-width: 480px) {
   .book .book-body .navigation {
-    min-width: 52px;
-    min-height: 52px;
+    min-inline-size: var(--touch-target-lg);
+    min-block-size: var(--touch-target-lg);
     padding: 14px;
     font-size: 20px;
   }
 
   .book .book-summary ul.summary li a {
     padding: 14px 16px;
-    min-height: 48px;
+    min-block-size: var(--touch-target-md);
   }
 }
 
 /* Add subtle visual feedback for swipe direction indicators */
 body.dark-mode .book .book-body .navigation:active {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgb(255 255 255 / 0.1);
 }
 
 body.dark-mode .book .toggle-summary:active {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgb(255 255 255 / 0.1);
 }
 
 body.dark-mode .book .book-summary ul.summary li a:active {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgb(255 255 255 / 0.08);
 }
