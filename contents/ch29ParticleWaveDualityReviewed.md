@@ -197,6 +197,23 @@ first maximum at an angle of $$ 25.0º $$ , what is the slit separation $$d $$ ?
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+This problem combines matter waves with double-slit interference. Use the double-slit interference condition $$d \sin \theta = m\lambda$$ with $$m = 1$$ for the first maximum.
+
+**Solution**
+
+For the first maximum ($$m = 1$$):
+
+<div class="equation">
+ $$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(0.167 \text{ nm})}{\sin 25.0°} = \frac{0.167 \text{ nm}}{0.423} = 0.395 \text{ nm}$$
+</div>
+
+**Discussion**
+
+The slit separation (0.395 nm) is only about 2.4 times the electron wavelength. This is quite small—comparable to atomic spacing in crystals, which is why electron diffraction from crystals produces observable interference patterns. The fact that 54-eV electrons produce measurable diffraction at such small slit separations demonstrates the wave nature of matter. The diffraction angle of 25° is substantial, making the interference pattern easy to observe. This type of experiment was crucial in confirming de Broglie's hypothesis that particles have wave properties.
+
 0.395 nm
 
 </div>
