@@ -1022,7 +1022,7 @@ The Rydberg formula gives:
 For $${n}_{\text{f}}=1 $$ and $${n}_{\text{i}}=\infty $$ :
 
 <div class="equation" >
- $$\frac{1}{\lambda }=R\left(\frac{1}{{1}^{2}}-\frac{1}{{\infty }^{2}}\right)=R\left(1-0\right)=R $$
+ {% raw %}$$\frac{1}{\lambda }=R\left(\frac{1}{{1}^{2}}-\frac{1}{{\infty }^{2}}\right)=R\left(1-0\right)=R $${% endraw %}
 </div>
 With $$R= 1.097\times 10^{7} {\text{ m}}^{-1} $$ :
 
@@ -1034,7 +1034,7 @@ The observed wavelength is $$\lambda =91.0 \text{ nm} $$ , which is less than $$
 The velocity is:
 
 <div class="equation" >
- $$v=c\frac{\Delta \lambda }{{\lambda }_{0}}=c\frac{{\lambda }_{0}-\lambda }{{\lambda }_{0}}=\left( 3.00\times 10^{8} \text{ m/s}\right)\frac{91.16-91.0}{91.16} $$
+ {% raw %}$$v=c\frac{\Delta \lambda }{{\lambda }_{0}}=c\frac{{\lambda }_{0}-\lambda }{{\lambda }_{0}}=\left( 3.00\times 10^{8} \text{ m/s}\right)\frac{91.16-91.0}{91.16} $${% endraw %}
 </div>
 <div class="equation" >
  $$v=\left( 3.00\times 10^{8} \text{ m/s}\right)\left(0.00175\right)= 5.26\times 10^{5} \text{ m/s}=526 \text{ km/s} $$
@@ -1298,7 +1298,7 @@ Converting to eV:
 (b) Typical molecular binding energies range from about 1 eV to 10 eV. The ratio is:
 
 <div class="equation" >
- $$\frac{{E}_{\text{binding}}}{{E}_{\text{photon}}}\sim \frac{1 \text{ eV}}{ 4.14\times 10^{-7} \text{ eV}}\sim 2.4\times 10^{6} $$
+ {% raw %}$$\frac{{E}_{\text{binding}}}{{E}_{\text{photon}}}\sim \frac{1 \text{ eV}}{ 4.14\times 10^{-7} \text{ eV}}\sim 2.4\times 10^{6} $${% endraw %}
 </div>
 The MRI photon energy is about **2.4 million times smaller** than typical molecular binding energies.
 
@@ -1549,7 +1549,7 @@ The solar corona has temperatures of 1–2 million kelvin, hot enough to fully i
 For hydrogen-like ions, the wavelengths are modified by $$Z^2 $$ :
 
 <div class="equation" >
- $$\frac{1}{\lambda }={Z}^{2}R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right)={2}^{2}\left( 1.097\times 10^{7} {\text{ m}}^{-1}\right)\left(\frac{1}{{1}^{2}}-\frac{1}{{2}^{2}}\right) $$
+ {% raw %}$$\frac{1}{\lambda }={Z}^{2}R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right)={2}^{2}\left( 1.097\times 10^{7} {\text{ m}}^{-1}\right)\left(\frac{1}{{1}^{2}}-\frac{1}{{2}^{2}}\right) $${% endraw %}
 </div>
 <div class="equation" >
  $$\frac{1}{\lambda }=4\left( 1.097\times 10^{7}\right)\left(\frac{3}{4}\right)= 3.29\times 10^{7} {\text{ m}}^{-1} $$
@@ -1616,7 +1616,7 @@ Third Balmer line ( $$n=5 $$ to $$n=2 $$ ): $${\lambda }_{0}=434 \text{ nm} $$
 Since $${\lambda }_{\text{obs}}={\lambda }_{0}\left(1+\frac{v}{c}\right) $$ , we have:
 
 <div class="equation" >
- $$\frac{1}{{\lambda }_{\text{obs}}}=\frac{1}{{\lambda }_{0}\left(1+v/c\right)}=\frac{1}{1+v/c}\cdot \frac{1}{{\lambda }_{0}}=\frac{R}{1+v/c}\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$
+ {% raw %}$$\frac{1}{{\lambda }_{\text{obs}}}=\frac{1}{{\lambda }_{0}\left(1+v/c\right)}=\frac{1}{1+v/c}\cdot \frac{1}{{\lambda }_{0}}=\frac{R}{1+v/c}\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $${% endraw %}
 </div>
 Therefore, the modified Rydberg constant is:
 
