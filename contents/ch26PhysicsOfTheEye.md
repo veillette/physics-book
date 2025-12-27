@@ -237,7 +237,40 @@ power in diopters, typically ranging from 1.0 to 3.5 D.
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-If the lens of a person’s eye is removed because of cataracts (as has been done since ancient times), why would you expect a spectacle lens of about 16 D to be prescribed?
+If the lens of a person's eye is removed because of cataracts (as has been done since ancient times), why would you expect a spectacle lens of about 16 D to be prescribed?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The eye's total optical power comes from two sources: the cornea and the lens. To understand why a spectacle lens of approximately 16 D would be needed after lens removal, we need to determine how much power the natural lens contributes to the eye's total focusing ability. We can analyze this by examining the power contributions of the cornea and lens separately, using the information provided in the chapter about the eye's optical properties and refractive indices.
+
+**Solution**
+
+The normal relaxed eye has a total power of approximately 50 D when viewing distant objects. From the chapter text, we learned that the cornea provides about two-thirds of the eye's total power because the largest change in refractive index occurs at the air-cornea interface (from $$n = 1.0$$ to $$n = 1.38$$).
+
+Calculating the cornea's contribution:
+- Cornea power: $$\frac{2}{3} \times 50 \text{ D} \approx 33 \text{ D}$$
+
+The remaining power comes from the lens:
+- Lens power: $$50 \text{ D} - 33 \text{ D} \approx 17 \text{ D}$$
+
+When the natural lens is removed (aphakia), the eye loses approximately 17 D of focusing power. To restore the ability to focus on distant objects, a spectacle lens must replace this lost power. Therefore, a lens of approximately 16-17 D would be prescribed.
+
+More precisely, when the natural lens is removed, light entering through the cornea alone is insufficient to converge rays onto the retina. The spectacle lens must provide the additional converging power that was previously supplied by the crystalline lens.
+
+**Discussion**
+
+This question highlights the crucial optical role of the crystalline lens in the eye's focusing system. Although the cornea provides the majority of the eye's refractive power (about 33 D out of 50 D), the lens contributes an essential 17 D that is necessary to bring light to focus on the retina.
+
+Historically, cataract surgery dates back to ancient times, with evidence of the procedure being performed as early as the 5th century BCE. In traditional "couching" procedures, the clouded lens was displaced rather than removed, but by the 18th century, extraction became more common. Patients who underwent lens removal became extremely hyperopic (farsighted) and required strong converging lenses to see clearly at any distance.
+
+The prescription of a 16 D spectacle lens restores distance vision, but it's important to note that such patients lose all accommodation ability since the natural lens is responsible for changing the eye's focal length. Without the lens, the eye cannot adjust its power for near vision. This means that patients with aphakia typically need different spectacle corrections for different viewing distances—strong additional plus power for reading and intermediate tasks.
+
+Modern cataract surgery involves replacing the clouded natural lens with an artificial intraocular lens (IOL) of appropriate power, which provides both distance correction and, in some advanced designs, some degree of accommodation or multifocal capability. This represents a significant improvement over simple spectacle correction for aphakia.
+
+The physical principle demonstrated here is that the total power of a compound optical system (cornea plus lens) equals the sum of the individual powers when the optical elements are close together. Removing one element requires external compensation to maintain proper image formation.
 
 </div>
 </div>
@@ -247,11 +280,96 @@ If the lens of a person’s eye is removed because of cataracts (as has been don
 A cataract is cloudiness in the lens of the eye. Is light dispersed or diffused by it?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To answer this question, we must distinguish between two different optical phenomena: dispersion and diffusion. Dispersion refers to the separation of light into its component wavelengths (colors) due to wavelength-dependent refraction, such as occurs in a prism. Diffusion, also called scattering, refers to the random redirection of light rays when they encounter irregularities or particles in a medium. We need to consider the physical nature of a cataract and determine which phenomenon better describes its effect on light.
+
+**Solution**
+
+Light is **diffused** (scattered) by a cataract, not dispersed.
+
+A cataract consists of cloudy or opaque regions in the normally transparent crystalline lens. These cloudy regions result from protein aggregation and structural changes in the lens fibers. The cloudiness creates numerous small irregularities and inhomogeneities in the refractive index throughout the lens tissue.
+
+When light encounters these irregularities:
+- Light rays are scattered in random directions rather than following predictable refraction paths
+- The scattering occurs at multiple sites throughout the cloudy lens
+- Different wavelengths are scattered similarly (no significant wavelength-dependent separation)
+- The result is a general blurring and reduction in image contrast
+
+Dispersion, by contrast, would require a wavelength-dependent deviation of light, which would cause colored fringes and chromatic effects. While the eye's lens does have some inherent dispersive properties (as all transparent materials do), a cataract does not enhance dispersion. Instead, the dominant effect is diffuse scattering.
+
+**Discussion**
+
+The distinction between diffusion and dispersion is crucial for understanding how cataracts affect vision. Patients with cataracts typically report:
+- Blurred or hazy vision (due to diffuse scattering)
+- Reduced contrast sensitivity
+- Glare and halos around lights (caused by scattered light reaching the retina from multiple directions)
+- Difficulty seeing in bright light (increased scattering)
+
+They generally do not report rainbow-colored fringes or chromatic aberrations, which would be characteristic of dispersion.
+
+The diffuse scattering mechanism explains why cataracts progressively reduce visual acuity. As more light is scattered away from its intended path to the retina, the image becomes increasingly degraded. Light that should form a sharp point on the retina is instead spread over a larger area, with some light scattered to incorrect locations. This is similar to trying to see through frosted glass—the image becomes blurred and washed out, but colors remain relatively normal.
+
+Understanding this scattering mechanism has practical implications for cataract patients. For example:
+- Reducing bright lighting or using polarized lenses can minimize glare caused by scattered light
+- Increasing contrast in the visual environment can help compensate for reduced contrast sensitivity
+- Surgical removal of the cloudy lens and replacement with a clear artificial lens is the definitive treatment, as it eliminates the scattering medium
+
+This question also illustrates an important principle in optics: not all interactions between light and matter involve dispersion. While refraction at interfaces causes dispersion to some degree, the dominant effect of irregular, inhomogeneous media is diffuse scattering. This same principle applies to fog, clouds, frosted glass, and other translucent materials where structural irregularities scatter light.
+
+</div>
 </div>
 
 <div class="exercise"  data-element-type="conceptual-questions">
 <div class="problem"  markdown="1">
 When laser light is shone into a relaxed normal-vision eye to repair a tear by spot-welding the retina to the back of the eye, the rays entering the eye must be parallel. Why?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This question relates to the eye's accommodation and how it focuses light from objects at different distances. We need to consider what "relaxed normal-vision eye" means in terms of focal length and power, and then determine what type of incoming light rays will naturally focus on the retina without requiring accommodation. The key is understanding the relationship between object distance and ray convergence/divergence.
+
+**Solution**
+
+Parallel rays entering the eye must be used because a relaxed normal-vision eye is focused at infinity, and only parallel rays focus precisely on the retina when the eye is in its relaxed state.
+
+From the thin lens equation and the chapter discussion:
+- A relaxed eye has minimum power (approximately 50 D for a normal eye)
+- For an object at infinity, $$d_o \to \infty$$, which means $$\frac{1}{d_o} \to 0$$
+- Using $$P = \frac{1}{d_o} + \frac{1}{d_i}$$, when $$d_o = \infty$$, we get $$P = \frac{1}{d_i}$$
+- Rays from an object at infinity are parallel when they reach the eye
+- The relaxed eye's optical system (cornea and lens) converges these parallel rays to a focal point exactly on the retina at distance $$d_i = 2.00$$ cm
+
+For laser retinal repair:
+- The surgeon needs the laser beam to focus precisely on a specific point on the retina
+- The eye must remain relaxed to avoid patient discomfort and ensure steady positioning
+- If non-parallel rays were used (converging or diverging), the eye would need to accommodate to bring them to focus on the retina
+- Accommodation would change the lens shape and could cause unwanted movement or patient fatigue
+- Parallel rays eliminate the need for accommodation and ensure predictable, precise focusing
+
+**Discussion**
+
+This question highlights a fundamental principle of geometric optics applied to medical procedures. The relaxed eye represents the eye's natural, most stable optical configuration. When viewing distant objects (effectively at infinity), the incoming light rays are parallel, and the relaxed eye brings them to focus on the retina without any muscular effort from the ciliary muscles.
+
+In laser photocoagulation (retinal welding), precision is paramount. The laser must deliver energy to an extremely small, specific spot on the retina—often just tens of micrometers in diameter. Using parallel incident rays provides several crucial advantages:
+
+1. **Predictability**: The optical path through a relaxed eye is consistent and calculable. There's no variation due to accommodation.
+
+2. **Patient comfort**: Maintaining accommodation (lens contraction) for the duration of the procedure would cause eye strain and fatigue, leading to involuntary eye movements.
+
+3. **Repeatability**: Each laser pulse can be delivered with the same optical configuration, ensuring consistent spot size and energy density.
+
+4. **Minimized aberrations**: The relaxed lens has its most natural shape with minimal optical aberrations.
+
+Practically, the laser system is designed to emit a collimated (parallel) beam that enters the patient's eye. The surgeon uses additional optics (such as a contact lens placed on the cornea) to view the retina and aim the laser, but the fundamental requirement remains that the beam entering the eye is parallel.
+
+This same principle applies to other ophthalmic procedures and diagnostic techniques. For example, autorefractors (devices that measure refractive error) typically project parallel or near-parallel light into the eye to assess the eye's optical power in its relaxed state.
+
+The question also reinforces the concept that object distance and ray geometry are intimately connected: distant objects produce parallel rays, nearby objects produce diverging rays. By controlling the ray geometry entering the eye, physicians can control where light focuses without requiring the patient to actively accommodate, resulting in safer, more precise medical procedures.
 
 </div>
 </div>
@@ -261,11 +379,131 @@ When laser light is shone into a relaxed normal-vision eye to repair a tear by s
 How does the power of a dry contact lens compare with its power when resting on the tear layer of the eye? Explain.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The power of a lens depends on the refractive index difference between the lens material and the surrounding medium. We need to apply the lensmaker's equation concept to understand how changing the medium on one side of the contact lens affects its optical power. A dry contact lens has air ($$n = 1.0$$) on both surfaces, while a contact lens on the eye has tear fluid ($$n \approx 1.34$$) on the back surface and air on the front surface.
+
+**Solution**
+
+A dry contact lens has **greater power** than the same lens when resting on the tear layer of the eye.
+
+The power of a lens is determined by the refractive index differences at its surfaces. For a thin lens, the lensmaker's equation shows that power is proportional to:
+
+<div class="equation">
+ $$P \propto (n_{\text{lens}} - n_{\text{surrounding}}) \times (\text{surface curvatures})$$
+</div>
+
+For a **dry contact lens** (in air):
+- Front surface: Light goes from air ($$n = 1.0$$) to lens material ($$n \approx 1.4-1.5$$ for typical materials)
+- Back surface: Light goes from lens material ($$n \approx 1.4-1.5$$) to air ($$n = 1.0$$)
+- Both surfaces contribute significantly to the total refractive power
+- Index difference at each surface: $$\Delta n \approx 0.4-0.5$$
+
+For a **contact lens on the eye**:
+- Front surface: Light goes from air ($$n = 1.0$$) to lens material ($$n \approx 1.4-1.5$$)
+- Back surface: Light goes from lens material ($$n \approx 1.4-1.5$$) to tears ($$n = 1.34$$)
+- The back surface has a much smaller index difference
+- Index difference at back surface: $$\Delta n \approx 0.1-0.2$$ (reduced by about 60-75%)
+
+Since the refractive index of tears ($$n = 1.34$$) is much closer to that of the contact lens material ($$n \approx 1.4-1.5$$) than air is, the back surface of the contact lens contributes much less optical power when the lens is on the eye. The front surface contribution remains the same, but the reduced back surface contribution means the total power decreases.
+
+Quantitatively, if a contact lens has power $$P_{\text{dry}}$$ when measured in air, its effective power $$P_{\text{on eye}}$$ when placed on the tear film is less: $$P_{\text{on eye}} < P_{\text{dry}}$$.
+
+**Discussion**
+
+This question illustrates an important practical consideration in contact lens prescription. The phenomenon explains why contact lens powers cannot be directly converted from spectacle lens prescriptions, and why contact lenses must be measured and specified based on their performance when placed on the eye, not in air.
+
+The physical principle at work is that refraction occurs due to changes in the speed of light at interfaces between materials with different refractive indices. The greater the difference in refractive indices, the greater the refraction (and hence the optical power). When a contact lens is in air:
+
+1. The back surface interfaces with air ($$n = 1.0$$), creating a large index step
+2. Both surfaces contribute substantial refractive power
+3. The measured power is higher
+
+When the same lens is placed on the tear film:
+
+1. The back surface now interfaces with tears ($$n = 1.34$$), which is similar to the aqueous humor ($$n = 1.34$$) in the eye
+2. The back surface contributes much less power
+3. The effective power is reduced
+
+This reduction in power is actually advantageous because it allows the tear layer-cornea-lens system to work together more naturally. The tear film fills any small gaps between the contact lens and the cornea, creating better optical quality and comfort.
+
+Practically, this means:
+- Contact lens manufacturers specify lens powers based on on-eye performance, not in-air measurements
+- Optometrists account for this effect when prescribing contact lenses
+- The same refractive error might require different numerical powers for spectacles versus contact lenses
+- Measuring contact lens power in air (using a lensometer) gives a higher value than the effective power on the eye
+
+This principle also applies to intraocular lenses (IOLs) used in cataract surgery. An IOL implanted inside the eye is surrounded by aqueous humor ($$n = 1.34$$) rather than air, so its effective power is significantly less than it would be if measured in air. IOL power calculations must account for this to achieve the desired postoperative refraction.
+
+Understanding this concept reinforces the general principle that the optical power of any lens system depends not just on the lens geometry and material, but critically on the refractive indices of the surrounding media. This is why the same physical lens can have different effective powers in different environments.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Why is your vision so blurry when you open your eyes while swimming under water? How does a face mask enable clear vision?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The eye's focusing power depends critically on the refractive index difference at the cornea-medium interface. We need to compare the optical situation when the eye is in air versus in water, using the refractive indices from Table 1 in the chapter: air ($$n = 1.0$$), water ($$n = 1.33$$), and cornea ($$n = 1.38$$). By analyzing how the cornea's refractive power changes in different media, we can understand why underwater vision is blurred and how a face mask solves this problem.
+
+**Solution**
+
+Vision is blurry underwater because the cornea loses most of its refractive power when surrounded by water instead of air.
+
+**In air (normal vision):**
+- The cornea-air interface has a large refractive index difference: $$\Delta n = 1.38 - 1.0 = 0.38$$
+- From the chapter, the cornea provides about two-thirds of the eye's total power (~33 D out of 50 D)
+- This large index difference causes significant refraction of light rays entering the eye
+- The cornea and lens together focus light precisely on the retina
+
+**Underwater (blurry vision):**
+- The cornea-water interface has a very small refractive index difference: $$\Delta n = 1.38 - 1.33 = 0.05$$
+- This is only about 13% of the index difference in air
+- The cornea contributes very little refractive power (~4-5 D instead of ~33 D)
+- The lens alone cannot provide enough additional power to compensate
+- Total eye power drops from ~50 D to only ~21-22 D
+- Light rays are not sufficiently converged to focus on the retina
+- The image forms far behind the retina, resulting in severe hyperopia (farsightedness)
+- Everything appears extremely blurry
+
+**With a face mask (clear vision restored):**
+- The mask creates an air space in front of the eyes
+- The cornea once again interfaces with air ($$n = 1.0$$), not water
+- The refractive index difference at the cornea is restored: $$\Delta n = 0.38$$
+- The cornea regains its normal ~33 D of refractive power
+- The eye's total optical system returns to normal (~50 D)
+- Light focuses properly on the retina, providing clear vision
+
+The flat glass or plastic window of the mask does cause some refraction, but since it has parallel surfaces and the light enters and exits at approximately the same angle, the net effect on image position is minimal. The critical factor is maintaining the air-cornea interface.
+
+**Discussion**
+
+This question beautifully illustrates how the eye's optical design is specifically adapted for vision in air. The cornea is the eye's primary refractive element, but its power depends entirely on being surrounded by a medium with a significantly different refractive index. Water's refractive index (1.33) is so close to that of the cornea (1.38) and aqueous humor (1.34) that the cornea essentially becomes "invisible" optically—light passes through with minimal bending.
+
+The magnitude of the vision impairment underwater is substantial. With only about 40% of the normal optical power (20-22 D instead of 50 D), the eye is massively hyperopic. This is equivalent to someone with normal vision suddenly needing reading glasses with power of about +28 to +30 D—an enormous refractive error that renders everything hopelessly blurred.
+
+Interestingly, some aquatic mammals have evolved different solutions to this problem:
+
+- **Seals and otters** have more spherical lenses with higher refractive power, allowing them to compensate for the loss of corneal power underwater. However, this makes their vision in air somewhat less sharp.
+- **Dolphins and whales** have very limited corneal refraction even in air; their lenses provide most of the optical power in both media.
+- **Fish** have nearly spherical lenses with very high refractive index gradients and essentially no corneal refraction at all.
+
+The face mask solution exploits the simple principle that the eye evolved for air-based vision. By maintaining an air pocket in front of the eyes, the mask preserves the normal optical conditions. The mask window does introduce some additional effects:
+
+1. **Magnification**: Objects appear about 33% larger and 25% closer underwater due to refraction at the water-mask interface, but this doesn't significantly impair vision quality.
+2. **Reduced field of view**: The mask edges limit peripheral vision.
+3. **Flat interface**: Unlike the curved cornea, the flat mask window doesn't contribute to focusing power, but it also doesn't introduce significant aberrations.
+
+This question also explains why prescription swim goggles exist for people with refractive errors. While the mask or goggles restore the corneal refractive power, they don't correct pre-existing myopia or hyperopia. People who wear glasses on land still have the same refractive error underwater once the corneal power is restored by a mask.
+
+From a physics perspective, this demonstrates that optical power arises from refractive index discontinuities, not from the absolute value of the refractive index. A lens or curved surface has power only insofar as it creates an index difference. This principle applies universally to all optical systems and explains why glasses work (glass-air interface), why oil immersion microscopy improves resolution (reducing the index step), and why anti-reflection coatings are designed with intermediate refractive indices (to minimize index discontinuities).
 
 </div>
 </div>

@@ -156,6 +156,113 @@ correction is a current area of research.
 If you want your microscope or telescope to project a real image onto a screen, how would you change the placement of the eyepiece relative to the objective?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To project a real image onto a screen, we need to understand the current configuration of microscopes and telescopes versus what's required for projection. In normal viewing, the eyepiece creates a virtual image for comfortable observation. For projection, we need the final image to be real (not virtual), which requires changing how the eyepiece processes the intermediate image from the objective.
+
+**Solution**
+
+In standard microscope and telescope configurations designed for direct viewing:
+
+**Normal Configuration:**
+- The **objective** forms a real intermediate image (case 1 image)
+- The **eyepiece** is positioned so the intermediate image falls between the eyepiece and its focal point ($$d_o < f_e$$)
+- This creates a **virtual final image** (case 2 image) that appears magnified and is viewed by the eye
+- The virtual image cannot be projected onto a screen
+
+**To Project a Real Image:**
+
+You need to **move the eyepiece farther from the objective** so that the intermediate image falls beyond the eyepiece's focal point. Specifically:
+
+**Modified Configuration:**
+- Keep the objective in the same position (it still forms a real intermediate image)
+- **Increase the distance** between the objective and eyepiece
+- Position the eyepiece so that the intermediate image is **beyond the focal point** of the eyepiece ($$d_o > f_e$$)
+- Now the eyepiece acts as a **projection lens**, forming a **real final image** (case 1 image)
+- This real image can be projected onto a screen placed beyond the eyepiece
+
+**Mathematical Analysis:**
+
+For a microscope, the normal tube length places the intermediate image at distance $$d_o$$ from the eyepiece where $$d_o < f_e$$:
+
+Normal viewing: $$d_o < f_e$$ → produces virtual image at $$d_i < 0$$ (case 2)
+
+For projection: $$d_o > f_e$$ → produces real image at $$d_i > 0$$ (case 1)
+
+Using the thin lens equation:
+<div class="equation">
+ $$\frac{1}{f_e} = \frac{1}{d_o} + \frac{1}{d_i}$$
+</div>
+
+When $$d_o > f_e$$:
+<div class="equation">
+ $$\frac{1}{d_i} = \frac{1}{f_e} - \frac{1}{d_o} > 0$$
+</div>
+
+This gives a positive $$d_i$$, indicating a real image on the opposite side of the eyepiece.
+
+**Practical Implementation:**
+
+**For a Microscope:**
+1. The normal tube length is typically 160 mm (older standard) or 200 mm (modern infinity-corrected systems)
+2. To project, extend the tube length significantly beyond this
+3. The intermediate image moves farther from the objective and thus farther from the eyepiece
+4. If the eyepiece has $$f_e = 25$$ mm, position the intermediate image at, say, $$d_o = 30$$ mm from the eyepiece
+5. The screen is then placed at $$d_i = \frac{f_e \cdot d_o}{d_o - f_e} = \frac{25 \times 30}{30 - 25} = 150$$ mm beyond the eyepiece
+
+**For a Telescope:**
+1. Normally, the objective and eyepiece are separated by approximately $$f_o + f_e$$
+2. To project, increase separation to more than $$f_o + f_e$$
+3. The intermediate image (normally at $$f_o$$) now serves as an object beyond $$f_e$$ from the eyepiece
+4. Place a screen to capture the real projected image
+
+**Alternative: Remove the Eyepiece**
+
+For both instruments, another approach is to:
+- **Remove the eyepiece entirely**
+- Use the real intermediate image formed by the objective
+- This image is already real and can be projected directly onto a screen
+- However, the magnification is limited to that of the objective alone
+- This is common in photomicrography and astrophotography when high eyepiece magnification isn't needed
+
+**Discussion**
+
+The key conceptual distinction is between **visual observation** and **projection**:
+
+**Visual Observation (Normal Use):**
+- Requires a virtual image at optical infinity or at the viewer's near point
+- The eye's lens can focus this virtual image onto the retina
+- More comfortable for extended viewing (relaxed eye accommodation)
+- Eyepiece positioned with $$d_o < f_e$$
+
+**Projection:**
+- Requires a real image that physically exists in space
+- Light rays must converge to form the image on a screen
+- Eyepiece repositioned with $$d_o > f_e$$
+- Also called "projection mode" or "camera mode"
+
+**Historical and Practical Applications:**
+
+1. **Photomicrography**: Early microscope photography required extending the tube and projecting the image onto a photographic plate
+
+2. **Astronomical photography**: Before digital cameras, telescopes projected images onto film, requiring the configuration described above
+
+3. **Educational demonstrations**: Projection microscopes and telescopes display images to groups, requiring real image projection
+
+4. **Modern digital imaging**: Digital cameras mounted on microscopes and telescopes still use this principle—the sensor is placed where a real image forms
+
+**Trade-offs:**
+
+- **Increased working distance**: Moving the eyepiece farther requires a longer instrument
+- **Different magnification**: The projection magnification differs from visual magnification
+- **Brightness considerations**: Projected images may be dimmer and require more light or longer exposure times
+- **Focus adjustment**: Requires refocusing compared to visual observation
+
+The fundamental principle applies to both microscopes and telescopes because both instruments work on the same optical principles: an objective creates a real intermediate image, and an eyepiece processes that image. Changing from a virtual final image (for viewing) to a real final image (for projection) simply requires repositioning the eyepiece relative to the intermediate image so it operates in case 1 rather than case 2 configuration.
+
+</div>
 </div>
 
 ### Problem Exercises
