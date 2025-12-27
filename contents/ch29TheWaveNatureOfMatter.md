@@ -272,6 +272,33 @@ At what velocity will an electron have a wavelength of 1.00 m?
 What is the wavelength of an electron moving at 3.00% of the speed of light?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the de Broglie wavelength formula $$\lambda = \frac{h}{p} = \frac{h}{mv}$$. Calculate the electron's momentum at 3.00% of light speed, then find the wavelength.
+
+**Solution**
+
+The electron's velocity is:
+
+<div class="equation">
+ $$v = 0.0300c = 0.0300(3.00 \times 10^{8} \text{ m/s}) = 9.00 \times 10^{6} \text{ m/s}$$
+</div>
+
+The de Broglie wavelength is:
+
+<div class="equation">
+ $$\lambda = \frac{h}{mv} = \frac{6.63 \times 10^{-34} \text{ J·s}}{(9.11 \times 10^{-31} \text{ kg})(9.00 \times 10^{6} \text{ m/s})} = 8.09 \times 10^{-11} \text{ m} = 0.0809 \text{ nm}$$
+</div>
+
+**Discussion**
+
+At 3% of light speed, the electron has a wavelength of 0.0809 nm, comparable to atomic dimensions (atoms are roughly 0.1 nm). This wavelength is suitable for probing crystal structures and is typical of electrons in electron microscopes. The electron is moving fast enough that its wave nature becomes significant when interacting with matter, allowing it to exhibit diffraction and interference patterns.
+
+0.0809 nm or $$ 8.09 \times 10^{-11} \text{ m}$$
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -287,6 +314,25 @@ At what velocity does a proton have a 6.00-fm wavelength (about the size of a nu
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the velocity of a 0.400-kg billiard ball if its wavelength is 7.50 cm (large enough for it to interfere with other billiard balls)?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the de Broglie relation $$\lambda = \frac{h}{mv}$$ and solve for velocity.
+
+**Solution**
+
+<div class="equation">
+ $$v = \frac{h}{m\lambda} = \frac{6.63 \times 10^{-34} \text{ J·s}}{(0.400 \text{ kg})(0.0750 \text{ m})} = 2.21 \times 10^{-32} \text{ m/s}$$
+</div>
+
+**Discussion**
+
+This velocity is absurdly small—about $$10^{-32}$$ m/s! For comparison, this is so slow that the billiard ball would take longer than the age of the universe to move the diameter of a proton. This demonstrates why we never observe wave behavior in macroscopic objects: their de Broglie wavelengths only become significant at impossibly low velocities. For reasonable velocities, macroscopic objects have wavelengths far too small to produce observable quantum effects.
+
+ $$ 2.21 \times 10^{-32} \text{ m/s}$$
 
 </div>
 </div>
@@ -306,11 +352,44 @@ Find the wavelength of a proton moving at 1.00% of the speed of light.
 Experiments are performed with ultracold neutrons having velocities as small as 1.00 m/s. (a) What is the wavelength of such a neutron? (b) What is its kinetic energy in eV?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$\lambda = \frac{h}{mv}$$. (b) Calculate kinetic energy using $$\text{KE} = \frac{1}{2}mv^2$$ and convert to eV.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$\lambda = \frac{h}{mv} = \frac{6.63 \times 10^{-34} \text{ J·s}}{(1.675 \times 10^{-27} \text{ kg})(1.00 \text{ m/s})} = 3.96 \times 10^{-7} \text{ m} = 396 \text{ nm}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+ $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(1.675 \times 10^{-27} \text{ kg})(1.00 \text{ m/s})^2 = 8.375 \times 10^{-28} \text{ J}$$
+</div>
+
+Converting to eV:
+
+<div class="equation">
+ $$\text{KE} = \frac{8.375 \times 10^{-28} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 5.23 \times 10^{-9} \text{ eV}$$
+</div>
+
+**Discussion**
+
+Ultracold neutrons have a remarkable wavelength of 396 nm—in the visible light range! Despite their extremely low velocity (1 m/s), their relatively large mass gives them a macroscopic wavelength. The kinetic energy is only about 5 nanoelectron volts, extraordinarily small. Such neutrons are useful for studying fundamental physics and materials science because their long wavelength allows them to interact gently with matter.
+
+(a) 396 nm or $$ 3.96 \times 10^{-7} \text{ m}$$
+
+(b) $$ 5.23 \times 10^{-9} \text{ eV}$$
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Find the velocity of a neutron that has a 6.00-fm wavelength (about the size of a nucleus). Assume the neutron is nonrelativistic. (b) What is the neutron’s kinetic energy in MeV?
+(a) Find the velocity of a neutron that has a 6.00-fm wavelength (about the size of a nucleus). Assume the neutron is nonrelativistic. (b) What is the neutron's kinetic energy in MeV?
 
 </div>
 <div class="solution" markdown="1">
@@ -322,6 +401,39 @@ Experiments are performed with ultracold neutrons having velocities as small as 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the wavelength of an electron accelerated through a 30.0-kV potential, as in a TV tube?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The electron gains kinetic energy equal to $$qV = eV$$. Use this to find velocity, then calculate wavelength using $$\lambda = \frac{h}{mv}$$.
+
+**Solution**
+
+Kinetic energy equals the potential energy:
+
+<div class="equation">
+ $$\text{KE} = eV = 30.0 \text{ keV} = 30.0 \times 10^{3} \times 1.60 \times 10^{-19} \text{ J} = 4.80 \times 10^{-15} \text{ J}$$
+</div>
+
+Find velocity from $$\text{KE} = \frac{1}{2}mv^2$$:
+
+<div class="equation">
+ $$v = \sqrt{\frac{2\text{KE}}{m}} = \sqrt{\frac{2(4.80 \times 10^{-15} \text{ J})}{9.11 \times 10^{-31} \text{ kg}}} = 1.03 \times 10^{8} \text{ m/s}$$
+</div>
+
+Calculate wavelength:
+
+<div class="equation">
+ $$\lambda = \frac{h}{mv} = \frac{6.63 \times 10^{-34} \text{ J·s}}{(9.11 \times 10^{-31} \text{ kg})(1.03 \times 10^{8} \text{ m/s})} = 7.06 \times 10^{-12} \text{ m} = 0.00706 \text{ nm}$$
+</div>
+
+**Discussion**
+
+Electrons in a 30-kV TV tube have a wavelength of 0.00706 nm, which is much smaller than atomic dimensions (0.1 nm). This short wavelength is why electron beams in old cathode ray tube TVs could create such fine resolution. The electron is moving at about 34% the speed of light, approaching relativistic speeds.
+
+0.00706 nm or $$ 7.06 \times 10^{-12} \text{ m}$$
 
 </div>
 </div>
@@ -344,6 +456,39 @@ What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength
  (b) Through what voltage must the electron be accelerated to have this velocity?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$v = \frac{h}{m\lambda}$$. (b) The voltage accelerates the electron to kinetic energy $$\text{KE} = \frac{1}{2}mv^2 = eV$$.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$v = \frac{h}{m\lambda} = \frac{6.63 \times 10^{-34} \text{ J·s}}{(9.11 \times 10^{-31} \text{ kg})(1.00 \times 10^{-6} \text{ m})} = 728 \text{ m/s}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+ $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(9.11 \times 10^{-31} \text{ kg})(728 \text{ m/s})^2 = 2.42 \times 10^{-25} \text{ J}$$
+</div>
+
+Converting to eV to find voltage:
+
+<div class="equation">
+ $$V = \frac{\text{KE}}{e} = \frac{2.42 \times 10^{-25} \text{ J}}{1.60 \times 10^{-19} \text{ C}} = 1.51 \times 10^{-6} \text{ V} = 1.51 \text{ μV}$$
+</div>
+
+**Discussion**
+
+An electron with a 1-μm wavelength moves at only 728 m/s and requires acceleration through merely 1.51 microvolts. This demonstrates that long-wavelength (low-energy) electrons are easy to produce. Such slow electrons are useful in some surface science applications where minimal sample damage is desired.
+
+(a) 728 m/s
+
+(b) $$ 1.51 \times 10^{-6} \text{ V}$$ or 1.51 μV
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -363,6 +508,45 @@ The velocity of a proton emerging from a Van de Graaff accelerator is 25.0% of t
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The kinetic energy of an electron accelerated in an x-ray tube is 100 keV. Assuming it is nonrelativistic, what is its wavelength?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Find the electron's momentum from its kinetic energy, then use $$\lambda = \frac{h}{p}$$.
+
+**Solution**
+
+From $$\text{KE} = \frac{1}{2}mv^2 = \frac{p^2}{2m}$$, solve for momentum:
+
+<div class="equation">
+ $$p = \sqrt{2m \cdot \text{KE}}$$
+</div>
+
+Convert KE to joules:
+
+<div class="equation">
+ $$\text{KE} = 100 \times 10^{3} \times 1.60 \times 10^{-19} \text{ J} = 1.60 \times 10^{-14} \text{ J}$$
+</div>
+
+Calculate momentum:
+
+<div class="equation">
+ $$p = \sqrt{2(9.11 \times 10^{-31} \text{ kg})(1.60 \times 10^{-14} \text{ J})} = 5.40 \times 10^{-23} \text{ kg·m/s}$$
+</div>
+
+Find wavelength:
+
+<div class="equation">
+ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \text{ J·s}}{5.40 \times 10^{-23} \text{ kg·m/s}} = 1.23 \times 10^{-11} \text{ m} = 0.0123 \text{ nm}$$
+</div>
+
+**Discussion**
+
+A 100-keV electron has a wavelength of 0.0123 nm, suitable for X-ray wavelengths and atomic-scale imaging. This wavelength is about 1/10 the size of an atom, allowing these electrons to probe atomic and molecular structure. Note: At 100 keV, the electron is approaching 20% of light speed, so relativistic effects become noticeable, making the nonrelativistic assumption marginally valid.
+
+0.0123 nm or $$ 1.23 \times 10^{-11} \text{ m}$$
 
 </div>
 </div>

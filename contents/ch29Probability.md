@@ -367,12 +367,47 @@ molecular binding energies.
  (b) If the ion has this velocity, what is its kinetic energy in eV, and how does this compare with typical molecular binding energies?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$\Delta x \Delta p \geq \frac{h}{4\pi}$$ with $$\Delta p = m\Delta v$$. (b) Calculate kinetic energy and compare to typical molecular binding energies (~1-10 eV).
+
+**Solution for (a)**
+
+<div class="equation">
+ $$\Delta v = \frac{h}{4\pi m \Delta x} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (5.86 \times 10^{-26} \text{ kg})(1.00 \times 10^{-6} \text{ m})} = 9.00 \times 10^{-4} \text{ m/s}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+ $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(5.86 \times 10^{-26} \text{ kg})(9.00 \times 10^{-4} \text{ m/s})^2 = 2.37 \times 10^{-32} \text{ J}$$
+</div>
+
+Converting to eV:
+
+<div class="equation">
+ $$\text{KE} = \frac{2.37 \times 10^{-32} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 1.48 \times 10^{-13} \text{ eV}$$
+</div>
+
+This is about 13 orders of magnitude smaller than typical molecular binding energies (1-10 eV).
+
+**Discussion**
+
+The chlorine ion's minimum velocity uncertainty is only 0.9 mm/s—very small. The corresponding kinetic energy is utterly negligible compared to molecular binding energies, demonstrating that quantum uncertainty has no practical effect on ion positions in biological membranes. The ion can be localized to within a micrometer with essentially no energy penalty.
+
+(a) $$ 9.00 \times 10^{-4} \text{ m/s}$$ or 0.900 mm/s
+
+(b) $$ 1.48 \times 10^{-13} \text{ eV}$$, approximately $$10^{13}$$ times smaller than molecular binding energies
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" data-element-type="problems-exercises" markdown="1">
 Suppose the velocity of an electron in an atom is known to an accuracy of  $$ 2.0 \times 10^{3}  \text{m/s} $$
- (reasonably accurate compared with orbital velocities). What is the electron’s minimum uncertainty in position, and how does this compare with the approximate 0.1-nm size of the atom?
+ (reasonably accurate compared with orbital velocities). What is the electron's minimum uncertainty in position, and how does this compare with the approximate 0.1-nm size of the atom?
 
 </div>
 <div class="solution" markdown="1">
@@ -386,6 +421,33 @@ Suppose the velocity of an electron in an atom is known to an accuracy of  $$ 2.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" data-element-type="problems-exercises" markdown="1">
 The velocity of a proton in an accelerator is known to an accuracy of 0.250% of the speed of light. (This could be small compared with its velocity.) What is the smallest possible uncertainty in its position?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$\Delta x \geq \frac{h}{4\pi \Delta p}$$ with $$\Delta p = m\Delta v = m(0.00250c)$$.
+
+**Solution**
+
+The velocity uncertainty is:
+
+<div class="equation">
+ $$\Delta v = 0.00250c = 0.00250(3.00 \times 10^{8} \text{ m/s}) = 7.50 \times 10^{5} \text{ m/s}$$
+</div>
+
+The minimum position uncertainty is:
+
+<div class="equation">
+ $$\Delta x = \frac{h}{4\pi m \Delta v} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (1.673 \times 10^{-27} \text{ kg})(7.50 \times 10^{5} \text{ m/s})} = 4.21 \times 10^{-14} \text{ m}$$
+</div>
+
+**Discussion**
+
+The minimum uncertainty in the proton's position is 42.1 femtometers (fm), about 8-10 times the size of a proton (radius ~1 fm) or a typical nucleus (radius ~5-10 fm). This demonstrates that even with relatively precise velocity measurements (0.25% accuracy), the uncertainty principle prevents us from knowing the proton's position to better than nuclear scales. This is a fundamental limitation, not a technological one.
+
+$$ 4.21 \times 10^{-14} \text{ m}$$ or 42.1 fm
 
 </div>
 </div>
@@ -406,6 +468,39 @@ A relatively long-lived excited state of an atom has a lifetime of 3.00 ms. What
  What is the smallest uncertainty in its decay energy? (b) Compare this with the rest energy of an electron.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ with $$\Delta t = 10^{-20}$$ s. (b) Compare to the electron's rest energy of 0.511 MeV.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$\Delta E = \frac{h}{4\pi \Delta t} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (10^{-20} \text{ s})} = 5.28 \times 10^{-15} \text{ J}$$
+</div>
+
+Converting to MeV:
+
+<div class="equation">
+ $$\Delta E = \frac{5.28 \times 10^{-15} \text{ J}}{1.60 \times 10^{-13} \text{ J/MeV}} = 0.0330 \text{ MeV} = 33.0 \text{ keV}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+ $$\frac{\Delta E}{E_{\text{electron}}} = \frac{33.0 \text{ keV}}{511 \text{ keV}} = 0.0646$$
+</div>
+
+**Discussion**
+
+The energy uncertainty (33 keV) is about 6.5% of an electron's rest energy (511 keV). For such an extremely short-lived nucleus ($$10^{-20}$$ s), the energy uncertainty is substantial—tens of keV. This makes precise energy measurements impossible for these unstable nuclei. Conversely, this energy width can be measured experimentally to determine the lifetime of such short-lived states.
+
+(a) 33.0 keV or 0.0330 MeV
+
+(b) About 6.46% of electron rest energy
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -423,6 +518,37 @@ The decay energy of a short-lived particle has an uncertainty of 1.0 MeV due to 
 The decay energy of a short-lived nuclear excited state has an uncertainty of 2.0 eV due to its short lifetime. What is the smallest lifetime it can have?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ and solve for $$\Delta t$$.
+
+**Solution**
+
+<div class="equation">
+ $$\Delta t = \frac{h}{4\pi \Delta E}$$
+</div>
+
+Convert energy to joules:
+
+<div class="equation">
+ $$\Delta E = 2.0 \text{ eV} \times 1.60 \times 10^{-19} \text{ J/eV} = 3.20 \times 10^{-19} \text{ J}$$
+</div>
+
+Calculate minimum lifetime:
+
+<div class="equation">
+ $$\Delta t = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (3.20 \times 10^{-19} \text{ J})} = 1.65 \times 10^{-16} \text{ s}$$
+</div>
+
+**Discussion**
+
+A nuclear excited state with a 2.0-eV energy width must have a lifetime of at least $$1.65 \times 10^{-16}$$ seconds (165 femtoseconds). This is a very short time but much longer than the $$10^{-20}$$ s lifetimes of the most unstable nuclei. Such relatively long-lived excited states typically have forbidden transitions (transitions that violate selection rules), which slow down the decay process.
+
+$$ 1.65 \times 10^{-16} \text{ s}$$ or 165 fs
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -437,13 +563,52 @@ What is the approximate uncertainty in the mass of a muon, as determined from it
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" data-element-type="problems-exercises" markdown="1">
-Derive the approximate form of Heisenberg’s uncertainty principle for energy and time,  $$\Delta E\Delta t\approx h $$ ,
+Derive the approximate form of Heisenberg's uncertainty principle for energy and time,  $$\Delta E\Delta t\approx h $$ ,
  using the following arguments: Since the position of a particle is uncertain by  $$\Delta x\approx \lambda  $$ ,
  where  $$\lambda  $$
  is the wavelength of the photon used to examine it, there is an uncertainty in the time the photon takes to traverse  $$\Delta x $$ .
  Furthermore, the photon has an energy related to its wavelength, and it can transfer some or all of this energy to the object being examined. Thus the uncertainty in the energy of the object is also related to  $$\lambda  $$ .
  Find  $$\Delta t $$
  and  $$\Delta E $$ ;  then multiply them to give the approximate uncertainty principle.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Follow the outlined approach: express $$\Delta t$$ in terms of the time to traverse $$\Delta x \approx \lambda$$, express $$\Delta E$$ in terms of photon energy, then multiply.
+
+**Solution**
+
+The uncertainty in position is approximately the wavelength:
+
+<div class="equation">
+ $$\Delta x \approx \lambda$$
+</div>
+
+The uncertainty in time is the time for the photon to traverse this distance:
+
+<div class="equation">
+ $$\Delta t \approx \frac{\Delta x}{c} \approx \frac{\lambda}{c}$$
+</div>
+
+The energy of the photon (which can be transferred to the object) is:
+
+<div class="equation">
+ $$\Delta E \approx E_{\text{photon}} = \frac{hc}{\lambda}$$
+</div>
+
+Multiplying the uncertainties:
+
+<div class="equation">
+ $$\Delta E \Delta t \approx \frac{hc}{\lambda} \cdot \frac{\lambda}{c} = h$$
+</div>
+
+**Discussion**
+
+This derivation shows how the energy-time uncertainty principle emerges from basic wave properties of light. The key insight is that to measure an object's position to accuracy $$\Delta x$$, we need a photon with wavelength $$\lambda \approx \Delta x$$. This photon carries energy $$E = hc/\lambda$$ and takes time $$\Delta t = \lambda/c$$ to traverse the measurement region. The product $$\Delta E \Delta t$$ is therefore approximately $$h$$, independent of the wavelength chosen. The more precise form $$\Delta E \Delta t \geq h/(4\pi)$$ requires more rigorous quantum mechanical analysis, but this argument captures the essential physics.
+
+Derived: $$\Delta E \Delta t \approx h$$
 
 </div>
 </div>
