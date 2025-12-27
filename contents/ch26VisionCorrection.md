@@ -224,11 +224,142 @@ undergo LASIK (see [[Figure 5]](#Figure5)).
 It has become common to replace the cataract-clouded lens of the eye with an internal lens. This intraocular lens can be chosen so that the person has perfect distant vision. Will the person be able to read without glasses? If the person was nearsighted, is the power of the intraocular lens greater or less than the removed lens?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To address this question, we need to understand: (1) how natural lenses accommodate to focus at different distances, (2) what happens when a fixed-power intraocular lens (IOL) replaces the natural lens, and (3) how the original refractive error (nearsightedness) affects IOL power selection.
+
+**Solution**
+
+**Part 1: Will the person be able to read without glasses?**
+
+**No, the person will almost certainly need reading glasses** for the following reasons:
+
+The natural lens of the eye has a remarkable property called **accommodation**—the ability to change its power by changing shape. An **intraocular lens (IOL) is rigid and has fixed power**—it cannot accommodate. When an IOL is selected for perfect distant vision, the person cannot focus on near objects and will need reading glasses.
+
+**Part 2: If the person was nearsighted, is the IOL power greater or less than the removed lens?**
+
+**The IOL power will be LESS than the removed lens power.** A nearsighted person has an eye that is too powerful for its length. To correct to perfect distant vision with an IOL, the IOL must provide less power than the natural lens had, thereby reducing the eye's excessive total power.
+
+**Discussion**
+
+The natural lens can change its power by up to ~14 D in young people through accommodation. A fixed IOL cannot do this, so reading glasses (+2.0 to +3.0 D typically) are needed for near work. Modern alternatives include multifocal IOLs or monovision correction. For myopic eyes, the IOL is weaker than the removed lens because the correction aims to reduce the eye's excessive power to achieve emmetropia (normal vision).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 If the cornea is to be reshaped (this can be done surgically or with contact lenses) to correct myopia, should its curvature be made greater or smaller? Explain. Also explain how hyperopia can be corrected.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To answer this question, we need to understand the relationship between corneal curvature and optical power, and how changing curvature affects the eye's focusing ability. The lensmaker's equation shows that power is related to curvature—greater curvature means greater power and vice versa.
+
+**Solution**
+
+**Correcting Myopia (Nearsightedness):**
+
+For myopia correction, **the corneal curvature should be made SMALLER** (flatter). Here's why:
+
+**The myopic problem:**
+- Myopic eyes are too powerful—they over-converge light
+- Parallel rays from distant objects focus in front of the retina
+- The excess power needs to be reduced
+
+**The solution:**
+- **Decrease corneal curvature** (flatten the cornea)
+- This **reduces corneal power**
+- The reduced power allows parallel rays to focus farther back, ideally on the retina
+
+**Mathematical relationship:**
+
+The power of a curved surface is approximately:
+<div class="equation">
+ $$P = \frac{n_2 - n_1}{R}$$
+</div>
+
+where $$R$$ is the radius of curvature, $$n_1$$ is the refractive index of air (~1.00), and $$n_2$$ is the refractive index of the cornea (~1.38).
+
+- **Larger radius** $$R$$ (smaller curvature, flatter) → **smaller power** $$P$$
+- **Smaller radius** $$R$$ (greater curvature, more curved) → **larger power** $$P$$
+
+**LASIK for myopia:**
+- Removes tissue from the **central cornea**
+- Makes the center **flatter** (increases radius of curvature)
+- Reduces corneal power by the needed amount
+- Typical corrections: -1 D to -10 D (sometimes higher)
+
+**Correcting Hyperopia (Farsightedness):**
+
+For hyperopia correction, **the corneal curvature should be made GREATER** (steeper). Here's why:
+
+**The hyperopic problem:**
+- Hyperopic eyes are too weak—they under-converge light
+- Rays from near objects cannot be brought to focus on the retina
+- Additional power is needed
+
+**The solution:**
+- **Increase corneal curvature** (steepen the cornea)
+- This **increases corneal power**
+- The increased power allows the eye to focus near objects on the retina
+
+**LASIK for hyperopia:**
+- Removes tissue from the **peripheral cornea** (in a ring around the center)
+- Makes the center **steeper** (decreases radius of curvature centrally)
+- Increases corneal power by the needed amount
+- Typical corrections: +1 D to +4 D
+- More challenging than myopic LASIK due to biomechanical limitations
+
+**Physical Analogy:**
+
+Think of the cornea as a lens:
+- **Flatter lens** (like a window pane): weak power, long focal length
+- **More curved lens** (like a marble): strong power, short focal length
+
+**Discussion**
+
+The cornea provides approximately 2/3 of the eye's total optical power (~43 D out of ~50 D total). Small changes in corneal curvature can significantly affect focusing:
+
+- **1 D change** requires approximately 6 μm depth of tissue removal centrally
+- **Myopia correction**: Central ablation creates a flatter optical zone
+- **Hyperopia correction**: Peripheral ablation creates relatively steeper central zone
+
+**Contact lens reshaping (Orthokeratology):**
+
+An alternative to surgery uses specially designed rigid contact lenses worn overnight:
+- For myopia: Lenses gently flatten the central cornea
+- For hyperopia: Lenses steepen the central cornea
+- Effects are temporary and reversible
+- Must wear lenses nightly to maintain correction
+
+**Practical considerations:**
+
+**Myopic LASIK advantages:**
+- More tissue available for removal
+- More predictable outcomes
+- Wider range of corrections possible
+- Central ablation is mechanically stable
+
+**Hyperopic LASIK challenges:**
+- Peripheral ablation can cause regression (cornea tends to return toward original shape)
+- Smaller treatment zone
+- More limited correction range
+- More complex biomechanical response
+
+**Physical limits:**
+
+The cornea cannot be reshaped indefinitely:
+- Must maintain minimum thickness (~250 μm typically) for structural integrity
+- Excessive flattening (myopia overcorrection) can cause irregular astigmatism
+- Excessive steepening (hyperopia overcorrection) is biomechanically unstable
+- These limits constrain the maximum correction achievable
+
+The key principle: **Curvature and power are directly related**—decrease curvature to decrease power (myopia correction), increase curvature to increase power (hyperopia correction). This fundamental relationship applies whether the reshaping is achieved surgically (LASIK, PRK), through implants (intracorneal rings), or non-surgically (orthokeratology lenses).
 
 </div>
 </div>
@@ -238,11 +369,289 @@ If the cornea is to be reshaped (this can be done surgically or with contact len
 If there is a fixed percent uncertainty in LASIK reshaping of the cornea, why would you expect those people with the greatest correction to have a poorer chance of normal distant vision after the procedure?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This question involves understanding error propagation and how a fixed percentage uncertainty translates to larger absolute errors when applied to larger corrections. We need to consider how measurement and ablation uncertainties affect final refractive outcomes.
+
+**Solution**
+
+People requiring the greatest correction have a poorer chance of achieving normal distant vision because **a fixed percent uncertainty produces larger absolute errors for larger corrections**.
+
+**Mathematical Analysis:**
+
+Suppose LASIK has a **fixed ±2% uncertainty** in the amount of tissue removed (representative of real-world precision).
+
+**Case 1: Small correction** (-2.0 D myopia)
+- Target correction: -2.0 D
+- Uncertainty: ±2% of 2.0 D = ±0.04 D
+- Possible outcome range: -1.96 D to -2.04 D
+- **Absolute error: ±0.04 D** (excellent outcome—within normal vision range)
+
+**Case 2: Large correction** (-10.0 D myopia)
+- Target correction: -10.0 D
+- Uncertainty: ±2% of 10.0 D = ±0.20 D
+- Possible outcome range: -9.80 D to -10.20 D
+- **Absolute error: ±0.20 D** (noticeable residual refractive error)
+
+**The absolute error is 5 times larger** for the -10 D correction compared to the -2 D correction, even though the percentage uncertainty is identical.
+
+**Physical Interpretation:**
+
+<div class="equation">
+ $$\text{Absolute error} = (\text{Percent uncertainty}) \times (\text{Target correction})$$
+</div>
+
+As the target correction increases, the absolute error increases proportionally. Since optical performance depends on **absolute refractive error** (not percent error), larger corrections face larger absolute deviations from perfect vision.
+
+**What constitutes "normal distant vision"?**
+
+- Clinically, normal vision is typically defined as within **±0.50 D** of target
+- Many consider **±0.25 D** as excellent results
+- Beyond ±0.50 D, patients often notice blur and may need corrective lenses
+
+With ±2% uncertainty:
+- **-2 D correction:** ±0.04 D error → always achieves normal vision
+- **-5 D correction:** ±0.10 D error → usually achieves normal vision
+- **-10 D correction:** ±0.20 D error → sometimes achieves normal vision
+- **-15 D correction:** ±0.30 D error → often has residual error
+
+**Sources of LASIK Uncertainty:**
+
+1. **Measurement errors:**
+   - Pre-operative refraction measurement: ±0.25 D typical
+   - Corneal topography: small measurement variations
+   - Eye length measurement: affects power calculations
+
+2. **Ablation uncertainties:**
+   - Laser calibration: ±1-2% variation in ablation depth
+   - Corneal hydration state: affects tissue removal rate
+   - Environmental factors: humidity, temperature affect ablation
+
+3. **Biomechanical response:**
+   - Wound healing variability increases with ablation depth
+   - Deeper ablations (large corrections) → more healing response
+   - Healing can cause regression (return toward original error)
+
+4. **Tissue removal accumulation:**
+   - For -10 D: ~120 μm of tissue removed centrally
+   - For -2 D: ~24 μm of tissue removed centrally
+   - Larger removals accumulate more ablation uncertainty
+
+**Discussion**
+
+This problem illustrates a fundamental principle in precision engineering and medicine: **percentage errors become increasingly significant in absolute terms as the magnitude of the operation increases**.
+
+**Real-world LASIK statistics support this:**
+
+Published studies show:
+- **Low myopia** (-1 to -3 D): >95% achieve 20/20 vision or better
+- **Moderate myopia** (-3 to -6 D): ~85-90% achieve 20/20 or better
+- **High myopia** (-6 to -10 D): ~70-80% achieve 20/20 or better
+- **Extreme myopia** (>-10 D): ~50-60% achieve 20/20 or better
+
+**Additional factors for high corrections:**
+
+1. **Biomechanical instability:** Deep ablations weaken corneal structure
+2. **Regression:** Higher corrections show more tendency to regress over time
+3. **Irregular astigmatism:** More common with deep ablations
+4. **Reduced tissue reserve:** Less tissue available for enhancements
+5. **Peripheral visual quality:** Greater impact on contrast sensitivity and night vision
+
+**Clinical implications:**
+
+For high myopia (>-8 D), alternatives may be preferable:
+- **Phakic IOLs:** Implantable contact lens (doesn't remove corneal tissue)
+- **Refractive lens exchange:** Replace natural lens with IOL
+- **Two-stage LASIK:** Initial partial correction, later enhancement
+- **Conservative target:** Aim for slight under-correction to stay within safe limits
+
+**Analogy:**
+
+Consider measuring and cutting wood:
+- If your saw has ±2% accuracy:
+  - Cutting a 10 cm board: ±2 mm error (acceptable for many uses)
+  - Cutting a 100 cm board: ±20 mm error (significant and noticeable)
+- The percentage is the same, but the absolute error scales with the size
+
+Similarly in LASIK:
+- Same percentage precision
+- Larger corrections = larger absolute errors
+- Larger absolute errors = lower probability of perfect outcome
+
+This explains why LASIK candidates with high refractive errors are counseled about:
+- Lower probability of achieving 20/20 uncorrected vision
+- Higher chance of needing glasses for some activities
+- Greater possibility of requiring enhancement procedures
+- Importance of having realistic expectations
+
+The relationship between percent uncertainty and absolute error is a fundamental constraint in any precision process, from manufacturing to medicine. Understanding this helps patients make informed decisions about refractive surgery based on their specific correction needs.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-A person with presbyopia has lost some or all of the ability to accommodate the power of the eye. If such a person’s distant vision is corrected with LASIK, will she still need reading glasses? Explain.
+A person with presbyopia has lost some or all of the ability to accommodate the power of the eye. If such a person's distant vision is corrected with LASIK, will she still need reading glasses? Explain.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To answer this question, we must distinguish between two separate optical functions of the eye: (1) the static refractive power that determines distant vision, and (2) the dynamic accommodation ability that allows near vision. LASIK corrects only one of these.
+
+**Solution**
+
+**Yes, a person with presbyopia will still need reading glasses after LASIK correction for distant vision.**
+
+Here's why:
+
+**Understanding Presbyopia:**
+
+Presbyopia is the **loss of accommodation**—the eye's ability to change its optical power to focus on near objects. It results from:
+- Hardening of the crystalline lens with age
+- Weakening of the ciliary muscles
+- Reduced elasticity of the lens capsule
+- Typically begins around age 40-45 and progresses with age
+
+**What LASIK Does:**
+
+LASIK reshapes the cornea to correct the eye's **static refractive error**:
+- For myopia: flattens the cornea to reduce power
+- For hyperopia: steepens the cornea to increase power
+- For astigmatism: reshapes to create uniform curvature
+
+**What LASIK Does NOT Do:**
+
+LASIK **does not restore accommodation**. It cannot:
+- Make the crystalline lens more flexible
+- Strengthen the ciliary muscles
+- Change the eye's ability to alter its power dynamically
+- Provide different powers for different viewing distances
+
+**The Two-Part Vision System:**
+
+Think of vision as requiring two independent capabilities:
+
+1. **Static refraction** (corrected by LASIK):
+   - The fixed optical power of the eye when relaxed
+   - Determines whether distant objects focus on the retina
+   - Problems: myopia, hyperopia, astigmatism
+
+2. **Dynamic accommodation** (NOT corrected by LASIK):
+   - The ability to increase power for near objects
+   - Provides additional +2 to +3 D for reading
+   - Problem: presbyopia (loss of this ability)
+
+**Numerical Example:**
+
+Consider a 50-year-old with -3.0 D myopia and presbyopia:
+
+**Before LASIK:**
+- Relaxed eye power: 53 D (too strong for distance)
+- Accommodation ability: ~1 D (reduced due to presbyopia)
+- **Distance vision:** Blurry (needs -3 D glasses)
+- **Near vision at 40 cm:** Requires +2.5 D additional power
+  - Can accommodate only +1 D
+  - **Still needs +1.5 D reading glasses** (even with myopia helping near vision!)
+
+**After LASIK (correcting the -3 D myopia):**
+- Relaxed eye power: ~50 D (corrected for distance)
+- Accommodation ability: ~1 D (unchanged—presbyopia persists)
+- **Distance vision:** Clear (no glasses needed!)
+- **Near vision at 40 cm:** Requires +2.5 D additional power
+  - Can accommodate only +1 D
+  - **Needs +2.5 D reading glasses** (actually needs MORE correction than before)
+
+**Why Reading Glasses Are MORE Necessary After LASIK:**
+
+Paradoxically, correcting myopia can make presbyopia more noticeable:
+- **Myopic people** naturally have good near vision (even without accommodation)
+- Many remove their distance glasses to read
+- After LASIK corrects distant vision, this "built-in reading correction" is lost
+- The full presbyopic deficit becomes apparent
+
+**Solutions for Presbyopia with LASIK:**
+
+Several approaches address both issues:
+
+**1. Monovision LASIK:**
+- One eye corrected for distance (typically dominant eye)
+- Other eye left slightly myopic (-1.25 to -1.75 D) for near vision
+- Brain adapts to use appropriate eye for each distance
+- About 70-80% of people adapt successfully
+- Trade-off: reduced depth perception, slightly compromised vision at each distance
+
+**2. Blended Vision (Modified Monovision):**
+- Dominant eye: fully corrected for distance
+- Non-dominant eye: corrected for intermediate distance
+- Creates overlap in functional range
+- Better depth perception than traditional monovision
+
+**3. Multifocal LASIK:**
+- Experimental technique creating different zones on cornea
+- Some zones for distance, some for near
+- Similar concept to multifocal contact lenses or IOLs
+- Mixed success; can cause halos and reduced contrast
+
+**4. PresbyLASIK:**
+- Creates aspherical corneal shape with increased depth of focus
+- Non-dominant eye treated to enhance near vision
+- Still evolving technology
+
+**5. Combine LASIK with Reading Glasses:**
+- LASIK corrects distance vision
+- Use reading glasses (+1.50 to +2.50 D) for near tasks
+- Most straightforward and reliable approach
+- No compromise in visual quality
+
+**Discussion**
+
+It's crucial to understand that **refractive error and accommodation are independent optical properties:**
+
+**Refractive Error (Static):**
+- Due to mismatch between eye's power and length
+- Present at all ages
+- Correctable with glasses, contacts, or refractive surgery
+- LASIK addresses this problem
+
+**Presbyopia (Dynamic):**
+- Due to loss of lens flexibility
+- Age-related, universal (everyone gets it eventually)
+- Currently cannot be permanently corrected by reshaping cornea
+- LASIK does NOT address this problem
+
+**Patient Education Importance:**
+
+Many patients mistakenly believe LASIK will eliminate all need for glasses. It's essential they understand:
+- LASIK corrects distance vision (static refraction)
+- Presbyopia is a separate condition affecting near vision
+- Reading glasses will still be needed after age 40-45
+- LASIK doesn't accelerate or prevent presbyopia
+
+**The Biology Constraint:**
+
+Presbyopia is a biological aging process affecting the lens, not an optical problem with the cornea:
+- The lens continues to grow throughout life, adding layers like an onion
+- This makes it increasingly rigid
+- The ciliary muscles also weaken with age
+- Reshaping the cornea cannot reverse these biological changes
+
+**Future Possibilities:**
+
+Research is ongoing into:
+- **Accommodating corneal inlays:** Small implants that change corneal shape with accommodation effort
+- **Lens replacement:** Removing the presbyopic lens and replacing with an accommodating IOL
+- **Pharmacological approaches:** Drugs to soften the lens
+- **Laser lens treatments:** Using femtosecond lasers to soften the lens
+
+Currently, none of these has proven as reliable as simply using reading glasses or multifocal lenses for near tasks.
+
+**Conclusion:**
+
+A person with presbyopia who undergoes LASIK to correct distant vision will definitely still need reading glasses because LASIK corrects the eye's static refractive error (enabling clear distant vision) but does not restore the dynamic accommodation ability (necessary for near vision). The presbyopia—the underlying loss of accommodation—remains unchanged by corneal reshaping. This is an important distinction for patient counseling and managing expectations for refractive surgery in the presbyopic population.
 
 </div>
 </div>
