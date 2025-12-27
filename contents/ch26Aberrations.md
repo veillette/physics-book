@@ -91,6 +91,93 @@ Photoshop.
 List the various types of aberrations. What causes them and how can each be reduced?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To systematically address optical aberrations, we need to identify the main types discussed in optical systems, understand their physical origins, and examine practical methods for their reduction. Aberrations arise from the departure of real optical systems from the idealized thin lens approximation.
+
+**Solution**
+
+The major types of optical aberrations are:
+
+**1. Chromatic Aberration**
+
+*Cause:* The refractive index of optical materials varies with wavelength (dispersion). Different colors of light are refracted by different amounts, causing them to focus at different distances from the lens. Violet light (shorter wavelength, higher refractive index) focuses closer to the lens than red light (longer wavelength, lower refractive index).
+
+*Reduction methods:*
+- Use **achromatic doublets**: Combine a converging lens (crown glass) with a diverging lens (flint glass) made from materials with different dispersion properties
+- Use **apochromatic lens systems**: Multiple lens elements designed to bring three wavelengths to the same focus
+- Use **mirrors instead of lenses**: Reflection is independent of wavelength, so mirrors do not exhibit chromatic aberration
+- Apply **diffractive optical elements**: Can be designed to have opposite dispersion to refractive elements
+
+**2. Spherical Aberration**
+
+*Cause:* Rays passing through the outer edges of a spherical lens converge at a point closer to the lens than rays passing through the center (paraxial rays). This occurs because spherical surfaces are not the ideal shape for focusing—a parabolic surface would be better for collimated light.
+
+*Reduction methods:*
+- Use **aspheric lens surfaces**: Depart from spherical shape to achieve better focusing
+- Use **aperture stops**: Reduce the lens diameter to block peripheral rays (though this reduces brightness)
+- Use **multiple lens elements**: Combine lenses to partially cancel spherical aberration
+- Position lenses optimally: Use specific lens orientations and separations
+
+**3. Coma**
+
+*Cause:* Off-axis object points produce comet-shaped or pear-shaped images. Different zones of the lens refract off-axis rays to different positions, and the magnification varies across the lens aperture. This asymmetric aberration increases with distance from the optical axis.
+
+*Reduction methods:*
+- Use **aplanatic lens designs**: Special lens combinations that simultaneously correct for spherical aberration and coma
+- Use **symmetrical optical designs**: Multi-element systems with symmetric configuration
+- Restrict **field of view**: Limit the angular range of off-axis objects
+- Use **field flatteners**: Additional optical elements to improve off-axis performance
+
+**4. Astigmatism (in lenses and optical systems)**
+
+*Cause:* For off-axis points, rays in different planes (tangential vs. sagittal) focus at different distances. The lens effectively has different focal lengths in perpendicular directions for off-axis objects.
+
+*Reduction methods:*
+- Use **anastigmat lens designs**: Multi-element systems designed to correct astigmatism
+- Use **curved image surfaces**: Match the natural field curvature of the lens system
+- Optimize **lens spacing and curvatures**: Careful optical design can minimize astigmatism
+- Limit **field angle**: Keep objects near the optical axis
+
+**5. Field Curvature**
+
+*Cause:* The image surface naturally falls on a curved surface (Petzval surface) rather than a flat plane. Even when other aberrations are corrected, sharp focus occurs on a curved rather than flat surface.
+
+*Reduction methods:*
+- Use **field-flattening elements**: Additional lenses designed to flatten the image surface
+- Use **curved detectors/film**: Match the detector to the natural field curvature
+- Balance against astigmatism: These aberrations can partially cancel
+- Use **meniscus lenses**: Can help reduce field curvature
+
+**6. Distortion (Barrel and Pincushion)**
+
+*Cause:* Magnification varies with distance from the optical axis. This doesn't affect sharpness but causes straight lines to appear curved. Barrel distortion occurs when magnification decreases away from the axis; pincushion distortion occurs when it increases.
+
+*Reduction methods:*
+- Use **symmetrical lens designs**: Balanced optical configurations
+- Position **aperture stops appropriately**: Strategic placement can minimize distortion
+- Use **computational correction**: Digital post-processing to correct distortion
+- Use **multiple elements**: Specific lens combinations can cancel distortion
+
+**Discussion**
+
+The correction of aberrations involves fundamental trade-offs in optical design. No single lens can simultaneously correct all aberrations perfectly across a wide field of view and wavelength range. High-quality optical systems (such as expensive camera lenses, microscope objectives, and telescope optics) use multiple lens elements made from different glass types, often including aspherical surfaces and special coatings.
+
+Modern optical design relies heavily on computer optimization to balance these various aberrations for specific applications. For example, a wide-angle camera lens prioritizes distortion correction and field flatness, while a telescope objective prioritizes chromatic and spherical aberration correction for on-axis performance.
+
+Some practical examples of aberration correction include:
+- **Camera lenses**: Expensive lenses use 10-20 elements to correct multiple aberrations
+- **Microscope objectives**: Marked as "achromat," "plan" (flat field), or "apo" (apochromatic)
+- **Eyeglasses**: Simple lenses accept some aberration for off-axis vision
+- **Telescopes**: Reflector designs eliminate chromatic aberration entirely
+- **GRIN lenses**: Graded-index materials provide correction through varying refractive index
+- **Digital correction**: Modern cameras correct distortion computationally
+
+The choice of correction method depends on application requirements, cost constraints, and acceptable performance trade-offs. Scientific instruments typically demand more comprehensive aberration correction than consumer devices.
+
+</div>
 </div>
 
 ### Problem Exercises

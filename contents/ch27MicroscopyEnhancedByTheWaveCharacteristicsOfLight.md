@@ -159,11 +159,91 @@ and research capacities.
 Explain how microscopes can use wave optics to improve contrast and why this is important.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Contrast in microscopy refers to the difference in intensity between objects and their background. Many microscopic specimens are nearly transparent and have very low contrast. Wave optics provides several techniques to enhance contrast through interference effects.
+
+**Solution**
+
+Microscopes use wave optics to improve contrast through several mechanisms based on wave interference:
+
+**1. Phase-Contrast Microscopy:**
+- When light passes through transparent specimens with different refractive indices, it undergoes phase shifts but little amplitude change
+- The phase plate converts these phase differences into amplitude (intensity) differences through interference
+- Light from the object and background interfere constructively or destructively depending on their phase relationship
+- This makes nearly transparent structures visible
+
+**2. Interference Microscopy:**
+- A reference beam is combined with the object beam
+- The two beams interfere, and phase differences translate into intensity variations
+- Provides quantitative information about specimen thickness and refractive index
+
+**3. Polarization Microscopy:**
+- Uses polarized light and specimens' birefringent properties
+- Rotating polarizers create contrast based on how the specimen affects polarization
+- Particularly useful for crystalline or fibrous structures
+
+**Why This is Important:**
+
+- **Biological specimens** are often nearly transparent and would be invisible in standard bright-field microscopy without staining
+- **Staining can kill cells** or alter their structure, making live observation impossible
+- **Wave optics techniques** allow visualization of living cells without chemical treatment
+- These methods reveal **subtle structural details** like cell membranes, organelles, and fibers that would otherwise be invisible
+- They enable **quantitative measurements** of cell thickness, density, and composition
+- **Research applications** include studying cell division, movement, and dynamic processes in real time
+
+**Discussion**
+
+The fundamental principle is that while transparent objects may not absorb light significantly, they do alter its phase due to differences in refractive index and path length. Wave optics allows us to convert these "invisible" phase changes into visible intensity variations. This capability has revolutionized biology, medicine, and materials science by allowing detailed observation of structures and processes that would otherwise be undetectable. The development of these techniques (particularly phase-contrast microscopy by Zernike) was significant enough to earn Nobel Prizes.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 A bright white light under water is collimated and directed upon a prism. What range of colors does one see emerging?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Dispersion occurs when different wavelengths of light refract by different amounts due to the wavelength-dependence of the refractive index. We need to consider how the refractive indices of water and the prism material compare.
+
+**Solution**
+
+The range of colors observed depends on the prism material. There are two main cases:
+
+**Case 1: Glass or plastic prism (n_prism > n_water)**
+
+If the prism is made of glass (n ≈ 1.5-1.9) or plastic (n ≈ 1.4-1.6), and the surrounding medium is water (n ≈ 1.33), then n_prism > n_water. In this case:
+
+- Light refracts into the prism and disperses
+- **All visible colors are observable**: violet, blue, green, yellow, orange, and red
+- However, the **dispersion is reduced** compared to the same prism in air because the difference in refractive indices is smaller (Δn ≈ 0.2-0.6 instead of Δn ≈ 0.5-0.9 in air)
+- The angular separation between colors will be smaller than in air
+- Colors still appear in the standard sequence: violet deviates most, red deviates least
+
+**Case 2: Crown glass prism where n_prism < n_water**
+
+For some materials (though rare), if n_prism < n_water:
+- Total internal reflection might occur at certain angles
+- Some wavelengths might not emerge from the prism
+- The color sequence could be reversed
+
+**Typical scenario (glass prism in water):**
+
+You would see the **full visible spectrum** (red through violet), but with **less angular separation** than the same setup in air. The reduced dispersion occurs because:
+
+<div class="equation">
+$$\text{Angular dispersion} \propto \Delta n = |n_{\text{prism}} - n_{\text{medium}}|$$
+</div>
+
+**Discussion**
+
+This scenario illustrates an important principle: dispersion depends not just on the prism material but on the relative difference between the refractive indices of the prism and surrounding medium. This is why diamonds sparkle less underwater than in air - the reduced refractive index contrast reduces both refraction angles and dispersion. Underwater photographers and researchers must account for this reduced dispersion when using optical instruments. The phenomenon also demonstrates that "color" is an intrinsic property of light's wavelength, but the degree of separation of colors through dispersion depends on the medium.
 
 </div>
 </div>

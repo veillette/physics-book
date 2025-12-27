@@ -384,6 +384,40 @@ A soap bubble is 100 nm thick and illuminated by white light incident perpendicu
 An oil slick on water is 120 nm thick and illuminated by white light incident perpendicular to its surface. What color does the oil appear (what is the most constructively reflected wavelength), given its index of refraction is 1.40?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For thin film interference, we need to consider phase changes at interfaces. At the air-oil interface (n = 1.00 to n = 1.40), there IS a phase change. At the oil-water interface (n = 1.40 to n = 1.33), there is NO phase change (going from higher to lower n). With one phase change, constructive interference occurs when: $$2tn = (m + \frac{1}{2})\lambda$$
+
+**Solution**
+
+Given:
+- $$t = 120 \text{ nm}$$
+- $$n_{\text{oil}} = 1.40$$
+- Normal incidence
+
+For constructive interference (with one phase change):
+
+<div class="equation">
+$$2tn = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+Solving for λ:
+
+<div class="equation">
+$$\lambda = \frac{2tn}{m + \frac{1}{2}} = \frac{2(120 \text{ nm})(1.40)}{m + 0.5} = \frac{336 \text{ nm}}{m + 0.5}$$
+</div>
+
+Calculate for different orders:
+- **m = 0:** λ = 336/0.5 = 672 nm (red)
+- **m = 1:** λ = 336/1.5 = 224 nm (UV, not visible)
+
+**Discussion**
+
+The oil appears **red** with λ = 672 nm. This is the only visible wavelength that experiences strong constructive interference. The color falls in the red portion of the visible spectrum (roughly 620-750 nm). This is why oil slicks display colorful patterns - different thicknesses reflect different colors, creating the characteristic rainbow appearance.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -402,6 +436,40 @@ Calculate the minimum thickness of an oil slick on water that appears blue when 
 Find the minimum thickness of a soap bubble that appears red when illuminated by white light perpendicular to its surface. Take the wavelength to be 680 nm, and assume the same index of refraction as water.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+A soap bubble is a thin film with air on both sides. There are phase changes at both the outer surface (air to soap, n increases) and inner surface (soap to air, n decreases)... wait, actually the inner surface goes from soap (n = 1.33) back to air (n = 1.00), so there's NO phase change there. Actually, let me reconsider: for a soap bubble, light reflects from both the outer and inner surfaces. The outer reflection (air n=1 to soap n=1.33) HAS a phase change. The inner reflection (soap n=1.33 to air n=1) has NO phase change. So overall, there's ONE phase change.
+
+With one phase change, constructive interference: $$2tn = (m + \frac{1}{2})\lambda$$
+
+For minimum thickness, use m = 0.
+
+**Solution**
+
+Given:
+- $$\lambda = 680 \text{ nm}$$
+- $$n = 1.33$$ (same as water)
+- $$m = 0$$ (minimum thickness)
+
+For constructive interference with one phase change:
+
+<div class="equation">
+$$2tn = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+With m = 0:
+
+<div class="equation">
+$$t = \frac{\lambda}{4n} = \frac{680 \text{ nm}}{4(1.33)} = \frac{680}{5.32} = 128 \text{ nm}$$
+</div>
+
+**Discussion**
+
+The minimum thickness is 128 nm, which is quite thin - less than the wavelength of red light in air. This quarter-wavelength condition (λ/4n) is characteristic of thin film interference with one phase change. Soap bubbles display beautiful colors because different thicknesses in different regions reflect different wavelengths. As a soap bubble drains and thins, it progresses through colors from red → yellow → green → blue before becoming essentially colorless and then black just before popping.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -418,9 +486,56 @@ on top of a plastic cutting board has a thickness of 233 nm. What color is most 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What are the three smallest non-zero thicknesses of soapy water ( $$n=1.33 $$ ) 
-on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow 
+What are the three smallest non-zero thicknesses of soapy water ( $$n=1.33 $$ )
+on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light? Explicitly show how you follow
 the steps in [Problem-Solving Strategies for Wave Optics](#Note1).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Following the Problem-Solving Strategies for Wave Optics:
+
+**Step 1:** This is a thin film interference problem.
+**Step 2:** We need to determine phase changes. Air (n = 1.00) → soapy water (n = 1.33) → Plexiglas (n ≈ 1.49). At the top surface (air to soap), there IS a phase change. At the bottom surface (soap to Plexiglas), there IS also a phase change (since 1.33 < 1.49). With TWO phase changes, they cancel out, so we use the condition for NO net phase change.
+**Step 3:** For constructive interference with no net phase change: $$2tn = m\lambda$$
+**Step 4:** Given: λ = 520 nm, n = 1.33, find t for m = 1, 2, 3.
+**Step 5:** Solve for t.
+
+**Solution**
+
+For constructive interference (two phase changes, net = zero):
+
+<div class="equation">
+$$2tn = m\lambda$$
+</div>
+
+Solving for t:
+
+<div class="equation">
+$$t = \frac{m\lambda}{2n} = \frac{m(520 \text{ nm})}{2(1.33)} = \frac{520m}{2.66} = 195m \text{ nm}$$
+</div>
+
+The three smallest non-zero thicknesses are:
+
+<div class="equation">
+$$t_1 = 195(1) = 195 \text{ nm}$$
+</div>
+
+<div class="equation">
+$$t_2 = 195(2) = 390 \text{ nm}$$
+</div>
+
+<div class="equation">
+$$t_3 = 195(3) = 585 \text{ nm}$$
+</div>
+
+**Step 6:** Check reasonableness: These thicknesses are on the order of the wavelength of light, which is typical for thin film interference effects.
+
+**Discussion**
+
+The three smallest thicknesses are 195 nm, 390 nm, and 585 nm. Each successive thickness differs by 195 nm (half the wavelength in the medium: λ/2n). These represent different orders of constructive interference. In practice, the first-order (195 nm) would appear brightest for green light, while higher orders might also reflect other wavelengths, producing mixed colors.
 
 </div>
 </div>
@@ -441,6 +556,57 @@ Suppose you have a lens system that is to be used primarily for 700-nm red light
 (a) As a soap bubble thins it becomes dark, because the path length difference becomes small compared with the wavelength of light and there is a phase shift at the top surface. If it becomes dark when the path length difference is less than one-fourth the wavelength, what is the thickest the bubble can be and appear dark at all visible wavelengths? Assume the same index of refraction as water. (b) Discuss the fragility of the film considering the thickness found.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The path length difference is 2tn. For the bubble to appear dark at all visible wavelengths, this must be less than λ/4 for the shortest visible wavelength (violet, ~380 nm). With one phase change, destructive interference (darkness) occurs when 2tn < λ/4.
+
+**Solution**
+
+**(a) Maximum thickness for darkness:**
+
+Given:
+- $$n = 1.33$$ (water)
+- $$\lambda_{\text{min}} = 380 \text{ nm}$$ (shortest visible, violet)
+
+For the bubble to appear dark, the path length difference must be less than λ/4:
+
+<div class="equation">
+$$2t < \frac{\lambda_{\text{min}}}{4}$$
+</div>
+
+<div class="equation">
+$$t < \frac{\lambda_{\text{min}}}{8} = \frac{380 \text{ nm}}{8} = 47.5 \text{ nm}$$
+</div>
+
+But actually, we need $$2tn < \lambda_{\text{min}}/4$$, so:
+
+<div class="equation">
+$$t < \frac{\lambda_{\text{min}}}{8n} = \frac{380 \text{ nm}}{8(1.33)} = 35.7 \text{ nm}$$
+</div>
+
+**(b) Fragility discussion:**
+
+A thickness of 35.7 nm is extremely thin - only about 35-40 molecular layers of water. For comparison:
+- A water molecule is roughly 0.3 nm in diameter
+- This film is only about 100-120 molecules thick
+- Typical soap films range from 10-1000 nm
+
+At such minimal thickness, the soap bubble is extremely fragile:
+- Very susceptible to evaporation
+- Easily disrupted by air currents or vibrations
+- Cannot support its own weight for long
+- Will pop within seconds after reaching this thickness
+- Any dust particle or temperature variation can rupture it
+
+This is why soap bubbles show black patches just before they pop - these are the regions that have thinned to this critical thickness.
+
+**Discussion**
+
+The extreme thinness (36 nm) explains why soap bubbles are so delicate and short-lived. When you see a soap bubble develop a black spot, it will typically pop within 1-2 seconds, as that region has thinned to near molecular-scale dimensions where surface tension variations and thermal fluctuations easily cause rupture.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -459,6 +625,59 @@ A film of oil on water will appear dark when it is very thin, because the path l
 [[Figure 2]](#Figure2) shows two glass slides illuminated by pure-wavelength light incident perpendicularly. The top slide touches the bottom slide at one end and rests on a 0.100-mm-diameter hair at the other end, forming a wedge of air. (a) How far apart are the dark bands, if the slides are 7.50 cm long and 589-nm light is used? (b) Is there any difference if the slides are made from crown or flint glass? Explain.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The air wedge creates a varying thickness that produces interference fringes. There are two phase changes (both at glass surfaces from air), so they cancel. Dark bands occur when $$2t = m\lambda$$ for the air gap. The spacing between dark bands depends on how quickly the thickness changes along the slide.
+
+**Solution**
+
+**(a) Spacing of dark bands:**
+
+Given:
+- Length of slides: L = 7.50 cm = 0.0750 m
+- Hair diameter (maximum air gap): h = 0.100 mm = 1.00 × 10⁻⁴ m
+- Wavelength: λ = 589 nm = 589 × 10⁻⁹ m
+
+The wedge angle is small:
+<div class="equation">
+$$\tan \alpha \approx \alpha = \frac{h}{L} = \frac{1.00 \times 10^{-4}}{0.0750} = 1.33 \times 10^{-3} \text{ rad}$$
+</div>
+
+At position x from the contact point, the air gap thickness is:
+<div class="equation">
+$$t(x) = x \tan \alpha \approx x\alpha$$
+</div>
+
+For dark fringes (with two phase changes, net = zero):
+<div class="equation">
+$$2t = m\lambda$$
+</div>
+
+The m-th dark fringe occurs at position:
+<div class="equation">
+$$x_m = \frac{m\lambda}{2\alpha}$$
+</div>
+
+The spacing between adjacent dark fringes is:
+<div class="equation">
+$$\Delta x = x_{m+1} - x_m = \frac{\lambda}{2\alpha} = \frac{589 \times 10^{-9}}{2(1.33 \times 10^{-3})}$$
+</div>
+
+<div class="equation">
+$$\Delta x = \frac{589 \times 10^{-9}}{2.67 \times 10^{-3}} = 2.21 \times 10^{-4} \text{ m} = 0.221 \text{ mm}$$
+</div>
+
+**(b) Effect of glass type:**
+
+**No, there is no difference** if the slides are made from crown or flint glass. The interference occurs in the air gap between the slides, not within the glass itself. The refractive index of the glass doesn't affect the optical path length in the air wedge. As long as both slides are made of the same type of glass (or even different types), the interference pattern depends only on the air gap geometry and the wavelength of light.
+
+**Discussion**
+
+The fringe spacing of 0.221 mm means there are about 340 dark fringes across the 7.50-cm length of the slides. This creates a closely-spaced pattern of light and dark bands. This technique (called a Fizeau interferometer when done precisely) is used to test optical flatness of surfaces - any irregularities in the glass surfaces would cause deviations in the otherwise straight, equally-spaced fringes.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -474,6 +693,51 @@ A film of oil on water will appear dark when it is very thin, because the path l
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Repeat [[Exercise 1]](#Exercise1), but take the light to be incident at a  $$45 ^\circ $$ angle.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Exercise 1 involves calculating wavelengths for thin film interference. At non-normal incidence, we must account for the angle of refraction in the film using Snell's law, and the path length in the film changes. The condition becomes $$2tn\cos \theta_2 = (m + \frac{1}{2})\lambda$$ where θ₂ is the refraction angle in the film.
+
+**Solution**
+
+Exercise 1 asks about interference from a thin film. When light is incident at 45°, we need to find the refraction angle in the film.
+
+Using Snell's law at the air-film interface (assuming n_film ~ 1.33 for soap):
+
+<div class="equation">
+$$n_1 \sin \theta_1 = n_2 \sin \theta_2$$
+</div>
+
+<div class="equation">
+$$(1.00) \sin 45° = (1.33) \sin \theta_2$$
+</div>
+
+<div class="equation">
+$$\sin \theta_2 = \frac{0.7071}{1.33} = 0.532$$
+</div>
+
+<div class="equation">
+$$\theta_2 = 32.1°$$
+</div>
+
+The optical path length in the film is now 2tn cos θ₂ (where the cos factor accounts for the longer path at an angle).
+
+For constructive interference with one phase change:
+
+<div class="equation">
+$$2tn\cos \theta_2 = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+Compared to normal incidence where $$2tn = (m + \frac{1}{2})\lambda$$, the factor $$\cos 32.1° = 0.846$$ means the effective optical path is reduced by about 15%.
+
+This causes the interference pattern to shift - wavelengths that were constructively interfering at normal incidence will no longer do so at 45°, and different colors will be reflected. The film will appear to change color when viewed from different angles.
+
+**Discussion**
+
+This angle-dependence of color is why soap bubbles and oil slicks show different colors when viewed from different angles. The color you see depends on your viewing angle. This effect is also exploited in security features on currency and in decorative coatings. The exact color shift calculation would require the specific film thickness from Exercise 1, but the principle is clear: tilting the film effectively reduces the optical path length, shifting the interference pattern toward shorter wavelengths.
 
 </div>
 </div>
@@ -501,6 +765,67 @@ This, he reasons, should be much cheaper than designing Stealth bombers. (a)
 What thickness should the coating be to inhibit the reflection of 4.00-cm
 wavelength radar? (b) What is unreasonable about this result? (c) Which
 assumptions are unreasonable or inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a non-reflective (anti-reflection) coating, we need destructive interference of reflected waves. With n_air (1.00) < n_coating (1.20) < n_aircraft (assume ~metal, very high n), there's one phase change. For destructive interference: $$2tn = (m + \frac{1}{2})\lambda$$. The minimum thickness uses m = 0.
+
+**Solution**
+
+**(a) Required coating thickness:**
+
+Given:
+- $$\lambda = 4.00 \text{ cm} = 0.0400 \text{ m}$$
+- $$n = 1.20$$
+- For minimum thickness, $$m = 0$$
+
+For destructive interference (anti-reflection):
+
+<div class="equation">
+$$2tn = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+With m = 0:
+
+<div class="equation">
+$$t = \frac{\lambda}{4n} = \frac{0.0400 \text{ m}}{4(1.20)} = \frac{0.0400}{4.80} = 8.33 \times 10^{-3} \text{ m}$$
+</div>
+
+<div class="equation">
+$$t = 8.33 \text{ mm} = 0.833 \text{ cm}$$
+</div>
+
+**(b) What is unreasonable about this result?**
+
+A coating thickness of **8.33 mm (almost 1 cm)** is extremely impractical for aircraft:
+- It's very thick and heavy - coating an entire aircraft would add enormous weight
+- The coating would be structurally weak and easily damaged
+- It would significantly alter the aerodynamics of the aircraft
+- For a fighter jet with ~200 m² surface area, this would add several thousand kilograms
+- The coating would crack, peel, or delaminate under flight stresses
+- It would require constant maintenance and reapplication
+
+**(c) Which assumptions are unreasonable or inconsistent?**
+
+The main unreasonable assumptions are:
+
+1. **Radar wavelengths are much longer than optical wavelengths**: Radar operates at cm wavelengths, while anti-reflection coatings for visible light are only ~100 nm thick. The coating thickness scales with wavelength.
+
+2. **Single-wavelength approach**: Radar systems use multiple frequencies, so a coating optimized for 4.00 cm wouldn't work for other radar wavelengths.
+
+3. **Practical feasibility**: The assumption that a simple dielectric coating could substitute for stealth technology ignores:
+   - The need for thin, durable coatings
+   - Multiple wavelength coverage
+   - Radar-absorbing materials (not just anti-reflection)
+   - Aircraft shape design for radar deflection
+   - Maintenance and durability requirements
+
+**Discussion**
+
+Real stealth technology uses radar-absorbing materials (RAM) that are thin, incorporate conductive particles to dissipate radar energy as heat, and are combined with aircraft shapes designed to deflect radar. A simple anti-reflection coating with cm-scale thickness is completely impractical. This problem illustrates why actual stealth aircraft like the B-2 and F-117 required sophisticated engineering rather than simple solutions.
 
 </div>
 </div>

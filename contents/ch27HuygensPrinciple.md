@@ -111,11 +111,55 @@ wave.
 How do wave effects depend on the size of the object with which the wave interacts? For example, why does sound bend around the corner of a building while light does not?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Wave effects such as diffraction and interference become most pronounced when the wavelength of the wave is comparable to the size of the object or opening with which it interacts. We need to compare the wavelengths of sound and light to typical building dimensions.
+
+**Solution**
+
+Wave effects are most noticeable when the wavelength is comparable to or larger than the size of the object with which the wave interacts. Sound waves have wavelengths on the order of meters (for a 1000 Hz sound in air, λ = v/f = 343 m/s / 1000 Hz ≈ 0.34 m). This wavelength is comparable to the width of a doorway or the corner of a building, so significant diffraction occurs, causing sound to bend around corners.
+
+In contrast, visible light has wavelengths in the range of 380-760 nm (about 10⁻⁷ m), which is millions of times smaller than typical building dimensions. When light encounters objects much larger than its wavelength, it behaves more like a ray traveling in straight lines, with minimal diffraction. The edges of shadows do show some diffraction effects, but these are very small compared to the overall size of the shadow.
+
+**Discussion**
+
+This principle explains why we can hear someone talking around a corner but cannot see them. It also explains why larger obstacles are needed to observe diffraction effects with light - for example, narrow slits with widths on the order of micrometers are required to see significant diffraction patterns with visible light. The general rule is: diffraction effects are most noticeable when λ ≈ d, where d is the size of the obstacle or opening.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
 Under what conditions can light be modeled like a ray? Like a wave?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The choice between ray and wave models depends on the relative size of wavelength compared to the objects and apertures involved in the situation.
+
+**Solution**
+
+Light can be modeled as a **ray** when it interacts with objects that are much larger than its wavelength (λ << d). Under these conditions:
+- Diffraction effects are negligible
+- Light travels in straight lines
+- Reflection and refraction can be accurately described using geometric optics
+- Examples: mirrors, lenses in cameras and eyeglasses, optical instruments where apertures are millimeters or larger
+
+Light must be modeled as a **wave** when:
+- It interacts with objects or openings comparable to or smaller than its wavelength (λ ≈ d or λ > d)
+- Diffraction, interference, or polarization effects are important
+- Precise measurements of wavelength or small-scale phenomena are involved
+- Examples: diffraction gratings, double-slit experiments, thin film interference, resolution limits of microscopes and telescopes
+
+The transition between these models is gradual. For objects with dimensions around 1-100 wavelengths, both wave and ray effects may be observable, and a complete analysis requires wave optics.
+
+**Discussion**
+
+This dual nature reflects the wave-particle duality of light. The ray model (geometric optics) is simpler and adequate for many practical applications involving macroscopic optical devices. However, the wave model is fundamental and necessary for understanding the true nature of light and phenomena that the ray model cannot explain. In modern physics, we recognize that light always has wave properties, but these become negligible in certain macroscopic situations where the ray approximation works well.
 
 </div>
 </div>
@@ -125,6 +169,33 @@ Under what conditions can light be modeled like a ray? Like a wave?
 Go outside in the sunlight and observe your shadow. It has fuzzy edges even if you do not. Is this a diffraction effect? Explain.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to consider what causes fuzzy shadow edges and determine whether diffraction or other effects are responsible.
+
+**Solution**
+
+The fuzzy edges of shadows outdoors are **primarily NOT due to diffraction**, but rather to the fact that the Sun is an extended light source rather than a point source.
+
+The Sun subtends an angle of about 0.5° as seen from Earth. When you stand in sunlight, different parts of the Sun's disk illuminate your body from slightly different angles. This creates three regions:
+- **Umbra**: The fully shadowed region where no part of the Sun is visible
+- **Penumbra**: The partially shadowed region where only part of the Sun is visible
+- **Fully lit region**: Where the entire Sun is visible
+
+The fuzzy edge of your shadow is the penumbra, where the illumination gradually transitions from full shadow to full sunlight.
+
+There IS a small diffraction effect at the edges of shadows, but it is extremely small compared to the penumbral effect. Diffraction fringes from visible light would only extend a fraction of a millimeter from the shadow edge, far too small to be noticed under normal outdoor conditions. The diffraction effect would be noticeable only if:
+- You used a true point source of light (like a distant streetlamp at night)
+- You observed very carefully, possibly with magnification
+- Your shadow fell on a screen at a considerable distance
+
+**Discussion**
+
+You can test this by using different light sources. With a small, distant light source (like a streetlamp far away at night), your shadow edges will be much sharper, though still showing tiny diffraction fringes if examined carefully. With a large, nearby light source (like a lamp with a large bulb), your shadow edges will be very fuzzy. This confirms that the extended nature of the source, not diffraction, dominates the fuzzy-edge effect in everyday shadows.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -132,11 +203,84 @@ Go outside in the sunlight and observe your shadow. It has fuzzy edges even if y
 Why does the wavelength of light decrease when it passes from vacuum into a medium? State which attributes change and which stay the same and, thus, require the wavelength to decrease.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to apply the wave equation v = fλ and identify which quantities change and which remain constant when light enters a medium.
+
+**Solution**
+
+When light passes from vacuum into a medium:
+
+**What stays the SAME:**
+- **Frequency (f)**: The frequency of the light wave is determined by the source and does not change when light enters a medium. This must be true for continuity - if the frequency changed at the boundary, there would be a buildup or deficit of wave crests at the interface, which is physically impossible.
+
+**What CHANGES:**
+- **Speed (v)**: Light slows down in a medium. In vacuum, v = c ≈ 3.00 × 10⁸ m/s. In a medium with index of refraction n, the speed becomes v = c/n, which is less than c.
+
+**Why wavelength MUST decrease:**
+From the wave equation:
+<div class="equation">
+$$v = f\lambda$$
+</div>
+
+Since frequency f remains constant and speed v decreases, the wavelength λ must also decrease to maintain the relationship:
+
+<div class="equation">
+$$\lambda_{\text{medium}} = \frac{v_{\text{medium}}}{f} = \frac{c/n}{f} = \frac{\lambda_{\text{vacuum}}}{n}$$
+</div>
+
+Therefore, λ_medium = λ_vacuum/n < λ_vacuum.
+
+**Discussion**
+
+This relationship is crucial for understanding phenomena like thin film interference, where we must use the wavelength in the medium (λ_n = λ/n) rather than the wavelength in vacuum. The physical reason for the speed decrease is that light interacts with the atoms in the medium - the oscillating electric field of the light wave causes electrons to oscillate, and these oscillating electrons re-radiate light that interferes with the original wave, effectively slowing its propagation through the medium. However, the frequency must match the driving frequency of the original source, so wavelength is the parameter that adjusts.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Does Huygens’s principle apply to all types of waves?
+Does Huygens's principle apply to all types of waves?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Huygens's principle is a geometric construction for determining wave propagation. We need to consider whether this principle is universal or has limitations.
+
+**Solution**
+
+**Yes**, Huygens's principle applies to all types of waves. It is a general principle of wave propagation that works for:
+
+- **Mechanical waves**:
+  - Water waves
+  - Sound waves
+  - Seismic waves
+  - Waves on strings
+
+- **Electromagnetic waves**:
+  - Light (all wavelengths)
+  - Radio waves
+  - Microwaves
+  - X-rays and gamma rays
+
+- **Matter waves**:
+  - Electron waves
+  - Other quantum mechanical waves
+
+The principle states that every point on a wavefront can be considered as a source of secondary wavelets that spread out in the forward direction at the wave speed. The new wavefront is the envelope (tangent surface) of all these wavelets.
+
+**Key characteristics that make it universal:**
+1. It's based on the wave equation, which governs all wave phenomena
+2. It correctly predicts diffraction, reflection, and refraction for all wave types
+3. It doesn't depend on the specific physical nature of the wave (mechanical oscillation, electromagnetic field, probability amplitude, etc.)
+
+**Discussion**
+
+Huygens's principle is particularly powerful because it's a geometrical method that doesn't require detailed knowledge of the wave's physical mechanism. Whether we're dealing with vibrating water molecules, oscillating electromagnetic fields, or quantum probability amplitudes, the same principle applies. This universality is one reason why wave phenomena look similar across vastly different physical systems - from ripples in a pond to light diffracting through a slit to electron diffraction in a crystal. The principle does have some mathematical limitations (it doesn't fully account for the detailed amplitude and polarization in all cases without additional considerations), but its basic geometric approach to wave propagation is indeed universal.
 
 </div>
 </div>
