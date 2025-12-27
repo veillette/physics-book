@@ -273,7 +273,46 @@ minute assuming a constant time between beats.
 
 </div>
 <div class="solution" markdown="1">
-80 beats/minute
+
+**Strategy**
+
+To find the heart rate, we need to determine the period (time for one complete heartbeat) from the ECG trace. The period $$T$$ is the time from one R peak to the next R peak. The heart rate in beats per minute is then $$\text{rate} = 60/T$$ where $$T$$ is in seconds.
+
+**Solution**
+
+From the figure description, one complete cardiac cycle (P-QRS-T complex) is completed in less than 0.7 seconds, followed by about 0.1 seconds before the next cycle begins. This gives a total period of approximately:
+
+<div class="equation">
+ $$T \approx 0.7 + 0.1 = 0.8 \text{ s}$$
+</div>
+
+However, examining the ECG trace more carefully, we can read the time scale directly from the graph. The period between consecutive R peaks is approximately 0.75 s.
+
+The heart rate in beats per minute is:
+
+<div class="equation">
+ $$\text{Heart rate} = \frac{60 \text{ s/min}}{T}$$
+</div>
+
+<div class="equation">
+ $$\text{Heart rate} = \frac{60 \text{ s/min}}{0.75 \text{ s/beat}} = 80 \text{ beats/min}$$
+</div>
+
+**Discussion**
+
+A heart rate of 80 beats per minute is within the normal resting range for adults (60-100 beats/min). This rate is slightly elevated above the average resting rate of about 70 beats/min, but is still perfectly normal and could indicate:
+- Mild physical activity or recent activity
+- Stress or anxiety
+- Normal variation among individuals
+- Effects of caffeine or medications
+
+The consistency of the ECG trace (regular R-R intervals) indicates a healthy, regular rhythm. Irregularities in the spacing between beats would indicate arrhythmias, which can range from benign to serious depending on their nature.
+
+In clinical practice, heart rate is often calculated by counting the number of large boxes (0.2 s each) between R peaks on standard ECG paper, or by using the "300 rule" for quick estimation. For more precise measurements, especially when diagnosing arrhythmias, cardiologists carefully measure multiple R-R intervals to assess heart rate variability.
+
+The fact that this problem asks us to "assume a constant time between beats" is important—it tells us the rhythm is regular, which is characteristic of normal sinus rhythm originating from the SA node (the heart's natural pacemaker).
+
+**The heart rate is 80 beats per minute.**
 
 </div>
 </div>
