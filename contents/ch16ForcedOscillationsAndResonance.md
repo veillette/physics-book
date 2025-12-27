@@ -208,12 +208,61 @@ The shocks must remove 141 J of energy to completely dampen the oscillation. Wit
 
 </div>
 <div class="solution" markdown="1">
-(a). 0.123 m
 
-(b). −0.600 J
+**Strategy**
 
-(c). 0.300 J. The rest of the energy may go into heat caused by friction and
-other damping forces.
+For part (a), when the object hangs motionless, the spring force balances the weight: $$kx = mg$$. For part (b), we calculate the change in gravitational potential energy using $$\Delta PE_g = mgh$$ (negative because the object descends). For part (c), we find the elastic potential energy stored in the spring using $$PE_{el} = \frac{1}{2}kx^2$$ and compare it to the gravitational energy change.
+
+**Solution**
+
+**(a)** At equilibrium, $$kx = mg$$:
+
+<div class="equation">
+ $$x = \frac{mg}{k} = \frac{(0.500 \text{ kg})(9.80 \text{ m/s}^2)}{40.0 \text{ N/m}}$$
+</div>
+
+<div class="equation">
+ $$x = \frac{4.90 \text{ N}}{40.0 \text{ N/m}} = 0.1225 \text{ m} \approx 0.123 \text{ m}$$
+</div>
+
+**(b)** The gravitational PE decreases as the object descends:
+
+<div class="equation">
+ $$\Delta PE_g = -mgh = -(0.500 \text{ kg})(9.80 \text{ m/s}^2)(0.123 \text{ m})$$
+</div>
+
+<div class="equation">
+ $$\Delta PE_g = -0.602 \text{ J} \approx -0.600 \text{ J}$$
+</div>
+
+**(c)** Energy stored in the spring:
+
+<div class="equation">
+ $$PE_{el} = \frac{1}{2}kx^2 = \frac{1}{2}(40.0 \text{ N/m})(0.123 \text{ m})^2$$
+</div>
+
+<div class="equation">
+ $$PE_{el} = \frac{1}{2}(40.0)(0.01513) = 0.303 \text{ J} \approx 0.300 \text{ J}$$
+</div>
+
+Comparing energies:
+- Gravitational PE lost: 0.600 J
+- Elastic PE stored: 0.300 J
+- Energy unaccounted for: 0.300 J
+
+**The spring stores only half the gravitational potential energy lost. The remaining 0.300 J is dissipated as heat through damping forces (air resistance, internal friction in the spring).**
+
+**Discussion**
+
+The energy analysis reveals an interesting result: exactly half the gravitational potential energy goes into elastic potential energy, and half is dissipated. This 50-50 split is not a coincidence but arises from the work-energy relationship.
+
+As the object descends distance $$x$$, the spring force increases linearly from 0 to $$kx$$. The average force during descent is $$\frac{1}{2}kx$$. The work done against this average force is $$W = (\frac{1}{2}kx)(x) = \frac{1}{2}kx^2$$, which is exactly the elastic PE stored.
+
+Meanwhile, gravity does work $$W_g = mgx = (kx)(x) = kx^2$$ (since $$mg = kx$$ at equilibrium). Notice that $$kx^2 = 2(\frac{1}{2}kx^2)$$—gravity's work is exactly twice the elastic energy stored.
+
+The "missing" energy ($$kx^2 - \frac{1}{2}kx^2 = \frac{1}{2}kx^2$$) must have gone into kinetic energy that was then dissipated by damping. If we gently lowered the mass with our hand (providing an external damping force), we would feel warmth in our muscles—this is the 0.300 J being dissipated.
+
+In a real scenario where the mass is simply released, it would initially overshoot the equilibrium position, oscillate, and gradually settle as damping dissipates energy. The final state has 0.300 J in the spring and 0.300 J dissipated as heat during the oscillations.
 
 </div>
 </div>
