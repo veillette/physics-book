@@ -449,6 +449,32 @@ The timing device in an automobile’s intermittent wiper system is based on an 
 A heart pacemaker fires 72 times a minute, each time a 25.0-nF capacitor is charged (by a battery in series with a resistor) to 0.632 of its full voltage. What is the value of the resistance?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The capacitor reaches 0.632 of its full voltage after one time constant $$\tau = RC$$. The pacemaker fires 72 times per minute, so the time between firings is the charging time for one time constant. Use this to find the resistance.
+
+**Solution**
+
+Time for one firing cycle:
+<div class="equation">
+$$t = \frac{60 \text{ s}}{72} = 0.833 \text{ s}$$
+</div>
+
+Since the capacitor charges to 0.632 of full voltage in one time constant, $$\tau = t = 0.833 \text{ s}$$.
+
+From $$\tau = RC$$:
+<div class="equation">
+$$R = \frac{\tau}{C} = \frac{0.833 \text{ s}}{25.0 \times 10^{-9} \text{ F}} = 3.33 \times 10^{7} \text{ Ω} = 33.3 \text{ MΩ}$$
+</div>
+
+**Discussion**
+
+The very large resistance (33.3 MΩ) is appropriate for a pacemaker because it needs to charge slowly enough to control the heart rate precisely (72 beats per minute is normal resting heart rate), while using a small capacitor to keep the device compact. The high resistance also minimizes current drain from the battery, extending battery life.
+
+The resistance is 33.3 MΩ.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -474,6 +500,42 @@ A 2.00- and a  $$7.50\text{-μF} $$
  time constants possible from connecting the resulting capacitance and resistance in series.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Find the two possible capacitances (series and parallel) and the two possible resistances (series and parallel). Then calculate all four combinations of $$\tau = RC$$.
+
+**Solution**
+
+**Capacitors:**
+- Parallel: $$C_p = C_1 + C_2 = 2.00 + 7.50 = 9.50 \text{ μF}$$
+- Series: $$\frac{1}{C_s} = \frac{1}{2.00} + \frac{1}{7.50} = 0.500 + 0.133 = 0.633 \text{ μF}^{-1}$$
+
+  $$C_s = 1.58 \text{ μF}$$
+
+**Resistors:**
+- Series: $$R_s = R_1 + R_2 = 25.0 + 100 = 125 \text{ kΩ}$$
+- Parallel: $$\frac{1}{R_p} = \frac{1}{25.0} + \frac{1}{100} = 0.0400 + 0.0100 = 0.0500 \text{ kΩ}^{-1}$$
+
+  $$R_p = 20.0 \text{ kΩ}$$
+
+**Four time constants:**
+
+1. $$\tau_1 = R_s C_p = (125 \times 10^{3})(9.50 \times 10^{-6}) = 1.19 \text{ s}$$
+
+2. $$\tau_2 = R_s C_s = (125 \times 10^{3})(1.58 \times 10^{-6}) = 0.198 \text{ s}$$
+
+3. $$\tau_3 = R_p C_p = (20.0 \times 10^{3})(9.50 \times 10^{-6}) = 0.190 \text{ s}$$
+
+4. $$\tau_4 = R_p C_s = (20.0 \times 10^{3})(1.58 \times 10^{-6}) = 0.0316 \text{ s} = 31.6 \text{ ms}$$
+
+**Discussion**
+
+The four time constants span a range from 31.6 ms to 1.19 s—nearly a factor of 40. The longest time constant uses maximum resistance (series) and maximum capacitance (parallel), while the shortest uses minimum resistance (parallel) and minimum capacitance (series). This demonstrates the flexibility of RC circuits for timing applications.
+
+The four time constants are: 1.19 s, 0.198 s, 0.190 s, and 31.6 ms.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -496,6 +558,40 @@ A  $$500 \text{-Ω} $$
  time constant? (c) What is the current after one time constant? (d) What is the voltage on the capacitor after one time constant?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Initially, the uncharged capacitor acts like a wire (no voltage across it), so all the emf appears across the resistor. As the capacitor charges, the current decreases exponentially. After one time constant, the voltage reaches 0.632 of the emf, and the current drops to 0.368 of its initial value.
+
+**Solution**
+
+**(a)** Initial current (at $$t = 0$$):
+<div class="equation">
+$$I_0 = \frac{\text{emf}}{R} = \frac{6.16 \text{ V}}{500 \text{ Ω}} = 0.01232 \text{ A} = 12.3 \text{ mA}$$
+</div>
+
+**(b)** Time constant:
+<div class="equation">
+$$\tau = RC = (500 \text{ Ω})(1.50 \times 10^{-6} \text{ F}) = 7.50 \times 10^{-4} \text{ s} = 0.750 \text{ ms}$$
+</div>
+
+**(c)** Current after one time constant:
+<div class="equation">
+$$I(\tau) = I_0 e^{-1} = 0.368 I_0 = 0.368(12.3 \text{ mA}) = 4.53 \text{ mA}$$
+</div>
+
+**(d)** Voltage on capacitor after one time constant:
+<div class="equation">
+$$V(\tau) = \text{emf}(1 - e^{-1}) = 0.632 \times \text{emf} = 0.632(6.16 \text{ V}) = 3.89 \text{ V}$$
+</div>
+
+**Discussion**
+
+The time constant (0.750 ms) is very short, so the capacitor charges quickly. After just one time constant, the capacitor has acquired 63.2% of its final voltage, while the current has dropped to 36.8% of its initial value. The sum of the voltage across the capacitor (3.89 V) and the voltage across the resistor ($$IR = 4.53 \text{ mA} \times 500 \text{ Ω} = 2.27 \text{ V}$$) equals the emf (6.16 V), as required by Kirchhoff's voltage law.
+
+(a) 12.3 mA, (b) 0.750 ms, (c) 4.53 mA, (d) 3.89 V.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -516,8 +612,34 @@ A heart defibrillator being used on a patient has an  $$\text{RC} $$
 <div class="problem" markdown="1">
 An ECG monitor must have an  $$\text{RC} $$
  time constant less than  $$1.00 \times 10^{2}  \text{μs} $$
- to be able to measure variations in voltage over small time intervals. (a) If the resistance of the circuit (due mostly to that of the patient’s chest) is  $$ 1.00 k\Omega  $$ ,
+ to be able to measure variations in voltage over small time intervals. (a) If the resistance of the circuit (due mostly to that of the patient's chest) is  $$ 1.00 k\Omega  $$ ,
  what is the maximum capacitance of the circuit? (b) Would it be difficult in practice to limit the capacitance to less than the value found in (a)?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The time constant must be less than 100 μs to accurately measure fast voltage changes in the heart. Use $$\tau = RC$$ to find the maximum capacitance, given the resistance.
+
+**Solution**
+
+**(a)** From $$\tau = RC$$:
+<div class="equation">
+$$C_{\text{max}} = \frac{\tau_{\text{max}}}{R} = \frac{1.00 \times 10^{-4} \text{ s}}{1.00 \times 10^{3} \text{ Ω}} = 1.00 \times 10^{-7} \text{ F} = 100 \text{ nF}$$
+</div>
+
+**(b)** No, it would not be difficult to limit the capacitance to less than 100 nF. This is a relatively large capacitance that can be achieved with careful circuit design. The main sources of capacitance in the circuit are:
+- Stray capacitance in wiring and components (typically a few pF to a few nF)
+- Input capacitance of the measuring device
+- Capacitance of electrode-to-skin contact (typically < 10 nF)
+
+By using short leads, proper shielding, and low-capacitance measurement devices, the total circuit capacitance can easily be kept well below 100 nF. Modern ECG monitors routinely achieve much smaller time constants to capture rapid voltage changes during heartbeats.
+
+**Discussion**
+
+The requirement for fast response time ($$\tau < 100 \text{ μs}$$) ensures the ECG can accurately capture the sharp peaks and valleys in the heart's electrical signal, which can change on millisecond timescales. The maximum capacitance of 100 nF is actually quite large for precision measurement circuits. Most modern ECG systems have much smaller capacitances (often < 10 nF), giving time constants well under 10 μs for even better time resolution.
+
+(a) Maximum capacitance is 100 nF. (b) No, this is readily achievable with proper circuit design.
 
 </div>
 </div>
@@ -550,6 +672,47 @@ Using the exact exponential treatment, find how much time is required to dischar
  resistor down to 1.00% of its original voltage.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the exponential discharge formula $$V = V_0 e^{-t/RC}$$ and solve for the time when $$V = 0.0100 V_0$$.
+
+**Solution**
+
+From $$V = V_0 e^{-t/RC}$$, when $$V = 0.0100 V_0$$:
+<div class="equation">
+$$0.0100 V_0 = V_0 e^{-t/RC}$$
+</div>
+
+<div class="equation">
+$$0.0100 = e^{-t/RC}$$
+</div>
+
+Taking natural logarithm of both sides:
+<div class="equation">
+$$\ln(0.0100) = -\frac{t}{RC}$$
+</div>
+
+<div class="equation">
+$$t = -RC \ln(0.0100) = RC \ln(100)$$
+</div>
+
+Calculate $$RC$$:
+<div class="equation">
+$$RC = (500 \text{ Ω})(250 \times 10^{-6} \text{ F}) = 0.125 \text{ s}$$
+</div>
+
+<div class="equation">
+$$t = (0.125 \text{ s}) \ln(100) = (0.125)(4.605) = 0.576 \text{ s}$$
+</div>
+
+**Discussion**
+
+The time required (0.576 s) is 4.6 time constants (since $$\ln(100) = 4.605$$). This makes sense: each time constant reduces the voltage by a factor of $$e \approx 2.718$$, so we need about 4.6 time constants to reduce it by a factor of 100. The exact exponential formula is necessary here rather than the approximation method of multiplying by 0.368 repeatedly.
+
+The time required is 0.576 s (or 576 ms).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -559,7 +722,40 @@ Using the exact exponential treatment, find how much time is required to charge 
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.73 \times 10^{-2}  \text{s} $$
+**Strategy**
+
+Use $$V = V_0(1 - e^{-t/RC})$$ and solve for $$t$$ when $$V = 0.900 V_0$$.
+
+**Solution**
+
+From $$V = V_0(1 - e^{-t/RC})$$, when $$V = 0.900 V_0$$:
+<div class="equation">
+$$0.900 = 1 - e^{-t/RC}$$
+</div>
+
+<div class="equation">
+$$e^{-t/RC} = 0.100$$
+</div>
+
+<div class="equation">
+$$t = -RC \ln(0.100) = RC \ln(10)$$
+</div>
+
+Calculate $$RC$$:
+<div class="equation">
+$$RC = (75.0 \times 10^{6})(100 \times 10^{-12}) = 7.50 \times 10^{-3} \text{ s}$$
+</div>
+
+<div class="equation">
+$$t = (7.50 \times 10^{-3}) \ln(10) = (7.50 \times 10^{-3})(2.303) = 1.73 \times 10^{-2} \text{ s}$$
+</div>
+
+**Discussion**
+
+The time required (17.3 ms) is 2.30 time constants. This makes sense since $$\ln(10) = 2.303$$. The capacitor charges to 63.2% in one time constant and 90% in 2.30 time constants, demonstrating the logarithmic nature of RC charging.
+
+The time required is $$1.73 \times 10^{-2}$$ s or 17.3 ms.
+
 </div>
 </div>
 

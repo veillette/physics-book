@@ -356,10 +356,34 @@ Verify, as was concluded without proof in [[Example 1]](#Example1), that units o
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Two coils are placed close together in a physics lab to demonstrate Faraday’s law of induction. A current of 5.00 A in one is switched off in 1.00 ms, inducing a 9.00 V emf in the other. What is their mutual inductance?
+Two coils are placed close together in a physics lab to demonstrate Faraday's law of induction. A current of 5.00 A in one is switched off in 1.00 ms, inducing a 9.00 V emf in the other. What is their mutual inductance?
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We can use the relationship between mutual inductance and induced emf: $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$. We know the induced emf, the current change, and the time interval, so we can solve for the mutual inductance $$M$$.
+
+**Solution**
+
+Rearranging the mutual inductance equation to solve for $$M$$:
+
+<div class="equation">
+$$M=\frac{\left|{\text{emf}}_{2}\right|}{\Delta I_1/\Delta t}$$
+</div>
+
+The change in current is $$\Delta I_1 = 5.00 \text{ A}$$ (from 5.00 A to zero), and the time interval is $$\Delta t = 1.00 \text{ ms} = 1.00 \times 10^{-3} \text{ s}$$. The induced emf is 9.00 V. Substituting:
+
+<div class="equation">
+$$M=\frac{9.00 \text{ V}}{5.00 \text{ A}/1.00 \times 10^{-3} \text{ s}}=\frac{9.00 \text{ V} \times 1.00 \times 10^{-3} \text{ s}}{5.00 \text{ A}}=1.80 \times 10^{-3} \text{ H}=1.80 \text{ mH}$$
+</div>
+
+**Discussion**
+
+This is a relatively small mutual inductance, which is typical for two separate coils that are not specifically designed to be coupled like a transformer. The mutual inductance depends on the geometry and positioning of the coils—closer coils with better alignment would have higher mutual inductance.
+
+**Final Answer**
+
 1.80 mH
 
 </div>
@@ -370,6 +394,37 @@ Two coils are placed close together in a physics lab to demonstrate Faraday’s 
 If two coils placed next to one another have a mutual inductance of 5.00 mH, what voltage is induced in one when the 2.00 A current in the other is switched off in 30.0 ms?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the mutual inductance equation $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$ to find the induced emf. We know $$M$$, the current change $$\Delta I_1$$, and the time interval $$\Delta t$$.
+
+**Solution**
+
+Given:
+- $$M = 5.00 \text{ mH} = 5.00 \times 10^{-3} \text{ H}$$
+- $$\Delta I_1 = 2.00 \text{ A}$$ (from 2.00 A to zero)
+- $$\Delta t = 30.0 \text{ ms} = 30.0 \times 10^{-3} \text{ s}$$
+
+The magnitude of the induced emf is:
+
+<div class="equation">
+$$\left|{\text{emf}}_{2}\right|=M\frac{\Delta I_1}{\Delta t}=(5.00 \times 10^{-3} \text{ H})\frac{2.00 \text{ A}}{30.0 \times 10^{-3} \text{ s}}$$
+</div>
+
+<div class="equation">
+$$\left|{\text{emf}}_{2}\right|=(5.00 \times 10^{-3} \text{ H})\left(66.7 \text{ A/s}\right)=0.333 \text{ V}$$
+</div>
+
+**Discussion**
+
+The induced voltage is relatively small because the current is switched off over a relatively long time (30.0 ms). If the current were switched off more quickly, the induced voltage would be proportionally larger. This demonstrates that the rate of current change is crucial in determining the magnitude of induced emf.
+
+**Final Answer**
+
+0.333 V
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -378,6 +433,33 @@ The 4.00 A current through a 7.50 mH inductor is switched off in 8.33 ms. What i
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to find the induced emf. The inductor opposes the change in current, and we need to find the magnitude of this opposing emf.
+
+**Solution**
+
+Given:
+- $$L = 7.50 \text{ mH} = 7.50 \times 10^{-3} \text{ H}$$
+- $$\Delta I = 4.00 \text{ A}$$ (from 4.00 A to zero)
+- $$\Delta t = 8.33 \text{ ms} = 8.33 \times 10^{-3} \text{ s}$$
+
+The magnitude of the induced emf is:
+
+<div class="equation">
+$$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(7.50 \times 10^{-3} \text{ H})\frac{4.00 \text{ A}}{8.33 \times 10^{-3} \text{ s}}$$
+</div>
+
+<div class="equation">
+$$\left|\text{emf}\right|=(7.50 \times 10^{-3} \text{ H})(480 \text{ A/s})=3.60 \text{ V}$$
+</div>
+
+**Discussion**
+
+The induced emf opposes the decrease in current, attempting to maintain the current flow. This 3.60 V emf is significant enough that it could cause sparking in a mechanical switch. By Lenz's law, the induced emf has the same polarity as the original current direction, trying to keep the current flowing even as we try to switch it off.
+
+**Final Answer**
+
 3.60 V
 
 </div>
@@ -388,6 +470,39 @@ The 4.00 A current through a 7.50 mH inductor is switched off in 8.33 ms. What i
 A device is turned on and 3.00 A flows through it 0.100 ms later. What is the self-inductance of the device if an induced 150 V emf opposes this?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We rearrange the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to solve for $$L$$. We know the induced emf, the current change, and the time interval.
+
+**Solution**
+
+Given:
+- $$\left|\text{emf}\right| = 150 \text{ V}$$
+- $$\Delta I = 3.00 \text{ A}$$ (from 0 to 3.00 A)
+- $$\Delta t = 0.100 \text{ ms} = 0.100 \times 10^{-3} \text{ s} = 1.00 \times 10^{-4} \text{ s}$$
+
+Rearranging for $$L$$:
+
+<div class="equation">
+$$L=\frac{\left|\text{emf}\right|}{\Delta I/\Delta t}=\frac{\left|\text{emf}\right| \times \Delta t}{\Delta I}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$L=\frac{150 \text{ V} \times 1.00 \times 10^{-4} \text{ s}}{3.00 \text{ A}}=\frac{0.0150 \text{ V·s}}{3.00 \text{ A}}=5.00 \times 10^{-3} \text{ H}=5.00 \text{ mH}$$
+</div>
+
+**Discussion**
+
+This is a moderate self-inductance value, typical for small inductors used in electronics. The large induced emf (150 V) despite the relatively small inductance is due to the extremely rapid current change (3.00 A in only 0.100 ms). This demonstrates why inductive devices can produce large voltage spikes when switched on or off quickly.
+
+**Final Answer**
+
+5.00 mH
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -396,11 +511,98 @@ Starting with  $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t} $$ ,
  show that the units of inductance are  $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s} $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the mutual inductance equation to determine the units of $$M$$. Then we show that volts times seconds per ampere is equivalent to ohms times seconds.
+
+**Solution**
+
+Starting with the mutual inductance equation:
+
+<div class="equation">
+$${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$
+</div>
+
+Rearranging to solve for $$M$$:
+
+<div class="equation">
+$$M=\frac{{\text{emf}}_{2}}{\Delta {I}_{1}/\Delta t}$$
+</div>
+
+The units are:
+
+<div class="equation">
+$$[M]=\frac{[\text{emf}]}{[I]/[t]}=\frac{\text{V}}{\text{A/s}}=\frac{\text{V} \cdot \text{s}}{\text{A}}$$
+</div>
+
+Now we need to show that $$\frac{\text{V} \cdot \text{s}}{\text{A}} = \Omega \cdot \text{s}$$.
+
+From Ohm's law, $$V = IR$$, so $$1 \text{ V} = 1 \text{ A} \times 1 \Omega$$, which means:
+
+<div class="equation">
+$$1 \Omega = \frac{1 \text{ V}}{1 \text{ A}}$$
+</div>
+
+Therefore:
+
+<div class="equation">
+$$\Omega \cdot \text{s} = \frac{\text{V}}{\text{A}} \cdot \text{s} = \frac{\text{V} \cdot \text{s}}{\text{A}}$$
+</div>
+
+This proves that $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s}$$.
+
+**Discussion**
+
+This unit equivalence makes physical sense. The henry (H), the unit of inductance, can be expressed as either $$\text{V} \cdot \text{s/A}$$ or $$\Omega \cdot \text{s}$$. The first form emphasizes how inductance relates voltage to the rate of current change, while the second form shows that inductance has dimensions of resistance times time, which is useful when analyzing RL circuits.
+
+**Final Answer**
+
+The derivation shows that $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s}$$, confirming that both are valid units for inductance (henries).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Camera flashes charge a capacitor to high voltage by switching the current through an inductor on and off rapidly. In what time must the 0.100 A current through a 2.00 mH inductor be switched on or off to induce a 500 V emf?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ and solve for $$\Delta t$$. We know the inductance, the current change, and the desired emf.
+
+**Solution**
+
+Given:
+- $$L = 2.00 \text{ mH} = 2.00 \times 10^{-3} \text{ H}$$
+- $$\Delta I = 0.100 \text{ A}$$
+- $$\left|\text{emf}\right| = 500 \text{ V}$$
+
+Rearranging the self-inductance equation:
+
+<div class="equation">
+$$\Delta t=\frac{L \Delta I}{\left|\text{emf}\right|}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$\Delta t=\frac{(2.00 \times 10^{-3} \text{ H})(0.100 \text{ A})}{500 \text{ V}}=\frac{2.00 \times 10^{-4} \text{ V·s}}{500 \text{ V}}=4.00 \times 10^{-7} \text{ s}$$
+</div>
+
+<div class="equation">
+$$\Delta t = 0.400 \text{ μs}$$
+</div>
+
+**Discussion**
+
+The current must be switched extremely rapidly—in only 0.400 microseconds—to generate the 500 V needed to charge the camera flash capacitor. This requires very fast electronic switching, which is why camera flashes use specialized oscillator circuits rather than mechanical switches. The rapid switching creates the high voltage from a low-voltage battery, demonstrating the principle that rapid current changes in inductors produce large voltages.
+
+**Final Answer**
+
+0.400 μs (or $$4.00 \times 10^{-7}$$ s)
 
 </div>
 </div>
@@ -427,6 +629,59 @@ A large research solenoid has a self-inductance of 25.0 H. (a) What induced emf 
 (a) Calculate the self-inductance of a 50.0 cm long, 10.0 cm diameter solenoid having 1000 loops. (b) How much energy is stored in this inductor when 20.0 A of current flows through it? (c) How fast can it be turned off if the induced emf cannot exceed 3.00 V?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$ to find the self-inductance.
+(b) Use the energy formula $${E}_{\text{ind}}=\frac{1}{2}LI^2$$ with the inductance from part (a).
+(c) Use $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to find the minimum time required.
+
+**Solution**
+
+**(a)** Given:
+- $$N = 1000$$ turns
+- $$\ell = 50.0 \text{ cm} = 0.500 \text{ m}$$
+- $$d = 10.0 \text{ cm}$$, so $$r = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+- $$A = \pi r^2 = \pi (0.0500 \text{ m})^2 = 7.85 \times 10^{-3} \text{ m}^2$$
+- $$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+
+<div class="equation">
+$$L=\frac{\mu_0 N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(1000)^2(7.85 \times 10^{-3} \text{ m}^2)}{0.500 \text{ m}}$$
+</div>
+
+<div class="equation">
+$$L=\frac{(1.257 \times 10^{-6})(10^6)(7.85 \times 10^{-3})}{0.500}=\frac{9.87}{0.500}=19.7 \text{ mH}$$
+</div>
+
+**(b)** Using the energy formula with $$I = 20.0 \text{ A}$$:
+
+<div class="equation">
+$${E}_{\text{ind}}=\frac{1}{2}LI^2=\frac{1}{2}(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})^2$$
+</div>
+
+<div class="equation">
+$${E}_{\text{ind}}=\frac{1}{2}(19.7 \times 10^{-3})(400)=3.94 \text{ J}$$
+</div>
+
+**(c)** Given that $$\left|\text{emf}\right| \leq 3.00 \text{ V}$$ and $$\Delta I = 20.0 \text{ A}$$:
+
+<div class="equation">
+$$\Delta t=\frac{L \Delta I}{\left|\text{emf}\right|}=\frac{(19.7 \times 10^{-3} \text{ H})(20.0 \text{ A})}{3.00 \text{ V}}=\frac{0.394}{3.00}=0.131 \text{ s}=131 \text{ ms}$$
+</div>
+
+**Discussion**
+
+This solenoid has a relatively large inductance (nearly 20 mH) due to its many turns and reasonable cross-sectional area. The stored energy of nearly 4 J is significant and must be dissipated safely when the current is turned off. The minimum shutdown time of 131 ms ensures the induced emf stays below the 3.00 V limit, preventing damage to switching equipment or dangerous arcing.
+
+**Final Answer**
+
+(a) 19.7 mH
+
+(b) 3.94 J
+
+(c) 131 ms
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -449,6 +704,63 @@ A precision laboratory resistor is made of a coil of wire 1.50 cm in diameter an
 The heating coils in a hair dryer are 0.800 cm in diameter, have a combined length of 1.00 m, and a total of 400 turns. (a) What is their total self-inductance assuming they act like a single solenoid? (b) How much energy is stored in them when 6.00 A flows? (c) What average emf opposes shutting them off if this is done in 5.00 ms (one-fourth of a cycle for 50 Hz AC)?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$.
+(b) Calculate the stored energy using $${E}_{\text{ind}}=\frac{1}{2}LI^2$$.
+(c) Find the induced emf using $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$.
+
+**Solution**
+
+**(a)** Given:
+- $$N = 400$$ turns
+- $$\ell = 1.00 \text{ m}$$
+- $$d = 0.800 \text{ cm} = 8.00 \times 10^{-3} \text{ m}$$, so $$r = 4.00 \times 10^{-3} \text{ m}$$
+- $$A = \pi r^2 = \pi (4.00 \times 10^{-3} \text{ m})^2 = 5.03 \times 10^{-5} \text{ m}^2$$
+- $$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+
+<div class="equation">
+$$L=\frac{\mu_0 N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(400)^2(5.03 \times 10^{-5} \text{ m}^2)}{1.00 \text{ m}}$$
+</div>
+
+<div class="equation">
+$$L=\frac{(1.257 \times 10^{-6})(1.60 \times 10^5)(5.03 \times 10^{-5})}{1.00}=1.01 \times 10^{-5} \text{ H}=10.1 \text{ μH}$$
+</div>
+
+**(b)** Using $$I = 6.00 \text{ A}$$:
+
+<div class="equation">
+$${E}_{\text{ind}}=\frac{1}{2}LI^2=\frac{1}{2}(1.01 \times 10^{-5} \text{ H})(6.00 \text{ A})^2$$
+</div>
+
+<div class="equation">
+$${E}_{\text{ind}}=\frac{1}{2}(1.01 \times 10^{-5})(36.0)=1.82 \times 10^{-4} \text{ J}=0.182 \text{ mJ}$$
+</div>
+
+**(c)** Given $$\Delta I = 6.00 \text{ A}$$ and $$\Delta t = 5.00 \text{ ms} = 5.00 \times 10^{-3} \text{ s}$$:
+
+<div class="equation">
+$$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(1.01 \times 10^{-5} \text{ H})\frac{6.00 \text{ A}}{5.00 \times 10^{-3} \text{ s}}$$
+</div>
+
+<div class="equation">
+$$\left|\text{emf}\right|=(1.01 \times 10^{-5})(1200)=0.0121 \text{ V}=12.1 \text{ mV}$$
+</div>
+
+**Discussion**
+
+The hair dryer coils have very small inductance (only about 10 μH) because they are designed primarily as resistive heating elements, not as inductors. The small diameter and relatively few turns result in minimal self-inductance. The tiny stored energy and small induced emf mean that switching the hair dryer on and off presents no safety concerns from inductive effects. This is intentional—heating elements should not exhibit significant inductive behavior.
+
+**Final Answer**
+
+(a) 10.1 μH
+
+(b) 0.182 mJ
+
+(c) 12.1 mV
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -457,6 +769,35 @@ When the 20.0 A current through an inductor is turned off in 1.50 ms, an 800 V e
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ and solve for $$L$$. We know the induced emf, the current change, and the time interval.
+
+**Solution**
+
+Given:
+- $$\left|\text{emf}\right| = 800 \text{ V}$$
+- $$\Delta I = 20.0 \text{ A}$$ (from 20.0 A to zero)
+- $$\Delta t = 1.50 \text{ ms} = 1.50 \times 10^{-3} \text{ s}$$
+
+Rearranging the self-inductance equation:
+
+<div class="equation">
+$$L=\frac{\left|\text{emf}\right| \times \Delta t}{\Delta I}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$L=\frac{800 \text{ V} \times 1.50 \times 10^{-3} \text{ s}}{20.0 \text{ A}}=\frac{1.20 \text{ V·s}}{20.0 \text{ A}}=0.0600 \text{ H}=60.0 \text{ mH}$$
+</div>
+
+**Discussion**
+
+This is a moderately large inductance. The 800 V induced emf is quite substantial, demonstrating why inductors can be dangerous when large currents are suddenly interrupted. This high voltage could easily cause arcing across switch contacts or damage to electronic components. Industrial equipment with such inductors typically includes protection circuits to safely dissipate the stored energy when the current is switched off.
+
+**Final Answer**
+
 60.0 mH
 
 </div>
@@ -465,6 +806,39 @@ When the 20.0 A current through an inductor is turned off in 1.50 ms, an 800 V e
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 How fast can the 150 A current through a 0.250 H inductor be shut off if the induced emf cannot exceed 75.0 V?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ and solve for $$\Delta t$$. The maximum allowed emf sets the minimum time to shut off the current.
+
+**Solution**
+
+Given:
+- $$L = 0.250 \text{ H}$$
+- $$\Delta I = 150 \text{ A}$$
+- $$\left|\text{emf}\right|_{\text{max}} = 75.0 \text{ V}$$
+
+Rearranging for $$\Delta t$$:
+
+<div class="equation">
+$$\Delta t=\frac{L \Delta I}{\left|\text{emf}\right|}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$\Delta t=\frac{(0.250 \text{ H})(150 \text{ A})}{75.0 \text{ V}}=\frac{37.5 \text{ V·s}}{75.0 \text{ V}}=0.500 \text{ s}$$
+</div>
+
+**Discussion**
+
+The current must be shut off over at least half a second to keep the induced emf at or below 75.0 V. This is a significant time constraint. Despite the relatively modest inductance of 0.250 H, the large current (150 A) means substantial energy is stored in the magnetic field ($$E = \frac{1}{2}LI^2 = \frac{1}{2}(0.250)(150)^2 = 2810 \text{ J}$$), and this energy must be dissipated slowly enough to prevent excessive voltage spikes. This illustrates why large industrial inductors require careful shutdown procedures.
+
+**Final Answer**
+
+0.500 s
 
 </div>
 </div>
@@ -496,6 +870,45 @@ heat is $$200 \text{J/kg·ºC} $$ ?
 A 25.0 H inductor has 100 A of current turned off in 1.00 ms. (a) What voltage
 is induced to oppose this? (b) What is unreasonable about this result? (c) Which
 assumption or premise is responsible?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to calculate the induced voltage.
+(b) Evaluate whether the calculated voltage is physically reasonable.
+(c) Identify which parameter(s) are causing the unreasonable result.
+
+**Solution**
+
+**(a)** Given:
+- $$L = 25.0 \text{ H}$$
+- $$\Delta I = 100 \text{ A}$$
+- $$\Delta t = 1.00 \text{ ms} = 1.00 \times 10^{-3} \text{ s}$$
+
+<div class="equation">
+$$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(25.0 \text{ H})\frac{100 \text{ A}}{1.00 \times 10^{-3} \text{ s}}$$
+</div>
+
+<div class="equation">
+$$\left|\text{emf}\right|=(25.0)(1.00 \times 10^5)=2.50 \times 10^6 \text{ V}=2.50 \text{ MV}$$
+</div>
+
+**(b)** This result is unreasonable because 2.50 million volts is an extremely high voltage that would cause massive electrical arcing through air (which breaks down at about 3 MV/m). Such a voltage would be extremely dangerous and impossible to contain with ordinary insulation. The energy stored in this inductor at 100 A is $$E = \frac{1}{2}(25.0)(100)^2 = 125 \text{ kJ}$$, and attempting to dissipate this in 1 ms would require a power of 125 MW, which is also unreasonable.
+
+**(c)** The unreasonable assumption is the very short switching time of 1.00 ms. A 25.0 H inductor carrying 100 A cannot be switched off this quickly without generating destructive voltages. In practice, such large inductors require much longer shutdown times (on the order of seconds or even minutes) or specialized circuits to safely dissipate the stored energy. The combination of very large inductance (25.0 H) and very large current (100 A) also contributes to the problem.
+
+**Discussion**
+
+This problem illustrates why large research electromagnets and superconducting magnets require careful shutdown procedures. The stored magnetic energy is enormous, and attempting to release it too quickly generates voltages that would destroy equipment and pose severe safety hazards. Real systems use resistor banks, energy recovery systems, or gradual current reduction to safely shut down large inductors.
+
+**Final Answer**
+
+(a) 2.50 MV
+
+(b) This voltage is unreasonably high—it would cause massive arcing and is impossible to contain safely.
+
+(c) The 1.00 ms switching time is far too short for such a large inductor carrying such high current. The combination of large L, large I, and short Δt produces the unreasonable result.
 
 </div>
 </div>
