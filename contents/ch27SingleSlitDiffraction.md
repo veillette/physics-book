@@ -155,8 +155,44 @@ As the width of the slit producing a single-slit diffraction pattern is reduced,
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 33.4º $$
-(b) No
+
+**Strategy**
+
+For single-slit diffraction, minima (dark fringes) occur at angles given by $$D \sin \theta = m\lambda$$, where D is the slit width, λ is the wavelength, and m = 1, 2, 3, ... (m = 0 would be the central maximum, not a minimum). We solve for θ for m = 1, then check if m = 2 is physically possible.
+
+**Solution**
+
+Given:
+- Wavelength: $$\lambda = 550 \text{ nm} = 550 \times 10^{-9} \text{ m}$$
+- Slit width: $$D = 1.00 \text{ μm} = 1.00 \times 10^{-6} \text{ m}$$
+
+**(a) First minimum (m = 1):**
+
+<div class="equation">
+$$D \sin \theta_1 = m\lambda = (1)\lambda$$
+</div>
+
+<div class="equation">
+$$\sin \theta_1 = \frac{\lambda}{D} = \frac{550 \times 10^{-9}}{1.00 \times 10^{-6}} = 0.550$$
+</div>
+
+<div class="equation">
+$$\theta_1 = \arcsin(0.550) = 33.4°$$
+</div>
+
+**The first minimum occurs at 33.4°.**
+
+**(b) Second minimum (m = 2):**
+
+<div class="equation">
+$$\sin \theta_2 = \frac{2\lambda}{D} = \frac{2(550 \times 10^{-9})}{1.00 \times 10^{-6}} = 1.10$$
+</div>
+
+Since $$\sin \theta$$ cannot exceed 1, **there is no second minimum.** The value of 1.10 is physically impossible.
+
+**Discussion**
+
+When the slit width is comparable to the wavelength (D ≈ λ), the diffraction pattern becomes very broad. In this case, D = 1.00 μm and λ = 550 nm, giving a ratio of D/λ ≈ 1.82. The first minimum appears at 33.4°, which is a large angle indicating significant spreading of light. For a second minimum to exist, we would need D ≥ 2λ, but here D < 2λ (1000 nm < 1100 nm). This demonstrates that narrower slits produce wider diffraction patterns. When D < 2λ, only the central maximum and first-order minima exist; the diffraction pattern has only three regions: one minimum on each side of the central maximum.
 
 </div>
 </div>
@@ -218,8 +254,60 @@ The first minimum for red light (20.5°) occurs at a larger angle than for viole
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.35 \times 10^{-6}  \text{m} $$
-(b)  $$ 69.9º $$
+
+**Strategy**
+
+This problem gives us the angle of the first minimum and asks us to find the slit width. We use $$D \sin \theta = m\lambda$$ with m = 1, solving for D. Then we find the second minimum (m = 2) using the calculated slit width.
+
+**Solution**
+
+Given:
+- Wavelength: $$\lambda = 633 \text{ nm} = 633 \times 10^{-9} \text{ m}$$
+- First minimum angle: $$\theta_1 = 28.0°$$
+- First minimum: $$m = 1$$
+
+**(a) Slit width:**
+
+For the first minimum:
+
+<div class="equation">
+$$D \sin \theta_1 = m\lambda = (1)\lambda$$
+</div>
+
+Solving for D:
+
+<div class="equation">
+$$D = \frac{\lambda}{\sin \theta_1} = \frac{633 \times 10^{-9}}{\sin 28.0°} = \frac{633 \times 10^{-9}}{0.469}$$
+</div>
+
+<div class="equation">
+$$D = 1.35 \times 10^{-6} \text{ m} = 1.35 \text{ μm}$$
+</div>
+
+**The slit width is 1.35 × 10⁻⁶ m (or 1.35 μm).**
+
+**(b) Second minimum:**
+
+For the second minimum (m = 2):
+
+<div class="equation">
+$$\sin \theta_2 = \frac{2\lambda}{D} = \frac{2(633 \times 10^{-9})}{1.35 \times 10^{-6}} = \frac{1266 \times 10^{-9}}{1.35 \times 10^{-6}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta_2 = 0.938$$
+</div>
+
+<div class="equation">
+$$\theta_2 = \arcsin(0.938) = 69.9°$$
+</div>
+
+**The second minimum occurs at 69.9°.**
+
+**Discussion**
+
+The slit width of 1.35 μm is about twice the wavelength (633 nm), which allows for a second minimum to exist. The large angle for the second minimum (69.9°) means it's very close to the theoretical maximum of 90°. A third minimum would require sin θ₃ = 3λ/D = 1.41, which is impossible, so this diffraction pattern has only two minima on each side of the central maximum. The 633-nm wavelength is characteristic of a helium-neon (He-Ne) laser, commonly used in diffraction experiments due to its monochromaticity and coherence.
+
 </div>
 </div>
 
@@ -282,7 +370,43 @@ Find the wavelength of light that has its third minimum at an angle of  $$ 48.6�
 
 </div>
 <div class="solution" markdown="1">
-750 nm
+
+**Strategy**
+
+We use the single-slit diffraction formula $$D \sin \theta = m\lambda$$ with m = 3 (third minimum) and solve for the wavelength λ.
+
+**Solution**
+
+Given:
+- Slit width: $$D = 3.00 \text{ μm} = 3.00 \times 10^{-6} \text{ m}$$
+- Third minimum angle: $$\theta = 48.6°$$
+- Order: $$m = 3$$
+
+For the third minimum:
+
+<div class="equation">
+$$D \sin \theta = m\lambda$$
+</div>
+
+Solving for wavelength:
+
+<div class="equation">
+$$\lambda = \frac{D \sin \theta}{m} = \frac{(3.00 \times 10^{-6}) \sin 48.6°}{3}$$
+</div>
+
+<div class="equation">
+$$\lambda = \frac{(3.00 \times 10^{-6})(0.7501)}{3} = \frac{2.250 \times 10^{-6}}{3}$$
+</div>
+
+<div class="equation">
+$$\lambda = 7.50 \times 10^{-7} \text{ m} = 750 \text{ nm}$$
+</div>
+
+**The wavelength is 750 nm, which corresponds to red light.**
+
+**Discussion**
+
+A wavelength of 750 nm is at the red end of the visible spectrum (approximately 620-750 nm). The relatively large slit width (3.00 μm = 4 wavelengths) allows multiple minima to exist on each side of the central maximum. For m = 3 to occur at a reasonable angle (48.6°), the ratio D/λ = 4.0, which means the slit is exactly 4 wavelengths wide. This is a favorable condition for observing multiple diffraction orders. If we checked for a fourth minimum (m = 4), we would find sin θ₄ = 4(750)/3000 = 1.0, meaning the fourth minimum just barely exists at θ = 90° (grazing angle along the screen).
 
 </div>
 </div>
@@ -338,8 +462,60 @@ This problem nicely demonstrates that sin(36.9°) = 0.6 = 3/5, which comes from 
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$9.04\text{º} $$
-(b) 12
+
+**Strategy**
+
+For part (a), we use $$D \sin \theta = m\lambda$$ with m = 2 (second minimum) to find the angle. For part (b), the highest-order minimum occurs when sin θ approaches 1 (angle approaches 90°), so we solve for the maximum m such that mλ/D ≤ 1.
+
+**Solution**
+
+Given:
+- Wavelength: $$\lambda = 589 \text{ nm} = 589 \times 10^{-9} \text{ m}$$
+- Slit width: $$D = 7.50 \text{ μm} = 7.50 \times 10^{-6} \text{ m}$$
+
+**(a) Second minimum (m = 2):**
+
+<div class="equation">
+$$D \sin \theta = m\lambda$$
+</div>
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{D} = \frac{2(589 \times 10^{-9})}{7.50 \times 10^{-6}} = \frac{1178 \times 10^{-9}}{7.50 \times 10^{-6}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta = 0.1571$$
+</div>
+
+<div class="equation">
+$$\theta = \arcsin(0.1571) = 9.04°$$
+</div>
+
+**The second minimum occurs at 9.04°.**
+
+**(b) Highest-order minimum:**
+
+The highest order occurs when sin θ = 1 (at θ = 90°):
+
+<div class="equation">
+$$m_{\text{max}} = \frac{D}{\lambda} = \frac{7.50 \times 10^{-6}}{589 \times 10^{-9}} = 12.73$$
+</div>
+
+Since m must be an integer, the highest-order minimum is:
+
+<div class="equation">
+$$m_{\text{max}} = 12$$
+</div>
+
+We can verify: $$\sin \theta_{12} = \frac{12(589)}{7500} = 0.943$$, giving $$\theta_{12} = 70.6°$$ (valid).
+
+For m = 13: $$\sin \theta_{13} = \frac{13(589)}{7500} = 1.021 > 1$$ (impossible).
+
+**The highest-order minimum is m = 12.**
+
+**Discussion**
+
+Sodium vapor light (589 nm average of the D-line doublet at 589.0 and 589.6 nm) is commonly used in spectroscopy and diffraction experiments. The relatively large slit width (7.50 μm ≈ 12.7λ) allows many diffraction orders. The small angle for the second minimum (9.04°) indicates that higher-order minima are closely spaced near the central maximum but spread out at larger angles. The 12th-order minimum appears at about 70.6°, showing how the diffraction pattern extends over a wide angular range. This creates a complex pattern with 13 bright regions: the central maximum plus 12 secondary maxima on each side.
 
 </div>
 </div>
@@ -415,11 +591,79 @@ For part (b), placing the third minimum at 85.0° (near grazing angle) requires 
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$0.0150\text{º} $$
-(b) 0.262 mm
 
-(c) This distance is not easily measured by human eye, but under a microscope or
-magnifying glass it is quite easily measurable.
+**Strategy**
+
+For each sodium D-line wavelength, we calculate the angle of the first minimum using $$D \sin \theta = \lambda$$. The angle difference gives us part (a). For part (b), we use geometry to find the separation on the screen using $$y = L \tan \theta$$ or the small angle approximation $$\Delta y \approx L \Delta \theta$$ (with Δθ in radians).
+
+**Solution**
+
+Given:
+- Wavelengths: $$\lambda_1 = 589.1 \text{ nm}$$ and $$\lambda_2 = 589.6 \text{ nm}$$
+- Slit width: $$D = 2.00 \text{ μm} = 2.00 \times 10^{-6} \text{ m}$$
+- Screen distance: $$L = 1.00 \text{ m}$$
+
+**(a) Angle between first minima:**
+
+For the first minimum (m = 1) of each wavelength:
+
+<div class="equation">
+$$\sin \theta_1 = \frac{\lambda_1}{D} = \frac{589.1 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29455$$
+</div>
+
+<div class="equation">
+$$\theta_1 = \arcsin(0.29455) = 17.125°$$
+</div>
+
+<div class="equation">
+$$\sin \theta_2 = \frac{\lambda_2}{D} = \frac{589.6 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29480$$
+</div>
+
+<div class="equation">
+$$\theta_2 = \arcsin(0.29480) = 17.140°$$
+</div>
+
+The angle difference is:
+
+<div class="equation">
+$$\Delta \theta = \theta_2 - \theta_1 = 17.140° - 17.125° = 0.0150°$$
+</div>
+
+**The angle between the first minima is 0.0150°.**
+
+**(b) Distance on screen:**
+
+Converting the angle difference to radians:
+
+<div class="equation">
+$$\Delta \theta_{\text{rad}} = 0.0150° \times \frac{\pi}{180°} = 2.618 \times 10^{-4} \text{ rad}$$
+</div>
+
+For small angle differences, the separation on the screen is approximately:
+
+<div class="equation">
+$$\Delta y = L \Delta \theta_{\text{rad}} = (1.00 \text{ m})(2.618 \times 10^{-4}) = 2.62 \times 10^{-4} \text{ m}$$
+</div>
+
+<div class="equation">
+$$\Delta y = 0.262 \text{ mm}$$
+</div>
+
+**The distance between the minima on the screen is 0.262 mm.**
+
+**(c) Ease of measurement:**
+
+A separation of 0.262 mm (about one-quarter millimeter) is **not easily measured by the naked human eye**, which can typically resolve details down to about 0.1 mm at best under ideal conditions. However, this distance is **quite easily measurable with basic optical aids**:
+- Under a microscope or magnifying glass
+- With a precision ruler or calipers
+- Using digital imaging and analysis software
+- With a traveling microscope used in physics labs
+
+This measurement demonstrates the resolving power of single-slit diffraction. The sodium D-lines differ by only 0.5 nm (less than 0.1% difference), yet single-slit diffraction can spatially separate them sufficiently to be measured with modest equipment. This technique forms the basis of spectroscopy for measuring small wavelength differences.
+
+**Discussion**
+
+The small angular separation (0.0150°) between the two sodium D-lines highlights the challenge of spectral resolution. The wavelength difference is Δλ = 0.5 nm out of λ ≈ 589 nm, giving a fractional difference of about 0.08%. The ability to distinguish these lines depends on having sharp, well-defined minima, which requires coherent, monochromatic light sources. Sodium vapor lamps produce these doublet lines due to the fine structure of sodium's electronic energy levels. This problem demonstrates why high-resolution spectroscopy requires careful optical design and precise measurements.
 
 </div>
 </div>
@@ -502,13 +746,83 @@ For visible light (λ ≈ 500 nm), a slit width of 1000λ = 0.5 mm would produce
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 30.1º $$
-(b)  $$ 48.7º $$
-(c) No
 
-(d) $${2\theta }_{1}=\left(2\right)\left(14.5 ^\circ\right)=29 ^\circ,
-{\theta }_{2}-{\theta }_{1}=30.05\text{º}- 14.5º=15.56\text{º} $$ . Thus, $$29
-\text{º}\approx \left(2\right)\left(15.56\text{º}\right)= 31.1º $$.
+**Strategy**
+
+Given the first minimum angle, we can determine the ratio D/λ. From this, we calculate angles for higher-order minima using $$D \sin \theta_m = m\lambda$$, which can be rewritten as $$\sin \theta_m = m \sin \theta_1$$ since $$D = \lambda/\sin \theta_1$$.
+
+**Solution**
+
+Given:
+- First minimum angle: $$\theta_1 = 14.5°$$
+
+From the first minimum (m = 1):
+<div class="equation">
+$$D \sin \theta_1 = \lambda$$
+</div>
+
+<div class="equation">
+$$\frac{D}{\lambda} = \frac{1}{\sin 14.5°} = \frac{1}{0.2504} = 3.994$$
+</div>
+
+**(a) Second-order minimum (m = 2):**
+
+<div class="equation">
+$$\sin \theta_2 = \frac{2\lambda}{D} = 2 \sin \theta_1 = 2(0.2504) = 0.5008$$
+</div>
+
+<div class="equation">
+$$\theta_2 = \arcsin(0.5008) = 30.1°$$
+</div>
+
+**The second-order minimum occurs at 30.1°.**
+
+**(b) Third-order minimum (m = 3):**
+
+<div class="equation">
+$$\sin \theta_3 = \frac{3\lambda}{D} = 3 \sin \theta_1 = 3(0.2504) = 0.7512$$
+</div>
+
+<div class="equation">
+$$\theta_3 = \arcsin(0.7512) = 48.7°$$
+</div>
+
+**The third-order minimum occurs at 48.7°.**
+
+**(c) Fourth-order minimum (m = 4):**
+
+<div class="equation">
+$$\sin \theta_4 = 4 \sin \theta_1 = 4(0.2504) = 1.002 > 1$$
+</div>
+
+Since $$\sin \theta$$ cannot exceed 1, **there is no fourth-order minimum.**
+
+**(d) Comparison of angular widths:**
+
+The **central maximum** extends from $$-\theta_1$$ to $$+\theta_1$$, so its angular width is:
+<div class="equation">
+$$\text{Width of central maximum} = 2\theta_1 = 2(14.5°) = 29.0°$$
+</div>
+
+The **first secondary maximum** lies between the first and second minima, so its angular width is:
+<div class="equation">
+$$\text{Width of first secondary maximum} = \theta_2 - \theta_1 = 30.1° - 14.5° = 15.6°$$
+</div>
+
+Comparing these:
+<div class="equation">
+$$\frac{2\theta_1}{\theta_2 - \theta_1} = \frac{29.0°}{15.6°} = 1.86 \approx 2$$
+</div>
+
+Alternatively: $$2(\theta_2 - \theta_1) = 2(15.6°) = 31.2° \approx 29.0°$$
+
+This demonstrates that **the central maximum is approximately twice as wide as the first secondary maximum.**
+
+**Discussion**
+
+This 2:1 width ratio is a characteristic feature of single-slit diffraction patterns. The central maximum is both wider and much brighter than any secondary maxima. The theoretical intensity at the central maximum is proportional to $$(D/\lambda)^2$$, while secondary maxima have much lower intensities (roughly 4.5% for the first secondary maximum).
+
+The fact that the slit width D ≈ 4λ means this pattern has exactly three observable minima (m = 1, 2, 3) before reaching the limit at 90°. The progression of angles (14.5°, 30.1°, 48.7°) shows how minima become increasingly spread out at higher orders, a consequence of the nonlinear relationship between θ and m through the sine function.
 
 </div>
 </div>
@@ -531,8 +845,60 @@ harbor most protected against wave action?
 
 </div>
 <div class="solution" markdown="1">
- $$ 23.6º $$
- and  $$ 53.1º $$
+
+**Strategy**
+
+This is a single-slit diffraction problem applied to ocean waves. The harbor opening acts as a slit, and boats are most protected at angles corresponding to diffraction minima, where wave intensity is minimized. We use $$D \sin \theta = m\lambda$$ to find these angles.
+
+**Solution**
+
+Given:
+- Opening width (slit): $$D = 50.0 \text{ m}$$
+- Wavelength: $$\lambda = 20.0 \text{ m}$$
+
+Boats are most protected at the minima of the diffraction pattern:
+
+**First minimum (m = 1):**
+
+<div class="equation">
+$$\sin \theta_1 = \frac{\lambda}{D} = \frac{20.0 \text{ m}}{50.0 \text{ m}} = 0.400$$
+</div>
+
+<div class="equation">
+$$\theta_1 = \arcsin(0.400) = 23.6°$$
+</div>
+
+**Second minimum (m = 2):**
+
+<div class="equation">
+$$\sin \theta_2 = \frac{2\lambda}{D} = \frac{2(20.0 \text{ m})}{50.0 \text{ m}} = 0.800$$
+</div>
+
+<div class="equation">
+$$\theta_2 = \arcsin(0.800) = 53.1°$$
+</div>
+
+**Check for third minimum (m = 3):**
+
+<div class="equation">
+$$\sin \theta_3 = \frac{3\lambda}{D} = \frac{3(20.0)}{50.0} = 1.20 > 1 \text{ (impossible)}$$
+</div>
+
+**Boats inside the harbor are most protected at angles of 23.6° and 53.1° from the incident direction.**
+
+**Discussion**
+
+This problem demonstrates a practical application of wave diffraction. The harbor opening (50.0 m) is 2.5 times the wavelength (20.0 m), creating a clear diffraction pattern. At the minimum angles (23.6° and 53.1°), destructive interference significantly reduces wave amplitude, providing calmer water for moored boats.
+
+The central maximum (0° to 23.6° on each side) experiences strong wave action, as do the secondary maxima between the minima. Therefore, boats should ideally be positioned at 23.6° or 53.1° from the opening's centerline for maximum protection. The lack of a third minimum (which would require sin θ > 1) means there are only two protected zones on each side of the harbor.
+
+This same principle applies to:
+- Sound passing through doorways
+- Light through narrow apertures
+- Radio waves passing around obstacles
+
+The key insight is that diffraction provides natural "quiet zones" at specific angles, and harbor design can exploit this by positioning docks and moorings at these protected angles. For ocean waves with typical wavelengths of 10-30 m, harbor entrances of 25-100 m create significant diffraction effects.
+
 </div>
 </div>
 
