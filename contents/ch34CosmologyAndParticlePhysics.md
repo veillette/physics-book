@@ -483,6 +483,38 @@ Find the approximate mass of the dark and luminous matter in the Milky Way galax
  stars of average mass 1.5 times that of our Sun, and take the dark matter to be 10 times as massive as the luminous matter.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to find the total mass of both luminous and dark matter in the Milky Way galaxy. From the previous problem, we know the mass of luminous matter is $$ 3 \times 10^{41} \text{ kg} $$. The problem states that dark matter is 10 times as massive as the luminous matter, so we can calculate the dark matter mass and then add both components to get the total mass.
+
+**Solution**
+
+From the previous problem, the mass of luminous matter in the Milky Way is:
+<div class="equation">
+$$ m_{\text{luminous}} = 3 \times 10^{41} \text{ kg} $$
+</div>
+
+The mass of dark matter is 10 times the luminous matter:
+<div class="equation">
+$$ m_{\text{dark}} = 10 \times m_{\text{luminous}} = 10 \times 3 \times 10^{41} \text{ kg} = 3 \times 10^{42} \text{ kg} $$
+</div>
+
+The total mass is the sum of luminous and dark matter:
+<div class="equation">
+$$ m_{\text{total}} = m_{\text{luminous}} + m_{\text{dark}} = 3 \times 10^{41} \text{ kg} + 3 \times 10^{42} \text{ kg} $$
+</div>
+
+<div class="equation">
+$$ m_{\text{total}} = 3 \times 10^{41} \text{ kg} + 30 \times 10^{41} \text{ kg} = 33 \times 10^{41} \text{ kg} = 3.3 \times 10^{42} \text{ kg} $$
+</div>
+
+**Discussion**
+
+The total mass of the Milky Way galaxy, including both dark and luminous matter, is approximately **3.3 × 10⁴² kg**. This result reveals a profound truth about our galaxy: the vast majority (about 91%) of its mass is in the form of dark matter, which does not emit light and can only be detected through its gravitational effects. The luminous matter—all the stars, gas, and dust we can observe—represents only about 9% of the total mass. This is consistent with observations of galactic rotation curves, which show that stars far from the galactic center orbit faster than would be expected based on the visible matter alone. The presence of this massive dark matter halo is necessary to explain the observed dynamics of our galaxy and prevent the outer stars from flying off into intergalactic space. This dark matter problem is one of the most significant unsolved mysteries in modern physics, and understanding its nature is crucial for our comprehension of galaxy formation, structure, and evolution throughout the universe.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -505,6 +537,35 @@ Find the approximate mass of the dark and luminous matter in the Milky Way galax
 If a galaxy is 500 Mly away from us, how fast do we expect it to be moving and in what direction?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We can use Hubble's law to determine the recession velocity of a galaxy at a given distance. Hubble's law states that $$ v = H_0 d $$, where $$ v $$ is the recession velocity, $$ H_0 $$ is the Hubble constant, and $$ d $$ is the distance to the galaxy. From the chapter, we know that $$ H_0 = 20 \text{ km/s} \cdot \text{Mly} $$. The direction of motion for distant galaxies is always away from us due to the expansion of the universe.
+
+**Solution**
+
+Using Hubble's law:
+<div class="equation">
+$$ v = H_0 d $$
+</div>
+
+Substituting the given values:
+<div class="equation">
+$$ v = \left(20 \text{ km/s} \cdot \text{Mly}\right) \times 500 \text{ Mly} $$
+</div>
+
+<div class="equation">
+$$ v = 10{,}000 \text{ km/s} = 1.0 \times 10^4 \text{ km/s} $$
+</div>
+
+The galaxy is moving **away from us** at a speed of approximately **10,000 km/s** (or **1.0 × 10⁴ km/s**).
+
+**Discussion**
+
+This velocity of 10,000 km/s is quite substantial—about 3.3% of the speed of light. The fact that the galaxy is moving away from us is not because we are at the center of the universe, but rather because space itself is expanding uniformly in all directions. Every observer in the universe would see distant galaxies receding from them, with velocities proportional to distance. This is a fundamental characteristic of the expanding universe first discovered by Edwin Hubble. The recession velocity we calculated represents the rate at which the space between us and the galaxy is expanding. It's important to note that this is not motion through space in the conventional sense, but rather the expansion of space itself. For a galaxy at 500 Mly, this velocity is well within the regime where Hubble's law gives accurate predictions. For much more distant galaxies (several billion light years away), relativistic corrections become necessary, and the simple linear relationship between distance and velocity begins to break down.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -521,6 +582,42 @@ On average, how far away are galaxies that are moving away from us at 2.0% of th
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Our solar system orbits the center of the Milky Way galaxy. Assuming a circular orbit 30 000 ly in radius and an orbital speed of 250 km/s, how many years does it take for one revolution? Note that this is approximate, assuming constant speed and circular orbit, but it is representative of the time for our system and local stars to make one revolution around the galaxy.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To find the orbital period, we need to calculate the circumference of the circular orbit and divide by the orbital speed. The orbital radius is given in light years (ly), so we'll need to work with consistent units. We can either convert the speed to ly/year or convert the circumference to kilometers. The former approach is more elegant for this problem since it allows us to directly calculate the period in years.
+
+**Solution**
+
+First, let's find the orbital circumference:
+<div class="equation">
+$$ C = 2\pi r = 2\pi \times 30{,}000 \text{ ly} = 188{,}496 \text{ ly} $$
+</div>
+
+Next, we need to convert the orbital speed from km/s to ly/year.
+
+The speed of light is $$ c = 3.00 \times 10^8 \text{ m/s} $$, and one light year is the distance light travels in one year. Therefore:
+<div class="equation">
+$$ \frac{v}{c} = \frac{250 \text{ km/s}}{3.00 \times 10^5 \text{ km/s}} = 8.33 \times 10^{-4} $$
+</div>
+
+This means the orbital speed is $$ 8.33 \times 10^{-4} $$ light years per year.
+
+The orbital period is:
+<div class="equation">
+$$ T = \frac{C}{v} = \frac{188{,}496 \text{ ly}}{8.33 \times 10^{-4} \text{ ly/year}} $$
+</div>
+
+<div class="equation">
+$$ T = 2.26 \times 10^8 \text{ years} = 226 \text{ million years} $$
+</div>
+
+**Discussion**
+
+Our solar system takes approximately **226 million years** to complete one orbit around the center of the Milky Way galaxy. This immense period is often called a "galactic year" or "cosmic year." Since the Sun formed about 4.6 billion years ago, it has completed roughly 20 orbits around the galactic center during its lifetime. This long orbital period reflects the enormous size of our galaxy and the relatively modest orbital speed of the Sun. During one complete orbit, the solar system travels a distance of nearly 190,000 light years—a truly astronomical journey! This orbital motion has important implications for Earth's long-term evolution: as we move through different regions of the galaxy, we may encounter varying densities of interstellar material, different radiation environments, and even spiral arm crossings that could affect the rate of star formation and supernova frequency in our cosmic neighborhood. The last time the Sun was in its current position in the galaxy, dinosaurs had not yet evolved on Earth, illustrating the vast timescales involved in galactic dynamics.
 
 </div>
 </div>
@@ -542,6 +639,45 @@ Our solar system orbits the center of the Milky Way galaxy. Assuming a circular 
  To do this, calculate the time it would take to travel 1 Mly at a constant expansion rate of 20 km/s. (b) If deceleration is taken into account, would the actual age of the universe be greater or less than that found here? Explain.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) The age of the universe can be estimated by calculating the Hubble time, which is the time it would take for two galaxies separated by 1 Mly to reach that separation if they have been moving apart at a constant rate of 20 km/s. This requires converting 1 Mly to kilometers and then calculating the time as distance divided by speed.
+
+(b) We need to consider how the expansion rate has changed over time. If the universe has been decelerating (slowing down), this means it was expanding faster in the past, which would affect our age estimate.
+
+**Solution**
+
+(a) The time to travel 1 Mly at 20 km/s is:
+<div class="equation">
+$$ t = \frac{d}{v} = \frac{1 \text{ Mly}}{20 \text{ km/s}} $$
+</div>
+
+First, convert 1 Mly to kilometers:
+<div class="equation">
+$$ 1 \text{ Mly} = 10^6 \text{ ly} \times 9.46 \times 10^{12} \text{ km/ly} = 9.46 \times 10^{18} \text{ km} $$
+</div>
+
+Now calculate the time:
+<div class="equation">
+$$ t = \frac{9.46 \times 10^{18} \text{ km}}{20 \text{ km/s}} = 4.73 \times 10^{17} \text{ s} $$
+</div>
+
+Converting to years (using $$ 1 \text{ year} = 3.156 \times 10^7 \text{ s} $$):
+<div class="equation">
+$$ t = \frac{4.73 \times 10^{17} \text{ s}}{3.156 \times 10^7 \text{ s/year}} = 1.5 \times 10^{10} \text{ years} = 15 \text{ billion years} $$
+</div>
+
+(b) If deceleration is taken into account, the actual age of the universe would be **less** than the value calculated above.
+
+**Discussion**
+
+(a) Our calculation gives an approximate age of the universe of **15 billion years** (or 1.5 × 10¹⁰ years). This is reasonably close to the currently accepted age of approximately 13.8 billion years, demonstrating that the Hubble constant provides a useful way to estimate the universe's age. This calculation assumes the expansion rate has been constant throughout the universe's history, which is why we call it the "Hubble time."
+
+(b) The reasoning for part (b) is crucial: If the universe has been decelerating (as was long believed due to gravitational attraction between galaxies), this means the expansion was faster in the past. If galaxies were moving apart faster in the earlier universe, they would have reached their current separations in less time than our constant-rate calculation suggests. Think of it this way: if you're currently traveling at 20 km/s but you used to be traveling at 30 km/s and have been slowing down, you would have covered the same distance in less time than if you had been traveling at a constant 20 km/s the entire time. Therefore, accounting for deceleration would give a younger universe than our Hubble time estimate. Interestingly, recent observations suggest the universe's expansion may actually be accelerating (not decelerating), which is attributed to dark energy. If acceleration is occurring, the actual age would be greater than our estimate, since the universe was expanding more slowly in the past. This shows how the dynamics of cosmic expansion directly affect our understanding of the universe's age and evolution.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -558,7 +694,58 @@ Assuming a circular orbit for the Sun about the center of the Milky Way galaxy, 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) What is the approximate force of gravity on a 70-kg person due to the Andromeda galaxy, assuming its total mass is  $$ 10^{13} $$
- that of our Sun and acts like a single mass 2 Mly away? (b) What is the ratio of this force to the person’s weight? Note that Andromeda is the closest large galaxy.
+ that of our Sun and acts like a single mass 2 Mly away? (b) What is the ratio of this force to the person's weight? Note that Andromeda is the closest large galaxy.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) We can use Newton's law of universal gravitation to calculate the gravitational force between the person and the Andromeda galaxy. We'll need to convert the galaxy's mass (given in solar masses) to kilograms and the distance (given in Mly) to meters.
+
+(b) To find the ratio, we'll divide the gravitational force from Andromeda by the person's weight on Earth (which is the gravitational force due to Earth).
+
+**Solution**
+
+(a) Newton's law of universal gravitation is:
+<div class="equation">
+$$ F = \frac{GMm}{r^2} $$
+</div>
+
+where $$ G = 6.67 \times 10^{-11} \text{ N·m}^2\text{/kg}^2 $$, $$ M $$ is the mass of Andromeda, $$ m = 70 \text{ kg} $$ is the person's mass, and $$ r $$ is the distance.
+
+The mass of Andromeda:
+<div class="equation">
+$$ M = 10^{13} \times M_{\text{Sun}} = 10^{13} \times 2.0 \times 10^{30} \text{ kg} = 2.0 \times 10^{43} \text{ kg} $$
+</div>
+
+The distance in meters:
+<div class="equation">
+$$ r = 2 \text{ Mly} = 2 \times 10^6 \text{ ly} \times 9.46 \times 10^{15} \text{ m/ly} = 1.892 \times 10^{22} \text{ m} $$
+</div>
+
+Substituting into Newton's law:
+<div class="equation">
+$$ F = \frac{(6.67 \times 10^{-11})(2.0 \times 10^{43})(70)}{(1.892 \times 10^{22})^2} $$
+</div>
+
+<div class="equation">
+$$ F = \frac{9.34 \times 10^{34}}{3.58 \times 10^{44}} = 2.6 \times 10^{-10} \text{ N} $$
+</div>
+
+(b) The person's weight on Earth is:
+<div class="equation">
+$$ W = mg = 70 \text{ kg} \times 9.8 \text{ m/s}^2 = 686 \text{ N} $$
+</div>
+
+The ratio is:
+<div class="equation">
+$$ \frac{F}{W} = \frac{2.6 \times 10^{-10} \text{ N}}{686 \text{ N}} = 3.8 \times 10^{-13} $$
+</div>
+
+**Discussion**
+
+The gravitational force exerted by the entire Andromeda galaxy on a person is extraordinarily small: only **2.6 × 10⁻¹⁰ N**. To put this in perspective, this is about the weight of a single bacterium! The ratio of this force to the person's weight is **3.8 × 10⁻¹³**, meaning Andromeda's gravitational pull is less than a trillionth of Earth's pull on the same person. This demonstrates a fundamental principle: while gravity has infinite range and never goes to zero, it becomes vanishingly weak over astronomical distances due to the inverse square law. Even though Andromeda contains hundreds of billions of stars and has a total mass 10 trillion times that of our Sun, its enormous distance (2 million light years) makes its gravitational effect on us utterly negligible. This is why we don't feel the gravitational pull of distant galaxies in our daily lives, and why the universe's expansion can overcome gravity on the largest scales. The calculation also shows that local gravitational effects (from Earth, the Sun, and even our own galaxy) completely dominate over the pull from external galaxies. This is reassuring—if Andromeda's gravity were significant, we'd be in serious trouble, as it's on a collision course with the Milky Way (though that collision won't happen for about 4 billion years)!
 
 </div>
 </div>
@@ -583,6 +770,45 @@ Andromeda galaxy is the closest large galaxy and is visible to the naked eye. Es
 -ray energy you would look for if searching for evidence of proton-antiproton annihilation? (The fact that such radiation is rarely observed is evidence that there is very little antimatter in the universe.) (b) How does this compare with the 0.511-MeV energy associated with electron-positron annihilation?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) When a particle and antiparticle at rest annihilate, conservation of energy and momentum requires that two photons of equal energy be produced (moving in opposite directions to conserve momentum). The total energy available is the sum of the rest mass energies of both particles. For a proton-antiproton pair, each has a rest mass energy of approximately 938 MeV, so the total is divided equally between the two photons.
+
+(b) We'll compare the proton-antiproton annihilation energy per photon with the electron-positron annihilation energy per photon (0.511 MeV).
+
+**Solution**
+
+(a) The rest mass energy of a proton is:
+<div class="equation">
+$$ E_p = m_p c^2 = 938.3 \text{ MeV} $$
+</div>
+
+When a proton and antiproton annihilate at rest, the total energy is:
+<div class="equation">
+$$ E_{\text{total}} = 2m_p c^2 = 2 \times 938.3 \text{ MeV} = 1877 \text{ MeV} $$
+</div>
+
+This energy is shared equally between two photons, so each photon has energy:
+<div class="equation">
+$$ E_\gamma = \frac{E_{\text{total}}}{2} = \frac{1877 \text{ MeV}}{2} = 938 \text{ MeV} $$
+</div>
+
+(b) The ratio of the proton-antiproton annihilation photon energy to the electron-positron annihilation photon energy is:
+<div class="equation">
+$$ \frac{E_{\gamma}(\text{p-}\bar{\text{p}})}{E_{\gamma}(\text{e}^+-\text{e}^-)} = \frac{938 \text{ MeV}}{0.511 \text{ MeV}} = 1836 $$
+</div>
+
+The proton-antiproton annihilation produces photons with **1836 times** more energy than electron-positron annihilation.
+
+**Discussion**
+
+We would look for **938-MeV gamma rays** as evidence of proton-antiproton annihilation. This is a very specific signature—gamma rays of this energy would be a clear indicator of matter-antimatter annihilation involving baryons. The fact that we don't observe significant amounts of 938-MeV gamma radiation from space provides strong evidence that the universe is dominated by matter, not antimatter. If there were substantial amounts of antimatter in the form of anti-galaxies or anti-stars, we would expect to see annihilation radiation at the boundaries where matter and antimatter regions meet.
+
+The comparison with electron-positron annihilation is revealing: the energy ratio of 1836 is exactly the mass ratio of the proton to the electron. This makes perfect sense from Einstein's mass-energy relation $$ E = mc^2 $$—the annihilation energy is directly proportional to the particle mass. The 0.511-MeV photons from electron-positron annihilation are relatively common in certain astrophysical environments and can be detected by gamma-ray telescopes. The 938-MeV photons from proton-antiproton annihilation would be even more energetic and equally detectable if they existed in significant quantities. The rarity of such observations confirms that the matter-antimatter asymmetry in the universe is profound: essentially all of the universe we can observe is made of ordinary matter, with antimatter being produced only briefly in high-energy collisions or certain radioactive decays before quickly annihilating with the abundant matter around it.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -602,7 +828,65 @@ The average particle energy needed to observe unification of forces is estimated
 <div class="problem" markdown="1">
 The peak intensity of the CMBR occurs at a wavelength of 1.1 mm. (a) What is the energy in eV of a 1.1-mm photon? (b) There are approximately  $$10^{9} $$
  photons for each massive particle in deep space. Calculate the energy of  $$10^{9} $$
- such photons. (c) If the average massive particle in space has a mass half that of a proton, what energy would be created by converting its mass to energy? (d) Does this imply that space is “matter dominated”? Explain briefly.
+ such photons. (c) If the average massive particle in space has a mass half that of a proton, what energy would be created by converting its mass to energy? (d) Does this imply that space is "matter dominated"? Explain briefly.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) We'll use the photon energy formula $$ E = hf = hc/\lambda $$ to find the energy of a 1.1-mm photon, then convert from joules to electron volts.
+
+(b) We'll multiply the single-photon energy by $$ 10^9 $$ to find the total photon energy per massive particle.
+
+(c) We'll use Einstein's mass-energy relation $$ E = mc^2 $$ with half the proton mass.
+
+(d) We'll compare the energy densities from parts (b) and (c) to determine which dominates.
+
+**Solution**
+
+(a) The energy of a photon is:
+<div class="equation">
+$$ E = \frac{hc}{\lambda} $$
+</div>
+
+where $$ h = 6.626 \times 10^{-34} \text{ J·s} $$, $$ c = 3.00 \times 10^8 \text{ m/s} $$, and $$ \lambda = 1.1 \text{ mm} = 1.1 \times 10^{-3} \text{ m} $$.
+
+<div class="equation">
+$$ E = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{1.1 \times 10^{-3}} = 1.81 \times 10^{-22} \text{ J} $$
+</div>
+
+Converting to eV (using $$ 1 \text{ eV} = 1.60 \times 10^{-19} \text{ J} $$):
+<div class="equation">
+$$ E = \frac{1.81 \times 10^{-22} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 1.13 \times 10^{-3} \text{ eV} = 0.00113 \text{ eV} $$
+</div>
+
+(b) The energy of $$ 10^9 $$ such photons:
+<div class="equation">
+$$ E_{\text{photons}} = 10^9 \times 1.13 \times 10^{-3} \text{ eV} = 1.13 \times 10^6 \text{ eV} = 1.13 \text{ MeV} $$
+</div>
+
+(c) The rest mass energy of a particle with half the proton mass:
+<div class="equation">
+$$ E = mc^2 = \frac{1}{2} m_p c^2 = \frac{1}{2} \times 938.3 \text{ MeV} = 469 \text{ MeV} $$
+</div>
+
+(d) Comparing the energies:
+<div class="equation">
+$$ \frac{E_{\text{matter}}}{E_{\text{radiation}}} = \frac{469 \text{ MeV}}{1.13 \text{ MeV}} \approx 415 $$
+</div>
+
+Yes, this implies that space is **"matter dominated"** because the energy density in matter is about 415 times greater than the energy density in radiation.
+
+**Discussion**
+
+(a) The CMBR photons are very low energy: only **0.00113 eV** (or 1.13 meV). This is characteristic of microwave radiation from a blackbody at 2.7 K, confirming that the primordial fireball has cooled dramatically since the Big Bang.
+
+(b) Even though there are a billion photons for each massive particle, their combined energy is only **1.13 MeV** due to their individual low energies. This demonstrates that while photons vastly outnumber massive particles in the universe, their total energy contribution is limited by their low individual energies.
+
+(c) A single particle with half the proton's mass has a rest energy of **469 MeV**, which is much larger than the combined energy of a billion CMBR photons.
+
+(d) The universe today is indeed **matter-dominated**: the energy density in matter exceeds that in radiation by a factor of about 400. However, this wasn't always the case! In the early universe, when temperatures were much higher, photons had much more energy, and radiation dominated. The transition from radiation-dominated to matter-dominated occurred about 50,000 years after the Big Bang, when the universe had cooled sufficiently that the energy density in matter began to exceed that in radiation. This transition is a crucial epoch in cosmology because it affects how structure formation proceeded. The fact that we live in a matter-dominated era means that gravity acting on matter (both ordinary and dark) is the primary driver of cosmic structure, allowing galaxies, stars, and planets to form. Interestingly, even though matter dominates over radiation today, recent evidence suggests that dark energy now dominates over matter, making our current era "dark energy dominated."
 
 </div>
 </div>
@@ -626,6 +910,61 @@ The peak intensity of the CMBR occurs at a wavelength of 1.1 mm. (a) What is the
 Show that the velocity of a star orbiting its galaxy in a circular orbit is inversely proportional to the square root of its orbital radius, assuming the mass of the stars inside its orbit acts like a single mass at the center of the galaxy. You may use an equation from a previous chapter to support your conclusion, but you must justify its use and define all terms used.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a star in a circular orbit around the galactic center, the gravitational force provides the centripetal force needed to maintain the circular motion. We'll equate these two forces and solve for the orbital velocity. By examining how velocity depends on radius, we can demonstrate the inverse square root relationship.
+
+**Solution**
+
+Consider a star of mass $$ m $$ orbiting at radius $$ r $$ from the galactic center with orbital speed $$ v $$. Let $$ M $$ be the total mass of all stars within the orbit, which we treat as concentrated at the galactic center.
+
+The gravitational force on the star is given by Newton's law of universal gravitation:
+<div class="equation">
+$$ F_{\text{grav}} = \frac{GMm}{r^2} $$
+</div>
+
+where $$ G = 6.67 \times 10^{-11} \text{ N·m}^2\text{/kg}^2 $$ is the gravitational constant.
+
+For circular motion, the required centripetal force is:
+<div class="equation">
+$$ F_{\text{cent}} = \frac{mv^2}{r} $$
+</div>
+
+This equation comes from Newton's second law applied to circular motion, where the centripetal acceleration is $$ a_c = v^2/r $$.
+
+Setting the gravitational force equal to the centripetal force:
+<div class="equation">
+$$ \frac{GMm}{r^2} = \frac{mv^2}{r} $$
+</div>
+
+Canceling $$ m $$ from both sides and multiplying both sides by $$ r $$:
+<div class="equation">
+$$ \frac{GM}{r} = v^2 $$
+</div>
+
+Solving for $$ v $$:
+<div class="equation">
+$$ v = \sqrt{\frac{GM}{r}} = \sqrt{GM} \cdot \frac{1}{\sqrt{r}} $$
+</div>
+
+This can be written as:
+<div class="equation">
+$$ v = \frac{k}{\sqrt{r}} $$
+</div>
+
+where $$ k = \sqrt{GM} $$ is a constant (assuming $$ M $$ is constant).
+
+Therefore, **the orbital velocity is inversely proportional to the square root of the orbital radius**: $$ v \propto r^{-1/2} $$ or $$ v \propto 1/\sqrt{r} $$.
+
+**Discussion**
+
+This derivation shows that for a star orbiting a galaxy, if all the mass interior to the orbit can be treated as concentrated at the center, then the orbital velocity should decrease as we move farther from the galactic center, following a $$ 1/\sqrt{r} $$ relationship. This is exactly analogous to planetary motion in our solar system, where planets farther from the Sun orbit more slowly according to Kepler's laws.
+
+However, this prediction is **not** what astronomers observe when they measure galactic rotation curves! Actual observations show that the orbital velocities of stars remain roughly constant (or even slightly increase) at large radii, rather than decreasing as $$ 1/\sqrt{r} $$. This discrepancy is one of the strongest pieces of evidence for dark matter. The flat rotation curves can be explained if there is a massive dark matter halo surrounding the galaxy, such that the mass $$ M $$ enclosed within radius $$ r $$ continues to increase with radius, rather than remaining constant. If $$ M \propto r $$, then $$ v = \sqrt{GM/r} \propto \sqrt{r/r} = \text{constant} $$, which matches observations. The study of galactic rotation curves has therefore revealed that galaxies contain far more mass than can be accounted for by visible stars, gas, and dust—this additional mass is the mysterious dark matter that makes up about 85% of the total matter in the universe.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -642,7 +981,60 @@ The core of a star collapses during a supernova, forming a neutron star. Angular
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Using data from the previous problem, find the increase in rotational kinetic energy, given the core’s mass is 1.3 times that of our Sun. Where does this increase in kinetic energy come from?
+Using data from the previous problem, find the increase in rotational kinetic energy, given the core's mass is 1.3 times that of our Sun. Where does this increase in kinetic energy come from?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We need to calculate the rotational kinetic energy before and after the collapse using $$ KE_{\text{rot}} = \frac{1}{2}I\omega^2 $$, where the moment of inertia for a sphere is $$ I = \frac{2}{5}MR^2 $$. From the previous problem, we know the initial and final radii and angular velocities. The increase in kinetic energy comes from gravitational potential energy released during the collapse.
+
+**Solution**
+
+From the previous problem:
+- Initial radius: $$ R_i = 5.0 \times 10^5 \text{ km} = 5.0 \times 10^8 \text{ m} $$
+- Final radius: $$ R_f = 10.0 \text{ km} = 1.0 \times 10^4 \text{ m} $$
+- Initial angular velocity: $$ \omega_i = \frac{1 \text{ rev}}{30.0 \text{ days}} = \frac{2\pi}{30.0 \times 24 \times 3600} = 2.42 \times 10^{-6} \text{ rad/s} $$
+- Final angular velocity: $$ \omega_f = 960 \text{ rev/s} = 960 \times 2\pi = 6030 \text{ rad/s} $$
+- Mass: $$ M = 1.3 M_{\text{Sun}} = 1.3 \times 2.0 \times 10^{30} \text{ kg} = 2.6 \times 10^{30} \text{ kg} $$
+
+Initial moment of inertia:
+<div class="equation">
+$$ I_i = \frac{2}{5}MR_i^2 = \frac{2}{5}(2.6 \times 10^{30})(5.0 \times 10^8)^2 = 2.6 \times 10^{47} \text{ kg·m}^2 $$
+</div>
+
+Initial rotational kinetic energy:
+<div class="equation">
+$$ KE_i = \frac{1}{2}I_i\omega_i^2 = \frac{1}{2}(2.6 \times 10^{47})(2.42 \times 10^{-6})^2 = 7.6 \times 10^{35} \text{ J} $$
+</div>
+
+Final moment of inertia:
+<div class="equation">
+$$ I_f = \frac{2}{5}MR_f^2 = \frac{2}{5}(2.6 \times 10^{30})(1.0 \times 10^4)^2 = 1.04 \times 10^{38} \text{ kg·m}^2 $$
+</div>
+
+Final rotational kinetic energy:
+<div class="equation">
+$$ KE_f = \frac{1}{2}I_f\omega_f^2 = \frac{1}{2}(1.04 \times 10^{38})(6030)^2 = 1.9 \times 10^{45} \text{ J} $$
+</div>
+
+Increase in rotational kinetic energy:
+<div class="equation">
+$$ \Delta KE = KE_f - KE_i = 1.9 \times 10^{45} - 7.6 \times 10^{35} \approx 1.9 \times 10^{45} \text{ J} $$
+</div>
+
+(Note that $$ KE_i $$ is negligible compared to $$ KE_f $$.)
+
+**Where does this energy come from?** This enormous increase in rotational kinetic energy comes from **gravitational potential energy** released during the collapse of the core.
+
+**Discussion**
+
+The increase in rotational kinetic energy is approximately **1.9 × 10⁴⁵ J**, which is an absolutely staggering amount of energy. To put this in perspective, this is about 100,000 times the energy our Sun will radiate over its entire 10-billion-year lifetime! The initial rotational kinetic energy (7.6 × 10³⁵ J) is completely negligible compared to the final value, demonstrating the dramatic acceleration that occurs during collapse.
+
+This energy comes from gravitational potential energy released as the core contracts. When a star's core collapses during a supernova, it falls inward under its own gravity, releasing enormous amounts of gravitational potential energy. Most of this energy (about 99%) is actually carried away by neutrinos, but some goes into the kinetic energy of the explosion, heating the surrounding material, and—as we see here—into rotational kinetic energy. Because angular momentum is conserved during the collapse ($$ L = I\omega = \text{constant} $$), as the moment of inertia decreases by a factor of about $$ 10^9 $$ (due to the radius shrinking by a factor of 50,000), the angular velocity must increase by the same factor. This results in the spectacular increase in rotational kinetic energy we calculated.
+
+Neutron stars are among the fastest-rotating objects in the universe, and pulsars (rotating neutron stars that emit beams of radiation) can spin hundreds of times per second, as in this problem. The regular pulses we detect from pulsars are like cosmic lighthouses, and they are among the most precise clocks in nature. Some millisecond pulsars are even more stable than atomic clocks over certain time scales!
 
 </div>
 </div>
@@ -668,6 +1060,59 @@ Distances to the nearest stars (up to 500 ly away) can be measured by a techniqu
  unification-of-forces energy and discuss why they are similar.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) The Heisenberg uncertainty principle relating energy and time states that $$ \Delta E \Delta t \geq \hbar/2 $$, where $$ \hbar = h/(2\pi) $$ is the reduced Planck constant. We can rearrange this to find the minimum energy uncertainty for a given time interval.
+
+(b) We'll compare our calculated energy with the unification energy and explain the physical significance of the time interval $$ 10^{-43} \text{ s} $$, which is the Planck time.
+
+**Solution**
+
+(a) The Heisenberg uncertainty principle for energy and time is:
+<div class="equation">
+$$ \Delta E \Delta t \geq \frac{\hbar}{2} $$
+</div>
+
+where $$ \hbar = \frac{h}{2\pi} = \frac{6.626 \times 10^{-34}}{2\pi} = 1.055 \times 10^{-34} \text{ J·s} $$.
+
+For the minimum uncertainty:
+<div class="equation">
+$$ \Delta E = \frac{\hbar}{2\Delta t} = \frac{1.055 \times 10^{-34} \text{ J·s}}{2 \times 10^{-43} \text{ s}} = 5.28 \times 10^{8} \text{ J} $$
+</div>
+
+Converting to GeV (using $$ 1 \text{ GeV} = 1.60 \times 10^{-10} \text{ J} $$):
+<div class="equation">
+$$ \Delta E = \frac{5.28 \times 10^{8} \text{ J}}{1.60 \times 10^{-10} \text{ J/GeV}} = 3.3 \times 10^{18} \text{ GeV} $$
+</div>
+
+(b) Comparing with the unification energy:
+<div class="equation">
+$$ \frac{\Delta E}{E_{\text{unification}}} = \frac{3.3 \times 10^{18} \text{ GeV}}{10^{19} \text{ GeV}} \approx 0.3 $$
+</div>
+
+The calculated energy uncertainty is **of the same order of magnitude** as the unification-of-forces energy (within a factor of 3).
+
+**Discussion**
+
+The remarkable similarity between these two energies is not a coincidence—it reveals a profound connection between quantum mechanics, gravity, and the fundamental structure of spacetime. The time interval $$ 10^{-43} \text{ s} $$ is known as the **Planck time**, the fundamental quantum timescale below which our current understanding of physics breaks down. It is defined as:
+
+<div class="equation">
+$$ t_{\text{Planck}} = \sqrt{\frac{\hbar G}{c^5}} \approx 5.4 \times 10^{-44} \text{ s} $$
+</div>
+
+At this timescale, quantum fluctuations in spacetime itself become significant, and a complete theory of quantum gravity (Theory of Everything) would be needed to describe physics. The corresponding energy scale, called the **Planck energy**, is:
+
+<div class="equation">
+$$ E_{\text{Planck}} = \sqrt{\frac{\hbar c^5}{G}} \approx 1.2 \times 10^{19} \text{ GeV} $$
+</div>
+
+This is exactly the energy scale at which all four fundamental forces (electromagnetic, weak, strong, and gravitational) are expected to unify into a single superforce! The Heisenberg uncertainty principle provides the bridge: for processes occurring on the Planck timescale, the energy uncertainty is necessarily on the order of the Planck energy.
+
+This connection tells us that the TOE epoch immediately after the Big Bang (before $$ 10^{-43} \text{ s} $$) was governed by physics at the Planck scale, where spacetime itself was subject to violent quantum fluctuations. At these energies and timescales, the distinctions between forces disappear, and the universe was truly unified. The fact that these fundamental scales emerge from combining the constants of quantum mechanics ($$ \hbar $$), gravity ($$ G $$), and relativity ($$ c $$) suggests that a complete theory of nature must incorporate all three domains—which is exactly what physicists are striving to achieve with theories like string theory and loop quantum gravity.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -679,8 +1124,64 @@ problem in which you calculate the mass of that galaxy in kg and in multiples of
 the solar mass based on the velocity of the star and its distance from the
 center of the galaxy.
 
-![The figure shows a conical shape with a star at the vertex, the Sun at the center of the circular base, and the Earth revolving around the Sun along the perimeter of the base. The star is 4 light years above the Earth-Sun plane. When the Earth is to the far left of the Sun, the angle between the line segment from the Earth to the Sun and the line segment from the Earth to the star is called theta one. When the Earth is in the diametrically opposite position (that is, the far right position) the angle between the same two lines is labeled theta two. ](../resources/Figure_34_01_09.jpg 'Distances to nearby stars are measured using triangulation, also called the parallax method. The angle of line of sight to the star is measured at intervals six months apart, and the distance is calculated by using the known diameter of the Earth’s orbit. This can be done for stars up to about 500 ly away. ')
+![The figure shows a conical shape with a star at the vertex, the Sun at the center of the circular base, and the Earth revolving around the Sun along the perimeter of the base. The star is 4 light years above the Earth-Sun plane. When the Earth is to the far left of the Sun, the angle between the line segment from the Earth to the Sun and the line segment from the Earth to the star is called theta one. When the Earth is in the diametrically opposite position (that is, the far right position) the angle between the same two lines is labeled theta two. ](../resources/Figure_34_01_09.jpg 'Distances to nearby stars are measured using triangulation, also called the parallax method. The angle of line of sight to the star is measured at intervals six months apart, and the distance is calculated by using the known diameter of the Earth's orbit. This can be done for stars up to about 500 ly away. ')
 {: #Figure9}
+
+</div>
+<div class="solution" markdown="1">
+
+**Sample Problem**
+
+Astronomers observe a star in a circular orbit at the outer edge of a spiral galaxy. Spectroscopic measurements reveal that the star is moving at a velocity of 220 km/s, and its distance from the galactic center is measured to be 50,000 light years. Calculate the mass of the galaxy (a) in kilograms, and (b) in multiples of the solar mass. Assume all the galaxy's mass is contained within the star's orbit and acts as if concentrated at the galactic center.
+
+**Strategy**
+
+For a star in circular orbit, the gravitational force provides the centripetal force. Setting these equal gives us $$ GMm/r^2 = mv^2/r $$, which simplifies to $$ M = v^2r/G $$. We need to convert the distance to meters, calculate the mass in kilograms, then convert to solar masses.
+
+**Solution**
+
+Given information:
+- Orbital velocity: $$ v = 220 \text{ km/s} = 2.20 \times 10^5 \text{ m/s} $$
+- Orbital radius: $$ r = 50{,}000 \text{ ly} $$
+
+Convert the radius to meters:
+<div class="equation">
+$$ r = 50{,}000 \text{ ly} \times 9.46 \times 10^{15} \text{ m/ly} = 4.73 \times 10^{20} \text{ m} $$
+</div>
+
+From the condition that gravitational force equals centripetal force:
+<div class="equation">
+$$ \frac{GMm}{r^2} = \frac{mv^2}{r} $$
+</div>
+
+Solving for the galactic mass $$ M $$:
+<div class="equation">
+$$ M = \frac{v^2 r}{G} $$
+</div>
+
+(a) Substituting values (with $$ G = 6.67 \times 10^{-11} \text{ N·m}^2\text{/kg}^2 $$):
+<div class="equation">
+$$ M = \frac{(2.20 \times 10^5)^2 \times 4.73 \times 10^{20}}{6.67 \times 10^{-11}} $$
+</div>
+
+<div class="equation">
+$$ M = \frac{4.84 \times 10^{10} \times 4.73 \times 10^{20}}{6.67 \times 10^{-11}} = \frac{2.29 \times 10^{31}}{6.67 \times 10^{-11}} = 3.4 \times 10^{41} \text{ kg} $$
+</div>
+
+(b) Converting to solar masses (using $$ M_{\text{Sun}} = 2.0 \times 10^{30} \text{ kg} $$):
+<div class="equation">
+$$ M = \frac{3.4 \times 10^{41} \text{ kg}}{2.0 \times 10^{30} \text{ kg}} = 1.7 \times 10^{11} M_{\text{Sun}} $$
+</div>
+
+**Answer:** The mass of the galaxy is **(a) 3.4 × 10⁴¹ kg** and **(b) 1.7 × 10¹¹ solar masses** (or 170 billion solar masses).
+
+**Discussion**
+
+This problem demonstrates how astronomers determine galactic masses using orbital dynamics. The calculated mass of 170 billion solar masses is typical for a large spiral galaxy like the Milky Way. This method, based on Newtonian mechanics, is remarkably powerful—it allows us to "weigh" entire galaxies from Earth by observing the motion of stars or gas clouds at their edges.
+
+However, this calculation reveals only the mass within the star's orbit. Additional mass may exist beyond this radius, which is why astronomers study rotation curves at various distances to build up a complete picture of a galaxy's mass distribution. When this analysis is performed for most galaxies, a surprising result emerges: the orbital velocities of stars remain nearly constant (or even increase slightly) at large radii, rather than decreasing as expected from the visible matter distribution. This observation, first made by astronomer Vera Rubin in the 1970s, provided some of the strongest evidence for dark matter—invisible matter that extends far beyond the visible edges of galaxies in massive halos.
+
+Students constructing their own version of this problem should choose reasonable values: orbital velocities typically range from 150-300 km/s for spiral galaxies, and orbital radii from 10,000 to 100,000 light years. The resulting masses should be on the order of 10¹⁰ to 10¹² solar masses for typical galaxies. This exercise reinforces the connection between observable kinematics and invisible mass—a fundamental technique in modern astrophysics.
 
 </div>
 </div>
