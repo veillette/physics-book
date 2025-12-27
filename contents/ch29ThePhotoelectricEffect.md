@@ -305,6 +305,39 @@ What is the longest-wavelength EM radiation that can eject a photoelectron from 
 Find the longest-wavelength photon that can eject an electron from potassium, given that the binding energy is 2.24 eV. Is this visible EM radiation?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The longest wavelength corresponds to the minimum photon energy needed to eject an electron, which equals the binding energy. We use $$E = hf = \frac{hc}{\lambda}$$ with $$E = \text{BE}$$.
+
+**Solution**
+
+At the threshold for photoemission, the photon energy equals the binding energy:
+
+<div class="equation">
+ $$\text{BE} = \frac{hc}{\lambda}$$
+</div>
+
+Solving for wavelength:
+
+<div class="equation">
+ $$\lambda = \frac{hc}{\text{BE}}$$
+</div>
+
+Using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$\lambda = \frac{1240 \text{ eV·nm}}{2.24 \text{ eV}} = 554 \text{ nm}$$
+</div>
+
+**Discussion**
+
+This wavelength of 554 nm is in the visible range, specifically in the green-yellow part of the spectrum. Visible light ranges from approximately 380 nm (violet) to 760 nm (red), so this threshold wavelength is indeed visible. Photons with wavelengths shorter than 554 nm (higher energy) can eject electrons from potassium, while longer wavelengths cannot. This makes potassium useful in photoelectric devices sensitive to visible light.
+
+554 nm, yes this is visible (green-yellow light)
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -321,6 +354,33 @@ What is the binding energy in eV of electrons in magnesium, if the longest-wavel
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Calculate the binding energy in eV of electrons in aluminum, if the longest-wavelength photon that can eject them is 304 nm.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The longest wavelength that can eject electrons corresponds to photons with energy equal to the binding energy. We use $$\text{BE} = hf = \frac{hc}{\lambda}$$.
+
+**Solution**
+
+The binding energy equals the photon energy at threshold:
+
+<div class="equation">
+ $$\text{BE} = \frac{hc}{\lambda}$$
+</div>
+
+Using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$\text{BE} = \frac{1240 \text{ eV·nm}}{304 \text{ nm}} = 4.08 \text{ eV}$$
+</div>
+
+**Discussion**
+
+Aluminum has a binding energy of 4.08 eV, which is higher than that of potassium (2.24 eV) and sodium (2.28 eV) but lower than silver (4.73 eV). The threshold wavelength of 304 nm is in the ultraviolet range, just below the visible spectrum. This means aluminum surfaces require UV light or shorter wavelengths to exhibit the photoelectric effect, making aluminum less sensitive than alkali metals for visible-light photoelectric applications.
+
+4.08 eV
 
 </div>
 </div>
@@ -341,6 +401,33 @@ What is the maximum kinetic energy in eV of electrons ejected from sodium metal 
 UV radiation having a wavelength of 120 nm falls on gold metal, to which electrons are bound by 4.82 eV. What is the maximum kinetic energy of the ejected photoelectrons?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the photoelectric equation $${\text{KE}}_e = hf - \text{BE}$$, where the photon energy is $$hf = \frac{hc}{\lambda}$$. The maximum kinetic energy is the photon energy minus the binding energy.
+
+**Solution**
+
+First, calculate the photon energy using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{120 \text{ nm}} = 10.33 \text{ eV}$$
+</div>
+
+Now apply the photoelectric equation:
+
+<div class="equation">
+ $${\text{KE}}_e = E_{\text{photon}} - \text{BE} = 10.33 \text{ eV} - 4.82 \text{ eV} = 5.51 \text{ eV}$$
+</div>
+
+**Discussion**
+
+The UV photon has sufficient energy (10.33 eV) to overcome the binding energy of gold (4.82 eV) and still impart 5.51 eV of kinetic energy to the ejected electron. This is a relatively high kinetic energy for a photoelectron, more than twice the binding energy. Such energetic photoelectrons could travel significant distances in a vacuum before being stopped. Gold's relatively high binding energy makes it less suitable for visible-light photoelectric applications but useful for UV detection.
+
+5.51 eV
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -357,6 +444,33 @@ Violet light of wavelength 400 nm ejects electrons with a maximum kinetic energy
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 UV radiation having a 300-nm wavelength falls on uranium metal, ejecting 0.500-eV electrons. What is the binding energy of electrons to uranium metal?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use the photoelectric equation $${\text{KE}}_e = hf - \text{BE}$$ and solve for the binding energy. First calculate the photon energy, then use the given kinetic energy to find BE.
+
+**Solution**
+
+Calculate the photon energy using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{300 \text{ nm}} = 4.13 \text{ eV}$$
+</div>
+
+Rearrange the photoelectric equation to solve for binding energy:
+
+<div class="equation">
+ $$\text{BE} = E_{\text{photon}} - {\text{KE}}_e = 4.13 \text{ eV} - 0.500 \text{ eV} = 3.63 \text{ eV}$$
+</div>
+
+**Discussion**
+
+Uranium metal has a binding energy of 3.63 eV for its outermost electrons. This value is intermediate between the alkali metals (around 2-2.3 eV) and more tightly bound metals like silver (4.73 eV). The 300-nm UV photon provides 4.13 eV of energy, which is sufficient to overcome the binding and give the electron 0.500 eV of kinetic energy. This binding energy indicates uranium requires UV radiation for photoelectric emission, as visible light photons lack sufficient energy.
+
+3.63 eV
 
 </div>
 </div>
@@ -379,6 +493,33 @@ What is the wavelength of EM radiation that ejects 2.00-eV electrons from calciu
 Find the wavelength of photons that eject 0.100-eV electrons from potassium, given that the binding energy is 2.24 eV. Are these photons visible?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The photon energy must equal the sum of binding energy and kinetic energy: $$E_{\text{photon}} = \text{BE} + {\text{KE}}_e$$. We then use $$\lambda = \frac{hc}{E_{\text{photon}}}$$ to find the wavelength.
+
+**Solution**
+
+The total photon energy needed is:
+
+<div class="equation">
+ $$E_{\text{photon}} = \text{BE} + {\text{KE}}_e = 2.24 \text{ eV} + 0.100 \text{ eV} = 2.34 \text{ eV}$$
+</div>
+
+Now find the wavelength using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$\lambda = \frac{hc}{E_{\text{photon}}} = \frac{1240 \text{ eV·nm}}{2.34 \text{ eV}} = 530 \text{ nm}$$
+</div>
+
+**Discussion**
+
+These photons have a wavelength of 530 nm, which is in the visible spectrum—specifically, green light. The visible spectrum ranges from about 380 nm (violet) to 760 nm (red), so 530 nm falls well within this range. Photons of this wavelength can eject electrons from potassium with a small kinetic energy of 0.100 eV, demonstrating that potassium is sensitive to visible light and is useful for photoelectric applications with visible radiation.
+
+530 nm, yes these photons are visible (green light)
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -394,6 +535,51 @@ What is the maximum velocity of electrons ejected from a material by 80-nm photo
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Photoelectrons from a material with a binding energy of 2.71 eV are ejected by 420-nm photons. Once ejected, how long does it take these electrons to travel 2.50 cm to a detection device?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+First, find the kinetic energy of the ejected electrons using $${\text{KE}}_e = hf - \text{BE}$$. Then convert this to velocity using $${\text{KE}}_e = \frac{1}{2}mv^2$$, assuming nonrelativistic speeds. Finally, use $$t = \frac{d}{v}$$ to find the time.
+
+**Solution**
+
+Calculate the photon energy:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{420 \text{ nm}} = 2.95 \text{ eV}$$
+</div>
+
+Find the kinetic energy of ejected electrons:
+
+<div class="equation">
+ $${\text{KE}}_e = 2.95 \text{ eV} - 2.71 \text{ eV} = 0.24 \text{ eV}$$
+</div>
+
+Convert to joules:
+
+<div class="equation">
+ $${\text{KE}}_e = 0.24 \text{ eV} \times 1.60 \times 10^{-19} \text{ J/eV} = 3.84 \times 10^{-20} \text{ J}$$
+</div>
+
+Solve for velocity from $${\text{KE}}_e = \frac{1}{2}mv^2$$:
+
+<div class="equation">
+ $$v = \sqrt{\frac{2{\text{KE}}_e}{m}} = \sqrt{\frac{2(3.84 \times 10^{-20} \text{ J})}{9.11 \times 10^{-31} \text{ kg}}} = 2.90 \times 10^{5} \text{ m/s}$$
+</div>
+
+Calculate the time to travel 2.50 cm:
+
+<div class="equation">
+ $$t = \frac{d}{v} = \frac{0.0250 \text{ m}}{2.90 \times 10^{5} \text{ m/s}} = 8.62 \times 10^{-8} \text{ s} = 86.2 \text{ ns}$$
+</div>
+
+**Discussion**
+
+The photoelectrons travel at about 0.1% the speed of light (290 km/s), which is fast but well below relativistic speeds. They reach the detector in only 86.2 nanoseconds. This rapid transit time is important in photoelectric devices where quick response is essential. The relatively low kinetic energy (0.24 eV) results because the 420-nm photon energy (2.95 eV) is only slightly above the binding energy threshold (2.71 eV).
+
+ $$ 8.62 \times 10^{-8} \text{ s}$$  or 86.2 ns
 
 </div>
 </div>
@@ -413,7 +599,68 @@ A laser with a power output of 2.00 mW at a wavelength of 400 nm is projected on
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Calculate the number of photoelectrons per second ejected from a 1.00-mm <sup>2</sup> area of sodium metal by 500-nm EM radiation having an intensity of  $$1.30 {\text{kW/m}}^{2} $$
- (the intensity of sunlight above the Earth’s atmosphere). (b) Given that the binding energy is 2.28 eV, what power is carried away by the electrons? (c) The electrons carry away less power than brought in by the photons. Where does the other power go? How can it be recovered?
+ (the intensity of sunlight above the Earth's atmosphere). (b) Given that the binding energy is 2.28 eV, what power is carried away by the electrons? (c) The electrons carry away less power than brought in by the photons. Where does the other power go? How can it be recovered?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Find the power incident on the area, then the energy per photon, and finally the number of photons (and electrons) per second. (b) Calculate the kinetic energy per electron and multiply by the rate. (c) Compare the input and output power to account for energy conservation.
+
+**Solution for (a)**
+
+Power incident on the area:
+
+<div class="equation">
+ $$P_{\text{in}} = I \times A = (1.30 \times 10^{3} \text{ W/m}^2)(1.00 \times 10^{-6} \text{ m}^2) = 1.30 \times 10^{-3} \text{ W}$$
+</div>
+
+Energy per photon:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{500 \text{ nm}} = 2.48 \text{ eV} = 3.97 \times 10^{-19} \text{ J}$$
+</div>
+
+Number of photons (and electrons) per second:
+
+<div class="equation">
+ $$N = \frac{P_{\text{in}}}{E_{\text{photon}}} = \frac{1.30 \times 10^{-3} \text{ J/s}}{3.97 \times 10^{-19} \text{ J}} = 3.27 \times 10^{15} \text{ electrons/s}$$
+</div>
+
+**Solution for (b)**
+
+Kinetic energy per electron:
+
+<div class="equation">
+ $${\text{KE}}_e = E_{\text{photon}} - \text{BE} = 2.48 \text{ eV} - 2.28 \text{ eV} = 0.20 \text{ eV} = 3.20 \times 10^{-20} \text{ J}$$
+</div>
+
+Power carried by electrons:
+
+<div class="equation">
+ $$P_{\text{electrons}} = N \times {\text{KE}}_e = (3.27 \times 10^{15} \text{ /s})(3.20 \times 10^{-20} \text{ J}) = 0.105 \text{ W} = 105 \text{ mW}$$
+</div>
+
+**Solution for (c)**
+
+Power used to overcome binding energy:
+
+<div class="equation">
+ $$P_{\text{binding}} = P_{\text{in}} - P_{\text{electrons}} = 1.30 \text{ W} - 0.105 \text{ W} = 1.20 \text{ W}$$
+</div>
+
+This energy goes into heating the sodium metal. It can be recovered as thermal energy or used to keep the metal at operating temperature.
+
+**Discussion**
+
+Only about 8% of the incident photon energy is carried away as kinetic energy of the electrons; the remaining 92% goes into overcoming the binding energy and heats the metal. This demonstrates why photoelectric devices can become warm during operation and why efficient cooling may be necessary for high-intensity applications.
+
+(a)  $$ 3.27 \times 10^{15} \text{ electrons/s}$$
+
+(b) 0.105 W or 105 mW
+
+(c) The remaining power (1.20 W) heats the sodium metal. It can be recovered as thermal energy or dissipated through cooling.
 
 </div>
 </div>
@@ -445,6 +692,41 @@ inconsistent?
 (a) What is the binding energy of electrons to a material from which 4.00-eV
 electrons are ejected by 400-nm EM radiation? (b) What is unreasonable about
 this result? (c) Which assumptions are unreasonable or inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Calculate the photon energy, then use the photoelectric equation to find the binding energy. Examine whether the result is physically reasonable.
+
+**Solution for (a)**
+
+Calculate the photon energy:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{400 \text{ nm}} = 3.10 \text{ eV}$$
+</div>
+
+Using the photoelectric equation:
+
+<div class="equation">
+ $$\text{BE} = E_{\text{photon}} - {\text{KE}}_e = 3.10 \text{ eV} - 4.00 \text{ eV} = -0.90 \text{ eV}$$
+</div>
+
+**Solution for (b)**
+
+A negative binding energy is physically impossible. Binding energy represents the energy required to remove an electron from a material, which must be positive. A negative value would imply the electron is repelled by the material, contradicting the definition of binding.
+
+**Solution for (c)**
+
+The assumption that is unreasonable is that 400-nm photons can eject electrons with 4.00 eV of kinetic energy. The photon energy (3.10 eV) is less than the claimed kinetic energy of the ejected electrons (4.00 eV). By conservation of energy, this is impossible—the electron cannot have more kinetic energy than the total energy provided by the photon. Either the photon wavelength must be shorter (higher energy), or the electron kinetic energy must be less than 3.10 eV.
+
+(a) −0.90 eV
+
+(b) Negative binding energy is physically impossible
+
+(c) The assumption that 400-nm photons (3.10 eV) can produce 4.00-eV electrons violates energy conservation
 
 </div>
 </div>

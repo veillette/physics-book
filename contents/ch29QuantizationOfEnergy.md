@@ -231,6 +231,39 @@ A LiBr molecule oscillates with a frequency of  $$ 1.7 \times 10^{13} \text{Hz} 
 The difference in energy between allowed oscillator states in HBr molecules is 0.330 eV. What is the oscillation frequency of this molecule?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The energy difference between oscillator states is given by $$\Delta E = hf$$, where $$h$$ is Planck's constant and $$f$$ is the oscillation frequency. We can solve for $$f$$ directly.
+
+**Solution**
+
+From the relationship $$\Delta E = hf$$, we solve for frequency:
+
+<div class="equation">
+ $$f = \frac{\Delta E}{h}$$
+</div>
+
+First, convert the energy from eV to joules:
+
+<div class="equation">
+ $$\Delta E = 0.330 \text{ eV} \times \frac{1.60 \times 10^{-19} \text{ J}}{1 \text{ eV}} = 5.28 \times 10^{-20} \text{ J}$$
+</div>
+
+Now substitute into the frequency equation:
+
+<div class="equation">
+ $$f = \frac{5.28 \times 10^{-20} \text{ J}}{6.63 \times 10^{-34} \text{ J·s}} = 7.96 \times 10^{13} \text{ Hz}$$
+</div>
+
+**Discussion**
+
+This frequency is in the infrared region of the electromagnetic spectrum, which is typical for molecular vibrations. The HBr molecule oscillates at approximately $$8.0 \times 10^{13}$$ Hz. This vibrational frequency is characteristic of the bond between hydrogen and bromine atoms, and the quantized energy levels mean the molecule can only gain or lose energy in discrete amounts of 0.330 eV.
+
+ $$7.96 \times 10^{13} \text{ Hz}$$
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
