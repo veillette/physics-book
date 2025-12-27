@@ -211,6 +211,33 @@ are passed through a 1.00-nm single slit, at what angle will the first
 diffraction minimum be found?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This combines wave optics and matter waves. Use the single-slit diffraction formula for the first minimum: $$D \sin \theta = \lambda$$, where $$D$$ is the slit width.
+
+**Solution**
+
+For the first diffraction minimum:
+
+<div class="equation">
+ $$\sin \theta = \frac{\lambda}{D} = \frac{2.00 \times 10^{-12} \text{ m}}{1.00 \times 10^{-9} \text{ m}} = 0.00200$$
+</div>
+
+The angle is:
+
+<div class="equation">
+ $$\theta = \arcsin(0.00200) = 0.115° = 6.88 \text{ arcminutes}$$
+</div>
+
+**Discussion**
+
+The first diffraction minimum occurs at only 0.115°, a very small angle. This tiny angle results because the electron wavelength (2.00 pm) is much smaller than the slit width (1.00 nm)—500 times smaller. Despite the small wavelength, the electron beam still exhibits clear diffraction, demonstrating the wave nature of matter. This diffraction must be accounted for in electron microscope design to achieve maximum resolution.
+
+0.115° or $$ 2.00 \times 10^{-3}$$ rad
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -244,6 +271,65 @@ required to increase the temperature of a 0.500-kg mass of pasta by $$
 operator wait for their pasta to be ready?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Find photon energy from $$E = hf$$, then divide power by energy per photon. (b) Calculate heat needed using $$Q = mc\Delta T$$, then divide by energy per photon. (c) Divide total photons needed by photon rate.
+
+**Solution for (a)**
+
+Energy per photon:
+
+<div class="equation">
+ $$E = hf = (6.63 \times 10^{-34} \text{ J·s})(2560 \times 10^{6} \text{ Hz}) = 1.70 \times 10^{-24} \text{ J}$$
+</div>
+
+Photons per second:
+
+<div class="equation">
+ $$N = \frac{P}{E} = \frac{900 \text{ W}}{1.70 \times 10^{-24} \text{ J}} = 5.29 \times 10^{26} \text{ photons/s}$$
+</div>
+
+**Solution for (b)**
+
+Heat required:
+
+<div class="equation">
+ $$Q = mc\Delta T = (0.500 \text{ kg})(0.900 \text{ kcal/kg·°C})(45.0\text{°C}) = 20.25 \text{ kcal}$$
+</div>
+
+Converting to joules (1 kcal = 4186 J):
+
+<div class="equation">
+ $$Q = 20.25 \text{ kcal} \times 4186 \text{ J/kcal} = 8.48 \times 10^{4} \text{ J}$$
+</div>
+
+Number of photons:
+
+<div class="equation">
+ $$N_{\text{total}} = \frac{Q}{E} = \frac{8.48 \times 10^{4} \text{ J}}{1.70 \times 10^{-24} \text{ J}} = 4.99 \times 10^{28} \text{ photons}$$
+</div>
+
+**Solution for (c)**
+
+Time required:
+
+<div class="equation">
+ $$t = \frac{N_{\text{total}}}{N} = \frac{4.99 \times 10^{28}}{5.29 \times 10^{26} \text{ /s}} = 94.3 \text{ s} = 1.57 \text{ min}$$
+</div>
+
+**Discussion**
+
+The microwave oven emits over $$5 \times 10^{26}$$ photons per second, yet it takes nearly 100 seconds to heat the pasta because each individual photon carries so little energy ($$1.70 \times 10^{-24}$$ J). Nearly $$5 \times 10^{28}$$ photons are required to deliver the 84.8 kJ of thermal energy. This demonstrates why microwave radiation behaves classically—the sheer number of photons makes quantum effects unobservable.
+
+(a) $$ 5.29 \times 10^{26} \text{ photons/s}$$
+
+(b) $$ 4.99 \times 10^{28} \text{ photons}$$
+
+(c) 94.3 s or 1.57 min
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -271,7 +357,44 @@ What is the kinetic energy of this mass?
 
 (a) What is $$\gamma $$ for an electron emerging from the Stanford Linear
 Accelerator with a total energy of 50.0 GeV? (b) Find its momentum. (c) What is
-the electron’s wavelength?
+the electron's wavelength?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$\gamma = \frac{E_{\text{total}}}{mc^2}$$ where $$mc^2 = 0.511$$ MeV for an electron. (b) Use the relativistic energy-momentum relation. (c) Use $$\lambda = \frac{h}{p}$$.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$\gamma = \frac{E_{\text{total}}}{mc^2} = \frac{50.0 \times 10^{3} \text{ MeV}}{0.511 \text{ MeV}} = 9.78 \times 10^{4}$$
+</div>
+
+**Solution for (b)**
+
+For a highly relativistic particle, $$E \approx pc$$, so:
+
+<div class="equation">
+ $$p = \frac{E}{c} = \frac{50.0 \times 10^{9} \text{ eV} \times 1.60 \times 10^{-19} \text{ J/eV}}{3.00 \times 10^{8} \text{ m/s}} = 2.67 \times 10^{-17} \text{ kg·m/s}$$
+</div>
+
+**Solution for (c)**
+
+<div class="equation">
+ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \text{ J·s}}{2.67 \times 10^{-17} \text{ kg·m/s}} = 2.48 \times 10^{-17} \text{ m} = 0.0248 \text{ fm}$$
+</div>
+
+**Discussion**
+
+This electron has a Lorentz factor of nearly 100,000, meaning it's traveling at 0.9999999% of the speed of light. Its wavelength (0.0248 fm) is about 1/200 the size of a proton, making it suitable for probing quark structure inside nucleons. The Stanford Linear Accelerator produced such high-energy electrons to study the fundamental structure of matter at the smallest accessible scales.
+
+(a) $$ 9.78 \times 10^{4}$$
+
+(b) $$ 2.67 \times 10^{-17} \text{ kg·m/s}$$
+
+(c) $$ 2.48 \times 10^{-17} \text{ m}$$ or 0.0248 fm
 
 </div>
 </div>
@@ -299,6 +422,37 @@ wavelength?
 An electron microscope passes 1.00-pm-wavelength electrons through a circular
 aperture $$2.00 \text{μm} $$ in diameter. What is the angle between two
 just-resolvable point sources for this microscope?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use the Rayleigh criterion for circular apertures: $$\theta = 1.22\frac{\lambda}{D}$$, where $$D$$ is the aperture diameter.
+
+**Solution**
+
+<div class="equation">
+ $$\theta = 1.22\frac{\lambda}{D} = 1.22 \times \frac{1.00 \times 10^{-12} \text{ m}}{2.00 \times 10^{-6} \text{ m}} = 6.10 \times 10^{-7} \text{ rad}$$
+</div>
+
+Converting to degrees:
+
+<div class="equation">
+ $$\theta = 6.10 \times 10^{-7} \text{ rad} \times \frac{180°}{\pi} = 3.49 \times 10^{-5}°$$
+</div>
+
+Or in arcseconds:
+
+<div class="equation">
+ $$\theta = 3.49 \times 10^{-5}° \times 3600 \text{ arcsec/°} = 0.126 \text{ arcsec}$$
+</div>
+
+**Discussion**
+
+The electron microscope can resolve points separated by an angle as small as $$6.10 \times 10^{-7}$$ radians or 0.126 arcseconds. This extraordinary resolution results from the extremely short wavelength (1.00 pm) of the electrons compared to the aperture size. This is about 500,000 times better angular resolution than the human eye and demonstrates why electron microscopes can image atomic-scale features. The resolution is limited only by the wavelength and aperture size, not by the wave nature of the electrons themselves.
+
+$$ 6.10 \times 10^{-7} \text{ rad}$$ or $$ 3.49 \times 10^{-5}°$$ or 0.126 arcsec
 
 </div>
 </div>
@@ -354,6 +508,81 @@ material is electrically insulated and acts like a 2.00-pF capacitor, how long
 will current flow before the capacitor voltage stops it?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Find photons/sec from power, assuming each photon ejects one electron. (b) Calculate electron KE, multiply by rate. (c) Use $$I = Ne$$ where $$N$$ is electrons/sec. (d) Find voltage when $$qV = \text{KE}_e$$, then use $$Q = CV$$ and $$t = Q/I$$.
+
+**Solution for (a)**
+
+Photon energy:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{400 \text{ nm}} = 3.10 \text{ eV} = 4.96 \times 10^{-19} \text{ J}$$
+</div>
+
+Number of photons (electrons) per second:
+
+<div class="equation">
+ $$N = \frac{P}{E} = \frac{2.00 \times 10^{-3} \text{ W}}{4.96 \times 10^{-19} \text{ J}} = 4.03 \times 10^{15} \text{ electrons/s}$$
+</div>
+
+**Solution for (b)**
+
+Electron kinetic energy:
+
+<div class="equation">
+ $$\text{KE}_e = E_{\text{photon}} - \text{BE} = 3.10 \text{ eV} - 2.71 \text{ eV} = 0.39 \text{ eV} = 6.24 \times 10^{-20} \text{ J}$$
+</div>
+
+Power carried by electrons:
+
+<div class="equation">
+ $$P_e = N \times \text{KE}_e = (4.03 \times 10^{15} \text{ /s})(6.24 \times 10^{-20} \text{ J}) = 2.51 \times 10^{-4} \text{ W} = 0.251 \text{ mW}$$
+</div>
+
+**Solution for (c)**
+
+Current:
+
+<div class="equation">
+ $$I = Ne = (4.03 \times 10^{15} \text{ /s})(1.60 \times 10^{-19} \text{ C}) = 6.45 \times 10^{-4} \text{ A} = 0.645 \text{ mA}$$
+</div>
+
+**Solution for (d)**
+
+The capacitor voltage that stops electrons is when $$eV = \text{KE}_e$$:
+
+<div class="equation">
+ $$V = \frac{\text{KE}_e}{e} = 0.39 \text{ V}$$
+</div>
+
+Charge needed:
+
+<div class="equation">
+ $$Q = CV = (2.00 \times 10^{-12} \text{ F})(0.39 \text{ V}) = 7.80 \times 10^{-13} \text{ C}$$
+</div>
+
+Time to accumulate this charge:
+
+<div class="equation">
+ $$t = \frac{Q}{I} = \frac{7.80 \times 10^{-13} \text{ C}}{6.45 \times 10^{-4} \text{ A}} = 1.21 \times 10^{-9} \text{ s} = 1.21 \text{ ns}$$
+</div>
+
+**Discussion**
+
+The photoelectric effect produces a current of 0.645 mA, but this current is self-limiting on an insulated capacitor. Within just 1.21 nanoseconds, the capacitor charges to 0.39 V, creating an electric field that prevents further electrons from leaving the surface. This demonstrates how photoelectric devices can be sensitive to extremely small amounts of charge and explains why photodetectors often need grounding or discharge circuits.
+
+(a) $$ 4.03 \times 10^{15} \text{ electrons/s}$$
+
+(b) 0.251 mW
+
+(c) 0.645 mA
+
+(d) 1.21 ns
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -381,7 +610,66 @@ this great.)
 A 1.00-fm photon has a wavelength short enough to detect some information about
 nuclei. (a) What is the photon momentum? (b) What is its energy in joules and
 MeV? (c) What is the (relativistic) velocity of an electron with the same
-momentum? (d) Calculate the electron’s kinetic energy.
+momentum? (d) Calculate the electron's kinetic energy.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$p = h/\lambda$$. (b) Use $$E = pc$$ for the photon. (c) Use relativistic momentum $$p = \gamma mv$$ and solve for $$v$$. (d) Use relativistic kinetic energy $$\text{KE} = (\gamma - 1)mc^2$$.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$p = \frac{h}{\lambda} = \frac{6.63 \times 10^{-34} \text{ J·s}}{1.00 \times 10^{-15} \text{ m}} = 6.63 \times 10^{-19} \text{ kg·m/s}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+ $$E = pc = (6.63 \times 10^{-19} \text{ kg·m/s})(3.00 \times 10^{8} \text{ m/s}) = 1.99 \times 10^{-10} \text{ J}$$
+</div>
+
+Converting to MeV:
+
+<div class="equation">
+ $$E = \frac{1.99 \times 10^{-10} \text{ J}}{1.60 \times 10^{-13} \text{ J/MeV}} = 1240 \text{ MeV} = 1.24 \text{ GeV}$$
+</div>
+
+**Solution for (c)**
+
+For a relativistic electron, use $$E^2 = (pc)^2 + (mc^2)^2$$:
+
+<div class="equation">
+ $$E_e = \sqrt{(pc)^2 + (mc^2)^2} = \sqrt{(1.99 \times 10^{-10})^2 + (8.19 \times 10^{-14})^2} \approx 1.99 \times 10^{-10} \text{ J}$$
+</div>
+
+Then $$\gamma = E_e/(mc^2) = 1.99 \times 10^{-10}/(8.19 \times 10^{-14}) = 2430$$
+
+From $$\gamma = 1/\sqrt{1-v^2/c^2}$$:
+
+<div class="equation">
+ $$v = c\sqrt{1 - 1/\gamma^2} = c\sqrt{1 - 1/2430^2} \approx 0.99999991c$$
+</div>
+
+**Solution for (d)**
+
+<div class="equation">
+ $$\text{KE} = (\gamma - 1)mc^2 = (2430 - 1)(0.511 \text{ MeV}) = 1240 \text{ MeV} = 1.24 \text{ GeV}$$
+</div>
+
+**Discussion**
+
+This 1-fm gamma ray carries enormous energy (1.24 GeV), typical of nuclear processes. An electron with the same momentum would be extremely relativistic ($$\gamma = 2430$$), traveling at 99.999991% the speed of light. Interestingly, the electron's kinetic energy nearly equals the photon energy because both are highly relativistic. Such high energies are needed to probe nuclear structure because the wavelength must be comparable to nuclear dimensions (1-10 fm).
+
+(a) $$ 6.63 \times 10^{-19} \text{ kg·m/s}$$
+
+(b) $$ 1.99 \times 10^{-10} \text{ J}$$ or 1240 MeV (1.24 GeV)
+
+(c) 0.99999991c or $$ 2.9999997 \times 10^{8} \text{ m/s}$$
+
+(d) 1240 MeV (1.24 GeV)
 
 </div>
 </div>
@@ -414,15 +702,62 @@ reasonable?
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-Sunlight above the Earth’s atmosphere has an intensity of $$ 1.30
+Sunlight above the Earth's atmosphere has an intensity of $$ 1.30
 {\text{kW/m}}^{2} $$ . If this is reflected straight back from a mirror that has
-only a small recoil, the light’s momentum is exactly reversed, giving the mirror
+only a small recoil, the light's momentum is exactly reversed, giving the mirror
 twice the incident momentum. (a) Calculate the force per square meter of
 mirror. (b) Very low mass mirrors can be constructed in the near weightlessness
 of space, and attached to a spaceship to sail it. Once done, the average mass
 per square meter of the spaceship is 0.100 kg. Find the acceleration of the
 spaceship if all other forces are balanced. (c) How fast is it moving 24 hours
 later?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Power equals force times velocity: $$P = Fv$$, so $$F = P/c$$. Since momentum is reversed, the force doubles. (b) Use $$F = ma$$ to find acceleration. (c) Use $$v = at$$ assuming constant acceleration.
+
+**Solution for (a)**
+
+The momentum delivered per second (force) from absorbed light would be:
+
+<div class="equation">
+ $$F_{\text{absorbed}} = \frac{P}{c} = \frac{1.30 \times 10^{3} \text{ W/m}^2}{3.00 \times 10^{8} \text{ m/s}} = 4.33 \times 10^{-6} \text{ N/m}^2$$
+</div>
+
+Since the light is reflected (momentum reversed), the force is doubled:
+
+<div class="equation">
+ $$F_{\text{reflected}} = 2F_{\text{absorbed}} = 2(4.33 \times 10^{-6}) = 8.67 \times 10^{-6} \text{ N/m}^2$$
+</div>
+
+**Solution for (b)**
+
+Acceleration:
+
+<div class="equation">
+ $$a = \frac{F}{m} = \frac{8.67 \times 10^{-6} \text{ N/m}^2}{0.100 \text{ kg/m}^2} = 8.67 \times 10^{-5} \text{ m/s}^2$$
+</div>
+
+**Solution for (c)**
+
+Time = 24 hours = 86,400 s:
+
+<div class="equation">
+ $$v = at = (8.67 \times 10^{-5} \text{ m/s}^2)(86,400 \text{ s}) = 7.49 \text{ m/s}$$
+</div>
+
+**Discussion**
+
+Solar sailing is a real spacecraft propulsion concept! The radiation pressure produces only $$8.67 \times 10^{-6}$$ N/m² (less than one millionth of atmospheric pressure), but in space with very lightweight sails, meaningful acceleration is possible. After 24 hours, the spacecraft reaches 7.49 m/s (about 27 km/h). While slow, this acceleration continues indefinitely without fuel, allowing solar sails to eventually achieve high speeds over long interplanetary journeys. The key is minimizing mass per unit sail area—the lighter, the better. This technology has been demonstrated by missions like IKAROS and The Planetary Society's LightSail.
+
+(a) $$ 8.67 \times 10^{-6} \text{ N/m}^2$$
+
+(b) $$ 8.67 \times 10^{-5} \text{ m/s}^2$$
+
+(c) 7.49 m/s or about 27 km/h
 
 </div>
 </div>
