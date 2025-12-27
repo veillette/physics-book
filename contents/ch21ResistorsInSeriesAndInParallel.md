@@ -749,6 +749,42 @@ significant digits.**
  resistor connected in series? (b) In parallel?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For resistors in series, the total resistance is the sum of individual resistances. For resistors in parallel, use the reciprocal formula: $$\frac{1}{R_p} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3}$$.
+
+**Solution**
+
+**(a)** For series connection:
+
+Convert all to the same units: $$R_1 = 100 \text{ Ω}$$, $$R_2 = 2500 \text{ Ω}$$, $$R_3 = 4000 \text{ Ω}$$
+
+<div class="equation">
+$$R_s = R_1 + R_2 + R_3 = 100 + 2500 + 4000 = 6600 \text{ Ω} = 6.60 \text{ kΩ}$$
+</div>
+
+**(b)** For parallel connection:
+
+<div class="equation">
+$$\frac{1}{R_p} = \frac{1}{100} + \frac{1}{2500} + \frac{1}{4000}$$
+</div>
+
+<div class="equation">
+$$\frac{1}{R_p} = 0.0100 + 0.000400 + 0.000250 = 0.01065 \text{ Ω}^{-1}$$
+</div>
+
+<div class="equation">
+$$R_p = \frac{1}{0.01065} = 93.9 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+The series resistance (6.60 kΩ) is much larger than any individual resistor, while the parallel resistance (93.9 Ω) is smaller than the smallest resistor (100 Ω). This demonstrates the fundamental properties: series resistances add directly, while parallel resistances are always less than the smallest individual resistor because current has multiple paths.
+
+(a) The series resistance is 6.60 kΩ. (b) The parallel resistance is 93.9 Ω.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -770,6 +806,44 @@ What are the largest and smallest resistances you can obtain by connecting a  $$
 An 1800-W toaster, a 1400-W electric frying pan, and a 75-W lamp are plugged into the same outlet in a 15-A, 120-V circuit. (The three devices are in parallel when plugged into the same socket.). (a) What current is drawn by each device? (b) Will this combination blow the 15-A fuse?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Each device is connected in parallel to the 120-V outlet. Use $$P = IV$$ to find the current drawn by each device: $$I = P/V$$. The total current is the sum of individual currents in a parallel circuit.
+
+**Solution**
+
+**(a)** Calculate current for each device using $$I = P/V$$:
+
+Toaster:
+<div class="equation">
+$$I_{\text{toaster}} = \frac{P}{V} = \frac{1800 \text{ W}}{120 \text{ V}} = 15.0 \text{ A}$$
+</div>
+
+Frying pan:
+<div class="equation">
+$$I_{\text{pan}} = \frac{1400 \text{ W}}{120 \text{ V}} = 11.7 \text{ A}$$
+</div>
+
+Lamp:
+<div class="equation">
+$$I_{\text{lamp}} = \frac{75 \text{ W}}{120 \text{ V}} = 0.625 \text{ A}$$
+</div>
+
+**(b)** Total current in parallel:
+<div class="equation">
+$$I_{\text{total}} = I_{\text{toaster}} + I_{\text{pan}} + I_{\text{lamp}} = 15.0 + 11.7 + 0.625 = 27.3 \text{ A}$$
+</div>
+
+Since 27.3 A > 15 A, **yes, this combination will blow the 15-A fuse**.
+
+**Discussion**
+
+The toaster alone draws the full 15 A capacity of the circuit. Adding the frying pan and lamp brings the total to 27.3 A, which is 82% over the circuit's rated capacity. The fuse will blow immediately to prevent the wires from overheating, which could cause a fire. This is why high-power appliances should be used on separate circuits. In practice, you should never run the toaster and frying pan simultaneously on the same 15-A circuit.
+
+(a) The toaster draws 15.0 A, the frying pan draws 11.7 A, and the lamp draws 0.625 A. (b) Yes, the total current of 27.3 A will blow the 15-A fuse.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -787,6 +861,66 @@ Your car’s 30.0-W headlight and 2.40-kW starter are ordinarily connected in pa
 (a) Given a 48.0-V battery and  $$ 24.0-\Omega  $$
  and  $$ 96.0-\Omega  $$
  resistors, find the current and power for each when connected in series. (b) Repeat when the resistances are in parallel.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For series: Find total resistance, then current (same through both), then use $$P = I^2R$$ for each resistor. For parallel: voltage is same across both (48.0 V), find current through each using $$I = V/R$$, then power using $$P = IV$$.
+
+**Solution**
+
+**(a) Series connection:**
+
+Total resistance:
+<div class="equation">
+$$R_s = R_1 + R_2 = 24.0 + 96.0 = 120.0 \text{ Ω}$$
+</div>
+
+Current (same through both resistors):
+<div class="equation">
+$$I = \frac{V}{R_s} = \frac{48.0 \text{ V}}{120.0 \text{ Ω}} = 0.400 \text{ A}$$
+</div>
+
+Power in 24.0-Ω resistor:
+<div class="equation">
+$$P_1 = I^2 R_1 = (0.400 \text{ A})^2 (24.0 \text{ Ω}) = 3.84 \text{ W}$$
+</div>
+
+Power in 96.0-Ω resistor:
+<div class="equation">
+$$P_2 = I^2 R_2 = (0.400 \text{ A})^2 (96.0 \text{ Ω}) = 15.4 \text{ W}$$
+</div>
+
+**(b) Parallel connection:**
+
+Voltage across each resistor = 48.0 V
+
+Current through 24.0-Ω resistor:
+<div class="equation">
+$$I_1 = \frac{V}{R_1} = \frac{48.0 \text{ V}}{24.0 \text{ Ω}} = 2.00 \text{ A}$$
+</div>
+
+Current through 96.0-Ω resistor:
+<div class="equation">
+$$I_2 = \frac{V}{R_2} = \frac{48.0 \text{ V}}{96.0 \text{ Ω}} = 0.500 \text{ A}$$
+</div>
+
+Power in 24.0-Ω resistor:
+<div class="equation">
+$$P_1 = I_1 V = (2.00 \text{ A})(48.0 \text{ V}) = 96.0 \text{ W}$$
+</div>
+
+Power in 96.0-Ω resistor:
+<div class="equation">
+$$P_2 = I_2 V = (0.500 \text{ A})(48.0 \text{ V}) = 24.0 \text{ W}$$
+</div>
+
+**Discussion**
+
+In series, both resistors carry the same current (0.400 A), but the larger resistor dissipates more power (15.4 W vs 3.84 W). Total power in series is 19.2 W. In parallel, both resistors experience the full 48.0 V, so the smaller resistor draws more current (2.00 A vs 0.500 A) and dissipates more power (96.0 W vs 24.0 W). Total power in parallel is 120 W—over six times greater than in series! This shows why parallel connections can overload circuits.
+
+(a) Series: Both carry 0.400 A; 24-Ω dissipates 3.84 W, 96-Ω dissipates 15.4 W. (b) Parallel: 24-Ω carries 2.00 A and dissipates 96.0 W; 96-Ω carries 0.500 A and dissipates 24.0 W.
 
 </div>
 </div>
@@ -815,6 +949,38 @@ Referring to [[Figure 5]](#Figure5): (a) Calculate  $${P}_{3} $$
  found in the first two example problems in this module. (b) Find the total power supplied by the source and compare it with the sum of the powers dissipated by the resistors.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From previous examples in this module, we know $$I_3 \approx 0.74 \text{ A}$$ and $$R_3 = 13.0 \text{ Ω}$$. Use $$P = I^2R$$ to find power. For total power, use $$P = IV$$ where $$I$$ is total current and $$V$$ is source voltage.
+
+**Solution**
+
+**(a)** Calculate $$P_3$$ using $$I_3 = 0.742 \text{ A}$$ from the previous problem:
+
+<div class="equation">
+$$P_3 = I_3^2 R_3 = (0.742 \text{ A})^2 (13.0 \text{ Ω}) = 7.16 \text{ W}$$
+</div>
+
+This matches the value found in earlier examples (approximately 7.2 W), confirming our calculation.
+
+**(b)** Total power supplied by source (using $$V = 12.0 \text{ V}$$ and total current $$I = 1.31 \text{ A}$$ from earlier examples):
+
+<div class="equation">
+$$P_{\text{total}} = IV = (1.31 \text{ A})(12.0 \text{ V}) = 15.7 \text{ W}$$
+</div>
+
+Sum of powers dissipated (from earlier examples): $$P_1 + P_2 + P_3 = 1.76 + 6.79 + 7.16 = 15.7 \text{ W}$$
+
+The total power supplied equals the sum of powers dissipated, confirming energy conservation.
+
+**Discussion**
+
+This problem demonstrates the principle of energy conservation in circuits. All electrical energy supplied by the source is dissipated as heat in the resistors. No energy is lost or gained; it's merely transformed from electrical to thermal energy. Any discrepancy between supplied and dissipated power would indicate an error in calculation or an incomplete circuit analysis.
+
+(a) $$P_3 = 7.16 \text{ W}$$, consistent with earlier examples. (b) Total power supplied is 15.7 W, which equals the sum of powers dissipated, confirming energy conservation.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -839,6 +1005,47 @@ A 240-kV power transmission line carrying  $$5.00 \times 10^{2}  \text{A} $$
 
 ![The diagram shows a grounded metal transmission tower. Two ground conductors on top of the tower point out like antennas. Hanging from the tower are a set of three bundled conductors, one on either end and one in the middle.](../resources/Figure_21_01_09.jpg "High-voltage (240-kV) transmission line carrying \( 5.00 \times 10^2 \text{A} \) is hung from a grounded metal transmission tower. The row of ceramic insulators provide \( 1.00 \times 10^9 \Omega \) of resistance each.")
 {: #Figure9}
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Following the problem-solving strategy: (1) Draw a circuit diagram—100 insulators in parallel between line and ground; (2) Identify series/parallel—all insulators are in parallel; (3) Use parallel resistance formula; (4) Calculate power using $$P = V^2/R$$ with line voltage; (5) Compare to total power in line.
+
+**Solution**
+
+**(a)** For 100 identical resistors in parallel:
+
+<div class="equation">
+$$\frac{1}{R_p} = \frac{100}{R} = \frac{100}{1.00 \times 10^{9} \text{ Ω}}$$
+</div>
+
+<div class="equation">
+$$R_p = \frac{1.00 \times 10^{9}}{100} = 1.00 \times 10^{7} \text{ Ω} = 10.0 \text{ MΩ}$$
+</div>
+
+**(b)** Power dissipated by the 100 insulators (using line voltage 240 kV):
+
+<div class="equation">
+$$P = \frac{V^2}{R_p} = \frac{(2.40 \times 10^{5} \text{ V})^2}{1.00 \times 10^{7} \text{ Ω}} = \frac{5.76 \times 10^{10}}{1.00 \times 10^{7}} = 5.76 \times 10^{3} \text{ W} = 5.76 \text{ kW}$$
+</div>
+
+**(c)** Total power carried by line:
+
+<div class="equation">
+$$P_{\text{line}} = IV = (500 \text{ A})(2.40 \times 10^{5} \text{ V}) = 1.20 \times 10^{8} \text{ W} = 120 \text{ MW}$$
+</div>
+
+Fraction lost:
+<div class="equation">
+$$\text{Fraction} = \frac{P_{\text{insulators}}}{P_{\text{line}}} = \frac{5.76 \times 10^{3}}{1.20 \times 10^{8}} = 4.80 \times 10^{-5} = 0.0048\%$$
+</div>
+
+**Discussion**
+
+Despite the enormous resistance of each insulator (1 GΩ), having 100 in parallel reduces the effective resistance to 10 MΩ. However, this is still huge compared to typical circuit resistances, which is exactly what's needed—insulators must prevent current leakage to ground. The power loss of 5.76 kW is negligible (0.0048%) compared to the 120 MW transmitted. This demonstrates excellent insulator design: high enough resistance to prevent significant power loss, yet realistic to manufacture. The parallel configuration is unavoidable—each insulator connects the line to ground independently.
+
+(a) Resistance to ground is $$1.00 \times 10^{7} \text{ Ω}$$ (10.0 MΩ). (b) Power dissipated is 5.76 kW. (c) This represents 0.0048% of the transmitted power—negligible loss.
 
 </div>
 </div>
@@ -873,6 +1080,41 @@ Two resistors, one having a resistance of $$145 \Omega $$ , are connected in
 parallel to produce a total resistance of $$150 \Omega $$ .
 (a) What is the value of the second resistance? (b) What is unreasonable about
 this result? (c) Which assumptions are unreasonable or inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the parallel resistance formula: $$\frac{1}{R_p} = \frac{1}{R_1} + \frac{1}{R_2}$$. Solve for $$R_2$$ algebraically, then evaluate whether the result is physically reasonable.
+
+**Solution**
+
+**(a)** Starting with the parallel resistance formula:
+
+<div class="equation">
+$$\frac{1}{150} = \frac{1}{145} + \frac{1}{R_2}$$
+</div>
+
+Solve for $$1/R_2$$:
+<div class="equation">
+$$\frac{1}{R_2} = \frac{1}{150} - \frac{1}{145} = \frac{145 - 150}{150 \times 145} = \frac{-5}{21750} = -2.30 \times 10^{-4} \text{ Ω}^{-1}$$
+</div>
+
+<div class="equation">
+$$R_2 = \frac{1}{-2.30 \times 10^{-4}} = -4350 \text{ Ω}$$
+</div>
+
+**(b)** **This result is unreasonable because resistance cannot be negative.** Resistance is a physical property that represents opposition to current flow and must always be positive (or zero for a perfect conductor).
+
+**(c)** **The unreasonable assumption is that parallel resistance (150 Ω) can be greater than one of the individual resistances (145 Ω).** This violates the fundamental property of parallel circuits: the equivalent parallel resistance is **always less than** the smallest individual resistance. This occurs because adding paths in parallel provides more routes for current, decreasing total resistance.
+
+**Discussion**
+
+This problem illustrates an important principle: when resistors are connected in parallel, the equivalent resistance must be smaller than any individual resistor. The given values ($$R_1 = 145 \text{ Ω}$$, $$R_p = 150 \text{ Ω}$$) violate this rule, making the problem impossible. The negative resistance result is the mathematical manifestation of this impossibility.
+
+For the problem to be reasonable, the parallel resistance would need to be less than 145 Ω. For example, if $$R_p = 72.5 \text{ Ω}$$ (half of 145 Ω), then $$R_2 = 145 \text{ Ω}$$—two identical resistors in parallel give half the individual resistance.
+
+(a) $$R_2 = -4350 \text{ Ω}$$. (b) Negative resistance is physically impossible. (c) The assumption that parallel resistance can exceed an individual resistance is inconsistent with parallel circuit behavior.
 
 </div>
 </div>
