@@ -260,7 +260,54 @@ Explicitly show how you follow the steps in the [Problem-Solving Strategy for Le
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Referring to [[Figure 3]](#Figure3)(b), what is the direction of the current induced in the coil: (a) If the current in the wire increases? (b) If the current in the wire decreases? (c) If the current in the wire suddenly changes direction?
-Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz’s Law](#Note1).
+Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#Note1).
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We follow the problem-solving strategy for Lenz's law: identify the direction of the magnetic field from the wire, determine whether flux through the coil is increasing or decreasing, find the direction of the induced field that opposes this change, and use RHR-2 to find the induced current direction.
+
+**Solution for (a)**
+
+Following the steps:
+
+1. The wire is vertical with current flowing upward
+2. By RHR-2, the magnetic field from the wire circles the wire counterclockwise when viewed from above
+3. If current increases, flux through the horizontal coil increases (field points up through coil)
+4. The induced field must oppose this increase by pointing downward through the coil
+5. By RHR-2, a clockwise current (viewed from above) produces a downward field
+
+**Answer:** The induced current is clockwise when viewed from above.
+
+**Solution for (b)**
+
+If current decreases:
+
+1. Flux through the coil decreases
+2. The induced field must oppose this decrease by pointing upward through the coil (same direction as original field)
+3. By RHR-2, a counterclockwise current (viewed from above) produces an upward field
+
+**Answer:** The induced current is counterclockwise when viewed from above.
+
+**Solution for (c)**
+
+If current suddenly reverses:
+
+1. The magnetic field reverses direction
+2. This is equivalent to the original field decreasing to zero and a new field in the opposite direction increasing
+3. Initially, the induced current will be counterclockwise (to oppose decrease of original field)
+4. Then clockwise (to oppose increase of reversed field)
+
+**Answer:** The induced current initially flows counterclockwise, then clockwise when viewed from above.
+
+**Discussion**
+
+In all cases, Lenz's law ensures the induced current creates a magnetic field opposing the change in flux, consistent with energy conservation.
+
+**Final Answer**
+
+(a) Clockwise; (b) Counterclockwise; (c) First counterclockwise, then clockwise (when viewed from above).
 
 </div>
 </div>
@@ -288,6 +335,44 @@ Referring to [[Figure 5]](#Figure5), what are the directions of the currents in 
 Repeat the previous problem with the battery reversed.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+With the battery reversed, currents in all three coils from the previous problem will be in opposite directions.
+
+**Solution**
+
+From the previous problem with normal battery orientation:
+- (a) Coil 1: CCW, Coil 2: CCW, Coil 3: CW (when switch closes)
+- (b) No currents when switch remains closed
+- (c) Coil 1: CW, Coil 2: CW, Coil 3: CCW (when switch opens)
+
+With battery reversed, all currents reverse:
+
+**(a) When switch is first closed:**
+- Coil 1: CW
+- Coil 2: CW
+- Coil 3: CCW
+
+**(b) When switch has been closed for a long time:**
+- Coil 1: No current
+- Coil 2: No current
+- Coil 3: No current
+
+**(c) Just after switch is opened:**
+- Coil 1: CCW
+- Coil 2: CCW
+- Coil 3: CW
+
+**Discussion**
+
+Reversing the battery reverses the magnetic field direction in the main coil, which reverses all induced currents by Lenz's law.
+
+**Final Answer**
+
+(a) Coil 1: CW, Coil 2: CW, Coil 3: CCW; (b) All no current; (c) Coil 1: CCW, Coil 2: CCW, Coil 3: CW.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -297,12 +382,90 @@ Verify that the units of  $$\Delta \Phi  $$
  are volts. That is, show that  $$1 \text{T}\cdot {\text{m}}^{2}/\text{s}=1 \text{V} $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We express tesla in fundamental units and show the equivalence to volts.
+
+**Solution**
+
+Starting with the magnetic flux units:
+
+<div class="equation">
+$$\frac{\Delta \Phi}{\Delta t} = \frac{\text{T} \cdot \text{m}^2}{\text{s}}$$
+</div>
+
+The tesla is defined as:
+
+<div class="equation">
+$$\text{T} = \frac{\text{Wb}}{\text{m}^2} = \frac{\text{V} \cdot \text{s}}{\text{m}^2}$$
+</div>
+
+Alternatively, from the magnetic force on a moving charge:
+
+<div class="equation">
+$$\text{T} = \frac{\text{N}}{\text{A} \cdot \text{m}}$$
+</div>
+
+Substituting into the flux rate:
+
+<div class="equation">
+$$\frac{\text{T} \cdot \text{m}^2}{\text{s}} = \frac{\text{N} \cdot \text{m}^2}{\text{A} \cdot \text{m} \cdot \text{s}} = \frac{\text{N} \cdot \text{m}}{\text{A} \cdot \text{s}}$$
+</div>
+
+Since work/energy is force times distance:
+
+<div class="equation">
+$$\frac{\text{N} \cdot \text{m}}{\text{A} \cdot \text{s}} = \frac{\text{J}}{\text{A} \cdot \text{s}} = \frac{\text{J}}{\text{C}} = \text{V}$$
+</div>
+
+Therefore: $$1 \text{ T} \cdot \text{m}^2/\text{s} = 1 \text{ V}$$
+
+**Discussion**
+
+This confirms that Faraday's law correctly gives emf in volts when magnetic flux (in T·m²) changes over time (in seconds).
+
+**Final Answer**
+
+Verified: $$1 \text{ T} \cdot \text{m}^2/\text{s} = 1 \text{ V}$$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Suppose a 50-turn coil lies in the plane of the page in a uniform magnetic field that is directed into the page. The coil originally has an area of  $$0.250 {\text{m}}^{2} $$ .
  It is stretched to have no area in 0.100 s. What is the direction and magnitude of the induced emf if the uniform magnetic field has a strength of 1.50 T?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use Faraday's law $$\text{emf} = -N\frac{\Delta\Phi}{\Delta t}$$ where $$\Phi = BA\cos\theta$$. Since the field is perpendicular to the coil, $$\theta = 0°$$ and $$\cos\theta = 1$$. The area changes from 0.250 m² to zero.
+
+**Solution**
+
+The change in flux is:
+
+<div class="equation">
+$$\Delta\Phi = \Phi_{\text{final}} - \Phi_{\text{initial}} = B(0) - B(0.250) = -1.50 \text{ T}(0.250 \text{ m}^2) = -0.375 \text{ Wb}$$
+</div>
+
+The magnitude of induced emf is:
+
+<div class="equation">
+$$|\text{emf}| = N\left|\frac{\Delta\Phi}{\Delta t}\right| = 50\left|\frac{-0.375 \text{ Wb}}{0.100 \text{ s}}\right| = 50(3.75) = 188 \text{ V}$$
+</div>
+
+For direction: The flux into the page is decreasing. By Lenz's law, the induced current must create a field into the page to oppose this decrease. By RHR-2, a clockwise current (viewed from above) creates a field into the page.
+
+**Discussion**
+
+The relatively large emf results from the rapid change in area combined with the 50-turn coil. This principle is used in various sensors and measuring devices.
+
+**Final Answer**
+
+The induced emf is 188 V, and the induced current flows clockwise when viewed from the front of the page.
 
 </div>
 </div>
@@ -330,7 +493,47 @@ Referring to the situation in the previous problem: (a) What current is induced
 in the ring if its resistance is 0.0100 $$\Omega $$ ?
 (b) What average power is dissipated? (c) What magnetic field is induced at the
 center of the ring? (d) What is the direction of the induced magnetic field
-relative to the MRI’s field?
+relative to the MRI's field?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From the previous problem, the induced emf is 3.04 mV. We use Ohm's law to find current, $$P = I^2R$$ for power, and the equation for magnetic field at the center of a circular loop: $$B = \frac{\mu_0 I}{2r}$$.
+
+**Solution for (a)**
+
+<div class="equation">
+$$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3} \text{ V}}{0.0100 \Omega} = 0.304 \text{ A}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$P = I^2 R = (0.304)^2(0.0100) = 9.24 \times 10^{-4} \text{ W} = 0.924 \text{ mW}$$
+</div>
+
+Alternatively: $$P = \frac{\text{emf}^2}{R} = \frac{(3.04 \times 10^{-3})^2}{0.0100} = 9.24 \times 10^{-4} \text{ W}$$
+
+**Solution for (c)**
+
+The radius is $$r = d/2 = 0.0220/2 = 0.0110 \text{ m}$$:
+
+<div class="equation">
+$$B = \frac{\mu_0 I}{2r} = \frac{(4\pi \times 10^{-7})(0.304)}{2(0.0110)} = 1.74 \times 10^{-5} \text{ T} = 17.4 \text{ μT}$$
+</div>
+
+**Solution for (d)**
+
+By Lenz's law, the induced field opposes the change. Since the MRI field (into which the hand moves) is increasing through the ring, the induced field points opposite to the MRI field.
+
+**Discussion**
+
+The small power dissipation (less than 1 mW) explains why the ring doesn't heat significantly. The induced field is much weaker than the 2.00 T MRI field, about 10,000 times smaller.
+
+**Final Answer**
+
+(a) 0.304 A; (b) 0.924 mW; (c) 17.4 μT; (d) opposite to the MRI field direction.
 
 </div>
 </div>
@@ -350,6 +553,44 @@ An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 0.250 m radius, 500-turn coil is rotated one-fourth of a revolution in 4.17 ms, originally having its plane perpendicular to a uniform magnetic field. (This is 60 rev/s.) Find the magnetic field strength needed to induce an average emf of 10 000 V.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+When rotated one-fourth revolution from perpendicular to parallel, $$\Delta(BA\cos\theta) = BA$$ (changes from BA to 0). We use $$\text{emf} = N\frac{\Delta\Phi}{\Delta t} = N\frac{BA}{\Delta t}$$ and solve for $$B$$.
+
+**Solution**
+
+The area of the coil is:
+
+<div class="equation">
+$$A = \pi r^2 = \pi(0.250)^2 = 0.196 \text{ m}^2$$
+</div>
+
+From Faraday's law:
+
+<div class="equation">
+$$\text{emf} = N\frac{BA}{\Delta t}$$
+</div>
+
+Solving for $$B$$:
+
+<div class="equation">
+$$B = \frac{\text{emf} \cdot \Delta t}{NA}$$
+</div>
+
+<div class="equation">
+$$B = \frac{(10000 \text{ V})(4.17 \times 10^{-3} \text{ s})}{(500)(0.196 \text{ m}^2)} = \frac{41.7}{98.0} = 0.425 \text{ T}$$
+</div>
+
+**Discussion**
+
+This field strength is achievable with strong permanent magnets or electromagnets, making this a practical generator design. The high emf results from the combination of many turns and rapid rotation.
+
+**Final Answer**
+
+The required magnetic field strength is 0.425 T.
 
 </div>
 </div>
@@ -379,6 +620,55 @@ What voltage is induced in a 1.00 m diameter loop 50.0 m from a $$ 2.00 \times
 \text{s} $$ ?
 (b) Discuss circumstances under which such a voltage would produce noticeable
 consequences.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The magnetic field from a long straight wire is $$B = \frac{\mu_0 I}{2\pi r}$$. The flux through a horizontal loop of area $$A$$ is approximately $$\Phi \approx BA$$. The induced emf is $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
+
+**Solution for (a)**
+
+The magnetic field at distance $$r = 50.0 \text{ m}$$ from the lightning bolt:
+
+<div class="equation">
+$$B = \frac{\mu_0 I}{2\pi r} = \frac{(4\pi \times 10^{-7})(2.00 \times 10^6)}{2\pi(50.0)} = \frac{8.00 \times 10^{-1}}{100\pi} = 2.55 \times 10^{-3} \text{ T}$$
+</div>
+
+The loop area is:
+
+<div class="equation">
+$$A = \pi r^2 = \pi(0.500)^2 = 0.785 \text{ m}^2$$
+</div>
+
+The change in flux as current drops to zero:
+
+<div class="equation">
+$$\Delta\Phi = BA = (2.55 \times 10^{-3})(0.785) = 2.00 \times 10^{-3} \text{ Wb}$$
+</div>
+
+The induced emf:
+
+<div class="equation">
+$$\text{emf} = \frac{\Delta\Phi}{\Delta t} = \frac{2.00 \times 10^{-3}}{25.0 \times 10^{-6}} = 80.0 \text{ V}$$
+</div>
+
+**Solution for (b)**
+
+This 80 V induced emf could produce noticeable consequences in several situations:
+- If the loop is part of electrical wiring in a building, it could damage sensitive electronic equipment
+- It could cause currents large enough to trip circuit breakers or blow fuses
+- In underground metal pipes or cables, it could cause sparking or heating
+- For a person forming a conducting loop (e.g., touching two metal objects), it could deliver a dangerous shock
+- The voltage is sufficient to break down small air gaps, causing arcing
+
+**Discussion**
+
+This demonstrates why lightning strikes can damage electrical systems even at considerable distances. Proper grounding and surge protection are essential.
+
+**Final Answer**
+
+(a) The induced voltage is 80.0 V. (b) This voltage could damage electronics, trip breakers, cause dangerous shocks, or create arcing in nearby conductors.
 
 </div>
 </div>
