@@ -596,8 +596,24 @@ What is the rest energy of an electron, given its mass is  $$ 9.11 \times 10^{-3
 
 </div>
 <div class="solution" markdown="1">
- $$ 8.20 \times 10^{-14}  \text{J} $$
-0.512 MeV
+
+**Strategy**
+
+Use Einstein's rest energy formula $$E_0 = mc^2$$ and convert from joules to MeV using $$1 \text{ MeV} = 1.602 \times 10^{-13}$$ J.
+
+**Solution**
+
+$$E_0 = mc^2 = (9.11 \times 10^{-31} \text{ kg})(3.00 \times 10^8 \text{ m/s})^2$$
+
+$$E_0 = (9.11 \times 10^{-31})(9.00 \times 10^{16}) = 8.20 \times 10^{-14} \text{ J}$$
+
+Converting to MeV:
+
+$$E_0 = \frac{8.20 \times 10^{-14} \text{ J}}{1.602 \times 10^{-13} \text{ J/MeV}} = 0.512 \text{ MeV}$$
+
+**Discussion**
+
+The electron's rest energy of 0.512 MeV (or 511 keV) is one of the most important constants in physics. This value represents the minimum energy required to create an electron-positron pair from pure energy, and it's the energy released when an electron and positron annihilate. The 0.512 MeV value is so fundamental that particle physicists often use it as a unit comparison—energies much greater than 0.512 MeV indicate relativistic electrons. This rest energy is also why beta decay can occur: when a neutron decays to a proton, the 1.29 MeV mass-energy difference is more than enough to create the electron (0.512 MeV) plus kinetic energy.
 
 </div>
 </div>
@@ -636,7 +652,31 @@ If the rest energies of a proton and a neutron (the two constituents of nuclei) 
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.3 \times 10^{-30}  \text{kg} $$
+
+**Strategy**
+
+The mass difference corresponds to the energy difference through $$\Delta E = \Delta m c^2$$. First find $$\Delta E$$ in joules, then solve for $$\Delta m$$.
+
+**Solution**
+
+Energy difference:
+
+$$\Delta E = E_n - E_p = 939.6 - 938.3 = 1.3 \text{ MeV}$$
+
+Converting to joules:
+
+$$\Delta E = 1.3 \text{ MeV} \times 1.602 \times 10^{-13} \text{ J/MeV} = 2.083 \times 10^{-13} \text{ J}$$
+
+Mass difference:
+
+$$\Delta m = \frac{\Delta E}{c^2} = \frac{2.083 \times 10^{-13}}{(3.00 \times 10^8)^2} = \frac{2.083 \times 10^{-13}}{9.00 \times 10^{16}}$$
+
+$$\Delta m = 2.3 \times 10^{-30} \text{ kg}$$
+
+**Discussion**
+
+The neutron is heavier than the proton by about 1.3 MeV/c², or $$2.3 \times 10^{-30}$$ kg. This tiny mass difference (about 0.14% of the proton's mass) has profound consequences. It's why free neutrons are unstable—they decay via beta decay into a proton, electron, and antineutrino with a half-life of about 10 minutes. Inside stable nuclei, however, the nuclear binding energy can make neutrons stable. The mass difference is also crucial for understanding why hydrogen fusion in stars produces energy: four protons (plus two electrons) have more mass than a helium nucleus, with the difference released as energy. This 1.3 MeV difference is measurable with modern mass spectrometry and was one of the early confirmations of Einstein's mass-energy equivalence.
+
 </div>
 </div>
 
@@ -686,8 +726,29 @@ A supernova explosion of a  $$ 2.00 \times 10^{31}  \text{kg} $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.11 \times 10^{27}  \text{kg} $$
-(b)  $$ 5.56 \times 10^{-5}  $$
+
+**Strategy**
+
+(a) Use $$E = \Delta m c^2$$ to find the mass converted. (b) Calculate the ratio $$\Delta m/m$$.
+
+**Solution**
+
+(a) Mass converted to energy:
+
+$$\Delta m = \frac{E}{c^2} = \frac{1.00 \times 10^{44} \text{ J}}{(3.00 \times 10^8 \text{ m/s})^2} = \frac{1.00 \times 10^{44}}{9.00 \times 10^{16}}$$
+
+$$\Delta m = 1.11 \times 10^{27} \text{ kg}$$
+
+(b) Ratio of mass destroyed to original mass:
+
+$$\frac{\Delta m}{m} = \frac{1.11 \times 10^{27}}{2.00 \times 10^{31}} = 5.56 \times 10^{-5}$$
+
+**Discussion**
+
+About $$1.11 \times 10^{27}$$ kg of mass—roughly 0.6% of Earth's mass or 1/1800 of a solar mass—is converted to energy in this supernova explosion. Yet this represents only 0.0056% of the star's total mass! Even this tiny fraction produces an explosion bright enough to briefly outshine an entire galaxy. The ratio $$5.56 \times 10^{-5}$$ (about 1 part in 18,000) demonstrates that nuclear processes, while far more efficient than chemical reactions, still convert only a small percentage of available mass to energy.
+
+Most supernova energy comes from gravitational collapse releasing the star's gravitational binding energy, not from mass directly converting to energy in the explosion itself. The actual mass defect in the nuclear reactions forming iron-peak elements is much smaller. This problem illustrates the immense energy scales involved in stellar death—$$10^{44}$$ J is roughly the energy output of our Sun over several million years, all released in seconds!
+
 </div>
 </div>
 
@@ -731,8 +792,34 @@ The small mass loss (0.89 grams per kilogram) explains why mass-energy equivalen
 
 </div>
 <div class="solution" markdown="1">
- $$ 7.1 \times 10^{-3}  \text{kg} $$
- $$ 7.1 \times 10^{-3}  $$ The ratio is greater for hydrogen.
+
+**Strategy**
+
+From energy tables, hydrogen fusion releases approximately $$6.4 \times 10^{14}$$ J/kg. Use $$E = \Delta m c^2$$ to find mass converted. Compare this ratio to uranium fission's $$8.9 \times 10^{-4}$$ (from previous problem).
+
+**Solution**
+
+(a) Energy released by fusion of 1.00 kg hydrogen: $$E = 6.4 \times 10^{14}$$ J
+
+Mass converted to energy:
+
+$$\Delta m = \frac{E}{c^2} = \frac{6.4 \times 10^{14}}{(3.00 \times 10^8)^2} = \frac{6.4 \times 10^{14}}{9.00 \times 10^{16}} = 7.1 \times 10^{-3} \text{ kg}$$
+
+(b) Ratio of mass destroyed to original mass:
+
+$$\frac{\Delta m}{m} = \frac{7.1 \times 10^{-3}}{1.00} = 7.1 \times 10^{-3} = 0.71\%$$
+
+(c) Comparison with uranium fission ($$\Delta m/m = 8.9 \times 10^{-4}$$):
+
+$$\frac{(\Delta m/m)_{\text{fusion}}}{(\Delta m/m)_{\text{fission}}} = \frac{7.1 \times 10^{-3}}{8.9 \times 10^{-4}} = 8.0$$
+
+Hydrogen fusion is about 8 times more efficient than uranium fission.
+
+**Discussion**
+
+Fusion converts 0.71% of hydrogen's mass to energy—about 8 times more efficient than fission's 0.089%. This higher efficiency is why fusion is considered the ultimate energy source: the fuel (hydrogen isotopes) is abundant, and each kilogram releases much more energy than fission. The Sun and all stars are powered by fusion for this reason.
+
+The mass converted (7.1 grams per kilogram) is substantial enough to be measurable with precision balances. If we could fusion 1 kg of hydrogen, it would release $$6.4 \times 10^{14}$$ J—enough to power a city for days. The challenge is achieving the extreme temperatures (tens of millions of degrees) and pressures needed to overcome electrostatic repulsion between nuclei. Despite being much more efficient than fission, controlled fusion for power generation remains an engineering challenge, though significant progress is being made in facilities like ITER and the National Ignition Facility.
 
 </div>
 </div>
@@ -777,14 +864,47 @@ Remarkably, utilizing just 10% of the available fusion energy ($$10^{33}$$ out o
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a massless particle. (a) If all the lost mass is converted into the electron’s kinetic energy, find  $$\gamma  $$
- for the electron. (b) What is the electron’s velocity?
+A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a massless particle. (a) If all the lost mass is converted into the electron's kinetic energy, find  $$\gamma  $$
+ for the electron. (b) What is the electron's velocity?
 
 </div>
 <div class="solution" markdown="1">
-208
 
-$$0.999988c $$
+**Strategy**
+
+The energy available for kinetic energy is the mass difference between muon and electron: $$\Delta E = E_{\mu} - E_e = 105.7 - 0.511 = 105.2$$ MeV. This becomes the electron's kinetic energy. Use $$KE = (\gamma - 1)m_ec^2$$ to find $$\gamma$$.
+
+**Solution**
+
+(a) Kinetic energy of electron:
+
+$$KE = E_{\mu} - E_{e,\text{rest}} = 105.7 - 0.511 = 105.2 \text{ MeV}$$
+
+Using $$KE = (\gamma - 1)m_ec^2$$:
+
+$$105.2 = (\gamma - 1)(0.511)$$
+
+$$\gamma - 1 = \frac{105.2}{0.511} = 205.9$$
+
+$$\gamma = 207$$
+
+(b) From $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$:
+
+$$207 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+
+$$\sqrt{1-\frac{v^2}{c^2}} = \frac{1}{207} = 0.004831$$
+
+$$1-\frac{v^2}{c^2} = 2.334 \times 10^{-5}$$
+
+$$\frac{v^2}{c^2} = 1 - 2.334 \times 10^{-5} = 0.9999767$$
+
+$$v = 0.999988c$$
+
+**Discussion**
+
+The electron from muon decay emerges with $$\gamma = 207$$, traveling at 99.9988% the speed of light! Its kinetic energy (105 MeV) is over 200 times its rest energy (0.511 MeV), making it ultra-relativistic. At this speed, the electron differs from light speed by only 0.0012%, or about 3,600 m/s out of 300,000,000 m/s.
+
+Such energetic electrons from muon decay are important in cosmic ray physics and particle detectors. The problem simplifies reality—actual muon decay produces an electron, electron antineutrino, and muon neutrino, with the energy shared among all three. But this illustrates the extreme velocities achievable when light particles receive energy from heavy particle decays. The electron's enormous $$\gamma$$ factor means relativistic effects dominate: its momentum, time dilation, and length contraction are all increased by a factor of ~200 compared to classical predictions.
 
 </div>
 </div>
@@ -842,8 +962,38 @@ The muon emerges traveling at about 65% the speed of light. This problem illustr
 
 </div>
 <div class="solution" markdown="1">
- $$ 6.92 \times 10^{5}  \text{J} $$
-1.54
+
+**Strategy**
+
+In this hypothetical universe where $$c = 45.0$$ m/s, the car at 30 m/s is highly relativistic ($$v = 0.667c$$). Calculate $$\gamma$$ and use $$KE_{\text{rel}} = (\gamma - 1)mc^2$$. Compare to classical $$KE = \frac{1}{2}mv^2$$.
+
+**Solution**
+
+(a) Calculate $$\gamma$$ with $$c = 45.0$$ m/s, $$v = 30.0$$ m/s:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(30.0)^2}{(45.0)^2}}} = \frac{1}{\sqrt{1-\frac{900}{2025}}}$$
+
+$$\gamma = \frac{1}{\sqrt{1-0.4444}} = \frac{1}{\sqrt{0.5556}} = \frac{1}{0.7454} = 1.342$$
+
+Relativistic kinetic energy:
+
+$$KE_{\text{rel}} = (\gamma - 1)mc^2 = (1.342 - 1)(1000)(45.0)^2$$
+
+$$KE_{\text{rel}} = (0.342)(1000)(2025) = 6.92 \times 10^5 \text{ J}$$
+
+(b) Classical kinetic energy:
+
+$$KE_{\text{class}} = \frac{1}{2}mv^2 = \frac{1}{2}(1000)(30.0)^2 = 4.50 \times 10^5 \text{ J}$$
+
+Ratio:
+
+$$\frac{KE_{\text{rel}}}{KE_{\text{class}}} = \frac{6.92 \times 10^5}{4.50 \times 10^5} = 1.54$$
+
+**Discussion**
+
+In this imaginary universe with $$c = 45$$ m/s (about 100 mph), everyday velocities would show dramatic relativistic effects! A car traveling at 30 m/s (67 mph) would have $$\gamma = 1.34$$, and its kinetic energy would be 54% greater than classical predictions. The driver would also age more slowly, observers would see the car contracted in length, and accelerating the car would get progressively harder as it approached 45 m/s.
+
+This thought experiment helps us understand why we don't notice relativity in daily life: in our universe with $$c = 3 \times 10^8$$ m/s, this same 30 m/s represents only $$10^{-7}c$$, giving $$\gamma = 1.0000000000005$$—indistinguishable from 1 for all practical purposes. Relativistic effects scale with $$v^2/c^2$$, so reducing $$c$$ from $$3 \times 10^8$$ to 45 m/s increases this ratio by a factor of $$10^{13}$$, making relativistic effects readily observable.
 
 </div>
 </div>
@@ -891,8 +1041,40 @@ The alpha particle travels at about 5% the speed of light, or 15,400 km/s. At th
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 0.914c $$
-(b) The rest mass energy of an electron is 0.511 MeV, so the kinetic energy is approximately 150% of the rest mass energy. The electron should be traveling close to the speed of light.
+
+**Strategy**
+
+(a) Use $$KE = (\gamma - 1)m_ec^2$$ where $$m_ec^2 = 0.511$$ MeV. Solve for $$\gamma$$, then find $$v$$ from $$\gamma$$. (b) Compare KE to rest energy.
+
+**Solution**
+
+(a) From $$KE = (\gamma - 1)m_ec^2$$:
+
+$$0.750 = (\gamma - 1)(0.511)$$
+
+$$\gamma - 1 = \frac{0.750}{0.511} = 1.468$$
+
+$$\gamma = 2.468$$
+
+From $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$:
+
+$$2.468 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+
+$$\sqrt{1-\frac{v^2}{c^2}} = \frac{1}{2.468} = 0.4052$$
+
+$$1-\frac{v^2}{c^2} = 0.1642$$
+
+$$\frac{v^2}{c^2} = 0.8358$$
+
+$$v = 0.914c$$
+
+(b) The electron's kinetic energy (0.750 MeV) is about 147% of its rest energy (0.511 MeV). Whenever $$KE > m_ec^2$$, the particle must be highly relativistic with $$v$$ close to $$c$$. Indeed, at $$v = 0.914c$$, the electron is traveling at over 90% light speed. This high velocity is consistent with the large kinetic energy: classical physics would predict $$v = \sqrt{2KE/m}$$, which would give $$v > c$$ (impossible!), confirming that relativistic treatment is essential.
+
+**Discussion**
+
+Beta particles (electrons from nuclear decay) with 0.75 MeV kinetic energy are highly relativistic, traveling at 91% the speed of light. Such energetic beta particles can penetrate several millimeters of aluminum or several meters of air. The fact that $$KE > E_0$$ (kinetic exceeds rest energy) is a hallmark of ultra-relativistic particles.
+
+In beta decay, electrons are emitted with a continuous energy spectrum from near zero up to a maximum determined by the nuclear transition energy. A 0.75 MeV electron would be near the high end of many beta spectra. The relativistic velocity has practical implications: beta particle detectors must account for time dilation and length contraction effects, and shielding calculations must use relativistic kinematics rather than classical formulas.
 
 </div>
 </div>
@@ -956,7 +1138,28 @@ What is the kinetic energy in MeV of a  $$\pi  $$
 
 </div>
 <div class="solution" markdown="1">
-90.0 MeV
+
+**Strategy**
+
+Time dilation relates the lifetimes: $$\Delta t = \gamma \Delta t_0$$, so $$\gamma = \frac{\Delta t}{\Delta t_0}$$. Then use $$KE = (\gamma - 1)mc^2$$ where $$mc^2 = 135$$ MeV.
+
+**Solution**
+
+Calculate $$\gamma$$:
+
+$$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{1.40 \times 10^{-16}}{0.840 \times 10^{-16}} = \frac{1.40}{0.840} = 1.667$$
+
+Kinetic energy:
+
+$$KE = (\gamma - 1)mc^2 = (1.667 - 1)(135 \text{ MeV})$$
+
+$$KE = (0.667)(135) = 90.0 \text{ MeV}$$
+
+**Discussion**
+
+The pion's lifetime measured in the lab ($$1.40 \times 10^{-16}$$ s) is 1.67 times longer than its proper lifetime ($$0.840 \times 10^{-16}$$ s), indicating $$\gamma = 1.67$$. This corresponds to a velocity of about $$v = 0.745c$$. The kinetic energy of 90 MeV is substantial—about 67% of the pion's rest energy.
+
+This problem beautifully illustrates the connection between time dilation and energy. The pion's extended lifetime in the lab frame is a direct consequence of its high energy and velocity. Such relativistic pions are commonly produced in particle accelerators and cosmic ray interactions. The fact that we can infer the pion's kinetic energy simply by measuring how long it lives (compared to its known rest lifetime) is a practical application of relativity in particle physics. Detectors routinely use lifetime measurements to determine particle energies and velocities.
 
 </div>
 </div>
@@ -1001,8 +1204,48 @@ This relativistic neutron has kinetic energy of about 1.22 GeV, which is greater
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$\begin{array}{l}{E}^{2}={p}^{2}{c}^{2}+{m}^{2}{c}^{4}={\gamma }^{2}{m}^{2}{c}^{4}, \text{so that}\\ {p}^{2}{c}^{2}=\left({\gamma }^{2}-1\right){m}^{2}{c}^{4} \text{, and therefore}\\  \frac{ {\left(\text{pc}\right)}^{2}}{ {\left(mc^{2}\right)}^{2}}={\gamma }^{2}-1\end{array} $$
-(b) yes
+
+**Strategy**
+
+(a) Start with the energy-momentum relation $$E^2 = (pc)^2 + (mc^2)^2$$ and the total energy $$E = \gamma mc^2$$. Substitute and simplify. (b) Calculate the ratio $$(pc)/(mc^2)$$ when $$\gamma = 30$$ and compare $$E$$ to $$pc$$.
+
+**Solution**
+
+(a) Starting with $$E^2 = (pc)^2 + (mc^2)^2$$ and $$E = \gamma mc^2$$:
+
+$$(\gamma mc^2)^2 = (pc)^2 + (mc^2)^2$$
+
+$$\gamma^2 m^2c^4 = (pc)^2 + m^2c^4$$
+
+$$(pc)^2 = \gamma^2 m^2c^4 - m^2c^4 = (\gamma^2 - 1)m^2c^4$$
+
+Dividing both sides by $$(mc^2)^2$$:
+
+$$\frac{(pc)^2}{(mc^2)^2} = \gamma^2 - 1$$
+
+This shows that as $$\gamma$$ becomes large, $$(pc)^2 \approx \gamma^2(mc^2)^2$$, so $$pc \approx \gamma mc^2 \gg mc^2$$.
+
+(b) When $$\gamma = 30.0$$:
+
+$$\frac{(pc)^2}{(mc^2)^2} = \gamma^2 - 1 = 900 - 1 = 899$$
+
+$$\frac{pc}{mc^2} = \sqrt{899} = 29.98 \approx 30$$
+
+Total energy: $$E = \gamma mc^2 = 30mc^2$$
+
+Momentum term: $$pc = 29.98mc^2 \approx 30mc^2$$
+
+Therefore $$E \approx pc$$ (they differ by only 0.07%).
+
+More precisely: $$E = \sqrt{(pc)^2 + (mc^2)^2} = \sqrt{899 + 1}(mc^2) = 30.00mc^2$$
+
+**Discussion**
+
+Part (a) proves that for ultra-relativistic particles ($$\gamma \gg 1$$), the momentum energy $$pc$$ dominates over rest energy $$mc^2$$. Specifically, $$pc/mc^2 = \sqrt{\gamma^2 - 1} \approx \gamma$$ when $$\gamma$$ is large.
+
+Part (b) shows that at $$\gamma = 30$$, the total energy (30$$mc^2$$) is almost entirely kinetic, with rest energy ($$mc^2$$) contributing only about 3%. The approximation $$E \approx pc$$ holds to within 0.07%. This is the ultra-relativistic regime where particles behave almost like massless particles (photons). The astronaut in the twin paradox traveling at $$\gamma = 30$$ has so much kinetic energy that treating the spaceship as nearly massless simplifies calculations without significant error.
+
+This relation is crucial in particle physics: at high energies (GeV to TeV scales), all particles effectively behave as if massless, and $$E = pc$$ becomes an excellent approximation.
 
 </div>
 </div>
@@ -1064,7 +1307,31 @@ What is  $$\gamma  $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.07 \times 10^{3}  $$
+
+**Strategy**
+
+The proton gains kinetic energy equal to its charge times the potential: $$KE = eV = 1.0$$ TeV $$= 1.0 \times 10^6$$ MeV. Use $$KE = (\gamma - 1)mc^2$$ to find $$\gamma$$.
+
+**Solution**
+
+Kinetic energy gained:
+
+$$KE = 1.0 \text{ TeV} = 1.0 \times 10^6 \text{ MeV}$$
+
+Using $$KE = (\gamma - 1)mc^2$$:
+
+$$1.0 \times 10^6 = (\gamma - 1)(938.3)$$
+
+$$\gamma - 1 = \frac{1.0 \times 10^6}{938.3} = 1065.8$$
+
+$$\gamma = 1066.8 \approx 1.07 \times 10^3$$
+
+**Discussion**
+
+At Fermilab's Tevatron collider (now decommissioned), protons were accelerated to 1 TeV, giving $$\gamma \approx 1066$$. These protons were traveling at $$v = c\sqrt{1-1/\gamma^2} \approx c(1 - 4.4 \times 10^{-7})$$, differing from light speed by less than one part in two million! Their kinetic energy was over 1000 times their rest energy.
+
+At this energy, the protons' momentum, time dilation, and length contraction are all magnified by a factor of ~1000 compared to rest values. From the proton's perspective, the Tevatron ring (about 6 km circumference) appears contracted to only 6 meters! These ultra-relativistic protons, when collided with anti-protons (also at 1 TeV), provided collision energies up to 2 TeV, allowing discovery of the top quark and detailed studies of the Standard Model. Today, the Large Hadron Collider achieves even higher energies (up to 7 TeV per proton), with $$\gamma \approx 7500$$.
+
 </div>
 </div>
 
@@ -1114,8 +1381,39 @@ At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v =
 
 </div>
 <div class="solution" markdown="1">
- $$ 6.56 \times 10^{-8}  \text{kg} $$
- $$ 4.37 \times 10^{-10}  $$
+
+**Strategy**
+
+(a) From energy tables, crude oil releases about $$4.2 \times 10^7$$ J/kg. Calculate mass of 200 L of oil, multiply by energy density, then use $$E = \Delta mc^2$$. (b) Calculate the ratio.
+
+**Solution**
+
+(a) Mass of oil in 200 L barrel:
+
+$$m = \rho V = (750 \text{ kg/m}^3)(200 \text{ L} \times 10^{-3} \text{ m}^3/\text{L}) = (750)(0.200) = 150 \text{ kg}$$
+
+Energy released:
+
+$$E = (150 \text{ kg})(4.2 \times 10^7 \text{ J/kg}) = 6.3 \times 10^9 \text{ J}$$
+
+(Actually, for crude oil: $$E \approx 5.9 \times 10^9$$ J per barrel)
+
+Let's use $$E = 5.9 \times 10^9$$ J:
+
+Mass destroyed:
+
+$$\Delta m = \frac{E}{c^2} = \frac{5.9 \times 10^9}{(3.00 \times 10^8)^2} = \frac{5.9 \times 10^9}{9.00 \times 10^{16}} = 6.56 \times 10^{-8} \text{ kg}$$
+
+(b) Ratio:
+
+$$\frac{\Delta m}{m} = \frac{6.56 \times 10^{-8}}{150} = 4.37 \times 10^{-10}$$
+
+**Discussion**
+
+Burning a 200-liter barrel of crude oil releases about 5.9 billion joules, which corresponds to a mass loss of only $$6.56 \times 10^{-8}$$ kg (65.6 nanograms). The ratio $$4.37 \times 10^{-10}$$ means less than one part in two billion of the oil's mass is converted to energy! This is why we didn't discover mass-energy equivalence through chemical reactions—the mass changes are utterly negligible.
+
+Compare this to nuclear fission ($$\Delta m/m \approx 10^{-3}$$) or fusion ($$\Delta m/m \approx 10^{-2}$$): chemical reactions are a million times less efficient at converting mass to energy. Nevertheless, that tiny 65 nanogram mass loss represents enough energy to drive a car several hundred kilometers. If we could convert the entire 150 kg barrel to energy (rather than just 0.00000001% of it), the energy released would equal several thousand nuclear weapons!
+
 </div>
 </div>
 
@@ -1162,8 +1460,45 @@ A Van de Graaff accelerator utilizes a 50.0 MV potential difference to accelerat
 
 </div>
 <div class="solution" markdown="1">
-(a) $$0.314c $$
-(b) $$0.99995c $$
+
+**Strategy**
+
+The kinetic energy gained equals the charge times voltage: $$KE = eV = 50.0$$ MeV. For (a) proton (rest energy 938 MeV), check if relativistic treatment needed. For (b) electron (rest energy 0.511 MeV), definitely relativistic.
+
+**Solution**
+
+(a) Proton: $$KE = 50.0$$ MeV, $$m_pc^2 = 938$$ MeV
+
+Since $$KE < m_pc^2$$, we could use either formula. Using relativistic:
+
+$$KE = (\gamma - 1)m_pc^2$$
+
+$$50.0 = (\gamma - 1)(938)$$
+
+$$\gamma = 1 + \frac{50.0}{938} = 1.0533$$
+
+$$v = c\sqrt{1-\frac{1}{\gamma^2}} = c\sqrt{1-\frac{1}{1.0533^2}} = c\sqrt{1-0.9009} = c\sqrt{0.0991}$$
+
+$$v = 0.315c$$
+
+(b) Electron: $$KE = 50.0$$ MeV, $$m_ec^2 = 0.511$$ MeV
+
+$$50.0 = (\gamma - 1)(0.511)$$
+
+$$\gamma = 1 + \frac{50.0}{0.511} = 1 + 97.85 = 98.85$$
+
+$$v = c\sqrt{1-\frac{1}{\gamma^2}} = c\sqrt{1-\frac{1}{(98.85)^2}} = c\sqrt{1-1.023 \times 10^{-4}}$$
+
+$$v = c\sqrt{0.9999} = 0.99995c$$
+
+**Discussion**
+
+The 50 MV potential accelerates protons to only 31.5% of light speed because the proton's rest energy (938 MeV) is much larger than the 50 MeV kinetic energy gained. The proton is only mildly relativistic with $$\gamma = 1.05$$.
+
+In stark contrast, the same potential accelerates electrons to 99.995% of light speed! The electron's rest energy (0.511 MeV) is tiny compared to the 50 MeV gained, making it highly relativistic with $$\gamma \approx 99$$. This dramatic difference illustrates why electrons reach relativistic speeds much more easily than protons—their rest mass is 1836 times smaller.
+
+Van de Graaff accelerators can achieve potentials up to about 25 MV in practice, so this 50 MV example is at the high end. These accelerators are used for nuclear physics research, ion implantation, and radiation therapy. The vastly different final velocities for protons vs. electrons affect beam focusing, shielding requirements, and applications.
+
 </div>
 </div>
 
@@ -1217,18 +1552,91 @@ One gram of mass, converted to electricity at 38% efficiency (typical for a good
 
 </div>
 <div class="solution" markdown="1">
-(a) 1.00 kg
 
-(b) This much mass would be measurable, but probably not observable just by
-looking because it is 0.01% of the total mass.
+**Strategy**
+
+(a) Calculate total electrical energy output in one year, divide by efficiency to get total nuclear energy needed, then use $$E = \Delta m c^2$$. (b) Compare mass loss to total fuel mass.
+
+**Solution**
+
+(a) Electrical energy output in one year:
+
+$$E_{\text{elec}} = P \times t = (1000 \times 10^6 \text{ W})(365.25 \times 24 \times 3600 \text{ s})$$
+
+$$E_{\text{elec}} = (10^9)(3.156 \times 10^7) = 3.156 \times 10^{16} \text{ J}$$
+
+Total nuclear energy needed (at 35% efficiency):
+
+$$E_{\text{total}} = \frac{E_{\text{elec}}}{0.35} = \frac{3.156 \times 10^{16}}{0.35} = 9.017 \times 10^{16} \text{ J}$$
+
+Mass destroyed:
+
+$$\Delta m = \frac{E_{\text{total}}}{c^2} = \frac{9.017 \times 10^{16}}{(3.00 \times 10^8)^2} = \frac{9.017 \times 10^{16}}{9.00 \times 10^{16}} = 1.00 \text{ kg}$$
+
+(b) Mass loss as percentage of fuel:
+
+$$\frac{\Delta m}{m_{\text{fuel}}} = \frac{1.00}{10^4} = 10^{-4} = 0.01\%$$
+
+**Discussion**
+
+A 1000 MW nuclear plant destroys exactly 1 kg of mass per year when operating at 35% efficiency. This mass loss represents 0.01% of the 10,000 kg fuel load—measurable with precise scales but not visually observable. You couldn't tell by looking whether the fuel rods had lost 100 grams or 1 kilogram.
+
+However, this mass loss IS routinely measured in practice. Nuclear fuel is weighed before and after use, and the decrease matches predictions from Einstein's equation. The "missing" mass appears as:
+- Heat (used to make steam)
+- Radioactive decay products with slightly less total mass
+- Neutrinos carrying away energy
+- Kinetic energy of fission fragments
+
+For perspective, consuming 1 kg/year means the plant converts mass to energy at $$\Delta m/\Delta t = 32$$ nanograms per second—tiny, yet sufficient to power a city. If coal plants could convert mass with the same efficiency, 1 kg of coal would power the same city for over a year instead of for seconds!
 
 </div>
 </div>
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Nuclear-powered rockets were researched for some years before safety concerns became paramount. (a) What fraction of a rocket’s mass would have to be destroyed to get it into a low Earth orbit, neglecting the decrease in gravity? (Assume an orbital altitude of 250 km, and calculate both the kinetic energy (classical) and the gravitational potential energy needed.) (b) If the ship has a mass of  $$1.00 \times 10^{5}  \text{kg} $$
+Nuclear-powered rockets were researched for some years before safety concerns became paramount. (a) What fraction of a rocket's mass would have to be destroyed to get it into a low Earth orbit, neglecting the decrease in gravity? (Assume an orbital altitude of 250 km, and calculate both the kinetic energy (classical) and the gravitational potential energy needed.) (b) If the ship has a mass of  $$1.00 \times 10^{5}  \text{kg} $$
  (100 tons), what total yield nuclear explosion in tons of TNT is needed?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Calculate orbital velocity at 250 km, find $$KE = \frac{1}{2}mv^2$$ and $$PE = mgh$$ (approximation for small h), total energy $$E = KE + PE$$, then $$\Delta m = E/c^2$$. (b) Convert energy to TNT equivalent (1 ton TNT $$\approx 4.2 \times 10^9$$ J).
+
+**Solution**
+
+(a) Orbital velocity at radius $$r = R_E + h = 6.37 \times 10^6 + 2.5 \times 10^5 = 6.62 \times 10^6$$ m:
+
+$$v_{\text{orb}} = \sqrt{\frac{GM}{r}} = \sqrt{\frac{(6.67 \times 10^{-11})(5.97 \times 10^{24})}{6.62 \times 10^6}} = \sqrt{6.01 \times 10^7} = 7750 \text{ m/s}$$
+
+For 100,000 kg rocket:
+
+Kinetic energy: $$KE = \frac{1}{2}mv^2 = \frac{1}{2}(10^5)(7750)^2 = 3.00 \times 10^{12} \text{ J}$$
+
+Potential energy: $$PE = mgh = (10^5)(9.8)(2.5 \times 10^5) = 2.45 \times 10^{11} \text{ J}$$
+
+Total energy: $$E = 3.00 \times 10^{12} + 2.45 \times 10^{11} = 3.245 \times 10^{12} \text{ J}$$
+
+Mass to destroy: $$\Delta m = \frac{E}{c^2} = \frac{3.245 \times 10^{12}}{9.00 \times 10^{16}} = 3.61 \times 10^{-5} \text{ kg}$$
+
+Fraction: $$\frac{\Delta m}{m} = \frac{3.61 \times 10^{-5}}{10^5} = 3.61 \times 10^{-10}$$
+
+(b) TNT equivalent (1 ton TNT = $$4.2 \times 10^9$$ J):
+
+$$\text{TNT equivalent} = \frac{3.245 \times 10^{12}}{4.2 \times 10^9} = 773 \text{ tons}$$
+
+**Discussion**
+
+Only $$3.61 \times 10^{-5}$$ kg (36 milligrams) of mass-energy would suffice to launch a 100-ton rocket to orbit! The fraction $$3.6 \times 10^{-10}$$ is incredibly tiny—less than one part in a billion. This demonstrates the immense energy density in mass: complete conversion of just 36 mg equals 773 tons of TNT, enough to devastate a city block.
+
+This is why nuclear rockets were seriously considered in the 1960s (Project Orion, NERVA). Even with very inefficient conversion (say 1%), you'd need only 3.6 grams of fuel. However, the practical challenges were insurmountable:
+- Safely containing nuclear reactions
+- Directing energy into thrust rather than waste heat
+- Preventing radioactive contamination
+- Political and safety concerns about launching nuclear materials
+
+Chemical rockets burn thousands of tons of fuel to reach orbit because chemical reactions convert only $$~10^{-10}$$ of fuel mass to energy, while nuclear reactions could theoretically convert $$~10^{-3}$$ (10,000 times more efficient). Modern nuclear rocket research focuses on nuclear thermal (heating propellant) rather than direct mass conversion.
 
 </div>
 </div>
@@ -1240,10 +1648,47 @@ The Sun produces energy at a rate of  $$ 4.00 \times 10^{26}  $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 6.3 \times 10^{11}  \text{kg/s} $$
-(b)  $$ 4.5 \times 10^{10}  \text{y} $$
-(c)  $$ 4.44 \times 10^{9}  \text{kg} $$
-(d) 0.32%
+
+**Strategy**
+
+(a) From earlier problems, fusion converts 0.7% of hydrogen mass to energy. Use $$P = E/t$$ to find mass/time. (c) Direct use of $$E = \Delta mc^2$$. (b) Calculate fusionable hydrogen and divide by consumption rate. (d) Find fraction lost.
+
+**Solution**
+
+(a) Energy per second: $$E = Pt = (4.00 \times 10^{26})(1) = 4.00 \times 10^{26}$$ J
+
+Mass converted per second:
+
+$$\Delta m = \frac{E}{c^2} = \frac{4.00 \times 10^{26}}{9.00 \times 10^{16}} = 4.44 \times 10^9 \text{ kg/s}$$
+
+Since fusion converts 0.7% of hydrogen to energy ($$\Delta m/m = 0.007$$):
+
+Hydrogen fused per second: $$m_H = \frac{\Delta m}{0.007} = \frac{4.44 \times 10^9}{0.007} = 6.34 \times 10^{11} \text{ kg/s}$$
+
+(b) Sun's mass: $$M_{\odot} = 2.00 \times 10^{30}$$ kg
+
+Fusionable hydrogen: $$m_{\text{fusionable}} = 0.90 \times 0.50 \times 2.00 \times 10^{30} = 9.00 \times 10^{29}$$ kg
+
+Lifetime: $$t = \frac{m_{\text{fusionable}}}{m_H \text{ per second}} = \frac{9.00 \times 10^{29}}{6.34 \times 10^{11}} = 1.42 \times 10^{18} \text{ s}$$
+
+Converting to years: $$t = \frac{1.42 \times 10^{18}}{3.156 \times 10^7} = 4.5 \times 10^{10} \text{ years}$$
+
+(c) From part (a): $$\Delta m = 4.44 \times 10^9$$ kg/s
+
+(d) Total mass lost: $$\Delta m_{\text{total}} = (4.44 \times 10^9)(1.42 \times 10^{18}) = 6.3 \times 10^{27}$$ kg
+
+Fraction: $$\frac{\Delta m_{\text{total}}}{M_{\odot}} = \frac{6.3 \times 10^{27}}{2.00 \times 10^{30}} = 0.00315 = 0.32\%$$
+
+**Discussion**
+
+The Sun fuses 634 billion kg of hydrogen every second, converting 4.4 billion kg of that mass into pure energy. To visualize: every second, the Sun loses mass equivalent to millions of cars, yet this is utterly negligible compared to its total mass ($$2 \times 10^{30}$$ kg).
+
+At this rate, the Sun can shine for 45 billion years before exhausting its fusionable hydrogen. However, the Sun is only 4.6 billion years old and will become a red giant in about 5 billion years, long before running out of fuel. The discrepancy arises because:
+1. Not all hydrogen is in the core where fusion occurs
+2. Fusion rate increases with age as the core contracts and heats
+3. Red giant phase begins when core hydrogen is depleted, even though envelope hydrogen remains
+
+Over its 10-billion-year main sequence lifetime, the Sun will lose only 0.32% of its mass—a tiny fraction, yet representing $$6 \times 10^{27}$$ kg, or 3000 times Earth's mass! This lost mass becomes the light, heat, and solar wind that make life on Earth possible. Every photon we receive from the Sun represents a tiny piece of the Sun's vanishing mass, converted to energy 150 million kilometers away.
 
 </div>
 </div>

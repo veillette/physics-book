@@ -155,7 +155,27 @@ Find the momentum of a helium nucleus having a mass of  $$ 6.68 \times 10^{-27} 
 
 </div>
 <div class="solution" markdown="1">
- $$ 4.09 \times 10^{-19} \text{kg}\cdot \text{m/s} $$
+
+**Strategy**
+
+Use the relativistic momentum formula $$p = \gamma mu$$, where $$m = 6.68 \times 10^{-27}$$ kg, $$u = 0.200c$$, and $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}}$$.
+
+**Solution**
+
+First, calculate $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.200c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.0400}} = \frac{1}{\sqrt{0.9600}} = \frac{1}{0.9798} = 1.0206$$
+
+Now calculate the relativistic momentum:
+
+$$p = \gamma mu = (1.0206)(6.68 \times 10^{-27} \text{ kg})(0.200)(3.00 \times 10^8 \text{ m/s})$$
+
+$$p = (1.0206)(6.68 \times 10^{-27})(6.00 \times 10^7) = 4.09 \times 10^{-19} \text{ kg·m/s}$$
+
+**Discussion**
+
+At 20% the speed of light, the helium nucleus (alpha particle) is only mildly relativistic, with $$\gamma = 1.02$$. This means its relativistic momentum is only about 2% greater than the classical value. The classical momentum would be $$p_{\text{classical}} = mu = (6.68 \times 10^{-27})(6.00 \times 10^7) = 4.01 \times 10^{-19}$$ kg·m/s. Alpha particles from radioactive decay typically have velocities in the range of 0.03c to 0.07c, but higher-energy alphas from nuclear reactions can reach velocities like this. At these speeds, relativistic corrections are small but measurable with modern instrumentation.
+
 </div>
 </div>
 
@@ -198,10 +218,34 @@ The electron's relativistic momentum is $$1.35 \times 10^{-21}$$ kg·m/s. For co
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 3.000000015 \times 10^{13}  \text{kg}\cdot \text{m/s} $$.
 
-(b) Ratio of relativistic to classical momenta equals 1.000000005 (extra digits
-to show small effects)
+**Strategy**
+
+(a) Convert velocity to m/s and use $$p = \gamma mu$$ with the low-velocity approximation for $$\gamma$$. (b) The ratio is simply $$\gamma$$ since $$\frac{p_{\text{rel}}}{p_{\text{classical}}} = \frac{\gamma mu}{mu} = \gamma$$.
+
+**Solution**
+
+(a) Given: $$m = 1.00 \times 10^9$$ kg, $$u = 30.0$$ km/s $$= 3.00 \times 10^4$$ m/s
+
+Using the approximation $$\gamma \approx 1 + \frac{1}{2}\frac{u^2}{c^2}$$:
+
+$$\gamma \approx 1 + \frac{1}{2}\frac{(3.00 \times 10^4)^2}{(3.00 \times 10^8)^2} = 1 + \frac{1}{2}\frac{9.00 \times 10^8}{9.00 \times 10^{16}}$$
+
+$$\gamma \approx 1 + \frac{1}{2}(1.00 \times 10^{-8}) = 1 + 5.00 \times 10^{-9} = 1.000000005$$
+
+Relativistic momentum:
+
+$$p = \gamma mu = (1.000000005)(1.00 \times 10^9)(3.00 \times 10^4)$$
+
+$$p = 3.000000015 \times 10^{13} \text{ kg·m/s}$$
+
+(b) Ratio:
+
+$$\frac{p_{\text{rel}}}{p_{\text{classical}}} = \gamma = 1.000000005$$
+
+**Discussion**
+
+The asteroid's velocity (30 km/s) is only $$10^{-4}c$$, making it essentially non-relativistic. The relativistic momentum exceeds the classical value by only 5 parts per billion—an utterly negligible difference for any practical purpose. This is typical for astronomical objects in our solar system: even objects moving at orbital velocities (tens of km/s) are so slow compared to light that relativistic effects are completely undetectable. This asteroid's momentum of $$3 \times 10^{13}$$ kg·m/s is enormous by human standards (equivalent to about 3 billion cars moving at highway speeds), but relativistic corrections to this momentum are far too small to measure or matter for trajectory calculations.
 
 </div>
 </div>
@@ -256,7 +300,35 @@ What is the velocity of an electron that has a momentum of  $$3.04 \times 10^{-2
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.9957 \times 10^{8}  \text{m/s} $$
+
+**Strategy**
+
+Use $$p = \gamma mu$$ where $$m_e = 9.11 \times 10^{-31}$$ kg. Derive the relation $$u = \frac{pc}{\sqrt{m^2c^2 + p^2}}$$ by squaring and solving for $$u$$.
+
+**Solution**
+
+From $$p = \gamma mu = \frac{mu}{\sqrt{1-\frac{u^2}{c^2}}}$$, squaring and rearranging gives:
+
+$$u = \frac{pc}{\sqrt{m^2c^2 + p^2}}$$
+
+Substituting values ($$m_e = 9.11 \times 10^{-31}$$ kg, $$p = 3.04 \times 10^{-21}$$ kg·m/s):
+
+$$u = \frac{(3.04 \times 10^{-21})(3.00 \times 10^8)}{\sqrt{(9.11 \times 10^{-31})^2(3.00 \times 10^8)^2 + (3.04 \times 10^{-21})^2}}$$
+
+$$m^2c^2 = (9.11 \times 10^{-31})^2(3.00 \times 10^8)^2 = 7.469 \times 10^{-45}$$
+
+$$p^2 = (3.04 \times 10^{-21})^2 = 9.242 \times 10^{-42}$$
+
+Since $$p^2 \gg m^2c^2$$, the electron is ultra-relativistic:
+
+$$u = \frac{(3.04 \times 10^{-21})(3.00 \times 10^8)}{\sqrt{9.242 \times 10^{-42}}} = \frac{9.12 \times 10^{-13}}{3.040 \times 10^{-21}} = 2.9957 \times 10^8 \text{ m/s}$$
+
+Or $$u = 0.9986c$$ (to 4 significant figures).
+
+**Discussion**
+
+The electron is traveling at 99.86% the speed of light, differing from $$c$$ by only 0.14% or about 420,000 m/s. At this velocity, $$\gamma \approx 19.4$$. The classical momentum would be $$p_{\text{classical}} = m_eu = (9.11 \times 10^{-31})(2.9957 \times 10^8) = 2.73 \times 10^{-22}$$ kg·m/s, which is about 11 times smaller than the actual relativistic value. Such ultra-relativistic electrons are common in particle accelerators, cosmic rays, and astrophysical jets. The problem specifically asks for four significant figures to distinguish the velocity from $$c$$, highlighting how close to light speed the electron is traveling.
+
 </div>
 </div>
 
@@ -315,8 +387,32 @@ The proton is traveling at about 69% the speed of light. At this velocity, $$\ga
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.121 \times 10^{-8} \text{m/s} $$
-(b) The small speed tells us that the mass of a proton is substantially smaller than that of even a tiny amount of macroscopic matter!
+
+**Strategy**
+
+(a) First find the proton's relativistic momentum using $$p = \gamma m_pu$$. Then equate this to the dust particle's classical momentum $$p = m_{\text{dust}}v$$ (classical is fine since we expect $$v \ll c$$). Solve for $$v$$.
+
+**Solution**
+
+(a) Proton's $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.999c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.998001}} = \frac{1}{\sqrt{0.001999}} = \frac{1}{0.04471} = 22.37$$
+
+Proton's momentum ($$m_p = 1.67 \times 10^{-27}$$ kg):
+
+$$p = \gamma m_pu = (22.37)(1.67 \times 10^{-27})(0.999)(3.00 \times 10^8)$$
+
+$$p = (22.37)(1.67 \times 10^{-27})(2.997 \times 10^8) = 1.119 \times 10^{-17} \text{ kg·m/s}$$
+
+Dust particle speed ($$m_{\text{dust}} = 1.00$$ μg $$= 1.00 \times 10^{-9}$$ kg):
+
+$$v = \frac{p}{m_{\text{dust}}} = \frac{1.119 \times 10^{-17}}{1.00 \times 10^{-9}} = 1.12 \times 10^{-8} \text{ m/s}$$
+
+(b) The incredibly slow speed (about 11 nanometers per second, or 0.04 millimeters per hour!) tells us that even though the proton is moving at 99.9% the speed of light, a microscopic dust particle needs to move only glacially slowly to have the same momentum. This dramatically illustrates that the proton's mass ($$1.67 \times 10^{-27}$$ kg) is utterly tiny compared to even a microgram of ordinary matter. Specifically, the mass ratio is $$\frac{10^{-9}}{1.67 \times 10^{-27}} = 6 \times 10^{17}$$—the dust particle is about 600 million billion times more massive than a single proton!
+
+**Discussion**
+
+This problem beautifully illustrates the vast difference between atomic and macroscopic scales. Despite the proton's enormous velocity and significant relativistic effects ($$\gamma = 22$$), its momentum is so small from a macroscopic perspective that a dust speck barely needs to creep along to match it. The calculation also shows why we never notice relativistic effects in everyday life: to give macroscopic objects the same momentum as relativistic particles requires such tiny velocities that relativistic corrections would be immeasurably small. Conversely, individual atoms and subatomic particles can easily achieve relativistic speeds because their tiny masses mean even modest energies produce enormous accelerations.
 
 </div>
 </div>
