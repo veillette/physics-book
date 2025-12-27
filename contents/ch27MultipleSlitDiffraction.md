@@ -341,7 +341,40 @@ How many lines per centimeter are there on a diffraction grating that gives a fi
 
 </div>
 <div class="solution" markdown="1">
- $$ 8.99 \times 10^{3}  $$
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ to find the grating spacing d, then calculate the number of lines per centimeter as N = 1/d.
+
+**Solution**
+
+Given:
+- $$\lambda = 470 \text{ nm} = 470 \times 10^{-9} \text{ m}$$
+- $$\theta = 25.0°$$
+- $$m = 1$$ (first-order maximum)
+
+**Step 1: Find the grating spacing**
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(470 \times 10^{-9} \text{ m})}{\sin 25.0°}$$
+</div>
+
+<div class="equation">
+$$d = \frac{470 \times 10^{-9}}{0.4226} = 1.112 \times 10^{-6} \text{ m}$$
+</div>
+
+**Step 2: Find the number of lines per centimeter**
+
+<div class="equation">
+$$N = \frac{1 \text{ cm}}{d} = \frac{0.01 \text{ m}}{1.112 \times 10^{-6} \text{ m}} = 8.99 \times 10^{3} \text{ lines/cm}$$
+</div>
+
+**Discussion**
+
+A grating with approximately 9000 lines/cm is a moderately fine diffraction grating. This spacing of about 1.11 μm (about 2.4 wavelengths of blue light) produces the first-order maximum at 25.0°, which is a convenient angle for observation. This is close to commercial gratings often available with 5000-10,000 lines/cm. Higher orders would appear at larger angles: the second order at about 57.1° and the third order at about 80.8°, with a maximum possible order of m_max = d/λ ≈ 2.4, meaning only orders 0, 1, and 2 would be fully observable.
+
 </div>
 </div>
 
@@ -391,7 +424,45 @@ Calculate the wavelength of light that has its second-order maximum at  $$ 45.0�
 
 </div>
 <div class="solution" markdown="1">
-707 nm
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ with m = 2 (second-order) to solve for the wavelength λ. First, find the grating spacing d from the line density.
+
+**Solution**
+
+Given:
+- Line density: 5000 lines/cm
+- $$\theta = 45.0°$$
+- $$m = 2$$ (second-order maximum)
+
+**Step 1: Find the grating spacing**
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{5000 \text{ lines}} = \frac{0.01 \text{ m}}{5000} = 2.00 \times 10^{-6} \text{ m}$$
+</div>
+
+**Step 2: Find the wavelength**
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$\lambda = \frac{d \sin \theta}{m} = \frac{(2.00 \times 10^{-6} \text{ m}) \sin 45.0°}{2}$$
+</div>
+
+<div class="equation">
+$$\lambda = \frac{(2.00 \times 10^{-6})(0.7071)}{2} = \frac{1.414 \times 10^{-6}}{2}$$
+</div>
+
+<div class="equation">
+$$\lambda = 7.07 \times 10^{-7} \text{ m} = 707 \text{ nm}$$
+</div>
+
+**Discussion**
+
+The wavelength of 707 nm falls in the red region of the visible spectrum (near the long-wavelength end). This is close to deep red light. The second-order maximum appears at 45.0°, which is a reasonably large angle, making it easy to observe and measure.
+
+We can verify this is reasonable: the first-order maximum would appear at an angle where sin θ₁ = λ/d = 707/2000 = 0.354, giving θ₁ = 20.7°. The third-order would be at sin θ₃ = 3λ/d = 2121/2000 = 1.06 > 1, which is impossible, so no third-order maximum exists. This grating can show at most the zeroth, first, and second orders for this wavelength.
 
 </div>
 </div>
@@ -469,9 +540,86 @@ The H-alpha line at 656 nm is the brightest and most famous line in the visible 
 
 </div>
 <div class="solution" markdown="1">
- $$\begin{array}{}\left(\text{a}\right)  11.8º, 12.5º, 14.1º, 19.2º\end{array} $$
- $$\begin{array}{}\left(\text{b}\right)  24.2º, 25.7º, 29.1º, 41.0º\end{array} $$
-(c) Decreasing the number of lines per centimeter by a factor of x means that the angle for the x­‐order maximum is the same as the original angle for the first-­ order maximum.
+
+**Strategy**
+
+Use the four hydrogen wavelengths from the previous problem (410, 434, 486, and 656 nm) with the new grating. For part (a), find first-order angles with the 5000 lines/cm grating. For part (b), find second-order angles. For part (c), compare how changing the grating spacing by a factor affects the angles.
+
+**Solution**
+
+The four hydrogen wavelengths are: 410 nm, 434 nm, 486 nm, and 656 nm.
+
+For the 5000-line-per-centimeter grating:
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{5000} = \frac{0.01 \text{ m}}{5000} = 2.00 \times 10^{-6} \text{ m}$$
+</div>
+
+**(a) First-order angles with 5000 lines/cm grating:**
+
+Using $$\sin \theta = \frac{m\lambda}{d}$$ with m = 1:
+
+**For λ = 410 nm:**
+<div class="equation">
+$$\sin \theta_1 = \frac{410 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.205 \quad \Rightarrow \quad \theta_1 = 11.8°$$
+</div>
+
+**For λ = 434 nm:**
+<div class="equation">
+$$\sin \theta_2 = \frac{434 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.217 \quad \Rightarrow \quad \theta_2 = 12.5°$$
+</div>
+
+**For λ = 486 nm:**
+<div class="equation">
+$$\sin \theta_3 = \frac{486 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.243 \quad \Rightarrow \quad \theta_3 = 14.1°$$
+</div>
+
+**For λ = 656 nm:**
+<div class="equation">
+$$\sin \theta_4 = \frac{656 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.328 \quad \Rightarrow \quad \theta_4 = 19.2°$$
+</div>
+
+**First-order angles: 11.8°, 12.5°, 14.1°, 19.2°**
+
+**(b) Second-order angles with 5000 lines/cm grating:**
+
+Using $$\sin \theta = \frac{m\lambda}{d}$$ with m = 2:
+
+**For λ = 410 nm:**
+<div class="equation">
+$$\sin \theta_1 = \frac{(2)(410 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.410 \quad \Rightarrow \quad \theta_1 = 24.2°$$
+</div>
+
+**For λ = 434 nm:**
+<div class="equation">
+$$\sin \theta_2 = \frac{(2)(434 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.434 \quad \Rightarrow \quad \theta_2 = 25.7°$$
+</div>
+
+**For λ = 486 nm:**
+<div class="equation">
+$$\sin \theta_3 = \frac{(2)(486 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.486 \quad \Rightarrow \quad \theta_3 = 29.1°$$
+</div>
+
+**For λ = 656 nm:**
+<div class="equation">
+$$\sin \theta_4 = \frac{(2)(656 \times 10^{-9})}{2.00 \times 10^{-6}} = 0.656 \quad \Rightarrow \quad \theta_4 = 41.0°$$
+</div>
+
+**Second-order angles: 24.2°, 25.7°, 29.1°, 41.0°**
+
+**(c) Relationship between line density and angles:**
+
+Notice that the second-order angles for the 5000 lines/cm grating (24.2°, 25.7°, 29.1°, 41.0°) are exactly the same as the first-order angles for the 10,000 lines/cm grating from the previous problem!
+
+This demonstrates a general principle: **When you decrease the number of lines per centimeter by a factor of n (thereby increasing d by a factor of n), the angles for the n-th order maximum with the new grating equal the angles for the first-order maximum with the original grating.**
+
+Mathematically: If $$d_2 = n \cdot d_1$$, then $$\sin \theta_{m=1, d_1} = \frac{\lambda}{d_1}$$ equals $$\sin \theta_{m=n, d_2} = \frac{n\lambda}{n \cdot d_1} = \frac{\lambda}{d_1}$$.
+
+In this case, halving the line density (10,000 → 5000 lines/cm) means doubling d, so the second-order (n=2) angles with the coarser grating equal the first-order angles with the finer grating.
+
+**Discussion**
+
+This scaling relationship is very useful in diffraction grating design. It shows that using a coarser grating with higher-order maxima can produce the same angular positions as using a finer grating with lower-order maxima. However, higher orders are generally dimmer and may suffer from overlapping spectra from different orders. The 5000 lines/cm grating produces more widely spaced orders, making them easier to observe separately, while the 10,000 lines/cm grating provides better resolution within each order.
 
 </div>
 </div>
@@ -528,7 +676,54 @@ The yellow light from a sodium vapor lamp *seems* to be of pure wavelength, but 
 
 </div>
 <div class="solution" markdown="1">
-589.1 nm and 589.6 nm
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ to find each wavelength from its angle. First, calculate the grating spacing d from the line density, then solve for λ at each angle.
+
+**Solution**
+
+Given:
+- Line density: 10,000 lines/cm
+- $$\theta_1 = 36.093°$$
+- $$\theta_2 = 36.129°$$
+- $$m = 1$$ (first-order maxima)
+
+**Step 1: Find the grating spacing**
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{10,000 \text{ lines}} = \frac{0.01 \text{ m}}{10,000} = 1.00 \times 10^{-6} \text{ m}$$
+</div>
+
+**Step 2: Find the first wavelength**
+
+Using $$\lambda = d \sin \theta / m$$:
+
+<div class="equation">
+$$\lambda_1 = d \sin \theta_1 = (1.00 \times 10^{-6} \text{ m}) \sin 36.093°$$
+</div>
+
+<div class="equation">
+$$\lambda_1 = (1.00 \times 10^{-6})(0.58906) = 5.891 \times 10^{-7} \text{ m} = 589.1 \text{ nm}$$
+</div>
+
+**Step 3: Find the second wavelength**
+
+<div class="equation">
+$$\lambda_2 = d \sin \theta_2 = (1.00 \times 10^{-6} \text{ m}) \sin 36.129°$$
+</div>
+
+<div class="equation">
+$$\lambda_2 = (1.00 \times 10^{-6})(0.58963) = 5.896 \times 10^{-7} \text{ m} = 589.6 \text{ nm}$$
+</div>
+
+**Discussion**
+
+These two wavelengths, 589.1 nm and 589.6 nm, form the famous **sodium D-line doublet**. The two lines are separated by only 0.5 nm (or about 6 nm), which is why sodium light appears to be pure yellow to the eye - the two wavelengths are too close for the eye to distinguish.
+
+The doublet arises from the fine structure of sodium's electron energy levels: transitions from two closely spaced upper states (²P₃/₂ and ²P₁/₂) to the same ground state (²S₁/₂) produce the D₂ line (589.0 nm) and D₁ line (589.6 nm).
+
+This problem demonstrates the high resolving power of diffraction gratings. The angular separation is only 0.036°, yet the grating cleanly separates the two lines. The ability to resolve such closely spaced wavelengths is crucial for spectroscopic analysis in astronomy, chemistry, and physics.
 
 </div>
 </div>
@@ -579,7 +774,46 @@ Structures on a bird feather act like a reflection grating having 8000 lines per
 
 </div>
 <div class="solution" markdown="1">
- $$28.7 ^\circ $$
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ with m = 1 to find the angle. First, calculate the spacing d from the line density, then solve for θ.
+
+**Solution**
+
+Given:
+- Line density: 8000 lines/cm
+- $$\lambda = 600 \text{ nm} = 600 \times 10^{-9} \text{ m}$$
+- $$m = 1$$ (first-order maximum)
+
+**Step 1: Find the structure spacing**
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{8000 \text{ lines}} = \frac{0.01 \text{ m}}{8000} = 1.25 \times 10^{-6} \text{ m}$$
+</div>
+
+**Step 2: Find the angle**
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{d} = \frac{(1)(600 \times 10^{-9} \text{ m})}{1.25 \times 10^{-6} \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta = \frac{600}{1250} = 0.480$$
+</div>
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.480) = 28.7°$$
+</div>
+
+**Discussion**
+
+The first-order maximum for orange-red light (600 nm) appears at 28.7° from the normal. This angle is typical for structural coloration in bird feathers. The spacing of 1.25 μm is roughly twice the wavelength, which is ideal for producing visible diffraction patterns.
+
+Birds with iridescent feathers (like hummingbirds, peacocks, and starlings) have microscopic structures on their feather barbules that act as natural diffraction gratings. As the bird moves and the viewing angle changes, different wavelengths satisfy the constructive interference condition, causing the brilliant color shifts characteristic of iridescence. For this feather, shorter wavelengths (blue, violet) would appear at smaller angles, while longer wavelengths (red) would appear at larger angles, creating a rainbow effect with changing perspective.
+
 </div>
 </div>
 
@@ -638,7 +872,51 @@ At what angle does a diffraction grating produces a second-order maximum for lig
 
 </div>
 <div class="solution" markdown="1">
- $$ 43.2º $$
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ for both orders. From the first-order angle, find the ratio λ/d, then use this to find the second-order angle.
+
+**Solution**
+
+Given:
+- $$\theta_1 = 20.0°$$ (first-order maximum)
+- Find: $$\theta_2$$ (second-order maximum)
+
+**Step 1: Find the ratio λ/d from the first-order condition**
+
+For the first-order maximum (m = 1):
+
+<div class="equation">
+$$d \sin \theta_1 = (1)\lambda$$
+</div>
+
+<div class="equation">
+$$\frac{\lambda}{d} = \sin \theta_1 = \sin 20.0° = 0.342$$
+</div>
+
+**Step 2: Find the second-order angle**
+
+For the second-order maximum (m = 2):
+
+<div class="equation">
+$$d \sin \theta_2 = 2\lambda$$
+</div>
+
+<div class="equation">
+$$\sin \theta_2 = \frac{2\lambda}{d} = 2 \times 0.342 = 0.684$$
+</div>
+
+<div class="equation">
+$$\theta_2 = \sin^{-1}(0.684) = 43.2°$$
+</div>
+
+**Discussion**
+
+The second-order maximum appears at 43.2°, more than twice the first-order angle (20.0°). This is because the sine function is nonlinear - while sin θ doubles from first to second order, the angle itself more than doubles.
+
+This result is general: for any diffraction grating, if the first-order maximum is at angle θ₁, the second-order maximum is at θ₂ = sin⁻¹(2 sin θ₁). Notice that the second-order angle exists only if 2 sin θ₁ ≤ 1, which requires θ₁ ≤ 30°. Since 20° < 30°, the second-order maximum is observable. If θ₁ were greater than 30°, no second-order maximum would exist (consistent with our earlier proof).
+
 </div>
 </div>
 
@@ -709,7 +987,47 @@ If a diffraction grating produces a first-order maximum for the shortest wavelen
 
 </div>
 <div class="solution" markdown="1">
- $$ 90.0º $$
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ for both wavelengths. Find d from the violet condition, then use it to find the angle for red light.
+
+**Solution**
+
+Given:
+- Shortest visible wavelength: $$\lambda_V = 380 \text{ nm}$$ (violet)
+- Longest visible wavelength: $$\lambda_R = 760 \text{ nm}$$ (red)
+- $$\theta_V = 30.0°$$ for violet light
+- $$m = 1$$ (first-order maximum)
+
+**Step 1: Find the grating spacing from the violet condition**
+
+<div class="equation">
+$$d \sin \theta_V = m\lambda_V$$
+</div>
+
+<div class="equation">
+$$d = \frac{m\lambda_V}{\sin \theta_V} = \frac{(1)(380 \text{ nm})}{\sin 30.0°} = \frac{380}{0.500} = 760 \text{ nm}$$
+</div>
+
+**Step 2: Find the angle for red light**
+
+<div class="equation">
+$$\sin \theta_R = \frac{m\lambda_R}{d} = \frac{(1)(760 \text{ nm})}{760 \text{ nm}} = 1.00$$
+</div>
+
+<div class="equation">
+$$\theta_R = \sin^{-1}(1.00) = 90.0°$$
+</div>
+
+**Discussion**
+
+The remarkable result is that the red end of the visible spectrum appears at exactly 90°! This is the limiting case where the first-order maximum just barely exists.
+
+Notice that the grating spacing d = 760 nm exactly equals the wavelength of red light. This is the critical condition: when d = λ_max, the longest wavelength appears at 90°. If the grating had even slightly finer spacing (d < 760 nm), red light would not produce a first-order maximum at all.
+
+This grating with d = 760 nm produces a complete visible spectrum spreading from 30° (violet) to 90° (red) in first order. The complete visible spectrum is compressed into a 60° angular range. This is actually the finest-spacing grating that can show the complete visible spectrum in first order - any finer and the red end would be cut off.
+
 </div>
 </div>
 
@@ -787,11 +1105,72 @@ This problem illustrates an important principle: gratings with very fine spacing
 
 </div>
 <div class="solution" markdown="1">
-(a) The longest wavelength is 333.3 nm, which is not visible.
 
-(b) 333 nm (UV)
+**Strategy**
 
-(c) $$ 6.58 \times 10^{3} \text{cm} $$
+For part (a), find the grating spacing d, then determine the maximum wavelength that can produce a first-order maximum (at θ = 90°). For part (b), this maximum wavelength is the answer. For part (c), the longest visible wavelength (760 nm) must produce a second-order maximum at θ < 90°.
+
+**Solution**
+
+**(a) Show that 30,000 lines/cm won't produce visible light maxima:**
+
+First, find the grating spacing:
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{30,000 \text{ lines}} = \frac{0.01 \text{ m}}{30,000} = 3.333 \times 10^{-7} \text{ m} = 333.3 \text{ nm}$$
+</div>
+
+For a first-order maximum to exist, we need θ ≤ 90°. At the limiting case (θ = 90°):
+
+<div class="equation">
+$$d \sin 90° = (1)\lambda_{\text{max}}$$
+</div>
+
+<div class="equation">
+$$\lambda_{\text{max}} = d = 333.3 \text{ nm}$$
+</div>
+
+Since the visible spectrum ranges from 380 nm (violet) to 760 nm (red), and the maximum wavelength this grating can diffract is 333.3 nm (which is in the ultraviolet range), **no visible light wavelengths can produce even a first-order maximum**. All visible wavelengths exceed the grating spacing, making sin θ > 1, which is impossible.
+
+**(b) Longest wavelength for first-order maximum:**
+
+From part (a), the longest wavelength that can produce a first-order maximum is:
+
+<div class="equation">
+$$\lambda_{\text{max}} = d = 333 \text{ nm}$$
+</div>
+
+This is in the **ultraviolet (UV) range**.
+
+**(c) Greatest number of lines/cm for complete second-order visible spectrum:**
+
+For a complete second-order spectrum, the longest visible wavelength (760 nm, red) must have its second-order maximum at θ ≤ 90°. At the limiting case:
+
+<div class="equation">
+$$d \sin 90° = m\lambda_{\text{red}}$$
+</div>
+
+With m = 2 and λ_red = 760 nm:
+
+<div class="equation">
+$$d = 2 \times 760 \text{ nm} = 1520 \text{ nm} = 1.520 \times 10^{-6} \text{ m}$$
+</div>
+
+Maximum number of lines per centimeter:
+
+<div class="equation">
+$$N_{\text{max}} = \frac{1 \text{ cm}}{d} = \frac{0.01 \text{ m}}{1.520 \times 10^{-6} \text{ m}} = 6579 \text{ lines/cm}$$
+</div>
+
+Rounding to three significant figures: **N ≈ 6.58 × 10³ lines/cm**
+
+**Discussion**
+
+Part (a) demonstrates an important limitation: extremely fine gratings (like 30,000 lines/cm with d = 333 nm) cannot diffract visible light at all because the wavelengths exceed the grating spacing. Such fine gratings are useful only for short-wavelength radiation like UV or X-rays.
+
+For part (c), the result shows that to observe a complete second-order visible spectrum, the grating cannot have more than about 6,580 lines/cm. If it had more lines, the red end of the spectrum wouldn't appear in second order. This is roughly half the maximum for a first-order spectrum (~13,200 lines/cm), which makes sense because second-order requires twice the path difference (2λ instead of λ).
+
+Practical commercial gratings typically have 300-10,000 lines/cm, comfortably within the range to show complete visible spectra in both first and second orders.
 
 </div>
 </div>
@@ -865,7 +1244,49 @@ The analysis shown in the figure below also applies to diffraction gratings with
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.13 \times 10^{-2}  \text{m} $$
+
+**Strategy**
+
+Use the formula for fringe spacing: $$\Delta y = x\lambda/d$$, where x is the distance to the screen. First, find d from the line density, then calculate Δy.
+
+**Solution**
+
+Given:
+- Line density: 125 lines/cm
+- $$\lambda = 600 \text{ nm} = 600 \times 10^{-9} \text{ m}$$
+- Distance to screen: $$x = 1.50 \text{ m}$$
+
+**Step 1: Find the grating spacing**
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{125 \text{ lines}} = \frac{0.01 \text{ m}}{125} = 8.00 \times 10^{-5} \text{ m}$$
+</div>
+
+**Step 2: Calculate the fringe spacing**
+
+Using $$\Delta y = \frac{x\lambda}{d}$$:
+
+<div class="equation">
+$$\Delta y = \frac{(1.50 \text{ m})(600 \times 10^{-9} \text{ m})}{8.00 \times 10^{-5} \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\Delta y = \frac{9.00 \times 10^{-7}}{8.00 \times 10^{-5}} = 1.125 \times 10^{-2} \text{ m}$$
+</div>
+
+<div class="equation">
+$$\Delta y = 1.13 \times 10^{-2} \text{ m} = 1.13 \text{ cm}$$
+</div>
+
+**Discussion**
+
+The fringe spacing of 1.13 cm is quite large and easily observable. This is because the grating has a relatively coarse spacing (125 lines/cm = 80 μm between lines), which is about 133 wavelengths. The formula Δy = xλ/d shows that:
+- Larger screen distance (x) increases fringe spacing
+- Larger wavelength (λ) increases fringe spacing
+- Smaller slit separation (d) increases fringe spacing
+
+With adjacent fringes separated by over 1 cm at a distance of 1.5 m, this pattern would be very easy to observe and measure. Finer gratings (more lines/cm) would produce smaller fringe spacings. For example, a 1000 lines/cm grating would have fringes separated by only 1.4 mm at the same distance.
+
 </div>
 </div>
 
@@ -940,14 +1361,78 @@ unreasonable or inconsistent?
 
 </div>
 <div class="solution" markdown="1">
-(a) 42.3 nm
 
-(b) Not a visible wavelength
+**Strategy**
 
-The number of slits in this diffraction grating is too large. Etching in
-integrated circuits can be done to a resolution of 50 nm, so slit separations of
-400 nm are at the limit of what we can do today. This line spacing is too small
-to produce diffraction of light.
+Use $$d \sin \theta = m\lambda$$ to find the wavelength. First, calculate the grating spacing d from the line density, then solve for λ with m = 4. Examine whether the result makes sense.
+
+**Solution**
+
+**(a) Calculate the wavelength:**
+
+Given:
+- Line density: 25,000 lines/cm
+- $$\theta = 25.0°$$
+- $$m = 4$$ (fourth-order maximum)
+
+**Step 1: Find the grating spacing**
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{25,000 \text{ lines}} = \frac{0.01 \text{ m}}{25,000} = 4.00 \times 10^{-7} \text{ m} = 400 \text{ nm}$$
+</div>
+
+**Step 2: Find the wavelength**
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$\lambda = \frac{d \sin \theta}{m} = \frac{(4.00 \times 10^{-7} \text{ m}) \sin 25.0°}{4}$$
+</div>
+
+<div class="equation">
+$$\lambda = \frac{(4.00 \times 10^{-7})(0.4226)}{4} = \frac{1.690 \times 10^{-7}}{4}$$
+</div>
+
+<div class="equation">
+$$\lambda = 4.23 \times 10^{-8} \text{ m} = 42.3 \text{ nm}$$
+</div>
+
+**(b) What is unreasonable about this result?**
+
+The calculated wavelength of **42.3 nm is NOT visible light**. The visible spectrum ranges from approximately 380 nm (violet) to 760 nm (red). A wavelength of 42.3 nm falls in the **extreme ultraviolet (EUV) range**, which is far beyond what the human eye can detect. The problem asks for a "visible wavelength," but the result is not visible at all.
+
+**(c) Which assumptions are unreasonable or inconsistent?**
+
+There are two unreasonable aspects to this problem:
+
+**1. The grating is too fine for visible light diffraction:**
+
+The grating spacing is only 400 nm, which is barely larger than the shortest visible wavelength (380 nm). For a fourth-order maximum to exist for visible light, we would need:
+
+<div class="equation">
+$$\sin \theta = \frac{4\lambda}{d} \leq 1$$
+</div>
+
+For the shortest visible wavelength (380 nm):
+
+<div class="equation">
+$$\sin \theta = \frac{4 \times 380}{400} = 3.8 > 1 \quad \text{(impossible!)}$$
+</div>
+
+**No visible wavelength can produce even a first-order maximum** with a 400 nm grating spacing at any reasonable angle, let alone a fourth-order maximum at 25°.
+
+**2. Practical manufacturing limitations:**
+
+A grating with 25,000 lines/cm (d = 400 nm) is at the very edge of what can be manufactured using advanced nanofabrication techniques. While modern electron-beam lithography can achieve features around 50 nm, creating uniform, large-area diffraction gratings with such fine spacing is extremely challenging and expensive. Such gratings would be more suitable for X-ray or EUV spectroscopy, not visible light.
+
+**The inconsistent assumptions are:**
+- Expecting visible light to produce a fourth-order maximum with such fine grating spacing
+- Assuming 25,000 lines/cm is reasonable for a visible-light spectrometer (it's far too fine)
+- For visible light spectroscopy, gratings typically have 300-10,000 lines/cm
+
+**Discussion**
+
+This problem highlights the importance of matching grating spacing to wavelength. The grating spacing should be several times larger than the wavelength of interest to produce observable higher-order maxima. A grating with d = 400 nm is appropriate for ultraviolet or extreme ultraviolet radiation (wavelengths < 100 nm), not for visible light. For visible light and fourth-order maxima, a grating with d ≥ 4 × 760 nm = 3040 nm (corresponding to ~3300 lines/cm or fewer) would be more appropriate.
 
 </div>
 </div>
