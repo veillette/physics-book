@@ -485,6 +485,48 @@ An *RC* circuit consists of a  $$40.0 \Omega  $$
  with those found in [[Example 1]](#Example1), in which there was also an inductor.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For an RC circuit, the impedance is given by $$Z=\sqrt{R^2 + X_C^2}$$, where the capacitive reactance is $$X_C = 1/(2\pi fC)$$. We calculate $$X_C$$ at each frequency and then find $$Z$$.
+
+**Solution for (a)**
+
+At 60.0 Hz, the capacitive reactance is:
+
+<div class="equation">
+$$X_C = \frac{1}{2\pi fC} = \frac{1}{2\pi(60.0 \text{ Hz})(5.00 \times 10^{-6} \text{ F})} = 531 \Omega$$
+</div>
+
+The impedance is:
+
+<div class="equation">
+$$Z = \sqrt{R^2 + X_C^2} = \sqrt{(40.0 \Omega)^2 + (531 \Omega)^2} = 532 \Omega \text{ at 60.0 Hz}$$
+</div>
+
+At 10.0 kHz:
+
+<div class="equation">
+$$X_C = \frac{1}{2\pi(10.0 \times 10^3 \text{ Hz})(5.00 \times 10^{-6} \text{ F})} = 3.18 \Omega$$
+</div>
+
+<div class="equation">
+$$Z = \sqrt{(40.0 \Omega)^2 + (3.18 \Omega)^2} = 40.1 \Omega \text{ at 10.0 kHz}$$
+</div>
+
+**Solution for (b)**
+
+At 60.0 Hz, the RLC circuit in [[Example 1]](#Example1) had $$Z = 531 \Omega$$, which is nearly identical to the RC circuit value of 532 Ω. This confirms that the capacitor dominates at low frequency. At 10.0 kHz, the RLC circuit had $$Z = 190 \Omega$$, which is much larger than the RC value of 40.1 Ω. This is because the inductor contributes significant reactance at high frequency in the RLC circuit.
+
+**Discussion**
+
+At low frequencies, capacitive reactance dominates both circuits, making their impedances nearly equal. At high frequencies, the inductor in the RLC circuit significantly increases impedance, while the RC circuit impedance approaches the resistance value.
+
+**Final Answer**
+
+The impedance of the RC circuit is 532 Ω at 60.0 Hz and 40.1 Ω at 10.0 kHz.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -513,6 +555,30 @@ What is the resonant frequency of a 0.500 mH inductor connected to a  $$40.0 \te
  capacitor?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The resonant frequency is given by $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. We substitute the given values for $$L$$ and $$C$$.
+
+**Solution**
+
+<div class="equation">
+$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\
+& = & \frac{1}{2\pi\sqrt{(0.500 \times 10^{-3} \text{ H})(40.0 \times 10^{-6} \text{ F})}}\\
+& = & \frac{1}{2\pi\sqrt{2.00 \times 10^{-8}}}\\
+& = & \frac{1}{2\pi(1.414 \times 10^{-4})}\\
+& = & 1.13 \times 10^3 \text{ Hz} = 1.13 \text{ kHz}\end{array}$$
+</div>
+
+**Discussion**
+
+This frequency falls in the audio range and is typical for circuits in audio equipment and some radio tuning applications.
+
+**Final Answer**
+
+The resonant frequency is 1.13 kHz.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -530,6 +596,42 @@ To receive AM radio, you want an *RLC* circuit that can be made to resonate at a
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Suppose you have a supply of inductors ranging from 1.00 nH to 10.0 H, and capacitors ranging from 1.00 pF to 0.100 F. What is the range of resonant frequencies that can be achieved from combinations of a single inductor and a single capacitor?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. To find the maximum frequency, use the smallest values of $$L$$ and $$C$$. To find the minimum frequency, use the largest values of $$L$$ and $$C$$.
+
+**Solution**
+
+For maximum frequency (minimum $$LC$$):
+
+<div class="equation">
+$$\begin{array}{lll}f_{\text{max}} & = & \frac{1}{2\pi\sqrt{L_{\text{min}}C_{\text{min}}}}\\
+& = & \frac{1}{2\pi\sqrt{(1.00 \times 10^{-9} \text{ H})(1.00 \times 10^{-12} \text{ F})}}\\
+& = & \frac{1}{2\pi\sqrt{1.00 \times 10^{-21}}}\\
+& = & \frac{1}{2\pi(1.00 \times 10^{-10.5})}\\
+& = & 5.03 \times 10^9 \text{ Hz} = 5.03 \text{ GHz}\end{array}$$
+</div>
+
+For minimum frequency (maximum $$LC$$):
+
+<div class="equation">
+$$\begin{array}{lll}f_{\text{min}} & = & \frac{1}{2\pi\sqrt{L_{\text{max}}C_{\text{max}}}}\\
+& = & \frac{1}{2\pi\sqrt{(10.0 \text{ H})(0.100 \text{ F})}}\\
+& = & \frac{1}{2\pi\sqrt{1.00}}\\
+& = & \frac{1}{2\pi}\\
+& = & 0.159 \text{ Hz}\end{array}$$
+</div>
+
+**Discussion**
+
+This enormous range covers everything from very slow oscillations (less than once per second) to microwave frequencies, demonstrating the versatility of LC circuits in electronic applications.
+
+**Final Answer**
+
+The range of resonant frequencies is from 0.159 Hz to 5.03 GHz.
 
 </div>
 </div>
@@ -551,6 +653,41 @@ What inductance do you need to produce a resonant frequency of 60.0 Hz, when usi
  capacitor?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the resonant frequency formula $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$ and solve for $$L$$.
+
+**Solution**
+
+Squaring both sides and rearranging:
+
+<div class="equation">
+$$f_0^2 = \frac{1}{4\pi^2 LC}$$
+</div>
+
+<div class="equation">
+$$L = \frac{1}{4\pi^2 f_0^2 C}$$
+</div>
+
+Substituting values:
+
+<div class="equation">
+$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(60.0 \text{ Hz})^2(2.00 \times 10^{-6} \text{ F})}\\
+& = & \frac{1}{4(9.870)(3600)(2.00 \times 10^{-6})}\\
+& = & \frac{1}{2.838 \times 10^{-1}}\\
+& = & 3.52 \text{ H}\end{array}$$
+</div>
+
+**Discussion**
+
+This is a fairly large inductance, which makes sense given the low frequency. Power line frequency (60 Hz) applications typically require substantial inductances.
+
+**Final Answer**
+
+The required inductance is 3.52 H.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -570,10 +707,76 @@ The lowest frequency in the FM radio band is 88.0 MHz. (a) What inductance is ne
 An *RLC* series circuit has a  $$\mathrm{2.50 \Omega } $$
  resistor, a  $$\mathrm{100 \mu H} $$
  inductor, and an  $$\mathrm{80.0 \mu F} $$
- capacitor.(a) Find the circuit’s impedance at 120 Hz. (b) Find the circuit’s impedance at 5.00 kHz. (c) If the voltage source has  $${V}_{\text{rms}}= 5.60 \text{V} $$ ,
+ capacitor.(a) Find the circuit's impedance at 120 Hz. (b) Find the circuit's impedance at 5.00 kHz. (c) If the voltage source has  $${V}_{\text{rms}}= 5.60 \text{V} $$ ,
  what is  $${I}_{\text{rms}} $$
  at each frequency? (d) What is the resonant frequency of the circuit? (e) What is  $${I}_{\text{rms}} $$
  at resonance?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ where $$X_L = 2\pi fL$$ and $$X_C = 1/(2\pi fC)$$. Current is found from $$I_{\text{rms}} = V_{\text{rms}}/Z$$, and resonant frequency from $$f_0 = 1/(2\pi\sqrt{LC})$$.
+
+**Solution for (a)**
+
+At 120 Hz:
+
+<div class="equation">
+$$X_L = 2\pi(120)(100 \times 10^{-6}) = 0.0754 \Omega$$
+</div>
+
+<div class="equation">
+$$X_C = \frac{1}{2\pi(120)(80.0 \times 10^{-6})} = 16.6 \Omega$$
+</div>
+
+<div class="equation">
+$$Z = \sqrt{(2.50)^2 + (0.0754 - 16.6)^2} = \sqrt{6.25 + 272.6} = 16.7 \Omega$$
+</div>
+
+**Solution for (b)**
+
+At 5.00 kHz:
+
+<div class="equation">
+$$X_L = 2\pi(5000)(100 \times 10^{-6}) = 3.14 \Omega$$
+</div>
+
+<div class="equation">
+$$X_C = \frac{1}{2\pi(5000)(80.0 \times 10^{-6})} = 0.398 \Omega$$
+</div>
+
+<div class="equation">
+$$Z = \sqrt{(2.50)^2 + (3.14 - 0.398)^2} = \sqrt{6.25 + 7.52} = 3.71 \Omega$$
+</div>
+
+**Solution for (c)**
+
+At 120 Hz: $$I_{\text{rms}} = \frac{5.60 \text{ V}}{16.7 \Omega} = 0.335 \text{ A}$$
+
+At 5.00 kHz: $$I_{\text{rms}} = \frac{5.60 \text{ V}}{3.71 \Omega} = 1.51 \text{ A}$$
+
+**Solution for (d)**
+
+<div class="equation">
+$$f_0 = \frac{1}{2\pi\sqrt{LC}} = \frac{1}{2\pi\sqrt{(100 \times 10^{-6})(80.0 \times 10^{-6})}} = \frac{1}{2\pi(89.4 \times 10^{-6})} = 1.78 \text{ kHz}$$
+</div>
+
+**Solution for (e)**
+
+At resonance, $$Z = R = 2.50 \Omega$$:
+
+<div class="equation">
+$$I_{\text{rms}} = \frac{5.60 \text{ V}}{2.50 \Omega} = 2.24 \text{ A}$$
+</div>
+
+**Discussion**
+
+The current is maximum at resonance, as expected. The capacitor dominates at 120 Hz (below resonance) while the inductor dominates at 5.00 kHz (above resonance).
+
+**Final Answer**
+
+(a) 16.7 Ω at 120 Hz; (b) 3.71 Ω at 5.00 kHz; (c) 0.335 A at 120 Hz, 1.51 A at 5.00 kHz; (d) 1.78 kHz; (e) 2.24 A.
 
 </div>
 </div>
@@ -607,7 +810,47 @@ An *RLC* series circuit has a  $$2.50 \Omega $$ resistor, a $$100 \mu\text{H} $$
 (a) Find the power factor at  $$f=120 \text{Hz} $$ .
 (b) What is the phase angle at 120 Hz?
 (c) What is the average power at 120 Hz?
-(d) Find the average power at the circuit’s resonant frequency.
+(d) Find the average power at the circuit's resonant frequency.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The power factor is $$\cos\varphi = R/Z$$, and average power is $$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi$$. We use results from the previous problem where $$Z = 16.7 \Omega$$ at 120 Hz, $$I_{\text{rms}} = 0.335 \text{ A}$$, $$V_{\text{rms}} = 5.60 \text{ V}$$, and $$f_0 = 1.78 \text{ kHz}$$.
+
+**Solution for (a)**
+
+<div class="equation">
+$$\cos\varphi = \frac{R}{Z} = \frac{2.50 \Omega}{16.7 \Omega} = 0.150$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$\varphi = \cos^{-1}(0.150) = 81.4°$$
+</div>
+
+**Solution for (c)**
+
+<div class="equation">
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (0.335)(5.60)(0.150) = 0.281 \text{ W}$$
+</div>
+
+**Solution for (d)**
+
+At resonance, $$\cos\varphi = 1$$ and $$I_{\text{rms}} = 2.24 \text{ A}$$ (from previous problem):
+
+<div class="equation">
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}} = (2.24)(5.60) = 12.5 \text{ W}$$
+</div>
+
+**Discussion**
+
+At 120 Hz, the large phase angle (81.4°) indicates voltage and current are nearly 90° out of phase, resulting in low power transfer. At resonance, perfect phase alignment yields maximum power transfer—about 45 times greater than at 120 Hz.
+
+**Final Answer**
+
+(a) Power factor is 0.150; (b) phase angle is 81.4°; (c) average power is 0.281 W at 120 Hz; (d) average power is 12.5 W at resonance.
 
 </div>
 </div>
@@ -635,8 +878,70 @@ An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
 <div class="problem" markdown="1">
 An *RLC* series circuit has a  $$200 \Omega  $$
  resistor and a 25.0 mH inductor. At 8000 Hz, the phase angle is  $$45.0\text{º} $$ .
- (a) What is the impedance? (b) Find the circuit’s capacitance. (c) If  $${V}_{\text{rms}}=408 \text{V} $$
+ (a) What is the impedance? (b) Find the circuit's capacitance. (c) If  $${V}_{\text{rms}}=408 \text{V} $$
  is applied, what is the average power supplied?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$\cos\varphi = R/Z$$ to find impedance. Then from $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ we can find the difference $$(X_L - X_C)$$, and knowing $$X_L$$ we can find $$X_C$$ and hence $$C$$.
+
+**Solution for (a)**
+
+<div class="equation">
+$$Z = \frac{R}{\cos\varphi} = \frac{200 \Omega}{\cos 45.0°} = \frac{200}{0.707} = 283 \Omega$$
+</div>
+
+**Solution for (b)**
+
+First find $$X_L$$:
+
+<div class="equation">
+$$X_L = 2\pi fL = 2\pi(8000)(25.0 \times 10^{-3}) = 1257 \Omega$$
+</div>
+
+From $$Z^2 = R^2 + (X_L - X_C)^2$$:
+
+<div class="equation">
+$$(283)^2 = (200)^2 + (X_L - X_C)^2$$
+</div>
+
+<div class="equation">
+$$80089 = 40000 + (X_L - X_C)^2$$
+</div>
+
+<div class="equation">
+$$X_L - X_C = \sqrt{40089} = 200 \Omega$$
+</div>
+
+Since $$\varphi > 0$$, the circuit is inductive, so $$X_L > X_C$$:
+
+<div class="equation">
+$$X_C = X_L - 200 = 1257 - 200 = 1057 \Omega$$
+</div>
+
+<div class="equation">
+$$C = \frac{1}{2\pi f X_C} = \frac{1}{2\pi(8000)(1057)} = 18.9 \times 10^{-9} \text{ F} = 18.9 \text{ nF}$$
+</div>
+
+**Solution for (c)**
+
+<div class="equation">
+$$I_{\text{rms}} = \frac{V_{\text{rms}}}{Z} = \frac{408}{283} = 1.44 \text{ A}$$
+</div>
+
+<div class="equation">
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (1.44)(408)(0.707) = 416 \text{ W}$$
+</div>
+
+**Discussion**
+
+The 45° phase angle indicates equal contributions from resistance and net reactance to the impedance. The relatively small capacitance is appropriate for this high frequency operation.
+
+**Final Answer**
+
+(a) The impedance is 283 Ω; (b) the capacitance is 18.9 nF; (c) the average power is 416 W.
 
 </div>
 </div>

@@ -270,7 +270,39 @@ A plug-in transformer, like that in [[Figure 4]](#Figure4), supplies 9.00 V to a
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-An American traveler in New Zealand carries a transformer to convert New Zealand’s standard 240 V to 120 V so that she can use some small appliances on her trip. (a) What is the ratio of turns in the primary and secondary coils of her transformer? (b) What is the ratio of input to output current? (c) How could a New Zealander traveling in the United States use this same transformer to power her 240 V appliances from 120 V?
+An American traveler in New Zealand carries a transformer to convert New Zealand's standard 240 V to 120 V so that she can use some small appliances on her trip. (a) What is the ratio of turns in the primary and secondary coils of her transformer? (b) What is the ratio of input to output current? (c) How could a New Zealander traveling in the United States use this same transformer to power her 240 V appliances from 120 V?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the transformer equations: $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ and $$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$.
+
+**Solution for (a)**
+
+<div class="equation">
+$$\frac{N_p}{N_s} = \frac{V_p}{V_s} = \frac{240 \text{ V}}{120 \text{ V}} = 2.00$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$\frac{I_p}{I_s} = \frac{V_s}{V_p} = \frac{120}{240} = 0.500$$
+</div>
+
+Or equivalently, the input current is half the output current.
+
+**Solution for (c)**
+
+The New Zealander would reverse the connections: use the 120 V-side (originally secondary) as the primary connected to the 120 V US supply, and the 240 V-side (originally primary) as the secondary to power the 240 V appliance. The same transformer works in reverse because the turns ratio is the same.
+
+**Discussion**
+
+The 2:1 turns ratio makes this a step-down transformer when used to convert 240 V to 120 V. Reversing the connections makes it step-up from 120 V to 240 V.
+
+**Final Answer**
+
+(a) $$N_p/N_s = 2.00$$; (b) $$I_p/I_s = 0.500$$; (c) Reverse the connections, using the 120 V coil as primary and 240 V coil as secondary.
 
 </div>
 </div>
@@ -295,6 +327,40 @@ A cassette recorder uses a plug-in transformer to convert 120 V to 12.0 V, with 
 (a) What is the voltage output of a transformer used for rechargeable flashlight batteries, if its primary has 500 turns, its secondary 4 turns, and the input voltage is 120 V? (b) What input current is required to produce a 4.00 A output? (c) What is the power input?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ for voltage, $$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$ for current, and $$P = IV$$ for power.
+
+**Solution for (a)**
+
+<div class="equation">
+$$V_s = V_p \times \frac{N_s}{N_p} = 120 \times \frac{4}{500} = 120 \times 0.00800 = 0.960 \text{ V}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$I_p = I_s \times \frac{N_s}{N_p} = 4.00 \times \frac{4}{500} = 4.00 \times 0.00800 = 0.0320 \text{ A} = 32.0 \text{ mA}$$
+</div>
+
+**Solution for (c)**
+
+<div class="equation">
+$$P = V_p I_p = (120)(0.0320) = 3.84 \text{ W}$$
+</div>
+
+Or check with output: $$P = V_s I_s = (0.960)(4.00) = 3.84 \text{ W}$$ ✓
+
+**Discussion**
+
+This step-down transformer reduces voltage by a factor of 125, suitable for charging batteries. The power is conserved (assuming 100% efficiency).
+
+**Final Answer**
+
+(a) 0.960 V; (b) 32.0 mA; (c) 3.84 W.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -313,6 +379,60 @@ A cassette recorder uses a plug-in transformer to convert 120 V to 12.0 V, with 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A multipurpose transformer has a secondary coil with several points at which a voltage can be extracted, giving outputs of 5.60, 12.0, and 480 V. (a) The input voltage is 240 V to a primary coil of 280 turns. What are the numbers of turns in the parts of the secondary used to produce the output voltages? (b) If the maximum input current is 5.00 A, what are the maximum output currents (each used alone)?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$N_s = N_p \times \frac{V_s}{V_p}$$ for turns and $$I_s = I_p \times \frac{V_p}{V_s}$$ for currents.
+
+**Solution for (a)**
+
+For 5.60 V output:
+
+<div class="equation">
+$$N_s = 280 \times \frac{5.60}{240} = 280 \times 0.0233 = 6.53 \approx 6.5 \text{ turns}$$
+</div>
+
+For 12.0 V output:
+
+<div class="equation">
+$$N_s = 280 \times \frac{12.0}{240} = 280 \times 0.0500 = 14.0 \text{ turns}$$
+</div>
+
+For 480 V output:
+
+<div class="equation">
+$$N_s = 280 \times \frac{480}{240} = 280 \times 2.00 = 560 \text{ turns}$$
+</div>
+
+**Solution for (b)**
+
+For 5.60 V output:
+
+<div class="equation">
+$$I_s = 5.00 \times \frac{240}{5.60} = 5.00 \times 42.86 = 214 \text{ A}$$
+</div>
+
+For 12.0 V output:
+
+<div class="equation">
+$$I_s = 5.00 \times \frac{240}{12.0} = 5.00 \times 20.0 = 100 \text{ A}$$
+</div>
+
+For 480 V output:
+
+<div class="equation">
+$$I_s = 5.00 \times \frac{240}{480} = 5.00 \times 0.500 = 2.50 \text{ A}$$
+</div>
+
+**Discussion**
+
+The low-voltage taps can deliver very high currents, suitable for applications like welding. The high-voltage tap delivers low current but high voltage.
+
+**Final Answer**
+
+(a) 6.5, 14.0, and 560 turns; (b) 214 A, 100 A, and 2.50 A respectively.
 
 </div>
 </div>
@@ -336,6 +456,42 @@ A large power plant generates electricity at 12.0 kV. Its old transformer once c
 <div class="problem" markdown="1">
 If the power output in the previous problem is 1000 MW and line resistance is  $$2.00 \Omega  $$ ,
  what were the old and new line losses?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From the previous problem, the old voltage was 335 kV and new voltage is 750 kV. We find the current required for 1000 MW at each voltage using $$P = VI$$, then calculate line loss using $$P_{\text{loss}} = I^2R$$.
+
+**Solution**
+
+Old system (335 kV):
+
+<div class="equation">
+$$I_{\text{old}} = \frac{P}{V} = \frac{1000 \times 10^6}{335 \times 10^3} = 2985 \text{ A}$$
+</div>
+
+<div class="equation">
+$$P_{\text{loss,old}} = I^2 R = (2985)^2(2.00) = 17.8 \times 10^6 \text{ W} = 17.8 \text{ MW}$$
+</div>
+
+New system (750 kV):
+
+<div class="equation">
+$$I_{\text{new}} = \frac{1000 \times 10^6}{750 \times 10^3} = 1333 \text{ A}$$
+</div>
+
+<div class="equation">
+$$P_{\text{loss,new}} = (1333)^2(2.00) = 3.56 \times 10^6 \text{ W} = 3.56 \text{ MW}$$
+</div>
+
+**Discussion**
+
+The new system reduces line losses from 17.8 MW to 3.56 MW, saving 14.2 MW (80% reduction). This demonstrates why high-voltage transmission is economically beneficial despite the cost of transformers.
+
+**Final Answer**
+
+Old line loss: 17.8 MW; New line loss: 3.56 MW.
 
 </div>
 </div>
