@@ -284,6 +284,42 @@ At what angle is the first-order maximum for 450-nm wavelength blue light fallin
 Calculate the angle for the third-order maximum of 580-nm wavelength yellow light falling on double slits separated by 0.100 mm.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For constructive interference in a double slit experiment, we use the equation $$d \sin \theta = m\lambda$$, where m = 3 for the third-order maximum. We need to solve for θ.
+
+**Solution**
+
+Given:
+- $$\lambda = 580 \text{ nm} = 580 \times 10^{-9} \text{ m}$$
+- $$d = 0.100 \text{ mm} = 1.00 \times 10^{-4} \text{ m}$$
+- $$m = 3$$
+
+Using the equation for constructive interference:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+Solving for $$\sin \theta$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{d} = \frac{3 \times 580 \times 10^{-9} \text{ m}}{1.00 \times 10^{-4} \text{ m}} = \frac{1740 \times 10^{-9}}{1.00 \times 10^{-4}} = 0.01740$$
+</div>
+
+Therefore:
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.01740) = 1.00°$$
+</div>
+
+**Discussion**
+
+The angle is quite small, which is typical for double slit experiments where the slit separation is much larger than the wavelength. The third-order maximum appears at about 1°, meaning the maxima are closely spaced. This small angle justifies using the small angle approximation ($$\sin \theta \approx \tan \theta \approx \theta$$ in radians) in many double slit calculations.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -299,6 +335,40 @@ What is the separation between two slits for which 610-nm orange light has its f
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the distance between two slits that produces the first minimum for 410-nm violet light at an angle of  $$ 45.0º $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For destructive interference (minima) in a double slit experiment, we use $$d \sin \theta = (m + \frac{1}{2})\lambda$$. For the first minimum, m = 0, so $$d \sin \theta = \frac{\lambda}{2}$$. We solve for d.
+
+**Solution**
+
+Given:
+- $$\lambda = 410 \text{ nm} = 410 \times 10^{-9} \text{ m}$$
+- $$\theta = 45.0°$$
+- $$m = 0$$ (first minimum)
+
+Using the equation for destructive interference:
+
+<div class="equation">
+$$d \sin \theta = \left(m + \frac{1}{2}\right)\lambda = \frac{\lambda}{2}$$
+</div>
+
+Solving for d:
+
+<div class="equation">
+$$d = \frac{\lambda}{2 \sin \theta} = \frac{410 \times 10^{-9} \text{ m}}{2 \sin 45.0°} = \frac{410 \times 10^{-9} \text{ m}}{2 \times 0.7071}$$
+</div>
+
+<div class="equation">
+$$d = \frac{410 \times 10^{-9}}{1.4142} = 2.90 \times 10^{-7} \text{ m} = 290 \text{ nm}$$
+</div>
+
+**Discussion**
+
+This slit separation is remarkably small - less than the wavelength of visible light! At such a small separation (d < λ), only the central maximum and perhaps one or two orders would be visible before reaching 90°. The fact that the first minimum occurs at 45° indicates that this is a very closely spaced double slit. Such small separations are at the limits of conventional optical fabrication and would require specialized techniques like electron beam lithography to create.
 
 </div>
 </div>
@@ -323,6 +393,44 @@ What is the wavelength of light falling on double slits separated by  $$ 2.00 \t
  if the third-order maximum is at an angle of  $$ 60.0º $$ ?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For constructive interference at the third-order maximum (m = 3), we use $$d \sin \theta = m\lambda$$ and solve for the wavelength λ.
+
+**Solution**
+
+Given:
+- $$d = 2.00 \text{ μm} = 2.00 \times 10^{-6} \text{ m}$$
+- $$\theta = 60.0°$$
+- $$m = 3$$
+
+Using the equation for constructive interference:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+Solving for λ:
+
+<div class="equation">
+$$\lambda = \frac{d \sin \theta}{m} = \frac{(2.00 \times 10^{-6} \text{ m}) \sin 60.0°}{3}$$
+</div>
+
+<div class="equation">
+$$\lambda = \frac{(2.00 \times 10^{-6} \text{ m})(0.8660)}{3} = \frac{1.732 \times 10^{-6} \text{ m}}{3}$$
+</div>
+
+<div class="equation">
+$$\lambda = 5.77 \times 10^{-7} \text{ m} = 577 \text{ nm}$$
+</div>
+
+**Discussion**
+
+This wavelength of 577 nm corresponds to yellow-green light, in the middle of the visible spectrum. The relatively large angle (60°) for the third-order maximum indicates that the slit separation (2.00 μm) is only a few wavelengths wide. This setup would produce a well-spread interference pattern with several visible orders. The result is reasonable because visible light wavelengths range from about 380-760 nm, and our answer falls within this range.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -338,6 +446,50 @@ At what angle is the fourth-order maximum for the situation in [[Exercise 1]](#E
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the highest-order maximum for 400-nm light falling on double slits separated by  $$ 25.0 \text{μm} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The highest-order maximum occurs when $$\sin \theta$$ approaches its maximum value of 1 (at θ = 90°). We use $$d \sin \theta = m\lambda$$ with $$\sin \theta = 1$$ and solve for the maximum integer value of m.
+
+**Solution**
+
+Given:
+- $$\lambda = 400 \text{ nm} = 400 \times 10^{-9} \text{ m} = 4.00 \times 10^{-7} \text{ m}$$
+- $$d = 25.0 \text{ μm} = 25.0 \times 10^{-6} \text{ m}$$
+
+The condition for constructive interference is:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+For the maximum order, $$\sin \theta = 1$$, so:
+
+<div class="equation">
+$$m_{\text{max}} = \frac{d}{\lambda} = \frac{25.0 \times 10^{-6} \text{ m}}{4.00 \times 10^{-7} \text{ m}}$$
+</div>
+
+<div class="equation">
+$$m_{\text{max}} = \frac{25.0 \times 10^{-6}}{4.00 \times 10^{-7}} = 62.5$$
+</div>
+
+Since m must be an integer, the highest-order maximum is:
+
+<div class="equation">
+$$m = 62$$
+</div>
+
+**Discussion**
+
+With such a large slit separation compared to the wavelength (d/λ ≈ 62.5), this double slit system can produce 62 orders of maxima on each side of the central maximum, plus the central maximum itself, for a total of 125 bright fringes. This large number of fringes would be very closely spaced. In practice, not all of these might be observable due to:
+1. The finite width of each slit causing single-slit diffraction effects that modulate the double-slit pattern
+2. Intensity falling off at large angles
+3. Practical limitations of the screen or detection system
+
+The 62nd order maximum would appear at $$\theta = \sin^{-1}(62 \times 400/25000) = \sin^{-1}(0.992) \approx 82.9°$$.
 
 </div>
 </div>
@@ -359,6 +511,46 @@ Find the largest wavelength of light falling on double slits separated by  $$ 1.
 What is the smallest separation between two slits that will produce a second-order maximum for 720-nm red light?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a second-order maximum to be observable, it must occur at an angle less than 90°. The smallest slit separation occurs when the second-order maximum appears at exactly θ = 90° (where $$\sin \theta = 1$$). We use $$d \sin \theta = m\lambda$$ with m = 2 and $$\sin \theta = 1$$.
+
+**Solution**
+
+Given:
+- $$\lambda = 720 \text{ nm} = 720 \times 10^{-9} \text{ m}$$
+- $$m = 2$$ (second-order maximum)
+- $$\theta = 90°$$ (limiting case)
+
+Using the equation for constructive interference:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+With $$\sin 90° = 1$$:
+
+<div class="equation">
+$$d_{\text{min}} = m\lambda = 2 \times 720 \times 10^{-9} \text{ m}$$
+</div>
+
+<div class="equation">
+$$d_{\text{min}} = 1440 \times 10^{-9} \text{ m} = 1.44 \times 10^{-6} \text{ m} = 1.44 \text{ μm}$$
+</div>
+
+**Discussion**
+
+If the slit separation were smaller than 1.44 μm, the second-order maximum would require $$\sin \theta > 1$$, which is impossible. Therefore, 1.44 μm is the minimum separation needed to observe a second-order maximum with 720-nm light.
+
+For this minimum separation:
+- The first-order maximum appears at $$\theta_1 = \sin^{-1}(720/1440) = \sin^{-1}(0.5) = 30°$$
+- The second-order maximum appears at $$\theta_2 = 90°$$
+
+This means the second-order maximum would barely be observable at the edge of the interference pattern. For practical observation, the slit separation should be somewhat larger than this minimum value. This principle is important in designing diffraction gratings and other optical devices where specific orders need to be observable.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -378,6 +570,67 @@ What is the smallest separation between two slits that will produce a second-ord
 <div class="problem" markdown="1">
 (a) If the first-order maximum for pure-wavelength light falling on a double slit is at an angle of  $$ 10.0º $$ ,
  at what angle is the second-order maximum? (b) What is the angle of the first minimum? (c) What is the highest-order maximum possible here?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From the first-order maximum, we can find the ratio d/λ. We then use this ratio to find (a) the second-order maximum angle, (b) the first minimum angle, and (c) the highest possible order.
+
+**Solution**
+
+**(a) Second-order maximum:**
+
+For the first-order maximum:
+<div class="equation">
+$$d \sin \theta_1 = \lambda$$
+</div>
+
+So:
+<div class="equation">
+$$\frac{d}{\lambda} = \frac{1}{\sin 10.0°} = \frac{1}{0.1736} = 5.759$$
+</div>
+
+For the second-order maximum (m = 2):
+<div class="equation">
+$$\sin \theta_2 = \frac{2\lambda}{d} = \frac{2}{5.759} = 0.3472$$
+</div>
+
+<div class="equation">
+$$\theta_2 = \sin^{-1}(0.3472) = 20.3°$$
+</div>
+
+**(b) First minimum:**
+
+For the first minimum, $$m = 0$$, so:
+<div class="equation">
+$$d \sin \theta_{\text{min}} = \frac{\lambda}{2}$$
+</div>
+
+<div class="equation">
+$$\sin \theta_{\text{min}} = \frac{\lambda}{2d} = \frac{1}{2 \times 5.759} = 0.0868$$
+</div>
+
+<div class="equation">
+$$\theta_{\text{min}} = \sin^{-1}(0.0868) = 5.0°$$
+</div>
+
+**(c) Highest-order maximum:**
+
+The maximum order occurs when $$\sin \theta = 1$$:
+<div class="equation">
+$$m_{\text{max}} = \frac{d}{\lambda} = 5.759$$
+</div>
+
+Since m must be an integer:
+<div class="equation">
+$$m_{\text{max}} = 5$$
+</div>
+
+**Discussion**
+
+The results show logical progression: the first minimum at 5.0° falls between the central maximum (0°) and the first-order maximum (10.0°). The second-order maximum at 20.3° is roughly twice the angle of the first-order (this approximation works well for small angles). The system can support up to 5 orders on each side of center. We can verify: $$\sin^{-1}(5/5.759) = \sin^{-1}(0.868) = 60.2°$$, which is less than 90°, confirming that the 5th order is observable.
 
 </div>
 </div>
@@ -419,6 +672,47 @@ Subtracting these equations gives
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Using the result of the problem above, calculate the distance between fringes for 633-nm light falling on double slits separated by 0.0800 mm, located 3.00 m from a screen as in [[Figure 8]](#Figure8).
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From the previous problem, we derived that the fringe spacing is $$\Delta y = \frac{x\lambda}{d}$$ for small angles. We apply this formula with the given values.
+
+**Solution**
+
+Given:
+- $$\lambda = 633 \text{ nm} = 633 \times 10^{-9} \text{ m}$$
+- $$d = 0.0800 \text{ mm} = 8.00 \times 10^{-5} \text{ m}$$
+- $$x = 3.00 \text{ m}$$
+
+Using the fringe spacing formula:
+
+<div class="equation">
+$$\Delta y = \frac{x\lambda}{d} = \frac{(3.00 \text{ m})(633 \times 10^{-9} \text{ m})}{8.00 \times 10^{-5} \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\Delta y = \frac{1899 \times 10^{-9} \text{ m}}{8.00 \times 10^{-5} \text{ m}} = \frac{1.899 \times 10^{-6}}{8.00 \times 10^{-5}}$$
+</div>
+
+<div class="equation">
+$$\Delta y = 2.37 \times 10^{-2} \text{ m} = 2.37 \text{ cm} = 23.7 \text{ mm}$$
+</div>
+
+**Discussion**
+
+The fringe spacing of 23.7 mm (about 2.4 cm) is easily observable with the naked eye. This relatively large spacing results from:
+1. The long distance to the screen (3.00 m)
+2. The small slit separation (0.0800 mm)
+
+The ratio x/d = 3.00 m / 0.0800 mm = 37,500 is very large, which greatly magnifies the fringe pattern.
+
+We can verify our result makes sense by checking the small angle approximation. For the first-order maximum:
+$$\sin \theta_1 = \lambda/d = 633 \times 10^{-9} / 8.00 \times 10^{-5} = 7.91 \times 10^{-3}$$
+
+This gives $$\theta_1 = 0.453°$$, which is indeed small, validating our use of the small angle approximation. The angle can also be found from $$\tan \theta_1 = y_1/x = 0.0237/3.00 = 7.90 \times 10^{-3}$$, confirming our calculation.
 
 </div>
 </div>

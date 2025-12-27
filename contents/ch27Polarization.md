@@ -471,6 +471,31 @@ The angle between the axes of two polarizing filters is  $$ 45.0º $$ .
  By how much does the second filter reduce the intensity of the light coming through the first?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use Malus's law: $$I = I_0 \cos^2 \theta$$ where θ = 45.0° is the angle between the polarizer axes.
+
+**Solution**
+
+After passing through the first polarizing filter, the light is fully polarized with intensity I₀. When this polarized light passes through the second filter at angle θ = 45.0°:
+
+<div class="equation">
+$$I = I_0 \cos^2 \theta = I_0 \cos^2 45.0°$$
+</div>
+
+<div class="equation">
+$$I = I_0 (0.7071)^2 = I_0 (0.500) = 0.500 I_0$$
+</div>
+
+The second filter reduces the intensity to 50.0% of the value after the first filter, which means it **reduces the intensity by 50.0%** (or cuts it in half).
+
+**Discussion**
+
+This 50% reduction at 45° is a special case. At θ = 0° (parallel axes), no reduction occurs (I = I₀). At θ = 90° (perpendicular axes), complete extinction occurs (I = 0). The 45° angle represents the midpoint where exactly half the intensity passes through. This property is used in variable neutral density filters and light modulators.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -489,6 +514,33 @@ If you have completely polarized light of intensity  $$150 \text{W}/{\text{m}}^{
 <div class="problem" markdown="1">
 What angle would the axis of a polarizing filter need to make with the direction of polarized light of intensity  $$ 1.00 {\text{kW/m}}^{2} $$
  to reduce the intensity to  $$ 10.0 {\text{W/m}}^{2} $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use Malus's law $$I = I_0 \cos^2 \theta$$ and solve for θ.
+
+**Solution**
+
+Given: I₀ = 1.00 kW/m² = 1000 W/m², I = 10.0 W/m²
+
+<div class="equation">
+$$I = I_0 \cos^2 \theta$$
+</div>
+
+<div class="equation">
+$$\cos \theta = \sqrt{\frac{I}{I_0}} = \sqrt{\frac{10.0}{1000}} = \sqrt{0.0100} = 0.100$$
+</div>
+
+<div class="equation">
+$$\theta = \cos^{-1}(0.100) = 84.3°$$
+</div>
+
+**Discussion**
+
+The angle of 84.3° is close to 90° (perpendicular), which makes sense for such a large intensity reduction (to 1% of original). This is just 5.7° away from complete extinction.
 
 </div>
 </div>
@@ -511,6 +563,33 @@ Show that if you have three polarizing filters, with the second at an angle of  
  to the first and the third at an angle of  $$ 90.0º $$
  to the first, the intensity of light passed by the first will be reduced to  $$ 25.0%  $$
  of its value. (This is in contrast to having only the first and third, which reduces the intensity to zero, so that placing the second between them increases the intensity of the transmitted light.)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Apply Malus's law twice: once for the first-to-second filter (θ = 45°), then for the second-to-third filter (θ = 45° also, since third is 90° from first).
+
+**Solution**
+
+Let I₀ be the intensity after the first polarizer.
+
+**After second filter (45° from first):**
+<div class="equation">
+$$I_2 = I_0 \cos^2 45° = I_0 (0.7071)^2 = 0.500 I_0$$
+</div>
+
+**After third filter (90° from first, so 45° from second):**
+<div class="equation">
+$$I_3 = I_2 \cos^2 45° = (0.500 I_0)(0.500) = 0.250 I_0$$
+</div>
+
+Therefore, the final intensity is **25.0%** of I₀. **Q.E.D.**
+
+**Discussion**
+
+With only the first and third filters (at 90°), I = I₀ cos²(90°) = 0 (no light passes). But inserting a 45° filter between them allows 25% transmission! This counterintuitive result occurs because the middle filter "rotates" the polarization direction, allowing some light to pass through the final filter.
 
 </div>
 </div>
@@ -536,6 +615,27 @@ Prove that, if  $$I $$
 At what angle will light reflected from diamond be completely polarized?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use Brewster's law: $$\tan \theta_b = n_2/n_1$$ where n₁ = 1.00 (air) and n₂ = 2.419 (diamond).
+
+**Solution**
+
+<div class="equation">
+$$\tan \theta_b = \frac{2.419}{1.00} = 2.419$$
+</div>
+
+<div class="equation">
+$$\theta_b = \tan^{-1}(2.419) = 67.5°$$
+</div>
+
+**Discussion**
+
+Diamond's high refractive index (2.419) produces a large Brewster angle of 67.5°, close to grazing incidence. This is why diamonds sparkle brilliantly - their high index causes strong refraction and internal reflection at most angles.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -550,7 +650,28 @@ What is Brewster’s angle for light traveling in water that is reflected from c
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A scuba diver sees light reflected from the water’s surface. At what angle will this light be completely polarized?
+A scuba diver sees light reflected from the water's surface. At what angle will this light be completely polarized?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The diver is underwater looking up at the water-air interface. Use Brewster's law with n₁ = 1.33 (water) and n₂ = 1.00 (air).
+
+**Solution**
+
+<div class="equation">
+$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.00}{1.33} = 0.752$$
+</div>
+
+<div class="equation">
+$$\theta_b = \tan^{-1}(0.752) = 36.9°$$
+</div>
+
+**Discussion**
+
+The Brewster angle of 36.9° from the normal (measured underwater) is relatively small. This is the complement of the Brewster angle for light going from air to water (53.1°), since 36.9° + 53.1° = 90°.
 
 </div>
 </div>
@@ -568,7 +689,24 @@ At what angle is light inside crown glass completely polarized when reflected fr
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Light reflected at  $$ 55.6º $$
- from a window is completely polarized. What is the window’s index of refraction and the likely substance of which it is made?
+ from a window is completely polarized. What is the window's index of refraction and the likely substance of which it is made?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Since the light is completely polarized, θ = 55.6° is Brewster's angle. Use $$\tan \theta_b = n_2/n_1$$ with n₁ = 1.00 (air).
+
+**Solution**
+
+<div class="equation">
+$$n_2 = n_1 \tan \theta_b = (1.00) \tan 55.6° = 1.46$$
+</div>
+
+**Discussion**
+
+An index of refraction of 1.46 is typical of **window glass** (common soda-lime glass has n ≈ 1.46-1.52). This could also be Plexiglas (n ≈ 1.49) or other transparent plastics used in windows.
 
 </div>
 </div>
@@ -589,8 +727,40 @@ Light reflected at  $$ 55.6º $$
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 If  $${\theta }_{\text{b}} $$
- is Brewster’s angle for light reflected from the top of an interface between two substances, and  $${\theta^{\prime} }_{\text{b}} $$
- is Brewster’s angle for light reflected from below, prove that  $${\theta }_{\text{b}}+{\theta^{\prime} }_{\text{b}}= 90.0º. $$
+ is Brewster's angle for light reflected from the top of an interface between two substances, and  $${\theta^{\prime} }_{\text{b}} $$
+ is Brewster's angle for light reflected from below, prove that  $${\theta }_{\text{b}}+{\theta^{\prime} }_{\text{b}}= 90.0º. $$
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use Brewster's law for both directions and the trigonometric identity $$\tan \theta + \tan(90° - \theta) = \infty$$ or $$\tan \theta_1 \cdot \tan \theta_2 = 1$$ when $$\theta_1 + \theta_2 = 90°$$.
+
+**Solution**
+
+For light from medium 1 (n₁) to medium 2 (n₂):
+<div class="equation">
+$$\tan \theta_b = \frac{n_2}{n_1}$$
+</div>
+
+For light from medium 2 to medium 1 (reverse direction):
+<div class="equation">
+$$\tan \theta'_b = \frac{n_1}{n_2}$$
+</div>
+
+Notice that:
+<div class="equation">
+$$\tan \theta_b \cdot \tan \theta'_b = \frac{n_2}{n_1} \cdot \frac{n_1}{n_2} = 1$$
+</div>
+
+From trigonometry, when $$\tan \theta_b \cdot \tan \theta'_b = 1$$, this occurs when $$\theta_b + \theta'_b = 90°$$ (since $$\tan \theta \cdot \tan(90° - \theta) = \tan \theta \cdot \cot \theta = 1$$).
+
+Therefore: $$\theta_b + \theta'_b = 90.0°$$ **Q.E.D.**
+
+**Discussion**
+
+This complementary relationship means Brewster's angles from opposite sides of an interface always sum to 90°. For example, air-to-water (θ_b ≈ 53°) and water-to-air (θ'_b ≈ 37°) sum to 90°.
+
 </div>
 </div>
 
@@ -615,6 +785,33 @@ Suppose you put on two pairs of Polaroid sunglasses with their axes at an angle
 of $$ 15.0º $$ . How much longer will it take the light to deposit a given
 amount of energy in your eye compared with a single pair of sunglasses? Assume
 the lenses are clear except for their polarizing characteristics.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Compare the intensity (power) transmitted through one vs. two pairs. Time to deposit energy is inversely proportional to power/intensity.
+
+**Solution**
+
+**One pair:** Unpolarized light through a polarizer transmits I₁ = I₀/2
+
+**Two pairs at 15°:** First polarizer transmits I₀/2, then Malus's law for the second:
+<div class="equation">
+$$I_2 = \frac{I_0}{2} \cos^2 15.0° = \frac{I_0}{2}(0.9659)^2 = 0.467 I_0$$
+</div>
+
+Time ratio (since Power = Energy/time):
+<div class="equation">
+$$\frac{t_2}{t_1} = \frac{I_1}{I_2} = \frac{0.500 I_0}{0.467 I_0} = 1.07$$
+</div>
+
+The two pairs take **7% longer** (or equivalently, 1.07 times as long) to deposit the same energy.
+
+**Discussion**
+
+At only 15° misalignment, the second pair blocks relatively little additional light (cos²15° ≈ 0.93). The time difference is small. At 90° misalignment, no light would pass and it would take infinite time!
 
 </div>
 </div>
