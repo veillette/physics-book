@@ -273,6 +273,24 @@ What is the sensitivity of the galvanometer (that is, what current gives a full-
  resistance on its 100-V scale?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The full-scale voltage (100 V) causes full-scale deflection current through the total resistance (25.0 kΩ). Use Ohm's law to find the galvanometer sensitivity.
+
+**Solution**
+
+<div class="equation">
+$$I_G = \frac{V}{R} = \frac{100 \text{ V}}{25.0 \times 10^3 \text{ Ω}} = 4.00 \times 10^{-3} \text{ A} = 4.00 \text{ mA}$$
+</div>
+
+**Discussion**
+
+The galvanometer sensitivity of 4.00 mA is relatively high compared to precision galvanometers (which typically have sensitivities of 50-100 μA). This higher current requirement makes the voltmeter less ideal for measuring delicate circuits, but it simplifies construction and reduces cost.
+
+The galvanometer sensitivity is 4.00 mA.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -292,6 +310,34 @@ Find the resistance that must be placed in series with a  $$ 25.0-\Omega  $$
 Find the resistance that must be placed in series with a  $$ 25.0-\Omega  $$
  galvanometer having a  $$ 50.0-\mu A $$
  sensitivity (the same as the one discussed in the text) to allow it to be used as a voltmeter with a 3000-V full-scale reading. Include a circuit diagram with your solution.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For full-scale reading, 3000 V must produce 50.0 μA through the series combination of galvanometer (25.0 Ω) and series resistor $$R$$. Use $$V = I(R + r)$$ to find $$R$$.
+
+**Solution**
+
+Circuit diagram: Series resistor $$R$$ connected with galvanometer $$r = 25.0 \text{ Ω}$$ to form a voltmeter.
+
+Total resistance needed:
+<div class="equation">
+$$R_{\text{total}} = \frac{V}{I} = \frac{3000 \text{ V}}{50.0 \times 10^{-6} \text{ A}} = 6.00 \times 10^{7} \text{ Ω} = 60.0 \text{ MΩ}$$
+</div>
+
+Series resistor required:
+<div class="equation">
+$$R = R_{\text{total}} - r = 60.0 \times 10^{6} - 25.0 \approx 60.0 \text{ MΩ}$$
+</div>
+
+(The galvanometer resistance is negligible compared to the series resistor.)
+
+**Discussion**
+
+The very large series resistance (60.0 MΩ) is needed because the galvanometer's full-scale current (50.0 μA) is tiny. At 3000 V, most voltage drops across the 60-MΩ resistor. Such high-voltage voltmeters require excellent insulation and careful construction to prevent leakage currents that would affect readings.
+
+The required series resistance is 60.0 MΩ (with circuit showing $$R$$ in series with galvanometer).
 
 </div>
 </div>
@@ -317,6 +363,40 @@ Find the resistance that must be placed in parallel with a  $$ 25.0-\Omega  $$
  sensitivity (the same as the one discussed in the text) to allow it to be used as an ammeter with a 300-mA full-scale reading.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+At full scale, 300 mA total current flows, with 50.0 μA through the galvanometer and the rest through the shunt resistor $$R$$. Since they're in parallel, $$V_G = V_R$$, giving $$I_G r = I_R R$$.
+
+**Solution**
+
+Current through shunt:
+<div class="equation">
+$$I_R = I_{\text{total}} - I_G = 300 \times 10^{-3} - 50.0 \times 10^{-6} \approx 0.300 \text{ A}$$
+</div>
+
+Voltage across galvanometer:
+<div class="equation">
+$$V_G = I_G r = (50.0 \times 10^{-6})(25.0) = 1.25 \times 10^{-3} \text{ V} = 1.25 \text{ mV}$$
+</div>
+
+Shunt resistance:
+<div class="equation">
+$$R = \frac{V_G}{I_R} = \frac{1.25 \times 10^{-3}}{0.300} = 4.17 \times 10^{-3} \text{ Ω} = 4.17 \text{ mΩ}$$
+</div>
+
+Alternatively, using the ratio formula:
+<div class="equation">
+$$R = r \frac{I_G}{I_R} = 25.0 \times \frac{50.0 \times 10^{-6}}{0.300} = 4.17 \text{ mΩ}$$
+</div>
+
+**Discussion**
+
+The very small shunt resistance (4.17 mΩ) diverts most of the 300-mA current away from the sensitive galvanometer, allowing only 50.0 μA to flow through it for full-scale deflection. This demonstrates why ammeters must have very low resistance—they're designed not to impede current flow significantly when placed in series with a circuit.
+
+The required shunt resistance is 4.17 mΩ.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -337,6 +417,43 @@ Find the resistance that must be placed in series with a  $$ 10.0-\Omega  $$
 Find the resistance that must be placed in parallel with a  $$ 10.0-\Omega  $$
  galvanometer having a  $$100 \text{-μA} $$
  sensitivity to allow it to be used as an ammeter with: (a) a 20.0-A full-scale reading, and (b) a 100-mA full-scale reading.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For each case, use $$R = r \times I_G/(I_{\text{total}} - I_G)$$ where most current flows through the shunt.
+
+**Solution**
+
+Galvanometer voltage at full scale:
+<div class="equation">
+$$V_G = I_G r = (100 \times 10^{-6})(10.0) = 1.00 \times 10^{-3} \text{ V} = 1.00 \text{ mV}$$
+</div>
+
+**(a)** For 20.0-A full scale:
+
+Current through shunt: $$I_R \approx 20.0 \text{ A}$$ (since $$I_G << I_{\text{total}}$$)
+
+Shunt resistance:
+<div class="equation">
+$$R = \frac{V_G}{I_R} = \frac{1.00 \times 10^{-3}}{20.0} = 5.00 \times 10^{-5} \text{ Ω} = 50.0 \text{ μΩ}$$
+</div>
+
+**(b)** For 100-mA full scale:
+
+Current through shunt: $$I_R = 0.100 - 0.0001 \approx 0.0999 \text{ A}$$
+
+Shunt resistance:
+<div class="equation">
+$$R = \frac{V_G}{I_R} = \frac{1.00 \times 10^{-3}}{0.0999} = 1.00 \times 10^{-2} \text{ Ω} = 10.0 \text{ mΩ}$$
+</div>
+
+**Discussion**
+
+The shunt resistance is dramatically different for the two scales: 50.0 μΩ for 20-A scale versus 10.0 mΩ for 100-mA scale—a factor of 200 difference. Lower shunt resistance allows more current to bypass the galvanometer. Multi-range ammeters use switchable shunt resistors to provide different full-scale readings.
+
+(a) 50.0 μΩ, (b) 10.0 mΩ.
 
 </div>
 </div>
