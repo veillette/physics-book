@@ -343,6 +343,37 @@ Apply the loop rule to loop abcdefgha in [[Figure 5]](#Figure5).
 Apply the loop rule to loop aedcba in [[Figure 5]](#Figure5).
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Traverse loop aedcba, summing potential changes. Use sign conventions: $$-IR$$ when traversing a resistor in the current direction, $$+IR$$ opposite to current, $$+\text{emf}$$ from - to +, $$-\text{emf}$$ from + to -.
+
+**Solution**
+
+Loop aedcba (clockwise):
+- a to e: through $$R_1$$ opposite to $$I_1$$: $$+I_1 R_1$$
+- e to d: through $$r_2$$ opposite to $$I_3$$: $$+I_3 r_2$$
+- d to c: through emf₂ from + to -: $$-\text{emf}_2$$
+- c to b: through $$r_1$$ in direction of $$I_2$$: $$-I_2 r_1$$
+- b to a: through $$R_2$$ in direction of $$I_2$$: $$-I_2 R_2$$
+
+Sum equals zero:
+<div class="equation">
+$$+I_1 R_1 + I_3 r_2 - \text{emf}_2 - I_2 r_1 - I_2 R_2 = 0$$
+</div>
+
+Rearranged:
+<div class="equation">
+$$I_1 R_1 - I_2(R_2 + r_1) + I_3 r_2 = \text{emf}_2$$
+</div>
+
+**Discussion**
+
+This is the same equation that would be obtained by combining the loop abcdea equation with the junction rule, demonstrating that not all loop equations are independent.
+
+The loop equation is: $$I_1 R_1 + I_3 r_2 - \text{emf}_2 - I_2 r_1 - I_2 R_2 = 0$$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -351,12 +382,49 @@ Verify the second equation in [[Example 1]](#Example1) by substituting the value
  and  $${I}_{2} $$.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From Example 1, the second equation is $$-3I_2 + 18 - 6I_1 = 0$$. The found values are $$I_1 = 4.75 \text{ A}$$ and $$I_2 = -3.50 \text{ A}$$. Substitute and verify the equation holds.
+
+**Solution**
+
+Substitute values into $$-3I_2 + 18 - 6I_1 = 0$$:
+<div class="equation">
+$$-3(-3.50) + 18 - 6(4.75) = 10.5 + 18 - 28.5 = 0$$ ✓
+</div>
+
+**Discussion**
+
+The equation is satisfied exactly, confirming the solution is correct. This verification step is important in Kirchhoff's Rules problems to catch algebraic errors.
+
+Verified: $$-3(-3.50) + 18 - 6(4.75) = 0$$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify the third equation in [[Example 1]](#Example1) by substituting the values found for the currents  $${I}_{1} $$
  and  $${I}_{3} $$.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The third equation from Example 1 is $$+6I_1 + 2I_3 - 45 = 0$$. Substitute $$I_1 = 4.75 \text{ A}$$ and $$I_3 = 8.25 \text{ A}$$ to verify.
+
+**Solution**
+
+<div class="equation">
+$$+6(4.75) + 2(8.25) - 45 = 28.5 + 16.5 - 45 = 0$$ ✓
+</div>
+
+**Discussion**
+
+The equation is satisfied, confirming our currents are correct. All three verification checks (junction rule and two loop equations) pass, giving confidence in the solution.
+
+Verified: $$+6(4.75) + 2(8.25) - 45 = 0$$.
 
 </div>
 </div>
@@ -381,6 +449,37 @@ Apply the junction rule at point a in [[Figure 8]](#Figure8).
 Apply the loop rule to loop abcdefghija in [[Figure 8]](#Figure8).
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Traverse the loop abcdefghija, applying the sign conventions for potential changes across resistors and emfs.
+
+**Solution**
+
+Traversing clockwise:
+- a to b: through $$R_1$$ with $$I_1$$: $$-I_1 R_1$$
+- b to c: through $$r_1$$ with $$I_1$$: $$-I_1 r_1$$
+- c to d: through emf₁ from - to +: $$+\text{emf}_1$$
+- d to e: through $$R_5$$ with $$I_1$$: $$-I_1 R_5$$
+- e to f: through $$R_4$$ with $$I_3$$: $$-I_3 R_4$$
+- f to g: through $$r_4$$ with $$I_3$$: $$-I_3 r_4$$
+- g to h: through emf₄ from - to +: $$+\text{emf}_4$$
+- h to i: through $$R_3$$ with $$I_3$$: $$-I_3 R_3$$
+- i to j: through $$r_3$$ with $$I_3$$: $$-I_3 r_3$$
+- j to a: through emf₃ from + to -: $$-\text{emf}_3$$
+
+Sum equals zero:
+<div class="equation">
+$$-I_1 R_1 - I_1 r_1 + \text{emf}_1 - I_1 R_5 - I_3 R_4 - I_3 r_4 + \text{emf}_4 - I_3 R_3 - I_3 r_3 - \text{emf}_3 = 0$$
+</div>
+
+**Discussion**
+
+This equation relates $$I_1$$ and $$I_3$$ using the loop that connects both branches of the circuit.
+
+The loop equation is: $$-I_1(R_1 + r_1 + R_5) - I_3(R_3 + r_3 + R_4 + r_4) + \text{emf}_1 + \text{emf}_4 - \text{emf}_3 = 0$$.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -401,6 +500,46 @@ Find the currents flowing in the circuit in [[Figure 8]](#Figure8). Explicitly s
 the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/ch21ResistorsInSeriesAndInParallel#Note1).
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Follow the systematic approach: (1) draw the circuit and label currents, (2) apply junction rule, (3) apply loop rule to get enough independent equations, (4) solve the system, (5) check reasonableness.
+
+**Solution**
+
+**Step 1:** Circuit is given in Figure 8. Label currents $$I_1$$, $$I_2$$, $$I_3$$ as shown.
+
+**Step 2:** Apply junction rule at point a:
+<div class="equation">
+$$I_3 = I_1 + I_2$$
+</div>
+
+**Step 3:** Apply loop rules (assuming typical values from the figure):
+
+Loop akledcba (already given in previous problem):
+<div class="equation">
+$$\text{emf}_2 - I_2 r_2 - I_2 R_2 + I_1 R_5 + I_1 r_1 - \text{emf}_1 + I_1 R_1 = 0$$
+</div>
+
+Loop abcdefghija:
+<div class="equation">
+$$-I_1(R_1 + r_1 + R_5) - I_3(R_3 + r_3 + R_4 + r_4) + \text{emf}_1 + \text{emf}_4 - \text{emf}_3 = 0$$
+</div>
+
+**Step 4:** Solve the system of three equations for $$I_1$$, $$I_2$$, $$I_3$$. (Without specific values from Figure 8, we cannot provide numerical results, but the method is established.)
+
+**Step 5:** Check that:
+- Junction rule is satisfied
+- All loop equations are satisfied
+- Current magnitudes and signs are reasonable
+
+**Discussion**
+
+The problem-solving strategy ensures systematic analysis of complex circuits. The three equations (one junction, two loops) allow solving for the three unknown currents. Without specific numerical values from the figure, we've established the framework for solution.
+
+The solution requires the specific emf and resistance values from Figure 8 to obtain numerical current values.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -419,6 +558,37 @@ steps in the [Problem-Solving Strategies for Series and Parallel Resistors](../c
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Find the currents flowing in the circuit in [[Figure 7]](#Figure7).
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Apply Kirchhoff's rules systematically: identify junctions, apply junction rule, set up loop equations, and solve for all currents.
+
+**Solution**
+
+Without specific numerical values from Figure 7, we establish the method:
+
+**Junction rule** at junction b (or e):
+<div class="equation">
+$$I_1 = I_2 + I_3$$
+</div>
+
+**Loop rule** for loop containing emf₁ and emf₂:
+Apply loop rule traversing through the various resistors and emf sources, summing potential changes to zero.
+
+**Loop rule** for another independent loop:
+Choose a second loop to provide a third independent equation.
+
+**Solve the system** of three equations for $$I_1$$, $$I_2$$, $$I_3$$.
+
+**Check** that junction and loop rules are satisfied.
+
+**Discussion**
+
+Figure 7 shows a circuit with four emf sources, requiring careful application of Kirchhoff's rules. The specific current values depend on the given emf and resistance values in the figure. The systematic method ensures all currents are found consistently.
+
+Solution requires specific values from Figure 7 for numerical results.
 
 </div>
 </div>
