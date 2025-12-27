@@ -276,6 +276,57 @@ The amplitude of a lightly damped oscillator decreases by  $$ 3.0%  $$
  during each cycle. What percentage of the mechanical energy of the oscillator is lost in each cycle?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The mechanical energy of a harmonic oscillator is proportional to the square of the amplitude: $$E = \frac{1}{2}kA^2$$. If the amplitude decreases by 3.0%, the new amplitude is 97.0% of the original. We calculate the energy after one cycle and find the percentage decrease.
+
+**Solution**
+
+Let the initial amplitude be $$A_0$$ and the initial energy be $$E_0 = \frac{1}{2}kA_0^2$$.
+
+After one cycle, the amplitude decreases by 3.0%, so:
+
+<div class="equation">
+ $$A_1 = A_0(1 - 0.030) = 0.970 A_0$$
+</div>
+
+The energy after one cycle is:
+
+<div class="equation">
+ $$E_1 = \frac{1}{2}kA_1^2 = \frac{1}{2}k(0.970 A_0)^2 = \frac{1}{2}k(0.9409)A_0^2$$
+</div>
+
+<div class="equation">
+ $$E_1 = 0.9409 E_0$$
+</div>
+
+The energy lost is:
+
+<div class="equation">
+ $$\Delta E = E_0 - E_1 = E_0 - 0.9409 E_0 = 0.0591 E_0$$
+</div>
+
+The percentage of energy lost is:
+
+<div class="equation">
+ $$\frac{\Delta E}{E_0} \times 100\% = 5.91\% \approx 5.9\%$$
+</div>
+
+**Approximately 5.9% of the mechanical energy is lost in each cycle.**
+
+**Discussion**
+
+The energy loss (5.9%) is nearly twice the amplitude loss (3.0%) because energy is proportional to the square of amplitude. This quadratic relationship is fundamental to understanding damped oscillations.
+
+For lightly damped systems, this energy is dissipated primarily as heat through friction, air resistance, and other non-conservative forces. Over many cycles, the oscillator will gradually come to rest as all its mechanical energy is converted to thermal energy.
+
+The fact that the energy decreases by about 6% per cycle means the oscillator loses roughly half its energy in about 12 cycles (since $$(0.94)^{12} \approx 0.47$$). This relatively slow decay is characteristic of light damping, which is why a plucked guitar string or a struck tuning fork can oscillate audibly for several seconds.
+
+In contrast, a heavily damped system (like a car's shock absorbers) is designed to dissipate energy much more quickly to prevent prolonged oscillations.
+
+</div>
 </div>
 
 <div class="glossary" markdown="1">

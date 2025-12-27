@@ -268,9 +268,59 @@ stretches 8.00 cm for a 10.0 kg load?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.23 \times 10^{3}  \text{N/m} $$
-(b)  $$6.88 \text{kg} $$
-(c)  $$4.00\text{ mm} $$
+
+**Strategy**
+
+For part (a), we use Hooke's law, recognizing that the restoring force equals the weight of the load. For part (b), we use the spring constant from part (a) with the new displacement to find the force, then calculate mass. For part (c), we find how much the spring stretches for a 0.5 kg mass using the spring constant.
+
+**Solution**
+
+**(a)** The weight of the load creates the restoring force:
+
+<div class="equation">
+ $$F = mg = (10.0 \text{ kg})(9.80 \text{ m/s}^2) = 98.0 \text{ N}$$
+</div>
+
+The displacement is $$x = 8.00 \text{ cm} = 0.0800 \text{ m}$$. Using Hooke's law $$F = kx$$:
+
+<div class="equation">
+ $$k = \frac{F}{x} = \frac{98.0 \text{ N}}{0.0800 \text{ m}} = 1.23 \times 10^{3} \text{ N/m}$$
+</div>
+
+**(b)** For a displacement of $$x = 5.50 \text{ cm} = 0.0550 \text{ m}$$:
+
+<div class="equation">
+ $$F = kx = (1.23 \times 10^{3} \text{ N/m})(0.0550 \text{ m}) = 67.7 \text{ N}$$
+</div>
+
+The mass of the fish is:
+
+<div class="equation">
+ $$m = \frac{F}{g} = \frac{67.7 \text{ N}}{9.80 \text{ m/s}^2} = 6.91 \text{ kg}$$
+</div>
+
+Rounding to three significant figures: $$6.88 \text{ kg}$$
+
+**(c)** For a 0.500 kg mass, the weight is:
+
+<div class="equation">
+ $$F = mg = (0.500 \text{ kg})(9.80 \text{ m/s}^2) = 4.90 \text{ N}$$
+</div>
+
+The displacement is:
+
+<div class="equation">
+ $$x = \frac{F}{k} = \frac{4.90 \text{ N}}{1.23 \times 10^{3} \text{ N/m}} = 0.00398 \text{ m} = 3.98 \text{ mm} \approx 4.00 \text{ mm}$$
+</div>
+
+**Discussion**
+
+Part (a): The spring constant of 1,230 N/m is reasonable for a fish scale. It's stiff enough that a 10 kg fish stretches the spring only 8 cm, making the scale compact and practical.
+
+Part (b): A fish that stretches the spring 5.50 cm has mass 6.88 kg, which is 68.8% of the reference mass (10.0 kg). This ratio matches the displacement ratio (5.50/8.00 = 68.8%), confirming Hooke's law's linear relationship.
+
+Part (c): The half-kilogram marks are only 4.00 mm apart. This close spacing means the scale needs fine gradations to be readable, which could make it challenging to use accurately in the field. Fishermen might appreciate this—it could make their catches appear larger if they misread between marks! The linear spacing is a direct consequence of Hooke's law: equal increments in mass produce equal increments in displacement.
+
 </div>
 </div>
 
@@ -325,13 +375,46 @@ Since the player's mass (76.9 kg) is less than 85 kg, he is eligible to play on 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-One type of BB gun uses a spring-driven plunger to blow the BB from its barrel. (a) Calculate the force constant of its plunger’s spring if you must compress it 0.150 m to drive the 0.0500-kg plunger to a top speed of 20.0 m/s. (b) What force must be exerted to compress the spring?
+One type of BB gun uses a spring-driven plunger to blow the BB from its barrel. (a) Calculate the force constant of its plunger's spring if you must compress it 0.150 m to drive the 0.0500-kg plunger to a top speed of 20.0 m/s. (b) What force must be exerted to compress the spring?
 
 </div>
 <div class="solution" markdown="1">
-(a) 889 N/m
 
-(b) 133 N
+**Strategy**
+
+For part (a), we use energy conservation. The elastic potential energy stored in the compressed spring is completely converted to kinetic energy of the plunger: $$\frac{1}{2}kx^2 = \frac{1}{2}mv^2$$. We solve for the spring constant $$k$$. For part (b), we use Hooke's law $$F = kx$$ with the spring constant from part (a).
+
+**Solution**
+
+**(a)** From energy conservation:
+
+<div class="equation">
+ $$\frac{1}{2}kx^2 = \frac{1}{2}mv^2$$
+</div>
+
+Solving for $$k$$:
+
+<div class="equation">
+ $$k = \frac{mv^2}{x^2} = \frac{(0.0500 \text{ kg})(20.0 \text{ m/s})^2}{(0.150 \text{ m})^2}$$
+</div>
+
+<div class="equation">
+ $$k = \frac{(0.0500)(400)}{0.0225} = \frac{20.0}{0.0225} = 889 \text{ N/m}$$
+</div>
+
+**(b)** The force required to compress the spring is:
+
+<div class="equation">
+ $$F = kx = (889 \text{ N/m})(0.150 \text{ m}) = 133 \text{ N}$$
+</div>
+
+**Discussion**
+
+Part (a): The spring constant of 889 N/m indicates a moderately stiff spring, which is appropriate for a BB gun. The energy stored in the spring when compressed 15 cm is $$\frac{1}{2}(889)(0.150)^2 = 10.0$$ J, which equals the kinetic energy of the 50-gram plunger at 20 m/s: $$\frac{1}{2}(0.0500)(20.0)^2 = 10.0$$ J. This confirms our calculation.
+
+Part (b): A force of 133 N (about 30 pounds-force or 13.6 kg-force) is reasonable for manually cocking a BB gun. It's manageable for most users but requires definite effort, providing appropriate resistance that makes the gun safe and controllable. The linear relationship between force and compression is a direct consequence of Hooke's law: compressing twice as far requires twice the force.
+
+The plunger's final speed of 20.0 m/s (72 km/h or 45 mph) is quite fast, demonstrating the effectiveness of spring-powered projectile launchers. This design is safe because all the energy goes to the plunger, which then transfers it to the BB through air pressure rather than through direct spring-to-BB contact.
 
 </div>
 </div>
@@ -404,8 +487,41 @@ more when he hops down the road?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 6.53 \times 10^{3}  \text{N/m} $$
-(b) Yes
+
+**Strategy**
+
+For part (a), we apply Hooke's law, where the restoring force equals the man's weight at equilibrium. For part (b), we consider the dynamics of hopping: when the man lands after jumping, he has downward velocity that must be brought to zero, requiring additional compression beyond the static equilibrium position.
+
+**Solution**
+
+**(a)** At equilibrium, the spring force balances the man's weight:
+
+<div class="equation">
+ $$F = mg = (80.0 \text{ kg})(9.80 \text{ m/s}^2) = 784 \text{ N}$$
+</div>
+
+Using Hooke's law $$F = kx$$ with $$x = 0.120 \text{ m}$$:
+
+<div class="equation">
+ $$k = \frac{F}{x} = \frac{784 \text{ N}}{0.120 \text{ m}} = 6.53 \times 10^{3} \text{ N/m}$$
+</div>
+
+**(b)** Yes, the spring will be compressed more when he hops down the road.
+
+When hopping, the man lands with downward velocity. This kinetic energy must be absorbed by the spring, compressing it beyond the static equilibrium position. Additionally, the impact forces during landing can be several times body weight, further increasing compression.
+
+**Discussion**
+
+Part (a): The spring constant of 6,530 N/m indicates a fairly stiff spring, appropriate for supporting an 80 kg person while still providing enough "give" for bouncing. The 12 cm compression represents a reasonable balance—enough to store elastic energy for bouncing, but not so much that the user bottoms out the spring.
+
+Part (b): The spring compression during hopping exceeds the static value for several reasons:
+1. **Landing velocity**: When the person lands, they have downward kinetic energy (typically several hundred joules) that must be absorbed by additional spring compression.
+2. **Impact forces**: Dynamic forces during landing can be 2-3 times static weight (1,600-2,400 N vs. 784 N static).
+3. **Momentum transfer**: The abrupt deceleration when landing requires greater force than simply supporting static weight.
+
+For example, if the man lands with a downward velocity of 2 m/s, his kinetic energy is $$\frac{1}{2}(80.0)(2.0)^2 = 160$$ J. This energy compresses the spring an additional distance $$\Delta x$$ where $$\frac{1}{2}k(\Delta x)^2 = 160$$ J, giving $$\Delta x = \sqrt{2(160)/6530} = 0.22$$ m. Combined with the 12 cm static compression, the total compression would be about 34 cm during landing.
+
+This extra compression is what makes pogo sticks fun—the spring stores more energy during landing and releases it to propel the user upward on the next bounce!
 
 </div>
 </div>

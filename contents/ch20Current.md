@@ -643,9 +643,70 @@ The spark lasts for 1.50 μs, which is sufficient to ignite the fuel-air mixture
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.67\text{k}\Omega  $$
-(b) If a 50 times larger resistance existed, keeping the current about the same, the power would be increased by a factor of about 50 (based on the equation  $$P={I}^{2}R $$ ), 
-causing much more energy to be transferred to the skin, which could cause serious burns. The gel used reduces the resistance, and therefore reduces the power transferred to the skin.
+
+**Strategy**
+
+For part (a), we use Ohm's law $$V = IR$$ to find the resistance, given voltage and current. For part (b), we analyze the power dissipated using $$P = I^2R$$ to understand why high resistance paths are problematic.
+
+**Solution**
+
+**(a)** Using Ohm's law $$V = IR$$, solve for resistance:
+
+<div class="equation">
+ $$R = \frac{V}{I} = \frac{10{,}000 \text{ V}}{6.00 \text{ A}}$$
+</div>
+
+<div class="equation">
+ $$R = 1{,}667 \text{ Ω} = 1.67 \text{ kΩ}$$
+</div>
+
+**(b)** With 50 times the resistance ($$R' = 50R = 83.5 \text{ kΩ}$$) and the same current, the voltage would need to be:
+
+<div class="equation">
+ $$V' = IR' = (6.00 \text{ A})(83{,}500 \text{ Ω}) = 501{,}000 \text{ V} = 501 \text{ kV}$$
+</div>
+
+The power dissipated is:
+
+<div class="equation">
+ $$P = I^2R$$
+</div>
+
+If $$R$$ increases by a factor of 50 while $$I$$ remains constant, the power increases by a factor of 50:
+
+<div class="equation">
+ $$P' = I^2(50R) = 50(I^2R) = 50P$$
+</div>
+
+Original power:
+<div class="equation">
+ $$P = (6.00)^2(1{,}667) = 60{,}000 \text{ W} = 60 \text{ kW}$$
+</div>
+
+New power:
+<div class="equation">
+ $$P' = 50 \times 60 = 3{,}000 \text{ kW} = 3.0 \text{ MW}$$
+</div>
+
+**Discussion**
+
+Part (a): The resistance of 1.67 kΩ represents the path through the patient's chest, including skin, muscle, bone, and other tissues. The conducting gel used with defibrillator paddles is essential for achieving this relatively low resistance.
+
+Part (b): Without conducting gel, skin resistance alone can exceed 100 kΩ. If the resistance were 50 times higher (~83.5 kΩ), several severe problems would occur:
+
+1. **Extreme voltage required**: 501 kV would be needed—far beyond safe or practical limits. This voltage would cause arcing, pose electrocution hazards to medical personnel, and likely kill the patient through excessive current or burns.
+
+2. **Dangerous power dissipation**: The power of 3.0 MW (even if only for milliseconds) would cause catastrophic burns. Most of this energy would be dissipated in the high-resistance skin and superficial tissues, not reaching the heart.
+
+3. **Ineffective defibrillation**: The current path would be poorly defined, with most current taking surface paths rather than passing through the heart muscle.
+
+The conducting gel reduces skin resistance from ~100 kΩ to ~1 kΩ, a 100-fold reduction. This allows:
+- Safe voltage levels (10 kV instead of 1 MV)
+- Controlled current delivery to the heart
+- Minimal skin burns
+- Predictable current pathways
+
+**The resistance of the path is 1.67 kΩ. Using 50 times higher resistance would require dangerous voltages (501 kV), cause severe burns from 50 times higher power dissipation, and make defibrillation ineffective.**
 
 </div>
 </div>
@@ -688,9 +749,53 @@ A voltage of 5.00 V should be applied to produce the required 10.0-mA current th
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.120 C
 
-(b) $$ 7.50 \times 10^{17} \text{electrons} $$
+**Strategy**
+
+For part (a), we use the definition of current: $$I = Q/t$$, where $$Q$$ is the charge and $$t$$ is the time. Solving for $$Q$$ gives us the total charge that flows. For part (b), we use the fact that each electron carries a charge of $$e = 1.60 \times 10^{-19}$$ C to find the number of electrons.
+
+**Solution**
+
+**(a)** From the definition of current:
+
+<div class="equation">
+ $$I = \frac{Q}{t}$$
+</div>
+
+Solving for charge:
+
+<div class="equation">
+ $$Q = It = (12.0 \text{ A})(0.0100 \text{ s})$$
+</div>
+
+<div class="equation">
+ $$Q = 0.120 \text{ C}$$
+</div>
+
+**(b)** The number of electrons is:
+
+<div class="equation">
+ $$n = \frac{Q}{e} = \frac{0.120 \text{ C}}{1.60 \times 10^{-19} \text{ C/electron}}$$
+</div>
+
+<div class="equation">
+ $$n = 7.50 \times 10^{17} \text{ electrons}$$
+</div>
+
+**Discussion**
+
+Part (a): The charge of 0.120 C is substantial—equivalent to the charge stored in a moderate-sized capacitor. During the brief 10-millisecond pulse, this charge flows through the patient's torso to depolarize the heart muscle and restore normal rhythm. The short duration is important: it delivers enough charge to be therapeutic without causing tissue damage from prolonged current flow.
+
+Part (b): The number $$7.50 \times 10^{17}$$ electrons is enormous—750 quadrillion electrons! To put this in perspective:
+- This is about 1 millionth of a mole of electrons
+- If these electrons were lined up, they'd stretch many times across the solar system
+- Yet the total mass of these electrons is only about $$6.8 \times 10^{-13}$$ kg (less than a nanogram)
+
+This calculation illustrates a fundamental principle of electricity: even modest currents involve vast numbers of charge carriers. In metals, the drift velocity of electrons is quite slow (millimeters per second), but the enormous density of mobile electrons means even this slow drift produces significant current.
+
+The current of 12.0 A is quite high for medical applications—defibrillators deliver powerful shocks to overwhelm abnormal electrical activity in the heart. For comparison, as little as 0.1 A across the heart can be fatal under normal circumstances, but during defibrillation, the brief, controlled pulse is therapeutic rather than harmful.
+
+**The charge that moves is 0.120 C, corresponding to $$7.50 \times 10^{17}$$ electrons passing through the wires.**
 
 </div>
 </div>
@@ -818,9 +923,71 @@ A large cyclotron directs a beam of  $${\text{He}}^{++} $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$7.81 \times 10^{14} {\text{He}}^{++} \text{nuclei/s} $$
-(b)  $$4.00 \times 10^{3} \text{s} $$
-(c)  $$7.71 \times 10^{8} \text{s} $$
+
+**Strategy**
+
+Each $${\text{He}}^{++}$$ nucleus has lost 2 electrons, so it carries a charge of +2e. For part (a), we find the number of nuclei per second from the current and charge per nucleus. For part (b), we use $$I = Q/t$$. For part (c), we use Avogadro's number to find the charge in 1 mole of $${\text{He}}^{++}$$.
+
+**Solution**
+
+**(a)** Each $${\text{He}}^{++}$$ nucleus has charge:
+
+<div class="equation">
+ $$q = +2e = 2(1.60 \times 10^{-19} \text{ C}) = 3.20 \times 10^{-19} \text{ C}$$
+</div>
+
+Current is $$I = 0.250 \text{ mA} = 2.50 \times 10^{-4} \text{ A}$$. The number of nuclei per second:
+
+<div class="equation">
+ $$n = \frac{I}{q} = \frac{2.50 \times 10^{-4} \text{ C/s}}{3.20 \times 10^{-19} \text{ C/nucleus}}$$
+</div>
+
+<div class="equation">
+ $$n = 7.81 \times 10^{14} \text{ nuclei/s}$$
+</div>
+
+**(b)** From $$I = Q/t$$:
+
+<div class="equation">
+ $$t = \frac{Q}{I} = \frac{1.00 \text{ C}}{2.50 \times 10^{-4} \text{ A}}$$
+</div>
+
+<div class="equation">
+ $$t = 4.00 \times 10^{3} \text{ s} = 4000 \text{ s} = 66.7 \text{ min} = 1.11 \text{ hours}$$
+</div>
+
+**(c)** One mole contains $$N_A = 6.02 \times 10^{23}$$ nuclei. Total charge in 1 mole:
+
+<div class="equation">
+ $$Q = N_A \cdot q = (6.02 \times 10^{23})(3.20 \times 10^{-19} \text{ C})$$
+</div>
+
+<div class="equation">
+ $$Q = 1.93 \times 10^{5} \text{ C} = 193{,}000 \text{ C}$$
+</div>
+
+Time required:
+
+<div class="equation">
+ $$t = \frac{Q}{I} = \frac{1.93 \times 10^{5} \text{ C}}{2.50 \times 10^{-4} \text{ A}}$$
+</div>
+
+<div class="equation">
+ $$t = 7.71 \times 10^{8} \text{ s} = 24.4 \text{ years}$$
+</div>
+
+**Discussion**
+
+Part (a): The rate of $$7.81 \times 10^{14}$$ nuclei per second sounds enormous, yet it produces a tiny current of only 0.25 mA. This illustrates that even small currents involve vast numbers of charge carriers.
+
+Part (b): To deliver 1.00 C takes about 67 minutes. This demonstrates that the current is quite small—typical household currents are thousands of times larger.
+
+Part (c): To deliver 1 mole of helium nuclei would take 24.4 years of continuous operation! This calculation shows why particle accelerators rarely accumulate macroscopic amounts of material, despite operating at high particle rates. The total charge of 193,000 C in 1 mole reflects the fact that each $${\text{He}}^{++}$$ carries twice the elementary charge.
+
+Cyclotrons are used for nuclear physics research, medical isotope production, and cancer treatment. While the particle rates are high, the actual mass of material delivered is tiny because atomic nuclei are so small. A typical target in a cyclotron experiment might accumulate only micrograms of material even after hours of bombardment.
+
+**Answer: (a) $$7.81 \times 10^{14}$$ nuclei/s, (b) 4.00 × 10³ s (67 min), (c) 7.71 × 10⁸ s (24.4 years)**
+
 </div>
 </div>
 

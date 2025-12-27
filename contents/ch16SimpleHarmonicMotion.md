@@ -305,7 +305,51 @@ A type of cuckoo clock keeps time by having a mass bouncing on a spring, usually
 
 </div>
 <div class="solution" markdown="1">
- $$ 2.37 \text{N/m} $$
+
+**Strategy**
+
+For a mass-spring system, the period of simple harmonic motion is given by $$T = 2\pi\sqrt{\frac{m}{k}}$$, where $$m$$ is the mass and $$k$$ is the spring constant. We solve this equation for $$k$$ using the given period and mass.
+
+**Solution**
+
+Starting with the period formula:
+
+<div class="equation">
+ $$T = 2\pi\sqrt{\frac{m}{k}}$$
+</div>
+
+Squaring both sides:
+
+<div class="equation">
+ $$T^2 = 4\pi^2\frac{m}{k}$$
+</div>
+
+Solving for $$k$$:
+
+<div class="equation">
+ $$k = \frac{4\pi^2 m}{T^2}$$
+</div>
+
+Substituting the given values ($$m = 0.0150$$ kg, $$T = 0.500$$ s):
+
+<div class="equation">
+ $$k = \frac{4\pi^2(0.0150 \text{ kg})}{(0.500 \text{ s})^2}$$
+</div>
+
+<div class="equation">
+ $$k = \frac{4(9.870)(0.0150)}{0.250} = \frac{0.592}{0.250} = 2.37 \text{ N/m}$$
+</div>
+
+**The spring constant needed is 2.37 N/m.**
+
+**Discussion**
+
+The spring constant of 2.37 N/m is quite small, indicating a very soft spring. This makes sense for a cuckoo clock mechanism—the spring needs to be soft enough that a small 15-gram mass (about half an ounce) can oscillate with a relatively long period of 0.5 seconds.
+
+A stiffer spring would require either a heavier mass or would oscillate too quickly to keep accurate time. The 0.5-second period means the mass completes one full oscillation (up and down) twice per second, or 120 complete cycles per minute. This regular oscillation can be used to drive the clock's timekeeping mechanism.
+
+To put this in perspective, if you hung the 15-gram cherub from this spring, it would stretch only $$x = \frac{mg}{k} = \frac{(0.015)(9.8)}{2.37} = 0.062$$ m or about 6.2 cm under its own weight—a reasonable deflection for a decorative clock ornament.
+
 </div>
 </div>
 

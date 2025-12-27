@@ -324,16 +324,65 @@ A voltage of 3.50 V is supplied to operate the DVD player's indicator light.
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.300 V
 
-(b) 1.50 V
+**Strategy**
 
-(c) The voltage supplied to whatever appliance is being used is reduced because
-the total voltage drop from the wall to the final output of the appliance is
-fixed. Thus, if the voltage drop across the extension cord is large, the voltage
-drop across the appliance is significantly decreased, so the power output by the
-appliance can be significantly decreased, reducing the ability of the appliance
-to work properly.
+For parts (a) and (b), we use Ohm's law $$V = IR$$ to find the voltage drop across each extension cord. For part (c), we recognize that extension cords and appliances form a series circuit, so the voltage drops must add up to the source voltage (typically 120 V in the US).
+
+**Solution**
+
+**(a)** Using Ohm's law for the good extension cord:
+
+<div class="equation">
+ $$V = IR = (5.00 \text{ A})(0.0600 \text{ Ω}) = 0.300 \text{ V}$$
+</div>
+
+**(b)** For the cheaper extension cord with higher resistance:
+
+<div class="equation">
+ $$V = IR = (5.00 \text{ A})(0.300 \text{ Ω}) = 1.50 \text{ V}$$
+</div>
+
+**(c)** The extension cord and appliance are in series, so:
+
+<div class="equation">
+ $$V_{\text{source}} = V_{\text{cord}} + V_{\text{appliance}}$$
+</div>
+
+The voltage available to the appliance is:
+
+<div class="equation">
+ $$V_{\text{appliance}} = V_{\text{source}} - V_{\text{cord}}$$
+</div>
+
+For a 120 V source:
+- Good cord: $$V_{\text{appliance}} = 120 - 0.3 = 119.7 \text{ V}$$ (99.8% of source)
+- Cheap cord: $$V_{\text{appliance}} = 120 - 1.5 = 118.5 \text{ V}$$ (98.8% of source)
+
+The appliance power is $$P = V^2/R$$ (for constant appliance resistance), so:
+- Cheap cord reduces available power by approximately $$\left(\frac{118.5}{119.7}\right)^2 = 0.980$$ or 2% less power
+
+**Discussion**
+
+Part (a): The voltage drop of 0.3 V represents only 0.25% of the 120 V source—negligible for most applications. This is the hallmark of a good extension cord: low resistance that doesn't significantly affect appliance performance.
+
+Part (b): The cheaper cord's voltage drop of 1.5 V is 5 times larger, representing 1.25% of the source voltage. While this still seems small, it has several practical implications:
+
+1. **Power reduction**: Appliances receive less voltage and therefore less power. For a 600 W heater, this would reduce power by about 12 W—not catastrophic but noticeable.
+
+2. **Dimming lights**: A light bulb on this cord would visibly dim. The 2% power reduction translates to noticeable brightness decrease.
+
+3. **Motor performance**: Electric motors are particularly sensitive to voltage drops. A power tool might run slower and with less torque, potentially stalling under load.
+
+4. **Heat generation**: The 1.5 V drop × 5 A = 7.5 W of power is dissipated as heat in the cord. Over time, this can make the cord warm to hot, potentially creating a fire hazard with prolonged use.
+
+5. **Voltage-sensitive electronics**: Some devices (like computers) have voltage regulators and will compensate, but their efficiency decreases. Other devices might malfunction.
+
+The effect is amplified at higher currents. At 10 A, the cheap cord would drop 3 V, and at 15 A (the typical circuit breaker limit), it would drop 4.5 V—nearly 4% of the source voltage, causing serious performance degradation and dangerous heating.
+
+**This is why electrical codes specify maximum wire resistance for extension cords based on their length and amperage rating. "Bargain" extension cords often use undersized wire that creates safety hazards and damages appliances through undervoltage operation.**
+
+**Answers: (a) 0.300 V, (b) 1.50 V, (c) The voltage available to the appliance is reduced, decreasing its power output and potentially causing malfunction or safety hazards.**
 
 </div>
 </div>
