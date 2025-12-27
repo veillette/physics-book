@@ -187,6 +187,32 @@ Your *RL* circuit has a characteristic time constant of 20.0 ns, and a resistanc
  (a) What is the inductance of the circuit? (b) What resistance would give you a 1.00 ns time constant, perhaps needed for quick response in an oscilloscope?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$\tau = L/R$$ to find $$L$$ in part (a) and $$R$$ in part (b).
+
+**Solution for (a)**
+
+<div class="equation">
+$$L = \tau R = (20.0 \times 10^{-9})(5.00 \times 10^6) = 0.100 \text{ H} = 100 \text{ mH}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$R = \frac{L}{\tau} = \frac{0.100}{1.00 \times 10^{-9}} = 1.00 \times 10^8 \Omega = 100 \text{ MΩ}$$
+</div>
+
+**Discussion**
+
+The large inductance (100 mH) combined with the high resistance (5 MΩ) gives the 20 ns time constant. To achieve the faster 1 ns response, an even higher resistance of 100 MΩ is needed.
+
+**Final Answer**
+
+(a) 0.100 H or 100 mH; (b) 100 MΩ.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -202,6 +228,30 @@ A large superconducting magnet, used for magnetic resonance imaging, has a 50.0 
 <div id="Exercise4" class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Verify that after a time of 10.0 ms, the current for the situation considered in [[Example 1]](#Example1) will be 0.183 A as stated.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+From [[Example 1]](#Example1), $$\tau = 2.50 \text{ ms}$$ and $$I_0 = 10.0 \text{ A}$$. At $$t = 10.0 \text{ ms}$$, we use $$I = I_0 e^{-t/\tau}$$.
+
+**Solution**
+
+<div class="equation">
+$$I = I_0 e^{-t/\tau} = 10.0 \times e^{-10.0/2.50} = 10.0 \times e^{-4.00}$$
+</div>
+
+<div class="equation">
+$$I = 10.0 \times 0.0183 = 0.183 \text{ A}$$
+</div>
+
+**Discussion**
+
+After four time constants (10.0 ms = 4τ), the current has decayed to 1.83% of its initial value, confirming the stated result.
+
+**Final Answer**
+
+Verified: $$I = 0.183 \text{ A}$$ at $$t = 10.0 \text{ ms}$$.
 
 </div>
 </div>
@@ -226,6 +276,40 @@ Suppose you have a supply of inductors ranging from 1.00 nH to 10.0 H, and resis
  (b) If it is connected to a 12.0 V battery, what is the current after 12.5 ms?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$\tau = L/R$$ for the time constant, and $$I = I_0(1 - e^{-t/\tau})$$ for current growth, where $$I_0 = V/R$$.
+
+**Solution for (a)**
+
+<div class="equation">
+$$\tau = \frac{L}{R} = \frac{25.0 \times 10^{-3}}{4.00} = 6.25 \times 10^{-3} \text{ s} = 6.25 \text{ ms}$$
+</div>
+
+**Solution for (b)**
+
+The final current is:
+
+<div class="equation">
+$$I_0 = \frac{V}{R} = \frac{12.0}{4.00} = 3.00 \text{ A}$$
+</div>
+
+At $$t = 12.5 \text{ ms} = 2\tau$$:
+
+<div class="equation">
+$$I = I_0(1 - e^{-t/\tau}) = 3.00(1 - e^{-2.00}) = 3.00(1 - 0.135) = 3.00(0.865) = 2.60 \text{ A}$$
+</div>
+
+**Discussion**
+
+After two time constants, the current has reached 86.5% of its final value, demonstrating the characteristic exponential approach to steady state.
+
+**Final Answer**
+
+(a) 6.25 ms; (b) 2.60 A.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -245,6 +329,60 @@ What percentage of the final current  $${I}_{0} $$
 <div class="problem" markdown="1">
 The 5.00 A current through a 1.50 H inductor is dissipated by a  $$2.00 \text{Ω} $$
  resistor in a circuit like that in [[Figure 1]](#Figure1) with the switch in position 2. (a) What is the initial energy in the inductor? (b) How long will it take the current to decline to 5.00% of its initial value? (c) Calculate the average power dissipated, and compare it with the initial power dissipated by the resistor.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Energy in an inductor is $$U = \frac{1}{2}LI^2$$. For decay, $$I = I_0 e^{-t/\tau}$$ where $$\tau = L/R$$. Average power equals total energy divided by time.
+
+**Solution for (a)**
+
+<div class="equation">
+$$U = \frac{1}{2}LI_0^2 = \frac{1}{2}(1.50)(5.00)^2 = \frac{1}{2}(1.50)(25.0) = 18.8 \text{ J}$$
+</div>
+
+**Solution for (b)**
+
+Time constant: $$\tau = L/R = 1.50/2.00 = 0.750 \text{ s}$$
+
+When $$I = 0.0500 I_0$$:
+
+<div class="equation">
+$$0.0500 = e^{-t/\tau}$$
+</div>
+
+<div class="equation">
+$$\ln(0.0500) = -t/\tau$$
+</div>
+
+<div class="equation">
+$$t = -\tau \ln(0.0500) = -(0.750)(-2.996) = 2.25 \text{ s}$$
+</div>
+
+**Solution for (c)**
+
+Average power over the decay:
+
+<div class="equation">
+$$P_{\text{avg}} = \frac{U}{t} = \frac{18.8}{2.25} = 8.36 \text{ W}$$
+</div>
+
+Initial power dissipated:
+
+<div class="equation">
+$$P_0 = I_0^2 R = (5.00)^2(2.00) = 50.0 \text{ W}$$
+</div>
+
+The ratio is $$P_{\text{avg}}/P_0 = 8.36/50.0 = 0.167$$ or about 1/6.
+
+**Discussion**
+
+The average power is much less than the initial power because the current (and thus power) decreases exponentially during the decay.
+
+**Final Answer**
+
+(a) 18.8 J; (b) 2.25 s; (c) 8.36 W average, compared to 50.0 W initially (ratio = 0.167).
 
 </div>
 </div>
@@ -272,6 +410,54 @@ parameters.
 (a) Using the exact exponential treatment, find the time required for the current through a 2.00 H inductor in series with a  $$0.500 \text{Ω} $$
  resistor to be reduced to 0.100% of its original value. (b) Compare your answer to the approximate treatment using integral numbers of  $$\tau  $$ .
  (c) Discuss how significant the difference is.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use $$I = I_0 e^{-t/\tau}$$ with $$\tau = L/R$$. For 0.100%, $$I/I_0 = 0.00100$$.
+
+**Solution for (a)**
+
+Time constant: $$\tau = L/R = 2.00/0.500 = 4.00 \text{ s}$$
+
+<div class="equation">
+$$0.00100 = e^{-t/\tau}$$
+</div>
+
+<div class="equation">
+$$\ln(0.00100) = -t/\tau$$
+</div>
+
+<div class="equation">
+$$t = -\tau \ln(0.00100) = -(4.00)(-6.908) = 27.6 \text{ s}$$
+</div>
+
+**Solution for (b)**
+
+After $$n$$ time constants, $$I/I_0 = e^{-n} = (0.368)^n$$.
+
+For 0.100% = 0.00100:
+- After 6τ: $$(0.368)^6 = 0.00248$$ (0.248%)
+- After 7τ: $$(0.368)^7 = 0.000912$$ (0.0912%)
+
+So we need 7 time constants: $$t \approx 7\tau = 7(4.00) = 28.0 \text{ s}$$
+
+**Solution for (c)**
+
+Difference: $$28.0 - 27.6 = 0.4 \text{ s}$$
+
+Percentage difference: $$\frac{0.4}{27.6} \times 100\% = 1.4\%$$
+
+This small difference (1.4%) is acceptable for most practical purposes and is within typical measurement uncertainties for circuit components.
+
+**Discussion**
+
+The approximate method slightly overestimates the time (28.0 s vs 27.6 s exact), but the difference is negligible for practical applications.
+
+**Final Answer**
+
+(a) 27.6 s; (b) 28.0 s using 7τ; (c) 1.4% difference, which is insignificant for most purposes.
 
 </div>
 </div>

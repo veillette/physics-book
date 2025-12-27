@@ -218,6 +218,24 @@ Calculate the  $${\text{emf}}_{\text{x}} $$
  to balance the potentiometer.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the potentiometer ratio formula: $$\text{emf}_x/\text{emf}_s = R_x/R_s$$. Since no current flows through the cells when balanced, the emf ratio equals the resistance ratio.
+
+**Solution**
+
+<div class="equation">
+$$\text{emf}_x = \text{emf}_s \frac{R_x}{R_s} = 1.600 \text{ V} \times \frac{1.200}{1.247} = 1.600 \times 0.9623 = 1.54 \text{ V}$$
+</div>
+
+**Discussion**
+
+The dry cell emf (1.54 V) is slightly less than the standard cell (1.60 V), which is typical. The potentiometer provides a very accurate measurement because zero current flows when balanced, eliminating errors from internal resistance. The small difference in wire resistances (1.200 Ω vs 1.247 Ω, only 3.8%) translates directly to the emf ratio.
+
+The dry cell emf is 1.54 V.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -243,6 +261,25 @@ To what value must you adjust  $${R}_{3} $$
  is  $$ 50.0 \Omega  $$ ,
  and  $${R}_{2} $$
  is  $$175 \Omega  $$ ?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use the Wheatstone bridge balance condition: $$R_x = R_3 \times R_2/R_1$$ to solve for $$R_3$$.
+
+**Solution**
+
+From $$R_x = R_3 \frac{R_2}{R_1}$$, solve for $$R_3$$:
+<div class="equation">
+$$R_3 = R_x \frac{R_1}{R_2} = 100 \text{ Ω} \times \frac{50.0}{175} = 100 \times 0.2857 = 28.6 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+The ratio $$R_2/R_1 = 175/50 = 3.5$$ amplifies the unknown resistance: $$R_3$$ must be 28.6 Ω to balance against $$R_x = 100$$ Ω. This demonstrates how the Wheatstone bridge's ratio arms ($$R_1$$ and $$R_2$$) can be chosen to conveniently measure resistances outside the range of the variable resistor $$R_3$$.
+
+$$R_3$$ must be adjusted to 28.6 Ω.
 
 </div>
 </div>

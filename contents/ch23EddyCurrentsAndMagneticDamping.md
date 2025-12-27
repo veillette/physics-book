@@ -137,7 +137,39 @@ Explain how electromagnetic induction can be used to detect metals? This techniq
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Make a drawing similar to [[Figure 2]](#Figure2), but with the pendulum moving in the opposite direction. Then use Faraday’s law, Lenz’s law, and RHR-1 to show that magnetic force opposes motion.
+Make a drawing similar to [[Figure 2]](#Figure2), but with the pendulum moving in the opposite direction. Then use Faraday's law, Lenz's law, and RHR-1 to show that magnetic force opposes motion.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We analyze the plate moving right-to-left, entering and exiting the magnetic field. We apply Faraday's law to find induced emf, Lenz's law for current direction, and RHR-1 for force direction.
+
+**Solution**
+
+**Case 1: Plate entering field from right**
+
+The plate moves leftward into the field region:
+1. **Flux change**: Magnetic flux into the page is increasing (Faraday's law)
+2. **Induced current**: By Lenz's law, the induced current must create a field out of the page to oppose the increase. Using RHR-2, this requires a counterclockwise current (viewed from front)
+3. **Force on current**: The right edge of the current loop is in the field. Using RHR-1 with current flowing upward on the right edge and field into page, the force is to the RIGHT
+4. **Conclusion**: Force opposes leftward motion ✓
+
+**Case 2: Plate exiting field on left**
+
+The plate moves leftward out of the field:
+1. **Flux change**: Magnetic flux into the page is decreasing
+2. **Induced current**: By Lenz's law, induced current must create a field into the page to oppose the decrease. Using RHR-2, this requires a clockwise current
+3. **Force on current**: The left edge of the loop (still in field) has current flowing downward. Using RHR-1 with downward current and field into page, the force is to the RIGHT
+4. **Conclusion**: Force opposes leftward motion ✓
+
+**Discussion**
+
+In both cases—entering and exiting—the magnetic force opposes the plate's motion, demonstrating magnetic damping. This confirms energy conservation: work must be done against the magnetic force to maintain motion.
+
+**Final Answer**
+
+Drawing analysis shows that whether entering or exiting the field from the right, the magnetic force always points opposite to the velocity (rightward when moving leftward), opposing the motion as required by Lenz's law and energy conservation.
 
 </div>
 </div>
@@ -150,6 +182,47 @@ A coil is moved through a magnetic field as shown in [[Figure 8]](#Figure8). The
 field is uniform inside the rectangle and zero outside. What is the direction of
 the induced current and what is the direction of the magnetic force on the coil
 at each position shown?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We apply Lenz's law to find the direction of induced current, and RHR-1 to find the force direction. The magnetic field points out of the page.
+
+**Solution**
+
+**Position (a): Coil outside field (left side)**
+- **Flux change**: None (flux = 0)
+- **Induced current**: None
+- **Magnetic force**: None
+
+**Position (b): Coil entering field (moving right)**
+- **Flux change**: Flux out of page is increasing
+- **Induced current**: By Lenz's law, induced current creates field into page to oppose increase → **clockwise** (viewed from front)
+- **Magnetic force**: Right edge of coil is in field with current flowing downward. By RHR-1 (down current, field out), force is to the **LEFT** (opposes rightward motion)
+
+**Position (c): Coil fully inside uniform field**
+- **Flux change**: None (constant flux)
+- **Induced current**: None
+- **Magnetic force**: None
+
+**Position (d): Coil exiting field (moving right)**
+- **Flux change**: Flux out of page is decreasing
+- **Induced current**: By Lenz's law, induced current creates field out of page to oppose decrease → **counterclockwise** (viewed from front)
+- **Magnetic force**: Left edge of coil (still in field) has current flowing upward. By RHR-1 (up current, field out), force is to the **LEFT** (opposes rightward motion)
+
+**Position (e): Coil outside field (right side)**
+- **Flux change**: None (flux = 0)
+- **Induced current**: None
+- **Magnetic force**: None
+
+**Discussion**
+
+The pattern demonstrates magnetic damping: forces always oppose motion, requiring work to move the coil through the field. Energy is dissipated as heat in the coil's resistance.
+
+**Final Answer**
+
+(a) No current, no force; (b) Clockwise current, force to left; (c) No current, no force; (d) Counterclockwise current, force to left; (e) No current, no force.
 
 </div>
 </div>

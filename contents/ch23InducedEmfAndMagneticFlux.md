@@ -139,6 +139,30 @@ Zero
 What is the value of the magnetic flux through the coil in [[Figure 6]](#Figure6)(b) due to the wire?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+The wire is perpendicular to the plane of the coil. The magnetic field from the wire forms circles around it, and these field lines lie in the plane of the coil, not perpendicular to it.
+
+**Solution**
+
+The magnetic field from a long straight wire circles the wire. At any point on the coil, the magnetic field is tangent to a circle centered on the wire. Since the coil lies in a plane that contains the wire, the magnetic field lines are parallel to the plane of the coil.
+
+The magnetic flux is $$\Phi = BA\cos\theta$$ where $$\theta$$ is the angle between the field and the normal to the coil's area. Here, the field is parallel to the coil's plane, making it perpendicular to the normal ($$\theta = 90°$$).
+
+<div class="equation">
+$$\Phi = BA\cos(90°) = BA(0) = 0$$
+</div>
+
+**Discussion**
+
+No magnetic field lines pass through the area of the coil because they all lie in the plane of the coil. This is analogous to how wind blowing parallel to a window doesn't pass through the window.
+
+**Final Answer**
+
+The magnetic flux through the coil is zero.
+
+</div>
 </div>
 
 <div class="glossary" markdown="1">
