@@ -345,9 +345,35 @@ In view of the small currents that cause shock hazards and the larger currents t
 
 </div>
 <div class="solution" markdown="1">
-(a) 230 kW
+**Strategy**
 
-(b) 960 A
+For a short circuit, we can use the power formula $$P = V^{2}/R$$ to find the power dissipated, and Ohm's law $$I = V/R$$ to find the current flowing through the short circuit.
+
+**Solution**
+
+**(a)** Find the power dissipated using $$P = V^{2}/R$$:
+
+<div class="equation">
+$$P = \frac{V^{2}}{R} = \frac{(240 \text{ V})^{2}}{0.250 \text{ Ω}} = \frac{57600 \text{ V}^{2}}{0.250 \text{ Ω}}$$
+</div>
+
+<div class="equation">
+$$P = 230400 \text{ W} = 230 \text{ kW}$$
+</div>
+
+**(b)** Find the current using Ohm's law:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{240 \text{ V}}{0.250 \text{ Ω}} = 960 \text{ A}$$
+</div>
+
+**Discussion**
+
+The power dissipated in this short circuit (230 kW) is enormous—equivalent to about 150 typical household appliances running simultaneously. This massive power will rapidly heat the conductor to dangerous temperatures, potentially melting insulation, starting fires, or vaporizing the conductor itself. The current of 960 A is about 80 times the typical household circuit capacity (15 A), demonstrating why circuit breakers and fuses are absolutely essential safety devices. The combination of even moderate voltage (240 V) with very low resistance (0.250 Ω) creates an extremely hazardous situation that must be interrupted within milliseconds.
+
+**Final Answer**
+
+(a) The power dissipated in the short circuit is **230 kW**. (b) The current flowing through the short circuit is **960 A**.
 
 </div>
 </div>
@@ -389,9 +415,35 @@ Find the current through a person and identify the likely effect on her if she t
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.400 mA, no effect
+**Strategy**
 
-(b) 26.7 mA, muscular contraction for duration of the shock (can't let go)
+Use Ohm's law $$I = V/R$$ to calculate the current through the person in both scenarios, then compare the results to Table 1 to determine the physiological effects.
+
+**Solution**
+
+**(a)** Standing on rubber mat with $$R = 300 \text{ kΩ}$$:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{120 \text{ V}}{300 \times 10^{3} \text{ Ω}} = 4.00 \times 10^{-4} \text{ A} = 0.400 \text{ mA}$$
+</div>
+
+According to Table 1, currents below 1 mA are below the threshold of sensation. Therefore, there is **no effect**—the person would not even feel the shock.
+
+**(b)** Standing barefoot on wet grass with $$R = 4500 \text{ Ω}$$:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{120 \text{ V}}{4500 \text{ Ω}} = 0.0267 \text{ A} = 26.7 \text{ mA}$$
+</div>
+
+According to Table 1, currents in the range of 10-20 mA cause sustained muscular contraction—the victim cannot let go for the duration of the shock. At 26.7 mA, the person would experience **sustained muscular contraction** ("can't let go" effect), and contraction of chest muscles may even stop breathing during the shock.
+
+**Discussion**
+
+This problem dramatically illustrates the critical importance of resistance in electrical safety. The same 120-V source produces currents that differ by a factor of about 67. In scenario (a), the high resistance of the rubber mat (an excellent insulator) limits current to a completely harmless level. In scenario (b), wet conditions drastically reduce resistance: moisture on the skin dissolves salts into ions that conduct electricity well, and wet grass provides a low-resistance path to ground. The 26.7 mA current is dangerous—while below the ventricular fibrillation threshold (100-300 mA), it's well into the "can't let go" range and could cause respiratory arrest. This explains why electrical work should never be done in wet conditions and why insulating footwear is required in many professions.
+
+**Final Answer**
+
+(a) The current is **0.400 mA**, which produces **no effect** (below sensation threshold). (b) The current is **26.7 mA**, which causes **sustained muscular contraction** (can't let go), and may stop breathing during the shock.
 
 </div>
 </div>
@@ -433,7 +485,34 @@ Foolishly trying to fish a burning piece of bread from a toaster with a metal bu
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.20 \times 10^{5}  \Omega  $$
+**Strategy**
+
+The man doesn't feel the shock, meaning the current is below the threshold of sensation (1 mA from Table 1). Use Ohm's law $$R = V/I$$ with the maximum current he wouldn't feel to find the minimum resistance.
+
+**Solution**
+
+For the shock to be unfelt, the current must be less than the threshold of sensation:
+
+<div class="equation">
+$$I < 1 \text{ mA} = 1 \times 10^{-3} \text{ A}$$
+</div>
+
+Using Ohm's law to find the minimum resistance:
+
+<div class="equation">
+$$R = \frac{V}{I} = \frac{120 \text{ V}}{1 \times 10^{-3} \text{ A}} = 1.20 \times 10^{5} \text{ Ω} = 120 \text{ kΩ}$$
+</div>
+
+**Discussion**
+
+The minimum resistance for an unfelt shock is 120 kΩ. This is a reasonable value for someone wearing rubber-soled shoes on a dry floor—dry skin typically has a resistance around 100-500 kΩ, and rubber soles add additional insulating resistance. If the man's body resistance were lower (for instance, if his hands were wet, or if he were barefoot on a conductive surface), he would have felt the shock and potentially been in serious danger. The rubber soles acted as critical safety insulation.
+
+It's worth emphasizing that while the man was fortunate, his action was extremely dangerous. One should never use metal objects to retrieve items from energized electrical devices. The "luckily" in the problem statement is key—had conditions been slightly different (sweaty hands, a small cut reducing skin resistance, momentary contact with a grounded surface), the outcome could have been fatal.
+
+**Final Answer**
+
+The minimum resistance of the path through the person is **120 kΩ** (or $$1.20 \times 10^{5} \text{ Ω}$$).
+
 </div>
 </div>
 
@@ -483,8 +562,53 @@ This tiny threshold voltage (6.00 mV) is about 20,000 times smaller than househo
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.00 \Omega  $$
-(b) 14.4 kW
+**Strategy**
+
+(a) For AC circuits, peak power occurs when the instantaneous voltage is at its peak value. Use $$P = V^{2}/R$$ rearranged to find resistance. For 220-V AC, the stated voltage is the RMS value, and peak voltage is $$V_{\text{peak}} = \sqrt{2} \times V_{\text{RMS}}$$. However, if "220-V AC" refers to peak voltage, use it directly. Given the problem states "peak power," we'll assume 220 V is the RMS value.
+
+(b) Use the same resistance with 120-V AC to find the new average power using $$P_{\text{avg}} = V_{\text{RMS}}^{2}/R$$.
+
+**Solution**
+
+**(a)** For AC, peak power with RMS voltage $$V_{\text{RMS}} = 220 \text{ V}$$:
+
+The peak voltage is:
+<div class="equation">
+$$V_{\text{peak}} = \sqrt{2} \times V_{\text{RMS}} = 1.414 \times 220 \text{ V} = 311 \text{ V}$$
+</div>
+
+Peak power:
+<div class="equation">
+$$P_{\text{peak}} = \frac{V_{\text{peak}}^{2}}{R}$$
+</div>
+
+Solving for R:
+<div class="equation">
+$$R = \frac{V_{\text{peak}}^{2}}{P_{\text{peak}}} = \frac{(311 \text{ V})^{2}}{96.8 \times 10^{3} \text{ W}} = \frac{96721 \text{ V}^{2}}{96800 \text{ W}} = 0.999 \text{ Ω} \approx 1.00 \text{ Ω}$$
+</div>
+
+Alternatively, if the problem intends 220 V as the effective voltage for average power calculation (a simpler interpretation), we would use:
+<div class="equation">
+$$R = \frac{(220 \text{ V})^{2}}{96.8 \times 10^{3} \text{ W}} \approx 0.50 \text{ Ω}$$
+</div>
+
+However, the answer $$1.00 \text{ Ω}$$ suggests the peak interpretation is correct.
+
+**(b)** Average power with 120-V AC through $$R = 1.00 \text{ Ω}$$:
+
+<div class="equation">
+$$P_{\text{avg}} = \frac{V_{\text{RMS}}^{2}}{R} = \frac{(120 \text{ V})^{2}}{1.00 \text{ Ω}} = \frac{14400 \text{ V}^{2}}{1.00 \text{ Ω}} = 14400 \text{ W} = 14.4 \text{ kW}$$
+</div>
+
+**Discussion**
+
+Even though the voltage decreased from 220 V to 120 V (a factor of 220/120 ≈ 1.83), the power decreased from 96.8 kW to 14.4 kW (a factor of 96.8/14.4 ≈ 6.7). This demonstrates the quadratic relationship between voltage and power: $$P \propto V^{2}$$ when resistance is constant. The factor should be $$(220/120)^{2} = 3.36$$ for average power, but we're comparing peak power at 220 V to average power at 120 V, which accounts for an additional factor of 2.
+
+Both power levels are extremely dangerous and represent serious fire hazards. A short circuit with $$R = 1.00 \text{ Ω}$$ would draw enormous currents (311 A peak at 220 V, or 120 A at 120 V) and generate intense heat. Circuit protection would need to respond in milliseconds to prevent catastrophic damage.
+
+**Final Answer**
+
+(a) The resistance of the short circuit is **1.00 Ω**. (b) The average power at 120-V AC would be **14.4 kW**.
 
 </div>
 </div>
@@ -548,8 +672,57 @@ current. Is this likely to be damaging?
 
 </div>
 <div class="solution" markdown="1">
-Temperature increases  $$860 \text{ºC} $$ .
- It is very likely to be damaging.
+**Strategy**
+
+Calculate the current using Ohm's law, then find the power dissipated in the short circuit. Use this power and the time duration to find the total energy deposited in the surrounding material. Finally, use the heat equation $$Q = mc\Delta T$$ to find the temperature rise. Note that we need to convert between calories and joules: $$1 \text{ cal} = 4.186 \text{ J}$$.
+
+**Solution**
+
+**Step 1:** Find the current through the short circuit:
+
+<div class="equation">
+$$I = \frac{V}{R} = \frac{120 \text{ V}}{0.500 \text{ Ω}} = 240 \text{ A}$$
+</div>
+
+**Step 2:** Find the power dissipated:
+
+<div class="equation">
+$$P = I^{2}R = (240 \text{ A})^{2}(0.500 \text{ Ω}) = 57600 \text{ A}^{2} \cdot 0.500 \text{ Ω} = 28800 \text{ W} = 28.8 \text{ kW}$$
+</div>
+
+**Step 3:** Find the total energy deposited during $$\Delta t = 0.0500 \text{ s}$$:
+
+<div class="equation">
+$$E = P \cdot \Delta t = (28800 \text{ W})(0.0500 \text{ s}) = 1440 \text{ J}$$
+</div>
+
+**Step 4:** Convert the specific heat capacity to SI units:
+
+<div class="equation">
+$$c = 0.200 \frac{\text{cal}}{\text{g} \cdot \text{°C}} \times 4.186 \frac{\text{J}}{\text{cal}} = 0.837 \frac{\text{J}}{\text{g} \cdot \text{°C}}$$
+</div>
+
+**Step 5:** Find the temperature rise using $$Q = mc\Delta T$$:
+
+<div class="equation">
+$$\Delta T = \frac{Q}{mc} = \frac{1440 \text{ J}}{(2.00 \text{ g})(0.837 \text{ J/g·°C})} = \frac{1440}{1.674} \text{ °C} = 860 \text{ °C}$$
+</div>
+
+**Discussion**
+
+A temperature rise of 860°C in just 0.0500 seconds is catastrophic. This would:
+- Instantly melt most plastics and insulating materials (which typically melt at 100-300°C)
+- Vaporize water and organic materials
+- Ignite flammable materials (paper ignites around 230°C)
+- Potentially vaporize copper wire (copper melts at 1085°C, so 860°C brings it close to melting)
+
+**This is extremely damaging** and represents a severe fire hazard. The short circuit would almost certainly start a fire before the circuit breaker could interrupt the current, even with the relatively fast 0.0500-s response time. This demonstrates why electrical codes require proper wire sizing, circuit protection, and regular inspection of electrical cords—the 0.500-Ω resistance represents a partially damaged conductor that creates a localized hot spot.
+
+In practice, as the temperature rises, the situation could worsen: melting insulation could reduce resistance further, increasing current and power. Alternatively, the conductor itself might vaporize, creating an arc that maintains the current flow even without direct contact.
+
+**Final Answer**
+
+The temperature rises by **860°C** in 0.0500 seconds. **Yes, this is extremely likely to be damaging**—it would cause fires, melt insulation, and potentially vaporize the conductor.
 
 </div>
 </div>

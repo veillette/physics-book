@@ -361,6 +361,34 @@ At what frequency will a 30.0 mH inductor have a reactance of  $$100 \text{Ω} $
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We use the inductive reactance formula $${X}_{L}=2\pi fL$$ and solve for the frequency $$f$$. We know the reactance and inductance.
+
+**Solution**
+
+Given:
+- $${X}_{L} = 100 \text{ Ω}$$
+- $$L = 30.0 \text{ mH} = 30.0 \times 10^{-3} \text{ H}$$
+
+Rearranging the inductive reactance equation:
+
+<div class="equation">
+$$f=\frac{{X}_{L}}{2\pi L}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$f=\frac{100 \text{ Ω}}{2\pi (30.0 \times 10^{-3} \text{ H})}=\frac{100}{6.28 \times 0.0300}=\frac{100}{0.188}=531 \text{ Hz}$$
+</div>
+
+**Discussion**
+
+This frequency of 531 Hz is in the audible range, near the frequency of the musical note C5. At this frequency, the 30.0 mH inductor presents a reactance of 100 Ω, which is significant enough to substantially limit AC current. At lower frequencies, the reactance would be smaller, allowing more current to flow. At higher frequencies, the reactance would be larger, further impeding current flow.
+
+**Final Answer**
+
 531 Hz
 
 </div>
@@ -372,6 +400,38 @@ What value of inductance should be used if a  $$20.0 \text{kΩ} $$
  reactance is needed at a frequency of 500 Hz?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the inductive reactance formula $${X}_{L}=2\pi fL$$ and solve for the inductance $$L$$. We know the desired reactance and the frequency.
+
+**Solution**
+
+Given:
+- $${X}_{L} = 20.0 \text{ kΩ} = 20.0 \times 10^3 \text{ Ω}$$
+- $$f = 500 \text{ Hz}$$
+
+Rearranging for $$L$$:
+
+<div class="equation">
+$$L=\frac{{X}_{L}}{2\pi f}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$L=\frac{20.0 \times 10^3 \text{ Ω}}{2\pi (500 \text{ Hz})}=\frac{20000}{3140}=6.37 \text{ H}$$
+</div>
+
+**Discussion**
+
+This is a very large inductance (6.37 H), which would typically require a large coil with many turns and possibly an iron core. Such a large inductor would be bulky and heavy. The high reactance of 20.0 kΩ at the relatively low frequency of 500 Hz makes this inductor an excellent filter for blocking signals at and above this frequency while allowing DC and very low-frequency signals to pass relatively unimpeded.
+
+**Final Answer**
+
+6.37 H
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -381,6 +441,34 @@ What capacitance should be used to produce a  $$2.00 \text{MΩ} $$
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+We use the capacitive reactance formula $${X}_{C}=\frac{1}{2\pi fC}$$ and solve for the capacitance $$C$$. We know the desired reactance and the frequency.
+
+**Solution**
+
+Given:
+- $${X}_{C} = 2.00 \text{ MΩ} = 2.00 \times 10^6 \text{ Ω}$$
+- $$f = 60.0 \text{ Hz}$$
+
+Rearranging for $$C$$:
+
+<div class="equation">
+$$C=\frac{1}{2\pi f{X}_{C}}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$C=\frac{1}{2\pi (60.0 \text{ Hz})(2.00 \times 10^6 \text{ Ω})}=\frac{1}{7.54 \times 10^8}=1.33 \times 10^{-9} \text{ F}=1.33 \text{ nF}$$
+</div>
+
+**Discussion**
+
+This is a very small capacitance—only 1.33 nanofarads. The extremely high reactance of 2.00 MΩ at the low frequency of 60.0 Hz means this capacitor would effectively block low-frequency signals, including 60 Hz power line noise. Small capacitors like this are commonly used in high-impedance circuits and for filtering applications where blocking low frequencies is desired.
+
+**Final Answer**
+
 1.33 nF
 
 </div>
@@ -391,6 +479,38 @@ What capacitance should be used to produce a  $$2.00 \text{MΩ} $$
 At what frequency will an 80.0 mF capacitor have a reactance of  $$0.250 \text{Ω} $$ ?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+We use the capacitive reactance formula $${X}_{C}=\frac{1}{2\pi fC}$$ and solve for the frequency $$f$$. We know the reactance and capacitance.
+
+**Solution**
+
+Given:
+- $${X}_{C} = 0.250 \text{ Ω}$$
+- $$C = 80.0 \text{ mF} = 80.0 \times 10^{-3} \text{ F} = 0.0800 \text{ F}$$
+
+Rearranging for $$f$$:
+
+<div class="equation">
+$$f=\frac{1}{2\pi C{X}_{C}}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$f=\frac{1}{2\pi (0.0800 \text{ F})(0.250 \text{ Ω})}=\frac{1}{0.126}=7.96 \text{ Hz}$$
+</div>
+
+**Discussion**
+
+This is a very low frequency (about 8 Hz), well below the range of common AC power systems. The combination of a very large capacitor (80.0 mF, which is unusually large for most applications) and a very small reactance (0.250 Ω) results in this low frequency. At higher frequencies, this capacitor would have even lower reactance, effectively acting as a short circuit. Large capacitors like this are sometimes used in power supply smoothing circuits and low-frequency filter applications.
+
+**Final Answer**
+
+7.96 Hz
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -399,6 +519,46 @@ At what frequency will an 80.0 mF capacitor have a reactance of  $$0.250 \text{�
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) First calculate the inductive reactance using $${X}_{L}=2\pi fL$$, then find the current using $$I=\frac{V}{{X}_{L}}$$.
+(b) Repeat the calculation with the new frequency.
+
+**Solution**
+
+**(a)** Given:
+- $$L = 0.500 \text{ H}$$
+- $$f = 60.0 \text{ Hz}$$
+- $$V = 480 \text{ V}$$
+
+First, calculate the inductive reactance:
+
+<div class="equation">
+$${X}_{L}=2\pi fL=2\pi (60.0 \text{ Hz})(0.500 \text{ H})=188 \text{ Ω}$$
+</div>
+
+Now find the current:
+
+<div class="equation">
+$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{188 \text{ Ω}}=2.55 \text{ A}$$
+</div>
+
+**(b)** At $$f = 100 \text{ kHz} = 1.00 \times 10^5 \text{ Hz}$$:
+
+<div class="equation">
+$${X}_{L}=2\pi fL=2\pi (1.00 \times 10^5 \text{ Hz})(0.500 \text{ H})=3.14 \times 10^5 \text{ Ω}$$
+</div>
+
+<div class="equation">
+$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{3.14 \times 10^5 \text{ Ω}}=1.53 \times 10^{-3} \text{ A}=1.53 \text{ mA}$$
+</div>
+
+**Discussion**
+
+The inductor exhibits dramatically different behavior at the two frequencies. At 60.0 Hz, the reactance is modest (188 Ω) and allows 2.55 A of current to flow. At 100 kHz, the reactance increases by a factor of about 1670 to 314 kΩ, reducing the current to only 1.53 mA—a reduction by the same factor. This demonstrates how inductors effectively block high-frequency signals while allowing low-frequency signals to pass, making them excellent high-frequency filters.
+
+**Final Answer**
+
 (a) 2.55 A
 
 (b) 1.53 mA
@@ -412,6 +572,52 @@ At what frequency will an 80.0 mF capacitor have a reactance of  $$0.250 \text{�
  capacitor? (b) What would the current be at 25.0 kHz?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Calculate the capacitive reactance using $${X}_{C}=\frac{1}{2\pi fC}$$, then find the current using $$I=\frac{V}{{X}_{C}}$$.
+(b) Repeat the calculation with the new frequency.
+
+**Solution**
+
+**(a)** Given:
+- $$C = 0.250 \text{ μF} = 0.250 \times 10^{-6} \text{ F}$$
+- $$f = 60.0 \text{ Hz}$$
+- $$V = 480 \text{ V}$$
+
+First, calculate the capacitive reactance:
+
+<div class="equation">
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (60.0 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{9.42 \times 10^{-5}}=1.06 \times 10^4 \text{ Ω}$$
+</div>
+
+Now find the current:
+
+<div class="equation">
+$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{1.06 \times 10^4 \text{ Ω}}=0.0453 \text{ A}=45.3 \text{ mA}$$
+</div>
+
+**(b)** At $$f = 25.0 \text{ kHz} = 2.50 \times 10^4 \text{ Hz}$$:
+
+<div class="equation">
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (2.50 \times 10^4 \text{ Hz})(0.250 \times 10^{-6} \text{ F})}=\frac{1}{0.0393}=25.5 \text{ Ω}$$
+</div>
+
+<div class="equation">
+$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{25.5 \text{ Ω}}=18.8 \text{ A}$$
+</div>
+
+**Discussion**
+
+The capacitor behaves opposite to an inductor. At the low frequency of 60.0 Hz, the capacitive reactance is very high (10.6 kΩ), limiting the current to only 45.3 mA. At the much higher frequency of 25.0 kHz, the reactance drops dramatically to 25.5 Ω, allowing a much larger current of 18.8 A to flow. This demonstrates how capacitors block low-frequency signals while allowing high-frequency signals to pass, making them excellent low-frequency filters—exactly the opposite behavior of inductors.
+
+**Final Answer**
+
+(a) 45.3 mA
+
+(b) 18.8 A
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -420,13 +626,76 @@ A 20.0 kHz, 16.0 V source connected to an inductor produces a 2.00 A current. Wh
 
 </div>
 <div class="solution" markdown="1">
- $$63.7 \text{µH} $$
+**Strategy**
+
+First find the inductive reactance using $$I=\frac{V}{{X}_{L}}$$, then use $${X}_{L}=2\pi fL$$ to find the inductance.
+
+**Solution**
+
+Given:
+- $$f = 20.0 \text{ kHz} = 2.00 \times 10^4 \text{ Hz}$$
+- $$V = 16.0 \text{ V}$$
+- $$I = 2.00 \text{ A}$$
+
+First, find the inductive reactance:
+
+<div class="equation">
+$${X}_{L}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \text{ A}}=8.00 \text{ Ω}$$
+</div>
+
+Now solve for inductance:
+
+<div class="equation">
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00}{1.26 \times 10^5}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$$
+</div>
+
+**Discussion**
+
+This is a small inductance, typical of inductors used in high-frequency circuits such as radio receivers and transmitters. At the high frequency of 20.0 kHz, even this small inductance produces a significant reactance of 8.00 Ω. At lower frequencies, this same inductor would have much less reactance and would allow more current to flow for the same applied voltage.
+
+**Final Answer**
+
+63.7 µH
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A 20.0 Hz, 16.0 V source produces a 2.00 mA current when connected to a capacitor. What is the capacitance?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+First find the capacitive reactance using $$I=\frac{V}{{X}_{C}}$$, then use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the capacitance.
+
+**Solution**
+
+Given:
+- $$f = 20.0 \text{ Hz}$$
+- $$V = 16.0 \text{ V}$$
+- $$I = 2.00 \text{ mA} = 2.00 \times 10^{-3} \text{ A}$$
+
+First, find the capacitive reactance:
+
+<div class="equation">
+$${X}_{C}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \times 10^{-3} \text{ A}}=8.00 \times 10^3 \text{ Ω}=8.00 \text{ kΩ}$$
+</div>
+
+Now solve for capacitance:
+
+<div class="equation">
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (20.0 \text{ Hz})(8.00 \times 10^3 \text{ Ω})}=\frac{1}{1.01 \times 10^6}=9.95 \times 10^{-7} \text{ F}=0.995 \text{ µF}$$
+</div>
+
+**Discussion**
+
+This is a reasonable capacitance value, just under 1 microfarad. At the low frequency of 20.0 Hz, this capacitor presents a substantial reactance of 8.00 kΩ, which significantly limits current flow. If the frequency were increased, the capacitive reactance would decrease, allowing more current to flow. This demonstrates why capacitors are effective at blocking low-frequency signals while passing high-frequency signals.
+
+**Final Answer**
+
+0.995 µF
 
 </div>
 </div>
@@ -438,9 +707,39 @@ A 20.0 Hz, 16.0 V source produces a 2.00 mA current when connected to a capacito
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $${X}_{L}=2\pi fL$$ to find the required inductance at 15.0 kHz.
+(b) Calculate the reactance at 60.0 Hz using the inductance found in part (a).
+
+**Solution**
+
+**(a)** Given:
+- $${X}_{L} = 2.00 \text{ kΩ} = 2.00 \times 10^3 \text{ Ω}$$
+- $$f = 15.0 \text{ kHz} = 1.50 \times 10^4 \text{ Hz}$$
+
+Solving for inductance:
+
+<div class="equation">
+$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000}{9.42 \times 10^4}=0.0212 \text{ H}=21.2 \text{ mH}$$
+</div>
+
+**(b)** At $$f = 60.0 \text{ Hz}$$:
+
+<div class="equation">
+$${X}_{L}=2\pi fL=2\pi (60.0 \text{ Hz})(0.0212 \text{ H})=8.00 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+This inductor is very effective as a noise filter. At the high frequency of 15.0 kHz (typical of electrical noise), it presents a large reactance of 2.00 kΩ, strongly impeding the noise current. However, at the power line frequency of 60.0 Hz, the reactance is only 8.00 Ω—a factor of 250 times smaller. This small reactance has minimal effect on the 60 Hz power delivery to the computer while effectively blocking high-frequency noise. This is exactly the desired characteristic for a power line filter.
+
+**Final Answer**
+
 (a) 21.2 mH
 
-(b)  $$8.00 \text{Ω} $$
+(b) 8.00 Ω
+
 </div>
 </div>
 
@@ -448,6 +747,46 @@ A 20.0 Hz, 16.0 V source produces a 2.00 mA current when connected to a capacito
 <div class="problem" markdown="1">
 The capacitor in [[Figure 4]](#Figure4)(a) is designed to filter low-frequency signals, impeding their transmission between circuits. (a) What capacitance is needed to produce a  $$100 \text{kΩ} $$
  reactance at a frequency of 120 Hz? (b) What would its reactance be at 1.00 MHz? (c) Discuss the implications of your answers to (a) and (b).
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the required capacitance at 120 Hz.
+(b) Calculate the reactance at 1.00 MHz using the capacitance from part (a).
+(c) Compare the two reactances to understand the filtering behavior.
+
+**Solution**
+
+**(a)** Given:
+- $${X}_{C} = 100 \text{ kΩ} = 1.00 \times 10^5 \text{ Ω}$$
+- $$f = 120 \text{ Hz}$$
+
+Solving for capacitance:
+
+<div class="equation">
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (120 \text{ Hz})(1.00 \times 10^5 \text{ Ω})}=\frac{1}{7.54 \times 10^7}=1.33 \times 10^{-8} \text{ F}=13.3 \text{ nF}$$
+</div>
+
+**(b)** At $$f = 1.00 \text{ MHz} = 1.00 \times 10^6 \text{ Hz}$$:
+
+<div class="equation">
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (1.00 \times 10^6 \text{ Hz})(1.33 \times 10^{-8} \text{ F})}=\frac{1}{0.0836}=12.0 \text{ Ω}$$
+</div>
+
+**(c)** At the low frequency of 120 Hz, the capacitor has a very high reactance of 100 kΩ, effectively blocking the signal from passing between circuits (acting as an open circuit). However, at the high frequency of 1.00 MHz, the reactance drops to only 12.0 Ω—over 8000 times smaller. This low reactance allows high-frequency signals to pass through easily (nearly like a short circuit). This capacitor therefore functions as a high-pass filter, blocking low frequencies while allowing high frequencies to pass.
+
+**Discussion**
+
+This is a practical example of capacitive filtering in series configuration. The capacitor in Figure 4(a) is in series with the signal path, so high reactance blocks signals while low reactance passes them. This type of filter is commonly used to remove DC and low-frequency components from signals while preserving high-frequency information, such as in audio coupling capacitors that block DC bias while passing audio signals.
+
+**Final Answer**
+
+(a) 13.3 nF
+
+(b) 12.0 Ω
+
+(c) The capacitor blocks low-frequency signals (high reactance at 120 Hz) but passes high-frequency signals (low reactance at 1.00 MHz), functioning as a high-pass filter.
 
 </div>
 </div>
@@ -459,9 +798,44 @@ The capacitor in [[Figure 4]](#Figure4)(b) will filter high-frequency signals by
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) Use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the required capacitance at 5.00 kHz.
+(b) Calculate the reactance at 3.00 Hz using the capacitance from part (a).
+(c) Analyze how this configuration filters signals.
+
+**Solution**
+
+**(a)** Given:
+- $${X}_{C} = 10.0 \text{ mΩ} = 1.00 \times 10^{-2} \text{ Ω}$$
+- $$f = 5.00 \text{ kHz} = 5.00 \times 10^3 \text{ Hz}$$
+
+Solving for capacitance:
+
+<div class="equation">
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (5.00 \times 10^3 \text{ Hz})(1.00 \times 10^{-2} \text{ Ω})}=\frac{1}{314}=3.18 \times 10^{-3} \text{ F}=3.18 \text{ mF}$$
+</div>
+
+**(b)** At $$f = 3.00 \text{ Hz}$$:
+
+<div class="equation">
+$${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (3.00 \text{ Hz})(3.18 \times 10^{-3} \text{ F})}=\frac{1}{0.0599}=16.7 \text{ Ω}$$
+</div>
+
+**(c)** At the high frequency of 5.00 kHz, the capacitor has an extremely low reactance of only 10.0 mΩ (essentially a short circuit to ground), effectively shunting high-frequency signals to ground and preventing them from passing through the circuit. At the low frequency of 3.00 Hz, the reactance increases to 16.7 Ω—over 1600 times higher. While still relatively low, this higher reactance is much less effective at shunting low-frequency signals to ground, allowing them to pass through the circuit with less attenuation. This capacitor therefore functions as a low-pass filter in the shunt configuration, removing high-frequency noise while preserving low-frequency signals.
+
+**Discussion**
+
+This is the complement to the previous problem. In Figure 4(b), the capacitor is connected to ground (shunt configuration), so low reactance diverts signals to ground while high reactance leaves them in the circuit. This configuration is commonly used to bypass high-frequency noise to ground in power supply circuits and to remove RF interference, while allowing lower frequency signals and DC to pass through unaffected.
+
+**Final Answer**
+
 (a) 3.18 mF
 
-(b)  $$16.7 \text{Ω} $$
+(b) 16.7 Ω
+
+(c) The capacitor shorts high-frequency signals to ground (low reactance at 5.00 kHz) while having minimal effect on low-frequency signals (higher reactance at 3.00 Hz), functioning as a low-pass filter.
+
 </div>
 </div>
 
@@ -473,6 +847,49 @@ In a recording of voltages due to brain activity (an EEG), a 10.0 mV signal with
 a 0.500 Hz frequency is applied to a capacitor, producing a current of 100 mA.
 Resistance is negligible. (a) What is the capacitance? (b) What is unreasonable
 about this result? (c) Which assumption or premise is responsible?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) Find the capacitive reactance from $$I=\frac{V}{{X}_{C}}$$, then calculate the capacitance from $${X}_{C}=\frac{1}{2\pi fC}$$.
+(b) Evaluate whether the calculated capacitance is physically reasonable for an EEG application.
+(c) Identify which parameter is unreasonable.
+
+**Solution**
+
+**(a)** Given:
+- $$V = 10.0 \text{ mV} = 1.00 \times 10^{-2} \text{ V}$$
+- $$I = 100 \text{ mA} = 0.100 \text{ A}$$
+- $$f = 0.500 \text{ Hz}$$
+
+First, find the capacitive reactance:
+
+<div class="equation">
+$${X}_{C}=\frac{V}{I}=\frac{1.00 \times 10^{-2} \text{ V}}{0.100 \text{ A}}=0.100 \text{ Ω}$$
+</div>
+
+Now find the capacitance:
+
+<div class="equation">
+$$C=\frac{1}{2\pi f{X}_{C}}=\frac{1}{2\pi (0.500 \text{ Hz})(0.100 \text{ Ω})}=\frac{1}{0.314}=3.18 \text{ F}$$
+</div>
+
+**(b)** A capacitance of 3.18 farads is unreasonably large for an EEG measurement circuit. Typical EEG equipment uses capacitances in the picofarad to microfarad range—millions of times smaller than this value. A 3.18 F capacitor would be physically enormous (like a supercapacitor used in power applications) and completely impractical for medical instrumentation. Furthermore, such a large capacitor would store a huge amount of charge and energy, which would be dangerous in a medical setting.
+
+**(c)** The unreasonable assumption is the current of 100 mA. EEG signals are extremely weak—typically only a few microvolts to millivolts in amplitude—and produce correspondingly tiny currents, typically in the nanoampere to microampere range, not milliamperes. A 10.0 mV signal at 0.500 Hz would produce a current many orders of magnitude smaller than 100 mA in a realistic EEG circuit. The stated current is about a million times too large for this application.
+
+**Discussion**
+
+This problem illustrates the importance of checking results against physical reality. EEG measurements require extremely sensitive, high-impedance amplifiers precisely because the signals are so weak. A current of 100 mA flowing through the brain would cause severe tissue damage or death—it's far above the threshold for dangerous electrical shock. Realistic EEG currents are in the nanoampere range, which would yield a much more reasonable capacitance value.
+
+**Final Answer**
+
+(a) 3.18 F
+
+(b) This capacitance is unreasonably large—about a million times larger than typical values used in EEG equipment.
+
+(c) The current of 100 mA is unreasonably large for an EEG signal. Realistic EEG currents are in the nanoampere to microampere range.
 
 </div>
 </div>

@@ -494,6 +494,48 @@ Standard automobile batteries have six lead-acid cells in series, creating a tot
 Carbon-zinc dry cells (sometimes referred to as non-alkaline cells) have an emf of 1.54 V, and they are produced as single cells or in various combinations to form other voltages. (a) How many 1.54-V cells are needed to make the common 9-V battery used in many small electronic devices? (b) What is the actual emf of the approximately 9-V battery? (c) Discuss how internal resistance in the series connection of cells will affect the terminal voltage of this approximately 9-V battery.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), divide the desired voltage by the voltage of each cell. For part (b), multiply the number of cells by the emf of each cell. For part (c), consider that internal resistances add in series.
+
+**Solution**
+
+**(a)** Number of cells needed:
+<div class="equation">
+$$n = \frac{9 \text{ V}}{1.54 \text{ V}} = 5.84 \approx 6 \text{ cells}$$
+</div>
+
+Since we need a whole number, 6 cells are required.
+
+**(b)** Actual emf:
+<div class="equation">
+$$\text{emf}_{\text{total}} = 6 \times 1.54 \text{ V} = 9.24 \text{ V}$$
+</div>
+
+**(c)** When cells are connected in series, their internal resistances add:
+<div class="equation">
+$$r_{\text{total}} = r_1 + r_2 + r_3 + r_4 + r_5 + r_6 = 6r$$
+</div>
+
+where $$r$$ is the internal resistance of each cell. The terminal voltage is given by:
+<div class="equation">
+$$V = \text{emf} - Ir_{\text{total}} = 9.24 \text{ V} - I(6r)$$
+</div>
+
+The larger total internal resistance means:
+1. Greater voltage drop when current flows
+2. Terminal voltage decreases more rapidly as current increases
+3. Less power delivered to the load compared to a single cell with the same total emf but lower internal resistance
+4. Battery performance degrades faster under heavy loads
+
+**Discussion**
+
+A "9-V" battery actually delivers 9.24 V when fresh and unloaded. The six-fold increase in internal resistance (compared to a single cell) is significant. This is why 9-V batteries perform poorly under heavy loads and why devices using them often specify low-current applications. As the battery ages, the internal resistance increases further, causing the terminal voltage to drop noticeably even under modest loads.
+
+(a) 6 cells, (b) 9.24 V, (c) Internal resistances add in series, increasing voltage drop and reducing terminal voltage under load.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -511,6 +553,42 @@ What is the output voltage of a 3.0000-V lithium cell in a digital wristwatch th
 <div class="problem" markdown="1">
 (a) What is the terminal voltage of a large 1.54-V alkaline dry cell used in a physics lab to supply 2.00 A to a circuit, if the cell's internal resistance is  $$0.100 \text{Ω} $$ ?
  (b) How much electrical power does the cell produce? (c) What power goes to its load?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Use $$V = \text{emf} - Ir$$ for terminal voltage. Power produced by the cell is $$P = I \times \text{emf}$$, while power delivered to the load is $$P = IV$$ (where $$V$$ is terminal voltage).
+
+**Solution**
+
+**(a)** Terminal voltage:
+<div class="equation">
+$$V = \text{emf} - Ir = 1.54 \text{ V} - (2.00 \text{ A})(0.100 \text{ Ω}) = 1.54 - 0.200 = 1.34 \text{ V}$$
+</div>
+
+**(b)** Power produced by the cell:
+<div class="equation">
+$$P_{\text{cell}} = I \times \text{emf} = (2.00 \text{ A})(1.54 \text{ V}) = 3.08 \text{ W}$$
+</div>
+
+**(c)** Power delivered to the load:
+<div class="equation">
+$$P_{\text{load}} = IV = (2.00 \text{ A})(1.34 \text{ V}) = 2.68 \text{ W}$$
+</div>
+
+Alternatively, we can calculate the power dissipated internally:
+<div class="equation">
+$$P_{\text{internal}} = I^2 r = (2.00)^2(0.100) = 0.400 \text{ W}$$
+</div>
+
+Check: $$P_{\text{load}} + P_{\text{internal}} = 2.68 + 0.40 = 3.08 \text{ W} = P_{\text{cell}}$$ ✓
+
+**Discussion**
+
+The cell produces 3.08 W total, but only 2.68 W (87%) reaches the load. The remaining 0.40 W (13%) is dissipated as heat in the cell's internal resistance. This is a significant loss, showing why minimizing internal resistance is important for efficient power delivery. The 0.20-V drop across the internal resistance represents a 13% reduction from the emf to the terminal voltage.
+
+(a) 1.34 V, (b) 3.08 W, (c) 2.68 W.
 
 </div>
 </div>
@@ -531,12 +609,80 @@ What is the internal resistance of an automobile battery that has an emf of 12.0
  internal resistance, if it is being charged by a current of 10.0 A. (b) What is the output voltage of the battery charger?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+When a battery is being charged, current flows into it (opposite to discharge direction). The terminal voltage is higher than the emf: $$V = \text{emf} + Ir$$. The charger voltage must equal the terminal voltage.
+
+**Solution**
+
+**(a)** Terminal voltage during charging:
+<div class="equation">
+$$V = \text{emf} + Ir = 12.0 \text{ V} + (10.0 \text{ A})(0.600 \text{ Ω}) = 12.0 + 6.00 = 18.0 \text{ V}$$
+</div>
+
+**(b)** The battery charger output voltage must equal the battery's terminal voltage:
+<div class="equation">
+$$V_{\text{charger}} = 18.0 \text{ V}$$
+</div>
+
+**Discussion**
+
+During charging, the 10.0 A current flows through the internal resistance in the direction that adds to the emf, making the terminal voltage 18.0 V (50% higher than the 12.0-V emf). The charger must provide this higher voltage to overcome both the battery's emf and push current through its internal resistance. The power dissipated internally is $$P = I^2r = (10.0)^2(0.600) = 60.0 \text{ W}$$, which heats the battery during charging—this is why batteries warm up when charging.
+
+(a) 18.0 V, (b) 18.0 V.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A car battery with a 12-V emf and an internal resistance of  $$ 0.050 \Omega  $$
  is being charged with a current of 60 A. Note that in this process the battery is being charged. (a) What is the potential difference across its terminals? (b) At what rate is thermal energy being dissipated in the battery? (c) At what rate is electric energy being converted to chemical energy? (d) What are the answers to (a) and (b) when the battery is used to supply 60 A to the starter motor?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+When charging: $$V = \text{emf} + Ir$$ (current into battery). When discharging: $$V = \text{emf} - Ir$$ (current out of battery). Thermal power dissipated is $$P = I^2r$$. Power converted to chemical energy is the difference between input electrical power and thermal dissipation.
+
+**Solution**
+
+**(a)** Terminal voltage while charging:
+<div class="equation">
+$$V = \text{emf} + Ir = 12 + (60)(0.050) = 12 + 3.0 = 15 \text{ V}$$
+</div>
+
+**(b)** Rate of thermal energy dissipation:
+<div class="equation">
+$$P_{\text{thermal}} = I^2 r = (60)^2(0.050) = 180 \text{ W}$$
+</div>
+
+**(c)** Rate of electrical-to-chemical energy conversion:
+<div class="equation">
+$$P_{\text{chemical}} = I \times \text{emf} = (60)(12) = 720 \text{ W}$$
+</div>
+
+Check: Total input power = $$IV = (60)(15) = 900 \text{ W}$$
+Power balance: $$P_{\text{chemical}} + P_{\text{thermal}} = 720 + 180 = 900 \text{ W}$$ ✓
+
+**(d)** When supplying current (discharging):
+
+Terminal voltage:
+<div class="equation">
+$$V = \text{emf} - Ir = 12 - (60)(0.050) = 12 - 3.0 = 9.0 \text{ V}$$
+</div>
+
+Thermal dissipation (same as before):
+<div class="equation">
+$$P_{\text{thermal}} = I^2 r = 180 \text{ W}$$
+</div>
+
+**Discussion**
+
+During charging, the battery's terminal voltage (15 V) exceeds its emf (12 V) because current flows "uphill" against the emf. The 900 W input power is split: 720 W stored as chemical energy and 180 W wasted as heat. During discharging, the terminal voltage (9.0 V) is less than the emf because the internal resistance causes a voltage drop. The 180 W thermal dissipation is the same magnitude in both cases because it depends on $$I^2r$$, not current direction. This heat generation is why batteries warm during heavy use or fast charging.
+
+(a) 15 V, (b) 180 W, (c) 720 W, (d) 9.0 V and 180 W.
 
 </div>
 </div>
@@ -564,7 +710,39 @@ The hot resistance of a flashlight bulb is  $$ 2.30 \Omega  $$ ,
 The label on a portable radio recommends the use of rechargeable nickel-cadmium cells (nicads), although they have a 1.25-V emf while alkaline cells have a 1.58-V emf. The radio has a  $$3.20\text{-Ω} $$
  resistance. (a) Draw a circuit diagram of the radio and its batteries. Now, calculate the power delivered to the radio. (b) When using Nicad cells each having an internal resistance of  $$0.0400 \text{Ω} $$ .
  (c) When using alkaline cells each having an internal resistance of  $$0.200 \text{Ω} $$ .
- (d) Does this difference seem significant, considering that the radio’s effective resistance is lowered when its volume is turned up?
+ (d) Does this difference seem significant, considering that the radio's effective resistance is lowered when its volume is turned up?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Assume the radio uses two cells in series. Calculate total resistance, current, and power for each battery type using $$I = \text{emf}_{\text{total}}/(R_{\text{load}} + r_{\text{total}})$$ and $$P = I^2 R_{\text{load}}$$.
+
+**Solution**
+
+**(a)** Circuit diagram (not drawn here, but would show): Two cells in series connected to the radio (3.20-Ω load resistor).
+
+**(b)** With two NiCad cells:
+- Total emf: $$\text{emf} = 2 \times 1.25 = 2.50 \text{ V}$$
+- Total internal resistance: $$r = 2 \times 0.0400 = 0.0800 \text{ Ω}$$
+- Total resistance: $$R_{\text{tot}} = 3.20 + 0.0800 = 3.28 \text{ Ω}$$
+- Current: $$I = 2.50/3.28 = 0.762 \text{ A}$$
+- Power to radio: $$P = I^2 R = (0.762)^2(3.20) = 1.86 \text{ W}$$
+
+**(c)** With two alkaline cells:
+- Total emf: $$\text{emf} = 2 \times 1.58 = 3.16 \text{ V}$$
+- Total internal resistance: $$r = 2 \times 0.200 = 0.400 \text{ Ω}$$
+- Total resistance: $$R_{\text{tot}} = 3.20 + 0.400 = 3.60 \text{ Ω}$$
+- Current: $$I = 3.16/3.60 = 0.878 \text{ A}$$
+- Power to radio: $$P = (0.878)^2(3.20) = 2.47 \text{ W}$$
+
+**(d)** The difference (2.47 W vs 1.86 W) is about 33% more power with alkaline cells. However, this difference becomes less significant when the volume is turned up because the radio's effective resistance decreases, making the internal resistance a smaller fraction of the total. At higher volume (lower radio resistance), both battery types would deliver more power, and the percentage difference would decrease. The NiCad recommendation likely balances performance with rechargeability and cost-effectiveness rather than maximum power.
+
+**Discussion**
+
+Despite higher emf, alkaline cells have 5× higher internal resistance than NiCads. This limits their advantage: they deliver only 33% more power despite having 26% higher emf. For high-current applications, NiCads' lower internal resistance makes them competitive. Additionally, NiCads maintain more constant voltage during discharge and can be recharged hundreds of times.
+
+(a) See circuit description, (b) 1.86 W, (c) 2.47 W, (d) Difference is moderate and decreases at higher volumes.
 
 </div>
 </div>
@@ -597,6 +775,69 @@ A child's electronic toy is supplied by three 1.58-V alkaline cells having inter
  (a) Draw a circuit diagram of the toy and its batteries. (b) What current flows? (c) How much power is supplied to the load? (d) What is the internal resistance of the dry cell if it goes bad, resulting in only 0.500 W being supplied to the load?
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Four cells in series: three identical 1.58-V cells and one 1.53-V cell. Add emfs and internal resistances, then calculate current and power.
+
+**Solution**
+
+**(a)** Circuit: Four cells in series connected to a 10.0-Ω load.
+
+**(b)** Total emf:
+<div class="equation">
+$$\text{emf}_{\text{total}} = 3(1.58) + 1.53 = 4.74 + 1.53 = 6.27 \text{ V}$$
+</div>
+
+Total internal resistance:
+<div class="equation">
+$$r_{\text{total}} = 3(0.0200) + 0.100 = 0.0600 + 0.100 = 0.160 \text{ Ω}$$
+</div>
+
+Total resistance:
+<div class="equation">
+$$R_{\text{total}} = 10.0 + 0.160 = 10.16 \text{ Ω}$$
+</div>
+
+Current:
+<div class="equation">
+$$I = \frac{6.27}{10.16} = 0.617 \text{ A}$$
+</div>
+
+**(c)** Power to load:
+<div class="equation">
+$$P = I^2 R_{\text{load}} = (0.617)^2(10.0) = 3.81 \text{ W}$$
+</div>
+
+**(d)** If power drops to 0.500 W, find new internal resistance of the bad cell. Let $$r_{\text{bad}}$$ be its new resistance.
+
+From $$P = I^2 R_{\text{load}}$$:
+<div class="equation">
+$$I = \sqrt{\frac{P}{R_{\text{load}}}} = \sqrt{\frac{0.500}{10.0}} = 0.224 \text{ A}$$
+</div>
+
+New total resistance:
+<div class="equation">
+$$R_{\text{new}} = \frac{\text{emf}}{I} = \frac{6.27}{0.224} = 28.0 \text{ Ω}$$
+</div>
+
+New internal resistance:
+<div class="equation">
+$$r_{\text{new}} = 28.0 - 10.0 = 18.0 \text{ Ω}$$
+</div>
+
+Bad cell's internal resistance:
+<div class="equation">
+$$r_{\text{bad}} = r_{\text{new}} - 3(0.0200) = 18.0 - 0.0600 = 17.9 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+The normal internal resistance is only 0.160 Ω (1.6% of total), so most power reaches the load. When the cell goes bad, its internal resistance increases from 0.100 Ω to 17.9 Ω—a 179-fold increase! This dramatically reduces current from 0.617 A to 0.224 A and power from 3.81 W to 0.500 W. Such large increases in internal resistance are typical of failing batteries.
+
+(a) Four cells in series with 10-Ω load, (b) 0.617 A, (c) 3.81 W, (d) 17.9 Ω.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -617,6 +858,52 @@ A child's electronic toy is supplied by three 1.58-V alkaline cells having inter
 A person with body resistance between his hands of  $$ 10.0 \text{k}\Omega  $$
  accidentally grasps the terminals of a 20.0-kV power supply. (Do NOT do this!) (a) Draw a circuit diagram to represent the situation. (b) If the internal resistance of the power supply is  $$2000 \Omega  $$ ,
  what is the current through his body? (c) What is the power dissipated in his body? (d) If the power supply is to be made safe by increasing its internal resistance, what should the internal resistance be for the maximum current in this situation to be 1.00 mA or less? (e) Will this modification compromise the effectiveness of the power supply for driving low-resistance devices? Explain your reasoning.
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Model as series circuit with emf = 20.0 kV, internal resistance $$r$$, and body resistance 10.0 kΩ. Calculate current and power, then determine safe internal resistance.
+
+**Solution**
+
+**(a)** Circuit: 20.0-kV source with internal resistance $$r$$ in series with 10.0-kΩ body resistance.
+
+**(b)** Total resistance: $$R = 2000 + 10000 = 12000 \text{ Ω} = 12.0 \text{ kΩ}$$
+
+Current:
+<div class="equation">
+$$I = \frac{V}{R} = \frac{20000}{12000} = 1.67 \text{ A}$$
+</div>
+
+**(c)** Power in body:
+<div class="equation">
+$$P = I^2 R_{\text{body}} = (1.67)^2(10000) = 27.9 \text{ kW}$$
+</div>
+
+This is lethal—enough to cause immediate death!
+
+**(d)** For maximum current of 1.00 mA:
+<div class="equation">
+$$R_{\text{total}} = \frac{V}{I} = \frac{20000}{0.00100} = 20.0 \text{ MΩ}$$
+</div>
+
+Required internal resistance:
+<div class="equation">
+$$r = R_{\text{total}} - R_{\text{body}} = 20.0 \times 10^{6} - 10.0 \times 10^{3} \approx 20.0 \text{ MΩ}$$
+</div>
+
+**(e)** Yes, this would severely compromise effectiveness for low-resistance devices. For example, with a 1.00-Ω load:
+- Without modification: $$I = 20000/(2000+1) = 10.0 \text{ A}$$, $$P = 100 \text{ W}$$
+- With 20-MΩ internal resistance: $$I = 20000/(20 \times 10^{6} + 1) \approx 1.00 \text{ mA}$$, $$P \approx 1.00 \text{ mW}$$
+
+The power delivery drops by a factor of 100,000! This makes the supply useless for most applications requiring significant power.
+
+**Discussion**
+
+The original configuration (2-kΩ internal resistance) allows a lethal 1.67 A through the body—far above the dangerous threshold of ~100 mA. Increasing internal resistance to 20 MΩ limits current to a safer 1 mA, but this also prevents the supply from delivering power to any low-resistance load. A better safety approach uses current-limiting circuits that activate only during faults, or isolation transformers, rather than permanently high internal resistance.
+
+(a) See circuit description, (b) 1.67 A (lethal!), (c) 27.9 kW, (d) 20.0 MΩ, (e) Yes, makes supply ineffective for normal use.
 
 </div>
 </div>

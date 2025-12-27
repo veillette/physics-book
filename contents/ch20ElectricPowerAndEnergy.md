@@ -835,7 +835,41 @@ The average television is said to be on 6 hours per day. Estimate the yearly cos
 
 </div>
 <div class="solution" markdown="1">
- $$3.94 billion/year
+**Strategy**
+
+Calculate the daily energy use per TV, multiply by the number of TVs to get total daily energy, then multiply by 365 days for annual energy. Finally, multiply by the cost per kW·h.
+
+**Solution**
+
+Daily energy per TV:
+
+<div class="equation">
+$$E_{\text{daily, 1 TV}} = Pt = (150 \text{ W})(6 \text{ h}) = 900 \text{ W·h} = 0.900 \text{ kW·h}$$
+</div>
+
+Total daily energy for 100 million TVs:
+
+<div class="equation">
+$$E_{\text{daily, total}} = (0.900 \text{ kW·h})(1.00 \times 10^{8}) = 9.00 \times 10^{7} \text{ kW·h/day}$$
+</div>
+
+Annual energy consumption:
+
+<div class="equation">
+$$E_{\text{annual}} = (9.00 \times 10^{7} \text{ kW·h/day})(365 \text{ days/year}) = 3.285 \times 10^{10} \text{ kW·h/year}$$
+</div>
+
+Annual cost:
+
+<div class="equation">
+$$\text{Cost} = (3.285 \times 10^{10} \text{ kW·h})(\$0.120/\text{kW·h}) = \$3.94 \times 10^{9}/\text{year}$$
+</div>
+
+**Discussion**
+
+The annual electricity cost of nearly \$4 billion to operate 100 million TVs in the United States is substantial. This calculation assumes average conditions; actual costs vary with viewing habits and TV efficiency. Modern LED TVs consume significantly less power than older plasma or CRT models, potentially reducing this cost. This demonstrates how collective energy consumption of seemingly small individual loads can have massive economic and environmental impacts. Energy-efficient technologies and reduced usage time can significantly reduce these costs.
+
+The yearly cost is approximately \$3.94 billion.
 
 </div>
 </div>
@@ -883,7 +917,35 @@ The filament diameter is reduced by a factor of 0.913 (or reduced to 91.3% of it
 
 </div>
 <div class="solution" markdown="1">
-25.5 W
+**Strategy**
+
+First calculate the resistance of 1 km of wire using $$R = \rho L/A$$, where $$\rho$$ for copper is $$1.68 \times 10^{-8}$$ Ω·m. Then use $$P = I^{2}R$$ to find the power loss.
+
+**Solution**
+
+Calculate the cross-sectional area:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{d}{2}\right)^{2} = \pi \left(\frac{9.266 \times 10^{-3} \text{ m}}{2}\right)^{2} = \pi (4.633 \times 10^{-3} \text{ m})^{2} = 6.744 \times 10^{-5} \text{ m}^{2}$$
+</div>
+
+Calculate the resistance of 1 km of wire:
+
+<div class="equation">
+$$R = \frac{\rho L}{A} = \frac{(1.68 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{6.744 \times 10^{-5} \text{ m}^{2}} = 0.249 \text{ Ω}$$
+</div>
+
+Calculate the power loss:
+
+<div class="equation">
+$$P = I^{2}R = (100 \text{ A})^{2}(0.249 \text{ Ω}) = 2490 \text{ W} = 2.49 \text{ kW}$$
+</div>
+
+**Discussion**
+
+The power loss of 2.49 kW in a kilometer of 00-gauge wire carrying 100 A is significant. This demonstrates why power transmission lines use very high voltages—by increasing voltage, the same power can be transmitted with much lower current, dramatically reducing $$I^{2}R$$ losses. For example, transmitting the same power at 10 times the voltage would reduce the current to 10 A, and the power loss would be reduced to 24.9 W (a factor of 100 reduction). This is also why thicker wire gauges are essential for high-current applications; the low resistance of 00-gauge wire (0.249 Ω/km) is necessary to keep losses manageable.
+
+The power loss is 2.49 kW.
 
 </div>
 </div>
@@ -1047,6 +1109,56 @@ efficiency?
 {: #Figure5}
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use $$P = IV$$. For part (b), the gravitational potential energy lost by the water per unit time must equal the electrical power output divided by the efficiency. Use $$\Delta PE = mgh$$ with the flow rate.
+
+**Solution**
+
+__(a)__ Calculate the power output:
+
+<div class="equation">
+$$P = IV = (8.00 \times 10^{3} \text{ A})(250 \times 10^{3} \text{ V}) = 2.00 \times 10^{9} \text{ W} = 2.00 \text{ GW}$$
+</div>
+
+__(b)__ The power from the falling water is related to the electrical power by efficiency:
+
+<div class="equation">
+$$P_{\text{water}} = \frac{P_{\text{electrical}}}{\eta} = \frac{2.00 \times 10^{9} \text{ W}}{0.850} = 2.35 \times 10^{9} \text{ W}$$
+</div>
+
+The power from water is the rate of potential energy loss:
+
+<div class="equation">
+$$P_{\text{water}} = \frac{\Delta PE}{\Delta t} = \frac{mgh}{t} = \dot{m}gh$$
+</div>
+
+where $$\dot{m}$$ is the mass flow rate. We can express this in terms of volume flow rate $$\dot{V}$$ (in m³/s):
+
+<div class="equation">
+$$\dot{m} = \rho \dot{V}$$
+</div>
+
+where $$\rho = 1000$$ kg/m³ for water. Therefore:
+
+<div class="equation">
+$$P_{\text{water}} = \rho \dot{V} g h$$
+</div>
+
+Solving for the volume flow rate:
+
+<div class="equation">
+$$\dot{V} = \frac{P_{\text{water}}}{\rho g h} = \frac{2.35 \times 10^{9} \text{ W}}{(1000 \text{ kg/m}^{3})(9.80 \text{ m/s}^{2})(160 \text{ m})} = \frac{2.35 \times 10^{9}}{1.568 \times 10^{6}} = 1500 \text{ m}^{3}\text{/s}$$
+</div>
+
+**Discussion**
+
+The power output of 2.00 GW is enormous—enough to supply electricity to a large city. The required water flow rate of 1500 m³/s is also substantial. To visualize this: imagine a cube of water 11.5 m on each side flowing past every second. The 85% efficiency is quite good for energy conversion, with the 15% loss primarily due to turbine friction, generator resistance, and turbulence in the water flow. Hoover Dam's generators are among the most efficient large-scale power generation systems, converting the gravitational potential energy of water stored behind the dam into electrical energy with minimal waste.
+
+(a) The power output is 2.00 GW. (b) A flow rate of 1500 m³/s is needed.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1086,6 +1198,58 @@ Find its average acceleration. (d) Discuss how the acceleration you found for
 the light-rail train compares to what might be typical for an automobile.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use $$P = IV$$. For part (b), use the work-energy theorem: the useful work done equals the kinetic energy gained. For part (c), use kinematics with the time from part (b). For part (d), compare to typical automobile acceleration.
+
+**Solution**
+
+__(a)__ Calculate the power consumption:
+
+<div class="equation">
+$$P = IV = (630 \text{ A})(650 \text{ V}) = 409500 \text{ W} = 410 \text{ kW}$$
+</div>
+
+__(b)__ The useful power (mechanical power) is:
+
+<div class="equation">
+$$P_{\text{useful}} = \eta P = (0.950)(410 \text{ kW}) = 389.5 \text{ kW} = 3.895 \times 10^{5} \text{ W}$$
+</div>
+
+The work done equals the change in kinetic energy:
+
+<div class="equation">
+$$W = \Delta KE = \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(5.30 \times 10^{4} \text{ kg})(20.0 \text{ m/s})^{2} = \frac{1}{2}(5.30 \times 10^{4})(400) = 1.06 \times 10^{7} \text{ J}$$
+</div>
+
+Since $$P = W/t$$, we have:
+
+<div class="equation">
+$$t = \frac{W}{P_{\text{useful}}} = \frac{1.06 \times 10^{7} \text{ J}}{3.895 \times 10^{5} \text{ W}} = 27.2 \text{ s}$$
+</div>
+
+__(c)__ Using $$v = v_0 + at$$ with $$v_0 = 0$$:
+
+<div class="equation">
+$$a = \frac{v}{t} = \frac{20.0 \text{ m/s}}{27.2 \text{ s}} = 0.735 \text{ m/s}^{2}$$
+</div>
+
+__(d)__
+
+**Discussion**
+
+The average acceleration of 0.735 m/s² (about 0.075g) is considerably lower than typical automobile acceleration. A typical car can accelerate at 2-3 m/s² (0.2-0.3g), roughly 3-4 times faster than this light-rail train. The slower acceleration is acceptable for mass transit because:
+1. Passenger comfort—standing passengers need gentle acceleration
+2. Frequent stops make high acceleration less critical
+3. The train's large mass (53,000 kg) makes rapid acceleration energy-intensive
+4. Safety considerations for passengers who may not be seated
+
+The light-rail's acceleration is adequate for urban transit where stations are closely spaced and passenger comfort is prioritized over speed.
+
+(a) The power consumption is 410 kW. (b) It takes 27.2 s to reach 20.0 m/s. (c) The average acceleration is 0.735 m/s². (d) This is about 3-4 times slower than typical automobile acceleration, which is appropriate for passenger comfort and safety in mass transit.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1117,6 +1281,66 @@ the heating time. Discuss the practical limits to speeding the heating by
 lowering the resistance.
 
 </div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Calculate the total heat needed to warm both the aluminum cup and water using $$Q = mc\Delta T$$. The power needed is $$P = Q/t$$. Then use $$P = V^{2}/R$$ to find the resistance. For part (b), consider practical limitations.
+
+**Solution**
+
+__(a)__ Calculate heat needed for each component ($$\Delta T = 75.0$$ °C):
+
+For aluminum cup ($$c_{\text{Al}} = 900$$ J/kg·°C):
+
+<div class="equation">
+$$Q_{\text{Al}} = m_{\text{Al}} c_{\text{Al}} \Delta T = (0.100 \text{ kg})(900 \text{ J/kg·°C})(75.0 \text{ °C}) = 6750 \text{ J}$$
+</div>
+
+For water ($$c_{\text{water}} = 4186$$ J/kg·°C):
+
+<div class="equation">
+$$Q_{\text{water}} = m_{\text{water}} c_{\text{water}} \Delta T = (0.350 \text{ kg})(4186 \text{ J/kg·°C})(75.0 \text{ °C}) = 109868 \text{ J}$$
+</div>
+
+Total heat:
+
+<div class="equation">
+$$Q_{\text{total}} = 6750 + 109868 = 116618 \text{ J}$$
+</div>
+
+Power needed:
+
+<div class="equation">
+$$P = \frac{Q}{t} = \frac{116618 \text{ J}}{2.00 \text{ min} \times 60 \text{ s/min}} = \frac{116618 \text{ J}}{120 \text{ s}} = 972 \text{ W}$$
+</div>
+
+Resistance:
+
+<div class="equation">
+$$R = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{972 \text{ W}} = \frac{14400}{972} = 14.8 \text{ Ω}$$
+</div>
+
+__(b)__
+
+**Discussion**
+
+The resistance of 14.8 Ω is reasonable for an immersion heater. Lowering the resistance would increase power and reduce heating time, but several practical limits exist:
+
+1. **Circuit capacity**: Standard 120-V household circuits are typically limited to 15-20 A (1800-2400 W). The current heater draws $$I = P/V = 972/120 = 8.1$$ A. Reducing resistance much further would trip circuit breakers.
+
+2. **Safety**: Higher currents require thicker wires to prevent overheating. The heater cord and connections must safely handle the current.
+
+3. **Boiling**: Too much power might cause rapid boiling, creating safety hazards from steam and splashing.
+
+4. **Efficiency**: Heat losses to surroundings increase with higher temperatures and longer heating times, but extremely rapid heating may cause hot spots and reduced efficiency.
+
+5. **Cost**: Lower resistance heating elements require more material or different (more expensive) materials.
+
+In practice, immersion heaters are designed to balance heating speed with safety, circuit capacity, and cost constraints.
+
+(a) The resistance is 14.8 Ω. (b) Practical limits include circuit capacity, safety concerns, preventing dangerous boiling, and cost considerations.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1130,6 +1354,56 @@ $$
 for heat transfer to the surroundings? The cost of electricity is $$9
 \text{cents/kW}\cdot \text{h} $$ .
 (b) What current was used by the 220-V AC electric heater, if this took 4.00 h?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), calculate the heat needed using $$Q = mc\Delta T$$, account for efficiency to find actual energy consumed, convert to kW·h, and multiply by cost. For part (b), find power from energy and time, then use $$P = IV$$.
+
+**Solution**
+
+__(a)__ Calculate the heat needed ($$c_{\text{water}} = 4186$$ J/kg·°C, $$\Delta T = 30.0$$ °C):
+
+<div class="equation">
+$$Q = mc\Delta T = (1500 \text{ kg})(4186 \text{ J/kg·°C})(30.0 \text{ °C}) = 1.884 \times 10^{8} \text{ J}$$
+</div>
+
+Accounting for 75% efficiency, the actual electrical energy needed is:
+
+<div class="equation">
+$$E_{\text{electrical}} = \frac{Q}{\eta} = \frac{1.884 \times 10^{8} \text{ J}}{0.750} = 2.512 \times 10^{8} \text{ J}$$
+</div>
+
+Convert to kW·h:
+
+<div class="equation">
+$$E = 2.512 \times 10^{8} \text{ J} \times \frac{1 \text{ kW·h}}{3.6 \times 10^{6} \text{ J}} = 69.8 \text{ kW·h}$$
+</div>
+
+Calculate cost:
+
+<div class="equation">
+$$\text{Cost} = (69.8 \text{ kW·h})(\$0.09/\text{kW·h}) = \$6.28$$
+</div>
+
+__(b)__ Calculate power used:
+
+<div class="equation">
+$$P = \frac{E}{t} = \frac{69.8 \text{ kW·h}}{4.00 \text{ h}} = 17.45 \text{ kW} = 17450 \text{ W}$$
+</div>
+
+Calculate current:
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{17450 \text{ W}}{220 \text{ V}} = 79.3 \text{ A}$$
+</div>
+
+**Discussion**
+
+The cost of \$6.28 to heat a hot tub is quite reasonable for the comfort provided. The 75% efficiency accounts for heat losses through the tub walls and surface evaporation during the 4-hour heating process. The current of 79.3 A is quite high and explains why hot tub heaters require dedicated 220-V circuits with heavy-gauge wiring. This current would be dangerous on a standard 120-V circuit, which is limited to about 15-20 A. The 220-V circuit is safer and more efficient for high-power applications like hot tubs, electric dryers, and stoves. A circuit breaker rated for at least 80 A would be needed for this heater.
+
+(a) The cost is \$6.28. (b) The current used is 79.3 A.
 
 </div>
 </div>
@@ -1166,6 +1440,64 @@ power at 10.0 kV? (b) Find the resistance of 1.00 km of wire that would cause a
 0.0100% power loss. (c) What is the diameter of a 1.00-km-long copper wire
 having this resistance? (d) What is unreasonable about these results? (e) Which
 assumptions are unreasonable, or which premises are inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+For part (a), use $$P = IV$$. For part (b), calculate power loss and use $$P_{\text{loss}} = I^{2}R$$. For part (c), use $$R = \rho L/A$$ with copper's resistivity. For parts (d) and (e), examine the physical reasonableness of the results.
+
+**Solution**
+
+__(a)__ Calculate the current:
+
+<div class="equation">
+$$I = \frac{P}{V} = \frac{1.00 \times 10^{2} \text{ MW}}{10.0 \text{ kV}} = \frac{1.00 \times 10^{8} \text{ W}}{1.00 \times 10^{4} \text{ V}} = 1.00 \times 10^{4} \text{ A} = 10.0 \text{ kA}$$
+</div>
+
+__(b)__ Calculate the allowable power loss:
+
+<div class="equation">
+$$P_{\text{loss}} = 0.0100\% \times P = 0.000100 \times 1.00 \times 10^{8} \text{ W} = 1.00 \times 10^{4} \text{ W} = 10.0 \text{ kW}$$
+</div>
+
+Find the resistance:
+
+<div class="equation">
+$$R = \frac{P_{\text{loss}}}{I^{2}} = \frac{1.00 \times 10^{4} \text{ W}}{(1.00 \times 10^{4} \text{ A})^{2}} = \frac{1.00 \times 10^{4}}{1.00 \times 10^{8}} = 1.00 \times 10^{-4} \text{ Ω}$$
+</div>
+
+__(c)__ Calculate the cross-sectional area using $$R = \rho L/A$$:
+
+<div class="equation">
+$$A = \frac{\rho L}{R} = \frac{(1.68 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{1.00 \times 10^{-4} \text{ Ω}} = \frac{1.68 \times 10^{-5}}{1.00 \times 10^{-4}} = 0.168 \text{ m}^{2}$$
+</div>
+
+Find the diameter:
+
+<div class="equation">
+$$A = \pi r^{2} = \pi \left(\frac{d}{2}\right)^{2}$$
+</div>
+
+<div class="equation">
+$$d = 2\sqrt{\frac{A}{\pi}} = 2\sqrt{\frac{0.168}{\pi}} = 2\sqrt{0.0535} = 2(0.231) = 0.462 \text{ m} = 46.2 \text{ cm}$$
+</div>
+
+__(d)__ and __(e)__
+
+**Discussion**
+
+The diameter of 46.2 cm (nearly half a meter!) is completely unreasonable for a transmission wire. Such a massive wire would be:
+
+1. **Prohibitively expensive**: The volume of copper needed would be enormous. For 1 km, the volume would be $$V = AL = (0.168 \text{ m}^{2})(1000 \text{ m}) = 168 \text{ m}^{3}$$. At copper's density of 8960 kg/m³, this would be about 1.5 million kg of copper per kilometer!
+
+2. **Structurally impractical**: A wire this thick and heavy would be impossible to support on transmission towers.
+
+3. **Unreasonable premise**: The fundamental problem is the combination of relatively low transmission voltage (10 kV) with very high power (100 MW) and extremely low acceptable loss (0.01%).
+
+In reality, high-power transmission uses voltages in the hundreds of kilovolts (100-765 kV) to keep currents manageable and power losses acceptable with reasonable wire sizes. The 10.0 kV voltage is too low for transmitting 100 MW efficiently. Either the voltage must be increased by a factor of 10-100, or the acceptable power loss must be increased to a more practical value like 5-10%.
+
+(a) 10.0 kA. (b) $$1.00 \times 10^{-4}$$ Ω. (c) 46.2 cm diameter. (d) The wire diameter is absurdly large and impractical. (e) The 10 kV transmission voltage is unreasonably low for transmitting 100 MW with only 0.01% loss.
 
 </div>
 </div>

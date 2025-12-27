@@ -81,8 +81,38 @@ Suppose a motor connected to a 120 V source draws 10.0 A when it first starts. (
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$12.00 \Omega  $$
-(b) 1.67 A
+**Strategy**
+
+(a) When first starting, back emf is zero, so use Ohm's law with full voltage.
+(b) At operating speed, the effective voltage is the supply voltage minus back emf.
+
+**Solution**
+
+**(a)** At startup, back emf = 0, so the full 120 V appears across the resistance:
+
+<div class="equation">
+$$R=\frac{V}{I}=\frac{120 \text{ V}}{10.0 \text{ A}}=12.0 \text{ Ω}$$
+</div>
+
+**(b)** At operating speed, the effective voltage across the resistance is:
+
+<div class="equation">
+$$V_{\text{eff}}=V_{\text{supply}}-V_{\text{back emf}}=120 \text{ V}-100 \text{ V}=20 \text{ V}$$
+</div>
+
+The current is:
+
+<div class="equation">
+$$I=\frac{V_{\text{eff}}}{R}=\frac{20 \text{ V}}{12.0 \text{ Ω}}=1.67 \text{ A}$$
+</div>
+
+**Discussion**
+
+The current drops from 10.0 A at startup to 1.67 A at operating speed—a factor of 6 reduction. This is why motors draw large "inrush" currents when starting and why circuit breakers must be rated to handle these transient currents. The back emf acts as a self-regulating mechanism that limits the motor's current draw during normal operation.
+
+**Final Answer**
+
+(a) 12.0 Ω; (b) 1.67 A
 
 </div>
 </div>
@@ -90,6 +120,41 @@ Suppose a motor connected to a 120 V source draws 10.0 A when it first starts. (
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A motor operating on 240 V electricity has a 180 V back emf at operating speed and draws a 12.0 A current. (a) What is its resistance? (b) What current does it draw when it is first started?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+(a) At operating speed, find resistance using the effective voltage (supply minus back emf).
+(b) At startup, use the full supply voltage with the resistance from part (a).
+
+**Solution**
+
+**(a)** At operating speed, the effective voltage is:
+
+<div class="equation">
+$$V_{\text{eff}}=240 \text{ V}-180 \text{ V}=60 \text{ V}$$
+</div>
+
+The resistance is:
+
+<div class="equation">
+$$R=\frac{V_{\text{eff}}}{I}=\frac{60 \text{ V}}{12.0 \text{ A}}=5.00 \text{ Ω}$$
+</div>
+
+**(b)** At startup, back emf = 0, so the current is:
+
+<div class="equation">
+$$I=\frac{V_{\text{supply}}}{R}=\frac{240 \text{ V}}{5.00 \text{ Ω}}=48.0 \text{ A}$$
+</div>
+
+**Discussion**
+
+The startup current of 48.0 A is four times the operating current of 12.0 A. This large inrush current explains why large motors often require special starting circuits (like soft starters or star-delta starters) to limit the current surge and prevent tripping circuit breakers or causing voltage sags in the power system.
+
+**Final Answer**
+
+(a) 5.00 Ω; (b) 48.0 A
 
 </div>
 </div>
@@ -100,6 +165,36 @@ What is the back emf of a 120 V motor that draws 8.00 A at its normal speed and 
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+First find the resistance using startup conditions (no back emf), then use it to find back emf at operating speed.
+
+**Solution**
+
+At startup, back emf = 0, so:
+
+<div class="equation">
+$$R=\frac{V}{I_{\text{start}}}=\frac{120 \text{ V}}{20.0 \text{ A}}=6.00 \text{ Ω}$$
+</div>
+
+At operating speed, the effective voltage across the resistance is:
+
+<div class="equation">
+$$V_{\text{eff}}=IR=(8.00 \text{ A})(6.00 \text{ Ω})=48.0 \text{ V}$$
+</div>
+
+The back emf is:
+
+<div class="equation">
+$$V_{\text{back emf}}=V_{\text{supply}}-V_{\text{eff}}=120 \text{ V}-48.0 \text{ V}=72.0 \text{ V}$$
+</div>
+
+**Discussion**
+
+The back emf of 72.0 V is 60% of the supply voltage, which is typical for motors at normal operating speed. This substantial back emf reduces the current from 20.0 A to 8.00 A, preventing overheating and allowing efficient operation. The back emf represents the motor's energy conversion from electrical to mechanical form.
+
+**Final Answer**
+
 72.0 V
 
 </div>
@@ -108,6 +203,40 @@ What is the back emf of a 120 V motor that draws 8.00 A at its normal speed and 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The motor in a toy car operates on 6.00 V, developing a 4.50 V back emf at normal speed. If it draws 3.00 A at normal speed, what current does it draw when starting?
+
+</div>
+<div class="solution" markdown="1">
+**Strategy**
+
+Find the resistance using operating conditions, then calculate startup current with full voltage and no back emf.
+
+**Solution**
+
+At operating speed, the effective voltage is:
+
+<div class="equation">
+$$V_{\text{eff}}=6.00 \text{ V}-4.50 \text{ V}=1.50 \text{ V}$$
+</div>
+
+The resistance is:
+
+<div class="equation">
+$$R=\frac{V_{\text{eff}}}{I}=\frac{1.50 \text{ V}}{3.00 \text{ A}}=0.500 \text{ Ω}$$
+</div>
+
+At startup, back emf = 0, so:
+
+<div class="equation">
+$$I_{\text{start}}=\frac{V_{\text{supply}}}{R}=\frac{6.00 \text{ V}}{0.500 \text{ Ω}}=12.0 \text{ A}$$
+</div>
+
+**Discussion**
+
+The startup current of 12.0 A is four times the operating current of 3.00 A. For a toy car motor, this surge is brief and manageable, but it illustrates why small batteries can sometimes struggle to start motors—the internal resistance of depleted batteries limits the current they can supply during startup.
+
+**Final Answer**
+
+12.0 A
 
 </div>
 </div>
@@ -123,7 +252,42 @@ is the resistance of the motor?
 
 </div>
 <div class="solution" markdown="1">
- $$0.100 \text{Ω} $$
+**Strategy**
+
+Account for the internal resistance of all four batteries in series, then find the motor resistance using the voltage distribution in the circuit.
+
+**Solution**
+
+The total internal resistance of four batteries is:
+
+<div class="equation">
+$$R_{\text{internal}}=4 \times 0.100 \text{ Ω}=0.400 \text{ Ω}$$
+</div>
+
+The total resistance in the circuit includes the motor resistance $$R_{\text{motor}}$$ and internal resistance. The effective voltage across the motor resistance is the supply voltage minus the back emf and voltage drop across internal resistance:
+
+<div class="equation">
+$$V_{\text{motor}}=V_{\text{supply}}-V_{\text{back emf}}-IR_{\text{internal}}$$
+</div>
+
+<div class="equation">
+$$V_{\text{motor}}=6.00 \text{ V}-4.50 \text{ V}-(3.00 \text{ A})(0.400 \text{ Ω})=1.50 \text{ V}-1.20 \text{ V}=0.300 \text{ V}$$
+</div>
+
+The motor resistance is:
+
+<div class="equation">
+$$R_{\text{motor}}=\frac{V_{\text{motor}}}{I}=\frac{0.300 \text{ V}}{3.00 \text{ A}}=0.100 \text{ Ω}$$
+</div>
+
+**Discussion**
+
+The motor resistance (0.100 Ω) is quite small, comparable to the internal resistance of a single battery. Most of the voltage drop in this circuit occurs across the back emf (4.50 V) and the battery internal resistance (1.20 V), with only 0.300 V dissipated as heat in the motor resistance. This is characteristic of an efficient motor at operating speed.
+
+**Final Answer**
+
+0.100 Ω
+
 </div>
 </div>
 
