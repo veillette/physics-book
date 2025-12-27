@@ -297,6 +297,23 @@ distance of the Andromeda galaxy?
 Assuming the angular resolution found for the Hubble Telescope in [[Example 1]](#Example1), what is the smallest detail that could be observed on the Moon?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+From Example 1, Hubble's angular resolution is θ = 2.80 × 10⁻⁷ rad. Use s = rθ with r = distance to Moon ≈ 3.84 × 10⁸ m.
+
+**Solution**
+
+<div class="equation">
+$$s = r\theta = (3.84 \times 10^8 \text{ m})(2.80 \times 10^{-7} \text{ rad}) = 108 \text{ m}$$
+</div>
+
+**Discussion**
+
+Hubble can resolve details as small as 108 m (about the length of a football field) on the Moon. This is why Hubble cannot see the Apollo landing sites - the lunar modules and equipment are only a few meters in size, far below this resolution limit.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -322,6 +339,37 @@ time and, hence, distance.) Explicitly show how you follow the steps
 in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1).
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+**Step 1:** This is a diffraction spreading problem.
+**Step 2:** Use θ = 1.22λ/D for circular beam diffraction.
+**Step 3:** (a) Find θ; (b) find spot size at 15 km; (c) find spot size at Moon distance.
+**Step 4:** Given: λ = 633 nm, D = 1.00 mm.
+
+**(a) Angular spread:**
+<div class="equation">
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{633 \times 10^{-9}}{1.00 \times 10^{-3}} = 7.72 \times 10^{-4} \text{ rad}$$
+</div>
+
+**(b) Spot size at 15.0 km:**
+<div class="equation">
+$$s = r\theta = (15.0 \times 10^3)(7.72 \times 10^{-4}) = 11.6 \text{ m (diameter)}$$
+</div>
+
+**(c) Spot size on Moon (r = 3.84 × 10⁸ m):**
+<div class="equation">
+$$s = (3.84 \times 10^8)(7.72 \times 10^{-4}) = 2.96 \times 10^5 \text{ m} = 296 \text{ km}$$
+</div>
+
+**Step 5:** These results are reasonable - laser beams spread due to diffraction despite being highly collimated.
+
+**Discussion**
+
+A 296-km spot on the Moon from a 1-mm beam shows significant diffraction spreading. To reduce this, lasers sent to the Moon are expanded through telescopes to increase D, reducing θ = 1.22λ/D.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -344,7 +392,7 @@ make on the Moon, assuming a lunar distance of $$ 3.84 \times 10^{8} \text{m} $$
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The limit to the eye’s acuity is actually related to diffraction by the pupil.
+The limit to the eye's acuity is actually related to diffraction by the pupil.
 
 (a) What is the angle between two just-resolvable points of light for a
 3.00-mm-diameter pupil, assuming an average wavelength of 550 nm?
@@ -353,11 +401,33 @@ The limit to the eye’s acuity is actually related to diffraction by the pupil.
 possible distance a car can be from you if you can resolve its two headlights,
 given they are 1.30 m apart?
 
-(c) What is the distance between two just-resolvable points held at an arm’s
+(c) What is the distance between two just-resolvable points held at an arm's
 length (0.800 m) from your eye?
 
 (d) How does your answer to (c) compare to details you normally observe in
 everyday circumstances?
+
+</div>
+<div class="solution" markdown="1">
+
+**(a) Minimum resolvable angle:**
+<div class="equation">
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{550 \times 10^{-9}}{3.00 \times 10^{-3}} = 2.24 \times 10^{-4} \text{ rad}$$
+</div>
+
+Converting: θ = 2.24 × 10⁻⁴ rad × (180/π) × 60 = 0.77 arcmin ≈ **46 arcseconds**
+
+**(b) Maximum distance to resolve headlights:**
+<div class="equation">
+$$r = \frac{s}{\theta} = \frac{1.30}{2.24 \times 10^{-4}} = 5800 \text{ m} = 5.8 \text{ km}$$
+</div>
+
+**(c) Separation at arm's length:**
+<div class="equation">
+$$s = r\theta = (0.800)(2.24 \times 10^{-4}) = 1.79 \times 10^{-4} \text{ m} = 0.18 \text{ mm}$$
+</div>
+
+**(d) Comparison:** 0.18 mm is about twice the width of a human hair (~0.1 mm) and matches our everyday experience - we can barely distinguish two dots separated by this distance at arm's length. This is consistent with typical human visual acuity of about 20/20 vision.
 
 </div>
 </div>
@@ -376,6 +446,27 @@ What is the minimum diameter mirror on a telescope that would allow you to see d
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 You are told not to shoot until you see the whites of their eyes. If the eyes are separated by 6.5 cm and the diameter of your pupil is 5.0 mm, at what distance can you resolve the two eyes using light of wavelength 555 nm?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Find the minimum resolvable angle θ = 1.22λ/D, then find the maximum distance r = s/θ where the eyes can be resolved.
+
+**Solution**
+
+<div class="equation">
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{555 \times 10^{-9}}{5.0 \times 10^{-3}} = 1.35 \times 10^{-4} \text{ rad}$$
+</div>
+
+<div class="equation">
+$$r = \frac{s}{\theta} = \frac{0.065}{1.35 \times 10^{-4}} = 481 \text{ m}$$
+</div>
+
+**Discussion**
+
+You could resolve the two eyes at distances up to about 480 m. This is remarkably far - nearly half a kilometer! Of course, in practice, other factors like atmospheric turbulence and the need to see details smaller than eye separation would limit the actual distance.
 
 </div>
 </div>
@@ -404,11 +495,58 @@ bodies indicates the severity of atmospheric aberrations.
 The headlights of a car are 1.3 m apart. What is the maximum distance at which the eye can resolve these two headlights? Take the pupil diameter to be 0.40 cm.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use θ = 1.22λ/D with λ ≈ 550 nm, D = 0.40 cm = 4.0 mm, then r = s/θ.
+
+**Solution**
+
+<div class="equation">
+$$\theta = 1.22\frac{550 \times 10^{-9}}{4.0 \times 10^{-3}} = 1.68 \times 10^{-4} \text{ rad}$$
+</div>
+
+<div class="equation">
+$$r = \frac{s}{\theta} = \frac{1.3}{1.68 \times 10^{-4}} = 7740 \text{ m} \approx 7.7 \text{ km}$$
+</div>
+
+**Discussion**
+
+The maximum distance is about 7.7 km. At night with dilated pupils (larger D), this distance would be somewhat shorter. In practice, atmospheric effects, haze, and the need to see the headlights' size (not just their separation) reduce the effective distance.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-When dots are placed on a page from a laser printer, they must be close enough so that you do not see the individual dots of ink. To do this, the separation of the dots must be less than Raleigh’s criterion. Take the pupil of the eye to be 3.0 mm and the distance from the paper to the eye of 35 cm; find the minimum separation of two dots such that they cannot be resolved. How many dots per inch (dpi) does this correspond to?
+When dots are placed on a page from a laser printer, they must be close enough so that you do not see the individual dots of ink. To do this, the separation of the dots must be less than Raleigh's criterion. Take the pupil of the eye to be 3.0 mm and the distance from the paper to the eye of 35 cm; find the minimum separation of two dots such that they cannot be resolved. How many dots per inch (dpi) does this correspond to?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Find θ = 1.22λ/D, then minimum separation s = rθ at distance r = 35 cm. Convert to dpi.
+
+**Solution**
+
+<div class="equation">
+$$\theta = 1.22\frac{550 \times 10^{-9}}{3.0 \times 10^{-3}} = 2.24 \times 10^{-4} \text{ rad}$$
+</div>
+
+<div class="equation">
+$$s = r\theta = (0.35)(2.24 \times 10^{-4}) = 7.84 \times 10^{-5} \text{ m} = 78.4 \text{ μm}$$
+</div>
+
+Dots per inch:
+<div class="equation">
+$$\text{dpi} = \frac{1 \text{ inch}}{s} = \frac{0.0254 \text{ m}}{7.84 \times 10^{-5} \text{ m}} = 324 \text{ dpi}$$
+</div>
+
+**Discussion**
+
+A resolution of about 300-324 dpi is sufficient to make individual dots unresolvable at normal reading distance (35 cm). This is why 300 dpi became the standard for laser printers - it exceeds the eye's diffraction-limited resolution. Higher dpi (600, 1200) improves quality for closer viewing or finer details but isn't necessary for normal reading.
 
 </div>
 </div>
@@ -427,6 +565,49 @@ wavelength of light averages 600 nm.
 (b) What is unreasonable about this result?
 
 (c) Which assumptions are unreasonable or inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use Rayleigh criterion θ = 1.22λ/D and s = rθ to find required D.
+
+**Solution**
+
+**(a) Required mirror diameter:**
+
+Given: s = 1.00 m, r = 7.50 × 10⁸ km = 7.50 × 10¹¹ m, λ = 600 nm
+
+<div class="equation">
+$$\theta = \frac{s}{r} = \frac{1.00}{7.50 \times 10^{11}} = 1.33 \times 10^{-12} \text{ rad}$$
+</div>
+
+Using θ = 1.22λ/D:
+
+<div class="equation">
+$$D = \frac{1.22\lambda}{\theta} = \frac{1.22 \times 600 \times 10^{-9}}{1.33 \times 10^{-12}} = 5.50 \times 10^5 \text{ m} = 550 \text{ km}$$
+</div>
+
+**(b) What is unreasonable?**
+
+A mirror diameter of **550 km** is absurdly large:
+- Larger than most cities
+- Would weigh billions of tons
+- Impossible to construct, support, or aim
+- Far exceeds any existing telescope (largest is ~10 m)
+- Would cost trillions of dollars
+
+**(c) Unreasonable assumptions:**
+
+1. **Expecting to resolve 1-m details at Jupiter's distance** (750 million km) is unrealistic for any ground or even space-based telescope
+2. The diffraction limit makes such resolution physically impossible without an impossibly large aperture
+3. Even if built, atmospheric turbulence would prevent this resolution from Earth
+4. The assumption that an "amateur" could build such a telescope is absurd
+
+**Discussion**
+
+This illustrates why we can't see fine details on distant planets. Even Hubble (2.4 m) can only resolve features ~150 km on Jupiter. To see people (meter-scale) would require space-based interferometry with baseline separations of hundreds of kilometers, far beyond amateur (or even professional single-telescope) capabilities.
 
 </div>
 </div>

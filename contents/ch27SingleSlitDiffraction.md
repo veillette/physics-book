@@ -167,6 +167,48 @@ As the width of the slit producing a single-slit diffraction pattern is reduced,
 -wide slit produces its first minimum for 410-nm violet light. (b) Where is the first minimum for 700-nm red light?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a single slit, the first minimum occurs when $$D \sin \theta = m\lambda$$ with m = 1. We solve for θ for each wavelength.
+
+**Solution**
+
+Given:
+- $$D = 2.00 \text{ μm} = 2.00 \times 10^{-6} \text{ m}$$
+
+**(a) For violet light (λ = 410 nm):**
+
+<div class="equation">
+$$D \sin \theta = m\lambda$$
+</div>
+
+With m = 1:
+
+<div class="equation">
+$$\sin \theta = \frac{\lambda}{D} = \frac{410 \times 10^{-9} \text{ m}}{2.00 \times 10^{-6} \text{ m}} = 0.205$$
+</div>
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.205) = 11.8°$$
+</div>
+
+**(b) For red light (λ = 700 nm):**
+
+<div class="equation">
+$$\sin \theta = \frac{\lambda}{D} = \frac{700 \times 10^{-9} \text{ m}}{2.00 \times 10^{-6} \text{ m}} = 0.350$$
+</div>
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.350) = 20.5°$$
+</div>
+
+**Discussion**
+
+The first minimum for red light (20.5°) occurs at a larger angle than for violet light (11.8°), which makes sense because red light has a longer wavelength. This illustrates the wavelength dependence of diffraction: longer wavelengths diffract more. The central maximum for red light is therefore wider than for violet light. This is why when white light passes through a single slit, the central maximum appears white but has reddish edges (red diffracts farther) and bluish/violet closer to the center.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -187,6 +229,50 @@ As the width of the slit producing a single-slit diffraction pattern is reduced,
  for 600-nm light? (b) Find the wavelength of light that has its first minimum at  $$ 62.0º $$.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), we use $$D \sin \theta = m\lambda$$ with m = 1 to solve for D. For part (b), we use the same slit width D and solve for λ at the new angle.
+
+**Solution**
+
+**(a) Slit width for 600-nm light at 60.0°:**
+
+Given:
+- $$\lambda = 600 \text{ nm} = 600 \times 10^{-9} \text{ m}$$
+- $$\theta = 60.0°$$
+- $$m = 1$$ (first minimum)
+
+Using $$D \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$D = \frac{m\lambda}{\sin \theta} = \frac{(1)(600 \times 10^{-9} \text{ m})}{\sin 60.0°}$$
+</div>
+
+<div class="equation">
+$$D = \frac{600 \times 10^{-9}}{0.8660} = 6.93 \times 10^{-7} \text{ m} = 693 \text{ nm}$$
+</div>
+
+**(b) Wavelength with first minimum at 62.0°:**
+
+Using the same slit width:
+
+<div class="equation">
+$$\lambda = D \sin \theta = (6.93 \times 10^{-7} \text{ m}) \sin 62.0°$$
+</div>
+
+<div class="equation">
+$$\lambda = (6.93 \times 10^{-7})(0.8829) = 6.12 \times 10^{-7} \text{ m} = 612 \text{ nm}$$
+</div>
+
+**Discussion**
+
+The slit width of 693 nm is remarkably small - just slightly larger than the wavelength of the light itself. When D ≈ λ, the diffraction pattern is very spread out, with the first minimum at 60°. This creates a very wide central maximum spanning 120° total (60° on each side).
+
+For part (b), the slightly larger angle (62.0° vs 60.0°) corresponds to a slightly longer wavelength (612 nm vs 600 nm), which makes physical sense. Both wavelengths are in the orange-red portion of the visible spectrum. This problem demonstrates that when the slit width is comparable to the wavelength, single-slit diffraction effects are very pronounced.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -205,6 +291,42 @@ Find the wavelength of light that has its third minimum at an angle of  $$ 48.6�
 <div class="problem" markdown="1">
 Calculate the wavelength of light that produces its first minimum at an angle of  $$ 36.9º $$
  when falling on a single slit of width  $$ 1.00 \text{μm} $$.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For the first minimum of a single slit, we use $$D \sin \theta = m\lambda$$ with m = 1 and solve for the wavelength λ.
+
+**Solution**
+
+Given:
+- $$D = 1.00 \text{ μm} = 1.00 \times 10^{-6} \text{ m}$$
+- $$\theta = 36.9°$$
+- $$m = 1$$ (first minimum)
+
+Using the single-slit diffraction equation:
+
+<div class="equation">
+$$D \sin \theta = m\lambda$$
+</div>
+
+Solving for λ:
+
+<div class="equation">
+$$\lambda = \frac{D \sin \theta}{m} = \frac{(1.00 \times 10^{-6} \text{ m}) \sin 36.9°}{1}$$
+</div>
+
+<div class="equation">
+$$\lambda = (1.00 \times 10^{-6})(0.6000) = 6.00 \times 10^{-7} \text{ m} = 600 \text{ nm}$$
+</div>
+
+**Discussion**
+
+The wavelength of 600 nm corresponds to orange light, which is in the visible spectrum. The angle of 36.9° is relatively large for a first minimum, indicating that the slit width (1.00 μm) is not much larger than the wavelength. Specifically, D/λ = 1.00 μm / 600 nm ≈ 1.67, meaning the slit is less than twice the wavelength.
+
+This problem nicely demonstrates that sin(36.9°) = 0.6 = 3/5, which comes from a 3-4-5 right triangle, a common value that appears in physics problems. The result is reasonable because it falls within the visible light range (380-760 nm).
 
 </div>
 </div>
@@ -230,6 +352,60 @@ Calculate the wavelength of light that produces its first minimum at an angle of
 in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1)
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Following the Problem-Solving Strategies for Wave Optics:
+
+**Step 1:** This is a single slit diffraction problem.
+**Step 2:** We use the single-slit equation $$D \sin \theta = m\lambda$$ for minima.
+**Step 3:** We need to find (a) the angle θ for the third minimum, and (b) the slit width D that places this minimum at 85.0°.
+**Step 4:** Given: λ = 633 nm, D = 20.0 μm for part (a); θ = 85.0° for part (b).
+**Step 5:** For part (a), solve for θ. For part (b), solve for D.
+
+**Solution**
+
+**(a) Angle of third minimum:**
+
+Given:
+- $$\lambda = 633 \text{ nm} = 633 \times 10^{-9} \text{ m}$$
+- $$D = 20.0 \text{ μm} = 20.0 \times 10^{-6} \text{ m}$$
+- $$m = 3$$ (third minimum)
+
+Using $$D \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{D} = \frac{3 \times 633 \times 10^{-9} \text{ m}}{20.0 \times 10^{-6} \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta = \frac{1899 \times 10^{-9}}{20.0 \times 10^{-6}} = 0.09495$$
+</div>
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.09495) = 5.45°$$
+</div>
+
+**(b) Slit width for third minimum at 85.0°:**
+
+<div class="equation">
+$$D = \frac{m\lambda}{\sin \theta} = \frac{3 \times 633 \times 10^{-9} \text{ m}}{\sin 85.0°}$$
+</div>
+
+<div class="equation">
+$$D = \frac{1899 \times 10^{-9}}{0.9962} = 1.91 \times 10^{-6} \text{ m} = 1.91 \text{ μm}$$
+</div>
+
+**Step 6:** Check reasonableness: For (a), the small angle makes sense because D >> λ. For (b), the smaller slit width creates more spreading.
+
+**Discussion**
+
+The third minimum at only 5.45° for a 20.0-μm slit indicates that D is much larger than λ (about 32 times). This produces a tight, narrow diffraction pattern with many observable minima.
+
+For part (b), placing the third minimum at 85.0° (near grazing angle) requires a much smaller slit (1.91 μm), comparable to the wavelength. This demonstrates that smaller slits produce more spreading. The ratio D/λ changes from 31.6 in part (a) to only 3.0 in part (b), showing how dramatically the pattern spreads when the slit width decreases.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -250,9 +426,71 @@ magnifying glass it is quite easily measurable.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the minimum width of a single slit (in multiples of  $$\lambda  $$ ) 
+(a) What is the minimum width of a single slit (in multiples of  $$\lambda  $$ )
 that will produce a first minimum for a wavelength  $$\lambda  $$ ?
  (b) What is its minimum width if it produces 50 minima? (c) 1000 minima?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+To produce minima, we need $$D \sin \theta = m\lambda$$. The minimum slit width occurs when the highest-order minimum appears at θ = 90° (where $$\sin \theta = 1$$).
+
+**Solution**
+
+**(a) Minimum width for a first minimum:**
+
+For the first minimum (m = 1), it must be observable at some angle $$\theta < 90°$$. The absolute minimum occurs when it appears exactly at θ = 90°:
+
+<div class="equation">
+$$D \sin 90° = 1 \times \lambda$$
+</div>
+
+<div class="equation">
+$$D_{\text{min}} = \lambda$$
+</div>
+
+So the minimum width is **1λ** (one wavelength).
+
+**(b) Minimum width for 50 minima:**
+
+If there are 50 minima on one side of the central maximum, the 50th minimum must appear at or before θ = 90°:
+
+<div class="equation">
+$$D \sin 90° = 50\lambda$$
+</div>
+
+<div class="equation">
+$$D_{\text{min}} = 50\lambda$$
+</div>
+
+The minimum width is **50λ**.
+
+**(c) Minimum width for 1000 minima:**
+
+Similarly, for 1000 minima:
+
+<div class="equation">
+$$D \sin 90° = 1000\lambda$$
+</div>
+
+<div class="equation">
+$$D_{\text{min}} = 1000\lambda$$
+</div>
+
+The minimum width is **1000λ**.
+
+**Discussion**
+
+These results reveal an important principle: the maximum number of observable minima equals D/λ (when rounded down to the nearest integer). For example:
+- If D = λ, you can have at most 1 minimum (barely observable at 90°)
+- If D = 50λ, you can have at most 50 minima
+- If D = 1000λ, you can have at most 1000 minima
+
+This makes physical sense: wider slits (in units of wavelength) produce more closely-spaced minima and can fit more of them before reaching the 90° limit.
+
+For visible light (λ ≈ 500 nm), a slit width of 1000λ = 0.5 mm would produce 1000 minima on each side, for 2000 minima total (plus the central maximum), creating an extremely dense pattern. In practice, these higher-order minima become very faint and difficult to observe.
 
 </div>
 </div>
@@ -308,6 +546,50 @@ perpendicular to the opening in the door, a jet engine makes a 600-Hz sound. At
 what angle with the door will the technician observe the first minimum in sound
 intensity if the vertical opening is 0.800 m wide and the speed of sound is 340
 m/s?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is a single-slit diffraction problem for sound waves. First, we find the wavelength of sound using $$v = f\lambda$$. Then we use the single-slit equation $$D \sin \theta = m\lambda$$ with m = 1 for the first minimum.
+
+**Solution**
+
+**Step 1: Find the wavelength of sound**
+
+Given:
+- $$f = 600 \text{ Hz}$$
+- $$v = 340 \text{ m/s}$$
+
+<div class="equation">
+$$\lambda = \frac{v}{f} = \frac{340 \text{ m/s}}{600 \text{ Hz}} = 0.567 \text{ m}$$
+</div>
+
+**Step 2: Find the angle of the first minimum**
+
+Given:
+- $$D = 0.800 \text{ m}$$ (door width)
+- $$m = 1$$ (first minimum)
+- $$\lambda = 0.567 \text{ m}$$
+
+Using $$D \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{D} = \frac{(1)(0.567 \text{ m})}{0.800 \text{ m}} = 0.709$$
+</div>
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.709) = 45.1°$$
+</div>
+
+**Discussion**
+
+The first minimum occurs at 45.1° from the perpendicular to the door. This relatively large angle demonstrates that sound diffracts significantly around the opening because the wavelength (0.567 m) is comparable to the door width (0.800 m). The ratio D/λ = 0.800/0.567 ≈ 1.41, which is small, so diffraction effects are pronounced.
+
+This explains why the technician can hear the jet engine even when not directly in line with the door opening - sound bends around the edges of the door. In contrast, if this were light (λ ≈ 500 nm), the ratio D/λ would be about 1.6 million, producing an essentially sharp-edged shadow with the first minimum at an extremely small angle.
+
+This problem beautifully illustrates why sound "bends around corners" while light appears to travel in straight lines - it's all about the ratio of wavelength to obstacle size.
 
 </div>
 </div>

@@ -252,6 +252,46 @@ A diffraction grating has 2000 lines per centimeter. At what angle will the firs
 Find the angle for the third-order maximum for 580-nm-wavelength yellow light falling on a diffraction grating having 1500 lines per centimeter.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a diffraction grating, we use $$d \sin \theta = m\lambda$$ where d is the distance between lines. First, find d from the line density, then solve for θ with m = 3.
+
+**Solution**
+
+Given:
+- $$\lambda = 580 \text{ nm} = 580 \times 10^{-9} \text{ m}$$
+- Line density = 1500 lines/cm
+- $$m = 3$$ (third-order maximum)
+
+**Step 1: Find the distance between lines**
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{1500 \text{ lines}} = \frac{0.01 \text{ m}}{1500} = 6.67 \times 10^{-6} \text{ m}$$
+</div>
+
+**Step 2: Find the angle**
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{d} = \frac{3 \times 580 \times 10^{-9} \text{ m}}{6.67 \times 10^{-6} \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta = \frac{1740 \times 10^{-9}}{6.67 \times 10^{-6}} = 0.261$$
+</div>
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.261) = 15.1°$$
+</div>
+
+**Discussion**
+
+The third-order maximum appears at 15.1°. With a grating spacing of 6.67 μm (about 11.5 wavelengths), this grating can produce several orders of maxima. We can check: the maximum order would be m_max = d/λ = 6.67/0.580 ≈ 11.5, so up to 11 orders are theoretically possible (though higher orders become very dim and widely separated).
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -267,6 +307,38 @@ How many lines per centimeter are there on a diffraction grating that gives a fi
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the distance between lines on a diffraction grating that produces a second-order maximum for 760-nm red light at an angle of  $$ 60.0º $$ ?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ with m = 2 (second-order) to solve for the line spacing d.
+
+**Solution**
+
+Given:
+- $$\lambda = 760 \text{ nm} = 760 \times 10^{-9} \text{ m}$$
+- $$\theta = 60.0°$$
+- $$m = 2$$ (second-order maximum)
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$d = \frac{m\lambda}{\sin \theta} = \frac{2 \times 760 \times 10^{-9} \text{ m}}{\sin 60.0°}$$
+</div>
+
+<div class="equation">
+$$d = \frac{1520 \times 10^{-9}}{0.8660} = 1.76 \times 10^{-6} \text{ m} = 1.76 \text{ μm}$$
+</div>
+
+**Discussion**
+
+The line spacing of 1.76 μm is very small - just over twice the wavelength of red light. This close spacing is necessary to produce the second-order maximum at the relatively large angle of 60°.
+
+We can verify this makes sense: if the second-order maximum is at 60°, the first-order would be at θ₁ where sin θ₁ = (1)(760)/(1.76 × 10³) = 0.432, giving θ₁ = 25.6°. This seems reasonable.
+
+For this grating, the maximum order observable would be: m_max = d/λ = 1.76/0.76 ≈ 2.3, so only second-order maxima (and possibly a dim third-order) would be observable before reaching 90°.
 
 </div>
 </div>
@@ -289,8 +361,63 @@ An electric current through hydrogen gas produces several distinct wavelengths o
   $$ 25.7º $$ ,
   $$ 29.1º $$ ,
  and  $$ 41.0º $$
- when projected on a diffraction grating having 10 000 lines per centimeter? Explicitly show how you follow the steps 
+ when projected on a diffraction grating having 10 000 lines per centimeter? Explicitly show how you follow the steps
 in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterference#Note1)
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Following the Problem-Solving Strategies for Wave Optics:
+
+**Step 1:** This involves a diffraction grating.
+**Step 2:** We use $$d \sin \theta = m\lambda$$ for constructive interference.
+**Step 3:** We need to find the wavelengths λ for each angle.
+**Step 4:** Given: 10,000 lines/cm, m = 1, four angles.
+**Step 5:** First find d, then solve $$\lambda = d \sin \theta / m$$ for each angle.
+
+**Solution**
+
+**Find the grating spacing:**
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{10,000 \text{ lines}} = \frac{0.01 \text{ m}}{10,000} = 1.00 \times 10^{-6} \text{ m}$$
+</div>
+
+**For each angle, calculate λ using** $$\lambda = \frac{d \sin \theta}{m}$$ with m = 1:
+
+**Angle 1: θ = 24.2°**
+<div class="equation">
+$$\lambda_1 = d \sin \theta = (1.00 \times 10^{-6}) \sin 24.2° = (1.00 \times 10^{-6})(0.4101) = 410 \text{ nm (violet)}$$
+</div>
+
+**Angle 2: θ = 25.7°**
+<div class="equation">
+$$\lambda_2 = (1.00 \times 10^{-6}) \sin 25.7° = (1.00 \times 10^{-6})(0.4337) = 434 \text{ nm (violet-blue)}$$
+</div>
+
+**Angle 3: θ = 29.1°**
+<div class="equation">
+$$\lambda_3 = (1.00 \times 10^{-6}) \sin 29.1° = (1.00 \times 10^{-6})(0.4861) = 486 \text{ nm (blue-green)}$$
+</div>
+
+**Angle 4: θ = 41.0°**
+<div class="equation">
+$$\lambda_4 = (1.00 \times 10^{-6}) \sin 41.0° = (1.00 \times 10^{-6})(0.6561) = 656 \text{ nm (red)}$$
+</div>
+
+**Step 6:** All results are in the visible range (380-760 nm), which is reasonable for hydrogen emission lines.
+
+**Discussion**
+
+These wavelengths correspond to prominent lines in the hydrogen Balmer series:
+- **410 nm** (H-delta): violet
+- **434 nm** (H-gamma): violet-blue
+- **486 nm** (H-beta): blue-green
+- **656 nm** (H-alpha): red
+
+The H-alpha line at 656 nm is the brightest and most famous line in the visible hydrogen spectrum. These emission lines result from electrons transitioning from higher energy levels (n = 3, 4, 5, 6) down to n = 2. This spectral "fingerprint" is characteristic of hydrogen and is observed in stars, nebulae, and laboratory hydrogen discharge tubes. The precision of diffraction gratings makes them invaluable tools for spectroscopy and identifying elements.
 
 </div>
 </div>
@@ -311,6 +438,43 @@ in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterfer
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 What is the maximum number of lines per centimeter a diffraction grating can have and produce a complete first-order spectrum for visible light?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a complete first-order spectrum, both the shortest (violet, ~380 nm) and longest (red, ~760 nm) wavelengths of visible light must have first-order maxima at angles less than 90°. The limiting condition is for the longest wavelength (red) at θ = 90°.
+
+**Solution**
+
+For the complete visible spectrum to be observable in first order, the red end (longest wavelength) must appear before 90°. Using $$d \sin \theta = m\lambda$$ with m = 1 and $$\theta = 90°$$ (where $$\sin 90° = 1$$):
+
+<div class="equation">
+$$d = m\lambda_{\text{max}} = (1)(760 \text{ nm}) = 760 \text{ nm} = 7.60 \times 10^{-7} \text{ m}$$
+</div>
+
+This is the **minimum** spacing needed. The maximum number of lines per centimeter is:
+
+<div class="equation">
+$$N = \frac{1 \text{ cm}}{d} = \frac{0.01 \text{ m}}{7.60 \times 10^{-7} \text{ m}} = 13,158 \text{ lines/cm}$$
+</div>
+
+Rounding to appropriate significant figures:
+
+<div class="equation">
+$$N_{\text{max}} \approx 13,200 \text{ lines/cm}$$
+</div>
+
+**Discussion**
+
+If the grating had more than ~13,200 lines/cm, the line spacing would be smaller than 760 nm, and the first-order maximum for red light would require $$\sin \theta > 1$$, which is impossible. The red end of the spectrum would not be observable in first order.
+
+Let's verify: with d = 760 nm:
+- **Red (760 nm):** sin θ = (1)(760)/760 = 1.00 → θ = 90° (just barely observable)
+- **Violet (380 nm):** sin θ = (1)(380)/760 = 0.50 → θ = 30° (easily observable)
+
+This grating would spread the complete visible spectrum from 30° to 90° in first order. Commercial gratings often have fewer lines/cm (~5000-10,000) to ensure good visibility of the complete spectrum at more convenient angles.
 
 </div>
 </div>
@@ -334,6 +498,38 @@ What is the spacing between structures in a feather that acts as a reflection gr
  angle?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For a reflection grating, we use the same equation as for a transmission grating: $$d \sin \theta = m\lambda$$. We solve for d with m = 1.
+
+**Solution**
+
+Given:
+- $$\lambda = 525 \text{ nm} = 525 \times 10^{-9} \text{ m}$$
+- $$\theta = 30.0°$$
+- $$m = 1$$ (first-order maximum)
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(525 \times 10^{-9} \text{ m})}{\sin 30.0°}$$
+</div>
+
+<div class="equation">
+$$d = \frac{525 \times 10^{-9}}{0.500} = 1.05 \times 10^{-6} \text{ m} = 1.05 \text{ μm}$$
+</div>
+
+**Discussion**
+
+The spacing of 1.05 μm (1050 nm) is about twice the wavelength of the green light being diffracted. This is typical for structural coloration in bird feathers and insect wings.
+
+The iridescent colors in peacock feathers, hummingbird feathers, and butterfly wings are produced by such natural diffraction gratings. The spacing is created by regular arrangements of microscopic structures like barbules (in feathers) or scales (in butterfly wings). The color changes with viewing angle because different angles produce constructive interference for different wavelengths according to $$d \sin \theta = m\lambda$$.
+
+This biological "engineering" produces brilliant colors without pigments - the colors are purely structural and result from wave interference. These colors often don't fade over time like pigment-based colors do, which is why museum specimens of iridescent birds and butterflies remain colorful for centuries.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -350,6 +546,47 @@ Structures on a bird feather act like a reflection grating having 8000 lines per
 <div class="problem" markdown="1">
 An opal such as that shown in [[Figure 2]](#Figure2) acts like a reflection grating with rows separated by about  $$8 \text{μm} $$ .
  If the opal is illuminated normally, (a) at what angle will red light be seen and (b) at what angle will blue light be seen?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ for the first-order maximum (m = 1) with d = 8 μm. Use λ ≈ 700 nm for red and λ ≈ 450 nm for blue.
+
+**Solution**
+
+Given:
+- $$d = 8 \text{ μm} = 8 \times 10^{-6} \text{ m}$$
+- $$m = 1$$ (first-order, typically the brightest)
+
+**(a) Red light (λ ≈ 700 nm):**
+
+<div class="equation">
+$$\sin \theta_{\text{red}} = \frac{m\lambda}{d} = \frac{(1)(700 \times 10^{-9} \text{ m})}{8 \times 10^{-6} \text{ m}} = 0.0875$$
+</div>
+
+<div class="equation">
+$$\theta_{\text{red}} = \sin^{-1}(0.0875) = 5.0°$$
+</div>
+
+**(b) Blue light (λ ≈ 450 nm):**
+
+<div class="equation">
+$$\sin \theta_{\text{blue}} = \frac{(1)(450 \times 10^{-9} \text{ m})}{8 \times 10^{-6} \text{ m}} = 0.0563$$
+</div>
+
+<div class="equation">
+$$\theta_{\text{blue}} = \sin^{-1}(0.0563) = 3.2°$$
+</div>
+
+**Discussion**
+
+The diffraction angles are quite small (3.2° for blue, 5.0° for red) because the grating spacing (8 μm) is much larger than the wavelengths of visible light. Red light appears at a larger angle than blue light, which is why when you rotate an opal, you see different colors from different angles - this is the source of opal's famous "play of color" or iridescence.
+
+The complete visible spectrum would spread from about 3° (violet) to 5° (red). Higher orders (m = 2, 3, etc.) would appear at larger angles but with decreasing intensity. The maximum order possible is m_max = d/λ_max ≈ 8000/700 ≈ 11, so many orders are theoretically possible, though in practice only the first few are bright enough to see.
+
+Opals contain tiny silica spheres arranged in regular patterns, creating these natural diffraction gratings. The spacing of 8 μm is roughly 10-20 wavelengths of visible light, perfect for producing brilliant iridescent colors.
 
 </div>
 </div>
@@ -369,6 +606,59 @@ At what angle does a diffraction grating produces a second-order maximum for lig
 Show that a diffraction grating cannot produce a second-order maximum for a given wavelength of light unless the first-order maximum is at an angle less than  $$ 30.0º $$.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We use $$d \sin \theta = m\lambda$$ for both first and second orders. For the second-order to exist, it must occur at θ < 90°.
+
+**Solution**
+
+For the **first-order maximum** (m = 1):
+<div class="equation">
+$$d \sin \theta_1 = \lambda$$
+</div>
+
+For the **second-order maximum** (m = 2) to be observable, it must occur at some angle θ₂ < 90°. At the limiting case where θ₂ = 90°:
+
+<div class="equation">
+$$d \sin \theta_2 = 2\lambda$$
+</div>
+
+With $$\sin \theta_2 = \sin 90° = 1$$:
+
+<div class="equation">
+$$d = 2\lambda$$
+</div>
+
+Now substitute this back into the first-order equation:
+
+<div class="equation">
+$$2\lambda \sin \theta_1 = \lambda$$
+</div>
+
+<div class="equation">
+$$\sin \theta_1 = \frac{1}{2} = 0.500$$
+</div>
+
+<div class="equation">
+$$\theta_1 = \sin^{-1}(0.500) = 30.0°$$
+</div>
+
+**Therefore:** If θ₁ = 30.0°, the second-order maximum just barely appears at θ₂ = 90°. If θ₁ > 30.0°, then d < 2λ, which would require $$\sin \theta_2 > 1$$ for the second-order maximum - which is impossible.
+
+**Conclusion:** A second-order maximum can only exist if the first-order maximum appears at θ₁ < 30.0°. **Q.E.D.**
+
+**Discussion**
+
+This result has important practical implications for diffraction grating design. If you observe that a first-order maximum appears at an angle greater than 30°, you immediately know that:
+1. No second-order maximum exists for that wavelength
+2. The grating spacing is less than twice the wavelength (d < 2λ)
+3. At most, only first-order maxima will be observable (plus the zero-order central maximum)
+
+For example, if violet light (380 nm) produces its first maximum at 35°, the grating spacing is only about 600 nm, and no higher orders can be observed for visible light.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -385,6 +675,67 @@ If a diffraction grating produces a first-order maximum for the shortest wavelen
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Find the maximum number of lines per centimeter a diffraction grating can have and produce a maximum for the smallest wavelength of visible light. (b) Would such a grating be useful for ultraviolet spectra? (c) For infrared spectra?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+For part (a), the smallest visible wavelength (violet, ~380 nm) must produce at least a first-order maximum before θ = 90°. For parts (b) and (c), we check if UV and IR wavelengths can produce maxima with this grating spacing.
+
+**Solution**
+
+**(a) Maximum lines per centimeter:**
+
+The smallest visible wavelength is approximately λ = 380 nm (violet). For a first-order maximum to just barely exist at θ = 90°:
+
+<div class="equation">
+$$d \sin 90° = (1)\lambda$$
+</div>
+
+<div class="equation">
+$$d = \lambda = 380 \text{ nm} = 3.80 \times 10^{-7} \text{ m}$$
+</div>
+
+Maximum number of lines per centimeter:
+
+<div class="equation">
+$$N_{\text{max}} = \frac{1 \text{ cm}}{d} = \frac{0.01 \text{ m}}{3.80 \times 10^{-7} \text{ m}} = 26,316 \text{ lines/cm}$$
+</div>
+
+Rounding: **N ≈ 26,300 lines/cm**
+
+**(b) Useful for ultraviolet spectra?**
+
+UV wavelengths are shorter than visible light (λ < 380 nm). For example, UV-A is around 315-380 nm.
+
+Since d = 380 nm and λ_UV < 380 nm, we have d > λ_UV, so:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda_{\text{UV}}}{d} < \frac{m \times 380}{380} = m$$
+</div>
+
+For first order (m = 1), sin θ < 1, so maxima will exist for UV light.
+
+**Yes, this grating would be useful for UV spectra.** In fact, UV wavelengths would produce maxima at smaller angles than violet light, making them easier to observe.
+
+**(c) Useful for infrared spectra?**
+
+IR wavelengths are longer than visible light. For example, near-IR is around 760 nm - 2500 nm.
+
+For λ_IR = 760 nm with d = 380 nm:
+
+<div class="equation">
+$$\sin \theta_1 = \frac{(1)(760 \text{ nm})}{380 \text{ nm}} = 2$$
+</div>
+
+Since sin θ cannot exceed 1, **no first-order maximum exists** for 760 nm IR light.
+
+**No, this grating would NOT be useful for infrared spectra** because d < λ for all IR wavelengths, making it impossible to produce even first-order maxima.
+
+**Discussion**
+
+This problem illustrates an important principle: gratings with very fine spacing (high line density) are excellent for short wavelengths (UV, violet) but useless for long wavelengths (IR, red). The ideal grating depends on the wavelength range of interest. For IR spectroscopy, gratings with much wider spacing (fewer lines/cm) are needed.
 
 </div>
 </div>
@@ -407,6 +758,58 @@ If a diffraction grating produces a first-order maximum for the shortest wavelen
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 A He–Ne laser beam is reflected from the surface of a CD onto a wall. The brightest spot is the reflected beam at an angle equal to the angle of incidence. However, fringes are also observed. If the wall is 1.50 m from the CD, and the first fringe is 0.600 m from the central maximum, what is the spacing of grooves on the CD?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The CD acts as a reflection grating. We use $$d \sin \theta = m\lambda$$ with m = 1 for the first fringe. First, find the angle θ from the geometry, then solve for d. He-Ne laser wavelength is 633 nm.
+
+**Solution**
+
+Given:
+- Distance to wall: L = 1.50 m
+- Position of first fringe: y = 0.600 m
+- λ = 633 nm (He-Ne laser)
+- m = 1 (first-order maximum)
+
+**Step 1: Find the angle**
+
+From geometry:
+
+<div class="equation">
+$$\tan \theta = \frac{y}{L} = \frac{0.600 \text{ m}}{1.50 \text{ m}} = 0.400$$
+</div>
+
+<div class="equation">
+$$\theta = \tan^{-1}(0.400) = 21.8°$$
+</div>
+
+<div class="equation">
+$$\sin \theta = \sin 21.8° = 0.371$$
+</div>
+
+**Step 2: Find the groove spacing**
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(633 \times 10^{-9} \text{ m})}{0.371}$$
+</div>
+
+<div class="equation">
+$$d = 1.71 \times 10^{-6} \text{ m} = 1.71 \text{ μm}$$
+</div>
+
+**Discussion**
+
+The groove spacing of 1.71 μm is typical for CDs. The actual standard spacing for CDs is 1.6 μm (corresponding to about 625 grooves per mm). Our calculated value of 1.71 μm is quite close, with the small difference possibly due to:
+- Measurement uncertainties in the fringe position
+- The angle of incidence affecting the effective spacing
+- Rounding in the given measurements
+
+This demonstrates how CDs can be used as inexpensive diffraction gratings for educational demonstrations. The regular spacing of pits and lands on a CD creates a periodic structure that diffracts laser light, producing the colorful iridescent patterns you see when white light reflects from a CD surface.
 
 </div>
 </div>
@@ -433,6 +836,54 @@ Red light of wavelength of 700 nm falls on a double slit separated by 400 nm. (
 a) At what angle is the first-order maximum in the diffraction pattern? (b) What
 is unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$d \sin \theta = m\lambda$$ for double-slit interference with m = 1. Examine whether the result is physically possible.
+
+**Solution**
+
+**(a) Angle for first-order maximum:**
+
+Given:
+- $$\lambda = 700 \text{ nm} = 700 \times 10^{-9} \text{ m}$$
+- $$d = 400 \text{ nm} = 400 \times 10^{-9} \text{ m}$$
+- $$m = 1$$
+
+Using $$d \sin \theta = m\lambda$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{d} = \frac{(1)(700 \text{ nm})}{400 \text{ nm}} = 1.75$$
+</div>
+
+This requires $$\theta = \sin^{-1}(1.75)$$, which is **undefined** (no solution exists).
+
+**(b) What is unreasonable about this result?**
+
+The sine function can only have values between -1 and +1 for real angles. A value of sin θ = 1.75 is **impossible** - there is no real angle whose sine equals 1.75. This means no first-order maximum can exist for this configuration.
+
+**(c) Which assumptions are unreasonable or inconsistent?**
+
+The unreasonable assumption is that a **slit separation of 400 nm can produce an interference pattern for 700-nm light**.
+
+For a double-slit interference pattern to show at least one maximum (besides the central maximum), we need:
+
+<div class="equation">
+$$d \geq \lambda$$
+</div>
+
+In this problem, d = 400 nm < λ = 700 nm. When the slit separation is smaller than the wavelength, no off-axis maxima can occur. The only observable feature would be the central maximum (m = 0), which exists for all wavelengths.
+
+**The inconsistency** is assuming that red light (700 nm) with a relatively long wavelength can create a normal double-slit pattern with slits separated by only 400 nm.  Either:
+- The wavelength should be shorter (≤ 400 nm, like UV or violet light), OR
+- The slit separation should be larger (≥ 700 nm)
+
+**Discussion**
+
+This problem illustrates an important physical limitation: you cannot create interference patterns of a certain order if the wavelength exceeds the slit separation. In practical terms, attempting this experiment would result in only seeing a broad central diffraction maximum with no side fringes - essentially no interference pattern. This is why diffraction gratings and double-slit apparatus must have appropriate spacing for the wavelength being studied.
 
 </div>
 </div>
