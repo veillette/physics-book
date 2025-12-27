@@ -283,6 +283,43 @@ Why don’t we feel the momentum of sunlight when we are on the beach?
 (a) What is the momentum of a 0.0100-nm-wavelength photon that could detect details of an atom? (b) What is its energy in MeV?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$p = \frac{h}{\lambda}$$ to find the photon momentum. (b) Use $$E = pc$$ for a photon to find the energy, then convert to MeV.
+
+**Solution for (a)**
+
+The photon momentum is:
+
+<div class="equation">
+ $$p = \frac{h}{\lambda} = \frac{6.63 \times 10^{-34} \text{ J·s}}{0.0100 \times 10^{-9} \text{ m}} = 6.63 \times 10^{-23} \text{ kg·m/s}$$
+</div>
+
+**Solution for (b)**
+
+The photon energy is:
+
+<div class="equation">
+ $$E = pc = (6.63 \times 10^{-23} \text{ kg·m/s})(3.00 \times 10^{8} \text{ m/s}) = 1.99 \times 10^{-14} \text{ J}$$
+</div>
+
+Converting to MeV:
+
+<div class="equation">
+ $$E = \frac{1.99 \times 10^{-14} \text{ J}}{1.60 \times 10^{-13} \text{ J/MeV}} = 0.124 \text{ MeV} = 124 \text{ keV}$$
+</div>
+
+**Discussion**
+
+This 0.0100-nm photon is in the X-ray range with energy of 124 keV. Such photons can indeed probe atomic structure because their wavelength (0.01 nm) is comparable to atomic sizes (roughly 0.1 nm). The relatively large momentum (compared to visible light photons) means these X-ray photons can significantly disturb atomic electrons when they interact, which is why X-rays can ionize atoms and damage biological tissue.
+
+(a)  $$ 6.63 \times 10^{-23} \text{ kg·m/s}$$
+
+(b) 0.124 MeV or 124 keV
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -304,6 +341,43 @@ Why don’t we feel the momentum of sunlight when we are on the beach?
 (a) A  $$\gamma  $$
 -ray photon has a momentum of  $$ 8.00 \times 10^{-21}  \text{kg}\cdot \text{m/s} $$ .
  What is its wavelength? (b) Calculate its energy in MeV.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$\lambda = \frac{h}{p}$$ to find the wavelength. (b) Use $$E = pc$$ to find the energy and convert to MeV.
+
+**Solution for (a)**
+
+The wavelength is:
+
+<div class="equation">
+ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \text{ J·s}}{8.00 \times 10^{-21} \text{ kg·m/s}} = 8.29 \times 10^{-14} \text{ m} = 0.0829 \text{ pm}$$
+</div>
+
+**Solution for (b)**
+
+The energy is:
+
+<div class="equation">
+ $$E = pc = (8.00 \times 10^{-21} \text{ kg·m/s})(3.00 \times 10^{8} \text{ m/s}) = 2.40 \times 10^{-12} \text{ J}$$
+</div>
+
+Converting to MeV:
+
+<div class="equation">
+ $$E = \frac{2.40 \times 10^{-12} \text{ J}}{1.60 \times 10^{-13} \text{ J/MeV}} = 15.0 \text{ MeV}$$
+</div>
+
+**Discussion**
+
+This is a high-energy gamma-ray photon with energy of 15.0 MeV and wavelength of only 0.0829 picometers—about 1000 times smaller than an atom. Such energetic photons are produced in nuclear reactions and radioactive decay. The extremely short wavelength allows these photons to probe nuclear structure, while the high energy means they can penetrate significant amounts of matter and cause substantial ionization, making them both useful for medical imaging and hazardous to living tissue.
+
+(a)  $$ 8.29 \times 10^{-14} \text{ m}$$ or 0.0829 pm
+
+(b) 15.0 MeV
 
 </div>
 </div>
@@ -329,6 +403,59 @@ Why don’t we feel the momentum of sunlight when we are on the beach?
 Repeat the previous problem for a 10.0-nm-wavelength photon.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+Follow the same procedure as the previous problem: (a) Calculate photon momentum using $$p = \frac{h}{\lambda}$$. (b) Find electron velocity from $$p = mv$$. (c) Calculate kinetic energies and compare.
+
+**Solution for (a)**
+
+Photon momentum:
+
+<div class="equation">
+ $$p = \frac{h}{\lambda} = \frac{6.63 \times 10^{-34} \text{ J·s}}{10.0 \times 10^{-9} \text{ m}} = 6.63 \times 10^{-26} \text{ kg·m/s}$$
+</div>
+
+**Solution for (b)**
+
+Electron velocity with same momentum:
+
+<div class="equation">
+ $$v = \frac{p}{m} = \frac{6.63 \times 10^{-26} \text{ kg·m/s}}{9.11 \times 10^{-31} \text{ kg}} = 7.28 \times 10^{4} \text{ m/s}$$
+</div>
+
+**Solution for (c)**
+
+Electron kinetic energy:
+
+<div class="equation">
+ $${\text{KE}}_e = \frac{1}{2}mv^2 = \frac{1}{2}(9.11 \times 10^{-31} \text{ kg})(7.28 \times 10^{4} \text{ m/s})^2 = 2.41 \times 10^{-21} \text{ J}$$
+</div>
+
+Photon energy:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{10.0 \text{ nm}} = 124 \text{ eV} = 1.99 \times 10^{-17} \text{ J}$$
+</div>
+
+Ratio:
+
+<div class="equation">
+ $$\frac{E_{\text{photon}}}{{\text{KE}}_e} = \frac{1.99 \times 10^{-17} \text{ J}}{2.41 \times 10^{-21} \text{ J}} = 8.26 \times 10^{3}$$
+</div>
+
+**Discussion**
+
+This 10-nm X-ray photon has momentum 250 times greater than the 2.50-μm IR photon from the previous problem. The electron with this momentum moves at 72.8 km/s (0.024% of light speed), which is still nonrelativistic. The photon energy exceeds the electron's kinetic energy by over 8000 times, demonstrating again that photons are far more energy-efficient momentum carriers than massive particles.
+
+(a)  $$ 6.63 \times 10^{-26} \text{ kg·m/s}$$
+
+(b)  $$ 7.28 \times 10^{4} \text{ m/s}$$
+
+(c) Electron: $$ 2.41 \times 10^{-21} \text{ J}$$, Photon: $$ 1.99 \times 10^{-17} \text{ J}$$, Ratio: $$ 8.26 \times 10^{3}$$
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -347,7 +474,54 @@ Repeat the previous problem for a 10.0-nm-wavelength photon.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Find the momentum of a 100-keV x-ray photon. (b) Find the equivalent velocity of a neutron with the same momentum. (c) What is the neutron’s kinetic energy in keV?
+(a) Find the momentum of a 100-keV x-ray photon. (b) Find the equivalent velocity of a neutron with the same momentum. (c) What is the neutron's kinetic energy in keV?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$p = \frac{E}{c}$$ for a photon. (b) Use $$p = mv$$ to find the neutron velocity. (c) Calculate the neutron's kinetic energy using $$\text{KE} = \frac{1}{2}mv^2$$.
+
+**Solution for (a)**
+
+Photon momentum:
+
+<div class="equation">
+ $$p = \frac{E}{c} = \frac{100 \times 10^{3} \text{ eV} \times 1.60 \times 10^{-19} \text{ J/eV}}{3.00 \times 10^{8} \text{ m/s}} = 5.33 \times 10^{-23} \text{ kg·m/s}$$
+</div>
+
+**Solution for (b)**
+
+Neutron velocity (mass = $$ 1.675 \times 10^{-27}$$ kg):
+
+<div class="equation">
+ $$v = \frac{p}{m} = \frac{5.33 \times 10^{-23} \text{ kg·m/s}}{1.675 \times 10^{-27} \text{ kg}} = 3.18 \times 10^{4} \text{ m/s}$$
+</div>
+
+**Solution for (c)**
+
+Neutron kinetic energy:
+
+<div class="equation">
+ $$\text{KE} = \frac{1}{2}mv^2 = \frac{1}{2}(1.675 \times 10^{-27} \text{ kg})(3.18 \times 10^{4} \text{ m/s})^2 = 8.47 \times 10^{-19} \text{ J}$$
+</div>
+
+Converting to keV:
+
+<div class="equation">
+ $$\text{KE} = \frac{8.47 \times 10^{-19} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 5.29 \text{ eV} = 0.00529 \text{ keV}$$
+</div>
+
+**Discussion**
+
+A 100-keV X-ray photon has the same momentum as a neutron moving at only 31.8 km/s, which is well below 1% of the speed of light (nonrelativistic). However, the neutron's kinetic energy is only about 5.3 eV—nearly 20,000 times less than the photon's energy! This dramatic difference illustrates that photons are extraordinarily efficient momentum carriers: they carry the same momentum as massive particles but with much more energy. This is because photon energy $$E = pc$$, while massive particle energy $$\text{KE} = \frac{p^2}{2m}$$.
+
+(a)  $$ 5.33 \times 10^{-23} \text{ kg·m/s}$$
+
+(b)  $$ 3.18 \times 10^{4} \text{ m/s}$$
+
+(c) 5.29 eV or 0.00529 keV
 
 </div>
 </div>
