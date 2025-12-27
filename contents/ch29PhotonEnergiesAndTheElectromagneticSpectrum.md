@@ -476,6 +476,29 @@ What is the energy in joules and eV of a photon in a radio wave from an AM stati
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$E = hf$$ to calculate the photon energy in joules, then convert to electron volts.
+
+**Solution**
+
+The photon energy is:
+
+<div class="equation">
+ $$E = hf = (6.63 \times 10^{-34} \text{ J·s})(1530 \times 10^{3} \text{ Hz}) = 1.01 \times 10^{-27} \text{ J}$$
+</div>
+
+Converting to eV:
+
+<div class="equation">
+ $$E = \frac{1.01 \times 10^{-27} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 6.31 \times 10^{-9} \text{ eV}$$
+</div>
+
+**Discussion**
+
+This extremely small energy (about 6 billionths of an eV) demonstrates why radio wave photons exhibit classical wave behavior—individual photon energies are far too small to detect. An AM radio station must emit an astronomical number of photons (typically $$10^{30}$$ or more per second) to transmit even modest power levels. This is why quantum effects are completely negligible for radio waves, and Maxwell's classical electromagnetic theory works perfectly.
+
  $$ 6.34 \times 10^{-9}  \text{eV} $$ ,
   $$ 1.01 \times 10^{-27}  \text{J} $$
 </div>
@@ -532,6 +555,29 @@ Calculate the frequency in hertz of a 1.00-MeV  $$\gamma  $$
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$E = hf$$ and solve for frequency. Convert the energy from MeV to joules first.
+
+**Solution**
+
+Convert energy to joules:
+
+<div class="equation">
+ $$E = 1.00 \text{ MeV} \times 10^{6} \text{ eV/MeV} \times 1.60 \times 10^{-19} \text{ J/eV} = 1.60 \times 10^{-13} \text{ J}$$
+</div>
+
+Calculate frequency using $$f = \frac{E}{h}$$:
+
+<div class="equation">
+ $$f = \frac{E}{h} = \frac{1.60 \times 10^{-13} \text{ J}}{6.63 \times 10^{-34} \text{ J·s}} = 2.41 \times 10^{20} \text{ Hz}$$
+</div>
+
+**Discussion**
+
+This extremely high frequency ($$2.4 \times 10^{20}$$ Hz) is characteristic of gamma rays—the most energetic form of electromagnetic radiation. Gamma rays with MeV energies are produced in nuclear reactions and radioactive decay. Their high energy makes them highly penetrating and dangerous to biological tissue, but also useful in medical applications like cancer treatment and sterilization.
+
  $$ 2.42 \times 10^{20}  \text{Hz} $$
 </div>
 </div>
@@ -636,6 +682,41 @@ Confirmed: visible light ranges from 1.63 eV (760 nm, red) to 3.26 eV (380 nm, v
 
 </div>
 <div class="solution"  markdown="1">
+
+**Strategy**
+
+(a) Use $$E = hf$$ with $$h = 4.14 \times 10^{-15} \text{ eV·s}$$. (b) Assume a tightly bound molecule requires ~10 eV to break apart. (c) Use $$E = hf$$ for the gamma ray. (d) Divide gamma ray energy by molecular binding energy.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$E_{\text{IR}} = hf = (4.14 \times 10^{-15} \text{ eV·s})(2.00 \times 10^{13} \text{ Hz}) = 0.0828 \text{ eV}$$
+</div>
+
+**Solution for (b)**
+
+A tightly bound molecule requires approximately 10 eV to break apart:
+
+<div class="equation">
+ $$N = \frac{10 \text{ eV}}{0.0828 \text{ eV}} = 121 \text{ photons}$$
+</div>
+
+**Solution for (c)**
+
+<div class="equation">
+ $$E_{\gamma} = hf = (4.14 \times 10^{-15} \text{ eV·s})(3.00 \times 10^{20} \text{ Hz}) = 1.24 \times 10^{6} \text{ eV} = 1.24 \text{ MeV}$$
+</div>
+
+**Solution for (d)**
+
+<div class="equation">
+ $$N = \frac{1.24 \times 10^{6} \text{ eV}}{10 \text{ eV}} = 1.24 \times 10^{5} \text{ molecules}$$
+</div>
+
+**Discussion**
+
+This problem dramatically illustrates the vast difference in energy between infrared photons and gamma rays. An IR photon carries only 0.083 eV—too weak to break even one molecular bond. It would require 121 IR photons absorbed simultaneously (an extremely unlikely event) to break one molecule apart. In contrast, a single 1.24-MeV gamma ray carries enough energy to destroy 124,000 molecules, highlighting why gamma radiation is so damaging to biological tissue and why it's effective for sterilization and cancer treatment.
+
 (a) 0.0829 eV
 
 (b) 121

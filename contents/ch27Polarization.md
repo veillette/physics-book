@@ -461,7 +461,35 @@ What angle is needed between the direction of polarized light and the axis of a 
 
 </div>
 <div class="solution" markdown="1">
- $$ 45.0º $$
+
+**Strategy**
+
+Use Malus's law: $$I = I_0 \cos^2 \theta$$. For the intensity to be cut in half, I = I₀/2.
+
+**Solution**
+
+Setting I = I₀/2:
+
+<div class="equation">
+$$\frac{I_0}{2} = I_0 \cos^2 \theta$$
+</div>
+
+<div class="equation">
+$$\cos^2 \theta = \frac{1}{2} = 0.500$$
+</div>
+
+<div class="equation">
+$$\cos \theta = \sqrt{0.500} = 0.7071$$
+</div>
+
+<div class="equation">
+$$\theta = \cos^{-1}(0.7071) = 45.0°$$
+</div>
+
+**Discussion**
+
+The 45° angle is exactly halfway between parallel (0°, maximum transmission) and perpendicular (90°, zero transmission). This symmetric position naturally corresponds to 50% transmission. This relationship is important in many optical applications, including variable neutral density filters and light intensity modulators where precise control over light intensity is needed.
+
 </div>
 </div>
 
@@ -502,11 +530,33 @@ This 50% reduction at 45° is a special case. At θ = 0° (parallel axes), no re
 <div class="problem" markdown="1">
 If you have completely polarized light of intensity  $$150 \text{W}/{\text{m}}^{2} $$ ,
  what will its intensity be after passing through a polarizing filter with its axis at an  $$ 89.0º $$
- angle to the light’s polarization direction?
+ angle to the light's polarization direction?
 
 </div>
 <div class="solution" markdown="1">
- $$ 45.7 {\text{mW/m}}^{2} $$
+
+**Strategy**
+
+Use Malus's law: $$I = I_0 \cos^2 \theta$$ with I₀ = 150 W/m² and θ = 89.0°.
+
+**Solution**
+
+<div class="equation">
+$$I = I_0 \cos^2 \theta = (150 \text{ W/m}^2) \cos^2 89.0°$$
+</div>
+
+<div class="equation">
+$$I = (150) (0.01746)^2 = (150)(3.048 \times 10^{-4})$$
+</div>
+
+<div class="equation">
+$$I = 0.0457 \text{ W/m}^2 = 45.7 \text{ mW/m}^2$$
+</div>
+
+**Discussion**
+
+At 89.0°, the filter axis is nearly perpendicular to the polarization direction (only 1° from complete extinction). The transmitted intensity is reduced to about 0.03% of the original—a dramatic reduction. This demonstrates how sensitive polarization effects are near 90°. Just one degree away from perpendicular allows a small but measurable amount of light to pass through.
+
 </div>
 </div>
 
@@ -553,7 +603,27 @@ At the end of [[Example 1]](#Example1), it was stated that the intensity of pola
 
 </div>
 <div class="solution" markdown="1">
- $$ 90.0%  $$
+
+**Strategy**
+
+Use Malus's law: $$I = I_0 \cos^2 \theta$$ with θ = 18.4° and verify that I/I₀ = 0.900.
+
+**Solution**
+
+<div class="equation">
+$$I = I_0 \cos^2 18.4° = I_0 (0.9483)^2$$
+</div>
+
+<div class="equation">
+$$I = I_0 (0.8993) \approx 0.900 I_0$$
+</div>
+
+Therefore, $$I = 90.0\% \text{ of } I_0$$, **which verifies the statement.**
+
+**Discussion**
+
+This confirms the symmetric relationship mentioned in Example 1: at 18.4° from the polarization direction, the intensity is reduced to 90% (meaning 10% is blocked). At 71.6° (which is 18.4° from perpendicular), the intensity is reduced to 10% (meaning 90% is blocked). These complementary angles (18.4° + 71.6° = 90°) demonstrate the symmetry of the cosine-squared function in Malus's law.
+
 </div>
 </div>
 
@@ -606,7 +676,48 @@ Prove that, if  $$I $$
 
 </div>
 <div class="solution" markdown="1">
- $${I}_{0} $$
+
+**Strategy**
+
+Apply Malus's law to both angle configurations and use the given trigonometric identities to show the intensities sum to I₀.
+
+**Solution**
+
+For the first configuration at angle θ:
+<div class="equation">
+$$I = I_0 \cos^2 \theta$$
+</div>
+
+For the second configuration at angle (90° - θ):
+<div class="equation">
+$$I' = I_0 \cos^2(90° - \theta)$$
+</div>
+
+Using the identity $$\cos(90° - \theta) = \sin \theta$$:
+<div class="equation">
+$$I' = I_0 \sin^2 \theta$$
+</div>
+
+Now add the two intensities:
+<div class="equation">
+$$I + I' = I_0 \cos^2 \theta + I_0 \sin^2 \theta$$
+</div>
+
+<div class="equation">
+$$I + I' = I_0 (\cos^2 \theta + \sin^2 \theta)$$
+</div>
+
+Using the fundamental identity $$\cos^2 \theta + \sin^2 \theta = 1$$:
+<div class="equation">
+$$I + I' = I_0 (1) = I_0$$
+</div>
+
+**Therefore:** $$I + I' = I_0$$ **Q.E.D.**
+
+**Discussion**
+
+This beautiful result shows that complementary polarizer angles transmit intensities that sum to the original intensity. For example, if a 30° filter transmits 75% of the light, then a 60° filter (90° - 30°) transmits the remaining 25%. This conservation of energy makes physical sense: the total transmitted light through the two complementary orientations equals what would pass if there were no angular selectivity at all.
+
 </div>
 </div>
 
@@ -640,11 +751,29 @@ Diamond's high refractive index (2.419) produces a large Brewster angle of 67.5�
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What is Brewster’s angle for light traveling in water that is reflected from crown glass?
+What is Brewster's angle for light traveling in water that is reflected from crown glass?
 
 </div>
 <div class="solution" markdown="1">
- $$ 48.8º $$
+
+**Strategy**
+
+Use Brewster's law: $$\tan \theta_b = n_2/n_1$$ where n₁ = 1.333 (water) and n₂ = 1.52 (crown glass).
+
+**Solution**
+
+<div class="equation">
+$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.52}{1.333} = 1.140$$
+</div>
+
+<div class="equation">
+$$\theta_b = \tan^{-1}(1.140) = 48.8°$$
+</div>
+
+**Discussion**
+
+Brewster's angle of 48.8° applies when light travels through water and reflects off crown glass (such as the glass wall of an aquarium). This is smaller than Brewster's angle for air-to-glass reflection (56.7°) because the difference in refractive indices is smaller when starting from water (n = 1.333) rather than air (n = 1.00). The smaller index contrast means the reflected light becomes completely polarized at a smaller angle from the normal.
+
 </div>
 </div>
 
@@ -682,7 +811,25 @@ At what angle is light inside crown glass completely polarized when reflected fr
 
 </div>
 <div class="solution" markdown="1">
- $$ 41.2º $$
+
+**Strategy**
+
+Use Brewster's law with light traveling in crown glass (n₁ = 1.52) and reflecting from water (n₂ = 1.333).
+
+**Solution**
+
+<div class="equation">
+$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.333}{1.52} = 0.8770$$
+</div>
+
+<div class="equation">
+$$\theta_b = \tan^{-1}(0.8770) = 41.2°$$
+</div>
+
+**Discussion**
+
+This is Brewster's angle for light traveling inside the glass wall of a fish tank and reflecting off the water inside. Notice that this angle (41.2°) is the complement of the water-to-glass Brewster angle (48.8°), and indeed 41.2° + 48.8° = 90.0°, confirming the reciprocal relationship $$\theta_b + \theta'_b = 90°$$ for reflections from opposite sides of an interface. Light at this angle inside the glass would see complete polarization of the reflection from the water surface.
+
 </div>
 </div>
 
@@ -718,9 +865,41 @@ An index of refraction of 1.46 is typical of **window glass** (common soda-lime 
 
 </div>
 <div class="solution" markdown="1">
-(a) 1.92, not diamond (Zircon)
 
-(b)  $$ 55.2º $$
+**Strategy**
+
+For part (a), use Brewster's law to find the index of refraction and compare to diamond (n = 2.419). For part (b), use the index found in (a) with water as the incident medium.
+
+**Solution**
+
+**(a) Can the gem be a diamond?**
+
+Since the light is completely polarized, θ = 62.5° is Brewster's angle. Using $$\tan \theta_b = n_2/n_1$$ with n₁ = 1.00 (air):
+
+<div class="equation">
+$$n_2 = n_1 \tan \theta_b = (1.00) \tan 62.5° = 1.92$$
+</div>
+
+Diamond has n = 2.419, which is significantly higher than 1.92. Therefore, **this gem cannot be diamond**.
+
+The index of 1.92 is consistent with **zircon** (n ≈ 1.92-1.98) or **cubic zirconia** (n ≈ 2.15-2.18), which are common diamond simulants.
+
+**(b) Brewster's angle if the gem is in water:**
+
+Using n₁ = 1.333 (water) and n₂ = 1.92 (from part a):
+
+<div class="equation">
+$$\tan \theta_b = \frac{n_2}{n_1} = \frac{1.92}{1.333} = 1.440$$
+</div>
+
+<div class="equation">
+$$\theta_b = \tan^{-1}(1.440) = 55.2°$$
+</div>
+
+**Discussion**
+
+The index of refraction is a definitive way to identify gemstones. Diamond's exceptionally high index (2.419) would give a Brewster angle of 67.5°, much larger than the observed 62.5°. The calculated index of 1.92 rules out diamond and suggests zircon or a synthetic simulant. When the gem is immersed in water, Brewster's angle decreases from 62.5° to 55.2° because the refractive index contrast is reduced.
+
 </div>
 </div>
 
@@ -773,7 +952,39 @@ of its original value, by how much are the electric and magnetic fields reduced?
 
 </div>
 <div class="solution" markdown="1">
- $${B}_{2}= 0.707 {B}_{1} $$
+
+**Strategy**
+
+Intensity is proportional to the square of the electric field amplitude (and magnetic field amplitude). If I is reduced to 50%, find the reduction in E and B.
+
+**Solution**
+
+For electromagnetic waves, intensity is proportional to the square of the field amplitudes:
+
+<div class="equation">
+$$I \propto E^2 \propto B^2$$
+</div>
+
+If $$I_2 = 0.500 I_1$$, then:
+
+<div class="equation">
+$$\frac{I_2}{I_1} = \frac{E_2^2}{E_1^2} = 0.500$$
+</div>
+
+<div class="equation">
+$$\frac{E_2}{E_1} = \sqrt{0.500} = 0.707$$
+</div>
+
+Therefore: $$E_2 = 0.707 E_1$$
+
+Similarly: $$B_2 = 0.707 B_1$$
+
+**Both the electric and magnetic field amplitudes are reduced to 70.7% (or reduced by 29.3%) of their original values.**
+
+**Discussion**
+
+The square-root relationship between field amplitude and intensity is fundamental to wave physics. When intensity drops by half, the fields don't drop by half—they drop by a factor of √2 ≈ 0.707. This same relationship applies to all waves where intensity is proportional to amplitude squared, including sound waves and water waves.
+
 </div>
 </div>
 

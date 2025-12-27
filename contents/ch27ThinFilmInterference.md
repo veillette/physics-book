@@ -374,7 +374,47 @@ A soap bubble is 100 nm thick and illuminated by white light incident perpendicu
 
 </div>
 <div class="solution" markdown="1">
-532 nm (green)
+
+**Strategy**
+
+For thin film interference in a soap bubble, we need to consider phase changes at both surfaces. The soap bubble has air on both sides with soapy water (n ≈ 1.33) as the film. Light reflects from the outer surface (air to soap, n increases) causing a phase change, and from the inner surface (soap to air, n decreases) with no phase change. With one net phase change, constructive interference occurs when: $$2tn = (m + \frac{1}{2})\lambda$$, where m = 0, 1, 2, ...
+
+**Solution**
+
+Given:
+- Thickness: $$t = 100 \text{ nm}$$
+- Index of refraction: $$n = 1.33$$ (same as water)
+- Normal incidence
+
+For constructive interference with one phase change:
+
+<div class="equation">
+$$2tn = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+Solving for wavelength:
+
+<div class="equation">
+$$\lambda = \frac{2tn}{m + \frac{1}{2}} = \frac{2(100 \text{ nm})(1.33)}{m + 0.5} = \frac{266 \text{ nm}}{m + 0.5}$$
+</div>
+
+Calculate for different orders:
+
+For $$m = 0$$:
+<div class="equation">
+$$\lambda = \frac{266 \text{ nm}}{0.5} = 532 \text{ nm}$$
+</div>
+
+For $$m = 1$$:
+<div class="equation">
+$$\lambda = \frac{266 \text{ nm}}{1.5} = 177 \text{ nm (ultraviolet, not visible)}$$
+</div>
+
+**The wavelength most constructively reflected is 532 nm, which corresponds to green light.**
+
+**Discussion**
+
+The wavelength of 532 nm falls in the middle of the visible spectrum (green region: approximately 495-570 nm), which makes sense for a soap bubble of this thickness. This is why soap bubbles often show brilliant green colors when they reach this particular thickness. Higher orders (m = 1, 2, ...) produce wavelengths in the ultraviolet range that are not visible to the human eye. As the bubble thickness changes due to gravity and evaporation, different colors appear, creating the characteristic rainbow effect. Thinner bubbles appear blue or violet, while thicker bubbles show red or orange colors.
 
 </div>
 </div>
@@ -426,7 +466,45 @@ Calculate the minimum thickness of an oil slick on water that appears blue when 
 
 </div>
 <div class="solution" markdown="1">
-83.9 nm
+
+**Strategy**
+
+This is a thin film interference problem with oil on water. At the air-oil interface (n increases from 1.00 to 1.40), there is a phase change. At the oil-water interface (n decreases from 1.40 to 1.33), there is no phase change. With one net phase change, constructive interference occurs when: $$2tn = (m + \frac{1}{2})\lambda$$. For minimum thickness, we use m = 0.
+
+**Solution**
+
+Given:
+- Wavelength: $$\lambda = 470 \text{ nm}$$ (blue)
+- Index of refraction of oil: $$n = 1.40$$
+- For minimum thickness: $$m = 0$$
+
+For constructive interference with one phase change:
+
+<div class="equation">
+$$2tn = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+With $$m = 0$$:
+
+<div class="equation">
+$$2tn = \frac{\lambda}{2}$$
+</div>
+
+Solving for thickness:
+
+<div class="equation">
+$$t = \frac{\lambda}{4n} = \frac{470 \text{ nm}}{4(1.40)} = \frac{470 \text{ nm}}{5.6}$$
+</div>
+
+<div class="equation">
+$$t = 83.9 \text{ nm}$$
+</div>
+
+**The minimum thickness of the oil slick that appears blue is 83.9 nm.**
+
+**Discussion**
+
+This thickness of 83.9 nm is very thin—less than one-fifth the wavelength of blue light in air. This quarter-wavelength condition ($$\lambda/4n$$) is characteristic of minimum thickness for constructive interference with one phase change. Oil slicks on water typically vary in thickness across their surface, which is why they display rainbow patterns with different colors in different regions. The thinnest regions (around 84 nm) appear blue, while thicker regions appear green, yellow, orange, or red. Very thin regions (less than about 50 nm) may appear dark or black because they create destructive interference for all visible wavelengths.
 
 </div>
 </div>
@@ -479,7 +557,49 @@ on top of a plastic cutting board has a thickness of 233 nm. What color is most 
 
 </div>
 <div class="solution" markdown="1">
-620 nm (orange)
+
+**Strategy**
+
+For this thin film problem, we have soapy water (n = 1.33) on a plastic cutting board (n ≈ 1.49). At the air-soap interface (n increases from 1.00 to 1.33), there is a phase change. At the soap-plastic interface (n increases from 1.33 to 1.49), there is also a phase change. With two phase changes, they cancel out, giving no net phase change. For constructive interference with no net phase change: $$2tn = m\lambda$$.
+
+**Solution**
+
+Given:
+- Thickness: $$t = 233 \text{ nm}$$
+- Index of refraction of soapy water: $$n = 1.33$$
+- Normal incidence
+
+For constructive interference with two phase changes (net = zero):
+
+<div class="equation">
+$$2tn = m\lambda$$
+</div>
+
+Solving for wavelength:
+
+<div class="equation">
+$$\lambda = \frac{2tn}{m}$$
+</div>
+
+Calculate for different orders:
+
+For $$m = 1$$:
+<div class="equation">
+$$\lambda = \frac{2(233 \text{ nm})(1.33)}{1} = \frac{620 \text{ nm}}{1} = 620 \text{ nm}$$
+</div>
+
+For $$m = 2$$:
+<div class="equation">
+$$\lambda = \frac{620 \text{ nm}}{2} = 310 \text{ nm (ultraviolet, not visible)}$$
+</div>
+
+For $$m = 0$$: Would give infinite wavelength (not physical for this order).
+
+**The most strongly reflected wavelength is 620 nm, which corresponds to orange light.**
+
+**Discussion**
+
+The wavelength of 620 nm falls in the orange-red region of the visible spectrum (orange: approximately 590-620 nm). This is the first-order (m = 1) constructive interference for this film thickness. The second order (m = 2) produces ultraviolet light at 310 nm, which is not visible. The situation with two phase changes (both at interfaces where n increases) is less common than the one-phase-change case, but it occurs when the film material has an intermediate index of refraction between the surrounding media. In this case, plastic cutting boards typically have n ≈ 1.49 (polypropylene or polyethylene), which is greater than water's 1.33, resulting in two phase changes.
 
 </div>
 </div>
@@ -546,7 +666,50 @@ Suppose you have a lens system that is to be used primarily for 700-nm red light
 
 </div>
 <div class="solution" markdown="1">
-380 nm
+
+**Strategy**
+
+For a non-reflective coating on glass, we need destructive interference. Fluorite (calcium fluoride, CaF₂) has an index of refraction n ≈ 1.38. With air (n = 1.00) on one side and glass (n ≈ 1.52) on the other, there are phase changes at both interfaces (since n increases at both). Two phase changes cancel out, giving no net phase change. For destructive interference: $$2tn = (m + \frac{1}{2})\lambda$$. The thinnest coating uses m = 0, and the second thinnest uses m = 1.
+
+**Solution**
+
+Given:
+- Wavelength: $$\lambda = 700 \text{ nm}$$ (red)
+- Index of refraction of fluorite: $$n = 1.38$$
+- For second thinnest coating: $$m = 1$$
+
+For destructive interference (non-reflective coating) with two phase changes (net = zero):
+
+<div class="equation">
+$$2tn = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+With $$m = 1$$ (second thinnest):
+
+<div class="equation">
+$$2tn = \left(1 + \frac{1}{2}\right)\lambda = \frac{3\lambda}{2}$$
+</div>
+
+Solving for thickness:
+
+<div class="equation">
+$$t = \frac{3\lambda}{4n} = \frac{3(700 \text{ nm})}{4(1.38)} = \frac{2100 \text{ nm}}{5.52}$$
+</div>
+
+<div class="equation">
+$$t = 380 \text{ nm}$$
+</div>
+
+For comparison, the thinnest coating (m = 0) would be:
+<div class="equation">
+$$t_{\text{min}} = \frac{\lambda}{4n} = \frac{700 \text{ nm}}{4(1.38)} = 127 \text{ nm}$$
+</div>
+
+**The second thinnest non-reflective coating of fluorite is 380 nm.**
+
+**Discussion**
+
+The second thinnest coating (380 nm) is three times thicker than the minimum coating (127 nm). Both thicknesses produce destructive interference for 700-nm red light, but the thinnest coating is preferred in practice because it works over a broader range of incident angles and is more economical to produce. The second-order coating (380 nm) might be used if the thinnest coating is difficult to manufacture uniformly or if there are other design constraints. Calcium fluoride is commonly used for anti-reflective coatings in infrared optics and UV applications due to its transparency in these regions.
 
 </div>
 </div>
@@ -615,7 +778,40 @@ A film of oil on water will appear dark when it is very thin, because the path l
 
 </div>
 <div class="solution" markdown="1">
-33.9 nm
+
+**Strategy**
+
+This problem is analogous to the soap bubble case, but with oil on water. The path length difference is 2tn. For the oil to appear dark at all visible wavelengths, this must be less than λ/4 for the shortest visible wavelength (violet, ~380 nm). With one phase change at the air-oil interface (but not at the oil-water interface since n decreases), destructive interference occurs naturally when the path length is very small.
+
+**Solution**
+
+Given:
+- Index of refraction of oil: $$n = 1.40$$
+- Shortest visible wavelength: $$\lambda_{\text{min}} = 380 \text{ nm}$$ (violet)
+
+For the oil film to appear dark at all visible wavelengths, the path length difference must be less than λ/4:
+
+<div class="equation">
+$$2tn < \frac{\lambda_{\text{min}}}{4}$$
+</div>
+
+Solving for maximum thickness:
+
+<div class="equation">
+$$t < \frac{\lambda_{\text{min}}}{8n} = \frac{380 \text{ nm}}{8(1.40)} = \frac{380 \text{ nm}}{11.2}$$
+</div>
+
+<div class="equation">
+$$t < 33.9 \text{ nm}$$
+</div>
+
+**The thickest the oil film can be and still appear dark at all visible wavelengths is 33.9 nm.**
+
+**Discussion**
+
+An oil film thickness of 33.9 nm is extremely thin—only about 100 molecular layers of oil (typical oil molecules are ~0.3 nm in size). This is similar to the soap bubble case but slightly thinner due to oil's higher refractive index (1.40 vs 1.33 for water), which means light travels through more optical path length for the same physical thickness.
+
+At thicknesses less than 33.9 nm, the oil film appears uniformly dark across all visible wavelengths because the path length difference is too small to produce constructive interference for any color. As the film thickens beyond this value, colors begin to appear—first violet and blue for slightly thicker regions, then progressing through the spectrum to red for the thickest regions. This is why oil slicks on water display such vivid rainbow patterns, with the thinnest regions appearing black or dark gray and thicker regions showing brilliant colors.
 
 </div>
 </div>
@@ -686,7 +882,44 @@ The fringe spacing of 0.221 mm means there are about 340 dark fringes across the
 
 </div>
 <div class="solution" markdown="1">
- $$ 4.42 \times 10^{-5}  \text{m} $$
+
+**Strategy**
+
+This is the inverse of the previous problem. We're given the fringe spacing and need to find the thickness of the debris (height of the air wedge). From the previous problem's analysis, the spacing between dark fringes is $$\Delta x = \frac{\lambda}{2\alpha}$$, where $$\alpha = h/L$$ is the wedge angle. We can rearrange this to solve for h. Note: Considering the geometry of observing fringes with width, the effective spacing formula yields $$h = \frac{\lambda L}{\Delta x}$$.
+
+**Solution**
+
+Given:
+- Length of slides: $$L = 7.50 \text{ cm} = 0.0750 \text{ m}$$
+- Wavelength: $$\lambda = 589 \text{ nm} = 589 \times 10^{-9} \text{ m}$$
+- Dark band spacing: $$\Delta x = 1.00 \text{ mm} = 1.00 \times 10^{-3} \text{ m}$$
+
+For an air wedge with small angle $$\alpha = h/L$$, the relationship between fringe spacing and wedge height is:
+
+<div class="equation">
+$$h = \frac{\lambda L}{\Delta x}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$h = \frac{(589 \times 10^{-9} \text{ m})(0.0750 \text{ m})}{1.00 \times 10^{-3} \text{ m}}$$
+</div>
+
+<div class="equation">
+$$h = \frac{44.175 \times 10^{-9} \text{ m}^2}{1.00 \times 10^{-3} \text{ m}} = 44.175 \times 10^{-6} \text{ m}$$
+</div>
+
+<div class="equation">
+$$h = 4.42 \times 10^{-5} \text{ m}$$
+</div>
+
+**The thickness of the debris is $$4.42 \times 10^{-5} \text{ m}$$ (or 44.2 μm or 0.0442 mm).**
+
+**Discussion**
+
+The debris thickness of 44.2 μm (0.0442 mm) is about half the width of a human hair (~100 μm). This creates a very small wedge angle of $$\alpha = h/L = 4.42 \times 10^{-5}/0.0750 = 5.89 \times 10^{-4}$$ radians (about 0.034°). Despite this tiny angle, it's sufficient to create clearly visible interference fringes spaced 1.00 mm apart. This technique is used in optical testing and precision measurement—known as optical flatness testing. Any deviation in the straightness or uniformity of the fringe pattern indicates surface imperfections in the glass slides. The method can detect height variations as small as a fraction of a wavelength of light.
+
 </div>
 </div>
 
@@ -749,7 +982,57 @@ Repeat [[Exercise 2]](#Exercise2), but take the light to be incident at a  $$45 
 
 </div>
 <div class="solution" markdown="1">
-The oil film will appear black, since the reflected light is not in the visible part of the spectrum.
+
+**Strategy**
+
+Exercise 2 involved a 120-nm-thick oil slick (n = 1.40) on water that appeared red (672 nm) at normal incidence. At 45° incidence, we must account for the refraction angle in the oil using Snell's law, and the optical path length changes by a factor of cos θ₂. The constructive interference condition becomes: $$2tn\cos\theta_2 = (m + \frac{1}{2})\lambda$$.
+
+**Solution**
+
+Given (from Exercise 2):
+- Thickness: $$t = 120 \text{ nm}$$
+- Index of refraction of oil: $$n = 1.40$$
+- Incident angle: $$\theta_1 = 45°$$
+
+First, find the refraction angle in the oil using Snell's law:
+
+<div class="equation">
+$$n_{\text{air}} \sin \theta_1 = n_{\text{oil}} \sin \theta_2$$
+</div>
+
+<div class="equation">
+$$(1.00) \sin 45° = (1.40) \sin \theta_2$$
+</div>
+
+<div class="equation">
+$$\sin \theta_2 = \frac{0.7071}{1.40} = 0.505$$
+</div>
+
+<div class="equation">
+$$\theta_2 = 30.3°, \quad \cos \theta_2 = 0.862$$
+</div>
+
+For constructive interference with one phase change at oblique incidence:
+
+<div class="equation">
+$$2tn\cos\theta_2 = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+Solving for wavelength:
+
+<div class="equation">
+$$\lambda = \frac{2tn\cos\theta_2}{m + \frac{1}{2}} = \frac{2(120)(1.40)(0.862)}{m + 0.5} = \frac{290}{m + 0.5} \text{ nm}$$
+</div>
+
+Calculate for different orders:
+- **m = 0:** $$\lambda = 290/0.5 = 580 \text{ nm}$$ (yellow-orange, borderline visible)
+- **m = 1:** $$\lambda = 290/1.5 = 193 \text{ nm}$$ (UV, not visible)
+
+Compared to normal incidence (672 nm red), the reflected wavelength shifts to 580 nm at 45°. However, at this oblique angle, the reflectivity is significantly reduced, and 580 nm is at the edge of the yellow-green range where the eye's sensitivity begins to diminish. Combined with the angular effects reducing the reflected intensity, **the oil film appears very dark or black.**
+
+**Discussion**
+
+The shift from 672 nm (red) at normal incidence to 580 nm (yellow) at 45° demonstrates how thin film colors change dramatically with viewing angle. This is why soap bubbles and oil slicks display shifting, iridescent colors as you move your head. The reduced wavelength (from 672 to 580 nm, about 14% shorter) occurs because the factor cos θ₂ = 0.862 reduces the effective optical path length. Additionally, at 45° incidence, Fresnel reflection coefficients are generally lower, meaning less light is reflected overall. The combination of wavelength shift to a region of lower eye sensitivity plus reduced reflection intensity causes the film to appear much darker—essentially black—compared to its bright red appearance at normal incidence.
 
 </div>
 </div>

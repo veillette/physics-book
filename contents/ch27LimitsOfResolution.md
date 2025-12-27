@@ -286,8 +286,45 @@ distance of the Andromeda galaxy?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.63 \times 10^{-4}  \text{rad} $$
-(b) 326 ly
+
+**Strategy**
+
+Use the Rayleigh criterion θ = 1.22λ/D for part (a). For part (b), use s = rθ to find the linear separation at the given distance.
+
+**Solution**
+
+Given:
+- D = 300 m (diameter of telescope)
+- λ = 4.00 cm = 0.0400 m (radio wavelength)
+- r = 2 million light years (for part b)
+
+**(a) Minimum resolvable angle:**
+
+<div class="equation">
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{0.0400}{300} = 1.63 \times 10^{-4} \text{ rad}$$
+</div>
+
+**(b) Minimum separation at Andromeda distance:**
+
+Convert distance: 1 ly ≈ 9.46 × 10¹⁵ m
+
+<div class="equation">
+$$r = 2 \times 10^6 \text{ ly} \times 9.46 \times 10^{15} \text{ m/ly} = 1.89 \times 10^{22} \text{ m}$$
+</div>
+
+<div class="equation">
+$$s = r\theta = (1.89 \times 10^{22})(1.63 \times 10^{-4}) = 3.08 \times 10^{18} \text{ m}$$
+</div>
+
+Converting back to light years:
+
+<div class="equation">
+$$s = \frac{3.08 \times 10^{18}}{9.46 \times 10^{15}} = 326 \text{ ly}$$
+</div>
+
+**Discussion**
+
+Despite Arecibo's enormous 300-m diameter, radio waves have much longer wavelengths than visible light (4 cm vs ~550 nm, a factor of ~70,000 times longer). This gives relatively poor angular resolution (1.63 × 10⁻⁴ rad) compared to optical telescopes. At Andromeda's distance, the telescope can only resolve features separated by 326 light years—larger than the distance between many nearby stars. This demonstrates why radio astronomy often uses interferometric arrays (like the VLA) to achieve better resolution by effectively increasing D.
 
 </div>
 </div>
@@ -322,7 +359,37 @@ Diffraction spreading for a flashlight is insignificant compared with other limi
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.46 \times 10^{-5}  \text{rad} $$
+
+**Strategy**
+
+Use the Rayleigh criterion θ = 1.22λ/D for the diffraction spreading angle.
+
+**Solution**
+
+Given:
+- D = 5.00 cm = 0.0500 m
+- λ = 600 nm = 600 × 10⁻⁹ m
+
+<div class="equation">
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{600 \times 10^{-9}}{0.0500}$$
+</div>
+
+<div class="equation">
+$$\theta = \frac{7.32 \times 10^{-7}}{0.0500} = 1.46 \times 10^{-5} \text{ rad}$$
+</div>
+
+Converting to degrees: θ = 1.46 × 10⁻⁵ rad × (180°/π) = 8.4 × 10⁻⁴ degrees ≈ **0.05 arcminutes**
+
+**Discussion**
+
+This extremely small diffraction angle (0.00146 milliradians or about 3 arcseconds) is indeed negligible compared to other optical imperfections. Typical flashlight beams have divergence angles of several degrees due to:
+- Spherical aberration in the reflector
+- Imperfect parabolic shape
+- Extended source size (the bulb filament or LED)
+- Surface roughness
+
+The diffraction limit would only become important for very high-quality, nearly perfect optical systems. For a flashlight at 100 m distance, diffraction would spread the beam by only s = (100)(1.46 × 10⁻⁵) = 1.5 mm, which is completely insignificant compared to the beam's actual spread of several meters due to optical imperfections.
+
 </div>
 </div>
 
@@ -385,8 +452,42 @@ make on the Moon, assuming a lunar distance of $$ 3.84 \times 10^{8} \text{m} $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 3.04 \times 10^{-7}  \text{rad} $$
-(b) Diameter of  $$235 \text{m} $$
+
+**Strategy**
+
+Use θ = 1.22λ/D for part (a), then s = rθ for part (b) to find the spot diameter on the Moon.
+
+**Solution**
+
+Given:
+- D = 2.54 m (beam diameter after telescope)
+- λ = 633 nm = 633 × 10⁻⁹ m (He-Ne laser)
+- r = 3.84 × 10⁸ m (Earth-Moon distance)
+
+**(a) Minimum angular spread:**
+
+<div class="equation">
+$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{633 \times 10^{-9}}{2.54}$$
+</div>
+
+<div class="equation">
+$$\theta = \frac{7.72 \times 10^{-7}}{2.54} = 3.04 \times 10^{-7} \text{ rad}$$
+</div>
+
+**(b) Spot size on the Moon:**
+
+<div class="equation">
+$$s = r\theta = (3.84 \times 10^8)(3.04 \times 10^{-7}) = 117 \text{ m (radius)}$$
+</div>
+
+Diameter: **2 × 117 m = 235 m**
+
+**Discussion**
+
+By expanding the laser beam to 2.54 m diameter using the telescope, the diffraction spreading is dramatically reduced compared to the 1-mm beam in the previous problem (which gave a 296-km spot). The spot size on the Moon is now only 235 m in diameter—over 1000 times smaller!
+
+This technique is actually used in lunar laser ranging experiments, where pulses from Earth-based lasers reflect off corner retroreflectors left by Apollo astronauts. The expanded beam reduces diffraction spreading, allowing more photons to hit the small retroreflector targets and return to Earth for precise distance measurements (accurate to a few centimeters).
+
 </div>
 </div>
 
@@ -438,7 +539,41 @@ What is the minimum diameter mirror on a telescope that would allow you to see d
 
 </div>
 <div class="solution" markdown="1">
-5.15 cm
+
+**Strategy**
+
+Use s = rθ to find the required angular resolution, then use θ = 1.22λ/D to solve for the minimum diameter D.
+
+**Solution**
+
+Given:
+- s = 5.00 km = 5000 m (detail size on Moon)
+- r = 384,000 km = 3.84 × 10⁸ m (Earth-Moon distance)
+- λ = 550 nm = 550 × 10⁻⁹ m
+
+**Step 1: Find required angular resolution**
+
+<div class="equation">
+$$\theta = \frac{s}{r} = \frac{5000}{3.84 \times 10^8} = 1.302 \times 10^{-5} \text{ rad}$$
+</div>
+
+**Step 2: Find minimum mirror diameter**
+
+Using θ = 1.22λ/D:
+
+<div class="equation">
+$$D = \frac{1.22\lambda}{\theta} = \frac{1.22 \times 550 \times 10^{-9}}{1.302 \times 10^{-5}}$$
+</div>
+
+<div class="equation">
+$$D = \frac{6.71 \times 10^{-7}}{1.302 \times 10^{-5}} = 0.0515 \text{ m} = 5.15 \text{ cm}$$
+</div>
+
+**Discussion**
+
+A surprisingly small telescope mirror of only 5.15 cm (about 2 inches) diameter is theoretically sufficient to resolve 5-km features on the Moon—assuming perfect optics and no atmospheric distortion. This is within the range of good amateur telescopes.
+
+However, in practice, atmospheric turbulence (seeing) limits ground-based telescopes to resolution of about 1 arcsecond (roughly 2 km on the Moon), regardless of aperture size. This is why even large telescopes on Earth can't significantly outperform small ones for lunar observations unless adaptive optics is used to compensate for atmospheric effects. Space-based telescopes like Hubble avoid this problem entirely.
 
 </div>
 </div>
@@ -482,10 +617,52 @@ this?
 
 </div>
 <div class="solution" markdown="1">
-(a) Yes. Should easily be able to discern.
 
-(b) The fact that it is just barely possible to discern that these are separate
-bodies indicates the severity of atmospheric aberrations.
+**Strategy**
+
+For part (a), calculate the angular separation of Pluto and Charon, then compare to the telescope's angular resolution θ = 1.22λ/D. For part (b), consider atmospheric effects.
+
+**Solution**
+
+Given:
+- Separation: s = 19,600 km = 1.96 × 10⁷ m
+- Distance: r = 4.50 × 10⁹ km = 4.50 × 10¹² m
+- Mirror diameter: D = 5.08 m
+- Wavelength: λ = 550 nm = 550 × 10⁻⁹ m
+
+**(a) Can the telescope resolve Pluto and Charon?**
+
+**Angular separation:**
+<div class="equation">
+$$\theta_{\text{sep}} = \frac{s}{r} = \frac{1.96 \times 10^7}{4.50 \times 10^{12}} = 4.36 \times 10^{-6} \text{ rad}$$
+</div>
+
+**Telescope's angular resolution (diffraction limit):**
+<div class="equation">
+$$\theta_{\text{min}} = 1.22\frac{\lambda}{D} = 1.22\frac{550 \times 10^{-9}}{5.08} = 1.32 \times 10^{-7} \text{ rad}$$
+</div>
+
+**Comparison:**
+<div class="equation">
+$$\frac{\theta_{\text{sep}}}{\theta_{\text{min}}} = \frac{4.36 \times 10^{-6}}{1.32 \times 10^{-7}} = 33$$
+</div>
+
+Since the angular separation is **33 times larger** than the diffraction limit, **yes, the telescope should easily resolve Pluto and Charon** (neglecting atmospheric effects).
+
+**(b) Why is it just barely possible in reality?**
+
+The fact that it's just barely possible (rather than easy) to distinguish Pluto and Charon indicates **severe atmospheric aberrations:**
+
+1. **Atmospheric turbulence (seeing)** limits ground-based telescopes to angular resolution of about 0.5-1.0 arcsecond (2.4-4.8 × 10⁻⁶ rad) under good conditions—comparable to the 4.36 × 10⁻⁶ rad separation
+2. **Atmospheric refraction** causes image distortion and blurring
+3. **Thermal air currents** create "twinkling" that smears the images
+4. **Limited integration time** means astronomers can't always capture moments of best seeing
+
+The diffraction limit (1.32 × 10⁻⁷ rad) is 30-60 times better than atmospheric seeing limits. This is why space-based telescopes like Hubble can achieve their full diffraction-limited performance, while even the largest ground-based telescopes are limited by the atmosphere unless adaptive optics is used.
+
+**Discussion**
+
+This problem dramatically illustrates how Earth's atmosphere, not optics, limits most ground-based astronomical observations. A perfect 5-meter telescope in space would easily resolve Pluto-Charon, but from Earth's surface, atmospheric turbulence reduces the effective resolution by a factor of 30 or more, making the observation just barely possible.
 
 </div>
 </div>
