@@ -201,6 +201,11 @@ Sketch the equipotential lines for the two equal positive charges shown in [[Fig
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Equipotential lines must be perpendicular to electric field lines at every point. For two equal positive charges, we use the principle that the electric potential from multiple charges adds algebraically: $$V = V_1 + V_2$$. Near each charge, equipotentials are nearly circular; far away, they become circular (like a single charge of +2q); in between, they have more complex shapes determined by the requirement of perpendicularity to field lines.
+
 **Solution**
 
 The equipotential lines must be perpendicular to the electric field lines at every point.
@@ -232,6 +237,11 @@ The equipotential lines form closed curves that must either encircle one charge 
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+First, interpret the electric field lines in the figure to determine the signs and relative magnitudes of the charges. Field lines point away from positive charges and toward negative charges. Once we know the charge configuration, we sketch equipotentials perpendicular to the field lines, noting that potential increases toward positive charges and away from negative charges. The asymmetry in charge magnitudes will create asymmetric equipotential patterns.
+
 **Solution**
 
 From the figure, $$q_1$$ is negative (field lines point toward it) and $$q_2$$ is positive (field lines point away), with $$|q_1| = 4|q_2|$$.
@@ -262,6 +272,11 @@ Sketch the equipotential lines a long distance from the charges shown in [[Figur
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+At large distances from any charge configuration, the system appears as a single point charge with net charge $$Q_{\text{net}} = q_1 + q_2$$. The equipotential lines become spherical surfaces (circles in 2D) centered on the charge system. We use the far-field approximation where $$V \approx kQ_{\text{net}}/r$$, which produces evenly-spaced circular equipotentials for equal voltage intervals.
+
 **Solution**
 
 At large distances, any system of charges appears as a single point charge with the net charge $$Q_{net} = q_1 + q_2 = -4q + q = -3q$$.
@@ -285,10 +300,15 @@ This is an example of the far-field approximation: any charge distribution looks
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Sketch the equipotential lines in the vicinity of two opposite charges, where the negative charge is three times as great in magnitude as the positive. See [[Figure 6]](#Figure6) for a similar situation. Indicate the direction of increasing potential.
+Sketch the equipotential lines in the vicinity of two opposite charges, where the negative charge is three times as great in magnitude as the positive. Indicate the direction of increasing potential.
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+For opposite charges with $$q_- = -3q$$ and $$q_+ = +q$$, we recognize this as a dipole-like configuration. The key is finding the zero-potential surface where $$V = k(q_+/r_+ - 3q/r_-) = 0$$, which occurs where $$r_+ = r_-/3$$. Equipotentials are perpendicular to field lines, with potential increasing toward the positive charge and away from the negative charge. The net charge is $$-2q$$, affecting far-field behavior.
+
 **Solution**
 
 With $$q_{-} = -3q$$ and $$q_{+} = +q$$, the net charge is $$-2q$$.
@@ -321,6 +341,11 @@ Sketch the equipotential lines in the vicinity of the negatively charged conduct
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Conductors in electrostatic equilibrium are equipotential surfaces—all points on and inside have the same potential. The first equipotential outside the conductor follows its shape closely. Electric field lines are perpendicular to the conductor surface, so equipotentials are also perpendicular to field lines. At large distances, the conductor appears as a point charge, making equipotentials circular.
+
 **Solution**
 
 **Near the conductor:**
@@ -353,6 +378,11 @@ Sketch the equipotential lines surrounding the two conducting plates shown in [[
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+For parallel conducting plates, charge concentrates on facing surfaces due to attraction between opposite charges. Between the plates, the field is approximately uniform ($$E = V/d$$), creating parallel, evenly-spaced equipotentials. Where plates are closer, the same voltage difference exists over a smaller distance, yielding stronger field ($$E = V/d$$ increases as $$d$$ decreases) and closer equipotential spacing.
+
 **Solution**
 
 **Charge distribution on plates:**
@@ -393,6 +423,11 @@ This configuration is the basis of a parallel-plate capacitor. The approximately
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Unlike conductors, insulators can maintain non-uniform charge distributions. Field line density reflects local charge density—more field lines where charge is more concentrated. Equipotentials are perpendicular to field lines everywhere. Since all charges are positive, potential increases toward the rod, with the highest values near the most heavily charged region. The non-uniform charge creates non-uniform field strength and equipotential spacing.
+
 **Solution**
 
 **(a) Electric field lines:**
@@ -479,6 +514,11 @@ The lesser electric ray (**Narcine bancroftii**) maintains an incredible charge 
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+The ray's charge configuration forms an electric dipole with equal and opposite charges separated by a distance. For part (a), we sketch dipole equipotentials: concentric circles near each charge, a zero-potential surface between them, and elongated ovals far away. For part (b), conducting surfaces are equipotentials that distort nearby field patterns through induced charges. For part (c), we consider biological uses of electric fields: stunning prey, defense, electrolocation, and communication.
+
 **Solution**
 
 **(a) Equipotential lines surrounding the ray:**
