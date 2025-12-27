@@ -411,9 +411,36 @@ Suppose the velocity of an electron in an atom is known to an accuracy of  $$ 2.
 
 </div>
 <div class="solution" markdown="1">
-29 nm,
 
-290 times greater
+**Strategy**
+
+Use the Heisenberg uncertainty principle $$\Delta x \Delta p \geq \frac{h}{4\pi}$$ with $$\Delta p = m_e \Delta v$$. Solve for the minimum position uncertainty and compare to atomic size.
+
+**Solution**
+
+The momentum uncertainty is:
+
+<div class="equation">
+ $$\Delta p = m_e \Delta v = (9.11 \times 10^{-31} \text{ kg})(2.0 \times 10^{3} \text{ m/s}) = 1.82 \times 10^{-27} \text{ kg·m/s}$$
+</div>
+
+From the uncertainty principle:
+
+<div class="equation">
+ $$\Delta x \geq \frac{h}{4\pi \Delta p} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (1.82 \times 10^{-27} \text{ kg·m/s})} = 2.90 \times 10^{-8} \text{ m} = 29 \text{ nm}$$
+</div>
+
+Comparing to atomic size:
+
+<div class="equation">
+ $$\frac{\Delta x}{\text{atomic size}} = \frac{29 \text{ nm}}{0.1 \text{ nm}} = 290$$
+</div>
+
+**Discussion**
+
+The minimum uncertainty in position (29 nm) is 290 times larger than the typical atomic size (0.1 nm). This demonstrates a fundamental limitation: if we measure an electron's velocity in an atom with modest precision, we lose almost all information about its position—the uncertainty becomes much larger than the atom itself! This is why the classical picture of electrons orbiting at well-defined positions breaks down. We cannot simultaneously know both where an electron is and how fast it's moving with precision comparable to atomic scales.
+
+29 nm, 290 times greater
 
 </div>
 </div>
@@ -458,6 +485,27 @@ A relatively long-lived excited state of an atom has a lifetime of 3.00 ms. What
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Use the energy-time uncertainty principle $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ with $$\Delta t = 3.00 \times 10^{-3}$$ s.
+
+**Solution**
+
+<div class="equation">
+ $$\Delta E = \frac{h}{4\pi \Delta t} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (3.00 \times 10^{-3} \text{ s})} = 1.76 \times 10^{-32} \text{ J}$$
+</div>
+
+Converting to eV:
+
+<div class="equation">
+ $$\Delta E = \frac{1.76 \times 10^{-32} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 1.10 \times 10^{-13} \text{ eV}$$
+</div>
+
+**Discussion**
+
+This extremely small energy uncertainty ($$1.10 \times 10^{-13}$$ eV) results from the long 3.00-ms lifetime. The energy-time uncertainty principle shows that long-lived states have well-defined energies, producing sharp spectral lines. Conversely, short-lived states have large energy uncertainties and broad spectral lines. This is why metastable states like this are useful for precision spectroscopy and atomic clocks—their narrow linewidths allow extremely precise frequency measurements.
+
  $$ 1.10 \times 10^{-13}  \text{eV} $$
 </div>
 </div>
@@ -509,6 +557,29 @@ The decay energy of a short-lived particle has an uncertainty of 1.0 MeV due to 
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Use the energy-time uncertainty principle $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ and solve for $$\Delta t$$.
+
+**Solution**
+
+Convert energy uncertainty to joules:
+
+<div class="equation">
+ $$\Delta E = 1.0 \text{ MeV} \times 1.60 \times 10^{-13} \text{ J/MeV} = 1.60 \times 10^{-13} \text{ J}$$
+</div>
+
+Solve for minimum lifetime:
+
+<div class="equation">
+ $$\Delta t = \frac{h}{4\pi \Delta E} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (1.60 \times 10^{-13} \text{ J})} = 3.30 \times 10^{-22} \text{ s}$$
+</div>
+
+**Discussion**
+
+This incredibly short lifetime ($$3.3 \times 10^{-22}$$ s) is typical for unstable elementary particles. For comparison, this is the time it takes light to travel about 0.1 femtometers—less than the diameter of a proton! Such short-lived particles cannot be directly observed; their existence is inferred from the energy distribution of their decay products, which reflects the MeV-scale energy uncertainty predicted by the uncertainty principle.
+
  $$ 3.3 \times 10^{-22}  \text{s} $$
 </div>
 </div>
@@ -557,6 +628,29 @@ What is the approximate uncertainty in the mass of a muon, as determined from it
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Use $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ to find energy uncertainty, then use $$E = mc^2$$ to convert to mass uncertainty. The muon lifetime is $$\tau = 2.20 \times 10^{-6}$$ s.
+
+**Solution**
+
+Energy uncertainty:
+
+<div class="equation">
+ $$\Delta E = \frac{h}{4\pi \Delta t} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (2.20 \times 10^{-6} \text{ s})} = 2.40 \times 10^{-29} \text{ J}$$
+</div>
+
+Convert to mass uncertainty using $$\Delta m = \frac{\Delta E}{c^2}$$:
+
+<div class="equation">
+ $$\Delta m = \frac{2.40 \times 10^{-29} \text{ J}}{(3.00 \times 10^{8} \text{ m/s})^2} = 2.67 \times 10^{-46} \text{ kg}$$
+</div>
+
+**Discussion**
+
+The mass uncertainty ($$2.67 \times 10^{-46}$$ kg) is incredibly small—about $$10^{-18}$$ times the muon's rest mass ($$1.88 \times 10^{-28}$$ kg). This tiny uncertainty results from the muon's relatively long lifetime of 2.2 microseconds. Despite this small uncertainty, it's measurable and places a fundamental limit on how precisely we can determine the muon's mass. This demonstrates that even "stable" (long-lived) particles have inherent mass uncertainties due to quantum mechanics.
+
  $$ 2.66 \times 10^{-46}  \text{kg} $$
 </div>
 </div>

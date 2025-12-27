@@ -299,7 +299,34 @@ A spaceship, 200 m long as seen on board, moves by the Earth at  $$ 0.970c $$ .
 
 </div>
 <div class="solution" markdown="1">
-48.6 m
+
+**Strategy**
+
+The spaceship's rest length (as measured on board) is the proper length $$L_0 = 200$$ m. An Earth-bound observer will measure a contracted length $$L = L_0\sqrt{1-\frac{v^2}{c^2}} = \frac{L_0}{\gamma}$$.
+
+**Solution**
+
+First, calculate $$\gamma$$ for $$v = 0.970c$$:
+
+<div class="equation">
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.970c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.9409}} = \frac{1}{\sqrt{0.0591}} = \frac{1}{0.2431} = 4.114$$
+</div>
+
+Now calculate the contracted length:
+
+<div class="equation">
+$$L = \frac{L_0}{\gamma} = \frac{200 \text{ m}}{4.114} = 48.6 \text{ m}$$
+</div>
+
+Alternatively, using the direct formula:
+
+<div class="equation">
+$$L = L_0\sqrt{1-\frac{v^2}{c^2}} = (200 \text{ m})\sqrt{1-0.9409} = (200 \text{ m})(0.2431) = 48.6 \text{ m}$$
+</div>
+
+**Discussion**
+
+At 97% the speed of light, the spaceship appears dramatically compressed to less than one-quarter of its rest length! From the Earth observer's perspective, the 200 m spaceship looks only 48.6 m long—a contraction of over 75%. This extreme length contraction occurs only in the direction of motion; dimensions perpendicular to the motion remain unchanged. From the spaceship's perspective, the situation is reversed: the astronauts see themselves in a normal 200 m ship, but they observe the Earth and everything on it contracted in the direction of motion by the same factor. This symmetry is a fundamental feature of special relativity—neither reference frame is "special." Such dramatic length contractions are observed in particle accelerators, where fast-moving particles effectively see shortened beam pipes and target materials.
 
 </div>
 </div>

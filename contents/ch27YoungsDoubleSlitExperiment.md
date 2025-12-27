@@ -275,7 +275,42 @@ At what angle is the first-order maximum for 450-nm wavelength blue light fallin
 
 </div>
 <div class="solution" markdown="1">
- $$0.516\text{º} $$
+
+**Strategy**
+
+For constructive interference in a double slit experiment, we use $$d \sin \theta = m\lambda$$, where $$m = 1$$ for the first-order maximum. We need to solve for $$\theta$$.
+
+**Solution**
+
+Given:
+- $$\lambda = 450 \text{ nm} = 450 \times 10^{-9} \text{ m}$$
+- $$d = 0.0500 \text{ mm} = 5.00 \times 10^{-5} \text{ m}$$
+- $$m = 1$$
+
+Using the equation for constructive interference:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+Solving for $$\sin \theta$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{d} = \frac{(1)(450 \times 10^{-9} \text{ m})}{5.00 \times 10^{-5} \text{ m}} = \frac{450 \times 10^{-9}}{5.00 \times 10^{-5}} = 9.00 \times 10^{-3}$$
+</div>
+
+Therefore:
+
+<div class="equation">
+$$\theta = \sin^{-1}(9.00 \times 10^{-3}) = 0.516°$$
+</div>
+
+**Discussion**
+
+The first-order maximum appears at a very small angle of 0.516°, which is typical for double slit experiments where the slit separation is much larger than the wavelength. The ratio $$d/\lambda = 5.00 \times 10^{-5}/450 \times 10^{-9} \approx 111$$, meaning the slit separation is about 111 wavelengths. This produces a closely-spaced interference pattern with many orders visible. The small angle validates using the small-angle approximation ($$\sin \theta \approx \tan \theta \approx \theta$$ in radians) commonly employed in double-slit calculations.
+
+**The first-order maximum for 450-nm blue light occurs at an angle of 0.516°.**
+
 </div>
 </div>
 
@@ -328,7 +363,40 @@ What is the separation between two slits for which 610-nm orange light has its f
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.22 \times 10^{-6}  \text{m} $$
+
+**Strategy**
+
+For constructive interference, we use $$d \sin \theta = m\lambda$$, where $$m = 1$$ for the first-order maximum. We solve for the slit separation $$d$$.
+
+**Solution**
+
+Given:
+- $$\lambda = 610 \text{ nm} = 610 \times 10^{-9} \text{ m}$$
+- $$\theta = 30.0°$$
+- $$m = 1$$ (first maximum)
+
+Using the equation for constructive interference:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+Solving for $$d$$:
+
+<div class="equation">
+$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(610 \times 10^{-9} \text{ m})}{\sin 30.0°} = \frac{610 \times 10^{-9}}{0.500}$$
+</div>
+
+<div class="equation">
+$$d = 1.22 \times 10^{-6} \text{ m} = 1.22 \text{ μm}$$
+</div>
+
+**Discussion**
+
+The slit separation of 1.22 μm is only about twice the wavelength of the orange light (610 nm). This very small slit separation causes the interference pattern to spread out significantly - the first maximum appears at a large angle of 30°. With such a small $$d$$, only a few orders of maxima would be observable before reaching $$\theta = 90°$$. This demonstrates the inverse relationship between slit separation and angular spread: smaller $$d$$ produces larger angles for a given order.
+
+**The slit separation is $$1.22 \times 10^{-6}$$ m or 1.22 μm.**
+
 </div>
 </div>
 

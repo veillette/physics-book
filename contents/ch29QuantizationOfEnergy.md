@@ -219,9 +219,36 @@ A LiBr molecule oscillates with a frequency of  $$ 1.7 \times 10^{13} \text{Hz} 
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.070 eV
 
-(b) 14
+**Strategy**
+
+(a) Use $$\Delta E = hf$$ to find the energy difference between states. (b) From $$E = (n + \frac{1}{2})hf$$, solve for $$n$$ when $$E = 1.0$$ eV.
+
+**Solution**
+
+(a) Energy difference between oscillator states:
+
+$$\Delta E = hf = (6.63 \times 10^{-34} \text{ J·s})(1.7 \times 10^{13} \text{ Hz})$$
+
+$$\Delta E = 1.127 \times 10^{-20} \text{ J}$$
+
+Converting to eV:
+
+$$\Delta E = \frac{1.127 \times 10^{-20}}{1.60 \times 10^{-19}} = 0.070 \text{ eV}$$
+
+(b) From $$E = (n + \frac{1}{2})hf$$:
+
+$$1.0 \text{ eV} = (n + \frac{1}{2})(0.070 \text{ eV})$$
+
+$$n + \frac{1}{2} = \frac{1.0}{0.070} = 14.3$$
+
+$$n = 14.3 - 0.5 = 13.8 \approx 14$$
+
+**Discussion**
+
+The LiBr molecule's vibrational energy levels are separated by 0.070 eV. This is a typical value for molecular vibrations, corresponding to infrared frequencies around $$10^{13}$$ Hz. A molecule with 1.0 eV of vibrational energy would be in approximately the $$n = 14$$ quantum state.
+
+This illustrates how quantum mechanics applies to molecules: they can only vibrate with specific, quantized energies. At room temperature (thermal energy ~0.025 eV), LiBr molecules would typically be in low quantum states ($$n = 0, 1, 2$$), making them good approximations to quantum oscillators. The spacing of 0.070 eV is large compared to thermal energy, so quantum effects are observable in molecular spectroscopy.
 
 </div>
 </div>
@@ -273,9 +300,44 @@ A physicist is watching a 15-kg orangutan at a zoo swing lazily in a tire at the
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 2.21 \times 10^{34} \text{J} $$
-(b)  $$ 2.26 \times 10^{34} $$
-(c) No
+
+**Strategy**
+
+(a) The period $$T = 3.00$$ s gives frequency $$f = 1/T$$. Use $$\Delta E = hf$$. (b) Use $$E = (n + \frac{1}{2})hf$$ to solve for $$n$$. (c) Compare $$\Delta E$$ to the total energy.
+
+**Solution**
+
+(a) Frequency of oscillation:
+
+$$f = \frac{1}{T} = \frac{1}{3.00 \text{ s}} = 0.333 \text{ Hz}$$
+
+Energy difference between states:
+
+$$\Delta E = hf = (6.63 \times 10^{-34} \text{ J·s})(0.333 \text{ Hz}) = 2.21 \times 10^{-34} \text{ J}$$
+
+(b) From $$E = (n + \frac{1}{2})hf$$:
+
+$$5.00 = (n + \frac{1}{2})(2.21 \times 10^{-34})$$
+
+$$n + \frac{1}{2} = \frac{5.00}{2.21 \times 10^{-34}} = 2.26 \times 10^{34}$$
+
+$$n = 2.26 \times 10^{34} - 0.5 \approx 2.26 \times 10^{34}$$
+
+(c) **No, the quantization cannot be observed.**
+
+The ratio of energy step to total energy is:
+
+$$\frac{\Delta E}{E} = \frac{2.21 \times 10^{-34}}{5.00} = 4.4 \times 10^{-35}$$
+
+This is an utterly negligible fraction—less than one part in $$10^{34}$$!
+
+**Discussion**
+
+This problem illustrates the **correspondence principle**: quantum mechanics reduces to classical physics for macroscopic objects. The orangutan's swing has an enormous quantum number ($$n \sim 10^{34}$$), and the spacing between energy levels ($$2.21 \times 10^{-34}$$ J) is infinitesimally small compared to the 5 J total energy.
+
+To observe a discrete jump of $$2.21 \times 10^{-34}$$ J against a background of 5 J would be like trying to detect whether one atom was added to Earth—utterly impossible with any conceivable measurement apparatus. This is why we never notice quantization in everyday life: Planck's constant is so tiny that quantum jumps in macroscopic systems are far below any possible measurement precision.
+
+If Planck's constant were billions of times larger (say $$h \sim 10^{-6}$$ J·s), we would actually see the orangutan's swing restricted to discrete amplitudes, jerking from one allowed energy level to another!
 
 </div>
 </div>

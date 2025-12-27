@@ -153,7 +153,37 @@ Show that when light passes from air to water, its wavelength decreases to 0.750
 
 </div>
 <div class="solution" markdown="1">
- $$1/1.333=0.750 $$
+
+**Strategy**
+
+When light enters a medium, its wavelength changes according to the relationship $$\lambda_n = \lambda/n$$, where $$\lambda_n$$ is the wavelength in the medium, $$\lambda$$ is the wavelength in vacuum (or air), and $$n$$ is the index of refraction. For water, $$n = 1.333$$.
+
+**Solution**
+
+Given:
+- Index of refraction of water: $$n = 1.333$$
+
+The wavelength in water is related to the wavelength in air by:
+<div class="equation">
+ $$\lambda_{\text{water}} = \frac{\lambda_{\text{air}}}{n} = \frac{\lambda_{\text{air}}}{1.333}$$
+</div>
+
+Calculate the ratio:
+<div class="equation">
+ $$\frac{\lambda_{\text{water}}}{\lambda_{\text{air}}} = \frac{1}{1.333} = 0.750$$
+</div>
+
+Therefore:
+<div class="equation">
+ $$\lambda_{\text{water}} = 0.750 \times \lambda_{\text{air}}$$
+</div>
+
+**This shows that the wavelength in water is 0.750 times (or 75.0% of) its value in air.**
+
+**Discussion**
+
+The 25% reduction in wavelength occurs because light slows down when entering water. The speed of light in water is $$v = c/n = c/1.333 \approx 0.750c$$. Since the frequency remains constant when light enters a new medium (it's determined by the source), and $$v = f\lambda$$, a 25% reduction in speed must be accompanied by a 25% reduction in wavelength. This wavelength reduction is important in thin film interference and other wave phenomena involving light in different media.
+
 </div>
 </div>
 
@@ -199,7 +229,36 @@ What is the index of refraction of a material for which the wavelength of light 
 
 </div>
 <div class="solution" markdown="1">
-1\.49, Polystyrene
+
+**Strategy**
+
+We use the relationship $$\lambda_n = \lambda/n$$ to find the index of refraction $$n$$. Rearranging gives $$n = \lambda/\lambda_n$$. Given that $$\lambda_n = 0.671\lambda$$, we can find $$n$$ and compare it to known values for common materials.
+
+**Solution**
+
+Given:
+- $$\lambda_n = 0.671 \times \lambda$$
+
+From $$\lambda_n = \lambda/n$$:
+<div class="equation">
+ $$n = \frac{\lambda}{\lambda_n} = \frac{\lambda}{0.671\lambda} = \frac{1}{0.671}$$
+</div>
+
+<div class="equation">
+ $$n = 1.49$$
+</div>
+
+Comparing to known indices of refraction:
+- Water: $$n = 1.33$$
+- Glass (typical): $$n = 1.5-1.9$$
+- **Polystyrene**: $$n = 1.49$$
+- Plexiglass: $$n = 1.51$$
+
+**The material is most likely polystyrene, which has an index of refraction of 1.49.**
+
+**Discussion**
+
+Polystyrene is a common transparent plastic used in many applications including optical components, disposable containers, and laboratory equipment. The calculated index of refraction matches polystyrene almost exactly. While plexiglass (acrylic) has a similar value (1.51), the calculated value of 1.49 is closer to polystyrene. The wavelength reduction to 67.1% of its vacuum value is typical for transparent plastics and glasses, which generally have indices between 1.4 and 1.6.
 
 </div>
 </div>
@@ -245,7 +304,48 @@ What is the ratio of thicknesses of crown glass and water that would contain the
 
 </div>
 <div class="solution" markdown="1">
-0.877 glass to water
+
+**Strategy**
+
+The number of wavelengths that fit in a given thickness $$t$$ is $$N = t/\lambda_n$$. For the same number of wavelengths in both materials, we need $$t_{\text{glass}}/\lambda_{\text{glass}} = t_{\text{water}}/\lambda_{\text{water}}$$. Using $$\lambda_n = \lambda/n$$, we can find the thickness ratio.
+
+**Solution**
+
+Given:
+- Crown glass: $$n_{\text{glass}} = 1.52$$
+- Water: $$n_{\text{water}} = 1.333$$
+
+For the same number of wavelengths:
+<div class="equation">
+ $$\frac{t_{\text{glass}}}{\lambda_{\text{glass}}} = \frac{t_{\text{water}}}{\lambda_{\text{water}}}$$
+</div>
+
+Since $$\lambda_n = \lambda/n$$:
+<div class="equation">
+ $$\frac{t_{\text{glass}}}{\lambda/n_{\text{glass}}} = \frac{t_{\text{water}}}{\lambda/n_{\text{water}}}$$
+</div>
+
+Simplifying:
+<div class="equation">
+ $$\frac{t_{\text{glass}} \cdot n_{\text{glass}}}{\lambda} = \frac{t_{\text{water}} \cdot n_{\text{water}}}{\lambda}$$
+</div>
+
+<div class="equation">
+ $$t_{\text{glass}} \cdot n_{\text{glass}} = t_{\text{water}} \cdot n_{\text{water}}$$
+</div>
+
+Therefore:
+<div class="equation">
+ $$\frac{t_{\text{glass}}}{t_{\text{water}}} = \frac{n_{\text{water}}}{n_{\text{glass}}} = \frac{1.333}{1.52} = 0.877$$
+</div>
+
+**The ratio of crown glass thickness to water thickness is 0.877 (or approximately 7:8).**
+
+**Discussion**
+
+This result shows that crown glass needs to be only 87.7% as thick as water to contain the same number of wavelengths. This makes sense because crown glass has a higher index of refraction (1.52) than water (1.333), which means light wavelengths are more compressed in glass than in water. The higher the index of refraction, the shorter the wavelength becomes in that medium, so fewer physical distance is needed to accommodate a given number of wavelengths.
+
+This relationship is important in optical design, where the optical path length ($$n \times t$$) determines phase relationships in interference and other wave phenomena. Two different materials with different thicknesses can produce the same optical path length if the product $$nt$$ is equal for both.
 
 </div>
 </div>
