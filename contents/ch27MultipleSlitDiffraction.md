@@ -243,7 +243,48 @@ A diffraction grating has 2000 lines per centimeter. At what angle will the firs
 
 </div>
 <div class="solution" markdown="1">
- $$5.97\text{º} $$
+
+**Strategy**
+
+For a diffraction grating, maxima occur at angles satisfying $$d \sin \theta = m\lambda$$, where d is the spacing between adjacent slits (grating constant), m is the order, and λ is the wavelength. First, calculate d from the line density, then solve for θ with m = 1.
+
+**Solution**
+
+Given:
+- Line density: 2000 lines/cm
+- Wavelength: $$\lambda = 520 \text{ nm} = 520 \times 10^{-9} \text{ m}$$
+- Order: $$m = 1$$ (first-order maximum)
+
+Calculate the grating constant (slit separation):
+
+<div class="equation">
+$$d = \frac{1 \text{ cm}}{2000 \text{ lines}} = \frac{0.01 \text{ m}}{2000} = 5.00 \times 10^{-6} \text{ m}$$
+</div>
+
+For the first-order maximum:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{d} = \frac{(1)(520 \times 10^{-9})}{5.00 \times 10^{-6}} = \frac{520 \times 10^{-9}}{5.00 \times 10^{-6}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta = 0.104$$
+</div>
+
+<div class="equation">
+$$\theta = \arcsin(0.104) = 5.97°$$
+</div>
+
+**The first-order maximum for 520-nm green light occurs at 5.97°.**
+
+**Discussion**
+
+The small angle (5.97°) for the first-order maximum indicates that the grating constant (5.00 μm) is about 10 times the wavelength (520 nm). Diffraction gratings with 2000 lines/cm are relatively coarse gratings. Finer gratings (e.g., 10,000 lines/cm) would produce larger diffraction angles and better spectral separation. The green wavelength (520 nm) falls in the middle of the visible spectrum. Higher orders (m = 2, 3, ...) would appear at larger angles: the second order at about 11.96° and the third at about 18.05°.
+
 </div>
 </div>
 
