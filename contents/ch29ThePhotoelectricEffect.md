@@ -295,7 +295,36 @@ What is the longest-wavelength EM radiation that can eject a photoelectron from 
 
 </div>
 <div class="solution" markdown="1">
-263 nm
+
+**Strategy**
+
+The longest wavelength corresponds to the minimum photon energy needed to eject an electron, which equals the binding energy. We use $$E = hf = \frac{hc}{\lambda}$$ with $$E = \text{BE}$$.
+
+**Solution**
+
+At the threshold for photoemission, the photon energy equals the binding energy:
+
+<div class="equation">
+ $$\text{BE} = \frac{hc}{\lambda}$$
+</div>
+
+Solving for wavelength:
+
+<div class="equation">
+ $$\lambda = \frac{hc}{\text{BE}}$$
+</div>
+
+Using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$\lambda = \frac{1240 \text{ eV·nm}}{4.73 \text{ eV}} = 262 \text{ nm}$$
+</div>
+
+**Discussion**
+
+This wavelength of 262 nm is in the ultraviolet range, well below the visible spectrum which extends from approximately 380 nm (violet) to 760 nm (red). Silver requires UV radiation for the photoelectric effect because its binding energy (4.73 eV) is higher than the photon energies of visible light (1.63-3.26 eV). Photons with wavelengths shorter than 262 nm (higher energy) can eject electrons from silver, while longer wavelengths cannot. This high binding energy makes silver less suitable for photoelectric devices that operate with visible light but useful for UV detection applications.
+
+263 nm, no this is not visible (UV radiation)
 
 </div>
 </div>
@@ -346,6 +375,29 @@ What is the binding energy in eV of electrons in magnesium, if the longest-wavel
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+The longest wavelength that can eject electrons corresponds to photons with energy equal to the binding energy. We use $$\text{BE} = hf = \frac{hc}{\lambda}$$.
+
+**Solution**
+
+The binding energy equals the photon energy at threshold:
+
+<div class="equation">
+ $$\text{BE} = \frac{hc}{\lambda}$$
+</div>
+
+Using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$\text{BE} = \frac{1240 \text{ eV·nm}}{337 \text{ nm}} = 3.68 \text{ eV}$$
+</div>
+
+**Discussion**
+
+Magnesium has a binding energy of 3.68 eV, which falls between that of potassium (2.24 eV) and silver (4.73 eV). The threshold wavelength of 337 nm is in the ultraviolet range, just below the visible spectrum. This means magnesium requires UV light to exhibit the photoelectric effect and will not respond to visible light. This binding energy reflects the strength with which electrons are held in magnesium's outer shell and is important for applications in UV photodetectors and understanding magnesium's chemical properties.
+
 3.69 eV
 
 </div>
@@ -391,6 +443,29 @@ What is the maximum kinetic energy in eV of electrons ejected from sodium metal 
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Use the photoelectric equation $${\text{KE}}_e = hf - \text{BE}$$, where the photon energy is $$hf = \frac{hc}{\lambda}$$. Calculate the photon energy first, then subtract the binding energy.
+
+**Solution**
+
+First, calculate the photon energy using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{450 \text{ nm}} = 2.76 \text{ eV}$$
+</div>
+
+Now apply the photoelectric equation:
+
+<div class="equation">
+ $${\text{KE}}_e = E_{\text{photon}} - \text{BE} = 2.76 \text{ eV} - 2.28 \text{ eV} = 0.48 \text{ eV}$$
+</div>
+
+**Discussion**
+
+The 450-nm blue light photons have just barely enough energy (2.76 eV) to overcome sodium's binding energy (2.28 eV) and eject electrons with a small kinetic energy of 0.48 eV. This demonstrates that sodium is sensitive to visible light, making it useful for photoelectric applications. The small kinetic energy means these photoelectrons won't travel far and can be stopped by a retarding potential of only 0.48 V.
+
 0.483 eV
 
 </div>
@@ -436,6 +511,29 @@ Violet light of wavelength 400 nm ejects electrons with a maximum kinetic energy
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+Use the photoelectric equation $${\text{KE}}_e = hf - \text{BE}$$ and solve for the binding energy. First calculate the photon energy, then use the given kinetic energy to find BE.
+
+**Solution**
+
+Calculate the photon energy using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{400 \text{ nm}} = 3.10 \text{ eV}$$
+</div>
+
+Rearrange the photoelectric equation to solve for binding energy:
+
+<div class="equation">
+ $$\text{BE} = E_{\text{photon}} - {\text{KE}}_e = 3.10 \text{ eV} - 0.860 \text{ eV} = 2.24 \text{ eV}$$
+</div>
+
+**Discussion**
+
+This value of 2.24 eV matches the known work function of sodium within experimental uncertainty. The 400-nm violet photons carry 3.10 eV of energy, of which 2.24 eV is needed to overcome the binding and 0.860 eV goes into the electron's kinetic energy. This relatively low binding energy makes sodium highly sensitive to visible light, which is why sodium-based photocells are common in practical photoelectric devices. The measurement demonstrates how the photoelectric effect can be used to determine the work function of materials.
+
 2.25 eV
 
 </div>
@@ -481,6 +579,31 @@ What is the wavelength of EM radiation that ejects 2.00-eV electrons from calciu
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+The photon energy must equal the sum of binding energy and kinetic energy: $$E_{\text{photon}} = \text{BE} + {\text{KE}}_e$$. We then use $$\lambda = \frac{hc}{E_{\text{photon}}}$$ to find the wavelength.
+
+**Solution**
+
+The total photon energy needed is:
+
+<div class="equation">
+ $$E_{\text{photon}} = \text{BE} + {\text{KE}}_e = 2.71 \text{ eV} + 2.00 \text{ eV} = 4.71 \text{ eV}$$
+</div>
+
+Now find the wavelength using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$\lambda = \frac{hc}{E_{\text{photon}}} = \frac{1240 \text{ eV·nm}}{4.71 \text{ eV}} = 263 \text{ nm}$$
+</div>
+
+This wavelength is in the ultraviolet (UV) region of the electromagnetic spectrum.
+
+**Discussion**
+
+The 263-nm UV photons carry 4.71 eV of energy, with 2.71 eV used to overcome calcium's binding energy and 2.00 eV transferred to the electron as kinetic energy. This is well into the UV range (below 400 nm), meaning calcium requires UV radiation to produce photoelectrons with this much kinetic energy. Visible light photons lack sufficient energy for this process. The relatively high photon energy requirement demonstrates why UV radiation is more effective at causing the photoelectric effect than visible light for most metals.
+
 (a) 264 nm
 
 (b) Ultraviolet
@@ -528,6 +651,37 @@ What is the maximum velocity of electrons ejected from a material by 80-nm photo
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+First find the kinetic energy of the ejected electrons using $${\text{KE}}_e = hf - \text{BE}$$, then use $${\text{KE}} = \frac{1}{2}mv^2$$ to find velocity.
+
+**Solution**
+
+Calculate the photon energy using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{80 \text{ nm}} = 15.5 \text{ eV}$$
+</div>
+
+Find the kinetic energy of ejected electrons:
+
+<div class="equation">
+ $${\text{KE}}_e = E_{\text{photon}} - \text{BE} = 15.5 \text{ eV} - 4.73 \text{ eV} = 10.77 \text{ eV}$$
+</div>
+
+Convert to joules: $${\text{KE}}_e = 10.77 \text{ eV} \times 1.60 \times 10^{-19} \text{ J/eV} = 1.72 \times 10^{-18} \text{ J}$$
+
+Use $${\text{KE}} = \frac{1}{2}mv^2$$ to find velocity:
+
+<div class="equation">
+ $$v = \sqrt{\frac{2{\text{KE}}}{m_e}} = \sqrt{\frac{2(1.72 \times 10^{-18} \text{ J})}{9.11 \times 10^{-31} \text{ kg}}} = 1.94 \times 10^{6} \text{ m/s}$$
+</div>
+
+**Discussion**
+
+The 80-nm UV photons carry significant energy (15.5 eV), producing fast-moving photoelectrons with velocities near 2 million m/s—about 0.6% of the speed of light. This is fast enough that we're approaching the regime where relativistic effects begin to matter (though still well within the non-relativistic approximation). The high electron velocity demonstrates the substantial energy transfer possible with short-wavelength UV radiation, which is why UV photodetectors can produce strong electrical signals.
+
  $$ 1.95 \times 10^{6}  \text{m/s} $$
 </div>
 </div>
@@ -590,6 +744,43 @@ A laser with a power output of 2.00 mW at a wavelength of 400 nm is projected on
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Find the photon energy, then divide the total power by energy per photon to get photons/second. Assuming each photon ejects one electron gives electrons/second. (b) Find the kinetic energy per electron using the photoelectric equation, then multiply by the electron ejection rate.
+
+**Solution for (a)**
+
+Calculate the photon energy using $$hc = 1240 \text{ eV·nm}$$:
+
+<div class="equation">
+ $$E_{\text{photon}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{400 \text{ nm}} = 3.10 \text{ eV} = 4.96 \times 10^{-19} \text{ J}$$
+</div>
+
+Number of photons (and electrons) per second:
+
+<div class="equation">
+ $$N = \frac{P}{E_{\text{photon}}} = \frac{2.00 \times 10^{-3} \text{ W}}{4.96 \times 10^{-19} \text{ J}} = 4.03 \times 10^{15} \text{ electrons/s}$$
+</div>
+
+**Solution for (b)**
+
+Kinetic energy per electron:
+
+<div class="equation">
+ $${\text{KE}}_e = E_{\text{photon}} - \text{BE} = 3.10 \text{ eV} - 2.71 \text{ eV} = 0.39 \text{ eV} = 6.24 \times 10^{-20} \text{ J}$$
+</div>
+
+Power carried by electrons:
+
+<div class="equation">
+ $$P_e = N \times {\text{KE}}_e = (4.03 \times 10^{15} \text{ /s})(6.24 \times 10^{-20} \text{ J}) = 2.51 \times 10^{-4} \text{ W} = 0.251 \text{ mW}$$
+</div>
+
+**Discussion**
+
+The laser produces about 4 trillion electrons per second, but the electrons carry away only 0.251 mW—about 12.6% of the input power. The rest (1.75 mW, or 87.4%) goes into overcoming the binding energy and is converted to heat in the calcium metal. This illustrates the inefficiency of the photoelectric effect for power conversion: most of the photon energy is "wasted" overcoming the work function rather than creating useful kinetic energy in the photoelectrons.
+
 (a)  $$ 4.02 \times 10^{15}  \text{/s} $$
 (b) 0.256 mW
 
