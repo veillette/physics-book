@@ -335,6 +335,55 @@ $$f=4 \text{ Hz} $$
 The middle-C hammer of a piano hits two strings, producing beats of 1.50 Hz. One of the strings is tuned to 260.00 Hz. What frequencies could the other string have?
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+The beat frequency is the absolute value of the difference between two frequencies: $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|$$. Given that one string has frequency $${f}_{1}=260.00$$ Hz and the beat frequency is 1.50 Hz, the other string's frequency $${f}_{2}$$ could be either higher or lower than 260.00 Hz by 1.50 Hz.
+
+**Solution**
+
+From the beat frequency formula:
+
+<div class="equation">
+ $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|$$
+</div>
+
+<div class="equation">
+ $$1.50 \text{ Hz}=|260.00 \text{ Hz}-{f}_{2}|$$
+</div>
+
+This absolute value equation has two solutions:
+
+**Case 1:** $${f}_{2}$$ is higher than $${f}_{1}$$:
+
+<div class="equation">
+ $$1.50={f}_{2}-260.00$$
+</div>
+
+<div class="equation">
+ $${f}_{2}=260.00+1.50=261.50 \text{ Hz}$$
+</div>
+
+**Case 2:** $${f}_{2}$$ is lower than $${f}_{1}$$:
+
+<div class="equation">
+ $$1.50=260.00-{f}_{2}$$
+</div>
+
+<div class="equation">
+ $${f}_{2}=260.00-1.50=258.50 \text{ Hz}$$
+</div>
+
+**The other string could have a frequency of either 258.50 Hz or 261.50 Hz.**
+
+**Discussion**
+
+Both frequencies are physically possible and would produce the same beat frequency of 1.50 Hz. In piano tuning, this ambiguity is resolved by listening carefully or using a reference tuning fork. If the beats get faster when you slightly tighten the string (increasing its frequency), the string is currently below the target frequency (258.50 Hz). If the beats get slower, the string is above the target (261.50 Hz).
+
+The beat frequency of 1.50 Hz would be easily noticeable—the sound would pulse or throb 1.5 times per second, creating an unpleasant warbling effect. Piano tuners adjust strings until the beat frequency disappears completely, indicating the two strings are perfectly matched. For middle C, having both strings at exactly 260.00 Hz produces a pure, stable tone without the interference pattern that creates beats.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -383,6 +432,61 @@ The average frequency of 462 Hz is exactly midway between the two individual fre
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Twin jet engines on an airplane are producing an average sound frequency of 4100 Hz with a beat frequency of 0.500 Hz. What are their individual frequencies?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We're given the average frequency $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=4100$$ Hz and the beat frequency $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|=0.500$$ Hz. We can use these two equations to solve for the two individual frequencies $${f}_{1}$$ and $${f}_{2}$$.
+
+**Solution**
+
+From the average frequency:
+
+<div class="equation">
+ $$\frac{{f}_{1}+{f}_{2}}{2}=4100$$
+</div>
+
+<div class="equation">
+ $${f}_{1}+{f}_{2}=8200 \text{ Hz}$$
+</div>
+
+From the beat frequency (assuming $${f}_{2}>{f}_{1}$$):
+
+<div class="equation">
+ $${f}_{2}-{f}_{1}=0.500 \text{ Hz}$$
+</div>
+
+Now we have two equations with two unknowns. Adding them:
+
+<div class="equation">
+ $$({f}_{1}+{f}_{2})+({f}_{2}-{f}_{1})=8200+0.500$$
+</div>
+
+<div class="equation">
+ $$2{f}_{2}=8200.5$$
+</div>
+
+<div class="equation">
+ $${f}_{2}=4100.25 \text{ Hz}$$
+</div>
+
+From the first equation:
+
+<div class="equation">
+ $${f}_{1}=8200-{f}_{2}=8200-4100.25=4099.75 \text{ Hz}$$
+</div>
+
+**The two jet engines have frequencies of 4099.75 Hz and 4100.25 Hz (or 4.10 kHz ± 0.25 Hz).**
+
+**Discussion**
+
+The two engines produce sounds that are very close in frequency—differing by only 0.5 Hz out of about 4100 Hz, or about 0.012%. This small difference creates a beat frequency of 0.5 Hz, meaning the sound intensity would fluctuate twice per second (two complete beats per second).
+
+This beating effect would be audible to passengers and crew as a slow pulsing or throbbing in the engine noise. While not particularly disturbing at such a low beat frequency, pilots and mechanics monitor engine sounds for such beats because they can indicate that one engine is operating at slightly different conditions than the other—perhaps due to different fuel flow, temperature, or mechanical wear.
+
+The average frequency of 4100 Hz is in the upper range of human hearing and corresponds to a high-pitched whine characteristic of jet engines. The precision needed to match the two engines to better than 0.5 Hz at 4100 Hz demonstrates the remarkably uniform operating conditions modern jet engines can maintain.
 
 </div>
 </div>
@@ -445,6 +549,50 @@ The wave speed of 3.33 m/s is reasonable for a wave traveling on a stretched Sli
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Three adjacent keys on a piano (F, F-sharp, and G) are struck simultaneously, producing frequencies of 349, 370, and 392 Hz. What beat frequencies are produced by this discordant combination?
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+When three frequencies are present simultaneously, beats occur between each pair of frequencies. We need to calculate the beat frequency for all three possible pairs: F with F-sharp, F-sharp with G, and F with G. The beat frequency for each pair is the absolute value of the difference between their frequencies.
+
+**Solution**
+
+The three frequencies are:
+- F: $${f}_{1}=349$$ Hz
+- F-sharp: $${f}_{2}=370$$ Hz
+- G: $${f}_{3}=392$$ Hz
+
+**Beat frequency between F and F-sharp:**
+
+<div class="equation">
+ $${f}_{\text{B,12}}=|{f}_{2}-{f}_{1}|=|370-349|=21 \text{ Hz}$$
+</div>
+
+**Beat frequency between F-sharp and G:**
+
+<div class="equation">
+ $${f}_{\text{B,23}}=|{f}_{3}-{f}_{2}|=|392-370|=22 \text{ Hz}$$
+</div>
+
+**Beat frequency between F and G:**
+
+<div class="equation">
+ $${f}_{\text{B,13}}=|{f}_{3}-{f}_{1}|=|392-349|=43 \text{ Hz}$$
+</div>
+
+**The beat frequencies produced are 21 Hz, 22 Hz, and 43 Hz.**
+
+**Discussion**
+
+This combination produces three distinct beat frequencies simultaneously, creating a complex and dissonant sound. The 21 Hz and 22 Hz beats are in the range where they can be heard as distinct pulsations or roughness in the sound. The 43 Hz beat frequency is fast enough that it might be perceived more as a buzz or roughness rather than distinct pulses.
+
+Note that the beat frequency between F and G (43 Hz) equals the sum of the other two beat frequencies (21 + 22 = 43 Hz). This makes sense mathematically: $${f}_{\text{B,13}}=({f}_{3}-{f}_{2})+({f}_{2}-{f}_{1})={f}_{\text{B,23}}+{f}_{\text{B,12}}$$.
+
+The term "discordant" in the problem statement is appropriate—these three notes form a dissonant chord. While F and G are separated by a whole step (pleasant interval), adding F-sharp creates a semitone clash with both neighboring notes. The multiple beat frequencies create a harsh, unpleasant sound that lacks the smoothness of consonant harmonies. This is why such combinations are typically avoided in music except for special effects or in certain jazz and contemporary compositions where dissonance is used deliberately.
+
+Musicians and piano tuners can hear these beats clearly when tuning adjacent notes, and the presence of strong beats indicates the piano needs adjustment.
 
 </div>
 </div>
