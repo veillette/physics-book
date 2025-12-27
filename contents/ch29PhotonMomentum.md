@@ -272,6 +272,25 @@ Why don’t we feel the momentum of sunlight when we are on the beach?
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use the de Broglie relation for photons: $$p = \frac{h}{\lambda}$$. (b) Consider that momentum is inversely proportional to wavelength.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$p = \frac{h}{\lambda} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4.00 \times 10^{-2} \text{ m}} = 1.66 \times 10^{-32} \text{ kg·m/s}$$
+</div>
+
+**Solution for (b)**
+
+The momentum is very small because the wavelength is large (4.00 cm = 0.04 m). Since photon momentum is inversely proportional to wavelength ($$p = h/\lambda$$), long-wavelength radiation like microwaves carries very little momentum. This is about 20 orders of magnitude smaller than the momentum of a slowly moving baseball, making the momentum of individual microwave photons essentially negligible for any macroscopic application.
+
+**Discussion**
+
+This tiny momentum ($$1.66 \times 10^{-32}$$ kg·m/s) explains why radiation pressure from microwaves is unmeasurable in everyday situations. Even though a microwave oven might emit $$10^{29}$$ photons per second, the total momentum transfer per second (force) would only be about $$10^{-3}$$ N—roughly the weight of a mosquito. This is why we don't feel pushed by microwave ovens despite their high power output.
+
 (a)  $$ 1.66 \times 10^{-32}  \text{kg}\cdot \text{m/s} $$
 (b) The wavelength of microwave photons is large, so the momentum they carry is very small.
 
@@ -329,6 +348,33 @@ This 0.0100-nm photon is in the X-ray range with energy of 124 keV. Such photons
 
 </div>
 <div class="solution" markdown="1">
+
+**Strategy**
+
+(a) Use $$\lambda = \frac{h}{p}$$ to find wavelength from momentum. (b) Use $$E = pc$$ to find energy and convert to eV.
+
+**Solution for (a)**
+
+<div class="equation">
+ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \text{ J·s}}{5.00 \times 10^{-29} \text{ kg·m/s}} = 1.33 \times 10^{-5} \text{ m} = 13.3 \text{ μm}$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+ $$E = pc = (5.00 \times 10^{-29} \text{ kg·m/s})(3.00 \times 10^{8} \text{ m/s}) = 1.50 \times 10^{-20} \text{ J}$$
+</div>
+
+Converting to eV:
+
+<div class="equation">
+ $$E = \frac{1.50 \times 10^{-20} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 0.0938 \text{ eV}$$
+</div>
+
+**Discussion**
+
+This photon has a wavelength of 13.3 μm, placing it in the mid-infrared region of the spectrum. The very low momentum ($$5.00 \times 10^{-29}$$ kg·m/s) and correspondingly low energy (0.094 eV) are characteristic of IR radiation. Such photons are emitted by objects at room temperature and are used in thermal imaging cameras. The low energy means these photons cannot ionize atoms or break chemical bonds but can excite molecular vibrations.
+
 (a) 13.3 μm
 
 (b) $$ 9.38 \times 10^{-2} $$ eV
