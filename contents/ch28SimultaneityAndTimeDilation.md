@@ -460,9 +460,28 @@ How could you travel far into the future without aging significantly? Could this
 
 </div>
 <div class="solution" markdown="1">
-(a) 1.0328
 
-(b) 1.15
+**Strategy**
+
+Use the definition of the relativistic factor $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$ and substitute the given velocities to calculate the Lorentz factor for each case.
+
+**Solution**
+
+(a) For $$v = 0.250c$$:
+
+<div class="equation">
+$$\gamma = \frac{1}{\sqrt{1-\frac{(0.250c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.0625}} = \frac{1}{\sqrt{0.9375}} = \frac{1}{0.9682} = 1.033$$
+</div>
+
+(b) For $$v = 0.500c$$:
+
+<div class="equation">
+$$\gamma = \frac{1}{\sqrt{1-\frac{(0.500c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.2500}} = \frac{1}{\sqrt{0.7500}} = \frac{1}{0.8660} = 1.15$$
+</div>
+
+**Discussion**
+
+At 25% the speed of light, $$\gamma = 1.033$$, representing only a 3.3% increase from the non-relativistic value of 1. Time dilation and length contraction effects would be barely noticeable. However, at 50% the speed of light, $$\gamma = 1.15$$, meaning time dilation effects become significant—clocks would run 15% slower. This illustrates how relativistic effects increase rapidly as velocity approaches $$c$$. The difference between $$\gamma$$ values at 25% and 50% of $$c$$ is substantial, showing the non-linear nature of relativistic effects.
 
 </div>
 </div>
@@ -506,7 +525,33 @@ Particles called  $$\pi  $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 5.96 \times 10^{-8}  \text{s} $$
+
+**Strategy**
+
+The pion's rest lifetime ($$2.60 \times 10^{-8}$$ s) is the proper time $$\Delta t_0$$. The laboratory observes the dilated time $$\Delta t$$. Use $$\Delta t = \gamma \Delta t_0$$ where $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$.
+
+**Solution**
+
+First, calculate $$\gamma$$ for $$v = 2.70 \times 10^8$$ m/s:
+
+<div class="equation">
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(2.70 \times 10^8)^2}{(3.00 \times 10^8)^2}}} = \frac{1}{\sqrt{1-\frac{7.29 \times 10^{16}}{9.00 \times 10^{16}}}}$$
+</div>
+
+<div class="equation">
+$$\gamma = \frac{1}{\sqrt{1-0.810}} = \frac{1}{\sqrt{0.190}} = \frac{1}{0.4359} = 2.294$$
+</div>
+
+Now calculate the observed lifetime:
+
+<div class="equation">
+$$\Delta t = \gamma \Delta t_0 = (2.294)(2.60 \times 10^{-8} \text{ s}) = 5.96 \times 10^{-8} \text{ s}$$
+</div>
+
+**Discussion**
+
+The pion lives about 2.3 times longer as observed in the laboratory compared to its rest frame. This time dilation allows the pion to travel much farther before decaying: $$d = v\Delta t = (2.70 \times 10^8)(5.96 \times 10^{-8}) \approx 16.1$$ m in the lab frame, versus only about 7 m if there were no time dilation. This extended lifetime is crucial for detecting short-lived particles in accelerator experiments. The velocity $$v = 0.900c$$ places this pion firmly in the relativistic regime, where classical mechanics would give completely incorrect predictions for its range and detection probability.
+
 </div>
 </div>
 
@@ -549,7 +594,49 @@ A neutral  $$\pi  $$
 
 </div>
 <div class="solution" markdown="1">
- $$0.800c $$
+
+**Strategy**
+
+The particle's rest lifetime is the proper time $$\Delta t_0 = 0.840 \times 10^{-16}$$ s, and the laboratory measures $$\Delta t = 1.40 \times 10^{-16}$$ s. From $$\Delta t = \gamma \Delta t_0$$, we can find $$\gamma$$, then solve for velocity using $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$.
+
+**Solution**
+
+First, calculate $$\gamma$$:
+
+<div class="equation">
+$$\gamma = \frac{\Delta t}{\Delta t_0} = \frac{1.40 \times 10^{-16} \text{ s}}{0.840 \times 10^{-16} \text{ s}} = 1.667$$
+</div>
+
+Now use the definition of $$\gamma$$ to find $$v$$:
+
+<div class="equation">
+$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+</div>
+
+Squaring both sides:
+
+<div class="equation">
+$$\gamma^2 = \frac{1}{1-\frac{v^2}{c^2}}$$
+</div>
+
+Rearranging:
+
+<div class="equation">
+$$1 - \frac{v^2}{c^2} = \frac{1}{\gamma^2} = \frac{1}{(1.667)^2} = \frac{1}{2.779} = 0.3600$$
+</div>
+
+<div class="equation">
+$$\frac{v^2}{c^2} = 1 - 0.3600 = 0.6400$$
+</div>
+
+<div class="equation">
+$$v = c\sqrt{0.6400} = 0.800c$$
+</div>
+
+**Discussion**
+
+The neutral pion must be traveling at 80% the speed of light for its lifetime to be extended from 0.840 to 1.40 × 10⁻¹⁶ s—a factor of $$\gamma = 1.667$$. At this velocity, time dilation effects are substantial. Even though the pion's rest lifetime is incredibly short (less than a trillionth of a microsecond), time dilation allows it to travel a measurable distance: $$d = v\Delta t = (0.800)(3.00 \times 10^8)(1.40 \times 10^{-16}) \approx 3.4 \times 10^{-8}$$ m or 34 nanometers in the lab frame. Without relativistic time dilation, we could not explain how such short-lived particles travel detectable distances in accelerator experiments.
+
 </div>
 </div>
 
@@ -602,7 +689,47 @@ If relativistic effects are to be less than 1%, then  $$\gamma  $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 0.140c $$
+
+**Strategy**
+
+Given $$\gamma = 1.01$$, use the definition $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$ and solve for $$v$$.
+
+**Solution**
+
+Starting with:
+
+<div class="equation">
+$$1.01 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+</div>
+
+Square both sides:
+
+<div class="equation">
+$$(1.01)^2 = \frac{1}{1-\frac{v^2}{c^2}}$$
+</div>
+
+<div class="equation">
+$$1.0201 = \frac{1}{1-\frac{v^2}{c^2}}$$
+</div>
+
+Inverting:
+
+<div class="equation">
+$$1 - \frac{v^2}{c^2} = \frac{1}{1.0201} = 0.9803$$
+</div>
+
+<div class="equation">
+$$\frac{v^2}{c^2} = 1 - 0.9803 = 0.0197$$
+</div>
+
+<div class="equation">
+$$v = c\sqrt{0.0197} = 0.140c$$
+</div>
+
+**Discussion**
+
+At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000 km/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
+
 </div>
 </div>
 
@@ -654,9 +781,64 @@ At approximately 24% the speed of light, relativistic effects reach 3%. This cor
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 0.745c $$
-(b)  $$ 0.99995c $$
- (to five digits to show effect)
+
+**Strategy**
+
+For both parts, use $$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$ and solve for $$v$$ in terms of $$c$$.
+
+**Solution**
+
+(a) For $$\gamma = 1.50$$:
+
+<div class="equation">
+$$1.50 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+</div>
+
+Squaring both sides:
+
+<div class="equation">
+$$2.25 = \frac{1}{1-\frac{v^2}{c^2}}$$
+</div>
+
+<div class="equation">
+$$1 - \frac{v^2}{c^2} = \frac{1}{2.25} = 0.4444$$
+</div>
+
+<div class="equation">
+$$\frac{v^2}{c^2} = 1 - 0.4444 = 0.5556$$
+</div>
+
+<div class="equation">
+$$v = c\sqrt{0.5556} = 0.745c$$
+</div>
+
+(b) For $$\gamma = 100$$:
+
+<div class="equation">
+$$100 = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+</div>
+
+Squaring both sides:
+
+<div class="equation">
+$$10,000 = \frac{1}{1-\frac{v^2}{c^2}}$$
+</div>
+
+<div class="equation">
+$$1 - \frac{v^2}{c^2} = \frac{1}{10,000} = 0.0001$$
+</div>
+
+<div class="equation">
+$$\frac{v^2}{c^2} = 1 - 0.0001 = 0.9999$$
+</div>
+
+<div class="equation">
+$$v = c\sqrt{0.9999} = 0.99995c$$
+</div>
+
+**Discussion**
+
+Part (a) shows that $$\gamma = 1.5$$ (50% time dilation) occurs at about 74.5% the speed of light. At this velocity, clocks run at two-thirds their normal rate. Part (b) demonstrates extreme relativistic effects: at $$\gamma = 100$$, the velocity is 99.995% of $$c$$—incredibly close to the speed of light. At this speed, time dilation is dramatic: a clock moving at this speed would tick 100 times slower than a stationary clock. The difference between 0.745c and 0.99995c seems modest (about 25% of $$c$$), but the time dilation factor increases from 1.5 to 100—nearly 67-fold! This illustrates how $$\gamma$$ grows increasingly steep as $$v$$ approaches $$c$$, making it progressively harder to accelerate particles to higher speeds. Such extreme velocities ($$\gamma = 100$$) are routinely achieved in particle accelerators like CERN's LHC, where protons reach energies corresponding to $$\gamma > 7000$$.
 
 </div>
 </div>
