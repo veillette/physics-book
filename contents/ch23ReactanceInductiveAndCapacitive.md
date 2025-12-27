@@ -374,7 +374,7 @@ Given:
 Rearranging the inductive reactance equation:
 
 <div class="equation">
-$$f=\frac{{X}_{L}}{2\pi L}$$
+{% raw %}$$f=\frac{{X}_{L}}{2\pi L}$${% endraw %}
 </div>
 
 Substituting the values:
@@ -414,7 +414,7 @@ Given:
 Rearranging for $$L$$:
 
 <div class="equation">
-$$L=\frac{{X}_{L}}{2\pi f}$$
+{% raw %}$$L=\frac{{X}_{L}}{2\pi f}$${% endraw %}
 </div>
 
 Substituting the values:
@@ -521,7 +521,7 @@ This is a very low frequency (about 8 Hz), well below the range of common AC pow
 <div class="solution" markdown="1">
 **Strategy**
 
-(a) First calculate the inductive reactance using $${X}_{L}=2\pi fL$$, then find the current using $$I=\frac{V}{{X}_{L}}$$.
+(a) First calculate the inductive reactance using $${X}_{L}=2\pi fL$$, then find the current using {% raw %}$$I=\frac{V}{{X}_{L}}$${% endraw %}.
 (b) Repeat the calculation with the new frequency.
 
 **Solution**
@@ -540,7 +540,7 @@ $${X}_{L}=2\pi fL=2\pi (60.0 \text{ Hz})(0.500 \text{ H})=188 \text{ Ω}$$
 Now find the current:
 
 <div class="equation">
-$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{188 \text{ Ω}}=2.55 \text{ A}$$
+{% raw %}$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{188 \text{ Ω}}=2.55 \text{ A}$${% endraw %}
 </div>
 
 **(b)** At $$f = 100 \text{ kHz} = 1.00 \times 10^5 \text{ Hz}$$:
@@ -550,7 +550,7 @@ $${X}_{L}=2\pi fL=2\pi (1.00 \times 10^5 \text{ Hz})(0.500 \text{ H})=3.14 \time
 </div>
 
 <div class="equation">
-$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{3.14 \times 10^5 \text{ Ω}}=1.53 \times 10^{-3} \text{ A}=1.53 \text{ mA}$$
+{% raw %}$$I=\frac{V}{{X}_{L}}=\frac{480 \text{ V}}{3.14 \times 10^5 \text{ Ω}}=1.53 \times 10^{-3} \text{ A}=1.53 \text{ mA}$${% endraw %}
 </div>
 
 **Discussion**
@@ -575,7 +575,7 @@ The inductor exhibits dramatically different behavior at the two frequencies. At
 <div class="solution" markdown="1">
 **Strategy**
 
-(a) Calculate the capacitive reactance using $${X}_{C}=\frac{1}{2\pi fC}$$, then find the current using $$I=\frac{V}{{X}_{C}}$$.
+(a) Calculate the capacitive reactance using $${X}_{C}=\frac{1}{2\pi fC}$$, then find the current using {% raw %}$$I=\frac{V}{{X}_{C}}$${% endraw %}.
 (b) Repeat the calculation with the new frequency.
 
 **Solution**
@@ -594,7 +594,7 @@ $${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (60.0 \text{ Hz})(0.250 \times 10^{-6}
 Now find the current:
 
 <div class="equation">
-$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{1.06 \times 10^4 \text{ Ω}}=0.0453 \text{ A}=45.3 \text{ mA}$$
+{% raw %}$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{1.06 \times 10^4 \text{ Ω}}=0.0453 \text{ A}=45.3 \text{ mA}$${% endraw %}
 </div>
 
 **(b)** At $$f = 25.0 \text{ kHz} = 2.50 \times 10^4 \text{ Hz}$$:
@@ -604,7 +604,7 @@ $${X}_{C}=\frac{1}{2\pi fC}=\frac{1}{2\pi (2.50 \times 10^4 \text{ Hz})(0.250 \t
 </div>
 
 <div class="equation">
-$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{25.5 \text{ Ω}}=18.8 \text{ A}$$
+{% raw %}$$I=\frac{V}{{X}_{C}}=\frac{480 \text{ V}}{25.5 \text{ Ω}}=18.8 \text{ A}$${% endraw %}
 </div>
 
 **Discussion**
@@ -628,7 +628,7 @@ A 20.0 kHz, 16.0 V source connected to an inductor produces a 2.00 A current. Wh
 <div class="solution" markdown="1">
 **Strategy**
 
-First find the inductive reactance using $$I=\frac{V}{{X}_{L}}$$, then use $${X}_{L}=2\pi fL$$ to find the inductance.
+First find the inductive reactance using {% raw %}$$I=\frac{V}{{X}_{L}}$${% endraw %}, then use $${X}_{L}=2\pi fL$$ to find the inductance.
 
 **Solution**
 
@@ -646,7 +646,7 @@ $${X}_{L}=\frac{V}{I}=\frac{16.0 \text{ V}}{2.00 \text{ A}}=8.00 \text{ Ω}$$
 Now solve for inductance:
 
 <div class="equation">
-$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00}{1.26 \times 10^5}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$$
+{% raw %}$$L=\frac{{X}_{L}}{2\pi f}=\frac{8.00 \text{ Ω}}{2\pi (2.00 \times 10^4 \text{ Hz})}=\frac{8.00}{1.26 \times 10^5}=6.37 \times 10^{-5} \text{ H}=63.7 \text{ µH}$${% endraw %}
 </div>
 
 **Discussion**
@@ -668,7 +668,7 @@ A 20.0 Hz, 16.0 V source produces a 2.00 mA current when connected to a capacito
 <div class="solution" markdown="1">
 **Strategy**
 
-First find the capacitive reactance using $$I=\frac{V}{{X}_{C}}$$, then use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the capacitance.
+First find the capacitive reactance using {% raw %}$$I=\frac{V}{{X}_{C}}$${% endraw %}, then use $${X}_{C}=\frac{1}{2\pi fC}$$ to find the capacitance.
 
 **Solution**
 
@@ -721,7 +721,7 @@ This is a reasonable capacitance value, just under 1 microfarad. At the low freq
 Solving for inductance:
 
 <div class="equation">
-$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000}{9.42 \times 10^4}=0.0212 \text{ H}=21.2 \text{ mH}$$
+{% raw %}$$L=\frac{{X}_{L}}{2\pi f}=\frac{2.00 \times 10^3 \text{ Ω}}{2\pi (1.50 \times 10^4 \text{ Hz})}=\frac{2000}{9.42 \times 10^4}=0.0212 \text{ H}=21.2 \text{ mH}$${% endraw %}
 </div>
 
 **(b)** At $$f = 60.0 \text{ Hz}$$:
@@ -852,7 +852,7 @@ about this result? (c) Which assumption or premise is responsible?
 <div class="solution" markdown="1">
 **Strategy**
 
-(a) Find the capacitive reactance from $$I=\frac{V}{{X}_{C}}$$, then calculate the capacitance from $${X}_{C}=\frac{1}{2\pi fC}$$.
+(a) Find the capacitive reactance from {% raw %}$$I=\frac{V}{{X}_{C}}$${% endraw %}, then calculate the capacitance from $${X}_{C}=\frac{1}{2\pi fC}$$.
 (b) Evaluate whether the calculated capacitance is physically reasonable for an EEG application.
 (c) Identify which parameter is unreasonable.
 

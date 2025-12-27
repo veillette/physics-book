@@ -438,14 +438,14 @@ Twin jet engines on an airplane are producing an average sound frequency of 4100
 
 **Strategy**
 
-We're given the average frequency $${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=4100$$ Hz and the beat frequency $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|=0.500$$ Hz. We can use these two equations to solve for the two individual frequencies $${f}_{1}$$ and $${f}_{2}$$.
+We're given the average frequency {% raw %}$${f}_{\text{ave}}=\frac{{f}_{1}+{f}_{2}}{2}=4100$${% endraw %} Hz and the beat frequency $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|=0.500$$ Hz. We can use these two equations to solve for the two individual frequencies $${f}_{1}$$ and $${f}_{2}$$.
 
 **Solution**
 
 From the average frequency:
 
 <div class="equation">
- $$\frac{{f}_{1}+{f}_{2}}{2}=4100$$
+ {% raw %}$$\frac{{f}_{1}+{f}_{2}}{2}=4100$${% endraw %}
 </div>
 
 <div class="equation">
