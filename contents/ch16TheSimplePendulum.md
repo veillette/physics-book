@@ -437,12 +437,82 @@ The frequency of 1.57 Hz means the parakeets complete about 1.6 swings per secon
 
 </div>
 <div class="solution" markdown="1">
-(a) 2.99541 s
 
-(b) Since the period is related to the square root of the acceleration of
-gravity, when the acceleration changes by 1% the period changes by $${\left(
-0.01 \right)}^{2}=0.01\% $$ so it is necessary to have at least 4 digits after
-the decimal to see the changes.
+**Strategy**
+
+For part (a), the period of a simple pendulum is $$T=2\pi\sqrt{\frac{L}{g}}$$. The length $$L$$ remains constant when the pendulum is moved, so we can use the ratio of periods at different gravitational accelerations: $$\frac{T_2}{T_1}=\sqrt{\frac{g_1}{g_2}}$$. For part (b), we analyze how the fractional change in $$g$$ affects the fractional change in $$T$$ through the square root relationship.
+
+**Solution**
+
+**(a)** From the period formula $$T=2\pi\sqrt{\frac{L}{g}}$$, we can write:
+
+<div class="equation">
+ $$\frac{T_2}{T_1}=\sqrt{\frac{g_1}{g_2}}$$
+</div>
+
+Solving for $$T_2$$:
+
+<div class="equation">
+ $$T_2=T_1\sqrt{\frac{g_1}{g_2}}$$
+</div>
+
+Substituting the given values:
+- $$T_1=3.00000$$ s
+- $$g_1=9.79$$ m/s²
+- $$g_2=9.82$$ m/s²
+
+<div class="equation">
+ $$T_2=(3.00000 \text{ s})\sqrt{\frac{9.79}{9.82}}$$
+</div>
+
+<div class="equation">
+ $$T_2=(3.00000)\sqrt{0.996945}$$
+</div>
+
+<div class="equation">
+ $$T_2=(3.00000)(0.998469)=2.99541 \text{ s}$$
+</div>
+
+**The new period is 2.99541 s.**
+
+**(b)** The period depends on $$g^{-1/2}$$, so a small change in $$g$$ produces a change in $$T$$ that is half as large (in fractional terms):
+
+<div class="equation">
+ $$\frac{\Delta T}{T}\approx -\frac{1}{2}\frac{\Delta g}{g}$$
+</div>
+
+In this problem:
+
+<div class="equation">
+ $$\frac{\Delta g}{g}=\frac{9.82-9.79}{9.79}=\frac{0.03}{9.79}=0.003065=0.3065\%$$
+</div>
+
+The fractional change in period is:
+
+<div class="equation">
+ $$\frac{\Delta T}{T}\approx -\frac{1}{2}(0.003065)=-0.001533=-0.1533\%$$
+</div>
+
+Change in period:
+
+<div class="equation">
+ $$\Delta T=(3.00000)(-0.001533)=-0.00460 \text{ s}$$
+</div>
+
+**Discussion**
+
+Part (a): The new period (2.99541 s) is slightly shorter than the original (3.00000 s) by about 0.00459 s or 0.15%. This makes physical sense: stronger gravity (9.82 vs. 9.79 m/s²) pulls the pendulum back toward equilibrium more forcefully, causing it to oscillate faster with a shorter period.
+
+Part (b): The precision requirement stems from the square root relationship. When $$g$$ changes by 0.31%, the period changes by only half that amount (0.15%). To detect a 0.15% change in a 3-second period (which is 0.0046 s), we need at least 5 significant figures, or 5 decimal places in this case.
+
+This problem illustrates why precision pendulum clocks are sensitive to location. A pendulum clock calibrated at sea level ($$g \approx 9.81$$ m/s²) would run slow if moved to high altitude (lower $$g$$) or fast if moved to a location with higher $$g$$ (like near the poles or in a valley). Historical timekeepers had to account for this when using pendulum clocks for navigation or scientific measurements.
+
+The small difference in $$g$$ (9.82 vs. 9.79 m/s²) might arise from:
+- Different latitudes (gravity is stronger at poles than equator)
+- Different elevations (gravity decreases with altitude)
+- Local geological variations (dense rock formations increase $$g$$)
+
+This high precision requirement is why atomic clocks, which don't depend on gravity, have replaced pendulums for scientific timekeeping.
 
 </div>
 </div>
