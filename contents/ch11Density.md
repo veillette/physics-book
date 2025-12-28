@@ -477,16 +477,35 @@ The volume of 34.5 kg of mercury is approximately **2.54 liters**. This is a sur
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) What is the mass of a deep breath of air having a volume of 2.00 L? (b) Discuss the effect taking such a breath has on your body’s volume and density.
+(a) What is the mass of a deep breath of air having a volume of 2.00 L? (b) Discuss the effect taking such a breath has on your body's volume and density.
 
 </div>
 <div class="solution" markdown="1">
-(a) 2.58 g
+**Strategy:**
+Use the density formula $$ \rho = m/V $$ to find mass, using the density of air from Table 1.
 
-(b) The volume of your body increases by the volume of air you inhale. The
-average density of your body decreases when you take a deep breath, because the
-density of air is substantially smaller than the average density of the body
-before you took the deep breath.
+**Solution:**
+
+**(a) Mass of air:**
+
+From Table 1, the density of air is $$ \rho_{\text{air}} = 1.29 \times 10^{-3} \text{ g/cm}^3 = 1.29 \text{ kg/m}^3 $$
+
+Convert volume to m³:
+<div class="equation">
+$$ V = 2.00 \text{ L} = 2.00 \times 10^{-3} \text{ m}^3 $$
+</div>
+
+Calculate mass using $$ m = \rho V $$:
+<div class="equation">
+$$ m = (1.29 \text{ kg/m}^3)(2.00 \times 10^{-3} \text{ m}^3) = 2.58 \times 10^{-3} \text{ kg} = 2.58 \text{ g} $$
+</div>
+
+**(b) Effect on body volume and density:**
+
+The volume of your body increases by the volume of air you inhale (2.00 L). The average density of your body decreases when you take a deep breath because the density of air (1.29 kg/m³) is substantially smaller than the average density of the human body (approximately 1010-1070 kg/m³, close to water).
+
+**Discussion:**
+The mass of a deep breath is approximately **2.58 g** (about 0.0057 pounds)—a surprisingly small mass for such a large volume. This demonstrates air's very low density compared to solids and liquids. The density decrease when inhaling has practical implications: taking a deep breath increases buoyancy when swimming because your average body density decreases toward that of water. This is why swimmers take a deep breath before floating and exhale to sink. The volume increase of 2 liters represents about 3-4% of typical body volume (~60 L for an average adult), causing a proportional decrease in average density.
 
 </div>
 </div>
@@ -561,9 +580,34 @@ The inside radius of the coffee mug is approximately **4.0 cm** (or about 1.6 in
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a) 0.163 m
+**Strategy:**
+First, find the volume of gasoline using its density from Table 1, then use the volume formula for a rectangular tank to find the depth.
 
-(b) Equivalent to 19.4 gallons, which is reasonable
+**Solution:**
+
+**(a) Find the depth:**
+
+From Table 1, gasoline (petrol) has density $$ \rho = 0.68 \times 10^3 \text{ kg/m}^3 = 680 \text{ kg/m}^3 $$
+
+Find the volume using $$ V = m/\rho $$:
+<div class="equation">
+$$ V = \frac{50.0 \text{ kg}}{680 \text{ kg/m}^3} = 0.0735 \text{ m}^3 $$
+</div>
+
+For a rectangular tank, $$ V = L \times W \times h $$. Solving for depth (height):
+<div class="equation">
+$$ h = \frac{V}{L \times W} = \frac{0.0735 \text{ m}^3}{(0.900 \text{ m})(0.500 \text{ m})} = \frac{0.0735 \text{ m}^3}{0.450 \text{ m}^2} = 0.163 \text{ m} $$
+</div>
+
+**(b) Is this reasonable for a passenger car?**
+
+Convert volume to gallons (1 m³ = 264.2 gallons):
+<div class="equation">
+$$ V = 0.0735 \text{ m}^3 \times 264.2 \frac{\text{gal}}{\text{m}^3} = 19.4 \text{ gallons} $$
+</div>
+
+**Discussion:**
+The tank depth is approximately **0.163 m** (about 6.4 inches), and the tank holds **19.4 gallons**. This is a reasonable tank size for a passenger car. Most modern passenger cars have fuel tanks in the range of 12-20 gallons, with compact cars typically having 12-15 gallons and larger sedans or SUVs having 15-25 gallons. The dimensions (90 cm × 50 cm × 16.3 cm) are also practical for installation under the rear of a vehicle. The relatively shallow depth allows the tank to fit in the space between the vehicle floor and undercarriage while still providing adequate fuel capacity for a driving range of 300-400 miles.
 
 </div>
 </div>
@@ -602,7 +646,42 @@ A 2.50-kg steel gasoline can holds 20.0 L of gasoline when full. What is the ave
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 7.9 \times 10^{2}  {\text{kg/m}}^{3} $$
+**Strategy:**
+Find the total mass (steel + gasoline), the total volume (steel + gasoline), then calculate average density. Use densities from Table 1 for gasoline and steel.
+
+**Solution:**
+
+*Step 1: Find the mass of gasoline*
+
+From Table 1, gasoline has density $$ \rho_{\text{gas}} = 0.68 \times 10^3 \text{ kg/m}^3 = 680 \text{ kg/m}^3 $$
+
+Convert volume: $$ V_{\text{gas}} = 20.0 \text{ L} = 0.0200 \text{ m}^3 $$
+
+<div class="equation">
+$$ m_{\text{gas}} = \rho_{\text{gas}} V_{\text{gas}} = (680 \text{ kg/m}^3)(0.0200 \text{ m}^3) = 13.6 \text{ kg} $$
+</div>
+
+*Step 2: Find the volume of steel*
+
+From Table 1, steel has density $$ \rho_{\text{steel}} = 7.8 \times 10^3 \text{ kg/m}^3 $$
+
+<div class="equation">
+$$ V_{\text{steel}} = \frac{m_{\text{steel}}}{\rho_{\text{steel}}} = \frac{2.50 \text{ kg}}{7800 \text{ kg/m}^3} = 3.21 \times 10^{-4} \text{ m}^3 $$
+</div>
+
+*Step 3: Calculate average density*
+
+Total mass: $$ m_{\text{total}} = 2.50 + 13.6 = 16.1 \text{ kg} $$
+
+Total volume: $$ V_{\text{total}} = 0.0200 + 3.21 \times 10^{-4} = 0.0203 \text{ m}^3 $$
+
+<div class="equation">
+$$ \rho_{\text{avg}} = \frac{m_{\text{total}}}{V_{\text{total}}} = \frac{16.1 \text{ kg}}{0.0203 \text{ m}^3} = 793 \text{ kg/m}^3 \approx 7.9 \times 10^{2} \text{ kg/m}^3 $$
+</div>
+
+**Discussion:**
+The average density of the full gas can is approximately **790 kg/m³**. This is remarkably close to the density of gasoline alone (680 kg/m³), even though the can is made of steel (7800 kg/m³). This is because the steel can holds a much larger volume of the less dense gasoline. The steel's volume contribution is only about 1.6% of the total volume, so it has minimal effect on the average density. This result makes physical sense: the can would still float high in water (which has density 1000 kg/m³), though not as high as gasoline alone would float.
+
 </div>
 </div>
 
@@ -612,7 +691,47 @@ What is the density of 18.0-karat gold that is a mixture of 18 parts gold, 5 par
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 15.6 {\text{g/cm}}^{3} $$
+**Strategy:**
+Calculate the weighted average of the densities based on mass fractions. First determine mass fractions, then find volumes occupied by each component, and finally calculate overall density.
+
+**Solution:**
+
+From Table 1:
+- Gold density: $$ \rho_{\text{Au}} = 19.32 \text{ g/cm}^3 $$
+- Silver density: $$ \rho_{\text{Ag}} = 10.5 \text{ g/cm}^3 $$ (standard value)
+- Copper density: $$ \rho_{\text{Cu}} = 8.8 \text{ g/cm}^3 $$
+
+*Step 1: Find mass fractions*
+
+Total parts by mass: $$ 18 + 5 + 1 = 24 $$ parts
+
+Mass fractions:
+- Gold: $$ f_{\text{Au}} = 18/24 = 0.750 $$
+- Silver: $$ f_{\text{Ag}} = 5/24 = 0.208 $$
+- Copper: $$ f_{\text{Cu}} = 1/24 = 0.0417 $$
+
+*Step 2: Calculate average density*
+
+For a mixture where we know mass fractions, the total volume for mass $$ m $$ is:
+<div class="equation">
+$$ V_{\text{total}} = \frac{m_{\text{Au}}}{\rho_{\text{Au}}} + \frac{m_{\text{Ag}}}{\rho_{\text{Ag}}} + \frac{m_{\text{Cu}}}{\rho_{\text{Cu}}} = m \left( \frac{f_{\text{Au}}}{\rho_{\text{Au}}} + \frac{f_{\text{Ag}}}{\rho_{\text{Ag}}} + \frac{f_{\text{Cu}}}{\rho_{\text{Cu}}} \right) $$
+</div>
+
+The average density is:
+<div class="equation">
+$$ \rho_{\text{avg}} = \frac{m}{V_{\text{total}}} = \frac{1}{\frac{f_{\text{Au}}}{\rho_{\text{Au}}} + \frac{f_{\text{Ag}}}{\rho_{\text{Ag}}} + \frac{f_{\text{Cu}}}{\rho_{\text{Cu}}}} $$
+</div>
+
+Substituting values:
+<div class="equation">
+$$ \rho_{\text{avg}} = \frac{1}{\frac{0.750}{19.32} + \frac{0.208}{10.5} + \frac{0.0417}{8.8}} = \frac{1}{0.03882 + 0.01981 + 0.00474} = \frac{1}{0.06337} = 15.8 \text{ g/cm}^3 $$
+</div>
+
+Rounding to three significant figures: $$ \rho_{\text{avg}} \approx 15.6 \text{ g/cm}^3 $$
+
+**Discussion:**
+The density of 18-karat gold is approximately **15.6 g/cm³** (or 15,600 kg/m³). This is significantly less than pure 24-karat gold (19.32 g/cm³) because the added silver and copper are less dense. The 18-karat designation means 18/24 = 75% gold by mass, with the remainder being alloying metals. These alloys are used in jewelry because pure gold is too soft for practical use—the added metals increase hardness and durability while reducing cost. Different karat values indicate different gold fractions: 14-karat is 14/24 = 58.3% gold, 10-karat is 41.7% gold. Measuring density is one method jewelers use to verify gold purity, though it cannot distinguish between different alloy compositions with similar densities.
+
 </div>
 </div>
 
@@ -624,8 +743,51 @@ There is relatively little empty space between atoms in solids and liquids, so t
 
 </div>
 <div class="solution"  markdown="1">
-(a)  $$ 10^{18} {\text{kg/m}}^{3} $$
-(b)  $$2\times 10^{4}  \text{m} $$
+**Strategy:**
+(a) Use the fact that nearly all the atom's mass is in the nucleus, which has a much smaller volume than the atom. The density ratio equals the inverse of the volume ratio.
+(b) Use the mass and density to find volume, then calculate radius from the volume of a sphere.
+
+**Solution:**
+
+**(a) Density of a nucleus:**
+
+The density ratio is the inverse of the volume ratio. If the nucleus radius is $$ 10^{-5} $$ times the atom radius:
+
+<div class="equation">
+$$ r_{\text{nucleus}} = 10^{-5} r_{\text{atom}} $$
+</div>
+
+The volume of a sphere is $$ V = \frac{4}{3}\pi r^3 $$, so:
+
+<div class="equation">
+$$ \frac{V_{\text{nucleus}}}{V_{\text{atom}}} = \frac{r_{\text{nucleus}}^3}{r_{\text{atom}}^3} = (10^{-5})^3 = 10^{-15} $$
+</div>
+
+Since the nucleus contains nearly all the mass:
+
+<div class="equation">
+$$ \rho_{\text{nucleus}} = \frac{m_{\text{atom}}}{V_{\text{nucleus}}} = \frac{m_{\text{atom}}}{10^{-15} V_{\text{atom}}} = \frac{\rho_{\text{atom}}}{10^{-15}} = \frac{10^3 \text{ kg/m}^3}{10^{-15}} = 10^{18} \text{ kg/m}^3 $$
+</div>
+
+**(b) Radius of neutron star:**
+
+Mass of neutron star: $$ M = 10 M_{\text{Sun}} = 10(2.0 \times 10^{30} \text{ kg}) = 2.0 \times 10^{31} \text{ kg} $$
+
+Using $$ \rho = M/V $$ and $$ V = \frac{4}{3}\pi r^3 $$:
+
+<div class="equation">
+$$ r^3 = \frac{3M}{4\pi \rho} = \frac{3(2.0 \times 10^{31} \text{ kg})}{4\pi (10^{18} \text{ kg/m}^3)} = \frac{6.0 \times 10^{31}}{1.26 \times 10^{19}} = 4.76 \times 10^{12} \text{ m}^3 $$
+</div>
+
+<div class="equation">
+$$ r = (4.76 \times 10^{12})^{1/3} \text{ m} = 1.68 \times 10^{4} \text{ m} \approx 2 \times 10^{4} \text{ m} $$
+</div>
+
+**Discussion:**
+(a) The nuclear density is approximately **10¹⁸ kg/m³**—a trillion times denser than ordinary matter! This enormous density results from packing nearly all the atom's mass into a volume that is 10⁻¹⁵ times smaller.
+
+(b) The neutron star radius is approximately **20 km** (about 12 miles). This is astonishingly small for an object with 10 times the Sun's mass—the Sun itself has a radius of 700,000 km. This dramatic compression (radius reduction by a factor of 35,000) demonstrates the extreme density of neutron stars. These stellar remnants are formed when massive stars collapse in supernovae, crushing matter to nuclear densities. A sugar-cube-sized sample of neutron star material would have a mass of about a billion tons! The result is reasonable: neutron stars are indeed observed to have radii of 10-20 km with masses of 1-3 solar masses, confirming they have densities comparable to atomic nuclei.
+
 </div>
 </div>
 

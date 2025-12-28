@@ -603,11 +603,47 @@ axis.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 2.66 \times 10^{40}\kg \cdot \mms $$
 
-(b) $$ 7.07 \times 10^{33}\kg \cdot \mms $$ The angular momentum of the Earth in
-its orbit around the Sun is $$ 3.77 \times 10^{6} $$ times larger than the
-angular momentum of the Earth around its axis.
+**Strategy**
+
+For part (a), we treat Earth as a point mass orbiting the Sun and use L = mvr, where m is Earth's mass, v is its orbital velocity, and r is the orbital radius. For part (b), we compare this to Earth's rotational angular momentum calculated in the example in this section.
+
+**Solution**
+
+**(a)** Data for Earth's orbit:
+- Mass: M = 5.97 × 10²⁴ kg
+- Orbital radius: r = 1.50 × 10¹¹ m (average distance to Sun)
+- Orbital period: T = 365.25 days = 3.156 × 10⁷ s
+
+First, find Earth's orbital velocity:
+
+<div class="equation">
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 \s} = 2.98 \times 10^4 \text{ m/s} $$
+</div>
+
+The orbital angular momentum (treating Earth as a point mass):
+
+<div class="equation">
+$$ L_{\text{orbit}} = Mvr = (5.97 \times 10^{24} \kg)(2.98 \times 10^4 \text{ m/s})(1.50 \times 10^{11} \m) = 2.66 \times 10^{40} \kg \cdot \mms $$
+</div>
+
+**(b)** From the example earlier in this section, Earth's rotational angular momentum is:
+
+<div class="equation">
+$$ L_{\text{spin}} = 7.07 \times 10^{33} \kg \cdot \mms $$
+</div>
+
+The ratio is:
+
+<div class="equation">
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.66 \times 10^{40}}{7.07 \times 10^{33}} = 3.77 \times 10^6 $$
+</div>
+
+Earth's orbital angular momentum is about 3.77 million times larger than its rotational angular momentum.
+
+**Discussion**
+
+The enormous difference between orbital and rotational angular momentum reflects both Earth's large orbital radius (150 million km) compared to its own radius (6,376 km) and its slower rotation (once per day) compared to orbital motion (once per year). This huge orbital angular momentum is extremely well conserved—it would take an enormous external torque to change Earth's orbit significantly.
 
 </div>
 </div>
@@ -683,7 +719,28 @@ Suppose you start an antique car by exerting a force of 300 N on its crank for 0
 
 </div>
 <div class="solution" markdown="1">
- $$ 22.5 \kg \cdot \mms $$
+
+**Strategy**
+
+We use the relationship between torque and angular momentum: $$ \text{net}\tau = \frac{\Delta L}{\Delta t} $$. Since we know the torque (from the force and lever arm) and the time, we can solve for the change in angular momentum.
+
+**Solution**
+
+The torque is maximum when the force is perpendicular to the lever arm:
+
+<div class="equation">
+$$ \tau = rF = (0.300 \m)(300 \N) = 90.0 \N \cdot \m $$
+</div>
+
+From the relationship $$ \text{net}\tau = \frac{\Delta L}{\Delta t} $$, we can solve for the change in angular momentum:
+
+<div class="equation">
+$$ \Delta L = \tau \Delta t = (90.0 \N \cdot \m)(0.250 \s) = 22.5 \kg \cdot \mms $$
+</div>
+
+**Discussion**
+
+The angular momentum imparted to the engine is 22.5 kg·m²/s. This angular momentum depends only on the torque applied and the time duration, not on the engine's moment of inertia. Once the crank is released, this angular momentum should be enough to keep the engine rotating and allow it to start. The brief but strong application of torque is characteristic of starting mechanisms for old engines.
 
 </div>
 </div>
@@ -750,7 +807,56 @@ Three children are riding on the edge of a merry-go-round that is 100 kg, has a 
 
 </div>
 <div class="solution" markdown="1">
-25.3 rpm
+
+**Strategy**
+
+Angular momentum is conserved because there's no external torque. We calculate the initial moment of inertia (merry-go-round plus three children at the edge), then the final moment of inertia (merry-go-round plus two children at the edge and one at the center), and use $$ I\omega = I'\omega' $$ to find the new angular velocity.
+
+**Solution**
+
+Initial moment of inertia (disk plus three point masses at edge):
+
+<div class="equation">
+$$ I = \frac{1}{2}MR^2 + (m_1 + m_2 + m_3)R^2 $$
+</div>
+
+<div class="equation">
+$$ I = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 + 28.0 + 33.0 \kg)(1.60 \m)^2 $$
+</div>
+
+<div class="equation">
+$$ I = 128 \kg \cdot \mm + 212.5 \kg \cdot \mm = 340.5 \kg \cdot \mm $$
+</div>
+
+Initial angular velocity:
+
+<div class="equation">
+$$ \omega_0 = 20.0 \text{ rpm} $$
+</div>
+
+Final moment of inertia (one child at center contributes negligibly):
+
+<div class="equation">
+$$ I' = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 + 33.0 \kg)(1.60 \m)^2 $$
+</div>
+
+<div class="equation">
+$$ I' = 128 \kg \cdot \mm + 140.8 \kg \cdot \mm = 268.8 \kg \cdot \mm $$
+</div>
+
+Using conservation of angular momentum:
+
+<div class="equation">
+$$ I\omega_0 = I'\omega' $$
+</div>
+
+<div class="equation">
+$$ \omega' = \frac{I\omega_0}{I'} = \frac{(340.5 \kg \cdot \mm)(20.0 \text{ rpm})}{268.8 \kg \cdot \mm} = 25.3 \text{ rpm} $$
+</div>
+
+**Discussion**
+
+When the 28.0-kg child moves to the center, the moment of inertia decreases from 340.5 to 268.8 kg·m² (a 21% decrease). Conservation of angular momentum requires the angular velocity to increase proportionally, from 20.0 to 25.3 rpm (a 26% increase). This is similar to how ice skaters spin faster when they pull their arms in—moving mass closer to the rotation axis decreases I and increases ω.
 
 </div>
 </div>

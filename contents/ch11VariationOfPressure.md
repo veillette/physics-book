@@ -559,10 +559,33 @@ Verify that the SI unit of  $$h \rho g $$
  is  $${\text{N/m}}^{2} $$.
 
 </div>
-<div class="solution" data-element-type="problems-exercises">
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+**Strategy:**
+Substitute the SI units for each quantity in the expression $$ h \rho g $$ and simplify algebraically to show the result is equivalent to N/m² (the unit of pressure).
+
+**Solution:**
+
+The SI units for each quantity are:
+- Height: $$ h $$ has units of meters (m)
+- Density: $$ \rho $$ has units of kg/m³
+- Gravitational acceleration: $$ g $$ has units of m/s²
+
+Multiplying these units together:
+
 <div class="equation" >
  $$\begin{array}{lll}{\left(h\rho g\right)}_{\text{units}}& =& \left(\text{m}\right)\left({\text{kg/m}}^{3}\right)\left({\text{m/s}}^{2}\right)=\left(\text{kg}\cdot {\text{m}}^{2}\right)/\left({\text{m}}^{3}\cdot {\text{s}}^{2}\right)\\ & =& \left(\text{kg}\cdot {\text{m/s}}^{2}\right)\left({1 \text{/m}}^{2}\right)\\ & =& {\text{N/m}}^{2}\end{array} $$
 </div>
+
+Since 1 newton is defined as 1 kg·m/s², the final result is indeed N/m², which is the pascal (Pa), the SI unit of pressure.
+
+**Discussion:**
+This verification confirms the dimensional consistency of the hydrostatic pressure formula $$ P = h \rho g $$. The algebraic manipulation shows that:
+1. Starting with (m)(kg/m³)(m/s²) gives kg·m²/(m³·s²)
+2. Simplifying: kg·m²/(m³·s²) = (kg·m/s²)·(1/m²) = (kg·m/s²)/m²
+3. Recognizing that kg·m/s² = N (newton), we get N/m² (pascal)
+
+This dimensional analysis is crucial in physics for checking whether equations are physically meaningful. Any valid physics equation must have the same units on both sides, and intermediate steps must make dimensional sense. This particular formula relates pressure (force per area) to the weight of a column of fluid (mass per volume × acceleration × height), and the units verify this relationship is correct.
+
 </div>
 </div>
 
@@ -598,15 +621,37 @@ The water level must be approximately **30.6 meters** (about 100 feet) above the
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The aqueous humor in a person’s eye is exerting a force of 0.300 N on the  $$ 1.10{\text{-cm}}^{2} $$
+The aqueous humor in a person's eye is exerting a force of 0.300 N on the  $$ 1.10{\text{-cm}}^{2} $$
  area of the cornea. (a) What pressure is this in mm Hg? (b) Is this value within the normal range for pressures in the eye?
 
 </div>
 <div class="solution" markdown="1">
-(a) 20.5 mm Hg
+**Strategy:**
+(a) Use $$ P = F/A $$ to find pressure in pascals, then convert to mm Hg using the relationship $$ P = \rho g h $$.
+(b) Compare the result to the normal intraocular pressure range given in Table 1 of the Pressures in the Body section.
 
-(b) The range of pressures in the eye is 12–24 mm Hg, so the result in part (a)
-is within that range
+**Solution:**
+
+**(a) Calculate pressure in mm Hg:**
+
+First, calculate pressure in pascals:
+<div class="equation">
+$$ P = \frac{F}{A} = \frac{0.300 \text{ N}}{1.10 \times 10^{-4} \text{ m}^2} = 2.73 \times 10^{3} \text{ Pa} $$
+</div>
+
+Convert to mm Hg using $$ 1 \text{ mm Hg} = 133 \text{ Pa} $$:
+<div class="equation">
+$$ P = \frac{2.73 \times 10^{3} \text{ Pa}}{133 \text{ Pa/mm Hg}} = 20.5 \text{ mm Hg} $$
+</div>
+
+**(b) Is this within normal range?**
+
+From Table 1 in the Pressures in the Body section, normal intraocular pressure (eye pressure) ranges from 12–24 mm Hg. The calculated value of 20.5 mm Hg is within this normal range.
+
+**Discussion:**
+The intraocular pressure of **20.5 mm Hg** is comfortably within the normal range for eye pressure. This pressure is maintained by the balance between production and drainage of aqueous humor, the clear fluid that fills the anterior chamber of the eye. The pressure helps maintain the eye's shape and provides nutrients to the lens and cornea.
+
+Pressures above 24 mm Hg are considered elevated and may indicate glaucoma, a serious condition that can damage the optic nerve and lead to vision loss if untreated. Regular eye pressure measurements (tonometry) are important for detecting glaucoma early, especially for people over 40. The relatively modest pressure (about 1/37 of atmospheric pressure) demonstrates how sensitive the eye's internal structures are—even small pressure increases can cause significant damage over time.
 
 </div>
 </div>
