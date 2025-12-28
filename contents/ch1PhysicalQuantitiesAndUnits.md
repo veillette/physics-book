@@ -499,6 +499,12 @@ $$ 100 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{km}} \times \fra
 $$ 100 \frac{\text{km}}{\text{h}} \times \frac{0.6214 \text{ mi}}{1 \text{km}} = 62.1 \text{ mph} $$
 </div>
 
+**Discussion**
+
+The conversion from km/h to m/s requires two conversion factors that work together to change both the distance and time units. The result of 27.8 m/s means the car travels about 28 meters in one second, which is reasonable for highway speeds. Both answers maintain three significant figures, matching the precision of the original measurement of 100 km/h.
+
+**Answer**
+
 (a) $$ 27.8 \ms $$
 
 (b) $$ 62.1 \text{mph} $$
@@ -538,6 +544,10 @@ $$ 33 \ms \times 3.6 = 119 \text{ km/h} \approx 120 \text{ km/h} $$
 
 Since 119 km/h > 90 km/h, yes, the car is exceeding the speed limit by 29 km/h.
 
+**Discussion**
+
+This problem demonstrates the utility of the conversion factor 1.0 m/s = 3.6 km/h, which is commonly used in physics. The car's speed of 119 km/h is significantly over the 90 km/h limit, exceeding it by about 32%. This speed of 33 m/s means the car travels the length of a basketball court in less than one second, which helps put the speed in perspective.
+
 **Answer**
 
 (a) The car's speed is **120 km/h** (or 119 km/h to three significant figures).
@@ -558,6 +568,10 @@ steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
 \frac{3600 \s  }{1\text{hr}}×
 \frac{1 \text{km}}{1000 \m }  $$
  $$ =3.6 \text{km/h}  $$.
+
+**Discussion**
+
+This conversion factor is particularly useful because it relates the SI unit of speed (m/s) to the more common everyday unit of km/h. The factor of 3.6 arises from the combination of 3600 seconds per hour and 1000 meters per kilometer (3600/1000 = 3.6). Memorizing this simple relationship allows for quick mental conversions between these common speed units.
 
 </div>
 </div>
@@ -583,6 +597,10 @@ $$ 100 \text{ yd} \times \frac{3 \text{ ft}}{1 \text{ yd}} = 300 \text{ ft} $$
 <div class="equation">
 $$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.4 \m $$
 </div>
+
+**Discussion**
+
+The result shows that an American football field is slightly less than 100 meters long, which provides a useful reference point for estimating distances. The conversion required using two factors: first yards to feet (3 ft/yd), then feet to meters. The answer of 91.4 m is given to three significant figures, matching the precision of the original 100-yard measurement.
 
 **Answer**
 
@@ -624,6 +642,12 @@ $$ 85 \m \times \frac{3.281 \text{ ft}}{1 \m} = 279 \text{ ft} \approx 280 \text
 $$ 280 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 3.3 \times 10^{3} \text{ in.} $$
 </div>
 
+**Discussion**
+
+The soccer field dimensions in feet (377 ft by 280 ft) show that it is larger than an American football field in both length and width. Using scientific notation for the inch measurements (4.53 × 10³ in. and 3.3 × 10³ in.) is appropriate because these are large numbers that would be cumbersome to write out. The significant figures reflect the precision of the original metric measurements, with the width rounded to two significant figures based on the value 85 m.
+
+**Answer**
+
 Length: $$ 377 \text{ft} $$; $$ 4.53 \times 10^{3}\text{in.} $$
 
 Width: $$ 280 \text{ft} $$; $$ 3.3\times 10^{3}\text{in.} $$
@@ -653,6 +677,10 @@ $$ 6 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} + 1.0 \text{ in.} = 7
 $$ 73.0 \text{ in.} \times \frac{1 \m}{39.37 \text{ in.}} = 1.85 \m $$
 </div>
 
+**Discussion**
+
+A height of 1.85 m (or 185 cm) is reasonable for a person who is 6 ft 1 in. tall, representing a height above average for most populations. The conversion from English units to SI units demonstrates the importance of first combining mixed units (feet and inches) into a single unit before converting. The result is given to three significant figures, consistent with the precision of the original measurement.
+
 **Answer**
 
 The person's height is **1.85 m**.
@@ -676,6 +704,12 @@ Convert from feet to kilometers using the given conversion factor: 1 km = 3281 f
 <div class="equation">
 $$ 29028 \text{ ft} \times \frac{1 \text{ km}}{3281 \text{ ft}} = 8.847 \text{ km} $$
 </div>
+
+**Discussion**
+
+Mount Everest's height of approximately 8.8 km helps put the mountain's scale into perspective—it reaches nearly 9 kilometers into the atmosphere. This height is significant because it places the summit in the "death zone" where atmospheric pressure is only about one-third that at sea level. The precision to four significant figures (8.847 km) reflects the accuracy of modern surveying techniques used to measure this iconic peak.
+
+**Answer**
 
 $$ 8.847 \text{km} $$
 
@@ -704,6 +738,10 @@ Alternatively, using the conversion 1.0 m/s = 3.6 km/h:
 <div class="equation">
 $$ 342 \ms \times 3.6 = 1231 \text{ km/h} \approx 1.23 \times 10^{3} \text{ km/h} $$
 </div>
+
+**Discussion**
+
+The speed of sound at approximately 1230 km/h is much faster than typical highway speeds (around 100 km/h) but still much slower than the speed of light. This value varies with temperature and atmospheric conditions, which is why the problem states it was "measured on a certain day." Expressing the answer with three significant figures (1230 km/h or 1.23 × 10³ km/h) properly reflects the precision of the original measurement of 342 m/s.
 
 **Answer**
 
@@ -751,6 +789,12 @@ $$ 4.0 \frac{\text{cm}}{\text{year}} \times \frac{1 \m}{100 \text{ cm}} \times \
 $$ = \frac{4.0 \times 10^{6}}{100 \times 1000} \frac{\text{km}}{\text{My}} = 40 \frac{\text{km}}{\text{My}} $$
 </div>
 
+**Discussion**
+
+The extremely small distance of 1.3 × 10⁻⁹ m per second illustrates why tectonic motion is imperceptible in everyday life—this is about one nanometer per second, roughly the size of a few atoms. However, over geological time scales of millions of years, this slow movement accumulates to 40 km per million years, which is significant enough to create mountains and move continents. This problem demonstrates the importance of choosing appropriate time scales when describing processes that occur at vastly different rates.
+
+**Answer**
+
 (a) $$ 1.3\times 10^{-9}\m $$
 
 (b) $$ 40 \text{km/My} $$
@@ -797,6 +841,10 @@ $$ v = 2.98 \times 10^{4} \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} = 29
 **(b) Speed in m/s:**
 
 From above: $$ v = 2.98 \times 10^{4} \ms \approx 3.0 \times 10^{4} \ms $$
+
+**Discussion**
+
+Earth's orbital speed of approximately 30 km/s (or 30,000 m/s) is remarkably fast—about 108,000 km/h—yet we don't feel this motion because we're moving along with the Earth. This speed is much greater than the speed of sound (about 0.34 km/s) and represents the velocity needed to maintain a stable orbit around the Sun at Earth's distance. The calculation assumes a circular orbit, which is a good approximation since Earth's orbit is nearly circular with an eccentricity of only 0.017.
 
 **Answer**
 

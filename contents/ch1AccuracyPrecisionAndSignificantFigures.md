@@ -438,7 +438,11 @@ The uncertainty can be found by multiplying the measured value by the percent un
 $$ \delta m = m \times \frac{\%\text{unc}}{100\%} = 65 \text{ kg} \times \frac{3\%}{100\%} = 65 \text{ kg} \times 0.03 = 1.95 \text{ kg} \approx 2 \text{ kg} $$
 </div>
 
-2 kg
+**Discussion**
+
+A 3% uncertainty is relatively typical for bathroom scales, which are generally not precision instruments. The uncertainty of 2 kg means your actual mass could be anywhere from 63 kg to 67 kg. For everyday purposes like monitoring weight trends, this level of uncertainty is acceptable, though it would be inadequate for medical or scientific applications requiring precise measurements.
+
+**Answer:** 2 kg
 
 </div>
 </div>
@@ -515,6 +519,12 @@ $$ 85 \text{ km/h} \times 0.6214 = 53 \text{ mi/h} $$
 $$ 95 \text{ km/h} \times 0.6214 = 59 \text{ mi/h} $$
 </div>
 
+**Discussion**
+
+A 5% uncertainty in speedometer readings is quite significant - it represents a range of 10 km/h (or 6 mi/h) at this speed. This uncertainty is typical for older analog speedometers and emphasizes why drivers should not rely solely on speedometer readings to maintain precise speeds. Modern digital speedometers generally have lower uncertainties.
+
+**Answer:**
+
 (a) $$ 85\text{ to } 95 \text{ km/h} $$
 
 (b) $$ 53\text{ to } 59 \text{ mi/h} $$
@@ -582,6 +592,12 @@ $$ \text{Beats} = 72.0 \frac{\text{beats}}{\text{min}} \times 2.000 \text{ y} \t
 </div>
 (Limited to 3 significant figures by the heart rate of 72.0 beats/min)
 
+**Discussion**
+
+This problem illustrates how the precision of input values (as indicated by significant figures) affects the precision of calculated results. Even though the time intervals are different (2.0, 2.00, and 2.000 years), parts (b) and (c) yield the same answer because the heart rate of 72.0 beats/min (three significant figures) limits all answers to three significant figures. This demonstrates that in calculations, the least precise measurement determines the precision of the result.
+
+**Answer:**
+
 (a) $$ 7.6\times 10^{7}\text{beats} $$
 
 (b) $$ 7.57 \times 10^{7}\text{beats} $$
@@ -645,6 +661,12 @@ The answer should have **3** significant figures (limited by 98.2 and 1.01).
 - 3712 has 4 significant figures
 
 The answer should have **3** significant figures (limited by $$ 1.60 \times 10^{-19} $$).
+
+**Discussion**
+
+Understanding how to count significant figures in compound calculations is crucial for reporting results with appropriate precision. In each case, we're limited by the measurement with the fewest significant figures. This ensures we don't overstate the precision of our calculated results beyond what the input data justifies.
+
+**Answer:**
 
 (a) 3
 
@@ -731,6 +753,12 @@ $$ \text{Minimum: } 60 - 1 = 59 \text{ km/h} $$
 $$ \text{Maximum: } 60 + 1 = 61 \text{ km/h} $$
 </div>
 
+**Discussion**
+
+This problem demonstrates that percent uncertainty remains constant for a given instrument, while absolute uncertainty changes with the measured value. At lower speeds, the same 2.2% uncertainty translates to a smaller absolute uncertainty (1 km/h at 60 km/h versus 2 km/h at 90 km/h), making the speedometer more useful for detecting small speed differences at lower velocities.
+
+**Answer:**
+
 (a) $$ 2.2 \% $$
 
 (b) $$ 59 \text{ to 61 km/h} $$
@@ -764,7 +792,11 @@ $$ \%\text{unc} = \frac{\delta P}{P} \times 100\% = \frac{2 \text{ mm Hg}}{120 \
 $$ \delta P = 80 \text{ mm Hg} \times \frac{1.67\%}{100\%} = 80 \text{ mm Hg} \times 0.0167 = 1.3 \text{ mm Hg} \approx 1 \text{ mm Hg} $$
 </div>
 
-**Answer**
+**Discussion**
+
+This uncertainty level (about 2%) is typical for manual blood pressure measurements using a sphygmomanometer. Blood pressure naturally fluctuates throughout the day, so this measurement uncertainty is generally acceptable for clinical purposes. The fact that the diastolic reading (80 mm Hg) has a smaller absolute uncertainty (1 mm Hg) than the systolic reading (2 mm Hg) reflects the constant percent uncertainty across different pressure values.
+
+**Answer:**
 
 (a) The percent uncertainty is **2%** (or 1.7% to two significant figures).
 
@@ -813,7 +845,11 @@ $$ \%\text{unc}_{\text{total}} = 2.5\% + 1.7\% = 4.2\% \approx 4\% $$
 $$ \delta(\text{heart rate}) = 80 \text{ beats/min} \times 0.04 = 3.2 \text{ beats/min} \approx 3 \text{ beats/min} $$
 </div>
 
-$$ 80 \pm 3\text{ beats/min} $$
+**Discussion**
+
+This problem illustrates how uncertainties propagate in calculations involving division. The 4% combined uncertainty in the heart rate arises from both the counting uncertainty and the timing uncertainty. Manual pulse measurements over short intervals are inherently imprecise, and this 3 beats/min uncertainty is typical for such measurements. For more accurate heart rate monitoring, longer measurement periods or electronic devices would be preferable.
+
+**Answer:** $$ 80 \pm 3\text{ beats/min} $$
 </div>
 </div>
 
@@ -841,9 +877,11 @@ $$ A = \pi r^{2} = \pi (1.551 \text{ cm})^{2} = \pi (2.406 \text{ cm}^{2}) = 7.5
 
 Since the diameter has 4 significant figures, the area should also have 4 significant figures.
 
-**Answer**
+**Discussion**
 
-The area of the circle is **7.557 cm²**.
+This calculation demonstrates proper significant figure handling in area calculations. The diameter was measured to four significant figures (3.102 cm), indicating a precise measurement, possibly with calipers. Since π is a mathematical constant known to many more digits than needed, it doesn't limit our precision—the answer's precision is determined solely by the measured diameter.
+
+**Answer:** The area of the circle is **7.557 cm²**.
 
 </div>
 </div>
@@ -867,6 +905,12 @@ $$ \text{Time} = \frac{\text{Distance}}{\text{Speed}} = \frac{26.22 \text{ mi}}{
 Since the speed (9.5 mi/h) has only 2 significant figures, the answer should be reported as:
 
 $$ 2.8\text{ h} $$
+
+**Discussion**
+
+This problem highlights how the least precise measurement limits the precision of calculated results. Although the marathon distance is known quite precisely (26.22 mi, four significant figures), the average speed is only known to two significant figures (9.5 mi/h), which limits our answer to two significant figures. This 2.8 hours (about 2 hours and 48 minutes) represents a reasonable time for a recreational marathon runner.
+
+**Answer:** $$ 2.8\text{ h} $$
 </div>
 </div>
 
@@ -926,7 +970,11 @@ Calculate absolute uncertainty:
 $$ \delta v = v \times \frac{0.070\%}{100\%} = 4.681 \ms \times 0.0007 = 0.0033 \ms \approx 0.003 \ms $$
 </div>
 
-**Answer**
+**Discussion**
+
+The extremely small percent uncertainties (0.06% and 0.01%) reflect the high precision of modern marathon timing and distance measurement systems. The uncertainty in distance (25 m over 42 km) is about the length of a swimming pool, which seems quite reasonable for a course measured along roads. The combined uncertainty of 0.07% in the average speed demonstrates how very precise measurements still carry some uncertainty, though this level of precision far exceeds what would be needed for most practical purposes.
+
+**Answer:**
 
 (a) The percent uncertainty in the distance is **0.06%**.
 
@@ -984,7 +1032,11 @@ $$ \delta V = 11.07 \text{ cm}^{3} \times 0.05 = 0.55 \text{ cm}^{3} \approx 1 \
 $$ V = 11 \pm 1 \text{ cm}^{3} $$
 </div>
 
-$$ 11 \pm 1 \text{ cm}^{3} $$
+**Discussion**
+
+This problem demonstrates how uncertainties accumulate in multi-dimensional calculations. The third dimension (3.0 ± 0.1 cm) has the largest percent uncertainty (3.3%), which dominates the total uncertainty. The final uncertainty of about 5% shows that when multiplying measurements, even small individual uncertainties can combine to produce significant uncertainty in the result. The volume of 11 cm³ with ±1 cm³ uncertainty means the actual volume could range from 10 to 12 cm³, nearly a 20% range.
+
+**Answer:** $$ 11 \pm 1 \text{ cm}^{3} $$
 </div>
 </div>
 
@@ -1028,7 +1080,11 @@ Convert to pound-mass:
 $$ 4545 \kg \times \frac{1 \text{ lbm}}{0.4539 \kg} = 10{,}014 \text{ lbm} \approx 10{,}000 \text{ lbm} $$
 </div>
 
-**Answer**
+**Discussion**
+
+This problem illustrates how conversion factors have their own uncertainties that can become significant when measuring large quantities. The tiny percent uncertainty in the pound-mass definition (0.02%) is negligible for everyday objects but becomes a 1 kg uncertainty when weighing objects around 4500 kg (about the mass of a large vehicle). This demonstrates why modern science has standardized on the SI system with precisely defined units.
+
+**Answer:**
 
 (a) The percent uncertainty in the pound-mass unit is **0.02%** (or 0.022% to more precision).
 
@@ -1078,7 +1134,11 @@ $$ \delta A = 12.063 \mm \times 0.003 = 0.036 \mm \approx 0.04 \mm $$
 $$ A = 12.06 \pm 0.04 \mm $$
 </div>
 
-$$ 12.06 \pm 0.04 \mm $$
+**Discussion**
+
+The very small percent uncertainty (0.3%) indicates high-quality measurements, likely made with a precision measuring tape or laser distance meter. The absolute uncertainty of 0.04 m² means the actual area could range from about 12.02 to 12.10 m², which is excellent precision for a room measurement. This level of accuracy would be important for applications like ordering flooring materials where precise quantities are needed.
+
+**Answer:** $$ 12.06 \pm 0.04 \mm $$
 </div>
 </div>
 
@@ -1139,7 +1199,11 @@ $$ \%\text{unc}_{V} = 2 \times \%\text{unc}_{d} + \%\text{unc}_{h} = 2(0.027\%) 
 $$ \delta V = V \times \frac{0.085\%}{100\%} = 143.6 \text{ cm}^{3} \times 0.00085 = 0.12 \text{ cm}^{3} \approx 0.1 \text{ cm}^{3} $$
 </div>
 
-**Answer**
+**Discussion**
+
+The very small percent uncertainty (0.09%) reflects the precision needed in automotive engine manufacturing. Modern engine components are machined to very tight tolerances to ensure proper compression and efficient combustion. The volume change of about 144 cm³ is typical for a small engine cylinder, and the uncertainty of 0.1 cm³ represents less than 0.1% of the total, which is excellent for mechanical engineering applications. Note that the diameter uncertainty contributes twice as much as the height uncertainty because the diameter appears squared in the volume formula.
+
+**Answer:**
 
 (a) The gas volume is decreased by **144 cm³** (or 143.6 cm³ to four significant figures).
 

@@ -2805,18 +2805,56 @@ which $$ y $$ becomes zero and substituting this value of $$ t $$ into the
 expression for $$ x-x_{0} $$, noting that $$ R=x-x_{0} $$
 </div>
 <div class="solution"  markdown="1">
- $$ y-y_{0}=0=v_{0y}t-\frac{1}{2}g t^{2}=\left(v_{0}\sin{\theta} \right)
-t-\frac{1}{2}gt^{2} $$, so that $$ t=\frac{2\left(v_{0}\sin{\theta}\right)}{g} $$
-$$ x-x_{0}=v_{0x}t=\left(v_{0}\cos{\theta}\right)t=R, $$
-and substituting for $$ t $$
-gives:
 
-$$
-R=v_{0}\cos{\theta} \left(\frac{ 2 v_{0}\sin{\theta}}{g}\right)=\frac{ 2v_
-{0}^{2}\sin{\theta} \cos{\theta} }{g} $$ since $$ 2\sin{\theta} \cos{\theta}
-=\sin{2\theta}$$, the range is:
+**Solution**
 
-$$ R=\frac{ v_{0}^{2}\sin{2\theta}}{g}.$$
+For a projectile launched on level ground, we find when it returns to the ground (y = 0) and calculate the horizontal distance traveled.
+
+**Step 1: Find the time when the projectile lands**
+
+Starting with the vertical position equation:
+
+<div class="equation">
+$$ y - y_0 = v_{0y}t - \frac{1}{2}gt^2 $$
+</div>
+
+When the projectile returns to ground level, $$ y - y_0 = 0 $$. Also, $$ v_{0y} = v_0\sin{\theta_0} $$, so:
+
+<div class="equation">
+$$ 0 = \left(v_0\sin{\theta_0}\right)t - \frac{1}{2}gt^2 = t\left(v_0\sin{\theta_0} - \frac{1}{2}gt\right) $$
+</div>
+
+This gives two solutions: $$ t = 0 $$ (launch) and $$ t = \frac{2v_0\sin{\theta_0}}{g} $$ (landing).
+
+**Step 2: Find the horizontal range**
+
+The horizontal distance traveled is:
+
+<div class="equation">
+$$ R = x - x_0 = v_{0x}t = \left(v_0\cos{\theta_0}\right)t $$
+</div>
+
+Substituting the landing time:
+
+<div class="equation">
+$$ R = v_0\cos{\theta_0} \cdot \frac{2v_0\sin{\theta_0}}{g} = \frac{2v_0^2\sin{\theta_0}\cos{\theta_0}}{g} $$
+</div>
+
+**Step 3: Simplify using trigonometric identity**
+
+Using the double-angle identity $$ 2\sin{\theta}\cos{\theta} = \sin{2\theta} $$:
+
+<div class="equation">
+$$ R = \frac{v_0^2\sin{2\theta_0}}{g} $$
+</div>
+
+**Discussion**
+
+This formula reveals several important insights about projectile motion. First, the range depends on the square of the initial velocity, meaning doubling the launch speed quadruples the range. Second, the $$ \sin{2\theta_0} $$ term explains why the maximum range occurs at $$ \theta_0 = 45° $$ (since $$ \sin{90°} = 1 $$ is the maximum value of sine). Third, complementary angles (e.g., 30° and 60°) produce the same range because $$ \sin{2 \times 30°} = \sin{60°} = \sin{120°} = \sin{2 \times 60°} $$. This symmetry is characteristic of projectile motion on level ground. Finally, the inverse relationship with g explains why projectiles travel much farther on the Moon (where g ≈ 1.6 m/s²) than on Earth. This formula is fundamental for applications ranging from artillery to sports to planetary science, though it assumes negligible air resistance.
+
+**Answer**
+
+The range formula is derived as: $$ R = \frac{v_0^2\sin{2\theta_0}}{g} $$
 
 </div>
 </div>
