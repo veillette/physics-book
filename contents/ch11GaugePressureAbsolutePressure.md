@@ -401,20 +401,59 @@ Find the gauge and absolute pressures in the balloon and peanut jar shown in [[F
 
 </div>
 <div class="solution" markdown="1">
-Balloon:
+**Strategy:**
+For the balloon, the fluid rises on the side connected to the balloon, indicating positive gauge pressure equal to $$ h \rho g $$ in cm H₂O. For the jar, the fluid is depressed, indicating negative gauge pressure (vacuum). Convert h = 0.0500 m to appropriate units. Calculate absolute pressure by adding atmospheric pressure.
 
+**Solution:**
+
+Given: $$ h = 0.0500 \text{ m} = 5.00 \text{ cm} = 50.0 \text{ mm} $$
+
+**Balloon (positive gauge pressure):**
+
+From Figure 2(b), the water column is higher on the side connected to the balloon, so:
+<div class="equation">
+$$ P_{\text{g, balloon}} = h = 5.00 \text{ cm H}_2\text{O} $$
+</div>
+
+To find absolute pressure, add atmospheric pressure. Standard atmospheric pressure is 760 mm Hg, which equals:
+<div class="equation">
+$$ P_{\text{atm}} = 760 \text{ mm Hg} \times \frac{13.6 \text{ g/cm}^3}{1.00 \text{ g/cm}^3} = 10,336 \text{ cm H}_2\text{O} \approx 1.03 \times 10^{3} \text{ cm H}_2\text{O} $$
+</div>
+
+Therefore:
+<div class="equation">
+$$ P_{\text{abs, balloon}} = P_{\text{atm}} + P_{\text{g}} = 1.030 \times 10^{3} + 5.00 = 1.035 \times 10^{3} \text{ cm H}_2\text{O} $$
+</div>
+
+**Jar (negative gauge pressure):**
+
+From Figure 2(c), the mercury is depressed on the jar side, indicating pressure less than atmospheric:
+<div class="equation">
+$$ P_{\text{g, jar}} = -h = -50.0 \text{ mm Hg} $$
+</div>
+
+Absolute pressure:
+<div class="equation">
+$$ P_{\text{abs, jar}} = P_{\text{atm}} + P_{\text{g}} = 760 - 50.0 = 710 \text{ mm Hg} $$
+</div>
+
+**Summary:**
+
+Balloon:
 $$
-\begin{array}{lll}{P}_{\text{g}}& =& 5.00 cm {\text{H}}_{2}\text{O} \text{,}
-\\ {P}_{\text{abs}}& =& 1.035 \times 10^{3} \text{cm} {\text{H}}_{2}\text{O}
+\begin{array}{lll}{P}_{\text{g}}& =& 5.00 \text{ cm } {\text{H}}_{2}\text{O} \text{,}
+\\ {P}_{\text{abs}}& =& 1.035 \times 10^{3} \text{ cm } {\text{H}}_{2}\text{O}
 \text{.} \end{array}
 $$
 
 Jar:
+$$
+\begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{ mm Hg}\text{,}\\ {P}_
+{\text{abs}}& =& 710 \text{ mm Hg.}\end{array}
+$$
 
-$$
-\begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{mm Hg}\text{,}\\ {P}_
-{\text{abs}}& =& 710 \text{mm Hg.}\end{array}
-$$
+**Discussion:**
+The balloon has slightly elevated pressure (5 cm H₂O ≈ 0.0048 atm or about 0.5% above atmospheric), typical for an inflated balloon. The peanut jar has reduced internal pressure (about 93% of atmospheric), indicating it's vacuum-packed. The jar's rigidity prevents atmospheric pressure from collapsing it despite the pressure difference. The negative gauge pressure in the jar is why vacuum-packed containers make a "pop" when opened—atmospheric pressure rushes in to equalize the pressure difference.
 
 </div>
 </div>
@@ -537,11 +576,50 @@ The latches must withstand approximately **1.49 × 10⁶ N** (about 335,000 poun
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Suppose you measure a standing person’s blood pressure by placing the cuff on his leg 0.500 m below the heart. Calculate the pressure you would observe (in units of mm Hg) if the pressure at the heart were 120 over 80 mm Hg. Assume that there is no loss of pressure due to resistance in the circulatory system (a reasonable assumption, since major arteries are large).
+Suppose you measure a standing person's blood pressure by placing the cuff on his leg 0.500 m below the heart. Calculate the pressure you would observe (in units of mm Hg) if the pressure at the heart were 120 over 80 mm Hg. Assume that there is no loss of pressure due to resistance in the circulatory system (a reasonable assumption, since major arteries are large).
 
 </div>
 <div class="solution" markdown="1">
- $$\begin{array}{}\Delta P=38.7 \text{mm Hg,}\\ \text{Leg blood pressure}=\frac{159}{119}\text{.}\end{array} $$
+**Strategy:**
+Use the hydrostatic pressure formula $$ \Delta P = \rho g h $$ to find the additional pressure due to the height difference between heart and leg. Add this to both systolic and diastolic pressures.
+
+**Solution:**
+
+*Step 1: Calculate the additional hydrostatic pressure*
+
+Using blood density $$ \rho_{\text{blood}} \approx 1050 \text{ kg/m}^3 $$ (from Table 1 in Density section):
+
+<div class="equation">
+$$ \Delta P = \rho g h = (1050 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.500 \text{ m}) = 5145 \text{ Pa} $$
+</div>
+
+Convert to mm Hg using $$ 1 \text{ mm Hg} = 133 \text{ Pa} $$:
+
+<div class="equation">
+$$ \Delta P = \frac{5145 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 38.7 \text{ mm Hg} $$
+</div>
+
+*Step 2: Add to heart blood pressure*
+
+At heart level: 120/80 mm Hg
+
+At leg level (0.500 m below heart):
+- Systolic: $$ 120 + 38.7 = 158.7 \approx 159 \text{ mm Hg} $$
+- Diastolic: $$ 80 + 38.7 = 118.7 \approx 119 \text{ mm Hg} $$
+
+<div class="equation">
+$$\begin{array}{}\Delta P=38.7 \text{ mm Hg,}\\ \text{Leg blood pressure}=\frac{159}{119}\text{.}\end{array} $$
+</div>
+
+**Discussion:**
+The blood pressure measured in the leg is approximately **159/119 mm Hg**, significantly higher than the heart-level pressure of 120/80 mm Hg. This 38.7 mm Hg increase (about 48% increase in gauge pressure) results purely from the hydrostatic pressure of the blood column between heart and leg.
+
+This demonstrates why standard blood pressure measurements specify that the cuff should be placed at heart level. Measurements taken at different heights give different readings:
+- Below heart: pressure is higher (as shown here)
+- Above heart: pressure would be lower
+
+For a standing person, this also explains why blood tends to pool in the legs (leading to swelling during long periods of standing) and why varicose veins commonly occur in the legs where pressures are highest. The cardiovascular system must work against this gravitational effect to return blood from the feet to the heart, which is why leg muscles (the "muscle pump") and one-way valves in veins are essential for venous return.
+
 </div>
 </div>
 

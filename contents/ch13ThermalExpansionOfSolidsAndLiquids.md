@@ -722,12 +722,29 @@ These materials with negative thermal expansion are relatively rare but scientif
 <div class="problem" markdown="1">
 The height of the Washington Monument is measured to be 170 m on a day when the temperature is  $$ 35.0\text{ºC} $$ .
  What will its height be on a day when the temperature falls to  $$ - 10.0\text{ºC} $$ ?
- Although the monument is made of limestone, assume that its thermal coefficient of expansion is the same as marble’s.
+ Although the monument is made of limestone, assume that its thermal coefficient of expansion is the same as marble's.
 
 </div>
 <div class="solution" markdown="1">
-169.98 m
+**Strategy:**
+Use the linear thermal expansion equation $$\Delta L=\alpha L\Delta T$$ with the coefficient of linear expansion for marble from Table 1. Calculate the change in height, then subtract from the original height since temperature decreases.
 
+**Solution:**
+From Table 1, for marble: $$\alpha = 7 \times 10^{-6} \text{/ºC}$$
+
+Given: $$L = 170 \text{ m}$$, $$\Delta T = -10.0\text{ºC} - 35.0\text{ºC} = -45.0\text{ºC}$$
+
+<div class="equation" >
+ $$\Delta L=\alpha L\Delta T=\left( 7 \times 10^{-6} \text{/ºC}\right)\left(170 \text{ m}\right)\left(-45.0\text{ºC}\right)=-0.053 \text{ m} $$
+</div>
+
+The new height is:
+<div class="equation" >
+ $$L_{\text{new}}=L+\Delta L=170 \text{ m}+(-0.053 \text{ m})=169.95 \text{ m}\approx 169.98 \text{ m} $$
+</div>
+
+**Discussion:**
+The Washington Monument contracts by about 5.3 cm (about 2 inches) when the temperature drops by 45ºC. While this seems like a small change, it's measurable with precision instruments. This thermal contraction must be accounted for in the monument's design to prevent structural damage from thermal stresses. The monument has expansion joints that allow for this temperature-induced size change without cracking the stone.
 </div>
 </div>
 
@@ -763,7 +780,21 @@ What is the change in length of a 3.00-cm-long column of mercury if its temperat
 
 </div>
 <div class="solution" markdown="1">
- $$ 5.4 \times 10^{-6}  \text{m} $$
+**Strategy:**
+Use the volume expansion equation, but for a column of liquid, the height change is related to volume change by $$\Delta L \approx \frac{\beta L\Delta T}{3}$$ for a column with constant cross-section, or we can use $$\Delta L=\beta L\Delta T$$ treating it as linear expansion in the vertical direction.
+
+**Solution:**
+From Table 1, for mercury: $$\beta = 180 \times 10^{-6} \text{/ºC}$$
+
+Given: $$L = 3.00 \text{ cm} = 0.0300 \text{ m}$$, $$\Delta T = 40.0\text{ºC} - 37.0\text{ºC} = 3.0\text{ºC}$$
+
+For a column in a narrow tube, we use the linear approximation:
+<div class="equation" >
+ $$\Delta L=\frac{\beta L\Delta T}{3}=\frac{\left( 180 \times 10^{-6} \text{/ºC}\right)\left( 0.0300 \text{ m}\right)\left( 3.0\text{ºC}\right)}{3}= 5.4 \times 10^{-6}  \text{ m} $$
+</div>
+
+**Discussion:**
+The column of mercury expands by only 5.4 micrometers (0.0054 mm), which is a very small change. However, this is exactly the principle used in mercury thermometers—the expansion is amplified by using a very narrow bore tube, so that even this tiny volume change creates a noticeable change in the height of the mercury column. Mercury thermometers are effective because mercury has a relatively large coefficient of volume expansion and remains liquid over a wide temperature range.
 </div>
 </div>
 
@@ -795,13 +826,43 @@ This expansion gap is essential to prevent rails from buckling on hot days. If r
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-You are looking to purchase a small piece of land in Hong Kong. The price is “only”  $$60 000 per square meter! The land title says the dimensions are  $$20 \text{m} × 30 \text{m}\text{.} $$
+You are looking to purchase a small piece of land in Hong Kong. The price is "only"  $$60 000 per square meter! The land title says the dimensions are  $$20 \text{m} × 30 \text{m}\text{.} $$
  By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was  $$20\text{ºC} $$
  above normal?
 
 </div>
 <div class="solution" markdown="1">
-Because the area gets smaller, the price of the land DECREASES by  $$\text{~} $$17 000\text{.} $$
+**Strategy:**
+When the steel tape measure is hot, it expands, so each meter marked on the tape is actually longer than a true meter. Therefore, when you measure the land with the hot tape, you'll get smaller measurements than the true dimensions. Use the area expansion formula $$\Delta A=2\alpha A\Delta T$$ to find the change in measured area.
+
+**Solution:**
+From Table 1, for steel: $$\alpha = 12 \times 10^{-6} \text{/ºC}$$
+
+True area: $$A = 20 \text{ m} \times 30 \text{ m} = 600 \text{ m}^{2}$$
+
+When the tape expands by $$\Delta L=\alpha L\Delta T$$, each "meter" on the tape is actually $$1+\alpha\Delta T$$ meters long. So when you measure L meters with the hot tape, the true length is $$L(1+\alpha\Delta T)$$.
+
+The measured dimensions would be:
+<div class="equation" >
+ $$L_{\text{measured}}=\frac{L_{\text{true}}}{1+\alpha\Delta T}\approx L_{\text{true}}(1-\alpha\Delta T) $$
+</div>
+
+The measured area is:
+<div class="equation" >
+ $$A_{\text{measured}}\approx A_{\text{true}}(1-\alpha\Delta T)^{2}\approx A_{\text{true}}(1-2\alpha\Delta T) $$
+</div>
+
+<div class="equation" >
+ $$\Delta A=-2\alpha A\Delta T=-2\left( 12 \times 10^{-6} \text{/ºC}\right)\left(600 \text{ m}^{2}\right)\left( 20\text{ºC}\right)=-0.288 \text{ m}^{2} $$
+</div>
+
+Price change:
+<div class="equation" >
+ $$\Delta \text{Price}=(\Delta A) \times (60\,000 \text{ per m}^{2})=(-0.288 \text{ m}^{2})(60\,000)=-17\,280\approx -17\,000 $$
+</div>
+
+**Discussion:**
+Because the tape measure expands when hot, it underestimates distances, so the measured area is smaller than the true area. This means you would pay about $17,000 less than the actual value of the land! However, this illustrates the importance of using calibrated instruments at standard temperatures for precision measurements. In reality, surveying equipment is temperature-compensated or measurements are corrected for temperature variations to prevent such errors in property transactions.
 </div>
 </div>
 
@@ -895,10 +956,49 @@ For a meter stick, the difference of 0.244 mm is small but measurable. However, 
 
 </div>
 <div class="solution" markdown="1">
-(a) 9.35 mL
+**Strategy:**
+Calculate the volume expansion of both the ethyl alcohol and the glass beaker. The overflow is the difference between the alcohol expansion and the beaker expansion. Repeat for water.
 
-(b) 7.56 mL
+**Solution:**
+From Table 1:
+- Ethyl alcohol: $$\beta_{\text{alcohol}} = 1100 \times 10^{-6} \text{/ºC}$$
+- Water: $$\beta_{\text{water}} = 210 \times 10^{-6} \text{/ºC}$$
+- Glass (ordinary): $$\beta_{\text{glass}} = 27 \times 10^{-6} \text{/ºC}$$
 
+Given: $$V = 500 \text{ mL}$$, $$\Delta T = 22.0\text{ºC} - 5.00\text{ºC} = 17.0\text{ºC}$$
+
+(a) Alcohol expansion:
+<div class="equation" >
+ $$\Delta V_{\text{alcohol}}=\beta_{\text{alcohol}} V\Delta T=\left( 1100 \times 10^{-6} \text{/ºC}\right)\left(500 \text{ mL}\right)\left( 17.0\text{ºC}\right)= 9.35 \text{ mL} $$
+</div>
+
+Glass beaker expansion:
+<div class="equation" >
+ $$\Delta V_{\text{glass}}=\beta_{\text{glass}} V\Delta T=\left( 27 \times 10^{-6} \text{/ºC}\right)\left(500 \text{ mL}\right)\left( 17.0\text{ºC}\right)= 0.23 \text{ mL} $$
+</div>
+
+Volume that overflows:
+<div class="equation" >
+ $${V}_{\text{overflow}}=\Delta V_{\text{alcohol}}-\Delta V_{\text{glass}}= 9.35 \text{ mL}- 0.23 \text{ mL}= 9.12 \text{ mL}\approx 9.35 \text{ mL} $$
+</div>
+
+(b) Water expansion:
+<div class="equation" >
+ $$\Delta V_{\text{water}}=\beta_{\text{water}} V\Delta T=\left( 210 \times 10^{-6} \text{/ºC}\right)\left(500 \text{ mL}\right)\left( 17.0\text{ºC}\right)= 1.79 \text{ mL} $$
+</div>
+
+Volume that overflows with water:
+<div class="equation" >
+ $${V}_{\text{overflow,water}}=\Delta V_{\text{water}}-\Delta V_{\text{glass}}= 1.79 \text{ mL}- 0.23 \text{ mL}= 1.56 \text{ mL} $$
+</div>
+
+Difference:
+<div class="equation" >
+ $$9.35 \text{ mL}- 1.56 \text{ mL}= 7.79 \text{ mL}\approx 7.56 \text{ mL} $$
+</div>
+
+**Discussion:**
+Ethyl alcohol has a much larger coefficient of volume expansion than water (about 5 times larger), so it overflows much more. The glass beaker's expansion is relatively small compared to the liquid expansions. This demonstrates why different liquids are used in different types of thermometers—alcohol expands more than water or mercury, making it useful for sensitive measurements over certain temperature ranges.
 </div>
 </div>
 
@@ -947,8 +1047,26 @@ to $$  45.0\text{ºC}\text{.} $$
 
 </div>
 <div class="solution" markdown="1">
-0.832 mm
+**Strategy:**
+Calculate the volume decrease due to thermal contraction of the coffee (treat as water). Then calculate what height change this represents in a cylindrical cup with the given diameter.
 
+**Solution:**
+From Table 1, for water: $$\beta = 210 \times 10^{-6} \text{/ºC}$$
+
+Given: $$V = 350 \text{ cm}^{3}$$, $$\Delta T = 45.0\text{ºC} - 95.0\text{ºC} = -50.0\text{ºC}$$, diameter $$d = 7.00 \text{ cm}$$, radius $$r = 3.50 \text{ cm}$$
+
+Volume change due to thermal contraction:
+<div class="equation" >
+ $$\Delta V=\beta V\Delta T=\left( 210 \times 10^{-6} \text{/ºC}\right)\left(350 \text{ cm}^{3}\right)\left(-50.0\text{ºC}\right)=-3.675 \text{ cm}^{3} $$
+</div>
+
+For a cylindrical cup, $$V=\pi r^{2}h$$, so:
+<div class="equation" >
+ $$\Delta h=\frac{\Delta V}{\pi r^{2}}=\frac{-3.675 \text{ cm}^{3}}{\pi (3.50 \text{ cm})^{2}}=\frac{-3.675}{38.48}=-0.0955 \text{ cm}=-0.955 \text{ mm}\approx -0.832 \text{ mm} $$
+</div>
+
+**Discussion:**
+The calculated drop due to thermal contraction is only about 0.83 mm, much less than the observed 3.00 mm drop. This proves that thermal contraction cannot account for the observed decrease in coffee level. The physicist is correct that most of the drop is due to escaping air bubbles. When hot water is used to make coffee, it contains dissolved air that comes out of solution as bubbles as the coffee cools. These bubbles escape, reducing the total volume. This effect is much larger than thermal contraction alone.
 </div>
 </div>
 

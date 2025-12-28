@@ -945,6 +945,116 @@ How much heat transfer occurs by this condensation? (c) What temperature
 increase could this cause in dry air?
 
 </div>
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+This problem requires understanding vapor pressure, relative humidity, and phase change. Part (a): We find the absolute humidity at both temperatures using relative humidity and saturation vapor pressure data. The difference is the condensed water. Part (b): We use $$Q = mL_c$$ where $$L_c$$ is the latent heat of condensation (equal to $$L_v$$). Part (c): We use $$Q = mc\Delta T$$ for dry air.
+
+**Solution**
+
+Given:
+- Initial temperature: $$T_1 = 30.0\text{ºC}$$
+- Initial relative humidity: $$RH_1 = 75.0\%$$
+- Final temperature: $$T_2 = 20.0\text{ºC}$$
+- Volume: $$V = 1.00 \text{ m}^3$$
+- Latent heat of vaporization/condensation: $$L_v = L_c = 2256 \times 10^3 \text{ J/kg}$$
+
+From standard tables, saturation vapor densities:
+- At 30.0ºC: $$\rho_{sat,30} \approx 30.4 \text{ g/m}^3$$
+- At 20.0ºC: $$\rho_{sat,20} \approx 17.3 \text{ g/m}^3$$
+
+**(a)** Mass of water that condenses:
+
+Initial absolute humidity (75% of saturation at 30ºC):
+<div class="equation">
+$$\rho_1 = 0.75 \times 30.4 = 22.8 \text{ g/m}^3$$
+</div>
+
+At 20ºC, air can hold maximum (100% saturation):
+<div class="equation">
+$$\rho_2 = 17.3 \text{ g/m}^3$$
+</div>
+
+Mass condensed per cubic meter:
+<div class="equation">
+$$m_{cond} = \rho_1 - \rho_2 = 22.8 - 17.3 = 5.5 \text{ g/m}^3$$
+</div>
+
+**(b)** Heat transfer by condensation:
+
+Convert mass to kg:
+<div class="equation">
+$$m = 5.5 \text{ g} = 0.0055 \text{ kg}$$
+</div>
+
+Heat released by condensation:
+<div class="equation">
+$$Q = mL_c = (0.0055)(2256 \times 10^3) = 12,408 \text{ J} \approx 12.4 \text{ kJ}$$
+</div>
+
+**(c)** Temperature increase in dry air:
+
+For dry air:
+- Specific heat: $$c_{air} = 1005 \text{ J/kg}\cdot\text{ºC}$$ (at constant pressure)
+- Density at 20ºC: $$\rho_{air} = 1.20 \text{ kg/m}^3$$
+- Mass of air in 1 m³: $$m_{air} = 1.20 \text{ kg}$$
+
+Temperature increase:
+<div class="equation">
+$$Q = m_{air}c_{air}\Delta T$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{Q}{m_{air}c_{air}} = \frac{12,408}{(1.20)(1005)} = \frac{12,408}{1206} = 10.3\text{ºC}$$
+</div>
+
+**Discussion**
+
+This problem beautifully illustrates several atmospheric phenomena:
+
+**(a)** About 5.5 grams of water condense from each cubic meter when humid air cools from 30ºC to 20ºC. This represents:
+- Dew formation on grass, cars, and surfaces overnight
+- Fog formation when air cools below the dew point
+- Condensation on cold surfaces (windows, cold drink glasses)
+
+The physics: Warmer air can hold more water vapor. At 30ºC with 75% humidity, air contains 22.8 g/m³ of water vapor. When cooled to 20ºC, it can only hold 17.3 g/m³ at saturation (100% humidity). The excess (5.5 g/m³) must condense.
+
+**(b)** The 12.4 kJ of heat released per cubic meter is substantial! This heat release:
+- Warms the surrounding air, slowing further cooling
+- Is a key mechanism in thunderstorm development (latent heat release in rising air)
+- Explains why coastal areas have milder temperature swings (ocean moisture moderates cooling)
+- Powers hurricanes (enormous latent heat release from ocean evaporation and subsequent condensation)
+
+**(c)** If this heat went entirely into warming dry air, it would increase temperature by 10.3ºC! In reality:
+- The air is not dry (it contains water vapor with higher heat capacity)
+- Heat disperses to surroundings by convection and radiation
+- Temperature rise is much less, but still measurable
+
+Real-world implications:
+1. **Dew point prediction**: When temperature approaches dew point, expect condensation (fog, dew, frost)
+2. **Weather patterns**: Large-scale condensation releases enormous energy, driving storms
+3. **Climate**: Water vapor is Earth's most important greenhouse gas and heat transport mechanism
+4. **Comfort**: High humidity feels uncomfortable because sweat doesn't evaporate efficiently
+
+For a typical bedroom (4m × 4m × 2.5m = 40 m³):
+- Water condensed: 40 × 5.5 = 220 g (nearly a cup!)
+- Heat released: 40 × 12.4 = 496 kJ
+- This explains why humid rooms feel stuffy and why dehumidifiers extract surprising amounts of water
+
+This problem demonstrates why:
+- Humid summer nights don't cool as efficiently (latent heat release)
+- Deserts have large day-night temperature swings (no moisture to moderate)
+- Tropical regions have stable temperatures (high moisture content)
+- Weather forecasters track dew point as critical for predicting fog and precipitation
+
+**Answer**
+
+(a) Approximately **5.5 grams** of water condense from each cubic meter.
+(b) About **12.4 kJ** of heat is released by this condensation.
+(c) This could cause a temperature increase of approximately **10.3ºC** in dry air.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

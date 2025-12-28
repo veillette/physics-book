@@ -474,7 +474,17 @@ What is the Fahrenheit temperature of a person with a  $$ 39.0\text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
- $$102\text{ºF} $$
+**Strategy:**
+Use the conversion equation from Celsius to Fahrenheit.
+
+**Solution:**
+Using the equation $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32$$:
+<div class="equation" >
+ $${T}_{\text{ºF}}=\frac{9}{5}(39.0\text{ºC})+32=70.2+32=102.2\text{ºF}\approx 102\text{ºF} $$
+</div>
+
+**Discussion:**
+A temperature of 102ºF represents a significant fever. Normal body temperature is 98.6ºF (37.0ºC), so a fever of 102ºF is about 3.6ºF above normal. This level of fever indicates the body is fighting an infection and would typically warrant medical attention, especially if sustained or accompanied by other symptoms.
 </div>
 </div>
 
@@ -512,8 +522,24 @@ To conserve energy, room temperatures are kept at  $$ 68.0\text{ºF} $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 20.0\text{ºC} $$
- and  $$ 25.6\text{ºC} $$
+**Strategy:**
+Use the conversion equation from Fahrenheit to Celsius for each temperature.
+
+**Solution:**
+Using the equation $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right)$$:
+
+Winter temperature:
+<div class="equation" >
+ $${T}_{\text{ºC}}=\frac{5}{9}\left(68.0-32\right)=\frac{5}{9}(36.0)=20.0\text{ºC} $$
+</div>
+
+Summer temperature:
+<div class="equation" >
+ $${T}_{\text{ºC}}=\frac{5}{9}\left(78.0-32\right)=\frac{5}{9}(46.0)=25.6\text{ºC} $$
+</div>
+
+**Discussion:**
+These temperatures (20.0ºC in winter and 25.6ºC in summer) represent a reasonable range for energy-efficient building temperatures. The 10ºF (5.6ºC) difference between winter and summer settings reflects the fact that people dress more warmly in winter and more lightly in summer, so comfort can be maintained at different temperatures. This temperature difference also reduces heating costs in winter and cooling costs in summer, contributing to significant energy savings.
 </div>
 </div>
 
@@ -548,7 +574,22 @@ The surface temperature of the Sun is about 5750 K. What is this temperature on 
 
 </div>
 <div class="solution" markdown="1">
- $$9890\text{ºF} $$
+**Strategy:**
+First convert from Kelvin to Celsius, then from Celsius to Fahrenheit.
+
+**Solution:**
+Convert K to ºC:
+<div class="equation" >
+ $${T}_{\text{ºC}}={T}_{\text{K}}- 273.15 = 5750- 273.15 = 5477\text{ºC} $$
+</div>
+
+Convert ºC to ºF:
+<div class="equation" >
+ $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32=\frac{9}{5}(5477)+32= 9859+32= 9891\text{ºF}\approx 9890\text{ºF} $$
+</div>
+
+**Discussion:**
+This extremely high surface temperature of the Sun (5750 K or about 5477ºC or 9890ºF) is what causes the Sun to emit visible light and heat. At this temperature, the Sun's surface glows white-hot, emitting radiation across the entire electromagnetic spectrum with peak intensity in the visible range. This is why the Sun appears yellowish-white to our eyes. The core of the Sun is even hotter, at about 15 million kelvin, where nuclear fusion reactions occur. Understanding the Sun's temperature is crucial for astrophysics and for understanding how stars generate energy.
 </div>
 </div>
 
