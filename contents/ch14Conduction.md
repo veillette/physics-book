@@ -858,8 +858,65 @@ Compare the rate of heat conduction through a 13.0-cm-thick wall that has an are
  assuming the same temperature difference across each.
 
 </div>
-<div class="solution" markdown="1">
-35 to 1, window to wall
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ for both the wall and window. Since the temperature difference $$\Delta T$$ is the same for both, we can calculate the ratio of heat conduction rates by comparing $$\frac{kA}{d}$$ for each. The thermal conductivity of glass wool is found in Table 1, and the wall has twice that value.
+
+**Solution**
+
+Given:
+- Wall thickness: $$d_w = 13.0 \text{ cm} = 0.130 \text{ m}$$
+- Wall area: $$A_w = 10.0 \text{ m}^2$$
+- Wall thermal conductivity: $$k_w = 2k_{glass\ wool} = 2(0.042) = 0.084 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+- Window thickness: $$d_{win} = 0.750 \text{ cm} = 0.00750 \text{ m}$$
+- Window area: $$A_{win} = 2.00 \text{ m}^2$$
+- Window thermal conductivity (glass): $$k_{win} = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Table 1)
+
+Heat conduction rate through wall:
+<div class="equation">
+$$\frac{Q_{wall}}{t} = \frac{k_w A_w \Delta T}{d_w} = \frac{(0.084)(10.0)\Delta T}{0.130}$$
+</div>
+
+<div class="equation">
+$$\frac{Q_{wall}}{t} = 6.46 \Delta T$$
+</div>
+
+Heat conduction rate through window:
+<div class="equation">
+$$\frac{Q_{win}}{t} = \frac{k_{win} A_{win} \Delta T}{d_{win}} = \frac{(0.84)(2.00)\Delta T}{0.00750}$$
+</div>
+
+<div class="equation">
+$$\frac{Q_{win}}{t} = 224 \Delta T$$
+</div>
+
+Ratio of window to wall:
+<div class="equation">
+$$\frac{Q_{win}/t}{Q_{wall}/t} = \frac{224\Delta T}{6.46\Delta T} = \frac{224}{6.46} = 34.7 \approx 35$$
+</div>
+
+**Discussion**
+
+The window conducts heat at about 35 times the rate of the wall, even though the wall has 5 times the area! This dramatic difference occurs because:
+
+1. **Thinner glass**: The window (0.750 cm) is about 17 times thinner than the wall (13.0 cm)
+2. **Higher conductivity**: Glass (0.84 J/s·m·ºC) has 10 times the thermal conductivity of the wall material (0.084 J/s·m·ºC)
+3. **Combined effect**: The ratio $$\frac{k}{d}$$ for the window is about 170 times larger than for the wall, but the wall's larger area (5×) reduces this to about 35×
+
+This calculation demonstrates why:
+- Windows are major sources of heat loss in buildings
+- Double or triple-pane windows with air gaps dramatically improve insulation
+- Energy-efficient homes minimize window area in cold climates
+- Window treatments (curtains, shutters) significantly reduce heat loss at night
+- Modern low-E windows and argon-filled gaps are essential for energy efficiency
+
+Even a small window can lose as much heat as a much larger, well-insulated wall. For a typical winter temperature difference of 20ºC, this window would conduct about 4480 W while the wall conducts only 129 W—a striking difference that explains high heating bills in poorly insulated homes.
+
+**Answer**
+
+The window conducts heat at approximately **35 times the rate** of the wall (ratio of **35 to 1, window to wall**).
 
 </div>
 </div>
@@ -920,8 +977,70 @@ The temperature difference across the wool clothing is **17.9ºC** or approximat
 Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm thick and heat conduction occurs through the same area and at the same rate as computed in [[Example 2]](#Example2), what is the temperature difference across it? Ceramic has the same thermal conductivity as glass and brick.
 
 </div>
-<div class="solution" markdown="1">
- $$ 1.05 \times 10^{3}  \text{K} $$
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and solve for the temperature difference $$\Delta T$$. From Example 2, we know the rate of heat transfer is 2256 J/s and the area is $$1.54 \times 10^{-2} \text{ m}^2$$. The thermal conductivity of ceramic is the same as glass and brick (0.84 J/s·m·ºC from Table 1).
+
+**Solution**
+
+Given (from Example 2):
+- Rate of heat transfer: $$\frac{Q}{t} = 2256 \text{ J/s}$$
+- Area: $$A = 1.54 \times 10^{-2} \text{ m}^2$$
+- Ceramic thickness: $$d = 0.600 \text{ cm} = 0.00600 \text{ m}$$
+- Thermal conductivity of ceramic: $$k = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (same as glass and brick)
+
+Solve for temperature difference:
+<div class="equation">
+$$\frac{Q}{t} = \frac{kA\Delta T}{d}$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(2256)(0.00600)}{(0.84)(1.54 \times 10^{-2})}$$
+</div>
+
+<div class="equation">
+$$\Delta T = \frac{13.536}{0.01294} = 1046 \text{ºC} = 1046 \text{ K}$$
+</div>
+
+Or approximately:
+<div class="equation">
+$$\Delta T \approx 1.05 \times 10^{3} \text{ K}$$
+</div>
+
+**Discussion**
+
+The temperature difference of approximately 1050ºC (or 1050 K, since temperature differences are the same in Celsius and Kelvin) across the 0.6-cm ceramic is remarkably large. This means:
+
+1. **Bottom surface is very hot**: If water is boiling on top at 100ºC, the bottom surface touching the heating element is at approximately 1150ºC
+2. **Ceramic is a poor conductor**: Compared to aluminum in Example 2 (which had only 5.3ºC difference across 0.8 cm), ceramic requires a much larger temperature gradient to conduct the same heat
+3. **Red-hot elements**: Electric stove burners glow red-hot (around 800-1200ºC) to transfer heat through ceramic
+
+The calculation demonstrates why ceramic cooktops:
+- Take longer to heat up than direct metal contact
+- Have much hotter heating elements than metal pans
+- Require special flat-bottomed cookware for good thermal contact
+- Stay hot longer after turning off (thermal mass retains heat)
+
+Comparing to Example 2:
+- Aluminum: $$\Delta T = 5.3\text{ºC}$$ across 0.8 cm
+- Ceramic: $$\Delta T = 1050\text{ºC}$$ across 0.6 cm
+
+The ceramic requires about 200 times larger temperature difference! This is because aluminum's thermal conductivity (220 J/s·m·ºC) is about 260 times greater than ceramic's (0.84 J/s·m·ºC).
+
+Despite the poor conductivity, ceramic cooktops are popular because:
+- Smooth surface is easy to clean
+- Aesthetic appeal
+- Even heat distribution once warmed up
+- Safety features (indicator lights show when hot)
+
+The extreme temperature difference explains why touching a ceramic cooktop shortly after use can cause severe burns—the surface remains dangerously hot while appearing to cool.
+
+**Answer**
+
+The temperature difference across the ceramic is approximately **1.05 × 10³ K** or **1050ºC**.
+
 </div>
 </div>
 
@@ -1012,10 +1131,121 @@ same area and with the same temperatures. Compare your answer with that for
 part (a).
 
 </div>
-<div class="solution" markdown="1">
-(a) 83 W
+<div class="solution" data-element-type="problems-exercises" markdown="1">
 
-(b) 24 times that of a double pane window.
+**Strategy**
+
+For part (a), we use the fact that heat flow is the same through each layer (glass-air-glass) in steady state. The hint tells us the temperature drops are identical across the two glass panes. We can use the series resistance concept: the total temperature difference (25ºC) splits across the three layers. We find the temperature drops and then calculate the heat flow rate.
+
+For part (b), we calculate heat conduction through a single 1.60-cm thick glass window and compare.
+
+**Solution**
+
+Given:
+- Window area: $$A = 1.50 \text{ m}^2$$
+- Glass pane thickness: $$d_g = 0.800 \text{ cm} = 0.00800 \text{ m}$$
+- Air gap thickness: $$d_a = 1.00 \text{ cm} = 0.0100 \text{ m}$$
+- Inside temperature: $$T_{in} = 15.0\text{ºC}$$
+- Outside temperature: $$T_{out} = -10.0\text{ºC}$$
+- Temperature difference: $$\Delta T_{total} = 15.0 - (-10.0) = 25.0\text{ºC}$$
+- Thermal conductivity of glass: $$k_g = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+- Thermal conductivity of air: $$k_a = 0.023 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+
+**(a)** For steady-state heat flow through layers in series:
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{k_g A \Delta T_g}{d_g} = \frac{k_a A \Delta T_a}{d_a}$$
+</div>
+
+where $$\Delta T_g$$ is the temperature drop across each glass pane and $$\Delta T_a$$ is the drop across the air gap.
+
+The hint states the drops across both glass panes are identical, so:
+<div class="equation">
+$$\Delta T_{total} = 2\Delta T_g + \Delta T_a = 25.0\text{ºC}$$
+</div>
+
+From equal heat flow rates through glass and air:
+<div class="equation">
+$$\frac{k_g \Delta T_g}{d_g} = \frac{k_a \Delta T_a}{d_a}$$
+</div>
+
+<div class="equation">
+$$\Delta T_a = \frac{k_g d_a}{k_a d_g} \Delta T_g = \frac{(0.84)(0.0100)}{(0.023)(0.00800)} \Delta T_g$$
+</div>
+
+<div class="equation">
+$$\Delta T_a = \frac{0.0084}{0.000184} \Delta T_g = 45.65 \Delta T_g$$
+</div>
+
+Substituting into the total:
+<div class="equation">
+$$2\Delta T_g + 45.65\Delta T_g = 25.0$$
+</div>
+
+<div class="equation">
+$$47.65\Delta T_g = 25.0$$
+</div>
+
+<div class="equation">
+$$\Delta T_g = 0.525\text{ºC}$$
+</div>
+
+<div class="equation">
+$$\Delta T_a = 45.65 \times 0.525 = 23.95\text{ºC}$$
+</div>
+
+Now calculate heat flow rate:
+<div class="equation">
+$$\frac{Q}{t} = \frac{k_g A \Delta T_g}{d_g} = \frac{(0.84)(1.50)(0.525)}{0.00800}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{0.6615}{0.00800} = 82.7 \text{ W} \approx 83 \text{ W}$$
+</div>
+
+**(b)** For a single 1.60-cm thick glass window:
+- Thickness: $$d = 1.60 \text{ cm} = 0.0160 \text{ m}$$
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{k_g A \Delta T_{total}}{d} = \frac{(0.84)(1.50)(25.0)}{0.0160}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{31.5}{0.0160} = 1969 \text{ W} \approx 2000 \text{ W}$$
+</div>
+
+Comparison:
+<div class="equation">
+$$\frac{Q_{single}}{Q_{double}} = \frac{1969}{82.7} = 23.8 \approx 24$$
+</div>
+
+**Discussion**
+
+**(a)** The double-paned window conducts only 83 W, which is remarkably low! The key insight is that most of the temperature drop (24ºC out of 25ºC total) occurs across the thin air gap. This happens because:
+
+- Air's thermal conductivity (0.023) is about 37 times lower than glass (0.84)
+- Even though the air gap (1.0 cm) is only slightly thicker than the glass (0.8 cm), its poor conductivity creates a large thermal resistance
+- The glass panes have minimal temperature drop (only 0.525ºC each)
+
+**(b)** The single-pane window conducts nearly 2000 W—about **24 times more** than the double-pane! This dramatic difference explains why:
+
+- Double-pane windows are standard in cold climates
+- Older homes with single-pane windows have high heating bills
+- Triple-pane windows (with two air gaps) are even better
+- Modern windows use argon or krypton gas (lower conductivity than air) for better insulation
+- Low-E coatings further reduce heat transfer by radiation
+
+Energy savings calculation:
+- Difference: 2000 W - 83 W = 1917 W per window
+- Over a 6-month heating season (4320 hours): $$1917 \text{ W} \times 4320 \text{ h} = 8.28 \times 10^6 \text{ Wh} = 8280 \text{ kWh}$$
+- At \$0.12/kWh: savings of about \$994 per window per year!
+
+This problem demonstrates why the air gap in double-pane windows is the crucial insulating feature, not the extra glass thickness. The still air acts as an effective barrier to heat conduction.
+
+**Answer**
+
+(a) The rate of heat conduction through the double-paned window is approximately **83 W**.
+(b) The single-pane window conducts approximately **24 times as much heat** as the double-pane window.
 
 </div>
 </div>
@@ -1115,8 +1345,79 @@ For the human body, what is the rate of heat transfer by conduction through the 
  How does this compare with the average heat transfer rate to the body resulting from an energy intake of about 2400 kcal per day? (No exercise is included.)
 
 </div>
-<div class="solution" markdown="1">
-20.0 W, 17.2% of 2400 kcal per day
+<div class="solution" data-element-type="problems-exercises" markdown="1">
+
+**Strategy**
+
+We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ with the thermal conductivity of human tissue (similar to water). Then we compare this to the metabolic rate from 2400 kcal/day food intake by converting to watts.
+
+**Solution**
+
+Given:
+- Tissue thickness: $$d = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+- Temperature difference: $$\Delta T = 2.00\text{ºC}$$
+- Skin area: $$A = 1.50 \text{ m}^2$$
+- Thermal conductivity of tissue: $$k = 0.20 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Table 1, body fat; tissue is similar)
+- Food energy intake: $$E = 2400 \text{ kcal/day}$$
+
+**Part 1:** Calculate heat conduction rate through tissue:
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.20)(1.50)(2.00)}{0.0300}$$
+</div>
+
+<div class="equation">
+$$\frac{Q}{t} = \frac{0.60}{0.0300} = 20.0 \text{ W}$$
+</div>
+
+**Part 2:** Convert metabolic rate to watts:
+
+<div class="equation">
+$$\frac{E}{t} = \frac{2400 \text{ kcal}}{1 \text{ day}} = \frac{2400 \text{ kcal}}{24 \text{ h}} \times \frac{1 \text{ h}}{3600 \text{ s}}$$
+</div>
+
+<div class="equation">
+$$\frac{E}{t} = \frac{2400}{86400} \text{ kcal/s} = 0.02778 \text{ kcal/s}$$
+</div>
+
+Convert to joules per second (watts):
+<div class="equation">
+$$\frac{E}{t} = 0.02778 \text{ kcal/s} \times 4186 \text{ J/kcal} = 116.3 \text{ W}$$
+</div>
+
+**Part 3:** Calculate percentage:
+
+<div class="equation">
+$$\text{Percentage} = \frac{20.0 \text{ W}}{116.3 \text{ W}} \times 100\% = 17.2\%$$
+</div>
+
+**Discussion**
+
+The heat conduction rate through body tissue is 20.0 W, which represents about 17.2% of the total metabolic rate (116 W from 2400 kcal/day food intake). This demonstrates several important physiological points:
+
+1. **Conduction is a minor pathway**: Only about 17% of heat loss occurs through pure conduction through tissue. The body loses most heat through:
+   - Radiation (~60% in typical indoor conditions)
+   - Evaporation from skin and breathing (~20%)
+   - Convection (~15%)
+   - Conduction (~5% in reality, higher in this idealized problem)
+
+2. **Temperature gradient is small**: The 2.00ºC temperature difference represents the drop from core body temperature (~37ºC) to skin temperature (~35ºC). This small gradient is maintained by blood circulation, which distributes heat from metabolically active organs to the skin.
+
+3. **Tissue as insulation**: The 3.00 cm of tissue provides modest insulation. Fat tissue (k = 0.20) is about half as conductive as muscle and organs (k ≈ 0.4-0.5), which is why subcutaneous fat helps retain body heat.
+
+4. **Metabolic rate**: The 2400 kcal/day (116 W) represents basal metabolic rate plus light activity. During rest, BMR is about 80-100 W; the remainder comes from movement and digestion.
+
+Real-world considerations:
+- Blood circulation greatly enhances heat transport (beyond pure conduction)
+- Clothing adds insulation layers, reducing overall heat loss
+- Environmental temperature affects skin temperature and thus $$\Delta T$$
+- Exercise can increase metabolic rate to 500-2000 W, requiring enhanced cooling mechanisms
+
+The calculation shows why humans need continuous metabolic heat production—without it, we'd quickly cool to environmental temperature. The relatively low conduction rate (20 W) through tissue means our core stays warm even when skin is exposed to cold environments (temporarily).
+
+**Answer**
+
+The rate of heat transfer by conduction is **20.0 W**, which is approximately **17.2% of the 2400 kcal per day** metabolic rate.
 
 </div>
 </div>

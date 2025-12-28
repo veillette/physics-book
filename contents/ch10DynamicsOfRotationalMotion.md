@@ -882,12 +882,32 @@ rad/s, and her moment of inertia is $$ 0.050\kg \cdot \mm $$.
 
 </div>
 <div class="solution" markdown="1">
-(a) 2.0 ms
 
-(b) The time interval is too short.
+**Strategy**
 
-(c) The moment of inertia is much too small, by one to two orders of magnitude.
-A torque of $$ 500 \N \cdot \m $$ is reasonable.
+We use the rotational form of Newton's second law and the relationship between torque and angular momentum change: $$ \tau = \frac{\Delta L}{\Delta t} = I\frac{\Delta\omega}{\Delta t} $$. To reverse her spin, her angular velocity must change from +10.0 rad/s to −10.0 rad/s.
+
+**Solution**
+
+**(a)** The change in angular velocity is:
+
+<div class="equation">
+$$ \Delta\omega = \omega_f - \omega_i = -10.0 - 10.0 = -20.0 \text{ rad/s} $$
+</div>
+
+Using $$ \tau = I\alpha = I\frac{\Delta\omega}{\Delta t} $$:
+
+<div class="equation">
+$$ \Delta t = \frac{I\Delta\omega}{\tau} = \frac{(0.050 \kg \cdot \mm)(-20.0 \text{ rad/s})}{-500 \N \cdot \m} = 0.002 \s = 2.0 \text{ ms} $$
+</div>
+
+**(b)** A time of 2.0 milliseconds is absurdly short. It's impossible for a gymnast to exert a torque for such a brief period and reverse her rotation. Human reaction time alone is around 100-200 ms, and applying forces through body contact with the mat takes much longer than 2 ms.
+
+**(c)** The moment of inertia of 0.050 kg·m² is unreasonably small. A typical human body has a moment of inertia of 5-20 kg·m² depending on body position. The given value is smaller by a factor of 100-400. A realistic moment of inertia would be around 5 kg·m², which would give a time of 200 ms—much more reasonable. The torque of 500 N·m, while large, is not unreasonable for a gymnast landing on a mat.
+
+**Discussion**
+
+This problem illustrates how unreasonable values for one quantity (moment of inertia) lead to impossible results (2 ms time interval). In reality, a gymnast's moment of inertia in a tucked position is about 2-4 kg·m², and in an extended position, 10-15 kg·m². The absurdly low value given makes the calculation physically meaningless.
 
 </div>
 </div>
@@ -907,13 +927,59 @@ rotational energy is used to get the car up to speed.
 
 </div>
 <div class="solution" markdown="1">
-(a) 17 500 rpm
 
-(b) This angular velocity is very high for a disk of this size and mass. The
-radial acceleration at the edge of the disk is &gt; 50 000 gs.
+**Strategy**
 
-(c) Flywheel mass and radius should both be much greater, allowing for a lower
-spin rate (angular velocity).
+The car's final kinetic energy must equal 95% of the flywheel's initial rotational kinetic energy. We use KE = ½mv² for the car and KE_rot = ½Iω² for the flywheel (disk: I = ½MR²).
+
+**Solution**
+
+**(a)** The car's kinetic energy at 30.0 m/s:
+
+<div class="equation">
+$$ KE_{\text{car}} = \frac{1}{2}mv^2 = \frac{1}{2}(800 \kg)(30.0 \text{ m/s})^2 = 3.60 \times 10^5 \J $$
+</div>
+
+This must equal 95% of the flywheel's rotational energy:
+
+<div class="equation">
+$$ 0.950 \times \frac{1}{2}I\omega^2 = 3.60 \times 10^5 \J $$
+</div>
+
+For a disk flywheel:
+
+<div class="equation">
+$$ I = \frac{1}{2}MR^2 = \frac{1}{2}(20.0 \kg)(0.150 \m)^2 = 0.225 \kg \cdot \mm $$
+</div>
+
+Solving for ω:
+
+<div class="equation">
+$$ \omega^2 = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} = \frac{7.20 \times 10^5}{0.214} = 3.36 \times 10^6 \text{ rad}^2/\text{s}^2 $$
+</div>
+
+<div class="equation">
+$$ \omega = 1834 \text{ rad/s} = 1834 \times \frac{60}{2\pi} \text{ rpm} = 17,500 \text{ rpm} $$
+</div>
+
+**(b)** This angular velocity is unreasonably high. At the edge of the disk (r = 0.150 m), the centripetal acceleration would be:
+
+<div class="equation">
+$$ a_c = \omega^2 r = (1834)^2(0.150) = 5.04 \times 10^5 \text{ m/s}^2 = 51,400g $$
+</div>
+
+This is over 50,000 times the acceleration due to gravity. No ordinary material could withstand such forces without flying apart. Additionally, 17,500 rpm is far beyond typical flywheel speeds.
+
+**(c)** The flywheel is much too small and light to store enough energy at reasonable rotation speeds. To store this much energy safely, the flywheel would need either:
+- Much greater mass (hundreds of kg instead of 20 kg), or
+- Much larger radius (0.5-1.0 m instead of 0.15 m), or
+- Both
+
+A realistic flywheel for this application might be 200 kg with a 0.5 m radius, which would require only about 2,000 rpm—still high but achievable with proper materials and engineering.
+
+**Discussion**
+
+This problem demonstrates the challenges of energy storage in flywheels. While flywheels can store substantial energy, the limits of material strength constrain their design. Modern high-performance flywheels use composite materials and operate in vacuum chambers, but even these have practical limits well below what would cause 50,000g accelerations.
 
 </div>
 </div>

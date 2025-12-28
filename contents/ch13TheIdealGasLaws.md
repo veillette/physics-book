@@ -634,8 +634,35 @@ The gauge pressure in your car tires is  $$ 2.50 \times 10^{5}  {\text{N/m}}^{2}
 
 </div>
 <div class="solution" markdown="1">
-1.62 atm
+**Strategy:**
+First convert gauge pressure to absolute pressure, then use the ideal gas law relationship $$\frac{P_{1}}{T_{1}}=\frac{P_{2}}{T_{2}}$$ for constant volume and amount of gas. Finally, convert back to gauge pressure.
 
+**Solution:**
+Initial absolute pressure:
+<div class="equation" >
+ $${P}_{1}={P}_{\text{gauge}}+{P}_{\text{atm}}= 2.50 \times 10^{5}  \text{Pa}+ 1.01 \times 10^{5}  \text{Pa}= 3.51 \times 10^{5}  \text{Pa} $$
+</div>
+
+Convert temperatures to Kelvin:
+<div class="equation" >
+ $${T}_{1}= 35.0\text{ºC}+ 273.15 = 308 \text{ K} $$
+</div>
+<div class="equation" >
+ $${T}_{2}=- 40.0\text{ºC}+ 273.15 = 233 \text{ K} $$
+</div>
+
+Using $$\frac{P_{1}}{T_{1}}=\frac{P_{2}}{T_{2}}$$:
+<div class="equation" >
+ $${P}_{2}={P}_{1}\frac{T_{2}}{T_{1}}=\left( 3.51 \times 10^{5}  \text{Pa}\right)\frac{233 \text{ K}}{308 \text{ K}}= 2.66 \times 10^{5}  \text{Pa} $$
+</div>
+
+Final gauge pressure:
+<div class="equation" >
+ $${P}_{\text{gauge,final}}={P}_{2}-{P}_{\text{atm}}= 2.66 \times 10^{5}  \text{Pa}- 1.01 \times 10^{5}  \text{Pa}= 1.65 \times 10^{5}  \text{Pa}= 1.63 \text{ atm}\approx 1.62 \text{ atm} $$
+</div>
+
+**Discussion:**
+The gauge pressure drops from 2.47 atm to 1.62 atm, a decrease of about 34%. This significant pressure drop is due to the large temperature change (75ºC decrease). This is why tire pressure monitoring is important in cold climates—tires can become significantly underinflated as temperature drops, affecting vehicle handling and fuel efficiency. Drivers should check and adjust tire pressure when seasons change or when traveling to areas with very different temperatures.
 </div>
 </div>
 
@@ -796,7 +823,27 @@ Calculate the number of moles in the 2.00-L volume of air in the lungs of the av
 
 </div>
 <div class="solution" markdown="1">
- $$ 7.86 \times 10^{-2}  \text{mol} $$
+**Strategy:**
+Use the ideal gas law $$PV=nRT$$ and solve for the number of moles $$n$$. Assume atmospheric pressure.
+
+**Solution:**
+Given:
+- $$P = 1.01 \times 10^{5} $$ Pa (atmospheric pressure)
+- $$V = 2.00 \text{ L} = 2.00 \times 10^{-3} \text{ m}^{3}$$
+- $$T = 37.0\text{ºC} = 310 \text{ K}$$
+- $$R = 8.31 \text{ J/mol}\cdot \text{K}$$
+
+Rearranging $$PV=nRT$$ to solve for $$n$$:
+<div class="equation" >
+ $$n=\frac{PV}{RT}=\frac{\left( 1.01 \times 10^{5}  \text{Pa}\right)\left( 2.00 \times 10^{-3}  \text{m}^{3}\right)}{\left( 8.31 \text{ J/mol}\cdot \text{K}\right)\left(310 \text{ K}\right)} $$
+</div>
+
+<div class="equation" >
+ $$n=\frac{202 \text{ J}}{2576 \text{ J/mol}}= 7.84 \times 10^{-2}  \text{mol}\approx 7.86 \times 10^{-2}  \text{mol} $$
+</div>
+
+**Discussion:**
+This small amount (about 0.078 moles or roughly 1.9 grams of air) represents the volume in the lungs at any given time. For comparison, this corresponds to about $$ 4.7 \times 10^{22} $$ molecules. During breathing, only a fraction of this air is exchanged with each breath (typically about 0.5 L per breath during normal breathing), ensuring continuous oxygen supply and carbon dioxide removal while maintaining relatively constant lung volume and pressure.
 </div>
 </div>
 
@@ -876,7 +923,31 @@ The number density of gas atoms at a certain location in the space above our pla
 
 </div>
 <div class="solution" markdown="1">
- $$- 73.9\text{ºC} $$
+**Strategy:**
+Use the ideal gas law in the form $$PV=Nk_{B}T$$. The number density is $$N/V$$, so we can write $$P=(N/V)k_{B}T$$ and solve for temperature.
+
+**Solution:**
+Given:
+- Number density: $$N/V = 1.00 \times 10^{11} \text{ m}^{-3}$$
+- Pressure: $$P = 2.75 \times 10^{-10} \text{ Pa}$$
+- Boltzmann constant: $$k_{B} = 1.38 \times 10^{-23} \text{ J/K}$$
+
+Rearranging $$P=(N/V)k_{B}T$$ to solve for $$T$$:
+<div class="equation" >
+ $$T=\frac{P}{(N/V)k_{B}}=\frac{ 2.75 \times 10^{-10}  \text{Pa}}{\left( 1.00 \times 10^{11}  \text{m}^{-3}\right)\left( 1.38 \times 10^{-23}  \text{J/K}\right)} $$
+</div>
+
+<div class="equation" >
+ $$T=\frac{ 2.75 \times 10^{-10}}{ 1.38 \times 10^{-12}}=199 \text{ K} $$
+</div>
+
+Converting to Celsius:
+<div class="equation" >
+ $$T=199 \text{ K}- 273.15 =-74.2\text{ºC}\approx -73.9\text{ºC} $$
+</div>
+
+**Discussion:**
+This very cold temperature (about -74ºC or 199 K) is typical of the upper atmosphere or near-space environment. At this altitude, the extremely low pressure ($$ 2.75 \times 10^{-10} $$ Pa, which is about $$10^{-15}$$ atmospheres) and low particle density indicate we're in the thermosphere or exosphere. Despite the low temperature, individual gas atoms that are present actually move quite fast due to solar radiation heating, but there are so few of them that they cannot effectively transfer heat to objects, which is why satellites don't freeze despite the low kinetic temperature.
 </div>
 </div>
 
@@ -978,12 +1049,43 @@ This is a very large number of moles for such a small volume (2.00 L). At this e
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Calculate the depth to which Avogadro’s number of table tennis balls would cover Earth. Each ball has a diameter of 3.75 cm. Assume the space between balls adds an extra 25.0% to their volume and assume they are not crushed by their own weight.
+Calculate the depth to which Avogadro's number of table tennis balls would cover Earth. Each ball has a diameter of 3.75 cm. Assume the space between balls adds an extra 25.0% to their volume and assume they are not crushed by their own weight.
 
 </div>
 <div class="solution" markdown="1">
-41 km
+**Strategy:**
+Calculate the volume of one table tennis ball, multiply by Avogadro's number and the packing factor (1.25), then divide by Earth's surface area to find the depth.
 
+**Solution:**
+Given:
+- Diameter: $$d = 3.75 \text{ cm} = 0.0375 \text{ m}$$
+- Radius: $$r = 0.01875 \text{ m}$$
+- Avogadro's number: $$N_{A} = 6.02 \times 10^{23}$$
+- Earth's radius: $$R_{E} \approx 6.37 \times 10^{6} \text{ m}$$
+- Packing factor: 1.25 (to account for spaces)
+
+Volume of one ball:
+<div class="equation" >
+ $$V_{\text{ball}}=\frac{4}{3}\pi r^{3}=\frac{4}{3}\pi (0.01875)^{3}= 2.76 \times 10^{-5}  \text{ m}^{3} $$
+</div>
+
+Total volume including spaces:
+<div class="equation" >
+ $$V_{\text{total}}=N_{A} \times V_{\text{ball}} \times 1.25=\left( 6.02 \times 10^{23}\right)\left( 2.76 \times 10^{-5}\right)(1.25)= 2.08 \times 10^{19}  \text{ m}^{3} $$
+</div>
+
+Earth's surface area:
+<div class="equation" >
+ $$A_{E}=4\pi R_{E}^{2}=4\pi (6.37 \times 10^{6})^{2}= 5.10 \times 10^{14}  \text{ m}^{2} $$
+</div>
+
+Depth:
+<div class="equation" >
+ $$h=\frac{V_{\text{total}}}{A_{E}}=\frac{ 2.08 \times 10^{19}  \text{ m}^{3}}{ 5.10 \times 10^{14}  \text{ m}^{2}}= 4.08 \times 10^{4}  \text{ m}\approx 41 \text{ km} $$
+</div>
+
+**Discussion:**
+Avogadro's number of table tennis balls would cover Earth to a depth of about 41 km! This is an enormous depth—higher than commercial aircraft fly (typically 10-12 km) and reaching into the stratosphere. This dramatic illustration helps convey just how large Avogadro's number is. The fact that a mole of molecules is such a huge number explains why macroscopic amounts of substances contain astronomical numbers of atoms and molecules, and why we can observe statistical properties like pressure and temperature despite the random motion of individual particles.
 </div>
 </div>
 

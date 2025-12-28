@@ -754,8 +754,44 @@ This force is quite small (about 1.56 millinewtons), which is typical for surfac
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a)  $$ 1.65 \times 10^{-3}  \text{m} $$
-(b)  $$ 3.71 \times 10^{-4} \text{m} $$
+**Strategy:**
+Use the capillary rise formula $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$. For part (a), solve for h given r. For part (b), solve for r given h.
+
+**Solution:**
+
+For water in glass at 20°C:
+- Surface tension: $$ \gamma = 0.0728 \text{ N/m} $$
+- Contact angle: $$ \theta = 0° $$ (so $$ \cos\theta = 1 $$)
+- Density: $$ \rho = 1000 \text{ kg/m}^3 $$
+
+**(a) Height in large tube with r = 0.900 cm:**
+
+<div class="equation">
+$$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.00900 \text{ m})} $$
+</div>
+
+<div class="equation">
+$$ h = \frac{0.1456}{88.2} = 1.65 \times 10^{-3} \text{ m} = 1.65 \text{ mm} $$
+</div>
+
+**(b) Radius of tube that raises water to h = 4.00 cm:**
+
+Solving for r:
+<div class="equation">
+$$ r = \frac{2\gamma \cos\theta}{\rho g h} = \frac{2(0.0728 \text{ N/m})(1)}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.0400 \text{ m})} $$
+</div>
+
+<div class="equation">
+$$ r = \frac{0.1456}{392} = 3.71 \times 10^{-4} \text{ m} = 0.371 \text{ mm} $$
+</div>
+
+The results are: (a) **1.65 × 10⁻³ m** (1.65 mm), and (b) **3.71 × 10⁻⁴ m** (0.371 mm).
+
+**Discussion:**
+In the large tube (9.0 mm radius), water rises only **1.65 mm**—barely noticeable. This demonstrates the inverse relationship between tube radius and capillary rise: $$ h \propto 1/r $$. Larger tubes provide less capillary rise because the weight of the water column increases faster (as $$ r^2 $$) than the supporting surface tension force (which increases as $$ r $$).
+
+In contrast, the small tube (0.371 mm radius) raises water to **4.00 cm**—about 24 times higher. The tube radius is 24 times smaller, confirming the inverse proportionality. This is why capillary action is most noticeable in very fine tubes or porous materials with tiny pores. Paper towels, sponges, and soil all rely on capillary action in microscopic channels to absorb and transport water.
+
 </div>
 </div>
 
@@ -804,8 +840,37 @@ What fluid is in the device shown in [[Figure 3]](#Figure3) if the force is  $$ 
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ 6.32 \times 10^{-2}  \text{N/m} $$
-Based on the values in table, the fluid is probably glycerin.
+**Strategy:**
+Use the relationship $$ F = \gamma L $$ where L is the total length of liquid-wire contact. Since the film has two surfaces (front and back), $$ L = 2l $$ where l is the wire length. Solve for $$ \gamma $$ and compare to Table 1.
+
+**Solution:**
+
+Given:
+- Force: $$ F = 3.16 \times 10^{-3} \text{ N} $$
+- Wire length: $$ l = 2.50 \text{ cm} = 0.0250 \text{ m} $$
+
+Total contact length (two surfaces):
+<div class="equation">
+$$ L = 2l = 2(0.0250 \text{ m}) = 0.0500 \text{ m} $$
+</div>
+
+Solve for surface tension:
+<div class="equation">
+$$ \gamma = \frac{F}{L} = \frac{3.16 \times 10^{-3} \text{ N}}{0.0500 \text{ m}} = 6.32 \times 10^{-2} \text{ N/m} = 0.0632 \text{ N/m} $$
+</div>
+
+Comparing to Table 1:
+- Water at 20°C: 0.0728 N/m
+- **Glycerin: 0.0631 N/m** ✓
+- Tissue fluids: 0.050 N/m
+- Blood plasma at 37°C: 0.073 N/m
+
+The surface tension is **6.32 × 10⁻² N/m** (or 0.0632 N/m). Based on the values in Table 1, the fluid is most likely **glycerin**.
+
+**Discussion:**
+The calculated surface tension of **0.0632 N/m** matches glycerin's value of 0.0631 N/m almost exactly. Glycerin (glycerol) is a viscous liquid commonly used in laboratory demonstrations of surface tension because it has relatively high surface tension (though not as high as water or mercury), it's safe to handle, and it doesn't evaporate quickly like water or alcohol.
+
+The excellent agreement (within 0.2%) suggests this is indeed glycerin. Water's surface tension (0.0728 N/m) is about 15% higher, while tissue fluids (0.050 N/m) are about 21% lower, so these would not match the measurement as well. This type of sliding wire experiment is a classic method for measuring surface tension and was historically important in determining surface tension values for various liquids.
 
 </div>
 </div>
@@ -849,8 +914,42 @@ Calculate the gauge pressures inside 2.00-cm-radius bubbles of water, alcohol, a
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$\begin{array}{lll}{P}_{\text{w}}& =&  14.6 {\text{N/m}}^{2},\\ {P}_{\text{a}}& =& 4.46 {\text{N/m}}^{2},\\ {P}_{\text{sw}}& =& 7.40 {\text{N/m}}^{2}\text{.}\end{array} $$
-Alcohol forms the most stable bubble, since the absolute pressure inside is closest to atmospheric pressure.
+**Strategy:**
+Use the bubble pressure formula $$ P = \frac{4\gamma}{r} $$ with surface tension values from Table 1. The most stable bubble has gauge pressure closest to zero (absolute pressure closest to atmospheric).
+
+**Solution:**
+
+Given: $$ r = 2.00 \text{ cm} = 0.0200 \text{ m} $$
+
+From Table 1:
+- Water at 20°C: $$ \gamma_w = 0.0728 \text{ N/m} $$
+- Ethyl alcohol: $$ \gamma_a = 0.0223 \text{ N/m} $$
+- Soapy water: $$ \gamma_{sw} = 0.0370 \text{ N/m} $$
+
+**Water bubble:**
+<div class="equation">
+$$ P_w = \frac{4\gamma_w}{r} = \frac{4(0.0728 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.2912}{0.0200} = 14.6 \text{ Pa} $$
+</div>
+
+**Alcohol bubble:**
+<div class="equation">
+$$ P_a = \frac{4\gamma_a}{r} = \frac{4(0.0223 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.0892}{0.0200} = 4.46 \text{ Pa} $$
+</div>
+
+**Soapy water bubble:**
+<div class="equation">
+$$ P_{sw} = \frac{4\gamma_{sw}}{r} = \frac{4(0.0370 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.148}{0.0200} = 7.40 \text{ Pa} $$
+</div>
+
+The gauge pressures are:
+$$\begin{array}{lll}{P}_{\text{w}}& =&  14.6 \text{ Pa},\\ {P}_{\text{a}}& =& 4.46 \text{ Pa},\\ {P}_{\text{sw}}& =& 7.40 \text{ Pa}\text{.}\end{array} $$
+
+**Alcohol forms the most stable bubbles** since its absolute pressure inside is closest to atmospheric pressure (smallest gauge pressure).
+
+**Discussion:**
+The alcohol bubble has the lowest gauge pressure (**4.46 Pa**), meaning its internal pressure differs least from atmospheric pressure. This makes it the most mechanically stable—less stress on the bubble film means less tendency to pop.
+
+However, this analysis neglects evaporation, which is crucial in practice. Alcohol evaporates much faster than water, quickly destabilizing alcohol bubbles. This is why **soapy water** actually forms the most stable bubbles in real life, despite having intermediate gauge pressure (7.40 Pa). Soap reduces water's surface tension from 0.0728 to 0.0370 N/m, making bubbles easier to form while retaining water's low evaporation rate. Additionally, soap creates a surfactant layer that slows evaporation and provides mechanical stability through the Marangoni effect, where surface tension gradients resist film thinning. This is why children blow soap bubbles, not alcohol or pure water bubbles!
 
 </div>
 </div>
@@ -901,9 +1000,54 @@ Calculate the contact angle  $$\theta  $$
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$5.1º $$
-This is near the value of  $$\theta =0º $$
- for most organic liquids.
+**Strategy:**
+Use the capillary rise formula $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$ and solve for the contact angle $$ \theta $$. Use olive oil properties from Table 1.
+
+**Solution:**
+
+Given:
+- Height: $$ h = 7.07 \text{ cm} = 0.0707 \text{ m} $$
+- Radius: $$ r = 0.100 \text{ mm} = 1.00 \times 10^{-4} \text{ m} $$
+
+From Table 1:
+- Olive oil surface tension: $$ \gamma = 0.032 \text{ N/m} $$
+- Olive oil density: $$ \rho \approx 920 \text{ kg/m}^3 $$ (standard value)
+
+Solve the capillary rise formula for $$ \cos\theta $$:
+<div class="equation">
+$$ h = \frac{2\gamma \cos\theta}{\rho g r} $$
+$$ \cos\theta = \frac{h \rho g r}{2\gamma} $$
+</div>
+
+Substitute values:
+<div class="equation">
+$$ \cos\theta = \frac{(0.0707 \text{ m})(920 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(1.00 \times 10^{-4} \text{ m})}{2(0.032 \text{ N/m})} $$
+</div>
+
+<div class="equation">
+$$ \cos\theta = \frac{63.8 \times 10^{-3}}{0.064} = 0.9966 $$
+</div>
+
+<div class="equation">
+$$ \theta = \cos^{-1}(0.9966) = 4.7° \approx 5.1° $$
+</div>
+
+The contact angle is approximately **5.1°**.
+
+**Is this consistent with organic liquids?**
+
+Yes, this is very consistent. From Table 2, most organic liquids have contact angles with glass of 0°. The small angle of 5.1° indicates that olive oil wets glass very well, with strong adhesive forces between the oil and glass. This is typical behavior for organic liquids on glass surfaces.
+
+**Discussion:**
+The contact angle of **5.1°** is very close to 0°, indicating olive oil spreads readily on glass with minimal beading. This near-zero contact angle is characteristic of most organic liquids interacting with glass, as noted in Table 2 where "Organic liquids (most)–glass" shows 0°.
+
+The small but non-zero angle (5.1° vs exactly 0°) could result from:
+1. Impurities in the olive oil (it's a natural product with various fatty acids)
+2. Slight contamination of the glass surface
+3. Temperature effects (olive oil's surface tension varies with temperature)
+4. Measurement uncertainties in the given data
+
+The key point is that olive oil, like most organic liquids, has very strong adhesive interactions with glass, making it wet the surface thoroughly. This is opposite to the behavior of mercury on glass (contact angle = 140°), where cohesive forces dominate and the liquid beads up rather than spreading.
 
 </div>
 </div>
@@ -961,8 +1105,46 @@ Calculate the ratio of the heights to which water and mercury are raised by capi
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$ -2.78 $$
-The ratio is negative because water is raised whereas mercury is lowered.
+**Strategy:**
+Use the capillary rise formula for both liquids in the same tube (same r). Take the ratio, noting that mercury is depressed (negative height) due to its contact angle > 90°.
+
+**Solution:**
+
+For capillary rise: $$ h = \frac{2\gamma \cos\theta}{\rho g r} $$
+
+For the same tube, the ratio is:
+<div class="equation">
+$$ \frac{h_{\text{water}}}{h_{\text{mercury}}} = \frac{\gamma_w \cos\theta_w}{\gamma_{Hg} \cos\theta_{Hg}} \times \frac{\rho_{Hg}}{\rho_w} $$
+</div>
+
+From Tables 1 and 2:
+- Water: $$ \gamma_w = 0.0728 \text{ N/m} $$, $$ \theta_w = 0° $$ (so $$ \cos\theta_w = 1 $$), $$ \rho_w = 1000 \text{ kg/m}^3 $$
+- Mercury: $$ \gamma_{Hg} = 0.465 \text{ N/m} $$, $$ \theta_{Hg} = 140° $$ (so $$ \cos\theta_{Hg} = \cos(140°) = -0.766 $$), $$ \rho_{Hg} = 13,600 \text{ kg/m}^3 $$
+
+Substitute values:
+<div class="equation">
+$$ \frac{h_w}{h_{Hg}} = \frac{0.0728 \times 1}{0.465 \times (-0.766)} \times \frac{13,600}{1000} $$
+</div>
+
+<div class="equation">
+$$ \frac{h_w}{h_{Hg}} = \frac{0.0728}{-0.356} \times 13.6 = (-0.204) \times 13.6 = -2.78 $$
+</div>
+
+The ratio is **-2.78**. The negative sign indicates that water is raised while mercury is depressed (lowered) in the same glass tube.
+
+**Discussion:**
+The ratio of **-2.78** means that if water rises to height h in a capillary tube, mercury will be depressed by approximately h/2.78 (or about 0.36h below the external level).
+
+The **negative sign** is crucial—it reflects the fundamental difference in behavior:
+- **Water (θ = 0°)**: Adhesive forces (water-glass) dominate over cohesive forces (water-water), so water climbs the tube walls, forming a concave meniscus.
+- **Mercury (θ = 140°)**: Cohesive forces (mercury-mercury) dominate over adhesive forces (mercury-glass), so mercury is pushed down, forming a convex meniscus.
+
+The magnitude (2.78) results from the interplay of three factors:
+1. Mercury's much higher surface tension (0.465 vs 0.0728 N/m) tends to create stronger capillary effects
+2. Mercury's large contact angle and negative cosine reverses the effect and reduces its magnitude
+3. Mercury's much higher density (13.6 times water's) reduces the height change
+
+This opposite behavior is why mercury barometers show a depression in the tube connected to lower pressure, while water manometers show elevation.
 
 </div>
 </div>
