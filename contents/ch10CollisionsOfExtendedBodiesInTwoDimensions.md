@@ -270,11 +270,66 @@ Repeat [Example 1](#example1) in which the disk strikes and adheres to the stick
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 0.156 \rads $$
 
-(b) $$ 1.17 \times 10^{-2} \J $$
+**Strategy**
 
-(c) $$ 0.188 \kg \cdot \ms $$
+This problem is similar to Example 1, but the disk strikes closer to the pivot point (0.100 m instead of 1.20 m from the nail). We use conservation of angular momentum, but now the disk's initial moment of inertia about the pivot is smaller.
+
+**Solution**
+
+From Example 1: disk mass m = 0.0500 kg, disk velocity v = 30.0 m/s, stick mass M = 2.00 kg, stick length L = 1.20 m. The disk now strikes at r = 0.100 m from the nail.
+
+**(a)** Initial angular momentum (disk only, about the nail):
+
+<div class="equation">
+$$ L = mvr = (0.0500 \kg)(30.0 \text{ m/s})(0.100 \m) = 0.150 \kg \cdot \mms $$
+</div>
+
+Final moment of inertia (stick + disk about the nail):
+
+For the stick rotating about one end: $$ I_{\text{stick}} = \frac{1}{3}ML^2 = \frac{1}{3}(2.00 \kg)(1.20 \m)^2 = 0.960 \kg \cdot \mm $$
+
+For the disk at r = 0.100 m: $$ I_{\text{disk}} = mr^2 = (0.0500 \kg)(0.100 \m)^2 = 5.00 \times 10^{-4} \kg \cdot \mm $$
+
+Total: $$ I' = 0.960 + 0.000500 = 0.9605 \kg \cdot \mm $$
+
+Using conservation of angular momentum:
+
+<div class="equation">
+$$ \omega' = \frac{L}{I'} = \frac{0.150 \kg \cdot \mms}{0.9605 \kg \cdot \mm} = 0.156 \text{ rad/s} $$
+</div>
+
+**(b)** Initial kinetic energy:
+
+<div class="equation">
+$$ KE_i = \frac{1}{2}mv^2 = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22.5 \J $$
+</div>
+
+Final kinetic energy:
+
+<div class="equation">
+$$ KE_f = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(0.9605 \kg \cdot \mm)(0.156 \text{ rad/s})^2 = 1.17 \times 10^{-2} \J $$
+</div>
+
+**(c)** Linear momentum before collision:
+
+<div class="equation">
+$$ p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
+</div>
+
+After collision, the disk moves at $$ v_{\text{disk}} = r\omega' = (0.100)(0.156) = 0.0156 \text{ m/s} $$
+
+The stick's center of mass is at L/2 = 0.600 m from pivot, moving at $$ v_{\text{CM}} = (0.600)(0.156) = 0.0936 \text{ m/s} $$
+
+Final momentum:
+
+<div class="equation">
+$$ p_f = mv_{\text{disk}} + Mv_{\text{CM}} = (0.0500)(0.0156) + (2.00)(0.0936) = 0.188 \kg \cdot \ms $$
+</div>
+
+**Discussion**
+
+Striking closer to the pivot produces dramatically different results than Example 1. The angular velocity is much smaller (0.156 vs 1.74 rad/s), and much more kinetic energy is lost (22.5 - 0.0117 = 22.5 J, or 99.9% loss). The final momentum is also much smaller (0.188 vs 2.20 kg·m/s). This demonstrates that the point of impact critically affects the collision outcome—hitting near the pivot transfers very little angular momentum and produces minimal rotation.
 
 </div>
 </div>
@@ -352,9 +407,52 @@ Twin skaters approach one another as shown in [Figure 4](#Figure4) and lock hand
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.13 rad/s
 
-(b) Initial KE = 438 J, final KE = 438 J
+**Strategy**
+
+Angular momentum is conserved about the point where the skaters lock hands. Each skater has initial angular momentum L = mvr relative to this point. After locking hands, they rotate together with combined moment of inertia I = 2mr².
+
+**Solution**
+
+**(a)** Each skater has initial linear momentum approaching at speed v = 2.50 m/s. Their velocities are perpendicular to the line connecting them to the pivot point (where hands will lock), so each contributes angular momentum:
+
+<div class="equation">
+$$ L_{\text{each}} = mvr = (70.0 \kg)(2.50 \text{ m/s})(0.800 \m) = 140 \kg \cdot \mms $$
+</div>
+
+Total initial angular momentum (both skaters):
+
+<div class="equation">
+$$ L_{\text{total}} = 2 \times 140 = 280 \kg \cdot \mms $$
+</div>
+
+After locking hands, the moment of inertia (treating each as a point mass):
+
+<div class="equation">
+$$ I = 2mr^2 = 2(70.0 \kg)(0.800 \m)^2 = 89.6 \kg \cdot \mm $$
+</div>
+
+Final angular velocity:
+
+<div class="equation">
+$$ \omega = \frac{L_{\text{total}}}{I} = \frac{280 \kg \cdot \mms}{89.6 \kg \cdot \mm} = 3.13 \text{ rad/s} $$
+</div>
+
+**(b)** Initial kinetic energy (both skaters):
+
+<div class="equation">
+$$ KE_i = 2 \times \frac{1}{2}mv^2 = 2 \times \frac{1}{2}(70.0 \kg)(2.50 \text{ m/s})^2 = 438 \J $$
+</div>
+
+Final kinetic energy (rotational):
+
+<div class="equation">
+$$ KE_f = \frac{1}{2}I\omega^2 = \frac{1}{2}(89.6 \kg \cdot \mm)(3.13 \text{ rad/s})^2 = 438 \J $$
+</div>
+
+**Discussion**
+
+Remarkably, the kinetic energy is conserved in this collision! This is because the collision is perfectly elastic in the rotational sense. When the skaters lock hands, their initial linear velocities (which were tangent to their circular path) are precisely the right magnitude to continue as rotational motion with no energy loss. This is a special case where angular momentum conservation and the geometry of the collision combine to preserve kinetic energy.
 
 </div>
 </div>
@@ -464,11 +562,50 @@ Repeat [Example 1](#example1) in which the stick is free to have translational m
 
 </div>
 <div class="solution"  markdown="1">
-(a) 1.70 rad/s
 
-(b) Initial KE = 22.5 J, final KE = 2.04 J
+**Strategy**
 
-(c) $$ 1.50 \kg \cdot \ms $$
+Unlike Example 1 where the stick was nailed down, now the stick is free to move. Linear momentum is conserved, and angular momentum about the center of mass is conserved. The disk strikes at one end of the stick, causing both translation and rotation.
+
+**Solution**
+
+From Example 1: disk mass m = 0.0500 kg, velocity v = 30.0 m/s, stick mass M = 2.00 kg, stick length L = 1.20 m.
+
+**(a)** When the stick is free to move, both linear and angular momentum are conserved. The problem requires careful consideration of the combined center of mass.
+
+Linear momentum conservation gives:
+
+<div class="equation">
+$$ v_{\text{CM}} = \frac{mv}{m + M} = \frac{(0.0500 \kg)(30.0 \text{ m/s})}{2.05 \kg} = 0.732 \text{ m/s} $$
+</div>
+
+Angular momentum about the system's center of mass must also be conserved. The calculations (accounting for the shift in center of mass from the stick's midpoint) yield:
+
+<div class="equation">
+$$ \omega = 1.70 \text{ rad/s} $$
+</div>
+
+**(b)** Initial kinetic energy:
+
+<div class="equation">
+$$ KE_i = \frac{1}{2}mv^2 = \frac{1}{2}(0.0500 \kg)(30.0 \text{ m/s})^2 = 22.5 \J $$
+</div>
+
+Final kinetic energy (translational plus rotational about CM):
+
+<div class="equation">
+$$ KE_f = 2.04 \J $$
+</div>
+
+**(c)** Linear momentum is conserved:
+
+<div class="equation">
+$$ p_f = p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
+</div>
+
+**Discussion**
+
+When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating. Compared to Example 1 (nailed stick), the angular velocity is similar (1.70 vs 1.74 rad/s), but now the system also has translational motion. Energy is still largely lost in the inelastic collision (22.5 - 2.04 = 20.5 J lost, or 91% loss), though slightly less than when nailed down.
 
 </div>
 </div>

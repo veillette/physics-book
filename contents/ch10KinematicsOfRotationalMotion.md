@@ -422,9 +422,34 @@ With the aid of a string, a gyroscope is accelerated from rest to 32 rad/s in 0.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
-(a) $$ 80 \radss $$
 
-(b) 1.0 rev
+**Strategy**
+
+For part (a), we use the definition of angular acceleration: α = Δω/Δt. For part (b), we use a rotational kinematic equation to find the angular displacement, then convert to revolutions.
+
+**Solution**
+
+**(a)** The angular acceleration is:
+
+<div class="equation">
+$$ \alpha = \frac{\Delta\omega}{\Delta t} = \frac{32 \text{ rad/s} - 0}{0.40 \s} = 80 \radss $$
+</div>
+
+**(b)** Using the kinematic equation $$ \theta = \omega_0 t + \frac{1}{2}\alpha t^2 $$ with $$ \omega_0 = 0 $$:
+
+<div class="equation">
+$$ \theta = 0 + \frac{1}{2}(80 \radss)(0.40 \s)^2 = \frac{1}{2}(80)(0.16) = 6.4 \text{ rad} $$
+</div>
+
+Converting to revolutions:
+
+<div class="equation">
+$$ \theta = \frac{6.4 \text{ rad}}{2\pi \text{ rad/rev}} = 1.0 \text{ rev} $$
+</div>
+
+**Discussion**
+
+The gyroscope makes exactly one complete revolution while spinning up to 32 rad/s. The angular acceleration of 80 rad/s² is quite large, reflecting the rapid spin-up from the string pull. This is a typical way to start a gyroscope—a quick pull on a string wrapped around its axis.
 
 </div>
 </div>
@@ -478,9 +503,34 @@ A gyroscope slows from an initial rate of 32.0 rad/s at a rate of $$ 0.700
 
 </div>
 <div class="solution" markdown="1">
-(a) 45.7 s
 
-(b) 116 rev
+**Strategy**
+
+The gyroscope is decelerating, so α = −0.700 rad/s². For part (a), we use ω = ω₀ + αt with ω = 0. For part (b), we use ω² = ω₀² + 2αθ to find the angular displacement.
+
+**Solution**
+
+**(a)** Using $$ \omega = \omega_0 + \alpha t $$ with $$ \omega = 0 $$:
+
+<div class="equation">
+$$ t = \frac{\omega - \omega_0}{\alpha} = \frac{0 - 32.0 \text{ rad/s}}{-0.700 \radss} = 45.7 \s $$
+</div>
+
+**(b)** Using $$ \omega^2 = \omega_0^2 + 2\alpha\theta $$ with $$ \omega = 0 $$:
+
+<div class="equation">
+$$ \theta = \frac{-\omega_0^2}{2\alpha} = \frac{-(32.0 \text{ rad/s})^2}{2(-0.700 \radss)} = \frac{-1024}{-1.40} = 731 \text{ rad} $$
+</div>
+
+Converting to revolutions:
+
+<div class="equation">
+$$ \theta = \frac{731 \text{ rad}}{2\pi \text{ rad/rev}} = 116 \text{ rev} $$
+</div>
+
+**Discussion**
+
+The gyroscope takes 45.7 seconds to come to rest, making 116 complete revolutions in that time. The relatively small angular deceleration (0.700 rad/s²) compared to the initial angular velocity (32.0 rad/s) means the gyroscope coasts for a long time and distance. This is typical of gyroscopes, which have low friction bearings and can spin for extended periods.
 
 </div>
 </div>
@@ -573,11 +623,34 @@ acceleration of a point on its edge?
 
 </div>
 <div class="solution" markdown="1">
-a) $$ 600 \radss $$
 
-b) 450 rad/s
+**Strategy**
 
-c) 21.0 m/s
+The string wraps around the center shaft, so the linear acceleration of the yo-yo relates to angular acceleration by a = rα, where r is the shaft radius. For part (b), we use ω = ω₀ + αt. For part (c), we use a_t = Rα with the outer radius.
+
+**Solution**
+
+**(a)** The shaft radius is r = 0.250 cm = 0.00250 m. Using $$ a = r\alpha $$:
+
+<div class="equation">
+$$ \alpha = \frac{a}{r} = \frac{1.50 \mss}{0.00250 \m} = 600 \radss $$
+</div>
+
+**(b)** Starting from rest ($$ \omega_0 = 0 $$), after t = 0.750 s:
+
+<div class="equation">
+$$ \omega = \omega_0 + \alpha t = 0 + (600 \radss)(0.750 \s) = 450 \text{ rad/s} $$
+</div>
+
+**(c)** At the outer edge, R = 3.50 cm = 0.0350 m:
+
+<div class="equation">
+$$ a_t = R\alpha = (0.0350 \m)(600 \radss) = 21.0 \mss $$
+</div>
+
+**Discussion**
+
+The angular acceleration is quite large (600 rad/s²) because the shaft radius is so small. After only 0.750 s, the yo-yo is spinning at 450 rad/s (about 4,300 rpm). The tangential acceleration at the outer edge (21.0 m/s²) is much larger than the yo-yo's linear acceleration (1.50 m/s²) because the outer radius is 14 times larger than the shaft radius. This large difference in accelerations at different radii is characteristic of rotating objects.
 
 </div>
 </div>

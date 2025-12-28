@@ -446,7 +446,22 @@ Some incandescent light bulbs are filled with argon gas. What is  $${v}_{\text{r
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.25 \times 10^{3}  \text{m/s} $$
+**Strategy:**
+Use the equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ with the mass of an argon atom.
+
+**Solution:**
+First, find the mass of an argon atom using its molar mass from the periodic table:
+<div class="equation" >
+ $$m=\frac{39.948 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{atoms/mol}}= 6.64 \times 10^{-26}  \text{kg} $$
+</div>
+
+Now calculate the rms speed:
+<div class="equation" >
+ $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}=\sqrt{\frac{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left(2500 \text{ K}\right)}{ 6.64 \times 10^{-26}  \text{kg}}}= 1.25 \times 10^{3}  \text{m/s} $$
+</div>
+
+**Discussion:**
+Argon atoms near the filament move at about 1250 m/s (about 2800 mph), which is over 3.5 times the speed of sound in air. This high speed is due to the extremely high temperature near the filament. Argon is used in light bulbs because it's inert (won't react with the hot tungsten filament) and because its atoms, moving rapidly, help convect heat away from the filament while preventing oxidation. The argon also reduces evaporation of tungsten from the filament, extending bulb life.
 </div>
 </div>
 
@@ -484,8 +499,27 @@ Even at this extremely low temperature (just 5 K above absolute zero), helium at
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 1.20 \times 10^{-19}  \text{J} $$
-(b)  $$ 1.24 \times 10^{-17}  \text{J} $$
+**Strategy:**
+Use the relationship $$\overline{\text{KE}}=\frac{3}{2}k_{B}T$$ for both parts. Note that kinetic energy depends only on temperature, not on the type of atom.
+
+**Solution:**
+(a) Convert temperature to Kelvin:
+<div class="equation" >
+ $$T= 5500\text{ºC}+ 273.15 = 5773 \text{ K} $$
+</div>
+
+Calculate average kinetic energy:
+<div class="equation" >
+ $$\overline{\text{KE}}=\frac{3}{2}k_{B}T=\frac{3}{2}\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left(5773 \text{ K}\right)= 1.20 \times 10^{-19}  \text{J} $$
+</div>
+
+(b) For the solar corona:
+<div class="equation" >
+ $$\overline{\text{KE}}=\frac{3}{2}k_{B}T=\frac{3}{2}\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left( 6.00 \times 10^{5}  \text{K}\right)= 1.24 \times 10^{-17}  \text{J} $$
+</div>
+
+**Discussion:**
+The average kinetic energy of atoms in the solar corona is about 100 times greater than on the Sun's surface, reflecting the dramatically higher temperature. The solar corona, visible during solar eclipses as the Sun's outer atmosphere, has temperatures exceeding 1 million kelvin—paradoxically much hotter than the Sun's visible surface at about 5800 K. This "coronal heating problem" is an active area of research in solar physics. Despite the very high temperatures, the corona doesn't feel hot because its density is extremely low—there are very few particles to transfer energy. Note that kinetic energy depends only on temperature, not on whether the particle is hydrogen or helium.
 </div>
 </div>
 
@@ -528,11 +562,26 @@ This extremely high temperature (158,000 K) is much higher than any naturally oc
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 The escape velocity from the Moon is much smaller than from Earth and is only 2.38 km/s. At what temperature would hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity  $${v}_{\text{rms}} $$
- equal to the Moon’s escape velocity?
+ equal to the Moon's escape velocity?
 
 </div>
 <div class="solution" markdown="1">
- $$458 \text{K} $$
+**Strategy:**
+Use the rms speed equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ and solve for temperature.
+
+**Solution:**
+First find the mass of a hydrogen molecule:
+<div class="equation" >
+ $$m=\frac{ 2.016 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 3.35 \times 10^{-27}  \text{kg} $$
+</div>
+
+Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
+<div class="equation" >
+ $$T=\frac{m{v}_{\text{rms}}^{2}}{3k_{B}}=\frac{\left( 3.35 \times 10^{-27}  \text{kg}\right){\left( 2.38 \times 10^{3}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}=458 \text{ K} $$
+</div>
+
+**Discussion:**
+At only 458 K (185ºC), hydrogen molecules would have sufficient rms speed to escape the Moon's gravity. This temperature is much lower than Earth's escape temperature for hydrogen, explaining why the Moon has essentially no atmosphere—it lost its atmosphere long ago. At the Moon's daytime surface temperatures (which can reach 400 K), a significant fraction of light gases like hydrogen and helium have speeds exceeding escape velocity. The Moon's weak gravity (about 1/6 that of Earth) and lack of a magnetic field to trap charged particles means that any atmosphere it once had has been lost to space over billions of years.
 </div>
 </div>
 
@@ -565,7 +614,22 @@ Suppose that the average velocity  $$\left({v}_{\text{rms}}\right) $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.95 \times 10^{7}  \text{K} $$
+**Strategy:**
+Use the rms speed equation and solve for temperature.
+
+**Solution:**
+First find the mass of a CO₂ molecule:
+<div class="equation" >
+ $$m=\frac{ 44.0 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 7.31 \times 10^{-26}  \text{kg} $$
+</div>
+
+Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
+<div class="equation" >
+ $$T=\frac{m{v}_{\text{rms}}^{2}}{3k_{B}}=\frac{\left( 7.31 \times 10^{-26}  \text{kg}\right){\left( 1.05 \times 10^{5}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 1.95 \times 10^{7}  \text{K} $$
+</div>
+
+**Discussion:**
+This temperature of about 19.5 million kelvin is extraordinarily high—far beyond any chemical flame, which typically reaches only a few thousand kelvin. This temperature is comparable to the temperature in the core of the Sun (about 15 million K) where nuclear fusion occurs. Such extreme temperatures are not found in ordinary flames. This problem likely describes conditions in a very exotic environment such as a nuclear explosion, a stellar interior, or possibly an extremely high-energy plasma experiment. At such temperatures, matter exists as a fully ionized plasma with nuclei stripped of all electrons.
 </div>
 </div>
 
@@ -603,7 +667,22 @@ Much of the gas near the Sun is atomic hydrogen. Its temperature would have to b
 
 </div>
 <div class="solution" markdown="1">
- $$ 6.09 \times 10^{5}  \text{m/s} $$
+**Strategy:**
+Use the rms speed equation $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ with the mass of a hydrogen atom.
+
+**Solution:**
+First find the mass of a hydrogen atom:
+<div class="equation" >
+ $$m=\frac{ 1.008 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{atoms/mol}}= 1.67 \times 10^{-27}  \text{kg} $$
+</div>
+
+Now calculate the rms speed:
+<div class="equation" >
+ $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}=\sqrt{\frac{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)\left( 1.5 \times 10^{7}  \text{K}\right)}{ 1.67 \times 10^{-27}  \text{kg}}}= 6.09 \times 10^{5}  \text{m/s} $$
+</div>
+
+**Discussion:**
+The escape velocity from the Sun's surface is about 609 km/s (or about 2.2 million km/h), which is roughly 55 times Earth's escape velocity. This enormous escape velocity explains why the Sun can retain even light elements like hydrogen in its atmosphere despite its very high surface temperature of 5800 K. At the surface temperature, the rms speed of hydrogen is only about 12 km/s, far below the escape velocity. However, at the temperature of 15 million kelvin in the Sun's core, hydrogen atoms move fast enough that some could escape if they reached the surface—but they lose energy through collisions as they move outward. The solar wind does allow some particles to escape, but the Sun retains the vast majority of its mass.
 </div>
 </div>
 

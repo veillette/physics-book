@@ -500,7 +500,16 @@ Dry air is 78.1% nitrogen. What is the partial pressure of nitrogen when the atm
 
 </div>
 <div class="solution" markdown="1">
- $$ 7.89 \times 10^{4}  \text{Pa} $$
+**Strategy:**
+Use Dalton's law of partial pressures. The partial pressure of a component gas is the percentage of that gas times the total pressure.
+
+**Solution:**
+<div class="equation" >
+ $${P}_{\text{N}_2}= 0.781 \times P_{\text{total}}= 0.781 \times 1.01 \times 10^{5}  \text{Pa}= 7.89 \times 10^{4}  \text{Pa} $$
+</div>
+
+**Discussion:**
+Nitrogen comprises about 78% of the atmosphere by volume (and by partial pressure), making it the most abundant gas in Earth's atmosphere. This partial pressure of 78,900 Pa (about 0.78 atm) is what determines the concentration of nitrogen dissolved in liquids like blood and water. This is important for scuba divers—at depth, the increased pressure increases nitrogen's partial pressure, causing more nitrogen to dissolve in body tissues. If a diver ascends too quickly, this dissolved nitrogen can form bubbles, causing decompression sickness ("the bends").
 </div>
 </div>
 
@@ -579,7 +588,16 @@ As altitude increases, atmospheric pressure decreases, and water boils at progre
 What is the atmospheric pressure on top of Mt. Everest on a day when water boils there at a temperature of  $$ 70.0\text{ºC}$$ ?
 </div>
 <div class="solution" markdown="1">
- $$ 3.12 \times 10^{4}  \text{Pa} $$
+**Strategy:**
+Water boils when its vapor pressure equals the atmospheric pressure. Find the vapor pressure of water at 70.0ºC from Table 1.
+
+**Solution:**
+From Table 1, the vapor pressure of water at 70ºC is $$ 3.12 \times 10^{4} $$ Pa.
+
+Since water boils when its vapor pressure equals atmospheric pressure, the atmospheric pressure at the top of Mt. Everest on this day is $$ 3.12 \times 10^{4} $$ Pa (about 0.31 atm or 31% of sea-level pressure).
+
+**Discussion:**
+This atmospheric pressure of about 31,200 Pa is typical for the summit of Mt. Everest (8,849 m above sea level), where the pressure is roughly one-third of sea-level pressure. At this pressure, water boils at only 70ºC instead of the normal 100ºC, making it very difficult to cook food properly. This reduced boiling point is one of many challenges faced by mountain climbers at extreme altitudes. The low atmospheric pressure also means climbers receive less oxygen with each breath, requiring them to use supplemental oxygen above about 8,000 m (the "death zone").
 </div>
 </div>
 
@@ -611,8 +629,18 @@ What is the relative humidity on a  $$ 25.0\text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
-78.3%
+**Strategy:**
+Use the definition of relative humidity as the ratio of actual vapor density to saturation vapor density. Find the saturation vapor density at 25.0ºC from Table 1.
 
+**Solution:**
+From Table 1, the saturation vapor density at 25.0ºC is 23.0 g/m³.
+
+<div class="equation" >
+ $$\text{Relative humidity}=\frac{\text{actual vapor density}}{\text{saturation vapor density}} \times 100=\frac{18.0 \text{ g/m}^{3}}{23.0 \text{ g/m}^{3}} \times 100=78.3\% $$
+</div>
+
+**Discussion:**
+A relative humidity of 78.3% indicates the air is holding about three-quarters of the maximum water vapor it can contain at 25ºC. This would feel quite humid and muggy, as evaporation of perspiration from skin would be inhibited, making it harder for the body to cool itself. For comparison, comfortable indoor humidity is typically 30-50%. At 100% relative humidity, the air is saturated and cannot hold any more water vapor, so sweat cannot evaporate and cooling becomes very difficult.
 </div>
 </div>
 
@@ -704,9 +732,32 @@ Air in human lungs has a temperature of  $$ 37.0\text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$ 8.80 \times 10^{-2}  \text{g} $$
-(b)  $$ 6.30 \times 10^{3}  \text{Pa} $$ ;  the two values are nearly identical.
+**Strategy:**
+(a) Calculate mass from density and volume. (b) Use the ideal gas law to find pressure from density.
 
+**Solution:**
+(a) Volume exhaled: $$V = 2.00 \text{ L} = 2.00 \times 10^{-3} \text{ m}^{3}$$
+
+Maximum water vapor loss (if exhaled air is saturated):
+<div class="equation" >
+ $$m=\rho V=\left(44.0 \text{ g/m}^{3}\right)\left( 2.00 \times 10^{-3}  \text{ m}^{3}\right)= 8.80 \times 10^{-2}  \text{g} $$
+</div>
+
+(b) Using $$PV=nRT$$ and $$n=m/M$$:
+<div class="equation" >
+ $$P=\frac{nRT}{V}=\frac{mRT}{MV}=\frac{\rho RT}{M} $$
+</div>
+
+Where $$M = 18.0 \text{ g/mol} = 0.0180 \text{ kg/mol}$$ for water.
+
+<div class="equation" >
+ $$P=\frac{\left(44.0 \text{ g/m}^{3}\right)\left( 8.31 \text{ J/mol}\cdot \text{K}\right)\left(310 \text{ K}\right)}{18.0 \text{ g/mol}}=\frac{\left( 0.0440 \text{ kg/m}^{3}\right)\left( 8.31\right)\left(310\right)}{0.0180}= 6.30 \times 10^{3}  \text{Pa} $$
+</div>
+
+This is nearly identical to the vapor pressure of $$ 6.31 \times 10^{3} $$ Pa from Table 1.
+
+**Discussion:**
+Part (a) shows that with each exhalation of 2 L, we lose about 0.088 g of water vapor if we inhale completely dry air. Over a day with about 20,000 breaths, this could amount to significant water loss (about 880 g or nearly 1 liter). In reality, inhaled air usually contains some moisture, so actual losses are less. Part (b) confirms that the ideal gas law accurately predicts the relationship between vapor density and pressure, validating the table values. This is why breathing passages must stay moist—the lungs saturate inhaled air with water vapor at body temperature.
 </div>
 </div>
 
@@ -749,8 +800,26 @@ Late on an autumn day, the relative humidity is 45.0% and the temperature is  $$
 
 </div>
 <div class="solution" markdown="1">
-82.3%
+**Strategy:**
+Find the actual vapor density at the initial conditions, then calculate what relative humidity this represents at the lower temperature.
 
+**Solution:**
+From Table 1:
+- Saturation vapor density at 20.0ºC = 17.2 g/m³
+- Saturation vapor density at 10.0ºC = 9.40 g/m³
+
+Initial vapor density (which remains constant):
+<div class="equation" >
+ $$\rho_{\text{vapor}}=\frac{45.0}{100} \times 17.2 \text{ g/m}^{3}= 7.74 \text{ g/m}^{3} $$
+</div>
+
+Relative humidity at 10.0ºC:
+<div class="equation" >
+ $$\text{Relative humidity}=\frac{ 7.74 \text{ g/m}^{3}}{ 9.40 \text{ g/m}^{3}} \times 100 = 82.3\% $$
+</div>
+
+**Discussion:**
+The relative humidity nearly doubles from 45% to 82% as the temperature drops by just 10ºC, even though the actual amount of water vapor in the air remains constant. This is because cooler air can hold less water vapor at saturation—the saturation vapor density drops from 17.2 to 9.40 g/m³. This is why relative humidity typically rises in the evening as temperatures drop, and why dew often forms overnight when the temperature drops to the dew point. If the temperature dropped a bit more (to about 5-6ºC), the air would reach 100% humidity and dew would start to form.
 </div>
 </div>
 
@@ -794,7 +863,25 @@ What is the dew point (the temperature at which 100% relative humidity would occ
 
 </div>
 <div class="solution" markdown="1">
- $$ 4.77\text{ºC} $$
+**Strategy:**
+Calculate the actual vapor density at current conditions. Then find the temperature at which this vapor density equals the saturation vapor density using Table 1.
+
+**Solution:**
+From Table 1, saturation vapor density at 20.0ºC = 17.2 g/m³.
+
+Actual vapor density:
+<div class="equation" >
+ $$\rho_{\text{vapor}}=\frac{39.0}{100} \times 17.2 \text{ g/m}^{3}= 6.71 \text{ g/m}^{3} $$
+</div>
+
+Looking at Table 1 for the temperature where saturation vapor density = 6.71 g/m³:
+- At 5ºC: 6.80 g/m³
+- At 0ºC: 4.84 g/m³
+
+By interpolation between these values, the dew point is approximately **4.77ºC** (closer to 5ºC).
+
+**Discussion:**
+The dew point of 4.77ºC is the temperature at which the current water vapor in the air would saturate the air (100% relative humidity). If the temperature drops to this point or below, water vapor will begin to condense as dew, fog, or frost. The large difference between the current temperature (20ºC) and the dew point (4.77ºC) indicates relatively dry conditions—the air is holding only 39% of the maximum water it could hold at 20ºC. Meteorologists use dew point as an important indicator: dew points above 20ºC feel very humid and uncomfortable, while dew points below 10ºC feel dry and comfortable.
 </div>
 </div>
 
@@ -840,7 +927,29 @@ depth. At what depth will fresh water have a boiling point of $$150\text{ºC} $$
 
 </div>
 <div class="solution" markdown="1">
- $$ 38.3 \text{m} $$
+**Strategy:**
+Water boils when its vapor pressure equals the surrounding pressure. Find the vapor pressure at 150ºC from Table 1. This pressure must equal atmospheric pressure plus the hydrostatic pressure from the water column. Use $$P=P_{\text{atm}}+\rho gh$$ to find depth.
+
+**Solution:**
+From Table 1, the vapor pressure of water at 150ºC is $$ 4.76 \times 10^{5} $$ Pa.
+
+At depth $$h$$, the total pressure is:
+<div class="equation" >
+ $$P_{\text{total}}=P_{\text{atm}}+\rho gh $$
+</div>
+
+Setting this equal to the vapor pressure:
+<div class="equation" >
+ $$ 4.76 \times 10^{5}  \text{Pa}= 1.01 \times 10^{5}  \text{Pa}+\left(1000 \text{ kg/m}^{3}\right)\left( 9.8 \text{ m/s}^{2}\right)h $$
+</div>
+
+Solving for $$h$$:
+<div class="equation" >
+ $$h=\frac{ 4.76 \times 10^{5}  \text{Pa}- 1.01 \times 10^{5}  \text{Pa}}{\left(1000 \text{ kg/m}^{3}\right)\left( 9.8 \text{ m/s}^{2}\right)}=\frac{ 3.75 \times 10^{5}  \text{Pa}}{9800 \text{ Pa/m}}= 38.3 \text{ m} $$
+</div>
+
+**Discussion:**
+At a depth of 38.3 meters below the surface, the pressure is high enough (4.76 atm) that water will boil at 150ºC instead of the normal 100ºC. This principle is important in deep-sea hydrothermal vents, where water can remain liquid at temperatures well above 100ºC due to the immense pressure. It's also relevant for geothermal energy systems and industrial processes. The increased boiling point at depth is the same principle used in pressure cookers, but achieved through water depth rather than a sealed container.
 </div>
 </div>
 
