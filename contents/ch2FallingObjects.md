@@ -1234,15 +1234,84 @@ A takeoff speed of 7.00 m/s (about 25 km/h) is quite impressive for an animal ju
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Standing at the base of one of the cliffs of Mt. Arapiles in Victoria, Australia, a hiker hears a rock break loose from
-a height of 105 m. He can’t see the rock right away but then does, 1.50 s later.
+a height of 105 m. He can't see the rock right away but then does, 1.50 s later.
 (a) How far above the hiker is the rock when he can see it?
 (b) How much time does he have to move before the rock hits his head?
 
 </div>
 <div class="solution" markdown="1">
-(a) 94.0 m
 
-(b) 3.13 s
+**Strategy**
+
+Take downward as positive. The rock falls from rest at height 105 m. After 1.50 s, the hiker can see it. We need to find where the rock is at that time, and then how long it takes to fall the remaining distance.
+
+**Solution**
+
+**(a) Height of rock when hiker sees it:**
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 0 $$
+   - Initial velocity: $$ v_0 = 0 $$ (breaks loose from rest)
+   - Time: $$ t = 1.50 \s $$
+   - Acceleration: $$ a = g = 9.80 \mss $$ (downward, positive)
+
+2. Find the distance fallen in 1.50 s:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 = 0 + 0 + \frac{1}{2}(9.80)(1.50)^2 $$
+</div>
+
+<div class="equation">
+$$ y = 4.90(2.25) = 11.0 \m $$
+</div>
+
+3. The rock is above the hiker by:
+<div class="equation">
+$$ h = 105 - 11.0 = 94.0 \m $$
+</div>
+
+**(b) Time remaining before impact:**
+
+1. The rock still needs to fall 94.0 m. Its velocity after 1.50 s is:
+<div class="equation">
+$$ v = v_0 + gt = 0 + (9.80)(1.50) = 14.7 \ms $$
+</div>
+
+2. Use the kinematic equation for the remaining fall:
+<div class="equation">
+$$ y = v_0 t + \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ 94.0 = (14.7)t + \frac{1}{2}(9.80)t^2 $$
+</div>
+
+<div class="equation">
+$$ 4.90t^2 + 14.7t - 94.0 = 0 $$
+</div>
+
+3. Using the quadratic formula:
+<div class="equation">
+$$ t = \frac{-14.7 \pm \sqrt{(14.7)^2 + 4(4.90)(94.0)}}{2(4.90)} $$
+</div>
+
+<div class="equation">
+$$ t = \frac{-14.7 \pm \sqrt{216.1 + 1842.4}}{9.80} = \frac{-14.7 \pm 45.4}{9.80} $$
+</div>
+
+Taking the positive root:
+<div class="equation">
+$$ t = \frac{30.7}{9.80} = 3.13 \s $$
+</div>
+
+**Discussion**
+
+The rock falls 11.0 m in the first 1.50 seconds, leaving it 94.0 m above the hiker when he first sees it. This is reasonable since falling objects don't travel very far in the first second or two. The hiker then has 3.13 seconds to move out of the way - enough time to react if he's alert, but not much margin for error! The total fall time is $$ 1.50 + 3.13 = 4.63 \s $$. This problem illustrates the importance of staying alert near cliffs and the accelerating nature of falling objects.
+
+**Answer**
+
+(a) When the hiker first sees the rock, it is 94.0 m above him.
+
+(b) He has 3.13 s to move before the rock hits his head.
 
 </div>
 </div>
@@ -1364,9 +1433,82 @@ There is a 250-m-high cliff at Half Dome in Yosemite National Park in California
 
 </div>
 <div class="solution" markdown="1">
-(a) -70.0 m/s (downward)
 
-(b) 6.10 s
+**Strategy**
+
+Take downward as positive. The boulder falls from rest from a height of 250 m. For part (a), we find the impact velocity. For part (b), we must account for the time it takes for the boulder to fall, plus the time for sound to travel back up, plus the reaction time. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Solution**
+
+**(a) Velocity when striking the ground:**
+
+1. Identify the known values:
+   - Initial position: $$ y_0 = 0 $$
+   - Final position: $$ y = 250 \m $$ (ground level, 250 m below starting point)
+   - Initial velocity: $$ v_0 = 0 $$ (breaks loose from rest)
+   - Acceleration: $$ a = g = 9.80 \mss $$ (downward, positive)
+
+2. Use the kinematic equation:
+<div class="equation">
+$$ v^2 = v_0^2 + 2ay $$
+</div>
+
+<div class="equation">
+$$ v^2 = 0 + 2(9.80)(250) $$
+</div>
+
+<div class="equation">
+$$ v^2 = 4900 \mmss $$
+</div>
+
+<div class="equation">
+$$ v = 70.0 \ms $$
+</div>
+
+Taking the coordinate system with upward as positive (more conventional):
+<div class="equation">
+$$ v = -70.0 \ms $$ (downward)
+</div>
+
+**(b) Time available to move:**
+
+1. First, find the time for the boulder to fall:
+<div class="equation">
+$$ y = y_0 + v_0 t + \frac{1}{2}gt^2 $$
+</div>
+
+<div class="equation">
+$$ 250 = 0 + 0 + \frac{1}{2}(9.80)t_{fall}^2 $$
+</div>
+
+<div class="equation">
+$$ t_{fall} = \sqrt{\frac{2(250)}{9.80}} = \sqrt{51.02} = 7.14 \s $$
+</div>
+
+2. Time for sound to travel up 250 m:
+<div class="equation">
+$$ t_{sound} = \frac{distance}{speed} = \frac{250 \m}{335 \text{ m/s}} = 0.746 \s $$
+</div>
+
+3. Total time from when boulder breaks loose until tourist hears it:
+<div class="equation">
+$$ t_{hear} = t_{fall} + t_{sound} = 7.14 + 0.746 = 7.89 \s $$
+</div>
+
+4. After hearing the sound, the tourist needs 0.300 s to react, but the boulder has already hit the ground at $$ t = 7.14 \s $$. The time available to move is:
+<div class="equation">
+$$ t_{available} = t_{fall} - t_{sound} - t_{reaction} = 7.14 - 0.746 - 0.300 = 6.09 \s \approx 6.10 \s $$
+</div>
+
+**Discussion**
+
+The boulder strikes the ground at 70.0 m/s (about 252 km/h or 157 mph), which is extremely fast and dangerous. For part (b), the tourist hears the sound 0.746 seconds after the boulder hits, meaning they must move before hearing the impact! By the time sound travels from the top of the cliff to the bottom (0.746 s) and the tourist reacts (0.300 s), about 1.05 seconds have elapsed. Since the boulder takes 7.14 s to fall, the tourist actually has about 6.10 seconds from when the rock breaks to when it hits. This problem illustrates an important safety consideration: at cliffs, you cannot rely on hearing falling rocks as a warning system since sound takes time to travel.
+
+**Answer**
+
+(a) The boulder will be traveling at 70.0 m/s downward (or -70.0 m/s with upward positive) when it strikes the ground.
+
+(b) The tourist has 6.10 s to get out of the way.
 
 </div>
 </div>

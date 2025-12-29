@@ -259,11 +259,17 @@ $$ \Delta x = x_f - x_0 = 7 \m - 0 \m = +7 \m $$
 
 The positive sign indicates motion to the right.
 
-(a) $$ 7 \m $$
+**Discussion**
 
-(b) $$ 7 \m $$
+For straight-line motion without backtracking, the distance traveled equals the magnitude of displacement, which is exactly what we observe for path A. The object moves from 0 m to 7 m in the positive direction, traveling a total distance of 7 m. The displacement of +7 m is positive because the motion is to the right (positive x-direction). This is the simplest case of one-dimensional motion where all three quantities (distance, magnitude of displacement, and displacement) have the same numerical value.
 
-(c) $$ +7 \m $$
+**Answer**
+
+(a) The distance traveled is 7 m.
+
+(b) The magnitude of the displacement is 7 m.
+
+(c) The displacement is +7 m.
 
 </div>
 </div>
@@ -370,11 +376,17 @@ $$ \Delta x = x_f - x_0 = 11 \m - 2 \m = +9 \m $$
 
 The positive sign indicates net motion to the right.
 
-(a) 13 m
+**Discussion**
 
-(b) 9 m
+Path C demonstrates the important difference between distance traveled and displacement when an object changes direction. The total distance traveled (13 m) is significantly greater than the magnitude of displacement (9 m) because the object backtracked during its journey. Despite moving a total of 13 m, the object ends up only 9 m from where it started. The multiple direction changes illustrate why displacement depends only on initial and final positions, not on the path taken. This is a key concept in kinematics that distinguishes vectors (displacement) from scalars (distance).
 
-(c) $$ +9 \m $$
+**Answer**
+
+(a) The distance traveled is 13 m.
+
+(b) The magnitude of the displacement is 9 m.
+
+(c) The displacement is +9 m.
 
 </div>
 </div>

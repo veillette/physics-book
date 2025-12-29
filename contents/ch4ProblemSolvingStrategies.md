@@ -127,25 +127,76 @@ solving for force and end up with units of m/s, then you have made a mistake.
 <div class="problem" markdown="1">
 A $$ 5.00 \times 10^{5}\text{-kg} $$ rocket is accelerating straight up. Its engines produce
 $$ 1.250 \times 10^{7}\N $$ of thrust, and air resistance is $$ 4.50 \times 10^{6}\N $$.
-What is the rocket’s acceleration? Explicitly show how you follow the steps
-in the Problem-Solving Strategy for Newton’s laws of motion.
+What is the rocket's acceleration? Explicitly show how you follow the steps
+in the Problem-Solving Strategy for Newton's laws of motion.
 
 </div>
 <div class="solution" markdown="1">
+
+**Step 1: Sketch and free-body diagram**
+
 ![An object of mass m is shown. Three forces acting on it are tension T, shown by an arrow acting vertically upward, and friction f and gravity m g, shown by two arrows acting vertically downward.](../resources/Figure_04_06_02.jpg)
 {: #Figure2 height="150"}
 
-Using the free-body diagram:
+The rocket experiences three forces:
+- Thrust $$ T $$ (upward from engines)
+- Air resistance $$ f $$ (downward, opposes motion)
+- Weight $$ mg $$ (downward due to gravity)
 
-$$ F\_{\text{net}}=T-f-mg=ma $$,
+**Step 2: Identify knowns and unknowns**
 
-so that
+Known:
+- Mass: $$ m = 5.00 \times 10^{5} \kg $$
+- Thrust: $$ T = 1.250 \times 10^{7} \N $$
+- Air resistance: $$ f = 4.50 \times 10^{6} \N $$
+- Acceleration due to gravity: $$ g = 9.80 \mss $$
 
-$$
-a=\frac{T-f-mg }{m}=\frac{1.250 \times 10^{7}\N -4.50\times 10^{6}N-\left(
-5.00\times 10^{5}\kg \right)
-\left( 9.80 \mss \right)
-}{5.00\times 10^{5}\kg }=6.20\mss $$.
+Unknown:
+- Acceleration: $$ a = ? $$
+
+System of interest: the rocket
+
+**Step 3: Apply Newton's second law**
+
+Taking upward as positive, the net force equation is:
+
+<div class="equation">
+$$ F_{\text{net}} = T - f - mg = ma $$
+</div>
+
+Solving for acceleration:
+
+<div class="equation">
+$$ a = \frac{T - f - mg}{m} $$
+</div>
+
+Calculate the weight:
+<div class="equation">
+$$ mg = (5.00 \times 10^{5} \kg)(9.80 \mss) = 4.90 \times 10^{6} \N $$
+</div>
+
+Substitute values:
+<div class="equation">
+$$ a = \frac{1.250 \times 10^{7} \N - 4.50 \times 10^{6} \N - 4.90 \times 10^{6} \N}{5.00 \times 10^{5} \kg} $$
+</div>
+
+<div class="equation">
+$$ a = \frac{1.250 \times 10^{7} - 9.40 \times 10^{6}}{5.00 \times 10^{5}} = \frac{3.10 \times 10^{6}}{5.00 \times 10^{5}} = 6.20 \mss $$
+</div>
+
+**Step 4: Check reasonableness**
+
+The units are correct (N/kg = m/s²). The acceleration of 6.20 m/s² is positive (upward) and less than g, which makes sense for a rocket overcoming both gravity and air resistance.
+
+**Discussion**
+
+The rocket's acceleration of 6.20 m/s² is less than g (9.80 m/s²), which is reasonable since significant thrust is needed to overcome both gravity and air resistance. The thrust of 1.25 × 10⁷ N must overcome the rocket's weight of 4.90 × 10⁶ N plus air resistance of 4.50 × 10⁶ N, leaving only 3.10 × 10⁶ N net upward force. This net force divided by the mass gives the upward acceleration.
+
+This demonstrates why rockets require such enormous forces to achieve liftoff—only about 25% of the thrust (3.10 × 10⁶ N out of 12.5 × 10⁶ N) is available for acceleration, with 75% needed just to overcome gravity and drag. As the rocket climbs higher, air resistance decreases and fuel is consumed (reducing mass), so the acceleration increases significantly.
+
+**Answer**
+
+The rocket's acceleration is **6.20 m/s²** upward.
 
 </div>
 </div>
@@ -197,6 +248,10 @@ $$ m = \frac{F - f}{a} = \frac{2100 \N - 250 \N}{1.80 \mss} = \frac{1850 \N}{1.8
 
 A mass of 1030 kg (about 2270 pounds) is reasonable for a midsize car with occupants. The units are correct (N/(m/s²) = kg).
 
+**Discussion**
+
+The net force of 1850 N produces a reasonable acceleration of 1.80 m/s² for this car. The forward force from the road (2100 N) must overcome friction (250 N) and provide the net force needed for acceleration. This demonstrates how Newton's second law allows us to determine unknown quantities like mass when forces and acceleration are known. The friction force of 250 N is relatively small, representing rolling resistance and air drag at moderate speeds.
+
 **Answer**
 
 The mass of the car plus its occupants is **1030 kg** (or **1.03 × 10³ kg**).
@@ -227,6 +282,10 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 
 4. This result is reasonable, since it is quite possible for a person to exert a
    force of the magnitude of $$ 10^{3}\N $$.
+
+**Discussion**
+
+The jumper must exert a force nearly 5 times his weight (3430 N versus 686 N) to achieve an upward acceleration of 4g. This large normal force from the ground is what propels him upward. By Newton's third law, he pushes down on the ground with 3430 N, and the ground pushes up on him with the same force. The acceleration of 39.2 m/s² occurs only during the brief push-off phase while his feet are in contact with the ground.
 
 </div>
 </div>
@@ -283,6 +342,10 @@ By Newton's third law, the force the gymnast exerts on the mat equals the normal
 **Step 4: Check reasonableness**
 
 A force of 3140 N (about 706 pounds) is large but reasonable for an Olympic-level gymnast landing from a somersault. This is about 8 times her weight ($$ 40.0 \times 9.80 = 392 \N $$), which makes sense given the 7g deceleration plus supporting her weight.
+
+**Discussion**
+
+The normal force of 3140 N is 8 times the gymnast's weight, corresponding to a deceleration of 7g plus 1g to support her weight. Such high forces during landing explain why gymnasts must have strong legs and why proper landing technique is crucial to avoid injury. By Newton's third law, the mat exerts 3140 N upward on the gymnast, providing the large upward force needed to stop her downward motion. The free-body diagram clearly shows the two forces: her weight downward and the much larger normal force upward.
 
 **Answer**
 
@@ -415,6 +478,19 @@ including the free-body diagrams for each.
 </div>
 <div class="solution" markdown="1">
 
+**Strategy**
+
+For part (a), consider the entire system (tractor + airplane) and apply Newton's second law. By Newton's third law, the pavement exerts a forward force on the tractor equal in magnitude to the backward force the tractor exerts on the pavement. For part (b), consider only the airplane as the system of interest to find the force the tractor exerts on it. For part (c), draw free-body diagrams for each system.
+
+**Solution**
+
+Given:
+- Mass of tractor: $$ m_{\text{tractor}} = 1800 \kg $$
+- Force tractor exerts on pavement (backward): $$ 1.75 \times 10^{4} \N $$
+- Total friction force: $$ f_{\text{total}} = 2400 \N $$
+- Acceleration: $$ a = 0.150 \mss $$
+- Friction on airplane: $$ f_{\text{airplane}} = 2200 \N $$
+
 **(a) Mass of the airplane:**
 
 **System of interest:** Tractor + airplane
@@ -476,6 +552,10 @@ $$ F_{push} = 14{,}830 + 2200 = 17{,}030 \N \approx 1.70 \times 10^{4} \N $$
 **Part (b) - System: Airplane only**
 - →  F_push = ? (forward from tractor)
 - ←  f = 2,200 N (friction backward)
+
+**Discussion**
+
+Part (a) shows the airplane's mass is about 55 times the tractor's mass, which is realistic for a commercial aircraft. The tractor must push backward on the pavement with 17,500 N to overcome 2400 N of total friction and accelerate the combined system. In part (b), the tractor pushes the airplane with 17,000 N—nearly as much as it pushes on the pavement—because the airplane represents most of the system's mass and experiences most of the friction. This problem demonstrates how carefully defining the system of interest leads to different free-body diagrams and equations for each part.
 
 **Answer**
 
@@ -620,6 +700,10 @@ These would add to give a resultant with different magnitude and direction than 
 Alternative answer: We could use:
 - 20.0 N at 60° above horizontal: components (10.0 N right, 17.3 N up)
 - Combined with appropriate second force to give same total
+
+**Discussion**
+
+This problem reinforces the fundamental principle that vector addition is both commutative and associative—the order of adding vectors doesn't affect the resultant. The perpendicular components (horizontal and vertical) make the calculations straightforward using the Pythagorean theorem. Any pair of vectors whose x and y components sum to 17.3 N and 10.0 N respectively will produce the same total force of 20.0 N at 30° above horizontal, demonstrating that vector decomposition is not unique.
 
 **Answer**
 
@@ -808,6 +892,10 @@ Wait - this seems wrong. Let me reconsider. If we apply the same perpendicular f
 
 Actually, with a larger angle and same applied force, the tension decreases, but the horizontal component effectiveness increases. The net effect: force on car remains approximately the same at 12,000 N.
 
+**Discussion**
+
+This problem demonstrates a clever mechanical advantage technique used when vehicles are stuck. At the small angle of 2°, even a modest perpendicular force of 12,000 N creates enormous tension in the rope (172,000 N). This large tension, directed nearly horizontally, pulls powerfully on the car. The small angle is crucial—the smaller the angle, the greater the mechanical advantage but also the greater the tension and risk of rope failure. When the rope stretches and the angle increases to 7°, the tension drops dramatically but the force on the car remains constant if you maintain the same perpendicular force.
+
 **Answer**
 
 (a) You must exert a force of **12,000 N** perpendicular to the rope center (or equivalently, the tension in the rope is **1.72 × 10⁵ N**).
@@ -836,7 +924,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
    {: #Figure7}
 
 3. The tension is given as $$ T=25.0 \N $$. Find $$ F_
-   {\text{app}}$$. Using Newton’s laws gives:
+   {\text{app}}$$. Using Newton's laws gives:
    $$ \sum F\_{y}=0, $$ so that applied force is due to the _y_-components of the
    two tensions:
 
@@ -848,6 +936,10 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 4. This seems reasonable, since the applied tensions should be greater than the
    force applied to the tooth.
+
+**Discussion**
+
+The applied force on the tooth (12.9 N) is approximately half the tension in the wire (25.0 N) because only the vertical components of the two symmetric tensions contribute to moving the tooth. The horizontal components cancel due to symmetry, which is why the wire is oriented at equal angles on both sides. Orthodontic treatments use small, sustained forces over long periods to gradually reposition teeth. The 12.9 N force is reasonable for this purpose—strong enough to be effective but gentle enough to avoid damaging the tooth or surrounding tissue.
 
 </div>
 </div>
@@ -913,6 +1005,10 @@ $$ T_2 - m_S g = 0 $$
 $$ T_2 = m_S g = (55.0)(9.80) = 539 \N \approx 5.39 \times 10^{2} \N $$
 </div>
 
+**Discussion**
+
+This problem illustrates how tension varies along a hanging rope depending on how much weight it supports. The upper rope must support both heroes (total weight 1420 N), while the lower rope only supports Trusty Sidekick (539 N). The tension is not uniform throughout the rope system. By carefully choosing different systems of interest (both heroes together, then Sidekick alone), we can systematically find all tensions using Newton's second law with zero acceleration. The free-body diagrams clearly show which forces act on each system.
+
 **Answer**
 
 (a) Free-body diagrams show tension forces upward and weight forces downward for each person.
@@ -975,6 +1071,10 @@ $$ N - mg - F\sin(35.0°) = 0 $$
 
 This confirms the normal force adjusts to balance the downward push and weight.
 
+**Discussion**
+
+Pushing downward at an angle is less efficient than pushing horizontally because part of the applied force (the vertical component) increases the normal force and thus increases friction. Despite this, the 73.2 N applied force is only slightly larger than the 60.0 N friction force. For constant velocity motion, the horizontal component of the applied force must exactly balance friction, demonstrating equilibrium. The free-body diagram is essential for identifying all forces and properly decomposing the angled applied force into horizontal and vertical components.
+
 **Answer**
 
 (a) The free-body diagram shows: applied force at 35° below horizontal, friction opposing motion, normal force upward, and weight downward.
@@ -995,6 +1095,86 @@ elevator and its load to be the system of interest, draw a free-body diagram.
 Then calculate the tension in the cable. Among the things to consider are the
 mass of the elevator and its load, the final velocity, and the time taken to
 reach that velocity.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This is a "Construct Your Own Problem" exercise. To solve this type of problem, you need to:
+1. Choose reasonable values for the unknowns
+2. Draw a free-body diagram
+3. Apply Newton's second law during the acceleration phase
+4. Calculate the tension in the cable
+
+**How to Construct the Problem**
+
+Choose reasonable values for:
+- Mass of elevator plus load: typically 500-2000 kg (elevator car ~400-800 kg, plus passengers ~200-1200 kg)
+- Final cruising velocity: typically 1-5 m/s for residential elevators, up to 10 m/s for high-rise buildings
+- Time to reach cruising velocity: typically 2-5 seconds (for passenger comfort, acceleration should be modest)
+
+**Example Solution**
+
+Let's construct a specific example:
+- Mass of elevator plus load: $$ m = 1200 \kg $$
+- Final velocity: $$ v_f = 4.0 \ms $$ (upward)
+- Time to accelerate: $$ t = 3.0 \s $$
+- Initial velocity: $$ v_0 = 0 \ms $$ (starts from rest)
+
+**Step 1: Free-body diagram**
+
+Forces on the elevator system:
+- Tension $$ T $$ in cable (upward)
+- Weight $$ w = mg $$ (downward)
+
+**Step 2: Calculate acceleration**
+
+Using kinematics:
+<div class="equation">
+$$ a = \frac{v_f - v_0}{t} = \frac{4.0 \ms - 0}{3.0 \s} = 1.33 \mss $$
+</div>
+
+**Step 3: Apply Newton's second law**
+
+Taking upward as positive:
+<div class="equation">
+$$ F_{\text{net}} = T - mg = ma $$
+</div>
+
+Solving for tension:
+<div class="equation">
+$$ T = ma + mg = m(a + g) $$
+</div>
+
+<div class="equation">
+$$ T = 1200 \kg (1.33 \mss + 9.80 \mss) = 1200(11.13) = 13{,}360 \N = 1.34 \times 10^{4} \N $$
+</div>
+
+**Step 4: Check reasonableness**
+
+The elevator's weight is:
+<div class="equation">
+$$ w = mg = 1200(9.80) = 11{,}760 \N $$
+</div>
+
+The tension (13,360 N) is greater than the weight (11,760 N) by about 14%, which makes sense since the cable must not only support the elevator but also provide the upward force needed for acceleration. The acceleration of 1.33 m/s² is modest and comfortable for passengers.
+
+**Discussion**
+
+During upward acceleration, the cable tension exceeds the elevator's weight because it must both support the weight and provide the net upward force for acceleration. This is why you feel slightly heavier when an elevator starts moving upward. The tension can be written as $$ T = m(g + a) $$, showing it equals the weight multiplied by a factor $$ (1 + a/g) $$.
+
+When the elevator reaches cruising velocity and moves at constant speed, $$ a = 0 $$, so the tension equals the weight: $$ T = mg $$. During downward acceleration (when starting to descend), the tension is less than the weight: $$ T = m(g - a) $$, which is why you feel lighter.
+
+The safety factor for elevator cables is typically 10-12, meaning cables are designed to support 10-12 times the maximum expected tension. For our example, the cable would be rated for at least 130,000-160,000 N to ensure passenger safety.
+
+**Answer**
+
+For the example with $$ m = 1200 \kg $$, $$ v_f = 4.0 \ms $$, and $$ t = 3.0 \s $$:
+
+The tension in the cable during upward acceleration is **1.34 × 10⁴ N** (or **13,360 N**), which is approximately **1.14 times the elevator's weight**.
+
+**Note:** Your answer will differ depending on the values you choose. Make sure your values are realistic for elevators, and verify that the tension is greater than the weight during upward acceleration.
 
 </div>
 </div>
@@ -1060,6 +1240,10 @@ $$ a_{max} = \frac{F}{m_{total}} = \frac{1900}{1800} = 1.06 \mss $$
 </div>
 
 An acceleration of 1.20 m/s² exceeds this maximum, which is impossible.
+
+**Discussion**
+
+Negative friction is physically impossible—friction always opposes relative motion between surfaces. This "unreasonable results" problem teaches us to check whether calculated values make physical sense. When we get a negative friction force, it signals that one of our premises is wrong. In this case, the acceleration is too high for the given driving force and mass. Real friction forces are always positive in magnitude and oppose motion, so they can only reduce acceleration, never increase it.
 
 **Answer**
 
@@ -1132,6 +1316,10 @@ $$ T_{typical} = (1.2 \text{ to } 1.5) \times mg \approx 1.76 \times 10^{7} \tex
 </div>
 
 The premise is unreasonable because no rocket could launch with such inadequate thrust.
+
+**Discussion**
+
+This problem illustrates a real failure mode that has occurred with actual rockets—inadequate thrust-to-weight ratio. For a rocket to lift off, thrust must exceed weight. This rocket's thrust is less than 14% of its weight, guaranteeing failure. The negative acceleration means the rocket would accelerate downward even faster than free fall due to engine thrust pointing the wrong way relative to what's needed. Real rockets are designed with thrust-to-weight ratios of 1.2 to 1.5 at liftoff, providing enough margin to overcome gravity and atmospheric drag while still accelerating upward. This problem demonstrates the importance of checking whether results make physical sense—here, recognizing that downward acceleration at launch indicates a fundamental design flaw.
 
 **Answer**
 

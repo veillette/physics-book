@@ -324,9 +324,19 @@ After one complete orbit, Earth returns to its starting position, so the displac
 $$ \overline{v} = \frac{\Delta x}{t} = \frac{0 \m}{t} = 0 \text{ m/s} $$
 </div>
 
-(a) $$ 3.0\times 10^{4} \ms $$
+**Discussion**
 
-(b) 0 m/s
+This problem illustrates the fundamental difference between speed and velocity. Earth travels an enormous distance (9.42 × 10¹¹ m) in one year, moving at approximately 30 km/s relative to the Sun—faster than any human-made vehicle. Yet its average velocity over a complete orbit is zero because it returns to its starting position, making the displacement zero.
+
+This distinction is crucial in physics: speed depends only on the distance traveled (a scalar quantity), while velocity depends on displacement (a vector quantity with both magnitude and direction). For any complete orbit or round trip, average velocity is always zero regardless of how fast the object moves, while average speed depends on the total distance covered.
+
+The calculated speed of 30,000 m/s (about 67,000 mph or 108,000 km/h) is consistent with astronomical observations and is typical for planets in our solar system. This high orbital speed is necessary to maintain Earth's orbit—it represents the balance between Earth's inertia (which would cause it to move in a straight line) and the Sun's gravitational pull (which curves its path into an ellipse, very close to circular).
+
+**Answer**
+
+(a) Earth's average speed is $$ 3.0\times 10^{4} \ms $$ (or 30 km/s).
+
+(b) Earth's average velocity over one year is 0 m/s.
 
 </div>
 </div>

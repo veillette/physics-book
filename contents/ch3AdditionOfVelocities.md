@@ -1716,7 +1716,75 @@ Stream a few hundred kilometers off the east coast of the United States.)
 
 </div>
 <div class="solution" markdown="1">
- $$ 1.72 \ms $$, $$ 42.3^\circ $$ north of east
+
+**Strategy**
+
+The ship's velocity relative to Earth equals its velocity relative to water plus the water's velocity (Gulf Stream) relative to Earth. We can rearrange to find the Gulf Stream velocity: $$ \vb{v}_{\text{stream}} = \vb{v}_{\text{Earth}} - \vb{v}_{\text{water}} $$. Break both known velocities into components, subtract, then find magnitude and direction.
+
+**Solution**
+
+**Given:**
+
+- Ship's velocity relative to water: $$ v_{\text{ship/water}} = 4.00 \ms $$ at $$ 25.0° $$ west of north
+- Ship's velocity relative to Earth: $$ v_{\text{ship/Earth}} = 4.80 \ms $$ at $$ 5.00° $$ west of north
+
+**Step 1: Set up coordinate system**
+
+Let north be the positive y-axis and east be the positive x-axis.
+
+**Step 2: Components of ship's velocity relative to water**
+
+<div class="equation">
+$$ v_{\text{ship/water},x} = -4.00 \sin(25.0°) = -4.00 \times 0.423 = -1.69 \ms $$ (west)
+</div>
+
+<div class="equation">
+$$ v_{\text{ship/water},y} = 4.00 \cos(25.0°) = 4.00 \times 0.906 = 3.63 \ms $$ (north)
+</div>
+
+**Step 3: Components of ship's velocity relative to Earth**
+
+<div class="equation">
+$$ v_{\text{ship/Earth},x} = -4.80 \sin(5.00°) = -4.80 \times 0.0872 = -0.419 \ms $$ (west)
+</div>
+
+<div class="equation">
+$$ v_{\text{ship/Earth},y} = 4.80 \cos(5.00°) = 4.80 \times 0.996 = 4.78 \ms $$ (north)
+</div>
+
+**Step 4: Find Gulf Stream velocity components**
+
+Since $$ \vb{v}_{\text{ship/Earth}} = \vb{v}_{\text{ship/water}} + \vb{v}_{\text{stream}} $$, we have:
+
+<div class="equation">
+$$ v_{\text{stream},x} = v_{\text{ship/Earth},x} - v_{\text{ship/water},x} = -0.419 - (-1.69) = 1.27 \ms $$ (east)
+</div>
+
+<div class="equation">
+$$ v_{\text{stream},y} = v_{\text{ship/Earth},y} - v_{\text{ship/water},y} = 4.78 - 3.63 = 1.15 \ms $$ (north)
+</div>
+
+**Step 5: Find magnitude and direction**
+
+Magnitude:
+
+<div class="equation">
+$$ v_{\text{stream}} = \sqrt{(1.27)^2 + (1.15)^2} = \sqrt{1.61 + 1.32} = \sqrt{2.93} = 1.71 \ms \approx 1.72 \ms $$
+</div>
+
+Direction (measured from east toward north):
+
+<div class="equation">
+$$ \theta = \tan^{-1}\left(\frac{v_{\text{stream},y}}{v_{\text{stream},x}}\right) = \tan^{-1}\left(\frac{1.15}{1.27}\right) = \tan^{-1}(0.906) = 42.2° \approx 42.3° $$ north of east
+</div>
+
+**Discussion**
+
+The Gulf Stream velocity of 1.72 m/s at 42.3° north of east is very reasonable for this major ocean current. The Gulf Stream flows generally northeastward along the U.S. east coast, which matches our calculated direction. The magnitude is typical for the Gulf Stream's velocity a few hundred kilometers offshore. Notice that even though the ship is heading west of north, its actual path over the Earth is closer to due north (only 5° west of north) because the eastward component of the Gulf Stream partially cancels the ship's westward component. This demonstrates how ocean currents significantly affect maritime navigation—sailors must account for these currents when plotting their course to reach their intended destination.
+
+**Answer**
+
+The Gulf Stream velocity is **1.72 m/s** at **42.3° north of east**.
 
 </div>
 </div>
