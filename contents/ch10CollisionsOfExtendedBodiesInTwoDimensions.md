@@ -331,6 +331,14 @@ $$ p_f = mv_{\text{disk}} + Mv_{\text{CM}} = (0.0500)(0.0156) + (2.00)(0.0936) =
 
 Striking closer to the pivot produces dramatically different results than Example 1. The angular velocity is much smaller (0.156 vs 1.74 rad/s), and much more kinetic energy is lost (22.5 - 0.0117 = 22.5 J, or 99.9% loss). The final momentum is also much smaller (0.188 vs 2.20 kg·m/s). This demonstrates that the point of impact critically affects the collision outcome—hitting near the pivot transfers very little angular momentum and produces minimal rotation.
 
+**Answer**
+
+(a) The final angular velocity is **0.156 rad/s**.
+
+(b) The kinetic energy lost is **22.5 J**, representing 99.9% of the initial energy.
+
+(c) Linear momentum changes from 1.50 kg·m/s to 0.188 kg·m/s, showing that momentum is not conserved when there's an external constraint (the nail).
+
 </div>
 </div>
 
@@ -393,6 +401,10 @@ $$ \omega' = \frac{L}{I'} = \frac{1.80}{1.032} = 1.74 \text{ rad/s} $$
 
 Even though the disk spins at 1000 rpm, its small radius means its spin angular momentum is negligible compared to its orbital angular momentum. The final answer is virtually identical to Example 1. This demonstrates that for small objects, translational motion typically dominates over rotational effects.
 
+**Answer**
+
+The final angular velocity is **1.74 rad/s**, essentially unchanged from Example 1. The disk's spin contributes only 0.03% to the total angular momentum, demonstrating that orbital motion dominates for small spinning objects.
+
 </div>
 </div>
 
@@ -453,6 +465,12 @@ $$ KE_f = \frac{1}{2}I\omega^2 = \frac{1}{2}(89.6 \kg \cdot \mm)(3.13 \text{ rad
 **Discussion**
 
 Remarkably, the kinetic energy is conserved in this collision! This is because the collision is perfectly elastic in the rotational sense. When the skaters lock hands, their initial linear velocities (which were tangent to their circular path) are precisely the right magnitude to continue as rotational motion with no energy loss. This is a special case where angular momentum conservation and the geometry of the collision combine to preserve kinetic energy.
+
+**Answer**
+
+(a) The final angular velocity is **3.13 rad/s**.
+
+(b) Both initial and final kinetic energies are **438 J**, showing perfect energy conservation in this collision—a rare occurrence in real-world collisions.
 
 </div>
 </div>
@@ -553,6 +571,14 @@ $$ KE_f = 0.100 + 1.47 = 1.57 \J $$
 
 Most of the initial kinetic energy (28.1 - 1.57 = 26.5 J, or 94%) is lost in this inelastic collision. The person acquires a small linear velocity (5.34 cm/s) and rotates at 0.871 rad/s. The energy loss goes into deformation, sound, and heat during the catch.
 
+**Answer**
+
+(a) The final linear velocity is **0.0534 m/s** (5.34 cm/s).
+
+(b) The angular velocity is **0.871 rad/s**.
+
+(c) Initial kinetic energy is 28.1 J; final kinetic energy is 1.57 J. About 94% of the energy is lost in this inelastic collision.
+
 </div>
 </div>
 
@@ -606,6 +632,14 @@ $$ p_f = p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
 **Discussion**
 
 When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating. Compared to Example 1 (nailed stick), the angular velocity is similar (1.70 vs 1.74 rad/s), but now the system also has translational motion. Energy is still largely lost in the inelastic collision (22.5 - 2.04 = 20.5 J lost, or 91% loss), though slightly less than when nailed down.
+
+**Answer**
+
+(a) The system's center-of-mass velocity is **0.732 m/s**, and the angular velocity is **1.70 rad/s**.
+
+(b) Initial kinetic energy is 22.5 J; final kinetic energy is 2.04 J. About 91% of the energy is lost.
+
+(c) Linear momentum is conserved at **1.50 kg·m/s** (unlike the nailed case where external forces act).
 
 </div>
 </div>
