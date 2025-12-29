@@ -588,7 +588,39 @@ To receive AM radio, you want an *RLC* circuit that can be made to resonate at a
 
 </div>
 <div class="solution" markdown="1">
-9.30 nF to 101 nF
+**Strategy**
+
+The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. Solving for $$C$$: $$C = \frac{1}{4\pi^2 f_0^2 L}$$. To cover the frequency range, we need maximum capacitance at the lowest frequency and minimum capacitance at the highest frequency.
+
+**Solution**
+
+For the minimum frequency (500 kHz), we need maximum capacitance:
+
+<div class="equation">
+$$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\
+& = & \frac{1}{4\pi^2(500 \times 10^3 \text{ Hz})^2(1.00 \times 10^{-6} \text{ H})}\\
+& = & \frac{1}{4\pi^2(2.50 \times 10^{11})(1.00 \times 10^{-6})}\\
+& = & \frac{1}{9.870 \times 10^6}\\
+& = & 1.01 \times 10^{-7} \text{ F} = 101 \text{ nF}\end{array}$$
+</div>
+
+For the maximum frequency (1650 kHz), we need minimum capacitance:
+
+<div class="equation">
+$$\begin{array}{lll}C_{\text{min}} & = & \frac{1}{4\pi^2 f_{\text{max}}^2 L}\\
+& = & \frac{1}{4\pi^2(1650 \times 10^3)^2(1.00 \times 10^{-6})}\\
+& = & \frac{1}{4\pi^2(2.7225 \times 10^{12})(1.00 \times 10^{-6})}\\
+& = & \frac{1}{1.075 \times 10^8}\\
+& = & 9.30 \times 10^{-9} \text{ F} = 9.30 \text{ nF}\end{array}$$
+</div>
+
+**Discussion**
+
+Variable capacitors in AM radios typically use rotating plates to adjust capacitance over this range. The capacitance must change by more than a factor of 10 to cover the entire AM band.
+
+**Final Answer**
+
+The capacitance must range from 9.30 nF to 101 nF.
 
 </div>
 </div>
@@ -642,7 +674,35 @@ What capacitance do you need to produce a resonant frequency of 1.00 GHz, when u
 
 </div>
 <div class="solution" markdown="1">
-3.17 pF
+**Strategy**
+
+We use the resonant frequency formula $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$ and solve for $$C$$.
+
+**Solution**
+
+Rearranging the resonant frequency formula:
+
+<div class="equation">
+$$C = \frac{1}{4\pi^2 f_0^2 L}$$
+</div>
+
+Substituting the given values:
+
+<div class="equation">
+$$\begin{array}{lll}C & = & \frac{1}{4\pi^2(1.00 \times 10^9 \text{ Hz})^2(8.00 \times 10^{-9} \text{ H})}\\
+& = & \frac{1}{4\pi^2(1.00 \times 10^{18})(8.00 \times 10^{-9})}\\
+& = & \frac{1}{4\pi^2(8.00 \times 10^9)}\\
+& = & \frac{1}{3.158 \times 10^{11}}\\
+& = & 3.17 \times 10^{-12} \text{ F} = 3.17 \text{ pF}\end{array}$$
+</div>
+
+**Discussion**
+
+This very small capacitance is typical for high-frequency circuits operating in the gigahertz range, such as those found in cell phones and Wi-Fi devices. The small inductor and capacitor values allow for compact circuit design at microwave frequencies.
+
+**Final Answer**
+
+The required capacitance is 3.17 pF.
 
 </div>
 </div>
@@ -696,8 +756,47 @@ The lowest frequency in the FM radio band is 88.0 MHz. (a) What inductance is ne
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$\mathrm{1.31 \mu H} $$
-(b) 1.66 pF
+**Strategy**
+
+For part (a), we use $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$ and solve for $$L$$. For part (b), we use the same formula with the inductance found in part (a) and solve for $$C$$ at the new frequency.
+
+**Solution for (a)**
+
+Rearranging the resonant frequency formula:
+
+<div class="equation">
+$$L = \frac{1}{4\pi^2 f_0^2 C}$$
+</div>
+
+Substituting values:
+
+<div class="equation">
+$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 \times 10^{-12} \text{ F})}\\
+& = & \frac{1}{4\pi^2(7.744 \times 10^{15})(2.50 \times 10^{-12})}\\
+& = & \frac{1}{4\pi^2(1.936 \times 10^4)}\\
+& = & \frac{1}{7.641 \times 10^5}\\
+& = & 1.31 \times 10^{-6} \text{ H} = 1.31 \text{ μH}\end{array}$$
+</div>
+
+**Solution for (b)**
+
+Using the inductance from part (a) at the higher frequency:
+
+<div class="equation">
+$$\begin{array}{lll}C & = & \frac{1}{4\pi^2 f^2 L}\\
+& = & \frac{1}{4\pi^2(108 \times 10^6)^2(1.31 \times 10^{-6})}\\
+& = & \frac{1}{4\pi^2(1.166 \times 10^{16})(1.31 \times 10^{-6})}\\
+& = & \frac{1}{6.029 \times 10^{11}}\\
+& = & 1.66 \times 10^{-12} \text{ F} = 1.66 \text{ pF}\end{array}$$
+</div>
+
+**Discussion**
+
+FM radio receivers use a variable capacitor to tune across the FM band. The capacitance only needs to change from 2.50 pF to 1.66 pF, a much smaller range than required for AM radio. This smaller tuning range is one reason FM radios can be more stable and precise than AM radios.
+
+**Final Answer**
+
+(a) The required inductance is 1.31 μH; (b) the capacitance must be 1.66 pF at 108 MHz.
 
 </div>
 </div>
@@ -785,20 +884,86 @@ The current is maximum at resonance, as expected. The capacitor dominates at 120
 <div class="problem" markdown="1">
 An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
  resistor, a  $$150 \mu\text{H} $$
- inductor, and a 25.0 nF capacitor. (a) Find the circuit’s impedance at 500 Hz. (b) Find the circuit’s impedance at 7.50 kHz. (c) If the voltage source has  $${V}_{\text{rms}}=408 \text{V} $$ ,
+ inductor, and a 25.0 nF capacitor. (a) Find the circuit's impedance at 500 Hz. (b) Find the circuit's impedance at 7.50 kHz. (c) If the voltage source has  $${V}_{\text{rms}}=408 \text{V} $$ ,
  what is  $${I}_{\text{rms}} $$
  at each frequency? (d) What is the resonant frequency of the circuit? (e) What is  $${I}_{\text{rms}} $$
  at resonance?
 
 </div>
 <div class="solution" markdown="1">
-(a)  $$12.8 \text{k}\Omega $$
-(b)  $$1.31 \text{k}\Omega $$
-(c) 31.9 mA at 500 Hz, 312 mA at 7.50 kHz
+**Strategy**
 
-(d) 82.2 kHz
+We use $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ where $$X_L = 2\pi fL$$ and $$X_C = 1/(2\pi fC)$$. Current is found from $$I_{\text{rms}} = V_{\text{rms}}/Z$$, and resonant frequency from $$f_0 = 1/(2\pi\sqrt{LC})$$.
 
-(e) 0.408 A
+**Solution for (a)**
+
+At 500 Hz:
+
+<div class="equation">
+$$X_L = 2\pi(500)(150 \times 10^{-6}) = 0.471 \Omega$$
+</div>
+
+<div class="equation">
+$$X_C = \frac{1}{2\pi(500)(25.0 \times 10^{-9})} = \frac{1}{7.854 \times 10^{-5}} = 12732 \Omega$$
+</div>
+
+<div class="equation">
+$$Z = \sqrt{(1000)^2 + (0.471 - 12732)^2} = \sqrt{10^6 + 1.620 \times 10^8} = 12738 \Omega = 12.8 \text{ k}\Omega$$
+</div>
+
+**Solution for (b)**
+
+At 7.50 kHz:
+
+<div class="equation">
+$$X_L = 2\pi(7500)(150 \times 10^{-6}) = 7.07 \Omega$$
+</div>
+
+<div class="equation">
+$$X_C = \frac{1}{2\pi(7500)(25.0 \times 10^{-9})} = 849 \Omega$$
+</div>
+
+<div class="equation">
+$$Z = \sqrt{(1000)^2 + (7.07 - 849)^2} = \sqrt{10^6 + 7.087 \times 10^5} = 1307 \Omega = 1.31 \text{ k}\Omega$$
+</div>
+
+**Solution for (c)**
+
+At 500 Hz:
+<div class="equation">
+$$I_{\text{rms}} = \frac{408 \text{ V}}{12738 \Omega} = 0.0320 \text{ A} = 32.0 \text{ mA}$$
+</div>
+
+At 7.50 kHz:
+<div class="equation">
+$$I_{\text{rms}} = \frac{408 \text{ V}}{1307 \Omega} = 0.312 \text{ A} = 312 \text{ mA}$$
+</div>
+
+**Solution for (d)**
+
+<div class="equation">
+$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\
+& = & \frac{1}{2\pi\sqrt{(150 \times 10^{-6})(25.0 \times 10^{-9})}}\\
+& = & \frac{1}{2\pi\sqrt{3.75 \times 10^{-12}}}\\
+& = & \frac{1}{2\pi(1.936 \times 10^{-6})}\\
+& = & 82.2 \times 10^3 \text{ Hz} = 82.2 \text{ kHz}\end{array}$$
+</div>
+
+**Solution for (e)**
+
+At resonance, $$Z = R = 1.00 \text{ k}\Omega$$:
+
+<div class="equation">
+$$I_{\text{rms}} = \frac{408 \text{ V}}{1000 \Omega} = 0.408 \text{ A}$$
+</div>
+
+**Discussion**
+
+At 500 Hz (well below resonance), the capacitive reactance dominates and the impedance is very high, resulting in low current. At 7.50 kHz (closer to but still below resonance), the impedance is lower and current increases. At resonance (82.2 kHz), impedance is minimized to just the resistance, yielding maximum current.
+
+**Final Answer**
+
+(a) 12.8 kΩ at 500 Hz; (b) 1.31 kΩ at 7.50 kHz; (c) 32.0 mA at 500 Hz, 312 mA at 7.50 kHz; (d) 82.2 kHz; (e) 0.408 A.
 
 </div>
 </div>
@@ -859,17 +1024,56 @@ At 120 Hz, the large phase angle (81.4°) indicates voltage and current are near
 <div class="problem" markdown="1">
 An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
  resistor, a  $$150 \mu\text{H} $$
- inductor, and a 25.0 nF capacitor. (a) Find the power factor at  $$f=7.50 \text{Hz} $$ .
- (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit’s resonant frequency.
+ inductor, and a 25.0 nF capacitor. (a) Find the power factor at  $$f=7.50 \text{kHz} $$ .
+ (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit's resonant frequency.
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.159
+**Strategy**
 
-(b)  $$80.9\text{º} $$
-(c) 26.4 W
+The power factor is $$\cos\varphi = R/Z$$, and average power is $$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = I_{\text{rms}}^2 R$$. From the previous problem, at 7.50 kHz we have $$Z = 1.31 \text{ k}\Omega$$, $$I_{\text{rms}} = 312 \text{ mA}$$, $$V_{\text{rms}} = 408 \text{ V}$$, and $$f_0 = 82.2 \text{ kHz}$$.
 
-(d) 166 W
+**Solution for (a)**
+
+<div class="equation">
+$$\cos\varphi = \frac{R}{Z} = \frac{1.00 \times 10^3 \Omega}{1.31 \times 10^3 \Omega} = 0.763$$
+</div>
+
+**Solution for (b)**
+
+<div class="equation">
+$$\varphi = \cos^{-1}(0.763) = 40.3°$$
+</div>
+
+**Solution for (c)**
+
+The average power can be calculated using $$P_{\text{ave}} = I_{\text{rms}}^2 R$$ (since only the resistor dissipates power):
+
+<div class="equation">
+$$P_{\text{ave}} = (0.312)^2(1000) = 97.3 \text{ W}$$
+</div>
+
+Alternatively, using $$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi$$:
+
+<div class="equation">
+$$P_{\text{ave}} = (0.312)(408)(0.763) = 97.1 \text{ W}$$
+</div>
+
+**Solution for (d)**
+
+At resonance (82.2 kHz), $$\cos\varphi = 1$$ and $$I_{\text{rms}} = 0.408 \text{ A}$$:
+
+<div class="equation">
+$$P_{\text{ave}} = I_{\text{rms}}^2 R = (0.408)^2(1000) = 166 \text{ W}$$
+</div>
+
+**Discussion**
+
+At 7.50 kHz, which is below the resonant frequency of 82.2 kHz, the circuit is capacitive with a phase angle of about 40°. The power factor is significantly less than unity, reducing power transfer. At resonance, the power factor is 1 and power delivery is maximized—about 71% greater than at 7.50 kHz. Note that all power is dissipated in the resistor; the reactive components store and release energy but don't dissipate it.
+
+**Final Answer**
+
+(a) Power factor is 0.763; (b) phase angle is 40.3°; (c) average power is 97.1 W at 7.50 kHz; (d) average power is 166 W at resonance.
 
 </div>
 </div>
@@ -952,7 +1156,37 @@ Referring to [[Example 3]](#Example3), find the average power at 10.0 kHz.
 
 </div>
 <div class="solution" markdown="1">
-16.0 W
+**Strategy**
+
+From [[Example 3]](#Example3), the circuit has $$R = 40.0 \Omega$$, $$L = 3.00 \text{ mH}$$, $$C = 5.00 \text{ μF}$$, and $$V_{\text{rms}} = 120 \text{ V}$$. From [[Example 1]](#Example1), at 10.0 kHz we have $$Z = 190 \Omega$$ and $$I_{\text{rms}} = 0.633 \text{ A}$$. We use $$P_{\text{ave}} = I_{\text{rms}}^2 R$$ to find the average power.
+
+**Solution**
+
+The average power is dissipated only in the resistor:
+
+<div class="equation">
+$$P_{\text{ave}} = I_{\text{rms}}^2 R = (0.633)^2(40.0) = 16.0 \text{ W}$$
+</div>
+
+Alternatively, we can use the power factor approach. First find the power factor:
+
+<div class="equation">
+$$\cos\varphi = \frac{R}{Z} = \frac{40.0}{190} = 0.211$$
+</div>
+
+Then:
+
+<div class="equation">
+$$P_{\text{ave}} = I_{\text{rms}}V_{\text{rms}}\cos\varphi = (0.633)(120)(0.211) = 16.0 \text{ W}$$
+</div>
+
+**Discussion**
+
+At 10.0 kHz, the circuit is well above its resonant frequency of 1.30 kHz (from [[Example 2]](#Example2)), so the inductor dominates with $$X_L = 188 \Omega$$ being much larger than $$X_C = 3.18 \Omega$$. The phase angle is $$\varphi = \cos^{-1}(0.211) = 77.8°$$, indicating voltage and current are nearly 90° out of phase. Despite the relatively high current of 0.633 A, the low power factor results in modest power delivery. Compare this to the 360 W delivered at resonance (from [[Example 3]](#Example3))—the power at 10.0 kHz is less than 5% of the maximum possible.
+
+**Final Answer**
+
+The average power at 10.0 kHz is 16.0 W.
 
 </div>
 </div>
