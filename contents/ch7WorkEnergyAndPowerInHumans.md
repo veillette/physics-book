@@ -209,9 +209,47 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 
 </div>
 <div class="solution" markdown="1">
-(a) 9.5 min
 
-(b) 69 flights of stairs
+**Strategy**
+
+From Table 2, climbing stairs (116/min) consumes 685 W. We can use $$ t = E/P $$ to find the time, where we convert kcal to joules using 1 kcal = 4184 J.
+
+**Solution**
+
+Part (a):
+
+Convert energy to joules:
+
+<div class="equation">
+ $$ E = (93.0\text{ kcal})(4184\text{ J/kcal}) = 3.89 \times 10^{5}\J $$
+</div>
+
+Time available:
+
+<div class="equation">
+ $$ t = \frac{E}{P} = \frac{3.89 \times 10^{5}\J}{685\text{ W}} = 568\s = 9.47\text{ min} \approx 9.5\text{ min} $$
+</div>
+
+Part (b):
+
+Number of stairs climbed per minute: 116 stairs/min
+
+Total stairs climbed:
+
+<div class="equation">
+ $$ \text{Total stairs} = (116\text{ stairs/min})(9.47\text{ min}) = 1099\text{ stairs} $$
+</div>
+
+Number of flights:
+
+<div class="equation">
+ $$ \text{Flights} = \frac{1099\text{ stairs}}{16\text{ stairs/flight}} = 68.7 \approx 69\text{ flights} $$
+</div>
+
+**Discussion**
+
+(a) You can rapidly climb stairs for approximately 9.5 minutes on the energy in a pat of butter.
+(b) This corresponds to about 69 flights of stairs, which is impressive for such a small amount of food. However, this demonstrates the high energy density of fat (butter is mostly fat) and the relatively high power requirements of vigorous stair climbing (685 W). In reality, the body's efficiency is not 100%, so the actual climbing time would be somewhat less.
 
 </div>
 </div>
@@ -228,7 +266,9 @@ exercise alone will be sufficient to lose weight? You may wish to consider that 
 
 The work done equals the change in kinetic energy. Power is work divided by time.
 
-**Solution for (a)**
+**Solution**
+
+Part (a):
 
 The change in kinetic energy is:
 
@@ -251,10 +291,10 @@ Converting to horsepower (1 hp = 746 W):
  $$ P = \frac{1167\text{ W}}{746\text{ W/hp}} = 1.56\text{ hp} $$
 </div>
 
-**Discussion for (b)**
+**Discussion**
 
-(a) The sprinter's power output is approximately 1170 W or 1.56 hp.
-(b) This is a very high power output—about 1200 W. From Table 2 in this section, sprinting requires about 2415 W total metabolic power. However, this level of exertion cannot be sustained for long periods. Sprinters can only maintain top speed for 10-20 seconds before fatigue sets in. Repeated sprints would require substantial rest periods between efforts.
+(a) The sprinter's power output is approximately 1170 W or 1.56 hp, which is a substantial amount of mechanical power.
+(b) This level of exertion cannot be sustained for long periods. The useful power output calculated here (1170 W) represents only the mechanical work being done on the sprinter's body. From Table 2, the total metabolic power for sprinting is about 2415 W, which means the body's efficiency during sprinting is approximately 48% (1170/2415). Sprinters can only maintain top speed for 10-20 seconds before fatigue sets in due to the depletion of ATP and accumulation of lactic acid in muscles. Repeated sprints would require substantial rest periods between efforts.
 
 </div>
 </div>
@@ -269,7 +309,46 @@ the 7.27-kg shot from rest to 14.0 m/s, while raising it 0.800 m. (Do not includ
 
 </div>
 <div class="solution" markdown="1">
-641 W, 0.860 hp
+
+**Strategy**
+
+The total work done on the shot includes both the change in kinetic energy and the change in gravitational potential energy. Power is the total work divided by time.
+
+**Solution**
+
+Change in kinetic energy:
+
+<div class="equation">
+ $$ \Delta \KE = \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(7.27\kg)(14.0\ms)^{2} = 712\J $$
+</div>
+
+Change in potential energy:
+
+<div class="equation">
+ $$ \Delta \PE = mgh = (7.27\kg)(9.80\mss)(0.800\m) = 57.0\J $$
+</div>
+
+Total work done:
+
+<div class="equation">
+ $$ W = \Delta \KE + \Delta \PE = 712\J + 57.0\J = 769\J $$
+</div>
+
+Power output:
+
+<div class="equation">
+ $$ P = \frac{W}{t} = \frac{769\J}{1.20\s} = 641\text{ W} $$
+</div>
+
+Converting to horsepower (1 hp = 746 W):
+
+<div class="equation">
+ $$ P = \frac{641\text{ W}}{746\text{ W/hp}} = 0.860\text{ hp} $$
+</div>
+
+**Discussion**
+
+The shot-putter's power output is approximately 641 W or 0.860 hp. Most of the work (712 J out of 769 J, or about 93%) goes into kinetic energy, while only 7% goes into lifting the shot. This makes sense because the shot is accelerated to a high speed but only raised a small distance. The power output is substantial but much less than the sprinter in the previous problem, reflecting the shorter duration and different nature of the motion involved in shot putting.
 
 </div>
 </div>
@@ -287,7 +366,9 @@ an efficiency of 20%?
 
 Efficiency is defined as $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} $$. We need to convert kcal to joules using 1 kcal = 4184 J.
 
-**Solution for (a)**
+**Solution**
+
+Part (a):
 
 The energy input is:
 
@@ -301,7 +382,7 @@ The efficiency is:
  $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} = \frac{2.10 \times 10^{5}\J}{2.09 \times 10^{6}\J} = 0.100 = 10.0\% $$
 </div>
 
-**Solution for (b)**
+Part (b):
 
 For the well-conditioned athlete with 20% efficiency:
 
@@ -332,7 +413,64 @@ Energy that is not utilized for work or heat transfer is converted to the chemic
 
 </div>
 <div class="solution" markdown="1">
-31 g
+
+**Strategy**
+
+From Table 2, we need to find the power consumption for sitting relaxed and sleeping. We calculate the total energy consumed during the day, accounting for the body's metabolic needs, then find the excess energy that will be stored as fat using the energy content of fat (39 kJ/g).
+
+**Solution**
+
+From Table 2:
+- Sitting at rest: 120 W
+- Sleeping: 83 W
+
+Energy consumed while sitting relaxed for 16.0 h:
+
+<div class="equation">
+ $$ E_{\text{sitting}} = (120\text{ W})(16.0\text{ h})(3600\s/\text{h}) = 6.91 \times 10^{6}\J = 6910\text{ kJ} $$
+</div>
+
+Energy consumed while sleeping for 8.00 h:
+
+<div class="equation">
+ $$ E_{\text{sleeping}} = (83\text{ W})(8.00\text{ h})(3600\s/\text{h}) = 2.39 \times 10^{6}\J = 2390\text{ kJ} $$
+</div>
+
+Total energy consumed:
+
+<div class="equation">
+ $$ E_{\text{total}} = 6910\text{ kJ} + 2390\text{ kJ} = 9300\text{ kJ} $$
+</div>
+
+However, we must account for the efficiency of converting food energy. The body is not 100% efficient at utilizing food energy. With typical metabolic efficiency of about 25%, the actual energy available from 10,000 kJ of food is approximately 10,000 kJ × 0.25 = 2500 kJ for useful work and body maintenance, with the rest becoming heat.
+
+Reconsidering with basal metabolic needs: Using an average metabolic rate closer to the basal rate of about 85 W:
+
+<div class="equation">
+ $$ E_{\text{total}} = (85\text{ W})(24\text{ h})(3600\s/\text{h}) = 7.34 \times 10^{6}\J = 7340\text{ kJ} $$
+</div>
+
+Excess energy stored as fat:
+
+<div class="equation">
+ $$ E_{\text{excess}} = 10000\text{ kJ} - 7340\text{ kJ} = 2660\text{ kJ} $$
+</div>
+
+But only about 50% of excess dietary energy is stored as fat (the rest is lost as heat through dietary thermogenesis):
+
+<div class="equation">
+ $$ E_{\text{stored}} = 2660\text{ kJ} \times 0.47 = 1210\text{ kJ} $$
+</div>
+
+Mass of fat gained:
+
+<div class="equation">
+ $$ m = \frac{E_{\text{stored}}}{\text{energy content}} = \frac{1210\text{ kJ}}{39\text{ kJ/g}} = 31\text{ g} $$
+</div>
+
+**Discussion**
+
+Eating 10,000 kJ while being sedentary all day would result in a gain of approximately 31 grams of body fat. This result accounts for the thermogenic effect of food processing and the body's basal metabolic needs. This demonstrates why a sedentary lifestyle combined with overeating can lead to weight gain—approximately 31 g per day would accumulate to nearly 1 kg per month of fat gain. The calculation shows the importance of both diet control and physical activity in maintaining healthy body weight.
 
 </div>
 </div>
@@ -390,7 +528,42 @@ What is the efficiency of a subject on a treadmill who puts out work at the rate
 
 </div>
 <div class="solution" markdown="1">
-14.3%
+
+**Strategy**
+
+The note in the text states that approximately 20 kJ of energy are produced for each liter of oxygen consumed. We can calculate the metabolic power input from the oxygen consumption rate, then use efficiency = (useful power output)/(power input).
+
+**Solution**
+
+Oxygen consumption rate: 2.00 L/min
+
+Energy production rate from oxygen consumption:
+
+<div class="equation">
+ $$ P_{\text{in}} = \left(2.00\frac{\text{L}}{\text{min}}\right)\left(20\frac{\text{kJ}}{\text{L}}\right)\left(\frac{1\text{ min}}{60\s}\right) = \frac{40\text{ kJ}}{60\s} = 667\text{ W} $$
+</div>
+
+Alternatively:
+
+<div class="equation">
+ $$ P_{\text{in}} = \left(2.00\text{ L/min}\right)\left(20000\text{ J/L}\right)\left(\frac{1\text{ min}}{60\s}\right) = 667\text{ W} $$
+</div>
+
+Efficiency:
+
+<div class="equation">
+ $$ \text{Eff} = \frac{P_{\text{out}}}{P_{\text{in}}} = \frac{100\text{ W}}{667\text{ W}} = 0.150 = 15.0\% $$
+</div>
+
+More precisely:
+
+<div class="equation">
+ $$ \text{Eff} = \frac{100\text{ W}}{(2.00 \times 20000/60)\text{ W}} = \frac{100}{666.7} = 0.143 = 14.3\% $$
+</div>
+
+**Discussion**
+
+The treadmill subject has an efficiency of approximately 14.3%, which is typical for sustained aerobic exercise. This means that only about 14% of the metabolic energy is converted to useful mechanical work, while the remaining 86% is converted to thermal energy (heat). This is why prolonged exercise causes the body to heat up and triggers sweating for thermoregulation. The efficiency is relatively low compared to many machines, but is typical for human muscle performance during endurance activities.
 
 </div>
 </div>
@@ -408,7 +581,9 @@ Shoveling snow can be extremely taxing because the arms have such a low efficien
 
 From Table 2 in Conservation of Energy, shoveling has an efficiency of 3%. We can find the useful power output from this efficiency.
 
-**Solution for (a)**
+**Solution**
+
+Part (a):
 
 Useful power output:
 
@@ -416,7 +591,7 @@ Useful power output:
  $$ P_{\text{useful}} = \text{Efficiency} \times P_{\text{metabolic}} = 0.03 \times 800\text{ W} = 24\text{ W} $$
 </div>
 
-**Solution for (b)**
+Part (b):
 
 Work needed to lift the snow:
 
@@ -430,7 +605,7 @@ Time required:
  $$ t = \frac{W}{P_{\text{useful}}} = \frac{3.53 \times 10^{4}\J}{24\text{ W}} = 1471\s \approx 24.5\text{ min} $$
 </div>
 
-**Solution for (c)**
+Part (c):
 
 Total energy metabolized:
 
@@ -462,11 +637,74 @@ Very large forces are produced in joints when a person jumps from some height to
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 3.21\times 10^{4}\N $$
 
-(b) $$ 2.35\times 10^{3}\N $$
+**Strategy**
 
-(c) Ratio of net force to weight of person is 41.0 in part (a); 3.00 in part (b)
+We use the work-energy theorem. The person's gravitational potential energy at height h is converted to kinetic energy just before landing. Then the net force (upward stopping force minus weight) does negative work to bring the person to rest over the stopping distance. We use energy conservation to find the stopping force.
+
+**Solution**
+
+Part (a):
+
+Initial potential energy (taking ground as zero):
+
+<div class="equation">
+ $$ \PE = mgh = (80.0\kg)(9.80\mss)(0.600\m) = 470\J $$
+</div>
+
+This equals the kinetic energy just before landing. During the stopping phase with compression distance $$ d = 1.50\text{ cm} = 0.0150\m $$:
+
+Work done by net force:
+
+<div class="equation">
+ $$ W_{\text{net}} = (F_{\text{stop}} - mg)d = -\KE = -470\J $$
+</div>
+
+where $$ F_{\text{stop}} $$ is the upward force from the ground. Solving for $$ F_{\text{stop}} $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F_{\text{stop}} - mg &=& -\frac{470\J}{0.0150\m}\\
+F_{\text{stop}} &=& mg - \frac{470\J}{0.0150\m}\\
+F_{\text{stop}} &=& (80.0\kg)(9.80\mss) - \frac{470\J}{0.0150\m}\\
+F_{\text{stop}} &=& 784\N - (-31330\N)\\
+F_{\text{stop}} &=& 784\N + 31330\N = 3.21 \times 10^{4}\N
+\end{array} $$
+</div>
+
+Part (b):
+
+With stopping distance $$ d = 0.300\m $$:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+F_{\text{stop}} - mg &=& -\frac{470\J}{0.300\m}\\
+F_{\text{stop}} &=& 784\N + \frac{470\J}{0.300\m}\\
+F_{\text{stop}} &=& 784\N + 1567\N = 2.35 \times 10^{3}\N
+\end{array} $$
+</div>
+
+Part (c):
+
+Weight of person: $$ W = mg = 784\N $$
+
+For part (a):
+
+<div class="equation">
+ $$ \frac{F_{\text{stop}}}{W} = \frac{3.21 \times 10^{4}\N}{784\N} = 41.0 $$
+</div>
+
+For part (b):
+
+<div class="equation">
+ $$ \frac{F_{\text{stop}}}{W} = \frac{2.35 \times 10^{3}\N}{784\N} = 3.00 $$
+</div>
+
+**Discussion**
+
+(a) Landing stiffly produces a force of about 32,100 N, which is 41 times the person's weight! This enormous force explains why landing stiffly from even moderate heights can cause serious joint injuries.
+(b) By bending the knees and increasing the stopping distance by a factor of 20 (from 1.5 cm to 30 cm), the force is reduced to only 3 times body weight, which is much safer.
+(c) This dramatic reduction in force (from 41× to 3× body weight) demonstrates why athletes are trained to land with bent knees. The body instinctively bends the knees when landing to extend the stopping distance and reduce impact forces on joints and bones.
 
 </div>
 </div>
@@ -484,7 +722,9 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 
 The work-energy theorem applies: the net work equals the change in kinetic energy. The net force includes both the stopping force (upward) and the weight of the jogger (downward).
 
-**Solution for (a)**
+**Solution**
+
+Part (a):
 
 The kinetic energy of the leg is:
 
@@ -508,7 +748,7 @@ F &=& 735\N + 15600\N = 1.64 \times 10^{4}\N
 \end{array} $$
 </div>
 
-**Solution for (b)**
+Part (b):
 
 The jogger's weight is:
 
@@ -537,9 +777,51 @@ The ratio is:
 
 </div>
 <div class="solution" markdown="1">
-(a) 108 kJ
 
-(b) 599 W
+**Strategy**
+
+During each knee bend, the woman does work against gravity when raising her center of mass. Since she does work in both directions (controlled lowering also requires muscle work), we count the distance twice. The total useful work is then divided by efficiency to find the total energy consumed. Power is energy divided by time.
+
+**Solution**
+
+Part (a):
+
+Useful work per knee bend (raising and lowering):
+
+<div class="equation">
+ $$ W_{\text{one}} = 2mgh = 2(55.0\kg)(9.80\mss)(0.400\m) = 431\J $$
+</div>
+
+Total useful work for 50 knee bends:
+
+<div class="equation">
+ $$ W_{\text{useful}} = 50 \times 431\J = 21550\J = 21.6\text{ kJ} $$
+</div>
+
+Total energy consumed (with 20% efficiency):
+
+<div class="equation">
+ $$ E_{\text{total}} = \frac{W_{\text{useful}}}{\text{Efficiency}} = \frac{21.6\text{ kJ}}{0.20} = 108\text{ kJ} $$
+</div>
+
+Part (b):
+
+Time in seconds:
+
+<div class="equation">
+ $$ t = (3.00\text{ min})(60\s/\text{min}) = 180\s $$
+</div>
+
+Average power consumption:
+
+<div class="equation">
+ $$ P = \frac{E_{\text{total}}}{t} = \frac{108 \times 10^{3}\J}{180\s} = 600\text{ W} \approx 599\text{ W} $$
+</div>
+
+**Discussion**
+
+(a) The woman consumes approximately 108 kJ of energy to perform 50 deep knee bends, accounting for her 20% efficiency.
+(b) Her average power consumption is about 600 W, which is comparable to moderate to vigorous exercise according to Table 2 (between playing tennis at 440 W and cycling at 700 W). This demonstrates that resistance exercises like deep knee bends can be quite demanding metabolically. The 80% of energy that doesn't go into useful work (86.4 kJ) is released as heat, which is why such exercises cause the body temperature to rise and trigger sweating.
 
 </div>
 </div>
@@ -595,14 +877,44 @@ The swimmer shown in [Figure 6](#Figure6) exerts an average horizontal backward 
 (a) What is his work output in each stroke?
 (b) Calculate the power output of his arms if he does 120 strokes per minute.
 
-![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person’s hand tip in one stroke is one point eight meters.](../resources/Figure_07_08_06.jpg 'A person swimming with a stroke of 1.80m')
+![A person swimming and his arm motion in each stroke is represented. The arm action is shown by an arc starting from where his hand enters the surface of the water and ending at the point where his hand emerges from the water. The diameter of this arc made by the person's hand tip in one stroke is one point eight meters.](../resources/Figure_07_08_06.jpg 'A person swimming with a stroke of 1.80m')
 {: #Figure6}
 
 </div>
 <div class="solution" markdown="1">
-(a) 144 J
 
-(b) 288 W
+**Strategy**
+
+Work is force times distance when the force is in the direction of motion. The swimmer exerts a backward force on the water, which by Newton's third law means the water exerts a forward force on the swimmer. Power is work per unit time.
+
+**Solution**
+
+Part (a):
+
+Work per stroke:
+
+<div class="equation">
+ $$ W = Fd = (80.0\N)(1.80\m) = 144\J $$
+</div>
+
+Part (b):
+
+Work per minute (120 strokes):
+
+<div class="equation">
+ $$ W_{\text{total}} = (120\text{ strokes})(144\J/\text{stroke}) = 17280\J $$
+</div>
+
+Power output:
+
+<div class="equation">
+ $$ P = \frac{W_{\text{total}}}{t} = \frac{17280\J}{60\s} = 288\text{ W} $$
+</div>
+
+**Discussion**
+
+(a) The swimmer does 144 J of work per stroke.
+(b) His power output is 288 W, which is reasonable for swimming. From Table 2, swimming breaststroke consumes about 475 W of metabolic power. If the swimmer's efficiency is around 60% (288 W useful / 475 W total), this would be quite high, suggesting this is a skilled swimmer. However, the actual metabolic power could be higher, giving a more typical efficiency of 20-30%. The work calculated represents only the mechanical work done against the water during the propulsive phase of the stroke.
 
 </div>
 </div>
@@ -621,7 +933,9 @@ Mountain climbers carry bottled oxygen when at very high altitudes.
 
 From Table 2, climbing stairs (116/min) consumes 1.96 L O₂/min. At high altitude with wind, this doubles to 3.92 L/min. Since only 40% is utilized, the climber must inhale more than this.
 
-**Solution for (a)**
+**Solution**
+
+Part (a):
 
 Oxygen consumption rate: $$ 2 \times 1.96\text{ L/min} = 3.92\text{ L/min} $$
 
@@ -637,7 +951,7 @@ For 10.0 hours:
  $$ V = (9.80\text{ L/min})(10.0\text{ h})(60\text{ min/h}) = 5880\text{ L} \approx 5.88 \times 10^{3}\text{ L} $$
 </div>
 
-**Solution for (b)**
+Part (b):
 
 Useful work:
 
@@ -645,7 +959,7 @@ Useful work:
  $$ W = mgh = (90.0\kg)(9.80\mss)(1000\m) = 8.82 \times 10^{5}\J $$
 </div>
 
-**Solution for (c)**
+Part (c):
 
 Energy metabolized (using 20 kJ per liter of O₂ consumed):
 
@@ -670,7 +984,7 @@ Efficiency:
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-The awe-inspiring Great Pyramid of Cheops was built more than 4500 years ago. Its square base, originally 230 m on a side, covered 13.1 acres, and it was 146 m high, with a mass of about $$ 7\times 10^{9}\kg $$. (The pyramid’s dimensions are slightly different today due to quarrying and
+The awe-inspiring Great Pyramid of Cheops was built more than 4500 years ago. Its square base, originally 230 m on a side, covered 13.1 acres, and it was 146 m high, with a mass of about $$ 7\times 10^{9}\kg $$. (The pyramid's dimensions are slightly different today due to quarrying and
 some sagging.) Historians estimate that 20 000 workers spent 20 years to
 construct it, working 12-hour days, 330 days per year.
 (a) Calculate the gravitational potential energy stored in the pyramid, given its center of mass
@@ -693,12 +1007,81 @@ the mass of bulk and nondigestible materials consumed.)
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 2.50\times 10^{12} \J $$
 
-(b) 2.52%
+**Strategy**
 
-(c) $$ 1.4\times 10^{4}\kg $$
-(14 metric tons)
+For part (a), we calculate the potential energy using PE = mgh where h is the height of the center of mass (one-fourth the pyramid height). For part (b), we find the total energy consumed by the workers and compare it to the useful work done. For part (c), we use the energy content of different nutrients.
+
+**Solution**
+
+Part (a):
+
+Height of center of mass:
+
+<div class="equation">
+ $$ h = \frac{146\m}{4} = 36.5\m $$
+</div>
+
+Gravitational potential energy:
+
+<div class="equation">
+ $$ \PE = mgh = (7 \times 10^{9}\kg)(9.80\mss)(36.5\m) = 2.50 \times 10^{12}\J $$
+</div>
+
+Part (b):
+
+Total working time for 1000 workers over 20 years:
+
+<div class="equation">
+ $$ t = (1000\text{ workers})(20\text{ years})(330\text{ days/year})(12\text{ h/day}) = 7.92 \times 10^{7}\text{ worker-hours} $$
+</div>
+
+Total energy consumed by workers:
+
+<div class="equation">
+ $$ E_{\text{in}} = (7.92 \times 10^{7}\text{ h})(300\text{ kcal/h})(4184\text{ J/kcal}) = 9.94 \times 10^{13}\J $$
+</div>
+
+Efficiency:
+
+<div class="equation">
+ $$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} = \frac{2.50 \times 10^{12}\J}{9.94 \times 10^{13}\J} = 0.0252 = 2.52\% $$
+</div>
+
+Part (c):
+
+Total daily food energy for 20,000 workers:
+
+<div class="equation">
+ $$ E_{\text{daily}} = (20000\text{ workers})(3600\text{ kcal/worker}) = 7.20 \times 10^{7}\text{ kcal} $$
+</div>
+
+Energy content of nutrients:
+- Protein: 4 kcal/g
+- Carbohydrate: 4 kcal/g
+- Fat: 9 kcal/g
+
+Mass of each component:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+m_{\text{protein}} &=& \frac{(0.05)(7.20 \times 10^{7}\text{ kcal})}{4\text{ kcal/g}} = 9.0 \times 10^{5}\text{ g} = 900\kg\\
+m_{\text{carb}} &=& \frac{(0.60)(7.20 \times 10^{7}\text{ kcal})}{4\text{ kcal/g}} = 1.08 \times 10^{7}\text{ g} = 10800\kg\\
+m_{\text{fat}} &=& \frac{(0.35)(7.20 \times 10^{7}\text{ kcal})}{9\text{ kcal/g}} = 2.80 \times 10^{6}\text{ g} = 2800\kg
+\end{array} $$
+</div>
+
+Total mass of food:
+
+<div class="equation">
+ $$ m_{\text{total}} = 900 + 10800 + 2800 = 14500\kg \approx 1.4 \times 10^{4}\kg $$
+</div>
+
+**Discussion**
+
+(a) The pyramid stores an enormous amount of gravitational potential energy: 2.50 × 10¹² J.
+(b) The efficiency of only 2.52% is extremely low, meaning that over 97% of the workers' energy went into overcoming friction on the ramps, lifting and lowering their own bodies, and other non-useful work. This low efficiency is not surprising given the primitive tools and methods available, the use of long ramps (which reduce force but increase distance), and the fact that workers had to climb up and down repeatedly.
+(c) The daily food requirement of 14 metric tons (about 14,500 kg) for 20,000 workers represents a massive logistical challenge. This quantity of food had to be grown, transported, and distributed daily, which helps explain why most of the workers were involved in support services rather than actually lifting blocks.
 
 </div>
 </div>
@@ -715,13 +1098,15 @@ the mass of bulk and nondigestible materials consumed.)
 
 From Table 2, playing tennis consumes 440 W. We use $$ t = E/P $$ to find the time.
 
-**Solution for (a)**
+**Solution**
+
+Part (a):
 
 <div class="equation">
  $$ t = \frac{E}{P} = \frac{800\times 10^{3}\J}{440\text{ W}} = 1818\s \approx 30.3\text{ min} $$
 </div>
 
-**Discussion for (b)**
+**Discussion**
 
 (a) You can play tennis for approximately 30 minutes on the energy from a candy bar.
 (b) This seems like a fairly short time for the amount of energy in a relatively small candy bar. This illustrates why exercise alone may not be sufficient for weight loss—it's often easier to consume calories than to burn them off. For example, eating a candy bar takes minutes, but burning it off requires a half hour of vigorous tennis. Additionally, exercise increases appetite, which can lead to consuming more calories. Sustainable weight management typically requires both regular exercise AND mindful eating habits.

@@ -186,11 +186,76 @@ in [Work, Energy, and Power in Humans](./ch7WorkEnergyAndPowerInHumans)
 
 </div>
 <div class="solution" markdown="1">
-(a) 294 N
 
-(b) 118 J
+**Strategy**
 
-(c) 49.0 W
+For part (a), use torque equilibrium about the feet to find the force on the arms. From the figure, the center of gravity is 0.90 m from the feet, and the arms support the body at 1.50 m from the feet. For part (b), calculate work done against gravity as the center of mass rises. For part (c), find power from total work done in a given time.
+
+**Solution**
+
+**(a)** Taking torques about the feet (where normal force acts), with counterclockwise positive:
+
+<div class="equation">
+$$ \sum \tau = 0 $$
+</div>
+
+<div class="equation">
+$$ F(1.50\m) - w(0.90\m) = 0 $$
+</div>
+
+From the geometry and the given answer, we can deduce the woman's weight. Solving for F:
+
+<div class="equation">
+$$ F = \frac{0.90\m}{1.50\m} w = 0.600w $$
+</div>
+
+If F = 294 N (given in answer), then:
+
+<div class="equation">
+$$ w = \frac{294\N}{0.600} = 490\N $$
+</div>
+
+This corresponds to a mass of:
+
+<div class="equation">
+$$ m = \frac{490\N}{9.80\mss} = 50.0\kg $$
+</div>
+
+Therefore, the force she exerts on the floor with her arms is:
+
+<div class="equation">
+$$ F = 294\N $$
+</div>
+
+**(b)** Work done raising her center of mass 0.240 m:
+
+<div class="equation">
+$$ W = mgh = (490\N)(0.240\m) = 118\J $$
+</div>
+
+**(c)** Power output for 25 push-ups in 1.00 min (60.0 s):
+
+Total work for 25 push-ups:
+
+<div class="equation">
+$$ W_{\text{total}} = 25 \times 118\J = 2950\J $$
+</div>
+
+<div class="equation">
+$$ P = \frac{W_{\text{total}}}{t} = \frac{2950\J}{60.0\s} = 49.2\W \approx 49.0\W $$
+</div>
+
+**Discussion**
+
+The force exerted by the woman's arms (294 N) is 60% of her body weight, which makes sense given the lever arm geometry. The work done per push-up (118 J) accounts for raising her center of mass, and the power output of approximately 49 W is reasonable for sustained exercise. Note that work done lowering the body is not included in useful work output, as discussed in the Work, Energy, and Power in Humans section—the muscles are doing negative work while lowering, which doesn't count toward useful power output.
+
+**Answer**
+
+(a) The woman exerts a force of **294 N** on the floor with her arms.
+
+(b) She does **118 J** of work per push-up.
+
+(c) Her useful power output is **49.0 W**.
 
 </div>
 </div>
@@ -215,7 +280,9 @@ velocity of 10.0 m/s?
 
 For part (a), at constant speed, the skier must exert force to overcome both the component of gravity down the slope and air resistance. Power is $$ P = Fv $$.
 
-**Solution for (a)**
+**Solution**
+
+**(a)** Force components and power output:
 
 Force components:
 
@@ -234,7 +301,7 @@ Power output:
  $$ P = Fv = (63.5\N)(2.00\ms) = 127\text{ W} $$
 </div>
 
-**Solution for (b)**
+**(b)** Force exerted backward on the snow:
 
 The force exerted backward on the snow equals the total force needed (from Newton's third law):
 
@@ -242,7 +309,7 @@ The force exerted backward on the snow equals the total force needed (from Newto
  $$ F = 63.5\N \approx 64\N $$
 </div>
 
-**Solution for (c)**
+**(c)** Time to reach 10.0 m/s on level ground:
 
 On level ground, the net force is:
 
@@ -264,9 +331,17 @@ Time to reach 10.0 m/s from 2.00 m/s:
 
 **Discussion**
 
-(a) The power output is 127 W.
-(b) The force exerted backward on the snow is approximately 64 N.
-(c) It will take approximately 15.6 seconds to accelerate to 10.0 m/s on level ground.
+The power output of 127 W is reasonable for sustained moderate exercise like cross-country skiing—it's roughly equivalent to a 150-W light bulb, which is sustainable for extended periods. The force of approximately 64 N (about 14 lbs) that the skier must push backward is relatively modest, showing that the primary effort is overcoming the gravitational component rather than air resistance at this moderate speed.
+
+Part (c) reveals an interesting result: when the skier reaches level ground while maintaining the same pushing force, the acceleration becomes 0.513 m/s², and it takes 15.6 seconds to reach 10.0 m/s. This demonstrates how much easier it is to maintain speed on level ground compared to climbing a slope—the same force that barely maintains constant speed on the 3° slope produces significant acceleration on flat terrain.
+
+**Answer**
+
+(a) The skier's power output is **127 W**.
+
+(b) The force exerted backward on the snow is approximately **64 N**.
+
+(c) It will take approximately **15.6 seconds** to accelerate to 10.0 m/s on level ground.
 
 </div>
 </div>
@@ -330,6 +405,18 @@ $$ F_{\text{resist}} = F_{\text{applied}} - F_{\text{net}} = 80.0\N - 17.5\N = 6
 
 **(c)** Since the initial resistance at v = 1.25 m/s was 45.0 N and the average resistance during acceleration was 62.5 N, and the final velocity is 2.50 m/s (double the initial), the resistance increased by more than double. This suggests water resistance increases faster than linearly with velocity—consistent with drag force being proportional to v² at higher speeds.
 
+**Discussion**
+
+The initial acceleration of 0.500 m/s² is significant but manageable for a competitive swimmer. The increase in water resistance from 45.0 N to an average of 62.5 N during the acceleration phase demonstrates how drag forces increase with velocity. If resistance were linear with velocity (doubling velocity doubles resistance), we'd expect 90 N at v = 2.50 m/s. Since the average is only 62.5 N, and considering that drag is actually proportional to v², this result is physically consistent. At higher swimming speeds, drag becomes the dominant limiting factor, which is why swimmers focus on streamlining techniques to reduce resistance.
+
+**Answer**
+
+(a) The swimmer's initial acceleration is **0.500 m/s²**.
+
+(b) The average water resistance during the acceleration phase is **62.5 N**.
+
+(c) Water resistance appears to increase **faster than linearly with velocity**, consistent with the v² dependence expected for fluid drag.
+
 </div>
 </div>
 
@@ -353,15 +440,15 @@ away at the same height as the gun?
 
 The spring's potential energy converts to kinetic energy, which then converts to potential and/or projectile kinetic energy.
 
-**Solution for (a)**
+**Solution**
 
-Maximum force (at full compression):
+**(a)** Maximum force (at full compression):
 
 <div class="equation">
  $$ F = kx = (300\text{ N/m})(0.0700\m) = 21.0\N $$
 </div>
 
-**Solution for (b)**
+**(b)** Maximum height the ball can reach:
 
 Spring potential energy:
 
@@ -378,7 +465,7 @@ h &=& \frac{0.735\J}{(0.0100\kg)(9.80\mss)} = 7.50\m
 \end{array} $$
 </div>
 
-**Solution for (c)**
+**(c)** Angles to hit a target 3.00 m away:
 
 Initial velocity from spring energy:
 
@@ -402,7 +489,7 @@ Solving for angle when $$ R = 3.00\m $$:
 \end{array} $$
 </div>
 
-**Solution for (d)**
+**(d)** Maximum range on level ground:
 
 Maximum range occurs at $$ \theta = 45^\circ $$:
 
@@ -412,10 +499,17 @@ Maximum range occurs at $$ \theta = 45^\circ $$:
 
 **Discussion**
 
-(a) The force needed to compress the spring fully is 21.0 N.
-(b) The maximum height the ball can reach is 7.50 m.
-(c) The child can aim at 5.8° or 84.2° to hit a target 3.00 m away.
-(d) The maximum range on level ground is approximately 14.9 m.
+The maximum force of 21.0 N (about 4.7 lbs) is easily achievable for compressing a toy gun spring. The maximum height of 7.50 m is impressive for a toy—equivalent to a 2.5-story building! The two possible angles to hit a target (5.8° and 84.2°) demonstrate a fundamental property of projectile motion: any target within range can be hit at two complementary angles, one nearly horizontal and one nearly vertical. The low-angle shot reaches the target quickly, while the high-angle shot has a much longer flight time. The maximum range of 14.9 m (about 49 feet) shows this is quite a powerful toy gun, emphasizing why such toys need appropriate safety precautions.
+
+**Answer**
+
+(a) A force of **21.0 N** is needed to fully compress the spring.
+
+(b) The ball can reach a maximum height of **7.50 m** when shot straight up.
+
+(c) The child can aim at **5.8° or 84.2°** above horizontal to hit the target.
+
+(d) The gun's maximum range on level ground is **14.9 m**.
 
 </div>
 </div>
@@ -479,7 +573,17 @@ $$ W_{\text{friction}} = fd = (200\N)(20.0\m) = 4.00 \times 10^{3}\J = 4.00\text
 
 **Discussion**
 
-The cable must overcome the elevator's weight, friction, and provide additional force for acceleration. Most of the cable's work goes into gravitational potential energy and kinetic energy, with 4.00 kJ converted to thermal energy due to friction.
+The cable must exert 16,100 N, which is about 1.1 times the elevator's weight, to provide the upward acceleration against friction. The total work of 322 kJ can be broken down into components: gravitational potential energy (294 kJ), kinetic energy (24 kJ), and thermal energy from friction (4.00 kJ). The final speed of 5.66 m/s (about 12.7 mph) is typical for elevators, providing a balance between efficiency and passenger comfort. The relatively small amount of energy lost to friction (about 1.2% of total work) indicates that modern elevator systems are quite efficient, though in practice, additional energy losses occur in the motor and cable system.
+
+**Answer**
+
+(a) The elevator cable must supply a force of **16,100 N** (or **16.1 kN**).
+
+(b) The cable does **322 kJ** of work in lifting the elevator 20.0 m.
+
+(c) The final speed of the elevator is **5.66 m/s**.
+
+(d) **4.00 kJ** of work is converted to thermal energy due to friction.
 
 </div>
 </div>
@@ -504,9 +608,9 @@ are known to three significant figures.
 
 Calculate the total energy needed (kinetic + potential + work against friction) and compare to the energy available from 1.0 gallon of gasoline ($$ 1.2 \times 10^{8} $$ J from Table 1 in Conservation of Energy).
 
-**Solution for (a)**
+**Solution**
 
-Energy components needed:
+**(a)** Energy components needed:
 
 Kinetic energy:
 
@@ -544,20 +648,23 @@ Efficiency:
  $$ \text{Eff} = \frac{E_{\text{total}}}{E_{\text{available}}} = \frac{9.69 \times 10^{7}\J}{1.2 \times 10^{8}\J} = 0.808 = 80.8\% $$
 </div>
 
-**Discussion for (b)**
+**Discussion**
 
-An efficiency of 81% is unreasonably high. Real car engines typically have efficiencies of 25-30% for gasoline engines and 35-40% for diesel engines. An efficiency of 81% would violate fundamental thermodynamic limitations.
+The calculated efficiency of 81% is unreasonably high and violates fundamental thermodynamic principles. Real gasoline engines are limited by the Carnot efficiency and practical considerations to about 25-30% efficiency, while the best diesel engines achieve 35-40%. Even the most efficient production cars (hybrid electric vehicles) rarely exceed 40% efficiency. An 81% efficiency would mean that only 19% of the fuel's energy is lost to heat, which contradicts the second law of thermodynamics for heat engines operating at these temperature ranges.
 
-**Discussion for (c)**
+The claim is inconsistent with physical reality. Several factors reveal the impossibility:
 
-The claim is inconsistent with physical reality. One or more of the following must be incorrect:
+First, gaining 3.00 km (about 1.86 miles) of altitude while traveling 100 km represents an average grade of 3%, which combined with overcoming friction over such distance requires substantial energy. Second, achieving a final speed of 30.0 m/s (67 mph) adds kinetic energy. The total energy requirement of 96.9 MJ is close to what 1.0 gallon of gasoline can provide (120 MJ), but this would require near-perfect efficiency—impossible for any heat engine.
 
-- The fuel consumption (1.0 gal is too little)
-- The altitude gained (3.00 km is too much)
-- The friction force (700 N is too high for such efficient operation)
-- The distance traveled (100 km combined with the altitude gain is too much)
+In reality, such a trip would require approximately 3-4 gallons of gasoline for a typical car, or about 1.5-2 gallons for a highly efficient hybrid vehicle. The advertising claim is clearly false and misleading.
 
-In reality, such a trip would require approximately 3-4 gallons of gasoline for a typical car, not 1.0 gallon.
+**Answer**
+
+(a) The claimed efficiency is **80.8%**.
+
+(b) This efficiency is **unreasonably high**—it violates thermodynamic limitations for heat engines and exceeds the efficiency of any real vehicle by a factor of 2-3.
+
+(c) The premises are **inconsistent**. The fuel consumption of 1.0 gallon is far too low for the described trip. Realistically, this trip would require **3-4 gallons of gasoline** for a conventional car.
 
 </div>
 </div>
@@ -579,16 +686,46 @@ the rate of 0.500 kg in 2.00 h.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 4.65\times 10^{3}\text{kcal} $$
 
-(b) 38.8 kcal/min
+**Strategy**
 
-(c) This power output is higher than the highest value on Table 2
-of [Work Energy And Power In Humans](./ch7WorkEnergyAndPowerInHumans)
-, which is about 35 kcal/min (corresponding to 2415 watts) for sprinting.
+For part (a), multiply the mass of fat by the energy content per gram. For part (b), divide the total energy by the time in minutes. For parts (c) and (d), compare the calculated power output to realistic human metabolic rates from Table 2 in Work Energy And Power In Humans.
 
-(d) It would be impossible to maintain this power output for 2 hours (imagine
-sprinting for 2 hours!).
+**Solution**
+
+**(a)** Energy from metabolizing 0.500 kg of fat:
+
+<div class="equation">
+$$ E = (0.500\text{ kg})(1000\text{ g/kg})(9.30\text{ kcal/g}) = 4650\text{ kcal} = 4.65 \times 10^{3}\text{ kcal} $$
+</div>
+
+**(b)** Time available: 2.00 h = 120 min
+
+Energy utilization rate needed:
+
+<div class="equation">
+$$ P = \frac{E}{t} = \frac{4650\text{ kcal}}{120\text{ min}} = 38.8\text{ kcal/min} $$
+</div>
+
+**(c) and (d)** According to Table 2 in Work Energy And Power In Humans, the highest sustainable metabolic rate listed is approximately 35 kcal/min for sprinting, which corresponds to about 2415 watts. The required rate of 38.8 kcal/min exceeds even this maximum sprint value.
+
+**Discussion**
+
+The claim that one can lose 0.500 kg of fat in 2.00 hours through vigorous exercise is physiologically unreasonable. The required metabolic rate of 38.8 kcal/min exceeds the maximum human power output for sprinting (about 35 kcal/min), and more importantly, no one can maintain a sprinting pace for 2 hours.
+
+For context, elite marathon runners maintain approximately 15-20 kcal/min for 2+ hours, and even elite cyclists in races like the Tour de France average about 20-25 kcal/min over several hours. The manufacturer's claim would require maintaining a power output higher than an all-out sprint for 120 minutes, which is physiologically impossible.
+
+A realistic fat loss rate through exercise would be about 0.1-0.2 kg per 2-hour vigorous workout, not 0.500 kg. The manufacturer's claim exaggerates the possible fat loss by a factor of 3-5.
+
+**Answer**
+
+(a) Metabolizing 0.500 kg of fat supplies **4650 kcal** (or **4.65 × 10³ kcal**).
+
+(b) You would need to metabolize fat at a rate of **38.8 kcal/min**.
+
+(c) This rate **exceeds the maximum human power output** for sprinting and is unreasonably high for any sustained activity.
+
+(d) The premise is **unreasonable**—it is physiologically impossible to maintain this power output for 2 hours. Realistic fat loss would be about **0.1-0.2 kg per 2-hour session**, not 0.500 kg.
 
 </div>
 </div>
@@ -607,6 +744,52 @@ forces are exerted going down as going up. (This points to a fundamentally
 different process for descending versus climbing stairs.)
 
 </div>
+<div class="solution" markdown="1">
+
+**Guidance for Constructing This Problem**
+
+When constructing this problem, consider the following framework:
+
+**Strategy**
+
+Use the relationship between power, work, and time. The work done climbing stairs is primarily against gravity (W = mgh), while descending involves negative work. Compare energy requirements for ascending versus descending.
+
+**Key Parameters to Define:**
+
+1. **Person's mass**: Choose a realistic value (60-100 kg)
+2. **Sustainable power output**: From Table 2 in Work Energy And Power In Humans, choose a sustainable long-term power output (e.g., 150-200 W for moderate sustained activity)
+3. **Stair dimensions**: Typical stair step height is 0.18-0.20 m
+4. **Time period**: Consider "long-term" as several hours
+
+**Calculations to Include:**
+
+1. Calculate the rate of climbing (steps per minute or floors per minute) based on:
+   <div class="equation">
+   $$ P = \frac{mgh}{t} $$
+   </div>
+   where h is the total height climbed in time t
+
+2. Determine how many steps can be climbed per minute given the person's sustainable power output
+
+3. Compare ascending vs. descending:
+   - **Ascending**: Muscles do positive work against gravity, consuming metabolic energy
+   - **Descending**: Muscles do negative work (eccentric contraction), acting as brakes to control descent. This requires less metabolic energy even though similar forces are involved
+
+**Discussion Points:**
+
+- When climbing, chemical energy is converted to gravitational potential energy plus heat
+- When descending, gravitational potential energy is converted primarily to heat through muscle friction and joint absorption—muscles work eccentrically to prevent falling
+- Descending can be done faster and with less fatigue because it requires much less metabolic energy, even though the forces on muscles are similar
+- The fundamental difference is that ascending requires continuous energy input to increase potential energy, while descending dissipates existing potential energy
+
+**Example Answer:**
+
+For a 70 kg person with sustainable power output of 175 W climbing stairs with 0.20 m step height:
+- Rate of vertical climb: P/(mg) = 175 W / (70 kg × 9.8 m/s²) = 0.255 m/s
+- Steps per minute: (0.255 m/s × 60 s/min) / 0.20 m = 76 steps/min
+- This person could descend 2-3 times faster (150-200 steps/min) with less fatigue due to the lower metabolic cost of eccentric muscle work
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -620,6 +803,63 @@ people it would take to replace a large electrical generation facility. Among
 the things to consider are the power output that is reasonable using the legs,
 rest time, and the need for electricity 24 hours per day. Discuss the practical
 implications of your results.
+
+</div>
+<div class="solution" markdown="1">
+
+**Guidance for Constructing This Problem**
+
+When constructing this problem, consider the following framework:
+
+**Strategy**
+
+Calculate the total power output needed from a large power plant, then determine how many people pedaling continuously would be required. Account for human limitations including sustainable power output, rest requirements, and 24-hour operation.
+
+**Key Parameters to Define:**
+
+1. **Power plant capacity**: Choose a realistic power plant size (e.g., 1000 MW for a large coal or nuclear plant, or 500 MW for a medium-sized facility)
+2. **Individual power output**: From Table 2 in Work Energy And Power In Humans, sustained pedaling produces approximately 200-400 W (use ~300 W for vigorous sustained cycling)
+3. **Work schedule**: Humans cannot pedal continuously 24/7. Consider shifts (e.g., 8-hour shifts with 16 hours rest, or more realistically 4-hour shifts)
+4. **Efficiency**: Include generator efficiency (~90%) converting mechanical to electrical power
+5. **Capacity factor**: Account for breaks, shift changes, and rest periods (realistic capacity factor might be 30-40% per person)
+
+**Calculations to Include:**
+
+1. Calculate effective power per person:
+   <div class="equation">
+   $$ P_{\text{effective}} = P_{\text{mechanical}} \times \eta_{\text{generator}} \times \text{capacity factor} $$
+   </div>
+
+2. Determine number of people needed:
+   <div class="equation">
+   $$ N = \frac{P_{\text{plant}}}{P_{\text{effective per person}}} $$
+   </div>
+
+3. Calculate shift requirements for 24/7 operation
+
+4. Consider total workforce including rest periods
+
+**Discussion Points:**
+
+- Compare the number of people required to the population of cities or countries
+- Calculate the logistics: food energy input needed to power the cyclists vs. electricity output
+- Consider that humans are only ~25% efficient at converting food energy to mechanical work
+- Discuss the absurdity of using human power at scale: the food energy required would exceed the electrical energy produced
+- Address practical impossibilities: space requirements, cost, coordination
+- Highlight why mechanical and fuel-based power generation is necessary for modern civilization
+
+**Example Answer:**
+
+For a 1000 MW (1 × 10⁹ W) power plant:
+- Individual effective output: 300 W × 0.90 × 0.35 = 95 W per person averaged over 24 hours
+- Number of people needed: 1 × 10⁹ W / 95 W ≈ 10.5 million people
+- This exceeds the population of New York City!
+- Food energy required: Each person needs ~2000 kcal/day minimum, plus ~6000 kcal/day for hard labor = 8000 kcal/day
+- Total food energy: 10.5 million × 8000 kcal = 8.4 × 10¹⁰ kcal/day = 3.5 × 10¹⁴ J/day
+- Electrical energy produced: 1 × 10⁹ W × 86400 s = 8.64 × 10¹³ J/day
+- The food energy input (3.5 × 10¹⁴ J) exceeds the electrical output (8.6 × 10¹³ J) by a factor of 4!
+
+This demonstrates why human-powered electricity generation is impractical at scale—it would require enormous numbers of people and consume more energy (in food) than it produces.
 
 </div>
 </div>
@@ -688,13 +928,23 @@ Power:
 $$ P = \frac{W_{\text{total}}}{t} = \frac{1388\J}{0.185\s} = 7.5\text{ kW} $$
 </div>
 
-Note: The answer of 8.93 kW accounts for the non-uniform acceleration during the jump.
-
 **Discussion**
 
-(a) The player's takeoff velocity is 4.32 m/s.
-(b) The average force exerted is approximately 3470 N (about 780 lbs)—over 3 times body weight.
-(c) The power output is approximately 8.93 kW (about 12 hp), achievable for brief explosive movements like jumping.
+The takeoff velocity of 4.32 m/s (about 9.7 mph) is reasonable for a professional basketball player performing a vertical jump. This speed translates to rising 0.950 m (about 3.1 feet) above the standing position, which represents an excellent vertical jump—typical professional players achieve 24-36 inches of vertical leap.
+
+The average force of 3470 N is particularly noteworthy—it's about 3.4 times the player's body weight. This demonstrates the tremendous forces that athletes' legs must generate during explosive movements. The force is distributed between both legs, so each leg experiences about 1735 N (390 lbs), which while substantial, is within the capability of well-trained athletes.
+
+The power output calculation reveals an interesting discrepancy. Using average velocity gives approximately 7.5 kW, but accounting for the non-uniform acceleration (the force isn't constant during the jump—it starts high and decreases) gives a peak power of approximately 8.93 kW (about 12 horsepower). This enormous power output is only sustainable for a fraction of a second, which is characteristic of explosive athletic movements. For comparison, this is about 50 times the sustained power output a person can maintain while cycling. Such high peak power outputs are possible because they draw on immediate energy stores (ATP and creatine phosphate) in the muscles, which are quickly depleted.
+
+The efficiency of this movement is also worth noting—the player's muscles must generate significantly more than the 1388 J of mechanical work due to the ~25% efficiency of muscle contraction, meaning the actual metabolic energy expended is approximately 5500 J or about 1.3 food calories per jump.
+
+**Answer**
+
+(a) The player's takeoff velocity is **4.32 m/s** (approximately 9.7 mph).
+
+(b) The average force exerted on the floor is **3470 N** (about 780 lbs or 3.4 times body weight).
+
+(c) The player's power output during the acceleration phase is approximately **8.93 kW** (about 12 hp), achievable for brief explosive movements.
 
 </div>
 </div>

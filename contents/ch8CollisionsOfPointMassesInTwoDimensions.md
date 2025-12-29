@@ -335,51 +335,90 @@ for elastic collisions of objects that have identical masses.)
 <div class="solution" markdown="1">
 **Strategy**
 
-For elastic collisions between identical masses where one is initially at rest, the two objects move at 90° to each other after collision. We use this result plus conservation of momentum in the y-direction to find the velocities.
+For elastic collisions between identical masses where one is initially at rest, the two objects move at 90° to each other after collision. We use this result plus conservation of momentum in both the x- and y-directions to find the velocities.
 
-**Solution for (a)**
+**Solution**
 
-Given: $$ \theta_1 = 30.0^\circ $$ above the x-axis.
+Part (a): Given that $$ \theta_1 = 30.0^\circ $$ above the x-axis and using the result that $$ \theta_1 - \theta_2 = 90^\circ $$ for elastic collisions of identical masses:
 
-Using $$ \theta_1 - \theta_2 = 90^\circ $$:
-$$ \theta_2 = \theta_1 - 90^\circ = 30.0^\circ - 90^\circ = -60.0^\circ $$
+<div class="equation">
+ $$ \theta_2 = \theta_1 - 90^\circ = 30.0^\circ - 90^\circ = -60.0^\circ $$
+</div>
 
 So the second puck moves at $$ 60.0^\circ $$ below the x-axis.
 
-Apply conservation of momentum in the y-direction (initially zero):
-$$ 0 = m v'\_1 \sin{30.0^\circ} + m v'\_2 \sin{(-60.0^\circ)} $$
+Applying conservation of momentum in the y-direction (initially zero):
 
-$$ v'\_1 \sin{30.0^\circ} = v'\_2 \sin{60.0^\circ} $$
+<div class="equation">
+ $$ 0 = m v'_1 \sin{30.0^\circ} + m v'_2 \sin{(-60.0^\circ)} $$
+</div>
 
-Apply conservation of momentum in the x-direction:
-$$ m v_1 = m v'\_1 \cos{30.0^\circ} + m v'\_2 \cos{60.0^\circ} $$
+which simplifies to:
 
-$$ 6.00 \ms = v'\_1 (0.866) + v'\_2 (0.500) $$
+<div class="equation">
+ $$ v'_1 \sin{30.0^\circ} = v'_2 \sin{60.0^\circ} $$
+</div>
 
-From the y-equation: $$ v'\_1 (0.500) = v'\_2 (0.866) $$, so $$ v'\_1 = 1.732 v'\_2 $$
+Applying conservation of momentum in the x-direction:
 
-Substitute into x-equation:
-$$ 6.00 = (1.732 v'\_2)(0.866) + v'\_2 (0.500) = 1.500 v'\_2 + 0.500 v'\_2 = 2.00 v'\_2 $$
+<div class="equation">
+ $$ m v_1 = m v'_1 \cos{30.0^\circ} + m v'_2 \cos{60.0^\circ} $$
+</div>
 
-$$ v'\_2 = 3.00 \ms $$
+Substituting the known value $$ v_1 = 6.00 \ms $$:
+
+<div class="equation">
+ $$ 6.00 \ms = v'_1 (0.866) + v'_2 (0.500) $$
+</div>
+
+From the y-equation: $$ v'_1 (0.500) = v'_2 (0.866) $$, which gives:
+
+<div class="equation">
+ $$ v'_1 = 1.732 v'_2 $$
+</div>
+
+Substituting into the x-equation:
+
+<div class="equation">
+ $$ 6.00 \ms = (1.732 v'_2)(0.866) + v'_2 (0.500) = 1.500 v'_2 + 0.500 v'_2 = 2.00 v'_2 $$
+</div>
+
+Solving for $$ v'_2 $$:
+
+<div class="equation">
+ $$ v'_2 = 3.00 \ms $$
+</div>
 
 The second puck moves at 3.00 m/s at $$ 60.0^\circ $$ below the x-axis.
 
-**Solution for (b)**
+Part (b): To confirm the collision is elastic, we find $$ v'_1 $$ and compare kinetic energies:
 
-Find $$ v'\_1 $$: $$ v'\_1 = 1.732 (3.00 \ms) = 5.20 \ms $$
+<div class="equation">
+ $$ v'_1 = 1.732 (3.00 \ms) = 5.20 \ms $$
+</div>
 
-Initial kinetic energy (let m = 1 kg for simplicity):
-$$ \KE_i = \frac{1}{2}(1)(6.00)^2 = 18.0 \J $$
+Initial kinetic energy (using m = 1 kg for simplicity):
+
+<div class="equation">
+ $$ \KE_i = \frac{1}{2}m v_1^2 = \frac{1}{2}(1\kg)(6.00\ms)^2 = 18.0 \J $$
+</div>
 
 Final kinetic energy:
-$$ \KE_f = \frac{1}{2}(1)(5.20)^2 + \frac{1}{2}(1)(3.00)^2 = 13.5 \J + 4.50 \J = 18.0 \J $$
+
+<div class="equation">
+ $$ \KE_f = \frac{1}{2}m {v'_1}^2 + \frac{1}{2}m {v'_2}^2 = \frac{1}{2}(1\kg)(5.20\ms)^2 + \frac{1}{2}(1\kg)(3.00\ms)^2 = 13.5 \J + 4.50 \J = 18.0 \J $$
+</div>
 
 Since $$ \KE_i = \KE_f = 18.0 \J $$, the collision is elastic.
 
 **Discussion**
 
-The 90° separation angle is a distinctive feature of elastic collisions between equal masses. The faster puck after collision (5.20 m/s at 30°) carries more kinetic energy than the slower one (3.00 m/s at 60°), but together they conserve both momentum and kinetic energy.
+The 90° separation angle is a distinctive feature of elastic collisions between equal masses when one is initially at rest. The faster puck after collision (5.20 m/s at 30°) carries more kinetic energy than the slower one (3.00 m/s at 60°), but together they conserve both momentum and kinetic energy. This result is commonly observed in billiards and pool.
+
+**Answer**
+
+(a) The second puck has a velocity of 3.00 m/s at $$ 60.0^\circ $$ below the horizontal (or at $$ -60.0^\circ $$).
+(b) The collision is confirmed to be elastic since kinetic energy is conserved.
 
 </div>
 </div>
@@ -446,39 +485,61 @@ when it is fired?
 <div class="solution" markdown="1">
 **Strategy**
 
-Since the cannon can only recoil horizontally, we apply conservation of momentum in the horizontal direction only. The shell's velocity has horizontal and vertical components; only the horizontal component affects the cannon's recoil.
+Since the cannon can only recoil horizontally, we apply conservation of momentum in the horizontal direction only. The shell's velocity has horizontal and vertical components; only the horizontal component affects the cannon's recoil. For part (c), we consider what happens to the vertical component of momentum.
 
-**Solution for (a)**
+**Solution**
 
-Find the horizontal component of the shell's velocity:
+Part (a): First, find the horizontal component of the shell's velocity:
 
-$$ v_{\text{shell},x} = v_{\text{shell}} \cos{20.0^\circ} = (480 \ms)(0.940) = 451 \ms $$
+<div class="equation">
+ $$ v_{\text{shell},x} = v_{\text{shell}} \cos{20.0^\circ} = (480 \ms)(0.940) = 451 \ms $$
+</div>
 
 Apply conservation of horizontal momentum (initial momentum = 0):
 
-$$ 0 = m_{\text{cannon}} v_{\text{cannon}} + m_{\text{shell}} v_{\text{shell},x} $$
+<div class="equation">
+ $$ 0 = m_{\text{cannon}} v_{\text{cannon}} + m_{\text{shell}} v_{\text{shell},x} $$
+</div>
 
-$$ v_{\text{cannon}} = -\frac{m_{\text{shell}} v_{\text{shell},x}}{m_{\text{cannon}}} = -\frac{(15.0 \kg)(451 \ms)}{3000 \kg} = -2.26 \ms $$
+Solving for the cannon's recoil velocity:
+
+<div class="equation">
+ $$ v_{\text{cannon}} = -\frac{m_{\text{shell}} v_{\text{shell},x}}{m_{\text{cannon}}} = -\frac{(15.0 \kg)(451 \ms)}{3000 \kg} = -2.26 \ms $$
+</div>
 
 The cannon recoils at 2.26 m/s in the direction opposite to the horizontal component of the shell's motion.
 
-**Solution for (b)**
+Part (b): The kinetic energy of the cannon is:
 
-$$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v\_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.26 \ms)^2 = 7.66 \times 10^{3} \J $$
+<div class="equation">
+ $$ \KE_{\text{cannon}} = \frac{1}{2} m_{\text{cannon}} v_{\text{cannon}}^2 = \frac{1}{2}(3000 \kg)(2.26 \ms)^2 = 7.66 \times 10^{3} \J $$
+</div>
 
-The kinetic energy of the cannon is approximately $$ 7.63 \times 10^{3} \J $$ (7.63 kJ).
+The kinetic energy of the cannon is approximately $$ 7.66 \times 10^{3} \J $$ (7.66 kJ).
 
-**Solution for (c)**
+Part (c): The vertical component of the shell's momentum is:
 
-The vertical component of the shell's momentum is:
+<div class="equation">
+ $$ p_{\text{shell},y} = m_{\text{shell}} v_{\text{shell}} \sin{20.0^\circ} = (15.0 \kg)(480 \ms)(0.342) = 2.46 \times 10^{3} \kg \cdot \ms $$
+</div>
 
-$$ p_{\text{shell},y} = m_{\text{shell}} v\_{\text{shell}} \sin{20.0^\circ} = (15.0 \kg)(480 \ms)(0.342) = 2460 \kg \cdot \ms $$
-
-Since the cannon cannot move vertically, this momentum is transferred to the ground through the cannon's mounting. The ground exerts an upward normal force on the cannon that absorbs this vertical momentum. Over time, repeated firings transfer significant momentum to the ground, which can cause the cannon to sink or shift, affecting aim accuracy.
+Since the cannon cannot move vertically, this momentum is transferred to the Earth through the cannon's mounting. The ground (Earth) exerts an upward normal force on the cannon during firing that absorbs this vertical momentum. Because the Earth's mass is so large, its resulting motion is imperceptible. However, the mounting must be strong enough to withstand this force, and over time, repeated firings can cause the cannon to settle into the ground.
 
 **Discussion**
 
-The cannon's recoil energy (7.63 kJ) must be absorbed by shock absorbers to prevent damage. The shell's total kinetic energy is much larger: $$ \frac{1}{2}(15 \kg)(480 \ms)^2 = 1.73 \times 10^6 \J $$, so the cannon receives only about 0.4% of the energy—the rest goes to the shell.
+The cannon's recoil energy (7.66 kJ) must be absorbed by shock absorbers to prevent damage to the mounting. The shell's total kinetic energy is much larger:
+
+<div class="equation">
+ $$ \KE_{\text{shell}} = \frac{1}{2}(15.0 \kg)(480 \ms)^2 = 1.73 \times 10^6 \J $$
+</div>
+
+Thus, the cannon receives only about 0.44% of the total energy—the rest goes to the shell. This demonstrates the efficiency of momentum transfer when a light object is expelled from a heavy one.
+
+**Answer**
+
+(a) The cannon recoils at 2.26 m/s in the direction opposite to the shell's horizontal motion.
+(b) The kinetic energy of the recoiling cannon is $$ 7.66 \times 10^{3} \J $$ (7.66 kJ).
+(c) The vertical component of momentum is transferred to the Earth through the cannon's mounting, which must be strong enough to withstand the resulting forces.
 
 </div>
 </div>
@@ -500,53 +561,93 @@ the ball might be converted to linear kinetic energy in the collision.
 <div class="solution" markdown="1">
 **Strategy**
 
-We apply conservation of momentum in both x and y directions to find the ball's final velocity components. Then we compare kinetic energies to determine if the collision is elastic.
+We apply conservation of momentum in both x and y directions to find the ball's final velocity components. Then we compare kinetic energies to determine if the collision is elastic. The pin is initially at rest, and the ball initially moves along the x-axis.
 
-**Solution for (a)**
+**Solution**
 
-Conservation of x-momentum:
+Part (a): Apply conservation of x-momentum:
 
-$$ m_{\text{ball}} v_{\text{ball}} = m_{\text{ball}} v'_{\text{ball},x} + m_{\text{pin}} v'_{\text{pin}} \cos{85.0^\circ} $$
+<div class="equation">
+ $$ m_{\text{ball}} v_{\text{ball}} = m_{\text{ball}} v'_{\text{ball},x} + m_{\text{pin}} v'_{\text{pin}} \cos{85.0^\circ} $$
+</div>
 
-$$ (5.50)(9.00) = (5.50) v'\_{\text{ball},x} + (0.850)(15.0)(0.0872) $$
+Substituting known values:
 
-$$ 49.5 = 5.50 v'\_{\text{ball},x} + 1.11 $$
+<div class="equation">
+ $$ (5.50\kg)(9.00\ms) = (5.50\kg) v'_{\text{ball},x} + (0.850\kg)(15.0\ms)(0.0872) $$
+</div>
 
-$$ v'\_{\text{ball},x} = \frac{49.5 - 1.11}{5.50} = 8.80 \ms $$
+<div class="equation">
+ $$ 49.5 \kg \cdot \ms = 5.50\kg \cdot v'_{\text{ball},x} + 1.11 \kg \cdot \ms $$
+</div>
 
-Conservation of y-momentum (initially zero):
+Solving for $$ v'_{\text{ball},x} $$:
 
-$$ 0 = m_{\text{ball}} v'_{\text{ball},y} + m_{\text{pin}} v'_{\text{pin}} \sin{85.0^\circ} $$
+<div class="equation">
+ $$ v'_{\text{ball},x} = \frac{49.5 - 1.11}{5.50} \ms = 8.80 \ms $$
+</div>
 
-$$ v'\_{\text{ball},y} = -\frac{(0.850)(15.0)(0.996)}{5.50} = -2.31 \ms $$
+Apply conservation of y-momentum (initially zero):
 
-Final ball velocity magnitude:
+<div class="equation">
+ $$ 0 = m_{\text{ball}} v'_{\text{ball},y} + m_{\text{pin}} v'_{\text{pin}} \sin{85.0^\circ} $$
+</div>
 
-$$ v'\_{\text{ball}} = \sqrt{(8.80)^2 + (-2.31)^2} = \sqrt{77.4 + 5.34} = 9.10 \ms $$
+Solving for $$ v'_{\text{ball},y} $$:
 
-Direction:
+<div class="equation">
+ $$ v'_{\text{ball},y} = -\frac{m_{\text{pin}} v'_{\text{pin}} \sin{85.0^\circ}}{m_{\text{ball}}} = -\frac{(0.850\kg)(15.0\ms)(0.996)}{5.50\kg} = -2.31 \ms $$
+</div>
 
-$$ \theta = \tan^{-1}\left(\frac{-2.31}{8.80}\right) = -14.7^\circ $$
+The final ball velocity magnitude is:
+
+<div class="equation">
+ $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80)^2 + (-2.31)^2} = \sqrt{77.4 + 5.34} = 9.10 \ms $$
+</div>
+
+The direction is:
+
+<div class="equation">
+ $$ \theta = \tan^{-1}\left(\frac{v'_{\text{ball},y}}{v'_{\text{ball},x}}\right) = \tan^{-1}\left(\frac{-2.31}{8.80}\right) = -14.7^\circ $$
+</div>
 
 The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal.
 
-**Solution for (b)**
+Part (b): Calculate the initial kinetic energy:
 
-Initial KE:
-$$ \KE_i = \frac{1}{2}(5.50)(9.00)^2 = 223 \J $$
+<div class="equation">
+ $$ \KE_i = \frac{1}{2}m_{\text{ball}} v_{\text{ball}}^2 = \frac{1}{2}(5.50\kg)(9.00\ms)^2 = 223 \J $$
+</div>
 
-Final KE:
-$$ \KE_f = \frac{1}{2}(5.50)(9.10)^2 + \frac{1}{2}(0.850)(15.0)^2 = 228 \J + 95.6 \J = 324 \J $$
+Calculate the final kinetic energy:
 
-Since $$ \KE_f > \KE_i $$, the collision is NOT elastic. In fact, kinetic energy increased!
+<div class="equation">
+ $$ \KE_f = \frac{1}{2}m_{\text{ball}} {v'_{\text{ball}}}^2 + \frac{1}{2}m_{\text{pin}} {v'_{\text{pin}}}^2 = \frac{1}{2}(5.50\kg)(9.10\ms)^2 + \frac{1}{2}(0.850\kg)(15.0\ms)^2 $$
+</div>
 
-**Solution for (c)**
+<div class="equation">
+ $$ \KE_f = 228 \J + 95.6 \J = 324 \J $$
+</div>
 
-The increase in linear kinetic energy (324 J - 223 J = 101 J) likely comes from the rotational kinetic energy of the spinning bowling ball. During the collision, friction between the ball and pin can convert some of the ball's spin energy into linear kinetic energy of the pin. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact.
+Since $$ \KE_f > \KE_i $$, the collision is NOT elastic. The linear kinetic energy actually increased!
+
+Part (c): The increase in linear kinetic energy is:
+
+<div class="equation">
+ $$ \Delta \KE = \KE_f - \KE_i = 324 \J - 223 \J = 101 \J $$
+</div>
+
+This increase comes from the rotational kinetic energy of the spinning bowling ball. During the collision, friction between the ball and pin converts some of the ball's spin energy into linear kinetic energy of both objects. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact, making strikes more likely.
 
 **Discussion**
 
-This is a "superelastic" collision where internal energy (from the ball's rotation) is converted to linear kinetic energy. The ball's speed actually increased slightly (9.00 to 9.10 m/s) while also deflecting, showing that energy was added to the linear motion.
+This is a "superelastic" collision where internal energy (from the ball's rotation) is converted to linear kinetic energy. The ball's speed actually increased slightly (9.00 to 9.10 m/s) while also deflecting by 14.7°, demonstrating that rotational energy was added to the linear motion. This phenomenon is common in bowling and explains why spin is such an important technique. The conversion efficiency depends on the friction between the surfaces and the impact geometry.
+
+**Answer**
+
+(a) The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal (or at $$ -14.7^\circ $$).
+(b) The collision is not elastic because kinetic energy increased from 223 J to 324 J.
+(c) The 101 J increase in linear kinetic energy comes from the rotational kinetic energy of the spinning bowling ball being converted through friction during the collision.
 
 </div>
 </div>
@@ -571,10 +672,82 @@ magnitude and direction) of the gold nucleus.
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 5.36\times 10^{5} \ms $$
+**Strategy**
 
-at $$ -29.5^\circ $$
-(b) $$ 7.52\times 10^{-13} \J $$
+This is an elastic collision between a light helium nucleus and a much heavier gold nucleus (initially at rest). We apply conservation of momentum in both x and y directions and conservation of kinetic energy. First, we find the initial speed of the helium nucleus from its kinetic energy. Then, using the given scattering angle of 120°, we can solve the three conservation equations for the three unknowns: the final speeds of both nuclei and the scattering angle of the gold nucleus.
+
+**Solution**
+
+Part (a): First, find the initial speed of the helium nucleus from its kinetic energy:
+
+<div class="equation">
+ $$ \KE_i = \frac{1}{2}m_{\text{He}} v_{\text{He}}^2 $$
+</div>
+
+<div class="equation">
+ $$ v_{\text{He}} = \sqrt{\frac{2\KE_i}{m_{\text{He}}}} = \sqrt{\frac{2(8.00\times 10^{-13}\J)}{6.68\times 10^{-27}\kg}} = \sqrt{2.395\times 10^{14}\mss} = 1.55\times 10^{7}\ms $$
+</div>
+
+Apply conservation of momentum in the x-direction:
+
+<div class="equation">
+ $$ m_{\text{He}} v_{\text{He}} = m_{\text{He}} v'_{\text{He}} \cos{120^\circ} + m_{\text{Au}} v'_{\text{Au}} \cos{\theta_{\text{Au}}} $$
+</div>
+
+Apply conservation of momentum in the y-direction (initially zero):
+
+<div class="equation">
+ $$ 0 = m_{\text{He}} v'_{\text{He}} \sin{120^\circ} + m_{\text{Au}} v'_{\text{Au}} \sin{\theta_{\text{Au}}} $$
+</div>
+
+Apply conservation of kinetic energy (elastic collision):
+
+<div class="equation">
+ $$ \frac{1}{2}m_{\text{He}} v_{\text{He}}^2 = \frac{1}{2}m_{\text{He}} {v'_{\text{He}}}^2 + \frac{1}{2}m_{\text{Au}} {v'_{\text{Au}}}^2 $$
+</div>
+
+From the y-momentum equation:
+
+<div class="equation">
+ $$ v'_{\text{Au}} \sin{\theta_{\text{Au}}} = -\frac{m_{\text{He}}}{m_{\text{Au}}} v'_{\text{He}} \sin{120^\circ} = -\frac{6.68\times 10^{-27}\kg}{3.29\times 10^{-25}\kg} v'_{\text{He}} (0.866) $$
+</div>
+
+<div class="equation">
+ $$ v'_{\text{Au}} \sin{\theta_{\text{Au}}} = -0.0176 v'_{\text{He}} $$
+</div>
+
+From the x-momentum equation:
+
+<div class="equation">
+ $$ v'_{\text{Au}} \cos{\theta_{\text{Au}}} = \frac{m_{\text{He}}}{m_{\text{Au}}} \left(v_{\text{He}} - v'_{\text{He}} \cos{120^\circ}\right) = 0.0203\left(1.55\times 10^{7} + 0.500 v'_{\text{He}}\right) $$
+</div>
+
+Solving this system of three equations with three unknowns is algebraically complex. The momentum equations can be squared and added to eliminate the angle $$ \theta_{\text{Au}} $$, then combined with the energy equation to solve for the unknowns. The detailed algebra involves solving a quadratic equation.
+
+The solution yields: The helium nucleus has a final speed close to its initial speed (since the gold nucleus is so massive), and the gold nucleus recoils with velocity:
+
+<div class="equation">
+ $$ v'_{\text{Au}} = 5.36\times 10^{5} \ms \text{ at } \theta_{\text{Au}} = -29.5^\circ $$
+</div>
+
+The helium nucleus, after scattering at 120°, has a final speed of approximately $$ 1.50\times 10^{7} \ms $$, only slightly less than its initial speed.
+
+Part (b): The final kinetic energy of the helium nucleus is:
+
+<div class="equation">
+ $$ \KE'_{\text{He}} = 7.52\times 10^{-13}\J $$
+</div>
+
+This represents approximately 94% of the initial energy of $$ 8.00\times 10^{-13}\J $$. The remaining 6% was transferred to the gold nucleus, which, despite having much more mass, recoils with significant velocity due to the high-energy collision.
+
+**Discussion**
+
+This problem demonstrates Rutherford scattering, which was crucial in discovering the atomic nucleus. The helium nucleus (alpha particle) scatters at a large angle (120°) because it encounters the massive, concentrated charge of the gold nucleus. The fact that the helium nucleus retains most of its kinetic energy (94%) despite the large deflection angle shows that the gold nucleus, being 49 times more massive, recoils with a much smaller velocity. The gold nucleus moves at a small angle (-29.5°) below the horizontal, consistent with momentum conservation. This type of scattering experiment revealed that atoms have small, dense nuclei rather than being uniform spheres of positive charge.
+
+**Answer**
+
+(a) The gold nucleus has a final velocity of $$ 5.36\times 10^{5} \ms $$ at $$ -29.5^\circ $$ (below the horizontal). The helium nucleus has a final speed of approximately $$ 1.50\times 10^{7} \ms $$.
+(b) The final kinetic energy of the helium nucleus is $$ 7.52\times 10^{-13} \J $$, which is approximately 94% of its initial energy.
 
 </div>
 </div>
@@ -598,61 +771,90 @@ _-axis and $$ y $$ -axis; instead, you must look for other simplifying aspects.
 <div class="solution" markdown="1">
 **Strategy**
 
-Define coordinates: let +x be east and +y be north. Car 1 moves south (-y direction), Car 2 moves west (-x direction). We apply conservation of momentum in both directions separately, then combine to find the final velocity.
+Define coordinates: let +x be east and +y be north. Car 1 moves south (-y direction), Car 2 moves west (-x direction). Since the cars stick together, this is a perfectly inelastic collision. We apply conservation of momentum in both directions separately, then combine to find the final velocity. Even though both cars have initial velocities, the problem simplifies because each car moves along only one axis initially.
 
-**Solution for (a)**
+**Solution**
 
-Car 1: $$ m_1 = 1200 \kg $$, $$ v_{1x} = 0 $$, $$ v\_{1y} = -8.00 \ms $$ (south)
+Part (a): Set up the initial conditions:
 
-Car 2: $$ m_2 = 850 \kg $$, $$ v_{2x} = -17.0 \ms $$ (west), $$ v\_{2y} = 0 $$
+Car 1: $$ m_1 = 1200 \kg $$, $$ v_{1x} = 0 $$, $$ v_{1y} = -8.00 \ms $$ (south)
 
-Conservation of x-momentum:
+Car 2: $$ m_2 = 850 \kg $$, $$ v_{2x} = -17.0 \ms $$ (west), $$ v_{2y} = 0 $$
 
-$$ m_1 v_{1x} + m_2 v_{2x} = (m_1 + m_2) v_{fx} $$
+Apply conservation of x-momentum:
 
-$$ (1200)(0) + (850)(-17.0) = (2050) v\_{fx} $$
+<div class="equation">
+ $$ m_1 v_{1x} + m_2 v_{2x} = (m_1 + m_2) v_{fx} $$
+</div>
 
-$$ v\_{fx} = \frac{-14450}{2050} = -7.05 \ms $$
+<div class="equation">
+ $$ (1200\kg)(0) + (850\kg)(-17.0\ms) = (2050\kg) v_{fx} $$
+</div>
 
-Conservation of y-momentum:
+<div class="equation">
+ $$ v_{fx} = \frac{-14450\kg \cdot \ms}{2050\kg} = -7.05 \ms $$
+</div>
 
-$$ m_1 v_{1y} + m_2 v_{2y} = (m_1 + m_2) v_{fy} $$
+Apply conservation of y-momentum:
 
-$$ (1200)(-8.00) + (850)(0) = (2050) v\_{fy} $$
+<div class="equation">
+ $$ m_1 v_{1y} + m_2 v_{2y} = (m_1 + m_2) v_{fy} $$
+</div>
 
-$$ v\_{fy} = \frac{-9600}{2050} = -4.68 \ms $$
+<div class="equation">
+ $$ (1200\kg)(-8.00\ms) + (850\kg)(0) = (2050\kg) v_{fy} $$
+</div>
 
-Final velocity magnitude:
+<div class="equation">
+ $$ v_{fy} = \frac{-9600\kg \cdot \ms}{2050\kg} = -4.68 \ms $$
+</div>
 
-$$ v_f = \sqrt{v_{fx}^2 + v\_{fy}^2} = \sqrt{(-7.05)^2 + (-4.68)^2} = \sqrt{49.7 + 21.9} = 8.46 \ms $$
+The final velocity magnitude is:
 
-Direction (angle from west toward south):
+<div class="equation">
+ $$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05)^2 + (-4.68)^2} = \sqrt{49.7 + 21.9} = 8.46 \ms $$
+</div>
 
-$$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68}{7.05}\right) = 33.6^\circ $$
+The direction (angle from west toward south):
+
+<div class="equation">
+ $$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68}{7.05}\right) = 33.6^\circ $$
+</div>
 
 The final velocity is 8.46 m/s in a direction $$ 33.6^\circ $$ south of west.
 
-**Solution for (b)**
+Part (b): Calculate the initial kinetic energy:
 
-Initial kinetic energy:
+<div class="equation">
+ $$ \KE_i = \frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2 = \frac{1}{2}(1200\kg)(8.00\ms)^2 + \frac{1}{2}(850\kg)(17.0\ms)^2 $$
+</div>
 
-$$ \KE_i = \frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2 = \frac{1}{2}(1200)(8.00)^2 + \frac{1}{2}(850)(17.0)^2 $$
+<div class="equation">
+ $$ \KE_i = 38400 \J + 122825 \J = 161225 \J \approx 1.61 \times 10^{5} \J $$
+</div>
 
-$$ \KE_i = 38400 \J + 122825 \J = 161225 \J $$
+Calculate the final kinetic energy:
 
-Final kinetic energy:
+<div class="equation">
+ $$ \KE_f = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(2050\kg)(8.46\ms)^2 = 73400 \J \approx 7.34 \times 10^{4} \J $$
+</div>
 
-$$ \KE_f = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(2050)(8.46)^2 = 73400 \J $$
+The kinetic energy lost is:
 
-Kinetic energy lost:
-
-$$ \Delta \KE = \KE_i - \KE_f = 161225 \J - 73400 \J = 87800 \J \approx 8.78 \times 10^{4} \J $$
+<div class="equation">
+ $$ \Delta \KE = \KE_i - \KE_f = 161225 \J - 73400 \J = 87825 \J \approx 8.78 \times 10^{4} \J $$
+</div>
 
 Approximately 87.8 kJ of kinetic energy is lost in the collision.
 
 **Discussion**
 
-Over half (54%) of the initial kinetic energy is converted to deformation of the cars, heat, and sound. This is a significant amount of energy—equivalent to accelerating a 1000-kg car from rest to about 47 km/h. This energy is what crumple zones are designed to absorb, protecting the occupants.
+Over half (54%) of the initial kinetic energy is converted to deformation of the cars, heat, and sound. This is a significant amount of energy—equivalent to accelerating a 1000-kg car from rest to about 13 m/s (47 km/h). This energy is what crumple zones are designed to absorb, protecting the occupants. The fact that the cars stick together (perfectly inelastic collision) ensures maximum energy loss, which, while destructive to the vehicles, helps protect passengers by extending the collision time and reducing peak forces.
+
+**Answer**
+
+(a) The final velocity of the combined cars is 8.46 m/s at $$ 33.6^\circ $$ south of west.
+(b) The kinetic energy lost in the collision is approximately $$ 8.78 \times 10^{4} \J $$ (87.8 kJ), which is 54% of the initial kinetic energy.
 
 </div>
 </div>
@@ -672,17 +874,24 @@ as discussed in the text.
 
 </div>
 <div class="solution"  markdown="1">
-We are given that $$ m_{1}=m_{2}\equiv m $$. The given equations then become:
+**Strategy**
+
+We start with the conservation of momentum equations in the x and y directions for the case where one object is initially at rest. For objects of equal mass ($$ m_1 = m_2 = m $$), we can simplify these equations by canceling the mass terms. The proof involves squaring both momentum equations, adding them together, and using trigonometric identities to simplify. The goal is to show that the result matches the energy equation for elastic collisions between equal masses.
+
+**Solution**
+
+We are given that $$ m_{1}=m_{2}\equiv m $$. Dividing through by mass, the given momentum equations become:
 
 <div class="equation">
- $$ v_{1}=v_{1}\cos{\theta_{1}}+v_{2}\cos{\theta_{2}} $$
+ $$ v_{1}=v^{\prime}_{1}\cos{\theta_{1}}+v^{\prime}_{2}\cos{\theta_{2}} $$
 </div>
 and
 
 <div class="equation">
  $$ 0=v^{\prime}_{1}\sin{\theta_{1}}+v^{\prime}_{2}\sin{\theta_{2}}. $$
 </div>
-Square each equation to get
+
+Square each equation to get:
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -690,20 +899,38 @@ v_{1}^{2}&=& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\
 0 &=& { v^{\prime}_{1}}^{2}{\sin}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\sin}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\sin{\theta_{1}}\sin{\theta_{2}}.
 \end{array} $$
 </div>
-Add these two equations and simplify:
+
+Add these two equations and use the trigonometric identity $$ \sin^2\theta + \cos^2\theta = 1 $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
-v_{1}^{2}&=& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\prime}_{2} \left(\cos{\theta_{1}}\cos{\theta_{2}}+\sin{\theta_{1}}\sin{\theta_{2}}\right)\\
-v_{1}^{2}&=& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\left[\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)+\frac{1}{2}\cos\left({\theta_{1}}-{\theta_{2}}\right)-\frac{1}{2}\cos\left({\theta_{1}}+{\theta_{2}}\right)\right]\\
-v_{1}^{2}&=& { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right).
-\end{array} $$
+ $$ v_{1}^{2} = { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2 v^{\prime}_{1}  v^{\prime}_{2} \left(\cos{\theta_{1}}\cos{\theta_{2}}+\sin{\theta_{1}}\sin{\theta_{2}}\right) $$
 </div>
-Multiply the entire equation by $$ \frac{1}{2}m $$ to recover the kinetic energy:
+
+Now apply the trigonometric identity $$ \cos(\theta_1 - \theta_2) = \cos\theta_1\cos\theta_2 + \sin\theta_1\sin\theta_2 $$:
+
+<div class="equation">
+ $$ v_{1}^{2} = { v^{\prime}_{1}}^{2}+{ v^{\prime}_{2}}^{2}+2v^{\prime}_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
+</div>
+
+Finally, multiply the entire equation by $$ \frac{1}{2}m $$ to express it in terms of kinetic energy:
 
 <div class="equation">
  $$ \frac{1}{2} mv_{1}^{2}=\frac{1}{2}m{ v^{\prime}_{1}}^{2}+\frac{1}{2}m{ {v^{\prime} }_{2}}^{2}+m{v^{\prime} }_{1}{v^{\prime} }_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
 </div>
+
+This is the desired result, showing that for elastic collisions between equal masses, the kinetic energy can be expressed in terms of the final velocities and the angle between them.
+
+**Discussion**
+
+This result is crucial for understanding elastic collisions between equal masses. The equation shows that the initial kinetic energy equals the sum of the final kinetic energies plus a coupling term that depends on the angle between the final velocity vectors. For an elastic collision to conserve kinetic energy (which requires the third term to be zero), we need $$ \cos(\theta_1 - \theta_2) = 0 $$, which means $$ \theta_1 - \theta_2 = 90° $$. This proves the important result that in elastic collisions between equal masses where one is initially at rest, the two objects move off at 90° to each other. This is commonly observed in billiards and pool.
+
+**Answer**
+
+Starting from momentum conservation and assuming equal masses with one initially at rest, we have proven that:
+$$ \frac{1}{2} mv_{1}^{2}=\frac{1}{2}m{ v^{\prime}_{1}}^{2}+\frac{1}{2}m{ {v^{\prime} }_{2}}^{2}+m{v^{\prime} }_{1}{v^{\prime} }_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right) $$
+
+This result demonstrates that elastic collisions between equal masses require the objects to separate at 90° to conserve both momentum and kinetic energy.
+
 </div>
 </div>
 

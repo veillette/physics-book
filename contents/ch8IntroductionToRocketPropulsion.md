@@ -422,9 +422,9 @@ acceleration due to gravity is negligible.
 
 For part (a), use the rocket velocity equation. For part (b), use the rocket acceleration equation with gravity negligible. Ion propulsion achieves extremely high exhaust velocities, enabling significant velocity changes with minimal fuel mass.
 
-**Solution for (a)**
+**Solution**
 
-Given:
+**(a)** Given:
 
 - Initial mass: $$ m_0 = 20\,000 \kg $$
 - Mass expelled: $$ \Delta m = 40.0 \kg $$
@@ -437,27 +437,21 @@ $$ \Delta v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 $$ \Delta v = (8.00 \times 10^{6} \ms) \ln\left(\frac{20\,000}{19\,960}\right) $$
 
-$$ \Delta v = (8.00 \times 10^{6} \ms) \ln(1.002) $$
-
-$$ \Delta v = (8.00 \times 10^{6} \ms)(0.002) = 1.60 \times 10^{4} \ms $$
+$$ \Delta v = (8.00 \times 10^{6} \ms) \ln(1.002) = (8.00 \times 10^{6} \ms)(0.002) = 1.60 \times 10^{4} \ms $$
 
 The velocity increase is $$ 1.60 \times 10^{4} \ms $$ (16 km/s) from expelling only 40 kg of propellant.
 
-**Solution for (b)**
-
-Given:
+**(b)** Given:
 
 - Mass expulsion rate: $$ \frac{\Delta m}{\Delta t} = 4.50 \times 10^{-6} \text{ kg/s} $$
 - Exhaust velocity: $$ v\_{\text{e}} = 8.00 \times 10^{6} \ms $$
 - Mass: $$ m \approx 20\,000 \kg $$ (approximately constant at this rate)
 
-With negligible gravity:
+With negligible gravity, the rocket acceleration equation becomes:
 
 $$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
-$$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) $$
-
-$$ a = (400 \text{ m/kg})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
+$$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) = (400 \text{ m/kg})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
 
 The acceleration is $$ 1.80 \times 10^{-3} \mss $$ (about 0.18 mm/s²).
 
@@ -474,16 +468,49 @@ Derive the equation for the vertical acceleration of a rocket.
 
 </div>
 <div class="solution"  markdown="1">
-The force needed to give a small mass $$ \Delta m $$
-an acceleration $$ a_{\Delta m} $$ is $$ F=\Delta m a_{\Delta m} $$. To
-accelerate this mass in the small time interval $$ \Delta t $$ at a speed $$ v_
-{\text{e}} $$ requires $$ v_{\text{e}}= a_{\Delta m}\Delta t $$, so $$ F=v_
-{\text{e}}\frac{ \Delta m}{\Delta t} $$. By Newton’s third law, this force is
-equal in magnitude to the thrust force acting on the rocket, so $$ F_
-{\text{thrust}}=v_{\text{e}}\frac{ \Delta m}{\Delta t} $$, where all quantities
-are positive. Applying Newton’s second law to the rocket gives $$ F_
-{\text{thrust}}-m g =ma ⇒a=\frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g
-$$, where $$ m $$ is the mass of the rocket and unburnt fuel.
+**Strategy**
+
+To derive the rocket acceleration equation, we analyze the forces on the ejected gas and apply Newton's third law to find the thrust force on the rocket. Then we apply Newton's second law to the rocket, accounting for both the thrust force (upward) and gravitational force (downward).
+
+**Solution**
+
+Consider a small mass $$ \Delta m $$ of gas ejected in a small time interval $$ \Delta t $$. The force needed to give this mass an acceleration $$ a_{\Delta m} $$ is:
+
+$$ F = \Delta m a_{\Delta m} $$
+
+To accelerate this mass to the exhaust velocity $$ v_{\text{e}} $$ in time $$ \Delta t $$ requires:
+
+$$ v_{\text{e}} = a_{\Delta m} \Delta t $$
+
+Therefore:
+
+$$ a_{\Delta m} = \frac{v_{\text{e}}}{\Delta t} $$
+
+Substituting this into the force equation:
+
+$$ F = \Delta m \cdot \frac{v_{\text{e}}}{\Delta t} = v_{\text{e}} \frac{\Delta m}{\Delta t} $$
+
+By Newton's third law, this force is equal in magnitude to the thrust force acting on the rocket:
+
+$$ F_{\text{thrust}} = v_{\text{e}} \frac{\Delta m}{\Delta t} $$
+
+where all quantities are positive. Now applying Newton's second law to the rocket of mass $$ m $$, we must account for both the upward thrust force and the downward gravitational force $$ mg $$:
+
+$$ F_{\text{thrust}} - mg = ma $$
+
+Substituting the expression for thrust:
+
+$$ v_{\text{e}} \frac{\Delta m}{\Delta t} - mg = ma $$
+
+Solving for the acceleration:
+
+$$ a = \frac{v_{\text{e}}}{m} \frac{\Delta m}{\Delta t} - g $$
+
+This is the equation for the vertical acceleration of a rocket, where $$ m $$ is the mass of the rocket and unburnt fuel.
+
+**Discussion**
+
+This equation shows that rocket acceleration depends on three factors: (1) the exhaust velocity $$ v_{\text{e}} $$, (2) the rate of mass ejection $$ \Delta m / \Delta t $$, and (3) the rocket's current mass $$ m $$, minus the constant gravitational acceleration $$ g $$. As fuel burns, $$ m $$ decreases, causing the acceleration to increase even if the thrust remains constant. The negative $$ g $$ term shows that gravity opposes the rocket's acceleration; in deep space where $$ g \approx 0 $$, the rocket would achieve higher acceleration with the same thrust.
 
 </div>
 </div>
@@ -504,11 +531,11 @@ on Earth's surface $$ \left( 9.80\mss \right) $$.
 <div class="solution" markdown="1">
 **Strategy**
 
-For part (a), use the rocket acceleration equation and solve for the mass expulsion rate, setting the acceleration to 7g (seven times gravitational acceleration).
+For part (a), use the rocket acceleration equation and solve for the mass expulsion rate, setting the acceleration to 7g (seven times gravitational acceleration). For part (b), consider the physical and physiological limitations that would necessitate limiting acceleration.
 
-**Solution for (a)**
+**Solution**
 
-Given:
+**(a)** Given:
 
 - Maximum acceleration: $$ a\_{\max} = 7g = 7(9.80 \mss) = 68.6 \mss $$
 - Mass at fuel exhaustion: $$ m = 75\,000 \kg $$
@@ -527,15 +554,11 @@ $$ \frac{\Delta m}{\Delta t} = \frac{m(a + g)}{v\_{\text{e}}} $$
 
 The maximum acceleration occurs when mass is minimum (just as fuel runs out):
 
-$$ \frac{\Delta m}{\Delta t} = \frac{(75\,000 \kg)(68.6 + 9.80) \mss}{2.40 \times 10^{3} \ms} $$
-
-$$ \frac{\Delta m}{\Delta t} = \frac{(75\,000 \kg)(78.4 \mss)}{2.40 \times 10^{3} \ms} = 2.45 \times 10^{3} \text{ kg/s} $$
+$$ \frac{\Delta m}{\Delta t} = \frac{(75\,000 \kg)(68.6 + 9.80) \mss}{2.40 \times 10^{3} \ms} = \frac{(75\,000 \kg)(78.4 \mss)}{2.40 \times 10^{3} \ms} = 2.45 \times 10^{3} \text{ kg/s} $$
 
 The maximum mass expulsion rate is $$ 2.45 \times 10^{3} \text{ kg/s} $$ (about 2450 kg/s).
 
-**Solution for (b)**
-
-Limiting acceleration is necessary because:
+**(b)** Limiting acceleration is necessary because:
 
 1. **Structural integrity**: High accelerations create enormous forces on the rocket structure. At 7g, every component experiences forces 7 times its weight.
 
@@ -647,11 +670,11 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 <div class="solution" markdown="1">
 **Strategy**
 
-For part (a), use conservation of momentum to find the initial recoil velocity, then account for the friction force acting over the ejection time. For part (b), calculate the work done against friction using the average velocity and distance traveled.
+For part (a), use conservation of momentum to find the initial recoil velocity, then account for the friction force acting over the ejection time using the impulse-momentum theorem. For part (b), calculate the work done against friction using the distance traveled and the friction force.
 
-**Solution for (a)**
+**Solution**
 
-First, find the recoil velocity without friction using conservation of momentum:
+**(a)** First, find the recoil velocity without friction using conservation of momentum:
 
 $$ 0 = m_{\text{squid}} v_{\text{squid}} + m_{\text{fluid}} v_{\text{fluid}} $$
 
@@ -661,33 +684,25 @@ Now account for friction. The impulse from friction over the ejection time:
 
 $$ J_{\text{friction}} = F_{\text{friction}} \cdot \Delta t = (5.00 \N)(0.100 \s) = 0.500 \N \cdot \s $$
 
-This impulse opposes motion, so it reduces the momentum:
+This impulse opposes motion, so it reduces the momentum. Change in velocity from friction (using average mass during ejection: $$ m\_{\text{avg}} \approx 4.75 \kg $$):
 
-$$ \Delta p = -0.500 \kg \cdot \ms $$
-
-Change in velocity from friction:
-
-$$ \Delta v = \frac{\Delta p}{m\_{\text{squid}}} = \frac{-0.500 \kg \cdot \ms}{4.75 \kg} = -0.105 \ms $$
-
-(Using average mass during ejection: $$ m\_{\text{avg}} \approx 4.75 \kg $$)
+$$ \Delta v = \frac{J_{\text{friction}}}{m\_{\text{avg}}} = \frac{0.500 \N \cdot \s}{4.75 \kg} = 0.105 \ms $$
 
 Final recoil velocity:
 
-$$ v\_{\text{final}} = 0.500 - 0.105 = 0.395 \ms \approx 0.421 \ms $$
+$$ v\_{\text{final}} = 0.500 - 0.105 = 0.395 \ms $$
 
-The squid recoils at approximately 0.421 m/s away from the ejected fluid.
+The squid recoils at approximately $$ 0.40 \ms $$ away from the ejected fluid.
 
-**Solution for (b)**
+**(b)** Distance traveled during ejection (using average velocity):
 
-Distance traveled during ejection (using average velocity):
-
-$$ d = v\_{\text{avg}} \cdot t = \left(\frac{0 + 0.421}{2}\right)(0.100 \s) = 0.0211 \m $$
+$$ d = v\_{\text{avg}} \cdot t = \left(\frac{0 + 0.395}{2}\right)(0.100 \s) = 0.0198 \m $$
 
 Work done against friction:
 
-$$ W = F \cdot d = (5.00 \N)(0.0211 \m) = 0.106 \J $$
+$$ W = F \cdot d = (5.00 \N)(0.0198 \m) = 0.099 \J $$
 
-Alternatively, using energy conservation gives approximately $$ 0.237 \J $$ when accounting for the kinetic energy difference and the detailed motion profile.
+Approximately $$ 0.10 \J $$ of energy is lost to work done against friction.
 
 **Discussion**
 
@@ -717,27 +732,21 @@ neglected.
 <div class="solution" markdown="1">
 **Strategy**
 
-For part (a), use projectile motion to find the launch speed from the range and angle. For part (b), use the rocket equation to find what fraction of mass must be ejected.
+For part (a), use projectile motion equations to find the launch speed from the given range and angle. For part (b), use the rocket velocity equation to determine what fraction of mass must be ejected. For parts (c) and (d), analyze the physical reasonableness of the results and identify problematic assumptions.
 
-**Solution for (a)**
+**Solution**
 
-The projectile range formula for launch and landing at the same height:
+**(a)** The projectile range formula for launch and landing at the same height is:
 
 $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 
-Solve for initial speed:
+Solving for initial speed:
 
-$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} $$
+$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} = \sqrt{\frac{294}{0.643}} = \sqrt{457} = 21.4 \ms $$
 
-$$ v_0 = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} $$
+The squid would need an initial speed of approximately $$ 21.4 \ms $$ (about 77 km/h or 48 mph).
 
-$$ v_0 = \sqrt{\frac{294}{0.643}} = \sqrt{457} = 21.4 \ms $$
-
-The squid would need an initial speed of approximately 21.4 m/s (about 77 km/h or 48 mph).
-
-**Solution for (b)**
-
-Using the rocket equation with negligible gravity and friction:
+**(b)** Using the rocket velocity equation with negligible gravity and friction:
 
 $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
@@ -751,23 +760,19 @@ Fraction ejected:
 
 $$ \frac{m_{\text{ejected}}}{m_0} = 1 - \frac{m_{\text{r}}}{m_0} = 1 - \frac{1}{5.93} = 0.831 $$
 
-The squid would need to eject 83.1% of its body mass to achieve this velocity.
+The squid would need to eject $$ 83.1\% $$ of its body mass to achieve this velocity.
 
-**Solution for (c)**
+**(c)** The unreasonable result is that a squid would need to eject 83% of its body mass. Squids typically can only eject about 10-20% of their body mass as water from their mantle cavity. Additionally, $$ 21.4 \ms $$ (77 km/h) is an extremely high speed for any marine animal to achieve through jet propulsion.
 
-The unreasonable result is that a squid would need to eject 83% of its body mass. Squids typically can only eject about 10-20% of their body mass as water. Additionally, 21.4 m/s (77 km/h) is an extremely high speed for any marine animal.
-
-**Solution for (d)**
-
-The unreasonable premises are:
+**(d)** The unreasonable premises are:
 
 1. The reported 30 m horizontal distance is likely exaggerated or measured incorrectly. Real squid jumps are typically 2-5 meters.
 
-2. The 20° launch angle may be inaccurate; squids likely leave the water at steeper angles.
+2. The $$ 20^\circ $$ launch angle may be inaccurate; squids likely leave the water at steeper angles (closer to $$ 45^\circ $$ for maximum range).
 
 3. Ignoring air resistance is problematic—at these speeds, air resistance would significantly reduce the range.
 
-4. The exhaust velocity of 12 m/s may be too low; actual jet speeds in squids can be higher (up to 25 m/s in some species).
+4. The exhaust velocity of $$ 12.0 \ms $$ may be too low; actual jet speeds in squids can be higher (up to 25 m/s in some species), which would reduce the required mass fraction but still not make the scenario realistic.
 
 **Discussion**
 
@@ -790,6 +795,57 @@ involved, the force she can exert on the packages through some distance, and the
 distance to the ship.
 
 </div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem requires applying conservation of momentum and the rocket equation to compare two strategies: throwing all packages simultaneously versus throwing them sequentially. Use realistic values for astronaut mass, package masses, throwing speed, and distance to the spacecraft.
+
+**Solution**
+
+**Sample Problem Construction:**
+
+An 80-kg astronaut (in a space suit) is floating 15 m from her spacecraft with zero initial velocity. She has three 5.0-kg packages that she can throw. She can exert enough force on each package to give it a speed of 8.0 m/s relative to her current velocity.
+
+**(a)** If she throws all three packages (bundled together as a 15-kg mass) at once, what velocity does she acquire?
+
+Using conservation of momentum:
+
+$$ m_{\text{astronaut}} v_{\text{astronaut}} = -m_{\text{packages}} v_{\text{packages}} $$
+
+$$ v_{\text{astronaut}} = -\frac{(15 \kg)(8.0 \ms)}{80 \kg} = -1.5 \ms $$
+
+Time to reach ship:
+
+$$ t = \frac{d}{v} = \frac{15 \m}{1.5 \ms} = 10 \s $$
+
+**(b)** If she throws the packages one at a time, her velocity increases after each throw. This is analogous to a multi-stage rocket.
+
+After throwing first package:
+
+$$ v_1 = -\frac{(5.0 \kg)(8.0 \ms)}{80 \kg} = -0.50 \ms $$
+
+After throwing second package (now her mass is 75 kg, and the package speed is 8.0 m/s relative to her):
+
+$$ (75 \kg)(v_2 - v_1) = -(5.0 \kg)(8.0 \ms) $$
+
+$$ v_2 = v_1 - \frac{40}{75} = -0.50 - 0.533 = -1.03 \ms $$
+
+After throwing third package (mass now 70 kg):
+
+$$ (70 \kg)(v_3 - v_2) = -(5.0 \kg)(8.0 \ms) $$
+
+$$ v_3 = v_2 - \frac{40}{70} = -1.03 - 0.571 = -1.60 \ms $$
+
+Time to reach ship:
+
+$$ t \approx \frac{15 \m}{1.60 \ms} = 9.4 \s $$
+
+**Discussion**
+
+Throwing packages one at a time is more efficient, similar to multi-stage rockets. Each successive throw builds on the previous velocity, resulting in a higher final speed (1.60 m/s vs 1.5 m/s) and shorter return time (9.4 s vs 10 s). This demonstrates why rockets use staging—ejecting mass in stages is more effective than ejecting it all at once. Students should construct similar problems varying the number of packages, their masses, the throwing speed, and the distance to explore how these factors affect the efficiency of the two strategies.
+
+</div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -803,6 +859,55 @@ things to be considered are the mass and speed of the projectile and the
 distance over which its speed is reduced. Your instructor may also wish for you
 to consider the relative merits of depleted uranium versus lead projectiles
 based on the greater density of uranium.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+This problem involves applying the impulse-momentum theorem and the work-energy theorem to calculate the force exerted during impact. Consider realistic values for projectile mass, velocity, armor penetration depth, and material properties. Compare depleted uranium (density $$ 19.1 \text{ g/cm}^3 $$) to lead (density $$ 11.3 \text{ g/cm}^3 $$) projectiles.
+
+**Solution**
+
+**Sample Problem Construction:**
+
+A tank fires an armor-piercing projectile at an enemy tank. Compare two scenarios:
+(a) A depleted uranium projectile
+(b) A lead projectile of the same dimensions
+
+Both projectiles are cylindrical with diameter 30 mm and length 150 mm, fired at 1500 m/s. The armor plate is 60 mm thick steel that brings the projectile to rest.
+
+**(a) Depleted Uranium Projectile:**
+
+Calculate mass (density = $$ 19\,100 \text{ kg/m}^3 $$):
+
+$$ V = \pi r^2 h = \pi (0.015)^2(0.150) = 1.06 \times 10^{-4} \text{ m}^3 $$
+
+$$ m = \rho V = (19\,100)(1.06 \times 10^{-4}) = 2.02 \kg $$
+
+Using the work-energy theorem, where the projectile penetrates distance $$ d = 0.060 \m $$:
+
+$$ F \cdot d = \frac{1}{2}mv^2 $$
+
+$$ F = \frac{mv^2}{2d} = \frac{(2.02 \kg)(1500 \ms)^2}{2(0.060 \m)} = 3.79 \times 10^{7} \N $$
+
+Average force: $$ 37.9 \text{ MN} $$ (about 3860 tons-force)
+
+**(b) Lead Projectile:**
+
+Mass (density = $$ 11\,300 \text{ kg/m}^3 $$):
+
+$$ m = (11\,300)(1.06 \times 10^{-4}) = 1.20 \kg $$
+
+Average force:
+
+$$ F = \frac{(1.20 \kg)(1500 \ms)^2}{2(0.060 \m)} = 2.25 \times 10^{7} \N $$
+
+Average force: $$ 22.5 \text{ MN} $$ (about 2290 tons-force)
+
+**Discussion**
+
+The depleted uranium projectile exerts 68% more force than the lead projectile due to its higher density and mass. Additionally, depleted uranium's higher hardness (stronger than steel) means it deforms less during impact, maintaining its shape better for penetration. Lead, being softer, would deform and flatten more, reducing penetration effectiveness. This is why depleted uranium is preferred for armor-piercing ammunition despite being more expensive. Students should construct problems varying the projectile dimensions, velocity, armor thickness, and materials to understand the factors affecting armor penetration. They might also consider the momentum and impulse during impact, or calculate the deceleration forces experienced.
 
 </div>
 </div>
