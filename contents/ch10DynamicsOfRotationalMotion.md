@@ -869,6 +869,53 @@ I_\text{end}= I_{\text{center}}+m \left(\frac{l}{2}\right)^{2}\\
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
+<parameter name="problem" markdown="1">
+
+Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
+$$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
+center perpendicular to its length is $$I= M\ell^{2}/12 $$.
+You will find the graphics in [Figure 3](#Figure3) useful in visualizing
+these rotations.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We can use the parallel axis theorem to relate the moment of inertia about an axis through the end of the rod to the moment of inertia about an axis through the center. The parallel axis theorem states that $$ I = I_{\text{center}} + Md^2 $$, where d is the distance between the parallel axes. For a rod of length ℓ, the distance from the center to the end is ℓ/2.
+
+**Solution**
+
+Applying the parallel axis theorem to relate rotation about the end to rotation about the center:
+
+<div class="equation">
+$$ I_{\text{end}} = I_{\text{center}} + M\left(\frac{\ell}{2}\right)^2 $$
+</div>
+
+We know that $$ I_{\text{end}} = \frac{1}{3}M\ell^2 $$, so:
+
+<div class="equation">
+$$ \frac{1}{3}M\ell^2 = I_{\text{center}} + M\left(\frac{\ell}{2}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ \frac{1}{3}M\ell^2 = I_{\text{center}} + \frac{1}{4}M\ell^2 $$
+</div>
+
+Solving for $$ I_{\text{center}} $$:
+
+<div class="equation">
+$$ I_{\text{center}} = \frac{1}{3}M\ell^2 - \frac{1}{4}M\ell^2 = \frac{4M\ell^2 - 3M\ell^2}{12} = \frac{1}{12}M\ell^2 $$
+</div>
+
+**Discussion**
+
+This result makes physical sense: the moment of inertia about the center (I = Mℓ²/12) is smaller than about the end (I = Mℓ²/3) because mass is distributed closer to the rotation axis when rotating about the center. The parallel axis theorem is a powerful tool that allows us to calculate moments of inertia about different axes without performing complex integrations. This relationship between Mℓ²/3 and Mℓ²/12 appears frequently in physics problems involving rotating rods.
+
+</div>
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 
 **Unreasonable Results**
