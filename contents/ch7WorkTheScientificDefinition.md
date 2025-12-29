@@ -231,7 +231,11 @@ Converting to kilocalories:
 
 **Discussion**
 
-The supermarket attendant does 3.00 J of work on the can of soup, which equals $$ 7.17 \times 10^{-4} $$ kcal. This is a very small amount of energy—less than one-thousandth of a food Calorie—which makes sense for the minimal effort required to slide a can along a checkout counter.
+The work done is 3.00 J, which is a very small amount of energy. To put this in perspective, converting to kilocalories gives $$ 7.17 \times 10^{-4} $$ kcal, which is less than one-thousandth of a food Calorie. This makes sense for the minimal effort required to slide a can along a checkout counter. The force applied (5.00 N) is about the weight of a 500-gram object, and the distance (0.600 m) is less than the length of an arm. Such a small amount of work would barely register as physical exertion for a person, which aligns with our everyday experience of pushing items at a checkout counter.
+
+**Answer**
+
+The checkout attendant does **3.00 J** of work on the can of soup, which is equivalent to **$$ 7.17 \times 10^{-4} $$ kcal**.
 
 </div>
 </div>
@@ -267,7 +271,11 @@ W &=& 1838\J \approx 1.84\times 10^{3}\J
 
 **Discussion**
 
-The work done to climb stairs is 1840 J, which represents the gravitational potential energy gained by the person.
+The work done to climb stairs is 1840 J, which represents the gravitational potential energy gained by the person. This is about 600 times more energy than pushing a can across a checkout counter (Problem 1). The result is reasonable because lifting a 75-kg person (about 165 lbs) through a height of 2.50 m requires significant work against gravity. This amount of energy (approximately 0.44 kcal) is still quite small compared to daily food intake, but climbing stairs repeatedly would add up—climbing 10 flights of similar height would consume about 4.4 kcal. The work done increases linearly with both the mass of the person and the height climbed.
+
+**Answer**
+
+The work done to lift the person climbing stairs is **$$ 1.84 \times 10^{3} $$ J** (or **1840 J**).
 
 </div>
 </div>
@@ -281,11 +289,73 @@ The work done to climb stairs is 1840 J, which represents the gravitational pote
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ 5.92\times 10^{5} \J $$
 
-(b) $$ -5.88\times 10^{5} \J $$
+**Strategy**
 
-(c) The net force is zero.
+At constant speed, the net force is zero. The cable must pull upward with a force equal to the weight of the elevator plus the friction force. For part (a), we calculate the work done by the cable using $$ W = Fd $$. For part (b), gravity does negative work since it acts downward while the displacement is upward. For part (c), we sum all work done on the elevator.
+
+**Solution**
+
+**Part (a): Work done by the cable**
+
+At constant speed, the upward tension force equals the downward forces (weight plus friction):
+
+<div class="equation">
+ $$ T = mg + f = (1500\kg)(9.80\mss) + 100\N = 14700\N + 100\N = 14800\N $$
+</div>
+
+The work done by the cable (force and displacement in same direction):
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W_{\text{cable}} &=& Td = (14800\N)(40.0\m)\\
+W_{\text{cable}} &=& 5.92\times 10^{5}\J
+\end{array} $$
+</div>
+
+**Part (b): Work done by gravity**
+
+The gravitational force is $$ F_g = mg = 14700\N $$ acting downward, opposite to the upward displacement ($$\theta = 180^\circ$$):
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W_{\text{gravity}} &=& mgd\cos{180^\circ} = -mgd\\
+W_{\text{gravity}} &=& -(1500\kg)(9.80\mss)(40.0\m)\\
+W_{\text{gravity}} &=& -5.88\times 10^{5}\J
+\end{array} $$
+</div>
+
+**Part (c): Total work done**
+
+The total work includes work by cable, gravity, and friction. The friction force opposes motion (acts downward), so:
+
+<div class="equation">
+ $$ W_{\text{friction}} = -fd = -(100\N)(40.0\m) = -4000\J $$
+</div>
+
+The total work is:
+
+<div class="equation">
+ $$ \begin{array}{lll}
+W_{\text{total}} &=& W_{\text{cable}} + W_{\text{gravity}} + W_{\text{friction}}\\
+W_{\text{total}} &=& 5.92\times 10^{5}\J - 5.88\times 10^{5}\J - 4.00\times 10^{3}\J\\
+W_{\text{total}} &=& (5.92 - 5.88 - 0.04)\times 10^{5}\J = 0\J
+\end{array} $$
+</div>
+
+**Discussion**
+
+The cable does positive work ($$5.92\times 10^{5}$$ J) to lift the elevator, while gravity does an almost equal amount of negative work ($$-5.88\times 10^{5}$$ J). Friction does a relatively small amount of negative work ($$-4000$$ J). The total work done on the elevator is zero, which is consistent with the elevator moving at constant speed—there is no change in kinetic energy.
+
+This problem illustrates that even though significant forces act and significant work is done by individual forces, the net work can be zero when an object moves at constant velocity. The cable must do extra work (4000 J) beyond what's needed just to lift the elevator, to overcome the frictional forces. Of the 592,000 J of work done by the cable, 588,000 J goes into increasing the gravitational potential energy of the elevator, while 4000 J is dissipated by friction.
+
+**Answer**
+
+(a) The cable does **$$ 5.92\times 10^{5} $$ J** of work on the elevator.
+
+(b) Gravity does **$$ -5.88\times 10^{5} $$ J** of work on the elevator.
+
+(c) The total work done on the elevator is **0 J** (consistent with constant speed motion).
 
 </div>
 </div>
@@ -364,8 +434,15 @@ The number of gallons required is:
 
 **Discussion**
 
-(a) The force needed to keep the car moving at constant speed against friction is 670 N.
-(b) At the lower speed of 28.0 m/s, approximately 1.9 gallons of gasoline would be used to travel the same distance.
+The force required to overcome friction and keep the car moving at constant speed is 667 N (about 150 lbs). This seems reasonable for highway driving—it's the combined effect of air resistance and rolling friction. The fact that only 30% of the gasoline's energy goes into useful work reflects the inherent inefficiency of internal combustion engines, with the remaining 70% lost as heat.
+
+For part (b), driving at a slower speed (28.0 m/s instead of 30.0 m/s) reduces the required force proportionally, resulting in less fuel consumption (1.9 gal instead of 2.0 gal). This 6.7% reduction in speed leads to a 5% reduction in fuel consumption, demonstrating that driving slower can improve fuel efficiency. The savings would be even more dramatic at highway speeds where air resistance increases as the square of velocity, but this problem assumes a simpler linear relationship between force and speed.
+
+**Answer**
+
+(a) The magnitude of the force exerted to keep the car moving at constant speed is **667 N** (or **$$ 6.7 \times 10^{2} $$ N**).
+
+(b) At the lower speed of 28.0 m/s, approximately **1.9 gallons** of gasoline will be used to drive 108 km.
 
 </div>
 </div>
@@ -421,6 +498,14 @@ W_{\text{total}} &=& 2000\J + 1141\J = 3141\J \approx 3.14 \times 10^{3}\J
 
 The man does a total of 3140 J of work. About 64% of this (2000 J) goes into pushing the crate up the ramp, while 36% (1140 J) goes into lifting his own body mass against gravity. This demonstrates that when pushing objects uphill, a significant portion of the effort goes into lifting one's own body weight.
 
+The result is reasonable: climbing 1.37 m vertically while pushing a heavy crate requires substantial energy. If the man's mass were comparable to the crate's mass, the work to lift himself would be comparable to the work on the crate. The total energy of 3140 J is about 0.75 kcal, which is a small but noticeable expenditure of energy—roughly equivalent to the energy in a single potato chip.
+
+This problem illustrates an important practical consideration: when moving heavy objects up inclines, workers expend significant energy just moving themselves, not only the object. This is why ramps at gentler angles (smaller $$\theta$$) can be advantageous—they reduce the vertical height gained per unit distance, though requiring longer travel.
+
+**Answer**
+
+The man does a total of **3140 J** (or **$$ 3.14 \times 10^{3} $$ J**) of work, consisting of 2000 J on the crate and 1140 J on his own body.
+
 </div>
 </div>
 </div>
@@ -455,7 +540,13 @@ W &=& 1299\J \approx 1.30 \times 10^{3}\J
 
 **Discussion**
 
-The boy does 1300 J of work pulling his sister in the wagon over a distance of 30.0 m.
+The boy does 1300 J of work pulling his sister in the wagon over a distance of 30.0 m. Only the horizontal component of the pulling force ($$F\cos{30.0^\circ} = 43.3\N$$) does work; the vertical component lifts slightly on the wagon but doesn't contribute to horizontal displacement.
+
+This is a good example of how the angle of applied force affects work. If the boy pulled horizontally ($$\theta = 0^\circ$$), he would do $$ (50.0\N)(30.0\m) = 1500\J $$ of work with the same force magnitude. By pulling at 30° above horizontal, he does only 1300 J of work—about 87% as much. However, pulling upward at an angle has the practical advantage of reducing the normal force on the wagon wheels, which would reduce friction if friction were present. Since this problem states there's no friction, pulling horizontally would be most efficient for doing work.
+
+**Answer**
+
+The boy does **1300 J** (or **$$ 1.30 \times 10^{3} $$ J**) of work pulling the wagon.
 
 </div>
 </div>
@@ -525,11 +616,25 @@ The total work is the sum of all work done:
 
 **Discussion**
 
-(a) Friction does -700 J of work on the cart.
-(b) Gravity does no work because it's perpendicular to the motion.
-(c) The shopper does 700 J of work on the cart.
-(d) The shopper exerts a force of 38.6 N at $$25.0^\circ$$ below horizontal.
-(e) The total work is zero, consistent with the cart moving at constant speed (no change in kinetic energy).
+This problem illustrates several important concepts about work and energy. First, gravity does no work on the cart because the gravitational force is perpendicular to the horizontal displacement—this is why carrying a suitcase horizontally doesn't require you to do work against gravity (though your muscles still work internally to maintain the upward force).
+
+Second, the shopper does positive work (700 J) while friction does an equal amount of negative work (-700 J), resulting in zero net work. This is consistent with the work-energy theorem: since the cart moves at constant speed, its kinetic energy doesn't change, so the net work must be zero.
+
+Third, notice that the shopper must exert 38.6 N at an angle to overcome only 35.0 N of friction. This is because only the horizontal component of the shopper's force ($$38.6\N \times \cos{25.0^\circ} = 35.0\N$$) counteracts friction. The vertical component ($$38.6\N \times \sin{25.0^\circ} = 16.3\N$$) pushes down on the cart, increasing the normal force and thus increasing friction. Pushing downward at an angle is less efficient than pushing horizontally—in fact, it makes the task harder by increasing friction.
+
+The energy transferred from the shopper (700 J) is completely dissipated by friction as thermal energy, which is why the cart doesn't speed up despite the applied force.
+
+**Answer**
+
+(a) Friction does **-700 J** of work on the cart.
+
+(b) Gravity does **0 J** of work on the cart (force perpendicular to displacement).
+
+(c) The shopper does **700 J** of work on the cart.
+
+(d) The shopper exerts a force of **38.6 N** at $$25.0^\circ$$ below horizontal.
+
+(e) The total work done on the cart is **0 J**, consistent with constant speed motion.
 
 </div>
 </div>
@@ -615,10 +720,25 @@ W_{\text{total}} &=& 0\J
 
 **Discussion**
 
-(a) Friction does -1320 J of work on the sled.
-(b) The rope does -21,600 J of work on the sled.
-(c) Gravity does +23,000 J of work on the sled.
-(d) The total work done is zero, which is consistent with the fact that the sled moves at constant speed (no change in kinetic energy).
+This problem demonstrates the interplay of multiple forces doing work on an object moving at constant speed. Gravity does positive work (23,000 J) because it has a component along the direction of motion down the slope. Both the rope tension and friction do negative work, removing energy from the system.
+
+The rope does the most negative work (-21,600 J), which represents the energy absorbed by the ski patrol as they control the descent. This energy must be dissipated (often as heat in a braking mechanism) or stored (if using a winch system). Friction does a much smaller amount of negative work (-1,320 J), converting mechanical energy to thermal energy that slightly warms the sled runners and snow.
+
+The sum of all work equals zero, confirming the work-energy theorem: at constant speed, kinetic energy is constant, so net work must be zero. This is a controlled descent—without the rope tension, the sled would accelerate down the slope, gaining kinetic energy equal to the difference between gravitational work and friction work.
+
+Interestingly, the rope must do more work than gravity adds because friction also opposes motion. Of the 23,000 J that gravity contributes, 1,320 J is dissipated by friction, leaving 21,680 J that the rope must remove through tension. The small discrepancy (21,600 J vs 21,680 J) is due to rounding in the calculations.
+
+The relatively small friction force (44.1 N compared to 765 N down the slope) shows why steep, icy slopes are dangerous—friction provides minimal resistance, requiring large rope tensions for safe descent.
+
+**Answer**
+
+(a) Friction does **$$ -1.32 \times 10^{3} $$ J** (or **-1,320 J**) of work on the sled.
+
+(b) The rope does **$$ -2.16 \times 10^{4} $$ J** (or **-21,600 J**) of work on the sled.
+
+(c) Gravity does **$$ +2.30 \times 10^{4} $$ J** (or **+23,000 J**) of work on the sled.
+
+(d) The total work done is **0 J**, consistent with the constant speed descent.
 
 </div>
 </div>

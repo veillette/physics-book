@@ -298,7 +298,11 @@ $$ \text{Factor} = \frac{P_{\text{current}}}{P_{\text{initial}}} = \frac{10^{28}
 
 **Discussion**
 
-The Crab Nebula pulsar now emits only about $$ 2 \times 10^{-10} $$ (or 0.00000002%) of its original supernova power. Despite this dramatic decline over ~1000 years, the pulsar still outputs $$ 10^{28} $$ W, which is about 25 times the Sun's current power output. This demonstrates both the incredible initial energy of supernovas and the gradual energy loss as pulsars spin down over time.
+The power output has declined by a factor of $$ 2 \times 10^{-10} $$, which means the Crab Nebula pulsar now emits only about 0.00000002% of its original supernova power. This enormous decline over approximately 1000 years demonstrates the dramatic energy loss that occurs after a supernova explosion. Despite this massive reduction, the pulsar still outputs $$ 10^{28} $$ W, which is about 25 times greater than the Sun's current power output of $$ 4 \times 10^{26} $$ W. This illustrates both the incredible initial energy released during supernovas and the gradual but inevitable energy dissipation as pulsars spin down over time. The pulsar's rotation slows as it emits electromagnetic radiation and particles, converting its rotational kinetic energy into other forms of energy.
+
+**Answer**
+
+The power output of the Crab Nebula pulsar has declined by a factor of approximately $$ 2 \times 10^{-10} $$ since the supernova explosion in A.D. 1054.
 
 </div>
 </div>
@@ -335,15 +339,29 @@ The power increase factor is:
 
 **Solution for (b)**
 
+The ratio of supernova power to galaxy power:
+
 <div class="equation">
- $$ \frac{P_{\text{supernova}}}{P_{\text{galaxy}}} = \frac{5 \times 10^{37}\text{W}}{10^{37}\text{W}} = 5 $$
+ $$ \frac{P_{\text{supernova}}}{P_{\text{galaxy}}} = \frac{5 \times 10^{37}\text{ W}}{10^{37}\text{ W}} = 5 $$
 </div>
 
-**Discussion for (c)**
+**Solution for (c)**
 
-(a) The supernova increases in brightness by a factor of about 100 million.
+Based on the calculations above, we can analyze the observability of supernovas. Since a supernova at peak can be 5 times brighter than an entire galaxy containing billions of stars, and considering there are approximately $$ 10^{11} $$ observable galaxies, supernovas should be readily detectable in distant galaxies. A supernova that outshines its host galaxy by a factor of 5 would stand out dramatically against the background, even at great distances.
+
+**Discussion**
+
+Part (a) shows that the supernova increases in brightness by a factor of about $$ 10^{8} $$ (100 million times). This enormous increase in power output occurs in a matter of hours to days, making supernovas among the most dramatic events in the universe.
+
+Part (b) demonstrates that at peak, the supernova is 5 times brighter than the entire Milky Way galaxy. This is remarkable considering a galaxy contains hundreds of billions of stars. This result explains why supernovas were historically called "new stars"—they could suddenly appear in the sky where nothing visible existed before.
+
+Part (c): Since a single supernova can outshine an entire galaxy, it should definitely be possible to observe supernovas in distant galaxies, even those billions of light-years away. In fact, astronomers routinely observe and catalog supernovas in remote galaxies. Type Ia supernovas, which have consistent peak luminosities, serve as "standard candles" for measuring cosmic distances and were instrumental in the 1998 discovery that the universe's expansion is accelerating—a finding that led to the 2011 Nobel Prize in Physics.
+
+**Answer**
+
+(a) The star's power output increases by a factor of approximately $$ 1.25 \times 10^{8} $$ when it goes supernova.
 (b) The supernova is 5 times brighter than the entire Milky Way galaxy.
-(c) Since a supernova can be 5 times brighter than an entire galaxy, it should definitely be possible to observe supernovas in distant galaxies. In fact, astronomers regularly observe supernovas in galaxies billions of light-years away, using them as "standard candles" to measure cosmic distances and study the expansion of the universe.
+(c) Yes, supernovas should be observable in distant galaxies because they can outshine their entire host galaxy.
 
 </div>
 </div>
@@ -377,8 +395,14 @@ $$ N = \frac{800\text{ MW}}{100\text{ W/person}} = \frac{8 \times 10^{8}\text{ W
 
 **Discussion**
 
-(a) It would take 40 people pedaling continuously to run a clothes dryer.
-(b) It would take 8 million people to replace a large power plant. This illustrates why human power is impractical for meeting modern energy demands—the entire population of a major city would be needed just to replace one power plant.
+Part (a) shows that 40 people would be needed to continuously pedal to run a single 4.00-kW clothes dryer. This seems reasonable when we consider that a person producing 100 W of sustained power is working fairly hard—about the level of moderate cycling. Forty such people working together could indeed power a clothes dryer, though it would be highly impractical.
+
+Part (b) reveals the enormous scale of modern power generation. Eight million people would be needed to replace an 800-MW power plant—roughly the population of New York City. This calculation dramatically illustrates why human power is completely impractical for meeting modern society's energy demands. Even for smaller countries, the entire working-age population would need to pedal continuously just to replace a handful of power plants. This comparison helps explain why the Industrial Revolution, which introduced mechanical power sources far exceeding human capabilities, so dramatically transformed human society. It also underscores the enormous energy consumption of modern civilization and the challenge of transitioning to sustainable energy sources.
+
+**Answer**
+
+(a) It would take 40 people to run a 4.00-kW clothes dryer.
+(b) It would take 8 million people to replace an 800-MW power plant.
 
 </div>
 </div>
@@ -411,7 +435,11 @@ Cost:
 
 **Discussion**
 
-The cost of operating a 3.00-W electric clock for one year is approximately $2.37, which is quite economical.
+The annual cost of operating a 3.00-W electric clock is approximately $2.37, which is quite economical. This low cost makes sense because although the clock runs continuously (24 hours per day, 365 days per year), its power consumption is very small—only 3 watts. This problem illustrates an important principle in energy conservation: the total energy cost depends on both power and time. While devices like clocks run constantly, their extremely low power consumption means they contribute very little to electricity bills. In contrast, high-power devices like air conditioners (which may use 15,000 W or more) can cost over $100 per month even when used only a few hours daily. This is why energy conservation efforts should focus on limiting high-power devices rather than worrying about low-power devices that run continuously.
+
+**Answer**
+
+The cost of operating a 3.00-W electric clock for one year is approximately $2.37.
 
 </div>
 </div>
@@ -449,7 +477,11 @@ $$ \text{Cost} = (1350\text{ kW}\cdot\text{h})(\$0.110\text{ per kW}\cdot\text{h
 
 **Discussion**
 
-Running a large air conditioner for just 3 hours per day for one month costs about $149. This explains why electricity bills spike during summer months when air conditioning is heavily used.
+Operating a large 15.0-kW air conditioner for 3 hours per day for 30 days costs approximately $149. This substantial cost explains why electricity bills spike dramatically during summer months when air conditioning is heavily used. The high cost results from the combination of high power consumption (15,000 W is equivalent to running 250 sixty-watt light bulbs simultaneously) and extended usage time. Even though the air conditioner runs only 3 hours per day (12.5% of the time), the cost is significant because of its high power rating. This calculation demonstrates why air conditioners are often the largest contributor to residential electricity costs in warm climates. It also highlights why improving air conditioner efficiency (for example, by using higher SEER ratings) and reducing usage (through better insulation, programmable thermostats, or raising temperature settings by a few degrees) can lead to substantial cost savings. A 20% reduction in air conditioner usage could save about $30 per month in this example.
+
+**Answer**
+
+The cost of operating a 15.0-kW air conditioner for 3.00 hours per day for 30.0 days is approximately $149.
 
 </div>
 </div>
@@ -491,8 +523,14 @@ Converting to joules (1 kW·h = 3.6 × 10⁶ J):
 
 **Discussion**
 
+Part (a): The average power consumption of 208 W is reasonable for a mid-sized appliance such as a refrigerator, dehumidifier, or home entertainment system. This calculation shows how to convert energy consumption expressed in kW·h per day (common on energy labels) into average power in watts. The 208-W average means the appliance draws this amount continuously when averaged over 24 hours, though actual instantaneous power may vary (for example, a refrigerator compressor cycles on and off).
+
+Part (b): The appliance consumes approximately $$ 6.6 \times 10^{9} $$ J (6.6 gigajoules) of energy annually. This large number in joules illustrates why electrical energy is more conveniently expressed in kilowatt-hours rather than joules for everyday applications. The conversion factor is 1 kW·h = 3.6 × 10⁶ J, so we can verify: 1825 kW·h × 3.6 × 10⁶ J/(kW·h) ≈ 6.6 × 10⁹ J. At a typical electricity rate of $0.10 per kW·h, this appliance would cost about $183 per year to operate, representing a significant ongoing expense.
+
+**Answer**
+
 (a) The average power consumption is 208 W.
-(b) The appliance consumes approximately $$ 6.6 \times 10^{9}\J $$ of energy per year.
+(b) The appliance consumes approximately $$ 6.57 \times 10^{9} $$ J of energy per year.
 
 </div>
 </div>
@@ -533,8 +571,14 @@ $$ t = \frac{W}{P} = \frac{29400\J}{208\text{ W}} = 141\s $$
 
 **Discussion**
 
-(a) The average useful power output is 208 W, which is about 0.28 hp—a reasonable sustained output for physical labor.
-(b) It would take about 2.4 minutes to lift 2000 kg of bricks 1.50 m at this power level.
+Part (a): The average useful power output of 208 W (approximately 0.28 hp) is reasonable for sustained physical labor over an 8-hour workday. This is consistent with the estimate used in Problem 3 that a person can sustain about 100 W for extended periods. A construction worker or laborer performing useful work at 208 W is working at a moderate to vigorous level, which would require rest breaks and proper nutrition to maintain throughout a full work shift. The total useful work of $$ 6.00 \times 10^{6} $$ J (6.00 MJ) over 8 hours represents significant physical effort.
+
+Part (b): Lifting 2000 kg of bricks 1.50 m requires 29,400 J of work and takes 141 s (about 2.4 minutes) at the sustained power level of 208 W. This seems reasonable—a worker could lift this mass of bricks in small batches over this time period. For example, lifting 20 kg per trip would require 100 trips, or about one trip every 1.4 seconds, which is physically feasible but demanding. This calculation demonstrates how knowing the power output allows us to predict the time required for specific tasks, which is valuable for project planning and estimating labor requirements.
+
+**Answer**
+
+(a) The average useful power output is 208 W.
+(b) It will take 141 s (approximately 2.4 minutes) to lift the bricks.
 
 </div>
 </div>
@@ -584,7 +628,15 @@ Converting to horsepower:
 
 **Discussion**
 
-The dragster's average power output is approximately 481 kW or 645 hp, which is consistent with high-performance racing vehicles.
+The dragster's average power output of 481 kW (645 hp) is reasonable for a high-performance racing vehicle, though it's worth noting this is the average power over the acceleration period. Top fuel dragsters can actually produce peak powers exceeding 10,000 hp (7.5 MW), but this calculation gives us the average sustained power needed to achieve the stated performance.
+
+The total work done by the dragster is 3.51 MJ, with about 86% going into kinetic energy and 14% overcoming friction. This shows that even with the significant frictional force of 1200 N over 400 m, the dominant energy requirement is still accelerating the dragster's mass to 110 m/s (nearly 250 mph).
+
+The power output of 645 hp is actually modest by drag racing standards, suggesting this might be a lower-class dragster rather than a top fuel dragster. Professional top fuel dragsters can accelerate even faster (covering a quarter mile in under 4 seconds at over 330 mph), requiring the much higher peak powers mentioned above. This problem illustrates how power requirements scale with both the desired speed and the time available to reach it—faster acceleration times demand proportionally greater power.
+
+**Answer**
+
+The average power output is approximately $$ 4.81 \times 10^{5} $$ W (481 kW) or 645 hp.
 
 </div>
 </div>
@@ -633,8 +685,16 @@ $$ t = \frac{W}{P} = \frac{120590\J}{29840\text{ W}} = 4.04\s $$
 
 **Discussion**
 
-(a) It takes 3.20 s to reach 15.0 m/s on level ground.
-(b) Climbing a 3.00-m hill increases the time by about 26% to 4.04 s.
+Part (a): On level ground, the 850-kg car with a 40.0-hp (29,840-W) engine reaches 15.0 m/s in 3.20 s. This acceleration time seems reasonable for a car with moderate power. For comparison, 40 hp is relatively modest by modern standards (typical cars have 100-200 hp), so a 3.2-second acceleration to 15 m/s (about 34 mph or 54 km/h) represents moderate performance.
+
+Part (b): When climbing a 3.00-m hill while accelerating, the time increases to 4.04 s, which is about 26% longer than on level ground. This increase makes physical sense: the engine must now do additional work against gravity (24,990 J for the potential energy gain) on top of the kinetic energy work (95,600 J). The ratio of total work is 120,590 J / 95,600 J ≈ 1.26, which directly translates to the 26% time increase when power is constant.
+
+This problem illustrates an important practical consideration: vehicles need extra power when climbing hills, which is why cars often downshift (increasing engine RPM and power output) when ascending steep grades. The calculation also shows that at highway speeds, the power needed to climb grades becomes substantial—one reason why fuel economy decreases significantly in mountainous terrain. The additional 25 kJ of potential energy gained might seem modest, but when sustained over long climbs, it represents significant energy consumption.
+
+**Answer**
+
+(a) The time to reach 15.0 m/s on level ground is 3.20 s.
+(b) The time to reach 15.0 m/s while climbing a 3.00-m hill is 4.04 s.
 
 </div>
 </div>
@@ -695,8 +755,16 @@ Cost:
 
 **Discussion**
 
+Part (a): The elevator motor's useful power output is 78.2 kW (approximately 105 hp), which is reasonable for a commercial elevator. The majority of the work (858 kJ out of 938 kJ total, or 91%) goes into lifting the 2500-kg load against gravity, while only 9% goes into accelerating the 10,000-kg system to its final speed of 4.00 m/s. This distribution is typical for elevators, where the primary energy expenditure is overcoming gravitational potential energy.
+
+The counterbalancing system is an important practical feature mentioned in this problem. By counterbalancing most of the elevator's weight, the system ensures that the motor only needs to lift the net load (2500 kg) rather than the entire elevator plus passengers. However, the full mass (10,000 kg) must still be accelerated and decelerated, which is why we use the total mass when calculating kinetic energy. Without counterbalancing, elevator motors would need to be much more powerful and would consume far more energy.
+
+Part (b): The electricity cost for this single elevator trip is approximately 2.3 cents. While this seems small, consider that a busy office building elevator might make hundreds of trips per day. At 200 trips per day, the daily cost would be about $4.68, or roughly $140 per month for continuous operation. In a large building with multiple elevators, these costs add up significantly, which is why modern buildings invest in energy-efficient elevator systems with regenerative braking that can recover energy during descent.
+
+**Answer**
+
 (a) The useful power output is approximately 78.2 kW.
-(b) The electricity cost for this single elevator trip is about 2.3 cents.
+(b) The electricity cost for this elevator trip is approximately $0.023 (2.3 cents).
 
 </div>
 </div>
@@ -743,8 +811,16 @@ $$ t = \frac{8.00 \times 10^{7}\s}{3.156 \times 10^{7}\text{ s/year}} = 2.54\tex
 
 **Discussion**
 
-(a) The battery stores about $$ 9.5 \times 10^{7} $$ J (roughly 26 kW·h) of energy.
-(b) The calculator can run for 2.54 years because it consumes power at an extremely low rate (1 mW), which is why calculators can last years on small batteries.
+Part (a): The battery contains approximately $$ 9.34 \times 10^{7} $$ J (about 26 kW·h) of energy. This is a substantial amount of energy—roughly equivalent to the energy in about 0.75 liters (0.2 gallons) of gasoline. The large energy storage capacity in a relatively small battery that can power a 2-W clock for 18 months demonstrates the energy density of modern batteries. This calculation shows why batteries are practical for low-power devices but become large and heavy for high-power applications like electric vehicles.
+
+Part (b): The calculator can run for $$ 8.00 \times 10^{7} $$ s, which is approximately 2.54 years of continuous operation. This extraordinarily long runtime is possible because pocket calculators consume power at an extremely low rate—only 1.00 mW (0.001 W). Modern calculator chips use CMOS technology specifically designed for minimal power consumption. In practice, calculators often last even longer than this calculation suggests because they spend much of their time in sleep mode, consuming even less power. Additionally, many calculators use solar cells that recharge the battery during use.
+
+The stark contrast between the clock battery (2 W for 18 months) and the calculator battery (0.001 W for 2.5 years) illustrates how power consumption, not just energy storage, determines battery life. The calculator's battery stores about 85% of the energy of the clock battery but lasts about 1.7 times longer because it consumes 2000 times less power.
+
+**Answer**
+
+(a) The battery contains approximately $$ 9.34 \times 10^{7} $$ J of energy.
+(b) The battery can run the calculator for approximately $$ 8.00 \times 10^{7} $$ s, or about 2.54 years.
 
 </div>
 </div>
@@ -824,9 +900,17 @@ Average air resistance force:
 
 **Discussion**
 
-(a) Without air resistance, it would take 223 s.
-(b) The actual power needed is 24.8 MW.
-(c) The average air resistance force is approximately 50,000 N.
+Part (a): Without air resistance, the airplane would reach its target speed and altitude in 223 s (about 3.7 minutes) using its full 100 MW of engine power. This represents the theoretical minimum time based purely on energy requirements. The total energy needed is 22.3 GJ, with about 79% going to potential energy (climbing to 12 km altitude) and only 21% to kinetic energy (reaching 250 m/s). This distribution shows that for this scenario, climbing is the dominant energy requirement.
+
+Part (b): In reality, reaching the same energy state takes 900 s (15 minutes), which is about 4 times longer. The actual average power is 24.8 MW, which is only about 25% of the engines' rated power. This significant difference suggests the airplane is not operating at full throttle during the climb—a realistic scenario for commercial aviation where fuel efficiency and passenger comfort are prioritized over rapid climb rates.
+
+Part (c): When the climb takes 1200 s (20 minutes), the average air resistance force is approximately 50,000 N. This substantial force is reasonable for a large aircraft—for comparison, a Boeing 747 has a maximum takeoff weight of about 4 million newtons, so an air resistance of 50,000 N represents about 1.25% of the maximum weight, which is consistent with typical drag forces during climb. The extra time (1200 s vs 900 s) means the airplane travels a longer distance (150 km vs an implied shorter distance for 900 s), encountering more air resistance overall. The calculation shows that approximately 25% of the engine work goes into overcoming air resistance (7.5 GJ out of 29.8 GJ total), with the remaining 75% providing the airplane's kinetic and potential energy. This illustrates why aerodynamic efficiency is crucial for aircraft fuel economy.
+
+**Answer**
+
+(a) Without air resistance, it would take 223 s to reach the target speed and altitude.
+(b) The actual power output is 24.8 MW.
+(c) The average air resistance force is approximately $$ 5.0 \times 10^{4} $$ N (50,000 N).
 
 </div>
 </div>
@@ -840,24 +924,67 @@ the [Problem-Solving Strategies for Energy](./ch7ConservationOfEnergy#problemSol
 
 </div>
 <div class="solution" markdown="1">
-Identify knowns: $$ m=950 \kg $$, $$ \text{slope angle}\theta =2.00^\circ $$, $$ v=3.00 m/s $$, $$ f=600
-\N $$ Identify unknowns: power $$ P $$ of the car, force $$ F $$ that car
-applies to road
 
-Solve for unknown:
+**Strategy**
 
-$$ P=\frac{W}{t}=\frac{F d }{t}=F\left(\frac{d}{t}\right)=\text{Fv}, $$ where $$
-F $$ is parallel to the incline and must oppose the resistive forces and the
-force of gravity:
+Following the problem-solving strategy for energy:
+1. **Identify knowns**: $$ m = 950 $$ kg, slope angle $$ \theta = 2.00^\circ $$, constant velocity $$ v = 30.0 $$ m/s, resistive forces $$ f = 600 $$ N
+2. **Identify unknowns**: power output $$ P $$ of the car
+3. **Choose relevant principle**: Since velocity is constant, the car is in equilibrium. The driving force must equal the sum of resistive forces (friction/air resistance) plus the component of gravity along the slope. Power is force times velocity: $$ P = Fv $$.
 
-$$ F=f+w=600 \N +mg \sin{\theta} $$ Insert this into the expression for power
-and solve:
+**Solution**
 
-$$
-\begin{array}{lll} P&=& \left( f+mg \sin{\theta} \right)v \\ P&=&
-\left[600 \N +\left(950 \kg \right)\left(9.80 \mss \right) \sin{2^\circ }\right]
-\left(30.0 \ms \right)\\ P&=& 2.77\times 10^{4} \text{W} \end{array} $$ About 28
-kW (or about 37 hp) is reasonable for a car to climb a gentle incline.
+Since the car moves at constant velocity, the net force is zero. The driving force $$ F $$ must balance both the resistive forces and the gravitational component along the slope:
+
+<div class="equation">
+$$ F = f + mg\sin\theta $$
+</div>
+
+where $$ mg\sin\theta $$ is the component of the car's weight parallel to the incline.
+
+Power is the rate of doing work, which for constant velocity equals:
+
+<div class="equation">
+$$ P = \frac{W}{t} = \frac{Fd}{t} = F\left(\frac{d}{t}\right) = Fv $$
+</div>
+
+Substituting the expression for $$ F $$:
+
+<div class="equation">
+$$ P = \left(f + mg\sin\theta\right)v $$
+</div>
+
+Now substitute the known values:
+
+<div class="equation">
+$$ \begin{array}{lll}
+P &=& \left[600\text{ N} + (950\text{ kg})(9.80\text{ m/s}^{2})\sin(2.00^\circ)\right](30.0\text{ m/s})\\
+P &=& \left[600\text{ N} + (9310\text{ N})(0.0349)\right](30.0\text{ m/s})\\
+P &=& \left[600\text{ N} + 325\text{ N}\right](30.0\text{ m/s})\\
+P &=& (925\text{ N})(30.0\text{ m/s})\\
+P &=& 2.77 \times 10^{4}\text{ W} = 27.7\text{ kW}
+\end{array} $$
+</div>
+
+Converting to horsepower:
+
+<div class="equation">
+$$ P = \frac{27,700\text{ W}}{746\text{ W/hp}} = 37.1\text{ hp} $$
+</div>
+
+**Discussion**
+
+The power output of approximately 27.7 kW (37 hp) is reasonable for a car climbing a gentle 2° incline at highway speed. This is well within the capability of most car engines, which typically produce 75-150 kW (100-200 hp).
+
+Interestingly, the gravitational component (325 N) is smaller than the resistive forces (600 N) for this gentle slope. At 30.0 m/s (108 km/h or 67 mph), wind resistance dominates. About 65% of the power (600/925) goes to overcoming air resistance and friction, while 35% (325/925) goes to climbing the slope.
+
+If the slope were steeper or the speed lower, the gravitational term would become more significant. For example, on a 10° slope, $$ mg\sin(10^\circ) $$ would be about 1620 N, making it the dominant resistance. This explains why cars must downshift and use more engine power on steep hills.
+
+The constant-velocity condition is key to this solution's simplicity. If the car were accelerating, we would need to account for the rate of change of kinetic energy as well.
+
+**Answer**
+
+The power output needed is approximately $$ 2.77 \times 10^{4} $$ W (27.7 kW or 37.1 hp).
 
 </div>
 </div>
@@ -924,8 +1051,26 @@ China: $$ A\_{\text{China}} = \frac{6.3 \times 10^{19}\J/(3.156 \times 10^{7}\s)
 
 **Discussion**
 
-(a) About 1.41 kW/m² reaches Earth's upper atmosphere.
-(b) To replace a 750-MW plant requires about 29 km² of collectors. The U.S. would need about 128,000 km², Australia about 6,600 km², and China about 77,000 km² to meet their annual energy needs with 2% efficient solar collectors.
+Part (a): The calculated power per square meter at Earth's upper atmosphere is approximately 1.41 kW/m². This value, known as the solar constant, is in excellent agreement with measured values. The slight difference from the maximum 1.30 kW/m² mentioned in the problem as reaching Earth's surface is due to atmospheric absorption and reflection. About 30% of incoming solar radiation is reflected back into space by clouds, atmospheric particles, and Earth's surface (this is Earth's albedo), while additional energy is absorbed by the atmosphere. The calculation demonstrates that solar energy is distributed over an enormous sphere (with radius equal to Earth's orbital distance), which is why the power per unit area decreases so dramatically from the Sun's total output of $$ 4 \times 10^{26} $$ W.
+
+Part (b): The area calculations reveal both the promise and challenge of solar energy:
+
+- A 750-MW power plant requires approximately 28.8 km² of 2%-efficient solar collectors (about 5.4 km × 5.4 km). While this seems large, it's equivalent to about 7,100 acres, which is comparable to the land area used by large coal plants when including mining operations.
+
+- The U.S. energy needs would require about 128,000 km² (roughly 350 km × 365 km), which is approximately 1.3% of U.S. land area. For perspective, this is similar to the area of the state of Louisiana.
+
+- Australia needs about 6,600 km², roughly 0.09% of its land area—quite feasible given Australia's vast desert regions with excellent solar exposure.
+
+- China needs about 77,000 km², approximately 0.8% of its land area.
+
+These calculations assume only 2% efficiency (accounting for panel efficiency, sun angle, nighttime, and weather). Modern solar panels achieve 15-20% efficiency under ideal conditions, which would reduce required areas by a factor of 7-10, though real-world capacity factors (accounting for nighttime and weather) typically range from 15-25% in good locations. Even so, the calculations demonstrate that meeting national energy needs with solar power is technically feasible from an area perspective, though energy storage for nighttime use remains a significant challenge.
+
+The comparison also highlights regional differences: Australia's low population and abundant sunshine make solar particularly attractive, while more densely populated or less sunny regions face greater challenges.
+
+**Answer**
+
+(a) The power per square meter reaching Earth's upper atmosphere is approximately 1.41 kW/m².
+(b) The area required for a 750-MW plant is approximately 28.8 km². To meet annual energy needs with 2% efficient collectors: U.S. ≈ 128,000 km², Australia ≈ 6,600 km², China ≈ 77,000 km².
 
 </div>
 </div>

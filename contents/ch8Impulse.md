@@ -345,29 +345,33 @@ and brought them to rest in the same time? Explain why or why not.
 
 </div>
 <div class="solution" markdown="1">
+
 **Strategy**
 
 We use the impulse-momentum theorem to find the force. The hand has initial momentum and comes to rest, so we calculate the momentum change and divide by the collision time.
 
-**Solution for (a)**
+**Solution**
 
-Calculate the change in momentum of the hand:
+**(a) Force on the leg:**
 
+1. Calculate the change in momentum of the hand:
+<div class="equation">
 $$ \Delta p = m(v_f - v_i) = (1.50 \kg)(0 - 4.00 \ms) = -6.00 \kg \cdot \ms $$
+</div>
 
-Convert time to seconds:
-
+2. Convert time to seconds:
+<div class="equation">
 $$ \Delta t = 2.50 \text{ ms} = 2.50 \times 10^{-3} \s $$
+</div>
 
-Apply the impulse-momentum theorem:
-
-$$ F\_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-6.00 \kg \cdot \ms}{2.50 \times 10^{-3} \s} = -2.40 \times 10^{3} \N $$
+3. Apply the impulse-momentum theorem:
+<div class="equation">
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-6.00 \kg \cdot \ms}{2.50 \times 10^{-3} \s} = -2.40 \times 10^{3} \N $$
+</div>
 
 By Newton's third law, the force on the leg equals the force on the hand in magnitude but opposite in direction.
 
-The average force exerted on the leg is $$ 2.40 \times 10^{3} \N $$ toward the leg.
-
-**Solution for (b)**
+**(b) Force when clapping hands:**
 
 The force on each hand would have the same magnitude as that found in part (a) because:
 
@@ -381,6 +385,10 @@ By Newton's third law, the forces on the two hands are equal in magnitude but op
 **Discussion**
 
 This force of 2400 N is about 540 pounds—explaining why a hard slap hurts! The short collision time (2.5 ms) results in a large force despite the modest speed and mass involved. This is why padding and cushioning help reduce impact forces: they extend the collision time, reducing the force for the same momentum change.
+
+(a) The average force exerted on the leg is $$ 2.40 \times 10^{3} \N $$ toward the leg.
+
+(b) The force on each hand when clapping is the same: $$ 2.40 \times 10^{3} \N $$.
 
 </div>
 </div>
@@ -402,35 +410,41 @@ the boxer's body.
 
 </div>
 <div class="solution" markdown="1">
+
 **Strategy**
 
 Impulse equals force times time: $$ J = F \Delta t $$. Once we have the impulse, we can find the velocity change using $$ J = \Delta p = m \Delta v $$.
 
-**Solution for (a)**
+**Solution**
 
+**(a) Impulse from the blow:**
+
+<div class="equation">
 $$ J = F \Delta t = (1000 \N)(0.150 \s) = 150 \N \cdot \s = 150 \kg \cdot \ms $$
+</div>
 
-The impulse imparted by the blow is 150 N·s (or 150 kg·m/s).
-
-**Solution for (b)**
+**(b) Final velocity if struck at center of mass:**
 
 The opponent starts at rest, so $$ v_i = 0 $$.
 
-Using $$ J = m \Delta v = m(v_f - v_i) $$:
+Using the impulse-momentum theorem:
+<div class="equation">
+$$ J = m \Delta v = m(v_f - v_i) $$
+</div>
 
+Solving for final velocity:
+<div class="equation">
 $$ v_f = \frac{J}{m} = \frac{150 \kg \cdot \ms}{105 \kg} = 1.43 \ms $$
+</div>
 
-If struck in the body's center of mass, the opponent's final velocity is 1.43 m/s in the direction of the blow.
-
-**Solution for (c)**
+**(c) Recoil velocity if struck in the head:**
 
 If the same impulse is delivered to just the head:
-
+<div class="equation">
 $$ v_f = \frac{J}{m_{\text{head}}} = \frac{150 \kg \cdot \ms}{10.0 \kg} = 15.0 \ms $$
+</div>
 
-If hit in the head, the head would recoil at 15.0 m/s.
-
-**Solution for (d)**
+**(d) Implications:**
 
 The head velocity (15.0 m/s) is more than 10 times greater than the body velocity (1.43 m/s). This dramatic difference explains why head punches are so dangerous in boxing:
 
@@ -442,6 +456,14 @@ The head velocity (15.0 m/s) is more than 10 times greater than the body velocit
 **Discussion**
 
 This analysis explains the fundamental danger of head trauma in contact sports. The same impulse produces vastly different effects depending on the mass involved. Protective headgear works by increasing collision time and distributing force, not by changing the impulse delivered.
+
+(a) The impulse imparted by the blow is $$ 150 \N \cdot \s $$ (or $$ 150 \kg \cdot \ms $$).
+
+(b) If struck in the body's center of mass, the opponent's final velocity is $$ 1.43 \ms $$ in the direction of the blow.
+
+(c) If hit in the head, the head would recoil at $$ 15.0 \ms $$.
+
+(d) See explanation above.
 
 </div>
 </div>
@@ -460,41 +482,50 @@ between the car and floor.
 
 </div>
 <div class="solution" markdown="1">
+
 **Strategy**
 
 For part (a), impulse is force times time. For part (b), we apply the impulse-momentum theorem, noting that the force from the wall opposes the car's motion.
 
-**Solution for (a)**
+**Solution**
 
+**(a) Impulse from the rail:**
+
+<div class="equation">
 $$ J = F \Delta t = (4000 \N)(0.200 \s) = 800 \N \cdot \s = 800 \kg \cdot \ms $$
+</div>
 
-The impulse imparted is 800 kg·m/s directed away from the wall (opposite to the car's initial motion).
-
-**Solution for (b)**
+**(b) Final velocity of the bumper car:**
 
 Let positive direction be toward the wall (initial direction of motion). The wall exerts a force in the negative direction.
 
-Initial momentum:
-
+1. Calculate initial momentum:
+<div class="equation">
 $$ p_i = mv_i = (200 \kg)(2.80 \ms) = 560 \kg \cdot \ms $$
+</div>
 
-The impulse is negative (away from wall):
-
+2. The impulse is negative (away from wall):
+<div class="equation">
 $$ J = -800 \kg \cdot \ms $$
+</div>
 
-Final momentum:
-
+3. Calculate final momentum:
+<div class="equation">
 $$ p_f = p_i + J = 560 \kg \cdot \ms + (-800 \kg \cdot \ms) = -240 \kg \cdot \ms $$
+</div>
 
-Final velocity:
-
+4. Calculate final velocity:
+<div class="equation">
 $$ v_f = \frac{p_f}{m} = \frac{-240 \kg \cdot \ms}{200 \kg} = -1.20 \ms $$
-
-The final velocity is 1.20 m/s away from the wall (the car bounces back).
+</div>
 
 **Discussion**
 
 The car reverses direction after hitting the rail, which is exactly what we expect from a bumper car collision. The wall delivers enough impulse to not only stop the car (which would require 560 kg·m/s) but also to give it momentum in the opposite direction. This is the fun of bumper cars—the collisions are designed to be bouncy while the padding extends the collision time to keep forces at safe levels.
+
+(a) The impulse imparted is $$ 800 \kg \cdot \ms $$ directed away from the wall (opposite to the car's initial motion).
+
+(b) The final velocity is $$ 1.20 \ms $$ away from the wall (the car bounces back).
 
 </div>
 </div>
@@ -562,45 +593,62 @@ that compresses an average of 15.0 cm.
 
 </div>
 <div class="solution" markdown="1">
+
 **Strategy**
 
 We need to find the stopping time from the distance and velocity, then use the impulse-momentum theorem. Using kinematics with constant deceleration: $$ v^2 = v_0^2 + 2a\Delta x $$ gives us acceleration, then $$ \Delta t = \frac{\Delta v}{a} $$ gives time.
 
-**Solution for (a)**
+**Solution**
 
-Using kinematics to find the stopping time for the dashboard:
+**(a) Force with padded dashboard:**
 
+1. Using kinematics to find the deceleration:
+<div class="equation">
 $$ v^2 = v_0^2 + 2a\Delta x $$
+</div>
 
+<div class="equation">
 $$ 0 = (20.0 \ms)^2 + 2a(0.0100 \m) $$
+</div>
 
+<div class="equation">
 $$ a = \frac{-(20.0 \ms)^2}{2(0.0100 \m)} = -2.00 \times 10^{4} \mss $$
+</div>
 
-Find the stopping time:
-
+2. Find the stopping time:
+<div class="equation">
 $$ \Delta t = \frac{v - v_0}{a} = \frac{0 - 20.0 \ms}{-2.00 \times 10^{4} \mss} = 1.00 \times 10^{-3} \s $$
+</div>
 
-Calculate the force using impulse-momentum:
-
+3. Calculate the force using impulse-momentum:
+<div class="equation">
 $$ F = \frac{\Delta p}{\Delta t} = \frac{m \Delta v}{\Delta t} = \frac{(75.0 \kg)(20.0 \ms)}{1.00 \times 10^{-3} \s} = 1.50 \times 10^{6} \N $$
+</div>
 
-The force on the person from the padded dashboard is $$ 1.50 \times 10^{6} \N $$ (about 337,000 pounds), directed away from the dashboard.
+**(b) Force with airbag:**
 
-**Solution for (b)**
-
-For the airbag with 15.0 cm compression:
-
+1. Using kinematics with 15.0 cm compression:
+<div class="equation">
 $$ a = \frac{-(20.0 \ms)^2}{2(0.150 \m)} = -1.33 \times 10^{3} \mss $$
+</div>
 
+2. Find the stopping time:
+<div class="equation">
 $$ \Delta t = \frac{0 - 20.0 \ms}{-1.33 \times 10^{3} \mss} = 1.50 \times 10^{-2} \s $$
+</div>
 
+3. Calculate the force:
+<div class="equation">
 $$ F = \frac{(75.0 \kg)(20.0 \ms)}{1.50 \times 10^{-2} \s} = 1.00 \times 10^{5} \N $$
-
-The force on the person from the airbag is $$ 1.00 \times 10^{5} \N $$ (about 22,500 pounds), directed away from the dashboard.
+</div>
 
 **Discussion**
 
 The airbag reduces the force by a factor of 15—exactly the ratio of the stopping distances! The padded dashboard force of 1.5 million N (about 2000 times body weight) would likely be fatal, while the airbag force of 100,000 N (about 135 times body weight), though still very large, is survivable because it's distributed across the body. This dramatically illustrates why airbags save lives: they increase the stopping distance and time, reducing the peak force.
+
+(a) The force on the person from the padded dashboard is $$ 1.50 \times 10^{6} \N $$ (about 337,000 pounds).
+
+(b) The force on the person from the airbag is $$ 1.00 \times 10^{5} \N $$ (about 22,500 pounds).
 
 </div>
 </div>
@@ -623,55 +671,74 @@ its velocity in 10.0 ms (milliseconds).
 
 </div>
 <div class="solution" markdown="1">
+
 **Strategy**
 
 For part (a), we use conservation of momentum between the bullet and plunger. For part (b), we use kinematics and Newton's second law to find the stopping force. For part (c), we calculate the force from the bullet's acceleration.
 
-**Solution for (a)**
+**Solution**
+
+**(a) Recoil velocity of the plunger:**
 
 By conservation of momentum (initial momentum is zero):
-
+<div class="equation">
 $$ m_{\text{bullet}} v_{\text{bullet}} + m_{\text{plunger}} v_{\text{plunger}} = 0 $$
+</div>
 
+Solving for the plunger velocity:
+<div class="equation">
 $$ v_{\text{plunger}} = -\frac{m_{\text{bullet}} v_{\text{bullet}}}{m_{\text{plunger}}} $$
+</div>
 
-$$ v\_{\text{plunger}} = -\frac{(0.0200 \kg)(600 \ms)}{1.00 \kg} = -12.0 \ms $$
+<div class="equation">
+$$ v_{\text{plunger}} = -\frac{(0.0200 \kg)(600 \ms)}{1.00 \kg} = -12.0 \ms $$
+</div>
 
-The recoil velocity of the plunger is 12.0 m/s in the direction opposite to the bullet.
+**(b) Force exerted on the plunger:**
 
-**Solution for (b)**
-
-Using kinematics to find the deceleration:
-
+1. Using kinematics to find the deceleration:
+<div class="equation">
 $$ v^2 = v_0^2 + 2a \Delta x $$
+</div>
 
+<div class="equation">
 $$ 0 = (12.0 \ms)^2 + 2a(0.200 \m) $$
+</div>
 
+<div class="equation">
 $$ a = \frac{-(12.0 \ms)^2}{2(0.200 \m)} = -360 \mss $$
+</div>
 
-Calculate the force:
+2. Calculate the force:
+<div class="equation">
+$$ F = m_{\text{plunger}} |a| = (1.00 \kg)(360 \mss) = 360 \N $$
+</div>
 
-$$ F = m\_{\text{plunger}} |a| = (1.00 \kg)(360 \mss) = 360 \N $$
+**(c) Comparison with bullet acceleration force:**
 
-The average force exerted on the plunger is 360 N.
+1. Calculate the force to accelerate the bullet:
+<div class="equation">
+$$ a_{\text{bullet}} = \frac{\Delta v}{\Delta t} = \frac{600 \ms}{10.0 \times 10^{-3} \s} = 6.00 \times 10^{4} \mss $$
+</div>
 
-**Solution for (c)**
+<div class="equation">
+$$ F_{\text{bullet}} = m_{\text{bullet}} a_{\text{bullet}} = (0.0200 \kg)(6.00 \times 10^{4} \mss) = 1200 \N $$
+</div>
 
-Calculate the force to accelerate the bullet:
-
-$$ a\_{\text{bullet}} = \frac{\Delta v}{\Delta t} = \frac{600 \ms}{10.0 \times 10^{-3} \s} = 6.00 \times 10^{4} \mss $$
-
-$$ F_{\text{bullet}} = m_{\text{bullet}} a\_{\text{bullet}} = (0.0200 \kg)(6.00 \times 10^{4} \mss) = 1200 \N $$
-
-Compare the forces:
-
+2. Compare the forces:
+<div class="equation">
 $$ \frac{F_{\text{bullet}}}{F_{\text{plunger}}} = \frac{1200 \N}{360 \N} = 3.33 $$
-
-The force on the gun from accelerating the bullet (1200 N) is 3.33 times larger than the force on the plunger mechanism (360 N).
+</div>
 
 **Discussion**
 
 The recoil-reducing mechanism decreases the force felt by the shooter by a factor of more than 3. This is achieved by allowing the internal plunger to recoil over a larger distance (20 cm) compared to the short distance over which the bullet accelerates. The same momentum must be absorbed, but extending the distance (and time) reduces the force. This principle is used in many firearms to improve accuracy and reduce shooter fatigue.
+
+(a) The recoil velocity of the plunger is $$ 12.0 \ms $$ in the direction opposite to the bullet.
+
+(b) The average force exerted on the plunger is $$ 360 \N $$.
+
+(c) The force on the gun from accelerating the bullet ($$ 1200 \N $$) is 3.33 times larger than the force on the plunger mechanism ($$ 360 \N $$).
 
 </div>
 </div>
@@ -800,37 +867,44 @@ a nail and comes to rest after driving the nail 1.00 cm into a board.
 
 </div>
 <div class="solution" markdown="1">
+
 **Strategy**
 
 For part (a), we use kinematics with the stopping distance to find the time. For part (b), we apply the impulse-momentum theorem.
 
-**Solution for (a)**
+**Solution**
+
+**(a) Duration of the impact:**
 
 Using the average velocity during deceleration:
-
-$$ v\_{\text{avg}} = \frac{v_i + v_f}{2} = \frac{7.00 \ms + 0}{2} = 3.50 \ms $$
+<div class="equation">
+$$ v_{\text{avg}} = \frac{v_i + v_f}{2} = \frac{7.00 \ms + 0}{2} = 3.50 \ms $$
+</div>
 
 Calculate the duration:
+<div class="equation">
+$$ \Delta t = \frac{\Delta x}{v_{\text{avg}}} = \frac{0.0100 \m}{3.50 \ms} = 2.86 \times 10^{-3} \s $$
+</div>
 
-$$ \Delta t = \frac{\Delta x}{v\_{\text{avg}}} = \frac{0.0100 \m}{3.50 \ms} = 2.86 \times 10^{-3} \s $$
+**(b) Average force exerted on the nail:**
 
-The duration of the impact is approximately 2.86 ms (about 3 milliseconds).
-
-**Solution for (b)**
-
-Calculate the change in momentum:
-
+1. Calculate the change in momentum:
+<div class="equation">
 $$ \Delta p = m(v_f - v_i) = (0.450 \kg)(0 - 7.00 \ms) = -3.15 \kg \cdot \ms $$
+</div>
 
-Apply the impulse-momentum theorem:
-
-$$ F\_{\text{avg}} = \frac{|\Delta p|}{\Delta t} = \frac{3.15 \kg \cdot \ms}{2.86 \times 10^{-3} \s} = 1.10 \times 10^{3} \N $$
-
-The average force exerted on the nail is approximately $$ 1.10 \times 10^{3} \N $$ (about 250 pounds).
+2. Apply the impulse-momentum theorem:
+<div class="equation">
+$$ F_{\text{avg}} = \frac{|\Delta p|}{\Delta t} = \frac{3.15 \kg \cdot \ms}{2.86 \times 10^{-3} \s} = 1.10 \times 10^{3} \N $$
+</div>
 
 **Discussion**
 
 A force of 1100 N—over 2000 times the hammer's weight—is exerted on the nail during the brief 3-millisecond impact. This force is sufficient to drive the nail into wood. The short stopping distance (1 cm) is key to generating such a large force. If the hammer bounced or the stopping distance were larger, the force would be reduced. This is why hammers are made of hard materials—they don't compress on impact, maximizing the force transmitted to the nail.
+
+(a) The duration of the impact is approximately $$ 2.86 \times 10^{-3} \s $$ (about 3 milliseconds).
+
+(b) The average force exerted on the nail is approximately $$ 1.10 \times 10^{3} \N $$ (about 250 pounds).
 
 </div>
 </div>

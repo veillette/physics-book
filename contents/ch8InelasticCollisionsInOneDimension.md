@@ -317,7 +317,9 @@ A 0.240-kg billiard ball that is moving at 3.00 m/s strikes the bumper of a pool
 
 For part (a), we use the impulse-momentum theorem. The ball reverses direction, so the change in momentum includes both the original momentum and the rebound momentum. For parts (b) and (c), we compare kinetic energies before and after.
 
-**Solution for (a)**
+**Solution**
+
+**Part (a)**
 
 Let positive be the initial direction of motion. The ball reverses direction, so the final velocity is negative.
 
@@ -329,7 +331,7 @@ $$ F\_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.30 \kg \cdot \ms}{0.01
 
 The average force on the ball is 86.4 N directed away from the bumper (opposite to the ball's initial motion).
 
-**Solution for (b)**
+**Part (b)**
 
 Initial kinetic energy:
 
@@ -345,7 +347,7 @@ $$ \Delta \KE = \KE_i - \KE_f = 1.08 \J - 0.691 \J = 0.389 \J $$
 
 The kinetic energy lost during the collision is 0.389 J.
 
-**Solution for (c)**
+**Part (c)**
 
 $$ \text{Percent remaining} = \frac{\KE_f}{\KE_i} \times 100\% = \frac{0.691 \J}{1.08 \J} \times 100\% = 64.0\% $$
 
@@ -370,7 +372,9 @@ During an ice show, a 60.0-kg skater leaps into the air and is caught by an init
 
 This is a perfectly inelastic collision where the skaters stick together. We use conservation of momentum to find the final velocity, then compare kinetic energies.
 
-**Solution for (a)**
+**Solution**
+
+**Part (a)**
 
 Apply conservation of momentum:
 
@@ -386,7 +390,7 @@ $$ v_f = \frac{240 \kg \cdot \ms}{135 \kg} = 1.78 \ms $$
 
 The final velocity of the pair is 1.78 m/s in the direction of the leaping skater's original motion.
 
-**Solution for (b)**
+**Part (b)**
 
 Initial kinetic energy (only the leaping skater is moving):
 
@@ -432,7 +436,9 @@ how much it hurts to catch the pass?
 
 From Example 1, we use: player mass = 110 kg, player velocity = 8.00 m/s, ball mass = 0.410 kg, ball velocity = 25.0 m/s. We apply conservation of momentum and compare kinetic energies for both cases.
 
-**Solution for (a) - Same direction**
+**Solution**
+
+**Part (a) - Same direction**
 
 $$ m_1 v_1 + m_2 v_2 = (m_1 + m_2) v_f $$
 
@@ -444,7 +450,7 @@ $$ v_f = \frac{890.25 \kg \cdot \ms}{110.41 \kg} = 8.06 \ms $$
 
 The final velocity is 8.06 m/s in the original direction.
 
-**Solution for (b) - Energy loss (same direction)**
+**Part (b) - Energy loss (same direction)**
 
 $$ \KE_i = \frac{1}{2}(110 \kg)(8.00 \ms)^2 + \frac{1}{2}(0.410 \kg)(25.0 \ms)^2 = 3520 \J + 128 \J = 3648 \J $$
 
@@ -454,7 +460,7 @@ $$ \Delta \KE = 3586 \J - 3648 \J = -62 \J $$
 
 The kinetic energy lost is approximately 56-62 J.
 
-**Solution for (c) - Opposite directions**
+**Part (c) - Opposite directions**
 
 Ball velocity is now $$ -25.0 \ms $$ (opposite to player):
 
@@ -496,7 +502,9 @@ energy released by the gun powder—significant heat transfer occurs.
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum for part (a) and calculate the total kinetic energy after firing for part (b).
 
-**Solution for (a)**
+**Solution**
+
+**Part (a)**
 
 Initial momentum is zero (ship and shell at rest). Apply conservation of momentum:
 
@@ -508,7 +516,7 @@ $$ v\_{\text{ship}} = -\frac{(1100 \kg)(575 \ms)}{6.00 \times 10^{7} \kg} = -1.0
 
 The recoil velocity of the battleship is $$ 1.05 \times 10^{-2} \ms $$ (about 1 cm/s) in the direction opposite to the shell.
 
-**Solution for (b)**
+**Part (b)**
 
 Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
 
@@ -547,17 +555,105 @@ both.
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.163 m/s in the direction of motion of the more massive satellite
+**Strategy**
 
-(b) 81.6 J
+This is a perfectly inelastic collision (docking). We analyze it in two different reference frames. In each frame, we apply conservation of momentum to find the final velocity, then calculate the kinetic energy loss. The key insight is that while velocities are frame-dependent, energy loss is the same in all inertial frames.
 
-(c) $$ 8.70 \times 10^{-2} \ms $$ in the direction of motion of the less massive
-satellite, 81.5 J. Because there are no external forces, the velocity of the
-center of mass of the two-satellite system is unchanged by the collision. The
-two velocities calculated above are the velocity of the center of mass in each
-of the two different individual reference frames. The loss in KE is the same in
-both reference frames because the KE lost to internal forces (heat, friction,
-etc.) is the same regardless of the coordinate system chosen.
+**Solution**
+
+**Part (a) - Frame where first satellite is at rest**
+
+In this reference frame:
+- First satellite: $$ m_1 = 4.00 \times 10^3 \kg $$, $$ v_1 = 0 $$
+- Second satellite: $$ m_2 = 7.50 \times 10^3 \kg $$, $$ v_2 = 0.250 \ms $$ (approaching)
+
+Apply conservation of momentum:
+
+<div class="equation">
+$$ m_1 v_1 + m_2 v_2 = (m_1 + m_2) v_f $$
+</div>
+
+<div class="equation">
+$$ (4.00 \times 10^3 \kg)(0) + (7.50 \times 10^3 \kg)(0.250 \ms) = (11.5 \times 10^3 \kg) v_f $$
+</div>
+
+<div class="equation">
+$$ 1875 \kg \cdot \ms = (11500 \kg) v_f $$
+</div>
+
+<div class="equation">
+$$ v_f = \frac{1875}{11500} = 0.163 \ms $$
+</div>
+
+The final velocity is 0.163 m/s in the direction of motion of the more massive satellite.
+
+**Part (b) - Energy loss**
+
+Initial kinetic energy (only satellite 2 is moving in this frame):
+
+<div class="equation">
+$$ \KE_i = \frac{1}{2} m_2 v_2^2 = \frac{1}{2}(7.50 \times 10^3 \kg)(0.250 \ms)^2 = 234 \J $$
+</div>
+
+Final kinetic energy:
+
+<div class="equation">
+$$ \KE_f = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(11.5 \times 10^3 \kg)(0.163 \ms)^2 = 153 \J $$
+</div>
+
+Energy lost:
+
+<div class="equation">
+$$ \Delta \KE = \KE_f - \KE_i = 153 \J - 234 \J = -81 \J $$
+</div>
+
+The kinetic energy lost is approximately 81.6 J.
+
+**Part (c) - Frame where second satellite is at rest**
+
+In this reference frame:
+- First satellite: $$ m_1 = 4.00 \times 10^3 \kg $$, $$ v_1 = -0.250 \ms $$ (approaching)
+- Second satellite: $$ m_2 = 7.50 \times 10^3 \kg $$, $$ v_2 = 0 $$
+
+Apply conservation of momentum:
+
+<div class="equation">
+$$ (4.00 \times 10^3 \kg)(-0.250 \ms) + (7.50 \times 10^3 \kg)(0) = (11.5 \times 10^3 \kg) v_f $$
+</div>
+
+<div class="equation">
+$$ -1000 \kg \cdot \ms = (11500 \kg) v_f $$
+</div>
+
+<div class="equation">
+$$ v_f = -\frac{1000}{11500} = -0.0870 \ms $$
+</div>
+
+The final velocity is $$ 8.70 \times 10^{-2} \ms $$ in the direction of motion of the less massive satellite.
+
+Energy loss in this frame:
+
+Initial kinetic energy:
+
+<div class="equation">
+$$ \KE_i = \frac{1}{2} m_1 v_1^2 = \frac{1}{2}(4.00 \times 10^3 \kg)(0.250 \ms)^2 = 125 \J $$
+</div>
+
+Final kinetic energy:
+
+<div class="equation">
+$$ \KE_f = \frac{1}{2}(11.5 \times 10^3 \kg)(0.0870 \ms)^2 = 43.5 \J $$
+</div>
+
+<div class="equation">
+$$ \Delta \KE = 43.5 \J - 125 \J = -81.5 \J $$
+</div>
+
+The energy loss is approximately 81.5 J, the same as in part (b).
+
+**Discussion**
+
+The final velocities differ in the two reference frames (0.163 m/s vs. -0.0870 m/s) because velocity is frame-dependent. However, the kinetic energy loss is essentially the same in both frames (81.6 J vs. 81.5 J). This is because the energy lost to internal forces—converted to heat, deformation, and vibration during docking—is an invariant quantity independent of the reference frame. The center of mass of the system moves at constant velocity in both frames since there are no external forces, and the energy dissipated in the collision is the same regardless of which frame we use to observe it.
 
 </div>
 </div>
@@ -578,7 +674,9 @@ a hopper that dumps 110 000 kg of scrap metal into it.
 
 This is a perfectly inelastic collision where the scrap metal (initially at rest horizontally) joins the moving freight car. We apply conservation of horizontal momentum.
 
-**Solution for (a)**
+**Solution**
+
+**Part (a)**
 
 The scrap metal has no horizontal velocity before landing in the car. Apply conservation of momentum:
 
@@ -592,7 +690,7 @@ $$ v_f = \frac{25500 \kg \cdot \ms}{140000 \kg} = 0.182 \ms $$
 
 The final velocity of the loaded freight car is 0.182 m/s.
 
-**Solution for (b)**
+**Part (b)**
 
 Initial kinetic energy:
 
@@ -685,7 +783,9 @@ A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg r
 
 We use conservation of momentum to find recoil velocities. The rifle (or rifle-shoulder system) recoils with momentum equal and opposite to the bullet. Then we calculate kinetic energies.
 
-**Solution for (a)**
+**Solution**
+
+**Part (a)**
 
 Conservation of momentum (initially at rest):
 
@@ -695,13 +795,13 @@ $$ v_{\text{rifle}} = -\frac{m_{\text{bullet}} v_{\text{bullet}}}{m_{\text{rifle
 
 The rifle recoils at 4.58 m/s away from the bullet.
 
-**Solution for (b)**
+**Part (b)**
 
 $$ \KE_{\text{rifle}} = \frac{1}{2} m_{\text{rifle}} v\_{\text{rifle}}^2 = \frac{1}{2}(3.00 \kg)(4.58 \ms)^2 = 31.5 \J $$
 
 The rifle gains 31.5 J of kinetic energy.
 
-**Solution for (c)**
+**Part (c)**
 
 With effective mass of 28.0 kg (rifle + shoulder):
 
@@ -709,13 +809,13 @@ $$ v\_{\text{system}} = -\frac{(0.0250 \kg)(550 \ms)}{28.0 \kg} = -0.491 \ms $$
 
 The recoil velocity is 0.491 m/s when held tightly.
 
-**Solution for (d)**
+**Part (d)**
 
 $$ \KE\_{\text{system}} = \frac{1}{2}(28.0 \kg)(0.491 \ms)^2 = 3.38 \J $$
 
 Only 3.38 J of kinetic energy is transferred to the rifle-shoulder combination.
 
-**Solution for (e)**
+**Part (e)**
 
 Football player momentum: $$ p = (110 \kg)(8.00 \ms) = 880 \kg \cdot \ms $$
 
@@ -757,7 +857,9 @@ given here are accurate to three digits only.
 
 This is similar to an explosion problem: initial momentum is zero, and energy is released. We use conservation of momentum and the kinetic energy equation to solve for both velocities.
 
-**Solution for (a)**
+**Solution**
+
+**Part (a)**
 
 Conservation of momentum (plutonium initially at rest):
 
@@ -783,7 +885,7 @@ $$ v\_{\text{U}} = -0.01704 (1.57 \times 10^{7} \ms) = -2.68 \times 10^{5} \ms $
 
 The helium nucleus moves at $$ 1.57 \times 10^{7} \ms $$ and the uranium nucleus moves at $$ 2.68 \times 10^{5} \ms $$ in the opposite direction.
 
-**Solution for (b)**
+**Part (b)**
 
 $$ \KE\_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.23 \times 10^{-13} \J $$
 
@@ -819,15 +921,91 @@ these results?
 
 </div>
 <div class="solution"  markdown="1">
-(a) $$ 1.02 \times 10^{-6} \ms $$
+**Strategy**
 
-(b) $$ 5.63 \times 10^{20} \J $$ (almost all KE lost)
+This problem involves perfectly inelastic collisions where an object strikes the Moon and sticks to it. We use conservation of momentum to find the Moon's recoil velocity, then calculate the kinetic energy before and after collision. The Moon's enormous mass means it barely moves, but significant energy is dissipated.
 
-(c) Recoil speed is $$6.79 \times 10^{-17} \ms $$, energy lost is $$6.25 \times
-10^{9} \J $$. The plume will not affect the momentum result because the plume is
-still part of the Moon system. The plume may affect the kinetic energy result
-because a significant part of the initial kinetic energy may be transferred to
-the kinetic energy of the plume particles.
+**Solution**
+
+**Part (a) - Asteroid collision**
+
+Given:
+- Asteroid mass: $$ m_a = 5.00 \times 10^{12} \kg $$
+- Asteroid velocity: $$ v_a = 15.0 \text{ km/s} = 1.50 \times 10^4 \ms $$
+- Moon mass: $$ m_M = 7.36 \times 10^{22} \kg $$
+- Moon initial velocity: $$ v_M = 0 $$ (in Moon's reference frame)
+
+Apply conservation of momentum:
+
+<div class="equation">
+$$ m_a v_a + m_M v_M = (m_a + m_M) v_f $$
+</div>
+
+<div class="equation">
+$$ (5.00 \times 10^{12} \kg)(1.50 \times 10^4 \ms) + 0 = (m_a + m_M) v_f $$
+</div>
+
+Since $$ m_M \gg m_a $$, we have $$ m_a + m_M \approx m_M $$:
+
+<div class="equation">
+$$ v_f = \frac{m_a v_a}{m_M} = \frac{(5.00 \times 10^{12} \kg)(1.50 \times 10^4 \ms)}{7.36 \times 10^{22} \kg} = 1.02 \times 10^{-6} \ms $$
+</div>
+
+The Moon recoils at approximately $$ 1.02 \times 10^{-6} \ms $$ (about 1 micrometer per second).
+
+**Part (b) - Energy lost in asteroid collision**
+
+Initial kinetic energy (only asteroid moving):
+
+<div class="equation">
+$$ \KE_i = \frac{1}{2} m_a v_a^2 = \frac{1}{2}(5.00 \times 10^{12} \kg)(1.50 \times 10^4 \ms)^2 = 5.625 \times 10^{20} \J $$
+</div>
+
+Final kinetic energy:
+
+<div class="equation">
+$$ \KE_f = \frac{1}{2}(m_a + m_M) v_f^2 \approx \frac{1}{2}(7.36 \times 10^{22} \kg)(1.02 \times 10^{-6} \ms)^2 = 3.83 \times 10^{10} \J $$
+</div>
+
+Energy lost:
+
+<div class="equation">
+$$ \Delta \KE = \KE_f - \KE_i = 3.83 \times 10^{10} \J - 5.625 \times 10^{20} \J \approx -5.63 \times 10^{20} \J $$
+</div>
+
+Essentially all of the asteroid's kinetic energy ($$ 5.63 \times 10^{20} \J $$) is lost, converted to heat, crater formation, vaporization, and seismic waves.
+
+**Part (c) - NASA rocket experiment (2009)**
+
+Given:
+- Rocket mass: $$ m_r = 2000 \kg $$
+- Rocket speed: $$ v_r = 9000 \text{ km/h} = \frac{9000 \times 10^3 \text{ m}}{3600 \text{ s}} = 2500 \ms $$
+
+Recoil velocity:
+
+<div class="equation">
+$$ v_f = \frac{m_r v_r}{m_M} = \frac{(2000 \kg)(2500 \ms)}{7.36 \times 10^{22} \kg} = 6.79 \times 10^{-17} \ms $$
+</div>
+
+The Moon's recoil velocity is $$ 6.79 \times 10^{-17} \ms $$ (essentially unmeasurable).
+
+Energy lost:
+
+<div class="equation">
+$$ \KE_i = \frac{1}{2}(2000 \kg)(2500 \ms)^2 = 6.25 \times 10^9 \J $$
+</div>
+
+<div class="equation">
+$$ \KE_f = \frac{1}{2}(7.36 \times 10^{22} \kg)(6.79 \times 10^{-17} \ms)^2 = 1.7 \times 10^{-10} \J $$
+</div>
+
+Energy lost is approximately $$ 6.25 \times 10^9 \J $$ (6.25 GJ).
+
+Regarding the plume: The plume consists of ejected material from the Moon's surface. Since this material remains part of the Moon system (gravitationally bound), it does not affect the momentum conservation calculation—the total momentum of the Moon plus plume equals the rocket's initial momentum. However, the plume carries kinetic energy as particles are ejected at high speeds. This means some of the initial kinetic energy goes into the plume's motion rather than being completely converted to heat and deformation. The energy measured as "lost" (converted to heat) may be somewhat less than our calculation suggests, because we haven't separately accounted for the plume's kinetic energy.
+
+**Discussion**
+
+The Moon barely recoils in either collision due to its enormous mass—it's about 15 trillion times more massive than the asteroid and about 37 billion times more massive than the rocket. In the asteroid collision, over 99.99999% of the kinetic energy is dissipated, creating the crater, vaporizing rock, generating heat, and producing seismic waves that medieval monks may have observed as a "red glow." The NASA experiment converted all 6.25 GJ of the rocket's kinetic energy into crater formation, vaporization, and the plume—which allowed scientists to analyze the ejected material and discover water ice in the lunar regolith. These examples illustrate why impacts with astronomical bodies are so devastating: the energy cannot go into moving the massive planet or moon, so it must be dissipated locally through destructive processes.
 
 </div>
 </div>
@@ -950,7 +1128,9 @@ The performer recoils at a modest 1.07 m/s (about 3.8 km/h or walking speed) des
 
 This is an "explosion" type problem where an initially stationary system separates into two parts. We use conservation of momentum to find the barbell's mass, then calculate the total kinetic energy gained.
 
-**Solution for (a)**
+**Solution**
+
+**Part (a)**
 
 Conservation of momentum (initial momentum = 0):
 
@@ -966,7 +1146,7 @@ $$ m\_{\text{barbell}} = \frac{40.0 \kg \cdot \ms}{10.0 \ms} = 4.00 \kg $$
 
 The mass of the barbell is 4.00 kg.
 
-**Solution for (b)**
+**Part (b)**
 
 Initial kinetic energy: $$ \KE_i = 0 $$ (both at rest)
 
@@ -980,7 +1160,7 @@ $$ \KE_f = 10.0 \J + 200 \J = 210 \J $$
 
 The kinetic energy gained is 210 J.
 
-**Solution for (c)**
+**Part (c)**
 
 The kinetic energy comes from the chemical potential energy stored in the clown's muscles. When the clown throws the barbell, her muscles do work by converting ATP (adenosine triphosphate) chemical energy into mechanical energy. This is an internal energy conversion—the clown expends metabolic energy to create the kinetic energy of both the barbell and herself.
 

@@ -248,11 +248,51 @@ Explicitly show how you follow the steps in the [Problem-Solving Strategy for Le
 
 </div>
 <div class="solution"  markdown="1">
-(a) CCW
+**Strategy**
 
-(b) CW
+We follow the problem-solving strategy for Lenz's Law: First, identify the direction of the magnetic field from coil 1. Then determine whether the flux through coil 2 is increasing or decreasing. Next, find the direction of the induced field in coil 2 that opposes this change. Finally, use RHR-2 to determine the induced current direction.
 
-(c) No current induced
+**Solution for (a): Current in coil 1 increases**
+
+Following the steps:
+
+1. Sketch: Coil 1 has current I flowing counterclockwise (as shown in Figure 4a)
+2. By RHR-2, the magnetic field from coil 1 points out of the page through coil 2
+3. If current in coil 1 increases, the magnetic flux through coil 2 increases (field pointing out increases)
+4. The induced magnetic field in coil 2 must oppose this increase by pointing into the page
+5. By RHR-2, a clockwise current in coil 2 produces a field into the page
+
+**Answer for (a):** The induced current in coil 2 is clockwise (CW).
+
+**Solution for (b): Current in coil 1 decreases**
+
+Following the steps:
+
+1. The magnetic field from coil 1 still points out of the page
+2. If current in coil 1 decreases, the flux through coil 2 decreases
+3. The induced field in coil 2 must oppose this decrease by pointing out of the page (same direction as original field)
+4. By RHR-2, a counterclockwise current in coil 2 produces a field out of the page
+
+**Answer for (b):** The induced current in coil 2 is counterclockwise (CCW).
+
+**Solution for (c): Current in coil 1 is constant**
+
+Following the steps:
+
+1. If current is constant, the magnetic field from coil 1 is constant
+2. The magnetic flux through coil 2 is not changing ($$\Delta\Phi = 0$$)
+3. By Faraday's law: $$\text{emf} = -N\frac{\Delta\Phi}{\Delta t} = 0$$
+4. No emf means no induced current
+
+**Answer for (c):** No current is induced in coil 2.
+
+**Discussion**
+
+This problem demonstrates the key principle of electromagnetic induction: only a *changing* magnetic flux induces an emf. A steady magnetic field, no matter how strong, produces no induced current. Lenz's law ensures that the induced current always opposes the change that produces it, which is a manifestation of energy conservation.
+
+**Final Answer**
+
+(a) Clockwise (CW); (b) Counterclockwise (CCW); (c) No current induced.
 
 </div>
 </div>
@@ -321,11 +361,69 @@ Referring to [[Figure 5]](#Figure5), what are the directions of the currents in 
 
 </div>
 <div class="solution" markdown="1">
-(a) 1 CCW, 2 CCW, 3 CW
+**Strategy**
 
-(b) 1, 2, and 3 no current induced
+We apply Lenz's law to each coil. When the switch closes, current begins flowing in the main coil, creating a magnetic field. When the switch has been closed for a long time, the current and field are constant. When the switch opens, the current and field decrease to zero. Each nearby coil (1, 2, and 3) experiences a change in magnetic flux, inducing currents that oppose these changes.
 
-(c) 1 CW, 2 CW, 3 CCW
+**Solution for (a): When the switch is first closed**
+
+When the switch closes, current starts flowing through the main coil (clockwise as viewed from above based on battery polarity). This creates a magnetic field.
+
+For **Coil 1** (to the left of main coil):
+- Flux through coil 1 is increasing (field pointing right through it)
+- Induced field must oppose this increase by pointing left
+- By RHR-2, a counterclockwise current (viewed from the main coil) creates a field pointing left
+- **Coil 1: CCW**
+
+For **Coil 2** (to the right of main coil):
+- Flux through coil 2 is increasing (field pointing left through it)
+- Induced field must oppose this increase by pointing right
+- By RHR-2, a counterclockwise current (viewed from the main coil) creates a field pointing right
+- **Coil 2: CCW**
+
+For **Coil 3** (above main coil):
+- Flux through coil 3 is increasing (field pointing up through it from the loops of the main coil)
+- Induced field must oppose this increase by pointing down
+- By RHR-2, a clockwise current (viewed from above) creates a field pointing down
+- **Coil 3: CW**
+
+**Solution for (b): When the switch has been closed for a long time**
+
+After a long time, the current in the main coil is constant (steady state).
+- The magnetic field is constant
+- No change in flux: $$\Delta\Phi = 0$$
+- By Faraday's law: $$\text{emf} = -N\frac{\Delta\Phi}{\Delta t} = 0$$
+- **All coils (1, 2, and 3): No current induced**
+
+**Solution for (c): Just after the switch is opened**
+
+When the switch opens, current in the main coil drops to zero rapidly. The magnetic field decreases.
+
+For **Coil 1**:
+- Flux through coil 1 is decreasing (field pointing right is decreasing)
+- Induced field must oppose this decrease by pointing right (same direction as original)
+- By RHR-2, a clockwise current creates a field pointing right
+- **Coil 1: CW**
+
+For **Coil 2**:
+- Flux through coil 2 is decreasing (field pointing left is decreasing)
+- Induced field must oppose this decrease by pointing left (same direction as original)
+- By RHR-2, a clockwise current creates a field pointing left
+- **Coil 2: CW**
+
+For **Coil 3**:
+- Flux through coil 3 is decreasing (field pointing up is decreasing)
+- Induced field must oppose this decrease by pointing up (same direction as original)
+- By RHR-2, a counterclockwise current (viewed from above) creates a field pointing up
+- **Coil 3: CCW**
+
+**Discussion**
+
+Notice that when the field is increasing (switch closes), the induced currents create fields that oppose the increase. When the field is decreasing (switch opens), the induced currents create fields that oppose the decrease—trying to maintain the original field. This is Lenz's law in action: induced effects always oppose the change causing them. This is consistent with energy conservation—if induced currents aided the change, we would have a runaway positive feedback system.
+
+**Final Answer**
+
+(a) Coil 1: CCW, Coil 2: CCW, Coil 3: CW; (b) All coils: no current induced; (c) Coil 1: CW, Coil 2: CW, Coil 3: CCW.
 
 </div>
 </div>
@@ -476,11 +574,71 @@ The induced emf is 188 V, and the induced current flows clockwise when viewed fr
 
 </div>
 <div class="solution" markdown="1">
-(a) 3.04 mV
-{: class="newline"}
+**Strategy**
 
-(b) As a lower limit on the ring, estimate R = 1.00 mΩ. The heat transferred
-will be 2.31 mJ. This is not a significant amount of heat.
+The ring moves from near-zero field into a 2.00 T field. The magnetic flux through the ring changes from approximately zero to $$\Phi = BA$$, where $$A$$ is the ring's area. We use Faraday's law $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$ to find the induced emf. For part (b), we estimate the current using Ohm's law and calculate the heating using $$Q = I^2 R t$$.
+
+**Solution for (a)**
+
+The ring's radius is:
+
+<div class="equation">
+$$r = \frac{d}{2} = \frac{0.0220 \text{ m}}{2} = 0.0110 \text{ m}$$
+</div>
+
+The ring's area is:
+
+<div class="equation">
+$$A = \pi r^2 = \pi(0.0110)^2 = 3.80 \times 10^{-4} \text{ m}^2$$
+</div>
+
+The change in magnetic flux is:
+
+<div class="equation">
+$$\Delta\Phi = B_{\text{final}}A - B_{\text{initial}}A = (2.00)(3.80 \times 10^{-4}) - 0 = 7.60 \times 10^{-4} \text{ Wb}$$
+</div>
+
+The magnitude of induced emf is:
+
+<div class="equation">
+$$|\text{emf}| = \frac{\Delta\Phi}{\Delta t} = \frac{7.60 \times 10^{-4}}{0.250} = 3.04 \times 10^{-3} \text{ V} = 3.04 \text{ mV}$$
+</div>
+
+**Solution for (b)**
+
+To estimate heating, we need to know the ring's resistance. For a gold wedding ring, a reasonable lower estimate is $$R = 1.00 \text{ m}\Omega = 1.00 \times 10^{-3} \Omega$$.
+
+The induced current during the 0.250 s interval is:
+
+<div class="equation">
+$$I = \frac{\text{emf}}{R} = \frac{3.04 \times 10^{-3}}{1.00 \times 10^{-3}} = 3.04 \text{ A}$$
+</div>
+
+The energy dissipated as heat is:
+
+<div class="equation">
+$$Q = I^2 R t = (3.04)^2(1.00 \times 10^{-3})(0.250) = 2.31 \times 10^{-3} \text{ J} = 2.31 \text{ mJ}$$
+</div>
+
+This is a very small amount of energy. To put it in perspective, the specific heat of gold is about 129 J/(kg·°C). For a typical 5-gram ring:
+
+<div class="equation">
+$$\Delta T = \frac{Q}{mc} = \frac{2.31 \times 10^{-3}}{(0.005)(129)} \approx 0.0036 \text{ °C}$$
+</div>
+
+This temperature rise is negligible and would not be noticeable.
+
+**Discussion**
+
+While the induced emf is measurable (3.04 mV), the actual heating effect is negligible due to the ring's low resistance and the brief duration. However, MRI technicians are still advised to remove all metal jewelry because:
+1. Faster movements or stronger field gradients could induce larger currents
+2. The ring could experience mechanical forces in the strong magnetic field
+3. The ring could distort the MRI images
+4. In some cases with thin rings or people with poor circulation, even small heating could be uncomfortable
+
+**Final Answer**
+
+(a) The average induced emf is 3.04 mV. (b) The heat transferred would be approximately 2.31 mJ, causing a negligible temperature rise of about 0.004 °C. This is not a significant amount of heat and would not be noticed by the wearer.
 
 </div>
 </div>
@@ -540,12 +698,64 @@ The small power dissipation (less than 1 mW) explains why the ring doesn't heat 
 
 <div class="exercise">
 <div class="problem" markdown="1">
-An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s  $$ 5.00 \times 10^{-5}  \text{T} $$
- magnetic field. What average emf is induced, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?
+An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth's  $$ 5.00 \times 10^{-5}  \text{T} $$
+ magnetic field. What average emf is induced, given the plane of the coil is originally perpendicular to the Earth's field and is rotated to be parallel to the field in 10.0 ms?
 
 </div>
 <div class="solution" markdown="1">
-0.157 V
+**Strategy**
+
+When the coil plane is perpendicular to the Earth's field, maximum flux passes through it: $$\Phi_i = BA\cos(0°) = BA$$. When rotated to be parallel to the field, no flux passes through: $$\Phi_f = BA\cos(90°) = 0$$. We use Faraday's law $$\text{emf} = N\frac{\Delta\Phi}{\Delta t}$$ to find the average induced emf.
+
+**Solution**
+
+The coil radius is:
+
+<div class="equation">
+$$r = \frac{d}{2} = \frac{0.200 \text{ m}}{2} = 0.100 \text{ m}$$
+</div>
+
+The coil area is:
+
+<div class="equation">
+$$A = \pi r^2 = \pi(0.100)^2 = 0.0314 \text{ m}^2$$
+</div>
+
+The initial flux (perpendicular orientation):
+
+<div class="equation">
+$$\Phi_i = BA = (5.00 \times 10^{-5})(0.0314) = 1.57 \times 10^{-6} \text{ Wb}$$
+</div>
+
+The final flux (parallel orientation):
+
+<div class="equation">
+$$\Phi_f = 0$$
+</div>
+
+The change in flux:
+
+<div class="equation">
+$$\Delta\Phi = \Phi_f - \Phi_i = 0 - 1.57 \times 10^{-6} = -1.57 \times 10^{-6} \text{ Wb}$$
+</div>
+
+The magnitude of average induced emf:
+
+<div class="equation">
+$$|\text{emf}| = N\frac{|\Delta\Phi|}{\Delta t} = 1000 \times \frac{1.57 \times 10^{-6}}{10.0 \times 10^{-3}}$$
+</div>
+
+<div class="equation">
+$$|\text{emf}| = 1000 \times 1.57 \times 10^{-4} = 0.157 \text{ V}$$
+</div>
+
+**Discussion**
+
+Despite the Earth's weak magnetic field (only 50 μT), a measurable emf of 157 mV is produced due to the large number of turns (1000) in the coil. This demonstrates the principle behind generators: even weak magnetic fields can produce useful voltages when combined with multiple coil turns and rapid rotation. The rapid 10 ms rotation time (equivalent to 100 rotations per second) also contributes significantly to the induced emf.
+
+**Final Answer**
+
+The average induced emf is 0.157 V (or 157 mV).
 
 </div>
 </div>
@@ -604,7 +814,55 @@ depend on the distance of the center of the loop from the wire?
 
 </div>
 <div class="solution" markdown="1">
-proportional to  $$\frac{1}{\text{r}} $$
+**Strategy**
+
+The magnetic field from a long straight wire is $$B = \frac{\mu_0 I}{2\pi r}$$, where $$r$$ is the distance from the wire. For a small loop at distance $$r$$, the flux is approximately $$\Phi \approx BA$$, where $$A$$ is the loop area. When the current changes, the induced emf depends on how the flux changes: $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
+
+**Solution**
+
+The magnetic field from the wire at distance $$r$$ is:
+
+<div class="equation">
+$$B = \frac{\mu_0 I}{2\pi r}$$
+</div>
+
+For a loop of area $$A$$ positioned at distance $$r$$ from the wire (assuming the loop is small compared to $$r$$):
+
+<div class="equation">
+$$\Phi \approx BA = \frac{\mu_0 I A}{2\pi r}$$
+</div>
+
+When the current changes by $$\Delta I$$ in time $$\Delta t$$:
+
+<div class="equation">
+$$\Delta\Phi = \frac{\mu_0 A \Delta I}{2\pi r}$$
+</div>
+
+The induced emf is:
+
+<div class="equation">
+$$\text{emf} = \frac{\Delta\Phi}{\Delta t} = \frac{\mu_0 A}{2\pi r} \cdot \frac{\Delta I}{\Delta t}$$
+</div>
+
+Since $$\mu_0$$, $$A$$, and $$\frac{\Delta I}{\Delta t}$$ are constants (or specified parameters), we can write:
+
+<div class="equation">
+$$\text{emf} \propto \frac{1}{r}$$
+</div>
+
+**Discussion**
+
+The induced emf is inversely proportional to the distance from the wire. This makes physical sense because:
+1. The magnetic field from the wire decreases as $$1/r$$
+2. The flux through the loop therefore also decreases as $$1/r$$
+3. The rate of change of flux (which determines emf) follows the same $$1/r$$ dependence
+
+This means that if you double the distance from the wire, the induced emf is halved. If you move 10 times farther away, the induced emf becomes 1/10 of its original value. This inverse relationship is characteristic of fields produced by long straight wires and is important for understanding electromagnetic induction in practical situations like power lines and electrical circuits.
+
+**Final Answer**
+
+The induced emf is approximately proportional to $$\frac{1}{r}$$, where $$r$$ is the distance from the center of the loop to the wire.
+
 </div>
 </div>
 

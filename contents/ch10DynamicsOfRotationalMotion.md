@@ -445,6 +445,14 @@ $$ t = \frac{\omega}{\alpha} = \frac{1.50 \text{ rad/s}}{4.80 \radss} = 0.313 \s
 
 Notice that applying a larger force (300 N vs 250 N) at a slightly smaller radius (1.35 m vs 1.50 m) produces a larger torque (405 N·m vs 375 N·m), resulting in a faster deceleration than the original acceleration. This is why the stopping time (0.313 s) is slightly less than the time needed to reach the same angular velocity (0.338 s).
 
+**Answer**
+
+(a) It takes **0.338 s** to reach 1.50 rad/s.
+
+(b) He goes through **0.0403 revolutions** (about 14.5 degrees).
+
+(c) It takes **0.313 s** to stop them.
+
 </div>
 </div>
 
@@ -499,6 +507,12 @@ $$ I_{\text{total}} = I_{\text{body}} + I_{\text{arms}} = 0.318 \kg \cdot \mm + 
 
 Extending the arms increases the moment of inertia by a factor of about 6.4 (from 0.363 to 2.34 kg·m²). This dramatic increase is why figure skaters spin faster when they pull their arms in—angular momentum is conserved, so reducing I causes ω to increase proportionally.
 
+**Answer**
+
+(a) The moment of inertia as a cylinder is **0.363 kg·m²**.
+
+(b) With arms extended, the moment of inertia is **2.34 kg·m²**.
+
 </div>
 </div>
 
@@ -534,6 +548,10 @@ $$ I = \frac{\tau}{\alpha} = \frac{60.0 \N \cdot \m}{120 \radss} = 0.50 \kg \cdo
 **Discussion**
 
 This moment of inertia is reasonable for a human forearm. The small lever arm (3.00 cm) requires a large muscle force (2000 N) to produce significant torque, which is characteristic of the human body's biomechanics—muscles insert close to joints for compact design, trading mechanical advantage for range of motion.
+
+**Answer**
+
+The moment of inertia of the boxer's forearm is **0.50 kg·m²**.
 
 </div>
 </div>
@@ -571,6 +589,10 @@ $$ F = \frac{\tau}{r} = \frac{22.5 \N \cdot \m}{0.0190 \m} = 1.18 \times 10^3 \N
 **Discussion**
 
 The quadriceps muscle must exert about 1200 N (roughly 270 lbs of force) to produce this angular acceleration of the lower leg. As in the boxer example, the small lever arm (1.90 cm) means the muscle must exert a large force. This is typical of biological systems, where muscles sacrifice mechanical advantage for compact anatomy and a greater range of motion.
+
+**Answer**
+
+The muscle force is **1.18 × 10³ N** (or **1180 N**).
 
 </div>
 </div>
@@ -632,6 +654,14 @@ $$ \alpha = \frac{\tau_{\text{net}}}{I} = \frac{50.1 \N \cdot \m}{2.94 \kg \cdot
 
 The friction barely affects the angular acceleration because it acts very close to the axis (1.50 cm). Even though 20 N is a significant force, the small lever arm means the friction torque is only 0.300 N·m—less than 1% of the applied torque. Friction would be much more effective at slowing the grindstone if it acted at a larger radius.
 
+**Answer**
+
+(a) The torque is **50.4 N·m**.
+
+(b) With no friction, the angular acceleration is **17.1 rad/s²**.
+
+(c) With friction, the angular acceleration is **17.0 rad/s²**.
+
 </div>
 </div>
 
@@ -692,6 +722,14 @@ $$ t = \frac{\omega - \omega_0}{\alpha} = \frac{80.0 \text{ rad/s} - 0}{98.2 \ra
 **Discussion**
 
 The wheel reaches 80.0 rad/s (about 760 rpm) in less than a second, which corresponds to a linear speed of v = Rω = (0.330)(80.0) = 26.4 m/s ≈ 95 km/h at the tire's edge. The relatively small moment of inertia allows for quick acceleration, which is important for motorcycle performance.
+
+**Answer**
+
+(a) The angular acceleration is **98.2 rad/s²**.
+
+(b) The tangential acceleration at the outer edge is **32.4 m/s²**.
+
+(c) It takes **0.815 s** to reach 80.0 rad/s.
 
 </div>
 </div>
@@ -771,6 +809,10 @@ $$ t = \frac{3.96 \times 10^{18} \s}{3.156 \times 10^7 \text{ s/y}} = 1.26 \time
 
 Superman has plenty of time—126 billion years is about 9 times the current age of the universe! This illustrates the enormous moment of inertia of Earth. Even with a force greater than a Saturn V rocket, the tiny angular deceleration (about 10⁻²⁴ rad/s²) means Zorch's plan is essentially impossible on any practical timescale.
 
+**Answer**
+
+Zorch would need to push for **1.26 × 10¹¹ years** (126 billion years) to slow Earth's rotation to once per 28.0 hours.
+
 </div>
 </div>
 
@@ -846,6 +888,10 @@ $$ \alpha = \frac{\tau}{I} = \frac{190 \N \cdot \m}{2.95 \kg \cdot \mm} = 64.4 \
 
 The wheels dominate the total moment of inertia—they account for over 99% of it. The axle and drive shaft contribute negligibly because their mass is concentrated near the axis of rotation (small radii). This is why performance cars use lightweight wheels: reducing wheel mass has a much greater effect on acceleration than reducing the mass of central components like the axle.
 
+**Answer**
+
+The angular acceleration is **64.4 rad/s²**.
+
 </div>
 </div>
 
@@ -864,6 +910,57 @@ I_\text{end}= I_{\text{center}}+m \left(\frac{l}{2}\right)^{2}\\
 \text{Thus,} I_{\text{center}}= I_{\text{end}}-\frac{1}{4}m l^{2} =\frac{1}
 {3}m l^{2} -\frac{1}{4}m l^{2} =\frac{1}{12} m l^{2}
 \end{array} $$
+
+</div>
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+<parameter name="problem" markdown="1">
+
+Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
+$$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
+center perpendicular to its length is $$I= M\ell^{2}/12 $$.
+You will find the graphics in [Figure 3](#Figure3) useful in visualizing
+these rotations.
+
+</div>
+<div class="solution" markdown="1">
+
+**Strategy**
+
+We can use the parallel axis theorem to relate the moment of inertia about an axis through the end of the rod to the moment of inertia about an axis through the center. The parallel axis theorem states that $$ I = I_{\text{center}} + Md^2 $$, where d is the distance between the parallel axes. For a rod of length ℓ, the distance from the center to the end is ℓ/2.
+
+**Solution**
+
+Applying the parallel axis theorem to relate rotation about the end to rotation about the center:
+
+<div class="equation">
+$$ I_{\text{end}} = I_{\text{center}} + M\left(\frac{\ell}{2}\right)^2 $$
+</div>
+
+We know that $$ I_{\text{end}} = \frac{1}{3}M\ell^2 $$, so:
+
+<div class="equation">
+$$ \frac{1}{3}M\ell^2 = I_{\text{center}} + M\left(\frac{\ell}{2}\right)^2 $$
+</div>
+
+<div class="equation">
+$$ \frac{1}{3}M\ell^2 = I_{\text{center}} + \frac{1}{4}M\ell^2 $$
+</div>
+
+Solving for $$ I_{\text{center}} $$:
+
+<div class="equation">
+$$ I_{\text{center}} = \frac{1}{3}M\ell^2 - \frac{1}{4}M\ell^2 = \frac{4M\ell^2 - 3M\ell^2}{12} = \frac{1}{12}M\ell^2 $$
+</div>
+
+**Discussion**
+
+This result makes physical sense: the moment of inertia about the center (I = Mℓ²/12) is smaller than about the end (I = Mℓ²/3) because mass is distributed closer to the rotation axis when rotating about the center. The parallel axis theorem is a powerful tool that allows us to calculate moments of inertia about different axes without performing complex integrations. This relationship between Mℓ²/3 and Mℓ²/12 appears frequently in physics problems involving rotating rods.
+
+**Answer**
+
+The moment of inertia of a rod rotated about its center is **I = Mℓ²/12**, as proven using the parallel axis theorem.
 
 </div>
 </div>
@@ -908,6 +1005,14 @@ $$ \Delta t = \frac{I\Delta\omega}{\tau} = \frac{(0.050 \kg \cdot \mm)(-20.0 \te
 **Discussion**
 
 This problem illustrates how unreasonable values for one quantity (moment of inertia) lead to impossible results (2 ms time interval). In reality, a gymnast's moment of inertia in a tucked position is about 2-4 kg·m², and in an extended position, 10-15 kg·m². The absurdly low value given makes the calculation physically meaningless.
+
+**Answer**
+
+(a) The time required is **2.0 ms** (0.002 s).
+
+(b) This is unreasonably short—far less than human reaction time and impossible for physical contact with a mat.
+
+(c) The moment of inertia (0.050 kg·m²) is unreasonably small—about 100 times smaller than a realistic value for a human body.
 
 </div>
 </div>
@@ -980,6 +1085,14 @@ A realistic flywheel for this application might be 200 kg with a 0.5 m radius, w
 **Discussion**
 
 This problem demonstrates the challenges of energy storage in flywheels. While flywheels can store substantial energy, the limits of material strength constrain their design. Modern high-performance flywheels use composite materials and operate in vacuum chambers, but even these have practical limits well below what would cause 50,000g accelerations.
+
+**Answer**
+
+(a) The flywheel would need to spin at **1834 rad/s** (about **17,500 rpm**).
+
+(b) This is unreasonably fast—it would produce over 50,000g acceleration that would destroy the flywheel.
+
+(c) The flywheel is too small and light to store the required energy at achievable speeds; it would need to be much larger (0.5-1.0 m radius) and heavier (200+ kg).
 
 </div>
 </div>

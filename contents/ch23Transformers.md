@@ -261,9 +261,35 @@ A plug-in transformer, like that in [[Figure 4]](#Figure4), supplies 9.00 V to a
 
 </div>
 <div class="solution" markdown="1">
-(a) 30.0
+**Strategy**
 
-(b) $$ 9.75 \times 10^{-2} \text{A} $$
+This is a step-down transformer since the output voltage (9.00 V) is less than the input voltage (120 V). We use the transformer equation $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ for part (a) and the current relationship $$\frac{I_s}{I_p} = \frac{N_p}{N_s}$$ for part (b).
+
+**Solution for (a)**
+
+Solving for $$N_s$$:
+
+<div class="equation">
+$$N_s = N_p \times \frac{V_s}{V_p} = 400 \times \frac{9.00 \text{ V}}{120 \text{ V}} = 400 \times 0.0750 = 30.0 \text{ turns}$$
+</div>
+
+**Solution for (b)**
+
+Solving for $$I_p$$:
+
+<div class="equation">
+$$I_p = I_s \times \frac{N_s}{N_p} = 1.30 \text{ A} \times \frac{30.0}{400} = 1.30 \times 0.0750 = 9.75 \times 10^{-2} \text{ A}$$
+</div>
+
+**Discussion**
+
+As expected for a step-down transformer, the number of turns in the secondary is much less than in the primary (30 vs 400). The input current is also much smaller than the output current, which is characteristic of step-down transformers. We can verify energy conservation: $$P_p = V_p I_p = (120)(0.0975) = 11.7 \text{ W}$$ and $$P_s = V_s I_s = (9.00)(1.30) = 11.7 \text{ W}$$, confirming our calculations.
+
+**Answer**
+
+(a) 30.0 turns
+
+(b) $$ 9.75 \times 10^{-2} \text{ A} $$ or 97.5 mA
 
 </div>
 </div>
@@ -313,6 +339,38 @@ A cassette recorder uses a plug-in transformer to convert 120 V to 12.0 V, with 
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+This is a step-down transformer (120 V to 12.0 V). For an ideal transformer, power is conserved: $$P_p = P_s$$, which means $$V_p I_p = V_s I_s$$. We can use this to find the input current, then calculate the power.
+
+**Solution for (a)**
+
+Using power conservation:
+
+<div class="equation">
+$$I_p = I_s \times \frac{V_s}{V_p} = 200 \text{ mA} \times \frac{12.0 \text{ V}}{120 \text{ V}} = 200 \times 0.100 = 20.0 \text{ mA}$$
+</div>
+
+**Solution for (b)**
+
+The power input is:
+
+<div class="equation">
+$$P_p = V_p I_p = (120 \text{ V})(20.0 \times 10^{-3} \text{ A}) = 2.40 \text{ W}$$
+</div>
+
+We can verify with the output power: $$P_s = V_s I_s = (12.0)(0.200) = 2.40 \text{ W}$$ ✓
+
+**Solution for (c)**
+
+Yes, 2.40 W is quite reasonable for a small appliance like a cassette recorder. This is a very modest power consumption, typical of portable electronic devices that use batteries or small power supplies.
+
+**Discussion**
+
+The voltage is reduced by a factor of 10, and correspondingly the input current is 1/10 of the output current, maintaining power conservation. This small power requirement explains why such devices can run on batteries for extended periods.
+
+**Answer**
+
 (a) 20.0 mA
 
 (b) 2.40 W
@@ -369,9 +427,41 @@ This step-down transformer reduces voltage by a factor of 125, suitable for char
 
 </div>
 <div class="solution" markdown="1">
-(a) 0.063 A
+**Strategy**
 
-(b) Greater input current needed.
+For part (a), we use power conservation for an ideal transformer: $$P_p = P_s$$, which gives $$V_p I_p = V_s I_s$$. For part (b), we consider what happens when some power is lost to heat in a real transformer.
+
+**Solution for (a)**
+
+Using power conservation:
+
+<div class="equation">
+$$I_p = I_s \times \frac{V_s}{V_p} = 2.00 \text{ A} \times \frac{7.50 \text{ V}}{240 \text{ V}} = 2.00 \times 0.03125 = 0.0625 \text{ A}$$
+</div>
+
+Rounding to two significant figures: $$I_p = 0.063 \text{ A}$$ or 63 mA.
+
+**Solution for (b)**
+
+If the actual efficiency is less than 100%, the input current would need to be **greater**.
+
+Here's why: In a real transformer, some energy is lost to heat due to resistance in the coils and eddy currents in the core. If the output power must remain $$P_s = V_s I_s = (7.50)(2.00) = 15.0 \text{ W}$$, but the transformer is only, say, 90% efficient, then the input power must be:
+
+<div class="equation">
+$$P_p = \frac{P_s}{\text{efficiency}} = \frac{15.0 \text{ W}}{0.90} = 16.7 \text{ W}$$
+</div>
+
+This requires a larger input current: $$I_p = P_p/V_p = 16.7/240 = 0.070 \text{ A}$$, which is greater than 0.063 A.
+
+**Discussion**
+
+This problem illustrates why transformer efficiency matters. Even a small loss in efficiency requires noticeably more input current (and therefore more input power), which increases operating costs and heat generation. Real transformers typically have efficiencies of 95-99%, so the difference is usually small but still significant for high-power applications.
+
+**Answer**
+
+(a) 0.063 A (or 63 mA)
+
+(b) Greater input current needed, because energy losses must be compensated by additional input power.
 
 </div>
 </div>
@@ -443,11 +533,47 @@ A large power plant generates electricity at 12.0 kV. Its old transformer once c
 
 </div>
 <div class="solution" markdown="1">
-(a) 2.2
+**Strategy**
 
-(b) 0.45
+For part (a), we use the voltage-turns relationship. For part (b), we use power conservation to relate currents at different voltages. For part (c), we use $$P_{\text{loss}} = I^2 R$$ to compare line losses.
 
-(c) 0.20, or 20.0%
+**Solution for (a)**
+
+Both transformers have the same primary (12.0 kV input), so the ratio of secondary turns is the same as the ratio of secondary voltages:
+
+<div class="equation">
+$$\frac{N_{s,\text{new}}}{N_{s,\text{old}}} = \frac{V_{s,\text{new}}}{V_{s,\text{old}}} = \frac{750 \text{ kV}}{335 \text{ kV}} = 2.24 \approx 2.2$$
+</div>
+
+**Solution for (b)**
+
+For the same power transmitted, $$P = VI$$, so:
+
+<div class="equation">
+$$\frac{I_{\text{new}}}{I_{\text{old}}} = \frac{P/V_{\text{new}}}{P/V_{\text{old}}} = \frac{V_{\text{old}}}{V_{\text{new}}} = \frac{335}{750} = 0.447 \approx 0.45$$
+</div>
+
+**Solution for (c)**
+
+Line power loss is $$P_{\text{loss}} = I^2 R$$. Since the resistance is the same:
+
+<div class="equation">
+$$\frac{P_{\text{loss,new}}}{P_{\text{loss,old}}} = \frac{I_{\text{new}}^2 R}{I_{\text{old}}^2 R} = \left(\frac{I_{\text{new}}}{I_{\text{old}}}\right)^2 = (0.447)^2 = 0.200$$
+</div>
+
+This is 0.20 or 20.0% of the old loss.
+
+**Discussion**
+
+By increasing the transmission voltage from 335 kV to 750 kV (a factor of 2.24), the current is reduced by the same factor. Since power loss depends on the square of the current, the losses are reduced to 20% of their previous value—an 80% reduction! This dramatic improvement in efficiency justifies the cost of upgrading transformers and transmission lines. The new secondary coil needs 2.24 times as many turns, making it larger and more expensive, but the energy savings over time make this economically beneficial.
+
+**Answer**
+
+(a) 2.2 (new secondary has 2.24 times as many turns as old secondary)
+
+(b) 0.45 (new current is 44.7% of old current)
+
+(c) 0.20, or 20.0% (new losses are only 20% of old losses)
 
 </div>
 </div>
@@ -508,12 +634,43 @@ this result? (c) Which assumption or premise is responsible?
 
 </div>
 <div class="solution" markdown="1">
-(a) 335 MV
+**Strategy**
 
-(b) way too high, well beyond the breakdown voltage of air over reasonable
-distances
+This is an "unreasonable results" problem, where we apply the transformer equation correctly but arrive at a physically unrealistic result. We use $$\frac{V_s}{V_p} = \frac{N_s}{N_p}$$ to find the secondary voltage, then evaluate whether the result makes physical sense.
 
-(c) input voltage is too high
+**Solution for (a)**
+
+Using the transformer equation:
+
+<div class="equation">
+$$V_s = V_p \times \frac{N_s}{N_p} = 335 \text{ kV} \times 1000 = 335{,}000 \text{ kV} = 335 \text{ MV}$$
+</div>
+
+**Solution for (b)**
+
+This voltage of 335 MV (335 million volts) is unreasonably high. The breakdown voltage of air is approximately 3 MV per meter, which means this voltage would cause electrical breakdown and arcing through air over distances of more than 100 meters. Such extreme voltages cannot be contained by any practical insulation system. Additionally, no real transformer could be built to handle such voltages—the insulation requirements would be impossibly large and expensive. Even the highest transmission voltages used in practice are less than 1.2 MV.
+
+**Solution for (c)**
+
+The unreasonable assumption is the combination of a very high turns ratio (1000:1) with an already high input voltage (335 kV). In practice:
+
+- Transmission line voltages of 335 kV are appropriate and commonly used
+- A turns ratio of 1000:1 would be reasonable for stepping up from low voltages (e.g., 240 V to 240 kV)
+- But combining both creates an impossibly high output voltage
+
+The responsible premise is either: (1) using a step-up transformer ($$N_s/N_p > 1$$) when the input voltage is already at transmission-line levels, or (2) having such an extreme turns ratio (1000:1) for high-voltage applications.
+
+**Discussion**
+
+This problem illustrates that transformers at transmission-line voltages are typically step-down transformers (to reduce voltage for local distribution) or have turns ratios close to 1:1 (for voltage regulation). Massive step-up ratios like 1000:1 are only used when starting from relatively low voltages, such as power plant generators that produce electricity at 12-25 kV.
+
+**Answer**
+
+(a) 335 MV (335 million volts)
+
+(b) Way too high—well beyond the breakdown voltage of air over reasonable distances, and impossible to insulate practically
+
+(c) The unreasonable assumption is applying a 1000:1 step-up ratio to an already high input voltage of 335 kV. In reality, transformers operating at transmission-line voltages are step-down or have modest turns ratios.
 
 </div>
 </div>

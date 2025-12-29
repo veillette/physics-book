@@ -451,6 +451,12 @@ $$ \theta = \frac{6.4 \text{ rad}}{2\pi \text{ rad/rev}} = 1.0 \text{ rev} $$
 
 The gyroscope makes exactly one complete revolution while spinning up to 32 rad/s. The angular acceleration of 80 rad/s² is quite large, reflecting the rapid spin-up from the string pull. This is a typical way to start a gyroscope—a quick pull on a string wrapped around its axis.
 
+**Answer**
+
+(a) The angular acceleration is **80 rad/s²**.
+
+(b) The gyroscope makes **1.0 revolution** during spin-up.
+
 </div>
 </div>
 
@@ -488,6 +494,10 @@ $$ x = r\theta = (0.043 \m)(9425 \text{ rad}) = 405 \m $$
 **Discussion**
 
 The dust particle travels about 405 meters (roughly a quarter mile) while riding on the spinning CD for just 3 minutes. This illustrates how even a modest angular velocity can produce significant linear distances when sustained over time.
+
+**Answer**
+
+The dust particle travels a total distance of **405 m** in 3 minutes.
 
 </div>
 </div>
@@ -531,6 +541,12 @@ $$ \theta = \frac{731 \text{ rad}}{2\pi \text{ rad/rev}} = 116 \text{ rev} $$
 **Discussion**
 
 The gyroscope takes 45.7 seconds to come to rest, making 116 complete revolutions in that time. The relatively small angular deceleration (0.700 rad/s²) compared to the initial angular velocity (32.0 rad/s) means the gyroscope coasts for a long time and distance. This is typical of gyroscopes, which have low friction bearings and can spin for extended periods.
+
+**Answer**
+
+(a) The gyroscope takes **45.7 s** to come to rest.
+
+(b) It makes **116 revolutions** before stopping.
 
 </div>
 </div>
@@ -606,6 +622,24 @@ $$ v_0 = r\omega_0 = (0.280 \m)(95.0 \text{ rad/s}) = 26.6 \text{ m/s} $$
 
 **(f)** Yes, the values are reasonable. The initial velocity of 26.6 m/s is about 96 km/h (60 mph), which is a typical highway speed. Stopping in 3.80 s over a distance of 50.5 m (about 166 feet) with a deceleration of 7.00 m/s² (about 0.7g) represents a hard but achievable emergency stop for a car with good brakes and tires.
 
+**Discussion**
+
+This problem demonstrates the power of connecting rotational and translational motion. By analyzing the tire rotation, we can determine all aspects of the car's motion. The no-slip condition (where the tire's contact point with the pavement has zero velocity) is crucial for this analysis and explains why anti-lock braking systems work—they prevent wheel lockup to maintain this no-slip condition, allowing maximum braking force.
+
+**Answer**
+
+(a) Angular acceleration: **−25.0 rad/s²**
+
+(b) Number of revolutions: **28.7 rev**
+
+(c) Time to stop: **3.80 s**
+
+(d) Distance traveled: **50.5 m**
+
+(e) Initial velocity: **26.6 m/s** (about 96 km/h or 60 mph)
+
+(f) Yes, these values are reasonable for a hard emergency stop from highway speed.
+
 </div>
 </div>
 
@@ -651,6 +685,14 @@ $$ a_t = R\alpha = (0.0350 \m)(600 \radss) = 21.0 \mss $$
 **Discussion**
 
 The angular acceleration is quite large (600 rad/s²) because the shaft radius is so small. After only 0.750 s, the yo-yo is spinning at 450 rad/s (about 4,300 rpm). The tangential acceleration at the outer edge (21.0 m/s²) is much larger than the yo-yo's linear acceleration (1.50 m/s²) because the outer radius is 14 times larger than the shaft radius. This large difference in accelerations at different radii is characteristic of rotating objects.
+
+**Answer**
+
+(a) The angular acceleration is **600 rad/s²**.
+
+(b) The angular velocity after 0.750 s is **450 rad/s** (about 4,300 rpm).
+
+(c) The tangential acceleration at the outer edge is **21.0 m/s²**.
 
 </div>
 </div>
