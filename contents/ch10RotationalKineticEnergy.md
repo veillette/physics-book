@@ -646,6 +646,14 @@ The magnitude is 9.81 N (negative indicates opposition to motion).
 
 The father only needs to push through 0.0785 revolutions (about 28 degrees) to get the merry-go-round up to speed with 250 N of force, but needs much less force (9.81 N) applied over 2 complete revolutions to stop it. This demonstrates that the same energy change can be achieved with large force over small distance or small force over large distance.
 
+**Answer**
+
+(a) The rotational kinetic energy is **185 J**.
+
+(b) He must push through **0.0785 revolutions**.
+
+(c) He must exert **9.81 N** of force to stop in 2 revolutions.
+
 </div>
 </div>
 
@@ -683,6 +691,10 @@ $$ v = \sqrt{gh} = \sqrt{(9.80 \text{ m/s}^2)(5.00 \m)} = 7.00 \text{ m/s} $$
 **Discussion**
 
 For a hoop, the rotational and translational kinetic energies are equal, so exactly half the initial potential energy goes into each form. This result is independent of the hoop's mass and radius. A solid disk would roll faster (v = √(4gh/3) ≈ 8.08 m/s) because less energy goes into rotation.
+
+**Answer**
+
+The final velocity is **7.00 m/s**.
 
 </div>
 </div>
@@ -743,6 +755,12 @@ $$ KE_{\text{orbital}} = \frac{1}{2}Mv^2 = \frac{1}{2}(5.97 \times 10^{24} \kg)(
 
 Earth's orbital kinetic energy (2.65 × 10³³ J) is about 10,000 times larger than its rotational kinetic energy (2.57 × 10²⁹ J). This makes sense because Earth travels at 30 km/s in its orbit, which is much faster than the surface rotation speed (about 465 m/s at the equator). Both energies are enormous and extremely well conserved over astronomical timescales.
 
+**Answer**
+
+(a) Earth's rotational kinetic energy is **2.57 × 10²⁹ J**.
+
+(b) Earth's orbital kinetic energy is **2.65 × 10³³ J**, about 10,000 times larger.
+
 </div>
 </div>
 
@@ -781,6 +799,10 @@ $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 = \frac{1}{2}(1.12 \kg \cdot \mm)(120
 **Discussion**
 
 The wheel stores about 8.06 kJ of rotational kinetic energy at 120 rad/s (about 1150 rpm). This is substantial energy—if released suddenly, it could cause significant damage. This is why motorcycle accidents can be so severe; the rotating wheels carry considerable energy.
+
+**Answer**
+
+The rotational kinetic energy is **8.06 × 10³ J** (or **8.06 kJ**).
 
 </div>
 </div>
@@ -833,6 +855,18 @@ $$ v = r\omega = (1.05 \m)(9.66 \text{ rad/s}) = 10.1 \text{ m/s} $$
 </div>
 
 **(c)** The football can be given a velocity greater than the tip of the shoe through elastic collision principles. During the kick, the leg (and foot) continues to accelerate even as it contacts the ball. Additionally, in a nearly elastic collision between the massive leg and the lighter football, momentum conservation means the lighter ball can achieve a velocity nearly twice that of the striking foot. The foot also decelerates during contact, transferring additional energy to the ball. Professional punters can give the ball velocities of 25-30 m/s, well above the 10 m/s shoe velocity calculated here.
+
+**Discussion**
+
+The angular velocity of 9.66 rad/s gives the shoe tip a velocity of 10.1 m/s. However, through elastic collision dynamics and continued leg acceleration during contact, the football can achieve velocities 2-3 times this value. This is similar to how a golf club moving at 45 m/s can drive a ball at over 70 m/s—the lighter object receives a velocity boost in elastic collisions with heavier objects.
+
+**Answer**
+
+(a) The angular velocity is **9.66 rad/s**.
+
+(b) The velocity of the shoe tip is **10.1 m/s**.
+
+(c) The football can be given greater velocity through elastic collision principles—the ball continues to accelerate from the leg's motion during contact, and in elastic collisions between a massive leg and light ball, momentum conservation allows the ball to achieve nearly twice the foot velocity.
 
 </div>
 </div>
@@ -926,6 +960,12 @@ $$ h = \frac{1.99 \times 10^6 - 45000}{98000} = 19.9 \m $$
 
 The flywheel must spin at 128 rad/s (about 1,220 rpm) to store enough energy. With this stored energy, the bus can climb a 19.9 m hill while maintaining 3.00 m/s at the top. The 10% energy loss (to friction and inefficiency) reduces the maximum hill height from 22.1 m to 19.9 m.
 
+**Answer**
+
+(a) The flywheel must spin at **128 rad/s** (about 1,220 rpm).
+
+(b) The bus can climb **19.9 m** high while maintaining 3.00 m/s at the top.
+
 </div>
 </div>
 
@@ -977,6 +1017,12 @@ $$ h = \frac{v^2}{2g} = \frac{(8.00 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \fr
 **Discussion**
 
 When sliding (frictionless), the ball reaches only 3.27 m, compared to 5.44 m when rolling. The difference is that when rolling, the rotational kinetic energy (which is ⅓ of the translational KE for a spherical shell) also converts to potential energy, allowing the ball to climb higher.
+
+**Answer**
+
+(a) When rolling, the ball reaches **5.44 m**.
+
+(b) When sliding (frictionless), the ball reaches **3.27 m**.
 
 </div>
 </div>
@@ -1049,6 +1095,12 @@ $$ W = \tau_{\text{net}} \theta = (17.6 \N \cdot \m)(0.349 \text{ rad}) = 6.11 \
 
 The muscle produces 45.0 N·m of torque, but the weight opposes with 27.4 N·m, leaving a net torque of 17.6 N·m. This produces a moderate angular acceleration of 10.4 rad/s². The work done (6.11 J) through 20° goes into both lifting the weight and accelerating the leg rotationally. This is a typical leg extension exercise used for strengthening the quadriceps and hamstring muscles.
 
+**Answer**
+
+(a) The angular acceleration is **10.4 rad/s²**.
+
+(b) The work done is **6.11 J**.
+
 </div>
 </div>
 
@@ -1116,6 +1168,12 @@ $$ W = \tau_{\text{net}} \theta = (10.3 \N \cdot \m)(1.047 \text{ rad}) = 10.8 \
 
 The angular acceleration is quite large (28.2 rad/s²), which would produce rapid motion. The work done (10.8 J) goes into rotating the arm and lifting the weight. This is a typical bicep curl exercise, and the 750 N muscle force is reasonable for strength training.
 
+**Answer**
+
+(a) The angular acceleration is **28.2 rad/s²**.
+
+(b) The work done is **10.8 J**.
+
 </div>
 </div>
 
@@ -1161,6 +1219,18 @@ $$ \frac{t_{\text{roll}}}{t_{\text{slide}}} = \frac{v_{\text{slide}}}{v_{\text{r
 </div>
 
 **(c)** The rolling cylinder takes longer because it moves more slowly throughout its journey. It's slower because some of its gravitational potential energy went into rotational kinetic energy rather than all going into translational motion. With less translational speed, it takes longer to cover the same distances on both inclines.
+
+**Discussion**
+
+This problem beautifully demonstrates energy conservation. Both cylinders return to their original height because mechanical energy is conserved in both cases (no energy lost to friction). However, the rolling cylinder distributes its energy between translation and rotation, resulting in lower translational speed (√(2/3) of the sliding cylinder) and thus taking √(3/2) ≈ 1.22 times longer to complete the journey. The rolling motion doesn't lose energy—it just allocates energy differently.
+
+**Answer**
+
+(a) Both cylinders reach the same height **h** (their original height), as shown by energy conservation.
+
+(b) The time ratio is **t_roll/t_slide = √(3/2) ≈ 1.22**.
+
+(c) The rolling cylinder takes 22% longer because it moves more slowly throughout its journey, having distributed energy between translational and rotational motion.
 
 </div>
 </div>
@@ -1214,6 +1284,10 @@ Rounding: $$ I \approx 0.0900 MR^2 $$ or $$ I = \frac{1}{11}MR^2 $$
 **Discussion**
 
 The moment of inertia is about 0.09 MR², which is quite small. This is smaller than a solid cylinder (0.5 MR²), a solid sphere (0.4 MR²), or even a thin spherical shell (⅔ MR²). This unusually low moment of inertia suggests most of the mass is concentrated very close to the rotation axis—perhaps a thin rod or similar object rolling end-over-end.
+
+**Answer**
+
+The moment of inertia is **I ≈ 0.09 MR²** or **I = (1/11)MR²**.
 
 </div>
 </div>
@@ -1274,6 +1348,12 @@ $$ E_{\text{lost}} = KE_{\text{total}} - PE = 99240 - 68600 = 30640 \J \approx 3
 **Discussion**
 
 Without friction, the motorcycle could coast to 50.6 m, but it only reaches 35.0 m, losing about 30.6 kJ (31% of its initial energy) to friction. This demonstrates that friction is a significant factor in real-world motion, even for a relatively streamlined motorcycle.
+
+**Answer**
+
+(a) The motorcycle can coast to a height of **50.6 m** (neglecting friction).
+
+(b) The energy lost to friction is **30.6 kJ**.
 
 </div>
 </div>
@@ -1348,6 +1428,12 @@ $$ F \approx 2.52 \times 10^4 \N = 25,200 \N $$
 **Discussion**
 
 The pitcher's arm reaches an impressive angular velocity of 64.3 rad/s, storing 1.49 kJ of rotational energy. The muscle force required is enormous—about 25,000 N (equivalent to supporting 2,500 kg), which explains why softball pitching is so demanding and why shoulder injuries are common. This force is exerted over a small lever arm (4 cm), demonstrating the mechanical disadvantage that muscles often work under. The actual force depends on the pitching motion details, but this calculation shows the order of magnitude involved.
+
+**Answer**
+
+(a) The rotational kinetic energy is **1.49 kJ** (or **1490 J**).
+
+(b) The muscle force is approximately **25,200 N** (about 2.5 metric tons), demonstrating the enormous forces involved in pitching.
 
 </div>
 </div>
