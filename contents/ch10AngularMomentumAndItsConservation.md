@@ -645,6 +645,12 @@ Earth's orbital angular momentum is about 3.77 million times larger than its rot
 
 The enormous difference between orbital and rotational angular momentum reflects both Earth's large orbital radius (150 million km) compared to its own radius (6,376 km) and its slower rotation (once per day) compared to orbital motion (once per year). This huge orbital angular momentum is extremely well conserved—it would take an enormous external torque to change Earth's orbit significantly.
 
+**Answer**
+
+(a) Earth's orbital angular momentum is **2.66 × 10⁴⁰ kg·m²/s**.
+
+(b) This is about **3.77 million times larger** than Earth's rotational angular momentum, demonstrating that orbital motion dominates over spin for planetary bodies.
+
 </div>
 </div>
 
@@ -714,6 +720,14 @@ $$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34}}{2.36 \t
 
 The vast difference between the Moon's orbital and rotational angular momenta illuminates the physics of tidal locking. The orbital angular momentum dominates by a factor of about 100,000, making it essentially immutable on human timescales. In contrast, the much smaller rotational angular momentum was susceptible to the persistent tidal torques exerted by Earth over billions of years. These torques gradually slowed the Moon's rotation until it became tidally locked, rotating once per orbit to keep the same face toward Earth. This demonstrates how conservation of angular momentum applies differently to different components of a system—while total angular momentum is conserved, internal torques can redistribute it between rotation and revolution.
 
+**Answer**
+
+(a) The Moon's orbital angular momentum is **2.89 × 10³⁴ kg·m²/s**.
+
+(b) This is about **122,000 times larger** than the Moon's rotational angular momentum (2.36 × 10²⁹ kg·m²/s).
+
+(c) Yes, these values are consistent with tidal locking. The much smaller rotational angular momentum was more easily altered by Earth's tidal torques, while the dominant orbital angular momentum remained essentially constant.
+
 </div>
 </div>
 
@@ -745,6 +759,10 @@ $$ \Delta L = \tau \Delta t = (90.0 \N \cdot \m)(0.250 \s) = 22.5 \kg \cdot \mms
 **Discussion**
 
 The angular momentum imparted to the engine is 22.5 kg·m²/s. This angular momentum depends only on the torque applied and the time duration, not on the engine's moment of inertia. Once the crank is released, this angular momentum should be enough to keep the engine rotating and allow it to start. The brief but strong application of torque is characteristic of starting mechanisms for old engines.
+
+**Answer**
+
+The angular momentum given to the engine is **22.5 kg·m²/s**.
 
 </div>
 </div>
@@ -801,6 +819,10 @@ $$ \omega' = 2.30 \text{ rad/s} \times \frac{1 \text{ rev}}{2\pi \text{ rad}} = 
 **Discussion**
 
 The merry-go-round slows from 0.500 rev/s to 0.366 rev/s when the child jumps on, a decrease of about 27%. This is because the child increased the moment of inertia by about 37%, and angular momentum conservation requires ω to decrease proportionally.
+
+**Answer**
+
+The new angular velocity is **0.366 rev/s** (or **2.30 rad/s**).
 
 </div>
 </div>
@@ -861,6 +883,10 @@ $$ \omega' = \frac{I\omega_0}{I'} = \frac{(340.5 \kg \cdot \mm)(20.0 \text{ rpm}
 **Discussion**
 
 When the 28.0-kg child moves to the center, the moment of inertia decreases from 340.5 to 268.8 kg·m² (a 21% decrease). Conservation of angular momentum requires the angular velocity to increase proportionally, from 20.0 to 25.3 rpm (a 26% increase). This is similar to how ice skaters spin faster when they pull their arms in—moving mass closer to the rotation axis decreases I and increases ω.
+
+**Answer**
+
+The new angular velocity is **25.3 rpm**.
 
 </div>
 </div>
@@ -940,6 +966,14 @@ The magnitude is 0.504 N·m.
 **(b)** When he extends his arms and slows to 1.25 rev/s, his moment of inertia increases to 1.92 kg·m², nearly 5 times the original value. This large increase is why extending the arms is so effective at slowing rotation.
 
 **(c)** The friction torque is relatively small (about half a newton-meter), but acting over 15 seconds, it's enough to slow him significantly. The negative sign indicates the torque opposes the rotation.
+
+**Answer**
+
+(a) The angular momentum is **15.1 kg·m²/s**.
+
+(b) The moment of inertia when slowed to 1.25 rev/s is **1.92 kg·m²**.
+
+(c) The average torque from friction is **−0.504 N·m** (magnitude 0.504 N·m).
 
 </div>
 </div>
