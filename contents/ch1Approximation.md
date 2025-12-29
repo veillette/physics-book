@@ -193,6 +193,10 @@ $$ 80 \text{ years} \times \frac{365 \text{ days}}{1 \text{ year}} \times \frac{
 $$ 70 \frac{\text{beats}}{\text{min}} \times 4.2 \times 10^{7} \text{ min} \approx 3 \times 10^{9} \text{ heartbeats} $$
 </div>
 
+**Discussion**
+
+This enormous number of approximately 3 billion heartbeats illustrates the remarkable endurance and reliability of the human heart as a muscle that never rests. The calculation assumes a relatively constant average heart rate of 70 bpm, though actual heart rates vary significantly with activity level, age, and health status. This order-of-magnitude estimate helps us appreciate the incredible workload the cardiovascular system handles over a lifetime, beating roughly once per second for 80 years without pause.
+
 Sample answer: $$ 2\times 10^{9} $$ to $$ 3\times 10^{9} $$ heartbeats
 
 </div>
@@ -224,6 +228,10 @@ $$ \text{Generation length} \approx \frac{70 \text{ years}}{3} \approx 25 \text{
 <div class="equation">
 $$ \text{Number of generations} = \frac{2000 \text{ years}}{25 \text{ years/generation}} = 80 \text{ generations} $$
 </div>
+
+**Discussion**
+
+The relatively small number of only 80 generations shows how recent human recorded history is when viewed from a biological perspective. This calculation assumes a generation length of approximately 25 years, though this value has varied significantly across different cultures, time periods, and socioeconomic conditions. Understanding this timescale is valuable for studying genetic inheritance, cultural transmission of knowledge, and the relatively rapid pace of human cultural evolution compared to biological evolution.
 
 **Answer**
 
@@ -257,6 +265,10 @@ $$ 70 \text{ years} \times \frac{365 \text{ days}}{1 \text{ year}} \times \frac{
 $$ \frac{\text{Human lifetime}}{\text{Nucleus lifetime}} = \frac{2.2 \times 10^{9} \s}{10^{-22} \s} \approx 2 \times 10^{31} $$
 </div>
 
+**Discussion**
+
+This truly astronomical factor of $$ 10^{31} $$ illustrates the vast range of timescales that exist in nature, from quantum processes to human experience. To put this in perspective, a human lifetime is longer than a nuclear decay timescale by the same factor that the age of the universe is longer than a fraction of a second. This extreme comparison demonstrates both the power of scientific notation in handling such disparate scales and helps us appreciate how quantum phenomena occur on timescales completely outside our everyday intuition.
+
 Sample answer: $$ 2\times 10^{31} $$ times longer (if an average human lifetime is taken to be about 70 years).
 
 </div>
@@ -289,6 +301,10 @@ $$ m_{atom} = 10 \times m_{H} = 10 \times 10^{-27} \kg = 10^{-26} \kg $$
 <div class="equation">
 $$ N = \frac{m_{bact}}{m_{atom}} = \frac{10^{-15} \kg}{10^{-26} \kg} = 10^{11} \text{ atoms} $$
 </div>
+
+**Discussion**
+
+The result of approximately 100 billion atoms reveals that even the tiniest living organisms contain an enormous number of atoms, providing ample complexity for the molecular machinery of life. This calculation assumes all atoms in the bacterium have an average mass of 10 times that of hydrogen, which is reasonable given that bacteria contain heavier atoms like carbon, nitrogen, and oxygen in addition to hydrogen. This order-of-magnitude estimate helps us understand why even single-celled organisms can have sophisticated metabolic pathways and genetic information storage despite their microscopic size.
 
 **Answer**
 
@@ -326,6 +342,10 @@ $$ \text{Average atom diameter} \approx 2 \times 10^{-10} \m $$
 $$ \text{Number of atoms} = \frac{\text{Membrane thickness}}{\text{Atom diameter}} = \frac{10^{-8} \m}{2 \times 10^{-10} \m} = 50 \text{ atoms} $$
 </div>
 
+**Discussion**
+
+The remarkably small thickness of only about 50 atoms demonstrates how incredibly thin cell membranes are, yet they successfully maintain the cell's integrity and control what enters and exits. This estimate assumes atoms in the membrane are roughly uniform in size at about twice the hydrogen atom diameter, which is reasonable for the lipid and protein molecules that make up biological membranes. The fact that such a thin barrier can effectively separate the cell's interior from its environment while still allowing selective transport of materials is one of the elegant solutions nature has evolved for cellular function.
+
 Sample answer: 50 atoms
 
 </div>
@@ -361,6 +381,10 @@ __(b) Fraction for mountain height:__
 <div class="equation">
 $$ \text{Fraction} = \frac{h_{mountain}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m} = 10^{-3} = \frac{1}{1000} $$
 </div>
+
+**Discussion**
+
+The tiny ratio of 1/1000 for both ocean depths and mountain heights reveals that Earth is remarkably smooth relative to its overall size—the deepest trenches and highest peaks represent only about 0.1% of Earth's diameter. This explains why our planet appears as a smooth sphere when viewed from space, with surface irregularities barely visible. To put this in perspective, if Earth were shrunk to the size of a billiard ball, it would actually be smoother than a regulation billiard ball, since these surface features would scale down proportionally.
 
 **Answer**
 
@@ -409,6 +433,10 @@ __(b) Cells in a human:__
 $$ \text{Number of cells} = \frac{\text{Human mass}}{\text{Cell mass}} = \frac{10^{2} \kg}{10^{-14} \kg} = 10^{16} \text{ cells} $$
 </div>
 
+**Discussion**
+
+The ratio of approximately 10,000:1 in cell count between humans and hummingbirds roughly corresponds to the ratio of their masses, which is reasonable given our assumption of uniform cell size. In reality, cell sizes vary dramatically across different tissue types (neurons, blood cells, muscle cells all differ), but this order-of-magnitude approximation remains useful for understanding biological scale. These enormous numbers—trillions for a hummingbird and ten quadrillion for a human—illustrate the incredible cellular complexity that underlies even small multicellular organisms.
+
 Sample answers:
 
 (a) $$ 10^{12} $$ cells/hummingbird
@@ -436,6 +464,10 @@ From Table 3, find the duration of a nerve impulse, then calculate the maximum f
 <div class="equation">
 $$ \text{Firing rate} = \frac{1}{\text{Duration}} = \frac{1}{10^{-3} \s} = 10^{3} \text{ impulses/s} = 1000 \text{ Hz} $$
 </div>
+
+**Discussion**
+
+A maximum firing rate of 1000 Hz (1000 impulses per second) represents the theoretical upper limit based on the refractory period during which a neuron cannot fire again. This calculation assumes that impulses cannot overlap and that the neuron fires immediately after each refractory period ends, which represents an idealized maximum. In biological reality, most neurons fire at rates well below this limit—typically a few hundred Hz at most—because sustained high-frequency firing would be metabolically expensive and is usually unnecessary for neural signaling.
 
 **Answer**
 
