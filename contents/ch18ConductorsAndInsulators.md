@@ -243,7 +243,15 @@ Rearranging the charge equation:
 
 **Discussion**
 
-The dust speck has 1.03 × 10¹² electrons, which is about 3% more electrons than protons. This small excess of electrons (3.125 × 10¹⁰ extra electrons) creates the large net negative charge of −5.00 nC. This illustrates an important principle: a relatively small imbalance in the number of electrons and protons can create a significant net charge. Even though the speck has over a trillion of each type of charge carrier, it's the small difference that determines the net charge.
+This problem illustrates several fundamental principles of charge and atomic structure:
+
+**Charge Quantization:** All charge exists in discrete multiples of the elementary charge e = 1.60 × 10⁻¹⁹ C. The net charge of −5.00 nC corresponds to an excess of 3.125 × 10¹⁰ electrons, demonstrating that charge is quantized—you cannot have a fraction of an electron.
+
+**Atomic Structure and Conservation:** The dust speck contains 1.0000 × 10¹² protons (positive charges in the nuclei) and 1.03125 × 10¹² electrons (negative charges surrounding the nuclei). The total charge is conserved: the net charge equals (1.0000 × 10¹² - 1.03125 × 10¹²)(−e) = −5.00 nC. The electrons must have come from somewhere else (transferred from another object), demonstrating charge conservation.
+
+**Practical Context:** The charge of −5.00 nC is actually quite large for a dust speck. For comparison, this is about 31 billion excess electrons. In electrostatic precipitators used to remove particles from industrial exhaust, such large charges create strong electric forces that pull the charged particles to collection plates.
+
+**Reasonableness Check:** The result shows that even though the dust speck has over a trillion of each type of charge carrier, only a 3% excess of electrons creates a "very large charge" as stated in the problem. This makes sense because even a small imbalance in the enormous numbers of subatomic particles in matter can create significant electric effects.
 
 </div>
 </div>
@@ -278,9 +286,15 @@ Given: $$n_p = 1.00 \times 10^{16}$$ protons and $$q = 0.300 \times 10^{-12} \te
 
 **Discussion**
 
-Part (a): The amoeba has 1.88 × 10⁶ (about 1.88 million) fewer electrons than protons, giving it a net positive charge of 0.300 pC.
+This problem demonstrates the extreme degree of electrical neutrality in biological systems:
 
-Part (b): Only 1.88 × 10⁻¹⁰ (or 0.0000000188%) of the protons would have no paired electrons. This incredibly small fraction demonstrates that even microscopic organisms are overwhelmingly electrically neutral. The tiny charge imbalance of less than one part in 10 billion creates the measurable net charge, while the vast majority of charges are balanced.
+**Charge Quantization:** The net positive charge of 0.300 pC = 0.300 × 10⁻¹² C corresponds to exactly 1.875 × 10⁶ elementary charges (since Q = Ne where e = 1.60 × 10⁻¹⁹ C). This means the amoeba is missing precisely 1.88 million electrons. Charge is always quantized in integer multiples of the elementary charge—you can't have 1.5 electrons missing.
+
+**Atomic Structure and Conservation:** The amoeba contains 1.00 × 10¹⁶ protons distributed throughout the nuclei of all its atoms. In a neutral amoeba, there would be an equal number of electrons in the electron clouds surrounding these nuclei. The deficit of 1.88 million electrons represents an incredibly tiny fraction (1.88 × 10⁻¹⁰) of the total. These missing electrons were removed from the amoeba and must now reside elsewhere, conserving the total charge of the universe.
+
+**Practical Context:** The charge of 0.300 pC is extremely small—this is less than a trillionth of a coulomb. Even this tiny charge requires the removal of nearly 2 million electrons. This illustrates why biological systems are so well insulated from electric effects: even "charged" organisms are almost perfectly neutral.
+
+**Reasonableness Check:** Part (b) shows that if you paired up electrons with protons, only about 2 electrons per 10 billion protons would be unpaired. This fraction of 1.88 × 10⁻¹⁰ is astonishingly small, confirming that living organisms operate in an essentially neutral electrical state despite containing enormous numbers of charged particles.
 
 </div>
 </div>
@@ -331,7 +345,15 @@ Fraction removed:
 
 **Discussion**
 
-Only 9.09 × 10⁻¹³ (about 0.0000000000091%) of the copper's electrons have been removed. This is less than one trillionth of the electrons! This tiny fraction creates a charge of 2.00 μC, which is a significant charge in electrostatic terms. This demonstrates that macroscopic objects contain such enormous numbers of electrons that removing even a very large number of them (12.5 trillion) represents only an infinitesimal fraction of the total.
+This problem illustrates the vast number of electrons in macroscopic objects and how conductors can be charged:
+
+**Charge Quantization:** The net charge of 2.00 μC = 2.00 × 10⁻⁶ C equals exactly 1.25 × 10¹³ elementary charges (using Q = Ne with e = 1.60 × 10⁻¹⁹ C). This means precisely 12.5 trillion electrons were removed. Despite this huge number, charge remains quantized—each electron carries exactly one elementary charge e.
+
+**Atomic Structure and Conservation:** Copper atoms have 29 protons in the nucleus and normally 29 electrons in their electron cloud. The 50.0 g sample contains 4.74 × 10²³ copper atoms with a total of 1.37 × 10²⁵ electrons. Removing 1.25 × 10¹³ electrons leaves the copper with a net positive charge. These electrons must have been transferred to another object (perhaps through friction or contact), demonstrating charge conservation. In conductors like copper, the outermost electrons are loosely bound and can move freely, making charge transfer relatively easy.
+
+**Practical Context:** A charge of 2.00 μC is moderate by electrostatic standards—comparable to what you might build up walking across a carpet or rubbing a balloon on your hair. Such charges are common in everyday static electricity phenomena and can produce noticeable sparks and attractions.
+
+**Reasonableness Check:** Only 9.09 × 10⁻¹³ (less than one trillionth) of the copper's electrons were removed, yet this creates a significant charge. This makes sense because matter contains stupendous numbers of electrons—even a 50 g sample has over 10²⁵ electrons. The fact that removing "only" 12.5 trillion electrons (an enormous number by everyday standards) represents such a tiny fraction demonstrates the atomic-scale vastness of matter.
 
 </div>
 </div>
@@ -376,7 +398,15 @@ Net charge:
 
 **Discussion**
 
-The net charge on the sulfur would be −0.300 μC (or −300 nC). The negative sign indicates an excess of electrons. Even though only 1 in a trillion atoms gets an extra electron, the enormous number of atoms in 100 g of sulfur (about 1.88 × 10²⁴) means that 1.88 trillion atoms receive the extra electron, creating a measurable net charge. This charge is typical of static electricity effects.
+This problem demonstrates how even a sparse distribution of excess charges creates measurable effects:
+
+**Charge Quantization:** The net charge of −0.300 μC = −3.00 × 10⁻⁷ C corresponds to exactly 1.88 × 10¹² elementary charges (since Q = Ne where e = 1.60 × 10⁻¹⁹ C). This represents 1.88 trillion extra electrons distributed throughout the sulfur. Each electron contributes one quantum of charge e, illustrating the discrete nature of charge.
+
+**Atomic Structure and Conservation:** Sulfur atoms normally have 16 protons and 16 electrons (sulfur's atomic number is 16). The 100 g sample contains 1.88 × 10²⁴ sulfur atoms. Adding one extra electron to every trillionth atom (1 in 10¹²) gives 1.88 × 10¹² atoms with 17 electrons instead of 16. These excess electrons must have come from another object, conserving total charge. Unlike the copper example, sulfur is an insulator, so these electrons are bound to specific atoms rather than moving freely.
+
+**Practical Context:** The charge of −0.300 μC (or −300 nC) is typical of static electricity you encounter daily. This is the kind of charge that might accumulate on a plastic comb when you run it through dry hair, or on clothing in a dryer. Such charges can cause sparks, attract small objects like bits of paper, or give you a small shock.
+
+**Reasonableness Check:** The problem asks us to add just one electron per trillion atoms, which seems very sparse. Yet this produces a substantial charge of −0.300 μC. This makes perfect sense: with nearly 2 × 10²⁴ atoms in the sample, even one electron per trillion atoms yields almost 2 trillion excess electrons. This illustrates how the enormous number of atoms in macroscopic objects means that even extremely dilute charge distributions create measurable electric effects.
 
 </div>
 </div>
@@ -420,7 +450,15 @@ Total positive charge:
 
 **Discussion**
 
-There are 1.48 × 10⁸ C (148 million coulombs) of positive charge in 4.00 kg of plutonium. Of course, there is an equal amount of negative charge from the electrons, so the plutonium is electrically neutral overall. This enormous amount of charge illustrates that ordinary matter contains vast quantities of both positive and negative charge, which normally cancel out exactly. The fact that we don't normally observe electrical effects from neutral matter is a testament to how precisely the positive and negative charges balance.
+This problem reveals the staggering amount of charge contained in ordinary matter:
+
+**Charge Quantization:** The total positive charge of 1.48 × 10⁸ C equals 9.28 × 10²⁶ elementary charges (since Q = Ne where e = 1.60 × 10⁻¹⁹ C). This is the number of protons in 4.00 kg of plutonium. Each proton contributes exactly one elementary charge e = 1.60 × 10⁻¹⁹ C to the total, demonstrating that all charge comes in discrete quanta.
+
+**Atomic Structure and Conservation:** Plutonium has atomic number 94, meaning each atom has 94 protons in its nucleus. In neutral plutonium, there are also exactly 94 electrons per atom orbiting the nucleus. The 4.00 kg sample contains 9.87 × 10²⁴ atoms. The total positive charge (9.28 × 10²⁶ protons) is exactly balanced by an equal number of electrons carrying negative charge. The total net charge is zero, demonstrating perfect charge neutrality. If we isolated the protons or electrons, charge would still be conserved—the separated charges would sum to the same total.
+
+**Practical Context:** The amount of positive charge, 1.48 × 10⁸ C (148 million coulombs), is absolutely enormous compared to typical static electricity charges (which are measured in microcoulombs or nanocoulombs). For perspective, a lightning bolt might transfer only about 15 coulombs. The fact that plutonium contains 10 million times more charge than a lightning bolt—yet shows no electrical effects—demonstrates the perfect balance between positive and negative charges in neutral matter.
+
+**Reasonableness Check:** This enormous charge seems surprising until you realize that it's completely balanced by an equal amount of negative charge from electrons. Every one of the 9.28 × 10²⁶ protons has a corresponding electron, achieving electrical neutrality. This perfect balance is why we can safely handle massive amounts of matter without experiencing devastating electrical forces. Even a tiny imbalance (say 0.001% more electrons than protons) would create a charge of about 10⁶ C, producing immense electrostatic forces. The fact that matter remains neutral to extraordinary precision is fundamental to the stability of our world.
 
 </div>
 </div>
