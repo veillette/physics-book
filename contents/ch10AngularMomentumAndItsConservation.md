@@ -710,6 +710,10 @@ $$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34}}{2.36 \t
 
 **(c)** The orbital angular momentum is about 122,000 times larger than the rotational angular momentum. This is consistent with tidal locking. Tidal forces from Earth exerted torques on the Moon's rotation, gradually slowing it until the rotational period matched the orbital period. The much smaller rotational angular momentum compared to orbital angular momentum meant the Moon's rotation was relatively easy for Earth's tidal forces to alter, while the orbital angular momentum remained largely unchanged.
 
+**Discussion**
+
+The vast difference between the Moon's orbital and rotational angular momenta illuminates the physics of tidal locking. The orbital angular momentum dominates by a factor of about 100,000, making it essentially immutable on human timescales. In contrast, the much smaller rotational angular momentum was susceptible to the persistent tidal torques exerted by Earth over billions of years. These torques gradually slowed the Moon's rotation until it became tidally locked, rotating once per orbit to keep the same face toward Earth. This demonstrates how conservation of angular momentum applies differently to different components of a system—while total angular momentum is conserved, internal torques can redistribute it between rotation and revolution.
+
 </div>
 </div>
 
