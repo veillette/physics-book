@@ -466,6 +466,10 @@ The ratio is:
 
 The truck's kinetic energy is only 1/250th that of the astronaut in orbit. Even though the truck is 250 times more massive than the astronaut, the astronaut's much higher orbital speed (250 times faster) results in vastly more kinetic energy, since kinetic energy depends on the square of velocity. This demonstrates why orbital velocities represent such enormous energies.
 
+**Answer**
+
+The truck has a kinetic energy of $$ 9.37 \times 10^{6} \J $$, while the astronaut has $$ 2.33 \times 10^{9} \J $$. The astronaut's kinetic energy is approximately 250 times greater than the truck's.
+
 </div>
 </div>
 
@@ -481,11 +485,11 @@ needed for the movement of larger animals would relate to metabolic rates.
 
 **Strategy**
 
-For part (a), we use the kinetic energy formula $$ \KE = \frac{1}{2}mv^{2} $$ for both the elephant and the sprinter. Setting them equal allows us to solve for the elephant's velocity.
+For part (a), we use the kinetic energy formula $$ \KE = \frac{1}{2}mv^{2} $$ for both the elephant and the sprinter. Setting them equal allows us to solve for the elephant's velocity. For part (b), we consider the relationship between body mass, movement energy, and metabolic rate.
 
-**Solution for (a)**
+**Solution**
 
-First, calculate the sprinter's kinetic energy:
+__(a)__ First, calculate the sprinter's kinetic energy:
 
 <div class="equation">
  $$ \KE_{\text{sprinter}} = \frac{1}{2}(65.0\kg)(10.0\ms)^{2} = 3250\J $$
@@ -507,9 +511,19 @@ v_{\text{elephant}} &=& 1.47\ms
 \end{array} $$
 </div>
 
-**Discussion for (b)**
+__(b)__ The relationship between body mass and metabolic rate is discussed below.
 
-The elephant must move at 1.47 m/s to have the same kinetic energy as the sprinter running at 10.0 m/s. Even though the elephant is moving much more slowly, it requires significant energy to move its large mass. Larger animals need proportionally larger metabolic rates to generate the energy required for movement. This is why metabolic rate scales with body mass—larger animals require more energy for basic functions and movement.
+**Discussion**
+
+The elephant must move at only 1.47 m/s to have the same kinetic energy as the sprinter running at 10.0 m/s. This is because the elephant's mass (3000 kg) is about 46 times greater than the sprinter's mass (65.0 kg), so by the kinetic energy formula $$ \KE = \frac{1}{2}mv^{2} $$, the elephant's velocity only needs to be $$ 1/\sqrt{46} \approx 1/6.8 $$ times the sprinter's velocity.
+
+Even though the elephant moves more slowly, it requires significant energy to move its large mass. Larger animals need proportionally larger metabolic rates to generate the energy required for movement. Metabolic rate generally scales with body mass to approximately the 3/4 power (Kleiber's law), meaning that while a 3000-kg elephant requires much more total energy than a 65-kg human, its metabolic rate per unit mass is actually lower. However, the elephant still needs substantial energy intake to maintain its basic functions and enable movement of such a massive body.
+
+**Answer**
+
+(a) The elephant must move at $$ 1.47 \ms $$ to have the same kinetic energy as the sprinter.
+
+(b) Larger animals require greater absolute metabolic rates to move their larger masses, though metabolic rate per unit mass decreases with increasing body size according to Kleiber's law.
 
 </div>
 </div>
@@ -549,6 +563,10 @@ Calculate kinetic energy:
 
 The calculated kinetic energy of $$ 1.1 \times 10^{10} $$ J confirms the value in Table 1. This enormous energy—about 11 billion joules—is equivalent to the energy in about 90 gallons of gasoline. It demonstrates the massive amount of energy required to move such a large vessel, and explains why aircraft carriers need powerful propulsion systems.
 
+**Answer**
+
+The kinetic energy of the aircraft carrier is $$ 1.1 \times 10^{10} \J $$ (11 billion joules), confirming the value given in Table 1.
+
 </div>
 </div>
 
@@ -562,9 +580,9 @@ The calculated kinetic energy of $$ 1.1 \times 10^{10} $$ J confirms the value i
 
 **Strategy**
 
-We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} = -\frac{1}{2}mv_{0}^{2} $$.
+We use the work-energy theorem: the net work done equals the change in kinetic energy. The work done by the braking force is $$ W = -Fd $$ (negative because it opposes motion), and this must equal the change in kinetic energy, which is $$ \Delta \KE = 0 - \frac{1}{2}mv_{0}^{2} = -\frac{1}{2}mv_{0}^{2} $$. We apply this to both scenarios—normal braking and hitting an abutment—to compare the forces.
 
-**Solution for (a)**
+**Solution**
 
 First, convert the speed: $$ v\_{0} = 90.0\text{ km/h} = 90.0 \times \frac{1000\m}{3600\s} = 25.0\ms $$
 
@@ -573,6 +591,8 @@ The initial kinetic energy is:
 <div class="equation">
  $$ \KE_{0} = \frac{1}{2}(950\kg)(25.0\ms)^{2} = 2.97 \times 10^{5}\J $$
 </div>
+
+__(a)__ For normal braking over 120 m:
 
 Using the work-energy theorem ($$ W\_{\text{net}} = \Delta \KE $$):
 
@@ -589,9 +609,7 @@ F &=& 2.47 \times 10^{3}\N \approx 2.5 \times 10^{3}\N
 \end{array} $$
 </div>
 
-**Solution for (b)**
-
-Using the same initial kinetic energy but with $$ d = 2.00\m $$:
+__(b)__ For hitting the abutment with $$ d = 2.00\m $$:
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -608,8 +626,15 @@ The ratio of forces is:
 
 **Discussion**
 
-(a) The force needed for a normal stop is approximately 2500 N.
-(b) The force when hitting the abutment is approximately 150,000 N, which is 60 times larger than the normal braking force. This dramatic increase explains why high-speed collisions are so dangerous—the forces involved are enormous when the stopping distance is very small.
+The force needed for normal braking over 120 m is approximately 2500 N, which is substantial but manageable for a car's braking system. However, when the car hits an abutment and stops in only 2.00 m, the force increases to approximately 150,000 N—60 times larger than the normal braking force.
+
+This dramatic increase demonstrates the inverse relationship between stopping distance and force: when the stopping distance is reduced by a factor of 60 (from 120 m to 2 m), the force increases by the same factor. This explains why high-speed collisions are so catastrophic—the forces involved become enormous when the stopping distance is very small, causing severe damage to both the vehicle and occupants.
+
+**Answer**
+
+(a) The force needed to bring the car to rest in 120 m is $$ 2.5 \times 10^{3} \N $$ (2500 N).
+
+(b) The force when hitting the abutment is $$ 1.5 \times 10^{5} \N $$ (150,000 N), which is 60 times larger than the braking force.
 
 </div>
 </div>
@@ -651,6 +676,10 @@ F &=& 2725\N \approx 2.7 \times 10^{3}\N
 
 The average force on the bumper is approximately 2700 N (about 610 pounds). This is a substantial force, but it's distributed over the 0.200 m crumple distance, which protects the car body from damage. This design principle—absorbing impact energy over a larger distance—is the basis of modern automotive safety features like crumple zones.
 
+**Answer**
+
+The average force on the bumper is $$ 2.7 \times 10^{3} \N $$ (approximately 2700 N or 610 pounds).
+
 </div>
 </div>
 
@@ -671,9 +700,9 @@ to cause damage even though it is lower than the force with no glove?
 
 **Strategy**
 
-We use the work-energy theorem. The kinetic energy of the arm and glove is converted to work done in stopping over distance $$ d $$. The work done by the stopping force is $$ W = -Fd $$, which equals the change in kinetic energy $$ \Delta \KE = 0 - \frac{1}{2}mv^{2} $$.
+We use the work-energy theorem. The kinetic energy of the arm and glove is converted to work done in stopping over distance $$ d $$. The work done by the stopping force is $$ W = -Fd $$, which equals the change in kinetic energy $$ \Delta \KE = 0 - \frac{1}{2}mv^{2} $$. We calculate the force for two scenarios: with gloves (larger stopping distance) and without gloves (smaller stopping distance).
 
-**Solution for (a)**
+**Solution**
 
 The initial kinetic energy is:
 
@@ -681,7 +710,9 @@ The initial kinetic energy is:
  $$ \KE = \frac{1}{2}(7.00\kg)(10.0\ms)^{2} = 350\J $$
 </div>
 
-Using the work-energy theorem with $$ d = 7.50\text{ cm} = 0.0750\m $$:
+__(a)__ With gloves, using $$ d = 7.50\text{ cm} = 0.0750\m $$:
+
+Using the work-energy theorem:
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -691,9 +722,7 @@ F &=& 4.67 \times 10^{3}\N \approx 4.7 \times 10^{3}\N
 \end{array} $$
 </div>
 
-**Solution for (b)**
-
-With $$ d = 2.00\text{ cm} = 0.0200\m $$:
+__(b)__ Without gloves, using $$ d = 2.00\text{ cm} = 0.0200\m $$:
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -702,11 +731,19 @@ F &=& 1.75 \times 10^{4}\N \approx 1.8 \times 10^{4}\N
 \end{array} $$
 </div>
 
-**Discussion for (c)**
+**Discussion**
 
-(a) With a glove, the force is approximately 4700 N.
-(b) Without a glove, the force is approximately 17,500 N, which is about 3.7 times larger.
-(c) Even with a glove, 4700 N is still a very substantial force—about 1000 pounds! This is certainly enough to cause significant damage. The glove reduces the force by increasing the stopping distance, but the blow can still be devastating. This explains why even padded boxing gloves can cause concussions and other serious injuries.
+With a glove, the force is approximately 4700 N, while without a glove, the force increases to approximately 17,500 N—about 3.7 times larger. This dramatic difference occurs because the glove increases the stopping distance by a factor of 3.75 (from 2.00 cm to 7.50 cm), and since force is inversely proportional to stopping distance, the force decreases by the same factor.
+
+However, even with a glove, 4700 N is still a very substantial force—equivalent to about 1000 pounds! This is certainly enough to cause significant damage. The human face and brain are not designed to withstand such forces. The glove reduces the force by increasing the stopping distance, but the blow can still be devastating. This explains why even padded boxing gloves can cause concussions, facial fractures, and other serious injuries. The comparison highlights why modern boxing regulations require gloves—they reduce the force substantially, though not enough to eliminate all danger.
+
+**Answer**
+
+(a) The force exerted with a boxing glove is $$ 4.7 \times 10^{3} \N $$ (approximately 4700 N).
+
+(b) The force exerted without a glove is $$ 1.8 \times 10^{4} \N $$ (approximately 17,500 N).
+
+(c) Yes, even the reduced force with a glove (4700 N or about 1000 pounds) is high enough to cause significant damage including concussions and facial injuries.
 
 </div>
 </div>
@@ -752,6 +789,10 @@ F_{\text{sprinter}} &=& 72.0\N + 30.0\N = 102\N
 **Discussion**
 
 The sprinter exerts an average force of 102 N backward on the track (by Newton's third law, the track pushes forward on the sprinter with 102 N). Of this, 30 N is needed to overcome the headwind, while the remaining 72 N provides the net force that accelerates the sprinter. This demonstrates how additional resistance forces require proportionally more effort to achieve the same acceleration.
+
+**Answer**
+
+The average force the sprinter exerts backward on the track is $$ 102 \N $$.
 
 </div>
 </div>

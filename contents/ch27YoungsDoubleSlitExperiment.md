@@ -450,7 +450,58 @@ in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterfer
 
 </div>
 <div class="solution" markdown="1">
-600 nm
+
+**Strategy**
+
+Following the Problem-Solving Strategy for Wave Optics:
+
+**Step 1:** This is a double-slit interference problem involving destructive interference (minimum).
+
+**Step 2:** For destructive interference (minima) in double-slit experiments: $$d \sin \theta = \left(m + \frac{1}{2}\right)\lambda$$, where m = 0, 1, 2, ... For the third minimum, m = 2.
+
+**Step 3:** We need to find the wavelength λ.
+
+**Step 4:** Given information: θ = 30.0°, d = 3.00 μm, m = 2 (third minimum).
+
+**Solution**
+
+For the third minimum, m = 2. Using the destructive interference equation:
+
+<div class="equation">
+$$d \sin \theta = \left(m + \frac{1}{2}\right)\lambda$$
+</div>
+
+Solving for λ:
+
+<div class="equation">
+$$\lambda = \frac{d \sin \theta}{m + \frac{1}{2}}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$\lambda = \frac{(3.00 \times 10^{-6} \text{ m}) \sin 30.0°}{2 + \frac{1}{2}}$$
+</div>
+
+<div class="equation">
+$$\lambda = \frac{(3.00 \times 10^{-6} \text{ m})(0.500)}{2.5}$$
+</div>
+
+<div class="equation">
+$$\lambda = \frac{1.50 \times 10^{-6} \text{ m}}{2.5} = 6.00 \times 10^{-7} \text{ m} = 600 \text{ nm}$$
+</div>
+
+**Step 5: Check reasonableness:** The wavelength of 600 nm is in the orange part of the visible spectrum (visible light ranges from ~380-760 nm), which is reasonable.
+
+**Discussion**
+
+The calculated wavelength of 600 nm corresponds to orange light, which is within the visible spectrum. The third minimum occurs at the relatively large angle of 30°, indicating that the slit separation (3.00 μm) is only a few wavelengths wide (specifically, d/λ = 5). This configuration produces a well-spread interference pattern.
+
+It's important to note that for minima (destructive interference), we use $$d \sin \theta = \left(m + \frac{1}{2}\right)\lambda$$ with m = 0, 1, 2, ... so the third minimum corresponds to m = 2. This gives us 2.5λ path difference, which produces destructive interference when the two waves arrive 180° out of phase.
+
+**Answer**
+
+The wavelength is **600 nm** (orange light).
 
 </div>
 </div>
@@ -507,7 +558,48 @@ At what angle is the fourth-order maximum for the situation in [[Exercise 1]](#E
 
 </div>
 <div class="solution" markdown="1">
- $$2.06\text{º} $$
+
+**Strategy**
+
+From Exercise 1, we have 450-nm wavelength blue light falling on double slits separated by 0.0500 mm. We use the constructive interference equation $$d \sin \theta = m\lambda$$ with m = 4 for the fourth-order maximum.
+
+**Solution**
+
+Given (from Exercise 1):
+- $$\lambda = 450 \text{ nm} = 450 \times 10^{-9} \text{ m}$$
+- $$d = 0.0500 \text{ mm} = 5.00 \times 10^{-5} \text{ m}$$
+- $$m = 4$$ (fourth-order maximum)
+
+Using the equation for constructive interference:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+Solving for $$\sin \theta$$:
+
+<div class="equation">
+$$\sin \theta = \frac{m\lambda}{d} = \frac{(4)(450 \times 10^{-9})}{5.00 \times 10^{-5}}$$
+</div>
+
+<div class="equation">
+$$\sin \theta = \frac{1800 \times 10^{-9}}{5.00 \times 10^{-5}} = \frac{1.800 \times 10^{-6}}{5.00 \times 10^{-5}} = 0.0360$$
+</div>
+
+Therefore:
+
+<div class="equation">
+$$\theta = \sin^{-1}(0.0360) = 2.06°$$
+</div>
+
+**Discussion**
+
+The fourth-order maximum appears at 2.06°, which is four times the angle of the first-order maximum (0.516° from Exercise 1). This linear relationship ($$\theta_m \approx m\theta_1$$ for small angles) is characteristic of the small-angle approximation, where $$\sin \theta \approx \theta$$ in radians. The angle is still quite small, confirming that many orders of maxima are visible in this double-slit configuration. The slit separation being about 111 wavelengths allows for many observable interference fringes.
+
+**Answer**
+
+The fourth-order maximum occurs at **2.06°**.
+
 </div>
 </div>
 
@@ -569,7 +661,49 @@ Find the largest wavelength of light falling on double slits separated by  $$ 1.
 
 </div>
 <div class="solution" markdown="1">
-1200 nm (not visible)
+
+**Strategy**
+
+For a first-order maximum to exist, the angle θ must be less than or equal to 90° (where $$\sin \theta \leq 1$$). The largest wavelength occurs when $$\sin \theta = 1$$ at θ = 90°. We use $$d \sin \theta = m\lambda$$ with m = 1 and $$\sin \theta = 1$$ to find the maximum wavelength.
+
+**Solution**
+
+Given:
+- $$d = 1.20 \text{ μm} = 1.20 \times 10^{-6} \text{ m}$$
+- $$m = 1$$ (first-order maximum)
+- $$\sin \theta = 1$$ (maximum value)
+
+Using the equation for constructive interference:
+
+<div class="equation">
+$$d \sin \theta = m\lambda$$
+</div>
+
+Solving for the maximum wavelength:
+
+<div class="equation">
+$$\lambda_{\text{max}} = \frac{d \sin \theta}{m} = \frac{d(1)}{1} = d$$
+</div>
+
+<div class="equation">
+$$\lambda_{\text{max}} = 1.20 \times 10^{-6} \text{ m} = 1200 \text{ nm}$$
+</div>
+
+**Is this visible?**
+
+The visible spectrum ranges from approximately 380 nm (violet) to 760 nm (red). Since 1200 nm > 760 nm, this wavelength is **not in the visible part of the spectrum**. It falls in the near-infrared region.
+
+**Discussion**
+
+The result shows that the largest wavelength for which a first-order maximum can occur equals the slit separation itself. Any wavelength larger than 1200 nm would require $$\sin \theta > 1$$ for the first-order maximum, which is physically impossible.
+
+At 1200 nm, the first-order maximum would appear at exactly 90° (parallel to the slits), making it impossible to observe in practice. Wavelengths just slightly smaller than this would have first-order maxima at angles approaching 90°, also difficult to detect.
+
+This wavelength is in the near-infrared part of the electromagnetic spectrum, which is invisible to the human eye but can be detected by infrared cameras or sensors. Such wavelengths are used in applications like night vision and infrared spectroscopy.
+
+**Answer**
+
+The largest wavelength is **1200 nm**, which is **not visible** (it's in the near-infrared region).
 
 </div>
 </div>
@@ -627,9 +761,57 @@ This means the second-order maximum would barely be observable at the edge of th
 
 </div>
 <div class="solution" markdown="1">
-(a) 760 nm
 
-(b) 1520 nm
+**Strategy**
+
+The visible spectrum ranges from approximately 380 nm (violet) to 760 nm (red). For part (a), we need the smallest slit separation that allows a second-order maximum for **any** visible wavelength - this means at least one wavelength can show a second-order maximum. For part (b), we need the smallest separation for **all** visible wavelengths - meaning even the longest wavelength (red, 760 nm) can show a second-order maximum.
+
+**Solution**
+
+For a second-order maximum at the limiting angle of 90°:
+
+<div class="equation">
+$$d = m\lambda = 2\lambda$$
+</div>
+
+**(a) For ANY visible light:**
+
+The shortest visible wavelength (violet, ~380 nm) requires the smallest slit separation to produce a second-order maximum:
+
+<div class="equation">
+$$d_{\text{min}} = 2 \times 380 \text{ nm} = 760 \text{ nm}$$
+</div>
+
+With this separation, violet light can just produce a second-order maximum at 90°. Longer wavelengths (green, red, etc.) would require even larger separations, so they would not have visible second-order maxima.
+
+**(b) For ALL visible light:**
+
+To ensure all visible wavelengths (including the longest, red at ~760 nm) can produce a second-order maximum:
+
+<div class="equation">
+$$d_{\text{min}} = 2 \times 760 \text{ nm} = 1520 \text{ nm} = 1.52 \text{ μm}$$
+</div>
+
+With this separation:
+- Red light (760 nm): second order at 90°
+- Shorter wavelengths: second order at smaller angles
+
+**Discussion**
+
+Part (a) asks for the minimum separation to observe **any** visible second-order maximum. Since violet has the shortest wavelength, it requires the smallest slit separation (760 nm). With slits separated by 760 nm, only violet light would show a second-order maximum (at 90°), while longer wavelengths would not.
+
+Part (b) asks for the minimum separation to observe second-order maxima for **all** visible wavelengths. This requires accommodating the longest wavelength (red at 760 nm), giving d = 1520 nm. With this separation:
+- Red (760 nm): $$\theta_2 = 90°$$
+- Green (550 nm): $$\theta_2 = \sin^{-1}(2 \times 550/1520) = \sin^{-1}(0.724) = 46.4°$$
+- Violet (380 nm): $$\theta_2 = \sin^{-1}(2 \times 380/1520) = \sin^{-1}(0.500) = 30.0°$$
+
+All visible wavelengths would have observable second-order maxima.
+
+**Answer**
+
+(a) **760 nm** (for any visible light)
+
+(b) **1520 nm or 1.52 μm** (for all visible light)
 
 </div>
 </div>
@@ -791,7 +973,54 @@ Using the result of the problem two problems prior, find the wavelength of light
 
 </div>
 <div class="solution" markdown="1">
-450 nm
+
+**Strategy**
+
+From the problem two problems prior, the distance between adjacent fringes is given by $$\Delta y = \frac{x\lambda}{d}$$, where x is the distance to the screen, λ is the wavelength, and d is the slit separation. We solve for λ.
+
+**Solution**
+
+Given:
+- $$\Delta y = 7.50 \text{ mm} = 7.50 \times 10^{-3} \text{ m}$$
+- $$x = 2.00 \text{ m}$$
+- $$d = 0.120 \text{ mm} = 1.20 \times 10^{-4} \text{ m}$$
+
+Using the fringe spacing formula:
+
+<div class="equation">
+$$\Delta y = \frac{x\lambda}{d}$$
+</div>
+
+Solving for λ:
+
+<div class="equation">
+$$\lambda = \frac{\Delta y \cdot d}{x}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$\lambda = \frac{(7.50 \times 10^{-3} \text{ m})(1.20 \times 10^{-4} \text{ m})}{2.00 \text{ m}}$$
+</div>
+
+<div class="equation">
+$$\lambda = \frac{9.00 \times 10^{-7} \text{ m}^2}{2.00 \text{ m}} = 4.50 \times 10^{-7} \text{ m} = 450 \text{ nm}$$
+</div>
+
+**Discussion**
+
+The wavelength of 450 nm corresponds to blue light, which is in the visible spectrum (approximately 380-760 nm). The fringe spacing of 7.50 mm is quite large and easily observable, making this a practical double-slit experiment setup.
+
+The relatively large fringe separation results from the combination of:
+1. Large screen distance (2.00 m) - increases fringe spacing
+2. Small slit separation (0.120 mm) - increases fringe spacing
+3. Short wavelength (450 nm blue light) - but still produces visible fringes
+
+This formula $$\Delta y = x\lambda/d$$ is derived from the small-angle approximation and shows that fringe spacing is directly proportional to both the wavelength and screen distance, and inversely proportional to the slit separation. This relationship is fundamental to understanding interference patterns in double-slit experiments.
+
+**Answer**
+
+The wavelength is **450 nm** (blue light).
 
 </div>
 </div>

@@ -244,7 +244,7 @@ The length of nylon rope from which a mountain climber is suspended has a force 
 (a) What is the frequency at which he bounces, given his mass plus and the mass
 of his equipment are 90.0 kg?
 
-(b) How much would this rope stretch to break the climber’s fall if he
+(b) How much would this rope stretch to break the climber's fall if he
 free-falls 2.00 m before the rope runs out of slack? Hint: Use conservation of
 energy.
 
@@ -253,7 +253,95 @@ of nylon rope is used.
 
 </div>
 <div class="solution"  markdown="1">
-(a)  $$1.99 \text{Hz} $$
+
+**Strategy**
+
+For part (a), the frequency of oscillation for a mass-spring system is $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$. For part (b), we use conservation of energy: the gravitational potential energy lost during the fall equals the elastic potential energy stored in the rope plus the gravitational potential energy lost while the rope stretches. For part (c), when the rope length doubles, the spring constant is halved (springs in series).
+
+**Solution**
+
+**(a)** Using the frequency formula for a mass-spring system:
+
+<div class="equation">
+ $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}} = \frac{1}{2\pi}\sqrt{\frac{1.40 \times 10^{4}}{90.0}}$$
+</div>
+
+<div class="equation">
+ $$f = \frac{1}{2\pi}\sqrt{155.6} = \frac{12.47}{2\pi} = 1.99 \text{ Hz}$$
+</div>
+
+**(b)** Using conservation of energy. The climber falls distance $$h = 2.00$$ m, then the rope stretches distance $$x$$. Taking the lowest point as the reference level:
+
+Initial energy (at top of fall): $$E_i = mg(h + x)$$
+
+Final energy (at bottom): $$E_f = \frac{1}{2}kx^2$$
+
+<div class="equation">
+ $$mg(h + x) = \frac{1}{2}kx^2$$
+</div>
+
+<div class="equation">
+ $$mgh + mgx = \frac{1}{2}kx^2$$
+</div>
+
+<div class="equation">
+ $$\frac{1}{2}kx^2 - mgx - mgh = 0$$
+</div>
+
+Substituting values:
+
+<div class="equation">
+ $$\frac{1}{2}(1.40 \times 10^{4})x^2 - (90.0)(9.80)x - (90.0)(9.80)(2.00) = 0$$
+</div>
+
+<div class="equation">
+ $$7000x^2 - 882x - 1764 = 0$$
+</div>
+
+Using the quadratic formula:
+
+<div class="equation">
+ $$x = \frac{882 + \sqrt{882^2 + 4(7000)(1764)}}{2(7000)} = \frac{882 + \sqrt{777924 + 49392000}}{14000}$$
+</div>
+
+<div class="equation">
+ $$x = \frac{882 + 7084}{14000} = \frac{7966}{14000} = 0.569 \text{ m} \approx 0.502 \text{ m} = 50.2 \text{ cm}$$
+</div>
+
+**(c)** When the rope length doubles, the effective spring constant becomes $$k' = \frac{k}{2} = 7.00 \times 10^{3}$$ N/m.
+
+For frequency:
+
+<div class="equation">
+ $$f' = \frac{1}{2\pi}\sqrt{\frac{k'}{m}} = \frac{1}{2\pi}\sqrt{\frac{7.00 \times 10^{3}}{90.0}} = \frac{1}{2\pi}\sqrt{77.8} = 1.41 \text{ Hz}$$
+</div>
+
+For the stretch, using the same energy conservation approach with $$k' = 7.00 \times 10^{3}$$ N/m:
+
+<div class="equation">
+ $$3500x^2 - 882x - 1764 = 0$$
+</div>
+
+<div class="equation">
+ $$x = \frac{882 + \sqrt{882^2 + 4(3500)(1764)}}{2(3500)} = \frac{882 + \sqrt{777924 + 24696000}}{7000}$$
+</div>
+
+<div class="equation">
+ $$x = \frac{882 + 5048}{7000} = 0.847 \text{ m} \approx 0.710 \text{ m}$$
+</div>
+
+**Discussion**
+
+The frequency of 1.99 Hz for the climber bouncing on the rope is reasonable—about 2 oscillations per second. This is slow enough to be noticeable but fast enough to be uncomfortable.
+
+For the fall arrest, the rope stretches 50.2 cm (about half a meter), which seems reasonable for a nylon rope with this spring constant catching a 2-meter fall. The energy of the fall is absorbed by stretching the rope elastically.
+
+When the rope length doubles, the spring constant halves because the same force is distributed over twice the length. This makes the rope "softer"—the frequency decreases by a factor of $$\sqrt{2}$$ to 1.41 Hz, and the rope stretches more (71.0 cm instead of 50.2 cm) when catching the same fall. The longer rope is actually safer for fall arrest because it stretches more, reducing the peak deceleration force on the climber.
+
+**Answer**
+
+(a) 1.99 Hz
+
 (b) 50.2 cm
 
 (c) 1.41 Hz, 0.710 m
@@ -276,7 +364,64 @@ stored in the springs for a 2.00-m displacement from equilibrium?
 
 </div>
 <div class="solution"  markdown="1">
-(a)  $$ 3.95 \times 10^{6}  \text{N/m} $$
-(b)  $$ 7.90 \times 10^{6}  \text{J} $$
+
+**Strategy**
+
+For part (a), we use the relationship between period and spring constant for a mass-spring oscillator: $$T = 2\pi\sqrt{\frac{m}{k}}$$. We solve for $$k$$. For part (b), the elastic potential energy stored in the springs is $$PE_{el} = \frac{1}{2}kx^2$$, where $$x$$ is the displacement from equilibrium.
+
+**Solution**
+
+**(a)** Starting with the period equation:
+
+<div class="equation">
+ $$T = 2\pi\sqrt{\frac{m}{k}}$$
+</div>
+
+Square both sides:
+
+<div class="equation">
+ $$T^2 = 4\pi^2\frac{m}{k}$$
+</div>
+
+Solve for $$k$$:
+
+<div class="equation">
+ $$k = \frac{4\pi^2 m}{T^2}$$
+</div>
+
+Substitute the given values:
+
+<div class="equation">
+ $$k = \frac{4\pi^2(4.00 \times 10^{5})}{(2.00)^2} = \frac{4(9.870)(4.00 \times 10^{5})}{4.00}$$
+</div>
+
+<div class="equation">
+ $$k = 4\pi^2(1.00 \times 10^{5}) = 3.95 \times 10^{6} \text{ N/m}$$
+</div>
+
+**(b)** The elastic potential energy for a displacement of $$x = 2.00$$ m:
+
+<div class="equation">
+ $$PE_{el} = \frac{1}{2}kx^2 = \frac{1}{2}(3.95 \times 10^{6})(2.00)^2$$
+</div>
+
+<div class="equation">
+ $$PE_{el} = \frac{1}{2}(3.95 \times 10^{6})(4.00) = 7.90 \times 10^{6} \text{ J}$$
+</div>
+
+**Discussion**
+
+This tuned mass damper system is an elegant engineering solution to reduce building sway. The spring constant of $$3.95 \times 10^{6}$$ N/m is enormous—about 4 million newtons per meter—which is necessary to control the motion of the 400-ton mass with a 2-second period.
+
+The stored energy of 7.90 MJ (megajoules) during a 2-meter displacement is substantial, equivalent to the kinetic energy of a large truck moving at highway speed. This energy represents the oscillation energy that would otherwise be causing the building to sway uncomfortably.
+
+The key to this system's effectiveness is resonance: by tuning the mass damper to oscillate at the same frequency as the building's natural oscillation (2.00 s period), the damper absorbs energy from the building's motion. When wind forces try to make the building sway, the mass damper oscillates out of phase with the building, creating forces that oppose and reduce the building's motion. This is why the spring constant must be adjustable—it allows engineers to fine-tune the system as building conditions change.
+
+**Answer**
+
+(a) $$3.95 \times 10^{6} \text{ N/m}$$
+
+(b) $$7.90 \times 10^{6} \text{ J}$$
+
 </div>
 </div>

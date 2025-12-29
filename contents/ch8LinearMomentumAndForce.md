@@ -310,37 +310,45 @@ This problem applies the definition of linear momentum $$ p = mv $$ to calculate
 
 Using the definition of momentum:
 
-$$ p_{\text{elephant}} = m_{\text{elephant}} \times v\_{\text{elephant}} $$
+<div class="equation">
+$$ p_{\text{elephant}} = m_{\text{elephant}} v\_{\text{elephant}} $$
+</div>
 
+<div class="equation">
 $$ p\_{\text{elephant}} = (2000 \kg)(7.50 \ms) = 1.50 \times 10^{4} \kg \cdot \ms $$
-
-The momentum of the charging elephant is $$ 1.50 \times 10^{4} \kg \cdot \ms $$.
+</div>
 
 **Solution for (b)**
 
 First, calculate the dart's momentum:
 
-$$ p_{\text{dart}} = m_{\text{dart}} \times v\_{\text{dart}} $$
-
-$$ p\_{\text{dart}} = (0.0400 \kg)(600 \ms) = 24.0 \kg \cdot \ms $$
+<div class="equation">
+$$ p_{\text{dart}} = m_{\text{dart}} v\_{\text{dart}} = (0.0400 \kg)(600 \ms) = 24.0 \kg \cdot \ms $$
+</div>
 
 Now find the ratio:
 
+<div class="equation">
 $$ \frac{p_{\text{elephant}}}{p_{\text{dart}}} = \frac{1.50 \times 10^{4} \kg \cdot \ms}{24.0 \kg \cdot \ms} = 625 $$
-
-The elephant's momentum is 625 times greater than the dart's momentum.
+</div>
 
 **Solution for (c)**
 
-$$ p_{\text{hunter}} = m_{\text{hunter}} \times v\_{\text{hunter}} $$
-
-$$ p\_{\text{hunter}} = (90.0 \kg)(7.40 \ms) = 6.66 \times 10^{2} \kg \cdot \ms $$
-
-The momentum of the fleeing hunter is $$ 6.66 \times 10^{2} \kg \cdot \ms $$.
+<div class="equation">
+$$ p_{\text{hunter}} = m_{\text{hunter}} v\_{\text{hunter}} = (90.0 \kg)(7.40 \ms) = 6.66 \times 10^{2} \kg \cdot \ms $$
+</div>
 
 **Discussion**
 
 Despite the dart traveling 80 times faster than the elephant, the elephant's enormous mass (50,000 times the dart's mass) results in a momentum 625 times larger. This illustrates why momentum depends on both mass and velocity. The hunter's momentum is much smaller than the elephant's, explaining why the hunter wisely chose to run!
+
+**Answer**
+
+(a) The elephant's momentum is **1.50 × 10⁴ kg·m/s**.
+
+(b) The elephant's momentum is **625 times** greater than the dart's momentum.
+
+(c) The hunter's momentum is **666 kg·m/s** (or 6.66 × 10² kg·m/s).
 
 </div>
 </div>
@@ -363,29 +371,39 @@ For part (a), we use the definition of momentum $$ p = mv $$ and solve for mass.
 
 First, convert the ship's speed to SI units:
 
+<div class="equation">
 $$ v = 48.0 \frac{\text{km}}{\text{h}} \times \frac{1000 \m}{1 \text{ km}} \times \frac{1 \text{ h}}{3600 \s} = 13.33 \ms $$
+</div>
 
 Using $$ p = mv $$ and solving for mass:
 
+<div class="equation">
 $$ m = \frac{p}{v} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{13.33 \ms} = 1.20 \times 10^{8} \kg $$
-
-The mass of the ship is $$ 1.20 \times 10^{8} \kg $$ (120 million kilograms, or about 120,000 metric tons).
+</div>
 
 **Solution for (b)**
 
 Calculate the artillery shell's momentum:
 
-$$ p_{\text{shell}} = m_{\text{shell}} \times v\_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
+<div class="equation">
+$$ p_{\text{shell}} = m_{\text{shell}} v\_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
+</div>
 
 Find the ratio:
 
+<div class="equation">
 $$ \frac{p_{\text{ship}}}{p_{\text{shell}}} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{1.32 \times 10^{6} \kg \cdot \ms} = 1.21 \times 10^{3} $$
-
-The ship's momentum is approximately 1210 times greater than the artillery shell's momentum.
+</div>
 
 **Discussion**
 
 Even though the artillery shell travels at supersonic speed (about Mach 3.5), the ship's enormous mass gives it over 1000 times more momentum. This explains why large ships require great distances and time to stop or change direction—their massive momentum must be overcome by relatively small forces from their propulsion systems.
+
+**Answer**
+
+(a) The ship's mass is **1.20 × 10⁸ kg** (120 million kilograms, or about 120,000 metric tons).
+
+(b) The ship's momentum is approximately **1210 times** (or 1.21 × 10³ times) greater than the artillery shell's momentum.
 
 </div>
 </div>
@@ -415,29 +433,39 @@ For part (a), we use $$ p = mv $$ and solve for velocity. For part (b), we calcu
 
 Using $$ p = mv $$ and solving for velocity:
 
+<div class="equation">
 $$ v = \frac{p}{m} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{2.00 \times 10^{4} \kg} = 8.00 \times 10^{4} \ms $$
-
-To have the same momentum as the ship, the airplane would need to fly at $$ 8.00 \times 10^{4} \ms $$ (80 km/s), which is about 235 times the speed of sound—clearly impossible for conventional aircraft.
+</div>
 
 **Solution for (b)**
 
-$$ p_{\text{plane}} = m_{\text{plane}} \times v_{\text{takeoff}} = (2.00 \times 10^{4} \kg)(60.0 \ms) = 1.20 \times 10^{6} \kg \cdot \ms $$
-
-The plane's momentum at takeoff is $$ 1.20 \times 10^{6} \kg \cdot \ms $$.
+<div class="equation">
+$$ p_{\text{plane}} = m_{\text{plane}} v_{\text{takeoff}} = (2.00 \times 10^{4} \kg)(60.0 \ms) = 1.20 \times 10^{6} \kg \cdot \ms $$
+</div>
 
 **Solution for (c)**
 
 By conservation of momentum, when the catapult launches the plane forward, the ship recoils backward. The ship's mass from the previous problem is $$ 1.20 \times 10^{8} \kg $$.
 
+<div class="equation">
 $$ m_{\text{ship}} v_{\text{recoil}} = -p_{\text{plane}} $$
+</div>
 
+<div class="equation">
 $$ v_{\text{recoil}} = \frac{-1.20 \times 10^{6} \kg \cdot \ms}{1.20 \times 10^{8} \kg} = -0.0100 \ms $$
-
-The ship recoils at only 0.0100 m/s (1 cm/s) backward, which is negligible.
+</div>
 
 **Discussion**
 
 The airplane's momentum at takeoff is about 1300 times smaller than the ship's momentum. Because the ship is 6000 times more massive than the plane, the recoil effect is imperceptible. This demonstrates why aircraft carriers can launch planes without noticeable movement, making them stable platforms for flight operations.
+
+**Answer**
+
+(a) The airplane would need to fly at **8.00 × 10⁴ m/s** (80 km/s), which is about 235 times the speed of sound—clearly impossible for conventional aircraft.
+
+(b) The plane's momentum at takeoff is **1.20 × 10⁶ kg·m/s**.
+
+(c) The ship recoils at only **0.0100 m/s** (1 cm/s) backward, which is negligible and demonstrates why aircraft carriers remain stable platforms for flight operations.
 </div>
 </div>
 
@@ -457,25 +485,31 @@ For part (a), we apply the definition of momentum $$ p = mv $$. For part (b), we
 
 **Solution for (a)**
 
-$$ p_{\text{truck}} = m_{\text{truck}} \times v_{\text{truck}} $$
-
-$$ p_{\text{truck}} = (1.20 \times 10^{4} \kg)(10.0 \ms) = 1.20 \times 10^{5} \kg \cdot \ms $$
-
-The momentum of the garbage truck is $$ 1.20 \times 10^{5} \kg \cdot \ms $$.
+<div class="equation">
+$$ p_{\text{truck}} = m_{\text{truck}} v_{\text{truck}} = (1.20 \times 10^{4} \kg)(10.0 \ms) = 1.20 \times 10^{5} \kg \cdot \ms $$
+</div>
 
 **Solution for (b)**
 
 For equal momenta: $$ p_{\text{can}} = p_{\text{truck}} $$
 
-$$ m_{\text{can}} \times v_{\text{can}} = 1.20 \times 10^{5} \kg \cdot \ms $$
+<div class="equation">
+$$ m_{\text{can}} v_{\text{can}} = 1.20 \times 10^{5} \kg \cdot \ms $$
+</div>
 
+<div class="equation">
 $$ v_{\text{can}} = \frac{1.20 \times 10^{5} \kg \cdot \ms}{8.00 \kg} = 1.50 \times 10^{4} \ms $$
-
-The trash can would need to travel at $$ 1.50 \times 10^{4} \ms $$ (15 km/s, or about 54,000 km/h) to have the same momentum as the garbage truck.
+</div>
 
 **Discussion**
 
 This speed is about 44 times the speed of sound and roughly half of Earth's escape velocity! The mass ratio between the truck and trash can is 1500:1, so the trash can would need to travel 1500 times faster than the truck to have equal momentum. This dramatically illustrates how mass and velocity contribute equally to momentum—doubling either one doubles the momentum.
+
+**Answer**
+
+(a) The garbage truck's momentum is **1.20 × 10⁵ kg·m/s**.
+
+(b) The trash can would need to travel at **1.50 × 10⁴ m/s** (15 km/s, or about 54,000 km/h) to have the same momentum as the garbage truck.
 </div>
 </div>
 
@@ -495,33 +529,41 @@ We use Newton's second law in terms of momentum: $$ F_{\text{net}} = \frac{\Delt
 
 First, calculate the initial momentum of the train car:
 
+<div class="equation">
 $$ p_{i} = mv = (15000 \kg)(5.4 \ms) = 81000 \kg \cdot \ms $$
+</div>
 
-The final momentum is zero (the car comes to rest):
+The final momentum is zero (the car comes to rest), so the change in momentum is:
 
-$$ p_{f} = 0 $$
-
-The change in momentum is:
-
+<div class="equation">
 $$ \Delta p = p_{f} - p_{i} = 0 - 81000 \kg \cdot \ms = -81000 \kg \cdot \ms $$
+</div>
 
 Using Newton's second law in terms of momentum:
 
+<div class="equation">
 $$ F_{\text{net}} = \frac{\Delta p}{\Delta t} $$
+</div>
 
-The force opposing the motion is negative (in the direction opposite to motion):
+The force opposing the motion is negative (in the direction opposite to motion), so:
 
+<div class="equation">
 $$ -1500 \N = \frac{-81000 \kg \cdot \ms}{\Delta t} $$
+</div>
 
 Solving for time:
 
+<div class="equation">
 $$ \Delta t = \frac{81000 \kg \cdot \ms}{1500 \N} = 54 \s $$
-
-The time required to bring the train car to rest is 54 seconds.
+</div>
 
 **Discussion**
 
 Nearly a minute is needed to stop the train car, which makes sense given its large mass and modest braking force. The ratio of momentum to force gives time, showing why heavy objects require either larger forces or longer times to stop. This is why trains have long stopping distances—even with substantial braking forces, their enormous momentum takes considerable time to reduce to zero.
+
+**Answer**
+
+The time required to bring the train car to rest is **54 s** (54 seconds).
 </div>
 </div>
 
@@ -541,25 +583,35 @@ To find Earth's linear momentum, we need its orbital velocity. Earth travels in 
 
 First, calculate the circumference of Earth's orbit:
 
+<div class="equation">
 $$ C = 2\pi r = 2\pi (1.496 \times 10^{11} \m) = 9.40 \times 10^{11} \m $$
+</div>
 
 Convert one year to seconds:
 
+<div class="equation">
 $$ T = 1 \text{ year} = 365.25 \text{ days} \times 24 \frac{\text{h}}{\text{day}} \times 3600 \frac{\s}{\text{h}} = 3.156 \times 10^{7} \s $$
+</div>
 
 Calculate Earth's orbital velocity:
 
+<div class="equation">
 $$ v = \frac{C}{T} = \frac{9.40 \times 10^{11} \m}{3.156 \times 10^{7} \s} = 2.98 \times 10^{4} \ms $$
+</div>
 
 Now calculate Earth's momentum:
 
+<div class="equation">
 $$ p = mv = (5.972 \times 10^{24} \kg)(2.98 \times 10^{4} \ms) = 1.78 \times 10^{29} \kg \cdot \ms $$
-
-The linear momentum of Earth in its orbit around the Sun is $$ 1.78 \times 10^{29} \kg \cdot \ms $$.
+</div>
 
 **Discussion**
 
 This is an enormous momentum—about $$ 10^{24} $$ times larger than the ship's momentum from earlier problems. Earth's orbital velocity of about 30 km/s (roughly 108,000 km/h) combined with its massive $$ 6 \times 10^{24} \kg $$ mass produces this immense momentum. Despite this huge momentum, Earth's orbit is stable because the Sun's gravitational force continuously provides the centripetal acceleration needed to change the direction of this momentum without changing its magnitude.
+
+**Answer**
+
+The linear momentum of Earth in its orbit around the Sun is **1.78 × 10²⁹ kg·m/s**.
 </div>
 </div>
 
