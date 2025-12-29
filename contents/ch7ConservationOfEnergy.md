@@ -330,6 +330,10 @@ From Table 1, the energy of a single electron in a TV tube beam is $$ 4.0 \times
 
 A single electron in an old TV tube beam carries enough energy to break approximately 40,000 DNA strands. This illustrates why radiation damage at the molecular level can be so significant—a single high-energy particle can cause extensive damage. However, these electrons themselves don't penetrate the glass screen; the danger came from the x-rays they produced when they struck the screen, which is why later TV models included protective shielding.
 
+**Answer**
+
+A single electron can break approximately **40,000 DNA molecules**.
+
 </div>
 </div>
 
@@ -339,9 +343,51 @@ Using energy considerations and assuming negligible air resistance, show that a 
 
 </div>
 <div class="solution"  markdown="1">
-Equating $$ \Delta \PE_{g} $$ and $$ \Delta \KE $$, we obtain
-$$ v=\sqrt{2g h + v_0^{2}}=\sqrt{ 2\left(9.80 \mss \right)\left(20.0 \m \right)+\left(15.0  \ms \right)^{2}}=24.8  
-\ms  $$
+
+**Strategy**
+
+Use conservation of mechanical energy. Since air resistance is negligible, only conservative forces act (gravity), so the total mechanical energy is conserved: $$ \KE_i + \PE_i = \KE_f + \PE_f $$. The initial kinetic energy depends only on the magnitude of velocity, not its direction, and the change in potential energy depends only on the vertical height change.
+
+**Solution**
+
+Starting with conservation of energy:
+
+<div class="equation">
+$$ \KE_i + \PE_i = \KE_f + \PE_f $$
+</div>
+
+<div class="equation">
+$$ \frac{1}{2}mv_0^2 + mgh = \frac{1}{2}mv_f^2 + 0 $$
+</div>
+
+where we set the water level as the zero potential energy reference ($$ h_f = 0 $$). Canceling mass and solving for $$ v_f $$:
+
+<div class="equation">
+$$ \frac{1}{2}v_0^2 + gh = \frac{1}{2}v_f^2 $$
+</div>
+
+<div class="equation">
+$$ v_f = \sqrt{v_0^2 + 2gh} $$
+</div>
+
+Substituting values:
+
+<div class="equation">
+$$ v_f = \sqrt{(15.0\text{ m/s})^2 + 2(9.80\text{ m/s}^2)(20.0\text{ m})} $$
+</div>
+
+<div class="equation">
+$$ v_f = \sqrt{225\text{ m}^2/\text{s}^2 + 392\text{ m}^2/\text{s}^2} = \sqrt{617\text{ m}^2/\text{s}^2} = 24.8\text{ m/s} $$
+</div>
+
+**Discussion**
+
+The final speed is independent of the direction the rock is thrown because the formula $$ v_f = \sqrt{v_0^2 + 2gh} $$ depends only on the magnitude of the initial velocity, not its direction. Whether thrown horizontally, upward at an angle, or downward, the same initial speed and height change produce the same final speed. This is a powerful demonstration of energy conservation—the path taken doesn't matter, only the initial and final states.
+
+**Answer**
+
+The rock strikes the water with a speed of **24.8 m/s**, independent of the direction thrown.
+
 </div>
 </div>
 
@@ -370,19 +416,54 @@ From Table 1, the annual world energy use is approximately $$ 4 \times 10^{20}\J
 
 Approximately 10,000 nine-megaton fusion bombs would be needed to supply the world's annual energy needs. While this seems like a large number, it illustrates the enormous energy content of nuclear fusion. However, using nuclear weapons for energy production is impractical and dangerous, which is why controlled fusion research aims to harness this energy safely.
 
+**Answer**
+
+Approximately **10,000 nine-megaton fusion bombs** would be needed to supply the world's annual energy needs.
+
 </div>
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [Table 1](#Table1). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy.
+(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from [Table 1](#Table1). To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans' hydrogen fusion energy.
 (b) How does this time compare with historically significant events, such as the duration of stable economic systems?
 
 </div>
 <div class="solution"  markdown="1">
-(a) $$ 25 \times 10^{6}\text{years} $$
 
-(b) This is much, much longer than human time scales.
+**Strategy**
+
+From Table 1, the fusion of all hydrogen in Earth's oceans would release $$ 10^{34} $$ J of energy, and the annual world energy use is $$ 4 \times 10^{20} $$ J. For part (a), divide one millionth of the ocean's fusion energy by the annual energy consumption. For part (b), compare this timescale to historical events.
+
+**Solution**
+
+**(a)** First, calculate one millionth of the ocean's hydrogen fusion energy:
+
+<div class="equation">
+$$ E_{\text{available}} = \frac{10^{34}\text{ J}}{10^{6}} = 10^{28}\text{ J} $$
+</div>
+
+Now divide by annual world energy use:
+
+<div class="equation">
+$$ \text{Number of years} = \frac{E_{\text{available}}}{E_{\text{annual}}} = \frac{10^{28}\text{ J}}{4 \times 10^{20}\text{ J/year}} $$
+</div>
+
+<div class="equation">
+$$ \text{Number of years} = 2.5 \times 10^{7}\text{ years} = 25\text{ million years} $$
+</div>
+
+**(b)** This timescale of 25 million years is extraordinarily long compared to human history. Recorded human civilization spans only about 5,000 years. Even stable economic systems typically last only centuries, not millennia. This time period is comparable to geological time scales—for instance, it's roughly the time since the late Oligocene epoch when many modern mammal groups emerged.
+
+**Discussion**
+
+The calculation reveals the almost incomprehensible magnitude of energy potentially available from fusion. Even using just one millionth of the ocean's hydrogen would power human civilization for 25 million years at current consumption rates. This is about 5,000 times longer than recorded human history and far longer than any economic or political system has ever lasted. This illustrates why controlled fusion is called the "holy grail" of energy production—it would essentially solve humanity's energy problems for geological timescales.
+
+**Answer**
+
+(a) One millionth of the ocean's hydrogen fusion energy could supply the world's energy needs for approximately **25 million years**.
+
+(b) This timescale is vastly longer than any human historical period—about 5,000 times the length of recorded civilization and far exceeding the duration of any stable economic system.
 
 </div>
 </div>

@@ -423,8 +423,13 @@ The ratio of the pyramid's potential energy to daily food intake is:
 
 **Discussion**
 
-(a) The gravitational potential energy stored in the Great Pyramid is approximately $$ 2.5 \times 10^{12}\J $$.
-(b) This is equivalent to about 210,000 days of food intake for one person, or roughly 575 years worth of food energy. This immense amount of potential energy was stored by doing work to lift millions of stone blocks to build the pyramid.
+The gravitational potential energy stored in the Great Pyramid is approximately $$ 2.5 \times 10^{12}\J $$, which is equivalent to about 210,000 days of food intake for one person, or roughly 575 years worth of food energy. This immense amount of potential energy was stored by doing work to lift millions of stone blocks to build the pyramid. The comparison with daily food intake helps illustrate the enormous amount of human labor that went into constructing this ancient monument over approximately 20 years.
+
+**Answer**
+
+(a) The gravitational potential energy of the Great Pyramid is $$ 2.5 \times 10^{12}\text{ J} $$.
+
+(b) This energy is about **210,000 times** the daily food intake of a person, equivalent to roughly 575 years of food energy.
 
 </div>
 </div>
@@ -508,7 +513,11 @@ The ratio is:
 
 **Discussion**
 
-The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that $$ \Delta \PE \gg \KE\_{\text{i}} $$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy.
+The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that $$ \Delta \PE \gg \KE\_{\text{i}} $$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy. This result is important in many practical situations: when objects fall from significant heights, their initial velocity has little effect on the final velocity.
+
+**Answer**
+
+The ratio is **15.7** (approximately **16**), confirming that $$ \Delta \PE \gg \KE_{\text{i}} $$.
 
 </div>
 </div>
@@ -628,10 +637,15 @@ For time, using $$ v = v\_{0} + at $$:
 
 **Discussion for (c)**
 
-(a) Starting from rest: final speed = 26.2 m/s, time = 5.35 s
-(b) Starting with 2.50 m/s: final speed = 26.3 m/s, time = 4.86 s
+The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The running start saves only about 0.5 seconds. However, in very competitive events, even a fraction of a second can mean the difference between winning and losing. Additionally, in actual skiing, friction and air resistance play important roles, and starting with higher speed may provide advantages in maintaining momentum through turns and rough sections of the course. The small difference in final speeds confirms the statement that $$ \Delta \PE \gg \KE_{\text{i}} $$ for the descent.
 
-The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The running start saves only about 0.5 seconds. However, in very competitive events, even a fraction of a second can mean the difference between winning and losing. Additionally, in actual skiing, friction and air resistance play important roles, and starting with higher speed may provide advantages in maintaining momentum through turns and rough sections of the course.
+**Answer**
+
+(a) Starting from rest: final speed = **26.2 m/s**, time = **5.35 s**
+
+(b) Starting with initial speed of 2.50 m/s: final speed = **26.3 m/s**, time = **4.86 s**
+
+(c) The results are surprising because the running start provides only a 0.1 m/s advantage in final speed and saves just 0.5 seconds. However, this time difference can be crucial in competitive racing, and other factors like maintaining momentum through friction and turns also favor a running start.
 
 </div>
 </div>
