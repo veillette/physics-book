@@ -6,7 +6,7 @@ gem "jekyll", "~> 4.4"
 # Jekyll plugins
 group :jekyll_plugins do
   gem "jekyll-github-metadata", "~> 2.16"
-  gem "faraday-retry", "~> 2.2"
+  gem "faraday-retry", "~> 2.4"
 end
 
 # Markdown processing
