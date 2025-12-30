@@ -2,7 +2,7 @@
 layout: null
 ---
 // Service Worker for Physics Book PWA
-const CACHE_VERSION = '2025-12-17-search';
+const CACHE_VERSION = '2025-12-30-local-mathjax';
 const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
 const BASE_URL = '{{ site.baseurl }}/';
 
@@ -18,6 +18,7 @@ const CORE_CACHE_FILES = [
   `${BASE_URL}assets/css/theme.css`,
   `${BASE_URL}assets/js/book-viewer.js`,
   `${BASE_URL}assets/js/math-config.js`,
+  `${BASE_URL}assets/js/mathjax/tex-chtml.js`,
   `${BASE_URL}assets/js/book-config.js`,
   `${BASE_URL}assets/js/util.js`,
   `${BASE_URL}assets/js/search.js`,
