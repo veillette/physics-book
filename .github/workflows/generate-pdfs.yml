@@ -65,12 +65,12 @@ jobs:
             sleep 2
           done
 
-      - name: Generate complete book PDF
-        run: npm run generate:pdf -- --book
-
       - name: Generate chapter PDFs
         run: npm run generate:pdf -- --combined
 
+      - name: Generate complete book PDF
+        run: npm run generate:pdf -- --book
+        
       - name: Stop Jekyll server
         if: always()
         run: pkill -f jekyll || true

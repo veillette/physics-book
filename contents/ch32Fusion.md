@@ -420,7 +420,7 @@ $$ E_1 = (0.000999)(931.5) = 0.931 \text{ MeV} $$
 However, the positron will annihilate with an electron, releasing $$2m_ec^2 = 1.022$$ MeV, but this is external to the nucleus. The nuclear energy release is 0.931 MeV. The text gives 0.42 MeV, which is the energy carried away by the positron and neutrino (kinetic energy), not the total Q-value. Let me recalculate using the Q-value approach properly:
 
 <div class="equation">
-$$ Q = [2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e]c^2 = [2(1.007825) - 2.014102 - 2(0.000549)](931.5) = 0.420 \text{ MeV} $$
+$$ Q = [2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e]c^2 = [2(1.007825) - 2.014102 - 2(0.000549)] \times 931.5 = 0.420 \text{ MeV} $$
 </div>
 
 **Reaction 2:** $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$
@@ -688,7 +688,7 @@ Calculate using $$E = (4m({}^{1}\text{H}) - m({}^{4}\text{He}))c^{2}$$, which is
 
 (a) Net reaction: $$4{}^{1}\text{H} \to {}^{4}\text{He} + 2e^{+} + 2\nu_e + 7\gamma$$
 
-Nuclear energy: $$E = [4(1.007825) - 4.002603](931.5) = 26.73 \text{ MeV}$$
+Nuclear energy: $$E = [4(1.007825) - 4.002603] \times 931.5 = 26.73 \text{ MeV}$$
 
 Including annihilation of 2 positrons with 2 electrons from surroundings, the total is **26.7 MeV** (same as p-p cycle).
 

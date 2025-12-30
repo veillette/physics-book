@@ -193,6 +193,64 @@ circuit if the resistance of the earth/ground wire is $$0.200 \text{Ω} $$ ?
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+This problem involves analyzing a dangerous situation where a short circuit creates a voltage on an appliance case despite the ground wire connection. We need to apply Ohm's law to find currents and voltages in parallel paths. For part (a), we use the person's resistance and the current through them to find the case voltage. For part (b), we recognize that this same voltage appears across the ground wire resistance, allowing us to find the short circuit current. For part (c), we compare the short circuit current to the circuit breaker rating.
+
+**Solution for (a)**
+
+The voltage on the case can be found using Ohm's law, where the current through the person and the person's resistance are known:
+
+<div class="equation">
+$$V = IR$$
+</div>
+
+where $$I = 5.00 \text{ mA} = 5.00 \times 10^{-3} \text{ A}$$ and $$R_{\text{person}} = 3.00 \text{ kΩ} = 3.00 \times 10^3 \text{ Ω}$$.
+
+Substituting the values:
+
+<div class="equation">
+$$V = (5.00 \times 10^{-3} \text{ A})(3.00 \times 10^3 \text{ Ω}) = 15.0 \text{ V}$$
+</div>
+
+**Solution for (b)**
+
+The case is at 15.0 V above ground potential due to the voltage drop across the ground wire resistance. The short circuit current flows through this ground wire. Using Ohm's law:
+
+<div class="equation">
+$$I_{\text{short}} = \frac{V}{R_g}$$
+</div>
+
+where $$V = 15.0 \text{ V}$$ and $$R_g = 0.200 \text{ Ω}$$.
+
+Substituting:
+
+<div class="equation">
+$$I_{\text{short}} = \frac{15.0 \text{ V}}{0.200 \text{ Ω}} = 75.0 \text{ A}$$
+</div>
+
+**Solution for (c)**
+
+The circuit breaker is rated at 20.0 A. Since the short circuit current of 75.0 A greatly exceeds this rating, the circuit breaker will trip.
+
+<div class="equation">
+$$I_{\text{short}} = 75.0 \text{ A} > 20.0 \text{ A}$$
+</div>
+
+Yes, the circuit breaker will be triggered.
+
+**Discussion**
+
+This problem illustrates an important and counterintuitive safety issue: even with a grounded case, a person can still receive a shock during a short circuit. The key is that the ground wire, while having low resistance, is not a perfect conductor ($$R_g = 0.200 \text{ Ω} \neq 0$$). When the large short circuit current (75.0 A) flows through this resistance, it creates a voltage drop that elevates the case above ground potential.
+
+The person and the ground wire form parallel paths to ground. With the case at 15.0 V, current divides between these paths according to their resistances. Even though the person's resistance (3.00 kΩ) is much larger than the ground wire resistance (0.200 Ω), enough current (5.00 mA) flows through the person to be dangerous—this is at the threshold of what is considered a maximum safe shock current.
+
+The circuit breaker provides critical protection in this scenario. The 75.0 A short circuit current is nearly four times the 20.0 A rating, so the breaker will trip quickly, interrupting the fault current and eliminating the shock hazard. This demonstrates why proper circuit breaker sizing and grounding are both essential—neither alone is sufficient for complete protection.
+
+This scenario is particularly dangerous because the person is wet, reducing their skin resistance. In dry conditions, a person's resistance might be 100 kΩ or more, which would result in a much smaller and safer current. The wet condition (perhaps from a bathroom or kitchen setting) makes this situation especially hazardous, which is why GFI protection is required in these locations.
+
+**Answer**
+
 (a) 15.0 V
 
 (b) 75.0 A

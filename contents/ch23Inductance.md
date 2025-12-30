@@ -527,7 +527,7 @@ $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$
 Rearranging to solve for $$M$$:
 
 <div class="equation">
-$$M=\frac{{\text{emf}}_{2}}{\Delta {I}_{1}/\Delta t}$$
+{% raw %}$$M=\frac{{\text{emf}}_{2}}{\Delta {I}_{1}/\Delta t}$${% endraw %}
 </div>
 
 The units are:
@@ -613,6 +613,52 @@ A large research solenoid has a self-inductance of 25.0 H. (a) What induced emf 
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) Use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ to find the induced emf.
+(b) Calculate the stored energy using $${E}_{\text{ind}}=\frac{1}{2}LI^2$$.
+(c) Find the power by dividing the stored energy by the time interval: $$P = E/\Delta t$$.
+(d) Evaluate whether the power level is reasonable for rapid shutdown.
+
+**Solution**
+
+**(a)** Given:
+- $$L = 25.0 \text{ H}$$
+- $$\Delta I = 100 \text{ A}$$
+- $$\Delta t = 80.0 \text{ ms} = 80.0 \times 10^{-3} \text{ s}$$
+
+<div class="equation">
+$$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(25.0 \text{ H})\frac{100 \text{ A}}{80.0 \times 10^{-3} \text{ s}}$$
+</div>
+
+<div class="equation">
+$$\left|\text{emf}\right|=(25.0)(1250 \text{ A/s})=31,250 \text{ V}=31.3 \text{ kV}$$
+</div>
+
+**(b)** Using $$I = 100 \text{ A}$$:
+
+<div class="equation">
+$${E}_{\text{ind}}=\frac{1}{2}LI^2=\frac{1}{2}(25.0 \text{ H})(100 \text{ A})^2$$
+</div>
+
+<div class="equation">
+$${E}_{\text{ind}}=\frac{1}{2}(25.0)(10,000)=125,000 \text{ J}=125 \text{ kJ}$$
+</div>
+
+**(c)** The rate of energy dissipation (power) is:
+
+<div class="equation">
+$$P=\frac{E}{\Delta t}=\frac{125,000 \text{ J}}{80.0 \times 10^{-3} \text{ s}}=1.56 \times 10^6 \text{ W}=1.56 \text{ MW}$$
+</div>
+
+**(d)** No, it is not surprising that shutting down this solenoid quickly is difficult. The power required is 1.56 MW, which is enormous—equivalent to the power consumption of about 1,500 typical homes. This massive power must be safely dissipated, typically through large resistor banks designed to absorb the energy without overheating or failing.
+
+**Discussion**
+
+This problem illustrates the challenges of working with large research electromagnets. The 31.3 kV induced emf is extremely high and would cause dangerous arcing if not properly controlled. The stored energy of 125 kJ is substantial—enough to power a 100 W light bulb for over 20 minutes. The 1.56 MW power requirement during shutdown means specialized equipment is needed to safely handle the energy release. In practice, large research solenoids often take much longer to shut down (minutes rather than milliseconds) to reduce the induced voltage and power to manageable levels. Some systems use energy recovery systems that feed the power back into the electrical grid rather than simply dissipating it as heat.
+
+**Final Answer**
+
 (a) 31.3 kV
 
 (b) 125 kJ
@@ -690,6 +736,54 @@ A precision laboratory resistor is made of a coil of wire 1.50 cm in diameter an
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) Use the solenoid inductance formula $$L=\frac{\mu_0 N^2 A}{\ell}$$ to find the self-inductance.
+(b) Use the self-inductance equation $$\text{emf}=-L\frac{\Delta I}{\Delta t}$$ with the inductance from part (a).
+(c) Analyze what happens when the coil is counter-wound with two layers in opposite directions.
+
+**Solution**
+
+**(a)** Given:
+- $$N = 500$$ turns
+- $$\ell = 4.00 \text{ cm} = 0.0400 \text{ m}$$
+- $$d = 1.50 \text{ cm}$$, so $$r = 0.750 \text{ cm} = 7.50 \times 10^{-3} \text{ m}$$
+- $$A = \pi r^2 = \pi (7.50 \times 10^{-3} \text{ m})^2 = 1.77 \times 10^{-4} \text{ m}^2$$
+- $$\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$$
+
+<div class="equation">
+$$L=\frac{\mu_0 N^2 A}{\ell}=\frac{(4\pi \times 10^{-7} \text{ T·m/A})(500)^2(1.77 \times 10^{-4} \text{ m}^2)}{0.0400 \text{ m}}$$
+</div>
+
+<div class="equation">
+$$L=\frac{(1.257 \times 10^{-6})(2.50 \times 10^5)(1.77 \times 10^{-4})}{0.0400}=\frac{5.56 \times 10^{-5}}{0.0400}=1.39 \times 10^{-3} \text{ H}=1.39 \text{ mH}$$
+</div>
+
+**(b)** Given:
+- $$L = 1.39 \times 10^{-3} \text{ H}$$
+- $$\Delta I = 12.0 \text{ A}$$ (from 0 to 12.0 A)
+- $$\Delta t = 5.00 \text{ ms} = 5.00 \times 10^{-3} \text{ s}$$
+
+<div class="equation">
+$$\left|\text{emf}\right|=L\frac{\Delta I}{\Delta t}=(1.39 \times 10^{-3} \text{ H})\frac{12.0 \text{ A}}{5.00 \times 10^{-3} \text{ s}}$$
+</div>
+
+<div class="equation">
+$$\left|\text{emf}\right|=(1.39 \times 10^{-3})(2400 \text{ A/s})=3.33 \text{ V}$$
+</div>
+
+**(c)** When the coil is counter-wound with two layers of 250 turns each in opposite directions, the magnetic fields produced by the two layers cancel each other out. Since inductance depends on the magnetic flux, and the net flux is zero when the fields cancel, the inductance becomes zero.
+
+<div class="equation">
+$$L = 0$$
+</div>
+
+**Discussion**
+
+This problem demonstrates the practical design of precision laboratory resistors. Part (a) shows that even a small coil has measurable inductance (1.39 mH). Part (b) illustrates that this inductance can induce a noticeable emf (3.33 V) when current changes, which could affect precision measurements. Part (c) shows an ingenious solution: counter-winding effectively eliminates the inductance while maintaining the same resistance. The two layers carry current in opposite directions, producing magnetic fields that cancel. This is why precision resistors used in AC circuits or for rapid measurements are often counter-wound—they provide pure resistance without inductive effects that could distort measurements or introduce frequency-dependent behavior.
+
+**Final Answer**
+
 (a) 1.39 mH
 
 (b) 3.33 V
@@ -849,13 +943,61 @@ The current must be shut off over at least half a second to keep the induced emf
 
 A very large, superconducting solenoid such as one used in MRI scans, stores
 1.00 MJ of energy in its magnetic field when 100 A flows. (a) Find its
-self-inductance. (b) If the coils “go normal,” they gain resistance and start to
+self-inductance. (b) If the coils "go normal," they gain resistance and start to
 dissipate thermal energy. What temperature increase is produced if all the
 stored energy goes into heating the 1000 kg magnet, given its average specific
 heat is $$200 \text{J/kg·ºC} $$ ?
 
 </div>
 <div class="solution" markdown="1">
+**Strategy**
+
+(a) Use the energy storage formula $${E}_{\text{ind}}=\frac{1}{2}LI^2$$ and solve for $$L$$.
+(b) Use the thermal energy formula $$Q = mc\Delta T$$ where the thermal energy equals the stored magnetic energy.
+
+**Solution**
+
+**(a)** Given:
+- $${E}_{\text{ind}} = 1.00 \text{ MJ} = 1.00 \times 10^6 \text{ J}$$
+- $$I = 100 \text{ A}$$
+
+Rearranging the energy formula to solve for $$L$$:
+
+<div class="equation">
+$$L=\frac{2E_{\text{ind}}}{I^2}$$
+</div>
+
+Substituting the values:
+
+<div class="equation">
+$$L=\frac{2(1.00 \times 10^6 \text{ J})}{(100 \text{ A})^2}=\frac{2.00 \times 10^6 \text{ J}}{10,000 \text{ A}^2}=200 \text{ H}$$
+</div>
+
+**(b)** Given:
+- $$Q = 1.00 \times 10^6 \text{ J}$$ (all stored energy converts to heat)
+- $$m = 1000 \text{ kg}$$
+- $$c = 200 \text{ J/kg·ºC}$$
+
+Using the thermal energy equation:
+
+<div class="equation">
+$$Q = mc\Delta T$$
+</div>
+
+Solving for $$\Delta T$$:
+
+<div class="equation">
+$$\Delta T=\frac{Q}{mc}=\frac{1.00 \times 10^6 \text{ J}}{(1000 \text{ kg})(200 \text{ J/kg·ºC})}=\frac{1.00 \times 10^6}{2.00 \times 10^5} \text{ºC}=5.00 \text{ºC}$$
+</div>
+
+**Discussion**
+
+This problem illustrates critical aspects of MRI superconducting magnets. The enormous inductance of 200 H is typical for these large solenoids, which can have thousands of turns and large cross-sectional areas. The stored energy of 1.00 MJ represents a significant safety concern. When superconducting coils "go normal" (lose their superconductivity, usually due to local heating or magnetic field disturbances), they suddenly develop resistance. The massive stored energy then dissipates as heat in the coils themselves.
+
+The 5.00°C temperature increase might seem modest, but this calculation assumes the energy distributes uniformly throughout the entire 1000 kg magnet mass. In reality, the initial heating is often localized, which can cause much higher local temperatures and potentially damage the coil. This is called a "quench," and MRI machines have elaborate safety systems to detect quenches early and safely dissipate the energy—often by boiling off liquid helium coolant in a controlled manner and venting it safely outside the building. The large mass and moderate specific heat of the magnet assembly help absorb the energy, but quenches still represent serious events requiring the magnet to be shut down and recooled.
+
+**Final Answer**
+
 (a) 200 H
 
 (b) $$5.00 \text{ºC} $$

@@ -129,7 +129,35 @@ What is the value of the magnetic flux at coil 2 in [[Figure 6]](#Figure6) due t
 
 </div>
 <div class="solution" markdown="1">
-Zero
+**Strategy**
+
+The two coils are perpendicular to each other. When coil 1 carries current, it produces a magnetic field perpendicular to its own plane. We need to determine the angle between this field and the normal to coil 2's area.
+
+**Solution**
+
+When current flows through coil 1, it creates a magnetic field along an axis perpendicular to coil 1's plane. Since coil 2 is positioned perpendicular to coil 1, the plane of coil 2 is parallel to the magnetic field lines from coil 1.
+
+For the magnetic flux through coil 2, we use:
+
+<div class="equation">
+$$\Phi = BA\cos\theta$$
+</div>
+
+where $$\theta$$ is the angle between the magnetic field and the normal to coil 2's area.
+
+Since the magnetic field from coil 1 is perpendicular to coil 1's plane, and coil 2's plane is perpendicular to coil 1's plane, the magnetic field from coil 1 lies in the plane of coil 2. This means the field is perpendicular to the normal of coil 2, so $$\theta = 90°$$.
+
+<div class="equation">
+$$\Phi = BA\cos(90°) = BA(0) = 0$$
+</div>
+
+**Discussion**
+
+The perpendicular orientation of the coils is crucial. The magnetic field lines from coil 1 run parallel to the plane of coil 2, so none of them pass through coil 2's area. This is why the flux is zero despite the presence of a magnetic field.
+
+**Final Answer**
+
+The magnetic flux at coil 2 due to coil 1 is zero.
 
 </div>
 </div>
