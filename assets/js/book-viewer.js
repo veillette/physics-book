@@ -178,7 +178,7 @@ function parser() {
     bookBody.appendChild(toggleBtn);
   };
 
-  const renderPdfDownload = () => {
+  const renderPdfDownload = async () => {
     // Remove existing PDF download button
     const existingPdfBtn = bookBody.querySelector('.pdf-download-btn');
     if (existingPdfBtn) {
@@ -189,9 +189,8 @@ function parser() {
     let pdfUrl = null;
     let pdfTitle = '';
 
-    // Determine which PDF to link based on current page
-    // Check if it's the preface or summary page
-    if (currentPath.includes('/preface.html') || currentPath.includes('/SUMMARY.html') || currentPath === BookConfig.baseHref || currentPath === BookConfig.baseHref + '/') {
+    // Check if it's the preface or summary/intro page - link to complete book
+    if (currentPath.includes('/preface.html') || currentPath.includes('/SUMMARY.html') || currentPath.includes('/index.html') || currentPath === BookConfig.baseHref || currentPath === BookConfig.baseHref + '/') {
       // Link to complete book PDF
       pdfUrl = BookConfig.baseHref + '/assets/pdf/complete-book.pdf';
       pdfTitle = 'Download Complete Book PDF';
@@ -200,8 +199,44 @@ function parser() {
       const chapterMatch = currentPath.match(/\/ch(\d+)/);
       if (chapterMatch) {
         const chapterNum = chapterMatch[1].padStart(2, '0');
-        pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
-        pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
+
+        // Load summary.json to determine if this is a chapter intro or section
+        try {
+          const response = await fetch(BookConfig.baseHref + '/summary.json');
+          const chapters = await response.json();
+
+          // Find the matching chapter
+          const chapter = chapters.find(c => c.chapterNumber === parseInt(chapterMatch[1]));
+          if (chapter) {
+            // Extract filename from path (remove .html, add .md)
+            const pathParts = currentPath.split('/');
+            const filename = pathParts[pathParts.length - 1].replace('.html', '.md');
+            const fullPath = `contents/${filename}`;
+
+            // Check if this is the chapter intro file
+            if (chapter.chapterFile === fullPath) {
+              // This is a chapter intro - link to complete chapter PDF
+              pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
+              pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
+            } else {
+              // Check if it's a section
+              const section = chapter.sections.find(s => s.sectionFile === fullPath);
+              if (section) {
+                const sectionNum = String(section.sectionNumber).padStart(2, '0');
+                pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-section-${sectionNum}.pdf`;
+                pdfTitle = `Download Section ${section.sectionNumber}: ${section.sectionTitle}`;
+              } else {
+                // Fallback to complete chapter PDF
+                pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
+                pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
+              }
+            }
+          }
+        } catch (e) {
+          // Fallback to complete chapter PDF if summary.json fails to load
+          pdfUrl = BookConfig.baseHref + `/assets/pdf/chapter-${chapterNum}-complete.pdf`;
+          pdfTitle = `Download Chapter ${parseInt(chapterMatch[1])} PDF`;
+        }
       }
     }
 
