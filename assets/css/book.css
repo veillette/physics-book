@@ -423,6 +423,7 @@ section.normal > .title {
   outline: 0;
   text-align: center;
   font-weight: bold;
+  min-inline-size: fit-content;
 }
 
 :is(
@@ -430,6 +431,7 @@ section.normal > .title {
   .exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before
 ) {
   content: 'Show Solution';
+  display: inline-block;
 }
 
 :is(
@@ -444,6 +446,7 @@ section.normal > .title {
   .exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before
 ) {
   content: 'Hide Solution';
+  display: inline-block;
 }
 
 :is(
