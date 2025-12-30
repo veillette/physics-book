@@ -161,6 +161,7 @@ class PDFGenerator {
 
   async waitForMathJax(page) {
     try {
+      // First, wait for MathJax to be available
       await page.waitForFunction(
         () => {
           if (typeof MathJax !== 'undefined') {
@@ -177,11 +178,22 @@ class PDFGenerator {
         },
         { timeout: 10000 }
       );
-    } catch (_e) {
-      console.log('  Note: MathJax wait timed out or not present');
-    }
 
-    await page.waitForTimeout(this.mathJaxWaitTime);
+      // Then wait for actual MathJax elements to be rendered
+      const hasMath = await page.evaluate(() => {
+        return document.querySelectorAll('mjx-container, .MathJax, .mjx-chtml').length > 0;
+      });
+
+      if (hasMath) {
+        // Wait for MathJax rendering to complete
+        await page.waitForSelector('mjx-container, .MathJax, .mjx-chtml', { timeout: 5000 });
+        // Brief additional wait for layout stabilization
+        await page.waitForTimeout(500);
+      }
+    } catch (_e) {
+      // If no math detected or timeout, use fallback wait
+      await page.waitForTimeout(this.mathJaxWaitTime);
+    }
   }
 
   async preparePage(page, injectCSS = false) {
@@ -356,7 +368,8 @@ class PDFGenerator {
     `;
 
     for (let i = 0; i < urls.length; i++) {
-      console.log(`  Loading: ${urls[i]}`);
+      const progress = Math.round(((i + 1) / urls.length) * 100);
+      console.log(`  Loading (${i + 1}/${urls.length} - ${progress}%): ${urls[i]}`);
       try {
         await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
         await this.waitForMathJax(page);
@@ -399,6 +412,7 @@ class PDFGenerator {
     await page.setViewportSize(this.viewport);
 
     const outputPath = path.join(this.outputDir, 'complete-book.pdf');
+    const startTime = Date.now();
 
     console.log('\nGenerating complete book PDF with all chapters');
 
@@ -435,7 +449,12 @@ class PDFGenerator {
     `;
 
     for (let i = 0; i < urls.length; i++) {
-      console.log(`  Loading (${i + 1}/${urls.length}): ${urls[i]}`);
+      const progress = Math.round(((i + 1) / urls.length) * 100);
+      const elapsed = i > 0 ? Math.round((Date.now() - startTime) / 1000) : 0;
+      const avgTime = i > 0 ? elapsed / i : 0;
+      const remaining = i > 0 ? Math.round(avgTime * (urls.length - i)) : 0;
+
+      console.log(`  Loading (${i + 1}/${urls.length} - ${progress}%${remaining > 0 ? `, ~${remaining}s remaining` : ''}): ${urls[i]}`);
       try {
         await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
         await this.waitForMathJax(page);
