@@ -602,7 +602,7 @@ Solving for $$ v'_{\text{ball},y} $$:
 The final ball velocity magnitude is:
 
 <div class="equation">
- $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80)^2 + (-2.31)^2} = \sqrt{77.4 + 5.34} = 9.10 \ms $$
+ {% raw %}$$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80)^2 + (-2.31)^2} = \sqrt{77.4 + 5.34} = 9.10 \ms $${% endraw %}
 </div>
 
 The direction is:
