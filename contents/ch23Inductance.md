@@ -527,7 +527,7 @@ $${\text{emf}}_{2}=-M\frac{\Delta {I}_{1}}{\Delta t}$$
 Rearranging to solve for $$M$$:
 
 <div class="equation">
-$$M=\frac{{\text{emf}}_{2}}{\Delta {I}_{1}/\Delta t}$$
+{% raw %}$$M=\frac{{\text{emf}}_{2}}{\Delta {I}_{1}/\Delta t}$${% endraw %}
 </div>
 
 The units are:
