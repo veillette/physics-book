@@ -41,7 +41,7 @@ MathJax = {
   options: {
     menuOptions: {
       settings: {
-        assistiveMml: true,
+        assistiveMml: false,
         explorer: true,
         texHints: true,
       },

@@ -245,6 +245,10 @@ The center of mass of the load must be directly above the person's neck vertebra
 
 This carrying technique, common in many cultures, is remarkably efficient. Studies have shown that practiced head-load carriers can carry loads of up to 20% of their body weight with no additional metabolic cost compared to walking unloaded! This is because the balanced load requires no compensatory muscle effort. However, improper positioning of the load—even slightly off-center—dramatically increases the physical demand as muscles must constantly work to prevent the load from falling.
 
+**Answer**
+
+The center of mass of the load must be directly above the person's neck vertebrae to ensure zero torque about the point of support, allowing the load to be carried efficiently without muscular effort to prevent rotation.
+
 </div>
 </div>
 
@@ -357,14 +361,13 @@ The direction of the force at the bottom (from the vertical):
 $$ \phi = \arctan\left(\frac{f}{N_g}\right) = \arctan\left(\frac{133}{784}\right) = 9.6° \text{ from vertical} $$
 </div>
 
-**Final Answers:**
-
-- Force at the top: **133 N** (horizontal, away from wall)
-- Force at the bottom: **795 N** (at 9.6° from vertical, or nearly vertical)
-
 **Discussion**
 
-The force at the bottom is nearly vertical because it must support the total weight of the person and ladder (784 N) while providing only a modest horizontal friction force (133 N) to prevent slipping. The wall, being frictionless, provides only a horizontal force that pushes the ladder away. This is why a ladder on a slippery floor is dangerous—if friction at the bottom is insufficient to provide the 133 N horizontal force needed, the ladder will slide out. The minimum coefficient of friction needed is $$ \mu\_{min} = f/N_g = 133/784 = 0.17 $$.
+The force at the bottom is nearly vertical because it must support the total weight of the person and ladder (784 N) while providing only a modest horizontal friction force (133 N) to prevent slipping. The wall, being frictionless, provides only a horizontal force that pushes the ladder away. This is why a ladder on a slippery floor is dangerous—if friction at the bottom is insufficient to provide the 133 N horizontal force needed, the ladder will slide out. The minimum coefficient of friction needed is $$ \mu_{min} = f/N_g = 133/784 = 0.17 $$.
+
+**Answer**
+
+The magnitude of the force at the top of the ladder (from the wall) is 133 N, directed horizontally. The magnitude of the force at the bottom of the ladder (from the ground) is 795 N, directed at 9.6° from vertical.
 
 </div>
 </div>
@@ -506,6 +509,14 @@ The result makes physical sense: when the cg is centered between the hands, each
 **Discussion**
 
 Parts (a) and (b) show that when the cg is far from the hands (as in Figure 3), the forces become much larger than the weight of the pole. The right hand must push down with 140 N (almost 3 times the pole's weight!), while the left hand must push up with 189 N (almost 4 times the weight). This explains why holding a pole near one end is so much more tiring than holding it near the center. Part (c) demonstrates that the choice of pivot point is arbitrary for equilibrium analysis—any pivot will give consistent results when a system is truly in equilibrium.
+
+**Answer**
+
+(a) The force exerted by the right hand is 140 N downward.
+
+(b) The force exerted by the left hand is 189 N upward.
+
+(c) The second condition for equilibrium is satisfied for any choice of pivot point, as demonstrated by verifying that the net torque equals zero when choosing the right hand as the pivot point.
 
 </div>
 </div>

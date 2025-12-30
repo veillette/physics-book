@@ -450,7 +450,11 @@ h &=& \frac{360}{784}\m = 0.459\m
 
 **Discussion**
 
-The child can jump to a maximum height of approximately 0.46 m (46 cm) above the compressed position using only the energy stored in the spring.
+The child can jump to a maximum height of approximately 0.46 m (46 cm) above the compressed position using only the energy stored in the spring. This is a reasonable result - about 18 inches is a typical jump for a pogo stick when starting from a compressed position. The problem demonstrates the complete problem-solving strategy for energy: identifying the system, recognizing conservative forces, applying conservation of energy, simplifying by choosing a convenient reference point, solving algebraically, and checking the answer's reasonableness.
+
+**Answer**
+
+The maximum height the child can jump is **0.459 m** (or **45.9 cm**) above the compressed position.
 
 </div>
 </div>

@@ -1359,7 +1359,7 @@ serviceWorker.js                src/serviceWorker.js
 - [markdown-it](https://github.com/markdown-it/markdown-it)
 - [markdown-it-attrs](https://github.com/arve0/markdown-it-attrs)
 - [Eleventy Image Plugin](https://www.11ty.dev/docs/plugins/image/)
-- [Kramdown Syntax](https://kramdown.gettalong.org/syntax.html)
+- Kramdown Syntax (reference site no longer available)
 
 ---
 

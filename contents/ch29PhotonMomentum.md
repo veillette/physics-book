@@ -488,7 +488,7 @@ Photon energy:
 Ratio:
 
 <div class="equation">
- $$\frac{E_{\text{photon}}}{{\text{KE}}_e} = \frac{1.99 \times 10^{-17} \text{ J}}{2.41 \times 10^{-21} \text{ J}} = 8.26 \times 10^{3}$$
+ {% raw %}$$\frac{E_{\text{photon}}}{{\text{KE}}_e} = \frac{1.99 \times 10^{-17} \text{ J}}{2.41 \times 10^{-21} \text{ J}} = 8.26 \times 10^{3}$${% endraw %}
 </div>
 
 **Discussion**

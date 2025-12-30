@@ -421,7 +421,11 @@ $$ \omega = 4.63 \text{ rad/s} \times \frac{1 \text{ rev}}{2\pi \text{ rad}} = 0
 
 **Discussion**
 
-The tornado completes nearly three-quarters of a revolution every second. This rapid rotation, combined with the large diameter, produces the devastating 500 km/h winds at the edge.
+The tornado completes nearly three-quarters of a revolution every second. This rapid rotation, combined with the large diameter, produces the devastating 500 km/h winds at the edge. The angular velocity of 0.737 rev/s means the tornado rotates about 44 times per minute, creating the characteristic funnel shape through conservation of angular momentum as air spirals inward.
+
+**Answer**
+
+The angular velocity of the tornado is **0.737 rev/s** (or **4.63 rad/s**).
 
 </div>
 </div>
@@ -479,7 +483,15 @@ $$ a_c = \frac{1.04 \times 10^7 \text{ m/s}^2}{9.80 \text{ m/s}^2} = 1.06 \times
 
 **Discussion**
 
-The centripetal acceleration is over a million times g! This enormous acceleration is why ultracentrifuges can separate molecules by mass—even tiny differences in mass result in significant differences in the centripetal force needed to keep particles in circular motion.
+The centripetal acceleration is over a million times g! This enormous acceleration is why ultracentrifuges can separate molecules by mass—even tiny differences in mass result in significant differences in the centripetal force needed to keep particles in circular motion. The tangential acceleration of 8.29 m/s² is comparable to Earth's gravity, which is modest compared to the final centripetal acceleration. This shows how the sustained angular acceleration over 2 minutes builds up to an extreme final rotational speed.
+
+**Answer**
+
+(a) The angular acceleration is **87.3 rad/s²**.
+
+(b) The tangential acceleration is **8.29 m/s²**.
+
+(c) The radial acceleration is **1.04 × 10⁷ m/s²**, or **1.06 × 10⁶ g**.
 
 </div>
 </div>
@@ -549,7 +561,13 @@ $$ \theta = \frac{171 \text{ rad}}{2\pi \text{ rad/rev}} = 27 \text{ rev} $$
 
 **Discussion**
 
-The grindstone makes 27 complete turns before stopping. The small friction force (only 4 N) produces a modest deceleration, allowing for gradual stopping that's useful for controlled grinding operations.
+The grindstone makes 27 complete turns before stopping. The small friction force (only 4 N) produces a modest deceleration, allowing for gradual stopping that's useful for controlled grinding operations. The angular deceleration of 0.26 rad/s² is relatively gentle, taking about 36 seconds to bring the stone to rest. This controlled deceleration prevents sudden jolts that could damage the axe or stone.
+
+**Answer**
+
+(a) The angular acceleration is **−0.26 rad/s²** (negative indicating deceleration).
+
+(b) The grindstone makes **27 revolutions** before coming to rest.
 
 </div>
 </div>
@@ -590,6 +608,18 @@ $$ \omega = 200 \text{ rad/s} \times \frac{1 \text{ rev}}{2\pi \text{ rad}} \tim
 **(b)** This result is unreasonable. A basketball spinning at nearly 2000 rpm (about 32 revolutions per second) would be impossible for a human to control or even perceive as spinning on a fingertip. Professional players typically spin balls at only 3-5 rev/s.
 
 **(c)** The angular acceleration of 100 rad/s² is unreasonable. A more realistic value would be around 5-10 rad/s² for a ball spun by hand, limited by the friction between the player's hand and the ball surface.
+
+**Discussion**
+
+The calculation reveals the absurdity of the given angular acceleration. A basketball spinning at 1910 rpm would be a blur, impossible to balance on a fingertip, and the air resistance would quickly slow it down. Real basketball spins are limited by human physiology—the torque a player can apply with their hand and the time they have contact with the ball during the spin. Professional players achieve impressive spins of 3-5 rev/s, which is less than 3% of the calculated result.
+
+**Answer**
+
+(a) The final angular velocity would be **200 rad/s** (or **1910 rpm**).
+
+(b) This result is unreasonable because no player could spin a basketball this fast, and it would be impossible to control at such high angular velocity.
+
+(c) The angular acceleration of 100 rad/s² is unreasonably high; realistic values are 5-10 rad/s².
 
 </div>
 </div>
