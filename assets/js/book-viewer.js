@@ -270,12 +270,12 @@ function parser() {
       img.parentNode.insertBefore(figure, img);
       figure.appendChild(img);
       const caption = document.createElement('figcaption');
-      caption.textContent = img.getAttribute('title');
+      caption.innerHTML = img.getAttribute('title');
       figure.appendChild(caption);
       if (img.getAttribute('data-title')) {
         const title = document.createElement('div');
         title.className = 'title';
-        title.textContent = img.getAttribute('data-title');
+        title.innerHTML = img.getAttribute('data-title');
         figure.insertBefore(title, img);
       }
       figure.setAttribute('id', id);
