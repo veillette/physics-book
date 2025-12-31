@@ -276,6 +276,48 @@ npm run generate:pdf:chapter     # Specific chapter
 npm run generate:pdf:install     # Install Playwright browsers
 ```
 
+### generate-pdf-parallel.js
+
+Optimized parallel PDF generation with configurable concurrency. Generates all PDFs in three phases for maximum efficiency.
+
+```bash
+# Generate all PDFs with parallel processing (default: 4 concurrent)
+node scripts/generate-pdf-parallel.js
+
+# With custom concurrency
+MAX_CONCURRENCY=8 node scripts/generate-pdf-parallel.js
+```
+
+**Features:**
+- **Phase 1**: Section PDFs (241 items, 4 parallel) - ~683s
+- **Phase 2**: Chapter intro PDFs (34 items, 4 parallel) - ~32s
+- **Phase 3**: Combined chapter PDFs (34 items, 2 parallel) - ~1094s
+- Automatic error handling and retry logic
+- Real-time progress reporting
+- Total generation: ~30 minutes for 309 PDFs
+
+**Performance:**
+- 4x-8x faster than sequential generation
+- Memory-optimized with controlled concurrency
+- Reuses browser instances across batches
+
+### regenerate-failed-pdfs.js
+
+Recovery script for failed PDF generations. Automatically regenerates problematic combined chapter PDFs with extended timeouts.
+
+```bash
+# Regenerate failed PDFs (hardcoded list)
+node scripts/regenerate-failed-pdfs.js
+```
+
+**Features:**
+- Extended timeout (300s vs standard 180s)
+- No strict networkidle requirements for large content
+- Sequential processing to avoid resource contention
+- Detailed progress logging
+
+This script is automatically called by the GitHub Actions workflow when parallel generation reports failures.
+
 ### generate-icons.js
 
 Generates PWA icons and favicons from source logo.

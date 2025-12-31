@@ -20,6 +20,7 @@
 - **Run full check**: Run `npm run audit` to check links, orphans, and figures.
 - **Check math**: Run `npm run check-math` to validate delimiter balance.
 - **Check Liquid conflicts**: Run `npm run fix-liquid-syntax` to detect LaTeX/Liquid conflicts.
+- **Generate PDFs**: Run `npm run generate:pdf` or use GitHub Actions workflow for automated generation.
 
 ---
 
@@ -226,6 +227,40 @@ The `scripts/` directory contains a powerful suite of Node.js utilities. See `sc
 - **YAML Validation (`check-yaml`)**: Validates the front matter of all content files.
 
 This comprehensive suite, run via `npm run audit` and other commands, ensures high-quality, maintainable content.
+
+## Recent Improvements
+
+### December 2025 Updates
+
+**Accessibility Enhancements:**
+- Complete removal of Font Awesome dependency (~200KB savings)
+- Replaced icon fonts with Unicode symbols and CSS2 for better performance
+- Added comprehensive ARIA labels throughout the site
+- Implemented skip navigation links for keyboard users
+- Enhanced semantic HTML structure
+- Improved focus management and keyboard navigation
+- Better screen reader support with descriptive labels
+
+**PDF Generation:**
+- Implemented parallel PDF generation system (`scripts/generate-pdf-parallel.js`)
+- Automated weekly PDF regeneration via GitHub Actions
+- 3-phase generation: sections → chapter intros → combined chapters
+- Configurable concurrency (4 parallel for sections, 2 for combined)
+- Automatic failure recovery with `scripts/regenerate-failed-pdfs.js`
+- 309 PDFs (587MB total) available for download
+- Performance: ~30 minutes locally, ~60 minutes on GitHub Actions
+
+**Infrastructure:**
+- Enhanced `.github/workflows/generate-pdfs.yml` with parallel processing
+- Automated PDF deployment and versioning
+- Improved service worker caching strategy
+- Better offline support with versioned cache management
+
+**Quality Assurance:**
+- Comprehensive link checking and fixing across all content
+- Liquid syntax conflict detection and auto-fixing
+- Enhanced math delimiter validation
+- Automated content quality checks via GitHub Actions
 
 ## Contributing
 
