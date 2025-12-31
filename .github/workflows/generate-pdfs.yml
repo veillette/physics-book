@@ -70,7 +70,7 @@ jobs:
 
       - name: Generate complete book PDF
         run: npm run generate:pdf -- --book
-        
+
       - name: Stop Jekyll server
         if: always()
         run: pkill -f jekyll || true

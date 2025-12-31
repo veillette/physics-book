@@ -454,7 +454,9 @@ class PDFGenerator {
       const avgTime = i > 0 ? elapsed / i : 0;
       const remaining = i > 0 ? Math.round(avgTime * (urls.length - i)) : 0;
 
-      console.log(`  Loading (${i + 1}/${urls.length} - ${progress}%${remaining > 0 ? `, ~${remaining}s remaining` : ''}): ${urls[i]}`);
+      console.log(
+        `  Loading (${i + 1}/${urls.length} - ${progress}%${remaining > 0 ? `, ~${remaining}s remaining` : ''}): ${urls[i]}`
+      );
       try {
         await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 200000 });
         await this.waitForMathJax(page);
