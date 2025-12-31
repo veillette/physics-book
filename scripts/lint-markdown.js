@@ -126,7 +126,8 @@ class MarkdownLinter {
       const trimmedLine = line.trim();
       if (trimmedLine.startsWith('$$')) {
         // Check if this is a single-line display math block
-        const isSingleLineBlock = trimmedLine.startsWith('$$') && trimmedLine.endsWith('$$') && trimmedLine.length > 4;
+        const isSingleLineBlock =
+          trimmedLine.startsWith('$$') && trimmedLine.endsWith('$$') && trimmedLine.length > 4;
 
         if (!isSingleLineBlock) {
           // Multi-line block: toggle state

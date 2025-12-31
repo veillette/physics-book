@@ -5,9 +5,10 @@ import path from 'path';
 (async () => {
   const baseUrl = 'http://localhost:4000/physics-book/contents/';
   const siteDir = '_site/contents';
-  
+
   // Get all HTML files
-  const files = fs.readdirSync(siteDir)
+  const files = fs
+    .readdirSync(siteDir)
     .filter(f => f.endsWith('.html'))
     .sort();
 
@@ -24,10 +25,10 @@ import path from 'path';
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
     const url = baseUrl + file;
-    
+
     try {
       await page.goto(url, { waitUntil: 'networkidle', timeout: 15000 });
-      
+
       // Wait for MathJax to process
       await page.waitForTimeout(2000);
 
@@ -35,15 +36,15 @@ import path from 'path';
         const bodyText = document.body.innerText;
         const dollarSigns = bodyText.match(/\$\$/g);
         const renderedMath = document.querySelectorAll('mjx-container').length;
-        
+
         return {
           unrendered: dollarSigns ? dollarSigns.length : 0,
-          rendered: renderedMath
+          rendered: renderedMath,
         };
       });
 
       totalChecked++;
-      
+
       if (result.rendered > 0) {
         totalWithMath++;
       }
@@ -53,14 +54,24 @@ import path from 'path';
         failedPages.push({
           file: file,
           unrendered: result.unrendered,
-          rendered: result.rendered
+          rendered: result.rendered,
         });
         console.log('❌ ' + file + ' - ' + result.unrendered + ' unrendered $$');
       } else if (result.rendered > 0) {
         // Only show progress for pages with math
         const progress = Math.round(((i + 1) / files.length) * 100);
         if ((i + 1) % 20 === 0 || i === files.length - 1) {
-          console.log('✅ Progress: ' + (i + 1) + '/' + files.length + ' (' + progress + '%) - ' + totalWithMath + ' pages with math checked');
+          console.log(
+            '✅ Progress: ' +
+              (i + 1) +
+              '/' +
+              files.length +
+              ' (' +
+              progress +
+              '%) - ' +
+              totalWithMath +
+              ' pages with math checked'
+          );
         }
       }
     } catch (e) {
@@ -80,7 +91,9 @@ import path from 'path';
   if (failedPages.length > 0) {
     console.log('\n❌ FAILED PAGES:');
     failedPages.forEach(p => {
-      console.log('  - ' + p.file + ': ' + p.unrendered + ' unrendered, ' + p.rendered + ' rendered');
+      console.log(
+        '  - ' + p.file + ': ' + p.unrendered + ' unrendered, ' + p.rendered + ' rendered'
+      );
     });
   } else {
     console.log('\n✅ ALL PAGES RENDER MATH CORRECTLY!');
