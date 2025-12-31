@@ -140,16 +140,19 @@ jobs:
           git add assets/pdf/
           PDF_COUNT=$(ls -1 assets/pdf/*.pdf 2>/dev/null | wc -l)
           TOTAL_SIZE=$(du -sh assets/pdf/ | awk '{print $1}')
-          git commit -m "Update PDFs - ${{ steps.date.outputs.date }}
+          cat > /tmp/commit-msg.txt << EOF
+          Update PDFs - ${{ steps.date.outputs.date }}
 
-Automated PDF generation:
-- Generated $PDF_COUNT PDFs
-- Total size: $TOTAL_SIZE
-- Generation time: ${{ steps.gen_time.outputs.duration }}
+          Automated PDF generation:
+          - Generated $PDF_COUNT PDFs
+          - Total size: $TOTAL_SIZE
+          - Generation time: ${{ steps.gen_time.outputs.duration }}
 
-Generated via parallel processing for improved performance.
+          Generated via parallel processing for improved performance.
 
-🤖 Automated commit by GitHub Actions"
+          🤖 Automated commit by GitHub Actions
+          EOF
+          git commit -F /tmp/commit-msg.txt
           git push
 
       - name: Upload PDFs as artifacts
