@@ -2,7 +2,7 @@
 layout: null
 ---
 // Service Worker for Physics Book PWA
-const CACHE_VERSION = '2025-12-31-pdf-left-nav-easy';
+const CACHE_VERSION = '2025-12-31-pdf-right-nav-below';
 const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
 const BASE_URL = '{{ site.baseurl }}/';
 
