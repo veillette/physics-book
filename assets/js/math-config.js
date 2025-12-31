@@ -2,6 +2,8 @@ MathJax = {
   options: {
     // Skip processing elements with this class (for lazy loading)
     ignoreHtmlClass: 'mathjax-skip',
+    // MathJax 4 uses explorer component by default for accessibility
+    // (assistive-mml was the default in v2/v3, but explorer replaced it in v4)
   },
   tex: {
     inlineMath: [
