@@ -270,12 +270,20 @@ function parser() {
       img.parentNode.insertBefore(figure, img);
       figure.appendChild(img);
       const caption = document.createElement('figcaption');
-      caption.innerHTML = img.getAttribute('title');
+      // Get title and fix math delimiters
+      let captionText = img.getAttribute('title');
+      // Convert ( \theta... ) to \( \theta... \) for MathJax
+      captionText = captionText.replace(/\(\s+\\/g, '\\(');
+      captionText = captionText.replace(/\\\s+\)/g, '\\)');
+      caption.innerHTML = captionText;
       figure.appendChild(caption);
       if (img.getAttribute('data-title')) {
         const title = document.createElement('div');
         title.className = 'title';
-        title.innerHTML = img.getAttribute('data-title');
+        let titleText = img.getAttribute('data-title');
+        titleText = titleText.replace(/\(\s+\\/g, '\\(');
+        titleText = titleText.replace(/\\\s+\)/g, '\\)');
+        title.innerHTML = titleText;
         figure.insertBefore(title, img);
       }
       figure.setAttribute('id', id);
