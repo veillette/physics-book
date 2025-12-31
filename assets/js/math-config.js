@@ -1,7 +1,4 @@
 MathJax = {
-  loader: {
-    load: [],
-  },
   tex: {
     inlineMath: [
       ['$', '$'],
@@ -40,15 +37,5 @@ MathJax = {
     displayOverflow: 'overflow',
     scale: 1.0,
     minScale: 0.5,
-  },
-  options: {
-    enableAssistiveMml: false,
-    menuOptions: {
-      settings: {
-        assistiveMml: false,
-        explorer: true,
-        texHints: true,
-      },
-    },
   },
 };
