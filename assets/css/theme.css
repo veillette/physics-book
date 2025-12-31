@@ -994,8 +994,7 @@ h4 {
 
 .book .book-body .navigation {
   position: absolute;
-  inset-block-start: 80px;
-  inset-block-end: 0;
+  inset-block: 0;
   margin: 0;
   max-inline-size: 150px;
   min-inline-size: 90px;
@@ -1007,6 +1006,7 @@ h4 {
   color: rgb(0 0 0 / 0.2);
   text-align: center;
   transition: all 350ms ease;
+  z-index: 1;
 }
 
 .book .book-body .navigation:hover {
@@ -1108,7 +1108,7 @@ h4 {
   text-decoration: none;
   font-size: 18px;
   transition: all 250ms ease;
-  z-index: var(--z-buttons);
+  z-index: 100;
 }
 
 .book .book-body .pdf-download-btn:hover {
