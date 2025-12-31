@@ -39,6 +39,7 @@ MathJax = {
     minScale: 0.5,
   },
   options: {
+    enableAssistiveMml: false,
     menuOptions: {
       settings: {
         assistiveMml: false,
