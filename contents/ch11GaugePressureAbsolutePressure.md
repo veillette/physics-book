@@ -162,8 +162,7 @@ need to find the height of fluid that corresponds to this gauge pressure.
 
 **Solution**
 
-We first need to convert the pressure into SI units. Since $$1.0 \text{mm
-Hg}=133 \text{Pa} $$ ,
+We first need to convert the pressure into SI units. Since $$1.0 \text{mm Hg}=133 \text{Pa} $$ ,
 
 <div class="equation" >
  $$P=18 \text{mm Hg}×\frac{133 \text{Pa}}{1.0 \text{mm Hg}}=2400 \text{Pa}\text{.} $$
@@ -188,8 +187,7 @@ opposite direction of flow than required in the example presented here.
 A _barometer_ is a device that measures atmospheric pressure. A mercury
 barometer is shown in [[Figure 4]](#Figure4). This device measures atmospheric
 pressure, rather than gauge pressure, because there is a nearly pure vacuum
-above the mercury in the tube. The height of the mercury is such that $$h \rho
-g={P}_{\text{atm}} $$ . When atmospheric pressure varies, the mercury rises or
+above the mercury in the tube. The height of the mercury is such that $$h \rho g={P}_{\text{atm}} $$ . When atmospheric pressure varies, the mercury rises or
 falls, giving important clues to weather forecasters. The barometer can also be
 used as an altimeter, since average atmospheric pressure varies with altitude.
 Mercury barometers and manometers are so common that units of mm Hg are often
@@ -440,17 +438,13 @@ $$ P_{\text{abs, jar}} = P_{\text{atm}} + P_{\text{g}} = 760 - 50.0 = 710 \text{
 **Summary:**
 
 Balloon:
-$$
 \begin{array}{lll}{P}_{\text{g}}& =& 5.00 \text{ cm } {\text{H}}_{2}\text{O} \text{,}
 \\ {P}_{\text{abs}}& =& 1.035 \times 10^{3} \text{ cm } {\text{H}}_{2}\text{O}
 \text{.} \end{array}
-$$
 
 Jar:
-$$
 \begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{ mm Hg}\text{,}\\ {P}_
 {\text{abs}}& =& 710 \text{ mm Hg.}\end{array}
-$$
 
 **Discussion:**
 The balloon has slightly elevated pressure (5 cm H₂O ≈ 0.0048 atm or about 0.5% above atmospheric), typical for an inflated balloon. The peanut jar has reduced internal pressure (about 93% of atmospheric), indicating it's vacuum-packed. The jar's rigidity prevents atmospheric pressure from collapsing it despite the pressure difference. The negative gauge pressure in the jar is why vacuum-packed containers make a "pop" when opened—atmospheric pressure rushes in to equalize the pressure difference.
@@ -717,4 +711,4 @@ gauge pressure
 systolic pressure
 : the maximum blood pressure in the artery
 
-</div>
+</div>

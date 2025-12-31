@@ -46,8 +46,7 @@ three figures below. The pole is uniform and has a mass of 5.00 kg.
 In [Figure 1](#Figure1), the pole’s cg lies halfway between the vaulter’s hands. It
 seems reasonable that the force exerted by each hand is equal to half the weight
 of the pole, or 24.5 N. This obviously satisfies the first condition for
-equilibrium $$ \left( \text{net} F=0 \right) $$. The second condition $$ \left(
-\text{net}\tau = 0 \right) $$ is also satisfied, as we can see by choosing the
+equilibrium $$ \left( \text{net} F=0 \right) $$. The second condition $$ \left( \text{net}\tau = 0 \right) $$ is also satisfied, as we can see by choosing the
 cg to be the pivot point. The weight exerts no torque about a pivot point
 located at the cg, since it is applied at that point and its lever arm is zero.
 The equal forces exerted by the hands are equidistant from the chosen pivot, and
@@ -78,8 +77,7 @@ along its length.
 
 If the pole vaulter holds the pole as shown in [Figure 2](#Figure2), the situation
 is not as simple. The total force he exerts is still equal to the weight of the
-pole, but it is not evenly divided between his hands. (If $$ F_
-{L}=F_{R} $$, then the torques about the cg would not be equal since the lever
+pole, but it is not evenly divided between his hands. (If $$ F_ {L}=F_{R} $$, then the torques about the cg would not be equal since the lever
 arms are different.) Logically, the right hand should support more weight, since
 it is closer to the cg. In fact, if the right hand is moved directly under the
 cg, it will support all the weight. This situation is exactly analogous to two
@@ -106,9 +104,8 @@ from the left hand.
 interest. There is not enough information to use the first condition for
 equilibrium, $$ \text{net}F=0 $$, since two of the three forces are unknown and
 the hand forces cannot be assumed to be equal in this case. There is enough
-information to use the second condition for equilibrium, $$ \text{net}\tau =0
+information to use the second condition for equilibrium, $$ \text{net}\tau =0 $$
 
-$$
 , if the pivot point is chosen to be at either hand, thereby making the torque
 from that hand zero. We choose to locate the pivot at the left hand in this part
 of the problem, to eliminate the torque from the left hand.
@@ -379,8 +376,7 @@ the hands are 0.700 m apart. Calculate the force exerted by
 (a) his right hand and
 (b) his left hand.
 (c) If each hand supports half the weight of the pole in [Figure 1](#Figure1),
-show that the second condition for equilibrium $$ \left( \text{net} \tau= 0
-\right) $$
+show that the second condition for equilibrium $$ \left( \text{net} \tau= 0 \right) $$
 is satisfied for a pivot other than the one located at the center of gravity of
 the pole. Explicitly show how you follow the steps in the Problem-Solving
 Strategy for static equilibrium described above.
@@ -529,4 +525,4 @@ static equilibrium
 : equilibrium in which the acceleration of the system is zero and accelerated
 rotation does not occur
 
-</div>
+</div>

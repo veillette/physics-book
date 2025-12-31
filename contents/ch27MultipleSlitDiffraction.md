@@ -110,11 +110,9 @@ once a value for the slit spacing  $$d $$
 
 **Solution for (a)**
 
-The distance between slits is $$d=\left(1 cm\right)/10 000= 1.00 \times 10^{-4}
-\text{cm} $$ or $$ 1.00 \times 10^{-6} \text{m} $$ . Let us call the two angles
+The distance between slits is $$d=\left(1 cm\right)/10 000= 1.00 \times 10^{-4} \text{cm} $$ or $$ 1.00 \times 10^{-6} \text{m} $$ . Let us call the two angles
 $${\theta }_{\text{V}} $$ for violet (380 nm) and $${\theta }_{\text{R}} $$ for
-red (760 nm). Solving the equation $$d\sin {\theta }_{\text{V}}=\mathrm{m\lambda
-} $$ for $$\sin {\theta }_{\text{V}} $$ ,
+red (760 nm). Solving the equation $$d\sin {\theta }_{\text{V}}=\mathrm{m\lambda } $$ for $$\sin {\theta }_{\text{V}} $$ ,
 
 <div class="equation" >
  $$\sin {\theta }_{\text{V}}=\frac{ m\lambda_{\text{V}}}{d}\text{,} $$
@@ -145,8 +143,7 @@ Notice that in both equations, we reported the results of these intermediate cal
 
 **Solution for (b)**
 
-The distances on the screen are labeled $${y}_{\text{V}} $$ and $${y}_{\text{R}}
-$$ in [[Figure 5]](#Figure5). Noting that $$\tan \theta =y/x $$ , we can solve
+The distances on the screen are labeled $${y}_{\text{V}} $$ and $${y}_{\text{R}} $$ in [[Figure 5]](#Figure5). Noting that $$\tan \theta =y/x $$ , we can solve
 for $${y}_{\text{V}} $$ and $${y}_{\text{R}} $$ . That is,
 
 <div class="equation" >
@@ -178,9 +175,7 @@ having closely spaced lines.
 - A diffraction grating is a large collection of evenly spaced parallel slits
   that produces an interference pattern similar to but sharper than that of a
   double slit.
-- There is constructive interference for a diffraction grating when $$d \sin
-  \theta =m \lambda \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2
-  \text{,} -2 \text{,} \dots \right) $$ , where $$d $$ is the distance between
+- There is constructive interference for a diffraction grating when $$d \sin \theta =m \lambda \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} \dots \right) $$ , where $$d $$ is the distance between
   slits in the grating, $$\lambda $$ is the wavelength of light, and $$m $$ is
   the order of the maximum.
 
@@ -1354,8 +1349,7 @@ This problem illustrates an important physical limitation: you cannot create int
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-(a) What visible wavelength has its fourth-order maximum at an angle of $$25.0
-\text{º} $$ when projected on a 25 000-line-per-centimeter diffraction
+(a) What visible wavelength has its fourth-order maximum at an angle of $$25.0 \text{º} $$ when projected on a 25 000-line-per-centimeter diffraction
 grating? (b) What is unreasonable about this result? (c) Which assumptions are
 unreasonable or inconsistent?
 
@@ -1457,12 +1451,10 @@ discern between wavelengths of interest.
 {: class="glossary-title"}
 
 constructive interference for a diffraction grating
-: occurs when the condition $$d \sin \theta =m \lambda \left( \text{ for } m=0
-\text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} \dots \right) $$ is
-satisfied, where $$d $$ is the distance between slits in the grating, $$\lambda
-$$ is the wavelength of light, and $$m $$ is the order of the maximum
+: occurs when the condition $$d \sin \theta =m \lambda \left( \text{ for } m=0 \text{,} 1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} \dots \right) $$ is
+satisfied, where $$d $$ is the distance between slits in the grating, $$\lambda $$ is the wavelength of light, and $$m $$ is the order of the maximum
 
 diffraction grating
 : a large number of evenly spaced parallel slits
 
-</div>
+</div>

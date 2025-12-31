@@ -25,14 +25,12 @@ section.
 
 Let us calculate the work done in lifting an object of mass $$ m $$ through a
 height $$ h $$, such as in [Figure 1](#Figure1). If the object is lifted straight
-up at constant speed, then the force needed to lift it is equal to its weight $$
-mg $$. The work done on the mass is then $$ W = Fd = mgh $$. We define this to
+up at constant speed, then the force needed to lift it is equal to its weight $$ mg $$. The work done on the mass is then $$ W = Fd = mgh $$. We define this to
 be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ put
 into (or gained by) the object-Earth system. This energy is associated with the
 state of separation between two objects that attract each other by the
-gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}}
+gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}} $$
 
-$$
 gained by the object, recognizing that this is energy stored in the
 gravitational field of Earth. Why do we use the word “system”? Potential energy
 is a property of a system rather than of a single object—due to its physical
@@ -63,12 +61,8 @@ using energy (if possible) rather than explicitly using forces.
 {: #Figure1}
 
 More precisely, we define the *change* in gravitational potential energy
-$$
 
-\Delta \PE\_{\text{g}} $$ to be
-
-<div class="equation">
- $$ \Delta \PE_{\text{g}}=mgh , $$
+\Delta \PE\_{\text{g}} $$ to be <div class="equation"> $$ \Delta \PE_{\text{g}}=mgh , $$
 </div>
 
 where, for simplicity, we denote the change in height by $$ h $$ rather than the
@@ -99,9 +93,7 @@ See [Figure 2](#Figure2).) It is much easier to calculate $$ mgh $$
 complicated path. The idea of gravitational potential energy has the double
 advantage that it is very broadly applicable and it makes calculations easier.
 From now on, we will consider that any change in vertical position $$ h $$ of a
-mass $$ m $$ is accompanied by a change in gravitational potential energy $$ mgh
-
-$$
+mass $$ m $$ is accompanied by a change in gravitational potential energy $$ mgh $$
 , and we will avoid the equivalent but more difficult task of calculating work
 done by or against the gravitational force.
 
@@ -199,10 +191,8 @@ speed $$ v $$, which is the desired quantity.
 
 **Solution for (a)**
 
-Here the initial kinetic energy is zero, so that $$ \Delta \KE=\frac{1}{2}m
-v^{2} $$. The equation for change in potential energy states that $$ \Delta \PE_
-{\text{g}}=mgh $$. Since $$ h $$ is negative in this case, we will rewrite this
-as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus sign clearly.
+Here the initial kinetic energy is zero, so that $$ \Delta \KE=\frac{1}{2}m v^{2} $$. The equation for change in potential energy states that $$ \Delta \PE_
+{\text{g}}=mgh $$. Since $$ h $$ is negative in this case, we will rewrite this as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus sign clearly.
 Thus,
 
 <div class="equation">
@@ -301,14 +291,12 @@ One can study the conversion of gravitational potential energy into kinetic ener
 - Work done against gravity in lifting an object becomes potential energy of the
   object-Earth system.
 - The change in gravitational potential energy, $$ \Delta \PE_{\text{g}} $$, is
-  $$ \Delta \PE_{g}=mgh $$, with $$ h $$ being the increase in height and $$ g
-  $$ the acceleration due to gravity.
+  $$ \Delta \PE_{g}=mgh $$, with $$ h $$ being the increase in height and $$ g $$ the acceleration due to gravity.
 - The gravitational potential energy of an object near Earth’s surface is due to
   its position in the mass-Earth system. Only differences in gravitational
   potential energy, $$ \Delta \PE\_{g} $$, have physical significance.
 - As an object descends without friction, its gravitational potential energy
-  changes into kinetic energy corresponding to increasing speed, so that $$
-  \Delta \KE=-\Delta \PE_{\text{g}} $$.
+  changes into kinetic energy corresponding to increasing speed, so that $$ \Delta \KE=-\Delta \PE_{\text{g}} $$.
 
 ### Conceptual Questions
 
@@ -657,4 +645,4 @@ The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The
 gravitational potential energy
 : the energy an object has due to its position in a gravitational field
 
-</div>
+</div>

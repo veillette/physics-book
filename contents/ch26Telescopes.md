@@ -56,8 +56,7 @@ focused on a piece of paper by a magnifying glass is the image of the Sun, and
 it is small. The telescope eyepiece (like the microscope eyepiece) magnifies
 this first image. The distance between the eyepiece and the objective lens is
 made slightly less than the sum of their focal lengths so that the first image
-is closer to the eyepiece than its focal length. That is, $${d}^\prime_
-{\text{o}} $$ is less than $${f}_{\text{e}} $$ , and so the eyepiece forms a
+is closer to the eyepiece than its focal length. That is, $${d}^\prime_ {\text{o}} $$ is less than $${f}_{\text{e}} $$ , and so the eyepiece forms a
 case 2 image that is large and to the left for easy viewing. If the angle
 subtended by an object as viewed by the unaided eye is $$\theta $$ , and the
 angle subtended by the telescope image is $$\theta^{\prime} $$ , then the **angular magnification**  $$M $$ is defined to be their ratio. That is,
@@ -605,4 +604,4 @@ angular magnification
 : a ratio related to the focal lengths of the objective and eyepiece and given
 as $$M=-\frac{ {f}_{\text{o}}}{ {f}_{\text{e}}} $$
 
-</div>
+</div>

@@ -157,8 +157,7 @@ Calculate the maximum emf,  $${\text{emf}}_{0} $$ ,
 
 **Strategy**
 
-Once $$\omega $$ , the angular velocity, is determined, $${\text{emf}}_
-{0}=NAB\omega $$ can be used to find $${\text{emf}}_{0} $$ . All other
+Once $$\omega $$ , the angular velocity, is determined, $${\text{emf}}_ {0}=NAB\omega $$ can be used to find $${\text{emf}}_{0} $$ . All other
 quantities are known.
 
 **Solution**
@@ -768,8 +767,7 @@ The coil rotates very rapidly at 15,700 rad/s (about 2500 Hz). The periodic natu
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-A 500-turn coil with a $$ 0.250 {\text{m}}^{2} $$ area is spun in the Earth's $$
-5.00 \times 10^{-5} \text{T} $$ field, producing a 12.0 kV maximum emf. (a) At
+A 500-turn coil with a $$ 0.250 {\text{m}}^{2} $$ area is spun in the Earth's $$ 5.00 \times 10^{-5} \text{T} $$ field, producing a 12.0 kV maximum emf. (a) At
 what angular velocity must the coil be spun? (b) What is unreasonable about this
 result? (c) Which assumption or premise is responsible?
 
@@ -831,11 +829,10 @@ electric generator
 emf by rotating a coil in a magnetic field
 
 emf induced in a generator coil
-: $$\text{emf}=NAB\omega \sin \omega t $$ , where $$A $$ is the area of an $$N
-$$ -turn coil rotated at a constant angular velocity $$\omega $$ in a uniform
+: $$\text{emf}=NAB\omega \sin \omega t $$ , where $$A $$ is the area of an $$N $$ -turn coil rotated at a constant angular velocity $$\omega $$ in a uniform
 magnetic field $$B $$ , over a period of time $$t $$
 
 peak emf
 : $${\text{emf}}_{0}=NAB\omega $$
 
-</div>
+</div>

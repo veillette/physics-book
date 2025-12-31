@@ -61,15 +61,13 @@ so that
 <div class="equation">
  $$ L=I\omega=\frac{2 MR^{2}\omega }{5}. $$
 </div>
-Earth’s mass $$ M $$ is $$ 5.972 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times
-10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is, of course,
+Earth’s mass $$ M $$ is $$ 5.972 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times 10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is, of course,
 exactly one revolution per day, but we must covert $$ \omega $$ to radians per
 second to do the calculation in SI units.
 
 **Solution**
 
-Substituting known information into the expression for $$ L $$ and converting $$
-\omega $$ to radians per second gives
+Substituting known information into the expression for $$ L $$ and converting $$ \omega $$ to radians per second gives
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -105,8 +103,7 @@ and angular momentum is
 </div>
 
 This expression is exactly analogous to the relationship between force and
-linear momentum, $$ F=\Delta p/\Delta t $$. The equation $$ \text{net}\tau
-=\frac{ \Delta L}{\Delta t} $$ is very fundamental and broadly applicable. It
+linear momentum, $$ F=\Delta p/\Delta t $$. The equation $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ is very fundamental and broadly applicable. It
 is, in fact, the rotational form of Newton’s second law.
 
 <div class="example" markdown="1">
@@ -122,8 +119,7 @@ Calculating the Torque Putting Angular Momentum Into a Lazy Susan
 
 **Strategy**
 
-We can find the angular momentum by solving $$ \text{net}\tau =\frac{ \Delta
-L}{\Delta t} $$ for $$ \Delta L $$, and using the given information to calculate
+We can find the angular momentum by solving $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ for $$ \Delta L $$, and using the given information to calculate
 the torque. The final angular momentum equals the change in angular momentum,
 because the lazy Susan starts from rest. That is, $$ \Delta L=L $$. To find the
 final velocity, we must calculate $$ \omega $$ from the definition of $$ L $$ in
@@ -200,8 +196,7 @@ angular velocity and rotational kinetic energy can be calculated.
 
 **Solution to (a)**
 
-From the rotational analog to Newton’s second law, the angular acceleration $$
-\alpha $$ is
+From the rotational analog to Newton’s second law, the angular acceleration $$ \alpha $$ is
 
 <div class="equation">
  $$ \alpha =\frac{ \text{net}\tau }{I}. $$
@@ -475,8 +470,7 @@ Yes, angular and linear momentums are completely analogous. While they are exact
 - Every rotational phenomenon has a direct translational analog, likewise
   angular momentum $$ L $$ can be defined as $$ L=I \omega. $$
 - This equation is an analog to the definition of linear momentum as $$ p=mv $$.
-  The relationship between torque and angular momentum is $$ \text{net}\tau
-  =\frac{ \Delta L}{\Delta t}. $$
+  The relationship between torque and angular momentum is $$ \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
 - Angular momentum, like energy and linear momentum, is conserved. This
   universally applicable law is another sign of underlying unity in physical
   laws. Angular momentum is conserved when net external torque is zero, just as
@@ -999,4 +993,4 @@ law of conservation of angular momentum
 : angular momentum is conserved, i.e., the initial angular momentum is equal to
 the final angular momentum when no external torque is applied to the system
 
-</div>
+</div>

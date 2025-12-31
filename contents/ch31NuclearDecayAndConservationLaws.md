@@ -45,9 +45,8 @@ always have two fewer protons and two fewer neutrons than the parent. This seems
 reasonable, since we know that $$\alpha $$ decay is the emission of a
 $${}^{4}\text{He} $$ nucleus, which has two protons and two neutrons. The
 daughters of $$\beta $$ decay have one less neutron and one more proton than
-their parent. Beta decay is a little more subtle, as we shall see. No $$\gamma
+their parent. Beta decay is a little more subtle, as we shall see. No $$\gamma $$
 
-$$
 decays are shown in the figure, because they do not produce a daughter that
 differs from the parent.
 
@@ -57,8 +56,7 @@ In **alpha decay**{: class="term"}, a $${}^{4}\text{He} $$ nucleus simply breaks
 away from the parent nucleus, leaving a daughter with two fewer protons and two
 fewer neutrons than the parent (see [[Figure 2]](#Figure2)). One example of
 $$\alpha $$ decay is shown in [[Figure 1]](#Figure1) for $${}^{238}\text{U} $$ .
-Another nuclide that undergoes $$\alpha $$ decay is <span> $${}^{239}\text{Pu}
-$$ .
+Another nuclide that undergoes $$\alpha $$ decay is <span> $${}^{239}\text{Pu} $$ .
 </span> The decay equations for these two nuclides are
 
 <div class="equation" >
@@ -94,8 +92,7 @@ this is uranium. Then since four nucleons have broken away from the original
 239, its atomic mass would be 235.
 
 It is instructive to examine conservation laws related to $$\alpha $$ decay. You
-can see from the equation $${}_{Z}^{A}{\text{X}}_{N}\to {}_
-{Z-2}^{A-4}{\text{Y}}_{N-2}+{}_{2}^{4}{\text{He}}_{2} $$ that total charge is
+can see from the equation $${}_{Z}^{A}{\text{X}}_{N}\to {}_ {Z-2}^{A-4}{\text{Y}}_{N-2}+{}_{2}^{4}{\text{He}}_{2} $$ that total charge is
 conserved. Linear and angular momentum are conserved, too. Although conserved
 angular momentum is not of great consequence in this type of decay, conservation
 of linear momentum has interesting consequences. If the nucleus is at rest when
@@ -254,9 +251,7 @@ its $${\beta }^{-} $$ decay equation is
 </div>
 
 where Y is the nuclide having one more proton than X (
-see [[Figure 4]](#Figure4)). So if you know that a certain nuclide $${\beta
-}^{-} $$ decays, you can find the daughter nucleus by first looking up $$Z $$
-for the parent and then determining which element has atomic number $$Z+1 $$ .
+see [[Figure 4]](#Figure4)). So if you know that a certain nuclide $${\beta }^{-} $$ decays, you can find the daughter nucleus by first looking up $$Z $$ for the parent and then determining which element has atomic number $$Z+1 $$ .
 In the example of the $${\beta }^{-} $$ decay of $${}^{60}\text{Co} $$ given
 earlier, we see that $$Z=27 $$ for Co and $$Z=28 $$ is Ni. It is as if one of
 the neutrons in the parent nucleus decays into a proton, electron, and neutrino.
@@ -271,8 +266,7 @@ few minutes and $${\beta }^{-} $$ decay in the following manner:
 {: #Figure4}
 
 We see that charge is conserved in $${\beta }^{-} $$ decay, since the total
-charge is $$Z $$ before and after the decay. For example, in $${}^{60}\text{Co}
-$$ decay, total charge is 27 before decay, since cobalt has $$Z=27 $$ . After
+charge is $$Z $$ before and after the decay. For example, in $${}^{60}\text{Co} $$ decay, total charge is 27 before decay, since cobalt has $$Z=27 $$ . After
 decay, the daughter nucleus is Ni, which has $$Z=28 $$ , and there is an
 electron, so that the total charge is also $$28 + \left(-1\right) $$ or 27.
 Angular momentum is conserved, but not obviously (you have to examine the spins
@@ -284,8 +278,7 @@ nature. *The total number of nucleons $$A $$ is conserved*. In
 $${}^{60}\text{Co} $$ decay, for example, there are 60 nucleons before and after
 the decay. Note that total $$A $$ is also conserved in $$\alpha $$ decay. Also
 note that the total number of protons changes, as does the total number of
-neutrons, so that total $$Z $$ and total $$N $$ are *not* conserved in $${\beta
-}^{-} $$ decay, as they are in $$\alpha $$ decay. Energy released in $${\beta
+neutrons, so that total $$Z $$ and total $$N $$ are *not* conserved in $${\beta }^{-} $$ decay, as they are in $$\alpha $$ decay. Energy released in $${\beta
 }^{-} $$ decay can be calculated given the masses of the parent and products.
 
 <div class="example" markdown="1">
@@ -342,8 +335,7 @@ Using  $$1 u=931.5 MeV/{c}^{2} $$ ,
 **Discussion and Implications**
 
 Perhaps the most difficult thing about this example is convincing yourself that
-the $${\beta }^{-} $$ mass is included in the atomic mass of $${}^{60}\text{Ni}
-$$ . Beyond that are other implications. Again the decay energy is in the MeV
+the $${\beta }^{-} $$ mass is included in the atomic mass of $${}^{60}\text{Ni} $$ . Beyond that are other implications. Again the decay energy is in the MeV
 range. This energy is shared by all of the products of the decay. In many
 $${}^{60}\text{Co} $$ decays, the daughter nucleus $${}^{60}\text{Ni} $$ is left
 in an excited state and emits photons (  $$\gamma $$ rays). Most of the
@@ -353,8 +345,7 @@ $${\beta }^{-} $$ decay is created in the nucleus at the time of decay.
 
 </div>
 
-The second type of beta decay is less common than the first. It is $${\beta
-}^{+} $$ decay. Certain nuclides decay by the emission of a *positive* electron.
+The second type of beta decay is less common than the first. It is $${\beta }^{+} $$ decay. Certain nuclides decay by the emission of a *positive* electron.
 This is **antielectron** or **positron decay** (see [[Figure 5]](#Figure5)).
 
 ![Image shows parent nucleus before beta plus decay and daughter nucleus after beta plus decay, which results in a positively charged electron called a positron.](../resources/Figure_31_04_05.jpg " \( \beta^{+} \) decay is the emission of a positron that eventually finds an electron to annihilate, characteristically producing gammas in opposite directions.")
@@ -366,8 +357,7 @@ emitted in a nuclear decay. Antielectrons are the antimatter counterpart to
 electrons, being nearly identical, having the same mass, spin, and so on, but
 having a positive charge and an electron family number of $$-1 $$ . When a **positron**{: class="term"} encounters an electron, there is a mutual
 annihilation in which all the mass of the antielectron-electron pair is
-converted into pure photon energy. (The reaction, $${e}^{+}+{e}^{-}\to \gamma
-+\gamma $$ , conserves electron family number as well as all other conserved
+converted into pure photon energy. (The reaction, $${e}^{+}+{e}^{-}\to \gamma +\gamma $$ , conserves electron family number as well as all other conserved
 quantities.) If a nuclide $${}_{Z}^{A}{X}_{N} $$ is known to $${\beta }^{+} $$
 decay, then its $${\beta }^{+} $$
 **decay equation** is
@@ -380,10 +370,8 @@ where Y is the nuclide having one less proton than X (to conserve charge) and
 $${\nu }_{e} $$ is the symbol for the **electron’s neutrino**, which has an
 electron family number of $$+1 $$ . Since an antimatter member of the electron
 family (the $${\beta }^{+} $$ )
-is created in the decay, a matter member of the family (here the $${\nu }_{e}
-$$ )
-must also be created. Given, for example, that $${}^{22}\text{Na} $$ $${\beta
-}^{+} $$ decays, you can write its full decay equation by first finding that
+is created in the decay, a matter member of the family (here the $${\nu }_{e} $$ )
+must also be created. Given, for example, that $${}^{22}\text{Na} $$ $${\beta }^{+} $$ decays, you can write its full decay equation by first finding that
 $$Z=11 $$ for $${}^{22}\text{Na} $$ , so that the daughter nuclide will have
 $$Z=10 $$ , the atomic number for neon. Thus the $${\beta }^{+} $$ decay
 equation for $${}^{22}\text{Na} $$ is
@@ -429,8 +417,7 @@ outside the region of stability in the chart of nuclides. Those nuclides that
 have relatively more neutrons than those in the region of stability will
 $${\beta }^{-} $$ decay to produce a daughter with fewer neutrons, producing a
 daughter nearer the region of stability. Similarly, those nuclides having
-relatively more protons than those in the region of stability will $${\beta
-}^{-} $$ decay or undergo electron capture to produce a daughter with fewer
+relatively more protons than those in the region of stability will $${\beta }^{-} $$ decay or undergo electron capture to produce a daughter with fewer
 protons, nearer the region of stability.
 
 ### Gamma Decay
@@ -439,8 +426,7 @@ protons, nearer the region of stability.
 emission of energetic photons by nuclei left in an excited state by some earlier
 process. Protons and neutrons in an excited nucleus are in higher orbitals, and
 they fall to lower levels by photon emission (analogous to electrons in excited
-atoms). Nuclear excited states have lifetimes typically of only about $$10^{-14}
-$$ s, an indication of the great strength of the forces pulling the nucleons to
+atoms). Nuclear excited states have lifetimes typically of only about $$10^{-14} $$ s, an indication of the great strength of the forces pulling the nucleons to
 lower states. The $$\gamma $$ decay equation is simply
 
 <div class="equation">
@@ -838,8 +824,7 @@ Calculate the energy released in the  $${\beta }^{+} $$
 (a) Write the complete  $${\beta }^{+} $$
  decay equation for  $${}^{11}\text{C} $$.
 
-(b) Calculate the energy released in the decay. The masses of $${}^{11}\text{C}
-$$ and $${}^{11}\text{B} $$ are 11.011433 and 11.009305 u, respectively.
+(b) Calculate the energy released in the decay. The masses of $${}^{11}\text{C} $$ and $${}^{11}\text{B} $$ are 11.011433 and 11.009305 u, respectively.
 
 </div>
 </div>
@@ -954,5 +939,4 @@ and simultaneously emits a neutrino
 electron capture equation
 : equation representing the electron capture
 
-</div>
-$$
+</div>

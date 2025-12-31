@@ -107,8 +107,7 @@ Gathering terms, we have
 </div>
 
 The deflection is analyzed to get $$a $$ , and $$E $$ is determined from the
-applied voltage and distance between the plates; thus, $$\frac{ {q}_{e}}{ {m}_
-{e}} $$ can be determined. With the velocity known, another measurement of
+applied voltage and distance between the plates; thus, $$\frac{ {q}_{e}}{ {m}_ {e}} $$ can be determined. With the velocity known, another measurement of
 $$\frac{ {q}_{e}}{ {m}_{e}} $$ can be obtained by bending the beam of electrons
 with the magnetic field. Since $${F}_{\text{mag}}={q}_{e}vB={m}_{e}a $$ , we
 have $${q}_{e}/{m}_{e}=a/vB $$ . Consistent results are obtained using magnetic
@@ -122,8 +121,7 @@ charge to its mass? The value obtained is
 </div>
 
 This is a huge number, as Thomson realized, and it implies that the electron has
-a very small mass. It was known from electroplating that about $$10^{8}
-\text{C/kg} $$ is needed to plate a material, a factor of about 1000 less than
+a very small mass. It was known from electroplating that about $$10^{8} \text{C/kg} $$ is needed to plate a material, a factor of about 1000 less than
 the charge per kilogram of electrons. Thomson went on to do the same experiment
 for positively charged hydrogen ions (now known to be bare protons) and found a
 charge per kilogram about 1000 times smaller than that for the electron,
@@ -155,8 +153,7 @@ could determine its charge only to the order of magnitude expected.
 Since Faraday’s experiments with electroplating in the 1830s, it had been known
 that about 100 000 C per mole was needed to plate singly ionized ions. Dividing
 this by the number of ions per mole (that is, by Avogadro’s number), which was
-approximately known, the charge per ion was calculated to be about $$ 1.6 \times
-10^{-19} \text{C} $$ , close to the actual value.
+approximately known, the charge per ion was calculated to be about $$ 1.6 \times 10^{-19} \text{C} $$ , close to the actual value.
 
 An American physicist, Robert Millikan (1868–1953) (see [[Figure 5]](#Figure5)),
 decided to improve upon Thomson’s experiment for measuring $${q}_{e} $$ and was
@@ -311,8 +308,7 @@ backwards ... \[meant\] ... the greatest part of the mass of the atom was
 concentrated in a tiny nucleus.” In 1911, Rutherford published his analysis
 together with a proposed model of the atom. The size of the nucleus was
 determined to be about $$ 10^{-15} \text{m} $$ , or 100 000 times smaller than
-the atom. This implies a huge density, on the order of $$ 10^{15}
-{\text{g/cm}}^{3} $$ , vastly unlike any macroscopic matter. Also implied is the
+the atom. This implies a huge density, on the order of $$ 10^{15} {\text{g/cm}}^{3} $$ , vastly unlike any macroscopic matter. Also implied is the
 existence of previously unknown nuclear forces to counteract the huge repulsive
 Coulomb forces among the positive charges in the nucleus. Huge forces would also
 be consistent with the large energies emitted in nuclear radiation.
@@ -581,4 +577,4 @@ cathode-ray tube
 planetary model of the atom
 : the most familiar model or illustration of the structure of the atom
 
-</div>
+</div>

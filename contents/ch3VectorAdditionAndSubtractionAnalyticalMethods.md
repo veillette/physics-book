@@ -32,9 +32,7 @@ it.
 ![In the given figure a dotted vector A sub x is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A sub y at an angle theta from the x axis. On the graph a vector A, inclined at an angle theta with x axis is shown. Therefore vector A is the sum of the vectors A sub x and A sub y.](../resources/Figure_03_03_01.jpg 'The vector ( A ) , with its tail at the origin of an x, y-coordinate system, is shown together with its x- and y-components, ( A_x ) and ( A_y ) . These vectors form a right triangle. The analytical relationships among these vectors are summarized below.')
 {: #Figure1 height="200"}
 
-$$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$
-\vb{A} $$ along the **x**- and **y**-axes. The three vectors $$ \vb{A} $$, $$
-\vb{A}_{x} $$, and $$ \vb{A}_{y} $$ form a right triangle:
+$$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$ \vb{A} $$ along the **x**- and **y**-axes. The three vectors $$ \vb{A} $$, $$ \vb{A}_{x} $$, and $$ \vb{A}_{y} $$ form a right triangle:
 
 <div class="equation">
  $$ \vb{A}_{x}+ \vb{A}_{y} = \vb{A}. $$
@@ -42,11 +40,9 @@ $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$
 
 Note that this relationship between vector components and the resultant vector
 holds only for vector quantities (which include both magnitude and direction).
-The relationship does not apply for the magnitudes alone. For example, if $$
-\vb{A}_{x}=3 \m $$ east, $$ \vb{A}_{y}=4 \m $$ north, and $$ \vb{A}=5 \m $$
-north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}\_{y} =\vb{A}
+The relationship does not apply for the magnitudes alone. For example, if $$ \vb{A}_{x}=3 \m $$ east, $$ \vb{A}_{y}=4 \m $$ north, and $$ \vb{A}=5 \m $$
+north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}\_{y} =\vb{A} $$
 
-$$
 . However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That
 is,
@@ -122,7 +118,6 @@ Pythagorean theorem relating the legs of a right triangle to the length of the
 hypotenuse. For example, if $$ A_{x} $$ and $$ A_{y} $$ are 9 and 5 blocks,
 respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is
-$$
 
 \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
@@ -158,15 +153,13 @@ same point. In particular, the person could have walked first in the *x*
 -direction and then in the *y*-direction. Those paths are the *x*- and
 *y*-components of the resultant, $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$. If we
 know $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$, we can find $$ R $$ and $$ \theta $$
-using the equations $$ A=\sqrt{ A_{x}^{2}+ A_
-{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
+using the equations $$ A=\sqrt{ A_{x}^{2}+ A_ {y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
 use the analytical method of vector addition, you can determine the components
 or the magnitude and direction of a vector.
 
 **_Step 1._** _Identify the x- and y-axes that will be used in the problem.
 Then, find the components of each vector to be added along the chosen
-perpendicular axes._ Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_
-{y}=A\sin{\theta} $$ to find the components. In [Figure 6](#Figure6), these
+perpendicular axes._ Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_ {y}=A\sin{\theta} $$ to find the components. In [Figure 6](#Figure6), these
 components are $$ A_{x} $$, $$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The
 angles that vectors $$ \vb{A} $$ and $$ \vb{B} $$ make with the **x**-axis are
 $$ \theta_{\text{A}} $$ and $$ \theta_{\text{B}} $$, respectively.
@@ -223,9 +216,7 @@ Adding Vectors Using Analytical Methods
 Add the vector $$ \vb{A} $$ to the vector $$ \vb{B} $$
 shown in [Figure 8](#Figure8), using perpendicular
 components along the **x**- and **y**-axes. The **x**- and **y**-axes are along
-the east–west and north–south directions, respectively. Vector $$ \vb{A}
-$$
-represents the first leg of a walk in which a person walks $$ 53.0 \m  $$
+the east–west and north–south directions, respectively. Vector $$ \vb{A} represents the first leg of a walk in which a person walks $$ 53.0 \m  $$
 in a direction $$ 20.0^\circ $$
 north of east. Vector $$ \vb{B} $$
 represents the second leg, a displacement of $$ 34.0 \m  $$
@@ -243,14 +234,9 @@ point. Once found, they are combined to produce the resultant.
 
 **Solution**
 
-Following the method outlined above, we first find the components of $$ \vb{A}
-$$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$ A=53.0 \m $$,
-$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_
-{\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A\_
-{x}=A\cos{\theta} $$, which gives
-
-<div class="equation">
- $$ \begin{array}{lll}
+Following the method outlined above, we first find the components of $$ \vb{A} $$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$ A=53.0 \m $$,
+$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_ {\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A\_
+{x}=A\cos{\theta} $$, which gives <div class="equation"> $$ \begin{array}{lll}
 A_{x}&=& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
 A_{x}&=& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
 \end{array} $$
@@ -387,9 +373,7 @@ B_{y}&=& B\sin{\theta} .
   </div>
 
 Step 2: Add the horizontal and vertical components of each vector to determine
-the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R}
-
-$$
+the components $$ R_{x} $$ and $$ R_{y} $$ of the resultant vector, $$ \vb{R} $$
 :
 
   <div class="equation">
@@ -645,7 +629,6 @@ The north component of the displacement is 87.0 km, and the east component is 87
 Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position?
 (If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 13](#Figure13), then this problem asks you to
 find their sum
-$$
 
 \vb{R}=\vb{A}+\vb{B} $$.)
 
@@ -853,8 +836,7 @@ straight south. (This is equivalent to subtracting $$ \vb{B} $$
 from $$ \vb{A} $$
 —that is, finding $$ \vb{R}^\prime =\vb{A} - \vb{B} $$)
 
-(b) Repeat again, but now you first walk $$ 25.0 \m $$ north and then $$ 18.0 \m
-$$ east. (This is equivalent to subtract $$ \vb{A} $$ from $$ \vb{B} $$ —that
+(b) Repeat again, but now you first walk $$ 25.0 \m $$ north and then $$ 18.0 \m $$ east. (This is equivalent to subtract $$ \vb{A} $$ from $$ \vb{B} $$ —that
 is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
 
 </div>
@@ -1162,8 +1144,7 @@ Part (a) gives standard components. Part (b) shows that the same vector has diff
 <div class="problem"  markdown="1">
 A farmer wants to fence off their four-sided plot of flat land.
 They measure the first three sides, shown as $$ \vb{A}, $$
-$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly calculate the length and orientation of the fourth side $$
-\vb{D} $$. What is their result?
+$$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly calculate the length and orientation of the fourth side $$ \vb{D} $$. What is their result?
 
 ![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_15.jpg)
 {: #Figure15}
@@ -1252,10 +1233,8 @@ The fourth side **D** is **8.65 km** long at **18.5° south of east**.
 In an attempt to escape his island, Gilligan builds a raft and sets to sea.
 The wind shifts a great deal during the day, and he is blown along the following straight lines: $$ 2.50 \text{km} $$,
 $$ 45.0^\circ $$ north of west; then $$ 4.70 \text{km} $$, $$ 60.0^\circ $$ south
-of east; then $$ 1.30\text{km} $$,$$ 25.0^\circ $$ south of west; then $$ 5.10
-\text{km} $$ straight east; then $$ 1.70\text{km} $$, $$ 5.00^\circ $$ east of
-north; then $$ 7.20 \text{km} $$, $$ 55.0^\circ $$ south of west; and finally $$
-2.80 \text{km} $$, $$ 10.0^\circ $$ north of east. What is his final position
+of east; then $$ 1.30\text{km} $$,$$ 25.0^\circ $$ south of west; then $$ 5.10 \text{km} $$ straight east; then $$ 1.70\text{km} $$, $$ 5.00^\circ $$ east of
+north; then $$ 7.20 \text{km} $$, $$ 55.0^\circ $$ south of west; and finally $$ 2.80 \text{km} $$, $$ 10.0^\circ $$ north of east. What is his final position
 relative to the island?
 
 </div>
@@ -1410,4 +1389,4 @@ analytical method
 : the method of determining the magnitude and direction of a resultant vector
 using the Pythagorean theorem and trigonometric identities
 
-</div>
+</div>

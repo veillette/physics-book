@@ -727,8 +727,7 @@ This problem illustrates an important principle: when looking for zero-field poi
 **Integrated Concepts**
 
 Calculate the angular velocity $$\omega $$ of an electron orbiting a proton in
-the hydrogen atom, given the radius of the orbit is $$0.530 \times 10^{-10}
-\text{m} $$ . You may assume that the proton is stationary and the centripetal
+the hydrogen atom, given the radius of the orbit is $$0.530 \times 10^{-10} \text{m} $$ . You may assume that the proton is stationary and the centripetal
 force is supplied by Coulomb attraction.
 
 </div>
@@ -896,8 +895,7 @@ This problem demonstrates how uniform electric fields can be used to control cha
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-The practical limit to an electric field in air is about $$3.00 \times 10^{6}
-\text{N/C} $$ . Above this strength, sparking takes place because air begins to
+The practical limit to an electric field in air is about $$3.00 \times 10^{6} \text{N/C} $$ . Above this strength, sparking takes place because air begins to
 ionize and charges flow, reducing the field. (a) Calculate the distance a free
 proton must travel in this field to reach $$3.00\% $$ of the speed of light,
 starting from rest. (b) Is this practical in air, or must it occur in a vacuum?
@@ -1645,4 +1643,4 @@ electrostatic precipitators
 : filters that apply charges to particles in the air, then attract those charges
 to a filter, removing them from the airstream
 
-</div>
+</div>

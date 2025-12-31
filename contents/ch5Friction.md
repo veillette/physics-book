@@ -165,16 +165,11 @@ The equations given earlier include the dependence of friction on materials and
 the normal force. The direction of friction is always opposite that of motion,
 parallel to the surface between objects, and perpendicular to the normal force.
 For example, if the crate you try to push (with a force parallel to the floor)
-has a mass of 100 kg, then the normal force would be equal to its weight, $$
-W=mg\left(100 \kg \right)\left(
-9.80\mss \right)=980 \N $$, perpendicular to the floor. If the coefficient of
+has a mass of 100 kg, then the normal force would be equal to its weight, $$ W=mg\left(100 \kg \right)\left( 9.80\mss \right)=980 \N $$, perpendicular to the floor. If the coefficient of
 static friction is 0.45, you would have to exert a force parallel to the floor
-greater than $$ f_{\s \left(\text{max}\right)}=\mu_
-{\s} \mag{N}=\left(0.45\right)\left(980 \N \right)
-=440\N $$ to move the crate. Once there is motion, friction is less and the
+greater than $$ f_{\s \left(\text{max}\right)}=\mu_ {\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N $$ to move the crate. Once there is motion, friction is less and the $$
 coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
 
-$$
 f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
 =290\N $$ ) would keep it moving at a constant speed. If the floor is
 lubricated, both coefficients are considerably less than they would be without
@@ -225,8 +220,7 @@ A skier with a mass of 62 kg is sliding down a snowy slope. Find the coefficient
 **Strategy**
 
 The magnitude of kinetic friction was given in to be 45.0 N. Kinetic friction is
-related to the normal force $$\mag{N}$$ as $$ f_{\text{k}}=\mu_{\text{k}}
-\mag{N} $$; thus, the coefficient of kinetic friction can be found if we can
+related to the normal force $$\mag{N}$$ as $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} $$; thus, the coefficient of kinetic friction can be found if we can
 find the normal force of the skier on a slope. The normal force is always
 perpendicular to the surface, and since there is no motion perpendicular to the
 surface, the normal force should equal the component of the skier’s weight
@@ -270,9 +264,7 @@ Substituting known values on the right-hand side of the equation,
 This result is a little smaller than the coefficient listed
 in [Table 1](#Table1) for waxed wood on snow, but it is still reasonable since
 values of the coefficients of friction can vary greatly. In situations like
-this, where an object of mass $$ m $$ slides down a slope that makes an angle $$
-\theta $$ with the horizontal, friction is given by $$ f_
-{\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$. All objects will slide down a slope
+this, where an object of mass $$ m $$ slides down a slope that makes an angle $$ \theta $$ with the horizontal, friction is given by $$ f_ {\text{k}}=\mu_{\text{k}}mg \cos{\theta} $$. All objects will slide down a slope
 with constant acceleration under these circumstances. Proof of this is left for
 this chapter’s Problems and Exercises.
 
@@ -305,8 +297,7 @@ Solving for $$ \mu_{\text{k}} $$, we find that
 Put a coin on a book and tilt it until the coin slides at a constant velocity down the book. You might need to tap the book lightly to get the coin to move. Measure the angle of tilt relative to the horizontal and find $$ \mu_{\text{k}} $$. Note that the coin will not start to slide at all until an angle greater than
 $$ \theta $$
 is attained, since the coefficient of static friction is larger than the
-coefficient of kinetic friction. Discuss how this may affect the value for $$
-\mu_{\text{k}} $$
+coefficient of kinetic friction. Discuss how this may affect the value for $$ \mu_{\text{k}} $$
 and its uncertainty.
 
 </div>
@@ -773,8 +764,7 @@ The acceleration starting from rest is $$ 3.29 \mss $$, and once moving it incre
 <div class="problem" markdown="1">
 Consider the 65.0-kg ice skater being pushed by two others shown in [Figure 7](#Figure7).
 (a) Find the direction and magnitude of $$ \vb{F}_{\text{tot}} $$,
-the total force exerted on her by the others, given that the magnitudes $$
-F_{1} $$ and $$ F_{2} $$ are 26.4 N and 18.6 N, respectively.
+the total force exerted on her by the others, given that the magnitudes $$ F_{1} $$ and $$ F_{2} $$ are 26.4 N and 18.6 N, respectively.
 (b) What is her initial acceleration if she
 is initially stationary and wearing steel-bladed skates that point in the
 direction of $$ \vb{F}_{\text{tot}} $$?
@@ -857,8 +847,7 @@ The total force on the skater is $$ 32.3 \N $$ at an angle of $$ 35.1° $$ above
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Show that the acceleration of any object down a frictionless incline that makes an angle $$ \theta $$ with the horizontal is $$
-a=g\sin{\theta} $$. (Note that this acceleration is independent of mass.)
+Show that the acceleration of any object down a frictionless incline that makes an angle $$ \theta $$ with the horizontal is $$ a=g\sin{\theta} $$. (Note that this acceleration is independent of mass.)
 
 </div>
 <div class="solution" markdown="1">
@@ -909,8 +898,7 @@ Show that the acceleration of any object down an incline where friction behaves 
 (that is, where $$ f_{\text{k}}=\mu_{\text{k}} \mag{N} $$)
 is $$ a=g\left( \sin{\theta} - \mu_{\text{k}}\cos{\theta} \right). $$ Note
 that the acceleration is independent of mass and reduces to the expression found
-in the previous problem when friction becomes negligibly small $$ \left(
-\mu_{\text{k}}=0\right). $$
+in the previous problem when friction becomes negligibly small $$ \left( \mu_{\text{k}}=0\right). $$
 </div>
 <div class="solution" markdown="1">
 
@@ -1780,4 +1768,4 @@ magnitude of kinetic friction
 : $$ f_{\text{k}}=\mu_{\text{k} }\mag{N} $$, where $$ \mu\_{\text{k} } $$ is the
 coefficient of kinetic friction
 
-</div>
+</div>

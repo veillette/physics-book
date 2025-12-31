@@ -69,8 +69,7 @@ of acceleration and net external force as the proportionality.
  $$ \vb{a} \propto \vb{F}_{\text{net}}, $$
 </div>
 
-where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}\_
-{\text{net}} $$ is the **net external force**. (The net external force is the
+where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}\_ {\text{net}} $$ is the **net external force**. (The net external force is the
 vector sum of all external forces and can be determined graphically, using the
 head-to-tail method, or analytically, using components. The techniques are the
 same as for the addition of other vectors, and are covered
@@ -143,8 +142,7 @@ verification.
 $$ \vb{F}_{\text{net}}=m\vb{a} $$ is used to define the units of force in terms
 of the three basic units for mass, length, and time. The SI unit of force is
 called the **newton** (abbreviated N) and is the force needed to accelerate a
-1-kg system at the rate of $$ 1\mss $$. That is, since $$ \vb{F}_
-{\text{net}}=m\vb{a} $$,
+1-kg system at the rate of $$ 1\mss $$. That is, since $$ \vb{F}_ {\text{net}}=m\vb{a} $$,
 
 <div class="equation">
  $$ 1 \N =1 \kg \cdot \mss . $$
@@ -172,8 +170,7 @@ experiences only the downward force of gravity, which has magnitude $$ w $$.
 Newton’s second law states that the magnitude of the net external force on an
 object is $$ \mag{F}\_{\text{net}}=m \mag{a} $$.
 
-Since the object experiences only the downward force of gravity,$$ F\_
-{\text{net}}=w $$. We know that the acceleration of an object due to gravity is
+Since the object experiences only the downward force of gravity,$$ F\_ {\text{net}}=w $$. We know that the acceleration of an object due to gravity is
 $$ g $$, or $$ a=g $$. Substituting these into Newton’s second law gives
 
 <div class="note" data-label="" markdown="1">
@@ -248,9 +245,8 @@ regardless of its location. However, because weight depends on the acceleration
 due to gravity, the weight of an object _can change_ when the object enters into
 a region with stronger or weaker gravity. For example, the acceleration due to
 gravity on the Moon is $$ 1.67\mss $$
-(which is much less than the acceleration due to gravity on Earth, $$ 9.80\mss
+(which is much less than the acceleration due to gravity on Earth, $$ 9.80\mss $$
 
-$$
 ). If you measured your weight on Earth and then measured your weight on the
 Moon, you would find that you “weigh” much less, even though you do not look any
 skinnier. This is because the force of gravity is weaker on the Moon. In fact,
@@ -286,8 +282,7 @@ the ground. The mass of the mower is 24 kg. What is its acceleration?
 **Strategy**
 
 Since $$ \vb{F}_{\text{net}} $$ and $$ m $$ are given, the acceleration can be
-calculated directly from Newton’s second law as stated in $$ \vb{F}_
-{\text{net}}=m\vb{a} $$.
+calculated directly from Newton’s second law as stated in $$ \vb{F}_ {\text{net}}=m\vb{a} $$.
 
 **Solution**
 
@@ -392,8 +387,7 @@ as this were performed in the early 1960s to test the limits of human endurance
 and the setup designed to protect human subjects in jet fighter emergency
 ejections. Speeds of 1000 km/h were obtained, with accelerations of 45 $$ g $$
 \'s. (Recall that $$ g $$, the acceleration due to gravity, is $$ 9.80 \mss $$.
-When we say that an acceleration is 45 $$ g $$ \'s, it is $$ 45\times 9.80 \mss
-$$, which is approximately $$ 440 \mss $$.) While living subjects are not used
+When we say that an acceleration is 45 $$ g $$ \'s, it is $$ 45\times 9.80 \mss $$, which is approximately $$ 440 \mss $$.) While living subjects are not used
 any more, land speeds of 10 000 km/h have been obtained with rocket sleds. In
 this example, as in the preceding one, the system of interest is obvious. We
 will see in later examples that choosing the system of interest is crucial - and
@@ -416,8 +410,7 @@ third and final law of motion.
 * Newton’s second law of motion states that the acceleration of a system is
   directly proportional to and in the same direction as the net external force
   acting on the system, and inversely proportional to its mass.
-* In equation form, Newton’s second law of motion is $$ \vb{a}=\frac{ \vb{F}_
-  {\text{net}}}{m} $$.
+* In equation form, Newton’s second law of motion is $$ \vb{a}=\frac{ \vb{F}_ {\text{net}}}{m} $$.
 * This is often written in the more familiar form:
   $$ \vb{F}_{\text{net}}=m\vb{a} $$.
 * The weight $$ \vb{w} $$ of an object is defined as the force of gravity acting
@@ -1339,8 +1332,7 @@ net external force
 mass to accelerate
 
 Newton’s second law of motion
-: the net external force $$ \vb{F}_{\text{net}} $$ on an object with mass $$ m
-$$ is proportional to and in the same direction as the acceleration of the
+: the net external force $$ \vb{F}_{\text{net}} $$ on an object with mass $$ m $$ is proportional to and in the same direction as the acceleration of the
 object, $$ \vb{a} $$, and inversely proportional to the mass; defined
 mathematically as $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} $$
 
@@ -1354,5 +1346,4 @@ weight
 defined mathematically as: $$ \vb{w}=m\vb{g} $$, where $$ \vb{g} $$ is the
 magnitude and direction of the acceleration due to gravity
 
-</div>
-$$
+</div>

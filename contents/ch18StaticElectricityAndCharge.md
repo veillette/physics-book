@@ -105,8 +105,7 @@ charge of 1.00 C is
 
 Similarly, $$ 6.25 \times 10^{18} $$ electrons have a combined charge of −1.00
 coulomb. Just as there is a smallest bit of an element (an atom), there is a
-smallest bit of charge. There is no directly observed charge smaller than $$\mid
-{q}_{e}\mid $$
+smallest bit of charge. There is no directly observed charge smaller than $$\mid {q}_{e}\mid $$
 (
 see [Things Great and Small: The Submicroscopic Origin of Charge](#Note1))
 , and all observed charges are integral multiples of $$\mid {q}_{e}\mid $$.
@@ -401,4 +400,4 @@ proton
 magnitude and opposite in sign to the amount of negative charge carried by an
 electron
 
-</div>
+</div>

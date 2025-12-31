@@ -90,8 +90,7 @@ There are many types of waves, such as water waves and even earthquakes. Among t
 
 As noted before, an electromagnetic wave has a frequency and a wavelength
 associated with it and travels at the speed of light, or $$c $$ . The
-relationship among these wave characteristics can be described by $${v}_
-{\text{W}}=f\lambda $$ , where $${v}_{\text{W}} $$ is the propagation speed of
+relationship among these wave characteristics can be described by $${v}_ {\text{W}}=f\lambda $$ , where $${v}_{\text{W}} $$ is the propagation speed of
 the wave, $$f $$ is the frequency, and $$\lambda $$ is the wavelength. Here
 $${v}\_{\text{W}}=c $$ , so that for all electromagnetic waves,
 
@@ -292,9 +291,8 @@ waves, as we shall see.
 The wavelengths found in the preceding example are representative of AM, FM, and
 cell phones, and account for some of the differences in how they are broadcast
 and how well they travel. The most efficient length for a linear antenna, such
-as discussed in [Production of Electromagnetic Waves](../contents/ch24ProductionOfElectromagneticWaves), is $$\lambda /2
+as discussed in [Production of Electromagnetic Waves](../contents/ch24ProductionOfElectromagneticWaves), is $$\lambda /2 $$
 
-$$
 , half the wavelength of the electromagnetic wave. Thus a very large antenna
 is needed to efficiently broadcast typical AM radio with its carrier wavelengths
 on the order of hundreds of meters.
@@ -430,8 +428,7 @@ but small systems, such as atoms and molecules, can vibrate fast enough to
 produce these waves.
 
 Water molecules rotate and vibrate particularly well at infrared frequencies,
-emitting and absorbing them so efficiently that the emissivity for skin is $$e=
-0.97 $$ in the infrared. Night-vision scopes can detect the infrared emitted by
+emitting and absorbing them so efficiently that the emissivity for skin is $$e= 0.97 $$ in the infrared. Night-vision scopes can detect the infrared emitted by
 various warm objects, including humans, and convert it to visible light.
 
 We can examine radiant heat transfer from a house by using a camera capable of
@@ -504,8 +501,7 @@ together. Also, we need to find the mass of corneal tissue involved.
 
 **Solution**
 
-To figure out the heat required to raise the temperature of the tissue to $$100
-\text{ºC} $$ , we can apply concepts of thermal energy. We know that
+To figure out the heat required to raise the temperature of the tissue to $$100 \text{ºC} $$ , we can apply concepts of thermal energy. We know that
 
 <div class="equation" >
  $$\text{Q}=mc\Delta T, $$
@@ -552,8 +548,7 @@ absorbed by biological tissue. They evaporate rather than burn the tissue, and
 can be used for precision work. Most lasers used for this type of eye surgery
 have an average power rating of about one watt. For our example, if we assume
 that each laser burst from this pulsed laser lasts for 10 ns, and there are 400
-bursts per second, then the average power is $${\text{Q}}_{\text{tot}}×400=150
-\text{mW} $$.
+bursts per second, then the average power is $${\text{Q}}_{\text{tot}}×400=150 \text{mW} $$.
 
 </div>
 
@@ -655,8 +650,7 @@ chlorofluorocarbons (CFCs).
 
 The UV radiation helps dissociate the CFC’s, releasing highly reactive
 chlorine (Cl) atoms, which catalyze the destruction of the ozone layer. For
-example, the reaction of $${\text{CFCl}}_{3} $$ with a photon of light $$\left(
-\text{hv}\right) $$ can be written as:
+example, the reaction of $${\text{CFCl}}_{3} $$ with a photon of light $$\left( \text{hv}\right) $$ can be written as:
 
 <div class="equation" >
  $${\text{CFCl}}_{3}+\text{h}v \to {\text{CFCl}}_{2}+\text{Cl} \text{.}  $$
@@ -2365,4 +2359,4 @@ processes in nuclear reactors and weapons. The lower end of the $$\gamma $$ -ray
 frequency range overlaps the upper end of the X-ray range, but $$\gamma $$ rays
 can have the highest frequency of any electromagnetic radiation
 
-</div>
+</div>

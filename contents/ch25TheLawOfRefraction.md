@@ -54,8 +54,7 @@ average orbital period of one of Jupiter’s moons, as measured from Earth, vari
 depending on whether Earth was moving toward or away from Jupiter. He correctly
 concluded that the apparent change in period was due to the change in distance
 between Earth and Jupiter and the time it took light to travel this distance.
-From his 1676 data, a value of the speed of light was calculated to be $$ 2.26
-\times 10^{8} \text{m/s} $$
+From his 1676 data, a value of the speed of light was calculated to be $$ 2.26 \times 10^{8} \text{m/s} $$
 (only 25% different from today’s accepted value). In more recent times,
 physicists have measured the speed of light in numerous ways and with increasing
 accuracy. One particularly direct method, used in 1887 by the American physicist
@@ -411,13 +410,10 @@ the effect on the direction of the ray.
 
 - The changing of a light ray’s direction when it passes through variations in
   matter is called refraction.
-- The speed of light in vacuum $$c= 2.99792458 \times 10^{8} \text{m/s}\approx
-  3.00 \times 10^{8} \text{m/s}. $$
-- Index of refraction $$n=\frac{c}{v} $$ , where $$v $$ is the speed of light in
+- The speed of light in vacuum $$c= 2.99792458 \times 10^{8} \text{m/s}\approx 3.00 \times 10^{8} \text{m/s}. $$ - Index of refraction $$n=\frac{c}{v} $$ , where $$v $$ is the speed of light in
   the material, $$c $$ is the speed of light in vacuum, and $$n $$ is the index
   of refraction.
-- Snell’s law, the law of refraction, is stated in equation form as $${n}_{1}
-  \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2} $$ .
+- Snell’s law, the law of refraction, is stated in equation form as $${n}_{1} \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2} $$ .
 
 ### Conceptual Questions
 
@@ -964,8 +960,7 @@ density.
 <div class="problem"  markdown="1">
 **Unreasonable Results**
 
-Light traveling from water to a gemstone strikes the surface at an angle of $$
-80.0º $$ and has an angle of refraction of $$ 15.2º $$ .
+Light traveling from water to a gemstone strikes the surface at an angle of $$ 80.0º $$ and has an angle of refraction of $$ 15.2º $$ .
 (a) What is the speed of light in the gemstone? (b) What is unreasonable about
 this result? (c) Which assumptions are unreasonable or inconsistent?
 
@@ -991,4 +986,4 @@ index of refraction
 : for a material, the ratio of the speed of light in vacuum to that in the
 material
 
-</div>
+</div>

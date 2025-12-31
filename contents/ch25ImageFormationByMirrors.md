@@ -49,8 +49,7 @@ focal point. But parabolic mirrors are much more expensive to make than
 spherical mirrors. The solution is to use a mirror that is small compared with
 its radius of curvature, as shown in [[Figure 2]](#Figure2)(b). (This is the
 mirror equivalent of the thin lens approximation.) To a very good approximation,
-this mirror has a well-defined focal point at F that is the focal distance $$f
-$$ from the center of the mirror. The focal length $$f $$ of a concave mirror is
+this mirror has a well-defined focal point at F that is the focal distance $$f $$ from the center of the mirror. The focal length $$f $$ of a concave mirror is
 positive, since it is a converging mirror.
 
 ![Figure (a) shows a large concave spherical mirror. A beam of parallel rays is incident on the mirror; after reflection it converges at F. Figure (b) shows a concave mirror that is small when compared to its radius of curvature. A beam of parallel rays is incident on the mirror; after reflection it converges at F on the same side. The middle rays of the parallel beam are 1,2, and 3. The distance of F on ray 2 from the center of the mirror is its focal length small f.](../resources/Figure_25_07_02.jpg '(a) Parallel rays reflected from a large spherical mirror do not all cross at a common point. (b) If a spherical mirror is small compared with its radius of curvature, parallel rays are focused to a common point. The distance of the focal point from the center of the mirror is its focal length ( f ) . Since this mirror is converging, it has a positive focal length.   ')
@@ -104,8 +103,7 @@ the thin lens equations for mirrors just as we did for lenses.
 
 Consider the situation shown in [[Figure 4]](#Figure4), concave spherical mirror
 reflection, in which an object is placed farther from a concave (converging)
-mirror than its focal length. That is, $$f $$ is positive and $${d}_{\text{o}}
-$$ &gt; $$f $$ , so that we may expect an image similar to the case 1 real image
+mirror than its focal length. That is, $$f $$ is positive and $${d}_{\text{o}} $$ &gt; $$f $$ , so that we may expect an image similar to the case 1 real image
 formed by a converging lens. Ray tracing in [[Figure 4]](#Figure4) shows that
 the rays from a common point on the object all cross at a point on the same side
 of the mirror as the object. Thus a real image can be projected onto a screen
@@ -127,8 +125,7 @@ Electric room heaters use a concave mirror to reflect infrared (IR) radiation fr
 
 We are given that the concave mirror projects a real image of the coils at an
 image distance $${d}_{\text{i}}=3.00 \text{m} $$ . The coils are the object, and
-we are asked to find their location—that is, to find the object distance $${d}_
-{\text{o}} $$ . We are also given the radius of curvature of the mirror, so that
+we are asked to find their location—that is, to find the object distance $${d}_ {\text{o}} $$ . We are also given the radius of curvature of the mirror, so that
 its focal length is $$f=R/2=25.0 \text{cm} $$
 (positive since the mirror is concave or converging). Assuming the mirror is
 small compared with its radius of curvature, we can use the thin lens equations,
@@ -189,8 +186,7 @@ One of the solar technologies used today for generating electricity is a device 
    at the mirror’s focal point, what will be the radius of curvature of the
    mirror?
 2. Per meter of pipe, what will be the amount of sunlight concentrated onto the
-   pipe, assuming the insolation (incident solar radiation) is $$0.900
-   \text{k}{\text{W/m}}^{2} $$ ?
+   pipe, assuming the insolation (incident solar radiation) is $$0.900 \text{k}{\text{W/m}}^{2} $$ ?
 3. If the fluid-carrying pipe has a 2.00-cm diameter, what will be the
    temperature increase of the fluid per meter of pipe over a period of one
    minute? Assume all the solar radiation incident on the reflector is absorbed
@@ -245,17 +241,14 @@ Therefore, the increase in temperature in one minute is
 **Discussion for (c)**
 
 An array of such pipes in the California desert can provide a thermal output of
-250 MW on a sunny day, with fluids reaching temperatures as high as $$400
-\text{ºC} $$ . We are considering only one meter of pipe here, and ignoring heat
+250 MW on a sunny day, with fluids reaching temperatures as high as $$400 \text{ºC} $$ . We are considering only one meter of pipe here, and ignoring heat
 losses along the pipe.
 
 ![A parabolic trough solar thermal electric power plant located at Kramer Junction, California](../resources/Figure_25_07_05.jpg 'Parabolic trough collectors are used to generate electricity in southern California. (credit: kjkolb, Wikimedia Commons) ')
 {: #Figure5}
 
 What happens if an object is closer to a concave mirror than its focal length?
-This is analogous to a case 2 image for lenses ( $${d}_{\text{o}}<f $$ and $$f
-
-$$
+This is analogous to a case 2 image for lenses ( $${d}_{\text{o}}<f $$ and $$f $$
 positive), which is a magnifier. In fact, this is how makeup mirrors act as
 magnifiers. [[Figure 6]](#Figure6)(a) uses ray tracing to locate the image of an
 object placed close to a concave mirror. Rays from a common point on the object
@@ -294,14 +287,12 @@ A keratometer is a device used to measure the curvature of the cornea, particula
 
 If we can find the focal length of the convex mirror formed by the cornea, we
 can find its radius of curvature (the radius of curvature is twice the focal
-length of a spherical mirror). We are given that the object distance is $${d}_
-{\text{o}}=12.0 \text{cm} $$ and that $$m=0.0320 $$ . We first solve for the
+length of a spherical mirror). We are given that the object distance is $${d}_ {\text{o}}=12.0 \text{cm} $$ and that $$m=0.0320 $$ . We first solve for the
 image distance $${d}_{\text{i}} $$ , and then for $$f $$.
 
 **Solution**
 
-$$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_
-{\text{i}} $$ gives
+$$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_ {\text{i}} $$ gives
 
 <div class="equation" >
  $${d}_{\text{i}}=- m  d_{\text{o}}\text{.} $$
@@ -915,5 +906,4 @@ away (diverge) from its axis
 law of reflection
 : angle of reflection equals the angle of incidence
 
-</div>
-$$
+</div>

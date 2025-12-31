@@ -87,9 +87,9 @@ and that pressure in fact has units of energy divided by volume. We also noted
 in our discussion of the ideal gas law that $$PV $$ has units of energy. In this
 case, some of the energy associated with pressure becomes work.
 
-[[Figure 5]](#Figure5) shows a graph of pressure versus volume (that is, a $$PV
+[[Figure 5]](#Figure5) shows a graph of pressure versus volume (that is, a $$PV $$
 
-$$
+
 diagram ) for an isobaric process. You can see in the figure that the work done
 is the area under the graph. This property of $$PV $$ diagrams is very useful
 and broadly applicable: *the work done on or by a system in going from one state
@@ -875,4 +875,3 @@ reversible process
 theoretically can be returned to their original states
 
 </div>
-$$

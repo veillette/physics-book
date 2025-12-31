@@ -103,20 +103,15 @@ as positive and west as negative. Thus, in this case, we have negative velocity.
 
 We can solve this problem by identifying $$ \Delta v $$ and $$ \Delta t $$ from
 the given information and then calculating the average acceleration directly
-from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_
-{0}}{ t_{f}-t_{0}} $$.
+from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_ {0}}{ t_{f}-t_{0}} $$.
 
 **Solution**
 
 1\. Identify the knowns. $$ v_{0}=0 $$, $$ v_{f}=-15.0 \ms $$
-(the negative sign indicates direction toward the west), $$ \Delta t=1\text{.80
-s} $$.
+(the negative sign indicates direction toward the west), $$ \Delta t=1\text{.80 s} $$.
 
-2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0
-\ms $$, its change in velocity equals its final velocity: $$ \Delta v=v\_
-{f}=-15.0 \ms $$.
-
-3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
+2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0 \ms $$, its change in velocity equals its final velocity: $$ \Delta v=v\_
+{f}=-15.0 \ms $$. 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
 and solve for the unknown $$ \overline{a} $$.
 
 <div class="equation">
@@ -183,8 +178,7 @@ straightforward since the initial and final positions are given.
 **Solution**
 
 1\. Identify the knowns. In the figure we see that $$ x_{f}=6.70 \text{km} $$
-and $$ x_{0}=4.70 \text{km} $$ for part (a), and $$ x^{\prime}_{f}=3.75
-\text{km} $$ and $$ x^{\prime}_{0}=5.25 \text{km} $$ for part (b).
+and $$ x_{0}=4.70 \text{km} $$ for part (a), and $$ x^{\prime}_{f}=3.75 \text{km} $$ and $$ x^{\prime}_{0}=5.25 \text{km} $$ for part (b).
 
 2\. Solve for displacement in part (a).
 
@@ -258,8 +252,7 @@ values to calculate the acceleration.
 **Solution**
 
 1\. Identify the knowns. $$ v_{0}=0 $$
-(the trains starts at rest), $$ v_{f}=30.0 \text{km/h} $$, and $$ \Delta t=20.0
-\s $$.
+(the trains starts at rest), $$ v_{f}=30.0 \text{km/h} $$, and $$ \Delta t=20.0 \s $$.
 
 2\. Calculate $$ \Delta v $$. Since the train starts from rest, its change in
 velocity is $$ \Delta v=+30.0 \text{km/h} $$, where the plus sign means velocity
@@ -361,11 +354,9 @@ since the train moves to the left and has a negative displacement.
 
 **Solution**
 
-1\. Identify the knowns. $$ x^{\prime}_{f}=3.75 \text{km} $$, $$ x^{\prime}_
-{0}=5.25 \text{km} $$, $$ \Delta t=5.00 \text{min} $$.
+1\. Identify the knowns. $$ x^{\prime}_{f}=3.75 \text{km} $$, $$ x^{\prime}_ {0}=5.25 \text{km} $$, $$ \Delta t=5.00 \text{min} $$.
 
-2\. Determine displacement, $$ \Delta x^{\prime} $$. We found $$ \Delta
-x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Example 2](#example2).
+2\. Determine displacement, $$ \Delta x^{\prime} $$. We found $$ \Delta x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Example 2](#example2).
 
 3\. Solve for average velocity.
 
@@ -587,8 +578,7 @@ Dr. John Paul Stapp was U.S. Air Force officer who studied the effects of
 extreme deceleration on the human body. On December 10, 1954, Stapp rode a
 rocket sled, accelerating from rest to a top speed of 282 m/s (1015 km/h) in
 5.00 s, and was brought jarringly back to rest in only 1.40 s! Calculate his (a)
-acceleration and (b) deceleration. Express each in multiples of $$ g $$, $$
-\left(9.80 \mss \right) $$ by taking its ratio to the acceleration of gravity.
+acceleration and (b) deceleration. Express each in multiples of $$ g $$, $$ \left(9.80 \mss \right) $$ by taking its ratio to the acceleration of gravity.
 
 </div>
 <div class="solution" markdown="1">
@@ -753,4 +743,4 @@ deceleration
 : acceleration in the direction opposite to velocity; acceleration that results
 in a decrease in velocity
 
-</div>
+</div>

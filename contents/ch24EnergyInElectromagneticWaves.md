@@ -75,8 +75,7 @@ produces the relationship
 where $${B}_{0} $$ is the maximum magnetic field strength.
 
 One more expression for $${I}_{\text{ave}} $$ in terms of both electric and
-magnetic field strengths is useful. Substituting the fact that $$c\cdot {B}_
-{0}={E}_{0} $$ , the previous expression becomes
+magnetic field strengths is useful. Substituting the fact that $$c\cdot {B}_ {0}={E}_{0} $$ , the previous expression becomes
 
 <div class="equation" >
  $${I}_{\text{ave}}=\frac{ {E}_{0}{B}_{0}}{ {2\mu }_{0}}. $$
@@ -803,8 +802,7 @@ form a circuit that radiates a wavelength of 196 m?
 
 Police radar determines the speed of motor vehicles using the same Doppler-shift
 technique employed for ultrasound in medical diagnostics. Beats are produced by
-mixing the double Doppler-shifted echo with the original frequency. If $$ 1.50
-\times 10^{9} \text{-Hz} $$ microwaves are used and a beat frequency of 150 Hz
+mixing the double Doppler-shifted echo with the original frequency. If $$ 1.50 \times 10^{9} \text{-Hz} $$ microwaves are used and a beat frequency of 150 Hz
 is produced, what is the speed of the vehicle? (Assume the same Doppler-shift
 formulas are valid with the speed of sound replaced by the speed of light.)
 
@@ -877,9 +875,8 @@ The speed of the vehicle is 15.0 m/s, which is equivalent to 54.0 km/h or 33.6 m
 Assume the mostly infrared radiation from a heat lamp acts like a continuous
 wave with wavelength $$1.50 \mu \text{m} $$ .
 (a) If the lamp’s 200-W output is focused on a person’s shoulder, over a
-circular area 25.0 cm in diameter, what is the intensity in $${\text{W/m}}^{2}
+circular area 25.0 cm in diameter, what is the intensity in $${\text{W/m}}^{2} $$
 
-$$
 ?
 (b) What is the peak electric field strength? (c) Find the peak magnetic field
 strength. (d) How long will it take to increase the temperature of the 4.00-kg
@@ -903,8 +900,7 @@ specific heat is $$ 3.47 \times 10^{3} \text{J/kg}\cdot \text{ºC} $$ ?
 
 On its highest power setting, a microwave oven increases the temperature of
 0.400 kg of spaghetti by $$ 45.0\text{ºC} $$ in 120 s. (a) What was the rate of
-power absorption by the spaghetti, given that its specific heat is $$ 3.76
-\times 10^{3} \text{J/kg}\cdot \text{ºC} $$ ?
+power absorption by the spaghetti, given that its specific heat is $$ 3.76 \times 10^{3} \text{J/kg}\cdot \text{ºC} $$ ?
 (b) Find the average intensity of the microwaves, given that they are absorbed
 over a circular area 20.0 cm in diameter. (c) What is the peak electric field
 strength of the microwave? (d) What is its peak magnetic field strength?
@@ -993,7 +989,6 @@ Final Answer
 **Integrated Concepts**
 
 Electromagnetic radiation from a 5.00-mW laser is concentrated on a
-$$
 
 1.00{\text{-mm}}^{2} $$ area. (a) What is the intensity in $${\text{W/m}}^{2} $$
 ?
@@ -1015,8 +1010,7 @@ magnetic force can it feel?
 
 A 200-turn flat coil of wire 30.0 cm in diameter acts as an antenna for FM radio
 at a frequency of 100 MHz. The magnetic field of the incoming electromagnetic
-wave is perpendicular to the coil and has a maximum strength of $$ 1.00 \times
-10^{-12} \text{T} $$ .
+wave is perpendicular to the coil and has a maximum strength of $$ 1.00 \times 10^{-12} \text{T} $$ .
 (a) What power is incident on the coil? (b) What average emf is induced in the
 coil over one-fourth of a cycle? (c) If the radio receiver has an inductance of
 $$ 2.50 \mu \text{H} $$ , what capacitance must it have to resonate at 100 MHz?
@@ -1123,8 +1117,7 @@ Final Answer
 **Integrated Concepts**
 
 If electric and magnetic field strengths vary sinusoidally in time, being zero
-at $$t=0 $$ , then $$E={E}_{0} \sin 2\pi \text{ft} $$ and $$B={B}_{0} \sin 2\pi
-\text{ft} $$ . Let $$f=1.00 \text{GHz} $$ here. (a) When are the field strengths
+at $$t=0 $$ , then $$E={E}_{0} \sin 2\pi \text{ft} $$ and $$B={B}_{0} \sin 2\pi \text{ft} $$ . Let $$f=1.00 \text{GHz} $$ here. (a) When are the field strengths
 first zero? (b) When do they reach their most negative value? (c) How much time
 is needed for them to complete one cycle?
 
@@ -1211,8 +1204,7 @@ Final Answer
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-The peak magnetic field strength in a residential microwave oven is $$ 9.20
-\times 10^{-5} \text{T} $$ .
+The peak magnetic field strength in a residential microwave oven is $$ 9.20 \times 10^{-5} \text{T} $$ .
 (a) What is the intensity of the microwave? (b) What is unreasonable about this
 result? (c) What is wrong about the premise?
 
@@ -1555,4 +1547,4 @@ intensity
 : the power of an electric or magnetic field per unit area, for example, Watts
 per square meter
 
-</div>
+</div>

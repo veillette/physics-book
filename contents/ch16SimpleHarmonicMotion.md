@@ -176,9 +176,7 @@ Hence, $$a\left(t\right) $$ is directly proportional to and in the opposite
 direction to $$x\left(t\right) $$.
 
 [[Figure 4]](#Figure4) shows the simple harmonic motion of an object on a spring and
-presents graphs of $$x\left(t\right),v\left(t\right), $$ and $$a\left(t\right)
-
-$$
+presents graphs of $$x\left(t\right),v\left(t\right), $$ and $$a\left(t\right) $$
 versus time.
 
 ![In the figure at the top there are ten springboards with objects of different mass values tied to them. This makes some springs highly compressed some as loosely stretched and some at equilibrium, which are shown as red spherical shaped. Alongside the figure there is a scale given for different amplitude values as x equal to positive X, zero and negative X. the upward and downward pointing arrows are shown with a few springboards. In the second figure there are three graphs. The first graph shows distance covered in form of a sine wave starting from a point x units on positive y-axis. The height of the wave above x-axis is marked as amplitude. The gap between two consecutive crests is marked as T. Below first graph there is another graph showing velocity in form of a sine wave starting from the origin downward. In the third graph below the second one, acceleration is shown in the form of sine wave starting from x units on the negative y-axis upward. In the last figure three position of a spring are shown. The first position shows the unstretched length of a spring pendulum. A hand is holding the bob of the pendulum. In the second position the equilibrium position of the spring and bob is shown. This position is lower the first one. In the third case the up and down oscillations of the spring pendulum are shown. The bob is moving x units in upward and downward directions alternatively.](../resources/Figure_16_03_04.jpg "Graphs of \( x(t),v(t) \) and\( a(t) \) versus \( t \) for the motion of an object on a spring. The net force on the object can be described by Hooke&#x2019;s law, and so the object undergoes simple harmonic motion. Note that the initial position has the vertical displacement at its maximum value \( X \) ; \( v \) is initially zero and then negative as the object moves down; and the initial acceleration is negative, back toward the equilibrium position and becomes zero at that point.")
@@ -237,18 +235,12 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
   described only by Hooke’s law. Such a system is also called a simple harmonic
   oscillator.
 * Maximum displacement is the amplitude $$X $$. The period $$T $$ and frequency
-  $$f $$ of a simple harmonic oscillator are given by $$T=2\pi
-  \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m
-  $$ is the mass of the system.
-
-* Displacement in simple harmonic motion as a function of time is given by
-  $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$
-* The velocity is given by $$v\left(t\right)=-{v}_{\text{max}}\sin\frac{2\pi
-  t}{T} $$ , where $${v}_{\text{max}}=\sqrt{k/m}X $$ .
+  $$f $$ of a simple harmonic oscillator are given by $$T=2\pi \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m
+  $$ is the mass of the system. * Displacement in simple harmonic motion as a function of time is given by $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$
+* The velocity is given by $$v\left(t\right)=-{v}_{\text{max}}\sin\frac{2\pi t}{T} $$ , where $${v}_{\text{max}}=\sqrt{k/m}X $$ .
 
 * The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos
   \frac{2\pi t}{T}.
-$$
 
 ### Conceptual Questions
 
@@ -756,4 +748,4 @@ simple harmonic oscillator
 spring, with the other end of the spring being connected to a rigid support such
 as a wall
 
-</div>
+</div>

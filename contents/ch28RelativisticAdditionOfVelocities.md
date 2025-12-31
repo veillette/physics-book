@@ -46,11 +46,9 @@ Classical Velocity Addition
 </div>
 </div>
 
-Thus, when the girl throws the snowball forward, $$u=1.0 \text{m/s}+1.5
-\text{m/s}=2.5 \text{m/s} $$ . It makes good intuitive sense that the snowball
+Thus, when the girl throws the snowball forward, $$u=1.0 \text{m/s}+1.5 \text{m/s}=2.5 \text{m/s} $$ . It makes good intuitive sense that the snowball
 will head towards the Earth-bound observer faster, because it is thrown forward
-from a moving vehicle. When the girl throws the snowball backward, $$u=1.0
-\text{m/s}+\left(-1.5 \text{m/s}\right)=-0.5 \text{m/s} $$ . The minus sign
+from a moving vehicle. When the girl throws the snowball backward, $$u=1.0 \text{m/s}+\left(-1.5 \text{m/s}\right)=-0.5 \text{m/s} $$ . The minus sign
 means the snowball moves away from the Earth-bound observer.
 
 ### Relativistic Velocity Addition
@@ -108,8 +106,7 @@ light approaches the Earth using relativistic velocity addition.
 
 1. Identify the knowns. $$v= 0.500c $$ ; $$u^{\prime}=c $$
 2. Identify the unknown. $$u $$
-3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime
-   }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
+3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
    $$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
@@ -153,8 +150,7 @@ relativistic velocity addition instead of simple velocity addition.
 
 1. Identify the knowns. $$v=0.500c $$ ; $$u^{\prime}= 0.750c $$
 2. Identify the unknown. $$u $$
-3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime
-   }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
+3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
    $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
@@ -167,8 +163,7 @@ relativistic velocity addition instead of simple velocity addition.
 
 1. Identify the knowns. $$\text{v}=0.500c $$ ; $$u^{\prime}=-0.750c $$
 2. Identify the unknown. $$u $$
-3. Choose the appropriate equation. $$\text{u}=\frac{\mathrm{v+u}\prime
-   }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$
+3. Choose the appropriate equation. $$\text{u}=\frac{\mathrm{v+u}\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
    $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
@@ -185,9 +180,7 @@ and away in part (b), as expected. But relativistic velocities do not add as
 simply as they do classically. In part (a), the canister does approach the Earth
 faster, but not at the simple sum of $$1.250c $$ . The total velocity is less
 than you would get classically. And in part (b), the canister moves away from
-the Earth at a velocity of $$-0.400c $$ , which is **faster** than the $$-0.250c
-
-$$
+the Earth at a velocity of $$-0.400c $$ , which is **faster** than the $$-0.250c $$
 you would expect classically. The velocities are not even symmetric. In
 part (a) the canister moves $$0.409c $$ faster than the ship relative to the
 Earth, whereas in part (b) it moves $$0.900c $$ slower than the ship.
@@ -251,7 +244,6 @@ the classical Doppler shift.
 2. Identify the unknown. $${\lambda }_{\text{obs}} $$
 3. Choose the appropriate equation. $${\lambda }_{\text{obs}}=\lambda_
    {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}
-$$
 
 4. Plug the knowns into the equation.
    <div class="equation" >
@@ -981,9 +973,7 @@ classical velocity addition
 : the method of adding velocities when $$v \ll c $$ ; velocities add like
 regular numbers in one-dimensional motion:
 $$u=\mathrm{v+u}\prime $$ , where $$v $$ is the velocity between two observers,
-$$u $$ is the velocity of an object relative to one observer, and $$u^{\prime}
-
-$$
+$$u $$ is the velocity of an object relative to one observer, and $$u^{\prime} $$
 is the velocity relative to the other observer
 
 relativistic velocity addition
@@ -1007,5 +997,4 @@ described by the equation
    $${\lambda }_{s} $$ is the source wavelength, and
    $$u $$ is the velocity of the source to the observer
 
-</div>
-$$
+</div>

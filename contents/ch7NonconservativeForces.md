@@ -84,9 +84,8 @@ and solving for $$ W_{\text{nc}} $$ gives
  $$ W_{\text{nc}}=\Delta \KE+\Delta \PE . $$
 </div>
 
-This equation means that the total mechanical energy $$ \left(\KE + \PE \right)
+This equation means that the total mechanical energy $$ \left(\KE + \PE \right) $$
 
-$$
 changes by exactly the amount of work done by nonconservative forces.
 In [Figure 3](#Figure3), this is the work done by the person minus the work done by
 friction. So even if energy is not conserved for the system of interest ( such
@@ -111,15 +110,12 @@ friction, and the mower has a constant energy.
 
 ### Applying Energy Conservation with Nonconservative Forces
 
-When no change in potential energy occurs, applying $$ \KE_
-{\text{i}}+\PE_{\text{i}}+ W_{\text{nc}}=\KE_
-{\text{f}}+\PE_{\text{f}} $$ amounts to applying the work-energy theorem by
+When no change in potential energy occurs, applying $$ \KE_ {\text{i}}+\PE_{\text{i}}+ W_{\text{nc}}=\KE_ {\text{f}}+\PE_{\text{f}} $$ amounts to applying the work-energy theorem by
 setting the change in kinetic energy to be equal to the net work done on the
 system, which in the most general case includes both conservative and
 nonconservative forces. But when seeking instead to find a change in total
 mechanical energy in situations that involve changes in both potential and
-kinetic energy, the previous equation $$ \KE_{\text{i}}+\PE_
-{\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$ says that you can
+kinetic energy, the previous equation $$ \KE_{\text{i}}+\PE_ {\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$ says that you can
 start by finding the change in mechanical energy that would have resulted from
 just the conservative forces, including the potential energy changes, and add to
 it the work done, with the proper sign, by any nonconservative forces involved.
@@ -139,8 +135,7 @@ Friction stops the player by converting his kinetic energy into other forms,
 including thermal energy. In terms of the work-energy theorem, the work done by
 friction, which is negative, is added to the initial kinetic energy to reduce it
 to zero. The work done by friction is negative, because $$ \vb{f} $$ is in the
-opposite direction of the motion (that is, $$ \theta =180^\circ $$, and so $$
-\cos{\theta} =-1 $$). Thus $$ W_{\text{nc}}=-F d $$. The equation simplifies to
+opposite direction of the motion (that is, $$ \theta =180^\circ $$, and so $$ \cos{\theta} =-1 $$). Thus $$ W_{\text{nc}}=-F d $$. The equation simplifies to
 
 <div class="equation">
  $$ \frac{1}{2} m v_{i}^{2}-f d =0 $$
@@ -203,8 +198,7 @@ by the equation
 **Solution**
 
 The work done by friction is again $$ W_{\text{nc}}=-f d $$; initially the
-potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_
-{i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
+potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_ {i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
 $$ for the kinetic energy and $$ \PE\_{f}=mgh = m g d \sin{\theta} $$ for the
 potential energy.
 
@@ -237,9 +231,8 @@ vectors, which no longer cancel each other because they point in different
 directions, and friction, to find the net force. You could then use the net
 force and the net work to find the distance $$ d $$ that reduces the kinetic
 energy to zero. By applying conservation of energy and using the potential
-energy instead, we need only consider the gravitational potential energy $$ mgh
+energy instead, we need only consider the gravitational potential energy $$ mgh $$
 
-$$
 , without combining and resolving force vectors. This simplifies the solution
 considerably.
 
@@ -305,8 +298,7 @@ The Ramp
 * Friction is an example of a nonconservative force that changes mechanical
   energy into thermal energy.
 * Work $$ W_{\text{nc}} $$ done by a nonconservative force changes the
-  mechanical energy of a system. In equation form, $$ W_
-  {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$ \KE_\text{i}+\PE_
+  mechanical energy of a system. In equation form, $$ W_ {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$ \KE_\text{i}+\PE_
   \text{i}+ W_{\text{nc}}=\KE_
   {\text{f}}+\PE_{\text{f}} $$.
 * When both conservative and nonconservative forces act, energy conservation can
@@ -504,4 +496,4 @@ friction
 : the force between surfaces that opposes one sliding on the other; friction
 changes mechanical energy into thermal energy
 
-</div>
+</div>

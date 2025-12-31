@@ -121,8 +121,7 @@ $$A=80.0 \text{m}×500 \text{m}= 4.00 \times 10^{4} {\text{m}}^{2} $$ , so that
 </div>
 **Discussion**
 
-Although this force seems large, it is small compared with the $$ 1.96 \times
-10^{13} \text{N} $$ weight of the water in the reservoir—in fact, it is only
+Although this force seems large, it is small compared with the $$ 1.96 \times 10^{13} \text{N} $$ weight of the water in the reservoir—in fact, it is only
 $$0.0800\% $$ of the weight. Note that the pressure found in part (a) is
 completely independent of the width and length of the lake—it depends only on
 its average depth at the dam. Thus the force depends only on the water’s average
@@ -147,8 +146,7 @@ by the _standard atmospheric pressure_ $${P}_{\text{atm}} $$ , measured to be
 </div>
 
 This relationship means that, on average, at sea level, a column of air above
-$$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times
-10^{5} \text{N} $$ , equivalent to $$1 \text{atm} $$ .
+$$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times 10^{5} \text{N} $$ , equivalent to $$1 \text{atm} $$ .
 (See [[Figure 3]](#Figure3).)
 
 ![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](../resources/Figure_11_04_03.jpg 'Atmospheric pressure at sea level averages ( 1.01 \\times 10^5 \\text{Pa} ) (equivalent to 1 atm), since the column of air over this ( 1 \\text{m}^2 ), extending to the top of the atmosphere, weighs ( 1.01 \\times 10^5 \\text{N} ) .')
@@ -181,8 +179,7 @@ Entering known values into the expression for $$\overline{\rho } $$ yields
 
 This result is the average density of air between the Earth’s surface and the
 top of the Earth’s atmosphere, which essentially ends at 120 km. The density of
-air at sea level is given in [[Table 1]](../contents/ch11Density#Table1) as $$ 1.29
-{\text{kg/m}}^{3} $$ —about 15 times its average value. Because air is so
+air at sea level is given in [[Table 1]](../contents/ch11Density#Table1) as $$ 1.29 {\text{kg/m}}^{3} $$ —about 15 times its average value. Because air is so
 compressible, its density has its highest value near the Earth’s surface and
 declines rapidly with altitude.
 
@@ -854,4 +851,4 @@ The force on a dam increases with the **square of the water depth** because both
 pressure
 : the weight of the fluid divided by the area supporting it
 
-</div>
+</div>

@@ -27,8 +27,7 @@ done **by** the system. In equation form, the first law of thermodynamics is
  $$\Delta U=Q-W\text{.} $$
 </div>
 
-Here $$\Delta U $$ is the *change in internal energy*  $$U $$ of the system. $$Q
-$$ is the **net heat transferred into the system**—that is, $$Q $$ is the sum of
+Here $$\Delta U $$ is the *change in internal energy*  $$U $$ of the system. $$Q $$ is the **net heat transferred into the system**—that is, $$Q $$ is the sum of
 all heat transfer into and out of the system. $$W $$ is the **net work done by
 the system**—that is, $$W $$ is the sum of all work done on or by the system. We
 use the following sign conventions: if $$Q $$ is positive, then there is a net
@@ -88,8 +87,7 @@ that given by the first law of thermodynamics:
  $$\Delta U=Q-W\text{.} $$
 </div>
 
-Many detailed experiments have verified that $$\Delta U=Q-W $$ , where $$\Delta
-U $$ is the change in total kinetic and potential energy of all atoms and
+Many detailed experiments have verified that $$\Delta U=Q-W $$ , where $$\Delta U $$ is the change in total kinetic and potential energy of all atoms and
 molecules in a system. It has also been determined experimentally that the
 internal energy $$U $$ of a system depends only on the state of the system
 and \*_not how it reached that state_.\* More specifically, $$U $$ is found to be
@@ -134,8 +132,7 @@ the system? (See [[Figure 3]](#Figure3)).
 **Strategy**
 
 In part (a), we must first find the net heat transfer and net work done from the
-given information. Then the first law of thermodynamics $$\left(\Delta
-U=Q-W\right) $$ can be used to find the change in internal energy. In part (b),
+given information. Then the first law of thermodynamics $$\left(\Delta U=Q-W\right) $$ can be used to find the change in internal energy. In part (b),
 the net heat transfer and work done are given, so the equation can be used
 directly.
 
@@ -179,8 +176,7 @@ change in internal energy is the same.
 
 **Solution for (b)**
 
-Here the net heat transfer and total work are given directly to be $$Q= -150.00
-\text{J} $$ and $$W= -159.00 \text{J} $$ , so that
+Here the net heat transfer and total work are given directly to be $$Q= -150.00 \text{J} $$ and $$W= -159.00 \text{J} $$ , so that
 
 <div class="equation" >
  $$\Delta U=Q-W= -150.00 \text{J}-\left(-159.00 \text{J}\right)=9.00 \text{J} \text{.}  $$
@@ -305,8 +301,7 @@ summary of terms relevant to the first law of thermodynamics.
 
 ### Section Summary
 
-- The first law of thermodynamics is given as $$\Delta U=Q-W $$ , where $$\Delta
-  U $$ is the change in internal energy of a system, $$Q $$ is the net heat
+- The first law of thermodynamics is given as $$\Delta U=Q-W $$ , where $$\Delta U $$ is the change in internal energy of a system, $$Q $$ is the net heat
   transfer (the sum of all heat transfer into and out of the system), and $$W $$
   is the net work done (the sum of all work done on or by the system).
 - Both $$Q $$ and $$W $$ are energy in transit; only $$\Delta U $$
@@ -947,4 +942,4 @@ molecules
 human metabolism
 : conversion of food into heat transfer, work, and stored fat
 
-</div>
+</div>

@@ -36,9 +36,7 @@ same as for all waves:
  $${v}_{\text{w}}=f\lambda , $$
 </div>
 
-where $${v}_{w} $$ is the speed of sound, $$f $$ is its frequency, and $$\lambda
-
-$$
+where $${v}_{w} $$ is the speed of sound, $$f $$ is its frequency, and $$\lambda $$
 is its wavelength. The wavelength of a sound is the distance between adjacent
 identical parts of a wave—for example, between adjacent compressions as
 illustrated in [[Figure 2]](#Figure2). The frequency is the same as that of the
@@ -151,8 +149,7 @@ speed of particles in the gas, $${v}_{\text{rms}} $$ , and that
  $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}, $$
 </div>
 
-where $$k_{B} $$ is the Boltzmann constant ( $$1.38 \times 10^{\text{−23}}
-\text{J/K} $$ )
+where $$k_{B} $$ is the Boltzmann constant ( $$1.38 \times 10^{\text{−23}} \text{J/K} $$ )
 and $$m $$ is the mass of each (identical) particle in the gas. So, it is
 reasonable that the speed of sound in air and other gases should depend on the
 square root of temperature. While not negligible, this is not a strong
@@ -781,5 +778,4 @@ This problem illustrates an important limitation of echolocation systems that de
 pitch
 : the perception of the frequency of a sound
 
-</div>
-$$
+</div>

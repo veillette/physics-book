@@ -98,9 +98,7 @@ $$p=\gamma mu $$.
 
 Note that Planck’s constant $$h $$ is a very small number. So for an infrared
 frequency of $$ 10^{14} \text{Hz} $$ being emitted by a blackbody, for example,
-the difference between energy levels is only $$\Delta E= hf=\left( 6.63 \times
-10^{-34} \text{J·s}\right)\left( 10^{14} \text{Hz}\right)= 6.63 \times 10^{-20}
-\text{J} \text{,} $$ or about 0.4 eV. This 0.4 eV of energy is significant
+the difference between energy levels is only $$\Delta E= hf=\left( 6.63 \times 10^{-34} \text{J·s}\right)\left( 10^{14} \text{Hz}\right)= 6.63 \times 10^{-20} \text{J} \text{,} $$ or about 0.4 eV. This 0.4 eV of energy is significant
 compared with typical atomic energies, which are on the order of an electron
 volt, or thermal energies, which are typically fractions of an electron volt.
 But on a macroscopic or classical scale, energies are typically on the order of
@@ -159,13 +157,10 @@ How did scientists figure out the structure of atoms without looking at them? Tr
   radiation, which is the emission of EM radiation by an object with an
   emissivity of 1.
 - Planck recognized that the energy levels of the emitting atoms and molecules
-  were quantized, with only the allowed values of $$E=\left(n+\frac{1}{2}\right)
-  hf\text{,} $$ where $$n $$ is any non-negative integer (0, 1, 2, 3, …).
-- $$h $$ is Planck’s constant, whose value is $$h= 6.626 \times 10^{-34}
-  \text{J}\cdot \text{s} \text{.} $$
+  were quantized, with only the allowed values of $$E=\left(n+\frac{1}{2}\right) hf\text{,} $$ where $$n $$ is any non-negative integer (0, 1, 2, 3, …).
+- $$h $$ is Planck’s constant, whose value is $$h= 6.626 \times 10^{-34} \text{J}\cdot \text{s} \text{.} $$
 - Thus, the oscillatory absorption and emission energies of atoms and molecules
-  in a blackbody could increase or decrease only in steps of size $$\Delta E= hf
-  $$ where $$f $$ is the frequency of the oscillatory nature of the absorption
+  in a blackbody could increase or decrease only in steps of size $$\Delta E= hf $$ where $$f $$ is the frequency of the oscillatory nature of the absorption
   and emission of EM radiation.
 - Another indication of energy levels being quantized in atoms and molecules
   comes from the lines in atomic spectra, which are the EM emissions of
@@ -358,4 +353,4 @@ Planck’s constant
 atomic spectra
 : the electromagnetic emission from atoms and molecules
 
-</div>
+</div>

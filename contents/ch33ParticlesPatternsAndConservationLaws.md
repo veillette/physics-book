@@ -101,8 +101,7 @@ hints related to an underlying substructure emerge from an examination of these
 particle characteristics. Note that the carrier particles are called **gauge
 bosons**. First mentioned
 in [Patterns in Spectra Reveal More Quantization](../contents/ch30PatternsInSpectraRevealMoreQuantization), a **boson** is a
-particle with zero or an integer value of intrinsic spin (such as $$s=0, 1, 2,
-... $$ ), whereas a **fermion** is a particle with a half-integer value of
+particle with zero or an integer value of intrinsic spin (such as $$s=0, 1, 2, ... $$ ), whereas a **fermion** is a particle with a half-integer value of
 intrinsic spin ( $$s=1/2, 3/2, \text{...} $$ ). Fermions obey the Pauli
 exclusion principle whereas bosons do not. All the known and conjectured carrier
 particles are bosons.
@@ -585,17 +584,14 @@ particles are bosons.
 All known leptons are listed in the table given above. There are only six
 leptons (and their antiparticles), and they seem to be fundamental in that they
 have no apparent underlying structure. Leptons have no discernible size other
-than their wavelength, so that we know they are pointlike down to about $$
-10^{-18} \text{m} $$ . The leptons fall into three families, implying three
-conservation laws for three quantum numbers. One of these was known from $$\beta
+than their wavelength, so that we know they are pointlike down to about $$ 10^{-18} \text{m} $$ . The leptons fall into three families, implying three
+conservation laws for three quantum numbers. One of these was known from $$\beta $$
 
-$$
 decay, where the existence of the electron’s neutrino implied that a new
 quantum number, called
 the <strong class="term" >electron family
 number </strong> $${L}_{e} $$ is conserved. Thus, in $$\beta $$ decay, an
-antielectron’s neutrino $${\stackrel{-}{\nu}}_{e} $$ must be created with $${L}_
-{e}=-1 $$ when an electron with $${L}_{e}=+1 $$ is created, so that the total
+antielectron’s neutrino $${\stackrel{-}{\nu}}_{e} $$ must be created with $${L}_ {e}=-1 $$ when an electron with $${L}_{e}=+1 $$ is created, so that the total
 remains 0 as it was before decay.
 
 Once the muon was discovered in cosmic rays, its decay mode was found to be
@@ -662,8 +658,7 @@ has a longer lifetime of 882 s. The weak force causes this decay, as it does all
 $$\beta $$ decay. An important clue that the weak force is responsible for
 $$\beta $$ decay is the creation of leptons, such as $${e}^{-} $$ and
 $${\stackrel{-}{v}}_{e} $$ . None would be created if the strong force was
-responsible, just as no leptons are created in the decay of $${ }^{8}\text{Be}
-$$ . The systematics of particle lifetimes is a little simpler than nuclear
+responsible, just as no leptons are created in the decay of $${ }^{8}\text{Be} $$ . The systematics of particle lifetimes is a little simpler than nuclear
 lifetimes when hundreds of particles are examined (not just the ones in the
 table given above). Particles that decay via the weak force have lifetimes
 mostly in the range of $$ 10^{-16} $$ to $$ 10^{-12} $$ s, whereas those that
@@ -722,8 +717,7 @@ the particles are zero, and so lepton numbers are conserved.
 **Discussion for (a)**
 
 The $${\text{Ξ}}^{-} $$ decay is caused by the weak interaction, since
-strangeness changes, and it is consistent with the relatively long $$ 1.64
-\times 10^{-10} \text{-s} $$ lifetime of the $${\text{Ξ}}^{-} $$.
+strangeness changes, and it is consistent with the relatively long $$ 1.64 \times 10^{-10} \text{-s} $$ lifetime of the $${\text{Ξ}}^{-} $$.
 
 **Solution for (b)**
 
@@ -734,8 +728,7 @@ is conserved, since all particles have $$B=0 $$
 <em>. </em> Mass-energy is conserved in the sense that the $${K}^{+} $$ has a
 greater mass than the products, so that the decay can be spontaneous. Lepton
 family numbers are conserved at 0 for the electron and tau family for all
-particles. The muon family number is $${L}_{\mu }=0 $$ before and $${L}_{\mu
-}=-1+1=0 $$ after. Strangeness changes from +1 before to 0 + 0 after, for an
+particles. The muon family number is $${L}_{\mu }=0 $$ before and $${L}_{\mu }=-1+1=0 $$ after. Strangeness changes from +1 before to 0 + 0 after, for an
 allowed change of 1. The decay is allowed by all these measures.
 
 **Discussion for (b)**
@@ -1116,8 +1109,7 @@ The fact that the lifetime-induced uncertainty is negligible compared to the neu
 {: class="footnote-refs-title"}
 
 * {: class="footnote-ref" #footnote1} [1](#footnote-ref1){: class="
-  footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$\mp
-  $$ or $$± $$ symbols are the values for antiparticles.</span>
+  footnote-ref-link"} <span class="footnote-ref-content">The lower of the $$\mp $$ or $$± $$ symbols are the values for antiparticles.</span>
 * {: class="footnote-ref" #footnote2} [2](#footnote-ref2){: class="
   footnote-ref-link"} <span class="footnote-ref-content">Lifetimes are
   traditionally given as $${t}_{1/2}/ 0.693 $$
@@ -1188,5 +1180,4 @@ tau family number
 : the number $$±1 $$ that is assigned to all members of the tau family, or the
 number 0 that is assigned to all particles not in the tau family
 
-</div>
-$$
+</div>

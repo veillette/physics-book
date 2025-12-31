@@ -227,9 +227,8 @@ We now need to convert this to units of mm Hg:
 </div>
 **Strategy for (b)**
 
-Here we will use the fact that the water pressure varies linearly with depth $$h
+Here we will use the fact that the water pressure varies linearly with depth $$h $$
 
-$$
 below the surface.
 
 **Solution for (b)**
@@ -315,8 +314,7 @@ initial force, and the small areas to which this force is applied, such as in
 the joints. For example, when a person lifts an object improperly, a force of
 5000 N may be created between vertebrae in the spine, and this may be applied to
 an area as small as $$10 {\text{cm}}^{2} $$ . The pressure created is
-$$P=F/A=\left(5000 \text{N}\right)/\left(10^{-3} {\text{m}}^{2}\right)= 5.0
-\times 10^{6} {\text{N/m}}^{2} $$ or about 50 atm! This pressure can damage both
+$$P=F/A=\left(5000 \text{N}\right)/\left(10^{-3} {\text{m}}^{2}\right)= 5.0 \times 10^{6} {\text{N/m}}^{2} $$ or about 50 atm! This pressure can damage both
 the spinal discs (the cartilage between vertebrae), as well as the bony
 vertebrae themselves. Even under normal circumstances, forces between vertebrae
 in the spine are large enough to create pressures of several atmospheres. Most
@@ -1086,7 +1084,6 @@ You are pumping up a bicycle tire with a hand pump, the piston of which has a 2.
 
 (a) What force in newtons must you exert to create a pressure of $$ 6.90 \times
 10^{5} \text{Pa}
-$$
 
 (b) What is unreasonable about this (a) result? (c) Which premises are
 unreasonable or inconsistent?
@@ -1240,4 +1237,4 @@ micturition reflex
 systolic pressure
 : maximum arterial blood pressure; indicator for the blood flow
 
-</div>
+</div>

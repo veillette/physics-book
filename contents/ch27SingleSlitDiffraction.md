@@ -65,8 +65,7 @@ Thus, to obtain **destructive interference for a single slit**{: class="term"},
  $$D\sin \theta =m \lambda, \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3 \text{,} \dots  \text{(destructive),} $$
 </div>
 
-where $$D $$ is the slit width, $$\lambda $$ is the light’s wavelength, $$\theta
-$$ is the angle relative to the original direction of the light, and $$m $$ is
+where $$D $$ is the slit width, $$\lambda $$ is the light’s wavelength, $$\theta $$ is the angle relative to the original direction of the light, and $$m $$ is
 the order of the minimum. [[Figure 3]](#Figure3) shows a graph of intensity for
 single slit interference, and it is apparent that the maxima on either side of
 the central maximum are much less intense and not as wide. This is consistent
@@ -90,8 +89,7 @@ again to find the angle for the first minimum $${\theta }_{1} $$.
 
 **Solution for (a)**
 
-We are given that $$\lambda =550 \text{nm} $$ , $$m=2 $$ , and $${\theta }_
-{2}=45.0 ^\circ $$ . Solving the equation $$D \sin \theta =m \lambda $$ for
+We are given that $$\lambda =550 \text{nm} $$ , $$m=2 $$ , and $${\theta }_ {2}=45.0 ^\circ $$ . Solving the equation $$D \sin \theta =m \lambda $$ for
 $$D $$ and substituting known values gives
 
 <div class="equation" >
@@ -120,8 +118,7 @@ with an object comparable in size to its wavelength in order to exhibit
 significant wave effects such as this single slit diffraction pattern. We also
 see that the central maximum extends $$20.7 ^\circ $$ on either side of the
 original beam, for a width of about $$41 ^\circ $$ . The angle between the
-first and second minima is only about $$24 ^\circ \left(45.0
-\text{º}-20.7º\right) $$ . Thus the second maximum is only about half as wide as
+first and second minima is only about $$24 ^\circ \left(45.0 \text{º}-20.7º\right) $$ . Thus the second maximum is only about half as wide as
 the central maximum.
 
 </div>
@@ -130,9 +127,7 @@ the central maximum.
 
 - A single slit produces an interference pattern characterized by a broad
   central maximum with narrower and dimmer maxima to the sides.
-- There is destructive interference for a single slit when $$D \sin \theta
-  =m \lambda, \left( \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3
-  \text{,} \dots \right) $$ , where $$D $$ is the slit width, $$\lambda $$ is
+- There is destructive interference for a single slit when $$D \sin \theta =m \lambda, \left( \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3 \text{,} \dots \right) $$ , where $$D $$ is the slit width, $$\lambda $$ is
   the light’s wavelength, $$\theta $$ is the angle relative to the original
   direction of the light, and $$m $$ is the order of the minimum. Note that
   there is no $$m=0 $$ minimum.
@@ -965,9 +960,8 @@ This problem beautifully illustrates why sound "bends around corners" while ligh
 {: class="glossary-title"}
 
 destructive interference for a single slit
-: occurs when $$D \sin \theta = m \lambda, \left( \text{ for } m=1 \text{,} -1 \text{,} 2
-\text{,} -2 \text{,} 3 \text{,} \dots \right) $$ , where $$D $$ is the slit
+: occurs when $$D \sin \theta = m \lambda, \left( \text{ for } m=1 \text{,} -1 \text{,} 2 \text{,} -2 \text{,} 3 \text{,} \dots \right) $$ , where $$D $$ is the slit
 width, $$\lambda $$ is the light’s wavelength, $$\theta $$ is the angle relative
 to the original direction of the light, and $$m $$ is the order of the minimum
 
-</div>
+</div>

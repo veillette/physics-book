@@ -28,8 +28,7 @@ $$\Delta t $$ .
 (As in previous chapters, initial time is often taken to be zero, in which case
 $$\Delta t=t $$ .)
 (See [[Figure 1]](#Figure1).) The SI unit for current is the **ampere** (A),
-named for the French physicist André-Marie Ampère (1775–1836). Since $$I=\Delta
-Q/\Delta t $$ , we see that an ampere is one coulomb per second:
+named for the French physicist André-Marie Ampère (1775–1836). Since $$I=\Delta Q/\Delta t $$ , we see that an ampere is one coulomb per second:
 
 <div class="equation" >
  $$1 \text{A}=1 \text{C/s} $$
@@ -153,8 +152,7 @@ If the 0.300-mA current through the calculator mentioned in the [[Example 1]](#E
 The current calculated in the previous example was defined for the flow of
 positive charge. For electrons, the magnitude is the same, but the sign is
 opposite, $${I}_{\text{electrons}}=-0.300 \times 10^{-3 }\text{C/s} $$. Since
-each electron $$\left({e}^{-}\right) $$ has a charge of $$ - 1.60 \times
-10^{-19} \text{C} $$ , we can convert the current in coulombs per second to
+each electron $$\left({e}^{-}\right) $$ has a charge of $$ - 1.60 \times 10^{-19} \text{C} $$ , we can convert the current in coulombs per second to
 electrons per second.
 
 **Solution**
@@ -268,8 +266,7 @@ out of this segment in time $$\Delta t $$ , the current is
  $$I=\frac{\Delta Q}{\Delta t}=\frac{qnAx}{\Delta t} . $$
 </div>
 
-Note that $$x/\Delta t $$ is the magnitude of the drift velocity, $${v}_
-{\text{d}} $$ , since the charges move an average distance $$x $$ in a time
+Note that $$x/\Delta t $$ is the magnitude of the drift velocity, $${v}_ {\text{d}} $$ , since the charges move an average distance $$x $$ in a time
 $$\Delta t $$. Rearranging terms gives
 
 <div class="equation" >
@@ -278,8 +275,7 @@ $$\Delta t $$. Rearranging terms gives
 
 where $$I $$ is the current through a wire of cross-sectional area $$A $$ made
 of a material with a free charge density $$n $$ . The carriers of the current
-each have charge $$q $$ and move with a drift velocity of magnitude $${v}_
-{\text{d}} $$.
+each have charge $$q $$ and move with a drift velocity of magnitude $${v}_ {\text{d}} $$.
 
 ![Charges are shown moving through a section of a conducting wire. The charges have a drift velocity v sub d along the length of the wire, shown by an arrow pointing to the right. The volume of a segment of the wire is equal to A times x, where x equals the product of the drift velocity, v sub d, and time t. A cross section of the wire is marked as A, and the length of the section is x.](../resources/Figure_20_01_06.jpg 'All the charges in the shaded volume of this wire move out in a time ( t ) , having a drift velocity of magnitude ( v_\\text{d}=x/t ) . See text for further discussion.')
 {: #Figure6}
@@ -307,13 +303,10 @@ Calculate the drift velocity of electrons in a 12-gauge copper wire (which has a
 **Strategy**
 
 We can calculate the drift velocity using the equation $$I= n q A v_d $$ . The
-current $$I=20.0 \text{A} $$ is given, and $$q= -1.60 \times 10^{-19} \text{C}
-
-$$
+current $$I=20.0 \text{A} $$ is given, and $$q= -1.60 \times 10^{-19} \text{C} $$
 is the charge of an electron. We can calculate the area of a cross-section of
 the wire using the formula $$A=\pi {r}^{2}, $$ where $$r $$ is one-half the
-given diameter, 2.053 mm. We are given the density of copper, $$8.80 \times
-10^{3} {\text{kg/m}}^{3}, $$ and the periodic table shows that the atomic mass
+given diameter, 2.053 mm. We are given the density of copper, $$8.80 \times 10^{3} {\text{kg/m}}^{3}, $$ and the periodic table shows that the atomic mass
 of copper is 63.54 g/mol. We can use these two quantities along with Avogadro’s
 number, $$6.02 \times 10^{23} \text{atoms/mol}, $$ to determine $$n, $$ the
 number of free electrons per cubic meter.
@@ -369,8 +362,7 @@ than the charges that carry it.
 
 - The direction of conventional current is taken as the direction in which
   positive charge moves.
-- The SI unit for current is the ampere (A), where $$1 \text{A}=1 \text{C/s}
-  \text{.} $$
+- The SI unit for current is the ampere (A), where $$1 \text{A}=1 \text{C/s} \text{.} $$
 - Current is the flow of free charges, such as electrons and ions.
 - Drift velocity $${v}_{\text{d}} $$ is the average speed at which these charges
   move.
@@ -1191,4 +1183,4 @@ drift velocity
 : the average velocity at which free charges flow in response to an electric
 field
 
-</div>
+</div>

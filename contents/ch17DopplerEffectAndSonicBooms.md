@@ -117,16 +117,14 @@ tracks as the train approaches and after it passes?
 
 **Strategy**
 
-To find the observed frequency in (a), $${f}_{\text{obs}}={f}_{s}\left(\frac{
-{v}_{w}}{ {v}_{w}±{v}_{s}}\right), $$ must be used because the source is moving.
+To find the observed frequency in (a), $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right), $$ must be used because the source is moving.
 The minus sign is used for the approaching train, and the plus sign for the
 receding train. In (b), there are two Doppler shifts—one for a moving source and
 the other for a moving observer.
 
 **Solution for (a)**
 
-(1) Enter known values into $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{
-{v}_{w} - {v}_{s}}\right). $$
+(1) Enter known values into $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w} - {v}_{s}}\right). $$
 
 <div class="equation" >
  $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}-{v}_{s}}\right)=\left(150 \text{Hz}\right)\left(\frac{340 \text{m/s}}{340 \text{m/s} - 35.0 \text{m/s}}\right) $$
@@ -159,8 +157,7 @@ motion toward and 14.0 Hz for motion away. The shifts are not symmetric.
 
 - It seems reasonable that the engineer would receive the same frequency as
   emitted by the horn, because the relative velocity between them is zero.
-- Relative to the medium (air), the speeds are $${v}_{s}={v}_{\text{obs}}=35.0
-  m/s. $$
+- Relative to the medium (air), the speeds are $${v}_{s}={v}_{\text{obs}}=35.0 m/s. $$
 - The first Doppler shift is for the moving observer; the second is for the
   moving source.
 
@@ -175,9 +172,7 @@ The quantity in the square brackets is the Doppler-shifted frequency due to a mo
 must use the plus sign for $${v}_{obs}; $$ however, because the horn is also
 moving in the direction away from the engineer, we also use the plus sign for
 $${v}_{s} $$ . But the train is carrying both the engineer and the horn at the
-same velocity, so $${v}_{s}={v}_{obs} $$ . As a result, everything but $${f}_{s}
-
-$$
+same velocity, so $${v}_{s}={v}_{obs} $$ . As a result, everything but $${f}_{s} $$
 cancels, yielding
 
 <div class="equation" >
@@ -202,11 +197,9 @@ applies not only to sound but to all other waves as well.
 
 Suppose a jet airplane is coming nearly straight at you, emitting a sound of
 frequency $${f}_{s} $$ . The greater the plane’s speed $${v}_{s} $$ , the
-greater the Doppler shift and the greater the value observed for $${f}_
-{\text{obs}} $$ . Now, as $${v}_{s} $$ approaches the speed of sound, $${f}_
+greater the Doppler shift and the greater the value observed for $${f}_ {\text{obs}} $$ . Now, as $${v}_{s} $$ approaches the speed of sound, $${f}_
 {\text{obs}} $$ approaches infinity, because the denominator in $${f}_
 {\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right)
-$$
 
 approaches zero. At the speed of sound, this result means that in front of the
 source, each successive wave is superimposed on the previous one because the
@@ -248,10 +241,9 @@ source moves faster than the wave propagation speed. Water waves spread out in
 circles from the point where created, and the bow wake is the familiar V-shaped
 wake trailing the source. A more exotic bow wake is created when a subatomic
 particle travels through a medium faster than the speed of light travels in that
-medium. In a vacuum, the maximum speed of light will be $$c= 3.00 \times 10^{8}
+medium. In a vacuum, the maximum speed of light will be $$c= 3.00 \times 10^{8} $$
 \text{m/s} $$ ; in the medium of water, the speed of light is closer to $$0.75c
 
-$$
 . If the particle creates light in its passage, that light spreads on a cone
 with an angle indicative of the speed of the particle, as illustrated
 in [[Figure 7]](#Figure7). Such a bow wake is called Cerenkov radiation and is
@@ -313,8 +305,7 @@ If I am driving and I hear Doppler shift in an ambulance siren, I would be able 
   faster than sound.
 * A sonic boom is a type of bow wake created when any wave source moves faster
   than the wave propagation speed.
-* For a stationary observer and a moving source, the observed frequency $${f}_
-  {\text{obs}} $$ is:
+* For a stationary observer and a moving source, the observed frequency $${f}_ {\text{obs}} $$ is:
 
   <div class="equation" >
    $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right), $$
@@ -776,5 +767,4 @@ bow wake
 : V-shaped disturbance created when the wave source moves faster than the wave
 propagation speed
 
-</div>
-$$
+</div>

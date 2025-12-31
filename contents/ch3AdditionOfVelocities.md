@@ -53,8 +53,7 @@ in front of the goal.
 In two-dimensional motion, either graphical or analytical techniques can be used
 to add velocities. We will concentrate on analytical techniques. The following
 equations give the relationships between the magnitude and direction of
-velocity ( $$ v $$ and $$ \theta $$ ) and its components ( $$ v_{x} $$ and $$ v_
-{y} $$ ) along the **x**- and **y**-axes of an appropriately chosen coordinate
+velocity ( $$ v $$ and $$ \theta $$ ) and its components ( $$ v_{x} $$ and $$ v_ {y} $$ ) along the **x**- and **y**-axes of an appropriately chosen coordinate
 system:
 
 <div class="equation">
@@ -97,8 +96,7 @@ Adding Velocities: A Boat on a River
 
 Refer to [Figure 4](#Figure4), which shows a boat trying to go straight across the
 river. Let us calculate the magnitude and direction of the boat’s velocity
-relative to an observer on the shore, $$ \vb{v}_
-{\text{tot}} $$. The velocity of the boat, $$ \vb{v}_{\text{boat}} $$, is 0.75
+relative to an observer on the shore, $$ \vb{v}_ {\text{tot}} $$. The velocity of the boat, $$ \vb{v}_{\text{boat}} $$, is 0.75
 m/s in the $$ y $$ -direction relative to the river and the velocity of the
 river, $$ \vb{v}\_{\text{river}} $$, is 1.20 m/s to the right.
 
@@ -108,8 +106,7 @@ We start by choosing a coordinate system with its $$ x $$ -axis parallel to the
 velocity of the river, as shown in [Figure 4](#Figure4). Because the boat is
 directed straight toward the other shore, its velocity relative to the water is
 parallel to the $$ y $$ -axis and perpendicular to the velocity of the river.
-Thus, we can add the two velocities by using the equations $$ v_
-{\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_
+Thus, we can add the two velocities by using the equations $$ v_ {\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_
 {y}/v\_{x}\right) $$ directly.
 
 **Solution**
@@ -179,15 +176,11 @@ In this problem, somewhat different from the previous example, we know the total
 velocity $$ \vb{v}_{\text{tot}} $$ and that it is the sum of two other
 velocities, $$ \vb{v}_{\text{w}} $$
 (the wind) and $$ \vb{v}_{\text{p}} $$
-(the plane relative to the air mass). The quantity $$ \vb{v}_
-{\text{p}} $$ is known, and we are asked to find $$ \vb{v}_
-{\text{w}} $$. None of the velocities are perpendicular, but it is possible to
-find their components along a common set of perpendicular axes. If we can find
-the components of $$ \vb{v}_{\text{w}} $$, then we can combine them to solve for
+(the plane relative to the air mass). The quantity $$ \vb{v}_ {\text{p}} $$ is known, and we are asked to find $$ \vb{v}_
+{\text{w}} $$. None of the velocities are perpendicular, but it is possible to find their components along a common set of perpendicular axes. If we can find the components of $$ \vb{v}_{\text{w}} $$, then we can combine them to solve for
 its magnitude and direction. As shown in [Figure 5](#Figure5), we choose a
 coordinate system with its
-*x*-axis due east and its *y*-axis due north (parallel to $$ \vb{v}\_
-{\text{p}} $$).
+*x*-axis due east and its *y*-axis due north (parallel to $$ \vb{v}\_ {\text{p}} $$).
 (You may wish to look back at the discussion of the addition of vectors using
 perpendicular components
 in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
@@ -195,11 +188,9 @@ in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndS
 
 **Solution**
 
-Because $$ \vb{v}_{\text{tot}} $$ is the vector sum of the $$ \vb{v}_{\text{w}}
-$$ and $$ \vb{v}_{\text{p}} $$, its *x*- and *y*-components are the sums of
+Because $$ \vb{v}_{\text{tot}} $$ is the vector sum of the $$ \vb{v}_{\text{w}} $$ and $$ \vb{v}_{\text{p}} $$, its *x*- and *y*-components are the sums of
 the *x*- and *y*-components of the wind and plane velocities. Note that the
-plane only has vertical component of velocity so $$ v_{px}=0 $$ and $$ v_{py}=v_
-{\text{p}} $$. That is,
+plane only has vertical component of velocity so $$ v_{px}=0 $$ and $$ v_{py}=v_ {\text{p}} $$. That is,
 
 <div class="equation">
  $$ v_{\text{tot}x}=v_{\text{w}x} $$
@@ -236,8 +227,7 @@ Here $$ v_{\text{tot}y}=v_{\text{tot}}\sin{110^\circ } $$; thus,
 This minus sign indicates motion south which is consistent with the diagram.
 
 Now that the perpendicular components of the wind velocity $$ v_{\text{w}x} $$
-and $$ v_{\text{w}y} $$ are known, we can find the magnitude and direction of $$
-\vb{v}_{\text{w}} $$. First, the magnitude is
+and $$ v_{\text{w}y} $$ are known, we can find the magnitude and direction of $$ \vb{v}_{\text{w}} $$. First, the magnitude is
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -409,8 +399,7 @@ true in moving cars. In part (b), an observer on the ground sees a much
 different motion for the coin. The plane is moving so fast horizontally to begin
 with that its final velocity is barely greater than the initial velocity. Once
 again, we see that in two dimensions, vectors do not add like ordinary
-numbers—the final velocity v in part (b) is **not** $$ \left(260 - 5.42\right)
-\ms $$; rather, it is $$ 260.06 \ms $$. The velocity’s magnitude had to be
+numbers—the final velocity v in part (b) is **not** $$ \left(260 - 5.42\right) \ms $$; rather, it is $$ 260.06 \ms $$. The velocity’s magnitude had to be
 calculated to five digits to see any difference from that of the airplane. The
 motions as seen by different observers (one in the plane and one on the ground)
 in this example are analogous to those discussed for the binoculars dropped from
@@ -2159,4 +2148,4 @@ velocity
 vector addition
 : the rules that apply to adding vectors together
 
-</div>
+</div>

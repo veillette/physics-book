@@ -32,8 +32,7 @@ line tangent to all of the wavelets.**
 
 [[Figure 2]](#Figure2) shows how Huygens’s principle is applied. A wavefront is
 the long edge that moves, for example, the crest or the trough. Each point on
-the wavefront emits a semicircular wave that moves at the propagation speed $$v
-$$ . These are drawn at a time $$t $$ later, so that they have moved a distance
+the wavefront emits a semicircular wave that moves at the propagation speed $$v $$ . These are drawn at a time $$t $$ later, so that they have moved a distance
 $$s=vt $$ . The new wavefront is a line tangent to the wavelets and is where we
 would expect the wave to be a time $$t $$ later. Huygens’s principle works for
 all types of waves, including water waves, sound waves, and light waves. We will
@@ -75,8 +74,7 @@ out when passing through such an opening (see [[Figure 5]](#Figure5)). What is
 the difference between the behavior of sound waves and light waves in this case?
 The answer is that light has very short wavelengths and acts like a ray. Sound
 has wavelengths on the order of the size of the door and bends around corners (
-for frequency of 1000 Hz, $$\lambda =c/f=\left(330 \text{m}/\text{s}\right)
-/\left(1000 {\text{s}}^{-1}\right)=0.33 \text{m} $$ , about three times smaller
+for frequency of 1000 Hz, $$\lambda =c/f=\left(330 \text{m}/\text{s}\right) /\left(1000 {\text{s}}^{-1}\right)=0.33 \text{m} $$ , about three times smaller
 than the width of the doorway).
 
 ![Part a of the figure is a view from above of a diagram of a wall in which is cut an open door. The wall extends from the bottom of the diagram to the top, and the door forms a gap in the wall. The door itself is opened to the left and is positioned about forty five degrees from the wall on which it pivots. From the left comes a bright light, which is labeled small lambda, and the door and wall create sharp shadows by blocking this light. The edges of these shadows are labeled straight-edge shadows. Some of the light passes through the open doorway. Part b of the figure shows a similar diagram. A line parallel to the wall approaches the wall from the left and is labeled plane wavefront of sound. There are five dots evenly spaced across the open doorway, labeled one through five. Semicircles appear to the right of these dots entering the room to the right of the wall. Bracketing all these semicircles is a line that has the form of closing square bracket with rounded corners. This line is labeled sound. There are five rays shown pointing from the bracketing line into the room to the right of the wall. Three of these rays point horizontally to the right, one ray points upward and to the right, and the last ray points downward and to the right. This last ray points to the ear of a person who we see from above and who is labeled listener. The diagram indicates that the listener hears sound around the corner of the door.](../resources/Figure_27_02_05.jpg '(a) Light passing through a doorway makes a sharp outline on the floor. Since light’s wavelength is very small compared with the size of the door, it acts like a ray. (b) Sound waves bend into all parts of the room, a wave effect, because their wavelength is similar to the size of the door.')
@@ -297,4 +295,4 @@ Huygens’s principle
 forward direction at the same speed as the wave itself. The new wavefront is a
 line tangent to all of the wavelets
 
-</div>
+</div>

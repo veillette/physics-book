@@ -33,12 +33,9 @@ Hold a balloon and fill it with air. Then, let the balloon go. In which directio
 [Figure 1](#Figure1) shows a rocket accelerating straight up. In part (a), the
 rocket has a mass $$ m $$ and a velocity $$ v $$ relative to Earth, and hence a
 momentum $$ mgh $$. In part (b), a time $$ \Delta t $$ has elapsed in which the
-rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_
-{\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left(
+rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_ {\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left(
 m-\Delta m\right)
-$$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the
-entire system (rocket plus expelled gas) has actually decreased because the
-force of gravity has acted for a time $$ \Delta t $$, producing a negative
+$$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the entire system (rocket plus expelled gas) has actually decreased because the force of gravity has acted for a time $$ \Delta t $$, producing a negative
 impulse $$ \Delta p=-mg \Delta t $$. (Remember that impulse is the net external
 force on a system multiplied by the time it acts, and it equals the change in
 momentum of the system.) So, the center of mass of the system is in free fall
@@ -80,11 +77,9 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 A rocket’s acceleration depends on three major factors, consistent with the
 equation for acceleration of a rocket. First, the greater the exhaust velocity
 of the gases relative to the rocket, $$ v_{\text{e}} $$, the greater the
-acceleration is. The practical limit for $$ v_{\text{e}} $$ is about $$
-2.5\times 10^{3} \ms $$ for conventional (non-nuclear) hot-gas propulsion
+acceleration is. The practical limit for $$ v_{\text{e}} $$ is about $$ 2.5\times 10^{3} \ms $$ for conventional (non-nuclear) hot-gas propulsion
 systems. The second factor is the rate at which mass is ejected from the rocket.
-This is the factor $$ \Delta m/\Delta t $$ in the equation. The quantity $$
-\left(\Delta m/\Delta t\right)v_{\text{e}} $$, with units of newtons, is called
+This is the factor $$ \Delta m/\Delta t $$ in the equation. The quantity $$ \left(\Delta m/\Delta t\right)v_{\text{e}} $$, with units of newtons, is called
 \"thrust.” The faster the rocket burns its fuel, the greater its thrust, and the
 greater its acceleration. The third factor is the mass $$ m $$ of the rocket.
 The smaller the mass is (all other factors being the same), the greater the
@@ -157,8 +152,7 @@ that $$ v $$ is actually the change in velocity, so the equation can be used for
 any segment of the flight. If we start from rest, the change in velocity equals
 the final velocity.) For example, let us calculate the mass ratio needed to
 escape Earth’s gravity starting from rest, given that the escape velocity from
-Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust velocity $$
-v\_{\text{e}}=2.5\times 10^{3} \ms $$.
+Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust velocity $$ v\_{\text{e}}=2.5\times 10^{3} \ms $$.
 
 <div class="equation">
  $$ \ln \frac{ m_{0}}{ m_{\text{r}}}=\frac{v}{ v_{\text{e}}}=\frac{11.2\times 10^{3} \ms }{2.5\times 10^{3} \ms }=4.48 $$
@@ -180,8 +174,7 @@ This result means that only $$ 1/88 $$ of the mass is left when the fuel is
 burnt, and $$ 87/88 $$ of the initial mass was fuel. Expressed as percentages,
 98.9% of the rocket is fuel, while payload, engines, fuel tanks, and other
 components make up only 1.10%. Taking air resistance and gravitational force
-into account, the mass $$ m_{\text{r}} $$ remaining can only be about $$ m_
-{0}/180 $$. It is difficult to build a rocket in which the fuel has a mass 180
+into account, the mass $$ m_{\text{r}} $$ remaining can only be about $$ m_ {0}/180 $$. It is difficult to build a rocket in which the fuel has a mass 180
 times everything else. The solution is multistage rockets. Each stage only needs
 to achieve part of the final velocity and is discarded after it burns its fuel.
 The result is that each successive stage can have smaller engines and more
@@ -221,8 +214,7 @@ html" width="600" height="450"  allowfullscreen></iframe>
 
 - Newton’s third law of motion states that to every action, there is an equal
   and opposite reaction.
-- Acceleration of a rocket is $$ a=\frac{ v\_
-  {\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
+- Acceleration of a rocket is $$ a=\frac{ v\_ {\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
 - A rocket’s acceleration depends on three main factors. They are
   1. The greater the exhaust velocity of the gases, the greater the
      acceleration.
@@ -522,8 +514,7 @@ This equation shows that rocket acceleration depends on three factors: (1) the e
 
 (a) Calculate the maximum rate at which a rocket can expel gases if its
 acceleration cannot exceed seven times that of gravity. The mass of the rocket
-just as it runs out of fuel is 75 000-kg, and its exhaust velocity is $$
-2.40\times 10^{3} \ms $$. Assume that the acceleration of gravity is the same as
+just as it runs out of fuel is 75 000-kg, and its exhaust velocity is $$ 2.40\times 10^{3} \ms $$. Assume that the acceleration of gravity is the same as
 on Earth's surface $$ \left( 9.80\mss \right) $$.
 (b) Why might it be necessary to limit the acceleration of a rocket?
 
@@ -619,8 +610,7 @@ This exhaust velocity is reasonable for compressed gas expelled from a fire exti
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 How much of a single-stage rocket that is 100 000 kg can be anything but fuel if the rocket is to have a final speed of
-$$ 8.00\text{km/s} $$, given that it expels gases at an exhaust velocity of $$ 2.20\times
-10^{3} \ms $$ ?
+$$ 8.00\text{km/s} $$, given that it expels gases at an exhaust velocity of $$ 2.20\times 10^{3} \ms $$ ?
 </div>
 <div class="solution" markdown="1">
 **Strategy**
@@ -910,4 +900,4 @@ Average force: $$ 22.5 \text{ MN} $$ (about 2290 tons-force)
 The depleted uranium projectile exerts 68% more force than the lead projectile due to its higher density and mass. Additionally, depleted uranium's higher hardness (stronger than steel) means it deforms less during impact, maintaining its shape better for penetration. Lead, being softer, would deform and flatten more, reducing penetration effectiveness. This is why depleted uranium is preferred for armor-piercing ammunition despite being more expensive. Students should construct problems varying the projectile dimensions, velocity, armor thickness, and materials to understand the factors affecting armor penetration. They might also consider the momentum and impulse during impact, or calculate the deceleration forces experienced.
 
 </div>
-</div>
+</div>

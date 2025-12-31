@@ -159,8 +159,7 @@ $$\gamma $$ to express $$v $$ in terms of $$c $$.
 
 1. Identify the known. $$\gamma = 30.00 $$
 2. Identify the unknown. $$v $$ in terms of $$c $$
-3. Choose the appropriate equation. $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
-   {c}^{2}}}} $$
+3. Choose the appropriate equation. $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
 4. Rearrange the equation to solve for the unknown.
    <div class="equation" >
     $$\begin{array}{lll}\gamma & =& \frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}\\ 30.00& =& \frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}\end{array} $$
@@ -381,8 +380,7 @@ The sports car would have to be traveling at 40% the speed of light, or approxim
 
 (b) 0.433 km
 
-(c) $$\begin{array}{}L=\frac{ {L}_{0}}{\gamma }=\frac{1.387 \times 10^{3}
-\text{m}}{3.20}\\ & =& 433.4 m=0.433 \text{km}\end{array} $$ Thus, the distances
+(c) $$\begin{array}{}L=\frac{ {L}_{0}}{\gamma }=\frac{1.387 \times 10^{3} \text{m}}{3.20}\\ & =& 433.4 m=0.433 \text{km}\end{array} $$ Thus, the distances
 in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
 </div>
@@ -440,8 +438,7 @@ At only 5% the speed of light, relativistic effects are minuscule. The time dila
 
 (b) 0.1434 y
 
-(c) $$\Delta t={\text{γ} \Delta t }_{0}⇒\gamma =\frac{\Delta t}{ {\Delta t}_
-{0}}=\frac{4.303 \text{y}}{0.1434 \text{y}}= 30.0 $$ Thus, the two times are
+(c) $$\Delta t={\text{γ} \Delta t }_{0}⇒\gamma =\frac{\Delta t}{ {\Delta t}_ {0}}=\frac{4.303 \text{y}}{0.1434 \text{y}}= 30.0 $$ Thus, the two times are
 related when $$\text{γ} = 30.00 $$.
 
 </div>
@@ -515,8 +512,7 @@ unreasonable to assume a longer length.
 **Unreasonable Results**
 
 A spaceship is heading directly toward the Earth at a velocity of $$ 0.800c $$ .
-The astronaut on board claims that he can send a canister toward the Earth at $$
-1.20c $$ relative to the Earth. (a) Calculate the velocity the canister must
+The astronaut on board claims that he can send a canister toward the Earth at $$ 1.20c $$ relative to the Earth. (a) Calculate the velocity the canister must
 have relative to the spaceship. (b) What is unreasonable about this result? (c)
 Which assumptions are unreasonable or inconsistent?
 
@@ -577,4 +573,4 @@ length contraction
 to the observer’s frame:
 $$L=L_{0}\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}=\frac{ {L}_{0}}{\gamma } $$
 
-</div>
+</div>

@@ -24,8 +24,7 @@ transferred from one system to another, but the total remains the same._
 We have explored some forms of energy and some ways it can be transferred from
 one system to another. This exploration led to the definition of two major types
 of energy—mechanical energy $$ \left(\KE+\PE\right) $$ and energy transferred
-via work done by nonconservative forces $$ \left(W\_
-{\text{nc}}\right) $$. But energy takes _many_ other forms, manifesting itself
+via work done by nonconservative forces $$ \left(W\_ {\text{nc}}\right) $$. But energy takes _many_ other forms, manifesting itself
 in _many_ different ways, and we need to be able to deal with all of these
 before we can write an equation for the above general statement of the
 conservation of energy.
@@ -42,8 +41,7 @@ conservation of energy in equation form as
 
 All types of energy and work can be included in this very general statement of
 conservation of energy. Kinetic energy is $$ \KE $$, work done by a conservative
-force is represented by $$ \PE $$, work done by nonconservative forces is $$ W\_
-{\text{nc}} $$, and all other energies are included as $$ \text{OE} $$. This
+force is represented by $$ \PE $$, work done by nonconservative forces is $$ W\_ {\text{nc}} $$, and all other energies are included as $$ \text{OE} $$. This
 equation applies to all previous examples; in those situations $$ \text{OE} $$
 was constant, and so it subtracted out and was not directly considered.
 
@@ -119,8 +117,7 @@ must be used.
 <div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}+W_{\text{nc}}+\text{OE}_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
 </div>
-In most problems, one or more of the terms is zero, simplifying its solution. Do not calculate $$ W_{c} $$, the work done by conservative forces; it is already incorporated in the $$
-\PE $$ terms.
+In most problems, one or more of the terms is zero, simplifying its solution. Do not calculate $$ W_{c} $$, the work done by conservative forces; it is already incorporated in the $$ \PE $$ terms.
 
 **Step 5.** You have already identified the types of work and energy involved (
 in step 2). Before solving for the unknown, _eliminate terms wherever possible_
@@ -247,17 +244,13 @@ Masses and Springs
   any process. Energy may change in form or be transferred from one system to
   another, but the total remains the same.
 - When all forms of energy are considered, conservation of energy is written in
-  equation form as $$ \KE_
-  {i}+\PE_{i}+W_{\text{nc}}+\text{OE}_{i}=\KE_
-  {f}+\PE_{f}+\text{OE}\_{f} $$, where $$ \text{OE} $$ is all **other forms of
+  equation form as $$ \KE_ {i}+\PE_{i}+W_{\text{nc}}+\text{OE}_{i}=\KE_ {f}+\PE_{f}+\text{OE}\_{f} $$, where $$ \text{OE} $$ is all **other forms of
   energy** besides mechanical energy.
 - Commonly encountered forms of energy include electric energy, chemical energy,
   radiant energy, nuclear energy, and thermal energy.
 - Energy is often utilized to do work, but it is not possible to convert all the
   energy of a system to work.
-- The efficiency $$ \text{Eff} $$ of a machine or human is defined to be $$
-  \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}} $$, where $$ W_{\text{out}}
-  $$ is useful work output and $$ E\_{\text{in}} $$ is the energy consumed.
+- The efficiency $$ \text{Eff} $$ of a machine or human is defined to be $$ \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}} $$, where $$ W_{\text{out}} $$ is useful work output and $$ E\_{\text{in}} $$ is the energy consumed.
 
 ### Conceptual Questions
 
@@ -499,4 +492,4 @@ efficiency
 : a measure of the effectiveness of the input of energy to do work; useful
 energy or work divided by the total input of energy
 
-</div>
+</div>

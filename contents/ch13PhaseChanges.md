@@ -32,8 +32,7 @@ substance at the temperature $$-78\text{ºC} $$ . Solid $${\text{CO}}_{2} $$ is
 called “dry ice.” Another example of a gas that can be in a liquid phase is
 liquid nitrogen $$\left({\text{LN}}_{2}\right) $$ . $${\text{LN}}_{2} $$ is made
 by liquefaction of atmospheric air (through compression and cooling). It boils
-at 77 K $$\left(-196\text{ºC}\right) $$ at atmospheric pressure. $${\text{LN}}_
-{2} $$ is useful as a refrigerant and allows for the preservation of blood,
+at 77 K $$\left(-196\text{ºC}\right) $$ at atmospheric pressure. $${\text{LN}}_ {2} $$ is useful as a refrigerant and allows for the preservation of blood,
 sperm, and other biological materials. It is also used to reduce noise in
 electronic sensors and equipment, and to help cool down their current-carrying
 wires. In dermatology, $${\text{LN}}_{2} $$ is used to freeze and painlessly
@@ -587,4 +586,4 @@ Dalton’s law of partial pressures
 : the physical law that states that the total pressure of a gas is the sum of
 partial pressures of the component gases
 
-</div>
+</div>

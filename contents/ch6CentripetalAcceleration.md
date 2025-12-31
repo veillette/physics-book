@@ -60,9 +60,7 @@ Then we divide this by $$ \Delta t $$, yielding
  $$ \frac{ \Delta v}{\Delta t}=\frac{v}{r}×\frac{ \Delta s}{\Delta t}. $$
 </div>
 
-Finally, noting that $$ \Delta v/\Delta t=\ac $$ and that $$ \Delta s/\Delta t=v
-
-$$
+Finally, noting that $$ \Delta v/\Delta t=\ac $$ and that $$ \Delta s/\Delta t=v $$
 , the linear or tangential speed, we see that the magnitude of the centripetal
 acceleration is
 
@@ -79,8 +77,7 @@ km/h. A sharp corner has a small radius, so that $$ \ac $$ is greater for
 tighter turns, as you have probably noticed.
 
 It is also useful to express $$ \ac $$ in terms of angular velocity.
-Substituting $$ v=r \omega $$ into the above expression, we find $$ \ac= \left(r
-\omega \right)^{2}/r= r \omega^{2} $$. We can express the magnitude of
+Substituting $$ v=r \omega $$ into the above expression, we find $$ \ac= \left(r \omega \right)^{2}/r= r \omega^{2} $$. We can express the magnitude of
 centripetal acceleration using either of two equations:
 
 <div class="equation">
@@ -112,8 +109,7 @@ What is the magnitude of the centripetal acceleration of a car following a curve
 
 **Strategy**
 
-Because $$ v $$ and $$ r $$ are given, the first expression in $$ a_
-{\text{c}}=\frac{ v^{2}}{r} ; \ac=r \omega^{2} $$ is the most convenient to use.
+Because $$ v $$ and $$ r $$ are given, the first expression in $$ a_ {\text{c}}=\frac{ v^{2}}{r} ; \ac=r \omega^{2} $$ is the most convenient to use.
 
 **Solution**
 
@@ -126,8 +122,7 @@ expression for $$ \ac $$ gives
 
 **Discussion**
 
-To compare this with the acceleration due to gravity $$ \left( g=9.80\mss
-\right) $$, we take the ratio of $$ \ac/g=\left( 1.25\mss \right)
+To compare this with the acceleration due to gravity $$ \left( g=9.80\mss \right) $$, we take the ratio of $$ \ac/g=\left( 1.25\mss \right)
 /\left(9.80\mss \right)
 =0.128 $$. Thus, $$ \ac=0.128 g $$ and is noticeable especially if you were not
 wearing a seat belt.
@@ -149,8 +144,7 @@ See [Figure 2](#Figure2)(b).
 
 The term rev/min stands for revolutions per minute. By converting this to
 radians per second, we obtain the angular velocity $$ \omega $$. Because $$ r $$
-is given, we can use the second expression in the equation $$ a_
-{\text{c}}=\frac{ v^{2}}{r};\ac=r \omega^{2} $$ to calculate the centripetal
+is given, we can use the second expression in the equation $$ a_ {\text{c}}=\frac{ v^{2}}{r};\ac=r \omega^{2} $$ to calculate the centripetal
 acceleration.
 
 **Solution**
@@ -948,4 +942,4 @@ centripetal acceleration
 ultracentrifuge
 : a centrifuge optimized for spinning a rotor at very high speeds
 
-</div>
+</div>

@@ -22,8 +22,7 @@ example of a scalar quantity. A
 _magnitude and direction_. Other examples of vectors include a velocity of 90
 km/h east and a force of 500 newtons straight down.
 
-The direction of a vector in one-dimensional motion is given simply by a plus $$
-\left(+\right) $$ or minus $$ \left(-\right) $$ sign. Vectors are represented
+The direction of a vector in one-dimensional motion is given simply by a plus $$ \left(+\right) $$ or minus $$ \left(-\right) $$ sign. Vectors are represented
 graphically by arrows. An arrow used to represent a vector has a length
 proportional to the vector’s magnitude (e.g., the larger the magnitude, the
 longer the length of the vector) and points in the same direction as the vector.
@@ -33,8 +32,7 @@ specified. A **scalar** is any quantity that has a magnitude, but no direction.
 For example, a $$ 20^\circ \text{C} $$ temperature, the 250 kilocalories (250
 Calories) of energy in a candy bar, a 90 km/h speed limit, a person’s 1.8 m
 height, and a distance of 2.0 m are all scalars—quantities with no specified
-direction. Note, however, that a scalar can be negative, such as a $$ -20^\circ
-\text{C} $$ temperature. In this case, the minus sign indicates a point on a
+direction. Note, however, that a scalar can be negative, such as a $$ -20^\circ \text{C} $$ temperature. In this case, the minus sign indicates a point on a
 scale rather than a direction. Scalars are never represented by arrows.
 
 ### Coordinate Systems for One-Dimensional Motion
@@ -121,4 +119,4 @@ scalar
 vector
 : a quantity that is described by both magnitude and direction
 
-</div>
+</div>

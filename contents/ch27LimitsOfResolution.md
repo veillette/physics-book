@@ -95,8 +95,7 @@ The primary mirror of the orbiting Hubble Space Telescope has a diameter of 2.40
 
 **Strategy**
 
-The Rayleigh criterion stated in the equation $$\theta =1.22\frac{\lambda }{D}
-$$ gives the smallest possible angle $$\theta $$
+The Rayleigh criterion stated in the equation $$\theta =1.22\frac{\lambda }{D} $$ gives the smallest possible angle $$\theta $$
 \*\* between point sources, or the best obtainable resolution. Once this angle is
 found, the distance between stars can be calculated, since we are given how far
 away they are.
@@ -154,10 +153,8 @@ another mirror used to observe radio waves from outer space.
 </div>
 
 Diffraction is not only a problem for optical instruments but also for the
-electromagnetic radiation itself. Any beam of light having a finite diameter $$D
-$$ and a wavelength $$\lambda $$ exhibits diffraction spreading. The beam
-spreads out with an angle $$\theta $$ given by the equation $$\theta
-=1.22\frac{\lambda }{D} $$ . Take, for example, a laser beam made of rays as
+electromagnetic radiation itself. Any beam of light having a finite diameter $$D $$ and a wavelength $$\lambda $$ exhibits diffraction spreading. The beam
+spreads out with an angle $$\theta $$ given by the equation $$\theta =1.22\frac{\lambda }{D} $$ . Take, for example, a laser beam made of rays as
 parallel as possible (angles between rays as close to $$\theta =0º $$ as
 possible) instead spreads out at an angle $$\theta =1.22 \lambda /D $$ , where
 $$D $$ is the diameter of the beam and $$\lambda $$ is its wavelength. This
@@ -174,9 +171,8 @@ $$\theta $$ smaller.
 
 In most biology laboratories, resolution is presented when the use of the
 microscope is introduced. The ability of a lens to produce sharp images of two
-closely spaced point objects is called resolution. The smaller the distance $$x
+closely spaced point objects is called resolution. The smaller the distance $$x $$
 
-$$
 by which two objects can be separated and still be seen as distinct, the
 greater the resolution. The resolving power of a lens is defined as that
 distance $$x $$ . An expression for resolving power is obtained from the
@@ -190,8 +186,7 @@ is possible when the minimum angular separation is
 
 where $$d $$ is the distance between the specimen and the objective lens, and we
 have used the small angle approximation (i.e., we have assumed that $$x $$ is
-much smaller than $$d $$ ), so that $$\tan \theta \approx \sin \theta \approx
-\theta $$.
+much smaller than $$d $$ ), so that $$\tan \theta \approx \sin \theta \approx \theta $$.
 
 Therefore, the resolving power is
 
@@ -257,8 +252,7 @@ becomes a true point.
   two images are just resolvable when the center of the diffraction pattern of
   one is directly over the first minimum of the diffraction pattern of the
   other.
-* This occurs for two point objects separated by the angle $$\theta
-  =1.22\frac{\lambda }{D} $$ , where $$\lambda $$ is the wavelength of light (or
+* This occurs for two point objects separated by the angle $$\theta =1.22\frac{\lambda }{D} $$ , where $$\lambda $$ is the wavelength of light (or
   other electromagnetic radiation) and $$D $$ is the diameter of the aperture,
   lens, mirror, etc. This equation also gives the angular spreading of a source
   of light having a diameter $$D $$ .
@@ -813,5 +807,4 @@ Rayleigh criterion
 : two images are just resolvable when the center of the diffraction pattern of
 one is directly over the first minimum of the diffraction pattern of the other
 
-</div>
-$$
+</div>

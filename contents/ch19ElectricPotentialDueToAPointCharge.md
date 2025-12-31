@@ -24,8 +24,7 @@ can be shown that the _electric potential $$V $$ of a point charge_ is
  $$V=\frac{kQ}{r} \left(\text{Point Charge}\right), $$
 </div>
 
-where _k_ is a constant equal to $$ 9.0 \times 10^{9} \text{N} \text{·}
-{\text{m}}^{2}\text{/}{\text{C}}^{2} $$.
+where _k_ is a constant equal to $$ 9.0 \times 10^{9} \text{N} \text{·} {\text{m}}^{2}\text{/}{\text{C}}^{2} $$.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
 <div class="title">
@@ -656,4 +655,4 @@ This problem illustrates the importance of recognizing when relativistic mechani
 **(c) The assumption of classical mechanics fails here. Relativistic mechanics must be used when particles approach the speed of light. The 25 MeV kinetic energy far exceeds the electron's rest energy of 0.511 MeV.**
 
 </div>
-</div>
+</div>

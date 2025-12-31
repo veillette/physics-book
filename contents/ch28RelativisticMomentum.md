@@ -64,9 +64,7 @@ very nearly equal to 1 at low velocities.
 
 Relativistic momentum has the same intuitive feel as classical momentum. It is
 greatest for large masses moving at high velocities, but, because of the factor
-$$\gamma $$ , relativistic momentum approaches infinity as $$u $$ approaches $$c
-
-$$
+$$\gamma $$ , relativistic momentum approaches infinity as $$u $$ approaches $$c $$
 .
 (See [[Figure 2]](#Figure2).) This is another indication that an object with
 mass cannot reach the speed of light. If it did, its momentum would become
@@ -122,8 +120,7 @@ Answer
   classical momentum multiplied by the relativistic factor $$\gamma $$ .
 
 * $$p=\text{γmu} $$ , where $$m $$ is the rest mass of the object, $$u $$ is its
-  velocity relative to an observer, and the relativistic factor $$\gamma
-  =\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}} $$ .
+  velocity relative to an observer, and the relativistic factor $$\gamma =\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}} $$ .
 
 * At low velocities, relativistic momentum is equivalent to classical momentum.
 * Relativistic momentum approaches infinity as $$u $$ approaches $$c $$ . This
@@ -472,9 +469,8 @@ relativistic momentum
 $$p=\text{γmu} $$ , where $$m $$ is the rest mass of the object, $$u $$ is its
 velocity relative to an observer, and the relativistic factor $$\gamma
 =\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}
-$$
 
 rest mass
 : the mass of an object as measured by a person at rest relative to the object
 
-</div>
+</div>

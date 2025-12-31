@@ -293,8 +293,7 @@ The density of water  $$\rho  $$
 
 A large reservoir contains a very large mass of water. In this example, the
 weight of the water in the reservoir is $$mg= 1.96 \times 10^{13} \text{N} $$ ,
-where $$g $$ is the acceleration due to the Earth’s gravity (about $$ 9.80
-{\text{m/s}}^{2} $$ ). It is reasonable to ask whether the dam must supply a
+where $$g $$ is the acceleration due to the Earth’s gravity (about $$ 9.80 {\text{m/s}}^{2} $$ ). It is reasonable to ask whether the dam must supply a
 force equal to this tremendous weight. The answer is no. As we shall see in the
 following sections, the force the dam must supply can be much smaller than the
 weight of the water it holds back.
@@ -798,4 +797,4 @@ $$ r = (4.76 \times 10^{12})^{1/3} \text{ m} = 1.68 \times 10^{4} \text{ m} \app
 density
 : the mass per unit volume of a substance or object
 
-</div>
+</div>

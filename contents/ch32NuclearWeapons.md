@@ -278,8 +278,7 @@ Fusion bombs use neutrons from their fission trigger to create tritium fuel in t
 <div class="problem" markdown="1">
 It is estimated that the total explosive yield of all the nuclear bombs in existence currently is about 4 000 MT.
 
-(a) Convert this amount of energy to kilowatt-hours, noting that $$1
-\text{kW}\cdot \text{h}= 3.60 \times 10^{6} \text{J} $$.
+(a) Convert this amount of energy to kilowatt-hours, noting that $$1 \text{kW}\cdot \text{h}= 3.60 \times 10^{6} \text{J} $$.
 
 (b) What would the monetary value of this energy be if it could be converted to
 electricity costing 10 cents per kW·h?
@@ -328,8 +327,7 @@ A radiation-enhanced nuclear weapon (or neutron bomb) can have a smaller total y
  to  $$ 8.4 \times 10^{11}  \text{J} $$ ,
  or 2.5 to 1, conventional to radiation enhanced.
 
-(b) Prompt radiation yields $$ 6.3 \times 10^{11} \text{J} $$ to $$ 2.1 \times
-10^{11} \text{J} $$ , or 3 to 1, radiation enhanced to conventional.
+(b) Prompt radiation yields $$ 6.3 \times 10^{11} \text{J} $$ to $$ 2.1 \times 10^{11} \text{J} $$ , or 3 to 1, radiation enhanced to conventional.
 
 </div>
 </div>
@@ -535,4 +533,4 @@ with an efficiency of 10.0%:
 (b) 11.0 y
 
 </div>
-</div>
+</div>

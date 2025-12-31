@@ -561,7 +561,6 @@ energy is converted to mechanical work in the process
 
 meter
 : common application of magnetic torque on a current-carrying loop that is very
-similar in construction to a motor; by design, the torque is proportional to $$I
-$$ and not $$\theta $$, so the needle deflection is proportional to the current
+similar in construction to a motor; by design, the torque is proportional to $$I $$ and not $$\theta $$, so the needle deflection is proportional to the current
 
-</div>
+</div>

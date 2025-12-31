@@ -153,10 +153,9 @@ Graham Bell, the inventor of the telephone.
             <td>Bursting of eardrums</td>
           </tr></tbody></table>
 
-The decibel level of a sound having the threshold intensity of $$10^{-12}
+The decibel level of a sound having the threshold intensity of $$10^{-12} $$
 {\text{W/m}}^{2} $$ is $$\beta =0 \text{dB} $$ , because $${\text{log}}\_{10}1=0
 
-$$
 . That is, the threshold of hearing is 0 decibels. [[Table 1]](#Table1) gives
 levels in decibels and intensities in watts per meter squared for some familiar
 sounds.
@@ -184,8 +183,7 @@ One more observation readily verified by examining [[Table 1]](#Table1) or using
 $$I={\frac{\left(\Delta p\right)}{2{\text{ρv}}_{\text{w}}}}^{2} $$ is that each
 factor of 10 in intensity corresponds to 10 dB. For example, a 90 dB sound
 compared with a 60 dB sound is 30 dB greater, or three factors of 10 (that is,
-$$10^{3} $$ times) as intense. Another example is that if one sound is $$10^{7}
-$$ as intense as another, it is 70 dB higher. See [[Table 2]](#Table2).
+$$10^{3} $$ times) as intense. Another example is that if one sound is $$10^{7} $$ as intense as another, it is 70 dB higher. See [[Table 2]](#Table2).
 
 <table id="Table2" aria-describedby="This table gives ratios of intensities and corresponding differences in sound intensity levels in two columns."><caption><span class="title">Ratios of Intensities and Corresponding Differences in Sound Intensity Levels</span></caption><thead><tr>
             <th> $${I}_{2}/{I}_{1} $$</th>
@@ -218,8 +216,7 @@ Calculate the sound intensity level in decibels for a sound wave traveling in ai
 
 We are given $$\Delta p $$ , so we can calculate $$I $$ using the equation
 $$I={\left(\Delta p\right)}^{2}/{\left(2{\text{pv}}_{w}\right)}^{2} $$ . Using
-$$I $$ , we can calculate $$\beta $$ straight from its definition in $$\beta
-\left(\text{dB}\right)=10 {\text{log}}_{10}\left(I/{I}_{0}\right) $$.
+$$I $$ , we can calculate $$\beta $$ straight from its definition in $$\beta \left(\text{dB}\right)=10 {\text{log}}_{10}\left(I/{I}_{0}\right) $$.
 
 **Solution**
 
@@ -227,11 +224,9 @@ $$I $$ , we can calculate $$\beta $$ straight from its definition in $$\beta
 
 Sound travels at 331 m/s in air at $$0ºC $$.
 
-Air has a density of $$1.29 \text{kg/m}^{3} $$ at atmospheric pressure and $$0ºC
-$$.
+Air has a density of $$1.29 \text{kg/m}^{3} $$ at atmospheric pressure and $$0ºC $$.
 
-(2) Enter these values and the pressure amplitude into $$I={\left(\Delta
-p\right)}^{2}/\left({2\text{ρv}}_{w}\right) $$ \:
+(2) Enter these values and the pressure amplitude into $$I={\left(\Delta p\right)}^{2}/\left({2\text{ρv}}_{w}\right) $$ \:
 
 <div class="equation" >
  $$I=\frac{ {\left(\Delta p\right)}^{2}}{2{\text{ρv}}_{w}}=\frac{ {\left(0.656 Pa\right)}^{2}}{2\left( 1.29 {\text{kg/m}}^{3}\right)\left(331 \text{m/s}\right)}= 5.04 \times 10^{-4}  {\text{W/m}}^{2}. $$
@@ -1696,5 +1691,4 @@ standard
 sound pressure level
 : the ratio of the pressure amplitude to a reference pressure
 
-</div>
-$$
+</div>

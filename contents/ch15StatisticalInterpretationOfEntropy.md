@@ -235,8 +235,7 @@ Now, if we start with an orderly macrostate like 100 heads and toss the coins,
 there is a virtual certainty that we will get a less orderly macrostate. If we
 keep tossing the coins, it is possible, but exceedingly unlikely, that we will
 ever get back to the most orderly macrostate. If you tossed the coins once each
-second, you could expect to get either 100 heads or 100 tails once in $$2 \times
-10^{22} $$ years! This period is 1 trillion ( $$ 10^{12} $$ )
+second, you could expect to get either 100 heads or 100 tails once in $$2 \times 10^{22} $$ years! This period is 1 trillion ( $$ 10^{12} $$ )
 times longer than the age of the universe, and so the chances are essentially
 zero. In contrast, there is an 8% chance of getting 50 heads, a 73% chance of
 getting from 45 to 55 heads, and a 96% chance of getting from 40 to 60 heads.
@@ -250,9 +249,7 @@ now imagine applying this approach to perhaps a small sample of gas. Because
 counting microstates and macrostates involves statistics, this is called **statistical analysis**. The macrostates of a gas correspond to its macroscopic
 properties, such as volume, temperature, and pressure; and its microstates
 correspond to the detailed description of the positions and velocities of its
-atoms. Even a small amount of gas has a huge number of atoms: $$
-1.0{\text{cm}}^{3} $$ of an ideal gas at 1.0 atm and $$0º C $$ has $$ 2.7 \times
-10^{19} $$ atoms. So each macrostate has an immense number of microstates. In
+atoms. Even a small amount of gas has a huge number of atoms: $$ 1.0{\text{cm}}^{3} $$ of an ideal gas at 1.0 atm and $$0º C $$ has $$ 2.7 \times 10^{19} $$ atoms. So each macrostate has an immense number of microstates. In
 plain language, this means that there are an immense number of ways in which the
 atoms in a gas can be arranged, while still having the same pressure,
 temperature, and so on.
@@ -314,8 +311,7 @@ Suppose you toss 100 coins starting with 60 heads and 40 tails, and you get the 
 **Strategy**
 
 Noting that the number of microstates is labeled $$W $$ in [[Table 2]](#Table2)
-for the 100-coin toss, we can use $$\Delta S={S}_{\text{f}}-{S}_{\text{i}}=k_
-{B}\ln {W}_{\text{f}}-k_{B}\ln {W}_{\text{i}} $$ to calculate the change in
+for the 100-coin toss, we can use $$\Delta S={S}_{\text{f}}-{S}_{\text{i}}=k_ {B}\ln {W}_{\text{f}}-k_{B}\ln {W}_{\text{i}} $$ to calculate the change in
 entropy.
 
 **Solution**
@@ -344,9 +340,7 @@ decreases in entropy are unlikely, slightly greater decreases are impossibly
 unlikely. These probabilities imply, again, that for a macroscopic system, a
 decrease in entropy is impossible. For example, for heat transfer to occur
 spontaneously from 1.00 kg of $$0\text{ºC} $$ ice to its $$0\text{ºC} $$
-environment, there would be a decrease in entropy of $$ 1.22 \times 10^{3}
-\text{J/K} $$ . Given that a $$\Delta S $$ of $$10^{-21} \text{J/K} $$
-corresponds to about a $$1 $$ in $$10^{30} $$ chance, a decrease of this size (
+environment, there would be a decrease in entropy of $$ 1.22 \times 10^{3} \text{J/K} $$ . Given that a $$\Delta S $$ of $$10^{-21} \text{J/K} $$ corresponds to about a $$1 $$ in $$10^{30} $$ chance, a decrease of this size (
 $$10^{3} \text{J/K} $$ )
 is an _utter_ impossibility. Even for a milligram of melted ice to spontaneously
 refreeze is impossible.
@@ -778,4 +772,4 @@ microstate
 statistical analysis
 : using statistics to examine data, such as counting microstates and macrostates
 
-</div>
+</div>

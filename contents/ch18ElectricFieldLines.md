@@ -69,8 +69,7 @@ be determined using **vector addition**.
 
 **Solution**
 
-The electric field strength at the origin due to $${q}_{1} $$ is labeled $${E}_
-{1} $$ and is calculated:
+The electric field strength at the origin due to $${q}_{1} $$ is labeled $${E}_ {1} $$ and is calculated:
 
 <div class="equation" >
  $$\begin{array}{}{E}_{1}=k\frac{ {q}_{1}}{ {r}_{1}^{2}}=\left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)
@@ -265,4 +264,4 @@ vector addition
 : mathematical combination of two or more vectors, including their magnitudes,
 directions, and positions
 
-</div>
+</div>

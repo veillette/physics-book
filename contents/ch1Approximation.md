@@ -117,8 +117,7 @@ for the area of the field. (Note that we are using only one significant figure
 in these calculations.)
 
 (4) Calculate the total volume of the bills. The volume of all the \$100 -bill
-stacks is $$ 9\text{in.}^{3}/\text{stack}\times 10^{8}\text{ stacks}=9\times
-10^{8}\text{in.}^{3}. $$
+stacks is $$ 9\text{in.}^{3}/\text{stack}\times 10^{8}\text{ stacks}=9\times 10^{8}\text{in.}^{3}. $$
 (5) Calculate the height. To determine the height of the bills, use the
 equation:
 
@@ -485,4 +484,4 @@ This is consistent with known biological limits - most neurons fire at rates wel
 approximation
 : an estimated value based on prior experience and reasoning
 
-</div>
+</div>

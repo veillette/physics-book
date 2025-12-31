@@ -282,9 +282,7 @@ significant heat transfer. (c) How long does this take?
 
 On its high power setting, a microwave oven produces 900 W of 2560 MHz
 microwaves. (a) How many photons per second is this? (b) How many photons are
-required to increase the temperature of a 0.500-kg mass of pasta by $$
-45.0\text{ºC} $$ , assuming a specific heat of $$0.900 \text{kcal/kg}\cdot
-\text{ºC} $$ ? Neglect all other heat transfer. (c) How long must the microwave
+required to increase the temperature of a 0.500-kg mass of pasta by $$ 45.0\text{ºC} $$ , assuming a specific heat of $$0.900 \text{kcal/kg}\cdot \text{ºC} $$ ? Neglect all other heat transfer. (c) How long must the microwave
 operator wait for their pasta to be ready?
 
 </div>
@@ -697,8 +695,7 @@ This 1-fm gamma ray carries enormous energy (1.24 GeV), typical of nuclear proce
 
 The momentum of light is exactly reversed when reflected straight back from a
 mirror, assuming negligible recoil of the mirror. Thus the change in momentum is
-twice the photon momentum. Suppose light of intensity $$1.00 {\text{kW/m}}^{2}
-$$ reflects from a mirror of area $$2.00 {\text{m}}^{2} $$ .
+twice the photon momentum. Suppose light of intensity $$1.00 {\text{kW/m}}^{2} $$ reflects from a mirror of area $$2.00 {\text{m}}^{2} $$ .
 (a) Calculate the energy reflected in 1.00 s. (b) What is the momentum imparted
 to the mirror? (c) Using the most general form of Newton’s second law, what is
 the force on the mirror? (d) Does the assumption of no mirror recoil seem
@@ -719,8 +716,7 @@ reasonable?
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-Sunlight above the Earth's atmosphere has an intensity of $$ 1.30
-{\text{kW/m}}^{2} $$ . If this is reflected straight back from a mirror that has
+Sunlight above the Earth's atmosphere has an intensity of $$ 1.30 {\text{kW/m}}^{2} $$ . If this is reflected straight back from a mirror that has
 only a small recoil, the light's momentum is exactly reversed, giving the mirror
 twice the incident momentum. (a) Calculate the force per square meter of
 mirror. (b) Very low mass mirrors can be constructed in the near weightlessness
@@ -777,4 +773,4 @@ Solar sailing is a real spacecraft propulsion concept! The radiation pressure pr
 (c) 7.49 m/s or about 27 km/h
 
 </div>
-</div>
+</div>

@@ -92,8 +92,7 @@ of the air column independently of how it is induced.
 Given that maximum air displacements are possible at the open end and none at
 the closed end, there are other, shorter wavelengths that can resonate in the
 tube, such as the one shown in [[Figure 8]](#Figure8). Here the standing wave
-has three-fourths of its wavelength in the tube, or $$L=\left(3/4\right)
-\lambda^{\prime} $$ , so that $$\lambda^{\prime} =4L/3 $$ . Continuing this
+has three-fourths of its wavelength in the tube, or $$L=\left(3/4\right) \lambda^{\prime} $$ , so that $$\lambda^{\prime} =4L/3 $$ . Continuing this
 process reveals a whole series of shorter-wavelength and higher-frequency sounds
 that resonate in the tube. We use specific terms for the resonances in any
 system. The lowest resonant frequency is called the **fundamental**, while all
@@ -173,8 +172,7 @@ Find the Length of a Tube with a 128 Hz Fundamental
 
 <strong> Strategy</strong>
 
-The length $$L $$ can be found from the relationship in $${f}_{n}=n\frac{ {v}_
-{w}}{4L} $$ , but we will first need to find the speed of sound $${v}_{w} $$.
+The length $$L $$ can be found from the relationship in $${f}_{n}=n\frac{ {v}_ {w}}{4L} $$ , but we will first need to find the speed of sound $${v}_{w} $$.
 
 **Solution for (a)**
 
@@ -218,8 +216,7 @@ tubas, require tubes so long that they are coiled into loops.
 - the second overtone has $$n=5 $$
 - the third overtone has $$n=7 $$
 - the fourth overtone has $$n=9 $$
-  (2) Enter the value for the fourth overtone into $${f}_{n}=n\frac{ {v}_
-  {w}}{4L} $$.
+  (2) Enter the value for the fourth overtone into $${f}_{n}=n\frac{ {v}_ {w}}{4L} $$.
 
 <div class="equation" >
  $${f}_{9}=9\frac{ {v}_{w}}{4L}={9f}_{1}=1.15 \text{kHz} $$
@@ -1501,4 +1498,4 @@ overtones
 harmonics
 : the term used to refer collectively to the fundamental and its overtones
 
-</div>
+</div>

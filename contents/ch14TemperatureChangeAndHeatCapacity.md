@@ -88,8 +88,7 @@ at the same temperature.
    $$\Delta T={T}_{\text{f}}-{T}_{\text{i}}=60.0 \text{ºC.} $$
    </div>
 
-2. Calculate the mass of water. Because the density of water is $$1000
-   {\text{kg/m}}^{3} $$ , one liter of water has a mass of 1 kg, and the mass of
+2. Calculate the mass of water. Because the density of water is $$1000 {\text{kg/m}}^{3} $$ , one liter of water has a mass of 1 kg, and the mass of
    0.250 liters of water is $${m}_{w}= 0.250 \text{kg} $$ .
 
 3. Calculate the heat transferred to the water. Use the specific heat of water
@@ -401,8 +400,7 @@ To study differences in heat capacity:
 
 - Place equal masses of dry sand (or soil) and water at the same temperature
   into two small jars. (The average density of soil or sand is about 1.6 times
-  that of water, so you can achieve approximately equal masses by using $$50 \%
-  $$ more water by volume.)
+  that of water, so you can achieve approximately equal masses by using $$50 \% $$ more water by volume.)
 - Heat both (using an oven or a heat lamp) for the same amount of time.
 - Record the final temperature of the two masses.
 - Now bring both jars to the same temperature by heating for a longer period of
@@ -1026,4 +1024,4 @@ specific heat
 : the amount of heat necessary to change the temperature of 1.00 kg of a
 substance by 1.00 ºC
 
-</div>
+</div>

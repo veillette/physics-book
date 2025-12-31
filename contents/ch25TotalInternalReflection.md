@@ -25,8 +25,7 @@ angle is increased. This causes $${\theta }_{2} $$ to increase also. The largest
 the angle of refraction $${\theta }_{2} $$ can be is $$90 ^\circ $$ , as shown
 in [[Figure 1]](#Figure1)(b). The **critical angle** $${\theta }_{c} $$ for a
 combination of materials is defined to be the incident angle $${\theta }_{1} $$
-that produces an angle of refraction of $$90 ^\circ $$ . That is, $${\theta
-}_{c} $$ is the incident angle for which $${\theta }_{2}=90 ^\circ $$ . If the
+that produces an angle of refraction of $$90 ^\circ $$ . That is, $${\theta }_{c} $$ is the incident angle for which $${\theta }_{2}=90 ^\circ $$ . If the
 incident angle $${\theta }_{1} $$ is greater than the critical angle, as shown
 in [[Figure 1]](#Figure1)(c), then all of the light is reflected back into
 medium 1, a condition called **total internal reflection**.
@@ -47,8 +46,7 @@ is given by
  $${n}_{1} \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2}\text{.} $$
 </div>
 
-When the incident angle equals the critical angle ( $${\theta }_{1}={\theta }_
-{c} $$ ), the angle of refraction is $$90 ^\circ $$ ( $${\theta }_{2}=90
+When the incident angle equals the critical angle ( $${\theta }_{1}={\theta }_ {c} $$ ), the angle of refraction is $$90 ^\circ $$ ( $${\theta }_{2}=90
 \text{º} $$ ). Noting that $$\sin 90\text{º}=1 $$ , Snell’s law in this case
 becomes
 
@@ -234,8 +232,7 @@ Total internal reflection, coupled with a large index of refraction, explains
 why diamonds sparkle more than other materials. The critical angle for a
 diamond-to-air surface is only $$ 24.4º $$ , and so when light enters a diamond,
 it has trouble getting back out. (See [[Figure 7]](#Figure7).) Although light
-freely enters the diamond, it can exit only if it makes an angle less than $$
-24.4º $$ . Facets on diamonds are specifically intended to make this unlikely,
+freely enters the diamond, it can exit only if it makes an angle less than $$ 24.4º $$ . Facets on diamonds are specifically intended to make this unlikely,
 so that the light can exit only in certain places. Good diamonds are very clear,
 so that the light makes many internal reflections and is concentrated at the few
 places it can exit—hence the sparkle. (Zircon is a natural gemstone that has an
@@ -557,4 +554,4 @@ from which it came
 zircon
 : natural gemstone with a large index of refraction
 
-</div>
+</div>

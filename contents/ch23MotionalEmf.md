@@ -44,11 +44,9 @@ of induction without the sign:
  $$\text{emf}=N\frac{\Delta \Phi }{\Delta t}\text{.} $$
 </div>
 
-Here and below, “emf” implies the magnitude of the emf. In this equation, $$N=1
-$$ and the flux $$\Phi =BA \cos \theta $$ . We have $$\theta =0º $$ and $$\cos
+Here and below, “emf” implies the magnitude of the emf. In this equation, $$N=1 $$ and the flux $$\Phi =BA \cos \theta $$ . We have $$\theta =0º $$ and $$\cos
 \theta =1 $$ , since $$B $$ is perpendicular to $$A $$ . Now $$\Delta \Phi
-=\Delta \left(BA\right)=B\Delta A $$ , since $$B $$ is uniform. Note that the
-area swept out by the rod is $$\Delta A=\ell \Delta x $$ . Entering these
+=\Delta \left(BA\right)=B\Delta A $$ , since $$B $$ is uniform. Note that the area swept out by the rod is $$\Delta A=\ell \Delta x $$ . Entering these
 quantities into the expression for **emf** yields
 
 <div class="equation" >
@@ -96,9 +94,7 @@ or we would notice voltage along metal rods, such as a screwdriver, during
 ordinary motions. For example, a simple calculation of the motional emf of a 1 m
 rod moving at 3.0 m/s perpendicular to the Earth’s field gives
 
-$$
-\text{emf}=B\ell v=\left( 5.0 \times 10^{-5} \text{T}\right)\left( 1.0
-m\right)\left( 3.0 m/s\right)=150 \text{μV} $$ . This small value is consistent
+$$ \text{emf}=B\ell v=\left( 5.0 \times 10^{-5} \text{T}\right)\left( 1.0 m\right)\left( 3.0 m/s\right)=150 \text{μV} $$ . This small value is consistent
 with experience. There is a spectacular exception, however. In 1992 and 1996,
 attempts were made with the space shuttle to create large motional emfs. The
 Tethered Satellite was to be let out on a 20 km length of wire as shown
@@ -125,8 +121,7 @@ Calculating the Large Motional Emf of an Object in Orbit
 ![Figure shows a tethered satellite in Earth orbit. The Earth magnetic field is given as B Earth directed toward the plane of the paper. A tether satellite is a satellite connected to another by a space tether. An aircraft is shown flying at distance l below the tethered satellite. A current path is shown from the aircraft flying in the ionosphere to the tethered satellite and back.](../resources/Figure_23_03_02.jpg "Motional emf as electrical power conversion for the space shuttle is the motivation for the Tethered Satellite experiment. A 5 kV emf was predicted to be induced in the 20 km long tether while moving at orbital speed in the Earth&#x2019;s magnetic field. The circuit is completed by a return path through the stationary ionosphere."){: #Figure2}
 
 Calculate the motional emf induced along a 20.0 km long conductor moving at an
-orbital speed of 7.80 km/s perpendicular to the Earth’s $$ 5.00 \times 10^{-5}
-\text{T} $$ magnetic field.
+orbital speed of 7.80 km/s perpendicular to the Earth’s $$ 5.00 \times 10^{-5} \text{T} $$ magnetic field.
 
 **Strategy**
 
@@ -690,4 +685,4 @@ This illustrates a fundamental trade-off: the tethered satellite can generate su
 (d) For a week-long mission, $$\Delta v \approx 60$$ m/s (about 0.8% of orbital velocity). This velocity decrease would cause orbital decay, requiring the shuttle to use additional fuel to maintain altitude. The long-term consequence is that the electrical energy generated comes at the cost of orbital energy, making sustained operation impractical without continuous propulsion to compensate.
 
 </div>
-</div>
+</div>

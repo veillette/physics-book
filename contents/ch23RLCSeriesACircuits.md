@@ -19,8 +19,7 @@ individual resistances in ohms do not simply add. Because inductors and
 capacitors behave in opposite ways, they partially to totally cancel each
 other’s effect. [[Figure 1]](#Figure1) shows an *RLC*series circuit with
 an AC voltage source, the behavior of which is the subject of this section. The
-crux of the analysis of an _RLC_ circuit is the frequency dependence of $${X}_
-{L} $$ and $${X}_{C} $$ , and the effect they have on the phase of voltage
+crux of the analysis of an _RLC_ circuit is the frequency dependence of $${X}_ {L} $$ and $${X}_{C} $$ , and the effect they have on the phase of voltage
 versus current (established in the preceding section). These give rise to the
 frequency dependence of the circuit, with important “resonance” features that
 are the basis of many applications, such as radio tuners.
@@ -40,8 +39,7 @@ impedance in an _RLC_ circuit are related by an AC version of Ohm’s law:
 Here $${I}_{0} $$ is the peak current, $${V}_{0} $$ the peak source voltage, and
 $$Z $$ is the impedance of the circuit. The units of impedance are ohms, and its
 effect on the circuit is as you might expect: the greater the impedance, the
-smaller the current. To get an expression for $$Z $$ in terms of $$R $$ , $${X}_
-{L} $$ , and $${X}_{C} $$ , we will now examine how the voltages across the
+smaller the current. To get an expression for $$Z $$ in terms of $$R $$ , $${X}_ {L} $$ , and $${X}_{C} $$ , we will now examine how the voltages across the
 various components are related to the source voltage. Those voltages are labeled
 $${V}_{R} $$ , $${V}_{L} $$ , and $${V}_{C} $$ in [[Figure 1]](#Figure1).
 
@@ -74,12 +72,8 @@ where $${V}_{0R} $$ , $${V}_{0L} $$ , and $${V}_{0C} $$ are the peak voltages
 across $$R $$ , $$L $$ , and $$C $$ , respectively. Now, using Ohm’s law and
 definitions
 from [Reactance, Inductive and Capacitive](../contents/ch23ReactanceInductiveAndCapacitive),
-we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_
-{0}R $$ , $${V}_
-{0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding
-
-<div class="equation" >
- $${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
+we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_ {0}R $$ , $${V}_
+{0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding <div class="equation" > $${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
 </div>
 
 $${I}_{0} $$ cancels to yield an expression for $$Z $$ \:
@@ -109,18 +103,15 @@ An *RLC* series circuit has a  $$40.0 \text{Ω} $$
 
 **Strategy**
 
-For each frequency, we use $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)
-}^{2}} $$ to find the impedance and then Ohm’s law to find current. We can take
+For each frequency, we use $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right) }^{2}} $$ to find the impedance and then Ohm’s law to find current. We can take
 advantage of the results of the previous two examples rather than calculate the
 reactances again.
 
 **Solution for (a)**
 
 At 60.0 Hz, the values of the reactances were found
-in [[Example 1]](../contents/ch23ReactanceInductiveAndCapacitive#Example1) to be $${X}_
-{L}= 1.13 \Omega $$ and
-in [[Example 2]](../contents/ch23ReactanceInductiveAndCapacitive#Example2) to be $${X}_
-{C}=531 \Omega $$ . Entering these and the given $$40.0 \text{Ω} $$ for
+in [[Example 1]](../contents/ch23ReactanceInductiveAndCapacitive#Example1) to be $${X}_ {L}= 1.13 \Omega $$ and
+in [[Example 2]](../contents/ch23ReactanceInductiveAndCapacitive#Example2) to be $${X}_ {C}=531 \Omega $$ . Entering these and the given $$40.0 \text{Ω} $$ for
 resistance into $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}} $$
 yields
 
@@ -146,14 +137,11 @@ frequency.
 The current $${I}_{\text{rms}} $$ can be found using the AC version of Ohm’s law
 in Equation $${I}_{\text{rms}}={V}_{\text{rms}}/Z $$ \:
 
-$$
-{I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{531 \Omega }=
-0.226 \text{A} $$ at 60.0 Hz
+$$ {I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{531 \Omega }= 0.226 \text{A} $$ at 60.0 Hz
 
 Finally, at 10.0 kHz, we find
 
-$${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{190 \Omega }=
-0.633 \text{A} $$ at 10.0 kHz
+$${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{Z}=\frac{120 \text{V}}{190 \Omega }= 0.633 \text{A} $$ at 10.0 kHz
 
 **Discussion for (a)**
 
@@ -170,8 +158,7 @@ inductor dominates at high frequency.
 
 How does an *RLC* circuit behave as a function of the frequency of the driving
 voltage source? Combining Ohm’s law, $${I}_{\text{rms}}={V}_{\text{rms}}/Z $$ ,
-and the expression for impedance $$Z $$ from $$Z=\sqrt{ {R}^{2}+{\left( {X}_
-{L}-{X}_{C} \right)}^{2}} $$ gives
+and the expression for impedance $$Z $$ from $$Z=\sqrt{ {R}^{2}+{\left( {X}_ {L}-{X}_{C} \right)}^{2}} $$ gives
 
 <div class="equation" >
  $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}}\text{.} $$
@@ -232,8 +219,7 @@ For the same *RLC* series circuit having a  $$40.0 \text{Ω} $$
 
 **Strategy**
 
-The resonant frequency is found by using the expression in $${f}_
-{0}=\frac{1}{2\pi \sqrt{\text{LC}}} $$ . The current at that frequency is the
+The resonant frequency is found by using the expression in $${f}_ {0}=\frac{1}{2\pi \sqrt{\text{LC}}} $$ . The current at that frequency is the
 same as if the resistor alone were in the circuit.
 
 **Solution for (a)**
@@ -271,8 +257,7 @@ considered for the same circuit in the preceding example.
 If current varies with frequency in an *RLC* circuit, then the power delivered
 to it also varies with frequency. But the average power is not simply current
 times voltage, as it is in purely resistive circuits. As was seen
-in [[Figure 2]](#Figure2), voltage and current are out of phase in an *RLC* circuit. There is a **phase angle**  $$\varphi $$ between the source voltage $$V
-$$ and the current $$I $$ , which can be found from
+in [[Figure 2]](#Figure2), voltage and current are out of phase in an *RLC* circuit. There is a **phase angle**  $$\varphi $$ between the source voltage $$V $$ and the current $$I $$ , which can be found from
 
 <div class="equation" >
  $$\cos \varphi =\frac{R}{Z}\text{.} $$
@@ -344,11 +329,9 @@ The average power at 60.0 Hz is
 </div>
 **Strategy and Solution for (c)**
 
-At the resonant frequency, we know $$\cos \varphi =1 $$ , and $${I}_{\text{rms}}
-$$ was found to be 3.00 A in [[Example 2]](#Example2). Thus,
+At the resonant frequency, we know $$\cos \varphi =1 $$ , and $${I}_{\text{rms}} $$ was found to be 3.00 A in [[Example 2]](#Example2). Thus,
 
-$${P}_{\text{ave}}=\left( 3.00 \text{A}\right)\left(120 \text{V}\right)\left(
-1\right)=360 \text{W} $$ at resonance (1.30 kHz)
+$${P}_{\text{ave}}=\left( 3.00 \text{A}\right)\left(120 \text{V}\right)\left( 1\right)=360 \text{W} $$ at resonance (1.30 kHz)
 
 **Discussion**
 
@@ -412,8 +395,7 @@ Build circuits with capacitors, inductors, resistors and AC or DC voltage source
      where
    $${I}_{0} $$ is the peak current and
    $${V}_{0} $$ is the peak source voltage.
-* Impedance has units of ohms and is given by $$Z=\sqrt{ {R}^{2}+{\left( {X}_
-  {L}-{X}_{C} \right)}^{2}} $$ .
+* Impedance has units of ohms and is given by $$Z=\sqrt{ {R}^{2}+{\left( {X}_ {L}-{X}_{C} \right)}^{2}} $$ .
 
 * The resonant frequency $${f}_{0} $$ , at which $${X}_{L}={X}_{C} $$ , is
 
@@ -1199,7 +1181,6 @@ impedance
 : the AC analogue to resistance in a DC circuit; it is the combined effect of
 resistance, inductive reactance, and capacitive reactance in the form $$Z=\sqrt{
 {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}
-$$
 
 resonant frequency
 : the frequency at which the impedance in a circuit is at a minimum, and also
@@ -1215,4 +1196,4 @@ power factor
 theoretical maximum of the circuit due to voltage and current being out of
 phase; calculated by $$\cos \varphi $$
 
-</div>
+</div>

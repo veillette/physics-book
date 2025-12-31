@@ -55,8 +55,7 @@ hydrogen atom. Thus the binding energy of a nuclide $${}^{A}\text{X} $$ is
 </div>
 
 The atomic masses can be found in [Appendix A](../contents/appendixA), most conveniently
-expressed in unified atomic mass units u ( $$1 \text{u}= 931.5
-\text{MeV}/{c}^{2} $$ ). BE is thus calculated from known atomic masses.
+expressed in unified atomic mass units u ( $$1 \text{u}= 931.5 \text{MeV}/{c}^{2} $$ ). BE is thus calculated from known atomic masses.
 
 ![The image shows some spherical protons and neutrons pulled out from a nucleus. The work done to pull them apart is binding energy.](../resources/Figure_31_06_01.jpg 'Work done to pull a nucleus apart into its constituent protons and neutrons increases the mass of the system. The work to disassemble the nucleus equals its binding energy BE. A bound system has less mass than the sum of its parts, especially noticeable in the nuclei, where forces and energies are very large.')
 {: #Figure1}
@@ -95,8 +94,7 @@ the Earth are liquid. Shear or transverse waves cannot travel through a liquid
 and are not transmitted through the Earth’s core. Yet compression or
 longitudinal waves can pass through a liquid and do go through the core. From
 this information, the temperature of the interior can be estimated. As noticed,
-the interior should have cooled more from its initial temperature in the $$ 4.5
-\times 10^{9} $$ years since its formation. In fact, it should have taken no
+the interior should have cooled more from its initial temperature in the $$ 4.5 \times 10^{9} $$ years since its formation. In fact, it should have taken no
 more than about $$10^{9} $$ years to cool to its present temperature. What is
 keeping it hot? The answer seems to be radioactive decay of primordial elements
 that were part of the material that formed the Earth (see the blowup
@@ -184,9 +182,7 @@ Calculate the binding energy per nucleon of  $${}^{4}\text{He} $$ ,
 
 To find $$\text{BE}/A $$ , we first find BE using the Equation
 
-$$
-\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left(
-{}^{A}\text{X}\right)\right\}{c}^{2} $$ and then divide by $$A $$ . This is
+$$ \text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left( {}^{A}\text{X}\right)\right\}{c}^{2} $$ and then divide by $$A $$ . This is
 straightforward once we have looked up the appropriate atomic masses
 in [Appendix A](../contents/appendixA).
 
@@ -237,8 +233,7 @@ products can mean energy release, and such decays can be spontaneous. Further,
 it can happen that two protons and two neutrons in a nucleus can randomly find
 themselves together, experience the exceptionally large nuclear force that binds
 this combination, and act as a $${}^{4}\text{He} $$ unit within the nucleus, at
-least for a while. In some cases, the $${}^{4}\text{He} $$ escapes, and $$\alpha
-$$ decay has then taken place.
+least for a while. In some cases, the $${}^{4}\text{He} $$ escapes, and $$\alpha $$ decay has then taken place.
 
 </div>
 
@@ -265,7 +260,6 @@ expansion of the universe.
     decay), then an energy adjustment of 0.511 MeV per electron must be made. Also note that atomic masses may not be given in a problem; they can be found in tables.
 4. *For problems involving activity, the relationship of activity to half-life,
    and the number of nuclei given in the equation $$R=\frac{0.693N}{ {t}_{1/2}}
-$$
 
 can be very useful.* Owing to the fact that number of nuclei is involved, you
 will also need to be familiar with moles and Avogadro’s number. 5. *Perform the desired calculation; keep careful track of plus and minus signs
@@ -459,4 +453,4 @@ binding energy per nucleon
 : the binding energy calculated per nucleon; it reveals the details of the
 nuclear force—larger the $$\text{BE}/A $$ , the more stable the nucleus
 
-</div>
+</div>

@@ -80,8 +80,7 @@ will experience a gravitational attraction of $$ 6.674 \times 10^{-11}\N $$.
 This is an extraordinarily small force. The small magnitude of the gravitational
 force is consistent with everyday experience. We are unaware that even large
 objects like mountains exert gravitational forces on us. In fact, our body
-weight is the force of attraction of the *entire Earth* on us with a mass of $$
-6\times 10^{24}\kg $$.
+weight is the force of attraction of the *entire Earth* on us with a mass of $$ 6\times 10^{24}\kg $$.
 
 Recall that the acceleration due to gravity $$ g $$ is about $$ 9.80 \mss $$ on
 Earth. We can now determine why this is so. The weight of an object _mg_ is the
@@ -92,9 +91,7 @@ _mg_ for $$ F $$ in Newton’s universal law of gravitation gives
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
-where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
-
-$$
+where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r $$
 is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure 3](#Figure3). The mass $$ m $$ of the
 object cancels, leaving an equation for $$ g $$:
@@ -165,7 +162,6 @@ value of the acceleration due to Earth’s gravity that you have just found.
 This calculation is the same as the one finding the acceleration due to gravity
 at Earth’s surface, except that $$ r $$ is the distance from the center of Earth
 to the center of the Moon. The radius of the Moon’s nearly circular orbit is
-$$
 
 3.84 \times 10^{8}\m $$.
 
@@ -361,9 +357,7 @@ gravitation gives
  $$ mg =G\frac{mM}{ r^{2}}, $$
 </div>
 
-where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r
-
-$$
+where $$ m $$ is the mass of the object, $$ M $$ is the mass of Earth, and $$ r $$
 is the distance to the center of Earth (the distance between the centers of
 mass of the object and Earth). See [Figure 2](#Figure2). The mass $$ m $$ of the
 object cancels, leaving an equation for $$ g $$:
@@ -432,8 +426,7 @@ Gravity Force Lab
   </div>
 
 where F is the magnitude of the gravitational force. $$ G $$ is the
-gravitational constant, given by $$ G=6.674 \times 10^{-11}\N \cdot \mm/kg^{2}
-$$.
+gravitational constant, given by $$ G=6.674 \times 10^{-11}\N \cdot \mm/kg^{2} $$.
 
 * Newton’s law of gravitation applies universally.
 
@@ -1097,5 +1090,4 @@ along a line joining them; the force is directly proportional to the product of
 their masses and inversely proportional to the square of the distance between
 them
 
-</div>
-$$
+</div>

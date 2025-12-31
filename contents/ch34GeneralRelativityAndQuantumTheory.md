@@ -261,8 +261,7 @@ quantum fluctuations may make time intervals meaningful only down to some finite
 time limit. Early work indicated that this might be the case for times as long
 as $$ 10^{-43} \text{s} $$ , the time at which all forces were unified. If so,
 then it would be meaningless to consider the universe at times earlier than
-this. Subsequent studies indicate that the crucial time may be as short as $$
-10^{-95} \text{s} $$ . But the point remains—quantum gravity seems to imply that
+this. Subsequent studies indicate that the crucial time may be as short as $$ 10^{-95} \text{s} $$ . But the point remains—quantum gravity seems to imply that
 there is no such thing as a vanishingly short time. Time may, in fact, be grainy
 with no meaning to time intervals shorter than some tiny but finite size.
 
@@ -545,4 +544,4 @@ Quantum gravity
 : the theory that deals with particle exchange of gravitons as the mechanism for
 the force
 
-</div>
+</div>

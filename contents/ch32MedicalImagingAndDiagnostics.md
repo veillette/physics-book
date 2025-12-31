@@ -181,8 +181,7 @@ take several days for the gallium to build up.
             <td>1.5</td>
           </tr></tbody></table>
 
-Note that [[Table 1]](#Table1) lists many diagnostic uses for $${}^{99
-\text{m}}\text{Tc} $$ , where “m” stands for a metastable state of the
+Note that [[Table 1]](#Table1) lists many diagnostic uses for $${}^{99 \text{m}}\text{Tc} $$ , where “m” stands for a metastable state of the
 technetium nucleus. Perhaps 80 percent of all radiopharmaceutical procedures
 employ $${}^{99 \text{m}}\text{Tc} $$ because of its many advantages. One is
 that the decay of its metastable state produces a single, easily identified
@@ -542,4 +541,4 @@ single-photon-emission computed tomography (SPECT)
 tagged
 : process of attaching a radioactive substance to a chemical compound
 
-</div>
+</div>

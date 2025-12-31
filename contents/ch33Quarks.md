@@ -58,20 +58,17 @@ flavors, which are divided into three families quite analogous to leptons.
 To understand how these quark substructures work, let us specifically examine
 the proton, neutron, and the two pions pictured in [[Figure 1]](#Figure1) before
 moving on to more general considerations. First, the proton _p_ is composed of
-the three quarks _uud_, so that its total charge is $$+\left(\frac{2}{3}\right)
+the three quarks _uud_, so that its total charge is $$+\left(\frac{2}{3}\right) $$
 {q}_{e}+\left(\frac{2}{3}\right){q}_{e}-\left(\frac{1}{3}\right){q}_{e}={q}_{e}
 
-$$
 , as expected. With the spins aligned as in the figure, the proton’s
-intrinsic spin is $$+\left(\frac{1}{2}\right)+\left(\frac{1}{2}\right)-\left(
-\frac{1}{2}\right)=\left(\frac{1}{2}\right) $$ , also as expected. Note that the
+intrinsic spin is $$+\left(\frac{1}{2}\right)+\left(\frac{1}{2}\right)-\left( \frac{1}{2}\right)=\left(\frac{1}{2}\right) $$ , also as expected. Note that the
 spins of the up quarks are aligned, so that they would be in the same state
 except that they have different colors (another quantum number to be elaborated
 upon a little later). Quarks obey the Pauli exclusion principle. Similar
 comments apply to the neutron *n*, which is composed of the three quarks *udd*.
 Note also that the neutron is made of charges that add to zero but move
-internally, producing its well-known magnetic moment. When the neutron $${\beta
-}^{-} $$ decays, it does so by changing the flavor of one of its quarks. Writing
+internally, producing its well-known magnetic moment. When the neutron $${\beta }^{-} $$ decays, it does so by changing the flavor of one of its quarks. Writing
 neutron $${\beta }^{-} $$ decay in terms of quarks,
 
 <div class="equation" >
@@ -434,8 +431,7 @@ quark:
 
 This is an example of the general fact that **the weak nuclear force can change
 the flavor of a quark**. By general, we mean that any quark can be converted to
-any other (change flavor) by the weak nuclear force. Not only can we get $$d\to
-u $$ , we can also get $$u\to d $$ . Furthermore, the strange quark can be
+any other (change flavor) by the weak nuclear force. Not only can we get $$d\to u $$ , we can also get $$u\to d $$ . Furthermore, the strange quark can be
 changed by the weak force, too, making $$s\to u $$ and $$s\to d $$ possible.
 This explains the violation of the conservation of strangeness by the weak force
 noted in the preceding section. Another general fact is that **the strong
@@ -443,18 +439,15 @@ nuclear force cannot change the flavor of a quark.**
 
 Again, from [[Figure 1]](#Figure1), we see that the $${\pi }^{+} $$ meson (one
 of the three pions) is composed of an up quark plus an antidown quark, or
-$$u\stackrel{-}{d} $$ . Its total charge is thus $$+\left(\frac{2}{3}\right){q}_
-{e}+\left(\frac{1}{3}\right){q}_{e}={q}_{e} $$ , as expected. Its baryon number
-is 0, since it has a quark and an antiquark with baryon numbers $$+\left(
-\frac{1}{3}\right)-\left(\frac{1}{3}\right)=0 $$ . The $${\pi }^{+} $$ half-life
+$$u\stackrel{-}{d} $$ . Its total charge is thus $$+\left(\frac{2}{3}\right){q}_ {e}+\left(\frac{1}{3}\right){q}_{e}={q}_{e} $$ , as expected. Its baryon number
+is 0, since it has a quark and an antiquark with baryon numbers $$+\left( \frac{1}{3}\right)-\left(\frac{1}{3}\right)=0 $$ . The $${\pi }^{+} $$ half-life
 is relatively long since, although it is composed of matter and antimatter, the
 quarks are different flavors and the weak force should cause the decay by
 changing the flavor of one into that of the other. The spins of the $$u $$ and
 $$\stackrel{-}{d} $$ quarks are antiparallel, enabling the pion to have spin
 zero, as observed experimentally. Finally, the $${\pi }^{-} $$ meson shown
 in [[Figure 1]](#Figure1) is the antiparticle of the $${\pi }^{+} $$ meson, and
-it is composed of the corresponding quark antiparticles. That is, the $${\pi
-}^{+} $$ meson is $$u\stackrel{-}{d} $$ , while the $${\pi }^{-} $$ meson is
+it is composed of the corresponding quark antiparticles. That is, the $${\pi }^{+} $$ meson is $$u\stackrel{-}{d} $$ , while the $${\pi }^{-} $$ meson is
 $$\stackrel{-}{u}d $$ . These two pions annihilate each other quickly, because
 their constituent quarks are each other’s antiparticles.
 
@@ -473,8 +466,7 @@ All quark combinations are possible. [[Table 2]](#Table2) lists some of these
 combinations. When Gell-Mann and Zweig proposed the original three quark
 flavors, particles corresponding to all combinations of those three had not been
 observed. The pattern was there, but it was incomplete—much as had been the case
-in the periodic table of the elements and the chart of nuclides. The $${\Omega
-}^{-} $$ particle, in particular, had not been discovered but was predicted by
+in the periodic table of the elements and the chart of nuclides. The $${\Omega }^{-} $$ particle, in particular, had not been discovered but was predicted by
 quark theory. Its combination of three strange quarks, $$\text{sss} $$ , gives
 it a strangeness of $$-3 $$
 (see [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2)) and other predictable
@@ -514,10 +506,8 @@ quantum numbers given for the quarks.
 
 **Solution**
 
-The total charge of *uss* is $$+\left(\frac{2}{3}\right){q}_{e}-\left(
-\frac{1}{3}\right){q}_{e}-\left(\frac{1}{3}\right){q}_{e}=0 $$ , which is
-correct for the $${\text{Ξ} }^{0} $$ . The baryon number is $$+\left(
-\frac{1}{3}\right)+\left(\frac{1}{3}\right)+\left(\frac{1}{3}\right)=1 $$ , also
+The total charge of *uss* is $$+\left(\frac{2}{3}\right){q}_{e}-\left( \frac{1}{3}\right){q}_{e}-\left(\frac{1}{3}\right){q}_{e}=0 $$ , which is
+correct for the $${\text{Ξ} }^{0} $$ . The baryon number is $$+\left( \frac{1}{3}\right)+\left(\frac{1}{3}\right)+\left(\frac{1}{3}\right)=1 $$ , also
 correct since the $${\text{Ξ}}^{0} $$ is a matter baryon and has $$B=1 $$ , as
 listed in [[Table 2]](../contents/ch33ParticlesPatternsAndConservationLaws#Table2). Its strangeness is
 $$S=0-1-1=-2 $$ , also as expected
@@ -580,8 +570,7 @@ four quarks and four leptons. The problem was that no known particles contained
 a charmed quark. Suddenly, in November of 1974, two groups (one headed by C. C.
 Ting at Brookhaven National Laboratory and the other by Burton Richter at SLAC)
 independently and nearly simultaneously discovered a new meson with
-characteristics that made it clear that its substructure is $$c\stackrel{-}{c}
-$$ . It was called *J* by one group and psi ( $$\psi $$ )
+characteristics that made it clear that its substructure is $$c\stackrel{-}{c} $$ . It was called *J* by one group and psi ( $$\psi $$ )
 by the other and now is known as the $$J/\psi $$ meson. Since then, numerous
 particles have been discovered containing the charmed quark, consistent in every
 way with the quark model. The discovery of the $$J/\psi $$ meson had such a
@@ -601,8 +590,7 @@ these mesons are sometimes called bare charm and bare bottom and reveal the
 characteristics of their quarks most clearly. Other mesons containing bottom
 quarks have since been observed. In 1995, two groups at Fermilab confirmed the
 top quark’s existence, completing the picture of six quarks listed
-in [[Table 1]](#Table1). Each successive quark discovery—first $$c $$ , then $$b
-$$ , and finally $$t $$ —has required higher energy because each has higher
+in [[Table 1]](#Table1). Each successive quark discovery—first $$c $$ , then $$b $$ , and finally $$t $$ —has required higher energy because each has higher
 mass. Quark masses in [[Table 1]](#Table1) are only approximately known, because
 they are not directly observed. They must be inferred from the masses of the
 particles they combine to form.
@@ -644,8 +632,7 @@ of the **theory of quark confinement**, which explains how quarks can exist and
 yet never be isolated or directly observed. Finally, an extra quantum number
 with three values (like those we assign to color) is necessary for quarks to
 obey the Pauli exclusion principle. Particles such as the $${\Omega }^{-} $$ ,
-which is composed of three strange quarks, $$\text{sss} $$ , and the $${\Delta
-}^{++} $$ , which is three up quarks, *uuu*, can exist because the quarks have
+which is composed of three strange quarks, $$\text{sss} $$ , and the $${\Delta }^{++} $$ , which is three up quarks, *uuu*, can exist because the quarks have
 different colors and do not have the same quantum numbers. Color is consistent
 with all observations and is now widely accepted. Quark theory including color
 is called **quantum chromodynamics** (QCD), also named by Gell-Mann.
@@ -837,8 +824,7 @@ The quarks in a particle are confined, meaning individual quarks cannot be direc
 (a) Verify from its quark composition that the  $${\Delta }^{+} $$
  particle could be an excited state of the proton.
 
-(b) There is a spread of about 100 MeV in the decay energy of the $${\Delta
-}^{+} $$ , interpreted as uncertainty due to its short lifetime. What is its
+(b) There is a spread of about 100 MeV in the decay energy of the $${\Delta }^{+} $$ , interpreted as uncertainty due to its short lifetime. What is its
 approximate lifetime?
 
 (c) Does its decay proceed via the strong or weak force?
@@ -866,8 +852,7 @@ Accelerators such as the Triangle Universities Meson Facility (TRIUMF) in Britis
 annihilates and then re-creates a *d* quark and a $$\stackrel{-}{d} $$ antiquark
 by writing the reaction and decay in terms of quarks.
 
-(c) Draw a Feynman diagram of the production and decay of the $${\Delta }^{++}
-$$ showing the individual quarks involved.
+(c) Draw a Feynman diagram of the production and decay of the $${\Delta }^{++} $$ showing the individual quarks involved.
 
 ![The figure shows a graph of number of interactions on the y axis versus kinetic energy of pion on the x axis. The number of interactions reaches a peak at two hundred mega electron volts where the short lived particle delta plus plus is generated. The width of this peak is approximately hundred mega electron volts.](../resources/Figure_33_05_07.jpg "This graph shows the probability of an interaction between a \( \pi^{+} \) and a proton as a function of energy. The bump is interpreted as a very short lived particle called a \( \Delta^{++} \). The approximately 100-MeV width of the bump is due to the short lifetime of the \( \Delta^{++} \).;     ")
 {: #Figure7}
@@ -967,7 +952,6 @@ Repeat the previous problem for the decay mode  $${\Omega }^{-}\to {\text{Λ}}^{
 
 (c)  $$\left(\text{sss}\right)\to \left(\text{uds}\right)+\left(
 \stackrel{-}{u}s\right)
-$$
 
 </div>
 </div>
@@ -1693,4 +1677,4 @@ top
 up
 : the lightest of all quarks
 
-</div>
+</div>

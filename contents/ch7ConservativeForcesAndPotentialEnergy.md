@@ -18,9 +18,8 @@ Work is done by a force, and some forces, such as weight, have special
 characteristics. A **conservative force** is one, like the gravitational force,
 for which work done by or against it depends only on the starting and ending
 points of a motion and not on the path taken. We can define a **potential
-energy** $$ \left(\PE\right)
+energy** $$ \left(\PE\right) $$
 
-$$
 for any conservative force, just as we did for the gravitational force. For
 example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do
 work against its spring and store energy in it. (We treat these springs as
@@ -63,17 +62,11 @@ by the distance $$ x $$ that the spring is stretched or compressed along its
 length. So the force needed to stretch the spring has magnitude $$ F = kx $$,
 where $$ k $$ is the spring’s force constant. The force increases linearly from
 0 at the start to $$ kx $$ in the fully stretched position. The average force is
-$$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_
-{s}=F d =\left(\frac{ k x}{2}\right)
-x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
+$$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_ {s}=F d =\left(\frac{ k x}{2}\right) x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 that the area under a graph of $$ F $$ vs. $$ x $$ is the work done by the
-force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k
-x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s}
-$$, to be
-
-<div class="equation">
- $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
+force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s}
+$$, to be <div class="equation"> $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
 </div>
 
 where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement
@@ -91,8 +84,7 @@ The equation $$ \PE_{s}=\frac{1}{2} k x^{2} $$ has general validity beyond the
 special case for which it was derived. Potential energy can be stored in any
 elastic medium by deforming it. Indeed, the general definition of
 **potential energy** is energy due to position, shape, or configuration. For
-shape or position deformations, stored energy is $$ \PE_{s}=\frac{1}{2}k x^{2}
-$$, where $$ k $$ is the force constant of the particular system and $$ x $$ is
+shape or position deformations, stored energy is $$ \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the force constant of the particular system and $$ x $$ is
 its deformation. Another example is seen in [Figure 1](#Figure1) for a guitar
 string.
 
@@ -127,8 +119,7 @@ where $$ W\_{c} $$ is the total work done by all conservative forces. Thus,
 </div>
 
 Now, if the conservative force, such as the gravitational force or a spring
-force, does work, the system loses potential energy. That is, $$ W\_
-\text{c}=-\Delta \PE $$. Therefore,
+force, does work, the system loses potential energy. That is, $$ W\_ \text{c}=-\Delta \PE $$. Therefore,
 
 <div class="equation">
  $$ -\Delta \PE=\Delta \KE $$
@@ -164,9 +155,7 @@ all the forces are conservative, so that friction is negligible. The total
 kinetic plus potential energy of a system is defined to be its **mechanical
 energy**, $$ \left(\KE+\PE\right) $$. In a system that experiences only
 conservative forces, there is a potential energy associated with each force, and
-the energy only changes form between $$ \KE $$ and the various types of $$ \PE
-
-$$
+the energy only changes form between $$ \KE $$ and the various types of $$ \PE $$
 , with the total energy remaining constant.
 
 <div class="example" markdown="1">
@@ -290,8 +279,7 @@ Energy Skate Park
   ending points of a motion, not on the path taken.
 - We can define potential energy $$ \left(\PE\right) $$ for any conservative
   force, just as we defined $$ \PE\_{g} $$ for the gravitational force.
-- The potential energy of a spring is $$ \PE\_{s}=\frac{1}{2}k x^{2} $$, where $$
-  k $$ is the spring’s force constant and $$ x $$ is the displacement from its
+- The potential energy of a spring is $$ \PE\_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement from its
   undeformed position.
 - Mechanical energy is defined to be $$ \KE+\PE $$ for a conservative force.
 - When only conservative forces act on and within a system, the total mechanical
@@ -472,8 +460,7 @@ potential energy
 
 potential energy of a spring
 : the stored energy of a spring as a function of its displacement; when Hooke’s
-law applies, it is given by the expression $$ \frac{1}{2}k x^{2} $$ where $$ x
-$$ is the distance the spring is compressed or extended and $$ k $$ is the
+law applies, it is given by the expression $$ \frac{1}{2}k x^{2} $$ where $$ x $$ is the distance the spring is compressed or extended and $$ k $$ is the
 spring constant
 
 conservation of mechanical energy
@@ -483,4 +470,4 @@ constant if only conservative forces act on and within a system
 mechanical energy
 : the sum of kinetic energy and potential energy
 
-</div>
+</div>

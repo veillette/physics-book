@@ -127,8 +127,7 @@ equation:
 
 All three terms have units of energy per unit volume, as discussed in the
 previous section. Now, considering units, if we multiply energy per unit volume
-by flow rate (volume per unit time), we get units of power. That is, $$\left(
-E/V\right)\left(V/t\right)=E/t $$ . This means that if we multiply Bernoulli’s
+by flow rate (volume per unit time), we get units of power. That is, $$\left( E/V\right)\left(V/t\right)=E/t $$ . This means that if we multiply Bernoulli’s
 equation by flow rate $$Q $$ , we get power. In equation form, this is
 
 <div class="equation">
@@ -162,9 +161,7 @@ Here we must consider energy forms as well as how they relate to fluid flow.
 Since the input and output hoses have the same diameters and are at the same
 height, the pump does not change the speed of the water nor its height, and so
 the water’s kinetic energy and gravitational potential energy are unchanged.
-That means the pump only supplies power to increase water pressure by $$ 0.92
-\times 10^{6} {\text{N/m}}^{2} $$
-(from $$ 0.700 \times 10^{6} {\text{N/m}}^{2} $$ to $$ 1.62 \times 10^{6}
+That means the pump only supplies power to increase water pressure by $$ 0.92 \times 10^{6} {\text{N/m}}^{2} $$ (from $$ 0.700 \times 10^{6} {\text{N/m}}^{2} $$ to $$ 1.62 \times 10^{6}
 {\text{N/m}}^{2} $$ ).
 
 **Solution**
@@ -188,8 +185,7 @@ to calculate all three terms to find the power it supplies.
 
 ### Summary
 
-- Power in fluid flow is given by the equation $$\left({P}_{1}+\frac{1}{2}\rho
-  v^{2}+\rho gh\right)Q=\text{power}\text{,} $$ where the first term is power
+- Power in fluid flow is given by the equation $$\left({P}_{1}+\frac{1}{2}\rho v^{2}+\rho gh\right)Q=\text{power}\text{,} $$ where the first term is power
   associated with pressure, the second is power associated with velocity, and
   the third is power associated with height.
 
@@ -467,4 +463,4 @@ $$P_2 = 3.00 \times 10^5 + 384 - 1.96 \times 10^4 = 2.81 \times 10^5 \text{ N/m}
 
 The pressure at the top of the rise is **(a) 2.76 × 10⁵ N/m²**, and after going over the wall it is **(b) 2.81 × 10⁵ N/m²**. The pressure increases slightly after going over the wall for two reasons: the height decreased by 0.50 m, and the hose widened, reducing velocity. Both effects increase pressure according to Bernoulli's equation.
 </div>
-</div>
+</div>

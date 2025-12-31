@@ -61,8 +61,7 @@ necessity of dealing with the force directly. It is much more common, for
 example, to use the concept of voltage (related to electric potential energy)
 than to deal with the Coulomb force directly.
 
-Calculating the work directly is generally difficult, since $$W=Fd \cos \theta
-$$ and the direction and magnitude of $$F $$ can be complex for multiple
+Calculating the work directly is generally difficult, since $$W=Fd \cos \theta $$ and the direction and magnitude of $$F $$ can be complex for multiple
 charges, for odd-shaped objects, and along arbitrary paths. But we do know that,
 since $$F=qE $$ , the work, and hence $$\Delta \text{PE} $$ , is proportional to
 the test charge $$q. $$ To have a physical quantity that is independent of test
@@ -85,19 +84,15 @@ This is the electric potential energy per unit charge.
 </div>
 </div>
 
-Since PE is proportional to $$q $$ , the dependence on $$q $$ cancels. Thus $$V
-$$ does not depend on $$q $$ . The change in potential energy $$\Delta \text{PE}
+Since PE is proportional to $$q $$ , the dependence on $$q $$ cancels. Thus $$V $$ does not depend on $$q $$ . The change in potential energy $$\Delta \text{PE}
 
-$$
-is crucial, and so we are concerned with the difference in potential or
-potential difference $$\Delta V $$ between two points, where
+$$ is crucial, and so we are concerned with the difference in potential or potential difference $$\Delta V $$ between two points, where
 
 <div class="equation" >
  $$\Delta V={V}_{\text{B}}-{V}_{\text{A}}=\frac{\Delta \text{PE}}{q}\text{.} $$
 </div>
 
-The **potential difference** between points A and B, $${V}_{\text{B}} - {V}_
-{\text{A}} $$ , is thus defined to be the change in potential energy of a charge
+The **potential difference** between points A and B, $${V}_{\text{B}} - {V}_ {\text{A}} $$ , is thus defined to be the change in potential energy of a charge
 $$q $$ moved from A to B, divided by the charge. Units of potential difference
 are joules per coulomb, given the name volt (V) after Alessandro Volta.
 
@@ -223,8 +218,7 @@ we see that $$\Delta V=+12.0 \text{V} $$.
 
 **Solution**
 
-To find the charge $$ q $$ moved, we solve the equation $$\Delta
-\text{PE}=q\Delta V $$ \:
+To find the charge $$ q $$ moved, we solve the equation $$\Delta \text{PE}=q\Delta V $$ \:
 
 <div class="equation" >
  $$q=\frac{\Delta \text{PE}}{\Delta V}\text{.} $$
@@ -266,8 +260,7 @@ such an energy unit. An electron is accelerated between two charged metal plates
 as it might be in an old-model television tube or oscilloscope. The electron is
 given kinetic energy that is later converted to another form—light in the
 television tube, for example. (Note that downhill for the electron is uphill for
-a positive charge.) Since energy is related to voltage by $$\Delta
-\text{PE}=q\Delta V, $$ we can think of the joule as a coulomb-volt.
+a positive charge.) Since energy is related to voltage by $$\Delta \text{PE}=q\Delta V, $$ we can think of the joule as a coulomb-volt.
 
 ![In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.](../resources/Figure_19_01_03.jpg "A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.")
 {: #Figure3}
@@ -312,8 +305,7 @@ valence energies and molecular and nuclear binding energies are among the
 quantities often expressed in electron volts. For example, about 5 eV of energy
 is required to break up certain organic molecules. If a proton is accelerated
 from rest through a potential difference of 30 kV, it is given an energy of 30
-keV (30 000 eV) and it can break up as many as 6000 of these molecules ( $$30
-000 \text{eV}÷5 \text{eV per molecule}=6000 \text{molecules} $$ ). Nuclear decay
+keV (30 000 eV) and it can break up as many as 6000 of these molecules ( $$30 000 \text{eV}÷5 \text{eV per molecule}=6000 \text{molecules} $$ ). Nuclear decay
 energies are on the order of 1 MeV (1 000 000 eV) per event and can, thus,
 produce significant biological damage.
 
@@ -356,7 +348,6 @@ on this assumption later), all of the electrical potential energy is converted
 into kinetic energy. We can identify the initial and final forms of energy to be
 $${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and }}
 \text{PE}_{f}=0.
-$$
 
 **Solution**
 
@@ -764,8 +755,7 @@ The 40 kW power output is enormous but brief. By comparison, a lightning strike 
 
 A lightning bolt strikes a tree, moving 20.0 C of charge through a potential
 difference of $$ 1.00 \times 10^{2} \text{MV} $$ .
-(a) What energy was dissipated? (b) What mass of water could be raised from $$15
-\text{ºC} $$ to the boiling point and then boiled by this energy? (c) Discuss
+(a) What energy was dissipated? (b) What mass of water could be raised from $$15 \text{ºC} $$ to the boiling point and then boiled by this energy? (c) Discuss
 the damage that could be caused to the tree by the expansion of the boiling
 steam.
 
@@ -834,8 +824,7 @@ The 2 GJ of energy is equivalent to about 500 kg of TNT. This enormous energy, d
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-A 12.0 V battery-operated bottle warmer heats 50.0 g of glass, $$ 2.50 \times
-10^{2} \text{g} $$ of baby formula, and $$ 2.00 \times 10^{2} \text{g} $$ of
+A 12.0 V battery-operated bottle warmer heats 50.0 g of glass, $$ 2.50 \times 10^{2} \text{g} $$ of baby formula, and $$ 2.00 \times 10^{2} \text{g} $$ of
 aluminum from $$ 20.0ºC $$ to $$90.0ºC $$ .
 (a) How much charge is moved by the battery? (b) How many electrons per second
 flow if it takes 5.00 min to warm the formula? (Hint: Assume that the specific
@@ -905,9 +894,8 @@ The baby formula requires by far the most energy (about 82% of the total) becaus
 A battery-operated car utilizes a 12.0 V system. Find the charge the batteries
 must be able to move in order to accelerate the 750 kg car from rest to 25.0
 m/s, make it climb a $$ 2.00 \times 10^{2} \text{m} $$ high hill, and then cause
-it to travel at a constant 25.0 m/s by exerting a $$ 5.00 \times 10^{2} \text{N}
+it to travel at a constant 25.0 m/s by exerting a $$ 5.00 \times 10^{2} \text{N} $$
 
-$$
 force for an hour.
 
 </div>
@@ -1180,5 +1168,4 @@ mechanical energy
 : sum of the kinetic energy and potential energy of a system; this sum is a
 constant
 
-</div>
-$$
+</div>

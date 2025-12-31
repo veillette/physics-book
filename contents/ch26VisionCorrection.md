@@ -66,8 +66,7 @@ the object.
 **Solution**
 
 Since $${d}_{\text{i}} $$ and $${d}_{\text{o}} $$ are known, the power of the
-spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_
-{\text{i}}} $$ as written earlier:
+spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_ {\text{i}}} $$ as written earlier:
 
 <div class="equation" >
  $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{\infty }+\frac{1}{-0.285 \text{m}}. $$
@@ -113,16 +112,14 @@ What power of spectacle lens is needed to allow a farsighted person, whose near 
 When an object is held 25.0 cm from the person’s eyes, the spectacle lens must
 produce an image 1.00 m away (the near point). An image 1.00 m from the eye will
 be 98.5 cm to the left of the spectacle lens because the spectacle lens is 1.50
-cm from the eye (see [[Figure 3]](#Figure3)). Therefore, $${d}_{\text{i}}=-98.5
-\text{cm} $$ . The image distance is negative, because it is on the same side of
+cm from the eye (see [[Figure 3]](#Figure3)). Therefore, $${d}_{\text{i}}=-98.5 \text{cm} $$ . The image distance is negative, because it is on the same side of
 the spectacle as the object. The object is 23.5 cm to the left of the spectacle,
 so that $${d}_{\text{o}}=23.5 \text{cm} $$.
 
 **Solution**
 
 Since $${d}_{\text{i}} $$ and $${d}_{\text{o}} $$ are known, the power of the
-spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_
-{\text{i}}} $$ \:
+spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_ {\text{i}}} $$ \:
 
 <div class="equation" >
  $$\begin{array}{lll}P& =& \frac{1}{ {d}_{o}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{0.235 \text{m}}+\frac{1}{-0.985 \text{m}}\\ & =& 4.26 D-1.02 \text{D}=3.24 \text{D}.\end{array} $$
@@ -1648,8 +1645,7 @@ If the tear layer effect were ignored, the patient would be slightly under-corre
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-A boy has a near point of 50 cm and a far point of 500 cm. Will a $$-4.00
-\text{D} $$ lens correct his far point to infinity?
+A boy has a near point of 50 cm and a far point of 500 cm. Will a $$-4.00 \text{D} $$ lens correct his far point to infinity?
 
 </div>
 <div class="solution" markdown="1">
@@ -1734,4 +1730,4 @@ laser vision correction
 : a medical procedure used to correct astigmatism and eyesight deficiencies such
 as myopia and hyperopia
 
-</div>
+</div>

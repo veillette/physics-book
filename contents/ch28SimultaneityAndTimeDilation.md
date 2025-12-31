@@ -203,9 +203,8 @@ where
 
 This equation for $$\Delta t $$ is truly remarkable. First, as contended,
 elapsed time is not the same for different observers moving relative to one
-another, even though both are in inertial frames. Proper time $$\Delta {t}\_{0}
+another, even though both are in inertial frames. Proper time $$\Delta {t}\_{0} $$
 
-$$
 measured by an observer, like the astronaut moving with the apparatus, is
 smaller than time measured by other observers. Since those other observers
 measure a longer time $$\Delta t $$ , the effect is called time dilation. The
@@ -215,8 +214,7 @@ in the moving frame, since less time passes there. All clocks moving relative to
 an observer, including biological clocks such as aging, are observed to run slow
 compared with a clock stationary relative to the observer.
 
-Note that if the relative velocity is much less than the speed of light ( $$v
-\ll c $$ ), then $$\frac{ {v}^{2}}{ {c}^{2}} $$ is extremely small, and the
+Note that if the relative velocity is much less than the speed of light ( $$v \ll c $$ ), then $$\frac{ {v}^{2}}{ {c}^{2}} $$ is extremely small, and the
 elapsed times $$\Delta t $$ and $$\Delta {t}_{0} $$ are nearly equal. At low
 velocities, modern relativity approaches classical physics—our everyday
 experiences have very small relativistic effects.
@@ -228,8 +226,7 @@ frame stops at the speed of light. If $$v $$ exceeded $$c $$ , then we would be
 taking the square root of a negative number, producing an imaginary value for
 $$\Delta t $$.
 
-There is considerable experimental evidence that the equation $$\Delta t={\gamma
-\Delta t}_{0} $$ is correct. One example is found in cosmic ray particles that
+There is considerable experimental evidence that the equation $$\Delta t={\gamma \Delta t}_{0} $$ is correct. One example is found in cosmic ray particles that
 continuously rain down on the Earth from deep space. Some collisions of these
 particles with nuclei in the upper atmosphere result in short-lived particles
 called muons. The half-life (amount of time for half of a material to decay) of
@@ -238,8 +235,7 @@ who measures the half-life. This is the proper time $$\Delta {t}_{0} $$ . Muons
 produced by cosmic ray particles have a range of velocities, with some moving
 near the speed of light. It has been found that the muon’s half-life as measured
 by an Earth-bound observer ( $$\Delta t $$ )
-varies with velocity exactly as predicted by the equation $$\Delta t={\gamma
-\Delta t}_{0} $$ . The faster the muon moves, the longer it lives. We on the
+varies with velocity exactly as predicted by the equation $$\Delta t={\gamma \Delta t}_{0} $$ . The faster the muon moves, the longer it lives. We on the
 Earth see the muon’s half-life time dilated—as viewed from our frame, the muon
 decays more slowly than it does when at rest relative to us.
 
@@ -266,8 +262,7 @@ Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere 
 
 A clock moving with the system being measured observes the proper time, so the
 time we are given is $$\Delta {t}_{0}= 1.52 \mu \text{s} $$ . The Earth-bound
-observer measures $$\Delta t $$ as given by the equation $$\Delta t={\gamma
-\Delta t}_{0} $$ . Since we know the velocity, the calculation is
+observer measures $$\Delta t $$ as given by the equation $$\Delta t={\gamma \Delta t}_{0} $$ . Since we know the velocity, the calculation is
 straightforward.
 
 **Solution**
@@ -386,10 +381,8 @@ Check Your Understanding
 <span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
 {c}^{2}}}}=\frac{1}{\sqrt{1-\frac{ {\left(  0.650c \right)}^{2}}{ {c}^{2}}}}=
 1.32
-$$
 
-2. A particle travels at $$ 1.90 \times 10^{8} \text{m/s} $$ and lives $$ 2.10
-   \times 10^{-8} s $$ when at rest relative to an observer. How long does the
+2. A particle travels at $$ 1.90 \times 10^{8} \text{m/s} $$ and lives $$ 2.10 \times 10^{-8} s $$ when at rest relative to an observer. How long does the
    particle live as viewed in the laboratory?
 
 </div>
@@ -925,10 +918,7 @@ proper time
 : $$\Delta {t}_{0} $$ . the time measured by an observer at rest relative to
 the event being observed:
 
-$$
-\Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma
-\Delta t}_{0} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}
-$$
+$$ \Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \Delta t}_{0} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}
 
 twin paradox
 : this asks why a twin traveling at a relativistic speed away and then back
@@ -936,4 +926,4 @@ towards the Earth ages less than the Earth-bound twin. The premise to the
 paradox is faulty because the traveling twin is accelerating, and special
 relativity does not apply to accelerating frames of reference
 
-</div>
+</div>

@@ -53,8 +53,7 @@ negative for heat transfer out of, and $$T $$ is the absolute temperature at
 which the reversible process takes place. The SI unit for entropy is joules per
 kelvin (J/K). If temperature changes during the process, then it is usually a
 good approximation (for small changes in temperature) to take $$T $$ to be the
-average temperature, avoiding the need to use integral calculus to find $$\Delta
-S $$.
+average temperature, avoiding the need to use integral calculus to find $$\Delta S $$.
 
 The definition of $$\Delta S $$ is strictly valid only for reversible processes,
 such as used in a Carnot engine. However, we can find $$\Delta S $$ precisely
@@ -63,19 +62,16 @@ a system, like internal energy $$U $$ , depends only on the state of the system
 and not how it reached that condition. Entropy is a property of state. Thus the
 change in entropy $$\Delta S $$ of a system between state 1 and state 2 is the
 same no matter how the change occurs. We just need to find or imagine a
-reversible process that takes us from state 1 to state 2 and calculate $$\Delta
-S $$ for that process. That will be the change in entropy for any process going
+reversible process that takes us from state 1 to state 2 and calculate $$\Delta S $$ for that process. That will be the change in entropy for any process going
 from state 1 to state 2. (See [[Figure 2]](#Figure2).)
 
 ![The diagram shows a schematic representation of a system that goes from state one with entropy S sub one to state two with entropy S sub two. The two states are shown as two circles drawn a distance apart. Two arrows represent two different processes to take the system from state one to state two. A straight arrow pointing from state one to state two shows a reversible process. The change in entropy for this process is given by delta S equals Q divided by T. The second process is marked as a curving arrow from state one to state two, showing an irreversible process. The change in entropy for this process is given by delta S sub irreversible equals delta S sub reversible equals S sub two minus S sub one.](../resources/Figure_15_06_02.jpg 'When a system goes from state 1 to state 2, its entropy changes by the same amount ( \\Delta S ), whether a hypothetical reversible path is followed or a real irreversible path is taken. ')
 {: #Figure2}
 
 Now let us take a look at the change in entropy of a Carnot engine and its heat
-reservoirs for one full cycle. The hot reservoir has a loss of entropy $$\Delta
-{S}_{\text{h}}=-{Q}_{\text{h}}/{T}_{\text{h}} $$ , because heat transfer occurs
+reservoirs for one full cycle. The hot reservoir has a loss of entropy $$\Delta {S}_{\text{h}}=-{Q}_{\text{h}}/{T}_{\text{h}} $$ , because heat transfer occurs
 out of it (remember that when heat transfers out, then $$Q $$ has a negative
-sign). The cold reservoir has a gain of entropy $$\Delta {S}_{\text{c}}={Q}_
-{\text{c}}/{T}_{\text{c}} $$ , because heat transfer occurs into it. (We assume
+sign). The cold reservoir has a gain of entropy $$\Delta {S}_{\text{c}}={Q}_ {\text{c}}/{T}_{\text{c}} $$ , because heat transfer occurs into it. (We assume
 the reservoirs are sufficiently large that their temperatures are constant.) So
 the total change in entropy is
 
@@ -83,8 +79,7 @@ the total change in entropy is
  $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{h}}+\Delta {S}_{\text{c}}\text{.} $$
 </div>
 
-Thus, since we know that $${Q}_{\text{h}}/{T}_{\text{h}}={Q}_{\text{c}}/{T}_
-{\text{c}} $$ for a Carnot engine,
+Thus, since we know that $${Q}_{\text{h}}/{T}_{\text{h}}={Q}_{\text{c}}/{T}_ {\text{c}} $$ for a Carnot engine,
 
 <div class="equation" >
  $$\Delta {S}_{\text{tot}}=-\frac{ {Q}_{\text{h}}}{ {T}_{\text{h}}}+\frac{ {Q}_{\text{c}}}{ {T}_{\text{c}}}=0 \text{.} $$
@@ -127,8 +122,7 @@ irreversibly between them, and so it also produces the same changes in entropy.
 
 **Solution**
 
-We now calculate the two changes in entropy using $$\Delta {S}_
-{\text{tot}}=\Delta {S}_{\text{h}}+\Delta {S}_{\text{c}} $$ . First, for the
+We now calculate the two changes in entropy using $$\Delta {S}_ {\text{tot}}=\Delta {S}_{\text{h}}+\Delta {S}_{\text{c}} $$ . First, for the
 heat transfer from the hot reservoir,
 
 <div class="equation" >
@@ -383,8 +377,7 @@ This is a significant increase in entropy accompanying an increase in disorder.
 {: #Figure5}
 
 In another easily imagined example, suppose we mix equal masses of water
-originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0
-\text{ºC} $$ . The result is water at an intermediate temperature of $$30.0
+originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0 \text{ºC} $$ . The result is water at an intermediate temperature of $$30.0
 \text{ºC} $$ . Three outcomes have resulted: entropy has increased, some energy
 has become unavailable to do work, and the system has become less orderly. Let
 us think about each of these results.
@@ -422,8 +415,7 @@ the universe increases. In equation form, we can write this as
  $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{syst}}+\Delta {S}_{\text{envir}}>0. $$
 </div>
 
-Thus $$\Delta {S}_{\text{syst}} $$ can be negative as long as $$\Delta {S}_
-{\text{envir}} $$ is positive and greater in magnitude.
+Thus $$\Delta {S}_{\text{syst}} $$ can be negative as long as $$\Delta {S}_ {\text{envir}} $$ is positive and greater in magnitude.
 
 How is it possible for a system to decrease its entropy? Energy transfer is
 necessary. If I pick up marbles that are scattered about the room and put them
@@ -433,8 +425,7 @@ decreased the entropy of that system. Energy coming from the Sun can decrease
 the entropy of local systems on Earth—that is, $$\Delta {S}_{\text{syst}} $$ is
 negative. But the overall entropy of the rest of the universe increases by a
 greater amount—that is, $$\Delta {S}_{\text{envir}} $$ is positive and greater
-in magnitude. Thus, $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{syst}}+\Delta
-{S}_{\text{envir}}>0 $$ , and the second law of thermodynamics is _not_
+in magnitude. Thus, $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{syst}}+\Delta {S}_{\text{envir}}>0 $$ , and the second law of thermodynamics is _not_
 violated.
 
 Every time a plant stores some solar energy in the form of chemical potential
@@ -1020,4 +1011,4 @@ second law of thermodynamics stated in terms of entropy
 : the total entropy of a system either increases or remains constant; it never
 decreases
 
-</div>
+</div>

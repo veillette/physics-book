@@ -256,8 +256,7 @@ See [[Figure 2]](#Figure2).) Conversely, the resistivity of conductors increases
 with increasing temperature. Since the atoms vibrate more rapidly and over
 larger distances at higher temperatures, the electrons moving through a metal
 make more collisions, effectively making the resistivity higher. Over relatively
-small temperature changes (about $$100 \text{ºC} $$ or less), resistivity $$\rho
-$$ varies with temperature change $$\Delta T $$ as expressed in the following
+small temperature changes (about $$100 \text{ºC} $$ or less), resistivity $$\rho $$ varies with temperature change $$\Delta T $$ as expressed in the following
 equation
 
 <div class="equation" >
@@ -410,10 +409,8 @@ to a typical operating temperature of  $$2850 \text{ºC} $$ ?
 
 **Strategy**
 
-This is a straightforward application of $$R={R}_{0}\left(1+\alpha \Delta
-T\right) $$ , since the original resistance of the filament was given to be
-$${R}\_{0}=0.350 \text{Ω} $$ , and the temperature change is $$\Delta T=2830
-\text{ºC} $$.
+This is a straightforward application of $$R={R}_{0}\left(1+\alpha \Delta T\right) $$ , since the original resistance of the filament was given to be
+$${R}\_{0}=0.350 \text{Ω} $$ , and the temperature change is $$\Delta T=2830 \text{ºC} $$.
 
 **Solution**
 
@@ -452,8 +449,7 @@ Learn about the physics of resistance in a wire. Change its resistivity, length,
 - Values of $$\rho $$ in [[Table 1]](#Table1) show that materials fall into
   three groups—_conductors, semiconductors, and insulators_.
 - Temperature affects resistivity; for relatively small temperature changes
-  $$\Delta T $$ , resistivity is $$\rho ={\rho }_{0}\left(1+\alpha \Delta
-  T\right) $$ , where $${\rho }_{0} $$ is the original resistivity and
+  $$\Delta T $$ , resistivity is $$\rho ={\rho }_{0}\left(1+\alpha \Delta T\right) $$ , where $${\rho }_{0} $$ is the original resistivity and
   $$\text{α} $$ is the temperature coefficient of resistivity.
 - [[Table 2]](#Table2) gives values for $$\alpha $$ , the temperature
   coefficient of resistivity.
@@ -1117,8 +1113,7 @@ A temperature of 40.0°C (104°F) indicates a significant fever and would warran
 **Integrated Concepts**
 
 (a) Redo [[Exercise 2]](#Exercise2) taking into account the thermal expansion of
-the tungsten filament. You may assume a thermal expansion coefficient of $$12
-\times 10^{-6} /\text{ºC} $$ .
+the tungsten filament. You may assume a thermal expansion coefficient of $$12 \times 10^{-6} /\text{ºC} $$ .
 (b) By what percentage does your answer differ from that in the example?
 
 </div>
@@ -1265,4 +1260,4 @@ temperature coefficient of resistivity
 : an empirical quantity, denoted by _α_, which describes the change in
 resistance or resistivity of a material with temperature
 
-</div>
+</div>

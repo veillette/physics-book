@@ -29,8 +29,7 @@ of centripetal force $$\mag{F\_\text{c} } $$ is
 $$ \mag{F_\text{c}} = m \mag{ \ac }. $$
 </div>
 
-By using the expressions for the magnitude of the centripetal acceleration $$
-\mag{ \ac } $$ from $$ \ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
+By using the expressions for the magnitude of the centripetal acceleration $$ \mag{ \ac } $$ from $$ \ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
 expressions for the magnitude of the centripetal force $$ \mag{F\_\text{c} } $$
 in terms of mass, velocity, angular velocity, and radius of curvature:
 
@@ -124,14 +123,11 @@ digits.)
 
 **Discussion**
 
-We could also solve part (a) using the first expression in $$ \left.
-\begin{array}{lll} F_{\text{c}}&=&m\frac{ v^{2}}{r}\\ F_
-{\text{c}}&=&mr\omega^{2} \end{array} \right\} , $$ because $$m$$, $$v$$, and
+We could also solve part (a) using the first expression in $$ \left. \begin{array}{lll} F_{\text{c}}&=&m\frac{ v^{2}}{r}\\ F_ {\text{c}}&=&mr\omega^{2} \end{array} \right\} , $$ because $$m$$, $$v$$, and
 $$r$$ are given. The coefficient of friction found in part (b) is much smaller
 than is typically found between tires and roads. The car will still negotiate
 the curve if the coefficient is greater than 0.13, because static friction is a
-responsive force, being able to assume a value less than but no more than $$
-\mu_{\s} N $$. A higher coefficient would also allow the car to negotiate the
+responsive force, being able to assume a value less than but no more than $$ \mu_{\s} N $$. A higher coefficient would also allow the car to negotiate the
 curve at a higher speed, but if the coefficient of friction is less, the safe
 speed would be less than 25 m/s. Note that mass cancels, implying that in this
 example, it does not matter how heavily loaded the car is to negotiate the turn.
@@ -188,8 +184,7 @@ thus,
 </div>
 
 Now we can combine the last two equations to eliminate $$ N $$ and get an
-expression for $$ \theta $$, as desired. Solving the second equation for $$
-N=mg/\left( \cos{\theta} \right) $$, and substituting this into the first yields
+expression for $$ \theta $$, as desired. Solving the second equation for $$ N=mg/\left( \cos{\theta} \right) $$, and substituting this into the first yields
 
 <div class="equation">
  $$ mg \frac{ \sin{\theta} }{\cos{\theta} }=\frac{ m v^{2}}{r} $$
@@ -708,8 +703,7 @@ A large centrifuge, like the one shown in [Figure 9](#Figure9)(a), is used to ex
 rider is 15.0 m from the center of rotation?
 
 (b) The rider’s cage hangs on a pivot at the end of the arm, allowing it to
-swing outward during rotation as shown in [Figure 9](#Figure9)(b). At what angle $$
-\theta $$ below the horizontal will the cage hang when the centripetal
+swing outward during rotation as shown in [Figure 9](#Figure9)(b). At what angle $$ \theta $$ below the horizontal will the cage hang when the centripetal
 acceleration is $$ 10 g $$ ? (Hint: The arm supplies centripetal force and
 supports the weight of the cage. Draw a free body diagram of the forces to see
 what the angle $$ \theta $$ should be.)
@@ -956,4 +950,4 @@ banked curve
 : the curve in a road that is sloping in a manner that helps a vehicle negotiate
 the curve
 
-</div>
+</div>

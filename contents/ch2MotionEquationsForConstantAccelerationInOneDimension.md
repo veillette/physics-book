@@ -30,12 +30,9 @@ Since elapsed time is $$ \Delta t=t_{f}-t_{0} $$, taking $$ t_{0}=0 $$ means
 that $$ \Delta t=t_{f} $$, the final time on the stopwatch. When initial time is
 taken to be zero, we use the subscript 0 to denote initial values of position
 and velocity. That is, $$ x_{0} $$ is the *initial position* and $$ v_{0} $$ is
-the *initial velocity*. We put no subscripts on the final values. That is, $$ t
-$$ is the _final time_, $$ x $$ is the _final position_, and $$ v $$ is the
-_final velocity_. This gives a simpler expression for elapsed time—now, $$ \Delta
-t=t $$. It also simplifies the expression for displacement, which is now $$
-\Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity,
-which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified
+the *initial velocity*. We put no subscripts on the final values. That is, $$ t $$ is the _final time_, $$ x $$ is the _final position_, and $$ v $$ is the
+_final velocity_. This gives a simpler expression for elapsed time—now, $$ \Delta t=t $$. It also simplifies the expression for displacement, which is now $$
+\Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity, which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified
 notation, with the initial time taken to be zero,
 
 <div class="equation">
@@ -99,8 +96,7 @@ The equation $$ \overline{v}=\frac{ v_{0}+v}{2} $$ reflects the fact that, when
 acceleration is constant, $$ v $$ is just the simple average of the initial and
 final velocities. For example, if you steadily increase your velocity (
 that is, with constant acceleration) from 30 to 60 km/h, then your average
-velocity during this steady increase is 45 km/h. Using the equation $$
-\overline{v}=\frac{ v_{0}+v}{2} $$ to check this, we see that
+velocity during this steady increase is 45 km/h. Using the equation $$ \overline{v}=\frac{ v_{0}+v}{2} $$ to check this, we see that
 
 <div class="equation">
  $$ \overline{v}=\frac{ v_{0}+v}{2}=\frac{30 \text{km/h}+60 \text{km/h}}{2}=45 \text{km/h,} $$
@@ -132,8 +128,7 @@ and $$ t $$ from the statement of the problem and substitute them into the equat
 
 **Solution**
 
-1\. Identify the knowns. $$ \overline{v}=4.00 \ms $$, $$ \Delta t=2.00
-\text{min} $$, and $$ x\_{0}=0 \m $$.
+1\. Identify the knowns. $$ \overline{v}=4.00 \ms $$, $$ \Delta t=2.00 \text{min} $$, and $$ x\_{0}=0 \m $$.
 
 2\. Enter the known values into the equation.
 
@@ -151,8 +146,7 @@ same direction.
 The equation $$ x=x\_{0}+\overline{v}t $$ gives insight into the relationship
 between displacement, average velocity, and time. It shows, for example, that
 displacement is a linear function of average velocity. (By linear function, we
-mean that displacement depends on $$ \overline{v} $$ rather than on $$
-\overline{v} $$ raised to some other power, such as $$ {\overline{v}}^{2} $$.
+mean that displacement depends on $$ \overline{v} $$ rather than on $$ \overline{v} $$ raised to some other power, such as $$ {\overline{v}}^{2} $$.
 When graphed, linear functions look like straight lines with a constant slope.)
 On a car trip, for example, we will get twice as far in a given time if we
 average 90 km/h than if we average 45 km/h.
@@ -198,9 +192,7 @@ velocity vector because the plane is decelerating.
 
 **Solution**
 
-1\. Identify the knowns. $$ v\_{0}=70.0 \ms $$, $$ a=-1.50 \mss $$, $$ t=40.0\s
-
-$$
+1\. Identify the knowns. $$ v\_{0}=70.0 \ms $$, $$ a=-1.50 \mss $$, $$ t=40.0\s $$
 .
 
 2\. Identify the unknown. In this case, it is final velocity, $$ v_{f} $$.
@@ -344,8 +336,7 @@ dragsters can do a quarter mile in even less time than this.
 
 </div>
 
-What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a
-t^{2} ? $$ We see that:
+What else can we learn by examining the equation $$ x=x_{0}+v_{0}t+\frac{1}{2}a t^{2} ? $$ We see that:
 
 * displacement depends on the square of the elapsed time when acceleration is
   not zero. In [Example 3](#example3), the dragster covers only one
@@ -398,8 +389,7 @@ starts from rest. Then we note that $$ x-x_{0}=402 \m $$
 (this was the answer in [Example 3](#example3)). Finally, the average
 acceleration was given to be $$ a=26.0 \mss $$.
 
-2\. Plug the knowns into the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_
-{0}\right) $$ and solve for $$ v. $$
+2\. Plug the knowns into the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_ {0}\right) $$ and solve for $$ v. $$
 <div class="equation">
  $$ v^{2}=0+2 \left(26.0 \mss \right) \left(402 \m \right) . $$
 </div>
@@ -423,8 +413,7 @@ as the acceleration.
 
 </div>
 
-An examination of the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right)
-$$ can produce further insights into the general relationships among physical
+An examination of the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$ can produce further insights into the general relationships among physical
 quantities:
 
 * The final velocity depends on how large the acceleration is and the distance
@@ -488,11 +477,8 @@ this explicitly in the next several examples, using tables to set them off.
 
 **Solution for (a)**
 
-1\. Identify the knowns and what we want to solve for. We know that $$ v_
-{0}=30.0 \ms $$; $$ v=0 $$; $$ a=-7.00\mss $$
-( $$ a $$ is negative because it is in a direction opposite to velocity). We
-take $$ x_{0} $$ to be 0. We are looking for displacement $$ \Delta x $$, or $$
-x-x_{0} $$.
+1\. Identify the knowns and what we want to solve for. We know that $$ v_ {0}=30.0 \ms $$; $$ v=0 $$; $$ a=-7.00\mss $$ ( $$ a $$ is negative because it is in a direction opposite to velocity). We
+take $$ x_{0} $$ to be 0. We are looking for displacement $$ \Delta x $$, or $$ x-x_{0} $$.
 
 2\. Identify the equation that will help up solve the problem. The best equation
 to use is
@@ -539,11 +525,9 @@ stopping time. It is reasonable to assume that the velocity remains constant
 during the driver’s reaction time.
 
 1\. Identify the knowns and what we want to solve for. We know that
-$$
 
 \overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_
-{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are
-looking for $$ x_{\text{reaction}} $$.
+{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$.
 
 2\. Identify the best equation to use. $$ x=x\_{0}+\overline{v}t $$ works well
 because the only unknown value is $$ x $$, which is what we want to solve for.
@@ -602,11 +586,9 @@ equation with one unknown, $$ t $$).
 
 **Solution**
 
-1\. Identify the knowns and what we want to solve for. We know that $$ v\_{0}=10
-\ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
+1\. Identify the knowns and what we want to solve for. We know that $$ v\_{0}=10 \ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
 
-2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_
-{0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
+2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_ {0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
 is the variable $$ t $$ for which we need to solve.
 
 3\. We will need to rearrange the equation to solve for $$ t $$. In this case,
@@ -718,8 +700,7 @@ Rearrange to solve for $$ t $$.
 
 ### Section Summary
 
-- To simplify calculations we take acceleration to be constant, so that $$
-  \overline{a}=a $$ at all times.
+- To simplify calculations we take acceleration to be constant, so that $$ \overline{a}=a $$ at all times.
 - We also take initial time to be zero.
 - Initial position and velocity are given a subscript 0; final values have no
   subscript. Thus,
@@ -1618,8 +1599,7 @@ A woodpecker's brain is specially protected from large decelerations by
 tendon-like attachments inside the skull. While pecking on a tree, the
 woodpecker's head comes to a stop from an initial velocity of 0.600 m/s in a
 distance of only 2.00 mm.
-(a) Find the acceleration in $$ \mss $$ and in multiples of $$ g\left(g=9.80\mss
-\right) $$.
+(a) Find the acceleration in $$ \mss $$ and in multiples of $$ g\left(g=9.80\mss \right) $$.
 (b) Calculate the stopping time.
 (c) The tendons cradling the brain stretch, making its stopping distance 4.50
 mm ( greater than the head and, hence, less deceleration of the brain). What is
@@ -2381,4 +2361,4 @@ did it take Burt to complete the course?
 (a) $$ v=12.2 \ms $$; $$ a=4.07 \mss $$
 (b) $$ v=11.2 \ms $$
 </div>
-</div>
+</div>

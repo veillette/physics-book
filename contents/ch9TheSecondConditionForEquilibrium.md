@@ -73,19 +73,15 @@ so that
 The perpendicular lever arm $$ r_{\perp } $$ is the shortest distance from the
 pivot point to the line along which $$ \vb{F} $$ acts; it is shown as a dashed
 line in [Figure 1](#Figure1)
-and [Figure 2](#Figure2). Note that the line segment that defines the distance $$
-r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
+and [Figure 2](#Figure2). Note that the line segment that defines the distance $$ r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
 sometimes easier to find or visualize $$ r_{\perp } $$ than to find both $$ r $$
-and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_
-{\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
+and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_ {\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
 equally valid.
 
-The **SI unit of torque** is newtons times meters, usually written as $$ \N ·\m
+The **SI unit of torque** is newtons times meters, usually written as $$ \N ·\m $$
 
-$$
 . For example, if you push perpendicular to the door with a force of 40 N at a
-distance of 0.800 m from the hinges, you exert a torque of $$ 32 \text{N·m} (
-0.800 \m · 40 \N \sin{90^\circ} ) $$ relative to the hinges. If you reduce the
+distance of 0.800 m from the hinges, you exert a torque of $$ 32 \text{N·m} ( 0.800 \m · 40 \N \sin{90^\circ} ) $$ relative to the hinges. If you reduce the
 force to 20 N, the torque is reduced to $$ 16 \text{N·m} $$, and so on.
 
 The torque is always calculated with reference to some chosen pivot point. For
@@ -263,9 +259,8 @@ location of the seesaw’s actual pivot!
 Several aspects of the preceding example have broad implications. First, the
 choice of the pivot as the point around which torques are calculated simplified
 the problem. Since $$ F_{\text{p}} $$ is exerted on the pivot point, its lever
-arm is zero. Hence, the torque exerted by the supporting force $$ F_{\text{p}}
+arm is zero. Hence, the torque exerted by the supporting force $$ F_{\text{p}} $$
 
-$$
 is zero relative to that pivot point. The second condition for equilibrium
 holds for any choice of pivot point, and so we choose the pivot point to
 simplify the solution of the problem.
@@ -302,10 +297,8 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
   </div>
 
 where $$ \tau $$ is torque, $$ r $$ is the distance from the pivot point to the
-point where the force is applied, $$ F $$ is the magnitude of the force, and $$
-\theta $$ is the angle between $$ \vb{F} $$ and the vector directed from the
-point where the force acts to the pivot point. The perpendicular lever arm $$ r_
-{\perp } $$ is defined to be
+point where the force is applied, $$ F $$ is the magnitude of the force, and $$ \theta $$ is the angle between $$ \vb{F} $$ and the vector directed from the
+point where the force acts to the pivot point. The perpendicular lever arm $$ r_ {\perp } $$ is defined to be
 
   <div class="equation">
  $$ r_{\perp }=r\sin{\theta} $$
@@ -619,9 +612,8 @@ torque
 : turning or twisting effectiveness of a force
 
 perpendicular lever arm
-: the shortest distance from the pivot point to the line along which $$ \vb{F}
+: the shortest distance from the pivot point to the line along which $$ \vb{F} $$
 
-$$
 lies
 
 SI units of torque
@@ -630,5 +622,4 @@ SI units of torque
 center of gravity
 : the point where the total weight of the body is assumed to be concentrated
 
-</div>
-$$
+</div>

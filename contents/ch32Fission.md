@@ -60,9 +60,8 @@ given the atomic masses to be  $$m\left({}^{238}\text{U}\right)=238.050784 \text
 **Strategy**
 
 As always, the energy released is equal to the mass destroyed times $${c}^{2} $$
-, so we must find the difference in mass between the parent $${}^{238}\text{U}
+, so we must find the difference in mass between the parent $${}^{238}\text{U} $$
 
-$$
 and the fission products.
 
 **Solution**
@@ -157,15 +156,13 @@ $${}^{239}\text{Pu} $$ .
 The reason $${}^{235}\text{U} $$ and $${}^{239}\text{Pu} $$ are easier to
 fission than $${}^{238}\text{U} $$ is that the nuclear force is more attractive
 for an even number of neutrons in a nucleus than for an odd number. Consider
-that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_
-{94}^{239}{\text{P}}_{145} $$ has 145 neutrons, whereas $${}_
+that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_ {94}^{239}{\text{P}}_{145} $$ has 145 neutrons, whereas $${}_
 {92}^{238}{\text{U}}_{146} $$ has 146. When a neutron encounters a nucleus with
 an odd number of neutrons, the nuclear force is more attractive, because the
 additional neutron will make the number even. About 2-MeV more energy is
 deposited in the resulting nucleus than would be the case if the number of
 neutrons was already even. This extra energy produces greater deformation,
-making fission more likely. Thus, $${}^{235}\text{U} $$ and $${}^{239}\text{Pu}
-$$ are superior fission fuels. The isotope $${}^{235}\text{U} $$ is only 0.72 %
+making fission more likely. Thus, $${}^{235}\text{U} $$ and $${}^{239}\text{Pu} $$ are superior fission fuels. The isotope $${}^{235}\text{U} $$ is only 0.72 %
 of natural uranium, while $${}^{238}\text{U} $$ is 99.27%, and
 $${}^{239}\text{Pu} $$ does not exist in nature. Australia has the largest
 deposits of uranium in the world, standing at 28% of the total. This is followed
@@ -223,8 +220,7 @@ number of $${}^{235}\text{U} $$ atoms in 1.00 kg.
 
 The number of $${}^{235}\text{U} $$ atoms in 1.00 kg is Avogadro’s number times
 the number of moles. One mole of $${}^{235}\text{U} $$ has a mass of 235.04 g;
-thus, there are $$\left(1000 \text{g}\right)/\left(235.04 \text{g/mol}\right)
-=4.25 \text{mol} $$ . The number of $${}^{235}\text{U} $$ atoms is therefore,
+thus, there are $$\left(1000 \text{g}\right)/\left(235.04 \text{g/mol}\right) =4.25 \text{mol} $$ . The number of $${}^{235}\text{U} $$ atoms is therefore,
 
 <div class="equation" >
  $$\left(4.25 mol\right)\left( 6.02 \times 10^{23}  {}^{235}\text{U/mol}\right)= 2.56 \times 10^{24}  {}^{235}\text{U}. $$
@@ -273,8 +269,7 @@ Neptunium-239 also $${\beta }^{-} $$ decays:
 
 Plutonium-239 builds up in reactor fuel at a rate that depends on the
 probability of neutron capture by $${}^{238}\text{U} $$
-(all reactor fuel contains more $${}^{238}\text{U} $$ than $${}^{235}\text{U}
-$$ )  . Reactors designed specifically to make plutonium are called **breeder
+(all reactor fuel contains more $${}^{238}\text{U} $$ than $${}^{235}\text{U} $$ )  . Reactors designed specifically to make plutonium are called **breeder
 reactors**. They seem to be inherently more hazardous than conventional
 reactors, but it remains unknown whether their hazards can be made economically
 acceptable. The four reactors at Chernobyl, including the one that was
@@ -309,14 +304,12 @@ Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Co
 * Nuclear fission is a reaction in which a nucleus is split.
 * Fission releases energy when heavy nuclei are split into medium-mass nuclei.
 * Self-sustained fission is possible, because neutron-induced fission also
-  produces neutrons that can induce other fissions, $$n+{}^{A}X\to {\text{FF}}_
-  {1}+{\text{FF}}_{2}+\text{xn} $$ , where $${\text{FF}}_{1} $$ and
+  produces neutrons that can induce other fissions, $$n+{}^{A}X\to {\text{FF}}_ {1}+{\text{FF}}_{2}+\text{xn} $$ , where $${\text{FF}}_{1} $$ and
   $${\text{FF}}_{2} $$ are the two daughter nuclei, or fission fragments, and *x* is the number of neutrons produced.
 * A minimum mass, called the critical mass, should be present to achieve
   criticality.
 * More than a critical mass can produce supercriticality.
-* The production of new or different isotopes (especially $${}^{239}\text{Pu}
-  $$ )   by nuclear transformation is called breeding, and reactors designed for
+* The production of new or different isotopes (especially $${}^{239}\text{Pu} $$ )   by nuclear transformation is called breeding, and reactors designed for
   this purpose are called breeder reactors.
 
 ### Conceptual Questions
@@ -524,8 +517,7 @@ The naturally occurring radioactive isotope  $${}^{232}\text{Th} $$
 (a) What are $$Z $$ and $$N $$ for $${}^{232}\text{Th} $$ ?
 
 (b) Write the reaction equation for neutron captured by $${}^{232}\text{Th} $$
-and identify the nuclide $${}^{A}X $$ produced in $$n+{}^{232}\text{Th}\to
-{}^{A}X+\gamma $$.
+and identify the nuclide $${}^{A}X $$ produced in $$n+{}^{232}\text{Th}\to {}^{A}X+\gamma $$.
 
 (c) The product nucleus $${\beta }^{-} $$ decays, as does its daughter. Write
 the decay equations for each, and identify the final nucleus.
@@ -667,5 +659,4 @@ neutron-induced fission
 supercriticality
 : an exponential increase in fissions
 
-</div>
-$$
+</div>
