@@ -272,9 +272,9 @@ function parser() {
       const caption = document.createElement('figcaption');
       // Get title and fix math delimiters
       let captionText = img.getAttribute('title');
-      // Convert '( \theta... )' to '\( \theta... \)' for MathJax
-      captionText = captionText.replace(/\(\s+/g, '\\(');
-      captionText = captionText.replace(/\s+\)/g, '\\)');
+      // Convert '( \theta... )' to '$\theta...$' for MathJax (simpler and preserves backslashes)
+      captionText = captionText.replace(/\(\s+/g, '$');
+      captionText = captionText.replace(/\s+\)/g, '$');
       // Create a text node to preserve backslashes, then append
       caption.appendChild(document.createTextNode(captionText));
       figure.appendChild(caption);
@@ -282,8 +282,8 @@ function parser() {
         const title = document.createElement('div');
         title.className = 'title';
         let titleText = img.getAttribute('data-title');
-        titleText = titleText.replace(/\(\s+/g, '\\(');
-        titleText = titleText.replace(/\s+\)/g, '\\)');
+        titleText = titleText.replace(/\(\s+/g, '$');
+        titleText = titleText.replace(/\s+\)/g, '$');
         title.appendChild(document.createTextNode(titleText));
         figure.insertBefore(title, img);
       }
