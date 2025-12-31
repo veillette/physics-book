@@ -2,16 +2,8 @@ MathJax = {
   options: {
     // Skip processing elements with this class (for lazy loading)
     ignoreHtmlClass: 'mathjax-skip',
-    // Enable accessible MathML output
-    enableAssistiveMml: true,
-    // MathJax 4 uses explorer component by default for accessibility
-    // (assistive-mml was the default in v2/v3, but explorer replaced it in v4)
-    menuOptions: {
-      settings: {
-        assistiveMml: true,
-        explorer: false, // Disable explorer to avoid prohibited ARIA attributes
-      },
-    },
+    // Disable context menu to avoid ARIA issues with menu items
+    enableMenu: false,
   },
   tex: {
     inlineMath: [
