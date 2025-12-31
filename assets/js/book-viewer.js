@@ -742,8 +742,15 @@ function parser() {
     ) {
       const href = target.getAttribute('href');
 
-      // Don't intercept file downloads (PDF, ZIP, etc.)
-      const fileExtensions = /\.(pdf|zip|tar|gz|rar|7z|doc|docx|xls|xlsx|ppt|pptx)$/i;
+      // Open PDFs in new tab to use browser's PDF viewer
+      if (/\.pdf$/i.test(href)) {
+        event.preventDefault();
+        window.open(href, '_blank');
+        return;
+      }
+
+      // Don't intercept other file downloads (ZIP, etc.)
+      const fileExtensions = /\.(zip|tar|gz|rar|7z|doc|docx|xls|xlsx|ppt|pptx)$/i;
       if (fileExtensions.test(href)) {
         // Let the browser handle file downloads normally
         return;
