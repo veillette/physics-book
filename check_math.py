@@ -347,11 +347,11 @@ def check_ch4_newtons_second_law():
     errors = []
 
     # Example 1: Lawn mower - F_net = 51 N, m = 24 kg
-    # a = F/m = 51/24 = 2.125 m/s^2 (given as 2.1)
+    # a = F/m = 51/24 = 2.125 m/s^2 (given as 2.13, rounded to 3 sig figs)
     F_net = 51
     m = 24
     a_calc = F_net / m
-    expected_a = 2.1
+    expected_a = 2.13
     error_pct = abs(a_calc - expected_a) / abs(expected_a) * 100
     if error_pct > 1:
         errors.append(f"ch4NewtonsSecondLaw: lawn mower acceleration error {error_pct:.2f}% (calc={a_calc:.2f}, expected={expected_a})")
