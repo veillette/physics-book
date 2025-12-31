@@ -372,36 +372,22 @@ function parser() {
    * @param {Element} els - The element containing math to typeset
    */
   const typesetMath = els => {
-    console.log('[MathJax Debug] typesetMath called, els:', els);
-    console.log('[MathJax Debug] Element in DOM:', document.contains(els));
-
     const doTypeset = () => {
       if (typeof MathJax !== 'undefined' && MathJax.startup && MathJax.startup.promise) {
-        console.log('[MathJax Debug] MathJax is ready, calling typesetPromise');
-        // Don't reassign MathJax.startup.promise - just wait for it and then typeset
         MathJax.startup.promise
           .then(() => {
-            console.log('[MathJax Debug] Clearing previous typeset content');
             // Clear any previously typeset content in this element
             MathJax.typesetClear([els]);
-            console.log('[MathJax Debug] About to typeset element:', els);
             return MathJax.typesetPromise([els]);
           })
-          .then(() => {
-            console.log('[MathJax Debug] Typeset completed successfully');
-          })
-          .catch(err => console.log('[MathJax Debug] Typeset failed: ' + err.message));
+          .catch(err => console.error('MathJax typeset failed:', err.message));
       } else {
-        console.log('[MathJax Debug] MathJax not ready yet, retrying in 100ms');
         setTimeout(doTypeset, 100);
       }
     };
 
     // Use requestAnimationFrame to ensure DOM is ready
-    requestAnimationFrame(() => {
-      console.log('[MathJax Debug] requestAnimationFrame - Element in DOM:', document.contains(els));
-      doTypeset();
-    });
+    requestAnimationFrame(doTypeset);
   };
 
   /**
