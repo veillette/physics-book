@@ -6,10 +6,10 @@ const BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
         <a href="#" class="btn toggle-summary" aria-label="Toggle navigation">
             <span class="menu-icon"></span>
         </a>
-        <div class="book-summary">
-        </div>
+        <nav class="book-summary" role="navigation" aria-label="Table of contents">
+        </nav>
 
-          <div class="book-body">
+          <main class="book-body" role="main">
             <div class="body-inner">
               <div class="page-wrapper" tabindex="-1">
                 <div class="page-inner">
@@ -19,7 +19,7 @@ const BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
                 </div>
               </div>
             </div>
-          </div>
+          </main>
         </div>`;
 
 function docReady(fn) {
@@ -398,6 +398,7 @@ function parser() {
         const a = document.createElement('a');
         a.className = 'header-link';
         a.setAttribute('href', '#' + id);
+        a.setAttribute('aria-label', `Link to section: ${el.textContent.trim()}`);
         a.appendChild(icon);
         el.insertBefore(a, el.firstChild);
       }
