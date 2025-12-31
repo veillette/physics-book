@@ -365,19 +365,39 @@ function parser() {
         el.insertBefore(a, el.firstChild);
       }
     });
+  };
 
-    // Wait for MathJax to be ready, then typeset the content
-    const typesetMath = () => {
+  /**
+   * Typeset MathJax content after element is in DOM
+   * @param {Element} els - The element containing math to typeset
+   */
+  const typesetMath = els => {
+    console.log('[MathJax Debug] typesetMath called, els:', els);
+    console.log('[MathJax Debug] Element in DOM:', document.contains(els));
+
+    const doTypeset = () => {
       if (typeof MathJax !== 'undefined' && MathJax.startup && MathJax.startup.promise) {
+        console.log('[MathJax Debug] MathJax is ready, calling typesetPromise');
         MathJax.startup.promise = MathJax.startup.promise
-          .then(() => MathJax.typesetPromise([els]))
-          .catch(err => console.log('Typeset failed: ' + err.message));
+          .then(() => {
+            console.log('[MathJax Debug] About to typeset element:', els);
+            return MathJax.typesetPromise([els]);
+          })
+          .then(() => {
+            console.log('[MathJax Debug] Typeset completed successfully');
+          })
+          .catch(err => console.log('[MathJax Debug] Typeset failed: ' + err.message));
       } else {
-        // MathJax not loaded yet, wait and retry
-        setTimeout(typesetMath, 100);
+        console.log('[MathJax Debug] MathJax not ready yet, retrying in 100ms');
+        setTimeout(doTypeset, 100);
       }
     };
-    typesetMath();
+
+    // Use requestAnimationFrame to ensure DOM is ready
+    requestAnimationFrame(() => {
+      console.log('[MathJax Debug] requestAnimationFrame - Element in DOM:', document.contains(els));
+      doTypeset();
+    });
   };
 
   /**
@@ -502,6 +522,8 @@ function parser() {
   altPage.append(...originalPage);
   newPageBeforeRender(altPage, new URL(window.location.href).pathname);
   bookPage.append(altPage);
+  // Typeset MathJax after content is in DOM
+  typesetMath(altPage);
 
   /**
    *
@@ -550,6 +572,8 @@ function parser() {
       altPage.append(...htmlDivElement.childNodes);
       newPageBeforeRender(altPage, href);
       bookPage.append(altPage);
+      // Typeset MathJax after content is in DOM
+      typesetMath(altPage);
 
       book.classList.remove('loading');
 
