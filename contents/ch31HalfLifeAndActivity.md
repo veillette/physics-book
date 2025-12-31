@@ -69,12 +69,8 @@ the decay constant $$\lambda $$ and the half-life $${t}_{1/2} $$ is
 </div>
 
 To see how the number of nuclei declines to half its original value in one
-half-life, let $$t={t}_{1/2} $$ in the exponential in the equation $$N={N}_
-{0}{e}^{-\lambda t} $$ . This gives $$N={N}_{0}{e}^{-\lambda t}={N}_
-{0}{e}^{-0.693}=0.500{N}_{0} $$ . For integral numbers of half-lives, you can
-just divide the original number by 2 over and over again, rather than using the
-exponential relationship. For example, if ten half-lives have passed, we divide
-$$N $$ by 2 ten times. This reduces it to $$N/1024 $$ . For an arbitrary time,
+half-life, let $$t={t}_{1/2} $$ in the exponential in the equation $$N={N}_ {0}{e}^{-\lambda t} $$ . This gives $$N={N}_{0}{e}^{-\lambda t}={N}_
+{0}{e}^{-0.693}=0.500{N}_{0} $$ . For integral numbers of half-lives, you can just divide the original number by 2 over and over again, rather than using the exponential relationship. For example, if ten half-lives have passed, we divide $$N $$ by 2 ten times. This reduces it to $$N/1024 $$ . For an arbitrary time,
 not just a multiple of the half-life, the exponential relationship must be used.
 
 **Radioactive dating** is a clever use of naturally occurring radioactivity. Its
@@ -128,11 +124,9 @@ Calculate the age of the Shroud of Turin given that the amount of  $${}^{14}\tex
 
 **Strategy**
 
-Knowing that 92% of the $${}^{14}\text{C} $$ remains means that $$N/{N}_{0}=
-0.92 $$ . Therefore, the equation $$N={N}_{0}{e}^{-\lambda t} $$ can be used to
+Knowing that 92% of the $${}^{14}\text{C} $$ remains means that $$N/{N}_{0}= 0.92 $$ . Therefore, the equation $$N={N}_{0}{e}^{-\lambda t} $$ can be used to
 find $$\lambda t $$ . We also know that the half-life of $${}^{14}\text{C} $$ is
-5730 y, and so once $$\lambda t $$ is known, we can use the equation $$\lambda
-=\frac{ 0.693}{ {t}_{1/2}} $$ to find $$\lambda $$ and then find $$t $$ as
+5730 y, and so once $$\lambda t $$ is known, we can use the equation $$\lambda =\frac{ 0.693}{ {t}_{1/2}} $$ to find $$\lambda $$ and then find $$t $$ as
 requested. Here, we postulate that the decrease in $${}^{14}\text{C} $$ is
 solely due to nuclear decay.
 
@@ -231,8 +225,7 @@ Marie Curie’s work with radium. The definition of curie is
 </div>
 
 or $$ 3.70 \times 10^{10} $$ decays per second. A curie is a large unit of
-activity, while a becquerel is a relatively small unit. $$1 \text{MBq}=100
-\text{microcuries} \left(\mu \text{Ci}\right) $$ . In countries like Australia
+activity, while a becquerel is a relatively small unit. $$1 \text{MBq}=100 \text{microcuries} \left(\mu \text{Ci}\right) $$ . In countries like Australia
 and New Zealand that adhere more to SI units, most radioactive sources, such as
 those used in medical diagnostics or in physics laboratories, are labeled in Bq
 or megabecquerel (MBq).
@@ -268,9 +261,7 @@ To find the activity $$R $$ using the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$
 , we must know $$N $$ and $${t}_{1/2} $$ . The half-life of $${}^{14}\text{C} $$
 can be found in [Appendix B](../contents/appendixB), and was stated above as 5730 y. To find
 $$N $$ , we first find the number of $${}^{12}\text{C} $$ nuclei in 1.00 kg of
-carbon using the concept of a mole. As indicated, we then multiply by $$ 1.3
-\times 10^{-12} $$
-(the abundance of $${}^{14}\text{C} $$ in a carbon sample from a living
+carbon using the concept of a mole. As indicated, we then multiply by $$ 1.3 \times 10^{-12} $$ (the abundance of $${}^{14}\text{C} $$ in a carbon sample from a living
 organism) to get the number of $${}^{14}\text{C} $$ nuclei in a living organism.
 
 **Solution**
@@ -364,8 +355,7 @@ It is estimated that the Chernobyl disaster released 6.0 MCi of  $${}^{137}\text
 We can calculate the mass released using Avogadro’s number and the concept of a
 mole if we can first find the number of nuclei $$N $$ released. Since the
 activity $$R $$ is given, and the half-life of $${}^{137}\text{Cs} $$ is found
-in [Appendix B](../contents/appendixB) to be 30.2 y, we can use the equation $$R=\frac{
-0.693N}{ {t}_{1/2}} $$ to find $$N $$.
+in [Appendix B](../contents/appendixB) to be 30.2 y, we can use the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$ to find $$N $$.
 
 **Solution**
 
@@ -478,8 +468,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
    $$R=\frac{ 0.693N}{ {t}_{1/2}}. $$
   </div>
 
-- Since $$N $$ has an exponential behavior as in the equation $$N={N}_
-  {0}{e}^{-\lambda t} $$ , the activity also has an exponential behavior, given
+- Since $$N $$ has an exponential behavior as in the equation $$N={N}_ {0}{e}^{-\lambda t} $$ , the activity also has an exponential behavior, given
   by
 
   <div class="equation" >
@@ -825,12 +814,9 @@ length of the flight.
 **Unreasonable Results**
 
 A nuclear physicist finds $$1.0 \mu \text{g} $$ of $${}^{236}\text{U} $$ in a
-piece of uranium ore and assumes it is primordial since its half-life is $$2.3
-\times 10^{7} \text{y} $$ .
+piece of uranium ore and assumes it is primordial since its half-life is $$2.3 \times 10^{7} \text{y} $$ .
 (a) Calculate the amount of $${}^{236}\text{U} $$ that would had to have been on
-Earth when it formed $$4.5 \times 10^{9} \text{y} $$ ago for $$1.0 \mu \text{g}
-
-$$
+Earth when it formed $$4.5 \times 10^{9} \text{y} $$ ago for $$1.0 \mu \text{g} $$
 to be left today. (b) What is unreasonable about this result? (c) What
 assumption is responsible?
 
@@ -902,6 +888,5 @@ rate of decay
 curie
 : the activity of 1g of $${}^{226}\text{Ra} $$ , equal to $$ 3.70 \times 10^{10}
 \text{Bq}
-$$
 
-</div>
+</div>

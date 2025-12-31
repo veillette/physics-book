@@ -282,12 +282,8 @@ where  $$n $$
 
 The density is obtained by assuming a pressure equal to the vapor pressure of
 water at $$ 20.0\text{ºC} $$ . The density found is identical to the value
-in [[Table 1]](#Table1), which means that a vapor density of $$ 17.2
-{\text{g/m}}^{3} $$ at $$ 20.0\text{ºC} $$ creates a partial pressure of $$ 2.33
-\times 10^{3} \text{Pa} \text{,} $$ equal to the vapor pressure of water at that
-temperature. If the partial pressure is equal to the vapor pressure, then the
-liquid and vapor phases are in equilibrium, and the relative humidity is 100%.
-Thus, there can be no more than 17.2 g of water vapor per $${\text{m}}^{3} $$ at
+in [[Table 1]](#Table1), which means that a vapor density of $$ 17.2 {\text{g/m}}^{3} $$ at $$ 20.0\text{ºC} $$ creates a partial pressure of $$ 2.33
+\times 10^{3} \text{Pa} \text{,} $$ equal to the vapor pressure of water at that temperature. If the partial pressure is equal to the vapor pressure, then the liquid and vapor phases are in equilibrium, and the relative humidity is 100%. Thus, there can be no more than 17.2 g of water vapor per $${\text{m}}^{3} $$ at
 $$ 20.0\text{ºC} $$ , so that this value is the saturation vapor density at that
 temperature. This example illustrates how water vapor behaves like an ideal gas:
 the pressure and density are consistent with the ideal gas law (assuming the
@@ -342,19 +338,15 @@ The first is given to be  $$9.40 {\text{g/m}}^{3} $$ ,
  where the relative humidity will be 100%. That temperature is called the dew point for air with this concentration of water vapor.
 
 (c) Here, the dew point temperature is given to be $$ - 10.0\text{ºC} $$ .
-Using [[Table 1]](#Table1), we see that the vapor density is $$2.36
-{\text{g/m}}^{3} $$ , because this value is the saturation vapor density at $$ -
-10.0\text{ºC} $$ . The saturation vapor density at $$ 25.0\text{ºC} $$ is seen
-to be $$23.0 {\text{g/m}}^{3} $$ . Thus, the relative humidity at $$
-25.0\text{ºC} $$ is
+Using [[Table 1]](#Table1), we see that the vapor density is $$2.36 {\text{g/m}}^{3} $$ , because this value is the saturation vapor density at $$ -
+10.0\text{ºC} $$ . The saturation vapor density at $$ 25.0\text{ºC} $$ is seen to be $$23.0 {\text{g/m}}^{3} $$ . Thus, the relative humidity at $$ 25.0\text{ºC} $$ is
 
 <div class="equation" >
  $$\text{percent relative humidity}=\frac{2.36 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100= 10.3\% \text{.} $$
 </div>
 **Discussion**
 
-The importance of dew point is that air temperature cannot drop below $$
-10.0\text{ºC} $$ in part (b), or $$ - 10.0\text{ºC} $$ in part (c), without
+The importance of dew point is that air temperature cannot drop below $$ 10.0\text{ºC} $$ in part (b), or $$ - 10.0\text{ºC} $$ in part (c), without
 water vapor condensing out of the air. If condensation occurs, considerable
 transfer of heat occurs (discussed
 in [Heat and Heat Transfer Methods](../contents/ch14HeatAndHeatTransfers))
@@ -1050,8 +1042,7 @@ The required pressure is about 4.7 atm (about 70 psi), which is typical for pres
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-(a) How many moles per cubic meter of an ideal gas are there at a pressure of $$
-1.00 \times 10^{14} {\text{N/m}}^{2} $$ and at $$0\text{ºC} $$ ?
+(a) How many moles per cubic meter of an ideal gas are there at a pressure of $$ 1.00 \times 10^{14} {\text{N/m}}^{2} $$ and at $$0\text{ºC} $$ ?
 (b) What is unreasonable about this result? (c) Which premise or assumption is
 responsible?
 
@@ -1116,8 +1107,7 @@ This problem reveals a common misconception about thermal expansion. If the rod 
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-The temperature inside a supernova explosion is said to be $$ 2.00 \times
-10^{13} \text{K} $$ .
+The temperature inside a supernova explosion is said to be $$ 2.00 \times 10^{13} \text{K} $$ .
 (a) What would the average velocity $${v}_{\text{rms}} $$ of hydrogen atoms
 be? (b) What is unreasonable about this velocity? (c) Which premise or
 assumption is responsible?
@@ -1139,8 +1129,7 @@ classical physics must be replaced by relativity, a subject not yet covered.
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-Suppose the relative humidity is 80% on a day when the temperature is $$
-30.0\text{ºC} $$ .
+Suppose the relative humidity is 80% on a day when the temperature is $$ 30.0\text{ºC} $$ .
 (a) What will the relative humidity be if the air cools to $$ 25.0\text{ºC} $$
 and the vapor density remains constant? (b) What is unreasonable about this
 result? (c) Which premise is responsible?
@@ -1193,4 +1182,4 @@ percent relative humidity
 relative humidity
 : the amount of water in the air relative to the maximum amount the air can hold
 
-</div>
+</div>

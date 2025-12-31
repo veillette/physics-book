@@ -21,8 +21,7 @@ Drag Force on a Barge
 </div>
 Suppose two tugboats push on a barge at different angles, as shown in [Figure 1](#Figure1).
 The first tugboat exerts a force of $$ 2.7\times 10^{5}\N $$
-in the *x*-direction, and the second tugboat exerts a force of $$ 3.6\times
-10^{5}\N $$ in the *y*-direction.
+in the *x*-direction, and the second tugboat exerts a force of $$ 3.6\times 10^{5}\N $$ in the *y*-direction.
 
 ![(a) A view from above two tugboats pushing on a barge. One tugboat is pushing with the force F sub x equal to two point seven multiplied by ten to the power five newtons, shown by a vector arrow acting toward the right in the x direction. Another tugboat is pushing with a force F sub y equal to three point six multiplied by ten to the power five newtons acting upward in the positive y direction. Acceleration of the barge, a, is shown by a vector arrow directed fifty-three point one degree angle above the x axis. In the free-body diagram, F sub y is acting on a point upward, F sub x is acting toward the right, and F sub D is acting approximately southwest. (b) A right triangle is made by the vectors F sub x and F sub y. The base vector is shown by the force vector F sub x. and the perpendicular vector is shown by the force vector F sub y. The resultant is the hypotenuse of this triangle, making a fifty-three point one degree angle from the base, shown by the vector force F sub net pointing up the inclination. A vector F sub D points down the incline. ](../resources/Figure_04_07_01.jpg '(a) A view from above of two tugboats pushing on a barge. (b) The free-body diagram for the ship contains only forces acting in the plane of the water. It omits the two vertical forces—the weight of the barge and the buoyant force of the water supporting it cancel and are not shown. Since the applied forces are perpendicular, the x- and y-axes are in the same direction as ( \\vb{F}_x ) and ( \\vb{F}_y ) . The problem quickly becomes a one-dimensional problem along the direction of ( \\vb{F}_{\\text{app}} ), since friction is in the direction opposite to ( \\vb{F}_{\\text{app}} ). ')
 {: #Figure1}
@@ -104,8 +103,7 @@ Substituting known values gives
  $$ F_{\text{D}}=\left(4.5 \times 10^{5}\N \right)-\left(5.0 \times 10^{6}\kg \right)\left(7.5 \times 10^{-2}\mss \right)=7.5 \times 10^{4}\N . $$
 </div>
 The direction of $$ \vb{F}_{\text{D}} $$
-has already been determined to be in the direction opposite to $$
-\vb{F}_{\text{app}} $$, or at an angle of $$ 53^\circ $$ south of west.
+has already been determined to be in the direction opposite to $$ \vb{F}_{\text{app}} $$, or at an angle of $$ 53^\circ $$ south of west.
 
 **Discussion**
 
@@ -167,8 +165,7 @@ Thus,
  $$ T_{2}=\left(1.225\right) T_{1}. $$
 </div>
 Note that $$ T_{1} $$ and $$ T_{2} $$ are not equal in this case, because the angles on either side
-are not equal. It is reasonable that $$ T_{2} $$ ends up being greater than $$
-T_{1} $$, because it is exerted more vertically than $$ T_{1} $$.
+are not equal. It is reasonable that $$ T_{2} $$ ends up being greater than $$ T_{1} $$, because it is exerted more vertically than $$ T_{1} $$.
 
 Now consider the force components along the vertical or _y_-axis:
 
@@ -248,8 +245,7 @@ in [Figure 3](#Figure3)(b). Analysis of the free-body diagram using Newton’s l
 can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
 The only forces acting on the person are his weight $$ \vb{w} $$ and the upward
-force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_
-{\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
+force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_ {\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
 direction, so that we need to find $$ F\_{\s} $$ in order to find what the scale
 reads. We can do this, as usual, by applying Newton’s second law,
 
@@ -492,8 +488,7 @@ the elevator? Explain your answer.
 A flea jumps by exerting a force of $$ 1.20 \times 10^{-5}\N $$
 straight down on the ground. A breeze blowing on the flea parallel to the ground
 exerts a force of $$ 0.500 \times 10^{-6}\N $$ on the flea. Find the
-direction and magnitude of the acceleration of the flea if its mass is $$ 6.00
-\times 10^{-7}\kg $$. Do not neglect the gravitational force.
+direction and magnitude of the acceleration of the flea if its mass is $$ 6.00 \times 10^{-7}\kg $$. Do not neglect the gravitational force.
 
 </div>
 <div class="solution" markdown="1">
@@ -1413,4 +1408,4 @@ This problem demonstrates that extreme accelerations produce uncomfortable force
 (c) The **final velocity of 30.0 m/s is unreasonably high** for an elevator—typical elevators move at 1–10 m/s, not 30 m/s.
 
 </div>
-</div>
+</div>

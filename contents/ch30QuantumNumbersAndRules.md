@@ -46,8 +46,7 @@ magnitude of angular momentum $$L $$ can have only the values
 </div>
 
 where $$l $$ is defined to be the **angular momentum quantum number**. The rule
-for $$l $$ in atoms is given in the parentheses. Given $$n $$ , the value of $$l
-$$ can be any integer from zero up to $$n-1 $$ . For example, if $$n=4 $$ , then
+for $$l $$ in atoms is given in the parentheses. Given $$n $$ , the value of $$l $$ can be any integer from zero up to $$n-1 $$ . For example, if $$n=4 $$ , then
 $$l $$ can be 0, 1, 2, or 3.
 
 Note that for $$n=1 $$ , $$l $$ can only be zero. This means that the
@@ -116,8 +115,7 @@ magnitudes and pointing in the correct directions. $$\vb{L} $$ and
 $${\vb{L}}_{z} $$ form a right triangle, with $$\vb{L} $$ being
 the hypotenuse and $${\vb{L}}_{z} $$ the adjacent side. This means
 that the ratio of $${\vb{L}}_{z} $$ to $$\vb{L} $$ is the cosine of the
-angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_
-{z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_
+angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_ {z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_
 {z}=m\frac{h}{2\pi } $$.
 
 **Solution**
@@ -205,8 +203,7 @@ electron is given by
 </div>
 
 where $$s $$ is defined to be the **spin quantum number**. This is very similar
-to the quantization of $$L $$ given in $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi
-} $$ , except that the only value allowed for $$s $$ for electrons is 1/2.
+to the quantization of $$L $$ given in $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ , except that the only value allowed for $$s $$ for electrons is 1/2.
 
 The _direction of intrinsic spin is quantized_, just as is the direction of
 orbital angular momentum. The direction of spin angular momentum along one
@@ -219,8 +216,7 @@ direction in space, again called the $$z $$ -axis, can have only the values
 for electrons. $${S}_{z} $$ is the ** $$z $$ -component of spin angular
 momentum** and $${m}_{s} $$ is the **spin projection quantum number**. For
 electrons, $$s $$ can only be 1/2, and $${m}_{s} $$ can be either +1/2 or -1/2.
-Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_
-{s}=-1/2 $$ is called _spin down_. These are illustrated
+Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_ {s}=-1/2 $$ is called _spin down_. These are illustrated
 in [[Figure 5]](../contents/ch30PatternsInSpectraRevealMoreQuantization#Figure5).
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -877,4 +873,4 @@ magnitude of the intrinsic (internal) spin angular momentum
 z-component of the angular momentum
 : component of orbital angular momentum of electron along the $$z $$ -axis
 
-</div>
+</div>

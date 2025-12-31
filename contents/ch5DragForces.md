@@ -24,9 +24,8 @@ of an object. Unlike simple friction, the drag force is proportional to some
 function of the velocity of the object in that fluid. This functionality is
 complicated and depends upon the shape of the object, its size, its velocity,
 and the fluid it is in. For most large objects such as bicyclists, cars, and
-baseballs not moving too slowly, the magnitude of the drag force $$ F\_{\text{D}}
+baseballs not moving too slowly, the magnitude of the drag force $$ F\_{\text{D}} $$
 
-$$
 is found to be proportional to the square of the speed of the object. We can
 write this relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$. When
 taking into account other factors, this relationship becomes
@@ -133,8 +132,7 @@ increases, the magnitude of the drag force increases until the magnitude of the
 drag force is equal to the gravitational force, thus producing a net force of
 zero. A zero net force means that there is no acceleration, as given by Newton’s
 second law. At this point, the person’s velocity remains constant and we say
-that the person has reached his *terminal velocity* ( $$ v_{t} $$ ). Since $$ F_
-{\text{D}} $$ is proportional to the speed, a heavier skydiver must go faster
+that the person has reached his *terminal velocity* ( $$ v_{t} $$ ). Since $$ F_ {\text{D}} $$ is proportional to the speed, a heavier skydiver must go faster
 for $$ F_{\text{D}} $$ to equal his weight. Let’s see how this works out more
 quantitatively.
 
@@ -886,7 +884,6 @@ where $$ C $$ is the drag coefficient, $$ A $$ is the area of the object facing
 the fluid, and $$ \rho $$ is the density of the fluid
 
 Stokes’ law
-: $$ F\_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta
-$$ is the viscosity of the fluid, and $$ v $$ is the object’s velocity
+: $$ F\_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the fluid, and $$ v $$ is the object’s velocity
 
-</div>
+</div>

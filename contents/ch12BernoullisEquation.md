@@ -247,8 +247,7 @@ Bernoulli’s principle. The manometer in [[Figure 4]](#Figure4)(a) is connected
 to two tubes that are small enough not to appreciably disturb the flow. The tube
 facing the oncoming fluid creates a dead spot having zero velocity ( $${v}_{1}=0 $$ )
 in front of it, while fluid passing the other tube has velocity $${v}_{2} $$ .
-This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v_
-{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2} $$ becomes
+This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v_ {1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2} $$ becomes
 
 <div class="equation" >
  $${P}_{1}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$
@@ -258,9 +257,7 @@ This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v
 {: #Figure3}
 
 Thus pressure $${P}_{2} $$ over the second opening is reduced by
-$$\frac{1}{2}\rho v\_{2}^{2} $$ , and so the fluid in the manometer rises by $$h
-
-$$
+$$\frac{1}{2}\rho v\_{2}^{2} $$ , and so the fluid in the manometer rises by $$h $$
 on the side connected to the second opening, where
 
 <div class="equation" >
@@ -1067,13 +1064,11 @@ $$v = \sqrt{\frac{53,312}{1.29}} = \sqrt{41,327} = 203 \text{ m/s}$$
 
 Bernoulli’s equation
 : the equation resulting from applying conservation of energy to an
-incompressible frictionless fluid: $$P+\frac{1}{2}\rho v^{2} +\rho g h
-=\text{constant} $$, through the fluid
+incompressible frictionless fluid: $$P+\frac{1}{2}\rho v^{2} +\rho g h =\text{constant} $$, through the fluid
 
 Bernoulli’s principle
 : Bernoulli’s equation applied at constant depth:
 
 $${P}_{1}+\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$
 
-</div>
-$$
+</div>

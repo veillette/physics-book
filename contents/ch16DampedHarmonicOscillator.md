@@ -129,17 +129,14 @@ Identify the known:
   is removed by work done by friction $${W}_{\text{nc}}=-\text{fd} $$ , where
   $$d $$ is the total distance traveled and $$f={\mu }_{\text{k}}mg $$ is the
   force of friction. When the system stops moving, the friction force will
-  balance the force exerted by the spring, so $${\text{PE}}_{\text{e1,f}}=\left(
-  1/2\right)kx^{2} $$ where $$x $$ is the final position and is given by
+  balance the force exerted by the spring, so $${\text{PE}}_{\text{e1,f}}=\left( 1/2\right)kx^{2} $$ where $$x $$ is the final position and is given by
   <div class="equation" >
    $$\begin{array}{lll}{F}_{\text{el}}& =& f\\ kx& =& {\mu }_{\text{k}}mg\\ x& =& \frac{ {\mu }_{\text{k}}mg}{k}\end{array}. $$
   </div>
 
-1. By equating the work done to the energy removed, solve for the distance $$d
+1. By equating the work done to the energy removed, solve for the distance $$d $$
 
-   $$
    .
-   $$
 
 2. The work done by the non-conservative forces equals the initial, stored
    elastic potential energy. Identify the correct equation to use:
@@ -181,8 +178,7 @@ __Discussion b__
 
 This is the total distance traveled back and forth across $$x=0 $$ , which is
 the undamped equilibrium position. The number of oscillations about the
-equilibrium position will be more than $$d/X=\left( 1.59 \text{m}\right)/\left(
-0.100 \text{m}\right)= 15.9 $$ because the amplitude of the oscillations is
+equilibrium position will be more than $$d/X=\left( 1.59 \text{m}\right)/\left( 0.100 \text{m}\right)= 15.9 $$ because the amplitude of the oscillations is
 decreasing with time. At the end of the motion, this system will not return to
 $$x=0 $$ for this type of damping force, because static friction will exceed the
 restoring force. This system is underdamped. In contrast, an overdamped system
@@ -349,4 +345,4 @@ equilibrium with the amplitude gradually decreasing to zero; system returns to
 equilibrium faster but overshoots and crosses the equilibrium position one or
 more times
 
-</div>
+</div>

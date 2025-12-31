@@ -99,8 +99,7 @@ as risks in producing cancer.
 {: #Figure2}
 
 High photon energy also enables $$\gamma $$ rays to penetrate materials, since a
-collision with a single atom or molecule is unlikely to absorb all the $$\gamma
-$$ ray’s energy. This can make $$\gamma $$ rays useful as a probe, and they are
+collision with a single atom or molecule is unlikely to absorb all the $$\gamma $$ ray’s energy. This can make $$\gamma $$ rays useful as a probe, and they are
 sometimes used in medical imaging. **X-rays**, as you can see
 in [[Figure 1]](#Figure1), overlap with the low-frequency end of the $$\gamma $$
 ray range. Since X-rays have energies of keV and up, individual x-ray photons
@@ -149,8 +148,7 @@ reverse.) The kinetic energy of the electron comes from electrical potential
 energy. Thus we can simply equate the maximum photon energy to the electrical
 potential energy—that is, $$ hf=qV \text{.} $$
 (We do not have to calculate each step from beginning to end if we know that all
-of the starting energy $$qV $$ is converted to the final form $$\text{hf}
-\text{.} $$ )
+of the starting energy $$qV $$ is converted to the final form $$\text{hf} \text{.} $$ )
 
 **Solution**
 
@@ -1055,4 +1053,4 @@ microwaves
 : photons with wavelengths on the order of a micron (
 $$\text{μm} $$ )
 
-</div>
+</div>

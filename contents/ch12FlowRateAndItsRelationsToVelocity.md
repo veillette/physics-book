@@ -27,8 +27,7 @@ where $$V $$ is the volume and $$t $$ is the elapsed time.
 
 The SI unit for flow rate is $${\text{m}}^{3}\text{/s} $$ , but a number of
 other units for $$Q $$ are in common use. For example, the heart of a resting
-adult pumps blood at a rate of 5.00 liters per minute (L/min). Note that a **liter** (L) is 1/1000 of a cubic meter or 1000 cubic centimeters ( $$10^{-3}
-{\text{m}}^{3} $$ or $$10^{3} {\text{cm}}^{3} $$ ). In this text we shall use
+adult pumps blood at a rate of 5.00 liters per minute (L/min). Note that a **liter** (L) is 1/1000 of a cubic meter or 1000 cubic centimeters ( $$10^{-3} {\text{m}}^{3} $$ or $$10^{3} {\text{cm}}^{3} $$ ). In this text we shall use
 whatever metric units are most convenient for a given situation.
 
 <div id="Example1" class="example" markdown="1">
@@ -214,8 +213,7 @@ of capillaries as all the other variables are known.
 
 **Solution for (a)**
 
-The flow rate is given by $$Q=A\overline{v} $$ or $$\overline{v}=\frac{Q}{ \pi
-r^2} $$ for a cylindrical vessel.
+The flow rate is given by $$Q=A\overline{v} $$ or $$\overline{v}=\frac{Q}{ \pi r^2} $$ for a cylindrical vessel.
 
 Substituting the known values (converted to units of meters and seconds) gives
 
@@ -227,8 +225,7 @@ Substituting the known values (converted to units of meters and seconds) gives
 Using $${n}_{1}{A}_{1}{\overline{v}}_{1}={n}_{2}{A}_{2}{\overline{v}}_{1} $$ ,
 assigning the subscript 1 to the aorta and 2 to the capillaries, and solving for
 $${n}_{2} $$
-(the number of capillaries) gives $${n}_{2}=\frac{ {n}_{1}{A}_{1}{\overline{v}}_
-{1}}{ {A}_{2}{\overline{v}}\_{2}} $$ . Converting all quantities to units of
+(the number of capillaries) gives $${n}_{2}=\frac{ {n}_{1}{A}_{1}{\overline{v}}_ {1}}{ {A}_{2}{\overline{v}}\_{2}} $$ . Converting all quantities to units of
 meters and seconds and substituting into the equation above gives
 
 <div class="equation">
@@ -242,8 +239,7 @@ cross-sectional area at the capillaries. This low speed is to allow sufficient
 time for effective exchange to occur, although it is equally important for the
 flow not to become stationary in order to avoid the possibility of clotting.
 Does this large number of capillaries in the body seem reasonable? In active
-muscle, one finds about 200 capillaries per $${\text{mm}}^{3} $$, or about $$200
-\times 10^{6} $$ per 1 kg of muscle. For 20 kg of muscle, this amounts to about
+muscle, one finds about 200 capillaries per $${\text{mm}}^{3} $$, or about $$200 \times 10^{6} $$ per 1 kg of muscle. For 20 kg of muscle, this amounts to about
 $$4 \times 10^{9} $$ capillaries.
 
 </div>
@@ -935,4 +931,4 @@ during a time _t_, or _Q = V/t_
 liter
 : a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup>
 
-</div>
+</div>

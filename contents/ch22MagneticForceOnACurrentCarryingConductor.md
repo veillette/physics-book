@@ -21,9 +21,7 @@ of the magnetic forces on individual charges. (The forces add because they are
 in the same direction.) The force on an individual charge moving at the drift
 velocity $${v}_{d} $$ is given by $$F=qv_{d}B \sin \theta $$ . Taking $$B $$ to
 be uniform over a length of wire $$l $$ and zero elsewhere, the total magnetic
-force on the wire is then $$F=\left( qv_{d}B \sin \theta \right)\left(N\right)
-$$ , where $$N $$
-** is the number of charge carriers in the section of wire of length $$l $$ .
+force on the wire is then $$F=\left( qv_{d}B \sin \theta \right)\left(N\right) $$ , where $$N $$ ** is the number of charge carriers in the section of wire of length $$l $$ .
 Now, $$N= nV $$ , where $$n $$ is the number of charge carriers per unit volume
 and $$V $$ is the volume of wire in the field. Noting that $$V= Al $$ , where
 $$A $$ is the cross-sectional area of the wire, then the force on the wire is
@@ -60,8 +58,7 @@ Calculate the force on the wire shown in [[Figure 1]](#Figure1), given  $$B=1.50
   $$l=5.00 \text{cm} $$ ,  and  $$I= 20.0 \text{A} $$.
 **Strategy**
 
-The force can be found with the given information by using $$F=IlB \sin \theta
-$$ and noting that the angle $$\theta $$ between $$I $$ and $$B $$ is $$90
+The force can be found with the given information by using $$F=IlB \sin \theta $$ and noting that the angle $$\theta $$ between $$I $$ and $$B $$ is $$90
 \text{º} $$, so that $$\sin \theta =1 $$.
 
 **Solution**
@@ -579,4 +576,4 @@ This configuration is the basis of a current balance, used historically to defin
 **(b) The force per tesla on the loop is 1.00 N/T.**
 
 </div>
-</div>
+</div>

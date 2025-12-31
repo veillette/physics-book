@@ -30,8 +30,7 @@ the hot body is higher than in the colder body. If two molecules collide, an
 energy transfer from the molecule with greater kinetic energy to the molecule
 with less kinetic energy occurs. The cumulative effect from all collisions
 results in a net flux of heat from the hot body to the colder body. The heat
-flux thus depends on the temperature difference $$\Delta Τ={Τ}_{\text{hot}}-{T}_
-{\text{cold}} $$ . Therefore, you will get a more severe burn from boiling water
+flux thus depends on the temperature difference $$\Delta Τ={Τ}_{\text{hot}}-{T}_ {\text{cold}} $$ . Therefore, you will get a more severe burn from boiling water
 than from hot tap water. Conversely, if the temperatures are the same, the net
 heat transfer rate falls to zero, and equilibrium is achieved. Owing to the fact
 that the number of collisions increases with increasing area, heat conduction
@@ -65,8 +64,7 @@ in [[Figure 3]](#Figure3), is given by
 
 where $$Q/t $$ is the rate of heat transfer in watts or kilocalories per second,
 $$k $$ is the **thermal conductivity** of the material, $$A $$ and $$d $$ are
-its surface area and thickness, as shown in [[Figure 3]](#Figure3), and $$\left(
-{T}_{2}-{T}_{1}\right) $$ is the temperature difference across the
+its surface area and thickness, as shown in [[Figure 3]](#Figure3), and $$\left( {T}_{2}-{T}_{1}\right) $$ is the temperature difference across the
 slab. [[Table 1]](#Table1) gives representative values of thermal conductivity.
 
 <div id="Example1" class="example" markdown="1">
@@ -207,8 +205,7 @@ many small pockets of air, taking advantage of air’s poor thermal conductivity
           </tr></tbody></table>
 
 A combination of material and thickness is often manipulated to develop good
-insulators—the smaller the conductivity $$k $$ and the larger the thickness $$d
-$$ , the better. The ratio of $$d/k $$ will thus be large for a good insulator.
+insulators—the smaller the conductivity $$k $$ and the larger the thickness $$d $$ , the better. The ratio of $$d/k $$ will thus be large for a good insulator.
 The ratio $$d/k $$ is called the ** $$R $$ factor**{: class="term"}. The rate of
 conductive heat transfer is inversely proportional to $$R $$ . The larger the
 value of $$R $$ , the better the insulation. $$R $$ factors are most commonly
@@ -250,8 +247,7 @@ temperature difference.
 1. Identify the knowns and convert them to the SI units. The thickness of the
    pan, $$d=0.800\text{cm}= 8.0 \times 10^{-3} \text{m} \text{,} $$
 
-   the area of the pan, $$A=\pi {\left(0.14/2 \right)}^{2} {\text{m}}^{2}= 1.54
-   \times 10^{-2} {\text{m}}^{2} $$ , and the thermal conductivity, $$k=220
+   the area of the pan, $$A=\pi {\left(0.14/2 \right)}^{2} {\text{m}}^{2}= 1.54 \times 10^{-2} {\text{m}}^{2} $$ , and the thermal conductivity, $$k=220
    \text{J/s}\cdot \text{m}\cdot ºC. $$
 
 2. Calculate the necessary heat of vaporization of 1 g of water:
@@ -318,8 +314,7 @@ Because area is the product of two spatial dimensions, it increases by a factor 
 - Heat conduction is the transfer of heat between two objects in direct contact
   with each other.
 - The rate of heat transfer $$Q/t $$
-  (energy per unit time) is proportional to the temperature difference $${T}_
-  {2}-{T}_{1} $$ and the contact area $$A $$ and inversely proportional to the
+  (energy per unit time) is proportional to the temperature difference $${T}_ {2}-{T}_{1} $$ and the contact area $$A $$ and inversely proportional to the
   distance $$d $$ between the objects:
 
   <div class="equation">
@@ -1446,4 +1441,4 @@ rate of conductive heat transfer
 thermal conductivity
 : the property of a material’s ability to conduct heat
 
-</div>
+</div>

@@ -873,8 +873,7 @@ The induced emf is approximately proportional to $$\frac{1}{r}$$, where $$r$$ is
 (a) A lightning bolt produces a rapidly varying magnetic field. If the bolt
 strikes the earth vertically and acts like a current in a long straight wire, it
 will induce a voltage in a loop aligned like that in [[Figure 3]](#Figure3)(b).
-What voltage is induced in a 1.00 m diameter loop 50.0 m from a $$ 2.00 \times
-10^{6} \text{A} $$ lightning strike, if the current falls to zero in $$25.0 \mu
+What voltage is induced in a 1.00 m diameter loop 50.0 m from a $$ 2.00 \times 10^{6} \text{A} $$ lightning strike, if the current falls to zero in $$25.0 \mu
 \text{s} $$ ?
 (b) Discuss circumstances under which such a voltage would produce noticeable
 consequences.
@@ -943,4 +942,4 @@ Lenz’s law
 : the minus sign in Faraday’s law, signifying that the emf induced in a coil
 opposes the change in magnetic flux
 
-</div>
+</div>

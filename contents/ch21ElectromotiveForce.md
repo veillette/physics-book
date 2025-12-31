@@ -156,8 +156,7 @@ is given by Ohm’s law to be
 {: #Figure5}
 
 We see from this expression that the smaller the internal resistance $$r $$ ,
-the greater the current the voltage source supplies to its load $${R}_
-{\text{load}} $$ . As batteries are depleted, $$r $$ increases. If $$r $$
+the greater the current the voltage source supplies to its load $${R}_ {\text{load}} $$ . As batteries are depleted, $$r $$ increases. If $$r $$
 becomes a significant fraction of the load resistance, then the current is
 significantly reduced, as the following example illustrates.
 
@@ -196,8 +195,7 @@ Enter the known values into the equation  $$V=\text{emf}-Ir $$
 </div>
 **Discussion for (a)**
 
-The terminal voltage here is only slightly lower than the emf, implying that $$
-10.0 \Omega $$ is a light load for this particular battery.
+The terminal voltage here is only slightly lower than the emf, implying that $$ 10.0 \Omega $$ is a light load for this particular battery.
 
 **Solution for (b)**
 
@@ -226,8 +224,7 @@ formula $$P={I}^{2}R $$ . Entering the known values gives
 </div>
 **Discussion for (c)**
 
-Note that this power can also be obtained using the expressions $$\frac{
-{V}^{2}}{R} $$ or $$IV $$ , where $$V $$ is the terminal voltage (10.0 V in this
+Note that this power can also be obtained using the expressions $$\frac{ {V}^{2}}{R} $$ or $$IV $$ , where $$V $$ is the terminal voltage (10.0 V in this
 case).
 
 **Solution for (d)**
@@ -309,8 +306,7 @@ circuit with the emfs in opposition, then a current of magnitude
 $$I=\frac{\left({\text{emf}}_{1}-{\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}} $$
 flows. See [[Figure 10]](#Figure10), for example, which shows a circuit exactly
 analogous to the battery charger discussed above. If two voltage sources in
-series with emfs in the same sense are connected to a load $${R}_{\text{load}}
-$$ , as in [[Figure 11]](#Figure11), then $$I=\frac{\left({\text{emf}}_{1}+
+series with emfs in the same sense are connected to a load $${R}_{\text{load}} $$ , as in [[Figure 11]](#Figure11), then $$I=\frac{\left({\text{emf}}_{1}+
 {\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}+{R}_{\text{load}}} $$ flows.
 
 ![The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.](../resources/Figure_21_02_10.jpg 'These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to ( I=  ( \\text{emf}_1 - \\text{emf}_2 )/(r_1+r_2) ) by the sum of the internal resistances. (Note that each emf is represented by script E in the figure.) A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.')
@@ -333,8 +329,7 @@ is the same as the individual emfs. But the total internal resistance is
 reduced, since the internal resistances are in parallel. The parallel connection
 thus can produce a larger current.
 
-Here, $$I=\frac{\text{emf}}{\left({r}_{\text{tot}} + {R}_{\text{load}}\right)}
-$$ flows through the load, and $${r}_{\text{tot}} $$ is less than those of the
+Here, $$I=\frac{\text{emf}}{\left({r}_{\text{tot}} + {R}_{\text{load}}\right)} $$ flows through the load, and $${r}_{\text{tot}} $$ is less than those of the
 individual batteries. For example, some diesel-powered cars use two 12-V
 batteries in parallel; they produce a total emf of 12 V but can deliver the
 larger current needed to start a diesel engine.
@@ -385,8 +380,7 @@ Most solar cells are made from pure silicon—either as single-crystal silicon, 
 as a thin film of silicon deposited upon a glass or metal backing. Most single
 cells have a voltage output of about 0.5 V, while the current output is a
 function of the amount of sunlight upon the cell (the incident solar
-radiation—the insolation). Under bright noon sunlight, a current of about $$100
-{\text{mA/cm}}^{2} $$ of cell surface area is produced by typical single-crystal
+radiation—the insolation). Under bright noon sunlight, a current of about $$100 {\text{mA/cm}}^{2} $$ of cell surface area is produced by typical single-crystal
 cells.
 
 Individual solar cells are connected electrically in modules to meet
@@ -982,4 +976,4 @@ circuit, measured in volts
 terminal voltage
 : the voltage measured across the terminals of a source of potential difference
 
-</div>
+</div>

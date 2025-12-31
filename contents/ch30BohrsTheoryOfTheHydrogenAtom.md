@@ -105,12 +105,8 @@ b) considers the wave interference material of [Wave Optics](../contents/ch27Wav
 
 **Solution for (a)**
 
-**Hydrogen spectrum wavelength**. The Balmer series requires that $${n}_
-{\text{f}}=2 $$ . The first line in the series is taken to be for $${n}_
-{\text{i}}=3 $$ , and so the second would have $${n}_{\text{i}}=4 $$.
-
-The calculation is a straightforward application of the wavelength equation.
-Entering the determined values for $${n}_{\text{f}} $$ and $${n}_{\text{i}} $$
+**Hydrogen spectrum wavelength**. The Balmer series requires that $${n}_ {\text{f}}=2 $$ . The first line in the series is taken to be for $${n}_
+{\text{i}}=3 $$ , and so the second would have $${n}_{\text{i}}=4 $$. The calculation is a straightforward application of the wavelength equation. Entering the determined values for $${n}_{\text{f}} $$ and $${n}_{\text{i}} $$
 yields
 
 <div class="equation" >
@@ -213,9 +209,7 @@ $${r}\_{n} $$ is the radius of the $$n $$ th orbit, and $$h $$ is Planck’s
 constant. Note that angular momentum is $$L=\mathrm{I\omega } $$ . For a small
 object at a radius $$r, I={\text{mr}}^{2} $$ and $$\omega =v/r $$ , so that
 $$L=\left({\text{mr}}^{2}\right)\left(v/r\right)=\text{mvr} $$ . Quantization
-says that this value of $$\text{mvr} $$ can only be equal to $$h/2, 2h/2, 3h/2
-
-$$
+says that this value of $$\text{mvr} $$ can only be equal to $$h/2, 2h/2, 3h/2 $$
 , etc. At the time, Bohr himself did not know why angular momentum should be
 quantized, but using this assumption he was able to calculate the energies in
 the hydrogen spectrum, something no one else had done at the time.
@@ -229,8 +223,7 @@ protons ( $$Z=1 $$ for hydrogen, 2 for helium, etc.) and only one electron, that
 atom is called a **hydrogen-like atom**. The spectra of hydrogen-like ions are
 similar to hydrogen, but shifted to higher energy by the greater attractive
 force between the electron and nucleus. The magnitude of the centripetal force
-is $${m}_{e}{v}^{2}/{r}_{n} $$ , while the Coulomb force is $$k\left(
-{\text{Zq}}_{e}\right)\left({q}_{e}\right)/{r}_{n}^{2} $$ . The tacit assumption
+is $${m}_{e}{v}^{2}/{r}_{n} $$ , while the Coulomb force is $$k\left( {\text{Zq}}_{e}\right)\left({q}_{e}\right)/{r}_{n}^{2} $$ . The tacit assumption
 here is that the nucleus is more massive than the stationary electron, and the
 electron orbits about it. This is consistent with the planetary model of the
 atom. Equating these,
@@ -364,8 +357,7 @@ this previously known formula describes the hydrogen spectrum. It is because the
 energy levels are proportional to $$1/{n}^{2} $$ , where $$n $$ is a
 non-negative integer. A downward transition releases energy, and so $${n}_{i} $$
 must be greater than $${n}_{\text{f}} $$ . The various series are those where
-the transitions end on a certain level. For the Lyman series, $${n}_{\text{f}}=1
-$$ — that is, all the transitions end in the ground state (see
+the transitions end on a certain level. For the Lyman series, $${n}_{\text{f}}=1 $$ — that is, all the transitions end in the ground state (see
 also [[Figure 7]](#Figure7)). For the Balmer series, $${n}_{\text{f}}=2 $$ , or
 all the transitions end in the first excited state; and so on. What was once a
 recipe is now based in physics, and something new is emerging—angular momentum
@@ -1424,7 +1416,6 @@ hydrogen spectrum wavelengths
 : the wavelengths of visible light from hydrogen; can be calculated by
 $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_
 {\text{i}}^{2}}\right)
-$$
 
 Rydberg constant
 : a physical constant related to the atomic spectra with an established value of
@@ -1451,6 +1442,5 @@ energies of hydrogen-like atoms
 $$
 {E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1 \text{, 2, 3,} \dots
 \right)
-$$
 
-</div>
+</div>

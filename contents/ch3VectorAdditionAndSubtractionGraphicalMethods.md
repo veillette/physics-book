@@ -30,9 +30,7 @@ an example the total displacement for the person walking in a city considered
 in [Kinematics in Two Dimensions: An Introduction](./ch3KinematicsInTwoDimensionsAnIntroduction)
 . We shall use the notation that a boldface symbol, such as $$ \vb{D} $$, stands
 for a vector. Its magnitude is represented by the symbol, $$\mag{D}$$, and its
-direction by $$ \theta $$. The magnitude can also represented in italics as $$ D
-
-$$
+direction by $$ \theta $$. The magnitude can also represented in italics as $$ D $$
 when the context is clear. We will used this shorthand notation from time to
 time in this textbook.
 
@@ -119,7 +117,6 @@ $$ \vb{A} $$, the second $$ \vb{B} $$, and the third $$ \vb{C} $$, making the
 lengths proportional to the distance and the directions as specified relative to
 an east-west line. The head-to-tail method outlined above will give a way to
 determine the magnitude and direction of the resultant displacement, denoted
-$$
 
 \vb{R} $$.
 
@@ -183,8 +180,7 @@ whether you add $$ 2 + 3 $$ or $$ 3 + 2 $$, for example).
 ### Vector Subtraction
 
 Vector subtraction is a straightforward extension of vector addition. To define
-subtraction (say we want to subtract $$ \vb{B} $$ from $$ \vb{A} $$, written $$
-\vb{A}-\vb{B} $$, we must first define what we mean by subtraction. The 
+subtraction (say we want to subtract $$ \vb{B} $$ from $$ \vb{A} $$, written $$ \vb{A}-\vb{B} $$, we must first define what we mean by subtraction. The
 *negative* of a vector $$ \vb{B} $$ is defined to be $$ -\vb{B} $$; that is,
 graphically *the negative of any vector has the same magnitude but the opposite
 direction*, as shown in [Figure 13](#Figure13). In other words, $$ \vb{B} $$ has
@@ -203,8 +199,7 @@ subtraction does not affect the results.
  $$ \vb{A} - \vb{B} = \vb{A} + \left( -\vb{B} \right). $$
 </div>
 
-This is analogous to the subtraction of scalars (where, for example, $$ 5 - 2 =
-5 + \left( -2 \right) $$ ). Again, the result is independent of the order in
+This is analogous to the subtraction of scalars (where, for example, $$ 5 - 2 = 5 + \left( -2 \right) $$ ). Again, the result is independent of the order in
 which the subtraction is made. When vectors are subtracted graphically, the
 techniques outlined above are used, as the following example illustrates.
 
@@ -228,18 +223,15 @@ location with the location of the dock.
 We can represent the first leg of the trip with a vector $$ \vb{A} $$, and the
 second leg of the trip with a vector $$ \vb{B} $$. The dock is located at a
 location $$ \vb{A}+\vb{B} $$. If the woman mistakenly travels in the *opposite*
-direction for the second leg of the journey, she will travel a distance $$
-\mag{B} $$ of 30.0 m in the direction $$ 180^\circ - 112^\circ =68^\circ $$
+direction for the second leg of the journey, she will travel a distance $$ \mag{B} $$ of 30.0 m in the direction $$ 180^\circ - 112^\circ =68^\circ $$
 south of east. We represent this as $$ -\vb{B} $$, as shown below. The vector
 $$-\vb{B} $$ has the same magnitude as $$ \vb{B} $$ but is in the opposite
-direction. Thus, she will end up at a location $$ \vb{A}+\left( -\vb{B} \right)
-$$, or $$ \vb{A} - \vb{B} $$.
+direction. Thus, she will end up at a location $$ \vb{A}+\left( -\vb{B} \right) $$, or $$ \vb{A} - \vb{B} $$.
 
 ![A vector labeled negative B is inclined at an angle of sixty-eight degrees below a horizontal line. A dotted line in the reverse direction inclined at one hundred and twelve degrees above the horizontal line is also shown.](../resources/Figure_03_02_15.jpg)
 {: #Figure15}
 
-We will perform vector addition to compare the location of the dock, $$ \vb{A} +
-\vb{B} $$, with the location at which the woman mistakenly arrives, $$ \vb{A} +
+We will perform vector addition to compare the location of the dock, $$ \vb{A} + \vb{B} $$, with the location at which the woman mistakenly arrives, $$ \vb{A} +
 \left(- \vb{B}\right) $$.
 
 **Solution**
@@ -251,8 +243,7 @@ vectors $$ \vb{A} $$ and $$ -\vb{B} $$.
 
 (3) Draw the resultant vector $$ \vb{R} $$.
 
-(4) Use a ruler and protractor to measure the magnitude and direction of $$
-\vb{R} $$.
+(4) Use a ruler and protractor to measure the magnitude and direction of $$ \vb{R} $$.
 
 ![Vectors A and negative B are connected in head to tail method. Vector A is inclined with horizontal with positive slope and vector negative B with a negative slope. The resultant of these two vectors is shown as a vector R from tail of A to the head of negative B. The length of the resultant is twenty three point zero meters and has a negative slope of seven point five degrees.](../resources/Figure_03_02_16.jpg)
 {: #Figure16}
@@ -260,9 +251,7 @@ vectors $$ \vb{A} $$ and $$ -\vb{B} $$.
 In this case, $$ \mag{R}=23.0 \m $$ and $$ \theta =7.5^\circ $$ south of east.
 
 (5) To determine the location of the dock, we repeat this method to add vectors
-$$ \vb{A} $$ and $$ \vb{B} $$. We obtain the resultant vector $$ \vb{R}^\prime
-
-$$
+$$ \vb{A} $$ and $$ \vb{B} $$. We obtain the resultant vector $$ \vb{R}^\prime $$
 :
 
 ![A vector A inclined at sixty six degrees with horizontal is shown. From the head of this vector another vector B is started. Vector B is inclined at one hundred and twelve degrees with the horizontal. Another vector labeled as R prime from the tail of vector A to the head of vector B is drawn. The length of this vector is fifty two point nine meters and its inclination with the horizontal is shown as ninety point one degrees. Vector R prime is equal to the sum of vectors A and B.](../resources/Figure_03_02_17.jpg)
@@ -355,13 +344,10 @@ Maze Game
   defined such that $$ \vb{A}+\vb{B}=\vb{R} $$. The magnitude and direction of
   $$ \vb{R} $$ are then determined with a ruler and protractor, respectively.
 * The **graphical method of subtracting vector**
-  $$ \vb{B} $$ from $$ \vb{A} $$ involves adding the opposite of vector $$
-  \vb{B} $$, which is defined as $$ -\vb{B} $$. In this case, $$
-  \vb{A}-\vb{B}=\vb{A}+\left(-\vb{B}\right)=\vb{R} $$. Then, the head-to-tail
+  $$ \vb{B} $$ from $$ \vb{A} $$ involves adding the opposite of vector $$ \vb{B} $$, which is defined as $$ -\vb{B} $$. In this case, $$ \vb{A}-\vb{B}=\vb{A}+\left(-\vb{B}\right)=\vb{R} $$. Then, the head-to-tail
   method of addition is followed in the usual way to obtain the resultant vector
   $$ \vb{R} $$.
 * Addition of vectors is **commutative** such that
-$$
 
 \vb{A}+\vb{B}=\vb{B}+\vb{A} $$.
 
@@ -699,8 +685,7 @@ Suppose you first walk 12.0 m in a direction $$ 20^\circ $$
 west of north and then 20.0 m in a direction $$ 40.0^\circ $$ south of west. How
 far are you from your starting point, and what is the compass direction of a
 line connecting your starting point to your final position? (If you represent
-the two legs of the walk as vector displacements $$ \vb{A} $$ and $$
-\vb{B} $$, as in [Figure 22](#Figure22), then this problem
+the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 22](#Figure22), then this problem
 finds their sum $$ \vb{R} = \vb{A} + \vb{B} $$.)
 
 ![In the given figure coordinates axes are shown. Vector A with tail at origin is inclined at an angle of twenty degrees with the positive direction of x axis. The magnitude of vector A is twelve meters. Another vector B is starts from the head of vector A and inclined at an angle of forty degrees with the horizontal. The resultant R of the vectors A and B is also drawn from the tail of vector A to the head of vector B. The inclination of vector R is theta with the horizontal.](../resources/Figure_03_02_22.jpg)
@@ -769,8 +754,7 @@ The final position is 19.5 m from the starting point, in a direction 4.7° south
 Repeat the problem above, but reverse the order of the two legs of the walk; show that you get the same final result.
 That is, you first walk leg $$ \vb{B} $$, which is 20.0 m in a direction exactly $$ 40^\circ $$ south of west, and then
 leg $$ \vb{A} $$, which is 12.0 m in a direction exactly $$ 20^\circ $$ west
-of north. (This problem shows that $$
-\vb{A}+\vb{B}=\vb{B}+\vb{A} $$.)
+of north. (This problem shows that $$ \vb{A}+\vb{B}=\vb{B}+\vb{A} $$.)
 
 </div>
 <div class="solution" markdown="1">
@@ -835,14 +819,10 @@ Walking in reverse order gives the same result: **19.5 m at 4.7° south of west*
 (a) Repeat the problem two problems prior, but for the second leg you walk 20.0 m
 in a direction $$ 40.0^\circ $$
 north of east (which is equivalent to subtracting $$ \vb{B} $$ from
-$$ \vb{A} $$ —that is, to finding $$ \vb{R}^{\prime}
-=\vb{A}-\vb{B} $$).
+$$ \vb{A} $$ —that is, to finding $$ \vb{R}^{\prime} =\vb{A}-\vb{B} $$).
 (b) Repeat the problem two problems prior, but now you first walk 20.0 m in a
-direction $$ 40.0^\circ $$ south of west and then 12.0 m in a direction $$
-20.0^\circ $$ east of south (which is equivalent to subtracting $$
-\vb{A} $$ from $$ \vb{B} $$ —that is, to finding
-$$ \vb{R}^{\prime\prime}
-=\vb{B}-\vb{A}=-\vb{R}^{\prime} $$).
+direction $$ 40.0^\circ $$ south of west and then 12.0 m in a direction $$ 20.0^\circ $$ east of south (which is equivalent to subtracting $$ \vb{A} $$ from $$ \vb{B} $$ —that is, to finding
+$$ \vb{R}^{\prime\prime} =\vb{B}-\vb{A}=-\vb{R}^{\prime} $$).
 Show that this is the case.
 
 </div>
@@ -1313,4 +1293,4 @@ scalar
 tail
 : the start point of a vector; opposite to the head or tip of the arrow
 
-</div>
+</div>

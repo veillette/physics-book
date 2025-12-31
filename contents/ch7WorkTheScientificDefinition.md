@@ -87,8 +87,7 @@ to interpret this energy transfer. One interpretation is that the briefcase’s
 weight does work on the generator, giving it energy. The other interpretation is
 that the generator does negative work on the briefcase, thus removing energy
 from it. The drawing shows the latter, with the force from the generator upward
-on the briefcase, and the displacement downward. This makes $$ \theta =180^\circ
-$$, and $$ \cos 180^\circ=-1 $$; therefore, $$ W $$ is negative.
+on the briefcase, and the displacement downward. This makes $$ \theta =180^\circ $$, and $$ \cos 180^\circ=-1 $$; therefore, $$ W $$ is negative.
 
 ### Calculating Work
 
@@ -107,11 +106,9 @@ How much work is done on the lawn mower by the person in [Figure 1](#Figure1)
 (a) if he exerts a constant force of $$ 75.0\N $$ at an angle $$35^\circ $$
 below the horizontal and pushes the mower $$ 25.0\m $$
 on level ground? Convert the amount of work from joules to kilocalories and
-compare it with this person’s average daily intake of $$
-10 000 \text{kJ} $$ (about $$2400 \text{kcal} $$)
+compare it with this person’s average daily intake of $$ 10 000 \text{kJ} $$ (about $$2400 \text{kcal} $$)
 of food energy. One *calorie* (1 cal) of heat is the amount required to warm 1
-g of water by $$ 1^\circ\text{C} $$, and is equivalent to $$
-4.184 \J $$, while one *food calorie* (1 kcal) is equivalent to $$4184 \J $$.
+g of water by $$ 1^\circ\text{C} $$, and is equivalent to $$ 4.184 \J $$, while one *food calorie* (1 kcal) is equivalent to $$4184 \J $$.
 
 **Strategy**
 
@@ -165,8 +162,7 @@ chemical energy in fat.
   $$ W=F d \cos{\theta} . $$
   </div>
 
-- The SI unit for work and energy is the joule (J), where $$ 1 \J =1\N \cdot \m
-  =1 \kg \cdot \mmss $$.
+- The SI unit for work and energy is the joule (J), where $$ 1 \J =1\N \cdot \m =1 \kg \cdot \mmss $$.
 - The work done by a force is zero if the displacement is either zero or
   perpendicular to the force.
 - The work done is positive if the force and displacement have the same
@@ -758,4 +754,4 @@ the magnitude of the displacement
 joule
 : SI unit of work and energy, equal to one newton-meter
 
-</div>
+</div>

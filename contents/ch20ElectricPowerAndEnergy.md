@@ -46,19 +46,15 @@ Recognizing that current is $$I=q/t $$
 
 Electric power ( $$P $$ ) is simply the product of current times voltage.
 Power has familiar units of watts. Since the SI unit for potential energy (PE)
-is the joule, power has units of joules per second, or watts. Thus, $$1
-\text{A}\cdot \text{V}=1 \text{W} $$ . For example, cars often have one or more
+is the joule, power has units of joules per second, or watts. Thus, $$1 \text{A}\cdot \text{V}=1 \text{W} $$ . For example, cars often have one or more
 auxiliary power outlets with which you can charge a cell phone or other
 electronic devices. These outlets may be rated at 20 A, so that the circuit can
-deliver a maximum power $$P=IV=\left(20 \text{A}\right)\left(12 \text{V}\right)
-=240 \text{W} $$ . In some applications, electric power may be expressed as
-volt-amperes or even kilovolt-amperes ( $$1 \text{kA}\cdot \text{V}=1 \text{kW}
+deliver a maximum power $$P=IV=\left(20 \text{A}\right)\left(12 \text{V}\right) =240 \text{W} $$ . In some applications, electric power may be expressed as
+volt-amperes or even kilovolt-amperes ( $$1 \text{kA}\cdot \text{V}=1 \text{kW} $$
 
-$$
 ).
 
-To see the relationship of power to resistance, we combine Ohm’s law with $$P=IV
-$$ . Substituting $$I=V/R $$ gives $$P=\left(V/R\right)V={V}^{2}\text{/}R $$ .
+To see the relationship of power to resistance, we combine Ohm’s law with $$P=IV $$ . Substituting $$I=V/R $$ gives $$P=\left(V/R\right)V={V}^{2}\text{/}R $$ .
 Similarly, substituting $$V=IR $$ gives $$P=I\left(IR\right)={I}^{2}R $$ . Three
 expressions for electric power are listed together here for convenience:
 
@@ -159,8 +155,7 @@ $$E=P t $$ . It is easy to estimate the cost of operating electric appliances if
 you have some idea of their power consumption rate in watts or kilowatts, the
 time they are on in hours, and the cost per kilowatt-hour for your electric
 utility. Kilowatt-hours, like all other specialized energy units such as food
-calories, can be converted to joules. You can prove to yourself that $$1
-\text{kW}\cdot \text{h} = 3.6 \times 10^{6} \text{J} $$.
+calories, can be converted to joules. You can prove to yourself that $$1 \text{kW}\cdot \text{h} = 3.6 \times 10^{6} \text{J} $$.
 
 The electrical energy ( $$E $$ )   used can be reduced either by reducing the
 time of use or by reducing the power consumption of that appliance or fixture.
@@ -264,8 +259,7 @@ _ Three expressions for electrical power are
    $$P={I}^{2}R\text{.} $$
   </div>
 
-_ The energy used by a device with a power $$P $$ over a time $$t $$ is $$E=P t
-  $$ .
+_ The energy used by a device with a power $$P $$ over a time $$t $$ is $$E=P t $$ .
 
 ### Conceptual Questions
 
@@ -1027,8 +1021,7 @@ characteristics as water?
 __Integrated Concepts__
 
 What current must be produced by a 12.0-V battery-operated bottle warmer in
-order to heat 75.0 g of glass, 250 g of baby formula, and $$ 3.00 \times 10^{2}
-\text{g} $$ of aluminum from $$ 20.0\text{ºC} $$ to $$ 90.0\text{ºC} $$ in 5.00
+order to heat 75.0 g of glass, 250 g of baby formula, and $$ 3.00 \times 10^{2} \text{g} $$ of aluminum from $$ 20.0\text{ºC} $$ to $$ 90.0\text{ºC} $$ in 5.00
 min?
 
 </div>
@@ -1192,8 +1185,7 @@ __Integrated Concepts__
 
 A light-rail commuter train draws 630 A of 650-V DC electricity when
 accelerating. (a) What is its power consumption rate in kilowatts? (b) How long
-does it take to reach 20.0 m/s starting from rest if its loaded mass is $$ 5.30
-\times 10^{4} \text{kg} $$ , assuming 95.0% efficiency and constant power? (c)
+does it take to reach 20.0 m/s starting from rest if its loaded mass is $$ 5.30 \times 10^{4} \text{kg} $$ , assuming 95.0% efficiency and constant power? (c)
 Find its average acceleration. (d) Discuss how the acceleration you found for
 the light-rail train compares to what might be typical for an automobile.
 
@@ -1256,8 +1248,7 @@ The light-rail's acceleration is adequate for urban transit where stations are c
 <div class="problem" markdown="1">
 __Integrated Concepts__
 
-(a) An aluminum power transmission line has a resistance of $$ 0.0580 \Omega
-/\text{km} $$ . What is its mass per kilometer? (b) What is the mass per
+(a) An aluminum power transmission line has a resistance of $$ 0.0580 \Omega /\text{km} $$ . What is its mass per kilometer? (b) What is the mass per
 kilometer of a copper line having the same resistance? A lower resistance would
 shorten the heating time. Discuss the practical limits to speeding the heating
 by lowering the resistance.
@@ -1273,8 +1264,7 @@ by lowering the resistance.
 <div class="problem" markdown="1">
 __Integrated Concepts__
 
-(a) An immersion heater utilizing 120 V can raise the temperature of a $$ 1.00
-\times 10^{2} \text{-g} $$ aluminum cup containing 350 g of water from $$
+(a) An immersion heater utilizing 120 V can raise the temperature of a $$ 1.00 \times 10^{2} \text{-g} $$ aluminum cup containing 350 g of water from $$
 20.0\text{ºC} $$ to $$ 95.0\text{ºC} $$ in 2.00 min. Find its resistance,
 assuming it is constant during the process. (b) A lower resistance would shorten
 the heating time. Discuss the practical limits to speeding the heating by
@@ -1348,10 +1338,8 @@ In practice, immersion heaters are designed to balance heating speed with safety
 __Integrated Concepts__
 
 (a) What is the cost of heating a hot tub containing 1500 kg of water from
-$$
 
-10.0\text{ºC} $$ to $$ 40.0\text{ºC} $$ , assuming 75.0% efficiency to account
-for heat transfer to the surroundings? The cost of electricity is $$9
+10.0\text{ºC} $$ to $$ 40.0\text{ºC} $$ , assuming 75.0% efficiency to account for heat transfer to the surroundings? The cost of electricity is $$9
 \text{cents/kW}\cdot \text{h} $$ .
 (b) What current was used by the 220-V AC electric heater, if this took 4.00 h?
 
@@ -1527,4 +1515,4 @@ electric power
 : the rate at which electrical energy is supplied by a source or dissipated by a
 device; it is the product of current times voltage
 
-</div>
+</div>

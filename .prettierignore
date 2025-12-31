@@ -38,3 +38,6 @@ doc/KRAMDOWN_*.md
 
 # Jekyll templates with front matter
 sw.js
+
+# Content markdown files - contains math equations sensitive to formatting
+contents/*.md

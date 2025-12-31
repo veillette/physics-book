@@ -37,7 +37,6 @@ Power is the rate at which work is done.
 The SI unit for power is the **watt**
 ( $$ \text{W} $$ ), where 1 watt equals 1 joule/second $$ \left(1 \text{W}=1
 \text{J/s}\right).
-$$
 </div>
 
 Because work is energy transfer, power is also the rate at which energy is
@@ -60,9 +59,7 @@ What is the power output for a 60.0-kg woman who runs up a 3.00 m high flight of
 **Strategy and Concept**
 
 The work going into mechanical energy is $$ W=\KE + \PE $$. At the bottom of the
-stairs, we take both $$ \KE $$ and $$ \PE_{g} $$ as initially zero; thus, $$
-W=\KE_{f}+\PE_{g}=\frac{1}{2} m v_
-{f}^{2}+mgh $$, where $$ h $$ is the vertical height of the stairs. Because all
+stairs, we take both $$ \KE $$ and $$ \PE_{g} $$ as initially zero; thus, $$ W=\KE_{f}+\PE_{g}=\frac{1}{2} m v_ {f}^{2}+mgh $$, where $$ h $$ is the vertical height of the stairs. Because all
 terms are given, we can calculate $$ W $$ and then divide it by time to get
 power.
 
@@ -115,8 +112,7 @@ Determine your own power rating by measuring the time it takes you to climb a fl
 Examples of power are limited only by the imagination, because there are as many
 types as there are forms of work and energy. (
 See [Table 1](#Table1) for some examples.) Sunlight reaching Earth’s surface
-carries a maximum power of about 1.3 kilowatts per square meter $$ \left(
-{\text{kW/m} }^{2}\right)$$. A tiny fraction of this is retained by Earth over
+carries a maximum power of about 1.3 kilowatts per square meter $$ \left( {\text{kW/m} }^{2}\right)$$. A tiny fraction of this is retained by Earth over
 the long term. Our consumption rate of fossil fuels is far greater than the rate
 at which they are stored, so it is inevitable that they will be depleted. Power
 implies that energy is transferred, perhaps changing form. It is never possible
@@ -170,8 +166,7 @@ electricity company. So the energy consumed over a time $$ t $$ is
  $$ E=P t .$$
 </div>
 
-Electricity bills state the energy used in units of **kilowatt-hours** $$ \left(
-\text{kW}\cdot h\right), $$ which is the product of power in kilowatts and time
+Electricity bills state the energy used in units of **kilowatt-hours** $$ \left( \text{kW}\cdot h\right), $$ which is the product of power in kilowatts and time
 in hours. This unit is convenient because electrical power consumption at the
 kilowatt level for hours at a time is typical.
 
@@ -185,8 +180,7 @@ if the cost of electricity is $$ 0.120 \$ \text{ per kW}\cdot h $$ ?
 **Strategy**
 
 Cost is based on energy consumed; thus, we must find $$ E $$ from $$ E=Pt $$ and
-then calculate the cost. Because electrical energy is expressed in $$
-\text{kW}\cdot h $$, at the start of a problem such as this it is convenient to
+then calculate the cost. Because electrical energy is expressed in $$ \text{kW}\cdot h $$, at the start of a problem such as this it is convenient to
 convert the units into $$ \text{kW} $$ and hours.
 
 **Solution**
@@ -448,8 +442,7 @@ The cost of operating a 3.00-W electric clock for one year is approximately $2.3
 <div class="problem" markdown="1">
 A large household air conditioner may consume 15.0 kW of power. What is the
 cost of operating this air conditioner 3.00 h per day for 30.0 d
-if the cost of electricity is $$ 0.110 \$ \text{per kW}
-\cdot h $$ ?
+if the cost of electricity is $$ 0.110 \$ \text{per kW} \cdot h $$ ?
 
 </div>
 <div class="solution" markdown="1">
@@ -992,11 +985,9 @@ The power output needed is approximately $$ 2.77 \times 10^{4} $$ W (27.7 kW or 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) Calculate the power per square meter reaching Earth's upper atmosphere
-from the Sun. (Take the power output of the Sun to be $$ 4.00\times 10^{26}
-\text{W}$$.)
+from the Sun. (Take the power output of the Sun to be $$ 4.00\times 10^{26} \text{W}$$.)
 (b) Part of this is absorbed and reflected by the atmosphere, so that a maximum
-of $$ 1.30 \text{kW/m}^2 $$ reaches Earth's surface. Calculate the area in $$
-{\text{km} }^{2} $$ of solar energy collectors needed to replace an electric
+of $$ 1.30 \text{kW/m}^2 $$ reaches Earth's surface. Calculate the area in $$ {\text{km} }^{2} $$ of solar energy collectors needed to replace an electric
 power plant that generates 750 MW if the collectors convert an average of 2.00%
 of the maximum power into electricity. (This small conversion efficiency is due
 to the devices themselves, and the fact that the sun is directly overhead only
@@ -1092,4 +1083,4 @@ kilowatt-hour
 : $$ \left(\text{kW}\cdot h\right) $$ unit used primarily for electrical energy
 provided by electric utility companies
 
-</div>
+</div>

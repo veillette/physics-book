@@ -259,8 +259,7 @@ extremely large.
 **Unreasonable Results**
 
 A frazzled theoretical physicist reckons that all conservation laws are obeyed
-in the decay of a proton into a neutron, positron, and neutrino (as in $${\beta
-}^{+} $$ decay of a nucleus) and sends a paper to a journal to announce the
+in the decay of a proton into a neutron, positron, and neutrino (as in $${\beta }^{+} $$ decay of a nucleus) and sends a paper to a journal to announce the
 reaction as a possible end of the universe due to the spontaneous decay of
 protons. (a) What energy is released in this decay? (b) What is unreasonable
 about this result? (c) What assumption is responsible?
@@ -309,4 +308,4 @@ pass over the barrier; also called barrier penetration
 tunneling
 : a quantum mechanical process of potential energy barrier penetration
 
-</div>
+</div>

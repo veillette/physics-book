@@ -95,9 +95,7 @@ rest energy.
 
 **Solution**
 
-1. Identify the knowns. $$m= 1.00 \times 10^{-3} \text{kg} $$ ; $$c= 3.00 \times
-   10^{8} \text{m/s} $$
-2. Identify the unknown. $${E}_{0} $$
+1. Identify the knowns. $$m= 1.00 \times 10^{-3} \text{kg} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$ 2. Identify the unknown. $${E}_{0} $$
 3. Choose the appropriate equation. $${E}_{0}=mc^{2} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
@@ -107,8 +105,7 @@ rest energy.
    $$
    </div>
 
-5. Convert units. Noting that $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1
-   \text{J} $$ , we see the rest mass energy is
+5. Convert units. Noting that $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1 \text{J} $$ , we see the rest mass energy is
 
     <div class="equation" >
      $${E}_{0}= 9.00 \times 10^{13}  \text{J}. $$
@@ -119,8 +116,7 @@ rest energy.
 This is an enormous amount of energy for a 1.00-g mass. We do not notice this
 energy, because it is generally not available. Rest energy is large because the
 speed of light $$c $$ is a large number and $${c}^{2} $$ is a very large number,
-so that $$mc^{2} $$ is huge for any macroscopic mass. The $$ 9.00 \times 10^{13}
-\text{J} $$ rest mass energy for 1.00 g is about twice the energy released by
+so that $$mc^{2} $$ is huge for any macroscopic mass. The $$ 9.00 \times 10^{13} \text{J} $$ rest mass energy for 1.00 g is about twice the energy released by
 the Hiroshima atomic bomb and about 10 000 times the kinetic energy of a large
 aircraft carrier. If a way can be found to convert rest mass energy into some
 other form (and all forms of energy can be converted into one another), then
@@ -175,21 +171,13 @@ what the battery can supply in the form of electrical potential energy. Since
 $${\text{PE}}_{\text{elec}}=qV $$ , we have to calculate the charge $$q $$ in
 $$600 A·h $$ , which is the product of the current $$I $$ and the time $$t $$ .
 We then multiply the result by 12.0 V. We can then calculate the battery’s
-increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta
-m\right){c}^{2} $$ . Part (b) is a simple ratio converted to a percentage.
+increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ . Part (b) is a simple ratio converted to a percentage.
 
 <strong>Solution for (a) </strong>
 
-1. Identify the knowns. $$I\cdot t=600 \text{A}\cdot \text{h} $$ ; $$V= 12.0
-   \text{V} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$
-2. Identify the unknown. $$\Delta m $$
-3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta
-   m\right){c}^{2} $$
-4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{
-   {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$
-5. Plug the knowns into the equation.
-   <div class="equation" >
-   $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
+1. Identify the knowns. $$I\cdot t=600 \text{A}\cdot \text{h} $$ ; $$V= 12.0 \text{V} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$ 2. Identify the unknown. $$\Delta m $$
+3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ 4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{
+   {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$ 5. Plug the knowns into the equation. <div class="equation" > $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
    {c}^{2}}\\ & =& \frac{qV}{ {c}^{2}}\\ & =& \frac{\left(It\right)V}{
    {c}^{2}}\\ & =& \frac{\left(600 \text{A}\cdot \text{h}\right)\left(12.0
    \text{V}\right)}{ {\left( 3.00 \times 10^{8} \right)}^{2}}\text{.}\end{array}
@@ -205,18 +193,15 @@ m\right){c}^{2} $$ . Part (b) is a simple ratio converted to a percentage.
     & =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$
     </div>
 
-   Using the conversion $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1
-   \text{J} $$, we can write the mass as
+   Using the conversion $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1 \text{J} $$, we can write the mass as
 
    $$\Delta m= 2.88 \times 10^{-10} \text{kg}\text{.} $$
 
 <strong>Solution for (b) </strong>
 
-1. Identify the knowns. $$\Delta m= 2.88 \times 10^{-10} \text{kg} $$ ; $$m=20.0
-   \text{kg} $$
+1. Identify the knowns. $$\Delta m= 2.88 \times 10^{-10} \text{kg} $$ ; $$m=20.0 \text{kg} $$
 2. Identify the unknown. % change
-3. Choose the appropriate equation. $$ \text{\% increase}=\frac{\Delta m}{m}×100
-   \% $$
+3. Choose the appropriate equation. $$ \text{\% increase}=\frac{\Delta m}{m}×100 \% $$
 4. Plug the knowns into the equation.
    <div class="equation" >
    $$\begin{array}{lll}\text{\% increase}& =& \frac{\Delta m}{m}×100 \%\\ & =&
@@ -309,8 +294,7 @@ So, in fact, relativistic kinetic energy does become the same as classical
 kinetic energy when $$v \ll c $$.
 
 It is even more interesting to investigate what happens to kinetic energy when
-the velocity of an object approaches the speed of light. We know that $$\gamma
-$$ becomes infinite as $$v $$ approaches $$c $$ , so that $$ \text{KE}\_
+the velocity of an object approaches the speed of light. We know that $$\gamma $$ becomes infinite as $$v $$ approaches $$c $$ , so that $$ \text{KE}\_
 \text{rel} $$ also becomes infinite as the velocity approaches the speed of
 light. (See [[Figure 3]](#Figure3).) An infinite amount of work (and, hence, an
 infinite amount of energy input) is required to accelerate a mass to the speed
@@ -347,17 +331,14 @@ The expression for relativistic kinetic energy is always correct, but for (a) it
 must be used since the velocity is highly relativistic (close to $$c $$ ).
 First, we will calculate the relativistic factor $$\gamma $$ , and then use it
 to determine the relativistic kinetic energy. For (b), we will calculate the
-classical kinetic energy (which would be close to the relativistic value if $$v
-$$ were less than a few percent of $$c $$ )
+classical kinetic energy (which would be close to the relativistic value if $$v $$ were less than a few percent of $$c $$ )
 and see that it is not the same.
 
 **Solution for (a)**
 
 1. Identify the knowns. $$v= 0.990c $$ ; $$m= 9.11 \times 10^{-31} \text{kg} $$
 2. Identify the unknown. $${\text{KE}}_{\text{rel}} $$
-3. Choose the appropriate equation. $${\text{KE}}_{\text{rel}}=\left(\gamma
-   -1\right)mc^{2} $$
-4. Plug the knowns into the equation. First calculate $$\gamma $$ . We will
+3. Choose the appropriate equation. $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ 4. Plug the knowns into the equation. First calculate $$\gamma $$ . We will
    carry extra digits because this is an intermediate calculation.
 
     <div class="equation" >
@@ -381,8 +362,7 @@ and see that it is not the same.
 
 1. List the knowns. $$v= 0.990c $$ ; $$m= 9.11 \times 10^{-31} \text{kg} $$
 2. List the unknown. $${\text{KE}}_{\text{class}} $$
-3. Choose the appropriate equation. $${\text{KE}}_
-   {\text{class}}=\frac{1}{2}mv^{2} $$
+3. Choose the appropriate equation. $${\text{KE}}_ {\text{class}}=\frac{1}{2}mv^{2} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
    $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& \frac{1}{2}mv^{2}\\ 
@@ -460,15 +440,13 @@ momentum term $${\left(pc \right)}^{2} $$ ; thus, $$E=pc $$ at extremely
 relativistic velocities.
 
 If we consider momentum $$p $$ to be distinct from mass, we can determine the
-implications of the equation $${E}^{2}={ \left( pc \right)}^{2}+{ \left( m c^2
-\right)}^{2}, $$ for a particle that has no mass. If we take $$m $$ to be zero
+implications of the equation $${E}^{2}={ \left( pc \right)}^{2}+{ \left( m c^2 \right)}^{2}, $$ for a particle that has no mass. If we take $$m $$ to be zero
 in this equation, then $$E=\text{pc} $$ , or $$p=E/c $$ . Massless particles
 have this momentum. There are several massless particles found in nature,
 including photons (these are quanta of electromagnetic radiation). Another
 implication is that a massless particle must travel at speed $$c $$ and only at
 speed $$c $$ . While it is beyond the scope of this text to examine the
-relationship in the equation $${E}^{2}={\left( pc \right)}^{2}+{\left(
-mc^{2}\right)}^{2}, $$ in detail, we can see that the relationship has important
+relationship in the equation $${E}^{2}={\left( pc \right)}^{2}+{\left( mc^{2}\right)}^{2}, $$ in detail, we can see that the relationship has important
 implications in special relativity.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -511,27 +489,23 @@ Answer
 - Relativistic energy is conserved as long as we define it to include the
   possibility of mass changing to energy.
 - Total Energy is defined as:
-  $$E=\gamma mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
-  {c}^{2}}}} $$ .
+  $$E=\gamma mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$ .
 - Rest energy is $${E}_{0}=mc^{2} $$ , meaning that mass is a form of energy. If
   energy is stored in an object, its mass increases. Mass can be destroyed to
   release energy.
 - We do not ordinarily notice the increase or decrease in mass of an object
   because the change in mass is so small for a large increase in energy.
-- The relativistic work-energy theorem is $${W}_{\text{net}}=E-{E}_{0}=\gamma
-  mc^{2}-mc^{2}=\left(\gamma -1\right)mc^{2} $$ .
+- The relativistic work-energy theorem is $${W}_{\text{net}}=E-{E}_{0}=\gamma mc^{2}-mc^{2}=\left(\gamma -1\right)mc^{2} $$ .
 - Relativistically, $${W}_{\text{net}}={\text{KE}}_{\text{rel}} $$ , where
   $${\text{KE}}\_{\text{rel}} $$ is the relativistic kinetic energy.
-- Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma
-  -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
+- Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
   {c}^{2}}}} $$. At low velocities, relativistic kinetic energy reduces to
   classical kinetic energy.
 - **No object with mass can attain the speed of light** because an infinite
   amount of work and an infinite amount of energy input is required to
   accelerate a mass to the speed of light.
 - The equation $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^{2}\right)}^{2} $$
-  relates the relativistic total energy $$E $$ and the relativistic momentum $$p
-  $$. At extremely high velocities, the rest energy $$mc^{2} $$ becomes
+  relates the relativistic total energy $$E $$ and the relativistic momentum $$p $$. At extremely high velocities, the rest energy $$mc^{2} $$ becomes
   negligible, and $$E=pc $$.
 
 ### Conceptual Questions
@@ -1769,8 +1743,7 @@ propellants.
 {: class="glossary-title"}
 
 total energy
-: defined as $$E=\gamma mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{
-{v}^{2}}{ {c}^{2}}}} $$
+: defined as $$E=\gamma mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
 
 rest energy
 : the energy stored in an object at rest:
@@ -1778,7 +1751,6 @@ $${E}_{0}=mc^{2} $$
 
 relativistic kinetic energy
 : the kinetic energy of an object moving at relativistic speeds:
-$${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma
-=\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
+$${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
 
-</div>
+</div>

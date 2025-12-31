@@ -190,9 +190,7 @@ The choice of correction method depends on application requirements, cost constr
 projected onto the cornea of the patient. It makes a spot 1.00 mm in diameter
 and deposits 0.500 mJ of energy. Calculate the depth of the layer ablated,
 assuming the corneal tissue has the same properties as water and is initially at
-$$34.0 \text{ºC} $$ . The tissue’s temperature is increased to $$100 \text{ºC}
-
-$$
+$$34.0 \text{ºC} $$ . The tissue’s temperature is increased to $$100 \text{ºC} $$
 and evaporated without further temperature increase.
 
 (b) Does your answer imply that the shape of the cornea can be finely
@@ -214,5 +212,4 @@ aberration
 : failure of rays to converge at one focus because of limitations or defects in
 a lens or mirror
 
-</div>
-$$
+</div>

@@ -75,11 +75,8 @@ Stefan-Boltzmann law of radiation**\:
  $$\frac{Q}{t}=\sigma eA{T}^{4}\text{,} $$
 </div>
 
-where $$\sigma = 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot
-{\text{K}}^{4} $$ is the Stefan-Boltzmann constant, $$A $$ is the surface area
-of the object, and $$T $$ is its absolute temperature in kelvin. The symbol $$e
-
-$$
+where $$\sigma = 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} $$ is the Stefan-Boltzmann constant, $$A $$ is the surface area
+of the object, and $$T $$ is its absolute temperature in kelvin. The symbol $$e $$
 stands for the **emissivity** of the object, which is a measure of how well
 it radiates. An ideal jet-black (or black body) radiator has $$e=1 $$ , whereas
 a perfect reflector has $$e=0 $$ . Real objects fall between these two values.
@@ -148,8 +145,7 @@ We can solve this by using the equation for the rate of radiative heat transfer.
 
 **Solution**
 
-Insert the temperatures values $${T}_{2}=295 \text{K} $$ and $${T}_{1}=306
-\text{K} $$ , so that
+Insert the temperatures values $${T}_{2}=295 \text{K} $$ and $${T}_{1}=306 \text{K} $$ , so that
 
 <div class="equation" >
  $$\frac{Q}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
@@ -223,8 +219,7 @@ parts of the United States with hot and humid summers and cold winters.
 ![A solar cooker is shown. There is a pot of food inside the solar cooker. The sunlight is incident on the solar cooker and the food is being cooked.](../resources/Figure_14_07_08.jpg 'This simple but effective solar cooker uses the greenhouse effect and reflective material to trap and retain solar energy. Made of inexpensive, durable materials, it saves money and labor, and is of particular economic value in energy-poor developing countries. (credit: E.B. Kauai)')
 {: #Figure7}
 
-Conversely, dark space is very cold, about $$3 \text{K}\left(-454 \text{ºF}
-\right) $$ , so that the Earth radiates energy into the dark sky. Owing to the
+Conversely, dark space is very cold, about $$3 \text{K}\left(-454 \text{ºF} \right) $$ , so that the Earth radiates energy into the dark sky. Owing to the
 fact that clouds have lower emissivity than either oceans or land masses, they
 reflect some of the radiation back to the surface, greatly reducing heat
 transfer into dark space, just as they greatly reduce heat transfer into the
@@ -288,8 +283,7 @@ Problem-Solving Strategies for the Methods of Heat Transfer
    $$\frac{Q}{t}=\sigma eA{T}^{4}\text{,} $$
   </div>
 
-where $$\sigma = 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot
-{\text{K}}^{4} $$ is the Stefan-Boltzmann constant and $$e $$ is the emissivity
+where $$\sigma = 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} $$ is the Stefan-Boltzmann constant and $$e $$ is the emissivity
 of the body. For a black body, $$e=1 $$ whereas a shiny white or perfect
 reflector has $$e=0 $$ , with real objects having values of $$e $$ between 1 and 0. The net rate of heat transfer by radiation is
 
@@ -1084,8 +1078,7 @@ ocean and the likely effects of that energy.
 
 Frozen waste from airplane toilets has sometimes been accidentally ejected at
 high altitude. Ordinarily it breaks up and disperses over a large area, but
-sometimes it holds together and strikes the ground. Calculate the mass of $$0
-\text{ºC} $$ ice that can be melted by the conversion of kinetic and
+sometimes it holds together and strikes the ground. Calculate the mass of $$0 \text{ºC} $$ ice that can be melted by the conversion of kinetic and
 gravitational potential energy when a $$20.0\text{ kg} $$ piece of frozen waste
 is released at 12.0 km altitude while moving at 250 m/s and strikes the ground
 at 100 m/s (since less than 20.0 kg melts, a significant mess results).
@@ -1513,8 +1506,7 @@ The calculation also explains why:
 Hot air rises because it has expanded. It then displaces a greater volume of
 cold air, which increases the buoyant force on it. (a) Calculate the ratio of
 the buoyant force to the weight of $$50.0\text{ºC} $$ air surrounded by
-$$20.0\text{ºC} $$ air. (b) What energy is needed to cause $$1.00 {\text{m}}^{3}
-$$ of air to go from $$20.0\text{ºC} $$ to $$50.0\text{ºC} $$ ?
+$$20.0\text{ºC} $$ air. (b) What energy is needed to cause $$1.00 {\text{m}}^{3} $$ of air to go from $$20.0\text{ºC} $$ to $$50.0\text{ºC} $$ ?
 (c) What gravitational potential energy is gained by this volume of air if it
 rises 1.00 m? Will this cause a significant cooling of the air?
 
@@ -1816,9 +1808,8 @@ that absorb infrared radiation from the Earth’s surface and reradiate it in al
 directions, thus sending a fraction of it back toward the surface of the Earth
 
 net rate of heat transfer by radiation
-: is $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}\_{1}^{4}\right)
+: is $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}\_{1}^{4}\right) $$
 
-$$
 
 radiation
 : energy transferred by electromagnetic waves directly as a result of a
@@ -1829,5 +1820,4 @@ Stefan-Boltzmann law of radiation
 constant, $$A $$ is the surface area of the object, $$T $$ is the absolute
 temperature, and $$e $$ is the emissivity
 
-</div>
-$$
+</div>

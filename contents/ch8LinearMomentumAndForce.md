@@ -130,8 +130,7 @@ Force and momentum are intimately related. Force acting over time can change mom
 
 </div>
 
-This statement of Newton’s second law of motion includes the more familiar $$
-\vb{F}_{\text{net}}=m\vb{a} $$ as a special case. We can derive this form as
+This statement of Newton’s second law of motion includes the more familiar $$ \vb{F}_{\text{net}}=m\vb{a} $$ as a special case. We can derive this form as
 follows. First, note that the change in momentum $$ \Delta \vb{p} $$ is given by
 
 <div class="equation">
@@ -224,8 +223,7 @@ where we have retained only two significant figures in the final step.
 This quantity was the average force exerted by Venus Williams’ racquet on the
 tennis ball during its brief impact (note that the ball also experienced the
 0.56-N force of gravity, but that force was not due to the racquet). This
-problem could also be solved by first finding the acceleration and then using $$
-F_{\text{net}}=ma $$, but one additional step would be required compared with
+problem could also be solved by first finding the acceleration and then using $$ F_{\text{net}}=ma $$, but one additional step would be required compared with
 the strategy used in this example.
 
 </div>
@@ -248,8 +246,7 @@ defined to be
  <div class="equation">
 $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
  </div>
-$$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta
- \vb{p} $$ is the change in momentum, and $$ \Delta t $$ is the change
+$$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta \vb{p} $$ is the change in momentum, and $$ \Delta t $$ is the change
  time.
 
 ### Conceptual Questions
@@ -411,12 +408,10 @@ Even though the artillery shell travels at supersonic speed (about Mach 3.5), th
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) At what speed would a $$ 2.00 \times 10^{4}\text{-kg} $$
-airplane have to fly to have a momentum of $$ 1.60 \times
-10^{9}\kg · \ms  $$ (the same as the ship's momentum in the problem above)?
+airplane have to fly to have a momentum of $$ 1.60 \times 10^{9}\kg · \ms  $$ (the same as the ship's momentum in the problem above)?
 
-(b) What is the plane's momentum when it is taking off at a speed of $$ 60.0 \ms
+(b) What is the plane's momentum when it is taking off at a speed of $$ 60.0 \ms $$
 
-$$
 ?
 
 (c) If the ship is an aircraft carrier that launches these airplanes with a
@@ -626,5 +621,4 @@ second law of motion
 : physical law that states that the net external force equals the change in
 momentum of a system divided by the time over which it changes
 
-</div>
-$$
+</div>

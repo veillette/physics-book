@@ -75,8 +75,7 @@ Solving this for the Hall emf yields
  $$\epsilon =Blv \left(B, v, \text{and} l, \text{mutually perpendicular}\right), $$
 </div>
 
-where $$\epsilon $$ is the Hall effect voltage across a conductor of width $$l
-$$ through which charges move at a speed $$v $$.
+where $$\epsilon $$ is the Hall effect voltage across a conductor of width $$l $$ through which charges move at a speed $$v $$.
 
 ![Diagram showing an electron moving to the left in a three-dimensional rectangular space with velocity v. The magnetic field is oriented out of the page. The electric field is down. The electric force on the charge is up while the magnetic force on the charge is down. An illustration of the right hand rule shows the thumb pointing to the left with v, the fingers out of the page with B, and the force on a positive charge up and away from the palm.](../resources/Figure_22_06_02.jpg 'The Hall emf ( \\epsilon ) produces an electric force that balances the magnetic force on the moving charges. The magnetic force produces charge separation, which builds up until it is balanced by the electric force, an equilibrium that is quickly reached.')
 {: #Figure2}
@@ -89,9 +88,7 @@ the Hall effect is to measure fluid flow in any fluid that has free charges (
 most do). (See [[Figure 3]](#Figure3).) A magnetic field applied perpendicular
 to the flow direction produces a Hall emf $$\epsilon $$ as shown. Note that the
 sign of $$\epsilon $$ depends not on the sign of the charges, but only on the
-directions of $$B $$ and $$v $$ . The magnitude of the Hall emf is $$\epsilon
-=Blv $$ , where $$l $$ is the pipe diameter, so that the average velocity $$v $$
-can be determined from $$\epsilon $$ providing the other factors are known.
+directions of $$B $$ and $$v $$ . The magnitude of the Hall emf is $$\epsilon =Blv $$ , where $$l $$ is the pipe diameter, so that the average velocity $$v $$ can be determined from $$\epsilon $$ providing the other factors are known.
 
 ![Diagram showing a tube with diameter l with one end between the north and south poles of a magnet. The charges are moving with velocity v within the tube and out of the page. The magnetic field B is oriented across the tube, from the north to the south pole of the magnet. The force on the charges is up for positive charges and down for negative charges. e m f = B l v.](../resources/Figure_22_06_03.jpg 'The Hall effect can be used to measure fluid flow in any fluid having free charges, such as blood. The Hall emf ( \\epsilon ) is measured across the tube perpendicular to the applied magnetic field and is proportional to the average velocity ( v ) .')
 {: #Figure3}
@@ -515,4 +512,4 @@ Hall emf
 : the electromotive force created by a current-carrying conductor by a magnetic
 field, $$\epsilon =Blv $$
 
-</div>
+</div>

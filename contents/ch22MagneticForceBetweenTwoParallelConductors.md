@@ -33,8 +33,7 @@ given to be
 {: #Figure1}
 
 This field is uniform along wire 2 and perpendicular to it, and so the force
-$${F}_{2} $$ it exerts on wire 2 is given by $$F= IlB \sin \theta $$ with $$\sin
-\theta =1 $$ \:
+$${F}_{2} $$ it exerts on wire 2 is given by $$F= IlB \sin \theta $$ with $$\sin \theta =1 $$ \:
 
 <div class="equation" >
  $${F}_{2}={I}_{2} l B_{1}. $$
@@ -74,8 +73,7 @@ each carrying 1 ampere, the force per meter is
  $$\frac{F}{l}=\frac{\left(4\pi  \times 10^{-7} \text{T}\cdot \text{m/A}\right){\left(1 A\right)}^{2}}{\left(2\pi \right)\left(1 m\right)}=2 \times 10^{-7}  \text{N/m} \text{.}  $$
 </div>
 
-Since $${\mu }_{0} $$ is exactly $$4\pi \times 10^{-7} \text{T}\cdot \text{m/A}
-$$ by definition, and because $$1 \text{T}=1 \text{N/}\left(\text{A} \cdot
+Since $${\mu }_{0} $$ is exactly $$4\pi \times 10^{-7} \text{T}\cdot \text{m/A} $$ by definition, and because $$1 \text{T}=1 \text{N/}\left(\text{A} \cdot
 \text{m}\right) $$ , the force per meter is exactly $$2 \times 10^{-7}
 \text{N/m} $$ . This is the basis of the operational definition of the ampere.
 
@@ -551,4 +549,4 @@ In this symmetric configuration, the forces on opposite corners are mirror image
 **By symmetry: Top wires experience upward and outward forces; bottom wires experience downward and outward forces. The exact magnitudes require vector addition of three force contributions each.**
 
 </div>
-</div>
+</div>

@@ -186,9 +186,7 @@ Calculate the gauge pressure inside a soap bubble  $$ 2.00 \times 10^{-4}  \text
 **Strategy**
 
 The radius is given and the surface tension can be found in [[Table 1]](#Table1)
-, and so $$P $$ can be found directly from the equation $$P=\frac{4\gamma }{r}
-
-$$
+, and so $$P $$ can be found directly from the equation $$P=\frac{4\gamma }{r} $$
 .
 
 **Solution**
@@ -312,8 +310,7 @@ in [[Figure 8]](#Figure8), capillary action will raise or suppress the liquid
 inside the tube depending on the combination of substances. The actual effect
 depends on the relative strength of the cohesive and adhesive forces and, thus,
 the contact angle $$\theta $$ given in the table. If $$\theta $$ is less than
-$$90º $$ , then the fluid will be raised; if $$\theta $$ is greater than $$90º
-$$ , it will be suppressed. Mercury, for example, has a very large surface
+$$90º $$ , then the fluid will be raised; if $$\theta $$ is greater than $$90º $$ , it will be suppressed. Mercury, for example, has a very large surface
 tension and a large contact angle with glass. When placed in a tube, the surface
 of a column of mercury curves downward, somewhat like a drop. The curved surface
 of a fluid in a tube is called a **meniscus**. The tendency of surface tension
@@ -411,8 +408,7 @@ Solving for $$r $$ and substituting known values produces
 
 This result is unreasonable. Sap in trees moves through the *xylem*, which forms
 tubes with radii as small as $$ 2.5 \times 10^{-5} \text{m} $$ . This value is
-about 180 times as large as the radius found necessary here to raise sap $$100
-\text{m} $$ . This means that capillary action alone cannot be solely
+about 180 times as large as the radius found necessary here to raise sap $$100 \text{m} $$ . This means that capillary action alone cannot be solely
 responsible for sap getting to the tops of trees.
 
 </div>
@@ -1222,5 +1218,4 @@ surface tension
 : the cohesive forces between molecules which cause the surface of a liquid to
 contract to the smallest possible surface area
 
-</div>
-$$
+</div>

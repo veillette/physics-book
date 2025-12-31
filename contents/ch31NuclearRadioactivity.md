@@ -81,13 +81,11 @@ induced radiation, adding to a remarkable family legacy.
 
 Research begun by people such as New Zealander Ernest Rutherford soon after the
 discovery of nuclear radiation indicated that different types of rays are
-emitted. Eventually, three types were distinguished and named **alpha** $$\left(
-\alpha \right) $$ ,
+emitted. Eventually, three types were distinguished and named **alpha** $$\left( \alpha \right) $$ ,
 **beta** $$\left(\beta \right) $$ , and **gamma** $$\left(\gamma \right) $$ ,
 because, like X-rays, their identities were initially
 unknown. [[Figure 2]](#Figure2) shows what happens if the rays are passed
-through a magnetic field. The $$\gamma $$ s are unaffected, while the $$\alpha
-$$ s and $$\beta $$ s are deflected in opposite directions, indicating the
+through a magnetic field. The $$\gamma $$ s are unaffected, while the $$\alpha $$ s and $$\beta $$ s are deflected in opposite directions, indicating the
 $$\alpha $$ s are positive, the $$\beta $$ s negative, and the $$\gamma $$ s
 uncharged. Rutherford used both magnetic and electric fields to show that
 $$\alpha $$ s have a positive charge twice the magnitude of an electron, or
@@ -151,9 +149,7 @@ why they have these characteristics and what are some of the consequences.
 Like X-rays, nuclear radiation in the form of $$\alpha $$ s, $$\beta $$ s, and
 $$\gamma $$ s has enough energy per event to ionize atoms and molecules in any
 material. The energy emitted in various nuclear decays ranges from a few
-$$\text{keV} $$ to more than $$10 \text{MeV} $$ , while only a few $$\text{eV}
-
-$$
+$$\text{keV} $$ to more than $$10 \text{MeV} $$ , while only a few $$\text{eV} $$
 are needed to produce ionization. The effects of X-rays and nuclear radiation
 on biological tissues and other materials, such as solid state electronics, are
 directly related to the ionization they produce. All of them, for example, can
@@ -205,13 +201,11 @@ This was discussed in detail in [Work, Energy, and Energy Resources](../contents
 Different **types** of radiation have different ranges when compared at the same
 energy and in the same material. Alphas have the shortest range, betas penetrate
 farther, and gammas have the greatest range. This is directly related to charge
-and speed of the particle or type of radiation. At a given energy, each $$\alpha
-$$ , $$\beta $$ , or $$\gamma $$ will produce the same number of ionizations in
+and speed of the particle or type of radiation. At a given energy, each $$\alpha $$ , $$\beta $$ , or $$\gamma $$ will produce the same number of ionizations in
 a material (each ionization requires a certain amount of energy on average). The
 more readily the particle produces ionization, the more quickly it will lose its
 energy. The effect of **charge** is as follows: The $$\alpha $$ has a charge of
-$$+{2q}_{e} $$ , the $$\beta $$ has a charge of $$-{q}_{e} $$ , and the $$\gamma
-$$ is uncharged. The electromagnetic force exerted by the $$\alpha $$ is thus
+$$+{2q}_{e} $$ , the $$\beta $$ has a charge of $$-{q}_{e} $$ , and the $$\gamma $$ is uncharged. The electromagnetic force exerted by the $$\alpha $$ is thus
 twice as strong as that exerted by the $$\beta $$ and it is more likely to
 produce ionization. Although chargeless, the $$\gamma $$ does interact weakly
 because it is an electromagnetic wave, but it is less likely to produce
@@ -397,5 +391,4 @@ radioactive
 range of radiation
 : the distance that the radiation can travel through a material
 
-</div>
-$$
+</div>

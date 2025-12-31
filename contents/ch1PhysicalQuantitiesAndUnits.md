@@ -162,16 +162,12 @@ measure of nanometers are convenient in optical design. With the metric system
 there is no need to invent new units for particular applications.
 
 The term **order of magnitude**
-refers to the scale of a value expressed in the metric system. Each power of $$
-10 $$ in the metric system represents a different order of magnitude. For
+refers to the scale of a value expressed in the metric system. Each power of $$ 10 $$ in the metric system represents a different order of magnitude. For
 example, $$ 10^{1},10^{2},10^{3} $$, and so forth are all different orders of
 magnitude. All quantities that can be expressed as a product of a specific power
 of $$ 10 $$ are said to be of the **same** order of magnitude. For example, the
-number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450
-$$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$
-450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can
-be thought of as a ballpark estimate for the scale of a value. The diameter of
-an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
+number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450 $$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$
+450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
 the order of $$ 10^{9}\m $$.
 
 <div class="note" data-label="" markdown="1">
@@ -516,8 +512,7 @@ The conversion from km/h to m/s requires two conversion factors that work togeth
 <div class="problem" markdown="1">
 A car is traveling at a speed of  $$ 33  \ms  $$.
 (a) What is its speed in kilometers per hour?
-(b) Is it exceeding the  $$
-90 \text{km/h}  $$
+(b) Is it exceeding the  $$ 90 \text{km/h}  $$
 speed limit?
 
 </div>
@@ -563,10 +558,7 @@ Show that  $$ 1.0  \ms =3.6 \text{km/h}  $$. Hint: Show the explicit
 steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
 </div>
 <div class="solution" markdown="1">
-  $$ \frac{1.0 \m }{\s}=
-\frac{1.0 \m }{\s}×
-\frac{3600 \s  }{1\text{hr}}×
-\frac{1 \text{km}}{1000 \m }  $$
+  $$ \frac{1.0 \m }{\s}= \frac{1.0 \m }{\s}× \frac{3600 \s  }{1\text{hr}}× \frac{1 \text{km}}{1000 \m }  $$
  $$ =3.6 \text{km/h}  $$.
 
 **Discussion**
@@ -900,4 +892,4 @@ order of magnitude
 conversion factor
 : a ratio expressing how many of one unit are equal to another unit
 
-</div>
+</div>

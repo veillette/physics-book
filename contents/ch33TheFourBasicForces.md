@@ -143,8 +143,7 @@ is so weak that its effects are extremely difficult to observe quantum
 mechanically. We shall explore it further
 in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory)). The $${W}^{+}, {W}^{-} $$
 , and $${Z}^{0} $$ particles that carry the weak nuclear force have mass,
-accounting for the very short range of this force. In fact, the $${W}^{+},
-{W}^{-} $$ , and $${Z}^{0} $$ are about 1000 times more massive than pions,
+accounting for the very short range of this force. In fact, the $${W}^{+}, {W}^{-} $$ , and $${Z}^{0} $$ are about 1000 times more massive than pions,
 consistent with the fact that the range of the weak nuclear force is about
 1/1000 that of the strong nuclear force. Gluons are actually massless, but since
 they act inside massive carrier particles like pions, the strong nuclear force
@@ -249,4 +248,4 @@ the electromagnetic force between two charged particles
 quantum electrodynamics
 : the theory of electromagnetism on the particle scale
 
-</div>
+</div>

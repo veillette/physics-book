@@ -47,8 +47,7 @@ interference and an allowed electron orbit_ is
 </div>
 
 where $${\lambda }_{n} $$ is the electron’s wavelength and $${r}_{n} $$ is the
-radius of that circular orbit. The de Broglie wavelength is $$\lambda
-=h/p=h/\mathrm{mv} $$ , and so here $$\lambda =h/{m}_{e}v $$ . Substituting this
+radius of that circular orbit. The de Broglie wavelength is $$\lambda =h/p=h/\mathrm{mv} $$ , and so here $$\lambda =h/{m}_{e}v $$ . Substituting this
 into the previous condition for constructive interference produces an
 interesting result:
 
@@ -161,4 +160,4 @@ When do photons, electrons, and atoms behave like particles and when do they beh
 How is the de Broglie wavelength of electrons related to the quantization of their orbits in atoms and molecules?
 
 </div>
-</div>
+</div>

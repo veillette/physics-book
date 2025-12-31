@@ -14,8 +14,7 @@ chapterNumber: 31
 </div>
 
 What is inside the nucleus? Why are some nuclei stable while others decay? (
-See [[Figure 1]](#Figure1).) Why are there different types of decay ( $$\alpha
-$$ , $$\beta $$ and $$\gamma $$ ) ? Why are nuclear decay energies so large?
+See [[Figure 1]](#Figure1).) Why are there different types of decay ( $$\alpha $$ , $$\beta $$ and $$\gamma $$ ) ? Why are nuclear decay energies so large?
 Pursuing natural questions like these has led to far more fundamental
 discoveries than you might imagine.
 
@@ -31,8 +30,7 @@ proton. [[Table 1]](#Table1) compares the masses of protons, neutrons, and
 electrons. Note how close the proton and neutron masses are, but the neutron is
 slightly more massive once you look past the third digit. Both nucleons are much
 more massive than an electron. In fact, $${m}_{p}=1836{m}_{e} $$
-(as noted in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics) and $${m}_
-{n}=1839{m}_{e} $$.
+(as noted in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics) and $${m}_ {n}=1839{m}_{e} $$.
 
 [[Table 1]](#Table1) also gives masses in terms of mass units that are more
 convenient than kilograms on the atomic and nuclear scale. The first of these is
@@ -43,9 +41,8 @@ the _unified **atomic mass**{: class="term"} unit_ (u), defined as
 </div>
 
 This unit is defined so that a neutral carbon $${}^{12}\text{C} $$ atom has a
-mass of exactly 12 u. Masses are also expressed in units of $$\text{MeV/}{c}^{2}
+mass of exactly 12 u. Masses are also expressed in units of $$\text{MeV/}{c}^{2} $$
 
-$$
 . These units are very convenient when considering the conversion of mass
 into energy (and vice versa), as is so prominent in nuclear processes. Using
 $$E=mc^{2} $$ and units of $$m $$ in $$\text{MeV/}{c}^{2} $$ , we find that
@@ -133,8 +130,7 @@ importance in organic chemistry (see [Appendix A](../contents/appendixA)).
             <td>0.511</td>
           </tr></tbody></table>
 
-Let us look at a few examples of nuclides expressed in the $${}_
-{Z}^{A}{\text{X}}_{N} $$ notation. The nucleus of the simplest atom, hydrogen,
+Let us look at a few examples of nuclides expressed in the $${}_ {Z}^{A}{\text{X}}_{N} $$ notation. The nucleus of the simplest atom, hydrogen,
 is a single proton, or $${}_{1}^{1}\text{H} $$
 (the zero for no neutrons is often omitted). To check this symbol, refer to the
 periodic table—you see that the atomic number $$Z $$ of hydrogen is 1. Since you
@@ -144,10 +140,8 @@ two neutrons. You can then see that it is written $${}_{2}^{4}{\text{He}}_{2} $$
 . There is a scarce form of hydrogen found in nature called deuterium; its
 nucleus has one proton and one neutron and, hence, twice the mass of common
 hydrogen. The symbol for deuterium is, thus, $${}_{1}^{2}{\text{H}}_{1} $$
-(sometimes $$\text{D} $$ is used, as for deuterated water $${\text{D}}_
-{2}\text{O} $$ ). An even rarer—and radioactive—form of hydrogen is called
-tritium, since it has a single proton and two neutrons, and it is written $${}_
-{1}^{3}{\text{H}}_{2} $$ . These three varieties of hydrogen have nearly
+(sometimes $$\text{D} $$ is used, as for deuterated water $${\text{D}}_ {2}\text{O} $$ ). An even rarer—and radioactive—form of hydrogen is called
+tritium, since it has a single proton and two neutrons, and it is written $${}_ {1}^{3}{\text{H}}_{2} $$ . These three varieties of hydrogen have nearly
 identical chemistries, but the nuclei differ greatly in mass, stability, and
 other characteristics. Nuclei (such as those of hydrogen) having the same $$Z $$
 and different $$N $$ s are defined to be **isotopes** of the same element.
@@ -163,10 +157,8 @@ then, $$N=A-Z $$ ). Thus the simpler notation for nuclides is
 </div>
 
 which is sufficient and is most commonly used. For example, in this simpler
-notation, the three isotopes of hydrogen are $${}^{1}\text{H} \text{,}
-{}^{2}\text{H} \text{,} $$ and $${}^{3}\text{H} \text{,} $$ while the $$\alpha
-$$ particle is $${}^{4}\text{He} $$ . We read this backward, saying helium-4 for
-$${}^{4}\text{He} $$ , or uranium-238 for $${}^{238}\text{U} $$ . So for
+notation, the three isotopes of hydrogen are $${}^{1}\text{H} \text{,} {}^{2}\text{H} \text{,} $$ and $${}^{3}\text{H} \text{,} $$ while the $$\alpha
+$$ particle is $${}^{4}\text{He} $$ . We read this backward, saying helium-4 for $${}^{4}\text{He} $$ , or uranium-238 for $${}^{238}\text{U} $$ . So for
 $${}^{238}\text{U} $$ , should we need to know, we can determine that $$Z=92 $$
 for uranium from the periodic table, and, thus, $$N=238-92=146 $$.
 
@@ -183,8 +175,7 @@ compelling evidence that nucleons are closely packed in a nucleus is that the **
 
 where $${r}_{0}=1.2 \text{fm} $$ and $$A $$ is the mass number of the nucleus.
 Note that $${r}^{3}\propto A $$ . Since many nuclei are spherical, and the
-volume of a sphere is $$V=\left(4/3\right)\pi r^{3} $$ , we see that $$V\propto
-A $$ —that is, the volume of a nucleus is proportional to the number of nucleons
+volume of a sphere is $$V=\left(4/3\right)\pi r^{3} $$ , we see that $$V\propto A $$ —that is, the volume of a nucleus is proportional to the number of nucleons
 in it. This is what would happen if you pack nucleons so closely that there is
 no empty space between them.
 
@@ -211,8 +202,7 @@ of $$r={r}_{0}{A}^{1/3}, $$ given $$A=56 $$ .
 (b) To find the approximate density, we assume the nucleus is spherical (this
 one actually is), calculate its volume using the radius found in part (a), and
 then find its density from $$\rho =m/V $$ . Finally, we will need to convert
-density from units of $$\text{u}/\text{fm}^{3} $$ to $$\text{kg}/\text{m}^{3}
-$$.
+density from units of $$\text{u}/\text{fm}^{3} $$ to $$\text{kg}/\text{m}^{3} $$.
 
 **Solution**
 
@@ -267,8 +257,7 @@ water 61 km on a side.
 
 What forces hold a nucleus together? The nucleus is very small and its protons,
 being positive, exert tremendous repulsive forces on one another. (The Coulomb
-force increases as charges get closer, since it is proportional to $$1/{r}^{2}
-$$ , even at the tiny distances found in nuclei.) The answer is that two
+force increases as charges get closer, since it is proportional to $$1/{r}^{2} $$ , even at the tiny distances found in nuclei.) The answer is that two
 previously unknown forces hold the nucleus together and make it into a tightly
 packed ball of nucleons. These forces are called the *weak and strong nuclear
 forces*. Nuclear forces are so short ranged that they fall to zero strength when
@@ -564,5 +553,4 @@ protons
 radius of a nucleus
 : the radius of a nucleus is $$r={r}_{0}{A}^{1/3} $$
 
-</div>
-$$
+</div>

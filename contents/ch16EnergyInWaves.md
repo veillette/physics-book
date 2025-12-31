@@ -49,8 +49,7 @@ effects. All these pertinent factors are included in the definition of **intensi
 
 where $$P $$ is the power carried by the wave through area $$A $$ . The
 definition of intensity is valid for any energy in transit, including that
-carried by waves. The SI unit for intensity is watts per square meter ( $$
-{\text{W/m}}^{2} $$ ). For example, infrared and visible energy from the Sun
+carried by waves. The SI unit for intensity is watts per square meter ( $$ {\text{W/m}}^{2} $$ ). For example, infrared and visible energy from the Sun
 impinge on Earth at an intensity of $$1300 {\text{W/m}}^{2} $$ just above the
 atmosphere. There are other intensity-related units in use, too. The most common
 is the decibel. For example, a 90 decibel sound level corresponds to an
@@ -194,9 +193,7 @@ of the resulting wave is four times as great as in the individual waves.
 **Discussion**
 
 The intensity goes up by a factor of 4 when the amplitude doubles. This answer
-is a little disquieting. The two individual waves each have intensities of $$
-1.00 {\text{W/m}}^{2} $$ , yet their sum has an intensity of $$ 4.00
-{\text{W/m}}^{2} $$ , which may appear to violate conservation of energy. This
+is a little disquieting. The two individual waves each have intensities of $$ 1.00 {\text{W/m}}^{2} $$ , yet their sum has an intensity of $$ 4.00 {\text{W/m}}^{2} $$ , which may appear to violate conservation of energy. This
 violation, of course, cannot happen. What does happen is intriguing. The area
 over which the intensity is $$ 4.00 {\text{W/m}}^{2} $$ is much less than the
 area covered by the two waves before they interfered. There are other areas
@@ -439,8 +436,7 @@ The measured intensity of 650 W/m² is consistent with typical sunlight intensit
 **Astronomy Application**
 
 Energy from the Sun arrives at the top of the Earth’s atmosphere with an
-intensity of $$1.30 {\text{kW/m}}^{2}. $$ How long does it take for $$1.8 \times
-10^{9} \text{J} $$ to arrive on an area of $$ 1.00 {\text{m}}^{2} $$ ?
+intensity of $$1.30 {\text{kW/m}}^{2}. $$ How long does it take for $$1.8 \times 10^{9} \text{J} $$ to arrive on an area of $$ 1.00 {\text{m}}^{2} $$ ?
 
 </div>
 <div class="solution" markdown="1">
@@ -714,4 +710,4 @@ This illustrates why medical lasers require extreme safety precautions, protecti
 intensity
 : power per unit area
 
-</div>
+</div>

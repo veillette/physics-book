@@ -49,14 +49,11 @@ electrical power, called a **voltage drop**, in each resistor
 in [[Figure 2]](#Figure2).
 
 According to **Ohm’s law**, the voltage drop, $$V $$ , across a resistor when a
-current flows through it is calculated using the equation $$V=IR $$ , where $$I
-$$ equals the current in amps (A) and $$R $$ is the resistance in ohms $$\left(
-\Omega \right) $$ . Another way to think of this is that $$V $$ is the voltage
-necessary to make a current $$I $$ flow through a resistance $$R $$.
+current flows through it is calculated using the equation $$V=IR $$ , where $$I $$ equals the current in amps (A) and $$R $$ is the resistance in ohms $$\left(
+\Omega \right) $$ . Another way to think of this is that $$V $$ is the voltage necessary to make a current $$I $$ flow through a resistance $$R $$.
 
 So the voltage drop across $${R}_{1} $$ is $${V}_{1}=IR_{1} $$ , that across
-$${R}_{2} $$ is $${V}_{2}=IR_{2} $$ , and that across $${R}_{3} $$ is $${V}_
-{3}=IR_{3} $$ . The sum of these voltages equals the voltage output of the
+$${R}_{2} $$ is $${V}_{2}=IR_{2} $$ , and that across $${R}_{3} $$ is $${V}_ {3}=IR_{3} $$ . The sum of these voltages equals the voltage output of the
 source; that is,
 
 <div class="equation" >
@@ -242,8 +239,7 @@ The same is true in your house, or any building. (See [[Figure 3]](#Figure3)(b)
 To find an expression for the equivalent parallel resistance $${R}_{\text{p}} $$
 , let us consider the currents that flow and how they are related to resistance.
 Since each resistor in the circuit has the full voltage, the currents flowing
-through the individual resistors are $${I}_{1}=\frac{V}{ {R}_{1}} $$ , $${I}_
-{2}=\frac{V}{ {R}_{2}} $$ , and $${I}_{3}=\frac{V}{ {R}_{3}} $$ . Conservation
+through the individual resistors are $${I}_{1}=\frac{V}{ {R}_{1}} $$ , $${I}_ {2}=\frac{V}{ {R}_{2}} $$ , and $${I}_{3}=\frac{V}{ {R}_{3}} $$ . Conservation
 of charge implies that the total current $$I $$ produced by the source is the
 sum of these currents:
 
@@ -264,9 +260,8 @@ Note that Ohm’s law for the equivalent single resistance gives
 </div>
 
 The terms inside the parentheses in the last two equations must be equal.
-Generalizing to any number of resistors, the total resistance $${R}\_{\text{p}}
+Generalizing to any number of resistors, the total resistance $${R}\_{\text{p}} $$
 
-$$
 of a parallel connection is related to the individual resistances by
 
 <div class="equation" >
@@ -437,8 +432,7 @@ consuming than difficult.
 The simplest combination of series and parallel resistance, shown
 in [[Figure 5]](#Figure5), is also the most instructive, since it is found in
 many applications. For example, $${R}_{1} $$ could be the resistance of wires
-from a car battery to its electrical devices, which are in parallel. $${R}_{2}
-$$ and $${R}_{3} $$ could be the starter motor and a passenger compartment
+from a car battery to its electrical devices, which are in parallel. $${R}_{2} $$ and $${R}_{3} $$ could be the starter motor and a passenger compartment
 light. We have previously assumed that wire resistance is negligible, but, when
 it is not, it has important effects, as the next example indicates.
 
@@ -462,8 +456,7 @@ Drop, Current, and Power Dissipation: Combining Series and Parallel Circuits
 **Strategy and Solution for (a)**
 
 To find the total resistance, we note that $${R}_{2} $$ and $${R}_{3} $$ are in
-parallel and their combination $${R}_{\text{p}} $$ is in series with $${R}_{1}
-$$ . Thus the total (equivalent) resistance of this combination is
+parallel and their combination $${R}_{\text{p}} $$ is in series with $${R}_{1} $$ . Thus the total (equivalent) resistance of this combination is
 
 <div class="equation" >
  $${R}_{\text{tot}}={R}_{1}+{R}_{\text{p}}. $$
@@ -1262,7 +1255,6 @@ so that
 $$\begin{array}{}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{
 {R}_{1}{R}_{2}}{ {R}_{1}}={R}_{2}\left({R}_{1} \gg {R}_{2}\right)
 \text{.}\end{array}
-$$
 
 </div>
 </div>
@@ -1376,4 +1368,4 @@ parallel
 each component receives an equal voltage from the power source; often pictured
 in a ladder-shaped diagram, with each component on a rung of the ladder
 
-</div>
+</div>

@@ -59,17 +59,14 @@ in [[Figure 4]](#Figure4). **Any change in magnetic flux $$\Phi $$ induces an
 emf.** This process is defined to be **electromagnetic induction**. Units of
 magnetic flux $$\Phi $$ are $$\text{T}\cdot {\text{m}}^{2} $$ . As seen
 in [[Figure 4]](#Figure4), $$B \cos \theta = B_\perp $$ , which is the component
-of $$B $$ perpendicular to the area $$A $$ . Thus magnetic flux is $$\Phi ={B}_
-{\perp}A $$ , the product of the area and the component of the magnetic field
+of $$B $$ perpendicular to the area $$A $$ . Thus magnetic flux is $$\Phi ={B}_ {\perp}A $$ , the product of the area and the component of the magnetic field
 perpendicular to it.
 
 ![Figure shows a flat square shaped surface A. The magnetic field B is shown to act on the surface at an angle theta with the normal to the surface A. The cosine component of magnetic field B cos theta is shown to act parallel to the normal to the surface.](../resources/Figure_23_01_04.jpg 'Magnetic flux ( \\Phi ) is related to the magnetic field and the area over which it exists. The flux ( \\Phi=BA \\cos \\theta ) is related to induction; any change in ( \\Phi ) induces an emf.')
 {: #Figure4}
 
 All induction, including the examples given so far, arises from some change in
-magnetic flux $$\Phi $$ . For example, Faraday changed $$B $$ and hence $$\Phi
-
-$$
+magnetic flux $$\Phi $$ . For example, Faraday changed $$B $$ and hence $$\Phi $$
 when opening and closing the switch in his apparatus (shown
 in [[Figure 1]](#Figure1)). This is also true for the bar magnet and coil shown
 in [[Figure 2]](#Figure2). When rotating the coil of a generator, the angle
@@ -205,5 +202,4 @@ an area $$A $$ at an angle $$\theta $$ with the perpendicular to the area
 electromagnetic induction
 : the process of inducing an emf (voltage) with a change in magnetic flux
 
-</div>
-$$
+</div>

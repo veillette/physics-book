@@ -99,20 +99,17 @@ where
  $${v}_{\text{max}}=\sqrt{\frac{k}{m}}X. $$
 </div>
 
-From this expression, we see that the velocity is a maximum ( $${v}\_{\text{max}}
+From this expression, we see that the velocity is a maximum ( $${v}\_{\text{max}} $$
 
-$$
 )
 at $$x=0 $$ , as stated earlier in $$v\left(t\right)=-{v}_{\text{max}} \sin
 \frac{2\pi t}{T}
-$$
 
 _._ Notice that the maximum velocity depends on three factors. Maximum velocity
 is directly proportional to amplitude. As you might guess, the greater the
 maximum displacement the greater the maximum velocity. Maximum velocity is also
 greater for stiffer systems, because they exert greater force for the same
-displacement. This observation is seen in the expression for $${v}_{\text{max}};
-$$ it is proportional to the square root of the force constant $$k $$ . Finally,
+displacement. This observation is seen in the expression for $${v}_{\text{max}}; $$ it is proportional to the square root of the force constant $$k $$ . Finally,
 the maximum velocity is smaller for objects that have larger masses, because the
 maximum velocity is inversely proportional to the square root of $$m $$ . For a
 given force, objects that have large masses accelerate more slowly.
@@ -132,8 +129,7 @@ Suppose that a car is 900 kg and has a suspension system that has a force consta
 
 **Strategy**
 
-We can use the expression for $${v}_{\text{max}} $$ given in $${v}_
-{\text{max}}=\sqrt{\frac{k}{m}}X $$ to determine the maximum vertical velocity.
+We can use the expression for $${v}_{\text{max}} $$ given in $${v}_ {\text{max}}=\sqrt{\frac{k}{m}}X $$ to determine the maximum vertical velocity.
 The variables $$m $$ and $$k $$ are given in the problem statement, and the
 maximum displacement $$X $$ is 0.100 m.
 
@@ -424,4 +420,4 @@ The key to this system's effectiveness is resonance: by tuning the mass damper t
 (b) $$7.90 \times 10^{6} \text{ J}$$
 
 </div>
-</div>
+</div>

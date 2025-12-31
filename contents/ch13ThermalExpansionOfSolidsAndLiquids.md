@@ -62,8 +62,7 @@ where  $$\Delta L $$
 [[Table 1]](#Table1) lists representative values of the coefficient of linear
 expansion, which may have units of $$1/\text{ºC} $$ or 1/K. Because the size of
 a kelvin and a degree Celsius are the same, both $$\alpha $$ and $$\Delta T $$
-can be expressed in units of kelvins or degrees Celsius. The equation $$\Delta
-L=\alpha L\Delta T $$ is accurate for small changes in temperature and can be
+can be expressed in units of kelvins or degrees Celsius. The equation $$\Delta L=\alpha L\Delta T $$ is accurate for small changes in temperature and can be
 used for large changes in temperature if an average value of $$\alpha $$ is
 used.
 
@@ -336,8 +335,7 @@ where  $$\beta  $$  is the **coefficient of volume expansion** and  $$\beta \app
 
 In general, objects will expand with increasing temperature. Water is the most
 important exception to this rule. Water expands with increasing temperature (its
-density _decreases_) when it is at temperatures greater than $$4\text{ºC}\left(
-40\text{ºF}\right) $$ . However, it expands with *decreasing* temperature when
+density _decreases_) when it is at temperatures greater than $$4\text{ºC}\left( 40\text{ºF}\right) $$ . However, it expands with *decreasing* temperature when
 it is between $$+4\text{ºC} $$ and $$0\text{ºC} $$  ( $$40\text{ºF} $$ to
 $$32\text{ºF}$$) . Water is densest at $$+4\text{ºC} $$ .
 (See [[Figure 3]](#Figure3).) Perhaps the most striking effect of this
@@ -535,9 +533,7 @@ Two blocks, A and B, are made of the same material. Block A has dimensions  $$l�
  which is 4 times that of Block A. Thus the change in volume of Block B should be 4 times the change in volume of Block A.
 
 (b) The change in area is proportional to the area. The cross-sectional area of
-Block A is $$L×2L={2L}^{2}, $$ while that of Block B is $$2L×2L={4L}^{2}\text{.}
-
-$$
+Block A is $$L×2L={2L}^{2}, $$ while that of Block B is $$2L×2L={4L}^{2}\text{.} $$
 Because cross-sectional area of Block B is twice that of Block A, the change
 in the cross-sectional area of Block B is twice that of Block A.
 
@@ -826,8 +822,7 @@ This expansion gap is essential to prevent rails from buckling on hot days. If r
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-You are looking to purchase a small piece of land in Hong Kong. The price is "only"  $$60 000 per square meter! The land title says the dimensions are  $$20 \text{m} × 30 \text{m}\text{.} $$
- By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was  $$20\text{ºC} $$
+You are looking to purchase a small piece of land in Hong Kong. The price is "only"  $$60 000 per square meter! The land title says the dimensions are  $$20 \text{m} × 30 \text{m}\text{.} $$ By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was  $$20\text{ºC} $$
  above normal?
 
 </div>
@@ -1178,5 +1173,4 @@ change in temperature
 thermal stress
 : stress caused by thermal expansion or contraction
 
-</div>
-$$
+</div>

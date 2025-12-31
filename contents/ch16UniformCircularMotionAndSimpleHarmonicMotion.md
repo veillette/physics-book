@@ -35,8 +35,7 @@ the merry-go-round. The projection of the position of P onto a fixed axis
 undergoes simple harmonic motion and is analogous to the shadow of the object.
 At the time shown in the figure, the projection has position $$x $$ and moves to
 the left with velocity $$v $$ . The velocity of the point P around the circle
-equals $${\overline{v}}_{\text{max}} $$ . The projection of $${\overline{v}}_
-{\text{max}} $$ on the $$x $$ -axis is the velocity $$v $$ of the simple
+equals $${\overline{v}}_{\text{max}} $$ . The projection of $${\overline{v}}_ {\text{max}} $$ on the $$x $$ -axis is the velocity $$v $$ of the simple
 harmonic motion along the $$x $$ -axis.
 
 ![The figure shows a point P moving through the circumference of a circle in an angular way with angular velocity omega. The diameter is projected along the x axis, with point P making an angle theta at the centre of the circle. A point along the diameter shows the projection of the point P with a dotted perpendicular line from P to this point, the projection of the point is given as v along the circle and its velocity v subscript max, over the top of the projection arrow in an upward left direction.](../resources/Figure_16_06_03.jpg 'A point P moving on a circular path with a constant angular velocity ( \\omega ) is undergoing uniform circular motion. Its projection on the x-axis undergoes simple harmonic motion. Also shown is the velocity of this point around the circle, ( {\\overline{v} }_\\text{max} ), and its projection, which is ( v ) . Note that these velocities form a similar triangle to the displacement triangle.')
@@ -57,8 +56,7 @@ $$X $$ is the radius of the circular path. Thus,
 </div>
 
 The angular velocity $$\omega $$ is in radians per unit time; in this case
-$$2\pi $$ radians is the time for one revolution $$T $$ . That is, $$\omega
-=2\pi /T $$ . Substituting this expression for $$\omega $$, we see that the
+$$2\pi $$ radians is the time for one revolution $$T $$ . That is, $$\omega =2\pi /T $$ . Substituting this expression for $$\omega $$, we see that the
 position $$x $$ is given by:
 
 <div class="equation" >
@@ -77,8 +75,7 @@ projection of uniform circular motion onto the $$x $$ -axis.
 
 Now let us use [[Figure 3]](#Figure3) to do some further analysis of uniform
 circular motion as it relates to simple harmonic motion. The triangle formed by
-the velocities in the figure and the triangle formed by the displacements ( $$X,
-x, $$ and $$\sqrt{ {X}^{2}-{x}^{2}} $$ )
+the velocities in the figure and the triangle formed by the displacements ( $$X, x, $$ and $$\sqrt{ {X}^{2}-{x}^{2}} $$ )
 are similar right triangles. Taking ratios of similar sides, we see that
 
 <div class="equation" >
@@ -337,4 +334,4 @@ As the record spins, the ladybug moves in a circle. When illuminated by parallel
 0.419 m/s or 41.9 cm/s
 
 </div>
-</div>
+</div>

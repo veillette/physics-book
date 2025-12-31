@@ -37,8 +37,7 @@ following relationship is found:
 </div>
 
 where $$P $$ is the pressure (average force per unit area), $$V $$ is the volume
-of gas in the container, $$N $$ is the number of molecules in the container, $$m
-$$ is the mass of a molecule, and $$\overline{ {v}^{2}} $$ is the average of the
+of gas in the container, $$N $$ is the number of molecules in the container, $$m $$ is the mass of a molecule, and $$\overline{ {v}^{2}} $$ is the average of the
 molecular speed squared.
 
 What can we learn from this atomic and molecular version of the ideal gas law?
@@ -152,9 +151,8 @@ molecule is directly related to absolute temperature.
  $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
 </div>
 
-The average translational kinetic energy of a molecule, $$\overline{\text{KE}}
+The average translational kinetic energy of a molecule, $$\overline{\text{KE}} $$
 
-$$
 , is called **thermal energy** . The equation
 $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$ is a
 molecular interpretation of temperature, and it has been found to be valid for
@@ -213,8 +211,7 @@ but we must first find the mass of a nitrogen molecule. Using the molecular mass
 </div>
 **Solution for (b)**
 
-Substituting this mass and the value for $$k $$ into the equation for $${v}_
-{\text{rms}} $$ yields
+Substituting this mass and the value for $$k $$ into the equation for $${v}_ {\text{rms}} $$ yields
 
 <div class="equation" >
  $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}=\sqrt{\frac{3\left( 1.38 \times 10^{-23} \text{J/K}\right)\left(293 \text{K}\right)}{ 4.65 \times 10^{-26} \text{kg}}}=511 \text{m/s}\text{.} $$
@@ -762,5 +759,4 @@ molecule
 
 </div>
 
-[1]: http://phet.colorado.edu/en/simulation/gas-properties
-$$
+[1]: http://phet.colorado.edu/en/simulation/gas-properties

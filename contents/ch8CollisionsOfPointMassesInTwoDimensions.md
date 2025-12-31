@@ -32,8 +32,7 @@ consider such rotation until later, and so for now we arrange things so that no
 rotation is possible. To avoid rotation, we consider only the scattering of
 **point masses**—that is, structureless particles that cannot rotate or spin.
 
-We start by assuming that $$ \vb{F}_{\text{net}}=0 $$, so that momentum $$
-\vb{p} $$ is conserved. The simplest collision is one in which one of the
+We start by assuming that $$ \vb{F}_{\text{net}}=0 $$, so that momentum $$ \vb{p} $$ is conserved. The simplest collision is one in which one of the
 particles is initially at rest. (
 See [Figure 1](#Figure1).) The best choice for a coordinate system is one with an
 axis parallel to the velocity of the incoming particle, as shown
@@ -69,8 +68,7 @@ But because particle 2 is initially at rest, this equation becomes
  $$ m_{1} v_{1x}= m_{1}v^{\prime}_{1x}+ m_{2}v^{\prime}_{2x}. $$
 </div>
 
-The components of the velocities along the $$ x $$ -axis have the form $$
-v\cos{\theta} $$. Because particle 1 initially moves along the $$ x $$ -axis, we
+The components of the velocities along the $$ x $$ -axis have the form $$ v\cos{\theta} $$. Because particle 1 initially moves along the $$ x $$ -axis, we
 find $$ v_{1x}= v_{1} $$.
 
 Conservation of momentum along the $$ x $$ -axis gives the following equation:
@@ -110,8 +108,7 @@ equation for conservation of momentum along the $$ y $$ -axis becomes
  $$ 0= m_{1}v^{\prime}_{1y}+ m_{2}v^{\prime}_{2y}. $$
 </div>
 
-The components of the velocities along the $$ y $$ -axis have the form $$
-v\sin{\theta} $$.
+The components of the velocities along the $$ y $$ -axis have the form $$ v\sin{\theta} $$.
 
 Thus, conservation of momentum along the $$ y $$ -axis gives the following
 equation:
@@ -146,8 +143,7 @@ initially stationary object with mass of 0.400 kg $$ \left( m_{2}\right) $$.
 The 0.250-kg object emerges from the room at an angle of $$ 45.0^\circ $$ with its incoming direction.
 
 The speed of the 0.250-kg object is originally 2.00 m/s and is 1.50 m/s after
-the collision. Calculate the magnitude and direction of the velocity ($$
-v^{\prime}_{2} $$ and $$\theta_{2} $$) of the 0.400-kg object after the
+the collision. Calculate the magnitude and direction of the velocity ($$ v^{\prime}_{2} $$ and $$\theta_{2} $$) of the 0.400-kg object after the
 collision.
 
 **Strategy**
@@ -157,19 +153,15 @@ shown in [Figure 2](#Figure2) is one in which $$ m\_{2} $$ is originally at rest
 the initial velocity is parallel to the $$ x $$ -axis, so that conservation of
 momentum along the $$ x $$ - and $$ y $$ -axes is applicable.
 
-Everything is known in these equations except $$ v^{\prime}_{2} $$ and $$\theta_
-{2} $$, which are precisely the quantities we wish to find. We can find two
+Everything is known in these equations except $$ v^{\prime}_{2} $$ and $$\theta_ {2} $$, which are precisely the quantities we wish to find. We can find two
 unknowns because we have two independent equations: the equations describing the
 conservation of momentum in the $$ x $$- and $$ y $$ -directions.
 
 **Solution**
 
-Solving $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta }_{1}+ m_{2}v^{\prime}_
-{2}\cos{\theta }_{2} $$ for $$ v_{2}^{\prime }\cos{\theta_{2}} $$ and $$ 0= m_
-{1}v^{\prime}_{1}\sin{\theta }_{1}+ m_{2}v^{\prime}_{2}\sin{\theta }_{2} $$ for
-$$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
-in which $$ \theta_2 $$ is the only unknown quantity. Applying the identity $$
-\left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
+Solving $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta }_{1}+ m_{2}v^{\prime}_ {2}\cos{\theta }_{2} $$ for $$ v_{2}^{\prime }\cos{\theta_{2}} $$ and $$ 0= m_
+{1}v^{\prime}_{1}\sin{\theta }_{1}+ m_{2}v^{\prime}_{2}\sin{\theta }_{2} $$ for $$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
+in which $$ \theta_2 $$ is the only unknown quantity. Applying the identity $$ \left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
 
 <div class="equation">
  $$ \tan{\theta_{2}}=\frac{ v^{\prime}_{1}\sin{\theta_{1}}}{ v^{\prime}_{1}\cos{\theta_{1}}- v_{1}}. $$
@@ -225,8 +217,7 @@ billiard balls, and precisely the case with some subatomic particle collisions.
 We can thus get a mental image of a collision of subatomic particles by thinking
 about billiards (or pool)
 . (Refer to [Figure 1](#Figure1) for masses and angles.) First, an elastic
-collision conserves internal kinetic energy. Again, let us assume object 2 $$
-\left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic energy
+collision conserves internal kinetic energy. Again, let us assume object 2 $$ \left( m_{2}\right) $$ is initially at rest. Then, the internal kinetic energy
 before and after the collision of two objects that have equal masses is
 
 <div class="equation">
@@ -254,8 +245,7 @@ There are three ways that this term can be zero. They are
 
 - $$ v^{\prime}\_{2}=0 $$: no collision; incoming ball continues unaffected
 
-- $$ \cos\left({\theta_{1}}-{\theta_{2}}\right)=0 $$: angle of separation $$
-  \left({\theta_{1}}-{\theta_{2}}\right) $$ is $$ 90^\circ $$ after the
+- $$ \cos\left({\theta_{1}}-{\theta_{2}}\right)=0 $$: angle of separation $$ \left({\theta_{1}}-{\theta_{2}}\right) $$ is $$ 90^\circ $$ after the
   collision
 
 All three of these ways are familiar occurrences in billiards and pool, although
@@ -288,10 +278,8 @@ the atomic nucleus from such experiments.
   velocity of the incoming particle.
 - Two-dimensional collisions of point masses where mass 2 is initially at rest
   conserve momentum along the initial direction of mass 1 (the $$ x $$ -axis),
-  stated by $$ m_{1} v_{1} = m_{1} v^{\prime}_{1} \cos{\theta }_{1}+m_
-  {2}v^{\prime}_{2} \cos{\theta }_{2} $$ and along the direction perpendicular
-  to the initial direction (the $$ y $$ -axis) stated by $$ 0= m_{1}v^{\prime}_
-  {1y}+m_{2}v^{\prime}_{2y} $$.
+  stated by $$ m_{1} v_{1} = m_{1} v^{\prime}_{1} \cos{\theta }_{1}+m_ {2}v^{\prime}_{2} \cos{\theta }_{2} $$ and along the direction perpendicular
+  to the initial direction (the $$ y $$ -axis) stated by $$ 0= m_{1}v^{\prime}_ {1y}+m_{2}v^{\prime}_{2y} $$.
 - The internal kinetic before and after the collision of two objects that have
 equal masses is
   <div class="equation">
@@ -659,8 +647,7 @@ This is a "superelastic" collision where internal energy (from the ball's rotati
 
 Ernest Rutherford (the first New Zealander to be awarded the Nobel Prize in
 Chemistry) demonstrated that nuclei were very small and dense by scattering
-helium-4 nuclei $$ \left({}^{4}\text{He}\right) $$ from gold-197 nuclei $$
-\left({}^{197}\text{Au}\right) $$. The energy of the incoming helium nucleus was
+helium-4 nuclei $$ \left({}^{4}\text{He}\right) $$ from gold-197 nuclei $$ \left({}^{197}\text{Au}\right) $$. The energy of the incoming helium nucleus was
 $$ 8.00\times 10^{-13} \J $$, and the masses of the helium and gold nuclei were
 $$ 6.68\times 10^{-27}\kg $$ and $$ 3.29\times 10^{-25}\kg $$, respectively (
 note that their mass ratio is 4 to 197).
@@ -984,4 +971,4 @@ The player barely moves (2.5 cm) despite giving the puck significant velocity. T
 point masses
 : structureless particles with no rotation or spin
 
-</div>
+</div>

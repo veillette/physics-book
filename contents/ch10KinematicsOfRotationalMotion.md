@@ -86,8 +86,7 @@ translational counterparts):
 
 In these equations, the subscript 0 denotes initial values
 ($$ \theta_{0} $$, $$ x_{0} $$, and $$ t\_{0} $$ are initial values), and the
-average angular velocity $$ \overline{\omega } $$ and average velocity $$
-\overline{v} $$ are defined as follows:
+average angular velocity $$ \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as follows:
 
 <div class="equation">
  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}; \overline{v}=\frac{ v_
@@ -169,11 +168,8 @@ Note again that radians must always be used in any calculation relating linear a
 
 **Solution for (c)**
 
-Here, we are asked to find the number of revolutions. Because $$ 1 \text{rev}=2
-\pi \text{rad} $$, we can find the number of revolutions by finding $$ \theta $$
-in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega_{0} $$
-is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega_{0}
-t+\frac{1}{2} \alpha t^{2} $$.
+Here, we are asked to find the number of revolutions. Because $$ 1 \text{rev}=2 \pi \text{rad} $$, we can find the number of revolutions by finding $$ \theta $$ in radians. We are given $$ \alpha $$ and $$ t $$, and we know $$ \omega_{0} $$
+is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega_{0} t+\frac{1}{2} \alpha t^{2} $$.
 
 <div class="equation">
  $$ \begin{array}{lll}
@@ -224,10 +220,8 @@ Now let us consider what happens if the fisherman applies a brake to the spinnin
 We are asked to find the time $$ t $$ for the reel to come to a stop. The
 initial and final conditions are different from those in the previous problem,
 which involved the same fishing reel. Now we see that the initial angular
-velocity is $$ \omega_{0}=220 \rads $$ and the final angular velocity $$ \omega
-$$ is zero. The angular acceleration is given to be $$ \alpha =-300 \radss $$.
-Examining the available equations, we see all quantities but *t* are known in $$
-\omega =\omega_{0}+ \alpha t, $$ making it easiest to use this equation.
+velocity is $$ \omega_{0}=220 \rads $$ and the final angular velocity $$ \omega $$ is zero. The angular acceleration is given to be $$ \alpha =-300 \radss $$.
+Examining the available equations, we see all quantities but *t* are known in $$ \omega =\omega_{0}+ \alpha t, $$ making it easiest to use this equation.
 
 **Solution**
 
@@ -264,8 +258,7 @@ Large freight trains accelerate very slowly. Suppose one such train accelerates 
 
 **Strategy**
 
-In part (a), we are asked to find $$ x $$, and in (b) we are asked to find $$
-\omega $$ and $$ v $$. We are given the number of revolutions $$ \theta $$, the
+In part (a), we are asked to find $$ x $$, and in (b) we are asked to find $$ \omega $$ and $$ v $$. We are given the number of revolutions $$ \theta $$, the
 radius of the wheels $$ r $$, and the angular acceleration $$ \alpha $$.
 
 **Solution for (a)**
@@ -296,8 +289,7 @@ to find the distance the train moved down the track:
 **Solution for (b)**
 
 We cannot use any equation that incorporates $$ t $$ to find $$ \omega $$,
-because the equation would have at least two unknown values. The equation $$
-\omega^{2}=\omega\_{0}^{2}+2 \alpha \theta $$ will work, because we know the
+because the equation would have at least two unknown values. The equation $$ \omega^{2}=\omega\_{0}^{2}+2 \alpha \theta $$ will work, because we know the
 values for all variables except $$ \omega $$:
 
 <div class="equation">
@@ -401,9 +393,7 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
   the [One-Dimensional Kinematics](./ch2Kinematics), we can derive
   the four rotational kinematic equations (presented together with their
   translational counterparts) seen in [Table 1](#Table1).
-- In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$
-  t_{0} $$ are initial values), and the average angular velocity $$
-  \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
+- In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$ t_{0} $$ are initial values), and the average angular velocity $$ \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
   follows:
   <div class="equation">
   $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and
@@ -504,8 +494,7 @@ The dust particle travels a total distance of **405 m** in 3 minutes.
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-A gyroscope slows from an initial rate of 32.0 rad/s at a rate of $$ 0.700
-\radss $$.
+A gyroscope slows from an initial rate of 32.0 rad/s at a rate of $$ 0.700 \radss $$.
 
 (a) How long does it take to come to rest?
 
@@ -705,4 +694,4 @@ kinematics of rotational motion
 : describes the relationships among rotation angle, angular velocity, angular
 acceleration, and time
 
-</div>
+</div>

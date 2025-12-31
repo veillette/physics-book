@@ -74,11 +74,8 @@ is, you are indicating that the actual mileage of your car might be as low as 44
 500 miles or as high as 45 500 miles, or anywhere in between. All measurements
 contain some amount of uncertainty. In our example of measuring the length of
 the paper, we might say that the length of the paper is 11 in., plus or minus
-0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta
-A $$
-(“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm
-\delta A $$. In our paper example, the length of the paper could be expressed as
-$$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
+0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta A $$ (“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm
+\delta A $$. In our paper example, the length of the paper could be expressed as $$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
 measurement include:
 
 1. Limitations of the measuring device,
@@ -105,8 +102,7 @@ What if the uncertainty of the thermometer
 were  $$ 3.0^\circ \text{C}  $$?
 If the child’s temperature reading was  $$ 37.0^\circ \text{C}  $$
 (which is normal body temperature), the “true” temperature could be anywhere
-from a hypothermic  $$ 34.0^\circ \text{C}  $$ to a dangerously high  $$ 40.0^\circ
-\text{C}  $$. A thermometer with an uncertainty of  $$ 3.0^\circ \text{C}  $$ would
+from a hypothermic  $$ 34.0^\circ \text{C}  $$ to a dangerously high  $$ 40.0^\circ \text{C}  $$. A thermometer with an uncertainty of  $$ 3.0^\circ \text{C}  $$ would
 be useless.
 
 </div>
@@ -341,9 +337,8 @@ figures, the answer will also have fewer significant figures. Care is also taken
 that the number of significant figures is reasonable for the situation posed. In
 some topics, particularly in optics, more accurate numbers are needed and more
 than three significant figures will be used. Finally, if a number is **exact**,
-such as the two in the formula for the circumference of a circle, $$ c=2\pi r
+such as the two in the formula for the circumference of a circle, $$ c=2\pi r $$
 
-$$
 , it does not affect the number of significant figures in a calculation.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
@@ -357,8 +352,7 @@ Perform the following calculations and express your answer using the correct num
 pounds. What is the total weight of the bags?
 
 (b) The force $$ F $$ on an object is equal to its mass $$ m $$ multiplied by
-its acceleration $$ a $$. If a wagon with mass 55 kg accelerates at a rate of $$
-0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
+its acceleration $$ a $$. If a wagon with mass 55 kg accelerates at a rate of $$ 0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
 newton, and it is expressed with the symbol N.)
 
 </div>
@@ -1239,5 +1233,4 @@ uncertainty
 : a quantitative measure of how much your measured values deviate from a
 standard or expected value
 
-</div>
-$$
+</div>

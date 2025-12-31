@@ -122,15 +122,12 @@ from red shift measurements, such as shown in [[Figure 4]](#Figure4). We shall
 use an approximate value of $${H}_{0}=20\text{km/s}\cdot \text{Mly}. $$ Thus,
 $$v={H}\_{0}d $$ is an average behavior for all but the closest galaxies. For
 example, a galaxy 100 Mly away (as determined by its size and brightness)
-typically moves away from us at a speed of $$v=\left(20\text{km/s}\cdot
-\text{Mly}\right)\left(100\text{Mly}\right)=2000\text{km/s}. $$ There can be
+typically moves away from us at a speed of $$v=\left(20\text{km/s}\cdot \text{Mly}\right)\left(100\text{Mly}\right)=2000\text{km/s}. $$ There can be
 variations in this speed due to so-called local motions or interactions with
 neighboring galaxies. Conversely, if a galaxy is found to be moving away from us
 at speed of 100 000 km/s based on its red shift, it is at a distance
 
-$$
-d=v/{H}_{0}=\left(10 000\text{km/s}\right)/\left(20\text{km/s}\cdot
-\text{Mly}\right)=5000\text{Mly}=5\text{Gly} $$ or $$5 \times 10^{9} \text{ly}
+$$ d=v/{H}_{0}=\left(10 000\text{km/s}\right)/\left(20\text{km/s}\cdot \text{Mly}\right)=5000\text{Mly}=5\text{Gly} $$ or $$5 \times 10^{9} \text{ly}
 $$ . This last calculation is approximate, because it assumes the expansion rate
 was the same 5 billion years ago as now. A similar calculation in Hubble’s
 measurement changed the notion that the universe is in a steady state.
@@ -275,23 +272,19 @@ great for atoms to exist. And farther back yet, there was a time when the
 temperature and density were so great that nuclei could not exist. Even farther
 back in time, the temperature was so high that average kinetic energy was great
 enough to create short-lived particles, and the density was high enough to make
-this likely. When we extrapolate back to the point of $${W}^{±} $$ and $${Z}^{0}
-$$ production (thermal energies reaching 1 TeV, or a temperature of about $$
-10^{15} \text{K} $$ ), we reach the limits of what we know directly about
-particle physics. This is at a time about $$ 10^{-12} \text{s} $$ after the Big
+this likely. When we extrapolate back to the point of $${W}^{±} $$ and $${Z}^{0} $$ production (thermal energies reaching 1 TeV, or a temperature of about $$
+10^{15} \text{K} $$ ), we reach the limits of what we know directly about particle physics. This is at a time about $$ 10^{-12} \text{s} $$ after the Big
 Bang. While $$ 10^{-12} \text{s} $$ may seem to be negligibly close to the
 instant of creation, it is not. There are important stages before this time that
 are tied to the unification of forces. At those stages, the universe was at
 extremely high energies and average particle separations were smaller than we
 can achieve with accelerators. What happened in the early stages before
-$$
 
 10^{-12} \text{s} $$ is crucial to all later stages and is possibly discerned by
 observing present conditions in the universe. One of these is the smoothness of
 the CMBR.
 
-Names are given to early stages representing key conditions. The stage before $$
-10^{-11} \text{s} $$ back to $$ 10^{-34} \text{s} $$ is called the **electroweak
+Names are given to early stages representing key conditions. The stage before $$ 10^{-11} \text{s} $$ back to $$ 10^{-34} \text{s} $$ is called the **electroweak
 epoch**, because the electromagnetic and weak forces become identical for
 energies above about 100 GeV. As discussed earlier, theorists expect that the
 strong force becomes identical to and thus unified with the electroweak force at
@@ -299,8 +292,7 @@ energies of about $$ 10^{14} \text{GeV} $$ . The average particle energy would
 be this great at $$ 10^{-34} \text{s} $$ after the Big Bang, if there are no
 surprises in the unknown physics at energies above about 1 TeV. At the immense
 energy of $$ 10^{14} \text{GeV} $$
-(corresponding to a temperature of about $$ 10^{26} \text{K} $$ ), the $${W}^{±}
-$$ and $${Z}^{0} $$ carrier particles would be transformed into massless gauge
+(corresponding to a temperature of about $$ 10^{26} \text{K} $$ ), the $${W}^{±} $$ and $${Z}^{0} $$ carrier particles would be transformed into massless gauge
 bosons to accomplish the unification. Before $$ 10^{-34} \text{s} $$ back to
 about $$ 10^{-43} \text{s} $$ , we have Grand Unification in the **GUT epoch**,
 in which all forces except gravity are identical. At $$ 10^{-43} \text{s} $$ ,
@@ -323,8 +315,7 @@ is analogous to a phase transition in the universe, and a clever proposal by
 American physicist Alan Guth in the early 1980s ties it to the smoothness of the
 CMBR. Guth proposed that spontaneous symmetry breaking (like a phase transition
 during cooling of normal matter) released an immense amount of energy that
-caused the universe to expand extremely rapidly for the brief time from $$
-10^{-35} \text{s} $$ to about $$ 10^{-32} \text{s} $$ . This expansion may have
+caused the universe to expand extremely rapidly for the brief time from $$ 10^{-35} \text{s} $$ to about $$ 10^{-32} \text{s} $$ . This expansion may have
 been by an incredible factor of $$ 10^{50} $$ or more in the size of the
 universe and is thus called the **inflationary scenario**. One result of this
 inflation is that it would stretch the wrinkles in the universe nearly flat,
@@ -1228,4 +1219,4 @@ superforce
 TOE epoch
 : before 10<sup>−43</sup> after the Big Bang
 
-</div>
+</div>

@@ -189,8 +189,7 @@ The most radical proposal to explain dark matter is that it consists of
 previously unknown leptons (sometimes obtusely referred to as non-baryonic
 matter). These are called **weakly interacting massive particles**, or **WIMPs**, and would also be chargeless, thus interacting negligibly with normal matter,
 except through gravitation. One proposed group of WIMPs would have masses
-several orders of magnitude greater than nucleons and are sometimes called **neutralinos**. Others are called **axions** and would have masses about $$
-10^{-10} $$ that of an electron mass. Both neutralinos and axions would be
+several orders of magnitude greater than nucleons and are sometimes called **neutralinos**. Others are called **axions** and would have masses about $$ 10^{-10} $$ that of an electron mass. Both neutralinos and axions would be
 gravitationally attached to galaxies, but because they are chargeless and only
 feel the weak force, they would be in a halo rather than interact and coalesce
 into spirals, and so on, like normal matter (see [[Figure 3]](#Figure3)).
@@ -491,4 +490,4 @@ WIMPs
 : weakly interacting massive particles; chargeless leptons (non-baryonic matter)
 interacting negligibly with normal matter
 
-</div>
+</div>

@@ -58,8 +58,7 @@ interest). The magnitude of the force of the biceps is $$ F_{\text{B}} $$; that
 of the elbow joint is $$ F_{\text{E}} $$; that of the weights of the forearm is
 $$ w_{\text{a}} $$, and its load is $$ w_{\text{b}} $$. Two of these are
 unknown ( $$ F_{\text{B}} $$ and $$ F_{\text{E}} $$), so that the first
-condition for equilibrium cannot by itself yield $$ F_
-{\text{B}} $$. But if we use the second condition and choose the pivot to be at
+condition for equilibrium cannot by itself yield $$ F_ {\text{B}} $$. But if we use the second condition and choose the pivot to be at
 the elbow, then the torque due to $$ F_{\text{E}} $$ is zero, and the only
 unknown becomes $$ F\_{\text{B}} $$.
 
@@ -113,13 +112,11 @@ shorter than when it is stretched.
 
 Very large forces are also created in the joints. In the previous example, the
 downward force $$ F_{\text{E}} $$ exerted by the humerus at the elbow joint
-equals 407 N, or 6.38 times the total weight supported. (The calculation of $$
-F_{\text{E}} $$ is straightforward and is left as an end-of-chapter problem.)
+equals 407 N, or 6.38 times the total weight supported. (The calculation of $$ F_{\text{E}} $$ is straightforward and is left as an end-of-chapter problem.)
 Because muscles can contract, but not expand beyond their resting length, joints
 and muscles often exert forces that act in opposite directions and thus
 subtract. (In the above example, the upward force of the muscle minus the
-downward force of the joint equals the weight supported—that is, $$ 470 \N -407
-\N =63 \N $$, approximately equal to the weight supported.) Forces in muscles
+downward force of the joint equals the weight supported—that is, $$ 470 \N -407 \N =63 \N $$, approximately equal to the weight supported.) Forces in muscles
 and joints are largest when their load is a long distance from the joint, as the
 book is in the previous example.
 
@@ -213,8 +210,7 @@ in the figure may be taken to be accurate to three significant figures.
 By now, we sense that the second condition for equilibrium is a good place to
 start, and inspection of the known values confirms that it can be used to solve
 for $$ F_{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
-created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_
-{\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_
+created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_ {\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_
 {\text{B}}– $$ is counterclockwise.
 
 **Solution for (a)**
@@ -239,9 +235,7 @@ This force is considerably larger than it would be if the load were not present.
 
 **Solution for (b)**
 
-More important in terms of its damage potential is the force on the vertebrae $$
-\vb{F}_{\text{V}} $$. The first condition for equilibrium ( $$
-\text{net}\vb{F}=0 $$)
+More important in terms of its damage potential is the force on the vertebrae $$ \vb{F}_{\text{V}} $$. The first condition for equilibrium ( $$ \text{net}\vb{F}=0 $$)
 can be used to find its magnitude and direction. Using $$ y $$ for vertical and
 $$ x $$ for horizontal, the condition for the net external forces along those
 axes to be zero
@@ -1667,4 +1661,4 @@ scale under the hand to provide more information, if needed. You may wish to
 consult references to obtain reasonable mass values.
 
 </div>
-</div>
+</div>

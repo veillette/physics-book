@@ -90,8 +90,7 @@ atoms and molecules, independent of the type of gas.)
 
 Let us see how the ideal gas law is consistent with the behavior of filling the
 tire when it is pumped slowly and the temperature is constant. At first, the
-pressure $$P $$ is essentially equal to atmospheric pressure, and the volume $$V
-$$ increases in direct proportion to the number of atoms and molecules $$N $$
+pressure $$P $$ is essentially equal to atmospheric pressure, and the volume $$V $$ increases in direct proportion to the number of atoms and molecules $$N $$
 put into the tire. Once the volume of the tire is constant, the equation
 $$PV=Nk\_{B}T $$ predicts that the pressure should increase in proportion to _the
 number N of atoms and molecules_.
@@ -113,13 +112,10 @@ First we need to identify what we know and what we want to know, and then
 identify an equation to solve for the unknown.
 
 We know the initial pressure $${P}_{0}= 7.00 \times 10^{5} \text{Pa} $$ , the
-initial temperature $${T}_{0}= 18.0ºC $$ , and the final temperature $${T}_
-{\text{f}}= 35.0ºC $$ . We must find the final pressure $${P}_{\text{f}} $$ .
+initial temperature $${T}_{0}= 18.0ºC $$ , and the final temperature $${T}_ {\text{f}}= 35.0ºC $$ . We must find the final pressure $${P}_{\text{f}} $$ .
 How can we use the equation $$PV=Nk_{B}T $$ ? At first, it may seem that not
-enough information is given, because the volume $$V $$ and number of atoms $$N
-$$ are not specified. What we can do is use the equation twice: $${P}_{0}{V}_
-{0}=Nk_{B}T_{0} $$ and $${P}_{\text{f}}{V}_{\text{f}}=Nk_{B}T_{\text{f}} $$ . If
-we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
+enough information is given, because the volume $$V $$ and number of atoms $$N $$ are not specified. What we can do is use the equation twice: $${P}_{0}{V}_
+{0}=Nk_{B}T_{0} $$ and $${P}_{\text{f}}{V}_{\text{f}}=Nk_{B}T_{\text{f}} $$ . If we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
 up with an equation that allows us to solve for $${P}_{\text{f}} $$.
 
 <div class="equation" >
@@ -222,8 +218,7 @@ It is sometimes convenient to work with a unit other than molecules when
 measuring the amount of substance. A **mole** (abbreviated mol) is defined to be
 the amount of a substance that contains as many atoms or molecules as there are
 atoms in exactly 12 grams (0.012 kg) of carbon-12. The actual number of atoms or
-molecules in one mole is called **Avogadro’s number** $$\left({N}_
-{\text{A}}\right) $$ , in recognition of Italian scientist Amedeo Avogadro (
+molecules in one mole is called **Avogadro’s number** $$\left({N}_ {\text{A}}\right) $$ , in recognition of Italian scientist Amedeo Avogadro (
 1776–1856). He developed the concept of the mole, based on the hypothesis that
 equal volumes of gas, at the same pressure and temperature, contain equal
 numbers of molecules. That is, the number is independent of the type of gas.
@@ -308,8 +303,7 @@ gas.
 
 The (average) molar weight of air is approximately 80% $${\text{N}}_{2} $$ and 20%
 $${\text{O}}\_{2} $$ is $$M= 28.8 \text{g}\text{.} $$ Thus the mass of one cubic
-meter of air is 1.28 kg. If a living room has dimensions $$5 \text{m}×5
-\text{m}×3 \text{m} \text{,} $$ the mass of air inside the room is 96 kg, which
+meter of air is 1.28 kg. If a living room has dimensions $$5 \text{m}×5 \text{m}×3 \text{m} \text{,} $$ the mass of air inside the room is 96 kg, which
 is the typical mass of a human.
 
 </div>
@@ -407,8 +401,7 @@ of moles $$n $$.
 </div>
 **Discussion**
 
-The most convenient choice for $$R $$ in this case is $$ 8.31 \text{J/mol}\cdot
-\text{K} \text{,} $$ because our known quantities are in SI units. The pressure
+The most convenient choice for $$R $$ in this case is $$ 8.31 \text{J/mol}\cdot \text{K} \text{,} $$ because our known quantities are in SI units. The pressure
 and temperature are obtained from the initial conditions
 in [[Example 1]](#Example1), but we would get the same answer if we used the
 final values.
@@ -429,9 +422,7 @@ distance. This energy goes into increasing the pressure of air inside the tire
 and increasing the temperature of the pump and the air.
 
 The ideal gas law is closely related to energy: the units on both sides are
-joules. The right-hand side of the ideal gas law in $$PV=Nk_{B}T $$ is $$Nk_{B}T
-$$ . This term is roughly the amount of translational kinetic energy of $$N $$
-atoms or molecules at an absolute temperature $$T $$ , as we shall see formally
+joules. The right-hand side of the ideal gas law in $$PV=Nk_{B}T $$ is $$Nk_{B}T $$ . This term is roughly the amount of translational kinetic energy of $$N $$ atoms or molecules at an absolute temperature $$T $$ , as we shall see formally
 in [Kinetic Theory: Atomic and Molecular Explanation of Pressure and Temperature](./ch13KineticTheory)
 . The left-hand side of the ideal gas law is $$PV $$ , which also has the units
 of joules. We know from our study of fluids that pressure is one type of
@@ -505,15 +496,13 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
   </div>
 
 - A mole is the number of atoms in a 12-g sample of carbon-12.
-- The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}}
+- The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}} $$
 
-  $$
   ,
 
   <div class="equation" >
    $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1}. $$
   </div>
-  $$
 
 - A mole of any substance has a mass in grams equal to its molecular weight,
   which can be determined from the periodic table of elements.
@@ -1166,8 +1155,7 @@ ideal gas law
 of gas molecules or number of moles of gas and the temperature of the gas
 
 Boltzmann constant
-: $$k_{B} $$ , a physical constant that relates energy to temperature; $$k_
-{B}=1.38 \times 10^{-23} \text{J/K} $$
+: $$k_{B} $$ , a physical constant that relates energy to temperature; $$k_ {B}=1.38 \times 10^{-23} \text{J/K} $$
 
 Avogadro’s number
 : $${N}_{\text{A}} $$ , the number of molecules or atoms in one mole of a
@@ -1177,4 +1165,4 @@ mole
 : the quantity of a substance whose mass (in grams) is equal to its molecular
 mass
 
-</div>
+</div>

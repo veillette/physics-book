@@ -42,8 +42,7 @@ It is somewhat disquieting to think that you cannot predict exactly where an
 individual particle will go, or even follow it to its destination. Let us
 explore what happens if we try to follow a particle. Consider the double-slit
 patterns obtained for electrons and photons in [[Figure2]](#Figure2). First, we
-note that these patterns are identical, following $$d \sin \theta
-=m \lambda $$ , the equation for double-slit constructive interference
+note that these patterns are identical, following $$d \sin \theta =m \lambda $$ , the equation for double-slit constructive interference
 developed in [Photon Energies and the Electromagnetic Spectrum](../contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum), where
 $$d $$ is the slit separation and $$\lambda $$ is the electron or photon
 wavelength.
@@ -157,9 +156,7 @@ Heisenberg Uncertainty Principle in Position and Momentum for an Atom
 
 **Strategy**
 
-The uncertainty in position is the accuracy of the measurement, or $$\Delta x=
-0.0100 \text{nm} $$ . Thus the smallest uncertainty in momentum $$\Delta p $$
-can be calculated using $$\Delta x\Delta p\ge h\text{/4}\pi $$ . Once the
+The uncertainty in position is the accuracy of the measurement, or $$\Delta x= 0.0100 \text{nm} $$ . Thus the smallest uncertainty in momentum $$\Delta p $$ can be calculated using $$\Delta x\Delta p\ge h\text{/4}\pi $$ . Once the
 uncertainty in momentum $$\Delta p $$ is found, the uncertainty in velocity can
 be found from $$\Delta p=m\Delta v $$.
 
@@ -249,8 +246,7 @@ An atom in an excited state temporarily stores energy. If the lifetime of this e
 The minimum uncertainty in energy $$\Delta E $$ is found by using the equals
 sign in $$\Delta E\Delta t\ge h\text{/4}\pi $$ and corresponds to a reasonable
 choice for the uncertainty in time. The largest the uncertainty in time can be
-is the full lifetime of the excited state, or $$\Delta t={1.0 \text{×10}}^{-10}
-s $$.
+is the full lifetime of the excited state, or $$\Delta t={1.0 \text{×10}}^{-10} s $$.
 
 **Solution**
 
@@ -325,8 +321,7 @@ we affect the traveling.
   uncertainty principle is $$\Delta x\Delta p\ge \frac{h}{4\pi } $$ , where
   $$\Delta x $$ is the uncertainty in position and $$\Delta p $$ is the
   uncertainty in momentum.
-- For energy and time, the uncertainty principle is $$\Delta E\Delta t\ge
-  \frac{h}{4\pi } $$ where $$\Delta E $$ is the uncertainty in energy and
+- For energy and time, the uncertainty principle is $$\Delta E\Delta t\ge \frac{h}{4\pi } $$ where $$\Delta E $$ is the uncertainty in energy and
   $$\Delta t $$ is the uncertainty in time.
 - These small limits are fundamentally important on the quantum-mechanical
   scale.
@@ -735,4 +730,4 @@ probability distribution
 : the overall spatial distribution of probabilities to find a particle at a
 given location
 
-</div>
+</div>

@@ -19,8 +19,7 @@ Most of us have seen dramatizations in which medical personnel use a **defibrill
 
 Energy stored in a capacitor is electrical potential energy, and it is thus
 related to the charge $$Q $$ and voltage $$V $$ on the capacitor. We must be
-careful when applying the equation for electrical potential energy $$\Delta
-\text{PE}=q\Delta V $$ to a capacitor. Remember that $$\Delta \text{PE} $$ is
+careful when applying the equation for electrical potential energy $$\Delta \text{PE}=q\Delta V $$ to a capacitor. Remember that $$\Delta \text{PE} $$ is
 the potential energy of a charge $$q $$ going through a voltage $$\Delta V $$ .
 But the capacitor starts with zero voltage and gradually comes up to its full
 voltage as it is charged. The first charge placed on a capacitor experiences a
@@ -77,8 +76,7 @@ A heart defibrillator delivers  $$ 4.00 \times 10^{2}  \text{J} $$
 **Strategy**
 
 We are given $${E}_{\text{cap}} $$ and $$V $$ , and we are asked to find the
-capacitance $$C $$ . Of the three expressions in the equation for $${E}_
-{\text{cap}} $$ , the most convenient relationship is
+capacitance $$C $$ . Of the three expressions in the equation for $${E}_ {\text{cap}} $$ , the most convenient relationship is
 
 <div class="equation" >
  $${E}_{\text{cap}}=\frac{ C V^{2}}{2}. $$
@@ -93,8 +91,7 @@ Solving this expression for $$C $$ and entering the given values yields
 </div>
 **Discussion**
 
-This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4}
-\text{V} $$.
+This is a fairly large, but manageable, capacitance at $$ 1.00 \times 10^{4} \text{V} $$.
 
 </div>
 </section>
@@ -528,4 +525,4 @@ defibrillator
 : a machine used to provide an electrical shock to a heart attack victim\'s
 heart in order to restore the heart\'s normal rhythmic pattern
 
-</div>
+</div>

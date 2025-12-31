@@ -28,8 +28,7 @@ variable voltage source, with the collector more negative than the plate. When
 light (or other EM radiation) strikes the plate in the evacuated tube, it may
 eject electrons. If the electrons have energy in electron volts (eV) greater
 than the potential difference between the plate and the wire in volts, some
-electrons will be collected on the wire. Since the electron energy in eV is $$qV
-$$ , where $$q $$ is the electron charge and $$V $$ is the potential difference,
+electrons will be collected on the wire. Since the electron energy in eV is $$qV $$ , where $$q $$ is the electron charge and $$V $$ is the potential difference,
 the electron energy can be measured by adjusting the retarding voltage between
 the wire and the plate. The voltage that stops the electrons from reaching the
 wire equals the energy in eV. For example, if $$-3.00 \text{V} $$ barely stops
@@ -76,14 +75,12 @@ properties are consistent with the idea that individual photons of EM radiation
 are absorbed by individual electrons in a material, with the electron gaining
 the photon’s energy. Some of these properties are inconsistent with the idea
 that EM radiation is a simple wave. For simplicity, let us consider what happens
-with monochromatic EM radiation in which all photons have the same energy $$ hf
+with monochromatic EM radiation in which all photons have the same energy $$ hf $$
 
-$$
 .
 
 1. If we vary the frequency of the EM radiation falling on a material, we find
    the following: For a given material, there is a threshold frequency $${f}_{0}
-$$
 
 for the EM radiation below which no electrons are ejected, regardless of
 intensity. Individual photons interact with individual electrons. Thus if the
@@ -122,14 +119,11 @@ photons having the same characteristic energy $$ hf $$ .
    the properties of the photoelectric effect quantitatively. An individual
    photon of EM radiation (it does not come any other way) interacts with an
    individual electron, supplying enough energy, BE, to break it away, with the
-   remainder going to kinetic energy. The binding energy is $$\text{BE}=hf_{0}
-   $$ , where $${f}_{0} $$ is the threshold frequency for the particular
-   material. [[Figure 3]](#Figure3) shows a graph of maximum $${\text{KE}}\_{e}
+   remainder going to kinetic energy. The binding energy is $$\text{BE}=hf_{0} $$ , where $${f}_{0} $$ is the threshold frequency for the particular
+   material. [[Figure 3]](#Figure3) shows a graph of maximum $${\text{KE}}\_{e} $$
 
-   $$
    versus the frequency of incident EM radiation falling on a particular
    material.
-   $$
 
 ![A graph of frequency verses kinetic energy of an electron is shown, where frequency is along x axis and kinetic energy is along the y axis. The plot is a straight line having an inclination with x axis and meets the x axis at f sub zero, known as threshold frequency, given by B E divided by h. The threshold kinetic energy is written as equal to h f minus B E.](../resources/Figure_29_02_03.jpg 'Photoelectric effect. A graph of the kinetic energy of an ejected electron, ( \\text{KE}_\\text{e} ), versus the frequency of EM radiation impinging on a certain material. There is a threshold frequency below which no electrons are ejected, because the individual photon interacting with an individual electron has insufficient energy to break it away. Above the threshold energy, ( \\text{KE}_\\text{e} ) increases linearly with ( f ) , consistent with ( \\text{KE}_\\text{e}=hf -\\text{BE} ). The slope of this line is ( h ) —the data can be used to determine Planck’s constant experimentally. Einstein gave the first successful explanation of such data by proposing the idea of photons—quanta of EM radiation.  ')
 {: #Figure3}
@@ -238,17 +232,14 @@ See how light knocks electrons off a metal target, and recreate the experiment t
 
 - The photoelectric effect is the process in which EM radiation ejects electrons
   from a material.
-- Einstein proposed photons to be quanta of EM radiation having energy $$E= hf
-  $$ , where $$f $$ is the frequency of the radiation.
+- Einstein proposed photons to be quanta of EM radiation having energy $$E= hf $$ , where $$f $$ is the frequency of the radiation.
 - All EM radiation is composed of photons. As Einstein explained, all
   characteristics of the photoelectric effect are due to the interaction of
   individual photons with individual electrons.
 - The maximum kinetic energy $${\text{KE}}_{e} $$ of ejected electrons (
   photoelectrons) is given by $${\text{KE}}_{e}= hf\text{- BE} $$ , where $$ hf
-  $$
   is the photon energy and BE is the binding energy (or work function) of the
   electron to the particular material.
-  $$
 
 ### Conceptual Questions
 
@@ -940,4 +931,4 @@ binding energy
 : also called the _work function_; the amount of energy necessary to eject an
 electron from a material
 
-</div>
+</div>

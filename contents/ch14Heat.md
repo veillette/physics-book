@@ -39,8 +39,7 @@ to change the temperature of 1.00 g of water by $$1.00\text{ºC} $$
 temperature dependence. Perhaps the most common unit of heat is the **kilocalorie** (kcal), which is the energy needed to change the temperature of
 1.00 kg of water by $$1.00\text{ºC} $$ . Since mass is most often specified in
 kilograms, kilocalorie is commonly used. Food calories (given the notation Cal,
-and sometimes called “big calorie”) are actually kilocalories ( $$1
-\text{kilocalorie} = 1000 \text{calories} $$ ), a fact not easily determined
+and sometimes called “big calorie”) are actually kilocalories ( $$1 \text{kilocalorie} = 1000 \text{calories} $$ ), a fact not easily determined
 from package labeling.
 
 ![In figure a there is a soft drink can and an ice cube placed on a surface at a distance from each other. The temperatures of the can and the ice cube are T one and T two, respectively, where T one is not equal to T two. In figure b, the soft drink can and the ice cube are placed in contact on the surface. The temperature of both is T prime. ](../resources/Figure_14_01_01.jpg 'In figure (a) the soft drink and the ice have different temperatures, (T_1) and (T_2), and are not in thermal equilibrium. In figure (b), when the soft drink and ice are allowed to interact, energy is transferred until they reach the same temperature (T^\\prime);, achieving equilibrium. Heat transfer occurs due to the difference in temperatures. In fact, since the soft drink and ice are both in contact with the surrounding air and bench, the equilibrium temperature will be the same for both.')
@@ -108,8 +107,7 @@ Heat and work both change the internal energy of the substance. However, the pro
   kilocalorie (kcal) and joule (J).
 - Kilocalorie is defined to be the energy needed to change the temperature of
   1.00 kg of water between $$ 14.5ºC $$ and $$ 15.5ºC $$ .
-- The mechanical equivalent of this heat transfer is $$1.00\text{ kcal} = 4186
-  \text{J} \text{.} $$
+- The mechanical equivalent of this heat transfer is $$1.00\text{ kcal} = 4186 \text{J} \text{.} $$
 
 ### Conceptual Questions
 
@@ -147,4 +145,4 @@ kilocalorie
 mechanical equivalent of heat
 : the work needed to produce the same effects as heat transfer
 
-</div>
+</div>

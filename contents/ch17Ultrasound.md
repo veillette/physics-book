@@ -51,8 +51,7 @@ is done when the cavities collapse, producing even greater shock pressures.
 {: #Figure2}
 
 Most of the energy carried by high-intensity ultrasound in tissue is converted
-to thermal energy. In fact, intensities of $$10^{3} $$ to $$10^{4}
-{\text{W/m}}^{2} $$ are commonly used for deep-heat treatments called ultrasound
+to thermal energy. In fact, intensities of $$10^{3} $$ to $$10^{4} {\text{W/m}}^{2} $$ are commonly used for deep-heat treatments called ultrasound
 diathermy. Frequencies of 0.8 to 1 MHz are typical. In both athletics and
 physical therapy, ultrasound diathermy is most often applied to injured or
 overworked muscles to relieve pain and improve flexibility. Skill is needed by
@@ -95,8 +94,7 @@ $$Z $$ of each substance. Impedance is defined as
 </div>
 
 where $$\rho $$ is the density of the medium (in $$\text{kg/m}^{3} $$ )
-and $$v $$ is the speed of sound through the medium (in m/s). The units for $$Z
-$$ are therefore $$\text{kg/m}^{2}·\text{s} $$.
+and $$v $$ is the speed of sound through the medium (in m/s). The units for $$Z $$ are therefore $$\text{kg/m}^{2}·\text{s} $$.
 
 [[Table 1]](#Table1) shows the density and speed of sound through various
 media (including various soft tissues) and the associated acoustic impedances.
@@ -201,14 +199,12 @@ This value is the same as the value given for the acoustic impedance of fat tiss
 **Strategy for (b)**
 
 The intensity reflection coefficient for any boundary between two media is given
-by $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{ {\left({Z}_{1} + {Z}_
-{2}\right)}^{2}} $$ , and the acoustic impedance of muscle is given
+by $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{ {\left({Z}_{1} + {Z}_ {2}\right)}^{2}} $$ , and the acoustic impedance of muscle is given
 in [[Table 1]](#Table1).
 
 **Solution for (b)**
 
-Substitute known values into $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{
-{\left({Z}_{1} + {Z}_{2}\right)}^{2}} $$ to find the intensity reflection
+Substitute known values into $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{ {\left({Z}_{1} + {Z}_{2}\right)}^{2}} $$ to find the intensity reflection
 coefficient:
 
 <div class="equation" >
@@ -256,13 +252,10 @@ smaller than its wavelength $$\lambda $$ . Indeed, current technology cannot do
 quite this well. Abdominal scans may use a 7-MHz frequency, and the speed of
 sound in tissue is about 1540 m/s—so the wavelength limit to detail would be
 
-$$
-\lambda =\frac{ {v}_{w}}{f}=\frac{1540 \text{m/s}}{7 \times 10^{6}
-\text{Hz}}=0.22 \text{mm} $$ . In practice, 1-mm detail is attainable, which is
+$$ \lambda =\frac{ {v}_{w}}{f}=\frac{1540 \text{m/s}}{7 \times 10^{6} \text{Hz}}=0.22 \text{mm} $$ . In practice, 1-mm detail is attainable, which is
 sufficient for many purposes. Higher-frequency ultrasound would allow greater
 detail, but it does not penetrate as well as lower frequencies do. The accepted
-rule of thumb is that you can effectively scan to a depth of about $$500\lambda
-$$ into tissue. For 7 MHz, this penetration limit is $$500×0.22 \text{mm} $$ ,
+rule of thumb is that you can effectively scan to a depth of about $$500\lambda $$ into tissue. For 7 MHz, this penetration limit is $$500×0.22 \text{mm} $$ ,
 which is 0.11 m. Higher frequencies may be employed in smaller organs, such as
 the eye, but are not practical for looking deep into the body.
 
@@ -323,8 +316,7 @@ Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery th
 
 **Strategy**
 
-The first two questions can be answered using $${f}_{\text{obs}}={f}_{s}\left(
-\frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right) $$ and $${f}_{\text{obs}}={f}_
+The first two questions can be answered using $${f}_{\text{obs}}={f}_{s}\left( \frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right) $$ and $${f}_{\text{obs}}={f}_
 {s}\left(\frac{ {v}_{w} ± {v}_{\text{obs}}}{ {v}_{w}}\right) $$ for the Doppler
 shift. The last question asks for beat frequency, which is the difference
 between the original and returning frequencies.
@@ -469,8 +461,7 @@ Ultrasound can be used medically at different intensities. Lower intensities do 
    $$Z=\rho v, $$
   </div>
 
-  $$\rho $$ is the density of a medium through which the sound travels and $$v
-  $$ is the speed of sound through that medium.
+  $$\rho $$ is the density of a medium through which the sound travels and $$v $$ is the speed of sound through that medium.
 * The intensity reflection coefficient $$a $$ , a measure of the ratio of the
   intensity of the wave reflected off a boundary between two media relative to
   the intensity of the incident wave, is given by
@@ -1195,5 +1186,4 @@ Doppler-shifted ultrasound
 : a medical technique to detect motion and determine velocity through the
 Doppler shift of an echo
 
-</div>
-$$
+</div>

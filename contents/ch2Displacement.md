@@ -52,8 +52,7 @@ where $$\Delta x$$ is displacement, $$x_{\text{f}}$$ is the final
 position, and $$x_{0} $$ is the initial position.
 </div>
 In this text the upper case Greek letter $$ \Delta  $$
-(delta) always means “change in” whatever quantity follows it; thus, $$
-\Delta x $$
+(delta) always means “change in” whatever quantity follows it; thus, $$ \Delta x $$
 means *change in position*. Always solve for displacement by subtracting initial
 position $$ x_{0} $$
 from final position $$ x_{\text{f}} $$.
@@ -85,8 +84,7 @@ displacement is
 </div>
 
 In this coordinate system, motion to the right is positive, whereas motion to
-the left is negative. Similarly, the airplane passenger’s initial position is $$
-x_{0}=6.0 \m $$ and his final position is $$ x\_{f}=2.0 \m $$, so his
+the left is negative. Similarly, the airplane passenger’s initial position is $$ x_{0}=6.0 \m $$ and his final position is $$ x\_{f}=2.0 \m $$, so his
 displacement is
 
 <div class="equation">
@@ -472,4 +470,4 @@ distance
 distance traveled
 : the total length of the path traveled between two positions
 
-</div>
+</div>

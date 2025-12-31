@@ -24,16 +24,14 @@ the gravitational force (which is much smaller than the tennis racquet’s force
 would eventually reverse the momentum of the ball. Quantitatively, the effect we
 are talking about is the change in momentum $$ \Delta \vb{p} $$.
 
-By rearranging the equation $$ \vb{F}\_{\text{net} }=\frac{ \Delta \vb{p} }{\Delta
-t} $$ to be
+By rearranging the equation $$ \vb{F}\_{\text{net} }=\frac{ \Delta \vb{p} }{\Delta t} $$ to be
 
 <div class="equation">
  $$ \Delta \vb{p}=\vb{F}_{\text{net} }\Delta t, $$
 </div>
 
 we can see how the change in momentum equals the average net external force
-multiplied by the time this force acts. The quantity $$ \vb{F}\_
-{\text{net} }\Delta t $$ is given the name **impulse**. Impulse is the same as
+multiplied by the time this force acts. The quantity $$ \vb{F}\_ {\text{net} }\Delta t $$ is given the name **impulse**. Impulse is the same as
 the change in momentum.
 
 <div class="note" data-label="" markdown="1">
@@ -95,10 +93,8 @@ and the velocity direction are the same.
 
 **Solution for (a)**
 
-The first ball bounces directly into the wall and exerts a force on it in the $$
-+x $$ direction. Therefore, the wall exerts a force on the ball in the $$ -x $$
-direction. The second ball continues with the same momentum component in the $$
-y $$ direction, but reverses its $$ x $$-component of momentum, as seen by
+The first ball bounces directly into the wall and exerts a force on it in the $$ +x $$ direction. Therefore, the wall exerts a force on the ball in the $$ -x $$
+direction. The second ball continues with the same momentum component in the $$ y $$ direction, but reverses its $$ x $$-component of momentum, as seen by
 sketching a diagram of the angles involved and keeping in mind the
 proportionality between velocity and momentum.
 
@@ -174,8 +170,7 @@ possible to find an average effective force $$ F_{\text{eff}} $$ that produces
 the same result as the corresponding time-varying force. [Figure 1](#Figure1) shows
 a graph of what an actual force looks like as a function of time for a ball
 bouncing off the floor. The area under the curve has units of momentum and is
-equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_
-{2} $$. That area is equal to the area inside the rectangle bounded by $$ F_
+equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_ {2} $$. That area is equal to the area inside the rectangle bounded by $$ F_
 {\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus, the impulses and their
 effects are the same for both the actual and effective forces.
 
@@ -1100,4 +1095,4 @@ impulse
 : the average net external force times the time it acts; equal to the change in
 momentum
 
-</div>
+</div>

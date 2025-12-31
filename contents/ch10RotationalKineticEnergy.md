@@ -58,9 +58,8 @@ $$ \text{net}W=\left(\text{net τ}\right)\theta $$ is valid in general, even
 though it was derived for a special case.
 
 To get an expression for rotational kinetic energy, we must again perform some
-algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha
+algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha $$
 
-$$
 , so that
 
 <div class="equation">
@@ -78,8 +77,7 @@ Work and energy in rotational motion are completely analogous to work and energy
 
 </div>
 
-Now, we solve one of the rotational kinematics equations for $$ \alpha \theta
-$$. We start with the equation
+Now, we solve one of the rotational kinematics equations for $$ \alpha \theta $$. We start with the equation
 
 <div class="equation">
  $$ \omega^{2}= \omega_{0}^{2}+2 \alpha \theta. $$
@@ -99,8 +97,7 @@ Substituting this into the equation for net $$ W $$ and gathering terms yields
 
 This equation is the **work-energy theorem** for rotational motion only. As you
 may recall, net work changes the kinetic energy of a system. Through an analogy
-with translational motion, we define the term $$ \left(\frac{1}{2}\right)
-I\omega^{2} $$ to be
+with translational motion, we define the term $$ \left(\frac{1}{2}\right) I\omega^{2} $$ to be
 **rotational kinetic energy** $$ \KE_{\text{rot}} $$ for an object with a moment
 of inertia $$ I $$ and an angular velocity $$ \omega $$ :
 
@@ -109,8 +106,7 @@ of inertia $$ I $$ and an angular velocity $$ \omega $$ :
 </div>
 
 The expression for rotational kinetic energy is exactly analogous to
-translational kinetic energy, with $$ I $$ being analogous to $$ m $$ and $$
-\omega $$ to $$ v $$. Rotational kinetic energy has important effects.
+translational kinetic energy, with $$ I $$ being analogous to $$ m $$ and $$ \omega $$ to $$ v $$. Rotational kinetic energy has important effects.
 Flywheels, for example, can be used to store large amounts of rotational kinetic
 energy in a vehicle, as seen in [Figure 3](#Figure3).
 
@@ -133,12 +129,10 @@ point of application, and the effects of friction are negligible.
 
 **Strategy**
 
-To find the work, we can use the equation $$ \text{net}W=\left(\text{net
-τ}\right)\theta $$. We have enough information to calculate the torque and are
+To find the work, we can use the equation $$ \text{net}W=\left(\text{net τ}\right)\theta $$. We have enough information to calculate the torque and are
 given the rotation angle. In the second part, we can find the final angular
 velocity using one of the kinematic relationships. In the last part, we can
-calculate the rotational kinetic energy from its expression in $$ \KE_
-{\text{rot}}=\frac{1}{2}I\omega^{2} $$.
+calculate the rotational kinetic energy from its expression in $$ \KE_ {\text{rot}}=\frac{1}{2}I\omega^{2} $$.
 
 **Solution for (a)**
 
@@ -385,8 +379,7 @@ The easiest way to answer these questions is to consider energy. Suppose each
 can starts down the ramp from rest. Each can starting from rest means each
 starts with the same gravitational potential energy $$ \PE_{\text{grav}} $$,
 which is converted entirely to $$ \KE $$, provided each rolls without slipping.
-$$ \KE $$, however, can take the form of $$ \KE_
-{\text{trans}} $$ or $$ \KE\_{\text{rot}} $$, and total $$ \KE $$ is the sum of
+$$ \KE $$, however, can take the form of $$ \KE_ {\text{trans}} $$ or $$ \KE\_{\text{rot}} $$, and total $$ \KE $$ is the sum of
 the two. If a can rolls down a ramp, it puts part of its energy into rotation,
 leaving less for translation. Thus, the can goes slower than it would if it slid
 down. Furthermore, the thin soup does not rotate, whereas the thick soup does,
@@ -483,9 +476,7 @@ an incline at the same rate independent of their masses and sizes. (Rolling
 cylinders down inclines is what Galileo actually did to show that objects fall
 at the same rate independent of mass.) Note that if the cylinder slid without
 friction down the incline without rolling, then the entire gravitational
-potential energy would go into translational kinetic energy. Thus, $$
-\frac{1}{2}m v^{2}=mgh $$ and $$ v=\sqrt{2g h } $$, which is 22% greater than $$
-\sqrt{4g h /3} $$. That is, the cylinder would go faster at the bottom.
+potential energy would go into translational kinetic energy. Thus, $$ \frac{1}{2}m v^{2}=mgh $$ and $$ v=\sqrt{2g h } $$, which is 22% greater than $$ \sqrt{4g h /3} $$. That is, the cylinder would go faster at the bottom.
 
 </div>
 
@@ -533,8 +524,7 @@ My solar system
 
 ### Section Summary
 
-- The rotational kinetic energy $$ \KE\_
-  {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
+- The rotational kinetic energy $$ \KE\_ {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
   <div class="equation">
     $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
@@ -1035,8 +1025,7 @@ weight with one lower leg by contacting the muscles in the back of the upper leg
 of 28.0 cm from the knee joint, the moment of inertia of the lower leg is
 $$ 0.900 \kg \cdot \mm $$, the muscle force is 1500 N, and its effective perpendicular lever arm is 3.00
 cm.
-(b) How much work is done if the leg rotates through an angle of $$
-20.0^\circ $$ with a constant force exerted by the muscle?
+(b) How much work is done if the leg rotates through an angle of $$ 20.0^\circ $$ with a constant force exerted by the muscle?
 
 </div>
 <div class="solution" markdown="1">
@@ -1108,8 +1097,7 @@ The muscle produces 45.0 N·m of torque, but the weight opposes with 27.4 N·m, 
 <div class="problem" markdown="1">
 To develop muscle tone, a woman lifts a 2.00-kg weight held in her hand. She uses her biceps muscle to flex the lower arm through an angle of $$ 60.0^\circ $$.
 (a) What is the angular acceleration if the weight is 24.0 cm from the elbow
-joint, her forearm has a moment of inertia of $$ 0.250 \kg \cdot
- \mm $$, and the net force she exerts is 750 N at an effective perpendicular lever arm
+joint, her forearm has a moment of inertia of $$ 0.250 \kg \cdot \mm $$, and the net force she exerts is 750 N at an effective perpendicular lever arm
 of 2.00 cm?
 (b) How much work does she do?
 
@@ -1464,4 +1452,4 @@ rotational kinetic energy
 : the kinetic energy due to the rotation of an object. This is part of its total
 kinetic energy
 
-</div>
+</div>

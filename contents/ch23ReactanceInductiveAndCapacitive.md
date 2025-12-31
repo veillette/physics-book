@@ -65,11 +65,9 @@ to be
 with $$f $$ the frequency of the AC voltage source in hertz (An analysis of the
 circuit using Kirchhoff’s loop rule and calculus actually produces this
 expression). $${X}_{L} $$ is called the **inductive reactance**, because the
-inductor reacts to impede the current. $${X}_{L} $$ has units of ohms ( $$1 H=1
-\Omega \cdot \text{s} $$ , so that frequency times inductance has units of
+inductor reacts to impede the current. $${X}_{L} $$ has units of ohms ( $$1 H=1 \Omega \cdot \text{s} $$ , so that frequency times inductance has units of
 $$\left(\text{cycles/s}\right)\left(\Omega \cdot \text{s}\right)=\Omega $$ ),
-consistent with its role as an effective resistance. It makes sense that $${X}_
-{L} $$ is proportional to $$L $$ , since the greater the induction the greater
+consistent with its role as an effective resistance. It makes sense that $${X}_ {L} $$ is proportional to $$L $$ , since the greater the induction the greater
 its resistance to change. It is also reasonable that $${X}_{L} $$ is
 proportional to frequency $$f $$ , since greater frequency means greater change
 in current. That is, $$\Delta I/\Delta t $$ is large for large frequencies (
@@ -85,8 +83,7 @@ Calculating Inductive Reactance and then Current
 
 **Strategy**
 
-The inductive reactance is found directly from the expression $${X}_{L}=2\pi fL
-$$ . Once $${X}_{L} $$ has been found at each frequency, Ohm’s law as stated in
+The inductive reactance is found directly from the expression $${X}_{L}=2\pi fL $$ . Once $${X}_{L} $$ has been found at each frequency, Ohm’s law as stated in
 the Equation $$I=V/{X}_{L} $$ can be used to find the current at each frequency.
 
 **Solution for (a)**
@@ -175,8 +172,7 @@ only a capacitor $$C $$ is given by another version of Ohm’s law to be
  $$I=\frac{V}{ {X}_{C}}\text{,} $$
 </div>
 
-where $$V $$ is the rms voltage and $${X}_{C} $$ is defined (As with $${X}_{L}
-$$ , this expression for $${X}_{C} $$ results from an analysis of the circuit
+where $$V $$ is the rms voltage and $${X}_{C} $$ is defined (As with $${X}_{L} $$ , this expression for $${X}_{C} $$ results from an analysis of the circuit
 using Kirchhoff’s rules and calculus) to be
 
 <div class="equation" >
@@ -199,16 +195,14 @@ Calculating Capacitive Reactance and then Current
 
 **Strategy**
 
-The capacitive reactance is found directly from the expression in $${X}_
-{C}=\frac{1}{2\pi \text{fC}} $$ . Once $${X}_{C} $$ has been found at each
+The capacitive reactance is found directly from the expression in $${X}_ {C}=\frac{1}{2\pi \text{fC}} $$ . Once $${X}_{C} $$ has been found at each
 frequency, Ohm’s law stated as $$I=V/{X}_{C} $$ can be used to find the current
 at each frequency.
 
 **Solution for (a)**
 
-Entering the frequency and capacitance into $${X}\_{C}=\frac{1}{2\pi \text{fC}}
+Entering the frequency and capacitance into $${X}\_{C}=\frac{1}{2\pi \text{fC}} $$
 
-$$
 gives
 
 <div class="equation" >
@@ -914,10 +908,8 @@ power and the likely frequencies of noise coming through the power lines.
 inductive reactance
 : the opposition of an inductor to a change in current; calculated by $${X}_
 {L}=2\pi fL
-$$
 
 capacitive reactance
-: the opposition of a capacitor to a change in current; calculated by $${X}_
-{C}=\frac{1}{2\pi \text{fC}} $$
+: the opposition of a capacitor to a change in current; calculated by $${X}_ {C}=\frac{1}{2\pi \text{fC}} $$
 
-</div>
+</div>

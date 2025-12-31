@@ -55,9 +55,7 @@ Entering this into the expression for work yields
 </div>
 
 Work is $$W=Fd \cos \theta $$ ; here $$\cos \theta =1 $$ , since the path is
-parallel to the field, and so $$W=Fd $$ . Since $$F=qE $$ , we see that $$W=qEd
-
-$$
+parallel to the field, and so $$W=Fd $$ . Since $$F=qE $$ , we see that $$W=qEd $$
 . Substituting this expression for work into the previous equation gives
 
 <div class="equation" >
@@ -216,8 +214,7 @@ equation form, the general relationship between voltage and electric field is
  $$E= -\frac{\Delta V}{\Delta s}, $$
 </div>
 
-where $$\Delta s $$ is the distance over which the change in potential, $$\Delta
-V $$ , takes place. The minus sign tells us that $$\vb{E} $$ points
+where $$\Delta s $$ is the distance over which the change in potential, $$\Delta V $$ , takes place. The minus sign tells us that $$\vb{E} $$ points
 in the direction of decreasing potential. The electric field is said to be
 the **gradient** (as in grade or slope) of the electric potential.
 
@@ -738,4 +735,4 @@ scalar
 vector
 : physical quantity with both magnitude and direction
 
-</div>
+</div>

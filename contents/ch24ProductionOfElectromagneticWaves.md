@@ -42,8 +42,7 @@ $$E $$ -field has moved away at speed $$c $$.
 
 As the process continues, the charge separation reverses and the field reaches
 its maximum downward value, returns to zero, and rises to its maximum upward
-value at the end of one complete cycle. The outgoing wave has an **amplitude** proportional to the maximum separation of charge. Its **wavelength** $$\left(
-\lambda \right) $$ is proportional to the period of the oscillation and, hence,
+value at the end of one complete cycle. The outgoing wave has an **amplitude** proportional to the maximum separation of charge. Its **wavelength** $$\left( \lambda \right) $$ is proportional to the period of the oscillation and, hence,
 is smaller for short periods or high frequencies. (As usual, wavelength and **frequency** $$\left(f\right) $$ are inversely proportional.)
 
 ### Electric and Magnetic Waves: Moving Together
@@ -534,4 +533,4 @@ disturbance of the same frequency as its natural frequency
 oscillate
 : to fluctuate back and forth in a steady beat
 
-</div>
+</div>

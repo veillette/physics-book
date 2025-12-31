@@ -77,15 +77,13 @@ Wave your hand back and forth between your face and a fluorescent light bulb. Do
 
 We are most often concerned with average power rather than its fluctuations—that
 60-W light bulb in your desk lamp has an average power consumption of 60 W, for
-example. As illustrated in [[Figure 3]](#Figure3), the average power $${P}_
-{\text{ave}} $$ is
+example. As illustrated in [[Figure 3]](#Figure3), the average power $${P}_ {\text{ave}} $$ is
 
 <div class="equation" >
  $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0}. $$
 </div>
 
-This is evident from the graph, since the areas above and below the $$\left(
-1/2\right){I}_{0}{V}_{0} $$ line are equal, but it can also be proven using
+This is evident from the graph, since the areas above and below the $$\left( 1/2\right){I}_{0}{V}_{0} $$ line are equal, but it can also be proven using
 trigonometric identities. Similarly, we define an average or **rms current**
 $${I}_{\text{rms}} $$ and average or **rms voltage** $${V}_{\text{rms}} $$ to
 be, respectively,
@@ -115,13 +113,9 @@ which gives
  $${P}_{\text{ave}}=\frac{ {I}_{0}}{\sqrt{2}}\cdot \frac{ {V}_{0}}{\sqrt{2}}=\frac{1}{2}{I}_{0}{V}_{0}, $$
 </div>
 
-as stated above. It is standard practice to quote $${I}_{\text{rms}} $$ , $${V}_
-{\text{rms}} $$ , and $${P}_{\text{ave}} $$ rather than the peak values. For
-example, most household electricity is 120 V AC, which means that $${V}_
-{\text{rms}} $$
-** is 120 V. The common 10-A circuit breaker will interrupt a sustained $${I}_
-{\text{rms}} $$
-** greater than 10 A. Your 1.0-kW microwave oven consumes $${P}_{\text{ave}}=1.0
+as stated above. It is standard practice to quote $${I}_{\text{rms}} $$ , $${V}_ {\text{rms}} $$ , and $${P}_{\text{ave}} $$ rather than the peak values. For
+example, most household electricity is 120 V AC, which means that $${V}_ {\text{rms}} $$ ** is 120 V. The common 10-A circuit breaker will interrupt a sustained $${I}_
+{\text{rms}} $$ ** greater than 10 A. Your 1.0-kW microwave oven consumes $${P}_{\text{ave}}=1.0
 \text{kW} $$ , and so on. You can think of these rms and average values as the
 equivalent DC values for a simple resistive circuit.
 
@@ -165,8 +159,7 @@ power from the given average power.
 **Solution for (a)**
 
 Solving the equation $${V}_{\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}} $$ for the
-peak voltage $${V}_{0} $$ and substituting the known value for $${V}_
-{\text{rms}} $$ gives
+peak voltage $${V}_{0} $$ and substituting the known value for $${V}_ {\text{rms}} $$ gives
 
 <div class="equation" >
  $${V}_{0}=\sqrt{2}{V}_{\text{rms}}= 1.414 \left(120 \text{V}\right)=170 \text{V}. $$
@@ -221,16 +214,14 @@ Power Losses Are Less for High-Voltage Transmission
 
 **Strategy**
 
-We are given $${P}_{\text{ave}}=100 \text{MW} $$ , $${V}_{\text{rms}}=200
-\text{kV} $$ , and the resistance of the lines is $$R= 1.00 \Omega $$ . Using
+We are given $${P}_{\text{ave}}=100 \text{MW} $$ , $${V}_{\text{rms}}=200 \text{kV} $$ , and the resistance of the lines is $$R= 1.00 \Omega $$ . Using
 these givens, we can find the current flowing (from $$P=IV $$ )
 and then the power dissipated in the lines ( $$P={I}^{2}R $$ ), and we take the
 ratio to the total power transmitted.
 
 **Solution**
 
-To find the current, we rearrange the relationship $${P}_{\text{ave}}={I}_
-{\text{rms}}{V}_{\text{rms}} $$ and substitute known values. This gives
+To find the current, we rearrange the relationship $${P}_{\text{ave}}={I}_ {\text{rms}}{V}_{\text{rms}} $$ and substitute known values. This gives
 
 <div class="equation" >
  $${I}_{\text{rms}}=\frac{ {P}_{\text{ave}}}{ {V}_{\text{rms}}}=\frac{100 \times 10^{6}  \text{W}}{200 \times 10^{3}  \text{V}}=500 \text{A}. $$
@@ -295,24 +286,17 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 
 - Direct current (DC) is the flow of electric current in only one direction. It
   refers to systems where the source voltage is constant.
-- The voltage source of an alternating current (AC) system puts out $$V={V}_{0}
-  \sin 2\pi \text{ft} $$ , where $$V $$ is the voltage at time $$t $$ , $${V}_
-  {0} $$ is the peak voltage, and $$f $$ is the frequency in hertz.
-- In a simple circuit, $$I=V/R $$ and AC current is $$I={I}_{0} \sin 2\pi
+- The voltage source of an alternating current (AC) system puts out $$V={V}_{0} \sin 2\pi \text{ft} $$ , where $$V $$ is the voltage at time $$t $$ , $${V}_
+  {0} $$ is the peak voltage, and $$f $$ is the frequency in hertz. - In a simple circuit, $$I=V/R $$ and AC current is $$I={I}_{0} \sin 2\pi
   \text{ft} $$ , where $$I $$ is the current at time $$t $$ , and $${I}_{0}={V}_
-  {0}\text{/R} $$ is the peak current.
-- The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0} $$ .
+  {0}\text{/R} $$ is the peak current. - The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0} $$ .
 
-- Average (rms) current $${I}_{\text{rms}} $$ and average (rms) voltage $${V}_
-  {\text{rms}} $$ are $${I}_{\text{rms}}=\frac{ {I}_{0}}{\sqrt{2}} $$ and $${V}_
-  {\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}} $$ , where rms stands for root mean
-  square.
-- Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ .
+- Average (rms) current $${I}_{\text{rms}} $$ and average (rms) voltage $${V}_ {\text{rms}} $$ are $${I}_{\text{rms}}=\frac{ {I}_{0}}{\sqrt{2}} $$ and $${V}_
+  {\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}} $$ , where rms stands for root mean square. - Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ .
 
 - Ohm’s law for AC is $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{R} $$ .
 
-- Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_
-  {\text{rms}}{V}_{\text{rms}} $$ , $${P}_{\text{ave}}=\frac{ {V}_{\text{rms}}^{
+- Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_ {\text{rms}}{V}_{\text{rms}} $$ , $${P}_{\text{ave}}=\frac{ {V}_{\text{rms}}^{
   2}}{R} $$ , and $${P}_{\text{ave}}={I}_{\text{rms}}^{ 2}R $$ , analogous to
   the expressions for DC circuits.
 
@@ -746,13 +730,11 @@ alternating current
 : (AC) the flow of electric charge that periodically reverses direction
 
 AC voltage
-: voltage that fluctuates sinusoidally with time, expressed as $$ V = V_0 \sin
-2\pi f t $$, where $$V$$ is the voltage at time $$t$$, $$V_0$$ is the peak
+: voltage that fluctuates sinusoidally with time, expressed as $$ V = V_0 \sin 2\pi f t $$, where $$V$$ is the voltage at time $$t$$, $$V_0$$ is the peak
 voltage, and $$f$$ is the frequency in hertz
 
 AC current
-: current that fluctuates sinusoidally with time, expressed as $$ I = I_0 \sin
-2\pi f t $$, where $$I$$ is the current at time $$t$$, $$I_0$$ is the peak
+: current that fluctuates sinusoidally with time, expressed as $$ I = I_0 \sin 2\pi f t $$, where $$I$$ is the current at time $$t$$, $$I_0$$ is the peak
 current, and $$f$$ is the frequency in hertz
 
 rms current
@@ -763,4 +745,4 @@ rms voltage
 : the root-mean-square of the voltage, $${V}_{\text{rms}}={V}_{0}/\sqrt{2} $$ ,
 where $$V_0$$ is the peak voltage, in an AC system
 
-</div>
+</div>

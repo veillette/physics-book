@@ -33,9 +33,7 @@ to the emf of the battery by $$V=\text{emf}-Ir $$ , where $$I $$ is the current
 that flows and $$r $$ is the internal resistance of the battery.
 
 The emf could be accurately calculated if $$r $$ were very accurately known, but
-it is usually not. If the current $$I $$ could be made zero, then $$V=\text{emf}
-
-$$
+it is usually not. If the current $$I $$ could be made zero, then $$V=\text{emf} $$
 , and so emf could be directly measured. However, standard voltmeters need a
 current to operate; thus, another technique is needed.
 
@@ -63,8 +61,7 @@ Now, a very precisely known standard $${\text{emf}}_{s} $$ is substituted for
 $${\text{emf}}_{x} $$ , and the contact point is adjusted until the galvanometer
 again reads zero, so that $${\text{emf}}_{s}=IR_{s} $$ . In both cases, no
 current passes through the galvanometer, and so the current $$I $$ through the
-long wire is the same. Upon taking the ratio $$\frac{ {\text{emf}}_{x}}{
-{\text{emf}}_{s}} $$ , $$I $$ cancels, giving
+long wire is the same. Upon taking the ratio $$\frac{ {\text{emf}}_{x}}{ {\text{emf}}_{s}} $$ , $$I $$ cancels, giving
 
 <div class="equation" >
  $$\frac{ {\text{emf}}_{x}}{ {\text{emf}}_{s}}=\frac{ IR_{x}}{ IR_{s}}=\frac{ {R}_{x}}{ {R}_{s}}. $$
@@ -79,14 +76,12 @@ Solving for $${\text{emf}}_{x} $$ gives
 ![Two circuits are shown. The first circuit has a cell of e m f script E and internal resistance r connected in series to a resistor R. The second diagram shows the same circuit with the addition of a galvanometer and unknown voltage source connected with a variable contact that can be adjusted up and down the length of the resistor R.](../resources/Figure_21_05_02.jpg "The potentiometer, a null measurement device. (a) A voltage source connected to a long wire resistor passes a constant current \( I \) through it. (b) An unknown emf (labeled script \( E_x \) in the figure) is connected as shown, and the point of contact along \( R \) is adjusted until the galvanometer reads zero. The segment of wire has a resistance \( R_{x} \) and \( E_{x}=I R_{x}\) , where \( I \) is unaffected by the connection since no current flows through the galvanometer. The unknown emf is thus proportional to the resistance of the wire segment.")
 {: #Figure2}
 
-Because a long uniform wire is used for $$R $$ , the ratio of resistances $${R}_
-{\text{x}}/{R}_{\text{s}} $$ is the same as the ratio of the lengths of wire
+Because a long uniform wire is used for $$R $$ , the ratio of resistances $${R}_ {\text{x}}/{R}_{\text{s}} $$ is the same as the ratio of the lengths of wire
 that zero the galvanometer for each emf. The three quantities on the right-hand
 side of the equation are now known or measured, and $${\text{emf}}_{\text{x}} $$
 can be calculated. The uncertainty in this calculation can be considerably
 smaller than when using a voltmeter directly, but it is not zero. There is
-always some uncertainty in the ratio of resistances $${R}_{\text{x}}/{R}_
-{\text{s}} $$ and in the standard $${\text{emf}}_{s} $$ . Furthermore, it is not
+always some uncertainty in the ratio of resistances $${R}_{\text{x}}/{R}_ {\text{s}} $$ and in the standard $${\text{emf}}_{s} $$ . Furthermore, it is not
 possible to tell when the galvanometer reads exactly zero, which introduces
 error into both $${R}_{\text{x}} $$ and $${R}_{\text{s}} $$ , and may also
 affect the current $$I $$.
@@ -117,8 +112,7 @@ the circuit, $${R}_{3} $$ is adjusted until the galvanometer reads zero. The
 potential difference between points b and d is then zero, meaning that b and d
 are at the same potential. With no current running through the galvanometer, it
 has no effect on the rest of the circuit. So the branches abc and adc are in
-parallel, and each branch has the full voltage of the source. That is, the $$IR
-$$ drops along abc and adc are the same. Since b and d are at the same
+parallel, and each branch has the full voltage of the source. That is, the $$IR $$ drops along abc and adc are the same. Since b and d are at the same
 potential, the $$IR $$ drop along ad must equal the $$IR $$ drop along ab. Thus,
 
 <div class="equation" >
@@ -345,5 +339,4 @@ Wheatstone bridge
 : a null measurement device for calculating resistance by balancing potential
 drops in a circuit
 
-</div>
-$$
+</div>

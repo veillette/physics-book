@@ -31,9 +31,7 @@ one another.
 In the many cases where the geometry of the devices is fixed, flux is changed by
 varying current. We therefore concentrate on the rate of change of current,
 $$\Delta I/\Delta t $$ , as the cause of induction. A change in the current
-$${I}_{1} $$ in one device, coil 1 in the figure, induces an $${\text{emf}}_{2}
-
-$$
+$${I}_{1} $$ in one device, coil 1 in the figure, induces an $${\text{emf}}_{2} $$
 in the other. We express this in equation form as
 
 <div class="equation" >
@@ -41,13 +39,10 @@ in the other. We express this in equation form as
 </div>
 
 where $$M $$ is defined to be the mutual inductance between the two devices. The
-minus sign is an expression of Lenz’s law. The larger the mutual inductance $$M
-$$ , the more effective the coupling. For example, the coils
+minus sign is an expression of Lenz’s law. The larger the mutual inductance $$M $$ , the more effective the coupling. For example, the coils
 in [[Figure 1]](#Figure1) have a small $$M $$ compared with the transformer
-coils in [[Figure3]](../contents/ch23Transformers#Figure3). Units for $$M
-$$ are $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s} $$ ,
-which is named a **henry** (H), after Joseph Henry. That is, $$1 H=1 \Omega
-\cdot \text{s} $$.
+coils in [[Figure3]](../contents/ch23Transformers#Figure3). Units for $$M $$ are $$\left(\text{V}\cdot \text{s}\right)\text{/A}=\Omega \cdot \text{s} $$ ,
+which is named a **henry** (H), after Joseph Henry. That is, $$1 H=1 \Omega \cdot \text{s} $$.
 
 Nature is symmetric here. If we change the current $${I}_{2} $$ in coil 2, we
 induce an $${\text{emf}}_{1} $$ in coil 1, which is given by
@@ -101,9 +96,7 @@ A 1 H inductor is a large inductor. To illustrate this, consider a device with
 $$L= 1.0 \text{H} $$ that has a 10 A current flowing through it. What happens if
 we try to shut off the current rapidly, perhaps in only 1.0 ms? An emf, given by
 $$\text{emf}=-L\left(\Delta I/\Delta t\right) $$ , will oppose the change. Thus
-an emf will be induced given by $$\text{emf}=-L\left(\Delta I/\Delta t\right)
-=\left( 1.0 H\right)\left[ \left(10 \text{A}\right)/\left( 1.0 ms\right)\right]
-=10 000 \text{V} $$ . The positive sign means this large voltage is in the same
+an emf will be induced given by $$\text{emf}=-L\left(\Delta I/\Delta t\right) =\left( 1.0 H\right)\left[ \left(10 \text{A}\right)/\left( 1.0 ms\right)\right] =10 000 \text{V} $$ . The positive sign means this large voltage is in the same
 direction as the current, opposing its decrease. Such large emfs can cause arcs,
 damaging switching equipment, and so it may be necessary to change current more
 slowly.
@@ -128,8 +121,7 @@ because it has a very uniform field inside, a nearly zero field outside, and a
 simple shape. It is instructive to derive an equation for its inductance. We
 start by noting that the induced emf is given by Faraday’s law of induction
 as $$\text{emf}=-N\left(\Delta \Phi /\Delta t\right) $$ and, by the
-definition of self-inductance, as $$\text{emf}=-L\left(\Delta I/\Delta
-t\right) $$ . Equating these yields
+definition of self-inductance, as $$\text{emf}=-L\left(\Delta I/\Delta t\right) $$ . Equating these yields
 
 <div class="equation" >
  $$\text{emf}=-N\frac{\Delta \Phi }{\Delta t}=-L\frac{\Delta I}{\Delta t}\text{.} $$
@@ -149,11 +141,9 @@ is.
 Let us use this last equation to find an expression for the inductance of a
 solenoid. Since the area $$A $$ of a solenoid is fixed, the change in flux is
 $$\Delta \Phi =\Delta \left(BA\right)=A\Delta B $$ . To find $$\Delta B $$ , we
-note that the magnetic field of a solenoid is given by $$B={\mu }_
-{0}\text{nI}={\mu }_{0}\frac{NI}{\ell } $$ .
+note that the magnetic field of a solenoid is given by $$B={\mu }_ {0}\text{nI}={\mu }_{0}\frac{NI}{\ell } $$ .
 (Here $$n=N/\ell $$ , where $$N $$ is the number of coils and $$\ell $$ is the
-solenoid’s length.) Only the current changes, so that $$\Delta \Phi =A\Delta
-B={\mu }_{0}NA\frac{\Delta I}{\ell } $$ . Substituting $$\Delta \Phi $$ into
+solenoid’s length.) Only the current changes, so that $$\Delta \Phi =A\Delta B={\mu }_{0}NA\frac{\Delta I}{\ell } $$ . Substituting $$\Delta \Phi $$ into
 $$L=N\frac{\Delta \Phi }{\Delta I} $$ gives
 
 <div class="equation" >
@@ -178,8 +168,7 @@ Calculate the self-inductance of a 10.0 cm long, 4.00 cm diameter solenoid that 
 
 **Strategy**
 
-This is a straightforward application of $$L=\frac{ {\mu }_{0}{N}^{2}A}{\ell }
-$$ , since all quantities in the equation except $$L $$ are known.
+This is a straightforward application of $$L=\frac{ {\mu }_{0}{N}^{2}A}{\ell } $$ , since all quantities in the equation except $$L $$ are known.
 
 **Solution**
 
@@ -254,8 +243,7 @@ How much energy is stored in the 0.632 mH inductor of the preceding example when
 
 **Strategy**
 
-The energy is given by the equation $${E}_
-{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_
+The energy is given by the equation $${E}_ {\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_
 {\text{ind}} $$ are known.
 
 **Solution**
@@ -1076,9 +1064,7 @@ inductor
 : a device that exhibits significant self-inductance
 
 energy stored in an inductor
-: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2}
+: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
 
-$$
 
-</div>
-$$
+</div>

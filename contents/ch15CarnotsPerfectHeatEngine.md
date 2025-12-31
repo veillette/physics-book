@@ -28,8 +28,7 @@ a **Carnot engine**.
 
 What is crucial to the Carnot cycle—and, in fact, defines it—is that only
 reversible processes are used. Irreversible processes involve dissipative
-factors, such as friction and turbulence. This increases heat transfer $${Q}_
-{\text{c}} $$ to the environment and reduces the efficiency of the engine.
+factors, such as friction and turbulence. This increases heat transfer $${Q}_ {\text{c}} $$ to the environment and reduces the efficiency of the engine.
 Obviously, then, reversible processes are superior.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -57,10 +56,8 @@ by:
  $$\text{Eff}=\frac{ {Q}_{\text{h}}-{Q}_{\text{c}}}{ {Q}_{\text{h}}}=1-\frac{ {Q}_{\text{c}}}{ {Q}_{\text{h}}}\text{.} $$
 </div>
 
-What Carnot found was that for a perfect heat engine, the ratio $${Q}_
-{\text{c}}/{Q}_{\text{h}} $$ equals the ratio of the absolute temperatures of
-the heat reservoirs. That is, $${Q}_{\text{c}}/{Q}_{\text{h}}={T}_
-{\text{c}}/{T}_{\text{h}} $$ for a Carnot engine, so that the maximum or **
+What Carnot found was that for a perfect heat engine, the ratio $${Q}_ {\text{c}}/{Q}_{\text{h}} $$ equals the ratio of the absolute temperatures of
+the heat reservoirs. That is, $${Q}_{\text{c}}/{Q}_{\text{h}}={T}_ {\text{c}}/{T}_{\text{h}} $$ for a Carnot engine, so that the maximum or **
 Carnot efficiency** $$\text{Eff}_{\text{C}} $$ is given by
 
 <div class="equation" >
@@ -114,9 +111,7 @@ temperatures must first be converted to kelvins.
 
 **Solution**
 
-The hot and cold reservoir temperatures are given as $$300\text{ºC} $$ and $$
-27.0\text{ºC} $$ , respectively. In kelvins, then, $${T}_{\text{h}}=573 \text{K}
-$$ and $${T}_{\text{c}}=300 \text{K} $$ , so that the maximum efficiency is
+The hot and cold reservoir temperatures are given as $$300\text{ºC} $$ and $$ 27.0\text{ºC} $$ , respectively. In kelvins, then, $${T}_{\text{h}}=573 \text{K} $$ and $${T}_{\text{c}}=300 \text{K} $$ , so that the maximum efficiency is
 
 <div class="equation" >
  $${\text{Eff}}_{\text{C}}=1-\frac{ {T}_{\text{c}}}{ {T}_{\text{h}}}\text{.} $$
@@ -570,4 +565,4 @@ Carnot engine
 Carnot efficiency
 : the maximum theoretical efficiency for a heat engine
 
-</div>
+</div>

@@ -45,8 +45,7 @@ $${W}^{+},{W}^{-} $$ , and $${Z}^{0} $$ carrier particles. Not only were three
 particles having spin 1 predicted, the mass of the $${W}^{+} $$ and $${W}^{-} $$
 was predicted to be $$81 \text{GeV/}{c}^{2} $$ , and that of the $${Z}^{0} $$
 was predicted to be $$90 \text{GeV/}{c}^{2} $$ .
-(Their masses had to be about 1000 times that of the pion, or about $$100
-\text{GeV/}{c}^{2} $$ , since the range of the weak force is about 1000 times
+(Their masses had to be about 1000 times that of the pion, or about $$100 \text{GeV/}{c}^{2} $$ , since the range of the weak force is about 1000 times
 less than the strong force carried by virtual pions.) In 1983, these carrier
 particles were observed at CERN with the predicted characteristics, including
 masses having the predicted values as seen in [[Table 1]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1). This was
@@ -99,11 +98,8 @@ and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3). The quarks within 
 and neutron move along together exchanging gluons, until the proton and neutron
 get close together. As the $$u $$ quark leaves the proton, a gluon creates a
 pair of virtual particles, a $$d $$ quark and a $$\stackrel{-}{d} $$ antiquark.
-The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u
-$$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$
-([[Table 2]](../contents/ch33Quarks#Table2) confirms the $$u\stackrel{-}{d}
-$$ composition for the $${\pi }^{+} $$ .)
-The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
+The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u $$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$ ([[Table 2]](../contents/ch33Quarks#Table2) confirms the $$u\stackrel{-}{d}
+$$ composition for the $${\pi }^{+} $$ .) The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
 force is transmitted.
 
@@ -140,9 +136,7 @@ corresponds to smaller and smaller distances, with 100 GeV corresponding to
 approximately, $${10}^{-18}\text{m} $$ for example. At that distance, the
 strengths of the EM and weak forces are the same. To test physics at that
 distance, energies of about 100 GeV must be put into the system, and that is
-sufficient to create and release the $${W}^{+} $$ , $${W}^{-} $$ , and $${Z}^{0}
-
-$$
+sufficient to create and release the $${W}^{+} $$ , $${W}^{-} $$ , and $${Z}^{0} $$
 carrier particles. At those and higher energies, the masses of the carrier
 particles becomes less and less relevant, and the $${Z}^{0} $$ in particular
 resembles the massless, chargeless, spin 1 photon. In fact, there is enough
@@ -168,18 +162,15 @@ identical with the strong nuclear force are not reachable with any conceivable
 human-built accelerator. At energies of about $$ 10^{14} \text{GeV} $$
 (16 000 J per particle), distances of about $$ 10^{-30} \text{m} $$ can be
 probed. Such energies are needed to test theory directly, but these are about
-$$
 
-10^{10} $$ higher than the proposed giant SSC would have had, and the distances
-are about $$ 10^{-12} $$ smaller than any structure we have direct knowledge of.
+10^{10} $$ higher than the proposed giant SSC would have had, and the distances are about $$ 10^{-12} $$ smaller than any structure we have direct knowledge of.
 This would be the realm of various GUTs, of which there are many since there is
 no constraining evidence at these energies and distances. Past experience has
 shown that any time you probe so many orders of magnitude further (here, about
 $$ 10^{12} $$ ), you find the unexpected. Even more extreme are the energies and
 distances at which gravity is thought to unify with the other forces in a TOE.
 Most speculative and least constrained by experiment are TOEs, one of which is
-called **Superstring theory**. Superstrings are entities that are $$ 10^{-35}
-\text{m} $$ in scale and act like one-dimensional oscillating strings and are
+called **Superstring theory**. Superstrings are entities that are $$ 10^{-35} \text{m} $$ in scale and act like one-dimensional oscillating strings and are
 also proposed to underlie all particles, forces, and space itself.
 
 At the energy of GUTs, the carrier particles of the weak force would become
@@ -201,8 +192,7 @@ Although $$ 10^{31} \text{y} $$ is an extremely long time (about $$ 10^{21} $$
 times the age of the universe), there are a lot of protons, and detectors have
 been constructed to look for the proposed decay mode as seen
 in [[Figure 5]](#Figure5). It is somewhat comforting that proton decay has not
-been detected, and its experimental lifetime is now greater than $$5 \times
-10^{32} \text{y} $$ . This does not prove GUTs wrong, but it does place greater
+been detected, and its experimental lifetime is now greater than $$5 \times 10^{32} \text{y} $$ . This does not prove GUTs wrong, but it does place greater
 constraints on the theories, benefiting theorists in many ways.
 
 From looking increasingly inward at smaller details for direct evidence of
@@ -271,8 +261,7 @@ of radiation from all the particles they create by striking a nucleus in the
 atmosphere as seen in the figure given below. Suppose a cosmic ray particle
 having an energy of $$ 10^{10} \text{GeV} $$ converts its energy into particles
 with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
-(a) How many particles are created? (b) If the particles rain down on a $$1.00
-{\text{-km} }^{2} $$ area, how many particles are there per square meter?
+(a) How many particles are created? (b) If the particles rain down on a $$1.00 {\text{-km} }^{2} $$ area, how many particles are there per square meter?
 
 ![The figure shows an extremely energetic cosmic ray penetrating into the Earth’s atmosphere. High up in the atmosphere, the cosmic ray disintegrates into a shower of particles that start a chain reaction by themselves creating further particles. All these particles shower the surface of the Earth.](../resources/Figure_33_06_06.jpg 'An extremely energetic cosmic ray creates a shower of particles on earth. The energy of these rare cosmic rays can approach a joule (about ( 10^{10} \\text{GeV} ) ) and, after multiple collisions, huge numbers of particles are created from this energy. Cosmic ray showers have been observed to extend over many square kilometers. ')
 {: #Figure6}
@@ -289,8 +278,7 @@ with masses averaging $$200 \text{MeV/}{c}^{2} $$ .
 **Integrated Concepts**
 
 Assuming conservation of momentum, what is the energy of each $$\gamma $$ ray
-produced in the decay of a neutral at rest pion, in the reaction $${\pi }^{0}\to
-\gamma +\gamma $$ ?
+produced in the decay of a neutral at rest pion, in the reaction $${\pi }^{0}\to \gamma +\gamma $$ ?
 
 </div>
 <div class="solution" markdown="1">
@@ -343,8 +331,7 @@ provides an idea of the limit to the detail it can probe.
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-(a) Calculate the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for 1.00-TeV protons produced at
+(a) Calculate the relativistic quantity $$\gamma =\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for 1.00-TeV protons produced at
 Fermilab. (b) If such a proton created a $${\pi }^{+} $$ having the same speed,
 how long would its life be in the laboratory? (c) How far could it travel in
 this time?
@@ -401,8 +388,7 @@ This effect is crucial for particle physics experiments. High-energy particles c
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-The primary decay mode for the negative pion is $${\pi }^{-}\to {\mu
-}^{-}+{\stackrel{-}{\nu } }_{\mu } $$ .
+The primary decay mode for the negative pion is $${\pi }^{-}\to {\mu }^{-}+{\stackrel{-}{\nu } }_{\mu } $$ .
 (a) What is the energy release in MeV in this decay? (b) Using conservation of
 momentum, how much energy does each of the decay products receive, given the
 $${\pi }^{-} $$ is at rest when it decays? You may assume the muon antineutrino
@@ -423,8 +409,7 @@ is massless and has momentum $$p=E/c $$ , just like a photon.
 
 Plans for an accelerator that produces a secondary beam of _K_-mesons to scatter
 from nuclei, for the purpose of studying the strong force, call for them to have
-a kinetic energy of 500 MeV. (a) What would the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ be for these particles? (b) How long
+a kinetic energy of 500 MeV. (a) What would the relativistic quantity $$\gamma =\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ be for these particles? (b) How long
 would their average lifetime be in the laboratory? (c) How far could they travel
 in this time?
 
@@ -488,10 +473,8 @@ K-mesons are particularly useful for studying the strong force because they cont
 
 Suppose you are designing a proton decay experiment and you can detect 50
 percent of the proton decays in a tank of water. (a) How many kilograms of water
-would you need to see one decay per month, assuming a lifetime of $$ 10^{31}
-\text{y} $$ ?
-(b) How many cubic meters of water is this? (c) If the actual lifetime is $$
-10^{33} \text{y} $$ , how long would you have to wait on an average to see a
+would you need to see one decay per month, assuming a lifetime of $$ 10^{31} \text{y} $$ ?
+(b) How many cubic meters of water is this? (c) If the actual lifetime is $$ 10^{33} \text{y} $$ , how long would you have to wait on an average to see a
 single proton decay?
 
 </div>
@@ -510,8 +493,7 @@ In supernovas, neutrinos are produced in huge amounts. They were detected from
 the 1987A supernova in the Magellanic Cloud, which is about 120 000 light years
 away from the Earth (relatively close to our Milky Way galaxy). If neutrinos
 have a mass, they cannot travel at the speed of light, but if their mass is
-small, they can get close. (a) Suppose a neutrino with a $$7\text{-eV/}{c}^{2}
-$$ mass has a kinetic energy of 700 keV. Find the relativistic quantity $$\gamma
+small, they can get close. (a) Suppose a neutrino with a $$7\text{-eV/}{c}^{2} $$ mass has a kinetic energy of 700 keV. Find the relativistic quantity $$\gamma
 =\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for it. (b) If the neutrino leaves the
 1987A supernova at the same time as a photon and both travel to Earth, how much
 sooner does the photon arrive? This is not a large time difference, given that
@@ -778,4 +760,4 @@ superstring theory
 : a theory of everything based on vibrating strings some $$ 10^{-35} \text{m} $$
 in length
 
-</div>
+</div>

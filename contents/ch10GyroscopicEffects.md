@@ -20,8 +20,7 @@ like the disk in [Figure 1](#Figure1)? The figure shows the
 angular velocity. Both $$ \vb{L} $$ and $$ \vb{\omega} $$ are vectors—each has
 direction and magnitude. Both can be represented by arrows. The right-hand rule
 defines both to be perpendicular to the plane of rotation in the direction
-shown. Because angular momentum is related to angular velocity by $$
-\vb{L}=I^\prime \vb{\omega}^\prime $$, the direction of $$ \vb{L} $$ is the same
+shown. Because angular momentum is related to angular velocity by $$ \vb{L}=I^\prime \vb{\omega}^\prime $$, the direction of $$ \vb{L} $$ is the same
 as the direction of $$ \vb{\omega} $$. Notice in the figure that both point
 along the axis of rotation.
 
@@ -48,8 +47,7 @@ the wheel will rotate in the direction she pushes it—but what happens is quite
 different. The forces exerted create a torque that is horizontal toward the
 person, as shown in [Figure 3](#Figure3)(a). This torque creates a change in
 angular momentum $$ \vb{L} $$ in the same direction, perpendicular to the
-original angular momentum $$ \vb{L} $$, thus changing the direction of $$ \vb{L}
-$$ but not the magnitude of $$ \vb{L} $$. [Figure 3](#Figure3)
+original angular momentum $$ \vb{L} $$, thus changing the direction of $$ \vb{L} $$ but not the magnitude of $$ \vb{L} $$. [Figure 3](#Figure3)
 shows how $$ \Delta \vb{L} $$ and $$ \vb{L} $$ add, giving a new angular
 momentum with direction that is inclined more toward the person than before. The
 axis of the wheel has thus moved _perpendicular to the forces exerted on it_,
@@ -105,8 +103,7 @@ No, energy is always a scalar whether motion is involved or not. No form of ener
   thus the same as that of the angular momentum it produces.
 - The gyroscope precesses around a vertical axis, since the torque is always
   horizontal and perpendicular to $$ \vb{L} $$. If the gyroscope is not
-  spinning, it acquires angular momentum in the direction of the torque ( $$
-  \vb{L}=\Delta \vb{L} $$), and it rotates about a horizontal axis, falling over
+  spinning, it acquires angular momentum in the direction of the torque ( $$ \vb{L}=\Delta \vb{L} $$), and it rotates about a horizontal axis, falling over
   just as we would expect.
 - Earth itself acts like a gigantic gyroscope. Its angular momentum is along its
   axis and points at Polaris, the North Star.
@@ -168,4 +165,4 @@ right-hand rule
 your right hand points when you curl your fingers in the direction of the disk’s
 rotation
 
-</div>
+</div>

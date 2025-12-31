@@ -57,8 +57,7 @@ Find the current in a long straight wire that would produce a magnetic field twi
 
 **Strategy**
 
-The Earth’s field is about $$ 5.0 \times 10^{-5} \text{T} $$ , and so here $$B
-$$ due to the wire is taken to be $$ 1.0 \times 10^{-4} \text{T} $$ . The
+The Earth’s field is about $$ 5.0 \times 10^{-5} \text{T} $$ , and so here $$B $$ due to the wire is taken to be $$ 1.0 \times 10^{-4} \text{T} $$ . The
 equation $$B=\frac{ \mu_0 I}{2 \pi r} $$ can be used to find $$I $$ , since all
 other quantities are known.
 
@@ -156,8 +155,7 @@ magnets, but the **magnetic field strength inside a solenoid** is simply
  $$B=\mu_0 \text{nI}  \left(\text{inside a solenoid}\right), $$
 </div>
 
-where $$n $$ is the number of loops per unit length of the solenoid $$\left(
-n=N/l \right) $$ , with $$N $$ being the number of loops and $$l $$ the length.
+where $$n $$ is the number of loops per unit length of the solenoid $$\left( n=N/l \right) $$ , with $$N $$ being the number of loops and $$l $$ the length.
 Note that $$B $$ is the field strength anywhere in the uniform region of the
 interior and not just at the center. Large uniform fields spread over a large
 volume are possible with solenoids, as [[Example2]](#Example2) implies.
@@ -275,8 +273,7 @@ magnetic field strength (magnitude) produced by a long straight current-carrying
 : defined as $$B=\frac{ \mu_0 I}{2 \pi r} $$ , where $$I $$ is the current, $$r $$ is the shortest distance to the wire, and $$\mu_0 $$ is the permeability of free space
 
 permeability of free space
-: the measure of the ability of a material, in this case free space, to support a magnetic field; the constant $$\mu_0 =4\pi \times 10^{-7} \text{T}\cdot
-\text{m/A} $$
+: the measure of the ability of a material, in this case free space, to support a magnetic field; the constant $$\mu_0 =4\pi \times 10^{-7} \text{T}\cdot \text{m/A} $$
 
 magnetic field strength at the center of a circular loop
 : defined as $$B=\frac{ \mu_0 I}{2R} $$ where $$R $$ is the radius of the loop
@@ -303,4 +300,4 @@ shape current is the vector sum of the fields due to each segment
 Maxwell’s equations
 : a set of four equations that describe electromagnetic phenomena
 
-</div>
+</div>

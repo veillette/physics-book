@@ -78,8 +78,7 @@ The second postulate upon which Einstein based his theory of special relativity
 deals with the speed of light. Late in the 19th century, the major tenets of
 classical physics were well established. Two of the most important were the laws
 of electricity and magnetism and Newton’s laws. In particular, the laws of
-electricity and magnetism predict that light travels at $$c= 3.00 \times 10^{8}
-\text{m/s} $$ in a vacuum, but they do not specify the frame of reference in
+electricity and magnetism predict that light travels at $$c= 3.00 \times 10^{8} \text{m/s} $$ in a vacuum, but they do not specify the frame of reference in
 which light has this speed.
 
 There was a contradiction between this prediction and Newton’s laws, in which
@@ -183,8 +182,7 @@ Special relativity applies only to unaccelerated motion, but general relativity 
 - Modern relativity is based on Einstein’s two postulates. The first postulate
   of special relativity is the idea that the laws of physics are the same and
   can be stated in their simplest form in all inertial frames of reference. The
-  second postulate of special relativity is the idea that the speed of light $$c
-  $$ is a constant, independent of the relative motion of the source.
+  second postulate of special relativity is the idea that the speed of light $$c $$ is a constant, independent of the relative motion of the source.
 - The Michelson-Morley experiment demonstrated that the speed of light in a
   vacuum is independent of the motion of the Earth about the Sun.
 
@@ -238,4 +236,4 @@ Michelson-Morley experiment
 : an investigation performed in 1887 that proved that the speed of light in a
 vacuum is the same in all frames of reference from which it is viewed
 
-</div>
+</div>

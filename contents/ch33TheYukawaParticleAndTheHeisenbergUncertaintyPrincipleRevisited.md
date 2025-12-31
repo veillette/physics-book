@@ -42,8 +42,7 @@ $$\Delta t $$ in time by
 </div>
 
 where $$h $$ is Planck’s constant. Therefore, conservation of mass-energy can be
-violated by an amount $$\Delta E $$ for a time $$\Delta t\approx \frac{h}{4\pi
-\Delta E} $$ in which time no process can detect the violation. This allows the
+violated by an amount $$\Delta E $$ for a time $$\Delta t\approx \frac{h}{4\pi \Delta E} $$ in which time no process can detect the violation. This allows the
 temporary creation of a particle of mass $$m $$ , where $$\Delta E=mc^{2} $$ .
 The larger the mass and the greater the $$\Delta E $$ , the shorter is the time
 it can exist. This means the range of the force is limited, because the particle
@@ -123,8 +122,7 @@ pions were observed in cosmic-ray experiments, which were designed to supply a
 small flux of high-energy protons that may collide with nuclei. Soon afterward,
 accelerators of sufficient energy were creating pions in the laboratory under
 controlled conditions. Three pions were discovered, two with charge and one
-neutral, and given the symbols $${\pi }^{+}\text{,} {\pi }^{-}\text{, and} {\pi
-}^{0} $$ , respectively. The masses of $${\pi }^{+} $$ and $${\pi }^{-} $$ are
+neutral, and given the symbols $${\pi }^{+}\text{,} {\pi }^{-}\text{, and} {\pi }^{0} $$ , respectively. The masses of $${\pi }^{+} $$ and $${\pi }^{-} $$ are
 identical at $$ 139.6 \text{MeV/}{c}^{2} $$ , whereas $${\pi }^{0} $$ has a mass
 of $$ 135.0 \text{MeV/}{c}^{2} $$ . These masses are close to the predicted
 value of $$100 \text{MeV/}{c}^{2} $$ and, since they are intermediate between
@@ -136,8 +134,7 @@ The pions, or $$\pi $$ -mesons as they are also called, have masses close to
 those predicted and feel the strong nuclear force. Another previously unknown
 particle, now called the muon, was discovered during cosmic-ray experiments in
 1936 (one of its discoverers, Seth Neddermeyer, also originated the idea of
-implosion for plutonium bombs). Since the mass of a muon is around $$106
-\text{MeV/}{c}^{2} $$ , at first it was thought to be the particle predicted by
+implosion for plutonium bombs). Since the mass of a muon is around $$106 \text{MeV/}{c}^{2} $$ , at first it was thought to be the particle predicted by
 Yukawa. But it was soon realized that muons do not feel the strong nuclear force
 and could not be Yukawa’s particle. Their role was unknown, causing the
 respected physicist I. I. Rabi to comment, “Who ordered that?” This remains a
@@ -236,4 +233,4 @@ observed
 meson
 : particle whose mass is intermediate between the electron and nucleon masses
 
-</div>
+</div>

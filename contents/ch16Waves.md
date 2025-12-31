@@ -68,8 +68,7 @@ or
 </div>
 
 This fundamental relationship holds for all types of waves. For water waves,
-$${v}_{\text{w} } $$ is the speed of a surface wave; for sound, $${v}_{\text{w} }
-$$ is the speed of sound; and for visible light, $${v}_{\text{w} } $$ is the
+$${v}_{\text{w} } $$ is the speed of a surface wave; for sound, $${v}_{\text{w} } $$ is the speed of sound; and for visible light, $${v}_{\text{w} } $$ is the
 speed of light, for example.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -588,4 +587,4 @@ or propagation speed
 wavelength
 : the distance between adjacent identical parts of a wave
 
-</div>
+</div>

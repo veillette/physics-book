@@ -60,10 +60,9 @@ specified. The direction of the acceleration due to gravity is *downward (
 towards the center of Earth)*. In fact, its direction *defines* what we call
 vertical. Note that whether the acceleration $$ a $$ in the kinematic equations
 has the value $$ +g $$ or $$ -g $$ depends on how we define our coordinate
-system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss
+system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss $$
 $$, and if we define the downward direction as positive, then $$ a=g=9.80 \mss
 
-$$
 .
 
 ### One-Dimensional Motion Involving Gravity
@@ -128,11 +127,9 @@ $$ y_{3} $$ and $$ v_{3} $$.
 
 **Solution for Position** $$ y_{1} $$
 
-1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$
-a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$.
+1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$.
 
-2\. Identify the best equation to use. We will use $$ y=y_{0}+v_{0}t+\frac{1}{2}
-at^{2} $$ because it includes only one unknown, $$ y $$ (or $$ y_{1} $$, here),
+2\. Identify the best equation to use. We will use $$ y=y_{0}+v_{0}t+\frac{1}{2} at^{2} $$ because it includes only one unknown, $$ y $$ (or $$ y_{1} $$, here),
 which is the value we want to find.
 
 3\. Plug in the known values and solve for $$ y_{1} $$.
@@ -143,21 +140,13 @@ which is the value we want to find.
 
 **Discussion**
 
-The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}>
-y_
-{0} $$. It could be *moving* up or down; the only way to tell is to calculate $$
-v_{1} $$ and find out if it is positive or negative.
+The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> y_ {0} $$. It could be *moving* up or down; the only way to tell is to calculate $$
+v_{1} $$ and find out if it is positive or negative. **Solution for Velocity** $$ v_{1} $$
 
-**Solution for Velocity** $$ v_{1} $$
-
-1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$
-a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$. We also know from the solution above
+1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$. We also know from the solution above
 that $$ y_{1}=8.10 \m $$.
 
-2\. Identify the best equation to use. The most straightforward is $$ v=v_{0}-gt
-$$
-
-(from $$ v=v\_{0}+at $$, where $$ a=\text{gravitational acceleration}=-g $$).
+2\. Identify the best equation to use. The most straightforward is $$ v=v_{0}-gt $$ (from $$ v=v\_{0}+at $$, where $$ a=\text{gravitational acceleration}=-g $$).
 
 3\. Plug in the knowns and solve.
 
@@ -242,8 +231,7 @@ continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_
-{0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_ {0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
 The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
@@ -290,8 +278,7 @@ back down. It has the same _speed_ but the opposite direction.
 
 Another way to look at it is this: In [Example 1](#example1), the rock is thrown
 up with an initial velocity of $$ 13.0 \ms $$. It rises and then falls back
-down. When its position is $$ y=0 $$ on its way back down, its velocity is $$
--13.0 \ms $$. That is, it has the same speed on its way down as on its way up.
+down. When its position is $$ y=0 $$ on its way back down, its velocity is $$ -13.0 \ms $$. That is, it has the same speed on its way down as on its way up.
 We would then expect its velocity at a position of $$ y=-5.10 \m $$ to be the
 same whether we have thrown it upwards at $$ +13.0 \ms $$ or thrown it downwards
 at $$ -13.0 \ms $$. The velocity of the rock on its way down from $$ y=0 $$ is
@@ -334,8 +321,7 @@ values.
 <div class="equation">
  $$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$
 </div>
-3\. Substitute 0 for $$ v_{0} $$ and rearrange the equation to solve for $$
-a $$. Substituting 0 for $$ v_{0} $$ yields
+3\. Substitute 0 for $$ v_{0} $$ and rearrange the equation to solve for $$ a $$. Substituting 0 for $$ v_{0} $$ yields
 
 <div class="equation">
  $$ y=y_{0}+\frac{1}{2}a t^{2}. $$
@@ -378,12 +364,8 @@ water. Assuming it falls freely (there is no air resistance), how long does
 it take to hit the water?
 </div>
 <div class="solution" markdown="1">
-We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text
-{m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation $$
-y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain
-
-<div class="equation">
- $$ \begin{array}{lll}
+We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation $$
+y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain <div class="equation"> $$ \begin{array}{lll}
 y&=& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}&=& \frac{2y}{-g}\\
 t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.
@@ -413,21 +395,18 @@ Kinematics of an Elevator
 
 - An object in free-fall experiences constant acceleration if air resistance is
   negligible.
-- On Earth, all free-falling objects have an acceleration due to gravity $$ g
+- On Earth, all free-falling objects have an acceleration due to gravity $$ g $$
 
-  $$
   , which averages
   <div class="equation">
   $$ g=9.80 \mss . $$
   </div>
-  $$
 
 - Whether the acceleration $$a$$ should be taken as $$ +g $$ or $$ -g $$ is
   determined by your choice of coordinate system. If you choose the upward
   direction as positive, $$ a=-g=-9.80 \mss $$ is negative. In the opposite
   case, $$ a=+g=9.80 \mss $$ is positive. Since acceleration is constant, the
-  kinematic equations above can be applied with the appropriate $$ +g $$ or $$
-  -g $$ substituted for $$ a $$.
+  kinematic equations above can be applied with the appropriate $$ +g $$ or $$ -g $$ substituted for $$ a $$.
 - For objects in free-fall, up is normally taken as positive for displacement,
   velocity, and acceleration.
 
@@ -757,11 +736,8 @@ A dolphin in an aquatic show jumps straight up out of the water at a velocity of
 
 </div>
 <div class="solution" markdown="1">
-(a) $$ a=-9.80 \mss $$; $$ v_{0}=13.0 \ms $$; $$ y_{0}=0
-\m $$
-(b) $$ v=0 \ms $$. Unknown is distance $$ y $$ to top of trajectory,
-where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right)
-$$ because it contains all known values except for $$ y $$, so we can solve for
+(a) $$ a=-9.80 \mss $$; $$ v_{0}=13.0 \ms $$; $$ y_{0}=0 \m $$ (b) $$ v=0 \ms $$. Unknown is distance $$ y $$ to top of trajectory,
+where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ because it contains all known values except for $$ y $$, so we can solve for
 $$ y $$. Solving for $$ y $$ gives
 
 <div class="equation">
@@ -2173,4 +2149,4 @@ free-fall
 acceleration due to gravity
 : acceleration of an object as a result of gravity
 
-</div>
+</div>

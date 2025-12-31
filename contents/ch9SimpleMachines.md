@@ -34,18 +34,14 @@ distances.
 {: #Figure1}
 
 [Figure 1](#Figure1) shows a lever type that is used as a nail puller. Crowbars,
-seesaws, and other such levers are all analogous to this one. $$ \vb{F}_
-{\text{i}} $$ is the input force and $$ \vb{F}_{\text{o}} $$ is the output
+seesaws, and other such levers are all analogous to this one. $$ \vb{F}_ {\text{i}} $$ is the input force and $$ \vb{F}_{\text{o}} $$ is the output
 force. There are three vertical forces acting on the nail puller (
 the system of interest) – these are $$ \vb{F}_{\text{i}}, \vb{F}_{\N } $$, and
 $$ \vb{N} $$. $$ \vb{F}_{\N } $$ is the reaction force back on the system, equal
 and opposite to $$ \vb{F}_{\text{o}} $$. (Note that $$ \vb{F}_{\text{o}} $$ is
 not a force on the system.) $$ \vb{N} $$ is the normal force upon the lever,
-and its torque is zero since it is exerted at the pivot. The torques due to $$
-\vb{F}_
-{\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each other if the nail is
-not moving, to satisfy the second condition for equilibrium $$ \left(
-\text{net}\tau =0\right) $$. (In order for the nail to actually move, the torque
+and its torque is zero since it is exerted at the pivot. The torques due to $$ \vb{F}_ {\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each other if the nail is
+not moving, to satisfy the second condition for equilibrium $$ \left( \text{net}\tau =0\right) $$. (In order for the nail to actually move, the torque
 due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater than torque due
 to $$ \vb{F}\_{\N } $$.) Hence,
 
@@ -77,9 +73,7 @@ greater the force you can exert with it.
 Two other types of levers that differ slightly from the nail puller are a
 wheelbarrow and a shovel, shown in [Figure 2](#Figure2). All these lever types are
 similar in that only three forces are involved – the input force, the output
-force, and the force on the pivot – and thus their MAs are given by $$
-\text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d_{1}}{
-d_{2}} $$, with distances being measured relative to the physical pivot. The
+force, and the force on the pivot – and thus their MAs are given by $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d_{1}}{ d_{2}} $$, with distances being measured relative to the physical pivot. The
 wheelbarrow and shovel differ from the nail puller because both the input and
 output forces are on the same side of the pivot.
 
@@ -106,9 +100,8 @@ Here, we use the concept of mechanical advantage.
 
 **Solution**
 
-(a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}}
+(a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}} $$
 
-$$
 becomes
 
 <div class="equation">
@@ -119,8 +112,7 @@ Adding values into this equation yields
 <div class="equation">
 $$ F_{\text{i}}=\left(45.0\kg \right)\left(9.80\mss \right)\frac{0.075 \m }{1.02 \m }=32.4 \N . $$
 </div>
-The free-body diagram (see [Figure 2](#Figure2)) gives the following normal force: $$ F_{i}+N=W $$. Therefore, $$ N=\left(45.0 \kg \right)\left(
-9.80\mss \right)-32.4 \N = 409 \N $$. $$ N $$ is the normal force acting on the wheel; by Newton’s third law, the force the
+The free-body diagram (see [Figure 2](#Figure2)) gives the following normal force: $$ F_{i}+N=W $$. Therefore, $$ N=\left(45.0 \kg \right)\left( 9.80\mss \right)-32.4 \N = 409 \N $$. $$ N $$ is the normal force acting on the wheel; by Newton’s third law, the force the
 wheel exerts on the ground is $$ 409 \N $$.
 
 **Discussion**
@@ -143,8 +135,7 @@ of its actions remain the same. The MA for a crank is simply the ratio of the
 radii $$ r_{\text{i}}/r_{0} $$. Wheels and gears have this simple expression for
 their MAs too. The MA can be greater than 1, as it is for the crank, or less
 than 1, as it is for the simplified car axle driving the wheels, as shown. If
-the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0
-\text{cm} $$, then $$ \text{MA}=2.0/24.0=0.083 $$ and the axle would have to
+the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0 \text{cm} $$, then $$ \text{MA}=2.0/24.0=0.083 $$ and the axle would have to
 exert a force of $$ 12 000 \N $$ on the wheel to enable it to exert a force of
 $$ 1000 \N $$ on the ground.
 
@@ -654,5 +645,4 @@ This pulley arrangement is more efficient than the one in the previous problem. 
 mechanical advantage
 : the ratio of output to input forces for any simple machine
 
-</div>
-$$
+</div>

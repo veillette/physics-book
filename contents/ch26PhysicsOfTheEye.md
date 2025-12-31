@@ -130,15 +130,13 @@ What is the size of the image on the retina of a  $$ 1.20 \times 10^{-2}  $$
 We want to find the height of the image $${h}_{i} $$ , given the height of the
 object is $${h}_{o}= 1.20 \times 10^{-2} $$ cm. We also know that the object is
 60.0 cm away, so that $${d}_{o}=60.0 \text{cm} $$ . For clear vision, the image
-distance must equal the lens-to-retina distance, and so $${d}_{\text{i}}=2.00
-\text{cm} $$ . The equation $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{
+distance must equal the lens-to-retina distance, and so $${d}_{\text{i}}=2.00 \text{cm} $$ . The equation $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{
 {d}_{\text{i}}}{ {d}_{\text{o}}}=m $$ can be used to find $${h}_{i} $$ with the
 known information.
 
 **Solution**
 
-The only unknown variable in the equation $$\frac{ {h}_{\text{i}}}{ {h}_
-{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m $$ is $${h}_{\text{i}} $$
+The only unknown variable in the equation $$\frac{ {h}_{\text{i}}}{ {h}_ {\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m $$ is $${h}_{\text{i}} $$
 \:
 
 <div class="equation" >
@@ -172,13 +170,11 @@ Calculate the power of the eye when viewing objects at the greatest and smallest
 
 **Strategy**
 
-For clear vision, the image must be on the retina, and so $${d}_{\text{i}}=2.00
-\text{cm} $$ here. For distant vision, $${d}_{o}\approx \infty $$ , and for
+For clear vision, the image must be on the retina, and so $${d}_{\text{i}}=2.00 \text{cm} $$ here. For distant vision, $${d}_{o}\approx \infty $$ , and for
 close vision, $${d}_{o}=25.0 \text{cm} $$ , as discussed earlier. The equation
 $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}} $$ as written just
 above, can be used directly to solve for $$P $$ in both cases, since we know
-$${d}_{\text{i}} $$ and $${d}_{o} $$ . Power has units of diopters, where $$1
-\text{D}=1 \text{/m} $$ , and so we should express all distances in meters.
+$${d}_{\text{i}} $$ and $${d}_{o} $$ . Power has units of diopters, where $$1 \text{D}=1 \text{/m} $$ , and so we should express all distances in meters.
 
 **Solution**
 
@@ -805,4 +801,4 @@ presbyopia
 : a condition in which the lens of the eye becomes progressively unable to focus
 on objects close to the viewer
 
-</div>
+</div>

@@ -47,20 +47,15 @@ Let us examine how the exclusion principle applies to electrons in atoms. The
 quantum numbers involved were defined in [Quantum Numbers and Rules](../contents/ch30QuantumNumbersAndRules) as
 $$\mathrm{n, l,} {m}_{l}\mathrm{, s} $$ , and $${m}_{s} $$ . Since $$s $$ is
 always $$1/2 $$ for electrons, it is redundant to list $$s $$ , and so we omit
-it and specify the state of an electron by a set of four numbers $$\left(n, l,
-{m}_{l}, {m}_{s}\right) $$ . For example, the quantum numbers $$\left(2, 1, 0,
--1/2\right) $$ completely specify the state of an electron in an atom.
-
-Since no two electrons can have the same set of quantum numbers, there are
-limits to how many of them can be in the same energy state. Note that $$n $$
+it and specify the state of an electron by a set of four numbers $$\left(n, l, {m}_{l}, {m}_{s}\right) $$ . For example, the quantum numbers $$\left(2, 1, 0,
+-1/2\right) $$ completely specify the state of an electron in an atom. Since no two electrons can have the same set of quantum numbers, there are limits to how many of them can be in the same energy state. Note that $$n $$
 determines the energy state in the absence of a magnetic field. So we first
 choose $$n $$ , and then we see how many electrons can be in this energy state
 or energy level. Consider the $$n=1 $$ level, for example. The only value $$l $$
 can have is 0 (see [[Table 1]](../contents/ch30QuantumNumbersAndRules#Table1) for a list of
 possible values once $$n $$ is known), and thus $${m}_{l} $$ can only be 0. The
 spin projection $${m}_{s} $$ can be either $$+1/2 $$ or $$-1/2 $$ , and so there
-can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1,
-0, 0, +1/2\right) $$ , and the other has $$\left(1, 0, 0, -1/2\right) $$ .
+can be two electrons in the $$n=1 $$ state. One has quantum numbers $$\left(1, 0, 0, +1/2\right) $$ , and the other has $$\left(1, 0, 0, -1/2\right) $$ .
 [[Figure 2]](#Figure2) illustrates that there can be one or two electrons
 having $$n=1 $$ , but not three.
 
@@ -76,8 +71,7 @@ concept of shells and shell filling. As we progress up in the number of
 electrons, we go from hydrogen to helium, lithium, beryllium, boron, and so on,
 and we see that there are limits to the number of electrons for each value of
 $$n $$ . Higher values of the shell $$n $$ correspond to higher energies, and
-they can allow more electrons because of the various combinations of $$l, {m}_
-{l} $$ , and $${m}_{s} $$ that are possible. Each value of the principal quantum
+they can allow more electrons because of the various combinations of $$l, {m}_ {l} $$ , and $${m}_{s} $$ that are possible. Each value of the principal quantum
 number $$n $$ thus corresponds to an atomic **shell** into which a limited
 number of electrons can go. Shells and the number of electrons in them determine
 the physical and chemical properties of atoms, since it is the outermost
@@ -197,12 +191,8 @@ to apply, as we shall now see.
 </div>
 
 The number of electrons that can be in a subshell depends entirely on the value
-of $$l $$ . Once $$l $$ is known, there are a fixed number of values of $${m}_
-{l} $$ , each of which can have two values for $${m}_{s} $$ First, since $${m}_
-{l} $$ goes from $$-l $$ to _l_ in steps of 1, there are $$2l+1 $$
-possibilities. This number is multiplied by 2, since each electron can be spin
-up or spin down. Thus the _maximum number of electrons that can be in a
-subshell_ is $$2\left(2l+1\right) $$.
+of $$l $$ . Once $$l $$ is known, there are a fixed number of values of $${m}_ {l} $$ , each of which can have two values for $${m}_{s} $$ First, since $${m}_
+{l} $$ goes from $$-l $$ to _l_ in steps of 1, there are $$2l+1 $$ possibilities. This number is multiplied by 2, since each electron can be spin up or spin down. Thus the _maximum number of electrons that can be in a subshell_ is $$2\left(2l+1\right) $$.
 
 For example, the $$2s $$ subshell in [[Figure 4]](#Figure4) has a maximum of 2
 electrons in it, since $$2\left(2l+1\right)=2\left(0+1\right)=2 $$ for this
@@ -575,9 +565,8 @@ subshell. In contrast, alkali metals, such as sodium and potassium, all have a
 single $$s $$ electron in their outermost subshell (an $${s}^{1} $$
 configuration) and are members of Group 1 (Group I). These elements easily give
 up their extra electron and are thus highly reactive chemically. As you might
-expect, they also tend to form singly positive ions, such as $${\text{Na}}^{+}
+expect, they also tend to form singly positive ions, such as $${\text{Na}}^{+} $$
 
-$$
 , by losing their loosely bound outermost electron. They are metals (
 conductors), because the loosely bound outer electron can move freely.
 
@@ -606,16 +595,14 @@ Build an atom out of protons, neutrons, and electrons, and see how the element, 
 ### Section Summary
 
 * The state of a system is completely described by a complete set of quantum
-  numbers. This set is written as $$\left(\mathrm{n, l,} {m}_{l}, {m}_{s}\right)
-  $$ .
+  numbers. This set is written as $$\left(\mathrm{n, l,} {m}_{l}, {m}_{s}\right) $$ .
 
 * The Pauli exclusion principle says that no two electrons can have the same set
   of quantum numbers; that is, no two electrons can be in the same state.
 * This exclusion limits the number of electrons in atomic shells and subshells.
   Each value of $$n $$ corresponds to a shell, and each value of $$l $$
   corresponds to a subshell.
-* The maximum number of electrons that can be in a subshell is $$2\left(
-  2l+1\right) $$ .
+* The maximum number of electrons that can be in a subshell is $$2\left( 2l+1\right) $$ .
 
 * The maximum number of electrons that can be in a shell is $$2{n}^{2} $$ .
 
@@ -871,13 +858,10 @@ is 2*n*<sup>2</sup>.
 +\text{...}\text{.}+\left[ \left(2\right)\left(n-1\right)+1\right]
 \right\}=\underset{\underset{n
 \text{terms}}{︸}}{2\left[ 1+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)\right]
-} $$ to see that the expression in the box is $$={n}^{2}, $$ imagine taking
-$$\left(n-1\right) $$ from the last term and adding it to first term
-$$=2\left[ 1+\left(n-1\right)+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)-\left(n-1\right)\right]
-=2\left[ n+3+\text{....}+\left(2n-3\right)+n\right]  \text{.} $$ Now take
+} $$ to see that the expression in the box is $$={n}^{2}, $$ imagine taking $$\left(n-1\right) $$ from the last term and adding it to first term
+$$=2\left[ 1+\left(n-1\right)+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)-\left(n-1\right)\right] =2\left[ n+3+\text{....}+\left(2n-3\right)+n\right]  \text{.} $$ Now take
 $$\left(n-3\right) $$ from penultimate term and add to the second term
-$$2\underset{\underset{n \text{terms}}{︸}}{\left[ n+n+\text{...}+n+n\right]
-}={2n}^{2} $$.
+$$2\underset{\underset{n \text{terms}}{︸}}{\left[ n+n+\text{...}+n+n\right] }={2n}^{2} $$.
 
 </div>
 </div>
@@ -1003,8 +987,7 @@ transition for hydrogen in that galaxy?
 
 Calculate the velocity of a star moving relative to the earth if you observe a
 wavelength of 91.0 nm for ionized hydrogen capturing an electron directly into
-the lowest orbital (that is, a $${n}_{\text{i}}=\infty $$ to $${n}_{\text{f}}=1
-$$ , or a Lyman series transition).
+the lowest orbital (that is, a $${n}_{\text{i}}=\infty $$ to $${n}_{\text{f}}=1 $$ , or a Lyman series transition).
 
 </div>
 <div class="solution" markdown="1">
@@ -1111,8 +1094,7 @@ This slit separation of about 1 nm is on the order of atomic dimensions (typical
 <strong>Integrated Concepts </strong>
 
 In a laboratory experiment designed to duplicate Thomson’s determination of
-$${q}_{e}/{m}_{e} $$ , a beam of electrons having a velocity of $$ 6.00 \times
-10^{7} \text{m/s} $$ enters a $$ 5.00 \times 10^{-3} \text{T} $$ magnetic field.
+$${q}_{e}/{m}_{e} $$ , a beam of electrons having a velocity of $$ 6.00 \times 10^{7} \text{m/s} $$ enters a $$ 5.00 \times 10^{-3} \text{T} $$ magnetic field.
 The beam moves perpendicular to the field in a path having a 6.80-cm radius of
 curvature. Determine $${q}_{e}/{m}_{e} $$ from these observations, and compare
 the result with the known value.
@@ -1180,8 +1162,7 @@ Particles called muons exist in cosmic rays and can be created in particle
 accelerators. Muons are very similar to electrons, having the same charge and
 spin, but they have a mass 207 times greater. When muons are captured by an
 atom, they orbit just like an electron but with a smaller radius, since the mass
-in $${a}_{\text{B}}=\frac{ {h}^{2}}{ {4\pi }^{2}{m}_{e} k q_{e}^{2}}= 0.529
-\times 10^{-10} \text{m} $$ is 207 $${m}_{e} $$.
+in $${a}_{\text{B}}=\frac{ {h}^{2}}{ {4\pi }^{2}{m}_{e} k q_{e}^{2}}= 0.529 \times 10^{-10} \text{m} $$ is 207 $${m}_{e} $$.
 
 (a) Calculate the radius of the $$n=1 $$ orbit for a muon in a uranium ion (
 $$Z=92 $$ ).
@@ -1474,8 +1455,7 @@ about this result? (c) Which assumptions are unreasonable or inconsistent?
 A student in a physics laboratory observes a hydrogen spectrum with a
 diffraction grating for the purpose of measuring the wavelengths of the emitted
 radiation. In the spectrum, she observes a yellow line and finds its wavelength
-to be 589 nm. (a) Assuming this is part of the Balmer series, determine $${n}_
-{\text{i}} $$ , the principal quantum number of the initial state. (b) What is
+to be 589 nm. (a) Assuming this is part of the Balmer series, determine $${n}_ {\text{i}} $$ , the principal quantum number of the initial state. (b) What is
 unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
@@ -1576,8 +1556,7 @@ This approach can be extended to other ions like O<sup>7+</sup> ( $$Z=8 $$ ) or 
 Consider the Doppler-shifted hydrogen spectrum received from a rapidly receding
 galaxy. Construct a problem in which you calculate the energies of selected
 spectral lines in the Balmer series and examine whether they can be described
-with a formula like that in the equation $$\frac{1}{\lambda }=R\left(\frac{1}{
-{n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ , but with a
+with a formula like that in the equation $$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right) $$ , but with a
 different constant $$R $$.
 
 </div>
@@ -1660,5 +1639,4 @@ subshell
 : the probability cloud for electrons that has a single angular momentum quantum
 number $$l $$
 
-</div>
-$$
+</div>

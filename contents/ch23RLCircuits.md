@@ -42,10 +42,8 @@ constant** $$\tau $$ for an _RL_ circuit, given by
  $$\tau =\frac{L}{R}\text{,} $$
 </div>
 
-where $$\tau $$ has units of seconds, since $$1 \text{H}=1
-\text{Ω}\text{·}\text{s} $$ . In the first period of time $$\tau $$ , the
-current rises from zero to $$ 0.632{I}_{0} $$ , since $$I={I}_{0}\left(
-1-{e}^{-1}\right)={I}_{0}\left(1 -0.368\right)= 0.632{I}_{0} $$ . The current
+where $$\tau $$ has units of seconds, since $$1 \text{H}=1 \text{Ω}\text{·}\text{s} $$ . In the first period of time $$\tau $$ , the
+current rises from zero to $$ 0.632{I}_{0} $$ , since $$I={I}_{0}\left( 1-{e}^{-1}\right)={I}_{0}\left(1 -0.368\right)= 0.632{I}_{0} $$ . The current
 will go 0.632 of the remainder in the next time $$\tau $$ . A well-known
 property of the exponential is that the final value is never exactly reached,
 but 0.632 of the remainder to that value is achieved in every characteristic
@@ -65,8 +63,7 @@ When the switch in [[Figure 1]](#Figure1)(a) is moved to position 2 and cuts the
 battery out of the circuit, the current drops because of energy dissipation by
 the resistor. But this is also not instantaneous, since the inductor opposes the
 decrease in current by inducing an emf in the same direction as the battery that
-drove the current. Furthermore, there is a certain amount of energy, $$\left(1
-\text{/2}\right){\text{LI}}_{0}^{2} $$ , stored in the inductor, and it is
+drove the current. Furthermore, there is a certain amount of energy, $$\left(1 \text{/2}\right){\text{LI}}_{0}^{2} $$ , stored in the inductor, and it is
 dissipated at a finite rate. As the current approaches zero, the rate of
 decrease slows, since the energy dissipation rate is $${I}^{2}R $$ . Once again
 the behavior is exponential, and $$I $$ is found to be
@@ -152,8 +149,7 @@ we explore how an _RL_ circuit behaves when a sinusoidal AC voltage is applied.
 
 - The characteristic time constant $$\tau $$ is $$\tau =\frac{L}{R} $$ , where
   $$L $$ is the inductance and $$R $$ is the resistance.
-- In the first time constant $$\tau $$ , the current rises from zero to $$
-  0.632{I}_{0} $$ , and 0.632 of the remainder in every subsequent time interval
+- In the first time constant $$\tau $$ , the current rises from zero to $$ 0.632{I}_{0} $$ , and 0.632 of the remainder in every subsequent time interval
   $$\tau $$ .
 
 - When the inductor is shorted through a resistor, current decreases as
@@ -471,4 +467,4 @@ characteristic time constant
 $$\tau =\frac{L}{R} $$ , where $$L $$ is the inductance and $$R $$ is the
 resistance
 
-</div>
+</div>

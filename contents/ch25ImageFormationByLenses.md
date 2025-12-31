@@ -142,9 +142,7 @@ point of a diverging lens. The distance from the center of the lens to the focal
 point is again called the focal length $$f $$ of the lens. Note that the focal
 length and power of a diverging lens are defined to be negative. For example, if
 the distance to $$F $$ in [[Figure 3]](#Figure3) is 5.00 cm, then the focal
-length is $$f= -5.00 \text{cm} $$ and the power of the lens is $$P=-20 \text{D}
-
-$$
+length is $$f= -5.00 \text{cm} $$ and the power of the lens is $$P=-20 \text{D} $$
 . An expanded view of the path of one ray through the lens is shown in the
 figure to illustrate how the shape of the lens, together with the law of
 refraction, causes the ray to follow its particular path and be diverged.
@@ -293,8 +291,7 @@ The image in which light rays from one point on the object actually cross at the
 ![Figure (a) shows incident rays coming from an object (a girl) and falling on a convex lens in a camera. The rays after refraction produce an inverted, real, and diminished image on the film of the camera. Figure (b) shows the same object in front of a human eye. The rays from the object fall on the convex lens and on refraction produce a real, inverted, and diminished image on the retina of the eyeball.](../resources/Figure_25_06_08.jpg "Real images can be projected. (a) A real image of the person is projected onto film. (b) The converging nature of the multiple surfaces that make up the eye result in the projection of a real image on the retina.")
 {: #Figure8}
 
-Several important distances appear in [[Figure 7]](#Figure7). We define $${d}_
-{\text{o}} $$ to be the object distance, the distance of an object from the
+Several important distances appear in [[Figure 7]](#Figure7). We define $${d}_ {\text{o}} $$ to be the object distance, the distance of an object from the
 center of a lens. <strong class="term" >Image
 distance </strong> $${d}_{\text{i}} $$ is defined to be the distance of the
 image from the center of a lens. The height of the object and height of the
@@ -318,8 +315,7 @@ and
  $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}= m. $$
 </div>
 
-We define the ratio of image height to object height ( $${h}_{\text{i}}/{h}_
-{\text{o}} $$ )
+We define the ratio of image height to object height ( $${h}_{\text{i}}/{h}_ {\text{o}} $$ )
 to be the **magnification**  $$m $$ .
 (The minus sign in the equation above will be discussed shortly.) The thin lens
 equations are broadly applicable to all situations involving thin lenses (and
@@ -443,8 +439,7 @@ magnifier even farther away produces an inverted image as seen
 in [[Figure 10]](#Figure10)(a). The distance at which the image blurs, and
 beyond which it inverts, is the focal length of the lens. To use a convex lens
 as a magnifier, the object must be closer to the converging lens than its focal
-length. This is called a *case 2* image. A case 2 image is formed when $${d}_
-{\text{o}}<f $$ and $$f $$ is positive.
+length. This is called a *case 2* image. A case 2 image is formed when $${d}_ {\text{o}}<f $$ and $$f $$ is positive.
 
 ![Figure a shows a lens forming an inverted image of a person&#x2019;s face when it is held far away from his face. Figure b shows a magnified image of the person&#x2019;s eye when viewed through a magnifying glass when the lens is placed close to the eye of the person.](../resources/Figure_25_06_10.jpg "(a) When a converging lens is held farther away from the face than the lens&#x2019;s focal length, an inverted image is formed. This is a case 1 image. Note that the image is in focus but the face is not, because the image is much closer to the camera taking this photograph than the face. (credit: DaMongMan, Flickr) (b) A magnified image of a face is produced by placing it closer to the converging lens than its focal length. This is a case 2 image. (credit: Casey Fleser, Flickr)")
 {: #Figure10}
@@ -493,11 +488,9 @@ get numerical solutions in this example.
 
 **Solution**
 
-To find the magnification $$m $$ , we try to use magnification equation, $$m=-d_
-{\text{i}}/{d}_{\text{o}} $$ . We do not have a value for $${d}_{\text{i}} $$ ,
+To find the magnification $$m $$ , we try to use magnification equation, $$m=-d_ {\text{i}}/{d}_{\text{o}} $$ . We do not have a value for $${d}_{\text{i}} $$ ,
 so that we must first find the location of the image using lens equation. (The
-procedure is the same as followed in the preceding example, where $${d}_
-{\text{o}} $$ and $$f $$ were known.) Rearranging the magnification equation to
+procedure is the same as followed in the preceding example, where $${d}_ {\text{o}} $$ and $$f $$ were known.) Rearranging the magnification equation to
 isolate $${d}_{\text{i}} $$ gives
 
 <div class="equation" >
@@ -571,8 +564,7 @@ same, but the results are different in important ways.
 
 **Solution**
 
-To find the magnification $$m $$ , we must first find the image distance $${d}_
-{\text{i}} $$ using thin lens equation
+To find the magnification $$m $$ , we must first find the image distance $${d}_ {\text{i}} $$ using thin lens equation
 
 <div class="equation" >
  $$\frac{1}{ {d}_{\text{i}}}=\frac{1}{f}-\frac{1}{ {d}_{\text{o}}}\text{,} $$
@@ -752,10 +744,8 @@ How does a lens form an image? See how light rays are refracted by a lens. Watch
 * The image in which light rays from one point on the object actually cross at
   the location of the image and can be projected onto a screen, a piece of film,
   or the retina of an eye is called a real image.
-* Thin lens equations are $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_
-  {\text{i}}}=\frac{1}{f} $$ and $$\frac{ {h}_{\text{i}}}{ {h}_
+* Thin lens equations are $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_ {\text{i}}}=\frac{1}{f} $$ and $$\frac{ {h}_{\text{i}}}{ {h}_
   {\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m
-$$
 
 (magnification).
 
@@ -1358,4 +1348,4 @@ real image
 virtual image
 : image that cannot be projected
 
-</div>
+</div>

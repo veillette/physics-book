@@ -116,8 +116,7 @@ solving for force and end up with units of m/s, then you have made a mistake.
      draw them on the free-body diagram.
   3. Write Newton’s second law in the horizontal and vertical directions and
      add the forces acting on the object. If the object does not accelerate in
-     a particular direction (for example, the $$ x $$ -direction) then $$ F_
-     {\text{net}x}=0 $$. If the object does accelerate in that direction, $$
+     a particular direction (for example, the $$ x $$ -direction) then $$ F_ {\text{net}x}=0 $$. If the object does accelerate in that direction, $$
      F_{\text{net}x}=ma $$.
   4. Check your answer. Is the answer reasonable? Are the units correct?
 
@@ -271,13 +270,10 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
    {: #Figure3 height="150"}
 
 2. Given :
-   $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right)
-   =39.2\mss $$; $$ m=70.0 \kg $$, Find: $$ F $$.
+   $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right) =39.2\mss $$; $$ m=70.0 \kg $$, Find: $$ F $$.
 
 3. $$ \sum F = +F - w = m a $$, so that $$ F=ma +w=ma +mg =m\left(a+g\right) $$.
-   $$ F=\left(70.0 \kg \right)
-   \left[ \left(39.2 \mss \right) +\left(9.80 \mss \right) \right] =3.43\times
-   10^{3} \N $$. The force exerted by the high-jumper is actually down on the
+   $$ F=\left(70.0 \kg \right) \left[ \left(39.2 \mss \right) +\left(9.80 \mss \right) \right] =3.43\times 10^{3} \N $$. The force exerted by the high-jumper is actually down on the
    ground, but $$ F $$ is up from the ground and makes him jump.
 
 4. This result is reasonable, since it is quite possible for a person to exert a
@@ -726,7 +722,6 @@ and $$ \vb{F}_{2} $$ as shown from above
 in [Figure below](#Figure5). Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
 unspecified; it will be in the opposite direction of the sum of
-$$
 
 \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
 
@@ -923,16 +918,12 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
    diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg)
    {: #Figure7}
 
-3. The tension is given as $$ T=25.0 \N $$. Find $$ F_
-   {\text{app}}$$. Using Newton's laws gives:
+3. The tension is given as $$ T=25.0 \N $$. Find $$ F_ {\text{app}}$$. Using Newton's laws gives:
    $$ \sum F\_{y}=0, $$ so that applied force is due to the _y_-components of the
    two tensions:
 
-   $$
-   F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right)
-   \sin\left(15^\circ\right)=12.9 \N $$ The *x*-components of the tension
+   $$ F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right) \sin\left(15^\circ\right)=12.9 \N $$ The *x*-components of the tension
    cancel. $$ \sum F_{x}=0 $$.
-   $$
 
 4. This seems reasonable, since the applied tensions should be greater than the
    force applied to the tooth.
@@ -1198,9 +1189,8 @@ children.
 
 __Unreasonable Results__
 
-(a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss
+(a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss $$
 
-$$
 is produced.
 (b) What is unreasonable about the result?
 (c) Which premise is unreasonable, and why is it unreasonable?
@@ -1261,8 +1251,7 @@ Negative friction is physically impossible—friction always opposes relative mo
 
 __Unreasonable Results__
 
-(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50
-\times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00
+(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00
 \times 10^{6}\N $$ ? Do not neglect gravity.
 (b) What is unreasonable about the result? (This result has been unintentionally
 achieved by several real rockets.)
@@ -1330,5 +1319,4 @@ This problem illustrates a real failure mode that has occurred with actual rocke
 (c) The thrust of 2.00 × 10⁶ N is unreasonably small. It's only 14% of the rocket's weight, far below the minimum needed for liftoff (1.47 × 10⁷ N).
 
 </div>
-</div>
-$$
+</div>

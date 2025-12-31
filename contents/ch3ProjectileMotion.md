@@ -35,14 +35,12 @@ is the most sensible, because acceleration due to gravity is vertical—thus,
 there will be no acceleration along the horizontal axis when air resistance is
 negligible.) As is customary, we call the horizontal axis the **x**-axis and the
 vertical axis the **y**-axis. [Figure 1](#Figure1) illustrates the notation for
-displacement, where $$ \vb{s} $$ is defined to be the total displacement and $$
-\vb{x} $$ and $$ \vb{y} $$ are its components along the horizontal and vertical
+displacement, where $$ \vb{s} $$ is defined to be the total displacement and $$ \vb{x} $$ and $$ \vb{y} $$ are its components along the horizontal and vertical
 axes, respectively. The magnitudes of these vectors are $$\mag{s}$$,
 $$\mag{x}$$, and $$\mag{y}$$.
 (Note that in the last section we used the notation $$ \vb{A} $$ to represent a
 vector with components $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$. If we continued
-this format, we would call displacement $$ \vb{s} $$ with components $$ \vb{s}_
-{x} $$ and $$ \vb{s}_{y} $$. However, to simplify the notation, we will simply
+this format, we would call displacement $$ \vb{s} $$ with components $$ \vb{s}_ {x} $$ and $$ \vb{s}_{y} $$. However, to simplify the notation, we will simply
 represent the component vectors as $$ s_x $$ and $$ s_y $$.)
 
 Of course, to describe motion we must deal with velocity and acceleration, as
@@ -84,11 +82,8 @@ Given these assumptions, the following steps are then used to analyze projectile
 motion:
 
 **_Step 1._** _Resolve or break the motion into horizontal and vertical
-components along the x- and y-axes._ These axes are perpendicular, so $$ A_
-{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The magnitude of
-the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$
-y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_
-{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
+components along the x- and y-axes._ These axes are perpendicular, so $$ A_ {x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The magnitude of
+the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$ y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_ {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
 magnitude of the velocity and $$ \theta $$ is its direction, as shown
 in [Figure 2](#Figure2). Initial values are denoted with a subscript 0, as usual.
 
@@ -133,12 +128,10 @@ and one vertical._ Note that the only common variable between the motions is
 time $$ t $$. The problem solving procedures here are the same as for
 one-dimensional **kinematics** and are illustrated in the solved examples below.
 
-**_Step 4._** _Recombine the two motions to find the total displacement_ $$
-\vb{s} $$ _and velocity_ $$ \vb{v} $$. Because the *x*- and *y*-motions are
+**_Step 4._** _Recombine the two motions to find the total displacement_ $$ \vb{s} $$ _and velocity_ $$ \vb{v} $$. Because the *x*- and *y*-motions are
 perpendicular, we determine these vectors by using the techniques outlined in
 the [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
-and employing $$ A=\sqrt{ A_x^2+ A_y^2} $$ and $$ \theta ={\tan}^{-1}\left(
-\frac{A_y}{A_x}\right) $$ in the following form, where $$ \theta $$ is the
+and employing $$ A=\sqrt{ A_x^2+ A_y^2} $$ and $$ \theta ={\tan}^{-1}\left( \frac{A_y}{A_x}\right) $$ in the following form, where $$ \theta $$ is the
 direction of the displacement $$ \vb{s} $$ and $$\theta_{v} $$ is the direction
 of the velocity $$ \vb{v} $$.
 
@@ -188,8 +181,7 @@ $$ x_{0} $$ and $$ y_{0} $$ to be zero and solve for the desired quantities.
 **Solution for (a)**
 
 By “height” we mean the altitude or vertical position $$ y $$ above the starting
-point. The highest point in any trajectory, called the apex, is reached when $$
-v_{y}=0 $$. Since we know the initial and final velocities as well as the
+point. The highest point in any trajectory, called the apex, is reached when $$ v_{y}=0 $$. Since we know the initial and final velocities as well as the
 initial position, we use the following equation to find $$ y $$:
 
 <div class="equation">
@@ -207,8 +199,7 @@ Solving for $$ y $$ gives
 <div class="equation">
  $$ y=\frac{ v_{0y}^{2}}{2g}. $$
 </div>
-Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-direction. It is given by $$
-v_{0y}=v_{0} \sin{\theta} $$, where $$ v_{0y} $$ is the initial velocity of
+Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-direction. It is given by $$ v_{0y}=v_{0} \sin{\theta} $$, where $$ v_{0y} $$ is the initial velocity of
 70.0 m/s, and $$ \theta_{0}=75.0^\circ $$ is the initial angle. Thus,
 
 <div class="equation">
@@ -242,8 +233,7 @@ larger than that given to reach the same height.
 **Solution for (b)**
 
 As in many physics problems, there is more than one way to solve for the time to
-the highest point. In this case, the easiest method is to use $$ y=y_
-{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$. Because $$ y_{0} $$ is zero, this
+the highest point. In this case, the easiest method is to use $$ y=y_ {0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$. Because $$ y_{0} $$ is zero, this
 equation reduces to simply
 
 <div class="equation">
@@ -262,8 +252,7 @@ t&=& 6.90 \s .
 
 This time is also reasonable for large fireworks. When you are able to see the
 launch of fireworks, you will notice several seconds pass before the shell
-explodes. (Another way of finding the time is by using $$ y=y_{0}+v_
-{0y}t-\frac{1}{2}g t^{2} $$, and solving the quadratic equation for $$ t $$.)
+explodes. (Another way of finding the time is by using $$ y=y_{0}+v_ {0y}t-\frac{1}{2}g t^{2} $$, and solving the quadratic equation for $$ t $$.)
 
 **Solution for (c)**
 
@@ -275,8 +264,7 @@ is equal to zero:
 <div class="equation">
  $$ x=v_{x}t, $$
 </div>
-where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_
-{0}\cos{\theta_{0}}$$. Now,
+where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_ {0}\cos{\theta_{0}}$$. Now,
 
 <div class="equation">
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(70.0 \ms \right)\left(\cos {75.0^\circ }\right)=18.1 m/s. $$
@@ -296,9 +284,8 @@ has a major effect, and many fragments will land directly below.
 
 </div>
 
-In solving part (a) of the preceding example, the expression we found for $$ y
+In solving part (a) of the preceding example, the expression we found for $$ y $$
 
-$$
 is valid for any projectile motion where air resistance is negligible. Call
 the maximum height $$ y=h $$; then,
 
@@ -317,8 +304,7 @@ It is important to set up a coordinate system when analyzing projectile motion.
 One part of defining the coordinate system is to define an origin for the $$ x $$
 and $$ y $$ positions. Often, it is convenient to choose the initial position of
 the object as the origin such that $$ x_{0}=0 $$ and $$ y_{0}=0 $$. It is also
-important to define the positive and negative directions in the $$ x $$ and $$ y
-$$ directions. Typically, we define the positive vertical direction as upwards,
+important to define the positive and negative directions in the $$ x $$ and $$ y $$ directions. Typically, we define the positive vertical direction as upwards,
 and the positive horizontal direction is usually the direction of the object’s
 motion. When this is the case, the vertical acceleration, $$ g $$, takes a
 negative value (since it is directed downwards towards the Earth). However, it
@@ -489,9 +475,7 @@ in [Figure 5](#Figure5)(a). The initial angle $$ \theta_{0} $$ also has a dramat
 effect on the range, as illustrated in [Figure 5](#Figure5)(b). For a fixed initial
 speed, such as might be produced by a cannon, the maximum range is obtained with
 
-$$
-\theta_
-{0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
+$$ \theta_ {0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
 air resistance is considered, the maximum angle is approximately $$ 38^\circ $$.
 Interestingly, for every initial angle except $$ 45^\circ $$, there are two
 angles that give the same range—the sum of those angles is $$ 90^\circ $$. The
@@ -509,8 +493,7 @@ relative to the horizontal. The proof of this equation is left as an
 end-of-chapter problem (hints are given), but it does fit the major features of
 projectile range as described.
 
-When we speak of the range of a projectile on level ground, we assume that $$ R
-$$ is very small compared with the circumference of the Earth. If, however, the
+When we speak of the range of a projectile on level ground, we assume that $$ R $$ is very small compared with the circumference of the Earth. If, however, the
 range is large, the Earth curves away below the projectile and acceleration of
 gravity changes direction along the path. The range is larger than predicted by
 the range equation given above because the projectile has farther to fall than
@@ -556,8 +539,7 @@ Projectile Motion
     1. Determine a coordinate system. Then, resolve the position and/or velocity
        of the object in the horizontal and vertical components. The components
        of position $$ \vb{s} $$ are given by the quantities $$ x $$ and $$ y $$,
-       and the components of the velocity $$ \vb{v} $$ are given by $$ v_
-       {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta} $$, where $$ v $$ is the
+       and the components of the velocity $$ \vb{v} $$ are given by $$ v_ {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta} $$, where $$ v $$ is the
        magnitude of the velocity and $$ \theta $$ is its direction.
     2. Analyze the motion of the projectile in the horizontal direction using
        the following equations:
@@ -2725,8 +2707,7 @@ In real football games, wind can have a much larger effect, especially on high, 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Prove that the trajectory of a projectile is parabolic, having the form $$
-y=a x +b x^{2} $$. To obtain this expression, solve the equation
+Prove that the trajectory of a projectile is parabolic, having the form $$ y=a x +b x^{2} $$. To obtain this expression, solve the equation
 $$ x=v_{0x}t $$ for $$ t $$
 and substitute it into the expression for $$ y=v_{0y}t-\left(1/2\right)g t^{2} $$
 (These equations describe the $$ x $$ and $$ y $$
@@ -3057,5 +3038,4 @@ range
 trajectory
 : the path of a projectile through the air
 
-</div>
-$$
+</div>

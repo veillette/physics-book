@@ -127,9 +127,7 @@ seems reasonable based on experimenting with polarizing films. It is interesting
 that, at an angle of $$45 ^\circ $$ , the intensity is reduced to $$50 \% $$
 of its original value (as you will show in this section’s Problems &amp;
 Exercises). Note that $$ 71.6º $$ is $$ 18.4º $$ from reducing the intensity to
-zero, and that at an angle of $$ 18.4º $$ the intensity is reduced to $$ 90.0%
-
-$$
+zero, and that at an angle of $$ 18.4º $$ the intensity is reduced to $$ 90.0% $$
 of its original value (as you will also show in Problems &amp; Exercises),
 giving evidence of symmetry.
 
@@ -214,8 +212,7 @@ Calculating Polarization by Reflection
 
 All we need to solve these problems are the indices of refraction. Air has
 $${n}_{1}=1.00, $$ water has $${n}_{2}=1.333\text{,} $$ and crown glass has
-$$n^{\prime}_{2}=1.520 $$ . The equation $$\tan {\theta }_{\text{b}}=\frac{ {n}_
-{2}}{ {n}_{1}} $$ can be directly applied to find $${\theta }_{\text{b}} $$ in
+$$n^{\prime}_{2}=1.520 $$ . The equation $$\tan {\theta }_{\text{b}}=\frac{ {n}_ {2}}{ {n}_{1}} $$ can be directly applied to find $${\theta }_{\text{b}} $$ in
 each case.
 
 **Solution for (a)**
@@ -391,8 +388,7 @@ to further pursue the numerous properties of materials related to polarization.
   angle of reflection $${\theta }_{\text{b}} $$ , known as Brewster’s angle,
   given by a statement known as Brewster’s law:
   $$\tan {\theta }_{\text{b}}=\frac{ {n}_{2}}{ {n}_{1}} $$ , where $${n}_{1} $$
-  is the medium in which the incident and reflected light travel and $${n}_{2}
-  $$ is the index of refraction of the medium that forms the interface that
+  is the medium in which the incident and reflected light travel and $${n}_{2} $$ is the index of refraction of the medium that forms the interface that
   reflects the light.
 * Polarization can also be produced by scattering.
 * There are a number of types of optically active substances that rotate the
@@ -1031,8 +1027,7 @@ At only 15° misalignment, the second pair blocks relatively little additional l
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-(a) On a day when the intensity of sunlight is $$ 1.00 \text{kW}/{\text{m}}^{2}
-$$ , a circular lens 0.200 m in diameter focuses light onto water in a black
+(a) On a day when the intensity of sunlight is $$ 1.00 \text{kW}/{\text{m}}^{2} $$ , a circular lens 0.200 m in diameter focuses light onto water in a black
 beaker. Two polarizing sheets of plastic are placed in front of the lens with
 their axes at an angle of $$ 20.0º. $$ Assuming the sunlight is unpolarized and
 the polarizers are $$100 \% $$ efficient, what is the initial rate of heating of
@@ -1100,5 +1095,4 @@ unpolarized
 vertically polarized
 : the oscillations are in a vertical plane
 
-</div>
-$$
+</div>

@@ -103,8 +103,7 @@ Entering the given photon wavelength yields
 </div>
 **Solution for (b)**
 
-Since this momentum is indeed small, we will use the classical expression $$p=mv
-$$ to find the velocity of an electron with this momentum. Solving for $$v $$
+Since this momentum is indeed small, we will use the classical expression $$p=mv $$ to find the velocity of an electron with this momentum. Solving for $$v $$
 and using the known value for the mass of an electron gives
 
 <div class="equation" >
@@ -160,12 +159,8 @@ from place to place in the solar system. (See [[Figure 3]](#Figure3).)
 
 There is a relationship between photon momentum $$p $$ and photon energy $$E $$
 that is consistent with the relation given previously for the relativistic total
-energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^2 \right)}^{2}
-$$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={
-\left( pc\right)}^{2}+{\left( mc^2 \right)}^{2} $$ becomes
-
-<div class="equation" >
- $$E=\text{pc}, $$
+energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^2 \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={
+\left( pc\right)}^{2}+{\left( mc^2 \right)}^{2} $$ becomes <div class="equation" > $$E=\text{pc}, $$
 </div>
 
 or
@@ -218,8 +213,7 @@ get
 This value for momentum is the same as found before (note that unrounded values
 are used in all calculations to avoid even small rounding errors), an expected
 verification of the relationship $$p=E/c $$ . This also means the relationship
-between energy, momentum, and mass given by $${E}^{2}={ \left(pc \right)
-}^{2}+{\left(mc^2 \right)}^{2} $$ applies to both matter and photons. Once
+between energy, momentum, and mass given by $${E}^{2}={ \left(pc \right) }^{2}+{\left(mc^2 \right)}^{2} $$ applies to both matter and photons. Once
 again, note that $$p $$ is not zero, even when $$m $$ is.
 
 </div>
@@ -238,8 +232,7 @@ Note that the forms of the constants  $$h= 4.14  \times 10^{-15} \text{eV}\cdot 
 
 - Photons have momentum, given by $$p=\frac{h}{\lambda } $$ , where $$\lambda $$
   is the photon wavelength.
-- Photon energy and momentum are related by $$p=\frac{E}{c} $$ , where $$E=
-  hf=hc/\lambda $$ for a photon.
+- Photon energy and momentum are related by $$p=\frac{E}{c} $$ , where $$E= hf=hc/\lambda $$ for a photon.
 
 ### Conceptual Questions
 
@@ -438,8 +431,7 @@ This is a high-energy gamma-ray photon with energy of 15.0 MeV and wavelength of
 (a)  $$ 2.65 \times 10^{-28}  \text{kg}\cdot \text{m/s} $$
 (b) 291 m/s
 
-(c) electron $$ 3.86 \times 10^{-26} \text{J} $$ , photon $$ 7.96 \times
-10^{-20} \text{J} $$ , ratio $$ 2.06 \times 10^{6} $$
+(c) electron $$ 3.86 \times 10^{-26} \text{J} $$ , photon $$ 7.96 \times 10^{-20} \text{J} $$ , ratio $$ 2.06 \times 10^{6} $$
 
 </div>
 </div>
@@ -619,8 +611,7 @@ space sail, and the mass of the system being accelerated.
 
 A car feels a small force due to the light it sends out from its headlights,
 equal to the momentum of the light divided by the time in which it is emitted. (
-a) Calculate the power of each headlight, if they exert a total force of $$ 2.00
-\times 10^{-2} \text{N} $$ backward on the car. (b) What is unreasonable about
+a) Calculate the power of each headlight, if they exert a total force of $$ 2.00 \times 10^{-2} \text{N} $$ backward on the car. (b) What is unreasonable about
 this result? (c) Which assumptions are unreasonable or inconsistent?
 
 </div>
@@ -638,10 +629,9 @@ this result? (c) Which assumptions are unreasonable or inconsistent?
 {: class="glossary-title"}
 
 photon momentum
-: the amount of momentum a photon has, calculated by $$p=\frac{h}{\lambda
-}=\frac{E}{c} $$
+: the amount of momentum a photon has, calculated by $$p=\frac{h}{\lambda }=\frac{E}{c} $$
 
 Compton effect
 : the phenomenon whereby X-rays scattered from materials have decreased energy
 
-</div>
+</div>

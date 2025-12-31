@@ -27,8 +27,7 @@ classic example of this is the **short circuit**, a low-resistance path between
 terminals of a voltage source. An example of a short circuit is shown
 in [[Figure 1]](#Figure1). Insulation on wires leading to an appliance has worn
 through, allowing the two wires to come into contact. Such an undesired contact
-with a high voltage is called a _short_. Since the resistance of the short, $$r
-$$ , is very small, the power dissipated in the short, $$P={V}^{2}/r $$ , is
+with a high voltage is called a _short_. Since the resistance of the short, $$r $$ , is very small, the power dissipated in the short, $$P={V}^{2}/r $$ , is
 very large. For example, if $$V $$ is 120 V and $$r $$ is $$ 0.100 \Omega $$ ,
 then the power is 144 kW, _much_ greater than that used by a typical household
 appliance. Thermal energy delivered at this rate will very quickly raise the
@@ -48,15 +47,11 @@ power production in a short.
 
 Another serious, but less dramatic, thermal hazard occurs when wires supplying
 power to a user are overloaded with too great a current. As discussed in the
-previous section, the power dissipated in the supply wires is $$P={I}^{2}{R}_
-{\text{w}} $$ , where $${R}_{\text{w}} $$ is the resistance of the wires and $$I
-$$ the current flowing through them. If either $$I $$ or $${R}_{\text{w}} $$ is
-too large, the wires overheat. For example, a worn appliance cord (with some of
-its braided wires broken) may have $${R}_{\text{w}}= 2.00 \Omega $$ rather than
+previous section, the power dissipated in the supply wires is $$P={I}^{2}{R}_ {\text{w}} $$ , where $${R}_{\text{w}} $$ is the resistance of the wires and $$I
+$$ the current flowing through them. If either $$I $$ or $${R}_{\text{w}} $$ is too large, the wires overheat. For example, a worn appliance cord (with some of its braided wires broken) may have $${R}_{\text{w}}= 2.00 \Omega $$ rather than
 the $$ 0.100 \Omega $$ it should be. If 10.0 A of current passes through the
 cord, then $$P={I}^{2}{R}_{\text{w}}=200 \text{W} $$ is dissipated in the
-cord—much more than is safe. Similarly, if a wire with a $$ 0.100 \text{-}
-\Omega $$ resistance is meant to carry a few amps, but is instead carrying 100
+cord—much more than is safe. Similarly, if a wire with a $$ 0.100 \text{-} \Omega $$ resistance is meant to carry a few amps, but is instead carrying 100
 A, it will severely overheat. The power dissipated in the wire will in that case
 be $$P=1000 \text{W} $$ . Fuses and circuit breakers are used to limit excessive
 currents. (See [[Figure 2]](#Figure2) and [[Figure 3]](#Figure3).) Each device
@@ -183,17 +178,11 @@ current passed through the victim to reduce the likelihood of burns.
 
 Current is the major factor determining shock severity (given that other
 conditions such as path, duration, and frequency are fixed, such as in the table
-and preceding discussion). A larger voltage is more hazardous, but since $$I=V/R
+and preceding discussion). A larger voltage is more hazardous, but since $$I=V/R $$
 
-$$
 , the severity of the shock depends on the combination of voltage and
-resistance. For example, a person with dry skin has a resistance of about $$200
-\text{k}\Omega $$ . If he comes into contact with 120-V AC, a current $$I=\left(
-120 \text{V}\right)/\left(200 \text{k}\Omega \right)= 0.6 \text{mA} $$ passes
-harmlessly through him. The same person soaking wet may have a resistance of
-$$
-
-10.0 \text{k}\Omega $$ and the same 120 V will produce a current of 12 mA—above
+resistance. For example, a person with dry skin has a resistance of about $$200 \text{k}\Omega $$ . If he comes into contact with 120-V AC, a current $$I=\left(
+120 \text{V}\right)/\left(200 \text{k}\Omega \right)= 0.6 \text{mA} $$ passes harmlessly through him. The same person soaking wet may have a resistance of 10.0 \text{k}\Omega $$ and the same 120 V will produce a current of 12 mA—above
 the “can’t let go” threshold and potentially dangerous.
 
 Most of the body’s resistance is in its dry skin. When wet, salts go into ion
@@ -222,9 +211,8 @@ graph that illustrates the effects of frequency on a shock. The curves show the
 minimum current for two different effects, as a function of frequency. The lower
 the current needed, the more sensitive the body is at that frequency.
 Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz
-frequencies in common use. The body is slightly less sensitive for DC ( $$f=0
+frequencies in common use. The body is slightly less sensitive for DC ( $$f=0 $$
 
-$$
 ), mildly confirming Edison’s claims that AC presents a greater hazard. At
 higher and higher frequencies, the body becomes progressively less sensitive to
 any effects that involve nerves. This is related to the maximum rates at which
@@ -666,8 +654,7 @@ The temperature rise of only 0.018°C is negligible and explains why defibrillat
 
 A short circuit in a 120-V appliance cord has a $$ 0.500\text{-}\Omega $$
 resistance. Calculate the temperature rise of the 2.00 g of surrounding
-materials, assuming their specific heat capacity is $$0.200 \text{cal/g}\cdot
-\text{ºC} $$ and that it takes 0.0500 s for a circuit breaker to interrupt the
+materials, assuming their specific heat capacity is $$0.200 \text{cal/g}\cdot \text{ºC} $$ and that it takes 0.0500 s for a circuit breaker to interrupt the
 current. Is this likely to be damaging?
 
 </div>
@@ -772,5 +759,4 @@ microshock sensitive
 medical procedure, rendering the person vulnerable to electrical shock at
 currents about 1/1000 the normally required level
 
-</div>
-$$
+</div>

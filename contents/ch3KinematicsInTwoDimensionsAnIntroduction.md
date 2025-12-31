@@ -40,8 +40,7 @@ The relationship is given by: ( a^2+b^2=c^2 ). This can be rewritten, solving fo
 {: #Figure3}
 
 The hypotenuse of the triangle is the straight-line path, and so in this case
-its length in units of city blocks is $$ \sqrt{\left(9 \text{ blocks} \right)
-^{2} + \left(5 \text{ blocks}\right)^{2} } = 10.3 \text{blocks} $$, considerably
+its length in units of city blocks is $$ \sqrt{\left(9 \text{ blocks} \right) ^{2} + \left(5 \text{ blocks}\right)^{2} } = 10.3 \text{blocks} $$, considerably
 shorter than the 14 blocks you walked. (Note that we are using three significant
 figures in the answer. Although it appears that “9” and “5” have only one
 significant digit, they are discrete numbers. In this case “9 blocks” is the
@@ -162,4 +161,4 @@ vector
 : a quantity that has both magnitude and direction; an arrow used to represent
 quantities with both magnitude and direction
 
-</div>
+</div>

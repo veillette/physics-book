@@ -65,12 +65,9 @@ interfering destructively as shown in [[Figure 4]](#Figure4)(a). If the paths
 differ by a whole wavelength, then the waves arrive in phase (crest to crest) at
 the screen, interfering constructively as shown in [[Figure 4]](#Figure4)(b).
 More generally, if the paths taken by the two waves differ by any half-integral
-number of wavelengths \[ $$\left(1/2\right)\lambda $$ , $$\left(3/2\right)
-\lambda $$ , $$\left(5/2\right)\lambda $$ , etc.\], then destructive
+number of wavelengths \[ $$\left(1/2\right)\lambda $$ , $$\left(3/2\right) \lambda $$ , $$\left(5/2\right)\lambda $$ , etc.\], then destructive
 interference occurs. Similarly, if the paths taken by the two waves differ by
-any integral number of wavelengths ( $$\lambda $$ , $$2\lambda $$ , $$3\lambda
-
-$$
+any integral number of wavelengths ( $$\lambda $$ , $$2\lambda $$ , $$3\lambda $$
 , etc.), then constructive interference occurs.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -125,8 +122,7 @@ equation
  $$d \sin \theta =m \lambda\text{,} \text{ for } m=0, 1, -1, 2, -2, \dots . $$
 </div>
 
-For fixed $$\lambda $$ and $$m $$ , the smaller $$d $$ is, the larger $$\theta
-$$ must be, since $$\sin \theta =m \lambda/d $$ . This is consistent
+For fixed $$\lambda $$ and $$m $$ , the smaller $$d $$ is, the larger $$\theta $$ must be, since $$\sin \theta =m \lambda/d $$ . This is consistent
 with our contention that wave effects are most noticeable when the object the
 wave encounters (here, slits a distance $$d $$ apart) is small. Small $$d $$
 gives large $$\theta $$ , hence a large effect.
@@ -144,8 +140,7 @@ Suppose you pass light from a He-Ne laser through two slits separated by 0.0100 
 **Strategy**
 
 The third bright line is due to third-order constructive interference, which
-means that $$m=3 $$ . We are given $$d= 0.0100 \text{mm} $$ and $$\theta
-=10.95\text{º} $$ . The wavelength can thus be found using the equation $$d \sin
+means that $$m=3 $$ . We are given $$d= 0.0100 \text{mm} $$ and $$\theta =10.95\text{º} $$ . The wavelength can thus be found using the equation $$d \sin
 \theta =m \lambda $$ for constructive interference.
 
 **Solution**
@@ -183,9 +178,7 @@ Interference patterns do not have an infinite number of lines, since there is a 
 
 **Strategy and Concept**
 
-The equation $$d \sin \theta =m \lambda  \left( \text{ for } m=0, 1, -1, 2, -2,
-\dots \right) $$ describes constructive interference. For fixed values of $$d $$
-and $$\lambda $$ , the larger $$m $$ is, the larger $$\sin \theta $$ is.
+The equation $$d \sin \theta =m \lambda  \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ describes constructive interference. For fixed values of $$d $$ and $$\lambda $$ , the larger $$m $$ is, the larger $$\sin \theta $$ is.
 However, the maximum value that $$\sin \theta $$ can have is 1, for an angle of
 $$90 ^\circ $$ .
 (Larger angles imply that light goes backward and does not reach the screen at
@@ -227,12 +220,10 @@ be observable.
   light.
 * An interference pattern is obtained by the superposition of light from two
   slits.
-* There is constructive interference when $$d\sin \theta =m \lambda
-  \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ , where $$d $$ is the distance
+* There is constructive interference when $$d\sin \theta =m \lambda \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ , where $$d $$ is the distance
   between the slits, $$\theta $$ is the angle relative to the incident
   direction, and $$m $$ is the order of the interference.
-* There is destructive interference when $$d \sin \theta =\left(
-  m+\frac{1}{2}\right)\lambda \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ .
+* There is destructive interference when $$d \sin \theta =\left( m+\frac{1}{2}\right)\lambda \left( \text{ for } m=0, 1, -1, 2, -2, \dots \right) $$ .
 
 ### Conceptual Questions
 
@@ -1045,5 +1036,4 @@ order
 : the integer $$m $$ used in the equations for constructive and destructive
 interference for a double slit
 
-</div>
-$$
+</div>

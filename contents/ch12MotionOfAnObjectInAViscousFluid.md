@@ -31,9 +31,7 @@ flow around the object can be laminar, particularly if the object has a smooth
 shape. The transition to turbulent flow occurs for $$N^{\prime}_{\text{R}} $$
 between 1 and about 10, depending on surface roughness and so on. Depending on
 the surface, there can be a _turbulent wake_ behind the object with some laminar
-flow over its surface. For an $$N^{\prime}_{\text{R}} $$ between 10 and $$10^{6}
-
-$$
+flow over its surface. For an $$N^{\prime}_{\text{R}} $$ between 10 and $$10^{6} $$
 , the flow may be either laminar or turbulent and may oscillate between the
 two. For $$N^{\prime}_{\text{R}} $$ greater than about $$10^{6} $$ , the flow is
 entirely turbulent, even at the surface of the object. (
@@ -73,8 +71,7 @@ One of the consequences of viscosity is a resistance force called **viscous
 drag**  $${F}_{\text{V}} $$ that is exerted on a moving object. This force
 typically depends on the object’s speed (in contrast with simple friction).
 Experiments have shown that for laminar flow (  $$N^{\prime}_{\text{R}} $$ less
-than about one) viscous drag is proportional to speed, whereas for $$N^{\prime}_
-{\text{R}} $$ between about 10 and $$10^{6} $$ , viscous drag is proportional to
+than about one) viscous drag is proportional to speed, whereas for $$N^{\prime}_ {\text{R}} $$ between about 10 and $$10^{6} $$ , viscous drag is proportional to
 speed squared. (This relationship is a strong dependence and is pertinent to
 bicycle racing, where even a small headwind causes significantly increased drag
 on the racer. Cyclists take turns being the leader in the pack for this reason.)
@@ -131,8 +128,7 @@ the terminal speed.
 ### Section Summary
 
 * When an object moves in a fluid, there is a different form of the Reynolds
-  number $$N^{\prime}_{\text{R}}=\frac{\rho vL}{\eta }\text{(object in fluid),}
-  $$ which indicates whether flow is laminar or turbulent.
+  number $$N^{\prime}_{\text{R}}=\frac{\rho vL}{\eta }\text{(object in fluid),} $$ which indicates whether flow is laminar or turbulent.
 * For $$N^{\prime}_{\text{R}} $$ less than about one, flow is laminar.
 * For $$N^{\prime}_{\text{R}} $$ greater than $$10^{6} $$ , flow is entirely
   turbulent.
@@ -250,5 +246,4 @@ terminal speed
 equal to the other forces acting on the object (such as gravity), so that the
 acceleration of the object is zero
 
-</div>
-$$
+</div>

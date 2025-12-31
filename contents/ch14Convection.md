@@ -61,8 +61,7 @@ rate of heat transfer is then $$Q/t $$ , where $$t $$ is the time for air
 turnover. We are given that $$\Delta T $$ is $$ 10.0\text{ºC} $$ , but we must
 still find values for the mass of air and its specific heat before we can
 calculate $$Q $$ . The specific heat of air is a weighted average of the
-specific heats of nitrogen and oxygen, which gives $$c={c}_{\text{p}}\cong
-1000\text{J/kg}\cdot \text{ºC} $$ from [[Table 1]](#Table1) (note that the
+specific heats of nitrogen and oxygen, which gives $$c={c}_{\text{p}}\cong 1000\text{J/kg}\cdot \text{ºC} $$ from [[Table 1]](#Table1) (note that the
 specific heat at constant pressure must be used for this process).
 
 **Solution**
@@ -325,8 +324,7 @@ We divide both sides of the equation by  $${L}_{\text{v}} $$
 **Solution**
 
 (1) Insert the value of the latent heat
-from [[Table 1]](../contents/ch14PhaseChangeAndLatentHeat#Table1), $${L}_
-{\text{v}}=2256\text{kJ/kg}=2256\text{J/g} $$ . This yields
+from [[Table 1]](../contents/ch14PhaseChangeAndLatentHeat#Table1), $${L}_ {\text{v}}=2256\text{kJ/kg}=2256\text{J/g} $$ . This yields
 
 <div class="equation" >
  $$\frac{m}{t}=\frac{120\text{J/s}}{2256\text{J/g}}= 0.0532\text{g/s}= 3.19\text{g/min} \text{.}  $$
@@ -848,8 +846,7 @@ rates. Will this breathing be a major form of heat transfer for this person?
 
 (c) 9.49 W
 
-(d) The total rate of heat loss would be $$29.2 \text{W}+9.49 \text{W}=38.7
-\text{W} $$ . While sleeping, our body consumes 83 W of power, while sitting it
+(d) The total rate of heat loss would be $$29.2 \text{W}+9.49 \text{W}=38.7 \text{W} $$ . While sleeping, our body consumes 83 W of power, while sitting it
 consumes 120 to 210 W. Therefore, the total rate of heat loss from breathing
 will not be a major form of heat loss for this person.
 
@@ -946,4 +943,4 @@ In reality, some heat is also lost through the pot walls and by radiation, so ac
 (b) Approximately **1.28 g** of coffee evaporates per minute.
 
 </div>
-</div>
+</div>

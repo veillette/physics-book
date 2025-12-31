@@ -82,8 +82,7 @@ shown in [Table 1](#Table1).
 {: #Figure3}
 
 If $$ \Delta\theta =2\pi $$ rad, then the CD has made one complete revolution,
-and every point on the CD is back at its original position. Because there are $$
-360^\circ $$ in a circle or one revolution, the relationship between radians and
+and every point on the CD is back at its original position. Because there are $$ 360^\circ $$ in a circle or one revolution, the relationship between radians and
 degrees is thus
 
 <div class="equation">
@@ -105,9 +104,7 @@ the rate of change of an angle. In symbols, this is
  $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
 </div>
 
-where an angular rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t
-
-$$
+where an angular rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$
 . The greater the rotation angle in a given amount of time, the greater the
 angular velocity. The units for angular velocity are radians per second (rad/s).
 
@@ -120,8 +117,7 @@ $$ \Delta t $$, and so it has a linear velocity
  $$ v=\frac{ \Delta s }{\Delta t }. $$
 </div>
 
-From $$ \Delta\theta =\frac{ \Delta s }{r} $$ we see that $$ \Delta s
-=r\Delta\theta $$. Substituting this into the expression for $$ v $$ gives
+From $$ \Delta\theta =\frac{ \Delta s }{r} $$ we see that $$ \Delta s =r\Delta\theta $$. Substituting this into the expression for $$ v $$ gives
 
 <div class="equation">
  $$ v=\frac{r\Delta\theta }{\Delta t }=r \omega . $$
@@ -138,12 +134,10 @@ The first relationship in $$ v=r \omega$$ or $$\omega =\frac{v}{r} $$ states
 that the linear velocity $$ v $$ is proportional to the distance from the center
 of rotation, thus, it is largest for a point on the rim (largest $$ r $$ ), as
 you might expect. We can also call this linear speed $$ v $$ of a point on the
-rim the *tangential speed*. The second relationship in $$ v=r \omega \text{ or
-}\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a moving
+rim the *tangential speed*. The second relationship in $$ v=r \omega \text{ or }\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a moving
 car. Note that the speed of a point on the rim of the tire is the same as the
 speed $$ v $$ of the car. See [Figure 4](#Figure4). So the faster the car moves,
-the faster the tire spins—large $$ v $$ means a large $$ \omega $$, because $$
-v=r \omega $$. Similarly, a larger-radius tire rotating at the same angular
+the faster the tire spins—large $$ v $$ means a large $$ \omega $$, because $$ v=r \omega $$. Similarly, a larger-radius tire rotating at the same angular
 velocity ( $$ \omega $$)
 will produce a greater linear speed ( $$ v $$)
 for the car.
@@ -162,8 +156,7 @@ Calculate the angular velocity of a 0.300 m radius car tire when the car travels
 
 Because the linear speed of the tire rim is the same as the speed of the car, we
 have $$ v=15.0 \ms $$. The radius of the tire is given to be $$ r=0.300 \m $$.
-Knowing $$ v $$ and $$ r $$, we can use the second relationship in $$ v=r
-\omega$$, $$ \omega =\frac{v}{r} $$ to calculate the angular velocity.
+Knowing $$ v $$ and $$ r $$, we can use the second relationship in $$ v=r \omega$$, $$ \omega =\frac{v}{r} $$ to calculate the angular velocity.
 
 **Solution**
 
@@ -232,8 +225,7 @@ Join the ladybug in an exploration of rotational motion. Rotate the merry-go-rou
   </div>
 
 where arc length $$ \Delta s $$ is distance traveled along a circular path and
-$$ r $$ is the radius of curvature of the circular path. The quantity $$
-\Delta\theta $$ is measured in units of radians (rad), for which
+$$ r $$ is the radius of curvature of the circular path. The quantity $$ \Delta\theta $$ is measured in units of radians (rad), for which
 
   <div class="equation">
  $$ 2\pi \text{rad}=360^\circ= 1 \text{ revolution} . $$
@@ -246,8 +238,7 @@ $$ r $$ is the radius of curvature of the circular path. The quantity $$
   </div>
 
 where a rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$. The
-units of angular velocity are radians per second (rad/s). Linear velocity $$ v
-$$ and angular velocity $$ \omega $$ are related by
+units of angular velocity are radians per second (rad/s). Linear velocity $$ v $$ and angular velocity $$ \omega $$ are related by
 
   <div class="equation">
  $$ v=r \omega \text{ or }\omega =\frac{v}{r}. $$
@@ -596,5 +587,4 @@ angular velocity
 : $$ \omega $$, the rate of change of the angle with which an object moves on a
 circular path
 
-</div>
-$$
+</div>

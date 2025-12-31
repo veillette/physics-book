@@ -62,8 +62,7 @@ product of the individual magnifications:
  $$m={m}_{\text{o}}{m}_{\text{e}}, $$
 </div>
 
-where $${m}_{\text{o}} $$ is the magnification of the objective and $${m}_
-{\text{e}} $$ is the magnification of the eyepiece. This equation can be
+where $${m}_{\text{o}} $$ is the magnification of the objective and $${m}_ {\text{e}} $$ is the magnification of the eyepiece. This equation can be
 generalized for any combination of thin lenses and mirrors that obey the thin
 lens equations.
 
@@ -220,9 +219,7 @@ used as given below.
 
 As the $$f $$ -number decreases, the camera is able to gather light from a
 larger angle, giving wide-angle photography. As usual there is a trade-off. A
-greater $$f/\# $$ means less light reaches the image plane. A setting of $$f/16
-
-$$
+greater $$f/\# $$ means less light reaches the image plane. A setting of $$f/16 $$
 usually allows one to take pictures in bright sunlight as the aperture
 diameter is small. In optical fibers, light needs to be focused into the
 fiber. [[Figure 4]](#Figure4) shows the angle used in calculating the
@@ -1401,5 +1398,4 @@ detail in an object being observed. Derived by mathematical formula
 where $$n $$ is the refractive index of the medium between the lens and the
 specimen and $$\alpha =\theta /2 $$
 
-</div>
-$$
+</div>

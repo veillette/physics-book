@@ -84,8 +84,7 @@ the **gray (Gy)**{: class="term"}, which is defined to be
 
 However, the rad is still commonly used. Although the energy per kilogram in 1
 rad is small, it has significant effects since the energy causes ionization. The
-energy needed for a single ionization is a few eV, or less than $$ 10^{-18}
-\text{J} $$ . Thus, 0.01 J of ionizing energy can create a huge number of ion
+energy needed for a single ionization is a few eV, or less than $$ 10^{-18} \text{J} $$ . Thus, 0.01 J of ionizing energy can create a huge number of ion
 pairs and have an effect at the cellular level.
 
 The effects of ionizing radiation may be directly proportional to the dose in
@@ -135,9 +134,8 @@ $$\gamma $$ rays, although both are neutral and have large ranges, because
 neutrons often cause secondary radiation when they are captured. Note that the
 RBEs are 1 for higher-energy $$\beta $$ s, $$\gamma $$ s, and x-rays, three of
 the most common types of radiation. For those types of radiation, the numerical
-values of the dose in rem and rad are identical. For example, 1 rad of $$\gamma
+values of the dose in rem and rad are identical. For example, 1 rad of $$\gamma $$
 
-$$
 radiation is also 1 rem. For that reason, rads are still widely quoted rather
 than rem. [[Table 2]](#Table2) summarizes the units that are used for radiation.
 
@@ -153,8 +151,7 @@ A high level of activity doesn’t mean much if a person is far away from the
 source. The activity $$R $$ of a source depends upon the quantity of material (
 kg) as well as the half-life. A short half-life will produce many more
 disintegrations per second. Recall that $$R=\frac{0.693N}{ {t}_{1/2}} $$ . Also,
-the activity decreases exponentially, which is seen in the equation $$R={R}_
-{0}{e}^{-\lambda t} $$.
+the activity decreases exponentially, which is seen in the equation $$R={R}_ {0}{e}^{-\lambda t} $$.
 
 <table id="Table1" aria-describedby="This is a two column table. The left column is labeled type and energy of radiation. The right column is labeled R B E and gives values corresponding with each type and energy of radiation. A note says that R B E values are approximate and difficult to determine."><caption><span class="title">Relative Biological Effectiveness</span></caption><thead><tr>
             <th data-align="center">
@@ -294,8 +291,7 @@ There is a latency period for the onset of radiation-induced cancer of about 2
 years for leukemia and 15 years for most other forms. The person is at risk for
 at least 30 years after the latency period. Omitting many details, the overall
 risk of a radiation-induced cancer death per year per rem of exposure is about
-10 in a million, which can be written as $$10/10^{6} \text{rem} \text{·}
-\text{y} $$.
+10 in a million, which can be written as $$10/10^{6} \text{rem} \text{·} \text{y} $$.
 
 If a person receives a dose of 1 rem, their risk each year of dying from
 radiation-induced cancer is 10 in a million and that risk continues for about 30
@@ -308,8 +304,7 @@ natural incidence rate.
 
 The incidence of genetic defects induced by radiation is about one-third that of
 cancer deaths, but is much more poorly known. The lifetime risk of a genetic
-defect due to a 1 rem exposure is about 100 in a million or $$ 3.3/10^{6}
-\text{rem}\cdot \text{y} $$ , but the normal incidence is 60 000 in a million.
+defect due to a 1 rem exposure is about 100 in a million or $$ 3.3/10^{6} \text{rem}\cdot \text{y} $$ , but the normal incidence is 60 000 in a million.
 Evidence of such a small increase, tragic as it is, is nearly impossible to
 obtain. For example, there is no evidence of increased genetic defects among the
 offspring of Hiroshima and Nagasaki survivors. Animal studies do not seem to
@@ -352,8 +347,7 @@ exchange with the outside world. Almost all soil contains some
 $${}^{226}\text{Ra} $$ and $${}^{222}\text{Rn} $$ , but radon is lower in mainly
 sedimentary soils and higher in granite soils. Thus, the exposure to the public
 can vary greatly, even within short distances. Radon can diffuse from the soil
-into homes, especially basements. The estimated exposure for $${}^{222}\text{Rn}
-$$ is controversial. Recent studies indicate there is more radon in homes than
+into homes, especially basements. The estimated exposure for $${}^{222}\text{Rn} $$ is controversial. Recent studies indicate there is more radon in homes than
 had been realized, and it is speculated that radon may be responsible for 20
 percent of lung cancers, being particularly hazardous to those who also smoke.
 Many countries have introduced limits on allowable radon concentrations in
@@ -371,8 +365,7 @@ about 20 to 50 mSv/y and is rarely reached by medical and nuclear power workers.
 Higher doses are allowed for the hands. Much lower doses are permitted for the
 reproductive organs and the fetuses of pregnant women. Inadvertent doses to the
 public are limited to $$1/10 $$ of occupational doses, except for those caused
-by nuclear power, which cannot legally expose the public to more than $$1/1000
-$$ of the occupational limit or 0.05 mSv/y (5 mrem/y). This has been exceeded in
+by nuclear power, which cannot legally expose the public to more than $$1/1000 $$ of the occupational limit or 0.05 mSv/y (5 mrem/y). This has been exceeded in
 the United States only at the time of the Three Mile Island (TMI) accident in 1979. Chernobyl is another story. Extensive monitoring with a variety of
       radiation detectors is performed to assure radiation safety. Increased
       ventilation in uranium mines has lowered the dose there to about 1 mSv/y.
@@ -552,8 +545,7 @@ the affected tissue.* Use units of joules for energy and kilograms for mass. If
 a dose in Sv is involved, use the definition that $$1 \text{Sv} = 1 \text{J/kg} $$.
 
 <strong><em>Step 6. </em></strong>*If a dose in mSv is involved, determine the
-RBE (QF) of the radiation.* Recall that $$1 mSv=1 mGy×\text{RBE} \left(\text{ or }
-1 rem=1 rad×\text{RBE}\right) $$.
+RBE (QF) of the radiation.* Recall that $$1 mSv=1 mGy×\text{RBE} \left(\text{ or } 1 rem=1 rad×\text{RBE}\right) $$.
 
 <strong><em>Step 7. </em></strong>*Check the answer to see if it is reasonable:
 Does it make sense?* The dose should be consistent with the numbers given in the
@@ -580,8 +572,7 @@ MeV to joules to get the total energy.
 
 **Solution**
 
-The activity $$R= 1.00 \text{μCi}=3.70 \times 10^{4} \text{Bq}= 3.70 \times
-10^{4} $$ decays/s. So, the number of decays per year is obtained by multiplying
+The activity $$R= 1.00 \text{μCi}=3.70 \times 10^{4} \text{Bq}= 3.70 \times 10^{4} $$ decays/s. So, the number of decays per year is obtained by multiplying
 by the number of seconds in a year:
 
 <div class="equation" >
@@ -668,7 +659,6 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
 
 * The SI unit for radiation dose is the gray  (Gy), which is defined to be $$1
   Gy = 1 J/kg = 100 rad.
-$$
 
 - To account for the effect of the type of particle creating the ionization, we
   use the relative biological effectiveness (RBE) or quality factor (QF) given
@@ -692,8 +682,7 @@ $$
   immediate radiation effects are given in [[Table 3]](#Table3). Effects due to
   low doses are not observed, but their risk is assumed to be directly
   proportional to those of high doses, an assumption known as the linear
-  hypothesis. Long-term effects are cancer deaths at the rate of $$10/10^{6}
-  \text{rem·y} $$ and genetic defects at roughly one-third this rate. Background
+  hypothesis. Long-term effects are cancer deaths at the rate of $$10/10^{6} \text{rem·y} $$ and genetic defects at roughly one-third this rate. Background
   radiation doses and sources are given in [[Table 4]](#Table4). World-wide
   average radiation exposure from natural sources, including radon, is about 3
   mSv, or 300 mrem. Radiation protection utilizes shielding, distance, and time
@@ -997,8 +986,7 @@ This remarkably small mass of only 16.1 micrograms demonstrates the extreme radi
 {: class="glossary-title"}
 
 gray (Gy)
-: the SI unit for radiation dose which is defined to be $$1 Gy=1 J/kg=100
-\text{rad} $$
+: the SI unit for radiation dose which is defined to be $$1 Gy=1 J/kg=100 \text{rad} $$
 
 linear hypothesis
 : assumption that risk is directly proportional to risk from high doses
@@ -1035,4 +1023,4 @@ exposures of toxins or radiation
 shielding
 : a technique to limit radiation exposure
 
-</div>
+</div>

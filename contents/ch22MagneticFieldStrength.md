@@ -33,8 +33,7 @@ where $$\theta $$ is the angle between the directions of $$\vb{v} $$
 and $$\vb{B}. $$ This force is often called the **Lorentz force**. In fact, this is how we define the magnetic field strength $$\mag{B} $$
 —in terms of the force on a charged particle moving in a magnetic field. The SI
 unit for magnetic field strength $$B $$ is called the **tesla** (T) after the eccentric but brilliant inventor Nikola Tesla (1856–1943). To
-determine how the tesla relates to other SI units, we solve $$\mag{F}=q\mag{v}\mag{B} \sin \theta
-$$ for $$\mag{B} $$.
+determine how the tesla relates to other SI units, we solve $$\mag{F}=q\mag{v}\mag{B} \sin \theta $$ for $$\mag{B} $$.
 
 <div class="equation" >
  $$\mag{B}=\frac{\mag{F}}{q\mag{v} \sin \theta } $$
@@ -608,8 +607,7 @@ Lorentz force
 : the force on a charge moving in a magnetic field
 
 tesla
-: T, the SI unit of the magnetic field strength; $$1 \text{T}=\frac{1
-\text{N}}{\text{A}\cdot \text{m}} $$
+: T, the SI unit of the magnetic field strength; $$1 \text{T}=\frac{1 \text{N}}{\text{A}\cdot \text{m}} $$
 
 magnetic force
 : the force on a charge produced by its motion through a magnetic field; the
@@ -618,4 +616,4 @@ Lorentz force
 gauss
 : G, the unit of the magnetic field strength; $$1 \text{G}=10^{-4} \text{T} $$
 
-</div>
+</div>

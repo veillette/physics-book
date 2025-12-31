@@ -42,8 +42,7 @@ Although the formula for Coulomb’s law is simple, it was no mean task to prove
 it. The experiments Coulomb did, with the primitive equipment then available,
 were difficult. Modern experiments have verified Coulomb’s law to great
 precision. For example, it has been shown that the force is inversely
-proportional to distance between two objects squared $$\left(F\propto
-1/{r}^{2}\right) $$ to an accuracy of 1 part in $$ 10^{16} $$ . No exceptions
+proportional to distance between two objects squared $$\left(F\propto 1/{r}^{2}\right) $$ to an accuracy of 1 part in $$ 10^{16} $$ . No exceptions
 have ever been found, even at the small distances within the atom.
 
 ![In part a, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length. ](../resources/Figure_18_03_02.jpg 'The magnitude of the electrostatic force ( F ) between point charges ( q_{1} ) and ( q_{2} ) separated by a distance ( r ) is given by Coulomb’s law. Note that Newton’s third law (every force exerted creates an equal and opposite force) applies as usual—the force on ( q_{1} ) is equal in magnitude and opposite in direction to the force it exerts on ( q_{2} ) . (a) Like charges. (b) Unlike charges.')
@@ -127,8 +126,7 @@ Coulomb forces tend to cancel.
   </div>
 
 where $${q}_{1} $$ and $${q}_{2} $$ are two point charges separated by a
-distance $$r $$ , and $$k\approx 8.99 \times 10^{9}
-\text{N}·{\text{m}}^{2}/{\text{C}}^{2} $$
+distance $$r $$ , and $$k\approx 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\text{C}}^{2} $$
 
 - This Coulomb force is extremely basic, since most charges are due to
   point-like particles. It is responsible for all electrostatic effects and
@@ -1427,4 +1425,4 @@ Coulomb force
 electrostatic force
 : the amount and direction of attraction or repulsion between two charged bodies
 
-</div>
+</div>

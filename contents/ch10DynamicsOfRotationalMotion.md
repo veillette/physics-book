@@ -33,8 +33,7 @@ $$ m $$ that is at a distance $$ r $$ from a pivot point, as shown
 in [Figure 2](#Figure2). Because the force is perpendicular to $$ r $$, an
 acceleration $$ a=\frac{F}{m} $$ is obtained in the direction of $$ F $$. We can
 rearrange this equation such that $$ F=ma $$ and then look for ways to relate
-this expression to expressions for rotational quantities. We note that $$ a=r
-\alpha $$, and we substitute this expression into $$ F=ma $$, yielding
+this expression to expressions for rotational quantities. We note that $$ a=r \alpha $$, and we substitute this expression into $$ F=ma $$, yielding
 
 <div class="equation">
  $$ F= m r \alpha . $$
@@ -81,13 +80,10 @@ Before we can consider the rotation of anything other than a point mass like the
 one in [Figure 2](#Figure2), we must extend the idea of rotational inertia to all
 types of objects. To expand our concept of rotational inertia, we define the
 **moment of inertia** $$ I $$ of an object to be the sum of $$ m r^{2} $$ for all
-the point masses of which it is composed. That is, $$ I=\sum m r^{2} $$. Here $$
-I $$ is analogous to $$ m $$ in translational motion. Because of the distance $$
-r $$, the moment of inertia for any object depends on the chosen axis. Actually,
+the point masses of which it is composed. That is, $$ I=\sum m r^{2} $$. Here $$ I $$ is analogous to $$ m $$ in translational motion. Because of the distance $$ r $$, the moment of inertia for any object depends on the chosen axis. Actually,
 calculating $$ I $$ is beyond the scope of this text except for one simple
 case—that of a hoop, which has all its mass at the same distance from its axis.
-A hoop’s moment of inertia around its axis is therefore $$ MR^{2} $$, where $$ M
-$$ is its total mass and $$ R $$ its radius. (We use $$ M $$ and $$ R $$ for an
+A hoop’s moment of inertia around its axis is therefore $$ MR^{2} $$, where $$ M $$ is its total mass and $$ R $$ its radius. (We use $$ M $$ and $$ R $$ for an
 entire object to distinguish them from $$ m $$ and $$ r $$ for point masses.) In
 all other cases, we must consult [Figure 3](#Figure3) (note that the table is piece
 of artwork that has shapes as well as formulae) for formulas for $$ I $$ that
@@ -111,8 +107,7 @@ or
 where net $$ \tau $$ is the total torque from all forces relative to a chosen
 axis. For simplicity, we will only consider torques exerted by forces in the
 plane of the rotation. Such torques are either positive or negative and add like
-ordinary numbers. The relationship in $$ \tau =I \alpha , \alpha =\frac{
-\text{net τ}}{I} $$ is the rotational analog to Newton’s second law and is very
+ordinary numbers. The relationship in $$ \tau =I \alpha , \alpha =\frac{ \text{net τ}}{I} $$ is the rotational analog to Newton’s second law and is very
 generally applicable. This equation is actually valid for
 _any_ torque, applied to _any_ object, relative to _any_ axis.
 
@@ -179,8 +174,7 @@ Consider the merry-go-round itself to be a uniform disk with negligible retardin
 
 **Strategy**
 
-Angular acceleration is given directly by the expression $$ \alpha =\frac{
-\text{net τ}}{I} $$:
+Angular acceleration is given directly by the expression $$ \alpha =\frac{ \text{net τ}}{I} $$:
 
 <div class="equation">
  $$ \alpha =\frac{ \tau }{I}. $$
@@ -277,8 +271,7 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 
 - The farther the force is applied from the pivot, the greater is the angular
   acceleration; angular acceleration is inversely proportional to mass.
-- If we exert a force $$ F $$ on a point mass $$ m $$ that is at a distance $$ r
-  $$ from a pivot point and because the force is perpendicular to $$ r $$, an
+- If we exert a force $$ F $$ on a point mass $$ m $$ that is at a distance $$ r $$ from a pivot point and because the force is perpendicular to $$ r $$, an
   acceleration $$ a = F/m $$ is obtained in the direction of $$ F $$. We can
   rearrange this equation such that
   <div class="equation">
@@ -561,8 +554,7 @@ The moment of inertia of the boxer's forearm is **0.50 kg·m²**.
 A soccer player extends her lower leg in a kicking motion by exerting a
 force with the muscle above the knee in the front of her leg.
 She produces an angular acceleration of $$ 30.00 \text{\rad/s}^{2} $$
-and her lower leg has a moment of inertia of $$ 0.750 \kg \cdot
- \mm $$. What is the force exerted by the muscle if its effective
+and her lower leg has a moment of inertia of $$ 0.750 \kg \cdot \mm $$. What is the force exerted by the muscle if its effective
 perpendicular lever arm is 1.90 cm?
 
 </div>
@@ -1114,4 +1106,4 @@ point mass, it is $$ I=m r^{2} $$ and, because any object can be built up from a
 collection of point masses, this relationship is the basis for all other moments
 of inertia
 
-</div>
+</div>

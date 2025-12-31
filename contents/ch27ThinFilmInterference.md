@@ -75,8 +75,7 @@ Sophisticated cameras use a series of several lenses. Light can reflect from the
 
 **Strategy**
 
-Refer to [[Figure 2]](#Figure2) and use $${n}_{1}=1.00 $$ for air, $${n}_{2}=1.38
-$$ , and $${n}_{3}=1.52 $$ . Both ray 1 and ray 2 will have a $$\lambda /2 $$
+Refer to [[Figure 2]](#Figure2) and use $${n}_{1}=1.00 $$ for air, $${n}_{2}=1.38 $$ , and $${n}_{3}=1.52 $$ . Both ray 1 and ray 2 will have a $$\lambda /2 $$
 shift upon reflection. Thus, to obtain destructive interference, ray 2 will need
 to travel a half wavelength farther than ray 1. For rays incident
 perpendicularly, the path length difference is $$2t $$.
@@ -114,8 +113,7 @@ Non-reflective coatings are used in car windows and sunglasses.
 
 Thin film interference is most constructive or most destructive when the path
 length difference for the two rays is an integral or half-integral wavelength,
-respectively. That is, for rays incident perpendicularly, $$2t={\lambda }_{n},
-{2\lambda }_{n}, {3\lambda }_{n},\dots $$ or $$2t={\lambda }_{n}/2, {3\lambda }_
+respectively. That is, for rays incident perpendicularly, $$2t={\lambda }_{n}, {2\lambda }_{n}, {3\lambda }_{n},\dots $$ or $$2t={\lambda }_{n}/2, {3\lambda }_
 {n}/2, {5\lambda }_{n}/2,\dots $$ . To know whether interference is constructive
 or destructive, you must also determine if there is a phase change upon
 reflection. Thin film interference thus depends on film thickness, the
@@ -131,8 +129,7 @@ Soap Bubbles: More Than One Thickness can be Constructive
 
 **Strategy and Concept**
 
-Use [[Figure 2]](#Figure2) to visualize the bubble. Note that $${n}_{1}={n}_
-{3}=1.00 $$ for air, and $${n}_{2}=1.333 $$ for soap (equivalent to water).
+Use [[Figure 2]](#Figure2) to visualize the bubble. Note that $${n}_{1}={n}_ {3}=1.00 $$ for air, and $${n}_{2}=1.333 $$ for soap (equivalent to water).
 There is a $$\lambda /2 $$ shift for ray 1 reflected from the top surface of the
 bubble, and no shift for ray 2 reflected from the bottom surface. To get
 constructive interference, then, the path length difference ( $$2t $$ )
@@ -1120,4 +1117,4 @@ Real stealth technology uses radar-absorbing materials (RAM) that are thin, inco
 thin film interference
 : interference between light reflected from different surfaces of a thin film
 
-</div>
+</div>

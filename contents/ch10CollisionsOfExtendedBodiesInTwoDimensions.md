@@ -69,8 +69,7 @@ where primed quantities stand for conditions after the collision and both moment
  $$ L=I \omega, $$
 </div>
 where $$ I $$ is the moment of inertia of the disk and $$ \omega $$
-is its angular velocity around the pivot point. Now, $$
-I=mr^{2} $$
+is its angular velocity around the pivot point. Now, $$ I=mr^{2} $$
 (taking the disk to be approximately a point mass) and $$ \omega =v/r $$, so that
 
 <div class="equation">
@@ -95,8 +94,7 @@ Rearranging the equation yields
 where $$ I^{\prime} $$ is the moment of inertia of the stick and disk stuck together, which is the sum
 of their individual moments of inertia about the
 nail. [Figure 3 of Dynamics Of Rotational Motion](./ch10DynamicsOfRotationalMotion#Figure3) gives the formula for a rod
-rotating around one end to be $$
-I=Mr^{2}/3 $$. Thus,
+rotating around one end to be $$ I=Mr^{2}/3 $$. Thus,
 
 <div class="equation">
  $$ I^{\prime} =m r^{2} +\frac{ Mr^{2}}{3}=\left(m+\frac{M}{3}\right){r}^{2}. $$
@@ -159,8 +157,7 @@ Before the collision, then, linear momentum is
 After the collision, the disk and the stick’s center of mass move in the same direction.
 The total linear momentum is that of the disk moving at a new
 velocity $$ v^{\prime} =r \omega^\prime $$ plus that of the stick’s center of mass,
-which moves at half this speed because $$ v_{\text{CM}}=\left(
-\frac{r}{2} \right) \omega^\prime =\frac{v^{\prime} }{2} $$. Thus,
+which moves at half this speed because $$ v_{\text{CM}}=\left( \frac{r}{2} \right) \omega^\prime =\frac{v^{\prime} }{2} $$. Thus,
 
 <div class="equation">
  $$ p^{\prime} =mv^{\prime} +Mv_{\text{CM}}=mv^{\prime} +\frac{Mv^\prime }{2}. $$
@@ -230,13 +227,9 @@ No, energy is always scalar whether motion is involved or not. No form of energy
 
 ### Section Summary
 
-- Angular momentum $$ L $$ is analogous to linear momentum and is given by $$
-  L=I \omega $$.
-- Angular momentum is changed by torque, following the relationship $$
-  \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
-- Angular momentum is conserved if the net torque is zero $$
-  L=\text{constant}\left( \text{net}\tau =0 \right) $$ or $$ L=L^{\prime} \left(
-  \text{net}\tau = 0 \right) $$. This equation is known as the law of
+- Angular momentum $$ L $$ is analogous to linear momentum and is given by $$ L=I \omega $$.
+- Angular momentum is changed by torque, following the relationship $$ \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
+- Angular momentum is conserved if the net torque is zero $$ L=\text{constant}\left( \text{net}\tau =0 \right) $$ or $$ L=L^{\prime} \left( \text{net}\tau = 0 \right) $$. This equation is known as the law of
   conservation of angular momentum, which may be conserved in collisions.
 
 ### Conceptual Questions
@@ -642,4 +635,4 @@ When the stick is free to move (unlike the nailed case in Example 1), linear mom
 (c) Linear momentum is conserved at **1.50 kg·m/s** (unlike the nailed case where external forces act).
 
 </div>
-</div>
+</div>

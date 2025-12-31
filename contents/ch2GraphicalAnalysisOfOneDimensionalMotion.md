@@ -74,8 +74,7 @@ numerical information about a specific situation.
 <div class="title">
 The Slope of *x* vs. *t*
 </div>
-The slope of the graph of position $$ x $$ vs. time $$ t $$ is velocity $$
-v $$.
+The slope of the graph of position $$ x $$ vs. time $$ t $$ is velocity $$ v $$.
 
 <div class="equation">
  $$ \text{slope}=\frac{ \Delta x}{\Delta t}=v $$
@@ -207,8 +206,7 @@ graph of $$ v $$ vs. $$ t $$ can be obtained in this fashion.
 
 Carrying this one step further, we note that the slope of a velocity versus time
 graph is acceleration. Slope is rise divided by run; on a $$ v $$ vs. $$ t $$
-graph, rise = change in velocity $$ \Delta v $$ and run = change in time $$
-\Delta t $$.
+graph, rise = change in velocity $$ \Delta v $$ and run = change in time $$ \Delta t $$.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -229,10 +227,7 @@ Acceleration versus time is graphed in [Figure 3](#Figure3)(c).
 Additional general information can be obtained from [Figure 5](#Figure5) and the
 expression for a straight line, $$ y=m x+b $$.
 
-In this case, the vertical axis $$ y $$ is $$ V $$, the intercept $$ b $$ is $$
-v_{0} $$, the slope $$ m $$ is $$ a $$, and the horizontal axis $$ x $$ is $$ t
-
-$$
+In this case, the vertical axis $$ y $$ is $$ V $$, the intercept $$ b $$ is $$ v_{0} $$, the slope $$ m $$ is $$ a $$, and the horizontal axis $$ x $$ is $$ t $$
 . Substituting these symbols yields
 
 <div class="equation">
@@ -943,12 +938,9 @@ dependent variable
 : the variable that is being measured; usually plotted along the $$ y $$ -axis
 
 slope
-: the difference in $$ y $$ -value (the rise) divided by the difference in $$ x
-$$-value (the run) of two points on a straight line
+: the difference in $$ y $$ -value (the rise) divided by the difference in $$ x $$-value (the run) of two points on a straight line
 
 y-intercept
-: the $$ y\text{-} $$ value when $$ x = 0 $$, or when the graph crosses the $$ y
-$$ -axis
+: the $$ y\text{-} $$ value when $$ x = 0 $$, or when the graph crosses the $$ y $$ -axis
 
-</div>
-$$
+</div>

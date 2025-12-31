@@ -53,9 +53,8 @@ stored charge for a parallel plate capacitor, as shown in [[Figure 2]](#Figure2)
 negative one, so that there will be more field lines if there is more charge. (
 Drawing a single field line per charge is a convenience, only. We can draw many
 field lines for each charge, but the total number is proportional to the number
-of charges.) The electric field strength is, thus, directly proportional to $$Q
+of charges.) The electric field strength is, thus, directly proportional to $$Q $$
 
-$$
 .
 
 ![Two metal plates are positioned vertically facing each other. The plates are the conducting parts of a capacitor. The plate on the left-hand side is connected to the positive terminal of a battery, and the plate on the right-hand side is connected to the negative terminal of the battery. There is an electric field between the two plates of the capacitor. The electric field lines emanate from the positively charged plate and end on the negatively charged plate. The electric field E is proportional to the charge Q.](../resources/Figure_19_05_02.jpg "Electric field lines in this parallel plate capacitor, as always, start on positive charges and end on negative charges. Since the electric field strength is proportional to the density of field lines, it is also proportional to the amount of charge on the capacitor. ")
@@ -121,8 +120,7 @@ farad is a coulomb per volt, or
 
 A 1-farad capacitor would be able to store 1 coulomb (a very large amount of
 charge) with the application of only 1 volt. One farad is, thus, a very large
-capacitance. Typical capacitors range from fractions of a picofarad $$\left(1
-\text{pF}=10^{-12} \text{F}\right) $$ to millifarads $$\left(1 \text{mF}=10^{-3}
+capacitance. Typical capacitors range from fractions of a picofarad $$\left(1 \text{pF}=10^{-12} \text{F}\right) $$ to millifarads $$\left(1 \text{mF}=10^{-3}
 \text{F}\right) $$.
 
 [[Figure 3]](#Figure3) shows some common capacitors. Capacitors are primarily
@@ -171,8 +169,7 @@ Capacitance of a Parallel Plate Capacitor
 
 $$A $$ is the area of one plate in square meters, and $$d $$ is the distance
 between the plates in meters. The constant $${\epsilon }_{0} $$ is the
-permittivity of free space; its numerical value in SI units is $${\epsilon }_
-{0}=8.85 \times 10^{-12} \text{F/m} $$ . The units of F/m are equivalent to
+permittivity of free space; its numerical value in SI units is $${\epsilon }_ {0}=8.85 \times 10^{-12} \text{F/m} $$ . The units of F/m are equivalent to
 $${\text{C}}^{2}\text{/N}·{\text{m}}^{2} $$ . The small numerical value of
 $${\epsilon }_{0} $$ is related to the large size of the farad. A parallel plate
 capacitor must have a large area to have a capacitance approaching a farad. (
@@ -230,8 +227,7 @@ surroundings and also allows ions to selectively pass in and out of the cell.
 There is a potential difference across the membrane of about $$-70 \text{mV} $$
 . This is due to the mainly negatively charged ions in the cell and the
 predominance of positively charged sodium ( $${\text{Na}}^{+} $$ )
-ions outside. Things change when a nerve cell is stimulated. $${\text{Na}}^{+}
-$$ ions are allowed to pass through the membrane into the cell, producing a
+ions outside. Things change when a nerve cell is stimulated. $${\text{Na}}^{+} $$ ions are allowed to pass through the membrane into the cell, producing a
 positive membrane potential—the nerve signal. The cell membrane is about 7 to 10
 nm thick. An approximate value of the electric field across it is given by
 
@@ -502,8 +498,7 @@ Explore how a capacitor works! Change the size of the plates and add a dielectri
    $$C=\frac{Q}{V}. $$
   </div>
 
-- The capacitance of a parallel plate capacitor is $$C={\epsilon }_{0}
-  \frac{A}{d} $$ , when the plates are separated by air or free space.
+- The capacitance of a parallel plate capacitor is $$C={\epsilon }_{0} \frac{A}{d} $$ , when the plates are separated by air or free space.
   $${\epsilon }\_{0} $$ is called the permittivity of free space.
 - A parallel plate capacitor with a dielectric between its plates has a
   capacitance given by
@@ -959,9 +954,8 @@ The temperature increase of the flesh is approximately **10-12°C** (depending o
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-(a) A certain parallel plate capacitor has plates of area $${4.00 \text{m}}^{2}
+(a) A certain parallel plate capacitor has plates of area $${4.00 \text{m}}^{2} $$
 
-$$
 , separated by 0.0100 mm of nylon, and stores 0.170 C of charge. What is the
 applied voltage? (b) What is unreasonable about this result? (c) Which
 assumptions are responsible or inconsistent?
@@ -1041,5 +1035,4 @@ parallel plate capacitor
 polar molecule
 : a molecule with inherent separation of charge
 
-</div>
-$$
+</div>

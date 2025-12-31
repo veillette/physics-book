@@ -60,9 +60,7 @@ Common Misconception: Normal Force (N) vs. Newton (N)
 In this section we have introduced the quantity normal force, which is represented by the variable $$ \vb{N} $$. This should not be confused with the symbol for the newton, which is also
 represented by the letter N. These symbols are particularly important to
 distinguish because the units of a normal force ( $$ \vb{N} $$)
-happen to be newtons (N). For example, the normal force $$ \vb{N}
-$$
-that the floor exerts on a chair might be $$ \vb{N}=100 \N $$. One important difference is that normal force is a vector, while the newton is
+happen to be newtons (N). For example, the normal force $$ \vb{N} that the floor exerts on a chair might be $$ \vb{N}=100 \N $$. One important difference is that normal force is a vector, while the newton is
 simply a unit. Be careful not to confuse these letters in your calculations! You
 will encounter more similarities among variables and units as you proceed in
 physics. Another example of this is the quantity work ( $$ W $$)
@@ -95,8 +93,7 @@ represent perpendicular and parallel, respectively. This choice of axes
 simplifies this type of problem, because there is no motion perpendicular to the
 slope and because friction is always parallel to the surface between two
 objects. The only external forces acting on the system are the skier’s weight,
-friction, and the support of the slope, respectively labeled $$\vb{w} $$, $$
-\vb{f} $$, and $$ \vb{N} $$ in [Figure 2](#Figure2). $$ \vb{N} $$ is always
+friction, and the support of the slope, respectively labeled $$\vb{w} $$, $$ \vb{f} $$, and $$ \vb{N} $$ in [Figure 2](#Figure2). $$ \vb{N} $$ is always
 perpendicular to the slope, and $$ \vb{f} $$ is parallel to it. But $$ \vb{w} $$
 is not in the direction of either axis, and so the first step we take is to
 project it into components along the chosen axes, defining $$ w_{\parallel } $$
@@ -107,10 +104,8 @@ perpendicular to the slope.
 
 **Solution**
 
-The magnitude of the component of the weight parallel to the slope is $$ w_
-{\parallel}=w \sin{\left(25^\circ\right)}=mg\sin{\left(25^\circ\right)} $$, and
-the magnitude of the component of the weight perpendicular to the slope is $$ w_
-{\perp}=w \cos{\left(25^\circ\right)}=mg\cos{\left(25^\circ\right)} $$.
+The magnitude of the component of the weight parallel to the slope is $$ w_ {\parallel}=w \sin{\left(25^\circ\right)}=mg\sin{\left(25^\circ\right)} $$, and
+the magnitude of the component of the weight perpendicular to the slope is $$ w_ {\perp}=w \cos{\left(25^\circ\right)}=mg\cos{\left(25^\circ\right)} $$.
 
 (a) Neglecting friction. Since the acceleration is parallel to the slope, we
 need only consider forces parallel to the slope. (Forces perpendicular to the
@@ -177,13 +172,10 @@ Resolving Weight into Components
 
 When an object rests on an incline that makes an angle $$ \theta $$ with the
 horizontal, the force of gravity acting on the object is divided into two
-components: a force acting perpendicular to the plane, $$ \vb{w}_
-{\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_
+components: a force acting perpendicular to the plane, $$ \vb{w}_ {\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_
 {\parallel } $$. The perpendicular force of weight, $$ \vb{w}_
-{\perp } $$, is typically equal in magnitude and opposite in direction to the
-normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_
-{\parallel } $$, causes the object to accelerate down the incline. The force of
-friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward
+{\perp } $$, is typically equal in magnitude and opposite in direction to the normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_
+{\parallel } $$, causes the object to accelerate down the incline. The force of friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward
 along the plane.
 
 It is important to be careful when resolving the weight of the object into
@@ -1018,4 +1010,4 @@ tension
 connector, such as a rope or cable; when a rope supports the weight of an
 object, the force on the object due to the rope is called a tension force
 
-</div>
+</div>

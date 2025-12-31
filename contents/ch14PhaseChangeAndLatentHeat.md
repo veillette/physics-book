@@ -52,8 +52,7 @@ experimentally. See ([[Table 1]](#Table1)).
 ![Figure a shows a four by four square lattice object labeled solid. The lattice is made of four rows of red spheres, with each row containing four spheres. The spheres are attached together horizontally and vertically by springs, defining vacant square spaces between the springs. A short arrow points radially outward from each sphere. The arrows on the different spheres point in different directions but are the same length, and one of them terminates at a dashed circle that is labeled limits of motion. To the right of this object are shown two curved arrows. The upper curved arrow points rightward and is labeled “energy input” and “melt.” The lower arrow points leftward and is labeled “energy output” and “freeze.” To the right of the curved arrows is a drawing labeled liquid. This drawing contains nine red spheres arranged randomly, with a curved arrow emanating from each sphere. The arrows are of different lengths and point in different directions.Figure b shows a drawing labeled liquid that is essentially the same as that of figure a. To the right of this drawing are shown two curved arrows. The upper curved arrow points rightward and is labeled “energy input” and “boil.” The lower arrow points leftward and is labeled “energy output” and “condense.” To the right of the curved arrows is another drawing of randomly arranged red spheres that is labeled gas. This drawing contains eight red spheres and each sphere has a straight or a curved arrow emanating from it. Compared to the drawing to the left that is labeled liquid, these arrows are longer and the red spheres are more widely spaced.](../resources/Figure_14_03_02.jpg '(a) Energy is required to partially overcome the attractive forces between molecules in a solid to form a liquid. That same energy must be removed for freezing to take place. (b) Molecules are separated by large distances when going from liquid to vapor, requiring significant energy to overcome molecular attraction. The same energy must be removed for condensation to take place. There is no temperature change until a phase change is complete.')
 {: #Figure2}
 
-Latent heat is measured in units of J/kg. Both $${L}_{\text{f}} $$ and $${L}_
-{\text{v}} $$ depend on the substance, particularly on the strength of its
+Latent heat is measured in units of J/kg. Both $${L}_{\text{f}} $$ and $${L}_ {\text{v}} $$ depend on the substance, particularly on the strength of its
 molecular forces as noted earlier. $${L}_{\text{f}} $$ and $${L}_{\text{v}} $$
 are collectively called **latent heat coefficients**. They are _latent_, or
 hidden, because in phase changes, energy enters or leaves a system without
@@ -65,8 +64,7 @@ The table shows that significant amounts of energy are involved in phase
 changes. Let us look, for example, at how much energy is needed to melt a
 kilogram of ice at $$0\text{ºC} $$ to produce a kilogram of water at
 $$0\text{ºC} $$ . Using the equation for a change in temperature and the value
-for water from [[Table 1]](#Table1), we find that $$Q=m L_{\text{f}}=\left( 1.0
-\text{kg}\right)\left(334 \text{kJ/kg}\right)=334 \text{kJ} $$ is the energy to
+for water from [[Table 1]](#Table1), we find that $$Q=m L_{\text{f}}=\left( 1.0 \text{kg}\right)\left(334 \text{kJ/kg}\right)=334 \text{kJ} $$ is the energy to
 melt a kilogram of ice. This is a lot of energy as it represents the same amount
 of energy needed to raise the temperature of 1 kg of liquid water from
 $$0\text{ºC} $$ to $$ 79.8\text{ºC} $$ . Even more energy is required to
@@ -306,12 +304,8 @@ Bring all terms involving  $${T}_{\text{f}} $$
 </div>
 **Solution**
 
-1. Identify the known quantities. The mass of ice is $${m}_{\text{ice}}=3 \times
-   6.0\text{g}= 0.018\text{kg} $$ and the mass of soda is $${m}_
-   {\text{soda}}=0.25\text{kg} $$ .
-2. Calculate the terms in the numerator:
-   <div class="equation" >
-   $${m}_{\text{soda}}{c}_{W}\left(20\text{ºC}\right)=\left(0.25\text{kg}\right)
+1. Identify the known quantities. The mass of ice is $${m}_{\text{ice}}=3 \times 6.0\text{g}= 0.018\text{kg} $$ and the mass of soda is $${m}_
+   {\text{soda}}=0.25\text{kg} $$ . 2. Calculate the terms in the numerator: <div class="equation" > $${m}_{\text{soda}}{c}_{W}\left(20\text{ºC}\right)=\left(0.25\text{kg}\right)
    \left(4186 \text{J/kg}\cdot \text{ºC}\right)\left(20\text{ºC}\right)=20 930
    \text{J} $$
    </div>
@@ -388,8 +382,7 @@ All phase transitions involve heat. In the case of direct solid-vapor
 transitions, the energy required is given by the equation $$Q=mL_{\text{s}} $$ ,
 where $${L}_{\text{s}} $$ is the **heat of sublimation**, which is the energy
 required to change 1.00 kg of a substance from the solid phase to the vapor
-phase. $${L}_{\text{s}} $$ is analogous to $${L}_{\text{f}} $$ and $${L}_
-{\text{v}} $$ , and its value depends on the substance. Sublimation requires
+phase. $${L}_{\text{s}} $$ is analogous to $${L}_{\text{f}} $$ and $${L}_ {\text{v}} $$ , and its value depends on the substance. Sublimation requires
 energy input, so that dry ice is an effective coolant, whereas the reverse
 process (i.e., frosting) releases energy. The amount of energy required for
 sublimation is of the same order of magnitude as that for other phase
@@ -1757,4 +1750,4 @@ a substance during the change in phase of the substance
 sublimation
 : the transition from the solid phase to the vapor phase
 
-</div>
+</div>

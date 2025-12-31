@@ -51,9 +51,7 @@ in [Molecular Transport Phenomena: Diffusion, Osmosis, and Related Processes](..
 concentration. But the cell membrane is **semipermeable**, meaning that some
 ions may cross it while others cannot. In its resting state, the cell membrane
 is permeable to $${\text{K}}^{+} $$ and $${\text{Cl}}^{-} $$ , and impermeable
-to $${\text{Na}}^{+} $$ . Diffusion of $${\text{K}}^{+} $$ and $${\text{Cl}}^{-}
-
-$$
+to $${\text{Na}}^{+} $$ . Diffusion of $${\text{K}}^{+} $$ and $${\text{Cl}}^{-} $$
 thus creates the layers of positive and negative charge on the outside and
 inside of the membrane. The Coulomb force prevents the ions from diffusing
 across in their entirety. Once the charge layer has built up, the repulsion of
@@ -374,5 +372,4 @@ electrocardiogram (ECG)
 : usually abbreviated ECG, a record of voltages created by depolarization and
 repolarization, especially in the heart
 
-</div>
-$$
+</div>

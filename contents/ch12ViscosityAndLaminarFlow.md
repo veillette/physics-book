@@ -64,9 +64,8 @@ while the top plate is moved to the right, dragging fluid with it. The layer (or
 lamina) of fluid in contact with either plate does not move relative to the
 plate, and so the top layer moves at $$v $$ while the bottom layer remains at
 rest. Each successive layer from the top down exerts a force on the one below
-it, trying to drag it along, producing a continuous variation in speed from $$v
+it, trying to drag it along, producing a continuous variation in speed from $$v $$
 
-$$
 to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
 layers do not mix. The motion in [[Figure 3]](#Figure3) is like a continuous
 shearing motion. Fluids have zero shear strength, but the *rate* at which they
@@ -78,15 +77,13 @@ shear deformation for solids.
 
 A force $$F $$ is required to keep the top plate in [[Figure 3]](#Figure3)
 moving at a constant velocity $$v $$ , and experiments have shown that this
-force depends on four factors. First, $$F $$ is directly proportional to $$v
-$$  (until the speed is so high that turbulence occurs—then a much larger force
+force depends on four factors. First, $$F $$ is directly proportional to $$v $$  (until the speed is so high that turbulence occurs—then a much larger force
 is needed, and it has a more complicated dependence on $$v $$ ). Second, $$F $$
 is proportional to the area $$A $$ of the plate. This relationship seems
 reasonable, since $$A $$ is directly proportional to the amount of fluid being
 moved. Third, $$F $$ is inversely proportional to the distance between the
 plates $$L $$ . This relationship is also reasonable; $$L $$ is like a lever
-arm, and the greater the lever arm, the less force that is needed. Fourth, $$F
-$$ is directly proportional to the **coefficient of viscosity**, $$\eta $$ . The
+arm, and the greater the lever arm, the less force that is needed. Fourth, $$F $$ is directly proportional to the **coefficient of viscosity**, $$\eta $$ . The
 greater the viscosity, the greater the force required. These dependencies are
 combined into the equation
 
@@ -102,8 +99,7 @@ Solving for $$\eta $$ gives
 </div>
 
 which defines viscosity in terms of how it is measured. The SI unit of viscosity
-is $$\text{N}\cdot \text{m/}\left[\left(\text{m/s}\right){\text{m}}^{2}\right]
-=\left({\text{N/m}}^{2}\right)\text{s or Pa}\cdot \text{s} $$ .
+is $$\text{N}\cdot \text{m/}\left[\left(\text{m/s}\right){\text{m}}^{2}\right] =\left({\text{N/m}}^{2}\right)\text{s or Pa}\cdot \text{s} $$ .
 [[Table 1]](#Table1) lists the coefficients of viscosity for various fluids.
 
 Viscosity varies from one fluid to another by several orders of magnitude. As
@@ -126,8 +122,7 @@ relationship can be stated as
 </div>
 
 where $${P}_{1} $$ and $${P}_{2} $$ are the pressures at two points, such as at
-either end of a tube, and $$R $$ is the resistance to flow. The resistance $$R
-$$ includes everything, except pressure, that affects flow rate. For example,
+either end of a tube, and $$R $$ is the resistance to flow. The resistance $$R $$ includes everything, except pressure, that affects flow rate. For example,
 $$R $$ is greater for a long tube than for a short one. The greater the
 viscosity of a fluid, the greater the value of $$R $$ . Turbulence greatly
 increases $$R $$ , whereas increasing the diameter of a tube decreases $$R $$ .
@@ -165,8 +160,7 @@ exponent means that any change in the radius of a tube has a very large effect
 on resistance. For example, doubling the radius of a tube decreases resistance
 by a factor of $${2}^{4}=16 $$.
 
-Taken together, $$Q=\frac{ {P}_{2}-{P}_{1}}{R} $$ and $$R=\frac{8\eta l}{\pi
-{r}^{4}} $$ give the following expression for flow rate:
+Taken together, $$Q=\frac{ {P}_{2}-{P}_{1}}{R} $$ and $$R=\frac{8\eta l}{\pi {r}^{4}} $$ give the following expression for flow rate:
 
 <div class="equation" >
  $$Q=\frac{\left({P}_{2}-{P}_{1}\right)\pi r^{4}}{8\eta l}\text{.} $$
@@ -349,8 +343,7 @@ important muscles and organs and blood pressure increases. This creates both
 greater overall blood flow and increased flow to specific areas. Conversely,
 decreases in vessel radii, perhaps from plaques in the arteries, can greatly
 reduce blood flow. If a vessel’s radius is reduced by only 5% (to 0.95 of its
-original value), the flow rate is reduced to about $${\left( 0.95 \right)}^{4}=
-0.81 $$ of its original value. A 19% decrease in flow is caused by a 5% decrease
+original value), the flow rate is reduced to about $${\left( 0.95 \right)}^{4}= 0.81 $$ of its original value. A 19% decrease in flow is caused by a 5% decrease
 in radius. The body may compensate by increasing blood pressure by 19%, but this
 presents hazards to the heart and any vessel that has weakened walls. Another
 example comes from automobile engine oil. If you have a car with an oil pressure
@@ -427,8 +420,7 @@ where, in this case, $${P}_{2} $$ is the pressure at the water works and $$R $$
 is the resistance of the water main. During times of heavy use, the flow rate
 $$Q $$ is large. This means that $${P}_{2}-{P}_{1} $$ must also be large. Thus
 $${P}_{1} $$ must decrease. It is correct to think of flow and resistance as
-causing the pressure to drop from $${P}_{2} $$ to $${P}_{1} $$ . $${P}_{2}-{P}_
-{1}=RQ $$ is valid for both laminar and turbulent flows.
+causing the pressure to drop from $${P}_{2} $$ to $${P}_{1} $$ . $${P}_{2}-{P}_ {1}=RQ $$ is valid for both laminar and turbulent flows.
 
 ![Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.](../resources/Figure_12_04_06.jpg 'During times of heavy use, there is a significant pressure drop in a water main, and ( P_1 ) supplied to users is significantly less than ( P_2 ) created at the water works. If the flow is very small, then the pressure drop is negligible, and ( P_2 \\approx P_1 ).')
 {: #Figure6}
@@ -482,8 +474,7 @@ substances with the cells in the capillaries and alveoli in particular.
 - Turbulence is characterized by eddies and swirls that mix layers of fluid
   together.
 - Fluid viscosity $$\eta $$ is due to friction within a fluid. Representative values are given
-  in [[Table 1]](#Table1). Viscosity has units of $$\left(
-      {\text{N/m}}^{2}\right)\text{s} $$ or $$\text{Pa}\cdot \text{s} $$ .
+  in [[Table 1]](#Table1). Viscosity has units of $$\left( {\text{N/m}}^{2}\right)\text{s} $$ or $$\text{Pa}\cdot \text{s} $$ .
 - Flow is proportional to pressure difference and inversely proportional to
   resistance:
 
@@ -1559,4 +1550,4 @@ Poiseuille’s law
 : the rate of laminar flow of an incompressible fluid in a tube: _Q = (P<sub>
 2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl_
 
-</div>
+</div>

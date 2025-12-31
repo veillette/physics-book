@@ -33,8 +33,7 @@ An inelastic collision is one in which the internal kinetic energy changes (it i
 
 [Figure 1](#Figure1) shows an example of an inelastic collision. Two objects that
 have equal masses head toward one another at equal speeds and then stick
-together. Their total internal kinetic energy is initially $$ \frac{1}{2}m
-v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest after sticking
+together. Their total internal kinetic energy is initially $$ \frac{1}{2}m v^{2}+\frac{1}{2}m v^{2}=m v^{2} $$. The two objects come to rest after sticking
 together, conserving momentum. But the internal kinetic energy is zero after the
 collision. A collision in which the objects stick together is sometimes called
 a **perfectly inelastic collision** because it reduces internal kinetic energy
@@ -88,8 +87,7 @@ or
 <div class="equation">
  $$ m_{1}v_{1}+m_{2}v_{2}=m_{1}{v^{\prime} }_{1}+m_{2}{v^{\prime} }_{2}. $$
 </div>
-Because the goalie is initially at rest, we know $$ v_{2}=0 $$. Because the goalie catches the puck, the final velocities are equal, or $$
-{v^{\prime} }_{1}={v^{\prime} }_{2}=v^{\prime} $$. Thus, the conservation of momentum equation simplifies to
+Because the goalie is initially at rest, we know $$ v_{2}=0 $$. Because the goalie catches the puck, the final velocities are equal, or $$ {v^{\prime} }_{1}={v^{\prime} }_{2}=v^{\prime} $$. Thus, the conservation of momentum equation simplifies to
 
 <div class="equation">
  $$ m_{1}v_{1}=\left(m_{1}+m_{2}\right)v^{\prime} . $$
@@ -182,8 +180,7 @@ Take-Home Experiment—Bouncing of Tennis Ball
 2.  The coefficient of restitution $$ \left(c\right) $$
     is a measure of the elasticity of a collision between a ball and an object, and is defined as the ratio of the speeds after and before the collision. A perfectly elastic collision has a
  $$ c $$ of 1. For a ball bouncing off the floor (or a racquet on the
-floor), $$ c $$ can be shown to be $$ c=\sqrt{\frac{h}{H}} $$ where $$ h
-$$  is the height to which the ball bounces and $$ H $$ is the height from which the ball is dropped.
+floor), $$ c $$ can be shown to be $$ c=\sqrt{\frac{h}{H}} $$ where $$ h $$  is the height to which the ball bounces and $$ H $$ is the height from which the ball is dropped.
 Determine $$ c $$ for the cases in Part 1 and for the case of a tennis ball bouncing off
 a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis court).
 
@@ -837,14 +834,11 @@ Holding the rifle tightly reduces the recoil kinetic energy from 31.5 J to 3.38 
 
 **Professional Application**
 
-One of the waste products of a nuclear reactor is plutonium-239 $$ \left(
-{}^{239}\text{Pu}\right) $$. This nucleus is radioactive and decays by splitting
-into a helium-4 nucleus and a uranium-235 nucleus $$ \left(
-{}^{4}{\text{He}}+{}^{235}U\right) $$, the latter of which is also radioactive
+One of the waste products of a nuclear reactor is plutonium-239 $$ \left( {}^{239}\text{Pu}\right) $$. This nucleus is radioactive and decays by splitting
+into a helium-4 nucleus and a uranium-235 nucleus $$ \left( {}^{4}{\text{He}}+{}^{235}U\right) $$, the latter of which is also radioactive
 and will itself decay some time later. The energy emitted in the plutonium decay
 is $$ 8.40\times 10^{-13} \J $$ and is entirely converted to kinetic energy of
-the helium and uranium nuclei. The mass of the helium nucleus is $$ 6.68\times
-10^{-27}\kg $$, while that of the uranium is $$ 3.92 \times 10^{-25}\kg $$
+the helium and uranium nuclei. The mass of the helium nucleus is $$ 6.68\times 10^{-27}\kg $$, while that of the uranium is $$ 3.92 \times 10^{-25}\kg $$
 (note that the ratio of the masses is 4 to 235).
 (a) Calculate the velocities of the two nuclei, assuming the plutonium nucleus
 is originally at rest.
@@ -1181,4 +1175,4 @@ inelastic collision
 perfectly inelastic collision
 : a collision in which the colliding objects stick together
 
-</div>
+</div>

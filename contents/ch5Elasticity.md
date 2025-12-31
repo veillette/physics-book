@@ -32,8 +32,7 @@ Hooke’s law is obeyed. In equation form, **Hooke’s law** is given by
 where $$ \Delta L $$ is the amount of deformation (the change in length, for
 example) produced by the force $$ F $$, and $$ k $$ is a proportionality
 constant that depends on the shape and composition of the object and the
-direction of the force. Note that this force is a function of the deformation $$
-\Delta L $$ —it is not constant as a kinetic friction force is. Rearranging this
+direction of the force. Note that this force is a function of the deformation $$ \Delta L $$ —it is not constant as a kinetic friction force is. Rearranging this
 to
 
 <div class="equation">
@@ -73,8 +72,7 @@ The proportionality constant $$ k $$ depends upon a number of factors for the
 material. For example, a guitar string made of nylon stretches when it is
 tightened, and the elongation $$ \Delta L $$ is proportional to the force
 applied (at least for small deformations). Thicker nylon strings and ones made
-of steel stretch less for the same applied force, implying they have a larger $$
-k $$
+of steel stretch less for the same applied force, implying they have a larger $$ k $$
 (see [Figure 2](#Figure2)). Finally, all three strings return to their normal
 lengths when the force is removed, provided the deformation is small. Most
 materials will behave in this manner if the deformation is less than about 0.1%
@@ -185,8 +183,7 @@ Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#Fi
 **Strategy**
 
 The force is equal to the maximum tension, or $$ F=3.0\times 10^{6}\N $$. The
-cross-sectional area is $$ \pi r^{2}=2.46 \times 10^{-3} \mm $$. The equation $$
-\Delta L=\frac{1}{Y}\frac{F}{A} L\_{0} $$ can be used to find the change in
+cross-sectional area is $$ \pi r^{2}=2.46 \times 10^{-3} \mm $$. The equation $$ \Delta L=\frac{1}{Y}\frac{F}{A} L\_{0} $$ can be used to find the change in
 length.
 
 **Solution**
@@ -366,11 +363,9 @@ with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L\_
-{0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
-object from accelerating, there are actually two equal and opposite forces $$ F
+see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L\_ {0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
+object from accelerating, there are actually two equal and opposite forces $$ F $$
 
-$$
 applied across opposite faces, as illustrated in [Figure 6](#Figure6). The
 equation is logical—for example, it is easier to bend a long thin pencil (small
 $$ A $$ )
@@ -522,14 +517,12 @@ measurably compressed, as the following example illustrates.
 Calculating Change in Volume with Deformation: How Much Is Water Compressed at Great Ocean Depths?
 </div>
 Calculate the fractional decrease in volume ( $$ \frac{ \Delta V}{ V_{0}} $$ )
-for seawater at 5.00 km depth, where the force per unit area is $$ 5.00 \times
-10^{7} \N/ \mm $$.
+for seawater at 5.00 km depth, where the force per unit area is $$ 5.00 \times 10^{7} \N/ \mm $$.
 
 **Strategy**
 
 Equation $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0} $$ is the correct physical
-relationship. All quantities in the equation except $$ \frac{ \Delta V}{ V_{0}}
-$$ are known.
+relationship. All quantities in the equation except $$ \frac{ \Delta V}{ V_{0}} $$ are known.
 
 **Solution**
 
@@ -595,8 +588,7 @@ Hooke's Law
   $$ F=k\Delta L, $$
   </div>
 
-where $$ \Delta L $$ is the amount of deformation (the change in length), $$ F
-$$ is the applied force, and $$ k $$ is a proportionality constant that depends
+where $$ \Delta L $$ is the amount of deformation (the change in length), $$ F $$ is the applied force, and $$ k $$ is a proportionality constant that depends
 on the shape and composition of the object and the direction of the force. The
 relationship between the deformation and the applied force can also be written
 as
@@ -630,8 +622,7 @@ perpendicular to $$ L\_{0} $$ and parallel to the cross-sectional area $$ A $$.
     $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
   </div>
 
-where $$ B $$ is the bulk modulus, $$ V\_{0} $$ is the original volume, and $$
-\frac{ F}{A} $$ is the force per unit area applied uniformly inward on all
+where $$ B $$ is the bulk modulus, $$ V\_{0} $$ is the original volume, and $$ \frac{ F}{A} $$ is the force per unit area applied uniformly inward on all
 surfaces.
 
 ### Conceptual Questions
@@ -1237,8 +1228,7 @@ A farmer making grape juice fills a glass bottle to the brim and caps it tightly
 The juice expands more than the glass when it warms up, in such a way that the volume
 increases by 0.2% (that is, $$ \Delta V/ V_{0}=2\times 10^{-3} $$)
 relative to the space available. Calculate the magnitude of the normal force
-exerted by the juice per square centimeter if its bulk modulus is $$ 1.8\times
-10^{9}\text{N/m}^{2} $$, assuming the bottle does not break. In view of your
+exerted by the juice per square centimeter if its bulk modulus is $$ 1.8\times 10^{9}\text{N/m}^{2} $$, assuming the bottle does not break. In view of your
 answer, do you think the bottle will survive?
 
 </div>
@@ -1323,10 +1313,7 @@ Water freezing in a confined space can exert a pressure of approximately $$ 2.0 
 <div class="problem" markdown="1">
 This problem returns to the tightrope walker studied
 in Example 2 of [Normal Tension and Other Examples Of Forces](./ch4NormalTensionAndOtherExamplesOfForces),
-who created a tension of $$ 3.94
-\times 10^
-{3}N $$
-in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
+who created a tension of $$ 3.94 \times 10^ {3}N $$ in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
 supporting pole. Calculate how much this tension stretches the steel wire if it
 was originally 15 m long and 0.50 cm in diameter.
 
@@ -1363,8 +1350,7 @@ The steel wire stretches by approximately $$ 1.4 \text{ cm} $$ under the tightro
 <div class="problem" markdown="1">
 The pole in [Figure 10](#Figure10) is at a $$ 90.0^\circ $$
 bend in a power line and is therefore subjected to more shear force than poles
-in straight parts of the line. The tension in each line is $$ 4.00 \times
-10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm
+in straight parts of the line. The tension in each line is $$ 4.00 \times 10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm
 diameter, and can be considered to have half the stiffness of hardwood.
 (a) Calculate the compression of the pole.
 (b) Find how much it bends and in what direction.
@@ -1460,4 +1446,4 @@ strain
 shear deformation
 : deformation perpendicular to the original length of an object
 
-</div>
+</div>

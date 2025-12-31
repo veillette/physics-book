@@ -25,10 +25,8 @@ its period.
 We begin by defining the displacement to be the arc length $$s $$ . We see
 from [[Figure 1]](#Figure1) that the net force on the bob is tangent to the arc
 and equals $$-mg \sin \theta $$ .
-(The weight $$mg $$ has components $$mg \cos \theta $$ along the string and $$mg
-\sin \theta $$ tangent to the arc.) Tension in the string exactly cancels the component $$
-mg \cos \theta $$ parallel to the string. This leaves a _net_ restoring force
-back toward the equilibrium position at $$\theta =0 $$.
+(The weight $$mg $$ has components $$mg \cos \theta $$ along the string and $$mg \sin \theta $$ tangent to the arc.) Tension in the string exactly cancels the component $$
+mg \cos \theta $$ parallel to the string. This leaves a _net_ restoring force back toward the equilibrium position at $$\theta =0 $$.
 
 Now, if we can show that the restoring force is directly proportional to the
 displacement, then we have a simple harmonic oscillator. In trying to determine
@@ -42,9 +40,7 @@ is
  $$F\approx -mg\theta . $$
 </div>
 
-The displacement $$s $$ is directly proportional to $$\theta $$ . When $$\theta
-
-$$
+The displacement $$s $$ is directly proportional to $$\theta $$ . When $$\theta $$
 is expressed in radians, the arc length in a circle is related to its
 radius ( $$L $$ in this instance) by:
 
@@ -92,8 +88,7 @@ for the period of a simple pendulum. This result is interesting because of its
 simplicity. The only things that affect the period of a simple pendulum are its
 length and the acceleration due to gravity. The period is completely independent
 of other factors, such as mass. As with simple harmonic oscillators, the period
-$$T $$ for a pendulum is nearly independent of amplitude, especially if $$\theta
-$$ is less than about $$15 ^\circ $$ . Even simple pendulum clocks can be
+$$T $$ for a pendulum is nearly independent of amplitude, especially if $$\theta $$ is less than about $$15 ^\circ $$ . Even simple pendulum clocks can be
 finely adjusted and accurate.
 
 Note the dependence of $$T $$ on $$g $$ . If the length of a pendulum is
@@ -894,4 +889,4 @@ Length must increase by 0.0116%
 simple pendulum
 : an object with a small mass suspended from a light wire or string
 
-</div>
+</div>

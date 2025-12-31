@@ -80,8 +80,7 @@ where $$\tau $$
 circuit. As noted before, a small resistance $$R $$ allows the capacitor to
 charge faster. This is reasonable, since a larger current flows through a
 smaller resistance. It is also reasonable that the smaller the capacitor $$C $$
-, the less time needed to charge it. Both factors are contained in $$\tau
-=\text{RC} $$.
+, the less time needed to charge it. Both factors are contained in $$\tau =\text{RC} $$.
 
 More quantitatively, consider what happens when $$t=\tau =\text{RC} $$ . Then
 the voltage on the capacitor is
@@ -101,8 +100,7 @@ in [[Figure 1]](#Figure1)(b) illustrates.
 ### Discharging a Capacitor
 
 Discharging a capacitor through a resistor proceeds in a similar fashion,
-as [[Figure 2]](#Figure2) illustrates. Initially, the current is $${I}_
-{0}=\frac{ {V}_{0}}{R} $$ , driven by the initial voltage $${V}_{0} $$ on the
+as [[Figure 2]](#Figure2) illustrates. Initially, the current is $${I}_ {0}=\frac{ {V}_{0}}{R} $$ , driven by the initial voltage $${V}_{0} $$ on the
 capacitor. As the voltage decreases, the current and hence the rate of discharge
 decreases, implying another exponential formula for $$V $$ . Using calculus, the
 voltage $$V $$ on a capacitor $$C $$ being discharged through a resistor $$R $$
@@ -154,13 +152,11 @@ Integrated Concept Problem: Calculating Capacitor Size—Strobe Lights
 </div>
 High-speed flash photography was pioneered by Doc Edgerton in the 1930s, while he was a professor of electrical engineering at MIT. You might have seen examples of his work in the amazing shots of hummingbirds in motion, a drop of milk splattering on a table, or a bullet penetrating an apple (see [[Figure 3]](#Figure3)). To stop the motion and capture these pictures, one needs a high-intensity, very short pulsed flash, as mentioned earlier in this module.
 
-Suppose one wished to capture the picture of a bullet (moving at $$5.0 \times
-10^{2} \text{m/s} $$ )
+Suppose one wished to capture the picture of a bullet (moving at $$5.0 \times 10^{2} \text{m/s} $$ )
 that was passing through an apple. The duration of the flash is related to the
 $$\text{RC} $$ time constant, $$\tau $$ . What size capacitor would one need in
 the $$\text{RC} $$ circuit to succeed, if the resistance of the flash tube was
-$$10.0 \text{Ω} $$ ? Assume the apple is a sphere with a diameter of $$8.0
-\times 10^{-2} \text{m} \text{.} $$
+$$10.0 \text{Ω} $$ ? Assume the apple is a sphere with a diameter of $$8.0 \times 10^{-2} \text{m} \text{.} $$
 **Strategy**
 
 We begin by identifying the physical principles involved. This example deals
@@ -172,8 +168,7 @@ as $$\tau =\text{RC} $$.
 
 We wish to find $$C $$ , but we don’t know $$\tau $$ . We want the flash to be
 on only while the bullet traverses the apple. So we need to use the kinematic
-equations that describe the relationship between distance $$x $$ , velocity $$v
-$$ , and time $$t $$ \:
+equations that describe the relationship between distance $$x $$ , velocity $$v $$ , and time $$t $$ \:
 
 <div class="equation" >
  $$x=vt \text{ or } t=\frac{x}{v}. $$
@@ -212,8 +207,7 @@ only one bullet was fired.
 
 $$\text{RC} $$ circuits are commonly used for timing purposes. A mundane example
 of this is found in the ubiquitous intermittent wiper systems of modern cars.
-The time between wipes is varied by adjusting the resistance in an $$\text{RC}
-$$ circuit. Another example of an $$\text{RC} $$ circuit is found in novelty
+The time between wipes is varied by adjusting the resistance in an $$\text{RC} $$ circuit. Another example of an $$\text{RC} $$ circuit is found in novelty
 jewelry, Halloween costumes, and various toys that have battery-powered flashing
 lights. (See [[Figure 4]](#Figure4) for a timing circuit.)
 
@@ -317,8 +311,7 @@ An electronics kit in your computer! Build circuits with resistors, light bulbs,
 ### Section Summary
 
 - An $$\text{RC} $$ circuit is one that has both a resistor and a capacitor.
-- The time constant $$\tau $$ for an $$\text{RC} $$ circuit is $$\tau =\text{RC}
-  $$ .
+- The time constant $$\tau $$ for an $$\text{RC} $$ circuit is $$\tau =\text{RC} $$ .
 - When an initially uncharged (
   $${V}_{0}=0 $$ at $$t=0 $$ ) capacitor in series with a resistor is charged
   by a DC voltage source, the voltage rises, asymptotically approaching the emf
@@ -766,9 +759,8 @@ The time required is $$1.73 \times 10^{-2}$$ s or 17.3 ms.
 If you wish to take a picture of a bullet traveling at 500 m/s, then a very
 brief flash of light produced by an $$\text{RC} $$ discharge through a flash
 tube can limit blurring. Assuming 1.00 mm of motion during one $$\text{RC} $$
-constant is acceptable, and given that the flash is driven by a $$600 \text{-μF}
+constant is acceptable, and given that the flash is driven by a $$600 \text{-μF} $$
 
-$$
 capacitor, what is the resistance in the flash tube?
 
 </div>
@@ -866,5 +858,4 @@ capacitance
 : the maximum amount of electric potential energy that can be stored (or
 separated) for a given electric potential
 
-</div>
-$$
+</div>

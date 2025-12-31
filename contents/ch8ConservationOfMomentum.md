@@ -107,8 +107,7 @@ where $$ \vb{p}_{\text{tot}} $$ is the total momentum (the sum of the momenta of
 the individual objects in the system) and $$ {\vb{p}^{\prime} }_{\text{tot}} $$
 is the total momentum some time later. (The total momentum can be shown to be
 the momentum of the center of mass of the system.) An **isolated system** is
-defined to be one for which the net external force is zero $$ \left(\vb{F}\_
-{\text{net}}=0\right). $$
+defined to be one for which the net external force is zero $$ \left(\vb{F}\_ {\text{net}}=0\right). $$
 
 <div class="note" data-label="">
 <div class="title">
@@ -131,13 +130,9 @@ is zero $$ \left(\vb{F}_{\text{net}}=0\right). $$
 </div>
 
 Perhaps an easier way to see that momentum is conserved for an isolated system
-is to consider Newton’s second law in terms of momentum, $$ \vb{F}_
-{\text{net}}=\frac{ \Delta \vb{p}_{\text{tot}}}{\Delta t} $$. For an isolated
-system, $$ \left(\vb{F}_{\text{net}}=0\right)
-$$; thus, $$ \Delta \vb{p}_{\text{tot}}=0 $$, and $$ \vb{p}_
-{\text{tot}} $$ is constant.
-
-We have noted that the three length dimensions in nature— $$ x $$, $$ y $$, and
+is to consider Newton’s second law in terms of momentum, $$ \vb{F}_ {\text{net}}=\frac{ \Delta \vb{p}_{\text{tot}}}{\Delta t} $$. For an isolated
+system, $$ \left(\vb{F}_{\text{net}}=0\right) $$; thus, $$ \Delta \vb{p}_{\text{tot}}=0 $$, and $$ \vb{p}_
+{\text{tot}} $$ is constant. We have noted that the three length dimensions in nature— $$ x $$, $$ y $$, and
 $$ z $$—are independent, and it is interesting to note that momentum can be
 conserved in different ways along each dimension. For example, during projectile
 motion and where air resistance is negligible, momentum is conserved in the
@@ -250,8 +245,7 @@ or
  $$ \vb{p}_{\text{tot}}={\vb{p}^{\prime} }_{\text{tot}}\left(\text{isolated system}\right), $$
   </div>
 
-$$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$ {\vb{p}^{\prime}
-}_{\text{tot}} $$ is the total momentum some time later.
+$$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$ {\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time later.
 
 - An isolated system is defined to be one for which the net external force is
   zero $$ \left( \vb{F}\_{\text{net}}=0\right). $$
@@ -545,4 +539,4 @@ isolated system
 quark
 : fundamental constituent of matter and an elementary particle
 
-</div>
+</div>

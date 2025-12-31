@@ -68,14 +68,12 @@ We can derive a relationship between the forces in the simple hydraulic system
 shown in [[Figure 1]](#Figure1) by applying Pascal’s principle. Note first that
 the two pistons in the system are at the same height, and so there will be no
 difference in pressure due to a difference in depth. Now the pressure due to
-$${F}_{1} $$ acting on area $${A}_{1} $$ is simply $${P}_{1}=\frac{ {F}_{1}}{
-{A}_{1}} $$ , as defined by $$P=\frac{F}{A} $$ . According to Pascal’s
+$${F}_{1} $$ acting on area $${A}_{1} $$ is simply $${P}_{1}=\frac{ {F}_{1}}{ {A}_{1}} $$ , as defined by $$P=\frac{F}{A} $$ . According to Pascal’s
 principle, this pressure is transmitted undiminished throughout the fluid and to
 all walls of the container. Thus, a pressure $${P}_{2} $$ is felt at the other
 piston that is equal to $${P}_{1} $$ . That is $${P}_{1}={P}_{2} $$.
 
-But since $${P}_{2}=\frac{ {F}_{2}}{ {A}_{2}} $$ , we see that $$\frac{ {F}_
-{1}}{ {A}_{1}}=\frac{ {F}_{2}}{ {A}_{2}} $$.
+But since $${P}_{2}=\frac{ {F}_{2}}{ {A}_{2}} $$ , we see that $$\frac{ {F}_ {1}}{ {A}_{1}}=\frac{ {F}_{2}}{ {A}_{2}} $$.
 
 This equation relates the ratios of force to area in any hydraulic system,
 providing the pistons are at the same vertical height and that friction in the
@@ -116,8 +114,7 @@ get $${F}_{2} $$ on one side and substitute known values:
 
 **Solution**
 
-Pascal’s principle applied to hydraulic systems is given by $$\frac{ {F}_{1}}{
-{A}_{1}}=\frac{ {F}_{2}}{ {A}_{2}} $$ \:
+Pascal’s principle applied to hydraulic systems is given by $$\frac{ {F}_{1}}{ {A}_{1}}=\frac{ {F}_{2}}{ {A}_{2}} $$ \:
 
 <div class="equation" >
  $${F}_{2}=\frac{ {A}_{2}}{ {A}_{1}}{F}_{1}=\frac{ \pi r_{2}^{2}}{ \pi r_{1}^{2}}{F}_{1}=\frac{ {\left(1.25 cm\right)}^{2}}{ {\left(0.250 cm\right)}^{2}}×500 \text{N}= 1.25 \times 10^{4}  \text{N}. $$
@@ -373,8 +370,7 @@ Finally,
 In other words, the work output equals the work input.
 
 (b) If the system is not moving, friction would not play a role. With friction,
-we know there are losses, so that $${W}_{\text{out}}={W}_{\text{in}}-{W}_
-{\text{f}} $$ ; therefore, the work output is less than the work input. In other
+we know there are losses, so that $${W}_{\text{out}}={W}_{\text{in}}-{W}_ {\text{f}} $$ ; therefore, the work output is less than the work input. In other
 words, with friction, you need to push harder on the input piston than was
 calculated for the nonfriction case.
 
@@ -389,4 +385,4 @@ Pascal’s Principle
 : a change in pressure applied to an enclosed fluid is transmitted undiminished
 to all portions of the fluid and to the walls of its container
 
-</div>
+</div>

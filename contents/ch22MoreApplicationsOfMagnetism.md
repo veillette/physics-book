@@ -954,8 +954,7 @@ The magnetic force is incredibly small compared to gravity. The weight is about 
 <div class="problem" markdown="1">
 **Integrated Concepts**
 
-(a) What voltage will accelerate electrons to a speed of $$ 6.00 \times 10^{-7}
-\text{m/s} $$ ?
+(a) What voltage will accelerate electrons to a speed of $$ 6.00 \times 10^{-7} \text{m/s} $$ ?
 (b) Find the radius of curvature of the path of a _proton_ accelerated through
 this potential in a 0.500-T field and compare this with the radius of curvature
 of an electron accelerated through the same potential.
@@ -1741,8 +1740,7 @@ Real blood flow meters using the Hall effect work with millivolt signals and sop
 
 A surveyor 100 m from a long straight 200-kV DC power line suspects that its
 magnetic field may equal that of the Earth and affect compass readings. (a)
-Calculate the current in the wire needed to create a $$ 5.00 \times 10^{-5}
-\text{T} $$ field at this distance. (b) What is unreasonable about this
+Calculate the current in the wire needed to create a $$ 5.00 \times 10^{-5} \text{T} $$ field at this distance. (b) What is unreasonable about this
 result? (c) Which assumption or premise is responsible?
 
 </div>
@@ -1928,4 +1926,4 @@ magnetocardiogram (MCG)
 magnetoencephalogram (MEG)
 : a measurement of the brain’s magnetic field
 
-</div>
+</div>

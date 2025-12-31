@@ -92,13 +92,10 @@ orbiting at an average altitude of 1500 km above Earth’s surface.
 **Strategy**
 
 The period, or time for one orbit, is related to the radius of the orbit by
-Kepler’s third law, given in mathematical form in $$ \frac{ T_{1}^{2}}{ T_
-{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}} $$. Let us use the subscript 1 for the
+Kepler’s third law, given in mathematical form in $$ \frac{ T_{1}^{2}}{ T_ {2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}} $$. Let us use the subscript 1 for the
 Moon and the subscript 2 for the satellite. We are asked to find $$ T_{2} $$.
-The given information tells us that the orbital radius of the Moon is $$ r_
-{1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3
-\text{d} $$. The height of the artificial satellite above Earth’s surface is
-given, and so we must add the radius of Earth (6380 km) to get $$ r_{2}=\left(
+The given information tells us that the orbital radius of the Moon is $$ r_ {1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3
+\text{d} $$. The height of the artificial satellite above Earth’s surface is given, and so we must add the radius of Earth (6380 km) to get $$ r_{2}=\left(
 1500 +6380 \right)
 \text{km}=7880 \text{km} $$. Now all quantities are known, and so $$ T\_{2} $$
 can be found.
@@ -148,8 +145,7 @@ his universal law of gravitation. The point is to demonstrate that the force of
 gravity is the cause for Kepler’s laws (although we will only derive the third
 one).
 
-Let us consider a circular orbit of a small mass $$ m $$ around a large mass $$
-M $$, satisfying the two conditions stated at the beginning of this section.
+Let us consider a circular orbit of a small mass $$ m $$ around a large mass $$ M $$, satisfying the two conditions stated at the beginning of this section.
 Gravity supplies the centripetal force to mass $$ m $$. Starting with Newton’s
 second law applied to circular motion,
 
@@ -215,8 +211,7 @@ determine the mass $$ M $$ of a parent body from the orbits of its satellites:
 
 If $$ r $$ and $$ T $$ are known for a satellite, then the mass $$ M $$ of the
 parent can be calculated. This principle has been used extensively to find the
-masses of heavenly bodies that have satellites. Furthermore, the ratio $$ r^{3}/
-T^{2} $$ should be a constant for all satellites of the same parent body (
+masses of heavenly bodies that have satellites. Furthermore, the ratio $$ r^{3}/ T^{2} $$ should be a constant for all satellites of the same parent body (
 because $$ \frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}} $$).
 (See [Table 1](#Table1)).
 
@@ -319,9 +314,7 @@ Gravity and Orbits
 
 ### Section Summary
 
-- Kepler’s laws are stated for a small mass $$ m $$ orbiting a larger mass $$ M
-
-  $$
+- Kepler’s laws are stated for a small mass $$ m $$ orbiting a larger mass $$ M $$
   in near-isolation. Kepler’s laws of planetary motion are then as follows:
 
   **Kepler’s first law**
@@ -342,7 +335,6 @@ Gravity and Orbits
   <div class="equation">
     $$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
   </div>
-  $$
 
 where $$ T $$ is the period (time for one orbit) and $$ r $$ is the average
 radius of the orbit.
@@ -554,8 +546,7 @@ Jupiter's mass is approximately 316 times Earth's mass. This enormous mass diffe
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Astronomical observations of our Milky Way galaxy indicate that it has a mass of about $$ 8.0\times 10^{11} $$
-solar masses. A star orbiting on the galaxy's periphery is about $$ 6.0\times
-10^{4} $$ light years from its center.
+solar masses. A star orbiting on the galaxy's periphery is about $$ 6.0\times 10^{4} $$ light years from its center.
 (a) What should the orbital period of
 that star be?
 (b) If its period is $$ 6.0\times 10^{7} $$ years instead, what is
@@ -792,4 +783,4 @@ its center of mass. Your instructor may also wish to have you calculate the
 escape velocity from this point on Eros.
 
 </div>
-</div>
+</div>

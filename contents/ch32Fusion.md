@@ -183,8 +183,7 @@ and
  $$n+{}^{1}\text{H}\to {}^{2}\text{H}+\gamma      \left(2.22 \text{MeV}\right). $$
 </div>
 
-Note that these last two reactions, and $${}^{2}\text{H}+{}^{2}\text{H}\to
-{}^{4}\text{He}+\gamma $$ , put most of their energy output into the $$\gamma $$
+Note that these last two reactions, and $${}^{2}\text{H}+{}^{2}\text{H}\to {}^{4}\text{He}+\gamma $$ , put most of their energy output into the $$\gamma $$
 ray, and such energy is difficult to utilize.
 
 The three keys to practical fusion energy generation are to achieve the
@@ -254,8 +253,7 @@ joules and then divided by the number of seconds in a year.
 The atomic mass of deuterium ( $${}^{2}\text{H} $$ )
 is 2.014102 u, while that of tritium ( $${}^{3}\text{H} $$ )
 is 3.016049 u, for a total of 5.032151 u per reaction. So a mole of reactants
-has a mass of 5.03 g, and in 1.00 kg there are $$\left(1000 \text{g}\right)
-/\left(5.03 \text{g/mol}\right) =198.8 \text{mol of reactants} $$ . The number
+has a mass of 5.03 g, and in 1.00 kg there are $$\left(1000 \text{g}\right) /\left(5.03 \text{g/mol}\right) =198.8 \text{mol of reactants} $$ . The number
 of reactions that take place is therefore
 
 <div class="equation" >
@@ -840,8 +838,7 @@ of the United States which is $$8 \times 10^{19} $$ J/y and that the deuterium
 in the oceans could be converted to energy with an efficiency of 32%. You must
 estimate or look up the amount of water in the oceans and take the deuterium
 content to be 0.015% of natural hydrogen to find the mass of deuterium
-available. Note that approximate energy yield of deuterium is $$ 3.37 \times
-10^{14} $$ J/kg.
+available. Note that approximate energy yield of deuterium is $$ 3.37 \times 10^{14} $$ J/kg.
 
 (b) Comment on how much time this is by any human measure. (It is not an
 unreasonable result, only an impressive one.)
@@ -881,4 +878,4 @@ proton-proton cycle
 : the combined reactions <sup>1</sup>H+<sup>1</sup>H→<sup>2</sup>H+_e_<sup> +</sup>+_v_<sub>e</sub>, <sup>1</sup>H+<sup>2</sup>H→<sup>3</sup>He+_γ_,
 and <sup>3</sup>He+<sup>3</sup>He→<sup>4</sup>He+<sup>1</sup>H+<sup>1</sup>H
 
-</div>
+</div>

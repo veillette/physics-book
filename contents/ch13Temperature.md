@@ -73,9 +73,7 @@ standard atmospheric pressure are commonly used.
 
 The **Celsius** scale (which replaced the slightly different _centigrade_ scale)
 has the freezing point of water at $$0\text{ºC} $$ and the boiling point at
-$$100\text{ºC} $$ . Its unit is the **degree Celsius** $$\left(\text{ºC}\right)
-
-$$
+$$100\text{ºC} $$ . Its unit is the **degree Celsius** $$\left(\text{ºC}\right) $$
 . On the **Fahrenheit** scale (still the most frequently used in the United
 States), the freezing point of water is at $$32\text{ºF} $$ and the boiling
 point is at $$212\text{ºF} $$ . The unit of temperature on this scale is the **degree Fahrenheit** $$\left(\text{ºF}\right) $$ . Note that a temperature
@@ -730,5 +728,4 @@ zeroth law of thermodynamics
 object is in thermal equilibrium with one of those objects, it is also in
 thermal equilibrium with the other object
 
-</div>
-$$
+</div>
