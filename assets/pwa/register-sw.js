@@ -5,10 +5,36 @@ layout: null
 (function () {
   'use strict';
 
-  // Debug flag: ?noPWA disables service worker registration
+  // Debug mode: Check for ?noPWA to enable/disable debug mode via localStorage
   const urlParams = new URLSearchParams(window.location.search);
+
   if (urlParams.has('noPWA')) {
-    console.warn('🔧 DEBUG MODE: Service Worker disabled via ?noPWA flag');
+    localStorage.setItem('debugNoPWA', 'true');
+    console.warn('🔧 DEBUG MODE ENABLED: Service Worker disabled. This setting persists across pages.');
+    console.warn('   To re-enable PWA, visit any page with ?enablePWA or run: localStorage.removeItem("debugNoPWA")');
+
+    // Unregister existing service worker if any
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        registrations.forEach(registration => {
+          registration.unregister();
+          console.log('Unregistered existing service worker');
+        });
+      });
+    }
+    return;
+  }
+
+  if (urlParams.has('enablePWA')) {
+    localStorage.removeItem('debugNoPWA');
+    console.log('✅ DEBUG MODE DISABLED: Service Worker will load on next page refresh');
+    // Don't return here - let it register the service worker
+  }
+
+  // Check if debug mode is active via localStorage
+  if (localStorage.getItem('debugNoPWA') === 'true') {
+    console.warn('🔧 DEBUG MODE: Service Worker disabled (localStorage flag set)');
+    console.warn('   To re-enable PWA, visit any page with ?enablePWA or run: localStorage.removeItem("debugNoPWA")');
     return;
   }
 
