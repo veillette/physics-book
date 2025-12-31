@@ -123,14 +123,28 @@ class MarkdownLinter {
       }
 
       // Track display math blocks
-      if (line.trim().startsWith('$$')) {
-        inMathBlock = !inMathBlock;
+      const trimmedLine = line.trim();
+      if (trimmedLine.startsWith('$$')) {
+        // Check if this is a single-line display math block
+        const isSingleLineBlock = trimmedLine.startsWith('$$') && trimmedLine.endsWith('$$') && trimmedLine.length > 4;
+
+        if (!isSingleLineBlock) {
+          // Multi-line block: toggle state
+          inMathBlock = !inMathBlock;
+        }
+        // For single-line blocks, skip all checks but don't toggle state
         newLines.push(line);
         continue;
       }
 
       // Skip linting inside code blocks
       if (inCodeBlock) {
+        newLines.push(line);
+        continue;
+      }
+
+      // Skip linting inside multi-line math blocks
+      if (inMathBlock) {
         newLines.push(line);
         continue;
       }
@@ -199,16 +213,50 @@ class MarkdownLinter {
       }
 
       // 5. Check for unbalanced inline math delimiters
-      if (!inMathBlock) {
-        const dollarCount = (line.match(/(?<!\\)\$/g) || []).length;
-        if (dollarCount % 2 !== 0) {
-          fileIssues.push({
-            line: lineNum,
-            type: 'unbalanced-math',
-            message: 'Unbalanced inline math delimiters ($)',
-            severity: 'error',
-          });
+      // Strategy: Extract all inline math regions first, then check the rest for currency
+      // This avoids false positives from numbers in scientific notation
+
+      // Find all inline math expressions $...$
+      const inlineMathRegions = [];
+      const mathRegex = /\$[^$]+\$/g;
+      let match;
+      while ((match = mathRegex.exec(line)) !== null) {
+        inlineMathRegions.push({ start: match.index, end: match.index + match[0].length });
+      }
+
+      // Check if currency dollar signs are outside math regions
+      const currencyRegex = /(?<!\$)\$(?!\$)\d+(?:,\d{3})*(?:\.\d+)?/g;
+      const currenciesToRemove = [];
+
+      while ((match = currencyRegex.exec(line)) !== null) {
+        const matchPos = match.index;
+        // Only remove if NOT inside any inline math region
+        const isInsideMath = inlineMathRegions.some(
+          region => matchPos >= region.start && matchPos < region.end
+        );
+        if (!isInsideMath) {
+          currenciesToRemove.push(match);
         }
+      }
+
+      // Remove currencies that are definitely outside math
+      let lineWithoutCurrency = line;
+      for (let i = currenciesToRemove.length - 1; i >= 0; i--) {
+        const curr = currenciesToRemove[i];
+        lineWithoutCurrency =
+          lineWithoutCurrency.substring(0, curr.index) +
+          lineWithoutCurrency.substring(curr.index + curr[0].length);
+      }
+
+      // Count unescaped dollar signs
+      const dollarCount = (lineWithoutCurrency.match(/(?<!\\)\$/g) || []).length;
+      if (dollarCount % 2 !== 0) {
+        fileIssues.push({
+          line: lineNum,
+          type: 'unbalanced-math',
+          message: 'Unbalanced inline math delimiters ($)',
+          severity: 'error',
+        });
       }
 
       // 6. Check for multiple consecutive blank lines (fix to single blank)
