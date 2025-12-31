@@ -65,7 +65,6 @@ class OrphanFileFinder {
     // Directory patterns to exclude (dynamically referenced files)
     this.excludedDirs = [
       'assets/pdf/', // PDFs are dynamically referenced in book-viewer.js
-      'assets/js/mathjax/a11y/', // MathJax accessibility modules loaded internally
     ];
 
     this.stats = {
