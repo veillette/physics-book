@@ -206,7 +206,8 @@ class OrphanFileFinder {
       for (const file of assetFiles) {
         const relativePath = path.join('assets', file).replace(/\\/g, '/');
         const isReferenced = this.checkIfReferenced(relativePath, file);
-        const isExcluded = this.excludedFiles.has(relativePath) || this.isInExcludedDir(relativePath);
+        const isExcluded =
+          this.excludedFiles.has(relativePath) || this.isInExcludedDir(relativePath);
 
         if (!isReferenced && !isExcluded) {
           this.stats.orphanFiles++;
