@@ -332,6 +332,7 @@ function parser() {
       const toggleButton = document.createElement('button');
       toggleButton.className = 'btn-link ui-toggle';
       toggleButton.setAttribute('title', 'Show/Hide Solution');
+      toggleButton.textContent = 'Show Solution';
       toggleWrapper.appendChild(toggleButton);
 
       // Mark solution section to skip MathJax processing initially
@@ -345,11 +346,15 @@ function parser() {
         const solution = e.currentTarget.closest('.solution');
         solution.classList.toggle('ui-solution-visible');
 
+        // Update button text
+        const isVisible = solution.classList.contains('ui-solution-visible');
+        e.currentTarget.textContent = isVisible ? 'Hide Solution' : 'Show Solution';
+
         // Typeset math when solution is first revealed
         const solutionSection = solution.querySelector('section');
         if (
           solutionSection &&
-          solution.classList.contains('ui-solution-visible') &&
+          isVisible &&
           solutionSection.getAttribute('data-math-typeset') === 'false'
         ) {
           solutionSection.setAttribute('data-math-typeset', 'true');
