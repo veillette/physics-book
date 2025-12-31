@@ -2,7 +2,7 @@
 layout: null
 ---
 // Service Worker for Physics Book PWA
-const CACHE_VERSION = '2025-12-31-fontawesome-pdf';
+const CACHE_VERSION = '2025-12-31-fix-mathjax-config';
 const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
 const BASE_URL = '{{ site.baseurl }}/';
 
@@ -23,6 +23,7 @@ const CORE_CACHE_FILES = [
   `${BASE_URL}assets/js/util.js`,
   `${BASE_URL}assets/js/search.js`,
   `${BASE_URL}assets/js/search-ui.js`,
+  `${BASE_URL}assets/js/icons.js`,
   `${BASE_URL}assets/pwa/register-sw.js`,
   `${BASE_URL}assets/manifest/manifest.json`,
   `${BASE_URL}assets/icon/icon-192x192.png`,

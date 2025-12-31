@@ -1,22 +1,15 @@
 import { BookConfig } from '../js/book-config.js';
 import { removeTrailingSlash, addTrailingSlash, mdToHtmlFix } from '../js/util.js';
-
-//# Inject the <link> tags for FontAwesome
-if (BookConfig.includes.fontawesome) {
-  const fa = document.createElement('link');
-  fa.rel = 'stylesheet';
-  fa.href = BookConfig.includes.fontawesome;
-  document.head.appendChild(fa);
-}
+import { getIcon } from '../js/icons.js';
 
 const BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
         <a href="#" class="btn toggle-summary" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars"></i>
+            <span class="menu-icon"></span>
         </a>
-        <div class="book-summary">
-        </div>
+        <nav class="book-summary" role="navigation" aria-label="Table of contents">
+        </nav>
 
-          <div class="book-body">
+          <main class="book-body" role="main">
             <div class="body-inner">
               <div class="page-wrapper" tabindex="-1">
                 <div class="page-inner">
@@ -26,7 +19,7 @@ const BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
                 </div>
               </div>
             </div>
-          </div>
+          </main>
         </div>`;
 
 function docReady(fn) {
@@ -56,6 +49,12 @@ function parser() {
   const bookBody = book.querySelector('.book-body');
   const toggleSummary = book.querySelector('.toggle-summary');
 
+  // Populate the menu icon
+  const menuIcon = toggleSummary.querySelector('.menu-icon');
+  if (menuIcon) {
+    menuIcon.innerHTML = getIcon('bars', '1.2em');
+  }
+
   toggleSummary.addEventListener('click', function (event) {
     book.classList.toggle('with-summary');
     event.preventDefault();
@@ -81,7 +80,7 @@ function parser() {
       const href = link.getAttribute('href');
       const parentLi = link.parentNode;
       const checkmarkIcon = document.createElement('i');
-      checkmarkIcon.className = 'fa-solid fa-check';
+      checkmarkIcon.innerHTML = getIcon('check', '1em');
       parentLi.insertBefore(checkmarkIcon, link);
 
       if (visitedLinks[href]) {
@@ -122,7 +121,8 @@ function parser() {
       const prevPage = document.createElement('a');
       prevPage.className = 'navigation navigation-prev';
       prevPage.href = prev;
-      prevPage.innerHTML = "<i class='fa-solid fa-chevron-left'></i>";
+      prevPage.setAttribute('aria-label', 'Previous page');
+      prevPage.innerHTML = getIcon('chevronLeft', '1.5em');
       bookBody.appendChild(prevPage);
     }
 
@@ -131,7 +131,8 @@ function parser() {
       const nextPage = document.createElement('a');
       nextPage.className = 'navigation navigation-next';
       nextPage.href = next;
-      nextPage.innerHTML = "<i class='fa-solid fa-chevron-right'></i>";
+      nextPage.setAttribute('aria-label', 'Next page');
+      nextPage.innerHTML = getIcon('chevronRight', '1.5em');
       bookBody.appendChild(nextPage);
     }
 
@@ -155,9 +156,9 @@ function parser() {
     const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
     if (isDarkMode) {
       document.body.classList.add('dark-mode');
-      toggleBtn.innerHTML = "<i class='fa-solid fa-sun'></i>";
+      toggleBtn.innerHTML = getIcon('sun', '1.2em');
     } else {
-      toggleBtn.innerHTML = "<i class='fa-solid fa-moon'></i>";
+      toggleBtn.innerHTML = getIcon('moon', '1.2em');
     }
 
     // Add click event listener to toggle dark mode
@@ -168,10 +169,10 @@ function parser() {
       // Update localStorage
       if (isDarkMode) {
         localStorage.setItem('darkMode', 'enabled');
-        toggleBtn.innerHTML = "<i class='fa-solid fa-sun'></i>";
+        toggleBtn.innerHTML = getIcon('sun', '1.2em');
       } else {
         localStorage.setItem('darkMode', 'disabled');
-        toggleBtn.innerHTML = "<i class='fa-solid fa-moon'></i>";
+        toggleBtn.innerHTML = getIcon('moon', '1.2em');
       }
     });
 
@@ -248,7 +249,7 @@ function parser() {
       pdfBtn.title = pdfTitle;
       pdfBtn.setAttribute('aria-label', pdfTitle);
       pdfBtn.setAttribute('download', '');
-      pdfBtn.innerHTML = "<i class='fa-solid fa-file-pdf'></i>";
+      pdfBtn.innerHTML = getIcon('filePdf', '1.2em');
       bookBody.appendChild(pdfBtn);
     }
   };
@@ -395,10 +396,11 @@ function parser() {
       const id = el.getAttribute('id');
       if (id) {
         const icon = document.createElement('i');
-        icon.className = 'fa-solid fa-link';
+        icon.innerHTML = getIcon('link', '0.875em');
         const a = document.createElement('a');
         a.className = 'header-link';
         a.setAttribute('href', '#' + id);
+        a.setAttribute('aria-label', `Link to section: ${el.textContent.trim()}`);
         a.appendChild(icon);
         el.insertBefore(a, el.firstChild);
       }
