@@ -1,6 +1,19 @@
 #!/usr/bin/env node
 /**
- * Regenerate the 5 failed combined chapter PDFs
+ * PDF Failure Recovery Script
+ *
+ * Regenerates failed combined chapter PDFs with extended timeouts and
+ * relaxed wait conditions. This script is called automatically by the
+ * GitHub Actions workflow when parallel generation reports failures.
+ *
+ * Configuration:
+ * - Extended timeout: 300s (vs standard 180s)
+ * - No strict networkidle requirement
+ * - Sequential processing to avoid resource contention
+ *
+ * Note: The hardcoded chapter list below reflects the chapters that
+ * historically failed during parallel generation. Update this list
+ * if different chapters fail in future runs.
  */
 
 import { chromium } from '@playwright/test';
@@ -202,7 +215,7 @@ async function generateCombinedPdf(browser, chapter) {
 }
 
 async function run() {
-  console.log('Regenerating 5 failed combined chapter PDFs\n');
+  console.log(`Regenerating ${failedChapters.length} failed combined chapter PDFs\n`);
 
   const browser = await chromium.launch({ headless: true });
 

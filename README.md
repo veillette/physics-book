@@ -30,15 +30,36 @@ This open-source textbook aims to make physics education accessible to everyone.
 Each page features a convenient PDF download button in the upper right corner:
 
 - **Chapter Pages**: Download the complete chapter with all sections
+- **Section Pages**: Download individual sections
 - **Preface & Summary**: Download the entire book as a single PDF
 
-PDFs are automatically generated weekly (every Sunday) via GitHub Actions and include:
+### Automated PDF Generation
 
-- Beautifully rendered mathematical equations
-- All figures and diagrams
+PDFs are automatically generated weekly (every Sunday at 00:00 UTC) via GitHub Actions using optimized parallel processing:
+
+- **309 PDFs** generated in ~60 minutes (plus 1 placeholder for complete book)
+- **587MB total** with beautifully rendered mathematical equations
+- All figures and diagrams included
 - Clean, print-optimized formatting
+- Automatic failure recovery and regeneration
 
-To manually generate PDFs locally, see [PDF Generation Documentation](./assets/pdf/README.md).
+### Available PDFs
+
+- **Section PDFs**: 241 individual section documents
+- **Chapter Intro PDFs**: 34 chapter introduction pages
+- **Combined Chapter PDFs**: 34 complete chapters with all sections
+- **Complete Book PDF**: Single PDF with entire textbook
+
+### Manual Generation
+
+For local PDF generation with parallel processing, see [PDF Generation Documentation](./assets/pdf/README.md).
+
+```bash
+# Quick method (30 minutes for all PDFs)
+npm run generate:pdf:install  # First time only
+bundle exec jekyll serve      # Terminal 1
+node scripts/generate-pdf-parallel.js  # Terminal 2
+```
 
 ## 📖 About the Project
 
@@ -157,6 +178,32 @@ We welcome contributions from the physics education community! Your help makes t
 - **Report Issues**: Found a bug or broken link? [Open an issue](https://github.com/veillette/physics-book/issues).
 
 For detailed project conventions, see [`claude.md`](./claude.md).
+
+## 🎉 Recent Improvements
+
+### December 2025 Updates
+
+**Performance & Accessibility:**
+- Removed Font Awesome dependency (~200KB savings)
+- Replaced icon fonts with Unicode symbols and CSS2
+- Added comprehensive ARIA labels and semantic HTML
+- Implemented skip navigation for keyboard users
+- Enhanced screen reader support
+
+**PDF Generation:**
+- Implemented parallel PDF generation (4x-8x faster)
+- Automated weekly regeneration via GitHub Actions
+- 309 PDFs generated in ~60 minutes
+- Automatic failure recovery system
+- Smart commits (only when PDFs change)
+
+**Infrastructure:**
+- Enhanced GitHub Actions workflows
+- Improved service worker caching
+- Better offline support
+- Automated quality checks (links, accessibility, content)
+
+See [`claude.md`](./claude.md) for complete details on recent improvements.
 
 ## 📝 License
 
