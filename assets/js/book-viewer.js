@@ -740,10 +740,19 @@ function parser() {
       !target.getAttribute('href').startsWith('#') &&
       !target.getAttribute('href').startsWith('https')
     ) {
+      const href = target.getAttribute('href');
+
+      // Don't intercept file downloads (PDF, ZIP, etc.)
+      const fileExtensions = /\.(pdf|zip|tar|gz|rar|7z|doc|docx|xls|xlsx|ppt|pptx)$/i;
+      if (fileExtensions.test(href)) {
+        // Let the browser handle file downloads normally
+        return;
+      }
+
       event.preventDefault();
-      const hrefRelative = addTrailingSlash(target.getAttribute('href'));
-      const href = new URL(hrefRelative, window.location.href).toString();
-      changePage(href);
+      const hrefRelative = addTrailingSlash(href);
+      const hrefAbsolute = new URL(hrefRelative, window.location.href).toString();
+      changePage(hrefAbsolute);
     }
   });
 }
