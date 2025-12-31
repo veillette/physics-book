@@ -525,7 +525,7 @@ Converting to joules (1 kW·h = 3.6 × 10⁶ J):
 
 Part (a): The average power consumption of 208 W is reasonable for a mid-sized appliance such as a refrigerator, dehumidifier, or home entertainment system. This calculation shows how to convert energy consumption expressed in kW·h per day (common on energy labels) into average power in watts. The 208-W average means the appliance draws this amount continuously when averaged over 24 hours, though actual instantaneous power may vary (for example, a refrigerator compressor cycles on and off).
 
-Part (b): The appliance consumes approximately $$ 6.6 \times 10^{9} $$ J (6.6 gigajoules) of energy annually. This large number in joules illustrates why electrical energy is more conveniently expressed in kilowatt-hours rather than joules for everyday applications. The conversion factor is 1 kW·h = 3.6 × 10⁶ J, so we can verify: 1825 kW·h × 3.6 × 10⁶ J/(kW·h) ≈ 6.6 × 10⁹ J. At a typical electricity rate of $0.10 per kW·h, this appliance would cost about $183 per year to operate, representing a significant ongoing expense.
+Part (b): The appliance consumes approximately $$ 6.6 \times 10^{9} $$ J (6.6 gigajoules) of energy annually. This large number in joules illustrates why electrical energy is more conveniently expressed in kilowatt-hours rather than joules for everyday applications. The conversion factor is 1 kW·h = 3.6 × 10⁶ J, so we can verify: 1825 kW·h × 3.6 × 10⁶ J/(kW·h) ≈ 6.6 × 10⁹ J. At a typical electricity rate of \$0.10 per kW·h, this appliance would cost about \$183 per year to operate, representing a significant ongoing expense.
 
 **Answer**
 
@@ -759,12 +759,12 @@ Part (a): The elevator motor's useful power output is 78.2 kW (approximately 105
 
 The counterbalancing system is an important practical feature mentioned in this problem. By counterbalancing most of the elevator's weight, the system ensures that the motor only needs to lift the net load (2500 kg) rather than the entire elevator plus passengers. However, the full mass (10,000 kg) must still be accelerated and decelerated, which is why we use the total mass when calculating kinetic energy. Without counterbalancing, elevator motors would need to be much more powerful and would consume far more energy.
 
-Part (b): The electricity cost for this single elevator trip is approximately 2.3 cents. While this seems small, consider that a busy office building elevator might make hundreds of trips per day. At 200 trips per day, the daily cost would be about $4.68, or roughly $140 per month for continuous operation. In a large building with multiple elevators, these costs add up significantly, which is why modern buildings invest in energy-efficient elevator systems with regenerative braking that can recover energy during descent.
+Part (b): The electricity cost for this single elevator trip is approximately 2.3 cents. While this seems small, consider that a busy office building elevator might make hundreds of trips per day. At 200 trips per day, the daily cost would be about \$4.68, or roughly \$140 per month for continuous operation. In a large building with multiple elevators, these costs add up significantly, which is why modern buildings invest in energy-efficient elevator systems with regenerative braking that can recover energy during descent.
 
 **Answer**
 
 (a) The useful power output is approximately 78.2 kW.
-(b) The electricity cost for this elevator trip is approximately $0.023 (2.3 cents).
+(b) The electricity cost for this elevator trip is approximately \$0.023 (2.3 cents).
 
 </div>
 </div>
