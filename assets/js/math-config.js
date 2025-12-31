@@ -1,4 +1,7 @@
 MathJax = {
+  loader: {
+    load: [],
+  },
   tex: {
     inlineMath: [
       ['$', '$'],
