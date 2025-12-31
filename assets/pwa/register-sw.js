@@ -5,6 +5,13 @@ layout: null
 (function () {
   'use strict';
 
+  // Debug flag: ?noPWA disables service worker registration
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.has('noPWA')) {
+    console.warn('🔧 DEBUG MODE: Service Worker disabled via ?noPWA flag');
+    return;
+  }
+
   // Check if service workers are supported
   if (!('serviceWorker' in navigator)) {
     console.warn('Service workers are not supported in this browser');
