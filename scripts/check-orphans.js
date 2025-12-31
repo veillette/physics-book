@@ -62,6 +62,11 @@ class OrphanFileFinder {
       'assets/icon/icon-512x512-maskable.png',
     ]);
 
+    // Directory patterns to exclude (dynamically referenced files)
+    this.excludedDirs = [
+      'assets/pdf/', // PDFs are dynamically referenced in book-viewer.js
+    ];
+
     this.stats = {
       totalFiles: 0,
       totalImages: 0,
@@ -201,7 +206,7 @@ class OrphanFileFinder {
       for (const file of assetFiles) {
         const relativePath = path.join('assets', file).replace(/\\/g, '/');
         const isReferenced = this.checkIfReferenced(relativePath, file);
-        const isExcluded = this.excludedFiles.has(relativePath);
+        const isExcluded = this.excludedFiles.has(relativePath) || this.isInExcludedDir(relativePath);
 
         if (!isReferenced && !isExcluded) {
           this.stats.orphanFiles++;
@@ -266,6 +271,10 @@ class OrphanFileFinder {
     ];
 
     return possibleRefs.some(ref => this.referencedPaths.has(ref));
+  }
+
+  isInExcludedDir(filePath) {
+    return this.excludedDirs.some(dir => filePath.startsWith(dir));
   }
 
   getFileSize(filePath) {
