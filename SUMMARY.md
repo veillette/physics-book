@@ -9,13 +9,13 @@ This introductory, algebra-based, college physics book is grounded with real-wor
 
 1. {: .preface} [Preface](contents/preface.md)
 
-2. {: .chapter} [Introduction: The Nature of Science and Physics](contents/ch1IntroductionTheNatureOfScienceAndPhysics.md)
+2. {: .chapter} [Introduction: The Nature of Science and Physics](contents/ch1IntroductionTheNatureOfScienceAndPhysics.md) [[PDF](assets/pdf/chapter-01-complete.pdf)]
    1. {: .section} [Physics: An Introduction](contents/ch1PhysicsAnIntroduction.md)
    2. {: .section} [Physical Quantities and Units](contents/ch1PhysicalQuantitiesAndUnits.md)
    3. {: .section} [Accuracy, Precision, and Significant Figures](contents/ch1AccuracyPrecisionAndSignificantFigures.md)
    4. {: .section} [Approximation](contents/ch1Approximation.md)
 
-3. {: .chapter} [Kinematics](contents/ch2Kinematics.md)
+3. {: .chapter} [Kinematics](contents/ch2Kinematics.md) [[PDF](assets/pdf/chapter-02-complete.pdf)]
    1. {: .section} [Displacement](contents/ch2Displacement.md)
    2. {: .section} [Vectors, Scalars, and Coordinate Systems](contents/ch2VectorsScalarsAndCoordinateSystems.md)
    3. {: .section} [Time, Velocity, and Speed](contents/ch2TimeVelocityAndSpeed.md)
@@ -25,14 +25,14 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    7. {: .section} [Falling Objects](contents/ch2FallingObjects.md)
    8. {: .section} [Graphical Analysis of One-Dimensional Motion](contents/ch2GraphicalAnalysisOfOneDimensionalMotion.md)
 
-4. {: .chapter} [Two-Dimensional Kinematics](contents/ch3TwoDimensionalKinematics.md)
+4. {: .chapter} [Two-Dimensional Kinematics](contents/ch3TwoDimensionalKinematics.md) [[PDF](assets/pdf/chapter-03-complete.pdf)]
    1. {: .section} [Kinematics in Two Dimensions: An Introduction](contents/ch3KinematicsInTwoDimensionsAnIntroduction.md)
    2. {: .section} [Vector Addition and Subtraction: Graphical Methods](contents/ch3VectorAdditionAndSubtractionGraphicalMethods.md)
    3. {: .section} [Vector Addition and Subtraction: Analytical Methods](contents/ch3VectorAdditionAndSubtractionAnalyticalMethods.md)
    4. {: .section} [Projectile Motion](contents/ch3ProjectileMotion.md)
    5. {: .section} [Addition of Velocities](contents/ch3AdditionOfVelocities.md)
 
-5. {: .chapter} [Dynamics: Force and Newton\'s Laws of Motion](contents/ch4Dynamics.md)
+5. {: .chapter} [Dynamics: Force and Newton\'s Laws of Motion](contents/ch4Dynamics.md) [[PDF](assets/pdf/chapter-04-complete.pdf)]
    1. {: .section} [Development of Force Concept](contents/ch4DevelopmentOfForceConcept.md)
    2. {: .section} [Newton’s First Law of Motion: Inertia](contents/ch4NewtonsFirstLawOfMotion.md)
    3. {: .section} [Newton’s Second Law of Motion: Concept of a System](contents/ch4NewtonsSecondLawOfMotion.md)
@@ -42,12 +42,12 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    7. {: .section} [Further Applications of Newton’s Laws of Motion](contents/ch4FurtherApplicationsOfNewtonsLawsOfMotion.md)
    8. {: .section} [Extended Topic: The Four Basic Forces—An Introduction](contents/ch4ExtendedTopics.md)
 
-6. {: .chapter} [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws.md)
+6. {: .chapter} [Further Applications of Newton\'s Laws: Friction, Drag, and Elasticity](contents/ch5FurtherApplicationsOfNewtonsLaws.md) [[PDF](assets/pdf/chapter-05-complete.pdf)]
    1. {: .section} [Friction](contents/ch5Friction.md)
    2. {: .section} [Drag Forces](contents/ch5DragForces.md)
    3. {: .section} [Elasticity: Stress and Strain](contents/ch5Elasticity.md)
 
-7. {: .chapter} [Uniform Circular Motion and Gravitation](contents/ch6UniformCircularMotionAndGravitation.md)
+7. {: .chapter} [Uniform Circular Motion and Gravitation](contents/ch6UniformCircularMotionAndGravitation.md) [[PDF](assets/pdf/chapter-06-complete.pdf)]
    1. {: .section} [Rotation Angle and Angular Velocity](contents/ch6RotationAngleAndAngularVelocity.md)
    2. {: .section} [Centripetal Acceleration](contents/ch6CentripetalAcceleration.md)
    3. {: .section} [Centripetal Force](contents/ch6CentripetalForce.md)
@@ -55,7 +55,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    5. {: .section} [Newton’s Universal Law of Gravitation](contents/ch6NewtonsUniversalLawOfGravitation.md)
    6. {: .section} [Satellites and Kepler’s Laws: An Argument for Simplicity](contents/ch6SatellitesAndKeplersLaws.md)
 
-8. {: .chapter} [Work, Energy, and Energy Resources](contents/ch7WorkEnergyAndEnergyResources.md)
+8. {: .chapter} [Work, Energy, and Energy Resources](contents/ch7WorkEnergyAndEnergyResources.md) [[PDF](assets/pdf/chapter-07-complete.pdf)]
    1. {: .section} [Work: The Scientific Definition](contents/ch7WorkTheScientificDefinition.md)
    2. {: .section} [Kinetic Energy and the Work-Energy Theorem](contents/ch7KineticEnergyAndTheWorkEnergyTheorem.md)
    3. {: .section} [Gravitational Potential Energy](contents/ch7GravitationalPotentialEnergy.md)
@@ -66,7 +66,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    8. {: .section} [Work, Energy, and Power in Humans](contents/ch7WorkEnergyAndPowerInHumans.md)
    9. {: .section} [World Energy Use](contents/ch7WorldEnergyUse.md)
 
-9. {: .chapter} [Linear Momentum and Collisions](contents/ch8LinearMomentumAndCollisions.md)
+9. {: .chapter} [Linear Momentum and Collisions](contents/ch8LinearMomentumAndCollisions.md) [[PDF](assets/pdf/chapter-08-complete.pdf)]
    1. {: .section} [Linear Momentum and Force](contents/ch8LinearMomentumAndForce.md)
    2. {: .section} [Impulse](contents/ch8Impulse.md)
    3. {: .section} [Conservation of Momentum](contents/ch8ConservationOfMomentum.md)
@@ -75,7 +75,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
    6. {: .section} [Collisions of Point Masses in Two Dimensions](contents/ch8CollisionsOfPointMassesInTwoDimensions.md)
    7. {: .section} [Introduction to Rocket Propulsion](contents/ch8IntroductionToRocketPropulsion.md)
 
-10. {: .chapter} [Statics and Torque](contents/ch9StaticsAndTorque.md)
+10. {: .chapter} [Statics and Torque](contents/ch9StaticsAndTorque.md) [[PDF](assets/pdf/chapter-09-complete.pdf)]
     1. {: .section} [The First Condition for Equilibrium](contents/ch9TheFirstConditionForEquilibrium.md)
     2. {: .section} [The Second Condition for Equilibrium](contents/ch9TheSecondConditionForEquilibrium.md)
     3. {: .section} [Stability](contents/ch9Stability.md)
@@ -83,7 +83,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. {: .section} [Simple Machines](contents/ch9SimpleMachines.md)
     6. {: .section} [Forces and Torques in Muscles and Joints](contents/ch9ForcesAndTorquesInMusclesAndJoints.md)
 
-11. {: .chapter} [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md)
+11. {: .chapter} [Rotational Motion and Angular Momentum](contents/ch10RotationalMotionAndAngularMomentum.md) [[PDF](assets/pdf/chapter-10-complete.pdf)]
     1. {: .section} [Angular Acceleration](contents/ch10AngularAcceleration.md)
     2. {: .section} [Kinematics of Rotational Motion](contents/ch10KinematicsOfRotationalMotion.md)
     3. {: .section} [Dynamics of Rotational Motion: Rotational Inertia](contents/ch10DynamicsOfRotationalMotion.md)
@@ -92,7 +92,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Collisions of Extended Bodies in Two Dimensions](contents/ch10CollisionsOfExtendedBodiesInTwoDimensions.md)
     7. {: .section} [Gyroscopic Effects: Vector Aspects of Angular Momentum](contents/ch10GyroscopicEffects.md)
 
-12. {: .chapter} [Fluid Statics](contents/ch11FluidStatics.md)
+12. {: .chapter} [Fluid Statics](contents/ch11FluidStatics.md) [[PDF](assets/pdf/chapter-11-complete.pdf)]
     1. {: .section} [What Is a Fluid?](contents/ch11WhatIsAFluid.md)
     2. {: .section} [Density](contents/ch11Density.md)
     3. {: .section} [Pressure](contents/ch11Pressure.md)
@@ -103,7 +103,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     8. {: .section} [Cohesion and Adhesion in Liquids: Surface Tension and Capillary Action](contents/ch11CohesionAndAdhesionInLiquids.md)
     9. {: .section} [Pressures in the Body](contents/ch11PressuresInTheBody.md)
 
-13. {: .chapter} [Fluid Dynamics](contents/ch12FluidDynamicsAndItsBiologicalApplications.md)
+13. {: .chapter} [Fluid Dynamics](contents/ch12FluidDynamicsAndItsBiologicalApplications.md) [[PDF](assets/pdf/chapter-12-complete.pdf)]
     1. {: .section} [Flow Rate and Its Relation to Velocity](contents/ch12FlowRateAndItsRelationsToVelocity.md)
     2. {: .section} [Bernoulli's Equation](contents/ch12BernoullisEquation.md)
     3. {: .section} [The Most General Applications of Bernoulli's Equation](contents/ch12TheMostGeneralApplicationsOfBernouillisEquation.md)
@@ -112,7 +112,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Motion of an Object is a Viscous Fluid](contents/ch12MotionOfAnObjectInAViscousFluid.md)
     7. {: .section} [Molecular Transport Phenomena](contents/ch12MolecularTransportPhenomena.md)
 
-14. {: .chapter} [Temperature, Kinetic Theory, and the Gas Laws](contents/ch13TemperatureKineticTheoryAndTheGasLaws.md)
+14. {: .chapter} [Temperature, Kinetic Theory, and the Gas Laws](contents/ch13TemperatureKineticTheoryAndTheGasLaws.md) [[PDF](assets/pdf/chapter-13-complete.pdf)]
     1. {: .section} [Temperature](contents/ch13Temperature.md)
     2. {: .section} [Thermal Expansion of Solids and Liquids](contents/ch13ThermalExpansionOfSolidsAndLiquids.md)
     3. {: .section} [The Ideal Gas Law](contents/ch13TheIdealGasLaws.md)
@@ -120,7 +120,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. {: .section} [Phase Changes](contents/ch13PhaseChanges.md)
     6. {: .section} [Humidity, Evaporation, and Boiling](contents/ch13HumidityEvaporationAndBoiling.md)
 
-15. {: .chapter} [Heat and Heat Transfer Methods](contents/ch14HeatAndHeatTransfers.md)
+15. {: .chapter} [Heat and Heat Transfer Methods](contents/ch14HeatAndHeatTransfers.md) [[PDF](assets/pdf/chapter-14-complete.pdf)]
     1. {: .section} [Heat](contents/ch14Heat.md)
     2. {: .section} [Temperature Change and Heat Capacity](contents/ch14TemperatureChangeAndHeatCapacity.md)
     3. {: .section} [Phase Change and Latent Heat](contents/ch14PhaseChangeAndLatentHeat.md)
@@ -129,7 +129,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Convection](contents/ch14Convection.md)
     7. {: .section} [Radiation](contents/ch14Radiation.md)
 
-16. {: .chapter} [Thermodynamics](contents/ch15Thermodynamics.md)
+16. {: .chapter} [Thermodynamics](contents/ch15Thermodynamics.md) [[PDF](assets/pdf/chapter-15-complete.pdf)]
     1. {: .section} [The First Law of Thermodynamics](contents/ch15TheFirstLawOfThermodynamics.md)
     2. {: .section} [The First Law of Thermodynamics and Some Simple Processes](contents/ch15TheFirstLawOfThermodynamicsAndSomeSimpleProcesses.md)
     3. {: .section} [Introduction to the Second Law of Thermodynamics](contents/ch15IntroductionToTheSecondLawOfThermodynamics.md)
@@ -138,7 +138,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy](contents/ch15EntropyAndTheSecondLaw.md)
     7. {: .section} [Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation](contents/ch15StatisticalInterpretationOfEntropy.md)
 
-17. {: .chapter} [Oscillatory Motion and Waves](contents/ch16OscillatoryMotionAndWaves.md)
+17. {: .chapter} [Oscillatory Motion and Waves](contents/ch16OscillatoryMotionAndWaves.md) [[PDF](assets/pdf/chapter-16-complete.pdf)]
     1. {: .section} [Hooke’s Law: Stress and Strain Revisited](contents/ch16HookesLaw.md)
     2. {: .section} [Period and Frequency in Oscillations](contents/ch16PeriodAndFrequencyInOscillations.md)
     3. {: .section} [Simple Harmonic Motion: A Special Periodic Motion](contents/ch16SimpleHarmonicMotion.md)
@@ -151,7 +151,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     10. [Superposition and Interference](contents/ch16SuperpositionAndResonance.md)
     11. {: .section} [Energy in Waves: Intensity](contents/ch16EnergyInWaves.md)
 
-18. {: .chapter} [Physics of Hearing](contents/ch17PhysicsOfHearing.md)
+18. {: .chapter} [Physics of Hearing](contents/ch17PhysicsOfHearing.md) [[PDF](assets/pdf/chapter-17-complete.pdf)]
     1. {: .section} [Sound](contents/ch17Sound.md)
     2. {: .section} [Speed of Sound, Frequency, and Wavelength](contents/ch17SpeedOfSoundFrequencyAndWavelength.md)
     3. {: .section} [Sound Intensity and Sound Level](contents/ch17SoundIntensityAndSoundLevel.md)
@@ -160,7 +160,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Hearing](contents/ch17Hearing.md)
     7. {: .section} [Ultrasound](contents/ch17Ultrasound.md)
 
-19. {: .chapter} [Electric Charge and Electric Field](contents/ch18ElectricChargeAndElectricField.md)
+19. {: .chapter} [Electric Charge and Electric Field](contents/ch18ElectricChargeAndElectricField.md) [[PDF](assets/pdf/chapter-18-complete.pdf)]
     1. {: .section} [Static Electricity and Charge: Conservation of Charge](contents/ch18StaticElectricityAndCharge.md)
     2. {: .section} [Conductors and Insulators](contents/ch18ConductorsAndInsulators.md)
     3. {: .section} [Coulomb’s Law](contents/ch18CoulombsLaw.md)
@@ -170,7 +170,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     7. {: .section} [Conductors and Electric Fields in Static Equilibrium](contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md)
     8. {: .section} [Applications of Electrostatics](contents/ch18ApplicationOfElectrostatics.md)
 
-20. {: .chapter} [Electric Potential and Electric Field](contents/ch19ElectricPotentialAndElectricEnergy.md)
+20. {: .chapter} [Electric Potential and Electric Field](contents/ch19ElectricPotentialAndElectricEnergy.md) [[PDF](assets/pdf/chapter-19-complete.pdf)]
     1. {: .section} [Electric Potential Energy: Potential Difference](contents/ch19ElectricPotentialEnergy.md)
     2. {: .section} [Electric Potential in a Uniform Electric Field](contents/ch19ElectricPotentialInAUniformElectricField.md)
     3. {: .section} [Electrical Potential Due to a Point Charge](contents/ch19ElectricPotentialDueToAPointCharge.md)
@@ -179,7 +179,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Capacitors in Series and Parallel](contents/ch19CapacitorsInSeriesAndInParallel.md)
     7. {: .section} [Energy Stored in Capacitors](contents/ch19EnergyStoredInCapacitors.md)
 
-21. {: .chapter} [Electric Current, Resistance, and Ohm\'s Law](contents/ch20ElectricCurrentResistanceAndOhmsLaw.md)
+21. {: .chapter} [Electric Current, Resistance, and Ohm\'s Law](contents/ch20ElectricCurrentResistanceAndOhmsLaw.md) [[PDF](assets/pdf/chapter-20-complete.pdf)]
     1. {: .section} [Current](contents/ch20Current.md)
     2. {: .section} [Ohm’s Law: Resistance and Simple Circuits](contents/ch20OhmsLaw.md)
     3. {: .section} [Resistance and Resistivity](contents/ch20ResistanceAndResistivity.md)
@@ -188,7 +188,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Electric Hazards and the Human Body](contents/ch20ElectricHazardsAndTheHumanBody.md)
     7. {: .section} [Nerve Conduction–Electrocardiograms](contents/ch20NerveConductionElectrocardiograms.md)
 
-22. {: .chapter} [Circuits and DC Instruments](contents/ch21IntroductionToCircuitsAndDCInstruments.md)
+22. {: .chapter} [Circuits and DC Instruments](contents/ch21IntroductionToCircuitsAndDCInstruments.md) [[PDF](assets/pdf/chapter-21-complete.pdf)]
     1. {: .section} [Resistors in Series and Parallel](contents/ch21ResistorsInSeriesAndInParallel.md)
     2. {: .section} [Electromotive Force: Terminal Voltage](contents/ch21ElectromotiveForce.md)
     3. {: .section} [Kirchhoff’s Rules](contents/ch21KirchhoffsRules.md)
@@ -196,7 +196,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. {: .section} [Null Measurements](contents/ch21NullMeasurements.md)
     6. {: .section} [DC Circuits Containing Resistors and Capacitors](contents/ch21DCCircuitsContainingResistorsAndCapacitors.md)
 
-23. {: .chapter} [Magnetism](contents/ch22Magnetism.md)
+23. {: .chapter} [Magnetism](contents/ch22Magnetism.md) [[PDF](assets/pdf/chapter-22-complete.pdf)]
     1. {: .section} [Magnets](contents/ch22Magnets.md)
     2. {: .section} [Ferromagnets and Electromagnets](contents/ch22FerromagnetsAndElectromagnets.md)
     3. {: .section} [Magnetic Fields and Magnetic Field Lines](contents/ch22MagneticFieldsAndMagneticFieldLines.md)
@@ -209,7 +209,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     10. [Magnetic Force between Two Parallel Conductors](contents/ch22MagneticForceBetweenTwoParallelConductors.md)
     11. {: .section} [More Applications of Magnetism](contents/ch22MoreApplicationsOfMagnetism.md)
 
-24. {: .chapter} [Electromagnetic Induction, AC Circuits, and Electrical Technologies](contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md)
+24. {: .chapter} [Electromagnetic Induction, AC Circuits, and Electrical Technologies](contents/ch23ElectromagneticInductionACCircuitsAndElectricalTechnologies.md) [[PDF](assets/pdf/chapter-23-complete.pdf)]
     1. {: .section} [Induced Emf and Magnetic Flux](contents/ch23InducedEmfAndMagneticFlux.md)
     2. {: .section} [Faraday’s Law of Induction: Lenz’s Law](contents/ch23FaradaysLawOfInduction.md)
     3. {: .section} [Motional Emf](contents/ch23MotionalEmf.md)
@@ -223,13 +223,13 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     11. {: .section} [Reactance, Inductive and Capacitive](contents/ch23ReactanceInductiveAndCapacitive.md)
     12. {: .section} [RLC Series AC Circuits](contents/ch23RLCSeriesACircuits.md)
 
-25. {: .chapter} [Electromagnetic Waves](contents/ch24ElectromagneticWaves.md)
+25. {: .chapter} [Electromagnetic Waves](contents/ch24ElectromagneticWaves.md) [[PDF](assets/pdf/chapter-24-complete.pdf)]
     1. {: .section} [Maxwell’s Equations: Electromagnetic Waves Predicted and Observed](contents/ch24MaxwellsEquations.md)
     2. {: .section} [Production of Electromagnetic Waves](contents/ch24ProductionOfElectromagneticWaves.md)
     3. {: .section} [The Electromagnetic Spectrum](contents/ch24TheElectromagneticSpectrum.md)
     4. {: .section} [Energy in Electromagnetic Waves](contents/ch24EnergyInElectromagneticWaves.md)
 
-26. {: .chapter} [Geometric Optics](contents/ch25GeometricOptics.md)
+26. {: .chapter} [Geometric Optics](contents/ch25GeometricOptics.md) [[PDF](assets/pdf/chapter-25-complete.pdf)]
     1. {: .section} [The Ray Aspect of Light](contents/ch25TheRayAspectOfLight.md)
     2. {: .section} [The Law of Reflection](contents/ch25TheLawOfReflection.md)
     3. {: .section} [The Law of Refraction](contents/ch25TheLawOfRefraction.md)
@@ -238,7 +238,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Image Formation by Lenses](contents/ch25ImageFormationByLenses.md)
     7. {: .section} [Image Formation by Mirrors](contents/ch25ImageFormationByMirrors.md)
 
-27. {: .chapter} [Vision and Optical Instruments](contents/ch26VisionAndOpticalInstruments.md)
+27. {: .chapter} [Vision and Optical Instruments](contents/ch26VisionAndOpticalInstruments.md) [[PDF](assets/pdf/chapter-26-complete.pdf)]
     1. {: .section} [Physics of the Eye](contents/ch26PhysicsOfTheEye.md)
     2. {: .section} [Vision Correction](contents/ch26VisionCorrection.md)
     3. {: .section} [Color and Color Vision](contents/ch26ColorAndColorVision.md)
@@ -246,7 +246,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. {: .section} [Telescopes](contents/ch26Telescopes.md)
     6. {: .section} [Aberrations](contents/ch26Aberrations.md)
 
-28. {: .chapter} [Wave Optics](contents/ch27WaveOptics.md)
+28. {: .chapter} [Wave Optics](contents/ch27WaveOptics.md) [[PDF](assets/pdf/chapter-27-complete.pdf)]
     1. {: .section} [The Wave Aspect of Light: Interference](contents/ch27WaveAspectOfLight.md)
     2. {: .section} [Huygens\'s Principle: Diffraction](contents/ch27HuygensPrinciple.md)
     3. {: .section} [Young’s Double Slit Experiment](contents/ch27YoungsDoubleSlitExperiment.md)
@@ -257,7 +257,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     8. {: .section} [Polarization](contents/ch27Polarization.md)
     9. {: .section} [\*Extended Topic\* Microscopy Enhanced by the Wave Characteristics of Light](contents/ch27MicroscopyEnhancedByTheWaveCharacteristicsOfLight.md)
 
-29. {: .chapter} [Special Relativity](contents/ch28SpecialRelativity.md)
+29. {: .chapter} [Special Relativity](contents/ch28SpecialRelativity.md) [[PDF](assets/pdf/chapter-28-complete.pdf)]
     1. {: .section} [Einstein’s Postulates](contents/ch28EinsteinsPostulate.md)
     2. {: .section} [Simultaneity And Time Dilation](contents/ch28SimultaneityAndTimeDilation.md)
     3. {: .section} [Length Contraction](contents/ch28LengthContraction.md)
@@ -265,7 +265,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. {: .section} [Relativistic Momentum](contents/ch28RelativisticMomentum.md)
     6. {: .section} [Relativistic Energy](contents/ch28RelativisticEnergy.md)
 
-30. {: .chapter} [Introduction to Quantum Physics](contents/ch29QuantumPhysics.md)
+30. {: .chapter} [Introduction to Quantum Physics](contents/ch29QuantumPhysics.md) [[PDF](assets/pdf/chapter-29-complete.pdf)]
     1. {: .section} [Quantization of Energy](contents/ch29QuantizationOfEnergy.md)
     2. {: .section} [The Photoelectric Effect](contents/ch29ThePhotoelectricEffect.md)
     3. {: .section} [Photon Energies and the Electromagnetic Spectrum](contents/ch29PhotonEnergiesAndTheElectromagneticSpectrum.md)
@@ -275,7 +275,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     7. {: .section} [Probability: The Heisenberg Uncertainty Principle](contents/ch29Probability.md)
     8. {: .section} [The Particle-Wave Duality Reviewed](contents/ch29ParticleWaveDualityReviewed.md)
 
-31. {: .chapter} [Atomic Physics](contents/ch30AtomicPhysics.md)
+31. {: .chapter} [Atomic Physics](contents/ch30AtomicPhysics.md) [[PDF](assets/pdf/chapter-30-complete.pdf)]
     1. {: .section} [Discovery of the Atom](contents/ch30DiscoveryOfTheAtom.md)
     2. {: .section} [Discovery of the Parts of the Atom: Electrons and Nuclei](contents/ch30DiscoveryOfThePartsOfTheAtom.md)
     3. {: .section} [Bohr’s Theory of the Hydrogen Atom](contents/ch30BohrsTheoryOfTheHydrogenAtom.md)
@@ -286,7 +286,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     8. {: .section} [Quantum Numbers and Rules](contents/ch30QuantumNumbersAndRules.md)
     9. {: .section} [The Pauli Exclusion Principle](contents/ch30ThePauliExclusionPrinciple.md)
 
-32. {: .chapter} [Radioactivity and Nuclear Physics](contents/ch31RadioactivityAndNuclearPhysics.md)
+32. {: .chapter} [Radioactivity and Nuclear Physics](contents/ch31RadioactivityAndNuclearPhysics.md) [[PDF](assets/pdf/chapter-31-complete.pdf)]
     1. {: .section} [Nuclear Radioactivity](contents/ch31NuclearRadioactivity.md)
     2. {: .section} [Radiation Detection and Detectors](contents/ch31RadiationDetectionAndDetectors.md)
     3. {: .section} [Substructure of the Nucleus](contents/ch31SubstructureOfTheNucleus.md)
@@ -295,7 +295,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Binding Energy](contents/ch31BindingEnergy.md)
     7. {: .section} [Tunneling](contents/ch31Tunneling.md)
 
-33. {: .chapter} [Medical Applications of Nuclear Physics](contents/ch32MedicalApplicationsOfNuclearPhysics.md)
+33. {: .chapter} [Medical Applications of Nuclear Physics](contents/ch32MedicalApplicationsOfNuclearPhysics.md) [[PDF](assets/pdf/chapter-32-complete.pdf)]
     1. {: .section} [Medical Imaging and Diagnostics](contents/ch32MedicalImagingAndDiagnostics.md)
     2. {: .section} [Biological Effects of Ionizing Radiation](contents/ch32BiologicalEffectsAndIonizingRadiation.md)
     3. {: .section} [Therapeutic Uses of Ionizing Radiation](contents/ch32TherapeuticUsesOfIonizingRadiation.md)
@@ -304,7 +304,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     6. {: .section} [Fission](contents/ch32Fission.md)
     7. {: .section} [Nuclear Weapons](contents/ch32NuclearWeapons.md)
 
-34. {: .chapter} [Particle Physics](contents/ch33ParticlePhysics.md)
+34. {: .chapter} [Particle Physics](contents/ch33ParticlePhysics.md) [[PDF](assets/pdf/chapter-33-complete.pdf)]
     1. {: .section} [The Yukawa Particle and the Heisenberg Uncertainty Principle Revisited](contents/ch33TheYukawaParticleAndTheHeisenbergUncertaintyPrincipleRevisited.md)
     2. {: .section} [The Four Basic Forces](contents/ch33TheFourBasicForces.md)
     3. {: .section} [Accelerators Create Matter from Energy](contents/ch33AcceleratorsCreateMatterFromEnergy.md)
@@ -312,7 +312,7 @@ This introductory, algebra-based, college physics book is grounded with real-wor
     5. {: .section} [Quarks: Is That All There Is?](contents/ch33Quarks.md)
     6. {: .section} [GUTs: The Unification of Forces](contents/ch33GUTS.md)
 
-35. {: .chapter} [Frontiers of Physics](contents/ch34FrontiersOfPhysics.md)
+35. {: .chapter} [Frontiers of Physics](contents/ch34FrontiersOfPhysics.md) [[PDF](assets/pdf/chapter-34-complete.pdf)]
     1. {: .section} [Cosmology and Particle Physics](contents/ch34CosmologyAndParticlePhysics.md)
     2. {: .section} [General Relativity and Quantum Gravity](contents/ch34GeneralRelativityAndQuantumTheory.md)
     3. {: .section} [Superstrings](contents/ch34Superstrings.md)
