@@ -8,9 +8,7 @@ export const BookConfig = {
   baseHref: null, //  # or '//archive.cnx.org/contents'
   serverAddsTrailingSlash: false, //# Used because jekyll adds trailing slashes
   rootUrl: '',
-  includes: {
-    fontawesome: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css',
-  },
+  includes: {},
 };
 
 // merge the initial parameters with the ones from the window

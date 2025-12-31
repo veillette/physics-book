@@ -7,6 +7,7 @@
  */
 
 import searchManager from './search.js';
+import { getIcon } from '../js/icons.js';
 
 class SearchUI {
   constructor() {
@@ -47,7 +48,7 @@ class SearchUI {
     // Create search container
     const searchContainer = document.createElement('div');
     searchContainer.className = 'book-search';
-    searchContainer.innerHTML = `
+    const searchHTML = `
       <div class="search-input-wrapper">
         <input
           type="search"
@@ -58,11 +59,12 @@ class SearchUI {
           autocomplete="off"
         />
         <button class="search-clear" aria-label="Clear search" style="display: none;">
-          <i class="fa-solid fa-times"></i>
+          ${getIcon('times', '1em')}
         </button>
       </div>
       <div id="search-results" class="search-results" style="display: none;"></div>
     `;
+    searchContainer.innerHTML = searchHTML;
 
     // Insert at the top of the book summary
     container.insertBefore(searchContainer, container.firstChild);
