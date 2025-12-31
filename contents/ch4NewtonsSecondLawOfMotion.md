@@ -295,7 +295,7 @@ Entering known values gives
 Substituting the units $$ \kg \cdot \mss $$ for N yields
 
 <div class="equation">
- $$ a=\frac{51 \kg \cdot \mss }{24 \kg }=2.1 \mss . $$
+ $$ a=\frac{51 \kg \cdot \mss }{24 \kg }=2.13 \mss . $$
 </div>
 
 **Discussion**
