@@ -1,4 +1,8 @@
 MathJax = {
+  options: {
+    // Skip processing elements with this class (for lazy loading)
+    ignoreHtmlClass: 'mathjax-skip',
+  },
   tex: {
     inlineMath: [
       ['$', '$'],
