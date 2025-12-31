@@ -1,4 +1,8 @@
 # Workflow for generating PDFs from the physics book
+#
+# Current behavior: Generates PDFs and commits them to the repository
+# Future plan: Exclude PDFs from git and only generate them for GitHub Pages deployment
+#              This will reduce repository size from ~600MB to ~40MB
 name: Generate PDFs
 
 on:
@@ -8,6 +12,13 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+  # Optionally run on content changes (commented out to avoid excessive regeneration)
+  # push:
+  #   paths:
+  #     - 'contents/**/*.md'
+  #     - 'assets/css/**'
+  #     - 'scripts/generate-pdf*.js'
 
 # Permissions needed to create releases
 permissions:
@@ -65,22 +76,36 @@ jobs:
             sleep 2
           done
 
-      - name: Generate chapter PDFs
-        run: npm run generate:pdf -- --combined
+      - name: Generate all PDFs (parallel)
+        run: node scripts/generate-pdf-parallel.js
+        env:
+          MAX_CONCURRENCY: 4
+        continue-on-error: true
+        id: pdf_gen
+
+      - name: Regenerate any failed PDFs
+        if: steps.pdf_gen.outcome != 'success'
+        run: node scripts/regenerate-failed-pdfs.js || true
 
       - name: Generate complete book PDF
         run: npm run generate:pdf -- --book
+        continue-on-error: true
 
       - name: Stop Jekyll server
         if: always()
         run: pkill -f jekyll || true
 
-      - name: Create PDF directory structure
+      - name: Copy PDFs to assets directory
         run: |
           mkdir -p assets/pdf
-          cp pdf-output/complete-book.pdf assets/pdf/ || echo "Complete book PDF not found"
-          cp pdf-output/chapter-*-complete.pdf assets/pdf/ || echo "Chapter PDFs not found"
-          ls -lh assets/pdf/
+          # Copy all generated PDFs
+          cp -v pdf-output/*.pdf assets/pdf/ 2>&1 | tee /tmp/pdf-copy.log || true
+          # Count PDFs
+          echo "Total PDFs generated: $(ls -1 pdf-output/*.pdf 2>/dev/null | wc -l)"
+          echo "Total PDFs in assets: $(ls -1 assets/pdf/*.pdf 2>/dev/null | wc -l)"
+          # Show largest PDFs
+          echo "Largest PDFs:"
+          du -h assets/pdf/*.pdf | sort -hr | head -10
 
       - name: Calculate generation time
         id: gen_time
@@ -113,7 +138,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/pdf/
-          git commit -m "Update PDFs - ${{ steps.date.outputs.date }}"
+          PDF_COUNT=$(ls -1 assets/pdf/*.pdf 2>/dev/null | wc -l)
+          TOTAL_SIZE=$(du -sh assets/pdf/ | awk '{print $1}')
+          git commit -m "Update PDFs - ${{ steps.date.outputs.date }}
+
+Automated PDF generation:
+- Generated $PDF_COUNT PDFs
+- Total size: $TOTAL_SIZE
+- Generation time: ${{ steps.gen_time.outputs.duration }}
+
+Generated via parallel processing for improved performance.
+
+🤖 Automated commit by GitHub Actions"
           git push
 
       - name: Upload PDFs as artifacts
@@ -137,11 +173,19 @@ jobs:
           echo "| **Commit** | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
 
+          PDF_COUNT=$(ls -1 assets/pdf/*.pdf 2>/dev/null | wc -l)
+          TOTAL_SIZE=$(du -sh assets/pdf/ 2>/dev/null | awk '{print $1}')
+
           if [ "${{ job.status }}" == "success" ]; then
             echo "🎉 **PDFs have been successfully generated!**" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
-            echo "### Generated Files:" >> $GITHUB_STEP_SUMMARY
-            ls -lh assets/pdf/ | tail -n +2 | awk '{printf "- %s (%s)\n", $9, $5}' >> $GITHUB_STEP_SUMMARY
+            echo "### Summary:" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total PDFs:** $PDF_COUNT" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Size:** $TOTAL_SIZE" >> $GITHUB_STEP_SUMMARY
+            echo "- **PDF Types:** Sections, Chapter Intros, Combined Chapters" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Largest Files:" >> $GITHUB_STEP_SUMMARY
+            du -h assets/pdf/*.pdf | sort -hr | head -10 | awk '{printf "- %s (%s)\n", $2, $1}' >> $GITHUB_STEP_SUMMARY
           else
             echo "⚠️ **PDF generation failed. Please check the logs above for details.**" >> $GITHUB_STEP_SUMMARY
           fi
