@@ -378,8 +378,12 @@ function parser() {
     const doTypeset = () => {
       if (typeof MathJax !== 'undefined' && MathJax.startup && MathJax.startup.promise) {
         console.log('[MathJax Debug] MathJax is ready, calling typesetPromise');
-        MathJax.startup.promise = MathJax.startup.promise
+        // Don't reassign MathJax.startup.promise - just wait for it and then typeset
+        MathJax.startup.promise
           .then(() => {
+            console.log('[MathJax Debug] Clearing previous typeset content');
+            // Clear any previously typeset content in this element
+            MathJax.typesetClear([els]);
             console.log('[MathJax Debug] About to typeset element:', els);
             return MathJax.typesetPromise([els]);
           })
