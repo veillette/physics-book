@@ -130,15 +130,17 @@ async function generateCombinedPdf(browser, chapter) {
         await page.goto(urls[i], { waitUntil: 'networkidle', timeout: 120000 });
 
         // Wait for MathJax
-        await page.waitForFunction(
-          () => {
-            if (typeof MathJax !== 'undefined' && MathJax.startup) {
-              return MathJax.startup.promise !== undefined;
-            }
-            return true;
-          },
-          { timeout: 10000 }
-        ).catch(() => {});
+        await page
+          .waitForFunction(
+            () => {
+              if (typeof MathJax !== 'undefined' && MathJax.startup) {
+                return MathJax.startup.promise !== undefined;
+              }
+              return true;
+            },
+            { timeout: 10000 }
+          )
+          .catch(() => {});
 
         await page.waitForTimeout(2000);
 
@@ -222,9 +224,11 @@ async function run() {
 
   if (failed > 0) {
     console.log('\nFailed chapters:');
-    results.filter(r => !r.success).forEach(r => {
-      console.log(`  Chapter ${r.chapter}: ${r.error}`);
-    });
+    results
+      .filter(r => !r.success)
+      .forEach(r => {
+        console.log(`  Chapter ${r.chapter}: ${r.error}`);
+      });
   }
 
   return failed === 0;
