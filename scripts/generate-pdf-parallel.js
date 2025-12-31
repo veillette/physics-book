@@ -251,7 +251,7 @@ class ParallelPDFGenerator {
       const batchResults = await Promise.all(batch.map(task => task()));
       results.push(...batchResults);
 
-      const completed = Math.min((i + maxConcurrency), tasks.length);
+      const completed = Math.min(i + maxConcurrency, tasks.length);
       const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
       console.log(`Completed ${completed}/${tasks.length} in ${elapsed}s`);
     }
@@ -275,7 +275,7 @@ class ParallelPDFGenerator {
 
     // Check server
     console.log(`Checking server at ${this.baseUrl}...`);
-    if (!await this.checkServer()) {
+    if (!(await this.checkServer())) {
       console.error('\nError: Server not running!');
       console.error('Please start: bundle exec jekyll serve');
       return false;
@@ -289,7 +289,9 @@ class ParallelPDFGenerator {
     // Launch browsers
     console.log(`\nLaunching ${this.maxConcurrency} browser instances...`);
     const browsers = await Promise.all(
-      Array(this.maxConcurrency).fill(null).map(() => chromium.launch({ headless: true }))
+      Array(this.maxConcurrency)
+        .fill(null)
+        .map(() => chromium.launch({ headless: true }))
     );
     console.log('✓ Browsers ready');
 
@@ -343,9 +345,7 @@ class ParallelPDFGenerator {
       const combinedTasks = [];
       for (const chapter of chapters) {
         const browserIndex = combinedTasks.length % browsers.length;
-        combinedTasks.push(() =>
-          this.generateCombinedPdf(browsers[browserIndex], chapter)
-        );
+        combinedTasks.push(() => this.generateCombinedPdf(browsers[browserIndex], chapter));
       }
 
       // Use lower concurrency for combined PDFs (they're heavier)
@@ -356,12 +356,20 @@ class ParallelPDFGenerator {
       console.log('\n' + '='.repeat(60));
       console.log('FINAL SUMMARY');
       console.log('='.repeat(60));
-      console.log(`Sections:   ${this.stats.sections.success} succeeded, ${this.stats.sections.failed} failed`);
-      console.log(`Intros:     ${this.stats.intros.success} succeeded, ${this.stats.intros.failed} failed`);
-      console.log(`Combined:   ${this.stats.combined.success} succeeded, ${this.stats.combined.failed} failed`);
+      console.log(
+        `Sections:   ${this.stats.sections.success} succeeded, ${this.stats.sections.failed} failed`
+      );
+      console.log(
+        `Intros:     ${this.stats.intros.success} succeeded, ${this.stats.intros.failed} failed`
+      );
+      console.log(
+        `Combined:   ${this.stats.combined.success} succeeded, ${this.stats.combined.failed} failed`
+      );
 
-      const total = this.stats.sections.success + this.stats.intros.success + this.stats.combined.success;
-      const totalFailed = this.stats.sections.failed + this.stats.intros.failed + this.stats.combined.failed;
+      const total =
+        this.stats.sections.success + this.stats.intros.success + this.stats.combined.success;
+      const totalFailed =
+        this.stats.sections.failed + this.stats.intros.failed + this.stats.combined.failed;
       console.log(`TOTAL:      ${total} succeeded, ${totalFailed} failed`);
       console.log('='.repeat(60) + '\n');
 
