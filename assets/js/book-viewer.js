@@ -121,6 +121,7 @@ function parser() {
       const prevPage = document.createElement('a');
       prevPage.className = 'navigation navigation-prev';
       prevPage.href = prev;
+      prevPage.setAttribute('aria-label', 'Previous page');
       prevPage.innerHTML = getIcon('chevronLeft', '1.5em');
       bookBody.appendChild(prevPage);
     }
@@ -130,6 +131,7 @@ function parser() {
       const nextPage = document.createElement('a');
       nextPage.className = 'navigation navigation-next';
       nextPage.href = next;
+      nextPage.setAttribute('aria-label', 'Next page');
       nextPage.innerHTML = getIcon('chevronRight', '1.5em');
       bookBody.appendChild(nextPage);
     }
