@@ -2,7 +2,7 @@
 layout: null
 ---
 // Service Worker for Physics Book PWA
-const CACHE_VERSION = '2025-12-31-remove-unused-stub';
+const CACHE_VERSION = '2025-12-31-fontawesome-pdf';
 const CACHE_NAME = `physics-book-${CACHE_VERSION}`;
 const BASE_URL = '{{ site.baseurl }}/';
 
