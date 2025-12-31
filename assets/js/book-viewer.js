@@ -322,9 +322,29 @@ function parser() {
       toggleButton.className = 'btn-link ui-toggle';
       toggleButton.setAttribute('title', 'Show/Hide Solution');
       toggleWrapper.appendChild(toggleButton);
+
+      // Mark solution section to skip MathJax processing initially
+      const solutionSection = solution.querySelector('section');
+      if (solutionSection) {
+        solutionSection.classList.add('mathjax-skip');
+        solutionSection.setAttribute('data-math-typeset', 'false');
+      }
+
       toggleButton.addEventListener('click', function (e) {
         const solution = e.currentTarget.closest('.solution');
         solution.classList.toggle('ui-solution-visible');
+
+        // Typeset math when solution is first revealed
+        const solutionSection = solution.querySelector('section');
+        if (
+          solutionSection &&
+          solution.classList.contains('ui-solution-visible') &&
+          solutionSection.getAttribute('data-math-typeset') === 'false'
+        ) {
+          solutionSection.setAttribute('data-math-typeset', 'true');
+          solutionSection.classList.remove('mathjax-skip');
+          typesetMathLazy(solutionSection);
+        }
       });
     });
 
@@ -368,6 +388,18 @@ function parser() {
   };
 
   /**
+   * Lazy typeset for a specific element (used for hidden content)
+   * @param {Element} el - The element to typeset
+   */
+  const typesetMathLazy = el => {
+    if (typeof MathJax !== 'undefined' && MathJax.startup && MathJax.startup.promise) {
+      MathJax.startup.promise
+        .then(() => MathJax.typesetPromise([el]))
+        .catch(err => console.error('MathJax lazy typeset failed:', err.message));
+    }
+  };
+
+  /**
    * Typeset MathJax content after element is in DOM
    * @param {Element} els - The element containing math to typeset
    * @param {boolean} clearFirst - Whether to clear previously typeset content
@@ -381,6 +413,7 @@ function parser() {
             if (clearFirst) {
               MathJax.typesetClear([els]);
             }
+            // MathJax will automatically skip elements with 'mathjax-skip' class
             return MathJax.typesetPromise([els]);
           })
           .catch(err => console.error('MathJax typeset failed:', err.message));
