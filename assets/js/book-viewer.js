@@ -370,14 +370,17 @@ function parser() {
   /**
    * Typeset MathJax content after element is in DOM
    * @param {Element} els - The element containing math to typeset
+   * @param {boolean} clearFirst - Whether to clear previously typeset content
    */
-  const typesetMath = els => {
+  const typesetMath = (els, clearFirst = false) => {
     const doTypeset = () => {
       if (typeof MathJax !== 'undefined' && MathJax.startup && MathJax.startup.promise) {
         MathJax.startup.promise
           .then(() => {
-            // Clear any previously typeset content in this element
-            MathJax.typesetClear([els]);
+            // Clear any previously typeset content if this is a page change
+            if (clearFirst) {
+              MathJax.typesetClear([els]);
+            }
             return MathJax.typesetPromise([els]);
           })
           .catch(err => console.error('MathJax typeset failed:', err.message));
@@ -562,8 +565,8 @@ function parser() {
       altPage.append(...htmlDivElement.childNodes);
       newPageBeforeRender(altPage, href);
       bookPage.append(altPage);
-      // Typeset MathJax after content is in DOM
-      typesetMath(altPage);
+      // Typeset MathJax after content is in DOM (clear previous content)
+      typesetMath(altPage, true);
 
       book.classList.remove('loading');
 
