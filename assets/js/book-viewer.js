@@ -276,7 +276,8 @@ function parser() {
       captionText = captionText.replace(/\\\\/g, '\\');
       // Match entire math pattern and convert: ( \theta_r = \theta_i ) -> $\theta_r = \theta_i$
       captionText = captionText.replace(/\(\s+([^)]+?)\s+\)/g, '$$$1$$');
-      caption.innerHTML = captionText;
+      // Use textContent to avoid interpreting captionText as HTML
+      caption.textContent = captionText;
       figure.appendChild(caption);
       if (img.getAttribute('data-title')) {
         const title = document.createElement('div');
@@ -286,7 +287,8 @@ function parser() {
         titleText = titleText.replace(/\\\\/g, '\\');
         // Convert math delimiters
         titleText = titleText.replace(/\(\s+([^)]+?)\s+\)/g, '$$$1$$');
-        title.innerHTML = titleText;
+        // Use textContent to avoid interpreting titleText as HTML
+        title.textContent = titleText;
         figure.insertBefore(title, img);
       }
       figure.setAttribute('id', id);
