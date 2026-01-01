@@ -184,15 +184,14 @@ The cross-sectional area in this example is  $$A=\pi r^2=\left( 3.14\text{...}\r
  Substituting these into the expression for  $$L $$  gives
 
 <div class="equation" >
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
  L& =& \frac{
         \left(4\pi  \times 10^{-7}  \text{T}\cdot \text{m/A}\right)
         \left( 200 \right)^{2}
         \left( 1.26 \times 10^{-3}  {\text{m}}^{2} \right)
         }
         {0.100 \text{m}}\\
-  L& =& 0.632 \text{mH}\text{.}\end{array}
-$$
+  L& =& 0.632 \text{mH}\text{.}\end{array} $$
 
 </div>
 **Discussion**

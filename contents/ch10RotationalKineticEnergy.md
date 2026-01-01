@@ -147,11 +147,10 @@ angle $$ \theta $$ is given. Substituting the given values in the equation above
 yields
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \text{net}W&=& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
 \text{net}W&=& 64.0 \N \cdot \m .
-\end{array}
-$$
+\end{array} $$
 
 </div>
 Noting that $$ 1 \N·\m =1 \J $$,

@@ -528,11 +528,10 @@ To find the mass  $$m $$ ,
  is the density of the tissue and  $$\text{V} $$  is its volume. For this case,
 
 <div class="equation" >
-$$\begin{array}{lll}m& =& \rho \text{V}\\ $$
+$$\begin{array}{lll}m& =& \rho \text{V}\\
 & =& \left( 1000 {\text{kg/m}}^{3}\right) \left( \text{area}×\text{thickness}{\text{m}}^{3} \right) \\
 & =& \left( 1000 \text{kg}{\text{/m}}^{3} \right) \left(\pi \left(0.80 \times 10^{-3} \text{m} \right)^{2}/4\right) \left( 0.30 \times 10^{-6} \text{m}\right) \\
-& =& 0.151 \times 10^{-9} \text{kg} \text{.} \end{array}
-$$
+& =& 0.151 \times 10^{-9} \text{kg} \text{.} \end{array} $$
 
 </div>
 Therefore, the total energy absorbed by the tissue in the eye is the sum of  $$\text{Q} $$

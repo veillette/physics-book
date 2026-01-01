@@ -165,12 +165,11 @@ descending head first will have an area approximately $$ A=0.18 \mm $$ and a
 drag coefficient of approximately $$ C=0.70 $$. We find that
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v&=& \sqrt{\frac{2\left(75 \kg \right)\left(9.80 \mss \right)}{\left(1.21 \kg/\m^{3}\right)\left(0.70\right)\left(0.18 \mm\right)}}\\
 v&=& 98 \ms \\
 v&=& 350 \text{km/h}.
-\end{array}
-$$
+\end{array} $$
 
 </div>
 
