@@ -312,11 +312,11 @@ From Table 1, the energy of a single electron in a TV tube beam is $$ 4.0 \times
 **Solution**
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \text{Number of DNA molecules} &=& \frac{\text{Energy of electron}}{\text{Energy per DNA strand}}\\
 &=& \frac{4.0 \times 10^{-15}\J}{10^{-19}\J}\\
 &=& 4.0 \times 10^{4}\text{ molecules}
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -398,11 +398,11 @@ From Table 1, the annual world energy use is approximately $$ 4 \times 10^{20}\J
 **Solution**
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \text{Number of bombs} &=& \frac{\text{Annual energy use}}{\text{Energy per bomb}}\\
 &=& \frac{4 \times 10^{20}\J}{3.8 \times 10^{16}\J}\\
 &=& 1.05 \times 10^{4} \approx 10,000 \text{ bombs}
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -492,4 +492,4 @@ efficiency
 : a measure of the effectiveness of the input of energy to do work; useful
 energy or work divided by the total input of energy
 
-</div>
+</div>

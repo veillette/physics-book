@@ -119,4 +119,4 @@ scalar
 vector
 : a quantity that is described by both magnitude and direction
 
-</div>
+</div>

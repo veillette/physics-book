@@ -165,4 +165,4 @@ right-hand rule
 your right hand points when you curl your fingers in the direction of the disk’s
 rotation
 
-</div>
+</div>

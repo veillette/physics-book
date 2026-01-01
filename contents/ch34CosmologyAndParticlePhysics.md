@@ -127,8 +127,7 @@ variations in this speed due to so-called local motions or interactions with
 neighboring galaxies. Conversely, if a galaxy is found to be moving away from us
 at speed of 100 000 km/s based on its red shift, it is at a distance
 
-$$ d=v/{H}_{0}=\left(10 000\text{km/s}\right)/\left(20\text{km/s}\cdot \text{Mly}\right)=5000\text{Mly}=5\text{Gly} $$ or $$5 \times 10^{9} \text{ly}
-$$ . This last calculation is approximate, because it assumes the expansion rate
+$$ d=v/{H}_{0}=\left(10 000\text{km/s}\right)/\left(20\text{km/s}\cdot \text{Mly}\right)=5000\text{Mly}=5\text{Gly} $$ or $$5 \times 10^{9} \text{ly} $$ . This last calculation is approximate, because it assumes the expansion rate 
 was the same 5 billion years ago as now. A similar calculation in Hubble’s
 measurement changed the notion that the universe is in a steady state.
 
@@ -272,15 +271,14 @@ great for atoms to exist. And farther back yet, there was a time when the
 temperature and density were so great that nuclei could not exist. Even farther
 back in time, the temperature was so high that average kinetic energy was great
 enough to create short-lived particles, and the density was high enough to make
-this likely. When we extrapolate back to the point of $${W}^{±} $$ and $${Z}^{0} $$ production (thermal energies reaching 1 TeV, or a temperature of about $$
-10^{15} \text{K} $$ ), we reach the limits of what we know directly about particle physics. This is at a time about $$ 10^{-12} \text{s} $$ after the Big
+this likely. When we extrapolate back to the point of $${W}^{±} $$ and $${Z}^{0} $$ production (thermal energies reaching 1 TeV, or a temperature of about $$ 10^{15} \text{K} $$ ), we reach the limits of what we know directly about particle physics. This is at a time about $$ 10^{-12} \text{s} $$ after the Big
 Bang. While $$ 10^{-12} \text{s} $$ may seem to be negligibly close to the
 instant of creation, it is not. There are important stages before this time that
 are tied to the unification of forces. At those stages, the universe was at
 extremely high energies and average particle separations were smaller than we
 can achieve with accelerators. What happened in the early stages before
 
-10^{-12} \text{s} $$ is crucial to all later stages and is possibly discerned by
+10^{-12} \text{s} $$ is crucial to all later stages and is possibly discerned by $$
 observing present conditions in the universe. One of these is the smoothness of
 the CMBR.
 
@@ -1219,4 +1217,4 @@ superforce
 TOE epoch
 : before 10<sup>−43</sup> after the Big Bang
 
-</div>
+</div>

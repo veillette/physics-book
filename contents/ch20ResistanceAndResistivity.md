@@ -418,9 +418,7 @@ The hot resistance $$R $$ is obtained by entering known values into the above
 equation:
 
 <div class="equation" >
- $$\begin{array}{lll}R& =& {R}_{0}\left(1+\alpha \Delta T\right)\\ 
-& =& \left(0.350 \text{Ω}\right)\left[1+\left(4.5 \times 10^{-3}/\text{ºC}\right)\left(2830 \text{ºC}\right)\right]\\ 
-& =& 4.8 \text{Ω.}\end{array} $$
+ $$\begin{array}{lll}R& =& {R}_{0}\left(1+\alpha \Delta T\right)\\ & =& \left(0.350 \text{Ω}\right)\left[1+\left(4.5 \times 10^{-3}/\text{ºC}\right)\left(2830 \text{ºC}\right)\right]\\ & =& 4.8 \text{Ω.}\end{array} $$ 
 </div>
 **Discussion**
 
@@ -1260,4 +1258,4 @@ temperature coefficient of resistivity
 : an empirical quantity, denoted by _α_, which describes the change in
 resistance or resistivity of a material with temperature
 
-</div>
+</div>

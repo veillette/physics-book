@@ -1398,4 +1398,4 @@ detail in an object being observed. Derived by mathematical formula
 where $$n $$ is the refractive index of the medium between the lens and the
 specimen and $$\alpha =\theta /2 $$
 
-</div>
+</div>

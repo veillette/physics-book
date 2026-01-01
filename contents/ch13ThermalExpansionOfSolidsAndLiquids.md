@@ -1173,4 +1173,4 @@ change in temperature
 thermal stress
 : stress caused by thermal expansion or contraction
 
-</div>
+</div>

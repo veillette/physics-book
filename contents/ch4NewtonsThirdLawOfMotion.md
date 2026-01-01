@@ -102,7 +102,7 @@ no net force in the vertical direction. The problem is therefore one-dimensional
 along the horizontal direction. As noted, $$ \vb{f} $$ opposes the motion and is
 thus in the opposite direction of $$ \vb{F}_{\text{floor}} $$. Note that we do
 not include the forces $$ \vb{F}_{\text{prof}} $$ or $$ \vb{F}_{\text{cart}} $$
-because these are internal forces, and we do not include $$ \vb{F}_{\text{foot}} $$
+because these are internal forces, and we do not include $$ \vb{F}_{\text{foot}} $$
 
 because it acts on the floor, not on the system. There are no other
 significant forces acting on System 1. If the net external force can be found
@@ -130,7 +130,7 @@ The mass of System 1 is
 These values of $$ F_{\text{net}} $$ and $$ m $$ produce an acceleration of
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 a&=&\frac{ F_{\text{net}}}{m},\\
 a&=&\frac{126 \N }{84 \kg }=1.5 \mss .
 \end{array}
@@ -430,4 +430,4 @@ thrust
 : a reaction force that pushes a body forward in response to a backward force;
 rockets, airplanes, and cars are pushed forward by a thrust reaction force
 
-</div>
+</div>

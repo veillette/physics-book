@@ -104,8 +104,7 @@ for 1.0 A, and contains the same $$25 \text{-}\Omega $$ galvanometer with its
 $$50 \text{-μA} $$ sensitivity. Since $$R $$ and $$r $$ are in parallel, the
 voltage across them is the same.
 
-These $$IR $$ drops are $$IR={I}_{\text{G}}r $$ so that $$IR=\frac{ {I}_ {\text{G}}}{I}=\frac{R}{r} $$ . Solving for $$R $$ , and noting that $${I}_
-{\text{G}} $$ is $$50 \text{μA} $$ and $$I $$ is 0.999950 A, we have <div class="equation" > $$R=r\frac{ {I}_{\text{G}}}{I}=\left(25 \Omega \right)\frac{50 \text{μA}}{0.999950 \text{A}}= 1.25 \times 10^{-3}  \Omega . $$
+These $$IR $$ drops are $$IR={I}_{\text{G}}r $$ so that $$IR=\frac{ {I}_ {\text{G}}}{I}=\frac{R}{r} $$ . Solving for $$R $$ , and noting that $${I}_ {\text{G}} $$ is $$50 \text{μA} $$ and $$I $$ is 0.999950 A, we have <div class="equation" > $$R=r\frac{ {I}_{\text{G}}}{I}=\left(25 \Omega \right)\frac{50 \text{μA}}{0.999950 \text{A}}= 1.25 \times 10^{-3} \Omega . $$
 </div>
 
 ![A resistance R is placed in parallel with a galvanometer G having an internal resistance r to produce an ammeter.](../resources/Figure_21_04_05.jpg 'A small shunt resistance ( R ) placed in parallel with a galvanometer G produces an ammeter, the full-scale deflection of which depends on the choice of ( R ) . The larger the current to be measured, the smaller ( R ) must be. Most of the current (I) flowing through the meter is shunted through ( R ) to protect the galvanometer.  (Note that r  represents the internal resistance of the galvanometer.) Ammeters may also have multiple scales for greater flexibility in application. The various scales are achieved by switching various shunt resistances in parallel with the galvanometer—the greater the maximum current to be measured, the smaller the shunt resistance must be.')
@@ -599,4 +598,4 @@ an ammeter; the larger the current to be measured, the smaller $$R $$ must be;
 most of the current flowing through the meter is shunted through $$R $$ to
 protect the galvanometer
 
-</div>
+</div>

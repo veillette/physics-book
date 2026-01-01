@@ -835,4 +835,4 @@ magnetic field $$B $$ , over a period of time $$t $$
 peak emf
 : $${\text{emf}}_{0}=NAB\omega $$
 
-</div>
+</div>

@@ -104,8 +104,7 @@ The mass and the force constant are both given.
 
 2. Calculate the frequency:
    <div class="equation" >
-   $$\frac{1}{2\pi }\sqrt{72.6/{\text{s}}^{2}}=
-   1.3656/{\text{s}} \approx 1.36/\text{s}=1.36 \text{Hz}. $$
+ $$\frac{1}{2\pi }\sqrt{72.6/{\text{s}}^{2}}= 1.3656/{\text{s}} \approx 1.36/\text{s}=1.36 \text{Hz}. $$ 
    </div>
 
 3. You could use $$T=2\pi \sqrt{\frac{m}{k}} $$ to calculate the period, but it
@@ -235,11 +234,10 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
   described only by Hooke’s law. Such a system is also called a simple harmonic
   oscillator.
 * Maximum displacement is the amplitude $$X $$. The period $$T $$ and frequency
-  $$f $$ of a simple harmonic oscillator are given by $$T=2\pi \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m
-  $$ is the mass of the system. * Displacement in simple harmonic motion as a function of time is given by $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$
+ $$f $$ of a simple harmonic oscillator are given by $$T=2\pi \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m $$ is the mass of the system. * Displacement in simple harmonic motion as a function of time is given by $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$
 * The velocity is given by $$v\left(t\right)=-{v}_{\text{max}}\sin\frac{2\pi t}{T} $$ , where $${v}_{\text{max}}=\sqrt{k/m}X $$ .
 
-* The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos
+* The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos $$
   \frac{2\pi t}{T}.
 
 ### Conceptual Questions
@@ -748,4 +746,4 @@ simple harmonic oscillator
 spring, with the other end of the spring being connected to a rigid support such
 as a wall
 
-</div>
+</div>

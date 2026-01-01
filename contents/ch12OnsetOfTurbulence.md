@@ -70,9 +70,7 @@ be calculated from $$\overline{v}=Q/A=1.70 \text{m/s} $$
 Entering the known values into $${N}_{\text{R}}=\frac{2\rho vr}{\eta } $$ gives
 
 <div class="equation" >
- $$\begin{array}{lll}{N}_{\text{R}}& =& \frac{2\rho vr}{\eta }\\
-{N}_{\text{R}}& =& \frac{2\left({1025 \text{kg/m}}^{3}\right)\left(1.70 \text{m/s}\right)\left( 0.150 \times 10^{-3}  \text{m}\right)}{ 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}}\\ 
-{N}_{\text{R}}& =& 523\text{.} \end{array} $$
+ $$\begin{array}{lll}{N}_{\text{R}}& =& \frac{2\rho vr}{\eta }\\ {N}_{\text{R}}& =& \frac{2\left({1025 \text{kg/m}}^{3}\right)\left(1.70 \text{m/s}\right)\left( 0.150 \times 10^{-3} \text{m}\right)}{ 1.00 \times 10^{-3} \text{N}\cdot {\text{s/m}}^{2}}\\ {N}_{\text{R}}& =& 523\text{.} \end{array} $$ 
 </div>
 **Discussion**
 
@@ -110,8 +108,7 @@ similar techniques.
    $${N}_{\text{R}}=\frac{2\rho vr}{\eta }. $$
   </div>
 
-- For $${N}_{\text{R}} $$ below about 2000, flow is laminar. For $${N}_ {\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_
-  {\text{R}} $$ between 2000 and 3000, it may be either or both.
+- For $${N}_{\text{R}} $$ below about 2000, flow is laminar. For $${N}_ {\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_ {\text{R}} $$ between 2000 and 3000, it may be either or both. 
 
 ### Conceptual Questions
 
@@ -775,4 +772,4 @@ Reynolds number
 : a dimensionless parameter that can reveal whether a particular flow is laminar
 or turbulent
 
-</div>
+</div>

@@ -133,7 +133,7 @@ all processes, there is some heat transfer $${Q}_{\text{c}} $$ to the
 environment—and usually a very significant amount at that.
 
 In the conversion of energy to work, we are always faced with the problem of
-getting less out than we put in. We define _conversion efficiency_ $$\text{Eff} $$
+getting less out than we put in. We define _conversion efficiency_ $$\text{Eff} $$
 
 to be the ratio of useful work output to the energy input (or, in other
 words, the ratio of what we get to what we spend). In that spirit, we define the
@@ -197,7 +197,7 @@ Efficiency is given by:  $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}} $$ . The work
 $$W $$ was just found to be $$1.02 \times 10^{14} \text{J} $$ , and $${Q}_ {\text{h}} $$ is given, so the efficiency is
 
 <div class="equation" >
- $$\begin{array}{lll}
+$$\begin{array}{lll} $$
  \text{Eff}& =& \frac{ 1.02 \times 10^{14} \text{J}}{ 2.50 \times 10^{14} \text{J}}\\
    & =&  0.408\text{, or } 40.8\% \end{array}
 $$
@@ -700,4 +700,4 @@ Otto cycle
 of isochoric processes, that converts heat into work, e.g., the four-stroke
 engine cycle of intake, compression, ignition, and exhaust
 
-</div>
+</div>

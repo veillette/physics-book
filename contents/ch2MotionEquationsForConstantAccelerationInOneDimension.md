@@ -31,16 +31,15 @@ that $$ \Delta t=t_{f} $$, the final time on the stopwatch. When initial time is
 taken to be zero, we use the subscript 0 to denote initial values of position
 and velocity. That is, $$ x_{0} $$ is the *initial position* and $$ v_{0} $$ is
 the *initial velocity*. We put no subscripts on the final values. That is, $$ t $$ is the _final time_, $$ x $$ is the _final position_, and $$ v $$ is the
-_final velocity_. This gives a simpler expression for elapsed time—now, $$ \Delta t=t $$. It also simplifies the expression for displacement, which is now $$
-\Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity, which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified
+_final velocity_. This gives a simpler expression for elapsed time—now, $$ \Delta t=t $$. It also simplifies the expression for displacement, which is now $$ \Delta x=x-x_{0} $$. Also, it simplifies the expression for change in velocity, which is now $$ \Delta v=v-v_{0} $$. To summarize, using the simplified
 notation, with the initial time taken to be zero,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \Delta t&=& t\\
 \Delta x&=& x-x_{0}\\
 \Delta v&=& v-v_{0}
-\end{array} $$
+\end{array} $$ $$
 </div>
 where *the subscript 0 denotes an initial value and the absence of a subscript
 denotes a final value* in whatever motion is under consideration.
@@ -527,7 +526,7 @@ during the driver’s reaction time.
 1\. Identify the knowns and what we want to solve for. We know that
 
 \overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_
-{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$.
+{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$. $$
 
 2\. Identify the best equation to use. $$ x=x\_{0}+\overline{v}t $$ works well
 because the only unknown value is $$ x $$, which is what we want to solve for.
@@ -705,11 +704,11 @@ Rearrange to solve for $$ t $$.
 - Initial position and velocity are given a subscript 0; final values have no
   subscript. Thus,
   <div class="equation">
-  $$ \begin{array}{lll} 
+$$ \begin{array}{lll} $$
   \Delta t&=& t\\ 
   \Delta x&=& x-x_{0}\\
   \Delta v&=& v-v_{0}
-  \end{array} $$
+\end{array} $$ $$
   </div>
 
 - The following kinematic equations for motion with constant $$ a $$ are useful:
@@ -2361,4 +2360,4 @@ did it take Burt to complete the course?
 (a) $$ v=12.2 \ms $$; $$ a=4.07 \mss $$
 (b) $$ v=11.2 \ms $$
 </div>
-</div>
+</div>

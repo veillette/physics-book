@@ -372,4 +372,4 @@ electrocardiogram (ECG)
 : usually abbreviated ECG, a record of voltages created by depolarization and
 repolarization, especially in the heart
 
-</div>
+</div>

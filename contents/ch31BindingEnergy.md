@@ -259,8 +259,7 @@ expansion of the universe.
      $${\beta }^{+} $$
     decay), then an energy adjustment of 0.511 MeV per electron must be made. Also note that atomic masses may not be given in a problem; they can be found in tables.
 4. *For problems involving activity, the relationship of activity to half-life,
-   and the number of nuclei given in the equation $$R=\frac{0.693N}{ {t}_{1/2}}
-
+   and the number of nuclei given in the equation $$R=\frac{0.693N}{ {t}_{1/2}} $$
 can be very useful.* Owing to the fact that number of nuclei is involved, you
 will also need to be familiar with moles and Avogadro’s number. 5. *Perform the desired calculation; keep careful track of plus and minus signs
 as well as powers of 10.* 6. *Check the answer to see if it is reasonable: Does it make sense?\* Compare
@@ -453,4 +452,4 @@ binding energy per nucleon
 : the binding energy calculated per nucleon; it reveals the details of the
 nuclear force—larger the $$\text{BE}/A $$ , the more stable the nucleus
 
-</div>
+</div>

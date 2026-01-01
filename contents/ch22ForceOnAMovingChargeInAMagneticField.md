@@ -727,4 +727,4 @@ The small mass difference between U-235 and U-238 (compared to oxygen isotopes) 
 **(b) Yes, 2.5 cm is large enough to be practical for isotope separation. While challenging, electromagnetic separation was historically used to enrich uranium, and this separation distance is sufficient for collecting the isotopes separately.**
 
 </div>
-</div>
+</div>

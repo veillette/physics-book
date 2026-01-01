@@ -184,7 +184,7 @@ The cross-sectional area in this example is  $$A=\pi r^2=\left( 3.14\text{...}\r
  Substituting these into the expression for  $$L $$  gives
 
 <div class="equation" >
- $$\begin{array}{lll}
+$$\begin{array}{lll} $$
  L& =& \frac{
         \left(4\pi  \times 10^{-7}  \text{T}\cdot \text{m/A}\right)
         \left( 200 \right)^{2}
@@ -243,8 +243,7 @@ How much energy is stored in the 0.632 mH inductor of the preceding example when
 
 **Strategy**
 
-The energy is given by the equation $${E}_ {\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_
-{\text{ind}} $$ are known.
+The energy is given by the equation $${E}_ {\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_ {\text{ind}} $$ are known. 
 
 **Solution**
 
@@ -1064,7 +1063,7 @@ inductor
 : a device that exhibits significant self-inductance
 
 energy stored in an inductor
-: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
+: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
 
 
-</div>
+</div>

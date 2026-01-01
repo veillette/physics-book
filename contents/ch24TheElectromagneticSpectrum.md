@@ -291,7 +291,7 @@ waves, as we shall see.
 The wavelengths found in the preceding example are representative of AM, FM, and
 cell phones, and account for some of the differences in how they are broadcast
 and how well they travel. The most efficient length for a linear antenna, such
-as discussed in [Production of Electromagnetic Waves](../contents/ch24ProductionOfElectromagneticWaves), is $$\lambda /2 $$
+as discussed in [Production of Electromagnetic Waves](../contents/ch24ProductionOfElectromagneticWaves), is $$\lambda /2 $$
 
 , half the wavelength of the electromagnetic wave. Thus a very large antenna
 is needed to efficiently broadcast typical AM radio with its carrier wavelengths
@@ -528,7 +528,7 @@ To find the mass  $$m $$ ,
  is the density of the tissue and  $$\text{V} $$  is its volume. For this case,
 
 <div class="equation" >
- $$\begin{array}{lll}m& =& \rho \text{V}\\
+$$\begin{array}{lll}m& =& \rho \text{V}\\ $$
 & =& \left( 1000 {\text{kg/m}}^{3}\right) \left( \text{area}×\text{thickness}{\text{m}}^{3} \right) \\
 & =& \left( 1000 \text{kg}{\text{/m}}^{3} \right) \left(\pi \left(0.80 \times 10^{-3} \text{m} \right)^{2}/4\right) \left( 0.30 \times 10^{-6} \text{m}\right) \\
 & =& 0.151 \times 10^{-9} \text{kg} \text{.} \end{array}
@@ -2359,4 +2359,4 @@ processes in nuclear reactors and weapons. The lower end of the $$\gamma $$ -ray
 frequency range overlaps the upper end of the X-ray range, but $$\gamma $$ rays
 can have the highest frequency of any electromagnetic radiation
 
-</div>
+</div>

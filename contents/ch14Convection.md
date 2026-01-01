@@ -943,4 +943,4 @@ In reality, some heat is also lost through the pot walls and by radiation, so ac
 (b) Approximately **1.28 g** of coffee evaporates per minute.
 
 </div>
-</div>
+</div>

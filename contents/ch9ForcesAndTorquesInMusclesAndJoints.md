@@ -93,8 +93,7 @@ $$ \left(6.50 \kg \right)\left(9.80\mss \right)=63.7 \N $$,
 so that the ratio of the force exerted by the biceps to the total weight is
 
 <div class="equation">
- $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}=
-\frac{470}{63.7}=7.38. $$
+ $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}= \frac{470}{63.7}=7.38. $$ 
 </div>
 
 **Discussion**
@@ -210,8 +209,7 @@ in the figure may be taken to be accurate to three significant figures.
 By now, we sense that the second condition for equilibrium is a good place to
 start, and inspection of the known values confirms that it can be used to solve
 for $$ F_{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
-created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_ {\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_
-{\text{B}}– $$ is counterclockwise.
+created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_ {\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_ {\text{B}}– $$ is counterclockwise. 
 
 **Solution for (a)**
 
@@ -251,11 +249,11 @@ Starting with the vertical ($$ y $$) components, this yields
 Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F_{\text{V}y}&=& w_{\text{ub}}+w_{\text{box}}+ F_{\text{B}}
 \sin{29.0^\circ }\\
 F_{\text{V}y}&=& 833 \N +\left(4200 \N \right)\sin{29.0^\circ }
-\end{array} $$
+\end{array} $$ $$
 </div>
 yielding
 
@@ -625,7 +623,7 @@ $$ F_{\text{E}} = 470 \N - 24.5 \N - 39.2 \N = 406.3 \N \approx 407 \N $$
 Alternatively, using the torque method shown in the original solution:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F_{\text{B}}&=& 470 \N ;r_{1}=4.00 \text{cm};
 w_{\text{a}}=2.50 \kg ; r_{2}= 16.0 \text{cm};
 w_{\text{b}}=4.00 \kg ; r_{3}=38.0 \text{cm}\\
@@ -637,7 +635,7 @@ F_{\text{E}}&=& w_{\text{a}}
 +\left(4.00 \kg \right)\left(9.80 \mss \right)
 \left(\frac{38.0 \text{cm}}{4.00 \text{cm}}-1\right)\\
  &=& 407 \N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -1661,4 +1659,4 @@ scale under the hand to provide more information, if needed. You may wish to
 consult references to obtain reasonable mass values.
 
 </div>
-</div>
+</div>

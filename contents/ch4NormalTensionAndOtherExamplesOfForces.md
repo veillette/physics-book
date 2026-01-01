@@ -60,7 +60,7 @@ Common Misconception: Normal Force (N) vs. Newton (N)
 In this section we have introduced the quantity normal force, which is represented by the variable $$ \vb{N} $$. This should not be confused with the symbol for the newton, which is also
 represented by the letter N. These symbols are particularly important to
 distinguish because the units of a normal force ( $$ \vb{N} $$)
-happen to be newtons (N). For example, the normal force $$ \vb{N} that the floor exerts on a chair might be $$ \vb{N}=100 \N $$. One important difference is that normal force is a vector, while the newton is
+happen to be newtons (N). For example, the normal force $$ \vb{N} that the floor exerts on a chair might be $$ \vb{N}=100 \N $$. One important difference is that normal force is a vector, while the newton is $$
 simply a unit. Be careful not to confuse these letters in your calculations! You
 will encounter more similarities among variables and units as you proceed in
 physics. Another example of this is the quantity work ( $$ W $$)
@@ -172,10 +172,10 @@ Resolving Weight into Components
 
 When an object rests on an incline that makes an angle $$ \theta $$ with the
 horizontal, the force of gravity acting on the object is divided into two
-components: a force acting perpendicular to the plane, $$ \vb{w}_ {\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_
+components: a force acting perpendicular to the plane, $$ \vb{w}_ {\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_ $$
 {\parallel } $$. The perpendicular force of weight, $$ \vb{w}_
 {\perp } $$, is typically equal in magnitude and opposite in direction to the normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_
-{\parallel } $$, causes the object to accelerate down the incline. The force of friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward
+{\parallel } $$, causes the object to accelerate down the incline. The force of friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward $$
 along the plane.
 
 It is important to be careful when resolving the weight of the object into
@@ -199,16 +199,13 @@ Knowing this property, you can use trigonometry to determine the magnitude
 of the weight components:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \cos\left(\theta \right)&=& \frac{ w_{\perp }}{w}\\
 w_{\perp }&=& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
-\end{array} $$
-</div>
-<div class="equation">
-$$ \begin{array}{lll}
+\end{array} $$ </div> <div class="equation"> $$ \begin{array}{lll} 
 \sin\left(\theta \right)&=& \frac{ w_{\parallel }}{w}\\
 w_{\parallel }&=& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
-\end{array} $$
+\end{array} $$ $$
 </div>
 </div>
 
@@ -265,8 +262,7 @@ expect, the tension equals the weight of the supported mass:
 For a 5.00-kg mass, then (neglecting the mass of the rope) we see that
 
 <div class="equation">
- $$ T=mg =\left(5.00 \kg \right)
-\left(9.80 \mss \right)=49.0 \N . $$
+ $$ T=mg =\left(5.00 \kg \right) \left(9.80 \mss \right)=49.0 \N . $$ 
 </div>
 
 If we cut the rope and insert a spring, the spring would extend a length
@@ -336,22 +332,22 @@ The net external horizontal force $$ F_{\text{net}x}=0 $$,
 since the person is stationary. Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F_{\text{net}x}=0&=& T_{\text{L}x}-T_{\text{R}x}\\
 T_{\text{L}x}&=& T_{\text{R}x}.
-\end{array} $$
+\end{array} $$ $$
 </div>
 Now, observe [Figure 7](#Figure7). You can use trigonometry
 to determine the magnitude of $$ T_{\text{L}} $$
 and $$ T_{\text{R}} $$. Notice that:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \cos\left(5.0^\circ \right)&=& \frac{ T_{\text{L}x}}{ T_{\text{L}}}\\
 T_{\text{L}x}&=& T_{\text{L}}\cos\left(5.0^\circ \right)\\
 \cos\left(5.0^\circ \right)&=& \frac{ T_{\text{R}x}}{ T_{\text{R}}}\\
 T_{\text{R}x}&=& T_{\text{R}}\cos\left(5.0^\circ \right).
-\end{array} $$
+\end{array} $$ $$
 </div>
 Equating $$ T_{\text{L}x} $$ and $$ T_{\text{R}x} $$:
 
@@ -377,21 +373,19 @@ $$ T_{\text{R}y} $$, and $$ T $$. As we determined from the analysis in the
 horizontal direction, $$ T_{\text{L}}=T_{\text{R}}=T $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \sin\left(5.0^\circ \right)&=& \frac{ T_{\text{L}y}}{ T_{\text{L}}}\\
 T_{\text{L}y}=T_{\text{L}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \right)\\
 \sin\left(5.0^\circ \right)&=& \frac{ T_{\text{R}y}}{ T_{\text{R}}}\\
 T_{\text{R}y}=T_{\text{R}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \right).
-\end{array} $$
+\end{array} $$ $$
 </div>
 Now, we can substitute the values for $$ T_{\text{L}y} $$
 and $$ T_{\text{R}y} $$, into the net force equation in the vertical
 direction:
 
 <div class="equation">
- $$ \begin{array}{lll}
-{F}_{\text{net}y}&=& T_{\text{L}y}+T_{\text{R}y}-w=0\\
-{F}_{\text{net}y}&=& T\sin\left(5.0^\circ \right)+T\sin\left(5.0^\circ \right)-w=0\\ 2T\sin\left(5.0^\circ \right)-w&=& 0\\ 2T\sin\left(5.0^\circ \right)&=& w\end{array} $$
+ $$ \begin{array}{lll} {F}_{\text{net}y}&=& T_{\text{L}y}+T_{\text{R}y}-w=0\\ {F}_{\text{net}y}&=& T\sin\left(5.0^\circ \right)+T\sin\left(5.0^\circ \right)-w=0\\ 2T\sin\left(5.0^\circ \right)-w&=& 0\\ 2T\sin\left(5.0^\circ \right)&=& w\end{array} $$ 
 </div>
 and
 
@@ -1010,4 +1004,4 @@ tension
 connector, such as a rope or cable; when a rope supports the weight of an
 object, the force on the object due to the rope is called a tension force
 
-</div>
+</div>

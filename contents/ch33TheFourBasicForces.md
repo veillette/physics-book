@@ -248,4 +248,4 @@ the electromagnetic force between two charged particles
 quantum electrodynamics
 : the theory of electromagnetism on the particle scale
 
-</div>
+</div>

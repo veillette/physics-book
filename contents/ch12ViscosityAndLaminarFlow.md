@@ -64,7 +64,7 @@ while the top plate is moved to the right, dragging fluid with it. The layer (or
 lamina) of fluid in contact with either plate does not move relative to the
 plate, and so the top layer moves at $$v $$ while the bottom layer remains at
 rest. Each successive layer from the top down exerts a force on the one below
-it, trying to drag it along, producing a continuous variation in speed from $$v $$
+it, trying to drag it along, producing a continuous variation in speed from $$v $$
 
 to 0 as shown. Care is taken to ensure that the flow is laminar; that is, the
 layers do not mix. The motion in [[Figure 3]](#Figure3) is like a continuous
@@ -384,9 +384,7 @@ Solving for $${P}_{2} $$ yields
  Substituting this and the other known values yields
 
 <div class="equation" >
- $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3}  \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2}  \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3}  \text{m} \right)}^{4}}\right]  \left( 1.20 \times 10^{-7}  {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3}  {\text{N/m}}^{2}\\
-{P}_{2}& =&  1.62 \times 10^{4}  {\text{N/m}}^{2}\text{.}\end{array}
-$$
+ $$\begin{array}{lll}{P}_{2}& =& \left[ \frac{8\left( 1.00 \times 10^{-3} \text{N}\cdot {\text{s/m}}^{2}\right)\left( 2.50 \times 10^{-2} \text{m}\right)}{\pi { \left( 0.150 \times 10^{-3} \text{m} \right)}^{4}}\right] \left( 1.20 \times 10^{-7} {\text{m}}^{3}\text{/s}\right)+ 1.066 \times 10^{3} {\text{N/m}}^{2}\\ {P}_{2}& =& 1.62 \times 10^{4} {\text{N/m}}^{2}\text{.}\end{array} $$ 
 
 </div>
 **Discussion**
@@ -1550,4 +1548,4 @@ Poiseuille’s law
 : the rate of laminar flow of an incompressible fluid in a tube: _Q = (P<sub>
 2</sub> − P<sub>1</sub>)πr<sup>4</sup>/8ηl_
 
-</div>
+</div>

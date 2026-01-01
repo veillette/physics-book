@@ -167,11 +167,12 @@ parallel to the surface between objects, and perpendicular to the normal force.
 For example, if the crate you try to push (with a force parallel to the floor)
 has a mass of 100 kg, then the normal force would be equal to its weight, $$ W=mg\left(100 \kg \right)\left( 9.80\mss \right)=980 \N $$, perpendicular to the floor. If the coefficient of
 static friction is 0.45, you would have to exert a force parallel to the floor
-greater than $$ f_{\s \left(\text{max}\right)}=\mu_ {\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N $$ to move the crate. Once there is motion, friction is less and the $$
+greater than $$ f_{\s \left(\text{max}\right)}=\mu_ {\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N $$ to move the crate. Once there is motion, friction is less and the
+ $$ $$
 coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
 
 f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
-=290\N $$ ) would keep it moving at a constant speed. If the floor is
+=290\N $$ ) would keep it moving at a constant speed. If the floor is $$
 lubricated, both coefficients are considerably less than they would be without
 lubrication. Coefficient of friction is a unit less quantity with a magnitude
 usually between 0 and 1.0. The coefficient of the friction depends on the two
@@ -248,9 +249,7 @@ which can now be solved for the coefficient of kinetic friction $$ \mu_{\text{k}
 Solving for $$ \mu_{\text{k} } $$ gives
 
 <div class="equation">
- $$ \mu_{\text{k}}=\frac{ f_{\text{k}}}{\mag{N}}=\frac{ f_{\text{k}}}{w\cos{
-25^\circ }}=\frac{ f_{\text{k}}}{mg \cos{ 25^\circ }.}
-$$
+ $$ \mu_{\text{k}}=\frac{ f_{\text{k}}}{\mag{N}}=\frac{ f_{\text{k}}}{w\cos{ 25^\circ }}=\frac{ f_{\text{k}}}{mg \cos{ 25^\circ }.} $$ 
 
 </div>
 Substituting known values on the right-hand side of the equation,
@@ -1768,4 +1767,4 @@ magnitude of kinetic friction
 : $$ f_{\text{k}}=\mu_{\text{k} }\mag{N} $$, where $$ \mu\_{\text{k} } $$ is the
 coefficient of kinetic friction
 
-</div>
+</div>

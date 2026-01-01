@@ -912,4 +912,4 @@ coefficient of performance
 reservoir) to the work supplied; for a refrigerator or air conditioner, it is
 the ratio of heat transfer from the cold reservoir to the work supplied
 
-</div>
+</div>

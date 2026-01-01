@@ -159,8 +159,7 @@ from place to place in the solar system. (See [[Figure 3]](#Figure3).)
 
 There is a relationship between photon momentum $$p $$ and photon energy $$E $$
 that is consistent with the relation given previously for the relativistic total
-energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^2 \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={
-\left( pc\right)}^{2}+{\left( mc^2 \right)}^{2} $$ becomes <div class="equation" > $$E=\text{pc}, $$
+energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^2 \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={ \left( pc\right)}^{2}+{\left( mc^2 \right)}^{2} $$ becomes <div class="equation" > $$E=\text{pc}, $$
 </div>
 
 or
@@ -634,4 +633,4 @@ photon momentum
 Compton effect
 : the phenomenon whereby X-rays scattered from materials have decreased energy
 
-</div>
+</div>

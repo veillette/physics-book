@@ -943,4 +943,4 @@ slope
 y-intercept
 : the $$ y\text{-} $$ value when $$ x = 0 $$, or when the graph crosses the $$ y $$ -axis
 
-</div>
+</div>

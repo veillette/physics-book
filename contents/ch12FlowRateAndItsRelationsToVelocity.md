@@ -166,8 +166,7 @@ solving for  $${\overline{v}}_{2} $$
 Substituting known values,
 
 <div class="equation">
- $${\overline{v}}_{2}=\frac{ {\left( 0.900 \text{cm} \right)}^{2} }
-{ {\left( 0.250 \text{cm} \right)}^{2}} 1.96 \text{m/s}=25.5 \text{m/s}\text{.} $$
+ $${\overline{v}}_{2}=\frac{ {\left( 0.900 \text{cm} \right)}^{2} } { {\left( 0.250 \text{cm} \right)}^{2}} 1.96 \text{m/s}=25.5 \text{m/s}\text{.} $$ 
 </div>
 **Discussion**
 
@@ -931,4 +930,4 @@ during a time _t_, or _Q = V/t_
 liter
 : a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup>
 
-</div>
+</div>

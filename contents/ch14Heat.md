@@ -145,4 +145,4 @@ kilocalorie
 mechanical equivalent of heat
 : the work needed to produce the same effects as heat transfer
 
-</div>
+</div>

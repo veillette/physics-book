@@ -773,4 +773,4 @@ Solar sailing is a real spacecraft propulsion concept! The radiation pressure pr
 (c) 7.49 m/s or about 27 km/h
 
 </div>
-</div>
+</div>

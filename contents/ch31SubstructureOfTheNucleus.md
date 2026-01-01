@@ -41,7 +41,7 @@ the _unified **atomic mass**{: class="term"} unit_ (u), defined as
 </div>
 
 This unit is defined so that a neutral carbon $${}^{12}\text{C} $$ atom has a
-mass of exactly 12 u. Masses are also expressed in units of $$\text{MeV/}{c}^{2} $$
+mass of exactly 12 u. Masses are also expressed in units of $$\text{MeV/}{c}^{2} $$
 
 . These units are very convenient when considering the conversion of mass
 into energy (and vice versa), as is so prominent in nuclear processes. Using
@@ -157,8 +157,7 @@ then, $$N=A-Z $$ ). Thus the simpler notation for nuclides is
 </div>
 
 which is sufficient and is most commonly used. For example, in this simpler
-notation, the three isotopes of hydrogen are $${}^{1}\text{H} \text{,} {}^{2}\text{H} \text{,} $$ and $${}^{3}\text{H} \text{,} $$ while the $$\alpha
-$$ particle is $${}^{4}\text{He} $$ . We read this backward, saying helium-4 for $${}^{4}\text{He} $$ , or uranium-238 for $${}^{238}\text{U} $$ . So for
+notation, the three isotopes of hydrogen are $${}^{1}\text{H} \text{,} {}^{2}\text{H} \text{,} $$ and $${}^{3}\text{H} \text{,} $$ while the $$\alpha $$ particle is $${}^{4}\text{He} $$ . We read this backward, saying helium-4 for $${}^{4}\text{He} $$ , or uranium-238 for $${}^{238}\text{U} $$ . So for
 $${}^{238}\text{U} $$ , should we need to know, we can determine that $$Z=92 $$
 for uranium from the periodic table, and, thus, $$N=238-92=146 $$.
 
@@ -553,4 +552,4 @@ protons
 radius of a nucleus
 : the radius of a nucleus is $$r={r}_{0}{A}^{1/3} $$
 
-</div>
+</div>

@@ -161,17 +161,14 @@ Here we must consider energy forms as well as how they relate to fluid flow.
 Since the input and output hoses have the same diameters and are at the same
 height, the pump does not change the speed of the water nor its height, and so
 the water’s kinetic energy and gravitational potential energy are unchanged.
-That means the pump only supplies power to increase water pressure by $$ 0.92 \times 10^{6} {\text{N/m}}^{2} $$ (from $$ 0.700 \times 10^{6} {\text{N/m}}^{2} $$ to $$ 1.62 \times 10^{6}
-{\text{N/m}}^{2} $$ ).
+That means the pump only supplies power to increase water pressure by $$ 0.92 \times 10^{6} {\text{N/m}}^{2} $$ (from $$ 0.700 \times 10^{6} {\text{N/m}}^{2} $$ to $$ 1.62 \times 10^{6} {\text{N/m}}^{2} $$ ). 
 
 **Solution**
 
 As discussed above, the power associated with pressure is
 
 <div class="equation">
- $$\begin{array}{lll}\text{power}& =& P Q\\
-\text{power} & =& \left( 0.920 \times 10^{6}  {\text{N/m}}^{2}\right)\left( 40.0 \times 10^{-3}  {\text{m}}^{3}\text{/s}\right)\text{.}\\  
-\text{power} & =&  3.68 \times 10^{4}  \text{W}= 36.8 \text{kW}\end{array} $$
+ $$\begin{array}{lll}\text{power}& =& P Q\\ \text{power} & =& \left( 0.920 \times 10^{6} {\text{N/m}}^{2}\right)\left( 40.0 \times 10^{-3} {\text{m}}^{3}\text{/s}\right)\text{.}\\ \text{power} & =& 3.68 \times 10^{4} \text{W}= 36.8 \text{kW}\end{array} $$ 
 </div>
 **Discussion**
 
@@ -463,4 +460,4 @@ $$P_2 = 3.00 \times 10^5 + 384 - 1.96 \times 10^4 = 2.81 \times 10^5 \text{ N/m}
 
 The pressure at the top of the rise is **(a) 2.76 × 10⁵ N/m²**, and after going over the wall it is **(b) 2.81 × 10⁵ N/m²**. The pressure increases slightly after going over the wall for two reasons: the height decreased by 0.50 m, and the hose widened, reducing velocity. Both effects increase pressure according to Bernoulli's equation.
 </div>
-</div>
+</div>

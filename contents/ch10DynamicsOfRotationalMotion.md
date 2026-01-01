@@ -199,16 +199,15 @@ in [Figure 3](#Figure3) to be
 where $$ M=50.0 \kg $$ and $$ R=1.50 \m $$, so that
 
 <div class="equation">
- $$ I=\left(0.500\right)
+$$ I=\left(0.500\right) $$
 \left(50.0 \kg \right)
 \left(1.50 \m \right)^{2}
-=56.25 \kg \cdot \mm . $$
+=56.25 \kg \cdot \mm . $$ $$
 </div>
 Now, after we substitute the known values, we find the angular acceleration to be
 
 <div class="equation">
- $$ \alpha =\frac{ \tau }{I}=\frac{375 \N \text{⋅}\m }{56.25 \kg \cdot \mm}=
-6.67 \radss. $$
+ $$ \alpha =\frac{ \tau }{I}=\frac{375 \N \text{⋅}\m }{56.25 \kg \cdot \mm}= 6.67 \radss. $$ 
 </div>
 
 **Solution for (b)**
@@ -220,9 +219,7 @@ child’s moment of inertia $$ I\_{\text{c}} $$ by considering the child to be
 equivalent to a point mass at a distance of 1.25 m from the axis. Then,
 
 <div class="equation">
- $$ I_{\text{c}}=MR^{2}=
-\left(18.0 \kg \right)
-\left(1.25 \m \right)^{2}=28.13 \kg \cdot \mm. $$
+ $$ I_{\text{c}}=MR^{2}= \left(18.0 \kg \right) \left(1.25 \m \right)^{2}=28.13 \kg \cdot \mm. $$ 
 </div>
 The total moment of inertia is the sum of moments of inertia of the merry-go-round
 and the child (about the same axis). To justify this sum to yourself, examine the
@@ -234,8 +231,7 @@ definition of $$ I $$:
 Substituting known values into the equation for $$ \alpha $$ gives
 
 <div class="equation">
- $$ \alpha =\frac{ \text{τ}}{I}=\frac{375 \N \cdot \m }{84.38 \kg \cdot \mm}
-=4.44 \radss. $$
+ $$ \alpha =\frac{ \text{τ}}{I}=\frac{375 \N \cdot \m }{84.38 \kg \cdot \mm} =4.44 \radss. $$ 
 </div>
 
 **Discussion**
@@ -897,7 +893,7 @@ these rotations.
 
 </div>
 <div class="solution" markdown="1">
- $$ \begin{array}{c}
+$$ \begin{array}{c} $$
 I_\text{end}= I_{\text{center}}+m \left(\frac{l}{2}\right)^{2}\\
 \text{Thus,} I_{\text{center}}= I_{\text{end}}-\frac{1}{4}m l^{2} =\frac{1}
 {3}m l^{2} -\frac{1}{4}m l^{2} =\frac{1}{12} m l^{2}
@@ -1106,4 +1102,4 @@ point mass, it is $$ I=m r^{2} $$ and, because any object can be built up from a
 collection of point masses, this relationship is the basis for all other moments
 of inertia
 
-</div>
+</div>

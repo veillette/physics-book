@@ -87,7 +87,7 @@ and that pressure in fact has units of energy divided by volume. We also noted
 in our discussion of the ideal gas law that $$PV $$ has units of energy. In this
 case, some of the energy associated with pressure becomes work.
 
-[[Figure 5]](#Figure5) shows a graph of pressure versus volume (that is, a $$PV $$
+[[Figure 5]](#Figure5) shows a graph of pressure versus volume (that is, a $$PV $$
 
 
 diagram ) for an isobaric process. You can see in the figure that the work done

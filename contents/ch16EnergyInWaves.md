@@ -170,8 +170,7 @@ of the resulting wave is four times as great as in the individual waves.
 1. Recall that intensity is proportional to amplitude squared.
 2. Calculate the new amplitude:
    <div class="equation" >
-   $$I^{\prime}\propto {\left(X^{\prime}\right)}^{2}={\left(2X\right)
-   }^{2}={4X}^{2}. $$
+ $$I^{\prime}\propto {\left(X^{\prime}\right)}^{2}={\left(2X\right) }^{2}={4X}^{2}. $$ 
    </div>
 
 3. Recall that the intensity of the old amplitude was:
@@ -710,4 +709,4 @@ This illustrates why medical lasers require extreme safety precautions, protecti
 intensity
 : power per unit area
 
-</div>
+</div>

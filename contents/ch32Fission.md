@@ -60,7 +60,7 @@ given the atomic masses to be  $$m\left({}^{238}\text{U}\right)=238.050784 \text
 **Strategy**
 
 As always, the energy released is equal to the mass destroyed times $${c}^{2} $$
-, so we must find the difference in mass between the parent $${}^{238}\text{U} $$
+, so we must find the difference in mass between the parent $${}^{238}\text{U} $$
 
 and the fission products.
 
@@ -156,8 +156,7 @@ $${}^{239}\text{Pu} $$ .
 The reason $${}^{235}\text{U} $$ and $${}^{239}\text{Pu} $$ are easier to
 fission than $${}^{238}\text{U} $$ is that the nuclear force is more attractive
 for an even number of neutrons in a nucleus than for an odd number. Consider
-that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_ {94}^{239}{\text{P}}_{145} $$ has 145 neutrons, whereas $${}_
-{92}^{238}{\text{U}}_{146} $$ has 146. When a neutron encounters a nucleus with
+that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_ {94}^{239}{\text{P}}_{145} $$ has 145 neutrons, whereas $${}_ {92}^{238}{\text{U}}_{146} $$ has 146. When a neutron encounters a nucleus with 
 an odd number of neutrons, the nuclear force is more attractive, because the
 additional neutron will make the number even. About 2-MeV more energy is
 deposited in the resulting nucleus than would be the case if the number of
@@ -659,4 +658,4 @@ neutron-induced fission
 supercriticality
 : an exponential increase in fissions
 
-</div>
+</div>

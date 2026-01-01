@@ -730,4 +730,4 @@ probability distribution
 : the overall spatial distribution of probabilities to find a particle at a
 given location
 
-</div>
+</div>

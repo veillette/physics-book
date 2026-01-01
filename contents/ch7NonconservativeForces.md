@@ -84,7 +84,7 @@ and solving for $$ W_{\text{nc}} $$ gives
  $$ W_{\text{nc}}=\Delta \KE+\Delta \PE . $$
 </div>
 
-This equation means that the total mechanical energy $$ \left(\KE + \PE \right) $$
+This equation means that the total mechanical energy $$ \left(\KE + \PE \right) $$
 
 changes by exactly the amount of work done by nonconservative forces.
 In [Figure 3](#Figure3), this is the work done by the person minus the work done by
@@ -152,7 +152,7 @@ This equation can now be solved for the distance $$ d $$.
 Solving the previous equation for $$ d $$ and substituting known values yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 d&=& \frac{m v_{i}^{2}}{2f}\\
 d&=& \frac{ \left(65.0 \kg \right)\left(6.00 \ms \right)^{2}}
 {\left(2\right)\left(450 \N \right)}\\
@@ -191,15 +191,13 @@ height $$ h $$ along the hill, with $$ h=d\sin{5.00^\circ} $$. This is expressed
 by the equation
 
 <div class="equation">
- $$ \KE_{\text{i}}+\PE_\text{i}+ W_{\text{nc}}
-=\KE_{\text{f}}+\PE_{\text{f}}. $$
+ $$ \KE_{\text{i}}+\PE_\text{i}+ W_{\text{nc}} =\KE_{\text{f}}+\PE_{\text{f}}. $$ 
 </div>
 
 **Solution**
 
 The work done by friction is again $$ W_{\text{nc}}=-f d $$; initially the
-potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_ {i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0
-$$ for the kinetic energy and $$ \PE\_{f}=mgh = m g d \sin{\theta} $$ for the
+potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_ {i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0 $$ for the kinetic energy and $$ \PE\_{f}=mgh = m g d \sin{\theta} $$ for the 
 potential energy.
 
 Substituting these values gives
@@ -210,7 +208,7 @@ Substituting these values gives
 Solve this for $$ d $$ to obtain
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 d&=& \frac{ \frac{1}{2} mv_\text{i}^{2} }
 {f+mg \sin{\theta} }\\
 d&=& \frac{ \text{(0.5)}\left(65.0 \kg \right)
@@ -218,7 +216,7 @@ d&=& \frac{ \text{(0.5)}\left(65.0 \kg \right)
 {450 \N +\left(65.0 \kg \right)
 \left( 9.80 \mss \right){\sin{(5.00^\circ )}}}\\
 d&=& 2.31 \m .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -231,7 +229,7 @@ vectors, which no longer cancel each other because they point in different
 directions, and friction, to find the net force. You could then use the net
 force and the net work to find the distance $$ d $$ that reduces the kinetic
 energy to zero. By applying conservation of energy and using the potential
-energy instead, we need only consider the gravitational potential energy $$ mgh $$
+energy instead, we need only consider the gravitational potential energy $$ mgh $$
 
 , without combining and resolving force vectors. This simplifies the solution
 considerably.
@@ -298,9 +296,7 @@ The Ramp
 * Friction is an example of a nonconservative force that changes mechanical
   energy into thermal energy.
 * Work $$ W_{\text{nc}} $$ done by a nonconservative force changes the
-  mechanical energy of a system. In equation form, $$ W_ {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$ \KE_\text{i}+\PE_
-  \text{i}+ W_{\text{nc}}=\KE_
-  {\text{f}}+\PE_{\text{f}} $$.
+ mechanical energy of a system. In equation form, $$ W_ {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$ \KE_\text{i}+\PE_ \text{i}+ W_{\text{nc}}=\KE_ {\text{f}}+\PE_{\text{f}} $$. 
 * When both conservative and nonconservative forces act, energy conservation can
   be applied and used to calculate motion in terms of the known potential
   energies of the conservative forces and the work done by nonconservative
@@ -416,7 +412,7 @@ First, convert speed: $$ v = 110\text{ km/h} = 110 \times \frac{1000}{3600}\ms =
 Using energy conservation:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \frac{1}{2}mv^{2} &=& mgh\\
 h &=& \frac{v^{2}}{2g} = \frac{(30.6\ms)^{2}}{2(9.80\mss)}\\
 h &=& \frac{936.36}{19.6}\m = 47.8\m
@@ -456,11 +452,11 @@ The distance along the slope is:
 The work done by friction equals the thermal energy:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{f} &=& fd\\
 f &=& \frac{E_{\text{thermal}}}{d} = \frac{1.89 \times 10^{5}\J}{504\m}\\
 f &=& 375\N \approx 3.8 \times 10^{2}\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -496,4 +492,4 @@ friction
 : the force between surfaces that opposes one sliding on the other; friction
 changes mechanical energy into thermal energy
 
-</div>
+</div>

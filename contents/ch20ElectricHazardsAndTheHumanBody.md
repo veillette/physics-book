@@ -47,8 +47,7 @@ power production in a short.
 
 Another serious, but less dramatic, thermal hazard occurs when wires supplying
 power to a user are overloaded with too great a current. As discussed in the
-previous section, the power dissipated in the supply wires is $$P={I}^{2}{R}_ {\text{w}} $$ , where $${R}_{\text{w}} $$ is the resistance of the wires and $$I
-$$ the current flowing through them. If either $$I $$ or $${R}_{\text{w}} $$ is too large, the wires overheat. For example, a worn appliance cord (with some of its braided wires broken) may have $${R}_{\text{w}}= 2.00 \Omega $$ rather than
+previous section, the power dissipated in the supply wires is $$P={I}^{2}{R}_ {\text{w}} $$ , where $${R}_{\text{w}} $$ is the resistance of the wires and $$I $$ the current flowing through them. If either $$I $$ or $${R}_{\text{w}} $$ is too large, the wires overheat. For example, a worn appliance cord (with some of its braided wires broken) may have $${R}_{\text{w}}= 2.00 \Omega $$ rather than
 the $$ 0.100 \Omega $$ it should be. If 10.0 A of current passes through the
 cord, then $$P={I}^{2}{R}_{\text{w}}=200 \text{W} $$ is dissipated in the
 cord—much more than is safe. Similarly, if a wire with a $$ 0.100 \text{-} \Omega $$ resistance is meant to carry a few amps, but is instead carrying 100
@@ -178,10 +177,10 @@ current passed through the victim to reduce the likelihood of burns.
 
 Current is the major factor determining shock severity (given that other
 conditions such as path, duration, and frequency are fixed, such as in the table
-and preceding discussion). A larger voltage is more hazardous, but since $$I=V/R $$
+and preceding discussion). A larger voltage is more hazardous, but since $$I=V/R $$
 
 , the severity of the shock depends on the combination of voltage and
-resistance. For example, a person with dry skin has a resistance of about $$200 \text{k}\Omega $$ . If he comes into contact with 120-V AC, a current $$I=\left(
+resistance. For example, a person with dry skin has a resistance of about $$200 \text{k}\Omega $$ . If he comes into contact with 120-V AC, a current $$I=\left( $$
 120 \text{V}\right)/\left(200 \text{k}\Omega \right)= 0.6 \text{mA} $$ passes harmlessly through him. The same person soaking wet may have a resistance of 10.0 \text{k}\Omega $$ and the same 120 V will produce a current of 12 mA—above
 the “can’t let go” threshold and potentially dangerous.
 
@@ -211,7 +210,7 @@ graph that illustrates the effects of frequency on a shock. The curves show the
 minimum current for two different effects, as a function of frequency. The lower
 the current needed, the more sensitive the body is at that frequency.
 Ironically, the body is most sensitive to frequencies near the 50- or 60-Hz
-frequencies in common use. The body is slightly less sensitive for DC ( $$f=0 $$
+frequencies in common use. The body is slightly less sensitive for DC ( $$f=0 $$
 
 ), mildly confirming Edison’s claims that AC presents a greater hazard. At
 higher and higher frequencies, the body becomes progressively less sensitive to
@@ -759,4 +758,4 @@ microshock sensitive
 medical procedure, rendering the person vulnerable to electrical shock at
 currents about 1/1000 the normally required level
 
-</div>
+</div>

@@ -151,14 +151,10 @@ Insert the temperatures values $${T}_{2}=295 \text{K} $$ and $${T}_{1}=306 \text
  $$\frac{Q}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
 </div>
 <div class="equation" >
- $$=\left( 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} \right)
+$$=\left( 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} \right) $$
 \left( 0.97 \right) \left( 1.50 {\text{m}}^{2} \right)
 \left[ { \left(295\text{K}\right)}^{4}-{ \left(306 \text{K}\right) }^{4} \right]
-$$
-
-</div>
-<div class="equation" >
- $$=-99\text{J/s}=-99 \text{W} \text{.}  $$
+$$ </div> <div class="equation" > $$=-99\text{J/s}=-99 \text{W} \text{.} $$ $$
 </div>
 **Discussion**
 
@@ -1808,7 +1804,7 @@ that absorb infrared radiation from the Earth’s surface and reradiate it in al
 directions, thus sending a fraction of it back toward the surface of the Earth
 
 net rate of heat transfer by radiation
-: is $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}\_{1}^{4}\right) $$
+: is $$\frac{ {Q}_{\text{net}}}{t}=\sigma eA\left({T}_{2}^{4}-{T}\_{1}^{4}\right) $$
 
 
 radiation
@@ -1820,4 +1816,4 @@ Stefan-Boltzmann law of radiation
 constant, $$A $$ is the surface area of the object, $$T $$ is the absolute
 temperature, and $$e $$ is the emissivity
 
-</div>
+</div>

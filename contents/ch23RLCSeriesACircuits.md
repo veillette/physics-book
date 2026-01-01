@@ -72,8 +72,7 @@ where $${V}_{0R} $$ , $${V}_{0L} $$ , and $${V}_{0C} $$ are the peak voltages
 across $$R $$ , $$L $$ , and $$C $$ , respectively. Now, using Ohm’s law and
 definitions
 from [Reactance, Inductive and Capacitive](../contents/ch23ReactanceInductiveAndCapacitive),
-we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_ {0}R $$ , $${V}_
-{0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding <div class="equation" > $${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
+we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_ {0}R $$ , $${V}_ {0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding <div class="equation" > $${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
 </div>
 
 $${I}_{0} $$ cancels to yield an expression for $$Z $$ \:
@@ -545,11 +544,11 @@ The resonant frequency is given by $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. We substit
 **Solution**
 
 <div class="equation">
-$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\
+$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\ $$
 & = & \frac{1}{2\pi\sqrt{(0.500 \times 10^{-3} \text{ H})(40.0 \times 10^{-6} \text{ F})}}\\
 & = & \frac{1}{2\pi\sqrt{2.00 \times 10^{-8}}}\\
 & = & \frac{1}{2\pi(1.414 \times 10^{-4})}\\
-& = & 1.13 \times 10^3 \text{ Hz} = 1.13 \text{ kHz}\end{array}$$
+& = & 1.13 \times 10^3 \text{ Hz} = 1.13 \text{ kHz}\end{array}$$ $$
 </div>
 
 **Discussion**
@@ -579,21 +578,21 @@ The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. Solving for $$C$$: 
 For the minimum frequency (500 kHz), we need maximum capacitance:
 
 <div class="equation">
-$$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\
+$$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\ $$
 & = & \frac{1}{4\pi^2(500 \times 10^3 \text{ Hz})^2(1.00 \times 10^{-6} \text{ H})}\\
 & = & \frac{1}{4\pi^2(2.50 \times 10^{11})(1.00 \times 10^{-6})}\\
 & = & \frac{1}{9.870 \times 10^6}\\
-& = & 1.01 \times 10^{-7} \text{ F} = 101 \text{ nF}\end{array}$$
+& = & 1.01 \times 10^{-7} \text{ F} = 101 \text{ nF}\end{array}$$ $$
 </div>
 
 For the maximum frequency (1650 kHz), we need minimum capacitance:
 
 <div class="equation">
-$$\begin{array}{lll}C_{\text{min}} & = & \frac{1}{4\pi^2 f_{\text{max}}^2 L}\\
+$$\begin{array}{lll}C_{\text{min}} & = & \frac{1}{4\pi^2 f_{\text{max}}^2 L}\\ $$
 & = & \frac{1}{4\pi^2(1650 \times 10^3)^2(1.00 \times 10^{-6})}\\
 & = & \frac{1}{4\pi^2(2.7225 \times 10^{12})(1.00 \times 10^{-6})}\\
 & = & \frac{1}{1.075 \times 10^8}\\
-& = & 9.30 \times 10^{-9} \text{ F} = 9.30 \text{ nF}\end{array}$$
+& = & 9.30 \times 10^{-9} \text{ F} = 9.30 \text{ nF}\end{array}$$ $$
 </div>
 
 **Discussion**
@@ -622,21 +621,21 @@ The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. To find the maximum
 For maximum frequency (minimum $$LC$$):
 
 <div class="equation">
-$$\begin{array}{lll}f_{\text{max}} & = & \frac{1}{2\pi\sqrt{L_{\text{min}}C_{\text{min}}}}\\
+$$\begin{array}{lll}f_{\text{max}} & = & \frac{1}{2\pi\sqrt{L_{\text{min}}C_{\text{min}}}}\\ $$
 & = & \frac{1}{2\pi\sqrt{(1.00 \times 10^{-9} \text{ H})(1.00 \times 10^{-12} \text{ F})}}\\
 & = & \frac{1}{2\pi\sqrt{1.00 \times 10^{-21}}}\\
 & = & \frac{1}{2\pi(1.00 \times 10^{-10.5})}\\
-& = & 5.03 \times 10^9 \text{ Hz} = 5.03 \text{ GHz}\end{array}$$
+& = & 5.03 \times 10^9 \text{ Hz} = 5.03 \text{ GHz}\end{array}$$ $$
 </div>
 
 For minimum frequency (maximum $$LC$$):
 
 <div class="equation">
-$$\begin{array}{lll}f_{\text{min}} & = & \frac{1}{2\pi\sqrt{L_{\text{max}}C_{\text{max}}}}\\
+$$\begin{array}{lll}f_{\text{min}} & = & \frac{1}{2\pi\sqrt{L_{\text{max}}C_{\text{max}}}}\\ $$
 & = & \frac{1}{2\pi\sqrt{(10.0 \text{ H})(0.100 \text{ F})}}\\
 & = & \frac{1}{2\pi\sqrt{1.00}}\\
 & = & \frac{1}{2\pi}\\
-& = & 0.159 \text{ Hz}\end{array}$$
+& = & 0.159 \text{ Hz}\end{array}$$ $$
 </div>
 
 **Discussion**
@@ -671,11 +670,11 @@ $$C = \frac{1}{4\pi^2 f_0^2 L}$$
 Substituting the given values:
 
 <div class="equation">
-$$\begin{array}{lll}C & = & \frac{1}{4\pi^2(1.00 \times 10^9 \text{ Hz})^2(8.00 \times 10^{-9} \text{ H})}\\
+$$\begin{array}{lll}C & = & \frac{1}{4\pi^2(1.00 \times 10^9 \text{ Hz})^2(8.00 \times 10^{-9} \text{ H})}\\ $$
 & = & \frac{1}{4\pi^2(1.00 \times 10^{18})(8.00 \times 10^{-9})}\\
 & = & \frac{1}{4\pi^2(8.00 \times 10^9)}\\
 & = & \frac{1}{3.158 \times 10^{11}}\\
-& = & 3.17 \times 10^{-12} \text{ F} = 3.17 \text{ pF}\end{array}$$
+& = & 3.17 \times 10^{-12} \text{ F} = 3.17 \text{ pF}\end{array}$$ $$
 </div>
 
 **Discussion**
@@ -715,10 +714,10 @@ $$L = \frac{1}{4\pi^2 f_0^2 C}$$
 Substituting values:
 
 <div class="equation">
-$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(60.0 \text{ Hz})^2(2.00 \times 10^{-6} \text{ F})}\\
+$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(60.0 \text{ Hz})^2(2.00 \times 10^{-6} \text{ F})}\\ $$
 & = & \frac{1}{4(9.870)(3600)(2.00 \times 10^{-6})}\\
 & = & \frac{1}{2.838 \times 10^{-1}}\\
-& = & 3.52 \text{ H}\end{array}$$
+& = & 3.52 \text{ H}\end{array}$$ $$
 </div>
 
 **Discussion**
@@ -753,11 +752,11 @@ $$L = \frac{1}{4\pi^2 f_0^2 C}$$
 Substituting values:
 
 <div class="equation">
-$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 \times 10^{-12} \text{ F})}\\
+$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 \times 10^{-12} \text{ F})}\\ $$
 & = & \frac{1}{4\pi^2(7.744 \times 10^{15})(2.50 \times 10^{-12})}\\
 & = & \frac{1}{4\pi^2(1.936 \times 10^4)}\\
 & = & \frac{1}{7.641 \times 10^5}\\
-& = & 1.31 \times 10^{-6} \text{ H} = 1.31 \text{ μH}\end{array}$$
+& = & 1.31 \times 10^{-6} \text{ H} = 1.31 \text{ μH}\end{array}$$ $$
 </div>
 
 **Solution for (b)**
@@ -765,11 +764,11 @@ $$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 
 Using the inductance from part (a) at the higher frequency:
 
 <div class="equation">
-$$\begin{array}{lll}C & = & \frac{1}{4\pi^2 f^2 L}\\
+$$\begin{array}{lll}C & = & \frac{1}{4\pi^2 f^2 L}\\ $$
 & = & \frac{1}{4\pi^2(108 \times 10^6)^2(1.31 \times 10^{-6})}\\
 & = & \frac{1}{4\pi^2(1.166 \times 10^{16})(1.31 \times 10^{-6})}\\
 & = & \frac{1}{6.029 \times 10^{11}}\\
-& = & 1.66 \times 10^{-12} \text{ F} = 1.66 \text{ pF}\end{array}$$
+& = & 1.66 \times 10^{-12} \text{ F} = 1.66 \text{ pF}\end{array}$$ $$
 </div>
 
 **Discussion**
@@ -924,11 +923,11 @@ $$I_{\text{rms}} = \frac{408 \text{ V}}{1307 \Omega} = 0.312 \text{ A} = 312 \te
 **Solution for (d)**
 
 <div class="equation">
-$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\
+$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\ $$
 & = & \frac{1}{2\pi\sqrt{(150 \times 10^{-6})(25.0 \times 10^{-9})}}\\
 & = & \frac{1}{2\pi\sqrt{3.75 \times 10^{-12}}}\\
 & = & \frac{1}{2\pi(1.936 \times 10^{-6})}\\
-& = & 82.2 \times 10^3 \text{ Hz} = 82.2 \text{ kHz}\end{array}$$
+& = & 82.2 \times 10^3 \text{ Hz} = 82.2 \text{ kHz}\end{array}$$ $$
 </div>
 
 **Solution for (e)**
@@ -1179,7 +1178,7 @@ The average power at 10.0 kHz is 16.0 W.
 
 impedance
 : the AC analogue to resistance in a DC circuit; it is the combined effect of
-resistance, inductive reactance, and capacitive reactance in the form $$Z=\sqrt{
+resistance, inductive reactance, and capacitive reactance in the form $$Z=\sqrt{ $$
 {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}
 
 resonant frequency
@@ -1196,4 +1195,4 @@ power factor
 theoretical maximum of the circuit due to voltage and current being out of
 phase; calculated by $$\cos \varphi $$
 
-</div>
+</div>

@@ -459,10 +459,10 @@ Spring potential energy:
 At maximum height, all energy is gravitational PE:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 mgh &=& \PE_{\text{spring}}\\
 h &=& \frac{0.735\J}{(0.0100\kg)(9.80\mss)} = 7.50\m
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **(c)** Angles to hit a target 3.00 m away:
@@ -482,11 +482,11 @@ For projectile motion with same initial and final height:
 Solving for angle when $$ R = 3.00\m $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \sin{2\theta} &=& \frac{Rg}{v_0^{2}} = \frac{(3.00\m)(9.80\mss)}{(12.1\ms)^{2}} = 0.201\\
 2\theta &=& 11.6^\circ \text{ or } 168.4^\circ\\
 \theta &=& 5.8^\circ \text{ or } 84.2^\circ
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **(d)** Maximum range on level ground:

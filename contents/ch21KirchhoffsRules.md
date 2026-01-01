@@ -58,7 +58,7 @@ Kirchhoff’s rules for circuit analysis are applications of **conservation laws
 
 Kirchhoff’s second rule (the **loop rule**) is an application of conservation of
 energy. The loop rule is stated in terms of potential, $$V $$ , rather than
-potential energy, but the two are related since $${\text{PE}}\_{\text{elec}}=qV $$
+potential energy, but the two are related since $${\text{PE}}\_{\text{elec}}=qV $$
 
 . Recall that **emf**{: class="term"} is the potential difference of a source
 when no current is flowing. In a closed loop, whatever energy is supplied by emf
@@ -636,4 +636,4 @@ $$\text{emf}=Ir+IR_{1}+IR_{2} $$
 conservation laws
 : require that energy and charge be conserved in a system
 
-</div>
+</div>

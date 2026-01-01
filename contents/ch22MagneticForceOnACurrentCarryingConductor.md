@@ -58,8 +58,7 @@ Calculate the force on the wire shown in [[Figure 1]](#Figure1), given  $$B=1.50
   $$l=5.00 \text{cm} $$ ,  and  $$I= 20.0 \text{A} $$.
 **Strategy**
 
-The force can be found with the given information by using $$F=IlB \sin \theta $$ and noting that the angle $$\theta $$ between $$I $$ and $$B $$ is $$90
-\text{º} $$, so that $$\sin \theta =1 $$.
+The force can be found with the given information by using $$F=IlB \sin \theta $$ and noting that the angle $$\theta $$ between $$I $$ and $$B $$ is $$90 \text{º} $$, so that $$\sin \theta =1 $$. 
 
 **Solution**
 
@@ -576,4 +575,4 @@ This configuration is the basis of a current balance, used historically to defin
 **(b) The force per tesla on the loop is 1.00 N/T.**
 
 </div>
-</div>
+</div>

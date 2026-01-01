@@ -203,9 +203,7 @@ Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-
 70.0 m/s, and $$ \theta_{0}=75.0^\circ $$ is the initial angle. Thus,
 
 <div class="equation">
- $$ v_{0y}=v_{0}\sin{\theta_{0}}=
-\left(70.0 \ms \right)\left(\sin{75^\circ }\right)
-=67.6 \ms . $$
+ $$ v_{0y}=v_{0}\sin{\theta_{0}}= \left(70.0 \ms \right)\left(\sin{75^\circ }\right) =67.6 \ms . $$ 
 </div>
 and $$ y $$ is
 
@@ -242,10 +240,10 @@ equation reduces to simply
 Note that the final vertical velocity, $$ v_{y} $$, at the highest point is zero. Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 t&=& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
 t&=& 6.90 \s .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion for (b)**
@@ -284,7 +282,7 @@ has a major effect, and many fragments will land directly below.
 
 </div>
 
-In solving part (a) of the preceding example, the expression we found for $$ y $$
+In solving part (a) of the preceding example, the expression we found for $$ y $$
 
 is valid for any projectile motion where air resistance is negligible. Call
 the maximum height $$ y=h $$; then,
@@ -418,9 +416,7 @@ To find the magnitude of the final velocity $$ \mag{v} $$, we combine its
 perpendicular components, using the following equation:
 
 <div class="equation">
- $$ \mag{v}=\sqrt{ v_{x}^{2}+v_{y}^{2}}=\sqrt{\left(20.5 \ms \right)^{2}+\left
-(-24.5 \ms \right)^{2}},
-$$
+ $$ \mag{v}=\sqrt{ v_{x}^{2}+v_{y}^{2}}=\sqrt{\left(20.5 \ms \right)^{2}+\left (-24.5 \ms \right)^{2}}, $$ 
 
 </div>
 which gives
@@ -558,9 +554,7 @@ Projectile Motion
     3. Analyze the motion of the projectile in the vertical direction using the
        following equations:
        <div class="equation">
-        $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_
-        {y}=-g=-9.80 \mss \right)
-$$
+ $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_ {y}=-g=-9.80 \mss \right) $$ 
 
        </div>
 
@@ -3038,4 +3032,4 @@ range
 trajectory
 : the path of a projectile through the air
 
-</div>
+</div>

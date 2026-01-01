@@ -69,8 +69,7 @@ the decay constant $$\lambda $$ and the half-life $${t}_{1/2} $$ is
 </div>
 
 To see how the number of nuclei declines to half its original value in one
-half-life, let $$t={t}_{1/2} $$ in the exponential in the equation $$N={N}_ {0}{e}^{-\lambda t} $$ . This gives $$N={N}_{0}{e}^{-\lambda t}={N}_
-{0}{e}^{-0.693}=0.500{N}_{0} $$ . For integral numbers of half-lives, you can just divide the original number by 2 over and over again, rather than using the exponential relationship. For example, if ten half-lives have passed, we divide $$N $$ by 2 ten times. This reduces it to $$N/1024 $$ . For an arbitrary time,
+half-life, let $$t={t}_{1/2} $$ in the exponential in the equation $$N={N}_ {0}{e}^{-\lambda t} $$ . This gives $$N={N}_{0}{e}^{-\lambda t}={N}_ {0}{e}^{-0.693}=0.500{N}_{0} $$ . For integral numbers of half-lives, you can just divide the original number by 2 over and over again, rather than using the exponential relationship. For example, if ten half-lives have passed, we divide $$N $$ by 2 ten times. This reduces it to $$N/1024 $$ . For an arbitrary time,
 not just a multiple of the half-life, the exponential relationship must be used.
 
 **Radioactive dating** is a clever use of naturally occurring radioactivity. Its
@@ -886,7 +885,7 @@ rate of decay
 : the number of radioactive events per unit time
 
 curie
-: the activity of 1g of $${}^{226}\text{Ra} $$ , equal to $$ 3.70 \times 10^{10}
+: the activity of 1g of $${}^{226}\text{Ra} $$ , equal to $$ 3.70 \times 10^{10} $$
 \text{Bq}
 
-</div>
+</div>

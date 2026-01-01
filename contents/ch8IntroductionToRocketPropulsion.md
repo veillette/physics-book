@@ -33,9 +33,7 @@ Hold a balloon and fill it with air. Then, let the balloon go. In which directio
 [Figure 1](#Figure1) shows a rocket accelerating straight up. In part (a), the
 rocket has a mass $$ m $$ and a velocity $$ v $$ relative to Earth, and hence a
 momentum $$ mgh $$. In part (b), a time $$ \Delta t $$ has elapsed in which the
-rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_ {\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left(
-m-\Delta m\right)
-$$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the entire system (rocket plus expelled gas) has actually decreased because the force of gravity has acted for a time $$ \Delta t $$, producing a negative
+rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_ {\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left( m-\Delta m\right) $$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the entire system (rocket plus expelled gas) has actually decreased because the force of gravity has acted for a time $$ \Delta t $$, producing a negative
 impulse $$ \Delta p=-mg \Delta t $$. (Remember that impulse is the net external
 force on a system multiplied by the time it acts, and it equals the change in
 momentum of the system.) So, the center of mass of the system is in free fall
@@ -118,11 +116,11 @@ equation are given.
 Substituting the given values into the equation for acceleration yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 a&=& \frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g\\
 a&=&\frac{2.40\times 10^{3} \ms }{2.80\times 10^{6}\kg }\left(1.40\times 10^{4}\text{kg/s}\right)-9.80\mss \\
 a&=&2.20\mss .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -900,4 +898,4 @@ Average force: $$ 22.5 \text{ MN} $$ (about 2290 tons-force)
 The depleted uranium projectile exerts 68% more force than the lead projectile due to its higher density and mass. Additionally, depleted uranium's higher hardness (stronger than steel) means it deforms less during impact, maintaining its shape better for penetration. Lead, being softer, would deform and flatten more, reducing penetration effectiveness. This is why depleted uranium is preferred for armor-piercing ammunition despite being more expensive. Students should construct problems varying the projectile dimensions, velocity, armor thickness, and materials to understand the factors affecting armor penetration. They might also consider the momentum and impulse during impact, or calculate the deceleration forces experienced.
 
 </div>
-</div>
+</div>

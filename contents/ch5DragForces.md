@@ -24,7 +24,7 @@ of an object. Unlike simple friction, the drag force is proportional to some
 function of the velocity of the object in that fluid. This functionality is
 complicated and depends upon the shape of the object, its size, its velocity,
 and the fluid it is in. For most large objects such as bicyclists, cars, and
-baseballs not moving too slowly, the magnitude of the drag force $$ F\_{\text{D}} $$
+baseballs not moving too slowly, the magnitude of the drag force $$ F\_{\text{D}} $$
 
 is found to be proportional to the square of the speed of the object. We can
 write this relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$. When
@@ -165,7 +165,7 @@ descending head first will have an area approximately $$ A=0.18 \mm $$ and a
 drag coefficient of approximately $$ C=0.70 $$. We find that
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v&=& \sqrt{\frac{2\left(75 \kg \right)\left(9.80 \mss \right)}{\left(1.21 \kg/\m^{3}\right)\left(0.70\right)\left(0.18 \mm\right)}}\\
 v&=& 98 \ms \\
 v&=& 350 \text{km/h}.
@@ -223,11 +223,11 @@ All quantities are known except the person’s projected area. This is an adult
 Using our equation for $$ v_{\text{t}} $$, we find that
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v_{\text{t}}&=& \sqrt{\frac{2\left(85\kg \right)\left(9.80\mss \right)}{\left(1.21\text{kg/m}^{3}\right)
 \left(1.0\right)\left(0.70 \mm\right)}}\\
 v_{\text{t}}&=& 44 \ms .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -886,4 +886,4 @@ the fluid, and $$ \rho $$ is the density of the fluid
 Stokes’ law
 : $$ F\_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the fluid, and $$ v $$ is the object’s velocity
 
-</div>
+</div>

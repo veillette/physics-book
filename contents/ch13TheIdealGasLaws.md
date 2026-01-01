@@ -114,8 +114,7 @@ identify an equation to solve for the unknown.
 We know the initial pressure $${P}_{0}= 7.00 \times 10^{5} \text{Pa} $$ , the
 initial temperature $${T}_{0}= 18.0ºC $$ , and the final temperature $${T}_ {\text{f}}= 35.0ºC $$ . We must find the final pressure $${P}_{\text{f}} $$ .
 How can we use the equation $$PV=Nk_{B}T $$ ? At first, it may seem that not
-enough information is given, because the volume $$V $$ and number of atoms $$N $$ are not specified. What we can do is use the equation twice: $${P}_{0}{V}_
-{0}=Nk_{B}T_{0} $$ and $${P}_{\text{f}}{V}_{\text{f}}=Nk_{B}T_{\text{f}} $$ . If we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
+enough information is given, because the volume $$V $$ and number of atoms $$N $$ are not specified. What we can do is use the equation twice: $${P}_{0}{V}_ {0}=Nk_{B}T_{0} $$ and $${P}_{\text{f}}{V}_{\text{f}}=Nk_{B}T_{\text{f}} $$ . If we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
 up with an equation that allows us to solve for $${P}_{\text{f}} $$.
 
 <div class="equation" >
@@ -396,8 +395,7 @@ of moles $$n $$.
 2. Rearrange the equation to solve for  $$n $$  and substitute known values.
 
 <div class="equation" >
- $$\begin{array}{lll}n& =& \frac{PV}{RT}=\frac{\left( 7.00 \times 10^{5}  \text{Pa}\right)\left( 2.00 \times 10^{-3}  {\text{m}}^{3}\right)}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(291 \text{K}\right)}\\  
- n & =&  0.579  \text{mol}\end{array} $$
+ $$\begin{array}{lll}n& =& \frac{PV}{RT}=\frac{\left( 7.00 \times 10^{5} \text{Pa}\right)\left( 2.00 \times 10^{-3} {\text{m}}^{3}\right)}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(291 \text{K}\right)}\\ n & =& 0.579 \text{mol}\end{array} $$ 
 </div>
 **Discussion**
 
@@ -496,7 +494,7 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
   </div>
 
 - A mole is the number of atoms in a 12-g sample of carbon-12.
-- The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}} $$
+- The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}} $$
 
   ,
 
@@ -1165,4 +1163,4 @@ mole
 : the quantity of a substance whose mass (in grams) is equal to its molecular
 mass
 
-</div>
+</div>

@@ -105,7 +105,7 @@ shown in [[Figure 2]](#Figure2). High voltages induced across the gap in the
 loop produced sparks that were visible evidence of the current in the circuit
 and that helped generate electromagnetic waves.
 
-Across the laboratory, Hertz had another loop attached to another $$\text{RLC} $$
+Across the laboratory, Hertz had another loop attached to another $$\text{RLC} $$
 
 circuit, which could be tuned (as the dial on a radio) to the same resonant
 frequency as the first and could, thus, be made to receive electromagnetic
@@ -322,4 +322,4 @@ magnetic field lines
 opposite magnetic poles. The density of the lines indicates the magnitude of the
 magnetic field
 
-</div>
+</div>

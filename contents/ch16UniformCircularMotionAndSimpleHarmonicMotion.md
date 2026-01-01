@@ -334,4 +334,4 @@ As the record spins, the ladybug moves in a circle. When illuminated by parallel
 0.419 m/s or 41.9 cm/s
 
 </div>
-</div>
+</div>

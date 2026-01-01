@@ -56,8 +56,7 @@ component of the force in the direction of the displacement—that is, an $$ F\c
 constant. You can see that the area under the graph is $$ Fd\cos{\theta} $$, or
 the work done. [Figure 1](#Figure1)(b) shows a more general process where the force
 varies. The area under the curve is divided into strips, each having an average
-force $$ \left( F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$ \left(
-F\cos{\theta} \right)_{i\left(\text{ave}\right)}d_{i} $$ for each strip, and the total work done is the sum of the $$ W_{i} $$. Thus the total work done is the
+force $$ \left( F\cos{\theta} \right)_{i\left(\text{ave}\right)} $$. The work done is $$ \left( F\cos{\theta} \right)_{i\left(\text{ave}\right)}d_{i} $$ for each strip, and the total work done is the sum of the $$ W_{i} $$. Thus the total work done is the
 total area under the curve, a useful property to which we shall refer later.
 
 ![Two drawings labeled a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.](../resources/Figure_07_02_01.jpg '(a) A graph of ( F\\cos{ \\theta} ) vs. ( d ) , when ( F \\cos{ \\theta} ) is constant. The area under the curve represents the work done by the force. (b) A graph of ( F \\cos{ \\theta} ) vs. ( d ) in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.')
@@ -212,10 +211,10 @@ distance.
 The net force is the push force minus friction, or $$ F\_{\text{net}} = 120 N - 5.00\N = 115 \N $$. Thus the net work is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{net}}&=& F_{\text{net}}d=\left(115 \N \right)\left(0.800 \m \right)\\
 W_{\text{net}}&=& 92.0 \N \cdot \m=92.0 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion for (a)**
@@ -236,31 +235,31 @@ perpendicular to the displacement, and therefore do no work.
 The applied force does work.
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{app}}&=& F_{\text{app}}d\cos\left(0^\circ \right)=F_{\text{app}}d\\
 W_{\text{app}}&=& \left(120 \N \right)\left(0.800 \m \right)\\
 W_{\text{app}}&=& 96.0 \J
-\end{array} $$
+\end{array} $$ $$
 </div>
 The friction force and displacement are in opposite directions, so that $$ \theta =180^\circ $$,
 and the work done by friction is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{fr}}&=& F_{\text{fr}}d\cos\left(180^\circ\right)=-F_{\text{fr}}d\\
 W_{\text{fr}}&=& -\left(5.00 \N \right)\left(0.800 \m \right)\\
 W_{\text{fr}}&=& -4.00 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 So the amounts of work done by gravity, by the normal force, by the applied force, and by friction are, respectively,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{gr}}&=& 0,\\ 
 W_{N}&=& 0,\\ 
 W_{\text{app}}&=& 96.0 \J  ,\\
 W_{\text{fr}}&=& -4.00 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 The total work done as the sum of the work done by each force is then seen to be
 
@@ -309,10 +308,10 @@ Thus,
 Solving for the final speed as requested and entering known values gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v&=& \sqrt{\frac{2\text{(95.75 J)}}{m}}=\sqrt{\frac{191.5 \kg \cdot \mmss }{30.0 \kg }}\\
 v&=& 2.53 \ms .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -426,10 +425,10 @@ We calculate the kinetic energy of both using $$ \KE = \frac{1}{2}mv^{2} $$, con
 Convert speeds to m/s:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v_{\text{truck}} &=& 110\text{ km/h} \times \frac{1000\m}{3600\s} = 30.6\ms\\
 v_{\text{astronaut}} &=& 27500\text{ km/h} \times \frac{1000\m}{3600\s} = 7640\ms
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 Kinetic energy of truck:
@@ -492,11 +491,11 @@ Setting the elephant's kinetic energy equal to this:
 Solving for the elephant's velocity:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v_{\text{elephant}} &=& \sqrt{\frac{2(3250\J)}{3000\kg}}\\
 v_{\text{elephant}} &=& \sqrt{2.167\text{ m}^{2}/\text{s}^{2}}\\
 v_{\text{elephant}} &=& 1.47\ms
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 __(b)__ The relationship between body mass and metabolic rate is discussed below.
@@ -540,11 +539,11 @@ Convert speed to m/s:
 Calculate kinetic energy:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE &=& \frac{1}{2}mv^{2} = \frac{1}{2}(9.00 \times 10^{7}\kg)(15.4\ms)^{2}\\
 \KE &=& \frac{1}{2}(9.00 \times 10^{7})(237.16)\J\\
 \KE &=& 1.07 \times 10^{10}\J \approx 1.1 \times 10^{10}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -591,19 +590,19 @@ Using the work-energy theorem ($$ W\_{\text{net}} = \Delta \KE $$):
 Solving for F:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F &=& \frac{\KE_{0}}{d} = \frac{2.97 \times 10^{5}\J}{120\m}\\
 F &=& 2.47 \times 10^{3}\N \approx 2.5 \times 10^{3}\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 __(b)__ For hitting the abutment with $$ d = 2.00\m $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F &=& \frac{\KE_{0}}{d} = \frac{2.97 \times 10^{5}\J}{2.00\m}\\
 F &=& 1.48 \times 10^{5}\N \approx 1.5 \times 10^{5}\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 The ratio of forces is:
@@ -653,11 +652,11 @@ The initial kinetic energy is:
 Using the work-energy theorem:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 -Fd &=& -\KE\\
 F &=& \frac{\KE}{d} = \frac{545\J}{0.200\m}\\
 F &=& 2725\N \approx 2.7 \times 10^{3}\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -703,20 +702,20 @@ __(a)__ With gloves, using $$ d = 7.50\text{ cm} = 0.0750\m $$:
 Using the work-energy theorem:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 -Fd &=& -\KE\\
 F &=& \frac{\KE}{d} = \frac{350\J}{0.0750\m}\\
 F &=& 4.67 \times 10^{3}\N \approx 4.7 \times 10^{3}\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 __(b)__ Without gloves, using $$ d = 2.00\text{ cm} = 0.0200\m $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F &=& \frac{\KE}{d} = \frac{350\J}{0.0200\m}\\
 F &=& 1.75 \times 10^{4}\N \approx 1.8 \times 10^{4}\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -755,23 +754,23 @@ The net work done equals the change in kinetic energy. The net work is the work 
 Calculate the change in kinetic energy:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \Delta \KE &=& \frac{1}{2}m(v_{f}^{2} - v_{i}^{2})\\
 \Delta \KE &=& \frac{1}{2}(60.0\kg)[(8.00\ms)^{2} - (2.00\ms)^{2}]\\
 \Delta \KE &=& \frac{1}{2}(60.0\kg)(64.0 - 4.00)\text{ m}^{2}/\text{s}^{2}\\
 \Delta \KE &=& 1800\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 Using the work-energy theorem:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 (F_{\text{sprinter}} - F_{\text{wind}})d &=& \Delta \KE\\
 (F_{\text{sprinter}} - 30.0\N)(25.0\m) &=& 1800\J\\
 F_{\text{sprinter}} - 30.0\N &=& \frac{1800\J}{25.0\m} = 72.0\N\\
 F_{\text{sprinter}} &=& 72.0\N + 30.0\N = 102\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -801,4 +800,4 @@ kinetic energy
 : the energy an object has by reason of its motion, equal to $$ \frac{1}{2}m v^{2} $$ for the translational (i.e., non-rotational) motion of an object of
 mass $$ m $$ moving at speed $$ v $$
 
-</div>
+</div>

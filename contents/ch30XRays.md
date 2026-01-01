@@ -597,4 +597,4 @@ x-ray diffraction
 : a technique that provides the detailed information about crystallographic
 structure of natural and manufactured materials
 
-</div>
+</div>

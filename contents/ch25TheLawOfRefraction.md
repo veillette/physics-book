@@ -986,4 +986,4 @@ index of refraction
 : for a material, the ratio of the speed of light in vacuum to that in the
 material
 
-</div>
+</div>

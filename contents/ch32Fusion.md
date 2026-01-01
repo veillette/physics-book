@@ -878,4 +878,4 @@ proton-proton cycle
 : the combined reactions <sup>1</sup>H+<sup>1</sup>H→<sup>2</sup>H+_e_<sup> +</sup>+_v_<sub>e</sub>, <sup>1</sup>H+<sup>2</sup>H→<sup>3</sup>He+_γ_,
 and <sup>3</sup>He+<sup>3</sup>He→<sup>4</sup>He+<sup>1</sup>H+<sup>1</sup>H
 
-</div>
+</div>

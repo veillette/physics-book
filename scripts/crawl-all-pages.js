@@ -11,8 +11,10 @@
  * - HTTP errors (500, 404, etc.)
  *
  * Usage:
- *   npm run crawl              # Crawl local server
- *   npm run crawl:verbose      # Show detailed output
+ *   node scripts/crawl-all-pages.js              # Normal mode (progress every 20 pages)
+ *   node scripts/crawl-all-pages.js --verbose    # Show all pages
+ *   node scripts/crawl-all-pages.js --errors-only # Errors only, semi-verbose (progress every 10 pages)
+ *   node scripts/crawl-all-pages.js -e           # Short form of --errors-only
  */
 
 import { chromium } from '@playwright/test';
@@ -26,6 +28,7 @@ const siteDir = '_site/contents';
 class PageCrawler {
   constructor(options = {}) {
     this.verbose = options.verbose || false;
+    this.errorsOnly = options.errorsOnly || false;
     this.stats = {
       totalPages: 0,
       pagesChecked: 0,
@@ -73,7 +76,8 @@ class PageCrawler {
     this.page.on('requestfailed', request => {
       this.stats.errorTypes.resourceErrors++;
       this.stats.totalErrors++;
-      if (this.verbose) {
+      // Only log in full verbose mode, not in errors-only mode
+      if (this.verbose && !this.errorsOnly) {
         console.log(chalk.yellow(`  ⚠️  Failed request: ${request.url()}`));
       }
     });
@@ -153,11 +157,17 @@ class PageCrawler {
         console.log(chalk.red(`❌ [${index}/${this.stats.totalPages}] ${file}`));
         errors.forEach(err => console.log(chalk.yellow(`   └─ ${err}`)));
       } else {
-        if (this.verbose) {
+        // Show successful pages in full verbose mode
+        if (this.verbose && !this.errorsOnly) {
           console.log(chalk.green(`✓ [${index}/${this.stats.totalPages}] ${file}`));
-        } else if (index % 20 === 0 || index === this.stats.totalPages) {
-          const progress = Math.round((index / this.stats.totalPages) * 100);
-          console.log(chalk.gray(`   Progress: ${index}/${this.stats.totalPages} (${progress}%)`));
+        }
+        // Show progress updates
+        else {
+          const progressInterval = this.errorsOnly ? 10 : 20; // Semi-verbose shows every 10 pages
+          if (index % progressInterval === 0 || index === this.stats.totalPages) {
+            const progress = Math.round((index / this.stats.totalPages) * 100);
+            console.log(chalk.gray(`   Progress: ${index}/${this.stats.totalPages} (${progress}%)`));
+          }
         }
       }
     } catch (error) {
@@ -220,6 +230,7 @@ class PageCrawler {
 // Parse command line args
 const args = process.argv.slice(2);
 const verbose = args.includes('--verbose') || args.includes('-v');
+const errorsOnly = args.includes('--errors-only') || args.includes('-e');
 
-const crawler = new PageCrawler({ verbose });
+const crawler = new PageCrawler({ verbose, errorsOnly });
 crawler.run();

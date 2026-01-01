@@ -110,8 +110,7 @@ from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_ {0}
 1\. Identify the knowns. $$ v_{0}=0 $$, $$ v_{f}=-15.0 \ms $$
 (the negative sign indicates direction toward the west), $$ \Delta t=1\text{.80 s} $$.
 
-2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0 \ms $$, its change in velocity equals its final velocity: $$ \Delta v=v\_
-{f}=-15.0 \ms $$. 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
+2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0 \ms $$, its change in velocity equals its final velocity: $$ \Delta v=v\_ {f}=-15.0 \ms $$. 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
 and solve for the unknown $$ \overline{a} $$.
 
 <div class="equation">
@@ -312,8 +311,7 @@ velocity and the change in time and then solve for acceleration.
 4\. Convert the units to meters and seconds.
 
 <div class="equation">
- $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\left(\frac{-30.0 \text{km/h}}{8.00 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right)
-=−1.04 \mss . $$
+ $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\left(\frac{-30.0 \text{km/h}}{8.00 \s }\right)\left(\frac{ 10^{3}\m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \s }\right) =−1.04 \mss . $$ 
 </div>
 
 **Discussion**
@@ -405,16 +403,12 @@ since
 3\. Solve for $$ \overline{a} $$.
 
 <div class="equation">
- $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+20.0 \text{km/h}}{10.0
-\s }
-$$
+ $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+20.0 \text{km/h}}{10.0 \s } $$ 
 </div>
 4\. Convert units.
 
 <div class="equation">
- $$ \overline{a}=\left(\frac{+20.0 \text{km/h}}{10.0 \s }\right)\left
-(\frac{ 10^{3} \m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \text
-{s}}\right)=+0.556 \mss $$
+ $$ \overline{a}=\left(\frac{+20.0 \text{km/h}}{10.0 \s }\right)\left (\frac{ 10^{3} \m }{1 \text{km}}\right)\left(\frac{1 \text{h}}{3600 \text {s}}\right)=+0.556 \mss $$ 
 </div>
 
 **Discussion**
@@ -743,4 +737,4 @@ deceleration
 : acceleration in the direction opposite to velocity; acceleration that results
 in a decrease in velocity
 
-</div>
+</div>

@@ -118,7 +118,7 @@ lengths proportional to the distance and the directions as specified relative to
 an east-west line. The head-to-tail method outlined above will give a way to
 determine the magnitude and direction of the resultant displacement, denoted
 
-\vb{R} $$.
+\vb{R} $$. $$
 
 **Solution**
 
@@ -231,8 +231,7 @@ direction. Thus, she will end up at a location $$ \vb{A}+\left( -\vb{B} \right) 
 ![A vector labeled negative B is inclined at an angle of sixty-eight degrees below a horizontal line. A dotted line in the reverse direction inclined at one hundred and twelve degrees above the horizontal line is also shown.](../resources/Figure_03_02_15.jpg)
 {: #Figure15}
 
-We will perform vector addition to compare the location of the dock, $$ \vb{A} + \vb{B} $$, with the location at which the woman mistakenly arrives, $$ \vb{A} +
-\left(- \vb{B}\right) $$.
+We will perform vector addition to compare the location of the dock, $$ \vb{A} + \vb{B} $$, with the location at which the woman mistakenly arrives, $$ \vb{A} + \left(- \vb{B}\right) $$. 
 
 **Solution**
 
@@ -349,7 +348,7 @@ Maze Game
   $$ \vb{R} $$.
 * Addition of vectors is **commutative** such that
 
-\vb{A}+\vb{B}=\vb{B}+\vb{A} $$.
+\vb{A}+\vb{B}=\vb{B}+\vb{A} $$. $$
 
 - The **head-to-tail method** of adding vectors involves drawing the first
   vector on a graph and then placing the tail of each subsequent vector at the
@@ -1293,4 +1292,4 @@ scalar
 tail
 : the start point of a vector; opposite to the head or tip of the arrow
 
-</div>
+</div>

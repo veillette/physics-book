@@ -75,7 +75,7 @@ properties are consistent with the idea that individual photons of EM radiation
 are absorbed by individual electrons in a material, with the electron gaining
 the photon’s energy. Some of these properties are inconsistent with the idea
 that EM radiation is a simple wave. For simplicity, let us consider what happens
-with monochromatic EM radiation in which all photons have the same energy $$ hf $$
+with monochromatic EM radiation in which all photons have the same energy $$ hf $$
 
 .
 
@@ -120,7 +120,7 @@ photons having the same characteristic energy $$ hf $$ .
    photon of EM radiation (it does not come any other way) interacts with an
    individual electron, supplying enough energy, BE, to break it away, with the
    remainder going to kinetic energy. The binding energy is $$\text{BE}=hf_{0} $$ , where $${f}_{0} $$ is the threshold frequency for the particular
-   material. [[Figure 3]](#Figure3) shows a graph of maximum $${\text{KE}}\_{e} $$
+   material. [[Figure 3]](#Figure3) shows a graph of maximum $${\text{KE}}\_{e} $$
 
    versus the frequency of incident EM radiation falling on a particular
    material.
@@ -237,7 +237,7 @@ See how light knocks electrons off a metal target, and recreate the experiment t
   characteristics of the photoelectric effect are due to the interaction of
   individual photons with individual electrons.
 - The maximum kinetic energy $${\text{KE}}_{e} $$ of ejected electrons (
-  photoelectrons) is given by $${\text{KE}}_{e}= hf\text{- BE} $$ , where $$ hf
+photoelectrons) is given by $${\text{KE}}_{e}= hf\text{- BE} $$ , where $$ hf $$
   is the photon energy and BE is the binding energy (or work function) of the
   electron to the particular material.
 
@@ -931,4 +931,4 @@ binding energy
 : also called the _work function_; the amount of energy necessary to eject an
 electron from a material
 
-</div>
+</div>

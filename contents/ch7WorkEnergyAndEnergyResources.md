@@ -27,7 +27,7 @@ This led her to develop a more accurate concept of energy conservation,
 expressed as $$ E=\frac{1}{2} mv^2$$. Even as scientists
 discovered new forms of energy, conservation of energy has always been found to
 apply. Perhaps the most dramatic example of this was supplied by Einstein when
-he suggested that mass is equivalent to energy (his famous equation $$ E=mc^{2} $$
+he suggested that mass is equivalent to energy (his famous equation $$ E=mc^{2} $$
 
 
 ).

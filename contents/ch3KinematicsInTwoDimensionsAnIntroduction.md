@@ -161,4 +161,4 @@ vector
 : a quantity that has both magnitude and direction; an arrow used to represent
 quantities with both magnitude and direction
 
-</div>
+</div>

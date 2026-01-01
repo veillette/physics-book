@@ -203,7 +203,7 @@ where
 
 This equation for $$\Delta t $$ is truly remarkable. First, as contended,
 elapsed time is not the same for different observers moving relative to one
-another, even though both are in inertial frames. Proper time $$\Delta {t}\_{0} $$
+another, even though both are in inertial frames. Proper time $$\Delta {t}\_{0} $$
 
 measured by an observer, like the astronaut moving with the apparatus, is
 smaller than time measured by other observers. Since those other observers
@@ -378,7 +378,7 @@ Check Your Understanding
 1. What is  $$\gamma  $$
  if  $$v=0.650c $$ ?
 
-<span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
+<span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ $$
 {c}^{2}}}}=\frac{1}{\sqrt{1-\frac{ {\left(  0.650c \right)}^{2}}{ {c}^{2}}}}=
 1.32
 
@@ -926,4 +926,4 @@ towards the Earth ages less than the Earth-bound twin. The premise to the
 paradox is faulty because the traveling twin is accelerating, and special
 relativity does not apply to accelerating frames of reference
 
-</div>
+</div>

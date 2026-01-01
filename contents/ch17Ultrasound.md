@@ -316,8 +316,7 @@ Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery th
 
 **Strategy**
 
-The first two questions can be answered using $${f}_{\text{obs}}={f}_{s}\left( \frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right) $$ and $${f}_{\text{obs}}={f}_
-{s}\left(\frac{ {v}_{w} ± {v}_{\text{obs}}}{ {v}_{w}}\right) $$ for the Doppler
+The first two questions can be answered using $${f}_{\text{obs}}={f}_{s}\left( \frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right) $$ and $${f}_{\text{obs}}={f}_ {s}\left(\frac{ {v}_{w} ± {v}_{\text{obs}}}{ {v}_{w}}\right) $$ for the Doppler 
 shift. The last question asks for beat frequency, which is the difference
 between the original and returning frequencies.
 
@@ -1186,4 +1185,4 @@ Doppler-shifted ultrasound
 : a medical technique to detect motion and determine velocity through the
 Doppler shift of an echo
 
-</div>
+</div>

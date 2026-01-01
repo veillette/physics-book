@@ -58,7 +58,7 @@ $$ \text{net}W=\left(\text{net τ}\right)\theta $$ is valid in general, even
 though it was derived for a special case.
 
 To get an expression for rotational kinetic energy, we must again perform some
-algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha $$
+algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha $$
 
 , so that
 
@@ -147,7 +147,7 @@ angle $$ \theta $$ is given. Substituting the given values in the equation above
 yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \text{net}W&=& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
 \text{net}W&=& 64.0 \N \cdot \m .
 \end{array}
@@ -201,9 +201,7 @@ Now, substitute this value and the given value for $$ \theta $$
 into the above expression for $$ \omega $$:
 
 <div class="equation">
- $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}=
-{\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2}
-=5.42 \rads . $$
+ $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}= {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2} =5.42 \rads . $$ 
 </div>
 
 **Solution for (c)**
@@ -304,10 +302,10 @@ is four times this moment of inertia, because there are four blades. Thus,
 Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic energy gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE_{\text{rot}}&=& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
 \KE_{\text{rot}}&=& 5.26\times 10^{5} \J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Solution for (b)**
@@ -1452,4 +1450,4 @@ rotational kinetic energy
 : the kinetic energy due to the rotation of an object. This is part of its total
 kinetic energy
 
-</div>
+</div>
