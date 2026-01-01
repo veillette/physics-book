@@ -196,10 +196,8 @@ that approaches or even exceeds the speed of sound? The answer to this question
 applies not only to sound but to all other waves as well.
 
 Suppose a jet airplane is coming nearly straight at you, emitting a sound of
-frequency $${f}_{s} $$ . The greater the plane’s speed $${v}_{s} $$ , the
-greater the Doppler shift and the greater the value observed for $${f}_ {\text{obs}} $$ . Now, as $${v}_{s} $$ approaches the speed of sound, $${f}_
-{\text{obs}} $$ approaches infinity, because the denominator in $${f}_
-{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right)
+frequency $${f}_{s} $$ . The greater the plane's speed $${v}_{s} $$ , the
+greater the Doppler shift and the greater the value observed for $${f}_{\text{obs}} $$ . Now, as $${v}_{s} $$ approaches the speed of sound, $${f}_{\text{obs}} $$ approaches infinity, because the denominator in $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right) $$
 
 approaches zero. At the speed of sound, this result means that in front of the
 source, each successive wave is superimposed on the previous one because the
@@ -241,9 +239,8 @@ source moves faster than the wave propagation speed. Water waves spread out in
 circles from the point where created, and the bow wake is the familiar V-shaped
 wake trailing the source. A more exotic bow wake is created when a subatomic
 particle travels through a medium faster than the speed of light travels in that
-medium. In a vacuum, the maximum speed of light will be $$c= 3.00 \times 10^{8} $$
-\text{m/s} $$ ; in the medium of water, the speed of light is closer to $$0.75c
-
+medium. In a vacuum, the maximum speed of light will be $$c= 3.00 \times 10^{8} \text{m/s} $$
+medium. In a vacuum, the maximum speed of light will be $$c= 3.00 \times 10^{8} \text{m/s} $$ ; in the medium of water, the speed of light is closer to $$0.75c $$
 . If the particle creates light in its passage, that light spreads on a cone
 with an angle indicative of the speed of the particle, as illustrated
 in [[Figure 7]](#Figure7). Such a bow wake is called Cerenkov radiation and is
@@ -767,4 +764,4 @@ bow wake
 : V-shaped disturbance created when the wave source moves faster than the wave
 propagation speed
 
-</div>
+</div>

@@ -99,12 +99,7 @@ where
  $${v}_{\text{max}}=\sqrt{\frac{k}{m}}X. $$
 </div>
 
-From this expression, we see that the velocity is a maximum ( $${v}\_{\text{max}} $$
-
-)
-at $$x=0 $$ , as stated earlier in $$v\left(t\right)=-{v}_{\text{max}} \sin
-\frac{2\pi t}{T}
-
+From this expression, we see that the velocity is a maximum ( $${v}_{\text{max}} $$ ) at $$x=0 $$ , as stated earlier in $$v\left(t\right)=-{v}_{\text{max}} \sin \frac{2\pi t}{T} $$ .
 _._ Notice that the maximum velocity depends on three factors. Maximum velocity
 is directly proportional to amplitude. As you might guess, the greater the
 maximum displacement the greater the maximum velocity. Maximum velocity is also
@@ -420,4 +415,4 @@ The key to this system's effectiveness is resonance: by tuning the mass damper t
 (b) $$7.90 \times 10^{6} \text{ J}$$
 
 </div>
-</div>
+</div>
