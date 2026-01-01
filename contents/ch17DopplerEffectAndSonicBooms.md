@@ -302,7 +302,7 @@ If I am driving and I hear Doppler shift in an ambulance siren, I would be able 
   faster than sound.
 * A sonic boom is a type of bow wake created when any wave source moves faster
   than the wave propagation speed.
-* For a stationary observer and a moving source, the observed frequency $${f}_ {\text{obs}} $$ is:
+* For a stationary observer and a moving source, the observed frequency $${f}_{\text{obs}} $$ is:
 
   <div class="equation" >
    $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w}}{ {v}_{w}±{v}_{s}}\right), $$

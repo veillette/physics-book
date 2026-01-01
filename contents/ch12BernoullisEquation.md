@@ -184,11 +184,11 @@ Solving Bernoulli’s principle for $${P}_{1} $$ yields
 Substituting known values,
 
 <div class="equation" >
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
 {P}_{1}& =&  1.01 \times 10^{5}  {\text{N/m}}^{2}\\ 
 & &  +\frac{1}{2} \left(10^{3} {\text{kg/m}}^{3}\right)
 \left[ {\left(25.5 \text{m/s}\right)}^{2}-{\left(1.96 \text{m/s}\right)}^{2}\right] \\ 
-{P}_{1}& =&  4.24 \times 10^{5}  {\text{N/m}}^{2}\text{.}\end{array} $$ $$
+{P}_{1}& =&  4.24 \times 10^{5}  {\text{N/m}}^{2}\text{.}\end{array} $$
 </div>
 **Discussion**
 
@@ -247,7 +247,7 @@ Bernoulli’s principle. The manometer in [[Figure 4]](#Figure4)(a) is connected
 to two tubes that are small enough not to appreciably disturb the flow. The tube
 facing the oncoming fluid creates a dead spot having zero velocity ( $${v}_{1}=0 $$ )
 in front of it, while fluid passing the other tube has velocity $${v}_{2} $$ .
-This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v_ {1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2} $$ becomes
+This means that Bernoulli’s principle as stated in $${P}_{1}+\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2} $$ becomes
 
 <div class="equation" >
  $${P}_{1}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$

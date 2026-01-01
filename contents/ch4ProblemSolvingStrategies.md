@@ -116,7 +116,7 @@ solving for force and end up with units of m/s, then you have made a mistake.
      draw them on the free-body diagram.
   3. Write Newtonâ€™s second law in the horizontal and vertical directions and
      add the forces acting on the object. If the object does not accelerate in
- a particular direction (for example, the $$ x $$ -direction) then $$ F_ {\text{net}x}=0 $$. If the object does accelerate in that direction, $$ F_{\text{net}x}=ma $$. 
+ a particular direction (for example, the $$ x $$ -direction) then $$ F_{\text{net}x}=0 $$. If the object does accelerate in that direction, $$ F_{\text{net}x}=ma $$. 
   4. Check your answer. Is the answer reasonable? Are the units correct?
 
 ### Problem Exercises
@@ -917,7 +917,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newtonâ
    diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg)
    {: #Figure7}
 
-3. The tension is given as $$ T=25.0 \N $$. Find $$ F_ {\text{app}}$$. Using Newton's laws gives:
+3. The tension is given as $$ T=25.0 \N $$. Find $$ F_{\text{app}}$$. Using Newton's laws gives:
    $$ \sum F\_{y}=0, $$ so that applied force is due to the _y_-components of the
    two tensions:
 

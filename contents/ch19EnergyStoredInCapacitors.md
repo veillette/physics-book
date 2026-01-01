@@ -76,7 +76,7 @@ A heart defibrillator delivers  $$ 4.00 \times 10^{2}  \text{J} $$
 **Strategy**
 
 We are given $${E}_{\text{cap}} $$ and $$V $$ , and we are asked to find the
-capacitance $$C $$ . Of the three expressions in the equation for $${E}_ {\text{cap}} $$ , the most convenient relationship is
+capacitance $$C $$ . Of the three expressions in the equation for $${E}_{\text{cap}} $$ , the most convenient relationship is
 
 <div class="equation" >
  $${E}_{\text{cap}}=\frac{ C V^{2}}{2}. $$

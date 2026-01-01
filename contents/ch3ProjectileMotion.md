@@ -40,7 +40,7 @@ axes, respectively. The magnitudes of these vectors are $$\mag{s}$$,
 $$\mag{x}$$, and $$\mag{y}$$.
 (Note that in the last section we used the notation $$ \vb{A} $$ to represent a
 vector with components $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$. If we continued
-this format, we would call displacement $$ \vb{s} $$ with components $$ \vb{s}_ {x} $$ and $$ \vb{s}_{y} $$. However, to simplify the notation, we will simply
+this format, we would call displacement $$ \vb{s} $$ with components $$ \vb{s}_{x} $$ and $$ \vb{s}_{y} $$. However, to simplify the notation, we will simply
 represent the component vectors as $$ s_x $$ and $$ s_y $$.)
 
 Of course, to describe motion we must deal with velocity and acceleration, as
@@ -82,8 +82,8 @@ Given these assumptions, the following steps are then used to analyze projectile
 motion:
 
 **_Step 1._** _Resolve or break the motion into horizontal and vertical
-components along the x- and y-axes._ These axes are perpendicular, so $$ A_ {x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The magnitude of
-the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$ y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_ {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
+components along the x- and y-axes._ These axes are perpendicular, so $$ A_{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The magnitude of
+the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$ y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
 magnitude of the velocity and $$ \theta $$ is its direction, as shown
 in [Figure 2](#Figure2). Initial values are denoted with a subscript 0, as usual.
 
@@ -231,7 +231,7 @@ larger than that given to reach the same height.
 **Solution for (b)**
 
 As in many physics problems, there is more than one way to solve for the time to
-the highest point. In this case, the easiest method is to use $$ y=y_ {0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$. Because $$ y_{0} $$ is zero, this
+the highest point. In this case, the easiest method is to use $$ y=y_{0}+\frac{1}{2}\left(v_{0y}+v_{y}\right)t $$. Because $$ y_{0} $$ is zero, this
 equation reduces to simply
 
 <div class="equation">
@@ -240,17 +240,17 @@ equation reduces to simply
 Note that the final vertical velocity, $$ v_{y} $$, at the highest point is zero. Thus,
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 t&=& \frac{2y}{\left(v_{0y}+v_{y}\right)}=\frac{2\left(233 \m \right)}{\left(67.6 \ms \right)}\\
 t&=& 6.90 \s .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion for (b)**
 
 This time is also reasonable for large fireworks. When you are able to see the
 launch of fireworks, you will notice several seconds pass before the shell
-explodes. (Another way of finding the time is by using $$ y=y_{0}+v_ {0y}t-\frac{1}{2}g t^{2} $$, and solving the quadratic equation for $$ t $$.)
+explodes. (Another way of finding the time is by using $$ y=y_{0}+v_{0y}t-\frac{1}{2}g t^{2} $$, and solving the quadratic equation for $$ t $$.)
 
 **Solution for (c)**
 
@@ -262,7 +262,7 @@ is equal to zero:
 <div class="equation">
  $$ x=v_{x}t, $$
 </div>
-where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_ {0}\cos{\theta_{0}}$$. Now,
+where $$ v_{x} $$ is the **x**-component of the velocity, which is given by $$ v_{x}=v_{0}\cos{\theta_{0}}$$. Now,
 
 <div class="equation">
  $$ v_{x}=v_{0}\cos{\theta_{0}}=\left(70.0 \ms \right)\left(\cos {75.0^\circ }\right)=18.1 m/s. $$
@@ -471,7 +471,7 @@ in [Figure 5](#Figure5)(a). The initial angle $$ \theta_{0} $$ also has a dramat
 effect on the range, as illustrated in [Figure 5](#Figure5)(b). For a fixed initial
 speed, such as might be produced by a cannon, the maximum range is obtained with
 
-$$ \theta_ {0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
+$$ \theta_{0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
 air resistance is considered, the maximum angle is approximately $$ 38^\circ $$.
 Interestingly, for every initial angle except $$ 45^\circ $$, there are two
 angles that give the same range—the sum of those angles is $$ 90^\circ $$. The
@@ -535,7 +535,7 @@ Projectile Motion
     1. Determine a coordinate system. Then, resolve the position and/or velocity
        of the object in the horizontal and vertical components. The components
        of position $$ \vb{s} $$ are given by the quantities $$ x $$ and $$ y $$,
-       and the components of the velocity $$ \vb{v} $$ are given by $$ v_ {x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta} $$, where $$ v $$ is the
+       and the components of the velocity $$ \vb{v} $$ are given by $$ v_{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta} $$, where $$ v $$ is the
        magnitude of the velocity and $$ \theta $$ is its direction.
     2. Analyze the motion of the projectile in the horizontal direction using
        the following equations:
@@ -554,7 +554,7 @@ Projectile Motion
     3. Analyze the motion of the projectile in the vertical direction using the
        following equations:
        <div class="equation">
- $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_ {y}=-g=-9.80 \mss \right) $$ 
+ $$ \text{Vertical motion}\left(\text{Assuming positive direction is up;}a_{y}=-g=-9.80 \mss \right) $$ 
 
        </div>
 

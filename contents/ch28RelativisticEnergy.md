@@ -43,18 +43,18 @@ is valid relativistically, if we define energy to include a relativistic factor.
 <div class="title">
 Total Energy
 </div>
-<strong class="term" >Total energy </strong> $$E $$
+<strong class="term" >Total energy </strong> $$E$$
  is defined to be
 
 <div class="equation" >
  $$E=\gamma mc^{2}, $$
 </div>
-where  $$m $$  is mass,  $$c $$
+where  $$m$$  is mass,  $$c$$
  is the speed of light,  $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$ ,
- and  $$v $$
- is the velocity of the mass relative to an observer. There are many aspects of the total energy  $$E $$
- that we will discuss—among them are how kinetic and potential energies are included in  $$E $$ ,
- and how  $$E $$
+ and  $$v$$
+ is the velocity of the mass relative to an observer. There are many aspects of the total energy  $$E$$
+ that we will discuss—among them are how kinetic and potential energies are included in  $$E$$ ,
+ and how  $$E$$
  is related to relativistic momentum. But first, note that at rest, total energy is not zero. Rather, when  $$v=0 $$ ,
  we have  $$\gamma =1 $$ ,  and an object has rest energy.
 
@@ -101,8 +101,7 @@ rest energy.
    <div class="equation" >
 $$\begin{array}{lll}{E}_{0}& =& mc^{2}=\left( 1.00 \times 10^{-3} $$
    \text{kg}\right) { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}\\ & =&
-   9.00 \times 10^{13} \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}\end{array}
-$$ $$
+   9.00 \times 10^{13} \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}\end{array} $$
    </div>
 
 5. Convert units. Noting that $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1 \text{J} $$ , we see the rest mass energy is
@@ -115,7 +114,7 @@ $$ $$
 
 This is an enormous amount of energy for a 1.00-g mass. We do not notice this
 energy, because it is generally not available. Rest energy is large because the
-speed of light $$c $$ is a large number and $${c}^{2} $$ is a very large number,
+speed of light $$c$$ is a large number and $${c}^{2} $$ is a very large number,
 so that $$mc^{2} $$ is huge for any macroscopic mass. The $$ 9.00 \times 10^{13} \text{J} $$ rest mass energy for 1.00 g is about twice the energy released by
 the Hiroshima atomic bomb and about 10 000 times the kinetic energy of a large
 aircraft carrier. If a way can be found to convert rest mass energy into some
@@ -168,8 +167,8 @@ A car battery is rated to be able to move 600 ampere-hours  $$\left(A·h\right) 
 
 In part (a), we first must find the energy stored in the battery, which equals
 what the battery can supply in the form of electrical potential energy. Since
-$${\text{PE}}_{\text{elec}}=qV $$ , we have to calculate the charge $$q $$ in
-$$600 A·h $$ , which is the product of the current $$I $$ and the time $$t $$ .
+$${\text{PE}}_{\text{elec}}=qV $$ , we have to calculate the charge $$q$$ in
+$$600 A·h $$ , which is the product of the current $$I$$ and the time $$t$$ .
 We then multiply the result by 12.0 V. We can then calculate the battery’s
 increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ . Part (b) is a simple ratio converted to a percentage.
 
@@ -180,17 +179,16 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
    {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$ 5. Plug the knowns into the equation. <div class="equation" > $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
    {c}^{2}}\\ & =& \frac{qV}{ {c}^{2}}\\ & =& \frac{\left(It\right)V}{
    {c}^{2}}\\ & =& \frac{\left(600 \text{A}\cdot \text{h}\right)\left(12.0
-   \text{V}\right)}{ {\left( 3.00 \times 10^{8} \right)}^{2}}\text{.}\end{array}
-$$ $$
+   \text{V}\right)}{ {\left( 3.00 \times 10^{8} \right)}^{2}}\text{.}\end{array} $$
    </div>
 
    Write amperes A as coulombs per second (C/s), and convert hours to seconds.
 
     <div class="equation" >
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
     \Delta m& =& \frac{600 \text{C/s}\cdot \text{h} \left( \frac{3600 \text{s}}{1 \text{h}} \right) \left(12.0 \text{J/C}\right) }
     { { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\\ 
-& =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$ $$
+& =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$
     </div>
 
    Using the conversion $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1 \text{J} $$, we can write the mass as
@@ -292,7 +290,7 @@ So, in fact, relativistic kinetic energy does become the same as classical
 kinetic energy when $$v \ll c $$.
 
 It is even more interesting to investigate what happens to kinetic energy when
-the velocity of an object approaches the speed of light. We know that $$\gamma $$ becomes infinite as $$v $$ approaches $$c $$ , so that $$ \text{KE}\_ \text{rel} $$ also becomes infinite as the velocity approaches the speed of 
+the velocity of an object approaches the speed of light. We know that $$\gamma $$ becomes infinite as $$v$$ approaches $$c$$ , so that $$ \text{KE}\_ \text{rel} $$ also becomes infinite as the velocity approaches the speed of 
 light. (See [[Figure 3]](#Figure3).) An infinite amount of work (and, hence, an
 infinite amount of energy input) is required to accelerate a mass to the speed
 of light.
@@ -306,9 +304,9 @@ The Speed of Light
 </div>
 
 So the speed of light is the ultimate speed limit for any particle having mass.
-All of this is consistent with the fact that velocities less than $$c $$ always
-add to less than $$c $$ . Both the relativistic form for kinetic energy and the
-ultimate speed limit being $$c $$ have been confirmed in detail in numerous
+All of this is consistent with the fact that velocities less than $$c$$ always
+add to less than $$c$$ . Both the relativistic form for kinetic energy and the
+ultimate speed limit being $$c$$ have been confirmed in detail in numerous
 experiments. No matter how much energy is put into accelerating a mass, its
 velocity can only approach—not reach—the speed of light.
 
@@ -325,10 +323,10 @@ An electron has a velocity  $$v= 0.990c $$ .
 **Strategy**
 
 The expression for relativistic kinetic energy is always correct, but for (a) it
-must be used since the velocity is highly relativistic (close to $$c $$ ).
+must be used since the velocity is highly relativistic (close to $$c$$ ).
 First, we will calculate the relativistic factor $$\gamma $$ , and then use it
 to determine the relativistic kinetic energy. For (b), we will calculate the
-classical kinetic energy (which would be close to the relativistic value if $$v $$ were less than a few percent of $$c $$ )
+classical kinetic energy (which would be close to the relativistic value if $$v$$ were less than a few percent of $$c$$ )
 and see that it is not the same.
 
 **Solution for (a)**
@@ -384,7 +382,7 @@ light. An energy of 3 MeV is a very small amount for an electron, and it can be
 achieved with present-day particle accelerators. SLAC, for example, can
 accelerate electrons to over $$50 \times 10^{9} \text{eV}= 50 000 \text{MeV} $$.
 
-Is there any point in getting $$v $$ a little closer to c than 99.0% or 99.9%?
+Is there any point in getting $$v$$ a little closer to c than 99.0% or 99.9%?
 The answer is yes. We learn a great deal by doing this. The energy that goes
 into a high-velocity mass can be converted to any other form, including into
 entirely new masses. (See [[Figure 4]](#Figure4).) Most of what we know about
@@ -417,26 +415,26 @@ algebraically manipulating their definitions. This produces
  $${E}^{2}={\left(pc \right)}^{2}+{\left(mc^2 \right)}^{2}, $$
 </div>
 
-where $$E $$ is the relativistic total energy and $$p $$ is the relativistic
+where $$E$$ is the relativistic total energy and $$p$$ is the relativistic
 momentum. This relationship between relativistic energy and relativistic
 momentum is more complicated than the classical, but we can gain some
 interesting new insights by examining it. First, total energy is related to
 momentum and rest mass. At rest, momentum is zero, and the equation gives the
 total energy to be the rest energy $$mc^{2} $$
 (so this equation is consistent with the discussion of rest energy above).
-However, as the mass is accelerated, its momentum $$p $$ increases, thus
+However, as the mass is accelerated, its momentum $$p$$ increases, thus
 increasing the total energy. At sufficiently high velocities, the rest energy
 term $${\left(mc^{2}\right)}^{2} $$ becomes negligible compared with the
 momentum term $${\left(pc \right)}^{2} $$ ; thus, $$E=pc $$ at extremely
 relativistic velocities.
 
-If we consider momentum $$p $$ to be distinct from mass, we can determine the
-implications of the equation $${E}^{2}={ \left( pc \right)}^{2}+{ \left( m c^2 \right)}^{2}, $$ for a particle that has no mass. If we take $$m $$ to be zero
+If we consider momentum $$p$$ to be distinct from mass, we can determine the
+implications of the equation $${E}^{2}={ \left( pc \right)}^{2}+{ \left( m c^2 \right)}^{2}, $$ for a particle that has no mass. If we take $$m$$ to be zero
 in this equation, then $$E=\text{pc} $$ , or $$p=E/c $$ . Massless particles
 have this momentum. There are several massless particles found in nature,
 including photons (these are quanta of electromagnetic radiation). Another
-implication is that a massless particle must travel at speed $$c $$ and only at
-speed $$c $$ . While it is beyond the scope of this text to examine the
+implication is that a massless particle must travel at speed $$c$$ and only at
+speed $$c$$ . While it is beyond the scope of this text to examine the
 relationship in the equation $${E}^{2}={\left( pc \right)}^{2}+{\left( mc^{2}\right)}^{2}, $$ in detail, we can see that the relationship has important
 implications in special relativity.
 
@@ -448,11 +446,11 @@ Problem-Solving Strategies for Relativity
      $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$  , the quantitative relativistic factor. If $$\gamma  $$
     is very close to 1, then relativistic effects are small and differ very little from the usually easier classical calculations.
 2.   <em> Identify exactly what needs to be determined in the problem (identify the unknowns).</em>
-3.   <em> Make a list of what is given or can be inferred from the problem as stated (identify the knowns).</em> Look in particular for information on relative velocity $$v $$ .
+3.   <em> Make a list of what is given or can be inferred from the problem as stated (identify the knowns).</em> Look in particular for information on relative velocity $$v$$ .
 4.   <em> Make certain you understand the conceptual aspects of the problem before making any calculations.</em> Decide, for example, which observer sees time dilated or length contracted before plugging into equations. If you have thought about who sees what, who is moving with the event being observed, who sees proper time, and so on, you will find it much easier to determine if your calculation is reasonable.
 5.   <em> Determine the primary type of calculation to be done to find the unknowns identified above.</em> You will find the section summary helpful in determining whether a length contraction, relativistic kinetic energy, or some other concept is involved.
 6.   <em> Do not round off during the calculation.</em> As noted in the text, you must often perform your calculations to many digits to see the desired effect. You may round off at the very end of the problem, but do not use a rounded number in a subsequent calculation.
-7.   <em> Check the answer to see if it is reasonable: Does it make sense?</em> This may be more difficult for relativity, since we do not encounter it directly. But you can look for velocities greater than $$c $$ or relativistic effects that are in the wrong direction (such as a time contraction where a dilation was expected).
+7.   <em> Check the answer to see if it is reasonable: Does it make sense?</em> This may be more difficult for relativity, since we do not encounter it directly. But you can look for velocities greater than $$c$$ or relativistic effects that are in the wrong direction (such as a time contraction where a dilation was expected).
 { type="1" .stepwise}
 
 </div>
@@ -495,7 +493,7 @@ Answer
   amount of work and an infinite amount of energy input is required to
   accelerate a mass to the speed of light.
 - The equation $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^{2}\right)}^{2} $$
-  relates the relativistic total energy $$E $$ and the relativistic momentum $$p $$. At extremely high velocities, the rest energy $$mc^{2} $$ becomes
+  relates the relativistic total energy $$E$$ and the relativistic momentum $$p$$. At extremely high velocities, the rest energy $$mc^{2} $$ becomes
   negligible, and $$E=pc $$.
 
 ### Conceptual Questions
@@ -530,7 +528,7 @@ The mass of the fuel in a nuclear reactor decreases by an observable amount as i
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-We know that the velocity of an object with mass has an upper limit of  $$c $$ .
+We know that the velocity of an object with mass has an upper limit of  $$c$$ .
  Is there an upper limit on its momentum? Its energy? Explain.
 
 </div>
@@ -538,7 +536,7 @@ We know that the velocity of an object with mass has an upper limit of  $$c $$ .
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Given the fact that light travels at  $$c $$ ,
+Given the fact that light travels at  $$c$$ ,
  can it have mass? Explain.
 
 </div>

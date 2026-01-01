@@ -211,7 +211,7 @@ but we must first find the mass of a nitrogen molecule. Using the molecular mass
 </div>
 **Solution for (b)**
 
-Substituting this mass and the value for $$k $$ into the equation for $${v}_ {\text{rms}} $$ yields
+Substituting this mass and the value for $$k $$ into the equation for $${v}_{\text{rms}} $$ yields
 
 <div class="equation" >
  $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}=\sqrt{\frac{3\left( 1.38 \times 10^{-23} \text{J/K}\right)\left(293 \text{K}\right)}{ 4.65 \times 10^{-26} \text{kg}}}=511 \text{m/s}\text{.} $$

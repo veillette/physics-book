@@ -62,7 +62,7 @@ by the distance $$ x $$ that the spring is stretched or compressed along its
 length. So the force needed to stretch the spring has magnitude $$ F = kx $$,
 where $$ k $$ is the spring’s force constant. The force increases linearly from
 0 at the start to $$ kx $$ in the fully stretched position. The average force is
-$$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_ {s}=F d =\left(\frac{ k x}{2}\right) x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
+$$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_{s}=F d =\left(\frac{ k x}{2}\right) x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 that the area under a graph of $$ F $$ vs. $$ x $$ is the work done by the
 force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be <div class="equation"> $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
@@ -205,11 +205,11 @@ to kinetic energy in the absence of friction.
 Solving for the final speed and entering known values yields
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v_{f}&=& \sqrt{\frac{k}{m}} x_{i}  \\
 v_{f}&=& \sqrt{\frac{250.0 \text{N/m}}{0.100 \kg } } \left(0.0400 \m \right)\\
 v_{f}&=& 2.00 \ms .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Solution for (b)**
@@ -229,12 +229,12 @@ energy. The final speed at the top of the slope will be less than at the bottom.
 Solving for $$ v_{\text{f}} $$ and substituting known values gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v_{f}&=& \sqrt{\frac{ k x_{\text{i}}^{2}}{m}-2 g h_{\text{f}}}\\
 v_{f}&=& \sqrt{\left(\frac{250.0 \text{N/m}}{0.100 \kg }\right)
 \left(0.0400 \m \right)^{2}-2\left(9.80\mss \right) \left(0.180 \m \right) }\\
 v_{f}&=& 0.687 \ms .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -281,12 +281,12 @@ Energy Skate Park
   energy is constant. In equation form,
 
 <div class="equation">
-$$ \begin{array}{cc} $$
+$$ \begin{array}{cc}
 & \KE+\PE=\text{constant}\\
 & \text{or} \\
 &\KE_{\text{i}}+\PE_{\text{i}}=
  \KE_{\text{f}}+\PE_{\text{f}}
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 where i and f denote initial and final values. This is known as the conservation
@@ -422,11 +422,11 @@ Solving for $$ h $$:
 Substituting known values:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 h &=& \frac{(2.50 \times 10^{4}\text{N/m})(0.120\m)^{2}}{2(40.0\kg)(9.80\mss)}\\
 h &=& \frac{(2.50 \times 10^{4})(0.0144)}{784}\m\\
 h &=& \frac{360}{784}\m = 0.459\m
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Step 6:** Check reasonableness: A height of about 46 cm (roughly 1.5 feet) seems reasonable for a pogo stick jump using only the spring's stored energy.

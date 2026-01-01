@@ -70,7 +70,7 @@ concept of shells and shell filling. As we progress up in the number of
 electrons, we go from hydrogen to helium, lithium, beryllium, boron, and so on,
 and we see that there are limits to the number of electrons for each value of
 $$n $$ . Higher values of the shell $$n $$ correspond to higher energies, and
-they can allow more electrons because of the various combinations of $$l, {m}_ {l} $$ , and $${m}_{s} $$ that are possible. Each value of the principal quantum
+they can allow more electrons because of the various combinations of $$l, {m}_{l} $$ , and $${m}_{s} $$ that are possible. Each value of the principal quantum
 number $$n $$ thus corresponds to an atomic **shell** into which a limited
 number of electrons can go. Shells and the number of electrons in them determine
 the physical and chemical properties of atoms, since it is the outermost
@@ -190,7 +190,7 @@ to apply, as we shall now see.
 </div>
 
 The number of electrons that can be in a subshell depends entirely on the value
-of $$l $$ . Once $$l $$ is known, there are a fixed number of values of $${m}_ {l} $$ , each of which can have two values for $${m}_{s} $$ First, since $${m}_ {l} $$ goes from $$-l $$ to _l_ in steps of 1, there are $$2l+1 $$ possibilities. This number is multiplied by 2, since each electron can be spin up or spin down. Thus the _maximum number of electrons that can be in a subshell_ is $$2\left(2l+1\right) $$.
+of $$l $$ . Once $$l $$ is known, there are a fixed number of values of $${m}_{l} $$ , each of which can have two values for $${m}_{s} $$ First, since $${m}_{l} $$ goes from $$-l $$ to _l_ in steps of 1, there are $$2l+1 $$ possibilities. This number is multiplied by 2, since each electron can be spin up or spin down. Thus the _maximum number of electrons that can be in a subshell_ is $$2\left(2l+1\right) $$.
 
 For example, the $$2s $$ subshell in [[Figure 4]](#Figure4) has a maximum of 2
 electrons in it, since $$2\left(2l+1\right)=2\left(0+1\right)=2 $$ for this
@@ -1450,7 +1450,7 @@ about this result? (c) Which assumptions are unreasonable or inconsistent?
 A student in a physics laboratory observes a hydrogen spectrum with a
 diffraction grating for the purpose of measuring the wavelengths of the emitted
 radiation. In the spectrum, she observes a yellow line and finds its wavelength
-to be 589 nm. (a) Assuming this is part of the Balmer series, determine $${n}_ {\text{i}} $$ , the principal quantum number of the initial state. (b) What is
+to be 589 nm. (a) Assuming this is part of the Balmer series, determine $${n}_{\text{i}} $$ , the principal quantum number of the initial state. (b) What is
 unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 

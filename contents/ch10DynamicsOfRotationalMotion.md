@@ -893,7 +893,7 @@ these rotations.
 
 </div>
 <div class="solution" markdown="1">
-$$ \begin{array}{c} $$
+$$ \begin{array}{c}
 I_\text{end}= I_{\text{center}}+m \left(\frac{l}{2}\right)^{2}\\
 \text{Thus,} I_{\text{center}}= I_{\text{end}}-\frac{1}{4}m l^{2} =\frac{1}
 {3}m l^{2} -\frac{1}{4}m l^{2} =\frac{1}{12} m l^{2}

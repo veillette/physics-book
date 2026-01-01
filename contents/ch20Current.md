@@ -163,11 +163,11 @@ Starting with the definition of current, we have
 We divide this by the charge per electron, so that
 
 <div class="equation" >
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
 \frac{ {e}^{-}}{\text{s}}
 & =& \frac{ - 0.300 \times 10^{-3} \text{C}}{\text{s}}\times \frac{1 {e}^{-}}{-1.60 \times 10^{-19} \text{C}}\\ 
 & =&  1.88 \times 10^{15}  \frac{ {e}^{-}}{\text{s}} \text{.}
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -264,7 +264,7 @@ out of this segment in time $$\Delta t $$ , the current is
  $$I=\frac{\Delta Q}{\Delta t}=\frac{qnAx}{\Delta t} . $$
 </div>
 
-Note that $$x/\Delta t $$ is the magnitude of the drift velocity, $${v}_ {\text{d}} $$ , since the charges move an average distance $$x $$ in a time
+Note that $$x/\Delta t $$ is the magnitude of the drift velocity, $${v}_{\text{d}} $$ , since the charges move an average distance $$x $$ in a time
 $$\Delta t $$. Rearranging terms gives
 
 <div class="equation" >
@@ -273,7 +273,7 @@ $$\Delta t $$. Rearranging terms gives
 
 where $$I $$ is the current through a wire of cross-sectional area $$A $$ made
 of a material with a free charge density $$n $$ . The carriers of the current
-each have charge $$q $$ and move with a drift velocity of magnitude $${v}_ {\text{d}} $$.
+each have charge $$q $$ and move with a drift velocity of magnitude $${v}_{\text{d}} $$.
 
 ![Charges are shown moving through a section of a conducting wire. The charges have a drift velocity v sub d along the length of the wire, shown by an arrow pointing to the right. The volume of a segment of the wire is equal to A times x, where x equals the product of the drift velocity, v sub d, and time t. A cross section of the wire is marked as A, and the length of the section is x.](../resources/Figure_20_01_06.jpg 'All the charges in the shaded volume of this wire move out in a time ( t ) , having a drift velocity of magnitude ( v_\\text{d}=x/t ) . See text for further discussion.')
 {: #Figure6}
@@ -327,10 +327,10 @@ The cross-sectional area of the wire is
 Rearranging  $$I=nqA{v}_{\text{d}} $$  to isolate drift velocity gives
 
 <div class="equation" >
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
  {v}_{\text{d}}&=&\frac{I}{nqA}\\ 
 {v}_{\text{d}}&=&\frac{20.0 \text{A}}{\left( 8.342 \times 10^{28} {\text{/m}}^{3}\right)\left(-1.60 \times 10^{-19} \text{C}\right)\left( 3.310 \times 10^{-6} {\text{m}}^{2}\right)}\\ 
-{v}_{\text{d}} &=&-4.53 \times 10^{-4} \text{m/s} \text{.} \end{array} $$ $$
+{v}_{\text{d}} &=&-4.53 \times 10^{-4} \text{m/s} \text{.} \end{array} $$
 </div>
 **Discussion**
 
@@ -992,10 +992,10 @@ We follow the same approach as Example 3: calculate the drift velocity using $$I
 First, calculate the free electron density in silver:
 
 <div class="equation">
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
 n &=& \frac{1 \text{ }e^{-}}{\text{atom}} \times \frac{6.02 \times 10^{23} \text{ atoms}}{\text{mol}} \times \frac{1 \text{ mol}}{107.87 \text{ g}} \times \frac{1000 \text{ g}}{\text{kg}} \times \frac{10.49 \times 10^{3} \text{ kg}}{1 \text{ m}^{3}} \\
 n &=& 5.86 \times 10^{28} \text{ }e^{-}/\text{m}^{3}
-\end{array}$$ $$
+\end{array} $$
 </div>
 
 The cross-sectional area of the 12-gauge wire is the same as in Example 3:
@@ -1007,11 +1007,11 @@ $$A = \pi r^{2} = \pi \left(\frac{2.053 \times 10^{-3} \text{ m}}{2}\right)^{2} 
 Now solve for the drift velocity:
 
 <div class="equation">
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
 v_d &=& \frac{I}{nqA} \\
 v_d &=& \frac{20.0 \text{ A}}{(5.86 \times 10^{28} \text{ /m}^{3})(-1.60 \times 10^{-19} \text{ C})(3.310 \times 10^{-6} \text{ m}^{2})} \\
 v_d &=& -6.45 \times 10^{-4} \text{ m/s}
-\end{array}$$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -1083,11 +1083,11 @@ We use the current-drift velocity relationship $$I = nqAv_d$$ directly. From Exa
 First, calculate the cross-sectional area of the 14-gauge wire:
 
 <div class="equation">
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
 A &=& \pi r^{2} = \pi \left(\frac{1.628 \times 10^{-3} \text{ m}}{2}\right)^{2} \\
 A &=& \pi (8.14 \times 10^{-4} \text{ m})^{2} \\
 A &=& 2.082 \times 10^{-6} \text{ m}^{2}
-\end{array}$$ $$
+\end{array} $$
 </div>
 
 Convert the drift velocity to SI units:
@@ -1099,11 +1099,11 @@ $$v_d = 1.00 \text{ mm/s} = 1.00 \times 10^{-3} \text{ m/s}$$
 Now calculate the current (using the magnitude of charge):
 
 <div class="equation">
-$$\begin{array}{lll} $$
+$$\begin{array}{lll}
 I &=& n|q|Av_d \\
 I &=& (8.342 \times 10^{28} \text{ /m}^{3})(1.60 \times 10^{-19} \text{ C})(2.082 \times 10^{-6} \text{ m}^{2})(1.00 \times 10^{-3} \text{ m/s}) \\
 I &=& 27.8 \text{ A}
-\end{array}$$ $$
+\end{array} $$
 </div>
 
 **Discussion**

@@ -104,8 +104,8 @@ perpendicular to the slope.
 
 **Solution**
 
-The magnitude of the component of the weight parallel to the slope is $$ w_ {\parallel}=w \sin{\left(25^\circ\right)}=mg\sin{\left(25^\circ\right)} $$, and
-the magnitude of the component of the weight perpendicular to the slope is $$ w_ {\perp}=w \cos{\left(25^\circ\right)}=mg\cos{\left(25^\circ\right)} $$.
+The magnitude of the component of the weight parallel to the slope is $$ w_{\parallel}=w \sin{\left(25^\circ\right)}=mg\sin{\left(25^\circ\right)} $$, and
+the magnitude of the component of the weight perpendicular to the slope is $$ w_{\perp}=w \cos{\left(25^\circ\right)}=mg\cos{\left(25^\circ\right)} $$.
 
 (a) Neglecting friction. Since the acceleration is parallel to the slope, we
 need only consider forces parallel to the slope. (Forces perpendicular to the
@@ -172,10 +172,8 @@ Resolving Weight into Components
 
 When an object rests on an incline that makes an angle $$ \theta $$ with the
 horizontal, the force of gravity acting on the object is divided into two
-components: a force acting perpendicular to the plane, $$ \vb{w}_ {\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_ $$
-{\parallel } $$. The perpendicular force of weight, $$ \vb{w}_
-{\perp } $$, is typically equal in magnitude and opposite in direction to the normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_
-{\parallel } $$, causes the object to accelerate down the incline. The force of friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward $$
+components: a force acting perpendicular to the plane, $$ \vb{w}_{\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_ $$
+{\parallel } $$. The perpendicular force of weight, $$ \vb{w}_{\perp } $$, is typically equal in magnitude and opposite in direction to the normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_{\parallel } $$, causes the object to accelerate down the incline. The force of friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward $$
 along the plane.
 
 It is important to be careful when resolving the weight of the object into
@@ -199,13 +197,13 @@ Knowing this property, you can use trigonometry to determine the magnitude
 of the weight components:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \cos\left(\theta \right)&=& \frac{ w_{\perp }}{w}\\
 w_{\perp }&=& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
 \end{array} $$ </div> <div class="equation"> $$ \begin{array}{lll} 
 \sin\left(\theta \right)&=& \frac{ w_{\parallel }}{w}\\
 w_{\parallel }&=& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
-\end{array} $$ $$
+\end{array} $$
 </div>
 </div>
 
@@ -332,22 +330,22 @@ The net external horizontal force $$ F_{\text{net}x}=0 $$,
 since the person is stationary. Thus,
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{net}x}=0&=& T_{\text{L}x}-T_{\text{R}x}\\
 T_{\text{L}x}&=& T_{\text{R}x}.
-\end{array} $$ $$
+\end{array} $$
 </div>
 Now, observe [Figure 7](#Figure7). You can use trigonometry
 to determine the magnitude of $$ T_{\text{L}} $$
 and $$ T_{\text{R}} $$. Notice that:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \cos\left(5.0^\circ \right)&=& \frac{ T_{\text{L}x}}{ T_{\text{L}}}\\
 T_{\text{L}x}&=& T_{\text{L}}\cos\left(5.0^\circ \right)\\
 \cos\left(5.0^\circ \right)&=& \frac{ T_{\text{R}x}}{ T_{\text{R}}}\\
 T_{\text{R}x}&=& T_{\text{R}}\cos\left(5.0^\circ \right).
-\end{array} $$ $$
+\end{array} $$
 </div>
 Equating $$ T_{\text{L}x} $$ and $$ T_{\text{R}x} $$:
 
@@ -373,12 +371,12 @@ $$ T_{\text{R}y} $$, and $$ T $$. As we determined from the analysis in the
 horizontal direction, $$ T_{\text{L}}=T_{\text{R}}=T $$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \sin\left(5.0^\circ \right)&=& \frac{ T_{\text{L}y}}{ T_{\text{L}}}\\
 T_{\text{L}y}=T_{\text{L}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \right)\\
 \sin\left(5.0^\circ \right)&=& \frac{ T_{\text{R}y}}{ T_{\text{R}}}\\
 T_{\text{R}y}=T_{\text{R}}\sin\left(5.0^\circ \right)&=& T\sin\left(5.0^\circ \right).
-\end{array} $$ $$
+\end{array} $$
 </div>
 Now, we can substitute the values for $$ T_{\text{L}y} $$
 and $$ T_{\text{R}y} $$, into the net force equation in the vertical

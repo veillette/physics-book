@@ -33,7 +33,7 @@ Hold a balloon and fill it with air. Then, let the balloon go. In which directio
 [Figure 1](#Figure1) shows a rocket accelerating straight up. In part (a), the
 rocket has a mass $$ m $$ and a velocity $$ v $$ relative to Earth, and hence a
 momentum $$ mgh $$. In part (b), a time $$ \Delta t $$ has elapsed in which the
-rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_ {\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left( m-\Delta m\right) $$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the entire system (rocket plus expelled gas) has actually decreased because the force of gravity has acted for a time $$ \Delta t $$, producing a negative
+rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_{\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left( m-\Delta m\right) $$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the entire system (rocket plus expelled gas) has actually decreased because the force of gravity has acted for a time $$ \Delta t $$, producing a negative
 impulse $$ \Delta p=-mg \Delta t $$. (Remember that impulse is the net external
 force on a system multiplied by the time it acts, and it equals the change in
 momentum of the system.) So, the center of mass of the system is in free fall
@@ -116,11 +116,11 @@ equation are given.
 Substituting the given values into the equation for acceleration yields
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 a&=& \frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g\\
 a&=&\frac{2.40\times 10^{3} \ms }{2.80\times 10^{6}\kg }\left(1.40\times 10^{4}\text{kg/s}\right)-9.80\mss \\
 a&=&2.20\mss .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -172,7 +172,7 @@ This result means that only $$ 1/88 $$ of the mass is left when the fuel is
 burnt, and $$ 87/88 $$ of the initial mass was fuel. Expressed as percentages,
 98.9% of the rocket is fuel, while payload, engines, fuel tanks, and other
 components make up only 1.10%. Taking air resistance and gravitational force
-into account, the mass $$ m_{\text{r}} $$ remaining can only be about $$ m_ {0}/180 $$. It is difficult to build a rocket in which the fuel has a mass 180
+into account, the mass $$ m_{\text{r}} $$ remaining can only be about $$ m_{0}/180 $$. It is difficult to build a rocket in which the fuel has a mass 180
 times everything else. The solution is multistage rockets. Each stage only needs
 to achieve part of the final velocity and is discarded after it burns its fuel.
 The result is that each successive stage can have smaller engines and more
@@ -212,7 +212,7 @@ html" width="600" height="450"  allowfullscreen></iframe>
 
 - Newton’s third law of motion states that to every action, there is an equal
   and opposite reaction.
-- Acceleration of a rocket is $$ a=\frac{ v\_ {\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
+- Acceleration of a rocket is $$ a=\frac{ v\_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
 - A rocket’s acceleration depends on three main factors. They are
   1. The greater the exhaust velocity of the gases, the greater the
      acceleration.

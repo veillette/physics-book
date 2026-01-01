@@ -73,7 +73,7 @@ principle, this pressure is transmitted undiminished throughout the fluid and to
 all walls of the container. Thus, a pressure $${P}_{2} $$ is felt at the other
 piston that is equal to $${P}_{1} $$ . That is $${P}_{1}={P}_{2} $$.
 
-But since $${P}_{2}=\frac{ {F}_{2}}{ {A}_{2}} $$ , we see that $$\frac{ {F}_ {1}}{ {A}_{1}}=\frac{ {F}_{2}}{ {A}_{2}} $$.
+But since $${P}_{2}=\frac{ {F}_{2}}{ {A}_{2}} $$ , we see that $$\frac{ {F}_{1}}{ {A}_{1}}=\frac{ {F}_{2}}{ {A}_{2}} $$.
 
 This equation relates the ratios of force to area in any hydraulic system,
 providing the pistons are at the same vertical height and that friction in the
@@ -370,7 +370,7 @@ Finally,
 In other words, the work output equals the work input.
 
 (b) If the system is not moving, friction would not play a role. With friction,
-we know there are losses, so that $${W}_{\text{out}}={W}_{\text{in}}-{W}_ {\text{f}} $$ ; therefore, the work output is less than the work input. In other
+we know there are losses, so that $${W}_{\text{out}}={W}_{\text{in}}-{W}_{\text{f}} $$ ; therefore, the work output is less than the work input. In other
 words, with friction, you need to push harder on the input piston than was
 calculated for the nonfriction case.
 

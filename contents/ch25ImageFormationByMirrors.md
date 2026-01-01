@@ -125,7 +125,7 @@ Electric room heaters use a concave mirror to reflect infrared (IR) radiation fr
 
 We are given that the concave mirror projects a real image of the coils at an
 image distance $${d}_{\text{i}}=3.00 \text{m} $$ . The coils are the object, and
-we are asked to find their location—that is, to find the object distance $${d}_ {\text{o}} $$ . We are also given the radius of curvature of the mirror, so that
+we are asked to find their location—that is, to find the object distance $${d}_{\text{o}} $$ . We are also given the radius of curvature of the mirror, so that
 its focal length is $$f=R/2=25.0 \text{cm} $$
 (positive since the mirror is concave or converging). Assuming the mirror is
 small compared with its radius of curvature, we can use the thin lens equations,
@@ -283,12 +283,12 @@ A keratometer is a device used to measure the curvature of the cornea, particula
 
 If we can find the focal length of the convex mirror formed by the cornea, we
 can find its radius of curvature (the radius of curvature is twice the focal
-length of a spherical mirror). We are given that the object distance is $${d}_ {\text{o}}=12.0 \text{cm} $$ and that $$m=0.0320 $$ . We first solve for the
+length of a spherical mirror). We are given that the object distance is $${d}_{\text{o}}=12.0 \text{cm} $$ and that $$m=0.0320 $$ . We first solve for the
 image distance $${d}_{\text{i}} $$ , and then for $$f $$.
 
 **Solution**
 
-$$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_ {\text{i}} $$ gives
+$$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_{\text{i}} $$ gives
 
 <div class="equation" >
  $${d}_{\text{i}}=- m  d_{\text{o}}\text{.} $$

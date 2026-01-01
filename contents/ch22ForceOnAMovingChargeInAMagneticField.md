@@ -29,7 +29,7 @@ motion is affected, but not the speed. This is typical of uniform circular
 motion. The simplest case occurs when a charged particle moves perpendicular to
 a uniform $$B $$ -field, such as shown in [[Figure 2]](#Figure2). (If this takes
 place in a vacuum, the magnetic field is the dominant factor determining the
-motion.) Here, the magnetic force supplies the centripetal force $${F}_ {c}=mv^{2}/r $$ . Noting that $$\sin \theta =1 $$ , we see that $$F=qvB $$.
+motion.) Here, the magnetic force supplies the centripetal force $${F}_{c}=mv^{2}/r $$ . Noting that $$\sin \theta =1 $$ , we see that $$F=qvB $$.
 
 ![Diagram showing an electrical charge moving clockwise in the plane of the page. Velocity vectors are tangent to the circular path. The magnetic field B is oriented into the page. Force vectors show that the force on the charge is toward the center of the charge’s circular path as the charge moves.](../resources/Figure_22_05_02.jpg 'A negatively charged particle moves in the plane of the page in a region where the magnetic field is perpendicular into the page (represented by the small circles with x’s—like the tails of arrows). The magnetic force is perpendicular to the velocity, and so velocity changes in direction but not magnitude. Uniform circular motion results.')
 {: #Figure2}

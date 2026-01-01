@@ -439,7 +439,7 @@ nuclear force cannot change the flavor of a quark.**
 
 Again, from [[Figure 1]](#Figure1), we see that the $${\pi }^{+} $$ meson (one
 of the three pions) is composed of an up quark plus an antidown quark, or
-$$u\stackrel{-}{d} $$ . Its total charge is thus $$+\left(\frac{2}{3}\right){q}_ {e}+\left(\frac{1}{3}\right){q}_{e}={q}_{e} $$ , as expected. Its baryon number
+$$u\stackrel{-}{d} $$ . Its total charge is thus $$+\left(\frac{2}{3}\right){q}_{e}+\left(\frac{1}{3}\right){q}_{e}={q}_{e} $$ , as expected. Its baryon number
 is 0, since it has a quark and an antiquark with baryon numbers $$+\left( \frac{1}{3}\right)-\left(\frac{1}{3}\right)=0 $$ . The $${\pi }^{+} $$ half-life
 is relatively long since, although it is composed of matter and antimatter, the
 quarks are different flavors and the weak force should cause the decay by

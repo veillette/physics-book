@@ -39,7 +39,7 @@ his work with liquid helium.
 In 1986, a breakthrough was announced—a ceramic compound was found to have an
 unprecedented $${T}_{c} $$ of 35 K. It looked as if much higher critical
 temperatures could be possible, and by early 1988 another ceramic (this of
-thallium, calcium, barium, copper, and oxygen) had been found to have $${T}_ {c}=125 \text{K} $$
+thallium, calcium, barium, copper, and oxygen) had been found to have $${T}_{c}=125 \text{K} $$
 (see [[Figure 2]](#Figure2).) The economic potential of perfect conductors
 saving electric energy is immense for $${T}_{c} $$ s above 77 K, since that is
 the temperature of liquid nitrogen. Although liquid helium has a boiling point
@@ -62,7 +62,7 @@ The search is on for even higher $${T}_{c} $$ superconductors, many of complex
 and exotic copper oxide ceramics, sometimes including strontium, mercury, or
 yttrium as well as barium, calcium, and other elements. Room temperature (about
 293 K) would be ideal, but any temperature close to room temperature is
-relatively cheap to produce and maintain. There are persistent reports of $${T}_ {c} $$ s over 200 K and some in the vicinity of 270 K. Unfortunately, these
+relatively cheap to produce and maintain. There are persistent reports of $${T}_{c} $$ s over 200 K and some in the vicinity of 270 K. Unfortunately, these
 observations are not routinely reproducible, with samples losing their
 superconducting nature once heated and recooled (cycled) a few times (
 see [[Figure 3]](#Figure3).) They are now called USOs or unidentified

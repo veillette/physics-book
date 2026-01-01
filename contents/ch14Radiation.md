@@ -151,10 +151,10 @@ Insert the temperatures values $${T}_{2}=295 \text{K} $$ and $${T}_{1}=306 \text
  $$\frac{Q}{t}=\sigma eA\left({T}_{2}^{4}-{T}_{1}^{4}\right) $$
 </div>
 <div class="equation" >
-$$=\left( 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} \right) $$
+$$=\left( 5.67 \times 10^{-8} \text{J/s}\cdot {\text{m}}^{2}\cdot {\text{K}}^{4} \right)
 \left( 0.97 \right) \left( 1.50 {\text{m}}^{2} \right)
 \left[ { \left(295\text{K}\right)}^{4}-{ \left(306 \text{K}\right) }^{4} \right]
-$$ </div> <div class="equation" > $$=-99\text{J/s}=-99 \text{W} \text{.} $$ $$
+=-99\text{J/s}=-99 \text{W} \text{.}$$
 </div>
 **Discussion**
 

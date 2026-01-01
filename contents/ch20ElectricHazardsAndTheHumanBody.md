@@ -47,7 +47,7 @@ power production in a short.
 
 Another serious, but less dramatic, thermal hazard occurs when wires supplying
 power to a user are overloaded with too great a current. As discussed in the
-previous section, the power dissipated in the supply wires is $$P={I}^{2}{R}_ {\text{w}} $$ , where $${R}_{\text{w}} $$ is the resistance of the wires and $$I $$ the current flowing through them. If either $$I $$ or $${R}_{\text{w}} $$ is too large, the wires overheat. For example, a worn appliance cord (with some of its braided wires broken) may have $${R}_{\text{w}}= 2.00 \Omega $$ rather than
+previous section, the power dissipated in the supply wires is $$P={I}^{2}{R}_{\text{w}} $$ , where $${R}_{\text{w}} $$ is the resistance of the wires and $$I $$ the current flowing through them. If either $$I $$ or $${R}_{\text{w}} $$ is too large, the wires overheat. For example, a worn appliance cord (with some of its braided wires broken) may have $${R}_{\text{w}}= 2.00 \Omega $$ rather than
 the $$ 0.100 \Omega $$ it should be. If 10.0 A of current passes through the
 cord, then $$P={I}^{2}{R}_{\text{w}}=200 \text{W} $$ is dissipated in the
 cord—much more than is safe. Similarly, if a wire with a $$ 0.100 \text{-} \Omega $$ resistance is meant to carry a few amps, but is instead carrying 100

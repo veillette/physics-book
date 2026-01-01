@@ -42,7 +42,7 @@ secondary, inducing its AC output voltage.
 {: #Figure3}
 
 For the simple transformer shown in [[Figure 3]](#Figure3), the output voltage
-$${V}_{\text{s}} $$ depends almost entirely on the input voltage $${V}_ {\text{p}} $$ and the ratio of the number of loops in the primary and secondary
+$${V}_{\text{s}} $$ depends almost entirely on the input voltage $${V}_{\text{p}} $$ and the ratio of the number of loops in the primary and secondary
 coils. Faraday’s law of induction for the secondary coil gives its induced
 output voltage $${V}_{\text{s}} $$ to be
 
@@ -52,7 +52,7 @@ output voltage $${V}_{\text{s}} $$ to be
 
 where $${N}_{\text{s}} $$ is the number of loops in the secondary coil and
 $$\Delta \Phi $$ / $$\Delta t $$ is the rate of change of magnetic flux. Note
-that the output voltage equals the induced emf ( $${V}_{\text{s}}={\text{emf}}_ {\text{s}} $$ ), provided coil resistance is small (a reasonable assumption for
+that the output voltage equals the induced emf ( $${V}_{\text{s}}={\text{emf}}_{\text{s}} $$ ), provided coil resistance is small (a reasonable assumption for
 transformers). The cross-sectional area of the coils is the same on either side,
 as is the magnetic field strength, and so $$\Delta \Phi /\Delta t $$ is the same
 on either side. The input primary voltage $${V}_{\text{p}} $$ is also related to
@@ -63,7 +63,7 @@ changing flux by
 </div>
 
 The reason for this is a little more subtle. Lenz’s law tells us that the
-primary coil opposes the change in flux caused by the input voltage $${V}_ {\text{p}} $$ , hence the minus sign (This is an example of **self-inductance**,
+primary coil opposes the change in flux caused by the input voltage $${V}_{\text{p}} $$ , hence the minus sign (This is an example of **self-inductance**,
 a topic to be explored in some detail in later sections). Assuming negligible
 coil resistance, Kirchhoff’s loop rule tells us that the induced emf exactly
 equals the input voltage. Taking the ratio of these last two equations yields a
@@ -96,7 +96,7 @@ Rearranging terms gives
  $$\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}=\frac{ {I}_{\text{p}}}{ {I}_{\text{s}}}\text{.} $$
 </div>
 
-Combining this with $$\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}=\frac{ {N}_ {\text{s}}}{ {N}_{\text{p}}} $$ , we find that
+Combining this with $$\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}=\frac{ {N}_{\text{s}}}{ {N}_{\text{p}}} $$ , we find that
 
 <div class="equation" >
  $$\frac{ {I}_{\text{s}}}{ {I}_{\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$
@@ -114,7 +114,7 @@ A portable x-ray unit has a step-up transformer, the 120 V input of which is tra
 
 **Strategy and Solution for (a)**
 
-We solve $$\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}=\frac{ {N}_{\text{s}}}{ {N}_ {\text{p}}} $$ for $${N}_{\text{s}} $$ , the number of loops in the secondary,
+We solve $$\frac{ {V}_{\text{s}}}{ {V}_{\text{p}}}=\frac{ {N}_{\text{s}}}{ {N}_{\text{p}}} $$ for $${N}_{\text{s}} $$ , the number of loops in the secondary,
 and enter the known values. This gives
 
 <div class="equation" >
@@ -139,7 +139,7 @@ $${I}\_{\text{s}} $$ and entering known values. This gives
 As expected, the current output is significantly less than the input. In certain
 spectacular demonstrations, very large voltages are used to produce long arcs,
 but they are relatively safe because the transformer output does not supply a
-large current. Note that the power input here is $${P}_{\text{p}}={I}_ {\text{p}}{V}_{\text{p}}=\left( 10.00 \text{A}\right)\left(120 \text{V}\right)= 1.20 \text{kW} $$ . This equals the power output $${P}_{\text{p}}={I}_ {\text{s}}{V}_{\text{s}}=\left( 12.0 \text{mA}\right)\left(100 \text{kV}\right)= 1.20 \text{kW} $$ , as we assumed in the derivation of the equations used. 
+large current. Note that the power input here is $${P}_{\text{p}}={I}_{\text{p}}{V}_{\text{p}}=\left( 10.00 \text{A}\right)\left(120 \text{V}\right)= 1.20 \text{kW} $$ . This equals the power output $${P}_{\text{p}}={I}_{\text{s}}{V}_{\text{s}}=\left( 12.0 \text{mA}\right)\left(100 \text{kV}\right)= 1.20 \text{kW} $$ , as we assumed in the derivation of the equations used. 
 
 </div>
 
@@ -170,7 +170,7 @@ $${N}\_{\text{s}} $$ and entering known values gives
 </div>
 **Strategy and Solution for (b)**
 
-The current input can be obtained by solving $$\frac{ {I}_{\text{s}}}{ {I}_ {\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$ for $${I}_{\text{p}} $$
+The current input can be obtained by solving $$\frac{ {I}_{\text{s}}}{ {I}_{\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$ for $${I}_{\text{p}} $$
 and entering known values. This gives
 
 <div class="equation" >
@@ -226,7 +226,7 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
    $${N}_{\text{s}} $$ turns.
 
 - The currents $${I}_{\text{p}} $$ and $${I}_{\text{s}} $$ in the primary and
-  secondary coils are related by $$\frac{ {I}_{\text{s}}}{ {I}_ {\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$ .
+  secondary coils are related by $$\frac{ {I}_{\text{s}}}{ {I}_{\text{p}}}=\frac{ {N}_{\text{p}}}{ {N}_{\text{s}}} $$ .
 
 - A step-up transformer increases voltage and decreases current, whereas a
   step-down transformer decreases voltage and increases current.

@@ -70,18 +70,18 @@ second to do the calculation in SI units.
 Substituting known information into the expression for $$ L $$ and converting $$ \omega $$ to radians per second gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 L&=& 0.4\left(5.972 \times 10^{24}\kg \right){\left(6.376 \times 10^{6}\m \right)}^{2}\left(\frac{1\text{rev}}{\text{d}}\right)\\
 L&=& 9.72 \times 10^{37}\kg \cdot \mm\cdot \text{rev/d}.
-\end{array} $$ $$
+\end{array} $$
 </div>
 Substituting $$ 2\pi $$ rad for $$ 1 $$ rev and $$ 8.64 \times 10^{4}\s $$ for 1 day gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 L&=& \left(9.72 \times 10^{37}\kg \cdot \mm\right)\left(\frac{2\pi \text{rad/rev}}{8.64 \times 10^{4}\text{s/d}}\right)\left(1\text{rev/d}\right)\\
 L&=& 7.07 \times 10^{33}\kg \cdot \mms .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -137,10 +137,10 @@ Because the force is perpendicular to $$ r $$,
 we see that $$ \text{net}\tau =rF $$, so that
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 L&=& rF\Delta t=\left(0.260 \m \right)\left(2.50 N\right)\left(0.150 s\right)
 =& 9.75 \times 10^{-2}\kg \cdot \mm/\s .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Solution for (b)**
@@ -205,11 +205,11 @@ Because the force and the perpendicular lever arm are given and the leg is verti
 so that its weight does not create a torque, the net torque is thus
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \text{net}\tau &=& r_{\perp }F\\
 \text{net}\tau &=& \left(0.0220 \m \right)\left(2000\N \right)\\
 \text{net}\tau &=& 44.0 \N \cdot \m .
-\end{array} $$ $$
+\end{array} $$
 </div>
 Substituting this value for the torque and the given value for the moment of inertia into the expression for $$ \alpha $$
 gives
@@ -240,7 +240,7 @@ found and the given value for the moment of inertia. The kinetic energy is
 then
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \KE_\text{rot} &=& 0.5\left(1.25\kg \cdot \mm\right)
 \left(70.4{\text{rad}}^{2}/{\s}^{2}\right)\\
 \KE_\text{rot} &=& 44.0 \J
@@ -383,12 +383,12 @@ or
 Solving for $$ \omega \prime $$ and substituting known values into the resulting equation gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \omega \prime &=& \frac{I}{I^{\prime}}\omega
 =\left(\frac{2.34 \kg \cdot {m}^{2}}{0.363 \kg \cdot {m}^{2}}\right)
 \left(0.800 \text{rev/s}\right)\\
 \omega \prime &=& 5.16 \text{rev/s.}
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Solution for (b)**
@@ -401,10 +401,10 @@ Rotational kinetic energy is given by
 The initial value is found by substituting known values into the equation and converting the angular velocity to rad/s:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \KE_\text{rot} &=& \left(0.5\right)\left(2.34\kg \cdot \mm\right){\left(\left(0.800\text{rev/s}\right)\left(2\pi \text{rad/rev}\right)\right)}^{2}\\
 \KE_\text{rot} &=& 29.6 \J .
-\end{array} $$ $$
+\end{array} $$
 </div>
 The final rotational kinetic energy is
 
@@ -414,10 +414,10 @@ The final rotational kinetic energy is
 Substituting known values into this equation gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \KE_\text{rot}^\prime &=& \left(0.5\right)\left(0.363 \kg \cdot {m}^{2}\right){\left[\left(5.16 \text{rev/s}\right)\left(2\pi  rad/rev\right)\right]}^{2}\\
 \KE_\text{rot}^\prime &=& 191 \J .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**

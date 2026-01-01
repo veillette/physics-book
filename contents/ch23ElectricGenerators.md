@@ -157,7 +157,7 @@ Calculate the maximum emf,  $${\text{emf}}_{0} $$ ,
 
 **Strategy**
 
-Once $$\omega $$ , the angular velocity, is determined, $${\text{emf}}_ {0}=NAB\omega $$ can be used to find $${\text{emf}}_{0} $$ . All other
+Once $$\omega $$ , the angular velocity, is determined, $${\text{emf}}_{0}=NAB\omega $$ can be used to find $${\text{emf}}_{0} $$ . All other
 quantities are known.
 
 **Solution**

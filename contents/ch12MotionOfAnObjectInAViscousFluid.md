@@ -71,7 +71,7 @@ One of the consequences of viscosity is a resistance force called **viscous
 drag**  $${F}_{\text{V}} $$ that is exerted on a moving object. This force
 typically depends on the object’s speed (in contrast with simple friction).
 Experiments have shown that for laminar flow (  $$N^{\prime}_{\text{R}} $$ less
-than about one) viscous drag is proportional to speed, whereas for $$N^{\prime}_ {\text{R}} $$ between about 10 and $$10^{6} $$ , viscous drag is proportional to
+than about one) viscous drag is proportional to speed, whereas for $$N^{\prime}_{\text{R}} $$ between about 10 and $$10^{6} $$ , viscous drag is proportional to
 speed squared. (This relationship is a strong dependence and is pertinent to
 bicycle racing, where even a small headwind causes significantly increased drag
 on the racer. Cyclists take turns being the leader in the pack for this reason.)

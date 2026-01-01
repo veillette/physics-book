@@ -30,8 +30,8 @@ one-dimensional motion. (See [[Figure 2]](#Figure2).) Suppose, for example, a
 girl is riding in a sled at a speed 1.0 m/s relative to an observer. She throws
 a snowball first forward, then backward at a speed of 1.5 m/s relative to the
 sled. We denote direction with plus and minus signs in one dimension; in this
-example, forward is positive. Let $$v $$ be the velocity of the sled relative to
-the Earth, $$u $$ the velocity of the snowball relative to the Earth-bound
+example, forward is positive. Let $$v$$ be the velocity of the sled relative to
+the Earth, $$u$$ the velocity of the snowball relative to the Earth-bound
 observer, and $$u^{\prime} $$ the velocity of the snowball relative to the sled.
 
 ![In part a, a man is pulling a sled towards the right with a velocity v equals one point zero meters per second. A girl sitting on the sled facing forward throws a snowball toward a boy on the far right of the picture. The snowball is labeled u primed equals one point five meters per second in the direction the sled is being pulled. The boy is labelled two point five meters per second. In figure b, a similar figure is shown, but the man’s velocity is one point zero meters per second, the girl is facing backward and throwing the snowball behind the sled. The snowball is labelled u primed equals negative one point five meters per second, and the boy is labelled u equals negative zero point five meters per second.](../resources/Figure_28_04_02.jpg 'Classically, velocities add like ordinary numbers in one-dimensional motion. Here the girl throws a snowball forward and then backward from a sled. The velocity of the sled relative to the Earth is ( v=1.0 \\text{m/s} ) . The velocity of the snowball relative to the truck is ( u^\\prime ) , while its velocity relative to the Earth is ( u ) . Classically, ( u=v+u\\prime ) .')
@@ -59,8 +59,8 @@ Imagine a car traveling at night along a straight road, as
 in [[Figure 3]](#Figure3). If classical velocity addition applied to light,
 then the light from the car’s headlights would approach the observer on the
 sidewalk at a speed $$u=v+c $$ . But we know that light will move away from the
-car at speed $$c $$ relative to the driver of the car, and light will move
-towards the observer on the sidewalk at speed $$c $$ , too.
+car at speed $$c$$ relative to the driver of the car, and light will move
+towards the observer on the sidewalk at speed $$c$$ , too.
 
 ![A car is moving towards right with velocity v. A boy standing on the side-walk observes the car. The velocity of light u primed is shown to be c as observed by the girl in the car and the velocity of light u is also c as observed by the boy.](../resources/Figure_28_04_03.jpg 'According to experiment and the second postulate of relativity, light from the car’s headlights moves away from the car at speed ( c ) and towards the observer on the sidewalk at speed ( c ) . Classical velocity addition is not valid.')
 {: #Figure3}
@@ -74,11 +74,11 @@ Either light is an exception, or the classical velocity addition formula only wo
 <div class="equation" >
  $$u=\frac{\mathrm{v+u}\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}}, $$
 </div>
-where  $$v $$
- is the relative velocity between two observers,  $$u $$
+where  $$v$$
+ is the relative velocity between two observers,  $$u$$
  is the velocity of an object relative to one observer, and  $$u^{\prime} $$
- is the velocity relative to the other observer. (For ease of visualization, we often choose to measure  $$u $$
- in our reference frame, while someone moving at  $$v $$
+ is the velocity relative to the other observer. (For ease of visualization, we often choose to measure  $$u$$
+ in our reference frame, while someone moving at  $$v$$
  relative to us measures  $$u^{\prime} $$ .)
  Note that the term  $$\frac{vu^{\prime}}{ {c}^{2}} $$
  becomes very small at low velocities, and  $$u=\frac{ v+u^\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
@@ -90,7 +90,7 @@ where  $$v $$
 <div class="title">
 Showing that the Speed of Light towards an Observer is Constant (in a Vacuum): The Speed of Light is the Speed of Light
 </div>
-Suppose a spaceship heading directly towards the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed  $$c $$
+Suppose a spaceship heading directly towards the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed  $$c$$
  as observed from the ship, calculate the speed at which it approaches the Earth.
 
 ![A spacecraft is heading towards earth v equals zero point five zero zero times c. A laser beam from the ship travels towards the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.](../resources/Figure_28_04_04.jpg ' ')
@@ -105,7 +105,7 @@ light approaches the Earth using relativistic velocity addition.
 **Solution**
 
 1. Identify the knowns. $$v= 0.500c $$ ; $$u^{\prime}=c $$
-2. Identify the unknown. $$u $$
+2. Identify the unknown. $$u$$
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
@@ -113,20 +113,20 @@ $$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500c+c}{1+\frac{\left(0.500c\right)\left(c\right)}{
    {c}^{2}}}\\ & =& \frac{\left(0.500+1\right)c}{1+\frac{0.500{c}^{2}}{
    {c}^{2}}}\\ & =& \frac{1.500c}{1+0.500}\\ & =& \frac{1.500c}{1.500}\\ & =&
-c\end{array} $$ $$
+c\end{array} $$
    </div>
 
 **Discussion**
 
 Relativistic velocity addition gives the correct result. Light leaves the ship
-at speed $$c $$ and approaches the Earth at speed $$c $$ . The speed of light is
+at speed $$c$$ and approaches the Earth at speed $$c$$ . The speed of light is
 independent of the relative motion of source and observer, whether the observer
 is on the ship or Earth-bound.
 
 </div>
 
-Velocities cannot add to greater than the speed of light, provided that $$v $$
-is less than $$c $$ and $$u^{\prime} $$ does not exceed $$c $$ . The following
+Velocities cannot add to greater than the speed of light, provided that $$v$$
+is less than $$c$$ and $$u^{\prime} $$ does not exceed $$c$$ . The following
 example illustrates that relativistic velocity addition is not as symmetric as
 classical velocity addition.
 
@@ -149,33 +149,33 @@ relativistic velocity addition instead of simple velocity addition.
 **Solution for (a)**
 
 1. Identify the knowns. $$v=0.500c $$ ; $$u^{\prime}= 0.750c $$
-2. Identify the unknown. $$u $$
+2. Identify the unknown. $$u$$
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
 $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500\text{c +}0.750c}{1+\frac{\left(0.500c\right)
    \left(0.750c\right)}{ {c}^{2}}}\\ & =& \frac{1.250c}{1+0.375}\\ & =&
-0.909c\end{array} $$ $$
+0.909c\end{array} $$
    </div>
 
 **Solution for (b)**
 
 1. Identify the knowns. $$\text{v}=0.500c $$ ; $$u^{\prime}=-0.750c $$
-2. Identify the unknown. $$u $$
+2. Identify the unknown. $$u$$
 3. Choose the appropriate equation. $$\text{u}=\frac{\mathrm{v+u}\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
 $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500\mathrm{c +}\left(-0.750c\right)}{1+\frac{\left(
    0.500c\right)\left(-0.750c\right)}{ {c}^{2}}}\\ & =&
-\frac{-0.250c}{1-0.375}\\ & =& -0.400c\end{array} $$ $$
+\frac{-0.250c}{1-0.375}\\ & =& -0.400c\end{array} $$
    </div>
 
 **Discussion**
 
 The minus sign indicates velocity away from the Earth (in the opposite direction
-from $$v $$ ), which means the canister is heading towards the Earth in part (a)
+from $$v$$ ), which means the canister is heading towards the Earth in part (a)
 and away in part (b), as expected. But relativistic velocities do not add as
 simply as they do classically. In part (a), the canister does approach the Earth
 faster, but not at the simple sum of $$1.250c $$ . The total velocity is less
@@ -206,8 +206,8 @@ The observed wavelength of electromagnetic radiation is longer (called a red shi
 </div>
 
 In the Doppler equation, $${\lambda }_{\text{obs}} $$ is the observed
-wavelength, $${\lambda }_{s} $$ is the source wavelength, and $$u $$ is the
-relative velocity of the source to the observer. The velocity $$u $$ is positive
+wavelength, $${\lambda }_{s} $$ is the source wavelength, and $$u$$ is the
+relative velocity of the source to the observer. The velocity $$u$$ is positive
 for motion away from an observer and negative for motion toward an observer. In
 terms of source frequency and observed frequency, this equation can be written
 
@@ -250,7 +250,7 @@ the classical Doppler shift.
 $$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_ $$
    {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}\\ & =& \left(0.525 m\right)
    \sqrt{\frac{1+\frac{ 0.825\text{c}}{c}}{1-\frac{ 0.825\text{c}}{c}}}\\ & =&
-1.70 \text{m} \text{.} \end{array} $$ $$
+1.70 \text{m} \text{.} \end{array} $$
    </div>
 
 **Discussion**
@@ -290,7 +290,7 @@ Answer
 
 - With classical velocity addition, velocities add like regular numbers in
   one-dimensional motion:
-  $$u=v+u^\prime $$ , where $$v $$ is the velocity between two observers, $$u $$
+  $$u=v+u^\prime $$ , where $$v$$ is the velocity between two observers, $$u$$
   is the velocity of an object relative to one observer, and $$u^{\prime} $$ is
   the velocity relative to the other observer.
 - Velocities cannot add to be greater than the speed of light. Relativistic
@@ -312,7 +312,7 @@ Answer
     </div>
 
   $${\lambda }_{\text{obs}} $$ is the observed wavelength, $${\lambda }_{s} $$
-  is the source wavelength, and $$u $$ is the relative velocity of the source to
+  is the source wavelength, and $$u$$ is the relative velocity of the source to
   the observer.
 
 ### Conceptual Questions
@@ -822,10 +822,10 @@ The vehicle is traveling at 22.5 m/s (about 50 mph or 81 km/h)—a typical highw
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Prove that for any relative velocity  $$v $$
- between two observers, a beam of light sent from one to the other will approach at speed  $$c $$
- (provided that  $$v $$
- is less than  $$c $$ ,
+Prove that for any relative velocity  $$v$$
+ between two observers, a beam of light sent from one to the other will approach at speed  $$c$$
+ (provided that  $$v$$
+ is less than  $$c$$ ,
  of course).
 
 </div>
@@ -860,9 +860,9 @@ This elegant proof demonstrates the **constancy of the speed of light**, which i
 
 <div class="exercise" data-element-type="problem-exercises">
 <div class="problem" markdown="1">
-Show that for any relative velocity  $$v $$
- between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that  $$v $$
- is less than  $$c $$ ,
+Show that for any relative velocity  $$v$$
+ between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that  $$v$$
+ is less than  $$c$$ ,
  of course).
 
 </div>
@@ -972,14 +972,14 @@ This problem illustrates the extreme time scales involved in intergalactic trave
 classical velocity addition
 : the method of adding velocities when $$v \ll c $$ ; velocities add like
 regular numbers in one-dimensional motion:
-$$u=\mathrm{v+u}\prime $$ , where $$v $$ is the velocity between two observers,
-$$u $$ is the velocity of an object relative to one observer, and $$u^{\prime} $$
+$$u=\mathrm{v+u}\prime $$ , where $$v$$ is the velocity between two observers,
+$$u$$ is the velocity of an object relative to one observer, and $$u^{\prime} $$
 is the velocity relative to the other observer
 
 relativistic velocity addition
 : the method of adding velocities of an object moving at a relativistic speed:
-$$u=\frac{v+u^\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$ , where $$v $$ is
-the relative velocity between two observers, $$u $$ is the velocity of an object
+$$u=\frac{v+u^\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$ , where $$v$$ is
+the relative velocity between two observers, $$u$$ is the velocity of an object
 relative to one observer, and $$u^{\prime} $$ is the velocity relative to the
 other observer
 
@@ -995,6 +995,6 @@ described by the equation
      where
    $${\lambda }_{\text{obs}} $$ is the observed wavelength,
    $${\lambda }_{s} $$ is the source wavelength, and
-   $$u $$ is the velocity of the source to the observer
+   $$u$$ is the velocity of the source to the observer
 
 </div>

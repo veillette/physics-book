@@ -96,7 +96,7 @@ Calculate the velocities of two objects following an elastic collision, given th
 First, visualize what the initial conditions mean—a small object strikes a
 larger object that is initially at rest. This situation is slightly simpler than
 the situation shown in [Figure 1](#Figure1) where both objects are initially
-moving. We are asked to find two unknowns (the final velocities $$ v^{\prime}_ {1} $$ and $$ v^{\prime}_{2} $$). To find two unknowns, we must use two
+moving. We are asked to find two unknowns (the final velocities $$ v^{\prime}_{1} $$ and $$ v^{\prime}_{2} $$). To find two unknowns, we must use two
 independent equations. Because this collision is elastic, we can use the above
 two equations. Both can be simplified by the fact that object 2 is initially at
 rest, and thus $$ v\_{2}=0 $$. Once we simplify these equations, we combine them

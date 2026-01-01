@@ -199,7 +199,7 @@ This value is the same as the value given for the acoustic impedance of fat tiss
 **Strategy for (b)**
 
 The intensity reflection coefficient for any boundary between two media is given
-by $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{ {\left({Z}_{1} + {Z}_ {2}\right)}^{2}} $$ , and the acoustic impedance of muscle is given
+by $$a=\frac{ {\left({Z}_{2}-{Z}_{1}\right)}^{2}}{ {\left({Z}_{1} + {Z}_{2}\right)}^{2}} $$ , and the acoustic impedance of muscle is given
 in [[Table 1]](#Table1).
 
 **Solution for (b)**
@@ -316,7 +316,7 @@ Ultrasound that has a frequency of 2.50 MHz is sent toward blood in an artery th
 
 **Strategy**
 
-The first two questions can be answered using $${f}_{\text{obs}}={f}_{s}\left( \frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right) $$ and $${f}_{\text{obs}}={f}_ {s}\left(\frac{ {v}_{w} ± {v}_{\text{obs}}}{ {v}_{w}}\right) $$ for the Doppler 
+The first two questions can be answered using $${f}_{\text{obs}}={f}_{s}\left( \frac{ {v}_{w}}{ {v}_{w} ± {v}_{s}}\right) $$ and $${f}_{\text{obs}}={f}_{s}\left(\frac{ {v}_{w} ± {v}_{\text{obs}}}{ {v}_{w}}\right) $$ for the Doppler 
 shift. The last question asks for beat frequency, which is the difference
 between the original and returning frequencies.
 

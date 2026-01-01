@@ -77,7 +77,7 @@ along its length.
 
 If the pole vaulter holds the pole as shown in [Figure 2](#Figure2), the situation
 is not as simple. The total force he exerts is still equal to the weight of the
-pole, but it is not evenly divided between his hands. (If $$ F_ {L}=F_{R} $$, then the torques about the cg would not be equal since the lever
+pole, but it is not evenly divided between his hands. (If $$ F_{L}=F_{R} $$, then the torques about the cg would not be equal since the lever
 arms are different.) Logically, the right hand should support more weight, since
 it is closer to the cg. In fact, if the right hand is moved directly under the
 cg, it will support all the weight. This situation is exactly analogous to two
@@ -161,12 +161,12 @@ $$ F_{L}+F_{R}=w=mg $$
 Solving for $$ F_{L} $$, we obtain
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{L}&=& mg-F_{R}\\
 F_{L}&=& mg-32.7 N\\
 F_{L}&=& \left(5.00 \kg \right)\left(9.80\mss \right)-32.7 \N \\
 F_{L}&=& 16.3 \N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**

@@ -35,11 +35,11 @@ _final velocity_. This gives a simpler expression for elapsed time—now, $$ \De
 notation, with the initial time taken to be zero,
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \Delta t&=& t\\
 \Delta x&=& x-x_{0}\\
 \Delta v&=& v-v_{0}
-\end{array} $$ $$
+\end{array} $$
 </div>
 where *the subscript 0 denotes an initial value and the absence of a subscript
 denotes a final value* in whatever motion is under consideration.
@@ -388,7 +388,7 @@ starts from rest. Then we note that $$ x-x_{0}=402 \m $$
 (this was the answer in [Example 3](#example3)). Finally, the average
 acceleration was given to be $$ a=26.0 \mss $$.
 
-2\. Plug the knowns into the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_ {0}\right) $$ and solve for $$ v. $$
+2\. Plug the knowns into the equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$ and solve for $$ v. $$
 <div class="equation">
  $$ v^{2}=0+2 \left(26.0 \mss \right) \left(402 \m \right) . $$
 </div>
@@ -476,7 +476,7 @@ this explicitly in the next several examples, using tables to set them off.
 
 **Solution for (a)**
 
-1\. Identify the knowns and what we want to solve for. We know that $$ v_ {0}=30.0 \ms $$; $$ v=0 $$; $$ a=-7.00\mss $$ ( $$ a $$ is negative because it is in a direction opposite to velocity). We
+1\. Identify the knowns and what we want to solve for. We know that $$ v_{0}=30.0 \ms $$; $$ v=0 $$; $$ a=-7.00\mss $$ ( $$ a $$ is negative because it is in a direction opposite to velocity). We
 take $$ x_{0} $$ to be 0. We are looking for displacement $$ \Delta x $$, or $$ x-x_{0} $$.
 
 2\. Identify the equation that will help up solve the problem. The best equation
@@ -525,8 +525,7 @@ during the driver’s reaction time.
 
 1\. Identify the knowns and what we want to solve for. We know that
 
-\overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_
-{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$. $$
+\overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$. $$
 
 2\. Identify the best equation to use. $$ x=x\_{0}+\overline{v}t $$ works well
 because the only unknown value is $$ x $$, which is what we want to solve for.
@@ -587,7 +586,7 @@ equation with one unknown, $$ t $$).
 
 1\. Identify the knowns and what we want to solve for. We know that $$ v\_{0}=10 \ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
 
-2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_ {0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
+2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_{0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
 is the variable $$ t $$ for which we need to solve.
 
 3\. We will need to rearrange the equation to solve for $$ t $$. In this case,
@@ -704,11 +703,11 @@ Rearrange to solve for $$ t $$.
 - Initial position and velocity are given a subscript 0; final values have no
   subscript. Thus,
   <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
   \Delta t&=& t\\ 
   \Delta x&=& x-x_{0}\\
   \Delta v&=& v-v_{0}
-\end{array} $$ $$
+\end{array} $$
   </div>
 
 - The following kinematic equations for motion with constant $$ a $$ are useful:

@@ -34,13 +34,13 @@ distances.
 {: #Figure1}
 
 [Figure 1](#Figure1) shows a lever type that is used as a nail puller. Crowbars,
-seesaws, and other such levers are all analogous to this one. $$ \vb{F}_ {\text{i}} $$ is the input force and $$ \vb{F}_{\text{o}} $$ is the output
+seesaws, and other such levers are all analogous to this one. $$ \vb{F}_{\text{i}} $$ is the input force and $$ \vb{F}_{\text{o}} $$ is the output
 force. There are three vertical forces acting on the nail puller (
 the system of interest) – these are $$ \vb{F}_{\text{i}}, \vb{F}_{\N } $$, and
 $$ \vb{N} $$. $$ \vb{F}_{\N } $$ is the reaction force back on the system, equal
 and opposite to $$ \vb{F}_{\text{o}} $$. (Note that $$ \vb{F}_{\text{o}} $$ is
 not a force on the system.) $$ \vb{N} $$ is the normal force upon the lever,
-and its torque is zero since it is exerted at the pivot. The torques due to $$ \vb{F}_ {\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each other if the nail is
+and its torque is zero since it is exerted at the pivot. The torques due to $$ \vb{F}_{\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each other if the nail is
 not moving, to satisfy the second condition for equilibrium $$ \left( \text{net}\tau =0\right) $$. (In order for the nail to actually move, the torque
 due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater than torque due
 to $$ \vb{F}\_{\N } $$.) Hence,

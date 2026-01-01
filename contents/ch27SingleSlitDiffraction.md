@@ -89,7 +89,7 @@ again to find the angle for the first minimum $${\theta }_{1} $$.
 
 **Solution for (a)**
 
-We are given that $$\lambda =550 \text{nm} $$ , $$m=2 $$ , and $${\theta }_ {2}=45.0 ^\circ $$ . Solving the equation $$D \sin \theta =m \lambda $$ for
+We are given that $$\lambda =550 \text{nm} $$ , $$m=2 $$ , and $${\theta }_{2}=45.0 ^\circ $$ . Solving the equation $$D \sin \theta =m \lambda $$ for
 $$D $$ and substituting known values gives
 
 <div class="equation" >

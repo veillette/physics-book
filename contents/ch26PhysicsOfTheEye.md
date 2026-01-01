@@ -135,7 +135,7 @@ known information.
 
 **Solution**
 
-The only unknown variable in the equation $$\frac{ {h}_{\text{i}}}{ {h}_ {\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m $$ is $${h}_{\text{i}} $$
+The only unknown variable in the equation $$\frac{ {h}_{\text{i}}}{ {h}_{\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m $$ is $${h}_{\text{i}} $$
 \:
 
 <div class="equation" >

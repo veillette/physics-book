@@ -35,7 +35,7 @@ the merry-go-round. The projection of the position of P onto a fixed axis
 undergoes simple harmonic motion and is analogous to the shadow of the object.
 At the time shown in the figure, the projection has position $$x $$ and moves to
 the left with velocity $$v $$ . The velocity of the point P around the circle
-equals $${\overline{v}}_{\text{max}} $$ . The projection of $${\overline{v}}_ {\text{max}} $$ on the $$x $$ -axis is the velocity $$v $$ of the simple
+equals $${\overline{v}}_{\text{max}} $$ . The projection of $${\overline{v}}_{\text{max}} $$ on the $$x $$ -axis is the velocity $$v $$ of the simple
 harmonic motion along the $$x $$ -axis.
 
 ![The figure shows a point P moving through the circumference of a circle in an angular way with angular velocity omega. The diameter is projected along the x axis, with point P making an angle theta at the centre of the circle. A point along the diameter shows the projection of the point P with a dotted perpendicular line from P to this point, the projection of the point is given as v along the circle and its velocity v subscript max, over the top of the projection arrow in an upward left direction.](../resources/Figure_16_06_03.jpg 'A point P moving on a circular path with a constant angular velocity ( \\omega ) is undergoing uniform circular motion. Its projection on the x-axis undergoes simple harmonic motion. Also shown is the velocity of this point around the circle, ( {\\overline{v} }_\\text{max} ), and its projection, which is ( v ) . Note that these velocities form a similar triangle to the displacement triangle.')

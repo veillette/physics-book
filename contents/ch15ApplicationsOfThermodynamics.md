@@ -38,7 +38,7 @@ this section we will concentrate on its heating mode.)
 ### Heat Pumps
 
 The great advantage of using a heat pump to keep your home warm, rather than
-just burning fuel, is that a heat pump supplies $${Q}_{\text{h}}={Q}_ {\text{c}}+W $$ . Heat transfer is from the outside air, even at a temperature
+just burning fuel, is that a heat pump supplies $${Q}_{\text{h}}={Q}_{\text{c}}+W $$ . Heat transfer is from the outside air, even at a temperature
 below freezing, to the indoor space. You only pay for $$W $$ , and you get an
 additional heat transfer of $${Q}_{\text{c}} $$ from the outside at no cost; in
 many cases, at least twice as much energy is transferred to the heated space as
@@ -66,7 +66,7 @@ roles and the flow direction of the fluid is reversed.)
 
 The quality of a heat pump is judged by how much heat transfer $${Q}_{\text{h}} $$ occurs into the warm space compared with how much work input $$W $$ is
 required. In the spirit of taking the ratio of what you get to what you spend,
-we define a **heat pump’s coefficient of performance** ( $${\text{COP}}_ {\text{hp}} $$ )
+we define a **heat pump’s coefficient of performance** ( $${\text{COP}}_{\text{hp}} $$ )
 to be
 
 <div class="equation" >
@@ -79,7 +79,7 @@ interesting fact. First, since the efficiency of any heat engine is less than 1,
 it means that $${\text{COP}}_{\text{hp}} $$ is always greater than 1—that is, a
 heat pump always has more heat transfer $${Q}_{\text{h}} $$ than work put into
 it. Second, it means that heat pumps work best when temperature differences are
-small. The efficiency of a perfect, or Carnot, engine is $${\text{Eff}}_ {\text{C}}=1-\left({T}_{\text{c}}/{T}_{\text{h}}\right) $$ ; thus, the smaller
+small. The efficiency of a perfect, or Carnot, engine is $${\text{Eff}}_{\text{C}}=1-\left({T}_{\text{c}}/{T}_{\text{h}}\right) $$ ; thus, the smaller
 the temperature difference, the smaller the efficiency and the greater the
 $${\text{COP}}_{\text{hp}} $$
 ** (because $${\text{COP}}_{\text{hp}}=1/\text{Eff} $$ ). In other words, heat
@@ -196,7 +196,7 @@ you will show that
 for a heat engine used as either an air conditioner or a heat pump operating
 between the same two temperatures. Real air conditioners and refrigerators
 typically do remarkably well, having values of $${\text{COP}}_{\text{ref}} $$
-ranging from 2 to 6. These numbers are better than the $${\text{COP}}_ {\text{hp}} $$ values for the heat pumps mentioned above, because the
+ranging from 2 to 6. These numbers are better than the $${\text{COP}}_{\text{hp}} $$ values for the heat pumps mentioned above, because the
 temperature differences are smaller, but they are less than those for Carnot
 engines operating between the same two temperatures.
 

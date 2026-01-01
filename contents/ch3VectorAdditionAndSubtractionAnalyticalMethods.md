@@ -153,13 +153,13 @@ same point. In particular, the person could have walked first in the *x*
 -direction and then in the *y*-direction. Those paths are the *x*- and
 *y*-components of the resultant, $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$. If we
 know $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$, we can find $$ R $$ and $$ \theta $$
-using the equations $$ A=\sqrt{ A_{x}^{2}+ A_ {y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
+using the equations $$ A=\sqrt{ A_{x}^{2}+ A_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
 use the analytical method of vector addition, you can determine the components
 or the magnitude and direction of a vector.
 
 **_Step 1._** _Identify the x- and y-axes that will be used in the problem.
 Then, find the components of each vector to be added along the chosen
-perpendicular axes._ Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_ {y}=A\sin{\theta} $$ to find the components. In [Figure 6](#Figure6), these
+perpendicular axes._ Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ to find the components. In [Figure 6](#Figure6), these
 components are $$ A_{x} $$, $$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The
 angles that vectors $$ \vb{A} $$ and $$ \vb{B} $$ make with the **x**-axis are
 $$ \theta_{\text{A}} $$ and $$ \theta_{\text{B}} $$, respectively.
@@ -235,35 +235,37 @@ point. Once found, they are combined to produce the resultant.
 **Solution**
 
 Following the method outlined above, we first find the components of $$ \vb{A} $$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$ A=53.0 \m $$,
-$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_ {\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A\_ $$
-{x}=A\cos{\theta} $$, which gives <div class="equation"> $$ \begin{array}{lll}
+$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_{\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A_{x}=A\cos{\theta} $$, which gives
+
+<div class="equation">
+$$ \begin{array}{lll}
 A_{x}&=& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
 A_{x}&=& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
-\end{array} $$ $$
+\end{array} $$
 </div>
 and
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 B_{x}&=& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
 B_{x}&=& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
-\end{array} $$ $$
+\end{array} $$
 </div>
 Similarly, the *y*-components are found using $$ A_{y}=A\sin{\theta_{A}} $$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 A_{y}&=& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\\
 A_{y}&=& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
-\end{array} $$ $$
+\end{array} $$
 </div>
 and
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 B_{y}&=& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
 B_{y}&=&\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
-\end{array} $$ $$
+\end{array} $$
 </div>
 The **x**- and **y**-components of the resultant are thus
 
@@ -364,10 +366,10 @@ Vector Addition
 and
 
   <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 A_{y}&=& A\sin{\theta} \\ 
 B_{y}&=& B\sin{\theta} .
-\end{array} $$ $$
+\end{array} $$
   </div>
 
 Step 2: Add the horizontal and vertical components of each vector to determine

@@ -196,7 +196,7 @@ volume submerged to the volume of the object, or
  $$\text{fraction submerged =}\frac{ {V}_{\text{sub}}}{ {V}_{\text{obj}}}=\frac{ {V}_{\text{fl}}}{ {V}_{\text{obj}}}. $$
 </div>
 
-The volume submerged equals the volume of fluid displaced, which we call $${V}_ {\text{fl}} $$ . Now we can obtain the relationship between the densities by
+The volume submerged equals the volume of fluid displaced, which we call $${V}_{\text{fl}} $$ . Now we can obtain the relationship between the densities by
 substituting $$\rho =\frac{m}{V} $$ into the expression. This gives
 
 <div class="equation" >
@@ -342,7 +342,7 @@ density $$\rho =\frac{m}{V} $$ for $$V $$.
 
 **Solution**
 
-The volume of water is $${V}_{\text{w}}=\frac{ {m}_{\text{w}}}{ {\rho }_ {\text{w}}} $$ where $${m}_{\text{w}} $$ is the mass of water displaced. As
+The volume of water is $${V}_{\text{w}}=\frac{ {m}_{\text{w}}}{ {\rho }_{\text{w}}} $$ where $${m}_{\text{w}} $$ is the mass of water displaced. As
 noted, the mass of the water displaced equals the apparent mass loss, which is
 $${m}_{\text{w}}=8.630 \text{g}-7.800 \text{g}=0.830 \text{g} $$ . Thus the
 volume of water is $${V}_{\text{w}}=\frac{0.830 \text{g}}{1.000 \text{g}{\text{/cm}}^{3}}= 0.830 {\text{cm}}^{3} $$ . This is also the volume of
@@ -967,7 +967,7 @@ Referring to [[Figure 3]](#Figure3), prove that the buoyant force on the cylinde
 where  $${\rho }_{\text{fl}} $$
  = density of fluid. Therefore,
 
-$$ {F}_{\text{net}}=\left({h}_{2}-{h}_{1}\right)A\rho _{\text{fl}}g={V}_ {\text{fl}}{\rho }_{\text{fl}}g={m}_{\text{fl}}g={w}_{\text{fl}} $$ where is
+$$ {F}_{\text{net}}=\left({h}_{2}-{h}_{1}\right)A\rho _{\text{fl}}g={V}_{\text{fl}}{\rho }_{\text{fl}}g={m}_{\text{fl}}g={w}_{\text{fl}} $$ where is
 $${w}_{\text{fl}} $$ the weight of the fluid displaced.
 
 </div>

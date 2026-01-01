@@ -48,7 +48,7 @@ also find an expression for the energy of motion.
 Let us start by considering the total, or net, work done on a system. Net work
 is defined to be the sum of work done by all external forces—that is, **net
 work** is the work done by the net external force $$ \vb{F}_{\text{net}} $$. In
-equation form, this is $$ W_{\text{net}}=F\_ {\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
+equation form, this is $$ W_{\text{net}}=F\_{\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
 vector and the displacement vector.
 
 [Figure 1](#Figure1)(a) shows a graph of force versus displacement for the
@@ -73,7 +73,7 @@ conveyor system shown in [Figure 2](#Figure2).
 The force of gravity and the normal force acting on the package are
 perpendicular to the displacement and do no work. Moreover, they are also equal
 in magnitude and opposite in direction so they cancel in calculating the net
-force. The net force arises solely from the horizontal applied force $$ \vb{F}\_ {\text{app}} $$ and the horizontal friction force $$ \vb{f} $$. Thus, as
+force. The net force arises solely from the horizontal applied force $$ \vb{F}\_{\text{app}} $$ and the horizontal friction force $$ \vb{f} $$. Thus, as
 expected, the net force is parallel to the displacement, so that $$ \theta =0^\circ $$ and $$ \cos{\theta} =1 $$, and the net work is given by
 
 <div class="equation">
@@ -84,7 +84,7 @@ The effect of the net force $$ \vb{F}_{\text{net}} $$ is to accelerate the
 package from $$ v_{0} $$ to $$ v $$. The kinetic energy of the package
 increases, indicating that the net work done on the system is positive. (
 See [Figure 2](#Figure2).) By using Newton’s second law, and doing some algebra, we
-can reach an interesting conclusion. Substituting $$ F\_ {\text{net}}=ma $$ from Newton’s second law gives
+can reach an interesting conclusion. Substituting $$ F\_{\text{net}}=ma $$ from Newton’s second law gives
 
 <div class="equation">
  $$ W_{\text{net}}= mad . $$
@@ -211,10 +211,10 @@ distance.
 The net force is the push force minus friction, or $$ F\_{\text{net}} = 120 N - 5.00\N = 115 \N $$. Thus the net work is
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 W_{\text{net}}&=& F_{\text{net}}d=\left(115 \N \right)\left(0.800 \m \right)\\
 W_{\text{net}}&=& 92.0 \N \cdot \m=92.0 \J .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion for (a)**
@@ -235,31 +235,31 @@ perpendicular to the displacement, and therefore do no work.
 The applied force does work.
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 W_{\text{app}}&=& F_{\text{app}}d\cos\left(0^\circ \right)=F_{\text{app}}d\\
 W_{\text{app}}&=& \left(120 \N \right)\left(0.800 \m \right)\\
 W_{\text{app}}&=& 96.0 \J
-\end{array} $$ $$
+\end{array} $$
 </div>
 The friction force and displacement are in opposite directions, so that $$ \theta =180^\circ $$,
 and the work done by friction is
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 W_{\text{fr}}&=& F_{\text{fr}}d\cos\left(180^\circ\right)=-F_{\text{fr}}d\\
 W_{\text{fr}}&=& -\left(5.00 \N \right)\left(0.800 \m \right)\\
 W_{\text{fr}}&=& -4.00 \J .
-\end{array} $$ $$
+\end{array} $$
 </div>
 So the amounts of work done by gravity, by the normal force, by the applied force, and by friction are, respectively,
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 W_{\text{gr}}&=& 0,\\ 
 W_{N}&=& 0,\\ 
 W_{\text{app}}&=& 96.0 \J  ,\\
 W_{\text{fr}}&=& -4.00 \J .
-\end{array} $$ $$
+\end{array} $$
 </div>
 The total work done as the sum of the work done by each force is then seen to be
 
@@ -308,10 +308,10 @@ Thus,
 Solving for the final speed as requested and entering known values gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v&=& \sqrt{\frac{2\text{(95.75 J)}}{m}}=\sqrt{\frac{191.5 \kg \cdot \mmss }{30.0 \kg }}\\
 v&=& 2.53 \ms .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -344,7 +344,7 @@ horizontal friction force is then the net force, and it acts opposite to the
 displacement, so $$ \theta =180^\circ $$. To reduce the kinetic energy of the
 package to zero, the work $$ W_{\text{fr}} $$ by friction must be minus the
 kinetic energy that the package started with plus what the package accumulated
-due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W\_ {\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
+due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W\_{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
 is the distance it takes to stop. Thus,
 
 <div class="equation">
@@ -425,10 +425,10 @@ We calculate the kinetic energy of both using $$ \KE = \frac{1}{2}mv^{2} $$, con
 Convert speeds to m/s:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v_{\text{truck}} &=& 110\text{ km/h} \times \frac{1000\m}{3600\s} = 30.6\ms\\
 v_{\text{astronaut}} &=& 27500\text{ km/h} \times \frac{1000\m}{3600\s} = 7640\ms
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Kinetic energy of truck:
@@ -491,11 +491,11 @@ Setting the elephant's kinetic energy equal to this:
 Solving for the elephant's velocity:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v_{\text{elephant}} &=& \sqrt{\frac{2(3250\J)}{3000\kg}}\\
 v_{\text{elephant}} &=& \sqrt{2.167\text{ m}^{2}/\text{s}^{2}}\\
 v_{\text{elephant}} &=& 1.47\ms
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 __(b)__ The relationship between body mass and metabolic rate is discussed below.
@@ -539,11 +539,11 @@ Convert speed to m/s:
 Calculate kinetic energy:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \KE &=& \frac{1}{2}mv^{2} = \frac{1}{2}(9.00 \times 10^{7}\kg)(15.4\ms)^{2}\\
 \KE &=& \frac{1}{2}(9.00 \times 10^{7})(237.16)\J\\
 \KE &=& 1.07 \times 10^{10}\J \approx 1.1 \times 10^{10}\J
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -590,19 +590,19 @@ Using the work-energy theorem ($$ W\_{\text{net}} = \Delta \KE $$):
 Solving for F:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F &=& \frac{\KE_{0}}{d} = \frac{2.97 \times 10^{5}\J}{120\m}\\
 F &=& 2.47 \times 10^{3}\N \approx 2.5 \times 10^{3}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 __(b)__ For hitting the abutment with $$ d = 2.00\m $$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F &=& \frac{\KE_{0}}{d} = \frac{2.97 \times 10^{5}\J}{2.00\m}\\
 F &=& 1.48 \times 10^{5}\N \approx 1.5 \times 10^{5}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 The ratio of forces is:
@@ -652,11 +652,11 @@ The initial kinetic energy is:
 Using the work-energy theorem:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 -Fd &=& -\KE\\
 F &=& \frac{\KE}{d} = \frac{545\J}{0.200\m}\\
 F &=& 2725\N \approx 2.7 \times 10^{3}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -702,20 +702,20 @@ __(a)__ With gloves, using $$ d = 7.50\text{ cm} = 0.0750\m $$:
 Using the work-energy theorem:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 -Fd &=& -\KE\\
 F &=& \frac{\KE}{d} = \frac{350\J}{0.0750\m}\\
 F &=& 4.67 \times 10^{3}\N \approx 4.7 \times 10^{3}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 __(b)__ Without gloves, using $$ d = 2.00\text{ cm} = 0.0200\m $$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F &=& \frac{\KE}{d} = \frac{350\J}{0.0200\m}\\
 F &=& 1.75 \times 10^{4}\N \approx 1.8 \times 10^{4}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -754,23 +754,23 @@ The net work done equals the change in kinetic energy. The net work is the work 
 Calculate the change in kinetic energy:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \Delta \KE &=& \frac{1}{2}m(v_{f}^{2} - v_{i}^{2})\\
 \Delta \KE &=& \frac{1}{2}(60.0\kg)[(8.00\ms)^{2} - (2.00\ms)^{2}]\\
 \Delta \KE &=& \frac{1}{2}(60.0\kg)(64.0 - 4.00)\text{ m}^{2}/\text{s}^{2}\\
 \Delta \KE &=& 1800\J
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Using the work-energy theorem:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 (F_{\text{sprinter}} - F_{\text{wind}})d &=& \Delta \KE\\
 (F_{\text{sprinter}} - 30.0\N)(25.0\m) &=& 1800\J\\
 F_{\text{sprinter}} - 30.0\N &=& \frac{1800\J}{25.0\m} = 72.0\N\\
 F_{\text{sprinter}} &=& 72.0\N + 30.0\N = 102\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**

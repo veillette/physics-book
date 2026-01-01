@@ -66,7 +66,7 @@ the object.
 **Solution**
 
 Since $${d}_{\text{i}} $$ and $${d}_{\text{o}} $$ are known, the power of the
-spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_ {\text{i}}} $$ as written earlier:
+spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}} $$ as written earlier:
 
 <div class="equation" >
  $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{\infty }+\frac{1}{-0.285 \text{m}}. $$
@@ -119,7 +119,7 @@ so that $${d}_{\text{o}}=23.5 \text{cm} $$.
 **Solution**
 
 Since $${d}_{\text{i}} $$ and $${d}_{\text{o}} $$ are known, the power of the
-spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_ {\text{i}}} $$ \:
+spectacle lens can be found using $$P=\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_{\text{i}}} $$ \:
 
 <div class="equation" >
  $$\begin{array}{lll}P& =& \frac{1}{ {d}_{o}}+\frac{1}{ {d}_{\text{i}}}=\frac{1}{0.235 \text{m}}+\frac{1}{-0.985 \text{m}}\\ & =& 4.26 D-1.02 \text{D}=3.24 \text{D}.\end{array} $$

@@ -59,7 +59,7 @@ in [[Figure 4]](#Figure4). **Any change in magnetic flux $$\Phi $$ induces an
 emf.** This process is defined to be **electromagnetic induction**. Units of
 magnetic flux $$\Phi $$ are $$\text{T}\cdot {\text{m}}^{2} $$ . As seen
 in [[Figure 4]](#Figure4), $$B \cos \theta = B_\perp $$ , which is the component
-of $$B $$ perpendicular to the area $$A $$ . Thus magnetic flux is $$\Phi ={B}_ {\perp}A $$ , the product of the area and the component of the magnetic field
+of $$B $$ perpendicular to the area $$A $$ . Thus magnetic flux is $$\Phi ={B}_{\perp}A $$ , the product of the area and the component of the magnetic field
 perpendicular to it.
 
 ![Figure shows a flat square shaped surface A. The magnetic field B is shown to act on the surface at an angle theta with the normal to the surface A. The cosine component of magnetic field B cos theta is shown to act parallel to the normal to the surface.](../resources/Figure_23_01_04.jpg 'Magnetic flux ( \\Phi ) is related to the magnetic field and the area over which it exists. The flux ( \\Phi=BA \\cos \\theta ) is related to induction; any change in ( \\Phi ) induces an emf.')

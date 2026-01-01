@@ -49,7 +49,7 @@ for sound waves, where amplitude is proportional to pressure. In electromagnetic
 waves, the amplitude is the **maximum field strength** of the electric and
 magnetic fields. (See [[Figure 1]](#Figure1).)
 
-Thus the energy carried and the **intensity** $$I $$ of an electromagnetic wave
+Thus the energy carried and the **intensity** $$I$$ of an electromagnetic wave
 is proportional to $${E}^{2} $$ and $${B}^{2} $$ . In fact, for a continuous
 sinusoidal electromagnetic wave, the average intensity $${I}_{\text{ave}} $$ is
 given by
@@ -58,7 +58,7 @@ given by
  $${I}_{\text{ave}}=\frac{ c\epsilon_{0}{E}_{0}^{2}}{2}, $$
 </div>
 
-where $$c $$ is the speed of light, $${\epsilon }_{0} $$ is the permittivity of
+where $$c$$ is the speed of light, $${\epsilon }_{0} $$ is the permittivity of
 free space, and $${E}_{0} $$ is the maximum electric field strength; intensity,
 as always, is power per unit area (here in $${\text{W/m}}^{2} $$ ).
 
@@ -149,7 +149,7 @@ Entering known values gives
 **Discussion**
 
 As before, a relatively strong electric field is accompanied by a relatively
-weak magnetic field in an electromagnetic wave, since $$B=E/c $$ , and $$c $$ is
+weak magnetic field in an electromagnetic wave, since $$B=E/c $$ , and $$c$$ is
 a large number.
 
 </div>
@@ -634,7 +634,7 @@ For a continuous sinusoidal electromagnetic wave, the peak intensity is twice th
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Suppose a source of electromagnetic waves radiates uniformly in all directions in empty space where there are no absorption or interference effects. (a) Show that the intensity is inversely proportional to  $${r}^{2} $$ ,
- the distance from the source squared. (b) Show that the magnitudes of the electric and magnetic fields are inversely proportional to  $$r $$.
+ the distance from the source squared. (b) Show that the magnitudes of the electric and magnetic fields are inversely proportional to  $$r$$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">

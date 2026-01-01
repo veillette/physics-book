@@ -224,7 +224,7 @@ Substituting the known values (converted to units of meters and seconds) gives
 Using $${n}_{1}{A}_{1}{\overline{v}}_{1}={n}_{2}{A}_{2}{\overline{v}}_{1} $$ ,
 assigning the subscript 1 to the aorta and 2 to the capillaries, and solving for
 $${n}_{2} $$
-(the number of capillaries) gives $${n}_{2}=\frac{ {n}_{1}{A}_{1}{\overline{v}}_ {1}}{ {A}_{2}{\overline{v}}\_{2}} $$ . Converting all quantities to units of
+(the number of capillaries) gives $${n}_{2}=\frac{ {n}_{1}{A}_{1}{\overline{v}}_{1}}{ {A}_{2}{\overline{v}}\_{2}} $$ . Converting all quantities to units of
 meters and seconds and substituting into the equation above gives
 
 <div class="equation">

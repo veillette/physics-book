@@ -46,7 +46,7 @@ where $$\rho $$ is the fluid density, $$v $$ its speed, $$\eta $$ its viscosity,
 and $$r $$ the tube radius. The Reynolds number is a unitless quantity.
 Experiments have revealed that $${N}_{\text{R}} $$ is related to the onset of
 turbulence. For $${N}_{\text{R}} $$ below about 2000, flow is laminar. For
-$${N}_{\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_ {\text{R}} $$ between about 2000 and 3000, flow is unstable—that is, it can be
+$${N}_{\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_{\text{R}} $$ between about 2000 and 3000, flow is unstable—that is, it can be
 laminar, but small obstructions and surface roughness can make it turbulent, and
 it may oscillate randomly between being laminar and turbulent. The blood flow
 through most of the body is a quiet, laminar flow. The exception is in the
@@ -108,7 +108,7 @@ similar techniques.
    $${N}_{\text{R}}=\frac{2\rho vr}{\eta }. $$
   </div>
 
-- For $${N}_{\text{R}} $$ below about 2000, flow is laminar. For $${N}_ {\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_ {\text{R}} $$ between 2000 and 3000, it may be either or both. 
+- For $${N}_{\text{R}} $$ below about 2000, flow is laminar. For $${N}_{\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_{\text{R}} $$ between 2000 and 3000, it may be either or both. 
 
 ### Conceptual Questions
 

@@ -22,14 +22,14 @@ See [[Figure 1]](#Figure1).)
 Let us examine the force on each segment of the loop in [[Figure 1]](#Figure1)
 to find the torques produced about the axis of the vertical shaft. (This will
 lead to a useful equation for the torque on the loop.) We take the magnetic
-field to be uniform over the rectangular loop, which has width $$w $$ and height
-$$l $$ . First, we note that the forces on the top and bottom segments are
+field to be uniform over the rectangular loop, which has width $$w$$ and height
+$$l$$ . First, we note that the forces on the top and bottom segments are
 vertical and, therefore, parallel to the shaft, producing no torque. Those
 vertical forces are equal in magnitude and opposite in direction, so that they
 also produce no net force on the loop. [[Figure 2]](#Figure2) shows views of the
-loop from above. Torque is defined as $$\tau = rF \sin \theta $$ , where $$F $$
-is the force, $$r $$ is the distance from the pivot that the force is applied,
-and $$\theta $$ is the angle between $$r $$ and $$F $$ . As seen
+loop from above. Torque is defined as $$\tau = rF \sin \theta $$ , where $$F$$
+is the force, $$r$$ is the distance from the pivot that the force is applied,
+and $$\theta $$ is the angle between $$r$$ and $$F$$ . As seen
 in [[Figure 2]](#Figure2)(a), right hand rule 1 gives the forces on the sides to
 be equal in magnitude and opposite in direction, so that the net force is again
 zero. However, each force produces a clockwise torque. Since $$r=w/2 $$ , the
@@ -43,15 +43,15 @@ two add to give a total torque.
 ![Diagram showing a current-carrying loop from the top, and four different times as it rotates in a magnetic field. The magnetic field oriented toward the right, perpendicular to the vertical dimension of the loop. In figure a, the top view of the loop is oriented at an angle to the magnetic field lines, which run left to right. The force on the loop is up on the lower left side where the current comes out of the page. The force is down on the upper right side where the loop goes into the page. The angle between the force and the loop is theta. Torque is clockwise and equals w over 2 times I l B sine theta. Figure b shows the top view of the loop parallel to the magnetic field lines. The force on the loop is up on the left side where I comes out of the page. The force on the loop is down on the right side where I goes into the page. The angle theta between the F and B is ninety degrees. Torque is clockwise and equals w over 2 I l B equals maximum torque. Figure c shows the top view of the loop oriented perpendicular to B. The force on the loop is up at the top, where I comes out of the page, and down at the bottom where I goes into the page. Theta equals 0 degrees. Torque equals zero since sine theta equals 0. In figure d the force is down on the lower left side of the loop where I goes in, and up on the upper right side of the loop where I comes out. The torque is counterclockwise. Torque is negative.](../resources/Figure_22_08_02.jpg 'Top views of a current-carrying loop in a magnetic field. (a) The equation for torque is derived using this view. Note that the perpendicular to the loop makes an angle ( \\theta ) with the field that is the same as the angle between ( w/2 ) and ( F ) . (b) The maximum torque occurs when ( \\theta ) is a right angle and ( \\sin \\theta =1 ) . (c) Zero (minimum) torque occurs when ( \\theta ) is zero and ( \\sin \\theta =0 ) . (d) The torque reverses once the loop rotates past ( \\theta=0 ).')
 {: #Figure2}
 
-Now, each vertical segment has a length $$l $$ that is perpendicular to $$B $$ ,
-so that the force on each is $$F=IlB $$ . Entering $$F $$ into the expression
+Now, each vertical segment has a length $$l$$ that is perpendicular to $$B$$ ,
+so that the force on each is $$F=IlB $$ . Entering $$F$$ into the expression
 for torque yields
 
 <div class="equation" >
  $$\tau =wIlB  \sin \theta . $$
 </div>
 
-If we have a multiple loop of $$N $$ turns, we get $$N $$ times the torque of
+If we have a multiple loop of $$N$$ turns, we get $$N$$ times the torque of
 one loop. Finally, note that the area of the loop is $$A= wl $$ ; the expression
 for the torque becomes
 
@@ -61,8 +61,8 @@ for the torque becomes
 
 This is the torque on a current-carrying loop in a uniform magnetic field. This
 equation can be shown to be valid for a loop of any shape. The loop carries a
-current $$I $$ , has $$N $$ turns, each of area $$A $$ , and the perpendicular
-to the loop makes an angle $$\theta $$ with the field $$B $$. The net force on
+current $$I$$ , has $$N$$ turns, each of area $$A$$ , and the perpendicular
+to the loop makes an angle $$\theta $$ with the field $$B$$. The net force on
 the loop is zero.
 
 <div class="example" markdown="1">
@@ -110,14 +110,14 @@ See [\[Figure 3\]](#Figure3).)
 application of magnetic torque on a current-carrying
 loop. [[Figure 4]](#Figure4) shows that a meter is very similar in construction
 to a motor. The meter in the figure has its magnets shaped to limit the effect
-of $$\theta $$ by making $$B $$ perpendicular to the loop over a large angular
-range. Thus the torque is proportional to $$I $$ and not $$\theta $$ . A linear
+of $$\theta $$ by making $$B$$ perpendicular to the loop over a large angular
+range. Thus the torque is proportional to $$I$$ and not $$\theta $$ . A linear
 spring exerts a counter-torque that balances the current-produced torque. This
-makes the needle deflection proportional to $$I $$ . If an exact proportionality
+makes the needle deflection proportional to $$I$$ . If an exact proportionality
 cannot be achieved, the gauge reading can be calibrated. To produce a
 galvanometer for use in analog voltmeters and ammeters that have a low
-resistance and respond to small currents, we use a large loop area $$A $$ , high
-magnetic field $$B $$ , and low-resistance coils.
+resistance and respond to small currents, we use a large loop area $$A$$ , high
+magnetic field $$B$$ , and low-resistance coils.
 
 ![Diagram of a meter showing a current-carrying loop between two poles of a magnet. The torque on the magnet is clockwise. The top of the loop is connected to a spring and to a pointer that points to a scale as the loop rotates.](../resources/Figure_22_08_04.jpg 'Meters are very similar to motors but only rotate through a part of a revolution. The magnetic poles of this meter are shaped to keep the component of ( B ) perpendicular to the loop constant, so that the torque does not depend on ( \\theta ) and the deflection against the return spring is proportional only to the current ( I ) .')
 {: #Figure4}
@@ -129,9 +129,9 @@ magnetic field $$B $$ , and low-resistance coils.
   <div class="equation" >
    $$\tau =NIAB \sin \theta , $$
   </div>
-     where    $$N $$ is the number of turns,
-   $$I $$ is the current,    $$A $$ is the area of the loop,
-   $$B $$ is the magnetic field strength, and
+     where    $$N$$ is the number of turns,
+   $$I$$ is the current,    $$A$$ is the area of the loop,
+   $$B$$ is the magnetic field strength, and
    $$\theta  $$ is the angle between the perpendicular to the loop and the magnetic field.
 
 ### Conceptual Questions
@@ -561,6 +561,6 @@ energy is converted to mechanical work in the process
 
 meter
 : common application of magnetic torque on a current-carrying loop that is very
-similar in construction to a motor; by design, the torque is proportional to $$I $$ and not $$\theta $$, so the needle deflection is proportional to the current
+similar in construction to a motor; by design, the torque is proportional to $$I$$ and not $$\theta $$, so the needle deflection is proportional to the current
 
 </div>

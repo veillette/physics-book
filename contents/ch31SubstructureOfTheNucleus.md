@@ -30,7 +30,7 @@ proton. [[Table 1]](#Table1) compares the masses of protons, neutrons, and
 electrons. Note how close the proton and neutron masses are, but the neutron is
 slightly more massive once you look past the third digit. Both nucleons are much
 more massive than an electron. In fact, $${m}_{p}=1836{m}_{e} $$
-(as noted in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics) and $${m}_ {n}=1839{m}_{e} $$.
+(as noted in [Medical Applications of Nuclear Physics](../contents/ch32MedicalApplicationsOfNuclearPhysics) and $${m}_{n}=1839{m}_{e} $$.
 
 [[Table 1]](#Table1) also gives masses in terms of mass units that are more
 convenient than kilograms on the atomic and nuclear scale. The first of these is
@@ -130,7 +130,7 @@ importance in organic chemistry (see [Appendix A](../contents/appendixA)).
             <td>0.511</td>
           </tr></tbody></table>
 
-Let us look at a few examples of nuclides expressed in the $${}_ {Z}^{A}{\text{X}}_{N} $$ notation. The nucleus of the simplest atom, hydrogen,
+Let us look at a few examples of nuclides expressed in the $${}_{Z}^{A}{\text{X}}_{N} $$ notation. The nucleus of the simplest atom, hydrogen,
 is a single proton, or $${}_{1}^{1}\text{H} $$
 (the zero for no neutrons is often omitted). To check this symbol, refer to the
 periodic table—you see that the atomic number $$Z $$ of hydrogen is 1. Since you
@@ -140,8 +140,8 @@ two neutrons. You can then see that it is written $${}_{2}^{4}{\text{He}}_{2} $$
 . There is a scarce form of hydrogen found in nature called deuterium; its
 nucleus has one proton and one neutron and, hence, twice the mass of common
 hydrogen. The symbol for deuterium is, thus, $${}_{1}^{2}{\text{H}}_{1} $$
-(sometimes $$\text{D} $$ is used, as for deuterated water $${\text{D}}_ {2}\text{O} $$ ). An even rarer—and radioactive—form of hydrogen is called
-tritium, since it has a single proton and two neutrons, and it is written $${}_ {1}^{3}{\text{H}}_{2} $$ . These three varieties of hydrogen have nearly
+(sometimes $$\text{D} $$ is used, as for deuterated water $${\text{D}}_{2}\text{O} $$ ). An even rarer—and radioactive—form of hydrogen is called
+tritium, since it has a single proton and two neutrons, and it is written $${}_{1}^{3}{\text{H}}_{2} $$ . These three varieties of hydrogen have nearly
 identical chemistries, but the nuclei differ greatly in mass, stability, and
 other characteristics. Nuclei (such as those of hydrogen) having the same $$Z $$
 and different $$N $$ s are defined to be **isotopes** of the same element.
