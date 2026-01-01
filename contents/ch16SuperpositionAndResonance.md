@@ -116,9 +116,7 @@ The lowest frequency, called the **fundamental frequency**, is thus for the
 longest wavelength, which is seen to be $${\lambda }_{1}=2L $$ . Therefore, the
 fundamental frequency is $${f}_{1}={v}_{\text{w}}/{\lambda }_{1}={v}_ {\text{w}}/2L $$ . In this case, the **overtones** or harmonics are multiples of
 the fundamental frequency. As seen in [[Figure 7]](#Figure7), the first harmonic
-can easily be calculated since $${\lambda }_{2}=L $$ . Thus, $${f}_{2}={v}_ {\text{w}}/{\lambda }_{2}={v}_{\text{w}}/2L={2f}_{1} $$ . Similarly, $${f}_
-{3}={3f}_{1} $$ , and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater $${v}_
-{\text{w}} $$ is and the higher the frequencies. This observation is familiar to
+can easily be calculated since $${\lambda }_{2}=L $$ . Thus, $${f}_{2}={v}_ {\text{w}}/{\lambda }_{2}={v}_{\text{w}}/2L={2f}_{1} $$ . Similarly, $${f}_ {3}={3f}_{1} $$ , and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater $${v}_ {\text{w}} $$ is and the higher the frequencies. This observation is familiar to 
 anyone who has ever observed a string instrument being tuned. We will see in
 later chapters that standing waves are crucial to many resonance phenomena, such
 as in sounding boxes on string instruments.
@@ -185,7 +183,7 @@ and $${f}_{2} $$ . These results mean that the resultant wave has twice the
 amplitude and the average frequency of the two superimposed waves, but it also
 fluctuates in overall amplitude at the beat frequency $${f}_{\text{B}} $$ . The
 first cosine term in the expression effectively causes the amplitude to go up
-and down. The second cosine term is the wave with frequency $${f}\_{\text{ave}} $$
+and down. The second cosine term is the wave with frequency $${f}\_{\text{ave}} $$
 
 . This result is valid for all types of waves. However, if it is a sound
 wave, providing the two frequencies are similar, then what we hear is an average
@@ -624,4 +622,4 @@ overtones
 superposition
 : the phenomenon that occurs when two or more waves arrive at the same point
 
-</div>
+</div>

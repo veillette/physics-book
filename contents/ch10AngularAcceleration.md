@@ -56,9 +56,7 @@ expressed as follows:
  $$ \alpha =\frac{ \Delta \omega }{\Delta t}, $$
 </div>
 
-where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ is the change in time. The units of angular acceleration are $$ \left(\rads
-\right)\text{/s} $$, or $$ \radss $$. If $$ \omega $$ increases, then $$ \alpha
-$$ is positive. If $$ \omega $$ decreases, then $$ \alpha $$ is negative.
+where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ is the change in time. The units of angular acceleration are $$ \left(\rads \right)\text{/s} $$, or $$ \radss $$. If $$ \omega $$ increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$ \alpha $$ is negative. 
 
 <div class="example" markdown="1">
 <div class="title">
@@ -79,28 +77,28 @@ s.
 Entering known information into the definition of angular acceleration, we get
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \alpha &=& \frac{ \Delta \omega }{\Delta t}\\
 \alpha &=& \frac{250 \text{rpm}}{5.00 \s }.
-\end{array} $$
+\end{array} $$ $$
 </div>
 Because $$ \Delta \omega $$ is in revolutions per minute (rpm)
 and we want the standard units of $$ \radss $$ for angular acceleration, we need to convert $$ \Delta \omega $$ from rpm to rad/s:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \Delta \omega &=& 250\frac{ \text{rev}}{\text{min}}\cdot \frac{ 2\pi \text{rad}}{\text{rev}}\cdot \frac{1 \text{min}}{60 \text{sec}}\\
 \Delta \omega &=& 26.2\frac{ \text{rad}}{\s}.
-\end{array} $$
+\end{array} $$ $$
 </div>
 Entering this quantity into the expression for $$ \alpha $$, we get
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \alpha &=& \frac{ \Delta \omega }{\Delta t}\\
 \alpha &=&\frac{26.2 \rads }{5.00 \s }\\
 \alpha &=& 5.24\radss .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Strategy for (b)**
@@ -119,10 +117,10 @@ Here the angular velocity decreases from $$ 26.2 \rads $$
 (250 rpm) to zero, so that $$ \Delta \omega $$ is $$ -26.2 \rads $$, and $$ \alpha $$ is given to be $$ -87.3 \radss $$. Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \Delta t&=& \frac{-26.2 \rads }{-87.3 \radss }\\
 \Delta t&=& 0.300 \s  .
-\end{array}$$
+\end{array}$$ $$
 </div>
 
 **Discussion**
@@ -220,21 +218,21 @@ can find its linear acceleration $$ a_{\text{t}} $$. Then, the expression $$ \al
 The linear acceleration is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 a_\text{t}&=& \frac{ \Delta v}{\Delta t}\\
 a_\text{t}&=& \frac{30.0 \ms }{4.20 \s }\\
 a_\text{t}&=& 7.14\mss .
-\end{array} $$
+\end{array} $$ $$
 </div>
 We also know the radius of the wheels. Entering the values for $$ a_{\text{t}} $$
 and $$ r $$ into $$ \alpha =\frac{ a_{\text{t}}}{r} $$, we get
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \alpha &=& \frac{ a_{\text{t}}}{r}\\
 \alpha &=& \frac{7.14\mss }{0.320 \m }\\
 \alpha &=& 22.3 \radss .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -622,4 +620,4 @@ tangential acceleration
 : the acceleration in a direction tangent to the circle at the point of interest
 in circular motion
 
-</div>
+</div>

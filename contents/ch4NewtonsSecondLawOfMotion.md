@@ -245,7 +245,7 @@ regardless of its location. However, because weight depends on the acceleration
 due to gravity, the weight of an object _can change_ when the object enters into
 a region with stronger or weaker gravity. For example, the acceleration due to
 gravity on the Moon is $$ 1.67\mss $$
-(which is much less than the acceleration due to gravity on Earth, $$ 9.80\mss $$
+(which is much less than the acceleration due to gravity on Earth, $$ 9.80\mss $$
 
 ). If you measured your weight on Earth and then measured your weight on the
 Moon, you would find that you “weigh” much less, even though you do not look any
@@ -1346,4 +1346,4 @@ weight
 defined mathematically as: $$ \vb{w}=m\vb{g} $$, where $$ \vb{g} $$ is the
 magnitude and direction of the acceleration due to gravity
 
-</div>
+</div>

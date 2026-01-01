@@ -744,7 +744,7 @@ How does a lens form an image? See how light rays are refracted by a lens. Watch
 * The image in which light rays from one point on the object actually cross at
   the location of the image and can be projected onto a screen, a piece of film,
   or the retina of an eye is called a real image.
-* Thin lens equations are $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_ {\text{i}}}=\frac{1}{f} $$ and $$\frac{ {h}_{\text{i}}}{ {h}_
+* Thin lens equations are $$\frac{1}{ {d}_{\text{o}}}+\frac{1}{ {d}_ {\text{i}}}=\frac{1}{f} $$ and $$\frac{ {h}_{\text{i}}}{ {h}_ $$
   {\text{o}}}=-\frac{ {d}_{\text{i}}}{ {d}_{\text{o}}}=m
 
 (magnification).
@@ -1348,4 +1348,4 @@ real image
 virtual image
 : image that cannot be projected
 
-</div>
+</div>

@@ -98,8 +98,7 @@ and [[Figure 3]](../contents/ch33TheFourBasicForces#Figure3). The quarks within 
 and neutron move along together exchanging gluons, until the proton and neutron
 get close together. As the $$u $$ quark leaves the proton, a gluon creates a
 pair of virtual particles, a $$d $$ quark and a $$\stackrel{-}{d} $$ antiquark.
-The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u $$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$ ([[Table 2]](../contents/ch33Quarks#Table2) confirms the $$u\stackrel{-}{d}
-$$ composition for the $${\pi }^{+} $$ .) The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
+The $$d $$ quark stays behind and the proton turns into a neutron, while the $$u $$ and $$\stackrel{-}{d} $$ move together as a $${\pi }^{+} $$ ([[Table 2]](../contents/ch33Quarks#Table2) confirms the $$u\stackrel{-}{d} $$ composition for the $${\pi }^{+} $$ .) The $$\stackrel{-}{d} $$ annihilates a $$d $$ quark in the neutron, the $$u $$
 joins the neutron, and the neutron becomes a proton. A pion is exchanged and a
 force is transmitted.
 
@@ -163,7 +162,7 @@ human-built accelerator. At energies of about $$ 10^{14} \text{GeV} $$
 (16 000 J per particle), distances of about $$ 10^{-30} \text{m} $$ can be
 probed. Such energies are needed to test theory directly, but these are about
 
-10^{10} $$ higher than the proposed giant SSC would have had, and the distances are about $$ 10^{-12} $$ smaller than any structure we have direct knowledge of.
+10^{10} $$ higher than the proposed giant SSC would have had, and the distances are about $$ 10^{-12} $$ smaller than any structure we have direct knowledge of. $$
 This would be the realm of various GUTs, of which there are many since there is
 no constraining evidence at these energies and distances. Past experience has
 shown that any time you probe so many orders of magnitude further (here, about
@@ -493,8 +492,7 @@ In supernovas, neutrinos are produced in huge amounts. They were detected from
 the 1987A supernova in the Magellanic Cloud, which is about 120 000 light years
 away from the Earth (relatively close to our Milky Way galaxy). If neutrinos
 have a mass, they cannot travel at the speed of light, but if their mass is
-small, they can get close. (a) Suppose a neutrino with a $$7\text{-eV/}{c}^{2} $$ mass has a kinetic energy of 700 keV. Find the relativistic quantity $$\gamma
-=\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for it. (b) If the neutrino leaves the
+small, they can get close. (a) Suppose a neutrino with a $$7\text{-eV/}{c}^{2} $$ mass has a kinetic energy of 700 keV. Find the relativistic quantity $$\gamma =\frac{1}{\sqrt{1-{v}^{2}/{c}^{2} }} $$ for it. (b) If the neutrino leaves the 
 1987A supernova at the same time as a photon and both travel to Earth, how much
 sooner does the photon arrive? This is not a large time difference, given that
 it is impossible to know which neutrino left with which photon and the poor
@@ -760,4 +758,4 @@ superstring theory
 : a theory of everything based on vibrating strings some $$ 10^{-35} \text{m} $$
 in length
 
-</div>
+</div>

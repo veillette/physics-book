@@ -100,7 +100,7 @@ Here, we use the concept of mechanical advantage.
 
 **Solution**
 
-(a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}} $$
+(a) In this case, $$ \frac{ F_{\text{o}}}{ F_{\text{i}}}=\frac{ l_{i}}{ l_{o}} $$
 
 becomes
 
@@ -645,4 +645,4 @@ This pulley arrangement is more efficient than the one in the previous problem. 
 mechanical advantage
 : the ratio of output to input forces for any simple machine
 
-</div>
+</div>

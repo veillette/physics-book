@@ -29,7 +29,7 @@ up at constant speed, then the force needed to lift it is equal to its weight $$
 be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ put
 into (or gained by) the object-Earth system. This energy is associated with the
 state of separation between two objects that attract each other by the
-gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}} $$
+gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}} $$
 
 gained by the object, recognizing that this is energy stored in the
 gravitational field of Earth. Why do we use the word “system”? Potential energy
@@ -62,7 +62,7 @@ using energy (if possible) rather than explicitly using forces.
 
 More precisely, we define the *change* in gravitational potential energy
 
-\Delta \PE\_{\text{g}} $$ to be <div class="equation"> $$ \Delta \PE_{\text{g}}=mgh , $$
+\Delta \PE\_{\text{g}} $$ to be <div class="equation"> $$ \Delta \PE_{\text{g}}=mgh , $$ $$
 </div>
 
 where, for simplicity, we denote the change in height by $$ h $$ rather than the
@@ -72,10 +72,10 @@ hung from a cuckoo clock is raised 1.00 m, then its change in gravitational
 potential energy is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 mgh &=& \left(0.500 \kg \right)\left( 9.80\mss \right)\left(1.00 \m \right)\\
 mgh &=& 4.90 \kg \cdot \mmss= 4.90 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 Note that the units of gravitational potential energy turn out to be joules, the
@@ -191,8 +191,7 @@ speed $$ v $$, which is the desired quantity.
 
 **Solution for (a)**
 
-Here the initial kinetic energy is zero, so that $$ \Delta \KE=\frac{1}{2}m v^{2} $$. The equation for change in potential energy states that $$ \Delta \PE_
-{\text{g}}=mgh $$. Since $$ h $$ is negative in this case, we will rewrite this as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus sign clearly.
+Here the initial kinetic energy is zero, so that $$ \Delta \KE=\frac{1}{2}m v^{2} $$. The equation for change in potential energy states that $$ \Delta \PE_ {\text{g}}=mgh $$. Since $$ h $$ is negative in this case, we will rewrite this as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus sign clearly.
 Thus,
 
 <div class="equation">
@@ -211,7 +210,7 @@ Solving for $$ v $$, we find that mass cancels and that
 Substituting known values,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v&=& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
 v&=&19.6 \ms .
 \end{array}
@@ -245,10 +244,10 @@ whether the object moves with a constant acceleration. Now, substituting known
 values gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v&=& \sqrt{2\left(9.80\mss \right)\left(20.0 \m \right)+\left(5.00 \ms \right)^{2}}\\
 v&=& 20.4 \ms .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion and Implications**
@@ -394,11 +393,11 @@ For part (b), we compare this energy to the typical daily food intake of about $
 **Solution for (a)**
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \PE_{g} &=& mgh\\
 \PE_{g} &=& (7 \times 10^{9}\kg)(9.80\mss)(36.5\m)\\
 \PE_{g} &=& 2.50 \times 10^{12}\J \approx 2.5 \times 10^{12}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Solution for (b)**
@@ -590,11 +589,11 @@ We use conservation of energy: $$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f
 Starting from rest ($$ v\_{0} = 0 $$):
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 mgh &=& \frac{1}{2}mv^{2}\\
 v &=& \sqrt{2gh} = \sqrt{2(9.80\mss)(35.0\m)}\\
 v &=& \sqrt{686\text{ m}^{2}/\text{s}^{2}} = 26.2\ms
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 For time, using $$ v^{2} = v\_{0}^{2} + 2ad $$ with $$ a = g\sin{30^\circ} = 4.90\mss $$:
@@ -608,13 +607,13 @@ For time, using $$ v^{2} = v\_{0}^{2} + 2ad $$ with $$ a = g\sin{30^\circ} = 4.9
 With initial speed $$ v\_{0} = 2.50\ms $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \frac{1}{2}mv_{0}^{2} + mgh &=& \frac{1}{2}mv^{2}\\
 v &=& \sqrt{v_{0}^{2} + 2gh}\\
 v &=& \sqrt{(2.50\ms)^{2} + 2(9.80\mss)(35.0\m)}\\
 v &=& \sqrt{6.25 + 686}\text{ m/s} = \sqrt{692.25}\text{ m/s}\\
 v &=& 26.3\ms
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 For time, using $$ v = v\_{0} + at $$:
@@ -645,4 +644,4 @@ The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The
 gravitational potential energy
 : the energy an object has due to its position in a gravitational field
 
-</div>
+</div>

@@ -470,4 +470,4 @@ distance
 distance traveled
 : the total length of the path traveled between two positions
 
-</div>
+</div>

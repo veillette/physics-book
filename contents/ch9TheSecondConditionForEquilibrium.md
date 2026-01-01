@@ -78,7 +78,7 @@ sometimes easier to find or visualize $$ r_{\perp } $$ than to find both $$ r $$
 and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_ {\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
 equally valid.
 
-The **SI unit of torque** is newtons times meters, usually written as $$ \N ·\m $$
+The **SI unit of torque** is newtons times meters, usually written as $$ \N ·\m $$
 
 . For example, if you push perpendicular to the door with a force of 40 N at a
 distance of 0.800 m from the hinges, you exert a torque of $$ 32 \text{N·m} ( 0.800 \m · 40 \N \sin{90^\circ} ) $$ relative to the hinges. If you reduce the
@@ -170,7 +170,7 @@ second,
 and third,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \tau_{\text{p}}&=& r_{\text{p}}{F}_{\text{p}}\\
 \tau_{\text{p}}&=& 0\cdot F_{\text{p}}\\
 \tau_{\text{p}}&=& 0.
@@ -240,10 +240,10 @@ $$ F_{\text{p}}=m_{1}g+m_{2}g. $$
 Entering known values gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F_{\text{p}}&=& \left(26.0 \kg \right)\left(9.80\mss \right)+\left(32.0 \kg \right)\left(9.80\mss \right)\\
 F_{\text{p}}&=& 568 \N .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -259,7 +259,7 @@ location of the seesaw’s actual pivot!
 Several aspects of the preceding example have broad implications. First, the
 choice of the pivot as the point around which torques are calculated simplified
 the problem. Since $$ F_{\text{p}} $$ is exerted on the pivot point, its lever
-arm is zero. Hence, the torque exerted by the supporting force $$ F_{\text{p}} $$
+arm is zero. Hence, the torque exerted by the supporting force $$ F_{\text{p}} $$
 
 is zero relative to that pivot point. The second condition for equilibrium
 holds for any choice of pivot point, and so we choose the pivot point to
@@ -561,7 +561,7 @@ Repeat the seesaw problem in [Example 1](#example1) with the center of mass of t
 Given:
 
 <div class="equation">
- $$ \begin{array}{ccc}
+$$ \begin{array}{ccc} $$
 m_{1}&=& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
 r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
 \end{array}
@@ -571,35 +571,35 @@ $$
 a) Since children are balancing:
 
 <div class="equation">
- $$ \begin{array}{}
+$$ \begin{array}{} $$
 \text{net}{\tau }_{\text{cw}}=-\text{net}{\tau }_{\text{ccw}}\\
 ⇒w_{1}r_{1}+m_{\s}{gr}_{\s}=w_{2}r_{2}\\
-\end{array} $$
+\end{array} $$ $$
 </div>
 So, solving for $$ r_{2} $$ gives:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 r_{2}&=& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}{gr}_{\s}}{ m_{2}g}=\frac{ m_{1}r_{1}+m_{\s}r_{\s}}{ m_{2}}\\
 r_{2}&=& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \right)\left(0.160 \m \right)}{32.0 \kg }\\
 r_{2}&=& 1.36 \m
-\end{array} $$
+\end{array} $$ $$
 </div>
 b) Since the children are not moving:
 
 <div class="equation">
- $$ \begin{array}{}
+$$ \begin{array}{} $$
 \text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ 
 ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
-\end{array} $$
+\end{array} $$ $$
 </div>
 So that
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F_{\text{p}}&=& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right)\\
 F_{\text{p}}&=& 686 \N
-\end{array} $$
+\end{array} $$ $$
 </div>
 </div>
 </div>
@@ -612,7 +612,7 @@ torque
 : turning or twisting effectiveness of a force
 
 perpendicular lever arm
-: the shortest distance from the pivot point to the line along which $$ \vb{F} $$
+: the shortest distance from the pivot point to the line along which $$ \vb{F} $$
 
 lies
 
@@ -622,4 +622,4 @@ SI units of torque
 center of gravity
 : the point where the total weight of the body is assumed to be concentrated
 
-</div>
+</div>

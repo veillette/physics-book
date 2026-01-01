@@ -246,4 +246,4 @@ terminal speed
 equal to the other forces acting on the object (such as gravity), so that the
 acceleration of the object is zero
 
-</div>
+</div>

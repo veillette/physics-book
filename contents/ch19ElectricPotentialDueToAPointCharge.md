@@ -76,9 +76,7 @@ Entering known values into the expression for the potential of a point charge,
 we obtain
 
 <div class="equation" >
- $$\begin{array}{lll}V& =& k\frac{Q}{r}\\ 
- V & =& \left( 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}\right)\left(\frac{-3.00 \times 10^{-9} \text{C}}{5.00 \times 10^{-2} \text{m}}\right)\\ 
- V & =& -539 \text{V} \text{.} \end{array} $$
+ $$\begin{array}{lll}V& =& k\frac{Q}{r}\\ V & =& \left( 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\text{C}}^{2}\right)\left(\frac{-3.00 \times 10^{-9} \text{C}}{5.00 \times 10^{-2} \text{m}}\right)\\ V & =& -539 \text{V} \text{.} \end{array} $$ 
 </div>
 **Discussion**
 
@@ -111,9 +109,7 @@ can thus determine the excess charge using the equation
 Solving for $$Q $$ and entering known values gives
 
 <div class="equation" >
- $$\begin{array}{lll}Q& =& \frac{r V}{k}\\ 
- Q& =& \frac{\left( 0.125 \text{m}\right)\left(100 \times 10^{3}  \text{V}\right)}{ 8.99 \times 10^{9}  \text{N}·{\text{m}}^{2}/{\text{C}}^{2}}\\ 
- Q & =& 1.39 \times 10^{-6} \text{C}=1.39 \text{µC.}\end{array} $$
+ $$\begin{array}{lll}Q& =& \frac{r V}{k}\\ Q& =& \frac{\left( 0.125 \text{m}\right)\left(100 \times 10^{3} \text{V}\right)}{ 8.99 \times 10^{9} \text{N}·{\text{m}}^{2}/{\text{C}}^{2}}\\ Q & =& 1.39 \times 10^{-6} \text{C}=1.39 \text{µC.}\end{array} $$ 
 </div>
 **Discussion**
 
@@ -655,4 +651,4 @@ This problem illustrates the importance of recognizing when relativistic mechani
 **(c) The assumption of classical mechanics fails here. Relativistic mechanics must be used when particles approach the speed of light. The 25 MeV kinetic energy far exceeds the electron's rest energy of 0.511 MeV.**
 
 </div>
-</div>
+</div>

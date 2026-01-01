@@ -69,10 +69,10 @@ car from slipping (see [Figure 2](#Figure2)).
 We know that $$ F\_{\text{c}}=\frac{ m v^{2} }{r} $$. Thus,
 
 <div class="equation">
-$$ F_{\text{c}}=\frac{m v^{2}}{r}
+$$ F_{\text{c}}=\frac{m v^{2}}{r} $$
 =\frac{ \left( 900 \kg \right)
 \left(25.0 \ms \right)^{2}}
-{\left(500 \m \right)}=1125 \N . $$
+{\left(500 \m \right)}=1125 \N . $$ $$
 </div>
 
 **Strategy for (b)**
@@ -93,14 +93,10 @@ Now we have a relationship between centripetal force and the coefficient of fric
 Using the first expression for $$ F_{\text{c}} $$
  from the equation
 <div class="equation">
-$$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 {F}_{\text{c}}&=&m\frac{ v^{2}}{r}\\
 {F}_{\text{c}}&=& mr \omega^{2}
-\end{array}, $$
-</div>
-
-<div class="equation">
- $$ m\frac{ v^{2}}{r}=\mu_{\s}mg . $$
+\end{array}, $$ </div> <div class="equation"> $$ m\frac{ v^{2}}{r}=\mu_{\s}mg . $$ $$
 </div>
 
 We solve this for $$ \mu\_{\s}$$, noting that mass cancels, and obtain
@@ -114,8 +110,7 @@ $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
 Substituting the knowns,
 
 <div class="equation">
-$$ \mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500
-\m \right)\left(9.80 \mss \right)}=0.13. $$
+$$ \mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500 \m \right)\left(9.80 \mss \right)}=0.13. $$ 
 </div>
 (Because
 coefficients of friction are approximate, the answer is given to only two
@@ -191,10 +186,10 @@ expression for $$ \theta $$, as desired. Solving the second equation for $$ N=mg
 </div>
 
 <div class="equation">
- $$ \begin{array}{rrr}
+$$ \begin{array}{rrr} $$
 mg \tan\left(\theta \right)&=& \frac{ mv^{2}}{r}\\
 \tan{\theta} &=& \frac{ v^{2}}{rg} .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 Taking the inverse tangent gives
@@ -240,10 +235,10 @@ we get
 Noting that $$\tan{65.0^\circ } = 2.14 $$, we obtain
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v&=& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
 v&=& 45.8 \ms .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -279,13 +274,13 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
 which can also be expressed as
 
   <div class="equation">
-  $$  \begin{array}{c}
+$$  \begin{array}{c} $$
    F_{\text{c}}=m\frac{ v^{2}}{r}\\
  \begin{array}{}
    \text{or}\\
   F_{\text{c}}=mr \omega^{2}
  \end{array}
- \end{array} $$
+\end{array} $$ $$
   </div>
 
 ### Conceptual Questions
@@ -950,4 +945,4 @@ banked curve
 : the curve in a road that is sloping in a manner that helps a vehicle negotiate
 the curve
 
-</div>
+</div>

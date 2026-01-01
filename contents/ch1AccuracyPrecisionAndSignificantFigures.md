@@ -74,8 +74,7 @@ is, you are indicating that the actual mileage of your car might be as low as 44
 500 miles or as high as 45 500 miles, or anywhere in between. All measurements
 contain some amount of uncertainty. In our example of measuring the length of
 the paper, we might say that the length of the paper is 11 in., plus or minus
-0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta A $$ (“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm
-\delta A $$. In our paper example, the length of the paper could be expressed as $$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
+0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta A $$ (“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm \delta A $$. In our paper example, the length of the paper could be expressed as $$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
 measurement include:
 
 1. Limitations of the measuring device,
@@ -287,8 +286,7 @@ significant figures the area has if the radius has only two—say, $$ r=1.2\m $$
 Then,
 
 <div class="equation">
-  $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times  \left(1.2\m  \right)^{2}
-=4.5238934 \mm  $$
+ $$ A=\pi r^{2}=\left(3.1415927 \dots \right) \times \left(1.2\m \right)^{2} =4.5238934 \mm $$ 
 </div>
 
 is what you would get using a calculator that has an eight-digit output. But
@@ -311,7 +309,7 @@ potatoes do you now have, and how many significant figures are appropriate in
 the answer? The mass is found by simple addition and subtraction:
 
 <div class="equation">
- $$
+$$ $$
 \eqalign{
 7 & . & 56 \kg \\
 -6 & . & 052 \kg \\
@@ -319,7 +317,7 @@ the answer? The mass is found by simple addition and subtraction:
  \hline
 15 & . & 208 \kg  \rightarrow  15.2 \kg
 }
- $$
+$$ $$
 </div>
 
 Next, we identify the least precise measurement: 13.7 kg. This measurement is
@@ -337,7 +335,7 @@ figures, the answer will also have fewer significant figures. Care is also taken
 that the number of significant figures is reasonable for the situation posed. In
 some topics, particularly in optics, more accurate numbers are needed and more
 than three significant figures will be used. Finally, if a number is **exact**,
-such as the two in the formula for the circumference of a circle, $$ c=2\pi r $$
+such as the two in the formula for the circumference of a circle, $$ c=2\pi r $$
 
 , it does not affect the number of significant figures in a calculation.
 
@@ -1233,4 +1231,4 @@ uncertainty
 : a quantitative measure of how much your measured values deviate from a
 standard or expected value
 
-</div>
+</div>

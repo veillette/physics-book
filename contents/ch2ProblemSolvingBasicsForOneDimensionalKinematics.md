@@ -135,11 +135,11 @@ does it have the wrong sign, improper units, …? In this case, you may need to
 convert meters per second into a more familiar unit, such as miles per hour.
 
 <div class="equation">
- $$ \left(\frac{40 \m }{\s}\right)
+$$ \left(\frac{40 \m }{\s}\right) $$
 \left(\frac{3.28 \text{ft}}{\m}\right)
 \left(\frac{1 \text{mi}}{5280 \text{ft}}\right)
 \left(\frac{60 \s }{\text{min}}\right)
-\left(\frac{60 \text{min}}{1 \text{h}}\right)=89 \text{mph} $$
+\left(\frac{60 \text{min}}{1 \text{h}}\right)=89 \text{mph} $$ $$
 </div>
 
 This velocity is about four times greater than a person can run—so it is too

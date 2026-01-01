@@ -116,8 +116,7 @@ solving for force and end up with units of m/s, then you have made a mistake.
      draw them on the free-body diagram.
   3. Write Newton’s second law in the horizontal and vertical directions and
      add the forces acting on the object. If the object does not accelerate in
-     a particular direction (for example, the $$ x $$ -direction) then $$ F_ {\text{net}x}=0 $$. If the object does accelerate in that direction, $$
-     F_{\text{net}x}=ma $$.
+ a particular direction (for example, the $$ x $$ -direction) then $$ F_ {\text{net}x}=0 $$. If the object does accelerate in that direction, $$ F_{\text{net}x}=ma $$. 
   4. Check your answer. Is the answer reasonable? Are the units correct?
 
 ### Problem Exercises
@@ -723,7 +722,7 @@ in [Figure below](#Figure5). Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
 unspecified; it will be in the opposite direction of the sum of
 
-\vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
+\vb{F}_{1} $$ and $$ \vb{F}_{2} $$. $$
 
 </div>
 <div class="solution" markdown="1">
@@ -1189,7 +1188,7 @@ children.
 
 __Unreasonable Results__
 
-(a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss $$
+(a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss $$
 
 is produced.
 (b) What is unreasonable about the result?
@@ -1251,8 +1250,7 @@ Negative friction is physically impossible—friction always opposes relative mo
 
 __Unreasonable Results__
 
-(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00
-\times 10^{6}\N $$ ? Do not neglect gravity.
+(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00 \times 10^{6}\N $$ ? Do not neglect gravity. 
 (b) What is unreasonable about the result? (This result has been unintentionally
 achieved by several real rockets.)
 (c) Which premise is unreasonable, or which premises are inconsistent? (You may
@@ -1319,4 +1317,4 @@ This problem illustrates a real failure mode that has occurred with actual rocke
 (c) The thrust of 2.00 × 10⁶ N is unreasonably small. It's only 14% of the rocket's weight, far below the minimum needed for liftoff (1.47 × 10⁷ N).
 
 </div>
-</div>
+</div>

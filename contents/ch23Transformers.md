@@ -139,9 +139,7 @@ $${I}\_{\text{s}} $$ and entering known values. This gives
 As expected, the current output is significantly less than the input. In certain
 spectacular demonstrations, very large voltages are used to produce long arcs,
 but they are relatively safe because the transformer output does not supply a
-large current. Note that the power input here is $${P}_{\text{p}}={I}_ {\text{p}}{V}_{\text{p}}=\left( 10.00 \text{A}\right)\left(120 \text{V}\right)= 1.20 \text{kW} $$ . This equals the power output $${P}_{\text{p}}={I}_
-{\text{s}}{V}_{\text{s}}=\left( 12.0 \text{mA}\right)\left(100 \text{kV}\right)=
-1.20 \text{kW} $$ , as we assumed in the derivation of the equations used.
+large current. Note that the power input here is $${P}_{\text{p}}={I}_ {\text{p}}{V}_{\text{p}}=\left( 10.00 \text{A}\right)\left(120 \text{V}\right)= 1.20 \text{kW} $$ . This equals the power output $${P}_{\text{p}}={I}_ {\text{s}}{V}_{\text{s}}=\left( 12.0 \text{mA}\right)\left(100 \text{kV}\right)= 1.20 \text{kW} $$ , as we assumed in the derivation of the equations used. 
 
 </div>
 
@@ -699,4 +697,4 @@ step-up transformer
 step-down transformer
 : a transformer that decreases voltage
 
-</div>
+</div>

@@ -44,9 +44,7 @@ of induction without the sign:
  $$\text{emf}=N\frac{\Delta \Phi }{\Delta t}\text{.} $$
 </div>
 
-Here and below, “emf” implies the magnitude of the emf. In this equation, $$N=1 $$ and the flux $$\Phi =BA \cos \theta $$ . We have $$\theta =0º $$ and $$\cos
-\theta =1 $$ , since $$B $$ is perpendicular to $$A $$ . Now $$\Delta \Phi
-=\Delta \left(BA\right)=B\Delta A $$ , since $$B $$ is uniform. Note that the area swept out by the rod is $$\Delta A=\ell \Delta x $$ . Entering these
+Here and below, “emf” implies the magnitude of the emf. In this equation, $$N=1 $$ and the flux $$\Phi =BA \cos \theta $$ . We have $$\theta =0º $$ and $$\cos \theta =1 $$ , since $$B $$ is perpendicular to $$A $$ . Now $$\Delta \Phi =\Delta \left(BA\right)=B\Delta A $$ , since $$B $$ is uniform. Note that the area swept out by the rod is $$\Delta A=\ell \Delta x $$ . Entering these
 quantities into the expression for **emf** yields
 
 <div class="equation" >
@@ -685,4 +683,4 @@ This illustrates a fundamental trade-off: the tethered satellite can generate su
 (d) For a week-long mission, $$\Delta v \approx 60$$ m/s (about 0.8% of orbital velocity). This velocity decrease would cause orbital decay, requiring the shuttle to use additional fuel to maintain altitude. The long-term consequence is that the electrical energy generated comes at the cost of orbital energy, making sustained operation impractical without continuous propulsion to compensate.
 
 </div>
-</div>
+</div>

@@ -163,7 +163,7 @@ This calculation is the same as the one finding the acceleration due to gravity
 at Earth’s surface, except that $$ r $$ is the distance from the center of Earth
 to the center of the Moon. The radius of the Moon’s nearly circular orbit is
 
-3.84 \times 10^{8}\m $$.
+3.84 \times 10^{8}\m $$. $$
 
 **Solution for (a)**
 
@@ -171,10 +171,10 @@ Substituting known values into the expression for $$ g $$ found above,
 remembering that $$ M $$ is the mass of Earth not the Moon, yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 g&=& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
 g&=& 2.70 \times 10^{-3}\mss .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Strategy for (b)**
@@ -182,12 +182,12 @@ g&=& 2.70 \times 10^{-3}\mss .
 Centripetal acceleration can be calculated using either form of
 
 <div class="equation">
- $$
+$$ $$
 \left.
 \begin{array}{lll}
 \ac&=&\frac{ v^{2}}{r}\\
 \ac&=&r \omega^{2}
-\end{array}\right\}. $$
+\end{array}\right\}. $$ $$
 </div>
 We choose to use the second form:
 
@@ -202,22 +202,20 @@ Given that the period (the time it takes to make one complete rotation) of the
 Moon’s orbit is 27.3 days, (d) and using
 
 <div class="equation">
- $$ 1 d \times 24\frac{ \text{hr}}{\text{d}}\times 60\frac{min}{\text{hr}}\times 60\frac{s}{\text{min}}=
-86 400 \s $$
+ $$ 1 d \times 24\frac{ \text{hr}}{\text{d}}\times 60\frac{min}{\text{hr}}\times 60\frac{s}{\text{min}}= 86 400 \s $$ 
 </div>
 we see that
 
 <div class="equation">
- $$ \omega =\frac{ \Delta \theta }{\Delta t}=\frac{2\pi \text{rad}}{\left(27.3 \text{d}\right)
-\left(86 400 \text{s/d}\right)}=2.66 \times 10^{-6}\frac{ \text{rad}}{\s}. $$
+ $$ \omega =\frac{ \Delta \theta }{\Delta t}=\frac{2\pi \text{rad}}{\left(27.3 \text{d}\right) \left(86 400 \text{s/d}\right)}=2.66 \times 10^{-6}\frac{ \text{rad}}{\s}. $$ 
 </div>
 The centripetal acceleration is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \ac &=& r \omega^{2}=\left(3.84 \times 10^{8}\m \right)\left(2.66 \times 10^{-6}\rads \right)^{2}\\
 \ac &=& 2.72\times 10^{-3} \mss .
-\end{array} $$
+\end{array} $$ $$
 </div>
 The direction of the acceleration is toward the center of the Earth.
 
@@ -1090,4 +1088,4 @@ along a line joining them; the force is directly proportional to the product of
 their masses and inversely proportional to the square of the distance between
 them
 
-</div>
+</div>

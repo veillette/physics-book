@@ -93,9 +93,7 @@ We are given that $$\lambda =550 \text{nm} $$ , $$m=2 $$ , and $${\theta }_ {2}=
 $$D $$ and substituting known values gives
 
 <div class="equation" >
- $$\begin{array}{lll}D& =& \frac{\m \lambda}{ \sin {\theta }_{2}}=\frac{2\left(550 \text{nm}\right)}{\sin 45.0\text{º}}\\ 
- D & =& \frac{1100 \times 10^{-9} \text{m}}{0.707}\\ 
- D & =&  1.56 \times 10^{-6} \text{m} .\end{array} $$
+ $$\begin{array}{lll}D& =& \frac{\m \lambda}{ \sin {\theta }_{2}}=\frac{2\left(550 \text{nm}\right)}{\sin 45.0\text{º}}\\ D & =& \frac{1100 \times 10^{-9} \text{m}}{0.707}\\ D & =& 1.56 \times 10^{-6} \text{m} .\end{array} $$ 
 </div>
 **Solution for (b)**
 
@@ -964,4 +962,4 @@ destructive interference for a single slit
 width, $$\lambda $$ is the light’s wavelength, $$\theta $$ is the angle relative
 to the original direction of the light, and $$m $$ is the order of the minimum
 
-</div>
+</div>

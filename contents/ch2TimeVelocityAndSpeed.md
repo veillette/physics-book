@@ -62,8 +62,7 @@ the start of the lecture and 50 min at the end. If $$ t_{0}=0 $$, then $$ \Delta
 
 In this text, for simplicity’s sake,
 
-- motion starts at time equal to zero $$ \left(t\_ {0}=0\right) $$ - the symbol $$ t $$ is used for elapsed time unless otherwise specified $$
-  \left(\Delta t=t_{f}\equiv t\right) $$
+- motion starts at time equal to zero $$ \left(t\_ {0}=0\right) $$ - the symbol $$ t $$ is used for elapsed time unless otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$ 
 
 ### Velocity
 
@@ -83,8 +82,7 @@ of travel_,
 <div class="equation">
  $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{f}-x_{0}}{ t_{f}-t_{0}}, $$
 </div>
-where $$ \overline{v} $$ is the *average* (indicated by the bar over the $$ v $$) velocity, $$ \Delta x $$ is the change in position (or displacement), and $$ x_{f} $$ and $$ x_{0} $$ are the final and beginning positions at times $$ t_{f}
-$$ and $$ t_{0} $$, respectively. If the starting time $$ t_{0} $$ is taken to
+where $$ \overline{v} $$ is the *average* (indicated by the bar over the $$ v $$) velocity, $$ \Delta x $$ is the change in position (or displacement), and $$ x_{f} $$ and $$ x_{0} $$ are the final and beginning positions at times $$ t_{f} $$ and $$ t_{0} $$, respectively. If the starting time $$ t_{0} $$ is taken to 
 be zero, then the average velocity is simply
 
 <div class="equation">
@@ -225,8 +223,7 @@ elapsed time is then just $$ t $$.
 - Average velocity $$ \overline{v} $$ is defined as displacement divided by the
 travel time. In symbols, average velocity is
   <div class="equation">
-    $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_
-{\text{f}}-t_{0}}. $$
+ $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_ {\text{f}}-t_{0}}. $$ 
   </div>
 
 - The SI unit for velocity is m/s.
@@ -908,4 +905,4 @@ the physics of a physical situation
 elapsed time
 : the difference between the ending time and beginning time
 
-</div>
+</div>

@@ -94,10 +94,10 @@ orbiting at an average altitude of 1500 km above Earth’s surface.
 The period, or time for one orbit, is related to the radius of the orbit by
 Kepler’s third law, given in mathematical form in $$ \frac{ T_{1}^{2}}{ T_ {2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}} $$. Let us use the subscript 1 for the
 Moon and the subscript 2 for the satellite. We are asked to find $$ T_{2} $$.
-The given information tells us that the orbital radius of the Moon is $$ r_ {1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3
+The given information tells us that the orbital radius of the Moon is $$ r_ {1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3 $$
 \text{d} $$. The height of the artificial satellite above Earth’s surface is given, and so we must add the radius of Earth (6380 km) to get $$ r_{2}=\left(
 1500 +6380 \right)
-\text{km}=7880 \text{km} $$. Now all quantities are known, and so $$ T\_{2} $$
+\text{km}=7880 \text{km} $$. Now all quantities are known, and so $$ T\_{2} $$ $$
 can be found.
 
 **Solution**
@@ -118,12 +118,12 @@ To solve for $$ T_{2} $$, we cross-multiply and take the square root, yielding
 Substituting known values yields
 
 <div class="equation">
- $$ \begin{array}{lll} 
+$$ \begin{array}{lll} $$
 T_{2}&=& 27.3 \text{d} \times
 \frac{24.0 \text{h}}{\text{d}}
 \times {\left(\frac{7880 \text{km}}{3.84\times 10^{5}\text{km}}\right)}^{3/2}\\
 T_{2}&=& 1.93 \text{h} .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion** This is a reasonable period for a satellite in a fairly low
@@ -783,4 +783,4 @@ its center of mass. Your instructor may also wish to have you calculate the
 escape velocity from this point on Eros.
 
 </div>
-</div>
+</div>

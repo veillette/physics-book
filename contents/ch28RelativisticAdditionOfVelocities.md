@@ -109,11 +109,11 @@ light approaches the Earth using relativistic velocity addition.
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
+$$\begin{array}{lll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500c+c}{1+\frac{\left(0.500c\right)\left(c\right)}{
    {c}^{2}}}\\ & =& \frac{\left(0.500+1\right)c}{1+\frac{0.500{c}^{2}}{
    {c}^{2}}}\\ & =& \frac{1.500c}{1+0.500}\\ & =& \frac{1.500c}{1.500}\\ & =&
-   c\end{array} $$
+c\end{array} $$ $$
    </div>
 
 **Discussion**
@@ -153,10 +153,10 @@ relativistic velocity addition instead of simple velocity addition.
 3. Choose the appropriate equation. $$u=\frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
+$$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500\text{c +}0.750c}{1+\frac{\left(0.500c\right)
    \left(0.750c\right)}{ {c}^{2}}}\\ & =& \frac{1.250c}{1+0.375}\\ & =&
-   0.909c\end{array} $$
+0.909c\end{array} $$ $$
    </div>
 
 **Solution for (b)**
@@ -166,10 +166,10 @@ relativistic velocity addition instead of simple velocity addition.
 3. Choose the appropriate equation. $$\text{u}=\frac{\mathrm{v+u}\prime }{1+\frac{v u^{\prime} }{ {c}^{2}}} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{
+$$\begin{array}{ll}u& =& \frac{\mathrm{v+u}\prime }{1+\frac{vu^{\prime}}{ $$
    {c}^{2}}}\\ & =& \frac{0.500\mathrm{c +}\left(-0.750c\right)}{1+\frac{\left(
    0.500c\right)\left(-0.750c\right)}{ {c}^{2}}}\\ & =&
-   \frac{-0.250c}{1-0.375}\\ & =& -0.400c\end{array} $$
+\frac{-0.250c}{1-0.375}\\ & =& -0.400c\end{array} $$ $$
    </div>
 
 **Discussion**
@@ -242,15 +242,15 @@ the classical Doppler shift.
 
 1. Identify the knowns. $$u= 0.825c $$ ; $${\lambda }_{s}= 0.525 \text{m} $$
 2. Identify the unknown. $${\lambda }_{\text{obs}} $$
-3. Choose the appropriate equation. $${\lambda }_{\text{obs}}=\lambda_
+3. Choose the appropriate equation. $${\lambda }_{\text{obs}}=\lambda_ $$
    {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}
 
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_
+$$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_ $$
    {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}\\ & =& \left(0.525 m\right)
    \sqrt{\frac{1+\frac{ 0.825\text{c}}{c}}{1-\frac{ 0.825\text{c}}{c}}}\\ & =&
-   1.70 \text{m} \text{.} \end{array} $$
+1.70 \text{m} \text{.} \end{array} $$ $$
    </div>
 
 **Discussion**
@@ -997,4 +997,4 @@ described by the equation
    $${\lambda }_{s} $$ is the source wavelength, and
    $$u $$ is the velocity of the source to the observer
 
-</div>
+</div>

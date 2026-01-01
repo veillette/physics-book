@@ -32,8 +32,7 @@ uncertainty in position | | $${\epsilon }_{0} $$ | permittivity of free space |
 | $$\eta $$ | viscosity | | $$\theta $$ | angle between the force vector and the
 displacement vector | | $$\theta $$ | angle between two lines | | $$\theta $$ |
 contact angle | | $$\theta $$ | direction of the resultant | | $${\theta }_{b} $$ | Brewster\'s angle | | $${\theta }_{c} $$ | critical angle | | $$\kappa $$ |
-dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_
-{0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | |
+dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_ {0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | | 
 $${\nu}_{e} $$ | electron neutrino | | $${\pi }^{+} $$ | positive pion | |
 $${\pi }^{-} $$ | negative pion | | $${\pi }^{0} $$ | neutral pion | | $$\rho $$
 | density | | $${\rho }_{\text{c} } $$ | critical density, the density needed to
@@ -95,8 +94,7 @@ green quark color | | $$\overline{G} $$ | antigreen (magenta) antiquark color |
 | $$g $$ | acceleration due to gravity | | $$g $$ | gluons (carrier particles
 for strong nuclear force) | | $$h $$ | change in vertical position | | $$h $$ |
 height above some reference point | | $$h $$ | maximum height of a projectile |
-| $$h $$ | Planck\'s constant | | $$ hf $$ | photon energy | | $${h}_{\text{i}} $$ | height of the image | | $${h}_{\text{o}} $$ | height of the object | | $$I
-$$ | electric current | | $$I $$ | intensity | | $$I $$ | intensity of a transmitted wave | | $$I $$ | moment of inertia (also called rotational inertia)
+| $$h $$ | Planck\'s constant | | $$ hf $$ | photon energy | | $${h}_{\text{i}} $$ | height of the image | | $${h}_{\text{o}} $$ | height of the object | | $$I $$ | electric current | | $$I $$ | intensity | | $$I $$ | intensity of a transmitted wave | | $$I $$ | moment of inertia (also called rotational inertia) 
 | | $${I}_{0} $$ | intensity of a polarized wave before passing through a filter
 | | $${I}_{\text{ave}} $$ | average intensity for a continuous sinusoidal
 electromagnetic wave | | $${I}_{\text{rms}} $$ | average current | | $$\text{J} $$ | joule | | $$J/\text{Ψ} $$ | Joules/psi meson | | $$\text{K} $$ | kelvin | |
@@ -134,9 +132,7 @@ Reynolds number | | $$\text{N}\cdot \text{m} $$ | newton-meter (work-energy
 unit) | | $$\text{N}\cdot \text{m} $$ | newtons times meters (SI unit of torque)
 | | $$\text{OE} $$ | other energy | | $$P $$ | power | | $$P $$ | power of a
 lens | | $$P $$ | pressure | | $$\vb{p} $$ | momentum | | $$p $$ |
-momentum magnitude | | $$p $$ | relativistic momentum | | $${\vb{p}}_ {\text{tot}} $$ | total momentum | | $${\vb{p}}_
-{\text{tot}}^{\text{'}} $$ | total momentum some time later | | $${P}_
-{\text{abs}} $$ | absolute pressure | | $${P}_{\text{atm}} $$ | atmospheric pressure | | $${P}_{\text{atm}} $$ | standard atmospheric pressure | |
+momentum magnitude | | $$p $$ | relativistic momentum | | $${\vb{p}}_ {\text{tot}} $$ | total momentum | | $${\vb{p}}_ {\text{tot}}^{\text{'}} $$ | total momentum some time later | | $${P}_ {\text{abs}} $$ | absolute pressure | | $${P}_{\text{atm}} $$ | atmospheric pressure | | $${P}_{\text{atm}} $$ | standard atmospheric pressure | | 
 $$\text{PE} $$ | potential energy | | $${\text{PE}}_{\text{el}} $$ | elastic
 potential energy | | $${\text{PE}}_{\text{elec}} $$ | electric potential energy
 | | $${\text{PE}}_{\text{s}} $$ | potential energy of a spring | | $${P}_ {\text{g}} $$ | gauge pressure | | $${P}_{\text{in}} $$ | power consumption or
@@ -175,14 +171,12 @@ velocity relative to another observer | | $$V $$ | electric potential | | $$V $$
 | terminal voltage | | $$\text{V} $$ | volt (unit) | | $$V $$ | volume | |
 $$\vb{v} $$ | relative velocity between two observers | | $$v $$ |
 speed of light in a material | | $$\vb{v} $$ | velocity | |
-$$\overline{\vb{v}} $$ | average fluid velocity | | $${V}_ {\text{B}}-{V}_{\text{A}} $$ | change in potential | | $${\vb{v}}_
-{\text{d}} $$ | drift velocity | | $${V}_{\text{p}} $$ | transformer input voltage | | $${V}_{\text{rms}} $$ | rms voltage | | $${V}_{\text{s}} $$ |
+$$\overline{\vb{v}} $$ | average fluid velocity | | $${V}_ {\text{B}}-{V}_{\text{A}} $$ | change in potential | | $${\vb{v}}_ {\text{d}} $$ | drift velocity | | $${V}_{\text{p}} $$ | transformer input voltage | | $${V}_{\text{rms}} $$ | rms voltage | | $${V}_{\text{s}} $$ | 
 transformer output voltage | | $${\vb{v}}_{\text{tot}} $$ | total
 velocity | | $${v}_{\text{w}} $$ | propagation speed of sound or other wave | |
 $${\vb{v}}_{\text{w}} $$ | wave velocity | | $$W $$ | work | | $$W $$
 | net work done by a system | | $$\text{W} $$ | watt | | $$w $$ | weight | |
-$${w}_{\text{fl}} $$ | weight of the fluid displaced by an object | | $${W}_ {\text{c}} $$ | total work done by all conservative forces | | $${W}_{\text{nc}}
-$$ | total work done by all nonconservative forces | | $${W}_{\text{out}} $$ | useful work output | | $$X $$ | amplitude | | $$\text{X} $$ | symbol for an
+$${w}_{\text{fl}} $$ | weight of the fluid displaced by an object | | $${W}_ {\text{c}} $$ | total work done by all conservative forces | | $${W}_{\text{nc}} $$ | total work done by all nonconservative forces | | $${W}_{\text{out}} $$ | useful work output | | $$X $$ | amplitude | | $$\text{X} $$ | symbol for an 
 element | | $${ }^{Z}{X}_{N} $$ | notation for a particular nuclide | | $$x $$ |
 deformation or displacement from equilibrium | | $$x $$ | displacement of a
 spring from its undeformed position | | $$x $$ | horizontal axis | | $${X}_ {\text{C}} $$ | capacitive reactance | | $${X}_{\text{L}} $$ | inductive

@@ -759,7 +759,7 @@ The time required is $$1.73 \times 10^{-2}$$ s or 17.3 ms.
 If you wish to take a picture of a bullet traveling at 500 m/s, then a very
 brief flash of light produced by an $$\text{RC} $$ discharge through a flash
 tube can limit blurring. Assuming 1.00 mm of motion during one $$\text{RC} $$
-constant is acceptable, and given that the flash is driven by a $$600 \text{-μF} $$
+constant is acceptable, and given that the flash is driven by a $$600 \text{-μF} $$
 
 capacitor, what is the resistance in the flash tube?
 
@@ -858,4 +858,4 @@ capacitance
 : the maximum amount of electric potential energy that can be stored (or
 separated) for a given electric potential
 
-</div>
+</div>

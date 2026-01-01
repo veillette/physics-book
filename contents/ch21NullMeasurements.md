@@ -339,4 +339,4 @@ Wheatstone bridge
 : a null measurement device for calculating resistance by balancing potential
 drops in a circuit
 
-</div>
+</div>

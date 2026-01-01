@@ -105,8 +105,7 @@ b) considers the wave interference material of [Wave Optics](../contents/ch27Wav
 
 **Solution for (a)**
 
-**Hydrogen spectrum wavelength**. The Balmer series requires that $${n}_ {\text{f}}=2 $$ . The first line in the series is taken to be for $${n}_
-{\text{i}}=3 $$ , and so the second would have $${n}_{\text{i}}=4 $$. The calculation is a straightforward application of the wavelength equation. Entering the determined values for $${n}_{\text{f}} $$ and $${n}_{\text{i}} $$
+**Hydrogen spectrum wavelength**. The Balmer series requires that $${n}_ {\text{f}}=2 $$ . The first line in the series is taken to be for $${n}_ {\text{i}}=3 $$ , and so the second would have $${n}_{\text{i}}=4 $$. The calculation is a straightforward application of the wavelength equation. Entering the determined values for $${n}_{\text{f}} $$ and $${n}_{\text{i}} $$
 yields
 
 <div class="equation" >
@@ -1414,7 +1413,7 @@ This remarkably small average percentage difference (only about 0.03%) demonstra
 
 hydrogen spectrum wavelengths
 : the wavelengths of visible light from hydrogen; can be calculated by
-$$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_
+$$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_ $$
 {\text{i}}^{2}}\right)
 
 Rydberg constant
@@ -1439,8 +1438,8 @@ hydrogen-like atom
 energies of hydrogen-like atoms
 : Bohr formula for energies of electron states in hydrogen-like atoms:
 
-$$
+$$ $$
 {E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1 \text{, 2, 3,} \dots
 \right)
 
-</div>
+</div>

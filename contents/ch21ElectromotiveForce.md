@@ -306,8 +306,7 @@ circuit with the emfs in opposition, then a current of magnitude
 $$I=\frac{\left({\text{emf}}_{1}-{\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}} $$
 flows. See [[Figure 10]](#Figure10), for example, which shows a circuit exactly
 analogous to the battery charger discussed above. If two voltage sources in
-series with emfs in the same sense are connected to a load $${R}_{\text{load}} $$ , as in [[Figure 11]](#Figure11), then $$I=\frac{\left({\text{emf}}_{1}+
-{\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}+{R}_{\text{load}}} $$ flows.
+series with emfs in the same sense are connected to a load $${R}_{\text{load}} $$ , as in [[Figure 11]](#Figure11), then $$I=\frac{\left({\text{emf}}_{1}+ {\text{emf}}_{2}\right)}{ {r}_{1}+ {r}_{2}+{R}_{\text{load}}} $$ flows. 
 
 ![The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.](../resources/Figure_21_02_10.jpg 'These two voltage sources are connected in series with their emfs in opposition. Current flows in the direction of the greater emf and is limited to ( I=  ( \\text{emf}_1 - \\text{emf}_2 )/(r_1+r_2) ) by the sum of the internal resistances. (Note that each emf is represented by script E in the figure.) A battery charger connected to a battery is an example of such a connection. The charger must have a larger emf than the battery to reverse current through it.')
 {: #Figure10}
@@ -976,4 +975,4 @@ circuit, measured in volts
 terminal voltage
 : the voltage measured across the terminals of a source of potential difference
 
-</div>
+</div>

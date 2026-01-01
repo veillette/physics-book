@@ -99,10 +99,10 @@ rest energy.
 3. Choose the appropriate equation. $${E}_{0}=mc^{2} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{lll}{E}_{0}& =& mc^{2}=\left( 1.00 \times 10^{-3}
+$$\begin{array}{lll}{E}_{0}& =& mc^{2}=\left( 1.00 \times 10^{-3} $$
    \text{kg}\right) { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}\\ & =&
    9.00 \times 10^{13} \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}\end{array}
-   $$
+$$ $$
    </div>
 
 5. Convert units. Noting that $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1 \text{J} $$ , we see the rest mass energy is
@@ -176,21 +176,21 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
 <strong>Solution for (a) </strong>
 
 1. Identify the knowns. $$I\cdot t=600 \text{A}\cdot \text{h} $$ ; $$V= 12.0 \text{V} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$ 2. Identify the unknown. $$\Delta m $$
-3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ 4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{
+3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ 4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{ $$
    {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$ 5. Plug the knowns into the equation. <div class="equation" > $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
    {c}^{2}}\\ & =& \frac{qV}{ {c}^{2}}\\ & =& \frac{\left(It\right)V}{
    {c}^{2}}\\ & =& \frac{\left(600 \text{A}\cdot \text{h}\right)\left(12.0
    \text{V}\right)}{ {\left( 3.00 \times 10^{8} \right)}^{2}}\text{.}\end{array}
-   $$
+$$ $$
    </div>
 
    Write amperes A as coulombs per second (C/s), and convert hours to seconds.
 
     <div class="equation" >
-     $$\begin{array}{lll}
+$$\begin{array}{lll} $$
     \Delta m& =& \frac{600 \text{C/s}\cdot \text{h} \left( \frac{3600 \text{s}}{1 \text{h}} \right) \left(12.0 \text{J/C}\right) }
     { { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\\ 
-    & =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$
+& =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$ $$
     </div>
 
    Using the conversion $$1 \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}=1 \text{J} $$, we can write the mass as
@@ -204,9 +204,7 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
 3. Choose the appropriate equation. $$ \text{\% increase}=\frac{\Delta m}{m}×100 \% $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{lll}\text{\% increase}& =& \frac{\Delta m}{m}×100 \%\\ & =&
-   \frac{ 2.88 \times 10^{-10} \text{kg}}{20.0 \text{kg}}×100 \%\\ & =& 1.44
-   \times 10^{-9} \%\text{.}\end{array} $$
+ $$\begin{array}{lll}\text{\% increase}& =& \frac{\Delta m}{m}×100 \%\\ & =& \frac{ 2.88 \times 10^{-10} \text{kg}}{20.0 \text{kg}}×100 \%\\ & =& 1.44 \times 10^{-9} \%\text{.}\end{array} $$ 
    </div>
 
 **Discussion**
@@ -294,8 +292,7 @@ So, in fact, relativistic kinetic energy does become the same as classical
 kinetic energy when $$v \ll c $$.
 
 It is even more interesting to investigate what happens to kinetic energy when
-the velocity of an object approaches the speed of light. We know that $$\gamma $$ becomes infinite as $$v $$ approaches $$c $$ , so that $$ \text{KE}\_
-\text{rel} $$ also becomes infinite as the velocity approaches the speed of
+the velocity of an object approaches the speed of light. We know that $$\gamma $$ becomes infinite as $$v $$ approaches $$c $$ , so that $$ \text{KE}\_ \text{rel} $$ also becomes infinite as the velocity approaches the speed of 
 light. (See [[Figure 3]](#Figure3).) An infinite amount of work (and, hence, an
 infinite amount of energy input) is required to accelerate a mass to the speed
 of light.
@@ -353,9 +350,7 @@ and see that it is not the same.
 
 5. Convert units.
    <div class="equation" >
-   $$\begin{array}{lll}{\text{KE}}_{\text{rel}}& =& \left(4.99 \times 10^{-13}
-   \text{J}\right)\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13}
-   \text{J}}\right)\\ & =& 3.12 \text{MeV}\end{array} $$
+ $$\begin{array}{lll}{\text{KE}}_{\text{rel}}& =& \left(4.99 \times 10^{-13} \text{J}\right)\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13} \text{J}}\right)\\ & =& 3.12 \text{MeV}\end{array} $$ 
    </div>
 
 **Solution for (b)**
@@ -365,16 +360,12 @@ and see that it is not the same.
 3. Choose the appropriate equation. $${\text{KE}}_ {\text{class}}=\frac{1}{2}mv^{2} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& \frac{1}{2}mv^{2}\\ 
-   & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right){\left(0.990 \right)}^{2}{\left(  3.00 \times 10^{8} \text{m/s} \right) }^{2}\\ 
-   & =& 4.02 \times 10^{-14} \text{J}\end{array} $$
+ $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right){\left(0.990 \right)}^{2}{\left( 3.00 \times 10^{8} \text{m/s} \right) }^{2}\\ & =& 4.02 \times 10^{-14} \text{J}\end{array} $$ 
    </div>
 
 5. Convert units.
    <div class="equation" >
-   $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& 4.02 \times 10^{-14}
-   \text{J}\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13} \text{J}}\right)\\ &
-   =& 0.251 \text{MeV}\end{array} $$
+ $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& 4.02 \times 10^{-14} \text{J}\left(\frac{1 \text{MeV}}{1.60 \times 10^{-13} \text{J}}\right)\\ & =& 0.251 \text{MeV}\end{array} $$ 
    </div>
 
 **Discussion**
@@ -498,8 +489,7 @@ Answer
 - The relativistic work-energy theorem is $${W}_{\text{net}}=E-{E}_{0}=\gamma mc^{2}-mc^{2}=\left(\gamma -1\right)mc^{2} $$ .
 - Relativistically, $${W}_{\text{net}}={\text{KE}}_{\text{rel}} $$ , where
   $${\text{KE}}\_{\text{rel}} $$ is the relativistic kinetic energy.
-- Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
-  {c}^{2}}}} $$. At low velocities, relativistic kinetic energy reduces to
+- Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$. At low velocities, relativistic kinetic energy reduces to 
   classical kinetic energy.
 - **No object with mass can attain the speed of light** because an infinite
   amount of work and an infinite amount of energy input is required to
@@ -1753,4 +1743,4 @@ relativistic kinetic energy
 : the kinetic energy of an object moving at relativistic speeds:
 $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
 
-</div>
+</div>

@@ -113,8 +113,7 @@ Non-reflective coatings are used in car windows and sunglasses.
 
 Thin film interference is most constructive or most destructive when the path
 length difference for the two rays is an integral or half-integral wavelength,
-respectively. That is, for rays incident perpendicularly, $$2t={\lambda }_{n}, {2\lambda }_{n}, {3\lambda }_{n},\dots $$ or $$2t={\lambda }_{n}/2, {3\lambda }_
-{n}/2, {5\lambda }_{n}/2,\dots $$ . To know whether interference is constructive
+respectively. That is, for rays incident perpendicularly, $$2t={\lambda }_{n}, {2\lambda }_{n}, {3\lambda }_{n},\dots $$ or $$2t={\lambda }_{n}/2, {3\lambda }_ {n}/2, {5\lambda }_{n}/2,\dots $$ . To know whether interference is constructive 
 or destructive, you must also determine if there is a phase change upon
 reflection. Thin film interference thus depends on film thickness, the
 wavelength of light, and the refractive indices. For white light incident on a
@@ -1117,4 +1116,4 @@ Real stealth technology uses radar-absorbing materials (RAM) that are thin, inco
 thin film interference
 : interference between light reflected from different surfaces of a thin film
 
-</div>
+</div>

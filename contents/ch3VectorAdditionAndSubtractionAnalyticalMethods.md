@@ -41,7 +41,7 @@ $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$ \vb
 Note that this relationship between vector components and the resultant vector
 holds only for vector quantities (which include both magnitude and direction).
 The relationship does not apply for the magnitudes alone. For example, if $$ \vb{A}_{x}=3 \m $$ east, $$ \vb{A}_{y}=4 \m $$ north, and $$ \vb{A}=5 \m $$
-north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}\_{y} =\vb{A} $$
+north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}\_{y} =\vb{A} $$
 
 . However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That
@@ -119,7 +119,7 @@ hypotenuse. For example, if $$ A_{x} $$ and $$ A_{y} $$ are 9 and 5 blocks,
 respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is
 
-\theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
+\theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before. $$
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -216,7 +216,7 @@ Adding Vectors Using Analytical Methods
 Add the vector $$ \vb{A} $$ to the vector $$ \vb{B} $$
 shown in [Figure 8](#Figure8), using perpendicular
 components along the **x**- and **y**-axes. The **x**- and **y**-axes are along
-the east–west and north–south directions, respectively. Vector $$ \vb{A} represents the first leg of a walk in which a person walks $$ 53.0 \m  $$
+the east–west and north–south directions, respectively. Vector $$ \vb{A} represents the first leg of a walk in which a person walks $$ 53.0 \m  $$ $$
 in a direction $$ 20.0^\circ $$
 north of east. Vector $$ \vb{B} $$
 represents the second leg, a displacement of $$ 34.0 \m  $$
@@ -235,35 +235,35 @@ point. Once found, they are combined to produce the resultant.
 **Solution**
 
 Following the method outlined above, we first find the components of $$ \vb{A} $$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$ A=53.0 \m $$,
-$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_ {\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A\_
+$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_ {\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A\_ $$
 {x}=A\cos{\theta} $$, which gives <div class="equation"> $$ \begin{array}{lll}
 A_{x}&=& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
 A_{x}&=& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
-\end{array} $$
+\end{array} $$ $$
 </div>
 and
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 B_{x}&=& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
 B_{x}&=& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
-\end{array} $$
+\end{array} $$ $$
 </div>
 Similarly, the *y*-components are found using $$ A_{y}=A\sin{\theta_{A}} $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 A_{y}&=& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\\
 A_{y}&=& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
-\end{array} $$
+\end{array} $$ $$
 </div>
 and
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 B_{y}&=& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
 B_{y}&=&\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
-\end{array} $$
+\end{array} $$ $$
 </div>
 The **x**- and **y**-components of the resultant are thus
 
@@ -278,8 +278,7 @@ and
 Now we can find the magnitude of the resultant by using the Pythagorean theorem:
 
 <div class="equation">
- $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2} }=
-\sqrt{ \left( 65.2 \m  \right)^{2}+\left(48.4 \m  \right)^{2} } $$
+ $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2} }= \sqrt{ \left( 65.2 \m \right)^{2}+\left(48.4 \m \right)^{2} } $$ 
 </div>
 so that
 
@@ -359,17 +358,16 @@ Vector Addition
   horizontal and vertical components of each vector using the equations
 
   <div class="equation">
-    $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta}
-    \end{array} $$
+ $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta} \end{array} $$ 
   </div>
 
 and
 
   <div class="equation">
- $$ \begin{array}{lll} 
+$$ \begin{array}{lll} $$
 A_{y}&=& A\sin{\theta} \\ 
 B_{y}&=& B\sin{\theta} .
-\end{array} $$
+\end{array} $$ $$
   </div>
 
 Step 2: Add the horizontal and vertical components of each vector to determine
@@ -1389,4 +1387,4 @@ analytical method
 : the method of determining the magnitude and direction of a resultant vector
 using the Pythagorean theorem and trigonometric identities
 
-</div>
+</div>

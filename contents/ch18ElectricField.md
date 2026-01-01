@@ -96,9 +96,7 @@ Here $$Q= 2.00 \times 10^{-9} $$ C and $$r= 5.00 \times 10^{-3} $$ m. Entering
 those values into the above equation gives
 
 <div class="equation" >
- $$\begin{array}{lll}E& =& k\frac{Q}{ {r}^{2}}\\ 
-E & =& \left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)×\frac{\left( 2.00 \times 10^{-9}  \text{C}\right)}{ { \left( 5.00 \times 10^{-3}  \text{m} \right)}^{2}}\\ 
-E & =&  7.19 \times 10^{5}  \text{N/C} \text{.} \end{array} $$
+ $$\begin{array}{lll}E& =& k\frac{Q}{ {r}^{2}}\\ E & =& \left( 8.99 \times 10^{9} \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)×\frac{\left( 2.00 \times 10^{-9} \text{C}\right)}{ { \left( 5.00 \times 10^{-3} \text{m} \right)}^{2}}\\ E & =& 7.19 \times 10^{5} \text{N/C} \text{.} \end{array} $$ 
 </div>
 **Discussion**
 
@@ -127,8 +125,7 @@ The magnitude of the force on a charge $$q= -0.250 \text{μC} $$ exerted by a
 field of strength $$E= 7.20 \times 10^{5} $$ N/C is thus,
 
 <div class="equation" >
- $$\begin{array}{lll}F& =& -qE\\ & =& \left(0.250 \times 10^{-6} \text{C}\right)\left( 7.20 \times 10^{5}  \text{N/C}\right)\\
-F& =& 0.180 \text{N} \text{.} \end{array} $$
+ $$\begin{array}{lll}F& =& -qE\\ & =& \left(0.250 \times 10^{-6} \text{C}\right)\left( 7.20 \times 10^{5} \text{N/C}\right)\\ F& =& 0.180 \text{N} \text{.} \end{array} $$ 
 </div>
 Because  $$q $$  is negative, the force is directed opposite to the direction of the field.
 

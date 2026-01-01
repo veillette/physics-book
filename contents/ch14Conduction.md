@@ -247,13 +247,7 @@ temperature difference.
 1. Identify the knowns and convert them to the SI units. The thickness of the
    pan, $$d=0.800\text{cm}= 8.0 \times 10^{-3} \text{m} \text{,} $$
 
-   the area of the pan, $$A=\pi {\left(0.14/2 \right)}^{2} {\text{m}}^{2}= 1.54 \times 10^{-2} {\text{m}}^{2} $$ , and the thermal conductivity, $$k=220
-   \text{J/s}\cdot \text{m}\cdot ºC. $$
-
-2. Calculate the necessary heat of vaporization of 1 g of water:
-   <div class="equation">
-   $$Q=m L_{\text{v}}=\left( 1.00 \times 10^{-3} \text{kg}\right)\left(2256
-   \times 10^{3} \text{J/kg}\right)=2256\mathrm{ J.} $$
+ the area of the pan, $$A=\pi {\left(0.14/2 \right)}^{2} {\text{m}}^{2}= 1.54 \times 10^{-2} {\text{m}}^{2} $$ , and the thermal conductivity, $$k=220 \text{J/s}\cdot \text{m}\cdot ºC. $$ 2. Calculate the necessary heat of vaporization of 1 g of water: <div class="equation"> $$Q=m L_{\text{v}}=\left( 1.00 \times 10^{-3} \text{kg}\right)\left(2256 \times 10^{3} \text{J/kg}\right)=2256\mathrm{ J.} $$ 
    </div>
 
 3. Calculate the rate of heat transfer given that 1 g of water melts in one
@@ -264,10 +258,10 @@ temperature difference.
 
 4. Insert the knowns into the equation and solve for the temperature difference:
    <div class="equation">
-   $${T}_{2}-{T}_{1}=\frac{Q}{t}\left(\frac{d}{k_{B}A}\right)=\left(
+$${T}_{2}-{T}_{1}=\frac{Q}{t}\left(\frac{d}{k_{B}A}\right)=\left( $$
    2256\text{J/s}\right)\frac{ 8.00 × 10^{-3}\text{m}}{\left(220\text{J/s}\cdot
    \text{m}\cdot \text{ºC}\right)\left( 1.54 \times 10^{-2}
-   {\text{m}}^{2}\right)}= 5.33º\mathrm{C.} $$
+{\text{m}}^{2}\right)}= 5.33º\mathrm{C.} $$ $$
    </div>
 
 **Discussion**
@@ -1441,4 +1435,4 @@ rate of conductive heat transfer
 thermal conductivity
 : the property of a material’s ability to conduct heat
 
-</div>
+</div>

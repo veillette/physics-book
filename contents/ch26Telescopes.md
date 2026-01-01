@@ -604,4 +604,4 @@ angular magnification
 : a ratio related to the focal lengths of the objective and eyepiece and given
 as $$M=-\frac{ {f}_{\text{o}}}{ {f}_{\text{e}}} $$
 
-</div>
+</div>

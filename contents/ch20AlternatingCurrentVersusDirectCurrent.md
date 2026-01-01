@@ -114,9 +114,7 @@ which gives
 </div>
 
 as stated above. It is standard practice to quote $${I}_{\text{rms}} $$ , $${V}_ {\text{rms}} $$ , and $${P}_{\text{ave}} $$ rather than the peak values. For
-example, most household electricity is 120 V AC, which means that $${V}_ {\text{rms}} $$ ** is 120 V. The common 10-A circuit breaker will interrupt a sustained $${I}_
-{\text{rms}} $$ ** greater than 10 A. Your 1.0-kW microwave oven consumes $${P}_{\text{ave}}=1.0
-\text{kW} $$ , and so on. You can think of these rms and average values as the
+example, most household electricity is 120 V AC, which means that $${V}_ {\text{rms}} $$ ** is 120 V. The common 10-A circuit breaker will interrupt a sustained $${I}_ {\text{rms}} $$ ** greater than 10 A. Your 1.0-kW microwave oven consumes $${P}_{\text{ave}}=1.0 \text{kW} $$ , and so on. You can think of these rms and average values as the 
 equivalent DC values for a simple resistive circuit.
 
 To summarize, when dealing with AC, Ohm’s law and the equations for power are
@@ -286,18 +284,15 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 
 - Direct current (DC) is the flow of electric current in only one direction. It
   refers to systems where the source voltage is constant.
-- The voltage source of an alternating current (AC) system puts out $$V={V}_{0} \sin 2\pi \text{ft} $$ , where $$V $$ is the voltage at time $$t $$ , $${V}_
+- The voltage source of an alternating current (AC) system puts out $$V={V}_{0} \sin 2\pi \text{ft} $$ , where $$V $$ is the voltage at time $$t $$ , $${V}_ $$
   {0} $$ is the peak voltage, and $$f $$ is the frequency in hertz. - In a simple circuit, $$I=V/R $$ and AC current is $$I={I}_{0} \sin 2\pi
   \text{ft} $$ , where $$I $$ is the current at time $$t $$ , and $${I}_{0}={V}_
-  {0}\text{/R} $$ is the peak current. - The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0} $$ .
-
-- Average (rms) current $${I}_{\text{rms}} $$ and average (rms) voltage $${V}_ {\text{rms}} $$ are $${I}_{\text{rms}}=\frac{ {I}_{0}}{\sqrt{2}} $$ and $${V}_
-  {\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}} $$ , where rms stands for root mean square. - Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ .
+ {0}\text{/R} $$ is the peak current. - The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0} $$ . - Average (rms) current $${I}_{\text{rms}} $$ and average (rms) voltage $${V}_ {\text{rms}} $$ are $${I}_{\text{rms}}=\frac{ {I}_{0}}{\sqrt{2}} $$ and $${V}_
+{\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}} $$ , where rms stands for root mean square. - Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ . $$
 
 - Ohm’s law for AC is $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{R} $$ .
 
-- Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_ {\text{rms}}{V}_{\text{rms}} $$ , $${P}_{\text{ave}}=\frac{ {V}_{\text{rms}}^{
-  2}}{R} $$ , and $${P}_{\text{ave}}={I}_{\text{rms}}^{ 2}R $$ , analogous to
+- Expressions for the average power of an AC circuit are $${P}_{\text{ave}}={I}_ {\text{rms}}{V}_{\text{rms}} $$ , $${P}_{\text{ave}}=\frac{ {V}_{\text{rms}}^{ 2}}{R} $$ , and $${P}_{\text{ave}}={I}_{\text{rms}}^{ 2}R $$ , analogous to 
   the expressions for DC circuits.
 
 ### Conceptual Questions
@@ -745,4 +740,4 @@ rms voltage
 : the root-mean-square of the voltage, $${V}_{\text{rms}}={V}_{0}/\sqrt{2} $$ ,
 where $$V_0$$ is the peak voltage, in an AC system
 
-</div>
+</div>

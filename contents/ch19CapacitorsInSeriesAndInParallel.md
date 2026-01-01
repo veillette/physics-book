@@ -97,8 +97,7 @@ equation for capacitance in series.
 
 **Solution**
 
-Entering the given capacitances into the expression for $$\frac{1}{ {C}_ {\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_
-{2}}+\frac{1}{ {C}_{3}} $$. <div class="equation" > $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
+Entering the given capacitances into the expression for $$\frac{1}{ {C}_ {\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_ {2}}+\frac{1}{ {C}_{3}} $$. <div class="equation" > $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
 </div>
 Inverting to find  $${C}_{\text{S}} $$  yields 
  $${C}_{\text{S}}=\frac{\text{µF}}{ 1.325}=0.755 \text{µF} $$.
@@ -216,9 +215,7 @@ Inverting gives
 This equivalent series capacitance is in parallel with the third capacitor; thus, the total is the sum
 
 <div class="equation" >
- $$\begin{array}{lll}{C}_{\text{tot}}& =& {C}_{\text{S}}+{C}_{\text{S}}\\
-{C}_{\text{tot}}& =&  0.833 \text{μF}+ 8.000 \text{μF}\\ 
-{C}_{\text{tot}}& =&  8.833 \text{μF}.\end{array} $$
+ $$\begin{array}{lll}{C}_{\text{tot}}& =& {C}_{\text{S}}+{C}_{\text{S}}\\ {C}_{\text{tot}}& =& 0.833 \text{μF}+ 8.000 \text{μF}\\ {C}_{\text{tot}}& =& 8.833 \text{μF}.\end{array} $$ 
 </div>
 **Discussion**
 
@@ -500,4 +497,4 @@ This problem illustrates an important check: parallel combinations always increa
 
 (c) The assumption that the capacitors are connected in parallel is incorrect. A parallel connection always produces a total capacitance greater than any individual capacitor. Since 5.00 μF < 8.00 μF, the connection must be in series, not parallel.
 </div>
-</div>
+</div>

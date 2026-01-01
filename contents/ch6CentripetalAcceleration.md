@@ -122,9 +122,7 @@ expression for $$ \ac $$ gives
 
 **Discussion**
 
-To compare this with the acceleration due to gravity $$ \left( g=9.80\mss \right) $$, we take the ratio of $$ \ac/g=\left( 1.25\mss \right)
-/\left(9.80\mss \right)
-=0.128 $$. Thus, $$ \ac=0.128 g $$ and is noticeable especially if you were not
+To compare this with the acceleration due to gravity $$ \left( g=9.80\mss \right) $$, we take the ratio of $$ \ac/g=\left( 1.25\mss \right) /\left(9.80\mss \right) =0.128 $$. Thus, $$ \ac=0.128 g $$ and is noticeable especially if you were not 
 wearing a seat belt.
 
 </div>
@@ -154,13 +152,7 @@ we use the facts that one revolution is $$ 2\pi \text{rad} $$ and one minute is
 60.0 s. Thus,
 
 <div class="equation">
- $$ \omega =7.50\times 10^{4}\frac{ \text{rev}}{\text{min}}×\frac{2\pi \text{rad}}{1 \text{rev}}×\frac{1\text{min}}{60.0 \s }
-=7854\rads .
-$$
-
-</div>
-Now the centripetal acceleration is given by the second expression in
-$$ \ac=\frac{ v^{2}}{r}$$; $$ \ac=r \omega^{2} $$ as
+ $$ \omega =7.50\times 10^{4}\frac{ \text{rev}}{\text{min}}×\frac{2\pi \text{rad}}{1 \text{rev}}×\frac{1\text{min}}{60.0 \s } =7854\rads . $$ </div> Now the centripetal acceleration is given by the second expression in $$ \ac=\frac{ v^{2}}{r}$$; $$ \ac=r \omega^{2} $$ as 
 
 <div class="equation">
  $$ \ac=r \omega^{2}. $$
@@ -942,4 +934,4 @@ centripetal acceleration
 ultracentrifuge
 : a centrifuge optimized for spinning a rotor at very high speeds
 
-</div>
+</div>

@@ -227,16 +227,12 @@ The increase in temperature is given by $$Q=mc\Delta T $$ . The mass $$m $$ of
 the mineral oil in the one-meter section of pipe is
 
 <div class="equation" >
- $$\begin{array}{lll}m& =& \rho V =\rho \pi {\left(\frac{d}{2}\right)}^{2}\left(1.00 \text{m}\right)\\ 
-m& =& \left(8.00 \times 10^{2}  {\text{kg/m}}^{3}\right) (3.14) { \left( 0.0100 \text{m}\right)}^{2} \left(1.00 \text{m}\right)\\ 
-m& =& 0.251 \text{kg}.\end{array} $$
+ $$\begin{array}{lll}m& =& \rho V =\rho \pi {\left(\frac{d}{2}\right)}^{2}\left(1.00 \text{m}\right)\\ m& =& \left(8.00 \times 10^{2} {\text{kg/m}}^{3}\right) (3.14) { \left( 0.0100 \text{m}\right)}^{2} \left(1.00 \text{m}\right)\\ m& =& 0.251 \text{kg}.\end{array} $$ 
 </div>
 Therefore, the increase in temperature in one minute is
 
 <div class="equation" >
- $$\begin{array}{lll}\Delta T& =& Q/mc\\
-\Delta T & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ 
-\Delta T& =& 162\text{ºC} .\end{array} $$
+ $$\begin{array}{lll}\Delta T& =& Q/mc\\ \Delta T & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ \Delta T& =& 162\text{ºC} .\end{array} $$ 
 </div>
 **Discussion for (c)**
 
@@ -906,4 +902,4 @@ away (diverge) from its axis
 law of reflection
 : angle of reflection equals the angle of incidence
 
-</div>
+</div>

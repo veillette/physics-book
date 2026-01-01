@@ -106,8 +106,7 @@ We start by choosing a coordinate system with its $$ x $$ -axis parallel to the
 velocity of the river, as shown in [Figure 4](#Figure4). Because the boat is
 directed straight toward the other shore, its velocity relative to the water is
 parallel to the $$ y $$ -axis and perpendicular to the velocity of the river.
-Thus, we can add the two velocities by using the equations $$ v_ {\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_
-{y}/v\_{x}\right) $$ directly.
+Thus, we can add the two velocities by using the equations $$ v_ {\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_ {y}/v\_{x}\right) $$ directly. 
 
 **Solution**
 
@@ -129,10 +128,10 @@ and
 Thus,
 
 <div class="equation">
- $$ v_{\text{tot}}=\sqrt{
+$$ v_{\text{tot}}=\sqrt{ $$
 \left( 1.20 \ms \right)^{2}+
 \left( 0.750 \ms \right)^{2}
-} $$
+} $$ $$
 </div>
 yielding
 
@@ -176,8 +175,7 @@ In this problem, somewhat different from the previous example, we know the total
 velocity $$ \vb{v}_{\text{tot}} $$ and that it is the sum of two other
 velocities, $$ \vb{v}_{\text{w}} $$
 (the wind) and $$ \vb{v}_{\text{p}} $$
-(the plane relative to the air mass). The quantity $$ \vb{v}_ {\text{p}} $$ is known, and we are asked to find $$ \vb{v}_
-{\text{w}} $$. None of the velocities are perpendicular, but it is possible to find their components along a common set of perpendicular axes. If we can find the components of $$ \vb{v}_{\text{w}} $$, then we can combine them to solve for
+(the plane relative to the air mass). The quantity $$ \vb{v}_ {\text{p}} $$ is known, and we are asked to find $$ \vb{v}_ {\text{w}} $$. None of the velocities are perpendicular, but it is possible to find their components along a common set of perpendicular axes. If we can find the components of $$ \vb{v}_{\text{w}} $$, then we can combine them to solve for
 its magnitude and direction. As shown in [Figure 5](#Figure5), we choose a
 coordinate system with its
 *x*-axis due east and its *y*-axis due north (parallel to $$ \vb{v}\_ {\text{p}} $$).
@@ -221,8 +219,7 @@ Now, to find $$ v\_{\text{w}\text{y}} $$ we note that
 Here $$ v_{\text{tot}y}=v_{\text{tot}}\sin{110^\circ } $$; thus,
 
 <div class="equation">
- $$ v_{\text{w}y}=\left(38.0 \ms \right)
-\left(0.940 \right)-45.0 \ms = -9.29 \ms . $$
+ $$ v_{\text{w}y}=\left(38.0 \ms \right) \left(0.940 \right)-45.0 \ms = -9.29 \ms . $$ 
 </div>
 This minus sign indicates motion south which is consistent with the diagram.
 
@@ -230,10 +227,10 @@ Now that the perpendicular components of the wind velocity $$ v_{\text{w}x} $$
 and $$ v_{\text{w}y} $$ are known, we can find the magnitude and direction of $$ \vb{v}_{\text{w}} $$. First, the magnitude is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v_\text{w}&=& \sqrt{ v_{\text{w}x}^{2}+v_{\text{w}y}^{2}}\\
 v_\text{w}&=& \sqrt{\left(-13.0 \ms \right)^{2}+\left(-9.29 \ms \right)^{2}}
-\end{array} $$
+\end{array} $$ $$
 </div>
 so that
 
@@ -340,8 +337,7 @@ the equation:
 Substituting known values into the equation, we get
 
 <div class="equation">
- $$ v_{y}^{2}=0^{2}-2\left(9.80\mss \right)
-\left(-1.50\m -0 \m \right)=29.4 \mmss $$
+ $$ v_{y}^{2}=0^{2}-2\left(9.80\mss \right) \left(-1.50\m -0 \m \right)=29.4 \mmss $$ 
 </div>
 yielding
 
@@ -2148,4 +2144,4 @@ velocity
 vector addition
 : the rules that apply to adding vectors together
 
-</div>
+</div>

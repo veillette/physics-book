@@ -53,7 +53,7 @@ stored charge for a parallel plate capacitor, as shown in [[Figure 2]](#Figure2)
 negative one, so that there will be more field lines if there is more charge. (
 Drawing a single field line per charge is a convenience, only. We can draw many
 field lines for each charge, but the total number is proportional to the number
-of charges.) The electric field strength is, thus, directly proportional to $$Q $$
+of charges.) The electric field strength is, thus, directly proportional to $$Q $$
 
 .
 
@@ -120,8 +120,7 @@ farad is a coulomb per volt, or
 
 A 1-farad capacitor would be able to store 1 coulomb (a very large amount of
 charge) with the application of only 1 volt. One farad is, thus, a very large
-capacitance. Typical capacitors range from fractions of a picofarad $$\left(1 \text{pF}=10^{-12} \text{F}\right) $$ to millifarads $$\left(1 \text{mF}=10^{-3}
-\text{F}\right) $$.
+capacitance. Typical capacitors range from fractions of a picofarad $$\left(1 \text{pF}=10^{-12} \text{F}\right) $$ to millifarads $$\left(1 \text{mF}=10^{-3} \text{F}\right) $$. 
 
 [[Figure 3]](#Figure3) shows some common capacitors. Capacitors are primarily
 made of ceramic, glass, or plastic, depending upon purpose and size. Insulating
@@ -364,7 +363,7 @@ separation. For instance, in [[Example 1]](#Example1), the separation is 1.00 mm
 and so the voltage limit for air is
 
 <div class="equation" >
- $$\begin{array}{lll}V& =& E\cdot d\\
+$$\begin{array}{lll}V& =& E\cdot d\\ $$
 V & =& \left(3 \times 10^{6}  \text{V/m}\right)\left( 1.00 \times 10^{-3}  \text{m}\right)\\
  V& =& 3000 \text{V} \text{.} \end{array}
 $$
@@ -379,9 +378,7 @@ example for the air-filled parallel plate capacitor, we find that the
 Teflon-filled capacitor can store a maximum charge of
 
 <div class="equation" >
- $$\begin{array}{lll}Q& =& CV \\ & =& \kappa C_{\text{air}}V\\ 
-Q& =& \left(2.1\right)\left(8.85 \text{nF}\right)\left( 6.0 \times 10^{4}  \text{V}\right)\\ 
-Q& =& 1.1 \text{mC}.\end{array} $$
+ $$\begin{array}{lll}Q& =& CV \\ & =& \kappa C_{\text{air}}V\\ Q& =& \left(2.1\right)\left(8.85 \text{nF}\right)\left( 6.0 \times 10^{4} \text{V}\right)\\ Q& =& 1.1 \text{mC}.\end{array} $$ 
 </div>
 
 This is 42 times the charge of the same air-filled capacitor.
@@ -954,7 +951,7 @@ The temperature increase of the flesh is approximately **10-12°C** (depending o
 <div class="problem" markdown="1">
 **Unreasonable Results**
 
-(a) A certain parallel plate capacitor has plates of area $${4.00 \text{m}}^{2} $$
+(a) A certain parallel plate capacitor has plates of area $${4.00 \text{m}}^{2} $$
 
 , separated by 0.0100 mm of nylon, and stores 0.170 C of charge. What is the
 applied voltage? (b) What is unreasonable about this result? (c) Which
@@ -1035,4 +1032,4 @@ parallel plate capacitor
 polar molecule
 : a molecule with inherent separation of charge
 
-</div>
+</div>

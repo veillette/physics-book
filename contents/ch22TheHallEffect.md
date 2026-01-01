@@ -512,4 +512,4 @@ Hall emf
 : the electromotive force created by a current-carrying conductor by a magnetic
 field, $$\epsilon =Blv $$
 
-</div>
+</div>

@@ -118,9 +118,7 @@ or
 Using conservation of internal kinetic energy and that $$ v_{2}=0 $$,
 
 <div class="equation">
- $$ \frac{1}{2} m_{1} v_{1}^{2}
-=\frac{1}{2} m_{1} {v^{\prime}_{1}}^{2}+ \frac{1}{2}m_{2}{v^{\prime}_{2}}^{2}.
-$$
+ $$ \frac{1}{2} m_{1} v_{1}^{2} =\frac{1}{2} m_{1} {v^{\prime}_{1}}^{2}+ \frac{1}{2}m_{2}{v^{\prime}_{2}}^{2}. $$ 
 </div>
 Solving the first equation (momentum equation) for $$ v^{\prime}_{2} $$,
 we obtain
@@ -359,4 +357,4 @@ elastic collision
 internal kinetic energy
 : the sum of the kinetic energies of the objects in a system
 
-</div>
+</div>

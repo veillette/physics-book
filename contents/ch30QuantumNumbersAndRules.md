@@ -115,8 +115,7 @@ magnitudes and pointing in the correct directions. $$\vb{L} $$ and
 $${\vb{L}}_{z} $$ form a right triangle, with $$\vb{L} $$ being
 the hypotenuse and $${\vb{L}}_{z} $$ the adjacent side. This means
 that the ratio of $${\vb{L}}_{z} $$ to $$\vb{L} $$ is the cosine of the
-angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_ {z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_
-{z}=m\frac{h}{2\pi } $$.
+angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_ {z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_ {z}=m\frac{h}{2\pi } $$. 
 
 **Solution**
 
@@ -129,12 +128,12 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
  $$L_{z} $$ can have three values, given by  $$L_{z}= m_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
- $$ L_{z}=m_{l}\frac{h}{2\pi }=\left\{
+$$ L_{z}=m_{l}\frac{h}{2\pi }=\left\{ $$
 \begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\ 
 0, & {m}_{l}& =& 0 \\ 
 -\frac{h}{2\pi },&  {m}_{l}& =& -1
 \end{array}
-\right\} $$
+\right\} $$ $$
 </div>
 As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{ L_{z} }{L} , $$
  and so for  $$ m_{l}=+1 $$ ,
@@ -873,4 +872,4 @@ magnitude of the intrinsic (internal) spin angular momentum
 z-component of the angular momentum
 : component of orbital angular momentum of electron along the $$z $$ -axis
 
-</div>
+</div>

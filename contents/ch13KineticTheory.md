@@ -151,7 +151,7 @@ molecule is directly related to absolute temperature.
  $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$
 </div>
 
-The average translational kinetic energy of a molecule, $$\overline{\text{KE}} $$
+The average translational kinetic energy of a molecule, $$\overline{\text{KE}} $$
 
 , is called **thermal energy** . The equation
 $$\overline{\text{KE}}=\frac{1}{2}m\overline{ {v}^{2}}=\frac{3}{2}k_{B}T $$ is a
@@ -759,4 +759,4 @@ molecule
 
 </div>
 
-[1]: http://phet.colorado.edu/en/simulation/gas-properties
+[1]: http://phet.colorado.edu/en/simulation/gas-properties

@@ -84,9 +84,7 @@ This is the electric potential energy per unit charge.
 </div>
 </div>
 
-Since PE is proportional to $$q $$ , the dependence on $$q $$ cancels. Thus $$V $$ does not depend on $$q $$ . The change in potential energy $$\Delta \text{PE}
-
-$$ is crucial, and so we are concerned with the difference in potential or potential difference $$\Delta V $$ between two points, where
+Since PE is proportional to $$q $$ , the dependence on $$q $$ cancels. Thus $$V $$ does not depend on $$q $$ . The change in potential energy $$\Delta \text{PE} $$ is crucial, and so we are concerned with the difference in potential or potential difference $$\Delta V $$ between two points, where
 
 <div class="equation" >
  $$\Delta V={V}_{\text{B}}-{V}_{\text{A}}=\frac{\Delta \text{PE}}{q}\text{.} $$
@@ -346,7 +344,7 @@ We have a system with only conservative forces. Assuming the electron is
 accelerated in a vacuum, and neglecting the gravitational force (we will check
 on this assumption later), all of the electrical potential energy is converted
 into kinetic energy. We can identify the initial and final forms of energy to be
-$${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and }}
+$${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and }} $$
 \text{PE}_{f}=0.
 
 **Solution**
@@ -370,8 +368,7 @@ We solve this for  $$v $$
 Entering values for  $$q, V\text{, and } m $$  gives
 
 <div class="equation" >
- $$\begin{array}{lll}v& =& \sqrt{\frac{2\left(-1.60 \times 10^{-19} \text{C}\right)\left(-100 \text{J/C}\right)}{9.11 \times 10^{-31} \text{kg}}}\\ 
-  v& =&  5.93 \times 10^{6}  \text{m/s} \text{.} \end{array} $$
+ $$\begin{array}{lll}v& =& \sqrt{\frac{2\left(-1.60 \times 10^{-19} \text{C}\right)\left(-100 \text{J/C}\right)}{9.11 \times 10^{-31} \text{kg}}}\\ v& =& 5.93 \times 10^{6} \text{m/s} \text{.} \end{array} $$ 
 </div>
 **Discussion**
 
@@ -405,8 +402,7 @@ is considered (accurately) in this example.
   through a potential difference of 1 V. In equation form,
 
   <div class="equation" >
-   $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{V}\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ 
-     1 \text{eV}& =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$
+ $$\begin{array}{lll}1 \text{eV}& =& \left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{V}\right)=\left(1.60 \times 10^{-19} \text{C}\right)\left(1 \text{J/C}\right)\\ 1 \text{eV}& =& 1.60 \times 10^{-19} \text{J} \text{.} \end{array} $$ 
   </div>
 
 - Mechanical energy is the sum of the kinetic energy and potential energy of a
@@ -894,7 +890,7 @@ The baby formula requires by far the most energy (about 82% of the total) becaus
 A battery-operated car utilizes a 12.0 V system. Find the charge the batteries
 must be able to move in order to accelerate the 750 kg car from rest to 25.0
 m/s, make it climb a $$ 2.00 \times 10^{2} \text{m} $$ high hill, and then cause
-it to travel at a constant 25.0 m/s by exerting a $$ 5.00 \times 10^{2} \text{N} $$
+it to travel at a constant 25.0 m/s by exerting a $$ 5.00 \times 10^{2} \text{N} $$
 
 force for an hour.
 
@@ -1168,4 +1164,4 @@ mechanical energy
 : sum of the kinetic energy and potential energy of a system; this sum is a
 constant
 
-</div>
+</div>

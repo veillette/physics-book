@@ -115,27 +115,27 @@ system is that of the hockey puck, because the goalie is initially at rest.
 Therefore, $$ \KE_{\text{int}} $$ is initially
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE_{\text{int}}&=& \frac{1}{2}m v^{2}=\frac{1}{2}\left(0.150 \kg \right){\left(35.0 \ms \right)}^{2}\\
 \KE_{\text{int}}&=& 91.9 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 After the collision, the internal kinetic energy is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE^\prime_{\text{int}}&=& \frac{1}{2}\left(m+M\right){v}^{2}=
 \frac{1}{2}\left(70.15 \kg \right){\left(7.48 \times 10^{-2} \ms \right)}^{2}\\
 \KE^\prime_{\text{int}}&=& 0.196 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 The change in internal kinetic energy is thus
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}&=& 0.196 \J -91.9 \J \\
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}&=& -91.7 \J
-\end{array} $$
+\end{array} $$ $$
 </div>
 where the minus sign indicates that the energy was lost.
 
@@ -219,13 +219,13 @@ The only unknown in this equation is $$ v^{\prime}_{2} $$. Solving for $$ v^{\pr
 and substituting known values into the previous equation yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v^{\prime}_{2}&=& \frac{ m_{1}v_{1}+m_{2}v_{2}-m_{1}{v^{\prime} }_{1}}{ m_{2}}\\
 v^{\prime}_{2}&=& \frac{ \left(0.350 \kg \right)\left(2.00 \ms \right)+
 \left(0.500 \kg \right)\left(-0.500 \ms \right)}{0.500 \kg }-
 \frac{ \left(0.350 \kg \right)\left(-4.00 \ms \right)}{0.500 \kg }\\
 v^{\prime}_{2}&=& 3.70 \ms .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Solution for (b)**
@@ -233,29 +233,29 @@ v^{\prime}_{2}&=& 3.70 \ms .
 The internal kinetic energy before the collision is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE_{\text{int}}&=& \frac{1}{2}m_{1}v_{1}^{2}+\frac{1}{2}m_{2}v_{2}^{2}\\
 \KE_{\text{int}}&=& \frac{1}{2}\left(0.350 \kg \right){\left(2.00 \ms \right)}^{2}+\frac{1}{2}\left(0.500 \kg \right){\left(-0.500 \ms \right)}^{2}\\
 \KE_{\text{int}}&=& 0.763 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 After the collision, the internal kinetic energy is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE^\prime_{\text{int}}&=& \frac{1}{2}m_{1}{v^{\prime}}_{1}^{2}+\frac{1}{2}m_{2}{v^{\prime}}_{2}^{2}\\
 \KE^\prime_{\text{int}}&=& \frac{1}{2}\left(0.350 \kg \right) \left(-4.00 \ms \right)^{2}+
 \frac{1}{2}\left(0.500 \kg \right) \left(3.70 \ms \right)^{2}\\
 \KE^\prime_{\text{int}}&=& 6.22 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 The change in internal kinetic energy is thus
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}&=& 6.22 \J -0.763 \J \\
 \KE^{\prime}_{\text{int}}-\KE_{\text{int}}&=& 5.46 \J .
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -1175,4 +1175,4 @@ inelastic collision
 perfectly inelastic collision
 : a collision in which the colliding objects stick together
 
-</div>
+</div>

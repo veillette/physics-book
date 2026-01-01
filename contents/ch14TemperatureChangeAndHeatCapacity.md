@@ -94,23 +94,19 @@ at the same temperature.
 3. Calculate the heat transferred to the water. Use the specific heat of water
    in [[Table 1]](#Table1)\:
    <div class="equation" >
-   $${Q}_{w}={m}_{w}{c}_{w}\Delta T=\left( 0.250 \text{kg}\right)\left(4186
-   \text{J/kg}\text{ºC}\right)\left(60.0\text{ºC}\right)=62.8 kJ. $$
+ $${Q}_{w}={m}_{w}{c}_{w}\Delta T=\left( 0.250 \text{kg}\right)\left(4186 \text{J/kg}\text{ºC}\right)\left(60.0\text{ºC}\right)=62.8 kJ. $$ 
    </div>
 
 4. Calculate the heat transferred to the aluminum. Use the specific heat for
    aluminum in [[Table 1]](#Table1)\:
    <div class="equation" >
-   $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500
-   \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)=
-   27.0 \times 10^{4}\text{J}= 27.0 \text{kJ} . $$
+ $${Q}_{\text{Al}}={m}_{\text{Al}}{c}_{\text{Al}}\Delta T=\left(0.500 \text{kg}\right)\left(900 \text{J/kgºC}\right)\left(60.0 \text{ºC}\right)= 27.0 \times 10^{4}\text{J}= 27.0 \text{kJ} . $$ 
    </div>
 
 5. Compare the percentage of heat going into the pan versus that going into the
    water. First, find the total transferred heat:
    <div class="equation" >
-   $${Q}_{\text{Total}}={Q}_{\text{W}}+{Q}_{\text{Al}}= 62.8 \text{kJ}+ 27.0
-   \text{kJ} = 89.8 \text{kJ} \text{.} $$
+ $${Q}_{\text{Total}}={Q}_{\text{W}}+{Q}_{\text{Al}}= 62.8 \text{kJ}+ 27.0 \text{kJ} = 89.8 \text{kJ} \text{.} $$ 
    </div>
 
 Thus, the amount of heat going into heating the pan is
@@ -161,9 +157,7 @@ the brake material alone.
 1. Calculate the change in gravitational potential energy as the truck goes
    downhill
    <div class="equation" >
-   $$\text{Mgh}=\left(10 000 \text{kg}\right)\left(9.80
-   \text{m}{\text{/s}}^{2}\right)\left(75.0 \text{m}\right)=7.35 \times 10^{6}
-   \text{J} \text{.} $$
+ $$\text{Mgh}=\left(10 000 \text{kg}\right)\left(9.80 \text{m}{\text{/s}}^{2}\right)\left(75.0 \text{m}\right)=7.35 \times 10^{6} \text{J} \text{.} $$ 
    </div>
 
 2. Calculate the temperature from the heat transferred using $$Q=0.1\text{Mgh} $$
@@ -176,8 +170,7 @@ the brake material alone.
    Insert the values $$m=100 \text{kg} $$
    and $$c=800 \text{J/kg}\cdot \text{ºC} $$ to find
    <div class="equation" >
-   $$\Delta T=\frac{\left( 7.35 \times 10^{5} \text{J}\right)}{\left(100
-   \text{kg}\right)\left(800 \text{J/kgºC}\right)}=9.2 \text{ºC.} $$
+ $$\Delta T=\frac{\left( 7.35 \times 10^{5} \text{J}\right)}{\left(100 \text{kg}\right)\left(800 \text{J/kgºC}\right)}=9.2 \text{ºC.} $$ 
    </div>
 
 **Discussion**
@@ -336,16 +329,14 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
    the specific heat of aluminum, the initial temperature of the pan, and the
    final temperature:
    <div class="equation" >
-   $${Q}_{\text{hot}}={m}_{\text{Al}}{c}_{\text{Al}}\left({T}_{\text{f}}-150
-   \text{ºC}\right)\text{.} $$
+ $${Q}_{\text{hot}}={m}_{\text{Al}}{c}_{\text{Al}}\left({T}_{\text{f}}-150 \text{ºC}\right)\text{.} $$ 
    </div>
 
 2. Express the heat gained by the water in terms of the mass of the water, the
    specific heat of water, the initial temperature of the water and the final
    temperature:
    <div class="equation" >
-   $${Q}_{\text{cold}}={m}_{W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right)
-   \text{.} $$
+ $${Q}_{\text{cold}}={m}_{W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right) \text{.} $$ 
    </div>
 
 3. Note that $${Q}_{\text{hot}}<0 $$  
@@ -353,10 +344,10 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
    and that they must sum to zero because the heat lost by the hot pan must be
    the same as the heat gained by the cold water:
    <div class="equation" >
-   $$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0
+$$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0 $$
    \text{,}\\ \hfill {Q}_{\text{cold}}& =& {-\text{Q}}_{\text{hot}},\\ {m}_
    {W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right)& =& -m_{\text{Al}}{c}_
-   {\text{Al}}\left({T}_{\text{f}}-150 \text{ºC.}\right)\end{array} $$
+{\text{Al}}\left({T}_{\text{f}}-150 \text{ºC.}\right)\end{array} $$ $$
    </div>
 
 4. This an equation for the unknown final temperature, $${T}_{\text{f}} $$
@@ -364,9 +355,7 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
    on the left-hand side and all other terms on the right-hand side. Solve for
    $${T}\_{\text{f}} $$ ,
    <div class="equation" >
-   $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150
-   \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_
-   {\text{Al}}{c}_{\text{Al}}+{m}_{W}{c}_{W}}\text{,} $$
+ $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150 \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_ {\text{Al}}{c}_{\text{Al}}+{m}_{W}{c}_{W}}\text{,} $$ 
    </div>
 
    and insert the numerical values:
@@ -1024,4 +1013,4 @@ specific heat
 : the amount of heat necessary to change the temperature of 1.00 kg of a
 substance by 1.00 ºC
 
-</div>
+</div>

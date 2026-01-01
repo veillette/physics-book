@@ -875,7 +875,7 @@ The speed of the vehicle is 15.0 m/s, which is equivalent to 54.0 km/h or 33.6 m
 Assume the mostly infrared radiation from a heat lamp acts like a continuous
 wave with wavelength $$1.50 \mu \text{m} $$ .
 (a) If the lamp’s 200-W output is focused on a person’s shoulder, over a
-circular area 25.0 cm in diameter, what is the intensity in $${\text{W/m}}^{2} $$
+circular area 25.0 cm in diameter, what is the intensity in $${\text{W/m}}^{2} $$
 
 ?
 (b) What is the peak electric field strength? (c) Find the peak magnetic field
@@ -990,7 +990,7 @@ Final Answer
 
 Electromagnetic radiation from a 5.00-mW laser is concentrated on a
 
-1.00{\text{-mm}}^{2} $$ area. (a) What is the intensity in $${\text{W/m}}^{2} $$
+1.00{\text{-mm}}^{2} $$ area. (a) What is the intensity in $${\text{W/m}}^{2} $$ $$
 ?
 (b) Suppose a 2.00-nC static charge is in the beam. What is the maximum electric
 force it experiences? (c) If the static charge moves at 400 m/s, what maximum
@@ -1547,4 +1547,4 @@ intensity
 : the power of an electric or magnetic field per unit area, for example, Watts
 per square meter
 
-</div>
+</div>

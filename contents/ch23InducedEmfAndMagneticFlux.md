@@ -202,4 +202,4 @@ an area $$A $$ at an angle $$\theta $$ with the perpendicular to the area
 electromagnetic induction
 : the process of inducing an emf (voltage) with a change in magnetic flux
 
-</div>
+</div>

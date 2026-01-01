@@ -159,8 +159,7 @@ conservation of momentum in the $$ x $$- and $$ y $$ -directions.
 
 **Solution**
 
-Solving $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta }_{1}+ m_{2}v^{\prime}_ {2}\cos{\theta }_{2} $$ for $$ v_{2}^{\prime }\cos{\theta_{2}} $$ and $$ 0= m_
-{1}v^{\prime}_{1}\sin{\theta }_{1}+ m_{2}v^{\prime}_{2}\sin{\theta }_{2} $$ for $$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
+Solving $$ m_{1} v_{1}= m_{1}v^{\prime}_{1}\cos{\theta }_{1}+ m_{2}v^{\prime}_ {2}\cos{\theta }_{2} $$ for $$ v_{2}^{\prime }\cos{\theta_{2}} $$ and $$ 0= m_ {1}v^{\prime}_{1}\sin{\theta }_{1}+ m_{2}v^{\prime}_{2}\sin{\theta }_{2} $$ for $$ v^{\prime}_{2}\sin{\theta }_{2} $$ and taking the ratio yields an equation (
 in which $$ \theta_2 $$ is the only unknown quantity. Applying the identity $$ \left(\tan{\theta} =\frac{ \sin{\theta} }{\cos{\theta} }\right) $$, we obtain:
 
 <div class="equation">
@@ -283,9 +282,7 @@ the atomic nucleus from such experiments.
 - The internal kinetic before and after the collision of two objects that have
 equal masses is
   <div class="equation">
-    $$ \frac{1}{2} m v_{1}^{2}= \frac{1}{2} m{v^{\prime}}_{1}^{2}+ \frac{1}{2}
-m{v^{\prime}_{2}}^{2}+ mv^{\prime}_{1} v^{\prime}_{2} \cos{\left( \theta_
-{1}-\theta_{2} \right) }. $$
+ $$ \frac{1}{2} m v_{1}^{2}= \frac{1}{2} m{v^{\prime}}_{1}^{2}+ \frac{1}{2} m{v^{\prime}_{2}}^{2}+ mv^{\prime}_{1} v^{\prime}_{2} \cos{\left( \theta_ {1}-\theta_{2} \right) }. $$ 
   </div>
 
 - Point masses are structureless particles that cannot spin.
@@ -881,10 +878,10 @@ and
 Square each equation to get:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 v_{1}^{2}&=& { v^{\prime}_{1}}^{2}{\cos}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\cos}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\cos{\theta_{1}}\cos{\theta_{2}}\\
 0 &=& { v^{\prime}_{1}}^{2}{\sin}^{2}{\theta_{1}}+{ v^{\prime}_{2}}^{2}{\sin}^{2}{\theta_{2}}+2v^{\prime}_{1}v^{\prime}_{2}\sin{\theta_{1}}\sin{\theta_{2}}.
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 Add these two equations and use the trigonometric identity $$ \sin^2\theta + \cos^2\theta = 1 $$:
@@ -971,4 +968,4 @@ The player barely moves (2.5 cm) despite giving the puck significant velocity. T
 point masses
 : structureless particles with no rotation or spin
 
-</div>
+</div>

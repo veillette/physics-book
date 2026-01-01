@@ -171,7 +171,7 @@ $$\theta $$ smaller.
 
 In most biology laboratories, resolution is presented when the use of the
 microscope is introduced. The ability of a lens to produce sharp images of two
-closely spaced point objects is called resolution. The smaller the distance $$x $$
+closely spaced point objects is called resolution. The smaller the distance $$x $$
 
 by which two objects can be separated and still be seen as distinct, the
 greater the resolution. The resolving power of a lens is defined as that
@@ -807,4 +807,4 @@ Rayleigh criterion
 : two images are just resolvable when the center of the diffraction pattern of
 one is directly over the first minimum of the diffraction pattern of the other
 
-</div>
+</div>

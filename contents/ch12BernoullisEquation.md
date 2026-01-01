@@ -184,11 +184,11 @@ Solving Bernoulli’s principle for $${P}_{1} $$ yields
 Substituting known values,
 
 <div class="equation" >
- $$\begin{array}{lll}
+$$\begin{array}{lll} $$
 {P}_{1}& =&  1.01 \times 10^{5}  {\text{N/m}}^{2}\\ 
 & &  +\frac{1}{2} \left(10^{3} {\text{kg/m}}^{3}\right)
 \left[ {\left(25.5 \text{m/s}\right)}^{2}-{\left(1.96 \text{m/s}\right)}^{2}\right] \\ 
-{P}_{1}& =&  4.24 \times 10^{5}  {\text{N/m}}^{2}\text{.}\end{array} $$
+{P}_{1}& =&  4.24 \times 10^{5}  {\text{N/m}}^{2}\text{.}\end{array} $$ $$
 </div>
 **Discussion**
 
@@ -1071,4 +1071,4 @@ Bernoulli’s principle
 
 $${P}_{1}+\frac{1}{2}\rho v_{1}^{2}={P}_{2}+\frac{1}{2}\rho v_{2}^{2}\text{.} $$
 
-</div>
+</div>

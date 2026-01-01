@@ -127,13 +127,10 @@ The equation for the work is
 Substituting the known values gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W&=& \left(75.0 \N \right)\left(25.0 \m \right)\cos\left(35.0^\circ\right)\\
 W&=& 1536 \J =1.54\times 10^{3} \J .
-\end{array} $$
-</div>
-Converting the work in joules to kilocalories yields
-$$ W=\left(1536 \J \right)\left(1\text{kcal}/4184 \J \right)=0.367\text{kcal} $$.
+\end{array} $$ </div> Converting the work in joules to kilocalories yields $$ W=\left(1536 \J \right)\left(1\text{kcal}/4184 \J \right)=0.367\text{kcal} $$. $$
 The ratio of the work done to the daily consumption is
 
 <div class="equation">
@@ -213,10 +210,10 @@ The work done is given by $$ W = Fd\cos{\theta} $$, where the force and displace
 The work done is:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W &=& Fd = (5.00\N)(0.600\m)\\
 W &=& 3.00\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 Converting to kilocalories:
@@ -259,10 +256,10 @@ The work done to lift the person is:
 Substituting known values:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W &=& (75.0\kg)(9.80\mss)(2.50\m)\\
 W &=& 1838\J \approx 1.84\times 10^{3}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -303,10 +300,10 @@ At constant speed, the upward tension force equals the downward forces (weight p
 The work done by the cable (force and displacement in same direction):
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{cable}} &=& Td = (14800\N)(40.0\m)\\
 W_{\text{cable}} &=& 5.92\times 10^{5}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Part (b): Work done by gravity**
@@ -314,11 +311,11 @@ W_{\text{cable}} &=& 5.92\times 10^{5}\J
 The gravitational force is $$ F_g = mg = 14700\N $$ acting downward, opposite to the upward displacement ($$\theta = 180^\circ$$):
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{gravity}} &=& mgd\cos{180^\circ} = -mgd\\
 W_{\text{gravity}} &=& -(1500\kg)(9.80\mss)(40.0\m)\\
 W_{\text{gravity}} &=& -5.88\times 10^{5}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Part (c): Total work done**
@@ -332,11 +329,11 @@ The total work includes work by cable, gravity, and friction. The friction force
 The total work is:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{total}} &=& W_{\text{cable}} + W_{\text{gravity}} + W_{\text{friction}}\\
 W_{\text{total}} &=& 5.92\times 10^{5}\J - 5.88\times 10^{5}\J - 4.00\times 10^{3}\J\\
 W_{\text{total}} &=& (5.92 - 5.88 - 0.04)\times 10^{5}\J = 0\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -390,10 +387,10 @@ The useful work done is 30% of this:
 The distance traveled is $$ d = 108\text{ km} = 1.08 \times 10^{5}\m $$. Using $$ W = Fd $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F &=& \frac{W}{d} = \frac{7.2 \times 10^{7}\J}{1.08 \times 10^{5}\m}\\
 F &=& 667\N \approx 6.7 \times 10^{2}\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Solution for (b)**
@@ -484,10 +481,10 @@ Work done lifting his own body:
 Total work done:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{total}} &=& W_{\text{crate}} + W_{\text{body}}\\
 W_{\text{total}} &=& 2000\J + 1141\J = 3141\J \approx 3.14 \times 10^{3}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -526,12 +523,12 @@ The work done is given by $$ W = Fd\cos{\theta} $$, where $$ F = 50.0\N $$ is th
 Substituting the known values into the work equation:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W &=& Fd\cos{\theta}\\
 W &=& (50.0\N)(30.0\m)\cos{30.0^\circ}\\
 W &=& (50.0\N)(30.0\m)(0.866)\\
 W &=& 1299\J \approx 1.30 \times 10^{3}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -594,10 +591,10 @@ At constant speed, the horizontal component of the shopper's force must equal th
 The horizontal component of the shopper's force equals the friction force:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F\cos{25.0^\circ} &=& 35.0\N\\
 F &=& \frac{35.0\N}{\cos{25.0^\circ}} = \frac{35.0\N}{0.906} = 38.6\N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 We can verify: $$ W = Fd\cos{25.0^\circ} = (38.6\N)(20.0\m)(0.906) = 700\J $$ ✓
@@ -666,10 +663,10 @@ The friction force opposes motion (acts up the slope), and the sled moves down t
 The work done by friction is:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{f} &=& fd\cos{180^\circ} = -fd\\
 W_{f} &=& -(44.1\N)(30.0\m) = -1323\J \approx -1.32 \times 10^{3}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Solution for (b)**
@@ -695,11 +692,11 @@ The tension acts up the slope and the displacement is down the slope ($$\theta =
 The gravitational force is $$ W = mg = 882\N $$ acting vertically downward. The displacement along the slope makes an angle with the vertical. It's easier to use the component of weight along the slope: $$ mg\sin{\theta} $$, which acts in the direction of motion:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{g} &=& (mg\sin{\theta})d\\
 W_{g} &=& (90.0\kg)(9.80\mss)(\sin{60.0^\circ})(30.0\m)\\
 W_{g} &=& (765\N)(30.0\m) = 2.30 \times 10^{4}\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Solution for (d)**
@@ -707,11 +704,11 @@ W_{g} &=& (765\N)(30.0\m) = 2.30 \times 10^{4}\J
 The total work is the sum of all work done:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 W_{\text{total}} &=& W_{f} + W_{T} + W_{g}\\
 W_{\text{total}} &=& -1.32 \times 10^{3}\J - 2.16 \times 10^{4}\J + 2.30 \times 10^{4}\J\\
 W_{\text{total}} &=& 0\J
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -754,4 +751,4 @@ the magnitude of the displacement
 joule
 : SI unit of work and energy, equal to one newton-meter
 
-</div>
+</div>

@@ -49,8 +49,7 @@ electrical power, called a **voltage drop**, in each resistor
 in [[Figure 2]](#Figure2).
 
 According to **Ohm’s law**, the voltage drop, $$V $$ , across a resistor when a
-current flows through it is calculated using the equation $$V=IR $$ , where $$I $$ equals the current in amps (A) and $$R $$ is the resistance in ohms $$\left(
-\Omega \right) $$ . Another way to think of this is that $$V $$ is the voltage necessary to make a current $$I $$ flow through a resistance $$R $$.
+current flows through it is calculated using the equation $$V=IR $$ , where $$I $$ equals the current in amps (A) and $$R $$ is the resistance in ohms $$\left( \Omega \right) $$ . Another way to think of this is that $$V $$ is the voltage necessary to make a current $$I $$ flow through a resistance $$R $$.
 
 So the voltage drop across $${R}_{1} $$ is $${V}_{1}=IR_{1} $$ , that across
 $${R}_{2} $$ is $${V}_{2}=IR_{2} $$ , and that across $${R}_{3} $$ is $${V}_ {3}=IR_{3} $$ . The sum of these voltages equals the voltage output of the
@@ -260,7 +259,7 @@ Note that Ohm’s law for the equivalent single resistance gives
 </div>
 
 The terms inside the parentheses in the last two equations must be equal.
-Generalizing to any number of resistors, the total resistance $${R}\_{\text{p}} $$
+Generalizing to any number of resistors, the total resistance $${R}\_{\text{p}} $$
 
 of a parallel connection is related to the individual resistances by
 
@@ -1252,7 +1251,7 @@ Show that if two resistors  $${R}_{1} $$
 
 so that
 
-$$\begin{array}{}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{
+$$\begin{array}{}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{ $$
 {R}_{1}{R}_{2}}{ {R}_{1}}={R}_{2}\left({R}_{1} \gg {R}_{2}\right)
 \text{.}\end{array}
 
@@ -1368,4 +1367,4 @@ parallel
 each component receives an equal voltage from the power source; often pictured
 in a ladder-shaped diagram, with each component on a rung of the ladder
 
-</div>
+</div>

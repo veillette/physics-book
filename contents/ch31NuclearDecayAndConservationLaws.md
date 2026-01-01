@@ -45,7 +45,7 @@ always have two fewer protons and two fewer neutrons than the parent. This seems
 reasonable, since we know that $$\alpha $$ decay is the emission of a
 $${}^{4}\text{He} $$ nucleus, which has two protons and two neutrons. The
 daughters of $$\beta $$ decay have one less neutron and one more proton than
-their parent. Beta decay is a little more subtle, as we shall see. No $$\gamma $$
+their parent. Beta decay is a little more subtle, as we shall see. No $$\gamma $$
 
 decays are shown in the figure, because they do not produce a daughter that
 differs from the parent.
@@ -278,8 +278,7 @@ nature. *The total number of nucleons $$A $$ is conserved*. In
 $${}^{60}\text{Co} $$ decay, for example, there are 60 nucleons before and after
 the decay. Note that total $$A $$ is also conserved in $$\alpha $$ decay. Also
 note that the total number of protons changes, as does the total number of
-neutrons, so that total $$Z $$ and total $$N $$ are *not* conserved in $${\beta }^{-} $$ decay, as they are in $$\alpha $$ decay. Energy released in $${\beta
-}^{-} $$ decay can be calculated given the masses of the parent and products.
+neutrons, so that total $$Z $$ and total $$N $$ are *not* conserved in $${\beta }^{-} $$ decay, as they are in $$\alpha $$ decay. Energy released in $${\beta }^{-} $$ decay can be calculated given the masses of the parent and products. 
 
 <div class="example" markdown="1">
 <div class="title">
@@ -939,4 +938,4 @@ and simultaneously emits a neutrino
 electron capture equation
 : equation representing the electron capture
 
-</div>
+</div>

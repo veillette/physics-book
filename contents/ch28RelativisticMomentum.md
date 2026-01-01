@@ -467,10 +467,10 @@ The origins of such particles remain mysterious. They require acceleration mecha
 relativistic momentum
 :  $$p $$ , the momentum of an object moving at relativistic velocity;
 $$p=\text{γmu} $$ , where $$m $$ is the rest mass of the object, $$u $$ is its
-velocity relative to an observer, and the relativistic factor $$\gamma
+velocity relative to an observer, and the relativistic factor $$\gamma $$
 =\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}
 
 rest mass
 : the mass of an object as measured by a person at rest relative to the object
 
-</div>
+</div>

@@ -377,8 +377,7 @@ This is a significant increase in entropy accompanying an increase in disorder.
 {: #Figure5}
 
 In another easily imagined example, suppose we mix equal masses of water
-originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0 \text{ºC} $$ . The result is water at an intermediate temperature of $$30.0
-\text{ºC} $$ . Three outcomes have resulted: entropy has increased, some energy
+originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0 \text{ºC} $$ . The result is water at an intermediate temperature of $$30.0 \text{ºC} $$ . Three outcomes have resulted: entropy has increased, some energy 
 has become unavailable to do work, and the system has become less orderly. Let
 us think about each of these results.
 
@@ -1011,4 +1010,4 @@ second law of thermodynamics stated in terms of entropy
 : the total entropy of a system either increases or remains constant; it never
 decreases
 
-</div>
+</div>

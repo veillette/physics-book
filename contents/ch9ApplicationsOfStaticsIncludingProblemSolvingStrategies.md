@@ -104,7 +104,7 @@ from the left hand.
 interest. There is not enough information to use the first condition for
 equilibrium, $$ \text{net}F=0 $$, since two of the three forces are unknown and
 the hand forces cannot be assumed to be equal in this case. There is enough
-information to use the second condition for equilibrium, $$ \text{net}\tau =0 $$
+information to use the second condition for equilibrium, $$ \text{net}\tau =0 $$
 
 , if the pivot point is chosen to be at either hand, thereby making the torque
 from that hand zero. We choose to locate the pivot at the left hand in this part
@@ -137,7 +137,7 @@ and substituting known values, we obtain
 Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F_{R}&=& \left(0.667\right)\left(5.00 \kg \right)
 \left(9.80\mss \right)\\
 F_{R}&=& 32.7 \N .
@@ -162,12 +162,12 @@ $$ F_{L}+F_{R}=w=mg $$
 Solving for $$ F_{L} $$, we obtain
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll} $$
 F_{L}&=& mg-F_{R}\\
 F_{L}&=& mg-32.7 N\\
 F_{L}&=& \left(5.00 \kg \right)\left(9.80\mss \right)-32.7 \N \\
 F_{L}&=& 16.3 \N
-\end{array} $$
+\end{array} $$ $$
 </div>
 
 **Discussion**
@@ -525,4 +525,4 @@ static equilibrium
 : equilibrium in which the acceleration of the system is zero and accelerated
 rotation does not occur
 
-</div>
+</div>

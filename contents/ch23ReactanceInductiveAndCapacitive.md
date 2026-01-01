@@ -201,7 +201,7 @@ at each frequency.
 
 **Solution for (a)**
 
-Entering the frequency and capacitance into $${X}\_{C}=\frac{1}{2\pi \text{fC}} $$
+Entering the frequency and capacitance into $${X}\_{C}=\frac{1}{2\pi \text{fC}} $$
 
 gives
 
@@ -906,10 +906,10 @@ power and the likely frequencies of noise coming through the power lines.
 {: class="glossary-title"}
 
 inductive reactance
-: the opposition of an inductor to a change in current; calculated by $${X}_
+: the opposition of an inductor to a change in current; calculated by $${X}_ $$
 {L}=2\pi fL
 
 capacitive reactance
 : the opposition of a capacitor to a change in current; calculated by $${X}_ {C}=\frac{1}{2\pi \text{fC}} $$
 
-</div>
+</div>
