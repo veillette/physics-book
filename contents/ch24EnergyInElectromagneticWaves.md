@@ -75,7 +75,7 @@ produces the relationship
 where $${B}_{0} $$ is the maximum magnetic field strength.
 
 One more expression for $${I}_{\text{ave}} $$ in terms of both electric and
-magnetic field strengths is useful. Substituting the fact that $$c\cdot {B}_ {0}={E}_{0} $$ , the previous expression becomes
+magnetic field strengths is useful. Substituting the fact that $$c\cdot {B}_{0}={E}_{0}$$, the previous expression becomes
 
 <div class="equation" >
  $${I}_{\text{ave}}=\frac{ {E}_{0}{B}_{0}}{ {2\mu }_{0}}. $$
