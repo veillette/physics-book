@@ -29,6 +29,7 @@ Build and utility scripts for the Physics Book project.
 | convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters |
 | sync-config | `npm run sync:config` | Sync package.json with \_config.yml |
 | validate-deploy | `npm run deploy:validate` | Validate deployment |
+| crawl-all-pages | `npm run crawl` | Navigate all pages to find errors |
 
 ---
 
@@ -401,6 +402,37 @@ npm run deploy:validate:verbose   # Verbose output
 **Prerequisites:**
 
 - Playwright browsers installed: `npx playwright install chromium`
+
+### crawl-all-pages.js
+
+Navigates through all pages on local Jekyll server to detect errors during development.
+
+```bash
+npm run crawl                     # Crawl all pages (quiet mode)
+npm run crawl:verbose             # Show detailed output for every page
+```
+
+**What it checks:**
+- JavaScript console errors
+- Failed resource loads (CSS, JS, images)
+- Unrendered MathJax equations ($$)
+- HTTP errors (404, 500, etc.)
+- Page load failures
+
+**Prerequisites:**
+- Jekyll server must be running: `bundle exec jekyll serve`
+- Playwright browsers installed: `npx playwright install chromium`
+
+**Typical workflow:**
+```bash
+# Terminal 1: Start Jekyll server
+bundle exec jekyll serve
+
+# Terminal 2: Crawl all pages
+npm run crawl
+```
+
+This is especially useful after major changes to catch errors across the entire site.
 
 ---
 
