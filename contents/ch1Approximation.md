@@ -71,7 +71,7 @@ What do you think?
 **Strategy**
 
 When you imagine the situation, you probably envision thousands of small stacks
-of 100 wrapped $$100 bills, such as you might see in movies or at a bank. Since $$
+of 100 wrapped \$100 bills, such as you might see in movies or at a bank. Since
 this is an easy-to-approximate quantity, let us start there. We can find the
 volume of a stack of 100 bills, find out how many stacks make up one trillion
 dollars, and then set this volume equal to the area of the football field
@@ -84,11 +84,11 @@ bill are approximately 3 in. by 6 in. A stack of 100 of these is about 0.5 in.
 thick. So the total volume of a stack of 100 bills is:
 
 <div class="equation">
-$$ \begin{array}{} $$
+$$ \begin{array}{lll}
 \text{volume of stack}=\text{length}×\text{width}×\text{height} \text{,} \\
 \text{volume of stack}=6 \text{in.}×3 \text{in.}\times 0.5 \text{in.},\\
 \text{volume of stack}=9 \text{in.}^{3} .
-\end{array}  $$ $$
+\end{array} $$
 </div>
 (2) Calculate the number of stacks. Note that a trillion dollars is equal to  $$ \$1\times 10^{12} , $$
 and a stack of one-hundred  \$100 bills is equal to  \$10 000, 
@@ -104,12 +104,12 @@ Because we are working in inches, we need to convert square yards to square
 inches:
 
 <div class="equation">
-$$ \begin{array}{} $$
+$$ \begin{array}{lll}
 \text{Area}=5 000 \text{yd}^{2}×\frac{3\text{ft}}{1 \text{yd}} \times
 \frac{3\text{ft}}{1 \text{yd}} \times \frac{12 \text{in.}}{1 \text{ft}}
 \times \frac{12 \text{in.}}{1 \text{ft}}=6 480 000\text{in.}^{2},\\
 \text{Area} \approx 6\times 10^{6} \text{in.}^{2}.
-\end{array}  $$ $$
+\end{array} $$
 </div>
 This conversion gives us  $$ 6\times 10^{6}\text{in.}^{2}  $$
 for the area of the field. (Note that we are using only one significant figure
@@ -121,12 +121,12 @@ stacks is $$ 9\text{in.}^{3}/\text{stack}\times 10^{8}\text{ stacks}=9\times 10^
 equation:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \text{volume of bills}&=& \text{area of field}×\text{height of money:}\\
 \text{Height of money}&=& \frac{ \text{volume of bills}}{\text{area of field}},\\
 \text{Height of money}&=& \frac{9\times 10^{8}\text{in.}^{3}}{6\times 10^{6}{\text{in.}}^{2}}=1.33\times 10^{2}\text{in.,}\\
 \text{Height of money}& \approx & 1\times 10^{2}\text{in.}=100 \text{in.}
-\end{array}  $$ $$
+\end{array} $$
 </div>
 The height of the money will be about 100 in. high. Converting this value to feet gives
 
