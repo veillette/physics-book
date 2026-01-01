@@ -822,7 +822,7 @@ This expansion gap is essential to prevent rails from buckling on hot days. If r
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-You are looking to purchase a small piece of land in Hong Kong. The price is "only"  $$60 000 per square meter! The land title says the dimensions are  $$20 \text{m} × 30 \text{m}\text{.} $$ By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was  $$20\text{ºC} $$
+You are looking to purchase a small piece of land in Hong Kong. The price is "only"  $$60 000 $$ per square meter! The land title says the dimensions are  $$20 \text{m} × 30 \text{m}\text{.} $$ By how much would the total price change if you measured the parcel with a steel tape measure on a day when the temperature was  $$20\text{ºC} $$
  above normal?
 
 </div>
