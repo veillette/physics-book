@@ -56,6 +56,8 @@
     "deploy:validate": "node scripts/validate-deploy.js",
     "deploy:validate:github": "node scripts/validate-deploy.js --github",
     "deploy:validate:verbose": "node scripts/validate-deploy.js --verbose",
+    "crawl": "node scripts/crawl-all-pages.js",
+    "crawl:verbose": "node scripts/crawl-all-pages.js --verbose",
     "lint": "eslint scripts/**/*.js *.js --no-warn-ignored",
     "lint:fix": "eslint scripts/**/*.js *.js --fix --no-warn-ignored",
     "format": "prettier --write \"scripts/**/*.js\" \"*.{js,json,md}\" \".github/**/*.yml\"",
