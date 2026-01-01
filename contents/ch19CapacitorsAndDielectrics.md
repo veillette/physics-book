@@ -168,7 +168,7 @@ Capacitance of a Parallel Plate Capacitor
 
 $$A $$ is the area of one plate in square meters, and $$d $$ is the distance
 between the plates in meters. The constant $${\epsilon }_{0} $$ is the
-permittivity of free space; its numerical value in SI units is $${\epsilon }_ {0}=8.85 \times 10^{-12} \text{F/m} $$ . The units of F/m are equivalent to
+permittivity of free space; its numerical value in SI units is $${\epsilon }_{0}=8.85 \times 10^{-12} \text{F/m} $$ . The units of F/m are equivalent to
 $${\text{C}}^{2}\text{/N}·{\text{m}}^{2} $$ . The small numerical value of
 $${\epsilon }_{0} $$ is related to the large size of the farad. A parallel plate
 capacitor must have a large area to have a capacitance approaching a farad. (

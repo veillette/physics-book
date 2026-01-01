@@ -156,7 +156,7 @@ $${}^{239}\text{Pu} $$ .
 The reason $${}^{235}\text{U} $$ and $${}^{239}\text{Pu} $$ are easier to
 fission than $${}^{238}\text{U} $$ is that the nuclear force is more attractive
 for an even number of neutrons in a nucleus than for an odd number. Consider
-that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_ {94}^{239}{\text{P}}_{145} $$ has 145 neutrons, whereas $${}_ {92}^{238}{\text{U}}_{146} $$ has 146. When a neutron encounters a nucleus with 
+that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_{94}^{239}{\text{P}}_{145} $$ has 145 neutrons, whereas $${}_{92}^{238}{\text{U}}_{146} $$ has 146. When a neutron encounters a nucleus with 
 an odd number of neutrons, the nuclear force is more attractive, because the
 additional neutron will make the number even. About 2-MeV more energy is
 deposited in the resulting nucleus than would be the case if the number of
@@ -303,7 +303,7 @@ Start a chain reaction, or introduce non-radioactive isotopes to prevent one. Co
 * Nuclear fission is a reaction in which a nucleus is split.
 * Fission releases energy when heavy nuclei are split into medium-mass nuclei.
 * Self-sustained fission is possible, because neutron-induced fission also
-  produces neutrons that can induce other fissions, $$n+{}^{A}X\to {\text{FF}}_ {1}+{\text{FF}}_{2}+\text{xn} $$ , where $${\text{FF}}_{1} $$ and
+  produces neutrons that can induce other fissions, $$n+{}^{A}X\to {\text{FF}}_{1}+{\text{FF}}_{2}+\text{xn} $$ , where $${\text{FF}}_{1} $$ and
   $${\text{FF}}_{2} $$ are the two daughter nuclei, or fission fragments, and *x* is the number of neutrons produced.
 * A minimum mass, called the critical mass, should be present to achieve
   criticality.

@@ -103,14 +103,14 @@ as positive and west as negative. Thus, in this case, we have negative velocity.
 
 We can solve this problem by identifying $$ \Delta v $$ and $$ \Delta t $$ from
 the given information and then calculating the average acceleration directly
-from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_ {0}}{ t_{f}-t_{0}} $$.
+from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}{ t_{f}-t_{0}} $$.
 
 **Solution**
 
 1\. Identify the knowns. $$ v_{0}=0 $$, $$ v_{f}=-15.0 \ms $$
 (the negative sign indicates direction toward the west), $$ \Delta t=1\text{.80 s} $$.
 
-2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0 \ms $$, its change in velocity equals its final velocity: $$ \Delta v=v\_ {f}=-15.0 \ms $$. 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
+2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0 \ms $$, its change in velocity equals its final velocity: $$ \Delta v=v\_{f}=-15.0 \ms $$. 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
 and solve for the unknown $$ \overline{a} $$.
 
 <div class="equation">
@@ -352,7 +352,7 @@ since the train moves to the left and has a negative displacement.
 
 **Solution**
 
-1\. Identify the knowns. $$ x^{\prime}_{f}=3.75 \text{km} $$, $$ x^{\prime}_ {0}=5.25 \text{km} $$, $$ \Delta t=5.00 \text{min} $$.
+1\. Identify the knowns. $$ x^{\prime}_{f}=3.75 \text{km} $$, $$ x^{\prime}_{0}=5.25 \text{km} $$, $$ \Delta t=5.00 \text{min} $$.
 
 2\. Determine displacement, $$ \Delta x^{\prime} $$. We found $$ \Delta x^{\prime} $$ to be $$ -1.5 \text{km} $$ in [Example 2](#example2).
 

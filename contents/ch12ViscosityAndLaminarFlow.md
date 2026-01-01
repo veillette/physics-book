@@ -418,7 +418,7 @@ where, in this case, $${P}_{2} $$ is the pressure at the water works and $$R $$
 is the resistance of the water main. During times of heavy use, the flow rate
 $$Q $$ is large. This means that $${P}_{2}-{P}_{1} $$ must also be large. Thus
 $${P}_{1} $$ must decrease. It is correct to think of flow and resistance as
-causing the pressure to drop from $${P}_{2} $$ to $${P}_{1} $$ . $${P}_{2}-{P}_ {1}=RQ $$ is valid for both laminar and turbulent flows.
+causing the pressure to drop from $${P}_{2} $$ to $${P}_{1} $$ . $${P}_{2}-{P}_{1}=RQ $$ is valid for both laminar and turbulent flows.
 
 ![Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.](../resources/Figure_12_04_06.jpg 'During times of heavy use, there is a significant pressure drop in a water main, and ( P_1 ) supplied to users is significantly less than ( P_2 ) created at the water works. If the flow is very small, then the pressure drop is negligible, and ( P_2 \\approx P_1 ).')
 {: #Figure6}

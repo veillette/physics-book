@@ -8,7 +8,7 @@ chapterNumber: 7
 <div class="abstract" markdown="1">
 * Explain gravitational potential energy in terms of work done against gravity.
 * Show that the gravitational potential energy of an object of mass
- $$ m $$ at height $$ h $$ on Earth is given by $$ \PE_{\text{g}}=mgh $$.
+ $$m$$at height$$h$$on Earth is given by$$\PE_{\text{g}}=mgh$$.
 
 - Show how knowledge of the potential energy as a function of position can be
   used to simplify calculations and explain physical phenomena.
@@ -23,13 +23,13 @@ is a transformation of energy. The work done against the gravitational force
 goes into an important form of stored energy that we will explore in this
 section.
 
-Let us calculate the work done in lifting an object of mass $$ m $$ through a
-height $$ h $$, such as in [Figure 1](#Figure1). If the object is lifted straight
-up at constant speed, then the force needed to lift it is equal to its weight $$ mg $$. The work done on the mass is then $$ W = Fd = mgh $$. We define this to
-be the **gravitational potential energy** $$ \left(\PE_{\text{g}}\right) $$ put
+Let us calculate the work done in lifting an object of mass$$m$$through a
+height$$h$$, such as in [Figure 1](#Figure1). If the object is lifted straight
+up at constant speed, then the force needed to lift it is equal to its weight$$mg$$. The work done on the mass is then$$W = Fd = mgh$$. We define this to
+be the **gravitational potential energy**$$\left(\PE_{\text{g}}\right)$$put
 into (or gained by) the object-Earth system. This energy is associated with the
 state of separation between two objects that attract each other by the
-gravitational force. For convenience, we refer to this as the $$ \PE_{\text{g}} $$
+gravitational force. For convenience, we refer to this as the$$\PE_{\text{g}}$$
 
 gained by the object, recognizing that this is energy stored in the
 gravitational field of Earth. Why do we use the word “system”? Potential energy
@@ -50,9 +50,9 @@ the same for the first two rungs as for the last two rungs.
 
 Gravitational potential energy may be converted to other forms of energy, such
 as kinetic energy. If we release the mass, gravitational force will do an amount
-of work equal to $$ mgh $$ on it, thereby increasing its kinetic energy by that
+of work equal to$$mgh$$on it, thereby increasing its kinetic energy by that
 same amount (by the work-energy theorem). We will find it more useful to
-consider just the conversion of $$ \PE_{\text{g}} $$ to $$ \KE $$ without
+consider just the conversion of$$\PE_{\text{g}}$$to$$\KE$$without
 explicitly considering the intermediate step of work. (
 See [Example 2](#example2).) This shortcut makes it is easier to solve problems
 using energy (if possible) rather than explicitly using forces.
@@ -61,21 +61,23 @@ using energy (if possible) rather than explicitly using forces.
 {: #Figure1}
 
 More precisely, we define the *change* in gravitational potential energy
+$$ \Delta \PE\_{\text{g}} $$ to be
 
-\Delta \PE\_{\text{g}} $$ to be <div class="equation"> $$ \Delta \PE_{\text{g}}=mgh , $$ $$
+<div class="equation">
+$$\Delta \PE_{\text{g}}=mgh ,$$
 </div>
 
-where, for simplicity, we denote the change in height by $$ h $$ rather than the
-usual $$ \Delta h $$. Note that $$ h $$ is positive when the final height is
+where, for simplicity, we denote the change in height by $$h$$ rather than the
+usual $$\Delta h$$. Note that $$h$$ is positive when the final height is
 greater than the initial height, and vice versa. For example, if a 0.500-kg mass
 hung from a cuckoo clock is raised 1.00 m, then its change in gravitational
 potential energy is
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 mgh &=& \left(0.500 \kg \right)\left( 9.80\mss \right)\left(1.00 \m \right)\\
 mgh &=& 4.90 \kg \cdot \mmss= 4.90 \J .
-\end{array} $$ $$
+\end{array}$$
 </div>
 
 Note that the units of gravitational potential energy turn out to be joules, the
@@ -86,14 +88,14 @@ gravity that does the work_.
 
 ### Using Potential Energy to Simplify Calculations
 
-The equation $$ \Delta \PE\_{\text{g}}=mgh $$ applies for any path that has a
-change in height of $$ h $$, not just when the mass is lifted straight up. (
-See [Figure 2](#Figure2).) It is much easier to calculate $$ mgh $$
+The equation$$\Delta \PE\_{\text{g}}=mgh$$applies for any path that has a
+change in height of$$h$$, not just when the mass is lifted straight up. (
+See [Figure 2](#Figure2).) It is much easier to calculate$$mgh$$
 (a simple multiplication) than it is to calculate the work done along a
 complicated path. The idea of gravitational potential energy has the double
 advantage that it is very broadly applicable and it makes calculations easier.
-From now on, we will consider that any change in vertical position $$ h $$ of a
-mass $$ m $$ is accompanied by a change in gravitational potential energy $$ mgh $$
+From now on, we will consider that any change in vertical position$$h$$of a
+mass$$m$$is accompanied by a change in gravitational potential energy$$mgh$$
 , and we will avoid the equivalent but more difficult task of calculating work
 done by or against the gravitational force.
 
@@ -110,8 +112,8 @@ compressing by 0.500 cm), calculate the force on the knee joints.
 **Strategy**
 
 This person’s energy is brought to zero in this situation by the work done on
-him by the floor as he stops. The initial $$ \PE_{\text{g}} $$ is transformed
-into $$ \KE $$ as he falls. The work done by the floor reduces this kinetic
+him by the floor as he stops. The initial$$\PE_{\text{g}}$$is transformed
+into$$\KE$$as he falls. The work done by the floor reduces this kinetic
 energy to zero.
 
 **Solution**
@@ -119,36 +121,36 @@ energy to zero.
 The work done on the person by the floor as he stops is given by
 
 <div class="equation">
- $$ W=F d \cos{\theta} =-F d , $$
+ $$W=F d \cos{\theta} =-F d ,$$
 </div>
-with a minus sign because the displacement while stopping and the force from floor are in opposite directions $$ \left(\cos{\theta} =\cos{ 180^\circ }=-1\right) $$. The floor removes energy from the system, so it does negative work.
+with a minus sign because the displacement while stopping and the force from floor are in opposite directions$$\left(\cos{\theta} =\cos{ 180^\circ }=-1\right)$$. The floor removes energy from the system, so it does negative work.
 
 The kinetic energy the person has upon reaching the floor is the amount of
-potential energy lost by falling through height $$ h $$:
+potential energy lost by falling through height$$h$$:
 
 <div class="equation">
- $$ \KE=-\Delta \PE_{\text{g}}=-mgh , $$
+ $$\KE=-\Delta \PE_{\text{g}}=-mgh ,$$
 </div>
-The distance $$ d $$ that the person’s knees bend is much smaller than the height $$ h $$ of the
+The distance$$d$$that the person’s knees bend is much smaller than the height$$h$$of the
 fall, so the additional change in gravitational potential energy during the knee
 bend is ignored.
 
-The work $$ W $$ done by the floor on the person stops the person and brings the
+The work$$W$$done by the floor on the person stops the person and brings the
 person’s kinetic energy to zero:
 
 <div class="equation">
- $$ W=-\KE=mgh . $$
+ $$W=-\KE=mgh .$$
 </div>
-Combining this equation with the expression for $$ W $$ gives
+Combining this equation with the expression for$$W$$gives
 
 <div class="equation">
- $$ -F d =mgh . $$
+ $$-F d =mgh .$$
 </div>
-Recalling that $$ h $$ is negative because the person fell *down*,
+Recalling that$$h$$is negative because the person fell *down*,
 the force on the knee joints is given by
 
 <div class="equation">
- $$ F=-\frac{mgh }{d}=-\frac{ \left(60.0 \kg \right)\left(9.80 \mss \right)\left(-3.00 \m \right)}{5.00\times 10^{-3}\m }=3.53\times 10^{5}N. $$
+ $$F=-\frac{mgh }{d}=-\frac{ \left(60.0 \kg \right)\left(9.80 \mss \right)\left(-3.00 \m \right)}{5.00\times 10^{-3}\m }=3.53\times 10^{5}N.$$
 </div>
 
 **Discussion**
@@ -184,69 +186,69 @@ friction, so that the remaining force exerted by the track is the normal force,
 which is perpendicular to the direction of motion and does no work. The net work
 on the roller coaster is then done by gravity alone. The *loss* of gravitational
 potential energy from moving *downward*
-through a distance $$ h $$ equals the *gain* in kinetic energy. This can be
-written in equation form as $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. Using the
-equations for $$ \PE_{\text{g}} $$ and $$ \KE $$, we can solve for the final
-speed $$ v $$, which is the desired quantity.
+through a distance$$h$$equals the *gain* in kinetic energy. This can be
+written in equation form as$$-\Delta \PE_{\text{g}}=\Delta \KE$$. Using the
+equations for$$\PE_{\text{g}}$$and$$\KE$$, we can solve for the final
+speed$$v$$, which is the desired quantity.
 
 **Solution for (a)**
 
-Here the initial kinetic energy is zero, so that $$ \Delta \KE=\frac{1}{2}m v^{2} $$. The equation for change in potential energy states that $$ \Delta \PE_ {\text{g}}=mgh $$. Since $$ h $$ is negative in this case, we will rewrite this as $$ \Delta \PE_{\text{g}}=-mg \mid h\mid $$ to show the minus sign clearly.
+Here the initial kinetic energy is zero, so that$$\Delta \KE=\frac{1}{2}m v^{2}$$. The equation for change in potential energy states that$$\Delta \PE_{\text{g}}=mgh$$. Since$$h$$is negative in this case, we will rewrite this as$$\Delta \PE_{\text{g}}=-mg \mid h\mid$$to show the minus sign clearly.
 Thus,
 
 <div class="equation">
- $$ -\Delta \PE_{\text{g}}=\Delta \KE $$
+ $$-\Delta \PE_{\text{g}}=\Delta \KE$$
 </div>
 becomes
 
 <div class="equation">
- $$ mg \mid h\mid =\frac{1}{2}m v^{2}. $$
+ $$mg \mid h\mid =\frac{1}{2}m v^{2}.$$
 </div>
-Solving for $$ v $$, we find that mass cancels and that
+Solving for$$v$$, we find that mass cancels and that
 
 <div class="equation">
- $$ v=\sqrt{2g\mid h\mid }. $$
+ $$v=\sqrt{2g\mid h\mid }.$$
 </div>
 Substituting known values,
 
 <div class="equation">
-$$ \begin{array}{lll}
+$$\begin{array}{lll}
 v&=& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
 v&=&19.6 \ms .
-\end{array} $$
+\end{array}$$
 
 </div>
 
 **Solution for (b)**
 
-Again $$ -\Delta \PE_{\text{g}}=\Delta \KE $$. In this case there is initial
-kinetic energy, so $$ \Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2} $$.
+Again$$-\Delta \PE_{\text{g}}=\Delta \KE$$. In this case there is initial
+kinetic energy, so$$\Delta \KE=\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}$$.
 Thus,
 
 <div class="equation">
- $$ mg \mid h\mid =\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}. $$
+ $$mg \mid h\mid =\frac{1}{2}m v^{2}-\frac{1}{2}m v_{0}^{2}.$$
 </div>
 Rearranging gives
 
 <div class="equation">
- $$ \frac{1}{2} m v^{2}=mg \mid h\mid +\frac{1}{2}m  v_{0}^{2}. $$
+ $$\frac{1}{2} m v^{2}=mg \mid h\mid +\frac{1}{2}m  v_{0}^{2}.$$
 </div>
 This means that the final kinetic energy is the sum of the initial kinetic energy and the gravitational potential energy. Mass again cancels, and
 
 <div class="equation">
- $$ v=\sqrt{2g\mid h\mid +v_{0}^{2}}. $$
+ $$v=\sqrt{2g\mid h\mid +v_{0}^{2}}.$$
 </div>
-This equation is very similar to the kinematics equation $$ v=\sqrt{ v_{0}^{2}+2ad} $$,
+This equation is very similar to the kinematics equation$$v=\sqrt{ v_{0}^{2}+2ad}$$,
 but it is more general—the kinematics equation is valid only for constant
 acceleration, whereas our equation above is valid for any path regardless of
 whether the object moves with a constant acceleration. Now, substituting known
 values gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 v&=& \sqrt{2\left(9.80\mss \right)\left(20.0 \m \right)+\left(5.00 \ms \right)^{2}}\\
 v&=& 20.4 \ms .
-\end{array} $$ $$
+\end{array}$$
 </div>
 
 **Discussion and Implications**
@@ -262,7 +264,7 @@ will have the same final speed whether it falls 20.0 m straight down or takes a
 more complicated path like the one in the figure. Third, and perhaps
 unexpectedly, the final speed in part (b) is greater than in part (a), but by
 far less than 5.00 m/s. Finally, note that speed can be found at _any_ height
-along the way by simply using the appropriate value of $$ h $$ at the point of
+along the way by simply using the appropriate value of$$h$$at the point of
 interest.
 
 </div>
@@ -288,13 +290,13 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 - Work done against gravity in lifting an object becomes potential energy of the
   object-Earth system.
-- The change in gravitational potential energy, $$ \Delta \PE_{\text{g}} $$, is
-  $$ \Delta \PE_{g}=mgh $$, with $$ h $$ being the increase in height and $$ g $$ the acceleration due to gravity.
+- The change in gravitational potential energy,$$\Delta \PE_{\text{g}}$$, is
+  $$\Delta \PE_{g}=mgh$$, with$$h$$being the increase in height and$$g$$the acceleration due to gravity.
 - The gravitational potential energy of an object near Earth’s surface is due to
   its position in the mass-Earth system. Only differences in gravitational
-  potential energy, $$ \Delta \PE\_{g} $$, have physical significance.
+  potential energy,$$\Delta \PE\_{g}$$, have physical significance.
 - As an object descends without friction, its gravitational potential energy
-  changes into kinetic energy corresponding to increasing speed, so that $$ \Delta \KE=-\Delta \PE_{\text{g}} $$.
+  changes into kinetic energy corresponding to increasing speed, so that$$\Delta \KE=-\Delta \PE_{\text{g}}$$.
 
 ### Conceptual Questions
 
@@ -318,7 +320,7 @@ Does the work you do on a book when you lift it onto a shelf depend on the path 
 <div class="problem" markdown="1">
 A hydroelectric power facility (see [Figure 6](#Figure6)) converts the gravitational potential energy of water behind a dam to electric energy.
 (a) What is the gravitational potential energy relative to the generators of a lake of volume
-$$ 50.0 \text{km}^{3} $$ $$ \left( \text{mass}=5.00\times 10^{13}\kg \right)$$,
+$$50.0 \text{km}^{3}$$$$ \left( \text{mass}=5.00\times 10^{13}\kg \right)$$,
 given that the lake has an average height of 40.0 m above the generators?
 (b) Compare this with the energy stored in a 9-megaton fusion bomb.
 
@@ -329,44 +331,44 @@ given that the lake has an average height of 40.0 m above the generators?
 <div class="solution" markdown="1">
 **Strategy**
 
-(a) Use the gravitational potential energy formula $$ \PE_g = mgh $$ with the given mass and height.
-(b) Compare this to the energy of a 9-megaton fusion bomb, where 1 megaton TNT equivalent = $$ 4.18 \times 10^{15} $$ J.
+(a) Use the gravitational potential energy formula$$\PE_g = mgh$$with the given mass and height.
+(b) Compare this to the energy of a 9-megaton fusion bomb, where 1 megaton TNT equivalent =$$4.18 \times 10^{15}$$J.
 
 **Solution**
 
 **(a) Gravitational potential energy of the lake:**
 
 **Given:**
-- Mass of water: $$ m = 5.00 \times 10^{13}\text{ kg} $$
-- Average height above generators: $$ h = 40.0\text{ m} $$
+- Mass of water:$$m = 5.00 \times 10^{13}\text{ kg}$$
+- Average height above generators:$$h = 40.0\text{ m}$$
 
 <div class="equation">
-$$ \PE_g = mgh = (5.00 \times 10^{13}\text{ kg})(9.80\mss)(40.0\text{ m}) $$
+$$\PE_g = mgh = (5.00 \times 10^{13}\text{ kg})(9.80\mss)(40.0\text{ m})$$
 </div>
 
 <div class="equation">
-$$ \PE_g = 1.96 \times 10^{16}\text{ J} $$
+$$\PE_g = 1.96 \times 10^{16}\text{ J}$$
 </div>
 
 **(b) Comparison with 9-megaton fusion bomb:**
 
 Energy in a 9-megaton bomb:
 <div class="equation">
-$$ E_{bomb} = 9 \times 4.18 \times 10^{15}\text{ J} = 3.76 \times 10^{16}\text{ J} $$
+$$E_{bomb} = 9 \times 4.18 \times 10^{15}\text{ J} = 3.76 \times 10^{16}\text{ J}$$
 </div>
 
 Ratio:
 <div class="equation">
-$$ \frac{\PE_g}{E_{bomb}} = \frac{1.96 \times 10^{16}}{3.76 \times 10^{16}} = 0.52 $$
+$$\frac{\PE_g}{E_{bomb}} = \frac{1.96 \times 10^{16}}{3.76 \times 10^{16}} = 0.52$$
 </div>
 
 **Discussion**
 
-The gravitational potential energy stored in this reservoir is enormous - about $$ 2 \times 10^{16} $$ joules. This is approximately half the energy of a 9-megaton nuclear fusion bomb, which puts the scale of hydroelectric power into perspective. Unlike a bomb that releases its energy in an instant, hydroelectric facilities release this energy gradually over time, converting it to useful electrical power. A 50 km³ reservoir is quite large (for comparison, Lake Mead behind Hoover Dam holds about 35 km³), but the energy it stores demonstrates why hydroelectric power is such a significant energy source.
+The gravitational potential energy stored in this reservoir is enormous - about$$2 \times 10^{16}$$joules. This is approximately half the energy of a 9-megaton nuclear fusion bomb, which puts the scale of hydroelectric power into perspective. Unlike a bomb that releases its energy in an instant, hydroelectric facilities release this energy gradually over time, converting it to useful electrical power. A 50 km³ reservoir is quite large (for comparison, Lake Mead behind Hoover Dam holds about 35 km³), but the energy it stores demonstrates why hydroelectric power is such a significant energy source.
 
 **Answer**
 
-(a) The gravitational potential energy is $$ 1.96 \times 10^{16}\text{ J} $$.
+(a) The gravitational potential energy is$$1.96 \times 10^{16}\text{ J}$$.
 
 (b) The ratio is 0.52, meaning the lake stores about half the energy of a 9-megaton fusion bomb.
 
@@ -376,7 +378,7 @@ The gravitational potential energy stored in this reservoir is enormous - about 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) How much gravitational potential energy (relative to the ground on which it is built) is stored in the
-Great Pyramid of Cheops, given that its mass is about $$ 7 \times 10^{9}\kg $$
+Great Pyramid of Cheops, given that its mass is about$$7 \times 10^{9}\kg$$
 and its center of mass is 36.5 m above the surrounding ground?
 (b) How does this energy compare with the daily food intake of a person?
 
@@ -385,18 +387,18 @@ and its center of mass is 36.5 m above the surrounding ground?
 
 **Strategy**
 
-For part (a), we use the gravitational potential energy formula $$ \PE\_{g} = mgh $$, where $$ m $$ is the mass of the pyramid, $$ g = 9.80\mss $$, and $$ h $$ is the height of the center of mass.
+For part (a), we use the gravitational potential energy formula$$\PE\_{g} = mgh$$, where$$m$$is the mass of the pyramid,$$g = 9.80\mss$$, and$$h$$is the height of the center of mass.
 
-For part (b), we compare this energy to the typical daily food intake of about $$ 1.2 \times 10^{7}\J $$ (or 2400 kcal).
+For part (b), we compare this energy to the typical daily food intake of about$$1.2 \times 10^{7}\J$$(or 2400 kcal).
 
 **Solution for (a)**
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 \PE_{g} &=& mgh\\
 \PE_{g} &=& (7 \times 10^{9}\kg)(9.80\mss)(36.5\m)\\
 \PE_{g} &=& 2.50 \times 10^{12}\J \approx 2.5 \times 10^{12}\J
-\end{array} $$ $$
+\end{array}$$
 </div>
 
 **Solution for (b)**
@@ -404,16 +406,16 @@ $$ \begin{array}{lll} $$
 The ratio of the pyramid's potential energy to daily food intake is:
 
 <div class="equation">
- $$ \frac{2.50 \times 10^{12}\J}{1.2 \times 10^{7}\J} = 2.08 \times 10^{5} \approx 2.1 \times 10^{5} $$
+ $$\frac{2.50 \times 10^{12}\J}{1.2 \times 10^{7}\J} = 2.08 \times 10^{5} \approx 2.1 \times 10^{5}$$
 </div>
 
 **Discussion**
 
-The gravitational potential energy stored in the Great Pyramid is approximately $$ 2.5 \times 10^{12}\J $$, which is equivalent to about 210,000 days of food intake for one person, or roughly 575 years worth of food energy. This immense amount of potential energy was stored by doing work to lift millions of stone blocks to build the pyramid. The comparison with daily food intake helps illustrate the enormous amount of human labor that went into constructing this ancient monument over approximately 20 years.
+The gravitational potential energy stored in the Great Pyramid is approximately$$2.5 \times 10^{12}\J$$, which is equivalent to about 210,000 days of food intake for one person, or roughly 575 years worth of food energy. This immense amount of potential energy was stored by doing work to lift millions of stone blocks to build the pyramid. The comparison with daily food intake helps illustrate the enormous amount of human labor that went into constructing this ancient monument over approximately 20 years.
 
 **Answer**
 
-(a) The gravitational potential energy of the Great Pyramid is $$ 2.5 \times 10^{12}\text{ J} $$.
+(a) The gravitational potential energy of the Great Pyramid is$$2.5 \times 10^{12}\text{ J}$$.
 
 (b) This energy is about **210,000 times** the daily food intake of a person, equivalent to roughly 575 years of food energy.
 
@@ -430,25 +432,25 @@ Suppose a 350-g kookaburra (a large kingfisher bird) picks up a 75-g snake and r
 <div class="solution" markdown="1">
 **Strategy**
 
-Work done against gravity equals the change in gravitational potential energy: $$ W = mgh $$. Calculate separately for the snake and for the bird's own mass.
+Work done against gravity equals the change in gravitational potential energy:$$W = mgh$$. Calculate separately for the snake and for the bird's own mass.
 
 **Solution**
 
 **Given:**
-- Bird mass: $$ m_{bird} = 350\text{ g} = 0.350\text{ kg} $$
-- Snake mass: $$ m_{snake} = 75\text{ g} = 0.075\text{ kg} $$
-- Height raised: $$ h = 2.5\text{ m} $$
+- Bird mass:$$m_{bird} = 350\text{ g} = 0.350\text{ kg}$$
+- Snake mass:$$m_{snake} = 75\text{ g} = 0.075\text{ kg}$$
+- Height raised:$$h = 2.5\text{ m}$$
 
 **(a) Work done on the snake:**
 
 <div class="equation">
-$$ W_{snake} = m_{snake}gh = (0.075\text{ kg})(9.80\mss)(2.5\text{ m}) = 1.84\text{ J} \approx 1.8\text{ J} $$
+$$W_{snake} = m_{snake}gh = (0.075\text{ kg})(9.80\mss)(2.5\text{ m}) = 1.84\text{ J} \approx 1.8\text{ J}$$
 </div>
 
 **(b) Work done to raise the bird's center of mass:**
 
 <div class="equation">
-$$ W_{bird} = m_{bird}gh = (0.350\text{ kg})(9.80\mss)(2.5\text{ m}) = 8.58\text{ J} \approx 8.6\text{ J} $$
+$$W_{bird} = m_{bird}gh = (0.350\text{ kg})(9.80\mss)(2.5\text{ m}) = 8.58\text{ J} \approx 8.6\text{ J}$$
 </div>
 
 **Discussion**
@@ -467,43 +469,43 @@ The bird does significantly more work lifting itself (8.6 J) than lifting the sn
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 In [Example 2](#example2), we found that the speed of a roller coaster that had descended 20.0 m was only slightly greater when it had an initial speed of 5.00 m/s
-than when it started from rest. This implies that $$ \Delta \PE \gg \KE_{\text{i}} $$. Confirm this statement by taking the ratio of $$ \Delta \PE $$
-to $$ \KE_{\text{i}} $$. (Note that mass cancels.)
+than when it started from rest. This implies that$$\Delta \PE \gg \KE_{\text{i}}$$. Confirm this statement by taking the ratio of$$\Delta \PE$$
+to$$\KE_{\text{i}}$$. (Note that mass cancels.)
 
 </div>
 <div class="solution" markdown="1">
 
 **Strategy**
 
-We calculate the change in potential energy $$ \Delta \PE = mg\mid h\mid $$ and the initial kinetic energy $$ \KE_{\text{i}} = \frac{1}{2}mv_{0}^{2} $$, then find their ratio. The mass will cancel out.
+We calculate the change in potential energy$$\Delta \PE = mg\mid h\mid$$and the initial kinetic energy$$\KE_{\text{i}} = \frac{1}{2}mv_{0}^{2}$$, then find their ratio. The mass will cancel out.
 
 **Solution**
 
 The change in potential energy is:
 
 <div class="equation">
- $$ \Delta \PE = mg\mid h\mid = m(9.80\mss)(20.0\m) = m(196\text{ m}^{2}/\text{s}^{2}) $$
+ $$\Delta \PE = mg\mid h\mid = m(9.80\mss)(20.0\m) = m(196\text{ m}^{2}/\text{s}^{2})$$
 </div>
 
 The initial kinetic energy is:
 
 <div class="equation">
- $$ \KE_{\text{i}} = \frac{1}{2}mv_{0}^{2} = \frac{1}{2}m(5.00\ms)^{2} = m(12.5\text{ m}^{2}/\text{s}^{2}) $$
+ $$\KE_{\text{i}} = \frac{1}{2}mv_{0}^{2} = \frac{1}{2}m(5.00\ms)^{2} = m(12.5\text{ m}^{2}/\text{s}^{2})$$
 </div>
 
 The ratio is:
 
 <div class="equation">
- $$ \frac{\Delta \PE}{\KE_{\text{i}}} = \frac{m(196\text{ m}^{2}/\text{s}^{2})}{m(12.5\text{ m}^{2}/\text{s}^{2})} = \frac{196}{12.5} = 15.7 \approx 16 $$
+ $$\frac{\Delta \PE}{\KE_{\text{i}}} = \frac{m(196\text{ m}^{2}/\text{s}^{2})}{m(12.5\text{ m}^{2}/\text{s}^{2})} = \frac{196}{12.5} = 15.7 \approx 16$$
 </div>
 
 **Discussion**
 
-The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that $$ \Delta \PE \gg \KE\_{\text{i}} $$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy. This result is important in many practical situations: when objects fall from significant heights, their initial velocity has little effect on the final velocity.
+The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that$$\Delta \PE \gg \KE\_{\text{i}}$$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy. This result is important in many practical situations: when objects fall from significant heights, their initial velocity has little effect on the final velocity.
 
 **Answer**
 
-The ratio is **15.7** (approximately **16**), confirming that $$ \Delta \PE \gg \KE_{\text{i}} $$.
+The ratio is **15.7** (approximately **16**), confirming that$$\Delta \PE \gg \KE_{\text{i}}$$.
 
 </div>
 </div>
@@ -524,36 +526,36 @@ Use conservation of mechanical energy for a frictionless surface. The initial ki
 **Solution**
 
 **Given:**
-- Initial speed: $$ v_0 = 2.00\ms $$
-- Height gained: $$ h = 0.180\text{ m} $$
-- Mass: $$ m = 100\text{ g} = 0.100\text{ kg} $$ (though mass cancels out)
+- Initial speed:$$v_0 = 2.00\ms$$
+- Height gained:$$h = 0.180\text{ m}$$
+- Mass:$$m = 100\text{ g} = 0.100\text{ kg}$$(though mass cancels out)
 
-Apply conservation of energy, taking the initial position as the reference level ($$ h_0 = 0 $$):
+Apply conservation of energy, taking the initial position as the reference level ($$h_0 = 0$$):
 
 <div class="equation">
-$$ \frac{1}{2}mv_0^2 + mgh_0 = \frac{1}{2}mv_f^2 + mgh $$
+$$\frac{1}{2}mv_0^2 + mgh_0 = \frac{1}{2}mv_f^2 + mgh$$
 </div>
 
 <div class="equation">
-$$ \frac{1}{2}mv_0^2 + 0 = \frac{1}{2}mv_f^2 + mgh $$
+$$\frac{1}{2}mv_0^2 + 0 = \frac{1}{2}mv_f^2 + mgh$$
 </div>
 
-Divide by $$ m $$ and solve for $$ v_f $$:
+Divide by$$m$$and solve for$$v_f$$:
 
 <div class="equation">
-$$ \frac{1}{2}v_0^2 = \frac{1}{2}v_f^2 + gh $$
-</div>
-
-<div class="equation">
-$$ v_f^2 = v_0^2 - 2gh $$
+$$\frac{1}{2}v_0^2 = \frac{1}{2}v_f^2 + gh$$
 </div>
 
 <div class="equation">
-$$ v_f = \sqrt{v_0^2 - 2gh} = \sqrt{(2.00\ms)^2 - 2(9.80\mss)(0.180\m)} $$
+$$v_f^2 = v_0^2 - 2gh$$
 </div>
 
 <div class="equation">
-$$ v_f = \sqrt{4.00 - 3.528} = \sqrt{0.472} = 0.687\ms $$
+$$v_f = \sqrt{v_0^2 - 2gh} = \sqrt{(2.00\ms)^2 - 2(9.80\mss)(0.180\m)}$$
+</div>
+
+<div class="equation">
+$$v_f = \sqrt{4.00 - 3.528} = \sqrt{0.472} = 0.687\ms$$
 </div>
 
 **Discussion**
@@ -562,7 +564,7 @@ The toy car slows from 2.00 m/s to 0.687 m/s as it climbs 0.180 m. Most of its i
 
 **Answer**
 
-The final speed is $$ v_f = 0.687\ms $$, as required.
+The final speed is$$v_f = 0.687\ms$$, as required.
 
 </div>
 </div>
@@ -570,7 +572,7 @@ The final speed is $$ v_f = 0.687\ms $$, as required.
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 In a downhill ski race, surprisingly, little advantage is gained by getting a running start.
-(This is because the initial kinetic energy is small compared with the gain in gravitational potential energy on even small hills.) To demonstrate this, find the final speed and the time taken for a skier who skies 70.0 m along a $$ 30^\circ $$
+(This is because the initial kinetic energy is small compared with the gain in gravitational potential energy on even small hills.) To demonstrate this, find the final speed and the time taken for a skier who skies 70.0 m along a$$30^\circ$$
 slope neglecting friction:
 (a) Starting from rest.
 (b) Starting with an initial  speed of 2.50 m/s.
@@ -581,49 +583,49 @@ slope neglecting friction:
 
 **Strategy**
 
-We use conservation of energy: $$ \KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}} $$. The height descended is $$ h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m $$. For the time, we use kinematics with constant acceleration $$ a = g\sin{\theta} $$ down the slope.
+We use conservation of energy:$$\KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}} + \PE_{\text{f}}$$. The height descended is$$h = d\sin{\theta} = (70.0\m)\sin{30^\circ} = 35.0\m$$. For the time, we use kinematics with constant acceleration$$a = g\sin{\theta}$$down the slope.
 
 **Solution for (a)**
 
-Starting from rest ($$ v\_{0} = 0 $$):
+Starting from rest ($$v\_{0} = 0$$):
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 mgh &=& \frac{1}{2}mv^{2}\\
 v &=& \sqrt{2gh} = \sqrt{2(9.80\mss)(35.0\m)}\\
 v &=& \sqrt{686\text{ m}^{2}/\text{s}^{2}} = 26.2\ms
-\end{array} $$ $$
+\end{array}$$
 </div>
 
-For time, using $$ v^{2} = v\_{0}^{2} + 2ad $$ with $$ a = g\sin{30^\circ} = 4.90\mss $$:
+For time, using$$v^{2} = v\_{0}^{2} + 2ad$$with$$a = g\sin{30^\circ} = 4.90\mss$$:
 
 <div class="equation">
- $$ v = v_{0} + at \Rightarrow t = \frac{v-v_{0}}{a} = \frac{26.2\ms}{4.90\mss} = 5.35\s $$
+ $$v = v_{0} + at \Rightarrow t = \frac{v-v_{0}}{a} = \frac{26.2\ms}{4.90\mss} = 5.35\s$$
 </div>
 
 **Solution for (b)**
 
-With initial speed $$ v\_{0} = 2.50\ms $$:
+With initial speed$$v\_{0} = 2.50\ms$$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 \frac{1}{2}mv_{0}^{2} + mgh &=& \frac{1}{2}mv^{2}\\
 v &=& \sqrt{v_{0}^{2} + 2gh}\\
 v &=& \sqrt{(2.50\ms)^{2} + 2(9.80\mss)(35.0\m)}\\
 v &=& \sqrt{6.25 + 686}\text{ m/s} = \sqrt{692.25}\text{ m/s}\\
 v &=& 26.3\ms
-\end{array} $$ $$
+\end{array}$$
 </div>
 
-For time, using $$ v = v\_{0} + at $$:
+For time, using$$v = v\_{0} + at$$:
 
 <div class="equation">
- $$ t = \frac{v-v_{0}}{a} = \frac{26.3\ms - 2.50\ms}{4.90\mss} = 4.86\s $$
+ $$t = \frac{v-v_{0}}{a} = \frac{26.3\ms - 2.50\ms}{4.90\mss} = 4.86\s$$
 </div>
 
 **Discussion for (c)**
 
-The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The running start saves only about 0.5 seconds. However, in very competitive events, even a fraction of a second can mean the difference between winning and losing. Additionally, in actual skiing, friction and air resistance play important roles, and starting with higher speed may provide advantages in maintaining momentum through turns and rough sections of the course. The small difference in final speeds confirms the statement that $$ \Delta \PE \gg \KE_{\text{i}} $$ for the descent.
+The answer is somewhat surprising—the final speeds differ by only 0.1 m/s! The running start saves only about 0.5 seconds. However, in very competitive events, even a fraction of a second can mean the difference between winning and losing. Additionally, in actual skiing, friction and air resistance play important roles, and starting with higher speed may provide advantages in maintaining momentum through turns and rough sections of the course. The small difference in final speeds confirms the statement that$$\Delta \PE \gg \KE_{\text{i}}$$for the descent.
 
 **Answer**
 

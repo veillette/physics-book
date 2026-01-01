@@ -212,7 +212,7 @@ Calculating Polarization by Reflection
 
 All we need to solve these problems are the indices of refraction. Air has
 $${n}_{1}=1.00, $$ water has $${n}_{2}=1.333\text{,} $$ and crown glass has
-$$n^{\prime}_{2}=1.520 $$ . The equation $$\tan {\theta }_{\text{b}}=\frac{ {n}_ {2}}{ {n}_{1}} $$ can be directly applied to find $${\theta }_{\text{b}} $$ in
+$$n^{\prime}_{2}=1.520 $$ . The equation $$\tan {\theta }_{\text{b}}=\frac{ {n}_{2}}{ {n}_{1}} $$ can be directly applied to find $${\theta }_{\text{b}} $$ in
 each case.
 
 **Solution for (a)**

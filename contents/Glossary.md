@@ -32,7 +32,7 @@ uncertainty in position | | $${\epsilon }_{0} $$ | permittivity of free space |
 | $$\eta $$ | viscosity | | $$\theta $$ | angle between the force vector and the
 displacement vector | | $$\theta $$ | angle between two lines | | $$\theta $$ |
 contact angle | | $$\theta $$ | direction of the resultant | | $${\theta }_{b} $$ | Brewster\'s angle | | $${\theta }_{c} $$ | critical angle | | $$\kappa $$ |
-dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_ {0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | | 
+dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_{0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | | 
 $${\nu}_{e} $$ | electron neutrino | | $${\pi }^{+} $$ | positive pion | |
 $${\pi }^{-} $$ | negative pion | | $${\pi }^{0} $$ | neutral pion | | $$\rho $$
 | density | | $${\rho }_{\text{c} } $$ | critical density, the density needed to
@@ -75,12 +75,12 @@ reaction energy | | $$E $$ | relativistic total energy | | $$E $$ | total energy
 energy | | $$\text{EC} $$ | electron capture | | $${E}_{\text{cap} } $$ | energy
 stored in a capacitor | | $$\text{Eff} $$ | efficiency—the useful work output
 divided by the energy input | | $${\text{Eff}}_{\text{C}} $$ | Carnot efficiency
-| | $${E}_{\text{in}} $$ | energy consumed (food digested in humans) | | $${E}_ {\text{ind}} $$ | energy stored in an inductor | | $${E}_{\text{out}} $$ |
+| | $${E}_{\text{in}} $$ | energy consumed (food digested in humans) | | $${E}_{\text{ind}} $$ | energy stored in an inductor | | $${E}_{\text{out}} $$ |
 energy output | | $$e $$ | emissivity of an object | | $${e}^{+} $$ |
 antielectron or positron | | $$\text{eV} $$ | electron volt | | $$\text{F} $$ |
 farad (unit of capacitance, a coulomb per volt) | | $$\text{F} $$ | focal point
 of a lens | | $$\vb{F} $$ | force | | $$F $$ | magnitude of a force |
-| $$F $$ | restoring force | | $${F}_{\text{B}} $$ | buoyant force | | $${F}_ {\text{c}} $$ | centripetal force | | $${F}_{\text{i}} $$ | force input | |
+| $$F $$ | restoring force | | $${F}_{\text{B}} $$ | buoyant force | | $${F}_{\text{c}} $$ | centripetal force | | $${F}_{\text{i}} $$ | force input | |
 $${\vb{F}}_{\text{net}} $$ | net force | | $${F}_{\text{o}} $$ |
 force output | | $$\text{FM} $$ | frequency modulation | | $$f $$ | focal length
 | | $$f $$ | frequency | | $${f}_{0} $$ | resonant frequency of a resistance,
@@ -109,8 +109,8 @@ relativistic kinetic energy | | $${\text{KE}}_{\text{rot}} $$ | rotational
 kinetic energy | | $$\overline{\text{KE}} $$ | thermal energy | | $$\text{kg} $$
 | kilogram (a fundamental SI unit of mass) | | $$L $$ | angular momentum | |
 $$\text{L} $$ | liter | | $$L $$ | magnitude of angular momentum | | $$L $$ |
-self-inductance | | $$\ell $$ | angular momentum quantum number | | $${L}_ {\alpha } $$ | X-rays created when an electron falls into an $$n=2 $$ shell from
-the $$n=3 $$ shell | | $${L}_{e} $$ | electron total family number | | $${L}_ {\mu } $$ | muon family total number | | $${L}_{\tau } $$ | tau family total
+self-inductance | | $$\ell $$ | angular momentum quantum number | | $${L}_{\alpha } $$ | X-rays created when an electron falls into an $$n=2 $$ shell from
+the $$n=3 $$ shell | | $${L}_{e} $$ | electron total family number | | $${L}_{\mu } $$ | muon family total number | | $${L}_{\tau } $$ | tau family total
 number | | $${L}_{\text{f}} $$ | heat of fusion | | $${L}_{\text{f}} \text{and} {L}_{\text{v}} $$ | latent heat coefficients | | $${\text{L}}_{\text{orb}} $$ |
 orbital angular momentum | | $${L}_{\text{s}} $$ | heat of sublimation | |
 $${L}_{\text{v}} $$ | heat of vaporization | | $${L}_{z} $$ | _z_ - component of
@@ -122,7 +122,7 @@ SI unit of length) | | $$m $$ | order of interference | | $$m $$ | overall
 magnification (product of the individual magnifications) | | $$m\left({ }^{A}\text{X}\right) $$ | atomic mass of a nuclide | | $$\text{MA} $$ |
 mechanical advantage | | $${m}_{\text{e}} $$ | magnification of the eyepiece | |
 $${m}_{e} $$ | mass of the electron | | $${m}_{\ell } $$ | angular momentum
-projection quantum number | | $${m}_{n} $$ | mass of a neutron | | $${m}_ {\text{o}} $$ | magnification of the objective lens | | $$\text{mol} $$ | mole |
+projection quantum number | | $${m}_{n} $$ | mass of a neutron | | $${m}_{\text{o}} $$ | magnification of the objective lens | | $$\text{mol} $$ | mole |
 | $${m}_{p} $$ | mass of a proton | | $${m}_{\text{s}} $$ | spin projection
 quantum number | | $$N $$ | magnitude of the normal force | | $$\text{N} $$ |
 newton | | $$\vb{N} $$ | normal force | | $$N $$ | number of neutrons
@@ -132,10 +132,10 @@ Reynolds number | | $$\text{N}\cdot \text{m} $$ | newton-meter (work-energy
 unit) | | $$\text{N}\cdot \text{m} $$ | newtons times meters (SI unit of torque)
 | | $$\text{OE} $$ | other energy | | $$P $$ | power | | $$P $$ | power of a
 lens | | $$P $$ | pressure | | $$\vb{p} $$ | momentum | | $$p $$ |
-momentum magnitude | | $$p $$ | relativistic momentum | | $${\vb{p}}_ {\text{tot}} $$ | total momentum | | $${\vb{p}}_ {\text{tot}}^{\text{'}} $$ | total momentum some time later | | $${P}_ {\text{abs}} $$ | absolute pressure | | $${P}_{\text{atm}} $$ | atmospheric pressure | | $${P}_{\text{atm}} $$ | standard atmospheric pressure | | 
+momentum magnitude | | $$p $$ | relativistic momentum | | $${\vb{p}}_{\text{tot}} $$ | total momentum | | $${\vb{p}}_{\text{tot}}^{\text{'}} $$ | total momentum some time later | | $${P}_{\text{abs}} $$ | absolute pressure | | $${P}_{\text{atm}} $$ | atmospheric pressure | | $${P}_{\text{atm}} $$ | standard atmospheric pressure | | 
 $$\text{PE} $$ | potential energy | | $${\text{PE}}_{\text{el}} $$ | elastic
 potential energy | | $${\text{PE}}_{\text{elec}} $$ | electric potential energy
-| | $${\text{PE}}_{\text{s}} $$ | potential energy of a spring | | $${P}_ {\text{g}} $$ | gauge pressure | | $${P}_{\text{in}} $$ | power consumption or
+| | $${\text{PE}}_{\text{s}} $$ | potential energy of a spring | | $${P}_{\text{g}} $$ | gauge pressure | | $${P}_{\text{in}} $$ | power consumption or
 input | | $${P}_{\text{out}} $$ | useful power output going into useful work or
 a desired, form of energy | | $$Q $$ | latent heat | | $$Q $$ | net heat
 transferred into a system | | $$Q $$ | flow rate—volume per unit time flowing
@@ -153,7 +153,7 @@ equivalent man | | $$\text{rad} $$ | radian | | $$\text{RBE} $$ | relative
 biological effectiveness | | $$\text{RC} $$ | resistor and capacitor circuit | |
 $$\text{rms} $$ | root mean square | | $${r}_{n} $$ | radius of the *n*th H-atom
 orbit | | $${R}_{\text{p}} $$ | total resistance of a parallel connection | |
-$${R}_{\text{s}} $$ | total resistance of a series connection | | $${R}_ {\text{s}} $$ | Schwarzschild radius | | $$S $$ | entropy | |
+$${R}_{\text{s}} $$ | total resistance of a series connection | | $${R}_{\text{s}} $$ | Schwarzschild radius | | $$S $$ | entropy | |
 $$\vb{S} $$ | intrinsic spin (intrinsic angular momentum) | | $$S $$
 | magnitude of the intrinsic (internal) spin angular momentum | | $$S $$ | shear
 modulus | | $$S $$ | strangeness quantum number | | $$s $$ | quark flavor
@@ -171,14 +171,14 @@ velocity relative to another observer | | $$V $$ | electric potential | | $$V $$
 | terminal voltage | | $$\text{V} $$ | volt (unit) | | $$V $$ | volume | |
 $$\vb{v} $$ | relative velocity between two observers | | $$v $$ |
 speed of light in a material | | $$\vb{v} $$ | velocity | |
-$$\overline{\vb{v}} $$ | average fluid velocity | | $${V}_ {\text{B}}-{V}_{\text{A}} $$ | change in potential | | $${\vb{v}}_ {\text{d}} $$ | drift velocity | | $${V}_{\text{p}} $$ | transformer input voltage | | $${V}_{\text{rms}} $$ | rms voltage | | $${V}_{\text{s}} $$ | 
+$$\overline{\vb{v}} $$ | average fluid velocity | | $${V}_{\text{B}}-{V}_{\text{A}} $$ | change in potential | | $${\vb{v}}_{\text{d}} $$ | drift velocity | | $${V}_{\text{p}} $$ | transformer input voltage | | $${V}_{\text{rms}} $$ | rms voltage | | $${V}_{\text{s}} $$ | 
 transformer output voltage | | $${\vb{v}}_{\text{tot}} $$ | total
 velocity | | $${v}_{\text{w}} $$ | propagation speed of sound or other wave | |
 $${\vb{v}}_{\text{w}} $$ | wave velocity | | $$W $$ | work | | $$W $$
 | net work done by a system | | $$\text{W} $$ | watt | | $$w $$ | weight | |
-$${w}_{\text{fl}} $$ | weight of the fluid displaced by an object | | $${W}_ {\text{c}} $$ | total work done by all conservative forces | | $${W}_{\text{nc}} $$ | total work done by all nonconservative forces | | $${W}_{\text{out}} $$ | useful work output | | $$X $$ | amplitude | | $$\text{X} $$ | symbol for an 
+$${w}_{\text{fl}} $$ | weight of the fluid displaced by an object | | $${W}_{\text{c}} $$ | total work done by all conservative forces | | $${W}_{\text{nc}} $$ | total work done by all nonconservative forces | | $${W}_{\text{out}} $$ | useful work output | | $$X $$ | amplitude | | $$\text{X} $$ | symbol for an 
 element | | $${ }^{Z}{X}_{N} $$ | notation for a particular nuclide | | $$x $$ |
 deformation or displacement from equilibrium | | $$x $$ | displacement of a
-spring from its undeformed position | | $$x $$ | horizontal axis | | $${X}_ {\text{C}} $$ | capacitive reactance | | $${X}_{\text{L}} $$ | inductive
+spring from its undeformed position | | $$x $$ | horizontal axis | | $${X}_{\text{C}} $$ | capacitive reactance | | $${X}_{\text{L}} $$ | inductive
 reactance | | $${x}_{\text{rms}} $$ | root mean square diffusion distance | |
 $$y $$ | vertical axis | | $$Y $$ | elastic modulus or Young\'s modulus | | $$Z $$ | atomic number (number of protons in a nucleus) | | $$Z $$ | impedance |

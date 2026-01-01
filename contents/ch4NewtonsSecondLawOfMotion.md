@@ -69,7 +69,7 @@ of acceleration and net external force as the proportionality.
  $$ \vb{a} \propto \vb{F}_{\text{net}}, $$
 </div>
 
-where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}\_ {\text{net}} $$ is the **net external force**. (The net external force is the
+where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}\_{\text{net}} $$ is the **net external force**. (The net external force is the
 vector sum of all external forces and can be determined graphically, using the
 head-to-tail method, or analytically, using components. The techniques are the
 same as for the addition of other vectors, and are covered
@@ -142,7 +142,7 @@ verification.
 $$ \vb{F}_{\text{net}}=m\vb{a} $$ is used to define the units of force in terms
 of the three basic units for mass, length, and time. The SI unit of force is
 called the **newton** (abbreviated N) and is the force needed to accelerate a
-1-kg system at the rate of $$ 1\mss $$. That is, since $$ \vb{F}_ {\text{net}}=m\vb{a} $$,
+1-kg system at the rate of $$ 1\mss $$. That is, since $$ \vb{F}_{\text{net}}=m\vb{a} $$,
 
 <div class="equation">
  $$ 1 \N =1 \kg \cdot \mss . $$
@@ -170,7 +170,7 @@ experiences only the downward force of gravity, which has magnitude $$ w $$.
 Newton’s second law states that the magnitude of the net external force on an
 object is $$ \mag{F}\_{\text{net}}=m \mag{a} $$.
 
-Since the object experiences only the downward force of gravity,$$ F\_ {\text{net}}=w $$. We know that the acceleration of an object due to gravity is
+Since the object experiences only the downward force of gravity,$$ F\_{\text{net}}=w $$. We know that the acceleration of an object due to gravity is
 $$ g $$, or $$ a=g $$. Substituting these into Newton’s second law gives
 
 <div class="note" data-label="" markdown="1">
@@ -282,7 +282,7 @@ the ground. The mass of the mower is 24 kg. What is its acceleration?
 **Strategy**
 
 Since $$ \vb{F}_{\text{net}} $$ and $$ m $$ are given, the acceleration can be
-calculated directly from Newton’s second law as stated in $$ \vb{F}_ {\text{net}}=m\vb{a} $$.
+calculated directly from Newton’s second law as stated in $$ \vb{F}_{\text{net}}=m\vb{a} $$.
 
 **Solution**
 
@@ -410,7 +410,7 @@ third and final law of motion.
 * Newton’s second law of motion states that the acceleration of a system is
   directly proportional to and in the same direction as the net external force
   acting on the system, and inversely proportional to its mass.
-* In equation form, Newton’s second law of motion is $$ \vb{a}=\frac{ \vb{F}_ {\text{net}}}{m} $$.
+* In equation form, Newton’s second law of motion is $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} $$.
 * This is often written in the more familiar form:
   $$ \vb{F}_{\text{net}}=m\vb{a} $$.
 * The weight $$ \vb{w} $$ of an object is defined as the force of gravity acting

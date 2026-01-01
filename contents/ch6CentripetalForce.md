@@ -21,31 +21,31 @@ Any net force causing uniform circular motion is called a **centripetal force**.
 The direction of a centripetal force is toward the center of curvature, the
 same as the direction of centripetal acceleration. According to Newton’s second
 law of motion, net force is mass times acceleration:
-$$ \vb{F}_\text{net} =m \vb{a} $$. For uniform circular motion, the acceleration
-is the centripetal acceleration— $$\vb{a}=\vb{a}_\text{c}$$. Thus, the magnitude
-of centripetal force $$\mag{F\_\text{c} } $$ is
+$$\vb{F}_\text{net} =m \vb{a}$$. For uniform circular motion, the acceleration
+is the centripetal acceleration—$$\vb{a}=\vb{a}_\text{c}$$. Thus, the magnitude
+of centripetal force$$\mag{F\_\text{c} }$$is
 
 <div class="equation">
-$$ \mag{F_\text{c}} = m \mag{ \ac }. $$
+$$\mag{F_\text{c}} = m \mag{ \ac }.$$
 </div>
 
-By using the expressions for the magnitude of the centripetal acceleration $$ \mag{ \ac } $$ from $$ \ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
-expressions for the magnitude of the centripetal force $$ \mag{F\_\text{c} } $$
+By using the expressions for the magnitude of the centripetal acceleration$$\mag{ \ac }$$from$$\ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
+expressions for the magnitude of the centripetal force$$\mag{F\_\text{c} }$$
 in terms of mass, velocity, angular velocity, and radius of curvature:
 
 <div class="equation">
- $$ F_\text{c}=m\frac{ v^{2}}{r}; F_\text{c}=m r \omega^{2}. $$
+ $$F_\text{c}=m\frac{ v^{2}}{r}; F_\text{c}=m r \omega^{2}.$$
 </div>
 
 You may use whichever expression for centripetal force is more convenient.
-Centripetal force $$ \vb{F}_{\text{c}} $$ is always perpendicular to the path
-and pointing to the center of curvature, because $$ \vb{a}_{\text{c}} $$ is
+Centripetal force$$\vb{F}_{\text{c}}$$is always perpendicular to the path
+and pointing to the center of curvature, because$$\vb{a}_{\text{c}}$$is
 perpendicular to the velocity and pointing to the center of curvature.
 
-Note that if you solve the first expression for $$ r $$, you get
+Note that if you solve the first expression for$$r$$, you get
 
 <div class="equation">
-$$ r=\frac{ mv^{2}}{ F_\text{c}}. $$
+$$r=\frac{ mv^{2}}{ F_\text{c}}.$$
 </div>
 
 This implies that for a given mass and velocity, a large centripetal force
@@ -66,13 +66,13 @@ car from slipping (see [Figure 2](#Figure2)).
 
 **Strategy and Solution for (a)**
 
-We know that $$ F\_{\text{c}}=\frac{ m v^{2} }{r} $$. Thus,
+We know that$$F\_{\text{c}}=\frac{ m v^{2} }{r}$$. Thus,
 
 <div class="equation">
-$$ F_{\text{c}}=\frac{m v^{2}}{r} $$
+$$F_{\text{c}}=\frac{m v^{2}}{r}$$
 =\frac{ \left( 900 \kg \right)
 \left(25.0 \ms \right)^{2}}
-{\left(500 \m \right)}=1125 \N . $$ $$
+{\left(500 \m \right)}=1125 \N .$$$$
 </div>
 
 **Strategy for (b)**
@@ -81,28 +81,28 @@ $$ F_{\text{c}}=\frac{m v^{2}}{r} $$
 ground) curve. Friction is to the left, keeping the car from slipping, and
 because it is the only horizontal force acting on the car, the friction is the
 centripetal force in this case. We know that the maximum static friction (at
-which the tires roll but do not slip) is $$ \mu_{\s}N $$, where $$ \mu_{\s} $$
+which the tires roll but do not slip) is$$\mu_{\s}N$$, where$$\mu_{\s}$$
 is the static coefficient of friction and N is the normal force. The normal
-force equals the car’s weight on level ground, so that $$ N=mg $$. Thus the
+force equals the car’s weight on level ground, so that$$N=mg$$. Thus the
 centripetal force in this situation is
 
 <div class="equation">
-$$ F_{\text{c}}=f=\mu_{\s} N=\mu_{\s} mg . $$
+$$F_{\text{c}}=f=\mu_{\s} N=\mu_{\s} mg .$$
 </div>
 Now we have a relationship between centripetal force and the coefficient of friction.
-Using the first expression for $$ F_{\text{c}} $$
+Using the first expression for $$F_{\text{c}}$$
  from the equation
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 {F}_{\text{c}}&=&m\frac{ v^{2}}{r}\\
 {F}_{\text{c}}&=& mr \omega^{2}
-\end{array}, $$ </div> <div class="equation"> $$ m\frac{ v^{2}}{r}=\mu_{\s}mg . $$ $$
+\end{array},$$</div> <div class="equation">$$m\frac{ v^{2}}{r}=\mu_{\s}mg .$$
 </div>
 
-We solve this for $$ \mu\_{\s}$$, noting that mass cancels, and obtain
+We solve this for $$\mu\_{\s}$$, noting that mass cancels, and obtain
 
 <div class="equation">
-$$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
+$$\mu_{\s}=\frac{ v^{2}}{rg}.$$
 </div>
 
 **Solution for (b)**
@@ -110,7 +110,7 @@ $$ \mu_{\s}=\frac{ v^{2}}{rg}. $$
 Substituting the knowns,
 
 <div class="equation">
-$$ \mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500 \m \right)\left(9.80 \mss \right)}=0.13. $$ 
+$$\mu_{\s}=\frac{ \left(25.0 \ms \right)^{2}} {\left(500 \m \right)\left(9.80 \mss \right)}=0.13.$$ 
 </div>
 (Because
 coefficients of friction are approximate, the answer is given to only two
@@ -118,11 +118,11 @@ digits.)
 
 **Discussion**
 
-We could also solve part (a) using the first expression in $$ \left. \begin{array}{lll} F_{\text{c}}&=&m\frac{ v^{2}}{r}\\ F_ {\text{c}}&=&mr\omega^{2} \end{array} \right\} , $$ because $$m$$, $$v$$, and
-$$r$$ are given. The coefficient of friction found in part (b) is much smaller
+We could also solve part (a) using the first expression in$$\left. \begin{array}{lll} F_{\text{c}}&=&m\frac{ v^{2}}{r}\\ F_{\text{c}}&=&mr\omega^{2} \end{array} \right\} ,$$because$$m$$,$$v$$, and
+$$r$$are given. The coefficient of friction found in part (b) is much smaller
 than is typically found between tires and roads. The car will still negotiate
 the curve if the coefficient is greater than 0.13, because static friction is a
-responsive force, being able to assume a value less than but no more than $$ \mu_{\s} N $$. A higher coefficient would also allow the car to negotiate the
+responsive force, being able to assume a value less than but no more than$$\mu_{\s} N$$. A higher coefficient would also allow the car to negotiate the
 curve at a higher speed, but if the coefficient of friction is less, the safe
 speed would be less than 25 m/s. Note that mass cancels, implying that in this
 example, it does not matter how heavily loaded the car is to negotiate the turn.
@@ -136,12 +136,12 @@ normal force would be less as will be discussed below.
 {: #Figure2}
 
 Let us now consider **banked curves**, where the slope of the road helps you
-negotiate the curve. See [Figure 3](#Figure3). The greater the angle $$ \theta $$,
+negotiate the curve. See [Figure 3](#Figure3). The greater the angle$$\theta$$,
 the faster you can take the curve. Race tracks for bikes as well as cars, for
 example, often have steeply banked curves. In an “ideally banked curve,” the
-angle $$ \theta $$ is such that you can negotiate the curve at a certain speed
+angle$$\theta$$is such that you can negotiate the curve at a certain speed
 without the aid of friction between the tires and the road. We will derive an
-expression for $$ \theta $$ for an ideally banked curve and consider an example
+expression for$$\theta$$for an ideally banked curve and consider an example
 related to it.
 
 For **ideal banking**, the net external force equals the horizontal centripetal
@@ -152,57 +152,57 @@ is most convenient to consider components along perpendicular axes—in this cas
 the vertical and horizontal directions.
 
 [Figure 3](#Figure3) shows a free body diagram for a car on a frictionless banked
-curve. If the angle $$ \theta $$ is ideal for the speed and radius, then the net
+curve. If the angle$$\theta$$is ideal for the speed and radius, then the net
 external force will equal the necessary centripetal force. The only two external
-forces acting on the car are its weight $$ \vb{w} $$ and the normal force of the
-road $$ \vb{N} $$. (A frictionless surface can only exert a force perpendicular
+forces acting on the car are its weight$$\vb{w}$$and the normal force of the
+road$$\vb{N}$$. (A frictionless surface can only exert a force perpendicular
 to the surface—that is, a normal force.) These two forces must add to give a net
 external force that is horizontal toward the center of curvature and has
-magnitude $$ m \frac{v^{2}}{r} $$. Because this is the crucial force and it is
+magnitude$$m \frac{v^{2}}{r}$$. Because this is the crucial force and it is
 horizontal, we use a coordinate system with vertical and horizontal axes. Only
 the normal force has a horizontal component, and so this must equal the
 centripetal force—that is,
 
 <div class="equation">
- $$ N\sin{\theta} =\frac{ mv^{2}}{r}. $$
+ $$N\sin{\theta} =\frac{ mv^{2}}{r}.$$
 </div>
 
 Because the car does not leave the surface of the road, the net vertical force
 must be zero, meaning that the vertical components of the two external forces
 must be equal in magnitude and opposite in direction. From the figure, we see
-that the vertical component of the normal force is $$ N\cos{\theta} $$, and the
+that the vertical component of the normal force is$$N\cos{\theta}$$, and the
 only other vertical force is the car’s weight. These must be equal in magnitude;
 thus,
 
 <div class="equation">
- $$ N\cos{\theta} =mg . $$
+ $$N\cos{\theta} =mg .$$
 </div>
 
-Now we can combine the last two equations to eliminate $$ N $$ and get an
-expression for $$ \theta $$, as desired. Solving the second equation for $$ N=mg/\left( \cos{\theta} \right) $$, and substituting this into the first yields
+Now we can combine the last two equations to eliminate$$N$$and get an
+expression for$$\theta$$, as desired. Solving the second equation for$$N=mg/\left( \cos{\theta} \right)$$, and substituting this into the first yields
 
 <div class="equation">
- $$ mg \frac{ \sin{\theta} }{\cos{\theta} }=\frac{ m v^{2}}{r} $$
+ $$mg \frac{ \sin{\theta} }{\cos{\theta} }=\frac{ m v^{2}}{r}$$
 </div>
 
 <div class="equation">
-$$ \begin{array}{rrr} $$
+$$\begin{array}{rrr}
 mg \tan\left(\theta \right)&=& \frac{ mv^{2}}{r}\\
 \tan{\theta} &=& \frac{ v^{2}}{rg} .
-\end{array} $$ $$
+\end{array}$$
 </div>
 
 Taking the inverse tangent gives
 
 <div class="equation">
- $$ \theta ={\tan}^{-1}\left(\frac{ v^{2}}{rg}\right)\text{(ideally banked curve, no friction).} $$
+ $$\theta ={\tan}^{-1}\left(\frac{ v^{2}}{rg}\right)\text{(ideally banked curve, no friction).}$$
 </div>
 
-This expression can be understood by considering how $$ \theta $$ depends on
-$$v$$ and $$r$$. A large $$\theta $$ will be obtained for a large $$v$$ and a
-small $$r$$. That is, roads must be steeply banked for high speeds and sharp
+This expression can be understood by considering how$$\theta$$depends on
+$$v$$and$$r$$. A large$$\theta$$will be obtained for a large$$v$$and a
+small$$r$$. That is, roads must be steeply banked for high speeds and sharp
 curves. Friction helps, because it allows you to take the curve at greater or
-lower speed than if the curve is frictionless. Note that $$\theta $$ does not
+lower speed than if the curve is frictionless. Note that$$\theta$$does not
 depend on the mass of the vehicle.
 
 ![In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multiply sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ](../resources/Figure_06_03_03.jpg 'The car on this banked curve is moving away and turning to the left.')
@@ -225,20 +225,20 @@ appears on the left-hand side and then substitute known quantities.
 Starting with
 
 <div class="equation">
- $$ \tan{\theta} =\frac{ v^{2}}{r g} $$
+ $$\tan{\theta} =\frac{ v^{2}}{r g}$$
 </div>
 we get
 
 <div class="equation">
- $$ v=\sqrt{rg \tan{\theta}}. $$
+ $$v=\sqrt{rg \tan{\theta}}.$$
 </div>
-Noting that $$\tan{65.0^\circ } = 2.14 $$, we obtain
+Noting that$$\tan{65.0^\circ } = 2.14$$, we obtain
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 v&=& \sqrt{\left(100 \m \right) \left(9.80 \mss \right)\left(2.14\right)}\\
 v&=& 45.8 \ms .
-\end{array} $$ $$
+\end{array}$$
 </div>
 
 **Discussion**
@@ -263,24 +263,24 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
 
 ### Section Summary
 
-- Centripetal force $$ \vb{F}\_\text{c} $$ is any force causing uniform circular
+- Centripetal force$$\vb{F}\_\text{c}$$is any force causing uniform circular
   motion. It is a “center-seeking” force that always points toward the center of
-  rotation. It is perpendicular to linear velocity $$ v $$ and has magnitude
+  rotation. It is perpendicular to linear velocity$$v$$and has magnitude
 
   <div class="equation">
-  $$ F_{\text{c}}= m \ac , $$
+  $$F_{\text{c}}= m \ac ,$$
   </div>
 
 which can also be expressed as
 
   <div class="equation">
-$$  \begin{array}{c} $$
+$$  \begin{array}{c}
    F_{\text{c}}=m\frac{ v^{2}}{r}\\
  \begin{array}{}
    \text{or}\\
   F_{\text{c}}=mr \omega^{2}
  \end{array}
-\end{array} $$ $$
+\end{array}$$
   </div>
 
 ### Conceptual Questions
@@ -394,42 +394,42 @@ merry-go-round that rotates at 3.00 rev/min if she is 8.00 m from its center?
 
 **Strategy**
 
-We'll convert angular velocities to rad/s, then use $$ F_c = mr\omega^2 $$ to calculate the centripetal force. We'll compare each to the child's weight $$ w = mg $$.
+We'll convert angular velocities to rad/s, then use$$F_c = mr\omega^2$$to calculate the centripetal force. We'll compare each to the child's weight$$w = mg$$.
 
 **Solution**
 
 (a) Convert angular velocity and calculate centripetal force:
 
 <div class="equation">
-$$ \omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 4.19\text{ rad/s} $$
+$$\omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 4.19\text{ rad/s}$$
 </div>
 
 <div class="equation">
-$$ F_c = mr\omega^2 = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0)(1.25)(17.6) = 483\text{ N} $$
+$$F_c = mr\omega^2 = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0)(1.25)(17.6) = 483\text{ N}$$
 </div>
 
 (b) For the amusement park ride:
 
 <div class="equation">
-$$ \omega = 3.00\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 0.314\text{ rad/s} $$
+$$\omega = 3.00\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = 0.314\text{ rad/s}$$
 </div>
 
 <div class="equation">
-$$ F_c = mr\omega^2 = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0)(8.00)(0.0987) = 17.4\text{ N} $$
+$$F_c = mr\omega^2 = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0)(8.00)(0.0987) = 17.4\text{ N}$$
 </div>
 
 (c) Calculate the child's weight and compare:
 
 <div class="equation">
-$$ w = mg = (22.0\text{ kg})(9.80\text{ m/s}^2) = 216\text{ N} $$
+$$w = mg = (22.0\text{ kg})(9.80\text{ m/s}^2) = 216\text{ N}$$
 </div>
 
 <div class="equation">
-$$ \frac{F_{c,a}}{w} = \frac{483\text{ N}}{216\text{ N}} = 2.24 $$
+$$\frac{F_{c,a}}{w} = \frac{483\text{ N}}{216\text{ N}} = 2.24$$
 </div>
 
 <div class="equation">
-$$ \frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0807 $$
+$$\frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0807$$
 </div>
 
 **Discussion**
@@ -448,20 +448,20 @@ Calculate the centripetal force on the end of a 100 m (radius) wind turbine blad
 
 **Strategy**
 
-We need to find the centripetal force using $$ F_c = mr\omega^2 $$. First, we'll convert the angular velocity from rev/s to rad/s, then calculate the centripetal force.
+We need to find the centripetal force using$$F_c = mr\omega^2$$. First, we'll convert the angular velocity from rev/s to rad/s, then calculate the centripetal force.
 
 **Solution**
 
 Convert angular velocity to rad/s:
 
 <div class="equation">
-$$ \omega = 0.5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} = \pi\text{ rad/s} = 3.14\text{ rad/s} $$
+$$\omega = 0.5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} = \pi\text{ rad/s} = 3.14\text{ rad/s}$$
 </div>
 
 Calculate the centripetal force:
 
 <div class="equation">
-$$ F_c = mr\omega^2 = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4)(100)(9.87) = 3.95 \times 10^3\text{ N} $$
+$$F_c = mr\omega^2 = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4)(100)(9.87) = 3.95 \times 10^3\text{ N}$$
 </div>
 
 **Discussion**
@@ -480,30 +480,30 @@ What is the ideal banking angle for a gentle turn of 1.20 km radius on a highway
 
 **Strategy**
 
-For an ideally banked curve, we use $$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) $$. We'll need to convert the speed from km/h to m/s.
+For an ideally banked curve, we use$$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right)$$. We'll need to convert the speed from km/h to m/s.
 
 **Solution**
 
 Convert the speed to m/s:
 
 <div class="equation">
-$$ v = 105\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \times \frac{1\text{ h}}{3600\text{ s}} = 29.2\text{ m/s} $$
+$$v = 105\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \times \frac{1\text{ h}}{3600\text{ s}} = 29.2\text{ m/s}$$
 </div>
 
 Convert the radius to meters:
 
 <div class="equation">
-$$ r = 1.20\text{ km} \times 1000 = 1200\text{ m} $$
+$$r = 1.20\text{ km} \times 1000 = 1200\text{ m}$$
 </div>
 
 Calculate the ideal banking angle:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(29.2\text{ m/s})^2}{(1200\text{ m})(9.80\text{ m/s}^2)}\right) $$
+$$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(29.2\text{ m/s})^2}{(1200\text{ m})(9.80\text{ m/s}^2)}\right)$$
 </div>
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{853}{11{,}760}\right) = \tan^{-1}(0.0725) = 4.14° $$
+$$\theta = \tan^{-1}\left(\frac{853}{11{,}760}\right) = \tan^{-1}(0.0725) = 4.14°$$
 </div>
 
 **Discussion**
@@ -522,30 +522,30 @@ What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?
 
 **Strategy**
 
-For an ideally banked curve (no friction needed), we use the relationship $$ \tan\theta = \frac{v^2}{rg} $$. We'll solve for $$ v $$ and substitute the known values.
+For an ideally banked curve (no friction needed), we use the relationship$$\tan\theta = \frac{v^2}{rg}$$. We'll solve for$$v$$and substitute the known values.
 
 **Solution**
 
 Starting with the ideal banking equation:
 
 <div class="equation">
-$$ \tan\theta = \frac{v^2}{rg} $$
+$$\tan\theta = \frac{v^2}{rg}$$
 </div>
 
-Solve for $$ v $$:
+Solve for$$v$$:
 
 <div class="equation">
-$$ v^2 = rg\tan\theta $$
+$$v^2 = rg\tan\theta$$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{rg\tan\theta} $$
+$$v = \sqrt{rg\tan\theta}$$
 </div>
 
-Substitute known values ($$ r = 100 $$ m, $$ g = 9.80 $$ m/s², $$ \theta = 20.0° $$):
+Substitute known values ($$r = 100$$m,$$g = 9.80$$m/s²,$$\theta = 20.0°$$):
 
 <div class="equation">
-$$ v = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(20.0°)} = \sqrt{(980)(0.364)} = \sqrt{357} = 18.9\text{ m/s} $$
+$$v = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(20.0°)} = \sqrt{(980)(0.364)} = \sqrt{357} = 18.9\text{ m/s}$$
 </div>
 
 **Discussion**
@@ -567,47 +567,47 @@ The ideal speed to take the 100 m radius curve banked at 20.0° is 18.9 m/s (abo
 <div class="solution" markdown="1">
 **Strategy**
 
-For an ideally banked curve (no friction required), we use the relationship $$ \tan\theta = \frac{v^2}{rg} $$. We'll solve for the radius $$ r $$, then calculate the centripetal acceleration using $$ a_c = \frac{v^2}{r} $$ and compare it to $$ g $$.
+For an ideally banked curve (no friction required), we use the relationship$$\tan\theta = \frac{v^2}{rg}$$. We'll solve for the radius$$r$$, then calculate the centripetal acceleration using$$a_c = \frac{v^2}{r}$$and compare it to$$g$$.
 
 **Solution**
 
 **Given:**
-- Banking angle: $$ \theta = 75.0° $$
-- Speed: $$ v = 30.0 \ms $$
+- Banking angle:$$\theta = 75.0°$$
+- Speed:$$v = 30.0 \ms$$
 
 **(a) Radius of the turn:**
 
 From the ideal banking formula:
 
 <div class="equation">
-$$ \tan\theta = \frac{v^2}{rg} $$
+$$\tan\theta = \frac{v^2}{rg}$$
 </div>
 
-Solving for $$ r $$:
+Solving for$$r$$:
 
 <div class="equation">
-$$ r = \frac{v^2}{g\tan\theta} $$
+$$r = \frac{v^2}{g\tan\theta}$$
 </div>
 
 Substitute values:
 
 <div class="equation">
-$$ r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900}{(9.80)(3.732)} = \frac{900}{36.6} = 24.6\text{ m} $$
+$$r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900}{(9.80)(3.732)} = \frac{900}{36.6} = 24.6\text{ m}$$
 </div>
 
 **(b) Centripetal acceleration:**
 
 <div class="equation">
-$$ a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900}{24.6} = 36.6\text{ m/s}^2 $$
+$$a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900}{24.6} = 36.6\text{ m/s}^2$$
 </div>
 
 **(c) Comparison to g:**
 
 <div class="equation">
-$$ \frac{a_c}{g} = \frac{36.6\text{ m/s}^2}{9.80\text{ m/s}^2} = 3.73 $$
+$$\frac{a_c}{g} = \frac{36.6\text{ m/s}^2}{9.80\text{ m/s}^2} = 3.73$$
 </div>
 
-So $$ a_c = 3.73g $$.
+So$$a_c = 3.73g$$.
 
 **Discussion**
 
@@ -628,11 +628,11 @@ The centripetal acceleration of 3.73g means that the bobsledders experience a fo
 <div class="problem" markdown="1">
 Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in [Figure 8](#Figure8). To be stable, the force exerted by the ground must be on a line going through the center of gravity. The force on the bicycle wheel can be resolved into two perpendicular components—friction parallel to the road (this must supply the centripetal force), and the vertical normal force (which must equal the system's weight).
 
-(a) Show that $$ \theta $$
-(as defined in the figure) is related to the speed $$ v $$ and radius of
-curvature $$ r $$ of the turn in the same way as for an ideally banked
-roadway—that is, $$ \theta ={\tan}^{-1}{v}^{2}/rg $$
-(b) Calculate $$ \theta $$ for a 12.0 m/s turn of radius 30.0 m (as in a race).
+(a) Show that$$\theta$$
+(as defined in the figure) is related to the speed$$v$$and radius of
+curvature$$r$$of the turn in the same way as for an ideally banked
+roadway—that is,$$\theta ={\tan}^{-1}{v}^{2}/rg$$
+(b) Calculate$$\theta$$for a 12.0 m/s turn of radius 30.0 m (as in a race).
 
 ![The given figure shows a boy riding a bicycle, from the front. The boy is sliding leftward to his left. Three vectors are shown. One is from the bottom the front cycle wheel to the right depicting centripetal force, another one is from the same point drawn vertically upward showing the force N, making an angle theta with the slope of the front cycle wheel. The third vector is drawn from the chest of the boy to vertically downward to the bottom showing his weight, w. An arrow from the bottom of the wheel to the chest point of the boy is also shown depicting the slope of the bicycle with force F exerting on it. A free-body diagram is also given alongside the figure showing the direction of weight and force vectors. And the values of net F equals to sum of N and centripetal force, and N equals to weight W also given alongside on the right.](../resources/Figure_06_03_08.jpg 'A bicyclist negotiating a turn on level ground must lean at the correct angle—the ability to do this becomes instinctive. The force of the ground on the wheel needs to be on a line through the center of gravity. The net external force on the system is the centripetal force. The vertical component of the force on the wheel cancels the weight of the system while its horizontal component must supply the centripetal force. This process produces a relationship among the angle θ, the speed v, and the radius of curvature r of the turn similar to that for the ideal banking of roadways.')
 {: #Figure8}
@@ -642,45 +642,45 @@ roadway—that is, $$ \theta ={\tan}^{-1}{v}^{2}/rg $$
 
 **Strategy**
 
-(a) We'll analyze the forces on the bicycle and rider system. The net force from the ground has components: horizontal (friction providing centripetal force) and vertical (normal force balancing weight). The resultant must pass through the center of gravity, making angle $$ \theta $$ with the vertical.
+(a) We'll analyze the forces on the bicycle and rider system. The net force from the ground has components: horizontal (friction providing centripetal force) and vertical (normal force balancing weight). The resultant must pass through the center of gravity, making angle$$\theta$$with the vertical.
 (b) We'll use the derived formula to calculate the angle for the given speed and radius.
 
 **Solution**
 
-(a) The horizontal component of the ground force is the friction $$ f $$, which provides the centripetal force:
+(a) The horizontal component of the ground force is the friction$$f$$, which provides the centripetal force:
 
 <div class="equation">
-$$ f = \frac{mv^2}{r} $$
+$$f = \frac{mv^2}{r}$$
 </div>
 
-The vertical component is the normal force $$ N $$, which equals the weight:
+The vertical component is the normal force$$N$$, which equals the weight:
 
 <div class="equation">
-$$ N = mg $$
+$$N = mg$$
 </div>
 
-The angle $$ \theta $$ that the resultant force makes with the vertical is:
+The angle$$\theta$$that the resultant force makes with the vertical is:
 
 <div class="equation">
-$$ \tan\theta = \frac{f}{N} = \frac{mv^2/r}{mg} = \frac{v^2}{rg} $$
+$$\tan\theta = \frac{f}{N} = \frac{mv^2/r}{mg} = \frac{v^2}{rg}$$
 </div>
 
 Therefore:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) $$
+$$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right)$$
 </div>
 
 This is identical to the formula for an ideally banked curve.
 
-(b) Calculate $$ \theta $$ for $$ v = 12.0 $$ m/s and $$ r = 30.0 $$ m:
+(b) Calculate$$\theta$$for$$v = 12.0$$m/s and$$r = 30.0$$m:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(12.0\text{ m/s})^2}{(30.0\text{ m})(9.80\text{ m/s}^2)}\right) $$
+$$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(12.0\text{ m/s})^2}{(30.0\text{ m})(9.80\text{ m/s}^2)}\right)$$
 </div>
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{144}{294}\right) = \tan^{-1}(0.490) = 26.1° $$
+$$\theta = \tan^{-1}\left(\frac{144}{294}\right) = \tan^{-1}(0.490) = 26.1°$$
 </div>
 
 **Discussion**
@@ -694,14 +694,14 @@ We have shown that the bicycle lean angle follows the same relationship as an id
 <div class="problem" markdown="1">
 A large centrifuge, like the one shown in [Figure 9](#Figure9)(a), is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries.
 
-(a) At what angular velocity is the centripetal acceleration $$ 10 g $$ if the
+(a) At what angular velocity is the centripetal acceleration$$10 g$$if the
 rider is 15.0 m from the center of rotation?
 
 (b) The rider’s cage hangs on a pivot at the end of the arm, allowing it to
-swing outward during rotation as shown in [Figure 9](#Figure9)(b). At what angle $$ \theta $$ below the horizontal will the cage hang when the centripetal
-acceleration is $$ 10 g $$ ? (Hint: The arm supplies centripetal force and
+swing outward during rotation as shown in [Figure 9](#Figure9)(b). At what angle$$\theta$$below the horizontal will the cage hang when the centripetal
+acceleration is$$10 g$$? (Hint: The arm supplies centripetal force and
 supports the weight of the cage. Draw a free body diagram of the forces to see
-what the angle $$ \theta $$ should be.)
+what the angle$$\theta$$should be.)
 
 ![Figure a shows a NASA centrifuge in a big hall. In figure b, there is a girl sitting in the cage of the centrifuge. The centripetal force on the cage is directed toward left. The direction of the weight of the cage is downward and the force on the arm is directed in north-west direction.](../resources/Figure_06_03_09.jpg '(a) NASA centrifuge used to subject trainees to accelerations similar to those experienced in rocket launches and reentries. (credit: NASA) (b) Rider in cage showing how the cage pivots outward during rotation. This allows the total force exerted on the rider by the cage to be along its axis at all times.')
 {: #Figure9}
@@ -711,43 +711,43 @@ what the angle $$ \theta $$ should be.)
 
 **Strategy**
 
-(a) We'll use $$ a_c = r\omega^2 $$ with $$ a_c = 10g = 98.0 $$ m/s² and solve for $$ \omega $$.
-(b) We'll draw a free body diagram and use the fact that the cage hangs at an angle where the arm force can simultaneously provide the centripetal force and support the weight. Using geometry, $$ \tan\theta = \frac{g}{a_c} $$.
+(a) We'll use$$a_c = r\omega^2$$with$$a_c = 10g = 98.0$$m/s² and solve for$$\omega$$.
+(b) We'll draw a free body diagram and use the fact that the cage hangs at an angle where the arm force can simultaneously provide the centripetal force and support the weight. Using geometry,$$\tan\theta = \frac{g}{a_c}$$.
 
 **Solution**
 
-(a) Using $$ a_c = r\omega^2 $$, solve for $$ \omega $$:
+(a) Using$$a_c = r\omega^2$$, solve for$$\omega$$:
 
 <div class="equation">
-$$ a_c = 10g = 10(9.80\text{ m/s}^2) = 98.0\text{ m/s}^2 $$
+$$a_c = 10g = 10(9.80\text{ m/s}^2) = 98.0\text{ m/s}^2$$
 </div>
 
 <div class="equation">
-$$ \omega^2 = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\text{ rad}^2\text{/s}^2 $$
+$$\omega^2 = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\text{ rad}^2\text{/s}^2$$
 </div>
 
 <div class="equation">
-$$ \omega = \sqrt{6.53} = 2.56\text{ rad/s} $$
+$$\omega = \sqrt{6.53} = 2.56\text{ rad/s}$$
 </div>
 
-(b) Draw a free body diagram: The cage experiences its weight $$ mg $$ downward and the arm force $$ F $$ at angle $$ \theta $$ below horizontal. The horizontal component of $$ F $$ provides centripetal force, while the vertical component balances weight:
+(b) Draw a free body diagram: The cage experiences its weight$$mg$$downward and the arm force$$F$$at angle$$\theta$$below horizontal. The horizontal component of$$F$$provides centripetal force, while the vertical component balances weight:
 
 <div class="equation">
-$$ F\cos\theta = ma_c \quad \text{and} \quad F\sin\theta = mg $$
+$$F\cos\theta = ma_c \quad \text{and} \quad F\sin\theta = mg$$
 </div>
 
 Dividing the second equation by the first:
 
 <div class="equation">
-$$ \frac{F\sin\theta}{F\cos\theta} = \frac{mg}{ma_c} $$
+$$\frac{F\sin\theta}{F\cos\theta} = \frac{mg}{ma_c}$$
 </div>
 
 <div class="equation">
-$$ \tan\theta = \frac{g}{a_c} = \frac{9.80}{98.0} = 0.100 $$
+$$\tan\theta = \frac{g}{a_c} = \frac{9.80}{98.0} = 0.100$$
 </div>
 
 <div class="equation">
-$$ \theta = \arctan(0.100) = 5.71^\circ $$
+$$\theta = \arctan(0.100) = 5.71^\circ$$
 </div>
 
 **Discussion**
@@ -766,7 +766,7 @@ If a car takes a banked curve at less than the ideal speed, friction is needed
 to keep it from sliding toward the inside of the curve (a real problem on icy
 mountain roads).
 (a) Calculate the ideal speed to take a 100 m radius curve banked at
-$$15.0^\circ $$.
+$$15.0^\circ$$.
 (b) What is the minimum coefficient of friction needed for a frightened driver
 to take the same curve at 20.0 km/h?
 
@@ -775,7 +775,7 @@ to take the same curve at 20.0 km/h?
 
 **Strategy**
 
-(a) For the ideal speed (no friction needed), the horizontal component of the normal force provides exactly the needed centripetal force. We'll use $$ v = \sqrt{rg\tan\theta} $$.
+(a) For the ideal speed (no friction needed), the horizontal component of the normal force provides exactly the needed centripetal force. We'll use$$v = \sqrt{rg\tan\theta}$$.
 (b) At a speed lower than ideal, friction must prevent sliding inward. We'll analyze forces to find the minimum coefficient of friction.
 
 **Solution**
@@ -783,35 +783,35 @@ to take the same curve at 20.0 km/h?
 (a) Calculate the ideal speed using the formula for a banked curve:
 
 <div class="equation">
-$$ v = \sqrt{rg\tan\theta} = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(15.0^\circ)} $$
+$$v = \sqrt{rg\tan\theta} = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(15.0^\circ)}$$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{(980)(0.268)} = \sqrt{262.6} = 16.2\text{ m/s} $$
+$$v = \sqrt{(980)(0.268)} = \sqrt{262.6} = 16.2\text{ m/s}$$
 </div>
 
 (b) Convert the actual speed to m/s:
 
 <div class="equation">
-$$ v = 20.0\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \times \frac{1\text{ h}}{3600\text{ s}} = 5.56\text{ m/s} $$
+$$v = 20.0\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \times \frac{1\text{ h}}{3600\text{ s}} = 5.56\text{ m/s}$$
 </div>
 
 At this slower speed, the car tends to slide down the bank. The required centripetal force is less than what the banked curve would naturally provide, so friction must act up the slope. Using force balance equations for a banked curve with friction:
 
 <div class="equation">
-$$ \mu_s = \frac{\tan\theta - \frac{v^2}{rg}}{1 + \frac{v^2\tan\theta}{rg}} $$
+$$\mu_s = \frac{\tan\theta - \frac{v^2}{rg}}{1 + \frac{v^2\tan\theta}{rg}}$$
 </div>
 
-Calculate $$ \frac{v^2}{rg} $$:
+Calculate$$\frac{v^2}{rg}$$:
 
 <div class="equation">
-$$ \frac{v^2}{rg} = \frac{(5.56)^2}{(100)(9.80)} = \frac{30.9}{980} = 0.0316 $$
+$$\frac{v^2}{rg} = \frac{(5.56)^2}{(100)(9.80)} = \frac{30.9}{980} = 0.0316$$
 </div>
 
-Now calculate $$ \mu_s $$:
+Now calculate$$\mu_s$$:
 
 <div class="equation">
-$$ \mu_s = \frac{0.268 - 0.0316}{1 + (0.0316)(0.268)} = \frac{0.236}{1.0085} = 0.234 $$
+$$\mu_s = \frac{0.268 - 0.0316}{1 + (0.0316)(0.268)} = \frac{0.236}{1.0085} = 0.234$$
 </div>
 
 **Discussion**
@@ -837,28 +837,28 @@ so that the passengers do not lose contact with their seats nor do they need sea
 
 **Strategy**
 
-We need to find the speed at the top of the loop given the centripetal acceleration and radius of curvature. We'll use $$ a_c = \frac{v^2}{r} $$ and solve for $$ v $$. The centripetal acceleration is given as 1.50g, where $$ g = 9.80 $$ m/s².
+We need to find the speed at the top of the loop given the centripetal acceleration and radius of curvature. We'll use$$a_c = \frac{v^2}{r}$$and solve for$$v$$. The centripetal acceleration is given as 1.50g, where$$g = 9.80$$m/s².
 
 **Solution**
 
 The centripetal acceleration is:
 
 <div class="equation">
-$$ a_c = 1.50g = 1.50(9.80\text{ m/s}^2) = 14.7\text{ m/s}^2 $$
+$$a_c = 1.50g = 1.50(9.80\text{ m/s}^2) = 14.7\text{ m/s}^2$$
 </div>
 
-Using the centripetal acceleration formula and solving for $$ v $$:
+Using the centripetal acceleration formula and solving for$$v$$:
 
 <div class="equation">
-$$ a_c = \frac{v^2}{r} $$
-</div>
-
-<div class="equation">
-$$ v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 221\text{ m}^2\text{/s}^2 $$
+$$a_c = \frac{v^2}{r}$$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{221\text{ m}^2\text{/s}^2} = 14.9\text{ m/s} $$
+$$v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 221\text{ m}^2\text{/s}^2$$
+</div>
+
+<div class="equation">
+$$v = \sqrt{221\text{ m}^2\text{/s}^2} = 14.9\text{ m/s}$$
 </div>
 
 **Discussion**
@@ -893,17 +893,17 @@ For an unbanked curve, friction provides the centripetal force. We'll set up the
 
 The centripetal force is provided by friction:
 <div class="equation">
-$$ f = \mu_s N = \mu_s mg $$
+$$f = \mu_s N = \mu_s mg$$
 </div>
 
 This must equal the required centripetal force:
 <div class="equation">
-$$ \mu_s mg = \frac{mv^2}{r} $$
+$$\mu_s mg = \frac{mv^2}{r}$$
 </div>
 
 Solving for the coefficient of friction (mass cancels):
 <div class="equation">
-$$ \mu_s = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84 $$
+$$\mu_s = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84$$
 </div>
 
 **(b)** A coefficient of friction of 1.84 is unreasonable. Typical coefficients of static friction between rubber tires and dry pavement range from 0.7 to 1.0. Values significantly greater than 1.0 are not physically achievable with normal road surfaces and tires.
@@ -913,7 +913,7 @@ $$ \mu_s = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \t
 **Discussion**
 
 This problem illustrates why highway curves are designed with specific speed limits based on their radius. For a 50.0 m radius curve with μ = 0.7 (wet conditions), the maximum safe speed would be:
-$$ v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0)(9.80)} = 18.5 \text{ m/s} \approx 67 \text{ km/h} $$
+$$v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0)(9.80)} = 18.5 \text{ m/s} \approx 67 \text{ km/h}$$
 
 This is why tight curves on roads have reduced speed limits and are often banked.
 

@@ -89,7 +89,7 @@ In these equations, the subscript 0 denotes initial values
 average angular velocity $$ \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as follows:
 
 <div class="equation">
- $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}; \overline{v}=\frac{ v_ {0}+v}{2} . $$ 
+ $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}; \overline{v}=\frac{ v_{0}+v}{2} . $$ 
 </div>
 
 The equations given above in [Table 1](#Table1) can be used to solve any
@@ -171,10 +171,10 @@ Here, we are asked to find the number of revolutions. Because $$ 1 \text{rev}=2 
 is zero, so that $$ \theta $$ can be obtained using $$ \theta =\omega_{0} t+\frac{1}{2} \alpha t^{2} $$.
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \theta &=& \omega_{0} t+\frac{1}{2}\alpha t^{2}\\
 \theta &=& 0+\left(0.500\right)\left(110 \radss \right){\left(2.00 \s \right)}^{2}=220 \text{rad}.
-\end{array} $$ $$
+\end{array} $$
 </div>
 Converting radians to revolutions gives
 
@@ -295,11 +295,11 @@ values for all variables except $$ \omega $$:
 Taking the square root of this equation and entering the known values gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \omega &=& {\left[ 0+ 2\left(0.250 \radss \right)
 \left(1257 \text{rad}\right)\right]}^{1/2} \\
 \omega &=& 25.1 \text{rad/s.}
-\end{array} $$ $$
+\end{array} $$
 </div>
 We can find the linear velocity of the train, $$ v $$,
 through its relationship to $$ \omega $$:

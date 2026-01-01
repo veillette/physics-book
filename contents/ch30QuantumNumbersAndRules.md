@@ -115,7 +115,7 @@ magnitudes and pointing in the correct directions. $$\vb{L} $$ and
 $${\vb{L}}_{z} $$ form a right triangle, with $$\vb{L} $$ being
 the hypotenuse and $${\vb{L}}_{z} $$ the adjacent side. This means
 that the ratio of $${\vb{L}}_{z} $$ to $$\vb{L} $$ is the cosine of the
-angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_ {z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_ {z}=m\frac{h}{2\pi } $$. 
+angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_{z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_{z}=m\frac{h}{2\pi } $$. 
 
 **Solution**
 
@@ -215,7 +215,7 @@ direction in space, again called the $$z $$ -axis, can have only the values
 for electrons. $${S}_{z} $$ is the ** $$z $$ -component of spin angular
 momentum** and $${m}_{s} $$ is the **spin projection quantum number**. For
 electrons, $$s $$ can only be 1/2, and $${m}_{s} $$ can be either +1/2 or -1/2.
-Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_ {s}=-1/2 $$ is called _spin down_. These are illustrated
+Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_{s}=-1/2 $$ is called _spin down_. These are illustrated
 in [[Figure 5]](../contents/ch30PatternsInSpectraRevealMoreQuantization#Figure5).
 
 <div class="note" data-has-label="true" data-label="" markdown="1">

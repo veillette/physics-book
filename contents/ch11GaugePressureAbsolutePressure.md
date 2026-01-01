@@ -443,8 +443,7 @@ Balloon:
 \text{.} \end{array}
 
 Jar:
-\begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{ mm Hg}\text{,}\\ {P}_
-{\text{abs}}& =& 710 \text{ mm Hg.}\end{array}
+\begin{array}{lll}{P}_{\text{g}}& =& -50.0 \text{ mm Hg}\text{,}\\ {P}_{\text{abs}}& =& 710 \text{ mm Hg.}\end{array}
 
 **Discussion:**
 The balloon has slightly elevated pressure (5 cm H₂O ≈ 0.0048 atm or about 0.5% above atmospheric), typical for an inflated balloon. The peanut jar has reduced internal pressure (about 93% of atmospheric), indicating it's vacuum-packed. The jar's rigidity prevents atmospheric pressure from collapsing it despite the pressure difference. The negative gauge pressure in the jar is why vacuum-packed containers make a "pop" when opened—atmospheric pressure rushes in to equalize the pressure difference.

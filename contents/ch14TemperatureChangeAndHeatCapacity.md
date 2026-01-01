@@ -344,10 +344,8 @@ $$\mid {Q}_{\text{hot}}\mid ={Q}_{\text{cold}} $$.
    and that they must sum to zero because the heat lost by the hot pan must be
    the same as the heat gained by the cold water:
    <div class="equation" >
-$$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0 $$
-   \text{,}\\ \hfill {Q}_{\text{cold}}& =& {-\text{Q}}_{\text{hot}},\\ {m}_
-   {W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right)& =& -m_{\text{Al}}{c}_
-{\text{Al}}\left({T}_{\text{f}}-150 \text{ºC.}\right)\end{array} $$ $$
+$$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0
+   \text{,}\\ \hfill {Q}_{\text{cold}}& =& {-\text{Q}}_{\text{hot}},\\ {m}_{W}{c}_{W}\left({T}_{\text{f}}-20.0 \text{ºC}\right)& =& -m_{\text{Al}}{c}_{\text{Al}}\left({T}_{\text{f}}-150 \text{ºC.}\right)\end{array} $$
    </div>
 
 4. This an equation for the unknown final temperature, $${T}_{\text{f}} $$
@@ -355,7 +353,7 @@ $$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0 $$
    on the left-hand side and all other terms on the right-hand side. Solve for
    $${T}\_{\text{f}} $$ ,
    <div class="equation" >
- $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150 \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_ {\text{Al}}{c}_{\text{Al}}+{m}_{W}{c}_{W}}\text{,} $$ 
+ $${T}_{\text{f}}=\frac{ {m}_{\text{Al}}{c}_{\text{Al}}\left(150 \text{ºC}\right)+{m}_{W}{c}_{W}\left(20.0\text{ºC}\right)}{ {m}_{\text{Al}}{c}_{\text{Al}}+{m}_{W}{c}_{W}}\text{,} $$ 
    </div>
 
    and insert the numerical values:

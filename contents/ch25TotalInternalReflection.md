@@ -46,7 +46,7 @@ is given by
  $${n}_{1} \sin {\theta }_{1}={n}_{2} \sin {\theta }_{2}\text{.} $$
 </div>
 
-When the incident angle equals the critical angle ( $${\theta }_{1}={\theta }_ {c} $$ ), the angle of refraction is $$90 ^\circ $$ ( $${\theta }_{2}=90 \text{º} $$ ). Noting that $$\sin 90\text{º}=1 $$ , Snell’s law in this case 
+When the incident angle equals the critical angle ( $${\theta }_{1}={\theta }_{c} $$ ), the angle of refraction is $$90 ^\circ $$ ( $${\theta }_{2}=90 \text{º} $$ ). Noting that $$\sin 90\text{º}=1 $$ , Snell’s law in this case 
 becomes
 
 <div class="equation" >

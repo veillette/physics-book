@@ -138,7 +138,7 @@ which is the value we want to find.
 
 **Discussion**
 
-The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> y_ {0} $$. It could be *moving* up or down; the only way to tell is to calculate $$ v_{1} $$ and find out if it is positive or negative. **Solution for Velocity** $$ v_{1} $$ 
+The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> y_{0} $$. It could be *moving* up or down; the only way to tell is to calculate $$ v_{1} $$ and find out if it is positive or negative. **Solution for Velocity** $$ v_{1} $$ 
 
 1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$. We also know from the solution above
 that $$ y_{1}=8.10 \m $$.
@@ -227,7 +227,7 @@ continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_ {0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_{0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
 The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
@@ -357,13 +357,16 @@ water. Assuming it falls freely (there is no air resistance), how long does
 it take to hit the water?
 </div>
 <div class="solution" markdown="1">
-We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation $$ $$
-y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain <div class="equation"> $$ \begin{array}{lll}
+We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation
+$$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain
+
+<div class="equation">
+$$ \begin{array}{lll}
 y&=& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}&=& \frac{2y}{-g}\\
 t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.
 80 \mss }}= \pm \sqrt{6.12 \s^{2}}=2.47 \s \approx 2.5 \s
-\end{array} $$ $$
+\end{array} $$
 </div>
 where we take the positive value as the physically relevant answer.
 Thus, it takes about 2.5 seconds for the piece of ice to hit the water.
@@ -734,11 +737,11 @@ where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $
 $$ y $$. Solving for $$ y $$ gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v^{2}-v_{0}^{2}&=& 2a\left(y-y_{0}\right)\\
 \frac{ v^{2}-v_{0}^{2}}{2a}&=& y-y_{0}\\
 y&=& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\left(13.0 \ms \right)}^{2}}{2\left(-9.80 \mss \right)}=8.62 \m
-\end{array} $$ $$
+\end{array} $$
 </div>
 Dolphins measure about 2 meters long and can jump several times their length out of the water, so this is a reasonable result.
 

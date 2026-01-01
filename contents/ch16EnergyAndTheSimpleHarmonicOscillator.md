@@ -124,7 +124,7 @@ Suppose that a car is 900 kg and has a suspension system that has a force consta
 
 **Strategy**
 
-We can use the expression for $${v}_{\text{max}} $$ given in $${v}_ {\text{max}}=\sqrt{\frac{k}{m}}X $$ to determine the maximum vertical velocity.
+We can use the expression for $${v}_{\text{max}} $$ given in $${v}_{\text{max}}=\sqrt{\frac{k}{m}}X $$ to determine the maximum vertical velocity.
 The variables $$m $$ and $$k $$ are given in the problem statement, and the
 maximum displacement $$X $$ is 0.100 m.
 

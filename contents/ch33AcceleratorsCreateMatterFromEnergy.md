@@ -139,7 +139,7 @@ A linear accelerator designed to produce a beam of 800-MeV protons has 2000 acce
 
 **Strategy**
 
-The energy given to the proton in each gap between tubes is $${\text{PE}}_ {\text{elec}}=qV $$ where $$q $$ is the proton’s charge and $$V $$ is the
+The energy given to the proton in each gap between tubes is $${\text{PE}}_{\text{elec}}=qV $$ where $$q $$ is the proton’s charge and $$V $$ is the
 potential difference (voltage) across the gap. Since $$q={q}_{e}= 1.6 \times 10^{-19} \text{C} $$ and $$1 \text{eV}=\left(1 \text{V}\right)\left( 1.6 \times 10^{-19} \text{C}\right) $$ , the proton gains 1 eV in energy for each volt 
 across the gap that it passes through. The AC voltage applied to the tubes is
 timed so that it adds to the energy in each gap. The effective voltage is the

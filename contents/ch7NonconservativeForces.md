@@ -110,12 +110,12 @@ friction, and the mower has a constant energy.
 
 ### Applying Energy Conservation with Nonconservative Forces
 
-When no change in potential energy occurs, applying $$ \KE_ {\text{i}}+\PE_{\text{i}}+ W_{\text{nc}}=\KE_ {\text{f}}+\PE_{\text{f}} $$ amounts to applying the work-energy theorem by
+When no change in potential energy occurs, applying $$ \KE_{\text{i}}+\PE_{\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$ amounts to applying the work-energy theorem by
 setting the change in kinetic energy to be equal to the net work done on the
 system, which in the most general case includes both conservative and
 nonconservative forces. But when seeking instead to find a change in total
 mechanical energy in situations that involve changes in both potential and
-kinetic energy, the previous equation $$ \KE_{\text{i}}+\PE_ {\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$ says that you can
+kinetic energy, the previous equation $$ \KE_{\text{i}}+\PE_{\text{i}}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$ says that you can
 start by finding the change in mechanical energy that would have resulted from
 just the conservative forces, including the potential energy changes, and add to
 it the work done, with the proper sign, by any nonconservative forces involved.
@@ -196,7 +196,7 @@ by the equation
 **Solution**
 
 The work done by friction is again $$ W_{\text{nc}}=-f d $$; initially the
-potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_ {i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0 $$ for the kinetic energy and $$ \PE\_{f}=mgh = m g d \sin{\theta} $$ for the 
+potential energy is $$ \PE_{i}=mg \cdot 0=0 $$ and the kinetic energy is $$ \KE_{i}=\frac{1}{2} m v_{i}^{2} $$; the final energy contributions are $$ \KE_{f}=0 $$ for the kinetic energy and $$ \PE\_{f}=mgh = m g d \sin{\theta} $$ for the 
 potential energy.
 
 Substituting these values gives
@@ -207,7 +207,7 @@ Substituting these values gives
 Solve this for $$ d $$ to obtain
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 d&=& \frac{ \frac{1}{2} mv_\text{i}^{2} }
 {f+mg \sin{\theta} }\\
 d&=& \frac{ \text{(0.5)}\left(65.0 \kg \right)
@@ -215,7 +215,7 @@ d&=& \frac{ \text{(0.5)}\left(65.0 \kg \right)
 {450 \N +\left(65.0 \kg \right)
 \left( 9.80 \mss \right){\sin{(5.00^\circ )}}}\\
 d&=& 2.31 \m .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -295,7 +295,7 @@ The Ramp
 * Friction is an example of a nonconservative force that changes mechanical
   energy into thermal energy.
 * Work $$ W_{\text{nc}} $$ done by a nonconservative force changes the
- mechanical energy of a system. In equation form, $$ W_ {\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$ \KE_\text{i}+\PE_ \text{i}+ W_{\text{nc}}=\KE_ {\text{f}}+\PE_{\text{f}} $$. 
+ mechanical energy of a system. In equation form, $$ W_{\text{nc}}=\Delta \KE+\Delta \PE $$ or, equivalently, $$ \KE_\text{i}+\PE_ \text{i}+ W_{\text{nc}}=\KE_{\text{f}}+\PE_{\text{f}} $$. 
 * When both conservative and nonconservative forces act, energy conservation can
   be applied and used to calculate motion in terms of the known potential
   energies of the conservative forces and the work done by nonconservative
@@ -450,11 +450,11 @@ The distance along the slope is:
 The work done by friction equals the thermal energy:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 W_{f} &=& fd\\
 f &=& \frac{E_{\text{thermal}}}{d} = \frac{1.89 \times 10^{5}\J}{504\m}\\
 f &=& 375\N \approx 3.8 \times 10^{2}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**

@@ -114,9 +114,9 @@ the points where the string is fixed in place.
 
 The lowest frequency, called the **fundamental frequency**, is thus for the
 longest wavelength, which is seen to be $${\lambda }_{1}=2L $$ . Therefore, the
-fundamental frequency is $${f}_{1}={v}_{\text{w}}/{\lambda }_{1}={v}_ {\text{w}}/2L $$ . In this case, the **overtones** or harmonics are multiples of
+fundamental frequency is $${f}_{1}={v}_{\text{w}}/{\lambda }_{1}={v}_{\text{w}}/2L $$ . In this case, the **overtones** or harmonics are multiples of
 the fundamental frequency. As seen in [[Figure 7]](#Figure7), the first harmonic
-can easily be calculated since $${\lambda }_{2}=L $$ . Thus, $${f}_{2}={v}_ {\text{w}}/{\lambda }_{2}={v}_{\text{w}}/2L={2f}_{1} $$ . Similarly, $${f}_ {3}={3f}_{1} $$ , and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater $${v}_ {\text{w}} $$ is and the higher the frequencies. This observation is familiar to 
+can easily be calculated since $${\lambda }_{2}=L $$ . Thus, $${f}_{2}={v}_{\text{w}}/{\lambda }_{2}={v}_{\text{w}}/2L={2f}_{1} $$ . Similarly, $${f}_{3}={3f}_{1} $$ , and so on. All of these frequencies can be changed by adjusting the tension in the string. The greater the tension, the greater $${v}_{\text{w}} $$ is and the higher the frequencies. This observation is familiar to 
 anyone who has ever observed a string instrument being tuned. We will see in
 later chapters that standing waves are crucial to many resonance phenomena, such
 as in sounding boxes on string instruments.

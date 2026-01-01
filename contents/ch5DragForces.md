@@ -132,7 +132,7 @@ increases, the magnitude of the drag force increases until the magnitude of the
 drag force is equal to the gravitational force, thus producing a net force of
 zero. A zero net force means that there is no acceleration, as given by Newton’s
 second law. At this point, the person’s velocity remains constant and we say
-that the person has reached his *terminal velocity* ( $$ v_{t} $$ ). Since $$ F_ {\text{D}} $$ is proportional to the speed, a heavier skydiver must go faster
+that the person has reached his *terminal velocity* ( $$ v_{t} $$ ). Since $$ F_{\text{D}} $$ is proportional to the speed, a heavier skydiver must go faster
 for $$ F_{\text{D}} $$ to equal his weight. Let’s see how this works out more
 quantitatively.
 
@@ -222,11 +222,11 @@ All quantities are known except the person’s projected area. This is an adult
 Using our equation for $$ v_{\text{t}} $$, we find that
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v_{\text{t}}&=& \sqrt{\frac{2\left(85\kg \right)\left(9.80\mss \right)}{\left(1.21\text{kg/m}^{3}\right)
 \left(1.0\right)\left(0.70 \mm\right)}}\\
 v_{\text{t}}&=& 44 \ms .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**

@@ -70,7 +70,7 @@ engines, and steam turbines are all heat engines that do work by using part of
 the heat transfer from some source. Heat transfer from the hot object (or hot
 reservoir) is denoted as $${Q}_{\text{h}} $$ , while heat transfer into the cold
 object (or cold reservoir) is $${Q}_{\text{c}} $$ , and the work done by the
-engine is $$W $$ . The temperatures of the hot and cold reservoirs are $${T}_ {\text{h}} $$ and $${T}_{\text{c}} $$ , respectively.
+engine is $$W $$ . The temperatures of the hot and cold reservoirs are $${T}_{\text{h}} $$ and $${T}_{\text{c}} $$ , respectively.
 
 ![Part a of the figure shows the spontaneous heat transfer from a hot system to a cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat is shown to flow from hot reservoir to cold reservoir as shown by a bold arrow pointing downward. Part b of the figure shows a heat engine represented as a circle. The hot reservoir at temperature T sub h is represented by a rectangular section at the top and a cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q sub h is transferred out of the hot reservoir, work W is the output equals Q sub h minus Q sub c, and heat Q sub c is the heat transferred into the cold reservoir. All these are shown using bold arrows.](../resources/Figure_15_03_03.jpg '(a) Heat transfer occurs spontaneously from a hot object to a cold one, consistent with the second law of thermodynamics. (b) A heat engine, represented here by a circle, uses part of the heat transfer to do work. The hot and cold objects are called the hot and cold reservoirs. ( Q_{h} ) is the heat transfer out of the hot reservoir, ( W ) is the work output, and ( Q_{c} ) is the heat transfer into the cold reservoir.')
 {: #Figure3}
@@ -107,7 +107,7 @@ first law of thermodynamics states that
  $$\Delta U=Q-W\text{,} $$
 </div>
 
-where $$Q $$ is the _net_ heat transfer during the cycle ( $$Q={Q}_ {\text{h}}-{Q}_{\text{c}} $$ )
+where $$Q $$ is the _net_ heat transfer during the cycle ( $$Q={Q}_{\text{h}}-{Q}_{\text{c}} $$ )
 and $$W $$ is the net work done by the system. Since $$\Delta U=0 $$ for a
 complete cycle, we have
 
@@ -194,7 +194,7 @@ of this example.
 **Solution for (b)**
 
 Efficiency is given by:  $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}} $$ . The work
-$$W $$ was just found to be $$1.02 \times 10^{14} \text{J} $$ , and $${Q}_ {\text{h}} $$ is given, so the efficiency is
+$$W $$ was just found to be $$1.02 \times 10^{14} \text{J} $$ , and $${Q}_{\text{h}} $$ is given, so the efficiency is
 
 <div class="equation" >
 $$\begin{array}{lll}
@@ -307,7 +307,7 @@ engine is, and how it is related to temperature.
   state. Cyclical processes are processes that return to their original state at
   the end of every cycle.
 - In a cyclical process, such as a heat engine, the net work done by the system
-  equals the net heat transfer into the system, or $$W={Q}_{\text{h}}-{Q}_ {\text{c}} $$ , where $${Q}_{\text{h}} $$ is the heat transfer from the hot
+  equals the net heat transfer into the system, or $$W={Q}_{\text{h}}-{Q}_{\text{c}} $$ , where $${Q}_{\text{h}} $$ is the heat transfer from the hot
   object (hot reservoir), and $${Q}_{\text{c}} $$ is the heat transfer into the
   cold object (cold reservoir).
 - Efficiency can be expressed as $$\text{Eff}=\frac{W}{ {Q}_{\text{h}}} $$ , the

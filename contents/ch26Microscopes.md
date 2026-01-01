@@ -62,7 +62,7 @@ product of the individual magnifications:
  $$m={m}_{\text{o}}{m}_{\text{e}}, $$
 </div>
 
-where $${m}_{\text{o}} $$ is the magnification of the objective and $${m}_ {\text{e}} $$ is the magnification of the eyepiece. This equation can be
+where $${m}_{\text{o}} $$ is the magnification of the objective and $${m}_{\text{e}} $$ is the magnification of the eyepiece. This equation can be
 generalized for any combination of thin lenses and mirrors that obey the thin
 lens equations.
 

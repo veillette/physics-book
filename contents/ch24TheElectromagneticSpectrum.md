@@ -90,7 +90,7 @@ There are many types of waves, such as water waves and even earthquakes. Among t
 
 As noted before, an electromagnetic wave has a frequency and a wavelength
 associated with it and travels at the speed of light, or $$c $$ . The
-relationship among these wave characteristics can be described by $${v}_ {\text{W}}=f\lambda $$ , where $${v}_{\text{W}} $$ is the propagation speed of
+relationship among these wave characteristics can be described by $${v}_{\text{W}}=f\lambda $$ , where $${v}_{\text{W}} $$ is the propagation speed of
 the wave, $$f $$ is the frequency, and $$\lambda $$ is the wavelength. Here
 $${v}\_{\text{W}}=c $$ , so that for all electromagnetic waves,
 

@@ -92,7 +92,7 @@ this is uranium. Then since four nucleons have broken away from the original
 239, its atomic mass would be 235.
 
 It is instructive to examine conservation laws related to $$\alpha $$ decay. You
-can see from the equation $${}_{Z}^{A}{\text{X}}_{N}\to {}_ {Z-2}^{A-4}{\text{Y}}_{N-2}+{}_{2}^{4}{\text{He}}_{2} $$ that total charge is
+can see from the equation $${}_{Z}^{A}{\text{X}}_{N}\to {}_{Z-2}^{A-4}{\text{Y}}_{N-2}+{}_{2}^{4}{\text{He}}_{2} $$ that total charge is
 conserved. Linear and angular momentum are conserved, too. Although conserved
 angular momentum is not of great consequence in this type of decay, conservation
 of linear momentum has interesting consequences. If the nucleus is at rest when

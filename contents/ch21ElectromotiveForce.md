@@ -156,7 +156,7 @@ is given by Ohm’s law to be
 {: #Figure5}
 
 We see from this expression that the smaller the internal resistance $$r $$ ,
-the greater the current the voltage source supplies to its load $${R}_ {\text{load}} $$ . As batteries are depleted, $$r $$ increases. If $$r $$
+the greater the current the voltage source supplies to its load $${R}_{\text{load}} $$ . As batteries are depleted, $$r $$ increases. If $$r $$
 becomes a significant fraction of the load resistance, then the current is
 significantly reduced, as the following example illustrates.
 

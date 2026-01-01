@@ -91,13 +91,13 @@ are newtons per coulomb; thus the following relation among units is valid:
 Voltage between Points A and B
 </div>
 <div class="equation" >
-$$\begin{array}{c} $$
+$$\begin{array}{c}
 \begin{array}{c}
 V_\text{AB}=Ed\\ 
 E=\frac{ V_\text{AB} }{d}
 \end{array}
 \text{uniform} E \text{- field only,}
-\end{array} $$ $$
+\end{array} $$
 </div>
 where  $$d $$  is the distance from A to B, or the distance between the plates.
 
@@ -242,13 +242,13 @@ electric field.
 
 - The voltage between points A and B is
     <div class="equation" >
-$$ \begin{array}{c} $$
+$$ \begin{array}{c}
     \begin{array}{c}
     V_\text{AB}=Ed \\ 
     E=\frac{ V_\text{AB} }{d}
     \end{array}
     \left( \text{uniform} E \text{-field only,} \right)  
-\end{array} $$ $$
+\end{array} $$
     </div>
      where $$d $$ is the distance from A to B, or the distance between the plates.
 - In equation form, the general relationship between voltage and electric field is

@@ -28,7 +28,7 @@ a **Carnot engine**.
 
 What is crucial to the Carnot cycle—and, in fact, defines it—is that only
 reversible processes are used. Irreversible processes involve dissipative
-factors, such as friction and turbulence. This increases heat transfer $${Q}_ {\text{c}} $$ to the environment and reduces the efficiency of the engine.
+factors, such as friction and turbulence. This increases heat transfer $${Q}_{\text{c}} $$ to the environment and reduces the efficiency of the engine.
 Obviously, then, reversible processes are superior.
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -56,8 +56,8 @@ by:
  $$\text{Eff}=\frac{ {Q}_{\text{h}}-{Q}_{\text{c}}}{ {Q}_{\text{h}}}=1-\frac{ {Q}_{\text{c}}}{ {Q}_{\text{h}}}\text{.} $$
 </div>
 
-What Carnot found was that for a perfect heat engine, the ratio $${Q}_ {\text{c}}/{Q}_{\text{h}} $$ equals the ratio of the absolute temperatures of
-the heat reservoirs. That is, $${Q}_{\text{c}}/{Q}_{\text{h}}={T}_ {\text{c}}/{T}_{\text{h}} $$ for a Carnot engine, so that the maximum or **
+What Carnot found was that for a perfect heat engine, the ratio $${Q}_{\text{c}}/{Q}_{\text{h}} $$ equals the ratio of the absolute temperatures of
+the heat reservoirs. That is, $${Q}_{\text{c}}/{Q}_{\text{h}}={T}_{\text{c}}/{T}_{\text{h}} $$ for a Carnot engine, so that the maximum or **
 Carnot efficiency** $$\text{Eff}_{\text{C}} $$ is given by
 
 <div class="equation" >
@@ -338,10 +338,7 @@ Practical steam engines utilize  $$450\text{ºC} $$
 <div class="solution"  markdown="1">
 (a)  $$\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}=1-\frac{543 \text{K}}{723 \text{K}}= 0.249 \text{ or }  24.9\%  $$
 (b)  $$\text{Eff}_{2}=1-\frac{423 \text{K}}{543 \text{K}}= 0.221 \text{ or }  22.1\%  $$
-(c)  $$\begin{array}{l}\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}⇒{T}_{\text{c,1}}={T}_{\text{h,1}}\left(1,-,\text{Eff}_{1}\right)\end{array} $$
-  $$\begin{array}{l}\text{similarly} \text{,}  {T}_{\text{c,2}}={T}_{\text{h,2}}\left(1-\text{Eff}_{2}\right)\end{array} $$
-  $$\begin{array}{l}\text{using} {T}_{\text{h,2}}={T}_{\text{c,1}} \text{in} \text{above} \text{equation} \text{gives}\end{array} $$
-  $$\begin{array}{l}{T}_{\text{c,2}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\equiv {T}_{\text{h,1}}\left(1-\text{Eff}_{\text{overall}}\right)\\ \therefore \left(1-\text{Eff}_{\text{overall}}\right)=\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\\ \text{Eff}_{\text{overall}}=1-\left(1 -0.249\right)\left(1 -0.221\right)= 41.5\% \end{array} $$
+(c)  $$\begin{array}{l}\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}⇒{T}_{\text{c,1}}={T}_{\text{h,1}}\left(1,-,\text{Eff}_{1}\right)\end{array} $$\begin{array}{l}\text{similarly} \text{,}  {T}_{\text{c,2}}={T}_{\text{h,2}}\left(1-\text{Eff}_{2}\right)\end{array} $$\begin{array}{l}\text{using} {T}_{\text{h,2}}={T}_{\text{c,1}} \text{in} \text{above} \text{equation} \text{gives}\end{array} $$\begin{array}{l}{T}_{\text{c,2}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\equiv {T}_{\text{h,1}}\left(1-\text{Eff}_{\text{overall}}\right)\\ \therefore \left(1-\text{Eff}_{\text{overall}}\right)=\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\\ \text{Eff}_{\text{overall}}=1-\left(1 -0.249\right)\left(1 -0.221\right)= 41.5\% \end{array} $$
 (d)  $${\text{Eff}}_{\text{overall}}=1-\frac{423 \text{K}}{723 \text{K}}= 0.415 \text{ or }  41.5\%  $$
 </div>
 </div>

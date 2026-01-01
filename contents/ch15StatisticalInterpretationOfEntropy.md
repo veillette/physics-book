@@ -311,7 +311,7 @@ Suppose you toss 100 coins starting with 60 heads and 40 tails, and you get the 
 **Strategy**
 
 Noting that the number of microstates is labeled $$W $$ in [[Table 2]](#Table2)
-for the 100-coin toss, we can use $$\Delta S={S}_{\text{f}}-{S}_{\text{i}}=k_ {B}\ln {W}_{\text{f}}-k_{B}\ln {W}_{\text{i}} $$ to calculate the change in
+for the 100-coin toss, we can use $$\Delta S={S}_{\text{f}}-{S}_{\text{i}}=k_{B}\ln {W}_{\text{f}}-k_{B}\ln {W}_{\text{i}} $$ to calculate the change in
 entropy.
 
 **Solution**

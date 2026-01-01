@@ -76,12 +76,12 @@ Solving for $${\text{emf}}_{x} $$ gives
 ![Two circuits are shown. The first circuit has a cell of e m f script E and internal resistance r connected in series to a resistor R. The second diagram shows the same circuit with the addition of a galvanometer and unknown voltage source connected with a variable contact that can be adjusted up and down the length of the resistor R.](../resources/Figure_21_05_02.jpg "The potentiometer, a null measurement device. (a) A voltage source connected to a long wire resistor passes a constant current \( I \) through it. (b) An unknown emf (labeled script \( E_x \) in the figure) is connected as shown, and the point of contact along \( R \) is adjusted until the galvanometer reads zero. The segment of wire has a resistance \( R_{x} \) and \( E_{x}=I R_{x}\) , where \( I \) is unaffected by the connection since no current flows through the galvanometer. The unknown emf is thus proportional to the resistance of the wire segment.")
 {: #Figure2}
 
-Because a long uniform wire is used for $$R $$ , the ratio of resistances $${R}_ {\text{x}}/{R}_{\text{s}} $$ is the same as the ratio of the lengths of wire
+Because a long uniform wire is used for $$R $$ , the ratio of resistances $${R}_{\text{x}}/{R}_{\text{s}} $$ is the same as the ratio of the lengths of wire
 that zero the galvanometer for each emf. The three quantities on the right-hand
 side of the equation are now known or measured, and $${\text{emf}}_{\text{x}} $$
 can be calculated. The uncertainty in this calculation can be considerably
 smaller than when using a voltmeter directly, but it is not zero. There is
-always some uncertainty in the ratio of resistances $${R}_{\text{x}}/{R}_ {\text{s}} $$ and in the standard $${\text{emf}}_{s} $$ . Furthermore, it is not
+always some uncertainty in the ratio of resistances $${R}_{\text{x}}/{R}_{\text{s}} $$ and in the standard $${\text{emf}}_{s} $$ . Furthermore, it is not
 possible to tell when the galvanometer reads exactly zero, which introduces
 error into both $${R}_{\text{x}} $$ and $${R}_{\text{s}} $$ , and may also
 affect the current $$I $$.

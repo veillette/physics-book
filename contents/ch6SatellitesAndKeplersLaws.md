@@ -25,10 +25,10 @@ systems must be made with large computers. However, we can describe an important
 class of orbits without the use of computers, and we shall find it instructive
 to study them. These orbits have the following characteristics:
 
-1. A small mass $$ m $$ orbits a much larger mass $$ M $$. This allows us to
-   view the motion as if $$ M $$ were stationary—in fact, as if from an inertial
-   frame of reference placed on $$ M $$ —without significant error. Mass $$ m $$
-   is the satellite of $$ M $$, if the orbit is gravitationally bound.
+1. A small mass$$m$$orbits a much larger mass$$M$$. This allows us to
+   view the motion as if$$M$$were stationary—in fact, as if from an inertial
+   frame of reference placed on$$M$$—without significant error. Mass$$m$$
+   is the satellite of$$M$$, if the orbit is gravitationally bound.
 2. _The system is isolated from other masses_. This allows us to neglect any
    small effects due to outside masses.
 
@@ -66,10 +66,10 @@ equal to the ratio of the cubes of their average distances from the Sun. In
 equation form, this is
 
 <div class="equation">
- $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}, $$
+ $$\frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}},$$
 </div>
 
-where $$ T $$ is the period (time for one orbit) and $$ r $$ is the average
+where$$T$$is the period (time for one orbit) and$$r$$is the average
 radius. This equation is valid only for comparing two small masses orbiting the
 same large one. Most importantly, this is a descriptive equation only, giving no
 information as to the cause of the equality.
@@ -86,18 +86,18 @@ two previously stated conditions.
 Find the Time for One Orbit of an Earth Satellite
 </div>
 Given that the Moon orbits Earth each 27.3 d and that it is an average distance of
-$$ 3.84\times 10^{8}\m $$ from the center of Earth, calculate the period of an artificial satellite
+$$3.84\times 10^{8}\m$$from the center of Earth, calculate the period of an artificial satellite
 orbiting at an average altitude of 1500 km above Earth’s surface.
 
 **Strategy**
 
 The period, or time for one orbit, is related to the radius of the orbit by
-Kepler’s third law, given in mathematical form in $$ \frac{ T_{1}^{2}}{ T_ {2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}} $$. Let us use the subscript 1 for the
-Moon and the subscript 2 for the satellite. We are asked to find $$ T_{2} $$.
-The given information tells us that the orbital radius of the Moon is $$ r_ {1}=3.84 \times 10^{8}\m $$, and that the period of the Moon is $$ T_{1}=27.3 $$
-\text{d} $$. The height of the artificial satellite above Earth’s surface is given, and so we must add the radius of Earth (6380 km) to get $$ r_{2}=\left(
+Kepler’s third law, given in mathematical form in$$\frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}$$. Let us use the subscript 1 for the
+Moon and the subscript 2 for the satellite. We are asked to find$$T_{2}$$.
+The given information tells us that the orbital radius of the Moon is$$r_{1}=3.84 \times 10^{8}\m$$, and that the period of the Moon is$$T_{1}=27.3$$
+\text{d}$$. The height of the artificial satellite above Earth’s surface is given, and so we must add the radius of Earth (6380 km) to get$$r_{2}=\left(
 1500 +6380 \right)
-\text{km}=7880 \text{km} $$. Now all quantities are known, and so $$ T\_{2} $$ $$
+\text{km}=7880 \text{km}$$. Now all quantities are known, and so$$T\_{2}$$$$
 can be found.
 
 **Solution**
@@ -105,25 +105,25 @@ can be found.
 Kepler’s third law is
 
 <div class="equation">
- $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}. $$
+ $$\frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}.$$
 </div>
-To solve for $$ T_{2} $$, we cross-multiply and take the square root, yielding
+To solve for$$T_{2}$$, we cross-multiply and take the square root, yielding
 
 <div class="equation">
- $$ T_{2}^{2}=T_{1}^{2}\left(\frac{r_{2}}{ r_{1}}\right)^{3} $$
+ $$T_{2}^{2}=T_{1}^{2}\left(\frac{r_{2}}{ r_{1}}\right)^{3}$$
 </div>
 <div class="equation">
- $$ T_{2}=T_{1} \left(\frac{r_{2}}{r_{1}}\right)^{3/2}. $$
+ $$T_{2}=T_{1} \left(\frac{r_{2}}{r_{1}}\right)^{3/2}.$$
 </div>
 Substituting known values yields
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$\begin{array}{lll}
 T_{2}&=& 27.3 \text{d} \times
 \frac{24.0 \text{h}}{\text{d}}
 \times {\left(\frac{7880 \text{km}}{3.84\times 10^{5}\text{km}}\right)}^{3/2}\\
 T_{2}&=& 1.93 \text{h} .
-\end{array} $$ $$
+\end{array}$$
 </div>
 
 **Discussion** This is a reasonable period for a satellite in a fairly low
@@ -145,80 +145,80 @@ his universal law of gravitation. The point is to demonstrate that the force of
 gravity is the cause for Kepler’s laws (although we will only derive the third
 one).
 
-Let us consider a circular orbit of a small mass $$ m $$ around a large mass $$ M $$, satisfying the two conditions stated at the beginning of this section.
-Gravity supplies the centripetal force to mass $$ m $$. Starting with Newton’s
+Let us consider a circular orbit of a small mass$$m$$around a large mass$$M$$, satisfying the two conditions stated at the beginning of this section.
+Gravity supplies the centripetal force to mass$$m$$. Starting with Newton’s
 second law applied to circular motion,
 
 <div class="equation">
-$$ F_{\text{net}}= m \ac =m\frac{ v^{2}}{r}. $$
+$$F_{\text{net}}= m \ac =m\frac{ v^{2}}{r}.$$
 </div>
 
-The net external force on mass $$ m $$ is gravity, and so we substitute the
-force of gravity for $$ F\_{\text{net}} $$:
+The net external force on mass$$m$$is gravity, and so we substitute the
+force of gravity for$$F\_{\text{net}}$$:
 
 <div class="equation">
- $$ G\frac{mM}{ r^{2}}=m\frac{ v^{2}}{r}. $$
+ $$G\frac{mM}{ r^{2}}=m\frac{ v^{2}}{r}.$$
 </div>
 
-The mass $$ m $$ cancels, yielding
+The mass$$m$$cancels, yielding
 
 <div class="equation">
- $$ G\frac{M}{r}={v}^{2}. $$
+ $$G\frac{M}{r}={v}^{2}.$$
 </div>
 
-The fact that $$ m $$ cancels out is another aspect of the oft-noted fact that
+The fact that$$m$$cancels out is another aspect of the oft-noted fact that
 at a given location all masses fall with the same acceleration. Here we see that
-at a given orbital radius $$ r $$, all masses orbit at the same speed. (This was
+at a given orbital radius$$r$$, all masses orbit at the same speed. (This was
 implied by the result of the preceding worked example.) Now, to get at Kepler’s
-third law, we must get the period $$ T $$ into the equation. By definition,
-period $$ T $$ is the time for one complete orbit. Now the average speed $$ v $$
+third law, we must get the period$$T$$into the equation. By definition,
+period$$T$$is the time for one complete orbit. Now the average speed$$v$$
 is the circumference divided by the period—that is,
 
 <div class="equation">
- $$ v=\frac{2\pi r}{T}. $$
+ $$v=\frac{2\pi r}{T}.$$
 </div>
 
 Substituting this into the previous equation gives
 
 <div class="equation">
- $$ G\frac{M}{r}=\frac{ 4\pi^{2}{r}^{2}}{T^{2}}. $$
+ $$G\frac{M}{r}=\frac{ 4\pi^{2}{r}^{2}}{T^{2}}.$$
 </div>
 
-Solving for $$ T^{2} $$ yields
+Solving for$$T^{2}$$yields
 
 <div class="equation">
- $$ T^{2}=\frac{ 4\pi^{2}}{GM} r^{3}. $$
+ $$T^{2}=\frac{ 4\pi^{2}}{GM} r^{3}.$$
 </div>
 
 Using subscripts 1 and 2 to denote two different satellites, and taking the
 ratio of the last equation for satellite 1 to satellite 2 yields
 
 <div class="equation">
- $$ \frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}. $$
+ $$\frac{ T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{ r_{2}^{3}}.$$
 </div>
 
 This is Kepler’s third law. Note that Kepler’s third law is valid only for
 comparing satellites of the same parent body, because only then does the mass of
-the parent body $$ M $$ cancel.
+the parent body$$M$$cancel.
 
-Now consider what we get if we solve $$ T^{2}=\frac{ 4\pi^{2} }{GM}{r}^{3} $$
-for the ratio $$ r^{3}/ T^{2} $$. We obtain a relationship that can be used to
-determine the mass $$ M $$ of a parent body from the orbits of its satellites:
+Now consider what we get if we solve$$T^{2}=\frac{ 4\pi^{2} }{GM}{r}^{3}$$
+for the ratio$$r^{3}/ T^{2}$$. We obtain a relationship that can be used to
+determine the mass$$M$$of a parent body from the orbits of its satellites:
 
 <div class="equation">
- $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^2 }M. $$
+ $$\frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^2 }M.$$
 </div>
 
-If $$ r $$ and $$ T $$ are known for a satellite, then the mass $$ M $$ of the
+If$$r$$and$$T$$are known for a satellite, then the mass$$M$$of the
 parent can be calculated. This principle has been used extensively to find the
-masses of heavenly bodies that have satellites. Furthermore, the ratio $$ r^{3}/ T^{2} $$ should be a constant for all satellites of the same parent body (
-because $$ \frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}} $$).
+masses of heavenly bodies that have satellites. Furthermore, the ratio$$r^{3}/ T^{2}$$should be a constant for all satellites of the same parent body (
+because$$\frac{r^{3}}{T^{2}}=\frac{GM}{4\pi^{2}}$$).
 (See [Table 1](#Table1)).
 
-It is clear from [Table 1](#Table1) that the ratio of $$ {r}^{3}/ T^{2} $$ is
+It is clear from [Table 1](#Table1) that the ratio of$${r}^{3}/ T^{2}$$is
 constant, at least to the third digit, for all listed satellites of the Sun, and
 for those of Jupiter. Small variations in that ratio have two
-causes—uncertainties in the $$ r $$ and $$ T $$ data, and perturbations of the
+causes—uncertainties in the$$r$$and$$T$$data, and perturbations of the
 orbits due to other bodies. Interestingly, those perturbations can be—and have
 been—used to predict the location of new planets and moons. This is another
 verification of Newton’s universal law of gravitation.
@@ -257,21 +257,21 @@ definition of what constitutes a “true” planet.
 
 #### Table 1: Orbital Data and Kepler’s Third Law
 
-| Parent  | Satellite | Average orbital radius r(km) | Period T(y)      | $$ r^3/ T^2 $$, $$\left( \text{km}^3/ \text{y}^2 \right) $$ |
+| Parent  | Satellite | Average orbital radius r(km) | Period T(y)      |$$r^3/ T^2$$,$$\left( \text{km}^3/ \text{y}^2 \right)$$|
 | ------- | --------- | ---------------------------- | ---------------- | ----------------------------------------------------------- |
-| Earth   | Moon      | $$ 3.84 \times 10^{5} $$     | 0.07481          | $$1.01 \times 10^{19} $$                                    |
-| Sun     | Mercury   | $$ 5.79 \times 10^{7} $$     | 0.2409           | $$ 3.34 \times 10^{24} $$                                   |
-| Sun     | Venus     | $$ 1.082 \times 10^{8} $$    | 0.6150           | $$ 3.35 \times 10^{24} $$                                   |
-| Sun     | Earth     | $$ 1.496 \times 10^{8} $$    | 1.000            | $$ 3.35 \times 10^{24} $$                                   |
-| Sun     | Mars      | $$ 2.279 \times 10^{8} $$    | 1.881            | $$ 3.35 \times 10^{24} $$                                   |
-| Sun     | Jupiter   | $$ 7.783 \times 10^{8} $$    | 11.86            | $$ 3.35 \times 10^{24} $$                                   |
-| Sun     | Saturn    | $$ 1.427 \times 10^{9} $$    | 29.46            | $$ 3.35 \times 10^{24} $$                                   |
-| Sun     | Neptune   | $$ 4.497 \times 10^{9} $$    | 164.8            | $$ 3.35 \times 10^{24} $$                                   |
-| Sun     | Pluto     | $$ 5.90 \times 10^{9} $$     | 248.3            | $$ 3.33 \times 10^{24} $$                                   |
-| Jupiter | Io        | $$ 4.22 \times 10^{5} $$     | 0.00485 (1.77 d) | $$ 3.19 \times 10^{21} $$                                   |
-| Jupiter | Europa    | $$ 6.71 \times 10^{5} $$     | 0.00972 (3.55 d) | $$ 3.20 \times 10^{21} $$                                   |
-| Jupiter | Ganymede  | $$ 1.07 \times 10^{6} $$     | 0.0196 (7.16 d)  | $$ 3.19 \times 10^{21} $$                                   |
-| Jupiter | Callisto  | $$ 1.88 \times 10^{6} $$     | 0.0457 (16.19 d) | $$ 3.20 \times 10^{21} $$                                   |
+| Earth   | Moon      |$$3.84 \times 10^{5}$$     | 0.07481          |$$1.01 \times 10^{19}$$                                    |
+| Sun     | Mercury   |$$5.79 \times 10^{7}$$     | 0.2409           |$$3.34 \times 10^{24}$$                                   |
+| Sun     | Venus     |$$1.082 \times 10^{8}$$    | 0.6150           |$$3.35 \times 10^{24}$$                                   |
+| Sun     | Earth     |$$1.496 \times 10^{8}$$    | 1.000            |$$3.35 \times 10^{24}$$                                   |
+| Sun     | Mars      |$$2.279 \times 10^{8}$$    | 1.881            |$$3.35 \times 10^{24}$$                                   |
+| Sun     | Jupiter   |$$7.783 \times 10^{8}$$    | 11.86            |$$3.35 \times 10^{24}$$                                   |
+| Sun     | Saturn    |$$1.427 \times 10^{9}$$    | 29.46            |$$3.35 \times 10^{24}$$                                   |
+| Sun     | Neptune   |$$4.497 \times 10^{9}$$    | 164.8            |$$3.35 \times 10^{24}$$                                   |
+| Sun     | Pluto     |$$5.90 \times 10^{9}$$     | 248.3            |$$3.33 \times 10^{24}$$                                   |
+| Jupiter | Io        |$$4.22 \times 10^{5}$$     | 0.00485 (1.77 d) |$$3.19 \times 10^{21}$$                                   |
+| Jupiter | Europa    |$$6.71 \times 10^{5}$$     | 0.00972 (3.55 d) |$$3.20 \times 10^{21}$$                                   |
+| Jupiter | Ganymede  |$$1.07 \times 10^{6}$$     | 0.0196 (7.16 d)  |$$3.19 \times 10^{21}$$                                   |
+| Jupiter | Callisto  |$$1.88 \times 10^{6}$$     | 0.0457 (16.19 d) |$$3.20 \times 10^{21}$$                                   |
 
 {: #Table1}
 
@@ -314,7 +314,7 @@ Gravity and Orbits
 
 ### Section Summary
 
-- Kepler’s laws are stated for a small mass $$ m $$ orbiting a larger mass $$ M $$
+- Kepler’s laws are stated for a small mass$$m$$orbiting a larger mass$$M$$
   in near-isolation. Kepler’s laws of planetary motion are then as follows:
 
   **Kepler’s first law**
@@ -333,22 +333,22 @@ Gravity and Orbits
   equal to the ratio of the cubes of their average distances from the Sun:
 
   <div class="equation">
-    $$ \frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}}, $$
+    $$\frac{T_{1}^{2}}{ T_{2}^{2}}=\frac{ r_{1}^{3}}{r_{2}^{3}},$$
   </div>
 
-where $$ T $$ is the period (time for one orbit) and $$ r $$ is the average
+where$$T$$is the period (time for one orbit) and$$r$$is the average
 radius of the orbit.
 
-- The period and radius of a satellite’s orbit about a larger body $$ M $$ are
+- The period and radius of a satellite’s orbit about a larger body$$M$$are
   related by
   <div class="equation">
-    $$ T^{2}=\frac{4\pi^{2}}{GM} r^{3} $$
+    $$T^{2}=\frac{4\pi^{2}}{GM} r^{3}$$
   </div>
 
 or
 
   <div class="equation">
-     $$ \frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2}}M. $$
+     $$\frac{ r^{3}}{ T^{2}}=\frac{G}{ 4\pi^{2}}M.$$
   </div>
 
 ### Conceptual Questions
@@ -376,41 +376,41 @@ of such an orbit based on the data for the moon in [Table 1](#Table1).
 
 **Strategy**
 
-We'll use Kepler's third law: $$ \frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3} $$. We'll use the Moon's data as reference (subscript 1) and solve for the geosynchronous satellite's orbital radius (subscript 2).
+We'll use Kepler's third law:$$\frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3}$$. We'll use the Moon's data as reference (subscript 1) and solve for the geosynchronous satellite's orbital radius (subscript 2).
 
 **Solution**
 
 From Table 1, the Moon has:
 
-- Orbital radius: $$ r_1 = 3.84 \times 10^5 $$ km
-- Orbital period: $$ T_1 = 27.3 $$ days
+- Orbital radius:$$r_1 = 3.84 \times 10^5$$km
+- Orbital period:$$T_1 = 27.3$$days
 
 For the geosynchronous satellite:
 
-- Orbital period: $$ T_2 = 1.00 $$ day
-- Orbital radius: $$ r_2 = ? $$
+- Orbital period:$$T_2 = 1.00$$day
+- Orbital radius:$$r_2 = ?$$
 
-Using Kepler's third law and solving for $$ r_2 $$:
+Using Kepler's third law and solving for$$r_2$$:
 
 <div class="equation">
-$$ \frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3} $$
+$$\frac{T_1^2}{T_2^2} = \frac{r_1^3}{r_2^3}$$
 </div>
 
 <div class="equation">
-$$ r_2^3 = r_1^3 \left(\frac{T_2}{T_1}\right)^2 $$
+$$r_2^3 = r_1^3 \left(\frac{T_2}{T_1}\right)^2$$
 </div>
 
 <div class="equation">
-$$ r_2 = r_1 \left(\frac{T_2}{T_1}\right)^{2/3} = (3.84 \times 10^5\text{ km})\left(\frac{1.00}{27.3}\right)^{2/3} $$
+$$r_2 = r_1 \left(\frac{T_2}{T_1}\right)^{2/3} = (3.84 \times 10^5\text{ km})\left(\frac{1.00}{27.3}\right)^{2/3}$$
 </div>
 
 <div class="equation">
-$$ r_2 = (3.84 \times 10^5)\left(0.0366\right)^{2/3} = (3.84 \times 10^5)(0.110) = 4.23 \times 10^4\text{ km} $$
+$$r_2 = (3.84 \times 10^5)\left(0.0366\right)^{2/3} = (3.84 \times 10^5)(0.110) = 4.23 \times 10^4\text{ km}$$
 </div>
 
 **Discussion**
 
-The orbital radius of a geosynchronous satellite is approximately $$ 4.23 \times 10^4 $$ km or 42,300 km from Earth's center. This corresponds to an altitude of about 35,900 km above Earth's surface (subtracting Earth's radius of 6,400 km). At this altitude and with a 24-hour orbital period, the satellite remains fixed above the same point on Earth's equator, making it ideal for communications and weather monitoring.
+The orbital radius of a geosynchronous satellite is approximately$$4.23 \times 10^4$$km or 42,300 km from Earth's center. This corresponds to an altitude of about 35,900 km above Earth's surface (subtracting Earth's radius of 6,400 km). At this altitude and with a 24-hour orbital period, the satellite remains fixed above the same point on Earth's equator, making it ideal for communications and weather monitoring.
 
 </div>
 </div>
@@ -425,31 +425,31 @@ the value obtained with the Sun's actual mass.
 
 **Strategy**
 
-We'll use the relationship $$ M = \frac{4\pi^2 r^3}{GT^2} $$ derived from Kepler's third law. We know Earth's orbital radius is $$ 1.50 \times 10^{11} $$ m and its period is 1 year.
+We'll use the relationship$$M = \frac{4\pi^2 r^3}{GT^2}$$derived from Kepler's third law. We know Earth's orbital radius is$$1.50 \times 10^{11}$$m and its period is 1 year.
 
 **Solution**
 
 Convert Earth's period to seconds:
 
 <div class="equation">
-$$ T = 1\text{ year} \times \frac{365.25\text{ days}}{1\text{ year}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\text{ s}}{1\text{ h}} = 3.156 \times 10^7\text{ s} $$
+$$T = 1\text{ year} \times \frac{365.25\text{ days}}{1\text{ year}} \times \frac{24\text{ h}}{1\text{ day}} \times \frac{3600\text{ s}}{1\text{ h}} = 3.156 \times 10^7\text{ s}$$
 </div>
 
 Calculate the Sun's mass:
 
 <div class="equation">
-$$ M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (1.50 \times 10^{11}\text{ m})^3}{(6.67 \times 10^{-11}\text{ N·m}^2\text{/kg}^2)(3.156 \times 10^7\text{ s})^2} $$
+$$M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (1.50 \times 10^{11}\text{ m})^3}{(6.67 \times 10^{-11}\text{ N·m}^2\text{/kg}^2)(3.156 \times 10^7\text{ s})^2}$$
 </div>
 
 <div class="equation">
-$$ M = \frac{4\pi^2 (3.375 \times 10^{33})}{(6.67 \times 10^{-11})(9.96 \times 10^{14})} = \frac{1.33 \times 10^{35}}{6.64 \times 10^{4}} = 2.00 \times 10^{30}\text{ kg} $$
+$$M = \frac{4\pi^2 (3.375 \times 10^{33})}{(6.67 \times 10^{-11})(9.96 \times 10^{14})} = \frac{1.33 \times 10^{35}}{6.64 \times 10^{4}} = 2.00 \times 10^{30}\text{ kg}$$
 </div>
 
-The actual mass of the Sun is $$ 1.989 \times 10^{30} $$ kg.
+The actual mass of the Sun is$$1.989 \times 10^{30}$$kg.
 
 **Discussion**
 
-The calculated mass of the Sun based on Earth's orbital data is $$ 2.00 \times 10^{30} $$ kg, which agrees remarkably well with the accepted value of $$ 1.989 \times 10^{30} $$ kg. This excellent agreement validates both Newton's law of universal gravitation and Kepler's laws, demonstrating that we can determine the mass of distant celestial bodies simply by observing the orbital motion of objects around them.
+The calculated mass of the Sun based on Earth's orbital data is$$2.00 \times 10^{30}$$kg, which agrees remarkably well with the accepted value of$$1.989 \times 10^{30}$$kg. This excellent agreement validates both Newton's law of universal gravitation and Kepler's laws, demonstrating that we can determine the mass of distant celestial bodies simply by observing the orbital motion of objects around them.
 
 </div>
 </div>
@@ -463,36 +463,36 @@ Find the mass of Jupiter based on data for the orbit of one of its moons, and co
 
 **Strategy**
 
-We'll use the relationship $$ \frac{r^3}{T^2} = \frac{GM}{4\pi^2} $$ derived from Kepler's third law to find Jupiter's mass $$ M $$. We can use data for any of Jupiter's moons from Table 1. Let's use Io's data.
+We'll use the relationship$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$derived from Kepler's third law to find Jupiter's mass$$M$$. We can use data for any of Jupiter's moons from Table 1. Let's use Io's data.
 
 **Solution**
 
 From Table 1, Io has:
 
-- Orbital radius: $$ r = 4.22 \times 10^5 $$ km $$ = 4.22 \times 10^8 $$ m
-- Orbital period: $$ T = 0.00485 $$ years
+- Orbital radius:$$r = 4.22 \times 10^5$$km$$= 4.22 \times 10^8$$m
+- Orbital period:$$T = 0.00485$$years
 
 Convert the period to seconds:
 
 <div class="equation">
-$$ T = 0.00485\text{ y} \times \frac{365.25\text{ d}}{1\text{ y}} \times \frac{24\text{ h}}{1\text{ d}} \times \frac{3600\text{ s}}{1\text{ h}} = 1.53 \times 10^5\text{ s} $$
+$$T = 0.00485\text{ y} \times \frac{365.25\text{ d}}{1\text{ y}} \times \frac{24\text{ h}}{1\text{ d}} \times \frac{3600\text{ s}}{1\text{ h}} = 1.53 \times 10^5\text{ s}$$
 </div>
 
-Solve for Jupiter's mass using $$ M = \frac{4\pi^2 r^3}{GT^2} $$:
+Solve for Jupiter's mass using$$M = \frac{4\pi^2 r^3}{GT^2}$$:
 
 <div class="equation">
-$$ M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (4.22 \times 10^8)^3}{(6.67 \times 10^{-11})(1.53 \times 10^5)^2} $$
+$$M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (4.22 \times 10^8)^3}{(6.67 \times 10^{-11})(1.53 \times 10^5)^2}$$
 </div>
 
 <div class="equation">
-$$ M = \frac{4\pi^2 (7.51 \times 10^{25})}{(6.67 \times 10^{-11})(2.34 \times 10^{10})} = \frac{2.97 \times 10^{27}}{1.56 \times 10^{0}} = 1.90 \times 10^{27}\text{ kg} $$
+$$M = \frac{4\pi^2 (7.51 \times 10^{25})}{(6.67 \times 10^{-11})(2.34 \times 10^{10})} = \frac{2.97 \times 10^{27}}{1.56 \times 10^{0}} = 1.90 \times 10^{27}\text{ kg}$$
 </div>
 
-The actual mass of Jupiter is $$ 1.90 \times 10^{27} $$ kg.
+The actual mass of Jupiter is$$1.90 \times 10^{27}$$kg.
 
 **Discussion**
 
-The calculated mass of Jupiter based on Io's orbital data is $$ 1.90 \times 10^{27} $$ kg, which matches Jupiter's actual mass perfectly (to three significant figures). This demonstrates the power of Kepler's laws and Newton's law of gravitation - we can determine the mass of a distant planet simply by observing the motion of its satellites. This same technique has been used to find the masses of all planets with moons, as well as stars with orbiting planets.
+The calculated mass of Jupiter based on Io's orbital data is$$1.90 \times 10^{27}$$kg, which matches Jupiter's actual mass perfectly (to three significant figures). This demonstrates the power of Kepler's laws and Newton's law of gravitation - we can determine the mass of a distant planet simply by observing the motion of its satellites. This same technique has been used to find the masses of all planets with moons, as well as stars with orbiting planets.
 
 </div>
 </div>
@@ -506,7 +506,7 @@ Find the ratio of the mass of Jupiter to that of Earth based on data in [Table 1
 
 **Strategy**
 
-We'll use Kepler's third law in the form $$ \frac{r^3}{T^2} = \frac{GM}{4\pi^2} $$ for both Jupiter (with its moon) and Earth (with its moon). Taking the ratio will allow $$ G $$ and $$4\pi^2$$ to cancel, leaving us with the mass ratio.
+We'll use Kepler's third law in the form$$\frac{r^3}{T^2} = \frac{GM}{4\pi^2}$$for both Jupiter (with its moon) and Earth (with its moon). Taking the ratio will allow$$G$$and$$4\pi^2$$to cancel, leaving us with the mass ratio.
 
 **Solution**
 
@@ -514,26 +514,26 @@ From Kepler's third law:
 
 For Earth and its Moon:
 <div class="equation">
-$$ \frac{r_{\text{Moon}}^3}{T_{\text{Moon}}^2} = \frac{GM_{\text{Earth}}}{4\pi^2} $$
+$$\frac{r_{\text{Moon}}^3}{T_{\text{Moon}}^2} = \frac{GM_{\text{Earth}}}{4\pi^2}$$
 </div>
 
 For Jupiter and one of its moons (using Io):
 <div class="equation">
-$$ \frac{r_{\text{Io}}^3}{T_{\text{Io}}^2} = \frac{GM_{\text{Jupiter}}}{4\pi^2} $$
+$$\frac{r_{\text{Io}}^3}{T_{\text{Io}}^2} = \frac{GM_{\text{Jupiter}}}{4\pi^2}$$
 </div>
 
 Taking the ratio:
 
 <div class="equation">
-$$ \frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{r_{\text{Io}}^3 / T_{\text{Io}}^2}{r_{\text{Moon}}^3 / T_{\text{Moon}}^2} $$
+$$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{r_{\text{Io}}^3 / T_{\text{Io}}^2}{r_{\text{Moon}}^3 / T_{\text{Moon}}^2}$$
 </div>
 
-From Table 1, we can read the $$ r^3/T^2 $$ values directly:
-- Moon: $$ r^3/T^2 = 1.01 \times 10^{19} $$ km³/y²
-- Io: $$ r^3/T^2 = 3.19 \times 10^{21} $$ km³/y²
+From Table 1, we can read the$$r^3/T^2$$values directly:
+- Moon:$$r^3/T^2 = 1.01 \times 10^{19}$$km³/y²
+- Io:$$r^3/T^2 = 3.19 \times 10^{21}$$km³/y²
 
 <div class="equation">
-$$ \frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21}}{1.01 \times 10^{19}} = 316 $$
+$$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21}}{1.01 \times 10^{19}} = 316$$
 </div>
 
 **Discussion**
@@ -545,11 +545,11 @@ Jupiter's mass is approximately 316 times Earth's mass. This enormous mass diffe
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Astronomical observations of our Milky Way galaxy indicate that it has a mass of about $$ 8.0\times 10^{11} $$
-solar masses. A star orbiting on the galaxy's periphery is about $$ 6.0\times 10^{4} $$ light years from its center.
+Astronomical observations of our Milky Way galaxy indicate that it has a mass of about$$8.0\times 10^{11}$$
+solar masses. A star orbiting on the galaxy's periphery is about$$6.0\times 10^{4}$$light years from its center.
 (a) What should the orbital period of
 that star be?
-(b) If its period is $$ 6.0\times 10^{7} $$ years instead, what is
+(b) If its period is$$6.0\times 10^{7}$$years instead, what is
 the mass of the galaxy? Such calculations are used to imply the existence of
 "dark matter" in the universe and have indicated, for example, the existence of
 very massive black holes at the centers of some galaxies.
@@ -559,47 +559,47 @@ very massive black holes at the centers of some galaxies.
 
 **Strategy**
 
-(a) We'll use $$ T^2 = \frac{4\pi^2}{GM}r^3 $$ to find the orbital period. We need to convert units: 1 solar mass $$ = 1.99 \times 10^{30} $$ kg, and 1 light year $$ = 9.46 \times 10^{15} $$ m.
-(b) We'll use the same equation solved for mass: $$ M = \frac{4\pi^2 r^3}{GT^2} $$.
+(a) We'll use$$T^2 = \frac{4\pi^2}{GM}r^3$$to find the orbital period. We need to convert units: 1 solar mass$$= 1.99 \times 10^{30}$$kg, and 1 light year$$= 9.46 \times 10^{15}$$m.
+(b) We'll use the same equation solved for mass:$$M = \frac{4\pi^2 r^3}{GT^2}$$.
 
 **Solution**
 
 (a) Convert the given values to SI units:
 
-- Galaxy mass: $$ M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} = 1.59 \times 10^{42} $$ kg
-- Orbital radius: $$ r = 6.0 \times 10^4 \times 9.46 \times 10^{15} = 5.68 \times 10^{20} $$ m
+- Galaxy mass:$$M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} = 1.59 \times 10^{42}$$kg
+- Orbital radius:$$r = 6.0 \times 10^4 \times 9.46 \times 10^{15} = 5.68 \times 10^{20}$$m
 
 Calculate the orbital period:
 
 <div class="equation">
-$$ T^2 = \frac{4\pi^2 r^3}{GM} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.59 \times 10^{42})} $$
+$$T^2 = \frac{4\pi^2 r^3}{GM} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.59 \times 10^{42})}$$
 </div>
 
 <div class="equation">
-$$ T^2 = \frac{7.25 \times 10^{63}}{1.06 \times 10^{32}} = 6.84 \times 10^{31}\text{ s}^2 $$
+$$T^2 = \frac{7.25 \times 10^{63}}{1.06 \times 10^{32}} = 6.84 \times 10^{31}\text{ s}^2$$
 </div>
 
 <div class="equation">
-$$ T = 2.62 \times 10^{15}\text{ s} = 2.62 \times 10^{15}\text{ s} \times \frac{1\text{ y}}{3.156 \times 10^7\text{ s}} = 8.3 \times 10^{7}\text{ years} $$
+$$T = 2.62 \times 10^{15}\text{ s} = 2.62 \times 10^{15}\text{ s} \times \frac{1\text{ y}}{3.156 \times 10^7\text{ s}} = 8.3 \times 10^{7}\text{ years}$$
 </div>
 
-(b) If the actual period is $$ 6.0 \times 10^7 $$ years, calculate the implied mass:
+(b) If the actual period is$$6.0 \times 10^7$$years, calculate the implied mass:
 
-Convert period to seconds: $$ T = 6.0 \times 10^7 \times 3.156 \times 10^7 = 1.89 \times 10^{15} $$ s
+Convert period to seconds:$$T = 6.0 \times 10^7 \times 3.156 \times 10^7 = 1.89 \times 10^{15}$$s
 
 <div class="equation">
-$$ M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.89 \times 10^{15})^2} $$
+$$M = \frac{4\pi^2 r^3}{GT^2} = \frac{4\pi^2 (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.89 \times 10^{15})^2}$$
 </div>
 
 <div class="equation">
-$$ M = \frac{7.25 \times 10^{63}}{2.38 \times 10^{31}} = 3.05 \times 10^{42}\text{ kg} $$
+$$M = \frac{7.25 \times 10^{63}}{2.38 \times 10^{31}} = 3.05 \times 10^{42}\text{ kg}$$
 </div>
 
-Convert to solar masses: $$ M = \frac{3.05 \times 10^{42}}{1.99 \times 10^{30}} = 1.5 \times 10^{12} $$ solar masses
+Convert to solar masses:$$M = \frac{3.05 \times 10^{42}}{1.99 \times 10^{30}} = 1.5 \times 10^{12}$$solar masses
 
 **Discussion**
 
-(a) Based on the observed mass of $$ 8.0 \times 10^{11} $$ solar masses, the star should have an orbital period of about $$ 8.3 \times 10^7 $$ years. (b) However, if the actual observed period is $$ 6.0 \times 10^7 $$ years (faster than expected), this implies the galaxy has a mass of about $$ 1.5 \times 10^{12} $$ solar masses - nearly twice the visible mass. This discrepancy is evidence for "dark matter" - matter that doesn't emit light but exerts gravitational force. Such calculations have revolutionized our understanding of galactic structure and the composition of the universe.
+(a) Based on the observed mass of$$8.0 \times 10^{11}$$solar masses, the star should have an orbital period of about$$8.3 \times 10^7$$years. (b) However, if the actual observed period is$$6.0 \times 10^7$$years (faster than expected), this implies the galaxy has a mass of about$$1.5 \times 10^{12}$$solar masses - nearly twice the visible mass. This discrepancy is evidence for "dark matter" - matter that doesn't emit light but exerts gravitational force. Such calculations have revolutionized our understanding of galactic structure and the composition of the universe.
 
 </div>
 </div>
@@ -613,7 +613,7 @@ Space debris left from old satellites and their launchers is becoming a hazard
 to other satellites.
 (a) Calculate the speed of a satellite in an orbit 900 km above Earth’s surface.
 (b) Suppose a loose rivet is in an orbit of the same radius that intersects the
-satellite’s orbit at an angle of $$ 90^\circ $$ relative to Earth. What is the
+satellite’s orbit at an angle of$$90^\circ$$relative to Earth. What is the
 velocity of the rivet relative to the satellite just before striking it?
 (c) Given the rivet is 3.00 mm in size, how long will its collision with the
 satellite last?
@@ -628,10 +628,10 @@ rivet’s.)
 
 **Strategy**
 
-(a) We'll use $$ v = \sqrt{\frac{GM}{r}} $$ where $$ r $$ is the distance from Earth's center.
-(b) Since the orbits intersect at 90°, the velocities are perpendicular, so we'll use the Pythagorean theorem: $$ v_{\text{rel}} = \sqrt{v_1^2 + v_2^2} $$.
-(c) Collision time is $$ \Delta t = \frac{d}{v_{\text{rel}}} $$.
-(d) We'll use impulse-momentum: $$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} $$.
+(a) We'll use$$v = \sqrt{\frac{GM}{r}}$$where$$r$$is the distance from Earth's center.
+(b) Since the orbits intersect at 90°, the velocities are perpendicular, so we'll use the Pythagorean theorem:$$v_{\text{rel}} = \sqrt{v_1^2 + v_2^2}$$.
+(c) Collision time is$$\Delta t = \frac{d}{v_{\text{rel}}}$$.
+(d) We'll use impulse-momentum:$$F_{\text{avg}} = \frac{\Delta p}{\Delta t}$$.
 (e) We'll calculate the kinetic energy lost by the rivet.
 
 **Solution**
@@ -639,39 +639,39 @@ rivet’s.)
 (a) Calculate satellite orbital speed. The orbital radius is:
 
 <div class="equation">
-$$ r = R_{\text{Earth}} + h = 6.38 \times 10^6\text{ m} + 9.00 \times 10^5\text{ m} = 7.28 \times 10^6\text{ m} $$
+$$r = R_{\text{Earth}} + h = 6.38 \times 10^6\text{ m} + 9.00 \times 10^5\text{ m} = 7.28 \times 10^6\text{ m}$$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{\frac{GM_{\text{Earth}}}{r}} = \sqrt{\frac{(6.674 \times 10^{-11})(5.97 \times 10^{24})}{7.28 \times 10^6}} = \sqrt{5.48 \times 10^7} = 7.40 \times 10^3\text{ m/s} $$
+$$v = \sqrt{\frac{GM_{\text{Earth}}}{r}} = \sqrt{\frac{(6.674 \times 10^{-11})(5.97 \times 10^{24})}{7.28 \times 10^6}} = \sqrt{5.48 \times 10^7} = 7.40 \times 10^3\text{ m/s}$$
 </div>
 
 (b) The rivet has the same orbital speed but at 90°. The relative velocity is:
 
 <div class="equation">
-$$ v_{\text{rel}} = \sqrt{v^2 + v^2} = v\sqrt{2} = (7.40 \times 10^3)\sqrt{2} = 1.05 \times 10^4\text{ m/s} $$
+$$v_{\text{rel}} = \sqrt{v^2 + v^2} = v\sqrt{2} = (7.40 \times 10^3)\sqrt{2} = 1.05 \times 10^4\text{ m/s}$$
 </div>
 
 (c) Collision duration (time for rivet to pass through):
 
 <div class="equation">
-$$ \Delta t = \frac{d}{v_{\text{rel}}} = \frac{3.00 \times 10^{-3}\text{ m}}{1.05 \times 10^4\text{ m/s}} = 2.86 \times 10^{-7}\text{ s} $$
+$$\Delta t = \frac{d}{v_{\text{rel}}} = \frac{3.00 \times 10^{-3}\text{ m}}{1.05 \times 10^4\text{ m/s}} = 2.86 \times 10^{-7}\text{ s}$$
 </div>
 
 (d) Average force using impulse-momentum theorem:
 
 <div class="equation">
-$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{m v_{\text{rel}}}{\Delta t} = \frac{(0.500 \times 10^{-3}\text{ kg})(1.05 \times 10^4\text{ m/s})}{2.86 \times 10^{-7}\text{ s}} $$
+$$F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{m v_{\text{rel}}}{\Delta t} = \frac{(0.500 \times 10^{-3}\text{ kg})(1.05 \times 10^4\text{ m/s})}{2.86 \times 10^{-7}\text{ s}}$$
 </div>
 
 <div class="equation">
-$$ F_{\text{avg}} = \frac{5.25}{2.86 \times 10^{-7}} = 1.84 \times 10^7\text{ N} $$
+$$F_{\text{avg}} = \frac{5.25}{2.86 \times 10^{-7}} = 1.84 \times 10^7\text{ N}$$
 </div>
 
 (e) Energy generated (kinetic energy of rivet in satellite's reference frame):
 
 <div class="equation">
-$$ E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3})(1.05 \times 10^4)^2 = (2.50 \times 10^{-4})(1.10 \times 10^8) = 2.76 \times 10^4\text{ J} $$
+$$E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3})(1.05 \times 10^4)^2 = (2.50 \times 10^{-4})(1.10 \times 10^8) = 2.76 \times 10^4\text{ J}$$
 </div>
 
 **Discussion**
@@ -705,34 +705,34 @@ __(a) Calculate the orbital radius:__
 Using Kepler's third law for Earth satellites:
 
 <div class="equation">
-$$ T^2 = \frac{4\pi^2}{GM_{\text{Earth}}}r^3 $$
+$$T^2 = \frac{4\pi^2}{GM_{\text{Earth}}}r^3$$
 </div>
 
-Solving for $$ r $$:
+Solving for$$r$$:
 
 <div class="equation">
-$$ r = \left(\frac{GM_{\text{Earth}}T^2}{4\pi^2}\right)^{1/3} $$
+$$r = \left(\frac{GM_{\text{Earth}}T^2}{4\pi^2}\right)^{1/3}$$
 </div>
 
 __Given:__
-- Period: $$ T = 1.00\text{ h} = 3600\text{ s} $$
-- $$ G = 6.674 \times 10^{-11}\text{ N·m}^2/\text{kg}^2 $$
-- $$ M_{\text{Earth}} = 5.972 \times 10^{24}\text{ kg} $$
+- Period:$$T = 1.00\text{ h} = 3600\text{ s}$$
+-$$G = 6.674 \times 10^{-11}\text{ N·m}^2/\text{kg}^2$$
+-$$M_{\text{Earth}} = 5.972 \times 10^{24}\text{ kg}$$
 
 <div class="equation">
-$$ r = \left(\frac{(6.674 \times 10^{-11})(5.972 \times 10^{24})(3600)^2}{4\pi^2}\right)^{1/3} $$
+$$r = \left(\frac{(6.674 \times 10^{-11})(5.972 \times 10^{24})(3600)^2}{4\pi^2}\right)^{1/3}$$
 </div>
 
 <div class="equation">
-$$ r = \left(\frac{(3.985 \times 10^{14})(1.296 \times 10^{7})}{39.48}\right)^{1/3} $$
+$$r = \left(\frac{(3.985 \times 10^{14})(1.296 \times 10^{7})}{39.48}\right)^{1/3}$$
 </div>
 
 <div class="equation">
-$$ r = \left(\frac{5.17 \times 10^{21}}{39.48}\right)^{1/3} = (1.31 \times 10^{20})^{1/3} $$
+$$r = \left(\frac{5.17 \times 10^{21}}{39.48}\right)^{1/3} = (1.31 \times 10^{20})^{1/3}$$
 </div>
 
 <div class="equation">
-$$ r = 5.08 \times 10^{6}\text{ m} = 5.08 \times 10^{3}\text{ km} = 5080\text{ km} $$
+$$r = 5.08 \times 10^{6}\text{ m} = 5.08 \times 10^{3}\text{ km} = 5080\text{ km}$$
 </div>
 
 __(b) What is unreasonable about this result?__
@@ -744,22 +744,22 @@ __(c) What is unreasonable about the premise?__
 The premise of a 1-hour orbital period is physically impossible for an Earth satellite. The __minimum possible orbital period__ occurs when a satellite orbits just above Earth's surface (ignoring atmospheric drag). This minimum period can be calculated:
 
 <div class="equation">
-$$ T_{\text{min}} = 2\pi\sqrt{\frac{R_{\text{Earth}}^3}{GM_{\text{Earth}}}} = 2\pi\sqrt{\frac{(6.371 \times 10^{6})^3}{3.985 \times 10^{14}}} $$
+$$T_{\text{min}} = 2\pi\sqrt{\frac{R_{\text{Earth}}^3}{GM_{\text{Earth}}}} = 2\pi\sqrt{\frac{(6.371 \times 10^{6})^3}{3.985 \times 10^{14}}}$$
 </div>
 
 <div class="equation">
-$$ T_{\text{min}} = 2\pi\sqrt{\frac{2.586 \times 10^{20}}{3.985 \times 10^{14}}} = 2\pi\sqrt{6.49 \times 10^{5}} = 2\pi(806) = 5063\text{ s} \approx 84.4\text{ min} $$
+$$T_{\text{min}} = 2\pi\sqrt{\frac{2.586 \times 10^{20}}{3.985 \times 10^{14}}} = 2\pi\sqrt{6.49 \times 10^{5}} = 2\pi(806) = 5063\text{ s} \approx 84.4\text{ min}$$
 </div>
 
 Therefore, the minimum orbital period for an Earth satellite is about 84.4 minutes. A 60-minute (1-hour) orbit would require the satellite to be inside Earth, which is impossible.
 
 **Discussion**
 
-This problem illustrates an important physical constraint: there is a minimum orbital period for any spherical body determined by its density. For Earth, this minimum is about 84-85 minutes. The International Space Station, orbiting at about 400 km altitude, has a period of approximately 92 minutes. Satellites in lower orbits have shorter periods, but they can never go below the ~84-minute minimum. Interestingly, this minimum period depends only on the planet's average density - a larger planet with the same density would have the same minimum period. This is why the minimum period can be expressed as $$ T_{\text{min}} = \sqrt{\frac{3\pi}{G\rho}} $$, where $$ \rho $$ is the average density.
+This problem illustrates an important physical constraint: there is a minimum orbital period for any spherical body determined by its density. For Earth, this minimum is about 84-85 minutes. The International Space Station, orbiting at about 400 km altitude, has a period of approximately 92 minutes. Satellites in lower orbits have shorter periods, but they can never go below the ~84-minute minimum. Interestingly, this minimum period depends only on the planet's average density - a larger planet with the same density would have the same minimum period. This is why the minimum period can be expressed as$$T_{\text{min}} = \sqrt{\frac{3\pi}{G\rho}}$$, where$$\rho$$is the average density.
 
 **Answer**
 
-(a) The orbital radius would be $$ 5.08 \times 10^{3}\text{ km} $$ (5080 km).
+(a) The orbital radius would be$$5.08 \times 10^{3}\text{ km}$$(5080 km).
 
 (b) This radius is unreasonable because it is __less than Earth's radius__ (6371 km), meaning the satellite would have to orbit inside the Earth.
 

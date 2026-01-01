@@ -75,7 +75,7 @@ pivot point to the line along which $$ \vb{F} $$ acts; it is shown as a dashed
 line in [Figure 1](#Figure1)
 and [Figure 2](#Figure2). Note that the line segment that defines the distance $$ r_{\perp } $$ is perpendicular to $$ \vb{F} $$, as its name implies. It is
 sometimes easier to find or visualize $$ r_{\perp } $$ than to find both $$ r $$
-and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_ {\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
+and $$ \theta $$. In such cases, it may be more convenient to use $$ \tau =r_{\perp }F $$ rather than $$ \tau =rF\sin{\theta} $$ for torque, but both are
 equally valid.
 
 The **SI unit of torque** is newtons times meters, usually written as $$ \N ·\m $$
@@ -239,10 +239,10 @@ $$ F_{\text{p}}=m_{1}g+m_{2}g. $$
 Entering known values gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{p}}&=& \left(26.0 \kg \right)\left(9.80\mss \right)+\left(32.0 \kg \right)\left(9.80\mss \right)\\
 F_{\text{p}}&=& 568 \N .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -297,7 +297,7 @@ Take a piece of modeling clay and put it on a table, then mash a cylinder down i
 
 where $$ \tau $$ is torque, $$ r $$ is the distance from the pivot point to the
 point where the force is applied, $$ F $$ is the magnitude of the force, and $$ \theta $$ is the angle between $$ \vb{F} $$ and the vector directed from the
-point where the force acts to the pivot point. The perpendicular lever arm $$ r_ {\perp } $$ is defined to be
+point where the force acts to the pivot point. The perpendicular lever arm $$ r_{\perp } $$ is defined to be
 
   <div class="equation">
  $$ r_{\perp }=r\sin{\theta} $$
@@ -569,35 +569,35 @@ r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p
 a) Since children are balancing:
 
 <div class="equation">
-$$ \begin{array}{} $$
+$$ \begin{array}{}
 \text{net}{\tau }_{\text{cw}}=-\text{net}{\tau }_{\text{ccw}}\\
 ⇒w_{1}r_{1}+m_{\s}{gr}_{\s}=w_{2}r_{2}\\
-\end{array} $$ $$
+\end{array} $$
 </div>
 So, solving for $$ r_{2} $$ gives:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 r_{2}&=& \frac{ w_{1}r_{1}+m_{\s}{gr}_{\s}}{ w_{2}}=\frac{ m_{1}{gr}_{1}+m_{\s}{gr}_{\s}}{ m_{2}g}=\frac{ m_{1}r_{1}+m_{\s}r_{\s}}{ m_{2}}\\
 r_{2}&=& \frac{ \left(26.0 \kg \right)\left(1.60 \m \right)+\left(12.0 \kg \right)\left(0.160 \m \right)}{32.0 \kg }\\
 r_{2}&=& 1.36 \m
-\end{array} $$ $$
+\end{array} $$
 </div>
 b) Since the children are not moving:
 
 <div class="equation">
-$$ \begin{array}{} $$
+$$ \begin{array}{}
 \text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ 
 ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
-\end{array} $$ $$
+\end{array} $$
 </div>
 So that
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{p}}&=& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right)\\
 F_{\text{p}}&=& 686 \N
-\end{array} $$ $$
+\end{array} $$
 </div>
 </div>
 </div>

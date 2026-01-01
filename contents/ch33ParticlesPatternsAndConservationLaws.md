@@ -591,7 +591,7 @@ decay, where the existence of the electron’s neutrino implied that a new
 quantum number, called
 the <strong class="term" >electron family
 number </strong> $${L}_{e} $$ is conserved. Thus, in $$\beta $$ decay, an
-antielectron’s neutrino $${\stackrel{-}{\nu}}_{e} $$ must be created with $${L}_ {e}=-1 $$ when an electron with $${L}_{e}=+1 $$ is created, so that the total
+antielectron’s neutrino $${\stackrel{-}{\nu}}_{e} $$ must be created with $${L}_{e}=-1 $$ when an electron with $${L}_{e}=+1 $$ is created, so that the total
 remains 0 as it was before decay.
 
 Once the muon was discovered in cosmic rays, its decay mode was found to be

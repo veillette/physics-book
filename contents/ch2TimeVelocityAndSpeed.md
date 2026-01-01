@@ -62,7 +62,7 @@ the start of the lecture and 50 min at the end. If $$ t_{0}=0 $$, then $$ \Delta
 
 In this text, for simplicity’s sake,
 
-- motion starts at time equal to zero $$ \left(t\_ {0}=0\right) $$ - the symbol $$ t $$ is used for elapsed time unless otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$ 
+- motion starts at time equal to zero $$ \left(t\_{0}=0\right) $$ - the symbol $$ t $$ is used for elapsed time unless otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$ 
 
 ### Velocity
 
@@ -223,7 +223,7 @@ elapsed time is then just $$ t $$.
 - Average velocity $$ \overline{v} $$ is defined as displacement divided by the
 travel time. In symbols, average velocity is
   <div class="equation">
- $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_ {\text{f}}-t_{0}}. $$ 
+ $$ \overline{v}=\frac{ \Delta x}{\Delta t}=\frac{ x_{\text{f}}-x_{0}}{ t_{\text{f}}-t_{0}}. $$ 
   </div>
 
 - The SI unit for velocity is m/s.

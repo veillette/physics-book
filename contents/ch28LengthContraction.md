@@ -437,7 +437,7 @@ At only 5% the speed of light, relativistic effects are minuscule. The time dila
 
 (b) 0.1434 y
 
-(c) $$\Delta t={\text{γ} \Delta t }_{0}⇒\gamma =\frac{\Delta t}{ {\Delta t}_ {0}}=\frac{4.303 \text{y}}{0.1434 \text{y}}= 30.0 $$ Thus, the two times are
+(c) $$\Delta t={\text{γ} \Delta t }_{0}⇒\gamma =\frac{\Delta t}{ {\Delta t}_{0}}=\frac{4.303 \text{y}}{0.1434 \text{y}}= 30.0 $$ Thus, the two times are
 related when $$\text{γ} = 30.00 $$.
 
 </div>

@@ -109,7 +109,7 @@ What is the magnitude of the centripetal acceleration of a car following a curve
 
 **Strategy**
 
-Because $$ v $$ and $$ r $$ are given, the first expression in $$ a_ {\text{c}}=\frac{ v^{2}}{r} ; \ac=r \omega^{2} $$ is the most convenient to use.
+Because $$ v $$ and $$ r $$ are given, the first expression in $$ a_{\text{c}}=\frac{ v^{2}}{r} ; \ac=r \omega^{2} $$ is the most convenient to use.
 
 **Solution**
 
@@ -142,7 +142,7 @@ See [Figure 2](#Figure2)(b).
 
 The term rev/min stands for revolutions per minute. By converting this to
 radians per second, we obtain the angular velocity $$ \omega $$. Because $$ r $$
-is given, we can use the second expression in the equation $$ a_ {\text{c}}=\frac{ v^{2}}{r};\ac=r \omega^{2} $$ to calculate the centripetal
+is given, we can use the second expression in the equation $$ a_{\text{c}}=\frac{ v^{2}}{r};\ac=r \omega^{2} $$ to calculate the centripetal
 acceleration.
 
 **Solution**

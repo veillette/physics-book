@@ -273,10 +273,10 @@ Part (a):
 The change in kinetic energy is:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \Delta \KE &=& \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(70.0\kg)(10.0\ms)^{2}\\
 \Delta \KE &=& 3500\J
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 The power output is:
@@ -387,10 +387,10 @@ Part (b):
 For the well-conditioned athlete with 20% efficiency:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 0.20 &=& \frac{2.10 \times 10^{5}\J}{E_{\text{in}}}\\
 E_{\text{in}} &=& \frac{2.10 \times 10^{5}\J}{0.20} = 1.05 \times 10^{6}\J
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Converting to kcal:
@@ -499,14 +499,14 @@ From Table 2:
 Energy for each activity:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 E_{\text{sleep}} &=& (83\text{ W})(7.00\text{ h})(3600\s/\text{h}) = 2.09 \times 10^{6}\J\\
 E_{\text{walk}} &=& (280\text{ W})(2.00\text{ h})(3600\s/\text{h}) = 2.02 \times 10^{6}\J\\
 E_{\text{class}} &=& (210\text{ W})(4.00\text{ h})(3600\s/\text{h}) = 3.02 \times 10^{6}\J\\
 E_{\text{cycle}} &=& (400\text{ W})(2.00\text{ h})(3600\s/\text{h}) = 2.88 \times 10^{6}\J\\
 E_{\text{relaxed}} &=& (120\text{ W})(3.00\text{ h})(3600\s/\text{h}) = 1.30 \times 10^{6}\J\\
 E_{\text{study}} &=& (210\text{ W})(6.00\text{ h})(3600\s/\text{h}) = 4.54 \times 10^{6}\J
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Total daily energy:
@@ -663,13 +663,13 @@ Work done by net force:
 where $$ F_{\text{stop}} $$ is the upward force from the ground. Solving for $$ F_{\text{stop}} $$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{stop}} - mg &=& -\frac{470\J}{0.0150\m}\\
 F_{\text{stop}} &=& mg - \frac{470\J}{0.0150\m}\\
 F_{\text{stop}} &=& (80.0\kg)(9.80\mss) - \frac{470\J}{0.0150\m}\\
 F_{\text{stop}} &=& 784\N - (-31330\N)\\
 F_{\text{stop}} &=& 784\N + 31330\N = 3.21 \times 10^{4}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Part (b):
@@ -677,11 +677,11 @@ Part (b):
 With stopping distance $$ d = 0.300\m $$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{stop}} - mg &=& -\frac{470\J}{0.300\m}\\
 F_{\text{stop}} &=& 784\N + \frac{470\J}{0.300\m}\\
 F_{\text{stop}} &=& 784\N + 1567\N = 2.35 \times 10^{3}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Part (c):
@@ -741,11 +741,11 @@ Using the work-energy theorem with $$ d = 1.50\text{ cm} = 0.0150\m $$:
 where $$ F $$ is the upward stopping force and $$ mg $$ is the jogger's weight. Solving for $$ F $$:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F &=& mg - \frac{\KE}{d}\\
 F &=& (75.0\kg)(9.80\mss) + \frac{234\J}{0.0150\m}\\
 F &=& 735\N + 15600\N = 1.64 \times 10^{4}\N
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Part (b):
@@ -1064,11 +1064,11 @@ Energy content of nutrients:
 Mass of each component:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 m_{\text{protein}} &=& \frac{(0.05)(7.20 \times 10^{7}\text{ kcal})}{4\text{ kcal/g}} = 9.0 \times 10^{5}\text{ g} = 900\kg\\
 m_{\text{carb}} &=& \frac{(0.60)(7.20 \times 10^{7}\text{ kcal})}{4\text{ kcal/g}} = 1.08 \times 10^{7}\text{ g} = 10800\kg\\
 m_{\text{fat}} &=& \frac{(0.35)(7.20 \times 10^{7}\text{ kcal})}{9\text{ kcal/g}} = 2.80 \times 10^{6}\text{ g} = 2800\kg
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 Total mass of food:

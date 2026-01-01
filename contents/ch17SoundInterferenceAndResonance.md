@@ -172,7 +172,7 @@ Find the Length of a Tube with a 128 Hz Fundamental
 
 <strong> Strategy</strong>
 
-The length $$L $$ can be found from the relationship in $${f}_{n}=n\frac{ {v}_ {w}}{4L} $$ , but we will first need to find the speed of sound $${v}_{w} $$.
+The length $$L $$ can be found from the relationship in $${f}_{n}=n\frac{ {v}_{w}}{4L} $$ , but we will first need to find the speed of sound $${v}_{w} $$.
 
 **Solution for (a)**
 
@@ -216,7 +216,7 @@ tubas, require tubes so long that they are coiled into loops.
 - the second overtone has $$n=5 $$
 - the third overtone has $$n=7 $$
 - the fourth overtone has $$n=9 $$
-  (2) Enter the value for the fourth overtone into $${f}_{n}=n\frac{ {v}_ {w}}{4L} $$.
+  (2) Enter the value for the fourth overtone into $${f}_{n}=n\frac{ {v}_{w}}{4L} $$.
 
 <div class="equation" >
  $${f}_{9}=9\frac{ {v}_{w}}{4L}={9f}_{1}=1.15 \text{kHz} $$

@@ -42,7 +42,7 @@ the total capacitance is less than any of the individual capacitances.
 We can find an expression for the total capacitance by considering the voltage
 across the individual capacitors shown in [[Figure 1]](#Figure1). Solving
 $$C=\frac{Q}{V} $$ for $$V $$ gives $$V=\frac{Q}{C} $$ . The voltages across the
-individual capacitors are thus $${V}_{1}=\frac{Q}{ {C}_{1}} $$ , $${V}_ {2}=\frac{Q}{ {C}_{2}} $$ , and $${V}_{3}=\frac{Q}{ {C}_{3}} $$ . The total
+individual capacitors are thus $${V}_{1}=\frac{Q}{ {C}_{1}} $$ , $${V}_{2}=\frac{Q}{ {C}_{2}} $$ , and $${V}_{3}=\frac{Q}{ {C}_{3}} $$ . The total
 voltage is the sum of the individual voltages:
 
 <div class="equation" >
@@ -97,7 +97,7 @@ equation for capacitance in series.
 
 **Solution**
 
-Entering the given capacitances into the expression for $$\frac{1}{ {C}_ {\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_ {2}}+\frac{1}{ {C}_{3}} $$. <div class="equation" > $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
+Entering the given capacitances into the expression for $$\frac{1}{ {C}_{\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}} $$. <div class="equation" > $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
 </div>
 Inverting to find  $${C}_{\text{S}} $$  yields 
  $${C}_{\text{S}}=\frac{\text{µF}}{ 1.325}=0.755 \text{µF} $$.
@@ -140,7 +140,7 @@ charge $$Q $$ is the sum of the individual charges:
 ![Part a of the figure shows three capacitors connected in parallel to each other and to the applied voltage. The total capacitance when they are connected in parallel is simply the sum of the individual capacitances. Part b of the figure shows the larger equivalent plate area of the capacitors connected in parallel, which in turn can hold more charge than the individual capacitors.](../resources/Figure_19_06_02.jpg '(a) Capacitors in parallel. Each is connected directly to the voltage source just as if it were all alone, and so the total capacitance in parallel is just the sum of the individual capacitances. (b) The equivalent capacitor has a larger plate area and can therefore hold more charge than the individual capacitors. ')
 {: #Figure2}
 
-Using the relationship $$Q=CV $$ , we see that the total charge is $$Q={C}_ {\text{p}}V $$ , and the individual charges are $${Q}_{1}={C}_{1}V $$ <em>, </em> $${Q}_{2}={C}_{2}V $$
+Using the relationship $$Q=CV $$ , we see that the total charge is $$Q={C}_{\text{p}}V $$ , and the individual charges are $${Q}_{1}={C}_{1}V $$ <em>, </em> $${Q}_{2}={C}_{2}V $$
 _,_ and $${Q}_{3}={C}_{3}V $$ . Entering these into the previous equation gives
 
 <div class="equation" >
@@ -202,7 +202,7 @@ parallel with $${C}_{3} $$.
 **Solution**
 
 Since $${C}_{1} $$ and $${C}_{2} $$ are in series, their total capacitance is
-given by $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_ {2}}+\frac{1}{ {C}_{3}} $$ . Entering their values into the equation gives
+given by $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}} $$ . Entering their values into the equation gives
 
 <div class="equation" >
  $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}=\frac{1}{ 1.000 \text{μF}}+\frac{1}{ 5.000 \text{μF}}=\frac{ 1.200}{\text{μF}}. $$
@@ -226,9 +226,9 @@ a total is obtained can be applied to larger combinations of capacitors.
 
 ### Section Summary
 
-- Total capacitance in series $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_ {1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}}+\text{...} $$
+- Total capacitance in series $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}}+\text{...} $$
 
-- Total capacitance in parallel $${C}_{\text{p}}={C}_{1}+{C}_{2}+{C}_ {3}+\text{...} $$
+- Total capacitance in parallel $${C}_{\text{p}}={C}_{1}+{C}_{2}+{C}_{3}+\text{...} $$
 - If a circuit contains a combination of capacitors in series and parallel,
   identify series and parallel parts, compute their capacitances, and then find
   the total.

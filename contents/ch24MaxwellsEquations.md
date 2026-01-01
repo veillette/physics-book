@@ -100,7 +100,7 @@ of electromagnetic waves, but also verified that they travel at the speed of
 light.
 
 Hertz used an AC $$\text{RLC} $$
-(resistor-inductor-capacitor) circuit that resonates at a known frequency $${f}_ {0}=\frac{1}{2\pi \sqrt{\text{LC}}} $$ and connected it to a loop of wire as
+(resistor-inductor-capacitor) circuit that resonates at a known frequency $${f}_{0}=\frac{1}{2\pi \sqrt{\text{LC}}} $$ and connected it to a loop of wire as
 shown in [[Figure 2]](#Figure2). High voltages induced across the gap in the
 loop produced sparks that were visible evidence of the current in the circuit
 and that helped generate electromagnetic waves.

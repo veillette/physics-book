@@ -105,7 +105,7 @@ b) considers the wave interference material of [Wave Optics](../contents/ch27Wav
 
 **Solution for (a)**
 
-**Hydrogen spectrum wavelength**. The Balmer series requires that $${n}_ {\text{f}}=2 $$ . The first line in the series is taken to be for $${n}_ {\text{i}}=3 $$ , and so the second would have $${n}_{\text{i}}=4 $$. The calculation is a straightforward application of the wavelength equation. Entering the determined values for $${n}_{\text{f}} $$ and $${n}_{\text{i}} $$
+**Hydrogen spectrum wavelength**. The Balmer series requires that $${n}_{\text{f}}=2 $$ . The first line in the series is taken to be for $${n}_{\text{i}}=3 $$ , and so the second would have $${n}_{\text{i}}=4 $$. The calculation is a straightforward application of the wavelength equation. Entering the determined values for $${n}_{\text{f}} $$ and $${n}_{\text{i}} $$
 yields
 
 <div class="equation" >

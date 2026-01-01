@@ -90,7 +90,7 @@ Since PE is proportional to $$q $$ , the dependence on $$q $$ cancels. Thus $$V 
  $$\Delta V={V}_{\text{B}}-{V}_{\text{A}}=\frac{\Delta \text{PE}}{q}\text{.} $$
 </div>
 
-The **potential difference** between points A and B, $${V}_{\text{B}} - {V}_ {\text{A}} $$ , is thus defined to be the change in potential energy of a charge
+The **potential difference** between points A and B, $${V}_{\text{B}} - {V}_{\text{A}} $$ , is thus defined to be the change in potential energy of a charge
 $$q $$ moved from A to B, divided by the charge. Units of potential difference
 are joules per coulomb, given the name volt (V) after Alessandro Volta.
 

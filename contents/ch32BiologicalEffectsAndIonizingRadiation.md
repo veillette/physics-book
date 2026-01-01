@@ -151,7 +151,7 @@ A high level of activity doesn’t mean much if a person is far away from the
 source. The activity $$R $$ of a source depends upon the quantity of material (
 kg) as well as the half-life. A short half-life will produce many more
 disintegrations per second. Recall that $$R=\frac{0.693N}{ {t}_{1/2}} $$ . Also,
-the activity decreases exponentially, which is seen in the equation $$R={R}_ {0}{e}^{-\lambda t} $$.
+the activity decreases exponentially, which is seen in the equation $$R={R}_{0}{e}^{-\lambda t} $$.
 
 <table id="Table1" aria-describedby="This is a two column table. The left column is labeled type and energy of radiation. The right column is labeled R B E and gives values corresponding with each type and energy of radiation. A note says that R B E values are approximate and difficult to determine."><caption><span class="title">Relative Biological Effectiveness</span></caption><thead><tr>
             <th data-align="center">

@@ -171,10 +171,10 @@ Substituting known values into the expression for $$ g $$ found above,
 remembering that $$ M $$ is the mass of Earth not the Moon, yields
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 g&=& G\frac{M}{ r^{2}}=\left(6.67 \times 10^{-11}\frac{ \N \cdot \mm}{ {\kg }^{2}}\right)×\frac{5.98 \times 10^{24}\kg }{\left(3.84 \times 10^{8}\m \right)^{2}}\\
 g&=& 2.70 \times 10^{-3}\mss .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Strategy for (b)**
@@ -212,10 +212,10 @@ we see that
 The centripetal acceleration is
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \ac &=& r \omega^{2}=\left(3.84 \times 10^{8}\m \right)\left(2.66 \times 10^{-6}\rads \right)^{2}\\
 \ac &=& 2.72\times 10^{-3} \mss .
-\end{array} $$ $$
+\end{array} $$
 </div>
 The direction of the acceleration is toward the center of the Earth.
 

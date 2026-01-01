@@ -50,10 +50,10 @@ exerted an equal and opposite force back on the swimmer. You might think that
 two equal and opposite forces would cancel, but they do not
 _because they act on different systems_. In this case, there are two systems
 that we could investigate: the swimmer or the wall. If we select the swimmer to
-be the system of interest, as in the figure, then $$ \vb{F}_ {\text{wall on feet}} $$ is an external force on this system and affects its
+be the system of interest, as in the figure, then $$ \vb{F}_{\text{wall on feet}} $$ is an external force on this system and affects its
 motion. The swimmer moves in the direction of $$ \vb{F}_{\text{wall on feet}} $$. In contrast, the force $$ \vb{F}_{\text{feet on wall}} $$ acts on the wall
 and not on our system of interest. Thus $$ \vb{F}_{\text{feet on wall}} $$ does
-not directly affect the motion of the system and does not cancel $$ \vb{F}\_ {\text{wall on feet}} $$. Note that the swimmer pushes in the direction opposite
+not directly affect the motion of the system and does not cancel $$ \vb{F}\_{\text{wall on feet}} $$. Note that the swimmer pushes in the direction opposite
 to that in which she wishes to move. The reaction to her push is thus in the
 desired direction.
 
@@ -163,7 +163,7 @@ using data from the previous example if needed.
 If we now define the system of interest to be the cart plus equipment (System 2
 in [Figure 2](#Figure2)), then the net external force on System 2 is the force the
 professor exerts on the cart minus friction. The force she exerts on the cart,
-$$ \vb{F}_{\text{prof}} $$, is an external force acting on System 2. $$ \vb{F}_ {\text{prof}} $$ was internal to System 1, but it is external to System 2 and
+$$ \vb{F}_{\text{prof}} $$, is an external force acting on System 2. $$ \vb{F}_{\text{prof}} $$ was internal to System 1, but it is external to System 2 and
 will enter Newton’s second law for System 2.
 
 **Solution**

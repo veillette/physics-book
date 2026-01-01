@@ -56,19 +56,19 @@ direction of $$ \vb{F}\_{\text{app}} $$ are easily found. First, the resultant
 magnitude is given by the Pythagorean theorem:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{app}}&=& \sqrt{ F_{x}^{2}+F_{y}^{2}} \\
 F_{\text{app}}&=& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10^{5}\N \right)^{2}}
 F_{\text{app}}&=& 4.5\times 10^{5}\N .
-\end{array} $$ $$
+\end{array} $$
 </div>
 The angle is given by
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \theta &=& {\tan}^{-1}\left(\frac{ F_{y}}{ F_{x}}\right)\\
 \theta &=& {\tan}^{-1}\left(\frac{3.6\times 10^{5}\N }{2.7\times 10^{5}\N }\right)=53^\circ,
-\end{array} $$ $$
+\end{array} $$
 </div>
 which we know, because of Newton’s first law, is the same direction
 as the acceleration. $$ \vb{F}_{\text{D}} $$
@@ -245,7 +245,7 @@ in [Figure 3](#Figure3)(b). Analysis of the free-body diagram using Newton’s l
 can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
 The only forces acting on the person are his weight $$ \vb{w} $$ and the upward
-force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_ {\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
+force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_{\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
 direction, so that we need to find $$ F\_{\s} $$ in order to find what the scale
 reads. We can do this, as usual, by applying Newton’s second law,
 
@@ -290,12 +290,12 @@ Since his acceleration would be zero, the force of the scale would be equal to
 his weight:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{net}}&=& ma =0=F_{\s}-w\\
 F_{\s}&=& w=mg \\
 F_{\s}&=& \left(75.0 \kg \right)\left(9.80 \mss \right)\\
 F_{\s}&=& 735 \N .
-\end{array} $$ $$
+\end{array} $$
 </div>
 So, the scale reading in the elevator is greater than his 735-N (165 lb) weight. This means that the scale is pushing up on the person with a force greater than his weight, as it must in order to accelerate him upward. Clearly, the greater the acceleration of the elevator, the greater the scale reading, consistent with what you feel in rapidly accelerating versus slowly accelerating elevators.
 
@@ -395,10 +395,10 @@ found from its definition:
 Substituting the known values yields
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 a&=& \frac{8.00 \ms }{2.50 \s} \\
 a&=& 3.20 \mss .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion for (a)**
@@ -420,10 +420,10 @@ $$ F_{\text{net}}=ma . $$
 Substituting the known values of $$ m $$ and $$ a $$ gives
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{\text{net}}&=& \left(70.0 \kg \right)\left(3.20 \mss \right)\\
 F_{\text{net}}&=& 224 \N .
-\end{array} $$ $$
+\end{array} $$
 </div>
 
 **Discussion for (b)**

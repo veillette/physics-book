@@ -107,7 +107,7 @@ Gathering terms, we have
 </div>
 
 The deflection is analyzed to get $$a $$ , and $$E $$ is determined from the
-applied voltage and distance between the plates; thus, $$\frac{ {q}_{e}}{ {m}_ {e}} $$ can be determined. With the velocity known, another measurement of
+applied voltage and distance between the plates; thus, $$\frac{ {q}_{e}}{ {m}_{e}} $$ can be determined. With the velocity known, another measurement of
 $$\frac{ {q}_{e}}{ {m}_{e}} $$ can be obtained by bending the beam of electrons
 with the magnetic field. Since $${F}_{\text{mag}}={q}_{e}vB={m}_{e}a $$ , we
 have $${q}_{e}/{m}_{e}=a/vB $$ . Consistent results are obtained using magnetic

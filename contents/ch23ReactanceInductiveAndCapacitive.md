@@ -67,7 +67,7 @@ circuit using Kirchhoff’s loop rule and calculus actually produces this
 expression). $${X}_{L} $$ is called the **inductive reactance**, because the
 inductor reacts to impede the current. $${X}_{L} $$ has units of ohms ( $$1 H=1 \Omega \cdot \text{s} $$ , so that frequency times inductance has units of
 $$\left(\text{cycles/s}\right)\left(\Omega \cdot \text{s}\right)=\Omega $$ ),
-consistent with its role as an effective resistance. It makes sense that $${X}_ {L} $$ is proportional to $$L $$ , since the greater the induction the greater
+consistent with its role as an effective resistance. It makes sense that $${X}_{L} $$ is proportional to $$L $$ , since the greater the induction the greater
 its resistance to change. It is also reasonable that $${X}_{L} $$ is
 proportional to frequency $$f $$ , since greater frequency means greater change
 in current. That is, $$\Delta I/\Delta t $$ is large for large frequencies (
@@ -195,7 +195,7 @@ Calculating Capacitive Reactance and then Current
 
 **Strategy**
 
-The capacitive reactance is found directly from the expression in $${X}_ {C}=\frac{1}{2\pi \text{fC}} $$ . Once $${X}_{C} $$ has been found at each
+The capacitive reactance is found directly from the expression in $${X}_{C}=\frac{1}{2\pi \text{fC}} $$ . Once $${X}_{C} $$ has been found at each
 frequency, Ohm’s law stated as $$I=V/{X}_{C} $$ can be used to find the current
 at each frequency.
 
@@ -910,6 +910,6 @@ inductive reactance
 {L}=2\pi fL
 
 capacitive reactance
-: the opposition of a capacitor to a change in current; calculated by $${X}_ {C}=\frac{1}{2\pi \text{fC}} $$
+: the opposition of a capacitor to a change in current; calculated by $${X}_{C}=\frac{1}{2\pi \text{fC}} $$
 
 </div>

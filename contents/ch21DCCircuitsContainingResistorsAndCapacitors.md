@@ -100,7 +100,7 @@ in [[Figure 1]](#Figure1)(b) illustrates.
 ### Discharging a Capacitor
 
 Discharging a capacitor through a resistor proceeds in a similar fashion,
-as [[Figure 2]](#Figure2) illustrates. Initially, the current is $${I}_ {0}=\frac{ {V}_{0}}{R} $$ , driven by the initial voltage $${V}_{0} $$ on the
+as [[Figure 2]](#Figure2) illustrates. Initially, the current is $${I}_{0}=\frac{ {V}_{0}}{R} $$ , driven by the initial voltage $${V}_{0} $$ on the
 capacitor. As the voltage decreases, the current and hence the rate of discharge
 decreases, implying another exponential formula for $$V $$ . Using calculus, the
 voltage $$V $$ on a capacitor $$C $$ being discharged through a resistor $$R $$

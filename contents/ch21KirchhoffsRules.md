@@ -596,7 +596,7 @@ Solution requires specific values from Figure 7 for numerical results.
 **Unreasonable Results**
 
 Consider the circuit in [[Figure 9]](#Figure9), and suppose that the emfs are
-unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_ {2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
+unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_{2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
 ![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_09.jpg " ")
