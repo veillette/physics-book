@@ -60,10 +60,8 @@ specified. The direction of the acceleration due to gravity is *downward (
 towards the center of Earth)*. In fact, its direction *defines* what we call
 vertical. Note that whether the acceleration $$ a $$ in the kinematic equations
 has the value $$ +g $$ or $$ -g $$ depends on how we define our coordinate
-system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss $$
-$$, and if we define the downward direction as positive, then $$ a=g=9.80 \mss
-
-.
+system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss $$,
+and if we define the downward direction as positive, then $$ a=g=9.80 \mss $$.
 
 ### One-Dimensional Motion Involving Gravity
 
