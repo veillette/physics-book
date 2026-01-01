@@ -357,7 +357,7 @@ and see that it is not the same.
 
 1. List the knowns. $$v= 0.990c $$ ; $$m= 9.11 \times 10^{-31} \text{kg} $$
 2. List the unknown. $${\text{KE}}_{\text{class}} $$
-3. Choose the appropriate equation. $${\text{KE}}_ {\text{class}}=\frac{1}{2}mv^{2} $$
+3. Choose the appropriate equation. $${\text{KE}}_{\text{class}}=\frac{1}{2}mv^{2}$$
 4. Plug the knowns into the equation.
    <div class="equation" >
  $$\begin{array}{lll}{\text{KE}}_{\text{class}}& =& \frac{1}{2}mv^{2}\\ & =& \frac{1}{2}\left(9.11 \times 10^{-31} \text{kg}\right){\left(0.990 \right)}^{2}{\left( 3.00 \times 10^{8} \text{m/s} \right) }^{2}\\ & =& 4.02 \times 10^{-14} \text{J}\end{array} $$ 
