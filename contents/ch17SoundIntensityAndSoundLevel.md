@@ -153,10 +153,8 @@ Graham Bell, the inventor of the telephone.
             <td>Bursting of eardrums</td>
           </tr></tbody></table>
 
-The decibel level of a sound having the threshold intensity of $$10^{-12} $$
-{\text{W/m}}^{2} $$ is $$\beta =0 \text{dB} $$ , because $${\text{log}}\_{10}1=0
-
-. That is, the threshold of hearing is 0 decibels. [[Table 1]](#Table1) gives
+The decibel level of a sound having the threshold intensity of $$10^{-12} \text{W/m}^{2}$$
+is $$\beta =0 \text{dB}$$, because $$\log_{10}1=0$$. That is, the threshold of hearing is 0 decibels. [[Table 1]](#Table1) gives
 levels in decibels and intensities in watts per meter squared for some familiar
 sounds.
 
