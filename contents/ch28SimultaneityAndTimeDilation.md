@@ -918,7 +918,7 @@ proper time
 : $$\Delta {t}_{0} $$ . the time measured by an observer at rest relative to
 the event being observed:
 
-$$ \Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \Delta t}_{0} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}
+$$ \Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \Delta t}_{0} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
 
 twin paradox
 : this asks why a twin traveling at a relativistic speed away and then back

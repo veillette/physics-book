@@ -80,8 +80,7 @@ with monochromatic EM radiation in which all photons have the same energy $$ hf 
 .
 
 1. If we vary the frequency of the EM radiation falling on a material, we find
-   the following: For a given material, there is a threshold frequency $${f}_{0}
-
+   the following: For a given material, there is a threshold frequency $${f}_{0} $$
 for the EM radiation below which no electrons are ejected, regardless of
 intensity. Individual photons interact with individual electrons. Thus if the
 photon energy is too small to break an electron away, no electrons will be
