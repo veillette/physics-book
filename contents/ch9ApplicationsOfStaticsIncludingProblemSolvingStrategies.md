@@ -137,12 +137,11 @@ and substituting known values, we obtain
 Thus,
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 F_{R}&=& \left(0.667\right)\left(5.00 \kg \right)
 \left(9.80\mss \right)\\
 F_{R}&=& 32.7 \N .
-\end{array}
-$$
+\end{array} $$
 
 </div>
 

@@ -628,7 +628,7 @@ Solve the following problem using analytical techniques: Suppose you walk 18.0 m
 (If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 13](#Figure13), then this problem asks you to
 find their sum
 
-\vb{R}=\vb{A}+\vb{B} $$.)
+$$ \vb{R}=\vb{A}+\vb{B} $$.)
 
 ![In the given figure displacement of a person is shown. First movement of the person is shown as vector A from origin along negative x axis. They then turns to their right. Their movement is now shown as a vertical vector in north direction. The displacement vector R is also shown. In the question you are asked to find the displacement of the person from the start to finish.](../resources/Figure_03_03_13.jpg 'The two displacements ( A ) and ( B ) add to give a total displacement ( R ) having magnitude ( R ) and direction ( \\theta ) .')
 {: #Figure13}

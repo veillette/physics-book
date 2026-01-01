@@ -210,11 +210,10 @@ Solving for $$ v $$, we find that mass cancels and that
 Substituting known values,
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 v&=& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
 v&=&19.6 \ms .
-\end{array}
-$$
+\end{array} $$
 
 </div>
 

@@ -535,11 +535,10 @@ Substituting known values with the value for the bulk modulus
 $$ B $$ from [Table 1](#Table1),
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \frac{ \Delta V}{ V_0}&=& \frac{5.00\times 10^{7} \N/\mm }{2.2\times 10^{9} \N/\mm} \\
 \frac{ \Delta V}{ V_0}&=& 0.023=2.3%.
-\end{array}
-$$
+\end{array} $$
 
 </div>
 

@@ -363,10 +363,9 @@ separation. For instance, in [[Example 1]](#Example1), the separation is 1.00 mm
 and so the voltage limit for air is
 
 <div class="equation" >
-$$\begin{array}{lll}V& =& E\cdot d\\ $$
+$$\begin{array}{lll}V& =& E\cdot d\\
 V & =& \left(3 \times 10^{6}  \text{V/m}\right)\left( 1.00 \times 10^{-3}  \text{m}\right)\\
- V& =& 3000 \text{V} \text{.} \end{array}
-$$
+ V& =& 3000 \text{V} \text{.} \end{array} $$
 
 </div>
 

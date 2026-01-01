@@ -152,13 +152,12 @@ This equation can now be solved for the distance $$ d $$.
 Solving the previous equation for $$ d $$ and substituting known values yields
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 d&=& \frac{m v_{i}^{2}}{2f}\\
 d&=& \frac{ \left(65.0 \kg \right)\left(6.00 \ms \right)^{2}}
 {\left(2\right)\left(450 \N \right)}\\
 d&=& 2.60 \m .
-\end{array}
-$$
+\end{array} $$
 
 </div>
 
@@ -412,12 +411,11 @@ First, convert speed: $$ v = 110\text{ km/h} = 110 \times \frac{1000}{3600}\ms =
 Using energy conservation:
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \frac{1}{2}mv^{2} &=& mgh\\
 h &=& \frac{v^{2}}{2g} = \frac{(30.6\ms)^{2}}{2(9.80\mss)}\\
 h &=& \frac{936.36}{19.6}\m = 47.8\m
-\end{array}
-$$
+\end{array} $$
 
 </div>
 

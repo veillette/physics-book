@@ -170,12 +170,11 @@ second,
 and third,
 
 <div class="equation">
-$$ \begin{array}{lll} $$
+$$ \begin{array}{lll}
 \tau_{\text{p}}&=& r_{\text{p}}{F}_{\text{p}}\\
 \tau_{\text{p}}&=& 0\cdot F_{\text{p}}\\
 \tau_{\text{p}}&=& 0.
-\end{array}
-$$
+\end{array} $$
 
 </div>
 Note that a minus sign has been inserted into the second equation because this torque is clockwise and is therefore negative by convention. Since $$ F_{\text{p}} $$ acts directly on the pivot point, the distance $$ r_{\text{p}} $$
@@ -561,11 +560,10 @@ Repeat the seesaw problem in [Example 1](#example1) with the center of mass of t
 Given:
 
 <div class="equation">
-$$ \begin{array}{ccc} $$
+$$ \begin{array}{ccc}
 m_{1}&=& 26.0 \kg ,m_{2}=32.0 \kg , m_{\s}=12.0 \kg ,\\
 r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p}}
-\end{array}
-$$
+\end{array} $$
 
 </div>
 a) Since children are balancing:
