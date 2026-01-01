@@ -832,9 +832,7 @@ Part (c): The calculated \$9.60 daily cost for continuous operation is realistic
 Show that the coefficients of performance of refrigerators and heat pumps are related by  $${\text{COP}}_{\text{ref}}={\text{COP}}_{\text{hp}}-1 $$.
 
 Start with the definitions of the $$\text{COP} $$ s and the conservation of
-energy relationship between $${Q}_{\text{h}} $$ , $${Q}_{\text{c}} $$ , and $$W
-
-_._
+energy relationship between $${Q}_{\text{h}} $$ , $${Q}_{\text{c}} $$ , and $$W $$ .
 
 </div>
 <div class="solution" markdown="1">
