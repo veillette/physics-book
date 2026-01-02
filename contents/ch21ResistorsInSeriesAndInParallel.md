@@ -1251,7 +1251,7 @@ Show that if two resistors  $${R}_{1} $$
 
 so that
 
-$$\begin{array}{}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{{R}_{1}{R}_{2}}{ {R}_{1}}={R}_{2}\left({R}_{1} \gg {R}_{2}\right)\text{.}\end{array}$$
+$$\begin{array}{}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{ {R}_{1}{R}_{2}}{ {R}_{1}}={R}_{2}\left({R}_{1} \gg {R}_{2}\right)\text{.}\end{array}$$
 
 </div>
 </div>
