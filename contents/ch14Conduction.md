@@ -262,10 +262,7 @@ temperature difference.
 
 4. Insert the knowns into the equation and solve for the temperature difference:
    <div class="equation">
-$${T}_{2}-{T}_{1}=\frac{Q}{t}\left(\frac{d}{k_{B}A}\right)=\left( $$
-   2256\text{J/s}\right)\frac{ 8.00 × 10^{-3}\text{m}}{\left(220\text{J/s}\cdot
-   \text{m}\cdot \text{ºC}\right)\left( 1.54 \times 10^{-2}
-{\text{m}}^{2}\right)}= 5.33º\mathrm{C.} $$ $$
+$${T}_{2}-{T}_{1}=\frac{Q}{t}\left(\frac{d}{k_{B}A}\right)=\left(2256\text{J/s}\right)\frac{ 8.00 × 10^{-3}\text{m}}{\left(220\text{J/s}\cdot \text{m}\cdot \text{ºC}\right)\left( 1.54 \times 10^{-2}{\text{m}}^{2}\right)}= 5.33º\mathrm{C.}$$
    </div>
 
 **Discussion**
