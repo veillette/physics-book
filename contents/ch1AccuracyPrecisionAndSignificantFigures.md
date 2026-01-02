@@ -309,15 +309,13 @@ potatoes do you now have, and how many significant figures are appropriate in
 the answer? The mass is found by simple addition and subtraction:
 
 <div class="equation">
-$$ $$
-\eqalign{
+$$\eqalign{
 7 & . & 56 \kg \\
 -6 & . & 052 \kg \\
 +13& . & 7 \kg \\
  \hline
 15 & . & 208 \kg  \rightarrow  15.2 \kg
-}
-$$ $$
+}$$
 </div>
 
 Next, we identify the least precise measurement: 13.7 kg. This measurement is
