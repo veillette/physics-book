@@ -62,6 +62,8 @@
     "crawl:errors:fast": "node scripts/crawl-all-pages.js --errors-only --concurrent 10",
     "find:latex": "node scripts/find-unrendered-latex.js",
     "find:latex:verbose": "node scripts/find-unrendered-latex.js --verbose",
+    "find:latex:by-type": "node scripts/find-unrendered-latex.js --by-type",
+    "find:latex:json": "node scripts/find-unrendered-latex.js --json latex-issues.json",
     "check:array-delimiters": "node scripts/check-array-delimiters.js",
     "check:array-delimiters:verbose": "node scripts/check-array-delimiters.js --verbose",
     "fix:subscript-spaces": "node scripts/fix-subscript-spaces.js",
