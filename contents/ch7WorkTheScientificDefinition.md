@@ -130,7 +130,10 @@ Substituting the known values gives
 $$\begin{array}{lll}
 W&=& \left(75.0 \N \right)\left(25.0 \m \right)\cos\left(35.0^\circ\right)\\
 W&=& 1536 \J =1.54\times 10^{3} \J .
-\end{array}$$</div> Converting the work in joules to kilocalories yields$$W=\left(1536 \J \right)\left(1\text{kcal}/4184 \J \right)=0.367\text{kcal}$$.$$
+\end{array}$$
+</div>
+
+Converting the work in joules to kilocalories yields $$W=\left(1536 \J \right)\left(1\text{kcal}/4184 \J \right)=0.367\text{kcal}$$.
 The ratio of the work done to the daily consumption is
 
 <div class="equation">

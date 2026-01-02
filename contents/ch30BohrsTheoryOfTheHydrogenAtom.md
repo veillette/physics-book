@@ -1438,8 +1438,7 @@ hydrogen-like atom
 energies of hydrogen-like atoms
 : Bohr formula for energies of electron states in hydrogen-like atoms:
 
-$$ $$
-{E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1 \text{, 2, 3,} \dots
-\right)
+$${E}_{n}=-\frac{ {Z}^{2}}{ {n}^{2}}{E}_{0}\left(n=1 \text{, 2, 3,} \dots
+\right)$$
 
 </div>

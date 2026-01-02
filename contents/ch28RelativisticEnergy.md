@@ -99,7 +99,7 @@ rest energy.
 3. Choose the appropriate equation. $${E}_{0}=mc^{2} $$
 4. Plug the knowns into the equation.
    <div class="equation" >
-$$\begin{array}{lll}{E}_{0}& =& mc^{2}=\left( 1.00 \times 10^{-3} $$
+$$\begin{array}{lll}{E}_{0}& =& mc^{2}=\left( 1.00 \times 10^{-3}
    \text{kg}\right) { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}\\ & =&
    9.00 \times 10^{13} \text{kg}\cdot {\text{m}}^{2}{\text{/s}}^{2}\end{array} $$
    </div>
@@ -175,7 +175,7 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
 <strong>Solution for (a) </strong>
 
 1. Identify the knowns. $$I\cdot t=600 \text{A}\cdot \text{h} $$ ; $$V= 12.0 \text{V} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$ 2. Identify the unknown. $$\Delta m $$
-3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ 4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{ $$
+3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ 4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{
    {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$ 5. Plug the knowns into the equation. <div class="equation" > $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
    {c}^{2}}\\ & =& \frac{qV}{ {c}^{2}}\\ & =& \frac{\left(It\right)V}{
    {c}^{2}}\\ & =& \frac{\left(600 \text{A}\cdot \text{h}\right)\left(12.0

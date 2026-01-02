@@ -989,9 +989,7 @@ Final Answer
 **Integrated Concepts**
 
 Electromagnetic radiation from a 5.00-mW laser is concentrated on a
-
-1.00{\text{-mm}}^{2} $$ area. (a) What is the intensity in $${\text{W/m}}^{2} $$ $$
-?
+$$1.00{\text{-mm}}^{2}$$ area. (a) What is the intensity in $${\text{W/m}}^{2}$$?
 (b) Suppose a 2.00-nC static charge is in the beam. What is the maximum electric
 force it experiences? (c) If the static charge moves at 400 m/s, what maximum
 magnetic force can it feel?

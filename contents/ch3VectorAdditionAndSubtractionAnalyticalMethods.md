@@ -119,7 +119,7 @@ hypotenuse. For example, if $$ A_{x} $$ and $$ A_{y} $$ are 9 and 5 blocks,
 respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is
 
-\theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before. $$
+$$ \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -216,7 +216,7 @@ Adding Vectors Using Analytical Methods
 Add the vector $$ \vb{A} $$ to the vector $$ \vb{B} $$
 shown in [Figure 8](#Figure8), using perpendicular
 components along the **x**- and **y**-axes. The **x**- and **y**-axes are along
-the east–west and north–south directions, respectively. Vector $$ \vb{A} represents the first leg of a walk in which a person walks $$ 53.0 \m  $$ $$
+the east–west and north–south directions, respectively. Vector $$ \vb{A}$$ represents the first leg of a walk in which a person walks $$ 53.0 \m$$
 in a direction $$ 20.0^\circ $$
 north of east. Vector $$ \vb{B} $$
 represents the second leg, a displacement of $$ 34.0 \m  $$
