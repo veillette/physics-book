@@ -182,12 +182,11 @@ g&=& 2.70 \times 10^{-3}\mss .
 Centripetal acceleration can be calculated using either form of
 
 <div class="equation">
-$$ $$
-\left.
+$$\left.
 \begin{array}{lll}
 \ac&=&\frac{ v^{2}}{r}\\
 \ac&=&r \omega^{2}
-\end{array}\right\}. $$ $$
+\end{array}\right\}$$
 </div>
 We choose to use the second form:
 

@@ -128,12 +128,12 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
  $$L_{z} $$ can have three values, given by  $$L_{z}= m_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
-$$ L_{z}=m_{l}\frac{h}{2\pi }=\left\{ $$
-\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\ 
-0, & {m}_{l}& =& 0 \\ 
+$$L_{z}=m_{l}\frac{h}{2\pi }=\left\{
+\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\
+0, & {m}_{l}& =& 0 \\
 -\frac{h}{2\pi },&  {m}_{l}& =& -1
 \end{array}
-\right\} $$ $$
+\right\}$$
 </div>
 As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{ L_{z} }{L} , $$
  and so for  $$ m_{l}=+1 $$ ,

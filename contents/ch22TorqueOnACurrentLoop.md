@@ -27,13 +27,13 @@ $$ l$$ . First, we note that the forces on the top and bottom segments are
 vertical and, therefore, parallel to the shaft, producing no torque. Those
 vertical forces are equal in magnitude and opposite in direction, so that they
 also produce no net force on the loop. [[Figure 2]](#Figure2) shows views of the
-loop from above. Torque is defined as$$\tau = rF \sin \theta$$ , where$$F$$
-is the force,$$ r$$ is the distance from the pivot that the force is applied,
-and$$\theta$$ is the angle between$$ r$$ and$$F$$ . As seen
+loop from above. Torque is defined as $$\tau = rF \sin \theta$$, where $$F$$
+is the force, $$r$$ is the distance from the pivot that the force is applied,
+and $$\theta$$ is the angle between $$r$$ and $$F$$. As seen
 in [[Figure 2]](#Figure2)(a), right hand rule 1 gives the forces on the sides to
 be equal in magnitude and opposite in direction, so that the net force is again
-zero. However, each force produces a clockwise torque. Since$$ r=w/2$$ , the
-torque on each vertical segment is$$\left(w/2\right)F \sin \theta$$ , and the
+zero. However, each force produces a clockwise torque. Since $$r=w/2$$, the
+torque on each vertical segment is $$\left(w/2\right)F \sin \theta$$, and the
 two add to give a total torque.
 
 <div class="equation">
