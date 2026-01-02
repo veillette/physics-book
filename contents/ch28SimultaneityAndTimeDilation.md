@@ -378,7 +378,7 @@ Check Your Understanding
 1. What is  $$\gamma  $$
  if  $$v=0.650c $$ ?
 
-<span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{{c}^{2}}}}=\frac{1}{\sqrt{1-\frac{ {\left(  0.650c \right)}^{2}}{ {c}^{2}}}}=1.32$$
+<span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}=\frac{1}{\sqrt{1-\frac{ {\left(  0.650c \right)}^{2}}{ {c}^{2}}}}=1.32$$
 
 2. A particle travels at $$ 1.90 \times 10^{8} \text{m/s} $$ and lives $$ 2.10 \times 10^{-8} s $$ when at rest relative to an observer. How long does the
    particle live as viewed in the laboratory?
