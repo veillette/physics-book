@@ -850,13 +850,7 @@ is 2*n*<sup>2</sup>.
  equal to either  $$+1/2 $$
  or  $$-1/2⇒2\left(2l+1\right) $$.
 
-(b) for each value of $$l $$ , you get $$2\left(2l+1\right) $$ $$=0 \text{, 1, $$
-2, ...,}\left(n-1\right)⇒2\left\{\left[ \left(2\right)\left(0\right)+1\right]
-+\left[ \left(2\right)\left(1\right)+1\right]
-+\text{...}\text{.}+\left[ \left(2\right)\left(n-1\right)+1\right]
-\right\}=\underset{\underset{n
-\text{terms}}{︸}}{2\left[ 1+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)\right]
-} $$ to see that the expression in the box is $$={n}^{2}, $$ imagine taking $$\left(n-1\right) $$ from the last term and adding it to first term $$=2\left[ 1+\left(n-1\right)+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)-\left(n-1\right)\right] =2\left[ n+3+\text{....}+\left(2n-3\right)+n\right]  \text{.} $$ Now take $$\left(n-3\right) $$ from penultimate term and add to the second term $$2\underset{\underset{n \text{terms}}{︸}}{\left[ n+n+\text{...}+n+n\right] }={2n}^{2} $$. $$
+(b) for each value of $$l$$, you get $$2\left(2l+1\right)=0 \text{, 1, 2, ...,}\left(n-1\right)⇒2\left\{\left[ \left(2\right)\left(0\right)+1\right]+\left[ \left(2\right)\left(1\right)+1\right]+\text{...}\text{.}+\left[ \left(2\right)\left(n-1\right)+1\right]\right\}=\underset{\underset{n \text{terms}}{︸}}{2\left[ 1+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)\right]}$$ to see that the expression in the box is $$={n}^{2}$$, imagine taking $$\left(n-1\right)$$ from the last term and adding it to first term $$=2\left[ 1+\left(n-1\right)+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)-\left(n-1\right)\right] =2\left[ n+3+\text{....}+\left(2n-3\right)+n\right]  \text{.}$$ Now take $$\left(n-3\right)$$ from penultimate term and add to the second term $$2\underset{\underset{n \text{terms}}{︸}}{\left[ n+n+\text{...}+n+n\right] }={2n}^{2}$$.
 
 </div>
 </div>
