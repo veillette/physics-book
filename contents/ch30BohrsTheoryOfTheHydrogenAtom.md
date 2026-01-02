@@ -1413,8 +1413,7 @@ This remarkably small average percentage difference (only about 0.03%) demonstra
 
 hydrogen spectrum wavelengths
 : the wavelengths of visible light from hydrogen; can be calculated by
-$$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_ $$
-{\text{i}}^{2}}\right)
+$$\frac{1}{\lambda }=R\left(\frac{1}{ {n}_{\text{f}}^{2}}-\frac{1}{ {n}_{\text{i}}^{2}}\right)$$
 
 Rydberg constant
 : a physical constant related to the atomic spectra with an established value of
