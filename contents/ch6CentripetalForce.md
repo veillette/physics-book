@@ -29,8 +29,8 @@ of centripetal force$$\mag{F\_\text{c} }$$is
 $$\mag{F_\text{c}} = m \mag{ \ac }.$$
 </div>
 
-By using the expressions for the magnitude of the centripetal acceleration$$\mag{ \ac }$$from$$\ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
-expressions for the magnitude of the centripetal force$$\mag{F\_\text{c} }$$
+By using the expressions for the magnitude of the centripetal acceleration $$\mag{ \ac }$$ from $$\ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
+expressions for the magnitude of the centripetal force $$\mag{F\_\text{c}}$$
 in terms of mass, velocity, angular velocity, and radius of curvature:
 
 <div class="equation">
@@ -66,13 +66,13 @@ car from slipping (see [Figure 2](#Figure2)).
 
 **Strategy and Solution for (a)**
 
-We know that$$F\_{\text{c}}=\frac{ m v^{2} }{r}$$. Thus,
+We know that $$F\_{\text{c}}=\frac{ m v^{2} }{r}$$. Thus,
 
 <div class="equation">
-$$F_{\text{c}}=\frac{m v^{2}}{r}$$
+$$F_{\text{c}}=\frac{m v^{2}}{r}
 =\frac{ \left( 900 \kg \right)
 \left(25.0 \ms \right)^{2}}
-{\left(500 \m \right)}=1125 \N .$$$$
+{\left(500 \m \right)}=1125 \N$$
 </div>
 
 **Strategy for (b)**

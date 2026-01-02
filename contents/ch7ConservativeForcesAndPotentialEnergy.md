@@ -132,8 +132,7 @@ This equation means that the total kinetic and potential energy is constant for
 any process involving only conservative forces. That is,
 
 <div class="equation">
-$$ $$
-\left.
+$$\left.
 \begin{array}{cc}
 &
 \KE+\PE= \text{constant }\\
@@ -142,7 +141,7 @@ $$ $$
 =\KE_{\text{f}}+\PE_{\text{f}}
 \end{array}
 \right\}
-\text{(conservative forces only),} $$ $$
+\text{(conservative forces only),}$$
 </div>
 
 where i and f denote initial and final values. This equation is a form of the

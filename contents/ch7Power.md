@@ -35,8 +35,7 @@ Power is the rate at which work is done.
  $$ P=\frac{W}{t} $$
 </div>
 The SI unit for power is the **watt**
-( $$ \text{W} $$ ), where 1 watt equals 1 joule/second $$ \left(1 \text{W}=1 $$
-\text{J/s}\right).
+($$\text{W}$$), where 1 watt equals 1 joule/second $$\left(1 \text{W}=1 \text{J/s}\right)$$.
 </div>
 
 Because work is energy transfer, power is also the rate at which energy is
