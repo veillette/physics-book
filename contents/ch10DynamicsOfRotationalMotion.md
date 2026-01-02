@@ -199,10 +199,7 @@ in [Figure 3](#Figure3) to be
 where $$ M=50.0 \kg $$ and $$ R=1.50 \m $$, so that
 
 <div class="equation">
-$$ I=\left(0.500\right) $$
-\left(50.0 \kg \right)
-\left(1.50 \m \right)^{2}
-=56.25 \kg \cdot \mm . $$ $$
+$$I=\left(0.500\right)\left(50.0 \kg \right)\left(1.50 \m \right)^{2}=56.25 \kg \cdot \mm .$$
 </div>
 Now, after we substitute the known values, we find the angular acceleration to be
 
