@@ -59,6 +59,7 @@
     "crawl": "node scripts/crawl-all-pages.js",
     "crawl:verbose": "node scripts/crawl-all-pages.js --verbose",
     "crawl:errors": "node scripts/crawl-all-pages.js --errors-only",
+    "crawl:errors:fast": "node scripts/crawl-all-pages.js --errors-only --concurrent 10",
     "check:array-delimiters": "node scripts/check-array-delimiters.js",
     "check:array-delimiters:verbose": "node scripts/check-array-delimiters.js --verbose",
     "fix:subscript-spaces": "node scripts/fix-subscript-spaces.js",

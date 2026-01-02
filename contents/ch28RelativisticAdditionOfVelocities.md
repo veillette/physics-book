@@ -247,7 +247,7 @@ the classical Doppler shift.
 
 4. Plug the knowns into the equation.
    <div class="equation" >
-$$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_ $$
+$$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_
    {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}\\ & =& \left(0.525 m\right)
    \sqrt{\frac{1+\frac{ 0.825\text{c}}{c}}{1-\frac{ 0.825\text{c}}{c}}}\\ & =&
 1.70 \text{m} \text{.} \end{array} $$

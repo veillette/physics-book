@@ -304,11 +304,18 @@ Bring all terms involving  $${T}_{\text{f}} $$
 </div>
 **Solution**
 
-1. Identify the known quantities. The mass of ice is $${m}_{\text{ice}}=3 \times 6.0\text{g}= 0.018\text{kg} $$ and the mass of soda is $${m}_ $$
-   {\text{soda}}=0.25\text{kg} $$ . 2. Calculate the terms in the numerator: <div class="equation" > $${m}_{\text{soda}}{c}_{W}\left(20\text{ºC}\right)=\left(0.25\text{kg}\right)
-   \left(4186 \text{J/kg}\cdot \text{ºC}\right)\left(20\text{ºC}\right)=20 930
- \text{J} $$ </div> and <div class="equation" > $${m}_{\text{ice}}{L}_{\text{f}}=\left(0.018\text{kg}\right)\left(334 
-000\text{J/kg}\right)=6012\text{J} \text{.} $$ $$
+1. Identify the known quantities. The mass of ice is $${m}_{\text{ice}}=3 \times 6.0\text{g}= 0.018\text{kg}$$ and the mass of soda is $${m}_{\text{soda}}=0.25\text{kg}$$.
+
+2. Calculate the terms in the numerator:
+
+   <div class="equation">
+   $${m}_{\text{soda}}{c}_{W}\left(20\text{ºC}\right)=\left(0.25\text{kg}\right)\left(4186 \text{J/kg}\cdot \text{ºC}\right)\left(20\text{ºC}\right)=20 930 \text{J}$$
+   </div>
+
+   and
+
+   <div class="equation">
+   $${m}_{\text{ice}}{L}_{\text{f}}=\left(0.018\text{kg}\right)\left(334 000\text{J/kg}\right)=6012\text{J} \text{.}$$
    </div>
 
 3. Calculate the denominator:

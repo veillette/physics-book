@@ -79,65 +79,65 @@ The magnitude of the frictional force has two forms: one for static situations (
 static friction), the other for when there is motion (kinetic friction).
 
 When there is no motion between the objects, the **magnitude of static
-friction** ,$$f_{s}$$is given by
+friction** , $$f_{s}$$ is given by
 
 <div class="equation">
  $$f_{\s}\le \mu_{\s} \mag{N},$$
 </div>
 
-where$$\mu\_{\s}$$is the coefficient of static friction and$$\mag{N}$$is
+where $$\mu\_{\s}$$ is the coefficient of static friction and $$\mag{N}$$ is
 the magnitude of the normal force (the force perpendicular to the surface).
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
 Magnitude of Static Friction
 </div>
-Magnitude of static friction force$$f_{\s}$$is
+Magnitude of static friction force $$f_{\s}$$ is
 
 <div class="equation">
  $$f_{\s}\le \mu_{\s} \mag{N},$$
 </div>
-where$$\mu_{\s}$$is the coefficient of static friction and$$\mag{N}$$
+where $$\mu_{\s}$$ is the coefficient of static friction and $$\mag{N}$$
 is the magnitude of the normal force.
 
 </div>
 
-The symbol$$\le$$means _less than or equal to_, implying that static
-friction can have a minimum and a maximum value of$$\mu_{\s}\mag{N}$$. Static
+The symbol $$\le$$ means _less than or equal to_, implying that static
+friction can have a minimum and a maximum value of $$\mu_{\s}\mag{N}$$. Static
 friction is a responsive force that increases to be equal and opposite to
 whatever force is exerted, up to its maximum limit. Once the applied force
-exceeds$$f_{\s \left(\text{max}\right)}$$, the object will move. Thus
+exceeds $$f_{\s \left(\text{max}\right)}$$, the object will move. Thus
 
 <div class="equation">
  $$f_{\s  \left(\text{max}\right)}=\mu_{\s} \mag{N} .$$
 </div>
 
-Once an object is moving, the **magnitude of kinetic friction** ,$$f_k$$is
+Once an object is moving, the **magnitude of kinetic friction** , $$f_k$$ is
 given by
 
 <div class="equation">
  $$f_{\text{k}}=\mu_{\text{k}} \mag{N} ,$$
 </div>
 
-where$$\mu_{\text{k}}$$is the coefficient of kinetic friction. A system in
-which$$f_{\text{k}}=\mu\_{\text{k}} \mag{N}$$is described as a system in
+where $$\mu_{\text{k}}$$ is the coefficient of kinetic friction. A system in
+which $$f_{\text{k}}=\mu\_{\text{k}} \mag{N}$$ is described as a system in
 which _friction behaves simply_.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
 Magnitude of Kinetic Friction
 </div>
-The magnitude of kinetic friction$$f_{\text{k}}$$is given by
+The magnitude of kinetic friction $$f_{\text{k}}$$ is given by
 
 <div class="equation">
  $$f_{\text{k}}=\mu_{\text{k}} \mag{N},$$
 </div>
-where$$\mu_{\text{k}}$$is the coefficient of kinetic friction.
+where $$\mu_{\text{k}}$$ is the coefficient of kinetic friction.
 
 </div>
 
 As seen in [Table 1](#Table1), the coefficients of kinetic friction are less
-than their static counterparts. That values of$$\mu$$in [Table 1](#Table1)
+than their static counterparts. That values of $$\mu$$ in [Table 1](#Table1)
 are stated to only one or, at most, two digits is an indication of the
 approximate description of friction given by the above two equations.
 
@@ -165,14 +165,12 @@ The equations given earlier include the dependence of friction on materials and
 the normal force. The direction of friction is always opposite that of motion,
 parallel to the surface between objects, and perpendicular to the normal force.
 For example, if the crate you try to push (with a force parallel to the floor)
-has a mass of 100 kg, then the normal force would be equal to its weight,$$W=mg\left(100 \kg \right)\left( 9.80\mss \right)=980 \N$$, perpendicular to the floor. If the coefficient of
+has a mass of 100 kg, then the normal force would be equal to its weight, $$W=mg\left(100 \kg \right)\left( 9.80\mss \right)=980 \N$$, perpendicular to the floor. If the coefficient of
 static friction is 0.45, you would have to exert a force parallel to the floor
-greater than$$f_{\s \left(\text{max}\right)}=\mu_{\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N$$to move the crate. Once there is motion, friction is less and the
- $$$$
+greater than $$f_{\s \left(\text{max}\right)}=\mu_{\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N$$ to move the crate. Once there is motion, friction is less and the
 coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
-
-f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
-=290\N$$) would keep it moving at a constant speed. If the floor is$$
+$$f_{\text{k}}=\mu_{\text{k}} \mag{N}=\left(0.30\right)\left( 980\N \right)
+=290\N$$) would keep it moving at a constant speed. If the floor is
 lubricated, both coefficients are considerably less than they would be without
 lubrication. Coefficient of friction is a unit less quantity with a magnitude
 usually between 0 and 1.0. The coefficient of the friction depends on the two

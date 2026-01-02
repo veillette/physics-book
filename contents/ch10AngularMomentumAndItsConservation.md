@@ -244,7 +244,7 @@ $$ \begin{array}{lll}
 \KE_\text{rot} &=& 0.5\left(1.25\kg \cdot \mm\right)
 \left(70.4{\text{rad}}^{2}/{\s}^{2}\right)\\
 \KE_\text{rot} &=& 44.0 \J
-\end{array}. $$ $$
+\end{array}. $$
 </div>
 
 **Discussion**
