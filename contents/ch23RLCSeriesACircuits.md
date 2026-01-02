@@ -1178,7 +1178,7 @@ The average power at 10.0 kHz is 16.0 W.
 
 impedance
 : the AC analogue to resistance in a DC circuit; it is the combined effect of
-resistance, inductive reactance, and capacitive reactance in the form $$Z=\sqrt{{R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}$$
+resistance, inductive reactance, and capacitive reactance in the form $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}$$
 
 resonant frequency
 : the frequency at which the impedance in a circuit is at a minimum, and also
