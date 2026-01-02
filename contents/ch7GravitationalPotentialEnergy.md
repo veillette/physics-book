@@ -99,7 +99,7 @@ mass$$m$$is accompanied by a change in gravitational potential energy$$mgh$$
 , and we will avoid the equivalent but more difficult task of calculating work
 done by or against the gravitational force.
 
-![There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.](../resources/Figure_07_03_02.jpg "The change in gravitational potential energy \( (\Delta \PE_\text{g} ) \) between points A and B is independent of the path. \( \Delta \PE_\text{g} =mgh \) for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.")
+![There is a four-story building. A person is carrying a television up the stairs of the building. The height of third story is h from the ground. A girl is standing outside the building and is lifting a similar television with the help of a pulley.](../resources/Figure_07_03_02.jpg "The change in gravitational potential energy \( \Delta \PE_\text{g} \) between points A and B is independent of the path. \( \Delta \PE_\text{g} =mgh \) for any path between the two points. Gravity is one of a small class of forces where the work done by or against the force depends only on the starting and ending points, not on the path between them.")
 {: #Figure2}
 
 <div class="example" id="example1" markdown="1">
