@@ -172,9 +172,7 @@ Resolving Weight into Components
 
 When an object rests on an incline that makes an angle $$ \theta $$ with the
 horizontal, the force of gravity acting on the object is divided into two
-components: a force acting perpendicular to the plane, $$ \vb{w}_{\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_ $$
-{\parallel } $$. The perpendicular force of weight, $$ \vb{w}_{\perp } $$, is typically equal in magnitude and opposite in direction to the normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_{\parallel } $$, causes the object to accelerate down the incline. The force of friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward $$
-along the plane.
+components: a force acting perpendicular to the plane, $$ \vb{w}_{\perp } $$, and a force acting parallel to the plane, $$ \vb{w}_{\parallel } $$. The perpendicular force of weight, $$ \vb{w}_{\perp } $$, is typically equal in magnitude and opposite in direction to the normal force, $$ \vb{N} $$. The force acting parallel to the plane, $$ \vb{w}_{\parallel } $$, causes the object to accelerate down the incline. The force of friction, $$ \vb{f} $$, opposes the motion of the object, so it acts upward along the plane.
 
 It is important to be careful when resolving the weight of the object into
 components. If the angle of the incline is at an angle $$ \theta $$ to the
