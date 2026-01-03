@@ -109,7 +109,26 @@ class LatexFinder {
       await page.goto(url, { waitUntil: 'networkidle', timeout: 15000 });
 
       // Wait for MathJax to finish rendering
-      await page.waitForTimeout(1000);
+      // Give extra time for MathJax to load from CDN and process all math on the page
+      await page.waitForTimeout(3000);
+
+      // Additional wait for MathJax typesetting to complete
+      await page.evaluate(() => {
+        return new Promise((resolve) => {
+          if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {
+            window.MathJax.startup.promise.then(() => {
+              // Wait a bit more after startup completes
+              setTimeout(resolve, 500);
+            }).catch(() => {
+              // If there's an error, continue anyway
+              setTimeout(resolve, 500);
+            });
+          } else {
+            // If MathJax isn't available, just wait a bit
+            setTimeout(resolve, 500);
+          }
+        });
+      });
 
       // Get the text content of the page body, excluding script tags and MathJax elements
       const unrenderedLatex = await page.evaluate(() => {
