@@ -58,11 +58,11 @@ quantity that follows it.)
 
 Life is simpler if the beginning time $$ t_{0} $$ is taken to be zero, as when
 we use a stopwatch. If we were using a stopwatch, it would simply read zero at
-the start of the lecture and 50 min at the end. If $$ t_{0}=0 $$, then $$ \Delta t=t\_{f}\equiv t $$.
+the start of the lecture and 50 min at the end. If $$ t_{0}=0 $$, then $$ \Delta t=t_{f}\equiv t $$.
 
-In this text, for simplicity’s sake,
+In this text, for simplicity's sake,
 
-- motion starts at time equal to zero $$ \left(t\_{0}=0\right) $$ - the symbol $$ t $$ is used for elapsed time unless otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$ 
+- motion starts at time equal to zero $$ \left(t_{0}=0\right) $$ - the symbol $$ t $$ is used for elapsed time unless otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$ 
 
 ### Velocity
 
@@ -625,9 +625,9 @@ $$ \overline{v} = \frac{\Delta x}{t} = \frac{10.3 \text{ km}}{0.300 \text{ h}} =
 
 For the round trip:
 
-- Total distance: $$ d\_{total} = 2 \times 12.0 \text{ km} = 24.0 \text{ km} $$
-- Total time: $$ t\_{total} = 7 \text{ h } 30 \text{ min} = 7.50 \text{ h} $$
-- Total displacement: $$ \Delta x\_{total} = 0 $$ (returns to starting point)
+- Total distance: $$ d_{total} = 2 \times 12.0 \text{ km} = 24.0 \text{ km} $$
+- Total time: $$ t_{total} = 7 \text{ h } 30 \text{ min} = 7.50 \text{ h} $$
+- Total displacement: $$ \Delta x_{total} = 0 $$ (returns to starting point)
 
 Average speed:
 
@@ -715,7 +715,7 @@ The echo time is the time for the radio wave to travel from Earth to Moon and ba
 Given:
 
 - Speed of light (radio wave speed): $$ c = 3.00 \times 10^{8} \ms $$
-- Echo time (round trip): $$ t\_{total} = 2.56 \s $$
+- Echo time (round trip): $$ t_{total} = 2.56 \s $$
 
 The radio wave travels to the Moon and back, so:
 
