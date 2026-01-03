@@ -276,13 +276,13 @@ in a direction $$66.0^\circ$$ north of east. This is an example of multiplying
 a vector by a positive
 **scalar**. Notice that the magnitude changes, but the direction stays the same.
 
-If the scalar is negative, then multiplying a vector by it changes the vector’s
+If the scalar is negative, then multiplying a vector by it changes the vector's
 magnitude and gives the new vector the **opposite** direction. For example, if
 you multiply by -2, the magnitude doubles but the direction changes. We can
 summarize these rules in the following way: When vector $$\vb{A}$$ is
 multiplied by a scalar $$c$$,
 
-* the magnitude of the vector becomes the absolute value of $$|c| |\vb{A}|$$,
+* the magnitude of the vector becomes the absolute value of $$|c|\mag{A}$$,
 * if $$c$$ is positive, the direction of the vector does not change,
 * if $$c$$ is negative, the direction is reversed.
 
