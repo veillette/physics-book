@@ -85,7 +85,7 @@ isotopes, such as in [Appendix B](../contents/appendixB)), its $$\alpha $$
 </div>
 
 where Y is the nuclide that has two fewer protons than X, such as Th having two
-fewer than U. So if you were told that $${}^{239}\text{Pu} $$ $$\alpha $$ decays
+fewer than U. So if you were told that $${}^{239}\text{Pu}$$ $$\alpha$$ decays
 and were asked to write the complete decay equation, you would first look up
 which element has two fewer protons (an atomic number two lower) and find that
 this is uranium. Then since four nucleons have broken away from the original
@@ -368,9 +368,9 @@ decay, then its $${\beta }^{+} $$
 where Y is the nuclide having one less proton than X (to conserve charge) and
 $${\nu }_{e} $$ is the symbol for the **electron’s neutrino**, which has an
 electron family number of $$+1 $$ . Since an antimatter member of the electron
-family (the $${\beta }^{+} $$ )
-is created in the decay, a matter member of the family (here the $${\nu }_{e} $$ )
-must also be created. Given, for example, that $${}^{22}\text{Na} $$ $${\beta }^{+} $$ decays, you can write its full decay equation by first finding that
+family (the $${\beta }^{+}$$)
+is created in the decay, a matter member of the family (here the $${\nu }_{e}$$)
+must also be created. Given, for example, that $${}^{22}\text{Na}$$ $${\beta }^{+}$$ decays, you can write its full decay equation by first finding that
 $$Z=11 $$ for $${}^{22}\text{Na} $$ , so that the daughter nuclide will have
 $$Z=10 $$ , the atomic number for neon. Thus the $${\beta }^{+} $$ decay
 equation for $${}^{22}\text{Na} $$ is
@@ -433,9 +433,9 @@ lower states. The $$\gamma $$ decay equation is simply
 </div>
 
 where the asterisk indicates the nucleus is in an excited state. There may be
-one or more $$\gamma $$ s emitted, depending on how the nuclide de-excites. In
-radioactive decay, $$\gamma $$ emission is common and is preceded by $$\gamma $$
-or $$\beta $$ decay. For example, when $${}^{60}\text{Co} $$ $${\beta }^{-} $$
+one or more $$\gamma$$ s emitted, depending on how the nuclide de-excites. In
+radioactive decay, $$\gamma$$ emission is common and is preceded by $$\gamma$$
+or $$\beta$$ decay. For example, when $${}^{60}\text{Co}$$ $${\beta }^{-}$$
 decays, it most often leaves the daughter nucleus in an excited state, written
 $${}^{60}\text{Ni_} $$ . Then the nickel nucleus quickly $$\gamma $$ decays by
 the emission of two penetrating $$\gamma $$ s:
