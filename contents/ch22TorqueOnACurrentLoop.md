@@ -22,8 +22,8 @@ See [[Figure 1]](#Figure1).)
 Let us examine the force on each segment of the loop in [[Figure 1]](#Figure1)
 to find the torques produced about the axis of the vertical shaft. (This will
 lead to a useful equation for the torque on the loop.) We take the magnetic
-field to be uniform over the rectangular loop, which has width$$ w$$ and height
-$$ l$$ . First, we note that the forces on the top and bottom segments are
+field to be uniform over the rectangular loop, which has width $$ w$$ and height
+$$ l$$. First, we note that the forces on the top and bottom segments are
 vertical and, therefore, parallel to the shaft, producing no torque. Those
 vertical forces are equal in magnitude and opposite in direction, so that they
 also produce no net force on the loop. [[Figure 2]](#Figure2) shows views of the
@@ -43,16 +43,16 @@ $$\tau =\frac{w}{2}F \sin \theta +\frac{w}{2}F \sin \theta = w F \sin \theta$$
 ![Diagram showing a current-carrying loop from the top, and four different times as it rotates in a magnetic field. The magnetic field oriented toward the right, perpendicular to the vertical dimension of the loop. In figure a, the top view of the loop is oriented at an angle to the magnetic field lines, which run left to right. The force on the loop is up on the lower left side where the current comes out of the page. The force is down on the upper right side where the loop goes into the page. The angle between the force and the loop is theta. Torque is clockwise and equals w over 2 times I l B sine theta. Figure b shows the top view of the loop parallel to the magnetic field lines. The force on the loop is up on the left side where I comes out of the page. The force on the loop is down on the right side where I goes into the page. The angle theta between the F and B is ninety degrees. Torque is clockwise and equals w over 2 I l B equals maximum torque. Figure c shows the top view of the loop oriented perpendicular to B. The force on the loop is up at the top, where I comes out of the page, and down at the bottom where I goes into the page. Theta equals 0 degrees. Torque equals zero since sine theta equals 0. In figure d the force is down on the lower left side of the loop where I goes in, and up on the upper right side of the loop where I comes out. The torque is counterclockwise. Torque is negative.](../resources/Figure_22_08_02.jpg 'Top views of a current-carrying loop in a magnetic field. (a) The equation for torque is derived using this view. Note that the perpendicular to the loop makes an angle ( \\theta ) with the field that is the same as the angle between ( w/2 ) and ( F ) . (b) The maximum torque occurs when ( \\theta ) is a right angle and ( \\sin \\theta =1 ) . (c) Zero (minimum) torque occurs when ( \\theta ) is zero and ( \\sin \\theta =0 ) . (d) The torque reverses once the loop rotates past ( \\theta=0 ).')
 {: #Figure2}
 
-Now, each vertical segment has a length$$ l$$ that is perpendicular to$$B$$ ,
-so that the force on each is$$ F=IlB$$ . Entering$$F$$ into the expression
+Now, each vertical segment has a length $$ l$$ that is perpendicular to $$B$$,
+so that the force on each is $$ F=IlB$$. Entering $$F$$ into the expression
 for torque yields
 
 <div class="equation">
 $$\tau =wIlB \sin \theta$$
 </div>
 
-If we have a multiple loop of$$N$$ turns, we get$$N$$ times the torque of
-one loop. Finally, note that the area of the loop is$$ A= wl$$ ; the expression
+If we have a multiple loop of $$N$$ turns, we get $$N$$ times the torque of
+one loop. Finally, note that the area of the loop is $$ A= wl$$; the expression
 for the torque becomes
 
 <div class="equation">
