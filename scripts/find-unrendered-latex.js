@@ -238,43 +238,62 @@ class LatexFinder {
 
     console.log(chalk.gray(`Found ${htmlFiles.length} HTML files to check\n`));
 
-    for (const htmlFile of htmlFiles) {
-      this.stats.filesChecked++;
+    // Process files in parallel batches
+    const BATCH_SIZE = 5; // Number of concurrent browser instances
+    const batches = [];
 
-      try {
-        const issues = await this.checkPage(htmlFile);
+    for (let i = 0; i < htmlFiles.length; i += BATCH_SIZE) {
+      batches.push(htmlFiles.slice(i, i + BATCH_SIZE));
+    }
 
-        if (issues.length > 0) {
-          this.stats.filesWithIssues++;
-          this.stats.totalIssues += issues.length;
+    for (const batch of batches) {
+      // Process each batch in parallel
+      const batchPromises = batch.map(async (htmlFile) => {
+        try {
+          const issues = await this.checkPage(htmlFile);
 
-          // Update category stats
-          issues.forEach(issue => {
-            this.stats.byCategory[issue.category]++;
-          });
+          this.stats.filesChecked++;
 
-          if (!this.groupByType) {
-            this.printFileIssues(htmlFile, issues);
+          if (issues.length > 0) {
+            this.stats.filesWithIssues++;
+            this.stats.totalIssues += issues.length;
+
+            // Update category stats
+            issues.forEach(issue => {
+              this.stats.byCategory[issue.category]++;
+            });
+
+            if (!this.groupByType) {
+              this.printFileIssues(htmlFile, issues);
+            }
+
+            this.issues.push({
+              htmlFile: htmlFile,
+              sourceFile: issues[0].sourceFile,
+              issues: issues,
+            });
           }
 
-          this.issues.push({
-            htmlFile: htmlFile,
-            sourceFile: issues[0].sourceFile,
-            issues: issues,
-          });
-        }
+          return { htmlFile, success: true };
+        } catch (error) {
+          this.stats.filesChecked++;
 
-        // Progress indicator
-        if (!this.verbose && this.stats.filesChecked % 10 === 0) {
-          console.log(chalk.gray(`  Progress: ${this.stats.filesChecked}/${this.stats.totalFiles} files checked...`));
-        }
+          if (error.message.includes('Timeout')) {
+            console.log(chalk.gray(`    • Skipped (timeout): ${htmlFile}`));
+          } else {
+            console.log(chalk.red(`    • Error checking ${htmlFile}: ${error.message}`));
+          }
 
-      } catch (error) {
-        if (error.message.includes('Timeout')) {
-          console.log(chalk.gray(`    • Skipped (timeout): ${htmlFile}`));
-        } else {
-          console.log(chalk.red(`    • Error checking ${htmlFile}: ${error.message}`));
+          return { htmlFile, success: false, error };
         }
+      });
+
+      // Wait for the entire batch to complete
+      await Promise.all(batchPromises);
+
+      // Progress indicator after each batch
+      if (!this.verbose) {
+        console.log(chalk.gray(`  Progress: ${this.stats.filesChecked}/${this.stats.totalFiles} files checked...`));
       }
     }
 
