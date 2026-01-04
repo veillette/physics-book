@@ -509,7 +509,7 @@ We use the magnetic force equation $$F = qvB\sin\theta$$ and solve for $$\theta$
 - Magnetic force: $$F = 1.40 \times 10^{-16} \text{ N}$$
 - Electron charge magnitude: $$|q| = e = 1.60 \times 10^{-19} \text{ C}$$
 
-From $$F = |q|vB\sin\theta$$, we solve for $$\sin\theta$$:
+From $$F = |q|vB\sin\theta$$, we solve for $$\sin\theta$$ :
 
 $$\sin\theta = \frac{F}{|q|vB}$$
 

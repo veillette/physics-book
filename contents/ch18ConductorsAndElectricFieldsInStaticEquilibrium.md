@@ -773,7 +773,7 @@ The total electric field equals that from $$-2q$$ alone at $$x = 7.00$$ cm.
 
 **(c) Can the field be zero between 0.00 and 8.00 cm?**
 
-Between 0.00 and 3.00 cm: All three charges are to the right. The two $$+q$$ charges produce rightward fields (away from them), and the $$-2q$$ produces a leftward field (toward it). However, the $$-2q$$ is more distant than at least one $$+q$$, and its field magnitude ($$\propto 2q/r^2$$) cannot overcome both $$+q$$ contributions. Field cannot be zero here.
+Between 0.00 and 3.00 cm: All three charges are to the right. The two $$+q$$ charges produce rightward fields (away from them), and the $$-2q$$ produces a leftward field (toward it). However, the $$-2q$$ is more distant than at least one $$+q$$, and its field magnitude ( $$\propto 2q/r^2$$) cannot overcome both $$+q$$ contributions. Field cannot be zero here.
 
 Between 3.00 and 8.00 cm: The $$+q$$ at 3.00\text{ cm} produces a rightward field (away), the $$-2q$$ at 8.00\text{ cm} produces a rightward field (toward), and the $$+q$$ at 11.0\text{ cm} produces a leftward field (away). For zero field, the leftward contribution must equal the rightward contributions. However, the $$+q$$ at 11.0 cm is far away while both other charges are nearby, so its field is much weaker. The field cannot be zero in this region.
 
