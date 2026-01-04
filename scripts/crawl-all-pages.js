@@ -23,8 +23,12 @@ import fs from 'fs';
 import path from 'path';
 import chalk from 'chalk';
 
-const CONCURRENCY = parseInt(process.argv.find(arg => arg.startsWith('--concurrent='))?.split('=')[1]) ||
-                    (process.argv.includes('--concurrent') ? parseInt(process.argv[process.argv.indexOf('--concurrent') + 1]) : 5) || 5;
+const CONCURRENCY =
+  parseInt(process.argv.find(arg => arg.startsWith('--concurrent='))?.split('=')[1]) ||
+  (process.argv.includes('--concurrent')
+    ? parseInt(process.argv[process.argv.indexOf('--concurrent') + 1])
+    : 5) ||
+  5;
 
 const baseUrl = 'http://localhost:4000/physics-book/contents/';
 const siteDir = '_site/contents';
@@ -271,7 +275,8 @@ class PageCrawler {
             const cleanSnippet = snippet.replace(/\s+/g, ' ').trim();
 
             // Show the snippet
-            const displaySnippet = cleanSnippet.length > 60 ? cleanSnippet.substring(0, 60) + '...' : cleanSnippet;
+            const displaySnippet =
+              cleanSnippet.length > 60 ? cleanSnippet.substring(0, 60) + '...' : cleanSnippet;
             errors.push(`  → "${displaySnippet}"`);
 
             // Search for context around $$
@@ -332,7 +337,9 @@ class PageCrawler {
           const progressInterval = this.errorsOnly ? 10 : 20;
           if (index % progressInterval === 0 || index === this.stats.totalPages) {
             const progress = Math.round((index / this.stats.totalPages) * 100);
-            console.log(chalk.gray(`   Progress: ${index}/${this.stats.totalPages} (${progress}%)`));
+            console.log(
+              chalk.gray(`   Progress: ${index}/${this.stats.totalPages} (${progress}%)`)
+            );
           }
         }
       }

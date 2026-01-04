@@ -184,6 +184,7 @@ For detailed project conventions, see [`claude.md`](./claude.md).
 ### December 2025 Updates
 
 **Performance & Accessibility:**
+
 - Removed Font Awesome dependency (~200KB savings)
 - Replaced icon fonts with Unicode symbols and CSS2
 - Added comprehensive ARIA labels and semantic HTML
@@ -191,6 +192,7 @@ For detailed project conventions, see [`claude.md`](./claude.md).
 - Enhanced screen reader support
 
 **PDF Generation:**
+
 - Implemented parallel PDF generation (4x-8x faster)
 - Automated weekly regeneration via GitHub Actions
 - 309 PDFs generated in ~60 minutes
@@ -198,6 +200,7 @@ For detailed project conventions, see [`claude.md`](./claude.md).
 - Smart commits (only when PDFs change)
 
 **Infrastructure:**
+
 - Enhanced GitHub Actions workflows
 - Improved service worker caching
 - Better offline support

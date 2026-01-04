@@ -114,15 +114,17 @@ class LatexFinder {
 
       // Additional wait for MathJax typesetting to complete
       await page.evaluate(() => {
-        return new Promise((resolve) => {
+        return new Promise(resolve => {
           if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {
-            window.MathJax.startup.promise.then(() => {
-              // Wait a bit more after startup completes to ensure all rendering is done
-              setTimeout(resolve, 1500);
-            }).catch(() => {
-              // If there's an error, continue anyway
-              setTimeout(resolve, 1500);
-            });
+            window.MathJax.startup.promise
+              .then(() => {
+                // Wait a bit more after startup completes to ensure all rendering is done
+                setTimeout(resolve, 1500);
+              })
+              .catch(() => {
+                // If there's an error, continue anyway
+                setTimeout(resolve, 1500);
+              });
           } else {
             // If MathJax isn't available, just wait a bit
             setTimeout(resolve, 1500);
@@ -135,35 +137,33 @@ class LatexFinder {
         const results = [];
 
         // Get all text nodes, excluding those in script tags, style tags, and MathJax rendered elements
-        const walker = document.createTreeWalker(
-          document.body,
-          NodeFilter.SHOW_TEXT,
-          {
-            acceptNode: (node) => {
-              const parent = node.parentElement;
-              if (!parent) return NodeFilter.FILTER_REJECT;
+        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+          acceptNode: node => {
+            const parent = node.parentElement;
+            if (!parent) return NodeFilter.FILTER_REJECT;
 
-              // Skip script, style, and MathJax elements
-              if (parent.tagName === 'SCRIPT' ||
-                  parent.tagName === 'STYLE' ||
-                  parent.tagName === 'NOSCRIPT' ||
-                  parent.classList.contains('MathJax') ||
-                  parent.classList.contains('MathJax_Display') ||
-                  parent.classList.contains('MathJax_Preview') ||
-                  parent.closest('.MathJax') ||
-                  parent.closest('mjx-container') ||
-                  parent.closest('[class*="MathJax"]')) {
-                return NodeFilter.FILTER_REJECT;
-              }
-
-              return NodeFilter.FILTER_ACCEPT;
+            // Skip script, style, and MathJax elements
+            if (
+              parent.tagName === 'SCRIPT' ||
+              parent.tagName === 'STYLE' ||
+              parent.tagName === 'NOSCRIPT' ||
+              parent.classList.contains('MathJax') ||
+              parent.classList.contains('MathJax_Display') ||
+              parent.classList.contains('MathJax_Preview') ||
+              parent.closest('.MathJax') ||
+              parent.closest('mjx-container') ||
+              parent.closest('[class*="MathJax"]')
+            ) {
+              return NodeFilter.FILTER_REJECT;
             }
-          }
-        );
+
+            return NodeFilter.FILTER_ACCEPT;
+          },
+        });
 
         const textNodes = [];
         let node;
-        while (node = walker.nextNode()) {
+        while ((node = walker.nextNode())) {
           textNodes.push(node);
         }
 
@@ -177,28 +177,42 @@ class LatexFinder {
           if (latexMatches && latexMatches.length > 0) {
             // Get context: find the containing paragraph or element
             let contextElement = textNode.parentElement;
-            while (contextElement && !['P', 'DIV', 'LI', 'TD', 'TH', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6', 'FIGCAPTION'].includes(contextElement.tagName)) {
+            while (
+              contextElement &&
+              ![
+                'P',
+                'DIV',
+                'LI',
+                'TD',
+                'TH',
+                'H1',
+                'H2',
+                'H3',
+                'H4',
+                'H5',
+                'H6',
+                'FIGCAPTION',
+              ].includes(contextElement.tagName)
+            ) {
               contextElement = contextElement.parentElement;
             }
 
             const context = contextElement ? contextElement.innerText : text;
-            const truncatedContext = context.length > 100
-              ? context.substring(0, 100) + '...'
-              : context;
+            const truncatedContext =
+              context.length > 100 ? context.substring(0, 100) + '...' : context;
 
             // Get parent element type for categorization
             const parentTag = contextElement ? contextElement.tagName : 'UNKNOWN';
-            const isInImage = contextElement && (
-              contextElement.querySelector('img') !== null ||
-              contextElement.closest('figure') !== null ||
-              parentTag === 'FIGCAPTION'
-            );
+            const isInImage =
+              contextElement &&
+              (contextElement.querySelector('img') !== null ||
+                contextElement.closest('figure') !== null ||
+                parentTag === 'FIGCAPTION');
 
             // Extract a better search pattern (surrounding text)
             const textContent = text.trim();
-            const searchPattern = textContent.length > 150
-              ? textContent.substring(0, 150) + '...'
-              : textContent;
+            const searchPattern =
+              textContent.length > 150 ? textContent.substring(0, 150) + '...' : textContent;
 
             results.push({
               commands: [...new Set(latexMatches)],
@@ -223,7 +237,6 @@ class LatexFinder {
         sourceFile: sourceFile,
         category: this.categorizeIssue(issue.context, issue.fullText, issue.commands),
       }));
-
     } catch (error) {
       await browser.close();
       throw error;
@@ -248,7 +261,7 @@ class LatexFinder {
 
     for (const batch of batches) {
       // Process each batch in parallel
-      const batchPromises = batch.map(async (htmlFile) => {
+      const batchPromises = batch.map(async htmlFile => {
         try {
           const issues = await this.checkPage(htmlFile);
 
@@ -293,7 +306,11 @@ class LatexFinder {
 
       // Progress indicator after each batch
       if (!this.verbose) {
-        console.log(chalk.gray(`  Progress: ${this.stats.filesChecked}/${this.stats.totalFiles} files checked...`));
+        console.log(
+          chalk.gray(
+            `  Progress: ${this.stats.filesChecked}/${this.stats.totalFiles} files checked...`
+          )
+        );
       }
     }
 
@@ -313,7 +330,9 @@ class LatexFinder {
 
     console.log(chalk.yellow(`\n  ${htmlFile}:`));
     console.log(chalk.gray(`    Source: ${sourceFile}`));
-    console.log(chalk.yellow(`    • ${issues.length} unrendered LaTeX command${issues.length > 1 ? 's' : ''}`));
+    console.log(
+      chalk.yellow(`    • ${issues.length} unrendered LaTeX command${issues.length > 1 ? 's' : ''}`)
+    );
 
     // Group by category
     const byCategory = {};
@@ -325,12 +344,13 @@ class LatexFinder {
     });
 
     Object.entries(byCategory).forEach(([category, categoryIssues]) => {
-      const label = {
-        imageAlt: '📷 Image/Figure',
-        splitDelimiters: '✂️  Split delimiters',
-        missingSpaces: '␣  Missing spaces',
-        otherLatex: '📐 Other LaTeX',
-      }[category] || category;
+      const label =
+        {
+          imageAlt: '📷 Image/Figure',
+          splitDelimiters: '✂️  Split delimiters',
+          missingSpaces: '␣  Missing spaces',
+          otherLatex: '📐 Other LaTeX',
+        }[category] || category;
 
       console.log(chalk.cyan(`    ${label}: ${categoryIssues.length} issue(s)`));
 
@@ -422,10 +442,16 @@ class LatexFinder {
     if (this.stats.filesWithIssues === 0) {
       console.log(chalk.green('\n✓ No unrendered LaTeX commands found!\n'));
     } else {
-      console.log(chalk.yellow(`\n⚠ Found unrendered LaTeX in ${this.stats.filesWithIssues} file(s)`));
+      console.log(
+        chalk.yellow(`\n⚠ Found unrendered LaTeX in ${this.stats.filesWithIssues} file(s)`)
+      );
 
       if (!this.jsonOutput) {
-        console.log(chalk.gray('\nTip: Use --json output.json to save detailed results for programmatic fixes'));
+        console.log(
+          chalk.gray(
+            '\nTip: Use --json output.json to save detailed results for programmatic fixes'
+          )
+        );
       }
       console.log(chalk.gray('Tip: Use --by-type to group issues by category'));
       console.log(chalk.gray('Tip: Use --verbose for full details\n'));
@@ -449,10 +475,12 @@ const args = process.argv.slice(2);
 const options = {
   verbose: args.includes('--verbose') || args.includes('-v'),
   groupByType: args.includes('--by-type') || args.includes('--group'),
-  filePattern: args.find(arg => arg.startsWith('--file='))?.split('=')[1] ||
-               (args.includes('--file') ? args[args.indexOf('--file') + 1] : '*.html'),
-  jsonOutput: args.find(arg => arg.startsWith('--json='))?.split('=')[1] ||
-              (args.includes('--json') ? args[args.indexOf('--json') + 1] : null),
+  filePattern:
+    args.find(arg => arg.startsWith('--file='))?.split('=')[1] ||
+    (args.includes('--file') ? args[args.indexOf('--file') + 1] : '*.html'),
+  jsonOutput:
+    args.find(arg => arg.startsWith('--json='))?.split('=')[1] ||
+    (args.includes('--json') ? args[args.indexOf('--json') + 1] : null),
 };
 
 // Run the finder
