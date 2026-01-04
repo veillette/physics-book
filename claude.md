@@ -233,6 +233,7 @@ This comprehensive suite, run via `npm run audit` and other commands, ensures hi
 ### December 2025 Updates
 
 **Accessibility Enhancements:**
+
 - Complete removal of Font Awesome dependency (~200KB savings)
 - Replaced icon fonts with Unicode symbols and CSS2 for better performance
 - Added comprehensive ARIA labels throughout the site
@@ -242,6 +243,7 @@ This comprehensive suite, run via `npm run audit` and other commands, ensures hi
 - Better screen reader support with descriptive labels
 
 **PDF Generation:**
+
 - Implemented parallel PDF generation system (`scripts/generate-pdf-parallel.js`)
 - Automated weekly PDF regeneration via GitHub Actions
 - 3-phase generation: sections → chapter intros → combined chapters
@@ -251,12 +253,14 @@ This comprehensive suite, run via `npm run audit` and other commands, ensures hi
 - Performance: ~30 minutes locally, ~60 minutes on GitHub Actions
 
 **Infrastructure:**
+
 - Enhanced `.github/workflows/generate-pdfs.yml` with parallel processing
 - Automated PDF deployment and versioning
 - Improved service worker caching strategy
 - Better offline support with versioned cache management
 
 **Quality Assurance:**
+
 - Comprehensive link checking and fixing across all content
 - Liquid syntax conflict detection and auto-fixing
 - Enhanced math delimiter validation

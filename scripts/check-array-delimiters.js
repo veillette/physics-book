@@ -155,7 +155,8 @@ class ArrayDelimiterChecker {
 
     const files = specificFile
       ? [path.join(contentsDir, specificFile)]
-      : fs.readdirSync(contentsDir)
+      : fs
+          .readdirSync(contentsDir)
           .filter(f => f.endsWith('.md'))
           .map(f => path.join(contentsDir, f))
           .sort();

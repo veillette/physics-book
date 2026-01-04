@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Added
 
 #### PDF Generation System
+
 - **Parallel PDF Generation** (`scripts/generate-pdf-parallel.js`)
   - 3-phase generation: sections → intros → combined chapters
   - Configurable concurrency (default: 4 parallel for sections, 2 for combined)
@@ -31,6 +32,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - 90-day artifact retention for backups
 
 #### Accessibility Enhancements
+
 - **ARIA Labels**: Comprehensive labeling throughout the site
   - Navigation elements with descriptive aria-labels
   - Interactive buttons with clear purpose descriptions
@@ -47,6 +49,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Better landmark regions
 
 #### Quality Assurance
+
 - **Liquid Syntax Conflict Detection**: Automatic detection and fixing of LaTeX/Liquid conflicts
 - **Enhanced Link Validation**: Comprehensive internal and external link checking
 - **Math Delimiter Validation**: Improved LaTeX delimiter balance checking
@@ -55,6 +58,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 
 #### Performance Improvements
+
 - **Font Awesome Removal**: Eliminated 200KB+ dependency
   - Replaced with Unicode symbols (↑, ↓, ←, →, ⚠, ✓)
   - CSS2-based icons for UI elements
@@ -68,6 +72,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Faster subsequent page loads
 
 #### PDF System
+
 - **Complete PDF Coverage**: 310 PDFs tracked, 309 generated
   - 241 section PDFs
   - 34 chapter intro PDFs
@@ -81,6 +86,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
   - Previous: 2+ hours (sequential)
 
 #### Infrastructure
+
 - **GitHub Actions**: Enhanced CI/CD workflows
   - Automated PDF generation and deployment
   - Quality checks on pull requests
@@ -105,11 +111,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Performance Metrics
 
 #### Before Optimizations
+
 - PDF generation: 2+ hours (sequential)
 - Page load with Font Awesome: ~200KB extra download
 - No automated PDF regeneration
 
 #### After Optimizations
+
 - PDF generation: 30 minutes local, 60 minutes CI (parallel)
 - Page load without Font Awesome: 200KB+ savings
 - Weekly automated PDF regeneration

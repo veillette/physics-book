@@ -63,16 +63,15 @@ class ArrayBeginDelimiterFixer {
 
     if (matches.length > 0) {
       // Replace all occurrences
-      newContent = content.replace(
-        /\\begin\{array\}\{([^}]*)\}\s*\$\$/g,
-        '\\begin{array}{$1}'
-      );
+      newContent = content.replace(/\\begin\{array\}\{([^}]*)\}\s*\$\$/g, '\\begin{array}{$1}');
 
       fileFixCount = matches.length;
       this.stats.filesModified++;
       this.stats.totalFixes += fileFixCount;
 
-      console.log(chalk.yellow(`\n${applyChanges ? '✓' : '•'} ${filename}: ${fileFixCount} fix(es)`));
+      console.log(
+        chalk.yellow(`\n${applyChanges ? '✓' : '•'} ${filename}: ${fileFixCount} fix(es)`)
+      );
 
       if (verbose) {
         matches.forEach(m => {
@@ -102,7 +101,8 @@ class ArrayBeginDelimiterFixer {
 
     const files = specificFile
       ? [path.join(contentsDir, specificFile)]
-      : fs.readdirSync(contentsDir)
+      : fs
+          .readdirSync(contentsDir)
           .filter(f => f.endsWith('.md'))
           .map(f => path.join(contentsDir, f))
           .sort();
@@ -141,9 +141,17 @@ class ArrayBeginDelimiterFixer {
       console.log(chalk.green('\n✅ No extra delimiters after \\begin{array} found!'));
     } else {
       if (applyChanges) {
-        console.log(chalk.green(`\n✅ Fixed ${this.stats.totalFixes} extra delimiter(s) in ${this.stats.filesModified} files.`));
+        console.log(
+          chalk.green(
+            `\n✅ Fixed ${this.stats.totalFixes} extra delimiter(s) in ${this.stats.filesModified} files.`
+          )
+        );
       } else {
-        console.log(chalk.yellow(`\n⚠️  Found ${this.stats.totalFixes} extra delimiter(s) in ${this.stats.filesModified} files.`));
+        console.log(
+          chalk.yellow(
+            `\n⚠️  Found ${this.stats.totalFixes} extra delimiter(s) in ${this.stats.filesModified} files.`
+          )
+        );
         console.log(chalk.gray('\nRun with --apply to fix these issues.'));
       }
     }
