@@ -76,6 +76,8 @@
 
   /* Layout */
   --sidebar-width: 250px;
+  --sidebar-min-width: 150px;
+  --sidebar-max-width: 500px;
   --page-max-width: 800px;
   --border-radius-sm: 3px;
   --border-radius-md: 4px;
@@ -539,6 +541,38 @@ h4 {
 
 .book.without-animation .book-summary {
   transition: none !important;
+}
+
+/* ==================== Sidebar Resize Handle ==================== */
+
+.book .book-summary .resize-handle {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-end: 0;
+  inline-size: 5px;
+  cursor: ew-resize;
+  background: transparent;
+  transition: background-color 0.2s ease;
+  z-index: 10;
+}
+
+.book .book-summary .resize-handle:hover,
+.book .book-summary .resize-handle.resizing {
+  background-color: var(--color-primary);
+}
+
+.book .book-summary .resize-handle::after {
+  content: '';
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: -2px;
+  inline-size: 9px;
+}
+
+@media (max-width: 600px) {
+  .book .book-summary .resize-handle {
+    display: none;
+  }
 }
 
 /* ==================== Book Body ==================== */
@@ -1624,6 +1658,11 @@ body.dark-mode .btn-link {
 
 body.dark-mode .btn-link:hover {
   background: var(--color-dark-bg-secondary) linear-gradient(to bottom, var(--color-dark-bg-secondary) 5%, var(--color-dark-bg-tertiary) 100%);
+}
+
+body.dark-mode .book .book-summary .resize-handle:hover,
+body.dark-mode .book .book-summary .resize-handle.resizing {
+  background-color: var(--color-dark-link);
 }
 
 /* End Gitbook CSS */
