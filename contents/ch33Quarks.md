@@ -58,11 +58,7 @@ flavors, which are divided into three families quite analogous to leptons.
 To understand how these quark substructures work, let us specifically examine
 the proton, neutron, and the two pions pictured in [[Figure 1]](#Figure1) before
 moving on to more general considerations. First, the proton _p_ is composed of
-the three quarks _uud_, so that its total charge is $$+\left(\frac{2}{3}\right) $$
-{q}_{e}+\left(\frac{2}{3}\right){q}_{e}-\left(\frac{1}{3}\right){q}_{e}={q}_{e}
-
-, as expected. With the spins aligned as in the figure, the proton’s
-intrinsic spin is $$+\left(\frac{1}{2}\right)+\left(\frac{1}{2}\right)-\left( \frac{1}{2}\right)=\left(\frac{1}{2}\right) $$ , also as expected. Note that the
+the three quarks _uud_, so that its total charge is $$+\left(\frac{2}{3}\right){q}_{e}+\left(\frac{2}{3}\right){q}_{e}-\left(\frac{1}{3}\right){q}_{e}={q}_{e}$$, as expected. With the spins aligned as in the figure, the proton's intrinsic spin is $$+\left(\frac{1}{2}\right)+\left(\frac{1}{2}\right)-\left(\frac{1}{2}\right)=\left(\frac{1}{2}\right)$$, also as expected. Note that the
 spins of the up quarks are aligned, so that they would be in the same state
 except that they have different colors (another quantum number to be elaborated
 upon a little later). Quarks obey the Pauli exclusion principle. Similar
@@ -439,7 +435,7 @@ nuclear force cannot change the flavor of a quark.**
 
 Again, from [[Figure 1]](#Figure1), we see that the $${\pi }^{+} $$ meson (one
 of the three pions) is composed of an up quark plus an antidown quark, or
-$$u\stackrel{-}{d} $$ . Its total charge is thus $$+\left(\frac{2}{3}\right){q}_ {e}+\left(\frac{1}{3}\right){q}_{e}={q}_{e} $$ , as expected. Its baryon number
+$$u\stackrel{-}{d} $$ . Its total charge is thus $$+\left(\frac{2}{3}\right){q}_{e}+\left(\frac{1}{3}\right){q}_{e}={q}_{e} $$ , as expected. Its baryon number
 is 0, since it has a quark and an antiquark with baryon numbers $$+\left( \frac{1}{3}\right)-\left(\frac{1}{3}\right)=0 $$ . The $${\pi }^{+} $$ half-life
 is relatively long since, although it is composed of matter and antimatter, the
 quarks are different flavors and the weak force should cause the decay by
@@ -950,8 +946,7 @@ Repeat the previous problem for the decay mode  $${\Omega }^{-}\to {\text{Λ}}^{
 (b)  $$B=1=1+0, Z=0+\left(-1\right) $$ ,
  all lepton numbers are 0 before and after
 
-(c)  $$\left(\text{sss}\right)\to \left(\text{uds}\right)+\left(
-\stackrel{-}{u}s\right)
+(c)  $$\left(\text{sss}\right)\to \left(\text{uds}\right)+\left(\stackrel{-}{u}s\right)$$
 
 </div>
 </div>
@@ -1677,4 +1672,4 @@ top
 up
 : the lightest of all quarks
 
-</div>
+</div>

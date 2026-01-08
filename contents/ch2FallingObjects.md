@@ -60,10 +60,8 @@ specified. The direction of the acceleration due to gravity is *downward (
 towards the center of Earth)*. In fact, its direction *defines* what we call
 vertical. Note that whether the acceleration $$ a $$ in the kinematic equations
 has the value $$ +g $$ or $$ -g $$ depends on how we define our coordinate
-system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss $$
-$$, and if we define the downward direction as positive, then $$ a=g=9.80 \mss
-
-.
+system. If we define the upward direction as positive, then $$ a=-g=-9.80 \mss $$,
+and if we define the downward direction as positive, then $$ a=g=9.80 \mss $$.
 
 ### One-Dimensional Motion Involving Gravity
 
@@ -140,8 +138,7 @@ which is the value we want to find.
 
 **Discussion**
 
-The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> y_ {0} $$. It could be *moving* up or down; the only way to tell is to calculate $$
-v_{1} $$ and find out if it is positive or negative. **Solution for Velocity** $$ v_{1} $$
+The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> y_{0} $$. It could be *moving* up or down; the only way to tell is to calculate $$ v_{1} $$ and find out if it is positive or negative. **Solution for Velocity** $$ v_{1} $$ 
 
 1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$. We also know from the solution above
 that $$ y_{1}=8.10 \m $$.
@@ -151,8 +148,7 @@ that $$ y_{1}=8.10 \m $$.
 3\. Plug in the knowns and solve.
 
 <div class="equation">
- $$ v_{1}=v_{0}-gt= 13.0 \ms -\left(9.80 \mss \right)
-\left(1.00 \s \right)=3.20 \ms $$
+ $$ v_{1}=v_{0}-gt= 13.0 \ms -\left(9.80 \mss \right) \left(1.00 \s \right)=3.20 \ms $$ 
 </div>
 
 **Discussion**
@@ -231,7 +227,7 @@ continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_ {0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_{0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
 The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
@@ -240,9 +236,7 @@ only unknown in it is $$ v $$. (We will plug $$ y\_{1} $$ in for $$ y $$.)
 3\. Enter the known values
 
 <div class="equation">
- $$ v^{2}={\left(-13.0 \ms \right)}^{2}+
-2\left(-9.80 \mss \right)
-\left(-5.10 \m -0 \m \right)=268.96 \mmss , $$
+ $$ v^{2}={\left(-13.0 \ms \right)}^{2}+ 2\left(-9.80 \mss \right) \left(-5.10 \m -0 \m \right)=268.96 \mmss , $$ 
 </div>
 where we have retained extra significant figures because this is an intermediate result.
 
@@ -334,8 +328,7 @@ Solving for $$ a $$ gives
 4\. Substitute known values yields
 
 <div class="equation">
- $$ a=\frac{2\left(-1.0000 \m  - 0 \right)}
-{\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$
+ $$ a=\frac{2\left(-1.0000 \m - 0 \right)} {\left(0.45173 \s \right)^{2}}=-9.8010\mss ,$$ 
 </div>
 so, because $$ a=-g $$ with the directions we have chosen,
 
@@ -364,8 +357,11 @@ water. Assuming it falls freely (there is no air resistance), how long does
 it take to hit the water?
 </div>
 <div class="solution" markdown="1">
-We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation $$
-y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain <div class="equation"> $$ \begin{array}{lll}
+We know that initial position $$ y_{0}=0 $$, final position $$ y=−30.0 \text {m} $$, and $$ a=-g=-9.80 \mss $$. We can then use the equation
+$$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g $$, we obtain
+
+<div class="equation">
+$$ \begin{array}{lll}
 y&=& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}&=& \frac{2y}{-g}\\
 t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.
@@ -395,7 +391,7 @@ Kinematics of an Elevator
 
 - An object in free-fall experiences constant acceleration if air resistance is
   negligible.
-- On Earth, all free-falling objects have an acceleration due to gravity $$ g $$
+- On Earth, all free-falling objects have an acceleration due to gravity $$ g $$
 
   , which averages
   <div class="equation">
@@ -741,7 +737,7 @@ where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $
 $$ y $$. Solving for $$ y $$ gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 v^{2}-v_{0}^{2}&=& 2a\left(y-y_{0}\right)\\
 \frac{ v^{2}-v_{0}^{2}}{2a}&=& y-y_{0}\\
 y&=& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\left(13.0 \ms \right)}^{2}}{2\left(-9.80 \mss \right)}=8.62 \m
@@ -2149,4 +2145,4 @@ free-fall
 acceleration due to gravity
 : acceleration of an object as a result of gravity
 
-</div>
+</div>

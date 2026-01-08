@@ -141,7 +141,7 @@ is.
 Let us use this last equation to find an expression for the inductance of a
 solenoid. Since the area $$A $$ of a solenoid is fixed, the change in flux is
 $$\Delta \Phi =\Delta \left(BA\right)=A\Delta B $$ . To find $$\Delta B $$ , we
-note that the magnetic field of a solenoid is given by $$B={\mu }_ {0}\text{nI}={\mu }_{0}\frac{NI}{\ell } $$ .
+note that the magnetic field of a solenoid is given by $$B={\mu }_{0}\text{nI}={\mu }_{0}\frac{NI}{\ell } $$ .
 (Here $$n=N/\ell $$ , where $$N $$ is the number of coils and $$\ell $$ is the
 solenoid’s length.) Only the current changes, so that $$\Delta \Phi =A\Delta B={\mu }_{0}NA\frac{\Delta I}{\ell } $$ . Substituting $$\Delta \Phi $$ into
 $$L=N\frac{\Delta \Phi }{\Delta I} $$ gives
@@ -184,15 +184,14 @@ The cross-sectional area in this example is  $$A=\pi r^2=\left( 3.14\text{...}\r
  Substituting these into the expression for  $$L $$  gives
 
 <div class="equation" >
- $$\begin{array}{lll}
+$$\begin{array}{lll}
  L& =& \frac{
         \left(4\pi  \times 10^{-7}  \text{T}\cdot \text{m/A}\right)
         \left( 200 \right)^{2}
         \left( 1.26 \times 10^{-3}  {\text{m}}^{2} \right)
         }
         {0.100 \text{m}}\\
-  L& =& 0.632 \text{mH}\text{.}\end{array}
-$$
+  L& =& 0.632 \text{mH}\text{.}\end{array} $$
 
 </div>
 **Discussion**
@@ -243,8 +242,7 @@ How much energy is stored in the 0.632 mH inductor of the preceding example when
 
 **Strategy**
 
-The energy is given by the equation $${E}_ {\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_
-{\text{ind}} $$ are known.
+The energy is given by the equation $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_{\text{ind}} $$ are known. 
 
 **Solution**
 
@@ -1064,7 +1062,7 @@ inductor
 : a device that exhibits significant self-inductance
 
 energy stored in an inductor
-: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
+: self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
 
 
-</div>
+</div>

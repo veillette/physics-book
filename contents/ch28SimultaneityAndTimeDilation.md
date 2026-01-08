@@ -203,7 +203,7 @@ where
 
 This equation for $$\Delta t $$ is truly remarkable. First, as contended,
 elapsed time is not the same for different observers moving relative to one
-another, even though both are in inertial frames. Proper time $$\Delta {t}\_{0} $$
+another, even though both are in inertial frames. Proper time $$\Delta {t}\_{0} $$
 
 measured by an observer, like the astronaut moving with the apparatus, is
 smaller than time measured by other observers. Since those other observers
@@ -378,9 +378,7 @@ Check Your Understanding
 1. What is  $$\gamma  $$
  if  $$v=0.650c $$ ?
 
-<span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{
-{c}^{2}}}}=\frac{1}{\sqrt{1-\frac{ {\left(  0.650c \right)}^{2}}{ {c}^{2}}}}=
-1.32
+<span class="title">Solution</span> $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}=\frac{1}{\sqrt{1-\frac{ {\left(  0.650c \right)}^{2}}{ {c}^{2}}}}=1.32$$
 
 2. A particle travels at $$ 1.90 \times 10^{8} \text{m/s} $$ and lives $$ 2.10 \times 10^{-8} s $$ when at rest relative to an observer. How long does the
    particle live as viewed in the laboratory?
@@ -918,7 +916,7 @@ proper time
 : $$\Delta {t}_{0} $$ . the time measured by an observer at rest relative to
 the event being observed:
 
-$$ \Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \Delta t}_{0} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}
+$$ \Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \Delta t}_{0} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$
 
 twin paradox
 : this asks why a twin traveling at a relativistic speed away and then back
@@ -926,4 +924,4 @@ towards the Earth ages less than the Earth-bound twin. The premise to the
 paradox is faulty because the traveling twin is accelerating, and special
 relativity does not apply to accelerating frames of reference
 
-</div>
+</div>

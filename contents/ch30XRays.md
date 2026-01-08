@@ -89,7 +89,7 @@ Inner-shell electrons are nearer the nucleus than others in an atom and thus
 feel little net effect from the others. This is similar to what happens inside a
 charged conductor, where its excess charge is distributed over the surface so
 that it produces no electric field inside. It is reasonable to assume the
-inner-shell electrons have hydrogen-like energies, as given by $${E}_{n}=-\frac{ {Z}^{2} }{ {n}^{2} }{E}_{0} $$ $$\left(n=1, 2, 3, ...\right) $$ . As noted, a
+inner-shell electrons have hydrogen-like energies, as given by $${E}_{n}=-\frac{ {Z}^{2} }{ {n}^{2} }{E}_{0}\left(n=1, 2, 3, ...\right)$$. As noted, a
 $${K}\_{\alpha } $$ X-ray is produced by an $$n=2 $$
 ** to $$n=1 $$
 ** transition. Since there are two electrons in a filled $$K $$ \*_ shell, a vacancy would leave one electron, so that the effective charge would
@@ -98,8 +98,8 @@ _.\* For tungsten, $$Z=74 $$ , so that the effective charge is 73.
 
 **Solution**
 
-$${E}_{n}=-\frac{ {Z}^{2} }{ {n}^{2} }{E}_{0} $$ $$\left(n=1, 2, 3, ...\right) $$
-gives the orbital energies for hydrogen-like atoms to be $${E}_{n}=-\left( {Z}^{2}/{n}^{2}\right){E}_{0} $$ , where $${E}_{0}=13.6 \text{eV} $$ . As noted,
+$${E}_{n}=-\frac{ {Z}^{2} }{ {n}^{2} }{E}_{0}\left(n=1, 2, 3, ...\right)$$
+gives the orbital energies for hydrogen-like atoms to be $${E}_{n}=-\left( {Z}^{2}/{n}^{2}\right){E}_{0}$$, where $${E}_{0}=13.6 \text{eV}$$. As noted,
 the effective $$Z $$ is 73. Now the $${K}_{\alpha } $$ x-ray energy is given by
 
 <div class="equation" >
@@ -597,4 +597,4 @@ x-ray diffraction
 : a technique that provides the detailed information about crystallographic
 structure of natural and manufactured materials
 
-</div>
+</div>

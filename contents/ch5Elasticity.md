@@ -191,7 +191,7 @@ length.
 All quantities are known. Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \Delta L&=& \left(\frac{1}{210 \times 10^{9}\text{N/m}^{2}}\right)\left(\frac{3.0\times 10^{6}\N }{2.46\times 10^{-3} \mm}\right)\left(3020 \m \right)\\
 \Delta L&=& 18 \m .
 \end{array} $$
@@ -276,7 +276,7 @@ All quantities except $$ \Delta L $$ are known. Note that the compression value
 for Young’s modulus for bone must be used here. Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \Delta L&=& \left(\frac{1}{9\times 10^{9}\text{N/m}^{2}}\right)\left(\frac{607.6 \N }{1.257\times 10^{-3} \mm}\right)\left(0.400 \m \right)\\
 \Delta L&=& 2\times 10^{-5}\m .
 \end{array} $$
@@ -363,8 +363,8 @@ with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L\_ {0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
-object from accelerating, there are actually two equal and opposite forces $$ F $$
+see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L\_{0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
+object from accelerating, there are actually two equal and opposite forces $$ F $$
 
 applied across opposite faces, as illustrated in [Figure 6](#Figure6). The
 equation is logical—for example, it is easier to bend a long thin pencil (small
@@ -535,11 +535,10 @@ Substituting known values with the value for the bulk modulus
 $$ B $$ from [Table 1](#Table1),
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \frac{ \Delta V}{ V_0}&=& \frac{5.00\times 10^{7} \N/\mm }{2.2\times 10^{9} \N/\mm} \\
 \frac{ \Delta V}{ V_0}&=& 0.023=2.3%.
-\end{array}
-$$
+\end{array} $$
 
 </div>
 
@@ -1313,7 +1312,7 @@ Water freezing in a confined space can exert a pressure of approximately $$ 2.0 
 <div class="problem" markdown="1">
 This problem returns to the tightrope walker studied
 in Example 2 of [Normal Tension and Other Examples Of Forces](./ch4NormalTensionAndOtherExamplesOfForces),
-who created a tension of $$ 3.94 \times 10^ {3}N $$ in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
+who created a tension of $$ 3.94 \times 10^{3}N $$ in a wire making an angle $$ 5.0^\circ $$ below the horizontal with each
 supporting pole. Calculate how much this tension stretches the steel wire if it
 was originally 15 m long and 0.50 cm in diameter.
 
@@ -1446,4 +1445,4 @@ strain
 shear deformation
 : deformation perpendicular to the original length of an object
 
-</div>
+</div>

@@ -115,8 +115,7 @@ magnitudes and pointing in the correct directions. $$\vb{L} $$ and
 $${\vb{L}}_{z} $$ form a right triangle, with $$\vb{L} $$ being
 the hypotenuse and $${\vb{L}}_{z} $$ the adjacent side. This means
 that the ratio of $${\vb{L}}_{z} $$ to $$\vb{L} $$ is the cosine of the
-angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_ {z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_
-{z}=m\frac{h}{2\pi } $$.
+angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_{z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_{z}=m\frac{h}{2\pi } $$. 
 
 **Solution**
 
@@ -129,12 +128,12 @@ has the value given by $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$.
  $$L_{z} $$ can have three values, given by  $$L_{z}= m_{l}\frac{h}{2\pi } $$.
 
 <div class="equation" >
- $$ L_{z}=m_{l}\frac{h}{2\pi }=\left\{
-\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\ 
-0, & {m}_{l}& =& 0 \\ 
+$$L_{z}=m_{l}\frac{h}{2\pi }=\left\{
+\begin{array}{cccc} \frac{h}{2\pi },&  {m}_{l}& =& +1 \\
+0, & {m}_{l}& =& 0 \\
 -\frac{h}{2\pi },&  {m}_{l}& =& -1
 \end{array}
-\right\} $$
+\right\}$$
 </div>
 As can be seen in [[Figure 1]](#Figure1),  $$\cos \theta =\frac{ L_{z} }{L} , $$
  and so for  $$ m_{l}=+1 $$ ,
@@ -216,7 +215,7 @@ direction in space, again called the $$z $$ -axis, can have only the values
 for electrons. $${S}_{z} $$ is the ** $$z $$ -component of spin angular
 momentum** and $${m}_{s} $$ is the **spin projection quantum number**. For
 electrons, $$s $$ can only be 1/2, and $${m}_{s} $$ can be either +1/2 or -1/2.
-Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_ {s}=-1/2 $$ is called _spin down_. These are illustrated
+Spin projection $${m}_{s}=+1/2 $$ is referred to as _spin up_, whereas $${m}_{s}=-1/2 $$ is called _spin down_. These are illustrated
 in [[Figure 5]](../contents/ch30PatternsInSpectraRevealMoreQuantization#Figure5).
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -873,4 +872,4 @@ magnitude of the intrinsic (internal) spin angular momentum
 z-component of the angular momentum
 : component of orbital angular momentum of electron along the $$z $$ -axis
 
-</div>
+</div>

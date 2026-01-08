@@ -18,7 +18,7 @@ Work is done by a force, and some forces, such as weight, have special
 characteristics. A **conservative force** is one, like the gravitational force,
 for which work done by or against it depends only on the starting and ending
 points of a motion and not on the path taken. We can define a **potential
-energy** $$ \left(\PE\right) $$
+energy** $$ \left(\PE\right) $$
 
 for any conservative force, just as we did for the gravitational force. For
 example, when you wind up a toy, an egg timer, or an old-fashioned watch, you do
@@ -62,11 +62,10 @@ by the distance $$ x $$ that the spring is stretched or compressed along its
 length. So the force needed to stretch the spring has magnitude $$ F = kx $$,
 where $$ k $$ is the spring’s force constant. The force increases linearly from
 0 at the start to $$ kx $$ in the fully stretched position. The average force is
-$$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_ {s}=F d =\left(\frac{ k x}{2}\right) x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
+$$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_{s}=F d =\left(\frac{ k x}{2}\right) x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 that the area under a graph of $$ F $$ vs. $$ x $$ is the work done by the
-force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s}
-$$, to be <div class="equation"> $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
+force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be <div class="equation"> $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
 </div>
 
 where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement
@@ -100,9 +99,7 @@ forces acting on a system equals its change in kinetic energy. In equation form,
 this is
 
 <div class="equation">
- $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} m v_{0}^{2}
-=\Delta \KE .
-$$
+ $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} m v_{0}^{2} =\Delta \KE . $$ 
 
 </div>
 
@@ -135,8 +132,7 @@ This equation means that the total kinetic and potential energy is constant for
 any process involving only conservative forces. That is,
 
 <div class="equation">
- $$
-\left.
+$$\left.
 \begin{array}{cc}
 &
 \KE+\PE= \text{constant }\\
@@ -145,7 +141,7 @@ any process involving only conservative forces. That is,
 =\KE_{\text{f}}+\PE_{\text{f}}
 \end{array}
 \right\}
-\text{(conservative forces only),} $$
+\text{(conservative forces only),}$$
 </div>
 
 where i and f denote initial and final values. This equation is a form of the
@@ -183,9 +179,7 @@ $$
 or
 
 <div class="equation">
- $$
-\frac{1}{2} m v_{i}^{2}+ mgh_{i}+ \frac{1}{2} k x_{i}^{2}=
-\frac{1}{2} m v_{f}^{2}+ mgh_{f}+ \frac{1}{2} k x_{f}^{2}, $$
+ $$ \frac{1}{2} m v_{i}^{2}+ mgh_{i}+ \frac{1}{2} k x_{i}^{2}= \frac{1}{2} m v_{f}^{2}+ mgh_{f}+ \frac{1}{2} k x_{f}^{2}, $$ 
 </div>
 where $$ h $$ is the height (vertical position) and $$ x $$
 is the compression of the spring. This general statement looks complex but
@@ -234,7 +228,7 @@ energy. The final speed at the top of the slope will be less than at the bottom.
 Solving for $$ v_{\text{f}} $$ and substituting known values gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 v_{f}&=& \sqrt{\frac{ k x_{\text{i}}^{2}}{m}-2 g h_{\text{f}}}\\
 v_{f}&=& \sqrt{\left(\frac{250.0 \text{N/m}}{0.100 \kg }\right)
 \left(0.0400 \m \right)^{2}-2\left(9.80\mss \right) \left(0.180 \m \right) }\\
@@ -286,7 +280,7 @@ Energy Skate Park
   energy is constant. In equation form,
 
 <div class="equation">
- $$ \begin{array}{cc}
+$$ \begin{array}{cc}
 & \KE+\PE=\text{constant}\\
 & \text{or} \\
 &\KE_{\text{i}}+\PE_{\text{i}}=
@@ -427,7 +421,7 @@ Solving for $$ h $$:
 Substituting known values:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 h &=& \frac{(2.50 \times 10^{4}\text{N/m})(0.120\m)^{2}}{2(40.0\kg)(9.80\mss)}\\
 h &=& \frac{(2.50 \times 10^{4})(0.0144)}{784}\m\\
 h &=& \frac{360}{784}\m = 0.459\m
@@ -470,4 +464,4 @@ constant if only conservative forces act on and within a system
 mechanical energy
 : the sum of kinetic energy and potential energy
 
-</div>
+</div>

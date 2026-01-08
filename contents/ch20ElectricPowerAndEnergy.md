@@ -50,7 +50,7 @@ is the joule, power has units of joules per second, or watts. Thus, $$1 \text{A}
 auxiliary power outlets with which you can charge a cell phone or other
 electronic devices. These outlets may be rated at 20 A, so that the circuit can
 deliver a maximum power $$P=IV=\left(20 \text{A}\right)\left(12 \text{V}\right) =240 \text{W} $$ . In some applications, electric power may be expressed as
-volt-amperes or even kilovolt-amperes ( $$1 \text{kA}\cdot \text{V}=1 \text{kW} $$
+volt-amperes or even kilovolt-amperes ( $$1 \text{kA}\cdot \text{V}=1 \text{kW} $$
 
 ).
 
@@ -1264,8 +1264,7 @@ by lowering the resistance.
 <div class="problem" markdown="1">
 __Integrated Concepts__
 
-(a) An immersion heater utilizing 120 V can raise the temperature of a $$ 1.00 \times 10^{2} \text{-g} $$ aluminum cup containing 350 g of water from $$
-20.0\text{ºC} $$ to $$ 95.0\text{ºC} $$ in 2.00 min. Find its resistance,
+(a) An immersion heater utilizing 120 V can raise the temperature of a $$ 1.00 \times 10^{2} \text{-g} $$ aluminum cup containing 350 g of water from $$ 20.0\text{ºC} $$ to $$ 95.0\text{ºC} $$ in 2.00 min. Find its resistance, 
 assuming it is constant during the process. (b) A lower resistance would shorten
 the heating time. Discuss the practical limits to speeding the heating by
 lowering the resistance.
@@ -1340,7 +1339,7 @@ __Integrated Concepts__
 (a) What is the cost of heating a hot tub containing 1500 kg of water from
 
 10.0\text{ºC} $$ to $$ 40.0\text{ºC} $$ , assuming 75.0% efficiency to account for heat transfer to the surroundings? The cost of electricity is $$9
-\text{cents/kW}\cdot \text{h} $$ .
+\text{cents/kW}\cdot \text{h} $$ . $$
 (b) What current was used by the 220-V AC electric heater, if this took 4.00 h?
 
 </div>
@@ -1515,4 +1514,4 @@ electric power
 : the rate at which electrical energy is supplied by a source or dissipated by a
 device; it is the product of current times voltage
 
-</div>
+</div>

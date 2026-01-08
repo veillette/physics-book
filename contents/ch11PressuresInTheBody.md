@@ -227,7 +227,7 @@ We now need to convert this to units of mm Hg:
 </div>
 **Strategy for (b)**
 
-Here we will use the fact that the water pressure varies linearly with depth $$h $$
+Here we will use the fact that the water pressure varies linearly with depth $$h $$
 
 below the surface.
 
@@ -1082,8 +1082,7 @@ This is why deep wells require submersible pumps placed at the bottom rather tha
 <div class="problem" markdown="1">
 You are pumping up a bicycle tire with a hand pump, the piston of which has a 2.00-cm radius.
 
-(a) What force in newtons must you exert to create a pressure of $$ 6.90 \times
-10^{5} \text{Pa}
+(a) What force in newtons must you exert to create a pressure of $$ 6.90 \times 10^{5} \text{Pa} $$ ?
 
 (b) What is unreasonable about this (a) result? (c) Which premises are
 unreasonable or inconsistent?
@@ -1237,4 +1236,4 @@ micturition reflex
 systolic pressure
 : maximum arterial blood pressure; indicator for the blood flow
 
-</div>
+</div>

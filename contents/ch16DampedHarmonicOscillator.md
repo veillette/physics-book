@@ -102,12 +102,7 @@ the question.
 2. Identify the known values.
 3. Enter the known values into the equation:
    <div class="equation" >
-   $$f=(0.0800)\left(0.200\text{kg}\right) \left(
-   9.80\text{m}/{\text{s}}^{2}\right). $$
-   </div>
-
-4. Calculate and convert units:
-   $$f=0.157 \text{N}. $$
+ $$f=(0.0800)\left(0.200\text{kg}\right) \left( 9.80\text{m}/{\text{s}}^{2}\right). $$ </div> 4. Calculate and convert units: $$f=0.157 \text{N}. $$ 
 
 **Discussion a**
 
@@ -134,7 +129,7 @@ Identify the known:
    $$\begin{array}{lll}{F}_{\text{el}}& =& f\\ kx& =& {\mu }_{\text{k}}mg\\ x& =& \frac{ {\mu }_{\text{k}}mg}{k}\end{array}. $$
   </div>
 
-1. By equating the work done to the energy removed, solve for the distance $$d $$
+1. By equating the work done to the energy removed, solve for the distance $$d $$
 
    .
 
@@ -345,4 +340,4 @@ equilibrium with the amplitude gradually decreasing to zero; system returns to
 equilibrium faster but overshoots and crosses the equilibrium position one or
 more times
 
-</div>
+</div>

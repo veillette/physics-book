@@ -29,6 +29,7 @@ Build and utility scripts for the Physics Book project.
 | convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters |
 | sync-config | `npm run sync:config` | Sync package.json with \_config.yml |
 | validate-deploy | `npm run deploy:validate` | Validate deployment |
+| crawl-all-pages | `npm run crawl` | Navigate all pages to find errors |
 
 ---
 
@@ -276,6 +277,48 @@ npm run generate:pdf:chapter     # Specific chapter
 npm run generate:pdf:install     # Install Playwright browsers
 ```
 
+### generate-pdf-parallel.js
+
+Optimized parallel PDF generation with configurable concurrency. Generates all PDFs in three phases for maximum efficiency.
+
+```bash
+# Generate all PDFs with parallel processing (default: 4 concurrent)
+node scripts/generate-pdf-parallel.js
+
+# With custom concurrency
+MAX_CONCURRENCY=8 node scripts/generate-pdf-parallel.js
+```
+
+**Features:**
+- **Phase 1**: Section PDFs (241 items, 4 parallel) - ~683s
+- **Phase 2**: Chapter intro PDFs (34 items, 4 parallel) - ~32s
+- **Phase 3**: Combined chapter PDFs (34 items, 2 parallel) - ~1094s
+- Automatic error handling and retry logic
+- Real-time progress reporting
+- Total generation: ~30 minutes for 309 PDFs
+
+**Performance:**
+- 4x-8x faster than sequential generation
+- Memory-optimized with controlled concurrency
+- Reuses browser instances across batches
+
+### regenerate-failed-pdfs.js
+
+Recovery script for failed PDF generations. Automatically regenerates problematic combined chapter PDFs with extended timeouts.
+
+```bash
+# Regenerate failed PDFs (hardcoded list)
+node scripts/regenerate-failed-pdfs.js
+```
+
+**Features:**
+- Extended timeout (300s vs standard 180s)
+- No strict networkidle requirements for large content
+- Sequential processing to avoid resource contention
+- Detailed progress logging
+
+This script is automatically called by the GitHub Actions workflow when parallel generation reports failures.
+
 ### generate-icons.js
 
 Generates PWA icons and favicons from source logo.
@@ -359,6 +402,37 @@ npm run deploy:validate:verbose   # Verbose output
 **Prerequisites:**
 
 - Playwright browsers installed: `npx playwright install chromium`
+
+### crawl-all-pages.js
+
+Navigates through all pages on local Jekyll server to detect errors during development.
+
+```bash
+npm run crawl                     # Crawl all pages (quiet mode)
+npm run crawl:verbose             # Show detailed output for every page
+```
+
+**What it checks:**
+- JavaScript console errors
+- Failed resource loads (CSS, JS, images)
+- Unrendered MathJax equations ($$)
+- HTTP errors (404, 500, etc.)
+- Page load failures
+
+**Prerequisites:**
+- Jekyll server must be running: `bundle exec jekyll serve`
+- Playwright browsers installed: `npx playwright install chromium`
+
+**Typical workflow:**
+```bash
+# Terminal 1: Start Jekyll server
+bundle exec jekyll serve
+
+# Terminal 2: Crawl all pages
+npm run crawl
+```
+
+This is especially useful after major changes to catch errors across the entire site.
 
 ---
 

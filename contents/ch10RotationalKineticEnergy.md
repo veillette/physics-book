@@ -58,7 +58,7 @@ $$ \text{net}W=\left(\text{net τ}\right)\theta $$ is valid in general, even
 though it was derived for a special case.
 
 To get an expression for rotational kinetic energy, we must again perform some
-algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha $$
+algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha $$
 
 , so that
 
@@ -132,7 +132,7 @@ point of application, and the effects of friction are negligible.
 To find the work, we can use the equation $$ \text{net}W=\left(\text{net τ}\right)\theta $$. We have enough information to calculate the torque and are
 given the rotation angle. In the second part, we can find the final angular
 velocity using one of the kinematic relationships. In the last part, we can
-calculate the rotational kinetic energy from its expression in $$ \KE_ {\text{rot}}=\frac{1}{2}I\omega^{2} $$.
+calculate the rotational kinetic energy from its expression in $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} $$.
 
 **Solution for (a)**
 
@@ -147,11 +147,10 @@ angle $$ \theta $$ is given. Substituting the given values in the equation above
 yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \text{net}W&=& rF\theta =\left(0.320 \m \right)\left(200 \N \right)\left(1.00 \text{rad}\right)\\
 \text{net}W&=& 64.0 \N \cdot \m .
-\end{array}
-$$
+\end{array} $$
 
 </div>
 Noting that $$ 1 \N·\m =1 \J $$,
@@ -201,9 +200,7 @@ Now, substitute this value and the given value for $$ \theta $$
 into the above expression for $$ \omega $$:
 
 <div class="equation">
- $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}=
-{\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2}
-=5.42 \rads . $$
+ $$ \omega ={\left(2 \alpha \theta \right)}^{1/2}= {\left[2\left(14.7 \radss \right) \left(1.00 \text{rad} \right) \right]}^{1/2} =5.42 \rads . $$ 
 </div>
 
 **Solution for (c)**
@@ -304,7 +301,7 @@ is four times this moment of inertia, because there are four blades. Thus,
 Entering $$ \omega $$ and $$ I $$ into the expression for rotational kinetic energy gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \KE_{\text{rot}}&=& 0.5\left(1067 \kg \cdot \mm\right){\left(31.4 \rads \right)}^{2}\\
 \KE_{\text{rot}}&=& 5.26\times 10^{5} \J
 \end{array} $$
@@ -379,7 +376,7 @@ The easiest way to answer these questions is to consider energy. Suppose each
 can starts down the ramp from rest. Each can starting from rest means each
 starts with the same gravitational potential energy $$ \PE_{\text{grav}} $$,
 which is converted entirely to $$ \KE $$, provided each rolls without slipping.
-$$ \KE $$, however, can take the form of $$ \KE_ {\text{trans}} $$ or $$ \KE\_{\text{rot}} $$, and total $$ \KE $$ is the sum of
+$$ \KE $$, however, can take the form of $$ \KE_{\text{trans}} $$ or $$ \KE\_{\text{rot}} $$, and total $$ \KE $$ is the sum of
 the two. If a can rolls down a ramp, it puts part of its energy into rotation,
 leaving less for translation. Thus, the can goes slower than it would if it slid
 down. Furthermore, the thin soup does not rotate, whereas the thick soup does,
@@ -524,7 +521,7 @@ My solar system
 
 ### Section Summary
 
-- The rotational kinetic energy $$ \KE\_ {\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
+- The rotational kinetic energy $$ \KE\_{\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
   <div class="equation">
     $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$
@@ -1452,4 +1449,4 @@ rotational kinetic energy
 : the kinetic energy due to the rotation of an object. This is part of its total
 kinetic energy
 
-</div>
+</div>

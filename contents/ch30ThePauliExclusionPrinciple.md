@@ -47,8 +47,7 @@ Let us examine how the exclusion principle applies to electrons in atoms. The
 quantum numbers involved were defined in [Quantum Numbers and Rules](../contents/ch30QuantumNumbersAndRules) as
 $$\mathrm{n, l,} {m}_{l}\mathrm{, s} $$ , and $${m}_{s} $$ . Since $$s $$ is
 always $$1/2 $$ for electrons, it is redundant to list $$s $$ , and so we omit
-it and specify the state of an electron by a set of four numbers $$\left(n, l, {m}_{l}, {m}_{s}\right) $$ . For example, the quantum numbers $$\left(2, 1, 0,
--1/2\right) $$ completely specify the state of an electron in an atom. Since no two electrons can have the same set of quantum numbers, there are limits to how many of them can be in the same energy state. Note that $$n $$
+it and specify the state of an electron by a set of four numbers $$\left(n, l, {m}_{l}, {m}_{s}\right) $$ . For example, the quantum numbers $$\left(2, 1, 0, -1/2\right) $$ completely specify the state of an electron in an atom. Since no two electrons can have the same set of quantum numbers, there are limits to how many of them can be in the same energy state. Note that $$n $$
 determines the energy state in the absence of a magnetic field. So we first
 choose $$n $$ , and then we see how many electrons can be in this energy state
 or energy level. Consider the $$n=1 $$ level, for example. The only value $$l $$
@@ -71,7 +70,7 @@ concept of shells and shell filling. As we progress up in the number of
 electrons, we go from hydrogen to helium, lithium, beryllium, boron, and so on,
 and we see that there are limits to the number of electrons for each value of
 $$n $$ . Higher values of the shell $$n $$ correspond to higher energies, and
-they can allow more electrons because of the various combinations of $$l, {m}_ {l} $$ , and $${m}_{s} $$ that are possible. Each value of the principal quantum
+they can allow more electrons because of the various combinations of $$l, {m}_{l} $$ , and $${m}_{s} $$ that are possible. Each value of the principal quantum
 number $$n $$ thus corresponds to an atomic **shell** into which a limited
 number of electrons can go. Shells and the number of electrons in them determine
 the physical and chemical properties of atoms, since it is the outermost
@@ -191,8 +190,7 @@ to apply, as we shall now see.
 </div>
 
 The number of electrons that can be in a subshell depends entirely on the value
-of $$l $$ . Once $$l $$ is known, there are a fixed number of values of $${m}_ {l} $$ , each of which can have two values for $${m}_{s} $$ First, since $${m}_
-{l} $$ goes from $$-l $$ to _l_ in steps of 1, there are $$2l+1 $$ possibilities. This number is multiplied by 2, since each electron can be spin up or spin down. Thus the _maximum number of electrons that can be in a subshell_ is $$2\left(2l+1\right) $$.
+of $$l $$ . Once $$l $$ is known, there are a fixed number of values of $${m}_{l} $$ , each of which can have two values for $${m}_{s} $$ First, since $${m}_{l} $$ goes from $$-l $$ to _l_ in steps of 1, there are $$2l+1 $$ possibilities. This number is multiplied by 2, since each electron can be spin up or spin down. Thus the _maximum number of electrons that can be in a subshell_ is $$2\left(2l+1\right) $$.
 
 For example, the $$2s $$ subshell in [[Figure 4]](#Figure4) has a maximum of 2
 electrons in it, since $$2\left(2l+1\right)=2\left(0+1\right)=2 $$ for this
@@ -565,7 +563,7 @@ subshell. In contrast, alkali metals, such as sodium and potassium, all have a
 single $$s $$ electron in their outermost subshell (an $${s}^{1} $$
 configuration) and are members of Group 1 (Group I). These elements easily give
 up their extra electron and are thus highly reactive chemically. As you might
-expect, they also tend to form singly positive ions, such as $${\text{Na}}^{+} $$
+expect, they also tend to form singly positive ions, such as $${\text{Na}}^{+} $$
 
 , by losing their loosely bound outermost electron. They are metals (
 conductors), because the loosely bound outer electron can move freely.
@@ -852,16 +850,7 @@ is 2*n*<sup>2</sup>.
  equal to either  $$+1/2 $$
  or  $$-1/2⇒2\left(2l+1\right) $$.
 
-(b) for each value of $$l $$ , you get $$2\left(2l+1\right) $$ $$=0 \text{, 1,
-2, ...,}\left(n-1\right)⇒2\left\{\left[ \left(2\right)\left(0\right)+1\right]
-+\left[ \left(2\right)\left(1\right)+1\right]
-+\text{...}\text{.}+\left[ \left(2\right)\left(n-1\right)+1\right]
-\right\}=\underset{\underset{n
-\text{terms}}{︸}}{2\left[ 1+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)\right]
-} $$ to see that the expression in the box is $$={n}^{2}, $$ imagine taking $$\left(n-1\right) $$ from the last term and adding it to first term
-$$=2\left[ 1+\left(n-1\right)+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)-\left(n-1\right)\right] =2\left[ n+3+\text{....}+\left(2n-3\right)+n\right]  \text{.} $$ Now take
-$$\left(n-3\right) $$ from penultimate term and add to the second term
-$$2\underset{\underset{n \text{terms}}{︸}}{\left[ n+n+\text{...}+n+n\right] }={2n}^{2} $$.
+(b) for each value of $$l$$, you get $$2\left(2l+1\right)=0 \text{, 1, 2, ...,}\left(n-1\right)⇒2\left\{\left[ \left(2\right)\left(0\right)+1\right]+\left[ \left(2\right)\left(1\right)+1\right]+\text{...}\text{.}+\left[ \left(2\right)\left(n-1\right)+1\right]\right\}=\underset{\underset{n \text{terms}}{︸}}{2\left[ 1+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)\right]}$$ to see that the expression in the box is $$={n}^{2}$$, imagine taking $$\left(n-1\right)$$ from the last term and adding it to first term $$=2\left[ 1+\left(n-1\right)+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)-\left(n-1\right)\right] =2\left[ n+3+\text{....}+\left(2n-3\right)+n\right]  \text{.}$$ Now take $$\left(n-3\right)$$ from penultimate term and add to the second term $$2\underset{\underset{n \text{terms}}{︸}}{\left[ n+n+\text{...}+n+n\right] }={2n}^{2}$$.
 
 </div>
 </div>
@@ -1455,7 +1444,7 @@ about this result? (c) Which assumptions are unreasonable or inconsistent?
 A student in a physics laboratory observes a hydrogen spectrum with a
 diffraction grating for the purpose of measuring the wavelengths of the emitted
 radiation. In the spectrum, she observes a yellow line and finds its wavelength
-to be 589 nm. (a) Assuming this is part of the Balmer series, determine $${n}_ {\text{i}} $$ , the principal quantum number of the initial state. (b) What is
+to be 589 nm. (a) Assuming this is part of the Balmer series, determine $${n}_{\text{i}} $$ , the principal quantum number of the initial state. (b) What is
 unreasonable about this result? (c) Which assumptions are unreasonable or
 inconsistent?
 
@@ -1639,4 +1628,4 @@ subshell
 : the probability cloud for electrons that has a single angular momentum quantum
 number $$l $$
 
-</div>
+</div>

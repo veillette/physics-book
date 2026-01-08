@@ -56,9 +56,7 @@ expressed as follows:
  $$ \alpha =\frac{ \Delta \omega }{\Delta t}, $$
 </div>
 
-where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ is the change in time. The units of angular acceleration are $$ \left(\rads
-\right)\text{/s} $$, or $$ \radss $$. If $$ \omega $$ increases, then $$ \alpha
-$$ is positive. If $$ \omega $$ decreases, then $$ \alpha $$ is negative.
+where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ is the change in time. The units of angular acceleration are $$ \left(\rads \right)\text{/s} $$, or $$ \radss $$. If $$ \omega $$ increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$ \alpha $$ is negative. 
 
 <div class="example" markdown="1">
 <div class="title">
@@ -79,7 +77,7 @@ s.
 Entering known information into the definition of angular acceleration, we get
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \alpha &=& \frac{ \Delta \omega }{\Delta t}\\
 \alpha &=& \frac{250 \text{rpm}}{5.00 \s }.
 \end{array} $$
@@ -88,7 +86,7 @@ Because $$ \Delta \omega $$ is in revolutions per minute (rpm)
 and we want the standard units of $$ \radss $$ for angular acceleration, we need to convert $$ \Delta \omega $$ from rpm to rad/s:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \Delta \omega &=& 250\frac{ \text{rev}}{\text{min}}\cdot \frac{ 2\pi \text{rad}}{\text{rev}}\cdot \frac{1 \text{min}}{60 \text{sec}}\\
 \Delta \omega &=& 26.2\frac{ \text{rad}}{\s}.
 \end{array} $$
@@ -96,7 +94,7 @@ and we want the standard units of $$ \radss $$ for angular acceleration, we need
 Entering this quantity into the expression for $$ \alpha $$, we get
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \alpha &=& \frac{ \Delta \omega }{\Delta t}\\
 \alpha &=&\frac{26.2 \rads }{5.00 \s }\\
 \alpha &=& 5.24\radss .
@@ -119,10 +117,10 @@ Here the angular velocity decreases from $$ 26.2 \rads $$
 (250 rpm) to zero, so that $$ \Delta \omega $$ is $$ -26.2 \rads $$, and $$ \alpha $$ is given to be $$ -87.3 \radss $$. Thus,
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \Delta t&=& \frac{-26.2 \rads }{-87.3 \radss }\\
 \Delta t&=& 0.300 \s  .
-\end{array}$$
+\end{array} $$
 </div>
 
 **Discussion**
@@ -143,7 +141,7 @@ explored. For example, it would be useful to know how linear and angular
 acceleration are related. In circular motion, linear acceleration is _tangent_
 to the circle at the point of interest, as seen in [Figure 2](#Figure2). Thus,
 linear acceleration is called
-**tangential acceleration** $$ a\_ {\text{t}} $$.
+**tangential acceleration** $$ a\_{\text{t}} $$.
 
 ![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_10_01_02.jpg 'In circular motion, linear acceleration ( a ) , occurs as the magnitude of the velocity changes: ( a ) is tangent to the motion. In the context of circular motion, linear acceleration is also called tangential acceleration ( a_t ) .')
 {: #Figure2 height="200"}
@@ -155,13 +153,13 @@ that in circular motion centripetal acceleration, $$ \ac $$, refers to changes
 in the direction of the velocity but not its magnitude. An object undergoing
 circular motion experiences centripetal acceleration, as seen
 in [Figure 3](#Figure3). Thus, $$ a_{\text{t}} $$ and $$ a_{\text{c}} $$ are
-perpendicular and independent of one another. Tangential acceleration $$ a\_ {\text{t}} $$ is directly related to the angular acceleration $$ \alpha $$ and
+perpendicular and independent of one another. Tangential acceleration $$ a\_{\text{t}} $$ is directly related to the angular acceleration $$ \alpha $$ and
 is linked to an increase or decrease in the velocity, but not its direction.
 
 ![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a sub t is shown as a yellow arrow in the same direction along v. The centripetal acceleration, a sub c, is also shown as a yellow arrow drawn perpendicular to a sub t, toward the direction of the center of the circle. A label in the figures states a sub t affects magnitude and a sub c affects direction.](../resources/Figure_10_01_03.jpg 'Centripetal acceleration ( a_c ) occurs as the direction of velocity changes; it is perpendicular to the circular motion. Centripetal and tangential acceleration are thus perpendicular to each other.')
 {: #Figure3 height="200"}
 
-Now we can find the exact relationship between linear acceleration $$ a\_ {\text{t}} $$ and angular acceleration $$ \alpha $$. Because linear acceleration
+Now we can find the exact relationship between linear acceleration $$ a\_{\text{t}} $$ and angular acceleration $$ \alpha $$. Because linear acceleration
 is proportional to a change in the magnitude of the velocity, it is defined (as
 it was in [One-Dimensional Kinematics](./ch2Kinematics)) to be
 
@@ -220,7 +218,7 @@ can find its linear acceleration $$ a_{\text{t}} $$. Then, the expression $$ \al
 The linear acceleration is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 a_\text{t}&=& \frac{ \Delta v}{\Delta t}\\
 a_\text{t}&=& \frac{30.0 \ms }{4.20 \s }\\
 a_\text{t}&=& 7.14\mss .
@@ -230,7 +228,7 @@ We also know the radius of the wheels. Entering the values for $$ a_{\text{t}} $
 and $$ r $$ into $$ \alpha =\frac{ a_{\text{t}}}{r} $$, we get
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \alpha &=& \frac{ a_{\text{t}}}{r}\\
 \alpha &=& \frac{7.14\mss }{0.320 \m }\\
 \alpha &=& 22.3 \radss .
@@ -309,7 +307,7 @@ Ladybug Revolution
 - In non-uniform circular motion, the velocity changes with time and the rate of
   change of angular velocity (i.e. angular acceleration) is $$ \alpha =\frac{ \Delta \omega }{\Delta t} $$.
 - Linear or tangential acceleration refers to changes in the magnitude of
-  velocity but not its direction, given as $$ a\_ {\text{t}}=\frac{ \Delta v}{\Delta t} $$.
+  velocity but not its direction, given as $$ a\_{\text{t}}=\frac{ \Delta v}{\Delta t} $$.
 - For circular motion, note that $$ v=r \omega $$, so that
   <div class="equation">
     $$ a_{\text{t}}=\frac{ \Delta \left(r \omega \right)}{\Delta t}. $$
@@ -622,4 +620,4 @@ tangential acceleration
 : the acceleration in a direction tangent to the circle at the point of interest
 in circular motion
 
-</div>
+</div>

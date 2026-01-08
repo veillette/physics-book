@@ -25,8 +25,7 @@ its period.
 We begin by defining the displacement to be the arc length $$s $$ . We see
 from [[Figure 1]](#Figure1) that the net force on the bob is tangent to the arc
 and equals $$-mg \sin \theta $$ .
-(The weight $$mg $$ has components $$mg \cos \theta $$ along the string and $$mg \sin \theta $$ tangent to the arc.) Tension in the string exactly cancels the component $$
-mg \cos \theta $$ parallel to the string. This leaves a _net_ restoring force back toward the equilibrium position at $$\theta =0 $$.
+(The weight $$mg $$ has components $$mg \cos \theta $$ along the string and $$mg \sin \theta $$ tangent to the arc.) Tension in the string exactly cancels the component $$ mg \cos \theta $$ parallel to the string. This leaves a _net_ restoring force back toward the equilibrium position at $$\theta =0 $$.
 
 Now, if we can show that the restoring force is directly proportional to the
 displacement, then we have a simple harmonic oscillator. In trying to determine
@@ -117,8 +116,7 @@ that the angle of deflection is less than $$15 ^\circ $$.
 
 2. Substitute known values into the new equation:
    <div class="equation" >
-   $$g={4\pi }^{2}\frac{0.75000 \text{m}}{ {\left(1.7357 \text{s}\right)}^{2}}.
-$$
+ $$g={4\pi }^{2}\frac{0.75000 \text{m}}{ {\left(1.7357 \text{s}\right)}^{2}}. $$ 
 
    </div>
 
@@ -889,4 +887,4 @@ Length must increase by 0.0116%
 simple pendulum
 : an object with a small mass suspended from a light wire or string
 
-</div>
+</div>

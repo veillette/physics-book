@@ -587,4 +587,4 @@ or propagation speed
 wavelength
 : the distance between adjacent identical parts of a wave
 
-</div>
+</div>

@@ -151,8 +151,7 @@ $$\gamma $$ to express $$v $$ in terms of $$c $$.
 3. Choose the appropriate equation. $$L=\frac{ {L}_{0}}{\gamma } $$
 4. Rearrange the equation to solve for the unknown.
    <div class="equation" >
-   $$\begin{array}{lll}L& =& \frac{ {L}_{0}}{\gamma }\\ & =& \frac{4.300
-   \text{ly}}{30.00}\\ & =& 0.1433 \text{ly}\end{array} $$
+ $$\begin{array}{lll}L& =& \frac{ {L}_{0}}{\gamma }\\ & =& \frac{4.300 \text{ly}}{30.00}\\ & =& 0.1433 \text{ly}\end{array} $$ 
    </div>
 
 **Solution for (b)**
@@ -438,7 +437,7 @@ At only 5% the speed of light, relativistic effects are minuscule. The time dila
 
 (b) 0.1434 y
 
-(c) $$\Delta t={\text{γ} \Delta t }_{0}⇒\gamma =\frac{\Delta t}{ {\Delta t}_ {0}}=\frac{4.303 \text{y}}{0.1434 \text{y}}= 30.0 $$ Thus, the two times are
+(c) $$\Delta t={\text{γ} \Delta t }_{0}⇒\gamma =\frac{\Delta t}{ {\Delta t}_{0}}=\frac{4.303 \text{y}}{0.1434 \text{y}}= 30.0 $$ Thus, the two times are
 related when $$\text{γ} = 30.00 $$.
 
 </div>
@@ -573,4 +572,4 @@ length contraction
 to the observer’s frame:
 $$L=L_{0}\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}=\frac{ {L}_{0}}{\gamma } $$
 
-</div>
+</div>

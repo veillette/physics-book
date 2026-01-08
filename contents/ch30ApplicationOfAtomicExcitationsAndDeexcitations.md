@@ -215,8 +215,7 @@ As described earlier in the section on laser vision correction, Donna Strickland
 Lasers are constructed from many types of lasing materials, including gases,
 liquids, solids, and semiconductors. But all lasers are based on the existence
 of a metastable state or a phosphorescent material. Some lasers produce
-continuous output; others are pulsed in bursts as brief as $$10^{-14} \text{s} $$ . Some laser outputs are fantastically powerful—some greater than $$10^{12}
-\text{W} $$ —but the more common, everyday lasers produce something on the order of $$10^{-3} \text{W} $$ . The helium-neon laser that produces a familiar red
+continuous output; others are pulsed in bursts as brief as $$10^{-14} \text{s} $$ . Some laser outputs are fantastically powerful—some greater than $$10^{12} \text{W} $$ —but the more common, everyday lasers produce something on the order of $$10^{-3} \text{W} $$ . The helium-neon laser that produces a familiar red
 light is very common. [[Figure 10]](#Figure10) shows the energy levels of helium
 and neon, a pair of noble gases that work well together. An electrical discharge
 is passed through a helium-neon gas mixture in which the number of atoms of
@@ -698,4 +697,4 @@ fluorescence
 : any process in which an atom or molecule, excited by a photon of a given
 energy, de-excites by emission of a lower-energy photon
 
-</div>
+</div>

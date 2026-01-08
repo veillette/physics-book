@@ -41,7 +41,7 @@ $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$ \vb
 Note that this relationship between vector components and the resultant vector
 holds only for vector quantities (which include both magnitude and direction).
 The relationship does not apply for the magnitudes alone. For example, if $$ \vb{A}_{x}=3 \m $$ east, $$ \vb{A}_{y}=4 \m $$ north, and $$ \vb{A}=5 \m $$
-north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}\_{y} =\vb{A} $$
+north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}\_{y} =\vb{A} $$
 
 . However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That
@@ -119,7 +119,7 @@ hypotenuse. For example, if $$ A_{x} $$ and $$ A_{y} $$ are 9 and 5 blocks,
 respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is
 
-\theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
+$$ \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
@@ -153,13 +153,13 @@ same point. In particular, the person could have walked first in the *x*
 -direction and then in the *y*-direction. Those paths are the *x*- and
 *y*-components of the resultant, $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$. If we
 know $$ \vb{R}_{x} $$ and $$ \vb{R}_{y} $$, we can find $$ R $$ and $$ \theta $$
-using the equations $$ A=\sqrt{ A_{x}^{2}+ A_ {y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
+using the equations $$ A=\sqrt{ A_{x}^{2}+ A_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left( A_{y}/ A_{x}\right) $$. When you
 use the analytical method of vector addition, you can determine the components
 or the magnitude and direction of a vector.
 
 **_Step 1._** _Identify the x- and y-axes that will be used in the problem.
 Then, find the components of each vector to be added along the chosen
-perpendicular axes._ Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_ {y}=A\sin{\theta} $$ to find the components. In [Figure 6](#Figure6), these
+perpendicular axes._ Use the equations $$ A_{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ to find the components. In [Figure 6](#Figure6), these
 components are $$ A_{x} $$, $$ A_{y} $$, $$ B_{x} $$, and $$ B_{y} $$. The
 angles that vectors $$ \vb{A} $$ and $$ \vb{B} $$ make with the **x**-axis are
 $$ \theta_{\text{A}} $$ and $$ \theta_{\text{B}} $$, respectively.
@@ -216,7 +216,7 @@ Adding Vectors Using Analytical Methods
 Add the vector $$ \vb{A} $$ to the vector $$ \vb{B} $$
 shown in [Figure 8](#Figure8), using perpendicular
 components along the **x**- and **y**-axes. The **x**- and **y**-axes are along
-the east–west and north–south directions, respectively. Vector $$ \vb{A} represents the first leg of a walk in which a person walks $$ 53.0 \m  $$
+the east–west and north–south directions, respectively. Vector $$ \vb{A}$$ represents the first leg of a walk in which a person walks $$ 53.0 \m$$
 in a direction $$ 20.0^\circ $$
 north of east. Vector $$ \vb{B} $$
 represents the second leg, a displacement of $$ 34.0 \m  $$
@@ -235,8 +235,10 @@ point. Once found, they are combined to produce the resultant.
 **Solution**
 
 Following the method outlined above, we first find the components of $$ \vb{A} $$ and $$ \vb{B} $$ along the **x**- and **y**-axes. Note that $$ A=53.0 \m $$,
-$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_ {\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A\_
-{x}=A\cos{\theta} $$, which gives <div class="equation"> $$ \begin{array}{lll}
+$$ \theta_{\text{A}}=20.0^\circ $$, $$ B=34.0 \m $$, and $$ \theta_{\text{B}}=63.0^\circ $$. We find the **x**-components by using $$ A_{x}=A\cos{\theta} $$, which gives
+
+<div class="equation">
+$$ \begin{array}{lll}
 A_{x}&=& A\cos{\theta_{A}}=\left(53.0 \m \right) \left(\cos{20.0^\circ}\right)\\
 A_{x}&=& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
 \end{array} $$
@@ -244,7 +246,7 @@ A_{x}&=& \left(53.0 \m \right)\left(0.940 \right)=49.8 \m
 and
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 B_{x}&=& B\cos{\theta_{B}}=\left(34.0 \m \right) \left(\cos{63.0^\circ}\right)\\
 B_{x}&=& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
 \end{array} $$
@@ -252,7 +254,7 @@ B_{x}&=& \left(34.0 \m \right)\left(0.454\right)=15.4 \m .
 Similarly, the *y*-components are found using $$ A_{y}=A\sin{\theta_{A}} $$:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 A_{y}&=& A\sin{\theta_{A}}=\left(53.0 \m \right) \left(\sin{20.0^\circ }\right)\\
 A_{y}&=& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
 \end{array} $$
@@ -260,7 +262,7 @@ A_{y}&=& \left(53.0 \m \right)\left(0.342\right)=18.1 \m
 and
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 B_{y}&=& B\sin{\theta_{B}}=\left(34.0 \m \right)\left(\sin{ 63.0^\circ}\right)\\
 B_{y}&=&\left(34.0 \m \right)\left(0.891\right)=30.3 \m .
 \end{array} $$
@@ -278,8 +280,7 @@ and
 Now we can find the magnitude of the resultant by using the Pythagorean theorem:
 
 <div class="equation">
- $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2} }=
-\sqrt{ \left( 65.2 \m  \right)^{2}+\left(48.4 \m  \right)^{2} } $$
+ $$ R=\sqrt{ R_{x}^{2}+R_{y}^{2} }= \sqrt{ \left( 65.2 \m \right)^{2}+\left(48.4 \m \right)^{2} } $$ 
 </div>
 so that
 
@@ -359,14 +360,13 @@ Vector Addition
   horizontal and vertical components of each vector using the equations
 
   <div class="equation">
-    $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta}
-    \end{array} $$
+ $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta} \end{array} $$ 
   </div>
 
 and
 
   <div class="equation">
- $$ \begin{array}{lll} 
+$$ \begin{array}{lll}
 A_{y}&=& A\sin{\theta} \\ 
 B_{y}&=& B\sin{\theta} .
 \end{array} $$
@@ -630,7 +630,7 @@ Solve the following problem using analytical techniques: Suppose you walk 18.0 m
 (If you represent the two legs of the walk as vector displacements $$ \vb{A} $$ and $$ \vb{B} $$, as in [Figure 13](#Figure13), then this problem asks you to
 find their sum
 
-\vb{R}=\vb{A}+\vb{B} $$.)
+$$ \vb{R}=\vb{A}+\vb{B} $$.)
 
 ![In the given figure displacement of a person is shown. First movement of the person is shown as vector A from origin along negative x axis. They then turns to their right. Their movement is now shown as a vertical vector in north direction. The displacement vector R is also shown. In the question you are asked to find the displacement of the person from the start to finish.](../resources/Figure_03_03_13.jpg 'The two displacements ( A ) and ( B ) add to give a total displacement ( R ) having magnitude ( R ) and direction ( \\theta ) .')
 {: #Figure13}
@@ -1389,4 +1389,4 @@ analytical method
 : the method of determining the magnitude and direction of a resultant vector
 using the Pythagorean theorem and trigonometric identities
 
-</div>
+</div>

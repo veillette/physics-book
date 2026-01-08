@@ -166,8 +166,7 @@ solving for  $${\overline{v}}_{2} $$
 Substituting known values,
 
 <div class="equation">
- $${\overline{v}}_{2}=\frac{ {\left( 0.900 \text{cm} \right)}^{2} }
-{ {\left( 0.250 \text{cm} \right)}^{2}} 1.96 \text{m/s}=25.5 \text{m/s}\text{.} $$
+ $${\overline{v}}_{2}=\frac{ {\left( 0.900 \text{cm} \right)}^{2} } { {\left( 0.250 \text{cm} \right)}^{2}} 1.96 \text{m/s}=25.5 \text{m/s}\text{.} $$ 
 </div>
 **Discussion**
 
@@ -225,7 +224,7 @@ Substituting the known values (converted to units of meters and seconds) gives
 Using $${n}_{1}{A}_{1}{\overline{v}}_{1}={n}_{2}{A}_{2}{\overline{v}}_{1} $$ ,
 assigning the subscript 1 to the aorta and 2 to the capillaries, and solving for
 $${n}_{2} $$
-(the number of capillaries) gives $${n}_{2}=\frac{ {n}_{1}{A}_{1}{\overline{v}}_ {1}}{ {A}_{2}{\overline{v}}\_{2}} $$ . Converting all quantities to units of
+(the number of capillaries) gives $${n}_{2}=\frac{ {n}_{1}{A}_{1}{\overline{v}}_{1}}{ {A}_{2}{\overline{v}}\_{2}} $$ . Converting all quantities to units of
 meters and seconds and substituting into the equation above gives
 
 <div class="equation">
@@ -931,4 +930,4 @@ during a time _t_, or _Q = V/t_
 liter
 : a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup>
 
-</div>
+</div>

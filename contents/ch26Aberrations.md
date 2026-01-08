@@ -212,4 +212,4 @@ aberration
 : failure of rays to converge at one focus because of limitations or defects in
 a lens or mirror
 
-</div>
+</div>

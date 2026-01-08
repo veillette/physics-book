@@ -166,8 +166,7 @@ refers to the scale of a value expressed in the metric system. Each power of $$ 
 example, $$ 10^{1},10^{2},10^{3} $$, and so forth are all different orders of
 magnitude. All quantities that can be expressed as a product of a specific power
 of $$ 10 $$ are said to be of the **same** order of magnitude. For example, the
-number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450 $$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$
-450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
+number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450 $$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$ 450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
 the order of $$ 10^{9}\m $$.
 
 <div class="note" data-label="" markdown="1">
@@ -257,8 +256,7 @@ then multiply them by the conversion factor so that the units cancel out, as
 shown:
 
 <div class="equation">
-  $$ 80 \m ×\frac{1 \text{km}}{1000\m }=0.080\text{km}.
- $$
+ $$ 80 \m ×\frac{1 \text{km}}{1000\m }=0.080\text{km}. $$ 
 </div>
 
 Note that the unwanted m unit cancels, leaving only the desired km unit. You can
@@ -324,8 +322,7 @@ motion concepts will be covered in a later module.) In equation form,
 That conversion factor is  $$ 60 \text{min/hr}  $$. Thus,
 
 <div class="equation">
-  $$ \text{average speed} = 0.500\frac{ \text{km}}{\text{min}}×\frac{60 \text
-{ min}}{1\text{h}}=30.0\frac{ \text{km}}{\text{h}}.  $$
+ $$ \text{average speed} = 0.500\frac{ \text{km}}{\text{min}}×\frac{60 \text { min}}{1\text{h}}=30.0\frac{ \text{km}}{\text{h}}. $$ 
 </div>
 
 **Discussion for (a)**
@@ -339,8 +336,7 @@ then the units will not cancel; rather, they will give you the wrong units as
 follows:
 
 <div class="equation">
-  $$ \frac{ \text{km}}{\text{min}}×\frac{1\text{hr}}{60 \text{min}}
-=\frac{1}{60}\frac{ \text{km}\cdot \text{hr}}{ {\text{min}}^{2}},  $$
+ $$ \frac{ \text{km}}{\text{min}}×\frac{1\text{hr}}{60 \text{min}} =\frac{1}{60}\frac{ \text{km}\cdot \text{hr}}{ {\text{min}}^{2}}, $$ 
 </div>
 which are obviously not the desired units of km/h.
 
@@ -892,4 +888,4 @@ order of magnitude
 conversion factor
 : a ratio expressing how many of one unit are equal to another unit
 
-</div>
+</div>

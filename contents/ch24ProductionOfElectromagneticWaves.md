@@ -533,4 +533,4 @@ disturbance of the same frequency as its natural frequency
 oscillate
 : to fluctuate back and forth in a steady beat
 
-</div>
+</div>

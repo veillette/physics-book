@@ -71,7 +71,7 @@ from state 1 to state 2. (See [[Figure 2]](#Figure2).)
 Now let us take a look at the change in entropy of a Carnot engine and its heat
 reservoirs for one full cycle. The hot reservoir has a loss of entropy $$\Delta {S}_{\text{h}}=-{Q}_{\text{h}}/{T}_{\text{h}} $$ , because heat transfer occurs
 out of it (remember that when heat transfers out, then $$Q $$ has a negative
-sign). The cold reservoir has a gain of entropy $$\Delta {S}_{\text{c}}={Q}_ {\text{c}}/{T}_{\text{c}} $$ , because heat transfer occurs into it. (We assume
+sign). The cold reservoir has a gain of entropy $$\Delta {S}_{\text{c}}={Q}_{\text{c}}/{T}_{\text{c}} $$ , because heat transfer occurs into it. (We assume
 the reservoirs are sufficiently large that their temperatures are constant.) So
 the total change in entropy is
 
@@ -79,7 +79,7 @@ the total change in entropy is
  $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{h}}+\Delta {S}_{\text{c}}\text{.} $$
 </div>
 
-Thus, since we know that $${Q}_{\text{h}}/{T}_{\text{h}}={Q}_{\text{c}}/{T}_ {\text{c}} $$ for a Carnot engine,
+Thus, since we know that $${Q}_{\text{h}}/{T}_{\text{h}}={Q}_{\text{c}}/{T}_{\text{c}} $$ for a Carnot engine,
 
 <div class="equation" >
  $$\Delta {S}_{\text{tot}}=-\frac{ {Q}_{\text{h}}}{ {T}_{\text{h}}}+\frac{ {Q}_{\text{c}}}{ {T}_{\text{c}}}=0 \text{.} $$
@@ -122,7 +122,7 @@ irreversibly between them, and so it also produces the same changes in entropy.
 
 **Solution**
 
-We now calculate the two changes in entropy using $$\Delta {S}_ {\text{tot}}=\Delta {S}_{\text{h}}+\Delta {S}_{\text{c}} $$ . First, for the
+We now calculate the two changes in entropy using $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{h}}+\Delta {S}_{\text{c}} $$ . First, for the
 heat transfer from the hot reservoir,
 
 <div class="equation" >
@@ -377,8 +377,7 @@ This is a significant increase in entropy accompanying an increase in disorder.
 {: #Figure5}
 
 In another easily imagined example, suppose we mix equal masses of water
-originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0 \text{ºC} $$ . The result is water at an intermediate temperature of $$30.0
-\text{ºC} $$ . Three outcomes have resulted: entropy has increased, some energy
+originally at two different temperatures, say $$20.0 \text{ºC} $$ and $$40.0 \text{ºC} $$ . The result is water at an intermediate temperature of $$30.0 \text{ºC} $$ . Three outcomes have resulted: entropy has increased, some energy 
 has become unavailable to do work, and the system has become less orderly. Let
 us think about each of these results.
 
@@ -415,7 +414,7 @@ the universe increases. In equation form, we can write this as
  $$\Delta {S}_{\text{tot}}=\Delta {S}_{\text{syst}}+\Delta {S}_{\text{envir}}>0. $$
 </div>
 
-Thus $$\Delta {S}_{\text{syst}} $$ can be negative as long as $$\Delta {S}_ {\text{envir}} $$ is positive and greater in magnitude.
+Thus $$\Delta {S}_{\text{syst}} $$ can be negative as long as $$\Delta {S}_{\text{envir}} $$ is positive and greater in magnitude.
 
 How is it possible for a system to decrease its entropy? Energy transfer is
 necessary. If I pick up marbles that are scattered about the room and put them
@@ -1011,4 +1010,4 @@ second law of thermodynamics stated in terms of entropy
 : the total entropy of a system either increases or remains constant; it never
 decreases
 
-</div>
+</div>

@@ -576,7 +576,7 @@ wavelength.
 {: class="glossary-title"}
 
 de Broglie wavelength
-: the wavelength possessed by a particle of matter, calculated by $$\lambda =h/p $$
+: the wavelength possessed by a particle of matter, calculated by $$\lambda =h/p $$
 
 
 

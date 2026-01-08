@@ -60,6 +60,57 @@ function parser() {
     event.preventDefault();
   });
 
+  // Add resize handle to sidebar
+  const resizeHandle = document.createElement('div');
+  resizeHandle.className = 'resize-handle';
+  bookSummary.appendChild(resizeHandle);
+
+  // Load saved sidebar width from localStorage
+  const savedWidth = localStorage.getItem('sidebarWidth');
+  if (savedWidth) {
+    document.documentElement.style.setProperty('--sidebar-width', savedWidth + 'px');
+  }
+
+  // Sidebar resize functionality
+  let isResizing = false;
+  let startX = 0;
+  let startWidth = 0;
+
+  resizeHandle.addEventListener('mousedown', function (e) {
+    isResizing = true;
+    startX = e.clientX;
+    const computedStyle = getComputedStyle(document.documentElement);
+    startWidth = parseInt(computedStyle.getPropertyValue('--sidebar-width'));
+    resizeHandle.classList.add('resizing');
+    book.classList.add('without-animation');
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', function (e) {
+    if (!isResizing) return;
+
+    const delta = e.clientX - startX;
+    const newWidth = startWidth + delta;
+    const minWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-min-width'));
+    const maxWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-max-width'));
+
+    // Constrain width between min and max
+    const constrainedWidth = Math.max(minWidth, Math.min(maxWidth, newWidth));
+    document.documentElement.style.setProperty('--sidebar-width', constrainedWidth + 'px');
+  });
+
+  document.addEventListener('mouseup', function () {
+    if (isResizing) {
+      isResizing = false;
+      resizeHandle.classList.remove('resizing');
+      book.classList.remove('without-animation');
+
+      // Save the new width to localStorage
+      const currentWidth = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-width'));
+      localStorage.setItem('sidebarWidth', currentWidth);
+    }
+  });
+
   /**
    * render the summary on the left-hand side of the page
    */

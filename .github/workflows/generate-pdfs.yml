@@ -1,8 +1,15 @@
 # Workflow for generating PDFs from the physics book
 #
-# Current behavior: Generates PDFs and commits them to the repository
-# Future plan: Exclude PDFs from git and only generate them for GitHub Pages deployment
+# Status: Fully automated and production-ready (since 2025-12-31)
+# - Runs weekly on Sundays at 00:00 UTC
+# - Generates 309 PDFs in ~60 minutes using parallel processing
+# - Automatic failure recovery with extended timeouts
+# - Smart commits (only when PDFs change)
+#
+# Current: Generates PDFs and commits them to the repository (immediate availability)
+# Future plan: Exclude PDFs from git and generate dynamically during Pages deployment
 #              This will reduce repository size from ~600MB to ~40MB
+#              See .github/workflows/FUTURE-PLAN.md for details
 name: Generate PDFs
 
 on:
@@ -87,9 +94,11 @@ jobs:
         if: steps.pdf_gen.outcome != 'success'
         run: node scripts/regenerate-failed-pdfs.js || true
 
-      - name: Generate complete book PDF
+      - name: Generate complete book PDF (not yet implemented)
         run: npm run generate:pdf -- --book
         continue-on-error: true
+        # Note: This step currently fails but is kept for future implementation
+        # The --book option exists but needs integration with parallel processing
 
       - name: Stop Jekyll server
         if: always()

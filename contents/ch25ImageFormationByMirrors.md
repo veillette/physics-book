@@ -125,7 +125,7 @@ Electric room heaters use a concave mirror to reflect infrared (IR) radiation fr
 
 We are given that the concave mirror projects a real image of the coils at an
 image distance $${d}_{\text{i}}=3.00 \text{m} $$ . The coils are the object, and
-we are asked to find their location—that is, to find the object distance $${d}_ {\text{o}} $$ . We are also given the radius of curvature of the mirror, so that
+we are asked to find their location—that is, to find the object distance $${d}_{\text{o}} $$ . We are also given the radius of curvature of the mirror, so that
 its focal length is $$f=R/2=25.0 \text{cm} $$
 (positive since the mirror is concave or converging). Assuming the mirror is
 small compared with its radius of curvature, we can use the thin lens equations,
@@ -227,16 +227,12 @@ The increase in temperature is given by $$Q=mc\Delta T $$ . The mass $$m $$ of
 the mineral oil in the one-meter section of pipe is
 
 <div class="equation" >
- $$\begin{array}{lll}m& =& \rho V =\rho \pi {\left(\frac{d}{2}\right)}^{2}\left(1.00 \text{m}\right)\\ 
-m& =& \left(8.00 \times 10^{2}  {\text{kg/m}}^{3}\right) (3.14) { \left( 0.0100 \text{m}\right)}^{2} \left(1.00 \text{m}\right)\\ 
-m& =& 0.251 \text{kg}.\end{array} $$
+ $$\begin{array}{lll}m& =& \rho V =\rho \pi {\left(\frac{d}{2}\right)}^{2}\left(1.00 \text{m}\right)\\ m& =& \left(8.00 \times 10^{2} {\text{kg/m}}^{3}\right) (3.14) { \left( 0.0100 \text{m}\right)}^{2} \left(1.00 \text{m}\right)\\ m& =& 0.251 \text{kg}.\end{array} $$ 
 </div>
 Therefore, the increase in temperature in one minute is
 
 <div class="equation" >
- $$\begin{array}{lll}\Delta T& =& Q/mc\\
-\Delta T & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ 
-\Delta T& =& 162\text{ºC} .\end{array} $$
+ $$\begin{array}{lll}\Delta T& =& Q/mc\\ \Delta T & =& \frac{\left(1130 \text{W}\right)\left(60.0 \text{s}\right)}{\left(0.251 \text{kg}\right)\left(1670 \text{J·kg/ºC}\right)}\\ \Delta T& =& 162\text{ºC} .\end{array} $$ 
 </div>
 **Discussion for (c)**
 
@@ -287,12 +283,12 @@ A keratometer is a device used to measure the curvature of the cornea, particula
 
 If we can find the focal length of the convex mirror formed by the cornea, we
 can find its radius of curvature (the radius of curvature is twice the focal
-length of a spherical mirror). We are given that the object distance is $${d}_ {\text{o}}=12.0 \text{cm} $$ and that $$m=0.0320 $$ . We first solve for the
+length of a spherical mirror). We are given that the object distance is $${d}_{\text{o}}=12.0 \text{cm} $$ and that $$m=0.0320 $$ . We first solve for the
 image distance $${d}_{\text{i}} $$ , and then for $$f $$.
 
 **Solution**
 
-$$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_ {\text{i}} $$ gives
+$$m=-d_{\text{i}}/{d}_{\text{o}} $$ . Solving this expression for $${d}_{\text{i}} $$ gives
 
 <div class="equation" >
  $${d}_{\text{i}}=- m  d_{\text{o}}\text{.} $$
@@ -906,4 +902,4 @@ away (diverge) from its axis
 law of reflection
 : angle of reflection equals the angle of incidence
 
-</div>
+</div>

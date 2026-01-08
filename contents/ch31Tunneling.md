@@ -308,4 +308,4 @@ pass over the barrier; also called barrier penetration
 tunneling
 : a quantum mechanical process of potential energy barrier penetration
 
-</div>
+</div>

@@ -585,13 +585,13 @@ All known leptons are listed in the table given above. There are only six
 leptons (and their antiparticles), and they seem to be fundamental in that they
 have no apparent underlying structure. Leptons have no discernible size other
 than their wavelength, so that we know they are pointlike down to about $$ 10^{-18} \text{m} $$ . The leptons fall into three families, implying three
-conservation laws for three quantum numbers. One of these was known from $$\beta $$
+conservation laws for three quantum numbers. One of these was known from $$\beta $$
 
 decay, where the existence of the electron’s neutrino implied that a new
 quantum number, called
 the <strong class="term" >electron family
 number </strong> $${L}_{e} $$ is conserved. Thus, in $$\beta $$ decay, an
-antielectron’s neutrino $${\stackrel{-}{\nu}}_{e} $$ must be created with $${L}_ {e}=-1 $$ when an electron with $${L}_{e}=+1 $$ is created, so that the total
+antielectron’s neutrino $${\stackrel{-}{\nu}}_{e} $$ must be created with $${L}_{e}=-1 $$ when an electron with $${L}_{e}=+1 $$ is created, so that the total
 remains 0 as it was before decay.
 
 Once the muon was discovered in cosmic rays, its decay mode was found to be
@@ -1180,4 +1180,4 @@ tau family number
 : the number $$±1 $$ that is assigned to all members of the tau family, or the
 number 0 that is assigned to all particles not in the tau family
 
-</div>
+</div>

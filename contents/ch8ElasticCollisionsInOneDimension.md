@@ -96,7 +96,7 @@ Calculate the velocities of two objects following an elastic collision, given th
 First, visualize what the initial conditions mean—a small object strikes a
 larger object that is initially at rest. This situation is slightly simpler than
 the situation shown in [Figure 1](#Figure1) where both objects are initially
-moving. We are asked to find two unknowns (the final velocities $$ v^{\prime}_ {1} $$ and $$ v^{\prime}_{2} $$). To find two unknowns, we must use two
+moving. We are asked to find two unknowns (the final velocities $$ v^{\prime}_{1} $$ and $$ v^{\prime}_{2} $$). To find two unknowns, we must use two
 independent equations. Because this collision is elastic, we can use the above
 two equations. Both can be simplified by the fact that object 2 is initially at
 rest, and thus $$ v\_{2}=0 $$. Once we simplify these equations, we combine them
@@ -118,9 +118,7 @@ or
 Using conservation of internal kinetic energy and that $$ v_{2}=0 $$,
 
 <div class="equation">
- $$ \frac{1}{2} m_{1} v_{1}^{2}
-=\frac{1}{2} m_{1} {v^{\prime}_{1}}^{2}+ \frac{1}{2}m_{2}{v^{\prime}_{2}}^{2}.
-$$
+ $$ \frac{1}{2} m_{1} v_{1}^{2} =\frac{1}{2} m_{1} {v^{\prime}_{1}}^{2}+ \frac{1}{2}m_{2}{v^{\prime}_{2}}^{2}. $$ 
 </div>
 Solving the first equation (momentum equation) for $$ v^{\prime}_{2} $$,
 we obtain
@@ -359,4 +357,4 @@ elastic collision
 internal kinetic energy
 : the sum of the kinetic energies of the objects in a system
 
-</div>
+</div>

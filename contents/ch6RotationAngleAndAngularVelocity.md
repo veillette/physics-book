@@ -587,4 +587,4 @@ angular velocity
 : $$ \omega $$, the rate of change of the angle with which an object moves on a
 circular path
 
-</div>
+</div>

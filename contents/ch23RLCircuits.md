@@ -467,4 +467,4 @@ characteristic time constant
 $$\tau =\frac{L}{R} $$ , where $$L $$ is the inductance and $$R $$ is the
 resistance
 
-</div>
+</div>

@@ -100,7 +100,7 @@ in [[Figure 1]](#Figure1)(b) illustrates.
 ### Discharging a Capacitor
 
 Discharging a capacitor through a resistor proceeds in a similar fashion,
-as [[Figure 2]](#Figure2) illustrates. Initially, the current is $${I}_ {0}=\frac{ {V}_{0}}{R} $$ , driven by the initial voltage $${V}_{0} $$ on the
+as [[Figure 2]](#Figure2) illustrates. Initially, the current is $${I}_{0}=\frac{ {V}_{0}}{R} $$ , driven by the initial voltage $${V}_{0} $$ on the
 capacitor. As the voltage decreases, the current and hence the rate of discharge
 decreases, implying another exponential formula for $$V $$ . Using calculus, the
 voltage $$V $$ on a capacitor $$C $$ being discharged through a resistor $$R $$
@@ -759,7 +759,7 @@ The time required is $$1.73 \times 10^{-2}$$ s or 17.3 ms.
 If you wish to take a picture of a bullet traveling at 500 m/s, then a very
 brief flash of light produced by an $$\text{RC} $$ discharge through a flash
 tube can limit blurring. Assuming 1.00 mm of motion during one $$\text{RC} $$
-constant is acceptable, and given that the flash is driven by a $$600 \text{-μF} $$
+constant is acceptable, and given that the flash is driven by a $$600 \text{-μF} $$
 
 capacitor, what is the resistance in the flash tube?
 
@@ -858,4 +858,4 @@ capacitance
 : the maximum amount of electric potential energy that can be stored (or
 separated) for a given electric potential
 
-</div>
+</div>

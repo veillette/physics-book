@@ -66,7 +66,7 @@ Ideal Gas Law
 The **ideal gas law** states that
 
 <div class="equation" >
- $$PV=Nk_{B}T, $$
+ $$PV=Nk_{B}T,$$
 </div>
 where  $$P $$  is the absolute pressure of a gas,  $$V $$
  is the volume it occupies,  $$N $$
@@ -75,7 +75,7 @@ where  $$P $$  is the absolute pressure of a gas,  $$V $$
  is called the **Boltzmann constant** in honor of Austrian physicist Ludwig Boltzmann (1844–1906) and has the value
 
 <div class="equation" >
- $$k_{B}= 1.38 \times 10^{-23}  \text{J}/\text{K}. $$
+ $$k_{B}= 1.38 \times 10^{-23}  \text{J}/\text{K}.$$
 </div>
 </div>
 
@@ -112,10 +112,9 @@ First we need to identify what we know and what we want to know, and then
 identify an equation to solve for the unknown.
 
 We know the initial pressure $${P}_{0}= 7.00 \times 10^{5} \text{Pa} $$ , the
-initial temperature $${T}_{0}= 18.0ºC $$ , and the final temperature $${T}_ {\text{f}}= 35.0ºC $$ . We must find the final pressure $${P}_{\text{f}} $$ .
+initial temperature $${T}_{0}= 18.0ºC $$ , and the final temperature $${T}_{\text{f}}= 35.0ºC $$ . We must find the final pressure $${P}_{\text{f}} $$ .
 How can we use the equation $$PV=Nk_{B}T $$ ? At first, it may seem that not
-enough information is given, because the volume $$V $$ and number of atoms $$N $$ are not specified. What we can do is use the equation twice: $${P}_{0}{V}_
-{0}=Nk_{B}T_{0} $$ and $${P}_{\text{f}}{V}_{\text{f}}=Nk_{B}T_{\text{f}} $$ . If we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
+enough information is given, because the volume $$V $$ and number of atoms $$N $$ are not specified. What we can do is use the equation twice: $${P}_{0}{V}_{0}=Nk_{B}T_{0} $$ and $${P}_{\text{f}}{V}_{\text{f}}=Nk_{B}T_{\text{f}} $$ . If we divide $${P}_{\text{f}}{V}_{\text{f}} $$ by $${P}_{0}{V}_{0} $$ we can come
 up with an equation that allows us to solve for $${P}_{\text{f}} $$.
 
 <div class="equation" >
@@ -128,13 +127,13 @@ Since the volume is constant,  $${V}_{\text{f}} $$
  and  $$k $$ ,  which is a constant. Therefore,
 
 <div class="equation" >
- $$\frac{ {P}_{\text{f}}}{ {P}_{0}}=\frac{ {T}_{\text{f}}}{ {T}_{0}}\text{.} $$
+ $$\frac{ {P}_{\text{f}}}{ {P}_{0}}=\frac{ {T}_{\text{f}}}{ {T}_{0}}\text{.}$$
 </div>
 We can then rearrange this to solve for  $${P}_{\text{f}} $$
 \:
 
 <div class="equation" >
- $${P}_{\text{f}}={P}_{0}\frac{ {T}_{\text{f}}}{ {T}_{0}}, $$
+ $${P}_{\text{f}}={P}_{0}\frac{ {T}_{\text{f}}}{ {T}_{0}},$$
 </div>
 where the temperature must be in units of kelvins, because  $${T}_{0} $$
  and  $${T}_{\text{f}} $$
@@ -218,14 +217,14 @@ It is sometimes convenient to work with a unit other than molecules when
 measuring the amount of substance. A **mole** (abbreviated mol) is defined to be
 the amount of a substance that contains as many atoms or molecules as there are
 atoms in exactly 12 grams (0.012 kg) of carbon-12. The actual number of atoms or
-molecules in one mole is called **Avogadro’s number** $$\left({N}_ {\text{A}}\right) $$ , in recognition of Italian scientist Amedeo Avogadro (
+molecules in one mole is called **Avogadro’s number** $$\left({N}_{\text{A}}\right) $$ , in recognition of Italian scientist Amedeo Avogadro (
 1776–1856). He developed the concept of the mole, based on the hypothesis that
 equal volumes of gas, at the same pressure and temperature, contain equal
 numbers of molecules. That is, the number is independent of the type of gas.
-This hypothesis has been confirmed, and the value of Avogadro’s number is
+This hypothesis has been confirmed, and the value of Avogadro's number is
 
 <div class="equation" >
- $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1}\text{.} $$
+ $${N}_{\text{A}}= 6.02 \times 10^{23}  {\text{mol}}^{-1}\text{.}$$
 </div>
 
 <div class="note" data-has-label="true" data-label="" markdown="1">
@@ -287,12 +286,12 @@ number of molecules by Avogadro’s number. We let $$n $$ stand for the number o
 moles,
 
 <div class="equation" >
- $$n {\text{mol/m}}^{3}=\frac{N {\text{molecules/m}}^{3}}{ 6.02 \times 10^{23}  \text{molecules/mol}}=\frac{ 2.68 \times 10^{25}  {\text{molecules/m}}^{3}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 44.5 {\text{mol/m}}^{3}\text{.} $$
+ $$n {\text{mol/m}}^{3}=\frac{N {\text{molecules/m}}^{3}}{ 6.02 \times 10^{23}  \text{molecules/mol}}=\frac{ 2.68 \times 10^{25}  {\text{molecules/m}}^{3}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 44.5 {\text{mol/m}}^{3}\text{.}$$
 </div>
 (b) Using the value obtained for the number of moles in a cubic meter, and converting cubic meters to liters, we obtain
 
 <div class="equation" >
- $$\frac{\left(10^{3} {\text{L/m}}^{3}\right)}{ 44.5 {\text{mol/m}}^{3}}= 22.5 \text{L/mol}\text{.} $$
+ $$\frac{\left(10^{3} {\text{L/m}}^{3}\right)}{ 44.5 {\text{mol/m}}^{3}}= 22.5 \text{L/mol}\text{.}$$
 </div>
 **Discussion**
 
@@ -302,8 +301,8 @@ this number is the same for all gases. In other words, it is independent of the
 gas.
 
 The (average) molar weight of air is approximately 80% $${\text{N}}_{2} $$ and 20%
-$${\text{O}}\_{2} $$ is $$M= 28.8 \text{g}\text{.} $$ Thus the mass of one cubic
-meter of air is 1.28 kg. If a living room has dimensions $$5 \text{m}×5 \text{m}×3 \text{m} \text{,} $$ the mass of air inside the room is 96 kg, which
+$${\text{O}}\_{2} $$ is $$M= 28.8 \text{g}\text{.}$$ Thus the mass of one cubic
+meter of air is 1.28 kg. If a living room has dimensions $$5 \text{m}×5 \text{m}×3 \text{m}\text{,}$$ the mass of air inside the room is 96 kg, which
 is the typical mass of a human.
 
 </div>
@@ -322,7 +321,7 @@ The density of air at standard conditions (  $$P=1 \text{atm} $$
 </div>
 <div class="solution" markdown="1">
 The best way to approach this question is to think about what is happening. If the density drops to half its original value and no molecules are lost, then the volume must double. If we look at the equation  $$PV=Nk_{B}T $$ ,
- we see that when the temperature is constant, the pressure is inversely proportional to volume. Therefore, if the volume doubles, the pressure must drop to half its original value, and  $${P}_{\text{f}}= 0.50 \text{atm}\text{.} $$
+ we see that when the temperature is constant, the pressure is inversely proportional to volume. Therefore, if the volume doubles, the pressure must drop to half its original value, and  $${P}_{\text{f}}= 0.50 \text{atm}\text{.}$$
 </div>
 </div>
 
@@ -333,14 +332,14 @@ rather than the number of atoms and molecules, $$N $$ . We start from the ideal
 gas law,
 
 <div class="equation" >
- $$PV=\text{Nk_{B}T} \text{,}  $$
+ $$PV=\text{Nk_{B}T}\text{,}$$
 </div>
 
 and multiply and divide the equation by Avogadro’s number $${N}_{\text{A}} $$ .
 This gives
 
 <div class="equation" >
- $$PV=\frac{N}{ {N}_{\text{A}}}{N}_{\text{A}}k_{B}T\text{.} $$
+ $$PV=\frac{N}{ {N}_{\text{A}}}{N}_{\text{A}}k_{B}T\text{.}$$
 </div>
 
 Note that $$n=N/{N}_{\text{A}} $$ is the number of moles. We define the
@@ -396,12 +395,11 @@ of moles $$n $$.
 2. Rearrange the equation to solve for  $$n $$  and substitute known values.
 
 <div class="equation" >
- $$\begin{array}{lll}n& =& \frac{PV}{RT}=\frac{\left( 7.00 \times 10^{5}  \text{Pa}\right)\left( 2.00 \times 10^{-3}  {\text{m}}^{3}\right)}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(291 \text{K}\right)}\\  
- n & =&  0.579  \text{mol}\end{array} $$
+ $$\begin{array}{lll}n& =& \frac{PV}{RT}=\frac{\left( 7.00 \times 10^{5} \text{Pa}\right)\left( 2.00 \times 10^{-3} {\text{m}}^{3}\right)}{\left( 8.31 \text{J/mol}\cdot \text{K}\right)\left(291 \text{K}\right)}\\ n & =& 0.579 \text{mol}\end{array} $$ 
 </div>
 **Discussion**
 
-The most convenient choice for $$R $$ in this case is $$ 8.31 \text{J/mol}\cdot \text{K} \text{,} $$ because our known quantities are in SI units. The pressure
+The most convenient choice for $$R $$ in this case is $$ 8.31 \text{J/mol}\cdot \text{K}\text{,}$$ because our known quantities are in SI units. The pressure
 and temperature are obtained from the initial conditions
 in [[Example 1]](#Example1), but we would get the same answer if we used the
 final values.
@@ -485,18 +483,18 @@ Atoms and molecules are close together in solids and liquids. In gases they are 
 - The ideal gas law can be written in terms of the number of molecules of gas:
 
   <div class="equation" >
-   $$PV=Nk_{B}T, $$
+   $$PV=Nk_{B}T,$$
   </div>
      where    $$P $$ is pressure,
    $$V $$ is volume,    $$T $$ is temperature,
    $$N $$ is number of molecules, and
    $$k_{B} $$ is the Boltzmann constant
   <div class="equation" >
-   $$k_{B}= 1.38 \times 10^{-23} \text{J/K}. $$
+   $$k_{B}= 1.38 \times 10^{-23} \text{J/K}.$$
   </div>
 
 - A mole is the number of atoms in a 12-g sample of carbon-12.
-- The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}} $$
+- The number of molecules in a mole is called Avogadro’s number $${N}\_{\text{A}} $$
 
   ,
 
@@ -658,7 +656,7 @@ The gauge pressure drops from 2.47 atm to 1.62 atm, a decrease of about 34%. Thi
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Convert an absolute pressure of  $$ 7.00 \times 10^{5}  {\text{N/m}}^{2} $$
- to gauge pressure in  $${\text{lb/in}}^{2}\text{.} $$
+ to gauge pressure in  $${\text{lb/in}}^{2}\text{.}$$
  (This value was stated to be just less than  $$90.0 {\text{lb/in}}^{2} $$
  in [[Example 4]](#Example4). Is it?)
 
@@ -1155,7 +1153,7 @@ ideal gas law
 of gas molecules or number of moles of gas and the temperature of the gas
 
 Boltzmann constant
-: $$k_{B} $$ , a physical constant that relates energy to temperature; $$k_ {B}=1.38 \times 10^{-23} \text{J/K} $$
+: $$k_{B} $$ , a physical constant that relates energy to temperature; $$k_{B}=1.38 \times 10^{-23} \text{J/K} $$
 
 Avogadro’s number
 : $${N}_{\text{A}} $$ , the number of molecules or atoms in one mole of a
@@ -1165,4 +1163,4 @@ mole
 : the quantity of a substance whose mass (in grams) is equal to its molecular
 mass
 
-</div>
+</div>

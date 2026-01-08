@@ -35,8 +35,7 @@ Power is the rate at which work is done.
  $$ P=\frac{W}{t} $$
 </div>
 The SI unit for power is the **watt**
-( $$ \text{W} $$ ), where 1 watt equals 1 joule/second $$ \left(1 \text{W}=1
-\text{J/s}\right).
+($$\text{W}$$), where 1 watt equals 1 joule/second $$\left(1 \text{W}=1 \text{J/s}\right)$$.
 </div>
 
 Because work is energy transfer, power is also the rate at which energy is
@@ -59,7 +58,7 @@ What is the power output for a 60.0-kg woman who runs up a 3.00 m high flight of
 **Strategy and Concept**
 
 The work going into mechanical energy is $$ W=\KE + \PE $$. At the bottom of the
-stairs, we take both $$ \KE $$ and $$ \PE_{g} $$ as initially zero; thus, $$ W=\KE_{f}+\PE_{g}=\frac{1}{2} m v_ {f}^{2}+mgh $$, where $$ h $$ is the vertical height of the stairs. Because all
+stairs, we take both $$ \KE $$ and $$ \PE_{g} $$ as initially zero; thus, $$ W=\KE_{f}+\PE_{g}=\frac{1}{2} m v_{f}^{2}+mgh $$, where $$ h $$ is the vertical height of the stairs. Because all
 terms are given, we can calculate $$ W $$ and then divide it by time to get
 power.
 
@@ -74,7 +73,7 @@ the previous equation, $$ P=W/t $$ yields
 Entering known values yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 P&=& \frac{0.5\left(60.0 \kg \right){\left(2.00  \ms \right)}^{2}+\left(60.0 \kg \right)\left( 9.80 \mss \right)\left(3.00 \m \right)}{3.50 \s  }\\
 P&=& \frac{120  \J +1764  \J }{3.50 \s  }\\
 P&=& 538 \text{W} .
@@ -188,7 +187,7 @@ convert the units into $$ \text{kW} $$ and hours.
 The energy consumed in $$ \text{kW}\cdot \text{h} $$ is
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 E&=& P t=\left(0.200\text{kW}\right)\left(6.00\text{h/d}\right)\left(30.0\text{d}\right)\\
 E&=& 36.0 \text{kW}\cdot \text{h,}
 \end{array} $$
@@ -196,8 +195,7 @@ E&=& 36.0 \text{kW}\cdot \text{h,}
 and the cost is simply given by
 
 <div class="equation">
- $$ \text{cost}=\left(36.0 \text{kW}\cdot h\right)\left(\$0.120 \text{ per
-kW} \cdot h\right)=\$4.32 \text{per month}. $$
+ $$ \text{cost}=\left(36.0 \text{kW}\cdot h\right)\left(\$0.120 \text{ per kW} \cdot h\right)=\$4.32 \text{per month}. $$ 
 </div>
 
 **Discussion**
@@ -844,7 +842,7 @@ For part (c), we use work-energy theorem including air resistance.
 Total energy needed:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 E &=& \frac{1}{2}mv^{2} + mgh\\
 E &=& \frac{1}{2}(1.50\times 10^{5}\kg)(250\ms)^{2} + (1.50\times 10^{5}\kg)(9.80\mss)(12.0\times 10^{3}\m)\\
 E &=& 4.69 \times 10^{9}\J + 1.76 \times 10^{10}\J = 2.23 \times 10^{10}\J
@@ -1009,7 +1007,7 @@ For part (b), the actual power collected per m² is $$ (1300\text{ W/m}^2)(0.02)
 **Solution for (a)**
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 \text{Power per m}^2 &=& \frac{4.00 \times 10^{26}\text{ W}}{4\pi(1.50 \times 10^{11}\m)^{2}}\\
 &=& \frac{4.00 \times 10^{26}}{2.83 \times 10^{23}}\text{ W/m}^2\\
 &=& 1.41 \times 10^{3}\text{ W/m}^2 = 1.41\text{ kW/m}^2
@@ -1083,4 +1081,4 @@ kilowatt-hour
 : $$ \left(\text{kW}\cdot h\right) $$ unit used primarily for electrical energy
 provided by electric utility companies
 
-</div>
+</div>

@@ -295,4 +295,4 @@ Huygens’s principle
 forward direction at the same speed as the wave itself. The new wavefront is a
 line tangent to all of the wavelets
 
-</div>
+</div>

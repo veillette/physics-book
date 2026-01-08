@@ -56,7 +56,7 @@ direction of $$ \vb{F}\_{\text{app}} $$ are easily found. First, the resultant
 magnitude is given by the Pythagorean theorem:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 F_{\text{app}}&=& \sqrt{ F_{x}^{2}+F_{y}^{2}} \\
 F_{\text{app}}&=& \sqrt{\left(2.7\times 10^{5}\N \right)^{2}+\left(3.6\times 10^{5}\N \right)^{2}}
 F_{\text{app}}&=& 4.5\times 10^{5}\N .
@@ -245,7 +245,7 @@ in [Figure 3](#Figure3)(b). Analysis of the free-body diagram using Newton’s l
 can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
 The only forces acting on the person are his weight $$ \vb{w} $$ and the upward
-force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_ {\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
+force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_{\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
 direction, so that we need to find $$ F\_{\s} $$ in order to find what the scale
 reads. We can do this, as usual, by applying Newton’s second law,
 
@@ -290,7 +290,7 @@ Since his acceleration would be zero, the force of the scale would be equal to
 his weight:
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 F_{\text{net}}&=& ma =0=F_{\s}-w\\
 F_{\s}&=& w=mg \\
 F_{\s}&=& \left(75.0 \kg \right)\left(9.80 \mss \right)\\
@@ -395,7 +395,7 @@ found from its definition:
 Substituting the known values yields
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 a&=& \frac{8.00 \ms }{2.50 \s} \\
 a&=& 3.20 \mss .
 \end{array} $$
@@ -420,7 +420,7 @@ $$ F_{\text{net}}=ma . $$
 Substituting the known values of $$ m $$ and $$ a $$ gives
 
 <div class="equation">
- $$ \begin{array}{lll}
+$$ \begin{array}{lll}
 F_{\text{net}}&=& \left(70.0 \kg \right)\left(3.20 \mss \right)\\
 F_{\text{net}}&=& 224 \N .
 \end{array} $$
@@ -1408,4 +1408,4 @@ This problem demonstrates that extreme accelerations produce uncomfortable force
 (c) The **final velocity of 30.0 m/s is unreasonably high** for an elevator—typical elevators move at 1–10 m/s, not 30 m/s.
 
 </div>
-</div>
+</div>

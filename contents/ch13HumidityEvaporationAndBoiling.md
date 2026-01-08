@@ -282,8 +282,7 @@ where  $$n $$
 
 The density is obtained by assuming a pressure equal to the vapor pressure of
 water at $$ 20.0\text{ºC} $$ . The density found is identical to the value
-in [[Table 1]](#Table1), which means that a vapor density of $$ 17.2 {\text{g/m}}^{3} $$ at $$ 20.0\text{ºC} $$ creates a partial pressure of $$ 2.33
-\times 10^{3} \text{Pa} \text{,} $$ equal to the vapor pressure of water at that temperature. If the partial pressure is equal to the vapor pressure, then the liquid and vapor phases are in equilibrium, and the relative humidity is 100%. Thus, there can be no more than 17.2 g of water vapor per $${\text{m}}^{3} $$ at
+in [[Table 1]](#Table1), which means that a vapor density of $$ 17.2 {\text{g/m}}^{3} $$ at $$ 20.0\text{ºC} $$ creates a partial pressure of $$ 2.33 \times 10^{3} \text{Pa} \text{,} $$ equal to the vapor pressure of water at that temperature. If the partial pressure is equal to the vapor pressure, then the liquid and vapor phases are in equilibrium, and the relative humidity is 100%. Thus, there can be no more than 17.2 g of water vapor per $${\text{m}}^{3} $$ at
 $$ 20.0\text{ºC} $$ , so that this value is the saturation vapor density at that
 temperature. This example illustrates how water vapor behaves like an ideal gas:
 the pressure and density are consistent with the ideal gas law (assuming the
@@ -338,8 +337,7 @@ The first is given to be  $$9.40 {\text{g/m}}^{3} $$ ,
  where the relative humidity will be 100%. That temperature is called the dew point for air with this concentration of water vapor.
 
 (c) Here, the dew point temperature is given to be $$ - 10.0\text{ºC} $$ .
-Using [[Table 1]](#Table1), we see that the vapor density is $$2.36 {\text{g/m}}^{3} $$ , because this value is the saturation vapor density at $$ -
-10.0\text{ºC} $$ . The saturation vapor density at $$ 25.0\text{ºC} $$ is seen to be $$23.0 {\text{g/m}}^{3} $$ . Thus, the relative humidity at $$ 25.0\text{ºC} $$ is
+Using [[Table 1]](#Table1), we see that the vapor density is $$2.36 {\text{g/m}}^{3} $$ , because this value is the saturation vapor density at $$ - 10.0\text{ºC} $$ . The saturation vapor density at $$ 25.0\text{ºC} $$ is seen to be $$23.0 {\text{g/m}}^{3} $$ . Thus, the relative humidity at $$ 25.0\text{ºC} $$ is
 
 <div class="equation" >
  $$\text{percent relative humidity}=\frac{2.36 {\text{g/m}}^{3}}{23.0 {\text{g/m}}^{3}}×100= 10.3\% \text{.} $$
@@ -1182,4 +1180,4 @@ percent relative humidity
 relative humidity
 : the amount of water in the air relative to the maximum amount the air can hold
 
-</div>
+</div>

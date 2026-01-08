@@ -244,8 +244,8 @@ on the two scales.
 
 [[Figure 6]](#Figure6) shows the wide range of temperatures found in the
 universe. Human beings have been known to survive with body temperatures within
-a small range, from $$24\text{ºC} $$ to $$44\text{ºC} $$ $$\left(75\text{ºF} $$
-to $$111\text{ºF} $$ ). The average normal body temperature is usually given as
+a small range, from $$24\text{ºC}$$ to $$44\text{ºC}$$ $$\left(75\text{ºF}$$
+to $$111\text{ºF}\right)$$. The average normal body temperature is usually given as
 $$ 37.0\text{ºC} $$
 ( $$ 98.6\text{ºF} $$ ), and variations in this temperature can indicate a
 medical condition: a fever, an infection, a tumor, or circulatory problems (
@@ -728,4 +728,4 @@ zeroth law of thermodynamics
 object is in thermal equilibrium with one of those objects, it is also in
 thermal equilibrium with the other object
 
-</div>
+</div>

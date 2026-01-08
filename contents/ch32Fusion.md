@@ -549,8 +549,7 @@ $${}^{4}\text{He} $$ or $${}^{2}\text{H} $$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
- $$\begin{array}{lll}E& =& \left({m}_{\text{i}}-{m}_{\text{f}}\right){c}^{2}\\ {E}_{1}& =& \left(1.008665+3.016030-4.002603\right)\left(931.5 \text{MeV}\right)\\ & =& 20.58 \text{MeV}\\ {E}_{2}& =& \left( 1.008665+ 1.007825 -2.014102\right)\left(931.5 \text{MeV}\right)\\ & =& 2.224 \text{MeV}\end{array} $$
- $${}^{4}\text{He is more tightly bound, since this reaction gives off more energy per nucleon.} $$
+ $$\begin{array}{lll}E& =& \left({m}_{\text{i}}-{m}_{\text{f}}\right){c}^{2}\\ {E}_{1}& =& \left(1.008665+3.016030-4.002603\right)\left(931.5 \text{MeV}\right)\\ & =& 20.58 \text{MeV}\\ {E}_{2}& =& \left( 1.008665+ 1.007825 -2.014102\right)\left(931.5 \text{MeV}\right)\\ & =& 2.224 \text{MeV}\end{array} $${}^{4}\text{He is more tightly bound, since this reaction gives off more energy per nucleon.} $$
 </div>
 </div>
 
@@ -878,4 +877,4 @@ proton-proton cycle
 : the combined reactions <sup>1</sup>H+<sup>1</sup>H→<sup>2</sup>H+_e_<sup> +</sup>+_v_<sub>e</sub>, <sup>1</sup>H+<sup>2</sup>H→<sup>3</sup>He+_γ_,
 and <sup>3</sup>He+<sup>3</sup>He→<sup>4</sup>He+<sup>1</sup>H+<sup>1</sup>H
 
-</div>
+</div>

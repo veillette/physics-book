@@ -1457,4 +1457,4 @@ satisfied, where $$d $$ is the distance between slits in the grating, $$\lambda 
 diffraction grating
 : a large number of evenly spaced parallel slits
 
-</div>
+</div>

@@ -76,7 +76,7 @@ A heart defibrillator delivers  $$ 4.00 \times 10^{2}  \text{J} $$
 **Strategy**
 
 We are given $${E}_{\text{cap}} $$ and $$V $$ , and we are asked to find the
-capacitance $$C $$ . Of the three expressions in the equation for $${E}_ {\text{cap}} $$ , the most convenient relationship is
+capacitance $$C $$ . Of the three expressions in the equation for $${E}_{\text{cap}} $$ , the most convenient relationship is
 
 <div class="equation" >
  $${E}_{\text{cap}}=\frac{ C V^{2}}{2}. $$
@@ -86,8 +86,7 @@ capacitance $$C $$ . Of the three expressions in the equation for $${E}_ {\text{
 Solving this expression for $$C $$ and entering the given values yields
 
 <div class="equation" >
- $$\begin{array}{lll}C& =& \frac{2{E}_{\text{cap}}}{ {V}^{2}}=\frac{2\left( 4.00 \times 10^{2}  \text{J}\right)}{ {\left( 1.00 \times 10^{4}  \text{V}\right)}^{2}}= 8.00 \times 10^{-6} \text{F}\\ 
- C & =& 8.00 \text{µF}\text{.}\end{array} $$
+ $$\begin{array}{lll}C& =& \frac{2{E}_{\text{cap}}}{ {V}^{2}}=\frac{2\left( 4.00 \times 10^{2} \text{J}\right)}{ {\left( 1.00 \times 10^{4} \text{V}\right)}^{2}}= 8.00 \times 10^{-6} \text{F}\\ C & =& 8.00 \text{µF}\text{.}\end{array} $$ 
 </div>
 **Discussion**
 
@@ -525,4 +524,4 @@ defibrillator
 : a machine used to provide an electrical shock to a heart attack victim\'s
 heart in order to restore the heart\'s normal rhythmic pattern
 
-</div>
+</div>

@@ -49,7 +49,7 @@ for sound waves, where amplitude is proportional to pressure. In electromagnetic
 waves, the amplitude is the **maximum field strength** of the electric and
 magnetic fields. (See [[Figure 1]](#Figure1).)
 
-Thus the energy carried and the **intensity** $$I $$ of an electromagnetic wave
+Thus the energy carried and the **intensity** $$I$$ of an electromagnetic wave
 is proportional to $${E}^{2} $$ and $${B}^{2} $$ . In fact, for a continuous
 sinusoidal electromagnetic wave, the average intensity $${I}_{\text{ave}} $$ is
 given by
@@ -58,7 +58,7 @@ given by
  $${I}_{\text{ave}}=\frac{ c\epsilon_{0}{E}_{0}^{2}}{2}, $$
 </div>
 
-where $$c $$ is the speed of light, $${\epsilon }_{0} $$ is the permittivity of
+where $$c$$ is the speed of light, $${\epsilon }_{0} $$ is the permittivity of
 free space, and $${E}_{0} $$ is the maximum electric field strength; intensity,
 as always, is power per unit area (here in $${\text{W/m}}^{2} $$ ).
 
@@ -75,7 +75,7 @@ produces the relationship
 where $${B}_{0} $$ is the maximum magnetic field strength.
 
 One more expression for $${I}_{\text{ave}} $$ in terms of both electric and
-magnetic field strengths is useful. Substituting the fact that $$c\cdot {B}_ {0}={E}_{0} $$ , the previous expression becomes
+magnetic field strengths is useful. Substituting the fact that $$c\cdot {B}_{0}={E}_{0}$$, the previous expression becomes
 
 <div class="equation" >
  $${I}_{\text{ave}}=\frac{ {E}_{0}{B}_{0}}{ {2\mu }_{0}}. $$
@@ -149,7 +149,7 @@ Entering known values gives
 **Discussion**
 
 As before, a relatively strong electric field is accompanied by a relatively
-weak magnetic field in an electromagnetic wave, since $$B=E/c $$ , and $$c $$ is
+weak magnetic field in an electromagnetic wave, since $$B=E/c $$ , and $$c$$ is
 a large number.
 
 </div>
@@ -634,7 +634,7 @@ For a continuous sinusoidal electromagnetic wave, the peak intensity is twice th
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 Suppose a source of electromagnetic waves radiates uniformly in all directions in empty space where there are no absorption or interference effects. (a) Show that the intensity is inversely proportional to  $${r}^{2} $$ ,
- the distance from the source squared. (b) Show that the magnitudes of the electric and magnetic fields are inversely proportional to  $$r $$.
+ the distance from the source squared. (b) Show that the magnitudes of the electric and magnetic fields are inversely proportional to  $$r$$.
 
 </div>
 <div class="solution" data-element-type="problems-exercises" markdown="1">
@@ -875,7 +875,7 @@ The speed of the vehicle is 15.0 m/s, which is equivalent to 54.0 km/h or 33.6 m
 Assume the mostly infrared radiation from a heat lamp acts like a continuous
 wave with wavelength $$1.50 \mu \text{m} $$ .
 (a) If the lamp’s 200-W output is focused on a person’s shoulder, over a
-circular area 25.0 cm in diameter, what is the intensity in $${\text{W/m}}^{2} $$
+circular area 25.0 cm in diameter, what is the intensity in $${\text{W/m}}^{2} $$
 
 ?
 (b) What is the peak electric field strength? (c) Find the peak magnetic field
@@ -989,9 +989,7 @@ Final Answer
 **Integrated Concepts**
 
 Electromagnetic radiation from a 5.00-mW laser is concentrated on a
-
-1.00{\text{-mm}}^{2} $$ area. (a) What is the intensity in $${\text{W/m}}^{2} $$
-?
+$$1.00{\text{-mm}}^{2}$$ area. (a) What is the intensity in $${\text{W/m}}^{2}$$?
 (b) Suppose a 2.00-nC static charge is in the beam. What is the maximum electric
 force it experiences? (c) If the static charge moves at 400 m/s, what maximum
 magnetic force can it feel?
@@ -1547,4 +1545,4 @@ intensity
 : the power of an electric or magnetic field per unit area, for example, Watts
 per square meter
 
-</div>
+</div>

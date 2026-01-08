@@ -45,7 +45,7 @@ always have two fewer protons and two fewer neutrons than the parent. This seems
 reasonable, since we know that $$\alpha $$ decay is the emission of a
 $${}^{4}\text{He} $$ nucleus, which has two protons and two neutrons. The
 daughters of $$\beta $$ decay have one less neutron and one more proton than
-their parent. Beta decay is a little more subtle, as we shall see. No $$\gamma $$
+their parent. Beta decay is a little more subtle, as we shall see. No $$\gamma $$
 
 decays are shown in the figure, because they do not produce a daughter that
 differs from the parent.
@@ -85,14 +85,14 @@ isotopes, such as in [Appendix B](../contents/appendixB)), its $$\alpha $$
 </div>
 
 where Y is the nuclide that has two fewer protons than X, such as Th having two
-fewer than U. So if you were told that $${}^{239}\text{Pu} $$ $$\alpha $$ decays
+fewer than U. So if you were told that $${}^{239}\text{Pu}$$ $$\alpha$$ decays
 and were asked to write the complete decay equation, you would first look up
 which element has two fewer protons (an atomic number two lower) and find that
 this is uranium. Then since four nucleons have broken away from the original
 239, its atomic mass would be 235.
 
 It is instructive to examine conservation laws related to $$\alpha $$ decay. You
-can see from the equation $${}_{Z}^{A}{\text{X}}_{N}\to {}_ {Z-2}^{A-4}{\text{Y}}_{N-2}+{}_{2}^{4}{\text{He}}_{2} $$ that total charge is
+can see from the equation $${}_{Z}^{A}{\text{X}}_{N}\to {}_{Z-2}^{A-4}{\text{Y}}_{N-2}+{}_{2}^{4}{\text{He}}_{2} $$ that total charge is
 conserved. Linear and angular momentum are conserved, too. Although conserved
 angular momentum is not of great consequence in this type of decay, conservation
 of linear momentum has interesting consequences. If the nucleus is at rest when
@@ -278,8 +278,7 @@ nature. *The total number of nucleons $$A $$ is conserved*. In
 $${}^{60}\text{Co} $$ decay, for example, there are 60 nucleons before and after
 the decay. Note that total $$A $$ is also conserved in $$\alpha $$ decay. Also
 note that the total number of protons changes, as does the total number of
-neutrons, so that total $$Z $$ and total $$N $$ are *not* conserved in $${\beta }^{-} $$ decay, as they are in $$\alpha $$ decay. Energy released in $${\beta
-}^{-} $$ decay can be calculated given the masses of the parent and products.
+neutrons, so that total $$Z $$ and total $$N $$ are *not* conserved in $${\beta }^{-} $$ decay, as they are in $$\alpha $$ decay. Energy released in $${\beta }^{-} $$ decay can be calculated given the masses of the parent and products. 
 
 <div class="example" markdown="1">
 <div class="title">
@@ -369,9 +368,9 @@ decay, then its $${\beta }^{+} $$
 where Y is the nuclide having one less proton than X (to conserve charge) and
 $${\nu }_{e} $$ is the symbol for the **electron’s neutrino**, which has an
 electron family number of $$+1 $$ . Since an antimatter member of the electron
-family (the $${\beta }^{+} $$ )
-is created in the decay, a matter member of the family (here the $${\nu }_{e} $$ )
-must also be created. Given, for example, that $${}^{22}\text{Na} $$ $${\beta }^{+} $$ decays, you can write its full decay equation by first finding that
+family (the $${\beta }^{+}$$)
+is created in the decay, a matter member of the family (here the $${\nu }_{e}$$)
+must also be created. Given, for example, that $${}^{22}\text{Na}$$ $${\beta }^{+}$$ decays, you can write its full decay equation by first finding that
 $$Z=11 $$ for $${}^{22}\text{Na} $$ , so that the daughter nuclide will have
 $$Z=10 $$ , the atomic number for neon. Thus the $${\beta }^{+} $$ decay
 equation for $${}^{22}\text{Na} $$ is
@@ -434,9 +433,9 @@ lower states. The $$\gamma $$ decay equation is simply
 </div>
 
 where the asterisk indicates the nucleus is in an excited state. There may be
-one or more $$\gamma $$ s emitted, depending on how the nuclide de-excites. In
-radioactive decay, $$\gamma $$ emission is common and is preceded by $$\gamma $$
-or $$\beta $$ decay. For example, when $${}^{60}\text{Co} $$ $${\beta }^{-} $$
+one or more $$\gamma$$ s emitted, depending on how the nuclide de-excites. In
+radioactive decay, $$\gamma$$ emission is common and is preceded by $$\gamma$$
+or $$\beta$$ decay. For example, when $${}^{60}\text{Co}$$ $${\beta }^{-}$$
 decays, it most often leaves the daughter nucleus in an excited state, written
 $${}^{60}\text{Ni_} $$ . Then the nickel nucleus quickly $$\gamma $$ decays by
 the emission of two penetrating $$\gamma $$ s:
@@ -939,4 +938,4 @@ and simultaneously emits a neutrino
 electron capture equation
 : equation representing the electron capture
 
-</div>
+</div>

@@ -58,7 +58,7 @@ Kirchhoff’s rules for circuit analysis are applications of **conservation laws
 
 Kirchhoff’s second rule (the **loop rule**) is an application of conservation of
 energy. The loop rule is stated in terms of potential, $$V $$ , rather than
-potential energy, but the two are related since $${\text{PE}}\_{\text{elec}}=qV $$
+potential energy, but the two are related since $${\text{PE}}\_{\text{elec}}=qV $$
 
 . Recall that **emf**{: class="term"} is the potential difference of a source
 when no current is flowing. In a closed loop, whatever energy is supplied by emf
@@ -596,7 +596,7 @@ Solution requires specific values from Figure 7 for numerical results.
 **Unreasonable Results**
 
 Consider the circuit in [[Figure 9]](#Figure9), and suppose that the emfs are
-unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_ {2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
+unknown and the currents are given to be $${I}_{1}=5.00 \text{A} $$ , $${I}_{2}=3.0\text{ A} $$ , and $${I}_{3}= -2.00 \text{A} $$ .
 (a) Could you find the emfs? (b) What is wrong with the assumptions?
 
 ![The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.](../resources/Figure_21_03_09.jpg " ")
@@ -636,4 +636,4 @@ $$\text{emf}=Ir+IR_{1}+IR_{2} $$
 conservation laws
 : require that energy and charge be conserved in a system
 
-</div>
+</div>

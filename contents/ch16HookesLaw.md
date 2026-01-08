@@ -122,14 +122,13 @@ It is possible to find the work done in deforming a system in order to find the
 energy stored. This work is performed by an applied force $${F}_{\text{app}} $$
 . The applied force is exactly opposite to the restoring force (action-reaction)
 , and so $${F}_{\text{app}}=kx $$ .
-[[Figure 4]](#Figure4) shows a graph of the applied force versus deformation $$x $$
+[[Figure 4]](#Figure4) shows a graph of the applied force versus deformation $$x $$
 
 for a system that can be described by Hooke’s law. Work done on the system is
 force multiplied by distance, which equals the area under the curve or $$\left( 1/2\right)kx^{2} $$ (Method A in the figure). Another way to determine the work
 is to note that the force increases linearly from 0 to $$kx $$ , so that the
 average force is $$\left(1/2\right) kx $$ , the distance moved is $$x $$ , and
-thus $$W={F}_{\text{app}}d=\left[ \left(1/2\right) k x \right]  \left(x\right)
-=\left(1/2\right)kx^{2} $$
+thus $$W={F}_{\text{app}}d=\left[ \left(1/2\right) k x \right] \left(x\right) =\left(1/2\right)kx^{2} $$ 
 
 (Method B in the figure).
 
@@ -609,4 +608,4 @@ the more rigid the system; the force constant is represented by _k_
 restoring force
 : force acting in opposition to the force caused by a deformation
 
-</div>
+</div>

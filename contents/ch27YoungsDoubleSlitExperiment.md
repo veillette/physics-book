@@ -140,8 +140,7 @@ Suppose you pass light from a He-Ne laser through two slits separated by 0.0100 
 **Strategy**
 
 The third bright line is due to third-order constructive interference, which
-means that $$m=3 $$ . We are given $$d= 0.0100 \text{mm} $$ and $$\theta =10.95\text{º} $$ . The wavelength can thus be found using the equation $$d \sin
-\theta =m \lambda $$ for constructive interference.
+means that $$m=3 $$ . We are given $$d= 0.0100 \text{mm} $$ and $$\theta =10.95\text{º} $$ . The wavelength can thus be found using the equation $$d \sin \theta =m \lambda $$ for constructive interference. 
 
 **Solution**
 
@@ -1036,4 +1035,4 @@ order
 : the integer $$m $$ used in the equations for constructive and destructive
 interference for a double slit
 
-</div>
+</div>

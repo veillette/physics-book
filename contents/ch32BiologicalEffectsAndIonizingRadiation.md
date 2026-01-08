@@ -134,7 +134,7 @@ $$\gamma $$ rays, although both are neutral and have large ranges, because
 neutrons often cause secondary radiation when they are captured. Note that the
 RBEs are 1 for higher-energy $$\beta $$ s, $$\gamma $$ s, and x-rays, three of
 the most common types of radiation. For those types of radiation, the numerical
-values of the dose in rem and rad are identical. For example, 1 rad of $$\gamma $$
+values of the dose in rem and rad are identical. For example, 1 rad of $$\gamma $$
 
 radiation is also 1 rem. For that reason, rads are still widely quoted rather
 than rem. [[Table 2]](#Table2) summarizes the units that are used for radiation.
@@ -151,7 +151,7 @@ A high level of activity doesn’t mean much if a person is far away from the
 source. The activity $$R $$ of a source depends upon the quantity of material (
 kg) as well as the half-life. A short half-life will produce many more
 disintegrations per second. Recall that $$R=\frac{0.693N}{ {t}_{1/2}} $$ . Also,
-the activity decreases exponentially, which is seen in the equation $$R={R}_ {0}{e}^{-\lambda t} $$.
+the activity decreases exponentially, which is seen in the equation $$R={R}_{0}{e}^{-\lambda t} $$.
 
 <table id="Table1" aria-describedby="This is a two column table. The left column is labeled type and energy of radiation. The right column is labeled R B E and gives values corresponding with each type and energy of radiation. A note says that R B E values are approximate and difficult to determine."><caption><span class="title">Relative Biological Effectiveness</span></caption><thead><tr>
             <th data-align="center">
@@ -657,7 +657,7 @@ Watch alpha particles escape from a polonium nucleus, causing radioactive alpha 
    $$1 rad=0.01 \text{J/kg}. $$
   </div>
 
-* The SI unit for radiation dose is the gray  (Gy), which is defined to be $$1
+* The SI unit for radiation dose is the gray  (Gy), which is defined to be $$1 $$
   Gy = 1 J/kg = 100 rad.
 
 - To account for the effect of the type of particle creating the ionization, we
@@ -1023,4 +1023,4 @@ exposures of toxins or radiation
 shielding
 : a technique to limit radiation exposure
 
-</div>
+</div>
