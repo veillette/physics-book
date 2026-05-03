@@ -338,7 +338,7 @@ function parser() {
         titleText = titleText.replace(/\\\\/g, '\\');
         // Convert math delimiters
         titleText = titleText.replace(/\(\s+([^)]+?)\s+\)/g, '$$$1$$');
-        title.innerHTML = titleText;
+        title.textContent = titleText;
         figure.insertBefore(title, img);
       }
       figure.setAttribute('id', id);
