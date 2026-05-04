@@ -14,8 +14,11 @@ export default [
       'pdf-output/**',
       'package-lock.json',
       'summary.json',
-      'assets/**/*.js', // Ignore frontend JS that may have different requirements
-      'sw.js', // Service worker has Jekyll front matter
+      // Jekyll-templated files: contain Liquid/front-matter that ESLint cannot parse
+      'sw.js',
+      'assets/pwa/register-sw.js',
+      // Third-party bundle
+      'assets/js/mathjax/**',
     ],
   },
 
@@ -84,6 +87,66 @@ export default [
         },
       ],
       'import/no-duplicates': 'warn',
+    },
+  },
+
+  // Configuration for browser JS (assets/js/ modules and pwa-debug.js)
+  {
+    files: ['assets/js/**/*.js', 'assets/pwa/pwa-debug.js'],
+    languageOptions: {
+      ecmaVersion: 2020,
+      sourceType: 'module',
+      globals: {
+        // Standard browser globals
+        window: 'readonly',
+        document: 'readonly',
+        navigator: 'readonly',
+        location: 'readonly',
+        history: 'readonly',
+        console: 'readonly',
+        setTimeout: 'readonly',
+        setInterval: 'readonly',
+        clearTimeout: 'readonly',
+        clearInterval: 'readonly',
+        requestAnimationFrame: 'readonly',
+        getComputedStyle: 'readonly',
+        fetch: 'readonly',
+        URL: 'readonly',
+        URLSearchParams: 'readonly',
+        DOMParser: 'readonly',
+        Promise: 'readonly',
+        AbortController: 'readonly',
+        CustomEvent: 'readonly',
+        Event: 'readonly',
+        localStorage: 'readonly',
+        sessionStorage: 'readonly',
+        // Service worker / PWA globals
+        self: 'readonly',
+        caches: 'readonly',
+        clients: 'readonly',
+        // MathJax is assigned (not declared) in math-config.js — intentional global
+        MathJax: 'writable',
+      },
+    },
+    rules: {
+      'no-console': 'warn',
+      'no-unused-vars': [
+        'warn',
+        { argsIgnorePattern: '^_', varsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_' },
+      ],
+      'no-constant-condition': ['error', { checkLoops: false }],
+      'no-prototype-builtins': 'warn',
+      'prefer-const': 'warn',
+      'prefer-arrow-callback': 'warn',
+      'prefer-template': 'warn',
+      'no-var': 'error',
+      'object-shorthand': 'warn',
+      eqeqeq: ['error', 'always', { null: 'ignore' }],
+      curly: ['error', 'all'],
+      'no-throw-literal': 'error',
+      'no-implicit-coercion': 'warn',
+      // CDN import URLs (e.g. minisearch from jsDelivr) confuse import/order
+      'import/order': 'off',
     },
   },
 
