@@ -20,7 +20,7 @@ a solar oven. Life itself could not exist without light’s energy. From
 photosynthesis in plants to the sun warming a cold-blooded animal, its supply of
 energy is vital.
 
-![](../resources/Figure_25_00_02.jpg 'Double Rainbow over the bay of Pocitos in Montevideo, Uruguay. (credit: Madrax, Wikimedia Commons)')
+![Double Rainbow over the bay of Pocitos in Montevideo, Uruguay](../resources/Figure_25_00_02.jpg 'Double Rainbow over the bay of Pocitos in Montevideo, Uruguay. (credit: Madrax, Wikimedia Commons)')
 {: #Figure2}
 
 We already know that visible light is the type of electromagnetic waves to which

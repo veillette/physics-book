@@ -180,7 +180,7 @@ solar energy into electrical energy and then into mechanical energy.
 | 1 g carbohydrate (4.1 kcal)                      | $$ 1.7×10^{4} $$   |
 | 1 g protein (4.1 kcal)                           | $$ 1.7×10^{4} $$   |
 | Tennis ball at 100 km/h                          | $$ 22 $$           |
-| Mosquito ($$10^{-2}$$g at 0.5 m/s)               | $$ 1.3×10^{-6} $$  |
+| Mosquito ($$10^{-2}$$g at 0.5\text{ m}/s)               | $$ 1.3×10^{-6} $$  |
 | Single electron in a TV tube beam                | $$ 4.0×10^{-15} $$ |
 | Energy to break one DNA strand                   | $$ 10^{-19} $$     |
 

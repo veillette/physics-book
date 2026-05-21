@@ -694,12 +694,12 @@ We have shown that the bicycle lean angle follows the same relationship as an id
 <div class="problem" markdown="1">
 A large centrifuge, like the one shown in [Figure 9](#Figure9)(a), is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries.
 
-(a) At what angular velocity is the centripetal acceleration$$10 g$$if the
+(a) At what angular velocity is the centripetal acceleration$$10\text{ g}$$if the
 rider is 15.0 m from the center of rotation?
 
 (b) The rider’s cage hangs on a pivot at the end of the arm, allowing it to
 swing outward during rotation as shown in [Figure 9](#Figure9)(b). At what angle$$\theta$$below the horizontal will the cage hang when the centripetal
-acceleration is$$10 g$$? (Hint: The arm supplies centripetal force and
+acceleration is$$10\text{ g}$$? (Hint: The arm supplies centripetal force and
 supports the weight of the cage. Draw a free body diagram of the forces to see
 what the angle$$\theta$$should be.)
 

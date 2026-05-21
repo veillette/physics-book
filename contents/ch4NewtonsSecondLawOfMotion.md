@@ -111,7 +111,7 @@ just given yields Newton\'s second law of motion.
 <div class="title">
 Newton’s Second Law of Motion
 </div>
-The acceleration of a system is directly proportional to and in the same direction as the net external 
+The acceleration of a system is directly proportional to and in the same direction as the net external
 force acting on the system, and inversely proportional to its mass.
 
 In equation form, Newton’s second law of motion is
@@ -359,7 +359,7 @@ Substituting this into Newton’s second law gives
 <div class="equation">
 $$ F_{\text{net}}=ma =4T-f. $$
 </div>
-Using a little algebra, we solve for the total thrust, $$ 4 T $$ :
+Using a little algebra, we solve for the total thrust, $$ 4\text{ T} $$ :
 
 <div class="equation">
  $$ 4T=ma + f . $$
@@ -792,7 +792,6 @@ A force of **4.12 × 10⁵ N** (or **412 kN**) in the direction opposite to the 
 ![A sled is shown with four rockets. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. Weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_07.jpg)
 {: #Figure5}
 
-
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
 (a) If the rocket sled shown in [Figure 6](#Figure6) starts with only one rocket
@@ -863,7 +862,6 @@ This problem illustrates an important principle: when both driving and opposing 
 
 ![A sled is shown with thrust represented by a vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled.](../resources/Figure_04_03_05.jpg)
 {: #Figure6}
-
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">

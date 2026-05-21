@@ -157,7 +157,7 @@ motion toward and 14.0 Hz for motion away. The shifts are not symmetric.
 
 - It seems reasonable that the engineer would receive the same frequency as
   emitted by the horn, because the relative velocity between them is zero.
-- Relative to the medium (air), the speeds are $${v}_{s}={v}_{\text{obs}}=35.0 m/s. $$
+- Relative to the medium (air), the speeds are $${v}_{s}={v}_{\text{obs}}=35.0\text{ m}/s. $$
 - The first Doppler shift is for the moving observer; the second is for the
   moving source.
 

@@ -349,7 +349,7 @@ $$\begin{array}{lll}\hfill {Q}_{\text{cold}}+{Q}_{\text{hot}}& =& 0
    </div>
 
 4. This an equation for the unknown final temperature, $${T}_{\text{f}} $$
-5. Bring all terms involving $${T}_{\text{f}} $$     
+5. Bring all terms involving $${T}_{\text{f}} $$
    on the left-hand side and all other terms on the right-hand side. Solve for
    $${T}\_{\text{f}} $$ ,
    <div class="equation" >

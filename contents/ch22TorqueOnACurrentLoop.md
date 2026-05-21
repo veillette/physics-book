@@ -197,7 +197,7 @@ This is an inverse proportionality: a 5% decrease in$$B$$ requires slightly more
 
 **Strategy**
 
-We use$$\tau = NIAB\sin\theta$$. Maximum torque occurs when$$\sin\theta = 1$$ (i.e.,$$\theta = 90°$$). The area of the square loop is$$ A = s^2$$ where$$ s$$ is the side length.
+We use$$\tau = NIAB\sin\theta$$. Maximum torque occurs when$$\sin\theta = 1$$ (i.e.,$$\theta = 90\text{ °}$$). The area of the square loop is$$ A = s^2$$ where$$ s$$ is the side length.
 
 **Solution**
 

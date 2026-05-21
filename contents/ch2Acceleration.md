@@ -262,7 +262,7 @@ to the right.
 <div class="equation">
  $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{+30.0 \text{km/h}}{20.0 s} $$
 </div>
-4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI 
+4\. Since the units are mixed (we have both hours and seconds for time), we need to convert everything into SI
 units of meters and seconds. (See [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits) for more guidance.)
 
 <div class="equation">
@@ -339,7 +339,7 @@ from 20 to 40 s, after which the train decelerates.)
 <div class="title">
 Calculating Average Velocity: The Subway Train
 </div>
-What is the average velocity of the train in part b of [Example 2](#example2), and shown again below, if it takes 5.00 min to make its 
+What is the average velocity of the train in part b of [Example 2](#example2), and shown again below, if it takes 5.00 min to make its
 trip?
 
 ![The train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_04_11.jpg 'Train Diagram')

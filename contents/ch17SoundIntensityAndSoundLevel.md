@@ -87,7 +87,7 @@ Graham Bell, the inventor of the telephone.
             <th>Sound intensity level <em>β</em> (dB)</th>
               <th>Intensity <em>I</em>(W/m<sup>2</sup>)
 </th>
-<th>Example/effect</th>           
+<th>Example/effect</th>
           </tr></thead><tbody><tr>
             <td data-align="center"> $$0 $$</td>
             <td data-align="center"> $$1 \times 10^{-12}  $$</td>

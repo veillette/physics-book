@@ -324,7 +324,7 @@ Or $$u = 0.9986c$$ (to 4 significant figures).
 
 **Discussion**
 
-The electron is traveling at 99.86% the speed of light, differing from $$c$$ by only 0.14% or about 420,000 m/s. At this velocity, $$\gamma \approx 19.4$$. The classical momentum would be $$p_{\text{classical}} = m_eu = (9.11 \times 10^{-31})(2.9957 \times 10^8) = 2.73 \times 10^{-22}$$ kg·m/s, which is about 11 times smaller than the actual relativistic value. Such ultra-relativistic electrons are common in particle accelerators, cosmic rays, and astrophysical jets. The problem specifically asks for four significant figures to distinguish the velocity from $$c$$, highlighting how close to light speed the electron is traveling.
+The electron is traveling at 99.86% the speed of light, differing from $$c$$ by only 0.14% or about 420,000\text{ m}/s. At this velocity, $$\gamma \approx 19.4$$. The classical momentum would be $$p_{\text{classical}} = m_eu = (9.11 \times 10^{-31})(2.9957 \times 10^8) = 2.73 \times 10^{-22}$$ kg·m/s, which is about 11 times smaller than the actual relativistic value. Such ultra-relativistic electrons are common in particle accelerators, cosmic rays, and astrophysical jets. The problem specifically asks for four significant figures to distinguish the velocity from $$c$$, highlighting how close to light speed the electron is traveling.
 
 </div>
 </div>

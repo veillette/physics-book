@@ -423,7 +423,7 @@ How much heat transfer occurs from a system, if its internal energy decreased by
 
 **Strategy**
 
-We use the first law of thermodynamics, $$\Delta U = Q - W$$, to find the heat transfer. We're given that the internal energy decreased by 150 J (so $$\Delta U = -150$$ J) and the system did 30.0 J of work (so $$W = +30.0$$ J, following the sign convention where work done by the system is positive). Solving for $$Q$$ will give us the net heat transfer. If $$Q$$ is negative, heat flows out of the system.
+We use the first law of thermodynamics, $$\Delta U = Q - W$$, to find the heat transfer. We're given that the internal energy decreased by 150\text{ J} (so $$\Delta U = -150$$ J) and the system did 30.0\text{ J} of work (so $$W = +30.0$$ J, following the sign convention where work done by the system is positive). Solving for $$Q$$ will give us the net heat transfer. If $$Q$$ is negative, heat flows out of the system.
 
 **Solution**
 
@@ -583,7 +583,7 @@ Suppose a woman does 500 J of work and 9500 J of heat transfer occurs into the e
 
 **Strategy**
 
-For part (a), we use the first law of thermodynamics, $$\Delta U = Q - W$$. The woman does 500 J of work ($$W = +500$$ J), and 9500 J of heat transfers into the environment, meaning heat leaves her body ($$Q = -9500$$ J). For part (b), efficiency is defined as the ratio of useful work output to total energy input (or in this case, total energy metabolized): $$\text{Eff} = \frac{W}{|\Delta U|}$$.
+For part (a), we use the first law of thermodynamics, $$\Delta U = Q - W$$. The woman does 500\text{ J} of work ($$W = +500$$ J), and 9500\text{ J} of heat transfers into the environment, meaning heat leaves her body ($$Q = -9500$$ J). For part (b), efficiency is defined as the ratio of useful work output to total energy input (or in this case, total energy metabolized): $$\text{Eff} = \frac{W}{|\Delta U|}$$.
 
 **Solution**
 

@@ -683,7 +683,7 @@ Confirmed: visible light ranges from 1.63 eV (760 nm, red) to 3.26 eV (380 nm, v
 
 **Strategy**
 
-(a) Use $$E = hf$$ with $$h = 4.14 \times 10^{-15} \text{ eV·s}$$. (b) Assume a tightly bound molecule requires ~10 eV to break apart. (c) Use $$E = hf$$ for the gamma ray. (d) Divide gamma ray energy by molecular binding energy.
+(a) Use $$E = hf$$ with $$h = 4.14 \times 10^{-15} \text{ eV·s}$$. (b) Assume a tightly bound molecule requires ~10\text{ eV} to break apart. (c) Use $$E = hf$$ for the gamma ray. (d) Divide gamma ray energy by molecular binding energy.
 
 **Solution for (a)**
 
@@ -887,7 +887,7 @@ Some satellites use nuclear power. (a) If such a satellite emits a 1.00-W flux o
 
 **Strategy**
 
-(a) Calculate the energy per photon using $$E = hf$$, then find the number of photons from $$N = P/E$$. (b) The photons spread over a spherical surface of radius 100 km, so divide the photon rate by the surface area $$4\pi r^2$$.
+(a) Calculate the energy per photon using $$E = hf$$, then find the number of photons from $$N = P/E$$. (b) The photons spread over a spherical surface of radius 100\text{ km}, so divide the photon rate by the surface area $$4\pi r^2$$.
 
 **Solution for (a)**
 
@@ -919,7 +919,7 @@ Photons per second per square meter:
 
 **Discussion**
 
-The radio station emits over $$10^{32}$$ photons per second, yet each photon carries extremely little energy ($$4.31 \times 10^{-28}$$ J). Even at 100 km distance, more than $$10^{20}$$ photons pass through each square meter every second. These enormous numbers explain why radio waves behave classically—individual photon effects are completely unobservable. The vast number of photons ensures that radio reception appears continuous and wave-like.
+The radio station emits over $$10^{32}$$ photons per second, yet each photon carries extremely little energy ($$4.31 \times 10^{-28}$$ J). Even at 100\text{ km} distance, more than $$10^{20}$$ photons pass through each square meter every second. These enormous numbers explain why radio waves behave classically—individual photon effects are completely unobservable. The vast number of photons ensures that radio reception appears continuous and wave-like.
 
 (a)  $$ 1.16 \times 10^{32} \text{ photons/s}$$
 

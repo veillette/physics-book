@@ -328,8 +328,8 @@ Rearranging  $$I=nqA{v}_{\text{d}} $$  to isolate drift velocity gives
 
 <div class="equation" >
 $$\begin{array}{lll}
- {v}_{\text{d}}&=&\frac{I}{nqA}\\ 
-{v}_{\text{d}}&=&\frac{20.0 \text{A}}{\left( 8.342 \times 10^{28} {\text{/m}}^{3}\right)\left(-1.60 \times 10^{-19} \text{C}\right)\left( 3.310 \times 10^{-6} {\text{m}}^{2}\right)}\\ 
+ {v}_{\text{d}}&=&\frac{I}{nqA}\\
+{v}_{\text{d}}&=&\frac{20.0 \text{A}}{\left( 8.342 \times 10^{28} {\text{/m}}^{3}\right)\left(-1.60 \times 10^{-19} \text{C}\right)\left( 3.310 \times 10^{-6} {\text{m}}^{2}\right)}\\
 {v}_{\text{d}} &=&-4.53 \times 10^{-4} \text{m/s} \text{.} \end{array} $$
 </div>
 **Discussion**

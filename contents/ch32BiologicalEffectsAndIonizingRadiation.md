@@ -923,7 +923,7 @@ Find the mass of  $${}^{239}\text{Pu} $$
 
 **Strategy**
 
-We'll use the relationship between activity, number of nuclei, and half-life: $$R = \frac{0.693N}{t_{1/2}}$$. First, convert the activity to Bq, then solve for the number of nuclei N. Finally, convert the number of nuclei to mass using the molar mass of $${}^{239}\text{Pu}$$ and Avogadro's number. The half-life of $${}^{239}\text{Pu}$$ is 24,120 years.
+We'll use the relationship between activity, number of nuclei, and half-life: $$R = \frac{0.693\text{ N}}{t_{1/2}}$$. First, convert the activity to Bq, then solve for the number of nuclei N. Finally, convert the number of nuclei to mass using the molar mass of $${}^{239}\text{Pu}$$ and Avogadro's number. The half-life of $${}^{239}\text{Pu}$$ is 24,120 years.
 
 **Solution**
 
@@ -986,7 +986,7 @@ This remarkably small mass of only 16.1 micrograms demonstrates the extreme radi
 {: class="glossary-title"}
 
 gray (Gy)
-: the SI unit for radiation dose which is defined to be $$1 Gy=1 J/kg=100 \text{rad} $$
+: the SI unit for radiation dose which is defined to be $$1 Gy=1\text{ J}/kg=100 \text{rad} $$
 
 linear hypothesis
 : assumption that risk is directly proportional to risk from high doses

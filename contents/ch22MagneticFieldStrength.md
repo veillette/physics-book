@@ -449,7 +449,7 @@ While Earth's magnetic field is crucial for navigation (compasses) and protects 
 
 **Strategy**
 
-We use the magnetic force equation $$F = qvB\sin\theta$$ and solve for the magnetic field $$B$$. The proton's charge is the elementary charge $$e = 1.60 \times 10^{-19}$$ C. We're given that $$\theta = 45°$$, so we include the $$\sin(45°)$$ factor.
+We use the magnetic force equation $$F = qvB\sin\theta$$ and solve for the magnetic field $$B$$. The proton's charge is the elementary charge $$e = 1.60 \times 10^{-19}$$ C. We're given that $$\theta = 45\text{ °}$$, so we include the $$\sin(45\text{ °})$$ factor.
 
 **Solution**
 

@@ -53,7 +53,7 @@ exist. [[Table 1]](#Table1) lists characteristics of the six quark flavors that
 are now thought to exist. Discoveries made since 1963 have required extra quark
 flavors, which are divided into three families quite analogous to leptons.
 
-### How Does it Work?
+### How Does it Work
 
 To understand how these quark substructures work, let us specifically examine
 the proton, neutron, and the two pions pictured in [[Figure 1]](#Figure1) before
@@ -550,7 +550,6 @@ substructure.
 
 ![In the figure the track of particles in electron-positron collider is shown/](../resources/Figure_33_05_04.jpg "Simulation of a proton-proton collision at 14-TeV center-of-mass energy in the ALICE detector at CERN LHC. The lines follow particle trajectories and the cyan dots represent the energy depositions in the sensitive detector elements. (credit: Matev&#x17E; Tadel) ")
 {: #Figure4}
-
 
 ### Quarks Have Their Ups and Downs
 

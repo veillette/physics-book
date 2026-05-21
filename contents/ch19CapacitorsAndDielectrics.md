@@ -120,7 +120,7 @@ farad is a coulomb per volt, or
 
 A 1-farad capacitor would be able to store 1 coulomb (a very large amount of
 charge) with the application of only 1 volt. One farad is, thus, a very large
-capacitance. Typical capacitors range from fractions of a picofarad $$\left(1 \text{pF}=10^{-12} \text{F}\right) $$ to millifarads $$\left(1 \text{mF}=10^{-3} \text{F}\right) $$. 
+capacitance. Typical capacitors range from fractions of a picofarad $$\left(1 \text{pF}=10^{-12} \text{F}\right) $$ to millifarads $$\left(1 \text{mF}=10^{-3} \text{F}\right) $$.
 
 [[Figure 3]](#Figure3) shows some common capacitors. Capacitors are primarily
 made of ceramic, glass, or plastic, depending upon purpose and size. Insulating
@@ -816,7 +816,7 @@ Find the capacitance of a parallel plate capacitor having plates of area  $$ 5.0
 <div class="solution" markdown="1">
 **Strategy**
 
-For a parallel plate capacitor with a dielectric material between the plates, the capacitance is given by $$C = \kappa\epsilon_0 A/d$$, where $$\kappa$$ is the dielectric constant. From Table 1, Teflon has $$\kappa = 2.1$$.
+For a parallel plate capacitor with a dielectric material between the plates, the capacitance is given by $$C = \kappa\epsilon_0\text{ A}/d$$, where $$\kappa$$ is the dielectric constant. From Table 1, Teflon has $$\kappa = 2.1$$.
 
 **Solution**
 
@@ -855,7 +855,7 @@ The capacitance of the parallel plate capacitor with 5.00 m² plates separated b
 <div class="solution" markdown="1">
 **Strategy**
 
-This is a two-part problem. Part (a) requires calculating the capacitance using $$C = \kappa\epsilon_0 A/d$$ with neoprene rubber as the dielectric ($$\kappa = 6.7$$ from Table 1). Part (b) uses the capacitance from part (a) to find the stored charge via $$Q = CV$$.
+This is a two-part problem. Part (a) requires calculating the capacitance using $$C = \kappa\epsilon_0\text{ A}/d$$ with neoprene rubber as the dielectric ($$\kappa = 6.7$$ from Table 1). Part (b) uses the capacitance from part (a) to find the stored charge via $$Q = CV$$.
 
 **Solution**
 
@@ -964,7 +964,7 @@ This is an "Unreasonable Results" problem designed to develop critical thinking.
 
 **Solution**
 
-**(a)** First, calculate the capacitance using $$C = \kappa\epsilon_0 A/d$$ with $$\kappa = 3.4$$ for nylon:
+**(a)** First, calculate the capacitance using $$C = \kappa\epsilon_0\text{ A}/d$$ with $$\kappa = 3.4$$ for nylon:
 
 $$C = \kappa\epsilon_0 \frac{A}{d}$$
 

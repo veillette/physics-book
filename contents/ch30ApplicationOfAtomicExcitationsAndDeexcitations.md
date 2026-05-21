@@ -615,7 +615,7 @@ Some of the most powerful lasers are based on the energy levels of neodymium in 
 
 **Strategy**
 
-From [[Figure 18]](#Figure18), we see that neodymium has energy levels at 0 eV (ground state), 0.50 eV, 1.67 eV (metastable state), and a group of levels around 2.1 eV. For part (a), we need the energy to pump atoms from ground state (0 eV) to the group above the metastable state (2.1 eV), then calculate the wavelength using $$ \lambda = \frac{hc}{E} $$ . For part (b), we verify that the 1.17 eV transition (from 1.67 eV metastable state to 0.50 eV first excited state) produces 1.06 μm radiation using $$ hc = 1240 \text{ eV·nm} $$ .
+From [[Figure 18]](#Figure18), we see that neodymium has energy levels at 0 eV (ground state), 0.50 eV, 1.67 eV (metastable state), and a group of levels around 2.1 eV. For part (a), we need the energy to pump atoms from ground state (0 eV) to the group above the metastable state (2.1 eV), then calculate the wavelength using $$ \lambda = \frac{hc}{E} $$ . For part (b), we verify that the 1.17\text{ eV} transition (from 1.67\text{ eV} metastable state to 0.50\text{ eV} first excited state) produces 1.06 μm radiation using $$ hc = 1240 \text{ eV·nm} $$ .
 
 **Solution**
 

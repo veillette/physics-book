@@ -971,7 +971,7 @@ Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm
 
 **Strategy**
 
-We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and solve for the temperature difference $$\Delta T$$. From Example 2, we know the rate of heat transfer is 2256 J/s and the area is $$1.54 \times 10^{-2} \text{ m}^2$$. The thermal conductivity of ceramic is the same as glass and brick (0.84 J/s·m·ºC from Table 1).
+We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and solve for the temperature difference $$\Delta T$$. From Example 2, we know the rate of heat transfer is 2256\text{ J}/s and the area is $$1.54 \times 10^{-2} \text{ m}^2$$. The thermal conductivity of ceramic is the same as glass and brick (0.84 J/s·m·ºC from Table 1).
 
 **Solution**
 

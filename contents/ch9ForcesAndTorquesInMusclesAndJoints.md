@@ -31,15 +31,15 @@ to joints, causing these systems to have mechanical advantages much less than
 one. Viewing them as simple machines, the input force is much greater than the
 output force, as seen in [Figure 1](#Figure1).
 
-![A forearm of a person holding a physics book is shown. The biceps and 
-triceps muscles of the arm are visible. The elbow joint is the pivot point. 
-The upper part of the arm is vertical and the lower part is horizontal. 
-Biceps muscles are applying a force F B upward. The vertical bone of hand 
-exerts a force F E on the pivot. At the midpoint of the lower part of the 
-hand, the center of gravity of the hand is shown where the weight of the 
-hand acts. The midpoint of the front face of the book is its center of 
-gravity, where its weight acts downward. A free body diagram is also shown 
-and the distances of the three forces F-B, C-G of arm, and C-G of book from 
+![A forearm of a person holding a physics book is shown. The biceps and
+triceps muscles of the arm are visible. The elbow joint is the pivot point.
+The upper part of the arm is vertical and the lower part is horizontal.
+Biceps muscles are applying a force F B upward. The vertical bone of hand
+exerts a force F E on the pivot. At the midpoint of the lower part of the
+hand, the center of gravity of the hand is shown where the weight of the
+hand acts. The midpoint of the front face of the book is its center of
+gravity, where its weight acts downward. A free body diagram is also shown
+and the distances of the three forces F-B, C-G of arm, and C-G of book from
 the pivot are shown as r one, r two and r three.](../resources/Figure_09_06_01.jpg "(a) The figure shows the forearm of a
 person holding a book. The biceps exert a force \( F_B \) to support the
 weight of the forearm and the book. The triceps are assumed to be relaxed. (b) Here, you can view an approximately equivalent mechanical system with the pivot at the elbow joint as seen in <a href="#example1">Example 1</a>.")
@@ -209,7 +209,7 @@ in the figure may be taken to be accurate to three significant figures.
 By now, we sense that the second condition for equilibrium is a good place to
 start, and inspection of the known values confirms that it can be used to solve
 for $$ F_{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
-created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_{\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_{\text{B}}– $$ is counterclockwise. 
+created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_{\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_{\text{B}}– $$ is counterclockwise.
 
 **Solution for (a)**
 

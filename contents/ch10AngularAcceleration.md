@@ -56,7 +56,7 @@ expressed as follows:
  $$ \alpha =\frac{ \Delta \omega }{\Delta t}, $$
 </div>
 
-where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ is the change in time. The units of angular acceleration are $$ \left(\rads \right)\text{/s} $$, or $$ \radss $$. If $$ \omega $$ increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$ \alpha $$ is negative. 
+where $$ \Delta \omega $$ is the **change in angular velocity** and $$ \Delta t $$ is the change in time. The units of angular acceleration are $$ \left(\rads \right)\text{/s} $$, or $$ \radss $$. If $$ \omega $$ increases, then $$ \alpha $$ is positive. If $$ \omega $$ decreases, then $$ \alpha $$ is negative.
 
 <div class="example" markdown="1">
 <div class="title">

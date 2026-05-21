@@ -27,7 +27,7 @@ utilization of electromagnetic waves is found in [[Table 1]](#Table1).
             <th data-align="center">Life sciences aspect</th>
             <th data-align="center">Issues</th>
           </tr>
-        </thead><tbody> 
+        </thead><tbody>
           <tr>
             <td>Radio &amp; TV</td>
             <td>Accelerating charges</td>
@@ -1253,7 +1253,7 @@ This can also be expressed as:
 <div class="title">
 Discussion
 </div>
-This frequency of $$2.00 \times 10^{13}$$ Hz falls in the mid-infrared region of the electromagnetic spectrum. Infrared radiation spans from just beyond visible red light (around 760 nm or $$4 \times 10^{14}$$ Hz) down to microwave frequencies (around 1 mm or $$3 \times 10^{11}$$ Hz). This particular wavelength of 15.0 μm is significant because it's in the thermal infrared range—objects near room temperature (around 300 K) emit peak radiation at wavelengths around 10 μm according to Wien's displacement law. This is why thermal imaging cameras are sensitive to wavelengths in the 8-14 μm range.
+This frequency of $$2.00 \times 10^{13}$$ Hz falls in the mid-infrared region of the electromagnetic spectrum. Infrared radiation spans from just beyond visible red light (around 760\text{ nm} or $$4 \times 10^{14}$$ Hz) down to microwave frequencies (around 1\text{ mm} or $$3 \times 10^{11}$$ Hz). This particular wavelength of 15.0 μm is significant because it's in the thermal infrared range—objects near room temperature (around 300 K) emit peak radiation at wavelengths around 10 μm according to Wien's displacement law. This is why thermal imaging cameras are sensitive to wavelengths in the 8-14 μm range.
 
 This wavelength is also important in astronomy and atmospheric science because it corresponds to a relatively transparent "atmospheric window"—wavelengths where Earth's atmosphere doesn't strongly absorb infrared radiation. Water vapor and carbon dioxide in the atmosphere absorb strongly at some infrared wavelengths but less so at others, creating these windows that allow astronomers to observe cool celestial objects and that affect Earth's energy balance and climate.
 
@@ -1315,7 +1315,7 @@ For even better resolution, electron microscopes use the wave nature of electron
 <div class="title">
 Final Answer
 </div>
-The smallest detail observable with a UV microscope using $$1.20 \times 10^{15}$$ Hz ultraviolet light is approximately 250 nm or $$2.50 \times 10^{-7}$$ m.
+The smallest detail observable with a UV microscope using $$1.20 \times 10^{15}$$ Hz ultraviolet light is approximately 250\text{ nm} or $$2.50 \times 10^{-7}$$ m.
 
 </div>
 </div>
@@ -1459,7 +1459,7 @@ These incredibly short times—3.33 picoseconds for 1 mm and 33.3 picoseconds fo
 
 To put this in perspective, in one picosecond, light travels only 0.3 mm (about the thickness of a few sheets of paper). This is why synchronizing signals in modern computer processors (which operate at gigahertz frequencies with nanosecond clock periods) requires careful attention to the physical distances signals must travel on the chip—even centimeter-scale distances introduce measurable delays.
 
-The frequency given in the problem ($$3 \times 10^{18}$$ Hz) corresponds to "hard" X-rays with a wavelength of about 0.1 nm ($$\lambda =c/f$$), which is on the order of atomic spacings. Such X-rays are used in medical imaging and materials analysis because they can penetrate matter while still interacting enough to create useful images or diffraction patterns.
+The frequency given in the problem ($$3 \times 10^{18}$$ Hz) corresponds to "hard" X-rays with a wavelength of about 0.1\text{ nm} ($$\lambda =c/f$$), which is on the order of atomic spacings. Such X-rays are used in medical imaging and materials analysis because they can penetrate matter while still interacting enough to create useful images or diffraction patterns.
 
 <div class="title">
 Final Answer
@@ -1676,7 +1676,7 @@ The electric field of 13.0 kV/m is quite strong—significantly higher than the 
 <div class="title">
 Final Answer
 </div>
-(a) The wavelength is $$6.00 \times 10^{6}$$ m or 6000 km. (b) The maximum magnetic field strength is $$4.33 \times 10^{-5}$$ T.
+(a) The wavelength is $$6.00 \times 10^{6}$$ m or 6000\text{ km}. (b) The maximum magnetic field strength is $$4.33 \times 10^{-5}$$ T.
 
 </div>
 </div>
@@ -2275,7 +2275,7 @@ The magnetic field strength of 1.7 μT in the thermal radiation is very weak—a
 <div class="title">
 Final Answer
 </div>
-(a) The rate of heat transfer through radiation is $$3.5 \times 10^{2}$$ W/m² or 350 W/m². (b) This is 88% of the absorbed solar radiation. (c) The maximum magnetic field strength is $$1.7 \text{ }\mu\text{T}$$.
+(a) The rate of heat transfer through radiation is $$3.5 \times 10^{2}$$ W/m² or 350\text{ W}/m². (b) This is 88% of the absorbed solar radiation. (c) The maximum magnetic field strength is $$1.7 \text{ }\mu\text{T}$$.
 
 </div>
 </div>

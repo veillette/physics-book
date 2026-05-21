@@ -404,7 +404,7 @@ Check Your Understanding
   <div class="equation" >
    $$\Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \Delta t}_{0}, $$
   </div>
-     where   
+     where
   <div class="equation" >
    $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}. $$
   </div>
@@ -541,7 +541,7 @@ $$\Delta t = \gamma \Delta t_0 = (2.294)(2.60 \times 10^{-8} \text{ s}) = 5.96 \
 
 **Discussion**
 
-The pion lives about 2.3 times longer as observed in the laboratory compared to its rest frame. This time dilation allows the pion to travel much farther before decaying: $$d = v\Delta t = (2.70 \times 10^8)(5.96 \times 10^{-8}) \approx 16.1$$ m in the lab frame, versus only about 7 m if there were no time dilation. This extended lifetime is crucial for detecting short-lived particles in accelerator experiments. The velocity $$v = 0.900c$$ places this pion firmly in the relativistic regime, where classical mechanics would give completely incorrect predictions for its range and detection probability.
+The pion lives about 2.3 times longer as observed in the laboratory compared to its rest frame. This time dilation allows the pion to travel much farther before decaying: $$d = v\Delta t = (2.70 \times 10^8)(5.96 \times 10^{-8}) \approx 16.1$$ m in the lab frame, versus only about 7\text{ m} if there were no time dilation. This extended lifetime is crucial for detecting short-lived particles in accelerator experiments. The velocity $$v = 0.900c$$ places this pion firmly in the relativistic regime, where classical mechanics would give completely incorrect predictions for its range and detection probability.
 
 </div>
 </div>
@@ -640,7 +640,7 @@ A neutron lives 900 s when at rest relative to an observer. How fast is the neut
 
 **Strategy**
 
-The neutron's rest lifetime (900 s) is the proper time $$\Delta t_0$$, and the observed lifetime (2065 s) is the dilated time $$\Delta t$$. From $$\Delta t = \gamma \Delta t_0$$, we can find $$\gamma$$, then solve for the velocity $$v$$.
+The neutron's rest lifetime (900 s) is the proper time $$\Delta t_0$$, and the observed lifetime (2065\text{ s}) is the dilated time $$\Delta t$$. From $$\Delta t = \gamma \Delta t_0$$, we can find $$\gamma$$, then solve for the velocity $$v$$.
 
 **Solution**
 
@@ -719,7 +719,7 @@ $$v = c\sqrt{0.0197} = 0.140c$$
 
 **Discussion**
 
-At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000 km/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
+At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000\text{ km}/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
 
 </div>
 </div>

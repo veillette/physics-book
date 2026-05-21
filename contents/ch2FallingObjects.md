@@ -379,7 +379,7 @@ Kinematics of an Elevator
 </div>
 The three kinematic variables, position, velocity, and acceleration are all related. See how they evolve graphically.
 <figure markdown="1">
-<iframe loading="lazy" src="https://ccny-physics-sims.github.io/sims/plot-elevator/" 
+<iframe loading="lazy" src="https://ccny-physics-sims.github.io/sims/plot-elevator/"
 width ="600" height="1000" allowfullscreen ></iframe >
 <figcaption>
 Kinematics of an Elevator
@@ -763,7 +763,7 @@ She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above th
 
 **Strategy**
 
-Take upward as positive. The swimmer launches upward from the diving board with initial velocity $$ v_0 = 4.00 \ms $$, reaches a maximum height, then falls through the air until her feet hit the water 1.80 m below the starting point. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+Take upward as positive. The swimmer launches upward from the diving board with initial velocity $$ v_0 = 4.00 \ms $$, reaches a maximum height, then falls through the air until her feet hit the water 1.80\text{ m} below the starting point. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
 **Solution**
 
@@ -1966,13 +1966,13 @@ $$ t = \frac{10.0 + 77.33}{9.80} = \frac{87.33}{9.80} = 8.91 \s $$
 
 **Discussion**
 
-This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0}{9.80} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300)}{9.80}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
+This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0}{9.80} = 1.02 \s $$, rising an additional 5.10\text{ m} to reach 305\text{ m}. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2\text{ m}/s. The total time to hit the ground (8.91\text{ s}) is longer than it would be if dropped from rest at 300\text{ m} (which would take $$ \sqrt{\frac{2(300)}{9.80}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
 
 **Answer**
 
 (a) The maximum height reached by the coin is 305 m above the ground.
 
-(b) At $$ t = 4.00 \s $$ after release, the coin is at a position of 262 m above the ground and has a velocity of $$ 29.2 \ms $$ downward.
+(b) At $$ t = 4.00 \s $$ after release, the coin is at a position of 262\text{ m} above the ground and has a velocity of $$ 29.2 \ms $$ downward.
 
 (c) The coin hits the ground 8.91 s after being released from the balloon.
 

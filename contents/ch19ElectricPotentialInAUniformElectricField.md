@@ -72,7 +72,7 @@ $$
 V_\text{AB}=Ed \\
 E=\frac{ V_\text{AB} }{d}
 \end{array}
-\left( \text{uniform} E \text{-field only,} \right)  
+\left( \text{uniform} E \text{-field only,} \right)
 \end{array} $$
 
 </div>
@@ -244,10 +244,10 @@ electric field.
     <div class="equation" >
 $$ \begin{array}{c}
     \begin{array}{c}
-    V_\text{AB}=Ed \\ 
+    V_\text{AB}=Ed \\
     E=\frac{ V_\text{AB} }{d}
     \end{array}
-    \left( \text{uniform} E \text{-field only,} \right)  
+    \left( \text{uniform} E \text{-field only,} \right)
 \end{array} $$
     </div>
      where $$d $$ is the distance from A to B, or the distance between the plates.

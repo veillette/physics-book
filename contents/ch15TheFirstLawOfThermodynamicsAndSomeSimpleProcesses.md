@@ -438,7 +438,7 @@ A helium-filled toy balloon has a gauge pressure of 0.200 atm and a volume of 10
 
 **Strategy**
 
-This problem is similar to the tire problem. For helium (a monatomic gas with 3 degrees of freedom), the internal energy at constant volume is $$U = \frac{3}{2}PV$$. The difference in internal energy between the pressurized balloon and zero gauge pressure is $$\Delta U = \frac{3}{2}P_{\text{gauge}}V$$. We need to convert units: 1 atm = $$1.013 \times 10^{5}$$ Pa and 1 L = $$10^{-3}$$ m³.
+This problem is similar to the tire problem. For helium (a monatomic gas with 3 degrees of freedom), the internal energy at constant volume is $$U = \frac{3}{2}PV$$. The difference in internal energy between the pressurized balloon and zero gauge pressure is $$\Delta U = \frac{3}{2}P_{\text{gauge}}V$$. We need to convert units: 1 atm = $$1.013 \times 10^{5}$$ Pa and 1\text{ L} = $$10^{-3}$$ m³.
 
 **Solution**
 

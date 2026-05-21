@@ -79,7 +79,7 @@ The slope of the graph of position $$ x $$ vs. time $$ t $$ is velocity $$ v $$.
 <div class="equation">
  $$ \text{slope}=\frac{ \Delta x}{\Delta t}=v $$
 </div>
-Notice that this equation is the same as that derived algebraically from other motion equations 
+Notice that this equation is the same as that derived algebraically from other motion equations
 in [Motion Equations for Constant Acceleration in One Dimension](./ch2MotionEquationsForConstantAccelerationInOneDimension).
 
 </div>
@@ -148,7 +148,7 @@ as if measured with a stopwatch), and the position and velocity are initially
 (c) Acceleration has the constant value of (5.0 \\mss ) over the time interval plotted.')
 {: #Figure3}
 
-![](../resources/Figure_02_08_04.jpg 'A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)')
+![A U.S. Air Force jet car speeding down a track](../resources/Figure_02_08_04.jpg 'A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)')
 {: #Figure4}
 
 The graph of position versus time in [Figure 3](#Figure3)(a) is a curve rather than

@@ -383,7 +383,7 @@ How far apart must two point charges of 75.0 nC (typical of static electricity) 
 
 **Strategy**
 
-We need to find the separation distance $$r$$ that produces a force of 1.00 N between two charges of 75.0 nC each. We can rearrange Coulomb's law to solve for $$r$$: $$r = \sqrt{\frac{k\mid q_1 q_2 \mid}{F}}$$.
+We need to find the separation distance $$r$$ that produces a force of 1.00\text{ N} between two charges of 75.0 nC each. We can rearrange Coulomb's law to solve for $$r$$: $$r = \sqrt{\frac{k\mid q_1 q_2 \mid}{F}}$$.
 
 **Solution**
 

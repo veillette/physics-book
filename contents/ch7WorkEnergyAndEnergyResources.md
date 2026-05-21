@@ -29,7 +29,6 @@ discovered new forms of energy, conservation of energy has always been found to
 apply. Perhaps the most dramatic example of this was supplied by Einstein when
 he suggested that mass is equivalent to energy (his famous equation $$ E=mc^{2} $$
 
-
 ).
 
 From a societal viewpoint, energy is one of the major building blocks of modern

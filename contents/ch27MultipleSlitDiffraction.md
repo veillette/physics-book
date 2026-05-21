@@ -110,7 +110,7 @@ once a value for the slit spacing  $$d $$
 
 **Solution for (a)**
 
-The distance between slits is $$d=\left(1 cm\right)/10 000= 1.00 \times 10^{-4} \text{cm} $$ or $$ 1.00 \times 10^{-6} \text{m} $$ . Let us call the two angles
+The distance between slits is $$d=\left(1\text{ cm}\right)/10 000= 1.00 \times 10^{-4} \text{cm} $$ or $$ 1.00 \times 10^{-6} \text{m} $$ . Let us call the two angles
 $${\theta }_{\text{V}} $$ for violet (380 nm) and $${\theta }_{\text{R}} $$ for
 red (760 nm). Solving the equation $$d\sin {\theta }_{\text{V}}=\mathrm{m\lambda } $$ for $$\sin {\theta }_{\text{V}} $$ ,
 

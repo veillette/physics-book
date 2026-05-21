@@ -259,7 +259,7 @@ where  $$n $$
 1. Identify the knowns and convert them to the proper units:
 
 1. temperature $$T=20\text{ºC}=293 \text{K} $$
-1. vapor pressure $$P $$ of water at $$20\text{ºC} $$  
+1. vapor pressure $$P $$ of water at $$20\text{ºC} $$
    is $$ 2.33 \times 10^{3} \text{Pa} $$
 1. molecular mass of water is $$ 18.0 \text{g/mol} $$ { type="a"}
 
@@ -282,7 +282,7 @@ where  $$n $$
 
 The density is obtained by assuming a pressure equal to the vapor pressure of
 water at $$ 20.0\text{ºC} $$ . The density found is identical to the value
-in [[Table 1]](#Table1), which means that a vapor density of $$ 17.2 {\text{g/m}}^{3} $$ at $$ 20.0\text{ºC} $$ creates a partial pressure of $$ 2.33 \times 10^{3} \text{Pa} \text{,} $$ equal to the vapor pressure of water at that temperature. If the partial pressure is equal to the vapor pressure, then the liquid and vapor phases are in equilibrium, and the relative humidity is 100%. Thus, there can be no more than 17.2 g of water vapor per $${\text{m}}^{3} $$ at
+in [[Table 1]](#Table1), which means that a vapor density of $$ 17.2 {\text{g/m}}^{3} $$ at $$ 20.0\text{ºC} $$ creates a partial pressure of $$ 2.33 \times 10^{3} \text{Pa} \text{,} $$ equal to the vapor pressure of water at that temperature. If the partial pressure is equal to the vapor pressure, then the liquid and vapor phases are in equilibrium, and the relative humidity is 100%. Thus, there can be no more than 17.2\text{ g} of water vapor per $${\text{m}}^{3} $$ at
 $$ 20.0\text{ºC} $$ , so that this value is the saturation vapor density at that
 temperature. This example illustrates how water vapor behaves like an ideal gas:
 the pressure and density are consistent with the ideal gas law (assuming the

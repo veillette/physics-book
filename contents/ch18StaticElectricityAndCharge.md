@@ -155,7 +155,7 @@ separate charges. Chemical interactions may transfer negative charge from one
 substance to the other, making one battery terminal negative and leaving the
 first one positive.
 
-![](../resources/Figure_18_01_06.jpg 'When materials are rubbed together, charges can be separated, particularly if one material has a greater affinity for electrons than another. (a) Both the amber and cloth are originally neutral, with equal positive and negative charges. Only a tiny fraction of the charges are involved, and only a few of them are shown here. (b) When rubbed together, some negative charge is transferred to the amber, leaving the cloth with a net positive charge. (c) When separated, the amber and cloth now have net charges, but the absolute value of the net positive and negative charges will be equal.')
+![Diagram showing charge separation when amber and cloth are rubbed together in three stages](../resources/Figure_18_01_06.jpg 'When materials are rubbed together, charges can be separated, particularly if one material has a greater affinity for electrons than another. (a) Both the amber and cloth are originally neutral, with equal positive and negative charges. Only a tiny fraction of the charges are involved, and only a few of them are shown here. (b) When rubbed together, some negative charge is transferred to the amber, leaving the cloth with a net positive charge. (c) When separated, the amber and cloth now have net charges, but the absolute value of the net positive and negative charges will be equal.')
 {: #Figure6}
 
 No charge is actually created or destroyed when charges are separated as we have

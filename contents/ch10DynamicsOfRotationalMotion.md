@@ -134,7 +134,7 @@ Cut out a circle that has about a 10 cm radius from stiff cardboard. Near the ed
 
 <div class="note" data-label="" markdown="1">
 <div class="title">
-Problem-Solving Strategy for Rotational Dynamics 
+Problem-Solving Strategy for Rotational Dynamics
 </div>
 1.  *Examine the situation to determine that torque and mass are involved in the rotation*. Draw a careful sketch of the situation.
 2.  *Determine the system of interest*.
@@ -652,7 +652,7 @@ The friction barely affects the angular acceleration because it acts very close 
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Consider the 12.0 kg motorcycle wheel shown in [Figure 6](#Figure6). Assume it 
+Consider the 12.0 kg motorcycle wheel shown in [Figure 6](#Figure6). Assume it
 to be approximately an annular ring with an inner radius of 0.280 m and an outer radius of 0.330 m. The motorcycle is on its center stand, so that the wheel can spin freely.
 (a) If the drive chain exerts a force of 2200 N at a radius of 5.00 cm, what is the angular acceleration of the wheel?
 (b) What is the tangential acceleration of a point on the outer edge of the tire?

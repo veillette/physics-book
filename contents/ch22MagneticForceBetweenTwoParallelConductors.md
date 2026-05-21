@@ -492,11 +492,11 @@ Direction: $$\theta = \arctan(0.50/2.60) = 10.9°$$ to left of up
 
 The geometry creates complex force patterns. Parallel currents attract, antiparallel repel. Vector addition is essential for multi-wire systems.
 
-**(a) Top wire: $$2.65 \times 10^{-4}$$ N/m at $$10.9°$$ to the left of straight up.**
+**(a) Top wire: $$2.65 \times 10^{-4}$$ N/m at $$10.9\text{ °}$$ to the left of straight up.**
 
-**(b) Lower left wire: $$3.61 \times 10^{-4}$$ N/m at $$13.9°$$ below the horizontal to the right.**
+**(b) Lower left wire: $$3.61 \times 10^{-4}$$ N/m at $$13.9\text{ °}$$ below the horizontal to the right.**
 
-**(c) Lower right wire: $$3.46 \times 10^{-4}$$ N/m at $$30.0°$$ below the horizontal to the left.**
+**(c) Lower right wire: $$3.46 \times 10^{-4}$$ N/m at $$30.0\text{ °}$$ below the horizontal to the left.**
 
 </div>
 </div>

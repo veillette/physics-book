@@ -392,7 +392,6 @@ PhET Explorations: Models of the Hydrogen Atom
 How did scientists figure out the structure of atoms without looking at them? Try out different models by shooting light at the atom. Check how the prediction of the model matches the experimental results.
 {: class="newline"}
 
-
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">

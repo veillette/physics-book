@@ -325,7 +325,7 @@ Thus,
 <div class="equation" >
  $$E=\left(\Delta m\right){c}^{2}=\left(0.003031 \text{u}\right){c}^{2}. $$
 </div>
-Using  $$1 u=931.5 MeV/{c}^{2} $$ ,
+Using  $$1 u=931.5\text{ MeV}/{c}^{2} $$ ,
  we obtain
 
 <div class="equation" >

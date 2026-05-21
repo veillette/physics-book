@@ -115,7 +115,7 @@ magnitudes and pointing in the correct directions. $$\vb{L} $$ and
 $${\vb{L}}_{z} $$ form a right triangle, with $$\vb{L} $$ being
 the hypotenuse and $${\vb{L}}_{z} $$ the adjacent side. This means
 that the ratio of $${\vb{L}}_{z} $$ to $$\vb{L} $$ is the cosine of the
-angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_{z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_{z}=m\frac{h}{2\pi } $$. 
+angle of interest. We can find $$\vb{L} $$ and $${\vb{L}}_{z} $$ using $$L=\sqrt{l\left(l+1\right)}\frac{h}{2\pi } $$ and $${L}_{z}=m\frac{h}{2\pi } $$.
 
 **Solution**
 

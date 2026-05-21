@@ -187,7 +187,7 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
     <div class="equation" >
 $$\begin{array}{lll}
     \Delta m& =& \frac{600 \text{C/s}\cdot \text{h} \left( \frac{3600 \text{s}}{1 \text{h}} \right) \left(12.0 \text{J/C}\right) }
-    { { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\\ 
+    { { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\\
 & =& \frac{\left( 2.16 \times 10^{6} \text{C}\right) \left(12.0 \text{J/C}\right)}{ { \left( 3.00 \times 10^{8} \text{m/s}\right)}^{2}}\end{array} $$
     </div>
 
@@ -290,7 +290,7 @@ So, in fact, relativistic kinetic energy does become the same as classical
 kinetic energy when $$v \ll c $$.
 
 It is even more interesting to investigate what happens to kinetic energy when
-the velocity of an object approaches the speed of light. We know that $$\gamma $$ becomes infinite as $$v$$ approaches $$c$$ , so that $$ \text{KE}\_ \text{rel} $$ also becomes infinite as the velocity approaches the speed of 
+the velocity of an object approaches the speed of light. We know that $$\gamma $$ becomes infinite as $$v$$ approaches $$c$$ , so that $$ \text{KE}\_ \text{rel} $$ also becomes infinite as the velocity approaches the speed of
 light. (See [[Figure 3]](#Figure3).) An infinite amount of work (and, hence, an
 infinite amount of energy input) is required to accelerate a mass to the speed
 of light.
@@ -487,7 +487,7 @@ Answer
 - The relativistic work-energy theorem is $${W}_{\text{net}}=E-{E}_{0}=\gamma mc^{2}-mc^{2}=\left(\gamma -1\right)mc^{2} $$ .
 - Relativistically, $${W}_{\text{net}}={\text{KE}}_{\text{rel}} $$ , where
   $${\text{KE}}\_{\text{rel}} $$ is the relativistic kinetic energy.
-- Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$. At low velocities, relativistic kinetic energy reduces to 
+- Relativistic kinetic energy is $${\text{KE}}_{\text{rel}}=\left(\gamma -1\right)mc^{2} $$ , where $$\gamma =\frac{1}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}} $$. At low velocities, relativistic kinetic energy reduces to
   classical kinetic energy.
 - **No object with mass can attain the speed of light** because an infinite
   amount of work and an infinite amount of energy input is required to
@@ -797,7 +797,7 @@ There is approximately  $${10}^{34} \text{J} $$
 
 **Strategy**
 
-(a) Use $$E = \Delta mc^2$$ to find mass decrease. (b) If 0.08% of water mass is converted, the total water mass involved is $$m_{\text{water}} = \Delta m / 0.0008$$. Convert to volume using water density (1000 kg/m³). (c) Compare to ocean mass (~$$1.4 \times 10^{21}$$ kg).
+(a) Use $$E = \Delta mc^2$$ to find mass decrease. (b) If 0.08% of water mass is converted, the total water mass involved is $$m_{\text{water}} = \Delta m / 0.0008$$. Convert to volume using water density (1000\text{ kg}/m³). (c) Compare to ocean mass (~$$1.4 \times 10^{21}$$ kg).
 
 **Solution**
 
@@ -883,7 +883,7 @@ A  $$\pi  $$
 
 **Strategy**
 
-Energy conservation: $$E_{\pi} = E_{\mu} + E_{\nu}$$. Since the $$\pi$$ is at rest, $$E_{\pi} = 139.6$$ MeV. The muon has rest energy 105.7 MeV plus kinetic energy. The missing mass-energy ($$139.6 - 105.7 = 33.9$$ MeV) goes into kinetic energy. Use $$KE = (\gamma - 1)mc^2$$ to find $$\gamma$$, then solve for $$v$$.
+Energy conservation: $$E_{\pi} = E_{\mu} + E_{\nu}$$. Since the $$\pi$$ is at rest, $$E_{\pi} = 139.6$$ MeV. The muon has rest energy 105.7\text{ MeV} plus kinetic energy. The missing mass-energy ($$139.6 - 105.7 = 33.9$$ MeV) goes into kinetic energy. Use $$KE = (\gamma - 1)mc^2$$ to find $$\gamma$$, then solve for $$v$$.
 
 **Solution**
 
@@ -927,7 +927,7 @@ The muon emerges traveling at about 65% the speed of light. This problem illustr
 
 **Strategy**
 
-In this hypothetical universe where $$c = 45.0$$ m/s, the car at 30 m/s is highly relativistic ($$v = 0.667c$$). Calculate $$\gamma$$ and use $$KE_{\text{rel}} = (\gamma - 1)mc^2$$. Compare to classical $$KE = \frac{1}{2}mv^2$$.
+In this hypothetical universe where $$c = 45.0$$ m/s, the car at 30\text{ m}/s is highly relativistic ($$v = 0.667c$$). Calculate $$\gamma$$ and use $$KE_{\text{rel}} = (\gamma - 1)mc^2$$. Compare to classical $$KE = \frac{1}{2}mv^2$$.
 
 **Solution**
 
@@ -953,9 +953,9 @@ $$\frac{KE_{\text{rel}}}{KE_{\text{class}}} = \frac{6.92 \times 10^5}{4.50 \time
 
 **Discussion**
 
-In this imaginary universe with $$c = 45$$ m/s (about 100 mph), everyday velocities would show dramatic relativistic effects! A car traveling at 30 m/s (67 mph) would have $$\gamma = 1.34$$, and its kinetic energy would be 54% greater than classical predictions. The driver would also age more slowly, observers would see the car contracted in length, and accelerating the car would get progressively harder as it approached 45 m/s.
+In this imaginary universe with $$c = 45$$ m/s (about 100\text{ mph}), everyday velocities would show dramatic relativistic effects! A car traveling at 30\text{ m}/s (67\text{ mph}) would have $$\gamma = 1.34$$, and its kinetic energy would be 54% greater than classical predictions. The driver would also age more slowly, observers would see the car contracted in length, and accelerating the car would get progressively harder as it approached 45 m/s.
 
-This thought experiment helps us understand why we don't notice relativity in daily life: in our universe with $$c = 3 \times 10^8$$ m/s, this same 30 m/s represents only $$10^{-7}c$$, giving $$\gamma = 1.0000000000005$$—indistinguishable from 1 for all practical purposes. Relativistic effects scale with $$v^2/c^2$$, so reducing $$c$$ from $$3 \times 10^8$$ to 45 m/s increases this ratio by a factor of $$10^{13}$$, making relativistic effects readily observable.
+This thought experiment helps us understand why we don't notice relativity in daily life: in our universe with $$c = 3 \times 10^8$$ m/s, this same 30\text{ m}/s represents only $$10^{-7}c$$, giving $$\gamma = 1.0000000000005$$—indistinguishable from 1 for all practical purposes. Relativistic effects scale with $$v^2/c^2$$, so reducing $$c$$ from $$3 \times 10^8$$ to 45\text{ m}/s increases this ratio by a factor of $$10^{13}$$, making relativistic effects readily observable.
 
 </div>
 </div>
@@ -1223,7 +1223,7 @@ One cosmic ray neutron has a velocity of  $$0.250c $$
 
 **Strategy**
 
-(a) Calculate $$\gamma$$ for $$v = 0.250c$$, then $$E = \gamma mc^2$$ where neutron rest energy is 939.6 MeV. (b) Use $$p = \gamma mv$$. (c) Compare $$E$$ to $$pc$$ and discuss using $$E^2 = (pc)^2 + (mc^2)^2$$.
+(a) Calculate $$\gamma$$ for $$v = 0.250c$$, then $$E = \gamma mc^2$$ where neutron rest energy is 939.6\text{ MeV}. (b) Use $$p = \gamma mv$$. (c) Compare $$E$$ to $$pc$$ and discuss using $$E^2 = (pc)^2 + (mc^2)^2$$.
 
 **Solution**
 

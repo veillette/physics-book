@@ -126,7 +126,7 @@ p_{\text{yf} }=0
 \end{array}
 </div>
 Impulse is the change in momentum vector. Therefore the $$ x $$-component
-of impulse is equal to $$ -2 m u $$ and the $$ y $$-component
+of impulse is equal to $$ -2\text{ m} u $$ and the $$ y $$-component
 of impulse is equal to zero.
 
 Now consider the change in momentum of the second ball.
