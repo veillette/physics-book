@@ -82,7 +82,7 @@ compared to energy associated with temperature changes without a phase change.
             <th></th>
                 <th colspan="2" data-align="center">
               <strong><em>L<sub>v</sub></em></strong>
-            </th> 
+            </th>
            </tr></thead><tbody><tr>
             <td><strong>Substance</strong></td>
             <td><strong>Melting point (ºC)</strong></td>

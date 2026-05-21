@@ -587,7 +587,7 @@ b) Since the children are not moving:
 
 <div class="equation">
 $$ \begin{array}{}
-\text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\ 
+\text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\
 ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
 \end{array} $$
 </div>

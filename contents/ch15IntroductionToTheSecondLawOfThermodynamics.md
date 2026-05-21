@@ -162,7 +162,7 @@ Daily Work Done by a Coal-Fired Power Station, Its Efficiency and Carbon Dioxide
 </div>
 A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has  $$ 2.50 \times 10^{14} \text{J} $$
  of heat transfer from coal and  $$ 1.48 \times 10^{14} \text{J} $$
- of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: $$\text{C}+{\text{O}}_{2}\to {\text{CO}}_{2} $$. This implies that every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of carbon dioxide into the atmosphere. Assuming that 1 kg of coal can provide  $$ 2.5 \times 10^{6}  \text{J} $$
+ of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: $$\text{C}+{\text{O}}_{2}\to {\text{CO}}_{2} $$. This implies that every 12\text{ kg} of coal puts 12\text{ kg} + 16\text{ kg} + 16\text{ kg} = 44\text{ kg} of carbon dioxide into the atmosphere. Assuming that 1\text{ kg} of coal can provide  $$ 2.5 \times 10^{6}  \text{J} $$
  of heat transfer upon combustion, how much $${\text{CO}}_{2} $$ is emitted per day by this power plant?
 
 <strong> Strategy for (a)</strong>

@@ -147,7 +147,6 @@ length is $$f= -5.00 \text{cm} $$ and the power of the lens is $$P=-20 \text{D} 
 figure to illustrate how the shape of the lens, together with the law of
 refraction, causes the ray to follow its particular path and be diverged.
 
-
 ![The figure on the top shows an expanded view of refraction for ray 1 falling on a concave lens. The angle of incidence is theta 1 and angle of refraction theta 2. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. Perpendiculars are shown as dotted lines. The figure at the bottom shows a concave lens. Three rays, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. Rays 1 and 3 after refraction appear to come from a point F on the axis. The distance from the center of the lens to F is small f and is measured from the same side as the incident rays. Ray 2 on the axis goes undeviated.](../resources/Figure_25_06_03.jpg "Rays of light entering a diverging lens parallel to its axis are diverged, and all appear to originate at its focal point \( F \) . The dashed lines are not rays&#x2014;they indicate the directions from which the rays appear to come. The focal length \( f \) of a diverging lens is negative. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.")
 {: #Figure3}
 

@@ -362,7 +362,7 @@ Give reasons justifying the contention made in the text that energy from the fus
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-Verify that the total number of nucleons, total charge, and electron family number are conserved for each of the fusion reactions in the proton-proton cycle in 
+Verify that the total number of nucleons, total charge, and electron family number are conserved for each of the fusion reactions in the proton-proton cycle in
 {: class="newline"}
 
 <div class="equation" >

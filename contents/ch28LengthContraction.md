@@ -379,7 +379,7 @@ The sports car would have to be traveling at 40% the speed of light, or approxim
 
 (b) 0.433 km
 
-(c) $$\begin{array}{}L=\frac{ {L}_{0}}{\gamma }=\frac{1.387 \times 10^{3} \text{m}}{3.20}\\ & =& 433.4 m=0.433 \text{km}\end{array} $$ Thus, the distances
+(c) $$\begin{array}{}L=\frac{ {L}_{0}}{\gamma }=\frac{1.387 \times 10^{3} \text{m}}{3.20}\\ & =& 433.4\text{ m}=0.433 \text{km}\end{array} $$ Thus, the distances
 in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
 </div>
@@ -421,7 +421,7 @@ $$L = \frac{L_0}{\gamma} = \frac{33.0 \text{ m}}{1.0013} = 33.0 \text{ m}$$
 
 **Discussion**
 
-At only 5% the speed of light, relativistic effects are minuscule. The time dilation factor $$\gamma = 1.0013$$ means the muon lives only 0.13% longer than its rest lifetime, and the distances in parts (b) and (c) are essentially identical (both 33.0 m to three significant figures). This demonstrates that at low velocities ($$v \ll c$$), relativistic and classical predictions converge. The muon would travel only 33 meters before decaying—much less than the distance in the high-speed example where $$v = 0.950c$$ and the muon traveled over 2000 meters due to significant time dilation.
+At only 5% the speed of light, relativistic effects are minuscule. The time dilation factor $$\gamma = 1.0013$$ means the muon lives only 0.13% longer than its rest lifetime, and the distances in parts (b) and (c) are essentially identical (both 33.0\text{ m} to three significant figures). This demonstrates that at low velocities ($$v \ll c$$), relativistic and classical predictions converge. The muon would travel only 33 meters before decaying—much less than the distance in the high-speed example where $$v = 0.950c$$ and the muon traveled over 2000 meters due to significant time dilation.
 
 </div>
 </div>
@@ -476,7 +476,7 @@ $$v = c\sqrt{0.1639} = 0.405c$$
 
 $$v = (0.405)(3.00 \times 10^8 \text{ m/s}) = 1.21 \times 10^8 \text{ m/s}$$
 
-(b) **Yes, this is entirely consistent** with the fact that relativistic effects are difficult to observe in ordinary circumstances. The athlete would need to run at 40.5% the speed of light—over 121 million meters per second! For comparison, the world record 100-m sprint is run at about 10 m/s, which is $$3.3 \times 10^{-8}c$$. At this actual speed, the relativistic contraction would be utterly negligible—far less than the size of an atomic nucleus. Even if the athlete could somehow run at 1000 m/s (faster than a rifle bullet), the velocity would still be only $$3.3 \times 10^{-6}c$$, producing immeasurably small relativistic effects.
+(b) **Yes, this is entirely consistent** with the fact that relativistic effects are difficult to observe in ordinary circumstances. The athlete would need to run at 40.5% the speed of light—over 121 million meters per second! For comparison, the world record 100-m sprint is run at about 10 m/s, which is $$3.3 \times 10^{-8}c$$. At this actual speed, the relativistic contraction would be utterly negligible—far less than the size of an atomic nucleus. Even if the athlete could somehow run at 1000\text{ m}/s (faster than a rifle bullet), the velocity would still be only $$3.3 \times 10^{-6}c$$, producing immeasurably small relativistic effects.
 
 **Discussion**
 

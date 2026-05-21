@@ -79,7 +79,7 @@ temperatures and pressures.
             <th colspan="2">Critical pressure</th>
           </tr>
 <tr>
-<th></th>            
+<th></th>
 <th>
                $$\text{K} $$
             </th>

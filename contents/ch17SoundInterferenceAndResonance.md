@@ -1141,7 +1141,7 @@ Calculate the first overtone in an ear canal, which resonates like a 2.40-cm-lon
 <div class="solution" markdown="1">
 **Strategy**
 
-For a tube closed at one end, the first overtone is the third harmonic ($$n=3$$). The resonant frequencies follow $$f_n = n\frac{v_w}{4L}$$ where $$n = 1, 3, 5,...$$ We first need to calculate the speed of sound at body temperature (37.0°C), then use $$n=3$$ to find the first overtone frequency.
+For a tube closed at one end, the first overtone is the third harmonic ($$n=3$$). The resonant frequencies follow $$f_n = n\frac{v_w}{4\text{ L}}$$ where $$n = 1, 3, 5,...$$ We first need to calculate the speed of sound at body temperature (37.0\text{ °C}), then use $$n=3$$ to find the first overtone frequency.
 
 **Solution**
 

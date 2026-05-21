@@ -1063,7 +1063,7 @@ $$v_t = 40.3 \text{ m/s} \approx 145 \text{ km/h or } 90 \text{ mph}$$
 
 **Discussion**
 
-The terminal velocity formula is $$v_t = \sqrt{\frac{2mg}{\rho A}}$$, and for a typical skydiver in spread-eagle position, the terminal velocity is approximately **40 m/s** (about 90 mph). This matches real-world skydiving experience—skydivers falling belly-down reach terminal velocities of 50-60 m/s. By tucking into a pike position (head-first, arms at sides), a skydiver reduces $$A$$ to about 0.15 m², increasing terminal velocity to over 90 m/s (200 mph), which is why position control is crucial for skydiving. Note that $$v_t \propto \sqrt{m/A}$$, so heavier skydivers or those in more streamlined positions fall faster.
+The terminal velocity formula is $$v_t = \sqrt{\frac{2\text{ mg}}{\rho A}}$$, and for a typical skydiver in spread-eagle position, the terminal velocity is approximately **40\text{ m}/s** (about 90\text{ mph}). This matches real-world skydiving experience—skydivers falling belly-down reach terminal velocities of 50-60\text{ m}/s. By tucking into a pike position (head-first, arms at sides), a skydiver reduces $$A$$ to about 0.15\text{ m}², increasing terminal velocity to over 90\text{ m}/s (200\text{ mph}), which is why position control is crucial for skydiving. Note that $$v_t \propto \sqrt{m/A}$$, so heavier skydivers or those in more streamlined positions fall faster.
 </div>
 </div>
 

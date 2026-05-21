@@ -241,7 +241,7 @@ $$n = 14.3 - 0.5 = 13.8 \approx 14$$
 
 **Discussion**
 
-The LiBr molecule's vibrational energy levels are separated by 0.070 eV. This is a typical value for molecular vibrations, corresponding to infrared frequencies around $$10^{13}$$ Hz. A molecule with 1.0 eV of vibrational energy would be in approximately the $$n = 14$$ quantum state.
+The LiBr molecule's vibrational energy levels are separated by 0.070 eV. This is a typical value for molecular vibrations, corresponding to infrared frequencies around $$10^{13}$$ Hz. A molecule with 1.0\text{ eV} of vibrational energy would be in approximately the $$n = 14$$ quantum state.
 
 This illustrates how quantum mechanics applies to molecules: they can only vibrate with specific, quantized energies. At room temperature (thermal energy ~0.025 eV), LiBr molecules would typically be in low quantum states ($$n = 0, 1, 2$$), making them good approximations to quantum oscillators. The spacing of 0.070 eV is large compared to thermal energy, so quantum effects are observable in molecular spectroscopy.
 

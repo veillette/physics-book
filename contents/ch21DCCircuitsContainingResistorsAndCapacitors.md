@@ -668,11 +668,11 @@ Using the exact exponential treatment, find how much time is required to dischar
 <div class="solution" markdown="1">
 **Strategy**
 
-Use the exponential discharge formula $$V = V_0 e^{-t/RC}$$ and solve for the time when $$V = 0.0100 V_0$$.
+Use the exponential discharge formula $$V = V_0 e^{-t/RC}$$ and solve for the time when $$V = 0.0100\text{ V}_0$$.
 
 **Solution**
 
-From $$V = V_0 e^{-t/RC}$$, when $$V = 0.0100 V_0$$:
+From $$V = V_0 e^{-t/RC}$$, when $$V = 0.0100\text{ V}_0$$:
 <div class="equation">
 $$0.0100 V_0 = V_0 e^{-t/RC}$$
 </div>
@@ -717,11 +717,11 @@ Using the exact exponential treatment, find how much time is required to charge 
 <div class="solution" markdown="1">
 **Strategy**
 
-Use $$V = V_0(1 - e^{-t/RC})$$ and solve for $$t$$ when $$V = 0.900 V_0$$.
+Use $$V = V_0(1 - e^{-t/RC})$$ and solve for $$t$$ when $$V = 0.900\text{ V}_0$$.
 
 **Solution**
 
-From $$V = V_0(1 - e^{-t/RC})$$, when $$V = 0.900 V_0$$:
+From $$V = V_0(1 - e^{-t/RC})$$, when $$V = 0.900\text{ V}_0$$:
 <div class="equation">
 $$0.900 = 1 - e^{-t/RC}$$
 </div>

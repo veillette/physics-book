@@ -191,7 +191,7 @@ second law we see that
 <div class="equation">
 $$ F_{\text{net}}=ma , $$
 </div>
-where the mass of System 2 is 19.0 kg ( $$ m $$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $$ a=1.5\mss $$ in the previous example. Thus,
+where the mass of System 2 is 19.0 kg ( $$ m $$ = 12.0\text{ kg} + 7.0\text{ kg}) and its acceleration was found to be $$ a=1.5\mss $$ in the previous example. Thus,
 
 <div class="equation">
 $$ F_{\text{net}}=ma , $$

@@ -122,7 +122,7 @@ expression for $$ \ac $$ gives
 
 **Discussion**
 
-To compare this with the acceleration due to gravity $$ \left( g=9.80\mss \right) $$, we take the ratio of $$ \ac/g=\left( 1.25\mss \right) /\left(9.80\mss \right) =0.128 $$. Thus, $$ \ac=0.128 g $$ and is noticeable especially if you were not 
+To compare this with the acceleration due to gravity $$ \left( g=9.80\mss \right) $$, we take the ratio of $$ \ac/g=\left( 1.25\mss \right) /\left(9.80\mss \right) =0.128 $$. Thus, $$ \ac=0.128\text{ g} $$ and is noticeable especially if you were not
 wearing a seat belt.
 
 </div>

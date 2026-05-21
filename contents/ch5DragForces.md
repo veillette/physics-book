@@ -454,7 +454,7 @@ Assume all values are accurate to three significant digits.
 
 **Strategy**
 
-We assume both skydivers have similar body proportions, so their frontal areas in pike position are similar. A reasonable assumption for pike position is $$ A \approx 0.14 \mm $$ (as in the previous problem). We use $$ C = 0.70 $$, $$ \rho = 1.21 \text{ kg/m}^3 $$. Once we find terminal velocities, the time to fall 6000 m is simply $$ t = d/v_t $$ (since we're told to assume they reach terminal velocity quickly).
+We assume both skydivers have similar body proportions, so their frontal areas in pike position are similar. A reasonable assumption for pike position is $$ A \approx 0.14 \mm $$ (as in the previous problem). We use $$ C = 0.70 $$, $$ \rho = 1.21 \text{ kg/m}^3 $$. Once we find terminal velocities, the time to fall 6000\text{ m} is simply $$ t = d/v_t $$ (since we're told to assume they reach terminal velocity quickly).
 
 **Solution**
 
@@ -548,7 +548,7 @@ $$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98} = 9.9 \ms $$
 
 **Discussion**
 
-The squirrel's terminal velocity is estimated to be in the range of $$ 10-25 \ms $$ depending on body position, while a 56-kg person falling 5.0 m without air resistance hits the ground at $$ 9.9 \ms $$. The remarkable conclusion is that the squirrel can safely survive any fall because its terminal velocity is relatively low and it has evolved to absorb such impacts. Meanwhile, the person hits the ground at nearly 10 m/s from just a 5-m fall—fast enough to risk broken bones. This illustrates why small animals can survive falls from great heights: their large surface-area-to-mass ratio results in low terminal velocities.
+The squirrel's terminal velocity is estimated to be in the range of $$ 10-25 \ms $$ depending on body position, while a 56-kg person falling 5.0\text{ m} without air resistance hits the ground at $$ 9.9 \ms $$. The remarkable conclusion is that the squirrel can safely survive any fall because its terminal velocity is relatively low and it has evolved to absorb such impacts. Meanwhile, the person hits the ground at nearly 10 m/s from just a 5-m fall—fast enough to risk broken bones. This illustrates why small animals can survive falls from great heights: their large surface-area-to-mass ratio results in low terminal velocities.
 
 </div>
 </div>
@@ -620,7 +620,7 @@ $$ F_{\text{D}} = \frac{1}{2}(0.64)(1.21)(2.44)(772) = 729 \N $$
 
 **Discussion**
 
-The drag forces are: Toyota Camry: $$ 44.8 \N $$ at 70 km/h and $$ 91.4 \N $$ at 100 km/h. Hummer H2: $$ 357 \N $$ at 70 km/h and $$ 729 \N $$ at 100 km/h. The Hummer H2 experiences about 8 times more drag than the Camry due to its much larger frontal area (3.5×) and higher drag coefficient (2.3×). This explains the significant difference in fuel efficiency between these vehicles, especially at highway speeds where drag dominates. Note that drag roughly doubles when speed increases from 70 to 100 km/h (since drag is proportional to v²).
+The drag forces are: Toyota Camry: $$ 44.8 \N $$ at 70\text{ km}/h and $$ 91.4 \N $$ at 100\text{ km}/h. Hummer H2: $$ 357 \N $$ at 70\text{ km}/h and $$ 729 \N $$ at 100 km/h. The Hummer H2 experiences about 8 times more drag than the Camry due to its much larger frontal area (3.5×) and higher drag coefficient (2.3×). This explains the significant difference in fuel efficiency between these vehicles, especially at highway speeds where drag dominates. Note that drag roughly doubles when speed increases from 70 to 100 km/h (since drag is proportional to v²).
 
 </div>
 </div>
@@ -649,7 +649,7 @@ $$ = \left(\frac{110}{65}\right)^2 = (1.692)^2 = 2.86 \approx 2.9 $$
 
 **Discussion**
 
-The drag force increases by a factor of $$ 2.9 $$ when speed increases from 65 to 110 km/h. This nearly tripling of drag force explains why fuel efficiency drops dramatically at highway speeds. Since power required equals force times velocity, the power needed to overcome drag increases even more dramatically—by a factor of about $$ 2.9 \times (110/65) = 4.9 $$! This is why maintaining highway speed limits significantly improves fuel economy.
+The drag force increases by a factor of $$ 2.9 $$ when speed increases from 65 to 110\text{ km}/h. This nearly tripling of drag force explains why fuel efficiency drops dramatically at highway speeds. Since power required equals force times velocity, the power needed to overcome drag increases even more dramatically—by a factor of about $$ 2.9 \times (110/65) = 4.9 $$! This is why maintaining highway speed limits significantly improves fuel economy.
 
 </div>
 </div>

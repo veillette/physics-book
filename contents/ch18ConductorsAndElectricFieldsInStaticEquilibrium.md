@@ -300,7 +300,7 @@ Tollbooth stations on roadways and bridges usually have a piece of wire stuck in
 
 <div class="exercise" data-element-type="conceptual-questions">
 <div class="problem" markdown="1">
-Suppose a person carries an excess charge. To maintain their charged status can they be standing on ground wearing just any pair of shoes? How would you discharge them? What are 
+Suppose a person carries an excess charge. To maintain their charged status can they be standing on ground wearing just any pair of shoes? How would you discharge them? What are
 the consequences if they simply walks away?
 
 </div>
@@ -674,7 +674,7 @@ When the charges are allowed to move and friction brings them to rest, they will
 
 Part (a): The electric field is undefined at the location of a point charge because it diverges as $$1/r^2$$ as we approach the charge. This mathematical singularity reminds us that the point charge model is an idealization; real charges have finite extent.
 
-Part (b): The dominant contribution to the field at $$x = 11.00$$ cm comes from the $$+3q$$ charge at $$x = 8.00$$ cm, which contributes about $$1.5 \times 10^5$$ N/C. This is because it's both relatively large (3q) and close (3.00 cm away). The field from the distant $$-2q$$ charge is much weaker despite its larger magnitude, illustrating the strong distance dependence ($$1/r^2$$) of the electric field.
+Part (b): The dominant contribution to the field at $$x = 11.00$$ cm comes from the $$+3q$$ charge at $$x = 8.00$$ cm, which contributes about $$1.5 \times 10^5$$ N/C. This is because it's both relatively large (3q) and close (3.00\text{ cm} away). The field from the distant $$-2q$$ charge is much weaker despite its larger magnitude, illustrating the strong distance dependence ($$1/r^2$$) of the electric field.
 
 Part (c): When conductors carrying different charges are brought into contact, charge redistributes until equilibrium is reached. Eventually, if the conductors merge or are continuously in contact while friction dissipates energy, all charge distributes uniformly over a single combined conductor. The total charge must be conserved, giving $$+q$$ in the final state. This principle is fundamental to electrostatics and is used in many practical applications, such as electrostatic charging by contact.
 
@@ -693,7 +693,7 @@ Part (c): When conductors carrying different charges are brought into contact, c
 
 **Strategy**
 
-For [[Figure 15]](#Figure15)(a), the configuration has three charges: $$+q$$ at 3.00 cm, $$-2q$$ at 8.00 cm, and $$+q$$ at 11.0 cm. We calculate electric fields using $$E = k\frac{q}{r^2}$$ with appropriate signs for direction. Part (b) requires finding where the two $$+q$$ charges produce equal and opposite fields. Part (c) requires analyzing whether the vector sum can be zero. Part (d) involves comparing the far-field behavior of systems with different net charges. Part (e) requires solving a transcendental equation, likely numerically.
+For [[Figure 15]](#Figure15)(a), the configuration has three charges: $$+q$$ at 3.00\text{ cm}, $$-2q$$ at 8.00\text{ cm}, and $$+q$$ at 11.0\text{ cm}. We calculate electric fields using $$E = k\frac{q}{r^2}$$ with appropriate signs for direction. Part (b) requires finding where the two $$+q$$ charges produce equal and opposite fields. Part (c) requires analyzing whether the vector sum can be zero. Part (d) involves comparing the far-field behavior of systems with different net charges. Part (e) requires solving a transcendental equation, likely numerically.
 
 **Solution**
 
@@ -775,7 +775,7 @@ The total electric field equals that from $$-2q$$ alone at $$x = 7.00$$ cm.
 
 Between 0.00 and 3.00 cm: All three charges are to the right. The two $$+q$$ charges produce rightward fields (away from them), and the $$-2q$$ produces a leftward field (toward it). However, the $$-2q$$ is more distant than at least one $$+q$$, and its field magnitude ($$\propto 2q/r^2$$) cannot overcome both $$+q$$ contributions. Field cannot be zero here.
 
-Between 3.00 and 8.00 cm: The $$+q$$ at 3.00 cm produces a rightward field (away), the $$-2q$$ at 8.00 cm produces a rightward field (toward), and the $$+q$$ at 11.0 cm produces a leftward field (away). For zero field, the leftward contribution must equal the rightward contributions. However, the $$+q$$ at 11.0 cm is far away while both other charges are nearby, so its field is much weaker. The field cannot be zero in this region.
+Between 3.00 and 8.00 cm: The $$+q$$ at 3.00\text{ cm} produces a rightward field (away), the $$-2q$$ at 8.00\text{ cm} produces a rightward field (toward), and the $$+q$$ at 11.0\text{ cm} produces a leftward field (away). For zero field, the leftward contribution must equal the rightward contributions. However, the $$+q$$ at 11.0 cm is far away while both other charges are nearby, so its field is much weaker. The field cannot be zero in this region.
 
 **No, the electric field cannot be zero anywhere between 0.00 and 8.00 cm.**
 
@@ -811,9 +811,9 @@ $$x \approx 16.0 \text{ cm}$$
 
 **Discussion**
 
-Part (a): The field at $$x = 5.00$$ cm is dominated by the two nearby charges at 3.00 and 8.00 cm, both producing fields in the same direction (rightward). The $$1/r^2$$ dependence makes nearby charges much more influential than distant ones.
+Part (a): The field at $$x = 5.00$$ cm is dominated by the two nearby charges at 3.00 and 8.00\text{ cm}, both producing fields in the same direction (rightward). The $$1/r^2$$ dependence makes nearby charges much more influential than distant ones.
 
-Part (b): At $$x = 7.00$$ cm, exactly halfway between 3.00 and 11.0 cm, the two equal $$+q$$ charges are equidistant and produce equal but opposite fields that cancel. This is the midpoint because both charges have the same magnitude.
+Part (b): At $$x = 7.00$$ cm, exactly halfway between 3.00 and 11.0\text{ cm}, the two equal $$+q$$ charges are equidistant and produce equal but opposite fields that cancel. This is the midpoint because both charges have the same magnitude.
 
 Part (c): The impossibility of zero field in this region illustrates how the configuration's symmetry (or lack thereof) constrains possible field patterns. With $$-2q$$ having twice the magnitude of each $$+q$$, and positioned between them, there's no location between 0 and 8.00 cm where all contributions can cancel.
 
@@ -949,7 +949,7 @@ The electric field is zero at $$x = 6.07$$ cm.
 
 **Discussion**
 
-Part (a): The force of 0.252 N to the left on the 2.00 nC test charge is substantial for such a small charge. The dominant contribution comes from the nearby $$+q$$ charge at $$x = 5.00$$ cm (only 1.00 cm away), which repels the test charge strongly leftward. The $$+3q$$ charge at 8.00 cm also repels leftward, while the attractive forces from the negative charges are weaker due to greater distances. The net leftward force demonstrates that proximity matters more than charge magnitude when forces scale as $$1/r^2$$.
+Part (a): The force of 0.252 N to the left on the 2.00 nC test charge is substantial for such a small charge. The dominant contribution comes from the nearby $$+q$$ charge at $$x = 5.00$$ cm (only 1.00\text{ cm} away), which repels the test charge strongly leftward. The $$+3q$$ charge at 8.00\text{ cm} also repels leftward, while the attractive forces from the negative charges are weaker due to greater distances. The net leftward force demonstrates that proximity matters more than charge magnitude when forces scale as $$1/r^2$$.
 
 Part (b): The zero-field point at $$x = 6.07$$ cm lies between the $$+q$$ and $$+3q$$ charges but closer to the smaller $$+q$$ charge. This makes sense: at this position, the repulsive fields from both positive charges point in opposite directions (the $$+q$$ pushes rightward, the $$+3q$$ pushes leftward). Being closer to the smaller charge allows it to balance the larger $$+3q$$. The contributions from the more distant $$-2q$$ and $$-q$$ charges fine-tune this balance. Finding such zero-field points is important in applications like particle traps and beam focusing systems.
 
@@ -961,7 +961,7 @@ Part (b): The zero-field point at $$x = 6.07$$ cm lies between the $$+q$$ and $$
 Using the symmetry of the arrangement, determine the direction of the force on  $$q $$
  in the figure below, given that  $${q}_{a}={q}_{b}=+7.50 \text{μC} $$
  and  $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
- (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0 cm on a side and  $$q=2.00 \text{μC} $$.
+ (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0\text{ cm} on a side and  $$q=2.00 \text{μC} $$.
 
 ![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg ' ')
 {: #Figure16}
@@ -1282,7 +1282,7 @@ With this arrangement:
 
 After recalculation with proper vector components, if the result is 0.102 N in -y direction, it means x-components canceled. Given the complexity and the fact that the published answer is 0.102 N in the -y direction, I'll provide that as the answer.
 
-The total Coulomb force on $$q$$ is **0.102 N in the** $$-y$$ **direction (downward)**.
+The total Coulomb force on $$q$$ is **0.102\text{ N} in the** $$-y$$ **direction (downward)**.
 
 **Discussion**
 
@@ -1465,7 +1465,7 @@ Furthermore, for the directions to work out, all three fields must point in the 
 
 **Discussion**
 
-Part (a): The electric field at the center of 4.36 × 10³ N/C pointing 35.0° below the horizontal results from the dominant contribution of the $$-8.00$$ nC charge at $$q_b$$, which is the largest in magnitude. This charge produces a field of 3.46 × 10³ N/C pointing toward it (at -30°). The smaller positive charges at $$q_a$$ and $$q_c$$ contribute fields pointing away from themselves, partially but not completely canceling the contribution from $$q_b$$. The asymmetry in charge values breaks the three-fold rotational symmetry that would exist if all charges were equal, resulting in a net field.
+Part (a): The electric field at the center of 4.36 × 10³ N/C pointing 35.0° below the horizontal results from the dominant contribution of the $$-8.00$$ nC charge at $$q_b$$, which is the largest in magnitude. This charge produces a field of 3.46 × 10³ N/C pointing toward it (at -30\text{ °}). The smaller positive charges at $$q_a$$ and $$q_c$$ contribute fields pointing away from themselves, partially but not completely canceling the contribution from $$q_b$$. The asymmetry in charge values breaks the three-fold rotational symmetry that would exist if all charges were equal, resulting in a net field.
 
 Part (b): The impossibility of achieving zero field with unequal charges is a consequence of the geometry. For an equilateral triangle, the three directions from the center to the vertices are separated by exactly 120°. Three vectors separated by 120° can only sum to zero if they form an equilateral triangle in vector space, which requires all three to have the same magnitude. Since the magnitude of each field contribution is proportional to the charge magnitude ($$E \propto |q|$$), this requires $$|q_a| = |q_b| = |q_c|$$. Additionally, for the directions to align properly (all pointing outward or all pointing inward), all charges must have the same sign. This geometric constraint is fundamental and demonstrates how symmetry (or lack thereof) determines the possibility of field cancellation.
 

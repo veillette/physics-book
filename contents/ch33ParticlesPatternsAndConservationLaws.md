@@ -869,7 +869,7 @@ The primary decay mode for the negative pion is  $${\pi }^{-}\to {\mu }^{-}+{\st
 
 **Strategy**
 
-The energy released in a decay is the difference between the initial mass energy and the final mass energies. From the particle tables, we need the masses of the $${\pi}^{-}$$ and $${\mu}^{-}$$. The muon antineutrino $${\stackrel{-}{\nu}}_{\mu}$$ is essentially massless. Using [[Table 1]](#Table1), the $${\pi}^{-}$$ has a mass of 139.6 MeV/$$c^2$$ and the $${\mu}^{-}$$ has a mass of 105.7 MeV/$$c^2$$.
+The energy released in a decay is the difference between the initial mass energy and the final mass energies. From the particle tables, we need the masses of the $${\pi}^{-}$$ and $${\mu}^{-}$$. The muon antineutrino $${\stackrel{-}{\nu}}_{\mu}$$ is essentially massless. Using [[Table 1]](#Table1), the $${\pi}^{-}$$ has a mass of 139.6\text{ MeV}/$$c^2$$ and the $${\mu}^{-}$$ has a mass of 105.7\text{ MeV}/$$c^2$$.
 
 **Solution**
 
@@ -920,7 +920,7 @@ The decay mode of the negative muon is  $${\mu }^{-}\to {e}^{-}+{\stackrel{-}{\n
 
 **Strategy**
 
-For part (a), we need to find the mass difference between the initial and final particles. The muon mass is 105.7 MeV/$$c^2$$ and the electron mass is 0.511 MeV/$$c^2$$. Both neutrinos are essentially massless. For part (b), we check conservation of charge and the three lepton family numbers ($$L_e$$, $$L_{\mu}$$, $$L_{\tau}$$).
+For part (a), we need to find the mass difference between the initial and final particles. The muon mass is 105.7 MeV/$$c^2$$ and the electron mass is 0.511\text{ MeV}/$$c^2$$. Both neutrinos are essentially massless. For part (b), we check conservation of charge and the three lepton family numbers ($$L_e$$, $$L_{\mu}$$, $$L_{\tau}$$).
 
 **Solution**
 

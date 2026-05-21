@@ -5,7 +5,7 @@ sectionNumber: 0
 chapterNumber: 10
 ---
 
-![](../resources/Figure_10_00_01.jpg 'The mention of a tornado conjures up images of raw destructive power. Tornadoes blow houses away as if they were made of paper and have been known to pierce tree trunks with pieces of straw. They descend from clouds in funnel-like shapes that spin violently, particularly at the bottom where they are most narrow, producing winds as high as 500 km/h. (credit: Daphne Zaras, U.S. National Oceanic and Atmospheric Administration)')
+![A tornado descending from clouds in a funnel-like shape, spinning violently at the bottom](../resources/Figure_10_00_01.jpg 'The mention of a tornado conjures up images of raw destructive power. Tornadoes blow houses away as if they were made of paper and have been known to pierce tree trunks with pieces of straw. They descend from clouds in funnel-like shapes that spin violently, particularly at the bottom where they are most narrow, producing winds as high as 500 km/h. (credit: Daphne Zaras, U.S. National Oceanic and Atmospheric Administration)')
 {: #Figure1}
 
 Why do tornadoes spin at all? And why do tornadoes spin so rapidly? The answer is

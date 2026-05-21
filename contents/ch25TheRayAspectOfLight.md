@@ -30,7 +30,7 @@ The word “ray” comes from mathematics and here means a straight line that or
 
 </div>
 
-![](../resources/Figure_25_01_01.jpg 'Three methods for light to travel from a source to another location. (a) Light reaches the upper atmosphere of Earth traveling through empty space directly from the source. (b) Light can reach a person in one of two ways. It can travel through media like air and glass. It can also reflect from an object like a mirror. In the situations shown here, light interacts with objects large enough that it travels in straight lines, like a ray.')
+![Diagram showing three methods for light to travel from a source to another location: through empty space, through media, and by reflection](../resources/Figure_25_01_01.jpg 'Three methods for light to travel from a source to another location. (a) Light reaches the upper atmosphere of Earth traveling through empty space directly from the source. (b) Light can reach a person in one of two ways. It can travel through media like air and glass. It can also reflect from an object like a mirror. In the situations shown here, light interacts with objects large enough that it travels in straight lines, like a ray.')
 {: #Figure1}
 
 Experiments, as well as our own experiences, show that when light interacts with

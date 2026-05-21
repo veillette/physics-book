@@ -11,7 +11,7 @@ chapterNumber: 13
 * Use Avogadro’s number to convert between number of molecules and number of moles.
 </div>
 
-![](../resources/Figure_13_03_01.jpg 'The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)')
+![A hot air balloon flying over Putrajaya, Malaysia, buoyed upward by hotter air inside](../resources/Figure_13_03_01.jpg 'The air inside this hot air balloon flying over Putrajaya, Malaysia, is hotter than the ambient air. As a result, the balloon experiences a buoyant force pushing it upward. (credit: Kevin Poh, Flickr)')
 {: #Figure1}
 
 In this section, we continue to explore the thermal behavior of gases. In
@@ -100,7 +100,7 @@ number N of atoms and molecules_.
 Calculating Pressure Changes Due to Temperature Changes: Tire Pressure
 </div>
 Suppose your bicycle tire is fully inflated, with an absolute pressure of  $$ 7.00 \times 10^{5}  \text{Pa} $$
- (a gauge pressure of just under  $$ 90.0 {\text{lb/in}}^{2} $$ ) 
+ (a gauge pressure of just under  $$ 90.0 {\text{lb/in}}^{2} $$ )
 at a temperature of  $$ 18.0\text{ºC} $$ .
  What is the pressure after its temperature has risen to  $$ 35.0\text{ºC} $$ ?
  Assume that there are no appreciable leaks or changes in volume.

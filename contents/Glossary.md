@@ -32,7 +32,7 @@ uncertainty in position | | $${\epsilon }_{0} $$ | permittivity of free space |
 | $$\eta $$ | viscosity | | $$\theta $$ | angle between the force vector and the
 displacement vector | | $$\theta $$ | angle between two lines | | $$\theta $$ |
 contact angle | | $$\theta $$ | direction of the resultant | | $${\theta }_{b} $$ | Brewster\'s angle | | $${\theta }_{c} $$ | critical angle | | $$\kappa $$ |
-dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_{0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | | 
+dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_{0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | |
 $${\nu}_{e} $$ | electron neutrino | | $${\pi }^{+} $$ | positive pion | |
 $${\pi }^{-} $$ | negative pion | | $${\pi }^{0} $$ | neutral pion | | $$\rho $$
 | density | | $${\rho }_{\text{c} } $$ | critical density, the density needed to
@@ -94,7 +94,7 @@ green quark color | | $$\overline{G} $$ | antigreen (magenta) antiquark color |
 | $$g $$ | acceleration due to gravity | | $$g $$ | gluons (carrier particles
 for strong nuclear force) | | $$h $$ | change in vertical position | | $$h $$ |
 height above some reference point | | $$h $$ | maximum height of a projectile |
-| $$h $$ | Planck\'s constant | | $$ hf $$ | photon energy | | $${h}_{\text{i}} $$ | height of the image | | $${h}_{\text{o}} $$ | height of the object | | $$I $$ | electric current | | $$I $$ | intensity | | $$I $$ | intensity of a transmitted wave | | $$I $$ | moment of inertia (also called rotational inertia) 
+| $$h $$ | Planck\'s constant | | $$ hf $$ | photon energy | | $${h}_{\text{i}} $$ | height of the image | | $${h}_{\text{o}} $$ | height of the object | | $$I $$ | electric current | | $$I $$ | intensity | | $$I $$ | intensity of a transmitted wave | | $$I $$ | moment of inertia (also called rotational inertia)
 | | $${I}_{0} $$ | intensity of a polarized wave before passing through a filter
 | | $${I}_{\text{ave}} $$ | average intensity for a continuous sinusoidal
 electromagnetic wave | | $${I}_{\text{rms}} $$ | average current | | $$\text{J} $$ | joule | | $$J/\text{Ψ} $$ | Joules/psi meson | | $$\text{K} $$ | kelvin | |
@@ -132,7 +132,7 @@ Reynolds number | | $$\text{N}\cdot \text{m} $$ | newton-meter (work-energy
 unit) | | $$\text{N}\cdot \text{m} $$ | newtons times meters (SI unit of torque)
 | | $$\text{OE} $$ | other energy | | $$P $$ | power | | $$P $$ | power of a
 lens | | $$P $$ | pressure | | $$\vb{p} $$ | momentum | | $$p $$ |
-momentum magnitude | | $$p $$ | relativistic momentum | | $${\vb{p}}_{\text{tot}} $$ | total momentum | | $${\vb{p}}_{\text{tot}}^{\text{'}} $$ | total momentum some time later | | $${P}_{\text{abs}} $$ | absolute pressure | | $${P}_{\text{atm}} $$ | atmospheric pressure | | $${P}_{\text{atm}} $$ | standard atmospheric pressure | | 
+momentum magnitude | | $$p $$ | relativistic momentum | | $${\vb{p}}_{\text{tot}} $$ | total momentum | | $${\vb{p}}_{\text{tot}}^{\text{'}} $$ | total momentum some time later | | $${P}_{\text{abs}} $$ | absolute pressure | | $${P}_{\text{atm}} $$ | atmospheric pressure | | $${P}_{\text{atm}} $$ | standard atmospheric pressure | |
 $$\text{PE} $$ | potential energy | | $${\text{PE}}_{\text{el}} $$ | elastic
 potential energy | | $${\text{PE}}_{\text{elec}} $$ | electric potential energy
 | | $${\text{PE}}_{\text{s}} $$ | potential energy of a spring | | $${P}_{\text{g}} $$ | gauge pressure | | $${P}_{\text{in}} $$ | power consumption or

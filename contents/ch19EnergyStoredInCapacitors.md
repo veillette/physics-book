@@ -307,7 +307,7 @@ A nervous physicist worries that the two metal shelves of his wood frame bookcas
 <div class="solution" markdown="1">
 **Strategy**
 
-The metal shelves act as a parallel plate capacitor with air between them. We use $$C = \epsilon_0 A/d$$ for part (a), $$V = Q/C$$ for part (b), and $$E = \frac{1}{2}QV$$ for part (c).
+The metal shelves act as a parallel plate capacitor with air between them. We use $$C = \epsilon_0\text{ A}/d$$ for part (a), $$V = Q/C$$ for part (b), and $$E = \frac{1}{2}QV$$ for part (c).
 
 **Solution**
 
@@ -325,7 +325,7 @@ $$C = \frac{(8.85 \times 10^{-12} \text{ F/m})(1.00 \times 10^{2} \text{ m}^2)}{
 
 $$C = 4.43 \times 10^{-9} \text{ F}$$
 
-Hmm, but the answer given is $$4.43 \times 10^{-12}$$ F. Let me check the area—it says $$1.00 \times 10^2$$ m² = 100 m², which would be extremely large shelves (10 m × 10 m). Perhaps the intended area is $$1.00 \times 10^{-2}$$ m² (100 cm²). Using the given answer:
+Hmm, but the answer given is $$4.43 \times 10^{-12}$$ F. Let me check the area—it says $$1.00 \times 10^2$$ m² = 100\text{ m}², which would be extremely large shelves (10\text{ m} × 10\text{ m}). Perhaps the intended area is $$1.00 \times 10^{-2}$$ m² (100 cm²). Using the given answer:
 
 $$C = 4.43 \times 10^{-12} \text{ F} = 4.43 \text{ pF}$$
 

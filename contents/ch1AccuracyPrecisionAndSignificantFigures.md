@@ -348,7 +348,7 @@ Perform the following calculations and express your answer using the correct num
 pounds. What is the total weight of the bags?
 
 (b) The force $$ F $$ on an object is equal to its mass $$ m $$ multiplied by
-its acceleration $$ a $$. If a wagon with mass 55 kg accelerates at a rate of $$ 0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
+its acceleration $$ a $$. If a wagon with mass 55\text{ kg} accelerates at a rate of $$ 0.0255\mss $$, what is the force on the wagon? (The unit of force is called the
 newton, and it is expressed with the symbol N.)
 
 </div>

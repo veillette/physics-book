@@ -116,7 +116,7 @@ solving for force and end up with units of m/s, then you have made a mistake.
      draw them on the free-body diagram.
   3. Write Newton’s second law in the horizontal and vertical directions and
      add the forces acting on the object. If the object does not accelerate in
- a particular direction (for example, the $$ x $$ -direction) then $$ F_{\text{net}x}=0 $$. If the object does accelerate in that direction, $$ F_{\text{net}x}=ma $$. 
+ a particular direction (for example, the $$ x $$ -direction) then $$ F_{\text{net}x}=0 $$. If the object does accelerate in that direction, $$ F_{\text{net}x}=ma $$.
   4. Check your answer. Is the answer reasonable? Are the units correct?
 
 ### Problem Exercises
@@ -679,8 +679,8 @@ Verification: $$ \sqrt{(17.3)^2 + (10.0)^2} = \sqrt{299 + 100} = \sqrt{399} = 20
 **(b) Commutative property:**
 
 Whether we add $$ \vb{F}_{1} + \vb{F}_{2} $$ or $$ \vb{F}_{2} + \vb{F}_{1} $$, the resultant is the same:
-- Method 1: Start with $$ \vb{F}_{1} $$ (right 17.3 N), then add $$ \vb{F}_{2} $$ (up 10.0 N) → resultant points to upper right
-- Method 2: Start with $$ \vb{F}_{2} $$ (up 10.0 N), then add $$ \vb{F}_{1} $$ (right 17.3 N) → same resultant
+- Method 1: Start with $$ \vb{F}_{1} $$ (right 17.3\text{ N}), then add $$ \vb{F}_{2} $$ (up 10.0 N) → resultant points to upper right
+- Method 2: Start with $$ \vb{F}_{2} $$ (up 10.0\text{ N}), then add $$ \vb{F}_{1} $$ (right 17.3 N) → same resultant
 
 Both paths end at the same point, demonstrating vector addition is commutative.
 
@@ -903,9 +903,9 @@ This problem demonstrates a clever mechanical advantage technique used when vehi
 
 <div class="exercise" data-element-type="problems-exercises">
 <div class="problem" markdown="1">
-What force is exerted on the tooth in the [Figure below](#Figure8) if the tension 
-in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire, 
-but this is necessitated by practical considerations of how force can be applied in the mouth. 
+What force is exerted on the tooth in the [Figure below](#Figure8) if the tension
+in the wire is 25.0 N? Note that the force applied to the tooth is smaller than the tension in the wire,
+but this is necessitated by practical considerations of how force can be applied in the mouth.
 Explicitly show how you follow steps in the Problem-Solving Strategy for Newton’s laws of motion.
 
 </div>
@@ -1029,8 +1029,8 @@ __(a) Free-body diagram:__
 Forces on the cart:
 
 - Applied force $$ \vb{F} $$ at 35.0° below horizontal
-  - Horizontal component: $$ F\cos(35.0°) $$ (forward)
-  - Vertical component: $$ F\sin(35.0°) $$ (downward)
+  - Horizontal component: $$ F\cos(35.0\text{ °}) $$ (forward)
+  - Vertical component: $$ F\sin(35.0\text{ °}) $$ (downward)
 - Friction $$ f = 60.0 \N $$ (backward, opposing motion)
 - Normal force $$ N $$ (upward from floor)
 - Weight $$ w = mg = (28.0)(9.80) = 274 \N $$ (downward)
@@ -1250,7 +1250,7 @@ Negative friction is physically impossible—friction always opposes relative mo
 
 __Unreasonable Results__
 
-(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00 \times 10^{6}\N $$ ? Do not neglect gravity. 
+(a) What is the initial acceleration of a rocket that has a mass of $$ 1.50 \times 10^{6}\kg $$ at takeoff, the engines of which produce a thrust of $$ 2.00 \times 10^{6}\N $$ ? Do not neglect gravity.
 (b) What is unreasonable about the result? (This result has been unintentionally
 achieved by several real rockets.)
 (c) Which premise is unreasonable, or which premises are inconsistent? (You may

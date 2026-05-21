@@ -52,7 +52,7 @@ them. The fun continues.
    consistent with less consuming, supermassive black holes at the center of
    older galaxies. New instruments are allowing us to see deeper into our own
    galaxy for evidence of our own massive black hole.
-6. _Where do the $$\gamma $$ bursts come from_? We see bursts of $$\gamma $$     
+6. _Where do the $$\gamma $$ bursts come from_? We see bursts of $$\gamma $$
    rays coming from all directions in space, indicating the sources are very
    distant objects rather than something associated with our own galaxy. Some
    $$\gamma $$  
@@ -72,7 +72,7 @@ them. The fun continues.
    connections_? Nonlinear phenomena lack a direct or linear proportionality
    that makes analysis and understanding a little easier. There are implications
    for nonlinear optics and broader topics such as chaos.
-3. _How do high- $${T}_{\text{c}} $$  
+3. _How do high- $${T}_{\text{c}} $$
    superconductors become resistanceless at such high temperatures\_?
    Understanding how they work may help make them more practical or may result
    in surprises as unexpected as the discovery of superconductivity itself.
@@ -116,7 +116,7 @@ them. The fun continues.
    having mass. The implications are significant, as discussed in this chapter.
    There are effects on the closure of the universe and on the patterns in
    particle physics.
-9. _What are the systematic characteristics of high- $$Z $$ nuclei_? All elements with $$Z=118 $$     
+9. _What are the systematic characteristics of high- $$Z $$ nuclei_? All elements with $$Z=118 $$
    or less (with the exception of 115 and 117) have now been discovered. It has
    long been conjectured that there may be an island of relative stability near
    $$Z=114 $$ , and the study of the most recently discovered nuclei will

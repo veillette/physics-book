@@ -141,7 +141,7 @@ Identify the known:
 
 3. Recall that $${W}_{\text{nc}}=-fd $$ .
 
-4. Enter the friction as $$f={\mu }_{\text{k}}mg $$  
+4. Enter the friction as $$f={\mu }_{\text{k}}mg $$
    into $${W}_{\text{nc}}=-fd $$ , thus
    <div class="equation" >
     $${W}_{\text{nc}}={-\mu }_{\text{k}} mgd. $$
@@ -152,7 +152,7 @@ Identify the known:
     $$\frac{1}{2}k\left({\left(\frac{ {\mu }_{k}mg}{k}\right)}^{2}-{X}^{2}\right)=-{\mu }_{\text{k}} mgd. $$
    </div>
 
-6. Solve the equation for $$d $$  
+6. Solve the equation for $$d $$
    \:
    <div class="equation" >
     $$d=\frac{\text{k}}{ {2\mu }_{\text{k}}mg}\left({X}^{2}-{\left(\frac{ {\mu }_{\text{k}}mg}{k}\right)}^{2}\right). $$
@@ -163,7 +163,7 @@ Identify the known:
     $$d=\frac{ 50.0 \text{N/m} }{2\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}\left({\left( 0.100 \text{m}\right)}^{2}-{\left(\frac{\left( 0.0800\right)\left( 0.200 \text{kg}\right)\left( 9.80 {\text{m/s}}^{2}\right)}{ 50.0 \text{N/m}}\right)}^{2}\right). $$
    </div>
 
-8. Calculate $$d $$  
+8. Calculate $$d $$
    and convert units:
    <div class="equation" >
     $$d= 1.59 \text{m}. $$

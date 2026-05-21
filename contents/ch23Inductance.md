@@ -242,7 +242,7 @@ How much energy is stored in the 0.632 mH inductor of the preceding example when
 
 **Strategy**
 
-The energy is given by the equation $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_{\text{ind}} $$ are known. 
+The energy is given by the equation $${E}_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$ , and all quantities except $${E}_{\text{ind}} $$ are known.
 
 **Solution**
 
@@ -358,7 +358,7 @@ Rearranging the mutual inductance equation to solve for $$M$$:
 $$M=\frac{\left|{\text{emf}}_{2}\right|}{\Delta I_1/\Delta t}$$
 </div>
 
-The change in current is $$\Delta I_1 = 5.00 \text{ A}$$ (from 5.00 A to zero), and the time interval is $$\Delta t = 1.00 \text{ ms} = 1.00 \times 10^{-3} \text{ s}$$. The induced emf is 9.00 V. Substituting:
+The change in current is $$\Delta I_1 = 5.00 \text{ A}$$ (from 5.00\text{ A} to zero), and the time interval is $$\Delta t = 1.00 \text{ ms} = 1.00 \times 10^{-3} \text{ s}$$. The induced emf is 9.00 V. Substituting:
 
 <div class="equation">
 $$M=\frac{9.00 \text{ V}}{5.00 \text{ A}/1.00 \times 10^{-3} \text{ s}}=\frac{9.00 \text{ V} \times 1.00 \times 10^{-3} \text{ s}}{5.00 \text{ A}}=1.80 \times 10^{-3} \text{ H}=1.80 \text{ mH}$$
@@ -1063,6 +1063,5 @@ inductor
 
 energy stored in an inductor
 : self-explanatory; calculated by $${E}\_{\text{ind}}=\frac{1}{2}{\text{LI}}^{2} $$
-
 
 </div>

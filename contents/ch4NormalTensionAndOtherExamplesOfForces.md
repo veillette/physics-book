@@ -198,7 +198,7 @@ of the weight components:
 $$ \begin{array}{lll}
 \cos\left(\theta \right)&=& \frac{ w_{\perp }}{w}\\
 w_{\perp }&=& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
-\end{array} $$ </div> <div class="equation"> $$ \begin{array}{lll} 
+\end{array} $$ </div> <div class="equation"> $$ \begin{array}{lll}
 \sin\left(\theta \right)&=& \frac{ w_{\parallel }}{w}\\
 w_{\parallel }&=& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
 \end{array} $$

@@ -60,7 +60,7 @@ where $${\lambda }_{\text{n}} $$ is the **wavelength in a medium** and that
 where $$\lambda $$ is the wavelength in vacuum and $$n $$ is the medium’s index
 of refraction. Therefore, the wavelength of light is smaller in any medium than
 it is in vacuum. In water, for example, which has $$n=1.333 $$ , the range of
-visible wavelengths is $$\left(380 \text{nm}\right)/1.333 $$ to $$\left(760 \text{nm}\right)/1.333 $$ , or $${\lambda }_{\text{n}}=285 \text{to} 570 \text{nm} $$ . Although wavelengths change while traveling from one medium to 
+visible wavelengths is $$\left(380 \text{nm}\right)/1.333 $$ to $$\left(760 \text{nm}\right)/1.333 $$ , or $${\lambda }_{\text{n}}=285 \text{to} 570 \text{nm} $$ . Although wavelengths change while traveling from one medium to
 another, colors do not, since colors are associated with frequency.
 
 ### Section Summary

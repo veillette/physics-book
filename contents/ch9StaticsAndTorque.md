@@ -22,8 +22,8 @@ velocity. There are forces acting, but they are balanced. That is, they are in _
 <div class="title">
 Statics
 </div>
-Statics is the study of forces in equilibrium, a large group of situations that makes up a 
-special case of Newton’s second law. We have already considered a few such situations; 
+Statics is the study of forces in equilibrium, a large group of situations that makes up a
+special case of Newton’s second law. We have already considered a few such situations;
 in this chapter, we cover the topic more thoroughly, including consideration of such possible
 effects as the rotation and deformation of an object by the forces acting on it.
 

@@ -37,7 +37,7 @@ functions. The BMR is a function of age, gender, total body weight, and amount
 of muscle mass (which burns more calories than body fat). Athletes have a
 greater BMR due to this last factor.
 
-#### Table 1: Basal Metabolic Rates (BMR) for a 76-kg person.
+#### Table 1: Basal Metabolic Rates (BMR) for a 76-kg person
 
 | Organ           | Power consumed at rest (W) | Oxygen consumption (mL/min) | Percent of BMR |
 | --------------- | -------------------------- | --------------------------- | -------------- |

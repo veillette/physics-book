@@ -484,7 +484,7 @@ The huge radiative power (17.6 kW total, 8.8 kW into room) demonstrates why:
 3. Fireplaces can be uncomfortably hot when sitting close
 4. The fourth-power temperature dependence makes hot embers incredibly effective radiators
 
-The cherry-red color indicates temperatures around 850ºC, confirming significant visible light emission. However, most radiated energy is still in the infrared (which we feel as heat but cannot see). The Stefan-Boltzmann law's $$T^4$$ dependence means the 1123 K embers radiate about $(1123/291)^4 \approx 230$ times more power per unit area than room-temperature objects.
+The cherry-red color indicates temperatures around 850ºC, confirming significant visible light emission. However, most radiated energy is still in the infrared (which we feel as heat but cannot see). The Stefan-Boltzmann law's $$T^4$$ dependence means the 1123\text{ K} embers radiate about $(1123/291)^4 \approx 230$ times more power per unit area than room-temperature objects.
 
 Modern fireplace inserts and stoves capture more of this heat through convection and conduction, making them much more efficient than open fireplaces where most heat escapes up the chimney.
 

@@ -12,7 +12,7 @@ chapterNumber: 13
 * Calculate thermal stress on an object given its original volume, temperature change, volume change, and bulk modulus.
 </div>
 
-![](../resources/Figure_13_02_01.jpg 'Thermal expansion joints like these in the Auckland Harbour Bridge in New Zealand allow bridges to change length without buckling. (credit: Ingolfson, Wikimedia Commons)')
+![Thermal expansion joints in the Auckland Harbour Bridge in New Zealand](../resources/Figure_13_02_01.jpg 'Thermal expansion joints like these in the Auckland Harbour Bridge in New Zealand allow bridges to change length without buckling. (credit: Ingolfson, Wikimedia Commons)')
 {: #Figure1}
 
 The expansion of alcohol in a thermometer is one of many commonly encountered
@@ -66,7 +66,7 @@ can be expressed in units of kelvins or degrees Celsius. The equation $$\Delta L
 used for large changes in temperature if an average value of $$\alpha $$ is
 used.
 
-<table id="Table1" aria-describedby="Three-column table gives the thermal expansion coefficients of various solids, liquids, and gases at twenty degrees Celsius. The left column gives the names of the materials; the middle column gives the coefficient of linear expansion of various solids; and the right column gives the coefficient of volume expansion of solids, liquids, and gases."><caption><span class="title">Thermal Expansion Coefficients at  $$20\text{ºC} $$<strong><sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></strong></span></caption><thead>  
+<table id="Table1" aria-describedby="Three-column table gives the thermal expansion coefficients of various solids, liquids, and gases at twenty degrees Celsius. The left column gives the names of the materials; the middle column gives the coefficient of linear expansion of various solids; and the right column gives the coefficient of volume expansion of solids, liquids, and gases."><caption><span class="title">Thermal Expansion Coefficients at  $$20\text{ºC} $$<strong><sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></strong></span></caption><thead>
           <tr>
             <th>Material</th>
             <th>Coefficient of linear expansion  $$\alpha \left(1/\text{ºC}\right) $$</th>

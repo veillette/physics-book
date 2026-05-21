@@ -602,7 +602,7 @@ $$ p = mv = (5.972 \times 10^{24} \kg)(2.98 \times 10^{4} \ms) = 1.78 \times 10^
 
 **Discussion**
 
-This is an enormous momentum—about $$ 10^{24} $$ times larger than the ship's momentum from earlier problems. Earth's orbital velocity of about 30 km/s (roughly 108,000 km/h) combined with its massive $$ 6 \times 10^{24} \kg $$ mass produces this immense momentum. Despite this huge momentum, Earth's orbit is stable because the Sun's gravitational force continuously provides the centripetal acceleration needed to change the direction of this momentum without changing its magnitude.
+This is an enormous momentum—about $$ 10^{24} $$ times larger than the ship's momentum from earlier problems. Earth's orbital velocity of about 30\text{ km}/s (roughly 108,000\text{ km}/h) combined with its massive $$ 6 \times 10^{24} \kg $$ mass produces this immense momentum. Despite this huge momentum, Earth's orbit is stable because the Sun's gravitational force continuously provides the centripetal acceleration needed to change the direction of this momentum without changing its magnitude.
 
 **Answer**
 

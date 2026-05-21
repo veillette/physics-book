@@ -11,7 +11,7 @@ chapterNumber: 7
 
 </div>
 
-### What is Power?
+### What is Power
 
 _Power_—the word conjures up many images: a professional football player
 muscling aside his opponent, a dragster roaring away from the starting line, a
@@ -427,7 +427,7 @@ Cost:
 
 **Discussion**
 
-The annual cost of operating a 3.00-W electric clock is approximately $2.37, which is quite economical. This low cost makes sense because although the clock runs continuously (24 hours per day, 365 days per year), its power consumption is very small—only 3 watts. This problem illustrates an important principle in energy conservation: the total energy cost depends on both power and time. While devices like clocks run constantly, their extremely low power consumption means they contribute very little to electricity bills. In contrast, high-power devices like air conditioners (which may use 15,000 W or more) can cost over $100 per month even when used only a few hours daily. This is why energy conservation efforts should focus on limiting high-power devices rather than worrying about low-power devices that run continuously.
+The annual cost of operating a 3.00-W electric clock is approximately $2.37, which is quite economical. This low cost makes sense because although the clock runs continuously (24 hours per day, 365 days per year), its power consumption is very small—only 3 watts. This problem illustrates an important principle in energy conservation: the total energy cost depends on both power and time. While devices like clocks run constantly, their extremely low power consumption means they contribute very little to electricity bills. In contrast, high-power devices like air conditioners (which may use 15,000\text{ W} or more) can cost over $100 per month even when used only a few hours daily. This is why energy conservation efforts should focus on limiting high-power devices rather than worrying about low-power devices that run continuously.
 
 **Answer**
 
@@ -468,7 +468,7 @@ $$ \text{Cost} = (1350\text{ kW}\cdot\text{h})(\$0.110\text{ per kW}\cdot\text{h
 
 **Discussion**
 
-Operating a large 15.0-kW air conditioner for 3 hours per day for 30 days costs approximately $149. This substantial cost explains why electricity bills spike dramatically during summer months when air conditioning is heavily used. The high cost results from the combination of high power consumption (15,000 W is equivalent to running 250 sixty-watt light bulbs simultaneously) and extended usage time. Even though the air conditioner runs only 3 hours per day (12.5% of the time), the cost is significant because of its high power rating. This calculation demonstrates why air conditioners are often the largest contributor to residential electricity costs in warm climates. It also highlights why improving air conditioner efficiency (for example, by using higher SEER ratings) and reducing usage (through better insulation, programmable thermostats, or raising temperature settings by a few degrees) can lead to substantial cost savings. A 20% reduction in air conditioner usage could save about $30 per month in this example.
+Operating a large 15.0-kW air conditioner for 3 hours per day for 30 days costs approximately $149. This substantial cost explains why electricity bills spike dramatically during summer months when air conditioning is heavily used. The high cost results from the combination of high power consumption (15,000\text{ W} is equivalent to running 250 sixty-watt light bulbs simultaneously) and extended usage time. Even though the air conditioner runs only 3 hours per day (12.5% of the time), the cost is significant because of its high power rating. This calculation demonstrates why air conditioners are often the largest contributor to residential electricity costs in warm climates. It also highlights why improving air conditioner efficiency (for example, by using higher SEER ratings) and reducing usage (through better insulation, programmable thermostats, or raising temperature settings by a few degrees) can lead to substantial cost savings. A 20% reduction in air conditioner usage could save about $30 per month in this example.
 
 **Answer**
 

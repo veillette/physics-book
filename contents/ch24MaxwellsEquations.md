@@ -122,7 +122,7 @@ frequency, he could calculate the propagation speed using the equation
 $$\upsilon =f\lambda $$
 (velocity—or speed—equals frequency times wavelength). Hertz was thus able to
 prove that electromagnetic waves travel at the speed of light. The SI unit for
-frequency, the hertz ( $$1 Hz=1 \text{cycle/sec} $$ ), is named in his honor.
+frequency, the hertz ( $$1\text{ Hz}=1 \text{cycle/sec} $$ ), is named in his honor.
 
 ### Section Summary
 

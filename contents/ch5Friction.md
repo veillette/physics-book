@@ -661,7 +661,7 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N}_{\text{drive}} = (1.0)(9800 \N) = 9800 \
 $$a_{\text{max}} = \frac{9800 \N}{1.00 \times 10^{3} \kg} = 9.80 \mss$$
 </div>
 
-4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = 4.90 m_{\text{cab}}$$) is less than the force needed to accelerate it at$$9.80 \mss$$($$F = 9.80 m_{\text{cab}}$$).
+4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = 4.90\text{ m}_{\text{cab}}$$) is less than the force needed to accelerate it at$$9.80 \mss$$($$F = 9.80\text{ m}_{\text{cab}}$$).
 
 **Discussion**
 
@@ -884,7 +884,7 @@ $$a = g\sin\theta$$
 
 **Discussion**
 
-The acceleration of any object on a frictionless incline is$$a = g\sin\theta$$, which depends only on the angle of the incline and the acceleration due to gravity. The mass$$m$$cancels out, confirming that all objects slide down a frictionless incline with the same acceleration, regardless of their mass. This is consistent with Galileo's observation that objects fall at the same rate in the absence of air resistance. Note that when$$\theta = 0°$$,$$a = 0$$(horizontal surface), and when$$\theta = 90°$$,$$a = g$$(free fall).
+The acceleration of any object on a frictionless incline is$$a = g\sin\theta$$, which depends only on the angle of the incline and the acceleration due to gravity. The mass$$m$$cancels out, confirming that all objects slide down a frictionless incline with the same acceleration, regardless of their mass. This is consistent with Galileo's observation that objects fall at the same rate in the absence of air resistance. Note that when$$\theta = 0\text{ °}$$,$$a = 0$$(horizontal surface), and when$$\theta = 90\text{ °}$$,$$a = g$$(free fall).
 
 </div>
 </div>
@@ -1587,8 +1587,8 @@ When pushing at an angle below horizontal (25° as shown in Figure 9a), the forc
 (a) Minimum force to start the block moving:
 
 1. Decompose the applied force$$F$$at angle 25° below horizontal:
-   - Horizontal component:$$F_x = F\cos 25°$$
-   - Vertical component (downward):$$F_y = F\sin 25°$$
+   - Horizontal component:$$F_x = F\cos 25\text{ °}$$
+   - Vertical component (downward):$$F_y = F\sin 25\text{ °}$$
 
 2. Apply Newton's second law in the vertical direction (at rest,$$a_y = 0$$):
 <div class="equation">
@@ -1674,8 +1674,8 @@ When pulling at an angle above horizontal (25°), the vertical component of the 
 (a) Minimum force to start the block moving:
 
 1. Decompose the applied force$$F$$at angle 25° above horizontal:
-   - Horizontal component:$$F_x = F\cos 25°$$
-   - Vertical component (upward):$$F_y = F\sin 25°$$
+   - Horizontal component:$$F_x = F\cos 25\text{ °}$$
+   - Vertical component (upward):$$F_y = F\sin 25\text{ °}$$
 
 2. Apply Newton's second law in the vertical direction (at rest,$$a_y = 0$$):
 <div class="equation">

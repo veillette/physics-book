@@ -28,7 +28,7 @@ terminals of a voltage source. An example of a short circuit is shown
 in [[Figure 1]](#Figure1). Insulation on wires leading to an appliance has worn
 through, allowing the two wires to come into contact. Such an undesired contact
 with a high voltage is called a _short_. Since the resistance of the short, $$r $$ , is very small, the power dissipated in the short, $$P={V}^{2}/r $$ , is
-very large. For example, if $$V $$ is 120 V and $$r $$ is $$ 0.100 \Omega $$ ,
+very large. For example, if $$V $$ is 120\text{ V} and $$r $$ is $$ 0.100 \Omega $$ ,
 then the power is 144 kW, _much_ greater than that used by a typical household
 appliance. Thermal energy delivered at this rate will very quickly raise the
 temperature of surrounding materials, melting or perhaps igniting them.
