@@ -43,7 +43,7 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -63,7 +63,7 @@ jobs:
         run: npm run generate:search-index
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@v4
 
       - name: Calculate build time
         id: build_time
@@ -103,7 +103,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
 
       - name: Calculate deploy time
         id: deploy_time
