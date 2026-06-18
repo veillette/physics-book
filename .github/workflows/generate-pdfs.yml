@@ -1,7 +1,7 @@
 # Workflow for generating PDFs from the physics book
 #
 # Status: Fully automated and production-ready (since 2025-12-31)
-# - Runs weekly on Sundays at 00:00 UTC
+# - Runs once every three months (1st of Jan, Apr, Jul, Oct) at 00:00 UTC
 # - Generates 309 PDFs in ~60 minutes using parallel processing
 # - Automatic failure recovery with extended timeouts
 # - Smart commits (only when PDFs change)
@@ -13,9 +13,9 @@
 name: Generate PDFs
 
 on:
-  # Runs weekly on Sunday at 00:00 UTC
+  # Runs once every three months on the 1st at 00:00 UTC (Jan, Apr, Jul, Oct)
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 0 1 */3 *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
