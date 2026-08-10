@@ -19,7 +19,7 @@
  */
 
 import path from 'path';
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 
 import { YAML_SCHEMA, DEFAULT_GLOB_PATTERNS } from './lib/constants.js';
 
