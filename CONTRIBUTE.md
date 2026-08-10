@@ -94,8 +94,8 @@ To contribute to this project, you'll need:
 
    ```bash
    bundle exec jekyll build
-   npm run check-links
-   npm run check-math
+   npm run check:links
+   npm run check:math
    ```
 
 4. **Commit your changes** with a clear message:
@@ -268,7 +268,7 @@ Ensure the build completes without errors.
 ### Link Validation
 
 ```bash
-npm run check-links
+npm run check:links
 ```
 
 Verify all links are valid and not broken.
@@ -276,7 +276,7 @@ Verify all links are valid and not broken.
 ### Math Validation
 
 ```bash
-npm run check-math
+npm run check:math
 ```
 
 Check that all mathematical notation is properly formatted.
