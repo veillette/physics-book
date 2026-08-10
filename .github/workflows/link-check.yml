@@ -85,7 +85,7 @@ jobs:
         run: npm ci
 
       - name: Run comprehensive link checker (including external)
-        run: npm run check-links -- --timeout 20000 --concurrent 5
+        run: npm run check:links -- --timeout 20000 --concurrent 5
 
       - name: Create issue if links are broken
         if: failure()
@@ -108,7 +108,7 @@ jobs:
             ### How to Fix:
             1. Check the workflow logs for detailed error messages
             2. Update or remove broken links in the affected files
-            3. Test locally with \`npm run check-links\`
+            3. Test locally with \`npm run check:links\`
             4. Commit your fixes
 
             This issue was automatically created by the link checker workflow.
