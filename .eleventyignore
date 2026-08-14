@@ -1,0 +1,23 @@
+# Eleventy input exclusions. Input is the repo root (dir.input: '.') and we run with
+# setUseGitIgnore(false), so everything that is NOT site content must be listed here.
+# Eleventy only processes templateFormats (md, njk); node_modules is always ignored.
+# Built/vendored trees
+_site
+vendor
+pdf-output
+# Passthrough-copied (do not template-process; addPassthroughCopy still copies them)
+assets
+resources
+# Repo docs / meta markdown (not site pages)
+README.md
+CONTRIBUTE.md
+CHANGELOG.md
+claude.md
+roadmap.md
+LICENSE.txt
+doc
+# Tooling
+scripts
+tests
+hooks
+lib

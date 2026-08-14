@@ -1,0 +1,166 @@
+# Comprehensive CI workflow for pull requests
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+# Cancel redundant CI runs on the same PR
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Check Prettier formatting
+        run: npm run format:check
+
+  content-checks:
+    name: Content Checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check math syntax
+        run: npm run check:math
+
+      - name: Check for orphan files
+        run: npm run check:orphans
+
+      - name: Check figures
+        run: npm run check:figures
+
+      - name: Check YAML front matter
+        run: npm run check:yaml
+
+      - name: Check accessibility
+        run: npm run check:accessibility
+
+      - name: Check cross-references
+        run: npm run check:cross-refs
+
+      - name: Check equations
+        run: npm run check:equations
+
+  physics-checks:
+    name: Physics Calculations
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Verify physics calculations
+        run: python check_math.py
+
+  link-check:
+    name: Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run link checker
+        run: npm run test:ci
+
+  build:
+    name: Build (Eleventy)
+    runs-on: ubuntu-latest
+    needs: [lint, content-checks, physics-checks]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Unit tests (markdown pipeline)
+        run: npm run test:unit
+
+      - name: Build with Eleventy
+        run: npx @11ty/eleventy
+
+      # Gate: the built HTML must contain no unconverted Kramdown/Liquid markers. HTML
+      # comments are stripped first (an inert commented-out <figure markdown="1"> exists in
+      # ch28 and is present in a commented-out HTML block in the source too).
+      - name: Grep gates (no leftover markers in _site)
+        run: |
+          set -e
+          fail=0
+          # -I skips binary files (PDFs/JPEGs in _site/) whose noise bytes would
+          # otherwise false-positive against these marker patterns.
+          # `|| true` prevents `set -e` from aborting when the inner `grep -q`
+          # (run after comment-stripping) finds no match on a file that the outer
+          # grep flagged only because of an inert commented-out markdown="1".
+          leaks=$(for f in $(grep -rIl 'markdown="1"' _site 2>/dev/null); do \
+            perl -0777 -pe 's/<!--.*?-->//gs' "$f" | grep -q 'markdown="1"' && echo "$f"; done || true)
+          if [ -n "$leaks" ]; then echo "::error::leftover markdown=\"1\":"; echo "$leaks"; fail=1; fi
+          if grep -rIEl '^\s*\{:' _site >/dev/null 2>&1; then \
+            echo "::error::leftover line-initial {: IAL:"; grep -rIEl '^\s*\{:' _site; fail=1; fi
+          if grep -rIEl '^\s*:::' _site >/dev/null 2>&1; then \
+            echo "::error::leftover ::: fence:"; grep -rIEl '^\s*:::' _site; fail=1; fi
+          if grep -rIl '{% raw' _site >/dev/null 2>&1; then \
+            echo "::error::leftover {% raw %}:"; grep -rIl '{% raw' _site; fail=1; fi
+          exit $fail
+
+      - name: Write build summary
+        if: always()
+        run: |
+          echo "## CI Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Lint** | ${{ needs.lint.result == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Content Checks** | ${{ needs.content-checks.result == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Physics Checks** | ${{ needs.physics-checks.result == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build** | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY

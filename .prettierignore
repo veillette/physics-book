@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+
+# Build outputs
+_site/
+pdf-output/
+
+# Package files
+package-lock.json
+summary.json
+
+# Resources
+resources/
+
+# Generated files
+assets/manifest/
+
+# Third-party bundle (copied from mathjax npm package)
+assets/js/mathjax/
+
+# Git
+.git/
+
+# Legacy files
+*.old
+*.bak
+
+# Editor files
+.vscode/
+.idea/
+
+# Content markdown files - contains math equations sensitive to formatting
+contents/*.md

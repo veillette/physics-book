@@ -1,0 +1,133 @@
+name: Check Links
+
+# This workflow handles scheduled and post-merge link checks.
+# PR link checking is handled by ci.yml to avoid duplication.
+
+permissions:
+  contents: read
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: "0 2 * * 0"
+  workflow_dispatch: # Allow manual triggering
+
+# Cancel redundant runs
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run link checker
+        run: npm run test:ci
+
+      - name: Check for orphan files
+        run: npm run check:orphans
+
+      - name: Upload link check results (on failure)
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: link-check-results
+          path: |
+            link-check-results.json
+          retention-days: 7
+
+      - name: Write summary
+        if: always()
+        run: |
+          echo "## Link Check Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Internal Links** | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Orphan Files** | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+
+  check-external-links:
+    permissions:
+      contents: read
+      issues: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    # Run external link check less frequently to avoid rate limiting
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run comprehensive link checker (including external)
+        run: npm run check-links -- --timeout 20000 --concurrent 5
+
+      - name: Create issue if links are broken
+        if: failure()
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const title = `🔗 Broken Links Found - ${new Date().toISOString().split('T')[0]}`;
+            const body = `
+            ## Broken Links Detected
+
+            The automated link checker has found broken links in the physics book.
+
+            **Check Details:**
+            - **Workflow Run:** [\`${context.runId}\`](${context.payload.repository.html_url}/actions/runs/${context.runId})
+            - **Branch:** \`${context.ref}\`
+            - **Commit:** \`${context.sha.substring(0, 7)}\`
+
+            Please review the workflow logs to see the specific broken links and fix them.
+
+            ### How to Fix:
+            1. Check the workflow logs for detailed error messages
+            2. Update or remove broken links in the affected files
+            3. Test locally with \`npm run check-links\`
+            4. Commit your fixes
+
+            This issue was automatically created by the link checker workflow.
+            `;
+
+            // Check if there's already an open issue for broken links
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'broken-links'
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['bug', 'broken-links', 'automated']
+              });
+            }

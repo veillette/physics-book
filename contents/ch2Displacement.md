@@ -1,0 +1,514 @@
+---
+title: Displacement
+layout: page
+sectionNumber: 1
+chapterNumber: 2
+---
+::: abstract
+
+* Define position, displacement, distance, and distance traveled.
+* Explain the relationship between position and displacement.
+* Distinguish between displacement and distance traveled.
+* Calculate displacement and distance given initial position, final position, and the path between the two.
+
+:::
+
+![Three people cycling along a canal. The blurred buildings in the background convey a sense of motion of the cyclists.](../resources/Figure_02_01_01.jpg 'These cyclists in Vietnam can be described by their position relative to buildings and a canal. Their motion can be described by their change in position, or displacement, in the frame of reference. (credit: Suzan Black, Fotopedia)')
+{: #Figure1}
+
+### Position
+
+In order to describe the motion of an object, you must first be able to describe
+its **position** —where it is at any particular time. More precisely, you need
+to specify its position relative to a convenient reference frame. Earth is often
+used as a reference frame, and we often describe the position of an object as it
+relates to stationary objects in that reference frame. For example, a rocket
+launch would be described in terms of the position of the rocket with respect to
+the Earth as a whole, while a professor’s position could be described in terms
+of where she is in relation to the nearby white board. ( See [Figure 2](#Figure2).)
+In other cases, we use reference frames that are not stationary but are in
+motion relative to the Earth. To describe the position of a person in an
+airplane, for example, we use the airplane, not the Earth, as the reference
+frame. (
+See [Figure 3](#Figure3).)
+
+### Displacement
+
+If an object moves relative to a reference frame (for example, if a professor
+moves to the right relative to a white board or a passenger moves toward the
+rear of an airplane), then the object’s position changes. This change in
+position is known as **displacement**. The word “displacement” implies that an
+object has moved, or has been displaced.
+
+::: note {"class":"note","data-label":""}
+
+<div class="title">
+Displacement
+</div>
+
+Displacement is the *change in position* of an object:
+<div class="equation">
+$$ \Delta x=x_{\text{f}}-x_{0},$$
+</div>
+
+where $$\Delta x$$ is displacement, $$x_{\text{f}}$$ is the final
+position, and $$x_{0} $$ is the initial position.
+
+:::
+
+In this text the upper case Greek letter $$ \Delta  $$
+(delta) always means “change in” whatever quantity follows it; thus, $$ \Delta x $$
+means *change in position*. Always solve for displacement by subtracting initial
+position $$ x_{0} $$
+from final position $$ x_{\text{f}} $$.
+
+Note that the SI unit for displacement is the meter (m) (
+see [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits))
+, but sometimes kilometers, miles, feet, and other units of length are used.
+Keep in mind that when units other than the meter are used in a problem, you may
+need to convert them into meters to complete the calculation.
+
+![The initial and final position of a professor as she moves to the right while writing on a whiteboard. Her initial position is 1 point 5 meters. Her final position is 3 point 5 meters. Her displacement is given by the equation delta x equals x sub f minus x sub 0 equals 2 point 0 meters.](../resources/Figure_02_01_02.jpg 'A professor paces left and right while lecturing. Her position relative to Earth is given by ( \\Delta x ) . The +2.0m displacement of the professor relative to Earth is represented by an arrow pointing to the right.')
+{: #Figure2}
+
+![View of an airplane with an inset of the passengers sitting inside. A passenger has just moved from his seat and is now standing in the back. His initial position was 6 point 0 meters. His final position is 2 point 0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals 4 point zero meters.](../resources/Figure_02_01_03.jpg
+'A passenger moves from his seat to the back of the plane. His location relative to the airplane is given by \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in <a href="#Figure2">Figure 2</a>.')
+{: #Figure3}
+
+Note that displacement has a direction as well as a magnitude. The professor’s
+displacement is 2.0 m to the right, and the airline passenger’s displacement is
+4.0 m toward the rear. In one-dimensional motion, direction can be specified
+with a plus or minus sign. When you begin a problem, you should select which
+direction is positive (usually that will be to the right or up, but you are free
+to select positive as being any direction). The professor’s initial position is
+$$ x_{0}=1.5\m $$ and her final position is $$ x_{\text{f}}=3.5\m $$. Thus her
+displacement is
+
+<div class="equation">
+ $$ \Delta x=x_{f}-x_{0}=3.5 \m -1.5 \m=+2.0 \m . $$
+</div>
+
+In this coordinate system, motion to the right is positive, whereas motion to
+the left is negative. Similarly, the airplane passenger’s initial position is $$ x_{0}=6.0 \m $$ and his final position is $$ x\_{f}=2.0 \m $$, so his
+displacement is
+
+<div class="equation">
+ $$ \Delta x=x_{f}-x_{0}=2.0 \m -6.0 \m =-4.0 \m . $$
+</div>
+
+His displacement is negative because his motion is toward the rear of the plane,
+or in the negative $$ x $$ direction in our coordinate system.
+
+### Distance
+
+Although displacement is described in terms of direction, distance is not.
+**Distance** is defined to be _the magnitude or size of displacement between two
+positions_. Note that the distance between two positions is not the same as the
+distance traveled between them.
+**Distance traveled** is _the total length of the path traveled between two
+positions_. Distance has no direction and, thus, no sign. For example, the
+distance the professor walks is 2.0 m. The distance the airplane passenger walks
+is 4.0 m.
+
+::: note {"class":"note","data-label":""}
+
+<div class="title">
+Misconception Alert: Distance Traveled vs. Magnitude of Displacement
+</div>
+
+It is important to note that the *distance traveled*,
+however, can be greater than the magnitude of the displacement
+(by magnitude, we mean just the size of the displacement without
+regard to its direction; that is, just a number with a unit).
+For example, the professor could pace back and forth many times,
+perhaps walking a distance of 150 m during a lecture, yet still
+end up only 2.0 m to the right of her starting point. In this case
+her displacement would be +2.0 m, the magnitude of her displacement
+would be 2.0 m, but the distance she traveled would be 150 m.
+In kinematics we nearly always deal with displacement and magnitude of
+displacement, and almost never with distance traveled. One way to think
+about this is to assume you marked the start of the motion and the end of
+the motion. The displacement is simply the difference in the position of
+the two marks and is independent
+of the path taken in traveling between the two marks. The distance traveled,
+however, is the total length of the path taken between the two marks.
+
+:::
+
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
+Check Your Understanding
+</div>
+
+::: problem
+
+A cyclist rides 3 km west and then turns around and rides 2 km east.
+(a) What is her displacement?
+(b) What distance does she ride?
+(c) What is the magnitude of her displacement?
+
+:::
+
+::: solution
+
+![Two diagrams side by side. To the left is a horizontal line, or x axis, 
+with points for final position and initial position. Displacement 1, shown 
+by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, 
+shown by an arrow pointing rightward, equals 2 kilometers. To the right is a 
+pair of x and y axes, showing that east is the positive x direction and west 
+is the negative x direction.](../resources/Figure_02_01_04.jpg 'Displacements 
+'){: #Figure4}
+
+(a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
+displacement is negative because we take east to be positive and west to be
+negative.)
+
+(b) The distance traveled is $$ 3 \text{km}+2 \text{km}=5 \text{km} $$.
+
+(c) The magnitude of the displacement is $$ 1 km $$.
+
+:::
+
+</div>
+
+### Section Summary
+
+- Kinematics is the study of motion without considering its causes. In this
+  chapter, it is limited to motion along a straight line, called one-dimensional
+  motion.
+- Displacement is the change in position of an object.
+- In symbols, displacement $$ \Delta x $$ is defined to be
+  <div class="equation">
+  $$ \Delta x=x_{f}-x_{0}, $$
+  </div>
+
+where $$ x_{0} $$ is the initial position and $$ x_{f} $$ is the final position.
+In this text, the Greek letter $$ \Delta $$
+(delta) always means “change in” whatever quantity follows it. The SI unit for
+displacement is the meter (m). Displacement has a direction as well as a
+magnitude.
+
+- When you start a problem, assign which direction will be positive.
+- Distance is the magnitude of displacement between two positions.
+- Distance traveled is the total length of the path traveled between two
+  positions.
+
+### Conceptual Questions
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+Give an example in which there are clear distinctions among distance traveled, displacement, and magnitude of displacement. Specifically identify each quantity in your example.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+Under what circumstances does distance traveled equal magnitude of displacement?
+What is the only case in which magnitude of displacement and displacement are exactly the same?
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+Bacteria move back and forth by using their flagella (structures that look like little tails).
+Speeds of up to $$ 50 \text{μm/s}\left(50 \times 10^{-6} \ms \right) $$
+have been observed. The total distance traveled by a bacterium is large for its
+size, while its displacement is small. Why is this?
+
+:::
+
+</div>
+
+### Problems &amp; Exercises
+
+![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 11. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01_05.jpg 'Displacement Paths')
+{: #Figure5}
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+Find the following for path A in the [Figure above](#Figure5):
+(a) The distance traveled.
+(b) The magnitude of the displacement from start to finish.
+(c) The displacement from start to finish.
+
+:::
+
+::: solution
+
+**Strategy**
+
+For path A, identify the starting and ending positions, then calculate distance traveled, magnitude of displacement, and displacement.
+
+**Solution**
+
+From the figure, path A starts at $$ x_0 = 0 \m $$ and ends at $$ x_f = 7 \m $$. The path is a straight line with no backtracking.
+
+**(a) Distance traveled:**
+
+Since there is no backtracking, the distance traveled equals the total path length:
+
+<div class="equation">
+$$ \text{Distance} = 7 \m - 0 \m = 7 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+The magnitude of displacement is the absolute value of the change in position:
+
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |7 \m - 0 \m| = 7 \m $$
+</div>
+
+**(c) Displacement:**
+
+Displacement includes direction (sign):
+
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 7 \m - 0 \m = +7 \m $$
+</div>
+
+The positive sign indicates motion to the right.
+
+**Discussion**
+
+For straight-line motion without backtracking, the distance traveled equals the magnitude of displacement, which is exactly what we observe for path A. The object moves from 0 m to 7 m in the positive direction, traveling a total distance of 7 m. The displacement of +7 m is positive because the motion is to the right (positive x-direction). This is the simplest case of one-dimensional motion where all three quantities (distance, magnitude of displacement, and displacement) have the same numerical value.
+
+**Answer**
+
+(a) The distance traveled is 7 m.
+
+(b) The magnitude of the displacement is 7 m.
+
+(c) The displacement is +7 m.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+Find the following for path B in the [Figure above](#Figure5):
+(a) The distance traveled.
+(b) The magnitude of the displacement from start to finish.
+(c) The displacement from start to finish.
+
+:::
+
+::: solution
+
+**Strategy**
+
+For path B, identify the starting and ending positions from the figure, then calculate distance traveled, magnitude of displacement, and displacement.
+
+**Solution**
+
+From the figure, path B starts at $$ x_0 = 12 \m $$ and ends at $$ x_f = 7 \m $$. The path is a straight line with no backtracking.
+
+**(a) Distance traveled:**
+
+Since there is no backtracking, the distance traveled equals the total path length:
+
+<div class="equation">
+$$ \text{Distance} = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+The magnitude of displacement is the absolute value of the change in position:
+
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |7 \m - 12 \m| = 5 \m $$
+</div>
+
+**(c) Displacement:**
+
+Displacement includes direction (sign):
+
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 7 \m - 12 \m = -5 \m $$
+</div>
+
+The negative sign indicates motion to the left.
+
+**Discussion**
+
+For straight-line motion without backtracking, the distance traveled and magnitude of displacement are equal. The displacement is negative because the object moved in the negative $$ x $$ direction (left). This makes physical sense since path B clearly shows leftward motion on the diagram.
+
+**Answer**
+
+(a) The distance traveled is 5 m.
+
+(b) The magnitude of the displacement is 5 m.
+
+(c) The displacement is −5 m (or 5 m to the left).
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+Find the following for path C in the [Figure above](#Figure5):
+(a) The distance traveled.
+(b) The magnitude of the displacement from start to finish.
+(c) The displacement from start to finish.
+
+:::
+
+::: solution
+
+**Strategy**
+
+For path C, trace the entire path including all direction changes to find distance traveled. For displacement, only the starting and ending positions matter.
+
+**Solution**
+
+From the figure, path C:
+
+- Starts at $$ x_0 = 2 \m $$
+- Goes right to $$ x = 10 \m $$ (moves 8 m)
+- Turns around and goes left to $$ x = 8 \m $$ (moves 2 m)
+- Turns around and goes right to $$ x_f = 11 \m $$ (moves 3 m)
+
+**(a) Distance traveled:**
+
+Add up all the path segments regardless of direction:
+
+<div class="equation">
+$$ \text{Distance} = 8 \m + 2 \m + 3 \m = 13 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |11 \m - 2 \m| = 9 \m $$
+</div>
+
+**(c) Displacement:**
+
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 11 \m - 2 \m = +9 \m $$
+</div>
+
+The positive sign indicates net motion to the right.
+
+**Discussion**
+
+Path C demonstrates the important difference between distance traveled and displacement when an object changes direction. The total distance traveled (13 m) is significantly greater than the magnitude of displacement (9 m) because the object backtracked during its journey. Despite moving a total of 13 m, the object ends up only 9 m from where it started. The multiple direction changes illustrate why displacement depends only on initial and final positions, not on the path taken. This is a key concept in kinematics that distinguishes vectors (displacement) from scalars (distance).
+
+**Answer**
+
+(a) The distance traveled is 13 m.
+
+(b) The magnitude of the displacement is 9 m.
+
+(c) The displacement is +9 m.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+Find the following for path D in the [Figure above](#Figure5):
+(a) The distance traveled.
+(b) The magnitude of the displacement from start to finish.
+(c) The displacement from start to finish.
+
+:::
+
+::: solution
+
+**Strategy**
+
+For path D, trace the entire path including all direction changes to find distance traveled. For displacement, only the starting and ending positions matter.
+
+**Solution**
+
+From the figure, path D:
+
+- Starts at $$ x_0 = 9 \m $$
+- Goes left to $$ x = 3 \m $$ (moves 6 m)
+- Turns around and goes right to $$ x_f = 5 \m $$ (moves 2 m)
+
+**(a) Distance traveled:**
+
+Add up all the path segments regardless of direction:
+
+<div class="equation">
+$$ \text{Distance} = 6 \m + 2 \m = 8 \m $$
+</div>
+
+**(b) Magnitude of displacement:**
+
+The magnitude of displacement is the absolute value of the change in position:
+
+<div class="equation">
+$$ |\Delta x| = |x_f - x_0| = |5 \m - 9 \m| = 4 \m $$
+</div>
+
+**(c) Displacement:**
+
+Displacement includes direction (sign):
+
+<div class="equation">
+$$ \Delta x = x_f - x_0 = 5 \m - 9 \m = -4 \m $$
+</div>
+
+The negative sign indicates net motion to the left.
+
+**Discussion**
+
+Notice that the distance traveled (8 m) is greater than the magnitude of displacement (4 m). This is because path D involves backtracking – the object moves left past its final position, then returns partway. The net displacement is negative because the final position (5 m) is to the left of the initial position (9 m), even though the object briefly reached as far left as 3 m. This demonstrates the important distinction between distance traveled (total path length) and displacement (net change in position).
+
+**Answer**
+
+(a) The distance traveled is 8 m.
+
+(b) The magnitude of the displacement is 4 m.
+
+(c) The displacement is −4 m (or 4 m to the left).
+
+:::
+
+</div>
+
+::: glossary
+
+### Glossary
+{: class="glossary-title"}
+
+kinematics
+: the study of motion without considering its causes
+
+position
+: the location of an object at a particular time
+
+displacement
+: the change in position of an object
+
+distance
+: the magnitude of displacement between two positions
+
+distance traveled
+: the total length of the path traveled between two positions
+
+:::

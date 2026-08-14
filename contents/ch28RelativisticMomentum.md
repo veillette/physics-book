@@ -1,0 +1,529 @@
+---
+title: Relativistic Momentum
+layout: page
+sectionNumber: 5
+chapterNumber: 28
+---
+::: abstract
+
+* Calculate relativistic momentum.
+* Explain why the only mass it makes sense to talk about is rest mass.
+
+:::
+
+![Action photo from a college football game.](../resources/Figure_28_05_01.jpg 'Momentum is an important concept for these football players from the University of California at Berkeley and the University of California at Davis. Players with more mass often have a larger impact because their momentum is larger. For objects moving at relativistic speeds, the effect is even greater. (credit: John Martinez Pavliga)')
+{: #Figure1}
+
+In classical physics, momentum is a simple product of mass and velocity.
+However, we saw in the last section that when special relativity is taken into
+account, massive objects have a speed limit. What effect do you think mass and
+velocity have on the momentum of objects moving at relativistic speeds?
+
+Momentum is one of the most important concepts in physics. The broadest form of
+Newton’s second law is stated in terms of momentum. Momentum is conserved
+whenever the net external force on a system is zero. This makes momentum
+conservation a fundamental tool for analyzing collisions. All
+of [Work, Energy, and Energy Resources](./ch7WorkEnergyAndEnergyResources) is devoted to momentum, and
+momentum has been important for many other topics as well, particularly where
+collisions were involved. We will see that momentum has the same importance in
+modern physics. Relativistic momentum is conserved, and much of what we know
+about subatomic structure comes from the analysis of collisions of
+accelerator-produced relativistic particles.
+
+The first postulate of relativity states that the laws of physics are the same
+in all inertial frames. Does the law of conservation of momentum survive this
+requirement at high velocities? The answer is yes, provided that the momentum is
+defined as follows.
+
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
+<div class="title">
+Relativistic Momentum
+</div>
+
+**Relativistic momentum**  $$p $$
+ is classical momentum multiplied by the relativistic factor  $$\gamma  $$.
+
+<div class="equation" >
+ $$p=\text{γmu}, $$
+</div>
+
+where  $$m $$
+ is the **rest mass**{: class="term"} of the object,  $$u $$
+ is its velocity relative to an observer, and the relativistic factor
+
+<div class="equation" >
+ $$\gamma =\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}. $$
+</div>
+
+:::
+
+Note that we use $$u $$ for velocity here to distinguish it from relative
+velocity $$v $$ between observers. Only one observer is being considered here.
+With $$p $$ defined in this way, total momentum $${p}_{\text{tot}} $$ is
+conserved whenever the net external force is zero, just as in classical physics.
+Again we see that the relativistic quantity becomes virtually the same as the
+classical at low velocities. That is, relativistic momentum $$\text{γmu} $$
+becomes the classical $$\text{mu} $$ at low velocities, because $$\gamma $$ is
+very nearly equal to 1 at low velocities.
+
+Relativistic momentum has the same intuitive feel as classical momentum. It is
+greatest for large masses moving at high velocities, but, because of the factor
+$$\gamma $$ , relativistic momentum approaches infinity as $$u $$ approaches $$c $$
+.
+(See [[Figure 2]](#Figure2).) This is another indication that an object with
+mass cannot reach the speed of light. If it did, its momentum would become
+infinite, an unreasonable value.
+
+![ In this figure a graph is shown on a coordinate system of axes. The x-axis is labelled as speed u meter per second. On x-axis velocity of the object is shown in terms of the speed of light starting from zero at origin to one point zero c where c is the speed of light. The y-axis is labelled as momentum p rel kilogram meter per second. On y-axis relativistic momentum is shown in terms of kilogram meter per starting from zero at origin to four point zero. The graph in the given figure is concave up and moving upward along the vertical line at x is equal to one point zero c. This graph shows that relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.](../resources/Figure_28_05_02.jpg "Relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.")
+{: #Figure2}
+
+::: note {"class":"note","data-has-label":"true","data-label":""}
+
+<div class="title">
+Misconception Alert: Relativistic Mass and Momentum
+</div>
+
+The relativistically correct definition of momentum as  $$p=\text{γmu} $$
+ is sometimes taken to imply that mass varies with velocity:  $${m}_{\text{var}}=\mathrm{\gamma m} $$ ,
+ particularly in older textbooks. However, note that  $$m $$
+ is the mass of the object as measured by a person at rest relative to the object. Thus,  $$m $$
+ is defined to be the rest mass, which could be measured at rest, perhaps using gravity. When a mass is moving relative to an observer, the only way that its mass can be determined is through collisions or other means in which momentum is involved. Since the mass of a moving object cannot be determined independently of momentum, the only meaningful mass is rest mass. Thus, when we use the term mass, assume it to be identical to rest mass.
+
+:::
+
+Relativistic momentum is defined in such a way that the conservation of momentum
+will hold in all inertial frames. Whenever the net external force on a system is
+zero, relativistic momentum is conserved, just as is the case for classical
+momentum. This has been verified in numerous experiments.
+
+In [Relativistic Energy](../contents/ch28RelativisticEnergy), the relationship of relativistic momentum to
+energy is explored. That subject will produce our first inkling that objects
+without mass may also have momentum.
+
+<div class="exercise"  data-label="">
+<div class="title">
+Check Your Understanding
+</div>
+
+::: problem
+
+What is the momentum of an electron traveling at a speed  $$ 0.985c $$ ?
+ The rest mass of the electron is  $$ 9.11 \times 10^{-31}  \text{kg} $$.
+
+:::
+
+<div class="solution" >
+<div class="title">
+Answer
+</div>
+
+<div class="equation" >
+ $$p=\gamma \text{mu}=\frac{\text{mu}}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}=\frac{\left( 9.11 \times 10^{-31}  \text{kg}\right)\left( 0.985\right)\left( 3.00 \times 10^{8}  \text{m/s}\right)}{\sqrt{1-\frac{ { \left(0.985c \right)}^{2}}{ {c}^{2}}}}= 1.56 \times 10^{-21}  \text{kg}\cdot \text{m/s} $$
+</div>
+
+</div>
+
+</div>
+
+### Section Summary
+
+* The law of conservation of momentum is valid whenever the net external force
+  is zero and for relativistic momentum. Relativistic momentum $$p $$ is
+  classical momentum multiplied by the relativistic factor $$\gamma $$ .
+
+* $$p=\text{γmu} $$ , where $$m $$ is the rest mass of the object, $$u $$ is its
+  velocity relative to an observer, and the relativistic factor $$\gamma =\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}} $$ .
+
+* At low velocities, relativistic momentum is equivalent to classical momentum.
+* Relativistic momentum approaches infinity as $$u $$ approaches $$c $$ . This
+  implies that an object with mass cannot reach the speed of light.
+* Relativistic momentum is conserved, just as classical momentum is conserved.
+
+### Conceptual Questions
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+How does modern relativity modify the law of conservation of momentum?
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+Is it possible for an external force to be acting on a system and relativistic momentum to be conserved? Explain.
+
+:::
+
+</div>
+
+### Problem Exercises
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+Find the momentum of a helium nucleus having a mass of  $$ 6.68 \times 10^{-27} \text{kg} $$
+ that is moving at  $$ 0.200c $$.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the relativistic momentum formula $$p = \gamma mu$$, where $$m = 6.68 \times 10^{-27}$$ kg, $$u = 0.200c$$, and $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}}$$.
+
+**Solution**
+
+First, calculate $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.200c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.0400}} = \frac{1}{\sqrt{0.9600}} = \frac{1}{0.9798} = 1.0206$$
+
+Now calculate the relativistic momentum:
+
+$$p = \gamma mu = (1.0206)(6.68 \times 10^{-27} \text{ kg})(0.200)(3.00 \times 10^8 \text{ m/s})$$
+
+$$p = (1.0206)(6.68 \times 10^{-27})(6.00 \times 10^7) = 4.09 \times 10^{-19} \text{ kg·m/s}$$
+
+**Discussion**
+
+At 20% the speed of light, the helium nucleus (alpha particle) is only mildly relativistic, with $$\gamma = 1.02$$. This means its relativistic momentum is only about 2% greater than the classical value. The classical momentum would be $$p_{\text{classical}} = mu = (6.68 \times 10^{-27})(6.00 \times 10^7) = 4.01 \times 10^{-19}$$ kg·m/s. Alpha particles from radioactive decay typically have velocities in the range of 0.03c to 0.07c, but higher-energy alphas from nuclear reactions can reach velocities like this. At these speeds, relativistic corrections are small but measurable with modern instrumentation.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+What is the momentum of an electron traveling at  $$ 0.980c $$ ?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the relativistic momentum formula $$p = \gamma mu$$, where $$m = 9.11 \times 10^{-31}$$ kg (electron mass), $$u = 0.980c$$, and $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}}$$.
+
+**Solution**
+
+First, calculate $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.980c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.9604}} = \frac{1}{\sqrt{0.0396}} = \frac{1}{0.1990} = 5.025$$
+
+Now calculate the relativistic momentum:
+
+$$p = \gamma mu = (5.025)(9.11 \times 10^{-31} \text{ kg})(0.980)(3.00 \times 10^8 \text{ m/s})$$
+
+$$p = (5.025)(9.11 \times 10^{-31})(2.94 \times 10^8) = 1.35 \times 10^{-21} \text{ kg·m/s}$$
+
+**Discussion**
+
+The electron's relativistic momentum is $$1.35 \times 10^{-21}$$ kg·m/s. For comparison, the classical momentum would be $$p_{\text{classical}} = mu = (9.11 \times 10^{-31})(2.94 \times 10^8) = 2.68 \times 10^{-22}$$ kg·m/s, which is about 5 times smaller than the relativistic value. This factor of 5 matches our calculated $$\gamma = 5.025$$, confirming that $$p_{\text{rel}} = \gamma p_{\text{classical}}$$. At 98% the speed of light, electrons carry significantly more momentum than classical physics predicts, which is important in particle accelerator design and high-energy physics experiments.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+(a) Find the momentum of a  $$ 1.00 \times 10^{9}  \text{kg} $$
+ asteroid heading towards the Earth at  $$30.0 \text{km/s} $$ .
+ (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that  $$\gamma =1+\left(1/2\right){v}^{2}/{c}^{2} $$
+ at low velocities.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+(a) Convert velocity to m/s and use $$p = \gamma mu$$ with the low-velocity approximation for $$\gamma$$. (b) The ratio is simply $$\gamma$$ since $$\frac{p_{\text{rel}}}{p_{\text{classical}}} = \frac{\gamma mu}{mu} = \gamma$$.
+
+**Solution**
+
+(a) Given: $$m = 1.00 \times 10^9$$ kg, $$u = 30.0$$ km/s $$= 3.00 \times 10^4$$ m/s
+
+Using the approximation $$\gamma \approx 1 + \frac{1}{2}\frac{u^2}{c^2}$$:
+
+$$\gamma \approx 1 + \frac{1}{2}\frac{(3.00 \times 10^4)^2}{(3.00 \times 10^8)^2} = 1 + \frac{1}{2}\frac{9.00 \times 10^8}{9.00 \times 10^{16}}$$
+
+$$\gamma \approx 1 + \frac{1}{2}(1.00 \times 10^{-8}) = 1 + 5.00 \times 10^{-9} = 1.000000005$$
+
+Relativistic momentum:
+
+$$p = \gamma mu = (1.000000005)(1.00 \times 10^9)(3.00 \times 10^4)$$
+
+$$p = 3.000000015 \times 10^{13} \text{ kg·m/s}$$
+
+(b) Ratio:
+
+$$\frac{p_{\text{rel}}}{p_{\text{classical}}} = \gamma = 1.000000005$$
+
+**Discussion**
+
+The asteroid's velocity (30 km/s) is only $$10^{-4}c$$, making it essentially non-relativistic. The relativistic momentum exceeds the classical value by only 5 parts per billion—an utterly negligible difference for any practical purpose. This is typical for astronomical objects in our solar system: even objects moving at orbital velocities (tens of km/s) are so slow compared to light that relativistic effects are completely undetectable. This asteroid's momentum of $$3 \times 10^{13}$$ kg·m/s is enormous by human standards (equivalent to about 3 billion cars moving at highway speeds), but relativistic corrections to this momentum are far too small to measure or matter for trajectory calculations.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+(a) What is the momentum of a 2000 kg satellite orbiting at 4.00 km/s? (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that  $$\gamma =1+\left(1/2\right){v}^{2}/{c}^{2} $$
+ at low velocities.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+(a) Convert velocity to m/s and use $$p = \gamma mu$$ with the low-velocity approximation for $$\gamma$$. (b) Compare to classical momentum $$p_{\text{classical}} = mu$$.
+
+**Solution**
+
+(a) Given: $$m = 2000$$ kg, $$u = 4.00$$ km/s $$= 4.00 \times 10^3$$ m/s
+
+Using the approximation $$\gamma \approx 1 + \frac{1}{2}\frac{u^2}{c^2}$$:
+
+$$\gamma \approx 1 + \frac{1}{2}\frac{(4.00 \times 10^3)^2}{(3.00 \times 10^8)^2} = 1 + \frac{1}{2}\frac{1.60 \times 10^7}{9.00 \times 10^{16}}$$
+
+$$\gamma \approx 1 + \frac{1}{2}(1.778 \times 10^{-10}) = 1 + 8.89 \times 10^{-11} \approx 1.0000000000889$$
+
+Relativistic momentum:
+
+$$p = \gamma mu = (1.0000000000889)(2000)(4.00 \times 10^3)$$
+
+$$p = 8.000000000711 \times 10^6 \text{ kg·m/s} \approx 8.00 \times 10^6 \text{ kg·m/s}$$
+
+(b) Classical momentum:
+
+$$p_{\text{classical}} = mu = (2000)(4.00 \times 10^3) = 8.00 \times 10^6 \text{ kg·m/s}$$
+
+Ratio:
+
+$$\frac{p_{\text{rel}}}{p_{\text{classical}}} = \gamma = 1.0000000000889 \approx 1 + 8.89 \times 10^{-11}$$
+
+**Discussion**
+
+The satellite's velocity (4 km/s) is only $$1.33 \times 10^{-5}c$$, making relativistic effects incredibly tiny. The relativistic momentum exceeds the classical value by less than one part in 10 billion! This is why satellites, spacecraft, and everyday objects can be accurately described using classical mechanics. Even at orbital velocities of several kilometers per second—speeds that seem enormous to us—objects are moving so slowly compared to light that relativistic corrections are utterly negligible for practical purposes. This problem illustrates why special relativity wasn't discovered until the 20th century: its effects are simply too small to detect in ordinary circumstances.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+What is the velocity of an electron that has a momentum of  $$3.04 \times 10^{-21} \text{kg⋅m/s} $$ ?
+ Note that you must calculate the velocity to at least four digits to see the difference from  $$c $$.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use $$p = \gamma mu$$ where $$m_e = 9.11 \times 10^{-31}$$ kg. Derive the relation $$u = \frac{pc}{\sqrt{m^2c^2 + p^2}}$$ by squaring and solving for $$u$$.
+
+**Solution**
+
+From $$p = \gamma mu = \frac{mu}{\sqrt{1-\frac{u^2}{c^2}}}$$, squaring and rearranging gives:
+
+$$u = \frac{pc}{\sqrt{m^2c^2 + p^2}}$$
+
+Substituting values ($$m_e = 9.11 \times 10^{-31}$$ kg, $$p = 3.04 \times 10^{-21}$$ kg·m/s):
+
+$$u = \frac{(3.04 \times 10^{-21})(3.00 \times 10^8)}{\sqrt{(9.11 \times 10^{-31})^2(3.00 \times 10^8)^2 + (3.04 \times 10^{-21})^2}}$$
+
+$$m^2c^2 = (9.11 \times 10^{-31})^2(3.00 \times 10^8)^2 = 7.469 \times 10^{-45}$$
+
+$$p^2 = (3.04 \times 10^{-21})^2 = 9.242 \times 10^{-42}$$
+
+Since $$p^2 \gg m^2c^2$$, the electron is ultra-relativistic:
+
+$$u = \frac{(3.04 \times 10^{-21})(3.00 \times 10^8)}{\sqrt{9.242 \times 10^{-42}}} = \frac{9.12 \times 10^{-13}}{3.040 \times 10^{-21}} = 2.9957 \times 10^8 \text{ m/s}$$
+
+Or $$u = 0.9986c$$ (to 4 significant figures).
+
+**Discussion**
+
+The electron is traveling at 99.86% the speed of light, differing from $$c$$ by only 0.14% or about 420,000\text{ m}/s. At this velocity, $$\gamma \approx 19.4$$. The classical momentum would be $$p_{\text{classical}} = m_eu = (9.11 \times 10^{-31})(2.9957 \times 10^8) = 2.73 \times 10^{-22}$$ kg·m/s, which is about 11 times smaller than the actual relativistic value. Such ultra-relativistic electrons are common in particle accelerators, cosmic rays, and astrophysical jets. The problem specifically asks for four significant figures to distinguish the velocity from $$c$$, highlighting how close to light speed the electron is traveling.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+Find the velocity of a proton that has a momentum of  $$ 4.48\times 10^{-19} \text{kg⋅m/s}\text{.} $$
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use $$p = \gamma mu$$ where $$m_p = 1.67 \times 10^{-27}$$ kg (proton mass). This gives $$p = \frac{mu}{\sqrt{1-\frac{u^2}{c^2}}}$$. Square both sides and solve for $$u$$.
+
+**Solution**
+
+Starting with:
+
+$$p = \frac{mu}{\sqrt{1-\frac{u^2}{c^2}}}$$
+
+Square both sides:
+
+$$p^2 = \frac{m^2u^2}{1-\frac{u^2}{c^2}}$$
+
+$$p^2\left(1-\frac{u^2}{c^2}\right) = m^2u^2$$
+
+$$p^2 - \frac{p^2u^2}{c^2} = m^2u^2$$
+
+$$p^2 = m^2u^2 + \frac{p^2u^2}{c^2} = u^2\left(m^2 + \frac{p^2}{c^2}\right)$$
+
+$$u^2 = \frac{p^2}{m^2 + \frac{p^2}{c^2}} = \frac{p^2c^2}{m^2c^2 + p^2}$$
+
+$$u = \frac{pc}{\sqrt{m^2c^2 + p^2}}$$
+
+Substituting values:
+
+$$u = \frac{(4.48 \times 10^{-19})(3.00 \times 10^8)}{\sqrt{(1.67 \times 10^{-27})^2(3.00 \times 10^8)^2 + (4.48 \times 10^{-19})^2}}$$
+
+$$u = \frac{1.344 \times 10^{-10}}{\sqrt{(2.511 \times 10^{-54})(9.00 \times 10^{16}) + 2.007 \times 10^{-37}}}$$
+
+$$u = \frac{1.344 \times 10^{-10}}{\sqrt{2.260 \times 10^{-37} + 2.007 \times 10^{-37}}} = \frac{1.344 \times 10^{-10}}{\sqrt{4.267 \times 10^{-37}}}$$
+
+$$u = \frac{1.344 \times 10^{-10}}{6.532 \times 10^{-19}} = 2.058 \times 10^8 \text{ m/s} = 0.686c$$
+
+**Discussion**
+
+The proton is traveling at about 69% the speed of light. At this velocity, $$\gamma = \frac{1}{\sqrt{1-0.686^2}} = \frac{1}{\sqrt{0.529}} = 1.37$$, so the relativistic momentum is 37% greater than the classical prediction. Such high-energy protons are produced in particle accelerators and cosmic ray showers. The formula used here—expressing velocity in terms of momentum—is particularly useful in particle physics where momentum is often the directly measured quantity (through particle tracks in detectors), and velocity must be inferred.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+(a) Calculate the speed of a  $$1.00-\mu \text{g} $$
+ particle of dust that has the same momentum as a proton moving at  $$ 0.999c $$ .
+ (b) What does the small speed tell us about the mass of a proton compared to even a tiny amount of macroscopic matter?
+
+:::
+
+::: solution
+
+**Strategy**
+
+(a) First find the proton's relativistic momentum using $$p = \gamma m_pu$$. Then equate this to the dust particle's classical momentum $$p = m_{\text{dust}}v$$ (classical is fine since we expect $$v \ll c$$). Solve for $$v$$.
+
+**Solution**
+
+(a) Proton's $$\gamma$$:
+
+$$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.999c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.998001}} = \frac{1}{\sqrt{0.001999}} = \frac{1}{0.04471} = 22.37$$
+
+Proton's momentum ($$m_p = 1.67 \times 10^{-27}$$ kg):
+
+$$p = \gamma m_pu = (22.37)(1.67 \times 10^{-27})(0.999)(3.00 \times 10^8)$$
+
+$$p = (22.37)(1.67 \times 10^{-27})(2.997 \times 10^8) = 1.119 \times 10^{-17} \text{ kg·m/s}$$
+
+Dust particle speed ($$m_{\text{dust}} = 1.00$$ μg $$= 1.00 \times 10^{-9}$$ kg):
+
+$$v = \frac{p}{m_{\text{dust}}} = \frac{1.119 \times 10^{-17}}{1.00 \times 10^{-9}} = 1.12 \times 10^{-8} \text{ m/s}$$
+
+(b) The incredibly slow speed (about 11 nanometers per second, or 0.04 millimeters per hour!) tells us that even though the proton is moving at 99.9% the speed of light, a microscopic dust particle needs to move only glacially slowly to have the same momentum. This dramatically illustrates that the proton's mass ($$1.67 \times 10^{-27}$$ kg) is utterly tiny compared to even a microgram of ordinary matter. Specifically, the mass ratio is $$\frac{10^{-9}}{1.67 \times 10^{-27}} = 6 \times 10^{17}$$—the dust particle is about 600 million billion times more massive than a single proton!
+
+**Discussion**
+
+This problem beautifully illustrates the vast difference between atomic and macroscopic scales. Despite the proton's enormous velocity and significant relativistic effects ($$\gamma = 22$$), its momentum is so small from a macroscopic perspective that a dust speck barely needs to creep along to match it. The calculation also shows why we never notice relativistic effects in everyday life: to give macroscopic objects the same momentum as relativistic particles requires such tiny velocities that relativistic corrections would be immeasurably small. Conversely, individual atoms and subatomic particles can easily achieve relativistic speeds because their tiny masses mean even modest energies produce enormous accelerations.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problem-exercises">
+
+::: problem
+
+(a) Calculate  $$\gamma  $$
+ for a proton that has a momentum of  $$1.00 \text{kg⋅m/s}\text{.} $$
+ (b) What is its speed? Such protons form a rare component of cosmic radiation with uncertain origins.
+
+:::
+
+::: solution
+
+**Strategy**
+
+(a) Use $$p = \gamma mu$$ to find $$\gamma = \frac{p}{mu}$$, but we don't know $$u$$ yet. Instead, use the energy-momentum relation or recognize that $$\gamma = \frac{p}{m_0c}\cdot\frac{c}{u}$$. Better approach: From $$p = \gamma mu$$ and $$\gamma = \frac{E}{mc^{2}}$$, we can derive $$\gamma = \sqrt{1 + \left(\frac{p}{mc}\right)^2}$$. (b) Once we have $$\gamma$$, solve for $$u$$.
+
+**Solution**
+
+(a) Using the relation $$\gamma^{2} = 1 + \left(\frac{p}{mc}\right)^2$$:
+
+$$\gamma = \sqrt{1 + \left(\frac{p}{mc}\right)^2} = \sqrt{1 + \left(\frac{1.00}{(1.67 \times 10^{-27})(3.00 \times 10^8)}\right)^2}$$
+
+$$\gamma = \sqrt{1 + \left(\frac{1.00}{5.01 \times 10^{-19}}\right)^2} = \sqrt{1 + (1.996 \times 10^{18})^2}$$
+
+$$\gamma = \sqrt{1 + 3.984 \times 10^{36}} \approx \sqrt{3.984 \times 10^{36}} = 1.996 \times 10^{18}$$
+
+(Note: Since the momentum term dominates, $$\gamma \approx \frac{p}{mc} = 1.996 \times 10^{18}$$)
+
+(b) From $$\gamma = \frac{1}{\sqrt{1-\frac{u^2}{c^2}}}$$:
+
+$$1 - \frac{u^2}{c^2} = \frac{1}{\gamma^{2}} = \frac{1}{(1.996 \times 10^{18})^2} = 2.51 \times 10^{-37}$$
+
+$$\frac{u^2}{c^2} = 1 - 2.51 \times 10^{-37} \approx 0.999999999999999999999999999999999999$$
+
+$$u \approx c\left(1 - 1.25 \times 10^{-37}\right)$$
+
+To many significant figures: $$u = 0.999999999999999999999999999999999999c$$
+
+Or more practically: $$u \approx c - 3.8 \times 10^{-29}$$ m/s
+
+**Discussion**
+
+This ultra-relativistic proton has $$\gamma \approx 2 \times 10^{18}$$—an almost incomprehensibly large Lorentz factor! Its speed differs from $$c$$ by less than one part in $$10^{36}$$. Such particles, known as ultra-high-energy cosmic rays, are among the most energetic particles ever detected. Their kinetic energy is roughly $$\gamma mc^{2} \approx (2 \times 10^{18})(938 \text{ MeV}) \approx 10^{21}$$ eV or 1 ZeV (zettaelectronvolt)—equivalent to the kinetic energy of a baseball traveling at 100 km/h, concentrated in a single proton!
+
+The origins of such particles remain mysterious. They require acceleration mechanisms far more powerful than any human-made accelerator. Possible sources include active galactic nuclei, gamma-ray bursts, or exotic physics beyond the Standard Model. The detection of even a single such proton is a significant scientific event, as they are extraordinarily rare and provide insights into the most violent astrophysical processes in the universe.
+
+:::
+
+</div>
+
+::: glossary
+
+### Glossary
+{: class="glossary-title"}
+
+relativistic momentum
+:  $$p $$ , the momentum of an object moving at relativistic velocity;
+$$p=\text{γmu} $$ , where $$m $$ is the rest mass of the object, $$u $$ is its
+velocity relative to an observer, and the relativistic factor $$\gamma $$
+=\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}
+
+rest mass
+: the mass of an object as measured by a person at rest relative to the object
+
+:::

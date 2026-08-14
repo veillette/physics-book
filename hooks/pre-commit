@@ -1,0 +1,5 @@
+#!/bin/sh
+# Pre-commit hook — lint and format only staged files
+
+echo "Running pre-commit checks..."
+npx lint-staged

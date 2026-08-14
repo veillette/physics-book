@@ -1,0 +1,141 @@
+# Workflow for generating PDFs from the physics book
+#
+# Status: Fully automated and production-ready (since 2025-12-31)
+# - Runs once every three months (1st of Jan, Apr, Jul, Oct) at 00:00 UTC
+# - Generates 309 PDFs in ~60 minutes using parallel processing
+# - Automatic failure recovery with extended timeouts
+# - Publishes PDFs to the `pdfs` GitHub Release as a downloadable archive
+#
+# GitHub Pages deploys generate PDFs dynamically on each push (see deploy.yml).
+# This workflow keeps a quarterly release archive and can be triggered manually.
+name: Generate PDFs
+
+on:
+  # Runs once every three months on the 1st at 00:00 UTC (Jan, Apr, Jul, Oct)
+  schedule:
+    - cron: "0 0 1 */3 *"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  # Optionally run on content changes (commented out to avoid excessive regeneration)
+  # push:
+  #   paths:
+  #     - 'contents/**/*.md'
+  #     - 'assets/css/**'
+  #     - 'scripts/generate-pdf*.js'
+
+# Permissions needed to create releases
+permissions:
+  contents: write
+
+# Prevent concurrent PDF generation runs
+concurrency:
+  group: "pdf-generation"
+  cancel-in-progress: false
+
+jobs:
+  generate-pdfs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Record start time
+        id: start
+        run: echo "time=$(date +%s)" >> $GITHUB_OUTPUT
+
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npm run generate:pdf:install
+
+      - name: Build with Eleventy
+        run: npx @11ty/eleventy
+
+      - name: Generate chapter PDFs
+        uses: ./.github/actions/generate-chapter-pdfs
+        with:
+          max-concurrency: "4"
+
+      - name: Generate complete book PDF (not yet implemented)
+        run: npm run generate:pdf -- --book
+        continue-on-error: true
+        # Note: This step currently fails but is kept for future implementation
+        # The --book option exists but needs integration with parallel processing
+
+      - name: Calculate generation time
+        id: gen_time
+        run: |
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - ${{ steps.start.outputs.time }}))
+          MINUTES=$((DURATION / 60))
+          SECONDS=$((DURATION % 60))
+          echo "duration=${MINUTES}m ${SECONDS}s" >> $GITHUB_OUTPUT
+
+      - name: Get current date for release tag
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      # PDFs are gitignored build artifacts (D6); publish them to the `pdfs` GitHub Release
+      # as a downloadable archive (GitHub Pages deploys generate PDFs dynamically).
+      - name: Publish PDFs to the 'pdfs' release
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ls assets/pdf/*.pdf >/dev/null 2>&1; then
+            gh release view pdfs >/dev/null 2>&1 || \
+              gh release create pdfs --title "Chapter PDFs" \
+                --notes "Latest generated chapter PDFs (updated by generate-pdfs.yml)."
+            gh release upload pdfs assets/pdf/*.pdf --clobber
+            echo "Published $(ls -1 assets/pdf/*.pdf | wc -l) PDF(s) to the 'pdfs' release."
+          else
+            echo "::warning::No PDFs were generated; nothing to publish."
+          fi
+
+      - name: Upload PDFs as artifacts
+        uses: actions/upload-artifact@v7
+        if: always()
+        with:
+          name: physics-book2-pdfs-${{ steps.date.outputs.date }}
+          path: assets/pdf/
+          retention-days: 90
+
+      - name: Write generation summary
+        if: always()
+        run: |
+          echo "## PDF Generation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Status** | ${{ job.status == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Generation Time** | ${{ steps.gen_time.outputs.duration }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Date** | ${{ steps.date.outputs.date }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          PDF_COUNT=$(ls -1 assets/pdf/*.pdf 2>/dev/null | wc -l)
+          TOTAL_SIZE=$(du -sh assets/pdf/ 2>/dev/null | awk '{print $1}')
+
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "🎉 **PDFs have been successfully generated!**" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Summary:" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total PDFs:** $PDF_COUNT" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Size:** $TOTAL_SIZE" >> $GITHUB_STEP_SUMMARY
+            echo "- **PDF Types:** Sections, Chapter Intros, Combined Chapters" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Largest Files:" >> $GITHUB_STEP_SUMMARY
+            du -h assets/pdf/*.pdf | sort -hr | head -10 | awk '{printf "- %s (%s)\n", $2, $1}' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ **PDF generation failed. Please check the logs above for details.**" >> $GITHUB_STEP_SUMMARY
+          fi

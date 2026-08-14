@@ -1,0 +1,150 @@
+# Workflow for building and deploying the Eleventy site to GitHub Pages
+name: Deploy Eleventy site to Pages
+
+on:
+  # Runs on pushes targeting the main branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    outputs:
+      build_time: ${{ steps.build_time.outputs.duration }}
+      pdf_count: ${{ steps.pdf_stats.outputs.count }}
+    steps:
+      - name: Record start time
+        id: start
+        run: echo "time=$(date +%s)" >> $GITHUB_OUTPUT
+
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v6
+
+      # PDF supply (decision D6): chapter PDFs are gitignored build artifacts. Generate them
+      # dynamically on each deploy so the site always ships the latest content. Requires a
+      # preliminary Eleventy build to serve pages to Playwright, then a final build to
+      # passthrough-copy assets/pdf/ into _site/.
+      - name: Install Playwright browsers
+        run: npm run generate:pdf:install
+
+      - name: Build with Eleventy (for PDF generation)
+        run: npx @11ty/eleventy
+
+      - name: Generate chapter PDFs
+        uses: ./.github/actions/generate-chapter-pdfs
+        with:
+          max-concurrency: "4"
+
+      - name: Record PDF stats
+        id: pdf_stats
+        run: |
+          count=$(ls -1 assets/pdf/*.pdf 2>/dev/null | wc -l || echo 0)
+          echo "count=${count}" >> "$GITHUB_OUTPUT"
+
+      - name: Build with Eleventy (include PDFs in site)
+        run: npx @11ty/eleventy
+
+      - name: Generate search index
+        run: npm run generate:search-index
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v5
+
+      - name: Calculate build time
+        id: build_time
+        run: |
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - ${{ steps.start.outputs.time }}))
+          MINUTES=$((DURATION / 60))
+          SECONDS=$((DURATION % 60))
+          echo "duration=${MINUTES}m ${SECONDS}s" >> $GITHUB_OUTPUT
+
+      - name: Write build summary
+        if: always()
+        run: |
+          echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Status** | ${{ job.status == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build Time** | ${{ steps.build_time.outputs.duration }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **PDFs Generated** | ${{ steps.pdf_stats.outputs.count }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Branch** | \`${{ github.ref_name }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | \`${{ github.sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Triggered by** | ${{ github.actor }} |" >> $GITHUB_STEP_SUMMARY
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    outputs:
+      deploy_time: ${{ steps.deploy_time.outputs.duration }}
+    steps:
+      - name: Record deploy start time
+        id: deploy_start
+        run: echo "time=$(date +%s)" >> $GITHUB_OUTPUT
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Calculate deploy time
+        id: deploy_time
+        run: |
+          END_TIME=$(date +%s)
+          DURATION=$((END_TIME - ${{ steps.deploy_start.outputs.time }}))
+          MINUTES=$((DURATION / 60))
+          SECONDS=$((DURATION % 60))
+          echo "duration=${MINUTES}m ${SECONDS}s" >> $GITHUB_OUTPUT
+
+      - name: Write deployment summary
+        if: always()
+        run: |
+          echo "## Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Status** | ${{ job.status == 'success' && '✅ Success' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Deploy Time** | ${{ steps.deploy_time.outputs.duration }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Build Time** | ${{ needs.build.outputs.build_time }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **PDFs Generated** | ${{ needs.build.outputs.pdf_count }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Site URL** | ${{ steps.deployment.outputs.page_url }} |" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "🎉 **The physics book has been successfully deployed!**" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ **Deployment failed. Please check the logs above for details.**" >> $GITHUB_STEP_SUMMARY
+          fi

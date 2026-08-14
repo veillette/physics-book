@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en-us">
+  {% include "head.njk" %}
+
+  <body>
+    <h1 class="page-title">{{ title }}</h1>
+
+    {{ content | safe }} {% include "foot.njk" %}
+  </body>
+</html>

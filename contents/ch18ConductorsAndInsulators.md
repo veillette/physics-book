@@ -1,0 +1,543 @@
+---
+title: Conductors and Insulators
+layout: page
+sectionNumber: 2
+chapterNumber: 18
+---
+::: abstract
+
+* Define conductor and insulator, explain the difference, and give examples of each.
+* Describe three methods for charging an object.
+* Explain what happens to an electric force as you move farther from the source.
+* Define polarization.
+
+:::
+
+![This black power charging unit connects a laptop to an electrical outlet, allowing the laptop to be charged up.](../resources/Figure_18_02_01.jpg 'This power adapter uses metal wires and connectors to conduct electricity from the wall socket to a laptop computer. The conducting wires allow electrons to move freely through the cables, which are shielded by rubber and plastic. These materials act as insulators that don’t allow electric charge to escape outward. (credit: Evan-Amos, Wikimedia Commons)')
+{: #Figure1}
+
+Some substances, such as metals and salty water, allow charges to move through
+them with relative ease. Some of the electrons in metals and similar conductors
+are not bound to individual atoms or sites in the material. These **free
+electrons** can move through the material much as air moves through loose sand.
+Any substance that has free electrons and allows charge to move relatively
+freely through it is called a **conductor**. The moving electrons may collide
+with fixed atoms and molecules, losing some energy, but they can move in a
+conductor. Superconductors allow the movement of charge without any loss of
+energy. Salty water and other similar conducting materials contain free ions
+that can move through them. An ion is an atom or molecule having a positive or
+negative (nonzero) total charge. In other words, the total number of electrons
+is not equal to the total number of protons.
+
+Other substances, such as glass, do not allow charges to move through them.
+These are called **insulators**. Electrons and ions in insulators are bound in
+the structure and cannot move easily—as much as $$ 10^{23} $$ times more slowly
+than in conductors. Pure water and dry table salt are insulators, for example,
+whereas molten salt and salty water are conductors.
+
+![In part a, an electroscope is shown. A glass rod with positive signs is close to the tip of the electroscope which has negative signs on it and the leaves have has plus signs on it. In part b, the glass rod with positive sign is in contact with the tip of electroscope having negative signs. The negative signs are shown moving to the rod by arrows pointing toward the rod. The surfaces of the leaves now have both positive and negative charge. In part c, the glass rod is absent. The tip and the leaves of the electroscope have both positive and negative signs on them.](../resources/Figure_18_02_02.jpg 'An electroscope is a favorite instrument in physics demonstrations and student laboratories. It is typically made with gold foil leaves hung from a (conducting) metal stem and is insulated from the room air in a glass-walled container. (a) A positively charged glass rod is brought near the tip of the electroscope, attracting electrons to the top and leaving a net positive charge on the leaves. Like charges in the light flexible gold leaves repel, separating them. (b) When the rod is touched against the ball, electrons are attracted and transferred, reducing the net charge on the glass rod but leaving the electroscope positively charged. (c) The excess charges are evenly distributed in the stem and leaves of the electroscope once the glass rod is removed.')
+{: #Figure2}
+
+### Charging by Contact
+
+[[Figure 2]](#Figure2) shows an electroscope being charged by touching it with a
+positively charged glass rod. Because the glass rod is an insulator, it must
+actually touch the electroscope to transfer charge to or from it. (Note that the
+extra positive charges reside on the surface of the glass rod as a result of
+rubbing it with silk before starting the experiment.) Since only electrons move
+in metals, we see that they are attracted to the top of the electroscope. There,
+some are transferred to the positive rod by touch, leaving the electroscope with
+a net positive charge.
+
+**Electrostatic repulsion** in the leaves of the charged electroscope separates
+them. The electrostatic force has a horizontal component that results in the
+leaves moving apart as well as a vertical component that is balanced by the
+gravitational force. Similarly, the electroscope can be negatively charged by
+contact with a negatively charged object.
+
+### Charging by Induction
+
+It is not necessary to transfer excess charge directly to an object in order to
+charge it. [[Figure 3]](#Figure3) shows a method of **induction** wherein a
+charge is created in a nearby object, without direct contact. Here we see two
+neutral metal spheres in contact with one another but insulated from the rest of
+the world. A positively charged rod is brought near one of them, attracting
+negative charge to that side, leaving the other sphere positively charged.
+
+This is an example of induced **polarization** of neutral objects. Polarization
+is the separation of charges in an object that remains neutral. If the spheres
+are now separated (before the rod is pulled away), each sphere will have a net
+charge. Note that the object closest to the charged rod receives an opposite
+charge when charged by induction. Note also that no charge is removed from the
+charged rod, so that this process can be repeated without depleting the supply
+of excess charge.
+
+Another method of charging by induction is shown in [[Figure 4]](#Figure4). The
+neutral metal sphere is polarized when a charged rod is brought near it. The
+sphere is then grounded, meaning that a conducting wire is run from the sphere
+to the ground. Since the earth is large and most ground is a good conductor, it
+can supply or accept excess charge easily. In this case, electrons are attracted
+to the sphere through a wire called the ground wire, because it supplies a
+conducting path to the ground. The ground connection is broken before the
+charged rod is removed, leaving the sphere with an excess charge opposite to
+that of the rod. Again, an opposite charge is achieved when charging by
+induction and the charged rod loses none of its excess charge.
+
+![In part a, a pair of neutral metal spheres are in contact. In part b, a rod with positive signs is close to one surface of the sphere and the negative signs are shown on this surface toward the rod and positive signs are shown on the outermost face of the other sphere. In part c, the rod and the spheres are not in contact. The outermost surface of one sphere has negative signs and the outermost surface of another sphere has positive signs. In part d, the glass rod is not shown. The inner surfaces of the metallic spheres have opposite charges. One sphere has negative signs and the other has positive signs facing each other.](../resources/Figure_18_02_03.jpg 'Charging by induction. (a) Two uncharged or neutral metal spheres are in contact with each other but insulated from the rest of the world. (b) A positively charged glass rod is brought near the sphere on the left, attracting negative charge and leaving the other sphere positively charged. (c) The spheres are separated before the rod is removed, thus separating negative and positive charge. (d) The spheres retain net charges after the inducing rod is removed—without ever having been touched by a charged object.')
+{: #Figure3}
+
+![ In part a, a rod with positive sign is brought near a neutral metal sphere. One surface toward the rod has negative signs and the other surface has positive signs. In part b, a rod with positive sign is close to one surface of the sphere having negative signs and the other surface has low number of positive signs and a wire is attached to that face which is connected to the ground. In part c, a rod with positive sign is close to one surface of the sphere having negative signs and the other surface has low number of positive signs. In part d, the positive rod is absent, and the sphere has negative signs on it.](../resources/Figure_18_02_04.jpg 'Charging by induction, using a ground connection. (a) A positively charged rod is brought near a neutral metal sphere, polarizing it. (b) The sphere is grounded, allowing electrons to be attracted from the earth’s ample supply. (c) The ground connection is broken. (d) The positive rod is removed, leaving the sphere with an induced negative charge.')
+{: #Figure4}
+
+![Microscopic views of objects are shown. A positive rod with positive signs is close to an insulator. The negative ends of all the molecules of the insulator are aligned toward the rod and positive ends of all molecules shown as spheres are away from the rod. In part b, a negative rod with negative signs is close to an insulator. The positive ends of all the molecules of the insulator are aligned toward the rod and negative ends of all molecules shown as spheres are away from the rod. In part c, a rod with negative signs and insulator with the surface closer to the rod has positive signs. The other surface has negative signs.](../resources/Figure_18_02_05.jpg 'Both positive and negative objects attract a neutral object by polarizing its molecules. (a) A positive object brought near a neutral insulator polarizes its molecules. There is a slight shift in the distribution of the electrons orbiting the molecule, with unlike charges being brought nearer and like charges moved away. Since the electrostatic force decreases with distance, there is a net attraction. (b) A negative object produces the opposite polarization, but again attracts the neutral object. (c) The same effect occurs for a conductor; since the unlike charges are closer, there is a net attraction.')
+{: #Figure5}
+
+Neutral objects can be attracted to any charged object. The pieces of straw
+attracted to polished amber are neutral, for example. If you run a plastic comb
+through your hair, the charged comb can pick up neutral pieces of
+paper. [[Figure 5]](#Figure5) shows how the polarization of atoms and molecules
+in neutral objects results in their attraction to a charged object.
+
+When a charged rod is brought near a neutral substance, an insulator in this
+case, the distribution of charge in atoms and molecules is shifted slightly.
+Opposite charge is attracted nearer the external charged rod, while like charge
+is repelled. Since the electrostatic force decreases with distance, the
+repulsion of like charges is weaker than the attraction of unlike charges, and
+so there is a net attraction. Thus a positively charged glass rod attracts
+neutral pieces of paper, as will a negatively charged rubber rod. Some
+molecules, like water, are polar molecules. Polar molecules have a natural or
+inherent separation of charge, although they are neutral overall. Polar
+molecules are particularly affected by other charged objects and show greater
+polarization effects than molecules with naturally uniform charge distributions.
+
+<div class="exercise" data-element-type="check-understanding" data-label="">
+<div class="title">
+Check Your Understanding
+</div>
+
+::: problem
+
+Can you explain the attraction of water to the charged rod in [[Figure 6]](#Figure6) ?
+
+![Water flowing out of a glass pipette changes its course when a charged rod is brought close to it.](../resources/Figure_18_02_06.jpg ' ')
+{: #Figure6}
+
+:::
+
+::: solution
+
+<div class="title">
+Answer
+</div>
+
+Water molecules are polarized, giving them slightly positive and slightly negative sides. This makes water even more susceptible to a charged rod’s attraction. As the water flows downward, due to the force of gravity, the charged conductor exerts a net attraction to the opposite charges in the stream of water, pulling it closer.
+
+:::
+
+</div>
+
+::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
+
+<div class="title">
+PhET Explorations: John Travoltage
+</div>
+
+Make sparks fly with John Travoltage. Wiggle Johnnie\'s foot and he picks up charges from the carpet. Bring his hand close to the door knob and get rid of the excess charge.
+{: class="newline"}
+
+<div class="media"  data-alt="john travoltage">
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/john-travoltage/latest/john-travoltage_en.html"></iframe>
+</div>
+
+:::
+
+### Section Summary
+
+- Polarization is the separation of positive and negative charges in a neutral
+  object.
+- A conductor is a substance that allows charge to flow freely through its
+  atomic structure.
+- An insulator holds charge within its atomic structure.
+- Objects with like charges repel each other, while those with unlike charges
+  attract each other.
+- A conducting object is said to be grounded if it is connected to the Earth
+  through a conductor. Grounding allows transfer of charge to and from the
+  earth’s large reservoir.
+- Objects can be charged by contact with another charged object and obtain the
+  same sign charge.
+- If an object is temporarily grounded, it can be charged by induction, and
+  obtains the opposite sign charge.
+- Polarized objects have their positive and negative charges concentrated in
+  different areas, giving them a non-symmetrical charge.
+- Polar molecules have an inherent separation of charge.
+
+### Conceptual Questions
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+An eccentric inventor attempts to levitate by first placing a large negative charge on himself and then putting a large positive charge on the ceiling of his workshop. Instead, while attempting to place a large negative charge on himself, his clothes fly off. Explain.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+If you have charged an electroscope by contact with a positively charged object, describe how you could use it to determine the charge of other objects. Specifically, what would the leaves of the electroscope do if other charged objects were brought near its knob?
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+When a glass rod is rubbed with silk, it becomes positive and the silk becomes negative—yet both attract dust. Does the dust have a third type of charge that is attracted to both positive and negative? Explain.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+Why does a car always attract dust right after it is polished? (Note that car wax and car tires are insulators.)
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+Describe how a positively charged object can be used to give another object a negative charge. What is the name of this process?
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="conceptual-questions">
+
+::: problem
+
+What is grounding? What effect does it have on a charged conductor? On a charged insulator?
+
+:::
+
+</div>
+
+### Problems &amp; Exercises
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+Suppose a speck of dust in an electrostatic precipitator has  $$ 1.0000 \times 10^{12}  $$
+ protons in it and has a net charge of –5.00 nC (a very large charge for a small speck). How many electrons does it have?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The net charge is the difference between the positive charge from protons and the negative charge from electrons. Let $$n_p$$ be the number of protons and $$n_e$$ be the number of electrons. The net charge is $$q = n_p e - n_e e = (n_p - n_e)e$$, where $$e = 1.60 \times 10^{-19} \text{ C}$$.
+
+**Solution**
+
+Given: $$n_p = 1.0000 \times 10^{12}$$ and $$q = -5.00 \times 10^{-9} \text{ C}$$.
+
+Rearranging the charge equation:
+
+<div class="equation">
+ $$(n_p - n_e)e = q$$
+</div>
+
+<div class="equation">
+ $$n_e = n_p - \frac{q}{e} = 1.0000 \times 10^{12} - \frac{-5.00 \times 10^{-9} \text{ C}}{1.60 \times 10^{-19} \text{ C}}$$
+</div>
+
+<div class="equation">
+ $$n_e = 1.0000 \times 10^{12} + 3.125 \times 10^{10} = 1.0000 \times 10^{12} + 0.03125 \times 10^{12}$$
+</div>
+
+<div class="equation">
+ $$n_e = 1.03125 \times 10^{12} \approx 1.03 \times 10^{12} \text{ electrons}$$
+</div>
+
+**Discussion**
+
+This problem illustrates several fundamental principles of charge and atomic structure:
+
+**Charge Quantization:** All charge exists in discrete multiples of the elementary charge e = 1.60 × 10⁻¹⁹ C. The net charge of −5.00 nC corresponds to an excess of 3.125 × 10¹⁰ electrons, demonstrating that charge is quantized—you cannot have a fraction of an electron.
+
+**Atomic Structure and Conservation:** The dust speck contains 1.0000 × 10¹² protons (positive charges in the nuclei) and 1.03125 × 10¹² electrons (negative charges surrounding the nuclei). The total charge is conserved: the net charge equals (1.0000 × 10¹² - 1.03125 × 10¹²)(−e) = −5.00 nC. The electrons must have come from somewhere else (transferred from another object), demonstrating charge conservation.
+
+**Practical Context:** The charge of −5.00 nC is actually quite large for a dust speck. For comparison, this is about 31 billion excess electrons. In electrostatic precipitators used to remove particles from industrial exhaust, such large charges create strong electric forces that pull the charged particles to collection plates.
+
+**Reasonableness Check:** The result shows that even though the dust speck has over a trillion of each type of charge carrier, only a 3% excess of electrons creates a "very large charge" as stated in the problem. This makes sense because even a small imbalance in the enormous numbers of subatomic particles in matter can create significant electric effects.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+An amoeba has  $$1.00 \times 10^{16}  $$
+ protons and a net charge of 0.300 pC. (a) How many fewer electrons are there than protons? (b) If you paired them up, what fraction of the protons would have no electrons?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The amoeba has a positive net charge, which means it has fewer electrons than protons. The net charge equals the charge of the excess protons: $$q = (n_p - n_e)e$$.
+
+**Solution**
+
+Given: $$n_p = 1.00 \times 10^{16}$$ protons and $$q = 0.300 \times 10^{-12} \text{ C}$$.
+
+**(a)** Number of fewer electrons than protons:
+
+<div class="equation">
+ $$n_p - n_e = \frac{q}{e} = \frac{0.300 \times 10^{-12} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 1.875 \times 10^{6} = 1.88 \times 10^{6}$$
+</div>
+
+**(b)** Fraction of protons with no electrons:
+
+<div class="equation">
+ $$\text{Fraction} = \frac{n_p - n_e}{n_p} = \frac{1.875 \times 10^{6}}{1.00 \times 10^{16}} = 1.875 \times 10^{-10} = 1.88 \times 10^{-10}$$
+</div>
+
+**Discussion**
+
+This problem demonstrates the extreme degree of electrical neutrality in biological systems:
+
+**Charge Quantization:** The net positive charge of 0.300 pC = 0.300 × 10⁻¹² C corresponds to exactly 1.875 × 10⁶ elementary charges (since Q = Ne where e = 1.60 × 10⁻¹⁹ C). This means the amoeba is missing precisely 1.88 million electrons. Charge is always quantized in integer multiples of the elementary charge—you can't have 1.5 electrons missing.
+
+**Atomic Structure and Conservation:** The amoeba contains 1.00 × 10¹⁶ protons distributed throughout the nuclei of all its atoms. In a neutral amoeba, there would be an equal number of electrons in the electron clouds surrounding these nuclei. The deficit of 1.88 million electrons represents an incredibly tiny fraction (1.88 × 10⁻¹⁰) of the total. These missing electrons were removed from the amoeba and must now reside elsewhere, conserving the total charge of the universe.
+
+**Practical Context:** The charge of 0.300 pC is extremely small—this is less than a trillionth of a coulomb. Even this tiny charge requires the removal of nearly 2 million electrons. This illustrates why biological systems are so well insulated from electric effects: even "charged" organisms are almost perfectly neutral.
+
+**Reasonableness Check:** Part (b) shows that if you paired up electrons with protons, only about 2 electrons per 10 billion protons would be unpaired. This fraction of 1.88 × 10⁻¹⁰ is astonishingly small, confirming that living organisms operate in an essentially neutral electrical state despite containing enormous numbers of charged particles.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+A 50.0 g ball of copper has a net charge of  $$2.00 µ\text{C} $$ .
+ What fraction of the copper's electrons has been removed? (Each copper atom has 29 protons, and copper has an atomic mass of 63.5.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+First, find the total number of copper atoms using the atomic mass and Avogadro's number. Then calculate the total number of electrons (29 per atom). Finally, determine how many electrons were removed to create the net charge, and find the fraction.
+
+**Solution**
+
+Number of moles of copper:
+
+<div class="equation">
+ $$n = \frac{m}{M} = \frac{50.0 \text{ g}}{63.5 \text{ g/mol}} = 0.787 \text{ mol}$$
+</div>
+
+Number of copper atoms:
+
+<div class="equation">
+ $$N_{\text{atoms}} = n \times N_A = (0.787 \text{ mol})(6.02 \times 10^{23} \text{ atoms/mol}) = 4.74 \times 10^{23} \text{ atoms}$$
+</div>
+
+Total number of electrons (29 per atom):
+
+<div class="equation">
+ $$N_{\text{electrons}} = 29 \times N_{\text{atoms}} = 29 \times 4.74 \times 10^{23} = 1.37 \times 10^{25} \text{ electrons}$$
+</div>
+
+Number of electrons removed:
+
+<div class="equation">
+ $$n_{\text{removed}} = \frac{q}{e} = \frac{2.00 \times 10^{-6} \text{ C}}{1.60 \times 10^{-19} \text{ C}} = 1.25 \times 10^{13} \text{ electrons}$$
+</div>
+
+Fraction removed:
+
+<div class="equation">
+ $$\text{Fraction} = \frac{n_{\text{removed}}}{N_{\text{electrons}}} = \frac{1.25 \times 10^{13}}{1.37 \times 10^{25}} = 9.09 \times 10^{-13}$$
+</div>
+
+**Discussion**
+
+This problem illustrates the vast number of electrons in macroscopic objects and how conductors can be charged:
+
+**Charge Quantization:** The net charge of 2.00 μC = 2.00 × 10⁻⁶ C equals exactly 1.25 × 10¹³ elementary charges (using Q = Ne with e = 1.60 × 10⁻¹⁹ C). This means precisely 12.5 trillion electrons were removed. Despite this huge number, charge remains quantized—each electron carries exactly one elementary charge e.
+
+**Atomic Structure and Conservation:** Copper atoms have 29 protons in the nucleus and normally 29 electrons in their electron cloud. The 50.0 g sample contains 4.74 × 10²³ copper atoms with a total of 1.37 × 10²⁵ electrons. Removing 1.25 × 10¹³ electrons leaves the copper with a net positive charge. These electrons must have been transferred to another object (perhaps through friction or contact), demonstrating charge conservation. In conductors like copper, the outermost electrons are loosely bound and can move freely, making charge transfer relatively easy.
+
+**Practical Context:** A charge of 2.00 μC is moderate by electrostatic standards—comparable to what you might build up walking across a carpet or rubbing a balloon on your hair. Such charges are common in everyday static electricity phenomena and can produce noticeable sparks and attractions.
+
+**Reasonableness Check:** Only 9.09 × 10⁻¹³ (less than one trillionth) of the copper's electrons were removed, yet this creates a significant charge. This makes sense because matter contains stupendous numbers of electrons—even a 50 g sample has over 10²⁵ electrons. The fact that removing "only" 12.5 trillion electrons (an enormous number by everyday standards) represents such a tiny fraction demonstrates the atomic-scale vastness of matter.
+
+:::
+
+</div>
+
+<div class="exercise" data-element-type="problems-exercises">
+
+::: problem
+
+What net charge would you place on a 100 g piece of sulfur if you put an extra electron on 1 in  $$ 10^{12} $$
+ of its atoms? (Sulfur has an atomic mass of 32.1.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Calculate the total number of sulfur atoms using the mass, atomic mass, and Avogadro's number. Then find how many atoms receive an extra electron (1 in 10¹²), and multiply by the electron charge.
+
+**Solution**
+
+Number of moles of sulfur:
+
+<div class="equation">
+ $$n = \frac{m}{M} = \frac{100 \text{ g}}{32.1 \text{ g/mol}} = 3.12 \text{ mol}$$
+</div>
+
+Total number of sulfur atoms:
+
+<div class="equation">
+ $$N_{\text{atoms}} = n \times N_A = (3.12 \text{ mol})(6.02 \times 10^{23} \text{ atoms/mol}) = 1.88 \times 10^{24} \text{ atoms}$$
+</div>
+
+Number of atoms with an extra electron:
+
+<div class="equation">
+ $$N_{\text{extra}} = \frac{N_{\text{atoms}}}{10^{12}} = \frac{1.88 \times 10^{24}}{10^{12}} = 1.88 \times 10^{12} \text{ electrons}$$
+</div>
+
+Net charge:
+
+<div class="equation">
+ $$q = -N_{\text{extra}} \times e = -(1.88 \times 10^{12})(1.60 \times 10^{-19} \text{ C}) = -3.00 \times 10^{-7} \text{ C} = -0.300 \text{ μC}$$
+</div>
+
+**Discussion**
+
+This problem demonstrates how even a sparse distribution of excess charges creates measurable effects:
+
+**Charge Quantization:** The net charge of −0.300 μC = −3.00 × 10⁻⁷ C corresponds to exactly 1.88 × 10¹² elementary charges (since Q = Ne where e = 1.60 × 10⁻¹⁹ C). This represents 1.88 trillion extra electrons distributed throughout the sulfur. Each electron contributes one quantum of charge e, illustrating the discrete nature of charge.
+
+**Atomic Structure and Conservation:** Sulfur atoms normally have 16 protons and 16 electrons (sulfur's atomic number is 16). The 100 g sample contains 1.88 × 10²⁴ sulfur atoms. Adding one extra electron to every trillionth atom (1 in 10¹²) gives 1.88 × 10¹² atoms with 17 electrons instead of 16. These excess electrons must have come from another object, conserving total charge. Unlike the copper example, sulfur is an insulator, so these electrons are bound to specific atoms rather than moving freely.
+
+**Practical Context:** The charge of −0.300 μC (or −300 nC) is typical of static electricity you encounter daily. This is the kind of charge that might accumulate on a plastic comb when you run it through dry hair, or on clothing in a dryer. Such charges can cause sparks, attract small objects like bits of paper, or give you a small shock.
+
+**Reasonableness Check:** The problem asks us to add just one electron per trillion atoms, which seems very sparse. Yet this produces a substantial charge of −0.300 μC. This makes perfect sense: with nearly 2 × 10²⁴ atoms in the sample, even one electron per trillion atoms yields almost 2 trillion excess electrons. This illustrates how the enormous number of atoms in macroscopic objects means that even extremely dilute charge distributions create measurable electric effects.
+
+:::
+
+</div>
+
+<div class="exercise"  data-element-type="problems-exercises">
+
+::: problem
+
+How many coulombs of positive charge are there in 4.00 kg of plutonium, given its atomic mass is 244 and that each plutonium atom has 94 protons?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Find the total number of plutonium atoms using the mass, atomic mass, and Avogadro's number. Multiply by the number of protons per atom (94) to get the total number of protons, then multiply by the proton charge.
+
+**Solution**
+
+Number of moles of plutonium:
+
+<div class="equation">
+ $$n = \frac{m}{M} = \frac{4000 \text{ g}}{244 \text{ g/mol}} = 16.4 \text{ mol}$$
+</div>
+
+Number of plutonium atoms:
+
+<div class="equation">
+ $$N_{\text{atoms}} = n \times N_A = (16.4 \text{ mol})(6.02 \times 10^{23} \text{ atoms/mol}) = 9.87 \times 10^{24} \text{ atoms}$$
+</div>
+
+Total number of protons (94 per atom):
+
+<div class="equation">
+ $$N_{\text{protons}} = 94 \times N_{\text{atoms}} = 94 \times 9.87 \times 10^{24} = 9.28 \times 10^{26} \text{ protons}$$
+</div>
+
+Total positive charge:
+
+<div class="equation">
+ $$q = N_{\text{protons}} \times e = (9.28 \times 10^{26})(1.60 \times 10^{-19} \text{ C}) = 1.48 \times 10^{8} \text{ C}$$
+</div>
+
+**Discussion**
+
+This problem reveals the staggering amount of charge contained in ordinary matter:
+
+**Charge Quantization:** The total positive charge of 1.48 × 10⁸ C equals 9.28 × 10²⁶ elementary charges (since Q = Ne where e = 1.60 × 10⁻¹⁹ C). This is the number of protons in 4.00 kg of plutonium. Each proton contributes exactly one elementary charge e = 1.60 × 10⁻¹⁹ C to the total, demonstrating that all charge comes in discrete quanta.
+
+**Atomic Structure and Conservation:** Plutonium has atomic number 94, meaning each atom has 94 protons in its nucleus. In neutral plutonium, there are also exactly 94 electrons per atom orbiting the nucleus. The 4.00 kg sample contains 9.87 × 10²⁴ atoms. The total positive charge (9.28 × 10²⁶ protons) is exactly balanced by an equal number of electrons carrying negative charge. The total net charge is zero, demonstrating perfect charge neutrality. If we isolated the protons or electrons, charge would still be conserved—the separated charges would sum to the same total.
+
+**Practical Context:** The amount of positive charge, 1.48 × 10⁸ C (148 million coulombs), is absolutely enormous compared to typical static electricity charges (which are measured in microcoulombs or nanocoulombs). For perspective, a lightning bolt might transfer only about 15 coulombs. The fact that plutonium contains 10 million times more charge than a lightning bolt—yet shows no electrical effects—demonstrates the perfect balance between positive and negative charges in neutral matter.
+
+**Reasonableness Check:** This enormous charge seems surprising until you realize that it's completely balanced by an equal amount of negative charge from electrons. Every one of the 9.28 × 10²⁶ protons has a corresponding electron, achieving electrical neutrality. This perfect balance is why we can safely handle massive amounts of matter without experiencing devastating electrical forces. Even a tiny imbalance (say 0.001% more electrons than protons) would create a charge of about 10⁶ C, producing immense electrostatic forces. The fact that matter remains neutral to extraordinary precision is fundamental to the stability of our world.
+
+:::
+
+</div>
+
+::: glossary
+
+### Glossary
+{: class="glossary-title"}
+
+free electron
+: an electron that is free to move away from its atomic orbit
+
+conductor
+: a material that allows electrons to move separately from their atomic orbits
+
+insulator
+: a material that holds electrons securely within their atomic orbits
+
+grounded
+: when a conductor is connected to the Earth, allowing charge to freely flow to
+and from Earth’s unlimited reservoir
+
+induction
+: the process by which an electrically charged object brought near a neutral
+object creates a charge in that object
+
+polarization
+: slight shifting of positive and negative charges to opposite sides of an atom
+or molecule
+
+electrostatic repulsion
+: the phenomenon of two objects with like charges repelling each other
+
+:::
