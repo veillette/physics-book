@@ -45,7 +45,7 @@ eleventyExcludeFromCollections: true
     return;
   }
 
-  // Configuration - uses the site path prefix (Pages: /physics-book2, Vercel: root).
+  // Configuration - uses the site path prefix (Pages: /physics-book, Vercel: root).
   // Service worker must be at root to control the entire site scope.
   const BASE_PATH = '{{ "/" | url | trimSlash }}/';
   const SW_PATH = `{{ "/" | url | trimSlash }}/sw.js`;

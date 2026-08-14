@@ -2,7 +2,7 @@ import fs from 'fs';
 import { chromium } from 'playwright';
 
 (async () => {
-  const baseUrl = 'http://localhost:4000/physics-book2/contents/';
+  const baseUrl = 'http://localhost:4000/physics-book/contents/';
   const siteDir = '_site/contents';
 
   // Get all HTML files

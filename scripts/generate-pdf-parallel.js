@@ -20,7 +20,7 @@ class ParallelPDFGenerator {
   constructor(options = {}) {
     this.baseDir = path.resolve(__dirname, '..');
     this.outputDir = path.join(this.baseDir, 'pdf-output');
-    this.baseUrl = options.baseUrl || 'http://localhost:4000/physics-book2';
+    this.baseUrl = options.baseUrl || 'http://localhost:4000/physics-book';
     this.maxConcurrency = options.maxConcurrency || 4; // Number of parallel browsers
 
     this.viewport = { width: 1200, height: 800 };

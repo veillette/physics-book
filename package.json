@@ -1,8 +1,8 @@
 {
-  "name": "physics-book2",
+  "name": "physics-book",
   "version": "1.0.0",
   "description": "Textbook for General Physics I",
-  "repository": "https://github.com/veillette/physics-book2",
+  "repository": "https://github.com/veillette/physics-book",
   "type": "module",
   "scripts": {
     "prepare": "sh hooks/install.sh",

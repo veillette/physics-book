@@ -106,7 +106,7 @@ jobs:
         uses: actions/upload-artifact@v7
         if: always()
         with:
-          name: physics-book2-pdfs-${{ steps.date.outputs.date }}
+          name: physics-book-pdfs-${{ steps.date.outputs.date }}
           path: assets/pdf/
           retention-days: 90
 

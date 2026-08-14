@@ -9,5 +9,5 @@ export default {
   author: 'Martin Veillette',
   url: 'https://veillette.github.io',
   // GitHub repository URL for footer links and metadata.
-  repositoryUrl: 'https://github.com/veillette/physics-book2',
+  repositoryUrl: 'https://github.com/veillette/physics-book',
 };

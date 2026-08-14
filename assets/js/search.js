@@ -19,7 +19,7 @@ class SearchManager {
     this.miniSearch = null;
     this.documents = [];
     this.isReady = false;
-    this.baseUrl = '/physics-book2/';
+    this.baseUrl = '/physics-book/';
   }
 
   /**

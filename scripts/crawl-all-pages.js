@@ -30,7 +30,7 @@ const CONCURRENCY =
     : 5) ||
   5;
 
-const baseUrl = 'http://localhost:4000/physics-book2/contents/';
+const baseUrl = 'http://localhost:4000/physics-book/contents/';
 const siteDir = '_site/contents';
 const contentsDir = 'contents';
 

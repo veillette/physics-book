@@ -186,7 +186,7 @@ class OrphanFileFinder {
         return path.relative(this.baseDir, absolutePath);
       } else if (url.startsWith('/')) {
         let resolved = url.substring(1);
-        resolved = resolved.replace(/^physics-book2\//, '');
+        resolved = resolved.replace(/^physics-book\//, '');
         return resolved;
       } else {
         return url;

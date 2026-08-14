@@ -11,8 +11,8 @@ title: Offline
     <h2>📚 Available Sections</h2>
     <p>The following sections should be available offline:</p>
     <ul style="text-align: left; display: inline-block">
-      <li><a href="/physics-book2/">📖 Home Page</a></li>
-      <li><a href="/physics-book2/SUMMARY.html">📋 Table of Contents</a></li>
+      <li><a href="/physics-book/">📖 Home Page</a></li>
+      <li><a href="/physics-book/SUMMARY.html">📋 Table of Contents</a></li>
       <li>📄 Previously visited chapters</li>
     </ul>
   </div>
@@ -50,7 +50,7 @@ title: Offline
       statusEl.innerHTML = '✅ Connected - You can access all content';
       statusEl.style.color = 'green';
       setTimeout(() => {
-        window.location.href = '/physics-book2/';
+        window.location.href = '/physics-book/';
       }, 2000);
     } else {
       statusEl.innerHTML = '❌ Offline - Limited content available';
@@ -62,12 +62,12 @@ title: Offline
     updateConnectionStatus();
     if (navigator.onLine) {
       // Try to fetch a small resource to verify real connectivity
-      fetch('/physics-book2/assets/image/favicon.ico', {
+      fetch('/physics-book/assets/image/favicon.ico', {
         method: 'HEAD',
         cache: 'no-cache',
       })
         .then(() => {
-          window.location.href = '/physics-book2/';
+          window.location.href = '/physics-book/';
         })
         .catch(() => {
           alert('Connection test failed. Please check your internet connection.');

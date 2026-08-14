@@ -33,7 +33,7 @@ class PDFGenerator {
   constructor(options = {}) {
     this.baseDir = getBaseDir(import.meta.url);
     this.outputDir = path.join(this.baseDir, 'pdf-output');
-    this.baseUrl = options.baseUrl || 'http://localhost:4000/physics-book2';
+    this.baseUrl = options.baseUrl || 'http://localhost:4000/physics-book';
     this.chapter = options.chapter || null;
     this.all = options.all || false;
     this.combined = options.combined || false;
@@ -574,9 +574,9 @@ Prerequisites:
     },
     baseUrl: {
       flag: ['-b', '--base-url'],
-      description: 'Base URL for dev server (default: http://localhost:4000/physics-book2)',
+      description: 'Base URL for dev server (default: http://localhost:4000/physics-book)',
       type: 'string',
-      default: 'http://localhost:4000/physics-book2',
+      default: 'http://localhost:4000/physics-book',
     },
   },
   examples: [
@@ -584,7 +584,7 @@ Prerequisites:
     'node scripts/generate-pdf.js --chapter 5',
     'node scripts/generate-pdf.js --combined',
     'node scripts/generate-pdf.js --book',
-    'node scripts/generate-pdf.js --url http://localhost:4000/physics-book2/contents/ch1PhysicsAnIntroduction.html',
+    'node scripts/generate-pdf.js --url http://localhost:4000/physics-book/contents/ch1PhysicsAnIntroduction.html',
   ],
   run: async options => {
     const generator = new PDFGenerator(options);
