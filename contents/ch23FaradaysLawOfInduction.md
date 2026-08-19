@@ -210,7 +210,7 @@ Play with a bar magnet and coils to learn about Faraday\'s law. Move a bar magne
 {: class="newline"}
 
 <div class="media" data-alt="">
-<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/faraday/#sim-bar-magnet"></iframe>
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/faraday/latest/faraday_all.html#sim-bar-magnet"></iframe>
 </div>
 
 :::

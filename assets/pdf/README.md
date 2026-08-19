@@ -16,7 +16,7 @@ This directory contains auto-generated PDF files of the physics book.
 PDFs are **not committed to git**. They are generated automatically:
 
 1. **On every GitHub Pages deploy** — `.github/workflows/deploy.yml` generates PDFs with Playwright before publishing (~60 minutes)
-2. **Quarterly archive** — `.github/workflows/generate-pdfs.yml` publishes PDFs to the [`pdfs` GitHub Release](https://github.com/veillette/physics-book2/releases) (1st of Jan, Apr, Jul, Oct)
+2. **Quarterly archive** — `.github/workflows/generate-pdfs.yml` publishes PDFs to the [`pdfs` GitHub Release](https://github.com/QuadriviumPress/college-physics-textbook/releases) (1st of Jan, Apr, Jul, Oct)
 
 ### Processing Details
 

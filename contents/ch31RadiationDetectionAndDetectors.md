@@ -109,7 +109,7 @@ Learn about different types of radiometric dating, such as carbon dating. Unders
 {: class="newline"}
 
 <div class="media" data-alt="">
-<iframe width="860" height="671.4" src="https://veillette.github.io/simulations/radioactive-dating-game/#sim-half-life"></iframe>
+<iframe width="860" height="671.4" src="https://phet.colorado.edu/sims/html/radioactive-dating-game/latest/radioactive-dating-game_all.html#sim-half-life"></iframe>
 </div>
 
 :::

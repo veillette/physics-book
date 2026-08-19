@@ -6,8 +6,8 @@ export default {
     'This introductory, algebra-based, college physics book is grounded with ' +
     'real-world examples, illustrations, and explanations to help students ' +
     'grasp key, fundamental physics concepts.',
-  author: 'Martin Veillette',
-  url: 'https://veillette.github.io',
+  author: 'OpenStax',
+  url: 'https://quadriviumpress.github.io',
   // GitHub repository URL for footer links and metadata.
-  repositoryUrl: 'https://github.com/veillette/physics-book',
+  repositoryUrl: 'https://github.com/QuadriviumPress/college-physics-textbook',
 };

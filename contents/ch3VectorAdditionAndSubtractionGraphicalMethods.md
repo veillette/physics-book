@@ -336,8 +336,7 @@ game more difficult. Try to make a goal as fast as you can.
 ::: figure {}
 
 <div class="cnxsim">
-<iframe loading="lazy" src="https://veillette.github.io/simulations/maze-game/#sim-maze-game
-" width="750" height="500"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/maze-game/latest/maze-game_all.html#sim-maze-game" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Maze Game
 </figcaption>

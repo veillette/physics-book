@@ -554,7 +554,7 @@ and masses of 2, 3, or 4 bodies, and then see them orbit each other.
 
 ::: figure {}
 
-<iframe loading="lazy" src="https://veillette.github.io/simulations/my-solar-system/#sim-my-solar-system" width="750" height="500"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/my-solar-system/latest/my-solar-system_all.html#sim-my-solar-system" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 My solar system
 </figcaption>

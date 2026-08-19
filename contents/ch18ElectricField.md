@@ -156,7 +156,7 @@ Play ball! Add charges to the Field of Dreams and see how they react to the elec
 {: class="newline"}
 
 <div class="media"  data-alt="electric field">
-<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/electric-field-of-dreams/#sim-electric-field-of-dreams"></iframe>
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/electric-field-of-dreams/latest/electric-field-of-dreams_all.html#sim-electric-field-of-dreams"></iframe>
 </div>
 
 :::

@@ -214,7 +214,7 @@ Ever wonder how a compass worked to point you to the Arctic? Explore the interac
 {: class="newline"}
 
 <div class="media"  data-alt="Other medical uses for magnetic field">
-<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/magnet-and-compass/#sim-bar-magnet"></iframe>
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/magnet-and-compass/latest/magnet-and-compass_all.html#sim-bar-magnet"></iframe>
 </div>
 
 :::

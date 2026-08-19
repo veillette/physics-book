@@ -497,7 +497,7 @@ Learn about position, velocity, and acceleration graphs. Move the little man bac
 ::: figure {}
 
 <div class="figure">
-<iframe loading="lazy" src="https://veillette.github.io/simulations/moving-man/" width="750" height="500"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/moving-man/latest/moving-man_all.html" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Moving Man
 </figcaption>

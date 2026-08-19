@@ -206,7 +206,7 @@ PhET Explorations: Radio Waves and Electromagnetic Fields
 Broadcast radio waves from KPhET. Wiggle the transmitter electron manually or have it oscillate automatically. Display the field as a curve or vectors. The strip chart shows the electron positions at the transmitter and at the receiver.
 
 <div class="media" id="PhET_module" data-alt="">
-<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/radio-waves/#sim-radio-waves"></iframe>
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/radio-waves/latest/radio-waves_all.html#sim-radio-waves"></iframe>
 </div>
 
 :::

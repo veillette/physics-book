@@ -234,7 +234,7 @@ See how light knocks electrons off a metal target, and recreate the experiment t
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
-<iframe width="760" height="671.4" src="https://veillette.github.io/simulations/photoelectric-effect/#sim-photoelectric-effect"></iframe>
+<iframe width="760" height="671.4" src="https://phet.colorado.edu/sims/html/photoelectric-effect/latest/photoelectric-effect_all.html#sim-photoelectric-effect"></iframe>
 </div>
 
 :::

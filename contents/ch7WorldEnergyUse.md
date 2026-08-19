@@ -33,7 +33,7 @@ warming and fossil fuel use, with its production of carbon dioxide through
 combustion, has made, in the eyes of many scientists, a shift to non-fossil
 fuels of utmost importance—but it will not be easy.
 
-![A pie chart of the world’s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/Figure_07_09_01.svg 'World energy consumption (2018) based on data from BP Statistical Review of World Energy (credit:Veillette)')
+![A pie chart of the world’s energy consumption by source is shown. Thirty-five point four three percent is petroleum, twenty-eight point one five percent is coal, twenty-three point four six percent is dry natural gas, six point two seven percent is hydro-electricity, five point seven nine percent is nuclear electricity, point eight six percent is geothermal, wind, solar, biomass, and point zero five percent is geothermal, biomass, or solar energy not used for electricity.](../resources/Figure_07_09_01.svg 'World energy consumption (2018) based on data from BP Statistical Review of World Energy (credit:QuadriviumPress)')
 {: #Figure1}
 
 ### The World’s Growing Energy Needs

@@ -29,7 +29,7 @@ import { runCli, STANDARD_FLAGS } from './lib/cli.js';
 
 const DEFAULT_URLS = {
   vercel: 'https://physics-book.vercel.app',
-  github: 'https://veillette.github.io/physics-book',
+  github: 'https://quadriviumpress.github.io/college-physics-textbook',
 };
 
 // Critical pages to check

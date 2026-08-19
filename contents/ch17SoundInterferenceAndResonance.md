@@ -351,7 +351,7 @@ This simulation lets you see sound waves. Adjust the frequency or volume and you
 {: class="newline"}
 
 <div class="media"  data-alt="sound">
-<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/sound/#sim-single-source"></iframe>
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/sound/latest/sound_all.html#sim-single-source"></iframe>
 </div>
 
 :::
