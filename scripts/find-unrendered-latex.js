@@ -26,7 +26,7 @@ import { chromium } from '@playwright/test';
 import chalk from 'chalk';
 import { glob } from 'glob';
 
-const baseUrl = 'http://localhost:4000/physics-book/contents/';
+const baseUrl = 'http://localhost:4000/college-physics-textbook/contents/';
 const siteDir = '_site/contents';
 const contentsDir = 'contents';
 

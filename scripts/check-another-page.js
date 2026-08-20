@@ -4,7 +4,8 @@ import { chromium } from 'playwright';
   const browser = await chromium.launch();
   const page = await browser.newPage();
 
-  const url = 'http://localhost:4000/physics-book/contents/ch11ArchimedesPrinciple.html';
+  const url =
+    'http://localhost:4000/college-physics-textbook/contents/ch11ArchimedesPrinciple.html';
   console.log(`Checking: ${url}\n`);
 
   await page.goto(url, { waitUntil: 'networkidle' });

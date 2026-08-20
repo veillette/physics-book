@@ -26,7 +26,7 @@ const __dirname = dirname(__filename);
 
 const baseDir = path.resolve(__dirname, '..');
 const outputDir = path.join(baseDir, 'pdf-output');
-const baseUrl = 'http://localhost:4000/physics-book';
+const baseUrl = 'http://localhost:4000/college-physics-textbook';
 
 const failedChapters = [
   {

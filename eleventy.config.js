@@ -1,10 +1,10 @@
 import { createMarkdown } from './lib/eleventy/markdown.js';
 
-// GitHub Pages serves this project site under /physics-book/ (D5). Vercel serves it at a
-// domain root, so it must build with no path prefix — detected via the VERCEL env var that
-// Vercel sets automatically. (A CLI `--pathprefix=/` does NOT override, since `/` is
-// Eleventy's default, so we key off the environment instead.)
-const PATH_PREFIX = process.env.VERCEL ? '/' : '/physics-book/';
+// GitHub Pages serves this project site under /college-physics-textbook/ (D5). Vercel
+// serves it at a domain root, so it must build with no path prefix — detected via the
+// VERCEL env var that Vercel sets automatically. (A CLI `--pathprefix=/` does NOT
+// override, since `/` is Eleventy's default, so we key off the environment instead.)
+const PATH_PREFIX = process.env.VERCEL ? '/' : '/college-physics-textbook/';
 
 export default function (eleventyConfig) {
   // Input is the repo root, so drive input exclusions explicitly from .eleventyignore

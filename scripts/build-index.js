@@ -12,7 +12,7 @@
  * Options:
  *   --site-dir <dir>   Site directory (default: _site)
  *   --output <file>    Output file (default: search_index.json)
- *   --base-url <url>   Base URL for links (default: /physics-book/)
+ *   --base-url <url>   Base URL for links (default: /college-physics-textbook/)
  *   --help             Show this help message
  */
 
@@ -33,7 +33,7 @@ class SearchIndexBuilder {
     this.baseDir = getBaseDir(import.meta.url);
     this.siteDir = options.siteDir || '_site';
     this.outputFile = options.output || 'search_index.json';
-    this.baseUrl = options.baseUrl || '/physics-book/';
+    this.baseUrl = options.baseUrl || '/college-physics-textbook/';
 
     this.stats = {
       filesFound: 0,
@@ -218,9 +218,9 @@ Requires Eleventy to have built the site first (npm run build).`,
     },
     baseUrl: {
       flag: '--base-url',
-      description: 'Base URL for links (default: /physics-book/)',
+      description: 'Base URL for links (default: /college-physics-textbook/)',
       type: 'string',
-      default: '/physics-book/',
+      default: '/college-physics-textbook/',
     },
   },
   examples: [

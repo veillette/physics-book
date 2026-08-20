@@ -19,7 +19,9 @@ class SearchManager {
     this.miniSearch = null;
     this.documents = [];
     this.isReady = false;
-    this.baseUrl = '/physics-book/';
+    // window.Book.rootUrl is templated per-host by head.njk (no trailing slash),
+    // so this stays correct on both GitHub Pages and Vercel.
+    this.baseUrl = `${window.Book?.rootUrl ?? ''}/`;
   }
 
   /**

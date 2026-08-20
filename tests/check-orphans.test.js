@@ -75,7 +75,10 @@ describe('OrphanFileFinder', () => {
     });
 
     it('should strip GitHub Pages base path', () => {
-      const resolved = finder.resolvePath('/physics-book/assets/icon.png', 'contents/ch1.md');
+      const resolved = finder.resolvePath(
+        '/college-physics-textbook/assets/icon.png',
+        'contents/ch1.md'
+      );
       expect(resolved).toBe('assets/icon.png');
     });
 
