@@ -1,9 +1,13 @@
 {
   "name": "physics-book",
   "version": "1.0.0",
+  "private": true,
   "description": "Textbook for General Physics I",
   "repository": "https://github.com/QuadriviumPress/college-physics-textbook",
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "prepare": "sh hooks/install.sh",
     "install:hooks": "sh hooks/install.sh",
