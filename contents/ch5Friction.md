@@ -110,7 +110,7 @@ is the magnitude of the normal force.
 ::::
 
 The symbol $$\le$$ means _less than or equal to_, implying that static
-friction can have a minimum and a maximum value of $$\mu_{\s}\mag{N}$$. Static
+friction can have any value from zero up to a maximum value of $$\mu_{\s}\mag{N}$$. Static
 friction is a responsive force that increases to be equal and opposite to
 whatever force is exerted, up to its maximum limit. Once the applied force
 exceeds $$f_{\s \left(\text{max}\right)}$$, the object will move. Thus
@@ -322,8 +322,9 @@ and its uncertainty.
 ::::
 
 We have discussed that when an object rests on a horizontal surface, there is a
-normal force supporting it equal in magnitude to its weight. Furthermore, simple
-friction is always proportional to the normal force.
+normal force supporting it equal in magnitude to its weight. Furthermore, in the
+simple model of friction, kinetic friction and the maximum static friction are
+proportional to the normal force.
 
 :::: note {"class":"note","data-label":""}
 
@@ -391,8 +392,8 @@ Forces and Motion
 ### Section Summary
 
 - Friction is a contact force between systems that opposes the motion or
-  attempted motion between them. Simple friction is proportional to the
-  magnitude of the normal force$$\mag{N}$$pushing the systems together. (A
+  attempted motion between them. Kinetic friction and the maximum static
+  friction are proportional to the magnitude of the normal force$$\mag{N}$$pushing the systems together. (A
   normal force is always perpendicular to the contact surface between systems.)
   Friction depends on both of the materials involved. The magnitude of static
   friction$$f\_{\s}$$between systems stationary relative to one another is

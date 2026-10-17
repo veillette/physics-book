@@ -870,83 +870,56 @@ you still apply the force found in part (a) to its center?
 
 **Step 1: Sketch and free-body diagram**
 
-The rope is attached to the car at both ends, forming a shallow V-shape. When you pull perpendicular to the rope at its center, tension forces in each half of the rope pull on the car.
+The rope runs from the car to a tree trunk. You pull sideways at the center of the rope, so each half of the rope makes a small angle $$ \theta $$ with the straight line between the car and the tree. The system of interest is the small piece of rope at its center, where you apply the force $$ \vb{F}_{\text{app}} $$. Three forces act on it: your applied force (perpendicular to the car–tree line) and the tension $$ T $$ in each half of the rope, one pulling toward the car and one toward the tree.
 
 **Step 2: Identify knowns and unknowns**
 
 Known:
 
-- Desired force on car: $$ F\_{car} = 12{,}000 \N $$
-- Angle each rope makes with horizontal: $$ \theta = 2.00° $$
+- The rope pulls on the car with a force equal to the tension: $$ T = 12\,000 \N $$
+- Angle each half of the rope makes with the car–tree line: $$ \theta = 2.00° $$
 
 Unknown:
 
-- Force to apply at center: $$ F\_{app} = ? $$
-- Tension in rope: $$ T = ? $$
+- Force to apply at the center: $$ F_{\text{app}} = ? $$
 
 **Step 3: Apply Newton's laws**
 
-The force on the car comes from the horizontal components of two tension forces:
+The center of the rope is in equilibrium. Along the car–tree line, the components of the two tensions cancel. Perpendicular to that line, each tension has a component $$ T\sin\theta $$ opposing your applied force, so
 
 <div class="equation">
-$$ F_{car} = 2T\sin\theta $$
-</div>
-
-Solving for tension:
-
-<div class="equation">
-$$ T = \frac{F_{car}}{2\sin\theta} = \frac{12{,}000}{2\sin(2.00°)} = \frac{12{,}000}{2(0.0349)} = \frac{12{,}000}{0.0698} = 172{,}000 \N $$
-</div>
-
-At the center of the rope, for equilibrium, the applied force must balance the vertical components of tension:
-
-<div class="equation">
-$$ F_{app} = 2T\sin\theta = 2(172{,}000)(0.0349) = 12{,}000 \N $$
+$$ F_{\text{app}} = 2T\sin\theta = 2(12\,000 \N)\sin(2.00°) = 838 \N $$
 </div>
 
 **Step 4: Check reasonableness**
 
-The large tension (172,000 N) is expected for such a small angle. The mechanical advantage comes from the geometry - a small perpendicular force creates large horizontal tension.
+A sideways force of only 838 N produces a 12 000 N pull on the car—about 14 times larger. This is reasonable because, at such a small angle, only a small sideways force is needed to balance a very large tension.
 
 **(b) Force on car at 7.00° angle:**
 
-If the angle increases to 7.00° but we still apply the same force (12,000 N):
-
-The tension changes. From equilibrium at the center:
+Now the angle is 7.00°, and you still apply 838 N at the center. Solving the same equilibrium equation for the tension:
 
 <div class="equation">
-$$ F_{app} = 2T\sin(7.00°) $$
+$$ T = \frac{F_{\text{app}}}{2\sin\theta} = \frac{838 \N}{2\sin(7.00°)} = 3.44 \times 10^{3} \N $$
 </div>
 
-<div class="equation">
-$$ T = \frac{12{,}000}{2\sin(7.00°)} = \frac{12{,}000}{2(0.122)} = \frac{12{,}000}{0.244} = 49{,}200 \N $$
-</div>
-
-The force on the car:
-
-<div class="equation">
-$$ F_{car} = 2T\sin(7.00°) = 12{,}000 \N $$
-</div>
-
-Wait - this seems wrong. Let me reconsider. If we apply the same perpendicular force but the angle is larger, the geometry changes.
-
-Actually, with a larger angle and same applied force, the tension decreases, but the horizontal component effectiveness increases. The net effect: force on car remains approximately the same at 12,000 N.
+The force on the car equals the tension, $$ 3.44 \times 10^{3} \N $$.
 
 **Discussion**
 
-This problem demonstrates a clever mechanical advantage technique used when vehicles are stuck. At the small angle of 2°, even a modest perpendicular force of 12,000 N creates enormous tension in the rope (172,000 N). This large tension, directed nearly horizontally, pulls powerfully on the car. The small angle is crucial—the smaller the angle, the greater the mechanical advantage but also the greater the tension and risk of rope failure. When the rope stretches and the angle increases to 7°, the tension drops dramatically but the force on the car remains constant if you maintain the same perpendicular force.
+This problem demonstrates a clever technique used when vehicles are stuck. At a small angle, a modest sideways force creates an enormous tension in the rope, which pulls powerfully on the car. The smaller the angle, the larger the tension for a given applied force. When the rope stretches and the angle grows to 7°, the same applied force produces much less tension—only about 30% of the original pull on the car. To keep pulling hard, you would need to take up the slack in the rope.
 
 **Answer**
 
-(a) You must exert a force of **12,000 N** perpendicular to the rope center (or equivalently, the tension in the rope is **1.72 × 10⁵ N**).
+(a) You must exert a force of **838 N** perpendicular to the rope at its center.
 
-(b) At the larger angle of 7.00°, the force on the car would still be approximately **12,000 N** if you apply the same perpendicular force.
+(b) At the larger angle of 7.00°, the force on the car drops to **3.44 × 10³ N**.
 
 :::
 
 </div>
 
-![Diagram showing orthodontic forces applied to a tooth](../resources/Figure_04_06_09.jpg){: #Figure6}
+![A car stuck in mud is tied by a rope to a tree trunk. A force F sub L is applied perpendicular to the rope at its center, so each half of the rope makes a small angle theta with the straight line from car to tree. The tension T pulls on the car toward the tree and on the tree toward the car.](../resources/Figure_04_06_09.jpg){: #Figure6}
 
 <div class="exercise" data-element-type="problems-exercises">
 

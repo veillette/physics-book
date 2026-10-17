@@ -65,8 +65,8 @@ add, producing a new angular momentum pointing more toward the person. The wheel
 
 This same logic explains the behavior of gyroscopes. [Figure 4](#Figure4) shows the
 two forces acting on a spinning gyroscope. The torque produced is perpendicular
-to the angular momentum, thus the direction of the torque is changed, but not
-its magnitude. The gyroscope _precesses_ around a vertical axis, since the
+to the angular momentum, thus the direction of the angular momentum is changed,
+but not its magnitude. The gyroscope _precesses_ around a vertical axis, since the
 torque is always horizontal and perpendicular to $$ \vb{L} $$. If the gyroscope
 is
 *not* spinning, it acquires angular momentum in the direction of the torque

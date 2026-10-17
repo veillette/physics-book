@@ -476,35 +476,21 @@ Total energy consumed:
  $$ E_{\text{total}} = 6910\text{ kJ} + 2390\text{ kJ} = 9300\text{ kJ} $$
 </div>
 
-However, we must account for the efficiency of converting food energy. The body is not 100% efficient at utilizing food energy. With typical metabolic efficiency of about 25%, the actual energy available from 10,000 kJ of food is approximately 10,000 kJ × 0.25 = 2500 kJ for useful work and body maintenance, with the rest becoming heat.
-
-Reconsidering with basal metabolic needs: Using an average metabolic rate closer to the basal rate of about 85 W:
+Excess energy, which is stored as fat:
 
 <div class="equation">
- $$ E_{\text{total}} = (85\text{ W})(24\text{ h})(3600\s/\text{h}) = 7.34 \times 10^{6}\J = 7340\text{ kJ} $$
-</div>
-
-Excess energy stored as fat:
-
-<div class="equation">
- $$ E_{\text{excess}} = 10000\text{ kJ} - 7340\text{ kJ} = 2660\text{ kJ} $$
-</div>
-
-But only about 50% of excess dietary energy is stored as fat (the rest is lost as heat through dietary thermogenesis):
-
-<div class="equation">
- $$ E_{\text{stored}} = 2660\text{ kJ} \times 0.47 = 1210\text{ kJ} $$
+ $$ E_{\text{excess}} = 10\,000\text{ kJ} - 9300\text{ kJ} = 700\text{ kJ} $$
 </div>
 
 Mass of fat gained:
 
 <div class="equation">
- $$ m = \frac{E_{\text{stored}}}{\text{energy content}} = \frac{1210\text{ kJ}}{39\text{ kJ/g}} = 31\text{ g} $$
+ $$ m = \frac{E_{\text{excess}}}{\text{energy content}} = \frac{700\text{ kJ}}{39\text{ kJ/g}} = 18\text{ g} $$
 </div>
 
 **Discussion**
 
-Eating 10,000 kJ while being sedentary all day would result in a gain of approximately 31 grams of body fat. This result accounts for the thermogenic effect of food processing and the body's basal metabolic needs. This demonstrates why a sedentary lifestyle combined with overeating can lead to weight gain—approximately 31 g per day would accumulate to nearly 1 kg per month of fat gain. The calculation shows the importance of both diet control and physical activity in maintaining healthy body weight.
+In this simple model, eating 10 000 kJ while being sedentary all day results in a gain of about 18 g of body fat. That may not sound like much, but at this rate it adds up to about half a kilogram of fat per month. Real bodies are more complicated than this model (for example, metabolic rates vary from person to person), but the calculation shows why both diet and physical activity matter in maintaining a healthy body weight.
 
 :::
 

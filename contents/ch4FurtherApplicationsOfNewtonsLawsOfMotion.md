@@ -487,10 +487,11 @@ build your skills in the broad application of physical principles.
   analyze the direction in which an object accelerates so that you can determine
   whether $$ \vb{F}_{\text{net}}=m \vb{a} $$ or $$ \vb{F}_{\text{net}}=0 $$.
 - The normal force on an object is not always equal in magnitude to the weight
-  of the object. If an object is accelerating, the normal force will be less
-  than or greater than the weight of the object. Also, if the object is on an
-  inclined plane, the normal force will always be less than the full weight of
-  the object.
+  of the object. If an object is accelerating perpendicular to the surface (for
+  example, in an elevator), the normal force will be less than or greater than
+  the weight of the object. Also, if the object is resting on an inclined plane
+  with no other forces pushing it into or away from the surface, the normal
+  force, $$ mg\cos\theta $$, is less than the full weight of the object.
 - Some problems will contain various physical quantities, such as forces,
   acceleration, velocity, or position. You can apply concepts from kinematics
   and dynamics in order to solve these problems of motion.

@@ -65,7 +65,9 @@ precision, low accuracy measuring system.
 
 The degree of accuracy and precision of a measuring system are related to the
 **uncertainty** in the measurements. Uncertainty is a quantitative measure of
-how much your measured values deviate from a standard or expected value. If your
+the range of values within which the true value of the measured quantity is
+likely to lie. (The difference between a measured value and a standard or
+expected value is called the **error** or **discrepancy**.) If your
 measurements are not very accurate or precise, then the uncertainty of your
 values will be very high. In more general terms, uncertainty can be thought of
 as a disclaimer for your measured values. For example, if someone asked you to
@@ -183,7 +185,10 @@ floor has a length of $$ 4.00\m $$ and a width of $$ 3.00\m $$, with
 uncertainties of $$ 2 \% $$ and $$ 1 \% $$, respectively, then the area of the
 floor is $$ 12.0 \mm $$ and has an uncertainty of $$ 3 \% $$. (Expressed as an
 area this is $$ 0.36 \mm $$, which we round to $$ 0.4 \mm $$ since the area of
-the floor is given to a tenth of a square meter.)
+the floor is given to a tenth of a square meter.) Adding percents gives a
+conservative, worst-case estimate that assumes all the errors push the result in
+the same direction. More advanced treatments of independent random errors
+combine them in a way that gives a somewhat smaller uncertainty.
 
 <div class="exercise" data-print-placement="here" data-element-type="check-understanding" data-label="">
 <div class="title">
@@ -288,8 +293,8 @@ significant
 #### Significant Figures in Calculations
 
 When combining measurements with different degrees of accuracy and precision,
-**the number of significant digits in the final answer can be no greater than
-the number of significant digits in the least precise measured value**. There
+**the precision of the final answer can be no greater than the precision of the
+least precise measured value**. There
 are two different rules, one for multiplication and division and the other for
 addition and subtraction, as discussed below.
 

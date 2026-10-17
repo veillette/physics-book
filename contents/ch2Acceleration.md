@@ -460,7 +460,7 @@ Most people interpret negative acceleration as the slowing of an object. This
 was not the case in [Example 7](#exampleDecelerating), where a positive
 acceleration slowed a negative velocity. The crucial distinction was that the
 acceleration was in the opposite direction from the velocity. In fact, a
-negative acceleration will _increase_ a negative velocity. For example, the
+negative acceleration will make a negative velocity _more negative_, increasing the object's speed. For example, the
 train moving to the left in [Figure 11](#Figure11) is sped up by an acceleration to
 the left. In that case, both $$ v $$ and $$ a $$ are negative. The plus and
 minus signs give the directions of the accelerations. If acceleration has the

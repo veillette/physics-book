@@ -282,7 +282,7 @@ To get up on the roof, a person (mass 70.0 kg) places a 6.00-m aluminum ladder (
 
 **Strategy**
 
-This is a classic ladder problem. The ladder is in static equilibrium, so we apply both conditions for equilibrium. The frictionless wall means the force at the top is purely horizontal (normal to the wall). We first need to determine the geometry, then set up the force and torque equations.
+This is a ladder problem with a twist. The ladder is in static equilibrium, so we apply both conditions for equilibrium. Because the gutter is round and frictionless, the force it exerts at the top is **perpendicular to the ladder** (not horizontal, as it would be for a smooth vertical wall). We take the gutter contact to be at the top end of the ladder. We first determine the geometry, then take torques about the base, then use force balance.
 
 **Solution**
 
@@ -291,103 +291,77 @@ This is a classic ladder problem. The ladder is in static equilibrium, so we app
 Given:
 
 - Ladder length: $$ L = 6.00 \m $$
-- Base distance from wall: $$ d = 2.00 \m $$
+- Base distance from house: $$ d = 2.00 \m $$
 - Person mass: $$ m_p = 70.0 \kg $$
 - Ladder mass: $$ m_L = 10.0 \kg $$
 - Ladder cg: 2.00 m from bottom
 - Person position: 3.00 m from bottom
 
-Using the Pythagorean theorem to find the height where the ladder touches the wall:
+The angle $$ \theta $$ the ladder makes with the horizontal:
 
 <div class="equation">
-$$ h = \sqrt{L^2 - d^2} = \sqrt{(6.00)^2 - (2.00)^2} = \sqrt{36 - 4} = \sqrt{32} = 5.66 \m $$
-</div>
-
-The angle the ladder makes with the horizontal:
-
-<div class="equation">
-$$ \cos\theta = \frac{d}{L} = \frac{2.00}{6.00} = 0.333, \quad \sin\theta = \frac{h}{L} = \frac{5.66}{6.00} = 0.943 $$
+$$ \cos\theta = \frac{d}{L} = \frac{2.00}{6.00} = 0.333, \quad \sin\theta = \sqrt{1-\cos^{2}\theta} = 0.943 $$
 </div>
 
 **Step 2: Identify forces**
 
-- $$ N_w $$ = Normal force from wall (horizontal, at the top)
+- $$ F_{top} $$ = Force from the gutter (perpendicular to the ladder, at the top)
 - $$ N_g $$ = Normal force from ground (vertical, at the bottom)
 - $$ f $$ = Friction force from ground (horizontal, at the bottom)
 - $$ W_L = m_L g = (10.0)(9.80) = 98.0 \N $$ (weight of ladder)
 - $$ W_p = m_p g = (70.0)(9.80) = 686 \N $$ (weight of person)
 
-**Step 3: Apply equilibrium conditions**
+**Step 3: Torque about the base of the ladder** (this eliminates $$ N_g $$ and $$ f $$)
 
-**Torque about the base of the ladder:** (This eliminates $$ N_g $$ and $$ f $$ from the equation)
-
-The horizontal distances from the base (pivot) to where each force acts:
-
-- Ladder cg: $$ (2.00 \m)\cos\theta = (2.00)(0.333) = 0.667 \m $$
-- Person: $$ (3.00 \m)\cos\theta = (3.00)(0.333) = 1.00 \m $$
-- Wall contact: $$ d = 2.00 \m $$
-
-The vertical distance to where the wall force acts:
-
-- Wall contact: $$ h = 5.66 \m $$
-
-Setting counterclockwise torques equal to clockwise torques:
+The weights act vertically, so their lever arms are the horizontal distances from the base: $$ (2.00 \m)\cos\theta = 0.667 \m $$ for the ladder and $$ (3.00 \m)\cos\theta = 1.00 \m $$ for the person. The gutter force is perpendicular to the ladder, so its lever arm is the full length of the ladder, $$ L = 6.00 \m $$. Setting counterclockwise torques equal to clockwise torques:
 
 <div class="equation">
-$$ N_w \cdot h = W_L \cdot (2.00\cos\theta) + W_p \cdot (3.00\cos\theta) $$
+$$ F_{top} (6.00 \m) = (98.0 \N)(0.667 \m) + (686 \N)(1.00 \m) = 751.3 \text{ N·m} $$
 </div>
 
 <div class="equation">
-$$ N_w (5.66 \m) = (98.0 \N)(0.667 \m) + (686 \N)(1.00 \m) $$
+$$ F_{top} = \frac{751.3 \text{ N·m}}{6.00 \m} = 125 \N $$
 </div>
 
+**Step 4: Force equilibrium**
+
+The gutter force is perpendicular to the ladder, pointing away from the house and tilted upward at angle $$ \theta $$ from the vertical. Its components are
+
 <div class="equation">
-$$ N_w (5.66) = 65.4 + 686 = 751.4 \text{ N·m} $$
+$$ F_{top,x} = F_{top}\sin\theta = (125.2)(0.943) = 118 \N \text{ (away from the house)}, \quad F_{top,y} = F_{top}\cos\theta = (125.2)(0.333) = 41.7 \N \text{ (up)} $$
 </div>
 
+Horizontal balance gives the friction force at the base, directed toward the house:
+
 <div class="equation">
-$$ N_w = \frac{751.4}{5.66} = 133 \N $$
+$$ f = F_{top,x} = 118 \N $$
 </div>
 
-**Force equilibrium in the horizontal direction:**
+Vertical balance gives the normal force from the ground:
 
 <div class="equation">
-$$ f = N_w = 133 \N $$
+$$ N_g = W_L + W_p - F_{top,y} = 784 \N - 41.7 \N = 742 \N $$
 </div>
 
-**Force equilibrium in the vertical direction:**
+**Step 5: Find the force at the bottom**
 
 <div class="equation">
-$$ N_g = W_L + W_p = 98.0 + 686 = 784 \N $$
+$$ F_{bottom} = \sqrt{N_g^2 + f^2} = \sqrt{(742)^2 + (118)^2} = 752 \N $$
 </div>
 
-**Step 4: Find the magnitudes**
-
-Force at the **top** of the ladder (from the wall):
+The direction of the force at the bottom (from the vertical, tilted toward the house):
 
 <div class="equation">
-$$ F_{top} = N_w = 133 \N $$
-</div>
-
-Force at the **bottom** of the ladder (from the ground):
-
-<div class="equation">
-$$ F_{bottom} = \sqrt{N_g^2 + f^2} = \sqrt{(784)^2 + (133)^2} = \sqrt{614656 + 17689} = \sqrt{632345} = 795 \N $$
-</div>
-
-The direction of the force at the bottom (from the vertical):
-
-<div class="equation">
-$$ \phi = \arctan\left(\frac{f}{N_g}\right) = \arctan\left(\frac{133}{784}\right) = 9.6° \text{ from vertical} $$
+$$ \phi = \tan^{-1}\left(\frac{f}{N_g}\right) = \tan^{-1}\left(\frac{118}{742}\right) = 9.0° $$
 </div>
 
 **Discussion**
 
-The force at the bottom is nearly vertical because it must support the total weight of the person and ladder (784 N) while providing only a modest horizontal friction force (133 N) to prevent slipping. The wall, being frictionless, provides only a horizontal force that pushes the ladder away. This is why a ladder on a slippery floor is dangerous—if friction at the bottom is insufficient to provide the 133 N horizontal force needed, the ladder will slide out. The minimum coefficient of friction needed is $$ \mu_{min} = f/N_g = 133/784 = 0.17 $$.
+Because the gutter force is perpendicular to the ladder, it has a small upward component (41.7 N) that supports part of the weight, so the ground supports a little less than the full 784 N. The force at the bottom is nearly vertical, with a modest horizontal friction force (118 N) that keeps the ladder from slipping. This is why a ladder on a slippery floor is dangerous—if friction at the bottom cannot supply the 118 N horizontal force, the ladder will slide out. The minimum coefficient of static friction needed is $$ \mu_{min} = f/N_g = 118/742 = 0.16 $$.
 
 **Answer**
 
-The magnitude of the force at the top of the ladder (from the wall) is 133 N, directed horizontally. The magnitude of the force at the bottom of the ladder (from the ground) is 795 N, directed at 9.6° from vertical.
+The magnitude of the force at the top of the ladder (from the gutter) is 125 N, directed perpendicular to the ladder. The magnitude of the force at the bottom of the ladder (from the ground) is 752 N, directed at 9.0° from vertical.
 
 ::::
 

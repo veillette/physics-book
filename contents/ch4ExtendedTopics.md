@@ -101,9 +101,10 @@ extreme conditions such as those existing in the early universe.
 :::
 
 Physicists are now exploring whether the four basic forces are in some way
-related. Attempts to unify all forces into one come under the rubric of Grand
-Unified Theories (GUTs), with which there has been some success in recent years.
-It is now known that under conditions of extremely high density and temperature,
+related. Grand Unified Theories (GUTs) attempt to unify the strong nuclear force
+with the electromagnetic and weak nuclear forces; these theories have not yet
+been confirmed by experiment. Including gravity as well is a further, even
+harder step. It is now known that under conditions of extremely high density and temperature,
 such as existed in the early universe, the electromagnetic and weak nuclear
 forces are indistinguishable. They can now be considered to be different
 manifestations of one force, called the _electroweak_ force. So the list of four
@@ -177,17 +178,19 @@ lists the exchange or **carrier particles**, both observed and proposed, that
 carry the four forces. But the real fruit of the particle-exchange proposal is
 that searches for Yukawa’s proposed particle found it _and_ a number of others
 that were completely unexpected, stimulating yet more research. All of this
-research eventually led to the proposal of quarks as the underlying substructure
-of matter, which is a basic tenet of GUTs. If successful, these theories will
-explain not only forces, but also the structure of matter itself. Yet physics is
+research eventually led to the discovery of quarks as the underlying substructure
+of matter, a central part of the well-tested Standard Model of particle physics.
+If successful, GUTs would go further and explain not only forces, but also the
+structure of matter itself. Yet physics is
 an experimental science, so the test of these theories must lie in the domain of
 the real world. As of this writing, scientists at the CERN laboratory in
 Switzerland are starting to test these theories using the world’s largest
 particle accelerator: the Large Hadron Collider (LHC) . This accelerator (27 km in
 circumference) allows two high-energy proton beams, traveling in opposite
 directions, to collide. An energy of 14 trillion electron volts will be
-available. Its first run discoveries included the force carrier
-particles, namely the Higgs boson. (
+available. In 2012, during its first run, the ATLAS and CMS experiments at the LHC
+discovered the Higgs boson, a particle associated with the field that gives
+other elementary particles their mass (it is not one of the force carriers). (
 See [Figure 3](#Figure3).)
 The LHC's goal is to allow physicists to test the predictions of different theories of particle physics, including measuring the properties of the Higgs boson, searching for the large family of new particles predicted by supersymmetric theories, and other unresolved questions in particle physics such as why different particles have different masses.
 
@@ -213,18 +216,19 @@ from other natural phenomena, such as earthquakes.
 Similar installations have been built in Italy (VIRGO), Germany (GEO600), and
 Japan (TAMA300) to provide a worldwide network of gravitational wave detectors.
 
-In September, 2015, LIGO fulfilled its promise and helped prove Einstein's predictions. The system detected the first gravitational waves arising from the merger of two black holes—one 29 times the mass of our Sun and the other 36 times the mass of our Sun—that occurred 1.3 billion years ago. About 3 times the mass of the Sun was converted into gravitational waves in a fraction of a second—with a peak power output about 50 times that of the whole visible universe. Due to the 7 millisecond delay in detection, researchers established that the merger occurred on the southern hemisphere side of Earth. Since then, LIGO and VIRGO have combined to detect about a dozen similar events, with better and more precise measurements. Waves from neutron star mergers and different-sized black holes have deepened our understanding of these objects and their impact on the universe.
+In September, 2015, LIGO fulfilled its promise and confirmed Einstein's prediction. The system detected the first gravitational waves arising from the merger of two black holes—one 29 times the mass of our Sun and the other 36 times the mass of our Sun—that occurred 1.3 billion years ago. About 3 times the mass of the Sun was converted into gravitational waves in a fraction of a second—with a peak power output about 50 times that of the whole visible universe. Due to the 7 millisecond delay in detection, researchers established that the merger occurred on the southern hemisphere side of Earth. Since then, LIGO, Virgo, and KAGRA have detected hundreds of similar events (the catalog released in 2025 listed more than 200), with better and more precise measurements. Waves from neutron star mergers and different-sized black holes have deepened our understanding of these objects and their impact on the universe.
 
-International collaboration in this area is moving into space with the joint
-EU/US project LISA (Laser Interferometer Space Antenna). Earthquakes and other
+International collaboration in this area is moving into space with LISA (Laser
+Interferometer Space Antenna), a European Space Agency mission with NASA
+participation. Earthquakes and other
 Earthly noises will be no problem for these monitoring spacecraft. LISA will
 complement LIGO by looking at much more massive black holes through the
 observation of gravitational-wave sources emitting much larger wavelengths.
-Three satellites will be placed in space above Earth in an equilateral
-triangle (with 5 000 000-km sides) ([Figure 4](#Figure4)). The system will measure
+Three spacecraft will orbit the Sun, trailing behind Earth, in an equilateral
+triangle with 2 500 000-km sides ([Figure 4](#Figure4)). The system will measure
 the relative positions of each satellite to detect passing gravitational waves.
 Accuracy to within 10% of the size of an atom will be needed to detect any
-waves. The launch of this project will likely be in the 2030s.
+waves. As of 2025, launch was planned for 2035.
 
 ![NASA illustration of LISA, showing three spacecrafts positioned in orbits that form a triangular formation. The triangular formation is positioned to the left of the Sun, Earth, and Moon in the diagram. Figure not to scale.](../resources/Figure_04_08_04.jpg 'Space-based future experiments for the measurement of gravitational waves. Shown here is a drawing of LISA’s orbit. Each satellite of LISA will consist of a laser source and a mass. The lasers will transmit a signal to measure the distance between each satellite’s test mass. The relative motion of these masses will provide information about passing gravitational waves. (credit: NASA)')
 {: #Figure4}

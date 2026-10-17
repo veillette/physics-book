@@ -46,7 +46,7 @@ substitute $$ v=r \omega $$ and $$ a= r\alpha $$ into the linear equation above:
 The radius $$ r $$ cancels in the equation, yielding
 
 <div class="equation">
- $$ \omega =\omega_{0} +a t \left(\text{constant } a\right), $$
+ $$ \omega =\omega_{0} +\alpha t \left(\text{constant } \alpha\right), $$
 </div>
 
 where $$ \omega\_{0} $$ is the initial angular velocity. This last equation is

@@ -225,7 +225,7 @@ Substituting known values,
 <div class="equation">
 $$\begin{array}{lll}
 v&=& \sqrt{2\left(9.80 \mss \right)\left(20.0 \m \right)}\\
-v&=&19.6 \ms .
+v&=&19.8 \ms .
 \end{array}$$
 
 </div>

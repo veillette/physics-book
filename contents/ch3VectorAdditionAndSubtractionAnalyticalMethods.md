@@ -121,6 +121,13 @@ with the example of the person walking in a city. Finally, the direction is
 
 $$ \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
 
+Be careful: a calculator's inverse tangent always returns an angle between
+$$ -90^\circ $$ and $$ +90^\circ $$. If $$ A_{x} $$ is negative, the vector
+points into the second or third quadrant, and you must add $$ 180^\circ $$ to
+the calculator's result. For example, a vector with $$ A_{x}=-1 $$ and
+$$ A_{y}=+1 $$ points at $$ 135^\circ $$, not $$ -45^\circ $$. A quick sketch
+of the components will always tell you which quadrant the vector is in.
+
 :::: note {"class":"note","data-label":""}
 
 <div class="title">
@@ -902,105 +909,39 @@ is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
 
 **Strategy**
 
-For part (a), we're finding **R'** = **A** - **B**, where **A** is 18.0 m west and **B** is now 25.0 m south (instead of north). This is equivalent to adding **A** and -**B** (where -**B** is 25.0 m north). For part (b), we reverse the order to find **B** - **A**, which should give the opposite result.
+In the original problem, $$ \vb{A} $$ is 18.0 m west and $$ \vb{B} $$ is 25.0 m north. For part (a), we find $$ \vb{R}^\prime = \vb{A} - \vb{B} = \vb{A} + (-\vb{B}) $$, where $$ -\vb{B} $$ is 25.0 m south. For part (b), we reverse the order to find $$ \vb{B} - \vb{A} $$, which should give the opposite result.
 
 **Solution**
 
-**(a) Finding R' = A - B:**
+**(a) Finding R' = A − B:**
 
-**Vector A** (18.0 m west):
+Take east and north as positive.
 
-- East component: $$ A_E = -18.0 \m $$
-- North component: $$ A_N = 0 \m $$
+**Vector A** (18.0 m west): $$ A_E = -18.0 \m $$, $$ A_N = 0 \m $$
 
-**Vector -B** (25.0 m north, since B is south):
+**Vector B** (25.0 m north): $$ B_E = 0 \m $$, $$ B_N = 25.0 \m $$
 
-- East component: $$ (-B)\_E = 0 \m $$
-- North component: $$ (-B)\_N = 25.0 \m $$
-
-**Resultant R' = A - B:**
-
-<div class="equation">
-$$ R'_E = A_E + (-B)_E = -18.0 + 0 = -18.0 \m $$
-</div>
-
-<div class="equation">
-$$ R'_N = A_N + (-B)_N = 0 + 25.0 = 25.0 \m $$
-</div>
-
-Wait, this doesn't give the right answer. Let me recalculate. If the original **B** was 25.0 m north, and now we're subtracting it, we actually walk 25.0 m south.
-
-Let me restart:
-
-**Vector A** (18.0 m west):
-
-- East component: $$ A_E = -18.0 \m $$
-- North component: $$ A_N = 0 \m $$
-
-**Vector B** (now 25.0 m south):
-
-- East component: $$ B_E = 0 \m $$
-- North component: $$ B_N = -25.0 \m $$ (south is negative)
-
-**Resultant R' = A - B:**
+**Resultant R' = A − B:**
 
 <div class="equation">
 $$ R'_E = A_E - B_E = -18.0 - 0 = -18.0 \m $$
 </div>
 
 <div class="equation">
-$$ R'_N = A_N - B_N = 0 - (-25.0) = 25.0 \m $$
+$$ R'_N = A_N - B_N = 0 - 25.0 = -25.0 \m $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R' = \sqrt{(-18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+$$ R' = \sqrt{(-18.0)^2 + (-25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
 </div>
 
-**Direction:**
+**Direction:** Both components are negative (west and south), so the vector points southwest. Measured from the west axis,
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{18.0}{25.0}\right) = \tan^{-1}(0.720) = 35.8^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{25.0}{18.0}\right) = 54.2^\circ \text{ south of west}. $$
 </div>
-
-Hmm, this gives west of north, not south of west. Let me reconsider the problem. The problem says to change the second leg to 25.0 m straight **south**, which means we walk west then south.
-
-Actually, I need to recalculate more carefully:
-
-**Vector A** (18.0 m west):
-
-- East component: $$ A_E = -18.0 \m $$
-- North component: $$ A_N = 0 \m $$
-
-Now walking 25.0 m south (not north as in the original):
-
-- East component: $$ 0 \m $$
-- North component: $$ -25.0 \m $$
-
-**Resultant:**
-
-<div class="equation">
-$$ R_E = -18.0 + 0 = -18.0 \m $$
-</div>
-
-<div class="equation">
-$$ R_N = 0 + (-25.0) = -25.0 \m $$
-</div>
-
-**Magnitude:**
-
-<div class="equation">
-$$ R = \sqrt{(-18.0)^2 + (-25.0)^2} = \sqrt{324 + 625} = 30.8 \m $$
-</div>
-
-**Direction:**
-
-<div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{18.0}{25.0}\right) = 35.8^\circ $$
-</div>
-
-Since both components are negative (west and south), the angle is measured from the south or west axis. It's $$ 90^\circ - 35.8^\circ = 54.2^\circ $$ south of west.
 
 **(b) Finding B - A (walking 25.0 m north then 18.0 m east):**
 
@@ -1177,11 +1118,7 @@ $$ R_S = R\sin(35.0°) = 32.0(0.574) = 18.4 \text{ km} $$
 
 **(b) Components along rotated axes (45° south of west and 45° west of north):**
 
-The new x'-axis is at 45° south of west. The displacement makes an angle of 35° - 45° = -10° with this axis (10° toward the west-north axis).
-
-Actually, let me recalculate: The displacement is 35° south of west. The new axes are at 45° south of west (x') and 45° west of north (y').
-
-Angle with x'-axis: 45° - 35° = 10° (toward y')
+The displacement is 35° south of west. The new axes are at 45° south of west (x') and 45° west of north (y'). The displacement makes an angle of 45° − 35° = 10° with the x'-axis, rotated toward the y'-axis (that is, toward the north side of the x'-axis).
 
 **Component along 45° south of west:**
 
@@ -1192,10 +1129,10 @@ $$ R_{x'} = R\cos(10°) = 32.0(0.985) = 31.5 \text{ km} $$
 **Component along 45° west of north:**
 
 <div class="equation">
-$$ R_{y'} = -R\sin(10°) = -32.0(0.174) = -5.56 \text{ km} $$
+$$ R_{y'} = R\sin(10°) = 32.0(0.174) = 5.56 \text{ km} $$
 </div>
 
-The negative sign means the component is opposite to 45° west of north, which is 45° east of south, or equivalently 5.56 km at 45° south of east.
+Both components are positive: the displacement lies between the 45° south of west axis and the 45° west of north axis.
 
 **Discussion**
 
@@ -1205,7 +1142,7 @@ Part (a) gives standard components. Part (b) shows that the same vector has diff
 
 **(a)** You would fly **18.4 km south**, then **26.2 km west**.
 
-**(b)** In the rotated axes: **31.5 km at 45.0° south of west**, then **5.56 km at 45.0° east of south** (or equivalently, away from 45° west of north).
+**(b)** In the rotated axes: **31.5 km at 45.0° south of west**, then **5.56 km at 45.0° west of north**.
 
 ::::
 

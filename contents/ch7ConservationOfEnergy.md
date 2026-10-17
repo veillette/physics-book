@@ -41,7 +41,7 @@ conservation of energy in equation form as
 
 All types of energy and work can be included in this very general statement of
 conservation of energy. Kinetic energy is $$ \KE $$, work done by a conservative
-force is represented by $$ \PE $$, work done by nonconservative forces is $$ W\_{\text{nc}} $$, and all other energies are included as $$ \text{OE} $$. This
+force is accounted for by the change in $$ \PE $$ (since $$ W_{\text{c}}=-\Delta\PE $$), work done by nonconservative forces is $$ W\_{\text{nc}} $$, and all other energies are included as $$ \text{OE} $$. This
 equation applies to all previous examples; in those situations $$ \text{OE} $$
 was constant, and so it subtracted out and was not directly considered.
 
@@ -181,7 +181,7 @@ solar energy into electrical energy and then into mechanical energy.
 | Daily adult food intake (recommended)            | $$ 1.2×10^{7} $$   |
 | 1000-kg car at 90 km/h                           | $$ 3.1×10^{5} $$   |
 | 1 g fat (9.3 kcal)                               | $$ 3.9×10^{4} $$   |
-| ATP hydrolysis reaction                          | $$ 3.2×10^{4} $$   |
+| ATP hydrolysis reaction (1 mol of ATP)           | $$ 3.2×10^{4} $$   |
 | 1 g carbohydrate (4.1 kcal)                      | $$ 1.7×10^{4} $$   |
 | 1 g protein (4.1 kcal)                           | $$ 1.7×10^{4} $$   |
 | Tennis ball at 100 km/h                          | $$ 22 $$           |

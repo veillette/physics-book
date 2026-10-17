@@ -70,7 +70,10 @@ equation form, this is
 </div>
 
 where$$T$$is the period (time for one orbit) and$$r$$is the average
-radius. This equation is valid only for comparing two small masses orbiting the
+radius. For an elliptical orbit, the precise meaning of $$r$$ is the
+**semimajor axis**, half the long axis of the ellipse, which equals the average of
+the closest and farthest distances from the Sun. For a circular orbit, it is simply
+the radius. This equation is valid only for comparing two small masses orbiting the
 same large one. Most importantly, this is a descriptive equation only, giving no
 information as to the cause of the equality.
 
@@ -278,7 +281,7 @@ definition of what constitutes a “true” planet.
 | Jupiter | Io        |$$4.22 \times 10^{5}$$     | 0.00485 (1.77 d) |$$3.19 \times 10^{21}$$                                   |
 | Jupiter | Europa    |$$6.71 \times 10^{5}$$     | 0.00972 (3.55 d) |$$3.20 \times 10^{21}$$                                   |
 | Jupiter | Ganymede  |$$1.07 \times 10^{6}$$     | 0.0196 (7.16 d)  |$$3.19 \times 10^{21}$$                                   |
-| Jupiter | Callisto  |$$1.88 \times 10^{6}$$     | 0.0457 (16.19 d) |$$3.20 \times 10^{21}$$                                   |
+| Jupiter | Callisto  |$$1.88 \times 10^{6}$$     | 0.0457 (16.69 d) |$$3.20 \times 10^{21}$$                                   |
 
 {: #Table1}
 
@@ -348,7 +351,7 @@ Gravity and Orbits
   </div>
 
 where$$T$$is the period (time for one orbit) and$$r$$is the average
-radius of the orbit.
+radius of the orbit (the semimajor axis of an elliptical orbit).
 
 - The period and radius of a satellite’s orbit about a larger body$$M$$are
   related by

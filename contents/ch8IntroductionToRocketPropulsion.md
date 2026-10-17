@@ -34,7 +34,7 @@ Hold a balloon and fill it with air. Then, let the balloon go. In which directio
 
 [Figure 1](#Figure1) shows a rocket accelerating straight up. In part (a), the
 rocket has a mass $$ m $$ and a velocity $$ v $$ relative to Earth, and hence a
-momentum $$ mgh $$. In part (b), a time $$ \Delta t $$ has elapsed in which the
+momentum $$ mv $$. In part (b), a time $$ \Delta t $$ has elapsed in which the
 rocket has ejected a mass $$ \Delta m $$ of hot gas at a velocity $$ v_{\text{e}} $$ relative to the rocket. The remainder of the mass $$ \left( m-\Delta m\right) $$ now has a greater velocity $$ \left(v+\Delta v\right) $$. The momentum of the entire system (rocket plus expelled gas) has actually decreased because the force of gravity has acted for a time $$ \Delta t $$, producing a negative
 impulse $$ \Delta p=-mg \Delta t $$. (Remember that impulse is the net external
 force on a system multiplied by the time it acts, and it equals the change in
@@ -80,8 +80,8 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 A rocket’s acceleration depends on three major factors, consistent with the
 equation for acceleration of a rocket. First, the greater the exhaust velocity
 of the gases relative to the rocket, $$ v_{\text{e}} $$, the greater the
-acceleration is. The practical limit for $$ v_{\text{e}} $$ is about $$ 2.5\times 10^{3} \ms $$ for conventional (non-nuclear) hot-gas propulsion
-systems. The second factor is the rate at which mass is ejected from the rocket.
+acceleration is. For conventional (non-nuclear) chemical rockets, $$ v_{\text{e}} $$ typically ranges from about $$ 2.5\times 10^{3} \ms $$ up to about $$ 4.5\times 10^{3} \ms $$
+for the best hydrogen–oxygen engines. The second factor is the rate at which mass is ejected from the rocket.
 This is the factor $$ \Delta m/\Delta t $$ in the equation. The quantity $$ \left(\Delta m/\Delta t\right)v_{\text{e}} $$, with units of newtons, is called
 \"thrust.” The faster the rocket burns its fuel, the greater its thrust, and the
 greater its acceleration. The third factor is the mass $$ m $$ of the rocket.

@@ -197,9 +197,10 @@ is 9.8 N, as we see:
  $$ w=mg =\left(1.0 \kg \right)\left(9.80\mss \right)=9.8\N . $$
 </div>
 
-Recall that $$ g $$ can take a positive or negative value, depending on the positive direction in
-the coordinate system. Be sure to take this into consideration when solving
-problems with weight.
+Recall that $$ g $$ is a positive number, the magnitude of the acceleration due to
+gravity. The weight always points downward, so its component is $$ -mg $$ if up is
+chosen as positive and $$ +mg $$ if down is chosen as positive. Be sure to take
+this into consideration when solving problems with weight.
 
 :::
 
@@ -427,8 +428,8 @@ third and final law of motion.
 
 #### Section Summary
 
-* Acceleration, $$ \vb{a} $$, is defined as a change in velocity, meaning a
-  change in its magnitude or direction, or both.
+* Acceleration, $$ \vb{a} $$, is defined as the rate of change of velocity, where
+  the change can be in its magnitude or direction, or both.
 * An external force is one acting on a system from outside the system, as
   opposed to internal forces, which act between components within the system.
 * Newton’s second law of motion states that the acceleration of a system is

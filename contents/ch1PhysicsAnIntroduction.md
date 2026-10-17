@@ -178,13 +178,13 @@ designation **law** is reserved for a concise and very general statement that
 describes phenomena in nature, such as the law that energy is conserved during
 any process, or Newton’s second law of motion, which relates force, mass, and
 acceleration by the simple equation $$ \vb{F}=m\vb{a} $$. A theory, in contrast,
-is a less concise statement of observed phenomena. For example, the Theory of
-Evolution and the Theory of Relativity cannot be expressed concisely enough to
-be considered a law. The biggest difference between a law and a theory is that a
-theory is much more complex and dynamic. A law describes a single action,
-whereas a theory explains an entire group of related phenomena. And, whereas a
-law is a postulate that forms the foundation of the scientific method, a theory
-is the end result of that process.
+is an explanation of why things happen. For example, the Theory of Evolution and
+the Theory of Relativity are broad frameworks that explain a large body of
+observations. The biggest difference between a law and a theory is their role: a
+law describes _what_ happens under stated conditions, whereas a theory explains
+an entire group of related phenomena. A law does not "grow up" to become a
+theory, and neither label means that a statement is more certain than the other;
+both are supported by extensive evidence.
 
 Less broadly applicable statements are usually called principles (such as
 Pascal’s principle, which is applicable only in fluids), but the distinction
@@ -327,9 +327,10 @@ as that near the Sun.
 **Quantum mechanics** must be used for objects smaller than can be seen with a
 microscope. The combination of these two theories is _relativistic quantum
 mechanics,_ and it describes the behavior of small objects traveling at high
-speeds or experiencing a strong gravitational field. Relativistic quantum
-mechanics is the best universally applicable theory we have. Because of its
-mathematical complexity, it is used only when necessary, and the other theories
+speeds. Combining quantum mechanics with the theory of gravity (general
+relativity) to describe small objects in very strong gravitational fields remains
+an unsolved problem in physics. Because of its mathematical complexity,
+relativistic quantum mechanics is used only when necessary, and the other theories
 are used whenever they will produce sufficiently accurate results. We will find,
 however, that we can do a great deal of modern physics with the algebra and
 trigonometry used in this text.
@@ -348,7 +349,7 @@ How would the information be different if your friend told you he had learned ab
 
 :::: solution {"class":"solution","data-print-placement":"here"}
 
-Without knowing the details of the law, you can still infer that the information your friend has learned conforms to the requirements of all laws of nature: it will be a concise description of the universe around us; a statement of the underlying rules that all natural processes follow. If the information had been a theory, you would be able to infer that the information will be a large-scale, broadly applicable generalization.
+Without knowing the details of the law, you can still infer that the information your friend has learned conforms to the requirements of all laws of nature: it will be a concise description of the universe around us; a statement of the underlying rules that all natural processes follow. If the information had been a theory, you would be able to infer that the information will be a well-tested explanation of why a broad group of related phenomena occur.
 
 ::::
 

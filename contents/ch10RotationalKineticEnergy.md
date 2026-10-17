@@ -54,8 +54,10 @@ so that
 This equation is the expression for rotational work. It is very similar to the
 familiar definition of translational work as force multiplied by distance. Here,
 torque is analogous to force, and angle is analogous to distance. The equation
-$$ \text{net}W=\left(\text{net τ}\right)\theta $$ is valid in general, even
-though it was derived for a special case.
+$$ \text{net}W=\left(\text{net τ}\right)\theta $$ is valid whenever the net
+torque about the rotation axis is constant, even though it was derived for a special case.
+(If the torque changes as the object rotates, the work equals the area under a graph
+of torque versus angle.)
 
 To get an expression for rotational kinetic energy, we must again perform some
 algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha $$

@@ -171,7 +171,7 @@ for the moment of inertia of a disk into the resulting equation gives
 And substituting known values into the preceding equation yields
 
 <div class="equation">
- $$ \omega =\frac{9.75 \times 10^{-2}\kg \cdot \mms }{\left(0.500\right)\left(4.00\kg \right)\left(0.260\m \right)}=0.721\rads . $$
+ $$ \omega =\frac{9.75 \times 10^{-2}\kg \cdot \mms }{\left(0.500\right)\left(4.00\kg \right)\left(0.260\m \right)^{2}}=0.721\rads . $$
 </div>
 
 **Discussion**

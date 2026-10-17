@@ -1007,43 +1007,23 @@ the pole flex?
 
 **Strategy**
 
-This is a bending problem, where a horizontal force at the top causes the pole to flex sideways. For a cantilever beam (fixed at one end, force at the other), the deflection is given by $$ \delta = \frac{FL^{3}}{3YI} $$, where $$ I = \frac{\pi r^4}{4} $$ is the moment of inertia for a circular cross-section. From Table 3, Young's modulus for aluminum is $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$.
+A horizontal force applied parallel to the top face of the pole is a sideways (shear) force, so we model the sideways flex of the top with the shear-deformation equation from this section, $$ \Delta x = \frac{1}{S}\frac{F}{A}L_{0} $$, treating the pole as the equivalent solid cylinder. From Table 3, the shear modulus of aluminum is $$ S = 2.5 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
-1. Calculate the moment of inertia:
+1. Calculate the cross-sectional area of the equivalent cylinder (radius 2.00 cm):
 <div class="equation">
-$$ I = \frac{\pi r^4}{4} = \frac{\pi(0.0200 \m)^4}{4} = 1.257 \times 10^{-7} \text{ m}^4 $$
+$$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
 </div>
 
-2. Calculate the deflection:
+2. Calculate the sideways deformation:
 <div class="equation">
-$$ \delta = \frac{FL^{3}}{3YI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.257 \times 10^{-7} \text{ m}^4)} $$
-</div>
-
-<div class="equation">
-$$ \delta = \frac{(900)(8000)}{3(7.0 \times 10^{10})(1.257 \times 10^{-7})} = \frac{7.2 \times 10^6}{2.64 \times 10^4} $$
-</div>
-
-<div class="equation">
-$$ \delta = 273 \m $$
-</div>
-
-This result seems too large. Let me reconsider—perhaps we should use the shear deformation approach instead:
-
-Using shear: $$ \Delta x = \frac{FL}{AS} $$, where $$ S $$ is the shear modulus. For aluminum, $$ S = 2.5 \times 10^{10} \text{ N/m}^2 $$.
-
-<div class="equation">
-$$ A = \pi r^2 = \pi(0.0200)^2 = 1.257 \times 10^{-3} \mm $$
-</div>
-
-<div class="equation">
-$$ \Delta x = \frac{(900 \N)(20.0 \m)}{(1.257 \times 10^{-3} \mm)(2.5 \times 10^{10} \text{ N/m}^2)} = \frac{18000}{3.14 \times 10^7} = 5.7 \times 10^{-4} \m $$
+$$ \Delta x = \frac{FL_{0}}{SA} = \frac{(900 \N)(20.0 \m)}{(2.5 \times 10^{10} \text{ N/m}^2)(1.257 \times 10^{-3} \mm)} = 5.7 \times 10^{-4} \m $$
 </div>
 
 **Discussion**
 
-The top of the flagpole flexes approximately $$ 0.57 \text{ mm} $$ to the side under the 900 N horizontal wind force. This small deflection shows that even relatively thin aluminum poles are quite stiff against bending. In practice, flagpoles are designed to handle much larger wind loads without significant permanent deformation.
+In this idealized shear model, the top of the flagpole moves about $$ 0.57 \text{ mm} $$ to the side. Keep in mind that this is a simplified model. A real tall, thin pole pushed at the top mostly *bends*, like a fishing rod, and bending typically produces a much larger deflection than shear alone. Bending of beams is treated in more advanced courses.
 
 ::::
 

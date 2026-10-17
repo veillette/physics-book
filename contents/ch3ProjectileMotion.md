@@ -322,13 +322,15 @@ and $$ y $$ positions. Often, it is convenient to choose the initial position of
 the object as the origin such that $$ x_{0}=0 $$ and $$ y_{0}=0 $$. It is also
 important to define the positive and negative directions in the $$ x $$ and $$ y $$ directions. Typically, we define the positive vertical direction as upwards,
 and the positive horizontal direction is usually the direction of the object’s
-motion. When this is the case, the vertical acceleration, $$ g $$, takes a
-negative value (since it is directed downwards towards the Earth). However, it
+motion. When this is the case, the vertical acceleration is
+$$ a_{y}=-g $$, a negative value (since it is directed downwards towards the
+Earth). Here $$ g=9.80\mss $$ is always a positive number; the sign goes on the
+acceleration component. However, it
 is occasionally useful to define the coordinates differently. For example, if
 you are analyzing the motion of a ball thrown downwards from the top of a cliff,
 it may make sense to define the positive direction downwards since the motion of
-the ball is solely in the downwards direction. If this is the case, $$ g $$
-takes a positive value.
+the ball is solely in the downwards direction. If this is the case,
+$$ a_{y}=+g $$.
 
 ::::
 
@@ -504,7 +506,9 @@ effect on the range, as illustrated in [Figure 5](#Figure5)(b). For a fixed init
 speed, such as might be produced by a cannon, the maximum range is obtained with
 
 $$ \theta_{0}=45^\circ $$. This is true only for conditions neglecting air resistance. If
-air resistance is considered, the maximum angle is approximately $$ 38^\circ $$.
+air resistance is considered, the angle for maximum range is smaller; for many
+sports balls it is somewhere around $$ 35^\circ $$ to $$ 40^\circ $$, but the
+exact value depends on the object, its speed, and other conditions.
 Interestingly, for every initial angle except $$ 45^\circ $$, there are two
 angles that give the same range—the sum of those angles is $$ 90^\circ $$. The
 range also depends on the value of the acceleration of gravity $$ g $$. The
@@ -2069,22 +2073,10 @@ The fish initially has the same horizontal velocity as the eagle (3.00 m/s) and 
 
 **Step 1: Find the vertical velocity component at impact**
 
-Using the kinematic equation:
+Taking up as positive, the acceleration is $$ a_y = -g $$ and $$ \Delta y = -5.00 \m $$. Using the kinematic equation:
 
 <div class="equation">
-$$ v_y^2 = v_{0y}^2 - 2g\Delta y $$
-</div>
-
-Note: Taking up as positive, so $$ \Delta y = -5.00 \m $$ and acceleration is $$ a = -g $$:
-
-<div class="equation">
-$$ v_y^2 = 0^2 - 2(-9.80 \mss)(-5.00 \m) = -2(9.80)(5.00) = -98.0 \mmss $$
-</div>
-
-Wait, let me reconsider. Taking down as positive:
-
-<div class="equation">
-$$ v_y^2 = v_{0y}^2 + 2g\Delta y = 0 + 2(9.80 \mss)(5.00 \m) = 98.0 \mmss $$
+$$ v_y^2 = v_{0y}^2 - 2g\Delta y = 0^2 - 2(9.80 \mss)(-5.00 \m) = 98.0 \mmss $$
 </div>
 
 <div class="equation">

@@ -231,7 +231,7 @@ collision conserves internal kinetic energy. Again, let us assume object 2 $$ \l
 before and after the collision of two objects that have equal masses is
 
 <div class="equation">
- $$ \frac{1}{2}m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime}}_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}. $$
+ $$ \frac{1}{2}m v_{1}^{2}=\frac{1}{2}m \left({v^{\prime}}_{1}\right)^{2}+\frac{1}{2}m \left({v^{\prime}}_{2}\right)^{2}. $$
 </div>
 
 Because the masses are equal, $$ m_{1}=m_{2}=m $$. Algebraic manipulation (left
@@ -239,7 +239,7 @@ to the reader) of conservation of momentum in the $$ x $$- and $$ y $$
 -directions can show that
 
 <div class="equation">
- $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}{ m {v^{\prime} }_{1}}^{2}+\frac{1}{2}{ m {v^{\prime} }_{2}}^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right). $$
+ $$ \frac{1}{2} m v_{1}^{2}=\frac{1}{2}m \left({v^{\prime}}_{1}\right)^{2}+\frac{1}{2}m \left({v^{\prime}}_{2}\right)^{2}+{mv^{\prime} }_{1}v^{\prime}_{2}\cos\left({\theta_{1}}-{\theta_{2}}\right). $$
 </div>
 
 (Remember that $$\theta_{2} $$ is negative here.) The two preceding equations

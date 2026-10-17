@@ -25,8 +25,8 @@ deeply than does qualitative description alone. To comprehend these vast ranges,
 we must also have accepted units in which to express them. And we shall find
 that (even in the potentially mundane discussion of meters, kilograms, and
 seconds) a profound simplicity of nature appears—all physical quantities can be
-expressed as combinations of only four fundamental physical quantities: length,
-mass, time, and electric current.
+expressed as combinations of only a few fundamental physical quantities. The SI
+system has seven; in mechanics, we need only three: length, mass, and time.
 
 We define a **physical quantity**
 either by _specifying how it is measured_
@@ -57,8 +57,9 @@ the French _Système International_.
 
 ### SI Units: Fundamental and Derived Units
 
-[Table 1](#Table1) gives the fundamental SI units that are used throughout this
-textbook. This text uses non-SI units in a few applications where they are in
+[Table 1](#Table1) gives the four fundamental SI units that are used most often in this
+textbook. (The SI system has three more base units: the kelvin for temperature,
+the mole for amount of substance, and the candela for luminous intensity.) This text uses non-SI units in a few applications where they are in
 very common use, such as the measurement of blood pressure in millimeters of
 mercury (mm Hg). Whenever non-SI units are discussed, they will be tied to SI
 units through conversions.
@@ -75,9 +76,9 @@ It is an intriguing fact that some physical quantities are more fundamental than
 others and that the most fundamental physical quantities can be defined **only**
 in terms of the procedure used to measure them. The units in which they are
 measured are thus called **fundamental units**. In this textbook, the
-fundamental physical quantities are taken to be length, mass, time, and electric
+fundamental physical quantities used most are length, mass, time, and electric
 current. (Note that electric current will not be introduced until much later in
-this text.) All other physical quantities, such as force and electric charge,
+this text.) Many other physical quantities, such as force and electric charge,
 can be expressed as algebraic combinations of length, mass, time, and current (
 for example, speed is length divided by time); these units are called **derived
 units**.
@@ -106,8 +107,8 @@ themselves.
 
 The SI unit for length is the **meter** (abbreviated m); its definition has also
 changed over time to become more accurate and precise. The meter was first
-defined in 1791 as 1/10 000 of the distance from the equator to the North
-Pole. This measurement was improved in 1889 by redefining the meter to be the
+defined in 1791 as 1/10 000 000 of the distance from the equator to the North
+Pole, measured along the meridian through Paris. This measurement was improved in 1889 by redefining the meter to be the
 distance between two engraved lines on a platinum-iridium bar now kept near
 Paris. By 1960, it had become possible to define the meter even more accurately
 in terms of the wavelength of light, so it was again redefined as 1 650 763.73
@@ -115,8 +116,9 @@ wavelengths of orange light emitted by krypton atoms. In 1983, the meter was
 given its present definition (partly for greater accuracy) as the distance light
 travels in a vacuum in 1/299 792 458 of a second. (
 See [Figure 4](#Figure4).) This change defines the speed of light to be exactly 299
-792 458 meters per second. The length of the meter will change if the speed of
-light is someday measured with greater accuracy.
+792 458 meters per second. Because this value is now fixed by definition, better
+measurements cannot change it; instead, they let laboratories realize the meter
+more accurately.
 
 #### The Kilogram
 
@@ -184,13 +186,13 @@ which is based on the oscillations of the cesium atom.
 
 The standard for length was once based on the wavelength of light (a small-scale
 length) emitted by a certain type of atom, but it has been supplanted by the
-more precise measurement of the speed of light. If it becomes possible to
-measure the mass of atoms or a particular arrangement of atoms such as a silicon
-sphere to greater precision than the kilogram standard, it may become possible
-to base mass measurements on the small scale. There are also possibilities that
-electrical phenomena on the small scale may someday allow us to base a unit of
-charge on the charge of electrons and protons, but at present current and charge
-are related to large-scale currents and forces between wires.
+more precise measurement of the speed of light. For a long time, mass and
+electric current remained tied to large-scale objects: the kilogram to a metal
+cylinder, and the ampere to the force between current-carrying wires. Since
+the 2019 revision of the SI, this quest is complete. The kilogram is now defined
+by fixing the value of Planck's constant, and the ampere by fixing the value of
+the elementary charge, the charge of a single proton. Every SI base unit is now
+defined by fixing the exact value of a constant of nature.
 
 :::
 

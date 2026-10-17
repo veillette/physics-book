@@ -1088,69 +1088,52 @@ result shown in [Figure 17](#Figure17).
 
 **Strategy**
 
-We need to verify the vector addition shown in Example 2 and Figure 17. We'll add the individual displacement vectors using the component method, then calculate the magnitude and direction of the resultant to confirm it matches the given result.
+We need to verify the vector addition shown in Example 2 and Figure 17. We'll add the two displacement vectors using the component method, then calculate the magnitude and direction of the resultant to confirm it matches the given result. Because the two vectors nearly cancel in the $$x$$-direction, we keep extra digits in the intermediate steps.
 
 **Solution**
 
-From Example 2, the displacement vectors are:
+From Example 2, the displacement vectors (with angles measured counterclockwise from east) are:
 
-- **A**: 27.5 m at 66.0° north of east
-- **B**: 15.0 m west
-- **C**: 26.0 m at 23.0° south of west
+- **A**: 27.5 m at 66.0°
+- **B**: 30.0 m at 112.0°
 
 **Vector A components:**
 
 <div class="equation">
-$$A_x = 27.5 \cos(66.0^\circ) = 27.5 \times 0.407 = 11.2 \m$$
-</div>
-
-<div class="equation">
-$$A_y = 27.5 \sin(66.0^\circ) = 27.5 \times 0.914 = 25.1 \m$$
+$$A_x = 27.5 \cos(66.0^\circ) = 11.185 \m, \qquad A_y = 27.5 \sin(66.0^\circ) = 25.123 \m$$
 </div>
 
 **Vector B components:**
 
 <div class="equation">
-$$B_x = -15.0 \m$$(west is negative x)
-</div>
-
-<div class="equation">
-$$B_y = 0 \m$$
-</div>
-
-**Vector C components:**
-
-<div class="equation">
-$$C_x = -26.0 \cos(23.0^\circ) = -26.0 \times 0.921 = -23.9 \m$$
-</div>
-
-<div class="equation">
-$$C_y = -26.0 \sin(23.0^\circ) = -26.0 \times 0.391 = -10.2 \m$$
+$$B_x = 30.0 \cos(112.0^\circ) = -11.238 \m, \qquad B_y = 30.0 \sin(112.0^\circ) = 27.816 \m$$
 </div>
 
 **Resultant components:**
 
 <div class="equation">
-$$R_x = A_x + B_x + C_x = 11.2 + (-15.0) + (-23.9) = -27.7 \m$$
+$$R_x = A_x + B_x = 11.185 + (-11.238) = -0.053 \m$$
 </div>
 
 <div class="equation">
-$$R_y = A_y + B_y + C_y = 25.1 + 0 + (-10.2) = 14.9 \m$$
+$$R_y = A_y + B_y = 25.123 + 27.816 = 52.939 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(-27.7)^2 + (14.9)^2} = \sqrt{767.29 + 222.01} = \sqrt{989.3} = 31.5 \m$$
+$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(-0.053)^2 + (52.939)^2} = 52.9 \m$$
 </div>
 
-Wait, this doesn't match. Let me recalculate using the actual values from Example 2. Looking at Figure 17 more carefully, the total resultant should be approximately 52.9 m at 90.1° from the x-axis.
+**Direction:** Since $$R_x$$ is very slightly negative and $$R_y$$ is positive, the resultant points just west of north:
 
-Actually, I need to verify using the specific displacement values from Example 2. The resultant shown is 52.9 m at 90.1° with respect to the x-axis, which means it points almost due north (90° from east).
+<div class="equation">
+$$\theta = 90^\circ + \tan^{-1}\left(\frac{0.053}{52.939}\right) = 90^\circ + 0.06^\circ = 90.1^\circ$$
+</div>
 
 **Discussion**
 
-The vector sum of multiple displacements yields a single resultant displacement vector that represents the net effect of all individual displacements. The graphical head-to-tail method and the analytical component method should give the same result. The direction of 90.1° from the x-axis indicates the resultant points almost exactly north, showing that the northward displacements dominate over the east-west components.
+The graphical head-to-tail method and the analytical component method give the same result. The $$x$$-components of the two vectors almost exactly cancel, so the resultant points almost exactly north.
 
 **Answer**
 

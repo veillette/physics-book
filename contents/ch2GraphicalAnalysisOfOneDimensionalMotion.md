@@ -553,43 +553,29 @@ is 0.208 m/s. Assume all values are known to 3 significant figures.
 
 **Strategy**
 
-The slope of a position vs. time graph gives the velocity. To find the instantaneous velocity at $$ t = 10.0 \s $$, we need to find the slope of the curve at that point. Since this appears to be a straight line, we can choose two points on the line (preferably well-separated for accuracy) and calculate the slope using $$ v = \frac{\Delta x}{\Delta t} $$.
+The slope of a position vs. time graph gives the velocity. To find the instantaneous velocity at $$ t = 10.0 \s $$, we need the slope of the curve at that point. The graph is nearly straight near $$ t = 10.0 \s $$, so we can estimate the slope using two points on either side of that time, at $$ t = 0 \s $$ and $$ t = 20.0 \s $$, and calculate $$ v = \frac{\Delta x}{\Delta t} $$.
 
 **Solution**
 
-From Figure 16, we can read approximate values from the graph. Let's choose two points that are widely separated:
+Reading approximate values from Figure 16 (note that the position axis is in meters):
 
-At $$ t_1 = 0.0 \s $$, the position is approximately $$ x_1 = 0.50 \text{ km} = 500 \m $$
+At $$ t_1 = 0 \s $$, the position is approximately $$ x_1 = 2.80 \m $$.
 
-At $$ t_2 = 20.0 \s $$, the position is approximately $$ x_2 = 4.65 \text{ km} = 4650 \m $$
+At $$ t_2 = 20.0 \s $$, the position is approximately $$ x_2 = 6.96 \m $$.
 
 Now calculate the slope:
 
 <div class="equation">
-$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{4650 \m - 500 \m}{20.0 \s - 0.0 \s} $$
-</div>
-
-<div class="equation">
-$$ v = \frac{4150 \m}{20.0 \s} = 207.5 \ms \approx 208 \ms $$
-</div>
-
-To verify at $$ t = 10.0 \s $$ specifically, we can also use points around that time:
-
-At $$ t_1 = 5.0 \s $$, $$ x_1 \approx 1.54 \text{ km} = 1540 \m $$
-
-At $$ t_2 = 15.0 \s $$, $$ x_2 \approx 3.62 \text{ km} = 3620 \m $$
-
-<div class="equation">
-$$ v = \frac{3620 \m - 1540 \m}{15.0 \s - 5.0 \s} = \frac{2080 \m}{10.0 \s} = 208 \ms $$
+$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{6.96 \m - 2.80 \m}{20.0 \s - 0 \s} = \frac{4.16 \m}{20.0 \s} = 0.208 \ms $$
 </div>
 
 **Discussion**
 
-The velocity is constant throughout the motion because the position-time graph is a straight line. The positive slope indicates the object is moving in the positive direction. This value of 208 m/s (or 0.208 km/s) is consistent across different time intervals, confirming that the motion has zero acceleration.
+The positive slope indicates that the object is moving in the positive direction. Because the values are read from a graph, a slightly different reading gives a slightly different slope; any value close to 0.21 m/s is a good estimate. The graph is not perfectly straight, so the velocity at other times differs a little from this value.
 
 **Answer**
 
-The velocity at $$ t = 10.0 \s $$ is 208 m/s (or 0.208 km/s), which verifies the given value.
+The velocity at $$ t = 10.0 \s $$ is approximately 0.208 m/s, which verifies the given value.
 
 :::
 
