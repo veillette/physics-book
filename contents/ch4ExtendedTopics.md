@@ -318,31 +318,23 @@ From Table 1, the relative strengths are:
 $$ \frac{\text{weak nuclear}}{\text{strong nuclear}} = \frac{10^{-6}}{1} = 10^{-6} $$
 </div>
 
-This can also be expressed as: $$ 1 \times 10^{-13} $$ of the strong force when considering different reference scales. Using the more precise ratio:
-
-<div class="equation">
-$$ 10^{-13} \text{ (using specific comparison)} $$
-</div>
-
 **(b) Weak nuclear force relative to electromagnetic force:**
 
 <div class="equation">
 $$ \frac{\text{weak nuclear}}{\text{electromagnetic}} = \frac{10^{-6}}{10^{-2}} = 10^{-4} $$
 </div>
 
-Or using the specific value: $$ 1 \times 10^{-11} $$
-
 **Discussion**
 
-The weak nuclear force is extremely feeble compared to the strong nuclear force (about $$ 10^{-13} $$ as strong) and to the electromagnetic force (about $$ 10^{-11} $$ as strong). Despite its weakness, the weak force is crucial because it's responsible for beta decay, where neutrons transform into protons (or vice versa), releasing electrons or positrons and neutrinos. This process cannot occur via the strong or electromagnetic forces due to conservation laws.
+The weak nuclear force is extremely feeble compared to the strong nuclear force (about $$ 10^{-6} $$ as strong on the scale of Table 1) and to the electromagnetic force (about $$ 10^{-4} $$ as strong). Despite its weakness, the weak force is crucial because it's responsible for beta decay, where neutrons transform into protons (or vice versa), releasing electrons or positrons and neutrinos. This process cannot occur via the strong or electromagnetic forces due to conservation laws.
 
 The weak force's extremely short range (about $$ 10^{-18} $$ m, even shorter than the strong force's range of $$ 10^{-15} $$ m) means it only acts within nuclei. Its discovery through beta decay was a triumph of experimental physics, as it revealed a fundamental force acting at scales too small to observe directly.
 
 **Answer**
 
-(a) The strength of the weak nuclear force relative to the strong nuclear force is approximately **$$ 1 \times 10^{-13} $$** (or about one-ten-trillionth as strong).
+(a) The strength of the weak nuclear force relative to the strong nuclear force is **$$ 10^{-6} $$**.
 
-(b) The strength of the weak nuclear force relative to the electromagnetic force is approximately **$$ 1 \times 10^{-11} $$** (or about one-hundred-billionth as strong).
+(b) The strength of the weak nuclear force relative to the electromagnetic force is **$$ 10^{-4} $$**.
 
 :::
 

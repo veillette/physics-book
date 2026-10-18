@@ -283,7 +283,7 @@ bullet to accelerate it to a speed of 600 m/s in a time of 2.00 ms (milliseconds
 
 **Strategy**
 
-We use the impulse-momentum theorem: $$ F\_{\text{net}} \Delta t = \Delta p $$. The bullet starts from rest and reaches a final velocity, so we can calculate the change in momentum and divide by the time interval to find the average force.
+We use the impulse-momentum theorem: $$ F_{\text{net}} \Delta t = \Delta p $$. The bullet starts from rest and reaches a final velocity, so we can calculate the change in momentum and divide by the time interval to find the average force.
 
 **Solution**
 
@@ -299,7 +299,7 @@ $$ \Delta t = 2.00 \text{ ms} = 2.00 \times 10^{-3} \s $$
 
 Apply the impulse-momentum theorem to find the average force:
 
-$$ F\_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{18.0 \kg \cdot \ms}{2.00 \times 10^{-3} \s} = 9.00 \times 10^{3} \N $$
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{18.0 \kg \cdot \ms}{2.00 \times 10^{-3} \s} = 9.00 \times 10^{3} \N $$
 
 The average force exerted on the bullet is $$ 9.00 \times 10^{3} \N $$ (9000 N, or about 2000 pounds of force).
 
@@ -345,7 +345,7 @@ $$ \Delta p = p_f - p_i = 0 - 700 \kg \cdot \ms = -700 \kg \cdot \ms $$
 
 Apply the impulse-momentum theorem:
 
-$$ F\_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-700 \kg \cdot \ms}{0.26 \s} = -2700 \N $$
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-700 \kg \cdot \ms}{0.26 \s} = -2700 \N $$
 
 The magnitude of the force is approximately $$ 2.7 \times 10^{3} \N $$ (about 600 pounds), directed opposite to the passenger's initial motion.
 
@@ -808,9 +808,9 @@ First, we use kinematics to find the stopping time, then apply the impulse-momen
 
 Find the stopping time using the average velocity:
 
-$$ v\_{\text{avg}} = \frac{v_i + v_f}{2} = \frac{0.750 \ms + 0}{2} = 0.375 \ms $$
+$$ v_{\text{avg}} = \frac{v_i + v_f}{2} = \frac{0.750 \ms + 0}{2} = 0.375 \ms $$
 
-$$ \Delta t = \frac{\Delta x}{v\_{\text{avg}}} = \frac{6.00 \m}{0.375 \ms} = 16.0 \s $$
+$$ \Delta t = \frac{\Delta x}{v_{\text{avg}}} = \frac{6.00 \m}{0.375 \ms} = 16.0 \s $$
 
 Calculate the ship's initial momentum:
 
@@ -818,7 +818,7 @@ $$ p_i = mv_{i} = (1.00 \times 10^{7} \kg)(0.750 \ms) = 7.50 \times 10^{6} \kg \
 
 Apply the impulse-momentum theorem:
 
-$$ F\_{\text{avg}} = \frac{|\Delta p|}{\Delta t} = \frac{|0 - 7.50 \times 10^{6} \kg \cdot \ms|}{16.0 \s} = 4.69 \times 10^{5} \N $$
+$$ F_{\text{avg}} = \frac{|\Delta p|}{\Delta t} = \frac{|0 - 7.50 \times 10^{6} \kg \cdot \ms|}{16.0 \s} = 4.69 \times 10^{5} \N $$
 
 The average force exerted on the pier is $$ 4.69 \times 10^{5} \N $$ (about 105,000 pounds or 53 tons) in the ship's original direction of motion.
 
@@ -1031,7 +1031,7 @@ impulse delivered by the wall?
 
 **Strategy**
 
-The impulse equals the change in momentum: $$ \vb{J} = \Delta \vb{p} = \vb{p}\_f - \vb{p}\_i $$. We need to find the x and y components of momentum before and after the collision, then calculate the change.
+The impulse equals the change in momentum: $$ \vb{J} = \Delta \vb{p} = \vb{p}_f - \vb{p}_i $$. We need to find the x and y components of momentum before and after the collision, then calculate the change.
 
 **Solution**
 
@@ -1039,21 +1039,21 @@ Convert mass to kg: $$ m = 55 \text{ g} = 0.055 \kg $$
 
 Find the initial velocity components:
 
-$$ v\_{ix} = v \cos 60^\circ = (10 \ms)(0.500) = 5.00 \ms $$
+$$ v_{ix} = v \cos 60^\circ = (10 \ms)(0.500) = 5.00 \ms $$
 
-$$ v\_{iy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
+$$ v_{iy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
 
 Find the final velocity components (moving at $$ 60^\circ $$ above $$ -x $$):
 
-$$ v\_{fx} = -v \cos 60^\circ = -(10 \ms)(0.500) = -5.00 \ms $$
+$$ v_{fx} = -v \cos 60^\circ = -(10 \ms)(0.500) = -5.00 \ms $$
 
-$$ v\_{fy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
+$$ v_{fy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
 
 Calculate the change in momentum components:
 
-$$ \Delta p_x = m(v_{fx} - v\_{ix}) = (0.055 \kg)(-5.00 - 5.00) \ms = -0.55 \kg \cdot \ms $$
+$$ \Delta p_x = m(v_{fx} - v_{ix}) = (0.055 \kg)(-5.00 - 5.00) \ms = -0.55 \kg \cdot \ms $$
 
-$$ \Delta p_y = m(v_{fy} - v\_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
+$$ \Delta p_y = m(v_{fy} - v_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
 
 Find the magnitude of the impulse:
 
@@ -1138,21 +1138,21 @@ $$ v_i = 4.43 \ms \text{ (downward)} $$
 
 Initial momentum components (taking +x horizontal, +y upward):
 
-$$ p\_{ix} = 0 $$
+$$ p_{ix} = 0 $$
 
-$$ p\_{iy} = m v_i = (0.075 \kg)(-4.43 \ms) = -0.332 \kg \cdot \ms $$
+$$ p_{iy} = m v_i = (0.075 \kg)(-4.43 \ms) = -0.332 \kg \cdot \ms $$
 
 Final momentum components (18 m/s at 55° above horizontal):
 
-$$ p\_{fx} = m v_f \cos 55^\circ = (0.075 \kg)(18 \ms)(0.574) = 0.775 \kg \cdot \ms $$
+$$ p_{fx} = m v_f \cos 55^\circ = (0.075 \kg)(18 \ms)(0.574) = 0.775 \kg \cdot \ms $$
 
-$$ p\_{fy} = m v_f \sin 55^\circ = (0.075 \kg)(18 \ms)(0.819) = 1.11 \kg \cdot \ms $$
+$$ p_{fy} = m v_f \sin 55^\circ = (0.075 \kg)(18 \ms)(0.819) = 1.11 \kg \cdot \ms $$
 
 Calculate the impulse components:
 
-$$ J_x = p_{fx} - p\_{ix} = 0.775 - 0 = 0.775 \kg \cdot \ms $$
+$$ J_x = p_{fx} - p_{ix} = 0.775 - 0 = 0.775 \kg \cdot \ms $$
 
-$$ J_y = p_{fy} - p\_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
+$$ J_y = p_{fy} - p_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
 
 Find the magnitude and direction:
 

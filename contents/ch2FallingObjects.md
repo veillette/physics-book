@@ -149,7 +149,7 @@ The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> 
 1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$. We also know from the solution above
 that $$ y_{1}=8.10 \m $$.
 
-2\. Identify the best equation to use. The most straightforward is $$ v=v_{0}-gt $$ (from $$ v=v\_{0}+at $$, where $$ a=\text{gravitational acceleration}=-g $$).
+2\. Identify the best equation to use. The most straightforward is $$ v=v_{0}-gt $$ (from $$ v=v_{0}+at $$, where $$ a=\text{gravitational acceleration}=-g $$).
 
 3\. Plug in the knowns and solve.
 
@@ -159,7 +159,7 @@ that $$ y_{1}=8.10 \m $$.
 
 **Discussion**
 
-The positive value for $$ v\_{1} $$ means that the rock is still heading upward
+The positive value for $$ v_{1} $$ means that the rock is still heading upward
 at $$ t=1.00\s $$. However, it has slowed from its original 13.0\*\* m/s, as
 expected.
 
@@ -230,18 +230,18 @@ Draw a sketch.
 {: #Figure4}
 
 Since up is positive, the final position of the rock will be negative because it
-finishes below the starting point at $$ y\_{0}=0 $$. Similarly, the initial
+finishes below the starting point at $$ y_{0}=0 $$. Similarly, the initial
 velocity is downward and therefore negative, as is the acceleration due to
 gravity. We expect the final velocity to be negative since the rock will
 continue to move downward.
 
 **Solution**
 
-1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v\_{0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
+1\. Identify the knowns. $$ y_{0}=0 $$; $$ y_{1}=-5.10 \m $$; $$ v_{0}=-13.0 \ms $$; $$ a=-g=-9.80 \mss $$.
 
 2\. Choose the kinematic equation that makes it easiest to solve the problem.
 The equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ works well because the
-only unknown in it is $$ v $$. (We will plug $$ y\_{1} $$ in for $$ y $$.)
+only unknown in it is $$ v $$. (We will plug $$ y_{1} $$ in for $$ y $$.)
 
 3\. Enter the known values
 
@@ -1307,7 +1307,7 @@ A takeoff speed of 7.00 m/s (about 25 km/h) is quite impressive for an animal ju
 :::: problem
 
 Standing at the base of one of the cliffs of Mt. Arapiles in Victoria, Australia, a hiker hears a rock break loose from
-a height of 105 m. He can't see the rock right away but then does, 1.50 s later.
+a height of 105 m. He can't see the rock right away but then does, 1.50 s later. The speed of sound is 343 m/s.
 (a) How far above the hiker is the rock when he can see it?
 (b) How much time does he have to move before the rock hits his head?
 
@@ -1317,75 +1317,58 @@ a height of 105 m. He can't see the rock right away but then does, 1.50 s later.
 
 **Strategy**
 
-Take downward as positive. The rock falls from rest at height 105 m. After 1.50 s, the hiker can see it. We need to find where the rock is at that time, and then how long it takes to fall the remaining distance.
+Take downward as positive. The 1.50 s interval begins when the hiker **hears** the rock break loose, so sound has already traveled from the cliff to the hiker. We first find how long the rock has been falling when it becomes visible, then find its height and the remaining fall time.
 
 **Solution**
 
 **(a) Height of rock when hiker sees it:**
 
-1. Identify the known values:
-   - Initial position: $$ y_0 = 0 $$
-   - Initial velocity: $$ v_0 = 0 $$ (breaks loose from rest)
-   - Time: $$ t = 1.50 \s $$
-   - Acceleration: $$ a = g = 9.80 \mss $$ (downward, positive)
-
-2. Find the distance fallen in 1.50 s:
+1. Time for sound to travel 105 m to the hiker:
 <div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} = 0 + 0 + \frac{1}{2}(9.80)(1.50)^2 $$
+$$ t_{\text{sound}} = \frac{105 \m}{343 \text{ m/s}} = 0.306 \s $$
 </div>
 
+2. The rock has been falling for $$ t = t_{\text{sound}} + 1.50 \s = 1.81 \s $$ when the hiker sees it (from rest, $$ g = 9.80 \mss $$ downward):
+
 <div class="equation">
-$$ y = 4.90(2.25) = 11.0 \m $$
+$$ y = \frac{1}{2}gt^{2} = \frac{1}{2}(9.80)(1.81)^2 = 16.0 \m $$
 </div>
 
 3. The rock is above the hiker by:
 <div class="equation">
-$$ h = 105 - 11.0 = 94.0 \m $$
+$$ h = 105 - 16.0 = 89.0 \m $$
 </div>
 
 **(b) Time remaining before impact:**
 
-1. The rock still needs to fall 94.0 m. Its velocity after 1.50 s is:
+1. The rock still needs to fall 89.0 m. Its speed after 1.81 s is:
 <div class="equation">
-$$ v = v_0 + gt = 0 + (9.80)(1.50) = 14.7 \ms $$
+$$ v = gt = (9.80)(1.81) = 17.7 \ms $$
 </div>
 
 2. Use the kinematic equation for the remaining fall:
 <div class="equation">
-$$ y = v_0 t + \frac{1}{2}gt^{2} $$
+$$ 89.0 = (17.7)t + \frac{1}{2}(9.80)t^2 $$
 </div>
 
 <div class="equation">
-$$ 94.0 = (14.7)t + \frac{1}{2}(9.80)t^2 $$
-</div>
-
-<div class="equation">
-$$ 4.90t^2 + 14.7t - 94.0 = 0 $$
+$$ 4.90t^2 + 17.7t - 89.0 = 0 $$
 </div>
 
 3. Using the quadratic formula:
 <div class="equation">
-$$ t = \frac{-14.7 \pm \sqrt{(14.7)^2 + 4(4.90)(94.0)}}{2(4.90)} $$
-</div>
-
-<div class="equation">
-$$ t = \frac{-14.7 \pm \sqrt{216.1 + 1842.4}}{9.80} = \frac{-14.7 \pm 45.4}{9.80} $$
-</div>
-
-Taking the positive root:
-<div class="equation">
-$$ t = \frac{30.7}{9.80} = 3.13 \s $$
+$$ t = \frac{-17.7 + \sqrt{(17.7)^2 + 4(4.90)(89.0)}}{2(4.90)} = 2.82 \s $$
 </div>
 
 **Discussion**
 
-The rock falls 11.0 m in the first 1.50 seconds, leaving it 94.0 m above the hiker when he first sees it. This is reasonable since falling objects don't travel very far in the first second or two. The hiker then has 3.13 seconds to move out of the way - enough time to react if he's alert, but not much margin for error! The total fall time is $$ 1.50 + 3.13 = 4.63 \s $$. This problem illustrates the importance of staying alert near cliffs and the accelerating nature of falling objects.
+The hiker hears the break about 0.31 s after release, when sound reaches him from 105 m up. Only after another 1.50 s does he see the rock, by which time it has fallen about 16 m and is 89.0 m above him. Including sound travel (as in the later Half Dome problem) shortens the warning interval: he has 2.82 s to move once the rock is visible. This problem illustrates the importance of staying alert near cliffs and the accelerating nature of falling objects.
 
 **Answer**
 
-(a) When the hiker first sees the rock, it is 94.0 m above him.
+(a) When the hiker first sees the rock, it is 89.0 m above him.
 
-(b) He has 3.13 s to move before the rock hits his head.
+(b) He has 2.82 s to move before the rock hits his head.
 
 ::::
 
@@ -1629,7 +1612,7 @@ The window is 2.00 m high and the ball takes 0.312 s to pass through it.
 $$ \Delta y = v_{bottom} t + \frac{1}{2}at^{2} $$
 </div>
 
-3. Substitute and solve for $$ v\_{bottom} $$:
+3. Substitute and solve for $$ v_{bottom} $$:
 <div class="equation">
 $$ 2.00 = v_{bottom}(0.312) + \frac{1}{2}(-9.80)(0.312)^2 $$
 </div>
@@ -1800,7 +1783,7 @@ $$ d = 4.90 \times (1.944)^2 = 4.90 \times 3.779 = 18.5 \m $$
 
 **Discussion**
 
-When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t\_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
+When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
 
 **Answer**
 
@@ -1914,45 +1897,23 @@ $$ a = \frac{v - v_0}{t} = \frac{5.33 - (-5.42)}{8.00 \times 10^{-5}} $$
 $$ a = \frac{10.75}{8.00 \times 10^{-5}} = 1.34 \times 10^{5} \mss $$
 </div>
 
-__(d) Distance the ball compressed during collision:__
+__(d) Maximum compression during collision:__
 
-1. Use the kinematic equation with average velocity:
-<div class="equation">
-$$ y = y_0 + \frac{v_0 + v}{2}t $$
-</div>
+Part (c) gives the **average** acceleration over the entire contact interval (approach and rebound). Maximum compression occurs when the downward velocity first reaches zero, not at the end of contact. If we approximate the collision as motion with constant upward acceleration of magnitude $$ a = 1.34 \times 10^{5} \mss $$ from impact until the ball momentarily stops, the stopping distance is
 
-2. Substitute the known values:
 <div class="equation">
-$$ \Delta y = \frac{-5.42 + 5.33}{2} \times (8.00 \times 10^{-5}) $$
+$$ d_{\max} = \frac{v_{\text{before}}^{2}}{2a} = \frac{(5.42 \ms)^{2}}{2(1.34 \times 10^{5} \mss)} = 1.09 \times 10^{-4} \m $$
 </div>
 
 <div class="equation">
-$$ \Delta y = \frac{-0.09}{2} \times (8.00 \times 10^{-5}) = -3.6 \times 10^{-6} \m $$
+$$ d_{\max} = 0.109 \text{ mm} $$
 </div>
 
-The magnitude of compression is:
-
-<div class="equation">
-$$ |\Delta y| = 3.6 \times 10^{-6} \m = 3.6 \text{ μm} $$
-</div>
-
-Alternatively, using $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$:
-
-<div class="equation">
-$$ \Delta y = (-5.42)(8.00 \times 10^{-5}) + \frac{1}{2}(1.34 \times 10^{5})(8.00 \times 10^{-5})^2 $$
-</div>
-
-<div class="equation">
-$$ \Delta y = -4.34 \times 10^{-4} + 4.30 \times 10^{-4} = -4.0 \times 10^{-6} \m $$
-</div>
-
-<div class="equation">
-$$ |\Delta y| \approx 4.0 \times 10^{-6} \m = 4.0 \text{ μm} $$
-</div>
+This idealization does not describe the full rebound phase; it only estimates peak deformation from the impact speed and the average acceleration found in (c).
 
 **Discussion**
 
-The ball hits the floor at 5.42 m/s and rebounds at 5.33 m/s - nearly the same speed, indicating an almost elastic collision. The acceleration during contact is enormous - about 13,700 times the acceleration due to gravity (about 13,700 g's)! Despite this huge acceleration, the ball compresses only about 4 micrometers because the contact time is so brief (0.08 milliseconds). These values are reasonable for a hard steel ball on a hard floor. The small loss in rebound height (from 1.50 m to 1.45 m) represents energy lost to heat and sound during the collision.
+The ball hits the floor at 5.42 m/s and rebounds at 5.33 m/s - nearly the same speed, indicating an almost elastic collision. The acceleration during contact is enormous - about 13,700 times the acceleration due to gravity (about 13,700 g's)! With the constant-acceleration stopping model above, maximum compression is about 0.11 mm—far smaller than a rebound-height change would suggest, because contact lasts only 0.080 ms. These values are reasonable for a hard steel ball on a hard floor. The small loss in rebound height (from 1.50 m to 1.45 m) represents energy lost to heat and sound during the collision.
 
 **Answer**
 
@@ -1962,7 +1923,7 @@ The ball hits the floor at 5.42 m/s and rebounds at 5.33 m/s - nearly the same s
 
 (c) The acceleration during contact with the floor is $$ 1.34 \times 10^{5} \mss $$ (upward, or about 13,700 g's).
 
-(d) The ball compressed approximately $$ 4.0 \times 10^{-6} \m $$ or $$ 4.0 \text{ μm} $$ during its collision with the floor.
+(d) Assuming constant upward acceleration equal to the magnitude in (c) until the ball stops, maximum compression is approximately $$ 0.109 \text{ mm} $$.
 
 ::::
 
@@ -2211,49 +2172,17 @@ $$ a = \frac{v - v_0}{t} = \frac{4.64 - (-5.42)}{3.50 \times 10^{-3}} $$
 $$ a = \frac{10.06}{3.50 \times 10^{-3}} = 2.87 \times 10^{3} \mss $$
 </div>
 
-__(d) Distance the ball compressed during collision:__
+__(d) Maximum compression during collision:__
 
-1. Use the kinematic equation:
-<div class="equation">
-$$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
-</div>
-
-2. Substitute the known values:
-<div class="equation">
-$$ \Delta y = (-5.42)(3.50 \times 10^{-3}) + \frac{1}{2}(2.87 \times 10^{3})(3.50 \times 10^{-3})^2 $$
-</div>
+As for the steel ball, the average acceleration in (c) applies to the whole contact interval. Maximum compression is the distance traveled while the ball slows from $$ -5.42 \ms $$ to rest. With the same constant-upward-acceleration idealization and $$ a = 2.87 \times 10^{3} \mss $$:
 
 <div class="equation">
-$$ \Delta y = -1.90 \times 10^{-2} + \frac{1}{2}(2.87 \times 10^{3})(1.225 \times 10^{-5}) $$
-</div>
-
-<div class="equation">
-$$ \Delta y = -1.90 \times 10^{-2} + 1.76 \times 10^{-2} = -1.4 \times 10^{-3} \m $$
-</div>
-
-The magnitude of compression is:
-
-<div class="equation">
-$$ |\Delta y| = 1.4 \times 10^{-3} \m = 1.4 \text{ mm} $$
-</div>
-
-Alternatively, using average velocity:
-
-<div class="equation">
-$$ \Delta y = \frac{v_0 + v}{2}t = \frac{-5.42 + 4.64}{2} \times (3.50 \times 10^{-3}) $$
-</div>
-
-<div class="equation">
-$$ \Delta y = \frac{-0.78}{2} \times (3.50 \times 10^{-3}) = -1.37 \times 10^{-3} \m $$
-</div>
-
-<div class="equation">
-$$ |\Delta y| \approx 1.4 \times 10^{-3} \m = 1.4 \text{ mm} $$
+$$ d_{\max} = \frac{(5.42 \ms)^{2}}{2(2.87 \times 10^{3} \mss)} = 5.11 \times 10^{-3} \m = 5.11 \text{ mm} $$
 </div>
 
 **Discussion**
 
-The soft tennis ball shows markedly different behavior from the steel ball. It hits the floor at the same speed (5.42 m/s) since both are dropped from 1.50 m, but rebounds at only 4.64 m/s compared to the steel ball's 5.33 m/s. This represents greater energy loss during the collision. The contact time is much longer (3.50 ms vs. 0.08 ms), resulting in a much smaller acceleration (about 293 g's vs. 13,700 g's for the steel ball). The soft tennis ball compresses about 1.4 mm, which is over 300 times more than the steel ball (4 micrometers). This greater compression and longer contact time are characteristic of softer materials and less elastic collisions. The significant loss in rebound height (from 1.50 m to 1.10 m, a 27% loss) shows that much more energy was dissipated as heat, sound, and permanent deformation compared to the steel ball.
+The soft tennis ball shows markedly different behavior from the steel ball. It hits the floor at the same speed (5.42 m/s) since both are dropped from 1.50 m, but rebounds at only 4.64 m/s compared to the steel ball's 5.33 m/s. This represents greater energy loss during the collision. The contact time is much longer (3.50 ms vs. 0.08 ms), resulting in a much smaller acceleration (about 293 g's vs. 13,700 g's for the steel ball). Under the same stopping-distance idealization, maximum compression is about 5.11 mm—much larger than for steel and consistent with a softer, less elastic collision. The significant loss in rebound height (from 1.50 m to 1.10 m, a 27% loss) shows that much more energy was dissipated as heat, sound, and permanent deformation compared to the steel ball.
 
 **Answer**
 
@@ -2263,7 +2192,7 @@ The soft tennis ball shows markedly different behavior from the steel ball. It h
 
 (c) The acceleration during contact with the floor is $$ 2.87 \times 10^{3} \mss $$ (upward, or about 293 g's).
 
-(d) The ball compressed approximately $$ 1.4 \times 10^{-3} \m $$ or $$ 1.4 \text{ mm} $$ during its collision with the floor.
+(d) Assuming constant upward acceleration equal to the magnitude in (c) until the ball stops, maximum compression is approximately $$ 5.11 \text{ mm} $$.
 
 ::::
 

@@ -725,7 +725,7 @@ Notice the important distinction between average speed and average velocity. The
 ::: problem
 
 The speed of propagation of the action potential (an electrical signal) in a nerve
-cell depends (inversely) on the diameter of the axon (nerve fiber). If the nerve
+cell depends on the diameter of the axon (nerve fiber), with larger diameters generally supporting faster conduction (myelination also matters). If the nerve
 cell connecting the spinal cord to your feet is 1.1 m long, and the nerve impulse
 speed is 18 m/s, how long does it take for the nerve signal to travel this distance?
 

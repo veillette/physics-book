@@ -515,7 +515,7 @@ b) $$ F=2.0\times 10^{4}\N $$, straight up.
 
 ::: problem
 
-Suppose a 900-kg car is on the bridge in [Figure 11](#Figure11) with its center of mass halfway between the hinges and the cable attachments. (The bridge is supported by the cables and hinges only.)
+Suppose a 900-kg car is on the bridge in [Figure 13](#Figure13) with its center of mass 3.75 m from the hinges. (The bridge is supported by the cables and hinges only.)
 (a) Find the force in the cables.
 (b) Find the direction and magnitude of the force exerted by the hinges on the bridge.
 
@@ -525,105 +525,55 @@ Suppose a 900-kg car is on the bridge in [Figure 11](#Figure11) with its center 
 
 **Strategy**
 
-From Figure 13, we can extract the geometry of the drawbridge. The bridge makes a horizontal span with cables attached at the far end at an angle of 40° above horizontal. We apply the two conditions for equilibrium: net force = 0 and net torque = 0. The system includes the bridge (mass 2500 kg from the figure) plus the car (mass 900 kg).
+Use the geometry in [Figure 13](#Figure13): the bridge’s center of gravity is **1.5 m** from the hinges, the cable attaches **7.5 m** from the hinges at **40°** above horizontal, and the car’s center of mass is **3.75 m** from the hinges. Apply $$ \sum F = 0 $$ and $$ \sum \tau = 0 $$ about the hinge for the bridge (2500 kg) plus car (900 kg).
 
 **Solution for (a)**
 
-Given (from the figure and problem):
+Given:
 
-- Bridge mass: $$ m_b = 2500 \kg $$
-- Car mass: $$ m_c = 900 \kg $$
-- Cable angle: $$ \theta = 40° $$
-- Bridge length: $$ L $$ (cable attachment at far end)
-- Bridge cg: at $$ L/2 $$ from hinges
-- Car position: at $$ L/4 $$ from hinges (halfway between hinges and cable attachment, which means halfway along the half-length to the cables = L/4 from hinges... but the problem states "halfway between hinges and cable attachments" which means at $$ L/2 $$)
+- Bridge mass: $$ m_b = 2500 \kg $$, cg at $$ r_b = 1.50 \m $$
+- Car mass: $$ m_c = 900 \kg $$, at $$ r_c = 3.75 \m $$
+- Cable attachment: $$ r_T = 7.50 \m $$, angle $$ \theta = 40° $$ above horizontal
 
-Let me reconsider: "halfway between the hinges and the cable attachments" means at the midpoint of the bridge, which is at $$ L/2 $$ from the hinges—the same location as the bridge's center of gravity.
-
-Taking torques about the hinge (to eliminate the hinge force):
-
-The weight of the bridge acts at $$ L/2 $$:
-$$ \tau\_{b} = -m_b g (L/2) $$
-
-The weight of the car acts at $$ L/2 $$:
-$$ \tau\_{c} = -m_c g (L/2) $$
-
-The vertical component of the cable tension acts at $$ L $$:
-$$ \tau\_{T} = T\sin{40°} \cdot L $$
-
-For equilibrium: $$ \text{net}\tau = 0 $$
+Torque about the hinge (counterclockwise positive):
 
 <div class="equation">
-$$ T\sin{40°} \cdot L = m_b g (L/2) + m_c g (L/2) $$
+$$ T\sin{40°} \, r_T = m_b g r_b + m_c g r_c $$
 </div>
 
 <div class="equation">
-$$ T\sin{40°} = \frac{(m_b + m_c) g}{2} $$
+$$ T = \frac{(2500 \kg)(9.80 \mss)(1.50 \m) + (900 \kg)(9.80 \mss)(3.75 \m)}{(7.50 \m)\sin{40°}} = \frac{6.98 \times 10^{4} \N \cdot \m}{4.82 \m} = 1.45 \times 10^{4} \N $$
 </div>
 
-<div class="equation">
-$$ T = \frac{(m_b + m_c) g}{2\sin{40°}} = \frac{(2500 \kg + 900 \kg)(9.80 \mss)}{2(0.643)} $$
-</div>
-
-<div class="equation">
-$$ T = \frac{(3400 \kg)(9.80 \mss)}{1.286} = \frac{33320 \N}{1.286} = 2.59 \times 10^{4} \N $$
-</div>
-
-The force in the cables is **$$ 2.59 \times 10^{4} \N $$** or about **25.9 kN**.
+The cable tension is **14.5 kN** (combined tension if several cables share the load equally, state how many cables and the sharing rule to split this value).
 
 **Solution for (b)**
 
-For the first condition of equilibrium, we analyze forces in both x and y directions.
-
-Horizontal (x) direction:
+Horizontal equilibrium:
 
 <div class="equation">
-$$ F_{hx} - T\cos{40°} = 0 $$
+$$ F_{hx} = T\cos{40°} = (1.45 \times 10^{4} \N)(0.766) = 1.11 \times 10^{4} \N $$
+</div>
+
+Vertical equilibrium (upward hinge component positive):
+
+<div class="equation">
+$$ F_{hy} = (m_b + m_c)g - T\sin{40°} = 3.33 \times 10^{4} \N - (1.45 \times 10^{4} \N)(0.643) = 2.40 \times 10^{4} \N $$
 </div>
 
 <div class="equation">
-$$ F_{hx} = T\cos{40°} = (2.59 \times 10^{4} \N)(0.766) = 1.98 \times 10^{4} \N $$
-</div>
-
-Vertical (y) direction:
-
-<div class="equation">
-$$ F_{hy} + T\sin{40°} - (m_b + m_c)g = 0 $$
+$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(1.11 \times 10^{4})^2 + (2.40 \times 10^{4})^2} = 2.64 \times 10^{4} \N $$
 </div>
 
 <div class="equation">
-$$ F_{hy} = (m_b + m_c)g - T\sin{40°} $$
+$$ \phi = \arctan\left(\frac{F_{hy}}{F_{hx}}\right) = \arctan(2.16) = 65.2° \text{ above horizontal} $$
 </div>
 
-<div class="equation">
-$$ F_{hy} = (3400 \kg)(9.80 \mss) - (2.59 \times 10^{4} \N)(0.643) $$
-</div>
-
-<div class="equation">
-$$ F_{hy} = 33320 \N - 16650 \N = 1.67 \times 10^{4} \N $$
-</div>
-
-Magnitude of hinge force:
-
-<div class="equation">
-$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(1.98 \times 10^{4})^2 + (1.67 \times 10^{4})^2} $$
-</div>
-
-<div class="equation">
-$$ F_h = \sqrt{3.92 \times 10^{8} + 2.79 \times 10^{8}} = \sqrt{6.71 \times 10^{8}} = 2.59 \times 10^{4} \N $$
-</div>
-
-Direction:
-
-<div class="equation">
-$$ \phi = \arctan\left(\frac{F_{hy}}{F_{hx}}\right) = \arctan\left(\frac{1.67 \times 10^{4}}{1.98 \times 10^{4}}\right) = \arctan(0.843) = 40.2° $$
-</div>
-
-The hinge exerts a force of **$$ 2.59 \times 10^{4} \N $$** at **40° above horizontal** (pointing toward the cables).
+The hinge exerts **26.4 kN** at **65.2° above horizontal** (toward the cable side and upward).
 
 **Discussion**
 
-The cable tension increased from the case without the car. The hinge force has both horizontal and vertical components because the cables pull at an angle. The horizontal component of the hinge force exactly balances the horizontal pull from the cables, while the vertical component helps support some of the weight along with the cables' vertical component.
+With the car closer to the hinge than the bridge cg, the cable must support more than the bridge weight alone. The hinge reaction is not aligned with the cable because the angled tension has both horizontal and vertical components; the hinge supplies the horizontal pull back toward the shore and the remaining vertical support not provided by the cable’s vertical component.
 
 :::
 
@@ -733,15 +683,15 @@ The minimum coefficient of friction is **0.212** (or approximately 0.21).
 
 The hinge force on each side has:
 
-- Horizontal component: $$ F\_{h,horizontal} = 8.29 \N $$ (pushing outward on each leg)
-- Vertical component: $$ F\_{h,vertical} = 0 $$ (by symmetry, the vertical components from each leg must cancel at the hinge)
+- Horizontal component: $$ F_{h,horizontal} = 8.29 \N $$ (pushing outward on each leg)
+- Vertical component: $$ F_{h,vertical} = 0 $$ (by symmetry, the vertical components from each leg must cancel at the hinge)
 
 Wait, let me reconsider. The hinge connects the two legs. For each leg, the hinge exerts a force. By symmetry, the horizontal components push outward (away from center) on each leg, and any vertical component would need to be analyzed.
 
 At the hinge, vertical equilibrium of each leg gives:
-$$ N + F\_{h,vertical} = W $$
+$$ N + F_{h,vertical} = W $$
 
-Since $$ N = W $$ from the analysis above, $$ F\_{h,vertical} = 0 $$.
+Since $$ N = W $$ from the analysis above, $$ F_{h,vertical} = 0 $$.
 
 Therefore, the force exerted by each side on the hinge is purely horizontal:
 

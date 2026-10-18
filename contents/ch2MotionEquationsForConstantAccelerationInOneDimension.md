@@ -137,7 +137,7 @@ and $$ t $$ from the statement of the problem and substitute them into the equat
 
 **Solution**
 
-1\. Identify the knowns. $$ \overline{v}=4.00 \ms $$, $$ \Delta t=2.00 \text{min} $$, and $$ x\_{0}=0 \m $$.
+1\. Identify the knowns. $$ \overline{v}=4.00 \ms $$, $$ \Delta t=2.00 \text{min} $$, and $$ x_{0}=0 \m $$.
 
 2\. Enter the known values into the equation.
 
@@ -208,7 +208,7 @@ velocity vector because the plane is decelerating.
 
 **Solution**
 
-1\. Identify the knowns. $$ v\_{0}=70.0 \ms $$, $$ a=-1.50 \mss $$, $$ t=40.0\s $$
+1\. Identify the knowns. $$ v_{0}=70.0 \ms $$, $$ a=-1.50 \mss $$, $$ t=40.0\s $$
 .
 
 2\. Identify the unknown. In this case, it is final velocity, $$ v_{f} $$.
@@ -574,7 +574,7 @@ during the driver’s reaction time.
 
 \overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$. $$
 
-2\. Identify the best equation to use. $$ x=x\_{0}+\overline{v}t $$ works well
+2\. Identify the best equation to use. $$ x=x_{0}+\overline{v}t $$ works well
 because the only unknown value is $$ x $$, which is what we want to solve for.
 
 3\. Plug in the knowns to solve the equation.
@@ -635,7 +635,7 @@ equation with one unknown, $$ t $$).
 
 **Solution**
 
-1\. Identify the knowns and what we want to solve for. We know that $$ v\_{0}=10 \ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
+1\. Identify the knowns and what we want to solve for. We know that $$ v_{0}=10 \ms $$; $$ a=2.00 \mss $$; and $$ x=200 \m $$.
 
 2\. We need to solve for $$ t $$. Choose the best equation. $$ x=x_{0}+v_{0}t+\frac{1}{2} a t^{2} $$ works best because the only unknown in the equation
 is the variable $$ t $$ for which we need to solve.
@@ -1736,13 +1736,13 @@ The woodpecker's head decelerates from a known initial velocity to rest over a k
 
 - Initial velocity: $$ v_0 = 0.600 \ms $$
 - Final velocity: $$ v = 0 $$ (comes to a stop)
-- Head stopping distance: $$ x\_{\text{head}} - x_0 = 2.00 \text{ mm} = 2.00 \times 10^{-3} \m $$
-- Brain stopping distance: $$ x\_{\text{brain}} - x_0 = 4.50 \text{ mm} = 4.50 \times 10^{-3} \m $$
+- Head stopping distance: $$ x_{\text{head}} - x_0 = 2.00 \text{ mm} = 2.00 \times 10^{-3} \m $$
+- Brain stopping distance: $$ x_{\text{brain}} - x_0 = 4.50 \text{ mm} = 4.50 \times 10^{-3} \m $$
 - Acceleration due to gravity: $$ g = 9.80 \mss $$
 
 **(a) Head's deceleration:**
 
-**Unknown:** Acceleration $$ a\_{\text{head}} $$
+**Unknown:** Acceleration $$ a_{\text{head}} $$
 
 **Choosing the equation:** We know $$ v_0 $$, $$ v $$, and the stopping distance. Use:
 
@@ -1786,7 +1786,7 @@ $$ t = \frac{v - v_0}{a_{\text{head}}} = \frac{0 - 0.600 \ms}{-90.0 \mss} = 6.67
 
 **(c) Brain's deceleration:**
 
-**Unknown:** Acceleration $$ a\_{\text{brain}} $$
+**Unknown:** Acceleration $$ a_{\text{brain}} $$
 
 The brain has a longer stopping distance due to the stretching tendons:
 
@@ -2123,12 +2123,12 @@ The train decelerates at a constant rate as it passes through the station. We ne
 
 - Initial velocity: $$ v_0 = 22.0 \ms $$
 - Acceleration: $$ a = -0.150 \mss $$ (negative because it's decelerating)
-- Station length: $$ L\_{\text{station}} = 210 \m $$
-- Train length: $$ L\_{\text{train}} = 130 \m $$
+- Station length: $$ L_{\text{station}} = 210 \m $$
+- Train length: $$ L_{\text{train}} = 130 \m $$
 
 **(a) Time for nose to traverse the station:**
 
-**Unknown:** Time $$ t\_{\text{nose}} $$
+**Unknown:** Time $$ t_{\text{nose}} $$
 
 The nose travels a distance of 210 m. We know $$ v_0 $$, $$ a $$, and $$ x - x_0 $$, and need to find $$ t $$.
 
@@ -2165,11 +2165,11 @@ This gives two solutions:
 - $$ t_1 = \frac{22.0 + 20.5}{0.150} = \frac{42.5}{0.150} = 283 \s $$
 - $$ t_2 = \frac{22.0 - 20.5}{0.150} = \frac{1.5}{0.150} = 10.0 \s $$
 
-The physically meaningful solution is $$ t\_{\text{nose}} = 10.0 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
+The physically meaningful solution is $$ t_{\text{nose}} = 10.0 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
 
 **(b) Velocity when nose leaves the station:**
 
-**Unknown:** Final velocity $$ v\_{\text{nose}} $$
+**Unknown:** Final velocity $$ v_{\text{nose}} $$
 
 Use $$ v = v_0 + at $$:
 
@@ -2189,7 +2189,7 @@ $$ v_{\text{nose}} = \sqrt{421} = 20.5 \ms $$ ✓
 
 **(c) Time for end of train to leave the station:**
 
-**Unknown:** Time $$ t\_{\text{end}} $$
+**Unknown:** Time $$ t_{\text{end}} $$
 
 The end of the train must travel the station length plus the train length: $$ 210 + 130 = 340 \m $$
 
@@ -2218,11 +2218,11 @@ This gives:
 - $$ t_1 = \frac{22.0 + 19.5}{0.150} = 277 \s $$ (unphysical)
 - $$ t_2 = \frac{22.0 - 19.5}{0.150} = \frac{2.5}{0.150} = 16.7 \s $$
 
-So $$ t\_{\text{end}} = 16.7 \s $$.
+So $$ t_{\text{end}} = 16.7 \s $$.
 
 **(d) Velocity of end of train as it leaves:**
 
-**Unknown:** Final velocity $$ v\_{\text{end}} $$
+**Unknown:** Final velocity $$ v_{\text{end}} $$
 
 Use $$ v = v_0 + at $$:
 
@@ -2369,9 +2369,9 @@ This problem involves multiple phases of motion. The winner accelerates for 7.00
 
 - Winner's initial velocity: $$ v_0 = 11.5 \ms $$
 - Winner's acceleration: $$ a = 0.500 \mss $$
-- Acceleration time: $$ t\_{\text{accel}} = 7.00 \s $$
-- Distance to finish line: $$ d\_{\text{total}} = 300 \m $$
-- Other racer's velocity: $$ v\_{\text{other}} = 11.8 \ms $$
+- Acceleration time: $$ t_{\text{accel}} = 7.00 \s $$
+- Distance to finish line: $$ d_{\text{total}} = 300 \m $$
+- Other racer's velocity: $$ v_{\text{other}} = 11.8 \ms $$
 - Other racer's initial advantage: $$ 5.00 \m $$ ahead
 
 **(a) Final velocity after acceleration:**
@@ -2430,31 +2430,35 @@ $$ \Delta t = 26.1 - 20.8 = 5.3 \s $$
 
 **(c) Comparison with other racer:**
 
-The other racer starts 5.00 m ahead (at position -5.00 m if finish is at 300 m), so must travel $$ 300 + 5.00 = 305 \m $$ to reach the finish.
+The other racer starts 5.00 m ahead of the winner, so when the winner begins to accelerate he is 5.00 m behind the finish line. The other racer therefore has $$ 300 - 5.00 = 295 \m $$ remaining to the finish.
 
-**Other racer's time:**
+**Winner's finish time** (from part (b)):
 
 <div class="equation">
-$$ t_{\text{other}} = \frac{305 \m}{11.8 \ms} = 25.8 \s $$
+$$ t_{\text{winner}} = 7.00 + \frac{207.25 \m}{15.0 \ms} = 20.82 \s $$
 </div>
 
-**Winner finishes in:** $$ 20.8 \s $$
+**Other racer's time to finish:**
+
+<div class="equation">
+$$ t_{\text{other}} = \frac{295 \m}{11.8 \ms} = 25.00 \s $$
+</div>
 
 **Time difference:**
 
 <div class="equation">
-$$ \Delta t = 25.8 - 20.8 = 5.0 \s $$
+$$ \Delta t = 25.00 - 20.82 = 4.18 \s $$
 </div>
 
-**Distance ahead:** When the winner finishes (at $$ t = 20.8 \s $$), the other racer has traveled:
+**Distance ahead:** When the winner finishes (at $$ t = 20.82 \s $$), the other racer has traveled:
 
 <div class="equation">
-$$ x_{\text{other}} = (11.8 \ms)(20.8 \s) = 245 \m $$
+$$ x_{\text{other}} = (11.8 \ms)(20.82 \s) = 245.6 \m $$
 </div>
 
-The other racer still needs to travel $$ 305 - 245 = 60 \m $$ to reach the finish line.
+The other racer still needs to travel $$ 295 - 245.6 = 49.4 \m $$ to reach the finish line.
 
-So the winner finishes **60 m ahead** and **5.0 s ahead**.
+So the winner finishes **49.4 m ahead** and **4.18 s ahead**.
 
 **Units check:** All dimensional analysis confirms proper units throughout.
 
@@ -2462,7 +2466,7 @@ So the winner finishes **60 m ahead** and **5.0 s ahead**.
 
 The acceleration phase was crucial to victory. By accelerating from 11.5 m/s to 15.0 m/s over 7 seconds, the winner increased his speed by 30%. This saved 5.3 seconds compared to maintaining the initial pace—a significant advantage in competitive cycling.
 
-The comparison with the other racer is particularly interesting. Despite starting 5.00 m behind, the winner's acceleration allowed him to finish 60 m ahead—a complete reversal of position! The other racer's slight initial speed advantage (11.8 m/s vs. 11.5 m/s) was completely overwhelmed by the winner's acceleration.
+The comparison with the other racer is particularly interesting. Despite starting 5.00 m behind, the winner's acceleration allowed him to finish 49.4 m ahead—a complete reversal of position! The other racer's slight initial speed advantage (11.8 m/s vs. 11.5 m/s) was completely overwhelmed by the winner's acceleration.
 
 In real bicycle racing, this represents a classic sprint finish strategy. The ability to accelerate at the end of a race—when other competitors are fatigued—is a decisive competitive advantage. An acceleration of 0.500 m/s² sustained for 7 seconds is impressive for a cyclist, especially near the end of a race.
 
@@ -2474,7 +2478,7 @@ The winner's average velocity during acceleration was $$ \overline{v} = \frac{11
 
 (b) By accelerating, the racer saved **5.3 s** compared to maintaining constant velocity.
 
-(c) The winner finished **60 m ahead** and **5.0 s ahead** of the other racer.
+(c) The winner finished **49.4 m ahead** and **4.18 s ahead** of the other racer.
 
 :::
 

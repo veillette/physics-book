@@ -292,10 +292,15 @@ The magnitude of angular acceleration is $$ \alpha $$
 and its most common units are $$ \radss $$. The direction of angular
 acceleration along a fixed axis is denoted by a + or a – sign, just as the
 direction of linear acceleration in one dimension is denoted by a + or a – sign.
-For example, consider a gymnast doing a forward flip. Her angular momentum would
-be parallel to the mat and to her left. The magnitude of her angular
-acceleration would be proportional to her angular velocity (spin rate) and her
-moment of inertia about her spin axis.
+For example, consider a gymnast who increases her spin rate from rest to
+$$ \omega = 20.0 \text{ rad/s} $$ in $$ \Delta t = 0.500 \s $$ about a fixed
+horizontal axis through her hips. The magnitude of her angular acceleration is
+$$ \alpha = \Delta\omega / \Delta t = 40.0 \radss $$. Its direction (sign)
+follows the axis convention: if her spin is counterclockwise when viewed from
+above, $$ \alpha $$ is positive along that axis. Angular momentum
+$$ L = I\omega $$ can be large while $$ \alpha $$ is zero if her spin rate is
+steady; angular acceleration instead reflects how quickly $$ \omega $$ changes,
+or, for constant $$ I $$, the net torque via $$ \alpha = \tau_{\text{net}}/I $$.
 
 ::::
 

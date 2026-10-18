@@ -577,21 +577,17 @@ Alternatively:
  $$ P_{\text{in}} = \left(2.00\text{ L/min}\right)\left(20000\text{ J/L}\right)\left(\frac{1\text{ min}}{60\s}\right) = 667\text{ W} $$
 </div>
 
-Efficiency:
+Efficiency (using the stated 20 kJ per liter of oxygen):
 
 <div class="equation">
- $$ \text{Eff} = \frac{P_{\text{out}}}{P_{\text{in}}} = \frac{100\text{ W}}{667\text{ W}} = 0.150 = 15.0\% $$
+ $$ \text{Eff} = \frac{P_{\text{out}}}{P_{\text{in}}} = \frac{100\text{ W}}{666.7\text{ W}} = 0.150 = 15.0\% $$
 </div>
 
-More precisely:
-
-<div class="equation">
- $$ \text{Eff} = \frac{100\text{ W}}{(2.00 \times 20000/60)\text{ W}} = \frac{100}{666.7} = 0.143 = 14.3\% $$
-</div>
+where $$ P_{\text{in}} = (2.00\text{ L/min})(20\text{ kJ/L})(1\text{ min}/60\s) = 666.7\text{ W} $$.
 
 **Discussion**
 
-The treadmill subject has an efficiency of approximately 14.3%, which is typical for sustained aerobic exercise. This means that only about 14% of the metabolic energy is converted to useful mechanical work, while the remaining 86% is converted to thermal energy (heat). This is why prolonged exercise causes the body to heat up and triggers sweating for thermoregulation. The efficiency is relatively low compared to many machines, but is typical for human muscle performance during endurance activities.
+The treadmill subject has an efficiency of approximately 15.0%, which is typical for sustained aerobic exercise. This means that only about 15% of the metabolic energy is converted to useful mechanical work, while the remaining 85% is converted to thermal energy (heat). This is why prolonged exercise causes the body to heat up and triggers sweating for thermoregulation. [Table 2](#Table2) lists 700 W of metabolic power at 2.00 L/min for fast cycling; using that rounded table value would give $$ 100/700 = 14.3\% $$, but the problem’s oxygen-to-energy rule and the given 2.00 L/min rate are the consistent basis for the 15.0% result here.
 
 :::
 
@@ -676,7 +672,7 @@ Very large forces are produced in joints when a person jumps from some height to
 
 **Strategy**
 
-We use the work-energy theorem. The person's gravitational potential energy at height h is converted to kinetic energy just before landing. Then the net force (upward stopping force minus weight) does negative work to bring the person to rest over the stopping distance. We use energy conservation to find the stopping force.
+We use the work-energy theorem. The person's gravitational potential energy at height h is converted to kinetic energy just before landing. During the stopping phase the person moves downward through distance $$ d $$ while an upward normal force $$ N $$ and downward weight act. With upward positive, the net force along the displacement is $$ mg-N $$, so $$ (mg-N)d=-\KE $$ and $$ N=mg+\KE/d $$.
 
 **Solution**
 
@@ -690,21 +686,19 @@ Initial potential energy (taking ground as zero):
 
 This equals the kinetic energy just before landing. During the stopping phase with compression distance $$ d = 1.50\text{ cm} = 0.0150\m $$:
 
-Work done by net force:
+Work done by net force (downward displacement, $$ \KE $$ the kinetic energy just before landing):
 
 <div class="equation">
- $$ W_{\text{net}} = (F_{\text{stop}} - mg)d = -\KE = -470\J $$
+ $$ (mg-N)d = -\KE = -470\J $$
 </div>
 
-where $$ F_{\text{stop}} $$ is the upward force from the ground. Solving for $$ F_{\text{stop}} $$:
+where $$ N $$ is the upward stopping force from the ground. Solving for $$ N $$:
 
 <div class="equation">
 $$ \begin{array}{lll}
-F_{\text{stop}} - mg &=& -\frac{470\J}{0.0150\m}\\
-F_{\text{stop}} &=& mg - \frac{470\J}{0.0150\m}\\
-F_{\text{stop}} &=& (80.0\kg)(9.80\mss) - \frac{470\J}{0.0150\m}\\
-F_{\text{stop}} &=& 784\N - (-31330\N)\\
-F_{\text{stop}} &=& 784\N + 31330\N = 3.21 \times 10^{4}\N
+N &=& mg + \frac{\KE}{d}\\
+N &=& (80.0\kg)(9.80\mss) + \frac{470\J}{0.0150\m}\\
+N &=& 784\N + 31300\N = 3.21 \times 10^{4}\N
 \end{array} $$
 </div>
 
@@ -714,9 +708,8 @@ With stopping distance $$ d = 0.300\m $$:
 
 <div class="equation">
 $$ \begin{array}{lll}
-F_{\text{stop}} - mg &=& -\frac{470\J}{0.300\m}\\
-F_{\text{stop}} &=& 784\N + \frac{470\J}{0.300\m}\\
-F_{\text{stop}} &=& 784\N + 1567\N = 2.35 \times 10^{3}\N
+N &=& mg + \frac{470\J}{0.300\m}\\
+N &=& 784\N + 1567\N = 2.35 \times 10^{3}\N
 \end{array} $$
 </div>
 
@@ -727,13 +720,13 @@ Weight of person: $$ W = mg = 784\N $$
 For part (a):
 
 <div class="equation">
- $$ \frac{F_{\text{stop}}}{W} = \frac{3.21 \times 10^{4}\N}{784\N} = 41.0 $$
+ $$ \frac{N}{W} = \frac{3.21 \times 10^{4}\N}{784\N} = 41.0 $$
 </div>
 
 For part (b):
 
 <div class="equation">
- $$ \frac{F_{\text{stop}}}{W} = \frac{2.35 \times 10^{3}\N}{784\N} = 3.00 $$
+ $$ \frac{N}{W} = \frac{2.35 \times 10^{3}\N}{784\N} = 3.00 $$
 </div>
 
 **Discussion**
@@ -760,7 +753,7 @@ Jogging on hard surfaces with insufficiently padded shoes produces large forces 
 
 **Strategy**
 
-The work-energy theorem applies: the net work equals the change in kinetic energy. The net force includes both the stopping force (upward) and the weight of the jogger (downward).
+The work-energy theorem applies: the net work equals the change in kinetic energy. During stopping, the leg moves downward through distance $$ d $$ while an upward force $$ N $$ and the jogger’s weight act, giving $$ (mg-N)d=-\KE $$ and $$ N=mg+\KE/d $$ (include the 75.0-kg body, not just the leg mass, in $$ mg $$).
 
 **Solution**
 
@@ -775,16 +768,16 @@ The kinetic energy of the leg is:
 Using the work-energy theorem with $$ d = 1.50\text{ cm} = 0.0150\m $$:
 
 <div class="equation">
- $$ (F - mg)d = -\KE $$
+ $$ (mg-N)d = -\KE $$
 </div>
 
-where $$ F $$ is the upward stopping force and $$ mg $$ is the jogger's weight. Solving for $$ F $$:
+where $$ N $$ is the upward stopping force and $$ mg $$ is the jogger's weight. Solving for $$ N $$:
 
 <div class="equation">
 $$ \begin{array}{lll}
-F &=& mg - \frac{\KE}{d}\\
-F &=& (75.0\kg)(9.80\mss) + \frac{234\J}{0.0150\m}\\
-F &=& 735\N + 15600\N = 1.64 \times 10^{4}\N
+N &=& mg + \frac{\KE}{d}\\
+N &=& (75.0\kg)(9.80\mss) + \frac{234\J}{0.0150\m}\\
+N &=& 735\N + 15600\N = 1.64 \times 10^{4}\N
 \end{array} $$
 </div>
 
@@ -799,7 +792,7 @@ The jogger's weight is:
 The ratio is:
 
 <div class="equation">
- $$ \frac{F}{W} = \frac{1.64 \times 10^{4}\N}{735\N} = 22.3 $$
+ $$ \frac{N}{W} = \frac{1.64 \times 10^{4}\N}{735\N} = 22.3 $$
 </div>
 
 **Discussion**

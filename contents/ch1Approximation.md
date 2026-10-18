@@ -64,7 +64,7 @@ Approximating Vast Numbers: a Trillion Dollars
 
 ![A bank stack containing one hundred hundred-dollar bills.](../resources/Figure_01_04_01.jpg "A bank stack contains one-hundred  \$100 bills, and is worth  \$10 000. How many bank stacks make up a trillion dollars? (credit: Andrew Magill)"){: #Figure1}
 
-The U.S. federal deficit in the 2019 fiscal year was a little greater than $$ 1 $$
+The U.S. federal deficit in the 2019 fiscal year was close to \$1
 trillion. Most of us do not have any concept of how much even one trillion
 actually is. Suppose that you were given a trillion dollars in \$100 bills. If
 you made 100-bill stacks and used them to evenly cover a football field (between
@@ -133,14 +133,14 @@ $$ \begin{array}{lll}
 \text{volume of bills}&=& \text{area of field}×\text{height of money:}\\
 \text{Height of money}&=& \frac{ \text{volume of bills}}{\text{area of field}},\\
 \text{Height of money}&=& \frac{9\times 10^{8}\text{in.}^{3}}{6\times 10^{6}{\text{in.}}^{2}}=1.5\times 10^{2}\text{in.,}\\
-\text{Height of money}& \approx & 1\times 10^{2}\text{in.}=100 \text{in.}
+\text{Height of money}& \approx & 150 \text{in.}
 \end{array} $$
 </div>
 
-The height of the money will be about 100 in. high. Converting this value to feet gives
+The height of the money will be about 150 in. high. Converting this value to feet gives
 
 <div class="equation">
-  $$ 100 \text{in.}×\frac{1 \text{ft}}{12 \text{in.}}=8.33 \text{ft}\approx 8 \text{ft.}  $$
+  $$ 150 \text{in.}×\frac{1 \text{ft}}{12 \text{in.}}=12.5 \text{ft}\approx 12 \text{ft.}  $$
 </div>
 
 **Discussion**
@@ -320,8 +320,8 @@ Divide the total mass of the bacterium by the average mass of an atom to find th
 **Solution**
 
 1. From the hint:
-   - Mass of hydrogen atom: $$ m\_{H} \approx 10^{-27} \kg $$
-   - Mass of bacterium: $$ m\_{bact} \approx 10^{-15} \kg $$
+   - Mass of hydrogen atom: $$ m_{H} \approx 10^{-27} \kg $$
+   - Mass of bacterium: $$ m_{bact} \approx 10^{-15} \kg $$
 
 2. Average mass of an atom in the bacterium:
 <div class="equation">
@@ -407,9 +407,9 @@ Use Table 3 to find the relevant values, then calculate the ratios.
 
 From Table 3:
 
-- Diameter of Earth: $$ d\_{Earth} = 10^{7} \m $$ (more precisely, about $$ 1.27 \times 10^{7} \m $$)
-- Greatest ocean depth: $$ d\_{ocean} = 10^{4} \m $$ (about 10,000 m, or the Mariana Trench at ~11,000 m)
-- Greatest mountain height: $$ h\_{mountain} = 10^{4} \m $$ (Mt. Everest is about 8,850 m)
+- Diameter of Earth: $$ d_{Earth} = 10^{7} \m $$ (more precisely, about $$ 1.27 \times 10^{7} \m $$)
+- Greatest ocean depth: $$ d_{ocean} = 10^{4} \m $$ (about 10,000 m, or the Mariana Trench at ~11,000 m)
+- Greatest mountain height: $$ h_{mountain} = 10^{4} \m $$ (Mt. Everest is about 8,850 m)
 
 __(a) Fraction for ocean depth:__
 

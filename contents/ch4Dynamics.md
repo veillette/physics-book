@@ -54,8 +54,8 @@ benefit of the usual interactions that take place among scientists today.
 It was not until the advent of modern physics early in the 20th century that it
 was discovered that Newton’s laws of motion produce a good approximation to
 motion only when the objects are moving at speeds much, much less than the speed
-of light and when those objects are larger than the size of most molecules (
-about $$ 10^{-9}\m $$ in diameter). These constraints define the realm of
+of light and when those objects are much larger than atoms and small molecules (
+about $$ 10^{-10} $$ to $$ 10^{-9}\m $$ in diameter). These constraints define the realm of
 classical mechanics, as discussed
 in [Introduction to the Nature of Science and Physics](./ch1IntroductionTheNatureOfScienceAndPhysics)
 . At the beginning of the 20th century, Albert Einstein (1879–1955) developed

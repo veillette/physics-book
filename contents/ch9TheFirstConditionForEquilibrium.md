@@ -115,7 +115,7 @@ A sketch of such a body would show:
 - For example, a car moving at constant velocity on a level road:
   - Weight ($$ \vb{W} $$) pointing downward
   - Normal force ($$ \vb{N} $$) pointing upward, equal in magnitude to the weight
-  - Applied force ($$ \vb{F}\_{\text{app}} $$) pointing in the direction of motion
+  - Applied force ($$ \vb{F}_{\text{app}} $$) pointing in the direction of motion
   - Friction/air resistance ($$ \vb{f} $$) pointing opposite to motion, equal in magnitude to the applied force
 
 **Discussion**

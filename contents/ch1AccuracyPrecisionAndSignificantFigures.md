@@ -76,7 +76,7 @@ is, you are indicating that the actual mileage of your car might be as low as 44
 500 miles or as high as 45 500 miles, or anywhere in between. All measurements
 contain some amount of uncertainty. In our example of measuring the length of
 the paper, we might say that the length of the paper is 11 in., plus or minus
-0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta A $$ (“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm \delta A $$. In our paper example, the length of the paper could be expressed as $$ 11\text{in.} \pm 0.2 $$. The factors contributing to uncertainty in a
+0.2 in. The uncertainty in a measurement, $$ A $$, is often denoted as $$ \delta A $$ (“delta $$ A $$”), so the measurement result would be recorded as $$ A \pm \delta A $$. In our paper example, the length of the paper could be expressed as $$ 11.0\text{ in.} \pm 0.2\text{ in.} $$. The factors contributing to uncertainty in a
 measurement include:
 
 1. Limitations of the measuring device,
@@ -205,7 +205,7 @@ why not?
 
 :::: solution {"class":"solution","data-print-placement":"here"}
 
-No, the uncertainty in the stopwatch is too great to effectively differentiate between the sprint times.
+The stopwatch is useful for much of the team’s training range. With an uncertainty of $$ \pm 0.05 \s $$, it can distinguish times that differ by more than about 0.1 s, so it can separate most of the cited 11.49 s to 15.01 s performances. It is **not** sufficient, however, to decide the close finish between 12.04 s and 12.07 s, because that 0.03 s gap is smaller than the stopwatch uncertainty.
 
 ::::
 
@@ -265,7 +265,7 @@ Determine the number of significant figures in the following measurements:
 (b) 15 450.0
 (c) $$ 6 \times 10^{3} $$
 (d) 87.990
-(d) 30.42
+(e) 30.42
 
 ::::
 

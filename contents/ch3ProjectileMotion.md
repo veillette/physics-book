@@ -853,7 +853,7 @@ A ball is thrown horizontally from the top of a 60.0-m building and lands 100.0 
 
 **Strategy**
 
-Since the ball is thrown horizontally, $$ v\_{0y} = 0 $$. The vertical motion determines the time of flight, which then determines the required horizontal velocity.
+Since the ball is thrown horizontally, $$ v_{0y} = 0 $$. The vertical motion determines the time of flight, which then determines the required horizontal velocity.
 
 **Solution**
 
@@ -861,7 +861,7 @@ Given: $$ y_0 = 60.0 \m $$, $$ y = 0 $$, $$ x = 100.0 \m $$, $$ v_{0y} = 0 $$
 
 **(a) Time in the air:**
 
-Using the vertical motion equation with $$ v\_{0y} = 0 $$ and taking downward as positive:
+Using the vertical motion equation with $$ v_{0y} = 0 $$ and taking downward as positive:
 
 <div class="equation">
 $$ y - y_0 = v_{0y}t + \frac{1}{2}gt^{2} $$
@@ -1040,11 +1040,13 @@ $$ 2\theta = \sin^{-1}(0.600) = 36.87° $$
 $$ \theta = \frac{36.87°}{2} = 18.4° $$
 </div>
 
-Note: There are two possible angles: 18.4° and 90° - 18.4° = 71.6°. We choose the smaller angle for a flatter, faster trajectory.
+Note: There are two possible angles: **18.4°** and **90° − 18.4° = 71.6°**. Both give the same range on level ground. In archery the smaller angle is usually chosen for a flatter, faster trajectory, but either angle is mathematically valid.
 
 **(b) Height at the tree (x = 37.5 m):**
 
-First, find the time to reach x = 37.5 m:
+Both launch angles clear the branch. Measure height **above the release height** (the bull's-eye level).
+
+**Low trajectory (θ = 18.4°):**
 
 <div class="equation">
 $$ v_{0x} = v_0 \cos\theta = 35.0 \times \cos(18.4°) = 35.0 \times 0.949 = 33.2 \ms $$
@@ -1054,31 +1056,39 @@ $$ v_{0x} = v_0 \cos\theta = 35.0 \times \cos(18.4°) = 35.0 \times 0.949 = 33.2
 $$ t = \frac{x}{v_{0x}} = \frac{37.5 \m}{33.2 \ms} = 1.13 \s $$
 </div>
 
-Now find the vertical position at this time:
-
 <div class="equation">
 $$ v_{0y} = v_0 \sin\theta = 35.0 \times \sin(18.4°) = 35.0 \times 0.316 = 11.1 \ms $$
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1)(1.13) - \frac{1}{2}(9.80)(1.13)^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1)(1.13) - \frac{1}{2}(9.80)(1.13)^2 = 6.25 \m $$
+</div>
+
+**High trajectory (θ = 71.6°):**
+
+<div class="equation">
+$$ v_{0x} = 35.0 \cos(71.6°) = 11.0 \ms, \quad t = \frac{37.5}{11.0} = 3.41 \s $$
 </div>
 
 <div class="equation">
-$$ y = 12.5 - 6.26 = 6.24 \m $$
+$$ v_{0y} = 35.0 \sin(71.6°) = 33.2 \ms $$
 </div>
 
-Since 6.24 m > 3.50 m, the arrow **will go over the branch**.
+<div class="equation">
+$$ y = (33.2)(3.41) - \frac{1}{2}(9.80)(3.41)^2 = 56.3 \m $$
+</div>
+
+Since 6.25 m > 3.50 m (and 56.3 m > 3.50 m), the arrow **will go over the branch** for either launch angle.
 
 **Discussion**
 
-The arrow reaches a height of 6.24 m at the tree, safely clearing the 3.50 m branch by about 2.7 m. The relatively low launch angle (18.4°) means the arrow travels on a flatter trajectory, which is preferred in archery for accuracy and speed. The steeper complementary angle (71.6°) would also give the same range but would result in a much longer flight time and less accuracy.
+At the midpoint, the low trajectory is about **6.25 m** above the release height and the high trajectory is about **56.3 m** above release—both well above the 3.50 m branch. The low angle is preferred in archery for accuracy and shorter flight time; the high angle would also hit the target but with a much longer time of flight.
 
 **Answer**
 
-(a) The arrow must be released at an angle of 18.4° above horizontal.
+(a) The arrow may be released at **18.4°** or **71.6°** above horizontal.
 
-(b) The arrow will go over the branch, passing 6.24 m above the ground at that point.
+(b) The arrow will go over the branch. At the tree it is about **6.25 m** above release height for 18.4° (or about **56.3 m** for 71.6°).
 
 ::::
 
@@ -1701,13 +1711,13 @@ Convert the speed to m/s. Find the angle that makes the ball just clear the net 
 
 - Initial speed: $$ v_0 = 170 \text{ km/h} = \frac{170 \times 1000}{3600} = 47.2 \ms $$
 - Initial height: $$ y_0 = 2.5 \m $$
-- Net distance: $$ x\_{net} = 11.9 \m $$
-- Net height: $$ y\_{net} = 0.91 \m $$
+- Net distance: $$ x_{net} = 11.9 \m $$
+- Net height: $$ y_{net} = 0.91 \m $$
 - Service line distance from net: 6.40 m
 
 **Part 1: Find the angle to just clear the net**
 
-The velocity components are (with $$ \theta $$ below horizontal, so $$ v\_{0y} $$ is negative):
+The velocity components are (with $$ \theta $$ below horizontal, so $$ v_{0y} $$ is negative):
 
 <div class="equation">
 $$ v_{0x} = v_0 \cos\theta = 47.2 \cos\theta $$
@@ -1834,101 +1844,55 @@ caught at the same height as it is released, what is its initial speed relative 
 
 **Strategy**
 
-The quarterback is moving backward at 2.00 m/s, so his velocity relative to the ground is -2.00 m/s in the forward direction. The ball's velocity relative to the ground is the sum of the ball's velocity relative to the quarterback and the quarterback's velocity. Use the range equation to find the ball's initial speed relative to the ground.
+The question gives launch speed and angle **relative to the ground**. With equal launch and landing heights, use the range equation directly for the ground-frame speed. The quarterback's backward motion matters only when finding the ball's velocity relative to the quarterback, not in this ground-frame range calculation.
 
 **Solution**
 
 **Given:**
 
-- Quarterback's backward speed: 2.00 m/s (so forward component is -2.00 m/s)
 - Range: R = 18.0 m
-- Launch angle: $$ \theta = 25° $$
+- Launch angle (relative to ground): $$ \theta = 25° $$
+- Launch and catch at the same height
 
 **(a) Initial speed relative to the ground:**
 
-Let $$ v_0 $$ be the ball's initial speed relative to the ground. The horizontal component is:
-
 <div class="equation">
-$$ v_{0x} = v_0 \cos(25°) - 2.00 $$
-</div>
-
-The vertical component is:
-
-<div class="equation">
-$$ v_{0y} = v_0 \sin(25°) $$
-</div>
-
-Using the range equation, we need to account for the quarterback's motion. The time of flight is:
-
-<div class="equation">
-$$ t = \frac{2v_{0y}}{g} = \frac{2v_0\sin(25°)}{9.80} $$
-</div>
-
-The range is:
-
-<div class="equation">
-$$ R = v_{0x} \cdot t = [v_0\cos(25°) - 2.00] \cdot \frac{2v_0\sin(25°)}{9.80} $$
+$$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 </div>
 
 <div class="equation">
-$$ 18.0 = [v_0(0.906) - 2.00] \cdot \frac{2v_0(0.423)}{9.80} $$
+$$ v_0^2 = \frac{Rg}{\sin(2\theta)} = \frac{(18.0 \m)(9.80 \mss)}{\sin(50°)} = \frac{176.4}{0.766} = 230 \text{ m}^2\text{/s}^2 $$
 </div>
 
 <div class="equation">
-$$ 18.0 = [0.906v_0 - 2.00] \cdot \frac{0.846v_0}{9.80} $$
-</div>
-
-<div class="equation">
-$$ 176.4 = [0.906v_0 - 2.00] \cdot 0.846v_0 $$
-</div>
-
-<div class="equation">
-$$ 176.4 = 0.767v_0^2 - 1.692v_0 $$
-</div>
-
-<div class="equation">
-$$ 0.767v_0^2 - 1.692v_0 - 176.4 = 0 $$
-</div>
-
-Using the quadratic formula:
-
-<div class="equation">
-$$ v_0 = \frac{1.692 + \sqrt{(1.692)^2 + 4(0.767)(176.4)}}{2(0.767)} $$
-</div>
-
-<div class="equation">
-$$ v_0 = \frac{1.692 + \sqrt{2.86 + 541.4}}{1.534} = \frac{1.692 + 23.3}{1.534} = \frac{25.0}{1.534} = 16.3 \ms $$
+$$ v_0 = \sqrt{230} = 15.2 \ms $$
 </div>
 
 **(b) Time to reach the receiver:**
 
 <div class="equation">
-$$ t = \frac{2v_0\sin(25°)}{g} = \frac{2(16.3)(0.423)}{9.80} = \frac{13.8}{9.80} = 1.41 \s $$
+$$ t = \frac{2v_0\sin(25°)}{g} = \frac{2(15.2)(0.423)}{9.80} = \frac{12.9}{9.80} = 1.31 \s $$
 </div>
 
-**(c) Maximum height:**
+**(c) Maximum height above the release point:**
 
 <div class="equation">
-$$ h = \frac{v_{0y}^2}{2g} = \frac{[v_0\sin(25°)]^2}{2g} = \frac{[(16.3)(0.423)]^2}{2(9.80)} $$
-</div>
-
-<div class="equation">
-$$ h = \frac{(6.89)^2}{19.6} = \frac{47.5}{19.6} = 2.42 \m $$
+$$ h = \frac{[v_0\sin(25°)]^2}{2g} = \frac{[(15.2)(0.423)]^2}{2(9.80)} = \frac{(6.43)^2}{19.6} = 2.10 \m $$
 </div>
 
 **Discussion**
 
-The quarterback's backward motion reduces the ball's forward velocity relative to the ground. This requires a higher throwing speed (16.3 m/s relative to the ground) compared to what would be needed if the quarterback were stationary.
+Because the stated angle is already measured from the ground, no correction for the quarterback's 2.00 m/s backward motion enters parts (a)–(c). That relative motion would appear in a separate question about the ball's speed in the quarterback's frame.
 
-The relatively low maximum height of 2.42 m is due to the shallow 25° launch angle. This is typical for football passes, where quarterbacks prefer flatter trajectories that reach receivers quickly and are harder for defenders to intercept.
+The relatively low maximum height of 2.10 m follows from the shallow 25° launch angle—typical for football passes that reach receivers quickly.
 
 **Answer**
 
-(a) The ball's initial speed relative to the ground is **16.3 m/s**.
+(a) The ball's initial speed relative to the ground is **15.2 m/s**.
 
-(b) The ball takes **1.41 s** to reach the receiver.
+(b) The ball takes **1.31 s** to reach the receiver.
 
-(c) The maximum height above the release point is **2.42 m**.
+(c) The maximum height above the release point is **2.10 m**.
 
 ::::
 
@@ -2069,8 +2033,8 @@ The fish initially has the same horizontal velocity as the eagle (3.00 m/s) and 
 
 **Given:**
 
-- Initial horizontal velocity: $$ v\_{0x} = 3.00 \ms $$ (same as eagle)
-- Initial vertical velocity: $$ v\_{0y} = 0 $$ (released, not thrown)
+- Initial horizontal velocity: $$ v_{0x} = 3.00 \ms $$ (same as eagle)
+- Initial vertical velocity: $$ v_{0y} = 0 $$ (released, not thrown)
 - Vertical distance: $$ \Delta y = -5.00 \m $$ (taking down as negative)
 
 **Step 1: Find the vertical velocity component at impact**
@@ -2534,13 +2498,9 @@ The ball can be thrown at either **30.3°** or **67.2°** above horizontal. Most
 
 :::: problem
 
-In 2007, Michael Carter (U.S.) set a world record in the shot put with a
-throw of 24.77 m. What was the initial speed of the shot if he
-released it at a height of 2.10 m and threw it at an angle of $$ 38.0^\circ $$
-above the horizontal? (Although the maximum distance for a projectile on level
-ground is achieved at $$ 45^\circ $$ when air resistance is neglected, the
-actual angle to achieve maximum range is smaller; thus, $$ 38^\circ $$ will give
-a longer range than $$ 45^\circ $$ in the shot put.)
+Suppose a shot-putter releases the shot at a height of 2.10 m and throws it at an angle of $$ 38.0^\circ $$
+above the horizontal, and it lands 24.77 m away (neglect air resistance). What was the initial speed of the shot? (Although the maximum distance for a projectile on level
+ground is achieved at $$ 45^\circ $$ when air resistance is neglected, a positive release height lowers the optimum angle below $$ 45^\circ $$; for a given speed, whether a particular angle such as $$ 38^\circ $$ outranges $$ 45^\circ $$ must be checked numerically.)
 
 ::::
 
@@ -2612,13 +2572,7 @@ $$ v_0 = \sqrt{225.3} = 15.0 \ms $$
 
 The initial speed of 15.0 m/s is reasonable for a world-class shot putter. This is about 54 km/h or 34 mph, which represents tremendous power given that the men's shot weighs 7.26 kg (16 pounds).
 
-The 38° release angle is optimal for shot put because:
-
-1. **Release height**: The shot is released from about 2.1 m high, so a lower angle than 45° maximizes distance
-2. **Biomechanics**: Athletes can generate more force at angles around 35-40°
-3. **Air resistance**: Though neglected here, air drag favors slightly lower angles
-
-In practice, elite shot putters release between 35-40°, confirming that 38° is near optimal.
+A release height of 2.10 m lowers the optimum launch angle below 45°. For this speed, the optimum is about **42.6°**; at **45°** the range is roughly **25.0 m**, slightly farther than the **24.77 m** achieved at 38°. So 38° is not the maximum-range angle here, though real shot putters often use angles in the 35–40° range for biomechanical reasons and because air resistance (neglected here) also favors somewhat lower trajectories.
 
 **Answer**
 
@@ -2907,7 +2861,7 @@ This equation has the form $$ y = ax + bx^{2} $$, which is a parabola. The coeff
 
 **Answer**
 
-The trajectory equation $$ y = \frac{v_{0y}}{v_{0x}}x - \frac{g}{2v\_{0x}^2}x^2 $$ is in the form **y = ax + bx²**, proving that projectile motion follows a **parabolic path**.
+The trajectory equation $$ y = \frac{v_{0y}}{v_{0x}}x - \frac{g}{2v_{0x}^2}x^2 $$ is in the form **y = ax + bx²**, proving that projectile motion follows a **parabolic path**.
 
 ::::
 

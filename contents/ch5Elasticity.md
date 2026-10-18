@@ -192,7 +192,7 @@ Suspension cables are used to carry gondolas at ski resorts. (See [Figure 4](#Fi
 **Strategy**
 
 The force is equal to the maximum tension, or $$ F=3.0\times 10^{6}\N $$. The
-cross-sectional area is $$ \pi r^{2}=2.46 \times 10^{-3} \mm $$. The equation $$ \Delta L=\frac{1}{Y}\frac{F}{A} L\_{0} $$ can be used to find the change in
+cross-sectional area is $$ \pi r^{2}=2.46 \times 10^{-3} \mm $$. The equation $$ \Delta L=\frac{1}{Y}\frac{F}{A} L_{0} $$ can be used to find the change in
 length.
 
 **Solution**
@@ -817,7 +817,7 @@ rod 38.0 cm in length and 2.10 cm in radius.
 
 **Strategy**
 
-The upper arm bone (humerus) is under compression from supporting the wrestler's weight. We use $$ \Delta L = \frac{FL_{0}}{AY} $$, where $$ F = mg $$ is the compressive force (the wrestler's weight), and Young's modulus for bone is $$ Y = 1.6 \times 10^{10} \text{ N/m}^2 $$.
+The upper arm bone (humerus) is under compression from supporting the wrestler's weight. We use $$ \Delta L = \frac{FL_{0}}{AY} $$, where $$ F = mg $$ is the compressive force (the wrestler's weight). From Table 3, Young's modulus for bone in **compression** is $$ Y = 9 \times 10^{9} \text{ N/m}^2 $$ (distinct from the larger tension value).
 
 **Solution**
 
@@ -833,16 +833,16 @@ $$ A = \pi r^2 = \pi(0.0210 \m)^2 = 1.385 \times 10^{-3} \mm $$
 
 3. Calculate the compression:
 <div class="equation">
-$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(1470 \N)(0.380 \m)}{(1.385 \times 10^{-3} \mm)(1.6 \times 10^{10} \text{ N/m}^2)} $$
+$$ \Delta L = \frac{FL_{0}}{AY} = \frac{(1470 \N)(0.380 \m)}{(1.385 \times 10^{-3} \mm)(9 \times 10^{9} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{558.6}{2.216 \times 10^{7}} = 2.52 \times 10^{-5} \m = 0.0252 \text{ mm} $$
+$$ \Delta L = \frac{558.6}{1.247 \times 10^{7}} = 4.48 \times 10^{-5} \m = 0.0448 \text{ mm} $$
 </div>
 
 **Discussion**
 
-The upper arm bone shortens by $$ 0.0252 \text{ mm} $$ or about $$ 25 \text{ μm} $$, which is less than 0.01% of its length. Despite supporting the full weight of a 150-kg wrestler, the bone compression is minuscule, demonstrating bone's excellent compressive strength. This is well within the elastic limit—the bone returns to its original length as soon as the wrestler shifts position.
+The upper arm bone shortens by $$ 0.0448 \text{ mm} $$ or about $$ 45 \text{ μm} $$, which is still less than 0.02% of its length. Despite supporting the full weight of a 150-kg wrestler, the compression is tiny, demonstrating bone's stiffness in compression. This is well within the elastic limit—the bone returns to its original length as soon as the wrestler shifts position.
 
 ::::
 
@@ -1010,23 +1010,25 @@ the pole flex?
 
 **Strategy**
 
-A horizontal force applied parallel to the top face of the pole is a sideways (shear) force, so we model the sideways flex of the top with the shear-deformation equation from this section, $$ \Delta x = \frac{1}{S}\frac{F}{A}L_{0} $$, treating the pole as the equivalent solid cylinder. From Table 3, the shear modulus of aluminum is $$ S = 2.5 \times 10^{10} \text{ N/m}^2 $$.
+A horizontal force at the top of a long pole fixed at its base produces **bending**, not uniform shear along the full length. For small deflections, a solid circular cantilever of length $$ L_0 $$ with a transverse load $$ F $$ at the free end has tip deflection $$ \Delta x = FL_0^3/(3EI) $$, where $$ E $$ is Young's modulus and $$ I = \pi r^4/4 $$ is the second moment of area of the circular cross section. From Table 3, Young's modulus for aluminum is $$ E = 7.0 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
-1. Calculate the cross-sectional area of the equivalent cylinder (radius 2.00 cm):
+1. Radius of the equivalent solid cylinder: $$ r = 2.00 \text{ cm} = 0.0200 \m $$.
+
+2. Second moment of area:
 <div class="equation">
-$$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
+$$ I = \frac{\pi r^4}{4} = \frac{\pi(0.0200 \m)^4}{4} = 1.26 \times 10^{-7} \text{ m}^4 $$
 </div>
 
-2. Calculate the sideways deformation:
+3. Tip deflection from bending:
 <div class="equation">
-$$ \Delta x = \frac{FL_{0}}{SA} = \frac{(900 \N)(20.0 \m)}{(2.5 \times 10^{10} \text{ N/m}^2)(1.257 \times 10^{-3} \mm)} = 5.7 \times 10^{-4} \m $$
+$$ \Delta x = \frac{FL_0^3}{3EI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.26 \times 10^{-7} \text{ m}^4)} = 2.7 \times 10^{2} \m $$
 </div>
 
 **Discussion**
 
-In this idealized shear model, the top of the flagpole moves about $$ 0.57 \text{ mm} $$ to the side. Keep in mind that this is a simplified model. A real tall, thin pole pushed at the top mostly *bends*, like a fishing rod, and bending typically produces a much larger deflection than shear alone. Bending of beams is treated in more advanced courses.
+The bending model predicts a tip deflection of about $$ 2.7 \times 10^{2} \m $$—far larger than the pole's height—showing that a 20-m pole cannot be treated as a rigid member under a 900-N side load. Real flagpoles rely on their embedded base, guy wires, or much stiffer designs. Uniform shear along the entire length would apply only to a short block, as in the nail example in this section.
 
 ::::
 
@@ -1224,27 +1226,31 @@ to the horizontal.
 
 **Strategy**
 
-The 6.00 N vertical force creates both a shear component (perpendicular to the pencil length) and a compressive component (along the pencil length). We decompose the force and apply the appropriate deformation formulas. For hardwood (like in a pencil), $$ Y = 1.5 \times 10^{10} \text{ N/m}^2 $$ and $$ S = 1.0 \times 10^{10} \text{ N/m}^2 $$.
+The 6.00 N vertical force creates both a transverse component (perpendicular to the pencil length) and a compressive component (along the pencil length). Flexing the exposed 2.00-cm segment is a **bending** problem: treat the hardwood from the joint to the eraser as a cantilever of length $$ L = 2.00 \text{ cm} $$ with transverse load $$ F_\perp $$ at the end. For hardwood, $$ Y = 1.5 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
-1. Calculate the cross-sectional area:
+1. Calculate the cross-sectional area and second moment of area ($$ r = 3.00 \text{ mm} $$):
 <div class="equation">
 $$ A = \pi r^2 = \pi(0.00300 \m)^2 = 2.83 \times 10^{-5} \mm $$
 </div>
 
-2. Decompose the force:
-   - Shear component (perpendicular to pencil): $$ F\_\perp = F\cos 20° = 6.00 \cos 20° = 5.64 \N $$
-   - Compressive component (along pencil): $$ F\_\parallel = F\sin 20° = 6.00 \sin 20° = 2.05 \N $$
+<div class="equation">
+$$ I = \frac{\pi r^4}{4} = 3.18 \times 10^{-11} \text{ m}^4 $$
+</div>
 
-(a) Shear deformation (flex perpendicular to length):
+2. Decompose the force:
+   - Transverse component (perpendicular to pencil): $$ F_\perp = F\cos 20° = 6.00 \cos 20° = 5.64 \N $$
+   - Compressive component (along pencil): $$ F_\parallel = F\sin 20° = 6.00 \sin 20° = 2.05 \N $$
+
+(a) Bending deflection of the 2.00-cm cantilever:
 
 <div class="equation">
-$$ \Delta x = \frac{F_\perp L}{AS} = \frac{(5.64 \N)(0.0200 \m)}{(2.83 \times 10^{-5} \mm)(1.0 \times 10^{10} \text{ N/m}^2)} $$
+$$ \Delta x = \frac{F_\perp L^3}{3YI} = \frac{(5.64 \N)(0.0200 \m)^3}{3(1.5 \times 10^{10} \text{ N/m}^2)(3.18 \times 10^{-11} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
-$$ \Delta x = \frac{0.1128}{2.83 \times 10^5} = 3.99 \times 10^{-7} \m $$
+$$ \Delta x = 1.58 \times 10^{-5} \m = 15.8 \text{ μm} $$
 </div>
 
 (b) Compression (lengthwise):
@@ -1259,7 +1265,7 @@ $$ \Delta L = \frac{0.0410}{4.24 \times 10^5} = 9.67 \times 10^{-8} \m $$
 
 **Discussion**
 
-The pencil wood flexes by $$ 3.99 \times 10^{-7} \m $$ perpendicular to its length and compresses by $$ 9.67 \times 10^{-8} \m $$ along its length. Both deformations are extremely small (less than a micrometer) and completely imperceptible during normal use. The shear deformation is about 4 times larger than the compression because the shear component of force is larger and the shear modulus is slightly lower than Young's modulus.
+The pencil wood flexes by about $$ 16 \text{ μm} $$ at the eraser end and compresses by $$ 9.67 \times 10^{-8} \m $$ along its length. Both deformations are imperceptible during normal use. The transverse component of force is larger than the axial component, so bending (even over only 2 cm) produces a much larger sideways motion than compression.
 
 ::::
 
@@ -1284,27 +1290,31 @@ diameter solid cylinder.
 
 **Strategy**
 
-The wire tension has both a horizontal component (causing the pole to bend sideways) and a vertical component (compressing the pole). We decompose the force and apply shear and compression formulas. For aluminum, $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$ and $$ S = 2.5 \times 10^{10} \text{ N/m}^2 $$.
+The wire tension has both a horizontal component (bending the pole sideways) and a vertical component (compressing the pole). Sideways deflection of the 12.0-m cantilever uses $$ \Delta x = F_H L^3/(3YI) $$ with $$ I = \pi r^4/4 $$; compression still uses $$ \Delta L = F_V L/(AY) $$. For aluminum, $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
-1. Calculate the cross-sectional area:
+1. Calculate the cross-sectional area and second moment of area ($$ r = 2.25 \text{ cm} $$):
 <div class="equation">
 $$ A = \pi r^2 = \pi(0.0225 \m)^2 = 1.59 \times 10^{-3} \mm $$
+</div>
+
+<div class="equation">
+$$ I = \frac{\pi r^4}{4} = 2.01 \times 10^{-7} \text{ m}^4 $$
 </div>
 
 2. Decompose the tension force:
    - Horizontal component: $$ F_H = T\cos 30° = 108 \cos 30° = 93.5 \N $$
    - Vertical component: $$ F_V = T\sin 30° = 108 \sin 30° = 54.0 \N $$
 
-(a) Sideways bending (shear deformation):
+(a) Sideways bending at the top:
 
 <div class="equation">
-$$ \Delta x = \frac{F_H L}{AS} = \frac{(93.5 \N)(12.0 \m)}{(1.59 \times 10^{-3} \mm)(2.5 \times 10^{10} \text{ N/m}^2)} $$
+$$ \Delta x = \frac{F_H L^3}{3YI} = \frac{(93.5 \N)(12.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(2.01 \times 10^{-7} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
-$$ \Delta x = \frac{1122}{3.98 \times 10^7} = 2.82 \times 10^{-5} \m = 0.0282 \text{ mm} $$
+$$ \Delta x = 3.8 \m $$
 </div>
 
 (b) Compression:
@@ -1319,7 +1329,7 @@ $$ \Delta L = \frac{648}{1.11 \times 10^8} = 5.82 \times 10^{-6} \m = 0.00582 \t
 
 **Discussion**
 
-The pole bends $$ 0.028 \text{ mm} $$ to the side and is compressed by $$ 0.006 \text{ mm} $$. These tiny deformations are completely negligible and demonstrate why aluminum poles are suitable for supporting traffic lights and power lines despite the constant tension from the wires.
+The bending model gives a sideways deflection of about $$ 3.8 \m $$ under the wire's horizontal pull—much larger than the compression of $$ 0.006 \text{ mm} $$—showing that a 12-m pole behaves as a flexible cantilever rather than a rigid block in uniform shear. In practice, poles are sized and anchored so that wire tensions produce acceptable bends.
 
 ::::
 
@@ -1342,7 +1352,7 @@ answer, do you think the bottle will survive?
 
 **Strategy**
 
-The bulk modulus relates pressure change to volume change: $$ B = -\frac{\Delta P}{\Delta V/V_0} $$. Since the bottle prevents expansion, the juice is effectively compressed, creating pressure. We solve for the pressure.
+The bulk modulus relates pressure change to fractional volume change: $$ B = -\Delta P/(\Delta V/V_0) $$. The juice would **increase** its volume by 0.2% if free to expand, so $$ \Delta V/V_0 = +2 \times 10^{-3} $$ for that free expansion. Because the rigid bottle prevents the increase, the juice is under **compression** and exerts outward normal force on the glass. We solve for the magnitude of the pressure.
 
 **Solution**
 
@@ -1351,23 +1361,24 @@ The bulk modulus relates pressure change to volume change: $$ B = -\frac{\Delta 
 $$ B = -\frac{\Delta P}{\Delta V/V_0} $$
 </div>
 
-2. Solve for pressure change (the negative sign accounts for the fact that positive pressure causes volume decrease, but here the juice is trying to expand):
+2. The prevented expansion corresponds to $$ \Delta V/V_0 = +2 \times 10^{-3} $$ (the volume change the juice would undergo if unconstrained). The resulting compressive pressure magnitude is:
 <div class="equation">
-$$ \Delta P = B \times \frac{\Delta V}{V_0} = (1.8 \times 10^9 \text{ N/m}^2)(2 \times 10^{-3}) $$
+$$ |\Delta P| = B \times \frac{\Delta V}{V_0} = (1.8 \times 10^9 \text{ N/m}^2)(2 \times 10^{-3}) = 3.6 \times 10^6 \text{ N/m}^2 $$
 </div>
 
+3. Convert to the units requested in the problem ($$ 1 \text{ cm}^2 = 10^{-4} \text{ m}^2 $$):
 <div class="equation">
-$$ \Delta P = 3.6 \times 10^6 \text{ N/m}^2 \approx 4 \times 10^6 \text{ N/m}^2 $$
+$$ \frac{F}{A} = 3.6 \times 10^6 \text{ N/m}^2 \times 10^{-4} \text{ m}^2/\text{cm}^2 = 360 \text{ N/cm}^2 \approx 4 \times 10^{2} \text{ N/cm}^2 $$
 </div>
 
-3. Convert to more familiar units:
+4. In pascals and atmospheres:
 <div class="equation">
-$$ \Delta P = 4 \times 10^6 \text{ Pa} = 40 \text{ bar} \approx 36 \text{ atm} $$
+$$ |\Delta P| = 3.6 \times 10^6 \text{ Pa} = 40 \text{ bar} \approx 36 \text{ atm} $$
 </div>
 
 **Discussion**
 
-The pressure exerted by the juice on the bottle is approximately $$ 4 \times 10^6 \text{ N/m}^2 $$ or about 36 atmospheres. A typical glass bottle can withstand only about 10-20 atm before failing. The bottle will almost certainly break! This is why wine and juice bottles are not filled completely to the brim—the headspace allows for thermal expansion without building dangerous pressures.
+The juice pushes on the bottle with about $$ 360 \text{ N/cm}^2 $$ ($$ 4 \times 10^{2} \text{ N/cm}^2 $$ to two significant figures), or roughly 36 atmospheres. A typical glass bottle can withstand only about 10–20 atm before failing, so the bottle will almost certainly break. This is why wine and juice bottles are not filled completely to the brim—the headspace allows for thermal expansion without building dangerous pressures.
 
 ::::
 
@@ -1487,7 +1498,7 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 
 **Strategy**
 
-At a 90° bend, the two wire tensions at 80° from vertical combine to create net horizontal and vertical forces on the pole. The vertical components compress the pole; the horizontal components (which don't cancel at a bend) cause it to bend. For hardwood at half stiffness: $$ Y = 0.5 \times 1.5 \times 10^{10} = 7.5 \times 10^9 \text{ N/m}^2 $$ and $$ S = 0.5 \times 1.0 \times 10^{10} = 5.0 \times 10^9 \text{ N/m}^2 $$.
+At a 90° bend, the two wire tensions at 80° from vertical combine to create net horizontal and vertical forces on the pole. The vertical components compress the pole; the horizontal components (which don't cancel at a bend) bend it as a cantilever. Sideways deflection uses $$ \Delta x = F_{H,\text{net}} L_0^3/(3YI) $$ with $$ I = \pi r^4/4 $$. For hardwood at half stiffness: $$ Y = 0.5 \times 1.5 \times 10^{10} = 7.5 \times 10^9 \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1501,8 +1512,8 @@ $$ A = \pi r^2 = \pi(0.090 \m)^2 = 2.54 \times 10^{-2} \mm $$
    - Horizontal component (each): $$ F_H = T\sin 80° = (4.00 \times 10^4)\sin 80° = 3.94 \times 10^4 \N $$
 
 3. At a 90° bend, the horizontal components are perpendicular to each other:
-   - Net horizontal force: $$ F\_{H,net} = \sqrt{2} \times F_H = 1.414 \times 3.94 \times 10^4 = 5.57 \times 10^4 \N $$
-   - Total vertical force: $$ F\_{V,total} = 2 \times F_V = 2 \times 6.95 \times 10^3 = 1.39 \times 10^4 \N $$
+   - Net horizontal force: $$ F_{H,net} = \sqrt{2} \times F_H = 1.414 \times 3.94 \times 10^4 = 5.57 \times 10^4 \N $$
+   - Total vertical force: $$ F_{V,total} = 2 \times F_V = 2 \times 6.95 \times 10^3 = 1.39 \times 10^4 \N $$
    - Direction of bend: 45° from each wire direction (bisecting the 90° angle)
 
 (a) Compression of the pole:
@@ -1515,21 +1526,21 @@ $$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4)(15.0)}
 $$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m = 1.1 \text{ mm} $$
 </div>
 
-(b) Bending of the pole:
+(b) Bending of the pole ($$ I = \pi r^4/4 = 5.15 \times 10^{-6} \text{ m}^4 $$):
 
 <div class="equation">
-$$ \Delta x = \frac{F_{H,net} \cdot L_0}{AS} = \frac{(5.57 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(5.0 \times 10^9)} $$
+$$ \Delta x = \frac{F_{H,net} L_0^3}{3YI} = \frac{(5.57 \times 10^4 \N)(15.0 \m)^3}{3(7.5 \times 10^9 \text{ N/m}^2)(5.15 \times 10^{-6} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
-$$ \Delta x = \frac{8.36 \times 10^5}{1.27 \times 10^8} = 6.6 \times 10^{-3} \m = 6.6 \text{ mm} $$
+$$ \Delta x = 1.6 \times 10^{2} \m $$
 </div>
 
 The pole bends in the direction that bisects the 90° angle (45° from each wire).
 
 (c) Guy wire tension:
 
-The guy wire must provide a horizontal force component equal to $$ F\_{H,net} $$ to straighten the pole:
+The guy wire must provide a horizontal force component equal to $$ F_{H,net} $$ to straighten the pole:
 
 <div class="equation">
 $$ T_{guy}\sin 30° = F_{H,net} $$
@@ -1541,7 +1552,7 @@ $$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4}{0.500} = 1.11
 
 **Discussion**
 
-The pole is compressed by $$ 1.1 \text{ mm} $$ and bends $$ 6.6 \text{ mm} $$ in the direction bisecting the 90° bend. To keep the pole straight, a guy wire with tension $$ 1.11 \times 10^5 \N $$ (about 25,000 lbs) is needed. This substantial force explains why guy wires at corner poles must be anchored very securely, often to large concrete blocks buried in the ground.
+The pole is compressed by $$ 1.1 \text{ mm} $$ and the bending model gives a tip deflection of about $$ 1.6 \times 10^{2} \m $$ in the direction bisecting the 90° bend—illustrating why corner poles need guy wires rather than relying on flexural stiffness alone. To keep the pole straight, a guy wire with tension $$ 1.11 \times 10^5 \N $$ (about 25,000 lbs) is needed. This substantial force explains why guy wires at corner poles must be anchored very securely, often to large concrete blocks buried in the ground.
 
 ::::
 

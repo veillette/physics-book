@@ -305,7 +305,7 @@ For part (a), at constant speed, the skier must exert force to overcome both the
 Force components:
 
 - Gravity down slope: $$ F_g = mg\sin{\theta} = (75.0\kg)(9.80\mss)\sin{3.0^\circ} = 38.5\N $$
-- Air resistance: $$ F\_{\text{air}} = 25.0\N $$
+- Air resistance: $$ F_{\text{air}} = 25.0\N $$
 
 Total force needed:
 
@@ -424,11 +424,11 @@ Average resistance force:
 $$ F_{\text{resist}} = F_{\text{applied}} - F_{\text{net}} = 80.0\N - 17.5\N = 62.5\N $$
 </div>
 
-**(c)** Since the initial resistance at v = 1.25 m/s was 45.0 N and the average resistance during acceleration was 62.5 N, and the final velocity is 2.50 m/s (double the initial), the resistance increased by more than double. This suggests water resistance increases faster than linearly with velocity—consistent with drag force being proportional to v² at higher speeds.
+**(c)** The 45.0 N resistance is given at the initial speed of 1.25 m/s, whereas 62.5 N is only the **time average** over the 5.00 s interval while speed rises to 2.50 m/s—it is not the instantaneous drag at top speed. Comparing 62.5 N to 45.0 N does **not** show that drag more than doubled (62.5 N is well below 90 N, twice the initial 45.0 N). If “top velocity” means the swimmer eventually reaches a steady speed with the same 80.0 N arm thrust, the drag at that terminal speed would be 80.0 N, which still does not by itself fix how drag varies with speed between 1.25 and 2.50 m/s. These two numbers alone do **not** establish whether water resistance is linear in $$ v $$, proportional to $$ v^{2} $$, or follows some other law.
 
 **Discussion**
 
-The initial acceleration of 0.500 m/s² is significant but manageable for a competitive swimmer. The increase in water resistance from 45.0 N to an average of 62.5 N during the acceleration phase demonstrates how drag forces increase with velocity. If resistance were linear with velocity (doubling velocity doubles resistance), we'd expect 90 N at v = 2.50 m/s. Since the average is only 62.5 N, and considering that drag is actually proportional to v², this result is physically consistent. At higher swimming speeds, drag becomes the dominant limiting factor, which is why swimmers focus on streamlining techniques to reduce resistance.
+The initial acceleration of 0.500 m/s² is significant but manageable for a competitive swimmer. The time-averaged resistance of 62.5 N during the acceleration interval reflects that drag generally rises as speed increases, but without knowing the instantaneous drag at 2.50 m/s (or a model such as $$ F_{\text{d}} \propto v^{2} $$ fitted to several speeds), part (c) cannot support a quantitative claim about the drag–speed relation. At higher swimming speeds, drag becomes the dominant limiting factor, which is why swimmers focus on streamlining techniques to reduce resistance.
 
 **Answer**
 
@@ -436,7 +436,7 @@ The initial acceleration of 0.500 m/s² is significant but manageable for a comp
 
 (b) The average water resistance during the acceleration phase is **62.5 N**.
 
-(c) Water resistance appears to increase **faster than linearly with velocity**, consistent with the v² dependence expected for fluid drag.
+(c) The given data **do not by themselves determine** how water resistance depends on velocity; 62.5 N is a time average, not the drag at 2.50 m/s.
 
 :::
 

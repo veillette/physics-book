@@ -155,7 +155,7 @@ collision.
 **Strategy**
 
 Momentum is conserved because the surface is frictionless. The coordinate system
-shown in [Figure 2](#Figure2) is one in which $$ m\_{2} $$ is originally at rest and
+shown in [Figure 2](#Figure2) is one in which $$ m_{2} $$ is originally at rest and
 the initial velocity is parallel to the $$ x $$ -axis, so that conservation of
 momentum along the $$ x $$ - and $$ y $$ -axes is applicable.
 
@@ -442,35 +442,35 @@ both the $$ x $$- and $$ y $$-directions.
 
 **Strategy**
 
-From Example 1: $$ m_1 = 0.250 \kg $$, $$ m_2 = 0.400 \kg $$, $$ v_1 = 2.00 \ms $$, $$ v'\_1 = 1.50 \ms $$, $$ \theta_{1} = 45.0^\circ $$, $$ v'\_2 = 0.886 \ms $$, $$ \theta_{2} = -48.5^\circ $$ (or 312°). We verify conservation of momentum in both directions.
+From Example 1: $$ m_1 = 0.250 \kg $$, $$ m_2 = 0.400 \kg $$, $$ v_1 = 2.00 \ms $$, $$ v'_1 = 1.50 \ms $$, $$ \theta_{1} = 45.0^\circ $$, $$ v'_2 = 0.886 \ms $$, $$ \theta_{2} = -48.5^\circ $$ (or 312°). We verify conservation of momentum in both directions.
 
 **Solution**
 
 **x-direction momentum:**
 
 Initial x-momentum:
-$$ p\_{x,i} = m_1 v_1 + m_2 (0) = (0.250 \kg)(2.00 \ms) = 0.500 \kg \cdot \ms $$
+$$ p_{x,i} = m_1 v_1 + m_2 (0) = (0.250 \kg)(2.00 \ms) = 0.500 \kg \cdot \ms $$
 
 Final x-momentum:
-$$ p\_{x,f} = m_1 v'\_1 \cos{45.0^\circ} + m_2 v'\_2 \cos{(-48.5^\circ)} $$
+$$ p_{x,f} = m_1 v'_1 \cos{45.0^\circ} + m_2 v'_2 \cos{(-48.5^\circ)} $$
 
-$$ p\_{x,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(0.662) $$
+$$ p_{x,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(0.662) $$
 
-$$ p\_{x,f} = 0.265 \kg \cdot \ms + 0.235 \kg \cdot \ms = 0.500 \kg \cdot \ms $$
+$$ p_{x,f} = 0.265 \kg \cdot \ms + 0.235 \kg \cdot \ms = 0.500 \kg \cdot \ms $$
 
 Since $$ p_{x,i} = p_{x,f} = 0.500 \kg \cdot \ms $$, x-momentum is conserved. ✓
 
 **y-direction momentum:**
 
 Initial y-momentum:
-$$ p\_{y,i} = 0 $$ (both objects moving along x-axis initially)
+$$ p_{y,i} = 0 $$ (both objects moving along x-axis initially)
 
 Final y-momentum:
-$$ p\_{y,f} = m_1 v'\_1 \sin{45.0^\circ} + m_2 v'\_2 \sin{(-48.5^\circ)} $$
+$$ p_{y,f} = m_1 v'_1 \sin{45.0^\circ} + m_2 v'_2 \sin{(-48.5^\circ)} $$
 
-$$ p\_{y,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(-0.749) $$
+$$ p_{y,f} = (0.250 \kg)(1.50 \ms)(0.707) + (0.400 \kg)(0.886 \ms)(-0.749) $$
 
-$$ p\_{y,f} = 0.265 \kg \cdot \ms - 0.265 \kg \cdot \ms = 0 $$
+$$ p_{y,f} = 0.265 \kg \cdot \ms - 0.265 \kg \cdot \ms = 0 $$
 
 Since $$ p_{y,i} = p_{y,f} = 0 $$, y-momentum is conserved. ✓
 
@@ -786,10 +786,10 @@ car has a mass of 1200 kg and is approaching at $$ 8.00 \ms $$ due south. The
 second car has a mass of 850 kg and is approaching at $$ 17.0 \ms $$ due west.
 (a) Calculate the final velocity (magnitude and direction) of the cars.
 (b) How much kinetic energy is lost in the collision? (This energy goes into
-deformation of the cars.) Note that because both cars have an initial velocity,
-you cannot use the equations for conservation of momentum along the _
-$$ x $$
-_-axis and $$ y $$ -axis; instead, you must look for other simplifying aspects.
+deformation of the cars.) Because both cars are moving before impact, apply
+conservation of momentum by summing **both** initial momenta in the $$ x $$ and
+$$ y $$ directions—do not use the special-case formulas that assume one object
+starts at rest.
 
 :::
 
@@ -999,7 +999,7 @@ The player recoils at 0.0750 m/s in the direction opposite to the puck.
 
 Time for puck to reach the goal:
 
-$$ t = \frac{d}{v\_{\text{puck}}} = \frac{15.0 \m}{45.0 \ms} = 0.333 \s $$
+$$ t = \frac{d}{v_{\text{puck}}} = \frac{15.0 \m}{45.0 \ms} = 0.333 \s $$
 
 Distance the player recoils in this time:
 

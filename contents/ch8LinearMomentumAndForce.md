@@ -345,11 +345,11 @@ This problem applies the definition of linear momentum $$ p = mv $$ to calculate
 Using the definition of momentum:
 
 <div class="equation">
-$$ p_{\text{elephant}} = m_{\text{elephant}} v\_{\text{elephant}} $$
+$$ p_{\text{elephant}} = m_{\text{elephant}} v_{\text{elephant}} $$
 </div>
 
 <div class="equation">
-$$ p\_{\text{elephant}} = (2000 \kg)(7.50 \ms) = 1.50 \times 10^{4} \kg \cdot \ms $$
+$$ p_{\text{elephant}} = (2000 \kg)(7.50 \ms) = 1.50 \times 10^{4} \kg \cdot \ms $$
 </div>
 
 **Solution for (b)**
@@ -357,7 +357,7 @@ $$ p\_{\text{elephant}} = (2000 \kg)(7.50 \ms) = 1.50 \times 10^{4} \kg \cdot \m
 First, calculate the dart's momentum:
 
 <div class="equation">
-$$ p_{\text{dart}} = m_{\text{dart}} v\_{\text{dart}} = (0.0400 \kg)(600 \ms) = 24.0 \kg \cdot \ms $$
+$$ p_{\text{dart}} = m_{\text{dart}} v_{\text{dart}} = (0.0400 \kg)(600 \ms) = 24.0 \kg \cdot \ms $$
 </div>
 
 Now find the ratio:
@@ -369,7 +369,7 @@ $$ \frac{p_{\text{elephant}}}{p_{\text{dart}}} = \frac{1.50 \times 10^{4} \kg \c
 **Solution for (c)**
 
 <div class="equation">
-$$ p_{\text{hunter}} = m_{\text{hunter}} v\_{\text{hunter}} = (90.0 \kg)(7.40 \ms) = 6.66 \times 10^{2} \kg \cdot \ms $$
+$$ p_{\text{hunter}} = m_{\text{hunter}} v_{\text{hunter}} = (90.0 \kg)(7.40 \ms) = 6.66 \times 10^{2} \kg \cdot \ms $$
 </div>
 
 **Discussion**
@@ -425,7 +425,7 @@ $$ m = \frac{p}{v} = \frac{1.60 \times 10^{9} \kg \cdot \ms}{13.33 \ms} = 1.20 \
 Calculate the artillery shell's momentum:
 
 <div class="equation">
-$$ p_{\text{shell}} = m_{\text{shell}} v\_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
+$$ p_{\text{shell}} = m_{\text{shell}} v_{\text{shell}} = (1100 \kg)(1200 \ms) = 1.32 \times 10^{6} \kg \cdot \ms $$
 </div>
 
 Find the ratio:

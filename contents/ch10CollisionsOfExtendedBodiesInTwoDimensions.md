@@ -519,8 +519,10 @@ kg.
 (b) What is his angular velocity if each arm is 5.00 kg? You may treat the ball
 as a point mass and treat the person's arms as uniform rods (each has a length
 of 0.900 m) and the rest of his body as a uniform cylinder of radius 0.180 m.
-Neglect the effect of the ball on his center of mass so that his center of mass
-remains in his geometrical center.
+**Neglect the torso-radius offset:** model each arm as a rod pivoted on the
+body axis ($$ I=\frac{1}{3}mL^{2} $$) and take the catch at $$ r=0.900\m $$ from
+the center, not from the cylinder surface. Neglect the effect of the ball on
+his center of mass so that his center of mass remains in his geometrical center.
 
 (c) Compare the initial and final total kinetic energies.
 
@@ -636,7 +638,7 @@ Unlike Example 1 where the stick was nailed down, now the stick is free to move.
 
 From Example 1: disk mass m = 0.0500 kg, velocity v = 30.0 m/s, stick mass M = 2.00 kg, stick length L = 1.20 m.
 
-**(a)** When the stick is free to move, both linear and angular momentum are conserved. The problem requires careful consideration of the combined center of mass.
+**(a)** When the stick is free to move, linear momentum and angular momentum about the **system center of mass** are both conserved.
 
 Linear momentum conservation gives:
 
@@ -644,10 +646,16 @@ Linear momentum conservation gives:
 $$ v_{\text{CM}} = \frac{mv}{m + M} = \frac{(0.0500 \kg)(30.0 \text{ m/s})}{2.05 \kg} = 0.732 \text{ m/s} $$
 </div>
 
-Angular momentum about the system's center of mass must also be conserved. The calculations (accounting for the shift in center of mass from the stick's midpoint) yield:
+The combined center of mass lies **0.614634 m** from the nail (original pivot end), not at the stick’s geometric center. Treating the disk as a point mass at the stick tip, the moment of inertia about that center of mass is
 
 <div class="equation">
-$$ \omega = 1.70 \text{ rad/s} $$
+$$ I_{\text{CM}} = 0.258 \kg \cdot \mm $$
+</div>
+
+The disk’s initial angular momentum about the system center of mass is $$ L_{\text{CM}} = m v (L - x_{\text{CM}}) = 0.878 \kg \cdot \mms $$, so
+
+<div class="equation">
+$$ \omega = \frac{L_{\text{CM}}}{I_{\text{CM}}} = 3.41 \text{ rad/s} $$
 </div>
 
 **(b)** Initial kinetic energy:
@@ -670,11 +678,11 @@ $$ p_f = p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
 
 **Discussion**
 
-When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating. Compared to Example 1 (nailed stick), the angular velocity is similar (1.70 vs 1.74 rad/s), but now the system also has translational motion. Energy is still largely lost in the inelastic collision (22.5 - 2.04 = 20.5 J lost, or 91% loss), though slightly less than when nailed down.
+When the stick is free to move (unlike the nailed case in Example 1), linear momentum is conserved. The system moves with velocity 0.732 m/s while also rotating at **3.41 rad/s**—substantially faster than the **1.74 rad/s** in Example 1 because rotation is now about the shifted center of mass with a smaller moment of inertia. Energy is still largely lost in the inelastic collision (22.5 - 2.04 = 20.5 J lost, or 91% loss).
 
 **Answer**
 
-(a) The system's center-of-mass velocity is **0.732 m/s**, and the angular velocity is **1.70 rad/s**.
+(a) The system's center-of-mass velocity is **0.732 m/s**, and the angular velocity is **3.41 rad/s**.
 
 (b) Initial kinetic energy is 22.5 J; final kinetic energy is 2.04 J. About 91% of the energy is lost.
 

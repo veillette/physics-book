@@ -571,47 +571,47 @@ Similar to path A, we add up all path segments for distance and use vector compo
 
 From Figure 20, path B consists of:
 
-- 1 block north:$$1 \times 120 = 120 \m$$
-- 5 blocks east:$$5 \times 120 = 600 \m$$
-- 2 blocks south:$$2 \times 120 = 240 \m$$
+- 4 blocks east:$$4 \times 120 = 480 \m$$
+- 3 blocks north:$$3 \times 120 = 360 \m$$
+- 3 blocks west:$$3 \times 120 = 360 \m$$
 
 Total distance:
 
 <div class="equation">
-$$d = 120 + 600 + 240 = 960 \m$$
+$$d = 480 + 360 + 360 = 1200 \m$$
 </div>
 
 **(b) Displacement magnitude and direction:**
 
 1. The displacement components are:
-   - Net north displacement:$$\Delta y = 120 - 240 = -120 \m$$(1 block north, 2 blocks south = 1 block south net)
-   - Net east displacement:$$\Delta x = 600 \m$$
+   - Net north displacement:$$\Delta y = 360 \m$$(3 blocks north)
+   - Net east displacement:$$\Delta x = 480 - 360 = 120 \m$$(4 blocks east and 3 blocks west)
 
 2. Magnitude using the Pythagorean theorem:
 <div class="equation">
-$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(600)^2 + (-120)^2}$$
+$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120)^2 + (360)^2}$$
 </div>
 
 <div class="equation">
-$$R = \sqrt{360,000 + 14,400} = \sqrt{374,400} = 612 \m$$
+$$R = \sqrt{14,400 + 129,600} = \sqrt{144,000} = 379 \m$$
 </div>
 
-3. Direction (angle south of east):
+3. Direction (angle east of north):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{|\Delta y|}{\Delta x}\right) = \tan^{-1}\left(\frac{120}{600}\right) = \tan^{-1}(0.200) = 11.3^\circ$$
+$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120}{360}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
 </div>
 
-Since $$\Delta y$$ is negative (southward) and $$\Delta x$$ is positive (eastward), the displacement is 11.3° south of east.
+The displacement is **18.4° east of north**.
 
 **Discussion**
 
-Path B involves significantly more walking (960 m) than the straight-line displacement (612 m). The walker travels 5 blocks east and has only a small net change in the north-south direction (1 block south), so the displacement is primarily eastward with a slight southward component. This explains why the angle is small (11.3°).
+Path B involves significantly more walking (1200 m) than the straight-line displacement (379 m) because the route backtracks one block west after going east. The net motion is one block east and three blocks north—the same displacement as path A, though the distance traveled is much greater.
 
 **Answer**
 
-(a) The total distance traveled along path B is **960 m**.
+(a) The total distance traveled along path B is **1200 m**.
 
-(b) The magnitude of the displacement is **612 m**, directed **11.3° south of east** (or 78.7° east of south).
+(b) The magnitude of the displacement is **379 m**, directed **18.4° east of north**.
 
 ::::
 
@@ -911,8 +911,8 @@ For **A** - **B**, the second leg is now 20.0 m at 40° **north** of east (oppos
 
 **Vector -B components** (20.0 m, 40° north of east):
 
-- East component:$$(-B)\_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.766 = 15.3 \m$$
-- North component:$$(-B)\_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.643 = 12.9 \m$$
+- East component:$$(-B)_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.766 = 15.3 \m$$
+- North component:$$(-B)_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.643 = 12.9 \m$$
 
 **Resultant R' = A - B:**
 
@@ -1230,7 +1230,7 @@ Use the magnitude of vtot = 6.72 m/s and its direction (49° from the x-axis, as
 
 Given:
 
-- $$v\_{tot} = 6.72 \ms$$
+- $$v_{tot} = 6.72 \ms$$
 - Direction: $$\theta = 22.5° + 26.5° = 49.0°$$ from the +x-axis
 
 **x-component:**
@@ -1283,7 +1283,7 @@ When axes are rotated, we need to find components in the new coordinate system. 
 
 Given:
 
-- $$v\_{tot} = 6.72 \ms$$
+- $$v_{tot} = 6.72 \ms$$
 - Angle with original x-axis: $$\theta = 49.0°$$
 - Rotation of axes: $$30°$$ counterclockwise
 - Angle with new x'-axis: $$\theta' = 49.0° - 30.0° = 19.0°$$

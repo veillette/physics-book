@@ -118,7 +118,7 @@ from the equation $$ \overline{a}=\frac{ \Delta v}{\Delta t}=\frac{ v_{f}-v_{0}}
 1\. Identify the knowns. $$ v_{0}=0 $$, $$ v_{f}=-15.0 \ms $$
 (the negative sign indicates direction toward the west), $$ \Delta t=1\text{.80 s} $$.
 
-2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0 \ms $$, its change in velocity equals its final velocity: $$ \Delta v=v\_{f}=-15.0 \ms $$. 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
+2\. Find the change in velocity. Since the horse is going from zero to $$ -15.0 \ms $$, its change in velocity equals its final velocity: $$ \Delta v=v_{f}=-15.0 \ms $$. 3\. Plug in the known values ( $$ \Delta v $$ and $$ \Delta t $$)
 and solve for the unknown $$ \overline{a} $$.
 
 <div class="equation">

@@ -113,7 +113,7 @@ the magnitude of the component of the weight perpendicular to the slope is $$ w_
 need only consider forces parallel to the slope. (Forces perpendicular to the
 slope add to zero, since there is no acceleration in that direction.) The forces
 parallel to the slope are the amount of the skier’s weight parallel to the slope
-$$ w\_{\parallel } $$ and friction $$ f $$. Using Newton’s second law, with
+$$ w_{\parallel } $$ and friction $$ f $$. Using Newton’s second law, with
 subscripts to denote quantities parallel to the slope,
 
 <div class="equation">
@@ -873,7 +873,7 @@ Apply Newton's second law to the point where the perpendicular force is applied.
 
 **Solution**
 
-Consider a flexible medium (rope, cable, wire) with a perpendicular force $$ \vb{F}\_{\perp} $$ (magnitude $$ F $$) applied at its center, causing it to sag at angle $$ \theta $$ from horizontal.
+Consider a flexible medium (rope, cable, wire) with a perpendicular force $$ \vb{F}_{\perp} $$ (magnitude $$ F $$) applied at its center, causing it to sag at angle $$ \theta $$ from horizontal.
 
 **Free-body diagram at the application point:**
 
@@ -954,7 +954,7 @@ The scale reading indicates the force it applies to what hangs below it (the bab
 Given:
 
 - Scale reading: $$ 55 \N $$
-- Mass of scale: $$ m\_{\text{scale}} = 0.500 \kg $$
+- Mass of scale: $$ m_{\text{scale}} = 0.500 \kg $$
 - Gravitational acceleration: $$ g = 9.80 \mss $$
 
 **(a) Mass of child and basket:**
@@ -975,7 +975,7 @@ $$ m_{\text{baby}} = \frac{w_{\text{baby}}}{g} = \frac{55 \N}{9.80 \mss} = 5.61 
 
 Consider the baby and basket as the system. Forces acting on it:
 
-- Weight: $$ w\_{\text{baby}} = 55 \N $$ (downward)
+- Weight: $$ w_{\text{baby}} = 55 \N $$ (downward)
 - Tension: $$ T_1 $$ (upward)
 
 Since the baby is motionless (equilibrium):

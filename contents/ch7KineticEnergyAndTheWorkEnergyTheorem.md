@@ -218,7 +218,7 @@ distance.
 
 **Solution for (a)**
 
-The net force is the push force minus friction, or $$ F\_{\text{net}} = 120 N - 5.00\N = 115 \N $$. Thus the net work is
+The net force is the push force minus friction, or $$ F_{\text{net}} = 120 N - 5.00\N = 115 \N $$. Thus the net work is
 
 <div class="equation">
 $$ \begin{array}{lll}
@@ -364,7 +364,7 @@ horizontal friction force is then the net force, and it acts opposite to the
 displacement, so $$ \theta =180^\circ $$. To reduce the kinetic energy of the
 package to zero, the work $$ W_{\text{fr}} $$ by friction must be minus the
 kinetic energy that the package started with plus what the package accumulated
-due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W\_{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
+due to the pushing. Thus $$ W_{\text{fr}}=-95.75 \J $$. Furthermore, $$ W_{\text{fr}}=fd^{\prime} \cos{\theta} = -fd^{\prime} $$, where $$ d^{\prime} $$
 is the distance it takes to stop. Thus,
 
 <div class="equation">
@@ -616,7 +616,7 @@ We use the work-energy theorem: the net work done equals the change in kinetic e
 
 **Solution**
 
-First, convert the speed: $$ v\_{0} = 90.0\text{ km/h} = 90.0 \times \frac{1000\m}{3600\s} = 25.0\ms $$
+First, convert the speed: $$ v_{0} = 90.0\text{ km/h} = 90.0 \times \frac{1000\m}{3600\s} = 25.0\ms $$
 
 The initial kinetic energy is:
 
@@ -626,7 +626,7 @@ The initial kinetic energy is:
 
 __(a)__ For normal braking over 120 m:
 
-Using the work-energy theorem ($$ W\_{\text{net}} = \Delta \KE $$):
+Using the work-energy theorem ($$ W_{\text{net}} = \Delta \KE $$):
 
 <div class="equation">
  $$ -Fd = -\KE_{0} $$
@@ -804,7 +804,7 @@ force of 30.0 N against him.
 
 **Strategy**
 
-The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W_{\text{net}} = (F_{\text{sprinter}} - F\_{\text{wind}})d = \Delta \KE $$.
+The net work done equals the change in kinetic energy. The net work is the work done by the sprinter minus the work done by the headwind: $$ W_{\text{net}} = (F_{\text{sprinter}} - F_{\text{wind}})d = \Delta \KE $$.
 
 **Solution**
 

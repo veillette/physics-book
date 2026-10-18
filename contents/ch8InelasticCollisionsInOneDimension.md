@@ -155,7 +155,7 @@ where the minus sign indicates that the energy was lost.
 **Discussion for (b)**
 
 Nearly all the initial internal kinetic energy is lost in this perfectly
-inelastic collision. $$ \KE\_{\text{int}} $$ is mostly converted to thermal
+inelastic collision. $$ \KE_{\text{int}} $$ is mostly converted to thermal
 energy and sound.
 
 During some collisions, the objects do not stick together and less of the
@@ -220,7 +220,7 @@ with a velocity of $$-4.00 \ms $$.
 **Strategy**
 
 We can use conservation of momentum to find the final velocity of cart 2,
-because $$ F\_{\text{net}}=0 $$
+because $$ F_{\text{net}}=0 $$
 (the track is frictionless and the force of the spring is internal). Once this
 velocity is determined, we can compare the internal kinetic energy before and
 after the collision to see how much energy was released by the spring.
@@ -357,7 +357,7 @@ $$ \Delta p = m(v_f - v_i) = (0.240 \kg)(-2.40 \ms - 3.00 \ms) = (0.240 \kg)(-5.
 
 Apply the impulse-momentum theorem:
 
-$$ F\_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.30 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
+$$ F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{-1.30 \kg \cdot \ms}{0.0150 \s} = -86.4 \N $$
 
 The average force on the ball is 86.4 N directed away from the bumper (opposite to the ball's initial motion).
 
@@ -556,7 +556,7 @@ $$ 0 = m_{\text{ship}} v_{\text{ship}} + m_{\text{shell}} v_{\text{shell}} $$
 
 $$ v_{\text{ship}} = -\frac{m_{\text{shell}} v_{\text{shell}}}{m_{\text{ship}}} $$
 
-$$ v\_{\text{ship}} = -\frac{(1100 \kg)(575 \ms)}{6.00 \times 10^{7} \kg} = -1.05 \times 10^{-2} \ms $$
+$$ v_{\text{ship}} = -\frac{(1100 \kg)(575 \ms)}{6.00 \times 10^{7} \kg} = -1.05 \times 10^{-2} \ms $$
 
 The recoil velocity of the battleship is $$ 1.05 \times 10^{-2} \ms $$ (about 1 cm/s) in the direction opposite to the shell.
 
@@ -566,7 +566,7 @@ Initial kinetic energy: $$ \KE_{i} = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE_{f} = \frac{1}{2}m_{\text{shell}} v_{\text{shell}}^2 + \frac{1}{2}m_{\text{ship}} v\_{\text{ship}}^2 $$
+$$ \KE_{f} = \frac{1}{2}m_{\text{shell}} v_{\text{shell}}^2 + \frac{1}{2}m_{\text{ship}} v_{\text{ship}}^2 $$
 
 $$ \KE_{f} = \frac{1}{2}(1100 \kg)(575 \ms)^2 + \frac{1}{2}(6.00 \times 10^{7} \kg)(1.05 \times 10^{-2} \ms)^2 $$
 
@@ -858,7 +858,7 @@ The rifle recoils at 4.58 m/s away from the bullet.
 
 **Part (b)**
 
-$$ \KE_{\text{rifle}} = \frac{1}{2} m_{\text{rifle}} v\_{\text{rifle}}^2 = \frac{1}{2}(3.00 \kg)(4.58 \ms)^2 = 31.5 \J $$
+$$ \KE_{\text{rifle}} = \frac{1}{2} m_{\text{rifle}} v_{\text{rifle}}^2 = \frac{1}{2}(3.00 \kg)(4.58 \ms)^2 = 31.5 \J $$
 
 The rifle gains 31.5 J of kinetic energy.
 
@@ -866,13 +866,13 @@ The rifle gains 31.5 J of kinetic energy.
 
 With effective mass of 28.0 kg (rifle + shoulder):
 
-$$ v\_{\text{system}} = -\frac{(0.0250 \kg)(550 \ms)}{28.0 \kg} = -0.491 \ms $$
+$$ v_{\text{system}} = -\frac{(0.0250 \kg)(550 \ms)}{28.0 \kg} = -0.491 \ms $$
 
 The recoil velocity is 0.491 m/s when held tightly.
 
 **Part (d)**
 
-$$ \KE\_{\text{system}} = \frac{1}{2}(28.0 \kg)(0.491 \ms)^2 = 3.38 \J $$
+$$ \KE_{\text{system}} = \frac{1}{2}(28.0 \kg)(0.491 \ms)^2 = 3.38 \J $$
 
 Only 3.38 J of kinetic energy is transferred to the rifle-shoulder combination.
 
@@ -937,21 +937,21 @@ Substituting $$ v_{\text{U}} = -0.01704 v_{\text{He}} $$:
 
 $$ \frac{1}{2}(6.68 \times 10^{-27}) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25})(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
-$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v\_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
-$$ (3.40 \times 10^{-27}) v\_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.40 \times 10^{-27}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
 
-$$ v\_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13}}{3.40 \times 10^{-27}}} = 1.57 \times 10^{7} \ms $$
+$$ v_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13}}{3.40 \times 10^{-27}}} = 1.57 \times 10^{7} \ms $$
 
-$$ v\_{\text{U}} = -0.01704 (1.57 \times 10^{7} \ms) = -2.68 \times 10^{5} \ms $$
+$$ v_{\text{U}} = -0.01704 (1.57 \times 10^{7} \ms) = -2.68 \times 10^{5} \ms $$
 
 The helium nucleus moves at $$ 1.57 \times 10^{7} \ms $$ and the uranium nucleus moves at $$ 2.68 \times 10^{5} \ms $$ in the opposite direction.
 
 **Part (b)**
 
-$$ \KE\_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.23 \times 10^{-13} \J $$
+$$ \KE_{\text{He}} = \frac{1}{2}(6.68 \times 10^{-27} \kg)(1.57 \times 10^{7} \ms)^2 = 8.23 \times 10^{-13} \J $$
 
-$$ \KE\_{\text{U}} = \frac{1}{2}(3.92 \times 10^{-25} \kg)(2.68 \times 10^{5} \ms)^2 = 1.41 \times 10^{-14} \J $$
+$$ \KE_{\text{U}} = \frac{1}{2}(3.92 \times 10^{-25} \kg)(2.68 \times 10^{5} \ms)^2 = 1.41 \times 10^{-14} \J $$
 
 The helium nucleus carries away $$ 8.23 \times 10^{-13} \J $$ (98%) and the uranium nucleus carries away $$ 1.41 \times 10^{-14} \J $$ (2%).
 
@@ -1223,11 +1223,11 @@ $$ m_{\text{clown}} v_{\text{clown}} + m_{\text{barbell}} v_{\text{barbell}} = 0
 
 Note: The clown and barbell move in opposite directions, so their velocities have opposite signs. Let the barbell move in the positive direction.
 
-$$ (80.0 \kg)(-0.500 \ms) + m\_{\text{barbell}}(10.0 \ms) = 0 $$
+$$ (80.0 \kg)(-0.500 \ms) + m_{\text{barbell}}(10.0 \ms) = 0 $$
 
-$$ -40.0 \kg \cdot \ms + m\_{\text{barbell}}(10.0 \ms) = 0 $$
+$$ -40.0 \kg \cdot \ms + m_{\text{barbell}}(10.0 \ms) = 0 $$
 
-$$ m\_{\text{barbell}} = \frac{40.0 \kg \cdot \ms}{10.0 \ms} = 4.00 \kg $$
+$$ m_{\text{barbell}} = \frac{40.0 \kg \cdot \ms}{10.0 \ms} = 4.00 \kg $$
 
 The mass of the barbell is 4.00 kg.
 
@@ -1237,7 +1237,7 @@ Initial kinetic energy: $$ \KE_{i} = 0 $$ (both at rest)
 
 Final kinetic energy:
 
-$$ \KE_{f} = \frac{1}{2} m_{\text{clown}} v_{\text{clown}}^2 + \frac{1}{2} m_{\text{barbell}} v\_{\text{barbell}}^2 $$
+$$ \KE_{f} = \frac{1}{2} m_{\text{clown}} v_{\text{clown}}^2 + \frac{1}{2} m_{\text{barbell}} v_{\text{barbell}}^2 $$
 
 $$ \KE_{f} = \frac{1}{2}(80.0 \kg)(0.500 \ms)^2 + \frac{1}{2}(4.00 \kg)(10.0 \ms)^2 $$
 

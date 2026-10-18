@@ -223,7 +223,7 @@ As expected, the heavier child must sit closer to the pivot (1.30 m versus 1.60 
 
 **Solution (b)**
 
-This part asks for a force $$ F\_{\text{p}} $$. The easiest way to find it is to
+This part asks for a force $$ F_{\text{p}} $$. The easiest way to find it is to
 use the first condition for equilibrium, which is
 
 <div class="equation">

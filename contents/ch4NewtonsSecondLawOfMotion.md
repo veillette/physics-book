@@ -1232,7 +1232,7 @@ In this problem, the forces are exerted by the seat and restraining belts.
 
 **Strategy**
 
-Similar to the previous problem, calculate the horizontal force needed to decelerate the passenger, then find the total force including the vertical component (the passenger's weight). The force will be directed opposite to the motion and slightly downward.
+Similar to the previous problem, calculate the horizontal force the seat and belts exert on the passenger to decelerate him, then find the total force including the upward vertical component that supports his weight. During deceleration this total force points **backward** (opposite the sled's forward motion) and slightly **upward**.
 
 **Solution**
 
@@ -1262,7 +1262,7 @@ $$ \frac{F_{\text{horizontal}}}{w} = \frac{15{,}100 \N}{735 \N} = 20.5 $$
 
 The vertical component equals the passenger's weight (upward): $$ F_{\text{vertical}} = 735 \N $$
 
-The horizontal component (backward, opposing motion): $$ F_{\text{horizontal}} = 1.51 \times 10^{4} \N $$
+The horizontal component (backward, opposing the sled's forward motion): $$ F_{\text{horizontal}} = 1.51 \times 10^{4} \N $$
 
 Total force magnitude:
 <div class="equation">
@@ -1273,20 +1273,20 @@ $$ F_{\text{total}} = \sqrt{F_{\text{horizontal}}^2 + F_{\text{vertical}}^2} = \
 $$ F_{\text{total}} = \sqrt{2.28 \times 10^{8} + 5.40 \times 10^{5}} = \sqrt{2.29 \times 10^{8}} = 1.51 \times 10^{4} \N $$
 </div>
 
-Direction below horizontal:
+Direction above the backward horizontal:
 <div class="equation">
 $$ \theta = \tan^{-1}\left(\frac{F_{\text{vertical}}}{F_{\text{horizontal}}}\right) = \tan^{-1}\left(\frac{735}{15{,}100}\right) = 2.79^\circ $$
 </div>
 
 **Discussion**
 
-During deceleration, the seat and belts must push forward on the passenger (opposite to the sled's motion) with tremendous force—over 20 times the passenger's weight. The vertical component is small compared to the horizontal, so the total force is directed nearly horizontally (only 2.79° below horizontal).
+During deceleration, the seat and belts push **backward** on the passenger with a horizontal component over 20 times his weight, while also supporting his weight with an upward component. The total force on the passenger is therefore directed **backward and slightly upward**—**2.79° above the backward horizontal**.
 
 **Answer**
 
 (a) The horizontal component of the force is **1.51 × 10⁴ N**, which is **20.5 times** the passenger's weight.
 
-(b) The total force is **1.51 × 10⁴ N** directed **2.79° below horizontal** (or below the backward direction).
+(b) The total force is **1.51 × 10⁴ N** directed **2.79° above the backward horizontal** (backward and slightly upward).
 
 :::
 

@@ -169,7 +169,7 @@ refers to the scale of a value expressed in the metric system. Each power of $$ 
 example, $$ 10^{1},10^{2},10^{3} $$, and so forth are all different orders of
 magnitude. All quantities that can be expressed as a product of a specific power
 of $$ 10 $$ are said to be of the **same** order of magnitude. For example, the
-number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450 $$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$ 450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of $$ 10^{-9}\m $$, while the diameter of the Sun is on
+number $$ 800 $$ can be written as $$ 8\times 10^{2} $$, and the number $$ 450 $$ can be written as $$ 4.5\times 10^{2} $$. Thus, the numbers $$ 800 $$ and $$ 450 $$ are of the same order of magnitude: $$ 10^{2} $$. Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of $$ 10^{-10}\m $$, while the diameter of the Sun is on
 the order of $$ 10^{9}\m $$.
 
 ::: note {"class":"note","data-label":""}
@@ -192,7 +192,8 @@ cylinder, and the ampere to the force between current-carrying wires. Since
 the 2019 revision of the SI, this quest is complete. The kilogram is now defined
 by fixing the value of Planck's constant, and the ampere by fixing the value of
 the elementary charge, the charge of a single proton. Every SI base unit is now
-defined by fixing the exact value of a constant of nature.
+defined by fixing the exact numerical value of a defining constant, most of
+which are constants of nature.
 
 :::
 
@@ -218,7 +219,7 @@ defined by fixing the exact value of a constant of nature.
 | femto  | f      | $$10^{-15} $$ | femtometer | fm  | $$10^{-15} $$ m | size of a proton                    |
 | atto   | a      | $$10^{-18} $$ | attosecond | as  | $$10^{-18} $$ s | time light crosses an atom          |
 
-### Known Ranges of Length, Mass, and Time {: #Table2}
+### Known Ranges of Length, Mass, and Time
 
 The vastness of the universe and the breadth over which physics applies are
 illustrated by the wide range of examples of known lengths, masses, and times
@@ -932,7 +933,7 @@ units
 
 SI units
 : the international system of units that scientists in most countries have
-agreed to use; includes units such as meters, liters, and grams
+agreed to use; includes units such as meters, kilograms, and seconds
 
 English units
 : system of measurement used in the United States; includes units of measurement

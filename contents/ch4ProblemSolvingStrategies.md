@@ -698,50 +698,47 @@ From Figure 4, the forces form a right triangle where:
 - $$ \vb{F}_{2} $$ is vertical (upward)
 - $$ \vb{F}_{\text{tot}} = 20.0 \N $$ at some angle above horizontal
 
-From the figure, the angle appears to be approximately 30° above horizontal.
+From Figure 4, $$ \vb{F}_{\text{tot}} $$ is at **35°** above horizontal.
 
 Using trigonometry:
 <div class="equation">
-$$ F_{1} = F_{\text{tot}} \cos\theta = 20.0 \cos(30°) = 20.0 \times 0.866 = 17.3 \N $$
+$$ F_{1} = F_{\text{tot}} \cos\theta = 20.0 \cos(35°) = 20.0 \times 0.819 = 16.4 \N $$
 </div>
 
 <div class="equation">
-$$ F_{2} = F_{\text{tot}} \sin\theta = 20.0 \sin(30°) = 20.0 \times 0.500 = 10.0 \N $$
+$$ F_{2} = F_{\text{tot}} \sin\theta = 20.0 \sin(35°) = 20.0 \times 0.574 = 11.5 \N $$
 </div>
 
-Verification: $$ \sqrt{(17.3)^2 + (10.0)^2} = \sqrt{299 + 100} = \sqrt{399} = 20.0 \N $$ ✓
+Verification: $$ \sqrt{(16.4)^2 + (11.5)^2} = \sqrt{269 + 132} = \sqrt{401} \approx 20.0 \N $$ ✓
 
 **(b) Commutative property:**
 
 Whether we add $$ \vb{F}_{1} + \vb{F}_{2} $$ or $$ \vb{F}_{2} + \vb{F}_{1} $$, the resultant is the same:
-- Method 1: Start with $$ \vb{F}_{1} $$ (right 17.3\text{ N}), then add $$ \vb{F}_{2} $$ (up 10.0 N) → resultant points to upper right
-- Method 2: Start with $$ \vb{F}_{2} $$ (up 10.0\text{ N}), then add $$ \vb{F}_{1} $$ (right 17.3 N) → same resultant
+- Method 1: Start with $$ \vb{F}_{1} $$ (right 16.4\text{ N}), then add $$ \vb{F}_{2} $$ (up 11.5 N) → resultant points to upper right
+- Method 2: Start with $$ \vb{F}_{2} $$ (up 11.5\text{ N}), then add $$ \vb{F}_{1} $$ (right 16.4 N) → same resultant
 
 Both paths end at the same point, demonstrating vector addition is commutative.
 
 **(c) Alternative pair of vectors:**
 
-Many pairs work. One example:
-- One force of 20.0 N at 60° above horizontal
-- Another force of 20.0 N at 0° (horizontal)
+One example that adds to the same $$ \vb{F}_{\text{tot}} $$:
 
-These would add to give a resultant with different magnitude and direction than parts (a) and (b), but the question asks for vectors that add to the same $$ \vb{F}_{\text{tot}} $$.
+- $$ \vb{F}_{3} $$: **12.0 N at 75° above horizontal** (components 3.11 N right, 11.6 N up)
+- $$ \vb{F}_{4} $$: **13.3 N horizontally to the right** (components 13.3 N right, 0 N up)
 
-Alternative answer: We could use:
-- 20.0 N at 60° above horizontal: components (10.0 N right, 17.3 N up)
-- Combined with appropriate second force to give same total
+Check: $$(3.11 + 13.3, 11.6 + 0) = (16.4, 11.6) \N$$, matching parts (a) and (b).
 
 **Discussion**
 
-This problem reinforces the fundamental principle that vector addition is both commutative and associative—the order of adding vectors doesn't affect the resultant. The perpendicular components (horizontal and vertical) make the calculations straightforward using the Pythagorean theorem. Any pair of vectors whose x and y components sum to 17.3 N and 10.0 N respectively will produce the same total force of 20.0 N at 30° above horizontal, demonstrating that vector decomposition is not unique.
+This problem reinforces the fundamental principle that vector addition is both commutative and associative—the order of adding vectors doesn't affect the resultant. The perpendicular components (horizontal and vertical) make the calculations straightforward using the Pythagorean theorem. Any pair of vectors whose x and y components sum to 16.4 N and 11.5 N respectively will produce the same total force of 20.0 N at 35° above horizontal, demonstrating that vector decomposition is not unique.
 
 **Answer**
 
-(a) The magnitudes are **F₁ = 17.3 N** (horizontal) and **F₂ = 10.0 N** (vertical), which add to give **F_tot = 20.0 N** at **30° above horizontal**.
+(a) The magnitudes are **F₁ = 16.4 N** (horizontal) and **F₂ = 11.5 N** (vertical), which add to give **F_tot = 20.0 N** at **35° above horizontal**.
 
 (b) The order of addition doesn't matter - vector addition is commutative.
 
-(c) Any pair of perpendicular or non-perpendicular vectors whose components sum to (17.3 N, 10.0 N) will work.
+(c) For example, **F₃ = 12.0 N at 75° above horizontal** and **F₄ = 13.3 N to the right** add to the same total force.
 
 :::
 
@@ -941,7 +938,7 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
    {: #Figure7}
 
 3. The tension is given as $$ T=25.0 \N $$. Find $$ F_{\text{app}}$$. Using Newton's laws gives:
-   $$ \sum F\_{y}=0, $$ so that applied force is due to the _y_-components of the
+   $$ \sum F_{y}=0, $$ so that applied force is due to the _y_-components of the
    two tensions:
 
    $$ F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right) \sin\left(15^\circ\right)=12.9 \N $$ The *x*-components of the tension
@@ -1323,7 +1320,7 @@ $$ a = \frac{2.00 \times 10^{6} - 14.7 \times 10^{6}}{1.50 \times 10^{6}} = \fra
 
 __(b) What is unreasonable?__
 
-The acceleration is __negative (−8.47 m/s²)__, meaning the rocket accelerates downward! Instead of launching, the rocket would crash back down. The thrust is far too small to overcome the rocket's weight.
+The acceleration is __negative (−8.47 m/s²)__ if we apply $$ F_{\text{net}} = T - mg $$ and omit the upward support force from the launch pad. That value is **smaller in magnitude than g (9.80 m/s²)** because the upward thrust partially offsets weight—it does **not** mean the engines pull the rocket downward faster than free fall. With thrust less than weight, the rocket **cannot lift off**; on the pad its actual acceleration is **zero** because the pad supplies the missing upward force.
 
 For comparison, the rocket in the first problem of this section had:
 - Mass: $$ 5.00 \times 10^{5} \kg $$
@@ -1348,13 +1345,13 @@ The premise is unreasonable because no rocket could launch with such inadequate 
 
 **Discussion**
 
-This problem illustrates a real failure mode that has occurred with actual rockets—inadequate thrust-to-weight ratio. For a rocket to lift off, thrust must exceed weight. This rocket's thrust is less than 14% of its weight, guaranteeing failure. The negative acceleration means the rocket would accelerate downward even faster than free fall due to engine thrust pointing the wrong way relative to what's needed. Real rockets are designed with thrust-to-weight ratios of 1.2 to 1.5 at liftoff, providing enough margin to overcome gravity and atmospheric drag while still accelerating upward. This problem demonstrates the importance of checking whether results make physical sense—here, recognizing that downward acceleration at launch indicates a fundamental design flaw.
+This problem illustrates a real failure mode that has occurred with actual rockets—inadequate thrust-to-weight ratio. For a rocket to lift off, thrust must exceed weight. This rocket's thrust is less than 14% of its weight, guaranteeing failure. The formal −8.47 m/s² is the acceleration **after omitting pad support**; it shows lift-off is impossible, not the motion of a rocket resting on the pad. Real rockets are designed with thrust-to-weight ratios of 1.2 to 1.5 at liftoff, providing enough margin to overcome gravity and atmospheric drag while still accelerating upward.
 
 **Answer**
 
-(a) The initial acceleration is __−8.47 m/s²__ (downward).
+(a) The formal initial acceleration (pad support omitted) is __−8.47 m/s²__; on the pad the actual acceleration is __0__.
 
-(b) A negative acceleration is unreasonable - the rocket would crash instead of launching.
+(b) A negative formal acceleration is unreasonable for launch—the thrust cannot overcome weight, so the rocket cannot lift off.
 
 (c) The thrust of 2.00 × 10⁶ N is unreasonably small. It's only 14% of the rocket's weight, far below the minimum needed for liftoff (1.47 × 10⁷ N).
 

@@ -310,11 +310,11 @@ $$ \text{Factor} = \frac{P_{\text{current}}}{P_{\text{initial}}} = \frac{10^{28}
 
 **Discussion**
 
-The power output has declined by a factor of $$ 2 \times 10^{-10} $$, which means the Crab Nebula pulsar now emits only about 0.00000002% of its original supernova power. This enormous decline over approximately 1000 years demonstrates the dramatic energy loss that occurs after a supernova explosion. Despite this massive reduction, the pulsar still outputs $$ 10^{28} $$ W, which is about 25 times greater than the Sun's current power output of $$ 4 \times 10^{26} $$ W. This illustrates both the incredible initial energy released during supernovas and the gradual but inevitable energy dissipation as pulsars spin down over time. The pulsar's rotation slows as it emits electromagnetic radiation and particles, converting its rotational kinetic energy into other forms of energy.
+The current output is $$ 2 \times 10^{-10} $$ of the peak supernova power—equivalently, the power has **decreased by a factor of** $$ 5 \times 10^{9} $$. (Saying it “declined by a factor of $$ 2 \times 10^{-10} $$” reverses the usual reduction-factor convention.) Despite this massive reduction, the pulsar still outputs $$ 10^{28} $$ W, about 25 times the Sun's $$ 4 \times 10^{26} $$ W. The pulsar's rotation slows as it emits electromagnetic radiation and particles, converting rotational kinetic energy into other forms.
 
 **Answer**
 
-The power output of the Crab Nebula pulsar has declined by a factor of approximately $$ 2 \times 10^{-10} $$ since the supernova explosion in A.D. 1054.
+The Crab Nebula pulsar’s present power is about $$ 2 \times 10^{-10} $$ of the peak (a decrease by a factor of about $$ 5 \times 10^{9} $$) since the A.D. 1054 supernova.
 
 :::
 
@@ -884,10 +884,13 @@ The stark contrast between the clock battery (2 W for 18 months) and the calcula
 (a) How long would it take a $$ 1.50\times 10^{5} $$-kg airplane with
 engines that produce 100 MW of power to reach a speed of 250
 m/s and an altitude of 12.0 km if air resistance were negligible?
-(b) If it actually takes 900 s, what is the power?
-(c) Given this power, what is the
-average force of air resistance if the airplane takes 1200 s? (Hint: You must
-find the distance the plane travels in 1200 s assuming constant acceleration.)
+(b) If it actually takes 900 s to reach that same speed and altitude, what is
+the average *useful* power delivered to the plane’s mechanical energy
+($$ E/t $$)? (With drag present, this need not equal the engines’ full output.)
+(c) Using that useful-power value from (b) as the average rate of work done
+on the plane’s mechanical energy plus against drag, what is the average force
+of air resistance if the airplane takes 1200 s? (Hint: You must find the
+distance the plane travels in 1200 s assuming constant acceleration.)
 
 :::
 
@@ -897,9 +900,14 @@ find the distance the plane travels in 1200 s assuming constant acceleration.)
 
 For part (a), the total energy needed is kinetic plus potential energy. With constant power, $$ W = Pt = \Delta E $$.
 
-For part (b), we use the actual time to find the actual power needed.
+For part (b), divide the mechanical-energy increase from (a) by the actual
+900 s to get the average *useful* power $$ E/t $$. That is the rate at which the
+plane’s kinetic plus potential energy grows; it is not automatically the
+engines’ shaft power when drag is present.
 
-For part (c), we use work-energy theorem including air resistance.
+For part (c), take that useful power from (b) as the average engine work rate
+used in this calculation, and apply the work–energy theorem including air
+resistance.
 
 **Solution for (a)**
 
@@ -929,7 +937,7 @@ Actual power:
 
 **Solution for (c)**
 
-With constant acceleration over 1200 s, the average velocity is $$ v\_{avg} = v/2 = 125\ms $$, so distance is:
+With constant acceleration over 1200 s, the average velocity is $$ v_{avg} = v/2 = 125\ms $$, so distance is:
 
 <div class="equation">
  $$ d = v_{avg}t = (125\ms)(1200\s) = 1.50 \times 10^{5}\m $$
@@ -957,15 +965,15 @@ Average air resistance force:
 
 Part (a): Without air resistance, the airplane would reach its target speed and altitude in 223 s (about 3.7 minutes) using its full 100 MW of engine power. This represents the theoretical minimum time based purely on energy requirements. The total energy needed is 22.3 GJ, with about 79% going to potential energy (climbing to 12 km altitude) and only 21% to kinetic energy (reaching 250 m/s). This distribution shows that for this scenario, climbing is the dominant energy requirement.
 
-Part (b): In reality, reaching the same energy state takes 900 s (15 minutes), which is about 4 times longer. The actual average power is 24.8 MW, which is only about 25% of the engines' rated power. This significant difference suggests the airplane is not operating at full throttle during the climb—a realistic scenario for commercial aviation where fuel efficiency and passenger comfort are prioritized over rapid climb rates.
+Part (b): Reaching the same mechanical energy in 900 s gives an average useful power of 24.8 MW—about one-quarter of the 100 MW engine rating. With drag, the engines must supply more than 24.8 MW; the 24.8 MW figure is only $$ E/t $$ for the plane’s KE + PE. Part (c) then *uses that 24.8 MW* as the work-rate input in the model (rather than retaining the full 100 MW) to estimate average drag over a 1200 s climb.
 
-Part (c): When the climb takes 1200 s (20 minutes), the average air resistance force is approximately 50,000 N. This substantial force is reasonable for a large aircraft—for comparison, a Boeing 747 has a maximum takeoff weight of about 4 million newtons, so an air resistance of 50,000 N represents about 1.25% of the maximum weight, which is consistent with typical drag forces during climb. The extra time (1200 s vs 900 s) means the airplane travels a longer distance (150 km vs an implied shorter distance for 900 s), encountering more air resistance overall. The calculation shows that approximately 25% of the engine work goes into overcoming air resistance (7.5 GJ out of 29.8 GJ total), with the remaining 75% providing the airplane's kinetic and potential energy. This illustrates why aerodynamic efficiency is crucial for aircraft fuel economy.
+Part (c): With that modeling choice, the average air resistance is about $$ 5.0 \times 10^{4} $$ N. Roughly 25% of the work counted in the model goes into overcoming drag (7.5 GJ of 29.8 GJ), with the rest going into the airplane’s kinetic and potential energy.
 
 **Answer**
 
 (a) Without air resistance, it would take 223 s to reach the target speed and altitude.
-(b) The actual power output is 24.8 MW.
-(c) The average air resistance force is approximately $$ 5.0 \times 10^{4} $$ N (50,000 N).
+(b) The average useful power (mechanical-energy increase per unit time) is 24.8 MW.
+(c) Using that 24.8 MW in the work–energy model, the average air resistance is approximately $$ 5.0 \times 10^{4} $$ N (50,000 N).
 
 :::
 
@@ -1106,9 +1114,9 @@ U.S. power = $$ \frac{1.05 \times 10^{20}\J}{3.156 \times 10^{7}\s} = 3.33 \time
  $$ A_{\text{US}} = \frac{3.33 \times 10^{12}\text{ W}}{26\text{ W/m}^2} = 1.28 \times 10^{11}\text{ m}^2 = 1.28 \times 10^{5}\text{ km}^2 $$
 </div>
 
-Australia: $$ A\_{\text{Aus}} = \frac{5.4 \times 10^{18}\J/(3.156 \times 10^{7}\s)}{26\text{ W/m}^2} = 6.6 \times 10^{3}\text{ km}^2 $$
+Australia: $$ A_{\text{Aus}} = \frac{5.4 \times 10^{18}\J/(3.156 \times 10^{7}\s)}{26\text{ W/m}^2} = 6.6 \times 10^{3}\text{ km}^2 $$
 
-China: $$ A\_{\text{China}} = \frac{6.3 \times 10^{19}\J/(3.156 \times 10^{7}\s)}{26\text{ W/m}^2} = 7.7 \times 10^{4}\text{ km}^2 $$
+China: $$ A_{\text{China}} = \frac{6.3 \times 10^{19}\J/(3.156 \times 10^{7}\s)}{26\text{ W/m}^2} = 7.7 \times 10^{4}\text{ km}^2 $$
 
 **Discussion**
 

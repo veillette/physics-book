@@ -64,9 +64,9 @@ fact, almost everything around you can be described quite accurately by the laws
 of physics. Consider a smartphone ([Figure 2](#Figure2)). Physics describes how
 electricity interacts with the various circuits inside the device. This
 knowledge helps engineers select the appropriate materials and circuit layout
-when building the smartphone. Next, consider a GPS system. Physics describes the relationship between the speed of an object, the distance over which it travels, and the time it takes to travel that distance. GPS relies on precise calculations that account for variations in the Earth's landscapes, the exact distance between orbiting satellites, and even the effect of a complex occurrence of time dilation. Most of these calculations are founded on algorithms developed by Gladys West, a mathematician and computer scientist who programmed the first computers capable of highly accurate remote sensing and positioning. When you use a GPS device, it utilizes these algorithms to recognize where you are and how your position relates to other objects on Earth.
+when building the smartphone. Next, consider a GPS system. Physics describes the relationship between the speed of an object, the distance over which it travels, and the time it takes to travel that distance. GPS relies on precise calculations that account for variations in the Earth's landscapes, the exact distance between orbiting satellites, and even the effect of a complex occurrence of time dilation. These calculations depend on precise mathematical models of Earth’s shape, such as those developed by Gladys West, a mathematician and computer scientist whose satellite-based geodetic models made highly accurate positioning possible. When you use a GPS device, it relies on such models to recognize where you are and how your position relates to other objects on Earth.
 
-![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02.jpg 'The Apple “iPhone” is a common smartphone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the driving time between two locations on a map. (credit: Tinh tế Photo/Flickr) ')
+![A topographical map of a location is shown on an iPhone with some information about the location using the G P S system.](../resources/Figure_01_01_02.jpg 'The Apple “iPhone” is a common smartphone with a GPS function. Physics describes the way that electricity flows through the circuits of this device. Engineers use their knowledge of physics to construct an iPhone with features that consumers will enjoy. One specific feature of an iPhone is the GPS function. GPS uses physics equations to determine the phone’s position, which mapping software can then use to estimate the driving time between two locations. (credit: Tinh tế Photo/Flickr) ')
 {: #Figure2 height="250"}
 
 ### Applications of Physics
@@ -77,8 +77,8 @@ professions. It can help you understand how microwave ovens work, why metals
 should not be put into them, and why they might affect pacemakers.
 (See [Figure 3](#Figure3) and [Figure 4](#Figure4).) Physics allows you to understand
 the hazards of radiation and rationally evaluate these hazards more easily.
-Physics also explains the reason why a black car radiator helps remove heat in a
-car engine, and it explains why a white roof helps keep the inside of a house
+Physics also explains why a car radiator needs a flow of air to remove heat from
+the engine, and it explains why a white roof helps keep the inside of a house
 cool. Similarly, the operation of a car’s ignition system as well as the
 transmission of electrical signals through our body’s nervous system are much
 easier to understand when you think about them in terms of basic physics.
@@ -134,7 +134,7 @@ See [Figure 7](#Figure7) and [Figure 8](#Figure8).)
 The cornerstone of discovering natural laws is observation; science must
 describe the universe as it is, not as we may imagine it to be.
 
-![A portrait of Isaac Newton. ](../resources/Figure_01_01_07.jpg 'Isaac Newton (1642–1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he stepped down from his academic post and became exchequer of the Royal Mint. He took this post seriously, inventing reeding (or creating ridges) on the edge of coins to prevent unscrupulous people from trimming the silver off of them before using them as currency. (credit: Arthur Shuster and Arthur E. Shipley: Britain’s Heritage of Science. London, 1917.)')
+![A portrait of Isaac Newton. ](../resources/Figure_01_01_07.jpg 'Isaac Newton (1642–1727) was very reluctant to publish his revolutionary work and had to be convinced to do so. In his later years, he left his academic post to become Warden and then Master of the Royal Mint. He took this post seriously, overseeing a recoinage of England’s silver money and pursuing counterfeiters and those who clipped silver from the edges of coins. (credit: Arthur Shuster and Arthur E. Shipley: Britain’s Heritage of Science. London, 1917.)')
 {: #Figure7 height="275"}
 
 ![A photograph of Marie Curie](../resources/Figure_01_01_08.jpg 'Marie Curie (1867–1934) sacrificed monetary assets to help finance her early research and damaged her physical well-being with radiation exposure. She is the only person to win Nobel prizes in both physics and chemistry. One of her daughters also won a Nobel Prize. (credit: Wikimedia Commons) ')

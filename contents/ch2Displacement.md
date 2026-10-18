@@ -384,41 +384,41 @@ From the figure, path C:
 - Starts at $$ x_0 = 2 \m $$
 - Goes right to $$ x = 10 \m $$ (moves 8 m)
 - Turns around and goes left to $$ x = 8 \m $$ (moves 2 m)
-- Turns around and goes right to $$ x_f = 11 \m $$ (moves 3 m)
+- Turns around and goes right to $$ x_f = 10 \m $$ (moves 2 m)
 
 **(a) Distance traveled:**
 
 Add up all the path segments regardless of direction:
 
 <div class="equation">
-$$ \text{Distance} = 8 \m + 2 \m + 3 \m = 13 \m $$
+$$ \text{Distance} = 8 \m + 2 \m + 2 \m = 12 \m $$
 </div>
 
 **(b) Magnitude of displacement:**
 
 <div class="equation">
-$$ |\Delta x| = |x_f - x_0| = |11 \m - 2 \m| = 9 \m $$
+$$ |\Delta x| = |x_f - x_0| = |10 \m - 2 \m| = 8 \m $$
 </div>
 
 **(c) Displacement:**
 
 <div class="equation">
-$$ \Delta x = x_f - x_0 = 11 \m - 2 \m = +9 \m $$
+$$ \Delta x = x_f - x_0 = 10 \m - 2 \m = +8 \m $$
 </div>
 
 The positive sign indicates net motion to the right.
 
 **Discussion**
 
-Path C demonstrates the important difference between distance traveled and displacement when an object changes direction. The total distance traveled (13 m) is significantly greater than the magnitude of displacement (9 m) because the object backtracked during its journey. Despite moving a total of 13 m, the object ends up only 9 m from where it started. The multiple direction changes illustrate why displacement depends only on initial and final positions, not on the path taken. This is a key concept in kinematics that distinguishes vectors (displacement) from scalars (distance).
+Path C demonstrates the important difference between distance traveled and displacement when an object changes direction. The total distance traveled (12 m) is greater than the magnitude of displacement (8 m) because the object backtracked during its journey. Despite moving a total of 12 m, the object ends up only 8 m from where it started. The multiple direction changes illustrate why displacement depends only on initial and final positions, not on the path taken. This is a key concept in kinematics that distinguishes vectors (displacement) from scalars (distance).
 
 **Answer**
 
-(a) The distance traveled is 13 m.
+(a) The distance traveled is 12 m.
 
-(b) The magnitude of the displacement is 9 m.
+(b) The magnitude of the displacement is 8 m.
 
-(c) The displacement is +9 m.
+(c) The displacement is +8 m.
 
 :::
 

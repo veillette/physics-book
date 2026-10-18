@@ -636,8 +636,8 @@ $$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{GM/r_{\text{satellite
 
 where:
 
-- $$ r\_{\text{Earth}} = 6.38 \times 10^6 $$ m
-- $$ r\_{\text{satellite}} = 6.38 \times 10^6 + 3.00 \times 10^5 = 6.68 \times 10^6 $$ m
+- $$ r_{\text{Earth}} = 6.38 \times 10^6 $$ m
+- $$ r_{\text{satellite}} = 6.38 \times 10^6 + 3.00 \times 10^5 = 6.68 \times 10^6 $$ m
 
 <div class="equation">
 $$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{(6.38 \times 10^6\text{ m})^2}{(6.68 \times 10^6\text{ m})^2} = \frac{4.07 \times 10^{13}}{4.46 \times 10^{13}} = 0.912 $$

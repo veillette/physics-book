@@ -38,7 +38,7 @@ drag force opposes the motion of the object.)
 
 The directions and magnitudes of acceleration and the applied forces are given
 in [Figure 1](#Figure1)**(a)**. We will define the total force of the tugboats on
-the barge as $$ \vb{F}\_{\text{app}} $$ so that:
+the barge as $$ \vb{F}_{\text{app}} $$ so that:
 
 <div class="equation">
  $$ \vb{F}_{\text{app}}=\vb{F}_{x}+\vb{F}_{y} $$
@@ -55,7 +55,7 @@ Newton’s second law to solve for the drag force $$ \vb{F}_{\text{D}} $$.
 **Solution**
 
 Since $$ \vb{F}_{x} $$ and $$ \vb{F}_{y} $$ are perpendicular, the magnitude and
-direction of $$ \vb{F}\_{\text{app}} $$ are easily found. First, the resultant
+direction of $$ \vb{F}_{\text{app}} $$ are easily found. First, the resultant
 magnitude is given by the Pythagorean theorem:
 
 <div class="equation">
@@ -121,7 +121,7 @@ The numbers used in this example are reasonable for a moderately large barge. It
 is certainly difficult to obtain larger accelerations with tugboats, and small
 speeds are desirable to avoid running the barge into the docks. Drag is
 relatively small for a well-designed hull at low speeds, consistent with the
-answer to this example, where $$ F\_{\text{D}} $$ is less than 1/600th of the
+answer to this example, where $$ F_{\text{D}} $$ is less than 1/600th of the
 weight of the ship.
 
 :::
@@ -270,7 +270,7 @@ can produce answers to both parts
 (a) and (b) of this example, as well as some other questions that might arise.
 The only forces acting on the person are his weight $$ \vb{w} $$ and the upward
 force of the scale $$ \vb{F}_{\s} $$. According to Newton’s third law $$ \vb{F}_{\text{p}} $$ and $$ \vb{F}_{\s} $$ are equal in magnitude and opposite in
-direction, so that we need to find $$ F\_{\s} $$ in order to find what the scale
+direction, so that we need to find $$ F_{\s} $$ in order to find what the scale
 reads. We can do this, as usual, by applying Newton’s second law,
 
 <div class="equation">
@@ -548,8 +548,8 @@ Apply Newton's second law in two dimensions. The forces are: ground reaction for
 Given:
 
 - Mass: $$ m = 6.00 \times 10^{-7} \kg $$
-- Force from ground (upward): $$ F\_{\text{ground}} = 1.20 \times 10^{-5} \N $$
-- Breeze force (horizontal): $$ F\_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
+- Force from ground (upward): $$ F_{\text{ground}} = 1.20 \times 10^{-5} \N $$
+- Breeze force (horizontal): $$ F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
 - Weight: $$ w = mg = (6.00 \times 10^{-7})(9.80) = 5.88 \times 10^{-6} \N $$
 
 **Vertical forces:**
@@ -619,10 +619,10 @@ The two forces are symmetric, each making a 20° angle with the vertical. Use ve
    - $$ F_2 = 200 \N $$ at 20° to the left of vertical
 
 2. Find the components of each force:
-   - $$ F\_{1x} = 200 \sin(20°) = 200 \times 0.342 = 68.4 \N $$ (right)
-   - $$ F\_{1y} = 200 \cos(20°) = 200 \times 0.940 = 188 \N $$ (up)
-   - $$ F\_{2x} = 200 \sin(20°) = 68.4 \N $$ (left)
-   - $$ F\_{2y} = 200 \cos(20°) = 188 \N $$ (up)
+   - $$ F_{1x} = 200 \sin(20°) = 200 \times 0.342 = 68.4 \N $$ (right)
+   - $$ F_{1y} = 200 \cos(20°) = 200 \times 0.940 = 188 \N $$ (up)
+   - $$ F_{2x} = 200 \sin(20°) = 68.4 \N $$ (left)
+   - $$ F_{2y} = 200 \cos(20°) = 188 \N $$ (up)
 
 3. Add the components:
 <div class="equation">
@@ -903,7 +903,7 @@ $$ v = v_0 + at \Rightarrow t = \frac{v}{a} = \frac{33.3 \ms}{7.70 \mss} = 4.33 
 
 **(c) Effect of decreasing mass:**
 
-As fuel is consumed, the rocket's mass decreases while the thrust remains approximately constant. According to $$ a = F\_{net}/m $$, as mass decreases, the acceleration increases. This means:
+As fuel is consumed, the rocket's mass decreases while the thrust remains approximately constant. According to $$ a = F_{net}/m $$, as mass decreases, the acceleration increases. This means:
 
 - The rocket accelerates faster as it rises
 - The actual time to reach 120 km/h would be less than 4.33 s
@@ -1248,7 +1248,7 @@ Weight: $$ w = mg = (1700 \kg)(9.80 \mss) = 1.67 \times 10^4 \N $$
 
 **(a) Tension during acceleration:**
 
-Net force: $$ F\_{net} = T - w = ma $$
+Net force: $$ F_{net} = T - w = ma $$
 
 <div class="equation">
 $$ T = ma + mg = m(a + g) = (1700 \kg)(1.20 \mss + 9.80 \mss) $$

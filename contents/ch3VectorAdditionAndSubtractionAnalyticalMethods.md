@@ -569,55 +569,56 @@ Path D consists of multiple straight-line segments. For (a), sum the lengths of 
 
 **Solution**
 
-From Figure 11, Path D consists of (reading the figure):
-- Segment 1: North (approximately 2 blocks)
-- Segment 2: East (approximately 9 blocks)
-- Segment 3: South (approximately 5 blocks)
+From Figure 11, Path D consists of (reading the figure), with each block 120 m on a side:
 
-Using the scale where 1 block ≈ 100 m:
+- Segment 1: South (2 blocks)
+- Segment 2: East (6 blocks)
+- Segment 3: North (4 blocks)
+- Segment 4: West (1 block)
 
 **(a) Total distance:**
 <div class="equation">
-$$ d_{\text{total}} = 200 + 900 + 500 = 1600 \m $$
+$$ d_{\text{total}} = 240 + 720 + 480 + 120 = 1560 \m $$
 </div>
 
 **(b) Displacement using analytical method:**
 
 **Step 1: Identify components of each segment**
-- Segment 1: East = 0 m, North = 200 m
-- Segment 2: East = 900 m, North = 0 m
-- Segment 3: East = 0 m, North = -500 m
+- Segment 1: East = 0 m, North = −240 m
+- Segment 2: East = 720 m, North = 0 m
+- Segment 3: East = 0 m, North = 480 m
+- Segment 4: East = −120 m, North = 0 m
 
 **Step 2: Sum the components**
 <div class="equation">
-$$ R_{\text{east}} = 0 + 900 + 0 = 900 \m $$
+$$ R_{\text{east}} = 0 + 720 + 0 + (-120) = 600 \m $$
 </div>
 
 <div class="equation">
-$$ R_{\text{north}} = 200 + 0 + (-500) = -300 \m $$
+$$ R_{\text{north}} = -240 + 0 + 480 + 0 = 240 \m $$
 </div>
 
 **Step 3: Calculate magnitude**
 <div class="equation">
-$$ R = \sqrt{R_{\text{east}}^2 + R_{\text{north}}^2} = \sqrt{(900)^2 + (-300)^2} = \sqrt{810{,}000 + 90{,}000} = \sqrt{900{,}000} = 949 \m $$
+$$ R = \sqrt{R_{\text{east}}^2 + R_{\text{north}}^2} = \sqrt{(600)^2 + (240)^2} = \sqrt{360{,}000 + 57{,}600} = \sqrt{417{,}600} = 646 \m $$
 </div>
 
 **Step 4: Calculate direction**
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{|R_{\text{north}}|}{R_{\text{east}}}\right) = \tan^{-1}\left(\frac{300}{900}\right) = \tan^{-1}(0.333) = 18.4° $$
+$$ \theta = \tan^{-1}\left(\frac{R_{\text{north}}}{R_{\text{east}}}\right) = \tan^{-1}\left(\frac{240}{600}\right) = \tan^{-1}(0.400) = 21.8° $$
 </div>
 
-Since east is positive and north is negative, the direction is 18.4° south of east.
+Since both components are positive, the direction is 21.8° north of east.
 
 **Discussion**
 
-The total distance (1600 m) is much greater than the displacement magnitude (949 m) because the path includes backtracking—going north then south. The displacement represents the straight-line distance and direction from start to finish.
+The total distance (1560 m) is much greater than the displacement magnitude (646 m) because the path includes backtracking—going south then north, and east then partially west. The displacement represents the straight-line distance and direction from start to finish.
 
 **Answer**
 
-**(a)** The total distance traveled is **1600 m** (or **1.60 km**).
+**(a)** The total distance traveled is **1560 m** (or **1.56 km**).
 
-**(b)** The displacement is **949 m** (or **0.949 km**) at **18.4° south of east**.
+**(b)** The displacement is **646 m** (or **0.646 km**) at **21.8° north of east**.
 
 ::::
 
@@ -903,7 +904,7 @@ from $$ \vb{A} $$
 —that is, finding $$ \vb{R}^\prime =\vb{A} - \vb{B} $$)
 
 (b) Repeat again, but now you first walk $$ 25.0 \m $$ north and then $$ 18.0 \m $$ east. (This is equivalent to subtract $$ \vb{A} $$ from $$ \vb{B} $$ —that
-is, to find $$ \vb{A}=\vb{B}+\vb{C} $$. Is that consistent with your result?)
+is, to find $$ \vb{R}^{\prime\prime}=\vb{B}-\vb{A}=-\vb{R}^{\prime} $$. Confirm that $$ \vb{R}^{\prime\prime} $$ has the same magnitude as $$ \vb{R}^{\prime} $$ but the opposite direction.)
 
 ::::
 
@@ -978,13 +979,13 @@ $$ 54.2^\circ $$ north of east (or $$ 35.8^\circ $$ east of north).
 
 **Discussion**
 
-Part (a) and part (b) give opposite results, as expected for vector subtraction: one points southwest, the other northeast. The magnitude is the same (30.8 m) but the directions are exactly opposite, demonstrating that reversing the order of subtraction reverses the direction of the result.
+Part (a) gives $$ \vb{R}^{\prime}=\vb{A}-\vb{B} $$, pointing southwest. Part (b) gives $$ \vb{R}^{\prime\prime}=\vb{B}-\vb{A}=-\vb{R}^{\prime} $$, pointing northeast. The magnitudes are equal (30.8 m) and the directions are exactly opposite, as required for the negative of a vector.
 
 **Answer**
 
 (a) Walking 18.0 m west then 25.0 m south gives a displacement of 30.8 m at 54.2° south of west.
 
-(b) Walking 25.0 m north then 18.0 m east gives a displacement of 30.8 m at 54.2° north of east.
+(b) Walking 25.0 m north then 18.0 m east gives $$ \vb{R}^{\prime\prime}=\vb{B}-\vb{A}=-\vb{R}^{\prime} $$: 30.8 m at 54.2° north of east.
 
 ::::
 
@@ -1021,10 +1022,10 @@ $$ A_E = 80.0\cos(21°) = 80.0(0.934) = 74.7 \m $$
 $$ A_N = -80.0\sin(21°) = -80.0(0.358) = -28.6 \m $$
 </div>
 
-**Vector B** (105 m at 11° east of north):
+**Vector B** (105 m at 11° west of north):
 
 <div class="equation">
-$$ B_E = 105\sin(11°) = 105(0.191) = 20.1 \m $$
+$$ B_E = -105\sin(11°) = -105(0.191) = -20.1 \m $$
 </div>
 
 <div class="equation">
@@ -1034,7 +1035,7 @@ $$ B_N = 105\cos(11°) = 105(0.982) = 103 \m $$
 **Sum A + B:**
 
 <div class="equation">
-$$ (A+B)_E = 74.7 + 20.1 = 94.8 \m $$
+$$ (A+B)_E = 74.7 + (-20.1) = 54.6 \m $$
 </div>
 
 <div class="equation">
@@ -1044,7 +1045,7 @@ $$ (A+B)_N = -28.6 + 103 = 74.4 \m $$
 **Vector C = -(A + B):**
 
 <div class="equation">
-$$ C_E = -94.8 \m $$
+$$ C_E = -54.6 \m $$
 </div>
 
 <div class="equation">
@@ -1054,24 +1055,24 @@ $$ C_N = -74.4 \m $$
 **Magnitude:**
 
 <div class="equation">
-$$ C = \sqrt{(-94.8)^2 + (-74.4)^2} = \sqrt{8987 + 5535} = \sqrt{14{,}522} = 121 \m $$
+$$ C = \sqrt{(-54.6)^2 + (-74.4)^2} = \sqrt{2981 + 5535} = \sqrt{8516} = 92.3 \m $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{74.4}{94.8}\right) = \tan^{-1}(0.785) = 38.1° $$
+$$ \theta = \tan^{-1}\left(\frac{74.4}{54.6}\right) = \tan^{-1}(1.36) = 53.7° $$
 </div>
 
-Since both components are negative, the direction is 38.1° south of west (or equivalently, W38.1°S).
+Since both components are negative, the direction is 53.7° south of west (or equivalently, W53.7°S).
 
 **Discussion**
 
-The third side closes the triangle by connecting the end of B back to the start of A. Its direction (southwest) makes sense geometrically: A goes southeast, B goes mostly north, so C must go back southwest to complete the triangle.
+The third side closes the triangle by connecting the end of B back to the start of A. Its direction (southwest) makes sense geometrically: A goes southeast, B goes mostly north with a slight westward component, so C must go back southwest to complete the triangle.
 
 **Answer**
 
-The third side **C** is **121 m** long at **38.1° south of west**.
+The third side **C** is **92.3 m** long at **53.7° south of west**.
 
 ::::
 
@@ -1158,7 +1159,7 @@ A farmer wants to fence off their four-sided plot of flat land.
 They measure the first three sides, shown as $$ \vb{A}, $$
 $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly calculate the length and orientation of the fourth side $$ \vb{D} $$. What is their result?
 
-![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_15.jpg)
+![A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers at an angle of 7 point 5 degrees below the horizontal toward the east. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated](../resources/Figure_03_03_15.jpg)
 {: #Figure15}
 
 ::::
@@ -1171,10 +1172,10 @@ For a closed quadrilateral, A + B + C + D = 0, so D = -(A + B + C). Calculate co
 
 **Solution**
 
-**Vector A** (4.70 km at 7.5° south of west):
+**Vector A** (4.70 km at 7.5° below horizontal, toward the east):
 
 <div class="equation">
-$$ A_E = -4.70\cos(7.5°) = -4.70(0.991) = -4.66 \text{ km} $$
+$$ A_E = 4.70\cos(7.5°) = 4.70(0.991) = 4.66 \text{ km} $$
 </div>
 
 <div class="equation">
@@ -1204,7 +1205,7 @@ $$ C_N = 3.02\sin(19°) = 3.02(0.326) = 0.984 \text{ km} $$
 **Sum A + B + C:**
 
 <div class="equation">
-$$ (A+B+C)_E = -4.66 + (-0.684) + (-2.86) = -8.20 \text{ km} $$
+$$ (A+B+C)_E = 4.66 + (-0.684) + (-2.86) = 1.12 \text{ km} $$
 </div>
 
 <div class="equation">
@@ -1214,7 +1215,7 @@ $$ (A+B+C)_N = -0.616 + 2.38 + 0.984 = 2.75 \text{ km} $$
 **Vector D = -(A + B + C):**
 
 <div class="equation">
-$$ D_E = 8.20 \text{ km} $$
+$$ D_E = -1.12 \text{ km} $$
 </div>
 
 <div class="equation">
@@ -1224,24 +1225,24 @@ $$ D_N = -2.75 \text{ km} $$
 **Magnitude:**
 
 <div class="equation">
-$$ D = \sqrt{(8.20)^2 + (-2.75)^2} = \sqrt{67.2 + 7.56} = \sqrt{74.8} = 8.65 \text{ km} $$
+$$ D = \sqrt{(-1.12)^2 + (-2.75)^2} = \sqrt{1.25 + 7.56} = \sqrt{8.81} = 2.97 \text{ km} $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{2.75}{8.20}\right) = \tan^{-1}(0.335) = 18.5° $$
+$$ \theta = \tan^{-1}\left(\frac{2.75}{1.12}\right) = \tan^{-1}(2.46) = 67.9° $$
 </div>
 
-Since east is positive and north is negative, direction is 18.5° south of east.
+Since both components are negative, direction is 67.9° south of west.
 
 **Discussion**
 
-The fourth side closes the quadrilateral, connecting C back to the start. Its eastward and slightly southward direction makes sense given that the other three sides have predominantly westward and mixed north-south components.
+The fourth side closes the quadrilateral, connecting C back to the start. Side A points east and slightly downward, while B and C have predominantly westward components; D must point southwest to return to the origin.
 
 **Answer**
 
-The fourth side **D** is **8.65 km** long at **18.5° south of east**.
+The fourth side **D** is **2.97 km** long at **67.9° south of west**.
 
 ::::
 

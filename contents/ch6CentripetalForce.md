@@ -68,7 +68,7 @@ car from slipping (see [Figure 2](#Figure2)).
 
 **Strategy and Solution for (a)**
 
-We know that $$F\_{\text{c}}=\frac{ m v^{2} }{r}$$. Thus,
+We know that $$F_{\text{c}}=\frac{ m v^{2} }{r}$$. Thus,
 
 <div class="equation">
 $$F_{\text{c}}=\frac{m v^{2}}{r}
@@ -102,7 +102,7 @@ $$\begin{array}{lll}
 \end{array},$$&lt;/div&gt; &lt;div class="equation"&gt;$$m\frac{ v^{2}}{r}=\mu_{\s}mg .$$
 </div>
 
-We solve this for $$\mu\_{\s}$$, noting that mass cancels, and obtain
+We solve this for $$\mu_{\s}$$, noting that mass cancels, and obtain
 
 <div class="equation">
 $$\mu_{\s}=\frac{ v^{2}}{rg}.$$

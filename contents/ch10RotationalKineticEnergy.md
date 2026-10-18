@@ -528,17 +528,17 @@ What, if any, are their differences? Give an example of each type of kinetic ene
 
 :::: solution
 
-Yes, rotational and translational kinetic energy are exact analogs.
-They both are the energy of motion involved with the coordinated (non-random)
-movement of mass relative to some reference frame. The only difference between
-rotational and translational kinetic energy is that translational is straight
-line motion while rotational is not. An example of both kinetic and translational
-kinetic energy is found in a bike tire while being ridden down a bike path.
-The rotational motion of the tire means it has rotational kinetic energy while
-the movement of the bike along the path means the tire also has translational
-kinetic energy. If you were to lift the front wheel of the bike and spin it
-while the bike is stationary, then the wheel would have only rotational
-kinetic energy relative to the Earth.
+Yes, rotational and translational kinetic energy are closely analogous: both
+describe coordinated (non-random) motion of mass, but about different degrees of
+freedom. **Translational** kinetic energy is associated with motion of the
+center of mass, $$ \KE_{\text{trans}} = \frac{1}{2} M v_{\text{CM}}^{2} $$,
+whether that path is straight or curved. **Rotational** kinetic energy is
+associated with rotation about the center of mass,
+$$ \KE_{\text{rot}} = \frac{1}{2} I \omega^{2} $$. A rolling bicycle wheel on a
+curved path can have both simultaneously. If you lift the front wheel and spin
+it while the bike is stationary, the wheel has mainly rotational kinetic energy
+about its axle (and negligible translational kinetic energy if the axle stays
+fixed).
 
 ::::
 
@@ -1120,7 +1120,7 @@ cm.
 
 **Strategy**
 
-For part (a), we calculate the net torque from the muscle force (positive) and the weight (negative), then use τ = Iα. For part (b), we use W = τθ with θ in radians.
+For part (a), we calculate the net torque from the muscle force (positive) and the weight (negative), then use τ = Iα. For part (b), we distinguish work done **by the muscle** ($$ W_{\text{muscle}} = \tau_{\text{muscle}}\theta $$) from **net** work ($$ W_{\text{net}} = \tau_{\text{net}}\theta = \Delta\KE $$ for a rigid body with constant net torque). The weight torque varies with limb orientation unless a constant opposing-torque approximation is stated; here we use the given constant muscle torque and the net torque from part (a).
 
 **Solution**
 
@@ -1162,21 +1162,27 @@ $$ \alpha = \frac{\tau_{\text{net}}}{I_{\text{total}}} = \frac{17.6 \N \cdot \m}
 $$ \theta = 20.0° \times \frac{\pi \text{ rad}}{180°} = 0.349 \text{ rad} $$
 </div>
 
-Work done by the net torque:
+Work done by the muscle (constant $$ \tau_{\text{muscle}} $$):
 
 <div class="equation">
-$$ W = \tau_{\text{net}} \theta = (17.6 \N \cdot \m)(0.349 \text{ rad}) = 6.11 \J $$
+$$ W_{\text{muscle}} = \tau_{\text{muscle}} \theta = (45.0 \N \cdot \m)(0.349 \text{ rad}) = 15.7 \J $$
+</div>
+
+Net work (equals the change in rotational kinetic energy for the leg–weight system if $$ \tau_{\text{net}} $$ is treated as constant over the 20° interval):
+
+<div class="equation">
+$$ W_{\text{net}} = \tau_{\text{net}} \theta = (17.6 \N \cdot \m)(0.349 \text{ rad}) = 6.11 \J $$
 </div>
 
 **Discussion**
 
-The muscle produces 45.0 N·m of torque, but the weight opposes with 27.4 N·m, leaving a net torque of 17.6 N·m. This produces a moderate angular acceleration of 10.4 rad/s². The work done (6.11 J) through 20° goes into both lifting the weight and accelerating the leg rotationally. This is a typical leg extension exercise used for strengthening the quadriceps and hamstring muscles.
+The muscle produces 45.0 N·m of torque, but the weight opposes with 27.4 N·m, leaving a net torque of 17.6 N·m and a moderate angular acceleration of 10.4 rad/s². The **15.7 J** of muscle work is not equal to the **6.11 J** of net work: the remainder goes into gravitational potential energy (lifting the load) and into compensating the changing gravitational torque as the lower leg rotates. Net work tracks the gain in kinetic energy; it cannot simultaneously account for both lifting and rotational acceleration without separating muscle work from gravity.
 
 **Answer**
 
 (a) The angular acceleration is **10.4 rad/s²**.
 
-(b) The work done is **6.11 J**.
+(b) The muscle does **15.7 J** of work; the net work on the leg–weight system is **6.11 J**.
 
 ::::
 
@@ -1198,7 +1204,7 @@ of 2.00 cm?
 
 **Strategy**
 
-For part (a), we calculate the net torque from the muscle force and the weight, then use τ = Iα to find the angular acceleration. For part (b), we use W = τθ (with θ in radians).
+For part (a), we treat the **750 N** as the muscle’s effective force at the 2.00 cm lever arm (net of passive joint forces unless stated otherwise), compute net torque against the load, and use $$ \tau_{\text{net}} = I\alpha $$. For part (b), report muscle work $$ W_{\text{muscle}} = \tau_{\text{muscle}}\theta $$ separately from net work $$ W_{\text{net}} = \tau_{\text{net}}\theta = \Delta\KE $$.
 
 **Solution**
 
@@ -1238,21 +1244,27 @@ $$ \alpha = \frac{\tau_{\text{net}}}{I_{\text{total}}} = \frac{10.3 \N \cdot \m}
 $$ \theta = 60.0° \times \frac{\pi \text{ rad}}{180°} = 1.047 \text{ rad} $$
 </div>
 
-The work done is:
+Muscle work:
 
 <div class="equation">
-$$ W = \tau_{\text{net}} \theta = (10.3 \N \cdot \m)(1.047 \text{ rad}) = 10.8 \J $$
+$$ W_{\text{muscle}} = \tau_{\text{muscle}} \theta = (15.0 \N \cdot \m)(1.047 \text{ rad}) = 15.7 \J $$
+</div>
+
+Net work:
+
+<div class="equation">
+$$ W_{\text{net}} = \tau_{\text{net}} \theta = (10.3 \N \cdot \m)(1.047 \text{ rad}) = 10.8 \J $$
 </div>
 
 **Discussion**
 
-The angular acceleration is quite large (28.2 rad/s²), which would produce rapid motion. The work done (10.8 J) goes into rotating the arm and lifting the weight. This is a typical bicep curl exercise, and the 750 N muscle force is reasonable for strength training.
+The angular acceleration is quite large (28.2 rad/s²), which would produce rapid motion. The muscle supplies **15.7 J** through the 60° arc, but only **10.8 J** appears as net mechanical work on the forearm–weight system; the difference mainly offsets gravity as the forearm orientation changes. This is a typical bicep curl exercise, and the 750 N muscle force is reasonable for strength training.
 
 **Answer**
 
 (a) The angular acceleration is **28.2 rad/s²**.
 
-(b) The work done is **10.8 J**.
+(b) The muscle does **15.7 J** of work; the net work is **10.8 J**.
 
 ::::
 
@@ -1460,6 +1472,9 @@ In softball, the pitcher throws with the arm fully extended (straight at the elb
 and the ball leaves the hand at a distance of 0.600 m from the pivot at the shoulder.
 (b) What force did the muscles exert to cause the arm to rotate if
 their effective perpendicular lever arm is 4.00 cm and the ball is 0.156 kg?
+*(Additional data—such as the angular displacement or time interval during the
+acceleration, arm mass and center-of-mass location, and how gravity enters the
+torque balance—are needed for a unique numerical answer; see the solution.)*
 
 ::::
 
@@ -1467,7 +1482,7 @@ their effective perpendicular lever arm is 4.00 cm and the ball is 0.156 kg?
 
 **Strategy**
 
-For part (a), we find the angular velocity from the ball's linear velocity using v = rω, then calculate KE_rot = ½Iω². For part (b), we need additional assumptions. The problem asks for muscle force, which requires knowing the angular acceleration or work done. We can estimate the force using the rotational kinetic energy and assuming the arm rotates through approximately π radians (180°).
+For part (a), we find the angular velocity from the ball's linear velocity using $$ v = r\omega $$, then calculate $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} $$ for the arm. Part (b) is **underdetermined** as stated: muscle force requires a torque history (via $$ \tau = I\alpha $$ or $$ W_{\text{muscle}} = \int \tau_{\text{muscle}}\, d\theta $$), including gravity on the arm and ball and any separate ball kinetic energy at release.
 
 **Solution**
 
@@ -1489,47 +1504,17 @@ Rotational kinetic energy of the arm:
 $$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(0.720 \kg \cdot \mm)(64.3 \text{ rad/s})^2 = 1490 \J = 1.49 \text{ kJ} $$
 </div>
 
-**(b)** Assuming the arm accelerates through approximately θ = π radians during the pitch, the work done equals the rotational kinetic energy:
-
-<div class="equation">
-$$ W = \tau \theta = Fr\theta = KE_{\text{rot}} $$
-</div>
-
-Solving for force:
-
-<div class="equation">
-$$ F = \frac{KE_{\text{rot}}}{r\theta} = \frac{1490 \J}{(0.0400 \m)(\pi \text{ rad})} = \frac{1490}{0.126} = 11,800 \N $$
-</div>
-
-However, this ignores the weight of the arm and ball. Including the torque needed to support the weight (at average angle of 45°):
-
-For the arm's center of mass at ~0.3 m with mass ~3 kg, and ball at 0.6 m:
-
-<div class="equation">
-$$ \tau_{\text{gravity}} \approx (3)(9.8)(0.3)(0.707) + (0.156)(9.8)(0.6)(0.707) \approx 6.25 + 0.65 = 6.9 \N \cdot \m $$
-</div>
-
-Total torque needed: $$ \tau_{\text{total}} = \frac{1490}{\pi} + 6.9 \approx 474 + 6.9 = 481 \N \cdot \m $$
-
-<div class="equation">
-$$ F = \frac{481 \N \cdot \m}{0.0400 \m} = 12,000 \N $$
-</div>
-
-Considering the full dynamics more carefully (including that the arm must accelerate from rest and the ball's contribution), the force is approximately:
-
-<div class="equation">
-$$ F \approx 2.52 \times 10^4 \N = 25,200 \N $$
-</div>
+**(b)** With only the final arm speed and moment of inertia, the average muscle torque during the wind-up cannot be determined uniquely. One would need, at minimum, the angular displacement (or time) over which the arm accelerates from rest, the arm’s mass distribution, and whether the 0.156-kg ball’s translational kinetic energy at release is added separately to the total work supplied by the muscle. Without those data, **no specific muscle force follows from the numbers given**.
 
 **Discussion**
 
-The pitcher's arm reaches an impressive angular velocity of 64.3 rad/s, storing 1.49 kJ of rotational energy. The muscle force required is enormous—about 25,000 N (equivalent to supporting 2,500 kg), which explains why softball pitching is so demanding and why shoulder injuries are common. This force is exerted over a small lever arm (4 cm), demonstrating the mechanical disadvantage that muscles often work under. The actual force depends on the pitching motion details, but this calculation shows the order of magnitude involved.
+The pitcher's arm reaches an impressive angular velocity of 64.3 rad/s, storing **1.49 kJ** of rotational kinetic energy in the arm alone. Pitching clearly demands large shoulder torques, but quoting a single force without the acceleration history would be misleading. A complete estimate would combine $$ W_{\text{muscle}} = \Delta\KE_{\text{arm}} + \Delta\KE_{\text{ball}} + \Delta PE $$ (as applicable) with the stated 4.00 cm lever arm.
 
 **Answer**
 
 (a) The rotational kinetic energy is **1.49 kJ** (or **1490 J**).
 
-(b) The muscle force is approximately **25,200 N** (about 2.5 metric tons), demonstrating the enormous forces involved in pitching.
+(b) **Underdetermined** with the given information; supply angular displacement or time, arm/ball gravity details, and ball kinetic energy at release to compute muscle force.
 
 ::::
 

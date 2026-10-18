@@ -104,12 +104,12 @@ the situation shown in [Figure 1](#Figure1) where both objects are initially
 moving. We are asked to find two unknowns (the final velocities $$ v^{\prime}_{1} $$ and $$ v^{\prime}_{2} $$). To find two unknowns, we must use two
 independent equations. Because this collision is elastic, we can use the above
 two equations. Both can be simplified by the fact that object 2 is initially at
-rest, and thus $$ v\_{2}=0 $$. Once we simplify these equations, we combine them
+rest, and thus $$ v_{2}=0 $$. Once we simplify these equations, we combine them
 algebraically to solve for the unknowns.
 
 **Solution**
 
-For this problem, note that $$ v\_{2}=0 $$ and use conservation of momentum.
+For this problem, note that $$ v_{2}=0 $$ and use conservation of momentum.
 Thus,
 
 <div class="equation">
@@ -153,7 +153,7 @@ and
 As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution $$ \left(v^{\prime}_{1}=-3.00 \ms \right) $$
 
 is negative, meaning that the first object bounces backward. When this negative
-value of $$ v^{\prime}\_{1} $$ is used to find the velocity of the second object
+value of $$ v^{\prime}_{1} $$ is used to find the velocity of the second object
 after the collision, we get
 
 <div class="equation">
@@ -305,15 +305,15 @@ In an elastic collision, both momentum and kinetic energy are conserved. A funda
 
 For any elastic collision, the relative velocity of approach equals the relative velocity of separation:
 
-$$ |v_1 - v_2| = |v'\_1 - v'\_2| $$
+$$ |v_1 - v_2| = |v'_1 - v'_2| $$
 
 This is a consequence of conserving both momentum and kinetic energy simultaneously.
 
 Before collision:
-$$ v\_{\text{relative, before}} = 0.250 \ms $$
+$$ v_{\text{relative, before}} = 0.250 \ms $$
 
 After collision:
-$$ v\_{\text{relative, after}} = 0.250 \ms $$
+$$ v_{\text{relative, after}} = 0.250 \ms $$
 
 The satellites separate at the same relative speed they approached: 0.250 m/s.
 
@@ -321,9 +321,9 @@ The satellites separate at the same relative speed they approached: 0.250 m/s.
 
 Let satellite 1 approach at $$ v_1 = 0.250 \ms $$ and satellite 2 be at rest ($$ v_2 = 0 $$).
 
-Conservation of momentum: $$ m_1 v_1 = m_1 v'\_1 + m_2 v'\_2 $$
+Conservation of momentum: $$ m_1 v_1 = m_1 v'_1 + m_2 v'_2 $$
 
-Conservation of kinetic energy: $$ \frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 {v'\_1}^2 + \frac{1}{2}m_2 {v'\_2}^2 $$
+Conservation of kinetic energy: $$ \frac{1}{2}m_1 v_1^2 = \frac{1}{2}m_1 {v'_1}^2 + \frac{1}{2}m_2 {v'_2}^2 $$
 
 Solving these simultaneously yields $$ v'_{\text{relative}} = v_{\text{relative}} = 0.250 \ms $$
 
@@ -355,23 +355,23 @@ For an elastic collision with one object initially at rest, we use the equations
 
 For an elastic collision where object 2 is initially at rest, the final velocities are:
 
-$$ v'\_1 = \frac{m_1 - m_2}{m_1 + m_2} v_1 $$
+$$ v'_1 = \frac{m_1 - m_2}{m_1 + m_2} v_1 $$
 
-$$ v'\_2 = \frac{2m_1}{m_1 + m_2} v_1 $$
+$$ v'_2 = \frac{2m_1}{m_1 + m_2} v_1 $$
 
 Let the puck be object 1 ($$ m_1 = 0.150 \kg $$, $$ v_1 = 35.0 \ms $$) and the goalie be object 2 ($$ m_2 = 70.0 \kg $$, $$ v_2 = 0 $$).
 
 Calculate the puck's final velocity:
 
-$$ v'\_1 = \frac{0.150 \kg - 70.0 \kg}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
+$$ v'_1 = \frac{0.150 \kg - 70.0 \kg}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
 
-$$ v'\_1 = \frac{-69.85 \kg}{70.15 \kg} \times 35.0 \ms = -34.85 \ms \approx -34.9 \ms $$
+$$ v'_1 = \frac{-69.85 \kg}{70.15 \kg} \times 35.0 \ms = -34.85 \ms \approx -34.9 \ms $$
 
 Calculate the goalie's final velocity:
 
-$$ v'\_2 = \frac{2(0.150 \kg)}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
+$$ v'_2 = \frac{2(0.150 \kg)}{0.150 \kg + 70.0 \kg} \times 35.0 \ms $$
 
-$$ v'\_2 = \frac{0.300 \kg}{70.15 \kg} \times 35.0 \ms = 0.150 \ms $$
+$$ v'_2 = \frac{0.300 \kg}{70.15 \kg} \times 35.0 \ms = 0.150 \ms $$
 
 The puck rebounds at 34.9 m/s in the opposite direction (back toward the shooter), and the goalie moves forward at 0.150 m/s.
 

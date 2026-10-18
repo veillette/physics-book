@@ -320,7 +320,7 @@ One can study the conversion of gravitational potential energy into kinetic ener
 
 ::: problem
 
-In [Example 2](#example2), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. We would find in that case that its final speed is the same as its initial speed. Explain in terms of conservation of energy.
+In [Example 2](#example2), we calculated the final speed of a roller coaster that descended 20 m in height and had an initial speed of 5 m/s downhill. Suppose the roller coaster had had an initial speed of 5 m/s *uphill* instead, and it coasted uphill, stopped, and then rolled back down to a final point 20 m below the start. With negligible friction, its final speed is the same as in part (b) of that example—$$v=\sqrt{2g\mid h\mid +v_{0}^{2}}=\sqrt{2\left(9.80\mss \right)\left(20.0\m \right)+\left(5.00\ms \right)^{2}}=20.4\ms$$—not its initial 5 m/s uphill speed. Explain in terms of conservation of energy.
 
 :::
 
@@ -417,7 +417,7 @@ and its center of mass is 36.5 m above the surrounding ground?
 
 **Strategy**
 
-For part (a), we use the gravitational potential energy formula$$\PE\_{g} = mgh$$, where$$m$$is the mass of the pyramid,$$g = 9.80\mss$$, and$$h$$is the height of the center of mass.
+For part (a), we use the gravitational potential energy formula$$\PE_{g} = mgh$$, where$$m$$is the mass of the pyramid,$$g = 9.80\mss$$, and$$h$$is the height of the center of mass.
 
 For part (b), we compare this energy to the typical daily food intake of about$$1.2 \times 10^{7}\J$$(or 2400 kcal).
 
@@ -540,7 +540,7 @@ The ratio is:
 
 **Discussion**
 
-The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that$$\Delta \PE \gg \KE\_{\text{i}}$$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy. This result is important in many practical situations: when objects fall from significant heights, their initial velocity has little effect on the final velocity.
+The change in potential energy is approximately 16 times greater than the initial kinetic energy, confirming that$$\Delta \PE \gg \KE_{\text{i}}$$. This explains why the final speed is only slightly greater when starting with an initial speed of 5.00 m/s compared to starting from rest—the gravitational potential energy converted to kinetic energy dominates over the initial kinetic energy. This result is important in many practical situations: when objects fall from significant heights, their initial velocity has little effect on the final velocity.
 
 **Answer**
 
@@ -635,7 +635,7 @@ We use conservation of energy:$$\KE_{\text{i}} + \PE_{\text{i}} = \KE_{\text{f}}
 
 **Solution for (a)**
 
-Starting from rest ($$v\_{0} = 0$$):
+Starting from rest ($$v_{0} = 0$$):
 
 <div class="equation">
 $$\begin{array}{lll}
@@ -645,7 +645,7 @@ v &=& \sqrt{686\text{ m}^{2}/\text{s}^{2}} = 26.2\ms
 \end{array}$$
 </div>
 
-For time, using$$v^{2} = v\_{0}^{2} + 2ad$$with$$a = g\sin{30^\circ} = 4.90\mss$$:
+For time, using$$v^{2} = v_{0}^{2} + 2ad$$with$$a = g\sin{30^\circ} = 4.90\mss$$:
 
 <div class="equation">
  $$v = v_{0} + at \Rightarrow t = \frac{v-v_{0}}{a} = \frac{26.2\ms}{4.90\mss} = 5.35\s$$
@@ -653,7 +653,7 @@ For time, using$$v^{2} = v\_{0}^{2} + 2ad$$with$$a = g\sin{30^\circ} = 4.90\mss$
 
 **Solution for (b)**
 
-With initial speed$$v\_{0} = 2.50\ms$$:
+With initial speed$$v_{0} = 2.50\ms$$:
 
 <div class="equation">
 $$\begin{array}{lll}
@@ -665,7 +665,7 @@ v &=& 26.3\ms
 \end{array}$$
 </div>
 
-For time, using$$v = v\_{0} + at$$:
+For time, using$$v = v_{0} + at$$:
 
 <div class="equation">
  $$t = \frac{v-v_{0}}{a} = \frac{26.3\ms - 2.50\ms}{4.90\mss} = 4.86\s$$

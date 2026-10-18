@@ -102,7 +102,7 @@ Refer to [Figure 4](#Figure4), which shows a boat trying to go straight across t
 river. Let us calculate the magnitude and direction of the boat’s velocity
 relative to an observer on the shore, $$ \vb{v}_{\text{tot}} $$. The velocity of the boat, $$ \vb{v}_{\text{boat}} $$, is 0.75
 m/s in the $$ y $$ -direction relative to the river and the velocity of the
-river, $$ \vb{v}\_{\text{river}} $$, is 1.20 m/s to the right.
+river, $$ \vb{v}_{\text{river}} $$, is 1.20 m/s to the right.
 
 **Strategy**
 
@@ -110,7 +110,7 @@ We start by choosing a coordinate system with its $$ x $$ -axis parallel to the
 velocity of the river, as shown in [Figure 4](#Figure4). Because the boat is
 directed straight toward the other shore, its velocity relative to the water is
 parallel to the $$ y $$ -axis and perpendicular to the velocity of the river.
-Thus, we can add the two velocities by using the equations $$ v_{\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_{y}/v\_{x}\right) $$ directly. 
+Thus, we can add the two velocities by using the equations $$ v_{\text{tot}}=\sqrt{ v_{x}^{2}+v_{y}^{2}} $$ and $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right) $$ directly. 
 
 **Solution**
 
@@ -190,7 +190,7 @@ velocities, $$ \vb{v}_{\text{w}} $$
 (the plane relative to the air mass). The quantity $$ \vb{v}_{\text{p}} $$ is known, and we are asked to find $$ \vb{v}_{\text{w}} $$. None of the velocities are perpendicular, but it is possible to find their components along a common set of perpendicular axes. If we can find the components of $$ \vb{v}_{\text{w}} $$, then we can combine them to solve for
 its magnitude and direction. As shown in [Figure 5](#Figure5), we choose a
 coordinate system with its
-*x*-axis due east and its *y*-axis due north (parallel to $$ \vb{v}\_{\text{p}} $$).
+*x*-axis due east and its *y*-axis due north (parallel to $$ \vb{v}_{\text{p}} $$).
 (You may wish to look back at the discussion of the addition of vectors using
 perpendicular components
 in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
@@ -227,7 +227,7 @@ we have
 
 The minus sign indicates motion west which is consistent with the diagram.
 
-Now, to find $$ v\_{\text{w}\text{y}} $$ we note that
+Now, to find $$ v_{\text{w}\text{y}} $$ we note that
 
 <div class="equation">
  $$ v_{\text{tot}y}=v_{\text{w}y}+v_{\text{p}} $$
@@ -583,8 +583,8 @@ For part (a), use velocity and time to find displacement. For part (b), add the 
 **Given:**
 
 - Time: $$ t = 169 \text{ min} = 169 \times 60 = 10140 \s $$
-- Velocity relative to Earth: $$ v\_{ground} = 3.53 \ms $$ at $$ 45° $$ south of east
-- Headwind: $$ v\_{wind} = 2.00 \ms $$ (opposite to motion, so 45° north of west)
+- Velocity relative to Earth: $$ v_{ground} = 3.53 \ms $$ at $$ 45° $$ south of east
+- Headwind: $$ v_{wind} = 2.00 \ms $$ (opposite to motion, so 45° north of west)
 
 **(a) Total displacement relative to Earth:**
 
@@ -672,14 +672,14 @@ The seagull's velocity relative to the Earth is its velocity relative to the air
 $$ v_{ground} = \frac{d}{t} = \frac{6.00 \text{ km}}{20.0 \text{ min}} = \frac{6000 \m}{1200 \s} = 5.00 \ms $$
 </div>
 
-2. When flying into the wind: $$ v_{ground} = v_{bird} - v\_{wind} $$
+2. When flying into the wind: $$ v_{ground} = v_{bird} - v_{wind} $$
 <div class="equation">
 $$ v_{wind} = v_{bird} - v_{ground} = 9.00 \ms - 5.00 \ms = 4.00 \ms $$
 </div>
 
 **(b) Time to return with the wind:**
 
-1. When flying with the wind: $$ v_{return} = v_{bird} + v\_{wind} = 9.00 \ms + 4.00 \ms = 13.0 \ms $$
+1. When flying with the wind: $$ v_{return} = v_{bird} + v_{wind} = 9.00 \ms + 4.00 \ms = 13.0 \ms $$
 
 2. Calculate time:
 <div class="equation">
@@ -688,8 +688,8 @@ $$ t_{return} = \frac{d}{v_{return}} = \frac{6000 \m}{13.0 \ms} = 462 \s = 7.69 
 
 **(c) Effect of wind on total round-trip time:**
 
-- With wind: $$ t\_{total} = 20.0 \text{ min} + 7.69 \text{ min} = 27.7 \text{ min} $$
-- Without wind: $$ t\_{no wind} = \frac{2 \times 6000 \m}{9.00 \ms} = 1333 \s = 22.2 \text{ min} $$
+- With wind: $$ t_{total} = 20.0 \text{ min} + 7.69 \text{ min} = 27.7 \text{ min} $$
+- Without wind: $$ t_{no wind} = \frac{2 \times 6000 \m}{9.00 \ms} = 1333 \s = 22.2 \text{ min} $$
 
 **Discussion**
 
@@ -894,7 +894,7 @@ The ball's velocity relative to the quarterback equals the ball's velocity relat
 
 **Given:**
 
-- Quarterback's velocity: $$ v\_{QB} = 2.00 \ms $$ backward (negative forward direction)
+- Quarterback's velocity: $$ v_{QB} = 2.00 \ms $$ backward (negative forward direction)
 - Range: R = 18.0 m
 - Launch angle (relative to ground): $$ \theta_{g} = 25.0° $$
 
@@ -998,8 +998,8 @@ The ship's velocity relative to Earth is the vector sum of its velocity relative
 
 **Given:**
 
-- Ship velocity relative to water: $$ v\_{ship,water} = 7.00 \ms $$ due north
-- Current velocity: $$ v\_{current} = 1.50 \ms $$ at $$ 40.0° $$ north of east
+- Ship velocity relative to water: $$ v_{ship,water} = 7.00 \ms $$ due north
+- Current velocity: $$ v_{current} = 1.50 \ms $$ at $$ 40.0° $$ north of east
 
 **Step 1: Set up coordinate system**
 
@@ -1088,8 +1088,8 @@ The plane's velocity relative to Earth equals its velocity relative to air (airs
 
 **Given:**
 
-- Airspeed: $$ v\_{air} = 260 \ms $$ at $$ 5.0° $$ south of west
-- Wind velocity: $$ v\_{wind} = 35.0 \ms $$ at $$ 15° $$ south of east
+- Airspeed: $$ v_{air} = 260 \ms $$ at $$ 5.0° $$ south of west
+- Wind velocity: $$ v_{wind} = 35.0 \ms $$ at $$ 15° $$ south of east
 
 **(a) Velocity relative to Earth:**
 
@@ -1186,8 +1186,8 @@ To travel straight north relative to Earth, the ship must aim at an angle that c
 
 **Given:**
 
-- Ship speed relative to water: $$ v\_{ship,water} = 7.00 \ms $$
-- Current velocity: $$ v\_{current} = 1.50 \ms $$ at $$ 40.0° $$ north of east
+- Ship speed relative to water: $$ v_{ship,water} = 7.00 \ms $$
+- Current velocity: $$ v_{current} = 1.50 \ms $$ at $$ 40.0° $$ north of east
 - From previous exercise: $$ v_{current,x} = 1.15 \ms $$ (east), $$ v_{current,y} = 0.965 \ms $$ (north)
 
 **(a) Direction to travel:**
@@ -1375,7 +1375,7 @@ This is analogous to Example 3 (coin dropped in airplane). Relative to the ship,
 **Given:**
 
 - Height of mast: $$ h = 15.0 \m $$
-- Ship's velocity: $$ v\_{ship} = 1.75 \ms $$ due south
+- Ship's velocity: $$ v_{ship} = 1.75 \ms $$ due south
 - Initial velocity of sandal relative to ship: 0 m/s
 
 **(a) Velocity relative to the ship:**
@@ -1388,7 +1388,7 @@ Using the kinematic equation:
 $$ v_y^2 = v_{0y}^2 + 2gh $$
 </div>
 
-With $$ v\_{0y} = 0 $$:
+With $$ v_{0y} = 0 $$:
 
 <div class="equation">
 $$ v_y = \sqrt{2gh} = \sqrt{2(9.80 \mss)(15.0 \m)} = \sqrt{294 \mmss} = 17.1 \ms $$
@@ -1429,7 +1429,7 @@ Both observers see the sandal hit the deck at the base of the mast:
 
 - **Observer on shore:** Sees the sandal move:
   - Vertically: 15.0 m (same as ship observer)
-  - Horizontally: $$ d = v\_{ship} \times t = (1.75)(1.75) = 3.06 \m $$ south
+  - Horizontally: $$ d = v_{ship} \times t = (1.75)(1.75) = 3.06 \m $$ south
 
   But the ship (and therefore the base of the mast) also moves 3.06 m south during this time, so the sandal still lands at the base of the mast.
 
@@ -1557,7 +1557,7 @@ To find velocities relative to a different galaxy, subtract that galaxy's veloci
 
 - Galaxy 1: distance = 300 Mly, $$ v_1 = -4500 \text{ km/s} $$
 - Galaxy 2: distance = 150 Mly, $$ v_2 = -2200 \text{ km/s} $$
-- Milky Way (MW): distance = 0, $$ v\_{MW} = 0 \text{ km/s} $$
+- Milky Way (MW): distance = 0, $$ v_{MW} = 0 \text{ km/s} $$
 - Galaxy 4: distance = 190 Mly, $$ v_4 = 2830 \text{ km/s} $$
 - Galaxy 5: distance = 450 Mly, $$ v_5 = 6700 \text{ km/s} $$
 
@@ -1569,10 +1569,10 @@ Subtract Galaxy 2's velocity from each galaxy:
 $$ v_{rel} = v_{galaxy} - v_2 $$
 </div>
 
-- Galaxy 1: $$ v\_{1,rel} = -4500 - (-2200) = -2300 \text{ km/s} $$
-- Milky Way: $$ v\_{MW,rel} = 0 - (-2200) = 2200 \text{ km/s} $$
-- Galaxy 4: $$ v\_{4,rel} = 2830 - (-2200) = 5030 \text{ km/s} $$
-- Galaxy 5: $$ v\_{5,rel} = 6700 - (-2200) = 8900 \text{ km/s} $$
+- Galaxy 1: $$ v_{1,rel} = -4500 - (-2200) = -2300 \text{ km/s} $$
+- Milky Way: $$ v_{MW,rel} = 0 - (-2200) = 2200 \text{ km/s} $$
+- Galaxy 4: $$ v_{4,rel} = 2830 - (-2200) = 5030 \text{ km/s} $$
+- Galaxy 5: $$ v_{5,rel} = 6700 - (-2200) = 8900 \text{ km/s} $$
 
 Distances from Galaxy 2:
 
@@ -1589,10 +1589,10 @@ Subtract Galaxy 5's velocity from each galaxy:
 $$ v_{rel} = v_{galaxy} - v_5 $$
 </div>
 
-- Galaxy 1: $$ v\_{1,rel} = -4500 - 6700 = -11200 \text{ km/s} $$
-- Galaxy 2: $$ v\_{2,rel} = -2200 - 6700 = -8900 \text{ km/s} $$
-- Milky Way: $$ v\_{MW,rel} = 0 - 6700 = -6700 \text{ km/s} $$
-- Galaxy 4: $$ v\_{4,rel} = 2830 - 6700 = -3870 \text{ km/s} $$
+- Galaxy 1: $$ v_{1,rel} = -4500 - 6700 = -11200 \text{ km/s} $$
+- Galaxy 2: $$ v_{2,rel} = -2200 - 6700 = -8900 \text{ km/s} $$
+- Milky Way: $$ v_{MW,rel} = 0 - 6700 = -6700 \text{ km/s} $$
+- Galaxy 4: $$ v_{4,rel} = 2830 - 6700 = -3870 \text{ km/s} $$
 
 Distances from Galaxy 5:
 
@@ -1755,7 +1755,7 @@ The swimmer moves perpendicular to the current relative to the water. Use the ti
 **Given:**
 
 - River width (perpendicular distance): $$ w = 25 \m $$
-- Swimming speed (perpendicular to current): $$ v\_{swim} = 0.5 \ms $$
+- Swimming speed (perpendicular to current): $$ v_{swim} = 0.5 \ms $$
 - Downstream displacement: $$ d = 40 \m $$
 
 **Step 1: Find time to cross the river**
@@ -1778,8 +1778,8 @@ $$ v_{current} = \frac{d}{t} = \frac{40 \m}{50 \s} = 0.8 \ms $$
 
 The swimmer's velocity has two perpendicular components:
 
-- Perpendicular to shore (across river): $$ v\_{\perp} = 0.5 \ms $$
-- Parallel to shore (downstream): $$ v\_{\parallel} = 0.8 \ms $$
+- Perpendicular to shore (across river): $$ v_{\perp} = 0.5 \ms $$
+- Parallel to shore (downstream): $$ v_{\parallel} = 0.8 \ms $$
 
 Magnitude:
 
@@ -1922,16 +1922,16 @@ The puck must reach the goal, which is perpendicular to the player's path. The p
 
 **Given:**
 
-- Player velocity: $$ v\_{player} = 8.00 \ms $$ (assume moving north)
-- Puck speed relative to player: $$ v\_{puck,player} = 29.0 \ms $$
+- Player velocity: $$ v_{player} = 8.00 \ms $$ (assume moving north)
+- Puck speed relative to player: $$ v_{puck,player} = 29.0 \ms $$
 - Goal direction: 90° to player's path (east)
 
 **Step 1: Set up coordinate system**
 
 Let north be the y-axis and east be the x-axis.
 
-- Player velocity: $$ \vec{v}\_{player} = (0, 8.00) \ms $$
-- Goal is due east, so puck's velocity relative to ice must be purely eastward: $$ \vec{v}\_{puck,ice} = (v_x, 0) $$
+- Player velocity: $$ \vec{v}_{player} = (0, 8.00) \ms $$
+- Goal is due east, so puck's velocity relative to ice must be purely eastward: $$ \vec{v}_{puck,ice} = (v_x, 0) $$
 
 **Step 2: Use vector addition**
 
@@ -2163,18 +2163,18 @@ $$ \vec{v}_{wind} = \vec{v}_{ground} - \vec{v}_{plane} $$
 
 Plane (due east):
 
-- $$ v\_{plane,x} = 280 \ms $$ (east)
-- $$ v\_{plane,y} = 0 \ms $$
+- $$ v_{plane,x} = 280 \ms $$ (east)
+- $$ v_{plane,y} = 0 \ms $$
 
 Ground (5° south of east):
 
-- $$ v\_{ground,x} = 556 \cos(5°) = 556 \times 0.996 = 554 \ms $$ (east)
-- $$ v\_{ground,y} = -556 \sin(5°) = -556 \times 0.0872 = -48.5 \ms $$ (south)
+- $$ v_{ground,x} = 556 \cos(5°) = 556 \times 0.996 = 554 \ms $$ (east)
+- $$ v_{ground,y} = -556 \sin(5°) = -556 \times 0.0872 = -48.5 \ms $$ (south)
 
 Wind:
 
-- $$ v_{wind,x} = v_{ground,x} - v\_{plane,x} = 554 - 280 = 274 \ms $$ (east)
-- $$ v_{wind,y} = v_{ground,y} - v\_{plane,y} = -48.5 - 0 = -48.5 \ms $$ (south)
+- $$ v_{wind,x} = v_{ground,x} - v_{plane,x} = 554 - 280 = 274 \ms $$ (east)
+- $$ v_{wind,y} = v_{ground,y} - v_{plane,y} = -48.5 - 0 = -48.5 \ms $$ (south)
 
 Magnitude:
 
@@ -2190,15 +2190,13 @@ $$ \theta = \tan^{-1}\left(\frac{48.5}{274}\right) = \tan^{-1}(0.177) = 10.0° \
 
 **(c) What is unreasonable about these velocities?**
 
-Both velocities are **extremely unreasonable**:
+Both velocities are **extremely unreasonable** for the stated scenario:
 
 **Ground velocity (556 m/s = 2000 km/h):**
 
-- This is about **Mach 1.6** (1.6 times the speed of sound)
-- Commercial airplanes cruise at 800-900 km/h (Mach 0.75-0.85), not 2000 km/h
-- Only military jets and supersonic aircraft (like the retired Concorde at Mach 2) can achieve such speeds
-- Commercial planes cannot fly supersonically
-- At this speed, shock waves would destroy the aircraft
+- This ground speed follows from flying 3000 km in 1.50 h and is far above typical commercial cruise speeds (about 800–900 km/h)
+- Aerodynamic drag and shock behavior depend on **speed relative to the air**, not ground speed. The given **airspeed of 280 m/s** (about Mach 0.82 at sea level) is already near transonic speeds for a commercial jet
+- A very strong tailwind can make ground speed exceed the local speed of sound even when airspeed stays subsonic; the problem here is not that ground speed above sound is forbidden, but that the **required tailwind** is impossibly large
 
 **Wind velocity (278 m/s = 1000 km/h):**
 
@@ -2220,11 +2218,11 @@ This implies a ground speed of 2000 km/h, which is impossible for a commercial a
 - Increase the time to ~3.5-4.0 h for 3000 km
 - Use a supersonic military jet instead of a commercial airplane
 
-The airspeed of 280 m/s (1008 km/h) is also unreasonable for a "commercial airplane" but would be reasonable for a supersonic jet.
+The stated **airspeed of 280 m/s** (1008 km/h) is high for a typical commercial airliner (though not impossible in a strong tailwind scenario) and is already in a Mach-sensitive regime relative to the air.
 
 **Discussion**
 
-This problem demonstrates the importance of checking whether calculated results make physical sense. The ground speed of 556 m/s should immediately raise red flags - no commercial aircraft can fly at supersonic speeds. The calculated wind speed of 278 m/s is also physically impossible for Earth's atmosphere.
+This problem demonstrates the importance of checking whether calculated results make physical sense. The vector addition is correct, but the implied **278 m/s tailwind** is far beyond anything observed in Earth's atmosphere, and the distance–time data demand a ground speed no commercial flight could sustain. Mach number should be judged from airspeed, not ground speed alone.
 
 **Answer**
 
@@ -2232,9 +2230,9 @@ This problem demonstrates the importance of checking whether calculated results 
 
 (b) The tailwind velocity is **278 m/s** (1000 km/h) at **10° south of east**
 
-(c) Both velocities are unreasonably high. The ground speed is supersonic (Mach 1.6), which is impossible for commercial aircraft. The wind speed is 3-4 times stronger than the strongest jet streams ever recorded.
+(c) Both velocities are unreasonably high for this scenario. The required tailwind is many times stronger than the strongest jet streams ever recorded; the airspeed of 280 m/s is already transonic relative to the air.
 
-(d) The unreasonable premise is the distance-time relationship (3000 km in 1.50 h), which implies an impossible speed for a commercial airplane.
+(d) The unreasonable premise is the distance-time relationship (3000 km in 1.50 h) combined with the extreme tailwind needed to reconcile it with the given airspeed—not a prohibition on ground speed exceeding the speed of sound when a tailwind is present.
 
 ::::
 

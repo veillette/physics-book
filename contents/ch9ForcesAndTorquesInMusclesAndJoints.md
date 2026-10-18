@@ -62,7 +62,7 @@ $$ w_{\text{a}} $$, and its load is $$ w_{\text{b}} $$. Two of these are
 unknown ( $$ F_{\text{B}} $$ and $$ F_{\text{E}} $$), so that the first
 condition for equilibrium cannot by itself yield $$ F_{\text{B}} $$. But if we use the second condition and choose the pivot to be at
 the elbow, then the torque due to $$ F_{\text{E}} $$ is zero, and the only
-unknown becomes $$ F\_{\text{B}} $$.
+unknown becomes $$ F_{\text{B}} $$.
 
 **Solution**
 
@@ -407,10 +407,10 @@ We apply force equilibrium to analyze joint forces, recognizing that joints must
 Joint forces are large because **joints must counterbalance the large muscle forces** that arise from the MA < 1 lever systems.
 
 From force equilibrium in the forearm example:
-$$ F_{\text{biceps}} = F_{\text{joint}} + W\_{\text{load}} $$
+$$ F_{\text{biceps}} = F_{\text{joint}} + W_{\text{load}} $$
 
 Since $$ F_{\text{biceps}} >> W_{\text{load}} $$, the joint force must be:
-$$ F_{\text{joint}} = F_{\text{biceps}} - W\_{\text{load}} $$
+$$ F_{\text{joint}} = F_{\text{biceps}} - W_{\text{load}} $$
 
 **Can joint forces exceed muscle forces?** Yes! This happens when the geometry causes muscle forces and external loads to have components in the same direction relative to the joint.
 
@@ -533,7 +533,7 @@ $$ F_{\text{output}} = \text{MA} \times F_{\text{input}} = 0.105 \times 1000 \N 
 A biceps force of 1000 N can only lift about **105 N** (approximately 10.7 kg) at the hand!
 
 To lift 1000 N at the hand, we would need:
-$$ F\_{\text{biceps}} = \frac{1000 \N}{0.105} \approx 9500 \N $$
+$$ F_{\text{biceps}} = \frac{1000 \N}{0.105} \approx 9500 \N $$
 
 The biceps would need to exert nearly 9500 N—far more than its maximum capacity.
 
@@ -616,10 +616,10 @@ The physics:
 4. This creates a clockwise torque about the hips that must be countered by the back muscles
 
 From the posture diagram ([Figure 2](#Figure2)(b)):
-$$ \tau_{\text{forward mass}} = m_{\text{baby+uterus}} \cdot g \cdot d\_{\text{forward}} $$
+$$ \tau_{\text{forward mass}} = m_{\text{baby+uterus}} \cdot g \cdot d_{\text{forward}} $$
 
 This torque must be balanced by:
-$$ \tau_{\text{back muscles}} = F_{\text{back}} \cdot r\_{\text{back}} $$
+$$ \tau_{\text{back muscles}} = F_{\text{back}} \cdot r_{\text{back}} $$
 
 Since $$ r_{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F_{\text{back}} $$ must be very large.
 
@@ -731,13 +731,13 @@ From [Figure 5](#Figure5), each muscle exerts 200 N at an angle of 20° from ver
 
 For the left muscle (force at -20° from vertical):
 
-- Vertical component: $$ F\_{y,L} = (200 \N)\cos{20°} = (200)(0.940) = 188 \N $$
-- Horizontal component: $$ F\_{x,L} = -(200 \N)\sin{20°} = -(200)(0.342) = -68.4 \N $$ (leftward)
+- Vertical component: $$ F_{y,L} = (200 \N)\cos{20°} = (200)(0.940) = 188 \N $$
+- Horizontal component: $$ F_{x,L} = -(200 \N)\sin{20°} = -(200)(0.342) = -68.4 \N $$ (leftward)
 
 For the right muscle (force at +20° from vertical):
 
-- Vertical component: $$ F\_{y,R} = (200 \N)\cos{20°} = 188 \N $$
-- Horizontal component: $$ F\_{x,R} = +(200 \N)\sin{20°} = +68.4 \N $$ (rightward)
+- Vertical component: $$ F_{y,R} = (200 \N)\cos{20°} = 188 \N $$
+- Horizontal component: $$ F_{x,R} = +(200 \N)\sin{20°} = +68.4 \N $$ (rightward)
 
 Adding the components:
 
@@ -840,11 +840,11 @@ $$ \theta = \tan^{-1}\left(\frac{183}{-1041}\right) = \tan^{-1}(-0.176) = 180° 
 
 **Discussion**
 
-The kneecap exerts a force of approximately 1100 N on the femur at an angle of 190° (or 10° above the negative x-axis). This force is slightly less than the individual tendon tensions of 1250 N because the two tension forces partially cancel in the vertical direction. The kneecap functions as an anatomical pulley, changing the direction of the muscle force and providing mechanical advantage for leg extension. This force on the femur is substantial and explains why knee injuries and arthritis are common, especially in athletes who repeatedly subject their knees to high forces.
+The kneecap exerts a force of approximately 1100 N on the femur at an angle of 190° (or 10° below the negative x-axis). This force is slightly less than the individual tendon tensions of 1250 N because the two tension forces partially cancel in the vertical direction. The kneecap functions as an anatomical pulley, changing the direction of the muscle force and providing mechanical advantage for leg extension. This force on the femur is substantial and explains why knee injuries and arthritis are common, especially in athletes who repeatedly subject their knees to high forces.
 
 **Answer**
 
-The kneecap exerts a force of **1.1 × 10³ N** on the femur at an angle of **190° counterclockwise from the positive x-axis** (or 10° above the negative x-axis).
+The kneecap exerts a force of **1.1 × 10³ N** on the femur at an angle of **190° counterclockwise from the positive x-axis** (or 10° below the negative x-axis).
 
 :::
 
@@ -994,53 +994,41 @@ and the forearm is in a downward position.
 
 **Strategy**
 
-When the arm angle changes from 90° to 120°, the geometry of the system changes. The perpendicular lever arms for all forces change, and the direction of the biceps force relative to the forearm changes. We must recalculate the torques with these new lever arms.
+Keep the same idealization as [Figure 1](#Figure1): the biceps force remains **vertical**. When the forearm rotates to 120° between forearm and upper arm (30° below horizontal), the perpendicular lever arms of the vertical biceps force and of the vertically downward weights all acquire the same $$ \cos{30°} $$ factor about the elbow. Those factors cancel in the torque balance, so the required biceps force is unchanged from the 90° case.
 
 **Solution**
 
-From [Figure 1](#Figure1), at 90°:
+From [Figure 1](#Figure1):
 
-- Biceps attachment: $$ r_1 = 4.00 \text{ cm} $$
-- Forearm cg: $$ r_2 = 16.0 \text{ cm} $$
-- Book position: $$ r_3 = 38.0 \text{ cm} $$
+- Biceps attachment: $$ r_1 = 4.00 \text{ cm} = 0.0400 \m $$
+- Forearm cg: $$ r_2 = 16.0 \text{ cm} = 0.160 \m $$
+- Book position: $$ r_3 = 38.0 \text{ cm} = 0.380 \m $$
 - $$ w_a = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
 - $$ w_b = (4.00 \kg)(9.80 \mss) = 39.2 \N $$
 
-At 120° between forearm and upper arm (forearm pointing downward at 30° below horizontal):
-
-The weights still act vertically downward. The perpendicular lever arms (horizontal distances) become:
-
-- For weights: $$ r\_{2,\perp} = r_2 \cos{30°} = 0.160 \m \times 0.866 = 0.139 \m $$
-- For weights: $$ r\_{3,\perp} = r_3 \cos{30°} = 0.380 \m \times 0.866 = 0.329 \m $$
-
-The biceps force direction changes. When the forearm is at 120° from the upper arm, the biceps tendon makes approximately 30° with the forearm. The perpendicular component of the biceps force is:
-$$ F\_{B,\perp} = F_B \sin{30°} = 0.5 F_B $$
-
-And the effective lever arm remains $$ r_1 = 0.040 \m $$ (perpendicular distance to the line of action).
-
-For torque equilibrium about the elbow:
+At 90°, vertical $$ F_B $$ with horizontal lever arm $$ r_1 $$ gives
 
 <div class="equation">
-$$ F_B \sin{30°} \cdot r_1 = w_a \cdot r_{2,\perp} + w_b \cdot r_{3,\perp} $$
+$$ F_B r_1 = w_a r_2 + w_b r_3 $$
 </div>
+
+With the forearm 30° below horizontal, each vertical force’s perpendicular lever arm is multiplied by $$ \cos{30°} $$:
 
 <div class="equation">
-$$ F_B (0.5)(0.040 \m) = (24.5 \N)(0.139 \m) + (39.2 \N)(0.329 \m) $$
+$$ F_B (r_1 \cos{30°}) = w_a (r_2 \cos{30°}) + w_b (r_3 \cos{30°}) $$
 </div>
+
+Dividing by $$ \cos{30°} $$ recovers the same equation, so
 
 <div class="equation">
-$$ F_B (0.020 \m) = 3.41 \text{ N·m} + 12.9 \text{ N·m} = 16.3 \text{ N·m} $$
+$$ F_B = \frac{w_a r_2 + w_b r_3}{r_1} = \frac{(24.5 \N)(0.160 \m) + (39.2 \N)(0.380 \m)}{0.0400 \m} = 470 \N $$
 </div>
 
-<div class="equation">
-$$ F_B = \frac{16.3 \text{ N·m}}{0.020 \m} = 815 \N $$
-</div>
-
-The biceps force at 120° is approximately **815 N** (or $$ 8.2 \times 10^{2} \N $$).
+The biceps force at 120° is **470 N**, the same as at 90° for this vertical-force model.
 
 **Discussion**
 
-This is significantly larger than the 470 N required at 90°! The increase comes from two factors: (1) the biceps pulls at an angle to the forearm, reducing its effective lever arm, and (2) the weights' lever arms, while reduced by the cosine factor, still create substantial torque. This explains why holding a weight with the arm extended is more difficult than with the elbow bent at 90°.
+Changing the elbow angle tilts the forearm but, with vertical muscle and load forces, scales every lever arm by the same factor. The equilibrium biceps force therefore does not change unless the tendon direction or attachment geometry changes—which would need to be stated separately. Holding a weight with the arm extended can still *feel* harder in practice because real tendon angles and joint stabilization demands differ from this simplified diagram.
 
 :::
 
@@ -1223,7 +1211,7 @@ From [Figure 11](#Figure11):
 
 - Child's mass: $$ m_c = 10 \kg $$, at $$ r_c = 38 \text{ cm} = 0.38 \m $$ from knee
 - Leg mass: $$ m_{\text{leg}} = 4 \kg $$, at $$ r_{\text{leg}} = 20 \text{ cm} = 0.20 \m $$ from knee
-- Quadriceps attachment: approximately $$ r_q = 2.5 \text{ cm} = 0.025 \m $$ from knee (typical value)
+- Quadriceps effective perpendicular lever arm (from the figure): $$ r_q = 2.0 \text{ cm} = 0.0200 \m $$
 
 Calculate the weights:
 
@@ -1242,22 +1230,22 @@ $$ F_q \cdot r_q = W_c \cdot r_c + W_{\text{leg}} \cdot r_{\text{leg}} $$
 </div>
 
 <div class="equation">
-$$ F_q (0.025 \m) = (98 \N)(0.38 \m) + (39.2 \N)(0.20 \m) $$
+$$ F_q (0.0200 \m) = (98 \N)(0.38 \m) + (39.2 \N)(0.20 \m) $$
 </div>
 
 <div class="equation">
-$$ F_q (0.025 \m) = 37.2 \text{ N·m} + 7.84 \text{ N·m} = 45.0 \text{ N·m} $$
+$$ F_q (0.0200 \m) = 37.2 \text{ N·m} + 7.84 \text{ N·m} = 45.0 \text{ N·m} $$
 </div>
 
 <div class="equation">
-$$ F_q = \frac{45.0 \text{ N·m}}{0.025 \m} = 1800 \N $$
+$$ F_q = \frac{45.0 \text{ N·m}}{0.0200 \m} = 2250 \N \approx 2.3 \times 10^{3} \N $$
 </div>
 
-The quadriceps muscle must exert approximately **1800 N** (or $$ 1.8 \times 10^{3} \N $$).
+The quadriceps muscle must exert approximately **2.3 kN** (or $$ 2.3 \times 10^{3} \N $$).
 
 **Discussion**
 
-This is an impressive force—about 18 times the child's weight and about 13 times the combined weight of the child and leg! This illustrates the extreme mechanical disadvantage of the quadriceps muscle, which attaches very close to the knee joint. The father's leg muscles routinely handle such forces, which explains why the quadriceps is one of the largest and strongest muscles in the human body. This exercise is fun for the child but quite a workout for the father!
+This is an impressive force—about 23 times the child's weight and about 16 times the combined weight of the child and leg! This illustrates the extreme mechanical disadvantage of the quadriceps muscle, which attaches very close to the knee joint (2.0 cm lever arm in the figure). The father's leg muscles routinely handle such forces, which explains why the quadriceps is one of the largest and strongest muscles in the human body. This exercise is fun for the child but quite a workout for the father!
 
 :::
 
@@ -1579,10 +1567,10 @@ The ball hits at the top of the 2.0 m tree, creating a torque about the base. Th
 
 Taking the base of the tree as the pivot:
 
-- Force from ball: $$ F\_{\text{ball}} = 250 \N $$ at height $$ h = 2.0 \m $$
+- Force from ball: $$ F_{\text{ball}} = 250 \N $$ at height $$ h = 2.0 \m $$
 - Torque from ball: $$ \tau_{\text{ball}} = F_{\text{ball}} \times h = (250 \N)(2.0 \m) = 500 \text{ N·m} $$
 
-The root (at lever arm $$ r\_{\text{root}} = 0.20 \m $$) must provide equal opposing torque:
+The root (at lever arm $$ r_{\text{root}} = 0.20 \m $$) must provide equal opposing torque:
 
 <div class="equation">
 $$ F_{\text{root}} \times r_{\text{root}} = \tau_{\text{ball}} $$

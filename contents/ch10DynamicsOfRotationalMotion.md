@@ -228,7 +228,7 @@ Now, after we substitute the known values, we find the angular acceleration to b
 We expect the angular acceleration for the system to be less in this part,
 because the moment of inertia is greater when the child is on the
 merry-go-round. To find the total moment of inertia $$ I $$, we first find the
-child’s moment of inertia $$ I\_{\text{c}} $$ by considering the child to be
+child’s moment of inertia $$ I_{\text{c}} $$ by considering the child to be
 equivalent to a point mass at a distance of 1.25 m from the axis. Then,
 
 <div class="equation">
@@ -394,9 +394,32 @@ reduction in the mass of the bicycle’s frame?
 ::: problem
 
 A ball slides up a frictionless ramp.
-It is then rolled without slipping and with the same initial velocity up another
-frictionless ramp (with the same slope angle).
+It is then rolled without slipping, with the same initial translational speed,
+up another ramp with the same slope angle. The second ramp is **rough enough
+for rolling without slipping**, with negligible rolling resistance (unlike the
+first ramp, which is frictionless).
 In which case does it reach a greater height, and why?
+
+:::
+
+::: solution
+
+On the **frictionless** ramp, the ball **slides**: at the bottom its kinetic
+energy is $$ \frac{1}{2}mv^{2} $$, and that translational energy converts to
+gravitational potential energy. If the ball were instead **rolling** onto a
+frictionless incline with the same translational speed, neither gravity nor
+the normal force would exert a torque about its center, so $$ \omega $$ would
+stay fixed, $$ v $$ would decrease, and rolling without slipping would not be
+maintained; the maximum height would still be set by the same translational
+speed alone, so sliding and that frictionless rolling case give the **same**
+height for the same $$ v $$.
+
+On the **rough** second ramp, static friction can enforce $$ v = r\omega $$ while
+the ball climbs, so both translational and rotational kinetic energy can convert
+to potential energy. With the same initial translational speed at the bottom,
+the rolling ball therefore reaches a **greater** height than the sliding ball on
+the frictionless ramp. Negligible rolling resistance means dissipation is small,
+but friction is not zero—it is what allows the rolling constraint.
 
 :::
 
@@ -493,6 +516,7 @@ Notice that applying a larger force (300 N vs 250 N) at a slightly smaller radiu
 Calculate the moment of inertia of a skater given the following information.
 (a) The 60.0-kg skater is approximated as a cylinder that has a 0.110-m radius.
 (b) The skater with arms extended is approximately a cylinder that is 52.5 kg, has a 0.110-m radius, and has two 0.900-m-long arms which are 3.75 kg each and extend straight out from the cylinder like rods rotated about their ends.
+In this model, **neglect the torso-radius offset**: treat each arm as pivoted on the body axis (use $$ I=\frac{1}{3}mL^{2} $$ about that axis), not as starting at the cylinder surface. (Including the 0.110 m offset would raise the extended-arm inertia from 2.34 to about 3.18 kg·m².)
 
 :::
 
@@ -500,7 +524,7 @@ Calculate the moment of inertia of a skater given the following information.
 
 **Strategy**
 
-We calculate the moment of inertia using the formulas for standard shapes. For part (a), we use the formula for a solid cylinder rotating about its central axis: I = ½MR². For part (b), we add the moment of inertia of the cylinder (body) to the moments of inertia of the two arms, treating each arm as a rod rotating about one end: I = ⅓ML².
+We calculate the moment of inertia using the formulas for standard shapes. For part (a), we use the formula for a solid cylinder rotating about its central axis: I = ½MR². For part (b), we add the cylinder (body) to the two arms, treating each arm as a rod pivoted on the **body axis** (neglecting the 0.110 m torso radius): I = ⅓ML².
 
 **Solution**
 
@@ -966,30 +990,6 @@ these rotations.
 
 ::: solution
 
-$$ \begin{array}{c}
-I_\text{end}= I_{\text{center}}+m \left(\frac{l}{2}\right)^{2}\\
-\text{Thus,} I_{\text{center}}= I_{\text{end}}-\frac{1}{4}m l^{2} =\frac{1}
-{3}m l^{2} -\frac{1}{4}m l^{2} =\frac{1}{12} m l^{2}
-\end{array} $$
-
-:::
-
-</div>
-
-<div class="exercise" data-element-type="problems-exercises">
-
-::: problem
-
-Starting with the formula for the moment of inertia of a rod rotated around an axis through one end perpendicular to its length
-$$ \left(I=M\ell^{2}/3\right) $$, prove that the moment of inertia of a rod rotated about an axis through its
-center perpendicular to its length is $$I= M\ell^{2}/12 $$.
-You will find the graphics in [Figure 3](#Figure3) useful in visualizing
-these rotations.
-
-:::
-
-::: solution
-
 **Strategy**
 
 We can use the parallel axis theorem to relate the moment of inertia about an axis through the end of the rod to the moment of inertia about an axis through the center. The parallel axis theorem states that $$ I = I_{\text{center}} + Md^{2} $$, where d is the distance between the parallel axes. For a rod of length ℓ, the distance from the center to the end is ℓ/2.
@@ -1137,32 +1137,21 @@ $$ \omega^{2} = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} 
 $$ \omega = 1834 \text{ rad/s} = 1834 \times \frac{60}{2\pi} \text{ rpm} = 17,500 \text{ rpm} $$
 </div>
 
-**(b)** This angular velocity is unreasonably high. At the edge of the disk (r = 0.150 m), the centripetal acceleration would be:
+**(b)** The required **17,500 rpm** ($$ \omega \approx 1.84 \times 10^{3} \text{ rad/s} $$) is demanding but not, by itself, proof that this disk must fail. Laboratory energy-storage flywheels have been tested at tens of thousands of rpm; whether **this** 20.0-kg, 0.150-m-radius disk is safe depends on material strength, rim speed, mounting, and duty cycle—none of which are given. At the rim, $$ a_c = \omega^{2} r \approx 5.0 \times 10^{5} \text{ m/s}^2 $$, a large centripetal demand that must be compared to an allowable stress or rim-speed limit before declaring failure.
 
-<div class="equation">
-$$ a_c = \omega^{2} r = (1834)^2(0.150) = 5.04 \times 10^5 \text{ m/s}^2 = 51,400g $$
-</div>
-
-This is over 50,000 times the acceleration due to gravity. No ordinary material could withstand such forces without flying apart. Additionally, 17,500 rpm is far beyond typical flywheel speeds.
-
-**(c)** The flywheel is much too small and light to store enough energy at reasonable rotation speeds. To store this much energy safely, the flywheel would need either:
-- Much greater mass (hundreds of kg instead of 20 kg), or
-- Much larger radius (0.5-1.0 m instead of 0.15 m), or
-- Both
-
-A realistic flywheel for this application might be 200 kg with a 0.5 m radius, which would require only about 2,000 rpm—still high but achievable with proper materials and engineering.
+**(c)** The **inconsistent premise** is expecting a **small, light** flywheel to deliver 95% of the energy needed to accelerate an 800-kg car to 30.0 m/s without specifying materials or safety margins. A design study would need rim-speed limits, burst containment, bearings rated for continuous operation, and often much greater mass or radius—or a lower claimed fraction of the car’s kinetic energy.
 
 **Discussion**
 
-This problem demonstrates the challenges of energy storage in flywheels. While flywheels can store substantial energy, the limits of material strength constrain their design. Modern high-performance flywheels use composite materials and operate in vacuum chambers, but even these have practical limits well below what would cause 50,000 g accelerations.
+The arithmetic in part (a) is consistent with the stated 95% transfer. Interpreting the result means discussing **engineering requirements** (material, geometry, controls, enclosure) rather than treating rpm alone as a failure criterion. Larger, heavier flywheels, or accepting a smaller energy fraction, are the usual ways to make onboard storage plausible.
 
 **Answer**
 
-(a) The flywheel would need to spin at **1834 rad/s** (about **17,500 rpm**).
+(a) The flywheel would need to spin at **$$ 1.84 \times 10^{3} \text{ rad/s} $$** (about **17,500 rpm**).
 
-(b) This is unreasonably fast—it would produce over 50,000 g acceleration that would destroy the flywheel.
+(b) High rpm and rim acceleration show the design is **stressful**, but failure is **not established** without a material or rim-speed constraint.
 
-(c) The flywheel is too small and light to store the required energy at achievable speeds; it would need to be much larger (0.5-1.0 m radius) and heavier (200+ kg).
+(c) The ad’s claim is **inconsistent** with a 20.0-kg, 0.150-m disk unless additional engineering specifications make that combination feasible.
 
 :::
 

@@ -612,11 +612,11 @@ $$T^2 = \frac{4\pi^{2} r^3}{GM} = \frac{4\pi^{2} (5.68 \times 10^{20})^3}{(6.67 
 </div>
 
 <div class="equation">
-$$T^2 = \frac{7.25 \times 10^{63}}{1.06 \times 10^{32}} = 6.84 \times 10^{31}\text{ s}^2$$
+$$T^2 = \frac{7.21 \times 10^{63}}{1.06 \times 10^{32}} = 6.79 \times 10^{31}\text{ s}^2$$
 </div>
 
 <div class="equation">
-$$T = 2.62 \times 10^{15}\text{ s} = 2.62 \times 10^{15}\text{ s} \times \frac{1\text{ y}}{3.156 \times 10^7\text{ s}} = 8.3 \times 10^{7}\text{ years}$$
+$$T = 8.24 \times 10^{15}\text{ s} = 8.24 \times 10^{15}\text{ s} \times \frac{1\text{ y}}{3.156 \times 10^7\text{ s}} = 2.6 \times 10^{8}\text{ years}$$
 </div>
 
 (b) If the actual period is$$6.0 \times 10^7$$years, calculate the implied mass:
@@ -628,14 +628,14 @@ $$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (5.68 \times 10^{20})^3}{(6.6
 </div>
 
 <div class="equation">
-$$M = \frac{7.25 \times 10^{63}}{2.38 \times 10^{31}} = 3.05 \times 10^{42}\text{ kg}$$
+$$M = \frac{7.21 \times 10^{63}}{2.38 \times 10^{20}} = 3.03 \times 10^{43}\text{ kg}$$
 </div>
 
-Convert to solar masses:$$M = \frac{3.05 \times 10^{42}}{1.99 \times 10^{30}} = 1.5 \times 10^{12}$$solar masses
+Convert to solar masses:$$M = \frac{3.03 \times 10^{43}}{1.99 \times 10^{30}} = 1.5 \times 10^{13}$$solar masses
 
 **Discussion**
 
-(a) Based on the observed mass of$$8.0 \times 10^{11}$$solar masses, the star should have an orbital period of about$$8.3 \times 10^7$$years. (b) However, if the actual observed period is$$6.0 \times 10^7$$years (faster than expected), this implies the galaxy has a mass of about$$1.5 \times 10^{12}$$solar masses - nearly twice the visible mass. This discrepancy is evidence for "dark matter" - matter that doesn't emit light but exerts gravitational force. Such calculations have revolutionized our understanding of galactic structure and the composition of the universe.
+(a) For an enclosed mass of$$8.0 \times 10^{11}$$solar masses, Kepler's law gives an orbital period of about$$2.6 \times 10^{8}$$years for a star at$$6.0 \times 10^{4}$$light years. (b) If the observed period is instead$$6.0 \times 10^{7}$$years (much shorter), the enclosed mass must be about$$1.5 \times 10^{13}$$solar masses—nearly twenty times the stated visible mass. Discrepancies of this kind motivated the inference of additional, non-luminous mass ("dark matter") in galaxies. Such calculations have revolutionized our understanding of galactic structure and the composition of the universe.
 
 ::::
 

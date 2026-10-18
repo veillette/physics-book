@@ -479,7 +479,7 @@ spatula and his Teflon frying pan is only 0.200 N. Knowing the coefficient of ki
 
 **Strategy**
 
-We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is$$\mu\_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
+We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is$$\mu_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
 
 **Solution**
 
@@ -565,7 +565,7 @@ The magnitude of the normal force between the piston and cylinder is$$1000 \N$$o
 
 **Strategy**
 
-The knee joint is lubricated by synovial fluid. From Table 1, the coefficient of friction for bone lubricated by synovial fluid is$$\mu_{\s} = 0.016$$. The normal force in the joint equals the weight supported, and the maximum friction force is found using$$f_{\s(\text{max})} = \mu\_{\s} \mag{N}$$.
+The knee joint is lubricated by synovial fluid. From Table 1, the coefficient of friction for bone lubricated by synovial fluid is$$\mu_{\s} = 0.016$$. The normal force in the joint equals the weight supported, and the maximum friction force is found using$$f_{\s(\text{max})} = \mu_{\s} \mag{N}$$.
 
 **Solution**
 
@@ -754,9 +754,9 @@ By Newton's third law, when the dogs push backward on the snow with 185 N each, 
 
 First, identify the masses:
 
-- Total mass of dogs:$$m\_{\text{dogs}} = 8 \times 19.0 \kg = 152 \kg$$
-- Mass of sled with rider:$$m\_{\text{sled}} = 210 \kg$$
-- Total system mass:$$m\_{\text{total}} = 152 \kg + 210 \kg = 362 \kg$$
+- Total mass of dogs:$$m_{\text{dogs}} = 8 \times 19.0 \kg = 152 \kg$$
+- Mass of sled with rider:$$m_{\text{sled}} = 210 \kg$$
+- Total system mass:$$m_{\text{total}} = 152 \kg + 210 \kg = 362 \kg$$
 
 (a) Starting from rest (static friction):
 
@@ -854,7 +854,7 @@ We use vector addition to find the total force from the two perpendicular forces
 
 **Solution**
 
-(a) Find the magnitude and direction of$$\vb{F}\_{\text{tot}}$$:
+(a) Find the magnitude and direction of$$\vb{F}_{\text{tot}}$$:
 
 1. Since$$F_1$$and$$F_2$$are perpendicular, use the Pythagorean theorem:
 <div class="equation">
@@ -936,8 +936,8 @@ We analyze the forces on an object on a frictionless incline using a coordinate 
    - Normal force:$$\mag{N}$$(perpendicular to the incline surface)
 
 2. Decompose the weight into components relative to the incline:
-   - Perpendicular to incline:$$w\_\perp = mg\cos\theta$$
-   - Parallel to incline (down the slope):$$w\_\parallel = mg\sin\theta$$
+   - Perpendicular to incline:$$w_\perp = mg\cos\theta$$
+   - Parallel to incline (down the slope):$$w_\parallel = mg\sin\theta$$
 
 3. Apply Newton's second law perpendicular to the incline:
 <div class="equation">
@@ -991,11 +991,11 @@ We follow the same approach as the previous problem, but now include kinetic fri
 1. Identify the forces on the object:
    - Weight:$$w = mg$$(directed straight down)
    - Normal force:$$\mag{N}$$(perpendicular to the incline surface)
-   - Kinetic friction:$$f\_{\text{k}}$$(parallel to incline, opposing motion, so directed up the slope)
+   - Kinetic friction:$$f_{\text{k}}$$(parallel to incline, opposing motion, so directed up the slope)
 
 2. Decompose the weight into components:
-   - Perpendicular to incline:$$w\_\perp = mg\cos\theta$$
-   - Parallel to incline (down the slope):$$w\_\parallel = mg\sin\theta$$
+   - Perpendicular to incline:$$w_\perp = mg\cos\theta$$
+   - Parallel to incline (down the slope):$$w_\parallel = mg\sin\theta$$
 
 3. Apply Newton's second law perpendicular to the incline:
 <div class="equation">
@@ -1031,7 +1031,7 @@ $$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$
 
 **Discussion**
 
-The acceleration down an incline with friction is$$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$. This result is independent of mass because both the gravitational force component and the friction force are proportional to mass. When$$\mu_{\text{k}} = 0$$(no friction), the equation reduces to$$a = g\sin\theta$$, matching the frictionless case from the previous problem. If friction is large enough that$$\mu\_{\text{k}}\cos\theta > \sin\theta$$, the acceleration would be negative, meaning the object would decelerate (as when going up a slope) or wouldn't slide at all without an initial push.
+The acceleration down an incline with friction is$$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$. This result is independent of mass because both the gravitational force component and the friction force are proportional to mass. When$$\mu_{\text{k}} = 0$$(no friction), the equation reduces to$$a = g\sin\theta$$, matching the frictionless case from the previous problem. If friction is large enough that$$\mu_{\text{k}}\cos\theta > \sin\theta$$, the acceleration would be negative, meaning the object would decelerate (as when going up a slope) or wouldn't slide at all without an initial push.
 
 ::::
 
@@ -1053,13 +1053,13 @@ steps in [Problem-Solving Strategies](./ch4ProblemSolvingStrategies).
 
 **Strategy**
 
-When going uphill, both gravity and friction act to slow the snowboarder down. The component of gravity parallel to the slope points downhill (opposing uphill motion), and kinetic friction also opposes the uphill motion (so it also points downhill). From Table 1, for waxed wood on wet snow:$$\mu\_{\text{k}} = 0.1$$.
+When going uphill, both gravity and friction act to slow the snowboarder down. The component of gravity parallel to the slope points downhill (opposing uphill motion), and kinetic friction also opposes the uphill motion (so it also points downhill). From Table 1, for waxed wood on wet snow:$$\mu_{\text{k}} = 0.1$$.
 
 **Solution**
 
 1. Draw a free-body diagram with forces:
-   - Weight component parallel to slope:$$w\_\parallel = mg\sin\theta$$(down the slope)
-   - Weight component perpendicular to slope:$$w\_\perp = mg\cos\theta$$
+   - Weight component parallel to slope:$$w_\parallel = mg\sin\theta$$(down the slope)
+   - Weight component perpendicular to slope:$$w_\perp = mg\cos\theta$$
    - Normal force:$$\mag{N} = mg\cos\theta$$
    - Kinetic friction:$$f_{\text{k}} = \mu_{\text{k}}\mag{N}$$(down the slope, opposing uphill motion)
 
@@ -1078,7 +1078,7 @@ $$-mg\sin\theta - \mu_{\text{k}}mg\cos\theta = ma$$
 $$a = -g(\sin\theta + \mu_{\text{k}}\cos\theta)$$
 </div>
 
-5. Substitute values ($$\theta = 5.0°$$,$$\mu\_{\text{k}} = 0.1$$,$$g = 9.80 \mss$$):
+5. Substitute values ($$\theta = 5.0°$$,$$\mu_{\text{k}} = 0.1$$,$$g = 9.80 \mss$$):
 <div class="equation">
 $$a = -(9.80 \mss)(\sin 5.0° + 0.1 \cos 5.0°)$$
 </div>
@@ -1137,7 +1137,7 @@ For part (a), we use the result derived earlier:$$a = g(\sin\theta - \mu_{\text{
 $$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$
 </div>
 
-2. Substitute values ($$\theta = 10.0°$$,$$\mu\_{\text{k}} = 0.1$$,$$g = 9.80 \mss$$):
+2. Substitute values ($$\theta = 10.0°$$,$$\mu_{\text{k}} = 0.1$$,$$g = 9.80 \mss$$):
 <div class="equation">
 $$a = (9.80 \mss)(\sin 10.0° - 0.1 \cos 10.0°)$$
 </div>
@@ -1182,7 +1182,7 @@ $$\theta = \tan^{-1}(0.1) = 5.71°$$
 
 **Discussion**
 
-The skier accelerates at$$0.736 \mss$$on the$$10.0°$$slope. To coast at constant velocity, the skier would need a slope of$$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship$$\tan\theta = \mu\_{\text{k}}$$provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
+The skier accelerates at$$0.736 \mss$$on the$$10.0°$$slope. To coast at constant velocity, the skier would need a slope of$$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship$$\tan\theta = \mu_{\text{k}}$$provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
 
 ::::
 
@@ -1206,10 +1206,10 @@ For an object at rest on an incline at the verge of slipping, static friction ha
 **Solution**
 
 1. Identify forces on the object at rest on the incline:
-   - Weight component parallel to slope (down):$$w\_\parallel = mg\sin\theta$$
-   - Weight component perpendicular to slope:$$w\_\perp = mg\cos\theta$$
+   - Weight component parallel to slope (down):$$w_\parallel = mg\sin\theta$$
+   - Weight component perpendicular to slope:$$w_\perp = mg\cos\theta$$
    - Normal force:$$\mag{N} = mg\cos\theta$$
-   - Static friction (up the slope, opposing tendency to slide):$$f\_{\s}$$
+   - Static friction (up the slope, opposing tendency to slide):$$f_{\s}$$
 
 2. Apply Newton's second law parallel to the incline with$$a = 0$$:
 <div class="equation">
@@ -1250,7 +1250,7 @@ $$\theta_{\text{max}} = \tan^{-1}(\mu_{\s})$$
 
 **Discussion**
 
-The maximum angle at which an object can rest on an incline without sliding is$$\theta = \tan^{-1}(\mu_{\s})$$. This result is independent of the object's mass. For angles less than this, static friction is sufficient to prevent sliding. For angles greater than this, the object will begin to slide. This relationship provides a practical method for measuring the coefficient of static friction: tilt a surface until an object just begins to slide, then$$\mu_{\s} = \tan\theta\_{\text{critical}}$$.
+The maximum angle at which an object can rest on an incline without sliding is$$\theta = \tan^{-1}(\mu_{\s})$$. This result is independent of the object's mass. For angles less than this, static friction is sufficient to prevent sliding. For angles greater than this, the object will begin to slide. This relationship provides a practical method for measuring the coefficient of static friction: tilt a surface until an object just begins to slide, then$$\mu_{\s} = \tan\theta_{\text{critical}}$$.
 
 ::::
 
@@ -1297,7 +1297,7 @@ $$a = g(\mu_{\s}\cos\theta - \sin\theta)$$
 
 With$$\theta = 6°$$:$$\sin 6° = 0.1045$$,$$\cos 6° = 0.9945$$
 
-(a) On dry concrete ($$\mu\_{\s} = 1.0$$):
+(a) On dry concrete ($$\mu_{\s} = 1.0$$):
 
 <div class="equation">
 $$a = (9.80 \mss)(1.0 \times 0.9945 - 0.1045)$$
@@ -1307,7 +1307,7 @@ $$a = (9.80 \mss)(1.0 \times 0.9945 - 0.1045)$$
 $$a = (9.80 \mss)(0.9945 - 0.1045) = (9.80 \mss)(0.890) = 8.72 \mss$$
 </div>
 
-(b) On wet concrete ($$\mu\_{\s} = 0.7$$):
+(b) On wet concrete ($$\mu_{\s} = 0.7$$):
 
 <div class="equation">
 $$a = (9.80 \mss)(0.7 \times 0.9945 - 0.1045)$$
@@ -1317,7 +1317,7 @@ $$a = (9.80 \mss)(0.7 \times 0.9945 - 0.1045)$$
 $$a = (9.80 \mss)(0.6962 - 0.1045) = (9.80 \mss)(0.592) = 5.80 \mss$$
 </div>
 
-(c) On ice ($$\mu\_{\s} = 0.100$$):
+(c) On ice ($$\mu_{\s} = 0.100$$):
 
 <div class="equation">
 $$a = (9.80 \mss)(0.100 \times 0.9945 - 0.1045)$$
@@ -1383,7 +1383,7 @@ $$a = g\left(\frac{1}{2}\mu_{\s}\cos\theta - \sin\theta\right)$$
 
 With$$\theta = 4°$$:$$\sin 4° = 0.0698$$,$$\cos 4° = 0.9976$$
 
-(a) On dry concrete ($$\mu\_{\s} = 1.0$$):
+(a) On dry concrete ($$\mu_{\s} = 1.0$$):
 
 <div class="equation">
 $$a = (9.80 \mss)\left(\frac{1}{2}(1.0)(0.9976) - 0.0698\right)$$
@@ -1393,7 +1393,7 @@ $$a = (9.80 \mss)\left(\frac{1}{2}(1.0)(0.9976) - 0.0698\right)$$
 $$a = (9.80 \mss)(0.4988 - 0.0698) = (9.80 \mss)(0.429) = 4.20 \mss$$
 </div>
 
-(b) On wet concrete ($$\mu\_{\s} = 0.7$$):
+(b) On wet concrete ($$\mu_{\s} = 0.7$$):
 
 <div class="equation">
 $$a = (9.80 \mss)\left(\frac{1}{2}(0.7)(0.9976) - 0.0698\right)$$
@@ -1403,7 +1403,7 @@ $$a = (9.80 \mss)\left(\frac{1}{2}(0.7)(0.9976) - 0.0698\right)$$
 $$a = (9.80 \mss)(0.3492 - 0.0698) = (9.80 \mss)(0.279) = 2.74 \mss$$
 </div>
 
-(c) On ice ($$\mu\_{\s} = 0.100$$):
+(c) On ice ($$\mu_{\s} = 0.100$$):
 
 <div class="equation">
 $$a = (9.80 \mss)\left(\frac{1}{2}(0.100)(0.9976) - 0.0698\right)$$
@@ -1461,7 +1461,7 @@ $$a = g(\mu_{\s}\cos\theta - \sin\theta)$$
 
 With$$\theta = 4°$$:$$\sin 4° = 0.0698$$,$$\cos 4° = 0.9976$$
 
-(a) On dry concrete ($$\mu\_{\s} = 1.0$$):
+(a) On dry concrete ($$\mu_{\s} = 1.0$$):
 
 <div class="equation">
 $$a = (9.80 \mss)(1.0 \times 0.9976 - 0.0698)$$
@@ -1471,7 +1471,7 @@ $$a = (9.80 \mss)(1.0 \times 0.9976 - 0.0698)$$
 $$a = (9.80 \mss)(0.9976 - 0.0698) = (9.80 \mss)(0.928) = 9.09 \mss$$
 </div>
 
-(b) On wet concrete ($$\mu\_{\s} = 0.7$$):
+(b) On wet concrete ($$\mu_{\s} = 0.7$$):
 
 <div class="equation">
 $$a = (9.80 \mss)(0.7 \times 0.9976 - 0.0698)$$
@@ -1481,7 +1481,7 @@ $$a = (9.80 \mss)(0.7 \times 0.9976 - 0.0698)$$
 $$a = (9.80 \mss)(0.6983 - 0.0698) = (9.80 \mss)(0.629) = 6.16 \mss$$
 </div>
 
-(c) On ice ($$\mu\_{\s} = 0.100$$):
+(c) On ice ($$\mu_{\s} = 0.100$$):
 
 <div class="equation">
 $$a = (9.80 \mss)(0.100 \times 0.9976 - 0.0698)$$
@@ -1623,7 +1623,7 @@ and the cliff?
 
 **Strategy**
 
-The climber is in equilibrium, so the sum of forces in both horizontal and vertical directions must be zero. The rope makes an angle of 31° with the vertical cliff. The leg force is directed 15° from the vertical cliff (into the cliff). We decompose all forces into horizontal and vertical components and solve the system of equations.
+The climber is in equilibrium, so the sum of forces in both horizontal and vertical directions must be zero. As shown in [Figure 8](#Figure8), the rope makes an angle of 31° with the vertical cliff, and the legs (and the force they exert) lie 15° above the horizontal on the vertical rock face. We resolve the tension and leg force into components perpendicular to the cliff (horizontal) and along the cliff (vertical).
 
 **Solution**
 
@@ -1631,7 +1631,7 @@ Define the forces:
 
 - Weight:$$w = mg = (52.0 \kg)(9.80 \mss) = 509.6 \N$$(downward)
 - Tension:$$T$$at 31° from vertical (away from cliff)
-- Leg force:$$F\_{\text{leg}}$$at 15° from vertical (into cliff)
+- Leg force:$$F_{\text{leg}}$$parallel to the legs, directed into the cliff
 - Normal force from cliff:$$\mag{N}$$(horizontal, away from cliff)
 - Friction:$$f$$(vertical, upward along cliff)
 
@@ -1640,82 +1640,66 @@ Define the forces:
 Horizontal (positive = away from cliff):
 
 <div class="equation">
-$$T\sin 31° - F_{\text{leg}}\sin 15° = 0$$
+$$T\sin 31° = F_{\text{leg}}\cos 15°$$
 </div>
 
 Vertical (positive = upward):
 
 <div class="equation">
-$$T\cos 31° + f - w = 0$$
+$$T\cos 31° + F_{\text{leg}}\sin 15° = w$$
 </div>
 
-For the leg force, the component into the cliff provides the normal force:
+For the leg force at 15° above the horizontal on the cliff, the component into the cliff is the normal force and the component along the cliff (upward) is friction:
 
 <div class="equation">
-$$\mag{N} = F_{\text{leg}}\sin 15°$$
+$$\mag{N} = F_{\text{leg}}\cos 15°$$
 </div>
 
-And the component along the cliff provides friction:
-
 <div class="equation">
-$$f = F_{\text{leg}}\cos 15°$$
+$$f = F_{\text{leg}}\sin 15°$$
 </div>
 
 From the horizontal equation:
 
 <div class="equation">
-$$T\sin 31° = F_{\text{leg}}\sin 15°$$
-</div>
-
-<div class="equation">
-$$T = F_{\text{leg}}\frac{\sin 15°}{\sin 31°} = F_{\text{leg}}\frac{0.2588}{0.5150} = 0.5025 F_{\text{leg}}$$
+$$T = F_{\text{leg}}\frac{\cos 15°}{\sin 31°}$$
 </div>
 
 Substituting into the vertical equation:
 
 <div class="equation">
-$$(0.5025 F_{\text{leg}})\cos 31° + F_{\text{leg}}\cos 15° = w$$
+$$F_{\text{leg}}\left(\frac{\cos 15°\cos 31°}{\sin 31°} + \sin 15°\right) = w$$
 </div>
 
 <div class="equation">
-$$F_{\text{leg}}(0.5025 \times 0.8572 + 0.9659) = 509.6 \N$$
-</div>
-
-<div class="equation">
-$$F_{\text{leg}}(0.4307 + 0.9659) = 509.6 \N$$
-</div>
-
-<div class="equation">
-$$F_{\text{leg}} = \frac{509.6 \N}{1.397} = 365 \N$$
+$$F_{\text{leg}} = \frac{509.6 \N}{1.865} = 273 \N$$
 </div>
 
 Now find the tension:
 
 <div class="equation">
-$$T = 0.5025 \times 365 \N = 183 \N$$
+$$T = (273 \N)\frac{\cos 15°}{\sin 31°} = 512 \N$$
 </div>
 
 (b) Minimum coefficient of friction:
 
-Calculate the normal force and friction:
-
 <div class="equation">
-$$\mag{N} = F_{\text{leg}}\sin 15° = (365 \N)(0.2588) = 94.5 \N$$
+$$\mag{N} = F_{\text{leg}}\cos 15° = (273 \N)(0.9659) = 264 \N$$
 </div>
 
 <div class="equation">
-$$f = F_{\text{leg}}\cos 15° = (365 \N)(0.9659) = 353 \N$$
+$$f = F_{\text{leg}}\sin 15° = (273 \N)(0.2588) = 70.6 \N$$
 </div>
 
-The minimum coefficient of friction:
+The minimum coefficient of static friction:
 
 <div class="equation">
-$$\mu_{\s(\text{min})} = \frac{f}{\mag{N}} = \frac{353 \N}{94.5 \N} = 3.73$$
+$$\mu_{\s(\text{min})} = \frac{f}{\mag{N}} = \frac{\sin 15°}{\cos 15°} = \tan 15° = 0.268$$
 </div>
 
 **Discussion**
 
-The tension in the rope is$$183 \N$$and the leg force is$$365 \N$$. The minimum coefficient of friction required is$$3.73$$. This very high coefficient (much greater than typical rubber on rock values around 0.6-0.8) indicates that this climbing position requires specialized climbing shoes with very high friction, or more realistically, that the climber must also use arm strength or adjust her position. The geometry of the problem (shallow leg angle) creates a situation where most of the leg force goes into friction rather than normal force, demanding an unusually high friction coefficient.
+The tension in the rope is$$512 \N$$and the leg force is$$273 \N$$. The minimum coefficient of friction required is$$\mu_{\s(\text{min})} = 0.268$$, a value within the range for rubber on rock. Most of the leg force goes into the normal force (into the cliff), with a smaller component along the cliff balanced by friction, which is why$$\mu_{\s(\text{min})}$$equals$$\tan 15°$$.
 
 ::::
 

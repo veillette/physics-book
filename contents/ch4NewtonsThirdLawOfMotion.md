@@ -177,7 +177,7 @@ will enter Newton’s second law for System 2.
 
 **Solution**
 
-Newton’s second law can be used to find $$ \vb{F}\_{\text{prof}} $$. Starting
+Newton’s second law can be used to find $$ \vb{F}_{\text{prof}} $$. Starting
 with
 
 <div class="equation">
@@ -415,7 +415,7 @@ For part (a), apply Newton's second law to the losing player. The forces on him 
 **(a) Friction force on the losing player:**
 
 1. Identify the known values:
-   - Force from opposing player: $$ F\_{push} = 800 \N $$ (backward)
+   - Force from opposing player: $$ F_{push} = 800 \N $$ (backward)
    - Mass: $$ m_1 = 90.0 \kg $$
    - Acceleration: $$ a = 1.20 \mss $$ (backward)
 
@@ -442,7 +442,7 @@ $$ f = F_{push} - m_1 a = 800 \N - (90.0 \kg)(1.20 \mss) = 800 \N - 108 \N = 692
 $$ F_{ground} - F_{reaction} = m_2 a $$
 </div>
 
-Where $$ F\_{reaction} = 800 \N $$ is the reaction force from the losing player.
+Where $$ F_{reaction} = 800 \N $$ is the reaction force from the losing player.
 
 <div class="equation">
 $$ F_{ground} = m_2 a + F_{reaction} = (110 \kg)(1.20 \mss) + 800 \N = 132 \N + 800 \N = 932 \N $$

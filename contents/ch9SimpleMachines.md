@@ -544,7 +544,7 @@ A mechanical advantage less than 1 means the system is designed for speed rather
 ::: problem
 
 What force does the nail puller in [Figure 1](#Figure1) exert on the supporting
-surface? The nail puller has a mass of 2.10 kg.
+surface? The nail puller has a mass of 2.10 kg. Use the forces from Problem 1.
 
 :::
 

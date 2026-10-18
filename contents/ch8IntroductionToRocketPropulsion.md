@@ -136,7 +136,7 @@ a&=&2.20\mss .
 
 This value is fairly small, even for an initial acceleration. The acceleration
 does increase steadily as the rocket burns fuel, because $$ m $$ decreases while
-$$ v\_{\text{e}} $$ and $$ \frac{ \Delta m}{\Delta t} $$ remain constant. Knowing
+$$ v_{\text{e}} $$ and $$ \frac{ \Delta m}{\Delta t} $$ remain constant. Knowing
 this acceleration and the mass of the rocket, you can show that the thrust of
 the engines was $$ 3.36\times 10^{7}\N $$.
 
@@ -299,7 +299,7 @@ kg of gas per second at an exhaust velocity of $$ 2.50\times 10^{3} \ms $$ ?
 
 **Strategy**
 
-Use the rocket acceleration equation $$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$. We're given the initial mass, exhaust velocity, and mass expulsion rate. The acceleration due to gravity acts downward, opposing the upward acceleration.
+Use the rocket acceleration equation $$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$. We're given the initial mass, exhaust velocity, and mass expulsion rate. The acceleration due to gravity acts downward, opposing the upward acceleration.
 
 **Solution**
 
@@ -307,12 +307,12 @@ Given:
 
 - Mass: $$ m = 10\,000 \kg $$
 - Mass expulsion rate: $$ \frac{\Delta m}{\Delta t} = 196 \text{ kg/s} $$
-- Exhaust velocity: $$ v\_{\text{e}} = 2.50 \times 10^{3} \ms $$
+- Exhaust velocity: $$ v_{\text{e}} = 2.50 \times 10^{3} \ms $$
 - Gravitational acceleration: $$ g = 9.80 \mss $$
 
 Apply the rocket acceleration equation:
 
-$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
+$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
 
 $$ a = \frac{2.50 \times 10^{3} \ms}{10\,000 \kg}(196 \text{ kg/s}) - 9.80 \mss $$
 
@@ -352,12 +352,12 @@ Given:
 
 - Mass: $$ m = 5000 \kg $$
 - Mass expulsion rate: $$ \frac{\Delta m}{\Delta t} = 8.00 \text{ kg/s} $$
-- Exhaust velocity: $$ v\_{\text{e}} = 2.20 \times 10^{3} \ms $$
-- Lunar gravitational acceleration: $$ g\_{\text{Moon}} = 1.6 \mss $$
+- Exhaust velocity: $$ v_{\text{e}} = 2.20 \times 10^{3} \ms $$
+- Lunar gravitational acceleration: $$ g_{\text{Moon}} = 1.6 \mss $$
 
 Apply the rocket acceleration equation:
 
-$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
+$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
 
 $$ a = \frac{2.20 \times 10^{3} \ms}{5000 \kg}(8.00 \text{ kg/s}) - 1.6 \mss $$
 
@@ -397,8 +397,8 @@ Given:
 
 - Initial mass: $$ m_0 = 4000 \kg $$
 - Mass expelled: $$ \Delta m = 3500 \kg $$
-- Remaining mass: $$ m\_{\text{r}} = m_0 - \Delta m = 4000 - 3500 = 500 \kg $$
-- Exhaust velocity: $$ v\_{\text{e}} = 2.00 \times 10^{3} \ms $$
+- Remaining mass: $$ m_{\text{r}} = m_0 - \Delta m = 4000 - 3500 = 500 \kg $$
+- Exhaust velocity: $$ v_{\text{e}} = 2.00 \times 10^{3} \ms $$
 
 Apply the rocket velocity equation:
 
@@ -453,8 +453,8 @@ For part (a), use the rocket velocity equation. For part (b), use the rocket acc
 
 - Initial mass: $$ m_0 = 20\,000 \kg $$
 - Mass expelled: $$ \Delta m = 40.0 \kg $$
-- Remaining mass: $$ m\_{\text{r}} = 20\,000 - 40 = 19\,960 \kg $$
-- Exhaust velocity: $$ v\_{\text{e}} = 8.00 \times 10^{6} \ms $$
+- Remaining mass: $$ m_{\text{r}} = 20\,000 - 40 = 19\,960 \kg $$
+- Exhaust velocity: $$ v_{\text{e}} = 8.00 \times 10^{6} \ms $$
 
 Apply the rocket velocity equation:
 
@@ -469,12 +469,12 @@ The velocity increase is $$ 1.60 \times 10^{4} \ms $$ (16 km/s) from expelling o
 **(b)** Given:
 
 - Mass expulsion rate: $$ \frac{\Delta m}{\Delta t} = 4.50 \times 10^{-6} \text{ kg/s} $$
-- Exhaust velocity: $$ v\_{\text{e}} = 8.00 \times 10^{6} \ms $$
+- Exhaust velocity: $$ v_{\text{e}} = 8.00 \times 10^{6} \ms $$
 - Mass: $$ m \approx 20\,000 \kg $$ (approximately constant at this rate)
 
 With negligible gravity, the rocket acceleration equation becomes:
 
-$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
+$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
 $$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) = (400 \text{ m/kg})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
 
@@ -570,20 +570,20 @@ For part (a), use the rocket acceleration equation and solve for the mass expuls
 
 **(a)** Given:
 
-- Maximum acceleration: $$ a\_{\max} = 7g = 7(9.80 \mss) = 68.6 \mss $$
+- Maximum acceleration: $$ a_{\max} = 7g = 7(9.80 \mss) = 68.6 \mss $$
 - Mass at fuel exhaustion: $$ m = 75\,000 \kg $$
-- Exhaust velocity: $$ v\_{\text{e}} = 2.40 \times 10^{3} \ms $$
+- Exhaust velocity: $$ v_{\text{e}} = 2.40 \times 10^{3} \ms $$
 - Gravitational acceleration: $$ g = 9.80 \mss $$
 
 From the rocket acceleration equation:
 
-$$ a = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
+$$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} - g $$
 
 Solve for mass expulsion rate:
 
-$$ a + g = \frac{v\_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
+$$ a + g = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
-$$ \frac{\Delta m}{\Delta t} = \frac{m(a + g)}{v\_{\text{e}}} $$
+$$ \frac{\Delta m}{\Delta t} = \frac{m(a + g)}{v_{\text{e}}} $$
 
 The maximum acceleration occurs when mass is minimum (just as fuel runs out):
 
@@ -628,7 +628,7 @@ Use the rocket velocity equation $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\tex
 Given:
 
 - Initial mass: $$ m_0 = 75.0 \kg $$
-- Final mass: $$ m\_{\text{r}} = 70.0 \kg $$
+- Final mass: $$ m_{\text{r}} = 70.0 \kg $$
 - Final velocity: $$ v = 10.0 \ms $$
 
 The rocket velocity equation is:
@@ -639,11 +639,11 @@ Solve for exhaust velocity:
 
 $$ v_{\text{e}} = \frac{v}{\ln\left(\frac{m_0}{m_{\text{r}}}\right)} $$
 
-$$ v\_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0}{70.0}\right)} $$
+$$ v_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0}{70.0}\right)} $$
 
-$$ v\_{\text{e}} = \frac{10.0 \ms}{\ln(1.0714)} $$
+$$ v_{\text{e}} = \frac{10.0 \ms}{\ln(1.0714)} $$
 
-$$ v\_{\text{e}} = \frac{10.0 \ms}{0.0690} = 145 \ms $$
+$$ v_{\text{e}} = \frac{10.0 \ms}{0.0690} = 145 \ms $$
 
 The average exhaust velocity of the gases is approximately $$ 145 \ms $$ (about 522 km/h or 324 mph).
 
@@ -668,7 +668,7 @@ $$ 8.00\text{km/s} $$, given that it expels gases at an exhaust velocity of $$ 2
 
 **Strategy**
 
-Use the rocket velocity equation and solve for the remaining mass $$ m\_{\text{r}} $$. With gravity negligible (in space), the final velocity equals the velocity change.
+Use the rocket velocity equation and solve for the remaining mass $$ m_{\text{r}} $$. With gravity negligible (in space), the final velocity equals the velocity change.
 
 **Solution**
 
@@ -676,7 +676,7 @@ Given:
 
 - Initial mass: $$ m_0 = 100\,000 \kg $$
 - Final velocity: $$ v = 8.00 \text{ km/s} = 8.00 \times 10^{3} \ms $$
-- Exhaust velocity: $$ v\_{\text{e}} = 2.20 \times 10^{3} \ms $$
+- Exhaust velocity: $$ v_{\text{e}} = 2.20 \times 10^{3} \ms $$
 
 The rocket velocity equation:
 
@@ -684,11 +684,11 @@ $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 Solve for the mass ratio:
 
-$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v\_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
+$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
 
 $$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.9 $$
 
-$$ m\_{\text{r}} = \frac{m_0}{37.9} = \frac{100\,000 \kg}{37.9} = 2.63 \times 10^{3} \kg $$
+$$ m_{\text{r}} = \frac{m_0}{37.9} = \frac{100\,000 \kg}{37.9} = 2.63 \times 10^{3} \kg $$
 
 The mass that can be anything but fuel is $$ 2.63 \times 10^{3} \kg $$ (2630 kg), which is only 2.63% of the total rocket mass.
 
@@ -717,43 +717,43 @@ of 10.0 m/s. What is the recoil velocity of the squid if the ejection is done in
 
 **Strategy**
 
-For part (a), use conservation of momentum to find the initial recoil velocity, then account for the friction force acting over the ejection time using the impulse-momentum theorem. For part (b), calculate the work done against friction using the distance traveled and the friction force.
+Take the lab frame in which the squid is initially at rest. The ejected fluid leaves at $$ 10.0 \ms $$ in the direction opposite the squid’s recoil (that is, $$ v_{\text{fluid}}=-10.0 \ms $$ if recoil is positive). After ejection the squid’s mass is $$ m_{\text{f}}=5.00 \kg-0.250 \kg=4.75 \kg $$. Use momentum conservation for the ejection, then subtract the external impulse from friction over $$ \Delta t=0.100 \s $$. For part (b), estimate friction work from the distance traveled during ejection, assuming roughly constant acceleration so the average speed is half the final recoil speed.
 
 **Solution**
 
-**(a)** First, find the recoil velocity without friction using conservation of momentum:
+**(a)** Momentum imparted by ejecting $$ 0.250 \kg $$ at $$ 10.0 \ms $$ relative to the initial rest frame:
 
-$$ 0 = m_{\text{squid}} v_{\text{squid}} + m_{\text{fluid}} v_{\text{fluid}} $$
+$$ p_{\text{eject}} = m_{\text{fluid}} v_{\text{fluid}} = (0.250 \kg)(10.0 \ms) = 2.50 \kg \cdot \ms $$
 
-$$ v_{\text{squid,initial}} = -\frac{m_{\text{fluid}} v_{\text{fluid}}}{m_{\text{squid}}} = -\frac{(0.250 \kg)(10.0 \ms)}{5.00 \kg} = -0.500 \ms $$
+(opposite to the fluid’s velocity, so the squid gains $$ +2.50 \kg \cdot \ms $$ if recoil is taken as the positive direction).
 
-Now account for friction. The impulse from friction over the ejection time:
+Friction delivers an impulse opposing motion:
 
-$$ J_{\text{friction}} = F_{\text{friction}} \cdot \Delta t = (5.00 \N)(0.100 \s) = 0.500 \N \cdot \s $$
+$$ J_{\text{friction}} = F_{\text{friction}} \Delta t = (5.00 \N)(0.100 \s) = 0.500 \N \cdot \s $$
 
-This impulse opposes motion, so it reduces the momentum. Change in velocity from friction (using average mass during ejection: $$ m\_{\text{avg}} \approx 4.75 \kg $$):
+Net forward momentum of the squid immediately after ejection:
 
-$$ \Delta v = \frac{J_{\text{friction}}}{m\_{\text{avg}}} = \frac{0.500 \N \cdot \s}{4.75 \kg} = 0.105 \ms $$
+$$ p_{\text{squid}} = 2.50 \kg \cdot \ms - 0.500 \N \cdot \s = 2.00 \kg \cdot \ms $$
 
-Final recoil velocity:
+Final recoil speed (mass after ejection):
 
-$$ v\_{\text{final}} = 0.500 - 0.105 = 0.395 \ms $$
+$$ v = \frac{p_{\text{squid}}}{m_{\text{f}}} = \frac{2.00 \kg \cdot \ms}{4.75 \kg} = 0.421 \ms $$
 
-The squid recoils at approximately $$ 0.40 \ms $$ away from the ejected fluid.
+The squid recoils at approximately $$ 0.42 \ms $$ away from the ejected fluid.
 
-**(b)** Distance traveled during ejection (using average velocity):
+**(b)** Distance traveled during ejection (constant-acceleration estimate, $$ v_{\text{avg}} \approx v/2 $$):
 
-$$ d = v\_{\text{avg}} \cdot t = \left(\frac{0 + 0.395}{2}\right)(0.100 \s) = 0.0198 \m $$
+$$ d \approx \left(\frac{v}{2}\right) \Delta t = \left(\frac{0.421 \ms}{2}\right)(0.100 \s) = 0.0211 \m $$
 
 Work done against friction:
 
-$$ W = F \cdot d = (5.00 \N)(0.0198 \m) = 0.099 \J $$
+$$ W \approx F_{\text{friction}} d = (5.00 \N)(0.0211 \m) = 0.105 \J $$
 
-Approximately $$ 0.10 \J $$ of energy is lost to work done against friction.
+Approximately $$ 0.11 \J $$ of energy is lost to work done against friction (the exact value depends on how speed varies during the 0.100 s ejection).
 
 **Discussion**
 
-The squid demonstrates natural jet propulsion. Even with significant friction (5 N is substantial for a 5-kg squid), it still achieves meaningful velocity. This mechanism allows squids to escape predators quickly. The energy lost to friction is relatively small compared to the kinetic energy imparted to the fluid.
+The squid demonstrates natural jet propulsion. Using the final mass $$ 4.75 \kg $$ consistently and specifying that $$ 10.0 \ms $$ is the fluid speed in the initial rest frame avoids mixing initial, final, and average masses. Even with a 5.00-N frictional force, the recoil remains appreciable. A full treatment with exhaust speed relative to the squid would require the variable-mass rocket equation and the ejection history; friction work likewise needs an explicit speed-versus-time model beyond this simple impulse estimate.
 
 ::::
 
@@ -801,7 +801,7 @@ The squid would need an initial speed of approximately $$ 21.4 \ms $$ (about 77 
 
 $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
-With $$ v = 21.4 \ms $$ and $$ v\_{\text{e}} = 12.0 \ms $$:
+With $$ v = 21.4 \ms $$ and $$ v_{\text{e}} = 12.0 \ms $$:
 
 $$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{21.4}{12.0} = 1.78 $$
 
@@ -859,45 +859,41 @@ This problem requires applying conservation of momentum and the rocket equation 
 
 **Sample Problem Construction:**
 
-An 80-kg astronaut (in a space suit) is floating 15 m from her spacecraft with zero initial velocity. She has three 5.0-kg packages that she can throw. She can exert enough force on each package to give it a speed of 8.0 m/s relative to her current velocity.
+An 80-kg astronaut (in a space suit) is floating 15 m from her spacecraft with zero initial velocity. She carries three 5.0-kg packages (total system mass $$ 95 \kg $$ initially). Take **toward the ship** as the $$ +x $$ direction. Each throw gives the package a speed of **8.0 m/s relative to the astronaut immediately after the throw**, in the $$ -x $$ direction (away from the ship). Conserve momentum for the astronaut **plus any packages she still holds** at each step.
 
-**(a)** If she throws all three packages (bundled together as a 15-kg mass) at once, what velocity does she acquire?
+**(a)** If she throws all three packages (bundled as 15 kg) at once, what speed toward the ship does she acquire?
 
-Using conservation of momentum:
+Let $$ v $$ be her speed after the throw and $$ v_{\text{p}} $$ the package speed in the lab frame. Relative speed gives $$ v_{\text{p}} = v - 8.0 \ms $$ (package at $$ -8.0 \ms $$ relative to her). With everything initially at rest,
 
-$$ m_{\text{astronaut}} v_{\text{astronaut}} = -m_{\text{packages}} v_{\text{packages}} $$
+$$ 0 = (80 \kg) v + (15 \kg)(v - 8.0 \ms) = (95 \kg) v - (15 \kg)(8.0 \ms) $$
 
-$$ v_{\text{astronaut}} = -\frac{(15 \kg)(8.0 \ms)}{80 \kg} = -1.5 \ms $$
+$$ v = \frac{(15 \kg)(8.0 \ms)}{95 \kg} = 1.26 \ms $$
 
-Time to reach ship:
+Time to reach the ship at constant speed:
 
-$$ t = \frac{d}{v} = \frac{15 \m}{1.5 \ms} = 10 \s $$
+$$ t = \frac{d}{v} = \frac{15 \m}{1.26 \ms} = 11.9 \s $$
 
-**(b)** If she throws the packages one at a time, her velocity increases after each throw. This is analogous to a multi-stage rocket.
+**(b)** If she throws the packages one at a time, apply the same relative-speed rule before each throw (masses 95, 90, and 85 kg):
 
-After throwing first package:
+First throw ($$ 5.0 \kg $$ from $$ 95 \kg $$ at rest):
 
-$$ v_1 = -\frac{(5.0 \kg)(8.0 \ms)}{80 \kg} = -0.50 \ms $$
+$$ 0 = (90 \kg) v_1 + (5.0 \kg)(v_1 - 8.0 \ms) \quad \Rightarrow \quad v_1 = \frac{(5.0 \kg)(8.0 \ms)}{95 \kg} $$
 
-After throwing second package (now her mass is 75 kg, and the package speed is 8.0 m/s relative to her):
+Second throw ($$ 90 \kg $$ moving at $$ v_1 $$):
 
-$$ (75 \kg)(v_2 - v_1) = -(5.0 \kg)(8.0 \ms) $$
+$$ (90 \kg) v_1 = (85 \kg) v_2 + (5.0 \kg)(v_2 - 8.0 \ms) \quad \Rightarrow \quad v_2 = v_1 + \frac{(5.0 \kg)(8.0 \ms)}{90 \kg} $$
 
-$$ v_2 = v_1 - \frac{40}{75} = -0.50 - 0.533 = -1.03 \ms $$
+Third throw ($$ 85 \kg $$ moving at $$ v_2 $$):
 
-After throwing third package (mass now 70 kg):
+$$ v_3 = v_2 + \frac{(5.0 \kg)(8.0 \ms)}{85 \kg} = (8.0 \ms)\left(\frac{5.0}{95}+\frac{5.0}{90}+\frac{5.0}{85}\right) = 1.34 \ms $$
 
-$$ (70 \kg)(v_3 - v_2) = -(5.0 \kg)(8.0 \ms) $$
+Time to reach the ship:
 
-$$ v_3 = v_2 - \frac{40}{70} = -1.03 - 0.571 = -1.60 \ms $$
-
-Time to reach ship:
-
-$$ t \approx \frac{15 \m}{1.60 \ms} = 9.4 \s $$
+$$ t = \frac{15 \m}{1.34 \ms} = 11.2 \s $$
 
 **Discussion**
 
-Throwing packages one at a time is more efficient, similar to multi-stage rockets. Each successive throw builds on the previous velocity, resulting in a higher final speed (1.60 m/s vs 1.5 m/s) and shorter return time (9.4 s vs 10 s). This demonstrates why rockets use staging—ejecting mass in stages is more effective than ejecting it all at once. Students should construct similar problems varying the number of packages, their masses, the throwing speed, and the distance to explore how these factors affect the efficiency of the two strategies.
+Throwing packages one at a time is more efficient, similar to multi-stage rockets: sequential release gives $$ 1.34 \ms $$ versus $$ 1.26 \ms $$ for a simultaneous throw, so the return time drops from 11.9 s to 11.2 s for this 15 m gap. The key is to include the mass of packages still on the astronaut (95, 90, 85, then 80 kg) and to use one consistent relative-speed convention. Students should construct similar problems varying the number of packages, their masses, the throwing speed, and the distance to explore how these factors affect the two strategies.
 
 ::::
 

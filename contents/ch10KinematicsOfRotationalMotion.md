@@ -145,7 +145,7 @@ relationship is then sought that can be used to solve for the unknown.
 **Solution for (a)**
 
 Here $$ \alpha $$ and $$ t $$ are given and $$ \omega $$ needs to be determined.
-The most straightforward equation to use is $$ \omega =\omega\_{0} +\alpha t $$
+The most straightforward equation to use is $$ \omega =\omega_{0} +\alpha t $$
 because the unknown is already on one side and all other terms are known. That
 equation states that
 
@@ -307,7 +307,7 @@ to find the distance the train moved down the track:
 **Solution for (b)**
 
 We cannot use any equation that incorporates $$ t $$ to find $$ \omega $$,
-because the equation would have at least two unknown values. The equation $$ \omega^{2}=\omega\_{0}^{2}+2 \alpha \theta $$ will work, because we know the
+because the equation would have at least two unknown values. The equation $$ \omega^{2}=\omega_{0}^{2}+2 \alpha \theta $$ will work, because we know the
 values for all variables except $$ \omega $$:
 
 <div class="equation">

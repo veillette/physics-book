@@ -209,7 +209,7 @@ Thus,
 **Discussion**
 
 This is the value given in this figure’s table for $$ v $$ at $$ t=25 \s $$. The
-value of 140 m/s for $$ v\_{Q} $$ is plotted in [Figure 5](#Figure5). The entire
+value of 140 m/s for $$ v_{Q} $$ is plotted in [Figure 5](#Figure5). The entire
 graph of $$ v $$ vs. $$ t $$ can be obtained in this fashion.
 
 :::
@@ -600,31 +600,26 @@ To find the instantaneous velocity at $$ t = 30.0 \s $$, we need to find the slo
 
 1. To find the velocity at $$ t = 30.0 \s $$, examine Figure 16 near that time and identify two points on the curve that we can use to estimate the slope.
 
-2. From the graph, choosing points symmetrically around $$ t = 30.0 \s $$:
-   - At $$ t_1 = 20.0 \s $$: $$ x_1 \approx 6.95 \text{ km} = 6.95 \times 10^{3} \m $$
-   - At $$ t_2 = 40.0 \s $$: $$ x_2 \approx 11.7 \text{ km} = 11.7 \times 10^{3} \m $$
+2. From the graph (position axis in **meters**), choosing points on either side of $$ t = 30.0 \s $$:
+   - At $$ t_1 = 20.0 \s $$: $$ x_1 \approx 6.95 \m $$
+   - At $$ t_2 = 40.0 \s $$: $$ x_2 \approx 11.7 \m $$
 
 3. Calculate the slope:
 <div class="equation">
-$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{(11.7 - 6.95) \times 10^{3} \m}{40.0 - 20.0 \s} $$
+$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{11.7 \m - 6.95 \m}{40.0 \s - 20.0 \s} $$
 </div>
 
 <div class="equation">
-$$ v = \frac{4.75 \times 10^{3} \m}{20.0 \s} = 238 \ms $$
-</div>
-
-4. Converting to km/s (which appears to be the units intended in the problem):
-<div class="equation">
-$$ v = 238 \ms = 0.238 \text{ km/s} \approx 0.24 \text{ km/s} $$
+$$ v = \frac{4.75 \m}{20.0 \s} = 0.238 \ms \approx 0.24 \ms $$
 </div>
 
 **Discussion**
 
-The calculated velocity of 238 m/s (or approximately 0.24 km/s) is the instantaneous velocity at $$ t = 30.0 \s $$. This high velocity is consistent with Figure 16, which appears to show a spacecraft or high-speed vehicle's position measured in kilometers. The velocity of 238 m/s is approximately 856 km/h or 532 mph. The graph shows increasing position with time, indicating positive velocity throughout the motion. Note that when working with graphs, the choice of units is critical - the problem statement likely intended the answer in km/s (0.24 km/s) rather than m/s to match the position units shown in kilometers.
+The slope near $$ t = 30.0 \s $$ is about 0.24 m/s, consistent with the value to be verified. Figure 16 plots position in meters, so the velocity has units of m/s. Because the curve is nearly straight in this region, readings from nearby points give a stable estimate of the instantaneous velocity.
 
 **Answer**
 
-The velocity at $$ t = 30.0 \s $$ is approximately 238 m/s (or 0.24 km/s), verified by calculating the slope of the position-time curve in Figure 16.
+The velocity at $$ t = 30.0 \s $$ is approximately $$ 0.24 \ms $$, verified by calculating the slope of the position-time curve in Figure 16.
 
 :::
 
@@ -684,11 +679,13 @@ The acceleration at $$ t = 10 \s $$ is $$ 3.2 \mss $$, which verifies the given 
 
 ::: problem
 
-Construct the position graph for the subway shuttle train as shown
-in the [Acceleration module](./ch2Acceleration) (a).
-Your graph should show the position of the train, in kilometers, from t = 0 to 20 s.
-You will need to use the information on acceleration and velocity given in
-the examples for this figure.
+Construct the velocity and acceleration history implied by the subway
+shuttle train’s position graph in [Figure 18](#Figure18), which shows
+position in kilometers from $$ t = 0 $$ to $$ 20 \s $$.
+(Assume constant velocity for the first 10 s and constant acceleration for
+the next 10 s, with continuous velocity at $$ t = 10 \s $$.)
+Your discussion should confirm that a change in acceleration alone does
+not produce a discontinuous “kink” in slope on the position graph.
 
 :::
 
@@ -700,44 +697,48 @@ To construct a position-time graph from velocity and acceleration information, w
 
 **Solution**
 
-From the Acceleration module example, the subway train's motion has two phases:
+Read the plotted points from [Figure 18](#Figure18) (position in kilometers vs. time in seconds):
 
-**Phase 1 (0 to 10 s): Constant velocity of 5.0 m/s**
-1. Initial position: $$ x_0 = 0 \text{ km} $$ at $$ t = 0 $$
-2. Position increases linearly: $$ x = v \cdot t = (5.0 \ms)(t) $$
-3. At $$ t = 10 \s $$: $$ x = 5.0 \times 10 = 50 \m = 0.050 \text{ km} $$
+- $$ t = 0 \s $$: $$ x = 4.70 \text{ km} $$
+- $$ t = 10 \s $$: $$ x = 4.72 \text{ km} $$
+- $$ t = 20 \s $$: $$ x = 4.80 \text{ km} $$
 
-**Phase 2 (10 to 20 s): Constant acceleration of $$ 1.3 \mss $$**
-1. Initial velocity at $$ t = 10 \s $$: $$ v_0 = 5.0 \ms $$
-2. Initial position at $$ t = 10 \s $$: $$ x_0 = 50 \m $$
-3. For constant acceleration starting at $$ t = 10 \s $$:
+**Phase 1 (0 to 10 s): constant velocity**
+
+The displacement is $$ \Delta x = 0.02 \text{ km} = 20 \m $$, so
+
 <div class="equation">
-$$ x = x_0 + v_0(t - 10) + \frac{1}{2}a(t - 10)^2 $$
+$$ v = \frac{20 \m}{10 \s} = 2.0 \ms $$
 </div>
 
-4. At $$ t = 20 \s $$ (i.e., 10 s after acceleration begins):
+Position increases linearly from 4.70 km: $$ x = 4.70 \text{ km} + (2.0 \ms)t $$ (with $$ t $$ in seconds and the term in km when converted).
+
+**Phase 2 (10 to 20 s): constant acceleration**
+
+From 10 s to 20 s the train moves another $$ 0.08 \text{ km} = 80 \m $$ with initial speed $$ v_0 = 2.0 \ms $$:
+
 <div class="equation">
-$$ x = 50 + (5.0)(10) + \frac{1}{2}(1.3)(10)^2 $$
+$$ 80 \m = (2.0 \ms)(10 \s) + \frac{1}{2}a(10 \s)^2 = 20 \m + 50 \m \cdot \s^{-2} \cdot a $$
 </div>
 
 <div class="equation">
-$$ x = 50 + 50 + 65 = 165 \m = 0.165 \text{ km} $$
+$$ a = \frac{60 \m}{(10 \s)^2} = 1.2 \mss $$
 </div>
 
 **Constructing the graph:**
-- From $$ t = 0 $$ to $$ 10 \s $$: Draw a straight line from (0, 0) to (10 s, 0.050 km) with constant slope
-- From $$ t = 10 \s $$ to $$ 20 \s $$: Draw a parabolic curve from (10 s, 0.050 km) to (20 s, 0.165 km) with increasing slope
-- The curve should show a "kink" at $$ t = 10 \s $$ where the motion transitions from constant velocity to constant acceleration
+- From $$ t = 0 $$ to $$ 10 \s $$: straight line from (0 s, 4.70 km) to (10 s, 4.72 km)
+- From $$ t = 10 \s $$ to $$ 20 \s $$: smooth parabolic segment from (10 s, 4.72 km) to (20 s, 4.80 km) with increasing slope
+- At $$ t = 10 \s $$ the **velocity** stays continuous (still 2.0 m/s); only the **acceleration** changes, so the position graph bends smoothly rather than forming a slope discontinuity (“kink”)
 
 **Discussion**
 
-The position-time graph clearly shows two distinct motion phases. In the first 10 seconds, the train moves at constant velocity, producing a straight line with constant slope (5.0 m/s). At $$ t = 10 \s $$, the train begins accelerating, which creates a parabolic curve with increasing slope. The kink at $$ t = 10 \s $$ represents the instant the acceleration begins. The steeper slope in the second phase reflects the increasing velocity due to acceleration. This type of piecewise motion is common in real transportation systems, where vehicles may cruise at constant speed before accelerating to reach their destination more quickly.
+This graph matches the subway context in the Acceleration module (motion along a track in kilometers), but the numerical history here is fixed by Figure 18: 20 m in the first 10 s, then 80 m in the next 10 s while speeding up at $$ 1.2 \mss $$. Total displacement from $$ t = 0 $$ to $$ 20 \s $$ is $$ 0.10 \text{ km} $$, from 4.70 km to 4.80 km.
 
 **Answer**
 
-The position-time graph shows the train starting at the origin and moving with constant velocity (5.0 m/s) for the first 10 seconds, reaching 0.050 km. At $$ t = 10 \s $$, the train begins accelerating at $$ 1.3 \mss $$, following a parabolic path to reach approximately 0.165 km at $$ t = 20 \s $$.
+The position-time graph starts at 4.70 km at $$ t = 0 $$, rises linearly to 4.72 km at $$ t = 10 \s $$ at 2.0 m/s, then follows a parabolic segment with $$ a = 1.2 \mss $$ to 4.80 km at $$ t = 20 \s $$, with no break in slope at $$ t = 10 \s $$.
 
-![Line graph of position versus time. Line begins with a slight positive slope. It then kinks to a much greater positive slope.](../resources/Figure_02_08_18.jpg)
+![Line graph of position versus time. Line begins with a slight positive slope, then curves smoothly to a steeper positive slope as acceleration begins.](../resources/Figure_02_08_18.jpg)
 {: #Figure18}
 
 :::
@@ -891,12 +892,14 @@ The total displacement must equal 100 m. The graph shows two phases:
 
 Total time:
 <div class="equation">
-$$ t_{\text{total}} = 4 + 6.33 = 10.33 \s \approx 10 \s $$
+$$ t_{\text{total}} = 4 + 6.33 = 10.33 \s $$
 </div>
+
+By $$ t = 10 \s $$ the graph’s plateau has covered only $$ 24 + (12 \ms)(6 \s) = 96 \m $$, so the plotted motion alone does not reach 100 m until about 10.33 s if the 12 m/s speed continues.
 
 **Discussion**
 
-This velocity-time graph illustrates a world-class sprinter's race strategy. The sprinter accelerates at $$ 3 \mss $$ for 4 seconds, reaching a maximum velocity of 12 m/s (about 43 km/h or 27 mph). During acceleration, the average velocity is only 6 m/s because the sprinter starts from rest. After reaching maximum velocity, the sprinter maintains it for the remainder of the race. The total race time of approximately 10 seconds is consistent with world-class 100-m sprint times. The acceleration phase covers only 24 m (less than a quarter of the race), while the constant velocity phase covers 76 m. This demonstrates that even elite sprinters spend most of the race at constant maximum velocity rather than accelerating.
+This velocity-time graph illustrates a world-class sprinter's race strategy. The sprinter accelerates at $$ 3 \mss $$ for 4 seconds, reaching a maximum velocity of 12 m/s (about 43 km/h or 27 mph). During acceleration, the average velocity is only 6 m/s because the sprinter starts from rest. After reaching maximum velocity, the sprinter maintains it for the remainder of the race. The total race time of 10.33 s is consistent with world-class 100-m sprint times. The acceleration phase covers only 24 m (less than a quarter of the race), while the constant velocity phase covers 76 m. This demonstrates that even elite sprinters spend most of the race at constant maximum velocity rather than accelerating.
 
 **Answer**
 
@@ -906,7 +909,7 @@ This velocity-time graph illustrates a world-class sprinter's race strategy. The
 
 (c) The average acceleration between 0 and 4 s is $$ 3 \mss $$.
 
-(d) The time for the 100-m race is approximately 10 s.
+(d) The time for the 100-m race is approximately 10.33 s.
 
 :::
 
@@ -916,7 +919,7 @@ This velocity-time graph illustrates a world-class sprinter's race strategy. The
 
 ::: problem
 
-[Figure 23](#Figure23) shows the position graph for a particle for 5 s. Draw the corresponding velocity and acceleration graphs.
+[Figure 23](#Figure23) shows the position graph for a particle from $$ t = 0 $$ to $$ t = 6 \s $$ (the problem statement’s “5 s” refers to the main motion interval before the final short segment). Draw the corresponding velocity and acceleration graphs.
 
 ![Line graph of position versus time. The line has 4 legs. The first leg has a positive slope. The second leg has a negative slope. The third has a slope of 0. The fourth has a positive slope.](../resources/Figure_02_08_23.jpg)
 {: #Figure23}
@@ -933,55 +936,46 @@ To construct the velocity graph from the position graph, we calculate the slope 
 
 **Analyzing the Position Graph (Figure 23):**
 
-The position graph has four distinct linear segments:
+The position graph has four distinct linear segments (Figure 23 passes through (0, 0), (2, 2), (3, −3), (5, −3), and (6, −2)):
 
-**Segment 1 (0 to 1 s):** Positive slope
-- From the graph: $$ \Delta x \approx 2 \m $$, $$ \Delta t = 1 \s $$
-- Velocity: $$ v_1 = \frac{2 \m}{1 \s} = 2 \ms $$
+**Segment 1 (0 to 2 s):** Positive slope
+- $$ v_1 = \frac{2 \m - 0}{2 \s - 0} = +1 \ms $$
 
-**Segment 2 (1 to 2 s):** Negative slope
-- From the graph: $$ \Delta x \approx -4 \m $$, $$ \Delta t = 1 \s $$
-- Velocity: $$ v_2 = \frac{-4 \m}{1 \s} = -4 \ms $$
+**Segment 2 (2 to 3 s):** Negative slope
+- $$ v_2 = \frac{-3 \m - 2 \m}{3 \s - 2 \s} = -5 \ms $$
 
-**Segment 3 (2 to 4 s):** Zero slope (horizontal line)
-- The position is constant
+**Segment 3 (3 to 5 s):** Zero slope (horizontal line)
 - Velocity: $$ v_3 = 0 \ms $$
 
-**Segment 4 (4 to 5 s):** Positive slope
-- From the graph: $$ \Delta x \approx 1 \m $$, $$ \Delta t = 1 \s $$
-- Velocity: $$ v_4 = \frac{1 \m}{1 \s} = 1 \ms $$
+**Segment 4 (5 to 6 s):** Positive slope
+- $$ v_4 = \frac{-2 \m - (-3 \m)}{6 \s - 5 \s} = +1 \ms $$
 
 **Velocity Graph:**
 
 The velocity graph is a series of horizontal line segments at:
-- $$ v = 2 \ms $$ from $$ t = 0 $$ to $$ 1 \s $$
-- $$ v = -4 \ms $$ from $$ t = 1 $$ to $$ 2 \s $$
-- $$ v = 0 \ms $$ from $$ t = 2 $$ to $$ 4 \s $$
-- $$ v = 1 \ms $$ from $$ t = 4 $$ to $$ 5 \s $$
+- $$ v = +1 \ms $$ from $$ t = 0 $$ to $$ 2 \s $$
+- $$ v = -5 \ms $$ from $$ t = 2 $$ to $$ 3 \s $$
+- $$ v = 0 \ms $$ from $$ t = 3 $$ to $$ 5 \s $$
+- $$ v = +1 \ms $$ from $$ t = 5 $$ to $$ 6 \s $$
 
 **Analyzing the Velocity Graph for Acceleration:**
 
-The acceleration is the slope of the velocity graph. At transition points, there are instantaneous changes (vertical jumps) in velocity, which represent infinite acceleration. In reality, these would be very large but finite accelerations:
+On each straight position segment the velocity is constant, so $$ a = 0 $$. At the segment boundaries the idealized graph has step changes in velocity (vertical jumps in the $$ v(t) $$ plot). A finite force would round those corners over short intervals; representing the jumps as impulses is part of the same idealization as the piecewise-linear $$ x(t) $$ graph.
 
-- **0 to 1 s:** Constant velocity, so $$ a = 0 $$
-- **At t = 1 s:** Velocity changes from $$ 2 \ms $$ to $$ -4 \ms $$ (vertical jump)
-- **1 to 2 s:** Constant velocity, so $$ a = 0 $$
-- **At t = 2 s:** Velocity changes from $$ -4 \ms $$ to $$ 0 \ms $$ (vertical jump)
-- **2 to 4 s:** Constant velocity, so $$ a = 0 $$
-- **At t = 4 s:** Velocity changes from $$ 0 \ms $$ to $$ 1 \ms $$ (vertical jump)
-- **4 to 5 s:** Constant velocity, so $$ a = 0 $$
+- **0 to 2 s, 2 to 3 s, 3 to 5 s, 5 to 6 s:** $$ a = 0 $$
+- **At $$ t = 2 \s $$, $$ 3 \s $$, and $$ 5 \s $$:** instantaneous velocity changes (impulsive idealization)
 
 **Acceleration Graph:**
 
-The acceleration graph shows $$ a = 0 $$ for all segments between transitions, with vertical spikes (impulses) at $$ t = 1 \s $$, $$ t = 2 \s $$, and $$ t = 4 \s $$ where the velocity changes abruptly.
+The acceleration graph shows $$ a = 0 $$ on each open interval between transitions, with vertical spikes at $$ t = 2 \s $$, $$ 3 \s $$, and $$ 5 \s $$ where the velocity changes abruptly in this model.
 
 **Discussion**
 
-The position graph shows a particle that moves forward, then backward, then stops for a period, then moves forward again. Each segment has constant velocity (straight line segments), so acceleration is zero during those times. The sharp corners in the position graph correspond to abrupt changes in velocity, which would require very large (theoretically infinite) accelerations. In real physical situations, these corners would be slightly rounded, representing large but finite accelerations over very short time intervals.
+The position graph shows a particle that moves forward, then backward quickly, then rests, then moves forward again. Each straight segment has constant velocity, so acceleration is zero there. The corners in $$ x(t) $$ correspond to abrupt velocity changes in this idealized description; real motion would smooth those transitions over short times.
 
 **Answer**
 
-The velocity graph consists of horizontal segments at 2 m/s (0-1 s), -4 m/s (1-2 s), 0 m/s (2-4 s), and 1 m/s (4-5 s). The acceleration graph is zero throughout except for vertical spikes at t = 1 s, 2 s, and 4 s where the velocity changes instantaneously.
+The velocity graph consists of horizontal segments at +1 m/s (0–2 s), −5 m/s (2–3 s), 0 m/s (3–5 s), and +1 m/s (5–6 s). The acceleration graph is zero on each interval between those steps, with impulses at $$ t = 2 \s $$, $$ 3 \s $$, and $$ 5 \s $$ in the idealized model.
 
 :::
 
