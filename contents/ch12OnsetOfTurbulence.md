@@ -283,7 +283,7 @@ The Reynolds number of approximately 1990 is just below the critical value of 20
 ::: problem
 
 Show that the Reynolds number  $${N}_{\text{R}} $$
- is unitless by substituting units for all the quantities in its definition and cancelling.
+ is unitless by substituting units for all the quantities in its definition and canceling.
 
 :::
 

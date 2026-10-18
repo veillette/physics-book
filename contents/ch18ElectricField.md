@@ -90,7 +90,7 @@ Calculate the strength and direction of the electric field  $$E $$
 
 **Strategy**
 
-We can find the magitude of the electric field created by a point charge by using the equation
+We can find the magnitude of the electric field created by a point charge by using the equation
 $$E=kQ/{r}^{2} $$.
 
 **Solution**
