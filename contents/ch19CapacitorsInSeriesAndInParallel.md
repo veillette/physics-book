@@ -102,7 +102,10 @@ equation for capacitance in series.
 
 **Solution**
 
-Entering the given capacitances into the expression for $$\frac{1}{ {C}_{\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}} $$. &lt;div class="equation" &gt; $$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
+Entering the given capacitances into the expression for $$\frac{1}{ {C}_{\text{S}}} $$ gives $$\frac{1}{ {C}_{S}}=\frac{1}{ {C}_{1}}+\frac{1}{ {C}_{2}}+\frac{1}{ {C}_{3}} $$.
+
+<div class="equation">
+$$\frac{1}{ {C}_{\text{S}}}=\frac{1}{1.000 \text{µF}}+\frac{1}{5.000 \text{µF}}+\frac{1}{8.000 \text{µF}}=\frac{ 1.325}{\text{µF}} $$
 </div>
 
 Inverting to find  $${C}_{\text{S}} $$  yields 

@@ -185,9 +185,14 @@ increase in mass using $$\Delta E={\text{PE}}_{\text{elec}}=\left(\Delta m\right
 
 <strong>Solution for (a) </strong>
 
-1. Identify the knowns. $$I\cdot t=600 \text{A}\cdot \text{h} $$ ; $$V= 12.0 \text{V} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$ 2. Identify the unknown. $$\Delta m $$
-3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$ 4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{
-   {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$ 5. Plug the knowns into the equation. &lt;div class="equation" &gt; $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
+1. Identify the knowns. $$I\cdot t=600 \text{A}\cdot \text{h} $$ ; $$V= 12.0 \text{V} $$ ; $$c= 3.00 \times 10^{8} \text{m/s} $$
+2. Identify the unknown. $$\Delta m $$
+3. Choose the appropriate equation. $${\text{PE}}_{\text{elec}}=\left(\Delta m\right){c}^{2} $$
+4. Rearrange the equation to solve for the unknown. $$\Delta m=\frac{ {\text{PE}}_{\text{elec}}}{ {c}^{2}} $$
+5. Plug the knowns into the equation.
+
+   <div class="equation">
+   $$\begin{array}{lll}\Delta m& =& \frac{ {\text{PE}}_{\text{elec}}}{
    {c}^{2}}\\ & =& \frac{qV}{ {c}^{2}}\\ & =& \frac{\left(It\right)V}{
    {c}^{2}}\\ & =& \frac{\left(600 \text{A}\cdot \text{h}\right)\left(12.0
    \text{V}\right)}{ {\left( 3.00 \times 10^{8} \right)}^{2}}\text{.}\end{array} $$

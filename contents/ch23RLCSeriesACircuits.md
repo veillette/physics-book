@@ -72,7 +72,10 @@ where $${V}_{0R} $$ , $${V}_{0L} $$ , and $${V}_{0C} $$ are the peak voltages
 across $$R $$ , $$L $$ , and $$C $$ , respectively. Now, using Ohm’s law and
 definitions
 from [Reactance, Inductive and Capacitive](../contents/ch23ReactanceInductiveAndCapacitive),
-we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_{0}R $$ , $${V}_{0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding &lt;div class="equation" &gt; $${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
+we substitute $${V}_{0}={I}_{0}Z $$ into the above, as well as $${V}_{0R}={I}_{0}R $$ , $${V}_{0L}={I}_{0}{X}_{L} $$ , and $${V}_{0C}={I}_{0}{X}_{C} $$, yielding
+
+<div class="equation">
+$${I}_{0}Z=\sqrt{ {I}_{0}^{ 2}{R}^{2}+{\left( {I}_{0}{X}_{L}-{I}_{0}{X}_{C} \right)}^{2}}={I}_{0}\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}\text{.} $$
 </div>
 
 $${I}_{0} $$ cancels to yield an expression for $$Z $$ \:

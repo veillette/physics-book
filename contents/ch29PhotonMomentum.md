@@ -171,7 +171,10 @@ from place to place in the solar system. (See [[Figure 3]](#Figure3).)
 
 There is a relationship between photon momentum $$p $$ and photon energy $$E $$
 that is consistent with the relation given previously for the relativistic total
-energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^{2} \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={ \left( pc\right)}^{2}+{\left( mc^{2} \right)}^{2} $$ becomes &lt;div class="equation" &gt; $$E=\text{pc}, $$
+energy of a particle as $${E}^{2}={\left(pc\right)}^{2}+{\left(mc^{2} \right)}^{2} $$ . We know $$m $$ is zero for a photon, but $$p $$ is not, so that $${E}^{2}={ \left( pc\right)}^{2}+{\left( mc^{2} \right)}^{2} $$ becomes
+
+<div class="equation">
+$$E=\text{pc}, $$
 </div>
 
 or
