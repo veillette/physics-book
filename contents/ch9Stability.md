@@ -681,14 +681,9 @@ The minimum coefficient of friction is **0.212** (or approximately 0.21).
 
 **Solution for (b)**
 
-The hinge force on each side has:
+The hinge connects the two legs. By symmetry, the horizontal component of the hinge force on each leg has the magnitude found in part (a), $$ F_{h,horizontal} = 8.29 \N $$.
 
-- Horizontal component: $$ F_{h,horizontal} = 8.29 \N $$ (pushing outward on each leg)
-- Vertical component: $$ F_{h,vertical} = 0 $$ (by symmetry, the vertical components from each leg must cancel at the hinge)
-
-Wait, let me reconsider. The hinge connects the two legs. For each leg, the hinge exerts a force. By symmetry, the horizontal components push outward (away from center) on each leg, and any vertical component would need to be analyzed.
-
-At the hinge, vertical equilibrium of each leg gives:
+For the vertical component, vertical equilibrium of one leg gives:
 $$ N + F_{h,vertical} = W $$
 
 Since $$ N = W $$ from the analysis above, $$ F_{h,vertical} = 0 $$.

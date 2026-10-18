@@ -938,7 +938,7 @@ Although this correction is extremely small (only about 18 meters out of 768 mil
 
 ::: problem
 
-Suppose [[Figure 5]](#Figure5) represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass ( $$\Delta x $$ ),
+Suppose [[Figure 6]](#Figure6) represents a ray of light going from air through crown glass into water, such as going into a fish tank. Calculate the amount the ray is displaced by the glass ( $$\Delta x $$ ),
 given that the incident angle is  $$ 40.0º $$
  and the glass is 1.00 cm thick.
 
@@ -961,42 +961,18 @@ $$\sin \theta_{2} = \frac{n_1}{n_2} \sin \theta_{1} = \frac{1.00}{1.52} \sin(40.
 $$\theta_{2} = \sin^{-1}(0.4229) = 25.0°$$
 </div>
 
-The ray travels through the glass at angle $$25.0°$$ to the normal. The distance traveled through the glass:
+In [[Figure 6]](#Figure6), $$\Delta x$$ is the horizontal distance between the actual ray and the path it would have followed without the glass (the dashed line). While crossing the glass, the actual ray moves sideways by $$t \tan \theta_{2}$$, while the undeviated ray would have moved sideways by $$t \tan \theta_{1}$$. Below the glass both rays travel at the same angle $$\theta_{3}$$, so their horizontal separation stays the same:
 <div class="equation">
-$$d = \frac{t}{\cos \theta_{2}} = \frac{1.00 \text{ cm}}{\cos(25.0°)} = \frac{1.00 \text{ cm}}{0.9063} = 1.103 \text{ cm}$$
-</div>
-
-The horizontal displacement within the glass:
-<div class="equation">
-$$\Delta x = d \sin \theta_{2} = 1.103 \text{ cm} \times \sin(25.0°) = 1.103 \times 0.4226 = 0.466 \text{ cm}$$
-</div>
-
-However, we need to subtract the horizontal distance if the ray had traveled straight:
-<div class="equation">
-$$\Delta x = t(\tan \theta_{2} - \tan \theta_{1}) = 1.00(\tan 25.0° - \tan 40.0°)$$
-</div>
-
-Actually, the correct lateral displacement is:
-<div class="equation">
-$$\Delta x = t \sin(\theta_{1} - \theta_{2}) \frac{\sin \theta_{1}}{\cos \theta_{2}}$$
-</div>
-
-Let me recalculate more carefully. The lateral displacement for a parallel-sided plate is:
-<div class="equation">
-$$\Delta x = \frac{t \sin(\theta_{1} - \theta_{2})}{\cos \theta_{2}}$$
+$$\Delta x = t(\tan \theta_{1} - \tan \theta_{2}) = (1.00 \text{ cm})(\tan 40.0° - \tan 25.0°)$$
 </div>
 
 <div class="equation">
-$$\Delta x = \frac{1.00 \text{ cm} \times \sin(40.0° - 25.0°)}{\cos(25.0°)} = \frac{1.00 \text{ cm} \times \sin(15.0°)}{0.9063}$$
-</div>
-
-<div class="equation">
-$$\Delta x = \frac{1.00 \text{ cm} \times 0.2588}{0.9063} = 0.285 \text{ cm} = 2.85 \text{ mm}$$
+$$\Delta x = (1.00 \text{ cm})(0.8391 - 0.4663) = 0.373 \text{ cm} = 3.73 \text{ mm}$$
 </div>
 
 **Discussion**
 
-The ray is displaced laterally by about 2.85 mm as it passes through the 1 cm thick glass. This displacement is why objects viewed through a window appear slightly shifted from their actual positions. The displacement depends on both the thickness of the glass and the angle of incidence—the greater the angle and the thicker the glass, the larger the displacement.
+The ray is displaced horizontally by about 3.73 mm as it passes through the 1 cm thick glass. This displacement is why objects viewed through a window appear slightly shifted from their actual positions. The displacement depends on both the thickness of the glass and the angle of incidence—the greater the angle and the thicker the glass, the larger the displacement.
 
 :::
 

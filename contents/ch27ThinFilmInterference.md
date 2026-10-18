@@ -574,7 +574,7 @@ Find the minimum thickness of a soap bubble that appears red when illuminated by
 
 **Strategy**
 
-A soap bubble is a thin film with air on both sides. There are phase changes at both the outer surface (air to soap, n increases) and inner surface (soap to air, n decreases)... wait, actually the inner surface goes from soap (n = 1.33) back to air (n = 1.00), so there's NO phase change there. Actually, let me reconsider: for a soap bubble, light reflects from both the outer and inner surfaces. The outer reflection (air n=1 to soap n=1.33) HAS a phase change. The inner reflection (soap n=1.33 to air n=1) has NO phase change. So overall, there's ONE phase change.
+A soap bubble is a thin film with air on both sides. Light reflects from both the outer and inner surfaces. The outer reflection (air, n = 1.00, to soap, n = 1.33) has a phase change, because n increases. The inner reflection (soap, n = 1.33, to air, n = 1.00) has no phase change, because n decreases. So overall there is one phase change.
 
 With one phase change, constructive interference: $$2tn = (m + \frac{1}{2})\lambda$$
 
@@ -805,17 +805,7 @@ Given:
 - $$n = 1.33$$ (water)
 - $$\lambda_{\text{min}} = 380 \text{ nm}$$ (shortest visible, violet)
 
-For the bubble to appear dark, the path length difference must be less than λ/4:
-
-<div class="equation">
-$$2t < \frac{\lambda_{\text{min}}}{4}$$
-</div>
-
-<div class="equation">
-$$t < \frac{\lambda_{\text{min}}}{8} = \frac{380 \text{ nm}}{8} = 47.5 \text{ nm}$$
-</div>
-
-But actually, we need $$2tn < \lambda_{\text{min}}/4$$, so:
+For the bubble to appear dark, the path length difference in the film must be less than λ/4. Because the wavelength in the film is λ/n, this condition is $$2tn < \lambda_{\text{min}}/4$$, so:
 
 <div class="equation">
 $$t < \frac{\lambda_{\text{min}}}{8n} = \frac{380 \text{ nm}}{8(1.33)} = 35.7 \text{ nm}$$
@@ -823,7 +813,7 @@ $$t < \frac{\lambda_{\text{min}}}{8n} = \frac{380 \text{ nm}}{8(1.33)} = 35.7 \t
 
 **(b) Fragility discussion:**
 
-A thickness of 35.7 nm is extremely thin - only about 35-40 molecular layers of water. For comparison:
+A thickness of 35.7 nm is extremely thin. For comparison:
 - A water molecule is roughly 0.3 nm in diameter
 - This film is only about 100-120 molecules thick
 - Typical soap films range from 10-1000 nm

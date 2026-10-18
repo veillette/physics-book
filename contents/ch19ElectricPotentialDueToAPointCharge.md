@@ -638,17 +638,9 @@ $$270 \times 10^{3} = (2.70 \times 10^{4})\left(10 - \frac{1}{r_2'}\right)$$
 
 $$10 = 10 - \frac{1}{r_2'}$$
 
-This gives $$\frac{1}{r_2'} = 0$$, meaning $$r_2' \rightarrow \infty$$
+This gives $$\frac{1}{r_2'} = 0$$, meaning $$r_2' \rightarrow \infty$$. Check: with the outer point at infinity,
 
-Alternatively, move the point closer: at $$r_2' = 0.133$$ m (13.3 cm):
-
-$$\Delta V = (2.70 \times 10^{4})(10 - 7.5) = 67.5 \text{ kV}$$ (This gives half, not double)
-
-To double, move farther away or closer to charge. The 20 cm point should move to **infinity** (or effectively very far away) or the 10 cm point adjusted. If we keep 10 cm fixed and move the outer point to 40 cm:
-
-$$\Delta V = (2.70 \times 10^{4})(10 - 2.5) = 202 \text{ kV}$$ (not quite double)
-
-Moving to infinity: $$\Delta V = (2.70 \times 10^{4})(10) = 270 \text{ kV}$$ ✓
+$$\Delta V = (2.70 \times 10^{4})(10 - 0) = 270 \text{ kV}$$ ✓
 
 **Discussion**
 

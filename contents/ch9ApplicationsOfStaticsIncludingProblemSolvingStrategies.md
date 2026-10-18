@@ -437,18 +437,7 @@ $$ F_L = W + F_R = 49.0 \N + 140 \N = 189 \N $$
 
 The left hand exerts a force of **189 N upward**.
 
-We can verify using torque about the right hand:
-$$ F_L \times 0.700 \m = W \times (2.00 - 0.700) \m = (49.0)(1.30) = 63.7 \text{ N·m} $$
-
-Check: $$ F_L = 63.7/0.700 = 91.0 \N $$...
-
-Wait, let me reconsider the geometry. Looking at Figure 3, the cg is to the LEFT of the vaulter's hands. So if the left hand is at position 0, the cg is at position -2.00 m (to the left), and the right hand is at position +0.700 m (to the right of the left hand).
-
-Let me redo this calculation with proper signs.
-
-Actually, re-reading the problem: "the cg of the pole is 2.00 m from the left hand" with the cg to the LEFT of the left hand (as shown in Figure 3).
-
-About the right hand as pivot:
+We can verify this result using torques about the right hand. Because the cg lies to the left of both hands, it is farther from the right hand than from the left:
 
 - Distance from right hand to cg: $$ 2.00 + 0.700 = 2.70 \m $$
 - Distance from right hand to left hand: $$ 0.700 \m $$

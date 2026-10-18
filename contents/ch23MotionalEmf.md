@@ -665,54 +665,32 @@ assessing the magnitude of the effect.
 
 **Strategy**
 
-(a) The magnetic drag force on a current-carrying conductor in a magnetic field is $$ F=I\ell B $$, where we need to determine $$\ell $$ from the emf and velocity.
-(b) Power dissipated is $$ P=\text{emf} \times I $$, and energy over time is $$ E=Pt $$.
+(a) The magnetic drag force on a current-carrying conductor in a magnetic field is $$ F=I\ell B $$, using the 20.0 km tether and $$ B = 5.00 \times 10^{-5} \text{ T} $$ from Example 1.
+(b) The kinetic energy removed equals the work done against the drag force, $$ E = Fvt $$.
 (c) Use the work-energy theorem: the energy removed equals the change in kinetic energy.
 (d) Extrapolate the velocity change over a week and discuss orbital mechanics implications.
 
 **Solution**
 
 **(a)** Given:
--$$\text{emf} = 5.00 \text{ kV} = 5000 \text{ V}$$
--$$ I = 10.0 \text{ A}$$
+- $$\text{emf} = 5.00 \text{ kV} = 5000 \text{ V}$$
+- $$ I = 10.0 \text{ A}$$
 -$$ v = 7.80 \text{ km/s} = 7.80 \times 10^3 \text{ m/s}$$
-- From Example 1,$$ B = 5.00 \times 10^{-5} \text{ T}$$
-
-First, find the length of the tether from $$\text{emf}=B\ell v $$:
-
-<div class="equation">
-$$\ell = \frac{\text{emf}}{Bv} = \frac{5000}{(5.00 \times 10^{-5})(7.80 \times 10^3)} = \frac{5000}{0.390} = 1.28 \times 10^4 \text{ m}$$
-</div>
+- From Example 1, $$ B = 5.00 \times 10^{-5} \text{ T}$$ and $$ \ell = 20.0 \text{ km} = 2.00 \times 10^4 \text{ m}$$
 
 The magnetic drag force is:
 
 <div class="equation">
-$$ F = I\ell B = (10.0)(1.28 \times 10^4)(5.00 \times 10^{-5}) = 6.40 \text{ N}$$
+$$ F = I\ell B = (10.0 \text{ A})(2.00 \times 10^4 \text{ m})(5.00 \times 10^{-5} \text{ T}) = 10.0 \text{ N}$$
 </div>
 
-Wait, let me recalculate. The problem states the tether is 20.0 km from Example 1, so:
-
-<div class="equation">
-$$ F = I\ell B = (10.0 \text{ A})(2.0 \times 10^4 \text{ m})(5.00 \times 10^{-5} \text{ T}) = 10.0 \text{ N}$$
-</div>
-
-**(b)** Power dissipated:
-
-<div class="equation">
-$$ P = \text{emf} \times I = (5000 \text{ V})(10.0 \text{ A}) = 5.00 \times 10^4 \text{ W}$$
-</div>
-
-Energy removed in 1.00 hour:
-
-<div class="equation">
-$$ E = Pt = (5.00 \times 10^4 \text{ W})(1.00 \text{ h})(3600 \text{ s/h}) = 1.80 \times 10^8 \text{ J}$$
-</div>
-
-Actually, let me recalculate using the force and distance. The work done by the drag force equals the kinetic energy removed:
+**(b)** The work done by the drag force equals the kinetic energy removed. In 1.00 h the system travels a distance $$ d = vt $$, so:
 
 <div class="equation">
 $$ E = F \cdot d = F \cdot v \cdot t = (10.0 \text{ N})(7.80 \times 10^3 \text{ m/s})(3600 \text{ s}) = 2.81 \times 10^8 \text{ J}$$
 </div>
+
+This is more than the electrical energy delivered, $$ (\text{emf})It = (5000 \text{ V})(10.0 \text{ A})(3600 \text{ s}) = 1.80 \times 10^8 \text{ J}$$. The full motional emf of the tether is $$ B\ell v = 7.80 \text{ kV}$$, but only 5.00 kV is available at the output; the rest of the energy is dissipated in the resistance of the tether and the ionosphere.
 
 **(c)** Using the work-energy theorem, the energy removed equals the change in kinetic energy:
 
@@ -741,7 +719,7 @@ $$\frac{\Delta v}{v} = \frac{60.5}{7800} = 0.00776 = 0.776\%$$
 
 Part (a): The magnetic drag force of 10.0 N may seem small, but it acts continuously on the satellite system. This force results from the interaction between the 10.0 A current in the 20.0 km tether and Earth's magnetic field. The force opposes the satellite's motion, extracting orbital energy.
 
-Part (b): The energy removal of $$2.81 \times 10^8$$ J (281 megajoules) in just one hour is substantial—equivalent to about 78 kWh of electrical energy. This demonstrates the potential of the tethered satellite as a power source, though the "fuel" being consumed is the orbital kinetic energy of the shuttle itself. The power of 50 kW (from $$ P = VI $$) could run several households.
+Part (b): The energy removal of $$2.81 \times 10^8$$ J (281 megajoules) in just one hour is substantial—equivalent to about 78 kWh of electrical energy. This demonstrates the potential of the tethered satellite as a power source, though the "fuel" being consumed is the orbital kinetic energy of the shuttle itself. The 50 kW of electrical power delivered (from $$ P = VI $$) could run several households.
 
 Part (c): The velocity decrease of 0.36 m/s per hour seems modest, but it's significant in orbital mechanics. This confirms that the energy accounting is consistent: the mechanical energy lost (from slowing down) equals the electrical energy generated plus any dissipated heat.
 

@@ -1073,43 +1073,35 @@ The image distance:
  $$d_i = 400 \times 0.501 = 200.4 \text{ cm}$$
 </div>
 
-**(b)** For the eyepiece magnification of 4.00:
+**(b)** The image formed by the objective is the object for the eyepiece. For the eyepiece to magnify it by a further 4.00 with an upright virtual image, its linear magnification is
 
 <div class="equation">
- $$m_e = \frac{25 \text{ cm}}{f_e} = \frac{25}{5.00} = 5.00$$
+ $$m_e = -\frac{d_i'}{d_o'} = 4.00 \quad\Rightarrow\quad d_i' = -4.00\,d_o'$$
 </div>
 
-Wait, this gives 5.00×, not 4.00×. For $$m_e = 4.00$$:
+Substituting into the thin lens equation for the eyepiece:
 
 <div class="equation">
- $$m_e = 1 + \frac{d}{f_e}$$
+ $$\frac{1}{f_e} = \frac{1}{d_o'} - \frac{1}{4.00\,d_o'} = \frac{3}{4.00\,d_o'}$$
 </div>
-
-where $$d$$ is the distance of the intermediate image from the eyepiece. For $$m_e = 4.00$$:
 
 <div class="equation">
- $$d = f_e(m_e - 1) = 5.00(4.00 - 1) = 15.0 \text{ cm}$$
+ $$d_o' = \frac{3}{4.00} f_e = \frac{3}{4.00}(5.00 \text{ cm}) = 3.75 \text{ cm}$$
 </div>
 
-No, actually using $$m_e = \frac{25}{f_e}$$ assumes final image at near point. For $$m_e = 4.00$$ with $$f_e = 5.00$$ cm:
+The eyepiece must be 3.75 cm beyond the objective's image, so its distance from the objective is
 
 <div class="equation">
- $$f_e = \frac{25 \text{ cm}}{m_e} = \frac{25}{4.00} = 6.25 \text{ cm}$$
+ $$d_i + d_o' = 200.4 \text{ cm} + 3.75 \text{ cm} = 204 \text{ cm}$$
 </div>
 
-This doesn't match. Let me reconsider: the eyepiece should be positioned so its object (the objective's image) is at the focal point for relaxed viewing, giving:
-
-Distance from objective = $$d_i + f_e = 200.4 + 5.00 = 205.4 \approx 204 \text{ cm}$$
-
-**(Rounding to 204 cm as in the provided answer)**
-
-**(c)** No, a distance of 205 cm (which is over 2 m) is unrealistic for the tube of a microscope.
+**(c)** No, a distance of 204 cm (which is over 2 m) is unrealistic for the tube of a microscope.
 
 **Discussion**
 
 Part (a): The object must be placed 0.501 cm from the objective—barely beyond the 0.500 cm focal length. This tiny displacement of only 0.001 cm (10 μm) produces the enormous 400× magnification. The image forms at 200.4 cm, which is 400 times farther than the object distance, confirming the magnification.
 
-Part (b): The eyepiece should be 204 cm behind the objective lens. This large tube length is characteristic of high-magnification microscopes. The intermediate image from the objective serves as the object for the eyepiece, and proper placement ensures the final image is at the viewer's near point or infinity (for relaxed viewing).
+Part (b): The eyepiece should be 204 cm behind the objective lens. This is more than ten times the length of a typical microscope tube (about 16 cm), which is why the design is unrealistic. The intermediate image from the objective serves as the object for the eyepiece, which forms an upright virtual image 15.0 cm in front of it.
 
 The total magnification is $$m = m_o \times m_e = 400 \times 4.00 = 1600×$$, which is near the practical limit for optical microscopy. This demonstrates why high-magnification microscopes are physically large—the tube length increases dramatically with magnification. Modern research microscopes use specialized optical designs to achieve high magnification in more compact form factors.
 

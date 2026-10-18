@@ -1608,8 +1608,6 @@ $$336000 m_r = 1479640$$
 $$m_r = \frac{1479640}{336000} = 4.40 \text{ kg}$$
 </div>
 
-(Note: The expected answer is 4.38 kg; the small difference likely comes from rounding in intermediate steps or slightly different values for constants used.)
-
 **Discussion**
 
 The result of approximately 4.4 kg of rocks to heat 4.0 kg of water makes sense given the temperature changes involved. The rocks cool by 400 °C (from 500 °C to 100 °C) while the water heats by only 85 °C (from 15 °C to 100 °C). Despite this 4.7:1 ratio in temperature changes, we need roughly equal masses because:
@@ -1624,7 +1622,7 @@ This ancient cooking method was ingenious and widely used by indigenous peoples 
 
 **Answer**
 
-The mass of 500 °C rock needed is approximately **4.38 kg** or **4.40 kg**.
+The mass of 500 °C rock needed is approximately **4.40 kg**.
 
 :::
 

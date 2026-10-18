@@ -639,7 +639,7 @@ We need to find the mass of water evaporated per square meter in 1.00 hour.
 - Solar heat input rate: $$\frac{Q}{t} = 1.00 \text{ kW/m}^2 = 1000 \text{ W/m}^2$$
 - Time: $$t = 1.00 \text{ h} = 3600 \text{ s}$$
 - Area: $$A = 1.00 \text{ m}^2$$
-- Latent heat of vaporization: $$L_v = 2256 \times 10^3 \text{ J/kg}$$
+- Latent heat of vaporization: $$L_v = 2430 \times 10^3 \text{ J/kg}$$ (the value at 37ºC from [Table 1](../contents/ch14PhaseChangeAndLatentHeat#Table1); the lake evaporates near this temperature, not at 100ºC)
 
 **Step 5: Solve appropriate equation**
 Total heat absorbed in 1.00 hour per square meter:
@@ -654,24 +654,24 @@ $$Q = mL_{v}$$
 
 Solve for mass:
 <div class="equation">
-$$m = \frac{Q}{L_v} = \frac{3.60 \times 10^6}{2256 \times 10^3}$$
+$$m = \frac{Q}{L_v} = \frac{3.60 \times 10^6}{2430 \times 10^3}$$
 </div>
 
 <div class="equation">
-$$m = \frac{3.60 \times 10^6}{2.256 \times 10^6} = 1.60 \text{ kg}$$
+$$m = \frac{3.60 \times 10^6}{2.43 \times 10^6} = 1.48 \text{ kg}$$
 </div>
 
 **Step 6: Insert knowns with units**
 (Already done above)
 
 **Step 7: Check reasonableness**
-About 1.6 kg (1.6 liters) of water evaporates per square meter per hour under strong sunlight. This seems reasonable—on a hot, dry day, a small kiddie pool or puddle can dry up noticeably in hours.
+About 1.5 kg (1.5 liters) of water evaporates per square meter per hour under strong sunlight. This seems reasonable—on a hot, dry day, a small kiddie pool or puddle can dry up noticeably in hours.
 
 **Discussion**
 
-The result of approximately 1.5-1.6 kg of water evaporating per square meter per hour demonstrates the enormous cooling power of evaporation. Key insights:
+The result of approximately 1.5 kg of water evaporating per square meter per hour demonstrates the enormous cooling power of evaporation. Key insights:
 
-1. **Evaporation requires large energy**: Each kilogram requires 2.256 MJ to evaporate, which is why evaporation is such an effective cooling mechanism.
+1. **Evaporation requires large energy**: Each kilogram requires about 2.43 MJ to evaporate, which is why evaporation is such an effective cooling mechanism.
 
 2. **Solar energy balance**: The 1.00 kW/m² represents full sunlight on a clear day. All this energy goes into evaporation, preventing the lake from heating up.
 
@@ -682,13 +682,13 @@ The result of approximately 1.5-1.6 kg of water evaporating per square meter per
    - Demonstrates the effectiveness of evaporative coolers ("swamp coolers") in arid regions
 
 4. **Scale implications**:
-   - A small pond (100 m²) would evaporate 160 kg/hour = 3.8 tonnes/day
-   - A lake (1 km² = 10⁶ m²) would evaporate 1.6 million kg/hour = 38,400 tonnes/day
+   - A small pond (100 m²) would evaporate 148 kg/hour = 3.55 tonnes/day
+   - A lake (1 km² = 10⁶ m²) would evaporate 1.48 million kg/hour = 35,500 tonnes/day
    - This represents significant water loss requiring replenishment from rain or inflow
 
 5. **Energy comparison**: The 3.6 MJ of solar energy per square meter per hour could alternatively:
    - Heat 8.6 kg of water from 0ºC to 100ºC
-   - But only evaporate 1.6 kg of water
+   - But only evaporate 1.48 kg of water
    - This shows latent heat of vaporization is much larger than sensible heat
 
 The problem illustrates why:
@@ -696,8 +696,6 @@ The problem illustrates why:
 - Covered reservoirs save water in arid regions
 - Swimming pools use covers at night to reduce evaporation
 - Humidity makes hot weather feel hotter (reduced evaporative cooling from skin)
-
-Note: The expected answer is 1.48 kg, suggesting slightly different values for constants or rounding may have been used. Using $$L_v = 2430 \text{ kJ/kg}$$ (at 20ºC instead of 100ºC) gives: $$m = 3.6 \times 10^6 / (2430 \times 10^3) = 1.48 \text{ kg}$$, which matches exactly.
 
 **Answer**
 

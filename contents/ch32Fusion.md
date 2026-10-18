@@ -438,19 +438,17 @@ For each reaction, calculate the mass defect and convert to energy using $$E = (
 
 **Reaction 1:** $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}}$$
 
+Atomic masses include the electrons. The two $${}^{1}\text{H}$$ atoms on the left have two electrons, while the $${}^{2}\text{H}$$ atom on the right has only one. The products therefore contain one extra electron (left over from the hydrogen atoms) plus the positron, so we subtract $$2m_e$$:
+
 <div class="equation">
-$$ \Delta m = 2m({}^{1}\text{H}) - [m({}^{2}\text{H}) + m_e] = 2(1.007825) - [2.014102 + 0.000549] = 0.000999 \text{ u} $$
+$$ \Delta m = 2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e = 2(1.007825) - 2.014102 - 2(0.000549) = 0.000450 \text{ u} $$
 </div>
 
 <div class="equation">
-$$ E_1 = (0.000999)(931.5) = 0.931 \text{ MeV} $$
+$$ E_1 = (0.000450)(931.5) = 0.419 \text{ MeV} \approx 0.42 \text{ MeV} \quad \checkmark $$
 </div>
 
-However, the positron will annihilate with an electron, releasing $$2m_ec^{2} = 1.022$$ MeV, but this is external to the nucleus. The nuclear energy release is 0.931 MeV. The text gives 0.42 MeV, which is the energy carried away by the positron and neutrino (kinetic energy), not the total Q-value. Let me recalculate using the Q-value approach properly:
-
-<div class="equation">
-$$ Q = [2m({}^{1}\text{H}) - m({}^{2}\text{H}) - 2m_e]c^2 = [2(1.007825) - 2.014102 - 2(0.000549)] \times 931.5 = 0.420 \text{ MeV} $$
-</div>
+This is the kinetic energy shared by the deuteron, positron, and neutrino. When the positron later annihilates with an electron, a further $$2m_ec^{2} = 1.022$$ MeV is released, but that is not part of this reaction's energy.
 
 **Reaction 2:** $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$
 

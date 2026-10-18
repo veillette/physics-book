@@ -1281,39 +1281,33 @@ Power dissipated by the bulb:
 $$P_{\text{bulb}} = \frac{V_{\text{bulb}}^2}{R_{\text{bulb}}} = \frac{(114 \text{ V})^2}{192 \text{ Ω}} = 67.7 \text{ W}$$
 </div>
 
-Actually, let me recalculate more carefully. The current through the bulb is:
+**(b)** The current through the bulb is:
 <div class="equation">
 $$I_{\text{bulb}} = \frac{V_{\text{bulb}}}{R_{\text{bulb}}} = \frac{114 \text{ V}}{192 \text{ Ω}} = 0.594 \text{ A}$$
 </div>
 
-<div class="equation">
-$$P_{\text{bulb}} = I_{\text{bulb}} V_{\text{bulb}} = (0.594 \text{ A})(114 \text{ V}) = 67.7 \text{ W} \approx 60.8 \text{ W}$$
-</div>
-
-(Note: The given answer of 60.8 W suggests a slightly different calculation path or rounding.)
-
-**(b)** The motor current is:
+The motor current is:
 <div class="equation">
 $$I_{\text{motor}} = I_{\text{total}} - I_{\text{bulb}} = 15.0 - 0.594 = 14.4 \text{ A}$$
 </div>
 
 Power consumed by the motor:
 <div class="equation">
-$$P_{\text{motor}} = I_{\text{motor}} V_{\text{bulb}} = (14.4 \text{ A})(114 \text{ V}) = 1640 \text{ W} = 1.64 \text{ kW}$$
+$$P_{\text{motor}} = I_{\text{motor}} V_{\text{bulb}} = (14.4 \text{ A})(114 \text{ V}) = 1.64 \times 10^{3} \text{ W} = 1.64 \text{ kW}$$
 </div>
 
-Let me verify using total power:
+Check using total power:
 <div class="equation">
 $$P_{\text{total}} = IV_{\text{source}} - I^2 R_{\text{wire}} = (15.0)(120) - (15.0)^2(0.400) = 1800 - 90 = 1710 \text{ W}$$
 </div>
 
-This should equal $$P_{\text{bulb}} + P_{\text{motor}} = 67.7 + 1640 = 1708 \text{ W}$$ ✓ (close, within rounding)
+This equals $$P_{\text{bulb}} + P_{\text{motor}} = 67.7 + 1640 = 1708 \text{ W}$$ to within rounding ✓
 
 **Discussion**
 
-The bulb's power decreases from 75.0 W to about 61-68 W (depending on exact calculation), causing the noticeable dimming. The voltage drop of 6.00 V across the wire resistance reduces the voltage available to the bulb and motor from 120 V to 114 V—a 5% reduction. Even this small voltage reduction significantly affects bulb brightness, which is proportional to power. The motor draws substantial power (1.6-3.2 kW depending on the exact scenario), making it a heavy load.
+The bulb's power decreases from 75.0 W to 67.7 W, causing the noticeable dimming. The voltage drop of 6.00 V across the wire resistance reduces the voltage available to the bulb and motor from 120 V to 114 V—a 5% reduction. Even this small voltage reduction significantly affects bulb brightness, which is proportional to power. The motor draws about 1.64 kW, making it a heavy load.
 
-(a) The bulb dissipates approximately 60.8 W. (b) The motor consumes approximately 3.18 kW (calculation details may vary based on assumptions).
+(a) The bulb dissipates 67.7 W. (b) The motor consumes 1.64 kW.
 
 :::
 

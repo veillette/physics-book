@@ -1150,22 +1150,10 @@ The image height is:
 $$h_i = m \cdot h_o = -0.0169 \times 1750 \text{ mm} = -29.6 \text{ mm}$$
 </div>
 
-Taking the absolute value, 29.6 mm of the 36.0 mm film height is used. Fraction:
+Taking the absolute value, the image is 29.6 mm tall. This is less than the 36.0 mm film height, so the entire person fits. The fraction of the film height used is:
 <div class="equation">
 $$\frac{29.6}{36.0} = 0.822 = 82.2\%$$
 </div>
-
-Alternatively, if the entire person (1750 mm) were to fit on the 36.0 mm film:
-<div class="equation">
-$$\text{Fraction} = \frac{h_i}{h_o} = \frac{29.6 \text{ mm}}{1750 \text{ mm}} \times \frac{1750 \text{ mm}}{36.0 \text{ mm}} = \frac{29.6}{36.0} = 0.822$$
-</div>
-
-Actually, the question asks what fraction of the person fits:
-<div class="equation">
-$$\text{Fraction of person} = \frac{36.0 \text{ mm}}{29.6 \text{ mm}} = 1.22$$
-</div>
-
-This means the entire person (100%) plus 22% more would fit, so the entire person fits comfortably.
 
 **(c)** This is very reasonable. With a 50 mm "normal" lens and the subject 3 m away, getting a full-body portrait that uses about 82% of the frame height is typical. This provides good composition with a little space above the head and below the feet. Professional photographers often aim for this kind of framing for full-body portraits, as it avoids cropping body parts while not wasting too much of the frame.
 

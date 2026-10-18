@@ -1025,21 +1025,18 @@ For an ingot of mass $$ m $$ and density $$ \rho $$:
 - Apparent mass loss in water: $$ \Delta m = \rho_{\text{water}} V = \rho_{\text{water}} (m/\rho) = m(\rho_{\text{water}}/\rho) $$
 
 For gold:
-$$ \Delta m_{\text{Au}} = m \frac{1000}{19,320} = 0.05176m $$
+$$ \Delta m_{\text{Au}} = m \frac{1000}{19,320} = 0.0517598m $$
 
 For tungsten:
-$$ \Delta m_{\text{W}} = m \frac{1000}{19,300} = 0.05181m $$
+$$ \Delta m_{\text{W}} = m \frac{1000}{19,300} = 0.0518135m $$
 
-The fractional difference:
-$$ \frac{\Delta m_{\text{W}} - \Delta m_{\text{Au}}}{\Delta m_{\text{Au}}} = \frac{0.05181 - 0.05176}{0.05176} = \frac{0.00005}{0.05176} = 0.00097 \approx 0.0001 = 0.01\% $$
+The apparent mass losses differ by:
+$$ \Delta m_{\text{W}} - \Delta m_{\text{Au}} = 0.0518135m - 0.0517598m = 5.37 \times 10^{-5} m $$
 
-Actually, a more direct calculation of the percentage difference:
-$$ \frac{\rho_{\text{Au}} - \rho_{\text{W}}}{\rho_{\text{Au}}} \times 100\% = \frac{19.32 - 19.30}{19.32} \times 100\% = 0.10\% $$
-
-The measurement precision needed is approximately **0.1%** or better (closer to **0.006%** considering the measurement must detect this small difference reliably).
+This difference is only 0.0054% of the ingot's mass. The masses measured in and out of water must therefore each be accurate to better than about **0.005%** (5 parts in $$ 10^5 $$) to tell tungsten from gold.
 
 **Discussion:**
-The required measurement accuracy is about **0.01%** or better. This is extremely challenging! Gold and tungsten have nearly identical densities (differing by only 0.1%), making them difficult to distinguish by density measurements alone. A 1-kg ingot would show an apparent mass difference of only about 1 gram when measured in water—easily obscured by measurement error. This is why gold-plated tungsten is a credible fraud: tungsten is much cheaper than gold but has almost the same density. Detecting such fraud requires either very precise density measurements (to 3-4 decimal places), destructive testing (drilling or cutting), or sophisticated techniques like X-ray fluorescence or ultrasound imaging.
+This is extremely challenging! Gold and tungsten have nearly identical densities (differing by only 0.1%), making them difficult to distinguish by density measurements alone. For a 1-kg ingot, the apparent mass loss in water would differ by only about 0.05 g (54 mg) between gold and tungsten—easily obscured by measurement error. This is why gold-plated tungsten is a credible fraud: tungsten is much cheaper than gold but has almost the same density. Detecting such fraud requires either very precise density measurements (to 3-4 decimal places), destructive testing (drilling or cutting), or sophisticated techniques like X-ray fluorescence or ultrasound imaging.
 
 :::
 

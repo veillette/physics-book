@@ -548,8 +548,8 @@ With the loop flat on the ground and current counterclockwise (viewed from above
 **Solution**
 
 *Known quantities (same as Exercise 1):*
--$$ N = 200$$,$$ r = 0.500$$ m,$$ I = 100$$ A
--$$ A = 0.785 \text{ m}^2$$
+- $$ N = 200$$,$$ r = 0.500$$ m,$$ I = 100$$ A
+- $$ A = 0.785 \text{ m}^2$$
 - Magnetic field:$$ B = 6.00 \times 10^{-5} \text{ T}$$, 45° below horizontal
 
 **(a) Magnitude and direction:**
@@ -560,15 +560,7 @@ The field has components:
 - Horizontal:$$ B_H = B\cos(45°) = (6.00 \times 10^{-5})\cos(45°)$$ (north)
 - Vertical:$$ B_V = B\sin(45°)$$ (downward)
 
-The angle between the upward moment and the field (pointing north and downward at 45°) is$$90° + 45° = 135°$$ from the horizontal field component's perspective. However, since the moment is vertical, we find the torque as:
-
-$$\tau = NIAB\sin\theta$$
-
-The angle$$\theta$$ between the magnetic moment (vertical, upward) and the field (north, 45° below horizontal) is:
-
-$$\theta = 90° + 45° = 135°$$ from moment to field...
-
-Actually, more simply: the moment is perpendicular to the horizontal, so the torque comes from the horizontal component of$$B$$:
+The angle between the magnetic moment (vertical, upward) and the field is $$\theta = 135°$$, so $$\sin\theta = \sin 45°$$. Equivalently, only the horizontal component of $$B$$ is perpendicular to the moment and produces a torque:
 
 $$\tau = NIAB_{H} = NIA(B\cos 45°)$$
 

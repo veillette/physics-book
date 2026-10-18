@@ -633,42 +633,19 @@ If two spaceships are heading directly towards each other at  $$ 0.800c $$ ,
 
 **Strategy**
 
-The ships approach each other at $$0.800c$$ each in some reference frame (e.g., their center-of-mass frame). From ship 1's perspective, ship 2 approaches at some relative velocity $$v$$. Ship 1 fires a canister at speed $$u'$$ (to be found), and ship 2 observes it approaching at $$u = 0.999c$$. Use the velocity addition formula: $$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$.
-
-First, find the relative velocity $$v$$ between the ships. If each ship moves at $$0.800c$$ toward each other in a common frame, their relative velocity is:
-$$v = \frac{0.800c + 0.800c}{1 + \frac{(0.800c)(0.800c)}{c^2}} = \frac{1.600c}{1 + 0.640} = \frac{1.600c}{1.640} = 0.976c$$
-
-Now solve for $$u'$$ given $$u = 0.999c$$ and $$v = 0.976c$$.
+The ships approach each other at a relative speed of $$0.800c$$, so in the frame of ship 2, ship 1 approaches at $$v = 0.800c$$. Ship 1 fires a canister at speed $$u'$$ relative to itself (to be found), and ship 2 observes it approaching at $$u = 0.999c$$. Use the velocity addition formula, $$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$, and solve for $$u'$$.
 
 **Solution**
 
-Relative velocity between ships: $$v = 0.976c$$
-
-Using $$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$ and solving for $$u'$$:
+Starting from the velocity addition formula:
 
 <div class="equation">
 $$u\left(1 + \frac{vu'}{c^2}\right) = v + u'$$
 </div>
 
 <div class="equation">
-$$u + \frac{uvu'}{c^2} = v + u'$$
-</div>
-
-<div class="equation">
 $$u - v = u' - \frac{uvu'}{c^2} = u'\left(1 - \frac{uv}{c^2}\right)$$
 </div>
-
-<div class="equation">
-$$u' = \frac{u - v}{1 - \frac{uv}{c^2}} = \frac{0.999c - 0.976c}{1 - \frac{(0.999c)(0.976c)}{c^2}} = \frac{0.023c}{1 - 0.975} = \frac{0.023c}{0.025} = 0.92c$$
-</div>
-
-Wait, let me recalculate. Actually, the problem states the ships are heading toward each other at $$0.800c$$—this likely means each has speed $$0.800c$$ relative to a midpoint observer, so their relative speed is what I calculated: $$v = 0.976c$$. But let me verify by recalculating $$u'$$:
-
-<div class="equation">
-$$u' = \frac{0.999c - 0.976c}{1 - 0.975024} = \frac{0.023c}{0.024976} = 0.921c$$
-</div>
-
-Hmm, this doesn't match the expected answer of $$0.991c$$. Let me reconsider: perhaps "heading directly towards each other at $$0.800c$$" means their **relative** velocity is $$0.800c$$. In that case, $$v = 0.800c$$ directly, and:
 
 <div class="equation">
 $$u' = \frac{u - v}{1 - \frac{uv}{c^2}} = \frac{0.999c - 0.800c}{1 - \frac{(0.999c)(0.800c)}{c^2}} = \frac{0.199c}{1 - 0.7992} = \frac{0.199c}{0.2008} = 0.991c$$
@@ -993,7 +970,7 @@ This is profoundly counterintuitive but has been verified in countless experimen
 ::: problem
 
 (a) All but the closest galaxies are receding from our own Milky Way Galaxy. If a galaxy  $$ 12.0 \times 10^{9}  \text{ly} $$
- ly away is receding from us at 0. $$0.900c $$ ,
+ away is receding from us at $$0.900c $$ ,
  at what velocity relative to us must we send an exploratory probe to approach the other galaxy at  $$0.990c $$ ,
  as measured from that galaxy? (b) How long will it take the probe to reach the other galaxy as measured from the Earth? You may assume that the velocity of the other galaxy remains constant. (c) How long will it then take for a radio signal to be beamed back? (All of this is possible in principle, but not practical.)
 
@@ -1003,58 +980,31 @@ This is profoundly counterintuitive but has been verified in countless experimen
 
 **Strategy**
 
-(a) The galaxy recedes at $$v = 0.900c$$ from Earth. We want the probe to approach the galaxy at $$u = 0.990c$$ as seen from the galaxy. Since the probe and galaxy are approaching each other, $$u$$ should be negative from our calculation perspective: $$u = -0.990c$$. Find the probe's velocity $$u'$$ relative to Earth using the relativistic velocity addition formula. (b) Calculate travel time using Earth's frame. (c) Find time for light to return.
+(a) Take the direction from Earth toward the galaxy as positive. The galaxy recedes at $$v = 0.900c$$ relative to Earth. To approach the galaxy, the probe must move in the positive direction at $$u' = 0.990c$$ as measured from the galaxy. Use the relativistic velocity addition formula to find the probe's velocity $$u$$ relative to Earth. (b) In Earth's frame, the probe gains on the galaxy at the difference of their speeds. (c) In Earth's frame, the signal must travel back from where the galaxy is when the probe arrives.
 
 **Solution**
 
-(a) The galaxy moves away from Earth at $$v = 0.900c$$. The probe must approach the galaxy at $$u = -0.990c$$ (negative indicating approach) as measured by the galaxy. Rearranging the velocity addition formula:
+(a) The galaxy's frame moves at $$v = 0.900c$$ relative to Earth, and the probe moves at $$u' = 0.990c$$ relative to the galaxy:
 
-$$u = \frac{v + u'}{1 + \frac{vu'}{c^2}}$$
+$$u = \frac{v + u'}{1 + \frac{vu'}{c^2}} = \frac{0.900c + 0.990c}{1 + (0.900)(0.990)} = \frac{1.890c}{1.891} = 0.99947c$$
 
-$$-0.990c = \frac{0.900c + u'}{1 + \frac{(0.900c)u'}{c^2}}$$
+The probe must travel at $$0.99947c$$ relative to Earth, in the same direction that the galaxy is receding.
 
-$$-0.990c\left(1 + \frac{0.900u'}{c}\right) = 0.900c + u'$$
+(b) In Earth's frame, the galaxy starts $$12.0 \times 10^9$$ ly away and moves away at $$0.900c$$, while the probe chases it at $$0.99947c$$. The probe gains on the galaxy at $$0.99947c - 0.900c = 0.09947c$$, so the time to reach it is:
 
-$$-0.990c - \frac{(0.990)(0.900)u'}{c} = 0.900c + u'$$
+$$t = \frac{12.0 \times 10^9 \text{ ly}}{0.09947c} = 1.2064 \times 10^{11} \text{ y}$$
 
-$$-0.990c - 0.900c = u' + 0.891\frac{u'}{c} \cdot c = u'(1 + 0.891)$$
+(c) When the probe arrives, the galaxy is this far from Earth:
 
-$$-1.890c = u'(1.891)$$
+$$d = 12.0 \times 10^9 \text{ ly} + (0.900c)(1.2064 \times 10^{11} \text{ y}) = 12.0 \times 10^9 + 1.0858 \times 10^{11} = 1.2058 \times 10^{11} \text{ ly}$$
 
-$$u' = \frac{-1.890c}{1.891} = -0.99947c$$
+Earth is at rest in its own frame, so a radio signal traveling at $$c$$ takes:
 
-The probe must travel at $$0.99947c$$ toward the galaxy (negative sign indicates direction opposite to galaxy's recession).
-
-(b) From Earth's perspective, the galaxy is initially $$12.0 \times 10^9$$ ly away and moving away at $$0.900c$$. The probe moves toward it at $$0.99947c$$. Their relative closing speed (in Earth's frame, using distances) needs careful treatment.
-
-The probe's position: $$x_p(t) = -0.99947ct$$
-The galaxy's position: $$x_g(t) = 12.0 \times 10^9 + 0.900ct$$
-
-They meet when $$x_p = x_g$$:
-
-$$-0.99947ct = 12.0 \times 10^9 + 0.900ct$$
-
-$$-0.99947ct - 0.900ct = 12.0 \times 10^9$$
-
-$$t(-1.89947c) = 12.0 \times 10^9 \text{ ly}$$
-
-$$t = \frac{12.0 \times 10^9}{1.89947} = 6.317 \times 10^9 \text{ y}$$
-
-Wait, let me recalculate more carefully. The effective closing velocity in Earth's frame is $$0.99947c + 0.900c = 1.89947c$$ classically, but we need to account for the actual distance traveled. Actually, for this problem at these extreme distances, we can use:
-
-$$t = \frac{12.0 \times 10^9 \text{ ly}}{0.99947c - (-0.900c)} = \frac{12.0 \times 10^9}{0.99947 + 0.900} \text{ y} = \frac{12.0 \times 10^9}{0.09947} \approx 1.2064 \times 10^{11} \text{ y}$$
-
-(c) After reaching the galaxy, a radio signal must travel back to Earth at speed $$c$$. By this time, Earth has moved further away. The signal travels at $$c$$ while Earth recedes at $$0.900c$$, so the effective closing speed is $$c - 0.900c = 0.100c$$.
-
-Additional distance Earth has receded: $$(1.2064 \times 10^{11})(0.900) = 1.0858 \times 10^{11}$$ ly
-
-Total distance for signal: $$12.0 \times 10^9 + 1.0858 \times 10^{11} = 1.2058 \times 10^{11}$$ ly
-
-Time for signal at speed $$c$$: $$t = \frac{1.2058 \times 10^{11} \text{ ly}}{c} = 1.2058 \times 10^{11} \text{ y}$$
+$$t = \frac{1.2058 \times 10^{11} \text{ ly}}{c} = 1.2058 \times 10^{11} \text{ y}$$
 
 **Discussion**
 
-This problem illustrates the extreme time scales involved in intergalactic travel and communication. The round trip (travel + signal return) would take about $$2.4 \times 10^{11}$$ years—roughly 17 times the current age of the universe! Even traveling at 99.947% the speed of light, the probe would take over 120 billion years to reach a galaxy 12 billion light-years away, primarily because the galaxy is receding from us at 90% the speed of light. The signal return takes nearly as long because Earth continues to recede during the probe's journey. This demonstrates why intergalactic exploration is impractical even in principle—by the time we received a signal back, the universe would have evolved beyond recognition, if it still existed at all. This problem elegantly shows the practical limitations imposed by special relativity on space exploration beyond our local galactic neighborhood.
+This problem illustrates the extreme time scales involved in intergalactic travel and communication. The round trip (travel + signal return) would take about $$2.4 \times 10^{11}$$ years—roughly 17 times the current age of the universe! Even traveling at 99.947% the speed of light, the probe would take over 120 billion years to reach a galaxy 12 billion light-years away, primarily because the galaxy is receding from us at 90% the speed of light. The signal return takes nearly as long because, by the time the probe arrives, the galaxy has receded to about $$1.21 \times 10^{11}$$ ly from Earth. This demonstrates why intergalactic exploration is impractical even in principle—by the time we received a signal back, the universe would have evolved beyond recognition, if it still existed at all. This problem elegantly shows the practical limitations imposed by special relativity on space exploration beyond our local galactic neighborhood.
 
 :::
 

@@ -342,7 +342,7 @@ The parallel connection stores about 6 times more charge and energy than the ser
 
 ::: problem
 
-A nervous physicist worries that the two metal shelves of his wood frame bookcase might obtain a high voltage if charged by static electricity, perhaps produced by friction. (a) What is the capacitance of the empty shelves if they have area  $$ 1.00 \times 10^{2}  {\text{m}}^{2} $$
+A nervous physicist worries that the two metal shelves of his wood frame bookcase might obtain a high voltage if charged by static electricity, perhaps produced by friction. (a) What is the capacitance of the empty shelves if they have area  $$ 1.00 \times 10^{-1}  {\text{m}}^{2} $$
  and are 0.200 m apart? (b) What is the voltage between them if opposite charges of magnitude 2.00 nC are placed on them? (c) To show that this voltage poses a small hazard, calculate the energy stored.
 
 :::
@@ -357,19 +357,7 @@ The metal shelves act as a parallel plate capacitor with air between them. We us
 
 **(a)** Calculate the capacitance:
 
-$$C = \epsilon_{0} \frac{A}{d} = (8.85 \times 10^{-12} \text{ F/m}) \frac{1.00 \times 10^{2} \text{ m}^2}{0.200 \text{ m}}$$
-
-$$C = (8.85 \times 10^{-12} \text{ F/m})(500 \text{ m})$$
-
-$$C = 4.43 \times 10^{-9} \text{ F} = 4.43 \text{ nF}$$
-
-Wait, let me recalculate:
-
-$$C = \frac{(8.85 \times 10^{-12} \text{ F/m})(1.00 \times 10^{2} \text{ m}^2)}{0.200 \text{ m}} = \frac{8.85 \times 10^{-10} \text{ F·m}}{0.200 \text{ m}}$$
-
-$$C = 4.43 \times 10^{-9} \text{ F}$$
-
-Hmm, but the answer given is $$4.43 \times 10^{-12}$$ F. Let me check the area—it says $$1.00 \times 10^2$$ m² = 100\text{ m}², which would be extremely large shelves (10\text{ m} × 10\text{ m}). Perhaps the intended area is $$1.00 \times 10^{-2}$$ m² (100 cm²). Using the given answer:
+$$C = \epsilon_{0} \frac{A}{d} = (8.85 \times 10^{-12} \text{ F/m}) \frac{1.00 \times 10^{-1} \text{ m}^2}{0.200 \text{ m}}$$
 
 $$C = 4.43 \times 10^{-12} \text{ F} = 4.43 \text{ pF}$$
 

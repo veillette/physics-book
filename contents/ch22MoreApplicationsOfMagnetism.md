@@ -1210,7 +1210,7 @@ The Hall voltage decreases in the larger pipe because the water flows slower (to
 
 **Integrated Concepts**
 
-(a) Using the values given for an MHD drive in [[Exercise 2]](#Exercise2), and
+(a) Using the values given for an MHD drive in the problems for [Magnetic Force on a Current-Carrying Conductor](../contents/ch22MagneticForceOnACurrentCarryingConductor), and
 assuming the force is uniformly applied to the fluid, calculate the pressure
 created in $${\text{N/m}}^{2}\text{.} $$
 (b) Is this a significant fraction of an atmosphere?
@@ -1221,30 +1221,27 @@ created in $${\text{N/m}}^{2}\text{.} $$
 
 **Strategy**
 
-This problem requires finding the pressure from the MHD drive force. The pressure is force per unit area. We need to use the values from the MHD drive problem (typically involving current through seawater in a magnetic field).
+This problem requires finding the pressure from the MHD drive force. The pressure is force per unit area. The MHD drive problem has a 100-A current across a 25.0-cm-diameter tube in a 2.00-T field. The force acts on the water in the tube, so it is spread over the tube's cross-sectional area.
 
 **Solution**
 
-*Known quantities (from typical MHD drive parameters):*
-- Current: $I = 500 \text{ A}$
-- Magnetic field: $B = 2.00 \text{ T}$
-- Channel length: $L = 1.00 \text{ m}$
-- Channel cross-sectional area: $A = 0.200 \text{ m} \times 0.100 \text{ m} = 0.0200 \text{ m}^2$
-- Atmospheric pressure: $P_{\text{atm}} = 1.01 \times 10^5 \text{ N/m}^2$
+*Known quantities (from the MHD drive problem):*
+- Current: $$I = 100 \text{ A}$$
+- Magnetic field: $$B = 2.00 \text{ T}$$
+- Tube diameter (current path length): $$L = 0.250 \text{ m}$$
+- Atmospheric pressure: $$P_{\text{atm}} = 1.01 \times 10^5 \text{ N/m}^2$$
 
 **(a)** The force on the current-carrying fluid is:
 
-$$F = BIL = (2.00 \text{ T})(500 \text{ A})(1.00 \text{ m}) = 1000 \text{ N}$$
+$$F = BIL = (2.00 \text{ T})(100 \text{ A})(0.250 \text{ m}) = 50.0 \text{ N}$$
 
-Wait—let me recalculate using the parameters that give the stated answer. For a force distributed over an area:
+The cross-sectional area of the tube is:
 
-$$P = \frac{F}{A}$$
-
-From the answer, $P = 1.02 \times 10^3 \text{ N/m}^2$. This would result from a moderate force over a reasonable area.
+$$A = \pi r^2 = \pi (0.125 \text{ m})^2 = 4.91 \times 10^{-2} \text{ m}^2$$
 
 The pressure created is:
 
-$$P = 1.02 \times 10^{3} \text{ N/m}^2$$
+$$P = \frac{F}{A} = \frac{50.0 \text{ N}}{4.91 \times 10^{-2} \text{ m}^2} = 1.02 \times 10^{3} \text{ N/m}^2$$
 
 **(b)** Comparing to atmospheric pressure:
 
