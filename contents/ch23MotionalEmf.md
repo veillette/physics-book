@@ -611,20 +611,24 @@ much energy is stored in it when stretched by the 100 N force?
 **Solution**
 
 **(a)** Given:
--$$ F = 100 \text{ N}$$
--$$ L_0 = 20.0 \text{ km} = 2.00 \times 10^4 \text{ m}$$
--$$ d = 2.50 \text{ mm}$$, so $$ A = \pi r^2 = \pi(1.25 \times 10^{-3})^2 = 4.91 \times 10^{-6} \text{ m}^2$$
--$$ Y = 2.0 \times 10^{11} \text{ N/m}^2$$
+- $$ F = 100 \text{ N}$$
+- $$ L_0 = 20.0 \text{ km} = 2.00 \times 10^4 \text{ m}$$
+- $$ d = 2.50 \text{ mm}$$, so $$ A = \pi r^2 = \pi(1.25 \times 10^{-3})^2 = 4.91 \times 10^{-6} \text{ m}^2$$
+- $$ Y = 2.0 \times 10^{11} \text{ N/m}^2$$
 
 <div class="equation">
 $$\Delta L=\frac{FL_{0}}{YA}=\frac{(100)(2.00 \times 10^4)}{(2.0 \times 10^{11})(4.91 \times 10^{-6})}=\frac{2.00 \times 10^6}{9.82 \times 10^5}=2.04 \text{ m}$$
 </div>
 
-**(b)** &lt;div class="equation"&gt;
+**(b)**
+
+<div class="equation">
 $$ k=\frac{F}{\Delta L}=\frac{100 \text{ N}}{2.04 \text{ m}}=49.0 \text{ N/m}$$
 </div>
 
-**(c)** &lt;div class="equation"&gt;
+**(c)**
+
+<div class="equation">
 $$ E=\frac{1}{2}k(\Delta L)^2=\frac{1}{2}(49.0)(2.04)^2=102 \text{ J}$$
 </div>
 

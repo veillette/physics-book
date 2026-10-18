@@ -561,13 +561,13 @@ __The heat transfer is $$ 1.66 \times 10^{8} \text{ J} $$ or $$ 3.97 \times 10^{
 __(c)__ Cost comparison:
 
 __Heat pump cost:__
-- Cost = 10.0 kWh × \$0.10/kWh = **\$1.00__
+- Cost = 10.0 kWh × \$0.10/kWh = __\$1.00__
 
 __Natural gas cost__ for same heat output:
 - Number of therms needed: $$ \frac{1.66 \times 10^{8} \text{ J}}{1.055 \times 10^{8} \text{ J/therm}} = 1.57 \text{ therms} $$
-- Cost = 1.57 therms × \$0.85/therm = **\$1.34__
+- Cost = 1.57 therms × \$0.85/therm = __\$1.34__
 
-__The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).**
+__The heat pump costs \$1.00, while natural gas costs \$1.34 for the same heat delivery. The heat pump is more economical by \$0.34 (25% savings).__
 
 **Discussion**
 
