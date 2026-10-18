@@ -444,20 +444,20 @@ $$ r^3 = \frac{3 \times 4.0 \times 10^{57}}{4\pi} = 9.55 \times 10^{56} \text{ m
 </div>
 
 <div class="equation">
-$$ r = (9.55 \times 10^{56})^{1/3} = 2.12 \times 10^{19} \text{ m} $$
+$$ r = (9.55 \times 10^{56})^{1/3} = 9.85 \times 10^{18} \text{ m} $$
 </div>
 
 Converting to light years:
 <div class="equation">
-$$ r = \frac{2.12 \times 10^{19} \text{ m}}{9.46 \times 10^{15} \text{ m/ly}} = 2240 \text{ ly} \approx 2200 \text{ ly} $$
+$$ r = \frac{9.85 \times 10^{18} \text{ m}}{9.46 \times 10^{15} \text{ m/ly}} = 1.04 \times 10^{3} \text{ ly} $$
 </div>
 
 (d) Comparing with the 4-ly stellar separation:
 <div class="equation">
-$$ \frac{r}{d_{\text{stars}}} = \frac{2200 \text{ ly}}{4 \text{ ly}} = 550 $$
+$$ \frac{r}{d_{\text{stars}}} = \frac{1040 \text{ ly}}{4 \text{ ly}} = 260 $$
 </div>
 
-The radius is approximately **550 times** larger than the average stellar separation.
+The radius is approximately **260 times** larger than the average stellar separation.
 
 **Discussion**
 
@@ -465,9 +465,9 @@ These calculations dramatically illustrate just how empty the universe is on ave
 
 (a-b) If the Sun's mass were spread out at the critical density of the universe, it would occupy a sphere with a radius of **384 light years**—roughly 100 times the distance to the nearest star! This shows that even the "critical density" required to close the universe is astonishingly low. Space is incredibly empty.
 
-(c) When we use the density of luminous matter (only 5% of critical density), the required radius increases to **2200 light years**. This is about the thickness of the disk of our Milky Way galaxy. Imagine spreading the Sun's mass uniformly throughout a sphere this large—that gives you an idea of how sparse luminous matter is in the universe.
+(c) When we use the density of luminous matter (only 5% of critical density), the required radius increases to about **1040 light years**. This is about the thickness of the disk of our Milky Way galaxy. Imagine spreading the Sun's mass uniformly throughout a sphere this large—that gives you an idea of how sparse luminous matter is in the universe.
 
-(d) The fact that this radius is **550 times** the typical 4-ly separation between stars in our galactic neighborhood demonstrates a profound truth: stars and galaxies are like tiny islands of dense matter in an overwhelmingly empty universe. The average density of the universe is incomprehensibly lower than even the sparse density of interstellar space within our galaxy.
+(d) The fact that this radius is **260 times** the typical 4-ly separation between stars in our galactic neighborhood demonstrates a profound truth: stars and galaxies are like tiny islands of dense matter in an overwhelmingly empty universe. The average density of the universe is incomprehensibly lower than even the sparse density of interstellar space within our galaxy.
 
 This exercise helps us appreciate why cosmologists say the universe is "matter dominated" even though space is nearly empty. The critical density—the density needed to eventually halt cosmic expansion through gravity—is so low that it corresponds to only about 6 protons per cubic meter of space. By comparison, the air you're breathing contains about 10²⁵ molecules per cubic meter! Yet even this incredibly low critical density is higher than the density of luminous matter we actually observe, which is why dark matter is necessary to explain the universe's dynamics. The emptiness of space on cosmic scales is truly difficult for our everyday intuition to grasp.
 

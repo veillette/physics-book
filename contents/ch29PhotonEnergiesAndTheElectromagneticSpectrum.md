@@ -1079,18 +1079,18 @@ For one photon per second per square meter:
 Solving for r:
 
 <div class="equation">
- $$r = \sqrt{\frac{N}{4\pi}} = \sqrt{\frac{1.16 \times 10^{32}}{4\pi}} = \sqrt{9.22 \times 10^{30}} = 9.60 \times 10^{15} \text{ m}$$
+ $$r = \sqrt{\frac{N}{4\pi}} = \sqrt{\frac{1.16 \times 10^{32}}{4\pi}} = \sqrt{9.22 \times 10^{30}} = 3.04 \times 10^{15} \text{ m}$$
 </div>
 
 Converting to light-years (1 ly = $$9.46 \times 10^{15}$$ m):
 
 <div class="equation">
- $$r = \frac{9.60 \times 10^{15} \text{ m}}{9.46 \times 10^{15} \text{ m/ly}} = 1.01 \text{ light-years}$$
+ $$r = \frac{3.04 \times 10^{15} \text{ m}}{9.46 \times 10^{15} \text{ m/ly}} = 0.321 \text{ light-years}$$
 </div>
 
 **Solution for (b)**
 
-This distance of about 1 light-year is remarkable—it's roughly ¼ of the distance to the nearest star (Proxima Centauri, 4.2 ly away). This means that even a modest 50-kW radio transmitter could theoretically be detected at stellar distances if we had a sufficiently sensitive receiver. However, several factors make detecting alien broadcasts challenging:
+This distance of about a third of a light-year is only about 1/13 of the way to the nearest star (Proxima Centauri, 4.2 ly away). By the time a 50-kW broadcast reached even the nearest star, it would deliver well under one photon per second per square meter, so detecting ordinary broadcasts would require an enormous collecting area or a far more powerful, directed transmitter. Several other factors make detecting alien broadcasts challenging:
 
 1. The inverse square law means signal strength drops dramatically with distance
 2. Background cosmic noise competes with the signal
@@ -1098,15 +1098,15 @@ This distance of about 1 light-year is remarkable—it's roughly ¼ of the dista
 4. The signal must be distinguishable from natural radio sources
 5. Interstellar distances are vast—most stars are hundreds or thousands of light-years away
 
-Nevertheless, this calculation shows that radio SETI (Search for Extraterrestrial Intelligence) is physically plausible, which is why programs like SETI actively search for artificial radio signals from space.
+This is why radio SETI (Search for Extraterrestrial Intelligence) programs use large radio telescopes and concentrate on strong, narrow-band signals, such as deliberate beacons, rather than expecting to overhear ordinary broadcasts.
 
 **Discussion**
 
-The fact that a terrestrial radio station could theoretically be detected a light-year away is encouraging for SETI efforts but also highlights the challenge: space is vast, and most stars are much farther than 1 light-year. More powerful transmitters or more sensitive receivers would be needed for realistic interstellar communication.
+A terrestrial radio station drops to one photon per second per square meter only a third of a light-year away, far short of even the nearest star, and most stars are much farther still. Much more powerful, directed transmitters and very large, sensitive receivers would be needed for realistic interstellar communication.
 
-(a)  $$ 9.60 \times 10^{15} \text{ m}$$ or approximately 1.01 light-years
+(a)  $$ 3.04 \times 10^{15} \text{ m}$$, or about 0.321 light-years
 
-(b) This distance is comparable to interstellar scales, making radio detection of extraterrestrial intelligence physically possible but challenging due to vast distances, signal dilution, frequency uncertainty, and background noise
+(b) This distance is a small fraction of the distance to the nearest star, so ordinary broadcasts from other solar systems would be extremely faint here; detecting them would require huge receivers or powerful, directed transmitters, on top of the challenges of frequency uncertainty and background noise
 
 :::
 

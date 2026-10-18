@@ -962,7 +962,7 @@ Suppose you hit a steel nail with a 0.500-kg hammer, initially moving at  $$15.0
 Using work-energy theorem: $$ F_{\text{avg}} \cdot d = \Delta KE = \frac{1}{2}mv^{2} $$
 
 <div class="equation">
-$$ F_{\text{avg}} = \frac{mv^{2}}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{56.25}{5.60 \times 10^{-3}} = 2.01 \times 10^{4} \text{ N} $$
+$$ F_{\text{avg}} = \frac{mv^{2}}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{112.5}{5.60 \times 10^{-3}} = 2.01 \times 10^{4} \text{ N} $$
 </div>
 
 **(b) Compression of the nail:**
@@ -978,7 +978,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(2.01 \times 10^{4} \text{ N})(0.0600 \t
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{1.206 \times 10^{3}}{9.82 \times 10^{5}} = 1.23 \times 10^{-3} \text{ m} \approx 1.17 \times 10^{-3} \text{ m} $$
+$$ \Delta L = \frac{1.206 \times 10^{3}}{9.82 \times 10^{5}} = 1.23 \times 10^{-3} \text{ m} $$
 </div>
 
 **(c) Pressure on the tip:**
@@ -993,10 +993,10 @@ Pressure:
 $$ P = \frac{F}{A_{\text{tip}}} = \frac{2.01 \times 10^{4} \text{ N}}{7.85 \times 10^{-7} \text{ m}^2} = 2.56 \times 10^{10} \text{ Pa} $$
 </div>
 
-The results are: (a) **2.01 × 10⁴ N**, (b) **1.17 × 10⁻³ m** (1.17 mm), and (c) **2.56 × 10¹⁰ Pa**.
+The results are: (a) **2.01 × 10⁴ N**, (b) **1.23 × 10⁻³ m** (1.23 mm), and (c) **2.56 × 10¹⁰ Pa**.
 
 **Discussion:**
-The average force of **20,100 N** (about 4,500 pounds) is enormous—far exceeding the hammer's weight (4.9 N). This large force results from the rapid deceleration over a short distance (2.80 mm). The nail compresses by **1.17 mm**, about 2% of its 60-mm length, demonstrating steel's stiffness (high Young's modulus).
+The average force of **20,100 N** (about 4,500 pounds) is enormous—far exceeding the hammer's weight (4.9 N). This large force results from the rapid deceleration over a short distance (2.80 mm). The nail compresses by **1.23 mm**, about 2% of its 60-mm length, demonstrating steel's stiffness (high Young's modulus).
 
 The pressure at the tip is **25.6 GPa** (about 250,000 atmospheres), which exceeds the yield strength of many materials, explaining why nails can penetrate wood. The small tip area concentrates the force, creating extreme pressure that locally deforms or shears the wood fibers. This is the same principle used in all cutting and penetrating tools—concentrate force on a small area to maximize pressure. The calculation assumes the force is uniform during impact, though in reality it varies; our value represents the average during the collision.
 
@@ -1072,34 +1072,22 @@ The hydraulic system of a backhoe is used to lift a load as shown in [[Figure 6]
 
 **(a) Force from slave cylinder:**
 
-Calculate torques about the pivot (top of arm). Taking counterclockwise as positive:
+Calculate torques about the pivot (top of arm). The distances in the figure are measured along the arm, which makes a 30° angle with the vertical weight vectors, so each weight has a lever arm of $$ r \sin 30° $$. The cylinder force is perpendicular to the arm, so its lever arm is the full 0.30 m.
 
 Torque from load:
 <div class="equation">
-$$ \tau_{\text{load}} = -W_{\text{load}} \times r_{\text{load}} = -(400 \text{ kg})(9.80 \text{ m/s}^2)(1.70 \text{ m}) = -6664 \text{ N·m} $$
+$$ \tau_{\text{load}} = W_{\text{load}} \, r_{\text{load}} \sin 30° = (400 \text{ kg})(9.80 \text{ m/s}^2)(1.70 \text{ m})(0.500) = 3332 \text{ N·m} $$
 </div>
 
-Torque from arm/shovel (note: acts perpendicular to arm, which is 30° from vertical):
+Torque from arm/shovel:
 <div class="equation">
-$$ \tau_{\text{arm}} = -W_{\text{arm}} \times r_{\text{arm}} \cos(30°) = -(150 \text{ kg})(9.80 \text{ m/s}^2)(1.10 \text{ m}) \cos(30°) = -1405 \text{ N·m} $$
+$$ \tau_{\text{arm}} = W_{\text{arm}} \, r_{\text{arm}} \sin 30° = (150 \text{ kg})(9.80 \text{ m/s}^2)(1.10 \text{ m})(0.500) = 808.5 \text{ N·m} $$
 </div>
 
-Torque from cylinder (acts perpendicular to arm):
+For equilibrium, the cylinder's torque balances both:
 <div class="equation">
-$$ \tau_{F} = F \times r_F = F(0.30 \text{ m}) $$
-</div>
-
-For equilibrium: $$ \sum \tau = 0 $$
-<div class="equation">
-$$ F(0.30) = 6664 + 1405 = 8069 \text{ N·m} $$
-$$ F = \frac{8069}{0.30} = 2.69 \times 10^{4} \text{ N} $$
-</div>
-
-Wait, let me recalculate. Looking at the figure more carefully, the arm makes a 30° angle. Let me use a simpler approach assuming the weights act vertically:
-
-<div class="equation">
-$$ F(0.30) = (400)(9.80)(1.70) + (150)(9.80)(1.10) $$
-$$ F = \frac{6664 + 1617}{0.30} = \frac{8281}{0.30} \approx 1.38 \times 10^{4} \text{ N} $$
+$$ F(0.30 \text{ m}) = 3332 \text{ N·m} + 808.5 \text{ N·m} = 4140.5 \text{ N·m} $$
+$$ F = \frac{4140.5 \text{ N·m}}{0.30 \text{ m}} = 1.38 \times 10^{4} \text{ N} $$
 </div>
 
 **(b) Pressure in hydraulic fluid:**

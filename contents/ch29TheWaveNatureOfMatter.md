@@ -610,20 +610,20 @@ Convert KE to joules:
 Calculate momentum:
 
 <div class="equation">
- $$p = \sqrt{2(9.11 \times 10^{-31} \text{ kg})(1.60 \times 10^{-14} \text{ J})} = 5.40 \times 10^{-23} \text{ kg·m/s}$$
+ $$p = \sqrt{2(9.11 \times 10^{-31} \text{ kg})(1.60 \times 10^{-14} \text{ J})} = 1.71 \times 10^{-22} \text{ kg·m/s}$$
 </div>
 
 Find wavelength:
 
 <div class="equation">
- $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \text{ J·s}}{5.40 \times 10^{-23} \text{ kg·m/s}} = 1.23 \times 10^{-11} \text{ m} = 0.0123 \text{ nm}$$
+ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34} \text{ J·s}}{1.71 \times 10^{-22} \text{ kg·m/s}} = 3.88 \times 10^{-12} \text{ m} = 0.00388 \text{ nm}$$
 </div>
 
 **Discussion**
 
-A 100-keV electron has a wavelength of 0.0123 nm, suitable for X-ray wavelengths and atomic-scale imaging. This wavelength is about 1/10 the size of an atom, allowing these electrons to probe atomic and molecular structure. Note: At 100 keV, the electron is approaching 20% of light speed, so relativistic effects become noticeable, making the nonrelativistic assumption marginally valid.
+A 100-keV electron has a wavelength of 0.00388 nm, comparable to X-ray wavelengths and suitable for atomic-scale imaging. This wavelength is about 1/25 the size of an atom, allowing these electrons to probe atomic and molecular structure. Note: the nonrelativistic momentum implies a speed of about 0.62c (the true speed is about 0.55c), so the nonrelativistic assumption is poor here; a relativistic calculation gives a wavelength about 5% shorter, 0.00371 nm.
 
-0.0123 nm or $$ 1.23 \times 10^{-11} \text{ m}$$
+0.00388 nm or $$ 3.88 \times 10^{-12} \text{ m}$$
 
 :::
 

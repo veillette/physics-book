@@ -392,7 +392,7 @@ and engines?
 
 **Strategy**
 
-For part (a), consider the entire train as the system and apply Newton's second law to find the total forward force needed, then divide by two for each engine. For part (b), consider cars 38-45 plus one engine as the system to find the coupling force.
+For part (a), consider the entire train as the system and apply Newton's second law to find the total forward force needed, then divide by two for each engine. For part (b), take the cars behind the coupling (cars 38–45) as the system to find the coupling force.
 
 **Solution**
 
@@ -433,14 +433,12 @@ $$ F_{\text{per engine}} = \frac{8.82 \times 10^{5}}{2} = 4.41 \times 10^{5} \N 
 
 **(b) Force in coupling between 37th and 38th cars:**
 
-Consider the system of cars 38-45 plus one engine (assume engines are at the front). This system has:
-- 1 engine: $$ 8.00 \times 10^{4} \kg $$
-- 8 cars (cars 38-45): $$ 8 \times 5.50 \times 10^{4} = 4.40 \times 10^{5} \kg $$
-- Total mass: $$ m_{\text{sys}} = 8.00 \times 10^{4} + 4.40 \times 10^{5} = 5.20 \times 10^{5} \kg $$
+Both engines are at the front of the train, so the coupling between the 37th and 38th cars pulls only the cars behind it. Take cars 38–45 as the system:
+- 8 cars: $$ m_{\text{sys}} = 8 \times 5.50 \times 10^{4} = 4.40 \times 10^{5} \kg $$
 
-Friction on this system (distributed evenly):
+Friction is distributed evenly among all 47 cars and engines, so this system carries 8 of the 47 shares:
 <div class="equation">
-$$ f_{\text{sys}} = \frac{9 \text{ units}}{47 \text{ total units}} \times 7.50 \times 10^{5} = \frac{9}{47} \times 7.50 \times 10^{5} = 1.44 \times 10^{5} \N $$
+$$ f_{\text{sys}} = \frac{8}{47} \times 7.50 \times 10^{5} = 1.28 \times 10^{5} \N $$
 </div>
 
 The coupling force $$ F_{\text{coupling}} $$ pulls this system forward. Applying Newton's second law:
@@ -449,24 +447,12 @@ $$ F_{\text{coupling}} - f_{\text{sys}} = m_{\text{sys}}a $$
 </div>
 
 <div class="equation">
-$$ F_{\text{coupling}} = m_{\text{sys}}a + f_{\text{sys}} = (5.20 \times 10^{5})(5.00 \times 10^{-2}) + 1.44 \times 10^{5} $$
+$$ F_{\text{coupling}} = m_{\text{sys}}a + f_{\text{sys}} = (4.40 \times 10^{5})(5.00 \times 10^{-2}) + 1.28 \times 10^{5} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{coupling}} = 2.60 \times 10^{4} + 1.44 \times 10^{5} = 1.70 \times 10^{5} \N $$
+$$ F_{\text{coupling}} = 2.20 \times 10^{4} + 1.28 \times 10^{5} = 1.50 \times 10^{5} \N $$
 </div>
-
-**Note**: If we consider the rear 9 cars only (without engine), assuming one engine at front:
-- Mass: $$ 9 \times 5.50 \times 10^{4} = 4.95 \times 10^{5} \kg $$
-- Friction: $$ \frac{9}{47} \times 7.50 \times 10^{5} = 1.44 \times 10^{5} \N $$
-- Coupling force: $$ (4.95 \times 10^{5})(5.00 \times 10^{-2}) + 1.44 \times 10^{5} = 1.69 \times 10^{5} \N \approx 1.70 \times 10^{5} \N $$
-
-Or considering only the last 9 cars with distributed friction per car:
-<div class="equation">
-$$ F_{\text{coupling}} = 9 \times 5.50 \times 10^{4} \times 5.00 \times 10^{-2} + \frac{9}{47} \times 7.50 \times 10^{5} = 1.50 \times 10^{5} \N $$
-</div>
-
-Using the value from the given answer: **$$ 1.50 \times 10^{5} \N $$**
 
 **Discussion**
 

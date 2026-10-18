@@ -53,7 +53,7 @@ dissipate $$P={I}^{2}R= 5.76 \text{kW} $$ of energy as heat transfer. Under
 normal operating conditions for this motor, suppose the back emf is 40.0 V. Then
 at operating speed, the total voltage across the coils is 8.0 V (48.0 V minus
 the 40.0 V back emf), and the current drawn is $$I=V/R=\left( 8.0 \text{V}\right)/\left( 0.400 \Omega \right)=20 \text{A} $$ . Under normal load,
-then, the power dissipated is $$P=IV=\left(20 \text{A}\right)/\left( 8.0 \text{V}\right)=160 \text{W} $$ . The latter will not cause a problem for this
+then, the power dissipated is $$P=IV=\left(20 \text{A}\right)\left( 8.0 \text{V}\right)=160 \text{W} $$ . The latter will not cause a problem for this
 motor, whereas the former 5.76 kW would burn out the coils if sustained.
 
 ### Section Summary

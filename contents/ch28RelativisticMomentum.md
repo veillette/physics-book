@@ -350,19 +350,19 @@ Substituting values ($$m_e = 9.11 \times 10^{-31}$$ kg, $$p = 3.04 \times 10^{-2
 
 $$u = \frac{(3.04 \times 10^{-21})(3.00 \times 10^8)}{\sqrt{(9.11 \times 10^{-31})^2(3.00 \times 10^8)^2 + (3.04 \times 10^{-21})^2}}$$
 
-$$m^2c^2 = (9.11 \times 10^{-31})^2(3.00 \times 10^8)^2 = 7.469 \times 10^{-45}$$
+$$m^2c^2 = (9.11 \times 10^{-31})^2(3.00 \times 10^8)^2 = 7.469 \times 10^{-44}$$
 
 $$p^2 = (3.04 \times 10^{-21})^2 = 9.242 \times 10^{-42}$$
 
-Since $$p^2 \gg m^2c^2$$, the electron is ultra-relativistic:
+The momentum term is about 124 times larger than the rest-mass term, so the electron is highly relativistic, but $$m^2c^2$$ still affects the fourth digit:
 
-$$u = \frac{(3.04 \times 10^{-21})(3.00 \times 10^8)}{\sqrt{9.242 \times 10^{-42}}} = \frac{9.12 \times 10^{-13}}{3.040 \times 10^{-21}} = 2.9957 \times 10^8 \text{ m/s}$$
+$$u = \frac{9.12 \times 10^{-13}}{\sqrt{7.469 \times 10^{-44} + 9.242 \times 10^{-42}}} = \frac{9.12 \times 10^{-13}}{3.052 \times 10^{-21}} = 2.988 \times 10^8 \text{ m/s}$$
 
-Or $$u = 0.9986c$$ (to 4 significant figures).
+Or $$u = 0.9960c$$ (to 4 significant figures).
 
 **Discussion**
 
-The electron is traveling at 99.86% the speed of light, differing from $$c$$ by only 0.14% or about 420,000\text{ m}/s. At this velocity, $$\gamma \approx 19.4$$. The classical momentum would be $$p_{\text{classical}} = m_eu = (9.11 \times 10^{-31})(2.9957 \times 10^8) = 2.73 \times 10^{-22}$$ kg·m/s, which is about 11 times smaller than the actual relativistic value. Such ultra-relativistic electrons are common in particle accelerators, cosmic rays, and astrophysical jets. The problem specifically asks for four significant figures to distinguish the velocity from $$c$$, highlighting how close to light speed the electron is traveling.
+The electron is traveling at 99.60% the speed of light, differing from $$c$$ by only 0.40%, or about $$1.2 \times 10^{6}$$ m/s. At this velocity, $$\gamma \approx 11.2$$. The classical momentum would be $$p_{\text{classical}} = m_eu = (9.11 \times 10^{-31})(2.988 \times 10^8) = 2.72 \times 10^{-22}$$ kg·m/s, which is about 11 times smaller than the actual relativistic value, as expected since the ratio is $$\gamma$$. Such ultra-relativistic electrons are common in particle accelerators, cosmic rays, and astrophysical jets. The problem specifically asks for four significant figures to distinguish the velocity from $$c$$, highlighting how close to light speed the electron is traveling.
 
 :::
 

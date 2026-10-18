@@ -848,9 +848,9 @@ Number: $$N = \frac{1.0 \times 10^{5}}{1.88 \times 10^{-19}} = 5.3 \times 10^{23
 
 (c) $$p_{\text{total}} = \frac{E}{c} = \frac{1.0 \times 10^{5}}{3.0 \times 10^{8}} = 3.3 \times 10^{-4} \text{ kg·m/s}$$
 
-(d) $$p_D = \sqrt{2m_{D}KE} = \sqrt{2(2.014)(1.66 \times 10^{-27})(1.0)(1.602 \times 10^{-13})} = 1.96 \times 10^{-20} \text{ kg·m/s}$$
+(d) $$p_D = \sqrt{2m_{D}KE} = \sqrt{2(2.014)(1.66 \times 10^{-27})(1.0)(1.602 \times 10^{-13})} = 3.27 \times 10^{-20} \text{ kg·m/s}$$
 
-Ratio: $$\frac{3.3 \times 10^{-4}}{1.96 \times 10^{-20}} = 1.7 \times 10^{16}$$
+Ratio: $$\frac{3.3 \times 10^{-4}}{3.27 \times 10^{-20}} = 1.0 \times 10^{16}$$
 
 **Discussion**
 

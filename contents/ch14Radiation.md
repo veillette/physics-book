@@ -953,22 +953,22 @@ $$T_{sky}^4 = 1.764 \times 10^{10} + 8.119 \times 10^9 = 2.576 \times 10^{10} \t
 </div>
 
 <div class="equation">
-$$T_{sky} = (2.576 \times 10^{10})^{1/4} = 2267 \text{ K}$$
+$$T_{sky} = (2.576 \times 10^{10})^{1/4} = 401 \text{ K}$$
 </div>
 
 Convert to Celsius:
 <div class="equation">
-$$T_{sky} = 2267 - 273.15 = 1994\text{ºC} \approx 2000\text{ºC}$$
+$$T_{sky} = 401 - 273.15 = 128\text{ºC}$$
 </div>
 
 **Discussion**
 
-The effective temperature of the sky would need to be approximately 2267 K (about 2000ºC) to deliver 1000 W/m² to a body at 27ºC. This is an interesting concept:
+The effective temperature of the sky would need to be approximately 401 K (about 128ºC) to deliver 1000 W/m² to a body at 27ºC. This is an interesting concept:
 
 - The Sun's actual surface temperature is about 5778 K
 - But the Sun occupies only a tiny fraction of the sky (~0.01% by solid angle)
 - The rest of the sky is much cooler (near 3 K for deep space, somewhat warmer for atmosphere)
-- The "effective temperature" of 2267 K represents a weighted average
+- The "effective temperature" of 401 K represents a weighted average
 
 This effective temperature concept is useful for:
 1. **Solar engineering**: Designing solar collectors and thermal systems
@@ -980,11 +980,11 @@ The actual solar irradiance reaching Earth's surface is typically:
 - This matches the problem setup
 - Lower at other times due to atmosphere, angle, clouds, etc.
 
-For comparison, if the entire sky were uniformly at 2267 K, it would appear as a dull red glow (like molten steel), rather than the intense white-yellow point source we actually see as the Sun.
+For comparison, a sky uniformly at 401 K would be hotter than boiling water yet would not glow visibly at all: it would radiate almost entirely in the infrared, rather than as the intense white-yellow point source we actually see as the Sun.
 
 **Answer**
 
-The effective temperature of the sky would be **2267 K** or approximately **2000ºC** (or **1994ºC** more precisely).
+The effective temperature of the sky would be **401 K**, or about **128ºC**.
 
 ::::
 
@@ -1853,17 +1853,17 @@ $$T^4 = \frac{20000}{2.05 \times 10^{-11}} = 9.76 \times 10^{14} \text{ K}^4$$
 </div>
 
 <div class="equation">
-$$T = (9.76 \times 10^{14})^{1/4} = 31400 \text{ K}$$
+$$T = (9.76 \times 10^{14})^{1/4} = 5.59 \times 10^{3} \text{ K}$$
 </div>
 
 Converting to Celsius:
 <div class="equation">
-$$T = 31400 - 273 = 31127\text{ºC} \approx 31000\text{ºC}$$
+$$T = 5589 - 273 = 5316\text{ºC} \approx 5.32 \times 10^{3}\text{ºC}$$
 </div>
 
 **(b)** This result is UNREASONABLE because:
-- 31,400 K (31,000ºC) is approximately **5.4 times the Sun's surface temperature** (5778 K)
-- This is hotter than many stellar surfaces!
+- 5590 K (5320ºC) is about **the same as the Sun's surface temperature** (5778 K)
+- This is hotter than the surfaces of cool stars such as red dwarfs (about 3000 K)
 - No meteorite could maintain such a temperature
 - At this temperature, the meteorite would vaporize instantly
 - Materials begin to vaporize at much lower temperatures (most metals vaporize below 3000ºC)
@@ -1885,7 +1885,7 @@ More reasonable scenarios:
 This problem demonstrates the importance of checking whether calculated results make physical sense. The telltale signs that something is wrong:
 
 1. **Temperature exceeds known limits**: Nothing solid exists above ~4000 °C (tungsten's melting point)
-2. **Exceeds stellar temperatures**: Hotter than most stars is a red flag for Earth-based objects
+2. **Rivals stellar temperatures**: A temperature close to the Sun's surface is a red flag for an Earth-based object
 3. **Power density is absurd**: 20 kW from a marble-sized object implies extraordinary energy flux
 
 In reality, small meteorites:
@@ -1898,8 +1898,8 @@ The problem is intentionally designed to produce an unreasonable answer, teachin
 
 **Answer**
 
-(a) The calculated temperature is approximately **31,400 K** or **31,000ºC**.
-(b) This is unreasonable because it's about **5.4 times hotter than the Sun's surface**—no meteorite could exist at this temperature.
+(a) The calculated temperature is approximately **5.59 × 10³ K**, or about **5320ºC**.
+(b) This is unreasonable because it's about **as hot as the Sun's surface**—no meteorite could exist at this temperature.
 (c) The unreasonable premise is the **20.0 kW power output** from such a small meteorite, which is far too high for its size and realistic temperature.
 
 ::::
