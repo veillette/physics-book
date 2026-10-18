@@ -457,15 +457,11 @@ Substituting the known values:
  $$\Delta U = 2.09 \times 10^{4} \text{ J}$$
 </div>
 
-Note: The given answer of $$6.77 \times 10^{3}$$ J suggests using $$\frac{3}{2}P_{\text{gauge}}V$$ (for 3 degrees of freedom) or approximately $$0.81 \times P_{\text{gauge}}V$$. Using this approach:
-
-<div class="equation">
- $$\Delta U \approx 0.81 \times (2.20 \times 10^{5})(0.0380) = 6.77 \times 10^{3} \text{ J}$$
-</div>
+The assumption here is that the air is at the same temperature in both cases, so the extra internal energy comes from the extra molecules packed into the same volume.
 
 **Discussion**
 
-The tire contains approximately 6,770 J more internal energy than the same volume of air at atmospheric pressure. This additional energy is stored in the compressed gas through the work done during inflation. The pressurized air has higher molecular kinetic energy density, though not necessarily higher temperature if we assume isothermal compression. This stored energy is what makes compressed air useful for doing work—for example, when the tire supports the car's weight or when air tools use compressed air. The energy can be released if the tire deflates, which is why a tire blowout can be dangerous. For a typical car tire, this 6.77 kJ represents a modest amount of energy storage, but it's sufficient to maintain the tire's shape under load and provide the cushioning effect that makes for a comfortable ride.
+The tire contains about $$2.09 \times 10^{4}$$ J (21 kJ) more internal energy than the same volume of air at atmospheric pressure. The pressure of 32 psi is a gauge reading, as tire pressures usually are, so we used it directly as the gauge pressure. This additional energy is stored in the compressed gas through the work done during inflation. The pressurized air has a higher energy density because it has more molecules per unit volume, not because it is hotter. This stored energy is what makes compressed air useful for doing work—for example, when the tire supports the car's weight or when air tools use compressed air. The energy can be released if the tire deflates, which is why a tire blowout can be dangerous. For a typical car tire, this 21 kJ represents a modest amount of energy storage, but it's sufficient to maintain the tire's shape under load and provide the cushioning effect that makes for a comfortable ride.
 
 :::
 

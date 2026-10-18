@@ -1756,8 +1756,8 @@ $$\frac{q}{e} = \frac{2.41 \times 10^{-19}}{1.60 \times 10^{-19}} = 1.51$$
 
 **(c)** The problematic assumptions:
 - The given radius (16.0 mm) is inconsistent with the other parameters for any real helium ion
-- For He⁺ ($q = e$), the radius would be: $r = mv/(eB) = 24.2 \text{ mm}$
-- For He²⁺ ($q = 2e$), the radius would be: $r = mv/(2eB) = 12.1 \text{ mm}$
+- For He⁺ ($q = e$), the radius would be: $r = mv/(eB) = 24.1 \text{ mm}$
+- For He²⁺ ($q = 2e$), the radius would be: $r = mv/(2eB) = 12.0 \text{ mm}$
 - The given 16.0 mm doesn't match either physically possible ion
 
 **Discussion**

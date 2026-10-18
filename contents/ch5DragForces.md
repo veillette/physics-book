@@ -882,7 +882,7 @@ It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 
 **Strategy**
 
-The ball bearing reaches terminal velocity quickly and falls at constant speed. We can determine this speed from the distance and time. At terminal velocity, Stokes' drag equals the effective weight (weight minus buoyancy). Motor oil has a density of approximately $$ \rho_{\text{oil}} \approx 900 \text{ kg/m}^3 $$.
+The ball bearing reaches terminal velocity quickly and falls at constant speed. We can determine this speed from the distance and time. At terminal velocity, Stokes' drag equals the ball's weight. The problem does not give the density of the oil, so we neglect buoyancy and then check how much it would change the result.
 
 **Solution**
 
@@ -895,44 +895,27 @@ $$ v_t = \frac{d}{t} = \frac{0.60 \m}{12 \s} = 0.050 \ms $$
    - Radius: $$ r = 1.5 \text{ mm} = 1.5 \times 10^{-3} \m $$
    - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.5 \times 10^{-3})^3 = 1.41 \times 10^{-8} \text{ m}^3 $$
 
-3. Calculate the effective weight (including buoyancy):
-<div class="equation">
-$$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg $$
-</div>
-
-<div class="equation">
-$$ W_{\text{eff}} = (7800 - 900)(1.41 \times 10^{-8})(9.80) $$
-</div>
-
-<div class="equation">
-$$ W_{\text{eff}} = (6900)(1.41 \times 10^{-8})(9.80) = 9.54 \times 10^{-4} \N $$
-</div>
-
-4. At terminal velocity, Stokes drag equals effective weight:
-<div class="equation">
-$$ 6\pi r\eta v_t = W_{\text{eff}} $$
-</div>
-
-5. Solve for viscosity:
-<div class="equation">
-$$ \eta = \frac{W_{\text{eff}}}{6\pi r v_t} = \frac{9.54 \times 10^{-4} \N}{6\pi(1.5 \times 10^{-3} \m)(0.050 \ms)} $$
-</div>
-
-<div class="equation">
-$$ \eta = \frac{9.54 \times 10^{-4}}{1.41 \times 10^{-3}} = 0.68 \text{ kg/(m·s)} $$
-</div>
-
-Using the given answer of 0.76 kg/(m·s), the calculation may assume a different oil density or neglect buoyancy:
-
-Without buoyancy correction:
-
+3. Calculate the weight of the ball bearing:
 <div class="equation">
 $$ W = \rho_{\text{steel}}Vg = (7800)(1.41 \times 10^{-8})(9.80) = 1.08 \times 10^{-3} \N $$
 </div>
 
+4. At terminal velocity, Stokes drag equals the weight:
 <div class="equation">
-$$ \eta = \frac{1.08 \times 10^{-3}}{1.41 \times 10^{-3}} = 0.76 \text{ kg/(m·s)} $$
+$$ 6\pi r\eta v_t = W $$
 </div>
+
+5. Solve for viscosity:
+<div class="equation">
+$$ \eta = \frac{W}{6\pi r v_t} = \frac{1.08 \times 10^{-3} \N}{6\pi(1.5 \times 10^{-3} \m)(0.050 \ms)} = \frac{1.08 \times 10^{-3}}{1.41 \times 10^{-3}} = 0.76 \text{ kg/(m·s)} $$
+</div>
+
+6. Check the effect of buoyancy. Motor oil has a density of about $$ 900 \text{ kg/m}^3 $$, so the buoyant force reduces the effective weight to
+<div class="equation">
+$$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg = (6900)(1.41 \times 10^{-8})(9.80) = 9.54 \times 10^{-4} \N $$
+</div>
+
+which gives $$ \eta = (9.54 \times 10^{-4})/(1.41 \times 10^{-3}) = 0.68 \text{ kg/(m·s)} $$. Neglecting buoyancy overestimates the viscosity by about 12%.
 
 **Discussion**
 

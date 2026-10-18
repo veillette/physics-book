@@ -1141,13 +1141,7 @@ The man stands on one foot, so the normal force from the ground equals his full 
 From [Figure 10](#Figure10):
 - Man's weight: $$ W = mg = (75 \kg)(9.80 \mss) = 735 \N $$
 - When standing on one foot, normal force: $$ N = 735 \N $$ (upward at toes)
-- From the figure, the perpendicular distance between forces is 16 cm total
-
-Using the given answer to determine lever arms, if $$ r_N $$ is the distance from pivot to normal force and $$ r_A $$ is the distance from pivot to Achilles attachment:
-
-Using torque equilibrium: $$ F_A \cdot r_A = N \cdot r_N $$
-
-From typical foot anatomy and the given answer, $$ r_A \approx 4.0 \text{ cm} $$ and $$ r_N \approx 12 \text{ cm} $$
+- From the figure, the Achilles tendon acts $$ r_A = 4.0 \text{ cm} $$ behind the ankle pivot, and the normal force acts $$ r_N = 12 \text{ cm} $$ in front of it
 
 Taking torques about the ankle pivot:
 
@@ -1162,7 +1156,7 @@ $$ F_A = \frac{(735 \N)(0.12 \m)}{0.040 \m} = \frac{88.2 \text{ N·m}}{0.040 \m}
 **Solution for (b)**
 
 Using the first condition for equilibrium (taking upward as positive), the forces acting on the foot are:
-- Achilles force: $$ F_A = 2210 \N $$ (upward)
+- Achilles force: $$ F_A = 2205 \N $$ (upward)
 - Normal force: $$ N = 735 \N $$ (upward)
 - Pivot force: $$ F_P $$ (downward)
 - Foot weight: negligible
@@ -1172,7 +1166,7 @@ $$ F_A + N - F_P = 0 $$
 </div>
 
 <div class="equation">
-$$ F_P = F_A + N = 2210 \N + 735 \N = 2945 \N \approx 2.94 \times 10^{3} \N $$
+$$ F_P = F_A + N = 2205 \N + 735 \N = 2940 \N = 2.94 \times 10^{3} \N $$
 </div>
 
 **Discussion**
@@ -1437,27 +1431,19 @@ For part (a), we treat the woman's body as a rigid lever with the toes as the pi
 **Solution for (a)**
 
 From [Figure 13](#Figure13):
-- Distance from feet to hands: $$ L = 1.50 \m $$
+- Mass: $$ m = 50.0 \kg $$, so her weight is $$ W = mg = (50.0 \kg)(9.80 \mss) = 490 \N $$
 - Distance from feet to center of gravity: $$ r_{cg} = 0.90 \m $$
 - Distance from feet to hands: $$ r_h = 1.50 \m $$
 
-Let her weight be $$ W $$. Taking torques about her toes (the pivot):
+Taking torques about her toes (the pivot):
 
 <div class="equation">
 $$ 2F_{\text{hand}} \cdot r_h = W \cdot r_{cg} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{hand}} = \frac{W \cdot r_{cg}}{2 \cdot r_h} = \frac{W (0.90 \m)}{2(1.50 \m)} = 0.30W $$
+$$ F_{\text{hand}} = \frac{W \cdot r_{cg}}{2 \cdot r_h} = \frac{(490 \N)(0.90 \m)}{2(1.50 \m)} = 147 \N $$
 </div>
-
-From the given answer of 147 N per hand:
-
-<div class="equation">
-$$ W = \frac{147 \N}{0.30} = 490 \N $$
-</div>
-
-This corresponds to a mass of $$ m = 490/9.80 = 50 \kg $$.
 
 Each hand exerts **147 N** downward on the floor (equivalently, the floor exerts 147 N upward on each hand).
 

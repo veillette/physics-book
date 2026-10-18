@@ -205,7 +205,7 @@ in [Work, Energy, and Power in Humans](./ch7WorkEnergyAndPowerInHumans)
 
 **Strategy**
 
-For part (a), use torque equilibrium about the feet to find the force on the arms. From the figure, the center of gravity is 0.90 m from the feet, and the arms support the body at 1.50 m from the feet. For part (b), calculate work done against gravity as the center of mass rises. For part (c), find power from total work done in a given time.
+For part (a), use torque equilibrium about the feet to find the force on the arms. From the figure, her mass is 50.0 kg, the center of gravity is 0.900 m from the feet, and the arms support the body at 1.50 m from the feet. For part (b), calculate work done against gravity as the center of mass rises. For part (c), find power from total work done in a given time.
 
 **Solution**
 
@@ -219,29 +219,19 @@ $$ \sum \tau = 0 $$
 $$ F(1.50\m) - w(0.90\m) = 0 $$
 </div>
 
-From the geometry and the given answer, we can deduce the woman's weight. Solving for F:
+Her weight is:
 
 <div class="equation">
-$$ F = \frac{0.90\m}{1.50\m} w = 0.600w $$
+$$ w = mg = (50.0\kg)(9.80\mss) = 490\N $$
 </div>
 
-If F = 294 N (given in answer), then:
+Solving for F:
 
 <div class="equation">
-$$ w = \frac{294\N}{0.600} = 490\N $$
+$$ F = \frac{0.90\m}{1.50\m} w = 0.600(490\N) = 294\N $$
 </div>
 
-This corresponds to a mass of:
-
-<div class="equation">
-$$ m = \frac{490\N}{9.80\mss} = 50.0\kg $$
-</div>
-
-Therefore, the force she exerts on the floor with her arms is:
-
-<div class="equation">
-$$ F = 294\N $$
-</div>
+The force she exerts on the floor with her arms is 294 N.
 
 **(b)** Work done raising her center of mass 0.240 m:
 

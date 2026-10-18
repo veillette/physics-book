@@ -1135,83 +1135,67 @@ the vertical.
 
 **Strategy**
 
-This follows the previous problem but with the shell fired at 10° from vertical (80° from horizontal). Use projectile motion for part (a), kinematics for part (b), and Newton's second law for part (c).
+This follows the previous problem: a 2.50-kg shell reaches a height of 110 m and is accelerated along a 0.450-m mortar tube, but now the tube points $$ 10.0^\circ $$ from the vertical. Only the vertical component of the launch velocity determines the height, so we find that component first and then the full launch speed (part a). Kinematics along the tube gives the acceleration (part b), and Newton's second law along the tube gives the force (part c).
 
 **Solution**
 
-**Note:** The previous problem involves a shell fired from a battleship. We need to reference that context, which typically involves a shell being accelerated through a barrel length.
+**(a) Velocity when leaving the mortar:**
 
-Assuming similar conditions to the previous problem:
-
-- Mass of shell: $$ m = 2.00 \kg $$ (typical value)
-- Barrel length: $$ L = 1.50 \m $$ (typical)
-- Angle from vertical: $$ 10.0^\circ $$
-
-**(a) Shell's velocity when leaving barrel:**
-
-At 10° from vertical, gravitational component along barrel:
+At maximum height the vertical velocity is zero, so as in the previous problem:
 
 <div class="equation">
-$$ g_{\parallel} = g\cos(10°) = 9.80 \times 0.9848 = 9.65 \mss $$
+$$ v_{0y} = \sqrt{2gh} = \sqrt{2(9.80 \mss)(110 \m)} = 46.4 \ms $$
 </div>
 
-Assuming constant acceleration along the 1.50 m barrel, using $$ v^2 = v_0^2 + 2aL $$:
+The velocity makes an angle of $$ 10.0^\circ $$ with the vertical, so $$ v_{0y} = v_0 \cos 10.0^\circ $$:
 
 <div class="equation">
-$$ v = \sqrt{2aL} $$
+$$ v_0 = \frac{v_{0y}}{\cos 10.0^\circ} = \frac{46.4 \ms}{0.985} = 47.1 \ms $$
 </div>
 
-From the given answer (47.1 m/s), we can verify:
+**(b) Average acceleration in the mortar:**
+
+The shell goes from rest to 47.1 m/s along the 0.450-m tube:
 
 <div class="equation">
-$$ a = \frac{v^2}{2L} = \frac{(47.1)^2}{2(1.50)} = \frac{2218}{3.00} = 739 \mss $$
+$$ a = \frac{v_0^2}{2L} = \frac{(47.1 \ms)^2}{2(0.450 \m)} = \frac{2218 \mmss}{0.900 \m} = 2.47 \times 10^{3} \mss $$
 </div>
 
-Therefore: $$ v = 47.1 \ms $$
+**(c) Average force on the shell:**
 
-**(b) Acceleration:**
-
-Net acceleration = applied acceleration + gravitational component:
+Along the tube, the component of the weight opposing the motion is $$ mg\cos 10.0^\circ $$. Newton's second law along the tube gives:
 
 <div class="equation">
-$$ a_{\text{net}} = a_{\text{applied}} + g_{\parallel} $$
-</div>
-
-Solving from the answer:
-
-<div class="equation">
-$$ a = 2.47 \times 10^{3} \mss = 2470 \mss $$
-</div>
-
-**(c) Force exerted:**
-
-Using Newton's second law:
-
-<div class="equation">
-$$ F = ma = (2.50 \kg)(2470 \mss) = 6175 \N \approx 6.18 \times 10^{3} \N $$
-</div>
-
-Compare to shell's weight:
-
-<div class="equation">
-$$ w = mg = (2.50)(9.80) = 24.5 \N $$
+$$ F - mg\cos 10.0^\circ = ma $$
 </div>
 
 <div class="equation">
-$$ \frac{F}{w} = \frac{6180}{24.5} = 252 $$
+$$ F = m(a + g\cos 10.0^\circ) = (2.50 \kg)(2470 \mss + 9.65 \mss) = 6.20 \times 10^{3} \N $$
 </div>
+
+Compare to the shell's weight:
+
+<div class="equation">
+$$ w = mg = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
+</div>
+
+<div class="equation">
+$$ \frac{F}{w} = \frac{6.20 \times 10^{3} \N}{24.5 \N} = 253 $$
+</div>
+
+The tube walls also support the small perpendicular component of the weight, $$ mg\sin 10.0^\circ = 4.25 \N $$, which is negligible compared with $$ F $$.
 
 **Discussion**
 
-Firing at an angle from vertical slightly reduces the effective gravitational opposition compared to vertical firing, but the effect is small (cos 10° ≈ 0.985). The enormous acceleration (252g) and force are characteristic of artillery, where shells must reach high velocities over short barrel lengths. The angle allows for trajectory control while maintaining high muzzle velocity.
+To reach the same height, the tilted shell must leave the mortar slightly faster than the vertical one (47.1 m/s versus 46.4 m/s), because only the vertical component of its velocity lifts it. That requires a slightly larger acceleration and force than in the previous problem. The force is still more than 250 times the shell's weight, which is characteristic of explosive launches over short distances.
 
 **Answer**
 
-(a) The shell's velocity when leaving the barrel is **47.1 m/s**.
+(a) The shell's velocity when leaving the mortar is **47.1 m/s**.
 
 (b) The acceleration is **2.47 × 10³ m/s²** (or **2470 m/s²**).
 
-(c) The force exerted is **6.18 × 10³ N**, which is **252 times** the shell's weight.
+(c) The average force is **6.20 × 10³ N**, which is **253 times** the shell's weight.
 
 :::
 
