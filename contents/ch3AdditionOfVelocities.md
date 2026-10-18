@@ -72,7 +72,7 @@ system:
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
 </div>
 
-![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03.jpg 'The velocity, ( \\vb{v} ) of an object traveling at an angle ( \\theta ) to the horizontal axis is the sum of component vectors .')
+![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03.jpg 'The velocity, \( \vb{v} \) of an object traveling at an angle \( \theta \) to the horizontal axis is the sum of component vectors .')
 {: #Figure3}
 
 These equations are valid for any vectors and are adapted specifically for
@@ -269,6 +269,10 @@ giving
  $$ \theta =35.6^\circ . $$
 </div>
 
+Because both components are negative, the wind points into the third quadrant:
+it blows $$ 35.6^\circ $$ south of west (a direction of $$ 215.6^\circ $$
+measured counterclockwise from east).
+
 **Discussion**
 
 The wind’s speed and direction are consistent with the significant effect the
@@ -301,16 +305,17 @@ Albert Einstein (1879–1955), the greatest physicist of the 20th century.
 Einstein revolutionized our view of nature with his **modern** theory of
 relativity, which we shall study in later chapters. The relative velocities in
 this section are actually aspects of classical relativity, first discussed
-correctly by Galileo and Isaac Newton. **Classical relativity** is limited to
-situations where speeds are less than about 1% of the speed of light—that is,
-less than $$ 3 000 \text{km/s} $$. Most things we encounter in daily life move
-slower than this speed.
+correctly by Galileo and Isaac Newton. **Classical relativity** is an excellent
+approximation when speeds are much less than the speed of light; as a rough
+guide, below about 1% of the speed of light (3000 km/s). Most things we
+encounter in daily life move far slower than this.
 
 Let us consider an example of what two different observers see in a situation
 analyzed long ago by Galileo. Suppose a sailor at the top of a mast on a moving
 ship drops his binoculars. Where will it hit the deck? Will it hit at the base
 of the mast, or will it hit behind the mast because the ship is moving forward?
-The answer is that if air resistance is negligible, the binoculars will hit at
+The answer is that if air resistance is negligible and the ship moves at
+constant velocity, the binoculars will hit at
 the base of the mast at a point directly below its point of release. Now let us
 consider what two different observers see when the binoculars drop. One observer
 is on the ship and the other on shore. The binoculars have no horizontal
@@ -420,8 +425,8 @@ so that
 In part (a), the final velocity relative to the plane is the same as it would be
 if the coin were dropped from rest on the Earth and fell 1.50 m. This result
 fits our experience; objects in a plane fall the same way when the plane is
-flying horizontally as when it is at rest on the ground. This result is also
-true in moving cars. In part (b), an observer on the ground sees a much
+flying at constant velocity as when it is at rest on the ground. This result is
+also true in cars moving at constant velocity. In part (b), an observer on the ground sees a much
 different motion for the coin. The plane is moving so fast horizontally to begin
 with that its final velocity is barely greater than the initial velocity. Once
 again, we see that in two dimensions, vectors do not add like ordinary
@@ -444,7 +449,7 @@ path.
 Making Connections: Relativity and Einstein
 </div>
 
-Because Einstein was able to clearly define how measurements are made (some involve light) and because the speed of light is the same for all observers, the outcomes are spectacularly unexpected. Time varies with observer, energy is stored as increased mass, and more surprises await.
+Because Einstein was able to clearly define how measurements are made (some involve light) and because the speed of light is the same for all observers, the outcomes are spectacularly unexpected. Time varies with observer, mass and energy are equivalent ( $$ E=mc^{2} $$ ), and more surprises await.
 
 ::::
 
@@ -491,8 +496,9 @@ Motion in 2D
   reference frame, and it varies dramatically with reference frame.
 - **Relativity** is the study of how different observers measure the same
   phenomenon, particularly when the observers move relative to one another.
-  **Classical relativity** is limited to situations where speed is less than about
-  1% of the speed of light (3000 km/s).
+  **Classical relativity** is an excellent approximation when speeds are much
+  less than the speed of light (as a rough guide, below about 1% of it, or
+  3000 km/s).
 
 ### Conceptual Questions
 
@@ -2263,8 +2269,8 @@ straight down the runway.
 {: class="glossary-title"}
 
 classical relativity
-: the study of relative velocities in situations where speeds are less than
-about 1% of the speed of light—that is, less than 3000 km/s
+: the study of relative velocities in situations where speeds are much less
+than the speed of light (as a rough guide, below about 1% of it)
 
 relative velocity
 : the velocity of an object as observed from a particular reference frame

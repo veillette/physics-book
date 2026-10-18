@@ -18,7 +18,7 @@ muscling aside his opponent, a dragster roaring away from the starting line, a
 volcano blowing its lava into the atmosphere, or a rocket blasting off, as
 in [Figure 1](#Figure1).
 
-![A space shuttle rocket is being launched and is burning propellant.](../resources/Figure_07_07_01.jpg 'This powerful rocket on the Space Shuttle Endeavor did work and consumed energy at a very high rate. (credit: NASA)')
+![A space shuttle rocket is being launched and is burning propellant.](../resources/Figure_07_07_01.jpg 'This powerful rocket on the Space Shuttle Endeavour did work and consumed energy at a very high rate. (credit: NASA)')
 {: #Figure1}
 
 These images of power have in common the rapid performance of work, consistent
@@ -98,10 +98,12 @@ climbing rather than accelerating.
 It is impressive that this woman’s useful power output is slightly less than
 1 **horsepower** $$ \left(1 \text{hp}=746 \text{W}\right) $$ ! People can
 generate more than a horsepower with their leg muscles for short periods of time
-by rapidly converting available blood sugar and oxygen into work output. (A
-horse can put out 1 hp for hours on end.) Once oxygen is depleted, power output
-decreases and the person begins to breathe rapidly to obtain oxygen to
-metabolize more food—this is known as the _aerobic_ stage of exercise. If the
+by drawing on energy stores in the muscles that do not need oxygen right away (
+_anaerobic_ metabolism). (A horse can put out about 1 hp for hours on end.) These
+stores last only seconds, so power output soon decreases; sustained effort
+relies on _aerobic_ metabolism, which uses oxygen and supports a lower power, and
+the rapid breathing after a sprint repays the oxygen needed to restore the
+muscles. If the
 woman climbed the stairs slowly, then her power output would be much less,
 although the amount of work done would be the same.
 
@@ -111,7 +113,7 @@ although the amount of work done would be the same.
 Making Connections: Take-Home Investigation—Measure Your Power Rating
 </div>
 
-Determine your own power rating by measuring the time it takes you to climb a flight of stairs. We will ignore the gain in kinetic energy, as the above example showed that it was a small portion of the energy gain. Don’t expect that your output will be more than about 0.5 hp.
+Determine your own power rating by measuring the time it takes you to climb a flight of stairs. We will ignore the gain in kinetic energy, as the above example showed that it was a small portion of the energy gain. Don’t expect that your output will be much more than about 1 hp.
 
 :::
 
@@ -120,7 +122,7 @@ Determine your own power rating by measuring the time it takes you to climb a fl
 Examples of power are limited only by the imagination, because there are as many
 types as there are forms of work and energy. (
 See [Table 1](#Table1) for some examples.) Sunlight reaching Earth’s surface
-carries a maximum power of about 1.3 kilowatts per square meter $$ \left( {\text{kW/m} }^{2}\right)$$. A tiny fraction of this is retained by Earth over
+carries a maximum power of about 1.0 kilowatt per square meter $$ \left( {\text{kW/m} }^{2}\right)$$. A tiny fraction of this is retained by Earth over
 the long term. Our consumption rate of fossil fuels is far greater than the rate
 at which they are stored, so it is inevitable that they will be depleted. Power
 implies that energy is transferred, perhaps changing form. Real devices usually convert some of their input energy into
@@ -143,7 +145,7 @@ See [Figure 3](#Figure3).)
 | ---------------------------------------------------------------- | -------------------- |
 | Supernova (at peak)                                              | $$ 5\times 10^{37}$$ |
 | Milky Way galaxy                                                 | $$10^{37}$$          |
-| Crab Nebula pulsar                                               | $$10^{28}$$          |
+| Crab Nebula pulsar                                               | $$5\times 10^{31}$$  |
 | The Sun                                                          | $$4\times 10^{26}$$  |
 | Volcanic eruption (maximum)                                      | $$4\times 10^{15}$$  |
 | Lightning bolt                                                   | $$2\times 10^{12}$$  |
@@ -158,7 +160,9 @@ See [Figure 3](#Figure3).)
 | Heart, person at rest (total useful and heat transfer)           | $$ 8 $$              |
 | Pocket calculator                                                | $$ 10^{-3} $$        |
 
-### Power and Energy Consumption {: #Table1}
+{: #Table1}
+
+### Power and Energy Consumption
 
 We usually have to pay for the energy we use. It is interesting and easy to
 estimate the cost of energy for an electrical appliance if its power consumption
@@ -226,9 +230,8 @@ toasters, because they are on only a few minutes per day. It would also not
 include electric clocks, in spite of their 24-hour-per-day usage, because they
 are very low power devices. It is sometimes possible to use devices that have
 greater efficiencies—that is, devices that consume less power to accomplish the
-same task. One example is the compact fluorescent light bulb, which produces
-over four times more light per watt of power consumed than its incandescent
-cousin.
+same task. One example is the LED light bulb, which produces several times more light per
+watt of power consumed than its incandescent cousin.
 
 Modern civilization depends on energy, but current levels of energy consumption
 and production are not sustainable. Greenhouse gases released by human activities, chiefly the
@@ -300,21 +303,21 @@ From Table 1, we can find the power outputs of a supernova at peak and the Crab 
 
 From Table 1:
 - Supernova (at peak): $$ P_{\text{initial}} = 5 \times 10^{37}\text{ W} $$
-- Crab Nebula pulsar: $$ P_{\text{current}} = 10^{28}\text{ W} $$
+- Crab Nebula pulsar: $$ P_{\text{current}} = 5 \times 10^{31}\text{ W} $$
 
 The factor by which power has declined:
 
 <div class="equation">
-$$ \text{Factor} = \frac{P_{\text{current}}}{P_{\text{initial}}} = \frac{10^{28}\text{ W}}{5 \times 10^{37}\text{ W}} = 2 \times 10^{-10} $$
+$$ \text{Factor} = \frac{P_{\text{current}}}{P_{\text{initial}}} = \frac{5 \times 10^{31}\text{ W}}{5 \times 10^{37}\text{ W}} = 1 \times 10^{-6} $$
 </div>
 
 **Discussion**
 
-The current output is $$ 2 \times 10^{-10} $$ of the peak supernova power—equivalently, the power has **decreased by a factor of** $$ 5 \times 10^{9} $$. (Saying it “declined by a factor of $$ 2 \times 10^{-10} $$” reverses the usual reduction-factor convention.) Despite this massive reduction, the pulsar still outputs $$ 10^{28} $$ W, about 25 times the Sun's $$ 4 \times 10^{26} $$ W. The pulsar's rotation slows as it emits electromagnetic radiation and particles, converting rotational kinetic energy into other forms.
+The current output is $$ 1 \times 10^{-6} $$ of the peak supernova power—equivalently, the power has **decreased by a factor of** $$ 10^{6} $$. (Saying it “declined by a factor of $$ 1 \times 10^{-6} $$” reverses the usual reduction-factor convention.) Despite this massive reduction, the pulsar still outputs about $$ 5 \times 10^{31} $$ W, roughly $$ 10^{5} $$ times the Sun's $$ 4 \times 10^{26} $$ W. The pulsar's rotation slows as it emits electromagnetic radiation and particles, converting rotational kinetic energy into other forms.
 
 **Answer**
 
-The Crab Nebula pulsar’s present power is about $$ 2 \times 10^{-10} $$ of the peak (a decrease by a factor of about $$ 5 \times 10^{9} $$) since the A.D. 1054 supernova.
+The Crab Nebula pulsar’s present power is about $$ 1 \times 10^{-6} $$ of the peak (a decrease by a factor of about $$ 10^{6} $$) since the A.D. 1054 supernova.
 
 :::
 

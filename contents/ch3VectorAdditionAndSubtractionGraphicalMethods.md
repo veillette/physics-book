@@ -139,7 +139,7 @@ direction.
 
 (3) Draw the resultant vector,$$\vb{R}$$.
 
-![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty point zero meters and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector.](../resources/Figure_03_02_10.jpg)
+![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector.](../resources/Figure_03_02_10.jpg)
 {: #Figure10}
 
 (4) Use a ruler to measure the magnitude of $$\vb{R}$$, and a protractor to
@@ -165,7 +165,7 @@ order in which the vectors are added. Therefore, we could add the vectors in any
 order as illustrated in [Figure 12](#Figure12) and we will still get the same
 solution.
 
-![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B with negative slope from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point zero meters and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.jpg)
+![In this figure a vector C with a negative slope is drawn from the origin. Then from the head of the vector C another vector A with positive slope is drawn and then another vector B with negative slope from the head of the vector A is drawn. From the tail of the vector C a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector B. The vector R is known as the resultant vector.](../resources/Figure_03_02_12.jpg)
 {: #Figure12}
 
 Here, we see that when the same vectors are added in a different order, the
@@ -192,7 +192,7 @@ direction*, as shown in [Figure 13](#Figure13). In other words, $$\vb{B}$$ has
 the same length as $$-\vb{B}$$, but points in the opposite direction.
 Essentially, we just flip the vector so it points in the opposite direction.
 
-![Two vectors are shown. One of the vectors is labeled as vector B in north east direction. The other vector is of the same magnitude and is in the opposite direction to that of vector B. This vector is denoted as negative B.](../resources/Figure_03_02_13.jpg 'The negative of a vector is just another vector of the same magnitude but pointing in the opposite direction. So ( \\vb{B} ) is the negative of ( -\\vb{B} ) ; it has the same length but opposite direction. ')
+![Two vectors are shown. One of the vectors is labeled as vector B in north east direction. The other vector is of the same magnitude and is in the opposite direction to that of vector B. This vector is denoted as negative B.](../resources/Figure_03_02_13.jpg 'The negative of a vector is just another vector of the same magnitude but pointing in the opposite direction. So \( \vb{B} \) is the negative of \( -\vb{B} \) ; it has the same length but opposite direction. ')
 {: #Figure13 height="200"}
 
 The **subtraction** of vector $$\vb{B}$$ from vector $$\vb{A}$$ is then
@@ -289,7 +289,7 @@ you multiply by -2, the magnitude doubles but the direction changes. We can
 summarize these rules in the following way: When vector $$\vb{A}$$ is
 multiplied by a scalar $$c$$,
 
-* the magnitude of the vector becomes the absolute value of $$|c|\mag{A}$$,
+* the magnitude of the vector becomes $$|c|\mag{A}$$,
 * if $$c$$ is positive, the direction of the vector does not change,
 * if $$c$$ is negative, the direction is reversed.
 
@@ -311,7 +311,7 @@ of a single vector, for example the **x**- and **y**-components, or the
 north-south and east-west components.
 
 For example, we may know that the total displacement of a person walking in a
-city is 10.3 blocks in a direction $$29.0^\circ$$ north of east and want to
+city is 10.3 blocks in a direction $$29.1^\circ$$ north of east and want to
 find out how many blocks east and north had to be walked. This method is
 called **finding the components (or parts)** of the displacement in the east and
 north directions, and it is the inverse of the process followed to find the
@@ -682,9 +682,9 @@ and $$\vb{B}$$, as in [Figure 21](#Figure21),
 then this problem asks you to
 find their sum $$\vb{R}=\vb{A}+\vb{B}$$.)
 
-![In this figure coordinate axes are shown. Vector A from the origin towards the negative of x axis is shown. From the head of the vector A another vector B is drawn towards the positive direction of y axis. The resultant R of these two vectors is shown as a vector from the tail of vector A to the head of vector B. This vector R is inclined at an angle theta with the negative x axis.](../resources/Figure_03_02_21.jpg 'The two displacements ( \\vb{A} )
-and ( \\vb{B} ) add to give a total displacement ( \\vb{R} )
-having magnitude ( \\mag{R} ) and direction ( \\theta ) .')
+![In this figure coordinate axes are shown. Vector A from the origin towards the negative of x axis is shown. From the head of the vector A another vector B is drawn towards the positive direction of y axis. The resultant R of these two vectors is shown as a vector from the tail of vector A to the head of vector B. This vector R is inclined at an angle theta with the negative x axis.](../resources/Figure_03_02_21.jpg 'The two displacements \( \vb{A} \)
+and \( \vb{B} \) add to give a total displacement \( \vb{R} \)
+having magnitude \( \mag{R} \) and direction \( \theta \) .')
 {: #Figure21}
 
 ::::
@@ -1152,7 +1152,7 @@ The sum of the vectors in Example 2 gives a resultant of 52.9 m at an angle of 9
 Find the magnitudes of velocities $$v_{\text{A}}$$
 and $$v_{\text{B}}$$ in [Figure 23](#Figure23)
 
-![On the graph velocity vector V sub A begins at the origin and is inclined to x axis at an angle of twenty two point five degrees. From the head of vector V sub A another vector V sub B begins. The resultant of the two vectors, labeled V sub tot, is inclined to vector V sub A at twenty six point five degrees and to the vector V sub B at twenty three point zero degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figure_03_02_23.jpg 'The two velocities ( \\vb{v}_A ) and ( \\vb{v}_B ) add to give a total ( \\vb{v}_\\text{tot} ) .')
+![On the graph velocity vector V sub A begins at the origin and is inclined to x axis at an angle of twenty two point five degrees. From the head of vector V sub A another vector V sub B begins. The resultant of the two vectors, labeled V sub tot, is inclined to vector V sub A at twenty six point five degrees and to the vector V sub B at twenty three point zero degrees. V sub tot has a magnitude of 6.72 meters per second.](../resources/Figure_03_02_23.jpg 'The two velocities \( \vb{v}_A \) and \( \vb{v}_B \) add to give a total \( \vb{v}_\text{tot} \) .')
 {: #Figure23}
 
 ::::

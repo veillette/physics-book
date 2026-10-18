@@ -161,7 +161,7 @@ the force on the knee joints is given by
 
 **Discussion**
 
-Such a large force (500 times more than the person’s weight) over the short
+Such a large force (about 600 times the person’s weight) over the short
 impact time is enough to break bones. A much better way to cushion the shock is
 by bending the legs or rolling on the ground, increasing the time over which the
 force acts. A bending motion of 0.5 m this way yields a force 100 times smaller
@@ -181,7 +181,7 @@ See [Figure 3](#Figure3).)
 Finding the Speed of a Roller Coaster from its Height
 </div>
 
-(a) What is the final speed of the roller coaster shown in [Figure 3](#Figure3) if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible?
+(a) What is the final speed of the roller coaster shown in [Figure 4](#Figure4) if it starts from rest at the top of the 20.0 m hill and work done by frictional forces is negligible?
 (b) What is its final speed (again assuming negligible friction) if its initial speed is 5.00 m/s?
 
 ![A roller coaster track is shown with a car about to go downhill. The initial height of the roller coaster car on the track is twenty-five meters from the lowest part of the track and its speed v sub zero is equal to zero. The roller coaster&#x2019;s height from the level part of the track is twenty meters. The finish point of the car is on the level part of the track and the speed at that point is unknown.](../resources/Figure_07_03_04.jpg "The speed of a roller coaster increases as gravity pulls it downhill and is greatest at its lowest point. Viewed in terms of energy, the roller-coaster-Earth system&#x2019;s gravitational potential energy is converted to kinetic energy. If work done by friction is negligible, all \( \Delta \PE_\text{g} \) is converted to \( \Delta \KE \) .")

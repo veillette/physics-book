@@ -17,7 +17,7 @@ chapterNumber: 3
 acceleration of gravity. The object is called a **projectile**, and its path is
 called its
 **trajectory**. The motion of falling objects, as covered
-in [Problem-Solving Basics for One-Dimensional Kinematics](./ch2ProblemSolvingBasicsForOneDimensionalKinematics)
+in [Falling Objects](./ch2FallingObjects)
 , is a simple one-dimensional type of projectile motion in which there is no
 horizontal movement. In this section, we consider two-dimensional projectile
 motion, such as that of a football or other object for which
@@ -42,7 +42,7 @@ $$\mag{x}$$, and $$\mag{y}$$.
 (Note that in the last section we used the notation $$ \vb{A} $$ to represent a
 vector with components $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$. If we continued
 this format, we would call displacement $$ \vb{s} $$ with components $$ \vb{s}_{x} $$ and $$ \vb{s}_{y} $$. However, to simplify the notation, we will simply
-represent the component vectors as $$ s_x $$ and $$ s_y $$.)
+represent the components as $$ x $$ and $$ y $$.)
 
 Of course, to describe motion we must deal with velocity and acceleration, as
 well as with displacement. We must find their components along the **x**- and
@@ -82,7 +82,7 @@ Review of Kinematic Equations (constant \( a \) )
 
 </div>
 
-![A soccer player is kicking a soccer ball. The ball travels in a projectile motion and reaches a point whose vertical distance is y and horizontal distance is x. The displacement between the kicking point and the final point is s. The angle made by this displacement vector with x axis is theta.](../resources/Figure_03_04_01.jpg 'The total displacement ( \\vb{s} ) of a soccer ball at a point along its path. The vector ( \\vb{s} ) has components ( x ) and ( y ) along the horizontal and vertical axes. Its magnitude ( x ) and ( y ) along the horizontal and vertical axes. Its magnitude is ( \\mag{s} ) , and it makes an angle ( \\theta ) with the horizontal.')
+![A soccer player is kicking a soccer ball. The ball travels in a projectile motion and reaches a point whose vertical distance is y and horizontal distance is x. The displacement between the kicking point and the final point is s. The angle made by this displacement vector with x axis is theta.](../resources/Figure_03_04_01.jpg 'The total displacement \( \vb{s} \) of a soccer ball at a point along its path. The vector \( \vb{s} \) has components \( x \) and \( y \) along the horizontal and vertical axes. Its magnitude is \( \mag{s} \) , and it makes an angle \( \theta \) with the horizontal.')
 {: #Figure1}
 
 Given these assumptions, the following steps are then used to analyze projectile
@@ -161,7 +161,7 @@ of the velocity $$ \vb{v} $$.
 </div>
 
 ![In part a the figure shows projectile motion of a ball with initial velocity of v zero at an angle of theta zero with the horizontal x axis. The horizontal component v x and the vertical component v y at various positions of ball in the projectile path is shown. In part b only the horizontal velocity component v sub x is shown whose magnitude is constant at various positions in the path. In part c only vertical velocity component v sub y is shown. The vertical velocity component v sub y is upwards till it reaches the maximum point and then its direction changes to downwards. In part d resultant v of horizontal velocity component v sub x and downward vertical velocity component v sub y is found which makes an angle theta with the horizontal x axis. The direction of resultant velocity v is towards south east.](../resources/Figure_03_04_02.jpg '(a) We analyze two-dimensional projectile motion by breaking it into two independent one-dimensional motions along the vertical and horizontal axes.
-(b) The horizontal motion is simple, because ( a_x=0 ) and ( v_x ) is thus constant.
+(b) The horizontal motion is simple, because \( a_x=0 \) and \( v_x \) is thus constant.
 (c) The velocity in the vertical direction begins to decrease as the object rises; at its highest point, the vertical velocity is zero. As the object falls towards the Earth again, the vertical velocity increases again in magnitude but points in the opposite direction to the initial vertical velocity. (d) The x - and y -motions are recombined to give the total velocity at any given point on the trajectory.')
 {: #Figure2 height="600"}
 
@@ -211,7 +211,7 @@ Solving for $$ y $$ gives
  $$ y=\frac{ v_{0y}^{2}}{2g}. $$
 </div>
 
-Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-direction. It is given by $$ v_{0y}=v_{0} \sin{\theta} $$, where $$ v_{0y} $$ is the initial velocity of
+Now we must find $$ v_{0y} $$, the component of the initial velocity in the *y*-direction. It is given by $$ v_{0y}=v_{0} \sin{\theta} $$, where $$ v_{0} $$ is the initial velocity of
 70.0 m/s, and $$ \theta_{0}=75.0^\circ $$ is the initial angle. Thus,
 
 <div class="equation">
@@ -342,8 +342,8 @@ $$ a_{y}=+g $$.
 Calculating Projectile Motion: Hot Rock Projectile
 </div>
 
-Kilauea in Hawaii is the world’s most continuously active volcano. Very active volcanoes characteristically eject
-red-hot rocks and lava rather than smoke and ash.
+Kīlauea in Hawaii is one of the world’s most active volcanoes. Its runny basaltic magma usually erupts as
+red-hot rocks and lava rather than explosive clouds of ash.
 Suppose a large rock is ejected from the volcano with a speed of 25.0 m/s and
 at an angle $$ 35.0^\circ $$
 above the horizontal, as shown in [Figure 4](#Figure4). The rock
@@ -417,7 +417,7 @@ So any projectile that has an initial vertical velocity of 14.3 m/s and lands
 
 From the information now in hand, we can find the final horizontal and vertical
 velocities $$ v_{x} $$ and $$ v_{y} $$ and combine them to find the magnitude of
-the velocity $$ \mag{v} $$ and the angle $$ \theta_{0} $$ it makes with the
+the velocity $$ \mag{v} $$ and the angle $$ \theta_{v} $$ it makes with the
 horizontal. Of course, $$ v_{x} $$ is constant so we can solve for it at any
 horizontal location. In this case, we chose the starting point since we know
 both the initial velocity and initial angle. Therefore:
@@ -497,7 +497,7 @@ on other interesting phenomena, such as the orbits of satellites around the
 Earth. Let us consider projectile range further.
 
 ![Part a of the figure shows three different trajectories of projectiles on level ground. In each case the projectiles makes an angle of forty five degrees with the horizontal axis. The first projectile of initial velocity thirty meters per second travels a horizontal distance of R equal to ninety one point eight meters. The second projectile of initial velocity forty meters per second travels a horizontal distance of R equal to one hundred sixty three meters. The third projectile of initial velocity fifty meters per second travels a horizontal distance of R equal to two hundred fifty five meters.](../resources/Figure_03_04_05.jpg 'Trajectories of projectiles on level ground.
-(a) The greater the initial speed ( v_0 ), the greater the range for a given initial angle.
+(a) The greater the initial speed \( v_0 \), the greater the range for a given initial angle.
 (b) The effect of initial angle (\\theta_0 ) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.')
 {: #Figure5 height="300"}
 
@@ -514,8 +514,9 @@ exact value depends on the object, its speed, and other conditions.
 Interestingly, for every initial angle except $$ 45^\circ $$, there are two
 angles that give the same range—the sum of those angles is $$ 90^\circ $$. The
 range also depends on the value of the acceleration of gravity $$ g $$. The
-lunar astronaut Alan Shepherd was able to drive a golf ball a great distance on
-the Moon because gravity is weaker there. The range $$ R $$ of a projectile
+lunar astronaut Alan Shepard hit golf balls on the Moon in 1971; for a given
+launch speed and angle, a ball travels about six times farther there because
+gravity is weaker. The range $$ R $$ of a projectile
 on **level ground** for which air resistance is negligible is given by
 
 <div class="equation">
@@ -640,7 +641,7 @@ Projectile Motion
     $$ h=\frac{ v_{0y}^{2}}{2g}. $$
   </div>
 
-- The maximum horizontal distance traveled by a projectile is called the
+- The horizontal distance a projectile travels on level ground is called the
   **range**. The range $$ R $$ of a projectile on level ground launched at an
   angle $$\theta_{0} $$ above the horizontal with initial speed $$ v_{0} $$ is
   given by
@@ -3134,7 +3135,7 @@ projectile motion
 : the motion of an object that is subject only to the acceleration of gravity
 
 range
-: the maximum horizontal distance that a projectile travels
+: the horizontal distance a projectile travels on level ground before returning to its launch height
 
 trajectory
 : the path of a projectile through the air

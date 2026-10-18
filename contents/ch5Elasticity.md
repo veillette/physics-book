@@ -70,7 +70,7 @@ object and the direction of the force.
 
 ::::
 
-![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg 'A graph of deformation ( \\Delta L ) versus applied force ( F ) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is ( 1/k ). For larger forces, the graph is curved but the deformation is still elastic— ( \\Delta L ) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force ( F ) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in ( F ) is producing a large increase in ( L ) near the fracture.')
+![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg 'A graph of deformation \( \Delta L \) versus applied force \( F \) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is \( 1/k \). For larger forces, the graph is curved but the deformation is still elastic— \( \Delta L \) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force \( F \) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in \( F \) is producing a large increase in \( L \) near the fracture.')
 {: #Figure1}
 
 The proportionality constant $$ k $$ depends upon a number of factors for the
@@ -83,7 +83,7 @@ lengths when the force is removed, provided the deformation is small. Most
 materials will behave in this manner if the deformation is less than about 0.1%
 or about 1 part in $$ 10^{3} $$.
 
-![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_05_03_02.jpg 'The same force, in this case a weight ( ( w ) ), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.')
+![Diagram of weight w attached to each of three guitar strings of initial length L zero hanging vertically from a ceiling. The weight pulls down on the strings with force w. The ceiling pulls up on the strings with force w. The first string of thin nylon has a deformation of delta L due to the force of the weight pulling down. The middle string of thicker nylon has a smaller deformation. The third string of thin steel has the smallest deformation.](../resources/Figure_05_03_02.jpg 'The same force, in this case a weight \( ( w ) \), applied to three different guitar strings of identical length produces the three different deformations shown as shaded segments. The string on the left is thin nylon, the one in the middle is thicker nylon, and the one on the right is steel.')
 {: #Figure2}
 
 :::: note {"class":"note","data-label":""}
@@ -111,7 +111,7 @@ or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
 compressing it. (
 See [Figure 3](#Figure3).)
 
-![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_05_03_03.jpg '(a) Tension. The rod is stretched a length ( \\Delta L ) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, ( \\Delta L ) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.')
+![Figure a is a cylindrical rod standing on its end with a height of L sub zero. Two vectors labeled F extend away from each end. A dotted outline indicates that the rod is stretched by a length of delta L. Figure b is a similar rod of identical height L sub zero, but two vectors labeled F exert a force toward the ends of the rod. A dotted line indicates that the rod is compressed by a length of delta L.](../resources/Figure_05_03_03.jpg '(a) Tension. The rod is stretched a length \( \Delta L \) when a force is applied parallel to its length. (b) Compression. The same rod is compressed by forces with the same magnitude in the opposite direction. For very small deformations and uniform materials, \( \Delta L \) is approximately the same for the same magnitude of tension or compression. For larger deformations, the cross-sectional area changes as the rod is compressed or stretched.')
 {: #Figure3}
 
 Experiments have shown that the change in length ( $$ \Delta L $$)
@@ -139,7 +139,7 @@ deform less for a given tension or compression.
 | Material           | Young’s modulus (tension–compression)Y $$(10^9 \text{N/m}^2)$$ | Shear modulus S $$(10^9 \text{N/m}^2) $$ | Bulk modulus B $$(10^9 \text{N/m}^2) $$ |
 | ------------------ | -------------------------------------------------------------- | ---------------------------------------- | --------------------------------------- |
 | Aluminum           | 70                                                             | 25                                       | 75                                      |
-| Bone – tension     | 16                                                             | 80                                       | 8                                       |
+| Bone – tension     | 16                                                             | 3                                        | 8                                       |
 | Bone – compression | 9                                                              |                                          |                                         |
 | Brass              | 90                                                             | 35                                       | 75                                      |
 | Brick              | 15                                                             |                                          |                                         |
@@ -174,7 +174,7 @@ Young’s moduli are not listed for liquids and gases in [Table 1](#Table1)
 because they cannot be stretched or compressed in only one direction. Note that
 there is an assumption that the object does not accelerate, so that there are
 actually two applied forces of magnitude $$ F $$ acting in opposite directions.
-For example, the strings in [Figure 3](#Figure3) are being pulled down by a force
+For example, the strings in [Figure 2](#Figure2) are being pulled down by a force
 of magnitude $$ w $$ and held up by the ceiling, which also exerts a force of
 magnitude $$ w $$.
 
@@ -257,8 +257,7 @@ with each pump of the heart. If the arteries were rigid, you would not feel a
 pulse. The heart is also an organ with special elastic properties. The lungs
 expand with muscular effort when we breathe in but relax freely and elastically
 when we breathe out. Our skins are particularly elastic, especially for the
-young. A young person can go from 100 kg to 60 kg with no visible sag in their
-skins. The elasticity of all organs reduces with age. Gradual physiological
+young. The elasticity of all organs reduces with age. Gradual physiological
 aging through reduction in elasticity starts in the early 20s.
 
 :::: example
@@ -337,7 +336,7 @@ we see that it is the same as Hooke’s law with a proportionality constant
 </div>
 
 This general idea—that force and the deformation it causes are proportional for
-small deformations—applies to changes in length, sideways bending, and changes
+small deformations—applies to changes in length, sideways shear, and changes
 in volume.
 
 :::: note {"class":"note","data-label":""}
@@ -410,9 +409,10 @@ and parallel to the cross-sectional area $$ A $$.
 
 Examination of the shear moduli in [Table 1](#Table1)
 reveals some telling patterns. For example, shear moduli are less than Young’s
-moduli for most materials. Bone is a remarkable exception. Its shear modulus is
-not only greater than its Young’s modulus, but it is as large as that of steel.
-This is why bones are so rigid.
+moduli for most materials; for a uniform material the shear modulus is always
+less than Young’s modulus. Bone follows this pattern: its shear modulus is only
+about one-fifth of its Young’s modulus, which is one reason bones usually break
+by shearing or bending rather than by simple tension or compression.
 
 The spinal column (consisting of 26 vertebral segments separated by discs)
 provides the main support for the head and upper part of the body. The spinal
@@ -428,9 +428,10 @@ increase the risk of back injury through ruptured discs. The lumbosacral disc (
 the wedge shaped disc below the last vertebrae) is particularly at risk because
 of its location.
 
-The shear moduli for concrete and brick are very small; they are too highly
-variable to be listed. Concrete used in buildings can withstand compression, as
-in pillars and arches, but is very poor against shear, as might be encountered
+The shear moduli for concrete and brick are too variable to be listed in the
+table, and their shear strength (the stress at which they fail in shear) is
+low. Concrete used in buildings can withstand compression, as in pillars and
+arches, but is very poor against shear, as might be encountered
 in heavily loaded floors or during earthquakes. Modern structures were made
 possible by the use of steel and steel-reinforced concrete. Almost by
 definition, liquids and gases have shear moduli near zero, because they flow in
@@ -451,7 +452,9 @@ modulus is known to two significant figures.)
 
 **Strategy**
 
-The force $$ F $$ on the nail (neglecting the nail’s own weight) is the weight
+We model the nail as if it deformed purely in shear; a real nail loaded at its
+tip deforms mostly by bending, so this is a simplified estimate. The force
+$$ F $$ on the nail (neglecting the nail’s own weight) is the weight
 of the picture $$ w $$. If we can find $$ w $$, then the mass of the picture is
 just $$ \frac{w}{g} $$. The equation $$ \Delta x=\frac{1}{S}\frac{F}{A} L_{0} $$
 can be solved for $$ F $$.
@@ -612,7 +615,6 @@ Hooke's Law
 
 :::
 
-{ Figure9}
 
 ::::
 
@@ -1021,14 +1023,14 @@ A horizontal force at the top of a long pole fixed at its base produces **bendin
 $$ I = \frac{\pi r^4}{4} = \frac{\pi(0.0200 \m)^4}{4} = 1.26 \times 10^{-7} \text{ m}^4 $$
 </div>
 
-3. Tip deflection from bending:
+3. Check the small-deflection approximation by calculating its formal result:
 <div class="equation">
-$$ \Delta x = \frac{FL_0^3}{3EI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.26 \times 10^{-7} \text{ m}^4)} = 2.7 \times 10^{2} \m $$
+$$ \Delta x_{\text{lin}} = \frac{FL_0^3}{3EI} = \frac{(900 \N)(20.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(1.26 \times 10^{-7} \text{ m}^4)} = 2.7 \times 10^{2} \m $$
 </div>
 
 **Discussion**
 
-The bending model predicts a tip deflection of about $$ 2.7 \times 10^{2} \m $$—far larger than the pole's height—showing that a 20-m pole cannot be treated as a rigid member under a 900-N side load. Real flagpoles rely on their embedded base, guy wires, or much stiffer designs. Uniform shear along the entire length would apply only to a short block, as in the nail example in this section.
+The formal result is about 14 times the pole's length, so it violates the small-deflection assumption. **It is not a physical deflection of 270 m.** The stated load and stiffness cannot be used to obtain a reliable displacement with this linear formula. A quantitative answer would require a model that accounts for large rotations and checks whether the material remains elastic or fails. Treating the pole as a block in uniform shear would also omit its dominant bending response.
 
 ::::
 
@@ -1142,7 +1144,7 @@ taking the vertebra to be a cylinder 3.00 cm high and 4.00 cm in diameter.
 
 **Strategy**
 
-For shear deformation, we use $$ \Delta x = \frac{FL_{0}}{AS} $$, where $$ S $$ is the shear modulus. From Table 3, the shear modulus for bone is $$ S = 8.0 \times 10^{10} \text{ N/m}^2 $$.
+For shear deformation, we use $$ \Delta x = \frac{FL_{0}}{AS} $$, where $$ S $$ is the shear modulus. From Table 1, the shear modulus for bone is about $$ S = 3.0 \times 10^{9} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1153,16 +1155,16 @@ $$ A = \pi r^2 = \pi(0.0200 \m)^2 = 1.257 \times 10^{-3} \mm $$
 
 2. Calculate the shear deformation:
 <div class="equation">
-$$ \Delta x = \frac{FL_{0}}{AS} = \frac{(500 \N)(0.0300 \m)}{(1.257 \times 10^{-3} \mm)(8.0 \times 10^{10} \text{ N/m}^2)} $$
+$$ \Delta x = \frac{FL_{0}}{AS} = \frac{(500 \N)(0.0300 \m)}{(1.257 \times 10^{-3} \mm)(3.0 \times 10^{9} \text{ N/m}^2)} $$
 </div>
 
 <div class="equation">
-$$ \Delta x = \frac{15.0}{1.006 \times 10^{8}} = 1.49 \times 10^{-7} \m $$
+$$ \Delta x = \frac{15.0}{3.77 \times 10^{6}} = 3.98 \times 10^{-6} \m $$
 </div>
 
 **Discussion**
 
-The vertebra experiences a shear deformation of $$ 1.49 \times 10^{-7} \m $$ or about $$ 0.15 \text{ μm} $$—less than a wavelength of visible light! This incredibly small deformation under a 500 N shearing force demonstrates the remarkable resistance of bone to shear. The spine's structure is well-designed to handle the complex combination of compressive and shearing forces it experiences during daily activities.
+The vertebra experiences a shear deformation of $$ 3.98 \times 10^{-6} \m $$, or about $$ 4 \text{ μm} $$. This tiny deformation under a 500 N shearing force shows that bone resists shear well, even though its shear modulus is much smaller than its Young’s modulus. The spine's structure is well-designed to handle the complex combination of compressive and shearing forces it experiences during daily activities.
 
 ::::
 
@@ -1204,7 +1206,7 @@ $$ \Delta x = \frac{4.20}{1.257 \times 10^6} = 3.34 \times 10^{-6} \m = 3.34 \te
 
 **Discussion**
 
-The intervertebral disk experiences a shear deformation of $$ 3.34 \text{ μm} $$. This is about 20 times larger than the vertebra deformation from the previous problem, reflecting the disk's much lower shear modulus. Intervertebral disks are made of softer, more flexible material than bone, which allows them to act as shock absorbers between vertebrae while still providing structural support.
+The intervertebral disk experiences a shear deformation of $$ 3.34 \text{ μm} $$. This is similar to the vertebra deformation from the previous problem even though the disk is much thinner, reflecting the disk's lower shear modulus. Intervertebral disks are made of softer, more flexible material than bone, which allows them to act as shock absorbers between vertebrae while still providing structural support.
 
 ::::
 
@@ -1290,7 +1292,7 @@ diameter solid cylinder.
 
 **Strategy**
 
-The wire tension has both a horizontal component (bending the pole sideways) and a vertical component (compressing the pole). Sideways deflection of the 12.0-m cantilever uses $$ \Delta x = F_H L^3/(3YI) $$ with $$ I = \pi r^4/4 $$; compression still uses $$ \Delta L = F_V L/(AY) $$. For aluminum, $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$.
+The wire tension has both a horizontal component (bending the pole sideways) and a vertical component (compressing the pole). Check the small-deflection estimate $$ \Delta x_{\text{lin}} = F_H L^3/(3YI) $$ with $$ I = \pi r^4/4 $$ before accepting it as a displacement. For a straight pole, the axial compression estimate is $$ \Delta L = F_V L/(AY) $$. For aluminum, $$ Y = 7.0 \times 10^{10} \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1307,14 +1309,14 @@ $$ I = \frac{\pi r^4}{4} = 2.01 \times 10^{-7} \text{ m}^4 $$
    - Horizontal component: $$ F_H = T\cos 30° = 108 \cos 30° = 93.5 \N $$
    - Vertical component: $$ F_V = T\sin 30° = 108 \sin 30° = 54.0 \N $$
 
-(a) Sideways bending at the top:
+(a) Formal small-deflection result at the top:
 
 <div class="equation">
-$$ \Delta x = \frac{F_H L^3}{3YI} = \frac{(93.5 \N)(12.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(2.01 \times 10^{-7} \text{ m}^4)} $$
+$$ \Delta x_{\text{lin}} = \frac{F_H L^3}{3YI} = \frac{(93.5 \N)(12.0 \m)^3}{3(7.0 \times 10^{10} \text{ N/m}^2)(2.01 \times 10^{-7} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
-$$ \Delta x = 3.8 \m $$
+$$ \Delta x_{\text{lin}} = 3.8 \m $$
 </div>
 
 (b) Compression:
@@ -1329,7 +1331,7 @@ $$ \Delta L = \frac{648}{1.11 \times 10^8} = 5.82 \times 10^{-6} \m = 0.00582 \t
 
 **Discussion**
 
-The bending model gives a sideways deflection of about $$ 3.8 \m $$ under the wire's horizontal pull—much larger than the compression of $$ 0.006 \text{ mm} $$—showing that a 12-m pole behaves as a flexible cantilever rather than a rigid block in uniform shear. In practice, poles are sized and anchored so that wire tensions produce acceptable bends.
+The formal sideways deflection is about 32% of the pole's length, so the small-deflection approximation is not reliable. **3.8 m is a diagnostic of model breakdown, not a reliable displacement.** A quantitative bending answer requires accounting for large rotations, the axial load, and material limits. The $$ 0.00582 \text{ mm} $$ compression in (b) is the axial shortening estimated for a straight pole; it does not include the change in tip height caused by bending.
 
 ::::
 
@@ -1498,7 +1500,7 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 
 **Strategy**
 
-At a 90° bend, the two wire tensions at 80° from vertical combine to create net horizontal and vertical forces on the pole. The vertical components compress the pole; the horizontal components (which don't cancel at a bend) bend it as a cantilever. Sideways deflection uses $$ \Delta x = F_{H,\text{net}} L_0^3/(3YI) $$ with $$ I = \pi r^4/4 $$. For hardwood at half stiffness: $$ Y = 0.5 \times 1.5 \times 10^{10} = 7.5 \times 10^9 \text{ N/m}^2 $$.
+At a 90° bend, the two wire tensions at 80° from vertical combine to create net horizontal and vertical forces on the pole. The vertical components compress the pole; the horizontal components (which don't cancel at a bend) bend it as a cantilever. Test the small-deflection estimate $$ \Delta x_{\text{lin}} = F_{H,\text{net}} L_0^3/(3YI) $$ with $$ I = \pi r^4/4 $$. For hardwood at half stiffness: $$ Y = 0.5 \times 1.5 \times 10^{10} = 7.5 \times 10^9 \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1526,17 +1528,17 @@ $$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4)(15.0)}
 $$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m = 1.1 \text{ mm} $$
 </div>
 
-(b) Bending of the pole ($$ I = \pi r^4/4 = 5.15 \times 10^{-6} \text{ m}^4 $$):
+(b) Formal small-deflection result ($$ I = \pi r^4/4 = 5.15 \times 10^{-6} \text{ m}^4 $$):
 
 <div class="equation">
-$$ \Delta x = \frac{F_{H,net} L_0^3}{3YI} = \frac{(5.57 \times 10^4 \N)(15.0 \m)^3}{3(7.5 \times 10^9 \text{ N/m}^2)(5.15 \times 10^{-6} \text{ m}^4)} $$
+$$ \Delta x_{\text{lin}} = \frac{F_{H,net} L_0^3}{3YI} = \frac{(5.57 \times 10^4 \N)(15.0 \m)^3}{3(7.5 \times 10^9 \text{ N/m}^2)(5.15 \times 10^{-6} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
-$$ \Delta x = 1.6 \times 10^{2} \m $$
+$$ \Delta x_{\text{lin}} = 1.6 \times 10^{3} \m $$
 </div>
 
-The pole bends in the direction that bisects the 90° angle (45° from each wire).
+This is over 100 times the pole's length, so **the linear formula cannot give a physical displacement for this load**. The resultant horizontal force points along the bisector of the 90° angle (45° from each wire), but the actual deformation or failure requires further analysis.
 
 (c) Guy wire tension:
 
@@ -1552,7 +1554,7 @@ $$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4}{0.500} = 1.11
 
 **Discussion**
 
-The pole is compressed by $$ 1.1 \text{ mm} $$ and the bending model gives a tip deflection of about $$ 1.6 \times 10^{2} \m $$ in the direction bisecting the 90° bend—illustrating why corner poles need guy wires rather than relying on flexural stiffness alone. To keep the pole straight, a guy wire with tension $$ 1.11 \times 10^5 \N $$ (about 25,000 lbs) is needed. This substantial force explains why guy wires at corner poles must be anchored very securely, often to large concrete blocks buried in the ground.
+The $$ 1.1 \text{ mm} $$ value in (a) estimates axial compression of a straight pole under the two line tensions. The formal $$ 1.6 \times 10^{3} \m $$ result in (b) demonstrates failure of the small-deflection approximation; it is not an actual bend. The horizontal force balance in (c) gives a guy wire tension of $$ 1.11 \times 10^5 \N $$ to cancel the sideways load on a straight pole. The guy wire also adds downward force, so a supported design must check the resulting compression, stability, and material strength.
 
 ::::
 

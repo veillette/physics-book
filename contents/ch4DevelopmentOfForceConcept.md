@@ -10,7 +10,7 @@ chapterNumber: 4
 
 :::
 
-**Dynamics** is the study of the forces that cause objects and systems to move.
+**Dynamics** is the study of the forces that cause objects and systems to change their motion.
 To understand this, we need a working definition of force. Our intuitive
 definition of **force**—that is, a push or a pull—is a good place to start. We
 know that a push or pull has both magnitude and direction (therefore, it is a
@@ -52,9 +52,9 @@ electric current. Some alternative definitions of force will be given later
 in this chapter.
 
 ![(a) A spring of length x, fixed at one end, is shown in horizontal position.
-(b) The same spring is shown pulled by a person by a distance of delta x. The restoring force F restore is represented by an arrow pointing left toward the position where the spring is fixed. (c) A spring balance containing a spring stretched a distance delta x is shown. The restoring force is represented by an arrow F restore pointing toward the left in the direction opposite to the elongation of the spring.](../resources/Figure_04_01_02.jpg 'The force exerted by a stretched spring can be used as a standard unit of force. (a) This spring has a length ( x ) when undistorted.
-(b) When stretched a distance ( \\Delta x ) , the spring exerts a restoring force, ( F_{\\text{restore}} ), which is reproducible.
-(c) A spring scale is one device that uses a spring to measure force. The force ( F_{\\text{restore}} ) i s exerted on whatever is attached to the hook. Here ( F_{\\text{restore}} ) has a magnitude of 6 units in the force standard being employed.')
+(b) The same spring is shown pulled by a person by a distance of delta x. The restoring force F restore is represented by an arrow pointing left toward the position where the spring is fixed. (c) A spring balance containing a spring stretched a distance delta x is shown. The restoring force is represented by an arrow F restore pointing toward the left in the direction opposite to the elongation of the spring.](../resources/Figure_04_01_02.jpg 'The force exerted by a stretched spring can be used as a standard unit of force. (a) This spring has a length \( x \) when undistorted.
+(b) When stretched a distance \( \Delta x \) , the spring exerts a restoring force, \( F_{\text{restore}} \), which is reproducible.
+(c) A spring scale is one device that uses a spring to measure force. The force \( F_{\text{restore}} \) is exerted on whatever is attached to the hook. Here \( F_{\text{restore}} \) has a magnitude of 6 units in the force standard being employed.')
 {: #Figure2}
 
 ::: note {"class":"note","data-label":""}

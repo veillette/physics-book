@@ -18,6 +18,9 @@ rink floor, a banked roadway’s force on a car, and forces on the tube of a
 spinning centrifuge.
 
 Any net force causing uniform circular motion is called a **centripetal force**.
+A centripetal force is not a new kind of force: it is the role played by real
+forces such as tension, friction, gravity, or a normal force, so it is never
+added as a separate arrow on a free-body diagram.
 The direction of a centripetal force is toward the center of curvature, the
 same as the direction of centripetal acceleration. According to Newton’s second
 law of motion, net force is mass times acceleration:
@@ -51,7 +54,7 @@ $$r=\frac{ mv^{2}}{ F_\text{c}}.$$
 This implies that for a given mass and velocity, a large centripetal force
 causes a small radius of curvature—that is, a tight curve.
 
-![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_06_03_01.jpg 'The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the ( F_c ) , the smaller the radius of curvature ( r ) and the sharper the curve. The second curve has the same ( v ) , but a larger ( F_c ) produces a smaller ( r^\\prime ) .')
+![The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.](../resources/Figure_06_03_01.jpg 'The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the \( F_c \) , the smaller the radius of curvature \( r \) and the sharper the curve. The second curve has the same \( v \) , but a larger \( F_c \) produces a smaller \( r^\prime \) .')
 {: #Figure1}
 
 ::: example
@@ -99,7 +102,13 @@ Using the first expression for $$F_{\text{c}}$$
 $$\begin{array}{lll}
 {F}_{\text{c}}&=&m\frac{ v^{2}}{r}\\
 {F}_{\text{c}}&=& mr \omega^{2}
-\end{array},$$&lt;/div&gt; &lt;div class="equation"&gt;$$m\frac{ v^{2}}{r}=\mu_{\s}mg .$$
+\end{array},$$
+</div>
+
+we get
+
+<div class="equation">
+$$m\frac{ v^{2}}{r}=\mu_{\s}mg .$$
 </div>
 
 We solve this for $$\mu_{\s}$$, noting that mass cancels, and obtain
@@ -132,7 +141,7 @@ speed would be less than 25 m/s. Note that mass cancels, implying that in this
 example, it does not matter how heavily loaded the car is to negotiate the turn.
 Mass cancels because friction is assumed proportional to the normal force, which
 in turn is proportional to mass. If the surface of the road were banked, the
-normal force would be less as will be discussed below.
+normal force would be greater than the weight, as will be discussed below.
 
 :::
 
@@ -1018,8 +1027,8 @@ ideal speed
 angle without needing friction between the tires and the road
 
 ideal angle
-: the angle at which a car can turn safely on a steep curve, which is in
-proportion to the ideal speed
+: the bank angle at which a vehicle at a given speed can follow a curve without
+needing friction; it satisfies $$ \tan{\theta} = v^{2}/rg $$
 
 banked curve
 : the curve in a road that is sloping in a manner that helps a vehicle negotiate

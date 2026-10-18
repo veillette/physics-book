@@ -68,11 +68,11 @@ see [Physical Quantities and Units](./ch1PhysicalQuantitiesAndUnits))
 Keep in mind that when units other than the meter are used in a problem, you may
 need to convert them into meters to complete the calculation.
 
-![The initial and final position of a professor as she moves to the right while writing on a whiteboard. Her initial position is 1 point 5 meters. Her final position is 3 point 5 meters. Her displacement is given by the equation delta x equals x sub f minus x sub 0 equals 2 point 0 meters.](../resources/Figure_02_01_02.jpg 'A professor paces left and right while lecturing. Her position relative to Earth is given by ( \\Delta x ) . The +2.0m displacement of the professor relative to Earth is represented by an arrow pointing to the right.')
+![The initial and final position of a professor as she moves to the right while writing on a whiteboard. Her initial position is 1 point 5 meters. Her final position is 3 point 5 meters. Her displacement is given by the equation delta x equals x sub f minus x sub 0 equals 2 point 0 meters.](../resources/Figure_02_01_02.jpg 'A professor paces left and right while lecturing. Her displacement relative to Earth is \( \Delta x = x_f - x_0 \) . The +2.0 m displacement of the professor relative to Earth is represented by an arrow pointing to the right.')
 {: #Figure2}
 
 ![View of an airplane with an inset of the passengers sitting inside. A passenger has just moved from his seat and is now standing in the back. His initial position was 6 point 0 meters. His final position is 2 point 0 meters. His displacement is given by the equation delta x equals x sub f minus x sub 0 equals 4 point zero meters.](../resources/Figure_02_01_03.jpg
-'A passenger moves from his seat to the back of the plane. His location relative to the airplane is given by \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in <a href="#Figure2">Figure 2</a>.')
+'A passenger moves from his seat to the back of the plane. His displacement relative to the airplane is \( x_f -x_0 \). The displacement of the passenger relative to the plane is represented by an arrow toward the rear of the plane. Notice that the arrow representing his displacement is twice as long as the arrow representing the displacement of the professor (he moves twice as far) in <a href="#Figure2">Figure 2</a>.')
 {: #Figure3}
 
 Note that displacement has a direction as well as a magnitude. The professor’s

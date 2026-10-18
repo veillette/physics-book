@@ -48,8 +48,9 @@ Galileo also contributed to the formation of what is now called Newton’s first
 law of motion. Newton made use of the work of his predecessors, which enabled
 him to develop laws of motion, discover the law of gravity, invent calculus, and
 make great contributions to the theories of light and color. It is amazing that
-many of these developments were made with Newton working alone, without the
-benefit of the usual interactions that take place among scientists today.
+Newton did much of this work in relative isolation, although his correspondence
+with contemporaries such as Robert Hooke and Edmond Halley shaped it; Halley
+persuaded him to write the *Principia*.
 
 It was not until the advent of modern physics early in the 20th century that it
 was discovered that Newton’s laws of motion produce a good approximation to

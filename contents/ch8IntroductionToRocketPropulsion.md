@@ -74,7 +74,7 @@ is the mass of the ejected gas, and $$ \Delta t $$ is the time in which the gas 
 
 ::::
 
-![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_08_07_01.jpg '(a) This rocket has a mass ( m ) and an upward velocity ( v ) . The net external force on the system is ( mg ) pointing down, if air resistance is neglected. (b) A time ( \\Delta t) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.')
+![Picture a shows a rocket launched into space. It moves upward with velocity v in time t and the burning of fuel is also shown. After time t plus delta t the mass of fuel decreases by delta m and hence the velocity of the rocket increases to v plus delta v. The free body diagram shows the weight W of the rocket downward, reaction force upward and the resultant velocity upward too.](../resources/Figure_08_07_01.jpg '(a) This rocket has a mass \( m \) and an upward velocity \( v \) . The net external force on the system is \( mg \) pointing down, if air resistance is neglected. (b) A time \( \Delta t \) later the system has two main parts, the ejected gas and the remainder of the rocket. The reaction force on the rocket is what overcomes the gravitational force and accelerates it upward.')
 {: #Figure1}
 
 A rocket’s acceleration depends on three major factors, consistent with the
@@ -180,7 +180,7 @@ Thus, the mass of the rocket is
 This result means that only $$ 1/88 $$ of the mass is left when the fuel is
 burnt, and $$ 87/88 $$ of the initial mass was fuel. Expressed as percentages,
 98.9% of the rocket is fuel, while payload, engines, fuel tanks, and other
-components make up only 1.10%. Taking air resistance and gravitational force
+components make up only 1.14%. Taking air resistance and gravitational force
 into account, the mass $$ m_{\text{r}} $$ remaining can only be about $$ m_{0}/180 $$. It is difficult to build a rocket in which the fuel has a mass 180
 times everything else. The solution is multistage rockets. Each stage only needs
 to achieve part of the final velocity and is discarded after it burns its fuel.
@@ -192,7 +192,8 @@ The space shuttle was an attempt at an economical vehicle with some reusable
 parts, such as the solid fuel boosters and the craft itself. (
 See [Figure 2](#Figure2)) The shuttle’s need to be operated by humans, however,
 made it at least as costly for launching satellites as expendable, unmanned
-rockets. Ideally, the shuttle would only have been used when human activities
+rockets. (Since 2015, some commercial rockets have routinely landed and reused
+their first stages, which has substantially lowered launch costs.) Ideally, the shuttle would only have been used when human activities
 were required for the success of a mission, such as the repair of the Hubble
 space telescope. Rockets with satellites can also be launched from airplanes.
 Using airplanes has the double advantage that the initial velocity is
@@ -215,8 +216,7 @@ Can you avoid the boulder field and land safely, just before your fuel runs out,
 <figcaption>
 Lunar Lander
 </figcaption>
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/lunar-lander/lunar-lander_en.
-html" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://openlyceum.github.io/LunarLander/" width="750" height="500"  allowfullscreen></iframe>
 
 :::
 

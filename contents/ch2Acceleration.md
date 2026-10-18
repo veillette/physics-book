@@ -165,7 +165,7 @@ the shuttle moves to the right, and in (b) it moves to the left. The examples
 are designed to further illustrate aspects of motion and to illustrate some of
 the reasoning that goes into solving problems.
 
-![In part (a), a subway train moves from left to right from an initial position of x equals 4 point 7 kilometers to a final position of x equals 6 point 7 kilometers, with a displacement of 2 point 0 kilometers. In part (b), the train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_04_07.jpg "One-dimensional motion of a subway train. Here we have chosen the x-axis so that + means to the right and - means to the left for displacements, velocities, and accelerations. (a) The subway train moves to the right from (x_0) to ( x_f). Its displacement ( \\Delta x ) is +2.0 km. (b) The train moves to the left from ( x'_0 ) to ( x'_f ). Its displacement ( \\Delta x'=1.5 \\text{km} ). (Note that the prime symbol (') is used simply to distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
+![In part (a), a subway train moves from left to right from an initial position of x equals 4 point 7 kilometers to a final position of x equals 6 point 7 kilometers, with a displacement of 2 point 0 kilometers. In part (b), the train moves toward the left, from an initial position of 5 point 25 kilometers to a final position of 3 point 75 kilometers.](../resources/Figure_02_04_07.jpg "One-dimensional motion of a subway train. Here we have chosen the x-axis so that + means to the right and - means to the left for displacements, velocities, and accelerations. (a) The subway train moves to the right from (x_0) to ( x_f). Its displacement \( \Delta x \) is +2.0 km. (b) The train moves to the left from \( x'_0 \) to \( x'_f \). Its displacement is \( \Delta x'=-1.5 \text{km} \). (Note that the prime symbol (') is used simply to distinguish between displacement in the two different situations. The distances of travel and the size of the cars are on different scales to fit everything into the diagram.)")
 {: #Figure7}
 
 :::: example {"class":"example","id":"example2"}
@@ -804,6 +804,6 @@ instantaneous acceleration
 
 deceleration
 : acceleration in the direction opposite to velocity; acceleration that results
-in a decrease in velocity
+in a decrease in speed
 
 ::::

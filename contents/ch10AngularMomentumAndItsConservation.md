@@ -49,6 +49,8 @@ Angular momentum is completely analogous to linear momentum, first presented in 
 Calculating Angular Momentum of the Earth
 </div>
 
+Calculate the angular momentum of Earth due to its rotation about its axis.
+
 **Strategy**
 
 No information is given in the statement of the problem; so we must look up
@@ -66,8 +68,8 @@ so that
  $$ L=I\omega=\frac{2 MR^{2}\omega }{5}. $$
 </div>
 
-Earth’s mass $$ M $$ is $$ 5.972 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times 10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is, of course,
-exactly one revolution per day, but we must convert $$ \omega $$ to radians per
+Earth’s mass $$ M $$ is $$ 5.972 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times 10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is very nearly
+one revolution per day (one rotation actually takes 23.93 h, the sidereal day), but we must convert $$ \omega $$ to radians per
 second to do the calculation in SI units.
 
 **Solution**
@@ -123,7 +125,7 @@ Calculating the Torque Putting Angular Momentum Into a Lazy Susan
 (a) What is the final angular momentum of the lazy Susan if it starts from rest, assuming friction is negligible?
 (b) What is the final angular velocity of the lazy Susan, given that its mass is 4.00 kg and assuming its moment of inertia is that of a disk?
 
-![The given figure shows a lazy Susan on which various eatables like cake, salad grapes, and a drink are kept. A hand is shown that applies a force F, indicated by a leftward pointing horizontal arrow. This force is perpendicular to the radius r and thus tangential to the circular lazy Susan.](../resources/Figure_10_05_01.jpg 'A partygoer exerts a torque on a lazy Susan to make it rotate. The equation ( \\text{net} \\vb{\\tau} =\\frac{\\Delta \\vb{L}}{\\Delta t} ) gives the relationship between torque and the angular momentum produced.')
+![The given figure shows a lazy Susan on which various eatables like cake, salad grapes, and a drink are kept. A hand is shown that applies a force F, indicated by a leftward pointing horizontal arrow. This force is perpendicular to the radius r and thus tangential to the circular lazy Susan.](../resources/Figure_10_05_01.jpg 'A partygoer exerts a torque on a lazy Susan to make it rotate. The equation \( \text{net} \vb{\tau} =\frac{\Delta \vb{L}}{\Delta t} \) gives the relationship between torque and the angular momentum produced.')
 {: #Figure1}
 
 **Strategy**

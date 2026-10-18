@@ -146,7 +146,7 @@ The height of the money will be about 150 in. high. Converting this value to fee
 **Discussion**
 
 The final approximate value is much higher than the early estimate of 3 in., but
-the other early estimate of 10 ft (120 in.) was roughly correct. How did the
+the other early estimate of 10 ft (120 in.) was close. How did the
 approximation measure up to your first guess? What can this exercise tell you in
 terms of rough “guesstimates” versus carefully calculated approximations?
 

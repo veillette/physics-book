@@ -52,7 +52,7 @@ as long as the system is clear and consistent. Once you assign a positive
 direction and start solving a problem, you cannot change it.
 
 ![An x y coordinate system. An arrow pointing toward the right shows the positive x direction. Negative x is toward the left. An arrow pointing up shows the positive y direction. Negative y points downward.](../resources/Figure_02_02_02.jpg '
-It is usually convenient to consider motion upward or to the right as positive ( + )and motion downward or to the left as negative (-).')
+It is usually convenient to consider motion upward or to the right as positive \( + \) and motion downward or to the left as negative (-).')
 {: #Figure2}
 
 <div class="exercise" data-element-type="check-understanding" data-label="">

@@ -55,9 +55,9 @@ there is a sudden stop. The momentum change is the same for an occupant, whether
 an airbag is deployed or not, but the force (to bring the occupant to a stop)
 will be much less if it acts over a larger time. Cars today have many plastic
 components. One advantage of plastics is their lighter weight, which results in
-better gas mileage. Another advantage is that a car will crumple in a collision,
-especially in the event of a head-on collision. A longer collision time means
-the force on the car will be less. Deaths during car races decreased
+better gas mileage. Cars are also designed with crumple zones, structures that
+collapse in a controlled way in a collision, especially a head-on collision. A
+longer collision time means the force on the occupants will be less. Deaths during car races decreased
 dramatically when the rigid frames of racing cars were replaced with parts that
 could crumple or collapse in the event of an accident.
 
@@ -182,7 +182,7 @@ bouncing off the floor. The area under the curve has units of momentum and is
 equal to the impulse or change in momentum between times $$ t_{1} $$ and $$ t_{2} $$. That area is equal to the area inside the rectangle bounded by $$ F_{\text{eff}} $$, $$ t_{1} $$, and $$ t_{2} $$. Thus, the impulses and their 
 effects are the same for both the actual and effective forces.
 
-![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_08_02_01.jpg 'A graph of force versus time with time along the ( x ) -axis and force along the ( y ) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.')
+![Figure is a graph of force, F, versus time, t. Two curves, F actual and F effective, are drawn. F actual is drawn between t sub1 and t sub 2 and it resembles a bell-shaped curve that peaks mid-way between t sub 1 and t sub 2. F effective is a line parallel to the x axis drawn at about fifty five percent of the maximum value of F actual and it extends up to t sub 2.](../resources/Figure_08_02_01.jpg 'A graph of force versus time with time along the \( x \) -axis and force along the \( y \) -axis for an actual force and an equivalent effective force. The areas under the two curves are equal.')
 {: #Figure1}
 
 ::: note {"class":"note","data-label":""}
@@ -1176,8 +1176,8 @@ The impulse angle (61.7°) is steeper than the final ball trajectory (55°) beca
 {: class="glossary-title"}
 
 change in momentum
-: the difference between the final and initial momentum; the mass times the
-change in velocity
+: the difference between the final and initial momentum; for an object of
+constant mass, the mass times the change in velocity
 
 impulse
 : the average net external force times the time it acts; equal to the change in

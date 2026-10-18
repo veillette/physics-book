@@ -114,7 +114,7 @@ translational kinetic energy, with $$ I $$ being analogous to $$ m $$ and $$ \om
 Flywheels, for example, can be used to store large amounts of rotational kinetic
 energy in a vehicle, as seen in [Figure 3](#Figure3).
 
-![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_10_04_03.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into \( \KE_{\text{rot}} /). It can also convert translational kinetic energy, when the bus stops, into \( \KE_{\text{rot}} /). The flywheel&#x2019;s energy can then be used to accelerate, to go up another hill, or to keep the bus from going against friction.")
+![The figure shows a bus carrying a large flywheel on its board in which rotational kinetic energy is stored.](../resources/Figure_10_04_03.jpg "Experimental vehicles, such as this bus, have been constructed in which rotational kinetic energy is stored in a large flywheel. When the bus goes down a hill, its transmission converts its gravitational potential energy into \( \KE_{\text{rot}} \). It can also convert translational kinetic energy, when the bus stops, into \( \KE_{\text{rot}} \). The flywheel&#x2019;s energy can then be used to accelerate, to go up another hill, or to keep the bus moving against friction.")
 {: #Figure3}
 
 :::: example
@@ -241,21 +241,18 @@ solve part (b). We will do this in later examples.
 
 ::::
 
-Helicopter pilots are quite familiar with rotational kinetic energy. They know,
-for example, that a point of no return will be reached if they allow their
-blades to slow below a critical angular velocity during flight. The blades lose
-lift, and it is impossible to immediately get the blades spinning fast enough to
-regain it. Rotational kinetic energy must be supplied to the blades to get them
-to rotate faster, and enough energy cannot be supplied in time to avoid a crash.
-Because of weight limitations, helicopter engines are too small to supply both
-the energy needed for lift and to replenish the rotational kinetic energy of the
-blades once they have slowed down. The rotational kinetic energy is put into
-them before takeoff and must not be allowed to drop below this crucial level.
-One possible way to avoid a crash is to use the gravitational potential energy
-of the helicopter to replenish the rotational kinetic energy of the blades by
-losing altitude and aligning the blades so that the helicopter is spun up in the
-descent. Of course, if the helicopter’s altitude is too low, then there is
-insufficient time for the blade to regain lift before reaching the ground.
+Helicopter pilots are quite familiar with rotational kinetic energy. In normal
+flight the engine drives the rotor continuously, holding its angular velocity
+nearly constant. Pilots know that they must not let the rotor slow below a
+critical angular velocity: the blades then stall and lose lift, and the rotor
+can be difficult to recover. The rotational kinetic energy stored in the blades
+also gives the pilot a short reserve if the engine fails. In that case the pilot
+lowers the pitch of the blades and lets the helicopter descend in
+_autorotation_: air flowing upward through the rotor keeps it turning, so the
+helicopter’s gravitational potential energy maintains the rotor’s rotational
+kinetic energy. Just before landing, the pilot uses the stored rotational kinetic
+energy to slow the descent. If the helicopter’s altitude is too low, there may be
+too little time to establish autorotation before reaching the ground.
 
 :::: note {"class":"note","id":"problemSolving","data-label":""}
 
@@ -333,8 +330,7 @@ $$ \begin{array}{lll}
 **Solution for (b)**
 
 Translational kinetic energy was defined
-in [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
-. Entering the given values of mass and velocity, we obtain
+in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem). Entering the given values of mass and velocity, we obtain
 
 <div class="equation">
  $$ \KE_{\text{trans}}=\frac{1}{2}m v^{2}=\left(0.5\right)\left(1000 \kg \right){\left(20.0 \ms \right)}^{2}=2.00\times 10^{5} \J . $$
@@ -378,7 +374,7 @@ blades.
 
 ::::
 
-![The given figure here shows a helicopter from the Auckland Westpac Rescue Helicopter Service over a sea. A rescue diver is shown holding the iron stand bar at the bottom of the helicopter, clutching a person. In the other image just above this, the blades of the helicopter are shown with their anti-clockwise rotation direction shown with an arrow and the length of one blade is given as four meters.](../resources/Figure_10_04_05.jpg 'The first image shows how helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades. The second image shows a helicopter from the Auckland Westpac Rescue Helicopter Service. Over 50 000 lives have been saved since its operations beginning in 1973. Here, a water rescue operation is shown. (credit: 111 Emergency, Flickr)')
+![The given figure here shows a helicopter from the Auckland Westpac Rescue Helicopter Service over a sea. A rescue diver is shown holding the iron stand bar at the bottom of the helicopter, clutching a person. In the other image just above this, the blades of the helicopter are shown with their anti-clockwise rotation direction shown with an arrow and the length of one blade is given as four meters.](../resources/Figure_10_04_05.jpg 'The first image shows how helicopters store large amounts of rotational kinetic energy in their blades. The engine keeps the blades turning throughout the flight, and the stored energy gives the pilot a reserve if the engine fails. The second image shows a helicopter from the Auckland Westpac Rescue Helicopter Service. Over 50 000 lives have been saved since its operations beginning in 1973. Here, a water rescue operation is shown. (credit: 111 Emergency, Flickr)')
 {: #Figure5 height="300"}
 
 :::: note {"class":"note","data-label":""}
@@ -416,6 +412,8 @@ the can rolls more slowly, as seen in [Figure 6](#Figure6).
 {: #Figure6}
 
 Assuming no losses due to friction, there is only one force doing work—gravity.
+(Static friction between each can and the ramp makes the can roll, but because
+the can does not slip, static friction does no work.)
 Therefore the total work done is the change in kinetic energy. As the cans start
 moving, the potential energy is changing into kinetic energy. Conservation of
 energy gives
@@ -506,7 +504,7 @@ Substituting known values into the resulting expression yields
 Because $$ m $$ and $$ R $$ cancel, the result $$ v=\sqrt{\frac{4}{3}g h} $$ is
 valid for any solid cylinder, implying that all solid cylinders will roll down
 an incline at the same rate independent of their masses and sizes. (Rolling
-cylinders down inclines is what Galileo actually did to show that objects fall
+balls down inclines is what Galileo actually did to show that objects fall
 at the same rate independent of mass.) Note that if the cylinder slid without
 friction down the incline without rolling, then the entire gravitational
 potential energy would go into translational kinetic energy. Thus, $$ \frac{1}{2}m v^{2}=mgh $$ and $$ v=\sqrt{2g h } $$, which is 22% greater than $$ \sqrt{4g h /3} $$. That is, the cylinder would go faster at the bottom.
@@ -574,9 +572,8 @@ My solar system
   </div>
 
 - Helicopters store large amounts of rotational kinetic energy in their blades.
-  This energy must be put into the blades before takeoff and maintained until
-  the end of the flight. The engines do not have enough power to simultaneously
-  provide lift and put significant rotational energy into the blades.
+  The engine keeps the rotor turning during flight; if the engine fails, the
+  stored energy and autorotation let the pilot land safely.
 - Work and energy in rotational motion are completely analogous to work and
   energy in translational motion.
 - The equation for the **work-energy theorem** for rotational motion is,
@@ -1113,6 +1110,9 @@ of 28.0 cm from the knee joint, the moment of inertia of the lower leg is
 $$ 0.900 \kg \cdot \mm $$, the muscle force is 1500 N, and its effective perpendicular lever arm is 3.00
 cm.
 (b) How much work is done if the leg rotates through an angle of $$ 20.0^\circ $$ with a constant force exerted by the muscle?
+For this model, take the lower leg to start horizontally and rotate upward.
+Keep the muscle's effective perpendicular lever arm constant and neglect friction
+and the lower leg's own gravitational torque, while including its moment of inertia.
 
 ::::
 
@@ -1120,11 +1120,11 @@ cm.
 
 **Strategy**
 
-For part (a), we calculate the net torque from the muscle force (positive) and the weight (negative), then use τ = Iα. For part (b), we distinguish work done **by the muscle** ($$ W_{\text{muscle}} = \tau_{\text{muscle}}\theta $$) from **net** work ($$ W_{\text{net}} = \tau_{\text{net}}\theta = \Delta\KE $$ for a rigid body with constant net torque). The weight torque varies with limb orientation unless a constant opposing-torque approximation is stated; here we use the given constant muscle torque and the net torque from part (a).
+For part (a), calculate the net torque at the initial horizontal position and use $$ \tau_{\text{net}} = I\alpha $$. For part (b), the constant muscle torque does work $$ W_{\text{muscle}} = \tau_{\text{muscle}}\theta $$. The lifted mass rises by $$ r\sin\theta $$, so gravity does work $$ W_g = -mgr\sin\theta $$. Net work is $$ W_{\text{net}} = W_{\text{muscle}} + W_g = \Delta\KE $$; the initial net torque cannot be treated as constant throughout the rotation.
 
 **Solution**
 
-**(a)** First, calculate the torques about the knee joint.
+**(a)** First, calculate the torques about the knee joint at the initial horizontal position.
 
 Muscle torque:
 
@@ -1168,21 +1168,27 @@ Work done by the muscle (constant $$ \tau_{\text{muscle}} $$):
 $$ W_{\text{muscle}} = \tau_{\text{muscle}} \theta = (45.0 \N \cdot \m)(0.349 \text{ rad}) = 15.7 \J $$
 </div>
 
-Net work (equals the change in rotational kinetic energy for the leg–weight system if $$ \tau_{\text{net}} $$ is treated as constant over the 20° interval):
+Gravity's work as the load rises:
 
 <div class="equation">
-$$ W_{\text{net}} = \tau_{\text{net}} \theta = (17.6 \N \cdot \m)(0.349 \text{ rad}) = 6.11 \J $$
+$$ W_g = -mgr\sin\theta = -(10.0 \kg)(9.80 \mss)(0.280 \m)\sin{20.0^\circ} = -9.39 \J $$
+</div>
+
+Net work on the leg–weight system, using unrounded values:
+
+<div class="equation">
+$$ W_{\text{net}} = W_{\text{muscle}} + W_g = \tau_{\text{muscle}}\theta - mgr\sin\theta = 6.32 \J $$
 </div>
 
 **Discussion**
 
-The muscle produces 45.0 N·m of torque, but the weight opposes with 27.4 N·m, leaving a net torque of 17.6 N·m and a moderate angular acceleration of 10.4 rad/s². The **15.7 J** of muscle work is not equal to the **6.11 J** of net work: the remainder goes into gravitational potential energy (lifting the load) and into compensating the changing gravitational torque as the lower leg rotates. Net work tracks the gain in kinetic energy; it cannot simultaneously account for both lifting and rotational acceleration without separating muscle work from gravity.
+Initially the muscle produces 45.0 N·m of torque and the load opposes with 27.4 N·m, giving an angular acceleration of 10.4 rad/s². As the leg rises, the load's opposing torque decreases as $$ mgr\cos\theta $$. Of the **15.7 J** supplied by the muscle, **9.39 J** increases the load's gravitational potential energy and **6.32 J** increases the system's kinetic energy. These results use the stated approximation that the lower leg's own gravitational torque is neglected.
 
 **Answer**
 
-(a) The angular acceleration is **10.4 rad/s²**.
+(a) The initial angular acceleration is **10.4 rad/s²**.
 
-(b) The muscle does **15.7 J** of work; the net work on the leg–weight system is **6.11 J**.
+(b) The muscle does **15.7 J** of work; the net work on the leg–weight system is **6.32 J**.
 
 ::::
 
@@ -1194,9 +1200,12 @@ The muscle produces 45.0 N·m of torque, but the weight opposes with 27.4 N·m, 
 
 To develop muscle tone, a woman lifts a 2.00-kg weight held in her hand. She uses her biceps muscle to flex the lower arm through an angle of $$ 60.0^\circ $$.
 (a) What is the angular acceleration if the weight is 24.0 cm from the elbow
-joint, her forearm has a moment of inertia of $$ 0.250 \kg \cdot \mm $$, and the net force she exerts is 750 N at an effective perpendicular lever arm
+joint, her forearm has a moment of inertia of $$ 0.250 \kg \cdot \mm $$, and the muscle force she exerts is 750 N at an effective perpendicular lever arm
 of 2.00 cm?
 (b) How much work does she do?
+For this model, take the forearm to start horizontally and rotate upward.
+Keep the muscle force and its effective perpendicular lever arm constant and
+neglect friction and the forearm's own gravitational torque, while including its moment of inertia.
 
 ::::
 
@@ -1204,11 +1213,11 @@ of 2.00 cm?
 
 **Strategy**
 
-For part (a), we treat the **750 N** as the muscle’s effective force at the 2.00 cm lever arm (net of passive joint forces unless stated otherwise), compute net torque against the load, and use $$ \tau_{\text{net}} = I\alpha $$. For part (b), report muscle work $$ W_{\text{muscle}} = \tau_{\text{muscle}}\theta $$ separately from net work $$ W_{\text{net}} = \tau_{\text{net}}\theta = \Delta\KE $$.
+For part (a), use the **750 N** muscle force at the 2.00 cm lever arm, subtract the load's torque at the initial horizontal position, and apply $$ \tau_{\text{net}} = I\alpha $$. For part (b), calculate muscle work $$ W_{\text{muscle}} = \tau_{\text{muscle}}\theta $$ and subtract the load's potential-energy increase $$ mgr\sin\theta $$ to find net work. Gravity's torque changes during the curl, so the initial net torque cannot be used throughout the 60° rotation.
 
 **Solution**
 
-**(a)** First, calculate the torques. The muscle creates a positive torque:
+**(a)** First, calculate the torques at the initial horizontal position. The muscle creates a positive torque:
 
 <div class="equation">
 $$ \tau_{\text{muscle}} = F \cdot r = (750 \N)(0.0200 \m) = 15.0 \N \cdot \m $$
@@ -1253,18 +1262,18 @@ $$ W_{\text{muscle}} = \tau_{\text{muscle}} \theta = (15.0 \N \cdot \m)(1.047 \t
 Net work:
 
 <div class="equation">
-$$ W_{\text{net}} = \tau_{\text{net}} \theta = (10.3 \N \cdot \m)(1.047 \text{ rad}) = 10.8 \J $$
+$$ W_{\text{net}} = W_{\text{muscle}} - mgr\sin\theta = (15.0 \N \cdot \m)\left(\frac{\pi}{3}\right) - (2.00 \kg)(9.80 \mss)(0.240 \m)\sin{60.0^\circ} = 11.6 \J $$
 </div>
 
 **Discussion**
 
-The angular acceleration is quite large (28.2 rad/s²), which would produce rapid motion. The muscle supplies **15.7 J** through the 60° arc, but only **10.8 J** appears as net mechanical work on the forearm–weight system; the difference mainly offsets gravity as the forearm orientation changes. This is a typical bicep curl exercise, and the 750 N muscle force is reasonable for strength training.
+The initial angular acceleration is 28.2 rad/s². As the forearm rises, the load's opposing torque decreases as $$ mgr\cos\theta $$, so angular acceleration increases for the constant muscle torque assumed here. The muscle supplies **15.7 J** through the 60° arc: **4.07 J** increases the load's gravitational potential energy and **11.6 J** increases the system's kinetic energy. The forearm's own gravitational torque is neglected in this model.
 
 **Answer**
 
-(a) The angular acceleration is **28.2 rad/s²**.
+(a) The initial angular acceleration is **28.2 rad/s²**.
 
-(b) The muscle does **15.7 J** of work; the net work is **10.8 J**.
+(b) The muscle does **15.7 J** of work; the net work is **11.6 J**.
 
 ::::
 

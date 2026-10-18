@@ -164,11 +164,11 @@ basketball back and forth, thereby exerting a repulsive force without touching
 one another. (See [Figure 2](#Figure2).)
 
 ![(a) Two persons throwing a basketball to each other. The person on the left is throwing the ball with some force F sub p one, represented by a vector pointing right, in the direction of the motion of the ball. A reaction force F sub B is shown on the person by a vector pointing left. (b) The person catches the ball, exerting a force F sub p two on the ball toward the left, shown by a vector F sub p two toward the left. A reaction force F prime sub B acts on the person, shown by a vector pointing toward right.
-(c) The exchange of a meson is shown between a proton and a neutron. Both are moving in different directions, and the proton feels a force F sub exch toward the left and the neutron feels a force F prime sub exch toward the right. The meson is also moving toward the right between the proton and the neutron.](../resources/Figure_04_08_02.jpg 'The exchange of masses resulting in repulsive forces. (a) The person throwing the basketball exerts a force ( \\vb{F}_{p1} ) on it toward the other person and feels a reaction force
- ( \\vb{F}_B ) away from the second person. (b) The person catching the basketball exerts a force
-( \\vb{F}_{p2} ) on it to stop the ball and feels a reaction force
- ( \\vb{F}^\\prime_B ) away from the first person.
-(c) The analogous exchange of a meson between a proton and a neutron carries the strong nuclear forces ( \\vb{F}_\\text{exch} ) and ( \\vb{F}^\\prime_\\text{exch} ) between them. An attractive force can also be exerted by the exchange of a mass—if person 2 pulled the basketball away from the first person as he tried to retain it, then the force between them would be attractive.')
+(c) The exchange of a meson is shown between a proton and a neutron. Both are moving in different directions, and the proton feels a force F sub exch toward the left and the neutron feels a force F prime sub exch toward the right. The meson is also moving toward the right between the proton and the neutron.](../resources/Figure_04_08_02.jpg 'The exchange of masses resulting in repulsive forces. (a) The person throwing the basketball exerts a force \( \vb{F}_{p1} \) on it toward the other person and feels a reaction force
+ \( \vb{F}_B \) away from the second person. (b) The person catching the basketball exerts a force
+\( \vb{F}_{p2} \) on it to stop the ball and feels a reaction force
+ \( \vb{F}^\prime_B \) away from the first person.
+(c) The analogous exchange of a meson between a proton and a neutron carries the strong nuclear forces \( \vb{F}_\text{exch} \) and \( \vb{F}^\prime_\text{exch} \) between them. An attractive force can also be exerted by the exchange of a mass—if person 2 pulled the basketball away from the first person as he tried to retain it, then the force between them would be attractive.')
 {: #Figure2 height="450"}
 
 This idea of particle exchange deepens rather than contradicts field concepts.
@@ -183,38 +183,38 @@ of matter, a central part of the well-tested Standard Model of particle physics.
 If successful, GUTs would go further and explain not only forces, but also the
 structure of matter itself. Yet physics is
 an experimental science, so the test of these theories must lie in the domain of
-the real world. As of this writing, scientists at the CERN laboratory in
-Switzerland are starting to test these theories using the world’s largest
-particle accelerator: the Large Hadron Collider (LHC) . This accelerator (27 km in
-circumference) allows two high-energy proton beams, traveling in opposite
-directions, to collide. An energy of 14 trillion electron volts will be
-available. In 2012, during its first run, the ATLAS and CMS experiments at the LHC
+the real world. Scientists at CERN, on the border between France and
+Switzerland, test these theories using the world’s largest particle
+accelerator: the Large Hadron Collider (LHC). This accelerator (27 km in
+circumference) collides two high-energy proton beams traveling in opposite
+directions, with collision energies of up to about 14 trillion electron volts
+(13.6 TeV during Run 3, 2022–2026). In 2012, during its first run, the ATLAS and CMS experiments at the LHC
 discovered the Higgs boson, a particle associated with the field that gives
 other elementary particles their mass (it is not one of the force carriers). (
 See [Figure 3](#Figure3).)
 The LHC's goal is to allow physicists to test the predictions of different theories of particle physics, including measuring the properties of the Higgs boson, searching for the large family of new particles predicted by supersymmetric theories, and other unresolved questions in particle physics such as why different particles have different masses.
 
-![A close-up view of part of the world’s largest particle accelerator.](../resources/Figure_04_08_03.jpg 'The world’s largest particle accelerator spans the border between Switzerland and France. Two beams, traveling in opposite directions close to the speed of light, collide in a tube similar to the central tube shown here. External magnets determine the beam’s path. Special detectors will analyze particles created in these collisions. Questions as broad as what is the origin of mass and what was matter like the first few seconds of our universe will be explored. This accelerator began preliminary operation in 2008. (credit: Frank Hommes)')
+![A close-up view of part of the world’s largest particle accelerator.](../resources/Figure_04_08_03.jpg 'The world’s largest particle accelerator spans the border between Switzerland and France. Two beams, traveling in opposite directions close to the speed of light, collide in a tube similar to the central tube shown here. External magnets determine the beam’s path. Detectors analyze the particles created in these collisions, addressing questions as broad as the origin of mass and what matter was like in the first moments of our universe. The accelerator began operating in 2008. (credit: Frank Hommes)')
 {: #Figure3}
 
 Tiny particles also have wave-like behavior, something we will explore more in a
 later chapter. To better understand force-carrier particles from another
-perspective, let us consider gravity. The search for gravitational waves has
-been going on for a number of years. Almost 100 years ago, Einstein predicted
-the existence of these waves as part of his general theory of relativity.
-Gravitational waves are created during the collision of massive stars, in black
-holes, or in supernova explosions—like shock waves. These gravitational waves
+perspective, let us consider gravity. In 1916, Einstein predicted the existence
+of gravitational waves as part of his general theory of relativity, and the
+search for them took a century. Gravitational waves are created when massive
+objects such as black holes or neutron stars orbit and merge, and possibly in
+supernova explosions. These gravitational waves
 will travel through space from such sites much like a pebble dropped into a pond
 sends out ripples—except these waves move at the speed of light. A detector
 apparatus has been built in the U.S., consisting of two large installations
 nearly 3000 km apart—one in Washington state and one in Louisiana! The facility
 is called the Laser Interferometer Gravitational-Wave Observatory (LIGO). Each
 installation is designed to use optical lasers to examine any slight shift in
-the relative positions of two masses due to the effect of gravity waves. The two
+the relative positions of two masses due to the effect of gravitational waves. The two
 sites allow simultaneous measurements of these small effects to be separated
 from other natural phenomena, such as earthquakes.
-Similar installations have been built in Italy (VIRGO), Germany (GEO600), and
-Japan (TAMA300) to provide a worldwide network of gravitational wave detectors.
+Similar installations have been built in Italy (Virgo), Germany (GEO600), and
+Japan (KAGRA) to provide a worldwide network of gravitational wave detectors.
 
 In September, 2015, LIGO fulfilled its promise and confirmed Einstein's prediction. The system detected the first gravitational waves arising from the merger of two black holes—one 29 times the mass of our Sun and the other 36 times the mass of our Sun—that occurred 1.3 billion years ago. About 3 times the mass of the Sun was converted into gravitational waves in a fraction of a second—with a peak power output about 50 times that of the whole visible universe. Due to the 7 millisecond delay in detection, researchers established that the merger occurred on the southern hemisphere side of Earth. Since then, LIGO, Virgo, and KAGRA have detected hundreds of similar events (the catalog released in 2025 listed more than 200), with better and more precise measurements. Waves from neutron star mergers and different-sized black holes have deepened our understanding of these objects and their impact on the universe.
 
@@ -233,7 +233,7 @@ waves. As of 2025, launch was planned for 2035.
 ![NASA illustration of LISA, showing three spacecrafts positioned in orbits that form a triangular formation. The triangular formation is positioned to the left of the Sun, Earth, and Moon in the diagram. Figure not to scale.](../resources/Figure_04_08_04.jpg 'Space-based future experiments for the measurement of gravitational waves. Shown here is a drawing of LISA’s orbit. Each satellite of LISA will consist of a laser source and a mass. The lasers will transmit a signal to measure the distance between each satellite’s test mass. The relative motion of these masses will provide information about passing gravitational waves. (credit: NASA)')
 {: #Figure4}
 
-As you can see above, some of the most groundbreaking developments in physics are made with a relatively long gap from theoretical prediction to experimental detection. This pattern continues the process of science from its earliest days, where early thinkers and researchers made discoveries that only led to more questions. Einstein was unique in many ways, but he was not unique in that later scientists, building on his and each other's work, would prove his theories. Evidence for black holes became more and more concrete as scientists developed new and better ways to look for them. Some of the most prominent have been Roger Penrose, who developed new mathematical models related to black holes, as well as Reinhard Genzel and Andrea Ghez, who independently used telescope observations to identify a region of our galaxy where a massive unseen gravity source (4 million times the size of our Sun) was pulling on stars. And soon after, collaborators on the Event Horizon Telescope project produced the first actual image of a black hole.
+As you can see above, some of the most groundbreaking developments in physics are made with a relatively long gap from theoretical prediction to experimental detection. This pattern continues the process of science from its earliest days, where early thinkers and researchers made discoveries that only led to more questions. Einstein was unique in many ways, but he was not unique in that later scientists, building on his and each other's work, would confirm his theories. Evidence for black holes became more and more concrete as scientists developed new and better ways to look for them. Some of the most prominent have been Roger Penrose, who developed new mathematical models related to black holes, as well as Reinhard Genzel and Andrea Ghez, who independently used telescope observations to identify a region of our galaxy where a massive unseen gravity source (about 4 million times the mass of our Sun) was pulling on stars. And soon after, collaborators on the Event Horizon Telescope project produced the first actual image of a black hole.
 
 The ideas presented in this section are but a glimpse into topics of modern
 physics that will be covered in much greater depth in later chapters.
@@ -475,8 +475,8 @@ The ratio of the strength of the strong nuclear force to the electromagnetic for
 {: class="glossary-title"}
 
 carrier particle
-: a fundamental particle of nature that is surrounded by a characteristic force
-field; photons are carrier particles of the electromagnetic force
+: a fundamental particle exchanged between objects to transmit one of the basic
+forces; photons are carrier particles of the electromagnetic force
 
 force field
 : a region in which a test particle will experience a force

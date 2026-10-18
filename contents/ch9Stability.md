@@ -44,8 +44,9 @@ A system is in **unstable equilibrium** if, when displaced, it experiences a net
 force or torque in the _same_ direction as the displacement from equilibrium. A
 system in unstable equilibrium accelerates away from its equilibrium position if
 displaced even slightly. An obvious example is a ball resting on top of a hill.
-Once displaced, it accelerates away from the crest. See the next several figures
-for examples of unstable equilibrium.
+Once displaced, it accelerates away from the crest. The next several figures
+compare a pencil standing on its flat end, which is stable for small
+displacements, with a pencil balanced on its point, which is unstable.
 
 ![A pencil is tilted slightly toward left. The left end point of its flat surface is marked as the pivot point. The weight W of the pencil is acting at the center of gravity of the pencil. The normal reaction N of the pencil is acting upward at the pivot point. The line of action of the normal reaction is toward left of the line of action of the weight of the pencil.](../resources/Figure_09_03_03.jpg 'If the pencil is displaced slightly to the side (counterclockwise), it is no longer in equilibrium. Its weight produces a clockwise torque that returns the pencil to its equilibrium position.')
 {: #Figure3}
@@ -83,8 +84,9 @@ Stability is also increased by lowering one’s center of gravity by bending the
 knees, as when a football player prepares to receive a ball or braces themselves
 for a tackle. A cane, a crutch, or a walker increases the stability of the user,
 even more as the base of support widens. Usually, the cg of a female is lower (
-closer to the ground) than a male. Young children have their center of gravity
-between their shoulders, which increases the challenge of learning to walk.
+closer to the ground) than a male. Young children have a relatively higher center of
+gravity than adults, because their heads are large compared with their bodies,
+which increases the challenge of learning to walk.
 
 ![Part a of the figure shows a man standing on the ground. The feet are a shoulder-width apart from each other. The weight W of the man is acting at the center of gravity of the body of the man. Two normal reactions N each are shown acting on the feet of the man. The distance between the feet of the man is marked as the base of support. A free body diagram is also shown on the left side of the figure. Part b of the figure shows a man standing upright with his knees bent. The feet are a distance apart from each other. The weight W of the man is acting at the center of gravity of the body of the man. Two normal reactions N each are shown acting on the feet of the man. The distance between the feet of the man is marked as the base of support.](../resources/Figure_09_03_08.jpg '(a) The  center of gravity of an adult is above the hip joints (one of the main pivots in the body) and lies between two narrowly-separated feet. Like a pencil standing on its eraser, this person is in stable equilibrium in relation to sideways displacements, but relatively small displacements take his cg outside the base of support and make him unstable. Humans are less stable relative to forward and backward displacements because the feet are not very long. Muscles are used extensively to balance the body in the front-to-back direction. (b) While bending in the manner shown, stability is increased by lowering the center of gravity. Stability is also increased if the base is expanded by placing the feet farther apart.')
 {: #Figure8}
@@ -97,9 +99,7 @@ its equilibrium position with little effort on the chicken’s part. Not all bir
 are like chickens, of course. Some birds, such as the flamingo, have balance
 systems that are almost as sophisticated as that of humans.
 
-[Figure 9](#Figure9) shows that the cg of a chicken is below the hip joints and
-lies above a broad base of support formed by widely-separated and large feet.
-Hence, the chicken is in very stable equilibrium, since a relatively large
+The chicken is in very stable equilibrium, since a relatively large
 displacement is needed to render it unstable. The body of the chicken is
 supported from above by the hips and acts as a pendulum between the hips.
 Therefore, the chicken is stable for front-to-back displacements as well as for
@@ -496,7 +496,7 @@ Suppose the weight of the drawbridge in [Figure 13](#Figure13) is supported enti
 (a) What fraction of the weight is supported by the opposite shore if the point of support is directly beneath the cable attachments?
 (b) What is the direction and magnitude of the force the hinges exert on the bridge under these circumstances? The mass of the bridge is 2500 kg.
 
-![A small drawbridge is shown. There is one vertical and one horizontal wooden plank. The left end of the horizontal plank is attached to the vertical plank near its middle. At the point of contact, a hinge is shown. A wire is tied to the right end of the horizontal end, is passed over the top of the vertical plank and is connected to a pulley. The angle made by the wire with the horizontal plank is forty degrees. The reaction F at the hinge is inclined at an angle theta.](../resources/Figure_09_03_13.jpg 'A small drawbridge, showing the forces on the hinges ( ( F ) ), its weight ( ( w ) ), and the tension in its wires ( ( T ) ).')
+![A small drawbridge is shown. There is one vertical and one horizontal wooden plank. The left end of the horizontal plank is attached to the vertical plank near its middle. At the point of contact, a hinge is shown. A wire is tied to the right end of the horizontal end, is passed over the top of the vertical plank and is connected to a pulley. The angle made by the wire with the horizontal plank is forty degrees. The reaction F at the hinge is inclined at an angle theta.](../resources/Figure_09_03_13.jpg 'A small drawbridge, showing the forces on the hinges \( ( F ) \), its weight \( ( w ) \), and the tension in its wires \( ( T ) \).')
 {: #Figure13}
 
 :::

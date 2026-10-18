@@ -56,19 +56,18 @@ so they exert equal and opposite torques. Similar arguments hold for other
 systems where supporting forces are exerted symmetrically about the cg. For
 example, the four legs of a uniform table each support one-fourth of its weight.
 
-In [Figure 1](#Figure1), a pole vaulter holding a pole with its cg halfway between
-his hands is shown. Each hand exerts a force equal to half the weight of the
-pole,$$ F_{R}=F_{L}=w/2 $$.
-(b) The pole vaulter moves the pole to his left, and the forces that the hands
-exert are no longer equal. See [Figure 1](#Figure1). If the pole is held with its
-cg to the left of the person, then he must push down with his right hand and up
-with his left. The forces he exerts are larger here because they are in opposite
-directions and the cg is at a long distance from either hand.
+In [Figure 1](#Figure1), each hand exerts a force equal to half the weight of the
+pole, $$ F_{R}=F_{L}=w/2 $$. If the pole vaulter moves the pole to his left, the
+forces that the hands exert are no longer equal. If the pole is held with its cg
+to the left of the person, as in [Figure 3](#Figure3), then he must push down
+with his right hand and up with his left. The forces he exerts are larger here
+because they are in opposite directions and the cg is at a long distance from
+either hand.
 
 Similar observations can be made using a meter stick held at different locations
 along its length.
 
-![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_01.jpg 'A pole vaulter holds a pole horizontally with both hands.')
+![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is halfway between the hands of the pole vaulter. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_01.jpg 'A pole vaulter holds a pole horizontally with both hands.')
 {: #Figure1}
 
 ![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_02.jpg 'A pole vaulter is holding a pole horizontally with both hands. The center of gravity is near his right hand.')
@@ -118,7 +117,7 @@ of the problem, to eliminate the torque from the left hand.
 
 There are now only two nonzero torques, those from the gravitational force
 ( $$ \tau_{\text{w}} $$ ) and from the push or pull of the right hand
-( $$\theta_{tau} $$). Stating the second condition in terms of clockwise and
+( $$ \tau_{R} $$). Stating the second condition in terms of clockwise and
 counterclockwise torques,
 
 <div class="equation">

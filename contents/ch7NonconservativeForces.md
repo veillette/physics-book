@@ -103,10 +103,11 @@ mechanical energy of a system. If $$ W_{\text{nc}} $$ is positive, then
 mechanical energy is increased, such as when the person pushes the crate up the
 ramp in [Figure 3](#Figure3). If $$ W_{\text{nc}} $$ is negative, then mechanical
 energy is decreased, such as when the rock hits the ground in [Figure 2](#Figure2)(
-b). If $$ W_{\text{nc}} $$ is zero, then mechanical energy is conserved, and
-nonconservative forces are balanced. For example, when you push a lawn mower at
-constant speed on level ground, your work done is removed by the work of
-friction, and the mower has a constant energy.
+b). If $$ W_{\text{nc}} $$ is zero, then mechanical energy is conserved: the
+nonconservative forces may do work, but their total work is zero. For example,
+when you push a lawn mower at constant speed on level ground, your work done is
+removed by the work of friction, and the mower’s mechanical energy stays
+constant.
 
 ### Applying Energy Conservation with Nonconservative Forces
 
@@ -262,13 +263,17 @@ cup moves after the marble enters it. Plot the distance the cup moves versus the
 initial marble position on the ruler. Is this relationship linear?
 
 With some simple assumptions, you can use these data to find the coefficient of
-kinetic friction $$ \mu_{\text{k} } $$ of the cup on the table. The force of
+kinetic friction $$ \mu_{\text{k} } $$ of the cup on the table. Be careful: when
+the marble enters the cup, they stick together in a perfectly inelastic
+collision, so much of the marble’s kinetic energy is lost right away. Use
+conservation of momentum to find the speed of the cup and marble just after the
+collision, and then use energy for the slide. The force of
 friction $$ f $$ on the cup is $$ \mu_{\text{k} } N $$, where the normal force
 $$ N $$ is just the weight of the cup plus the marble. The normal force and
 force of gravity do no work because they are perpendicular to the displacement
-of the cup, which moves horizontally. The work done by friction is $$ f d $$.
-You will need the mass of the marble as well to calculate its initial kinetic
-energy.
+of the cup, which moves horizontally. The work done by friction is $$ -f d $$,
+which removes the kinetic energy the cup and marble have just after the
+collision. You will need the masses of the marble and the cup.
 
 It is interesting to do the above experiment also with a steel marble (or ball
 bearing). Releasing it from the same positions on the ruler as you did with the

@@ -31,9 +31,9 @@ acceleration of an object moving in uniform circular motion (
 resulting from a net external force) the **centripetal acceleration**
 ( $$ \ac $$); centripetal means “toward the center” or “center seeking.”
 
-![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_06_02_01.jpg 'The directions of the velocity of an object at two different points are shown, and the change in velocity ( \\vb{\\Delta v} ) is seen to point directly toward the center of curvature.
-(See small inset.) Because ( \\vb{a}_c =\\frac{ \\vb{\\Delta v} }{\\Delta t} ), the acceleration is also toward the center; ( \\vb{a}_c ) is called centripetal acceleration.
-(Because ( \\Delta \\theta ) is very small, the arc length ( \\Delta s ) is equal to the chord length ( \\Delta r ) for small time differences.)')
+![The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundary. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.](../resources/Figure_06_02_01.jpg 'The directions of the velocity of an object at two different points are shown, and the change in velocity \( \vb{\Delta v} \) is seen to point directly toward the center of curvature.
+(See small inset.) Because \( \vb{a}_c =\frac{ \vb{\Delta v} }{\Delta t} \), the acceleration is also toward the center; \( \vb{a}_c \) is called centripetal acceleration.
+(Because \( \Delta \theta \) is very small, the arc length \( \Delta s \) is equal to the chord length \( \Delta r \) for small time differences.)')
 {: #Figure1}
 
 The direction of centripetal acceleration is toward the center of curvature, but
@@ -129,7 +129,7 @@ wearing a seat belt.
 
 ::::
 
-![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](../resources/Figure_06_02_02.jpg '(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in <a href="#example1">Example 1</a>. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in <a href="#example2">Example 2</a>.')
+![In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.](../resources/Figure_06_02_02.jpg '(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in <a href="#example1">Example 1</a>. (b) A particle of mass \( m \) in a centrifuge is rotating at constant angular velocity \( \omega \) . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in <a href="#example2">Example 2</a>.')
 {: #Figure2}
 
 :::: example {"class":"example","id":"example2"}
@@ -156,7 +156,10 @@ we use the facts that one revolution is $$ 2\pi \text{rad} $$ and one minute is
 60.0 s. Thus,
 
 <div class="equation">
- $$ \omega =7.50\times 10^{4}\frac{ \text{rev}}{\text{min}}×\frac{2\pi \text{rad}}{1 \text{rev}}×\frac{1\text{min}}{60.0 \s } =7854\rads . $$ &lt;/div&gt; Now the centripetal acceleration is given by the second expression in $$ \ac=\frac{ v^{2}}{r}$$; $$ \ac=r \omega^{2} $$ as 
+ $$ \omega =7.50\times 10^{4}\frac{ \text{rev}}{\text{min}}×\frac{2\pi \text{rad}}{1 \text{rev}}×\frac{1\text{min}}{60.0 \s } =7854\rads . $$
+</div>
+
+Now the centripetal acceleration is given by the second expression in $$ \ac=\frac{ v^{2}}{r}$$; $$ \ac=r \omega^{2} $$ as 
 
 <div class="equation">
  $$ \ac=r \omega^{2}. $$
@@ -206,7 +209,7 @@ and record and playback the motion to analyze the behavior.
 <figcaption>
 Ladybug Motion 2D
 </figcaption>
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/motion-2d/latest/motion-2d.html?simulation=motion-2d" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/ladybug-motion-2d/latest/ladybug-motion-2d.html?simulation=ladybug-motion-2d" width="600" height="450"  allowfullscreen></iframe>
 
 :::
 

@@ -33,8 +33,8 @@ represent (whenever sufficient information exists).
 (b) The forces acting on the person, shown by vector arrows, are tension T, pointing upward at the hand of the man, F sub T, from the same point but in a downward direction, and weight W, acting downward from his stomach.
 (c) In figure (c) we define only the man as the system of interest. Tension T is acting upward from his hand. The weight W acts in a downward direction. In a free-body diagram W is shown by an arrow acting downward and T is shown by an arrow acting vertically upward. (d) Tension T is shown by an arrow vertically upward and another vector, weight W, is shown by an arrow vertically downward, both having the same lengths. It is indicated that T is equal to minus W.](../resources/Figure_04_06_01.jpg '
 (a) A sketch of Tarzan hanging from a vine.
-(b) Arrows are used to represent all forces. ( \\vb{T} ) is the tension in the vine above Tarzan, ( \\vb{F}_T ) is the force he exerts on the vine, and ( \\vb{w} ) is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
-(c) Suppose we are given the ape man’s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. ( \\vb{F}_T ) is no longer shown, because it is not a force acting on the system of interest; rather, ( \\vb{F}_T ) acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that ( \\vb{T}=- \\vb{w} ), if Tarzan is stationary.')
+(b) Arrows are used to represent all forces. \( \vb{T} \) is the tension in the vine above Tarzan, \( \vb{F}_T \) is the force he exerts on the vine, and \( \vb{w} \) is his weight. All other forces, such as the nudge of a breeze, are assumed negligible.
+(c) Suppose we are given the ape man’s mass and asked to find the tension in the vine. We then define the system of interest as shown and draw a free-body diagram. \( \vb{F}_T \) is no longer shown, because it is not a force acting on the system of interest; rather, \( \vb{F}_T \) acts on the outside world. (d) Showing only the arrows, the head-to-tail method of addition is used. It is apparent that \( \vb{T}=- \vb{w} \), if Tarzan is stationary.')
 {: #Figure1}
 
 Step 2. Identify what needs to be determined and what is known or can be
@@ -955,7 +955,7 @@ The applied force on the tooth (12.9 N) is approximately half the tension in the
 
 </div>
 
-![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](../resources/Figure_04_06_07.jpg 'Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, ( F_{\\text{app}} ) , points straight toward the back of the mouth.')
+![Cross-section of jaw with sixteen teeth is shown. Braces are along the outside of the teeth. Three forces are acting on the protruding tooth. The applied force, F sub app, is shown by an arrow vertically downward; a second force, T, is shown by an arrow making an angle of fifteen degrees below the positive x axis; and a third force, T, is shown by an arrow making an angle of fifteen degrees below the negative x axis.](../resources/Figure_04_06_07.jpg 'Braces are used to apply forces to teeth to realign them. Shown in this figure are the tensions applied by the wire to the protruding tooth. The total force applied to the tooth by the wire, \( F_{\text{app}} \) , points straight toward the back of the mouth.')
 {: #Figure8}
 
 <div class="exercise" data-element-type="problems-exercises">

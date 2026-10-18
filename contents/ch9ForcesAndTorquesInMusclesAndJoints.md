@@ -112,8 +112,9 @@ supported.
 In the above example of the biceps muscle, the angle between the forearm and
 upper arm is 90°. If this angle changes, the force exerted by the biceps muscle
 also changes. In addition, the length of the biceps muscle changes. The force
-the biceps muscle can exert depends upon its length; it is smaller when it is
-shorter than when it is stretched.
+the biceps muscle can exert depends upon its length; it is greatest near the
+muscle’s resting length and smaller when the muscle is much shorter or much more
+stretched.
 
 Very large forces are also created in the joints. In the previous example, the
 downward force $$ F_{\text{E}} $$ exerted by the humerus at the elbow joint
@@ -127,8 +128,8 @@ book is in the previous example.
 
 In racquet sports such as tennis the constant extension of the arm during game
 play creates large forces in this way. The mass times the lever arm of a tennis
-racquet is an important factor, and many players use the heaviest racquet they
-can handle. It is no wonder that joint deterioration and damage to the tendons
+racquet is an important factor, and players must balance a racquet’s mass
+against how quickly they can swing it. It is no wonder that joint deterioration and damage to the tendons
 in the elbow, such as “tennis elbow,” can result from repetitive motion, undue
 torques, and possibly poor racquet selection in such sports. Various tried
 techniques for holding and using a racquet or bat or stick not only increases
@@ -144,8 +145,8 @@ Training coaches and physical therapists use the knowledge of relationships
 between forces and torques in the treatment of muscles and joints. In physical
 therapy, an exercise routine can apply a particular force and torque which can,
 over a period of time, revive muscles and joints. Some exercises are designed to
-be carried out under water, because this requires greater forces to be exerted,
-further strengthening muscles. However, connecting tissues in the limbs, such as
+be carried out under water, because buoyancy reduces the load on joints while
+the water’s resistance to motion still lets muscles work against a force. However, connecting tissues in the limbs, such as
 tendons and cartilage as well as joints are sometimes damaged by the large
 forces they carry. Often, this is due to accidents, but heavily muscled
 athletes, such as weightlifters, can tear muscles and connecting tissue through
@@ -154,7 +155,7 @@ effort alone.
 The back is considerably more complicated than the arm or leg, with various
 muscles and joints between vertebrae, all having mechanical advantages
 much less than one. Back muscles must, therefore, exert very large forces, which are borne
-by the spinal column. Discs crushed by mere exertion are very common. The jaw is
+by the spinal column. Damaged discs, such as herniated (“slipped”) discs, are common. The jaw is
 somewhat exceptional—the masseter muscles that close the jaw have a
 mechanical advantage greater than 1 for the back teeth, allowing us to exert
 very large forces with them. A cause of stress headaches is persistent
@@ -184,7 +185,7 @@ in equilibrium. We lean forward for the same reason when carrying a load on our
 backs, to the side when carrying a load in one arm, and backward when carrying a
 load in front of us, as seen in [Figure 3](#Figure3).
 
-![In part a of the figure, a side view of a girl standing on a surface is shown. The weight of the girl is acting vertically downward and is in the line with her hips. A point above her legs is marked as the pivot point. The weight vector is in the direction of the pivot. In part b, a side view of a girl standing on a surface is shown. The girl is bending slightly toward her front. The weight of her upper body is acting downward and the line of action of weight is not passing through the upper body pivot point.](../resources/Figure_09_06_02.jpg '(a) Good posture places the upper body’s cg over the pivots in the hips, eliminating the need for muscle action to balance the body. (b) Poor posture requires exertion by the back muscles to counteract the clockwise torque produced around the pivot by the upper body’s weight. The back muscles have a small effective perpendicular lever arm, ( r_b ), and must therefore exert a large force ( F_b ) . Note that the legs lean backward to keep the cg of the entire body above the base of support in the feet.')
+![In part a of the figure, a side view of a girl standing on a surface is shown. The weight of the girl is acting vertically downward and is in the line with her hips. A point above her legs is marked as the pivot point. The weight vector is in the direction of the pivot. In part b, a side view of a girl standing on a surface is shown. The girl is bending slightly toward her front. The weight of her upper body is acting downward and the line of action of weight is not passing through the upper body pivot point.](../resources/Figure_09_06_02.jpg '(a) Good posture places the upper body’s cg over the pivots in the hips, eliminating the need for muscle action to balance the body. (b) Poor posture requires exertion by the back muscles to counteract the clockwise torque produced around the pivot by the upper body’s weight. The back muscles have a small effective perpendicular lever arm, \( r_b \), and must therefore exert a large force \( F_b \) . Note that the legs lean backward to keep the cg of the entire body above the base of support in the feet.')
 {: #Figure2}
 
 You have probably been warned against lifting objects with your back. This
@@ -216,8 +217,8 @@ in the figure may be taken to be accurate to three significant figures.
 
 By now, we sense that the second condition for equilibrium is a good place to
 start, and inspection of the known values confirms that it can be used to solve
-for $$ F_{\text{B}}– $$ if the pivot is chosen to be at the hips. The torques
-created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_{\text{box}}– $$ are clockwise, while that created by $$ \vb{F}_{\text{B}}– $$ is counterclockwise.
+for $$ F_{\text{B}} $$ if the pivot is chosen to be at the hips. The torques
+created by $$ \vb{w}_{\text{ub}} $$ and $$ \vb{w}_{\text{box}} $$ are clockwise, while that created by $$ \vb{F}_{\text{B}} $$ is counterclockwise.
 
 **Solution for (a)**
 

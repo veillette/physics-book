@@ -20,7 +20,7 @@ hand during a strong wind. The faster you move your hand, the harder it is to
 move. You feel a smaller drag force when you tilt your hand so only the side
 goes through the air—you have decreased the area of your hand that faces the
 direction of motion. Like friction, the **drag force** always opposes the motion
-of an object. Unlike simple friction, the drag force is proportional to some
+of an object relative to the fluid. Unlike simple friction, the drag force is proportional to some
 function of the velocity of the object in that fluid. This functionality is
 complicated and depends upon the shape of the object, its size, its velocity,
 and the fluid it is in. For most large objects such as bicyclists, cars, and
@@ -40,8 +40,8 @@ mass per unit volume.) This equation can also be written in a more generalized
 fashion as $$ F_{\text{D}}=b v^{2} $$, where $$ b $$ is a constant equivalent to
 $$ 0.5 C \rho A $$. We have set the exponent for these equations as 2 because,
 when an object is moving at high velocity through air, the magnitude of the drag
-force is proportional to the square of the speed. As we shall see in a few pages
-on fluid dynamics, for small particles moving at low speeds in a fluid, the
+force is proportional to the square of the speed. As we shall see later in this
+section, for small particles moving at low speeds in a fluid, the
 exponent is equal to 1.
 
 :::: note {"class":"note","data-label":""}
@@ -136,7 +136,7 @@ increases, the magnitude of the drag force increases until the magnitude of the
 drag force is equal to the gravitational force, thus producing a net force of
 zero. A zero net force means that there is no acceleration, as given by Newton’s
 second law. At this point, the person’s velocity remains constant and we say
-that the person has reached his *terminal velocity* ( $$ v_{t} $$ ). Since $$ F_{\text{D}} $$ is proportional to the speed, a heavier skydiver must go faster
+that the person has reached his *terminal velocity* ( $$ v_{t} $$ ). Since $$ F_{\text{D}} $$ increases with speed (as $$ v^{2} $$), a heavier skydiver must go faster
 for $$ F_{\text{D}} $$ to equal his weight. Let’s see how this works out more
 quantitatively.
 
@@ -165,7 +165,7 @@ Solving for the velocity, we obtain
 </div>
 
 Assume the density of air is $$ \rho =1.21 \text{kg/m}^{3} $$. A 75-kg skydiver
-descending head first will have an area approximately $$ A=0.18 \mm $$ and a
+descending feet first will have an area approximately $$ A=0.18 \mm $$ and a
 drag coefficient of approximately $$ C=0.70 $$. We find that
 
 <div class="equation">
@@ -178,9 +178,9 @@ v&=& 350 \text{km/h}.
 </div>
 
 This means a skydiver with a mass of 75 kg achieves a maximum terminal velocity
-of about 350 km/h while traveling in a pike (head first) position, minimizing
+of about 350 km/h while traveling in a feet-first position, minimizing
 the area and his drag. In a spread-eagle position, that terminal velocity may
-decrease to about 200 km/h as the area increases. This terminal velocity becomes
+decrease to about 160–200 km/h as the area increases (see the next example). This terminal velocity becomes
 much smaller after the parachute opens.
 
 :::: note {"class":"note","data-label":""}
@@ -250,7 +250,7 @@ The size of the object that is falling through air presents another interesting
 application of air drag. The terminal velocity of a small squirrel is less than the terminal velocity we found previously for the skydiver, and so the squirrel can fall from a significant height without injury.
 
 The following interesting quote on animal size and terminal velocity is from a
-1928 essay by a British biologist, J.B.S. Haldane, titled “On Being the Right
+1926 essay by a British biologist, J.B.S. Haldane, titled “On Being the Right
 Size.”
 
 _To the mouse and any smaller animal, \[gravity\] presents practically no
@@ -303,14 +303,12 @@ of the lake after being deposited on the surface.
 
 If we compare animals living on land with those in water, you can see how drag
 has influenced evolution. Fishes, dolphins, and even massive whales are
-streamlined in shape to reduce drag forces. Birds are streamlined and migratory
-species that fly large distances often have particular features such as long
-necks. Flocks of birds fly in the shape of a spear head as the flock forms a
-streamlined pattern (see [Figure 4](#Figure4)). In humans, one important example of
-streamlining is the shape of sperm, which need to be efficient in their use of
-energy.
+streamlined in shape to reduce drag forces. Birds are streamlined too. Flocks of
+migrating geese fly in a V formation (see [Figure 4](#Figure4)): each bird rides
+in the rising air (upwash) shed from the wingtip of the bird ahead, which
+reduces the effort needed to stay aloft.
 
-![Geese flying across the sky in a V formation.](../resources/Figure_05_02_04.jpg 'Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)')
+![Geese flying across the sky in a V formation.](../resources/Figure_05_02_04.jpg 'Geese fly in a V formation during their long migratory travels. Flying in the upwash from the bird ahead reduces the energy each bird uses. (credit: Julo, Wikimedia Commons)')
 {: #Figure4}
 
 :::: note {"class":"note","data-label":""}

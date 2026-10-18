@@ -148,7 +148,7 @@ acceleration are related. In circular motion, the component of linear accelerati
 to the circle changes the speed, as seen in [Figure 2](#Figure2). This component
 is called **tangential acceleration** $$ a_{\text{t}} $$.
 
-![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_10_01_02.jpg 'The tangential component of linear acceleration ( a_t ) changes the speed of an object in circular motion. It is tangent to the circle.')
+![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a-t is shown as a yellow arrow in the same direction along v.](../resources/Figure_10_01_02.jpg 'The tangential component of linear acceleration \( a_t \) changes the speed of an object in circular motion. It is tangent to the circle.')
 {: #Figure2 height="200"}
 
 Tangential acceleration refers to changes in the magnitude of velocity
@@ -161,7 +161,7 @@ in [Figure 3](#Figure3). Thus, $$ a_{\text{t}} $$ and $$ a_{\text{c}} $$ are
 perpendicular components of the total linear acceleration. Tangential acceleration $$ a_{\text{t}} $$ is directly related to the angular acceleration $$ \alpha $$ and
 is linked to an increase or decrease in the velocity, but not its direction.
 
-![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a sub t is shown as a yellow arrow in the same direction along v. The centripetal acceleration, a sub c, is also shown as a yellow arrow drawn perpendicular to a sub t, toward the direction of the center of the circle. A label in the figures states a sub t affects magnitude and a sub c affects direction.](../resources/Figure_10_01_03.jpg 'Centripetal acceleration ( a_c ) occurs as the direction of velocity changes; it is perpendicular to the circular motion. Centripetal and tangential acceleration are thus perpendicular to each other.')
+![In the figure, a semicircle is drawn, with its radius r, shown here as a line segment. The anti-clockwise motion of the circle is shown with an arrow on the path of the circle. Tangential velocity vector, v, of the point, which is on the meeting point of radius with the circle, is shown as a green arrow and the linear acceleration, a sub t is shown as a yellow arrow in the same direction along v. The centripetal acceleration, a sub c, is also shown as a yellow arrow drawn perpendicular to a sub t, toward the direction of the center of the circle. A label in the figures states a sub t affects magnitude and a sub c affects direction.](../resources/Figure_10_01_03.jpg 'Centripetal acceleration \( a_c \) occurs as the direction of velocity changes; it is perpendicular to the circular motion. Centripetal and tangential acceleration are thus perpendicular to each other.')
 {: #Figure3 height="200"}
 
 Now we can find the relationship between tangential acceleration $$ a_{\text{t}} $$ and angular acceleration $$ \alpha $$. As in [One-Dimensional Kinematics](./ch2Kinematics), we find this component
@@ -292,12 +292,14 @@ The magnitude of angular acceleration is $$ \alpha $$
 and its most common units are $$ \radss $$. The direction of angular
 acceleration along a fixed axis is denoted by a + or a – sign, just as the
 direction of linear acceleration in one dimension is denoted by a + or a – sign.
-For example, consider a gymnast who increases her spin rate from rest to
+For example, consider a gymnast who increases her spin rate uniformly from rest to
 $$ \omega = 20.0 \text{ rad/s} $$ in $$ \Delta t = 0.500 \s $$ about a fixed
 horizontal axis through her hips. The magnitude of her angular acceleration is
 $$ \alpha = \Delta\omega / \Delta t = 40.0 \radss $$. Its direction (sign)
-follows the axis convention: if her spin is counterclockwise when viewed from
-above, $$ \alpha $$ is positive along that axis. Angular momentum
+follows the right-hand rule. Choose one direction along the horizontal axis as
+positive. An observer on that side, looking along the axis toward the gymnast,
+sees counterclockwise rotation as positive. As that counterclockwise spin speeds
+up, $$ \alpha $$ points along the positive axis, toward the observer. Angular momentum
 $$ L = I\omega $$ can be large while $$ \alpha $$ is zero if her spin rate is
 steady; angular acceleration instead reflects how quickly $$ \omega $$ changes,
 or, for constant $$ I $$, the net torque via $$ \alpha = \tau_{\text{net}}/I $$.

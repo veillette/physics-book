@@ -76,7 +76,7 @@ moving, there are fewer points of contact (fewer molecules adhering), so less
 force is required to keep the object moving. At small but nonzero speeds,
 friction is nearly independent of speed.
 
-![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_05_01_01.jpg 'Frictional forces, such as ( \\vb{f} ) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.')
+![The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.](../resources/Figure_05_01_01.jpg 'Frictional forces, such as \( \vb{f} \) , always oppose motion or attempted motion between objects in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.')
 {: #Figure1}
 
 The magnitude of the frictional force has two forms: one for static situations (
@@ -172,10 +172,11 @@ approximate description of friction given by the above two equations.
 {: #Table1}
 
 The equations given earlier include the dependence of friction on materials and
-the normal force. The direction of friction is always opposite that of motion,
+the normal force. The direction of friction is always opposite that of the relative motion (or
+attempted relative motion) of the surfaces,
 parallel to the surface between objects, and perpendicular to the normal force.
 For example, if the crate you try to push (with a force parallel to the floor)
-has a mass of 100 kg, then the normal force would be equal to its weight, $$W=mg\left(100 \kg \right)\left( 9.80\mss \right)=980 \N$$, perpendicular to the floor. If the coefficient of
+has a mass of 100 kg, then the normal force would be equal to its weight, $$w=mg=\left(100 \kg \right)\left( 9.80\mss \right)=980 \N$$, perpendicular to the floor. If the coefficient of
 static friction is 0.45, you would have to exert a force parallel to the floor
 greater than $$f_{\s \left(\text{max}\right)}=\mu_{\s} \mag{N}=\left(0.45\right)\left(980 \N \right) =440\N$$ to move the crate. Once there is motion, friction is less and the
 coefficient of kinetic friction might be 0.30, so that a force of only 290 N (
@@ -209,11 +210,11 @@ artificial joint ([Figure 2](#Figure2)). These replacements can be made of metal
 stainless steel or titanium)
 or plastic (polyethylene), also with very small coefficients of friction.
 
-![Two X-x rays of an artificial knee replacement are shown.](../resources/Figure_05_01_02.jpg "Artificial knee replacement is a procedure that has been performed for more than 20 years. In this figure, we see the post-op x rays of the right knee joint replacement. (credit: Mike Baird, Flickr)")
+![Two X-x rays of an artificial knee replacement are shown.](../resources/Figure_05_01_02.jpg "Artificial knee replacement is a procedure that has been performed for more than 50 years. In this figure, we see the post-op x rays of the right knee joint replacement. (credit: Mike Baird, Flickr)")
 {: #Figure2}
 
 Other natural lubricants include saliva produced in our mouths to aid in the
-swallowing process, and the slippery mucus found between organs in the body,
+swallowing process, and the slippery serous fluid found between organs and the membranes around them,
 allowing them to move freely past each other during heartbeats, during
 breathing, and when a person moves. Artificial lubricants are also common in
 hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried
@@ -1905,12 +1906,12 @@ friction
 contact
 
 kinetic friction
-: a force that opposes the motion of two systems that are in contact and moving
-relative to one another
+: a force that opposes the relative motion of two systems that are in contact
+and moving relative to one another
 
 static friction
-: a force that opposes the motion of two systems that are in contact and are not
-moving relative to one another
+: a force that opposes the attempted relative motion of two systems that are in
+contact and are not moving relative to one another
 
 magnitude of static friction
 :$$f_{\s}\le \mu_{\s}\mag{N}$$, where$$\mu_{\s}$$is the coefficient of

@@ -79,8 +79,8 @@ situations. Fuels, such as gasoline and food, carry **chemical energy**
 that can be transferred to a system through oxidation. Chemical fuel can also
 produce electrical
 
-energy, such as in batteries. Batteries can in turn produce light, which is a
-very pure form of energy. Most energy sources on Earth are in fact stored energy
+energy, such as in batteries. Batteries can in turn produce light, which carries
+radiant energy. Most energy sources on Earth are in fact stored energy
 from the energy we receive from the Sun. We sometimes refer to this as **radiant
 energy**, or electromagnetic radiation, which includes visible light, infrared,
 and ultraviolet radiation.
@@ -178,7 +178,7 @@ solar energy into electrical energy and then into mechanical energy.
 | Large fusion bomb (9 megaton)                    | $$ 3.8×10^{16} $$  |
 | 1 kg hydrogen (fusion to helium)                 | $$ 6.4×10^{14} $$  |
 | 1 kg uranium (nuclear fission)                   | $$ 8.0×10^{13} $$  |
-| Hiroshima-size fission bomb (10 kiloton)         | $$ 4.2×10^{13} $$  |
+| Fission bomb (10 kiloton)                        | $$ 4.2×10^{13} $$  |
 | 90 000-ton aircraft carrier at 30 knots          | $$ 1.1×10^{10} $$  |
 | 1 barrel crude oil                               | $$ 5.9×10^{9} $$   |
 | 1 ton TNT                                        | $$ 4.2×10^{9} $$   |
@@ -191,11 +191,13 @@ solar energy into electrical energy and then into mechanical energy.
 | 1 g carbohydrate (4.1 kcal)                      | $$ 1.7×10^{4} $$   |
 | 1 g protein (4.1 kcal)                           | $$ 1.7×10^{4} $$   |
 | Tennis ball at 100 km/h                          | $$ 22 $$           |
-| Mosquito ($$10^{-2}$$g at 0.5\text{ m}/s)               | $$ 1.3×10^{-6} $$  |
+| Mosquito ($$10^{-2}$$ g at 0.5 m/s)                | $$ 1.3×10^{-6} $$  |
 | Single electron in a TV tube beam                | $$ 4.0×10^{-15} $$ |
 | Energy to break one DNA strand                   | $$ 10^{-19} $$     |
 
-### Efficiency {: #Table1}
+{: #Table1}
+
+### Efficiency
 
 Even though energy is conserved in an energy conversion process, the output of
 _useful energy_ or work will be less than the energy input. The **efficiency**
@@ -225,10 +227,11 @@ then released to the environment through combustion gases and cooling towers.
 | Diesel engine             | 35             |
 | Nuclear power plant       | 35             |
 | Coal power plant          | 42             |
-| Electric motor            | 98             |
+| Electric motor            | 85–95          |
 | Compact fluorescent light | 20             |
+| LED light                 | 40             |
 | Gas heater (residential)  | 90             |
-| Solar cell                | 10             |
+| Solar cell (commercial)   | 20             |
 
 {: #Table2}
 

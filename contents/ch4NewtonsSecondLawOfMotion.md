@@ -43,9 +43,9 @@ subtle. The concept of a system is fundamental to many areas of physics, as is
 the correct application of Newton’s laws. This concept will be revisited many
 times on our journey through physics.
 
-![(a) A boy in a wagon is pushed by two girls toward the right. The force on the boy is represented by vector F one toward the right, and the force on the wagon is represented by vector F two in the same direction. Acceleration a is shown by a vector a toward the right and a friction force f is acting in the opposite direction, represented by a vector pointing toward the left. The weight W of the wagon is shown by a vector acting downward, and the normal force acting upward on the wagon is represented by a vector N. A free-body diagram is also shown, with F one and F two represented by arrows in the same direction toward the right and f represented by an arrow toward the left, so the resultant force F net is represented by an arrow toward the right. W is represented by an arrow downward and N is represented by an arrow upward; both the arrows have same length.(b) A boy in a wagon is pushed by a woman with a force F adult, represented by an arrow pointing toward the right. A vector a-prime, represented by an arrow, depicts acceleration toward the right. Friction force, represented by a vector f, acts toward the left. The weight of the wagon W is shown by a vector pointing downward, and the Normal force, represented by a vector N having same length as W, acts upward. A free-body diagram for this situation shows force F represented by an arrow pointing to the right having a large length; a friction force vector represented by an arrow f pointing left has a small length. The weight W is represented by an arrow pointing downward, and the normal force N, is represented by an arrow pointing upward, having the same length as W.](../resources/Figure_04_03_01.jpg "Different forces exerted on the same mass produce different accelerations. (a) Two children push a wagon with a child in it. Arrows representing all external forces are shown. The system of interest is the wagon and its rider. The weight ( \\vb{w} ) of the system and the support of the ground ( \\vb{N} ) are also shown for completeness and are assumed to cancel. The vector ( \\vb{f} ) represents the friction acting on the wagon, and it acts to the left, opposing the motion of the wagon.
-(b) All of the external forces acting on the system add together to produce a net force, ( \\vb{F}_\\text{net} ) . The free-body diagram shows all of the forces acting on the system of interest. The dot represents the center of mass of the system. Each force vector extends from this dot. Because there are two forces acting to the right, we draw the vectors collinearly.
-(c) A larger net external force produces a larger acceleration ( a'>a ) when an adult pushes the child.")
+![(a) A boy in a wagon is pushed by two girls toward the right. The force on the boy is represented by vector F one toward the right, and the force on the wagon is represented by vector F two in the same direction. Acceleration a is shown by a vector a toward the right and a friction force f is acting in the opposite direction, represented by a vector pointing toward the left. The weight W of the wagon is shown by a vector acting downward, and the normal force acting upward on the wagon is represented by a vector N. A free-body diagram is also shown, with F one and F two represented by arrows in the same direction toward the right and f represented by an arrow toward the left, so the resultant force F net is represented by an arrow toward the right. W is represented by an arrow downward and N is represented by an arrow upward; both the arrows have same length.(b) A boy in a wagon is pushed by a woman with a force F adult, represented by an arrow pointing toward the right. A vector a-prime, represented by an arrow, depicts acceleration toward the right. Friction force, represented by a vector f, acts toward the left. The weight of the wagon W is shown by a vector pointing downward, and the Normal force, represented by a vector N having same length as W, acts upward. A free-body diagram for this situation shows force F represented by an arrow pointing to the right having a large length; a friction force vector represented by an arrow f pointing left has a small length. The weight W is represented by an arrow pointing downward, and the normal force N, is represented by an arrow pointing upward, having the same length as W.](../resources/Figure_04_03_01.jpg "Different forces exerted on the same mass produce different accelerations. (a) Two children push a wagon with a child in it. Arrows representing all external forces are shown. The system of interest is the wagon and its rider. The weight \( \vb{w} \) of the system and the support of the ground \( \vb{N} \) are also shown for completeness and are assumed to cancel. The vector \( \vb{f} \) represents the friction acting on the wagon, and it acts to the left, opposing the motion of the wagon.
+(b) All of the external forces acting on the system add together to produce a net force, \( \vb{F}_\text{net} \) . The free-body diagram shows all of the forces acting on the system of interest. The dot represents the center of mass of the system. Each force vector extends from this dot. Because there are two forces acting to the right, we draw the vectors collinearly.
+(c) A larger net external force produces a larger acceleration \( a'>a \) when an adult pushes the child.")
 {: #Figure1 height="350"}
 
 Now, it seems reasonable that acceleration should be directly proportional to
@@ -215,8 +215,8 @@ The acceleration due to gravity $$ g $$ varies slightly over the surface of
 Earth, so that the weight of an object depends on location and is not an
 intrinsic property of the object. Weight varies dramatically if one leaves
 Earth’s surface. On the Moon, for example, the acceleration due to gravity is
-only $$ 1.67\mss $$. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only
-about 1.7 N on the Moon.
+only $$ 1.62\mss $$. A 1.0-kg mass thus has a weight of 9.8 N on Earth and only
+about 1.6 N on the Moon.
 
 The broadest definition of weight in this sense is that _the weight of an object
 is the gravitational force on it from the nearest large body_, such as Earth,
@@ -257,7 +257,7 @@ Assuming the mass of an object is kept intact, it will remain the same,
 regardless of its location. However, because weight depends on the acceleration
 due to gravity, the weight of an object _can change_ when the object enters into
 a region with stronger or weaker gravity. For example, the acceleration due to
-gravity on the Moon is $$ 1.67\mss $$
+gravity on the Moon is $$ 1.62\mss $$
 (which is much less than the acceleration due to gravity on Earth, $$ 9.80\mss $$
 
 ). If you measured your weight on Earth and then measured your weight on the
@@ -345,7 +345,7 @@ sled’s initial acceleration is $$ 49\mss $$,
 the mass of the system is 2100 kg, and the force of friction opposing the motion
 is known to be 650 N.
 
-![A sled is shown with four rockets, each producing the same thrust, represented by equal length arrows labeled as vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. A free-body diagram is also shown for the situation. Four arrows of equal length representing vector T point toward the right, a vector f represented by a smaller arrow points left, vector N is an arrow pointing upward, and the weight W is an arrow of equal length pointing downward.](../resources/Figure_04_03_04.jpg "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust \( \vb{T} \) . As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward for ce \( \vb{N} \) on the system that is equal in magnitude and opposite in direction to its weight, \( \vb{w} \) . The system here is the sled, its rockets, and rider, so none of the forces between these objects are considered. The arrow representing friction ( \( \vb{f} \) ) is drawn larger than scale.")
+![A sled is shown with four rockets, each producing the same thrust, represented by equal length arrows labeled as vector T pushing the sled toward the right. Friction force is represented by an arrow labeled as vector f pointing toward the left on the sled. The weight of the sled is represented by an arrow labeled as vector W, shown pointing downward, and the normal force is represented by an arrow labeled as vector N having the same length as W acting upward on the sled. A free-body diagram is also shown for the situation. Four arrows of equal length representing vector T point toward the right, a vector f represented by a smaller arrow points left, vector N is an arrow pointing upward, and the weight W is an arrow of equal length pointing downward.](../resources/Figure_04_03_04.jpg "A sled experiences a rocket thrust that accelerates it to the right. Each rocket creates an identical thrust \( \vb{T} \) . As in other situations where there is only horizontal acceleration, the vertical forces cancel. The ground exerts an upward force \( \vb{N} \) on the system that is equal in magnitude and opposite in direction to its weight, \( \vb{w} \) . The system here is the sled, its rockets, and rider, so none of the forces between these objects are considered. The arrow representing friction \( \vb{f} \) is drawn larger than scale.")
 {: #Figure4}
 
 **Strategy**
@@ -1311,36 +1311,36 @@ Use the relationship between weight, mass, and gravitational acceleration: $$ w 
 
 Given:
 - Weight on Moon: $$ w_{\text{Moon}} = 250 \N $$
-- Moon's gravity: $$ g_{\text{Moon}} = 1.67 \mss $$
+- Moon's gravity: $$ g_{\text{Moon}} = 1.62 \mss $$
 - Earth's gravity: $$ g_{\text{Earth}} = 9.80 \mss $$
 
 **Find the mass:**
 
 From $$ w = mg $$, we can solve for mass:
 <div class="equation">
-$$ m = \frac{w_{\text{Moon}}}{g_{\text{Moon}}} = \frac{250 \N}{1.67 \mss} = 150 \kg $$
+$$ m = \frac{w_{\text{Moon}}}{g_{\text{Moon}}} = \frac{250 \N}{1.62 \mss} = 154 \kg $$
 </div>
 
 **Mass on the Moon and Earth:**
 
 Mass is an intrinsic property of matter and does not change with location. Therefore:
-- Mass on Moon: $$ m = 150 \kg $$
-- Mass on Earth: $$ m = 150 \kg $$
+- Mass on Moon: $$ m = 154 \kg $$
+- Mass on Earth: $$ m = 154 \kg $$
 
 **Weight on Earth:**
 
 Using the mass and Earth's gravitational acceleration:
 <div class="equation">
-$$ w_{\text{Earth}} = mg_{\text{Earth}} = (150 \kg)(9.80 \mss) = 1470 \N \approx 1.5 \times 10^{3} \N $$
+$$ w_{\text{Earth}} = mg_{\text{Earth}} = (154 \kg)(9.80 \mss) = 1510 \N \approx 1.5 \times 10^{3} \N $$
 </div>
 
 **Discussion**
 
-This problem illustrates the important distinction between mass and weight. Mass is a measure of the amount of matter and remains constant regardless of location. Weight, however, is the gravitational force acting on that mass and depends on the local gravitational field strength. The Moon's gravity is approximately 1/6 that of Earth's (1.67 m/s² compared to 9.80 m/s²), so objects weigh about 1/6 as much on the Moon as they do on Earth. The ratio is: 250 N / 1470 N ≈ 0.17 ≈ 1/6.
+This problem illustrates the important distinction between mass and weight. Mass is a measure of the amount of matter and remains constant regardless of location. Weight, however, is the gravitational force acting on that mass and depends on the local gravitational field strength. The Moon's gravity is approximately 1/6 that of Earth's (1.62 m/s² compared to 9.80 m/s²), so objects weigh about 1/6 as much on the Moon as they do on Earth. The ratio is: 250 N / 1510 N ≈ 0.17 ≈ 1/6.
 
 **Answer**
 
-The astronaut and space suit weigh **1.5 × 10³ N** (or **1470 N**) on Earth. The mass is **150 kg** on both the Moon and Earth, since mass does not change with location.
+The astronaut and space suit weigh **1.5 × 10³ N** (or **1510 N**) on Earth. The mass is **154 kg** on both the Moon and Earth, since mass does not change with location.
 
 :::
 
@@ -1368,24 +1368,24 @@ For vertical takeoff, the net force is thrust minus weight. Use Newton's second 
 Given:
 - Mass: $$ m = 10{,}000 \kg $$
 - Thrust: $$ T = 30{,}000 \N $$
-- Moon's gravity: $$ g_{\text{Moon}} = 1.67 \mss $$
+- Moon's gravity: $$ g_{\text{Moon}} = 1.62 \mss $$
 - Earth's gravity: $$ g_{\text{Earth}} = 9.80 \mss $$
 
 **(a) Acceleration on the Moon:**
 
 Weight on Moon:
 <div class="equation">
-$$ w_{\text{Moon}} = mg_{\text{Moon}} = (10{,}000 \kg)(1.67 \mss) = 1.67 \times 10^{4} \N $$
+$$ w_{\text{Moon}} = mg_{\text{Moon}} = (10{,}000 \kg)(1.62 \mss) = 1.62 \times 10^{4} \N $$
 </div>
 
 Net force (upward positive):
 <div class="equation">
-$$ F_{\text{net}} = T - w_{\text{Moon}} = 30{,}000 \N - 16{,}700 \N = 13{,}300 \N $$
+$$ F_{\text{net}} = T - w_{\text{Moon}} = 30{,}000 \N - 16{,}200 \N = 13{,}800 \N $$
 </div>
 
 Acceleration:
 <div class="equation">
-$$ a = \frac{F_{\text{net}}}{m} = \frac{13{,}300 \N}{10{,}000 \kg} = 1.33 \mss $$
+$$ a = \frac{F_{\text{net}}}{m} = \frac{13{,}800 \N}{10{,}000 \kg} = 1.38 \mss $$
 </div>
 
 **(b) Could it lift off from Earth?**
@@ -1410,11 +1410,11 @@ The negative net force means the module would remain on the ground.
 
 **Discussion**
 
-The lunar module is specifically designed for the Moon's weak gravity (1/6 of Earth's). Its engines provide enough thrust to overcome lunar gravity with a comfortable margin, producing 1.33 m/s² of upward acceleration. However, on Earth, the same engines would need to produce at least 98,000 N just to hover, and they can only produce 30,000 N—less than one-third of what's needed.
+The lunar module is specifically designed for the Moon's weak gravity (1/6 of Earth's). Its engines provide enough thrust to overcome lunar gravity with a comfortable margin, producing 1.38 m/s² of upward acceleration. However, on Earth, the same engines would need to produce at least 98,000 N just to hover, and they can only produce 30,000 N—less than one-third of what's needed.
 
 **Answer**
 
-(a) The module's acceleration during takeoff from the Moon is **1.33 m/s²**.
+(a) The module's acceleration during takeoff from the Moon is **1.38 m/s²**.
 
 (b) **No, it could not lift off from Earth** because the thrust (30,000 N) is less than the module's weight on Earth (98,000 N).
 
@@ -1435,8 +1435,8 @@ free-fall
 gravity
 
 friction
-: a force past each other of objects that are touching; examples include rough
-surfaces and air resistance
+: a force that opposes the relative motion, or attempted relative motion, of
+objects that are touching
 
 net external force
 : the vector sum of all external forces acting on an object or system; causes a

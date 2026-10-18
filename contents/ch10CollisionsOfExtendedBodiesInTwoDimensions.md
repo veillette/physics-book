@@ -245,6 +245,13 @@ No, energy is always scalar whether motion is involved or not. No form of energy
 
 ### Section Summary
 
+- When an extended body can rotate about a fixed pivot, the total angular
+  momentum of the colliding bodies about that pivot is conserved during the
+  collision if the net external angular impulse is negligible. The force at the
+  pivot exerts no torque about it, but other external forces may do so; linear
+  momentum and kinetic energy need not be conserved.
+- A stick or racquet struck at its percussion point produces no impulsive
+  reaction at its pivot or at the hand holding it.
 - Angular momentum $$ L $$ is analogous to linear momentum and is given by $$ L=I \omega $$.
 - Angular momentum is changed by torque, following the relationship $$ \text{net}\tau =\frac{ \Delta L}{\Delta t}. $$
 - Angular momentum is conserved if the net torque is zero $$ L=\text{constant}\left( \text{net}\tau =0 \right) $$ or $$ L=L^{\prime} \left( \text{net}\tau = 0 \right) $$. This equation is known as the law of

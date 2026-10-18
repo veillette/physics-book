@@ -52,7 +52,9 @@ surface, and the puck glides long distances without slowing down. Additionally,
 if we know enough about the friction, we can accurately predict how quickly the
 object will slow down. Friction is an external force.
 
-Newton’s first law is completely general and can be applied to anything from an
+Newton’s first law is completely general in an inertial frame of reference (a
+frame that is not accelerating; see the extended topic in a later section) and
+can be applied to anything from an
 object sliding on a table to a satellite in orbit to blood pumped from the
 heart. Experiments have thoroughly verified that any change in velocity (speed
 or direction) must be caused by an external force. The idea of _generally
@@ -61,10 +63,10 @@ of all laws of physics. Identifying these laws is like recognizing patterns in
 nature from which further patterns can be discovered. The genius of Galileo, who
 first developed the idea for the first law, and Newton, who clarified it, was to
 ask the fundamental question, “What is the cause?” Thinking in terms of cause
-and effect is a worldview fundamentally different from the typical ancient Greek
-approach when questions such as “Why does a tiger have stripes?” would have been
-answered in Aristotelian fashion, “That is the nature of the beast.” True
-perhaps, but not a useful insight.
+and effect, tested quantitatively by experiment, differs from the approach of
+ancient natural philosophers such as Aristotle, who also sought causes but
+explained motion through the “natural place” and nature of each substance rather
+than through measured forces.
 
 ### Mass
 
@@ -82,7 +84,7 @@ with location. The mass of an object is the same on Earth, in orbit, or on the
 surface of the Moon. In practice, it is very difficult to count and identify all
 of the atoms and molecules in an object, so masses are not often determined in
 this manner. Operationally, the masses of objects are determined by comparison
-with the standard kilogram.
+with standards traceable to the SI definition of the kilogram.
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">

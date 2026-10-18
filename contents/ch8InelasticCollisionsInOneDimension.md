@@ -170,10 +170,11 @@ spring. [Example 2](#example2) deals with data from such a collision.
 
 Collisions are particularly important in sports and the sporting and leisure
 industry utilizes elastic and inelastic collisions. Let us look briefly at
-tennis. Recall that in a collision, it is momentum and not force that is
-important. So, a heavier tennis racquet will have the advantage over a lighter
-one. This conclusion also holds true for other sports—a lightweight bat (such as
-a softball bat) cannot hit a hardball very far.
+tennis. In a collision, the momentum of the racquet helps determine how much
+momentum the ball receives. A heavier racquet moving at the same speed gives the
+ball more speed, but a heavier racquet is also harder to swing quickly, so
+players choose a racquet that balances mass and swing speed. The same trade-off
+applies to bats in other sports.
 
 The location of the impact of the tennis ball on the racquet is also important,
 as is the part of the stroke during which the impact occurs. A smooth motion
@@ -193,11 +194,11 @@ Take-Home Experiment—Bouncing of Tennis Ball
 
 1.  Find a racquet (a tennis, badminton, or other racquet will do). Place the racquet on the floor and stand on the handle. Drop a tennis ball on the strings from a measured height. Measure how high the ball bounces. Now ask a friend to hold the racquet firmly by the handle and drop a tennis ball from the same measured height above the racquet. Measure how high the ball bounces and observe what happens to your friend’s hand during the collision. Explain your observations and measurements.
 2.  The coefficient of restitution $$ \left(c\right) $$
-    is a measure of the elasticity of a collision between a ball and an object, and is defined as the ratio of the speeds after and before the collision. A perfectly elastic collision has a
+    is a measure of the elasticity of a collision between a ball and an object, and is defined as the ratio of the relative speed of the objects after the collision to their relative speed before it. A perfectly elastic collision has a
  $$ c $$ of 1. For a ball bouncing off the floor (or a racquet on the
 floor), $$ c $$ can be shown to be $$ c=\sqrt{\frac{h}{H}} $$ where $$ h $$  is the height to which the ball bounces and $$ H $$ is the height from which the ball is dropped.
 Determine $$ c $$ for the cases in Part 1 and for the case of a tennis ball bouncing off
-a concrete or wooden floor ( $$ c=0.85 $$ for new tennis balls used on a tennis court).
+a concrete or wooden floor ( $$ c\approx 0.75 $$ for new tennis balls used on a tennis court).
 
 :::
 

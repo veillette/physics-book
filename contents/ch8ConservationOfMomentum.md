@@ -38,7 +38,7 @@ of the collision. (Assume that the effects due to friction are negligible.) Car
 speeds up and gains some momentum. We shall now show that the total momentum of
 the two-car system remains constant.
 
-![A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.](../resources/Figure_08_03_01.jpg 'A car of mass ( m_1 ) moving with a velocity of ( v_1 ) bumps into another car of mass ( m_2 ) and velocity ( v_2 ) that it is following. As a result, the first car slows down to a velocity of ( v^\\prime_1 ) and the second speeds up to a velocity of ( v^\\prime_2 ). The momentum of each car is changed, but the total momentum ( p_{\\text{tot}} ) of the two cars is the same before and after the collision (if you assume friction is negligible).')
+![A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.](../resources/Figure_08_03_01.jpg 'A car of mass \( m_1 \) moving with a velocity of \( v_1 \) bumps into another car of mass \( m_2 \) and velocity \( v_2 \) that it is following. As a result, the first car slows down to a velocity of \( v^\prime_1 \) and the second speeds up to a velocity of \( v^\prime_2 \). The momentum of each car is changed, but the total momentum \( p_{\text{tot}} \) of the two cars is the same before and after the collision (if you assume friction is negligible).')
 {: #Figure1}
 
 Using the definition of impulse, the change in momentum of car 1 is given by
@@ -226,17 +226,18 @@ principle is valid when considering systems of particles. We use this principle
 to analyze the masses and other properties of previously undetected particles,
 such as the nucleus of an atom and the existence of quarks that make up
 particles of nuclei. [Figure 3](#Figure3) below illustrates how a particle
-scattering backward from another implies that its target is massive and dense.
+scattering backward from another implies that its target is massive and dense;
+this is how Rutherford discovered the atomic nucleus.
 Experiments seeking evidence that **quarks** make up protons (one type of
 particle that makes up nuclei) scattered high-energy electrons off
-
-of protons (nuclei of hydrogen atoms). Electrons occasionally scattered straight
-backward in a manner that implied a very small and very dense particle makes up
-the proton—this observation is considered nearly direct evidence of quarks. The
+protons (nuclei of hydrogen atoms). Far more electrons than expected were
+scattered through large angles, transferring large amounts of momentum. This
+showed that the proton is not a smooth, spread-out ball of charge but contains
+small, point-like constituents—strong evidence for quarks. The
 analysis was based partly on the same conservation of momentum principle that
 works so well on the large scale.
 
-![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.jpg 'A subatomic particle scatters straight backward from a target particle. In experiments seeking evidence for quarks, electrons were observed to occasionally scatter straight backward from a proton.')
+![An electron strikes on a macroscopic target and recoils back. A closer look shows the electron to scatter backward after interacting with the proton.](../resources/Figure_08_03_03.jpg 'A subatomic particle scatters straight backward from a massive target particle, as alpha particles occasionally did from gold nuclei in Rutherford’s experiments. In experiments seeking evidence for quarks, electrons scattered through large angles from protons far more often than expected.')
 {: #Figure3}
 
 ### Section Summary

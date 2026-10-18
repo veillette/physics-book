@@ -135,7 +135,8 @@ or
 </div>
 
 This equation means that the total kinetic and potential energy is constant for
-any process involving only conservative forces. That is,
+any process in which only conservative forces do work. (Forces such as a normal
+force perpendicular to the motion may act, as long as they do no work.) That is,
 
 <div class="equation">
 $$\left.
@@ -153,7 +154,7 @@ $$\left.
 where i and f denote initial and final values. This equation is a form of the
 work-energy theorem for conservative forces; it is known as the **conservation
 of mechanical energy** principle. Remember that this applies to the extent that
-all the forces are conservative, so that friction is negligible. The total
+only conservative forces do work, so that friction is negligible. The total
 kinetic plus potential energy of a system is defined to be its **mechanical
 energy**, $$ \left(\KE+\PE\right) $$. In a system that experiences only
 conservative forces, there is a potential energy associated with each force, and
@@ -292,7 +293,7 @@ Energy Skate Park
 - The potential energy of a spring is $$ \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement from its
   undeformed position.
 - Mechanical energy is defined to be $$ \KE+\PE $$ for a conservative force.
-- When only conservative forces act on and within a system, the total mechanical
+- When only conservative forces do work on and within a system, the total mechanical
   energy is constant. In equation form,
 
 <div class="equation">
@@ -497,7 +498,7 @@ spring constant
 
 conservation of mechanical energy
 : the rule that the sum of the kinetic energies and potential energies remains
-constant if only conservative forces act on and within a system
+constant if only conservative forces do work on and within a system
 
 mechanical energy
 : the sum of kinetic energy and potential energy

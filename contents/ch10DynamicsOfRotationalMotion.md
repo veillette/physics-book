@@ -19,7 +19,8 @@ involved. For example, we know that a door opens slowly if we push too close to
 its hinges. Furthermore, we know that the more massive the door, the more slowly
 it opens. The first example implies that the farther the force is applied from
 the pivot, the greater the angular acceleration; another implication is that
-angular acceleration is inversely proportional to mass. These relationships
+angular acceleration is smaller for a more massive object, and, as we will see,
+for mass located farther from the axis. These relationships
 should seem very similar to the familiar relationships among force, mass, and
 acceleration embodied in Newton’s second law of motion. There are, in fact,
 precise rotational analogs to both force and mass.
@@ -61,7 +62,7 @@ analogous to mass (or inertia). The quantity $$ m r^{2} $$ is called the
 **rotational inertia** or **moment of inertia** of a point mass $$ m $$ a distance
 $$ r $$ from the center of rotation.
 
-![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_10_03_02.jpg 'An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force ( F ) is applied to the object perpendicular to the radius ( r ) , causing it to accelerate about the pivot point. The force is kept perpendicular to ( r ) .')
+![The given figure shows an object of mass m, kept on a horizontal frictionless table, attached to a pivot point, which is in the center of the table, by a cord that supplies centripetal force. A force F is applied to the object perpendicular to the radius r, which is indicated by a red arrow tangential to the circle, causing the object to move in counterclockwise direction.](../resources/Figure_10_03_02.jpg 'An object is supported by a horizontal frictionless table and is attached to a pivot point by a cord that supplies centripetal force. A force \( F \) is applied to the object perpendicular to the radius \( r \) , causing it to accelerate about the pivot point. The force is kept perpendicular to \( r \) .')
 {: #Figure2}
 
 ::: note {"class":"note","data-label":""}
@@ -232,7 +233,7 @@ child’s moment of inertia $$ I_{\text{c}} $$ by considering the child to be
 equivalent to a point mass at a distance of 1.25 m from the axis. Then,
 
 <div class="equation">
- $$ I_{\text{c}}=MR^{2}= \left(18.0 \kg \right) \left(1.25 \m \right)^{2}=28.13 \kg \cdot \mm. $$ 
+ $$ I_{\text{c}}=mr^{2}= \left(18.0 \kg \right) \left(1.25 \m \right)^{2}=28.13 \kg \cdot \mm. $$ 
 </div>
 
 The total moment of inertia is the sum of moments of inertia of the merry-go-round
@@ -258,7 +259,7 @@ negligible. If, for example, the father kept pushing perpendicularly for 2.00 s,
 he would give the merry-go-round an angular velocity of 13.3 rad/s when it is
 empty but only 8.89 rad/s when the child is on it. In terms of revolutions per
 second, these angular velocities are 2.12 rev/s and 1.41 rev/s, respectively.
-The father would end up running at about 50 km/h in the first case. Summer
+The father would end up running at about 72 km/h in the first case. Summer
 Olympics, here he comes! Confirmation of these numbers is left as an exercise
 for the reader.
 
@@ -286,7 +287,8 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 ### Section Summary
 
 - The farther the force is applied from the pivot, the greater is the angular
-  acceleration; angular acceleration is inversely proportional to mass.
+  acceleration; angular acceleration is inversely proportional to the moment of
+  inertia, which depends on both mass and how it is distributed.
 - If we exert a force $$ F $$ perpendicular to the radius on a point mass
   $$ m $$ at a distance $$ r $$ from a pivot point, a
   tangential acceleration $$ a_{\text{t}} = F/m $$ is obtained in the direction
@@ -1167,7 +1169,7 @@ torque
 
 rotational inertia
 : resistance to change of rotation. The more rotational inertia an object has,
-the harder it is to rotate
+the harder it is to change its rotation
 
 moment of inertia
 : mass times the square of perpendicular distance from the rotation axis; for a

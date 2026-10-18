@@ -29,7 +29,7 @@ the immense.
 
 Sir Isaac Newton was the first scientist to precisely define the gravitational force, and to show that it could explain both falling bodies and astronomical motions. See [Figure 1](#Figure1). But Newton was not the first to suspect that the same force caused both our weight and the motion of planets. His forerunner Galileo Galilei had contended that falling bodies and planetary motions had the same cause. Some of Newton's contemporaries, such as Robert Hooke, Christopher Wren, and Edmund Halley, had also made some progress toward understanding gravitation. But Newton was the first to propose an exact mathematical form and to use that form to show that the motion of heavenly bodies should be conic sections—circles, ellipses, parabolas, and hyperbolas. This theoretical prediction was a major triumph—it had been known for some time that moons, planets, and comets follow such paths, but no one had been able to propose a mechanism that caused them to follow these paths and not others. Other prominent scientists and mathematicians of the time, particularly those outside of England, were reluctant to accept Newton's principles. It took the work of another prominent philosopher, writer, and scientist, Émilie du Châtelet, to establish the Newtonian gravitation as the accurate and overarching law. Du Châtelet, who had earlier laid the foundation for the understanding of conservation of energy as well as the principle that light had no mass, translated and augmented Newton's key work. She also utilized calculus to explain gravity, which helped lead to its acceptance.
 
-![The figure shows a graphic image of a person sitting under a tree carefully looking toward an apple falling from the tree above him. There is a view of a river behind him and an image of the Sun in the sky.](../resources/Figure_06_05_01.jpg 'According to early accounts, Newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach the Sun. The inspiration of Newton’s apple is a part of worldwide folklore and may even be based in fact. Great importance is attached to it because Newton’s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Like many revolutionary discoveries, it was not immediately accepted. Prominent French scientist and philosopher Émilie du Châtelet helped establish Newton’s theory in France and mainland Europe.')
+![The figure shows a graphic image of a person sitting under a tree carefully looking toward an apple falling from the tree above him. There is a view of a river behind him and an image of the Sun in the sky.](../resources/Figure_06_05_01.jpg 'According to early accounts, Newton was inspired to make the connection between falling bodies and astronomical motions when he saw an apple fall from a tree and realized that if the gravitational force could extend above the ground to a tree, it might also reach the Moon. The inspiration of Newton’s apple is a part of worldwide folklore and may even be based in fact. Great importance is attached to it because Newton’s universal law of gravitation and his laws of motion answered very old questions about nature and gave tremendous support to the notion of underlying simplicity and unity in nature. Like many revolutionary discoveries, it was not immediately accepted. Prominent French scientist and philosopher Émilie du Châtelet helped establish Newton’s theory in France and mainland Europe.')
 {: #Figure1}
 
 The gravitational force is relatively simple. It is always attractive, and it
@@ -171,8 +171,7 @@ value of the acceleration due to Earth’s gravity that you have just found.
 This calculation is the same as the one finding the acceleration due to gravity
 at Earth’s surface, except that $$ r $$ is the distance from the center of Earth
 to the center of the Moon. The radius of the Moon’s nearly circular orbit is
-
-3.84 \times 10^{8}\m $$. $$
+$$ 3.84 \times 10^{8}\m $$.
 
 **Solution for (a)**
 
@@ -286,15 +285,15 @@ is at a $$ 90^\circ $$ angle to the Earth-Moon alignment.
 Tides are not unique to Earth but occur in many astronomical systems. The most
 extreme tides occur where the gravitational force is the strongest and varies
 most rapidly, such as near black holes (
-see [Figure 7](#Figure7)). A few likely candidates for black holes have been
-observed in our galaxy. These have masses greater than the Sun but have
-diameters only a few kilometers across. The tidal forces near them are so great
+see [Figure 7](#Figure7)). Dozens of black holes have been identified in our
+galaxy. A black hole of 10 solar masses has a horizon only about 60 km across,
+and the Milky Way’s central black hole has about 4 million solar masses. The tidal forces near them are so great
 that they can actually tear matter from a companion star.
 
 ![The figure shows a star in sky near a black hole. The tidal force of the black hole is tearing the matter from the star’s surface. ](../resources/Figure_06_05_07.jpg 'A black hole is an object with such strong gravity that not even light can escape it. This black hole was created by the supernova of one star in a two-star system. The tidal forces created by the black hole are so great that it tears matter from the companion star. This matter is compressed and heated as it is sucked into the black hole, creating light and X-rays observable from Earth.')
 {: #Figure7}
 
-### ”Weightlessness” and Microgravity
+### “Weightlessness” and Microgravity
 
 In contrast to the tremendous gravitational force near black holes is the
 apparent gravitational field experienced by astronauts orbiting Earth. What is
@@ -319,9 +318,9 @@ Station. Researchers have observed that muscles will atrophy (waste away) in
 this environment. There is also a corresponding loss of bone mass. Study
 continues on cardiovascular adaptation to space flight. On Earth, blood pressure
 is usually higher in the feet than in the head, because the higher column of
-blood exerts a downward force on it, due to gravity. When standing, 70% of your
-blood is below the level of the heart, while in a horizontal position, just the
-opposite occurs. What difference does the absence of this pressure differential
+blood exerts a downward force on it, due to gravity. When standing, about 70% of your
+blood is below the level of the heart; lying down removes most of this
+vertical pressure difference. What difference does the absence of this pressure differential
 have upon the heart?
 
 Some findings in human physiology in space can be clinically important to the
@@ -333,28 +332,27 @@ However, on a positive note, studies indicate that microbial antibiotic
 production can increase by a factor of two in space-grown cultures. One hopes to
 be able to understand these mechanisms so that similar successes can be achieved
 on the ground. In another area of physics space research, inorganic crystals and
-protein crystals have been grown in outer space that have much higher quality
-than any grown on Earth, so crystallography studies on their structure can yield
-much better results.
+protein crystals have been grown in outer space, some of higher quality than
+those grown on Earth, so crystallography studies on their structure can yield
+better results.
 
 Plants have evolved with the stimulus of gravity and with gravity sensors. Roots
 grow downward and shoots grow upward. Plants might be able to provide a life
 support system for long duration space missions by regenerating the atmosphere,
-purifying water, and producing food. Some studies have indicated that plant
-growth and development are not affected by gravity, but there is still
-uncertainty about structural changes in plants grown in a microgravity
-environment.
+purifying water, and producing food. Plants can grow and reproduce in
+microgravity, but the direction of root and shoot growth and some structural
+features change without the gravity stimulus, and research continues.
 
 ### The Cavendish Experiment: Then and Now
 
 As previously noted, the universal gravitational constant $$ G $$ is determined
-experimentally. This definition was first done accurately by Henry Cavendish (
+experimentally. This determination was first done accurately by Henry Cavendish (
 1731–1810), an English scientist, in 1798, more than 100 years after Newton
 published his universal law of gravitation. The measurement of $$ G $$ is very
 basic and important because it determines the strength of one of the four forces
 in nature. Cavendish’s experiment was very difficult because he measured the
-tiny gravitational attraction between two ordinary-sized masses (
-tens of kilograms at most), using apparatus like that in [Figure 9](#Figure9).
+tiny gravitational attraction between ordinary-sized masses (
+lead spheres of about 0.73 kg and 158 kg), using apparatus like that in [Figure 9](#Figure9).
 Remarkably, his value for $$ G $$ differs by less than 1% from the best modern
 value.
 
@@ -406,7 +404,7 @@ not spheres, as Cavendish used) to examine how Newton’s law of gravitation wor
 over sub-millimeter distances. On this small-scale, do gravitational effects
 depart from the inverse square law? So far, no deviation has been observed.
 
-![In the figure, there is a circular stand at the floor holding two weight bars over it attached through an inverted cup shape object fitted over the stand. The first bar over this is a horizontal flat panel and contains two spheres of mass M at its end. Just over this bar is a stick shaped bar holding two spherical objects of mass m at its end. Over to this bar is mirror at the center of the device facing east. The rotation of this device over the axis of the stand is anti-clockwise. A light source on the right side of the device emits a ray of light toward the mirror which is then reflected toward a scale bar which is on the right to the device below the light source.](../resources/Figure_06_05_09.jpg "Cavendish used an apparatus like this to measure the gravitational attraction between the two suspended spheres ( \( m \) ) and the two on the stand ( \( M \) ) by observing the amount of torsion (twisting) created in the fiber. Distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.")
+![In the figure, there is a circular stand at the floor holding two weight bars over it attached through an inverted cup shape object fitted over the stand. The first bar over this is a horizontal flat panel and contains two spheres of mass M at its end. Just over this bar is a stick shaped bar holding two spherical objects of mass m at its end. Over to this bar is mirror at the center of the device facing east. The rotation of this device over the axis of the stand is anti-clockwise. A light source on the right side of the device emits a ray of light toward the mirror which is then reflected toward a scale bar which is on the right to the device below the light source.](../resources/Figure_06_05_09.jpg "Cavendish used an apparatus like this to measure the gravitational attraction between the two suspended spheres \( m \) and the two on the stand \( M \) by observing the amount of torsion (twisting) created in the fiber. Distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.")
 {: #Figure9}
 
 :::: note {"class":"note","data-label":"PhET Exploration"}

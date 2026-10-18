@@ -12,10 +12,10 @@ chapterNumber: 6
 
 ::::
 
-Examples of gravitational orbits abound. Hundreds of artificial satellites orbit
-Earth together with thousands of pieces of debris. The Moon’s orbit about Earth
+Examples of gravitational orbits abound. More than ten thousand artificial
+satellites orbit Earth together with tens of thousands of pieces of debris. The Moon’s orbit about Earth
 has intrigued humans from time immemorial. The orbits of planets, asteroids,
-meteors, and comets about the Sun are no less interesting. If we look further,
+meteoroids, and comets about the Sun are no less interesting. If we look further,
 we see almost unimaginable numbers of stars, galaxies, and other celestial
 objects orbiting one another and interacting through gravity.
 
@@ -50,7 +50,7 @@ evidence from which new interpretations and meanings can be constructed.
 
 The orbit of each planet about the Sun is an ellipse with the Sun at one focus.
 
-![In figure a, an ellipse is shown on the coordinate axes. Two foci of the ellipse are joined to a point m on the ellipse. A pencil is shown at the point m. In figure b the elliptical path of a planet is shown. At the left focus f-one of the path the Sun is shown. The planet is shown just above the Sun on the elliptical path.](../resources/Figure_06_06_01.jpg '(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci ( ( f_1 ) and ( f_2 ) ) is a constant. You can draw an ellipse as shown by putting a pin at each focus, and then placing a string around a pencil and the pins and tracing a line on paper. A circle is a special case of an ellipse in which the two foci coincide (thus any point on the circle is the same distance from the center). (b) For any closed gravitational orbit, ( m ) follows an elliptical path with ( M ) at one focus. Kepler’s first law states this fact for planets orbiting the Sun.')
+![In figure a, an ellipse is shown on the coordinate axes. Two foci of the ellipse are joined to a point m on the ellipse. A pencil is shown at the point m. In figure b the elliptical path of a planet is shown. At the left focus f-one of the path the Sun is shown. The planet is shown just above the Sun on the elliptical path.](../resources/Figure_06_06_01.jpg '(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci \( ( f_1 ) and ( f_2 ) \) is a constant. You can draw an ellipse as shown by putting a pin at each focus, and then placing a string around a pencil and the pins and tracing a line on paper. A circle is a special case of an ellipse in which the two foci coincide (thus any point on the circle is the same distance from the center). (b) For any closed gravitational orbit, \( m \) follows an elliptical path with \( M \) at one focus. Kepler’s first law states this fact for planets orbiting the Sun.')
 {: #Figure1}
 
 **Kepler’s Second Law**
@@ -77,7 +77,7 @@ the radius. This equation is valid only for comparing two small masses orbiting 
 same large one. Most importantly, this is a descriptive equation only, giving no
 information as to the cause of the equality.
 
-![In the figure, the elliptical path of a planet is shown. The Sun is at the left focus. Three shaded regions M A B, M C D and M E F are marked on the figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.](../resources/Figure_06_06_02.jpg 'The shaded regions have equal areas. It takes equal times for ( m ) to go from A to B, from C to D, and from E to F. The mass ( m ) moves fastest when it is closest to ( M ) . Kepler’s second law was originally devised for planets orbiting the Sun, but it has broader validity. ')
+![In the figure, the elliptical path of a planet is shown. The Sun is at the left focus. Three shaded regions M A B, M C D and M E F are marked on the figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.](../resources/Figure_06_06_02.jpg 'The shaded regions have equal areas. It takes equal times for \( m \) to go from A to B, from C to D, and from E to F. The mass \( m \) moves fastest when it is closest to \( M \) . Kepler’s second law was originally devised for planets orbiting the Sun, but it has broader validity. ')
 {: #Figure2}
 
 Note again that while, for historical reasons, Kepler’s laws are stated for
@@ -276,6 +276,7 @@ definition of what constitutes a “true” planet.
 | Sun     | Mars      |$$2.279 \times 10^{8}$$    | 1.881            |$$3.35 \times 10^{24}$$                                   |
 | Sun     | Jupiter   |$$7.783 \times 10^{8}$$    | 11.86            |$$3.35 \times 10^{24}$$                                   |
 | Sun     | Saturn    |$$1.427 \times 10^{9}$$    | 29.46            |$$3.35 \times 10^{24}$$                                   |
+| Sun     | Uranus    |$$2.871 \times 10^{9}$$    | 84.01            |$$3.35 \times 10^{24}$$                                   |
 | Sun     | Neptune   |$$4.497 \times 10^{9}$$    | 164.8            |$$3.35 \times 10^{24}$$                                   |
 | Sun     | Pluto     |$$5.90 \times 10^{9}$$     | 248.3            |$$3.33 \times 10^{24}$$                                   |
 | Jupiter | Io        |$$4.22 \times 10^{5}$$     | 0.00485 (1.77 d) |$$3.19 \times 10^{21}$$                                   |
@@ -293,18 +294,19 @@ system. It epitomizes the underlying unity and simplicity of physics.
 
 Before the discoveries of Kepler, Copernicus, Galileo, Newton, and others, the
 solar system was thought to revolve around Earth as shown in [Figure 3](#Figure3)(
-a). This is called the Ptolemaic view, for the Greek philosopher who lived in
-the second century AD. This model is characterized by a list of facts for the
-motions of planets with no cause and effect explanation. There tended to be a
+a). This is called the Ptolemaic view, for the Alexandrian astronomer who lived in
+the second century AD. This model described the motions of planets with
+combinations of circles but offered no single physical cause for them. There tended to be a
 different rule for each heavenly body and a general lack of simplicity.
 
-[Figure 3](#Figure3)(b) represents the modern or Copernican model. In this model, a
-small set of rules and a single underlying force explain not only all motions in
+[Figure 3](#Figure3)(b) represents the heliocentric model proposed by Copernicus. As
+explained by Newton’s laws, a small set of rules and a single underlying force
+explain not only all motions in
 the solar system, but all other situations involving gravity. The breadth and
 simplicity of the laws of physics are compelling. As our knowledge of nature has
 grown, the basic simplicity of its laws has become ever more evident.
 
-![In figure a the paths of the different planets are shown in the forms of dotted concentric circles with the Earth at the center with its Moon. The Sun is also shown revolving around the Earth. Each planet is labeled with its name. On the planets Mercury, Venus, Mars, Jupiter and Saturn green colored epicycles are shown. In the figure b Copernican view of planet is shown. The Sun is shown at the center of the solar system. The planets are shown moving around the Sun.](../resources/Figure_06_06_03.jpg '(a) The Ptolemaic model of the universe has Earth at the center with the Moon, the planets, the Sun, and the stars revolving about it in complex superpositions of circular paths. This geocentric model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints as to what are the causes of these motions. (b) The Copernican model has the Sun at the center of the solar system. It is fully explained by a small number of laws of physics, including Newton’s universal law of gravitation.')
+![In figure a the paths of the different planets are shown in the forms of dotted concentric circles with the Earth at the center with its Moon. The Sun is also shown revolving around the Earth. Each planet is labeled with its name. On the planets Mercury, Venus, Mars, Jupiter and Saturn green colored epicycles are shown. In the figure b Copernican view of planet is shown. The Sun is shown at the center of the solar system. The planets are shown moving around the Sun.](../resources/Figure_06_06_03.jpg '(a) The Ptolemaic model of the universe has Earth at the center with the Moon, the planets, the Sun, and the stars revolving about it in complex superpositions of circular paths. This geocentric model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints as to what are the causes of these motions. (b) The Copernican model has the Sun at the center of the solar system. With Newton’s work it is fully explained by a small number of laws of physics, including Newton’s universal law of gravitation.')
 {: #Figure3}
 
 :::: note {"class":"note","data-label":"PhET Exploration"}

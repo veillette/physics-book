@@ -57,8 +57,7 @@ Calculating Momentum: A Football Player and a Football
 
 No information is given regarding direction, and so we can calculate only the
 magnitude of the momentum, $$ p $$. (As usual, a symbol that is in italics is a
-magnitude, whereas one that is italicized, boldfaced, and has an arrow is a
-vector.) In both parts of this example, the magnitude of momentum can be
+magnitude, whereas one that is boldfaced is a vector.) In both parts of this example, the magnitude of momentum can be
 calculated directly from the definition of momentum given in the equation, which
 becomes
 
@@ -185,8 +184,8 @@ For now, we apply the law to an object of constant mass.
 Calculating Force: Venus Williams’ Racquet
 </div>
 
-During the 2007 French Open, Venus Williams hit the fastest recorded serve in
-a premier women’s match, reaching a speed of 58 m/s (209 km/h). What is the average
+During the 2007 French Open, Venus Williams hit what was then the fastest recorded
+serve in a premier women’s match, reaching a speed of 58 m/s (209 km/h). What is the average
 force exerted on the 0.057-kg tennis ball by Venus Williams’ racquet, assuming
 that the ball’s speed just after impact is 58 m/s, that the initial horizontal
 component of the velocity before impact is negligible, and that the ball remained

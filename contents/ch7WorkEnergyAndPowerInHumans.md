@@ -52,10 +52,11 @@ greater BMR due to this last factor.
 {: #Table1}
 
 Energy consumption is directly proportional to oxygen consumption because the
-digestive process is basically one of oxidizing food. We can measure the energy
+body releases energy from food by oxidizing it in its cells (cellular
+respiration). We can measure the energy
 people use during various activities by measuring their oxygen use. (
 See [Figure 2](#Figure2).) Approximately 20 kJ of energy are produced for each
-liter of oxygen consumed, independent of the type of food. [Table 1](#Table1)
+liter of oxygen consumed, independent of the type of food. [Table 2](#Table2)
 shows energy and oxygen consumption rates (power expended) for a variety of
 activities.
 
@@ -165,8 +166,8 @@ processes such as in the kidneys and liver, and in fat production.
 - About 75% of food calories are used to sustain basic body functions included
   in the basal metabolic rate.
 - The energy consumption of people during various activities can be determined
-  by measuring their oxygen use, because the digestive process is basically one
-  of oxidizing food.
+  by measuring their oxygen use, because the body releases energy from food by
+  oxidizing it (cellular respiration).
 
 ### Conceptual Questions
 

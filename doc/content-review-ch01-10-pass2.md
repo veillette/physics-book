@@ -6,6 +6,22 @@ Date: 2026-10-18. This pass reviews the teaching content after the corrections i
 
 **Totals.** 2 P1, 58 P2, and 40 P3 content findings (several P3 entries group related small items), plus 8 groups of markup and presentation problems.
 
+## Corrections applied
+
+All findings below were corrected on 2026-10-18 except the following, which were left as they are:
+
+- C6-13: the IAU planet definition remains under "The Case for Simplicity."
+- C6-13: the centripetal-force label drawn inside the Figure 2 image is unchanged. The text now explains that centripetal force is a role played by real forces.
+- M-08: Estimation has no production HTML5 build, so its embed still points to the development build. Non-PhET simulations keep the "PhET Exploration" label.
+
+Some corrections changed values used in problem solutions. These solutions were updated to match:
+
+- C2-04: two lunar-gravity solutions in §4.3.
+- C5-01: the vertebra and disc shear problems in §5.3.
+- C7-13: the Crab pulsar problem in §7.7.
+
+C7-09 replaced the world-energy pie chart (`resources/Figure_07_09_01.svg`) with a 2020 chart drawn from BP Statistical Review 2021, the source Table 1 already cites. C8-04 now embeds the HTML5 OpenLyceum Lunar Lander (`https://openlyceum.github.io/LunarLander/`).
+
 ## Fix first
 
 1. **C5-01 (P1).** The bone shear modulus is impossible, and the text builds an explanation on it.

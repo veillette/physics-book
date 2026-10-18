@@ -34,9 +34,9 @@ the straight-line distance.
 
 ![A right-angled triangle with base labeled a height labeled b and hypotenuse labeled c is shown. Using Pythagorean
 theorem c is calculated as square root of a squared plus b squared.](../resources/Figure_03_01_03.svg 'The Pythagorean
-theorem relates the length of the legs of a right triangle, labeled ( a) and ( b ), with the hypotenuse, labeled ( c ).
-The relationship is given by: ( a^2+b^2=c^2 ). This can be rewritten, solving for ( c ). In this way one finds
-( c=\\sqrt{a^2+b^2} ).')
+theorem relates the length of the legs of a right triangle, labeled ( a) and \( b \), with the hypotenuse, labeled \( c \).
+The relationship is given by: \( a^2+b^2=c^2 \). This can be rewritten, solving for \( c \). In this way one finds
+\( c=\sqrt{a^2+b^2} \).')
 {: #Figure3}
 
 The hypotenuse of the triangle is the straight-line path, and so in this case
@@ -125,8 +125,9 @@ The two-dimensional curved path of the horizontally thrown ball is composed of
 two independent one-dimensional motions (
 horizontal and vertical). The key to analyzing such motion, called **projectile
 motion**, is to **resolve** (break) it into motions along perpendicular
-directions. Resolving two-dimensional motion into perpendicular components is
-possible because the components are independent. We shall see how to resolve
+directions. Any vector can be resolved into perpendicular components. For a
+projectile with negligible air resistance, the motions along those components
+are also independent, so they can be solved separately. We shall see how to resolve
 vectors
 in [Vector Addition and Subtraction: Graphical Methods](./ch3VectorAdditionAndSubtractionGraphicalMethods)
 and [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
@@ -147,7 +148,7 @@ and playback the motion to analyze the behavior.
 <figcaption>
 Ladybug Motion 2D
 </figcaption>
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/motion-2d/latest/motion-2d.html?simulation=motion-2d" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/ladybug-motion-2d/latest/ladybug-motion-2d.html?simulation=ladybug-motion-2d" width="600" height="450"  allowfullscreen></iframe>
 
 :::
 

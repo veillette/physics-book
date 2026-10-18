@@ -20,7 +20,7 @@ motion**, motion in a circular path at constant speed. Studying this topic
 illustrates most concepts associated with rotational motion and leads to the
 study of many new topics we group under the name _rotation_. Pure
 _rotational motion_ occurs when points in an object move in circular paths
-centered on one point. Pure _translational motion_ is motion with no rotation.
+centered on a single axis. Pure _translational motion_ is motion with no rotation.
 Some motion combines both types, such as a rotating hockey puck moving along
 ice.
 

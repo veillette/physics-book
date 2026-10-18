@@ -99,7 +99,7 @@ where the average velocity is
 :::
 
 The equation $$ \overline{v}=\frac{ v_{0}+v}{2} $$ reflects the fact that, when
-acceleration is constant, $$ v $$ is just the simple average of the initial and
+acceleration is constant, $$ \overline{v} $$ is just the simple average of the initial and
 final velocities. For example, if you steadily increase your velocity (
 that is, with constant acceleration) from 30 to 60 km/h, then your average
 velocity during this steady increase is 45 km/h. Using the equation $$ \overline{v}=\frac{ v_{0}+v}{2} $$ to check this, we see that
@@ -255,7 +255,7 @@ indeed describe nature accurately.)
 Making Connections: Real-World Connection
 </div>
 
-![Space shuttle blasting off at night.](../resources/Figure_02_05_06.jpg "The Space Shuttle Endeavor blasts off from the Kennedy Space Center in February 2010. (credit: Matthew Simantov, Flickr)")
+![Space shuttle blasting off at night.](../resources/Figure_02_05_06.jpg "The Space Shuttle Endeavour blasts off from the Kennedy Space Center in February 2010. (credit: Matthew Simantov, Flickr)")
 {: #Figure6}
 
 An intercontinental ballistic missile (ICBM) has a larger average acceleration
@@ -571,8 +571,7 @@ stopping time. It is reasonable to assume that the velocity remains constant
 during the driver’s reaction time.
 
 1\. Identify the knowns and what we want to solve for. We know that
-
-\overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$. $$
+$$ \overline{v}=30.0 \ms $$; $$ t_{\text{reaction}}=0.500\s $$; $$ a_{\text{reaction}}=0 $$. We take $$ x_{0-\text{reaction}} $$ to be 0. We are looking for $$ x_{\text{reaction}} $$.
 
 2\. Identify the best equation to use. $$ x=x_{0}+\overline{v}t $$ works well
 because the only unknown value is $$ x $$, which is what we want to solve for.
@@ -697,7 +696,7 @@ that the event happened 20s before the motion began. We can discard that solutio
 
 **Discussion**
 
-Whenever an equation contains an unknown squared, there will be two solutions.
+Whenever an equation contains an unknown squared, there can be two solutions.
 In some problems both solutions are meaningful, but in others, such as the
 above, only one solution is reasonable. The 10.0 s answer seems reasonable for a
 typical freeway on-ramp.

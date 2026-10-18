@@ -62,7 +62,8 @@ the start of the lecture and 50 min at the end. If $$ t_{0}=0 $$, then $$ \Delta
 
 In this text, for simplicity's sake,
 
-- motion starts at time equal to zero $$ \left(t_{0}=0\right) $$ - the symbol $$ t $$ is used for elapsed time unless otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$
+- motion starts at time equal to zero $$ \left(t_{0}=0\right) $$
+- the symbol $$ t $$ is used for elapsed time unless otherwise specified $$ \left(\Delta t=t_{f}\equiv t\right) $$
 
 ### Velocity
 

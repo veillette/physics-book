@@ -13,8 +13,8 @@ chapterNumber: 9
 
 Simple machines are devices that can be used to multiply or augment a force that
 we apply – often at the expense of a distance through which we apply the force.
-The word for “machine” comes from the Greek word meaning “to help make things
-easier.” Levers, gears, pulleys, wedges, and screws are some examples of
+The word “machine” comes from the Greek word _mēkhanē_, meaning “device” or
+“contrivance.” Levers, gears, pulleys, wedges, and screws are some examples of
 machines. Energy is still conserved for these devices because a machine cannot
 do more work than the energy put into it. However, machines can reduce the input
 force that is needed to perform the job. The ratio of output to input force
@@ -30,7 +30,7 @@ rotation about a pivot point. Distances from the physical pivot of the lever are
 crucial, and we can obtain a useful expression for the MA in terms of these
 distances.
 
-![There is a nail in a wooden plank. A nail puller is being used to pull the nail out of the plank. A hand is applying force F sub I downward on the handle of the nail puller. The top of the nail exerts a force F sub N downward on the puller. At the point where the nail puller touches the plank, the reaction of the surface force N is applied. At the top of the figure, a free body diagram is shown.](../resources/Figure_09_05_01.jpg 'A nail puller is a lever with a large mechanical advantage. The external forces on the nail puller are represented by solid arrows. The force that the nail puller applies to the nail (  ( F_o ) )  is not a force on the nail puller. The reaction force the nail exerts back on the puller ( ( F_n ) )  is an external force and is equal and opposite to ( F_o ) . The perpendicular lever arms of the input and output forces are ( l_i ) and ( l_0 ).')
+![There is a nail in a wooden plank. A nail puller is being used to pull the nail out of the plank. A hand is applying force F sub I downward on the handle of the nail puller. The top of the nail exerts a force F sub N downward on the puller. At the point where the nail puller touches the plank, the reaction of the surface force N is applied. At the top of the figure, a free body diagram is shown.](../resources/Figure_09_05_01.jpg 'A nail puller is a lever with a large mechanical advantage. The external forces on the nail puller are represented by solid arrows. The force that the nail puller applies to the nail \( ( F_o ) \)  is not a force on the nail puller. The reaction force the nail exerts back on the puller \( ( F_n ) \)  is an external force and is equal and opposite to \( F_o \) . The perpendicular lever arms of the input and output forces are \( l_i \) and \( l_0 \).')
 {: #Figure1}
 
 [Figure 1](#Figure1) shows a lever type that is used as a nail puller. Crowbars,

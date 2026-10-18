@@ -36,7 +36,7 @@ Here $$ m $$ is the **slope**, defined to be the rise divided by the run (as
 seen in the figure) of the straight line. The letter $$ b $$ is used for the
 **y-intercept**, which is the point at which the line crosses the vertical axis.
 
-![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_08_01.jpg 'A straight-line graph. The equation for a straight line is ( y= mx + b )')
+![Graph of a straight-line sloping up at about 40 degrees.](../resources/Figure_02_08_01.jpg 'A straight-line graph. The equation for a straight line is \( y= mx + b \)')
 {: #Figure1}
 
 ### Graph of Position vs. Time (_a_ = 0, so _v_ is constant)
@@ -45,7 +45,7 @@ Time is usually an independent variable that other quantities, such as position,
 depend upon. A graph of position versus time would, thus, have $$ x $$ on the
 vertical axis and $$ t $$ on the horizontal axis. [Figure 2](#Figure2) is just such
 a straight-line graph. It shows a graph of position versus time for a
-jet-powered car on a very flat dry lake bed in Nevada.
+jet-powered car on the very flat Bonneville Salt Flats in Utah.
 
 ![Graph of jet car position in meters versus time in seconds. A straight line with a positive slope passes through four hundred meters at zero seconds, five hundred twenty-five meters at zero point five zero seconds, and two thousand meters at six point four zero seconds.](../resources/Figure_02_08_02.jpg 'Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
 ')
@@ -136,7 +136,7 @@ yielding
 
 This is an impressively large land speed (900 km/h, or about 560 mi/h): much
 greater than the typical highway speed limit of 60 mi/h (27 m/s or 96 km/h), but
-considerably shy of the record of 343 m/s (1234 km/h or 766 mi/h) set in 1997.
+considerably shy of the record of 341 m/s (1228 km/h or 763 mi/h) set in 1997.
 
 :::
 
@@ -178,7 +178,7 @@ Determining Instantaneous Velocity from the Slope at a Point: Jet Car
 Calculate the velocity of the jet car at a time of 25 s by finding the slope of the $$ x $$ vs. $$ t $$
 graph in the graph below.
 
-![A graph of displacement versus time for a jet car. The x axis for time runs from zero to thirty five seconds. The y axis for displacement runs from zero to three thousand meters. The curve depicting displacement is concave up. The slope of the curve increases over time. Slope equals velocity v. There are two points on the curve, labeled, P and Q. P is located at time equals ten seconds. Q is located and time equals twenty-five seconds. A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds displacement two thousand nine hundred meters.](../resources/Figure_02_08_05.jpg 'The slope of an ( x ) vs. ( t ) graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.')
+![A graph of displacement versus time for a jet car. The x axis for time runs from zero to thirty five seconds. The y axis for displacement runs from zero to three thousand meters. The curve depicting displacement is concave up. The slope of the curve increases over time. Slope equals velocity v. There are two points on the curve, labeled, P and Q. P is located at time equals ten seconds. Q is located and time equals twenty-five seconds. A line tangent to P at ten seconds is drawn and has a slope delta x sub P over delta t sub p. A line tangent to Q at twenty five seconds is drawn and has a slope equal to delta x sub q over delta t sub q. Select coordinates are given in a table and consist of the following: time zero seconds displacement two hundred meters; time five seconds displacement three hundred thirty eight meters; time ten seconds displacement six hundred meters; time fifteen seconds displacement nine hundred eighty eight meters. Time twenty seconds displacement one thousand five hundred meters; time twenty five seconds displacement two thousand one hundred thirty eight meters; time thirty seconds displacement two thousand nine hundred meters.](../resources/Figure_02_08_05.jpg 'The slope of an \( x \) vs. \( t \) graph is velocity. This is shown at two points. Instantaneous velocity at any point is the slope of the tangent at that point.')
 {: #Figure5}
 
 **Strategy**
@@ -257,7 +257,7 @@ It is not accidental that the same equations are obtained by graphical analysis
 as by algebraic techniques. In fact, an important way to *discover* physical
 relationships is to measure various physical quantities and then make graphs of
 one quantity against another to see if they are correlated in any way.
-Correlations imply physical relationships and might be shown by smooth graphs
+Correlations suggest physical relationships and might be shown by smooth graphs
 such as those above. From such graphs, mathematical relationships can sometimes
 be postulated. Further experiments are then performed to determine the validity
 of the hypothesized relationships.
@@ -718,11 +718,11 @@ Position increases linearly from 4.70 km: $$ x = 4.70 \text{ km} + (2.0 \ms)t $$
 From 10 s to 20 s the train moves another $$ 0.08 \text{ km} = 80 \m $$ with initial speed $$ v_0 = 2.0 \ms $$:
 
 <div class="equation">
-$$ 80 \m = (2.0 \ms)(10 \s) + \frac{1}{2}a(10 \s)^2 = 20 \m + 50 \m \cdot \s^{-2} \cdot a $$
+$$ 80 \m = (2.0 \ms)(10 \s) + \frac{1}{2}a(10 \s)^2 = 20 \m + (50 \s^2)a $$
 </div>
 
 <div class="equation">
-$$ a = \frac{60 \m}{(10 \s)^2} = 1.2 \mss $$
+$$ a = \frac{2(80 \m - 20 \m)}{(10 \s)^2} = \frac{120 \m}{100 \s^2} = 1.2 \mss $$
 </div>
 
 **Constructing the graph:**

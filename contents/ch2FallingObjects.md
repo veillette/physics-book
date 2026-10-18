@@ -27,7 +27,7 @@ surface, we can also treat this acceleration as constant over a short fall. This
 because we are so accustomed to the effects of air resistance and friction that
 we expect light objects to fall slower than heavy ones.
 
-![Positions of a feather and hammer over time as they fall on the Moon. The feather and hammer are at the exact same position at each moment in time.](../resources/Figure_02_07_01.jpg 'A hammer and a feather will fall with the same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only ( 1.67 \\mss ) ')
+![Positions of a feather and hammer over time as they fall on the Moon. The feather and hammer are at the exact same position at each moment in time.](../resources/Figure_02_07_01.jpg 'A hammer and a feather will fall with the same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only \( 1.62 \mss \) ')
 {: #Figure1}
 
 In the real world, air resistance can cause a lighter object to fall slower than
@@ -144,7 +144,9 @@ which is the value we want to find.
 
 **Discussion**
 
-The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> y_{0} $$. It could be *moving* up or down; the only way to tell is to calculate $$ v_{1} $$ and find out if it is positive or negative. **Solution for Velocity** $$ v_{1} $$ 
+The rock is 8.10 m above its starting point at $$ t=1.00 \s $$, since $$ y_{1}> y_{0} $$. It could be *moving* up or down; the only way to tell is to calculate $$ v_{1} $$ and find out if it is positive or negative.
+
+**Solution for Velocity** $$ v_{1} $$
 
 1\. Identify the knowns. We know that $$ y_{0}=0 $$; $$ v_{0}=13.0 \ms $$; $$ a=-g=-9.80 \mss $$; and $$ t=1.00 \s $$. We also know from the solution above
 that $$ y_{1}=8.10 \m $$.
@@ -160,7 +162,7 @@ that $$ y_{1}=8.10 \m $$.
 **Discussion**
 
 The positive value for $$ v_{1} $$ means that the rock is still heading upward
-at $$ t=1.00\s $$. However, it has slowed from its original 13.0\*\* m/s, as
+at $$ t=1.00\s $$. However, it has slowed from its original 13.0 m/s, as
 expected.
 
 **Solution for Remaining Times**
