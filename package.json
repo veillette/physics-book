@@ -30,6 +30,7 @@
     "check:equations:strict": "node scripts/equations.js --strict",
     "check:equations:fix": "node scripts/equations.js --fix",
     "check:physics": "python3 check_math.py",
+    "check:solutions": "python3 find_incomplete_solutions.py --summary",
     "lint:markdown": "node scripts/lint-markdown.js",
     "lint:markdown:apply": "node scripts/lint-markdown.js --apply",
     "lint:markdown:strict": "node scripts/lint-markdown.js --strict",

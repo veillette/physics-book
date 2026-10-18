@@ -1,193 +1,294 @@
 #!/usr/bin/env python3
 """
 Find incomplete solutions in physics book markdown files.
-A solution is considered incomplete if it's missing Strategy, Solution, or Discussion sections.
+
+Every end-of-section problem (an exercise block whose data-element-type is
+"problems-exercises", or an untyped exercise under a "Problems & Exercises"
+heading) should carry a solution with Strategy, Solution, and Discussion
+parts. This script reports each problem that has no solution block, an empty
+one, or a solution missing any of those parts.
+
+Both markups found in contents/ are understood:
+    ::: problem / ::: solution            (markdown-it containers, any fence length)
+    <div class="problem"> / <div class="solution">   (legacy HTML)
+
+Section markers are matched loosely: bold (**Strategy:**, __Strategy__,
+**Solution for (b)**, **(a) Discussion**, **Strategy and Solution for (a)**),
+<strong> tags, <div class="title">Strategy</div> blocks, and headings all count.
+A ::: container left open when its exercise <div> closes is reported as
+unbalanced markup.
 
 Usage:
-    python find_incomplete_solutions.py              # Analyze all chapters (1-34)
-    python find_incomplete_solutions.py 16 17 18     # Analyze specific chapters
-    python find_incomplete_solutions.py --range 1-10 # Analyze chapter range
-    python find_incomplete_solutions.py --range 1-6 --range 20-25  # Multiple ranges
+    python find_incomplete_solutions.py              # All chapters
+    python find_incomplete_solutions.py 16 17 18     # Specific chapters
+    python find_incomplete_solutions.py --range 1-10 # Chapter range
+    python find_incomplete_solutions.py --range 1-6 --range 20-25
+    python find_incomplete_solutions.py --summary    # Per-chapter counts only
+    python find_incomplete_solutions.py --json       # Machine-readable output
+    python find_incomplete_solutions.py --strict     # Exit 1 if anything is incomplete
 """
 
 import argparse
+import json
 import re
+import sys
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent
+DEFAULT_CONTENTS_DIR = REPO_ROOT / 'contents'
+
+PARTS = ('strategy', 'solution', 'discussion')
+
+CHAPTER_FILE_RE = re.compile(r'^ch(\d+)[A-Z].*\.md$')
+HEADING_RE = re.compile(r'^#{2,3}\s+(.*)$')
+PROBLEMS_HEADING_RE = re.compile(r'problems?\s+(?:(?:&amp;|&|and)\s+)?exercises', re.IGNORECASE)
+EXERCISE_OPEN_RE = re.compile(r'<div\b[^>]*\bclass="exercise"[^>]*>', re.IGNORECASE)
+ELEMENT_TYPE_RE = re.compile(r'data-element-type="([^"]*)"', re.IGNORECASE)
+PROBLEM_TYPE_RE = re.compile(r'^problems?-exercises$', re.IGNORECASE)
+DIV_OPEN_RE = re.compile(r'<div\b', re.IGNORECASE)
+DIV_CLOSE_RE = re.compile(r'</div\s*>', re.IGNORECASE)
+FENCE_OPEN_RE = re.compile(r'^\s*:{3,}\s*([A-Za-z][\w-]*)')
+FENCE_CLOSE_RE = re.compile(r'^\s*:{3,}\s*$')
+LEGACY_BLOCK_RE = re.compile(r'<div\b[^>]*\bclass="(problem|solution)"[^>]*>', re.IGNORECASE)
+# A part label is bold text, a <strong>/<b> tag, a <div class="title"> block,
+# or a markdown heading inside the solution.
+LABEL_RE = re.compile(
+    r'(\*\*|__)(?P<bold>[^\n]+?)\1'
+    r'|<(strong|b)>(?P<tag>[^\n]*?)</\3>'
+    r'|<div\s+class="title"[^>]*>\s*(?P<title>.*?)\s*</div>'
+    r'|^#{2,6}\s+(?P<heading>.*)$',
+    re.DOTALL | re.MULTILINE | re.IGNORECASE,
+)
+PART_PREFIX_RE = re.compile(r'^(?:\([a-z]\)\s*)+')
+
+
+@dataclass
+class Problem:
+    file: str
+    line: int
+    chapter: int
+    number: int
+    preview: str
+    has_solution_block: bool
+    present: list = field(default_factory=list)
+    missing: list = field(default_factory=list)
+    unclosed: list = field(default_factory=list)
+
+    @property
+    def complete(self):
+        return not self.missing and not self.unclosed
 
 
 def parse_chapter_range(range_str):
     """Parse a range string like '1-10' into a list of chapter numbers."""
-    if '-' in range_str:
-        start, end = range_str.split('-', 1)
-        return list(range(int(start), int(end) + 1))
-    else:
+    try:
+        if '-' in range_str:
+            start, end = (int(s) for s in range_str.split('-', 1))
+            if start > end:
+                raise ValueError
+            return list(range(start, end + 1))
         return [int(range_str)]
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"invalid chapter range: {range_str!r}")
 
 
-def find_incomplete_solutions(chapter_numbers, contents_dir):
-    """Find all problems with incomplete solutions in specified chapters."""
+def div_delta(line):
+    return len(DIV_OPEN_RE.findall(line)) - len(DIV_CLOSE_RE.findall(line))
 
-    chapter_stats = {}
-    all_problems = []
 
-    for chapter_num in sorted(set(chapter_numbers)):
-        # Find all files for this chapter
-        # Use regex to match exact chapter number (ch1 should not match ch10, ch11, etc.)
-        chapter_pattern = re.compile(rf'^ch{chapter_num}[A-Z].*\.md$')
-        chapter_files = sorted(
-            f for f in contents_dir.glob(f"ch{chapter_num}*.md")
-            if chapter_pattern.match(f.name)
-        )
+def iter_exercises(lines):
+    """Yield (start_line_index, body_lines, is_problem) for each exercise block."""
+    in_problems_section = False
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        heading = HEADING_RE.match(line)
+        if heading:
+            in_problems_section = bool(PROBLEMS_HEADING_RE.search(heading.group(1)))
 
-        if not chapter_files:
+        opener = EXERCISE_OPEN_RE.search(line)
+        if not opener:
+            i += 1
             continue
 
-        print(f"\n{'='*60}")
-        print(f"CHAPTER {chapter_num}")
-        print(f"{'='*60}")
+        type_match = ELEMENT_TYPE_RE.search(opener.group(0))
+        if type_match:
+            is_problem = bool(PROBLEM_TYPE_RE.match(type_match.group(1).strip()))
+        else:
+            is_problem = in_problems_section
 
-        total_problems = 0
-        total_incomplete = 0
+        # Collect lines until the exercise div closes.
+        start = i
+        depth = div_delta(line[opener.start():])
+        body = []
+        i += 1
+        while i < len(lines) and depth > 0:
+            depth += div_delta(lines[i])
+            if depth > 0:
+                body.append(lines[i])
+            i += 1
+        yield start, body, is_problem
 
-        for filepath in chapter_files:
-            filename = filepath.name
 
-            with open(filepath, 'r', encoding='utf-8') as f:
-                content = f.read()
+def extract_blocks(body):
+    """Return ({'problem': [text...], 'solution': [text...]}, unclosed_names).
 
-            # Find the Problems & Exercises section (handle both &amp; and &)
-            problems_match = re.search(
-                r'###\s+Problems\s+(?:&amp;|&)\s+Exercises(.*?)(?=###|\Z)',
-                content,
-                re.DOTALL | re.IGNORECASE
-            )
+    unclosed_names lists ::: containers still open when the exercise div ended,
+    which usually means a stray or escaped </div> cut the exercise short.
+    """
+    blocks = {'problem': [], 'solution': []}
 
-            if not problems_match:
-                continue
+    # markdown-it containers: track a stack so nested containers close correctly.
+    stack = []  # entries: [name, collected_lines]
+    for line in body:
+        if FENCE_CLOSE_RE.match(line):
+            if stack:
+                name, collected = stack.pop()
+                if name in blocks:
+                    blocks[name].append('\n'.join(collected))
+                elif stack:
+                    stack[-1][1].extend(collected)
+            continue
+        opened = FENCE_OPEN_RE.match(line)
+        if opened:
+            stack.append([opened.group(1).lower(), []])
+            continue
+        if stack:
+            stack[-1][1].append(line)
+    unclosed = [name for name, _ in stack]
+    for name, collected in stack:  # unclosed fence: keep what we have
+        if name in blocks:
+            blocks[name].append('\n'.join(collected))
 
-            problems_section = problems_match.group(1)
+    # Legacy <div class="problem|solution"> blocks.
+    text = '\n'.join(body)
+    for match in LEGACY_BLOCK_RE.finditer(text):
+        depth = 1
+        pos = match.end()
+        for tag in re.finditer(r'<div\b|</div\s*>', text[pos:], re.IGNORECASE):
+            depth += 1 if tag.group(0).lower().startswith('<div') else -1
+            if depth == 0:
+                blocks[match.group(1).lower()].append(text[pos:pos + tag.start()])
+                break
 
-            # Find all exercise blocks
-            pos = 0
-            problem_num = 0
-            incomplete_problems = []
+    return blocks, unclosed
 
-            while True:
-                exercise_start = re.search(
-                    r'<div class="exercise"[^>]*data-element-type="problems-exercises"[^>]*>',
-                    problems_section[pos:]
-                )
 
-                if not exercise_start:
-                    break
+def find_parts(solution_text):
+    """Return the set of Strategy/Solution/Discussion parts marked in a solution."""
+    found = set()
+    for match in LABEL_RE.finditer(solution_text):
+        label = next(g for g in match.group('bold', 'tag', 'title', 'heading') if g is not None)
+        label = PART_PREFIX_RE.sub('', label.strip().lower()).rstrip(':').strip()
+        if label.startswith('strategy'):
+            found.add('strategy')
+            if re.match(r'strategy\s+and\s+solution', label):
+                found.add('solution')
+        elif label.startswith('solution'):
+            found.add('solution')
+        elif label.startswith('discussion'):
+            found.add('discussion')
+    return found
 
-                start_idx = pos + exercise_start.end()
 
-                # Find the matching closing div by counting div tags
-                div_count = 1
-                end_idx = start_idx
+def make_preview(text, width=80):
+    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text if len(text) <= width else text[:width - 1].rstrip() + '…'
 
-                while div_count > 0 and end_idx < len(problems_section):
-                    if problems_section[end_idx:end_idx+5] == '<div ':
-                        div_count += 1
-                        end_idx += 5
-                    elif problems_section[end_idx:end_idx+6] == '</div>':
-                        div_count -= 1
-                        end_idx += 6
-                    else:
-                        end_idx += 1
 
-                exercise_content = problems_section[start_idx:end_idx]
+def analyze_file(path, chapter, display_root):
+    lines = path.read_text(encoding='utf-8').splitlines()
+    try:
+        display = str(path.resolve().relative_to(display_root))
+    except ValueError:
+        display = str(path)
 
-                # Extract problem text
-                problem_match = re.search(
-                    r'<div class="problem"[^>]*>(.*?)</div>',
-                    exercise_content,
-                    re.DOTALL
-                )
+    problems = []
+    for start, body, is_problem in iter_exercises(lines):
+        if not is_problem:
+            continue
+        blocks, unclosed = extract_blocks(body)
+        if not blocks['problem']:
+            continue
 
-                if problem_match:
-                    problem_num += 1
-                    total_problems += 1
-                    problem_text = problem_match.group(1).strip()
-                    # Strip HTML tags for preview
-                    problem_preview = re.sub(r'<[^>]+>', '', problem_text)[:80].strip()
+        solution_text = '\n'.join(blocks['solution'])
+        has_block = bool(blocks['solution'])
+        present = find_parts(solution_text)
+        problems.append(Problem(
+            file=display,
+            line=start + 1,
+            chapter=chapter,
+            number=len(problems) + 1,
+            preview=make_preview(blocks['problem'][0]),
+            has_solution_block=has_block and bool(solution_text.strip()),
+            present=[p for p in PARTS if p in present],
+            missing=[p for p in PARTS if p not in present],
+            unclosed=unclosed,
+        ))
+    return problems
 
-                    # Check for solution
-                    solution_match = re.search(
-                        r'<div class="solution"[^>]*>(.*?)</div>',
-                        exercise_content,
-                        re.DOTALL
-                    )
 
-                    has_strategy = False
-                    has_solution_marker = False
-                    has_discussion = False
+def chapter_files(contents_dir, chapters=None):
+    """Map chapter number -> sorted list of section files."""
+    by_chapter = {}
+    for path in contents_dir.glob('ch*.md'):
+        match = CHAPTER_FILE_RE.match(path.name)
+        if not match:
+            continue
+        chapter = int(match.group(1))
+        if chapters is None or chapter in chapters:
+            by_chapter.setdefault(chapter, []).append(path)
+    return {ch: sorted(files) for ch, files in sorted(by_chapter.items())}
 
-                    if solution_match:
-                        solution_text = solution_match.group(1)
 
-                        # Check for required sections
-                        has_strategy = bool(re.search(r'\*\*Strategy\*\*', solution_text, re.IGNORECASE))
-                        has_solution_marker = bool(re.search(r'\*\*Solution\*\*', solution_text, re.IGNORECASE))
-                        has_discussion = bool(re.search(r'\*\*Discussion\*\*', solution_text, re.IGNORECASE))
+def describe(problem):
+    issues = []
+    if not problem.has_solution_block:
+        issues.append('no solution')
+    elif problem.missing:
+        issues.append('missing ' + ', '.join(p.capitalize() for p in problem.missing))
+    if problem.unclosed:
+        names = ', '.join(f'::: {name}' for name in problem.unclosed)
+        issues.append(f'unclosed {names} (exercise <div> ends early; stray or escaped </div>?)')
+    return '; '.join(issues)
 
-                    # Build missing sections list
-                    missing = []
-                    if not has_strategy:
-                        missing.append("no Strategy")
-                    if not has_solution_marker:
-                        missing.append("no Solution")
-                    if not has_discussion:
-                        missing.append("no Discussion")
 
-                    if missing:
-                        incomplete_problems.append({
-                            'file': filename,
-                            'chapter': chapter_num,
-                            'problem_num': problem_num,
-                            'missing': ", ".join(missing),
-                            'preview': problem_preview,
-                            'has_strategy': has_strategy,
-                            'has_solution': has_solution_marker,
-                            'has_discussion': has_discussion
-                        })
-                        total_incomplete += 1
+def print_report(results, summary_only, reported):
+    """Print the per-problem listing (filtered by `reported`) and the summary table."""
+    totals = {'problems': 0, 'incomplete': 0, 'no_solution': 0}
+    per_chapter = []
 
-                pos = end_idx
+    for chapter, problems in results.items():
+        incomplete = [p for p in problems if not p.complete]
+        no_solution = sum(1 for p in incomplete if not p.has_solution_block)
+        totals['problems'] += len(problems)
+        totals['incomplete'] += len(incomplete)
+        totals['no_solution'] += no_solution
+        per_chapter.append((chapter, len(problems), len(incomplete), no_solution))
 
-            if incomplete_problems:
-                print(f"\n{filename}:")
-                for prob in incomplete_problems:
-                    print(f"  Problem {prob['problem_num']}: {prob['missing']}")
-                    print(f"    {prob['preview']}...")
+        listed = [p for p in incomplete if reported(p)]
+        if summary_only or not listed:
+            continue
+        print(f"\n{'=' * 60}\nCHAPTER {chapter}\n{'=' * 60}")
+        current_file = None
+        for p in listed:
+            if p.file != current_file:
+                current_file = p.file
+                print(f"\n{p.file}:")
+            print(f"  {p.file}:{p.line}  Problem {p.number}: {describe(p)}")
+            print(f"    {p.preview}")
 
-                all_problems.extend(incomplete_problems)
-
-        chapter_stats[chapter_num] = {
-            'total': total_problems,
-            'incomplete': total_incomplete
-        }
-
-    # Print summary
-    print(f"\n{'='*60}")
-    print("SUMMARY")
-    print(f"{'='*60}")
-
-    grand_total_problems = 0
-    grand_total_incomplete = 0
-
-    for chapter_num in sorted(chapter_stats.keys()):
-        stats = chapter_stats[chapter_num]
-        if stats['incomplete'] > 0:
-            print(f"Chapter {chapter_num}: {stats['incomplete']} incomplete (of {stats['total']} total)")
-        grand_total_problems += stats['total']
-        grand_total_incomplete += stats['incomplete']
-
-    print(f"\nTotal problems analyzed: {grand_total_problems}")
-    print(f"Total problems needing complete solutions: {grand_total_incomplete}")
-
-    return all_problems, chapter_stats
+    print(f"\n{'=' * 60}\nSUMMARY\n{'=' * 60}")
+    print(f"{'Chapter':>7}  {'Problems':>8}  {'Incomplete':>10}  {'No solution':>11}  {'Complete':>8}")
+    for chapter, total, incomplete, no_solution in per_chapter:
+        pct = 100 * (total - incomplete) / total if total else 100
+        print(f"{chapter:>7}  {total:>8}  {incomplete:>10}  {no_solution:>11}  {pct:>7.0f}%")
+    total = totals['problems']
+    pct = 100 * (total - totals['incomplete']) / total if total else 100
+    print(f"{'Total':>7}  {total:>8}  {totals['incomplete']:>10}  {totals['no_solution']:>11}  {pct:>7.0f}%")
+    return totals
 
 
 def main():
@@ -196,59 +297,61 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  %(prog)s                      Analyze all chapters (1-34)
+  %(prog)s                      Analyze all chapters
   %(prog)s 16 17 18             Analyze chapters 16, 17, and 18
   %(prog)s --range 1-10         Analyze chapters 1 through 10
   %(prog)s --range 1-6 --range 20-25   Analyze multiple ranges
-        """
+  %(prog)s --missing discussion Only report problems lacking a Discussion
+        """,
     )
-
-    parser.add_argument(
-        'chapters',
-        nargs='*',
-        type=int,
-        help='Specific chapter numbers to analyze'
-    )
-
-    parser.add_argument(
-        '--range', '-r',
-        action='append',
-        dest='ranges',
-        metavar='START-END',
-        help='Chapter range to analyze (e.g., 1-10)'
-    )
-
-    parser.add_argument(
-        '--contents-dir', '-d',
-        type=Path,
-        default=Path('/home/user/physics-book/contents'),
-        help='Path to the contents directory'
-    )
-
+    parser.add_argument('chapters', nargs='*', type=int, help='Specific chapter numbers to analyze')
+    parser.add_argument('--range', '-r', action='append', dest='ranges', type=parse_chapter_range,
+                        metavar='START-END', help='Chapter range to analyze (e.g., 1-10)')
+    parser.add_argument('--contents-dir', '-d', type=Path, default=DEFAULT_CONTENTS_DIR,
+                        help=f'Path to the contents directory (default: {DEFAULT_CONTENTS_DIR})')
+    parser.add_argument('--missing', '-m', action='append', choices=PARTS + ('no-solution',),
+                        help='Only list problems missing this part, or with no solution at all; '
+                             'repeatable. Summary totals still cover every problem.')
+    parser.add_argument('--summary', '-s', action='store_true', help='Print only the per-chapter summary')
+    parser.add_argument('--json', action='store_true', help='Print incomplete problems as JSON')
+    parser.add_argument('--strict', action='store_true', help='Exit with status 1 if any problem is incomplete')
     args = parser.parse_args()
 
-    # Collect chapter numbers from all sources
-    chapter_numbers = []
+    if not args.contents_dir.is_dir():
+        print(f"Error: contents directory not found: {args.contents_dir}", file=sys.stderr)
+        return 2
 
-    if args.chapters:
-        chapter_numbers.extend(args.chapters)
+    requested = set(args.chapters)
+    for chapters in args.ranges or []:
+        requested.update(chapters)
 
-    if args.ranges:
-        for range_str in args.ranges:
-            chapter_numbers.extend(parse_chapter_range(range_str))
+    files = chapter_files(args.contents_dir, requested or None)
+    if requested and not files:
+        print(f"Error: no chapter files found for chapters {sorted(requested)}", file=sys.stderr)
+        return 2
 
-    # Default to all chapters if none specified
-    if not chapter_numbers:
-        chapter_numbers = list(range(1, 35))  # Chapters 1-34
+    results = {}
+    for chapter, paths in files.items():
+        results[chapter] = [p for path in paths for p in analyze_file(path, chapter, Path.cwd())]
 
-    # Validate contents directory
-    if not args.contents_dir.exists():
-        print(f"Error: Contents directory not found: {args.contents_dir}")
-        return 1
+    def reported(p):
+        if not args.missing:
+            return True
+        if 'no-solution' in args.missing and not p.has_solution_block:
+            return True
+        return p.has_solution_block and any(part in p.missing for part in args.missing)
 
-    find_incomplete_solutions(chapter_numbers, args.contents_dir)
-    return 0
+    if args.json:
+        incomplete = [dict(asdict(p), status=describe(p))
+                      for probs in results.values() for p in probs if not p.complete and reported(p)]
+        print(json.dumps(incomplete, indent=2, ensure_ascii=False))
+        any_incomplete = bool(incomplete)
+    else:
+        totals = print_report(results, args.summary, reported)
+        any_incomplete = totals['incomplete'] > 0
+
+    return 1 if args.strict and any_incomplete else 0
 
 
-if __name__ == "__main__":
-    exit(main())
+if __name__ == '__main__':
+    sys.exit(main())
