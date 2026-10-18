@@ -22,8 +22,8 @@ much about gravity in the process.
 
 The most remarkable and unexpected fact about falling objects is that, if air
 resistance and friction are negligible, then in a given location all objects
-fall toward the center of Earth with the _same constant acceleration,
-independent of their mass_. This experimentally determined fact is unexpected,
+fall with the _same acceleration, independent of their mass_. Near Earth’s
+surface, we can also treat this acceleration as constant over a short fall. This experimentally determined fact is unexpected,
 because we are so accustomed to the effects of air resistance and friction that
 we expect light objects to fall slower than heavy ones.
 
@@ -42,9 +42,9 @@ be in **free-fall**.
 
 The force of gravity causes objects to fall toward the center of Earth. The
 acceleration of free-falling objects is therefore called the **acceleration due
-to gravity**. The acceleration due to gravity is _constant_, which means we can
-apply the kinematics equations to any falling object where air resistance and
-friction are negligible. This opens a broad class of interesting situations to
+to gravity**. For the near-surface motions in this chapter, the change in height
+is small compared with Earth’s radius, so we treat this acceleration as
+_constant_. We can then use the constant-acceleration kinematics equations. This opens a broad class of interesting situations to
 us. The acceleration due to gravity is so important that its magnitude is given
 its own symbol, $$ g $$. It is constant at any given location on Earth and has
 the average value
@@ -421,8 +421,8 @@ Kinematics of an Elevator
 
 ### Section Summary
 
-- An object in free-fall experiences constant acceleration if air resistance is
-  negligible.
+- An object in free-fall is acted on only by gravity. Near Earth’s surface,
+  its acceleration can be treated as constant over a small change in height.
 - On Earth, all free-falling objects have an acceleration due to gravity $$ g $$
 
   , which averages

@@ -108,15 +108,17 @@ The importance of momentum, unlike the importance of energy, was recognized
 early in the development of classical physics. Momentum was deemed so important
 that it was called the “quantity of motion.” Newton actually stated his **second
 law of motion** in terms of momentum:
-The net external force equals the change in momentum of a system divided by the
-time over which it changes. Using symbols, this law is
+The average net external force equals the change in momentum of a system
+divided by the time over which it changes. Using symbols, this law is
 
 <div class="equation">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t}, $$
 </div>
 
-where $$ \vb{F}\_{\text{net}} $$ is the net external force, $$ \Delta \vb{p} $$
-is the change in momentum, and $$ \Delta t $$ is the change in time.
+where $$ \vb{F}_{\text{net}} $$ is the net external force, $$ \Delta \vb{p} $$
+is the change in momentum, and $$ \Delta t $$ is the elapsed time. Here we use
+$$ \vb{F}_{\text{net}} $$ for the average force over the interval; if the force
+is constant, its average and instantaneous values are the same.
 
 ::: note {"class":"note","data-label":""}
 
@@ -124,7 +126,7 @@ is the change in momentum, and $$ \Delta t $$ is the change in time.
 Newton’s Second Law of Motion in Terms of Momentum
 </div>
 
-The net external force equals the change in momentum of a system divided by the time over which it changes.
+The average net external force equals the change in momentum of a system divided by the time over which it changes.
 
 <div class="equation">
  $$ \vb{F}_{\text{net}}=\frac{ \Delta \vb{p}}{\Delta t} $$
@@ -170,12 +172,12 @@ equation
 
 _when the mass of the system is constant_.
 
-Newton’s second law of motion stated in terms of momentum is more generally
-applicable because it can be applied to systems where the mass is changing, such
-as rockets, as well as to systems of constant mass. We will consider systems
-with varying mass in some detail**;** however, the relationship between momentum
-and force remains useful when mass is constant, such as in the following
-example.
+The momentum form of Newton’s second law also helps us analyze rockets.
+To use it, we consider the rocket and the gas it ejects together, so that we
+track the same collection of matter. The rocket alone loses mass, and the
+escaping gas carries momentum with it. We will use this idea in
+[Introduction to Rocket Propulsion](./ch8IntroductionToRocketPropulsion).
+For now, we apply the law to an object of constant mass.
 
 ::: example {"class":"example","id":"exampleTennis"}
 
@@ -258,8 +260,8 @@ the strategy used in this example.
   where $$ m $$ is the mass of the system and $$ \vb{v} $$ is its velocity.
 - The SI unit for momentum is $$ \kg · \ms $$.
 - Newton’s second law of motion in terms of momentum
-  states that the net external force equals the change in momentum of a system
-  divided by the time over which it changes.
+  states that the average net external force equals the change in momentum
+  of a system divided by the time over which it changes.
 - In symbols, Newton’s second law of motion is
 defined to be
  <div class="equation">
@@ -684,7 +686,7 @@ linear momentum
 : the product of mass and velocity
 
 second law of motion
-: physical law that states that the net external force equals the change in
-momentum of a system divided by the time over which it changes
+: physical law that states that the average net external force equals the
+change in momentum of a system divided by the elapsed time
 
 :::

@@ -462,8 +462,7 @@ milliliter is dependent on the measure of a centimeter.
 - Physical quantities are a characteristic or property of an object that can be
   measured or calculated from other measurements.
 - Units are standards for expressing and comparing the measurement of physical
-  quantities. All units can be expressed as combinations of four fundamental
-  units.
+  quantities. SI units can be expressed as combinations of seven base units.
 - The four fundamental units we will use in this text are the meter (for length)
   , the kilogram (for mass), the second (for time), and the ampere (for electric
   current). These units are part of the metric system, which uses powers of 10

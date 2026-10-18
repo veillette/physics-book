@@ -19,7 +19,7 @@ For example, take a look at the image above. This image is of the Andromeda
 Galaxy, which contains billions of individual stars, huge clouds of gas, and
 dust. Two smaller galaxies are also visible as bright blue spots in the
 background. At a staggering 2.5 million light years from the Earth, this galaxy
-is the nearest one to our own galaxy (
+is the nearest major galaxy to our own (
 which is called the Milky Way). The stars and planets that make up Andromeda
 might seem to be the furthest thing from most people’s regular, everyday lives.
 But Andromeda is a great starting point to think about the forces that hold

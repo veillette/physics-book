@@ -53,14 +53,15 @@ consistent with Newton’s third law.
 
 ::::
 
-The bodies we are dealing with tend to be large. To simplify the situation we
-assume that the body acts as if its entire mass is concentrated at one specific
-point called the **center of mass** (
+For the gravitational calculations here, we treat each body as if its mass
+were concentrated at its **center of mass** (
 CM) , which will be further explored
 in [Linear Momentum and Collisions](./ch8LinearMomentumAndCollisions)
-. For two bodies having masses $$ m $$ and $$ M $$ with a distance $$ r $$
-between their centers of mass, the equation for Newton’s universal law of
-gravitation is
+. This treatment is exact outside a spherically symmetric body, such as our
+idealized Earth, and is a good approximation for other bodies when their sizes
+are small compared with their separation. For two such bodies of masses
+$$ m $$ and $$ M $$, separated by a center-to-center distance $$ r $$,
+Newton’s universal law of gravitation is
 
 <div class="equation">
  $$ F=G\frac{mM}{ r^{2}}, $$

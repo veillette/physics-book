@@ -153,7 +153,7 @@ effort alone.
 
 The back is considerably more complicated than the arm or leg, with various
 muscles and joints between vertebrae, all having mechanical advantages
-one. Back muscles must, therefore, exert very large forces, which are borne
+much less than one. Back muscles must, therefore, exert very large forces, which are borne
 by the spinal column. Discs crushed by mere exertion are very common. The jaw is
 somewhat exceptional—the masseter muscles that close the jaw have a
 mechanical advantage greater than 1 for the back teeth, allowing us to exert

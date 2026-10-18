@@ -24,7 +24,7 @@ of an object. Unlike simple friction, the drag force is proportional to some
 function of the velocity of the object in that fluid. This functionality is
 complicated and depends upon the shape of the object, its size, its velocity,
 and the fluid it is in. For most large objects such as bicyclists, cars, and
-baseballs not moving too slowly, the magnitude of the drag force $$ F\_{\text{D}} $$
+baseballs not moving too slowly, the magnitude of the drag force $$ F_{\text{D}} $$
 
 is found to be proportional to the square of the speed of the object. We can
 write this relationship mathematically as $$ F_{\text{D}}\propto v^{2} $$. When
@@ -263,17 +263,17 @@ its weight is reduced to a thousandth, but its surface only to a hundredth. So
 the resistance to falling in the case of the small animal is relatively ten
 times greater than the driving force._
 
-The above quadratic dependence of air drag upon velocity does not hold if the
-object is very small, is going very slow, or is in a denser medium than air.
-Then we find that the drag force is proportional just to the velocity. This
-relationship is given by **Stokes’ law**, which states that
+For very small objects moving slowly through a fluid, drag is often
+proportional to speed rather than speed squared. For a spherical object in
+this slow-flow regime, **Stokes’ law** gives the drag force:
 
 <div class="equation">
 $$ F_{\s}=6 \pi r\eta v, $$
 </div>
 
-where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the
-fluid, and $$ v $$ is the object’s velocity.
+where $$ r $$ is the sphere’s radius, $$ \eta $$ is the viscosity of the
+fluid, and $$ v $$ is the object’s speed relative to the fluid. The fluid must
+flow smoothly around the sphere with negligible effects from its inertia.
 
 :::: note {"class":"note","data-label":""}
 
@@ -285,9 +285,9 @@ Stokes’ Law
 $$ F_{\s}=6 \pi r\eta v, $$
 </div>
 
-where $$ r $$ is the radius of the object,
-$$ \eta $$ is the viscosity of the fluid, and
-$$ v $$ is the object’s velocity.
+For a sphere moving slowly through a fluid, $$ r $$ is its radius,
+$$ \eta $$ is the fluid viscosity, and $$ v $$ is the speed relative to the
+fluid.
 
 ::::
 
@@ -359,15 +359,14 @@ where $$ C $$ is the drag coefficient (typical values are given
 in [Table 1](#Table1)), $$ A $$ is the area of the object facing the fluid, and
 $$ \rho $$ is the fluid density.
 
-- For small objects (such as a bacterium)
-  moving in a denser medium (such as water), the drag force is given by Stokes’
-  law,
+- For a small spherical object moving slowly through a fluid, the drag force
+  can be found using Stokes’ law,
   <div class="equation">
     $$ F_{\s}=6 \pi r \eta v , $$
   </div>
 
-where $$ r $$ is the radius of the object, $$ \eta $$ is the fluid viscosity,
-and $$ v $$ is the object’s velocity.
+where $$ r $$ is the sphere’s radius, $$ \eta $$ is the fluid viscosity,
+and $$ v $$ is its speed relative to the fluid.
 
 ### Conceptual Questions
 
@@ -955,7 +954,7 @@ The viscosity of the motor oil is approximately $$ 0.76 \text{ kg/(m·s)} $$ or 
 {: class="glossary-title"}
 
 drag force
-: $$ F\_{\text{D}} $$, found to be proportional to the square of the speed of the
+: $$ F_{\text{D}} $$, found to be proportional to the square of the speed of the
 object; mathematically
 
   <div class="equation">
@@ -970,6 +969,7 @@ where $$ C $$ is the drag coefficient, $$ A $$ is the area of the object facing
 the fluid, and $$ \rho $$ is the density of the fluid
 
 Stokes’ law
-: $$ F\_{s}=6 \pi r \eta v $$, where $$ r $$ is the radius of the object, $$ \eta $$ is the viscosity of the fluid, and $$ v $$ is the object’s velocity
+: the drag relation $$ F_{s}=6 \pi r \eta v $$ for a sphere of radius $$ r $$
+moving slowly through a fluid of viscosity $$ \eta $$ at relative speed $$ v $$
 
 ::::

@@ -41,16 +41,16 @@ $$ \vb{N} $$. $$ \vb{F}_{\N } $$ is the reaction force back on the system, equal
 and opposite to $$ \vb{F}_{\text{o}} $$. (Note that $$ \vb{F}_{\text{o}} $$ is
 not a force on the system.) $$ \vb{N} $$ is the normal force upon the lever,
 and its torque is zero since it is exerted at the pivot. The torques due to $$ \vb{F}_{\text{i}} $$ and $$ \vb{F}_{\N } $$ must be equal to each other if the nail is
-not moving, to satisfy the second condition for equilibrium $$ \left( \text{net}\tau =0\right) $$. (In order for the nail to actually move, the torque
-due to $$ \vb{F}_{\text{i}} $$ must be ever-so-slightly greater than torque due
-to $$ \vb{F}\_{\N } $$.) Hence,
+not moving, to satisfy the second condition for equilibrium $$ \left( \text{net}\tau =0\right) $$. (A slightly greater input torque starts the lever rotating. Once it moves,
+the torques can balance again if it turns at constant angular velocity.) Hence,
 
 <div class="equation">
  $$ l_{\text{i}}F_{\text{i}}=l_{\text{o}}F_{\text{o}} $$
 </div>
 
-where $$ l_{\text{i}} $$ and $$ l_{\text{o}} $$ are the distances from where the
-input and output forces are applied to the pivot, as shown in the figure.
+where $$ l_{\text{i}} $$ and $$ l_{\text{o}} $$ are the perpendicular distances
+from the pivot to the lines of action of the input and output forces—their
+lever arms—as shown in the figure.
 Rearranging the last equation gives
 
 <div class="equation">
@@ -59,7 +59,7 @@ Rearranging the last equation gives
 
 What interests us most here is that the magnitude of the force exerted by the
 nail puller, $$F_{\text{o}}$$, is much greater than the magnitude of the input
-force applied to the puller at the other end, $$ F\_{\text{i}} $$. For the nail
+force applied to the puller at the other end, $$ F_{\text{i}} $$. For the nail
 puller,
 
 <div class="equation">
@@ -73,7 +73,7 @@ greater the force you can exert with it.
 Two other types of levers that differ slightly from the nail puller are a
 wheelbarrow and a shovel, shown in [Figure 2](#Figure2). All these lever types are
 similar in that only three forces are involved – the input force, the output
-force, and the force on the pivot – and thus their MAs are given by $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d_{1}}{ d_{2}} $$, with distances being measured relative to the physical pivot. The
+force, and the force on the pivot – and thus their MAs are given by $$ \text{MA}=\frac{ F_{\text{o}}}{ F_{\text{i}}} $$ and $$ \text{MA}=\frac{ d_{1}}{ d_{2}} $$, with each distance being the perpendicular lever arm about the physical pivot. The
 wheelbarrow and shovel differ from the nail puller because both the input and
 output forces are on the same side of the pivot.
 
@@ -129,7 +129,7 @@ here is $$\text{MA}=1.02/0.0750=13.6 $$.
 Another very simple machine is the inclined plane. Pushing a cart up a plane is
 easier than lifting the same cart straight up to the top using a ladder, because
 the applied force is less. However, the work done in both cases (assuming the
-work done by friction is negligible) is the same. Inclined lanes or ramps were
+work done by friction is negligible) is the same. Inclined planes or ramps were
 probably used during the construction of the Egyptian pyramids to move large
 blocks of stone to the top.
 

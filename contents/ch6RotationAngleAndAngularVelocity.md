@@ -104,9 +104,12 @@ the rate of change of an angle. In symbols, this is
  $$ \omega =\frac{ \Delta\theta }{\Delta t }, $$
 </div>
 
-where an angular rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$
-. The greater the rotation angle in a given amount of time, the greater the
-angular velocity. The units for angular velocity are radians per second (rad/s).
+where an angular rotation $$ \Delta\theta $$ takes place in a time $$ \Delta t $$.
+Over a finite interval this gives the average angular velocity. For uniform
+circular motion, angular velocity is constant and equals this average. For
+changing motion, we can find the angular velocity at an instant by considering
+a very short time interval. The greater the rotation angle in a given amount
+of time, the greater the angular velocity. The units for angular velocity are radians per second (rad/s).
 
 Angular velocity $$ \omega $$ is analogous to linear velocity $$ v $$. To get
 the precise relationship between angular and linear velocity, we again consider
@@ -135,8 +138,8 @@ that the linear velocity $$ v $$ is proportional to the distance from the center
 of rotation, thus, it is largest for a point on the rim (largest $$ r $$ ), as
 you might expect. We can also call this linear speed $$ v $$ of a point on the
 rim the *tangential speed*. The second relationship in $$ v=r \omega \text{ or }\omega =\frac{v}{r} $$ can be illustrated by considering the tire of a moving
-car. Note that the speed of a point on the rim of the tire is the same as the
-speed $$ v $$ of the car. See [Figure 4](#Figure4). So the faster the car moves,
+car. For a tire rolling without slipping, the speed of the tread _relative to
+the axle_ equals the speed $$ v $$ of the car relative to the road. See [Figure 4](#Figure4). So the faster the car moves,
 the faster the tire spins—large $$ v $$ means a large $$ \omega $$, because $$ v=r \omega $$. Similarly, a larger-radius tire rotating at the same angular
 velocity ( $$ \omega $$)
 will produce a greater linear speed ( $$ v $$)

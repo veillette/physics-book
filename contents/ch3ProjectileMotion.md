@@ -24,8 +24,9 @@ motion, such as that of a football or other object for which
 **air resistance**
 **is negligible**.
 
-The most important fact to remember here is that **motions along perpendicular
-axes are independent** and thus can be analyzed separately. This fact was
+The most important fact to remember here is that **horizontal and vertical
+motions are independent when air resistance is negligible** and thus can be
+analyzed separately. This fact was
 discussed
 in [Kinematics in Two Dimensions: An Introduction](./ch3KinematicsInTwoDimensionsAnIntroduction)
 , where vertical and horizontal motions were seen to be independent. The key to
@@ -88,8 +89,8 @@ Given these assumptions, the following steps are then used to analyze projectile
 motion:
 
 **_Step 1._** _Resolve or break the motion into horizontal and vertical
-components along the x- and y-axes._ These axes are perpendicular, so $$ A_{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The magnitude of
-the components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$ y $$. The magnitudes of the components of the velocity $$ \vb{v} $$ are $$ v_{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
+components along the x- and y-axes._ These axes are perpendicular, so $$ A_{x}=A\cos{\theta} $$ and $$ A_{y}=A\sin{\theta} $$ are used. The signed
+components of displacement $$ \vb{s} $$ along these axes are $$ x $$ and $$ y $$. The signed components of the velocity $$ \vb{v} $$ are $$ v_{x}=v\cos{\theta} $$ and $$ v_{y}=v\sin{\theta}$$, where $$ v $$ is the
 magnitude of the velocity and $$ \theta $$ is its direction, as shown
 in [Figure 2](#Figure2). Initial values are denoted with a subscript 0, as usual.
 
@@ -300,8 +301,9 @@ has a major effect, and many fragments will land directly below.
 
 In solving part (a) of the preceding example, the expression we found for $$ y $$
 
-is valid for any projectile motion where air resistance is negligible. Call
-the maximum height $$ y=h $$; then,
+gives the rise above the launch point for a projectile launched upward when
+air resistance is negligible. Taking the launch point as $$ y_{0}=0 $$ and
+calling the maximum height $$ y=h $$, we obtain
 
 <div class="equation">
  $$ h=\frac{ v_{0y}^{2}}{2g}. $$
@@ -633,14 +635,14 @@ Projectile Motion
         </div>
 
 - The maximum height $$ h $$ of a projectile launched with initial vertical
-  velocity $$ v\_{0y} $$ is given by
+  velocity $$ v_{0y} $$ is given by
   <div class="equation">
     $$ h=\frac{ v_{0y}^{2}}{2g}. $$
   </div>
 
 - The maximum horizontal distance traveled by a projectile is called the
   **range**. The range $$ R $$ of a projectile on level ground launched at an
-  angle $$\theta_{0} $$ above the horizontal with initial speed $$ v\_{0} $$ is
+  angle $$\theta_{0} $$ above the horizontal with initial speed $$ v_{0} $$ is
   given by
   <div class="equation">
     $$ R=\frac{ v_0^2 \sin{2\theta_{0}} }{g}. $$

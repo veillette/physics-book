@@ -91,7 +91,9 @@ only affected by their motion northward.
 Independence of Motion
 </div>
 
-The horizontal and vertical components of two-dimensional motion are independent of each other. Any motion in the horizontal direction does not affect motion in the vertical direction, and vice versa.
+For projectile motion with negligible air resistance, the horizontal and
+vertical motions are independent: horizontal motion does not change the
+vertical fall, and vice versa. Both motions take place over the same time.
 
 ::::
 
@@ -156,9 +158,9 @@ Ladybug Motion 2D
 - The shortest path between any two points is a straight line. In two
   dimensions, this path can be represented by a vector with horizontal and
   vertical components.
-- The horizontal and vertical components of a vector are independent of one
-  another. Motion in the horizontal direction does not affect motion in the
-  vertical direction, and vice versa.
+- A vector can be resolved into horizontal and vertical components. For
+  projectile motion with negligible air resistance, the motions along these
+  axes can be analyzed independently, using the same elapsed time.
 
 :::: glossary
 

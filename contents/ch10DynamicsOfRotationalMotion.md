@@ -30,10 +30,11 @@ precise rotational analogs to both force and mass.
 To develop the precise relationship among force, mass, radius, and angular
 acceleration, consider what happens if we exert a force $$ F $$ on a point mass
 $$ m $$ that is at a distance $$ r $$ from a pivot point, as shown
-in [Figure 2](#Figure2). Because the force is perpendicular to $$ r $$, an
-acceleration $$ a=\frac{F}{m} $$ is obtained in the direction of $$ F $$. We can
-rearrange this equation such that $$ F=ma $$ and then look for ways to relate
-this expression to expressions for rotational quantities. We note that $$ a=r \alpha $$, and we substitute this expression into $$ F=ma $$, yielding
+in [Figure 2](#Figure2). Because the force is perpendicular to $$ r $$, a tangential
+acceleration $$ a_{\text{t}}=\frac{F}{m} $$ is obtained in the direction of
+$$ F $$. The cord supplies the separate, inward centripetal force. To relate
+the tangential acceleration to rotation, substitute $$ a_{\text{t}}=r\alpha $$
+into $$ F=ma_{\text{t}} $$, yielding
 
 <div class="equation">
  $$ F= m r \alpha . $$
@@ -109,9 +110,10 @@ or
 where net $$ \tau $$ is the total torque from all forces relative to a chosen
 axis. For simplicity, we will only consider torques exerted by forces in the
 plane of the rotation. Such torques are either positive or negative and add like
-ordinary numbers. The relationship in $$ \tau =I \alpha , \alpha =\frac{ \text{net τ}}{I} $$ is the rotational analog to Newton’s second law and is very
-generally applicable. This equation is actually valid for
-_any_ torque, applied to _any_ object, relative to _any_ axis.
+ordinary numbers. The relationship in $$ \tau =I \alpha , \alpha =\frac{ \text{net τ}}{I} $$ is the rotational analog to Newton’s second law and applies here to a rigid object rotating about a fixed axis, so that its
+moment of inertia stays constant. If the mass distribution changes—for example,
+when a skater pulls in her arms with negligible external torque—we use
+conservation of angular momentum, introduced later in this chapter.
 
 As we might expect, the larger the torque is, the larger the angular
 acceleration is. For example, the harder a child pushes on a merry-go-round, the
@@ -285,16 +287,17 @@ No. Torque depends on three factors: force magnitude, force direction, and point
 
 - The farther the force is applied from the pivot, the greater is the angular
   acceleration; angular acceleration is inversely proportional to mass.
-- If we exert a force $$ F $$ on a point mass $$ m $$ that is at a distance $$ r $$ from a pivot point and because the force is perpendicular to $$ r $$, an
-  acceleration $$ a = F/m $$ is obtained in the direction of $$ F $$. We can
-  rearrange this equation such that
+- If we exert a force $$ F $$ perpendicular to the radius on a point mass
+  $$ m $$ at a distance $$ r $$ from a pivot point, a
+  tangential acceleration $$ a_{\text{t}} = F/m $$ is obtained in the direction
+  of $$ F $$. We can rearrange this equation such that
   <div class="equation">
-  $$ F = ma, $$
+  $$ F = ma_{\text{t}}, $$
   </div>
 
   and then look for ways to relate this expression to expressions for rotational
-  quantities. We note that $$ a = r\alpha $$, and we substitute this expression
-  into $$ F=ma $$, yielding
+  quantities. We note that $$ a_{\text{t}} = r\alpha $$, and we substitute this expression
+  into $$ F=ma_{\text{t}} $$, yielding
   <div class="equation">
   $$ F=mr\alpha $$
   </div>
@@ -319,8 +322,8 @@ or
     $$ I=\sum m r^{2} . $$
   </div>
 
-- The general relationship among torque, moment of inertia, and angular
-  acceleration is
+- For a rigid object rotating about a fixed axis, the relationship among net
+  torque, moment of inertia, and angular acceleration is
   <div class="equation">
     $$ \tau = I\alpha $$
   </div>

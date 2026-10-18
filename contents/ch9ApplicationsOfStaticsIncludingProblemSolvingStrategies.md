@@ -25,7 +25,7 @@ still apply.
 Problem-Solving Strategy: Static Equilibrium Situations
 </div>
 
-1.  The first step is to determine whether or not the system is in **static equilibrium**. This condition is always the case when the *acceleration of the system is zero and accelerated rotation does not occur*.
+1.  The first step is to determine whether or not the system is in **static equilibrium**. The system must remain *at rest in the chosen frame*, with no linear or angular acceleration.
 2.  It is particularly important to *draw a free body diagram for the system of interest*. Carefully label all forces, and note their relative magnitudes, directions, and points of application whenever these are known.
 3.  Solve the problem by applying either or both of the conditions for equilibrium (represented by the equations
  $$ \text{net}F=0 $$ and $$ \text{net}\tau =0 $$, depending on the
@@ -526,7 +526,7 @@ Parts (a) and (b) show that when the cg is far from the hands (as in Figure 3), 
 {: class="glossary-title"}
 
 static equilibrium
-: equilibrium in which the acceleration of the system is zero and accelerated
-rotation does not occur
+: equilibrium in which a system remains at rest, with zero net external force
+and zero net external torque
 
 ::::

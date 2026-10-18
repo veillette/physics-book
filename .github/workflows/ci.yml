@@ -1,14 +1,16 @@
-# Comprehensive CI workflow for pull requests
+# Comprehensive CI workflow for pull requests and main
 name: CI
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
 
 permissions:
   contents: read
 
-# Cancel redundant CI runs on the same PR
+# Cancel redundant CI runs on the same PR or branch
 concurrency:
   group: ci-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true

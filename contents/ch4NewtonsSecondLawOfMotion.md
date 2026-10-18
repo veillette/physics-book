@@ -33,9 +33,10 @@ interest is the wagon plus the child in it. The two forces exerted by the other
 children are external forces. An internal force acts between elements of the
 system. Again looking at [Figure 1](#Figure1)(a), the force the child in the wagon
 exerts to hang onto the wagon is an internal force between elements of the
-system of interest. Only external forces affect the motion of a system,
-according to Newton’s first law. (The internal forces actually cancel, as we
-shall see in the next section.) _You must define the boundaries of the system
+system of interest. Only external forces change the motion of the system as a whole—more precisely,
+the motion of its center of mass. Internal forces can change how parts of the
+system move relative to each other, but cancel when we add the forces on the
+whole system, as we shall see in the next section. _You must define the boundaries of the system
 before you can determine which forces are external_. Sometimes the system is
 obvious, whereas other times identifying the boundaries of a system is more
 subtle. The concept of a system is fundamental to many areas of physics, as is
@@ -60,7 +61,7 @@ will be discussed in more detail in later sections. For now, we will define
 **friction** as a force that opposes the motion past each other of objects that are
 touching. [Figure 1](#Figure1)(b)
 shows how vectors representing the external forces add together to produce a net
-force, $$ \vb{F}\_{\text{net}} $$.
+force, $$ \vb{F}_{\text{net}} $$.
 
 To obtain an equation for Newton’s second law, we first write the relationship
 of acceleration and net external force as the proportionality.
@@ -69,7 +70,7 @@ of acceleration and net external force as the proportionality.
  $$ \vb{a} \propto \vb{F}_{\text{net}}, $$
 </div>
 
-where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}\_{\text{net}} $$ is the **net external force**. (The net external force is the
+where the symbol $$ \propto $$ means “proportional to,” and $$ \vb{F}_{\text{net}} $$ is the **net external force**. (The net external force is the
 vector sum of all external forces and can be determined graphically, using the
 head-to-tail method, or analytically, using components. The techniques are the
 same as for the addition of other vectors, and are covered
@@ -173,9 +174,9 @@ derive an equation for weight.
 Consider an object with mass $$ m $$ falling downward toward Earth. It
 experiences only the downward force of gravity, which has magnitude $$ w $$.
 Newton’s second law states that the magnitude of the net external force on an
-object is $$ \mag{F}\_{\text{net}}=m \mag{a} $$.
+object is $$ \mag{F}_{\text{net}}=m \mag{a} $$.
 
-Since the object experiences only the downward force of gravity,$$ F\_{\text{net}}=w $$. We know that the acceleration of an object due to gravity is
+Since the object experiences only the downward force of gravity,$$ F_{\text{net}}=w $$. We know that the acceleration of an object due to gravity is
 $$ g $$, or $$ a=g $$. Substituting these into Newton’s second law gives
 
 ::: note {"class":"note","data-label":""}
@@ -1442,9 +1443,9 @@ net external force
 mass to accelerate
 
 Newton’s second law of motion
-: the net external force $$ \vb{F}_{\text{net}} $$ on an object with mass $$ m $$ is proportional to and in the same direction as the acceleration of the
-object, $$ \vb{a} $$, and inversely proportional to the mass; defined
-mathematically as $$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} $$
+: the acceleration of an object is in the direction of the net external force,
+directly proportional to that force, and inversely proportional to the mass;
+$$ \vb{a}=\frac{ \vb{F}_{\text{net}}}{m} $$
 
 system
 : defined by the boundaries of an object or collection of objects being

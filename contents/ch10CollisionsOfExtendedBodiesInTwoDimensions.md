@@ -24,7 +24,7 @@ Consider the relatively simple collision shown in [Figure 2](#Figure2), in which
 disk strikes and adheres to an initially motionless stick nailed at one end to a
 frictionless surface. After the collision, the two rotate about the nail. There
 is an unbalanced external force on the system at the nail. This force exerts no
-torque because its lever arm $$ r $$ is zero. Angular momentum is therefore
+torque because its lever arm $$ r $$ is zero. Angular momentum _about the nail_ is therefore
 conserved in the collision. Kinetic energy is not conserved, because the
 collision is inelastic. It is possible that momentum is not conserved either
 because the force at the nail may have a component in the direction of the
@@ -35,7 +35,7 @@ in [Example 1](#example1).
 {: #Figure1}
 
 ![Figure a shows a disc m sliding toward a motionless stick M of length r pivoted about a nail, on a frictionless surface. In figure b, a disk hits the stick at one end and adheres to it, and the stick rotates, pivoting around the nail in a direction shown by the arrow in the clockwise direction and angular velocity omega.](../resources/Figure_10_06_02.jpg '(a) A disk slides toward a motionless stick on a frictionless surface.
-        (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque.')
+        (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum about the nail is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque about that point.')
 {: #Figure2}
 
 ::: example {"class":"example","id":"example1"}

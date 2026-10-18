@@ -162,7 +162,7 @@ $$F_{\text{net}}= m \ac =m\frac{ v^{2}}{r}.$$
 </div>
 
 The net external force on mass$$m$$is gravity, and so we substitute the
-force of gravity for$$F\_{\text{net}}$$:
+force of gravity for$$F_{\text{net}}$$:
 
 <div class="equation">
  $$G\frac{mM}{ r^{2}}=m\frac{ v^{2}}{r}.$$

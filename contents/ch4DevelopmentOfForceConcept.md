@@ -33,8 +33,9 @@ in [Two-Dimensional Kinematics](./ch3TwoDimensionalKinematics).
 technique used to illustrate all the **external forces** acting on a body. The
 body is represented by a single isolated point (or free body), and only those
 forces acting _on_ the body from the outside (external forces) are shown. (These
-forces are the only ones shown, because only external forces acting on the body
-affect its motion. We can ignore any internal forces within the body.)
+forces determine the motion of the body as a whole. Internal forces can
+deform it or move its parts relative to each other, but are not included in
+this free-body diagram.)
 Free-body diagrams are very useful in analyzing forces acting on a system and
 are employed extensively in the study and application of Newton’s laws of
 motion.
@@ -46,9 +47,9 @@ in [Figure 2](#Figure2), and use the force it exerts to pull itself back to its
 relaxed shape—called a
 _restoring force_—as a standard. The magnitude of all other forces can be stated
 as multiples of this standard unit of force. Many other possibilities exist for
-standard forces. is the magnetic force between two wires carrying electric
-current.) Some alternative definitions of force will be given later in this
-chapter.
+standard forces, including the magnetic force between two wires carrying
+electric current. Some alternative definitions of force will be given later
+in this chapter.
 
 ![(a) A spring of length x, fixed at one end, is shown in horizontal position.
 (b) The same spring is shown pulled by a person by a distance of delta x. The restoring force F restore is represented by an arrow pointing left toward the position where the spring is fixed. (c) A spring balance containing a spring stretched a distance delta x is shown. The restoring force is represented by an arrow F restore pointing toward the left in the direction opposite to the elongation of the spring.](../resources/Figure_04_01_02.jpg 'The force exerted by a stretched spring can be used as a standard unit of force. (a) This spring has a length ( x ) when undistorted.

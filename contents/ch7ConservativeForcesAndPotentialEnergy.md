@@ -67,7 +67,9 @@ where $$ k $$ is the spring’s force constant. The force increases linearly fro
 $$ k x/2 $$. Thus the work done in stretching or compressing the spring is $$ W_{s}=F d =\left(\frac{ k x}{2}\right) x=\frac{1}{2}k x^{2} $$. Alternatively, we noted
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 that the area under a graph of $$ F $$ vs. $$ x $$ is the work done by the
-force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be &lt;div class="equation"&gt; $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
+force. In [Figure 1](#Figure1)(c) we see that this area is also $$ \frac{1}{2}k x^{2} $$. We therefore define the **potential energy of a spring**, $$ \PE_{s} $$, to be
+
+<div class="equation"> $$ \PE_{\s}=\frac{1}{2} k x^{2} , $$
 </div>
 
 where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement
@@ -81,13 +83,15 @@ the final configuration.
 (c) A graph of \( F \) vs. \( x \) has a slope of \( k \) , and the area under the graph is \( \frac{1}{2} k x^2 \). Thus the work done or potential energy stored is \( \frac{1}{2} k x^2 \). ")
 {: #Figure1}
 
-The equation $$ \PE_{s}=\frac{1}{2} k x^{2} $$ has general validity beyond the
-special case for which it was derived. Potential energy can be stored in any
+The spring-energy equation also applies to other elastic systems that obey
+Hooke’s law. Potential energy can be stored in any
 elastic medium by deforming it. Indeed, the general definition of
-**potential energy** is energy due to position, shape, or configuration. For
-shape or position deformations, stored energy is $$ \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the force constant of the particular system and $$ x $$ is
-its deformation. Another example is seen in [Figure 1](#Figure1) for a guitar
-string.
+**potential energy** is energy due to position, shape, or configuration.
+When the restoring force obeys Hooke’s law, the stored energy is $$ \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the force constant of the particular system and $$ x $$ is
+its deformation. For a nonlinear elastic material, the stored energy is
+still the area under the force-versus-deformation curve, but need not equal
+$$ \frac{1}{2}kx^{2} $$. Another example of elastic potential energy is seen
+in [Figure 2](#Figure2) for a guitar string.
 
 ![A six-string guitar is placed vertically. The left-most string is plucked in the left direction with a force F shown by an arrow pointing left. The displacement of the string from the mean position is d. The plucked string is labeled P E sub string, to represent the potential energy of the string.](../resources/Figure_07_04_02.jpg "Work is done to deform the guitar string, giving it potential energy. When released, the potential energy is converted to kinetic energy and back to potential as the string oscillates back and forth. A very small fraction is dissipated as sound energy, slowly removing energy from the string.")
 {: #Figure2 width="10%"}
@@ -111,14 +115,14 @@ If only conservative forces act, then
  $$ W_{\text{net}}=W_{\text{c}}, $$
 </div>
 
-where $$ W\_{c} $$ is the total work done by all conservative forces. Thus,
+where $$ W_{c} $$ is the total work done by all conservative forces. Thus,
 
 <div class="equation">
  $$ W_{\text{c}}=\Delta \KE . $$
 </div>
 
 Now, if the conservative force, such as the gravitational force or a spring
-force, does work, the system loses potential energy. That is, $$ W\_ \text{c}=-\Delta \PE $$. Therefore,
+force, does work, the system loses potential energy. That is, $$ W_ \text{c}=-\Delta \PE $$. Therefore,
 
 <div class="equation">
  $$ -\Delta \PE=\Delta \KE $$
@@ -284,8 +288,8 @@ Energy Skate Park
 - A conservative force is one for which work depends only on the starting and
   ending points of a motion, not on the path taken.
 - We can define potential energy $$ \left(\PE\right) $$ for any conservative
-  force, just as we defined $$ \PE\_{g} $$ for the gravitational force.
-- The potential energy of a spring is $$ \PE\_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement from its
+  force, just as we defined $$ \PE_{g} $$ for the gravitational force.
+- The potential energy of a spring is $$ \PE_{s}=\frac{1}{2}k x^{2} $$, where $$ k $$ is the spring’s force constant and $$ x $$ is the displacement from its
   undeformed position.
 - Mechanical energy is defined to be $$ \KE+\PE $$ for a conservative force.
 - When only conservative forces act on and within a system, the total mechanical

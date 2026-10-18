@@ -54,7 +54,7 @@ nonconservative forces equals the change in the mechanical energy of a system.
 As noted
 in [Kinetic Energy and the Work-Energy Theorem](./ch7KineticEnergyAndTheWorkEnergyTheorem)
 , the work-energy theorem states that the net work on a system equals the change
-in its kinetic energy, or $$ W\_{\text{net}}=\Delta \KE $$. The net work is the
+in its kinetic energy, or $$ W_{\text{net}}=\Delta \KE $$. The net work is the
 sum of the work by nonconservative forces plus the work by conservative forces.
 That is,
 

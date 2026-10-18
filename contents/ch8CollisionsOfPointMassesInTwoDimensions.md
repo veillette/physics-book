@@ -39,7 +39,7 @@ axis parallel to the velocity of the incoming particle, as shown
 in [Figure 1](#Figure1). Because momentum is conserved, the components of momentum
 along the $$ x $$- and $$ y $$-axes $$ \left( p_{x}\text{ and } p_{y}\right) $$
 will also be conserved, but with the chosen coordinate system, $$ p_{y} $$ is
-initially zero and $$ p\_{x} $$ is the momentum of the incoming particle. Both
+initially zero and $$ p_{x} $$ is the momentum of the incoming particle. Both
 facts simplify the analysis. ( Even with the simplifying assumptions of point
 masses, one particle initially at rest, and a convenient coordinate system, we
 still gain new insights into nature from the analysis of two-dimensional
@@ -251,9 +251,9 @@ can both be true only if
 
 There are three ways that this term can be zero. They are
 
-- $$ v^{\prime}\_{1}=0 $$: head-on collision; incoming ball stops
+- $$ v^{\prime}_{1}=0 $$: head-on collision; incoming ball stops
 
-- $$ v^{\prime}\_{2}=0 $$: no collision; incoming ball continues unaffected
+- $$ v^{\prime}_{2}=0 $$: no collision; incoming ball continues unaffected
 
 - $$ \cos\left({\theta_{1}}-{\theta_{2}}\right)=0 $$: angle of separation $$ \left({\theta_{1}}-{\theta_{2}}\right) $$ is $$ 90^\circ $$ after the
   collision
@@ -265,9 +265,9 @@ collision, although it will vary from this value if a great deal of spin is
 placed on the ball. (Large spin carries in extra energy and a quantity called
 _angular momentum_, which must also be conserved.) The assumption that the
 scattering of billiard balls is elastic is reasonable based on the correctness
-of the three results it produces. This assumption also implies that, to a good
-approximation, momentum is conserved for the two-ball system in billiards and
-pool. The problems below explore these and other characteristics of
+of the three results it produces. Momentum is conserved for a separate reason:
+the external impulse on the two-ball system is negligible during the short
+collision. The problems below explore these and other characteristics of
 two-dimensional collisions.
 
 ::: note {"class":"note","data-label":""}

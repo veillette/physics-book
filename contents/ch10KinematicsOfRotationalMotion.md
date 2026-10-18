@@ -33,7 +33,7 @@ for translational, or straight-line, motion:
  $$ v=v_{0}+ at \left(\text{constant } a\right) $$
 </div>
 
-Note that in rotational motion $$ a= a\_{\text{t}} $$, and we shall use the
+Note that in rotational motion $$ a= a_{\text{t}} $$, and we shall use the
 symbol $$ a $$ for tangential or linear acceleration from now on. As in linear
 kinematics, we assume $$ a $$ is constant, which means that angular acceleration
 $$ \alpha $$ is also a constant, because $$ a= r\alpha $$. Now, let us
@@ -49,7 +49,7 @@ The radius $$ r $$ cancels in the equation, yielding
  $$ \omega =\omega_{0} +\alpha t \left(\text{constant } \alpha\right), $$
 </div>
 
-where $$ \omega\_{0} $$ is the initial angular velocity. This last equation is
+where $$ \omega_{0} $$ is the initial angular velocity. This last equation is
 a _kinematic relationship_ among $$ \omega $$, $$ \alpha $$, and $$ t $$ —that
 is, it describes their relationship without reference to forces or masses that
 may affect rotation. It is also precisely analogous in form to its translational
@@ -72,7 +72,9 @@ velocity, and acceleration have direct analogs in rotational motion.
 Starting with the four kinematic equations we developed
 in [One-Dimensional Kinematics](./ch2Kinematics), we can derive the
 following four rotational kinematic equations (presented together with their
-translational counterparts):
+translational counterparts). To keep the equations simple, we choose
+$$ x_{0}=0 $$, $$ \theta_{0}=0 $$, and $$ t_{0}=0 $$, so that $$ x $$ and
+$$ \theta $$ also represent displacements from the starting point.
 
 #### Table: Rotational Kinematic Equations
 
@@ -86,8 +88,10 @@ translational counterparts):
 {: #Table1}
 
 In these equations, the subscript 0 denotes initial values
-($$ \theta_{0} $$, $$ x_{0} $$, and $$ t\_{0} $$ are initial values), and the
-average angular velocity $$ \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as follows:
+($$ \theta_{0} $$, $$ x_{0} $$, and $$ t_{0} $$ are initial values), and the
+average angular velocity $$ \overline{\omega } $$ and average velocity
+$$ \overline{v} $$ can be found from the endpoint values when acceleration
+is constant:
 
 <div class="equation">
  $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}; \overline{v}=\frac{ v_{0}+v}{2} . $$ 
@@ -416,8 +420,10 @@ Rotational kinematics (just like linear kinematics) is descriptive and does not 
   the [One-Dimensional Kinematics](./ch2Kinematics), we can derive
   the four rotational kinematic equations (presented together with their
   translational counterparts) seen in [Table 1](#Table1).
-- In these equations, the subscript 0 denotes initial values ($$ x_{0} $$ and $$ t_{0} $$ are initial values), and the average angular velocity $$ \overline{\omega } $$ and average velocity $$ \overline{v} $$ are defined as
-  follows:
+- In these equations, the subscript 0 denotes initial values. We choose the
+  initial position, angle, and time to be zero. For constant acceleration, the
+  average angular velocity $$ \overline{\omega } $$ and average velocity
+  $$ \overline{v} $$ are
   <div class="equation">
   $$ \overline{\omega }=\frac{ \omega_{0} +\omega }{2}\text{ and }\overline{v}=\frac{ v_{0}+v}{2}. $$ 
   </div>

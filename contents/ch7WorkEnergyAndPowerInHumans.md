@@ -110,7 +110,7 @@ assuming the energy content of fat to be 39 kJ/g.
 
 :::
 
-![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person’s wrist, and the index finger is inside the clip.](../resources/Figure_07_08_02.jpg 'A pulse oxymeter is an apparatus that measures the amount of oxygen in blood. Oxymeters can be used to determine a person’s metabolic rate, which is the rate at which food energy is converted to another form. Such measurements can indicate the level of athletic conditioning as well as certain medical problems. (credit: UusiAjaja, Wikimedia Commons)')
+![A person is measuring the amount of oxygen in blood and metabolic rate using a pulse oxymeter. The pulse oxymeter is strapped to the person’s wrist, and the index finger is inside the clip.](../resources/Figure_07_08_02.jpg 'A pulse oximeter estimates blood oxygen saturation and pulse rate. It does not measure how quickly the body consumes oxygen. Estimating metabolic rate from oxygen use requires measuring the gases a person breathes in and out. (credit: UusiAjaja, Wikimedia Commons)')
 {: #Figure2}
 
 #### Table 2: Energy and Oxygen Consumption Rates

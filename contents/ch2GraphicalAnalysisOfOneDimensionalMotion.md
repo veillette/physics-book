@@ -47,13 +47,13 @@ vertical axis and $$ t $$ on the horizontal axis. [Figure 2](#Figure2) is just s
 a straight-line graph. It shows a graph of position versus time for a
 jet-powered car on a very flat dry lake bed in Nevada.
 
-![Line graph of jet car displacement in meters versus time in seconds. The line is straight with a positive slope. The y intercept is four hundred meters. The total change in time is eight point zero seconds. The initial position is four hundred meters. The final position is two thousand meters.](../resources/Figure_02_08_02.jpg 'Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
+![Graph of jet car position in meters versus time in seconds. A straight line with a positive slope passes through four hundred meters at zero seconds, five hundred twenty-five meters at zero point five zero seconds, and two thousand meters at six point four zero seconds.](../resources/Figure_02_08_02.jpg 'Graph of position versus time for a jet-powered car on the Bonneville Salt Flats.
 ')
 {: #Figure2}
 
 Using the relationship between dependent and independent variables, we see that
 the slope in the graph above is average velocity $$ \overline{v} $$ and the
-intercept is position at time zero—that is, $$ x\_{0} $$. Substituting these
+intercept is position at time zero—that is, $$ x_{0} $$. Substituting these
 symbols into $$ y= mx+b $$ gives
 
 <div class="equation">
@@ -87,7 +87,7 @@ in [Motion Equations for Constant Acceleration in One Dimension](./ch2MotionEqua
 
 :::
 
-From the figure we can see that the car has a position of 25 m at 0.50 s and
+From the figure we can see that the car has a position of 525 m at 0.50 s and
 2000 m at 6.40 s. Its position at other times can be read from the graph;
 furthermore, information about its velocity and acceleration can also be
 obtained from the graph.

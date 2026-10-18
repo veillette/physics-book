@@ -23,14 +23,14 @@ same as the direction of centripetal acceleration. According to Newton’s secon
 law of motion, net force is mass times acceleration:
 $$\vb{F}_\text{net} =m \vb{a}$$. For uniform circular motion, the acceleration
 is the centripetal acceleration—$$\vb{a}=\vb{a}_\text{c}$$. Thus, the magnitude
-of centripetal force$$\mag{F\_\text{c} }$$is
+of centripetal force$$\mag{F_\text{c} }$$is
 
 <div class="equation">
 $$\mag{F_\text{c}} = m \mag{ \ac }.$$
 </div>
 
 By using the expressions for the magnitude of the centripetal acceleration $$\mag{ \ac }$$ from $$\ac=\frac{v^{2}}{r}; \ac =r \omega^{2}$$, we get two
-expressions for the magnitude of the centripetal force $$\mag{F\_\text{c}}$$
+expressions for the magnitude of the centripetal force $$\mag{F_\text{c}}$$
 in terms of mass, velocity, angular velocity, and radius of curvature:
 
 <div class="equation">
@@ -273,7 +273,7 @@ Ask a friend or relative to swing a golf club or a tennis racquet. Take appropri
 
 ### Section Summary
 
-- Centripetal force$$\vb{F}\_\text{c}$$is any force causing uniform circular
+- Centripetal force$$\vb{F}_\text{c}$$is any force causing uniform circular
   motion. It is a “center-seeking” force that always points toward the center of
   rotation. It is perpendicular to linear velocity$$v$$and has magnitude
 
@@ -1014,8 +1014,8 @@ between the tires and the road; the net external force on the vehicle equals the
 horizontal centripetal force in the absence of friction
 
 ideal speed
-: the maximum safe speed at which a vehicle can turn on a curve without the aid
-of friction between the tire and the road
+: the speed at which a vehicle can follow a curve of a given radius and bank
+angle without needing friction between the tires and the road
 
 ideal angle
 : the angle at which a car can turn safely on a steep curve, which is in

@@ -22,8 +22,8 @@ only by the accuracy and precision with which physical quantities are known.
 
 ### Resolving a Vector into Perpendicular Components
 
-Analytical techniques and right triangles go hand-in-hand in physics because (
-among other things) motions along perpendicular directions are independent. We
+Analytical techniques and right triangles go hand-in-hand in physics because
+vectors can be resolved into perpendicular components. We
 very often need to separate a vector into perpendicular components. For example,
 given a vector like $$ \vb{A} $$ in [Figure 1](#Figure1), we may wish to find which
 two perpendicular vectors, $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$, add to produce
@@ -41,7 +41,7 @@ $$ \vb{A}_{x} $$ and $$ \vb{A}_{y} $$ are defined to be the components of $$ \vb
 Note that this relationship between vector components and the resultant vector
 holds only for vector quantities (which include both magnitude and direction).
 The relationship does not apply for the magnitudes alone. For example, if $$ \vb{A}_{x}=3 \m $$ east, $$ \vb{A}_{y}=4 \m $$ north, and $$ \vb{A}=5 \m $$
-north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}\_{y} =\vb{A} $$
+north-east, then it is true that the vectors $$ \vb{A}_{x} +\vb{A}_{y} =\vb{A} $$
 
 . However, it is
 **not** true that the sum of the magnitudes of the vectors is also equal. That
@@ -61,6 +61,8 @@ If the vector $$ \vb{A} $$ is known, then its magnitude $$ A $$
 (its length) and its angle $$ \theta $$
 (its direction) are known. To find $$ A_{x} $$ and $$ A_{y} $$, its **x**-
 and **y**-components, we use the following relationships for a right triangle.
+These scalar components include signs: a negative component points opposite
+the positive direction of its axis.
 
 <div class="equation">
  $$ A_{x}=A\cos{\theta} $$
@@ -190,7 +192,7 @@ and
  $$ R_{y}= A_{y}+B_{y}. $$
 </div>
 
-![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The vectors A and B are resolved into the horizontal and vertical components shown as dotted lines parallel to x axis and y axis respectively. The horizontal components of vector A and vector B are labeled as A sub x and B sub x and the horizontal component of the resultant R is labeled at R sub x and is equal to A sub x plus B sub x. The vertical components of vector A and vector B are labeled as A sub y and B sub y and the vertical components of the resultant R is labeled as R sub y is equal to A sub y plus B sub y.](../resources/Figure_03_03_07.jpg 'The magnitude of the vectors ( A_x ) and ( B_x ) add to give the magnitude ( R_x ) of the resultant vector in the horizontal direction. Similarly, the magnitudes of the vectors ( A_y ) and ( B_y ) add to give the magnitude ( R_y ) of the resultant vector in the vertical direction.')
+![Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The vectors A and B are resolved into the horizontal and vertical components shown as dotted lines parallel to x axis and y axis respectively. The horizontal components of vector A and vector B are labeled as A sub x and B sub x and the horizontal component of the resultant R is labeled at R sub x and is equal to A sub x plus B sub x. The vertical components of vector A and vector B are labeled as A sub y and B sub y and the vertical components of the resultant R is labeled as R sub y is equal to A sub y plus B sub y.](../resources/Figure_03_03_07.jpg 'The signed components ( A_x ) and ( B_x ) add to give ( R_x ), the horizontal component of the resultant. Similarly, ( A_y ) and ( B_y ) add to give ( R_y ), its vertical component.')
 {: #Figure7}
 
 Components along the same axis, say the **x**-axis, are vectors along the same
@@ -386,15 +388,15 @@ Vector Addition
   horizontal and vertical components of each vector using the equations
 
   <div class="equation">
-  $$ \begin{array}{lll} A_{x}&=& A\cos{\theta} \\ B_{x}&=& B\cos{\theta} \end{array} $$ 
+  $$ \begin{array}{lll} A_{x}&=& A\cos{\theta_{\text{A}}} \\ B_{x}&=& B\cos{\theta_{\text{B}}} \end{array} $$
   </div>
 
 and
 
   <div class="equation">
   $$ \begin{array}{lll}
-  A_{y}&=& A\sin{\theta} \\ 
-  B_{y}&=& B\sin{\theta} .
+  A_{y}&=& A\sin{\theta_{\text{A}}} \\
+  B_{y}&=& B\sin{\theta_{\text{B}}} .
   \end{array} $$
   </div>
 

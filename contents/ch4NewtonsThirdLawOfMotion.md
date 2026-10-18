@@ -55,7 +55,7 @@ that we could investigate: the swimmer or the wall. If we select the swimmer to
 be the system of interest, as in the figure, then $$ \vb{F}_{\text{wall on feet}} $$ is an external force on this system and affects its
 motion. The swimmer moves in the direction of $$ \vb{F}_{\text{wall on feet}} $$. In contrast, the force $$ \vb{F}_{\text{feet on wall}} $$ acts on the wall
 and not on our system of interest. Thus $$ \vb{F}_{\text{feet on wall}} $$ does
-not directly affect the motion of the system and does not cancel $$ \vb{F}\_{\text{wall on feet}} $$. Note that the swimmer pushes in the direction opposite
+not directly affect the motion of the system and does not cancel $$ \vb{F}_{\text{wall on feet}} $$. Note that the swimmer pushes in the direction opposite
 to that in which she wishes to move. The reaction to her push is thus in the
 desired direction.
 
@@ -80,7 +80,7 @@ reaction force. Birds and airplanes also fly by exerting force on air in a
 direction opposite to that of whatever force they need. For example, the wings
 of a bird force air downward and backward in order to get lift and move forward.
 An octopus propels itself in the water by ejecting water through a funnel from
-its body, similar to a jet ski. In a situation similar to Sancho’s, professional
+its body, similar to a jet ski. Professional
 cage fighters experience reaction forces when they punch, sometimes breaking
 their hand by hitting an opponent’s body.
 

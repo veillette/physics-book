@@ -47,7 +47,7 @@ Using the definition of impulse, the change in momentum of car 1 is given by
  $$ \Delta p_{1}= F_{1}\Delta t, $$
 </div>
 
-where $$ F\_{1} $$ is the force on car 1 due to car 2, and $$ \Delta t $$ is the
+where $$ F_{1} $$ is the force on car 1 due to car 2, and $$ \Delta t $$ is the
 time the force acts (the duration of the collision). Intuitively, it seems
 obvious that the collision time is the same for both cars, but it is only true
 for objects traveling at ordinary speeds. This assumption must be modified for
@@ -62,7 +62,7 @@ Similarly, the change in momentum of car 2 is
 
 where $$ F_{2} $$ is the force on car 2 due to car 1, and we assume the duration
 of the collision $$ \Delta t $$ is the same for both cars. We know from Newton’s
-third law that $$ F_{2}=- F\_{1} $$, and so
+third law that $$ F_{2}=- F_{1} $$, and so
 
 <div class="equation">
  $$ \Delta  p_{2}=- F_{1}\Delta t=-\Delta  p_{1}. $$
@@ -107,7 +107,7 @@ where $$ \vb{p}_{\text{tot}} $$ is the total momentum (the sum of the momenta of
 the individual objects in the system) and $$ {\vb{p}^{\prime} }_{\text{tot}} $$
 is the total momentum some time later. (The total momentum can be shown to be
 the momentum of the center of mass of the system.) An **isolated system** is
-defined to be one for which the net external force is zero $$ \left(\vb{F}\_{\text{net}}=0\right). $$
+defined to be one for which the net external force is zero $$ \left(\vb{F}_{\text{net}}=0\right). $$
 
 <div class="note" data-label="">
 <div class="title">
@@ -255,7 +255,7 @@ or
 $$ \vb{p}_{\text{tot}} $$ is the initial total momentum and $$ {\vb{p}^{\prime} }_{\text{tot}} $$ is the total momentum some time later.
 
 - An isolated system is defined to be one for which the net external force is
-  zero $$ \left( \vb{F}\_{\text{net}}=0\right). $$
+  zero $$ \left( \vb{F}_{\text{net}}=0\right). $$
 - During projectile motion and where air resistance is negligible, momentum is
   conserved in the horizontal direction because horizontal forces are zero.
 - Conservation of momentum applies only when the net external force is zero.

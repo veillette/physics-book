@@ -39,7 +39,7 @@ centrifuge, also has a rather large angular momentum.
 Making Connections
 </div>
 
-Angular momentum is completely analogous to linear momentum, first presented in [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation). It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.
+Angular momentum is completely analogous to linear momentum, first presented in [Linear Momentum and Force](./ch8LinearMomentumAndForce). It has the same implications in terms of carrying rotation forward, and it is conserved when the net external torque is zero. Angular momentum, like linear momentum, is also a property of the atoms and subatomic particles.
 
 :::
 
@@ -110,7 +110,8 @@ and angular momentum is
 
 This expression is exactly analogous to the relationship between force and
 linear momentum, $$ F=\Delta p/\Delta t $$. The equation $$ \text{net}\tau =\frac{ \Delta L}{\Delta t} $$ is very fundamental and broadly applicable. It
-is, in fact, the rotational form of Newton’s second law.
+is, in fact, the rotational form of Newton’s second law. Over a finite
+time interval, the torque in this equation is the average net external torque.
 
 ::: example
 
@@ -468,7 +469,7 @@ an even larger cloud. Gravitational forces caused the cloud to contract, and the
 rotation rate increased as a result. (
 See [Figure 4](#Figure4).)
 
-![The first figure shows a cloud of dust and gas,which is in the shape of a distorted circle, rotating in anti-clockwise direction with an angular velocity omega, indicated by a curved black arrow, and having an angular momentum L. The second figure shows an elliptical cloud of dust with the Sun in the middle of it, rotating in anti-clockwise direction with an angular velocity omega dash, indicated by a curved black arrow, and having an angular momentum L. The third figure depicts the Solar System, with the Sun in the middle of it and the various planets revolve around it in their respective elliptical orbits in anti-clockwise direction, which is indicated by arrows. The angular momentum remains L.](../resources/Figure_10_05_04.jpg 'The Solar System coalesced from a cloud of gas and dust that was originally rotating. The orbital motions and spins of the planets are in the same direction as the original spin and conserve the angular momentum of the parent cloud.')
+![The first figure shows a cloud of dust and gas,which is in the shape of a distorted circle, rotating in anti-clockwise direction with an angular velocity omega, indicated by a curved black arrow, and having an angular momentum L. The second figure shows an elliptical cloud of dust with the Sun in the middle of it, rotating in anti-clockwise direction with an angular velocity omega dash, indicated by a curved black arrow, and having an angular momentum L. The third figure depicts the Solar System, with the Sun in the middle of it and the various planets revolve around it in their respective elliptical orbits in anti-clockwise direction, which is indicated by arrows. The angular momentum remains L.](../resources/Figure_10_05_04.jpg 'The Solar System coalesced from a cloud of gas and dust that was originally rotating. The planets orbit in the direction of the cloud’s original rotation. Most also spin in that direction, although Venus is a notable exception. The total angular momentum of the system is conserved even when individual objects exchange angular momentum.')
 {: #Figure4}
 
 In case of human motion, one would not expect angular momentum to be conserved

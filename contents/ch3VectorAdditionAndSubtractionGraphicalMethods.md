@@ -30,8 +30,8 @@ an example the total displacement for the person walking in a city considered
 in [Kinematics in Two Dimensions: An Introduction](./ch3KinematicsInTwoDimensionsAnIntroduction)
 . We shall use the notation that a boldface symbol, such as $$\vb{D}$$, stands
 for a vector. Its magnitude is represented by the symbol, $$\mag{D}$$, and its
-direction by $$\theta$$. The magnitude can also represented in italics as $$D$$
-when the context is clear. We will used this shorthand notation from time to
+direction by $$\theta$$. The magnitude can also be represented in italics as $$D$$
+when the context is clear. We will use this shorthand notation from time to
 time in this textbook.
 
 :::: note {"class":"note","data-label":""}
@@ -198,14 +198,14 @@ Essentially, we just flip the vector so it points in the opposite direction.
 The **subtraction** of vector $$\vb{B}$$ from vector $$\vb{A}$$ is then
 simply defined to be the addition of $$-\vb{B}$$ to $$\vb{A}$$. Note that
 vector subtraction is the addition of a negative vector. The order of
-subtraction does not affect the results.
+subtraction matters: reversing the order reverses the resultant vector.
 
 <div class="equation">
  $$\vb{A} - \vb{B} = \vb{A} + \left( -\vb{B} \right).$$
 </div>
 
-This is analogous to the subtraction of scalars (where, for example,$$5 - 2 = 5 + \left( -2 \right)$$). Again, the result is independent of the order in
-which the subtraction is made. When vectors are subtracted graphically, the
+This is analogous to the subtraction of scalars (where, for example,$$5 - 2 = 5 + \left( -2 \right)$$). For example, $$5 - 2 = 3$$, but $$2 - 5 = -3$$. The same change
+of sign occurs when the order of vector subtraction is reversed. When vectors are subtracted graphically, the
 techniques outlined above are used, as the following example illustrates.
 
 :::: example {"class":"example","id":"example2"}
@@ -297,7 +297,9 @@ In our case, $$c=3$$ and $$A=\mag{A}=27.5 \m$$. Vectors are multiplied by
 scalars in many situations. Note that division is the inverse of multiplication.
 For example, dividing by 2 is the same as multiplying by the value (1/2). The
 rules for multiplication of vectors by scalars are the same for division; simply
-treat the divisor as a scalar between 0 and 1.
+multiply by the reciprocal of the nonzero divisor. For example, dividing by
+$$-2$$ is multiplying by $$-1/2$$, which halves the magnitude and reverses
+the direction.
 
 ### Resolving a Vector into Components
 
@@ -360,7 +362,7 @@ Maze Game
   $$\vb{R}$$.
 * Addition of vectors is **commutative** such that
 
-\vb{A}+\vb{B}=\vb{B}+\vb{A}$$.$$
+$$\vb{A}+\vb{B}=\vb{B}+\vb{A}$$.
 
 - The **head-to-tail method** of adding vectors involves drawing the first
   vector on a graph and then placing the tail of each subsequent vector at the

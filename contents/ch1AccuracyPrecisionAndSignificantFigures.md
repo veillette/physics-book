@@ -29,9 +29,8 @@ measurements are quite accurate because they are very close to the correct value
 of 11.0 inches. In contrast, if you had obtained a measurement of 12 inches,
 your measurement would not be very accurate.
 
-The **precision** of a measurement system is refers to how close the agreement
-is between repeated measurements (
-which are repeated under the same conditions). Consider the example of the paper
+The **precision** of a measurement system refers to how closely repeated
+measurements agree when made under the same conditions. Consider the example of the paper
 measurements. The precision of the measurements refers to the spread of the
 measured values. One way to analyze the precision of the measurements would be
 to determine the range, or difference, between the lowest and the highest
@@ -1361,9 +1360,9 @@ accuracy
 measurement
 
 method of adding percents
-: the percent uncertainty in a quantity calculated by multiplication or division
-is the sum of the percent uncertainties in the items used to make the
-calculation
+: a method that adds the percent uncertainties of quantities being multiplied
+or divided to give an approximate, conservative estimate of the result’s
+percent uncertainty
 
 percent uncertainty
 : the ratio of the uncertainty of a measurement to the measured value, expressed
@@ -1376,7 +1375,7 @@ significant figures
 : express the precision of a measuring tool used to measure a value
 
 uncertainty
-: a quantitative measure of how much your measured values deviate from a
-standard or expected value
+: an estimate of the range of values within which the measured quantity is
+likely to lie
 
 ::::

@@ -204,7 +204,7 @@ Investigate collisions on an air hockey table. Set up your own experiments: vary
 
 <iframe loading="lazy" src="https://phet.colorado.edu/sims/html/collision-lab/latest/collision-lab_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
-Masses and Springs
+Collision Lab
 </figcaption>
 
 :::

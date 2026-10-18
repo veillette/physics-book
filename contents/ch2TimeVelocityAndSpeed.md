@@ -124,7 +124,7 @@ velocity becomes the _instantaneous velocity_ or the _velocity at a specific
 instant_. A car’s speedometer, for example, shows the magnitude (but not the
 direction) of the instantaneous velocity of the car. (Police give tickets based
 on instantaneous velocity, but when calculating how long it will take to get
-from one place to another on a road trip, you need to use average velocity.)
+from one place to another on a road trip, use the route length and average speed.)
 **Instantaneous velocity** $$ v $$ is the average velocity at a specific instant
 in time (or over an infinitesimally small time interval).
 

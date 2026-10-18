@@ -54,7 +54,7 @@ magnitude of the force, and $$ \theta $$ is the angle between the force and the
 vector directed from the point of application to the pivot point, as seen
 in [Figure 1](#Figure1)
 and [Figure 2](#Figure2). An alternative expression for torque is given in terms of
-the **perpendicular lever arm** $$ r\_{\perp } $$ as shown in [Figure 1](#Figure1)
+the **perpendicular lever arm** $$ r_{\perp } $$ as shown in [Figure 1](#Figure1)
 and [Figure 2](#Figure2), which is defined as
 
 <div class="equation">
@@ -109,8 +109,8 @@ is calculated. The point can be the physical pivot point of a system or any
 other point in space—but it must be the same point for all torques. If the
 second condition (net external torque on a system is zero) is satisfied for one
 choice of pivot point, it will also hold true for any other choice of pivot
-point in or out of the system of interest. (This is true only in an inertial
-frame of reference.) The second condition necessary to achieve equilibrium is
+point in or out of the system of interest, provided the first condition
+$$ \text{net}\vb{F}=0 $$ also holds. We work in an inertial frame of reference. The second condition necessary to achieve equilibrium is
 stated in equation form as
 
 <div class="equation">

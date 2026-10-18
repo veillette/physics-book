@@ -45,8 +45,9 @@ extension $$ \Delta L $$ of a spring or of a human bone. For metals or springs,
 the straight line region in which Hooke’s law pertains is much larger. Bones are
 brittle and the elastic region is small and the fracture abrupt. Eventually a
 large enough stress to the material will cause it to break or fracture.
-**Tensile strength** is the breaking stress that will cause permanent deformation
-or fracture of a material.
+**Tensile strength** is the greatest tensile stress a material can withstand.
+Permanent deformation can begin at a smaller stress, called the **yield strength**,
+before the material breaks.
 
 :::: note {"class":"note","data-label":""}
 
@@ -69,7 +70,7 @@ object and the direction of the force.
 
 ::::
 
-![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg 'A graph of deformation ( \\Delta L ) versus applied force ( F ) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is ( k ). For larger forces, the graph is curved but the deformation is still elastic— ( \\Delta L ) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force ( F ) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in ( F ) is producing a large increase in ( L ) near the fracture.')
+![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg 'A graph of deformation ( \\Delta L ) versus applied force ( F ) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is ( 1/k ). For larger forces, the graph is curved but the deformation is still elastic— ( \\Delta L ) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force ( F ) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in ( F ) is producing a large increase in ( L ) near the fracture.')
 {: #Figure1}
 
 The proportionality constant $$ k $$ depends upon a number of factors for the
@@ -106,7 +107,7 @@ otherwise stated.
 ### Changes in Length—Tension and Compression: Elastic Modulus
 
 A change in length $$ \Delta L $$ is produced when a force is applied to a wire
-or rod parallel to its length $$ L\_{0} $$, either stretching it (a tension) or
+or rod parallel to its length $$ L_{0} $$, either stretching it (a tension) or
 compressing it. (
 See [Figure 3](#Figure3).)
 
@@ -117,7 +118,7 @@ Experiments have shown that the change in length ( $$ \Delta L $$)
 depends on only a few variables. As already noted, $$ \Delta L $$ is
 proportional to the force $$ F $$ and depends on the substance from which the
 object is made. Additionally, the change in length is proportional to the
-original length $$ L\_{0} $$ and inversely proportional to the cross-sectional
+original length $$ L_{0} $$ and inversely proportional to the cross-sectional
 area of the wire or rod. For example, a long guitar string will stretch more
 than a short one, and a thick string will stretch less than a thin one. We can
 combine all these factors into one equation for $$ \Delta L $$:
@@ -313,7 +314,7 @@ following form:
 
 The ratio of force to area, $$ \frac{F}{A} $$, is defined as **stress** (
 measured in $$ \text{N/m}^{2} $$ ), and the ratio of the change in length to
-length, $$ \frac{ \Delta L}{ L\_{0}} $$, is defined as
+length, $$ \frac{ \Delta L}{ L_{0}} $$, is defined as
 **strain**
 (a unitless quantity). In other words,
 
@@ -369,7 +370,7 @@ is defined as strain (a unitless quantity). In other words,
 
 [Figure 6](#Figure6) illustrates what is meant by a sideways stress or a _shearing
 force_. Here the deformation is called $$ \Delta x $$ and it is perpendicular to
-$$ L\_{0} $$, rather than parallel as with tension and compression. Shear
+$$ L_{0} $$, rather than parallel as with tension and compression. Shear
 deformation behaves similarly to tension and compression and can be described
 with similar equations. The expression for
 **shear deformation** is
@@ -379,14 +380,14 @@ with similar equations. The expression for
 </div>
 
 where $$ S $$ is the shear modulus (
-see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L\_{0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
+see [Table 1](#Table1)) and $$ F $$ is the force applied perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$. Again, to keep the
 object from accelerating, there are actually two equal and opposite forces $$ F $$
 
 applied across opposite faces, as illustrated in [Figure 6](#Figure6). The
-equation is logical—for example, it is easier to bend a long thin pencil (small
-$$ A $$ )
-than a short thick one, and both are more easily bent than similar steel rods (
-large $$ S $$ ).
+equation shows that, for the same material and applied force, a taller block
+undergoes a greater sideways displacement than a shorter one with the same
+cross-sectional area. A larger area or a larger shear modulus reduces this
+deformation.
 
 :::: note {"class":"note","data-label":""}
 
@@ -511,7 +512,9 @@ forces in them oppose this compression.
 We can describe the compression or volume deformation of an object with an
 equation. First, we note that a force “applied evenly” is defined to have the
 same stress, or ratio of force to area $$ \frac{F}{A} $$ on all surfaces. The
-deformation produced is a change in volume $$ \Delta V $$, which is found to
+deformation produced is a decrease in volume. Here $$ \Delta V $$ denotes the
+positive amount by which the volume decreases, rather than final volume minus
+initial volume. This decrease is found to
 behave very similarly to the shear, tension, and compression previously
 discussed. (This is not surprising, since a compression of the entire object is
 equivalent to compressing each of its three dimensions.) The relationship of the
@@ -630,11 +633,11 @@ as
   </div>
 
 where $$ Y $$ is _Young’s modulus_, which depends on the substance, $$ A $$ is
-the cross-sectional area, and $$ L\_{0} $$ is the original length.
+the cross-sectional area, and $$ L_{0} $$ is the original length.
 
 - The ratio of force to area, $$ \frac{F}{A} $$, is defined as *stress*,
   measured in $$\text{N/m}^2$$.
-- The ratio of the change in length to length, $$ \frac{ \Delta L}{ L\_{0}} $$,
+- The ratio of the change in length to length, $$ \frac{ \Delta L}{ L_{0}} $$,
   is defined as _strain_ (a unitless quantity). In other words,
   <div class="equation">
     $$ \text{stress}=Y \times \text{strain}. $$
@@ -646,15 +649,15 @@ the cross-sectional area, and $$ L\_{0} $$ is the original length.
   </div>
 
 where $$ S $$ is the shear modulus and $$ F $$ is the force applied
-perpendicular to $$ L\_{0} $$ and parallel to the cross-sectional area $$ A $$.
+perpendicular to $$ L_{0} $$ and parallel to the cross-sectional area $$ A $$.
 
-- The relationship of the change in volume to other physical quantities is given
+- The decrease in volume, written as a positive amount $$ \Delta V $$, is given
   by
   <div class="equation">
     $$ \Delta V=\frac{1}{B}\frac{F}{A} V_{0}, $$
   </div>
 
-where $$ B $$ is the bulk modulus, $$ V\_{0} $$ is the original volume, and $$ \frac{ F}{A} $$ is the force per unit area applied uniformly inward on all
+where $$ B $$ is the bulk modulus, $$ V_{0} $$ is the original volume, and $$ \frac{ F}{A} $$ is the force per unit area applied uniformly inward on all
 surfaces.
 
 ### Conceptual Questions
@@ -1557,8 +1560,7 @@ Hooke’s law
 deformation $$ \Delta L $$ it causes, $$ F=k\Delta L $$
 
 tensile strength
-: the breaking stress that will cause permanent deformation or fraction of a
-material
+: the greatest tensile stress a material can withstand
 
 stress
 : ratio of force to area

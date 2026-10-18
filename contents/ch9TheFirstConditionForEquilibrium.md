@@ -171,8 +171,8 @@ This is analogous to dynamic equilibrium for linear motion. Just as a car moving
 {: class="glossary-title"}
 
 static equilibrium
-: a state of equilibrium in which the net external force and torque acting on a
-system is zero
+: a state in which a system remains at rest and the net external force and
+net external torque are zero
 
 dynamic equilibrium
 : a state of equilibrium in which the net external force and torque on a system

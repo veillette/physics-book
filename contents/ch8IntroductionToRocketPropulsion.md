@@ -159,7 +159,7 @@ that $$ v $$ is actually the change in velocity, so the equation can be used for
 any segment of the flight. If we start from rest, the change in velocity equals
 the final velocity.) For example, let us calculate the mass ratio needed to
 escape Earth’s gravity starting from rest, given that the escape velocity from
-Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust velocity $$ v\_{\text{e}}=2.5\times 10^{3} \ms $$.
+Earth is about $$ 11.2\times 10^{3} \ms $$, and assuming an exhaust velocity $$ v_{\text{e}}=2.5\times 10^{3} \ms $$.
 
 <div class="equation">
  $$ \ln \frac{ m_{0}}{ m_{\text{r}}}=\frac{v}{ v_{\text{e}}}=\frac{11.2\times 10^{3} \ms }{2.5\times 10^{3} \ms }=4.48 $$
@@ -226,7 +226,7 @@ html" width="600" height="450"  allowfullscreen></iframe>
 
 - Newton’s third law of motion states that to every action, there is an equal
   and opposite reaction.
-- Acceleration of a rocket is $$ a=\frac{ v\_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
+- Acceleration of a rocket is $$ a=\frac{ v_{\text{e}}}{m}\frac{ \Delta m}{\Delta t}-g $$.
 - A rocket’s acceleration depends on three main factors. They are
   1. The greater the exhaust velocity of the gases, the greater the
      acceleration.

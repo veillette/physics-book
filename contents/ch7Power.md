@@ -123,9 +123,8 @@ See [Table 1](#Table1) for some examples.) Sunlight reaching Earth’s surface
 carries a maximum power of about 1.3 kilowatts per square meter $$ \left( {\text{kW/m} }^{2}\right)$$. A tiny fraction of this is retained by Earth over
 the long term. Our consumption rate of fossil fuels is far greater than the rate
 at which they are stored, so it is inevitable that they will be depleted. Power
-implies that energy is transferred, perhaps changing form. It is never possible
-to change one form completely into another without losing some of it as thermal
-energy. For example, a 60-W incandescent bulb converts only 5 W of electrical
+implies that energy is transferred, perhaps changing form. Real devices usually convert some of their input energy into
+thermal energy that is not useful for their intended purpose. For example, a 60-W incandescent bulb converts only 5 W of electrical
 power to light, with 55 W dissipating into thermal energy. Furthermore, the
 typical electric power plant converts only 35 to 40% of its fuel into
 electricity. The remainder becomes a huge amount of thermal energy that must be
@@ -232,10 +231,9 @@ over four times more light per watt of power consumed than its incandescent
 cousin.
 
 Modern civilization depends on energy, but current levels of energy consumption
-and production are not sustainable. The likelihood of a link between global
-warming and fossil fuel use (with its concomitant production of carbon dioxide),
-has made reduction in energy use as well as a shift to non-fossil fuels of the
-utmost importance. Even though energy in an isolated system is a conserved
+and production are not sustainable. Greenhouse gases released by human activities, chiefly the
+burning of fossil fuels, are causing global warming. This makes reducing energy
+use and shifting to non-fossil sources important. Even though energy in an isolated system is a conserved
 quantity, the final result of most energy transformations is waste heat transfer
 to the environment, which is no longer useful for doing work.
 

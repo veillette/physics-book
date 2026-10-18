@@ -61,7 +61,7 @@ using energy (if possible) rather than explicitly using forces.
 {: #Figure1}
 
 More precisely, we define the *change* in gravitational potential energy
-$$ \Delta \PE\_{\text{g}} $$ to be
+$$ \Delta \PE_{\text{g}} $$ to be
 
 <div class="equation">
 $$\Delta \PE_{\text{g}}=mgh ,$$
@@ -88,7 +88,7 @@ gravity that does the work_.
 
 ### Using Potential Energy to Simplify Calculations
 
-The equation$$\Delta \PE\_{\text{g}}=mgh$$applies for any path that has a
+The equation$$\Delta \PE_{\text{g}}=mgh$$applies for any path that has a
 change in height of$$h$$, not just when the mass is lifted straight up. (
 See [Figure 2](#Figure2).) It is much easier to calculate$$mgh$$
 (a simple multiplication) than it is to calculate the work done along a
@@ -310,7 +310,7 @@ One can study the conversion of gravitational potential energy into kinetic ener
   $$\Delta \PE_{g}=mgh$$, with$$h$$being the increase in height and$$g$$the acceleration due to gravity.
 - The gravitational potential energy of an object near Earth’s surface is due to
   its position in the mass-Earth system. Only differences in gravitational
-  potential energy,$$\Delta \PE\_{g}$$, have physical significance.
+  potential energy,$$\Delta \PE_{g}$$, have physical significance.
 - As an object descends without friction, its gravitational potential energy
   changes into kinetic energy corresponding to increasing speed, so that$$\Delta \KE=-\Delta \PE_{\text{g}}$$.
 

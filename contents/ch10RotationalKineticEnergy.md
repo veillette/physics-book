@@ -25,7 +25,7 @@ sound, vibration, and considerable **rotational kinetic energy** .
 
 Work must be done to rotate objects such as grindstones or merry-go-rounds. Work
 was defined
-in [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation)
+in [Work: The Scientific Definition](./ch7WorkTheScientificDefinition)
 for translational motion, and we can build on that knowledge when considering
 work done in rotational motion. The simplest rotational situation is one in
 which the net force is exerted perpendicular to the radius of a disk (as shown
@@ -77,7 +77,7 @@ algebraic manipulations. The first step is to note that $$ \text{net τ}=I\alpha
 Making Connections
 </div>
 
-Work and energy in rotational motion are completely analogous to work and energy in translational motion, first presented in [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation).
+Work and energy in rotational motion are completely analogous to work and energy in translational motion, first presented in [Work, Energy, and Energy Resources](./ch7WorkEnergyAndEnergyResources).
 
 ::::
 
@@ -266,14 +266,14 @@ Problem-Solving Strategy for Rotational Energy
 1.  *Determine that energy or work is involved in the rotation*.
 2.  *Determine the system of interest*. A sketch usually helps.
 3.  *Analyze the situation to determine the types of work and energy involved*.
-4.  *For closed systems, mechanical energy is conserved*. That is,
+4.  *When only conservative forces do work, mechanical energy is conserved*. That is,
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
     Note that $$ \KE_{\text{i}} $$ and $$ \KE_{\text{f}} $$ may each include translational and rotational contributions.
 
-5. _For open systems_, mechanical energy may not be conserved, and other forms
-   of energy ( referred to previously as $$ \text{OE} $$), such as heat
-   transfer, may enter or leave the system. Determine what they are, and
-   calculate them as necessary.
+5. _Otherwise, include the other energy changes and transfers_. External work
+   may add or remove energy, and friction may convert mechanical energy into
+   thermal energy. Use the full energy balance from
+   [Conservation of Energy](./ch7ConservationOfEnergy), counting each change once.
 6. _Eliminate terms wherever possible to simplify the algebra_.
 7. _Check the answer to see if it is reasonable_.
 
@@ -388,7 +388,7 @@ Making Connections
 </div>
 
 Conservation of energy includes rotational motion, because rotational
-kinetic energy is another form of $$ \KE $$. [Uniform Circular Motion and Gravitation](./ch6UniformCircularMotionAndGravitation) has a detailed
+kinetic energy is another form of $$ \KE $$. [Conservation of Energy](./ch7ConservationOfEnergy) has a detailed
 treatment of conservation of energy.
 
 ::::
@@ -404,7 +404,7 @@ The easiest way to answer these questions is to consider energy. Suppose each
 can starts down the ramp from rest. Each can starting from rest means each
 starts with the same gravitational potential energy $$ \PE_{\text{grav}} $$,
 which is converted entirely to $$ \KE $$, provided each rolls without slipping.
-$$ \KE $$, however, can take the form of $$ \KE_{\text{trans}} $$ or $$ \KE\_{\text{rot}} $$, and total $$ \KE $$ is the sum of
+$$ \KE $$, however, can take the form of $$ \KE_{\text{trans}} $$ or $$ \KE_{\text{rot}} $$, and total $$ \KE $$ is the sum of
 the two. If a can rolls down a ramp, it puts part of its energy into rotation,
 leaving less for translation. Thus, the can goes slower than it would if it slid
 down. Furthermore, the thin soup does not rotate, whereas the thick soup does,
@@ -567,7 +567,7 @@ My solar system
 
 ### Section Summary
 
-- The rotational kinetic energy $$ \KE\_{\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
+- The rotational kinetic energy $$ \KE_{\text{rot}} $$ for an object with a moment of inertia $$ I $$ and an angular
   velocity $$ \omega $$ is given by
   <div class="equation">
     $$ \KE_{\text{rot}}=\frac{1}{2}I\omega^{2} . $$

@@ -89,7 +89,7 @@ displacement is
 </div>
 
 In this coordinate system, motion to the right is positive, whereas motion to
-the left is negative. Similarly, the airplane passenger’s initial position is $$ x_{0}=6.0 \m $$ and his final position is $$ x\_{f}=2.0 \m $$, so his
+the left is negative. Similarly, the airplane passenger’s initial position is $$ x_{0}=6.0 \m $$ and his final position is $$ x_{f}=2.0 \m $$, so his
 displacement is
 
 <div class="equation">

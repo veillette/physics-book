@@ -45,10 +45,11 @@ that net force causes acceleration. We will see in this section that work done
 by the net force gives a system energy of motion, and in the process we will
 also find an expression for the energy of motion.
 
-Let us start by considering the total, or net, work done on a system. Net work
+For now, we consider an object that moves as a whole, with no rotation or
+change in shape. Let us start by considering the total, or net, work done on it. Net work
 is defined to be the sum of work done by all external forces—that is, **net
 work** is the work done by the net external force $$ \vb{F}_{\text{net}} $$. In
-equation form, this is $$ W_{\text{net}}=F\_{\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
+equation form, this is $$ W_{\text{net}}=F_{\text{net}}d\cos{\theta} $$ where $$ \theta $$ is the angle between the force
 vector and the displacement vector.
 
 [Figure 1](#Figure1)(a) shows a graph of force versus displacement for the
@@ -73,7 +74,7 @@ conveyor system shown in [Figure 2](#Figure2).
 The force of gravity and the normal force acting on the package are
 perpendicular to the displacement and do no work. Moreover, they are also equal
 in magnitude and opposite in direction so they cancel in calculating the net
-force. The net force arises solely from the horizontal applied force $$ \vb{F}\_{\text{app}} $$ and the horizontal friction force $$ \vb{f} $$. Thus, as
+force. The net force arises solely from the horizontal applied force $$ \vb{F}_{\text{app}} $$ and the horizontal friction force $$ \vb{f} $$. Thus, as
 expected, the net force is parallel to the displacement, so that $$ \theta =0^\circ $$ and $$ \cos{\theta} =1 $$, and the net work is given by
 
 <div class="equation">
@@ -84,7 +85,7 @@ The effect of the net force $$ \vb{F}_{\text{net}} $$ is to accelerate the
 package from $$ v_{0} $$ to $$ v $$. The kinetic energy of the package
 increases, indicating that the net work done on the system is positive. (
 See [Figure 2](#Figure2).) By using Newton’s second law, and doing some algebra, we
-can reach an interesting conclusion. Substituting $$ F\_{\text{net}}=ma $$ from Newton’s second law gives
+can reach an interesting conclusion. Substituting $$ F_{\text{net}}=ma $$ from Newton’s second law gives
 
 <div class="equation">
  $$ W_{\text{net}}= mad . $$
@@ -392,13 +393,13 @@ generally shorter and easier than those using kinematics and dynamics alone.
 
 ### Section Summary
 
-- The net work $$ W\_{\text{net}} $$ is the work done by the net force acting on
+- The net work $$ W_{\text{net}} $$ is the work done by the net force acting on
   an object.
 - Work done on an object transfers energy to the object.
 - The translational kinetic energy of an object of mass $$ m $$ moving at speed
   $$ v $$ is $$ \KE=\frac{1}{2}m v^{2} $$.
 - The work-energy theorem states that the net work $$ W_{\text{net}} $$ on a
-  system changes its kinetic energy, $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} mv\_{0}^{2} $$.
+  system changes its kinetic energy, $$ W_{\text{net}}=\frac{1}{2}m v^{2}-\frac{1}{2} mv_{0}^{2} $$.
 
 ### Conceptual Questions
 

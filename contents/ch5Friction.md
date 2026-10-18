@@ -89,7 +89,7 @@ friction** , $$f_{s}$$ is given by
  $$f_{\s}\le \mu_{\s} \mag{N},$$
 </div>
 
-where $$\mu\_{\s}$$ is the coefficient of static friction and $$\mag{N}$$ is
+where $$\mu_{\s}$$ is the coefficient of static friction and $$\mag{N}$$ is
 the magnitude of the normal force (the force perpendicular to the surface).
 
 :::: note {"class":"note","data-label":""}
@@ -127,7 +127,7 @@ given by
 </div>
 
 where $$\mu_{\text{k}}$$ is the coefficient of kinetic friction. A system in
-which $$f_{\text{k}}=\mu\_{\text{k}} \mag{N}$$ is described as a system in
+which $$f_{\text{k}}=\mu_{\text{k}} \mag{N}$$ is described as a system in
 which _friction behaves simply_.
 
 :::: note {"class":"note","data-label":""}
@@ -153,7 +153,7 @@ approximate description of friction given by the above two equations.
 
 #### Table 1: Coefficients of friction
 
-| System                            | Coefficients of Static friction$$\mu\_{\s}$$| Coefficients of Kinetic friction$$\mu\_{\text{k}}$$|
+| System                            | Coefficients of Static friction$$\mu_{\s}$$| Coefficients of Kinetic friction$$\mu_{\text{k}}$$|
 | --------------------------------- | ----------------------------------------------- | ------------------------------------------------------ |
 | Rubber on dry concrete            | 1.0                                             | 0.7                                                    |
 | Rubber on wet concrete            | 0.7                                             | 0.5                                                    |
@@ -396,22 +396,22 @@ Forces and Motion
   friction are proportional to the magnitude of the normal force$$\mag{N}$$pushing the systems together. (A
   normal force is always perpendicular to the contact surface between systems.)
   Friction depends on both of the materials involved. The magnitude of static
-  friction$$f\_{\s}$$between systems stationary relative to one another is
+  friction$$f_{\s}$$between systems stationary relative to one another is
   given by
   <div class="equation">
   $$f_{\s}\le \mu_{\s} \mag{N},$$
   </div>
 
-where$$\mu\_{\s}$$is the coefficient of static friction, which depends on
+where$$\mu_{\s}$$is the coefficient of static friction, which depends on
 both of the materials.
 
-- The kinetic friction force$$f\_{\text{k}}$$between systems moving relative
+- The kinetic friction force$$f_{\text{k}}$$between systems moving relative
   to one another is given by
   <div class="equation">
    $$f_{\text{k}}=\mu_{\text{k}} \mag{N},$$
   </div>
 
-where$$\mu\_{\text{k}}$$is the coefficient of kinetic friction, which also
+where$$\mu_{\text{k}}$$is the coefficient of kinetic friction, which also
 depends on both materials.
 
 ### Conceptual Questions
@@ -1929,11 +1929,11 @@ static friction
 moving relative to one another
 
 magnitude of static friction
-:$$f_{\s}\le \mu_{\s}\mag{N}$$, where$$\mu\_{\s}$$is the coefficient of
+:$$f_{\s}\le \mu_{\s}\mag{N}$$, where$$\mu_{\s}$$is the coefficient of
 static friction and$$\mag{N}$$is the magnitude of the normal force
 
 magnitude of kinetic friction
-:$$f_{\text{k}}=\mu_{\text{k} }\mag{N}$$, where$$\mu\_{\text{k} }$$is the
+:$$f_{\text{k}}=\mu_{\text{k} }\mag{N}$$, where$$\mu_{\text{k} }$$is the
 coefficient of kinetic friction
 
 ::::

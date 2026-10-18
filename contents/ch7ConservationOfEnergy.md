@@ -22,28 +22,36 @@ _Total energy is constant in any process. It may change in form or be
 transferred from one system to another, but the total remains the same._
 
 We have explored some forms of energy and some ways it can be transferred from
-one system to another. This exploration led to the definition of two major types
-of energy—mechanical energy $$ \left(\KE+\PE\right) $$ and energy transferred
-via work done by nonconservative forces $$ \left(W\_{\text{nc}}\right) $$. But energy takes _many_ other forms, manifesting itself
+one system to another. This exploration introduced mechanical energy $$ \left(\KE+\PE\right) $$
+and showed how work done by nonconservative forces can change it. But energy takes _many_ other forms, manifesting itself
 in _many_ different ways, and we need to be able to deal with all of these
 before we can write an equation for the above general statement of the
 conservation of energy.
 
 ### Other Forms of Energy than Mechanical Energy
 
-At this point, we deal with all other forms of energy by lumping them into a
-single group called other energy ( $$ \text{OE} $$). Then we can state the
-conservation of energy in equation form as
+At this point, we group all forms of energy other than mechanical energy
+under **other energy** ($$ \text{OE} $$). This includes chemical and thermal
+energy. First choose the system whose energy we will track. For example,
+include Earth when tracking gravitational potential energy, or a spring when
+tracking elastic potential energy. Conservation of energy then says that the
+initial energy plus the net energy transferred into the system equals the
+final energy:
 
 <div class="equation">
- $$ \KE_{\text{i}}+\PE_{\text{i}}+W_{\text{nc}}+\text{OE}_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
+ $$ \KE_{\text{i}}+\PE_{\text{i}}+\text{OE}_{\text{i}}+E_{\text{transfer}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
 </div>
 
-All types of energy and work can be included in this very general statement of
-conservation of energy. Kinetic energy is $$ \KE $$, work done by a conservative
-force is accounted for by the change in $$ \PE $$ (since $$ W_{\text{c}}=-\Delta\PE $$), work done by nonconservative forces is $$ W\_{\text{nc}} $$, and all other energies are included as $$ \text{OE} $$. This
-equation applies to all previous examples; in those situations $$ \text{OE} $$
-was constant, and so it subtracted out and was not directly considered.
+Here $$ E_{\text{transfer}} $$ is positive for energy entering the system and
+negative for energy leaving it. Work is one way to transfer energy; heating
+and radiation are others. If no energy enters or leaves, this term is zero.
+
+Be careful to count each energy change only once. If a sliding block and the
+rough surface beneath it are both in the system, friction converts kinetic
+energy into thermal energy within that system. The decrease in $$ \KE $$ is
+balanced by an increase in $$ \text{OE} $$; there is no need to subtract the
+work of friction again. If we track only mechanical energy instead, the
+previous section’s rule $$ W_{\text{nc}}=\Delta\KE+\Delta\PE $$ remains useful.
 
 :::: note {"class":"note","data-label":""}
 
@@ -103,23 +111,21 @@ given and what quantity is to be calculated. A sketch will help.
 are given the potential energy from the work done by the forces. Then use step 3
 or step 4.
 
-**Step 3.** If you know the potential energies for the forces that enter into
-the problem, then forces are all conservative, and you can apply conservation of
-mechanical energy simply in terms of potential and kinetic energy. The equation
+**Step 3.** If only conservative forces do work and there are no other changes
+in the system’s energy, apply conservation of mechanical energy in terms of
+potential and kinetic energy. The equation
 expressing conservation of energy is
 
 <div class="equation">
  $$ \KE_{\text{i}}+\PE_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}. $$
 </div>
 
-**Step 4.** If you know the potential energy for only some of the forces,
-possibly because some of them are nonconservative and do not have a potential
-energy, or if there are other energies that are not easily treated in terms of
-force and work, then the conservation of energy law in its most general form
-must be used.
+**Step 4.** If mechanical energy changes into other forms, such as thermal
+energy, or energy enters or leaves the system, include those changes and
+transfers in the energy balance:
 
 <div class="equation">
- $$ \KE_{\text{i}}+\PE_{\text{i}}+W_{\text{nc}}+\text{OE}_{\text{i}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
+ $$ \KE_{\text{i}}+\PE_{\text{i}}+\text{OE}_{\text{i}}+E_{\text{transfer}}=\KE_{\text{f}}+\PE_{\text{f}}+\text{OE}_{\text{f}}. $$
 </div>
 
 In most problems, one or more of the terms is zero, simplifying its solution. Do not calculate $$ W_{c} $$, the work done by conservative forces; it is already incorporated in the $$ \PE $$ terms.
@@ -127,13 +133,13 @@ In most problems, one or more of the terms is zero, simplifying its solution. Do
 **Step 5.** You have already identified the types of work and energy involved (
 in step 2). Before solving for the unknown, _eliminate terms wherever possible_
 to simplify the algebra. For example, choose $$ h=0 $$ at either the initial or
-final point, so that $$ \PE\_{\text{g}} $$ is zero there. Then solve for the
+final point, so that $$ \PE_{\text{g}} $$ is zero there. Then solve for the
 unknown in the customary manner.
 
 **Step 6.** _Check the answer to see if it is reasonable_. Once you have solved
 a problem, reexamine the forms of work and energy to see if you have set up the
-conservation of energy equation correctly. For example, work done against
-friction should be negative, potential energy at the bottom of a hill should be
+conservation of energy equation correctly. For example, work done by
+friction on a sliding object should be negative, potential energy at the bottom of a hill should be
 less than that at the top, and so on. Also check to see that the numerical value
 obtained is reasonable. For example, the final speed of a skateboarder who
 coasts down a 3-m-high ramp could reasonably be 20 km/h, but _not_ 80 km/h.
@@ -253,13 +259,15 @@ Masses and Springs
   any process. Energy may change in form or be transferred from one system to
   another, but the total remains the same.
 - When all forms of energy are considered, conservation of energy is written in
-  equation form as $$ \KE_{i}+\PE_{i}+W_{\text{nc}}+\text{OE}_{i}=\KE_{f}+\PE_{f}+\text{OE}\_{f} $$, where $$ \text{OE} $$ is all **other forms of
-  energy** besides mechanical energy.
+  equation form as $$ \KE_{i}+\PE_{i}+\text{OE}_{i}+E_{\text{transfer}}=\KE_{f}+\PE_{f}+\text{OE}_{f} $$, where $$ \text{OE} $$ includes all **other forms of
+  energy** besides mechanical energy and $$ E_{\text{transfer}} $$ is the net
+  energy transferred into the system. An internal conversion, such as friction
+  turning kinetic energy into thermal energy, is counted only once.
 - Commonly encountered forms of energy include electric energy, chemical energy,
   radiant energy, nuclear energy, and thermal energy.
 - Energy is often utilized to do work, but it is not possible to convert all the
   energy of a system to work.
-- The efficiency $$ \text{Eff} $$ of a machine or human is defined to be $$ \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}} $$, where $$ W_{\text{out}} $$ is useful work output and $$ E\_{\text{in}} $$ is the energy consumed.
+- The efficiency $$ \text{Eff} $$ of a machine or human is defined to be $$ \text{Eff}=\frac{ W_{\text{out}}}{ E_{\text{in}}} $$, where $$ W_{\text{out}} $$ is useful work output and $$ E_{\text{in}} $$ is the energy consumed.
 
 ### Conceptual Questions
 

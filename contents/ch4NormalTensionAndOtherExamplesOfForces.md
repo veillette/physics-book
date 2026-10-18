@@ -59,14 +59,12 @@ next example.
 Common Misconception: Normal Force (N) vs. Newton (N)
 </div>
 
-In this section we have introduced the quantity normal force, which is represented by the variable $$ \vb{N} $$. This should not be confused with the symbol for the newton, which is also
-represented by the letter N. These symbols are particularly important to
-distinguish because the units of a normal force ( $$ \vb{N} $$)
-happen to be newtons (N). For example, the normal force $$ \vb{N} that the floor exerts on a chair might be $$ \vb{N}=100 \N $$. One important difference is that normal force is a vector, while the newton is $$
-simply a unit. Be careful not to confuse these letters in your calculations! You
-will encounter more similarities among variables and units as you proceed in
-physics. Another example of this is the quantity work ( $$ W $$)
-and the unit watts (W).
+In this section we have introduced the normal force, represented by the vector
+$$ \vb{N} $$. Its unit is the newton, whose symbol is N. For example, a normal
+force on a chair might have magnitude $$ N=100 \N $$. Keep the quantity and its
+unit distinct: the normal force is a vector, whereas the newton is a unit.
+Another example is work, represented by $$ W $$, and the watt (W), a unit of
+power.
 
 ::::
 
@@ -213,7 +211,9 @@ of the weight components:
 $$ \begin{array}{lll}
 \cos\left(\theta \right)&=& \frac{ w_{\perp }}{w}\\
 w_{\perp }&=& w\cos\left(\theta \right)=mg \cos\left(\theta \right)
-\end{array} $$ &lt;/div&gt; &lt;div class="equation"&gt; $$ \begin{array}{lll}
+\end{array} $$ </div>
+
+<div class="equation"> $$ \begin{array}{lll}
 \sin\left(\theta \right)&=& \frac{ w_{\parallel }}{w}\\
 w_{\parallel }&=& w\sin\left(\theta \right)=mg \sin\left(\theta \right)
 \end{array} $$
@@ -258,7 +258,7 @@ Consider a person holding a mass on a rope as shown in [Figure 4](#Figure4).
 
 Tension in the rope must equal the weight of the supported mass, as we can prove
 using Newton’s second law. If the 5.00-kg mass in the figure is stationary, then
-its acceleration is zero, and thus $$ \vb{F}\_{\text{net}}=0 $$. The only
+its acceleration is zero, and thus $$ \vb{F}_{\text{net}}=0 $$. The only
 external forces acting on the mass are its weight $$ \vb{w} $$ and the tension
 $$ \vb{T} $$ supplied by the rope. Thus,
 
@@ -452,7 +452,7 @@ weight of the tightrope walker in the following way:
 </div>
 
 We can extend this expression to describe the tension $$ T $$ created when a
-perpendicular force ( $$ \vb{F}\_{\perp } $$)
+perpendicular force ( $$ \vb{F}_{\perp } $$)
 is exerted at the middle of a flexible connector:
 
 <div class="equation">
@@ -482,10 +482,11 @@ observer is in an accelerating frame of reference, such as one that rotates (
 like a merry-go-round) or undergoes linear acceleration (like a car slowing
 down). For example, if a satellite is heading due north above Earth’s northern
 hemisphere, then to an observer on Earth it will appear to experience a force to
-the west that has no physical origin. Of course, what is happening here is that
-Earth is rotating toward the east and moves east under the satellite. In Earth’s
-frame this looks like a westward force on the satellite, or it can be
-interpreted as a violation of Newton’s first law (the law of inertia). An
+the east. This apparent deflection to the right of its northward motion is
+an effect of using Earth’s rotating frame. It is called the Coriolis effect
+and is discussed further in [Fictitious Forces and Non-inertial Frames](./ch6FictitiousForcesAndNonInertialFrames).
+Accounting for the rotating frame allows us to describe the motion using
+Newton’s laws. An
 **inertial frame of reference** is one in which all forces are real and,
 equivalently, one in which Newton’s laws have the simple forms given in this
 chapter.

@@ -152,7 +152,7 @@ same direction.
 
 :::
 
-The equation $$ x=x\_{0}+\overline{v}t $$ gives insight into the relationship
+The equation $$ x=x_{0}+\overline{v}t $$ gives insight into the relationship
 between displacement, average velocity, and time. It shows, for example, that
 displacement is a linear function of average velocity. (By linear function, we
 mean that displacement depends on $$ \overline{v} $$ rather than on $$ \overline{v} $$ raised to some other power, such as $$ {\overline{v}}^{2} $$.
