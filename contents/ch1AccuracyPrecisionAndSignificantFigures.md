@@ -1093,7 +1093,7 @@ The extremely small percent uncertainties (0.06% and 0.01%) reflect the high pre
 
 (c) The average speed is **4.68 m/s**.
 
-(d) The uncertainty in the average speed is **0.003 m/s**, so the speed is **4.681 ± 0.003 m/s** (or approximately **4.68 ± 0.01 m/s** to 3 significant figures).
+(d) The uncertainty in the average speed is **0.003 m/s**, so the speed is **4.681 ± 0.003 m/s**. Writing it as 4.68 ± 0.01 m/s would more than triple the uncertainty, so keep the extra digit the uncertainty supports.
 
 ::::
 
@@ -1137,24 +1137,24 @@ $$ \%\text{unc}_{3} = \frac{0.1 \text{ cm}}{3.0 \text{ cm}} \times 100\% = 3.3\%
 
 3. Add percent uncertainties for multiplication:
 <div class="equation">
-$$ \%\text{unc}_{\text{total}} = 0.56\% + 0.98\% + 3.3\% = 4.8\% \approx 5\% $$
+$$ \%\text{unc}_{\text{total}} = 0.56\% + 0.98\% + 3.3\% = 4.8\% $$
 </div>
 
 4. Calculate absolute uncertainty in volume:
 <div class="equation">
-$$ \delta V = 11.07 \text{ cm}^{3} \times 0.05 = 0.55 \text{ cm}^{3} \approx 1 \text{ cm}^{3} $$
+$$ \delta V = 11.07 \text{ cm}^{3} \times 0.048 = 0.54 \text{ cm}^{3} \approx 0.5 \text{ cm}^{3} $$
 </div>
 
-5. Round the volume to match the uncertainty:
+5. Keep guard digits until this step, then round the uncertainty to one significant figure and the volume to the same decimal place:
 <div class="equation">
-$$ V = 11 \pm 1 \text{ cm}^{3} $$
+$$ V = 11.1 \pm 0.5 \text{ cm}^{3} $$
 </div>
 
 **Discussion**
 
-This problem demonstrates how uncertainties accumulate in multi-dimensional calculations. The third dimension (3.0 ± 0.1 cm) has the largest percent uncertainty (3.3%), which dominates the total uncertainty. The final uncertainty of about 5% shows that when multiplying measurements, even small individual uncertainties can combine to produce significant uncertainty in the result. The volume of 11 cm³ with ±1 cm³ uncertainty means the actual volume could range from 10 to 12 cm³, nearly a 20% range.
+This problem demonstrates how uncertainties accumulate in multi-dimensional calculations. The third dimension (3.0 ± 0.1 cm) has the largest percent uncertainty (3.3%), which dominates the total uncertainty. The final uncertainty of about 4.8% shows that when multiplying measurements, even small individual uncertainties can combine to produce significant uncertainty in the result. The volume of 11.1 cm³ with ±0.5 cm³ uncertainty means the actual volume could range from about 10.6 to 11.6 cm³. Rounding the percent uncertainty to 5% or the absolute uncertainty up to 1 cm³ before the last step would roughly double this interval, so retain guard digits until the end.
 
-**Answer:** $$ 11 \pm 1 \text{ cm}^{3} $$
+**Answer:** $$ 11.1 \pm 0.5 \text{ cm}^{3} $$
 
 ::::
 
@@ -1342,9 +1342,9 @@ The very small percent uncertainty (0.09%) reflects the precision needed in auto
 
 **Answer:**
 
-(a) The gas volume is decreased by **144 cm³** (or 143.6 cm³ to four significant figures).
+(a) The gas volume is decreased by **143.6 cm³** (about 144 cm³).
 
-(b) The uncertainty in this volume is **0.1 cm³**, so the volume change is **143.6 ± 0.1 cm³** (or **144 ± 1 cm³** to three significant figures).
+(b) The uncertainty in this volume is **0.1 cm³**, so the volume change is **143.6 ± 0.1 cm³**. Writing 144 ± 1 cm³ would describe a ten-times-wider interval, not the same result to fewer figures.
 
 ::::
 

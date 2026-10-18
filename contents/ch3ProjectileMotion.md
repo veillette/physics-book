@@ -498,7 +498,7 @@ Earth. Let us consider projectile range further.
 
 ![Part a of the figure shows three different trajectories of projectiles on level ground. In each case the projectiles makes an angle of forty five degrees with the horizontal axis. The first projectile of initial velocity thirty meters per second travels a horizontal distance of R equal to ninety one point eight meters. The second projectile of initial velocity forty meters per second travels a horizontal distance of R equal to one hundred sixty three meters. The third projectile of initial velocity fifty meters per second travels a horizontal distance of R equal to two hundred fifty five meters.](../resources/Figure_03_04_05.jpg 'Trajectories of projectiles on level ground.
 (a) The greater the initial speed \( v_0 \), the greater the range for a given initial angle.
-(b) The effect of initial angle (\\theta_0 ) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.')
+(b) The effect of initial angle \( \theta_0 \) on the range of a projectile with a given initial speed. Note that the range is the same for 15 degrees and 75 degrees, although the maximum heights of those paths are different.')
 {: #Figure5 height="300"}
 
 How does the initial velocity of a projectile affect its range? Obviously, the

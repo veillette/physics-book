@@ -150,9 +150,9 @@ as if measured with a stopwatch), and the position and velocity are initially
 200 m and 15 m/s, respectively.
 
 ![Three line graphs. First is a line graph of displacement over time. Line has a positive slope that increases with time. Second line graph is of velocity over time. Line is straight with a positive slope. Third line graph is of acceleration over time. Line is straight and horizontal, indicating constant acceleration.](../resources/Figure_02_08_03.jpg 'Graphs of motion of a jet-powered car during the time span when its acceleration is constant.
-(a) The slope of an (x) vs. (t) graph is velocity. This is shown at two points, and the instantaneous velocities obtained are plotted in the next graph. Instantaneous velocity at any point is the slope of the tangent at that point.
-(b) The slope of the (v) vs. (t) graph is constant for this part of the motion, indicating constant acceleration.
-(c) Acceleration has the constant value of (5.0 \\mss ) over the time interval plotted.')
+(a) The slope of an \( x \) vs. \( t \) graph is velocity. This is shown at two points, and the instantaneous velocities obtained are plotted in the next graph. Instantaneous velocity at any point is the slope of the tangent at that point.
+(b) The slope of the \( v \) vs. \( t \) graph is constant for this part of the motion, indicating constant acceleration.
+(c) Acceleration has the constant value of \( 5.0 \mss \) over the time interval plotted.')
 {: #Figure3}
 
 ![A U.S. Air Force jet car speeding down a track](../resources/Figure_02_08_04.jpg 'A U.S. Air Force jet car speeds down a track. (credit: Matt Trostle, Flickr)')

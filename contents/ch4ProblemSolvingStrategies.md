@@ -589,7 +589,7 @@ Part (a) shows the airplane's mass is about 55 times the tractor's mass, which i
 
 </div>
 
-<div class="exercise" id="exercise" data-element-type="problems-exercises">
+<div class="exercise" id="exerciseBoatTrailer" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1223,7 +1223,7 @@ children.
 
 __Unreasonable Results__
 
-(a) Repeat [Exercise 7](#exercise), but assume an acceleration of $$ 1.20 \mss $$
+(a) Repeat the [car-and-boat-trailer problem](#exerciseBoatTrailer), but assume an acceleration of $$ 1.20 \mss $$
 
 is produced.
 (b) What is unreasonable about the result?

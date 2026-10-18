@@ -328,16 +328,16 @@ have observed? Would this result be different if done on the Moon?
 :::: note {"class":"note","data-label":"PhET Exploration"}
 
 <div class="title">
- Masses &amp; Springs
+ Projectile Motion
 </div>
 
-A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.
+Launch objects through the air with and without air resistance. On the Drag screen, change the drag coefficient, diameter, mass, and altitude, and compare how drag shortens the range and changes the shape of the trajectory.
 
 ::: figure {}
 
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/masses-and-springs/latest/masses-and-springs_en.html" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
-Masses and Springs
+Projectile Motion
 </figcaption>
 
 :::

@@ -328,6 +328,27 @@ Gravity and Orbits
 
 ::::
 
+:::: note {"class":"note","data-label":"PhET Exploration"}
+
+<div class="title">
+ My Solar System
+</div>
+
+Build your own system of heavenly bodies and watch the gravitational ballet.
+With this orbit simulator, you can set initial positions, velocities,
+and masses of 2, 3, or 4 bodies, and then see them orbit each other.
+
+::: figure {}
+
+<iframe loading="lazy" src="https://veillette.github.io/simulations/my-solar-system/#sim-my-solar-system" width="750" height="500"  allowfullscreen></iframe>
+<figcaption>
+My solar system
+</figcaption>
+
+:::
+
+::::
+
 ### Section Summary
 
 - Kepler’s laws are stated for a small mass$$m$$orbiting a larger mass$$M$$

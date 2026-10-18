@@ -680,7 +680,7 @@ The north component of the displacement is 87.0 km, and the east component is 87
 
 </div>
 
-<div class="exercise" id="problem" data-element-type="problems-exercises">
+<div class="exercise" id="problemWestNorthWalk" data-element-type="problems-exercises">
 
 :::: problem
 
@@ -764,7 +764,7 @@ You are **30.8 m** from your starting point, in a compass direction of **35.8° 
 
 :::: problem
 
-Repeat the previous [Problem](#problem) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
+Repeat the [18.0 m west, 25.0 m north walk problem](#problemWestNorthWalk) using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result.
 (This problem shows that adding them in reverse order gives the same result—that is,
 $$ \vb{B} + \vb{A} = \vb{A} + \vb{B} $$.) Discuss how taking another path to reach the same point might help to
 overcome an obstacle blocking your other path.
@@ -901,7 +901,7 @@ The angle is measured from north toward east, so we use cosine for the north com
 
 :::: problem
 
-Do [Problem](#problem) again using analytical techniques and change the second leg of the walk to $$ 25.0 \m  $$
+Do the [18.0 m west, 25.0 m north walk problem](#problemWestNorthWalk) again using analytical techniques and change the second leg of the walk to $$ 25.0 \m  $$
 straight south. (This is equivalent to subtracting $$ \vb{B} $$
 from $$ \vb{A} $$
 —that is, finding $$ \vb{R}^\prime =\vb{A} - \vb{B} $$)
