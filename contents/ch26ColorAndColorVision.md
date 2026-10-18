@@ -35,7 +35,7 @@ and are solely responsible for peripheral vision as well as vision in very dark
 environments. They are also important for motion detection. There are about 120
 million rods in the human retina. Rods do not yield color information. You may
 notice that you lose color vision when it is very dark, but you retain the
-ability to discern grey scales.
+ability to discern gray scales.
 
 ![The top panel shows the cellular structure of the different cells in the eye. The bottom panel shows a micrograph of the cellular structure.](../resources/Figure_26_03_01.jpg '
 (a) All photoreceptors have inner segments containing the nucleus and other important organelles and outer segments with membrane arrays containing the photosensitive opsin molecules. Rod outer segments are long columnar shapes with stacks of membrane-bound discs that contain the rhodopsin pigment. Cone outer segments are short, tapered shapes with folds of membrane in place of the discs in the rods. (b) Tissue of the retina shows a dense layer of nuclei of the rods and cones. LM × 800. (Micrograph provided by the Regents of University of Michigan Medical School-  2012)')
@@ -140,7 +140,7 @@ simply to the light entering the eye, which is uniform in the various rectangles
 in this figure, the eye responds to the edges and senses false darkness
 variations.
 
-![An image of black and gray gradient in stripes pattern is shown in first figure. A step graph in increasing order below the image shows actual light intensities of the above pattern. The graph appears uniform as the grey strips are also uniform, but they are not. Instead, they are perceived darker on the dark side and lighter on the light side of the edge as depicted in the graph below it, which shows a step graph with spikes at the beginning of the next step.](../resources/Figure_26_03_05.jpg 'The importance of edges is shown. Although the grey strips are uniformly shaded, as indicated by the graph immediately below them, they do not appear uniform at all. Instead, they are perceived darker on the dark side and lighter on the light side of the edge, as shown in the bottom graph. This is due to nerve impulse processing in the eye.')
+![An image of black and gray gradient in stripes pattern is shown in first figure. A step graph in increasing order below the image shows actual light intensities of the above pattern. The graph appears uniform as the gray strips are also uniform, but they are not. Instead, they are perceived darker on the dark side and lighter on the light side of the edge as depicted in the graph below it, which shows a step graph with spikes at the beginning of the next step.](../resources/Figure_26_03_05.jpg 'The importance of edges is shown. Although the gray strips are uniformly shaded, as indicated by the graph immediately below them, they do not appear uniform at all. Instead, they are perceived darker on the dark side and lighter on the light side of the edge, as shown in the bottom graph. This is due to nerve impulse processing in the eye.')
 {: #Figure5}
 
 One theory that takes various factors into account was advanced by Edwin Land (
@@ -249,7 +249,7 @@ This principle has several practical implications:
 
 The experiment can be reversed: a pure green object illuminated with pure red light will also appear black and disappear against a black background. In general, any object illuminated with light that contains none of the wavelengths it can reflect will appear black, regardless of its "true" color.
 
-This also explains why under monochromatic sodium vapor street lights (which emit primarily yellow light), it's difficult to distinguish colors—cars, clothing, and other objects all appear in shades of yellow, orange, and grey because there are no blue, green, or red wavelengths for those colored objects to reflect.
+This also explains why under monochromatic sodium vapor street lights (which emit primarily yellow light), it's difficult to distinguish colors—cars, clothing, and other objects all appear in shades of yellow, orange, and gray because there are no blue, green, or red wavelengths for those colored objects to reflect.
 
 :::
 
@@ -475,7 +475,7 @@ The most straightforward approach exploits the different sensitivity ranges:
    - Cone threshold: ~10⁻³ cd/m²
    - Use light levels of approximately 10⁻⁵ to 10⁻⁴ cd/m²
 3. **Observations:** Under these conditions, only rods are functional
-   - Vision will be achromatic (black, white, and shades of grey)
+   - Vision will be achromatic (black, white, and shades of gray)
    - Spatial resolution will be lower (rods provide less sharp images)
    - Temporal resolution may differ
 

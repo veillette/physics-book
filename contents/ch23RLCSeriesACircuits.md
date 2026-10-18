@@ -29,7 +29,7 @@ are the basis of many applications, such as radio tuners.
 {: #Figure1}
 
 The combined effect of resistance $$R $$ , inductive reactance $${X}_{L} $$ ,
-and capacitive reactance $${X}_{C} $$ is defined to be **impedance**{: class=" term"}, an AC analogue to resistance in a DC circuit. Current, voltage, and
+and capacitive reactance $${X}_{C} $$ is defined to be **impedance**{: class=" term"}, an AC analog to resistance in a DC circuit. Current, voltage, and
 impedance in an _RLC_ circuit are related by an AC version of Ohm’s law:
 
 <div class="equation" >
@@ -1281,7 +1281,7 @@ The average power at 10.0 kHz is 16.0 W.
 {: class="glossary-title"}
 
 impedance
-: the AC analogue to resistance in a DC circuit; it is the combined effect of
+: the AC analog to resistance in a DC circuit; it is the combined effect of
 resistance, inductive reactance, and capacitive reactance in the form $$Z=\sqrt{ {R}^{2}+{\left( {X}_{L}-{X}_{C} \right)}^{2}}$$
 
 resonant frequency

@@ -769,7 +769,7 @@ This calculation assumes ideal viewing conditions (clear air, good contrast, pro
 
 ::: problem
 
-People who do very detailed work close up, such as jewellers, often can see objects clearly at much closer distance than the normal 25 cm.
+People who do very detailed work close up, such as jewelers, often can see objects clearly at a much closer distance than the normal 25 cm.
 
 (a) What is the power of the eyes of a woman who can see an object clearly at a
 distance of only 8.00 cm?
@@ -828,13 +828,13 @@ Given values:
 
 **Discussion**
 
-Part (a): The jeweller's accommodated power of 62.5 D represents a remarkable 12.5 D of accommodation (compared to 50.0 D for distant vision). This is more than three times the typical 4.0 D accommodation of a young adult. Such exceptional near vision is developed through years of close-up work and may also involve some degree of natural myopia that, while problematic for distant vision, is advantageous for detailed close work.
+Part (a): The jeweler's accommodated power of 62.5 D represents a remarkable 12.5 D of accommodation (compared to 50.0 D for distant vision). This is more than three times the typical 4.0 D accommodation of a young adult. Such exceptional near vision is developed through years of close-up work and may also involve some degree of natural myopia that, while problematic for distant vision, is advantageous for detailed close work.
 
-Part (b): At 8.00 cm, the 1.00 mm object produces a retinal image of 0.250 mm (250 μm). This is larger than typical print images and allows the jeweller to see extremely fine details like hallmarks, engravings, or imperfections in gemstones.
+Part (b): At 8.00 cm, the 1.00 mm object produces a retinal image of 0.250 mm (250 μm). This is larger than typical print images and allows the jeweler to see extremely fine details like hallmarks, engravings, or imperfections in gemstones.
 
 Part (c): At the normal 25.0 cm distance, the same object would produce only a 0.0800 mm (80 μm) image—less than one-third the size. The ratio of image sizes (250 μm / 80 μm = 3.125) equals the ratio of distances (25.0 cm / 8.00 cm = 3.125), as expected from the linear magnification relationship.
 
-This problem illustrates why jewellers and others doing fine detail work benefit from exceptional near vision. The ability to work at 8.00 cm instead of 25.0 cm provides more than 3× magnification "for free" without requiring magnifying glasses. However, this extreme accommodation cannot be maintained for long periods without eye strain, which is why professional jewellers often supplement their natural vision with magnifying loupes or microscopes for extended detailed work.
+This problem illustrates why jewelers and others doing fine detail work benefit from exceptional near vision. The ability to work at 8.00 cm instead of 25.0 cm provides more than 3× magnification "for free" without requiring magnifying glasses. However, this extreme accommodation cannot be maintained for long periods without eye strain, which is why professional jewelers often supplement their natural vision with magnifying loupes or microscopes for extended detailed work.
 
 :::
 

@@ -890,7 +890,7 @@ The electron spin can make only two angles with the $$ z $$ -axis: **54.7°** an
 
 **Discussion**
 
-This result demonstrates the quantization of spin direction—a purely quantum mechanical phenomenon with no classical analogue. Unlike orbital angular momentum, where the number of allowed angles depends on $$ l $$ (giving $$ 2l+1 $$ orientations), electron spin always has exactly two allowed orientations regardless of the atom or state. These two orientations are commonly called "spin up" and "spin down," though these names are somewhat misleading since the spin is never aligned parallel or antiparallel to the $$ z $$ -axis.
+This result demonstrates the quantization of spin direction—a purely quantum mechanical phenomenon with no classical analog. Unlike orbital angular momentum, where the number of allowed angles depends on $$ l $$ (giving $$ 2l+1 $$ orientations), electron spin always has exactly two allowed orientations regardless of the atom or state. These two orientations are commonly called "spin up" and "spin down," though these names are somewhat misleading since the spin is never aligned parallel or antiparallel to the $$ z $$ -axis.
 
 Notice that even for the "spin up" state ( $$ m_s = +1/2 $$ ), the angle is 54.7° rather than 0°—the spin cannot point directly along the $$ z $$ -axis. This is a consequence of the $$ \sqrt{s(s+1)} $$ factor in the magnitude formula: since $$ S = \frac{\sqrt{3}}{2} \frac{h}{2\pi} $$ is always larger than $$ |S_z| = \frac{1}{2} \frac{h}{2\pi} $$ , perfect alignment is impossible. This reflects a fundamental aspect of quantum mechanics: you cannot simultaneously know all three components of angular momentum (Heisenberg uncertainty principle for angular momentum).
 

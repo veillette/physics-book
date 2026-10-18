@@ -35,7 +35,7 @@ example, forward is positive. Let $$v$$ be the velocity of the sled relative to
 the Earth, $$u$$ the velocity of the snowball relative to the Earth-bound
 observer, and $$u^{\prime} $$ the velocity of the snowball relative to the sled.
 
-![In part a, a man is pulling a sled towards the right with a velocity v equals one point zero meters per second. A girl sitting on the sled facing forward throws a snowball toward a boy on the far right of the picture. The snowball is labeled u primed equals one point five meters per second in the direction the sled is being pulled. The boy is labelled two point five meters per second. In figure b, a similar figure is shown, but the man’s velocity is one point zero meters per second, the girl is facing backward and throwing the snowball behind the sled. The snowball is labelled u primed equals negative one point five meters per second, and the boy is labelled u equals negative zero point five meters per second.](../resources/Figure_28_04_02.jpg 'Classically, velocities add like ordinary numbers in one-dimensional motion. Here the girl throws a snowball forward and then backward from a sled. The velocity of the sled relative to the Earth is ( v=1.0 \\text{m/s} ) . The velocity of the snowball relative to the truck is ( u^\\prime ) , while its velocity relative to the Earth is ( u ) . Classically, ( u=v+u\\prime ) .')
+![In part a, a man is pulling a sled toward the right with a velocity v equals one point zero meters per second. A girl sitting on the sled facing forward throws a snowball toward a boy on the far right of the picture. The snowball is labeled u primed equals one point five meters per second in the direction the sled is being pulled. The boy is labeled two point five meters per second. In figure b, a similar figure is shown, but the man’s velocity is one point zero meters per second, the girl is facing backward and throwing the snowball behind the sled. The snowball is labeled u primed equals negative one point five meters per second, and the boy is labeled u equals negative zero point five meters per second.](../resources/Figure_28_04_02.jpg 'Classically, velocities add like ordinary numbers in one-dimensional motion. Here the girl throws a snowball forward and then backward from a sled. The velocity of the sled relative to the Earth is ( v=1.0 \\text{m/s} ) . The velocity of the snowball relative to the truck is ( u^\\prime ) , while its velocity relative to the Earth is ( u ) . Classically, ( u=v+u\\prime ) .')
 {: #Figure2}
 
 <div class="note" data-has-label="true" data-label="">
@@ -50,7 +50,7 @@ Classical Velocity Addition
 </div>
 
 Thus, when the girl throws the snowball forward, $$u=1.0 \text{m/s}+1.5 \text{m/s}=2.5 \text{m/s} $$ . It makes good intuitive sense that the snowball
-will head towards the Earth-bound observer faster, because it is thrown forward
+will head toward the Earth-bound observer faster, because it is thrown forward
 from a moving vehicle. When the girl throws the snowball backward, $$u=1.0 \text{m/s}+\left(-1.5 \text{m/s}\right)=-0.5 \text{m/s} $$ . The minus sign
 means the snowball moves away from the Earth-bound observer.
 
@@ -63,9 +63,9 @@ in [[Figure 3]](#Figure3). If classical velocity addition applied to light,
 then the light from the car’s headlights would approach the observer on the
 sidewalk at a speed $$u=v+c $$ . But we know that light will move away from the
 car at speed $$c$$ relative to the driver of the car, and light will move
-towards the observer on the sidewalk at speed $$c$$ , too.
+toward the observer on the sidewalk at speed $$c$$ , too.
 
-![A car is moving towards right with velocity v. A boy standing on the side-walk observes the car. The velocity of light u primed is shown to be c as observed by the girl in the car and the velocity of light u is also c as observed by the boy.](../resources/Figure_28_04_03.jpg 'According to experiment and the second postulate of relativity, light from the car’s headlights moves away from the car at speed ( c ) and towards the observer on the sidewalk at speed ( c ) . Classical velocity addition is not valid.')
+![A car is moving toward the right with velocity v. A boy standing on the sidewalk observes the car. The velocity of light u primed is shown to be c as observed by the girl in the car and the velocity of light u is also c as observed by the boy.](../resources/Figure_28_04_03.jpg 'According to experiment and the second postulate of relativity, light from the car’s headlights moves away from the car at speed ( c ) and toward the observer on the sidewalk at speed ( c ) . Classical velocity addition is not valid.')
 {: #Figure3}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -95,13 +95,13 @@ where  $$v$$
 ::: example
 
 <div class="title">
-Showing that the Speed of Light towards an Observer is Constant (in a Vacuum): The Speed of Light is the Speed of Light
+Showing that the Speed of Light toward an Observer is Constant (in a Vacuum): The Speed of Light is the Speed of Light
 </div>
 
-Suppose a spaceship heading directly towards the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed  $$c$$
+Suppose a spaceship heading directly toward the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed  $$c$$
  as observed from the ship, calculate the speed at which it approaches the Earth.
 
-![A spacecraft is heading towards earth v equals zero point five zero zero times c. A laser beam from the ship travels towards the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.](../resources/Figure_28_04_04.jpg ' ')
+![A spacecraft is heading toward earth v equals zero point five zero zero times c. A laser beam from the ship travels toward the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.](../resources/Figure_28_04_04.jpg ' ')
 {: #Figure4}
 
 **Strategy**
@@ -141,13 +141,13 @@ classical velocity addition.
 ::: example
 
 <div class="title">
-Comparing the Speed of Light towards and away from an Observer: Relativistic Package Delivery
+Comparing the Speed of Light toward and away from an Observer: Relativistic Package Delivery
 </div>
 
 Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of  $$0.750c $$ .
- (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See [[Figure 5]](#Figure5).)
+ (a) At what velocity will an Earth-bound observer see the canister if it is shot directly toward the Earth? (b) If it is shot directly away from the Earth? (See [[Figure 5]](#Figure5).)
 
-![In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.](../resources/Figure_28_04_05.jpg ' ')
+![In part a, a spaceship is moving toward the earth from left to right with a velocity v equals to zero point five zero times c. The spaceship shoots a canister toward earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.](../resources/Figure_28_04_05.jpg ' ')
 {: #Figure5}
 
 **Strategy**
@@ -185,7 +185,7 @@ relativistic velocity addition instead of simple velocity addition.
 **Discussion**
 
 The minus sign indicates velocity away from the Earth (in the opposite direction
-from $$v$$ ), which means the canister is heading towards the Earth in part (a)
+from $$v$$ ), which means the canister is heading toward the Earth in part (a)
 and away in part (b), as expected. But relativistic velocities do not add as
 simply as they do classically. In part (a), the canister does approach the Earth
 faster, but not at the simple sum of $$1.250c $$ . The total velocity is less
@@ -210,7 +210,7 @@ and observer.
 Relativistic Doppler Effects
 </div>
 
-The observed wavelength of electromagnetic radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves towards the observer.
+The observed wavelength of electromagnetic radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves toward the observer.
 
 <div class="equation" >
  $${\lambda}_{\text{obs}}=\lambda_{s} \sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}. $$
@@ -388,7 +388,7 @@ All galaxies farther away than about  $$50 \times 10^{6}  \text{ly} $$
 
 ::: problem
 
-Suppose a spaceship heading straight towards the Earth at  $$ 0.750c $$
+Suppose a spaceship heading straight toward the Earth at  $$ 0.750c $$
  can shoot a canister at  $$ 0.500c $$
  relative to the ship. (a) What is the velocity of the canister relative to the Earth, if it is shot directly at the Earth? (b) If it is shot directly away from the Earth?
 
@@ -592,7 +592,7 @@ The observed wavelength increases from 656 nm to 658 nm—a 2-nm red shift corre
 
 ::: problem
 
-A space probe speeding towards the nearest star moves at  $$ 0.250c $$
+A space probe speeding toward the nearest star moves at  $$ 0.250c $$
  and sends radio information at a broadcast frequency of 1.00 GHz. What frequency is received on the Earth?
 
 :::
@@ -623,7 +623,7 @@ The received frequency is 0.775 GHz or 775 MHz, which is lower than the transmit
 
 ::: problem
 
-If two spaceships are heading directly towards each other at  $$ 0.800c $$ ,
+If two spaceships are heading directly toward each other at  $$ 0.800c $$ ,
  at what speed must a canister be shot from the first ship to approach the other at  $$ 0.999c $$
  as seen by the second ship?
 
@@ -663,7 +663,7 @@ The canister must be shot at $$0.991c$$ relative to ship 1 to approach ship 2 at
 
 ::: problem
 
-Two planets are on a collision course, heading directly towards each other at  $$ 0.250c $$ .
+Two planets are on a collision course, heading directly toward each other at  $$ 0.250c $$ .
  A spaceship sent from one planet approaches the second at  $$ 0.750c $$
  as seen by the second planet. What is the velocity of the ship relative to the first planet?
 
@@ -697,7 +697,7 @@ This problem illustrates an interesting asymmetry: if you simply add $$0.615c + 
 
 ::: problem
 
-When a missile is shot from one spaceship towards another, it leaves the first at  $$ 0.950c $$
+When a missile is shot from one spaceship toward another, it leaves the first at  $$ 0.950c $$
  and approaches the other at  $$ 0.750c $$ .
  What is the relative velocity of the two ships?
 

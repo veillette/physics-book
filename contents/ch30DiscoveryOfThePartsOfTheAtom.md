@@ -78,7 +78,7 @@ and then moved the beam up and down by adjusting the electric field.
 ![A diagram of the glass apparatus that was used to discover the electron in J. J. Thompson’s experiment.](../resources/Figure_30_02_03.jpg 'Diagram of Thomson’s CRT. (credit: Kurzon, Wikimedia Commons)')
 {: #Figure3}
 
-![Image of a cathode ray tube on x axis between two inverted L shaped north and south pole magnets on y axis, with z axis as a wire carrying high voltage supply to the charging plates inside the C R T. Zoomed image of the charging plate area inside the C R T showing the intersection of magnetic field between the poles in red lines towards south pole on the y axis along with an electron beam in green color line with velocity v toward right on the x axis.](../resources/Figure_30_02_04.jpg 'This schematic shows the electron beam in a CRT passing through crossed electric and magnetic fields and causing phosphor to glow when striking the end of the tube.')
+![Image of a cathode ray tube on x axis between two inverted L shaped north and south pole magnets on y axis, with z axis as a wire carrying high voltage supply to the charging plates inside the C R T. Zoomed image of the charging plate area inside the C R T showing the intersection of magnetic field between the poles in red lines toward south pole on the y axis along with an electron beam in green color line with velocity v toward right on the x axis.](../resources/Figure_30_02_04.jpg 'This schematic shows the electron beam in a CRT passing through crossed electric and magnetic fields and causing phosphor to glow when striking the end of the tube.')
 {: #Figure4}
 
 To see how the amount of deflection is used to calculate $${q}_{e}/{m}_{e} $$ ,

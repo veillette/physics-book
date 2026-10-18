@@ -45,7 +45,7 @@ The particle-wave duality is a universal attribute. It is another connection
 between matter and energy. Not only has modern physics been able to describe
 nature for high speeds and small sizes, it has also discovered new connections
 and symmetries. There is greater unity and symmetry in nature than was known in
-the classical era—but they were dreamt of. A beautiful poem written by the
+the classical era—but they were dreamed of. A beautiful poem written by the
 English poet William Blake some two centuries ago contains the following four
 lines:
 

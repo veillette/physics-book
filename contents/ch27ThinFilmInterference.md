@@ -112,7 +112,7 @@ Films such as the one in this example are most effective in producing
 destructive interference when the thinnest layer is used, since light over a
 broader range of incident angles will be reduced in intensity. These films are
 called non-reflective coatings; this is only an approximately correct
-description, though, since other wavelengths will only be partially cancelled.
+description, though, since other wavelengths will only be partially canceled.
 Non-reflective coatings are used in car windows and sunglasses.
 
 :::

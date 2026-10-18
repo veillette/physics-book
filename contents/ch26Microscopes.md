@@ -309,7 +309,7 @@ Look through a clear glass or plastic bottle and describe what you see. Now fill
 * The microscope is a multiple-element system having more than a single lens or
   mirror.
 * Many optical devices contain more than a single lens or mirror. These are
-  analysed by considering each element sequentially. The image formed by the
+  analyzed by considering each element sequentially. The image formed by the
   first is the object for the second, and so on. The same ray tracing and thin
   lens techniques apply to each lens element.
 * The overall magnification of a multiple-element system is the product of the
@@ -348,7 +348,7 @@ where $$n $$ is the refractive index and $$\alpha $$ the angle of acceptance.
 
 ::: problem
 
-Geometric optics describes the interaction of light with macroscopic objects. Why, then, is it correct to use geometric optics to analyse a microscope's image?
+Geometric optics describes the interaction of light with macroscopic objects. Why, then, is it correct to use geometric optics to analyze a microscope's image?
 
 :::
 

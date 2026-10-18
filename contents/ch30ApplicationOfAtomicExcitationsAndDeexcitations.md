@@ -82,7 +82,7 @@ and electrical discharge.
 
 The spectacular Waitomo caves on North Island in New Zealand provide a natural
 habitat for glow-worms. The glow-worms hang up to 70 silk threads of about 30 or
-40 cm each to trap prey that fly towards them in the dark. The fluorescence
+40 cm each to trap prey that fly toward them in the dark. The fluorescence
 process is very efficient, with nearly 100% of the energy input turning into
 light. (In comparison, fluorescent lights are about 20% efficient.)
 
@@ -186,7 +186,7 @@ was the first to realize that stimulated emission and absorption are equally
 probable. The laser acts as a temporary energy storage device that subsequently
 produces a massive energy output of single-wavelength, in-phase photons.
 
-![Several layers of parallel lines showing different levels of energy of an atom. The lowest level is ground state, one level up is first metastable state, next level is second metastable state, and so on. There are five steps shown. In the first step, an atom drops from the first metastable to the ground state, emitting a photon. This drop is spontaneous. In the second step, the emitted photo stimulates another atom to drop from the first metastable to the ground state, emitting another photons. In the third step, an atom is stimulated to drop, emitting a third photon. The process continues with a fourth and fifth step.](../resources/Figure_30_05_07.jpg 'One atom in the metastable state spontaneously decays to a lower level, producing a photon that goes on to stimulate another atom to de-excite. The second photon has exactly the same energy and wavelength as the first and is in phase with it. Both go on to stimulate the emission of other photons. A population inversion is necessary for there to be a net production rather than a net absorption of the photons.')
+![Several layers of parallel lines showing different levels of energy of an atom. The lowest level is ground state, one level up is first metastable state, next level is second metastable state, and so on. There are five steps shown. In the first step, an atom drops from the first metastable to the ground state, emitting a photon. This drop is spontaneous. In the second step, the emitted photon stimulates another atom to drop from the first metastable to the ground state, emitting another photon. In the third step, an atom is stimulated to drop, emitting a third photon. The process continues with a fourth and fifth step.](../resources/Figure_30_05_07.jpg 'One atom in the metastable state spontaneously decays to a lower level, producing a photon that goes on to stimulate another atom to de-excite. The second photon has exactly the same energy and wavelength as the first and is in phase with it. Both go on to stimulate the emission of other photons. A population inversion is necessary for there to be a net production rather than a net absorption of the photons.')
 {: #Figure8}
 
 The name **laser** is an acronym for light amplification by stimulated emission

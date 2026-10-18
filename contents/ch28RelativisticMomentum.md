@@ -75,7 +75,7 @@ $$\gamma $$ , relativistic momentum approaches infinity as $$u $$ approaches $$c
 mass cannot reach the speed of light. If it did, its momentum would become
 infinite, an unreasonable value.
 
-![ In this figure a graph is shown on a coordinate system of axes. The x-axis is labelled as speed u meter per second. On x-axis velocity of the object is shown in terms of the speed of light starting from zero at origin to one point zero c where c is the speed of light. The y-axis is labelled as momentum p rel kilogram meter per second. On y-axis relativistic momentum is shown in terms of kilogram meter per starting from zero at origin to four point zero. The graph in the given figure is concave up and moving upward along the vertical line at x is equal to one point zero c. This graph shows that relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.](../resources/Figure_28_05_02.jpg "Relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.")
+![ In this figure a graph is shown on a coordinate system of axes. The x-axis is labeled as speed u meter per second. On x-axis velocity of the object is shown in terms of the speed of light starting from zero at origin to one point zero c where c is the speed of light. The y-axis is labeled as momentum p rel kilogram meter per second. On y-axis relativistic momentum is shown in terms of kilogram meter per starting from zero at origin to four point zero. The graph in the given figure is concave up and moving upward along the vertical line at x is equal to one point zero c. This graph shows that relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.](../resources/Figure_28_05_02.jpg "Relativistic momentum approaches infinity as the velocity of an object approaches the speed of light.")
 {: #Figure2}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -238,7 +238,7 @@ The electron's relativistic momentum is $$1.35 \times 10^{-21}$$ kg·m/s. For co
 ::: problem
 
 (a) Find the momentum of a  $$ 1.00 \times 10^{9}  \text{kg} $$
- asteroid heading towards the Earth at  $$30.0 \text{km/s} $$ .
+ asteroid heading toward the Earth at  $$30.0 \text{km/s} $$ .
  (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that  $$\gamma =1+\left(1/2\right){v}^{2}/{c}^{2} $$
  at low velocities.)
 

@@ -52,7 +52,7 @@ three-prong plug to an appliance.
 
 A note on insulation color-coding: Insulating plastic is color-coded to identify
 live/hot, neutral and ground wires but these codes vary around the world.
-Live/hot wires may be brown, red, black, blue or grey. Neutral wire may be blue,
+Live/hot wires may be brown, red, black, blue or gray. Neutral wire may be blue,
 black or white. Since the same color may be used for live/hot or neutral in
 different parts of the world, it is essential to determine the color code in
 your region. The only exception is the earth/ground wire which is often green
@@ -109,7 +109,7 @@ earth/ground wire, the GFI will trip, forcing repair of the leakage.
 and neutral wires are equal, then they induce equal and opposite emfs in the
 coil. If not, then the circuit breaker will trip.
 
-![The figure shows an L shaped structure having four terminals. This is represented as circuit breaker. The upper two ends are connected to a sensing coil wound on an iron ring shaped core. The lower two terminals of the circuit breaker have connecting wires than run through the center hole of the ring shaped core. Current is shown to flow to and fro across the two wires. The currents in the iron ring are shown as concentric circles.](../resources/Figure_23_08_07.jpg 'A GFI compares currents by using both to induce an emf in the same coil. If the currents are equal, they will induce equal but opposite emfs.')
+![The figure shows an L shaped structure having four terminals. This is represented as a circuit breaker. The upper two ends are connected to a sensing coil wound on an iron ring shaped core. The lower two terminals of the circuit breaker have connecting wires that run through the center hole of the ring shaped core. Current is shown to flow to and fro across the two wires. The currents in the iron ring are shown as concentric circles.](../resources/Figure_23_08_07.jpg 'A GFI compares currents by using both to induce an emf in the same coil. If the currents are equal, they will induce equal but opposite emfs.')
 {: #Figure7}
 
 Another induction-based safety device is the **isolation transformer**, shown

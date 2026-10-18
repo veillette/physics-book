@@ -25,7 +25,7 @@ banned the export of uranium from newly occupied Czechoslovakia. It seemed that
 the military value of uranium had been recognized in Nazi Germany, and that a
 serious effort to build a nuclear bomb had begun.
 
-Alarmed scientists, many of them who fled Nazi Germany, decided to take action.
+Alarmed scientists, many of whom fled Nazi Germany, decided to take action.
 None was more famous or revered than Einstein. It was felt that his help was
 needed to get the American government to make a serious effort at nuclear
 weapons as a matter of survival. Leo Szilard, an escaped Hungarian physicist,

@@ -26,7 +26,7 @@ in [[Figure 1]](#Figure1).) Such a lens is called a **converging (or convex)
 lens** for the converging effect it has on light rays. An expanded view of the
 path of one ray through the lens is shown, to illustrate how the ray changes
 direction both as it enters and as it leaves the lens. Since the index of
-refraction of the lens is greater than that of air, the ray moves towards the
+refraction of the lens is greater than that of air, the ray moves toward the
 perpendicular as it enters and away from the perpendicular as it leaves. (This
 is in accordance with the law of refraction.) Due to the lens’s shape, light is
 thus bent toward the axis at both surfaces. The point at which the rays cross is
