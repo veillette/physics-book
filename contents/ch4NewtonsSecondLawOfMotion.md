@@ -1352,7 +1352,7 @@ The astronaut and space suit weigh **1.5 × 10³ N** (or **1470 N**) on Earth. T
 
 Suppose the mass of a fully loaded module in which astronauts take off
 from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
-(a) Calculate its the magnitude of acceleration in a vertical takeoff from the Moon.
+(a) Calculate the magnitude of its acceleration in a vertical takeoff from the Moon.
 (b) Could it lift off from Earth? If not, why not? If it could, calculate the magnitude of its acceleration.
 
 :::

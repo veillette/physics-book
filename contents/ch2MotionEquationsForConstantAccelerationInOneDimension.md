@@ -2008,7 +2008,7 @@ The pilot's deceleration was **$$ -4.9 \times 10^{2} \mss $$** (or approximately
 
 ::: problem
 
-Consider a grey squirrel falling out of a tree to the ground.
+Consider a gray squirrel falling out of a tree to the ground.
 (a) If we ignore air resistance in this case (only for the sake of this problem),
 determine a squirrel’s velocity just before hitting the ground, assuming it fell from a height of 3.0 m.
 (b) If the squirrel stops in a distance of 2.0 cm through bending its limbs,

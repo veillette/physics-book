@@ -67,7 +67,7 @@ so that
 </div>
 
 Earth’s mass $$ M $$ is $$ 5.972 \times 10^{24}\kg $$ and its radius $$ R $$ is $$ 6.376 \times 10^{6}\m $$. The Earth’s angular velocity $$ \omega $$ is, of course,
-exactly one revolution per day, but we must covert $$ \omega $$ to radians per
+exactly one revolution per day, but we must convert $$ \omega $$ to radians per
 second to do the calculation in SI units.
 
 **Solution**

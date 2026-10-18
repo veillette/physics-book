@@ -38,7 +38,7 @@ or
 </div>
 
 where $$ r $$ is the radius of curvature, also seen in [Figure 1](#Figure1).
-According to the sign convention, the counter clockwise direction is considered
+According to the sign convention, the counterclockwise direction is considered
 as positive direction and clockwise direction as negative
 
 ![The given figure shows counterclockwise circular motion with a horizontal line, depicting radius r, drawn from the center of the circle to the right side on its circumference and another line is drawn in such a manner that it makes an acute angle delta theta with the horizontal line. Tangential velocity vectors are indicated at the end of the two lines. At the bottom right side of the figure, the formula for angular velocity is given as v upon r.](../resources/Figure_10_01_01.jpg 'This figure shows uniform circular motion and some of its defined quantities.')

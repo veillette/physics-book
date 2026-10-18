@@ -336,7 +336,7 @@ That conversion factor is  $$ 60 \text{min/hr}  $$. Thus,
 
 To check your answer, consider the following:
 
-(1) Be sure that you have properly cancelled the units in the unit conversion.
+(1) Be sure that you have properly canceled the units in the unit conversion.
 If you have written the unit conversion factor upside down, the units will not
 cancel properly in the equation. If you accidentally get the ratio upside down,
 then the units will not cancel; rather, they will give you the wrong units as

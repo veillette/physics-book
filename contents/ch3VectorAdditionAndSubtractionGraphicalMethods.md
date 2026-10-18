@@ -61,7 +61,7 @@ in [Figure 4](#Figure4) below and in the steps following. The **tail** of the
 vector is the starting point of the vector, and the **head** (or tip) of a
 vector is the final, pointed end of the arrow.
 
-![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vectorD.](../resources/Figure_03_02_04.jpg 'Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
+![In part a, a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. In part b a vector of magnitude of nine units and making an angle of theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. Then a vertical arrow from the head of the horizontal arrow is drawn. In part c a vector D of magnitude ten point three is drawn from the tail of the horizontal vector at an angle theta is equal to twenty nine point one degrees from the positive direction of x axis. The head of the vector D meets the head of the vertical vector. A scale is shown parallel to the vector D to measure its length. Also a protractor is shown to measure the inclination of the vector D.](../resources/Figure_03_02_04.jpg 'Head-to-Tail Method: The head-to-tail method of graphically adding vectors is illustrated for the two displacements of the person walking in a city considered in <a href="#Figure2">Figure 2</a>.
 (a) Draw a vector representing the displacement to the east.
 (b) Draw a vector representing the displacement to the north. The tail of this vector should originate from the head of the first, east-pointing vector.
 (c) Draw a line from the tail of the east-pointing vector to the head of the north-pointing vector to form the sum or resultant vector \( \vb{D} \) . The length of the arrow \( \mag{D} \) is proportional to the vector&#x2019;s magnitude and is measured to be 10.3 units . Its direction, described as the angle with respect to the east (or horizontal axis)  \( \theta \) is measured with a protractor to be 29.1 degrees .')
@@ -70,13 +70,13 @@ vector is the final, pointed end of the arrow.
 ***Step 1.*** **Draw an arrow to represent the first vector (9 blocks to the
 east) using a ruler and protractor**.
 
-![In part a, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis.](../resources/Figure_03_02_05.jpg)
+![In part a, a vector of magnitude of nine units and making an angle theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis.](../resources/Figure_03_02_05.jpg)
 {: #Figure5 height="200"}
 
 ***Step 2.*** Now draw an arrow to represent the second vector (5 blocks to the
 north). *Place the tail of the second vector at the head of the first vector*.
 
-![In part b, a vector of magnitude of nine units and making an angle theta is equal to zero degree is drawn from the origin and along the positive direction of x axis. Then a vertical vector from the head of the horizontal vector is drawn.](../resources/Figure_03_02_06.jpg)
+![In part b, a vector of magnitude of nine units and making an angle theta is equal to zero degrees is drawn from the origin and along the positive direction of x axis. Then a vertical vector from the head of the horizontal vector is drawn.](../resources/Figure_03_02_06.jpg)
 {: #Figure6 height="200"}
 
 ***Step 3.*** *If there are more than two vectors, continue this process for
@@ -149,7 +149,7 @@ vector and the nearest horizontal or vertical axis. Since the resultant vector
 is south of the eastward pointing axis, we flip the protractor upside down and
 measure the angle between the eastward axis and the vector.
 
-![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty meter and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector. A ruler is placed along the vector R to measure it. Also there is a protractor to measure the angle.](../resources/Figure_03_02_11.jpg)
+![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty meters and with negative slope of seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector. A ruler is placed along the vector R to measure it. Also there is a protractor to measure the angle.](../resources/Figure_03_02_11.jpg)
 {: #Figure11}
 
 In this case, the total displacement $$\vb{R}$$ is seen to have a magnitude of
@@ -192,7 +192,7 @@ direction*, as shown in [Figure 13](#Figure13). In other words, $$\vb{B}$$ has
 the same length as $$-\vb{B}$$, but points in the opposite direction.
 Essentially, we just flip the vector so it points in the opposite direction.
 
-![Two vectors are shown. One of the vectors is labeled as vector   in north east direction. The other vector is of the same magnitude and is in the opposite direction to that of vector B. This vector is denoted as negative B.](../resources/Figure_03_02_13.jpg 'The negative of a vector is just another vector of the same magnitude but pointing in the opposite direction. So ( \\vb{B} ) is the negative of ( -\\vb{B} ) ; it has the same length but opposite direction. ')
+![Two vectors are shown. One of the vectors is labeled as vector B in north east direction. The other vector is of the same magnitude and is in the opposite direction to that of vector B. This vector is denoted as negative B.](../resources/Figure_03_02_13.jpg 'The negative of a vector is just another vector of the same magnitude but pointing in the opposite direction. So ( \\vb{B} ) is the negative of ( -\\vb{B} ) ; it has the same length but opposite direction. ')
 {: #Figure13 height="200"}
 
 The **subtraction** of vector $$\vb{B}$$ from vector $$\vb{A}$$ is then
@@ -418,7 +418,7 @@ spot on a lake, each taking a different path, as illustrated below.
 The total distance traveled along Path 1 is 7.5 km, and that along
 Path 2 is 8.2 km. What is the final displacement of each camper?
 
-![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes travelled from the cabin to the lake.](../resources/Figure_03_02_18.jpg)
+![At the southwest corner of the figure is a cabin and in the northeast corner is a lake. A vector S with a length five point zero kilometers connects the cabin to the lake at an angle of 40 degrees north of east. Two winding paths labeled Path 1 and Path 2 represent the routes traveled from the cabin to the lake.](../resources/Figure_03_02_18.jpg)
 {: #Figure18}
 
 ::::

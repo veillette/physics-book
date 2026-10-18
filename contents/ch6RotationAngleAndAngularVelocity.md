@@ -621,7 +621,7 @@ arc length
 : $$ \Delta s $$, the distance traveled by an object along a circular path
 
 pit
-: a tiny indentation on the spiral track moulded into the top of the
+: a tiny indentation on the spiral track molded into the top of the
 polycarbonate layer of CD
 
 rotation angle
