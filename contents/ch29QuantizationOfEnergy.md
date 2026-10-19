@@ -47,8 +47,9 @@ science changed the way we live.
 The German physicist Max Planck (1858–1947) used the idea that atoms and
 molecules in a body act like oscillators to absorb and emit radiation. The
 energies of the oscillating atoms and molecules had to be quantized to correctly
-describe the shape of the blackbody spectrum. Planck deduced that the energy of
-an oscillator having a frequency $$f $$ is given by
+describe the shape of the blackbody spectrum. Planck proposed that an oscillator of frequency $$f$$ exchanges energy in steps
+of $$hf$$. His original model used energies $$E=nhf$$. Modern quantum mechanics
+gives the oscillator energies as
 
 <div class="equation" >
  $$E=\left(n+\frac{1}{2}\right) hf. $$

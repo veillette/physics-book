@@ -76,9 +76,11 @@ thought experiments, of course, is determined by actual observation. The genius
 of Einstein is evidenced by the fact that experiments have repeatedly confirmed
 his theory of relativity.
 
-In summary: Two events are defined to be simultaneous if an observer measures
-them as occurring at the same time (such as by receiving light from the events).
-Two events are not necessarily simultaneous to all observers.
+Two events are simultaneous in a reference frame if synchronized clocks in that
+frame assign them the same time. An observer using light signals must account
+for their travel times. Simultaneous arrival means simultaneous emission only
+when the light travels equal distances. Events simultaneous in one frame need
+not be simultaneous in another.
 
 ### Time Dilation
 
@@ -358,21 +360,13 @@ both be correct.
 ![There are two sections in this figure. In the first section a young woman is shown standing on the Earth and her twin is standing in a traveling spaceship. There is a clock beside each of the women showing equal time. In the second section of the figure it is shown that the traveling twin ages less than the Earth-bound twin and the Earth-bound twin is looking older. In the clocks it is shown that on Earth time runs faster than on the traveling spaceship.](../resources/Figure_28_02_05.jpg "The twin paradox asks why the traveling twin ages less than the Earth-bound twin. That is the prediction we obtain if we consider the Earth-bound twin&#x2019;s frame. In the astronaut&#x2019;s frame, however, the Earth is moving and time runs slower there. Who is correct?")
 {: #Figure5}
 
-As with all paradoxes, the premise is faulty and leads to contradictory
-conclusions. In fact, the astronaut’s motion is significantly different from
-that of the Earth-bound twin. The astronaut accelerates to a high velocity and
-then decelerates to view the star system. To return to the Earth, she again
-accelerates and decelerates. The Earth-bound twin does not experience these
-accelerations. So the situation is not symmetric, and it is not correct to claim
-that the astronaut will observe the same effects as her Earth-bound twin. If you
-use special relativity to examine the twin paradox, you must keep in mind that
-the theory is expressly based on inertial frames, which by definition are not
-accelerated or rotating. Einstein developed general relativity to deal with
-accelerated frames and with gravity, a prime source of acceleration. You can
-also use general relativity to address the twin paradox and, according to
-general relativity, the astronaut will age less. Some important conceptual
-aspects of general relativity are discussed
-in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory) of this course.
+The two journeys are not symmetric. To return home, the astronaut must change
+velocity and switch between inertial frames; the Earth-bound twin does not make
+the same journey. Special relativity can compare the elapsed times along both
+paths and predicts that the traveling twin ages less. Acceleration does not
+require us to abandon special relativity. General relativity is needed when
+gravitational effects are important, as discussed
+in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory).
 
 In 1971, American physicists Joseph Hafele and Richard Keating verified time
 dilation at low relative velocities by flying extremely accurate atomic clocks
@@ -380,8 +374,8 @@ around the Earth on commercial aircraft. They measured elapsed time to an
 accuracy of a few nanoseconds and compared it with the time measured by clocks
 left behind. Hafele and Keating’s results were within experimental uncertainties
 of the predictions of relativity. Both special and general relativity had to be
-taken into account, since gravity and accelerations were involved as well as
-relative motion.
+taken into account, because the clocks experienced different gravitational conditions as well as
+different velocities.
 
 <div class="exercise" data-element-type="check-understanding" data-label="">
 <div class="title">

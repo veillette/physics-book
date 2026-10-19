@@ -44,25 +44,19 @@ cancerous tissue by a number of techniques. One of the most prevalent techniques
 for well-defined tumors is a geometric technique shown in [[Figure 2]](#Figure2)
 . A narrow beam of radiation is passed through the patient from a variety of
 directions with a common crossing point in the tumor. This concentrates the dose
-in the tumor while spreading it out over a large volume of normal tissue. The
-external radiation can be X-rays, $${}^{60}\text{Co }\gamma $$ rays, or
-ionizing-particle beams produced by accelerators. Accelerator-produced beams of
-neutrons, $$\text{π-mesons} $$ , and heavy ions such as nitrogen nuclei have
-been employed, and these can be quite effective. These particles have larger QFs
-or RBEs and sometimes can be better localized, producing a greater therapeutic
-ratio. But accelerator radiotherapy is much more expensive and less frequently
-employed than other forms.
+in the tumor while spreading it out over a large volume of normal tissue. External treatment commonly uses X-rays produced by a medical linear
+accelerator. Gamma-ray sources and particle beams, including protons and carbon
+ions, are also used. Different beams deposit energy differently, allowing the
+treatment to be planned to deliver a large tumor dose while sparing nearby
+healthy tissue. For some particle beams, RBE must also be considered.
 
 ![The image shows a man lying on a flat surface. A gamma ray machine is rotated around the man.](../resources/Figure_32_03_02.jpg 'The 60Co source of ( \\gamma );-radiation is rotated around the patient so that the common crossing point is in the tumor, concentrating the dose there. This geometric technique works for well-defined tumors.')
 {: #Figure2}
 
-Another form of radiotherapy uses chemically inert radioactive implants. One use
-is for prostate cancer. Radioactive seeds (about 40 to 100 and the size of a
-grain of rice) are placed in the prostate region. The isotopes used are usually
-$${}^{135}\text{I} $$
-(6-month half life) or $${}^{103}\text{Pd} $$
-(3-month half life). Alpha emitters have the dual advantages of a large QF and a
-small range for better localization.
+Another form of radiotherapy places sealed radioactive sources inside or close
+to a tumor. This is called **brachytherapy**. For example, small seeds containing
+iodine-125 or palladium-103 can be implanted to treat prostate cancer. Their
+low-energy photons deliver most of their dose near the seeds.
 
 Radiopharmaceuticals are used for cancer therapy when they can be localized well
 enough to produce a favorable therapeutic ratio. Thyroid cancer is commonly
@@ -78,58 +72,25 @@ that eliminate radiopharmaceuticals from the body, such as the liver, kidneys,
 and bladder. As with most radiotherapy, the technique is limited by the
 tolerable amount of damage to the normal tissue.
 
-[[Table 1]](#Table1) lists typical therapeutic doses of radiation used against
-certain cancers. The doses are large, but not fatal because they are localized
-and spread out in time. Protocols for treatment vary with the type of cancer and
-the condition and response of the patient. Three to five 200-rem treatments per
-week for a period of several weeks is typical. Time between treatments allows
-the body to repair normal tissue. This effect occurs because damage is
-concentrated in the abnormal tissue, and the abnormal tissue is more sensitive
-to radiation. Damage to normal tissue limits the doses. You will note that the
-greatest doses are given to any tissue that is not rapidly reproducing, such as
-in the adult brain. Lung cancer, on the other end of the scale, cannot
-ordinarily be cured with radiation because of the sensitivity of lung tissue and
-blood to radiation. But radiotherapy for lung cancer does alleviate symptoms and
-prolong life and is therefore justified in some cases.
+Radiotherapy is prescribed using **absorbed dose in grays (Gy)**, rather than
+effective dose in sieverts. Treatments are often divided into **fractions**:
+separate sessions that allow healthy tissue time to recover. A conventional
+course may deliver about 2 Gy per session over several weeks. Other techniques
+use fewer, larger fractions. [[Table 1]](#Table1) gives illustrative examples;
+the actual dose depends on the tumor and surrounding tissue.
 
-<table id="Table1" aria-describedby="This table has two columns. The left column lists the type of cancer and the right column lists the typical dose of radiation administered for each type of cancer."><caption><span class="title">Cancer Radiotherapy</span></caption><thead><tr>
-                        <th>
-                            <strong>Type of Cancer</strong>
-                        </th>
-                        <th>
-                            <strong>Typical dose (Sv)</strong>
-                        </th>
-                    </tr></thead><tbody><tr>
-                        <td>Lung</td>
-                        <td>10–20</td>
-                    </tr><tr>
-                        <td>Hodgkin’s disease</td>
-                        <td>40–45</td>
-                    </tr><tr>
-                        <td>Skin</td>
-                        <td>40–50</td>
-                    </tr><tr>
-                        <td>Ovarian</td>
-                        <td>50–75</td>
-                    </tr><tr>
-                        <td>Breast</td>
-                        <td>50–80+</td>
-                    </tr><tr>
-                        <td>Brain</td>
-                        <td>80+</td>
-                    </tr><tr>
-<td>Neck</td>
-<td>80+</td>
-</tr><tr>
-<td>Bone</td>
-<td>80+</td>
-</tr><tr>
-<td>Soft tissue</td>
-<td>80+</td>
-</tr><tr>
-<td>Thyroid</td>
-<td>80+</td>
-</tr></tbody></table>
+Radiotherapy can cure some cancers, including selected early-stage lung
+cancers. It can also be combined with other treatments or used to relieve pain
+and other symptoms when a cure is not possible. Both tumor control and damage
+to healthy tissue must be considered.
+
+<table id="Table1"><caption><span class="title">Examples of Radiotherapy Fractionation</span></caption>
+<thead><tr><th>Example</th><th>Absorbed dose</th></tr></thead>
+<tbody>
+<tr><td>One conventional treatment fraction</td><td>About 2 Gy</td></tr>
+<tr><td>Illustrative conventional course</td><td>60 Gy in 30 fractions</td></tr>
+<tr><td>One regimen for selected early-stage lung tumors</td><td>54 Gy in 3 fractions</td></tr>
+</tbody></table>
 
 Finally, it is interesting to note that chemotherapy employs drugs that
 interfere with cell division and is, thus, also effective against cancer. It

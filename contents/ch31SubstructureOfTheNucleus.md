@@ -264,16 +264,14 @@ water 61 km on a side.
 
 What forces hold a nucleus together? The nucleus is very small and its protons,
 being positive, exert tremendous repulsive forces on one another. (The Coulomb
-force increases as charges get closer, since it is proportional to $$1/{r}^{2} $$ , even at the tiny distances found in nuclei.) The answer is that two
-previously unknown forces hold the nucleus together and make it into a tightly
-packed ball of nucleons. These forces are called the *weak and strong nuclear
-forces*. Nuclear forces are so short ranged that they fall to zero strength when
-nucleons are separated by only a few fm. However, like glue, they are strongly
-attracted when the nucleons get close to one another. The strong nuclear force
-is about 100 times more attractive than the repulsive EM force, easily holding
-the nucleons together. Nuclear forces become extremely repulsive if the nucleons
-get too close, making nucleons strongly resist being pushed inside one another,
-something like ball bearings.
+force increases as charges get closer, since it is proportional to $$1/{r}^{2} $$ , even at the tiny distances found in nuclei.) The **strong nuclear force** binds protons and neutrons together despite the
+electrical repulsion between protons. It is very strong over nuclear distances,
+but has little effect when nucleons are more than a few femtometers apart.
+This attraction is a residual effect of the strong interaction that binds
+quarks inside protons and neutrons. At extremely short separations it becomes
+repulsive, resisting compression of the nucleus. The **weak nuclear force**
+plays a different role: it changes protons into neutrons or vice versa in
+processes such as beta decay.
 
 The fact that nuclear forces are very strong is responsible for the very large
 energies emitted in nuclear decay. During decay, the forces do work, and since

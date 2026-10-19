@@ -236,9 +236,10 @@ phenomenon called Newton’s rings, which occurs when the plane surfaces of two
 lenses are placed together. (The circular bands are called Newton’s rings
 because Isaac Newton described them and their use in detail. Newton did not
 discover them; Robert Hooke did, and Newton did not believe they were due to the
-wave character of light.) Each successive ring of a given color indicates an
-increase of only one wavelength in the distance between the lens and the blank,
-so that great precision can be obtained. Once the lens is perfect, there will be
+wave character of light.) Successive bright rings (or successive dark rings) of a given color indicate
+a change of half a wavelength in the thickness of the air gap. The light crosses
+the gap twice, so its round-trip path changes by one wavelength. This allows
+great precision. Once the lens is perfect, there will be
 no rings.
 
 ![This figure shows rainbow-colored concentric rings obtained when two plano-convex lenses are placed together with their flat surfaces in contact.](../resources/Figure_27_07_04.jpg "“Newton's rings” interference fringes are produced when two plano-convex lenses are placed together with their plane surfaces in contact. The rings are created by interference between the light reflected off the two surfaces as a result of a slight gap between them, indicating that these surfaces are not precisely plane but are slightly convex. (credit: Ulf Seifert, Wikimedia Commons)")

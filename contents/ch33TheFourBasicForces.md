@@ -130,23 +130,17 @@ intrinsic spins.
 ![A diagram is shown in which time progresses along the vertical y axis and distance along the horizontal x axis. Protons and neutrons are shown approaching each other, exchanging a virtual pion, then moving apart.](../resources/Figure_33_02_03.jpg 'The image shows a Feynman diagram for the exchange of a ( \\pi^{+} ) between a proton and a neutron, carrying the strong nuclear force between them. This diagram represents the situation shown more pictorially in [link].')
 {: #Figure3}
 
-There is a relationship between the mass of the carrier particle and the range
-of the force. The photon is massless and has energy. So, the existence of (
-virtual) photons is possible only by virtue of the Heisenberg uncertainty
-principle and can travel an unlimited distance. Thus, the range of the
-electromagnetic force is infinite. This is also true for gravity. It is infinite
-in range because its carrier particle, the graviton, has zero rest mass. (
-Gravity is the most difficult of the four forces to understand on a quantum
-scale because it affects the space and time in which the others act. But gravity
-is so weak that its effects are extremely difficult to observe quantum
-mechanically. We shall explore it further
-in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory)). The $${W}^{+}, {W}^{-} $$
-, and $${Z}^{0} $$ particles that carry the weak nuclear force have mass,
-accounting for the very short range of this force. In fact, the $${W}^{+}, {W}^{-} $$ , and $${Z}^{0} $$ are about 1000 times more massive than pions,
-consistent with the fact that the range of the weak nuclear force is about
-1/1000 that of the strong nuclear force. Gluons are actually massless, but since
-they act inside massive carrier particles like pions, the strong nuclear force
-is also short ranged.
+The mass of a mediator is related to the range of its interaction. The massless
+photon is consistent with the unlimited range of electromagnetism. The large
+masses of the W and Z bosons are associated with the very short range of the
+weak interaction. Pions are lighter, consistent with the longer, but still
+nuclear-sized, range of the force between nucleons.
+
+Mass is not the whole story: gluons are massless, yet quarks are confined rather
+than exerting an ordinary long-range force between isolated color charges.
+Gravity has unlimited range; a hypothetical quantum carrier, the **graviton**,
+would be massless. Gravitons have not been detected. We discuss gravity further
+in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory).
 
 The relative strengths of the forces given in the [[Table 1]](#Table1) are those
 for the most common situations. When particles are brought very close together,

@@ -192,7 +192,7 @@ substance with a large atomic number, such as barium or iodine. The structure of
 the part of the body that contains the substance (e.g., the gastro-intestinal
 tract or the abdomen) can easily be seen this way.
 
-Breast cancer is the second-leading cause of death among women worldwide. Early
+Breast cancer is a major cause of cancer deaths among women worldwide. Early
 detection can be very effective, hence the importance of x-ray diagnostics. A
 mammogram cannot diagnose a malignant tumor, only give evidence of a lump or
 region of increased density within the breast. X-ray absorption by different

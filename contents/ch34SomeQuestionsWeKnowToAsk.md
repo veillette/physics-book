@@ -25,11 +25,10 @@ them. The fun continues.
 
 ### On the Largest Scale
 
-1. _Is the universe open or closed_? Theorists would like it to be just barely
-   closed and evidence is building toward that conclusion. Recent measurements
-   in the expansion rate of the universe and in CMBR support a flat universe.
-   There is a connection to small-scale physics in the type and number of
-   particles that may contribute to closing the universe.
+1. _What are the geometry and future of the universe_? Measurements are
+   consistent with nearly flat space. Its future expansion also depends on the
+   nature of dark energy, which remains uncertain.
+
 2. _What is dark matter_? It is definitely there, but we really do not know what
    it is. Conventional possibilities are being ruled out, but one of them still
    may explain it. The answer could reveal whole new realms of physics and the
@@ -113,12 +112,11 @@ them. The fun continues.
    individual north- and south-pole particles—magnetic monopoles. If they exist,
    why are they so different in mass and elusiveness from electric charges, and
    if they do not exist, why not?
-8. _Do neutrinos have mass_? Definitive evidence has emerged for neutrinos
-   having mass. The implications are significant, as discussed in this chapter.
-   There are effects on the closure of the universe and on the patterns in
-   particle physics.
-9. _What are the systematic characteristics of high- $$Z $$ nuclei_? All elements with $$Z=118 $$
-   or less (with the exception of 115 and 117) have now been discovered. It has
+8. _What are the neutrino masses_? Oscillations establish nonzero masses, but
+   the exact values and their ordering remain important questions. They affect
+   both particle physics and cosmology.
+9. _What are the systematic characteristics of high- $$Z $$ nuclei_? All elements through $$Z=118$$ have been discovered; elements 115 and 117
+   were named moscovium and tennessine in 2016. It has
    long been conjectured that there may be an island of relative stability near
    $$Z=114 $$ , and the study of the most recently discovered nuclei will
    contribute to our understanding of nuclear forces.

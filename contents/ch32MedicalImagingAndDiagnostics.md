@@ -11,7 +11,12 @@ chapterNumber: 32
 
 :::
 
-Most medical and related applications of nuclear physics are driven, at their core, by the difference between a radioactive substance and a non-radioactive substance. One of the first such methods is the precision measurement and detection method known as radioimmunoassay (RIA). Developed by Rosalyn Sussman Yalow and Solomon Berson in the late 1950s, RIA relies on the principle of competitive binding. For the particular substance being measured, a sample containing a radioactive isotope is prepared. A known quantity of antibodies is then introduced. By measuring the amount of "unbound" antibodies after the reaction, technicians can detect and measure the precise amount of the target substance. Radioimmunoassay is essential in cancer screening, hepatitis diagnosis, narcotics investigation, and other analyses.
+Radioactive labels make it possible to detect very small amounts of a
+substance. One example is **radioimmunoassay (RIA)**, developed by Rosalyn
+Sussman Yalow and Solomon Berson in the late 1950s. A known amount of
+radioactively labeled antigen competes with the same, unlabeled substance in a
+patient's sample for a limited supply of antibodies. Measuring the radioactivity
+in the bound or free antigen allows the amount in the sample to be determined.
 
 A host of medical imaging techniques employ nuclear radiation. What makes
 nuclear radiation so useful? First, $$\gamma $$ radiation can easily penetrate

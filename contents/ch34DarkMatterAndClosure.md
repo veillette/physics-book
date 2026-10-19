@@ -11,231 +11,96 @@ chapterNumber: 34
 
 :::
 
-One of the most exciting problems in physics today is the fact that there is far
-more matter in the universe than we can see. The motion of stars in galaxies and
-the motion of galaxies in clusters imply that there is about 10 times as much
-mass as in the luminous objects we can see. The indirectly observed non-luminous
-matter is called **dark matter**. Why is dark matter a problem? For one thing,
-we do not know what it is. It may well be 90% of all matter in the universe, yet
-there is a possibility that it is of a completely unknown form—a stunning
-discovery if verified. Dark matter has implications for particle physics. It may
-be possible that neutrinos actually have small masses or that there are
-completely unknown types of particles. Dark matter also has implications for
-cosmology, since there may be enough dark matter to stop the expansion of the
-universe. That is another problem related to dark matter—we do not know how much
-there is. We keep finding evidence for more matter in the universe, and we have
-an idea of how much it would take to eventually stop the expansion of the
-universe, but whether there is enough is still unknown.
+Galaxies and galaxy clusters exert more gravity than their visible stars and
+gas can explain. The additional matter inferred from this gravity is called
+**dark matter**. Its effects are well established, but its composition remains
+unknown.
 
 ### Evidence
 
-The first clues that there is more matter than meets the eye came from the
-Swiss-born American astronomer Fritz Zwicky in the 1930s;
-major work was also done by the American astronomer Vera Rubin. Zwicky measured the velocities
-of stars orbiting the galaxy, using the relativistic Doppler shift of their
-spectra (see [[Figure 1]](#Figure1)(a)). He found that velocity varied with
-distance from the center of the galaxy, as graphed in [[Figure 1]](#Figure1)(b).
-If the mass of the galaxy was concentrated in its center, as are its luminous
-stars, the velocities should decrease as the square root of the distance from
-the center. Instead, the velocity curve is almost flat, implying that there is a
-tremendous amount of matter in the galactic halo.
-Using instruments and methods that offered a greater degree of precision, Rubin investigated the movement of spiral galaxies and observed that their outermost reaches were rotating as quickly as their centers. She also calculated that the rotational velocity of galaxies should have been enough to cause them to fly apart, unless there was a significant discrepancy between their observable matter and their actual matter. This became known as the galaxy rotation problem, which can be "solved" by the presence of unobserved or dark matter. Although not immediately recognized for its significance, such measurements have now been made for many galaxies, with similar results. Further, studies of galactic clusters have also
-indicated that galaxies have a mass distribution greater than that obtained from
-their brightness (proportional to the number of stars), which also extends into
-large halos surrounding the luminous parts of galaxies. Observations of other EM
-wavelengths, such as radio waves and X-rays, have similarly confirmed the
-existence of dark matter. Take, for example, X-rays in the relatively dark space
-between galaxies, which indicates the presence of previously unobserved hot,
-ionized gas (see [[Figure 1]](#Figure1)(c)).
+In the 1930s, Fritz Zwicky found that galaxies in the Coma cluster moved too
+quickly to be held together by the visible matter alone. Later, Vera Rubin and
+other astronomers studied the rotation of spiral galaxies. Far from a galaxy's
+bright center, stars often orbit at nearly constant speeds instead of slowing
+as expected if most of the mass followed the visible light. This points to an
+extended halo of unseen matter.
 
-### Theoretical Yearnings for Closure
+Gravitational lensing and the behavior of hot gas in clusters provide further
+evidence. The hot gas emits X-rays and is ordinary matter; its measured mass,
+together with the stars, is still insufficient to explain the cluster's gravity
+(see [[Figure 1]](#Figure1)).
 
-Is the universe open or closed? That is, will the universe expand forever or
-will it stop, perhaps to contract? This, until recently, was a question of
-whether there is enough gravitation to stop the expansion of the universe. In
-the past few years, it has become a question of the combination of gravitation
-and what is called the **cosmological constant**. The cosmological constant was
-invented by Einstein to prohibit the expansion or contraction of the universe.
-At the time he developed general relativity, Einstein considered that an
-illogical possibility. The cosmological constant was discarded after Hubble
-discovered the expansion, but has been re-invoked in recent years.
-
-Gravitational attraction between galaxies is slowing the expansion of the
-universe, but the amount of slowing down is not known directly. In fact, the
-cosmological constant can counteract gravity’s effect. As recent measurements
-indicate, the universe is expanding _faster_ now than in the past—perhaps a
-“modern inflationary era” in which the dark energy is thought to be causing the
-expansion of the present-day universe to accelerate. If the expansion rate were
-affected by gravity alone, we should be able to see that the expansion rate
-between distant galaxies was once greater than it is now. However, measurements
-show it was _less_ than now. We can, however, calculate the amount of slowing
-based on the average density of matter we observe directly. Here we have a
-definite answer—there is far less visible matter than needed to stop expansion.
-The **critical density** $${\rho }_{\text{c}} $$ is defined to be the density
-needed to just halt universal expansion in a universe with no cosmological
-constant. It is estimated to be about
-
-<div class="equation" >
- $${\rho }_{\text{c}}\approx  10^{-26} {\text{kg/m}}^{3}\text{.} $$
-</div>
-
-However, this estimate of $${\rho }_{\text{c}} $$ is only good to about a factor
-of two, due to uncertainties in the expansion rate of the universe. The critical
-density is equivalent to an average of only a few nucleons per cubic meter,
-remarkably small and indicative of how truly empty intergalactic space is.
-Luminous matter seems to account for roughly $$ 0.5\% $$ to $$2\% $$ of the
-critical density, far less than that needed for closure. Taking into account the
-amount of dark matter we detect indirectly and all other types of indirectly
-observed normal matter, there is only $$10 \% $$ to $$40 \% $$ of what is needed
-for closure. If we are able to refine the measurements of expansion rates now
-and in the past, we will have our answer regarding the curvature of space and we
-will determine a value for the cosmological constant to justify this
-observation. Finally, the most recent measurements of the CMBR have implications
-for the cosmological constant, so it is not simply a device concocted for a
-single purpose.
-
-After the recent experimental discovery of the cosmological constant, most
-researchers feel that the universe should be just barely open. Since matter can
-be thought to curve the space around it, we call an open universe **negatively
-curved**{: class="term"}. This means that you can in principle travel an
-unlimited distance in any direction. A universe that is closed is called **positively curved**{: class="term"}. This means that if you travel far enough in
-any direction, you will return to your starting point, analogous to
-circumnavigating the Earth. In between these two is a **flat (zero curvature)
-universe**{: class="term"}. The recent discovery of the cosmological constant
-has shown the universe is very close to flat, and will expand forever. Why do
-theorists feel the universe is flat? Flatness is a part of the inflationary
-scenario that helps explain the flatness of the microwave background. In fact,
-since general relativity implies that matter creates the space in which it
-exists, there is a special symmetry to a flat universe.
-
-![Figure a shows an eye looking toward a rotating spiral galaxy. Light coming from the galaxy arms that are rotating away from the observer is red shifted, and light coming from the galaxy arms that are rotating toward the observer is blue shifted. Figure b shows a graph of star rotation speed versus star radius. From zero radius, the curve increases steeply and peaks near two hundred and fifty kilometers per second at a radius of zero point five arbitrary units. The curve then decreases slightly and progresses to a radius of sixteen arbitrary units with ups and down between two hundred and two hundred and twenty five kilometers per second. Figure c shows an image of multiple galaxies and other objects against a black background. In the center of the image is a roughly circular purple haze, on the left and right of which are two slightly smaller and roughly circular blue haze regions.](../resources/Figure_34_04_01.jpg 'Evidence for dark matter: (a) We can measure the velocities of stars relative to their galaxies by observing the Doppler shift in emitted light, usually using the hydrogen spectrum. These measurements indicate the rotation of a spiral galaxy. (b) A graph of velocity versus distance from the galactic center shows that the velocity does not decrease as it would if the matter were concentrated in luminous stars. The flatness of the curve implies a massive galactic halo of dark matter extending beyond the visible stars. (c) This is a computer-generated image of X-rays from a galactic cluster. The X-rays indicate the presence of otherwise unseen hot clouds of ionized gas in the regions of space previously considered more empty. (credit: NASA, ESA, CXC, M. Bradac (University of California, Santa Barbara), and S. Allen (Stanford University)) ')
+![Galaxy rotation measurements and an image of a galaxy cluster.](../resources/Figure_34_04_01.jpg 'Galaxy rotation and cluster observations reveal more gravity than visible matter can explain. X-ray-emitting gas is part of the ordinary matter; the total mass inferred from gravity is larger. (credit: NASA, ESA, CXC, M. Bradac, and S. Allen)')
 {: #Figure1}
 
-### What Is the Dark Matter We See Indirectly
+### Density, Curvature, and Expansion
 
-There is no doubt that dark matter exists, but its form and the amount in
-existence are two facts that are still being studied vigorously. As always, we
-seek to explain new observations in terms of known principles. However, as more
-discoveries are made, it is becoming more and more difficult to explain dark
-matter as a known type of matter.
+The **critical density** $$\rho_c$$ is the total mass-equivalent energy density
+corresponding to a spatially flat universe. It is about
+$$10^{-26}\text{ kg/m}^3$$, equivalent to only a few protons per cubic meter.
+All components, including dark energy, must be counted when comparing the
+total density with this value.
 
-One of the possibilities for normal matter is being explored using the Hubble
-Space Telescope and employing the lensing effect of gravity on light (
-see [[Figure 2]](#Figure2)). Stars glow because of nuclear fusion in them, but
-planets are visible primarily by reflected light. Jupiter, for example, is too
-small to ignite fusion in its core and become a star, but we can see sunlight
-reflected from it, since we are relatively close. If Jupiter orbited another
-star, we would not be able to see it directly. The question is open as to how
-many planets or other bodies smaller than about 1/1000 the mass of the Sun are
-there. If such bodies pass between us and a star, they will not block the star’s
-light, being too small, but they will form a gravitational lens, as discussed
-in [General Relativity and Quantum Gravity](../contents/ch34GeneralRelativityAndQuantumTheory).
+In standard cosmological models, a total density below, equal to, or above the
+critical density corresponds to negative, zero, or positive spatial curvature.
+These geometries are often called **open**, **flat**, and **closed**. Curvature
+does not, by itself, determine whether expansion will continue forever. The
+future also depends on the contents of the universe and the behavior of dark
+energy.
 
-In a process called **microlensing**, light from the star is focused and the
-star appears to brighten in a characteristic manner. Searches for dark matter in
-this form are particularly interested in galactic halos because of the huge
-amount of mass that seems to be there. Such microlensing objects are thus
-called **massive compact halo objects**, or **MACHOs**. To date, a few MACHOs
-have been observed, but not predominantly in galactic halos, nor in the numbers
-needed to explain dark matter.
+An older matter-only model linked sufficient density to a future recollapse,
+or **Big Crunch**. The observed accelerated expansion changes that picture.
+In the standard model with a positive **cosmological constant**, dark energy
+keeps the expansion accelerating. A cosmological constant is one possible
+description of dark energy, not a directly identified substance.
 
-MACHOs are among the most conventional of unseen objects proposed to explain
-dark matter. Others being actively pursued are red dwarfs, which are small dim
-stars, but too few have been seen so far, even with the Hubble Telescope, to be
-of significance. Old remnants of stars called white dwarfs are also under
-consideration, since they contain about a solar mass, but are small as the Earth
-and may dim to the point that we ordinarily do not observe them. While white
-dwarfs are known, old dim ones are not. Yet another possibility is the existence
-of large numbers of smaller than stellar mass black holes left from the Big
-Bang—here evidence is entirely absent.
+For scale, the Planck mission's 2013 results gave an approximate inventory of
+5% ordinary matter, 27% dark matter, and 68% dark energy. These are fractions of
+the total mass-energy density, not just of the matter. Thus dark matter is
+roughly five times as abundant as ordinary matter. Observations are consistent
+with nearly flat space.
 
-There is a very real possibility that dark matter is composed of the known
-neutrinos, which may have small, but finite, masses. As discussed earlier,
-neutrinos are thought to be massless, but we only have upper limits on their
-masses, rather than knowing they are exactly zero. So far, these upper limits
-come from difficult measurements of total energy emitted in the decays and
-reactions in which neutrinos are involved. There is an amusing possibility of
-proving that neutrinos have mass in a completely different way.
+### What Could Dark Matter Be?
 
-We have noted in [Particles, Patterns, and Conservation Laws](../contents/ch33ParticlesPatternsAndConservationLaws) that
-there are three flavors of neutrinos ( $${\nu }_{e} $$ , $${\nu}_{\mu} $$ , and
-$${v}\_{\tau } $$ )
-and that the weak interaction could change quark flavor. It should also change
-neutrino flavor—that is, any type of neutrino could change spontaneously into
-any other, a process called **neutrino oscillations**. However, this can occur
-only if neutrinos have a mass. Why? Crudely, because if neutrinos are massless,
-they must travel at the speed of light and time will not pass for them, so that
-they cannot change without an interaction. In 1999, results began to be
-published containing convincing evidence that neutrino oscillations do occur.
-Using the Super-Kamiokande detector in Japan, the oscillations have been
-observed and are being verified and further explored at present at the same
-facility and others.
+Faint stars, planets, and stellar remnants contain ordinary matter that is hard
+to see. Some can be found through **microlensing**, the temporary brightening of
+a background star as an intervening object's gravity bends its light. Such
+compact objects have been investigated as **massive compact halo objects
+(MACHOs)**, but observations show that ordinary compact objects cannot account
+for most dark matter.
 
-Neutrino oscillations may also explain the low number of observed solar
-neutrinos. Detectors for observing solar neutrinos are specifically designed to
-detect electron neutrinos $${\nu }_{e} $$ produced in huge numbers by fusion in
-the Sun. A large fraction of electron neutrinos $${\nu }_{e} $$ may be changing
-flavor to muon neutrinos $${\nu}_{\mu} $$ on their way out of the Sun, possibly
-enhanced by specific interactions, reducing the flux of electron neutrinos to
-observed levels. There is also a discrepancy in observations of neutrinos
-produced in cosmic ray showers. While these showers of radiation produced by
-extremely energetic cosmic rays should contain twice as many $${\nu}_{\mu} $$ s
-as $${\nu }_{e} $$ s, their numbers are nearly equal. This may be explained by
-neutrino oscillations from muon flavor to electron flavor. Massive neutrinos are
-a particularly appealing possibility for explaining dark matter, since their
-existence is consistent with a large body of known information and explains more
-than dark matter. The question is not settled at this writing.
-
-The most radical proposal to explain dark matter is that it consists of
-previously unknown leptons (sometimes obtusely referred to as non-baryonic
-matter). These are called **weakly interacting massive particles**, or **WIMPs**, and would also be chargeless, thus interacting negligibly with normal matter,
-except through gravitation. One proposed group of WIMPs would have masses
-several orders of magnitude greater than nucleons and are sometimes called **neutralinos**. Others are called **axions** and would have masses about $$ 10^{-10} $$ that of an electron mass. Both neutralinos and axions would be
-gravitationally attached to galaxies, but because they are chargeless and only
-feel the weak force, they would be in a halo rather than interact and coalesce
-into spirals, and so on, like normal matter (see [[Figure 3]](#Figure3)).
-
-![The figure shows a satellite in orbit above the glowing atmosphere of the Earth. The satellite is tube shaped and has a cover that is open at one end. It has two solar panels and is covered in what looks like aluminum foil.](../resources/Figure_34_04_02.jpg 'The Hubble Space Telescope is producing exciting data with its corrected optics and with the absence of atmospheric distortion. It has observed some MACHOs, disks of material around stars thought to precede planet formation, black hole candidates, and collisions of comets with Jupiter. (credit: NASA (crew of STS-125))')
+![The Hubble Space Telescope in orbit.](../resources/Figure_34_04_02.jpg 'Space telescopes help study faint objects and gravitational lensing, providing evidence about the distribution of matter. (credit: NASA, crew of STS-125)')
 {: #Figure2}
 
-![A close-up photograph of a slow-moving stream carrying leaves.](../resources/Figure_34_04_03.jpg 'Dark matter may shepherd normal matter gravitationally in space, as this stream moves the leaves. Dark matter may be invisible and even move through the normal matter, as neutrinos penetrate us without small-scale effect. (credit: Shinichi Sugiyama)')
-{: #Figure3}
+**Neutrino oscillations** provide an important connection with particle physics.
+An electron neutrino can be detected later as a muon or tau neutrino. This
+change of flavor shows that neutrinos have nonzero masses and explains the
+formerly missing solar electron neutrinos. Their exact masses are still being
+measured. Ordinary relic neutrinos contribute some mass, but they are too light
+and move too fast to account for most dark matter while forming the structures
+we observe. Hypothetical sterile neutrinos are a separate possibility.
 
-Some particle theorists have built WIMPs into their unified force theories and
-into the inflationary scenario of the evolution of the universe so popular
-today. These particles would have been produced in just the correct numbers to
-make the universe flat, shortly after the Big Bang. The proposal is radical in
-the sense that it invokes entirely new forms of matter, in fact _two_ entirely
-new forms, in order to explain dark matter and other phenomena. WIMPs have the
-extra burden of automatically being very difficult to observe directly. This is
-somewhat analogous to quark confinement, which guarantees that quarks are there,
-but they can never be seen directly. One of the primary goals of the LHC at
-CERN, however, is to produce and detect WIMPs. At any rate, before WIMPs are
-accepted as the best explanation, all other possibilities utilizing known
-phenomena will have to be shown inferior. Should that occur, we will be in the
-unanticipated position of admitting that, to date, all we know is only 10% of
-what exists. A far cry from the days when people firmly believed themselves to
-be not only the center of the universe, but also the reason for its existence.
+Other proposed particles include **weakly interacting massive particles
+(WIMPs)** and **axions**. WIMPs are a broad class of hypothetical massive
+particles; a neutralino is one possible example. They need not be leptons.
+Axions are a different class of very light, spin-zero particles with extremely
+weak proposed interactions. They are not conventional WIMPs. Neither class has
+been established as the source of cosmic dark matter.
+
+![Leaves carried along a stream.](../resources/Figure_34_04_03.jpg 'An analogy: unseen motion in a stream shapes the distribution of leaves. Similarly, the gravitational influence of dark matter helps shape the distribution of visible matter. (credit: Shinichi Sugiyama)')
+{: #Figure3}
 
 ### Section Summary
 
-- Dark matter is non-luminous matter detected in and around galaxies and
-  galactic clusters.
-- It may be 10 times the mass of the luminous matter in the universe, and its
-  amount may determine whether the universe is open or closed (expands forever
-  or eventually stops).
-- The determining factor is the critical density of the universe and the
-  cosmological constant, a theoretical construct intimately related to the
-  expansion and closure of the universe.
-- The critical density _ρ_<sub>c</sub> is the density needed to just halt
-  universal expansion. It is estimated to be approximately 10<sup>–26</sup>
-  kg/m<sup>3</sup>.
-- An open universe is negatively curved, a closed universe is positively curved,
-  whereas a universe with exactly the critical density is flat.
-- Dark matter’s composition is a major mystery, but it may be due to the
-  suspected mass of neutrinos or a completely unknown type of leptonic matter.
-- If neutrinos have mass, they will change families, a process known as neutrino
-  oscillations, for which there is growing evidence.
+- Dark matter is inferred from gravity, including galaxy rotation, cluster
+  motion, and gravitational lensing. Its composition is unknown.
+- Critical density concerns total mass-energy density and spatial curvature.
+  Geometry alone does not determine the universe's future expansion.
+- Dark matter and dark energy have different roles: dark matter helps explain
+  gravitational clustering; dark energy is associated with accelerated expansion.
+- Neutrino oscillations and nonzero neutrino masses are established. Ordinary
+  relic neutrinos cannot account for most dark matter.
+- WIMPs, axions, and other proposed particles are being investigated.
 
 ### Conceptual Questions
 
@@ -481,45 +346,39 @@ This exercise helps us appreciate why cosmologists say the universe is "matter d
 {: class="glossary-title"}
 
 axions
-: a type of WIMPs having masses about 10<sup>−10</sup> of an electron mass
+: hypothetical very light spin-zero particles that are dark-matter candidates
 
 cosmological constant
-: a theoretical construct intimately related to the expansion and closure of the
-universe
+: a constant contribution to the energy density of space, one possible form of dark energy
 
 critical density
-: the density of matter needed to just halt universal expansion
+: the total mass-equivalent energy density corresponding to spatially flat space
 
 dark matter
 : indirectly observed non-luminous matter
 
 flat (zero curvature) universe
-: a universe that is infinite but not curved
+: a universe with zero large-scale spatial curvature
 
 microlensing
-: a process in which light from a distant star is focused and the star appears
-to brighten in a characteristic manner, when a small body (smaller than about
-1/1000 the mass of the Sun) passes between us and the star
+: the temporary brightening of a background star as an intervening object gravitationally bends its light
 
 MACHOs
-: massive compact halo objects; microlensing objects of huge mass
+: massive compact halo objects, such as faint stars or stellar remnants
 
 neutrino oscillations
-: a process in which any type of neutrino could change spontaneously into any
-other
+: changes in the detected flavor of a propagating neutrino
 
 neutralinos
-: a type of WIMPs having masses several orders of magnitude greater than nucleon
-masses
+: hypothetical neutral particles that can be WIMP candidates in some theories
 
 negatively curved
-: an open universe that expands forever
+: having an open spatial geometry; curvature alone does not determine the future expansion
 
 positively curved
-: a universe that is closed and eventually contracts
+: having a closed spatial geometry; curvature alone does not require eventual recollapse
 
 WIMPs
-: weakly interacting massive particles; chargeless leptons (non-baryonic matter)
-interacting negligibly with normal matter
+: weakly interacting massive particles, a broad class of hypothetical dark-matter candidates
 
 :::

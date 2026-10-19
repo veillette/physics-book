@@ -175,23 +175,18 @@ contact and cornea acts as a lens. If the tear layer is thinner in the center
 than at the edges, it has a negative power, for example. Skilled optometrists
 will adjust the power of the contact to compensate.
 
-Other advances in vision correction demonstrate the interconnectedness and value of scientific research. In the 1980s, Donna Strickland and Gérard Mourou worked on ways to make small but powerful lasers. Up until that time, powerful lasers had to be quite large in order to function properly. Essentially, the intensity of the beam itself would modify the instrument’s ability to function and create too much heat to be practical. Strickland and Mourou used ultrashort laser pulses passed over a grating that modified the beam but retained its power. Chirped pulse amplification, as it became known, has been used to develop most of the highest-powered lasers in the world, but also some of the smallest and most common. Decades after their initial discovery, Strickland and Mourou were awarded the Nobel Prize for Physics (with Strickland becoming the third woman to receive the award) partly due to CPA’s pivotal role in the increasingly common practice of laser vision correction—an application neither planned during their initial research.
+Other advances in vision correction show how research can lead to unexpected
+applications. In 1985, Donna Strickland and Gérard Mourou demonstrated **chirped
+pulse amplification**. A short laser pulse is first stretched in time, reducing
+its peak power. It can then be amplified without damaging the amplifier and
+compressed again to give a very brief pulse with high peak power. The technique
+helped make precise laser surgery possible and earned Strickland and Mourou a
+share of the 2018 Nobel Prize in Physics.
 
-**Laser vision correction** has progressed rapidly in the last few years. It is
-the latest and by far the most successful in a series of procedures that correct
-vision by reshaping the cornea. As noted at the beginning of this section, the
-cornea accounts for about two-thirds of the power of the eye. Thus, small
-adjustments of its curvature have the same effect as putting a lens in front of
-the eye. To a reasonable approximation, the power of multiple lenses placed
-close together equals the sum of their powers. For example, a concave spectacle
-lens (for nearsightedness) having $$P=-3.00 \text{D} $$ has the same effect on
-vision as reducing the power of the eye itself by 3.00 D. So to correct the eye
-for nearsightedness, the cornea is flattened to reduce its power. Similarly, to
-correct for farsightedness, the curvature of the cornea is enhanced to increase
-the power of the eye—the same effect as the positive power spectacle lens used
-for farsightedness. Laser vision correction uses high intensity electromagnetic
-radiation to ablate (to remove material from the surface) and reshape the
-corneal surfaces.
+**Laser vision correction** reshapes the cornea, which provides about two-thirds
+of the eye's focusing power. Flattening the cornea reduces its power to correct
+nearsightedness; increasing its central curvature can correct farsightedness.
+Carefully controlled laser pulses remove small amounts of corneal tissue.
 
 Today, the most commonly used laser vision correction procedure is _Laser in
 situ Keratomileusis (LASIK)_. The top layer of the cornea is surgically peeled

@@ -25,12 +25,12 @@ are not the same when measured by different observers.
 
 ### Proper Length
 
-One thing all observers agree upon is relative speed. Even though clocks measure
-different elapsed times for the same process, they still agree that relative
-speed, which is distance divided by elapsed time, is the same. This implies that
-distance, too, depends on the observer’s relative motion. If two observers see
-different times, then they must also see different distances for relative speed
-to be the same to each of them.
+Two inertial observers agree on the magnitude of their velocity relative to
+each other. This does not mean that all observers agree on the speed of a third
+object. In the muon example below, the Earth-bound observer measures the muon's
+speed, while the muon measures the equal speed of the Earth moving past it.
+Their different measurements of elapsed time are accompanied by different
+measurements of length.
 
 The muon discussed in [[Example 1]](../contents/ch28SimultaneityAndTimeDilation#Example1) illustrates this concept.
 To an observer on the Earth, the muon travels at $$0.950c $$ for $$7.05 \mu s $$
@@ -47,8 +47,8 @@ $$2.20 \mu s $$ . It has enough time to travel only
  $$L=v\Delta {t}_{0}=\left( 0.950\right)\left( 3.00 \times 10^{8}  \text{m/s}\right)\left( 2.20 \times 10^{-6}  \text{s}\right)=0.627\text{ km}. $$
 </div>
 
-The distance between the same two events (production and decay of a muon)
-depends on who measures it and how they are moving relative to it.
+These distances describe the separation of two locations fixed relative to
+the Earth. In the muon frame, the locations move past the stationary muon.
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 
@@ -66,7 +66,7 @@ points at which the muon is produced and decays are stationary relative to the
 Earth. To the muon, the Earth, air, and clouds are moving, and so the distance
 $$L $$ it sees is not the proper length.
 
-![In part a observer observes from ground frame of reference a muon above earth with speed v in the rightward direction. The distance between the muon and the place where it disintegrates is two point zero one. In part b the system is shown in motion having velocity v in the leftward direction. So, the cloud and ground are displaced zero point six two seven kilo meter in the opposite direction.](../resources/Figure_28_03_02.jpg '(a) The Earth-bound observer sees the muon travel 2.01 km between clouds. (b) The muon sees itself travel the same path, but only a distance of 0.627 km. The Earth, air, and clouds are moving relative to the muon in its frame, and all appear to have smaller lengths along the direction of travel.')
+![In part a observer observes from ground frame of reference a muon above earth with speed v in the rightward direction. The distance between the muon and the place where it disintegrates is two point zero one. In part b the system is shown in motion having velocity v in the leftward direction. So, the cloud and ground are displaced zero point six two seven kilo meter in the opposite direction.](../resources/Figure_28_03_02.jpg '(a) The Earth-bound observer sees the muon travel 2.01 km between clouds. (b) In the muon frame, the muon stays at rest while the Earth and clouds move past it; the separation of the two cloud locations is only 0.627 km. The Earth, air, and clouds are moving relative to the muon in its frame, and all appear to have smaller lengths along the direction of travel.')
 {: #Figure2}
 
 ### Length Contraction
@@ -270,7 +270,7 @@ Answer
 
 ### Summary
 
-- All observers agree upon relative speed.
+- Two inertial observers agree on the magnitude of their mutual relative velocity.
 - Distance depends on an observer’s motion. Proper length $${L}_{0} $$ is the
   distance between two points measured by an observer who is at rest relative to
   both of the points. Earth-bound observers measure proper length when measuring

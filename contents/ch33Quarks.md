@@ -542,18 +542,12 @@ the quark substructure of hadrons.
 ![The image shows a big sphere labeled proton. Five electrons are shown impinging on the proton from the left. Two pass directly through the proton, one electron scatters back and down from a green up quark, another electron scatters back and up from a blue up quark, and the last electron scatters up and forward from a red down quark.](../resources/Figure_33_05_03.jpg "Scattering of high-energy electrons from protons at facilities like SLAC produces evidence of three point-like charges consistent with proposed quark properties. This experiment is analogous to Rutherford&#x2019;s discovery of the small size of the nucleus by scattering \( \alpha \); particles. High-energy electrons are used so that the probe wavelength is small enough to see details smaller than the proton.")
 {: #Figure3}
 
-More recent and higher-energy experiments have produced jets of particles in
-collisions, highly suggestive of three quarks in a nucleon. Since the quarks are
-very tightly bound, energy put into separating them pulls them only so far apart
-before it starts being converted into other particles. More energy produces more
-particles, not a separation of quarks. Conservation of momentum requires that
-the particles come out in jets along the three paths in which the quarks were
-being pulled. Note that there are only three jets, and that other
-characteristics of the particles are consistent with the three-quark
-substructure.
-
-![In the figure the track of particles in electron-positron collider is shown/](../resources/Figure_33_05_04.jpg "Simulation of a proton-proton collision at 14-TeV center-of-mass energy in the ALICE detector at CERN LHC. The lines follow particle trajectories and the cyan dots represent the energy depositions in the sensitive detector elements. (credit: Matev&#x17E; Tadel) ")
-{: #Figure4}
+Higher-energy collisions also produce **jets**: narrow groups of particles
+formed as energetic quarks and gluons give up energy and form hadrons.
+The number of jets depends on the collision and on additional radiation. It is
+not fixed at three by the proton's three valence quarks. Scattering measurements
+and the properties of jets together provide strong evidence for quarks and
+gluons.
 
 ### Quarks Have Their Ups and Downs
 
@@ -638,34 +632,21 @@ is called **quantum chromodynamics** (QCD), also named by Gell-Mann.
 
 ### The Three Families
 
-Fundamental particles are thought to be one of three types—leptons, quarks, or
-carrier particles. Each of those three types is further divided into three
-analogous families as illustrated in [[Figure 5]](#Figure5). We have examined
-leptons and quarks in some detail. Each has six members (and their six
-antiparticles) divided into three analogous families. The first family is normal
-matter, of which most things are composed. The second is exotic, and the third
-more exotic and more massive than the second. The only stable particles are in
-the first family, which also has unstable members.
+Quarks and leptons are arranged in three **families**, or **generations**.
+Each generation contains two quark flavors, one charged lepton, and its
+associated neutrino. Familiar atoms contain first-generation up and down quarks
+and electrons. The heavier charged leptons and quarks are unstable.
 
-Always searching for symmetry and similarity, physicists have also divided the
-carrier particles into three families, omitting the graviton. Gravity is special
-among the four forces in that it affects the space and time in which the other
-forces exist and is proving most difficult to include in a Theory of Everything
-or TOE (to stub the pretension of such a theory). Gravity is thus often set
-apart. It is not certain that there is meaning in the groupings shown
-in [[Figure 6]](#Figure6), but the analogies are tempting. In the past, we have
-been able to make significant advances by looking for analogies and patterns,
-and this is an example of one under current scrutiny. There are connections
-between the families of leptons, in that the $$\tau $$ decays into the $$\mu $$
-and the $$\mu $$ into the *e*. Similarly for quarks, the higher families
-eventually decay into the lowest, leaving only *u* and *d* quarks. We have long
-sought connections between the forces in nature. Since these are carried by
-particles, we will explore connections between gluons, $${W}^{±} $$ and
-$${Z}^{0} $$ , and photons as part of the search for unification of forces
-discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS).
+The force-carrying **gauge bosons** are a separate group: the photon, eight
+gluons, and the W and Z bosons. They are not divided into three generations.
+The **Higgs boson**, a spin-zero particle, is another distinct part of the
+Standard Model (see [[Figure 6]](#Figure6)).
 
-![This figure shows three types of particles arranged in three rows. In the top row are leptons, in the middle row are quarks, and in the bottom row are carrier particles. The rows are divided into three columns, with the columns labeled family one, family two, and family three, from left to right. In family one are the electron and electron neutrino, the up and down quarks, and the photon and upsilon. In family two are the muon and muon neutrino, the strange and charmed quarks, and the W plus, W minus, and Z zero. In family three are the tau and tau neutrino, the top and bottom quarks, and gluons.](../resources/Figure_33_05_06.jpg "The three types of particles are leptons, quarks, and carrier particles. Each of those types is divided into three analogous families, with the graviton left out.")
+![The three generations of quarks and leptons, with gauge bosons and the Higgs boson listed separately.](../resources/Figure_33_05_06.svg 'Only the quarks and leptons form three generations. Gauge bosons and the Higgs boson are separate parts of the Standard Model.')
 {: #Figure6}
+
+Connections between the interactions are explored in
+[GUTs: The Unification of Forces](../contents/ch33GUTS).
 
 ### Summary
 
@@ -680,9 +661,8 @@ discussed in [GUTs: The Unification of Forces](../contents/ch33GUTS).
   that produce white.
 * Fundamental particles have no further substructure, not even a size beyond
   their de Broglie wavelength.
-* There are three types of fundamental particles—leptons, quarks, and carrier
-  particles. Each type is divided into three analogous families as indicated
-  in [[Figure 6]](#Figure6).
+* Quarks and leptons form three generations. The gauge bosons and Higgs boson
+  are separate parts of the Standard Model, as shown in [[Figure 6]](#Figure6).
 
 ### Conceptual Questions
 

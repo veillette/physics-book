@@ -209,17 +209,14 @@ laser radiation in a later chapter.
 
 ### Corner Reflectors and Diamonds
 
-A light ray that strikes an object consisting of two mutually perpendicular
-reflecting surfaces is reflected back exactly parallel to the direction from
-which it came. This is true whenever the reflecting surfaces are perpendicular,
-and it is independent of the angle of incidence. Such an object, shown
-in [[Figure 5]](#Figure5), is called a **corner reflector**{: class="term"},
-since the light bounces from its inside corner. Many inexpensive reflector
-buttons on bicycles, cars, and warning signs have corner reflectors designed to
-return light in the direction from which it originated. It was more expensive
-for astronauts to place one on the moon. Laser signals can be bounced from that
-corner reflector to measure the gradually increasing distance to the moon with
-great precision.
+In a plane perpendicular to the edge where two mirrors meet at a right angle,
+a ray reflected by both mirrors returns parallel to its incoming direction.
+To return rays arriving from a range of directions in three dimensions, a
+**corner reflector**{: class="term"} uses three mutually perpendicular surfaces.
+Many bicycle and road reflectors contain such corner reflectors, which return
+light toward its source. Astronauts placed arrays of corner reflectors on the
+Moon, allowing reflected laser pulses to measure its distance precisely
+(see [[Figure 5]](#Figure5)).
 
 ![Picture (a) shows the lunar expedition with the astronauts and their space shuttle. Picture (b) shows rectangular and round shaped bicycle reflectors.](../resources/Figure_25_04_05.jpg '(a) Astronauts placed a corner reflector on the moon to measure its gradually increasing orbital distance. (credit: NASA) (b) The bright spots on these bicycle safety reflectors are reflections of the flash of the camera that took this picture on a dark night. (credit: Julo, Wikimedia Commons)')
 {: #Figure5}
@@ -607,9 +604,8 @@ fiber optics
 of total internal reflection
 
 corner reflector
-: an object consisting of two mutually perpendicular reflecting surfaces, so
-that the light that enters is reflected back exactly parallel to the direction
-from which it came
+: a reflector that returns light toward its source; three perpendicular surfaces
+return rays in three dimensions, while two suffice in a perpendicular cross section
 
 zircon
 : natural gemstone with a large index of refraction

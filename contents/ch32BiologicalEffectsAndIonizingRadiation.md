@@ -7,7 +7,7 @@ chapterNumber: 32
 ::: abstract
 
 * Define various units of radiation.
-* Describe RBE.
+* Distinguish absorbed dose, equivalent dose, effective dose, and relative biological effectiveness.
 
 :::
 
@@ -49,10 +49,9 @@ ionizing radiation. Without contradiction, ionizing radiation can be both a cure
 and a cause.
 
 To discuss quantitatively the biological effects of ionizing radiation, we need
-a radiation dose unit that is directly related to those effects. All effects of
-radiation are assumed to be directly proportional to the amount of ionization
-produced in the biological organism. The amount of ionization is in turn
-proportional to the amount of deposited energy. Therefore, we define a **radiation dose unit** called the **rad**, as $$1/100 $$ of a joule of ionizing
+a radiation dose unit that is directly related to those effects. The deposited energy is a useful starting point, although biological effects
+also depend on the radiation type, tissue, and rate of exposure. An older
+**absorbed dose unit**, the **rad**, is defined as $$1/100 $$ of a joule of ionizing
 energy deposited per kilogram of tissue, which is
 
 <div class="equation" >
@@ -88,57 +87,41 @@ rad is small, it has significant effects since the energy causes ionization. The
 energy needed for a single ionization is a few eV, or less than $$ 10^{-18} \text{J} $$ . Thus, 0.01 J of ionizing energy can create a huge number of ion
 pairs and have an effect at the cellular level.
 
-The effects of ionizing radiation may be directly proportional to the dose in
-rads, but they also depend on the type of radiation and the type of tissue. That
-is, for a given dose in rads, the effects depend on whether the radiation is
-$$\alpha , \beta , \gamma , $$ x-ray, or some other type of ionizing radiation.
-In the earlier discussion of the range of ionizing radiation, it was noted that
-energy is deposited in a series of ionizations and not in a single interaction.
-Each ion pair or ionization requires a certain amount of energy, so that the
-number of ion pairs is directly proportional to the amount of the deposited
-ionizing energy. But, if the range of the radiation is small, as it is for
-$$\alpha $$ s, then the ionization and the damage created is more concentrated
-and harder for the organism to repair, as seen in [[Figure 1]](#Figure1).
-Concentrated damage is more difficult for biological organisms to repair than
-damage that is spread out, so short-range particles have greater biological
-effects. The **relative biological effectiveness** (RBE) or **quality factor** (
-QF) is given in [[Table 1]](#Table1) for several types of ionizing radiation—the
-effect of the radiation is directly proportional to the RBE. A dose unit more
-closely related to effects in biological tissue is called the **roentgen
-equivalent man** or rem and is defined to be the dose in rads multiplied by the
-relative biological effectiveness.
+Equal absorbed doses do not always produce equal biological damage. Alpha
+particles, for example, produce a dense track of ionization that is harder for
+cells to repair than the more widely spread ionization from gamma rays
+(see [[Figure 1]](#Figure1)).
 
-<div class="equation" >
- $$rem=rad×RBE $$
+For radiation protection, the **equivalent dose** $$H$$ accounts for the type of
+radiation. For one radiation type,
+
+<div class="equation">
+ $$H=w_R D,$$
 </div>
 
-![The image shows ionization created in cells by gamma and alpha radiation. Series of cells are shown through which a gamma ray passes causing ionization whose density is low. Another series of cells are shown through which an alpha ray passes causing ionization whose density is high.](../resources/Figure_32_02_01.jpg 'The image shows ionization created in cells by ( \\alpha ); and ( \\gamma ) radiation. Because of its shorter range, the ionization and damage created by ( \\alpha ) is more concentrated and harder for the organism to repair. Thus, the RBE for ( \\alpha )s is greater than the RBE for ( \\gamma )s, even though they create the same amount of ionization at the same energy.')
+where $$D$$ is the absorbed dose in grays and $$w_R$$ is a dimensionless
+**radiation weighting factor**. The unit of equivalent dose is the **sievert
+(Sv)**. Typical weighting factors are given in [[Table 1]](#Table1).
+
+![Alpha particles produce denser tracks of ionization than gamma rays.](../resources/Figure_32_02_01.jpg 'For the same absorbed energy, alpha particles generally cause more biological damage because their ionization is more concentrated.')
 {: #Figure1}
 
-So, if a person had a whole-body dose of 2.00 rad of $$\gamma $$ radiation, the
-dose in rem would be $$(2.00 \text{rad})(1) = 2.00 \text{ rem whole body}  $$ .
-If the person had a whole-body dose of 2.00 rad of $$\alpha $$ radiation, then
-the dose in rem would be $$(2.00 \text{rad})(20) = 40.0 \text{rem whole body} $$
-. The $$\alpha $$ s would have 20 times the effect on the person than the
-$$\gamma $$ s for the same deposited energy. The SI equivalent of the rem is
-the **sievert** (Sv), defined to be $$\text{Sv}=\text{Gy}×\text{RBE} $$ , so
-that
+For example, an absorbed dose of 0.020 Gy to an organ corresponds to an
+equivalent dose of 0.020 Sv for gamma rays ($$w_R=1$$), or 0.40 Sv for alpha
+particles ($$w_R=20$$). These weights are used to estimate radiation risk; they
+do not mean every biological effect is exactly 20 times greater.
 
-<div class="equation" >
- $$1 Sv=1 Gy×\text{RBE}=100 \text{rem} \text{.}  $$
-</div>
+The **effective dose**, also measured in sieverts, combines organ equivalent
+doses using tissue weighting factors. It helps compare the overall risks of
+different exposures. It is distinct from the absorbed dose to a particular organ.
+The older equivalent-dose unit is the **rem**, with $$1\text{ Sv}=100\text{ rem}$$.
+[[Table 2]](#Table2) summarizes the units.
 
-The RBEs given in [[Table 1]](#Table1) are approximate, but they yield certain
-insights. For example, the eyes are more sensitive to radiation, because the
-cells of the lens do not repair themselves. Neutrons cause more damage than
-$$\gamma $$ rays, although both are neutral and have large ranges, because
-neutrons often cause secondary radiation when they are captured. Note that the
-RBEs are 1 for higher-energy $$\beta $$ s, $$\gamma $$ s, and x-rays, three of
-the most common types of radiation. For those types of radiation, the numerical
-values of the dose in rem and rad are identical. For example, 1 rad of $$\gamma $$
-
-radiation is also 1 rem. For that reason, rads are still widely quoted rather
-than rem. [[Table 2]](#Table2) summarizes the units that are used for radiation.
+**Relative biological effectiveness (RBE)** compares the absorbed doses of two
+radiation types needed to produce the same specified biological effect. It
+depends on the effect being studied and the exposure conditions. RBE and
+radiation-protection weighting factors serve different purposes and should not
+be treated as interchangeable.
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 
@@ -156,41 +139,15 @@ kg) as well as the half-life. A short half-life will produce many more
 disintegrations per second. Recall that $$R=\frac{0.693N}{ {t}_{1/2}} $$ . Also,
 the activity decreases exponentially, which is seen in the equation $$R={R}_{0}{e}^{-\lambda t} $$.
 
-<table id="Table1" aria-describedby="This is a two column table. The left column is labeled type and energy of radiation. The right column is labeled R B E and gives values corresponding with each type and energy of radiation. A note says that R B E values are approximate and difficult to determine."><caption><span class="title">Relative Biological Effectiveness</span></caption><thead><tr>
-            <th data-align="center">
-              Type and energy of radiation
-            </th>
-            <th data-align="center">
-             RBE<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup>
-            </th>
-          </tr></thead><tbody><tr>
-            <td>X-rays</td>
-            <td>1</td>
-          </tr><tr>
-            <td>$$ \gamma  $$ rays</td>
-            <td>1</td>
-          </tr><tr>
-            <td>$$ \beta  $$ rays greater than 32 keV</td>
-            <td>1</td>
-          </tr><tr>
-            <td>$$ \beta  $$rays less than 32 keV</td>
-            <td>1.7</td>
-          </tr><tr>
-            <td>Neutrons, thermal to slow (&lt;20 keV)</td>
-            <td>2–5</td>
-          </tr><tr>
-            <td>Neutrons, fast (1–10 MeV)</td>
-            <td>10 (body), 32 (eyes)</td>
-          </tr><tr>
-            <td>Protons (1–10 MeV)</td>
-            <td>10 (body), 32 (eyes)</td>
-          </tr><tr>
-            <td> $$\alpha  $$ rays from radioactive decay</td>
-            <td>10–20</td>
-          </tr><tr>
-            <td>Heavy ions from accelerators</td>
-            <td>10–20</td>
-          </tr></tbody></table>
+<table id="Table1"><caption><span class="title">Radiation Weighting Factors for Protection</span></caption>
+<thead><tr><th>Radiation type</th><th>Weighting factor, $$w_R$$<sup id="footnote-ref1"><a href="#footnote1">1</a></sup></th></tr></thead>
+<tbody>
+<tr><td>X-rays and gamma rays</td><td>1</td></tr>
+<tr><td>Electrons and beta particles</td><td>1</td></tr>
+<tr><td>Protons</td><td>2</td></tr>
+<tr><td>Neutrons</td><td>Depends on neutron energy</td></tr>
+<tr><td>Alpha particles and heavy ions</td><td>20</td></tr>
+</tbody></table>
 
 <table id="Table2" aria-describedby="This is a five column table with three rows. In each row, a quantity of radiation is given. In each column, the S I unit name, definition, former unit and conversion factor are given for each of the three radiation quantities."><caption><span class="title">Units for Radiation</span></caption><thead><tr>
             <th data-align="center">Quantity</th>
@@ -200,7 +157,7 @@ the activity decreases exponentially, which is seen in the equation $$R={R}_{0}{
             <th data-align="center">Conversion</th>
           </tr></thead><tbody><tr>
             <td>Activity</td>
-            <td>Becquerel (bq)</td>
+            <td>Becquerel (Bq)</td>
             <td>decay/sec</td>
             <td>Curie (Ci)</td>
             <td> $$1 Bq =  2.7 \times 10^{-11} \text{Ci} $$</td>
@@ -211,16 +168,18 @@ the activity decreases exponentially, which is seen in the equation $$R={R}_{0}{
             <td>rad</td>
             <td> $$\text{Gy = 100 rad} $$</td>
           </tr><tr>
-            <td>Dose Equivalent</td>
+            <td>Equivalent dose</td>
             <td>Sievert (Sv)</td>
-            <td>1 J/kg × RBE</td>
+            <td>Absorbed organ dose multiplied by radiation weighting factor</td>
             <td>rem</td>
             <td> $$\text{Sv = 100 rem} $$</td>
           </tr></tbody></table>
 
 The large-scale effects of radiation on humans can be divided into two
 categories: immediate effects and long-term effects. [[Table 3]](#Table3) gives
-the immediate effects of whole-body exposures received in less than one day. If
+approximate immediate effects of whole-body X-ray or gamma-ray exposures
+received in less than one day. Absorbed dose in Gy is used for these tissue
+effects, rather than effective dose in Sv. If
 the radiation exposure is spread out over more time, greater doses are needed to
 cause the effects listed. This is due to the body’s ability to partially repair
 the damage. Any dose less than 100 mSv (10 rem) is called a **low dose**, 0.1 Sv
@@ -228,9 +187,9 @@ to 1 Sv (10 to 100 rem) is called a **moderate dose**, and anything greater than
 1 Sv (100 rem) is called a **high dose**. There is no known way to determine
 after the fact if a person has been exposed to less than 10 mSv.
 
-<table id="Table3" aria-describedby="This is a two column table. The left column indicates the dose in S v. The right column describes the effects of each dose on the body."><caption><span class="title">Immediate Effects of Radiation (Adults, Whole Body, Single Exposure)</span></caption><thead><tr>
+<table id="Table3" aria-describedby="This is a two column table. The left column indicates absorbed dose in grays for X-rays or gamma rays. The right column describes the effects of each dose on the body."><caption><span class="title">Immediate Effects of Radiation (Adults, Whole Body, Single Exposure)</span></caption><thead><tr>
             <th data-align="center">
-           Dose in Sv
+           Absorbed dose in Gy
               <sup class="footnote-number" id="footnote-ref2"><a class="footnote-link" href="#footnote2">2</a></sup>
             </th>
             <th data-align="center">
@@ -463,7 +422,7 @@ recent years due to faster films that require less exposure time.
               Chest
             </td>
             <td>
-              0.02
+              0.1
             </td>
           </tr><tr>
             <td>
@@ -543,12 +502,15 @@ tissue affected.
 the energy deposited.* This may take one or more steps, depending on the given
 information.
 
-<strong><em>Step 5. </em></strong>*Divide the deposited energy by the mass of
-the affected tissue.* Use units of joules for energy and kilograms for mass. If
-a dose in Sv is involved, use the definition that $$1 \text{Sv} = 1 \text{J/kg} $$.
+<strong><em>Step 5. </em></strong>*Calculate absorbed dose.* Divide deposited
+energy in joules by the mass of the affected tissue in kilograms to obtain
+absorbed dose $$D$$ in Gy.
 
-<strong><em>Step 6. </em></strong>*If a dose in mSv is involved, determine the
-RBE (QF) of the radiation.* Recall that $$1 mSv=1 mGy×\text{RBE} \left(\text{ or } 1 rem=1 rad×\text{RBE}\right) $$.
+<strong><em>Step 6. </em></strong>*If equivalent dose is requested, apply the
+radiation weighting factor.* Use $$H=w_R D$$ to obtain equivalent dose in Sv.
+Convert using $$1\text{ Sv}=100\text{ rem}$$ if needed. Effective dose also
+requires tissue weighting factors; it cannot be found from energy per mass
+alone.
 
 <strong><em>Step 7. </em></strong>*Check the answer to see if it is reasonable:
 Does it make sense?* The dose should be consistent with the numbers given in the
@@ -562,18 +524,15 @@ Dose from Inhaled Plutonium
 
 Calculate the dose in rem/y for the lungs of a weapons plant employee who inhales and retains an activity of  $$1.00 \text{μCi of} {}^{239}\text{Pu} $$
  in an accident. The mass of affected lung tissue is 2.00 kg, the plutonium decays by emission of a 5.23-MeV  $$\alpha  $$
- particle, and you may assume the higher value of the RBE for  $$\alpha  $$
- s from [[Table 1]](#Table1).
+ particle. Use the radiation weighting factor $$w_R=20$$ for alpha particles
+from [[Table 1]](#Table1), and assume all their energy is absorbed in the lungs.
 
 **Strategy**
 
-Dose in rem is defined by $$1 \text{rad}=0.01 \text{J/kg} $$ and
-$$\text{rem}=\text{rad}×\text{RBE} $$ . The energy deposited is divided by the
-mass of tissue affected and then multiplied by the RBE. The latter two
-quantities are given, and so the main task in this example will be to find the
-energy deposited in one year. Since the activity of the source is given, we can
-calculate the number of decays, multiply by the energy per decay, and convert
-MeV to joules to get the total energy.
+First calculate the absorbed dose in Gy by dividing the deposited energy by
+the affected tissue mass. Multiply by $$w_R=20$$ to obtain the lung equivalent
+dose in Sv, then convert to rem. The given activity and energy per decay allow
+us to find the energy deposited in one year.
 
 **Solution**
 
@@ -602,105 +561,49 @@ One Gray is 1.00 J/kg, and so the dose in Gy is
  $$\text{dose in Gy}=\frac{0.489 \text{J/kg}}{1.00 \text{(J/kg)/Gy}}=0.489 Gy. $$
 </div>
 
-Now, the dose in Sv is
+The lung equivalent dose received in one year is
 
-<div class="equation" >
- $$\text{dose}\text{in}\text{Sv}=\text{Gy}×\text{RBE} $$
-</div>
-
-<div class="equation" >
- $$=\left(0.489 Gy\right)\left(20\right)=9.8 \text{Sv} \text{.}  $$
+<div class="equation">
+ $$H=w_R D=20(0.489\text{ Gy})=9.8\text{ Sv}=980\text{ rem}.$$
 </div>
 
 **Discussion**
 
-First note that the dose is given to two digits, because the RBE is (at best)
-known only to two digits. By any standard, this yearly radiation dose is high
-and will have a devastating effect on the health of the worker. Worse yet,
-plutonium has a long radioactive half-life and is not readily eliminated by the
-body, and so it will remain in the lungs. Being an $$\alpha $$ emitter makes the
-effects 10 to 20 times worse than the same ionization produced by $$\beta $$ s,
-$$\gamma $$ rays, or x-rays. An activity of $$1.00 \mu Ci $$ is created by only
-$$16 \mu g $$ of $${}^{239}\text{Pu} $$
-(left as an end-of-chapter problem to verify), partly justifying claims that
-plutonium is the most toxic substance known. Its actual hazard depends on how
-likely it is to be spread out among a large population and then ingested. The
-Chernobyl disaster’s deadly legacy, for example, has nothing to do with the
-plutonium it put into the environment.
+The estimated annual lung equivalent dose is about 9.8 Sv, or 980 rem. This is
+an organ equivalent dose, not a whole-body effective dose or a direct prediction
+of tissue injury. The absorbed lung dose, 0.489 Gy, and the retention of the
+plutonium are also important in assessing the worker's health risk. Plutonium
+that remains in the lungs continues to irradiate nearby tissue.
 
 :::
 
 ### Risk versus Benefit
 
-Medical doses of radiation are also limited. Diagnostic doses are generally low
-and have further lowered with improved techniques and faster films. With the
-possible exception of routine dental x-rays, radiation is used diagnostically
-only when needed so that the low risk is justified by the benefit of the
-diagnosis. Chest x-rays give the lowest doses—about 0.1 mSv to the tissue
-affected, with less than 5 percent scattering into tissues that are not directly
-imaged. Other x-ray procedures range upward to about 10 mSv in a CT scan, and
-about 5 mSv (0.5 rem) per dental x-ray, again both only affecting the tissue
-imaged. Medical images with radiopharmaceuticals give doses ranging from 1 to 5
-mSv, usually localized. One exception is the thyroid scan using
-$${}^{131}\text{I} $$ . Because of its relatively long half-life, it exposes the
-thyroid to about 0.75 Sv. The isotope $${}^{123}\text{I} $$ is more difficult to
-produce, but its short half-life limits thyroid exposure to about 15 mSv.
+Diagnostic imaging balances the benefit of the information obtained against
+the radiation risk. Typical adult **effective doses** are about 0.005–0.01 mSv
+for an intraoral dental X-ray, 0.1 mSv for a chest X-ray, and several mSv for
+many CT examinations. These are approximate whole-body risk measures, not the
+absorbed dose in the imaged tissue; values vary with the procedure and equipment.
 
-::: note {"class":"note","data-has-label":"true","data-label":""}
-
-<div class="title">
-PhET Explorations: Alpha Decay
-</div>
-
-Watch alpha particles escape from a polonium nucleus, causing radioactive alpha decay. See how random decay times relate to the half life.
-
-<div class="media" id="PhET_module" data-alt="Alpha Decay">
-<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/alpha-decay/latest/alpha-decay.html?simulation=alpha-decay"></iframe>
-</div>
-
-:::
+Radiopharmaceutical studies also give different doses to different organs.
+For example, iodine concentrates in the thyroid. Its thyroid absorbed dose must
+be distinguished from the effective dose used to compare the overall risks of
+different examinations. Clinicians select the isotope and activity to obtain
+the needed information while limiting exposure.
 
 ### Section Summary
 
-* The biological effects of ionizing radiation are due to two effects it has on
-  cells: interference with cell reproduction, and destruction of cell function.
-* A radiation dose unit called the rad is defined in terms of the ionizing
-  energy deposited per kilogram of tissue:
-
-  <div class="equation" >
-   $$1 rad=0.01 \text{J/kg}. $$
-  </div>
-
-* The SI unit for radiation dose is the gray  (Gy), which is defined to be $$1 $$
-  Gy = 1 J/kg = 100 rad.
-
-- To account for the effect of the type of particle creating the ionization, we
-  use the relative biological effectiveness (RBE) or quality factor (QF) given
-  in [[Table 1]](#Table1) and define a unit called the roentgen equivalent man (
-  rem) as
-
-  <div class="equation" >
-   $$\text{rem}=\text{rad}×\text{RBE}. $$
-  </div>
-
-- Particles that have short ranges or create large ionization densities have
-  RBEs greater than unity. The SI equivalent of the rem is the sievert (Sv),
-  defined to be
-
-  <div class="equation" >
-   $$\text{Sv}=\text{Gy}×\text{RBE}\text{and} 1 \text{Sv}=100 \text{rem} \text{.}  $$
-  </div>
-
-- Whole-body, single-exposure doses of 0.1 Sv or less are low doses while those
-  of 0.1 to 1 Sv are moderate, and those over 1 Sv are high doses. Some
-  immediate radiation effects are given in [[Table 3]](#Table3). Effects due to
-  low doses are not observed, but their risk is assumed to be directly
-  proportional to those of high doses, an assumption known as the linear
-  hypothesis. Long-term effects are cancer deaths at the rate of $$10/10^{6} \text{rem·y} $$ and genetic defects at roughly one-third this rate. Background
-  radiation doses and sources are given in [[Table 4]](#Table4). World-wide
-  average radiation exposure from natural sources, including radon, is about 3
-  mSv, or 300 mrem. Radiation protection utilizes shielding, distance, and time
-  to limit exposure.
+- Absorbed dose is deposited energy per unit mass: $$D=E/m$$. Its SI unit is
+  the gray, with $$1\text{ Gy}=1\text{ J/kg}=100\text{ rad}$$.
+- Equivalent dose accounts for radiation type: $$H=w_R D$$ for one type of
+  radiation. Its unit is the sievert, with $$1\text{ Sv}=100\text{ rem}$$.
+- Effective dose also accounts for the different sensitivities of organs and
+  tissues. It is used to compare radiation risks, not to prescribe treatment.
+- RBE compares doses needed to produce a specified biological effect. It is
+  distinct from a radiation weighting factor.
+- High absorbed doses can cause immediate tissue injury. Radiation can also
+  increase long-term cancer risk. Radiation protection limits exposure through
+  shielding, distance, and time.
 
 ### Conceptual Questions
 
@@ -1040,10 +943,10 @@ This remarkably small mass of only 16.1 micrograms demonstrates the extreme radi
 ### Footnotes
 {: class="footnote-refs-title"}
 
-- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">Values approximate,
-  difficult to determine.</span> {: class="footnote-ref" #footnote1}
+- [1](#footnote-ref1){: class=" footnote-ref-link"} <span class="footnote-ref-content">These radiation-protection weights are distinct from RBE values for a
+  specified biological effect.</span> {: class="footnote-ref" #footnote1}
 - [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
-  obtain dose in rem.</span> {: class="footnote-ref" #footnote2}
+  obtain absorbed dose in rad.</span> {: class="footnote-ref" #footnote2}
 - [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content">Multiply by 100 to
   obtain dose in mrem/y.</span>
   { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote3}
@@ -1056,26 +959,27 @@ This remarkably small mass of only 16.1 micrograms demonstrates the extreme radi
 {: class="glossary-title"}
 
 gray (Gy)
-: the SI unit for radiation dose which is defined to be $$1 Gy=1\text{ J}/kg=100 \text{rad} $$
+: the SI unit of absorbed dose: $$1\text{ Gy}=1\text{ J/kg}=100\text{ rad}$$
 
 linear hypothesis
 : assumption that risk is directly proportional to risk from high doses
 
 rad
-: the ionizing energy deposited per kilogram of tissue
+: an older absorbed-dose unit equal to $$0.01\text{ J/kg}$$
 
 sievert
-: the SI equivalent of the rem
+: the SI unit for equivalent dose and effective dose; $$1\text{ Sv}=100\text{ rem}$$
 
 relative biological effectiveness (RBE)
-: a number that expresses the relative amount of damage that a fixed amount of
-ionizing radiation of a given type can inflict on biological tissues
+: the ratio of absorbed doses of reference and test radiations needed to produce
+the same specified biological effect
 
 quality factor
-: same as relative biological effectiveness
+: a radiation-protection weighting factor related to ionization density;
+it is not the same quantity as RBE
 
 roentgen equivalent man (rem)
-: a dose unit more closely related to effects in biological tissue
+: an older equivalent-dose unit: $$100\text{ rem}=1\text{ Sv}$$
 
 low dose
 : a dose less than 100 mSv (10 rem)

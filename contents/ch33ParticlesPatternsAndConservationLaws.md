@@ -586,7 +586,8 @@ All known leptons are listed in the table given above. There are only six
 leptons (and their antiparticles), and they seem to be fundamental in that they
 have no apparent underlying structure. Leptons have no discernible size other
 than their wavelength, so that we know they are pointlike down to about $$ 10^{-18} \text{m} $$ . The leptons fall into three families, implying three
-conservation laws for three quantum numbers. One of these was known from $$\beta $$
+quantum numbers that are useful for keeping track of the decays discussed here.
+One of these was known from $$\beta $$
 
 decay, where the existence of the electron’s neutrino implied that a new
 quantum number, called
@@ -1210,12 +1211,12 @@ conservation of total baryon number
 always conserved in nuclear reactions and decays
 
 conservation of total electron family number
-: a general rule stating that the total electron family number stays the same
-through an interaction
+: the rule that electron family number is unchanged in the decay reactions
+discussed here; neutrino oscillations show that it is not universally conserved
 
 conservation of total muon family number
-: a general rule stating that the total muon family number stays the same
-through an interaction
+: the rule that muon family number is unchanged in the decay reactions
+discussed here; neutrino oscillations show that it is not universally conserved
 
 electron family number
 : the number $$±1 $$ that is assigned to all members of the electron family, or

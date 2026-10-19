@@ -12,23 +12,17 @@ chapterNumber: 34
 
 :::
 
-When we talk of black holes or the unification of forces, we are actually
-discussing aspects of general relativity and quantum gravity. We know
-from [Special Relativity](../contents/ch28SpecialRelativity) that relativity is the study of how different
-observers measure the same event, particularly if they move relative to one
-another. Einstein’s theory of **general relativity** describes all types of
-relative motion including accelerated motion and the effects of gravity. General
-relativity encompasses special relativity and classical relativity in situations
-where acceleration is zero and relative velocity is small compared with the
-speed of light. Many aspects of general relativity have been verified
-experimentally, some of which are better than science fiction in that they are
-bizarre but true. **Quantum gravity** is the theory that deals with particle
-exchange of gravitons as the mechanism for the force, and with extreme
-conditions where quantum mechanics and general relativity must both be used. A
-good theory of quantum gravity does not yet exist, but one will be needed to
-understand how all four forces may be unified. If we are successful, the theory
-of quantum gravity will encompass all others, from classical physics to
-relativity to quantum mechanics—truly a Theory of Everything (TOE).
+Einstein's **general relativity** describes gravity through the curvature of
+spacetime. It includes special relativity as the local description when
+gravitational effects can be neglected, and agrees with Newtonian gravity in
+the appropriate weak-field, low-speed limit. Its predictions include the bending
+of light, black holes, and gravitational waves.
+
+**Quantum gravity** is the effort to describe gravity consistently with quantum
+mechanics. It is expected to be needed in extreme settings, such as the earliest
+universe. There is no experimentally established complete theory of quantum
+gravity. Such a theory might contribute to unifying the interactions, but it
+would not automatically be a Theory of Everything.
 
 ### General Relativity
 
@@ -40,23 +34,23 @@ analyze certain carefully and clearly defined situations—doing this is to
 perform a **thought experiment**. [[Figure 1]](#Figure1) illustrates a thought
 experiment like the ones that convinced Einstein that light must fall in a
 gravitational field. Think about what a person feels in an elevator that is
-accelerated upward. It is identical to being in a stationary elevator in a
+accelerated upward. Locally, the experience is the same as being in a stationary elevator in a
 gravitational field. The feet of a person are pressed against the floor, and
-objects released from hand fall with identical accelerations. In fact, it is not
-possible, without looking outside, to know what is happening—acceleration upward
-or gravity. This led Einstein to correctly postulate that acceleration and
-gravity will produce identical effects in all situations. So, if acceleration
+objects released from hand fall with identical accelerations. In a sufficiently small region, a local experiment cannot distinguish these
+effects. This is the **equivalence principle**. Over a larger region, tidal
+effects—the differences in gravitational pull from place to place—can reveal
+spacetime curvature. So, if acceleration
 affects light, then gravity will, too. [[Figure 1]](#Figure1) shows the effect
 of acceleration on a beam of light shone horizontally at one wall. Since the
 accelerated elevator moves up during the time light travels across the elevator,
 the beam of light strikes low, seeming to the person to bend down. (Normally a
 tiny effect, since the speed of light is so great.) The same effect must occur
-due to gravity, Einstein reasoned, since there is no way to tell the effects of
-gravity acting downward from acceleration of the elevator upward. Thus gravity
+due to gravity, Einstein reasoned, because the same local argument applies to gravity acting downward and to
+acceleration of the elevator upward. Thus gravity
 affects the path of light, even though we think of gravity as acting between
 masses and photons are massless.
 
-![Figure a shows a person holding a flashlight and standing in an elevator that is accelerating upward. The flashlight is held horizontally, but the light beam from the flashlight hits the facing wall slightly below the horizontal path. Figure b shows the same thing but the elevator is at rest on the Earth.](../resources/Figure_34_02_01.jpg '(a) A beam of light emerges from a flashlight in an upward-accelerating elevator. Since the elevator moves up during the time the light takes to reach the wall, the beam strikes lower than it would if the elevator were not accelerated. (b) Gravity has the same effect on light, since it is not possible to tell whether the elevator is accelerating upward or acted upon by gravity.')
+![Figure a shows a person holding a flashlight and standing in an elevator that is accelerating upward. The flashlight is held horizontally, but the light beam from the flashlight hits the facing wall slightly below the horizontal path. Figure b shows the same thing but the elevator is at rest on the Earth.](../resources/Figure_34_02_01.jpg '(a) A beam of light emerges from a flashlight in an upward-accelerating elevator. Since the elevator moves up during the time the light takes to reach the wall, the beam strikes lower than it would if the elevator were not accelerated. (b) Gravity has the same effect on light, as described by the local equivalence principle. Tidal effects can distinguish a real gravitational field over an extended region.')
 {: #Figure1}
 
 Einstein’s theory of general relativity got its first verification in 1919 when
@@ -72,12 +66,10 @@ another radical change in our concept of space and time. It is also another
 connection that any particle with mass or energy (massless photons) is affected
 by gravity.
 
-There are several current forefront efforts related to general relativity. One
-is the observation and analysis of gravitational lensing of light. Another is
-analysis of the definitive proof of the existence of black holes. Direct
-observation of gravitational waves or moving wrinkles in space is being searched
-for. Theoretical efforts are also being aimed at the possibility of time travel
-and wormholes into other parts of space due to black holes.
+Observations of gravitational lensing, stellar orbits near galactic centers,
+and gravitational waves test general relativity. Black-hole mergers detected
+through gravitational waves and images of the surroundings of supermassive
+black holes provide especially striking evidence.
 
 <span class="title">**Gravitational lensing**</span>As you can see
 in [[Figure 2]](#Figure2), light is bent toward a mass, producing an effect much
@@ -148,13 +140,13 @@ rays from certain binary star systems that are consistent with such a picture.
 This is not quite proof of black holes, because the X-rays could also be caused
 by matter falling onto a neutron star. These objects were first discovered in
 1967 by the British astrophysicists, Jocelyn Bell and Anthony Hewish. **Neutron
-stars** are literally a star composed of neutrons. They are formed by the
+stars** are dense stellar remnants composed mainly of neutrons. They are formed by the
 collapse of a star’s core in a supernova, during which electrons and protons are
 forced together to form neutrons (the reverse of neutron $$\beta $$ decay).
-Neutron stars are slightly larger than a black hole of the same mass and will
-not collapse further because of resistance by the strong force. However, neutron
-stars cannot have a mass greater than about eight solar masses or they must
-collapse to a black hole. With recent improvements in our ability to resolve
+Neutron stars are supported against further collapse by quantum degeneracy
+pressure and nuclear interactions. Their maximum supported mass is of order two
+to three solar masses, depending on their internal physics and rotation. Beyond
+that limit, further collapse can form a black hole. With recent improvements in our ability to resolve
 small details, such as with the orbiting Chandra X-ray Observatory, it has
 become possible to measure the masses of X-ray-emitting objects by observing the
 motion of companion stars and other matter in their vicinity. What has emerged
@@ -185,133 +177,74 @@ black hole as the engine.
 ![The figure shows a big blue sphere on the left labeled star and a small black region on the right labeled black hole. Material from the star appears to be pulled toward the black hole, and swirls around the black hole forming a horizontal disk that is labeled accretion disk. Along the axis of this disk is a white spike that extends above and below the black hole.](../resources/Figure_34_02_04.jpg 'A black hole is shown pulling matter away from a companion star, forming a superheated accretion disk where X-rays are emitted before the matter disappears forever into the hole. The in-fall energy also ejects some material, forming the two vertical spikes. (See also the photograph in Introduction to Frontiers of Physics.) There are several X-ray-emitting objects in space that are consistent with this picture and are likely to be black holes.')
 {: #Figure4}
 
-<span class="title">**Gravitational waves**</span>If a massive object distorts
-the space around it, like the foot of a water bug on the surface of a pond, then
-movement of the massive object should create waves in space like those on a
-pond. **Gravitational waves** are mass-created distortions in space that
-propagate at the speed of light and are predicted by general relativity. Since
-gravity is by far the weakest force, extreme conditions are needed to generate
-significant gravitational waves. Gravity near binary neutron star systems is so
-great that significant gravitational wave energy is radiated as the two neutron
-stars orbit one another. American astronomers, Joseph Taylor and Russell Hulse,
-measured changes in the orbit of such a binary neutron star system. They found
-its orbit to change precisely as predicted by general relativity, a strong
-indication of gravitational waves, and were awarded the 1993 Nobel Prize. But
-direct detection of gravitational waves on Earth would be conclusive. For many
-years, various attempts have been made to detect gravitational waves by
-observing vibrations induced in matter distorted by these waves. American
-physicist Joseph Weber pioneered this field in the 1960s. Gravitational wave signals were first observed directly on September 14, 2015 by the LIGO system. On February 11, 2016, LIGO and the VIRGO facility announced the first confirmed observation of gravitational waves from colliding black holes. There are now several ambitious
-systems of gravitational wave detectors in use around the world. These include
-the LIGO (Laser Interferometer Gravitational Wave Observatory) system with two
-laser interferometer detectors, one in the state of Washington and another in
-Louisiana (See [[Figure 6]](#Figure6)) and the VIRGO (Variability of Irradiance
-and Gravitational Oscillations) facility in Italy with a single detector. Since then, LIGO has discovered additional merger events and neutron star collisions.
+<span class="title">**Gravitational waves**</span> are traveling disturbances in
+spacetime that propagate at the speed of light. Orbiting compact objects, such
+as neutron stars and black holes, can radiate measurable energy in these waves.
+Changes in a binary pulsar's orbit provided indirect evidence, recognized by the
+1993 Nobel Prize to Russell Hulse and Joseph Taylor.
+
+On September 14, 2015, LIGO directly detected gravitational waves from merging
+black holes. The discovery was announced in February 2016. LIGO's two
+interferometers, in Washington and Louisiana, measure tiny changes in the
+relative lengths of their arms (see [[Figure 6]](#Figure6)). The Virgo detector
+in Italy also uses laser interferometry. Later observations included merging
+neutron stars, linking gravitational-wave measurements with observations of
+light.
 
 ### Quantum Gravity
 
-<span class="title">**Black holes radiate**</span>Quantum gravity is important
-in those situations where gravity is so extremely strong that it has effects on
-the quantum scale, where the other forces are ordinarily much stronger. The
-early universe was such a place, but black holes are another. The first
-significant connection between gravity and quantum effects was made by the
-Russian physicist Yakov Zel’dovich in 1971, and other significant advances
-followed from the British physicist Stephen Hawking. (See [[Figure 7]](#Figure7)
-.) These two showed that black holes could radiate away energy by quantum
-effects just outside the event horizon (nothing can escape from inside the event
-horizon). Black holes are, thus, expected to radiate energy and shrink to
-nothing, although extremely slowly for most black holes. The mechanism is the
-creation of a particle-antiparticle pair from energy in the extremely strong
-gravitational field near the event horizon. One member of the pair falls into
-the hole and the other escapes, conserving momentum. (See [[Figure 8]](#Figure8)
-.) When a black hole loses energy and, hence, rest mass, its event horizon
-shrinks, creating an even greater gravitational field. This increases the rate
-of pair production so that the process grows exponentially until the black hole
-is nuclear in size. A final burst of particles and $$\gamma $$ rays ensues. This
-is an extremely slow process for black holes about the mass of the Sun (produced
-by supernovas) or larger ones (like those thought to be at galactic centers),
-taking on the order of $$ 10^{67} $$ years or longer! Smaller black holes would
-evaporate faster, but they are only speculated to exist as remnants of the Big
-Bang. Searches for characteristic $$\gamma $$ -ray bursts have produced events
-attributable to more mundane objects like neutron stars accreting matter.
+Quantum theory and general relativity are both successful, but a complete
+description of situations where both are essential remains a challenge.
+Proposed approaches differ, and their predictions must ultimately be tested.
 
-![The image on the left shows what appears to be a spherical white burst of dust from which two yellow-orange jets emanate, one going up and the other going down. From the top of the upper jet to the bottom of the lower jet is about one hundred and eighty thousand light years. The background is black. The center of the white burst is expanded in the image on the right and appears as a bright yellow doughnut-shaped disk spread over four hundred light years. At the center of the disk is a bright spot that may be the source of the jets.](../resources/Figure_34_02_05.jpg 'This Hubble Space Telescope photograph shows the extremely energetic core of the NGC 4261 galaxy. With the superior resolution of the orbiting telescope, it has been possible to observe the rotation of an accretion disk around the energy-producing object as well as to map jets of material being ejected from the object. A supermassive black hole is consistent with these observations, but other possibilities are not quite eliminated. (credit: NASA and ESA)')
+One important result is **Hawking radiation**: quantum-field calculations in a
+black-hole spacetime predict that a black hole emits radiation and loses mass.
+The familiar picture of a particle pair forming near the horizon, with one
+member escaping, is only a rough illustration. The outgoing energy comes from
+the black hole's mass, not from a violation of energy conservation
+(see [[Figure 8]](#Figure8)). This radiation has not been observed from an
+astrophysical black hole.
+
+For a black hole with about the Sun's mass, the predicted evaporation time is
+of order $$10^{67}\text{ years}$$. Smaller holes would evaporate faster. The
+final stage cannot be described confidently without a more complete theory.
+
+![The energetic core and surrounding material of NGC 4261.](../resources/Figure_34_02_05.jpg 'An accretion disk and jets around a galactic nucleus provide evidence for a central supermassive black hole. (credit: NASA and ESA)')
 {: #Figure5}
 
-![This figure shows a windowless room full of desks and computer screens and with three large screens on the wall upon which are projected a lot of technical graphs.](../resources/Figure_34_02_06.jpg 'The control room of the LIGO gravitational wave detector. Gravitational waves will cause extremely small vibrations in a mass in this detector, which will be detected by laser interferometer techniques. Such detection in coincidence with other detectors and with astronomical events, such as supernovas, would provide direct evidence of gravitational waves. (credit: Tobin Fricke)')
+![The control room of a LIGO detector.](../resources/Figure_34_02_06.jpg 'LIGO uses laser interferometers to detect the tiny distortions caused by gravitational waves. Its first direct detection occurred in 2015. (credit: Tobin Fricke)')
 {: #Figure6}
 
-![A photo of Stephen Hawking sitting on his special chair fitted with modern gadgets.](../resources/Figure_34_02_07.jpg 'Stephen Hawking (b. 1942) has made many contributions to the theory of quantum gravity. Hawking is a long-time survivor of ALS and has produced popular books on general relativity, cosmology, and quantum gravity. (credit: Lwp Kommunikáció)')
+![Stephen Hawking.](../resources/Figure_34_02_07.jpg 'Stephen Hawking (1942–2018) made major contributions to black-hole physics and the connection between gravity and quantum theory. (credit: Lwp Kommunikáció)')
 {: #Figure7}
 
-![The figure shows a purple doughnut-shaped object with a black hole in the middle. Many different-colored spots are arranged like glazing around the edge of the doughnut. The deep purple of the doughnut fades to a light purple as you move away from the doughnut, and the space around the doughnut is filled with randomly placed white dots. Various particles are shown either falling in or escaping from the doughnut. There is a proton antiproton pair, with the proton escaping and the antiproton falling back into the doughnut. There is an electron-positron pair in which the positron escapes then annihilates with an electron outside the doughnut, with the subsequent gamma rays escaping the doughnut. There is a muon-antimuon pair that is created then both fall back into the doughnut. Finally, there is an electron-positron pair that is generated, with the electron escaping and the positron falling back into the doughnut.](../resources/Figure_34_02_08.jpg 'Gravity and quantum mechanics come into play when a black hole creates a particle-antiparticle pair from the energy in its gravitational field. One member of the pair falls into the hole while the other escapes, removing energy and shrinking the black hole. The search is on for the characteristic energy.')
+![A schematic particle-pair illustration near a black-hole horizon.](../resources/Figure_34_02_08.jpg 'A rough illustration of Hawking radiation. The escaping radiation carries away energy supplied by the black hole, reducing its mass. The pair picture is an analogy, not a literal account of the full calculation.')
 {: #Figure8}
 
-<span class="title">**Wormholes and time travel** </span>The subject of time
-travel captures the imagination. Theoretical physicists, such as the American
-Kip Thorne, have treated the subject seriously, looking into the possibility
-that falling into a black hole could result in popping up in another time and
-place—a trip through a so-called wormhole. Time travel and wormholes appear in
-innumerable science fiction dramatizations, but the consensus is that time
-travel is not possible in theory. While still debated, it appears that quantum
-gravity effects inside a black hole prevent time travel due to the creation of
-particle pairs. Direct evidence is elusive.
+The **Planck time**, about $$10^{-43}\text{ s}$$, and **Planck length**, about
+$$10^{-35}\text{ m}$$, indicate scales where quantum gravity is expected to be
+important. They are not experimentally established smallest units of time and
+length. Some theories propose a discrete structure of spacetime, but this is
+unconfirmed.
 
-<span class="title">**The shortest time** </span>Theoretical studies indicate
-that, at extremely high energies and correspondingly early in the universe,
-quantum fluctuations may make time intervals meaningful only down to some finite
-time limit. Early work indicated that this might be the case for times as long
-as $$ 10^{-43} \text{s} $$ , the time at which all forces were unified. If so,
-then it would be meaningless to consider the universe at times earlier than
-this. Subsequent studies indicate that the crucial time may be as short as $$ 10^{-95} \text{s} $$ . But the point remains—quantum gravity seems to imply that
-there is no such thing as a vanishingly short time. Time may, in fact, be grainy
-with no meaning to time intervals shorter than some tiny but finite size.
-
-<span class="title">**The future of quantum gravity** </span>Not only is quantum
-gravity in its infancy, no one knows how to get started on a theory of gravitons
-and unification of forces. The energies at which TOE should be valid may be so
-high (at least $$ 10^{19} \text{GeV} $$ )
-and the necessary particle separation so small (less than $$ 10^{-35}m $$ )
-that only indirect evidence can provide clues. For some time, the common lament
-of theoretical physicists was one so familiar to struggling students—how do you
-even get started? But Hawking and others have made a start, and the approach
-many theorists have taken is called Superstring theory, the topic of
-the [Superstrings](../contents/ch34Superstrings).
+Wormholes and time travel are also topics of theoretical study. No evidence
+shows that a black hole provides a usable passage to another place or time.
+One proposed framework for quantum gravity is
+[Superstring theory](../contents/ch34Superstrings).
 
 ### Section Summary
 
-- Einstein’s theory of general relativity includes accelerated frames and, thus,
-  encompasses special relativity and gravity. Created by use of careful thought
-  experiments, it has been repeatedly verified by real experiments.
-- One direct result of this behavior of nature is the gravitational lensing** of
-  light by massive objects, such as galaxies, also seen in the microlensing **
-  of light by smaller bodies in our galaxy.
-- Another prediction is the existence of black holes, objects for which the
-  escape velocity is greater than the speed of light and from which nothing can
-  escape.
-- The event horizon is the distance from the object at which the escape velocity
-  equals the speed of light $$c $$ . It is called the Schwarzschild radius
-  $${R}\_{\text{S}} $$ and is given by
-
-  <div class="equation" >
-   $${R}_{\text{S}}=\frac{2GM}{ {c}^{2}}\text{,} $$
-  </div>
-
-     where  $$G $$ is the universal gravitational constant, and  $$M $$
-     is the mass of the body.
-
-- Physics is unknown inside the event horizon, and the possibility of wormholes
-  and time travel are being studied.
-- Candidates for black holes may power the extremely energetic emissions of
-  quasars, distant objects that seem to be early stages of galactic evolution.
-- Neutron stars are stellar remnants, having the density of a nucleus, that hint
-  that black holes could form from supernovas, too.
-- Gravitational waves are wrinkles in space, predicted by general relativity but
-  not yet observed, caused by changes in very massive objects.
-- Quantum gravity is an incompletely developed theory that strives to include
-  general relativity, quantum mechanics, and unification of forces (thus, a TOE)
-  .
-- One unconfirmed connection between general relativity and quantum mechanics is
-  the prediction of characteristic radiation from just outside black holes.
+- General relativity describes gravity through spacetime curvature. Its
+  predictions include gravitational lensing, black holes, and gravitational waves.
+- The equivalence principle relates gravity and acceleration locally; tidal
+  effects can reveal curvature over an extended region.
+- The event horizon is the boundary beyond which light cannot escape. For a
+  nonrotating, uncharged black hole, its radius is $$R_S=2GM/c^2$$.
+- Neutron stars are supported by quantum pressure and nuclear interactions,
+  with a maximum mass of order two to three solar masses.
+- Gravitational waves were first detected directly by LIGO in 2015.
+- Quantum gravity remains an open research problem. Hawking radiation is a
+  theoretical prediction, not an observation of astrophysical black holes.
 
 ### Conceptual Questions
 
@@ -551,26 +484,23 @@ black holes
 nothing, not even light, can escape
 
 general relativity
-: Einstein’s theory that describes all types of relative motion including
-accelerated motion and the effects of gravity
+: Einstein's theory describing gravity through the curvature of spacetime
 
 gravitational waves
-: mass-created distortions in space that propagate at the speed of light and
-that are predicted by general relativity
+: traveling disturbances in spacetime that propagate at the speed of light
 
 escape velocity
 : takeoff velocity when kinetic energy just cancels gravitational potential
 energy
 
 event horizon
-: the distance from the object at which the escape velocity is exactly the speed
-of light
+: the boundary of a black hole beyond which signals cannot escape to distant observers
 
 neutron stars
-: literally a star composed of neutrons
+: compact stellar remnants made mostly of neutrons and supported by quantum pressure and nuclear interactions
 
 Schwarzschild radius
-: the radius of the event horizon
+: the event-horizon radius of a nonrotating, uncharged black hole
 
 thought experiment
 : mental analysis of certain carefully and clearly defined situations to develop
@@ -581,7 +511,6 @@ quasars
 galaxy
 
 Quantum gravity
-: the theory that deals with particle exchange of gravitons as the mechanism for
-the force
+: the effort to describe gravity consistently with quantum mechanics
 
 :::

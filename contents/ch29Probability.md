@@ -70,84 +70,37 @@ through, you obtain a double-slit pattern.
 
 ### Heisenberg Uncertainty
 
-How does knowing which slit the electron passed through change the pattern? The
-answer is fundamentally important—**measurement affects the system being
-observed**. Information can be lost, and in some cases it is impossible to
-measure two physical quantities simultaneously to exact precision. For example,
-you can measure the position of a moving electron by scattering light or other
-electrons from it. Those probes have momentum themselves, and by scattering from
-the electron, they change its momentum **in a manner that loses information**.
-There is a limit to absolute knowledge, even in principle.
+Determining which slit an electron passes through requires an interaction with
+the measuring apparatus. That interaction changes the interference pattern.
+Measurement can disturb a quantum system, but quantum uncertainty is more than
+a limitation of our instruments: it is a property of the quantum state itself.
 
 ![A photograph of a young, smiling Werner Heisenberg.](../resources/Figure_29_07_03.jpg 'Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)')
 {: #Figure3 height="300"}
 
-It was Werner Heisenberg who first stated this limit to knowledge in 1929 as a
-result of his work on quantum mechanics and the wave characteristics of all
-particles. (See [[Figure 3]](#Figure3)). Specifically, consider simultaneously
-measuring the position and momentum of an electron (it could be any particle).
-There is an **uncertainty in position**{: class="term"} $$\Delta x $$ that is
-approximately equal to the wavelength of the particle. That is,
+Werner Heisenberg formulated the uncertainty principle in 1927. A particle's
+wave nature prevents it from having both an exactly defined position and an
+exactly defined momentum. A wave with a single wavelength has a definite
+momentum, but is spread out in space. Combining waves of different wavelengths
+can produce a localized **wave packet**. The more tightly the packet is
+localized, the greater its spread of momenta.
 
-<div class="equation" >
- $$\Delta x\approx \lambda . $$
+The **uncertainty in position**{: class="term"} $$\Delta x$$ and the
+**uncertainty in momentum** $$\Delta p$$ describe the spreads in results from
+repeated measurements on identically prepared particles. They obey
+
+<div class="equation">
+ $$\Delta x\Delta p\ge \frac{h}{4\pi}.$$
 </div>
 
-As discussed above, a wave is not located at one point in space. If the
-electron’s position is measured repeatedly, a spread in locations will be
-observed, implying an uncertainty in position $$\Delta x $$ . To detect the
-position of the particle, we must interact with it, such as having it collide
-with a detector. In the collision, the particle will lose momentum. This change
-in momentum could be anywhere from close to zero to the total momentum of the
-particle, $$p=h/\lambda $$ . It is not possible to tell how much momentum will
-be transferred to a detector, and so there is an **uncertainty in momentum**
-$$\Delta p $$ , too. In fact, the uncertainty in momentum may be as large as the
-momentum itself, which in equation form means that
+This is the **Heisenberg uncertainty principle**. Making the position spread
+very small requires a large momentum spread, and vice versa. It applies even
+before a measurement is made.
 
-<div class="equation" >
- $$\Delta p\approx \frac{h}{\lambda }. $$
-</div>
-
-The uncertainty in position can be reduced by using a shorter-wavelength
-electron, since $$\Delta x\approx \lambda $$ . But shortening the wavelength
-increases the uncertainty in momentum, since $$\Delta p\approx h/\lambda $$ .
-Conversely, the uncertainty in momentum can be reduced by using a
-longer-wavelength electron, but this increases the uncertainty in position.
-Mathematically, you can express this trade-off by multiplying the uncertainties.
-The wavelength cancels, leaving
-
-<div class="equation" >
- $$\Delta x\Delta p\approx h. $$
-</div>
-
-So if one uncertainty is reduced, the other must increase so that their product
-is $$\approx h $$.
-
-With the use of advanced mathematics, Heisenberg showed that the best that can
-be done in a **simultaneous measurement of position and momentum** is
-
-<div class="equation" >
- $$\Delta x\Delta p\ge \frac{h}{4\pi }. $$
-</div>
-
-This is known as the **Heisenberg uncertainty principle**. It is impossible to
-measure position $$x $$ and momentum $$p $$ simultaneously with uncertainties
-$$\Delta x $$ and $$\Delta p $$ that multiply to be less than $$h/4\pi $$ .
-Neither uncertainty can be zero. Neither uncertainty can become small without
-the other becoming large. A small wavelength allows accurate position
-measurement, but it increases the momentum of the probe to the point that it
-further disturbs the momentum of a system being measured. For example, if an
-electron is scattered from an atom and has a wavelength small enough to detect
-the position of electrons in the atom, its momentum can knock the electrons from
-their orbits in a manner that loses information about their original motion. It
-is therefore impossible to follow an electron in its orbit around an atom. If
-you measure the electron’s position, you will find it in a definite location,
-but the atom will be disrupted. Repeated measurements on identical atoms will
-produce interesting probability distributions for electrons around the atom, but
-they will not produce motion information. The probability distributions are
-referred to as electron clouds or orbitals. The shapes of these orbitals are
-often shown in general chemistry texts and are discussed
-in [The Wave Nature of Matter Causes Quantization](../contents/ch30TheWaveNatureOfMatterCausesQuantization).
+In an atom, electrons are described by probability distributions called
+**orbitals**, rather than by definite classical paths. Repeated position
+measurements on identically prepared atoms reveal these distributions, as
+discussed in [The Wave Nature of Matter Causes Quantization](../contents/ch30TheWaveNatureOfMatterCausesQuantization).
 
 ::: example {"id":"Example1","class":"example"}
 
@@ -227,20 +180,19 @@ classical physics for large objects, which is the case here.
 
 ### Heisenberg Uncertainty for Energy and Time
 
-There is another form of **Heisenberg’s uncertainty principle** for _
-simultaneous measurements of energy and time_. In equation form,
+An energy–time uncertainty relation connects the energy spread of a quantum
+state with a characteristic time over which it changes. For the estimates in
+this section, we use
 
-<div class="equation" >
- $$\Delta E\Delta t\ge \frac{h}{4\pi }, $$
+<div class="equation">
+ $$\Delta E\Delta t\gtrsim \frac{h}{4\pi}.$$
 </div>
 
-where $$\Delta E $$ is the **uncertainty in energy** and $$\Delta t $$ is the **uncertainty in time**. This means that within a time interval $$\Delta t $$ , it
-is not possible to measure energy precisely—there will be an uncertainty
-$$\Delta E $$ in the measurement. In order to measure energy more precisely (to
-make $$\Delta E $$ smaller), we must increase $$\Delta t $$ . This time interval
-may be the amount of time we take to make the measurement, or it could be the
-amount of time a particular state exists, as in the next [[Example 2]](#Example2)
-.
+Here $$\Delta E$$ is the **energy spread** and $$\Delta t$$ is a
+**characteristic time**, such as the lifetime of an excited state. A short-lived
+state has a broad spread of decay energies, while a long-lived state can have a
+narrow spread. This is not a universal minimum time required to measure any
+energy; the meaning of the time interval depends on the situation.
 
 ::: example {"id":"Example2","class":"example"}
 
@@ -249,14 +201,13 @@ Heisenberg Uncertainty Principle for Energy and Time for an Atom
 </div>
 
 An atom in an excited state temporarily stores energy. If the lifetime of this excited state is measured to be  $${1.0 \text{×10}}^{-10} s $$ ,
- what is the minimum uncertainty in the energy of the state in eV?
+ estimate the energy spread of the state in eV.
 
 **Strategy**
 
-The minimum uncertainty in energy $$\Delta E $$ is found by using the equals
-sign in $$\Delta E\Delta t\ge h\text{/4}\pi $$ and corresponds to a reasonable
-choice for the uncertainty in time. The largest the uncertainty in time can be
-is the full lifetime of the excited state, or $$\Delta t={1.0 \text{×10}}^{-10} s $$.
+Use the energy–time estimate $$\Delta E\Delta t\sim h/(4\pi)$$, taking
+$$\Delta t$$ as the excited-state lifetime. This gives an approximate energy
+spread, rather than a measurement error set by a clock.
 
 **Solution**
 
@@ -284,32 +235,15 @@ measure the lifetime and energy of such states, but not very significantly.
 
 :::
 
-The uncertainty principle for energy and time can be of great significance if
-the lifetime of a system is very short. Then $$\Delta t $$ is very small, and
-$$\Delta E $$ is consequently very large. Some nuclei and exotic particles have
-extremely short lifetimes (as small as $$ 10^{-25} \text{s} $$ ), causing
-uncertainties in energy as great as many GeV ( $$10^{9} \text{eV} $$ ). Stored
-energy appears as increased rest mass, and so this means that there is
-significant uncertainty in the rest mass of short-lived particles. When measured
-repeatedly, a spread of masses or decay energies are obtained. The spread is
-$$\Delta E $$ . You might ask whether this uncertainty in energy could be
-avoided by not measuring the lifetime. The answer is no. Nature knows the
-lifetime, and so its brevity affects the energy of the particle. This is so well
-established experimentally that the uncertainty in decay energy is used to
-calculate the lifetime of short-lived states. Some nuclei and particles are so
-short-lived that it is difficult to measure their lifetime. But if their decay
-energy can be measured, its spread is $$\Delta E $$ , and this is used in the
-uncertainty principle ( $$\Delta E\Delta t\ge h\text{/4}\pi $$ )
-to calculate the lifetime $$\Delta t $$.
+The lifetime–energy connection is useful for unstable nuclei and particles.
+Repeated decay measurements show a spread of energies, or **spectral width**.
+Very short-lived states have broad widths, so a measured width can be used to
+estimate a lifetime too short to measure directly.
 
-There is another consequence of the uncertainty principle for energy and time.
-If energy is uncertain by $$\Delta E $$ , then conservation of energy can be
-violated by $$\Delta E $$ for a time $$\Delta t $$ . Neither the physicist nor
-nature can tell that conservation of energy has been violated, if the violation
-is temporary and smaller than the uncertainty in energy. While this sounds
-innocuous enough, we shall see in later chapters that it allows the temporary
-creation of matter from nothing and has implications for how nature transmits
-forces over very small distances.
+Energy uncertainty does not permit a temporary violation of energy conservation
+or the creation of matter from nothing. Later, we will use **virtual particles**
+to describe interactions. These are intermediate contributions in a quantum
+calculation, rather than particles created by borrowing energy.
 
 Finally, note that in the discussion of particles and waves, we have stated that
 individual measurements produce precise or particle-like results. A definite
@@ -323,8 +257,7 @@ we affect the traveling.
 
 ### Section Summary
 
-- Matter is found to have the same interference characteristics\*\* as any other
-  wave.
+- Matter exhibits interference, just as other waves do.
 - There is now a probability distribution for the location of a particle rather
   than a definite position.
 - Another consequence of the wave character of all particles is the Heisenberg
@@ -333,8 +266,9 @@ we affect the traveling.
   uncertainty principle is $$\Delta x\Delta p\ge \frac{h}{4\pi } $$ , where
   $$\Delta x $$ is the uncertainty in position and $$\Delta p $$ is the
   uncertainty in momentum.
-- For energy and time, the uncertainty principle is $$\Delta E\Delta t\ge \frac{h}{4\pi } $$ where $$\Delta E $$ is the uncertainty in energy and
-  $$\Delta t $$ is the uncertainty in time.
+- For a short-lived state, an energy–time relation connects its energy spread
+  with its characteristic lifetime: $$\Delta E\Delta t\gtrsim h/(4\pi)$$.
+  This relation does not permit violations of energy conservation.
 - These small limits are fundamentally important on the quantum-mechanical
   scale.
 
@@ -767,24 +701,21 @@ Derived: $$\Delta E \Delta t \approx h$$
 {: class="glossary-title"}
 
 Heisenberg’s uncertainty principle
-: a fundamental limit to the precision with which pairs of quantities (momentum
-and position, and energy and time) can be measured
+: a fundamental limit on the product of the position and momentum spreads of
+a quantum state
 
 uncertainty in energy
-: lack of precision or lack of knowledge of precise results in measurements of
-energy
+: the spread of energies associated with a quantum state
 
 uncertainty in time
-: lack of precision or lack of knowledge of precise results in measurements of
-time
+: in the lifetime–energy estimate used here, a characteristic time such as the
+lifetime of an excited state, rather than a universal clock-measurement error
 
 uncertainty in momentum
-: lack of precision or lack of knowledge of precise results in measurements of
-momentum
+: the statistical spread of momentum measurements on identically prepared systems
 
 uncertainty in position
-: lack of precision or lack of knowledge of precise results in measurements of
-position
+: the statistical spread of position measurements on identically prepared systems
 
 probability distribution
 : the overall spatial distribution of probabilities to find a particle at a

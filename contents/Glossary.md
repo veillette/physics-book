@@ -34,8 +34,7 @@ contact angle | | $$\theta $$ | direction of the resultant | | $${\theta }_{b} $
 dielectric constant | | $$\lambda $$ | decay constant of a nuclide | | $$\lambda $$ | wavelength | | $${\lambda }_{n} $$ | wavelength in a medium | | $${\mu }_{0} $$ | permeability of free space | | $${\mu }_{\text{k} } $$ | coefficient of kinetic friction | | $${\mu }_{\text{s} } $$ | coefficient of static friction | |
 $${\nu}_{e} $$ | electron neutrino | | $${\pi }^{+} $$ | positive pion | |
 $${\pi }^{-} $$ | negative pion | | $${\pi }^{0} $$ | neutral pion | | $$\rho $$
-| density | | $${\rho }_{\text{c} } $$ | critical density, the density needed to
-just halt universal expansion | | $${\rho }_{\text{fl} } $$ | fluid density | |
+| density | | $${\rho }_{\text{c} } $$ | critical total mass-energy density corresponding to spatially flat space | | $${\rho }_{\text{fl} } $$ | fluid density | |
 $${\overline{\rho } }_{\text{obj} } $$ | average density of an object | | $$\rho /{\rho }_{\text{w} } $$ | specific gravity | | $$\tau $$ | characteristic time
 constant for a resistance and inductance $$\left(\text{RL}\right) $$ or
 resistance and capacitance $$\left(\text{RC}\right) $$ circuit | | $$\tau $$ |

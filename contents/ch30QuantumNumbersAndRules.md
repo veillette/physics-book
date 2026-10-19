@@ -248,7 +248,7 @@ in an atom, is determined by its particular quantum numbers. These are expressed
 in the form $$\left(\mathrm{n, l,} {m}_{l}, {m}_{s}\right) $$
 —see [[Table 1]](#Table1) *For electrons in atoms*, the principal quantum number
 can have the values $$n=1, 2, 3, ... $$ . Once $$n $$ is known, the values of
-the angular momentum quantum number are limited to $$l=1, 2, 3, ...,n-1 $$ . For
+the angular momentum quantum number are limited to $$l=0, 1, 2, ...,n-1 $$ . For
 a given value of $$l $$ , the angular momentum projection quantum number can
 have only the values $${m}_{l}=-l, -l +1, ...,-1, 0, 1, ..., l-1, l $$ .
 Electron spin is independent of $$\mathrm{n, l,} $$ and $${m}_{l} $$ , always
@@ -308,7 +308,7 @@ principle actually prevents us and nature from knowing how the electron gets
 from one place to another, and so an orbit really does not exist as such. Nature
 on a small scale is again much different from that on the large scale.
 
-![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_30_08_02.jpg 'Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as ( n,l,m_l ). The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.')
+![The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.](../resources/Figure_30_08_02.jpg 'Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as ( n,l,m_l ). The ground state is (1, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.')
 {: #Figure2}
 
 We will see that the quantum numbers discussed in this section are valid for a

@@ -243,8 +243,9 @@ charge. Antimatter is almost entirely absent on Earth, but it is found in
 nuclear decay and other nuclear and particle reactions as well as in outer
 space.) The electron’s antineutrino $${\overline{\nu }}_{e} $$ , being
 antimatter, has an electron family number of $$-1 $$ . The total is zero, before
-and after the decay. The new conservation law, obeyed in all circumstances,
-states that the *total electron family number is constant*. An electron cannot
+and after the decay. For the beta-decay reactions considered here, the *total electron family
+number is conserved*. Individual neutrino flavors can change during propagation,
+however, through neutrino oscillations. An electron cannot
 be created without also creating an antimatter family member. This law is
 analogous to the conservation of charge in a situation where total charge is
 originally zero, and equal amounts of positive and negative charge must be
@@ -279,8 +280,8 @@ electron, so that the total charge is also $$28 + \left(-1\right) $$ or 27.
 Angular momentum is conserved, but not obviously (you have to examine the spins
 and angular momenta of the final products in detail to verify this). Linear
 momentum is also conserved, again imparting most of the decay energy to the
-electron and the antineutrino, since they are of low and zero mass,
-respectively. Another new conservation law is obeyed here and elsewhere in
+electron and the antineutrino, because their masses are much smaller than the daughter's. The antineutrino's
+mass can be neglected in these calculations. Another new conservation law is obeyed here and elsewhere in
 nature. *The total number of nucleons $$A $$ is conserved*. In
 $${}^{60}\text{Co} $$ decay, for example, there are 60 nucleons before and after
 the decay. Note that total $$A $$ is also conserved in $$\alpha $$ decay. Also
@@ -303,7 +304,7 @@ in mass between the parent nucleus and the products of the decay, using masses
 given in [Appendix A](../contents/appendixA). Then the emitted energy is calculated as before,
 using $$E=\left(\Delta m\right){c}^{2} $$ . The initial mass is just that of the
 parent nucleus, and the final mass is that of the daughter nucleus and the
-electron created in the decay. The neutrino is massless, or nearly so. However,
+electron created in the decay. The neutrino mass is negligible on this energy scale. However,
 since the masses given in [Appendix A](../contents/appendixA) are for neutral atoms, the
 daughter nucleus has one more electron than the parent, and so the extra
 electron mass that corresponds to the $${\beta }^{-} $$ is included in the
@@ -431,7 +432,7 @@ outside the region of stability in the chart of nuclides. Those nuclides that
 have relatively more neutrons than those in the region of stability will
 $${\beta }^{-} $$ decay to produce a daughter with fewer neutrons, producing a
 daughter nearer the region of stability. Similarly, those nuclides having
-relatively more protons than those in the region of stability will $${\beta }^{-} $$ decay or undergo electron capture to produce a daughter with fewer
+relatively more protons than those in the region of stability will $${\beta }^{+} $$ decay or undergo electron capture to produce a daughter with fewer
 protons, nearer the region of stability.
 
 ### Gamma Decay

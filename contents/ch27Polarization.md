@@ -360,8 +360,9 @@ temperature and pH.
 ![The schematic shows an initially unpolarized ray of light that passes through three optical elements. The first is a vertical polarizer, so the electric field is vertical after the ray passes through it. Next comes a block that is labeled optically active. Following this block the electric field has been rotated by an angle theta with respect to the vertical. In the schematic this angle is about forty five degrees. Finally, the ray passes through another vertical polarizer that is labeled analyzer. A shorter and vertically oriented electric field appears after this element.](../resources/Figure_27_08_13.jpg "Optical activity is the ability of some substances to rotate the plane of polarization of light passing through them. The rotation is detected with a polarizing filter or analyzer.")
 {: #Figure13}
 
-Glass and plastic become optically active when stressed; the greater the stress,
-the greater the effect. Optical stress analysis on complicated shapes can be
+Glass and plastic can become **birefringent** when stressed: two perpendicular
+polarization components travel at different speeds and acquire a phase
+difference. This differs from the optical rotation described above. Optical stress analysis on complicated shapes can be
 performed by making plastic models of them and observing them through crossed
 filters, as seen in [[Figure 14]](#Figure14). It is apparent that the effect
 depends on wavelength as well as stress. The wavelength dependence is sometimes

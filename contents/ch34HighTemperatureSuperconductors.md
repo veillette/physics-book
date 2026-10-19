@@ -18,7 +18,7 @@ of superconductor is zero, there are no heat losses for currents through them;
 they are used in magnets needing high currents, such as in MRI machines, and
 could cut energy losses in power transmission. But most superconductors must be
 cooled to temperatures only a few kelvin above absolute zero, a costly procedure
-limiting their practical applications. In the past decade, tremendous advances
+limiting their practical applications. Since the 1980s, major advances
 have been made in producing materials that become superconductors at relatively
 high temperatures. There is hope that room temperature superconductors may
 someday be manufactured.
@@ -59,42 +59,42 @@ researched, particularly in thin film applications.
 ![The figure shows a button-shaped magnet floating above a superconducting puck. Some wispy fog is flowing from the puck.](../resources/Figure_34_06_02.jpg 'One characteristic of a superconductor is that it excludes magnetic flux and, thus, repels other magnets. The small magnet levitated above a high-temperature superconductor, which is cooled by liquid nitrogen, gives evidence that the material is superconducting. When the material warms and becomes conducting, magnetic flux can penetrate it, and the magnet will rest upon it. (credit: Saperaud)')
 {: #Figure2}
 
-The search is on for even higher $${T}_{c} $$ superconductors, many of complex
-and exotic copper oxide ceramics, sometimes including strontium, mercury, or
-yttrium as well as barium, calcium, and other elements. Room temperature (about
-293 K) would be ideal, but any temperature close to room temperature is
-relatively cheap to produce and maintain. There are persistent reports of $${T}_{c} $$ s over 200 K and some in the vicinity of 270 K. Unfortunately, these
-observations are not routinely reproducible, with samples losing their
-superconducting nature once heated and recooled (cycled) a few times (
-see [[Figure 3]](#Figure3).) They are now called USOs or unidentified
-superconducting objects, out of frustration and the refusal of some samples to
-show high $${T}_{c} $$ even though produced in the same manner as others.
-Reproducibility is crucial to discovery, and researchers are justifiably
-reluctant to claim the breakthrough they all seek. Time will tell whether USOs
-are real or an experimental quirk.
+The search for higher critical temperatures must distinguish ordinary-pressure
+materials from materials that superconduct only under enormous pressure.
+Copper-oxide ceramics can superconduct above the 77-K boiling point of liquid
+nitrogen at ordinary pressure, making cooling easier than with liquid helium.
+Their brittleness and other properties still complicate practical uses.
 
-The theory of ordinary superconductors is difficult, involving quantum effects
-for widely separated electrons traveling through a material. Electrons couple in
-a manner that allows them to get through the material without losing energy to
-it, making it a superconductor. High- $${T}_{c} $$ superconductors are more
-difficult to understand theoretically, but theorists seem to be closing in on a
-workable theory. The difficulty of understanding how electrons can sneak through
-materials without losing energy in collisions is even greater at higher
-temperatures, where vibrating atoms should get in the way. Discoverers of high
-$${T}\_{c} $$ may feel something analogous to what a politician once said upon an
-unexpected election victory—“I wonder what we did right?”
+Hydrogen-rich materials under very high pressure have reached higher
+temperatures. For example, a sulfur hydride system was reported in 2015 to
+superconduct near 203 K at pressures of roughly 150 gigapascals—more than a
+million times atmospheric pressure. Such results are important, but they do not
+provide an ordinary-pressure material that can simply be made into power cables.
 
-![Figure a is a graph of resistivity versus temperature. The resistivity goes from zero to zero point six milli ohm centimeters and the temperature goes from one hundred to three hundred kelvin. There are three curves on the graph. The first curve starts near zero point one milli ohm centimeters, one hundred kelvin, and increases linearly to zero point six milli ohm centimeters, two hundred and eighty kelvin. The second curve is at zero resistivity from 100 kelvin to about two hundred and thirty five kelvin, then jumps straight up to zero point four milli ohm centimeters, after which it increases linearly with temperature with the same slope as the first curve. The third curve has one point at minus zero point zero five milli ohm centimeters at about one hundred and thirty kelvin, then becomes positive and increases essentially linearly with the same slope as the first curve. Figure b shows a scaffolding structure made up of rods. At each vertex in the scaffold there is a ball that is either white, red, purple, or blue. Each color represents a different kind of atom. The white balls are the largest, then the red, then the purple, and the blue balls are the smallest. The balls are arranged in a systematic pattern. From bottom to top the scaffold layers are formed from white and red balls, then red and blue balls, then purple balls, then again red and blue balls, then finally white and red balls again. In each individual layer the balls form various grid patterns. This scaffold structure forms a brick-like shape and an identical such brick is positioned above it with a gap between the two bricks. The two bricks are connected together by a single layer of blue balls. ](../resources/Figure_34_06_03.jpg '(a) This graph, adapted from an article in Physics Today, shows the behavior of a single sample of a high-temperature superconductor in three different trials. In one case the sample exhibited a ( T_{c} ) of about 230 K, whereas in the others it did not become superconducting at all. The lack of reproducibility is typical of forefront experiments and prohibits definitive conclusions. (b) This colorful diagram shows the complex but systematic nature of the lattice structure of a high-temperature superconducting ceramic. (credit: en:Cadmium, Wikimedia Commons) ')
+Claims of still higher temperatures must be checked for reproducibility and
+for several signs of superconductivity, including magnetic behavior. A sharp
+resistance change alone is not enough. [[Figure 3]](#Figure3) shows a historical
+example of inconsistent measurements; it is not an established temperature
+record.
+
+![Historical resistance measurements and a ceramic crystal structure.](../resources/Figure_34_06_03.jpg 'The differing trials in (a) illustrate why an apparent high-temperature transition requires reproducible confirmation. They are not an established superconducting record. Part (b) shows the ordered crystal structure of a ceramic superconductor. (credit: en:Cadmium, Wikimedia Commons)')
 {: #Figure3}
+
+In conventional superconductors, electrons form correlated pairs that carry
+current without ordinary electrical resistance. Understanding high-temperature
+superconductivity, especially in copper-oxide ceramics, remains an active
+research problem.
 
 ### Section Summary
 
-- High-temperature superconductors are materials that become superconducting at
-  temperatures well above a few kelvin.
-- The critical temperature $${T}_{c} $$ is the temperature below which a
-  material is superconducting.
-- Some high-temperature superconductors have verified $${T}_{c} $$ s above 125
-  K, and there are reports of $${T}_{c} $$ s as high as 250 K.
+- Superconductors have zero electrical resistivity below their critical
+  temperature and show characteristic magnetic effects.
+- Some high-temperature ceramics can be cooled with liquid nitrogen at
+  ordinary pressure.
+- Very high critical temperatures in pressurized materials must be reported
+  together with their pressure conditions.
+- Reproducible electrical and magnetic evidence is essential to establish a
+  new superconducting material.
 
 ### Conceptual Questions
 

@@ -24,18 +24,13 @@ field of **complexity** is devoted to the study of complex systems, including
 those outside the traditional bounds of physics. Of particular interest is the
 ability of complex systems to adapt and evolve.
 
-What are some examples of complex adaptive systems? One is the primordial ocean.
-When the oceans first formed, they were a random mix of elements and compounds
-that obeyed the laws of physics and chemistry. In a relatively short geological
-time (about 500 million years), life had emerged. Laboratory simulations
-indicate that the emergence of life was far too fast to have come from random
-combinations of compounds, even if driven by lightning and heat. There must be
-an underlying ability of the complex system to organize itself, resulting in the
-self-replication we recognize as life. Living entities, even at the unicellular
-level, are highly organized and systematic. Systems of living organisms are
-themselves complex adaptive systems. The grandest of these evolved into the
-biological system we have today, leaving traces in the geological record of
-steps taken along the way.
+Living systems provide examples of complex adaptive behavior. Molecules obey
+the laws of physics and chemistry, yet their interactions can produce organized
+structures and networks. How such processes led to the first self-replicating
+systems remains an open research question. Self-organization helps scientists
+study possible steps without assuming that life arose from a single random
+combination of molecules. Communities of organisms also adapt and evolve,
+making them another example of complex systems.
 
 Complexity as a discipline examines complex systems, how they adapt and evolve,
 looking for similarities with other complex adaptive systems. Can, for example,

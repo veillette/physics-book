@@ -22,9 +22,10 @@ the idea did not begin with him. People have been exploring relativity for many
 centuries. Relativity is the study of how different observers measure the same
 event. Galileo and Newton developed the first correct version of classical
 relativity. Einstein developed the modern theory of relativity. Modern
-relativity is divided into two parts. **Special relativity** deals with
-observers who are moving at constant velocity. **General relativity** deals with
-observers who are undergoing acceleration. Einstein is famous because his
+relativity is divided into two parts. **Special relativity** describes space and time when gravitational effects can
+be neglected. It relates measurements in inertial frames and can also describe
+accelerating objects. **General relativity** describes gravity through the
+curvature of spacetime. Einstein is famous because his
 theories of relativity made revolutionary predictions. Most importantly, his
 theories have been verified to great precision in a vast range of experiments,
 altering forever our concept of space and time.

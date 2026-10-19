@@ -18,9 +18,11 @@ can destroy living cells.
 
 Electromagnetic waves can bring energy into a system by virtue of their **electric and magnetic fields**. These fields can exert forces and move charges
 in the system and, thus, do work on them. If the frequency of the
-electromagnetic wave is the same as the natural frequencies of the system (such
-as microwaves at the resonant frequency of water molecules), the transfer of
-energy is much more efficient.
+electromagnetic wave matches a natural frequency of the system, energy can be
+transferred efficiently. Microwave ovens provide a different example of energy
+transfer: their alternating electric field makes polar molecules in food turn
+back and forth, heating the food through dielectric loss. The oven frequency is
+not a special resonant frequency of liquid water.
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 

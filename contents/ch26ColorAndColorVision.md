@@ -31,8 +31,9 @@ extent, but we find that color perception is even subtler than our eye’s
 response for various wavelengths of light.
 
 The two major types of light-sensing cells (photoreceptors) in the retina are **rods and cones**. Rods are more sensitive than cones by a factor of about 1000
-and are solely responsible for peripheral vision as well as vision in very dark
-environments. They are also important for motion detection. There are about 120
+and are especially important for vision in very dim light. Both rods and cones
+contribute to peripheral vision, depending on the illumination. Rods also help
+us detect motion in dim light. There are about 120
 million rods in the human retina. Rods do not yield color information. You may
 notice that you lose color vision when it is very dark, but you retain the
 ability to discern gray scales.
@@ -108,10 +109,10 @@ wavelengths produces various hues.
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 
 <div class="title">
-Take-Home Experiment: Exploring Color Addition
+Take-Home Experiment: Exploring Color Subtraction
 </div>
 
-This activity is best done with plastic sheets of different colors as they allow more light to pass through to our eyes. However, thin sheets of paper and fabric can also be used. Overlay different colors of the material and hold them up to a white light. Using the theory described above, explain the colors you observe. You could also try mixing different crayon colors.
+This activity is best done with plastic sheets of different colors as they allow more light to pass through to our eyes. However, thin sheets of paper and fabric can also be used. Overlay different colors of the material and hold them up to a white light. Each sheet absorbs some wavelengths, so stacking sheets demonstrates subtractive color mixing. Compare this with additive mixing, in which colored light beams are superimposed. Mixing different crayon colors also demonstrates subtractive mixing.
 
 :::
 

@@ -40,7 +40,7 @@ efforts by many great minds, no one had a workable theory. (It was a running
 joke that any theory of atomic and molecular spectra could be destroyed by
 throwing a book of data at it, so complex were the spectra.) Following
 Einstein’s proposal of photons with quantized energies directly proportional to
-their wavelengths, it became even more evident that electrons in atoms can exist
+their frequencies, it became even more evident that electrons in atoms can exist
 only in discrete orbits.
 
 ![This figure has two parts. Part a shows a discharge tube at the extreme left. Light from the discharge tube passes through a rectangular slit and a grating, going from left to right. From the grating, light of different colors falls on a photographic film. Part b of the figure shows the emission line spectrum for iron.](../resources/Figure_30_03_02.jpg 'Part (a) shows, from left to right, a discharge tube, slit, and diffraction grating producing a line spectrum. Part (b) shows the emission line spectrum for iron. The discrete lines imply quantized energy states for the atoms that produce them. The line spectrum for each element is unique, providing a powerful and much used analytical tool, and many line spectra were well known for many years before they could be explained with physics. (credit for (b): Yttrium91, Wikimedia Commons)')

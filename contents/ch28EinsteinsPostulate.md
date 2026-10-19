@@ -178,7 +178,7 @@ Explain how special relativity differs from general relativity.
 Answer
 </div>
 
-Special relativity applies only to unaccelerated motion, but general relativity applies to accelerated motion.
+Special relativity describes motion when gravitational effects can be neglected, including accelerating objects. General relativity describes gravity through the curvature of spacetime.
 
 :::
 
@@ -188,8 +188,9 @@ Special relativity applies only to unaccelerated motion, but general relativity 
 
 - Relativity is the study of how different observers measure the same event.
 - Modern relativity is divided into two parts. Special relativity deals with
-  observers who are in uniform (unaccelerated) motion, whereas general
-  relativity includes accelerated relative motion and gravity. Modern relativity
+  measurements in inertial frames and can describe accelerated objects when
+  gravitational effects can be neglected. General relativity describes gravity
+  through the curvature of spacetime. Modern relativity
   is correct in all circumstances and, in the limit of low velocity and weak
   gravitation, gives the same predictions as classical relativity.
 - An inertial frame of reference is a reference frame in which a body at rest

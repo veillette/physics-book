@@ -74,7 +74,7 @@ illustrates this for $$n=3 $$ and $$n=4. $$
 Waves and Quantization
 </div>
 
-The wave nature of matter is responsible for the quantization of energy levels in bound systems. Only those states where matter interferes constructively exist, or are “allowed.” Since there is a lowest orbit where this is possible in an atom, the electron cannot spiral into the nucleus. It cannot exist closer to or inside the nucleus. The wave nature of matter is what prevents matter from collapsing and gives atoms their sizes.
+The wave nature of matter is responsible for the quantization of energy levels in bound systems. Only those states where matter interferes constructively exist, or are “allowed.” The circular standing-wave picture is a useful model of quantization, but real atomic states are probability distributions rather than orbits with a hard inner boundary. An electron can be found within the nucleus, although confining it entirely to that tiny region would require too much energy. Quantum mechanics explains the stability and characteristic sizes of atoms.
 
 :::
 

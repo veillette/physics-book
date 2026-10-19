@@ -129,14 +129,14 @@ de-excitation of a metastable state. Glow-in-the-dark materials, such as
 luminous dials on some watches and clocks and on children’s toys and pajamas,
 are made of phosphorescent substances. Visible light excites the atoms or
 molecules to metastable states that decay slowly, releasing the stored
-excitation energy partially as visible light. In some ceramics, atomic
-excitation energy can be frozen in after the ceramic has cooled from its firing.
-It is very slowly released, but the ceramic can be induced to phosphoresce by
-heating—a process called “thermoluminescence.” Since the release is slow,
-thermoluminescence can be used to date antiquities. The less light emitted, the
-older the ceramic. (See [[Figure 6]](#Figure6).)
+excitation energy partially as visible light. In some ceramics, radiation from the surroundings can leave electrons trapped
+in defects in the material. Heating releases the trapped energy as light, a
+process called **thermoluminescence**. Firing a ceramic empties these traps;
+afterward, natural radiation gradually fills them again. Measuring the stored
+energy and the local radiation dose rate allows the time since firing to be
+estimated. (See [[Figure 6]](#Figure6).)
 
-![The image shows a statue of a Chinese ceramic lion figure.](../resources/Figure_30_05_05.jpg 'Atoms frozen in an excited state when this Chinese ceramic figure was fired can be stimulated to de-excite and emit EM radiation by heating a sample of the ceramic—a process called thermoluminescence. Since the states slowly de-excite over centuries, the amount of thermoluminescence decreases with age, making it possible to use this effect to date and authenticate antiquities. This figure dates from the 11th century. (credit: Vassil, Wikimedia Commons)')
+![A Chinese ceramic lion figure.](../resources/Figure_30_05_05.jpg 'Natural radiation gradually stores energy in electron traps after a ceramic is fired. Heating a sample releases this energy as light. The accumulated signal, together with the environmental dose rate, can be used to date the last firing. This figure dates from the 11th century. (credit: Vassil, Wikimedia Commons)')
 {: #Figure6}
 
 ### Lasers
@@ -153,14 +153,15 @@ produce single-wavelength EM radiation that is also very coherent—that is, the
 emitted photons are in phase. Laser output can, thus, be more precisely
 manipulated than incoherent mixed-wavelength EM radiation from other sources.
 The reason laser output is so pure and coherent is based on how it is produced,
-which in turn depends on a metastable state in the lasing material. Suppose a
+which we can illustrate with a material having a metastable state. Suppose a
 material had the energy levels shown in [[Figure 7]](#Figure7). When energy is
 put into a large collection of these atoms, electrons are raised to all possible
 levels. Most return to the ground state in less than about $$10^{-8} \text{s} $$
 , but those in the metastable state linger. This includes those electrons
 originally excited to the metastable state and those that fell into it from
-above. It is possible to get a majority of the atoms into the metastable state,
-a condition called a **population inversion**.
+above. A **population inversion** occurs when the upper lasing level is more heavily
+populated than the lower lasing level. In this simple example, the lower level
+is the ground state, so more than half the atoms must occupy the metastable level.
 
 ![Several layers of parallel lines showing different levels of energy of an atom. The lowest level is ground state, one level up is first metastable state, next level is second metastable state, and so on. In part a, an atom is in the ground state. In part b, atoms move to different states depending on the energy input in the form of photons. An atom with minimum energy input moves to the first metastable level. One with a greater energy input moves to the second level. One with even greater input moves to the fourth level. In part c, atoms originally at levels above the first metastable state give off energy in the form of photons as they drop back down to the first metastable state. The greater the drop, the more energy is given off.](../resources/Figure_30_05_06.jpg '(a) Energy-level diagram for an atom showing the first few states, one of which is metastable. (b) Massive energy input excites atoms to a variety of states. (c) Most states decay quickly, leaving electrons only in the metastable and ground state. If a majority of electrons are in the metastable state, a population inversion has been achieved.')
 {: #Figure7}
@@ -178,8 +179,9 @@ this photon then strikes another electron in the same high-energy orbit in
 another atom, another photon of the same frequency is released. The emitted
 photons and the triggering photons are always in phase, have the same
 polarization, and travel in the same direction. The probability of absorption of
-a photon is the same as the probability of stimulated emission, and so a
-majority of atoms must be in the metastable state to produce energy. Einstein (
+a photon is the same as the probability of stimulated emission, so there must be a population inversion between the lasing levels for net
+amplification. In the simple model shown, this requires a majority of atoms in
+the metastable state. Einstein (
 again Einstein, and back in 1917!) was one of the important contributors to the
 understanding of stimulated emission of radiation. Among other things, Einstein
 was the first to realize that stimulated emission and absorption are equally
@@ -210,14 +212,20 @@ of the radiation back and forth through the lasing material. One of the mirrors
 is semitransparent to allow some of the light to pass through. The laser output
 from a laser is a mere 1% of the light passing back and forth in a laser.
 
-As described earlier in the section on laser vision correction, Donna Strickland and Gérard Mourou, working at University of Rochester, developed a method to greatly increase the power of lasers, while also enabling them to be miniaturized. By passing the light over a specific type of grating, their method segments (or chirps) the delivery of the beam components in a matter that generates little heat at the source. Chirped pulse amplification is now used in some of the world’s most powerful lasers as well as those commonly used to make precise microcuts or burns in medical applications. Strickland and Mourou were awarded the Nobel Prize in 2018.
+As described in [Vision Correction](../contents/ch26VisionCorrection), chirped
+pulse amplification makes very high peak powers possible. A short pulse is
+stretched in time, amplified at reduced peak intensity, and then compressed
+again. The result is a brief, energetic pulse that can make precise cuts.
+Donna Strickland and Gérard Mourou received a share of the 2018 Nobel Prize in
+Physics for developing this method.
 
 ![There are three schematic figures showing the construction of a laser. The first figure shows two mirrors. One is a totally silvered mirror on left side and one partially silvered mirror on right side. Thus spontaneous emission begins with some photons escaping and others stimulating further emissions. The next figure shows an increase in stimulated emission by reflection of photons by mirrors. The final figure shows an increased number of stimulated photons escaping the partially silvered mirror on the right side.](../resources/Figure_30_05_08.jpg 'Typical laser construction has a method of pumping energy into the lasing material to produce a population inversion. (a) Spontaneous emission begins with some photons escaping and others stimulating further emissions. (b) and (c) Mirrors are used to enhance the probability of stimulated emission by passing photons through the material several times.')
 {: #Figure9}
 
 Lasers are constructed from many types of lasing materials, including gases,
-liquids, solids, and semiconductors. But all lasers are based on the existence
-of a metastable state or a phosphorescent material. Some lasers produce
+liquids, solids, and semiconductors. They use stimulated emission to amplify
+light. A metastable atomic state is useful in some lasers, but other designs,
+including semiconductor lasers, achieve amplification differently. Some lasers produce
 continuous output; others are pulsed in bursts as brief as $$10^{-14} \text{s} $$ . Some laser outputs are fantastically powerful—some greater than $$10^{12} \text{W} $$ —but the more common, everyday lasers produce something on the order of $$10^{-3} \text{W} $$ . The helium-neon laser that produces a familiar red
 light is very common. [[Figure 10]](#Figure10) shows the energy levels of helium
 and neon, a pair of noble gases that work well together. An electrical discharge
@@ -232,7 +240,9 @@ red.) A population inversion can be produced in neon, because there are so many
 more helium atoms and these put energy into the neon. Helium-neon lasers often
 have continuous output, because the population inversion can be maintained even
 while lasing occurs. Probably the most common lasers in use today, including the
-common laser pointer, are semiconductor or diode lasers, made of silicon. Here,
+common laser pointer, are semiconductor or diode lasers. These use compound
+semiconductors such as gallium arsenide or gallium nitride, rather than ordinary
+silicon. Here,
 energy is pumped into the material by passing a current in the device to excite
 the electrons. Special coatings on the ends and fine cleavings of the
 semiconductor material allow light to bounce back and forth and a tiny fraction
@@ -285,8 +295,10 @@ lasers can produce very high power in very brief pulses, they can be used to
 focus an enormous amount of energy on a small glass sphere containing fusion
 fuel. Not only does the incident energy increase the fuel temperature
 significantly so that fusion can occur, it also compresses the fuel to great
-density, enhancing the probability of fusion. The compression or implosion is
-caused by the momentum of the impinging laser photons.
+density, enhancing the probability of fusion. The outer surface of the fuel capsule is heated and blown off, or **ablated**.
+Like a rocket exhaust pushing a rocket forward, this outward-moving material
+drives the remaining capsule inward and compresses the fuel. In some designs,
+the lasers first produce X-rays that heat the capsule.
 
 ![The image shows the inner part of a large shell-like structure where two persons are standing on a boom. The image also shows a sharp pencil shaped structure that serves to hold the fuel pellet at the focus point of all the lasers.](../resources/Figure_30_05_11.jpg 'This system of lasers at Lawrence Livermore Laboratory is used to ignite nuclear fusion. A tremendous burst of energy is focused on a small fuel pellet, which is imploded to the high density and temperature needed to make the fusion reaction proceed. (credit: Lawrence Livermore National Laboratory, Lawrence Livermore National Security, LLC, and the Department of Energy)')
 {: #Figure12}
@@ -378,10 +390,10 @@ holographic images of internal organs and tissues can be made.
   and de-excited by emitting a photon of a lower energy.
 - Some states live much longer than others and are termed metastable.
 - Phosphorescence is the de-excitation of a metastable state.
-- Lasers produce coherent single-wavelength EM radiation by stimulated emission,
-  in which a metastable state is stimulated to decay.
-- Lasing requires a population inversion, in which a majority of the atoms or
-  molecules are in their metastable state.
+- Lasers amplify light by stimulated emission and can produce highly coherent,
+  narrow-band radiation. Some use metastable atomic states.
+- A population inversion means the upper lasing level is more heavily populated
+  than the lower lasing level in the simple models considered here.
 
 ### Conceptual Questions
 
@@ -723,8 +735,8 @@ phosphorescence
 : the de-excitation of a metastable state
 
 population inversion
-: the condition in which the majority of atoms in a sample are in a metastable
-state
+: a condition in which the upper lasing level is more heavily populated than
+the lower lasing level in a simple laser model
 
 stimulated emission
 : emission by atom or molecule in which an excited state is stimulated to decay,

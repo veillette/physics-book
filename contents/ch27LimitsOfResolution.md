@@ -162,21 +162,18 @@ another mirror used to observe radio waves from outer space.
 
 :::
 
-Diffraction is not only a problem for optical instruments but also for the
-electromagnetic radiation itself. Any beam of light having a finite diameter $$D $$ and a wavelength $$\lambda $$ exhibits diffraction spreading. The beam
-spreads out with an angle $$\theta $$ given by the equation $$\theta =1.22\frac{\lambda }{D} $$ . Take, for example, a laser beam made of rays as
-parallel as possible (angles between rays as close to $$\theta =0º $$ as
-possible) instead spreads out at an angle $$\theta =1.22 \lambda /D $$ , where
-$$D $$ is the diameter of the beam and $$\lambda $$ is its wavelength. This
-spreading is impossible to observe for a flashlight, because its beam is not
-very parallel to start with. However, for long-distance transmission of laser
-beams or microwave signals, diffraction spreading can be significant (
-see [[Figure 5]](#Figure5)). To avoid this, we can increase $$D $$ . This is
-done for laser light sent to the Moon to measure its distance from the Earth.
-The laser beam is expanded through a telescope to make $$D $$ much larger and
-$$\theta $$ smaller.
+Diffraction also causes a beam of finite width to spread. For a uniformly
+illuminated circular aperture of diameter $$D$$, the first dark ring occurs at
+approximately $$\theta=1.22\lambda/D$$. This provides a useful model for the
+spreading of light or microwaves from an aperture. The precise spreading angle
+of a laser beam depends on its intensity profile, but a wider beam generally
+spreads less.
 
-![The drawing shows a parabolic dish antenna mounted on a scaffolding tower and oriented to the right. The diameter of the dish is D. A horizontal line extends to the right from the top rim of the dish. Above the top line appears another line leaving the rim of the dish and angling up and to the right. The angle between this line and the horizontal line is labeled theta. Analogous lines appear at the bottom rim of the dish, except that the angled line extends down and to the right.](../resources/Figure_27_06_05.jpg 'The beam produced by this microwave transmission antenna will spread out at a minimum angle ( \\theta =1.22 \\lambda /D ) due to diffraction. It is impossible to produce a near-parallel beam, because the beam has a limited diameter.')
+This matters when laser pulses are sent to the Moon to measure its distance
+(see [[Figure 5]](#Figure5)). A telescope expands the outgoing beam, reducing
+its diffraction spreading.
+
+![A dish antenna of diameter D emits a beam that broadens with distance.](../resources/Figure_27_06_05.jpg 'A finite aperture produces diffraction spreading. For a uniformly illuminated circular aperture, the angle to the first minimum is approximately 1.22 times the wavelength divided by the aperture diameter.')
 {: #Figure5}
 
 In most biology laboratories, resolution is presented when the use of the

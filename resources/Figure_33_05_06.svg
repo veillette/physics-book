@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" role="img" aria-labelledby="title desc">
+  <title id="title">Standard Model particle groups</title>
+  <desc id="desc">The three generations contain up and down quarks, electron and electron neutrino; charm and strange quarks, muon and muon neutrino; and top and bottom quarks, tau and tau neutrino. Gauge bosons and the Higgs boson are separate from the generations.</desc>
+  <rect width="800" height="350" rx="8" fill="#fff"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#172536">
+    <text x="400" y="30" font-size="23">Three generations of quarks and leptons</text>
+    <g fill="#eef3fa" stroke="#7489a3">
+      <rect x="30" y="50" width="235" height="165" rx="6"/>
+      <rect x="283" y="50" width="235" height="165" rx="6"/>
+      <rect x="536" y="50" width="235" height="165" rx="6"/>
+    </g>
+    <g font-size="19" font-weight="bold">
+      <text x="148" y="79">Generation 1</text>
+      <text x="400" y="79">Generation 2</text>
+      <text x="654" y="79">Generation 3</text>
+    </g>
+    <g font-size="19">
+      <text x="148" y="115">up, down</text>
+      <text x="148" y="153">electron</text>
+      <text x="148" y="188">electron neutrino</text>
+      <text x="400" y="115">charm, strange</text>
+      <text x="400" y="153">muon</text>
+      <text x="400" y="188">muon neutrino</text>
+      <text x="654" y="115">top, bottom</text>
+      <text x="654" y="153">tau</text>
+      <text x="654" y="188">tau neutrino</text>
+    </g>
+    <rect x="30" y="232" width="741" height="48" rx="6" fill="#e4f3eb" stroke="#527b66"/>
+    <text x="400" y="263" font-size="19">Gauge bosons: photon, eight gluons, W⁺, W⁻, Z⁰</text>
+    <rect x="30" y="293" width="741" height="40" rx="6" fill="#f9eedc" stroke="#967333"/>
+    <text x="400" y="320" font-size="19">Higgs boson (spin 0)</text>
+  </g>
+</svg>

@@ -604,12 +604,11 @@ to about 10 nm at its highest frequencies, which overlap with the lowest X-ray
 frequencies. It was recognized as early as 1801 by Johann Ritter that the solar
 spectrum had an invisible component beyond the violet range.
 
-Solar UV radiation is broadly subdivided into three regions: UV-A (320-400 nm),
-UV-B (290–320 nm), and UV-C (220–290 nm), ranked from long to shorter
-wavelengths (from smaller to larger energies). Most UV-B and all UV-C is
-absorbed by ozone ( $${\text{O}}_{3} $$ )
-molecules in the upper atmosphere. Consequently, 99% of the solar UV radiation
-reaching the Earth’s surface is UV-A.
+Solar UV radiation is commonly divided into UV-A (315–400 nm), UV-B
+(280–315 nm), and UV-C (100–280 nm), from longer to shorter wavelengths and
+lower to higher photon energies. The atmosphere absorbs all solar UV-C and most
+UV-B before they reach the ground. Ozone and oxygen are especially important in
+this protection. Most solar UV reaching the surface is UV-A.
 
 One of the first illustrations of UV light’s impact on Earth occurred during the Apollo 16 mission in 1972. The mission included the first astronomical images taken from the moon, using a compact and resilient Far Ultraviolet Camera/Spectrograph designed for moon use by scientist and inventor George Robert Carruthers. Designed to capture UV images without the obscuring effects of the Earth’s atmosphere, its most famous image was of the planet itself. Carruthers, who also trained the astronauts on the device’s use, mentioned afterward that “the most immediately obvious and spectacular results were really for the Earth observations, because this was the first time that the Earth had been photographed from a distance in ultraviolet (UV) light, so that you could see the full extent of the hydrogen atmosphere, the polar auroris and what we call the tropical airglow belt.”
 
@@ -688,27 +687,26 @@ being transported down to the surface. The CFCs are relatively stable and will
 contribute to ozone depletion for years to come. CFCs are found in refrigerants,
 air conditioning systems, foams, and aerosols.
 
-International concern over this problem led to the establishment of the “Montreal Protocol” agreement (1987) to phase out CFC production in most countries. However, developing-country participation is needed if worldwide production and elimination of CFCs is to be achieved. Probably the largest contributor to CFC emissions today is China. And while there are indicators that the Protocol has been a success, there is still substantial risk and variability in the ozone layer. (See [[Figure 9]](#Figure9).)
+International concern led to the Montreal Protocol (1987), which phases out
+ozone-depleting substances such as CFCs. The agreement achieved universal
+ratification in 2009. Assessments show that the ozone layer is recovering as
+these substances decline, although recovery takes decades and the Antarctic
+ozone hole still varies from year to year. (See [[Figure 9]](#Figure9).)
 
-![The map shows the variation in concentration of ozone over Antarctica. The scale for the total ozone level is depicted below the graph in Dobson units. The values are marked in colors of spectrum with the lowest value is marked in violet and the maximum value in red. The Antarctica region is marked in violet showing lesser ozone concentration and more ultraviolet rays. The region around Antarctica is in green, showing slightly higher concentration of ozone.](../resources/Figure_24_03_12.jpg 'This map of ozone concentration over Antarctica in October 2011 shows severe depletion suspected to be caused by CFCs. Less dramatic but more general depletion has been observed over northern latitudes, suggesting the effect is global. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Ozone Watch)')
+![The map shows the variation in concentration of ozone over Antarctica. The scale for the total ozone level is depicted below the graph in Dobson units. The values are marked in colors of spectrum with the lowest value is marked in violet and the maximum value in red. The Antarctica region is marked in violet showing lesser ozone concentration and more ultraviolet rays. The region around Antarctica is in green, showing slightly higher concentration of ozone.](../resources/Figure_24_03_12.jpg 'This map of ozone concentration over Antarctica in October 2011 shows the severe seasonal depletion caused largely by chlorine and bromine from human-made ozone-depleting substances. Less dramatic but more general depletion has been observed over northern latitudes, suggesting the effect is global. With less ozone, more ultraviolet radiation from the Sun reaches the surface, causing more damage. (credit: NASA Ozone Watch)')
 {: #Figure9}
 
 ### Benefits of UV Light
 
-Besides the adverse effects of ultraviolet radiation, there are also benefits of
-exposure in nature and uses in technology. Vitamin D production in the skin (
-epidermis) results from exposure to UVB radiation, generally from sunlight. A
-number of studies indicate lack of vitamin D can result in the development of a
-range of cancers (prostate, breast, colon), so a certain amount of UV exposure
-is helpful. Lack of vitamin D is also linked to osteoporosis. Exposures (with no
-sunscreen) of 10 minutes a day to arms, face, and legs might be sufficient to
-provide the accepted dietary level. However, in the winter time north of about
-$$37 ^\circ $$ latitude, most UVB gets blocked by the atmosphere.
+Ultraviolet radiation also has useful effects. UV-B helps the skin produce
+vitamin D, which is needed for healthy bones. This does not make deliberate
+unprotected sun exposure a recommended way to obtain vitamin D; food and
+supplements can provide it without UV damage.
 
-UV radiation is used in the treatment of infantile jaundice and in some skin
-conditions. It is also used in sterilizing workspaces and tools, and killing
-germs in a wide range of applications. It is also used as an analytical tool to
-identify substances.
+Controlled UV exposure is used to treat some skin conditions and to disinfect
+workspaces, water, and tools. Infantile jaundice, by contrast, is treated with
+visible blue or blue-green light, which changes bilirubin into forms the body
+can eliminate. This treatment is called phototherapy.
 
 When exposed to ultraviolet, some substances, such as minerals, glow in
 characteristic visible wavelengths, a process called fluorescence. So-called
@@ -729,13 +727,13 @@ accelerated in an evacuated tube by a high positive voltage. The electron
 strikes a metal plate (e.g., copper) and produces X-rays. Since this is a
 high-voltage discharge, the electron gains sufficient energy to ionize the atom.
 
-![An atom is shown. The nucleus is in the center as a cluster of small spheres packed together. Four electron orbits are shown around the nucleus. The one close to the nucleus is circular. All the other orbits are elliptical in nature and inclined at various angles. An electron, represented as a tiny sphere, is shown to strike the atom. An electron is shown knocked out from the closest orbit. A second image of the same atom illustrates another electron striking innermost orbit; a wavy red arrow representing an X-ray is shooting away from the innermost orbit.](../resources/Figure_24_03_13.jpg 'Artist’s conception of an electron ionizing an atom followed by the recapture of an electron and emission of an X-ray. An energetic electron strikes an atom and knocks an electron out of one of the orbits closest to the nucleus. Later, the atom captures another electron, and the energy released by its fall into a low orbit generates a high-energy EM wave called an X-ray.')
+![An atom is shown. The nucleus is in the center as a cluster of small spheres packed together. Four electron orbits are shown around the nucleus. The one close to the nucleus is circular. All the other orbits are elliptical in nature and inclined at various angles. An electron, represented as a tiny sphere, is shown to strike the atom. An electron is shown knocked out from the closest orbit. A second image of the same atom illustrates another electron striking innermost orbit; a wavy red arrow representing an X-ray is shooting away from the innermost orbit.](../resources/Figure_24_03_13.jpg 'Artist’s conception of an electron ionizing an atom followed by an electron transition and emission of an X-ray. An energetic electron strikes an atom and knocks an electron out of one of the orbits closest to the nucleus. An electron from a higher shell then fills the vacancy, releasing energy as an X-ray photon.')
 {: #Figure10}
 
 In the case shown, an inner-shell electron (one in an orbit relatively close to
 and tightly bound to the nucleus) is ejected. A short time later, another
-electron is captured and falls into the orbit in a single great plunge. The
-energy released by this fall is given to an EM wave known as an X-ray. Since the
+electron from a higher shell fills the vacancy. The energy released in this
+transition is carried away by an X-ray photon. Since the
 orbits of the atom are unique to the type of atom, the energy of the X-ray is
 characteristic of the atom, hence the name characteristic X-ray.
 
@@ -832,9 +830,9 @@ is used in nuclear medicine.
 
 [[Figure 13]](#Figure13) shows a medical image based on $$\gamma $$ rays. Food
 spoilage can be greatly inhibited by exposing it to large doses of $$\gamma $$
-radiation, thereby obliterating responsible microorganisms. Damage to food cells
-through irradiation occurs as well, and the long-term hazards of consuming
-radiation-preserved food are unknown and controversial for some groups. Both
+radiation, thereby reducing the microorganisms responsible. Approved food
+irradiation processes have been evaluated for safety and do not make food
+radioactive. Irradiated food still requires proper handling and storage. Both
 X-ray and $$\gamma \text{-ray} $$ technologies are also used in scanning luggage
 at airports.
 

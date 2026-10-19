@@ -194,14 +194,14 @@ action of lenses in situations ranging from forming images on film to magnifying
 small print to correcting nearsightedness. While ray tracing for complicated
 lenses, such as those found in sophisticated cameras, may require computer
 techniques, there is a set of simple rules for tracing rays through thin lenses.
-A **thin lens** is defined to be one whose thickness allows rays to refract, as
-illustrated in [[Figure 1]](#Figure1), but does not allow properties such as
-dispersion and aberrations. An ideal thin lens has two refracting surfaces but
-the lens is thin enough to assume that light rays bend only once. A thin
-symmetrical lens has two focal points, one on either side and both at the same
-distance from the lens. (See [[Figure 5]](#Figure5).) Another important
-characteristic of a thin lens is that light rays through its center are
-deflected by a negligible amount, as seen in [[Figure 6]](#Figure6).
+A **thin lens** has a thickness small compared with the distances used to
+describe image formation. We approximate refraction at its two surfaces as a
+single change in ray direction at the lens. We also use rays close to the axis
+and neglect aberrations in this ideal model; real thin lenses can still show
+dispersion and aberrations. A thin lens in the same medium on both sides has two
+focal points at equal distances from the lens. (See [[Figure 5]](#Figure5).)
+A ray through its center is deflected by a negligible amount, as seen
+in [[Figure 6]](#Figure6).
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
 
@@ -209,7 +209,7 @@ deflected by a negligible amount, as seen in [[Figure 6]](#Figure6).
 Thin Lens
 </div>
 
-A thin lens is defined to be one whose thickness allows rays to refract but does not allow properties such as dispersion and aberrations.
+A thin lens has a thickness small enough to neglect when locating its object, image, and focal points. In our ideal model, we also neglect aberrations.
 
 :::
 

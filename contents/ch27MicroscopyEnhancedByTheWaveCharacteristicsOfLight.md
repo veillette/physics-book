@@ -109,28 +109,13 @@ strong color and in high contrast. Many polarization effects are wavelength
 dependent, producing color in the processed image. Contrast results from the
 action of the polarizing filter in passing only components parallel to its axis.
 
-Apart from the UV microscope, the variations of microscopy discussed so far in
-this section are available as attachments to fairly standard microscopes or as
-slight variations. The next level of sophistication is provided by commercial **confocal microscopes**, which use the extended focal region shown
-in [[Figure 7]](../contents/ch27LimitsOfResolution#Figure7)(b) to obtain three-dimensional
-images rather than two-dimensional images. Here, only a single plane or region
-of focus is identified; out-of-focus regions above and below this plane are
-subtracted out by a computer so the image quality is much better. This type of
-microscope makes use of fluorescence, where a laser provides the excitation
-light. Laser light passing through a tiny aperture called a pinhole forms an
-extended focal region within the specimen. The reflected light passes through
-the objective lens to a second pinhole and the photomultiplier detector,
-see [[Figure 4]](#Figure4). The second pinhole is the key here and serves to
-block much of the light from points that are not at the focal point of the
-objective lens. The pinhole is conjugate (coupled) to the focal point of the
-lens. The second pinhole and detector are scanned, allowing reflected light from
-a small region or section of the extended focal region to be imaged at any one
-time. The out-of-focus light is excluded. Each image is stored in a computer,
-and a full scanned image is generated in a short time. Live cell processes can
-also be imaged at adequate scanning speeds allowing the imaging of
-three-dimensional microscopic movement. Confocal microscopy enhances images over
-conventional optical microscopy, especially for thicker specimens, and so has
-become quite popular.
+Apart from UV microscopes, the methods discussed so far can be added to fairly
+standard microscopes. A **confocal microscope** uses focused illumination and a
+small aperture, called a pinhole, in front of the detector. The pinhole rejects
+much of the light from above and below the focal plane. Scanning the specimen
+produces a sharp optical section; combining sections at different depths gives a
+three-dimensional image (see [[Figure 4]](#Figure4)). Computer processing can improve the image further, but
+the optical rejection of out-of-focus light is the defining feature.
 
 The next level of sophistication is provided by microscopes attached to
 instruments that isolate and detect only a small wavelength band of
@@ -146,7 +131,7 @@ later. Research is being conducted into the development of new prototype
 microscopes that can become commercially available, providing better diagnostic
 and research capacities.
 
-![Schematic of a confocal microscope. There is a sample at the bottom, a pinhole at the top, and a pinhole at the right side. The sample is a horizontal rectangle that is rather thick in the vertical direction. A green laser beam coming from the right is focused through the right pinhole, then reflects downward off of a dichroic mirror. It is then collected by a horizontal objective lens and focused onto the sample. The focus is not a point, but an extended zone where the beam diameter is minimal. Two solid red rays leave the focal plane of the objective lens and diverge upward. This plane is inside the sample and is labeled object in focal plane. These rays pass through the objective lens and begin to converge. After passing through the dichroic mirror, they continue upward and are focused through the top pinhole. After passing through this pinhole, these rays enter a detector. Two dashed red rays leave the sample at a point slightly above the focal plane, which is labeled object not in focal plane. These rays follow similar paths as the solid red rays, but they do not focus on the pinhole and so are blocked and do not reach the detector.](../resources/Figure_27_09_04.jpg 'A confocal microscope provides three-dimensional images using pinholes and the extended depth of focus as described by wave optics. The right pinhole illuminates a tiny region of the sample in the focal plane. In-focus light rays from this tiny region pass through the dichroic mirror and the second pinhole to a detector and a computer. Out-of-focus light rays are blocked. The pinhole is scanned sideways to form an image of the entire focal plane. The pinhole can then be scanned up and down to gather images from different focal planes. The result is a three-dimensional image of the specimen.')
+![Schematic of a confocal microscope. There is a sample at the bottom, a pinhole at the top, and a pinhole at the right side. The sample is a horizontal rectangle that is rather thick in the vertical direction. A green laser beam coming from the right is focused through the right pinhole, then reflects downward off of a dichroic mirror. It is then collected by a horizontal objective lens and focused onto the sample. The focus is not a point, but an extended zone where the beam diameter is minimal. Two solid red rays leave the focal plane of the objective lens and diverge upward. This plane is inside the sample and is labeled object in focal plane. These rays pass through the objective lens and begin to converge. After passing through the dichroic mirror, they continue upward and are focused through the top pinhole. After passing through this pinhole, these rays enter a detector. Two dashed red rays leave the sample at a point slightly above the focal plane, which is labeled object not in focal plane. These rays follow similar paths as the solid red rays, but they do not focus on the pinhole and so are blocked and do not reach the detector.](../resources/Figure_27_09_04.jpg 'Confocal microscopy combines focused illumination with a detection pinhole that rejects out-of-focus light. Scanning laterally produces an optical section; collecting sections at different depths allows a three-dimensional reconstruction.')
 {: #Figure4}
 
 ### Section Summary

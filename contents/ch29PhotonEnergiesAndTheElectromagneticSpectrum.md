@@ -86,8 +86,8 @@ frequencies and, hence, the highest photon energies in the EM spectrum. For
 example, a $$\gamma $$ -ray photon with $$f{= 10}^{21} \text{Hz} $$ has an
 energy $$E= hf=6.63 \times 10^{-13} \text{J}=4.14 \text{MeV} \text{.} $$ This is
 sufficient energy to ionize thousands of atoms and molecules, since only 10 to
-1000 eV are needed per ionization. In fact, $$\gamma $$ rays are one type of **ionizing radiation**, as are X-rays and UV, because they produce ionization in
-materials that absorb them. Because so much ionization can be produced, a single
+1000 eV are needed per ionization. In fact, $$\gamma $$ rays are one type of **ionizing radiation**, as are X-rays and sufficiently energetic UV photons, because they can remove
+electrons from atoms or molecules that absorb them. Because so much ionization can be produced, a single
 $$\gamma $$ -ray photon can cause significant damage to biological tissue,
 killing cells or damaging their ability to properly reproduce. When cell
 reproduction is disrupted, the result can be cancer, one of the known effects of
@@ -200,24 +200,20 @@ anode material. They are akin to lines in atomic spectra, implying the energy
 levels of atoms are quantized. Phenomena such as discrete atomic spectra and
 characteristic X-rays are explored further in [Atomic Physics](../contents/ch30AtomicPhysics).
 
-**Ultraviolet radiation** (approximately 4 eV to 300 eV) overlaps with the low
-end of the energy range of X-rays, but UV is typically lower in energy. UV comes
-from the de-excitation of atoms that may be part of a hot solid or gas. These
-atoms can be given energy that they later release as UV by numerous processes,
-including electric discharge, nuclear explosion, thermal agitation, and exposure
-to X-rays. A UV photon has sufficient energy to ionize atoms and molecules,
-which makes its effects different from those of visible light. UV thus has some
-of the same biological effects as $$\gamma $$ rays and X-rays. For example, it
-can cause skin cancer and is used as a sterilizer. The major difference is that
-several UV photons are required to disrupt cell reproduction or kill a
-bacterium, whereas single $$\gamma $$ -ray and X-ray photons can do the same
-damage. But since UV does have the energy to alter molecules, it can do what
-visible light cannot. One of the beneficial aspects of UV is that it triggers
-the production of vitamin D in the skin, whereas visible light has insufficient
-energy per photon to alter the molecules that trigger this production. Infantile
-jaundice is treated by exposing the baby to UV (with eye protection), called
-phototherapy, the beneficial effects of which are thought to be related to its
-ability to help prevent the buildup of potentially toxic bilirubin in the blood.
+**Ultraviolet radiation** has photon energies from about 3 eV upward, depending
+on the wavelength. UV can be emitted by excited atoms and molecules. Its
+shortest wavelengths overlap the low-energy end of the X-ray range.
+
+Whether a photon can ionize an atom or molecule depends on the target's
+ionization energy. Much UV-A and UV-B is non-ionizing, but can still excite
+molecules and cause chemical changes, including DNA damage. This helps explain
+both the harmful effects of UV and its use in disinfection. Visible light can
+also drive chemical changes, as in vision and photosynthesis; it is not
+energetic enough to ionize most ordinary materials with a single photon.
+
+UV-B helps the skin produce vitamin D. Infantile jaundice is treated with
+visible blue or blue-green light, rather than UV. This phototherapy changes
+bilirubin into forms that the body can eliminate.
 
 ::: example
 
@@ -268,9 +264,9 @@ The range of photon energies for **visible light** from red to violet is 1.63 to
 . These energies are on the order of those between outer electron shells in
 atoms and molecules. This means that these photons can be absorbed by atoms and
 molecules. A **single** photon can actually stimulate the retina, for example,
-by altering a receptor molecule that then triggers a nerve impulse. Photons can
-be absorbed or emitted only by atoms and molecules that have precisely the
-correct quantized energy step to do so. For example, if a red photon of
+by altering a receptor molecule that then triggers a nerve impulse. For a transition between two discrete energy levels, an absorbed or emitted
+photon must match the energy difference. Molecules and solids have many closely
+spaced levels, so they can absorb broader ranges of photon energies. For example, if a red photon of
 frequency $$f $$ encounters a molecule that has an energy step, $$\Delta E, $$
 equal to $$ hf, $$ then the photon can be absorbed. Violet flowers absorb red
 and reflect violet; this implies there is no energy step between levels in the
@@ -299,9 +295,9 @@ because there is no energy step in the atoms or molecules that could absorb the
 light. Since individual photons interact with individual atoms, it is nearly
 impossible to have two photons absorbed simultaneously to reach a large energy
 step. Because of its lower photon energy, visible light can sometimes pass
-through many kilometers of a substance, while higher frequencies like UV, X-ray,
-and $$\gamma $$ rays are absorbed, because they have sufficient photon energy to
-ionize the material.
+through many kilometers of a substance, while higher frequencies like UV, X-rays,
+and $$\gamma$$ rays may be absorbed through excitation or ionization, depending
+on the photon energy and the material.
 
 ::: example
 
@@ -352,8 +348,8 @@ many kilometers away.
 
 ### Lower-Energy Photons
 
-**Infrared radiation (IR)** has even lower photon energies than visible light
-and cannot significantly alter atoms and molecules. IR can be absorbed and
+**Infrared radiation (IR)** has lower photon energies than visible light and
+can excite molecular vibrations and rotations. IR can be absorbed and
 emitted by atoms and molecules, particularly between closely spaced states. IR
 is extremely strongly absorbed by water, for example, because water molecules
 have many states separated by energies on the order of $$10^{-5} \text{eV} $$ to

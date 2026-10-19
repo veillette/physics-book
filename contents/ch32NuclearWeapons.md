@@ -47,10 +47,9 @@ they achieved the first self-sustained nuclear reactor. This first “atomic
 pile”, built in a squash court at the University of Chicago, used carbon blocks
 to thermalize neutrons. It not only proved that the chain reaction was possible,
 it began the era of nuclear reactors. Glenn Seaborg, an American chemist and
-physicist, received the Nobel Prize in physics in 1951 for discovery of several
-transuranic elements, including plutonium. Carbon-moderated reactors are
-relatively inexpensive and simple in design and are still used for breeding
-plutonium, such as at Chernobyl, where two such reactors remain in operation.
+physicist, received a share of the Nobel Prize in Chemistry in 1951 for discovery of several
+transuranic elements, including plutonium. Some reactors use carbon as a neutron moderator. The Chernobyl power station
+used graphite-moderated reactors; its last operating reactor shut down in 2000.
 
 Plutonium was recognized as easier to fission with neutrons and, hence, a
 superior fission material very early in the Manhattan Project. Plutonium

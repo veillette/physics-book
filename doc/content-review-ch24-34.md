@@ -2,9 +2,15 @@
 
 Review date: October 18, 2026.
 
-This review concerns the current working-tree text, including existing uncommitted edits. It focuses on scientific explanations, definitions, main-text equations, captions, internal consistency, and dated factual claims. End-of-section exercises, problems, and their solutions are excluded. Worked-example calculations were not systematically recalculated, and this is not an exhaustive typesetting or spelling audit. No textbook source files were changed.
+**Correction status:** All 57 numbered findings and the 13 additional items below have been addressed in the textbook. The revisions keep the explanations at an introductory level and reconcile related summaries, glossary entries, captions, and diagrams. End-of-section exercises, problems, and their solutions remain outside this revision's scope.
 
-The main teaching sequence is useful: electromagnetic waves → optics → relativity → quantum physics → atomic and nuclear physics → particle physics and cosmology. However, there are consequential errors within that sequence. Chapters 30–34 need the most substantive revision; chapter 32 also needs a medical-physics terminology and factual review. Correcting isolated typos will not resolve the conceptual problems.
+The original review is retained below as a record of the issues and supporting sources. Its descriptions and line numbers refer to the text before correction.
+
+**Validation:** The site build and checks for math delimiters, YAML, document structure, figures, and internal cross-references passed. All 49 new or changed math expressions also rendered with MathJax without errors. `git diff --check` passed.
+
+This review focused on scientific explanations, definitions, main-text equations, captions, internal consistency, and dated factual claims. Worked-example calculations were not systematically recalculated during the review, and this was not an exhaustive typesetting or spelling audit.
+
+The main teaching sequence is useful: electromagnetic waves → optics → relativity → quantum physics → atomic and nuclear physics → particle physics and cosmology. The review identified consequential errors within that sequence. Chapters 30–34 required the most substantive revision, including chapter 32's medical-physics terminology.
 
 **Priority:** High means the passage teaches an incorrect physical rule, gives consequential incorrect data, or substantially misstates the evidence. Medium means an explanation needs qualification, an application is misdescribed, or historical/current information needs correction. Locations below refer to the reviewed Markdown line numbers.
 
@@ -162,8 +168,8 @@ These are separate from the scientific corrections above, but should be addresse
 - [Chapter 34's complexity discussion, line 27](../contents/ch34ComplexityAndChaos.md#L27), claims laboratory simulations establish that life emerged too rapidly to result from random combinations. This is a strong, uncited conclusion about an unresolved origin-of-life problem. Replace it with a qualified discussion of self-organization and open research questions.
 - [Chapter 34's superconductivity discussion, line 62](../contents/ch34HighTemperatureSuperconductors.md#L62), should distinguish ambient-pressure materials, high-pressure materials, and unreplicated claims. The historical “unidentified superconducting objects” account is not an adequate description of the modern field. Any numerical record needs its pressure conditions and a primary source.
 
-## Revision approach
+## Revision approach used
 
-Correct the high-priority physical rules and dose quantities first, then reconcile the repeated explanations across chapters. In particular, revise these linked topics together: UV/phototherapy in chapters 24 and 29; thin-lens assumptions in chapters 25–26; uncertainty and virtual particles in chapters 29 and 33; laser/fusion mechanisms in chapters 30 and 32; neutrino mass and flavor in chapters 31–34; and established versus speculative unification in chapters 33–34.
+The revision corrected the physical rules and dose quantities, then reconciled repeated explanations across chapters: UV/phototherapy in chapters 24 and 29; thin-lens assumptions in chapters 25–26; uncertainty and virtual particles in chapters 29 and 33; laser/fusion mechanisms in chapters 30 and 32; neutrino mass and flavor in chapters 31–34; and established versus speculative unification in chapters 33–34.
 
-After substantive revision, check summaries, captions, glossary definitions, and illustrations against the corrected prose. Several identified errors already appear in both the body and a caption or recap. A later copyedit should standardize notation, repair malformed subscripts and emphasis, and replace undated “recent,” “new,” and future-tense claims with explicit dates.
+Related summaries, captions, glossary definitions, and illustrations were checked against the corrected prose. Two particle-physics diagrams were replaced to show the Standard Model particle groups and the eight gluons accurately. Dated experimental milestones replace obsolete forecasts. The superconductivity revision uses the primary report of 203 K superconductivity at high pressure: [Drozdov et al., Nature (2015)](https://www.nature.com/articles/nature14964).

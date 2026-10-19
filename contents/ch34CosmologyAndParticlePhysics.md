@@ -63,47 +63,27 @@ Earth. The Andromeda galaxy is a large spiral galaxy like ours and lies 2
 million light years away. It is just visible to the naked eye as an extended
 glow in the Andromeda constellation. Andromeda is the closest large galaxy in
 our local group, and we can see some individual stars in it with our larger
-telescopes. The most distant known galaxy is 14 billion light years from Earth—a
-truly incredible distance. (See [[Figure 3]](#Figure3).)
+telescopes. Distant galaxies let us study the universe at earlier times.
 
-![The first image shows a shining spiral cloud of light and dust. The second image contains three sub images. The first is a large scale view of numerous points of lights and light clouds against a black background. A small square appears in the upper left of the image, and the second image is the zoom-in of this square. In the center of this second image appears a small red dot, which is again boxed in by a square. The third image shows a zoomed-in view of the square from the second image and shows a hazy picture of a circular bright spot surrounded by darker regions.](../resources/Figure_34_01_03.jpg '(a) Andromeda is the closest large galaxy, at 2 million light years distance, and is very similar to our Milky Way. The blue regions harbor young and emerging stars, while dark streaks are vast clouds of gas and dust. A smaller satellite galaxy is clearly visible. (b) The box indicates what may be the most distant known galaxy, estimated to be 13 billion light years from us. It exists in a much older part of the universe. (credit: NASA, ESA, G. Illingworth (University of California, Santa Cruz), R. Bouwens (University of California, Santa Cruz and Leiden University), and the HUDF09 Team) ')
+![Andromeda and a distant galaxy in a Hubble image.](../resources/Figure_34_01_03.jpg 'Nearby Andromeda is shown in (a). In (b), a Hubble image reveals a very distant galaxy as it appeared early in cosmic history. Looking farther away generally means looking farther into the past. (credit: NASA, ESA, G. Illingworth, R. Bouwens, and the HUDF09 Team)')
 {: #Figure3}
 
-Consider the fact that the light we receive from these vast distances has been
-on its way to us for a long time. In fact, the time in years is the same as the
-distance in light years. For example, the Andromeda galaxy is 2 million light
-years away, so that the light now reaching us left it 2 million years ago. If we
-could be there now, Andromeda would be different. Similarly, light from the most
-distant galaxy left it 14 billion years ago. We have an incredible view of the
-past when looking great distances. We can try to see if the universe was
-different then—if distant galaxies are more tightly packed or have
-younger-looking stars, for example, than closer galaxies, in which case there
-has been an evolution in time. But the problem is that the uncertainties in our
-data are great. Cosmology is almost typified by these large uncertainties, so
-that we must be especially cautious in drawing conclusions. One consequence is
-that there are more questions than answers, and so there are many competing
-theories. Another consequence is that any hard data produce a major result.
-Discoveries of some importance are being made on a regular basis, the hallmark
-of a field in its golden age.
+For a nearby galaxy, its distance in light years is approximately the number of
+years its light has traveled. At cosmological distances this simple equality
+does not hold, because space expands while the light travels. A galaxy's present
+distance can therefore be much greater than the distance obtained by multiplying
+its light-travel time by the speed of light. We must specify which distance
+measure we mean when describing the distant universe.
 
-Perhaps the most important characteristic of the universe is that all galaxies
-except those in our local cluster seem to be moving away from us at speeds
-proportional to their distance from our galaxy. It looks as if a gigantic
-explosion, universally called the **Big Bang**, threw matter out some billions
-of years ago. This amazing conclusion is based on the pioneering work of Edwin
-Hubble (1889–1953), the American astronomer. In the 1920s, Hubble first
-demonstrated conclusively that other galaxies, many previously called nebulae or
-clouds of stars, were outside our own. He then found that all but the closest
-galaxies have a red shift in their hydrogen spectra that is proportional to
-their distance. The explanation is that there is a **cosmological red shift**
-due to the expansion of space itself. The photon wavelength is stretched in
-transit from the source to the observer. Double the distance, and the red shift
-is doubled. While this cosmological red shift is often called a Doppler shift,
-it is not—space itself is expanding. There is no center of expansion in the
-universe. All observers see themselves as stationary; the other objects in space
-appear to be moving away from them. Hubble was directly responsible for
-discovering that the universe was much larger than had previously been imagined
-and that it had this amazing characteristic of rapid expansion.
+On large scales, distant galaxies generally recede from us, with more distant
+galaxies receding faster. Edwin Hubble's work in the 1920s helped establish both
+the existence of galaxies beyond the Milky Way and this expansion pattern.
+
+The **cosmological redshift** is caused by the expansion of space: light waves
+are stretched as they travel. For nearby galaxies, redshift is approximately
+proportional to distance, but this simple proportionality does not hold at all
+distances. There is no special center of expansion within the universe.
+Observers in other galaxies would see the same general expansion pattern.
 
 Universal expansion on the scale of galactic clusters (that is, galaxies at
 smaller distances are not uniformly receding from one another) is an integral
@@ -116,46 +96,46 @@ can be obtained from the simple formula
  $$\text{v}={H}_{0}d\text{,} $$
 </div>
 
-where $$d $$ is the distance to the galaxy and $${H}_{0} $$ is the **Hubble
-constant**. The Hubble constant is a central concept in cosmology. Its value is
-determined by taking the slope of a graph of velocity versus distance, obtained
-from red shift measurements, such as shown in [[Figure 4]](#Figure4). We shall
-use an approximate value of $${H}_{0}=20\text{km/s}\cdot \text{Mly}. $$ Thus,
-$$v={H}\_{0}d $$ is an average behavior for all but the closest galaxies. For
-example, a galaxy 100 Mly away (as determined by its size and brightness)
-typically moves away from us at a speed of $$v=\left(20\text{km/s}\cdot \text{Mly}\right)\left(100\text{Mly}\right)=2000\text{km/s}. $$ There can be
-variations in this speed due to so-called local motions or interactions with
-neighboring galaxies. Conversely, if a galaxy is found to be moving away from us
-at speed of 100 000 km/s based on its red shift, it is at a distance
+where $$d$$ is the present distance and $$H_0$$ is the **Hubble constant**, the
+present expansion rate per unit distance. For simple calculations we use
 
-$$ d=v/{H}_{0}=\left(10 000\text{km/s}\right)/\left(20\text{km/s}\cdot \text{Mly}\right)=5000\text{Mly}=5\text{Gly} $$ or $$5 \times 10^{9} \text{ly} $$ . This last calculation is approximate, because it assumes the expansion rate 
-was the same 5 billion years ago as now. A similar calculation in Hubble’s
-measurement changed the notion that the universe is in a steady state.
+<div class="equation">
+ $$H_0\approx20\,\frac{\text{km/s}}{\text{Mly}}.$$
+</div>
+
+For example, a galaxy 100 Mly away has a recession speed of roughly
+
+<div class="equation">
+ $$v\approx\left(20\,\frac{\text{km/s}}{\text{Mly}}\right)
+ (100\text{ Mly})=2000\text{ km/s}.$$
+</div>
+
+Conversely, a nearby galaxy receding at 10 000 km/s would have an estimated
+distance
+
+<div class="equation">
+ $$d\approx\frac{10\,000\text{ km/s}}
+ {20\,(\text{km/s})/\text{Mly}}=500\text{ Mly}.$$
+</div>
+
+Local motions cause departures from this pattern. At large redshift, converting
+redshift into distance or light-travel time requires a model of how the
+expansion has changed, rather than the nearby approximation $$v\approx cz$$.
 
 ![A graph of red shift versus distance that contains a lot of points through which fits a straight line passing through the origin.](../resources/Figure_34_01_04.jpg "This graph of red shift versus distance for galaxies shows a linear relationship, with larger red shifts at greater distances, implying an expanding universe. The slope gives an approximate value for the expansion rate. (credit: John Cub).")
 {: #Figure4}
 
-One of the most intriguing developments recently has been the discovery that the
-expansion of the universe may be *faster now* than in the past, rather than
-slowing due to gravity as expected. Various groups have been looking, in
-particular, at supernovas in moderately distant galaxies (less than 1 Gly) to
-get improved distance measurements. Those distances are larger than expected for
-the observed galactic red shifts, implying the expansion was slower when that
-light was emitted. This has cosmological consequences that are discussed
-in [Dark Matter and Closure](../contents/ch34DarkMatterAndClosure). The first results, published in 1999, are
-only the beginning of emerging data, with astronomy now entering a data-rich
-era.
+Supernova observations reported in 1998 showed that the expansion is
+accelerating. This result is one reason cosmologists include **dark energy** in
+their models, as discussed in [Dark Matter and Closure](../contents/ch34DarkMatterAndClosure).
 
-[[Figure 5]](#Figure5) shows how the recession of galaxies looks like the
-remnants of a gigantic explosion, the famous Big Bang. Extrapolating backward in
-time, the Big Bang would have occurred between 13 and 15 billion years ago when
-all matter would have been at a point. Questions instantly arise. What caused
-the explosion? What happened before the Big Bang? Was there a before, or did
-time start then? Will the universe expand forever, or will gravity reverse it
-into a Big Crunch? And is there other evidence of the Big Bang besides the
-well-documented red shifts?
+The **Big Bang** model describes a universe that expanded and cooled from an
+early hot, dense state about 13.8 billion years ago. It describes the expansion
+of space itself, not an explosion of matter outward from a point in pre-existing
+space. It does not, by itself, establish what happened at the earliest instant
+or whether there was a time before it.
 
-![The figure shows an artist&#x2019;s rendition of galaxies of different shapes moving away from the center, where a spiral galaxy labeled M W is located.](../resources/Figure_34_01_05.jpg "Galaxies are flying apart from one another, with the more distant moving faster as if a primordial explosion expelled the matter from which they formed. The most distant known galaxies move nearly at the speed of light relative to us. ")
+![A schematic of galaxies at increasing separations as space expands.](../resources/Figure_34_01_05.jpg 'As space expands, the average separation of unbound galaxies increases. More distant galaxies generally recede faster. The diagram illustrates expansion, not a localized explosion into empty space.')
 {: #Figure5}
 
 The Russian-born American physicist George Gamow (1904–1968) was among the first
@@ -181,7 +161,7 @@ distance) that virtually every scientist has accepted the expansion of the
 universe as fact. Penzias and Wilson shared the 1978 Nobel Prize in Physics for
 their discovery.
 
-![Figure a shows an artist&#x2019;s rendition of the Big Bang explosion. Here, the explosion is depicted as a flash of light then a nonuniform purple-colored sphere containing galaxies. With each galaxy is associated an arrow pointing radially outward. The length of the arrows varies from one galaxy to the next. Figure b shows a graph of intensity versus wavelength. The intensity is on an arbitrary scale and the wavelength ranges from zero point five to 10 millimeters. The intensity begins at zero point two then rises sharply to one point two at a wavelength of one millimeter. It then descends to near zero by ten millimeters.](../resources/Figure_34_01_06.jpg "(a) The Big Bang is used to explain the present observed expansion of the universe. It was an incredibly energetic explosion some 10 to 20 billion years ago. After expanding and cooling, galaxies form inside the now-cold remnants of the primordial fireball. (b) The spectrum of cosmic microwave radiation is the most perfect blackbody spectrum ever detected. It is characteristic of a temperature of 2.725 K, the expansion-cooled temperature of the Big Bang&#x2019;s remnant. This radiation can be measured coming from any direction in space not obscured by some other source. It is compelling evidence of the creation of the universe in a gigantic explosion, already indicated by galactic red shifts. ")
+![Figure a shows an artist&#x2019;s rendition of the Big Bang explosion. Here, the explosion is depicted as a flash of light then a nonuniform purple-colored sphere containing galaxies. With each galaxy is associated an arrow pointing radially outward. The length of the arrows varies from one galaxy to the next. Figure b shows a graph of intensity versus wavelength. The intensity is on an arbitrary scale and the wavelength ranges from zero point five to 10 millimeters. The intensity begins at zero point two then rises sharply to one point two at a wavelength of one millimeter. It then descends to near zero by ten millimeters.](../resources/Figure_34_01_06.jpg "(a) The Big Bang is used to explain the present observed expansion of the universe. It describes expansion from a hot, dense early state about 13.8 billion years ago. After expanding and cooling, galaxies form inside the now-cold remnants of the primordial fireball. (b) The spectrum of cosmic microwave radiation is the most perfect blackbody spectrum ever detected. It is characteristic of a temperature of 2.725 K, the expansion-cooled temperature of the Big Bang&#x2019;s remnant. This radiation can be measured coming from any direction in space not obscured by some other source. It is compelling evidence for the hot early universe and its subsequent expansion, also indicated by galactic redshifts. ")
 {: #Figure6}
 
 ::: note {"class":"note","data-has-label":"true","data-label":""}
@@ -210,20 +190,12 @@ would produce is simply not observed. Antimatter in nature is created in
 particle collisions and in $${\beta }^{+} $$ decays, but only in small amounts
 that quickly annihilate, leaving almost pure matter surviving.
 
-Particle physics seems symmetric in matter and antimatter. Why isn’t the cosmos?
-The answer is that particle physics is not quite perfectly symmetric in this
-regard. The decay of one of the neutral $$K $$ -mesons, for example,
-preferentially creates more matter than antimatter. This is caused by a
-fundamental small asymmetry in the basic forces. This small asymmetry produced
-slightly more matter than antimatter in the early universe. If there was only
-one part in $$10^{9} $$ more matter (a small asymmetry), the rest would
-annihilate pair for pair, leaving nearly pure matter to form the stars and
-galaxies we see today. So the vast number of stars we observe may be only a tiny
-remnant of the original matter created in the Big Bang. Here at last we see a
-very real and important asymmetry in nature. Rather than be disturbed by an
-asymmetry, most physicists are impressed by how small it is. Furthermore, if the
-universe were completely symmetric, the mutual annihilation would be more
-complete, leaving far less matter to form us and the universe we know.
+Why is there so much more matter than antimatter? Some particle reactions
+behave differently from their antimatter counterparts, an effect called
+**CP violation**. It was first discovered in neutral-kaon decays. Such
+asymmetries are relevant to the problem, but those in the Standard Model are
+too small to explain the observed cosmic imbalance. The origin of the excess
+of matter remains an open question linking cosmology and particle physics.
 
 <span class="title">**How can something so old have so few wrinkles?**</span>A
 troubling aspect of cosmic microwave background radiation (CMBR) was soon
@@ -247,10 +219,11 @@ that made very sensitive and accurate measurements of the CMBR. In April of
 fluctuations in the CMBR. Further measurements were carried out by experiments
 including NASA’s Wilkinson Microwave Anisotropy Probe (WMAP), which launched in
 2001. Data from WMAP provided a much more detailed picture of the CMBR  fluctuations. (See [[Figure 7]](#Figure7).) These amount to
-temperature fluctuations of only $$200 \mu \text{k} $$ out of 2.7 K,
+temperature fluctuations of only $$200 \mu \text{K} $$ out of 2.7 K,
 better than one part in 1000.
-2002. The WMAP experiment will be followed up by the European Space Agency’s
-Planck Surveyor, which launched in 2009.
+The European Space Agency's Planck mission, launched in 2009, later measured
+these fluctuations in greater detail. Together, these completed missions helped
+determine the universe's age, composition, and expansion history.
 
 ![An oval shape with patches of fluorescent blue, green, yellow, and red, varying in intensity.](../resources/Figure_34_01_07.jpg "This map of the sky uses color to show fluctuations, or wrinkles, in the cosmic microwave background observed with the WMAP spacecraft. The Milky Way has been removed for clarity. Red represents higher temperature and higher density, while blue is lower temperature and density. The fluctuations are small, less than one part in 1000, but these are still thought to be the cause of the eventual formation of galaxies. (credit: NASA/WMAP Science Team) ")
 {: #Figure7}
@@ -263,119 +236,46 @@ lines approach but do not cross (there is no zero on an exponential scale).
 Rather, they extend indefinitely in ever-smaller time intervals to some
 infinitesimal point.
 
-![The figure shows a horizontal bar whose left end is white and right end is black. Between these ends the bar is rainbow colored with blue at the left and red at the right. On the top of the bar is a time scale that starts at the left at ten to the minus forty three seconds and goes to one point five times ten  to the eleven years, which is the present time. On the bottom of the bar is an energy scale that starts at the left at ten to the nineteenth G E V and goes to below one G E V. The left end of the bar is labeled T O E and complete symmetry, identical particles. Progressing to the right, the next section of the bar, from ten to the minus forty three seconds to ten to the minus thirty five seconds, is labeled G U T and leptons, gluons, quarks, weak bosons, photons. The next section of the bar, out to ten to the minus thirty two seconds (or ten to the fourteenth G E V) is labeled spontaneous symmetry breaking, inflation. During this stage, the bar widens significantly. The next section goes to ten to the minus eleven seconds (or one hundred G E V) and is labeled electroweak and leptons, quarks, w plus minus, z zero, photons. The point ten to the minus eleven seconds is labeled leptons, hadrons, photons. The next section goes to three times ten to the fifth years. The point about midway through this stage is labeled one G E V. In this stage are labeled the following eras: at about ten to the minus six seconds is the quark era, at about ten to the minus four seconds is the lepton era, at about ten seconds is the photon era, then at about ten seconds is the nucleosynthesis era. The point three times ten to the fifth years is labeled light nuclei. The next section goes to ten to the eighth years and is labeled atoms. The  point ten to the eighth years is labeled stars and protogalaxies. Next comes galaxies at ten to the ninth years, then Earth comes at ten to the eleventh years, life at one point zero five times ten to the eleventh years, then finally the present time at one point five times ten to the eleventh years.](../resources/Figure_34_01_08.jpg "The evolution of the universe from the Big Bang onward is intimately tied to the laws of physics, especially those of particle physics at the earliest stages. The universe is relativistic throughout its history. Theories of the unification of forces at high energies may be verified by their shaping of the universe and its evolution. ")
+![The figure shows a horizontal bar whose left end is white and right end is black. Between these ends the bar is rainbow colored with blue at the left and red at the right. On the top of the bar is a time scale that starts at the left at ten to the minus forty three seconds and goes to one point five times ten  to the eleven years, which is the present time. On the bottom of the bar is an energy scale that starts at the left at ten to the nineteenth G E V and goes to below one G E V. The left end of the bar is labeled T O E and complete symmetry, identical particles. Progressing to the right, the next section of the bar, from ten to the minus forty three seconds to ten to the minus thirty five seconds, is labeled G U T and leptons, gluons, quarks, weak bosons, photons. The next section of the bar, out to ten to the minus thirty two seconds (or ten to the fourteenth G E V) is labeled spontaneous symmetry breaking, inflation. During this stage, the bar widens significantly. The next section goes to ten to the minus eleven seconds (or one hundred G E V) and is labeled electroweak and leptons, quarks, w plus minus, z zero, photons. The point ten to the minus eleven seconds is labeled leptons, hadrons, photons. The next section goes to three times ten to the fifth years. The point about midway through this stage is labeled one G E V. In this stage are labeled the following eras: at about ten to the minus six seconds is the quark era, at about ten to the minus four seconds is the lepton era, at about ten seconds is the photon era, then at about ten seconds is the nucleosynthesis era. The point three times ten to the fifth years is labeled light nuclei. The next section goes to ten to the eighth years and is labeled atoms. The  point ten to the eighth years is labeled stars and protogalaxies. Next comes galaxies at ten to the ninth years, then Earth comes at ten to the eleventh years, life at one point zero five times ten to the eleventh years, then finally the present time at one point five times ten to the eleventh years.](../resources/Figure_34_01_08.jpg "The evolution of the universe from the Big Bang onward is intimately tied to the laws of physics, especially those of particle physics at the earliest stages. The universe is relativistic throughout its history. The earliest stages shown depend on hypotheses about inflation and force unification; they are less certain than the later history. ")
 {: #Figure8}
 
-Going back in time is equivalent to what would happen if expansion stopped and
-gravity pulled all the galaxies together, compressing and heating all matter. At
-a time long ago, the temperature and density were too high for stars and
-galaxies to exist. Before then, there was a time when the temperature was too
-great for atoms to exist. And farther back yet, there was a time when the
-temperature and density were so great that nuclei could not exist. Even farther
-back in time, the temperature was so high that average kinetic energy was great
-enough to create short-lived particles, and the density was high enough to make
-this likely. When we extrapolate back to the point of $${W}^{±} $$ and $${Z}^{0} $$ production (thermal energies reaching 1 TeV, or a temperature of about $$ 10^{15} \text{K} $$ ), we reach the limits of what we know directly about particle physics. This is at a time about $$ 10^{-12} \text{s} $$ after the Big
-Bang. While $$ 10^{-12} \text{s} $$ may seem to be negligibly close to the
-instant of creation, it is not. There are important stages before this time that
-are tied to the unification of forces. At those stages, the universe was at
-extremely high energies and average particle separations were smaller than we
-can achieve with accelerators. What happened in the early stages before
+As we look farther back in the universe's history, its temperature and density
+increase. Before stars and galaxies formed, there was a time when atoms could
+not remain intact. Earlier still, the universe was too hot for nuclei to remain
+bound. Particle collisions at these high temperatures continually created and
+destroyed particles.
 
-10^{-12} \text{s} $$ is crucial to all later stages and is possibly discerned by $$
-observing present conditions in the universe. One of these is the smoothness of
-the CMBR.
+Electroweak theory describes how weak and electromagnetic interactions are
+related at high temperatures. At still earlier times and higher energies,
+grand unified theories propose an additional connection with the strong
+interaction. A possible unification with gravity is even more speculative.
+These proposed stages are not established events in a measured cosmic timeline.
 
-Names are given to early stages representing key conditions. The stage before $$ 10^{-11} \text{s} $$ back to $$ 10^{-34} \text{s} $$ is called the **electroweak
-epoch**, because the electromagnetic and weak forces become identical for
-energies above about 100 GeV. As discussed earlier, theorists expect that the
-strong force becomes identical to and thus unified with the electroweak force at
-energies of about $$ 10^{14} \text{GeV} $$ . The average particle energy would
-be this great at $$ 10^{-34} \text{s} $$ after the Big Bang, if there are no
-surprises in the unknown physics at energies above about 1 TeV. At the immense
-energy of $$ 10^{14} \text{GeV} $$
-(corresponding to a temperature of about $$ 10^{26} \text{K} $$ ), the $${W}^{±} $$ and $${Z}^{0} $$ carrier particles would be transformed into massless gauge
-bosons to accomplish the unification. Before $$ 10^{-34} \text{s} $$ back to
-about $$ 10^{-43} \text{s} $$ , we have Grand Unification in the **GUT epoch**,
-in which all forces except gravity are identical. At $$ 10^{-43} \text{s} $$ ,
-the average energy reaches the immense $$ 10^{19} \text{GeV} $$ needed to unify
-gravity with the other forces in TOE, the Theory of Everything. Before that time
-is the **TOE epoch**, but we have almost no idea as to the nature of the
-universe then, since we have no workable theory of quantum gravity. We call the
-hypothetical unified force **superforce**.
+**Inflation** is a proposed brief period of extremely rapid expansion in the
+early universe. It can help explain why widely separated regions have nearly
+the same temperature and why space appears nearly flat. Tiny fluctuations
+during inflation could also seed later galaxies. These successes make inflation
+an important research framework, but its physical cause and connection to any
+grand unified theory remain uncertain.
 
-Now let us imagine starting at TOE and moving forward in time to see what type
-of universe is created from various events along the way. As temperatures and
-average energies decrease with expansion, the universe reaches the stage where
-average particle separations are large enough to see differences between the
-strong and electroweak forces (at about $$ 10^{-35} \text{s} $$ ). After this
-time, the forces become distinct in almost all interactions—they are no longer
-unified or symmetric. This transition from GUT to electroweak is an example
-of **spontaneous symmetry breaking**, in which conditions spontaneously evolved
-to a point where the forces were no longer unified, breaking that symmetry. This
-is analogous to a phase transition in the universe, and a clever proposal by
-American physicist Alan Guth in the early 1980s ties it to the smoothness of the
-CMBR. Guth proposed that spontaneous symmetry breaking (like a phase transition
-during cooling of normal matter) released an immense amount of energy that
-caused the universe to expand extremely rapidly for the brief time from $$ 10^{-35} \text{s} $$ to about $$ 10^{-32} \text{s} $$ . This expansion may have
-been by an incredible factor of $$ 10^{50} $$ or more in the size of the
-universe and is thus called the **inflationary scenario**. One result of this
-inflation is that it would stretch the wrinkles in the universe nearly flat,
-leaving an extremely smooth CMBR. While speculative, there is as yet no other
-plausible explanation for the smoothness of the CMBR. Unless the CMBR is not
-really cosmic but local in origin, the distances between regions of similar
-temperatures are too great for any coordination to have caused them, since any
-coordination mechanism must travel at the speed of light. Again, particle
-physics and cosmology are intimately entwined. There is little hope that we may
-be able to test the inflationary scenario directly, since it occurs at energies
-near $$ 10^{14} \text{GeV} $$ , vastly greater than the limits of modern
-accelerators. But the idea is so attractive that it is incorporated into most
-cosmological theories.
-
-Characteristics of the present universe may help us determine the validity of
-this intriguing idea. Additionally, the recent indications that the universe’s
-expansion rate may be _increasing_ (see [Dark Matter and Closure](../contents/ch34DarkMatterAndClosure))
-could even imply that we are _in_ another inflationary epoch.
-
-It is important to note that, if conditions such as those found in the early
-universe could be created in the laboratory, we would see the unification of
-forces directly today. The forces have not changed in time, but the average
-energy and separation of particles in the universe have. As discussed
-in [The Four Basic Forces](../contents/ch33TheFourBasicForces), the four basic forces in nature are
-distinct under most circumstances found today. The early universe and its
-remnants provide evidence from times when they were unified under most
-circumstances.
+Near the **Planck time**, about $$10^{-43}\text{ s}$$, quantum effects of gravity
+are expected to matter. Current theories cannot reliably describe this earliest
+regime. Observations of the universe can constrain such ideas, but we should
+distinguish those constraints from direct experimental verification.
 
 ### Section Summary
 
-- Cosmology is the study of the character and evolution of the universe.
-- The two most important features of the universe are the cosmological red
-  shifts of its galaxies being proportional to distance and its cosmic microwave
-  background (CMBR). Both support the notion that there was a gigantic
-  explosion, known as the Big Bang that created the universe.
-- Galaxies farther away than our local group have, on an average, a recessional
-  velocity given by
-
-  <div class="equation" >
-   $$v={H}_{0}d\text{,} $$
-  </div>
-
-     where  $$d $$
-     is the distance to the galaxy and  $${H}_{0} $$
-     is the Hubble constant, taken to have the average value  $${H}_{0}=20 \text{km/s}\cdot \text{Mly}\text{.} $$
-
-- Explanations of the large-scale characteristics of the universe are intimately
-  tied to particle physics.
-- The dominance of matter over antimatter and the smoothness of the CMBR are two
-  characteristics that are tied to particle physics.
-- The epochs of the universe are known back to very shortly after the Big Bang,
-  based on known laws of physics.
-- The earliest epochs are tied to the unification of forces, with the
-  electroweak epoch being partially understood, the GUT epoch being speculative,
-  and the TOE epoch being highly speculative since it involves an unknown single
-  superforce.
-- The transition from GUT to electroweak is called spontaneous symmetry
-  breaking. It released energy that caused the inflationary scenario, which in
-  turn explains the smoothness of the CMBR.
+- Cosmology studies the universe and its evolution.
+- Cosmic expansion, the microwave background, and the abundances of light
+  elements support a hot, dense early universe about 13.8 billion years ago.
+- The present recession speed and distance are related by $$v=H_0d$$.
+  For nearby galaxies, $$v\approx cz$$ lets redshift estimate recession speed.
+  Here we use $$H_0\approx20\,(\text{km/s})/\text{Mly}$$.
+- Cosmological distance and light-travel time are different because space
+  expands while light travels.
+- The origin of the matter–antimatter imbalance remains unresolved.
+- Inflation and further force unification are important ideas about the early
+  universe, with different levels of observational support and uncertainty.
 
 ### Conceptual Questions
 

@@ -105,15 +105,13 @@ same beam pipe. For a schematic representation, see [[Figure 4]](#Figure4).
 {: #Figure4}
 
 Detectors capable of finding the new particles in the spray of material that
-emerges from colliding beams are as impressive as the accelerators. While the
-Fermilab Tevatron had proton and antiproton beam energies of about 1 TeV, so
-that it can create particles up to $$2 \text{TeV/}{c}^{2} $$ , the Large Hadron
-Collider (LHC) at the European Center for Nuclear Research (CERN) has achieved
-beam energies of 3.5 TeV, so that it has a 7-TeV collision energy; CERN hopes to
-double the beam energy in 2014. The now-canceled Superconducting Super Collider
-was being constructed in Texas with a design energy of 20 TeV to give a 40-TeV
-collision energy. It was to be an oval 30 km in diameter. Its cost as well as
-the politics of international research funding led to its demise.
+emerges from colliding beams are as impressive as the accelerators. The
+Fermilab Tevatron collided proton and antiproton beams at a total energy of about
+2 TeV before it shut down in 2011. In 2022, the Large Hadron Collider at CERN
+began proton–proton collisions at 13.6 TeV. A proton is composite: the energy
+available in a particular quark or gluon collision is only a fraction of the
+total proton collision energy. The proposed Superconducting Super Collider in
+Texas would have reached 40 TeV, but was canceled in 1993.
 
 In addition to the large synchrotrons that produce colliding beams of protons
 and antiprotons, there are other large electron-positron accelerators. The

@@ -117,7 +117,7 @@ are stable for billions of years, until a significant fraction of their hydrogen
 has been depleted. What happens then is discussed
 in [Introduction to Frontiers of Physics ](../contents/ch34FrontiersOfPhysics).
 
-![In the given figure nuclear fusion in the Sun is shown. The sun is shown like a sunflower. In the center, helium H e is shown. The energy emitted from H E is shown by outward arrows.](../resources/Figure_32_05_05.jpg 'Nuclear fusion in the Sun converts hydrogen nuclei into helium; fusion occurs primarily at the boundary of the helium core, where temperature is highest and sufficient hydrogen remains. Energy released diffuses slowly to the surface, with the exception of neutrinos, which escape immediately. Energy production remains stable because of negative feedback effects.')
+![In the given figure nuclear fusion in the Sun is shown. The sun is shown like a sunflower. In the center, helium H e is shown. The energy emitted from H E is shown by outward arrows.](../resources/Figure_32_05_05.jpg 'Nuclear fusion in the Sun converts hydrogen nuclei into helium; fusion occurs in the central region, where temperature and density are highest. Hydrogen burning in a shell around an inert helium core occurs at a later stage of stellar evolution. Energy released diffuses slowly to the surface, with the exception of neutrinos, which escape immediately. Energy production remains stable because of negative feedback effects.')
 {: #Figure5}
 
 Theories of the proton-proton cycle (and other energy-producing cycles in stars)
@@ -132,8 +132,8 @@ and neutrinos were observed from Supernova 1987A ([[Figure 7]](#Figure7)), too
 few solar neutrinos were observed to be consistent with predictions of solar
 energy production. After many years, this solar neutrino problem was resolved
 with a blend of theory and experiment that showed that the neutrino does indeed
-have mass. It was also found that there are three types of neutrinos, each
-associated with a different type of nuclear decay.
+have mass. It was also found that there are three neutrino flavors, associated with the electron, muon, and tau.
+Electron neutrinos made in the Sun can change flavor before reaching Earth.
 
 ![This figure shows an arrangement of shining pegs arranged in concentric circles.](../resources/Figure_32_05_06.jpg 'This array of photomultiplier tubes is part of the large solar neutrino detector at the Fermi National Accelerator Laboratory in Illinois. In these experiments, the neutrinos interact with heavy water and produce flashes of light, which are detected by the photomultiplier tubes. In spite of its size and the huge flux of neutrinos that strike it, very few are detected each day since they interact so weakly. This, of course, is the same reason they escape the Sun so readily. (credit: Fred Ullrich)')
 {: #Figure6}
@@ -171,33 +171,30 @@ reactions produce large energies per reaction (in parentheses), but they do not
 produce much radioactive waste. Tritium ( $${}^{3}\text{H} $$ )
 is radioactive, but it is consumed as a fuel (the reaction
 $${}^{2}\text{H}+{}^{3}\text{H}\to {}^{4}\text{He}+n $$ ), and the neutrons and
-$$\gamma $$ s can be shielded. The neutrons produced can also be used to create
-more energy and fuel in reactions like
+$$\gamma $$ s can be shielded. Neutrons can also release energy through capture reactions, such as
 
-<div class="equation" >
- $$n+{}^{1}\text{H}\to {}^{2}\text{H}+\gamma       \left(20.68 \text{MeV}\right) $$
+<div class="equation">
+ $$n+{}^{1}\text{H}\to{}^{2}\text{H}+\gamma\qquad(2.22\text{ MeV}).$$
 </div>
 
-and
-
-<div class="equation" >
- $$n+{}^{1}\text{H}\to {}^{2}\text{H}+\gamma      \left(2.22 \text{MeV}\right). $$
-</div>
-
-Note that these last two reactions, and $${}^{2}\text{H}+{}^{2}\text{H}\to {}^{4}\text{He}+\gamma $$ , put most of their energy output into the $$\gamma $$
-ray, and such energy is difficult to utilize.
+In a fusion power system, neutrons can deposit heat in surrounding material and
+help produce new tritium fuel from lithium. Neutron activation of that material
+is an important source of radioactive waste that must be managed.
 
 The three keys to practical fusion energy generation are to achieve the
 temperatures necessary to make the reactions likely, to raise the density of the
 fuel, and to confine it long enough to produce large amounts of energy. These
-three factors—temperature, density, and time—complement one another, and so a
-deficiency in one can be compensated for by the others. **Ignition** is defined
-to occur when the reactions produce enough energy to be self-sustaining after
-external energy input is cut off. This goal, which must be reached before
-commercial plants can be a reality, has not been achieved. Another milestone,
-called **break-even**, occurs when the fusion power produced equals the heating
-power input. Break-even has nearly been reached and gives hope that ignition and
-commercial plants may become a reality in a few decades.
+three factors—temperature, density, and confinement time—work together.
+**Ignition** occurs when energy from fusion reactions can sustain the burn
+without continued external heating. **Break-even** means that fusion output
+equals an identified energy input; it is important to specify what input is
+being counted.
+
+On December 5, 2022, the National Ignition Facility achieved ignition in a brief
+laser-driven experiment. It produced 3.15 MJ of fusion energy from 2.05 MJ of
+laser energy delivered to the target. The facility used much more electrical
+energy to operate the lasers, so this was not net electrical power generation.
+Turning such results into a practical power plant remains a major challenge.
 
 Two techniques have shown considerable promise. The first of these is called **magnetic confinement** and uses the property that charged particles have
 difficulty crossing magnetic field lines. The tokamak, shown
@@ -205,15 +202,14 @@ in [[Figure 8]](#Figure8), has shown particular promise. The tokamak’s toroida
 coil confines charged particles into a circular path with a helical twist due to
 the circulating ions themselves. In 1995, the Tokamak Fusion Test Reactor at
 Princeton in the US achieved world-record plasma temperatures as high as 500
-million degrees Celsius. This facility operated between 1982 and 1997. A joint
-international effort is underway in France to build a tokamak-type reactor that
-will be the stepping stone to commercial power. ITER, as it is called, will be a
-full-scale device that aims to demonstrate the feasibility of fusion energy. It
-will generate 500 MW of power for extended periods of time and will achieve
-break-even conditions. It will study plasmas in conditions similar to those
-expected in a fusion power plant. Completion is scheduled for 2018.
+million degrees Celsius. This facility operated between 1982 and 1997. ITER is an international magnetic-confinement experiment under construction in
+France. It is designed to study a burning plasma and produce 500 MW of fusion
+power from 50 MW of external plasma heating. This ratio refers to the plasma,
+not the electrical energy used by the entire facility. ITER is not designed to
+generate electricity. Its 2024 revised plan targets deuterium–tritium operation
+in 2039; schedules for such large experiments can change.
 
-![A three-dimensional cut-away model showing the interior of a complex technical device. The device has a central cavity and there are many tubes and connectors arranged around the central cavity.](../resources/Figure_32_05_08.jpg '(a) Artist’s rendition of ITER, a tokamak-type fusion reactor being built in southern France. It is hoped that this gigantic machine will reach the break-even point. Completion is scheduled for 2018. (credit: Stephan Mosel, Flickr)')
+![A cutaway model of the ITER tokamak.](../resources/Figure_32_05_08.jpg 'ITER is a magnetic-confinement fusion experiment being built in France. Its goal is to study the physics and technology of a burning plasma. (credit: Stephan Mosel, Flickr)')
 {: #Figure8}
 
 The second promising technique aims multiple lasers at tiny fuel pellets filled
@@ -226,7 +222,7 @@ smaller confinement times. In 2009, the Lawrence Livermore Laboratory (CA)
 completed a laser fusion device with 192 ultraviolet laser beams that are
 focused upon a D-T pellet (see [[Figure 9]](#Figure9)).
 
-![A room filled with lots of cylindrical tubes connected to each other.](../resources/Figure_32_05_09.jpg 'National Ignition Facility (CA). This image shows a laser bay where 192 laser beams will focus onto a small D-T target, producing fusion. (credit: Lawrence Livermore National Laboratory, Lawrence Livermore National Security, LLC, and the Department of Energy)')
+![A room filled with lots of cylindrical tubes connected to each other.](../resources/Figure_32_05_09.jpg 'National Ignition Facility (CA). This image shows a laser bay whose 192 laser beams supply energy to compress and heat a small D-T target. (credit: Lawrence Livermore National Laboratory, Lawrence Livermore National Security, LLC, and the Department of Energy)')
 {: #Figure9}
 
 ::: example {"id":"Example1","class":"example"}

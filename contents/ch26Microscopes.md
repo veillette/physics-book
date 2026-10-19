@@ -185,7 +185,7 @@ lengthier.
 :::
 
 Normal optical microscopes can magnify up to $$1500× $$ with a theoretical
-resolution of $$-0.2 \text{μm} $$ . The lenses can be quite complicated and are
+resolution of about $$0.2 \text{μm} $$ for visible light and a high-numerical-aperture objective . The lenses can be quite complicated and are
 composed of multiple elements to reduce aberrations. Microscope objective lenses
 are particularly important as they primarily gather light from the specimen.
 Three parameters describe microscope objectives: the **numerical aperture **

@@ -6,7 +6,7 @@ chapterNumber: 33
 ---
 ::: abstract
 
-* State the grand unified theory.
+* Distinguish electroweak unification from proposed grand unified theories.
 * Explain the electroweak theory.
 * Define gluons.
 * Describe the principle of quantum chromodynamics.
@@ -14,23 +14,15 @@ chapterNumber: 33
 
 :::
 
-Present quests to show that the four basic forces are different manifestations
-of a single unified force follow a long tradition. In the 19th century, the
-distinct electric and magnetic forces were shown to be intimately connected and
-are now collectively called the electromagnetic force. More recently, the weak
-nuclear force has been shown to be connected to the electromagnetic force in a
-manner suggesting that a theory may be constructed in which all four forces are
-unified. Certainly, there are similarities in how forces are transmitted by the
-exchange of carrier particles, and the carrier particles themselves (the gauge
-bosons in [[Table 1]](../contents/ch33ParticlesPatternsAndConservationLaws#Table1)) are also similar in important ways. The
-analogy to the unification of electric and magnetic forces is quite good—the
-four forces are distinct under normal circumstances, but there are hints of
-connections even on the atomic scale, and there may be conditions under which
-the forces are intimately related and even indistinguishable. The search for a
-correct theory linking the forces, called the **Grand Unified Theory (GUT)**, is
-explored in this section in the realm of particle
-physics. [Frontiers of Physics](../contents/ch34FrontiersOfPhysics) expands the story in making a
-connection with cosmology, on the opposite end of the distance scale.
+The search for unified forces has a long history. Maxwell united electricity
+and magnetism, and electroweak theory later connected the electromagnetic and
+weak interactions. Both are established parts of physics.
+
+A **grand unified theory (GUT)** would also connect the strong interaction with
+the electroweak interaction. This remains a hypothesis. Including gravity would
+require a still broader framework, sometimes called a **Theory of Everything
+(TOE)**. Keeping these different goals separate helps distinguish what has
+been tested from what is still being explored.
 
 [[Figure 1]](#Figure1) is a Feynman diagram showing how the weak nuclear force
 is transmitted by the carrier particle $${Z}^{0} $$ , similar to the diagrams
@@ -66,28 +58,18 @@ of other carrier particles. So systems many orders of magnitude larger than the
 range of the weak force supply evidence of electroweak unification in addition
 to evidence found at the particle scale.
 
-**Gluons** ( $$g $$ )
-are the proposed carrier particles for the strong nuclear force, although they
-are not directly observed. Like quarks, gluons may be confined to systems having
-a total color of white. Less is known about gluons than the fact that they are
-the carriers of the weak and certainly of the electromagnetic force. QCD theory
-calls for eight gluons, all massless and all spin 1. Six of the gluons carry a
-color and an anticolor, while two do not carry color, as illustrated
-in [[Figure 2]](#Figure2)(a). There is indirect evidence of the existence of
-gluons in nucleons. When high-energy electrons are scattered from nucleons and
-evidence of quarks is seen, the momenta of the quarks are smaller than they
-would be if there were no gluons. That means that the gluons carrying force
-between quarks also carry some momentum, inferred by the already indirect quark
-momentum measurements. At any rate, the gluons carry color charge and can change
-the colors of quarks when exchanged, as seen in [[Figure 2]](#Figure2)(b). In
-the figure, a red down quark interacts with a green strange quark by sending it
-a gluon. That gluon carries red away from the down quark and leaves it green,
-because it is an $$R\stackrel{-}{G} $$
-(red-antigreen) gluon. (Taking antigreen away leaves you green.) Its
-antigreenness kills the green in the strange quark, and its redness turns the
-quark red.
+**Gluons** ($$g$$) carry the strong interaction between quarks. There are eight
+gluon color states, all massless and with spin 1 (see [[Figure 2]](#Figure2)).
+Unlike electrically neutral photons, gluons carry the kind of charge associated
+with their interaction—**color charge**. They can therefore interact with one
+another as well as with quarks.
 
-![The first image shows eight circles representing gluons. The first gluon is colored red and anti green, the second gluon is colored green and anti red, the third gluon is colored blue and anti red, the fourth gluon is colored red and anti blue, the fifth gluon is colored green and anti blue, and the sixth gluon is colored blue and anti green. The last two gluons are white. The second image shows a Feynman diagram in which time proceeds in along the vertical y axis and distance along the horizontal x axis. A red down quark and a green strange quark are approaching each other. They exchange a red and anti green gluon, then move apart, with the red down quark having changed to a green down quark and the green strange quark having changed to a red strange quark. ](../resources/Figure_33_06_02.jpg 'In figure (a), the eight types of gluons that carry the strong nuclear force are divided into a group of six that carry color and a group of two that do not. Figure (b) shows that the exchange of gluons between quarks carries the strong force and may change the color of a quark.')
+Gluon exchange can change a quark's color while leaving its flavor unchanged.
+Quarks and gluons are not seen as isolated particles under ordinary conditions,
+but scattering experiments and jets provide strong evidence for them. Gluons
+also carry part of a proton's momentum.
+
+![Eight gluon color states, all belonging to the strong interaction.](../resources/Figure_33_06_02.svg 'The eight gluon states all belong to the color-carrying strong interaction; there are no separate colorless gluons analogous to the photon.')
 {: #Figure2}
 
 The strong force is complicated, since observable particles that feel the strong
@@ -118,110 +100,68 @@ but not overthrow, the Standard Model of particle physics and forces.
 Making Connections: Unification of Forces
 </div>
 
-Grand Unified Theory (GUT) is successful in describing the four forces as distinct under normal circumstances, but connected in fundamental ways. Experiments have verified that the weak and electromagnetic forces become identical at very small distances and provide the GUT description of the carrier particles for the forces. GUT predicts that the other forces become identical under conditions so extreme that they cannot be tested in the laboratory, although there may be lingering evidence of them in the evolution of the universe. GUT is also successful in describing a system of carrier particles for all four forces, but there is much to be done, particularly in the realm of gravity.
+Electroweak theory and quantum chromodynamics are tested parts of the Standard
+Model. Grand unified theories propose a further connection between the strong
+and electroweak interactions. A theory that also includes gravity goes beyond
+grand unification. Neither of these further unifications has been established
+experimentally.
 
 :::
 
-How can forces be unified? They are definitely distinct under most
-circumstances, for example, being carried by different particles and having
-greatly different strengths. But experiments show that at extremely small
-distances, the strengths of the forces begin to become more similar. In fact,
-electroweak theory’s prediction of the $${W}^{+} $$ , $${W}^{-} $$ , and
-$${Z}^{0} $$ carrier particles was based on the strengths of the two forces
-being identical at extremely small distances as seen in [[Figure 4]](#Figure4).
-As discussed in case of the creation of virtual particles for extremely short
-times, the small distances or short ranges correspond to the large masses of the
-carrier particles and the correspondingly large energies needed to create them.
-Thus, the energy scale on the horizontal axis of [[Figure 4]](#Figure4)
-corresponds to smaller and smaller distances, with 100 GeV corresponding to
-approximately, $${10}^{-18}\text{m} $$ for example. At that distance, the
-strengths of the EM and weak forces are the same. To test physics at that
-distance, energies of about 100 GeV must be put into the system, and that is
-sufficient to create and release the $${W}^{+} $$ , $${W}^{-} $$ , and $${Z}^{0} $$
-carrier particles. At those and higher energies, the masses of the carrier
-particles becomes less and less relevant, and the $${Z}^{0} $$ in particular
-resembles the massless, chargeless, spin 1 photon. In fact, there is enough
-energy when things are pushed to even smaller distances to transform the $${W}^{+} $$, $${W}^{-} $$, and
-$${Z}^{0} $$ into massless carrier particles more similar to photons and gluons.
-These have not been observed experimentally, but there is a prediction of an
-associated particle called the **Higgs boson**{: class="term"}. The mass of this
-particle is not predicted with nearly the certainty with which the mass of the
-$${W}^{+}, {W}^{-}, $$ and $${Z}^{0} $$ particles were predicted, but it was
-hoped that the Higgs boson could be observed at the now-canceled Superconducting
-Super Collider (SSC). Ongoing experiments at the Large Hadron Collider at CERN
-have presented some evidence for a Higgs boson with a mass of 125 GeV, and there
-is a possibility of a direct discovery during 2012. The existence of this more
-massive particle would give validity to the theory that the carrier particles
-are identical under certain circumstances.
+At high collision energies, the effects of particle masses become less
+important, and the relation between weak and electromagnetic interactions
+becomes clearer. This does not mean that accelerating a W or Z boson turns it
+into a massless particle.
 
-![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.jpg "The relative strengths of the four basic forces vary with distance and, hence, energy is needed to probe small distances. At ordinary energies (a few eV or less), the forces differ greatly as indicated in [[Table 1]](../contents/ch33TheFourBasicForces#Table1) from The Four Basic Forces. However, at energies available at accelerators, the weak and EM forces become identical, or unified. Unfortunately, the energies at which the strong and electroweak forces become the same are unreachable even in principle at any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.")
+The **Higgs field** is an essential part of electroweak theory. Its interaction
+with W and Z bosons gives them mass, while the photon remains massless.
+The associated **Higgs boson**{: class="term"} was discovered by the ATLAS and
+CMS experiments at CERN in 2012, with a mass of about
+$$125\text{ GeV}/c^2$$. This discovery supports the Standard Model; it does not
+establish grand unification.
+
+At much higher energies, some proposed theories predict a connection between
+the strong and electroweak interactions. [[Figure 4]](#Figure4) sketches this
+idea. The proposed unification energies are far beyond those reached by present
+accelerators, and their values depend on the theory.
+
+![The figure shows a graph with the strength of four basics forces plotted along the y axis and energy plotted along the x axis in giga electron volts. Near zero giga electron volts, the difference in forces is large. Gravity is the weakest force, followed by the weak force, then the electromagnetic force, and finally the strong force is the strongest. At about one hundred giga electron volts, the curves for the electromagnetic and weak force combine to become the electroweak force, but gravity remains weaker and the strong force remains stronger. Near ten to the fifteen giga electron volts, the electroweak force combines with the strong force at a point labeled G U T. Finally, at about ten to the nineteenth giga electron volts, gravity is combined with the electroweak plus strong force at a point labeled T O E.](../resources/Figure_33_06_04.jpg "A schematic of possible unification at high energies. Electroweak unification is established, while the proposed joining with the strong interaction (GUT) and gravity (TOE) is speculative. The high-energy meeting points are model-dependent, not measurements.")
 {: #Figure4}
 
-The small distances and high energies at which the electroweak force becomes
-identical with the strong nuclear force are not reachable with any conceivable
-human-built accelerator. At energies of about $$ 10^{14} \text{GeV} $$
-(16 000 J per particle), distances of about $$ 10^{-30} \text{m} $$ can be
-probed. Such energies are needed to test theory directly, but these are about
-
-10^{10} $$ higher than the proposed giant SSC would have had, and the distances are about $$ 10^{-12} $$ smaller than any structure we have direct knowledge of. $$
-This would be the realm of various GUTs, of which there are many since there is
-no constraining evidence at these energies and distances. Past experience has
-shown that any time you probe so many orders of magnitude further (here, about
-$$ 10^{12} $$ ), you find the unexpected. Even more extreme are the energies and
-distances at which gravity is thought to unify with the other forces in a TOE.
-Most speculative and least constrained by experiment are TOEs, one of which is
-called **Superstring theory**. Superstrings are entities that are $$ 10^{-35} \text{m} $$ in scale and act like one-dimensional oscillating strings and are
-also proposed to underlie all particles, forces, and space itself.
-
-At the energy of GUTs, the carrier particles of the weak force would become
-massless and identical to gluons. If that happens, then both lepton and baryon
-conservation would be violated. We do not see such violations, because we do not
-encounter such energies. However, there is a tiny probability that, at ordinary
-energies, the virtual particles that violate the conservation of baryon number
-may exist for extremely small amounts of time (corresponding to very small
-ranges). All GUTs thus predict that the proton should be unstable, but would
-decay with an extremely long lifetime of about $$ 10^{31} \text{y} $$ . The
-predicted decay mode is
+Grand unified theories can have consequences that are testable at lower
+energies. For example, many predict that the proton can decay, violating baryon
+number conservation. Such a decay has not been observed. Searches place limits
+on possible decay rates and rule out some versions of these theories.
+One proposed decay is
 
 <div class="equation" >
  $$p\to {\pi }^{0}+{e}^{+}\text{, (proposed proton decay)} $$
 </div>
 
-which violates both conservation of baryon number and electron family number.
-Although $$ 10^{31} \text{y} $$ is an extremely long time (about $$ 10^{21} $$
-times the age of the universe), there are a lot of protons, and detectors have
-been constructed to look for the proposed decay mode as seen
-in [[Figure 5]](#Figure5). It is somewhat comforting that proton decay has not
-been detected, and its experimental lifetime is now greater than $$5 \times 10^{32} \text{y} $$ . This does not prove GUTs wrong, but it does place greater
-constraints on the theories, benefiting theorists in many ways.
+which would violate baryon number and electron-family number. The large number
+of protons in a detector makes it possible to search for extremely rare decays.
+The absence of a signal constrains the theories; it does not prove that the
+proton is absolutely stable.
 
-From looking increasingly inward at smaller details for direct evidence of
-electroweak theory and GUTs, we turn around and look to the universe for
-evidence of the unification of forces. In the 1920s, the expansion of the
-universe was discovered. Thinking backward in time, the universe must once have
-been very small, dense, and extremely hot. At a tiny fraction of a second after
-the fabled Big Bang, forces would have been unified and may have left their
-fingerprint on the existing universe. This, one of the most exciting forefronts
-of physics, is the subject of [Frontiers of Physics](../contents/ch34FrontiersOfPhysics).
+Accelerators also test predictions of the Standard Model, as illustrated by
+the detector in [[Figure 5]](#Figure5). Cosmology provides a complementary way
+to investigate conditions that may have existed in the early universe, as we
+explore in [Frontiers of Physics](../contents/ch34FrontiersOfPhysics).
 
 ![The image shows the picture of a huge cylindrical shaped proton decay detector with its main door open. It is as high as a double decker bus and as long as a small house. An untold number of cables, wires, and detector modules are arranged in a cylinder around a rectangular crate-like object containing another smaller cylindrical object.](../resources/Figure_33_06_05.jpg 'In the Tevatron accelerator at Fermilab, protons and antiprotons collide at high energies, and some of those collisions could result in the production of a Higgs boson in association with a W boson. When the W boson decays to a high-energy lepton and a neutrino, the detector triggers on the lepton, whether it is an electron or a muon. (credit: D. J. Miller) ')
 {: #Figure5}
 
 ### Summary
 
-- Attempts to show unification of the four forces are called Grand Unified
-  Theories (GUTs) and have been partially successful, with connections proven
-  between EM and weak forces in electroweak theory.
-- The strong force is carried by eight proposed particles called gluons, which
-  are intimately connected to a quantum number called color—their governing
-  theory is thus called quantum chromodynamics (QCD). Taken together, QCD and
-  the electroweak theory are widely accepted as the Standard Model of particle
-  physics.
-- Unification of the strong force is expected at such high energies that it
-  cannot be directly tested, but it may have observable consequences in the
-  as-yet unobserved decay of the proton and topics to be discussed in the next
-  chapter. Although unification of forces is generally anticipated, much remains
-  to be done to prove its validity.
+- Electroweak theory connects the weak and electromagnetic interactions.
+  Together with QCD, it forms the Standard Model.
+- QCD describes the strong interaction between quarks through eight
+  color-carrying gluon states.
+- The Higgs boson was discovered in 2012, supporting the Standard Model's
+  explanation of particle masses.
+- Grand unified theories propose a further connection between strong and
+  electroweak interactions. They remain unconfirmed; some predict proton decay.
+- A theory that also includes quantum gravity would go beyond a GUT.
 
 ### Conceptual Questions
 
@@ -797,14 +737,13 @@ electroweak theory
 : theory showing connections between EM and weak forces
 
 grand unified theory
-: theory that shows unification of the strong and electroweak forces
+: a proposed theory connecting the strong and electroweak interactions
 
 gluons
-: eight proposed particles which carry the strong force
+: eight color-carrying gauge-boson states that mediate the strong interaction
 
 Higgs boson
-: a massive particle that, if observed, would give validity to the theory that
-carrier particles are identical under certain circumstances
+: the spin-zero particle associated with the Higgs field, discovered in 2012
 
 quantum chromodynamics
 : the governing theory of connecting quantum number color to gluons
@@ -813,7 +752,7 @@ standard model
 : combination of quantum chromodynamics and electroweak theory
 
 superstring theory
-: a theory of everything based on vibrating strings some $$ 10^{-35} \text{m} $$
-in length
+: a proposed framework describing fundamental particles as string vibrations
+and including a possible quantum description of gravity
 
 :::
