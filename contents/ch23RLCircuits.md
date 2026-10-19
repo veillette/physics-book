@@ -293,11 +293,17 @@ Suppose you have a supply of inductors ranging from 1.00 nH to 10.0 H, and resis
 
 ::: solution
 
- $$ 1.00 \times 10^{-18} \text{s} $$
- to 0.100 s
+For an ideal RL circuit, $$\tau=L/R$$. The shortest time uses the smallest inductance and largest resistance:
+
+$$\tau_{\min}=\frac{1.00\times10^{-9}\ \text{H}}{1.00\times10^6\ \Omega}=1.00\times10^{-15}\ \text{s}.$$
+
+The longest uses the largest inductance and smallest resistance:
+
+$$\tau_{\max}=\frac{10.0\ \text{H}}{0.100\ \Omega}=100\ \text{s}.$$
+
+Thus the ideal range is **10⁻¹⁵ s to 100 s**. At the shortest times, parasitic capacitance and finite propagation times limit the lumped-circuit approximation.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

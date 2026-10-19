@@ -970,7 +970,7 @@ The body accomplishes this cooling through multiple mechanisms:
 3. **Increased respiration** - Evaporates moisture from lungs and airways
 4. **Radiation and convection** - Direct heat transfer to cooler surroundings
 
-During vigorous exercise, metabolic rates can reach 1000 W or higher, which is why athletes sweat profusely—evaporative cooling is essential. The cooling rate of 617 W could be achieved by evaporating approximately 0.25 kg (250 mL) of sweat over the 30-minute period, which is quite realistic for post-exercise recovery.
+During vigorous exercise, metabolic rates can reach 1000 W or higher, which is why athletes sweat profusely—evaporative cooling is essential. The cooling rate of 617 W could be achieved by evaporating approximately 0.46 kg (460 mL) of sweat over the 30-minute period, which is quite realistic for post-exercise recovery.
 
 This calculation shows why it's important to cool down gradually after exercise and why hydration is critical—you need water for sweat production to dissipate excess heat safely.
 

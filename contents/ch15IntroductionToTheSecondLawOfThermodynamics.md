@@ -566,7 +566,7 @@ First find heat input:
 
 **Discussion**
 
-This large ship engine is very inefficient at only 5%, typical for marine diesel engines operating at low speeds for fuel economy and durability. Of 4.00 GJ consumed, only 200 MJ (5%) becomes propulsion work, while 3.80 GJ (95%) heats the ocean via cooling systems. The 0.667 barrels consumed for 200 MJ of work shows why shipping is fuel-intensive. However, ships are still the most fuel-efficient transport per ton-kilometer due to low water resistance. Marine engines prioritize reliability and longevity over efficiency, running continuously for months.
+This large ship engine is very inefficient at only 5%, an assumed value for this exercise rather than a representative efficiency of a large marine diesel. Of 4.00 GJ consumed, only 200 MJ (5%) becomes propulsion work, while 3.80 GJ (95%) heats the ocean via cooling systems. The 0.667 barrels consumed for 200 MJ of work shows why shipping is fuel-intensive. However, ships are still the most fuel-efficient transport per ton-kilometer due to low water resistance. Marine engines prioritize reliability and longevity over efficiency, running continuously for months.
 
 :::
 
@@ -621,7 +621,7 @@ This power station produces 52.5 TJ of electrical work from 125 TJ of heat input
 
 ::: problem
 
-Assume that the turbines at a coal-powered power plant were upgraded, resulting in an improvement in efficiency of 3.32%. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at  $$ 2.50 \times 10^{14} \text{J} $$ .
+Assume that the turbines at a coal-powered power plant were upgraded, resulting in an increase in efficiency of 3.32 percentage points. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at  $$ 2.50 \times 10^{14} \text{J} $$ .
  (a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?
 
 :::
@@ -666,7 +666,7 @@ The negative sign indicates a reduction in heat transfer to the environment.
 
 **Discussion**
 
-The 3.32% efficiency improvement produces 8.30 TJ more electricity daily while reducing environmental heat by the same amount. This seemingly small improvement is huge for a power plant: over a year, it's 3.03 PJ (petajoules) of additional electricity, powering thousands of homes. The reduced thermal pollution (8.30 TJ/day less) benefits ecosystems near the plant. This demonstrates why utilities invest heavily in efficiency upgrades—even small percentage gains yield enormous benefits when applied to large-scale operations. The upgrade might involve better turbine blades, improved steam conditions, or waste heat recovery systems.
+The 3.32-percentage-point efficiency improvement produces 8.30 TJ more electricity daily while reducing environmental heat by the same amount. This seemingly small improvement is huge for a power plant: over a year, it's 3.03 PJ (petajoules) of additional electricity, powering thousands of homes. The reduced thermal pollution (8.30 TJ/day less) benefits ecosystems near the plant. This demonstrates why utilities invest heavily in efficiency upgrades—even small percentage gains yield enormous benefits when applied to large-scale operations. The upgrade might involve better turbine blades, improved steam conditions, or waste heat recovery systems.
 
 :::
 

@@ -574,22 +574,9 @@ What is the distinction between gas and vapor?
 
 ::: solution
 
-**Strategy:**
-Consider the relationship between the gas phase and the boiling temperature of a substance.
+A **vapor** usually means a gaseous phase below the substance's **critical temperature**, where increasing pressure at fixed temperature can cause condensation. Above the critical temperature, compression alone cannot liquefy it; cooling below that temperature is necessary.
 
-**Solution:**
-The distinction between gas and vapor relates to temperature relative to the boiling point:
-
-- A **vapor** is a gas that exists at a temperature **below** its boiling point (at the given pressure). A vapor can be condensed to a liquid simply by increasing the pressure at constant temperature, without cooling.
-
-- A **gas** is used more generally, and often refers to a substance that exists at a temperature **above** its boiling point (at the given pressure). A gas cannot be liquefied merely by increasing pressure at that temperature—it must be cooled below its boiling point first.
-
-For example, at 20ºC and atmospheric pressure:
-- Water exists as a vapor (since 20ºC < 100ºC, water's boiling point)
-- Nitrogen exists as a gas (since 20ºC >> −196ºC, nitrogen's boiling point)
-
-**Discussion:**
-This distinction is useful because vapors are relatively close to their liquid phase and can be liquefied more easily than gases. In everyday usage, "gas" is often used generically to refer to any substance in the gaseous state, but technically "vapor" is more precise when discussing a substance below its boiling point. The phase diagram helps clarify this: a vapor exists in the region where a small increase in pressure or decrease in temperature would cause condensation to liquid.
+The word **gas** also serves as a general name for the gaseous state. The boiling point at atmospheric pressure is not the dividing criterion: a substance above its normal boiling point can still condense under pressure if it remains below its critical temperature.
 
 :::
 

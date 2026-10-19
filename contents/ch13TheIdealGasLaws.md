@@ -942,11 +942,11 @@ Rearranging $$PV=nRT$$ to solve for $$n$$:
 </div>
 
 <div class="equation" >
- $$n=\frac{202 \text{ J}}{2576 \text{ J/mol}}= 7.84 \times 10^{-2}  \text{mol}\approx 7.86 \times 10^{-2}  \text{mol} $$
+ $$n=\frac{202 \text{ J}}{2576 \text{ J/mol}}= 7.84 \times 10^{-2}  \text{mol} $$
 </div>
 
 **Discussion:**
-This small amount (about 0.078 moles or roughly 1.9 grams of air) represents the volume in the lungs at any given time. For comparison, this corresponds to about $$ 4.7 \times 10^{22} $$ molecules. During breathing, only a fraction of this air is exchanged with each breath (typically about 0.5 L per breath during normal breathing), ensuring continuous oxygen supply and carbon dioxide removal while maintaining relatively constant lung volume and pressure.
+This small amount (about 0.078 moles or roughly 2.3 grams of air) represents the volume in the lungs at any given time. For comparison, this corresponds to about $$ 4.7 \times 10^{22} $$ molecules. During breathing, only a fraction of this air is exchanged with each breath (typically about 0.5 L per breath during normal breathing), ensuring continuous oxygen supply and carbon dioxide removal while maintaining relatively constant lung volume and pressure.
 
 :::
 
@@ -1075,7 +1075,7 @@ Converting to Celsius:
 </div>
 
 **Discussion:**
-This very cold temperature (about -74ºC or 199 K) is typical of the upper atmosphere or near-space environment. At this altitude, the extremely low pressure ($$ 2.75 \times 10^{-10} $$ Pa, which is about $$10^{-15}$$ atmospheres) and low particle density indicate we're in the thermosphere or exosphere. Despite the low temperature, individual gas atoms that are present actually move quite fast due to solar radiation heating, but there are so few of them that they cannot effectively transfer heat to objects, which is why satellites don't freeze despite the low kinetic temperature.
+The stated pressure and number density imply a kinetic temperature of about 199 K. Temperature measures average particle kinetic energy; low density separately limits heat transfer by collisions. These two data alone do not establish an altitude or a particular atmospheric layer. An object's temperature in near-vacuum also depends on absorbed and emitted radiation.
 
 :::
 

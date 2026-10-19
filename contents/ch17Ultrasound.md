@@ -580,34 +580,13 @@ What is the sound intensity level in decibels of ultrasound of intensity  $$10^{
 
 ::: solution
 
-**Strategy**
+Relative to $$I_0=10^{-12}\ \text{W/m}^2$$,
 
-The sound intensity level in decibels is calculated using the logarithmic formula $$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ , where $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ is the threshold of hearing. This relationship allows us to express the enormous range of sound intensities encountered in medical applications on a manageable scale.
+$$\beta=10\log_{10}\frac{10^5}{10^{-12}}=170\ \text{dB}.$$
 
-**Solution**
-
-Identify the known values:
-* Intensity: $$I=10^{5} {\text{W/m}}^{2} $$
-* Reference intensity: $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$
-
-Substitute into the decibel formula:
-
-<div class="equation" >
- $$\beta =10{\text{log}}_{10}\left(\frac{10^{5} {\text{W/m}}^{2}}{10^{-12} {\text{W/m}}^{2}}\right)=10{\text{log}}_{10}\left(10^{17}\right) $$
-</div>
-
-Using the logarithm property $${\text{log}}_{10}\left(10^{x}\right)=x $$ :
-
-<div class="equation" >
- $$\beta =10\left(17\right)=170 \text{ dB} $$
-</div>
-
-**Discussion**
-
-This intensity level of 170 dB represents an extremely high energy concentration, approximately $$10^{17} $$ times greater than the threshold of human hearing. Such intensities are used therapeutically to destroy unwanted tissue through several mechanisms: direct mechanical disruption of cellular structures, cavitation (formation and violent collapse of vapor bubbles), and localized heating. This intensity is about $$10^{10} $$ times greater than diagnostic ultrasound (typically $$10^{-2} {\text{W/m}}^{2} $$ or 103 dB), ensuring that imaging procedures are safe while therapeutic applications can achieve the desired tissue destruction. The focused nature of therapeutic ultrasound allows surgeons to target specific tissues (such as gallstones or tumors) while minimizing damage to surrounding healthy tissue. At these intensities, exposure time must be carefully controlled to prevent unintended damage.
+The stated surgical intensity is $$10^7$$ times the $$10^{-2}\ \text{W/m}^2$$ diagnostic intensity quoted in the text. That diagnostic intensity corresponds to 100 dB. Ultrasound remains inaudible despite these intensity levels because its frequency lies above the audible range.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -679,34 +658,13 @@ ultrasound used in medical diagnostics.
 
 ::: solution
 
-**Strategy**
+Use the standard reference intensity $$I_0=10^{-12}\ \text{W/m}^2$$:
 
-We use the decibel formula $$\beta \left(\text{dB}\right)=10{\text{log}}_{10}\left(\frac{I}{{I}_{0}}\right) $$ to convert the given intensity to a sound intensity level. The reference intensity is $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$ , the threshold of hearing at 1000 Hz.
+$$\beta=10\log_{10}\frac{2.00\times10^{-2}}{10^{-12}}=10(10+\log_{10}2.00)=103\ \text{dB}.$$
 
-**Solution**
-
-Identify the known values:
-* Intensity: $$I=2.00\times 10^{-2} {\text{W/m}}^{2} $$
-* Reference intensity: $${I}_{0}=10^{-12} {\text{W/m}}^{2} $$
-
-Substitute into the decibel formula:
-
-<div class="equation" >
- $$\beta =10{\text{log}}_{10}\left(\frac{2.00\times 10^{-2} {\text{W/m}}^{2}}{10^{-12} {\text{W/m}}^{2}}\right)=10{\text{log}}_{10}\left(2.00\times 10^{10}\right) $$
-</div>
-
-Use the logarithm property $${\text{log}}_{10}\left(a\times 10^{b}\right)={\text{log}}_{10}(a)+b $$ :
-
-<div class="equation" >
- $$\beta =10\left[{\text{log}}_{10}(2.00)+10\right]=10\left[0.301+10\right]=10(10.301)=103 \text{ dB} $$
-</div>
-
-**Discussion**
-
-This intensity level of 103 dB represents the typical range for diagnostic medical ultrasound imaging, such as prenatal scans, echocardiography, and abdominal imaging. The intensity is $$2.00\times 10^{10} $$ times greater than the threshold of hearing, which might seem high, but it's important to remember that ultrasound frequencies (typically 1-20 MHz) are far above the audible range and interact with tissue differently than audible sound. This diagnostic intensity is safe for routine medical use—it's approximately $$10^{7} $$ times weaker than therapeutic ultrasound used for tissue destruction and about $$100$$ times weaker than ultrasound diathermy. Decades of clinical use with detailed follow-up studies have shown no harmful effects at these diagnostic intensities. The energy is too low to cause significant heating or cavitation damage, making ultrasound imaging one of the safest medical imaging modalities available. This is particularly important for vulnerable populations such as developing fetuses, where X-rays would pose unacceptable risks.
+The stated intensity is $$5\times10^6$$ times smaller than the surgical intensity of $$10^5\ \text{W/m}^2$$, and about $$10^5$$ times smaller than intensities of order $$10^3\ \text{W/m}^2$$ used for diathermy. The dB scale here uses the audible-sound reference; it does not make ultrasound audible.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -923,58 +881,19 @@ High-frequency ultrasound like 20 MHz would not be suitable for deep abdominal i
 
 ::: solution
 
-**Strategy**
+**(a)** The echo travels to each reflecting surface and back. Their depth difference is $$\Delta d=0.100\ \text{cm}=1.00\times10^{-3}\ \text{m}$$, so
 
-For part (a), we calculate the round-trip time for each depth using $$t=\frac{2d}{v} $$ and find the difference. For part (b), we need to consider whether the ultrasound pulse must be shorter than the minimum time resolution. If the period is too long, the pulse would still be traveling when the echo returns, making it impossible to distinguish separate echoes.
+$$\Delta t=\frac{2\Delta d}{v}=\frac{2(1.00\times10^{-3})}{1540}=1.30\times10^{-6}\ \text{s}=1.30\ \mu\text{s}.$$
 
-**Solution for (a)**
+The individual echo times are 45.45 and 46.75 microseconds.
 
-Calculate the echo time for each depth:
+**(b)** The pulse duration must be shorter than the echo separation. A necessary one-cycle estimate is $$T<\Delta t$$, or
 
-For $$d_{1}=3.50 \text{ cm}=0.0350 \text{ m} $$ :
+$$f>\frac1{\Delta t}=7.70\times10^5\ \text{Hz}=0.770\ \text{MHz}.$$
 
-<div class="equation" >
- $$t_{1}=\frac{2d_{1}}{v}=\frac{2(0.0350 \text{ m})}{1540 \text{ m/s}}=4.545\times 10^{-5} \text{ s} $$
-</div>
-
-For $$d_{2}=3.60 \text{ cm}=0.0360 \text{ m} $$ :
-
-<div class="equation" >
- $$t_{2}=\frac{2d_{2}}{v}=\frac{2(0.0360 \text{ m})}{1540 \text{ m/s}}=4.675\times 10^{-5} \text{ s} $$
-</div>
-
-The time difference is:
-
-<div class="equation" >
- $$\Delta t=t_{2}-t_{1}=4.675\times 10^{-5} \text{ s}-4.545\times 10^{-5} \text{ s}=1.30\times 10^{-7} \text{ s}=0.130 \mu \text{s} $$
-</div>
-
-**Solution for (b)**
-
-Yes, the period of the ultrasound must be smaller than the minimum time resolution. If the period were longer than $$0.130 \mu \text{s} $$ , a single wave cycle would last longer than the time difference between echoes, making it impossible to distinguish between the two reflecting surfaces.
-
-The maximum period is $$T_{\text{max}}=0.130 \mu \text{s}=1.30\times 10^{-7} \text{ s} $$ .
-
-The minimum frequency is:
-
-<div class="equation" >
- $$f_{\text{min}}=\frac{1}{T_{\text{max}}}=\frac{1}{1.30\times 10^{-7} \text{ s}}=7.69\times 10^{6}  \text{ Hz}=7.69 \text{ MHz} $$
-</div>
-
-This frequency is well within the normal range for diagnostic ultrasound (typically 1-20 MHz).
-
-**Discussion**
-
-The time difference of $$0.130 \mu \text{s} $$ represents the minimum temporal resolution needed to distinguish tissue layers separated by 1 mm. This is an extremely short time interval, requiring sophisticated electronics to measure accurately. Modern ultrasound scanners can easily achieve this temporal resolution and much better.
-
-The requirement that the period must be smaller than the time resolution is fundamental to any pulse-echo system. If we used a lower frequency (longer period), say 1 MHz with $$T=1 \mu \text{s} $$ , the ultrasound pulse would be "ringing" for much longer than $$0.130 \mu \text{s} $$ , and the echoes from the two surfaces would overlap, making them indistinguishable. This is why diagnostic ultrasound systems use short pulses (typically 2-3 cycles) rather than continuous waves.
-
-The calculated minimum frequency of 7.69 MHz is quite typical for abdominal imaging. In practice, this frequency provides a good balance between temporal resolution, spatial resolution (wavelength $$\lambda =\frac{1540}{7.69\times 10^{6} }=0.20 \text{ mm} $$), and penetration depth ($$500\lambda =10 \text{ cm} $$). Higher frequencies could provide better spatial resolution but would sacrifice penetration depth. Lower frequencies would penetrate deeper but would not have sufficient temporal or spatial resolution to detect 1-mm details.
-
-This problem highlights the relationship between temporal resolution (how quickly echoes can be distinguished) and spatial resolution (how small an object can be detected). Both are ultimately limited by the wavelength and period of the ultrasound wave, illustrating the wave nature of ultrasound.
+This lower bound is below the diagnostic frequency range quoted in the text. For a pulse containing $$N$$ cycles, the stronger requirement is $$N/f<\Delta t$$; for example, three cycles require more than about 2.31 MHz. Pulse duration, rather than carrier period alone, determines whether these echoes overlap.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

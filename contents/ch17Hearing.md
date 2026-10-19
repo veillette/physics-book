@@ -767,48 +767,15 @@ Suppose a person has a 50-dB hearing loss at all frequencies. By how many factor
 
 ::: solution
 
-**Strategy**
+A 50-dB increase in intensity level requires
 
-A 50-dB hearing loss means the person's hearing threshold is 50 dB higher than normal. To determine the intensity amplification needed, we use the relationship between decibels and intensity ratio: $$\beta = 10\log_{10}(I/I_0)$$. We need to find how many factors of 10 in intensity correspond to a 50-dB increase.
+$$50=10\log_{10}\frac{I_2}{I_1},\qquad \frac{I_2}{I_1}=10^5.$$
 
-**Solution**
+Thus the required low-level intensity gain is **five factors of 10**, or 100,000. Smaller gain for loud sounds is needed to avoid excessive output.
 
-A change in sound level is related to the intensity ratio by:
-
-<div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
-</div>
-
-For a 50-dB increase:
-
-<div class="equation">
-$$50 = 10\log_{10}\left(\frac{I_2}{I_1}\right)$$
-</div>
-
-Dividing both sides by 10:
-
-<div class="equation">
-$$5 = \log_{10}\left(\frac{I_2}{I_1}\right)$$
-</div>
-
-Converting from logarithmic form:
-
-<div class="equation">
-$$\frac{I_2}{I_1} = 10^5$$
-</div>
-
-Therefore, the intensity must be amplified by **five factors of 10**, or 100,000 times.
-
-**Discussion**
-
-Low-intensity sounds must be amplified by five factors of 10 (100,000 times in intensity) for this person to perceive them as a person with normal hearing would. This dramatic amplification is necessary because a 50-dB hearing loss represents a very significant impairment—this person's threshold of hearing is 100,000 times less sensitive than normal. In practical terms, sounds that are barely audible to a person with normal hearing would be completely inaudible to this person without amplification.
-
-This level of hearing loss has profound implications for hearing aid design and daily life. Modern hearing aids must provide sophisticated, frequency-specific amplification while avoiding several critical problems: (1) **Preventing further damage**: As noted in the problem, smaller amplification is needed for already-intense sounds. A sound at 90 dB (already potentially damaging) should not be amplified to 140 dB (which would cause immediate, severe damage). This requires compression circuitry that provides more gain for quiet sounds and less for loud sounds. (2) **Preserving dynamic range**: The ear's remarkable ability to hear intensities ranging over 12 orders of magnitude ($$10^{12}$$) must be compressed into the reduced dynamic range of the hearing-impaired ear. (3) **Avoiding feedback**: Amplifying sounds by 100,000 times creates serious challenges with acoustic feedback (the squealing sound when hearing aids malfunction).
-
-A 50-dB hearing loss at all frequencies would severely impact quality of life. Normal conversation (about 60 dB) would be barely audible without amplification. This person would likely qualify for cochlear implant consideration, as conventional hearing aids may provide limited benefit at this severity of loss. The uniform 50-dB loss across all frequencies is actually somewhat unusual—most hearing loss is frequency-dependent, with high frequencies typically affected more severely than low frequencies, particularly in presbycusis and noise-induced hearing loss. The good news is that modern hearing aids with digital signal processing can provide the necessary amplification while minimizing distortion and protecting against further damage, though they cannot fully restore the subtlety and dynamic range of normal hearing.
+A 50-dB loss is in the moderate hearing-loss range, where hearing aids can be useful. This calculation alone does not determine clinical treatment or cochlear-implant candidacy. See the [NIDCD explanation of hearing aids](https://www.nidcd.nih.gov/health/hearing-aids).
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -874,71 +841,19 @@ Such profound hearing loss could result from various causes: severe genetic cond
 
 ::: solution
 
-**Strategy**
+Use $$I=I_0 10^{\beta/10}$$ with $$I_0=10^{-12}\ \text{W/m}^2$$ and approximate readings from the threshold curve in Figure 2.
 
-A just barely audible sound corresponds to the threshold of hearing, which is the 0-phon curve in Figure 2. We need to find the intensity level in dB at each frequency from the graph, then convert from decibels to actual intensity using the formula $$\beta = 10\log_{10}(I/I_0)$$ where $$I_0 = 10^{-12}$$ W/m².
+**(a)** At 200 Hz the threshold is about 20 dB:
 
-**Solution**
+$$I_{200}=10^{-12}10^{20/10}=1\times10^{-10}\ \text{W/m}^2.$$
 
-**(a) For 200 Hz:**
+**(b)** At 4000 Hz the threshold is about −7 dB:
 
-From Figure 2, the 0-phon curve at 200 Hz corresponds to approximately 20 dB.
+$$I_{4000}=10^{-12}10^{-7/10}\approx2\times10^{-13}\ \text{W/m}^2.$$
 
-Using the decibel formula:
-<div class="equation">
-$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right)$$
-</div>
-
-<div class="equation">
-$$20 = 10\log_{10}\left(\frac{I}{10^{-12}}\right)$$
-</div>
-
-<div class="equation">
-$$2 = \log_{10}\left(\frac{I}{10^{-12}}\right)$$
-</div>
-
-<div class="equation">
-$$\frac{I}{10^{-12}} = 10^2 = 100$$
-</div>
-
-<div class="equation">
-$$I = 100 \times 10^{-12} = 10^{-10} \text{ W/m}^2 = 1 \times 10^{-10} \text{ W/m}^2$$
-</div>
-
-Rounding to one significant figure: $$I \approx 2 \times 10^{-10} \text{ W/m}^2$$
-
-**(b) For 4000 Hz:**
-
-From Figure 2, the 0-phon curve at 4000 Hz corresponds to approximately –7 dB (below the reference).
-
-<div class="equation">
-$$-7 = 10\log_{10}\left(\frac{I}{10^{-12}}\right)$$
-</div>
-
-<div class="equation">
-$$-0.7 = \log_{10}\left(\frac{I}{10^{-12}}\right)$$
-</div>
-
-<div class="equation">
-$$\frac{I}{10^{-12}} = 10^{-0.7} \approx 0.2$$
-</div>
-
-<div class="equation">
-$$I = 0.2 \times 10^{-12} = 2 \times 10^{-13} \text{ W/m}^2$$
-</div>
-
-**Discussion**
-
-The intensity of a just barely audible 200-Hz sound is approximately $$2 \times 10^{-10}$$ W/m², while a barely audible 4000-Hz sound has an intensity of only $$2 \times 10^{-13}$$ W/m². This remarkable difference—the 200-Hz sound requires about 1000 times more intensity than the 4000-Hz sound to be detected—demonstrates the ear's dramatically different sensitivity across the frequency spectrum.
-
-At 4000 Hz, near the ear's peak sensitivity, sounds can be detected at intensities below the reference threshold $$I_0 = 10^{-12}$$ W/m². This is why $$I_0$$ is often called the "threshold of hearing at 1000 Hz"—it's not a universal threshold but rather a reference point. At the ear's most sensitive frequencies (around 3000-4000 Hz), we can actually hear sounds quieter than this reference.
-
-To appreciate how tiny these intensities are, consider that $$2 \times 10^{-13}$$ W/m² for the 4000-Hz sound is an incredibly small amount of energy. If this intensity were spread over the area of a typical eardrum (about $$5 \times 10^{-5}$$ m²), the total power reaching the eardrum would be only $$10^{-17}$$ watts—ten million trillion times smaller than a 1-watt light bulb! This extraordinary sensitivity is possible because of the sophisticated amplification mechanisms in the middle ear (the lever system of the ossicles provides about 40× pressure amplification) and the remarkable sensitivity of the hair cells in the cochlea.
-
-The frequency-dependent threshold has evolutionary significance: the 3000-5000 Hz range, where hearing is most sensitive, corresponds to the frequency range of many warning sounds in nature and is crucial for speech comprehension, particularly for consonants. The reduced sensitivity at 200 Hz (a low frequency) means we're less distracted by low-frequency environmental sounds like distant thunder or wind, which carry little informational value. This frequency-selective sensitivity has been fine-tuned over millions of years of evolution to optimize our survival and communication capabilities.
+These graph estimates imply a ratio of about 500. Hearing sensitivity depends strongly on frequency.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1022,56 +937,13 @@ A person has a hearing threshold 10 dB above normal at 100 Hz and 50 dB above no
 
 ::: solution
 
-**Strategy**
+From Figure 2, estimate normal thresholds of 38 dB at 100 Hz and −7 dB at 4000 Hz. Adding the specified losses gives thresholds of 48 dB and 43 dB, respectively. Thus
 
-We need to find the intensity ratio between the two barely audible tones. First, we'll determine the normal thresholds at each frequency from Figure 2, then add the person's hearing loss to find their actual thresholds. Finally, we'll calculate the ratio of intensities at these two threshold levels.
+$$\frac{I_{100}}{I_{4000}}=10^{(48-43)/10}=10^{0.5}=3.16\approx3.2.$$
 
-**Solution**
-
-From Figure 2, the normal hearing thresholds (0-phon curve) are:
-- At 100 Hz: approximately 38 dB
-- At 4000 Hz: approximately –7 dB
-
-For this person with hearing loss:
-- Threshold at 100 Hz: $$38 + 10 = 48 \text{ dB}$$
-- Threshold at 4000 Hz: $$-7 + 50 = 43 \text{ dB}$$
-
-The difference in threshold levels is:
-<div class="equation">
-$$\Delta\beta = 48 - 43 = 5 \text{ dB}$$
-</div>
-
-To find the intensity ratio:
-<div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_{100}}{I_{4000}}\right)$$
-</div>
-
-<div class="equation">
-$$5 = 10\log_{10}\left(\frac{I_{100}}{I_{4000}}\right)$$
-</div>
-
-<div class="equation">
-$$0.5 = \log_{10}\left(\frac{I_{100}}{I_{4000}}\right)$$
-</div>
-
-<div class="equation">
-$$\frac{I_{100}}{I_{4000}} = 10^{0.5} = \sqrt{10} \approx 3.16$$
-</div>
-
-Rounding to 2 significant figures: $$\frac{I_{100}}{I_{4000}} \approx 2.5$$
-
-**Discussion**
-
-The 100-Hz tone must be about 2.5 times more intense than the 4000-Hz tone for both to be barely audible to this person. At first glance, this result might seem counterintuitive—the person has much greater hearing loss at 4000 Hz (50 dB) than at 100 Hz (10 dB), yet the 100-Hz tone needs to be more intense. This apparent paradox is explained by the normal ear's frequency-dependent sensitivity.
-
-For a person with normal hearing, a 100-Hz tone needs to be much more intense than a 4000-Hz tone to be audible (38 dB vs. –7 dB, a difference of 45 dB). This person's hearing loss partially "compensates" for this normal frequency dependence. The 10-dB loss at 100 Hz brings their threshold to 48 dB, while the 50-dB loss at 4000 Hz brings that threshold to 43 dB. The net result is that the person's thresholds are now only 5 dB apart, compared to 45 dB apart for normal hearing.
-
-This problem illustrates an important concept in audiology: **the pattern of hearing loss matters as much as the magnitude**. This person's hearing loss pattern is typical of **noise-induced hearing loss (NIHL)**, which characteristically causes a pronounced dip in sensitivity around 3000-6000 Hz, with the worst loss typically at 4000 Hz. This distinctive "4000-Hz notch" on an audiogram is a hallmark of noise exposure from sources like gunfire, power tools, or loud music. The 10-dB loss at 100 Hz represents mild hearing loss, while the 50-dB loss at 4000 Hz represents moderate to severe hearing loss.
-
-The clinical implications are significant: (1) This person would have particular difficulty understanding speech, because consonant sounds (which carry much of speech's intelligibility) fall in the 2000-8000 Hz range where their hearing is most impaired. (2) They might not notice their hearing problem in quiet environments, because the low-frequency vowel sounds would still be audible. (3) A hearing aid would need to provide frequency-specific amplification—much more gain at 4000 Hz than at 100 Hz. (4) This hearing loss pattern is often preventable through proper hearing protection in noisy environments. The fact that noise-induced hearing loss shows up first around 4000 Hz is thought to be related to the mechanical properties of the cochlea and the specific resonances in the ear canal. Unfortunately, hair cell damage at this frequency is permanent and irreversible, emphasizing the critical importance of hearing protection in occupational and recreational settings with high noise levels.
+Using these approximate graph readings, the 100-Hz tone must be about **3.2 times** as intense. The different normal thresholds must be included as well as the person's losses.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

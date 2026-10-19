@@ -691,46 +691,19 @@ The charge stored in the 8.00 pF capacitor with 5.50 V applied is **44.0 pC**.
 
 ::: problem
 
-What charge is stored in the capacitor in [[Example 1]](#Example1)?
+What charge is stored in the defibrillator capacitor in [Example 1 of Energy Stored in Capacitors](/contents/ch19EnergyStoredInCapacitors.md#Example1)?
 
 :::
 
 ::: solution
 
-**Strategy**
+The [defibrillator example](/contents/ch19EnergyStoredInCapacitors.md#Example1) uses $$C=8.00\ \mu\text{F}$$ charged to $$V=1.00\times10^4\ \text{V}$$. Therefore
 
-This problem requires referencing Example 1, which describes a parallel plate capacitor with 1.00 m² plates separated by 1.00 mm, with 3.00 kV applied. We need to use the capacitance calculated there (8.85 nF) and the relationship $$Q = CV$$ to find the stored charge.
+$$Q=CV=(8.00\times10^{-6})(1.00\times10^4)=8.00\times10^{-2}\ \text{C}=80.0\ \text{mC}.$$
 
-**Solution**
-
-From Example 1, the capacitance was calculated as:
-
-$$C = 8.85 \times 10^{-9} \text{ F} = 8.85 \text{ nF}$$
-
-However, Example 1 part (b) calculated the charge for $$V = 3.00 \times 10^3$$ V, which gave 26.6 μC.
-
-Looking at the context, this problem likely asks about a scenario where the maximum safe voltage is applied. Using the Teflon-filled version discussed later in the text (with $$\kappa = 2.1$$ and maximum voltage of 60,000 V):
-
-$$C_{\text{Teflon}} = \kappa C_{\text{air}} = (2.1)(8.85 \text{ nF}) = 18.6 \text{ nF}$$
-
-But for the basic air-filled capacitor at a higher voltage, if we interpret this as the maximum voltage (3000 V from dielectric strength considerations):
-
-$$Q = CV = (8.85 \times 10^{-9} \text{ F})(3.00 \times 10^{3} \text{ V})$$
-
-$$Q = 26.6 \times 10^{-6} \text{ C} = 26.6 \text{ μC}$$
-
-For the answer of 80.0 mC, we would need approximately 9.04 MV, which exceeds breakdown. The 80.0 mC answer likely corresponds to a different voltage scenario or modified example.
-
-**Discussion**
-
-The charge stored depends critically on both the capacitance and the applied voltage. For parallel plate capacitors, the practical limitation is often the dielectric strength of the material between the plates, which limits the maximum voltage and therefore the maximum charge that can be stored.
-
-**Final Answer**
-
-The charge stored in the capacitor from Example 1 is **80.0 mC** (as stated, though this requires a voltage of approximately 9 MV, suggesting a modified scenario or different interpretation).
+The plates carry equal and opposite charges of magnitude 80.0 mC.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1104,7 +1077,7 @@ $$V_{\text{max}} = E_{\text{max}} \cdot d = (14 \times 10^{6} \text{ V/m})(0.010
 
 $$Q_{\text{max}} = CV_{\text{max}} = (12.0 \times 10^{-6} \text{ F})(140 \text{ V}) = 1.68 \text{ mC}$$
 
-So the maximum charge is about 1.7 mC, which is about 100 times smaller than the assumed 170 mC (or 1000 times smaller than 0.170 C).
+So the maximum charge is about 1.7 mC, which is about 100 times smaller than the assumed 170 mC (also about 100 times smaller than 0.170 C).
 
 **Final Answer**
 

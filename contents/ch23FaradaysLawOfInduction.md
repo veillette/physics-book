@@ -274,112 +274,39 @@ Explicitly show how you follow the steps in the [Problem-Solving Strategy for Le
 
 **Strategy**
 
-We follow the problem-solving strategy for Lenz's Law: First, identify the direction of the magnetic field from coil 1. Then determine whether the flux through coil 2 is increasing or decreasing. Next, find the direction of the induced field in coil 2 that opposes this change. Finally, use RHR-2 to determine the induced current direction.
+Identify the external field at coil 2, decide how its flux changes, then choose an induced field opposing that change. Use the right-hand rule to find the current.
 
-**Solution for (a): Current in coil 1 increases**
+The coils are coplanar. Coil 1 carries counterclockwise current, giving an out-of-page field inside itself and an **into-page return field through coil 2**, which lies outside it.
 
-Following the steps:
+**(a)** Increasing current increases the into-page flux through coil 2. The induced field points out of the page, so the induced current is **counterclockwise**.
 
-1. Sketch: Coil 1 has current I flowing counterclockwise (as shown in Figure 4a)
-2. By RHR-2, the magnetic field from coil 1 points out of the page through coil 2
-3. If current in coil 1 increases, the magnetic flux through coil 2 increases (field pointing out increases)
-4. The induced magnetic field in coil 2 must oppose this increase by pointing into the page
-5. By RHR-2, a clockwise current in coil 2 produces a field into the page
+**(b)** Decreasing current reduces the into-page flux. The induced field points into the page, so the current is **clockwise**.
 
-**Answer for (a):** The induced current in coil 2 is clockwise (CW).
-
-**Solution for (b): Current in coil 1 decreases**
-
-Following the steps:
-
-1. The magnetic field from coil 1 still points out of the page
-2. If current in coil 1 decreases, the flux through coil 2 decreases
-3. The induced field in coil 2 must oppose this decrease by pointing out of the page (same direction as original field)
-4. By RHR-2, a counterclockwise current in coil 2 produces a field out of the page
-
-**Answer for (b):** The induced current in coil 2 is counterclockwise (CCW).
-
-**Solution for (c): Current in coil 1 is constant**
-
-Following the steps:
-
-1. If current is constant, the magnetic field from coil 1 is constant
-2. The magnetic flux through coil 2 is not changing ($$\Delta\Phi = 0$$)
-3. By Faraday's law: $$\text{emf} = -N\frac{\Delta\Phi}{\Delta t} = 0$$
-4. No emf means no induced current
-
-**Answer for (c):** No current is induced in coil 2.
-
-**Discussion**
-
-This problem demonstrates the key principle of electromagnetic induction: only a *changing* magnetic flux induces an emf. A steady magnetic field, no matter how strong, produces no induced current. Lenz's law ensures that the induced current always opposes the change that produces it, which is a manifestation of energy conservation.
-
-**Final Answer**
-
-(a) Clockwise (CW); (b) Counterclockwise (CCW); (c) No current induced.
+**(c)** Constant current gives constant flux, so **no current is induced**.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
-Referring to [[Figure 3]](#Figure3)(b), what is the direction of the current induced in the coil: (a) If the current in the wire increases? (b) If the current in the wire decreases? (c) If the current in the wire suddenly changes direction?
+Referring to [[Figure 4]](#Figure4)(b), what is the direction of the current induced in the coil: (a) If the current in the wire increases? (b) If the current in the wire decreases? (c) If the current in the wire suddenly changes direction?
 Explicitly show how you follow the steps in the [Problem-Solving Strategy for Lenz's Law](#Note1).
 
 :::
 
 ::: solution
 
-**Strategy**
+The wire in Figure 4(b) carries upward current, and its field through the coil to its right points **into the page**. Apply Lenz's law to the change in that flux, then the right-hand rule to the induced field.
 
-We follow the problem-solving strategy for Lenz's law: identify the direction of the magnetic field from the wire, determine whether flux through the coil is increasing or decreasing, find the direction of the induced field that opposes this change, and use RHR-2 to find the induced current direction.
+**(a)** Increasing wire current increases into-page flux. The induced field must point out of the page, requiring **counterclockwise** current.
 
-**Solution for (a)**
+**(b)** Decreasing wire current decreases into-page flux. The induced field must point into the page, requiring **clockwise** current.
 
-Following the steps:
-
-1. The wire is vertical with current flowing upward
-2. By RHR-2, the magnetic field from the wire circles the wire counterclockwise when viewed from above
-3. If current increases, flux through the horizontal coil increases (field points up through coil)
-4. The induced field must oppose this increase by pointing downward through the coil
-5. By RHR-2, a clockwise current (viewed from above) produces a downward field
-
-**Answer:** The induced current is clockwise when viewed from above.
-
-**Solution for (b)**
-
-If current decreases:
-
-1. Flux through the coil decreases
-2. The induced field must oppose this decrease by pointing upward through the coil (same direction as original field)
-3. By RHR-2, a counterclockwise current (viewed from above) produces an upward field
-
-**Answer:** The induced current is counterclockwise when viewed from above.
-
-**Solution for (c)**
-
-If current suddenly reverses:
-
-1. The magnetic field reverses direction
-2. This is equivalent to the original field decreasing to zero and a new field in the opposite direction increasing
-3. Initially, the induced current will be counterclockwise (to oppose decrease of original field)
-4. Then clockwise (to oppose increase of reversed field)
-
-**Answer:** The induced current initially flows counterclockwise, then clockwise when viewed from above.
-
-**Discussion**
-
-In all cases, Lenz's law ensures the induced current creates a magnetic field opposing the change in flux, consistent with energy conservation.
-
-**Final Answer**
-
-(a) Clockwise; (b) Counterclockwise; (c) First counterclockwise, then clockwise (when viewed from above).
+**(c)** During a monotonic reversal from upward to downward wire current, the flux changes continuously from into the page to out of the page. The induced field points into the page throughout, requiring **clockwise** current throughout the reversal. There is no further induced current once the reversed wire current is steady.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -746,7 +673,7 @@ By Lenz's law, the induced field opposes the change. Since the MRI field (into w
 
 **Discussion**
 
-The small power dissipation (less than 1 mW) explains why the ring doesn't heat significantly. The induced field is much weaker than the 2.00 T MRI field, about 10,000 times smaller.
+The small power dissipation (less than 1 mW) explains why the ring doesn't heat significantly. The induced field is much weaker than the 2.00 T MRI field, about 100,000 times smaller.
 
 **Final Answer**
 
@@ -815,7 +742,7 @@ $$|\text{emf}| = 1000 \times 1.57 \times 10^{-4} = 0.157 \text{ V}$$
 
 **Discussion**
 
-Despite the Earth's weak magnetic field (only 50 μT), a measurable emf of 157 mV is produced due to the large number of turns (1000) in the coil. This demonstrates the principle behind generators: even weak magnetic fields can produce useful voltages when combined with multiple coil turns and rapid rotation. The rapid 10 ms rotation time (equivalent to 100 rotations per second) also contributes significantly to the induced emf.
+Despite the Earth's weak magnetic field (only 50 μT), a measurable emf of 157 mV is produced due to the large number of turns (1000) in the coil. This demonstrates the principle behind generators: even weak magnetic fields can produce useful voltages when combined with multiple coil turns and rapid rotation. The rapid 10 ms rotation time (a quarter turn, equivalent to a steady rate of 25 rotations per second) also contributes significantly to the induced emf.
 
 **Final Answer**
 
@@ -881,7 +808,7 @@ The required magnetic field strength is 0.425 T.
 
 **Integrated Concepts**
 
-Approximately how does the emf induced in the loop in [[Figure 3]](#Figure3)(b)
+Approximately how does the emf induced in the loop in [[Figure 4]](#Figure4)(b)
 depend on the distance of the center of the loop from the wire?
 
 :::
@@ -949,7 +876,7 @@ The induced emf is approximately proportional to $$\frac{1}{r}$$, where $$r$$ is
 
 (a) A lightning bolt produces a rapidly varying magnetic field. If the bolt
 strikes the earth vertically and acts like a current in a long straight wire, it
-will induce a voltage in a loop aligned like that in [[Figure 3]](#Figure3)(b).
+will induce a voltage in a loop aligned like that in [[Figure 4]](#Figure4)(b).
 What voltage is induced in a 1.00 m diameter loop 50.0 m from a $$ 2.00 \times 10^{6} \text{A} $$ lightning strike, if the current falls to zero in $$25.0 \mu \text{s} $$ ? 
 (b) Discuss circumstances under which such a voltage would produce noticeable
 consequences.
@@ -958,55 +885,19 @@ consequences.
 
 ::: solution
 
-**Strategy**
+**(a)** The loop is in a vertical plane containing the lightning channel, as in Figure 4(b). Since its 1.00-m diameter is small compared with its 50.0-m distance from the channel, approximate the field as uniform across it:
 
-The magnetic field from a long straight wire is $$B = \frac{\mu_{0} I}{2\pi r}$$. The flux through a horizontal loop of area $$A$$ is approximately $$\Phi \approx BA$$. The induced emf is $$\text{emf} = \frac{\Delta\Phi}{\Delta t}$$.
+$$B=\frac{\mu_0I}{2\pi r}=\frac{(2.00\times10^{-7})(2.00\times10^6)}{50.0}=8.00\times10^{-3}\ \text{T}.$$
 
-**Solution for (a)**
+$$A=\pi(0.500)^2=0.7854\ \text{m}^2,\qquad |\Delta\Phi|=BA=6.28\times10^{-3}\ \text{Wb}.$$
 
-The magnetic field at distance $$r = 50.0 \text{ m}$$ from the lightning bolt:
+The magnitude of the average induced emf while the current falls to zero is
 
-<div class="equation">
-$$B = \frac{\mu_{0} I}{2\pi r} = \frac{(4\pi \times 10^{-7})(2.00 \times 10^6)}{2\pi(50.0)} = \frac{8.00 \times 10^{-1}}{100\pi} = 2.55 \times 10^{-3} \text{ T}$$
-</div>
+$$|\overline{\mathcal E}|=\frac{|\Delta\Phi|}{\Delta t}=\frac{6.28\times10^{-3}}{25.0\times10^{-6}}=251\ \text{V}.$$
 
-The loop area is:
-
-<div class="equation">
-$$A = \pi r^2 = \pi(0.500)^2 = 0.785 \text{ m}^2$$
-</div>
-
-The change in flux as current drops to zero:
-
-<div class="equation">
-$$\Delta\Phi = BA = (2.55 \times 10^{-3})(0.785) = 2.00 \times 10^{-3} \text{ Wb}$$
-</div>
-
-The induced emf:
-
-<div class="equation">
-$$\text{emf} = \frac{\Delta\Phi}{\Delta t} = \frac{2.00 \times 10^{-3}}{25.0 \times 10^{-6}} = 80.0 \text{ V}$$
-</div>
-
-**Solution for (b)**
-
-This 80 V induced emf could produce noticeable consequences in several situations:
-- If the loop is part of electrical wiring in a building, it could damage sensitive electronic equipment
-- It could cause currents large enough to trip circuit breakers or blow fuses
-- In underground metal pipes or cables, it could cause sparking or heating
-- For a person forming a conducting loop (e.g., touching two metal objects), it could deliver a dangerous shock
-- The voltage is sufficient to break down small air gaps, causing arcing
-
-**Discussion**
-
-This demonstrates why lightning strikes can damage electrical systems even at considerable distances. Proper grounding and surge protection are essential.
-
-**Final Answer**
-
-(a) The induced voltage is 80.0 V. (b) This voltage could damage electronics, trip breakers, cause dangerous shocks, or create arcing in nearby conductors.
+**(b)** A 251-V transient can disturb or damage electronics connected to a conducting loop. The resulting current and deposited energy depend on the loop's resistance, inductance, and connected devices, as well as the pulse duration. The voltage alone does not establish whether a fuse trips or an air gap breaks down.
 
 :::
-
 </div>
 
 ::: glossary

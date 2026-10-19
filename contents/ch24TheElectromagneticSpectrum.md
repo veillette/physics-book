@@ -1991,7 +1991,7 @@ Final Answer
 
 ::: problem
 
-(a) What is the wavelength of 100-MHz radio waves used in an MRI unit? (b) If the frequencies are swept over a  $$± 1.00  $$
+(a) What is the wavelength of 100-MHz radio waves used in an MRI unit? (b) If the frequencies are swept over a  $$± 1.00\ \text{MHz} $$
  range centered on 100 MHz, what is the range of wavelengths broadcast?
 
 :::
@@ -2002,7 +2002,7 @@ Final Answer
 Strategy
 </div>
 
-For part (a), we use $$\lambda =\frac{c}{f}$$ to find the wavelength. For part (b), we need to find the wavelengths corresponding to the minimum and maximum frequencies in the swept range. The ±1.00 likely refers to ±1.00 MHz (a 1% frequency range is typical for MRI).
+For part (a), we use $$\lambda =\frac{c}{f}$$ to find the wavelength. For part (b), we need to find the wavelengths corresponding to the minimum and maximum frequencies in the swept range. The stated sweep is ±1.00 MHz about 100 MHz.
 
 <div class="title">
 Solution
@@ -2354,7 +2354,7 @@ Required time accuracy:
 Discussion
 </div>
 
-These three parts illustrate radar ranging across vastly different scales. Part (a) shows planetary radar—the distance to Venus ($$1.50 \times 10^{11}$$ m or about 150 million km) is approximately the distance from Earth to the Sun (1 AU). Venus is one of the closest planets, and a 1000-second (16.7-minute) round-trip time is typical when Venus is at its closest approach to Earth (about 40 million km) to when it's on the far side of the Sun (about 260 million km). Planetary radar was first achieved in 1961 and has been used to map Venus's surface through its thick clouds and to refine our measurements of planetary orbits and the astronomical unit.
+These three parts illustrate radar ranging across vastly different scales. Part (a) shows planetary radar—the distance to Venus ($$1.50 \times 10^{11}$$ m or about 150 million km) is approximately the distance from Earth to the Sun (1 AU). The given 1000-second round-trip time corresponds to a particular separation of 150 million km. The Earth–Venus distance changes as both planets orbit the Sun; this is not a closest-approach distance. Planetary radar was first achieved in 1961 and has been used to map Venus's surface through its thick clouds and to refine our measurements of planetary orbits and the astronomical unit.
 
 Part (b) demonstrates traffic radar. The 0.500 microsecond round-trip time for a car 75 m away is extremely short, requiring fast electronics to measure. Police radar guns typically operate at microwave frequencies (10-35 GHz) and measure both distance (from time delay) and speed (from Doppler shift in frequency). The speed measurement is actually more commonly used since it doesn't require measuring tiny time delays but instead measures the frequency shift of the returned signal.
 
@@ -2501,7 +2501,7 @@ Net power radiated:
 
 Since this is power per unit area: $$I=3.5 \times 10^{2} \text{ W/m}^{2}$$
 
-(The negative sign in the original answer indicates heat loss from Earth.)
+With outward power defined positive, this is heat loss from Earth.
 
 **(b)** Incoming solar intensity (absorbed): $$I_{\text{sun}}=\frac{800}{2}=400 \text{ W/m}^{2}$$
 

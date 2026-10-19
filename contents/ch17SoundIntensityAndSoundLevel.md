@@ -553,53 +553,13 @@ A sound wave traveling in  $$20ºC $$
 
 ::: solution
 
-**Strategy**
+Use the pressure-amplitude relation with air density $$\rho=1.20\ \text{kg/m}^3$$ and sound speed $$v=343\ \text{m/s}$$ at 20 °C:
 
-We are given the pressure amplitude $$\Delta p$$ and need to find the intensity $$I$$. We use the relationship between intensity and pressure amplitude: $$I = \frac{(\Delta p)^2}{2\rho v_w}$$. For air at 20°C, we use $$\rho = 1.29$$ kg/m³ and $$v_w = 343$$ m/s.
+$$I=\frac{(\Delta p)^2}{2\rho v}=\frac{(0.5)^2}{2(1.20)(343)}=\frac{0.25}{823.2}=3.04\times10^{-4}\ \text{W/m}^2.$$
 
-**Solution**
-
-Given:
-- Pressure amplitude: $$\Delta p = 0.5 \text{ Pa}$$
-- Temperature: $$T = 20°C$$
-- For air at 20°C: $$\rho = 1.29 \text{ kg/m}^3$$, $$v_w = 343 \text{ m/s}$$
-
-Using the intensity-pressure relationship:
-
-<div class="equation">
-$$I = \frac{(\Delta p)^2}{2\rho v_w}$$
-</div>
-
-Substituting the values:
-
-<div class="equation">
-$$I = \frac{(0.5 \text{ Pa})^2}{2(1.29 \text{ kg/m}^3)(343 \text{ m/s})}$$
-</div>
-
-<div class="equation">
-$$I = \frac{0.25 \text{ Pa}^2}{885.14 \text{ kg/(m·s)}}$$
-</div>
-
-Since $$1 \text{ Pa} = 1 \text{ N/m}^2 = 1 \text{ kg/(m·s}^2\text{)}$$, we have $$\text{Pa}^2 = \text{kg}^2/(\text{m}^2\text{·s}^4)$$:
-
-<div class="equation">
-$$I = \frac{0.25 \text{ kg}^2/(\text{m}^2\text{·s}^4)}{885.14 \text{ kg/(m·s)}} = \frac{0.25}{885.14} \frac{\text{kg}}{\text{m·s}^3} = 2.82 \times 10^{-4} \text{ kg/(m·s}^3\text{)}$$
-</div>
-
-Since $$\text{kg/(m·s}^3\text{)} = \text{W/m}^2$$:
-
-<div class="equation">
-$$I = 3.04 \times 10^{-4} \text{ W/m}^2$$
-</div>
-
-**Discussion**
-
-The intensity of $$3.04 \times 10^{-4}$$ W/m² corresponds to a moderate sound level. This pressure amplitude of 0.5 Pa is quite small—only about 5 parts per million of atmospheric pressure ($$10^5$$ Pa)—yet it produces a clearly audible sound. This demonstrates the remarkable sensitivity of the human ear to tiny pressure variations. The quadratic relationship between pressure amplitude and intensity means that doubling the pressure amplitude would quadruple the intensity. This makes physical sense because both the kinetic and potential energy densities in the wave are proportional to the square of the amplitude.
-
-The intensity of the sound wave is $$3.04 \times 10^{-4}$$ W/m².
+Intensity is proportional to the square of pressure amplitude.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1485,7 +1445,7 @@ $$E = 1.45 \times 10^{-3} \text{ J}$$
 
 **Discussion**
 
-The total energy of $$1.45 \times 10^{-3}$$ J (about 1.5 millijoules) seems remarkably small—less than the energy needed to lift a paperclip one centimeter! Yet this tiny amount of energy, delivered continuously over 8 hours to the delicate structures of the inner ear, is sufficient to cause permanent hearing damage.
+The total energy of $$1.45 \times 10^{-3}$$ J (about 1.5 millijoules) seems remarkably small—about the energy needed to lift a 1-g paperclip 15 cm! Yet this tiny amount of energy, delivered continuously over 8 hours to the delicate structures of the inner ear, is sufficient to cause permanent hearing damage.
 
 This illustrates several important points:
 

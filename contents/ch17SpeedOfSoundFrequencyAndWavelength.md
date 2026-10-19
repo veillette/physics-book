@@ -464,7 +464,7 @@ $$v_w = (1500 \text{ Hz})(0.221 \text{ m}) = 332 \text{ m/s}$$
 
 **Discussion**
 
-The calculated speed of sound is 332 m/s, which is slightly slower than the standard value of 343 m/s at 20°C. This indicates that the air temperature on this day is lower than 20°C. Using the temperature-dependent speed formula $$v_w = (331 \text{ m/s})\sqrt{T/273 \text{ K}}$$, we can estimate that the temperature is approximately 3°C. This is a reasonable temperature for a cool day. The result demonstrates how sound speed varies with atmospheric conditions, which is important for applications like sonar, musical acoustics, and outdoor sound propagation.
+The calculated speed of sound is 332 m/s, which is slightly slower than the standard value of 343 m/s at 20°C. This indicates that the air temperature on this day is lower than 20°C. Using the temperature-dependent speed formula $$v_w = (331 \text{ m/s})\sqrt{T/273 \text{ K}}$$, we can estimate that the temperature is approximately 1°C. This is a reasonable temperature for a cool day. The result demonstrates how sound speed varies with atmospheric conditions, which is important for applications like sonar, musical acoustics, and outdoor sound propagation.
 
 The speed of sound on this day is 332 m/s.
 

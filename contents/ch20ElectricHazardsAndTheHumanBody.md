@@ -619,56 +619,17 @@ This tiny threshold voltage (6.00 mV) is about 20,000 times smaller than househo
 
 ::: solution
 
-**Strategy**
+**(a)** The 220-V AC rating is rms. For a resistive short circuit, peak power is twice average power:
 
-(a) For AC circuits, peak power occurs when the instantaneous voltage is at its peak value. Use $$P = V^{2}/R$$ rearranged to find resistance. For 220-V AC, the stated voltage is the RMS value, and peak voltage is $$V_{\text{peak}} = \sqrt{2} \times V_{\text{RMS}}$$. However, if "220-V AC" refers to peak voltage, use it directly. Given the problem states "peak power," we'll assume 220 V is the RMS value.
+$$P_{\text{peak}}=\frac{2V_{\text{rms}}^2}{R},\qquad R=\frac{2(220)^2}{96.8\times10^3}=1.00\ \Omega.$$
 
-(b) Use the same resistance with 120-V AC to find the new average power using $$P_{\text{avg}} = V_{\text{RMS}}^{2}/R$$.
+**(b)** At 120 V rms through the same resistance,
 
-**Solution**
+$$P_{\text{avg}}=\frac{V_{\text{rms}}^2}{R}=\frac{120^2}{1.00}=14.4\ \text{kW}.$$
 
-**(a)** For AC, peak power with RMS voltage $$V_{\text{RMS}} = 220 \text{ V}$$:
-
-The peak voltage is:
-<div class="equation">
-$$V_{\text{peak}} = \sqrt{2} \times V_{\text{RMS}} = 1.414 \times 220 \text{ V} = 311 \text{ V}$$
-</div>
-
-Peak power:
-<div class="equation">
-$$P_{\text{peak}} = \frac{V_{\text{peak}}^{2}}{R}$$
-</div>
-
-Solving for R:
-<div class="equation">
-$$R = \frac{V_{\text{peak}}^{2}}{P_{\text{peak}}} = \frac{(311 \text{ V})^{2}}{96.8 \times 10^{3} \text{ W}} = \frac{96721 \text{ V}^{2}}{96800 \text{ W}} = 0.999 \text{ Ω} \approx 1.00 \text{ Ω}$$
-</div>
-
-Alternatively, if the problem intends 220 V as the effective voltage for average power calculation (a simpler interpretation), we would use:
-<div class="equation">
-$$R = \frac{(220 \text{ V})^{2}}{96.8 \times 10^{3} \text{ W}} \approx 0.50 \text{ Ω}$$
-</div>
-
-However, the answer $$1.00 \text{ Ω}$$ suggests the peak interpretation is correct.
-
-**(b)** Average power with 120-V AC through $$R = 1.00 \text{ Ω}$$:
-
-<div class="equation">
-$$P_{\text{avg}} = \frac{V_{\text{RMS}}^{2}}{R} = \frac{(120 \text{ V})^{2}}{1.00 \text{ Ω}} = \frac{14400 \text{ V}^{2}}{1.00 \text{ Ω}} = 14400 \text{ W} = 14.4 \text{ kW}$$
-</div>
-
-**Discussion**
-
-Even though the voltage decreased from 220 V to 120 V (a factor of 220/120 ≈ 1.83), the power decreased from 96.8 kW to 14.4 kW (a factor of 96.8/14.4 ≈ 6.7). This demonstrates the quadratic relationship between voltage and power: $$P \propto V^{2}$$ when resistance is constant. The factor should be $$(220/120)^{2} = 3.36$$ for average power, but we're comparing peak power at 220 V to average power at 120 V, which accounts for an additional factor of 2.
-
-Both power levels are extremely dangerous and represent serious fire hazards. A short circuit with $$R = 1.00 \text{ Ω}$$ would draw enormous currents (311 A peak at 220 V, or 120 A at 120 V) and generate intense heat. Circuit protection would need to respond in milliseconds to prevent catastrophic damage.
-
-**Final Answer**
-
-(a) The resistance of the short circuit is **1.00 Ω**. (b) The average power at 120-V AC would be **14.4 kW**.
+At 220 V the average power was 48.4 kW. The ratio of average powers is $$(220/120)^2=3.36$$; comparing the original peak power to the new average introduces another factor of two.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

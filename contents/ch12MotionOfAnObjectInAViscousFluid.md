@@ -151,21 +151,7 @@ What direction will a helium balloon move inside a car that is slowing down—to
 
 ::: solution
 
-**Strategy**
-
-We analyze the forces on the balloon and air inside the car using Newton's laws and the concept of buoyancy in an accelerating reference frame.
-
-**Solution**
-
-The helium balloon will move **toward the front** of the car when the car slows down.
-
-Here's why: When the car decelerates, everything inside experiences a pseudo-force pushing it forward (from the perspective of someone inside the car). The denser air inside the car tends to move forward due to this pseudo-force. Since the helium balloon is less dense than the surrounding air, it experiences a buoyant force in the opposite direction—just as a helium balloon rises upward against gravity because it's less dense than air.
-
-Alternatively, think of it this way: When the car brakes, the air inside piles up toward the front of the car, creating a pressure gradient (higher pressure at front, lower at back). The balloon, being buoyant, moves from high pressure to low pressure—but wait, that would be toward the back. The key insight is that the balloon moves opposite to what denser objects do. The air wants to move forward, so it pushes the lighter balloon backward relative to the air—but the air is moving forward faster than the balloon can be pushed back, so the net effect is the balloon moves forward relative to the car.
-
-**Discussion**
-
-This is counterintuitive because most objects (your coffee cup, loose change) slide forward when you brake. But the helium balloon behaves oppositely because it's buoyant. This same principle explains why a helium balloon leans forward when a car accelerates (instead of tilting back like a hanging object would). It's essentially "falling up" in the direction opposite to the effective gravity created by the car's acceleration.
+The helium balloon moves **toward the back** of the slowing car. In the car's frame, the denser air experiences a forward inertial force, producing higher pressure at the front of the cabin. The pressure gradient pushes the buoyant balloon backward, opposite to the motion of loose dense objects. During forward acceleration, the pressure gradient reverses and the balloon moves forward.
 
 :::
 

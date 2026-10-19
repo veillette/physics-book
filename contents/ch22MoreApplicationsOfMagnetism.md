@@ -394,35 +394,15 @@ What are the directions of the currents in the loop and coils shown in [[Figure 
 
 ::: solution
 
-**Strategy**
+Point the right thumb along the magnetic field; the curled fingers give the conventional current direction.
 
-This is the reverse of the previous problem. Given the magnetic field direction inside a loop or coil, we use the right-hand rule in reverse: point the thumb in the direction of the magnetic field, and the fingers curl in the direction of current flow.
+**(a)** A field into the page requires **clockwise** current.
 
-**Solution**
+**(b)** The field points rightward, so the current is **clockwise as viewed from the left** (counterclockwise as viewed from the right).
 
-**(a)** For the loop with magnetic field pointing into the page:
-- Point thumb into the page (direction of B)
-- Fingers curl **clockwise** (as viewed from the front)
-- Current direction: **clockwise**
-
-**(b)** For the coil with magnetic field pointing to the left:
-- Point thumb to the left (direction of B)
-- Fingers curl in direction of current
-- Current direction: **clockwise as seen from the left**
-
-**(c)** For the coil with magnetic field pointing to the right:
-- Point thumb to the right (direction of B)
-- Fingers curl in direction of current
-- Current direction: **clockwise as seen from the right**
-
-**Discussion**
-
-This inverse application of the right-hand rule is essential for designing electromagnets and understanding induced currents. When we want to create a magnetic field in a specific direction, we can determine the required current direction using this method. This is the foundation for designing MRI magnets, particle accelerator magnets, and electric motors.
-
-**(a) Clockwise. (b) Clockwise as seen from the left. (c) Clockwise as seen from the right.**
+**(c)** The field points leftward, so the current is **clockwise as viewed from the right** (counterclockwise as viewed from the left).
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -613,41 +593,23 @@ This field of about 0.25 T is quite strong—roughly 5000 times Earth's magnetic
 
 ::: problem
 
-What current is needed in the solenoid described in [[Exercise 1]](#Exercise1) to produce a magnetic field  $$10^{4} $$
- times the Earth’s magnetic field of  $$ 5.00 \times 10^{-5} \text{T} $$ ?
+What current is needed in the solenoid of the preceding problem, with 10 000 turns per meter, to produce a magnetic field $$10^4$$ times Earth's field of $$5.00\times10^{-5}\ \text{T}$$?
 
 :::
 
 ::: solution
 
-**Strategy**
+The preceding solenoid has $$n=10\,000\ \text{turns/m}$$. The desired field is
 
-We need to find the current required in a solenoid to produce a field $10^4$ times Earth's field. Using the solenoid formula $B = \mu_0 n I$, we can solve for the current. Note that Exercise 1 describes a configuration with certain parameters, but we need to use a typical solenoid turn density.
+$$B=10^4(5.00\times10^{-5})=0.500\ \text{T}.$$
 
-**Solution**
+From $$B=\mu_0nI$$,
 
-*Known quantities:*
-- Earth's field: $B_E = 5.00 \times 10^{-5} \text{ T}$
-- Desired field: $B = 10^4 \times B_E = 10^4 \times 5.00 \times 10^{-5} = 0.500 \text{ T}$
-- Turns per meter: $n = 10{,}000 \text{ m}^{-1}$ (from the solenoid in Exercise 7)
-- $\mu_0 = 4\pi \times 10^{-7} \text{ T·m/A}$
+$$I=\frac{0.500}{(4\pi\times10^{-7})(10^4)}=39.8\ \text{A}.$$
 
-Using the solenoid formula:
-
-$$B = \mu_{0} n I$$
-
-$$I = \frac{B}{\mu_{0} n} = \frac{0.500 \text{ T}}{(4\pi \times 10^{-7} \text{ T·m/A})(10^4 \text{ m}^{-1})}$$
-
-$$I = \frac{0.500}{1.257 \times 10^{-2}} = 39.8 \text{ A}$$
-
-**Discussion**
-
-A current of about 40 A is substantial but achievable with ordinary conductors (requiring thick wire to handle the heating). This illustrates that solenoids can produce very strong fields—0.5 T is 10,000 times Earth's field! Such strong fields are used in research magnets, MRI machines (with superconducting coils for even higher fields), and industrial electromagnets.
-
-**A current of 39.8 A is needed to produce a magnetic field $10^4$ times Earth's field.**
+This uses the ideal long-solenoid approximation.
 
 :::
-
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -698,7 +660,7 @@ You must be at least 60 cm (about 2 feet) from the starter cable for the wire's 
 
 ::: problem
 
-Measurements affect the system being measured, such as the current loop in [[Figure 8]](../contents/ch23MagneticForceOnACurrentCarryingConductor#Figure8). (a) Estimate the field the loop creates by calculating the field at the center of a circular loop 20.0 cm in diameter carrying 5.00 A. (b) What is the smallest field strength this loop can be used to measure, if its field must alter the measured field by less than 0.0100%?
+Measurements affect the system being measured, such as the current loop in [[Figure 8]](/contents/ch22MagneticForceOnACurrentCarryingConductor.md#Figure8). (a) Estimate the field the loop creates by calculating the field at the center of a circular loop 20.0 cm in diameter carrying 5.00 A. (b) What is the smallest field strength this loop can be used to measure, if its field must alter the measured field by less than 0.0100%?
 
 :::
 
@@ -756,43 +718,17 @@ This problem illustrates an important principle in measurement science: the meas
 
 ::: solution
 
-**Strategy**
+**(a)** The counterclockwise loop current produces a field out of the page at its center. The straight wire must produce a field into the page there, so $$I_2$$ flows **from upper right to lower left**, opposite to the loop current at the tangent point.
 
-The loop creates a field at its center perpendicular to the plane (using the right-hand rule for loops). The straight wire, at distance $R$ from the center, creates a field $B = \mu_0 I_2/(2\pi R)$. For the fields to cancel, they must be opposite in direction and equal in magnitude.
+**(b)** At the center, the field magnitudes are
 
-**Solution**
+$$B_{\text{loop}}=\frac{\mu_0I_1}{2R},\qquad B_{\text{wire}}=\frac{\mu_0I_2}{2\pi R}.$$
 
-**(a)** For the loop with current $I_1$ flowing (let's say counterclockwise as viewed), the field at the center points out of the page.
+Equality gives $$I_1/I_2=1/\pi\approx0.318$$.
 
-For the straight wire to create a field pointing into the page at the center of the loop (which is at distance $R$ from the wire), using RHR-2:
-- The wire must carry current **in the same direction as the loop current at the point of tangency** (i.e., if the loop current flows upward at the tangent point, $I_2$ should flow upward, or from lower left to upper right in the figure)
-
-**(b)** At the center, the loop creates:
-$$B_{\text{loop}} = \frac{\mu_{0} I_1}{2R}$$
-
-The straight wire at distance $R$ creates:
-$$B_{\text{wire}} = \frac{\mu_{0} I_2}{2\pi R}$$
-
-For zero net field, these must be equal:
-$$\frac{\mu_{0} I_1}{2R} = \frac{\mu_{0} I_2}{2\pi R}$$
-
-$$\frac{I_1}{I_2} = \frac{1}{\pi}$$
-
-**(c)** Directly above the loop (on the axis, outside the plane):
-- The loop's field still points outward along the axis (upward)
-- The wire's field circles around it; directly above, this field points in the plane of the loop
-- Since these fields are perpendicular, they don't cancel; the net field points at an angle
-
-The field directly above the loop will have components both perpendicular to and parallel to the loop plane, resulting in a field direction that is **neither purely perpendicular nor purely parallel** to the loop—it's at an angle depending on the height above the loop.
-
-**Discussion**
-
-This problem illustrates that magnetic field cancellation at one point doesn't guarantee cancellation everywhere. The loop and wire produce fields with different spatial dependencies, so while they cancel at the center, they combine in complex ways elsewhere. This principle is important in designing systems where you want localized field cancellation, such as in magnetic shielding.
-
-**(a) $I_2$ must flow from lower left to upper right. (b) $I_1/I_2 = 1/\pi \approx 0.318$. (c) The field above the loop points at an angle, with components both along and perpendicular to the axis.**
+**(c)** Interpreting “directly above” as on the loop axis outside its plane, the net field is tilted: it has a component parallel to the plane, away from the straight wire, and a component into the page. The wire's field there has both components, while the loop's field remains axial. Cancellation at the center does not persist above it.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -805,38 +741,23 @@ Find the magnitude and direction of the magnetic field at the point equidistant 
 
 ::: solution
 
-**Strategy**
+The equilateral triangle has side $$a=0.100\ \text{m}$$, so the common centroid distance is $$r=a/\sqrt3=0.0577\ \text{m}$$. Take rightward as $$+x$$ and upward as $$+y$$. For each long wire, $$B=\mu_0I/(2\pi r)$$.
 
-We calculate the magnetic field from each wire at the equidistant point using $B = \mu_0 I/(2\pi r)$, then use vector addition to find the resultant. The direction of each field is found using the right-hand rule.
+Using the right-hand rule, the three contributions at the centroid are
 
-**Solution**
+$$\boldsymbol B_{\text{top}}=(1.732\hat x)\times10^{-5}\ \text{T},$$
 
-From Figure 5(a) in the chapter on magnetic force between parallel conductors, we have wires carrying currents with specific geometry. At the equidistant point, each wire contributes a field that must be added vectorially.
+$$\boldsymbol B_{\text{left}}=(1.732\hat x-3.000\hat y)\times10^{-5}\ \text{T},$$
 
-*Known quantities (from referenced figure):*
-- Currents: $I_1 = 5.00 \text{ A}$, $I_2 = 10.0 \text{ A}$
-- Distance from each wire to equidistant point: $r = 10.0 \text{ cm} = 0.100 \text{ m}$
+$$\boldsymbol B_{\text{right}}=(3.464\hat x+6.000\hat y)\times10^{-5}\ \text{T}.$$
 
-The magnitude of the field from each wire:
+Thus $$\boldsymbol B=(6.928\hat x+3.000\hat y)\times10^{-5}\ \text{T}$$, giving
 
-$$B_1 = \frac{\mu_{0} I_1}{2\pi r} = \frac{(4\pi \times 10^{-7})(5.00)}{2\pi(0.100)} = 1.00 \times 10^{-5} \text{ T}$$
+$$B=7.55\times10^{-5}\ \text{T},\qquad \theta=\tan^{-1}(3.000/6.928)=23.4^\circ$$
 
-$$B_2 = \frac{\mu_{0} I_2}{2\pi r} = \frac{(4\pi \times 10^{-7})(10.0)}{2\pi(0.100)} = 2.00 \times 10^{-5} \text{ T}$$
-
-Using the right-hand rule to find directions and adding vectorially (the angle between them depends on the wire geometry), the resultant field magnitude and direction are:
-
-$$B_{\text{net}} = 7.55 \times 10^{-5} \text{ T}$$
-
-at an angle of $23.4°$ from one of the reference directions.
-
-**Discussion**
-
-Vector addition of magnetic fields is essential when multiple current sources are present. The direction of the resultant depends on the geometric arrangement of the wires and the current directions. This principle applies to more complex configurations like Helmholtz coils, where precise field uniformity is achieved through careful positioning of current loops.
-
-**The net magnetic field is $7.55 \times 10^{-5}$ T at an angle of $23.4°$.**
+**above the horizontal toward the right**.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -849,38 +770,15 @@ Find the magnitude and direction of the magnetic field at the point equidistant 
 
 ::: solution
 
-**Strategy**
+Each wire is $$r=s/\sqrt2=0.1414\ \text{m}$$ from the center of the 0.200-m square. The top wires each carry 10.0 A out of the page; the bottom wires each carry 5.00 A into the page.
 
-Similar to the previous problem, we calculate the field from each wire at the equidistant point using $B = \mu_0 I/(2\pi r)$, determine directions using the right-hand rule, and add the fields vectorially. The key difference is the current configuration in part (b) of the figure.
+For each horizontal pair, vertical field components cancel. The horizontal components all point rightward. Each top wire contributes $$1.00\times10^{-5}\ \text{T}$$ rightward and each bottom wire $$5.00\times10^{-6}\ \text{T}$$. Hence
 
-**Solution**
+$$B_x=2(1.00\times10^{-5})+2(5.00\times10^{-6})=3.00\times10^{-5}\ \text{T},\qquad B_y=0.$$
 
-In Figure 5(b), the wire configuration differs from part (a). At the equidistant point, we apply the superposition principle:
-
-*For each wire:*
-1. Calculate the field magnitude: $B_i = \mu_0 I_i/(2\pi r_i)$
-2. Determine the field direction using RHR-2
-3. Decompose into x and y components
-4. Sum the components vectorially
-
-The geometry determines that the fields from wires with parallel currents partially reinforce, while antiparallel currents cause partial cancellation.
-
-Using vector addition with the appropriate geometry:
-
-$$B_x = \sum B_i \cos\theta_{i}$$
-$$B_y = \sum B_i \sin\theta_{i}$$
-$$B_{\text{net}} = \sqrt{B_x^2 + B_y^2}$$
-
-The direction is given by $\tan^{-1}(B_y/B_x)$.
-
-**Discussion**
-
-The specific numerical answer depends on the currents and geometry in Figure 5(b). The key insight is that magnetic fields from multiple sources add as vectors, and the resultant depends on both the magnitudes and the relative angles of the individual field contributions. This vector addition is fundamental to understanding magnetic field patterns around complex current configurations.
-
-**The net magnetic field direction and magnitude are found by vector addition of the individual wire contributions.**
+The field is **3.00 × 10⁻⁵ T toward the right**, parallel to the square's top and bottom sides.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -893,35 +791,11 @@ What current is needed in the top wire in [[Figure5]](../contents/ch22MagneticFo
 
 ::: solution
 
-**Strategy**
+The top wire must carry **10.0 A into the page**. With three equal currents in the same direction at the vertices of an equilateral triangle, the field vectors at the centroid have equal magnitude and are separated by 120°. Their vector sum is zero.
 
-For the net magnetic field to be zero at the equidistant point, the field from the top wire must exactly cancel the combined field from the bottom two wires. By symmetry, if the bottom wires carry equal currents in the same direction (both into the page), their fields at the midpoint of the top position will point in the same direction and add up. The top wire must produce an equal and opposite field.
-
-**Solution**
-
-*Known quantities:*
-- Bottom wire currents: $I_{\text{bottom}} = 10.0 \text{ A}$ each, both into the page
-- Geometry: equilateral triangle configuration (from Figure 5a)
-
-By symmetry, if both bottom wires carry current into the page:
-- Each produces a field at the top equidistant point
-- These fields add (due to the geometry) to produce a net field pointing in some direction
-
-For the top wire to cancel this combined field:
-- Its field must be equal in magnitude and opposite in direction
-- By symmetry of an equilateral triangle, if both bottom wires carry 10.0 A into the page, the top wire must carry **10.0 A out of the page**
-
-The current magnitude in the top wire is:
-$$I_{\text{top}} = 10.0 \text{ A}$$
-
-**Discussion**
-
-This symmetric result makes intuitive sense: with equal currents in all three wires, the configuration has threefold symmetry. If the bottom two wires carry current into the page, the top wire must carry current out of the page to create a zero-field point at the center. This is similar to how three-phase power lines are designed—the symmetric arrangement minimizes the external magnetic field.
-
-**A current of 10.0 A is needed in the top wire (directed out of the page) to produce zero field at the equidistant point.**
+Equivalently, the two bottom wires produce a net field rightward at the centroid. An into-page current in the top wire produces a leftward field there, supplying the required cancellation.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1042,7 +916,7 @@ The magnetic force is incredibly small compared to gravity. The weight is about 
 
 **Integrated Concepts**
 
-(a) What voltage will accelerate electrons to a speed of $$ 6.00 \times 10^{-7} \text{m/s} $$ ?
+(a) What voltage will accelerate electrons to a speed of $$ 6.00 \times 10^{7} \text{m/s} $$ ?
 (b) Find the radius of curvature of the path of a _proton_ accelerated through
 this potential in a 0.500-T field and compare this with the radius of curvature
 of an electron accelerated through the same potential.
@@ -1058,7 +932,7 @@ of an electron accelerated through the same potential.
 **Solution**
 
 *Known quantities:*
-- Electron speed: $v_e = 6.00 \times 10^{7} \text{ m/s}$ (note: the problem likely intends $10^7$, not $10^{-7}$)
+- Electron speed: $v_e = 6.00 \times 10^{7} \text{ m/s}$
 - Magnetic field: $B = 0.500 \text{ T}$
 - Electron mass: $m_e = 9.11 \times 10^{-31} \text{ kg}$
 - Proton mass: $m_p = 1.67 \times 10^{-27} \text{ kg}$
@@ -1517,7 +1391,7 @@ $$y = \frac{1}{2}at^{2} = \frac{1}{2}(1.43 \times 10^{-9})(0.750)^2 = 4.02 \time
 
 **Discussion**
 
-Real curveballs are produced by spinning the ball, which creates differential air pressure via the Magnus effect. The deflection from Earth's magnetic field is roughly 17 orders of magnitude smaller than a typical curveball break of several centimeters. Even if you could somehow increase the charge on the ball, the charge would quickly dissipate, and the force would still be negligible compared to air resistance effects.
+Real curveballs are produced by spinning the ball, which creates differential air pressure via the Magnus effect. The deflection from Earth's magnetic field is roughly 8 orders of magnitude smaller than a typical curveball break of several centimeters. Even if you could somehow increase the charge on the ball, the charge would quickly dissipate, and the force would still be negligible compared to air resistance effects.
 
 **(a) The deflection is approximately $4 \times 10^{-10}$ m (0.4 nm). (b) No—this deflection is far too small to be useful; real curveballs use the Magnus effect from spin.**
 
@@ -1542,53 +1416,23 @@ Calculate the resistance per meter and the voltage per meter needed.
 
 ::: solution
 
-**Strategy**
+**(a)** Eastward current crossed with northward field gives force **straight up**.
 
-(a) Use the right-hand rule for force on a current-carrying wire. (b) Apply $F = BIL$ for force per unit length. (c) Find the wire diameter whose weight per length equals the magnetic force per length. (d) Use the resistivity of copper to find resistance, then Ohm's law for voltage.
+**(b)**
 
-**Solution**
+$$F/L=IB=(20.0)(3.00\times10^{-5})=6.00\times10^{-4}\ \text{N/m}.$$
 
-*Known quantities:*
-- Current: $I = 20.0 \text{ A}$
-- Magnetic field: $B = 3.00 \times 10^{-5} \text{ T}$ (northward, horizontal)
-- Current direction: east
-- Density of copper: $\rho_{\text{Cu}} = 8960 \text{ kg/m}^3$
-- Resistivity of copper: $\rho_e = 1.72 \times 10^{-8} \text{ Ω·m}$
+**(c)** Using copper density $$\rho_m=8960\ \text{kg/m}^3$$, weight balance gives
 
-**(a)** Using RHR-1: current pointing east, field pointing north
-- Point fingers east (current direction)
-- Curl toward north (field direction)
-- Thumb points **straight up**
+$$A=\frac{IB}{\rho_mg}=6.83\times10^{-9}\ \text{m}^2,\qquad d=\sqrt{4A/\pi}=93.3\ \mu\text{m}.$$
 
-**(b)** Force per unit length:
-$$\frac{F}{L} = BIL/L = BI = (3.00 \times 10^{-5})(20.0) = 6.00 \times 10^{-4} \text{ N/m}$$
+**(d)** With electrical resistivity $$\rho_e=1.72\times10^{-8}\ \Omega\cdot\text{m}$$,
 
-**(c)** For the wire's weight to equal the magnetic force:
-$$\frac{F}{L} = \frac{mg}{L} = \rho_{\text{Cu}} \cdot A \cdot g = \rho_{\text{Cu}} \cdot \frac{\pi d^2}{4} \cdot g$$
+$$R/L=\rho_e/A=2.52\ \Omega/\text{m},\qquad V/L=I(R/L)=50.3\ \text{V/m}.$$
 
-$$6.00 \times 10^{-4} = (8960) \cdot \frac{\pi d^2}{4} \cdot (9.80)$$
-
-$$d^2 = \frac{4 \times 6.00 \times 10^{-4}}{\pi \times 8960 \times 9.80} = \frac{2.40 \times 10^{-3}}{2.76 \times 10^{5}} = 8.70 \times 10^{-9}$$
-
-$$d = 9.33 \times 10^{-5} \text{ m} = 93.3 \text{ μm} \approx 94.1 \text{ μm}$$
-
-**(d)** Cross-sectional area:
-$$A = \frac{\pi d^2}{4} = \frac{\pi (9.41 \times 10^{-5})^2}{4} = 6.95 \times 10^{-9} \text{ m}^2$$
-
-Resistance per meter:
-$$\frac{R}{L} = \frac{\rho_{e}}{A} = \frac{1.72 \times 10^{-8}}{6.95 \times 10^{-9}} = 2.47 \text{ Ω/m}$$
-
-Voltage per meter:
-$$\frac{V}{L} = I \cdot \frac{R}{L} = (20.0)(2.47) = 49.4 \text{ V/m}$$
-
-**Discussion**
-
-The wire diameter of about 94 μm is extremely thin—about the diameter of a human hair! Such a thin wire would have very high resistance and require enormous voltage (49.4 V per meter) to carry 20 A. In practice, this wouldn't work because the wire would vaporize from resistive heating. This illustrates why magnetic levitation of current-carrying wires using Earth's field is impractical.
-
-**(a) Straight up. (b) $6.00 \times 10^{-4}$ N/m. (c) 94.1 μm diameter. (d) 2.47 Ω/m resistance; 49.4 V/m voltage required.**
+This thin wire would dissipate about 1.01 kW per meter while carrying 20 A, making the proposed levitation impractical for an ordinary copper wire.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1609,52 +1453,25 @@ equilibrium if displaced vertically? If displaced horizontally?
 
 ::: solution
 
-**Strategy**
+The upper wire must carry current opposite to the lower wire. With copper density $$8960\ \text{kg/m}^3$$, its weight per meter is
 
-The upper wire is held up by magnetic repulsion, meaning the currents must be antiparallel. Set the magnetic force equal to the weight of the upper wire. For part (b), Earth's field can assist the levitation if oriented properly.
+$$\frac wL=\rho g\frac{\pi d^2}{4}=0.462\ \text{N/m}.$$
 
-**Solution**
+**(a)** The lower wire's field at the upper wire is
 
-*Known quantities:*
-- Lower wire current: $I_1 = 100 \text{ A}$
-- Separation: $r = 7.50 \text{ cm} = 0.0750 \text{ m}$
-- Upper wire diameter: $d = 2.588 \text{ mm} = 2.588 \times 10^{-3} \text{ m}$
-- Copper density: $\rho = 8960 \text{ kg/m}^3$
-- Earth's field: $B_E = 3.00 \times 10^{-5} \text{ T}$
+$$B_1=\frac{\mu_0I_1}{2\pi r}=2.67\times10^{-4}\ \text{T}.$$
 
-*Step 1: Calculate the weight per unit length of the upper wire*
+Thus $$I_2=(w/L)/B_1=1.73\times10^3\ \text{A}$$.
 
-$$\frac{w}{L} = \rho g \frac{\pi d^2}{4} = (8960)(9.80) \frac{\pi (2.588 \times 10^{-3})^2}{4}$$
-$$\frac{w}{L} = (8960)(9.80)(5.26 \times 10^{-6}) = 0.462 \text{ N/m}$$
+**(b)** Orient the wires so Earth's horizontal field adds to the lower wire's field at the upper wire:
 
-**(a)** For magnetic levitation, the repulsive force equals weight:
+$$I_{2,\min}=\frac{w/L}{B_1+B_E}=\frac{0.462}{2.67\times10^{-4}+3.00\times10^{-5}}=1.56\times10^3\ \text{A}.$$
 
-$$\frac{\mu_{0} I_1 I_2}{2\pi r} = \frac{w}{L}$$
+This is about a 10% reduction and is not negligible.
 
-$$I_2 = \frac{2\pi r (w/L)}{\mu_{0} I_1} = \frac{2\pi (0.0750)(0.462)}{(4\pi \times 10^{-7})(100)}$$
-
-$$I_2 = \frac{0.218}{1.26 \times 10^{-4}} = 1730 \text{ A}$$
-
-**(b)** With Earth's field assisting (if oriented to push upward on the upper wire):
-
-$$\frac{\mu_{0} I_1 I_2}{2\pi r} + B_E I_2 = \frac{w}{L}$$
-
-The Earth's field contribution: $B_E I_2 = (3.00 \times 10^{-5}) I_2$
-
-This is small compared to the wire-wire force, so the reduction in required current is minimal.
-
-**(c)**
-- **Vertically**: Unstable. If the wire moves up, the repulsive force decreases (varies as $1/r$), so it falls back; if it moves down, the force increases, pushing it further. But the return is not to the original position due to the changing equilibrium.
-- **Horizontally**: Unstable. If displaced, there's no restoring force in the horizontal direction; the wire would tend to slide along the field lines.
-
-**Discussion**
-
-A current of 1730 A is enormous for a 10-gauge wire, which is rated for only about 30 A! The wire would instantly melt. This illustrates why magnetic levitation using wire repulsion is impractical without superconductors or specialized configurations.
-
-**(a) About 1730 A is needed (impractically high). (b) Earth's field provides negligible assistance. (c) The equilibrium is unstable both vertically and horizontally.**
+**(c)** For fixed currents, an upward displacement reduces repulsion and lets gravity pull the wire down; a downward displacement increases repulsion. The vertical equilibrium is **stable**. A horizontal displacement produces a horizontal repulsion away from the lower wire, so the equilibrium is **unstable horizontally**. The required current also implies severe resistive heating.
 
 :::
-
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -1695,7 +1512,7 @@ $$q = \frac{1.00}{1.75 \times 10^{-3}} = 571 \text{ C}$$
 - Lightning bolts transfer about 5 C
 - A typical capacitor stores microcoulombs to millicoulombs
 - 571 C of separated charge on a baseball would create enormous electrostatic forces (the ball would explode)
-- This charge represents about $3.6 \times 10^{21}$ excess electrons—more than in a kilogram of matter!
+- This charge represents about $3.6 \times 10^{21}$ excess electrons. A kilogram of ordinary neutral matter contains roughly $3\times10^{26}$ electrons; the difficulty is separating and retaining the excess charge on a small ball.
 
 **(c)** The unreasonable premise is the **1.00-N magnetic force**. The magnetic force from Earth's field on any realistically charged object moving at everyday speeds is negligible—typically nanonewtons or less. Earth's magnetic field is simply too weak to produce significant forces on objects with achievable charges and speeds.
 

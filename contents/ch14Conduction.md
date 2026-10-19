@@ -309,7 +309,7 @@ Because area is the product of two spatial dimensions, it increases by a factor 
  The distance, however, simply doubles. Because the temperature difference and the coefficient of thermal conductivity are independent of the spatial dimensions, the rate of heat transfer by conduction increases by a factor of four divided by two, or two:
 
 <div class="equation">
- $${\left(\frac{Q}{t}\right)}_{\text{final}}=\frac{ k_{B}A_{\text{final}}\left({T}_{2}-{T}_{1}\right)}{ {d}_{\text{final}}}=\frac{k\left({4 \text{A}}_{\text{initial}}\right)\left({T}_{2}-{T}_{1}\right)}{ {2d}_{\text{initial}}}=2\frac{ k_{B}A_{\text{initial}}\left({T}_{2}-{T}_{1}\right)}{ {d}_{\text{initial}}}=2{\left(\frac{Q}{t}\right)}_{\text{initial}}\text{.} $$
+ $${\left(\frac{Q}{t}\right)}_{\text{final}}=\frac{ kA_{\text{final}}\left({T}_{2}-{T}_{1}\right)}{ {d}_{\text{final}}}=\frac{k\left({4 \text{A}}_{\text{initial}}\right)\left({T}_{2}-{T}_{1}\right)}{ {2d}_{\text{initial}}}=2\frac{ kA_{\text{initial}}\left({T}_{2}-{T}_{1}\right)}{ {d}_{\text{initial}}}=2{\left(\frac{Q}{t}\right)}_{\text{initial}}\text{.} $$
 </div>
 
 :::
@@ -663,75 +663,21 @@ a callus is made of dead cells?
 
 :::
 
-::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
-**Strategy**
+**(a)** Using $$k=0.08\ \text{W/(m}\cdot{}^\circ\text{C)}$$ and an initial foot temperature of 37 °C,
 
-For part (a), we use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ to find the rate of heat transfer, then multiply by the contact time to get total heat transferred. For part (b), we use $$Q = mc\Delta T$$ to find the temperature increase, where the mass is calculated from volume and density. Part (c) requires analysis of the biological implications.
+$$Q=\frac{kA\Delta T}{d}t=\frac{(0.08)(0.00250)(700-37)}{0.00300}(1.00)=44.2\ \text{J}.$$
 
-**Solution**
+**(b)** With the stated density and $$c=3500\ \text{J/(kg}\cdot{}^\circ\text{C)}$$,
 
-Given:
-- Callus thickness: $$d = 3.00 \text{ mm} = 0.00300 \text{ m}$$
-- Contact area: $$A = 25.0 \text{ cm}^2 = 25.0 \times 10^{-4} \text{ m}^2 = 0.00250 \text{ m}^2$$
-- Coal temperature: $$T_{coal} = 700\text{ºC}$$
-- Foot temperature (assumed): $$T_{foot} = 37\text{ºC}$$
-- Contact time: $$t = 1.00 \text{ s}$$
-- Thermal conductivity (low end for wood): $$k = 0.08 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
-- Density: $$\rho = 300 \text{ kg/m}^3$$
-- Volume of tissue: $$V = 25.0 \text{ cm}^3 = 25.0 \times 10^{-6} \text{ m}^3$$
-- Specific heat (assume similar to human tissue): $$c = 3500 \text{ J/kg}\cdot\text{ºC}$$
+$$m=\rho V=(300)(25.0\times10^{-6})=0.00750\ \text{kg},$$
 
-**(a)** Heat transferred by conduction:
+$$\Delta T=\frac{Q}{mc}=\frac{44.2}{(0.00750)(3500)}=1.68\ {}^\circ\text{C}.$$
 
-Temperature difference:
-<div class="equation">
-$$\Delta T = 700 - 37 = 663\text{ºC}$$
-</div>
-
-Rate of heat conduction:
-<div class="equation">
-$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.08)(0.00250)(663)}{0.00300}$$
-</div>
-
-<div class="equation">
-$$\frac{Q}{t} = \frac{1.326}{0.00300} = 442 \text{ W}$$
-</div>
-
-Total heat transferred in 1.00 s:
-<div class="equation">
-$$Q = (442 \text{ W})(1.00 \text{ s}) = 442 \text{ J}$$
-</div>
-
-**(b)** Temperature increase:
-
-Mass of affected tissue:
-<div class="equation">
-$$m = \rho V = (300)(25.0 \times 10^{-6}) = 0.00750 \text{ kg} = 7.50 \text{ g}$$
-</div>
-
-Temperature increase:
-<div class="equation">
-$$\Delta T = \frac{Q}{mc} = \frac{442}{(0.00750)(3500)} = \frac{442}{26.25} = 16.8\text{ºC}$$
-</div>
-
-**(c)** A temperature increase of 16.8ºC would raise the tissue temperature from about 37ºC to about 54ºC. This is warm but not immediately damaging, especially considering that:
-
-1. **The callus is dead tissue** - It doesn't contain living cells, nerves, or blood vessels, so it can tolerate higher temperatures without pain or damage
-2. **Brief contact** - The 1-second contact time is too short for significant heat penetration into deeper, living tissue
-3. **Protective barrier** - The callus acts as an insulating layer protecting the living tissue beneath
-4. **Below burn threshold** - Burns typically require temperatures above 55-60ºC for several seconds, and the living tissue beneath stays cooler
-
-This explains why experienced firewalkers with thick calluses can walk on coals without injury—the combination of brief contact, low thermal conductivity, and the protective dead tissue layer prevents dangerous heat transfer to living cells.
-
-**Answer**
-
-(a) Heat transferred: **442 J**
-(b) Temperature increase: **16.8ºC**
-(c) This temperature increase is **not dangerous** because the callus consists of dead cells that protect the living tissue beneath. The brief contact time prevents significant heat from reaching sensitive, living tissue.
+**(c)** The model predicts an average temperature of about 38.7 °C in the affected volume. Low conductivity, a thick callus of dead cells, and brief contact limit heat transfer to living tissue. The average temperature estimate does not describe local hot spots or establish that firewalking is safe.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1320,87 +1266,19 @@ Many decisions are made on the basis of the payback period: the time it will tak
 
 :::
 
-::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
-**Strategy**
+The installation costs $$150\ \text{m}^2\times\$4.00/\text{m}^2=\$600$$. The reduction in heat-loss rate is
 
-We need to calculate: (1) the cost of the additional insulation, (2) the energy saved per heating season from Exercise 12, and (3) the monetary value of that energy savings. The payback time is the installation cost divided by the annual savings.
+$$\Delta P=kA\Delta T\left(\frac1{d_1}-\frac1{d_2}\right)=(0.042)(150)(15.0)\left(\frac1{0.15}-\frac1{0.23}\right)=219\ \text{W}.$$
 
-**Solution**
+Over the 120-day heating season, this saves $$2.27\times10^9\ \text{J}$$, worth \$2270 at the stated energy price. Thus
 
-Given:
-- Energy cost: $$\$1.00$$ per million joules = $$\$1.00$$ per MJ
-- Insulation cost: $$\$4.00$$ per m²
-- Attic area: $$A = 150 \text{ m}^2$$ (from Exercise 12)
-- Temperature difference: $$\Delta T = 15.0\text{ºC}$$
-- Heating season: $$t = 120 \text{ days}$$
-- Thermal conductivity of fiberglass: $$k = 0.042 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+$$t_{\text{payback}}=\frac{\$600}{\$2270/\text{season}}=0.264\ \text{season}=31.7\ \text{heating days}.$$
 
-From Exercise 12, the reduction in heat loss rate due to adding 8.0 cm to the attic is:
-<div class="equation">
-$$\Delta\left(\frac{Q}{t}\right) = k\Delta T \left(\frac{A}{d_1} - \frac{A}{d_2}\right) = k\Delta T \cdot A \left(\frac{1}{0.15} - \frac{1}{0.23}\right)$$
-</div>
-
-<div class="equation">
-$$\Delta\left(\frac{Q}{t}\right) = (0.042)(15.0)(150)(6.667 - 4.348) = (0.042)(15.0)(150)(2.319)$$
-</div>
-
-<div class="equation">
-$$\Delta\left(\frac{Q}{t}\right) = 219 \text{ W} = 219 \text{ J/s}$$
-</div>
-
-**Energy saved per heating season:**
-
-Convert time to seconds:
-<div class="equation">
-$$t = 120 \text{ days} \times 24 \text{ h/day} \times 3600 \text{ s/h} = 1.037 \times 10^7 \text{ s}$$
-</div>
-
-Total energy saved:
-<div class="equation">
-$$Q_{saved} = (219 \text{ J/s})(1.037 \times 10^7 \text{ s}) = 2.27 \times 10^9 \text{ J} = 2270 \text{ MJ}$$
-</div>
-
-**Monetary savings per season:**
-<div class="equation">
-$$\text{Savings} = 2270 \text{ MJ} \times \$1.00/\text{MJ} = \$2270$$
-</div>
-
-**Installation cost:**
-<div class="equation">
-$$\text{Cost} = 150 \text{ m}^2 \times \$4.00/\text{m}^2 = \$600$$
-</div>
-
-**Payback time:**
-<div class="equation">
-$$\text{Payback time} = \frac{\text{Installation cost}}{\text{Annual savings}} = \frac{\$600}{\$2270} = 0.264 \text{ heating seasons}$$
-</div>
-
-Since heating seasons occur annually:
-<div class="equation">
-$$\text{Payback time} = 0.264 \text{ years} = 3.2 \text{ months}$$
-</div>
-
-**Discussion**
-
-The payback period of approximately 0.26 years (about 3 months of a heating season, or roughly one-quarter of a year) is extremely attractive from an investment standpoint. This means the homeowner would recover the \$600 installation cost in energy savings within the first heating season!
-
-This excellent return on investment explains why adding attic insulation is one of the most cost-effective energy efficiency improvements. After the payback period, the homeowner continues to save \$2270 per heating season for the life of the house (typically 20-30 years or more). The total lifetime savings would exceed \$45,000-\$68,000.
-
-Factors making this attractive:
-- Low installation cost (\$600)
-- Significant energy savings (\$2270/year)
-- Easy installation (attic access is simple)
-- Long-lasting benefit (insulation lasts decades)
-
-In reality, energy costs fluctuate and are often higher than \$1.00/MJ (especially for electricity or oil heating), which would make the payback even faster. This problem demonstrates why energy auditors consistently recommend adding attic insulation as a top priority for reducing heating costs.
-
-**Answer**
-
-The simple payback time is approximately __0.264 years__, or about __3.2 months__ of the heating season, or approximately __one-quarter of a year__.
+Starting at the beginning of the season, the investment pays back in about **32 days** under the assumed constant average conditions.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

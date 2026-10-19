@@ -302,62 +302,25 @@ Suppose you have a 0.750-kg object on a horizontal surface connected to a spring
 
 ::: solution
 
-**Strategy**
+**(a)** At the threshold of motion,
 
-For part (a), the maximum stretch occurs when the spring force equals the maximum static friction force. For part (b), we use energy conservation: the initial elastic potential energy equals the work done by kinetic friction over the total distance traveled.
+$$x_s=\frac{\mu_smg}{k}=\frac{(0.100)(0.750)(9.80)}{150}=4.90\ \text{mm}.$$
 
-**Solution**
+**(b)** Starting from $$X=2x_s=9.80\ \text{mm}$$, the block initially moves left. During that motion the kinetic-friction force points right, shifting the oscillator's equilibrium to
 
-(a) At the maximum stretch without moving, the spring force equals the static friction force:
+$$x_k=\frac{\mu_kmg}{k}=4.165\ \text{mm}.$$
 
-<div class="equation">
- $$kx = \mu_{s} mg$$
-</div>
+After one half-period about that shifted equilibrium, the first turning point is
 
-<div class="equation">
- $$x = \frac{\mu_{s} mg}{k} = \frac{(0.100)(0.750)(9.80)}{150} = \frac{0.735}{150} = 0.00490 \text{ m} = 4.90 \text{ mm}$$
-</div>
+$$x_f=2x_k-X=-1.47\ \text{mm}.$$
 
-(b) The initial amplitude is $$X = 2x = 2(0.00490) = 0.00980 \text{ m}$$
+Here the spring force is $$k|x_f|=0.221\ \text{N}$$, below the static-friction limit of $$0.735\ \text{N}$$, so the block stays at rest. Its total travel is
 
-Initial elastic potential energy:
+$$d=X-x_f=11.27\ \text{mm}\approx11.3\ \text{mm}.$$
 
-<div class="equation">
- $$E_i = \frac{1}{2}kX^{2} = \frac{1}{2}(150)(0.00980)^2 = 7.20 \times 10^{-3} \text{ J}$$
-</div>
-
-Work done by kinetic friction over total distance $$d$$:
-
-<div class="equation">
- $$W_f = \mu_{k} mg \cdot d$$
-</div>
-
-Setting the initial energy equal to the work done by friction:
-
-<div class="equation">
- $$\frac{1}{2}kX^{2} = \mu_{k} mg \cdot d$$
-</div>
-
-<div class="equation">
- $$d = \frac{kX^{2}}{2\mu_{k} mg} = \frac{(150)(0.00980)^2}{2(0.0850)(0.750)(9.80)}$$
-</div>
-
-<div class="equation">
- $$d = \frac{0.0144}{1.249} = 0.0115 \text{ m} = 11.5 \text{ mm}$$
-</div>
-
-**Discussion**
-
-In part (a), the spring can only stretch about 5 mm before overcoming static friction—a very small distance. In part (b), with initial amplitude of 9.8 mm, the object travels a total distance of 11.5 mm before friction brings it to rest. This is only slightly more than one complete oscillation because kinetic friction continuously removes energy. The object doesn't oscillate many times like an undamped system would; instead, it quickly comes to rest due to the significant frictional damping.
-
-**Answer**
-
-(a) 4.90 mm or 0.00490 m
-
-(b) 11.5 mm or 0.0115 m
+Some elastic energy remains in the spring. Assuming that all initial elastic energy becomes frictional heat would overestimate the distance.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -412,7 +375,7 @@ Time to add this energy at a rate of $$1.00 \times 10^4$$ J/s:
 
 **Discussion**
 
-Part (a) shows that even a 10 cm oscillation of a massive bridge requires 500,000 J of energy due to the enormous force constant ($$10^8$$ N/m). In part (b), the soldiers marching at the bridge's natural frequency cause resonance, allowing energy to accumulate efficiently. The time of 1200 seconds (20 minutes) is relatively short considering the enormous energy involved (12 million joules). This demonstrates the danger of resonance: sustained forcing at the natural frequency can build up large-amplitude oscillations that may exceed the structure's design limits. This is why soldiers are instructed to break step when crossing bridges—to avoid inadvertently matching the bridge's natural frequency and triggering resonance. The Tacoma Narrows Bridge collapse mentioned in the chapter is a dramatic example of this phenomenon.
+Part (a) shows that even a 10 cm oscillation of a massive bridge requires 500,000 J of energy due to the enormous force constant ($$10^8$$ N/m). In part (b), the soldiers marching at the bridge's natural frequency cause resonance, allowing energy to accumulate efficiently. The time of 1200 seconds (20 minutes) is relatively short considering the enormous energy involved (12 million joules). This demonstrates the danger of resonance: sustained forcing at the natural frequency can build up large-amplitude oscillations that may exceed the structure's design limits. This is why soldiers are instructed to break step when crossing bridges—to avoid inadvertently matching the bridge's natural frequency and triggering resonance. The Tacoma Narrows Bridge collapse instead involved aeroelastic flutter, a self-excited instability; it is not an example of a bridge driven at resonance by periodic marching. See [WSDOT’s account of the failure](https://wsdot.wa.gov/TNBhistory/bridges-failure.htm).
 
 **Answer**
 

@@ -381,83 +381,26 @@ On average, would Earth be warmer or cooler without the atmosphere? Explain your
 
 <div class="exercise" data-element-type="problems-exercises">
 
-:::: problem
+::: problem
 
 At what net rate does heat radiate from a  $$275{\text{-m}}^{2} $$
  black roof on a night when the roof's temperature is  $$30.0\text{ºC} $$
  and the surrounding temperature is  $$15.0\text{ºC} $$ ?
  The emissivity of the roof is 0.900.
 
-::::
+:::
 
-:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+::: solution
 
-**Strategy**
+The net rate of heat radiation **from** the roof is
 
-We use the Stefan-Boltzmann law for net radiation between two surfaces: $$\frac{Q_{net}}{t} = \sigma eA(T_2^4 - T_1^4)$$. The roof (at higher temperature) radiates energy to the cooler surroundings. We must convert temperatures to Kelvin.
+$$P_{\text{out}}=e\sigma A(T_{\text{roof}}^4-T_{\text{surr}}^4)=(0.900)(5.67\times10^{-8})(275)(303.15^4-288.15^4)=2.18\times10^4\ \text{W}.$$
 
-**Solution**
+Thus the roof loses heat at **21.8 kW**. With inward heat flow defined positive, the same result is $$P_{\text{in}}=-21.8\ \text{kW}$$.
 
-Given:
-- Roof area: $$A = 275 \text{ m}^2$$
-- Roof temperature: $$T_{roof} = 30.0\text{ºC} = 303 \text{ K}$$
-- Surrounding temperature: $$T_{surr} = 15.0\text{ºC} = 288 \text{ K}$$
-- Emissivity: $$e = 0.900$$
-- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+Cool roofs combine high solar reflectance, which reduces absorbed sunlight, with high thermal emissivity, which helps them shed heat by infrared radiation. See the [Department of Energy guide to cool roofs](https://www.energy.gov/sites/default/files/guide_to_cool_roofs.pdf).
 
-Net radiation rate (heat loss from roof):
-<div class="equation">
-$$\frac{Q_{net}}{t} = \sigma eA(T_{roof}^4 - T_{surr}^4)$$
-</div>
-
-Calculate the fourth powers:
-- $$T_{roof}^4 = (303)^4 = 8.424 \times 10^9 \text{ K}^4$$
-- $$T_{surr}^4 = (288)^4 = 6.872 \times 10^9 \text{ K}^4$$
-
-<div class="equation">
-$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8})(0.900)(275)[(8.424 - 6.872) \times 10^9]$$
-</div>
-
-<div class="equation">
-$$\frac{Q_{net}}{t} = (1.402 \times 10^{-5})(1.552 \times 10^9) = 21,759 \text{ W} \approx 21.8 \text{ kW}$$
-</div>
-
-Since the roof is losing heat to cooler surroundings, we can express this as:
-<div class="equation">
-$$\frac{Q_{net}}{t} = -21.7 \text{ kW}$$
-</div>
-
-The negative sign indicates heat loss from the roof.
-
-**Discussion**
-
-The heat loss rate of 21.7 kW is substantial—equivalent to running about 22 space heaters continuously! This demonstrates why radiation is a significant mechanism of heat loss from buildings, especially:
-
-1. **At night**: The roof radiates to the cooler night sky
-2. **With large surface areas**: The 275 m² roof provides significant area for radiation
-3. **With dark surfaces**: The high emissivity (0.900) means the roof is an efficient radiator
-
-Even though the temperature difference is only 15 °C (relatively modest), the large area and high emissivity result in substantial heat loss. This is why:
-
-- **Cool roofs** (light-colored, reflective roofs) are increasingly used in warm climates—they have low emissivity and absorb/emit less radiation
-- **Radiant barriers** in attics can reduce radiative heat transfer
-- **Proper insulation** is crucial—this 21.7 kW must be replaced by heating systems in winter or represents heat gain that must be removed by cooling in summer
-
-The calculation demonstrates **radiative cooling**: on clear nights, surfaces can radiate heat to the cold upper atmosphere and may even reach temperatures below the ambient air temperature. This is why frost can form on car windshields even when air temperature is above freezing.
-
-For a typical house:
-- Roof area: 150-300 m²
-- This roof's heat loss: 21.7 kW
-- Cost impact: At \$0.10/kWh electricity, running 24h = \$52/day heating cost just to offset roof radiation!
-
-This underscores the importance of insulation, which doesn't stop radiation but reduces the overall heat transfer through the roof structure.
-
-**Answer**
-
-The net rate of heat radiation from the roof is **-21.7 kW** (negative indicating heat loss to the surroundings).
-
-::::
-
+:::
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -527,7 +470,7 @@ The huge radiative power (17.6 kW total, 8.8 kW into room) demonstrates why:
 3. Fireplaces can be uncomfortably hot when sitting close
 4. The fourth-power temperature dependence makes hot embers incredibly effective radiators
 
-The cherry-red color indicates temperatures around 850ºC, confirming significant visible light emission. However, most radiated energy is still in the infrared (which we feel as heat but cannot see). The Stefan-Boltzmann law's $$T^4$$ dependence means the 1123\text{ K} embers radiate about $(1123/291)^4 \approx 230$ times more power per unit area than room-temperature objects.
+The cherry-red color indicates temperatures around 850ºC, confirming significant visible light emission. However, most radiated energy is still in the infrared (which we feel as heat but cannot see). The Stefan-Boltzmann law's $$T^4$$ dependence means the $$1123\ \text{K}$$ embers radiate about $(1123/291)^4 \approx 222$ times more power per unit area than room-temperature objects.
 
 Modern fireplace inserts and stoves capture more of this heat through convection and conduction, making them much more efficient than open fireplaces where most heat escapes up the chimney.
 
@@ -566,7 +509,7 @@ Radiation makes it impossible to stand close to a hot lava flow. Calculate the r
 (a) Calculate the rate of heat transfer by radiation from a car radiator at  $$110\text{ºC} $$
  into a  $$50.0\text{ºC} $$
  environment, if the radiator has an emissivity of 0.750 and a  $$1.20-m^{2} $$
- surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of  $$200 \text{hp} \left(1.5 \text{kW}\right) $$
+ surface area. (b) Is this a significant fraction of the heat transfer by an automobile engine? To answer this, assume a horsepower of  $$200 \text{hp} \left(\text{about }150 \text{kW}\right) $$
  and the efficiency of automobile engines as 25%.
 
 ::::
@@ -1013,7 +956,7 @@ The effective temperature of the sky would be **401 K**, or about **128ºC**.
 
 <div class="exercise" data-element-type="problems-exercises">
 
-:::: problem
+::: problem
 
 **Integrated Concepts**
 
@@ -1023,119 +966,25 @@ point. (a) How many grams of water condense from each cubic meter of air? (b)
 How much heat transfer occurs by this condensation? (c) What temperature
 increase could this cause in dry air?
 
-::::
+:::
 
-:::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
-**Strategy**
+**(a)** From the Chapter 13 table, saturation vapor densities are 30.4 g/m³ at 30 °C and 17.2 g/m³ at 20 °C. Thus the condensed mass per cubic meter is
 
-This problem requires understanding vapor pressure, relative humidity, and phase change. Part (a): We find the absolute humidity at both temperatures using relative humidity and saturation vapor pressure data. The difference is the condensed water. Part (b): We use $$Q = mL_{c}$$ where $$L_c$$ is the latent heat of condensation (equal to $$L_v$$). Part (c): We use $$Q = mc\Delta T$$ for dry air.
+$$m=(0.750)(30.4)-17.2=5.6\ \text{g}.$$
 
-**Solution**
+**(b)** Using the tabulated latent heat $$L_v=2.256\times10^6\ \text{J/kg}$$,
 
-Given:
-- Initial temperature: $$T_1 = 30.0\text{ºC}$$
-- Initial relative humidity: $$RH_{1} = 75.0\%$$
-- Final temperature: $$T_2 = 20.0\text{ºC}$$
-- Volume: $$V = 1.00 \text{ m}^3$$
-- Latent heat of vaporization/condensation: $$L_v = L_c = 2256 \times 10^3 \text{ J/kg}$$
+$$Q=mL_v=(0.0056)(2.256\times10^6)=1.26\times10^4\ \text{J}=12.6\ \text{kJ}.$$
 
-From standard tables, saturation vapor densities:
-- At 30.0ºC: $$\rho_{sat,30} \approx 30.4 \text{ g/m}^3$$
-- At 20.0ºC: $$\rho_{sat,20} \approx 17.3 \text{ g/m}^3$$
+**(c)** If this heat warmed 1.20 kg of dry air at constant pressure,
 
-**(a)** Mass of water that condenses:
+$$\Delta T=\frac{Q}{mc_p}=\frac{1.26\times10^4}{(1.20)(1005)}\approx10.5\ {}^\circ\text{C}.$$
 
-Initial absolute humidity (75% of saturation at 30ºC):
-<div class="equation">
-$$\rho_{1} = 0.75 \times 30.4 = 22.8 \text{ g/m}^3$$
-</div>
+This estimates the heating effect of condensation separately from the cooling that produces it; it is not a prediction of the actual overnight temperature change.
 
-At 20ºC, air can hold maximum (100% saturation):
-<div class="equation">
-$$\rho_{2} = 17.3 \text{ g/m}^3$$
-</div>
-
-Mass condensed per cubic meter:
-<div class="equation">
-$$m_{cond} = \rho_{1} - \rho_{2} = 22.8 - 17.3 = 5.5 \text{ g/m}^3$$
-</div>
-
-**(b)** Heat transfer by condensation:
-
-Convert mass to kg:
-<div class="equation">
-$$m = 5.5 \text{ g} = 0.0055 \text{ kg}$$
-</div>
-
-Heat released by condensation:
-<div class="equation">
-$$Q = mL_{c} = (0.0055)(2256 \times 10^3) = 12,408 \text{ J} \approx 12.4 \text{ kJ}$$
-</div>
-
-**(c)** Temperature increase in dry air:
-
-For dry air:
-- Specific heat: $$c_{air} = 1005 \text{ J/kg}\cdot\text{ºC}$$ (at constant pressure)
-- Density at 20ºC: $$\rho_{air} = 1.20 \text{ kg/m}^3$$
-- Mass of air in 1 m³: $$m_{air} = 1.20 \text{ kg}$$
-
-Temperature increase:
-<div class="equation">
-$$Q = m_{air}c_{air}\Delta T$$
-</div>
-
-<div class="equation">
-$$\Delta T = \frac{Q}{m_{air}c_{air}} = \frac{12,408}{(1.20)(1005)} = \frac{12,408}{1206} = 10.3\text{ºC}$$
-</div>
-
-**Discussion**
-
-This problem beautifully illustrates several atmospheric phenomena:
-
-**(a)** About 5.5 grams of water condense from each cubic meter when humid air cools from 30ºC to 20ºC. This represents:
-- Dew formation on grass, cars, and surfaces overnight
-- Fog formation when air cools below the dew point
-- Condensation on cold surfaces (windows, cold drink glasses)
-
-The physics: Warmer air can hold more water vapor. At 30ºC with 75% humidity, air contains 22.8 g/m³ of water vapor. When cooled to 20ºC, it can only hold 17.3 g/m³ at saturation (100% humidity). The excess (5.5 g/m³) must condense.
-
-**(b)** The 12.4 kJ of heat released per cubic meter is substantial! This heat release:
-- Warms the surrounding air, slowing further cooling
-- Is a key mechanism in thunderstorm development (latent heat release in rising air)
-- Explains why coastal areas have milder temperature swings (ocean moisture moderates cooling)
-- Powers hurricanes (enormous latent heat release from ocean evaporation and subsequent condensation)
-
-**(c)** If this heat went entirely into warming dry air, it would increase temperature by 10.3ºC! In reality:
-- The air is not dry (it contains water vapor with higher heat capacity)
-- Heat disperses to surroundings by convection and radiation
-- Temperature rise is much less, but still measurable
-
-Real-world implications:
-1. **Dew point prediction**: When temperature approaches dew point, expect condensation (fog, dew, frost)
-2. **Weather patterns**: Large-scale condensation releases enormous energy, driving storms
-3. **Climate**: Water vapor is Earth's most important greenhouse gas and heat transport mechanism
-4. **Comfort**: High humidity feels uncomfortable because sweat doesn't evaporate efficiently
-
-For a typical bedroom (4 m × 4 m × 2.5 m = 40 m³):
-- Water condensed: 40 × 5.5 = 220 g (nearly a cup!)
-- Heat released: 40 × 12.4 = 496 kJ
-- This explains why humid rooms feel stuffy and why dehumidifiers extract surprising amounts of water
-
-This problem demonstrates why:
-- Humid summer nights don't cool as efficiently (latent heat release)
-- Deserts have large day-night temperature swings (no moisture to moderate)
-- Tropical regions have stable temperatures (high moisture content)
-- Weather forecasters track dew point as critical for predicting fog and precipitation
-
-**Answer**
-
-(a) Approximately **5.5 grams** of water condense from each cubic meter.
-(b) About **12.4 kJ** of heat is released by this condensation.
-(c) This could cause a temperature increase of approximately **10.3ºC** in dry air.
-
-::::
-
+:::
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1249,7 +1098,7 @@ Approximately **8.61 kg** of ice can be melted (about **43%** of the total mass)
 
 <div class="exercise" data-element-type="problems-exercises">
 
-:::: problem
+::: problem
 
 **Integrated Concepts**
 
@@ -1260,16 +1109,17 @@ $${\text{m}}^{3}\text{/s} $$ ?
 (b) Is your result consistent with the large cooling towers used by many large
 electrical power plants?
 
-::::
+:::
 
-:::: solution {"class":"solution","data-element-type":"problem-exercises"}
+::: solution
 
-(a)  $$ 3.44 \times 10^{5} {\text{m}}^{3}\text{/s} $$
-(b) This is equivalent to 12 million cubic feet of air per second. That is tremendous. This is too large to be dissipated by heating the air by only  $$5\text{ºC} $$ .
- Many of these cooling towers use the circulation of cooler air over warmer water to increase the rate of evaporation. This would allow much smaller amounts of air necessary to remove such a large amount of heat because evaporation removes larger quantities of heat than was considered in part (a).
+**(a)** For a steady air flow at constant pressure, use $$c_p\approx1000\ \text{J/(kg}\cdot{}^\circ\text{C)}$$ and $$\rho\approx1.29\ \text{kg/m}^3$$:
 
-::::
+$$\dot V=\frac{P}{\rho c_p\Delta T}=\frac{1.600\times10^9}{(1.29)(1000)(5.00)}=2.48\times10^5\ \text{m}^3/\text{s}.$$
 
+**(b)** The large flow rate is consistent with the need for very large cooling towers. Evaporative towers also remove latent heat by evaporating water, reducing the air flow needed compared with this sensible-heating-only estimate.
+
+:::
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1624,7 +1474,7 @@ The calculation also explains why:
 
 <div class="exercise" data-element-type="problems-exercises">
 
-:::: problem
+::: problem
 
 **Integrated Concepts**
 
@@ -1635,19 +1485,25 @@ $$20.0\text{ºC} $$ air. (b) What energy is needed to cause $$1.00 {\text{m}}^{3
 (c) What gravitational potential energy is gained by this volume of air if it
 rises 1.00 m? Will this cause a significant cooling of the air?
 
-::::
+:::
 
-:::: solution
+::: solution
 
-(a) 1.102
+**(a)** At equal pressure, density is inversely proportional to absolute temperature:
 
-(b) $$2.79 \times 10^{4} \text{J} $$
-(c) 12.6 J. This will not cause a significant cooling of the air because it is
-much less than the energy found in part (b), which is the energy required to
-warm the air from $$20.0\text{ºC} $$ to $$50.0\text{ºC} $$.
+$$\frac{F_B}{W}=\frac{\rho_{20}}{\rho_{50}}=\frac{323.15}{293.15}=1.102.$$
 
-::::
+**(b)** Taking the initial cubic meter to contain $$m=1.29\ \text{kg}$$, and using $$c_p\approx1000\ \text{J/(kg}\cdot{}^\circ\text{C)}$$ for constant-pressure heating,
 
+$$Q=mc_p\Delta T=(1.29)(1000)(30.0)=3.87\times10^4\ \text{J}.$$
+
+**(c)** The gravitational energy gain in rising 1.00 m is
+
+$$\Delta U_g=mgh=(1.29)(9.80)(1.00)=12.6\ \text{J}.$$
+
+This is only about 0.033% of the heating energy, so that energy change alone causes little cooling.
+
+:::
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1799,7 +1655,7 @@ cooler.
 
 <div class="exercise" data-element-type="problems-exercises">
 
-:::: problem
+::: problem
 
 **Unreasonable Results**
 
@@ -1809,101 +1665,19 @@ the surroundings are at $$20.0 \text{ºC} $$ and it has an emissivity of 0.800? 
 b) What is unreasonable about this result? (c) Which premise or assumption is
 responsible?
 
-::::
+:::
 
-:::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
-**Strategy**
+**(a)** The sphere has area $$A=\pi d^2=4.52\times10^{-4}\ \text{m}^2$$. The net radiation law gives
 
-We use the Stefan-Boltzmann law $$P = \sigma eA(T^4 - T_{surr}^4)$$ to solve for the meteorite's temperature. We then evaluate whether this temperature is physically reasonable.
+$$T=\left(\frac{P}{e\sigma A}+T_{\text{surr}}^4\right)^{1/4}=5.59\times10^3\ \text{K}\approx5320\ {}^\circ\text{C}.$$
 
-**Solution**
+**(b)** An intact solid meteorite cannot sustain this temperature: it would melt and ablate. For comparison, even tungsten melts at about 3422 °C.
 
-Given:
-- Diameter: $$d = 1.20 \text{ cm} = 0.0120 \text{ m}$$
-- Radius: $$r = 0.00600 \text{ m}$$
-- Power radiated: $$P = 20.0 \text{ kW} = 20000 \text{ W}$$
-- Surroundings temperature: $$T_{surr} = 20.0\text{ºC} = 293.15 \text{ K}$$
-- Emissivity: $$e = 0.800$$
-- Stefan-Boltzmann constant: $$\sigma = 5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4$$
+**(c)** The unreasonable premise is sustained emission of 20.0 kW by this small intact body. At surface temperatures of 1500–2000 °C, the same area and emissivity would give roughly 200–550 W. Ablation and changing geometry would also invalidate a steady solid-sphere model at the calculated temperature.
 
-**(a)** Calculate the meteorite's temperature:
-
-Surface area (sphere):
-<div class="equation">
-$$A = 4\pi r^2 = 4\pi(0.00600)^2 = 4.52 \times 10^{-4} \text{ m}^2$$
-</div>
-
-Using Stefan-Boltzmann law:
-<div class="equation">
-$$P = \sigma eA(T^4 - T_{surr}^4)$$
-</div>
-
-Since $$T \gg T_{surr}$$, we can approximate $$T^4 - T_{surr}^4 \approx T^4$$:
-<div class="equation">
-$$20000 = (5.67 \times 10^{-8})(0.800)(4.52 \times 10^{-4})T^4$$
-</div>
-
-<div class="equation">
-$$20000 = 2.05 \times 10^{-11} T^4$$
-</div>
-
-<div class="equation">
-$$T^4 = \frac{20000}{2.05 \times 10^{-11}} = 9.76 \times 10^{14} \text{ K}^4$$
-</div>
-
-<div class="equation">
-$$T = (9.76 \times 10^{14})^{1/4} = 5.59 \times 10^{3} \text{ K}$$
-</div>
-
-Converting to Celsius:
-<div class="equation">
-$$T = 5589 - 273 = 5316\text{ºC} \approx 5.32 \times 10^{3}\text{ºC}$$
-</div>
-
-**(b)** This result is UNREASONABLE because:
-- 5590 K (5320ºC) is about **the same as the Sun's surface temperature** (5778 K)
-- This is hotter than the surfaces of cool stars such as red dwarfs (about 3000 K)
-- No meteorite could maintain such a temperature
-- At this temperature, the meteorite would vaporize instantly
-- Materials begin to vaporize at much lower temperatures (most metals vaporize below 3000ºC)
-
-**(c)** The unreasonable assumption is the **power output of 20.0 kW from such a small meteorite**.
-
-For perspective:
-- The meteorite has diameter 1.20 cm (about the size of a large marble)
-- 20 kW from this tiny object means enormous energy density
-- This would require impossibly high temperature or impossibly high emissivity beyond physical limits
-
-More reasonable scenarios:
-- A 1.2-cm meteorite entering atmosphere heats to ~1500-2000 °C
-- At this temperature, it would radiate only ~10-50 W, not 20,000 W
-- Most meteorites ablate (vaporize) during entry, never reaching such extreme temperatures at ground level
-
-**Discussion**
-
-This problem demonstrates the importance of checking whether calculated results make physical sense. The telltale signs that something is wrong:
-
-1. **Temperature exceeds known limits**: Nothing solid exists above ~4000 °C (tungsten's melting point)
-2. **Rivals stellar temperatures**: A temperature close to the Sun's surface is a red flag for an Earth-based object
-3. **Power density is absurd**: 20 kW from a marble-sized object implies extraordinary energy flux
-
-In reality, small meteorites:
-- Heat to 1000-2000 °C during atmospheric entry
-- Ablate (surface vaporizes), which limits temperature rise
-- Often cool significantly before impact
-- Typically radiate 10 s to 100 s of watts, not kilowatts
-
-The problem is intentionally designed to produce an unreasonable answer, teaching students to critically evaluate results rather than blindly accepting calculations.
-
-**Answer**
-
-(a) The calculated temperature is approximately **5.59 × 10³ K**, or about **5320ºC**.
-(b) This is unreasonable because it's about **as hot as the Sun's surface**—no meteorite could exist at this temperature.
-(c) The unreasonable premise is the **20.0 kW power output** from such a small meteorite, which is far too high for its size and realistic temperature.
-
-::::
-
+:::
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

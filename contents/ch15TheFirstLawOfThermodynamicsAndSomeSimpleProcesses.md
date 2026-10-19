@@ -507,7 +507,7 @@ For monatomic helium:
 
 **Discussion**
 
-The helium in the balloon contains about 304 J more internal energy than it would at atmospheric pressure. This is significantly less than the car tire (6,770 J) because the balloon has both lower pressure (0.200 atm gauge vs. ~1.2 atm gauge for the tire) and much smaller volume (10 L vs. 38 L). The energy stored in the balloon is sufficient to keep it inflated and bouncy, but small enough that a deflating balloon poses no danger—unlike a car tire. Helium, being monatomic, has only 3 translational degrees of freedom, while diatomic gases have 5 (3 translational + 2 rotational), which affects the internal energy calculation.
+The helium in the balloon contains about 304 J more internal energy than it would at atmospheric pressure. This is significantly less than the car tire (2.09 × 10⁴ J) because the balloon has both lower pressure (0.200 atm gauge vs. 2.17 atm gauge for the tire) and much smaller volume (10 L vs. 38 L). The energy stored in the balloon is sufficient to keep it inflated and bouncy, but small enough that a deflating balloon poses no danger—unlike a car tire. Helium, being monatomic, has only 3 translational degrees of freedom, while diatomic gases have 5 (3 translational + 2 rotational), which affects the internal energy calculation.
 
 :::
 
@@ -655,52 +655,20 @@ You do 35.3 J of work per stroke and exert an average force of 118 N (about 26.5
 
 Calculate the net work output of a heat engine following path ABCDA in the figure below.
 
-![A graph is shown of pressure versus volume, with pressure on the Y axis and volume on the X axis. A parallelogram connects four points are on the graph, A, B, C, and D. A is at y equals 2 point 6 times 10 to the six newtons per meter squared and x equals 1 point zero times ten to the minus three meters cubed. A downward sloping line connects A to B. B is at y equals 2 point zero, x equals four. A vertical line connects B to C. C is at y equals zero point 6, x equals 4. A line connects C to D. D is at y equals one point zero, x equals one point zero. A vertical line connects D to A. A diagonal line also connects D and B.](../resources/Figure_15_02_11.jpg " ")
+![A graph is shown of pressure versus volume, with pressure on the Y axis and volume on the X axis. A trapezoid connects four points on the graph, A, B, C, and D. A is at y equals 2 point 6 times 10 to the six newtons per meter squared and x equals 1 point zero times ten to the minus three meters cubed. A downward sloping line connects A to B. B is at y equals 2 point zero, x equals four. A vertical line connects B to C. C is at y equals zero point 6, x equals 4. A line connects C to D. D is at y equals one point zero, x equals one point zero. A vertical line connects D to A. A diagonal line also connects D and B.](../resources/Figure_15_02_11.jpg " ")
 {: #Figure11}
 
 :::
 
 ::: solution
 
-**Strategy**
+The enclosed quadrilateral is a trapezoid with parallel vertical sides AD and BC. Their pressure spans are 1.6 MPa and 1.4 MPa, respectively, separated by a volume change of 3.0 L. The clockwise cycle produces positive work:
 
-The net work done in a cyclic process equals the area enclosed by the path on a P-V diagram. For path ABCDA, we calculate the area of the parallelogram formed by the four vertices. We can break this into simpler shapes or use $$W = \oint P \, dV$$. The net work is the sum of work done in each leg: $$W_{total} = W_{AB} + W_{BC} + W_{CD} + W_{DA}$$.
+$$W=\frac{1.6+1.4}{2}\times10^6(3.0\times10^{-3})=4.5\times10^3\ \text{J}.$$
 
-**Solution**
-
-From the figure:
-- Point A: $$P = 2.6 \times 10^{6} \text{ N/m}^{2}$$, $$V = 1.0 \times 10^{-3} \text{ m}^{3}$$
-- Point B: $$P = 2.0 \times 10^{6} \text{ N/m}^{2}$$, $$V = 4.0 \times 10^{-3} \text{ m}^{3}$$
-- Point C: $$P = 0.6 \times 10^{6} \text{ N/m}^{2}$$, $$V = 4.0 \times 10^{-3} \text{ m}^{3}$$
-- Point D: $$P = 1.0 \times 10^{6} \text{ N/m}^{2}$$, $$V = 1.0 \times 10^{-3} \text{ m}^{3}$$
-
-For a closed cycle, the work equals the enclosed area. Since ABCDA forms a parallelogram:
-
-- Base (horizontal distance): $$\Delta V = 4.0 - 1.0 = 3.0 \times 10^{-3} \text{ m}^{3}$$
-- Height (vertical pressure difference): $$\Delta P = 2.0 - 0.6 = 1.4 \times 10^{6} \text{ N/m}^{2}$$ (average)
-
-Alternative calculation - work for each segment:
-- $$W_{AB}$$: Expansion along AB (positive work)
-- $$W_{BC}$$: Constant volume (zero work)
-- $$W_{CD}$$: Compression along CD (negative work)
-- $$W_{DA}$$: Constant volume (zero work)
-
-For the parallelogram, the net work is:
-
-<div class="equation">
- $$W = \text{Area} = \text{base} \times \text{height} = (3.0 \times 10^{-3})(1.5 \times 10^{6})$$
-</div>
-
-<div class="equation">
- $$W = 4.5 \times 10^{3} \text{ J}$$
-</div>
-
-**Discussion**
-
-The net work output of the heat engine following path ABCDA is 4.5 kJ or 4,500 J. This positive work indicates the cycle runs clockwise on the P-V diagram, which is characteristic of a heat engine (as opposed to a refrigerator or heat pump, which would run counterclockwise and require work input). The work equals the area of the parallelogram enclosed by the path. During the cycle, the system expands at high pressure (AB), rejects heat at constant volume (BC), compresses at low pressure (CD), and absorbs heat at constant volume (DA). The net work is the difference between the work done during expansion (larger, at higher average pressure) and compression (smaller, at lower average pressure). This 4.5 kJ per cycle could power a small device if the engine cycles rapidly enough.
+Equivalently, $$W_{AB}=\tfrac12(2.6+2.0)\times10^6(0.003)=6.9\ \text{kJ}$$ and $$W_{CD}=\tfrac12(0.6+1.0)\times10^6(-0.003)=-2.4\ \text{kJ}$$. The constant-volume legs do no work, so the net output is **4.5 kJ**.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -716,49 +684,21 @@ the [Problem-Solving Strategies for Thermodynamics](../contents/ch15Applications
 
 **Strategy**
 
-Path ABDA encloses a smaller area than ABCDA. The work output equals the area of triangle ABD. We calculate this using $$W = \frac{1}{2} \times \text{base} \times \text{height}$$. The work is less because the compression path BD (straight line) occurs at a higher average pressure than path BCD (via point C), meaning more work is required for compression, reducing net work output.
+Identify the gas as the system and compute the signed area enclosed by its clockwise pressure–volume cycle.
 
 **Solution**
 
-Following the Problem-Solving Strategy:
+Triangle ABD has a vertical side $$AD=(2.6-1.0)\times10^6\ \text{Pa}$$ and perpendicular width $$\Delta V=(4.0-1.0)\times10^{-3}\ \text{m}^3$$. Thus
 
-**Step 1:** Identify the system and process - The system is a gas undergoing a cyclic process ABDA.
+$$W=\frac12(1.6\times10^6)(3.0\times10^{-3})=2.4\times10^3\ \text{J}.$$
 
-**Step 2:** Identify the relevant physics - Work in a cycle equals the area enclosed on a P-V diagram.
-
-**Step 3:** Set up the calculation:
-- Point A: $$(1.0 \times 10^{-3} \text{ m}^{3}, 2.6 \times 10^{6} \text{ Pa})$$
-- Point B: $$(4.0 \times 10^{-3} \text{ m}^{3}, 2.0 \times 10^{6} \text{ Pa})$$
-- Point D: $$(1.0 \times 10^{-3} \text{ m}^{3}, 1.0 \times 10^{6} \text{ Pa})$$
-
-**Step 4:** Calculate the area of triangle ABD:
-
-<div class="equation">
- $$W = \frac{1}{2} \times \text{base} \times \text{height}$$
-</div>
-
-Base (volume change): $$\Delta V = 4.0 - 1.0 = 3.0 \times 10^{-3} \text{ m}^{3}$$
-Height (pressure difference): $$\Delta P = 2.0 - 1.0 = 1.0 \times 10^{6} \text{ Pa}$$
-
-<div class="equation">
- $$W = \frac{1}{2}(3.0 \times 10^{-3})(1.0 \times 10^{6}) = 1.5 \times 10^{3} \text{ J}$$
-</div>
-
-**Step 5:** Why is this less than ABCDA (4.5 kJ)?
-
-Path ABCDA goes B→C→D (down at constant volume, then left at lower pressure).
-Path ABDA goes B→D directly (diagonal line at intermediate pressure).
-
-The direct path BD requires compression at higher average pressure than path BCD, so more work is needed for compression. Net work = expansion work - compression work, so higher compression work means less net output.
-
-Difference: $$4.5 - 1.5 = 3.0 \text{ kJ}$$ less work for ABDA.
+As a check, expansion AB does $$6.9\ \text{kJ}$$ of work and compression BD does $$-4.5\ \text{kJ}$$; DA is at constant volume and does no work.
 
 **Discussion**
 
-The net work for path ABDA is 1.5 kJ, exactly one-third of the 4.5 kJ for path ABCDA. This makes sense geometrically: the triangle ABD has half the base and the same height as parallelogram ABCDA, so its area (and thus work) is smaller. Physically, the direct compression from B to D occurs at higher average pressure than the two-step process B→C→D. Higher compression pressure means more work input during compression, leaving less net work output. This illustrates an important thermodynamic principle: the path matters for work and heat, even though internal energy change depends only on initial and final states. To maximize work output, engines should expand at high pressure and compress at low pressure—which is why real engine cycles include steps to cool the gas before compression.
+The output is **2.4 kJ**, compared with 4.5 kJ for ABCDA, a reduction of 2.1 kJ. Direct compression along BD occurs at a higher average pressure than along BCD and therefore requires more work input. Work depends on the path.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

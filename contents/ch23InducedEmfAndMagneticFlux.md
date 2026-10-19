@@ -193,7 +193,7 @@ The wire is perpendicular to the plane of the coil. The magnetic field from the 
 
 **Solution**
 
-The magnetic field from a long straight wire circles the wire. At any point on the coil, the magnetic field is tangent to a circle centered on the wire. Since the coil lies in a plane that contains the wire, the magnetic field lines are parallel to the plane of the coil.
+The magnetic field from a long straight wire circles the wire. At any point on the coil, the magnetic field is tangent to a circle centered on the wire. Since the wire is perpendicular to the plane of the coil, the magnetic field lines are parallel to the plane of the coil.
 
 The magnetic flux is $$\Phi = BA\cos\theta$$ where $$\theta$$ is the angle between the field and the normal to the coil's area. Here, the field is parallel to the coil's plane, making it perpendicular to the normal ($$\theta = 90°$$).
 

@@ -392,7 +392,7 @@ Converting to kilovolts per meter:
 Discussion
 </div>
 
-This electric field strength of 150 kV/m is quite substantial—about 15 times stronger than the breakdown threshold for air under normal conditions (approximately 10 kV/m). While a magnetic field of $$5.00 \times 10^{-4} \text{ T}$$ (ten times Earth's field) seems relatively modest, it corresponds to a very strong electric field when they oscillate together in an electromagnetic wave. This demonstrates an important characteristic of electromagnetic waves: even when the magnetic field component appears relatively weak compared to everyday magnetic fields, the associated electric field can be extremely powerful due to the large value of $$c$$ in the relationship $$E=Bc$$. Such strong electromagnetic waves might be found near powerful radio transmitters or in natural phenomena like lightning-generated electromagnetic pulses.
+This electric field strength of 150 kV/m is quite substantial—about one-twentieth of the usual breakdown field of air under normal conditions (approximately 3 MV/m). While a magnetic field of $$5.00 \times 10^{-4} \text{ T}$$ (ten times Earth's field) seems relatively modest, it corresponds to a very strong electric field when they oscillate together in an electromagnetic wave. This demonstrates an important characteristic of electromagnetic waves: even when the magnetic field component appears relatively weak compared to everyday magnetic fields, the associated electric field can be extremely powerful due to the large value of $$c$$ in the relationship $$E=Bc$$. Such strong electromagnetic waves might be found near powerful radio transmitters or in natural phenomena like lightning-generated electromagnetic pulses.
 
 <div class="title">
 Final Answer

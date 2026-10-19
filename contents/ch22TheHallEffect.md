@@ -352,7 +352,7 @@ $$\epsilon = 0.01125 \text{ V} = 11.25 \text{ mV} \approx 11.3 \text{ mV}$$
 
 **Discussion**
 
-This 11.3 mV Hall voltage is small compared to the heart's natural electrical signals (the QRS complex is about 1 mV), but it can still cause artifacts in the ECG signal during MRI scans. This is why MRI-compatible electrodes and filtering techniques are used when monitoring patients during MRI. The effect is more pronounced in patients with metallic implants, which is one reason why MRI safety screening is critical.
+This 11.3 mV Hall voltage is about eleven times the 1-mV QRS signal and can cause substantial artifacts in the ECG signal during MRI scans. This is why MRI-compatible electrodes and filtering techniques are used when monitoring patients during MRI. The effect is more pronounced in patients with metallic implants, which is one reason why MRI safety screening is critical.
 
 **The Hall voltage induced on the heart wall is 11.3 mV.**
 
@@ -411,43 +411,19 @@ Using information in [[Example 2]](../contents/ch20ResistanceAndResistivity#Exam
 
 ::: solution
 
-**Strategy**
+The electron drift speed is $$v_d=I/(neA)$$, and the transverse Hall voltage is $$V_H=Bdv_d$$. Thus the combined formula includes the wire diameter:
 
-The Hall voltage depends on the drift velocity of charges, which is related to current by $$I = nqAv_{d}$$, where $$n$$ is the charge carrier density, $$A$$ is the cross-sectional area, and $$v_d$$ is the drift velocity. The Hall voltage is then $$\epsilon = Blv_{d}$$, where $$l$$ is the wire diameter. Combining these: $$\epsilon = \frac{BI}{nqA}$$.
+$$V_H=\frac{BdI}{neA}.$$
 
-**Solution**
+With $$d=2.588\times10^{-3}\ \text{m}$$, $$A=\pi d^2/4=5.26\times10^{-6}\ \text{m}^2$$, and $$n=8.34\times10^{28}\ \text{m}^{-3}$$,
 
-*Known quantities:*
-- Magnetic field: $$B = 2.00 \text{ T}$$
-- Wire diameter: $$d = 2.588 \text{ mm} = 2.588 \times 10^{-3} \text{ m}$$
-- Current: $$I = 20.0 \text{ A}$$
-- Copper charge carrier density: $$n = 8.34 \times 10^{28} \text{ electrons/m}^3$$ (from textbook)
-- Electron charge: $$q = 1.60 \times 10^{-19} \text{ C}$$
+$$v_d=\frac{20.0}{(8.34\times10^{28})(1.60\times10^{-19})(5.26\times10^{-6})}=2.85\times10^{-4}\ \text{m/s},$$
 
-First, find the cross-sectional area:
+$$V_H=(2.00)(2.588\times10^{-3})(2.85\times10^{-4})=1.47\times10^{-6}\ \text{V}=1.47\ \mu\text{V}.$$
 
-$$A = \pi r^2 = \pi \left(\frac{d}{2}\right)^2 = \pi \left(\frac{2.588 \times 10^{-3}}{2}\right)^2 = 5.26 \times 10^{-6} \text{ m}^2$$
-
-Calculate the drift velocity:
-
-$$v_d = \frac{I}{nqA} = \frac{20.0 \text{ A}}{(8.34 \times 10^{28})(1.60 \times 10^{-19})(5.26 \times 10^{-6})}$$
-
-$$v_d = \frac{20.0}{7.02 \times 10^{4}} = 2.85 \times 10^{-4} \text{ m/s}$$
-
-Now calculate the Hall voltage:
-
-$$\epsilon = Bdv_{d} = (2.00 \text{ T})(2.588 \times 10^{-3} \text{ m})(2.85 \times 10^{-4} \text{ m/s})$$
-
-$$\epsilon = 1.47 \times 10^{-6} \text{ V} \approx 1.5 \text{ μV}$$
-
-**Discussion**
-
-The Hall voltage of about 1.5 μV is extremely small despite the strong 2 T field and substantial 20 A current. This is because drift velocities in metals are remarkably slow (less than 1 mm/s). The high conductivity of metals comes not from fast-moving electrons but from their enormous density. This tiny Hall voltage illustrates why sensitive instruments are needed to measure the Hall effect in metallic conductors.
-
-**The Hall voltage across the copper wire is approximately 1.16 μV (or about 1.5 μV with slightly different values).**
+The large carrier density in copper makes this voltage very small.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

@@ -354,36 +354,19 @@ You are riding in a train, gazing into the distance through its window. As close
 
 ::: solution
 
-**Strategy**
+**(a)** The stated AC voltage is rms:
 
-For part (a), use $$P = V_{\text{rms}}^{2}/R$$. For part (b), use the temperature dependence of resistance $$R = R_{0}(1 + \alpha \Delta T)$$ with the tungsten temperature coefficient.
+$$R_{2700}=\frac{V_{\text{rms}}^2}{P}=\frac{120^2}{25}=576\ \Omega.$$
 
-**Solution**
+**(b)** The tungsten coefficient $$\alpha=4.5\times10^{-3}\ {}^\circ\text{C}^{-1}$$ is referenced to 20 °C, so apply both temperatures relative to that reference:
 
-**(a)** Calculate the hot resistance:
+$$\frac{R_{2600}}{R_{2700}}=\frac{1+\alpha(2600-20)}{1+\alpha(2700-20)}=\frac{12.61}{13.06}=0.9655.$$
 
-<div class="equation">
-$$R = \frac{V_{\text{rms}}^{2}}{P} = \frac{(120 \text{ V})^{2}}{25 \text{ W}} = \frac{14400 \text{ V}^{2}}{25 \text{ W}} = 576 \text{ Ω}$$
-</div>
+$$R_{2600}=(576)(0.9655)=556\ \Omega.$$
 
-**(b)** Use the temperature coefficient for tungsten ($$\alpha = 4.5 \times 10^{-3}$$ /°C). With $$\Delta T = 2600 - 2700 = -100$$ °C from the hot operating temperature:
-
-<div class="equation">
-$$R_{2600} = R_{2700}(1 + \alpha \Delta T) = 576 \text{ Ω}[1 + (4.5 \times 10^{-3} \text{ /°C})(-100 \text{ °C})]$$
-</div>
-
-<div class="equation">
-$$R_{2600} = 576 \text{ Ω}(1 - 0.45) = 576 \text{ Ω}(0.55) = 317 \text{ Ω}$$
-</div>
-
-**Discussion**
-
-The hot resistance is quite high (576 Ω). At 100 °C lower temperature, the resistance drops to 317 Ω—a 45% decrease. This significant temperature dependence explains why incandescent bulbs draw much more current when first switched on (when cold) than during normal operation.
-
-(a) The hot resistance is 576 Ω. (b) At 2600 °C, the resistance is approximately 317 Ω.
+Within the stated linear approximation, the 100 °C decrease lowers resistance by about 3.45%.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -613,7 +596,7 @@ $$I_{0} = \sqrt{2} \cdot I_{\text{rms}} = 1.414 \times 4.17 \text{ A} = 5.89 \te
 
 **Discussion**
 
-The peak current of 5.89 A is the maximum instantaneous current flowing through the heater during each AC cycle. The rms current of 4.17 A represents the effective DC equivalent that would produce the same heating effect. For a resistive load like a heater, the current and voltage are in phase, so the peak current occurs at the same instant as the peak voltage. The wiring and circuit breaker for this heater must be rated to handle currents above the peak value to provide a safety margin.
+The peak current of 5.89 A is the maximum instantaneous current flowing through the heater during each AC cycle. The rms current of 4.17 A represents the effective DC equivalent that would produce the same heating effect. For a resistive load like a heater, the current and voltage are in phase, so the peak current occurs at the same instant as the peak voltage. The rms current determines resistive heating in the wiring. Ordinary AC circuit-breaker current ratings refer to rms current; their response also depends on the duration of an overload.
 
 The peak current through the room heater is 5.89 A.
 
@@ -695,7 +678,7 @@ $$P_{\text{cold}} = \frac{V^{2}}{R_{\text{cold}}} = \frac{(120 \text{ V})^{2}}{1
 
 **Discussion**
 
-The heater requires 60.5 m of Nichrome wire, which is typically wound into a compact coil. When first switched on, the heater draws about 19% more power (1.19 kW vs 1.00 kW) because the cold resistance is lower. This is opposite to the behavior of incandescent bulbs, where tungsten has a much higher temperature coefficient and draws several times more current when cold. Nichrome's relatively small temperature coefficient ($$\alpha = 0.4 \times 10^{-3}$$ /°C vs. tungsten's $$4.5 \times 10^{-3}$$ /°C) makes it ideal for heating elements because the power output remains relatively stable as the element heats up.
+The heater requires 60.5 m of Nichrome wire, which is typically wound into a compact coil. When first switched on, the heater draws about 19% more power (1.19 kW vs 1.00 kW) because the cold resistance is lower. This is the same direction of change as in an incandescent bulb, but tungsten has a much higher temperature coefficient and therefore a much larger cold-current surge. Nichrome's relatively small temperature coefficient ($$\alpha = 0.4 \times 10^{-3}$$ /°C vs. tungsten's $$4.5 \times 10^{-3}$$ /°C) makes it ideal for heating elements because the power output remains relatively stable as the element heats up.
 
 (a) The required resistance is 14.4 Ω. (b) The length of Nichrome wire needed is 60.5 m. (c) When first switched on, the heater draws 1.19 kW.
 
@@ -794,7 +777,7 @@ $$t_{4} = \frac{7}{8f} = \frac{7}{8 \times 60 \text{ Hz}} = 14.6 \text{ ms}$$
 
 **Discussion**
 
-These times divide the period into eight equal parts of 2.08 ms each. The rms voltage represents the effective DC equivalent, and the instantaneous AC voltage crosses through this value four times per cycle—twice positive and twice negative. Notice that the voltage spends more time below $$V_{\text{rms}}$$ than above it during the positive half-cycle. This is because the sine wave varies slowly near its peaks and quickly near zero crossings. The rms value is calculated by averaging the square of the voltage, which gives extra weight to the peak regions.
+These times divide the period into eight equal parts of 2.08 ms each. The rms voltage represents the effective DC equivalent, and the instantaneous AC voltage crosses through this value four times per cycle—twice positive and twice negative. During the positive half-cycle, the voltage spends equal time above and below $$V_{\text{rms}}$$. Over a full cycle, its magnitude also spends equal time above and below $$V_{\text{rms}}$$. This is because the sine wave varies slowly near its peaks and quickly near zero crossings. The rms value is calculated by averaging the square of the voltage, which gives extra weight to the peak regions.
 
 (a) The voltage equals $$V_{\text{rms}}$$ at $$t = 2.08$$ ms and $$t = 6.25$$ ms. (b) The voltage equals $$-V_{\text{rms}}$$ at $$t = 10.4$$ ms and $$t = 14.6$$ ms.
 

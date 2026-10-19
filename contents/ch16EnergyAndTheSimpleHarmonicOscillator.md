@@ -267,100 +267,19 @@ of nylon rope is used.
 
 ::: solution
 
-**Strategy**
+**(a)** About the suspended equilibrium position,
 
-For part (a), the frequency of oscillation for a mass-spring system is $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$. For part (b), we use conservation of energy: the gravitational potential energy lost during the fall equals the elastic potential energy stored in the rope plus the gravitational potential energy lost while the rope stretches. For part (c), when the rope length doubles, the spring constant is halved (springs in series).
+$$f=\frac1{2\pi}\sqrt{\frac{k}{m}}=\frac1{2\pi}\sqrt{\frac{1.40\times10^4}{90.0}}=1.99\ \text{Hz}.$$
 
-**Solution**
+**(b)** The climber falls 2.00 m before the rope becomes taut and an additional distance $$x$$ as it stretches. Conservation of energy gives
 
-**(a)** Using the frequency formula for a mass-spring system:
+$$mg(h+x)=\frac12kx^2,\qquad x=\frac{mg+\sqrt{(mg)^2+2kmgh}}{k}=0.569\ \text{m}.$$
 
-<div class="equation">
- $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}} = \frac{1}{2\pi}\sqrt{\frac{1.40 \times 10^{4}}{90.0}}$$
-</div>
+**(c)** Doubling the rope length halves its force constant to $$7.00\times10^3\ \text{N/m}$$. With the same 2.00-m initial free fall, the frequency becomes **1.40 Hz** and the maximum stretch is **0.847 m**.
 
-<div class="equation">
- $$f = \frac{1}{2\pi}\sqrt{155.6} = \frac{12.47}{2\pi} = 1.99 \text{ Hz}$$
-</div>
-
-**(b)** Using conservation of energy. The climber falls distance $$h = 2.00$$ m, then the rope stretches distance $$x$$. Taking the lowest point as the reference level:
-
-Initial energy (at top of fall): $$E_i = mg(h + x)$$
-
-Final energy (at bottom): $$E_f = \frac{1}{2}kx^{2}$$
-
-<div class="equation">
- $$mg(h + x) = \frac{1}{2}kx^{2}$$
-</div>
-
-<div class="equation">
- $$mgh + mgx = \frac{1}{2}kx^{2}$$
-</div>
-
-<div class="equation">
- $$\frac{1}{2}kx^{2} - mgx - mgh = 0$$
-</div>
-
-Substituting values:
-
-<div class="equation">
- $$\frac{1}{2}(1.40 \times 10^{4})x^2 - (90.0)(9.80)x - (90.0)(9.80)(2.00) = 0$$
-</div>
-
-<div class="equation">
- $$7000x^2 - 882x - 1764 = 0$$
-</div>
-
-Using the quadratic formula:
-
-<div class="equation">
- $$x = \frac{882 + \sqrt{882^2 + 4(7000)(1764)}}{2(7000)} = \frac{882 + \sqrt{777924 + 49392000}}{14000}$$
-</div>
-
-<div class="equation">
- $$x = \frac{882 + 7084}{14000} = \frac{7966}{14000} = 0.569 \text{ m} \approx 0.502 \text{ m} = 50.2 \text{ cm}$$
-</div>
-
-**(c)** When the rope length doubles, the effective spring constant becomes $$k' = \frac{k}{2} = 7.00 \times 10^{3}$$ N/m.
-
-For frequency:
-
-<div class="equation">
- $$f' = \frac{1}{2\pi}\sqrt{\frac{k'}{m}} = \frac{1}{2\pi}\sqrt{\frac{7.00 \times 10^{3}}{90.0}} = \frac{1}{2\pi}\sqrt{77.8} = 1.41 \text{ Hz}$$
-</div>
-
-For the stretch, using the same energy conservation approach with $$k' = 7.00 \times 10^{3}$$ N/m:
-
-<div class="equation">
- $$3500x^2 - 882x - 1764 = 0$$
-</div>
-
-<div class="equation">
- $$x = \frac{882 + \sqrt{882^2 + 4(3500)(1764)}}{2(3500)} = \frac{882 + \sqrt{777924 + 24696000}}{7000}$$
-</div>
-
-<div class="equation">
- $$x = \frac{882 + 5048}{7000} = 0.847 \text{ m} \approx 0.710 \text{ m}$$
-</div>
-
-**Discussion**
-
-The frequency of 1.99 Hz for the climber bouncing on the rope is reasonable—about 2 oscillations per second. This is slow enough to be noticeable but fast enough to be uncomfortable.
-
-For the fall arrest, the rope stretches 50.2 cm (about half a meter), which seems reasonable for a nylon rope with this spring constant catching a 2-meter fall. The energy of the fall is absorbed by stretching the rope elastically.
-
-When the rope length doubles, the spring constant halves because the same force is distributed over twice the length. This makes the rope "softer"—the frequency decreases by a factor of $$\sqrt{2}$$ to 1.41 Hz, and the rope stretches more (71.0 cm instead of 50.2 cm) when catching the same fall. The longer rope is actually safer for fall arrest because it stretches more, reducing the peak deceleration force on the climber.
-
-**Answer**
-
-(a) 1.99 Hz
-
-(b) 50.2 cm
-
-(c) 1.41 Hz, 0.710 m
+The longer rope stretches farther and reduces the peak force in this ideal elastic model.
 
 :::
-
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">

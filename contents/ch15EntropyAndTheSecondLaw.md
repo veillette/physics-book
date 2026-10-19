@@ -734,94 +734,25 @@ The Sun radiates energy at the rate of  $$ 3.80 \times 10^{26}  \text{W} $$
 
 **Strategy**
 
-For part (a), calculate the total energy radiated in one day, then find entropy change for both the Sun (losing heat) and space (gaining heat). The total entropy change is their sum. For part (b), use $$W_{\text{unavail}} = \Delta S \times T_0$$, where $$T_0$$ is the lowest temperature.
+Use the introductory two-reservoir model, approximating deep space as a cold reservoir at 3 K and the solar surface as one at 5773 K. Add the entropy changes of both reservoirs, then multiply the total by the cold-reservoir temperature for unavailable work.
 
 **Solution**
 
-Given values:
-- Power radiated by Sun: $$P = 3.80 \times 10^{26} \text{ W}$$
-- Sun's surface temperature: $$T_{\text{Sun}} = 5500\text{°C} = 5773 \text{ K}$$
-- Deep space temperature: $$T_{\text{space}} = -270\text{°C} = 3 \text{ K}$$
-- Time: $$t = 1 \text{ day} = 86{,}400 \text{ s}$$
+$$Q=Pt=(3.80\times10^{26})(86400)=3.2832\times10^{31}\ \text{J}.$$
 
-**(a)** Entropy increase in one day:
+**(a)**
 
-Total energy radiated in one day:
+$$\Delta S=Q\left(\frac1{T_c}-\frac1{T_h}\right)=3.2832\times10^{31}\left(\frac13-\frac1{5773}\right)=1.09\times10^{31}\ \text{J/K}.$$
 
-<div class="equation">
- $$Q = P \times t = (3.80 \times 10^{26} \text{ W})(86{,}400 \text{ s})$$
-</div>
+The solar contribution is $$-5.69\times10^{27}\ \text{J/K}$$, much smaller than the cold-reservoir contribution of $$1.0944\times10^{31}\ \text{J/K}$$.
 
-<div class="equation">
- $$Q = 3.28 \times 10^{31} \text{ J}$$
-</div>
+**(b)**
 
-Entropy decrease of the Sun (heat leaves):
+$$W_{\text{unavailable}}=T_c\Delta S=3(1.0938\times10^{31})=3.28\times10^{31}\ \text{J}.$$
 
-<div class="equation">
- $$\Delta S_{\text{Sun}} = -\frac{Q}{T_{\text{Sun}}} = -\frac{3.28 \times 10^{31}}{5773} = -5.68 \times 10^{27} \text{ J/K}$$
-</div>
-
-Entropy increase of space (heat enters):
-
-<div class="equation">
- $$\Delta S_{\text{space}} = \frac{Q}{T_{\text{space}}} = \frac{3.28 \times 10^{31}}{3} = 1.09 \times 10^{31} \text{ J/K}$$
-</div>
-
-Total entropy increase:
-
-<div class="equation">
- $$\Delta S_{\text{total}} = \Delta S_{\text{Sun}} + \Delta S_{\text{space}}$$
-</div>
-
-<div class="equation">
- $$\Delta S_{\text{total}} = -5.68 \times 10^{27} + 1.09 \times 10^{31}$$
-</div>
-
-<div class="equation">
- $$\Delta S_{\text{total}} = 1.09 \times 10^{31} - 0.0568 \times 10^{31} = 1.03 \times 10^{31} \text{ J/K}$$
-</div>
-
-**The increase in entropy is approximately $$ 1.04 \times 10^{31} \text{ J/K} $$.**
-
-**(b)** Work made unavailable:
-
-<div class="equation">
- $$W_{\text{unavail}} = \Delta S_{\text{total}} \times T_0$$
-</div>
-
-where $$T_0$$ is the lowest temperature (deep space at 3 K):
-
-<div class="equation">
- $$W_{\text{unavail}} = (1.04 \times 10^{31} \text{ J/K})(3 \text{ K})$$
-</div>
-
-<div class="equation">
- $$W_{\text{unavail}} = 3.12 \times 10^{31} \text{ J}$$
-</div>
-
-Alternatively, this can be calculated more precisely as:
-
-<div class="equation">
- $$W_{\text{unavail}} = Q - Q \times \frac{T_0}{T_{\text{Sun}}} = Q\left(1 - \frac{T_0}{T_{\text{Sun}}}\right)$$
-</div>
-
-<div class="equation">
- $$W_{\text{unavail}} = 3.28 \times 10^{31}\left(1 - \frac{3}{5773}\right) = 3.28 \times 10^{31}(0.9995) \approx 3.28 \times 10^{31} \text{ J}$$
-</div>
-
-**The work made unavailable is approximately $$ 3.28 \times 10^{31} \text{ J} $$.**
-
-**Discussion**
-
-Part (a): The enormous entropy increase of $$1.04 \times 10^{31}$$ J/K per day results from the irreversible process of heat flowing from the hot Sun (5773 K) to cold space (3 K). Although the Sun loses entropy, space gains far more entropy because the same amount of energy produces a much larger entropy change at lower temperature ($$\Delta S = Q/T$$). This is the universe marching inexorably toward thermal equilibrium and maximum entropy—the "heat death" scenario.
-
-Part (b): Of the $$3.28 \times 10^{31}$$ J radiated daily, essentially all of it (99.95%) becomes unavailable for doing work. This represents the energy that cannot be converted to useful work because it's dispersed into the very cold void of space. If we could somehow capture all this solar radiation and run it through a perfect Carnot engine between 5773 K and 3 K, we could theoretically extract nearly 100% as work. However, the radiation spreads in all directions, and only a tiny fraction is intercepted by planets.
-
-For Earth specifically, we receive about 1.7 × 10^{17} W of solar power, which is only 0.000000045% of the Sun's total output. This minuscule fraction still drives all weather, ocean currents, photosynthesis, and sustains life on Earth. The vast majority of the Sun's energy simply heats up the cold vacuum of space, increasing the universe's entropy while making that energy permanently unavailable for organized work. This is a profound illustration of the second law of thermodynamics in action on a cosmic scale.
+This result assumes eventual heat absorption by a cold reservoir; it does not calculate the entropy carried by freely propagating radiation.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -839,24 +770,23 @@ For Earth specifically, we receive about 1.7 × 10^{17} W of solar power, which 
 
 **Strategy**
 
-Final equilibrium T is 30°C (average). Use $$Q = mc\Delta T$$ for heat transfer, $$\Delta S = mc\ln\frac{T_f}{T_i}$$ for entropy, unavailable work = $$T_C\Delta S$$.
+Treat both water samples as an isolated system with constant specific heat. Energy conservation gives a final temperature of 30.0 °C. Compute each entropy change along a reversible heating or cooling path, using absolute temperatures and retaining digits before adding.
 
-**Solution**
+**(a)**
 
-**(a)** $$Q = (1.00)(4186)(10.0) = 4.19 \times 10^{4} \text{ J}$$
+$$Q=mc(40.0-30.0)=(1.00)(4186)(10.0)=4.19\times10^4\ \text{J}.$$
 
-**(b)** Hot water: $$\Delta S_h = (1.00)(4186)\ln\frac{303}{313} = -136 \text{ J/K}$$
-Cold water: $$\Delta S_c = (1.00)(4186)\ln\frac{303}{293} = 141 \text{ J/K}$$
-Total: $$\Delta S = 5 \text{ J/K}$$
+**(b)** Using temperatures rounded consistently to 313, 303, and 293 K,
 
-**(c)** $$W_{unavail} = (293)(5) = 1465 \text{ J}$$
+$$\Delta S=mc\left[\ln\frac{303}{313}+\ln\frac{303}{293}\right]=4.57\ \text{J/K}.$$
 
-**Discussion**
+**(c)**
 
-The positive entropy change (5 J/K) confirms irreversibility. About 1.5 kJ becomes unavailable for work—this is the "cost" of irreversible mixing.
+$$W_{\text{unavailable}}=T_c\Delta S=(293)(4.57)=1.34\times10^3\ \text{J}.$$
+
+The positive total entropy confirms that direct heat exchange is irreversible.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -897,24 +827,15 @@ Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its bo
 
 ::: solution
 
-**Strategy**
+Boiling and warming the gas contribute separately. With $$T_b=77\ \text{K}$$, $$T_f=293\ \text{K}$$, $$L_v=2.0\times10^5\ \text{J/kg}$$, and $$c_p=1040\ \text{J/(kg}\cdot\text{K)}$$,
 
-Two stages: (1) boiling at -196°C: $$\Delta S_1 = \frac{mL_{v}}{T_b}$$; (2) warming gas: $$\Delta S_2 = mc_{p}\ln\frac{T_f}{T_b}$$. Use $$L_v = 2.0 \times 10^{5} \text{ J/kg}$$, $$c_p = 1040 \text{ J/(kg·K)}$$.
+$$\Delta S_{\text{boil}}=\frac{mL_v}{T_b}=\frac{(1.00)(2.0\times10^5)}{77}=2.60\times10^3\ \text{J/K},$$
 
-**Solution**
+$$\Delta S_{\text{warm}}=mc_p\ln\frac{T_f}{T_b}=(1.00)(1040)\ln\frac{293}{77}=1.39\times10^3\ \text{J/K}.$$
 
-$$\Delta S_1 = \frac{(1.00)(2.0 \times 10^{5})}{77} = 2597 \text{ J/K}$$
-
-$$\Delta S_2 = (1.00)(1040)\ln\frac{293}{77} = 1340 \text{ J/K}$$
-
-$$\Delta S_{total} = 2597 + 1340 = 3937 \text{ J/K} \approx 3.94 \times 10^{3} \text{ J/K}$$
-
-**Discussion**
-
-Most entropy increase (66%) comes from phase change, reflecting the dramatic disorder increase from liquid to gas.
+Adding the unrounded results gives **3.99 × 10³ J/K**. About 65% of the increase occurs during boiling.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1030,7 +951,7 @@ where $$T_0 = 18.0\text{°C} = 291 \text{ K}$$:
 
 Part (a): At 35% efficiency, the power station requires $$2.47 \times 10^{14}$$ J (247 TJ) of heat input daily. This comes from burning fossil fuels or nuclear fission. The 1000 MW output equals 86.4 TJ daily of useful electrical energy.
 
-Part (b): The waste heat of $$1.60 \times 10^{14}$$ J (160 TJ) per day—65% of the input energy—must be rejected to the environment. This enormous heat output necessitates cooling towers or water bodies. For perspective, this could heat 1.9 million liters of water from 0 °C to 100 °C.
+Part (b): The waste heat of $$1.60 \times 10^{14}$$ J (160 TJ) per day—65% of the input energy—must be rejected to the environment. This enormous heat output necessitates cooling towers or water bodies. For perspective, this could heat 380 million liters of water from 0 °C to 100 °C.
 
 Part (c): The entropy increase of $$2.85 \times 10^{10}$$ J/K results from irreversible heat transfer from warm cooling water (35 °C) to cooler air (18-20 °C). The air gains more entropy than the water loses because entropy change is inversely proportional to temperature. This positive entropy increase confirms this is an irreversible process, as required by the second law.
 
@@ -1063,30 +984,33 @@ the [Problem-Solving Strategies for Entropy](../contents/ch15StatisticalInterpre
 
 **Strategy**
 
-(a) $$Q = mc\Delta T$$. (b) Carnot work: $$W_C = \eta_{C} Q_h = (1-\frac{283}{363})(Q)$$. (c) $$\Delta S = mc\ln\frac{T_f}{T_i}$$ for each. (d) Unavailable work = $$T_C \Delta S$$. (e) Discuss irreversibility.
+Identify both water samples as the system. Use constant specific heat, conserve energy to find the final temperature, and compute entropy changes along reversible paths. Use temperatures rounded consistently to 363, 323, and 283 K.
 
-**Solution**
+**(a)** The heat transferred from hot to cold water is
 
-**(a)** $$Q = (20.0)(4186)(40.0) = 3.35 \times 10^{6} \text{ J}$$
+$$Q=mc\Delta T=(20.0)(4186)(40.0)=3.35\times10^6\ \text{J}.$$
 
-**(b)** $$\eta_{C} = 1 - \frac{283}{363} = 0.220$$
-$$W_C = 0.220 \times 3.35 \times 10^{6} = 7.37 \times 10^{5} \text{ J}$$
+**(b)** For the specified engine operating between constant-temperature reservoirs,
 
-**(c)** Hot: $$\Delta S_h = (20)(4186)\ln\frac{323}{363} = -9,610 \text{ J/K}$$
-Cold: $$\Delta S_c = (20)(4186)\ln\frac{323}{283} = 10,860 \text{ J/K}$$
-Total: $$\Delta S = 1,250 \text{ J/K}$$
+$$\eta_C=1-\frac{283}{363}=0.2204,\qquad W_C=\eta_C Q=7.38\times10^5\ \text{J}.$$
 
-**(d)** $$W_{unavail} = (283)(1250) = 3.54 \times 10^{5} \text{ J}$$
-This is 48% of the Carnot work, showing significant work loss from irreversible mixing.
+**(c)**
 
-**(e)** Everyday processes like mixing hot and cold water permanently degrade energy quality. The 354 kJ that becomes unavailable represents the "cost" of irreversibility—energy that could have done work if we'd used a heat engine instead of direct mixing.
+$$\Delta S_h=(20.0)(4186)\ln\frac{323}{363}=-9775\ \text{J/K},$$
 
-**Discussion**
+$$\Delta S_c=(20.0)(4186)\ln\frac{323}{283}=11070\ \text{J/K}.$$
 
-This problem powerfully illustrates entropy's practical meaning: irreversible processes destroy work potential. The 1,250 J/K entropy increase makes 354 kJ unavailable—nearly half what a Carnot engine could extract. This is why engineers carefully manage heat flows in power plants.
+Adding before rounding gives $$\Delta S=1.29\times10^3\ \text{J/K}$$.
+
+**(d)**
+
+$$W_{\text{unavailable}}=T_c\Delta S=3.66\times10^5\ \text{J},$$
+
+about 50% of the constant-reservoir Carnot work in part (b).
+
+**(e)** Mixing conserves energy while destroying work potential. The Carnot comparison assumes fixed reservoir temperatures; the two finite samples change temperature during actual mixing.
 
 :::
-
 </div>
 
 ::: glossary

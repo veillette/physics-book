@@ -152,38 +152,15 @@ Make a drawing similar to [[Figure 2]](#Figure2), but with the pendulum moving i
 
 ::: solution
 
-**Strategy**
+Draw the field into the page and reverse the pendulum's motion so the plate moves leftward.
 
-We analyze the plate moving right-to-left, entering and exiting the magnetic field. We apply Faraday's law to find induced emf, Lenz's law for current direction, and RHR-1 for force direction.
+When it **enters from the right**, into-page flux increases. Lenz's law gives a counterclockwise eddy current, producing out-of-page field. The **left** side of the representative loop is in the field and carries downward current. Downward current crossed with into-page field gives a **rightward** force.
 
-**Solution**
+When it **exits on the left**, into-page flux decreases. The induced current is clockwise. The **right** side still inside the field carries downward current, again producing a **rightward** force.
 
-**Case 1: Plate entering field from right**
-
-The plate moves leftward into the field region:
-1. **Flux change**: Magnetic flux into the page is increasing (Faraday's law)
-2. **Induced current**: By Lenz's law, the induced current must create a field out of the page to oppose the increase. Using RHR-2, this requires a counterclockwise current (viewed from front)
-3. **Force on current**: The right edge of the current loop is in the field. Using RHR-1 with current flowing upward on the right edge and field into page, the force is to the RIGHT
-4. **Conclusion**: Force opposes leftward motion ✓
-
-**Case 2: Plate exiting field on left**
-
-The plate moves leftward out of the field:
-1. **Flux change**: Magnetic flux into the page is decreasing
-2. **Induced current**: By Lenz's law, induced current must create a field into the page to oppose the decrease. Using RHR-2, this requires a clockwise current
-3. **Force on current**: The left edge of the loop (still in field) has current flowing downward. Using RHR-1 with downward current and field into page, the force is to the RIGHT
-4. **Conclusion**: Force opposes leftward motion ✓
-
-**Discussion**
-
-In both cases—entering and exiting—the magnetic force opposes the plate's motion, demonstrating magnetic damping. This confirms energy conservation: work must be done against the magnetic force to maintain motion.
-
-**Final Answer**
-
-Drawing analysis shows that whether entering or exiting the field from the right, the magnetic force always points opposite to the velocity (rightward when moving leftward), opposing the motion as required by Lenz's law and energy conservation.
+In both cases the magnetic force opposes leftward motion; mechanical energy is converted into resistive heating.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -225,7 +202,7 @@ We apply Lenz's law to find the direction of induced current, and RHR-1 to find 
 **Position (d): Coil exiting field (moving right)**
 - **Flux change**: Flux out of page is decreasing
 - **Induced current**: By Lenz's law, induced current creates field out of page to oppose decrease → **counterclockwise** (viewed from front)
-- **Magnetic force**: Left edge of coil (still in field) has current flowing upward. By RHR-1 (up current, field out), force is to the **LEFT** (opposes rightward motion)
+- **Magnetic force**: Left edge of coil (still in field) has current flowing downward. By RHR-1 (down current, field out), force is to the **LEFT** (opposes rightward motion)
 
 **Position (e): Coil outside field (right side)**
 - **Flux change**: None (flux = 0)

@@ -285,7 +285,7 @@ Apply Coulomb's law:
 </div>
 
 <div class="equation">
- $$F = 2.62 \times 10^{-1} \text{ N} = 0.262 \text{ N} \approx 0.263 \text{ N}$$
+ $$F = 2.62 \times 10^{-1} \text{ N} = 0.262 \text{ N}$$
 </div>
 
 **(b)** If the charges are distributed over some area rather than being concentrated at points, the charge distribution would be affected by the presence of the opposite charge. The side of each object closest to the oppositely charged object would accumulate more charge due to polarization and redistribution. Since the electrostatic force decreases with distance, the concentration of charge on the near side would experience a stronger attractive force than if the charge were uniformly distributed. This effect would increase the net force beyond the 0.263 N calculated using the point charge approximation.
@@ -1147,93 +1147,23 @@ Even though we're only removing about 14.6 trillion electrons (which sounds like
 
 ::: solution
 
-**Strategy**
+The algebraic charge sum is $$S=q_1+q_2=8.00\ \mu\text{C}$$. Coulomb's law gives
 
-Let the two charges be $$q_1$$ and $$q_2$$. We know that $$q_1 + q_2 = 8.00 \text{ μC}$$ and we can use Coulomb's law with the given force and distance to find their product $$q_1 q_2$$. This gives us two equations with two unknowns, which we can solve (possibly requiring the quadratic formula).
+$$|q_1q_2|=\frac{Fr^2}{k}=\frac{(0.150)(0.500)^2}{8.99\times10^9}=4.17\times10^{-12}\ \text{C}^2.$$
 
-**Solution**
+**(a)** Repulsion requires a positive product. The charges are the roots of
 
-Given:
-- $$q_1 + q_2 = 8.00 \times 10^{-6} \text{ C}$$
-- $$F = 0.150 \text{ N}$$
-- $$r = 0.500 \text{ m}$$
+$$q^2-Sq+4.17\times10^{-12}=0,$$
 
-From Coulomb's law:
+giving **+7.44 µC** and **+0.561 µC**. Both must be positive to satisfy the positive sum.
 
-<div class="equation">
- $$F = k\frac{q_1 q_2}{r^2}$$
-</div>
+**(b)** Attraction requires a negative product. Solve
 
-<div class="equation">
- $$q_1 q_2 = \frac{Fr^{2}}{k} = \frac{(0.150)(0.500)^2}{8.99 \times 10^9}$$
-</div>
+$$q^2-Sq-4.17\times10^{-12}=0,$$
 
-<div class="equation">
- $$q_1 q_2 = \frac{0.0375}{8.99 \times 10^9} = 4.17 \times 10^{-12} \text{ C}^2$$
-</div>
-
-**(a)** For a repulsive force, both charges have the same sign. Let $$q_2 = 8.00 \times 10^{-6} - q_1$$.
-
-<div class="equation">
- $$q_1(8.00 \times 10^{-6} - q_1) = 4.17 \times 10^{-12}$$
-</div>
-
-<div class="equation">
- $$8.00 \times 10^{-6} q_1 - q_1^2 = 4.17 \times 10^{-12}$$
-</div>
-
-<div class="equation">
- $$q_1^2 - 8.00 \times 10^{-6} q_1 + 4.17 \times 10^{-12} = 0$$
-</div>
-
-Using the quadratic formula:
-
-<div class="equation">
- $$q_1 = \frac{8.00 \times 10^{-6} \pm \sqrt{(8.00 \times 10^{-6})^2 - 4(4.17 \times 10^{-12})}}{2}$$
-</div>
-
-<div class="equation">
- $$q_1 = \frac{8.00 \times 10^{-6} \pm \sqrt{6.40 \times 10^{-11} - 1.67 \times 10^{-11}}}{2}$$
-</div>
-
-<div class="equation">
- $$q_1 = \frac{8.00 \times 10^{-6} \pm \sqrt{4.73 \times 10^{-11}}}{2}$$
-</div>
-
-<div class="equation">
- $$q_1 = \frac{8.00 \times 10^{-6} \pm 6.88 \times 10^{-6}}{2}$$
-</div>
-
-This gives two solutions:
-
-<div class="equation">
- $$q_1 = \frac{8.00 + 6.88}{2} \times 10^{-6} = 7.44 \text{ μC}$$
-</div>
-
-<div class="equation">
- $$q_2 = 8.00 - 7.44 = 0.56 \text{ μC}$$
-</div>
-
-Or equivalently: $$q_1 = 0.56 \text{ μC}$$ and $$q_2 = 7.44 \text{ μC}$$.
-
-**(b)** For an attractive force, the charges have opposite signs. Let $$q_1 = x$$ (positive) and $$q_2 = -(8.00 \times 10^{-6} - x)$$ (negative). The magnitude of their product is still $$4.17 \times 10^{-12} \text{ C}^2$$, so we get the same quadratic equation and the same magnitudes:
-
-$$q_1 = +7.44 \text{ μC}$$ and $$q_2 = -0.56 \text{ μC}$$
-
-or
-
-$$q_1 = +0.56 \text{ μC}$$ and $$q_2 = -7.44 \text{ μC}$$
-
-**Discussion**
-
-Part (a): For a repulsive force, both charges must have the same sign. The charges are 7.44 μC and 0.56 μC (both positive, or both negative). The asymmetry makes sense—one charge is much larger than the other.
-
-Part (b): For an attractive force, the charges must have opposite signs. The charges are +7.44 μC and −0.56 μC (or vice versa). Note that the magnitudes are the same as in part (a), but with opposite signs to create attraction rather than repulsion.
-
-This problem illustrates an important principle: given only the force, distance, and total charge, we can determine the individual charges, but we need additional information (whether the force is attractive or repulsive) to determine the signs. The quadratic nature of the problem arises from the product $$q_1 q_2$$ in Coulomb's law.
+giving **+8.49 µC** and **−0.491 µC**. Their unrounded sum is 8.00 µC and their product is negative. Merely changing one sign in part (a) would violate the sum constraint.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

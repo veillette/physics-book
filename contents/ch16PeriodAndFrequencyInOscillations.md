@@ -270,7 +270,7 @@ Substitute the given period into $$f = \frac{1}{T}$$:
 
 **Discussion**
 
-The frequency of 12,500 Hz (12.5 kHz) is quite high and actually exceeds the upper limit of human hearing for most people. Stroboscopes are used to make rapidly moving or rotating objects appear stationary by synchronizing the flash rate with the object's motion. This high frequency allows the stroboscope to "freeze" very fast-moving objects, making 12,500 flashes per second. The period of 80 microseconds is extremely short, demonstrating the rapid nature of the flashing.
+The frequency of 12,500 Hz (12.5 kHz) is within the conventional 20 Hz–20 kHz audible frequency range, although these flashes are light rather than sound. Stroboscopes are used to make rapidly moving or rotating objects appear stationary by synchronizing the flash rate with the object's motion. This high frequency allows the stroboscope to "freeze" very fast-moving objects, making 12,500 flashes per second. The period of 80 microseconds is extremely short, demonstrating the rapid nature of the flashing.
 
 **Answer**
 

@@ -244,7 +244,7 @@ Converting to Celsius:
 
 **Discussion**
 
-A Carnot engine with 30% efficiency operating with a 200 °C cold reservoir requires a 403 °C hot reservoir. This is reasonable for gasoline engines, where combustion temperatures reach 400-600 °C but real engines achieve only 20-30% efficiency (less than Carnot). The relatively modest temperature difference (403 °C - 200 °C = 203 °C) for 30% efficiency shows why improving engine efficiency is challenging—large temperature increases are needed for small efficiency gains.
+A Carnot engine with 30% efficiency operating with a 200 °C cold reservoir requires a 403 °C hot reservoir. This is the hot temperature of the hypothetical Carnot engine; actual gasoline combustion temperatures are much higher and actual engines have irreversible losses. The relatively modest temperature difference (403 °C - 200 °C = 203 °C) for 30% efficiency shows why improving engine efficiency is challenging—large temperature increases are needed for small efficiency gains.
 
 :::
 
@@ -276,15 +276,15 @@ Given: $$T_H = 973 \text{ K}$$, $$T_C = 300 \text{ K}$$
  $$\eta_{C} = 1 - \frac{T_C}{T_H} = 1 - \frac{300}{973} = 1 - 0.308 = 0.692 = 69.2\%$$
 </div>
 
-**(b)** Assuming Example 1 shows standard nuclear reactor Carnot efficiency of ~41.5%, the ratio is:
+**(b)** Example 1 gives a standard nuclear reactor Carnot efficiency of 47.6%, so the ratio is:
 
 <div class="equation">
- $$\frac{69.2\%}{41.5\%} = 1.67$$
+ $$\frac{69.2\%}{47.6\%} = 1.45$$
 </div>
 
 **Discussion**
 
-The gas-cooled reactor operating at 700 °C can theoretically achieve 69.2% efficiency, which is 1.67 times higher than standard water-cooled reactors operating at lower temperatures. This demonstrates why higher operating temperatures are desirable—they dramatically increase maximum possible efficiency. However, gas-cooled reactors face engineering challenges at these high temperatures, explaining why they aren't widely adopted despite the efficiency advantage.
+The gas-cooled reactor operating at 700 °C can theoretically achieve 69.2% efficiency, which is 1.45 times higher than standard water-cooled reactors operating at lower temperatures. This demonstrates why higher operating temperatures are desirable—they dramatically increase maximum possible efficiency. However, gas-cooled reactors face engineering challenges at these high temperatures, explaining why they aren't widely adopted despite the efficiency advantage.
 
 :::
 
@@ -350,7 +350,7 @@ $$\eta_{max} = 1 - \frac{423}{698} = 0.394 = 39.4\%$$
 
 **Discussion**
 
-Part (a): For 17% Carnot efficiency at 425 °C hot temperature, the cold reservoir would be 306 °C—unrealistically hot for exhaust. Real steam locomotives had much cooler exhaust (~100 °C), explaining why actual efficiency was far below 17%. Part (b): With realistic 150 °C exhaust, maximum efficiency could reach 39.4%, but real locomotives achieved only 5-10% due to mechanical losses, incomplete combustion, and heat losses.
+Part (a) describes a hypothetical reversible engine with the stated 17% efficiency. In part (b), the colder reservoir raises the Carnot limit to 39.4%. The given actual efficiency of 17% lies below that limit because real engines have irreversible losses.
 
 :::
 
@@ -374,8 +374,8 @@ Practical steam engines utilize  $$450\text{ºC} $$
 
 (a)  $$\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}=1-\frac{543 \text{K}}{723 \text{K}}= 0.249 \text{ or }  24.9\%  $$
 (b)  $$\text{Eff}_{2}=1-\frac{423 \text{K}}{543 \text{K}}= 0.221 \text{ or }  22.1\%  $$
-(c)  $$\begin{array}{l}\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}⇒{T}_{\text{c,1}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\\ \text{similarly, }  {T}_{\text{c,2}}={T}_{\text{h,2}}\left(1-\text{Eff}_{2}\right)\\ \text{using } {T}_{\text{h,2}}={T}_{\text{c,1}} \text{ in above equation gives}\\ {T}_{\text{c,2}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\equiv {T}_{\text{h,1}}\left(1-\text{Eff}_{\text{overall}}\right)\\ \therefore \left(1-\text{Eff}_{\text{overall}}\right)=\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\\ \text{Eff}_{\text{overall}}=1-\left(1-0.249\right)\left(1-0.221\right)=41.5\% \end{array}$$
-(d)  $${\text{Eff}}_{\text{overall}}=1-\frac{423 \text{K}}{723 \text{K}}= 0.415 \text{ or }  41.5\%  $$
+(c)  $$\begin{array}{l}\text{Eff}_{1}=1-\frac{ {T}_{\text{c,1}}}{ {T}_{\text{h,1}}}⇒{T}_{\text{c,1}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\\ \text{similarly, }  {T}_{\text{c,2}}={T}_{\text{h,2}}\left(1-\text{Eff}_{2}\right)\\ \text{using } {T}_{\text{h,2}}={T}_{\text{c,1}} \text{ in above equation gives}\\ {T}_{\text{c,2}}={T}_{\text{h,1}}\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\equiv {T}_{\text{h,1}}\left(1-\text{Eff}_{\text{overall}}\right)\\ \therefore \left(1-\text{Eff}_{\text{overall}}\right)=\left(1-\text{Eff}_{1}\right)\left(1-\text{Eff}_{2}\right)\\ \text{Eff}_{\text{overall}}=1-\left(1-0.249\right)\left(1-0.221\right)=47.6\% \end{array}$$
+(d)  $${\text{Eff}}_{\text{overall}}=1-\frac{423 \text{K}}{723 \text{K}}= 0.415 \text{ or }  47.6\%  $$
 
 :::
 

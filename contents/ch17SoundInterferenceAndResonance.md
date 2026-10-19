@@ -569,11 +569,11 @@ There are three possible pairs:
 
 **Discussion**
 
-The three beat frequencies produced are 0.3 Hz, 0.2 Hz, and 0.5 Hz. These are all quite slow beats (less than one beat per second), which would create a slow pulsing or wavering in the sound intensity. This is actually intentional in piano design! Piano tuners sometimes deliberately tune the multiple strings for a single note slightly differently to create a slow beating effect that gives the piano a warmer, richer tone called "stretch tuning" or to account for slight variations in string properties.
+The three beat frequencies produced are 0.3 Hz, 0.2 Hz, and 0.5 Hz. These are all quite slow beats (less than one beat per second), which would create a slow pulsing or wavering in the sound intensity. Slight detuning of the strings for one note can create this slow beating. Stretch tuning instead refers to adjusting intervals across the keyboard to account for string inharmonicity.
 
 Notice that the beat frequency between strings 1 and 3 (0.5 Hz) equals the sum of the other two beat frequencies (0.3 Hz + 0.2 Hz = 0.5 Hz). This is not a coincidence—it's because the three frequencies are in order, so the largest separation equals the sum of the two smaller separations.
 
-For reference, this note is close to C below middle C (C3), which has a frequency of 128 Hz on an evenly tempered scale. The slight variations indicate the strings are well-tuned but not perfectly matched.
+For reference, this note is close to C below middle C (C3), which has a frequency of about 130.8 Hz in equal temperament with A4 = 440 Hz. The slight variations indicate the strings are well-tuned but not perfectly matched.
 
 The final answer is: **The beat frequencies are 0.3 Hz, 0.2 Hz, and 0.5 Hz.**
 
@@ -631,11 +631,11 @@ This absolute value equation has two solutions:
 
 The two possible frequencies are 264.5 Hz and 263.5 Hz. Without additional information, we cannot determine which one is correct just by listening to the beats. The tuner would need to either:
 
-1. Slightly increase the string tension and observe whether the beat frequency increases or decreases. If the beats slow down (decrease in frequency), the string was initially at 264.5 Hz and is now getting closer to 264.0 Hz. If the beats speed up, the string was at 263.5 Hz and is moving further from the target.
+1. Slightly increase the string tension and observe whether the beat frequency increases or decreases. If the beats initially slow down, the string was at 263.5 Hz and is getting closer to 264.0 Hz. If the beats speed up, the string was at 264.5 Hz and is moving farther from the target.
 
 2. Use a different reference frequency to determine whether the string is sharp (too high) or flat (too low).
 
-This ambiguity is a fundamental limitation of the beat frequency method—it tells us how far out of tune we are, but not in which direction. The tuning fork frequency of 264.0 Hz corresponds to middle C (C4) on the evenly tempered scale, which is slightly different from the theoretical value used in some contexts (261.6 Hz for C4 at A4 = 440 Hz).
+This ambiguity is a fundamental limitation of the beat frequency method—it tells us how far out of tune we are, but not in which direction. The 264.0-Hz reference is close to middle C, whose frequency in equal temperament at A4 = 440 Hz is about 261.6 Hz.
 
 The final answer is: **The two possible frequencies of the string are 263.5 Hz and 264.5 Hz.**
 
@@ -886,47 +886,13 @@ What length should an oboe have to produce a fundamental frequency of 110 Hz on 
 
 ::: solution
 
-**Strategy**
+Using the specified open-tube frequency relation,
 
-An oboe, modeled as a tube open at both ends, has a fundamental frequency given by $$f_1 = \frac{v_w}{2L}$$. We are given the fundamental frequency and the speed of sound, so we can solve directly for the length $$L$$ by rearranging this equation.
+$$f_1=\frac{v}{2L},\qquad L=\frac{v}{2f_1}=\frac{343}{2(110)}=1.56\ \text{m}.$$
 
-**Solution**
-
-For a tube open at both ends, the fundamental frequency is:
-
-<div class="equation">
- $$f_1 = \frac{v_w}{2L}$$
-</div>
-
-Solving for the length $$L$$:
-
-<div class="equation">
- $$L = \frac{v_w}{2f_1}$$
-</div>
-
-Substituting the given values:
-
-<div class="equation">
- $$L = \frac{343\text{ m/s}}{2(110\text{ Hz})} = \frac{343\text{ m/s}}{220\text{ Hz}} = 1.56\text{ m}$$
-</div>
-
-**Discussion**
-
-The oboe must be 1.56 m (or 156 cm) long to produce a fundamental frequency of 110 Hz. This is notably longer than a typical oboe! A standard oboe is actually about 65 cm long, which would produce a fundamental frequency around 264 Hz—much higher than the 110 Hz specified in this problem.
-
-The frequency of 110 Hz corresponds to the musical note A2, which is quite low—two octaves below the standard tuning note A4 (440 Hz). This would be in the range of a bass instrument, not the soprano range where the oboe typically plays.
-
-This discrepancy highlights an important point: the simplified model of a tube open at both ends doesn't perfectly represent real instruments. Real oboes:
-1. Have a double reed that acts more like a closed end, making them behave somewhat like a tube closed at one end
-2. Have a conical bore (tapered tube) rather than a cylindrical bore, which affects the harmonic structure
-3. Produce their characteristic sound through a complex interaction of the reed vibration and air column resonance
-
-If we modeled the oboe as a tube closed at one end (which is actually more accurate), the required length would be $$L = v_w/(4f_1) = 343/(4 \times 110) = 0.780$$ m or 78 cm—still longer than a real oboe but more reasonable.
-
-Nonetheless, for the idealized open tube model given in the problem, the final answer is: **The oboe should be 1.56 m long.**
+This is the effective acoustic length required by the idealized model. A real oboe has a reed at its narrow end and a conical bore. Its resonance series resembles that of an open cylindrical tube; replacing it with a cylindrical tube closed at one end would give the wrong harmonic structure. See [UNSW's explanation of double-reed acoustics](https://phys.unsw.edu.au/jw/double-reed-acoustics.html).
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1317,70 +1283,21 @@ A crude approximation of voice production is to consider the breathing passages 
 
 ::: solution
 
-**Strategy**
+**(a)** Approximate the tract as a tube closed at one end. At 37.0 °C,
 
-The vocal tract can be approximated as a tube closed at one end (closed at the vocal cords, open at the mouth), with fundamental frequency $$f_1 = \frac{v_w}{4L}$$. For part (a), we calculate the speed of sound in air at body temperature. For part (b), we need to account for helium's different properties. The speed of sound in helium at a given temperature is approximately 2.96 times faster than in air due to helium's lower molecular mass.
+$$v_{\text{air}}=(331)\sqrt{310.15/273.15}=352.7\ \text{m/s},$$
 
-**Solution**
+$$f_{1,\text{air}}=\frac{v_{\text{air}}}{4L}=\frac{352.7}{4(0.240)}=367\ \text{Hz}.$$
 
-**(a) Fundamental frequency with air:**
+**(b)** Using the tabulated helium speed of 965 m/s at 0 °C and the same square-root temperature dependence,
 
-Convert temperature to Kelvin:
+$$v_{\text{He}}=(965)\sqrt{310.15/273.15}=1028\ \text{m/s},$$
 
-<div class="equation">
- $$T = 37.0°\text{C} + 273.15 = 310.15\text{ K} \approx 310\text{ K}$$
-</div>
+$$f_{1,\text{He}}=\frac{1028}{4(0.240)}=1.07\ \text{kHz}.$$
 
-Calculate speed of sound in air at 37.0 °C:
-
-<div class="equation">
- $$v_{w,\text{air}} = (331\text{ m/s})\sqrt{\frac{310\text{ K}}{273\text{ K}}} = (331\text{ m/s})(1.0656) = 353\text{ m/s}$$
-</div>
-
-Calculate the fundamental frequency:
-
-<div class="equation">
- $$f_{1,\text{air}} = \frac{v_{w,\text{air}}}{4L} = \frac{353\text{ m/s}}{4(0.240\text{ m})} = \frac{353\text{ m/s}}{0.960\text{ m}} = 368\text{ Hz} \approx 367\text{ Hz}$$
-</div>
-
-**(b) Fundamental frequency with helium:**
-
-The speed of sound in helium at the same temperature is approximately:
-
-<div class="equation">
- $$v_{w,\text{helium}} = 2.96 \times v_{w,\text{air}} = 2.96 \times 353\text{ m/s} = 1045\text{ m/s}$$
-</div>
-
-The fundamental frequency with helium:
-
-<div class="equation">
- $$f_{1,\text{helium}} = \frac{v_{w,\text{helium}}}{4L} = \frac{1045\text{ m/s}}{4(0.240\text{ m})} = \frac{1045\text{ m/s}}{0.960\text{ m}} = 1089\text{ Hz} \approx 1.09\text{ kHz}$$
-</div>
-
-Alternatively, we can use the ratio:
-
-<div class="equation">
- $$f_{1,\text{helium}} = 2.96 \times f_{1,\text{air}} = 2.96 \times 367\text{ Hz} = 1086\text{ Hz} \approx 1.07\text{ kHz}$$
-</div>
-
-**Discussion**
-
-With air, the fundamental frequency is 367 Hz, which is reasonably close to typical human speech frequencies. The fundamental frequency of the human voice typically ranges from about 85 Hz (bass male voice) to 255 Hz (soprano female voice), so 367 Hz is somewhat high but in a plausible range for certain vowel formants or a high-pitched voice.
-
-With helium, the fundamental frequency increases to approximately 1.07 kHz—nearly three times higher than with air. This is the famous "Donald Duck" or "chipmunk" effect! When people inhale helium and speak, their voices sound much higher-pitched because:
-
-1. Sound travels much faster in helium (about 3 times faster) due to helium's lower molecular mass (4 g/mol for He vs. 29 g/mol for air)
-2. The vocal tract length doesn't change, so $$f = v/(4L)$$ increases proportionally with sound speed
-3. All resonant frequencies shift upward by the same factor
-
-It's important to note that the vocal cords themselves vibrate at the same frequency regardless of the gas—what changes is the resonant frequencies of the vocal tract. The vocal tract acts as a filter, and its resonances (called formants in speech science) shift dramatically with helium, giving the characteristic high-pitched sound.
-
-This simplified model treats the vocal tract as a uniform tube, but real vocal tracts have varying cross-sections that create multiple resonances. Nevertheless, the basic physics of why helium raises pitch is correctly captured: higher sound speed leads to higher resonant frequencies for a fixed geometry.
-
-The final answers are: **(a) The fundamental frequency with air is 367 Hz. (b) The fundamental frequency with helium is 1.07 kHz.**
+These are resonances of the simplified vocal tract. Changing the gas shifts these resonances (formants), rather than directly multiplying the vocal-fold vibration frequency.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1500,108 +1417,21 @@ What frequencies will a 1.80-m-long tube produce in the audible range at  $$20.0
 
 ::: solution
 
-**Strategy**
+Use $$v=343\ \text{m/s}$$ and the conventional audible range 20–20,000 Hz. Retain unrounded fundamental frequencies when determining the last allowed harmonic.
 
-The audible range for humans is approximately 20 Hz to 20,000 Hz (20 kHz). For a tube closed at one end, resonant frequencies are $$f_n = n\frac{v_w}{4L}$$ where $$n = 1, 3, 5,...$$ (odd integers only). For a tube open at both ends, $$f_n = n\frac{v_w}{2L}$$ where $$n = 1, 2, 3,...$$ (all positive integers). We first calculate the speed of sound at 20.0°C, then determine which harmonics fall within the audible range.
+**(a)** For a tube closed at one end,
 
-**Solution**
+$$f_n=n\frac{v}{4L}=n\frac{343}{7.20}\ \text{Hz},\qquad n=1,3,5,\ldots,419.$$
 
-Convert temperature to Kelvin and calculate the speed of sound:
+There are **210** audible resonances, from 47.6 Hz through 19,961 Hz.
 
-<div class="equation">
- $$T = 20.0°\text{C} + 273.15 = 293.15\text{ K} \approx 293\text{ K}$$
-</div>
+**(b)** For a tube open at both ends,
 
-<div class="equation">
- $$v_w = (331\text{ m/s})\sqrt{\frac{293\text{ K}}{273\text{ K}}} = (331\text{ m/s})\sqrt{1.0733} = (331\text{ m/s})(1.0360) = 343\text{ m/s}$$
-</div>
+$$f_n=n\frac{v}{2L}=n\frac{343}{3.60}\ \text{Hz},\qquad n=1,2,3,\ldots,209.$$
 
-**(a) Tube closed at one end:**
-
-The resonant frequencies are:
-
-<div class="equation">
- $$f_n = n\frac{v_w}{4L} = n\frac{343\text{ m/s}}{4(1.80\text{ m})} = n\frac{343\text{ m/s}}{7.20\text{ m}} = n(47.6\text{ Hz})$$
-</div>
-
-where $$n = 1, 3, 5, 7, 9,...$$ (odd integers only).
-
-Find the maximum value of $$n$$:
-
-<div class="equation">
- $$n_{\text{max}} = \frac{20,000\text{ Hz}}{47.6\text{ Hz}} = 420.2$$
-</div>
-
-Since $$n$$ must be odd, the largest odd value is $$n = 419$$.
-
-Therefore, the frequencies are:
-<div class="equation">
- $$f_n = n(47.6\text{ Hz}), \quad n = 1, 3, 5, 7, ..., 419$$
-</div>
-
-The first few frequencies are:
-- $$n=1$$: $$f_1 = 47.6\text{ Hz}$$
-- $$n=3$$: $$f_3 = 143\text{ Hz}$$
-- $$n=5$$: $$f_5 = 238\text{ Hz}$$
-- $$n=7$$: $$f_7 = 333\text{ Hz}$$
-- ...
-- $$n=419$$: $$f_{419} = 19,944\text{ Hz} \approx 19.9\text{ kHz}$$
-
-**(b) Tube open at both ends:**
-
-The resonant frequencies are:
-
-<div class="equation">
- $$f_n = n\frac{v_w}{2L} = n\frac{343\text{ m/s}}{2(1.80\text{ m})} = n\frac{343\text{ m/s}}{3.60\text{ m}} = n(95.3\text{ Hz})$$
-</div>
-
-where $$n = 1, 2, 3, 4, 5,...$$ (all positive integers).
-
-Find the maximum value of $$n$$:
-
-<div class="equation">
- $$n_{\text{max}} = \frac{20,000\text{ Hz}}{95.3\text{ Hz}} = 209.9 \approx 210$$
-</div>
-
-Therefore, the frequencies are:
-<div class="equation">
- $$f_n = n(95.3\text{ Hz}), \quad n = 1, 2, 3, 4, ..., 210$$
-</div>
-
-The first few frequencies are:
-- $$n=1$$: $$f_1 = 95.3\text{ Hz}$$
-- $$n=2$$: $$f_2 = 191\text{ Hz}$$
-- $$n=3$$: $$f_3 = 286\text{ Hz}$$
-- $$n=4$$: $$f_4 = 381\text{ Hz}$$
-- ...
-- $$n=210$$: $$f_{210} = 20,013\text{ Hz} \approx 20.0\text{ kHz}$$
-
-**Discussion**
-
-This problem beautifully illustrates the key differences between tubes closed at one end and tubes open at both ends:
-
-**Closed tube (part a):**
-- Fundamental frequency: 47.6 Hz (quite low)
-- Only odd harmonics: 1st, 3rd, 5th, 7th, etc.
-- Total of 210 audible frequencies (since only odd n values: 1, 3, 5, ..., 419)
-- Harmonic spacing: 95.2 Hz (every other harmonic is missing)
-
-**Open tube (part b):**
-- Fundamental frequency: 95.3 Hz (exactly twice that of the closed tube)
-- All harmonics: 1st, 2nd, 3rd, 4th, etc.
-- Total of 210 audible frequencies
-- Harmonic spacing: 95.3 Hz (evenly spaced)
-
-The closed tube has the same number of resonances as the open tube even though it only has odd harmonics because its fundamental is half the frequency, allowing it to fit twice as many odd harmonics in the audible range.
-
-Both tubes produce rich harmonic spectra suitable for musical applications. The fundamental of 47.6 Hz for the closed tube is close to G1 (49 Hz), while the open tube's fundamental of 95.3 Hz is close to G2 (98 Hz). A 1.80-m tube is quite long—typical for bass organ pipes or similar low-frequency instruments.
-
-The difference in timbre between these two configurations would be dramatic: the closed tube would have a "hollow" sound (lacking even harmonics), while the open tube would have a fuller, richer sound with both even and odd harmonics present.
-
-The final answers are: **(a) $$f_n = n(47.6\text{ Hz})$$ where $$n = 1, 3, 5, ..., 419$$ (odd integers). (b) $$f_n = n(95.3\text{ Hz})$$ where $$n = 1, 2, 3, ..., 210$$ (all integers).**
+There are **209** audible resonances, from 95.3 Hz through 19,913 Hz. The 210th is 20,008 Hz and exceeds 20 kHz. A harmonic index must be rounded down to the allowed integer, rather than to the nearest integer.
 
 :::
-
 </div>
 
 ::: glossary

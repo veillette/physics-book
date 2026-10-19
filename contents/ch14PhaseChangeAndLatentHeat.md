@@ -1152,7 +1152,7 @@ The energy released is approximately $$7.1 \times 10^{13}$$ joules, which is eno
 - This equals about **70.8 trillion joules** or **70,800 gigajoules**
 - Converting to kilowatt-hours: $$7.08 \times 10^{13} \text{ J} / (3.6 \times 10^6 \text{ J/kWh}) = 1.97 \times 10^7 \text{ kWh}$$ or about **20 million kWh**
 - This could power a typical home (using 30 kWh/day) for about 650,000 days or **1,800 years**!
-- It's equivalent to detonating about **17 tons of TNT** (1 ton TNT ≈ 4.2 × 10⁹ J)
+- It's equivalent to detonating about **17 kilotons of TNT** (1 ton TNT ≈ 4.2 × 10⁹ J)
 
 This demonstrates why thunderstorms are such powerful weather phenomena. The energy released through condensation:
 1. **Drives updrafts**: Rising warm, moist air provides the engine for storm development

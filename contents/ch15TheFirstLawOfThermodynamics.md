@@ -916,13 +916,13 @@ Converting to minutes:
 
 **Discussion**
 
-Part (a): The energy in a single cup of yogurt (350 dietary Calories) will sustain about 33 minutes of vigorous stair climbing. This might seem like a reasonable duration, but consider the effort level—leisurely stair climbing at 150 W work output is actually quite demanding exercise. For context, this is roughly equivalent to climbing 15-20 flights of stairs.
+Part (a): The energy in a single cup of yogurt (350 dietary Calories) will sustain about 33 minutes of vigorous stair climbing. This might seem like a reasonable duration, but consider the effort level—leisurely stair climbing at 150 W work output is actually quite demanding exercise. For context, this is roughly equivalent to climbing about 170 flights of stairs, each 3 m high, for a 60-kg person.
 
 Part (b): This calculation illustrates a fundamental challenge in weight management: the asymmetry between energy intake and expenditure. The yogurt is consumed in perhaps 2-3 minutes, but requires 33 minutes of sustained, moderately vigorous exercise to burn off. Moreover, this assumes the exercise is the *only* energy expenditure beyond basal metabolism.
 
 Consider further implications:
 - At 20% efficiency with 150 W work output, 80% (600 W) becomes heat—this is why stair climbing makes you hot and sweaty
-- A typical meal might contain 2,000-3,000 kJ, requiring 2-3 hours of continuous stair climbing to burn off
+- A typical meal might contain 2,000-3,000 kJ, requiring about 44–67 minutes at the stated metabolic rate to burn off
 - Many people cannot sustain 150 W of work output for 33 minutes
 - Basal metabolism (60-80 W) is much lower than exercise metabolism (750 W total here)
 

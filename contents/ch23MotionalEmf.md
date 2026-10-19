@@ -414,7 +414,7 @@ $$ B=\frac{\text{emf}}{\ell v}=\frac{95.0 \text{ V}}{(0.120 \text{ m})(4.00 \tex
 
 **Discussion**
 
-This is an extremely strong magnetic field—about 4 million times stronger than Earth's field and much stronger than typical laboratory electromagnets (usually 1-2 T). Such fields are only achievable with superconducting magnets or pulsed magnetic field facilities. This demonstrates that generating substantial voltage with a small, slow-moving conductor requires an extraordinarily strong field.
+This is an extremely strong magnetic field—about 4 million times stronger than Earth's field and much stronger than typical laboratory electromagnets (usually 1-2 T). A field of 198 T exceeds continuous laboratory magnet capabilities and requires specialized pulsed-field techniques. This demonstrates that generating substantial voltage with a small, slow-moving conductor requires an extraordinarily strong field.
 
 **Final Answer**
 

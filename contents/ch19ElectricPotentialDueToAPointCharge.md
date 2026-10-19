@@ -468,49 +468,21 @@ A research Van de Graaff generator has a 2.00-m-diameter metal sphere with a cha
 
 ::: solution
 
-**Strategy**
+**(a)** The sphere has radius $$R=1.00\ \text{m}$$, so
 
-Use $$V = kQ/r$$ for a spherical charge distribution. The potential at the surface uses the sphere's radius. For part (b), solve for $$r$$ at the specified potential. For part (c), the ion with charge $$+3e$$ gains energy equal to $$3eV$$ as it moves from 1.00 MV to ground.
+$$V_s=\frac{kQ}{R}=\frac{(8.99\times10^9)(5.00\times10^{-3})}{1.00}=4.50\times10^7\ \text{V}=45.0\ \text{MV}.$$
 
-**Solution**
+**(b)**
 
-*Known quantities:*
-- Diameter: $$d = 2.00 \text{ m}$$, so radius $$R = 1.00 \text{ m}$$
-- Charge: $$Q = 5.00 \text{ mC} = 5.00 \times 10^{-3} \text{ C}$$
-- Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
+$$r=\frac{kQ}{V}=\frac{(8.99\times10^9)(5.00\times10^{-3})}{1.00\times10^6}=45.0\ \text{m}.$$
 
-**(a) Potential at the surface:**
+**(c)** Released from rest near the surface, the $$\mathrm{O}^{3+}$$ ion gains kinetic energy as its electric potential energy decreases:
 
-$$V = \frac{kQ}{R} = \frac{(8.99 \times 10^{9})(5.00 \times 10^{-3})}{1.00} = 4.50 \times 10^{7} \text{ V} = 45.0 \text{ MV}$$
+$$K=q(V_s-V_f)=3e(45.0-1.00)\ \text{MV}=132\ \text{MeV}.$$
 
-**(b) Distance for 1.00 MV potential:**
-
-$$r = \frac{kQ}{V} = \frac{(8.99 \times 10^{9})(5.00 \times 10^{-3})}{1.00 \times 10^{6}} = 45.0 \text{ m}$$
-
-**(c) Energy of O³⁺ ion at 1.00 MV:**
-
-An oxygen atom missing 3 electrons has charge $$q = +3e$$. If released near the surface (at 45.0 MV) and reaches the 1.00 MV distance:
-
-$$\text{Energy} = q \Delta V = 3e \times (45.0 - 1.00) \text{ MV} = 3e \times 44.0 \text{ MV}$$
-
-$$\text{Energy} = 132 \text{ MeV}$$
-
-If released at 1.00 MV and accelerated to ground (0 V):
-
-$$\text{Energy} = 3e \times 1.00 \text{ MV} = 3.00 \text{ MeV}$$
-
-**Discussion**
-
-The 45 MV surface potential is extremely high—research Van de Graaff generators can achieve such potentials. The triply ionized oxygen gains 3 eV per volt of potential difference, so at 1 MV it would have 3 MeV of kinetic energy. Such devices are used in nuclear physics research to accelerate ions to high energies.
-
-**(a) The potential at the surface is 45.0 MV.**
-
-**(b) The potential is 1.00 MV at a distance of 45.0 m from the center.**
-
-**(c) The O³⁺ ion has 3.00 MeV of energy at this distance (relative to ground).**
+The relevant potential difference is between its release point and the specified final distance.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -707,7 +679,7 @@ For electrons accelerated through 25 MV, the kinetic energy (25 MeV) is about 50
 - The kinetic energy formula becomes $$KE = (\gamma - 1)m_0c^2$$
 - The actual speed approaches but never reaches $$c$$
 
-Using relativity, the electron's speed would be approximately $$0.9999c$$—very close to light speed, but never exceeding it.
+Using relativity, the electron's speed would be approximately $$0.9998c$$—very close to light speed, but never exceeding it.
 
 **Discussion**
 

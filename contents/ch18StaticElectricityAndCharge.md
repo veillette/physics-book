@@ -278,7 +278,7 @@ Why do most objects tend to contain nearly equal numbers of positive and negativ
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -317,7 +317,7 @@ Part (b): About 3.13 trillion electrons must be removed to leave a net charge of
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -348,7 +348,7 @@ The charge that moved through the calculator during a full day's operation is âˆ
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -379,7 +379,7 @@ The car battery moved âˆ’600 C of charge through the starter motor. This is a ve
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 

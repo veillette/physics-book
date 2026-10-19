@@ -628,34 +628,13 @@ A diver on a diving board is undergoing simple harmonic motion. Her mass is 55.0
 
 ::: solution
 
-**Strategy**
+The same board has the same effective force constant for both divers. Since $$T=2\pi\sqrt{m/k}$$,
 
-Since both divers use the same diving board, the spring constant $$k$$ is the same for both. We can use the first diver's data to find $$k$$, then use it with the second diver's period to find his mass.
+$$\frac{m_2}{m_1}=\left(\frac{T_2}{T_1}\right)^2,\qquad m_2=(55.0)\left(\frac{1.05}{0.800}\right)^2=94.746\ \text{kg}\approx94.7\ \text{kg}.$$
 
-**Solution**
-
-From the female diver's data, find the spring constant:
-
-<div class="equation">
- $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(55.0)}{(0.800)^2} = \frac{2168}{0.640} = 3387 \text{ N/m}$$
-</div>
-
-Now use this spring constant with the male diver's period:
-
-<div class="equation">
- $$m_2 = \frac{kT_{2}^2}{4\pi^{2}} = \frac{(3387)(1.05)^2}{4\pi^{2}} = \frac{3734}{39.48} = 94.6 \text{ kg}$$
-</div>
-
-**Discussion**
-
-The male diver's mass of 94.6 kg is significantly larger than the female diver's 55.0 kg, which explains his longer period of oscillation (1.05 s vs. 0.800 s). The ratio of periods is 1.05/0.800 = 1.31, and since period is proportional to $$\sqrt{m}$$, the ratio of masses should be $$(1.31)^2 = 1.72$$. Indeed, 94.6/55.0 = 1.72, confirming our calculation. A heavier person causes the diving board to oscillate more slowly.
-
-**Answer**
-
-94.7 kg
+The longer period corresponds to the larger mass. Taking the ratio avoids rounding an intermediate spring constant.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

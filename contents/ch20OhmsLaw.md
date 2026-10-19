@@ -304,7 +304,7 @@ $$R = \frac{V}{I} = \frac{11.0 \text{ V}}{150 \text{ A}} = 7.33 \times 10^{-2} \
 
 **Discussion**
 
-The extremely low resistance of 73.3 mΩ (0.0733 Ω) is necessary for the starter motor to draw the high current needed to turn over the engine against compression and friction. The battery voltage drops from its nominal 12 V to 11.0 V under this heavy load due to the battery's internal resistance. This massive current drain is why car batteries must have very low internal resistance and why leaving your headlights on can drain the battery—a starter motor draws more current in a few seconds than headlights draw in hours.
+The extremely low resistance of 73.3 mΩ (0.0733 Ω) is necessary for the starter motor to draw the high current needed to turn over the engine against compression and friction. The battery voltage drops from its nominal 12 V to 11.0 V under this heavy load due to the battery's internal resistance. This massive current drain is why car batteries must have very low internal resistance and why leaving your headlights on can drain the battery—the starter draws a large current briefly, while headlights can transfer more total charge over hours because charge is the time integral of current.
 
 The effective resistance of the car's starter motor is $$7.33 \times 10^{-2}$$ Ω (73.3 mΩ).
 

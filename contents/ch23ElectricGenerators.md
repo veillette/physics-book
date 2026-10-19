@@ -873,7 +873,7 @@ This is over 18 million rpm! For comparison:
 - High-speed turbines operate at ~30,000 rpm
 - Jet engine turbines reach ~50,000 rpm
 - Even ultracentrifuges only reach ~150,000 rpm
-- At the rim of a 0.5 m diameter coil, the linear velocity would be $$v = r\omega = (0.25)(1.92 \times 10^{6}) = 4.8 \times 10^{5}$$ m/s, which exceeds the speed of light divided by 600!
+- At the rim of a 0.5 m diameter coil, the linear velocity would be $$v = r\omega = (0.25)(1.92 \times 10^{6}) = 4.8 \times 10^{5}$$ m/s, which is below the speed of light divided by 600, but far beyond the mechanical limits of the coil!
 
 This is far beyond what any mechanical system can achieve without disintegrating due to centrifugal forces.
 
@@ -887,7 +887,7 @@ This problem illustrates why practical generators use strong artificial magnetic
 
 **Answer**
 
-(a) 1.92 × 10⁶ rad/s; (b) This is unreasonably high - over 18 million rpm, which would destroy any mechanical system and give rim speeds approaching the speed of light; (c) The assumption that 12.0 kV can be obtained from Earth's weak magnetic field is unreasonable.
+(a) 1.92 × 10⁶ rad/s; (b) This is unreasonably high - over 18 million rpm, which would destroy any mechanical system and give destructive rim speeds of hundreds of kilometers per second; (c) The assumption that 12.0 kV can be obtained from Earth's weak magnetic field is unreasonable.
 
 :::
 

@@ -410,6 +410,8 @@ person it touches.
 Calculating Resistance: Hot-Filament Resistance
 </div>
 
+<span id="HotFilamentResistance"></span>
+
 Although caution must be used in applying  $$\rho ={\rho }_{0}\left(1+\alpha \Delta T\right) $$
  and  $$R={R}_{0}\left(1+\alpha \Delta T\right) $$
  for temperature changes greater than  $$100 \text{ºC} $$ ,
@@ -607,32 +609,17 @@ If the 0.100-mm diameter tungsten filament in a light bulb is to have a resistan
 
 ::: solution
 
-**Strategy**
+The wire area is
 
-Rearrange the resistance formula $$R = \frac{\rho L}{A}$$ to solve for length: $$L = \frac{RA}{\rho}$$. Use the resistivity of tungsten from [[Table 1]](#Table1).
+$$A=\pi(d/2)^2=\pi(5.00\times10^{-5})^2=7.85\times10^{-9}\ \text{m}^2.$$
 
-**Solution**
+With tungsten resistivity $$\rho=5.6\times10^{-8}\ \Omega\cdot\text{m}$$,
 
-Calculate the cross-sectional area:
+$$L=\frac{RA}{\rho}=\frac{(0.200)(7.85\times10^{-9})}{5.6\times10^{-8}}=0.0281\ \text{m}=2.81\ \text{cm}.$$
 
-<div class="equation">
-$$A = \pi r^{2} = \pi \left(\frac{0.100 \times 10^{-3} \text{ m}}{2}\right)^{2} = \pi (5.00 \times 10^{-5} \text{ m})^{2} = 7.85 \times 10^{-9} \text{ m}^{2}$$
-</div>
-
-Solve for length using $$\rho_{\text{tungsten}} = 5.6 \times 10^{-8} \text{ Ω}\cdot\text{m}$$:
-
-<div class="equation">
-$$L = \frac{RA}{\rho} = \frac{(0.200 \text{ Ω})(7.85 \times 10^{-9} \text{ m}^{2})}{5.6 \times 10^{-8} \text{ Ω}\cdot\text{m}} = 2.81 \text{ m}$$
-</div>
-
-**Discussion**
-
-A filament length of 2.81 m seems long for a small light bulb, but this wire is extremely thin (0.1 mm diameter). The filament is coiled tightly, often in a double-coil configuration (a coil of a coil), to fit within the small bulb envelope. This coiling also helps retain heat and increases efficiency. The 0.200 Ω cold resistance will increase significantly when the filament heats to its operating temperature of around 2500-3000 °C.
-
-The tungsten filament should be 2.81 m long.
+This is the required wire length at 20.0 °C.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1147,7 +1134,7 @@ The resistances are equal at -17 °C.
 
 (a) Digital medical thermometers determine temperature by measuring the resistance of a semiconductor device called a thermistor (which has  $$\alpha = - 0.0600/\text{ºC} $$ )
 when it is at the same temperature as the patient. What is a patient's temperature if the thermistor's resistance at that temperature is 82.0% of its value at  $$ 37.0\text{ºC} $$
- (normal body temperature)? (b) The negative value for  $$\alpha  $$ may not be maintained for very low temperatures. Discuss why and whether this is the case here. (Hint: Resistance can't become negative.)
+ (normal body temperature)? (b) The negative value for  $$\alpha  $$ cannot be used as a constant in the linear resistance model at arbitrarily high temperatures. Discuss why and whether this is the case here. (Hint: Resistance can't become negative.)
 
 :::
 
@@ -1189,7 +1176,7 @@ $$T = 37.0 \text{ ºC} + 3.00 \text{ ºC} = 40.0 \text{ ºC}$$
 $$\Delta T = \frac{-1}{\alpha} = \frac{-1}{-0.0600} = 16.7 \text{ ºC}$$
 </div>
 
-This corresponds to $$T = 37.0 + 16.7 = 53.7$$ ºC above the reference, meaning at about 53.7 °C the model would predict zero resistance, and below that temperature (going to even higher temperatures) negative resistance—which is physically impossible. However, in part (a), we found the patient is at 40.0 °C, which is only 3 °C above 37 °C—well within the valid range of the linear model. For the expected range of human body temperatures (roughly 35-42 °C), the linear approximation is acceptable.
+This corresponds to $$T = 37.0 + 16.7 = 53.7$$ ºC, meaning at about 53.7 °C the model would predict zero resistance, and above that temperature negative resistance—which is physically impossible. However, in part (a), we found the patient is at 40.0 °C, which is only 3 °C above 37 °C—well within the valid range of the linear model. For the expected range of human body temperatures (roughly 35-42 °C), the linear approximation is acceptable.
 
 **Discussion**
 
@@ -1207,73 +1194,29 @@ A temperature of 40.0 °C (104 °F) indicates a significant fever and would warr
 
 **Integrated Concepts**
 
-(a) Redo [[Exercise 2]](#Exercise2) taking into account the thermal expansion of
-the tungsten filament. You may assume a thermal expansion coefficient of $$12 \times 10^{-6} /\text{ºC} $$ .
-(b) By what percentage does your answer differ from that in the example?
+(a) Redo the [hot-filament resistance example](#HotFilamentResistance), including thermal expansion of the tungsten filament. The example uses 0.350 Ω at 20 °C and a final temperature of 2850 °C. Assume a linear expansion coefficient of $$12\times10^{-6}\ {}^\circ\text{C}^{-1}$$. (b) By what percentage does your answer differ from the example's prediction?
 
 :::
 
 ::: solution
 
-**Strategy**
+**(a)** The hot-filament example uses $$R_0=0.350\ \Omega$$ at 20 °C and $$\Delta T=2830\ {}^\circ\text{C}$$. Without geometric expansion, its unrounded prediction is
 
-Thermal expansion affects resistance in two ways: (1) the length increases by factor $$(1 + \alpha \Delta T)$$, and (2) the cross-sectional area decreases because the diameter increases by the same factor, making $$A' = A(1 + \alpha \Delta T)^{-2}$$. The resistance formula becomes $$R' = \frac{\rho' L'}{A'}$$, where both the geometry and resistivity change with temperature. For this problem, we consider thermal expansion effects on the tungsten wire dimensions.
+$$R_{\text{hot}}=0.350[1+(4.5\times10^{-3})(2830)]=4.80725\ \Omega.$$
 
-**Solution**
+Let the linear expansion factor be $$s=1+\alpha_L\Delta T=1+(12\times10^{-6})(2830)=1.03396$$. Isotropic expansion gives $$L'=sL$$ and $$A'=s^2A$$, so, retaining the same hot resistivity,
 
-**(a)** When a wire undergoes thermal expansion with coefficient $$\alpha = 12 \times 10^{-6} \text{ /ºC}$$:
+$$R'=\frac{\rho_{\text{hot}}sL}{s^2A}=\frac{R_{\text{hot}}}{s}=4.65\ \Omega.$$
 
-The new length is:
-<div class="equation">
- $$L' = L(1 + \alpha \Delta T)$$
-</div>
+Using the example's rounded 4.8 Ω instead gives 4.64 Ω. The geometric correction is the same in either case.
 
-The new diameter is:
-<div class="equation">
- $$D' = D(1 + \alpha \Delta T)$$
-</div>
+**(b)**
 
-The new area is:
-<div class="equation">
- $$A' = \pi (D'/2)^{2} = A(1 + \alpha \Delta T)^{2}$$
-</div>
+$$\frac{R_{\text{hot}}-R'}{R_{\text{hot}}}\times100\%=\left(1-\frac1{1.03396}\right)100\%=3.28\%.$$
 
-For resistance (assuming constant resistivity for this calculation):
-<div class="equation">
- $$R' = \frac{\rho L'}{A'} = \frac{\rho L(1 + \alpha \Delta T)}{A(1 + \alpha \Delta T)^{2}} = \frac{\rho L}{A} \cdot \frac{1}{(1 + \alpha \Delta T)}$$
-</div>
-
-<div class="equation">
- $$R' = \frac{R}{(1 + \alpha \Delta T)}$$
-</div>
-
-For a typical operating temperature increase in a tungsten filament ($$\Delta T \approx 2500 \text{ ºC}$$):
-<div class="equation">
- $$1 + \alpha \Delta T = 1 + (12 \times 10^{-6})(2500) = 1 + 0.030 = 1.030$$
-</div>
-
-If the room temperature resistance was 4.84 Ω (hypothetical reference value):
-<div class="equation">
- $$R' = \frac{4.84}{1.030} = 4.70 \text{ Ω} \approx 4.7 \text{ Ω}$$
-</div>
-
-**(b)** The percentage difference is:
-<div class="equation">
- $$\frac{4.84 - 4.70}{4.84} \times 100\% = \frac{0.14}{4.84} \times 100\% = 2.9\% \approx 3.0\%$$
-</div>
-
-**Discussion**
-
-Part (a): Thermal expansion causes the wire to become longer and thinner, with competing effects on resistance. The length increase tends to increase resistance ($$R \propto L$$), while the area increase tends to decrease it ($$R \propto 1/A$$). However, area depends on diameter squared, so $$A \propto D^2 \propto (1 + \alpha \Delta T)^2$$, which means the area effect dominates, leading to a net decrease in resistance due to thermal expansion alone.
-
-This 3% decrease might seem counterintuitive since we know tungsten filaments have much higher resistance when hot. However, this problem isolates only the geometric thermal expansion effect. In reality, the resistivity of tungsten increases dramatically with temperature (by a factor of 15-20), which completely overwhelms this small geometric decrease, resulting in the observed high hot resistance of filaments.
-
-Part (b): The 3.0% decrease is relatively small, confirming that thermal expansion has a modest effect on resistance compared to the temperature coefficient of resistivity. For precision applications, both effects must be considered, but in most cases, the resistivity change dominates.
-
-**Answer: (a) 4.7 Ω, (b) 3.0% decrease due to thermal expansion**
+Expansion makes the wire longer and thicker. The area increase outweighs the length increase, reducing resistance by about **3.3%** relative to the calculation that ignores expansion.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

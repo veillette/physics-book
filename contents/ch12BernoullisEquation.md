@@ -620,7 +620,7 @@ For a roof area of 100 m² and wind speed of 50 m/s, the pressure difference can
 
 **Buildings exploding outward during tornadoes:**
 Tornadoes create an extreme low-pressure zone. When a tornado passes directly over a building:
-- The pressure outside drops dramatically (can be 10-20% lower than normal)
+- The pressure outside can drop below the interior pressure, with the size of the drop depending on the storm
 - The pressure inside the sealed building remains near normal atmospheric pressure
 
 This pressure difference pushes outward on all walls and the roof simultaneously, potentially causing the building to appear to "explode" outward.

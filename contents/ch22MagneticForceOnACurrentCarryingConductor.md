@@ -218,26 +218,15 @@ What is the direction of a current that experiences the magnetic force shown in 
 
 ::: solution
 
-**Strategy**
+Use $$\boldsymbol F=I\boldsymbol L\times\boldsymbol B$$, with right, up, and out of the page taken as $$+x,+y,+z$$.
 
-We work backwards using RHR-1. Given $$\vb{F}$$ and $$\vb{B}$$, we find $$\vb{I}$$. With fingers pointing along $$\vb{B}$$ and palm facing the direction of $$\vb{F}$$, the thumb points in the direction of current.
+**(a)** The current points **west (left)**: $$(-\hat x)\times\hat z=+\hat y$$, the upward force.
 
-**Solution**
+**(b)** The current points **out of the page**: $$\hat z\times\hat x=\hat y$$.
 
-**(a)** Force $$\vb{F}$$ points up, $$\vb{B}$$ points out of page. Using RHR-1 in reverse: fingers out of page, palm facing up → thumb points **east (right)**.
-
-**(b)** Force $$\vb{F}$$ points up, $$\vb{B}$$ points right. Using RHR-1 in reverse: fingers right, palm facing up → thumb points **out of the page**.
-
-**(c)** Force $$\vb{F}$$ points left, $$\vb{B}$$ points into page. Using RHR-1 in reverse: fingers into page, palm facing left → thumb points **south (down)**.
-
-**Discussion**
-
-This inverse problem-solving technique is useful for designing electromagnetic devices. For instance, in an electric motor, you know the field direction and desired force direction, so you need to determine how to orient the current-carrying windings.
-
-**(a) East (right); (b) Out of the page; (c) South (down).**
+**(c)** The current points **north (up)**: $$\hat y\times(-\hat z)=-\hat x$$, the leftward force.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -591,45 +580,13 @@ The force on the rectangular loop of wire in the magnetic field in [[Figure 8]](
 
 ::: solution
 
-**Strategy**
+**(a)** The bottom segment carries current rightward through a field out of the page. Since $$\hat x\times\hat z=-\hat y$$, its force is **downward**, out of the field region.
 
-We analyze the forces on each segment of the loop separately using RHR-1. The net force comes only from the bottom segment in the field. The force per tesla is $$F/B = IL$$.
+The left side carries downward current and feels a leftward force; the right side carries upward current and feels a rightward force. In the illustrated symmetric placement, equal lengths of these sides are immersed in the same uniform field, so their forces cancel as the loop is lowered or raised without tilting. The bottom segment supplies the net force.
 
-**Solution**
+**(b)**
 
-**(a) Direction and force analysis:**
-
-Looking at the figure:
-- **Bottom segment:** Current flows right, $$\vb{B}$$ is out of page. Using RHR-1: thumb right, fingers out → force is **upward** (into the field region).
-
-- **Left side segment:** Current flows down. Where this segment is in the field, $$\vb{B}$$ is out of page. Force is to the **left**.
-
-- **Right side segment:** Current flows up. Where this segment is in the field, $$\vb{B}$$ is out of page. Force is to the **right**.
-
-The left and right side forces are **equal and opposite** because:
-1. Both segments carry the same current $$I$$
-2. They experience the same field $$B$$ (uniform field)
-3. The portions inside the field have equal lengths (whatever fraction is inside)
-4. The currents flow in opposite directions (down vs. up)
-
-Therefore, these horizontal forces cancel regardless of how much of the loop is in the field. The only unbalanced force is from the bottom segment—the **net force is upward** (into the field region).
-
-**(b) Force per tesla:**
-
-For the bottom segment (width $$L = 20.0$$ cm = 0.200 m):
-
-$$\frac{F}{B} = IL$$
-
-$$\frac{F}{B} = (5.00 \text{ A})(0.200 \text{ m}) = 1.00 \text{ N/T}$$
-
-**Discussion**
-
-This configuration is the basis of a current balance, used historically to define the ampere. By measuring the force and knowing the current and dimensions, the field strength can be determined. Alternatively, with a known field, the current can be measured. The key insight is that only the segment perpendicular to its own direction and in the field contributes to the net force.
-
-**(a) The net force on the loop is directed upward (into the field region). The forces on the left and right sides are equal and opposite because they carry equal currents in opposite directions through equal lengths of the same uniform field, so they cancel and do not contribute to the net force.**
-
-**(b) The force per tesla on the loop is 1.00 N/T.**
+$$\frac FB=IL=(5.00)(0.200)=1.00\ \text{N/T}.$$
 
 :::
-
 </div>

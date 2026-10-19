@@ -51,7 +51,7 @@ $${N}_{\text{R}} $$ above about 3000, flow is turbulent. For values of $${N}_{\t
 laminar, but small obstructions and surface roughness can make it turbulent, and
 it may oscillate randomly between being laminar and turbulent. The blood flow
 through most of the body is a quiet, laminar flow. The exception is in the
-aorta, where the speed of the blood flow rises above a critical value of 35 m/s
+aorta, where the speed of the blood flow rises above a critical value of 0.35 m/s
 and becomes turbulent.
 
 ::: example
@@ -594,7 +594,7 @@ The greatest average speed for laminar flow is **1.02 m/s**, with a correspondin
 
 **Discussion**
 
-This maximum laminar velocity of about 1 m/s is consistent with known blood flow speeds in major arteries. In the aorta, blood velocities can exceed this during systole (heart contraction), which is why turbulence occasionally occurs there. The critical velocity of 35 m/s mentioned in the text for the aorta corresponds to a much larger diameter vessel. For this 4-mm diameter artery, the 1 m/s limit is clinically relevant—arterial constrictions that increase local velocity above this threshold can cause turbulence, which is detectable as a "bruit" (abnormal sound) with a stethoscope.
+This maximum laminar velocity of about 1 m/s is consistent with known blood flow speeds in major arteries. In the aorta, blood velocities can exceed this during systole (heart contraction), which is why turbulence occasionally occurs there. For the section's aorta problem, the Reynolds-number criterion gives a critical speed of 0.244 m/s, lower because the vessel has a larger diameter. For this 4-mm diameter artery, the 1 m/s limit is clinically relevant—arterial constrictions that increase local velocity above this threshold can cause turbulence, which is detectable as a "bruit" (abnormal sound) with a stethoscope.
 
 :::
 
@@ -848,7 +848,7 @@ $${N}_{\text{R}} = \frac{5304}{1.005 \times 10^{-3}} = 5.28 \times 10^{6}$$
 
 **Discussion**
 
-The Reynolds number of over 5 million confirms that using Poiseuille's law (which assumes laminar flow) is completely invalid here. The flow would be extremely turbulent, requiring even higher pressures than calculated. Additionally, the water velocity of 442 m/s (nearly 1000 mph!) is supersonic—faster than the speed of sound in air and approaching it in water. This absurd velocity confirms that the problem's premises are physically unreasonable. This type of "unreasonable results" problem teaches critical thinking: when calculations yield extreme values, always question the initial assumptions.
+The Reynolds number of over 5 million confirms that using Poiseuille's law (which assumes laminar flow) is completely invalid here. The flow would be extremely turbulent, requiring even higher pressures than calculated. Additionally, the water velocity of 442 m/s (nearly 1000 mph!) is supersonic—faster than sound in air, but only about 30% of the speed of sound in water. This absurd velocity confirms that the problem's premises are physically unreasonable. This type of "unreasonable results" problem teaches critical thinking: when calculations yield extreme values, always question the initial assumptions.
 
 :::
 

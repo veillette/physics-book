@@ -377,7 +377,7 @@ $$\text{Ratio} = \frac{956 \text{ MW}}{680 \text{ MW}} = 1.41 \approx 1.4$$
 
 **Discussion**
 
-The power in the water flow is **(a) 9.56 × 10⁸ W (956 MW)**, and the ratio to the facility's average output is **(b) 1.4**. The fact that the ratio exceeds 1 indicates energy losses in the system—about 29% of the available power is lost to turbine inefficiency, friction, generator losses, and other factors. This ~70% efficiency is typical for large hydroelectric facilities.
+The power in the water flow is **(a) 9.56 × 10⁸ W (956 MW)**, and the ratio to the facility's average output is **(b) 1.4**. The fact that the ratio exceeds 1 indicates energy losses in the system—about 29% of the available power is lost to turbine inefficiency, friction, generator losses, and other factors. The implied efficiency applies to these supplied data; it is lower than that of a well-performing large hydroelectric installation.
 
 :::
 
@@ -465,7 +465,7 @@ $$P_{total} = P_1 + P_2 + P_3 = 1.21 + 0.004 + 0.043 = 1.26 \text{ W}$$
 
 **Discussion**
 
-The total power output of the left ventricle is approximately **1.26 W**. As noted, most of this power (about 96%) goes to increasing blood pressure. The kinetic and potential energy contributions are relatively small. This is about 1/5 of the total heart power output (both ventricles), and the heart operates continuously for a lifetime—a remarkable feat of engineering!
+The total power output of the left ventricle is approximately **1.26 W**. As noted, most of this power (about 96%) goes to increasing blood pressure. The kinetic and potential energy contributions are relatively small. The left ventricle supplies most of the mechanical output of both ventricles, roughly five-sixths, because the right ventricle pumps the same flow through a much smaller pressure rise.
 
 :::
 

@@ -524,7 +524,7 @@ The hawk is moving toward the mouse, so we apply the formula with the minus sign
 
 **Discussion**
 
-The mouse perceives a frequency about 8.2% higher than the hawk actually emits. This frequency shift of 290 Hz is readily audible and represents a shift of about 4 musical semitones. From an evolutionary perspective, many prey animals have developed acute hearing to detect approaching predators through such Doppler shifts—the rising pitch of a predator's call provides crucial information about whether the predator is approaching. The relatively modest speed of the hawk (25.0 m/s, or about 90 km/h) compared to the speed of sound (331 m/s) means the Doppler shift is noticeable but not extreme. The perceived frequency of 3790 Hz is well within the hearing range of most small mammals, which typically extends to much higher frequencies than human hearing.
+The mouse perceives a frequency about 8.2% higher than the hawk actually emits. This frequency shift of 290 Hz is readily audible and represents a shift of about 1.4 musical semitones. From an evolutionary perspective, many prey animals have developed acute hearing to detect approaching predators through such Doppler shifts—the rising pitch of a predator's call provides crucial information about whether the predator is approaching. The relatively modest speed of the hawk (25.0 m/s, or about 90 km/h) compared to the speed of sound (331 m/s) means the Doppler shift is noticeable but not extreme. The perceived frequency of 3790 Hz is well within the hearing range of most small mammals, which typically extends to much higher frequencies than human hearing.
 
 :::
 
@@ -592,7 +592,7 @@ Solve for $${v}_{s}$$:
 
 **Discussion**
 
-The trumpeter is moving at approximately 3.0 m/s (about 11 km/h or 7 mph), which is a reasonable walking/marching speed for a parade. The frequency shift is only 8 Hz (about 0.9%), which is quite small but still noticeable to a trained ear—musicians can typically detect pitch differences of about 0.5% or less. This small shift corresponds to the modest speed of the source relative to the speed of sound. The calculation demonstrates an important application of the Doppler effect: if we can measure the frequency shift, we can determine the speed of the source. This principle is used in radar guns (for measuring vehicle speeds), Doppler weather radar (for measuring wind speeds), and medical ultrasound (for measuring blood flow velocity).
+The trumpeter is moving at approximately 3.0 m/s (about 11 km/h or 7 mph), which is closer to a jogging speed than to an ordinary parade marching pace. The frequency shift is only 8 Hz (about 0.9%), which is quite small but still noticeable to a trained ear—musicians can typically detect pitch differences of about 0.5% or less. This small shift corresponds to the modest speed of the source relative to the speed of sound. The calculation demonstrates an important application of the Doppler effect: if we can measure the frequency shift, we can determine the speed of the source. This principle is used in radar guns (for measuring vehicle speeds), Doppler weather radar (for measuring wind speeds), and medical ultrasound (for measuring blood flow velocity).
 
 :::
 

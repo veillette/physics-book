@@ -478,34 +478,13 @@ What radius circular path does an electron travel if it moves at the same speed 
 
 ::: solution
 
-**Strategy**
+In the stated nonrelativistic model, $$r=mv/(|q|B)$$. The electron and proton have the same speed, field, and charge magnitude, so
 
-The radius of circular motion is $$r = mv/(qB)$$. Since the electron has the same charge magnitude as the proton but much smaller mass (about 1/1836 of the proton mass), it will travel in a much smaller circle at the same speed and in the same field.
+$$r_e=\frac{m_e}{m_p}r_p=\frac{9.11\times10^{-31}}{1.67\times10^{-27}}(0.800)=4.36\times10^{-4}\ \text{m}=0.436\ \text{mm}.$$
 
-**Solution**
-
-*Known quantities (from Exercise 2):*
-- Speed: $$v = 7.50 \times 10^{7} \text{ m/s}$$
-- Magnetic field: $$B = 0.977 \text{ T}$$ (calculated in Exercise 2)
-- Electron mass: $$m_e = 9.11 \times 10^{-31} \text{ kg}$$
-- Electron charge magnitude: $$|q| = e = 1.60 \times 10^{-19} \text{ C}$$
-
-$$r_e = \frac{m_e v}{|q|B}$$
-
-$$r_e = \frac{(9.11 \times 10^{-31} \text{ kg})(7.50 \times 10^{7} \text{ m/s})}{(1.60 \times 10^{-19} \text{ C})(0.977 \text{ T})}$$
-
-$$r_e = \frac{6.83 \times 10^{-23} \text{ kg·m/s}}{1.56 \times 10^{-19} \text{ C·T}}$$
-
-$$r_e = 4.38 \times 10^{-4} \text{ m} = 0.438 \text{ mm}$$
-
-**Discussion**
-
-The electron's radius is about 1836 times smaller than the proton's 0.800 m radius. This ratio equals the proton-to-electron mass ratio, which makes sense since $$r \propto m$$ when $$v$$, $$q$$, and $$B$$ are the same. This dramatic difference in path radius is exploited in mass spectrometers to separate particles by mass. The electron's tiny radius (less than half a millimeter) would require very precise measurement to detect the curvature.
-
-**The electron would travel in a circular path with radius $$4.36 \times 10^{-4}$$ m (0.436 mm).**
+This ratio avoids rounding the field from Exercise 2. The electron's path radius is about 1833 times smaller using these rounded masses.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

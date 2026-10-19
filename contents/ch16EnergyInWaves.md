@@ -682,7 +682,7 @@ Calculate the new intensity:
 
 **Discussion**
 
-When the amplitude increases by 30%, the intensity increases by 69% (from $$2.00 \times 10^{-5}$$ W/m² to $$3.38 \times 10^{-5}$$ W/m²). This is because intensity depends on the square of amplitude. The original intensity corresponds to a fairly quiet sound (about 43 decibels above the threshold of hearing), and the new intensity is moderately louder but still well within safe listening levels. This quadratic relationship means that doubling the amplitude would quadruple the intensity—a significant increase in sound energy. In practical terms, when you turn up the volume on audio equipment and increase the amplitude by 30%, the power consumption and sound intensity increase by 69%, not just 30%.
+When the amplitude increases by 30%, the intensity increases by 69% (from $$2.00 \times 10^{-5}$$ W/m² to $$3.38 \times 10^{-5}$$ W/m²). This is because intensity depends on the square of amplitude. The original intensity corresponds to a level of about 73 dB relative to the standard hearing threshold, and the new level is about 75 dB. This quadratic relationship means that doubling the amplitude would quadruple the intensity—a significant increase in sound energy. In practical terms, when you turn up the volume on audio equipment and increase the amplitude by 30%, the power consumption and sound intensity increase by 69%, not just 30%.
 
 **Answer**
 

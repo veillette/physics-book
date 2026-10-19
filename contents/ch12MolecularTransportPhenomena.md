@@ -472,49 +472,17 @@ This relatively short time (about 2 minutes) explains why the cornea can survive
 
 ::: problem
 
-(a) Find the average time required for an oxygen molecule to diffuse through a 0.200-mm-thick tear layer on the cornea. (b) How much time is required to diffuse  $$0.500 {\text{cm}}^{3} $$
- of oxygen to the cornea if its surface area is  $$ 1.00 {\text{cm}}^{2} $$ ?
+Find the characteristic time required for an oxygen molecule to diffuse through a 0.200-mm-thick tear layer on the cornea, using the one-dimensional rms diffusion distance.
 
 :::
 
 ::: solution
 
-**Strategy**
+Using the diffusion coefficient for oxygen in water, $$D=1.0\times10^{-9}\ \text{m}^2/\text{s}$$, the one-dimensional rms diffusion distance satisfies $$x_{\text{rms}}=\sqrt{2Dt}$$. Thus
 
-(a) We use the diffusion formula $$x_{\text{rms}} = \sqrt{2Dt}$$ and solve for time.
-(b) We consider the volume of oxygen that must pass through the tear layer and relate it to the diffusion process, noting that the problem involves a more complex analysis of flux.
+$$t=\frac{x_{\text{rms}}^2}{2D}=\frac{(2.00\times10^{-4}\ \text{m})^2}{2(1.0\times10^{-9}\ \text{m}^2/\text{s})}=20\ \text{s}.$$
 
-**Solution**
-
-**(a) Time for one molecule to diffuse through 0.200 mm:**
-
-Given:
-- Tear layer thickness: $$x_{\text{rms}} = 0.200 \text{ mm} = 2.00 \times 10^{-4} \text{ m}$$
-- Diffusion constant for O₂ in water: $$D = 1.0 \times 10^{-9} \text{ m}^2\text{/s}$$
-
-$$t = \frac{x_{\text{rms}}^2}{2D} = \frac{(2.00 \times 10^{-4} \text{ m})^2}{2(1.0 \times 10^{-9} \text{ m}^2\text{/s})}$$
-
-$$t = \frac{4.00 \times 10^{-8} \text{ m}^2}{2.0 \times 10^{-9} \text{ m}^2\text{/s}} = 20 \text{ s}$$
-
-**(b) Time to diffuse 0.500 cm³ of oxygen:**
-
-This part requires considering the flux of oxygen through the tear layer. Using Fick's law, the diffusion rate depends on the concentration gradient and surface area.
-
-For a simplified estimate, we consider that oxygen arrives at the cornea continuously as molecules complete their random walk. The volume of gas $$V = 0.500 \text{ cm}^3$$ through area $$A = 1.00 \text{ cm}^2$$ represents an effective layer thickness:
-
-$$\text{thickness} = \frac{V}{A} = \frac{0.500 \text{ cm}^3}{1.00 \text{ cm}^2} = 0.500 \text{ cm} = 5.00 \times 10^{-3} \text{ m}$$
-
-However, this represents the accumulated oxygen, not a diffusion distance problem. The actual analysis requires knowing the oxygen concentration difference across the membrane and applying Fick's law of diffusion.
-
-For a rough estimate, if we need 0.500 cm³ of O₂ and molecules take 20 s each to traverse the membrane, the total time depends on the concentration gradient and available oxygen at the air-tear interface.
-
-**Summary:**
-- (a) **20 seconds** for a molecule to diffuse through 0.200 mm
-- (b) Requires additional information about concentration gradients; the problem is underspecified for a complete numerical answer
-
-**Discussion**
-
-Part (a) shows that thinner tear layers dramatically speed up oxygen transport—a 0.200 mm layer requires only 20 seconds compared to 125 seconds for a 0.500 mm layer (the ratio is $$(0.5/0.2)^2 = 6.25$$). Part (b) highlights that bulk transport problems require more than just diffusion time—they also depend on concentration gradients and the rate at which oxygen can be supplied to the interface.
+This is the characteristic diffusion time across the tear layer. It scales with the square of the layer thickness.
 
 :::
 

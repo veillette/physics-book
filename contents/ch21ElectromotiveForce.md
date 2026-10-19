@@ -778,7 +778,7 @@ The hot resistance of a flashlight bulb is  $$ 2.30 \Omega  $$ ,
 
 ::: problem
 
-The label on a portable radio recommends the use of rechargeable nickel-cadmium cells (nicads), although they have a 1.25-V emf while alkaline cells have a 1.58-V emf. The radio has a  $$3.20\text{-Ω} $$
+The label on a portable radio recommends the use of rechargeable nickel-cadmium cells (nicads), although they have a 1.25-V emf while alkaline cells have a 1.58-V emf. Assume the radio uses two identical cells in series. The radio has a  $$3.20\text{-Ω} $$
  resistance. (a) Draw a circuit diagram of the radio and its batteries. Now, calculate the power delivered to the radio. (b) When using Nicad cells each having an internal resistance of  $$0.0400 \text{Ω} $$ .
  (c) When using alkaline cells each having an internal resistance of  $$0.200 \text{Ω} $$ .
  (d) Does this difference seem significant, considering that the radio's effective resistance is lowered when its volume is turned up?
@@ -809,7 +809,7 @@ Assume the radio uses two cells in series. Calculate total resistance, current, 
 - Current: $$I = 3.16/3.60 = 0.878 \text{ A}$$
 - Power to radio: $$P = (0.878)^2(3.20) = 2.47 \text{ W}$$
 
-**(d)** The difference (2.47 W vs 1.86 W) is about 33% more power with alkaline cells. However, this difference becomes less significant when the volume is turned up because the radio's effective resistance decreases, making the internal resistance a smaller fraction of the total. At higher volume (lower radio resistance), both battery types would deliver more power, and the percentage difference would decrease. The NiCad recommendation likely balances performance with rechargeability and cost-effectiveness rather than maximum power.
+**(d)** The difference (2.47 W vs 1.86 W) is about 33% more power with alkaline cells. However, this difference becomes less significant when the volume is turned up because the radio's effective resistance decreases, making the internal resistance a larger fraction of the total. As the load resistance decreases from 3.20 Ω, the alkaline advantage shrinks; below about 1.4 Ω, the two NiCad cells deliver more load power. Load power does not increase indefinitely as load resistance decreases. The NiCad recommendation likely balances performance with rechargeability and cost-effectiveness rather than maximum power.
 
 **Discussion**
 
@@ -988,9 +988,9 @@ $$r = R_{\text{total}} - R_{\text{body}} = 20.0 \times 10^{6} - 10.0 \times 10^{
 
 **(e)** Yes, this would severely compromise effectiveness for low-resistance devices. For example, with a 1.00-Ω load:
 - Without modification: $$I = 20000/(2000+1) = 10.0 \text{ A}$$, $$P = 100 \text{ W}$$
-- With 20-MΩ internal resistance: $$I = 20000/(20 \times 10^{6} + 1) \approx 1.00 \text{ mA}$$, $$P \approx 1.00 \text{ mW}$$
+- With 20-MΩ internal resistance: $$I = 20000/(20 \times 10^{6} + 1) \approx 1.00 \text{ mA}$$, $$P \approx 1.00 \text{ µW}$$
 
-The power delivery drops by a factor of 100,000! This makes the supply useless for most applications requiring significant power.
+The power delivery drops by a factor of about 100 million! This makes the supply useless for most applications requiring significant power.
 
 **Discussion**
 

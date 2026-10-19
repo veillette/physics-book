@@ -897,18 +897,19 @@ rates. Will this breathing be a major form of heat transfer for this person?
 
 ::: solution
 
-(a) 97.2 J
+**(a)** With $$L_v=2.43\times10^6\ \text{J/kg}$$ near body temperature,
 
-(b) 29.2 W
+$$Q_{\text{evap}}=(4.00\times10^{-5})(2.43\times10^6)=97.2\ \text{J per breath}.$$
 
-(c) 9.49 W
+**(b)** At 18.0 breaths/min, $$P_{\text{evap}}=97.2(18.0/60)=29.2\ \text{W}$$.
 
-(d) The total rate of heat loss would be $$29.2 \text{W}+9.49 \text{W}=38.7 \text{W} $$ . While sleeping, our body consumes 83 W of power, while sitting it
-consumes 120 to 210 W. Therefore, the total rate of heat loss from breathing
-will not be a major form of heat loss for this person.
+**(c)** Warming an open air flow at approximately constant pressure requires $$c_p\approx1000\ \text{J/(kg}\cdot{}^\circ\text{C)}$$. Using $$\rho\approx1.29\ \text{kg/m}^3$$,
+
+$$P_{\text{air}}=\rho Vc_p\Delta T\frac{18.0}{60}=(1.29)(0.00200)(1000)(17.0)(0.300)=13.2\ \text{W}.$$
+
+**(d)** The total is about **42 W**. This is a substantial fraction of a resting metabolic rate of order 100 W, although other routes of heat transfer remain important.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

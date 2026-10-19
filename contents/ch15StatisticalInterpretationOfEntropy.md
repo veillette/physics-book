@@ -572,9 +572,7 @@ This problem beautifully illustrates the statistical nature of entropy. The 51H/
 (a)  $$ -2.38 \times 10^{-23} \text{J/K} $$
 (b) 5.6 times more likely
 
-(c) If you were betting on two heads and 8 tails, the odds of breaking even are
-252 to 45, so on average you would break even. So, no, you wouldn’t bet on odds
-of 252 to 45.
+(c) No. There are 45 outcomes with two heads and eight tails among 1024 equally likely outcomes. The other 979 outcomes lose the bet, so fair odds against this result are 979 to 45. The ratio 252 to 45 compares only the five-head and two-head macrostates. A payout at odds of 252 to 45 gives a negative expected return.
 
 :::
 
@@ -743,68 +741,25 @@ In an air conditioner, 12.65 MJ of heat transfer occurs from a cold environment 
 
 ::: solution
 
-**Strategy**
+**(a)** With $$L_f=334\ \text{kJ/kg}$$,
 
-For part (a), we use the latent heat of fusion for ice: $$ L_f = 334 \text{ kJ/kg} $$. The heat absorbed during melting is $$ Q = mL_{f} $$, so we can solve for mass. For part (b), we use the result from part (a) to find the equivalent operating time. For part (c), we compare the cost of ice to the cost of electricity for running the air conditioner.
+$$m=\frac{Q_c}{L_f}=\frac{12650}{334}=37.9\ \text{kg}.$$
 
-**Solution**
+**(b)** Melting 900 kg absorbs $$900(334)=300600\ \text{kJ}$$, equivalent to
 
-Given values:
-- Heat transfer per hour: $$ Q = 12.65 \text{ MJ} = 12.65 \times 10^6 \text{ J} = 12{,}650 \text{ kJ} $$
-- Latent heat of fusion for ice: $$ L_f = 334 \text{ kJ/kg} $$
+$$t=\frac{300600}{12650}=23.8\ \text{h}$$
 
-**(a)** The mass of ice needed to absorb the same amount of heat:
+of operation at the stated cooling rate.
 
-<div class="equation">
- $$ Q = m L_f $$
-</div>
+**(c)** Ice costs $$900(\$0.20)=\$180$$. As an illustrative comparison, assume an air-conditioner COP of 3 and electricity at \$0.12/kWh. Then
 
-Solving for mass:
+$$W=\frac{Q_c}{\mathrm{COP}}=\frac{300.6\ \text{MJ}}{3}=100.2\ \text{MJ}=27.8\ \text{kWh},$$
 
-<div class="equation">
- $$ m = \frac{Q}{L_f} = \frac{12{,}650 \text{ kJ}}{334 \text{ kJ/kg}} = 37.9 \text{ kg} $$
-</div>
+costing about **\$3.34**. Under these assumptions the air conditioner is much cheaper. Actual cost depends on COP and electricity price.
 
-**Melting 37.9 kg of ice would involve the same heat transfer.**
-
-**(b)** For 900 kg of ice:
-
-<div class="equation">
- $$ t = \frac{900 \text{ kg}}{37.9 \text{ kg/h}} = 23.7 \text{ h} $$
-</div>
-
-**It would take 23.7 hours of air conditioner operation to be equivalent to melting 900 kg of ice.**
-
-**(c)** Cost comparison:
-
-**Ice cooling cost:**
-<div class="equation">
- $$ \text{Cost}_{\text{ice}} = (900 \text{ kg})(\$0.20/\text{kg}) = \$180 $$
-</div>
-
-This provides cooling equivalent to 23.7 hours of air conditioner operation.
-
-**Air conditioner cost:**
-To compare, we need to estimate electricity costs. A typical residential air conditioner might consume about 3.5 kW of electrical power. The energy consumed in 23.7 hours would be:
-
-<div class="equation">
- $$ E = (3.5 \text{ kW})(23.7 \text{ h}) = 83.0 \text{ kWh} $$
-</div>
-
-At a typical electricity rate of $0.12 per kWh:
-
-<div class="equation">
- $$ \text{Cost}_{\text{AC}} = (83.0 \text{ kWh})(\$0.12/\text{kWh}) = \$10.0 $$
-</div>
-
-__The air conditioner would cost approximately $10 to operate for the same cooling effect that 900\text{ kg} of ice provides, compared to $180 for the ice. The air conditioner is about 18 times cheaper to operate than using ice.__
-
-**Discussion**
-
-This problem illustrates why mechanical refrigeration replaced ice-based cooling in the 20th century. Even accounting for the efficiency losses in the air conditioner (the electrical energy input is greater than the heat removed due to the second law of thermodynamics), the convenience and cost-effectiveness of air conditioning far exceeds using ice. The air conditioner removes 12.65 MJ of heat per hour while consuming perhaps 12.6 MJ of electrical energy (assuming a coefficient of performance around 3), making it highly economical compared to ice at 20 cents per kg. Additionally, the air conditioner provides continuous cooling without the logistical challenges of storing, transporting, and managing melting ice. The economic advantage would be even greater if ice required refrigeration for storage, creating a circular dependency. This cost analysis demonstrates a practical application of thermodynamics in everyday technology choices.
+A refrigerator can remove more heat than the work it consumes: $$\mathrm{COP}=Q_c/W$$ may exceed one. Energy conservation requires that it reject $$Q_h=Q_c+W$$ to the warm environment.
 
 :::
-
 </div>
 
 ::: glossary

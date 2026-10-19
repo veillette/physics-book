@@ -430,7 +430,7 @@ This force of about 0.75 μN is extremely small—far too weak to be felt or to 
 ::: problem
 
 (a) Aircraft sometimes acquire small static charges. Suppose a supersonic jet has a  $$ 0.500\text{-μC} $$
- charge and flies due west at a speed of 660 m/s over the Earth's south magnetic pole, where the  $$ 8.00 \times 10^{-5} \text{-T} $$
+ charge and flies due west at a speed of 660 m/s over the Earth's north magnetic pole, where the  $$ 8.00 \times 10^{-5} \text{-T} $$
  magnetic field points straight up. What are the direction and the magnitude of the magnetic force on the plane? (b) Discuss whether the value obtained in part (a) implies this is a significant or negligible effect.
 
 :::
@@ -457,7 +457,7 @@ $$F = (5.00 \times 10^{-7} \text{ C})(660 \text{ m/s})(8.00 \times 10^{-5} \text
 
 $$F = 2.64 \times 10^{-8} \text{ N}$$
 
-For the direction, using RHR-1 with thumb pointing west and fingers pointing up: the palm pushes toward the **south**. (Alternatively: velocity west × field up = force south.)
+For the direction, using RHR-1 with thumb pointing west and fingers pointing up: the palm pushes toward the **north**. (Alternatively: velocity west × field up = force north.)
 
 **(b) Significance:**
 
@@ -472,7 +472,7 @@ This force is completely negligible for any practical purpose. Even over the cou
 
 While Earth's magnetic field is crucial for navigation (compasses) and protects us from solar radiation, its direct magnetic force on slowly moving charged objects is negligible. The situation would be different for very fast-moving particles (like cosmic rays at near-light speeds) or particles in very strong artificial magnetic fields (like those in particle accelerators).
 
-**(a) The magnetic force is $$2.64 \times 10^{-8}$$ N directed toward the south.**
+**(a) The magnetic force is $$2.64 \times 10^{-8}$$ N directed toward the north.**
 
 **(b) This force is completely negligible—it is about $$10^{13}$$ times smaller than the aircraft's weight and has no practical effect on the plane's motion.**
 
@@ -493,46 +493,13 @@ While Earth's magnetic field is crucial for navigation (compasses) and protects 
 
 ::: solution
 
-**Strategy**
+**(a)** From $$F=qvB\sin\theta$$,
 
-We use the magnetic force equation $$F = qvB\sin\theta$$ and solve for the magnetic field $$B$$. The proton's charge is the elementary charge $$e = 1.60 \times 10^{-19}$$ C. We're given that $$\theta = 45\text{ °}$$, so we include the $$\sin(45\text{ °})$$ factor.
+$$B=\frac{F}{qv\sin\theta}=\frac{1.70\times10^{-16}}{(1.60\times10^{-19})(5.00\times10^7)\sin45^\circ}=3.0052\times10^{-5}\ \text{T}\approx3.01\times10^{-5}\ \text{T}.$$
 
-**Solution**
-
-*Known quantities:*
-- Proton speed: $$v = 5.00 \times 10^{7} \text{ m/s}$$
-- Magnetic force: $$F = 1.70 \times 10^{-16} \text{ N}$$
-- Angle between velocity and field: $$\theta = 45°$$
-- Proton charge: $$q = e = 1.60 \times 10^{-19} \text{ C}$$
-
-**(a) Calculate magnetic field strength:**
-
-From $$F = qvB\sin\theta$$, we solve for $$B$$:
-
-$$B = \frac{F}{qv\sin\theta}$$
-
-$$B = \frac{1.70 \times 10^{-16} \text{ N}}{(1.60 \times 10^{-19} \text{ C})(5.00 \times 10^{7} \text{ m/s})(\sin 45°)}$$
-
-$$B = \frac{1.70 \times 10^{-16} \text{ N}}{(1.60 \times 10^{-19} \text{ C})(5.00 \times 10^{7} \text{ m/s})(0.7071)}$$
-
-$$B = \frac{1.70 \times 10^{-16} \text{ N}}{5.66 \times 10^{-12} \text{ C·m/s}}$$
-
-$$B = 3.00 \times 10^{-5} \text{ T}$$
-
-**(b) Consistency with Earth's field:**
-
-The calculated field strength of $$3.00 \times 10^{-5}$$ T is comparable to Earth's magnetic field at the surface, which ranges from about $$2.5 \times 10^{-5}$$ T at the equator to $$6.5 \times 10^{-5}$$ T near the poles, with a typical value of about $$5 \times 10^{-5}$$ T. Our calculated value is within this range, so it is consistent with this being Earth's magnetic field experienced by a cosmic ray.
-
-**Discussion**
-
-Cosmic ray protons travel at significant fractions of the speed of light (this one is moving at about 17% of light speed). The force they experience from Earth's magnetic field causes them to curve, which is why cosmic rays tend to follow Earth's field lines and enter the atmosphere preferentially near the magnetic poles. This gives rise to the aurora (Northern and Southern Lights) and is part of why Earth's magnetic field provides protection from cosmic radiation.
-
-**(a) The magnetic field strength is $$3.01 \times 10^{-5}$$ T.**
-
-**(b) This value is consistent with Earth's surface magnetic field (typically $$\sim 5 \times 10^{-5}$$ T), confirming that the measured force could be due to Earth's magnetic field.**
+**(b)** Yes. A field of about 30 microteslas is consistent with Earth's surface magnetic field, whose magnitude varies with location.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

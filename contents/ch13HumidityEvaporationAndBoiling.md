@@ -587,7 +587,7 @@ The percentage of water vapor is:
 </div>
 
 **Discussion:**
-Even at 100% relative humidity, water vapor comprises only a small fraction of air by mass (about 1.4%) and an even smaller fraction by pressure (about 2.3%). This shows that air can hold only a limited amount of water vapor at room temperature. The partial pressure of water vapor is much less than atmospheric pressure, which is why water doesn't spontaneously evaporate into air at normal conditions.
+Even at 100% relative humidity, water vapor comprises only a small fraction of air by mass (about 1.4%) and an even smaller fraction by pressure (about 2.3%). This shows that air can hold only a limited amount of water vapor at room temperature. Water evaporates into unsaturated air at ordinary temperatures. At saturation, evaporation and condensation balance; boiling instead requires vapor pressure to match the surrounding pressure.
 
 :::
 
@@ -853,7 +853,7 @@ Where $$M = 18.0 \text{ g/mol} = 0.0180 \text{ kg/mol}$$ for water.
 This is nearly identical to the vapor pressure of $$ 6.31 \times 10^{3} $$ Pa from Table 1.
 
 **Discussion:**
-Part (a) shows that with each exhalation of 2 L, we lose about 0.088 g of water vapor if we inhale completely dry air. Over a day with about 20,000 breaths, this could amount to significant water loss (about 880 g or nearly 1 liter). In reality, inhaled air usually contains some moisture, so actual losses are less. Part (b) confirms that the ideal gas law accurately predicts the relationship between vapor density and pressure, validating the table values. This is why breathing passages must stay moist—the lungs saturate inhaled air with water vapor at body temperature.
+Part (a) shows that with each exhalation of 2 L, we lose about 0.088 g of water vapor if we inhale completely dry air. Over a day with about 20,000 breaths, this could amount to significant water loss (about 1760 g or 1.76 liters under these assumptions). In reality, inhaled air usually contains some moisture, so actual losses are less. Part (b) confirms that the ideal gas law accurately predicts the relationship between vapor density and pressure, validating the table values. This is why breathing passages must stay moist—the lungs saturate inhaled air with water vapor at body temperature.
 
 :::
 
@@ -964,7 +964,7 @@ To achieve this partial pressure at Mt. Everest:
  $$\text{Percent O}_2=\frac{ 2.11 \times 10^{4}  \text{Pa}}{ 3.30 \times 10^{4}  \text{Pa}} \times 100 = 64.0\% $$
 </div>
 
-(c) The extreme drying occurs because the partial pressure of water vapor is limited by the vapor pressure at the local temperature. At high altitude, the very low total atmospheric pressure means that even at 100% relative humidity, the absolute amount of water vapor is extremely small. When climbers inhale this dry air, their warm, moist breathing passages lose water vapor to humidify the inhaled air, causing severe dehydration of the respiratory tract.
+(c) The extreme drying occurs because the partial pressure of water vapor is limited by the vapor pressure at the local temperature. At the cold temperatures encountered high on the mountain, saturation vapor density is small, even at 100% relative humidity. At a fixed temperature, saturation vapor density does not depend on total atmospheric pressure. Climbers also breathe large volumes of air during exertion and in response to low oxygen pressure. When climbers inhale this dry air, their warm, moist breathing passages lose water vapor to humidify the inhaled air, causing severe dehydration of the respiratory tract.
 
 **Discussion:**
 Part (b) shows why supplemental oxygen is essential for climbing Mt. Everest—the oxygen concentration must be increased to about 64% (compared to 21% at sea level) to maintain the same oxygen partial pressure. The drying effect in part (c) is one of many physiological challenges of high-altitude climbing, contributing to the extreme difficulty and danger of climbing peaks above 8000 m (the "death zone").
@@ -1191,7 +1191,7 @@ Force on the lid:
 </div>
 
 **Discussion:**
-The required pressure is about 4.7 atm (about 70 psi), which is typical for pressure cookers. The force of 18,400 N (about 4100 pounds or 1.9 tons) is enormous! This is why pressure cooker lids must lock securely and why the seals must be in good condition. This also explains why pressure cookers have safety valves—if the pressure gets too high, the valve releases steam before the force can rupture the cooker. The high pressure allows water to remain liquid at 150ºC, significantly speeding up cooking compared to normal boiling at 100ºC.
+The required pressure is about 4.7 atm (about 70 psi), which is substantially higher than the operating pressure of an ordinary household pressure cooker. The force of 18,400 N (about 4100 pounds or 1.9 tons) is enormous! This is why pressure cooker lids must lock securely and why the seals must be in good condition. This also explains why pressure cookers have safety valves—if the pressure gets too high, the valve releases steam before the force can rupture the cooker. The high pressure allows water to remain liquid at 150ºC, significantly speeding up cooking compared to normal boiling at 100ºC.
 
 :::
 

@@ -772,138 +772,27 @@ Part (c): When conductors carrying different charges are brought into contact, c
 
 ::: solution
 
-**Strategy**
+Take rightward as positive. In Figure 15(a), the charges are $$+q$$ at 3.00 cm, $$-2q$$ at 8.00 cm, and $$+q$$ at 11.0 cm.
 
-For [[Figure 15]](#Figure15)(a), the configuration has three charges: $$+q$$ at 3.00\text{ cm}, $$-2q$$ at 8.00\text{ cm}, and $$+q$$ at 11.0\text{ cm}. We calculate electric fields using $$E = k\frac{q}{r^2}$$ with appropriate signs for direction. Part (b) requires finding where the two $$+q$$ charges produce equal and opposite fields. Part (c) requires analyzing whether the vector sum can be zero. Part (d) involves comparing the far-field behavior of systems with different net charges. Part (e) requires solving a transcendental equation, likely numerically.
+**(a)** At 5.00 cm,
 
-**Solution**
+$$E=kq\left[\frac1{(0.0200)^2}+\frac2{(0.0300)^2}-\frac1{(0.0600)^2}\right]=4.00\times10^7\ \text{N/C},$$
 
-From [[Figure 15]](#Figure15)(a):
-- At $$x = 3.00$$ cm: $$+q = +1.00 \text{ μC}$$
-- At $$x = 8.00$$ cm: $$-2q = -2.00 \text{ μC}$$
-- At $$x = 11.0$$ cm: $$+q = +1.00 \text{ μC}$$
+directed rightward.
 
-**(a) Electric field at** $$x = 5.00$$ **cm:**
+**(b)** The two positive-charge contributions cancel at their midpoint, **7.00 cm**, leaving just the field of $$-2q$$.
 
-Taking rightward (positive x-direction) as positive:
+**(c)** No. For $$0<x<3$$ cm, both positive charges produce leftward fields. In this interval, $$1/(3-x)^2>2/(8-x)^2$$, so the nearer positive charge alone outweighs the rightward negative-charge field. For $$3<x<8$$ cm, the positive charge at 3 cm and the negative charge both produce rightward fields; the latter alone outweighs the leftward field from the more distant positive charge at 11 cm. The fields are undefined at the charge positions.
 
-**From** $$+q$$ **at** $$x = 3.00$$ **cm:**
-<div class="equation">
- $$r_1 = 5.00 - 3.00 = 2.00 \text{ cm} = 0.0200 \text{ m}$$
-</div>
+**(d)** Configuration (a) has zero net charge and a nonzero dipole moment, so its far field decreases as $$1/|x|^3$$. Configuration (b) has net charge $$+q$$ and decreases as $$1/|x|^2$$. Thus (a) approaches zero faster.
 
-<div class="equation">
- $$E_1 = +k\frac{q}{r_1^2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-6})}{(0.0200)^2} = \frac{8.99 \times 10^3}{4.00 \times 10^{-4}} = 2.25 \times 10^7 \text{ N/C}$$
-</div>
+**(e)** For $$x>11.0$$ cm, solve the algebraic equation
 
-(Positive: field points away from $$+q$$, rightward)
+$$\frac1{(x-3.00)^2}+\frac1{(x-11.0)^2}-\frac2{(x-8.00)^2}=0,$$
 
-**From** $$-2q$$ **at** $$x = 8.00$$ **cm:**
-<div class="equation">
- $$r_2 = 8.00 - 5.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
-</div>
-
-<div class="equation">
- $$E_2 = +k\frac{2q}{r_2^2} = \frac{(8.99 \times 10^9)(2.00 \times 10^{-6})}{(0.0300)^2} = \frac{17.98 \times 10^3}{9.00 \times 10^{-4}} = 2.00 \times 10^7 \text{ N/C}$$
-</div>
-
-(Positive: field points toward $$-2q$$, rightward)
-
-**From** $$+q$$ **at** $$x = 11.0$$ **cm:**
-<div class="equation">
- $$r_3 = 11.0 - 5.00 = 6.00 \text{ cm} = 0.0600 \text{ m}$$
-</div>
-
-<div class="equation">
- $$E_3 = -k\frac{q}{r_3^2} = -\frac{(8.99 \times 10^9)(1.00 \times 10^{-6})}{(0.0600)^2} = -\frac{8.99 \times 10^3}{3.60 \times 10^{-3}} = -2.50 \times 10^6 \text{ N/C}$$
-</div>
-
-(Negative: field points away from $$+q$$, leftward)
-
-<div class="equation">
- $$E_{\text{total}} = E_1 + E_2 + E_3 = 2.25 \times 10^7 + 2.00 \times 10^7 - 0.25 \times 10^7 = 4.00 \times 10^7 \text{ N/C}$$
-</div>
-
-The electric field at $$x = 5.00$$ cm is $$4.00 \times 10^7$$ N/C to the right.
-
-**(b) Position where field equals that from** $$-2q$$ **alone:**
-
-For the total field to equal the field from $$-2q$$ alone, the contributions from the two $$+q$$ charges must cancel. Let $$x$$ be this position. For cancellation:
-
-<div class="equation">
- $$\frac{k q}{(x-3.00)^2} = \frac{k q}{(11.0-x)^2}$$
-</div>
-
-<div class="equation">
- $$(x-3.00)^2 = (11.0-x)^2$$
-</div>
-
-<div class="equation">
- $$x - 3.00 = 11.0 - x$$
-</div>
-
-<div class="equation">
- $$2x = 14.0$$
-</div>
-
-<div class="equation">
- $$x = 7.00 \text{ cm}$$
-</div>
-
-The total electric field equals that from $$-2q$$ alone at $$x = 7.00$$ cm.
-
-**(c) Can the field be zero between 0.00 and 8.00 cm?**
-
-Between 0.00 and 3.00 cm: All three charges are to the right. The two $$+q$$ charges produce rightward fields (away from them), and the $$-2q$$ produces a leftward field (toward it). However, the $$-2q$$ is more distant than at least one $$+q$$, and its field magnitude ($$\propto 2q/r^2$$) cannot overcome both $$+q$$ contributions. Field cannot be zero here.
-
-Between 3.00 and 8.00 cm: The $$+q$$ at 3.00\text{ cm} produces a rightward field (away), the $$-2q$$ at 8.00\text{ cm} produces a rightward field (toward), and the $$+q$$ at 11.0\text{ cm} produces a leftward field (away). For zero field, the leftward contribution must equal the rightward contributions. However, the $$+q$$ at 11.0 cm is far away while both other charges are nearby, so its field is much weaker. The field cannot be zero in this region.
-
-**No, the electric field cannot be zero anywhere between 0.00 and 8.00 cm.**
-
-**(d) Which configuration has field approach zero more rapidly at large** $$|x|$$**?**
-
-At large distances, the field depends on the net charge of the configuration:
-
-[[Figure 15]](#Figure15)(a): $$Q_{\text{net}} = q - 2q + q = 0$$ (neutral)
-
-[[Figure 15]](#Figure15)(b): $$Q_{\text{net}} = -2q + q + 3q - q = +q$$ (charged)
-
-For a charged system, $$E \sim kQ/r^2$$ at large $$r$$. For a neutral system, the leading term vanishes and $$E \sim 1/r^3$$ (dipole field) or faster.
-
-**Figure 15(a) has the field approach zero more rapidly** because it has zero net charge. The field decreases as $$1/r^3$$ or faster, compared to $$1/r^2$$ for Figure 15(b).
-
-**(e) Position to the right of 11.0 cm where field is zero:**
-
-For $$x > 11.0$$ cm, all charges are to the left. Taking rightward as positive:
-
-<div class="equation">
- $$\frac{kq}{(x-3.00)^2} - \frac{k(2q)}{(x-8.00)^2} + \frac{kq}{(x-11.0)^2} = 0$$
-</div>
-
-<div class="equation">
- $$\frac{1}{(x-3.00)^2} + \frac{1}{(x-11.0)^2} = \frac{2}{(x-8.00)^2}$$
-</div>
-
-This transcendental equation requires numerical solution. Using a graphing calculator or numerical methods (such as plotting both sides and finding the intersection, or using Newton's method), the solution is:
-
-$$x \approx 16.0 \text{ cm}$$
-
-(More precisely, $$x \approx 15.8$$ to 16.0 cm depending on numerical precision)
-
-**Discussion**
-
-Part (a): The field at $$x = 5.00$$ cm is dominated by the two nearby charges at 3.00 and 8.00\text{ cm}, both producing fields in the same direction (rightward). The $$1/r^2$$ dependence makes nearby charges much more influential than distant ones.
-
-Part (b): At $$x = 7.00$$ cm, exactly halfway between 3.00 and 11.0\text{ cm}, the two equal $$+q$$ charges are equidistant and produce equal but opposite fields that cancel. This is the midpoint because both charges have the same magnitude.
-
-Part (c): The impossibility of zero field in this region illustrates how the configuration's symmetry (or lack thereof) constrains possible field patterns. With $$-2q$$ having twice the magnitude of each $$+q$$, and positioned between them, there's no location between 0 and 8.00 cm where all contributions can cancel.
-
-Part (d): This demonstrates a fundamental principle: at large distances, only the net charge matters for the leading-order field. Neutral systems have no monopole moment, so their far-field falls off faster, dominated by dipole or higher multipole moments.
-
-Part (e): The zero-field point beyond 11.0 cm exists because the nearby $$+q$$ produces a strong rightward field that can be balanced by the leftward field from the more distant but larger $$-2q$$, with fine-tuning from the farthest $$+q$$. Such problems often require numerical methods when analytical solutions are intractable.
+with all distances in centimeters. Numerical solution gives **30.6 cm**. Substitution into the field sum verifies the cancellation.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1121,64 +1010,15 @@ Part (b): The force of 76.4 N is substantial for microcoulomb-scale charges sepa
 
 ::: solution
 
-**Strategy**
+**(a)** The negative charges at the top attract a positive test charge upward; the positive charges at the bottom repel it upward. Left and right components cancel. The field points **upward**.
 
-We use symmetry to determine the field direction at the center of the square. With $$q_a$$ and $$q_b$$ negative (at top) and $$q_c$$ and $$q_d$$ positive (at bottom), the field from negative charges points toward them (upward), while the field from positive charges points away from them (also upward). Horizontal components cancel by symmetry, leaving a net upward field. For the magnitude, we calculate the field from each charge and sum the vertical components.
+**(b)** With square side $$s=0.0500\ \text{m}$$, each corner lies at $$r=s/\sqrt2$$. The vertical components add:
 
-**Solution**
+$$E=4\frac{k|q|}{r^2}\cos45^\circ=\frac{4\sqrt2\,k|q|}{s^2}=2.03\times10^7\ \text{N/C}.$$
 
-Given:
-- $$q_a = q_b = -1.00 \text{ μC}$$ (top corners)
-- $$q_c = q_d = +1.00 \text{ μC}$$ (bottom corners)
-- Square side length: $$s = 5.00 \text{ cm} = 0.0500 \text{ m}$$
-
-**(a) Direction using symmetry:**
-
-By symmetry, the arrangement has reflection symmetry about both the horizontal and vertical centerlines:
-
-- The two negative charges ($$q_a$$ and $$q_b$$) at the top corners create electric fields pointing **toward** them from the center (upward).
-- The two positive charges ($$q_c$$ and $$q_d$$) at the bottom corners create electric fields pointing **away** from them at the center (upward).
-
-The horizontal components from charges on the left and right cancel due to symmetry. All vertical components point in the same direction (upward).
-
-**The electric field at the center points straight upward** (in the $$+y$$ direction).
-
-**(b) Magnitude of the electric field:**
-
-Distance from center to each corner:
-<div class="equation">
- $$r = \frac{s}{\sqrt{2}} = \frac{0.0500}{\sqrt{2}} = 0.0354 \text{ m}$$
-</div>
-
-Electric field magnitude from each corner charge:
-<div class="equation">
- $$E_{\text{corner}} = k\frac{|q|}{r^2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-6})}{(0.0354)^2}$$
-</div>
-
-<div class="equation">
- $$E_{\text{corner}} = \frac{8.99 \times 10^3}{1.25 \times 10^{-3}} = 7.19 \times 10^6 \text{ N/C}$$
-</div>
-
-Each field makes a 45° angle with the vertical. The vertical component from each:
-<div class="equation">
- $$E_y = E_{\text{corner}} \cos(45°) = 7.19 \times 10^6 \times \frac{1}{\sqrt{2}} = 5.08 \times 10^6 \text{ N/C}$$
-</div>
-
-All four charges contribute vertical components in the same direction (upward):
-<div class="equation">
- $$E_{\text{total}} = 4 \times E_y = 4 \times 5.08 \times 10^6 = 2.03 \times 10^7 \text{ N/C}$$
-</div>
-
-The electric field at the center is $$2.04 \times 10^7$$ N/C upward.
-
-**Discussion**
-
-Part (a): The symmetry analysis reveals that regardless of whether the top charges are positive or negative, if the top pair has one sign and the bottom pair has the opposite sign (with equal magnitudes), the field at the center must be purely vertical. This is a consequence of the geometric symmetry—the square's symmetry dictates that horizontal components must cancel. The direction (up or down) depends on which sign is where: with negatives on top and positives on bottom, the field points upward.
-
-Part (b): The field strength of $$2.04 \times 10^7$$ N/C is enormous—comparable to fields near charged conductors or in high-voltage equipment. This illustrates how even microcoulomb charges at centimeter separations create intense fields. The factor of 4 enhancement from having four charges (rather than one) combines with the constructive addition of vertical components, making the center of this configuration experience a very strong field. This principle is exploited in devices like electrostatic lenses and quadrupole mass spectrometers, where symmetric charge arrangements create controlled field patterns.
+Use the exact geometric distance before rounding.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1471,92 +1311,17 @@ Part (b): The force on the positive $$q_a$$ is in the same direction as the elec
 
 ::: solution
 
-**Strategy**
+**(a)** Take the center as the origin, with $$q_a$$ above it and $$q_b$$ to the lower right. The common vertex distance is $$r=s/\sqrt3$$, with $$s=0.250\ \text{m}$$. Adding the fields using the unrounded value of $$r$$ gives
 
-For an equilateral triangle, the center is equidistant from all three vertices. We calculate the electric field from each charge at the center using $$E = k\frac{q}{r^2}$$ where $$r$$ is the distance from vertex to center ($$r = s/\sqrt{3}$$ for an equilateral triangle of side $$s$$), then add vectorially. For part (b), we use symmetry arguments to determine if zero field is possible.
+$$E_x=\frac{k}{r^2}\left[(8.00+1.50)\times10^{-9}\cos30^\circ\right]=3.55\times10^3\ \text{N/C},$$
 
-**Solution**
+$$E_y=\frac{k}{r^2}\left[(-2.50-4.00+0.750)\times10^{-9}\right]=-2.48\times10^3\ \text{N/C}.$$
 
-Given:
-- $$q_a = +2.50 \text{ nC} = 2.50 \times 10^{-9} \text{ C}$$
-- $$q_b = -8.00 \text{ nC} = -8.00 \times 10^{-9} \text{ C}$$
-- $$q_c = +1.50 \text{ nC} = 1.50 \times 10^{-9} \text{ C}$$
-- Triangle side: $$s = 25.0 \text{ cm} = 0.250 \text{ m}$$
+Thus $$E=4.33\times10^3\ \text{N/C}$$, directed **35.0° below the horizontal toward the right**.
 
-**(a) Electric field at center:**
-
-Distance from center to each vertex:
-<div class="equation">
- $$r = \frac{s}{\sqrt{3}} = \frac{0.250}{\sqrt{3}} = 0.144 \text{ m}$$
-</div>
-
-Set up coordinates with center at origin. Orient so $$q_a$$ is at top (along +y axis at angle 90°), $$q_b$$ is at bottom-right (angle -30°), and $$q_c$$ is at bottom-left (angle 210°).
-
-**Field from** $$q_a = +2.50$$ **nC** (at 90°):
-<div class="equation">
- $$E_a = k\frac{|q_a|}{r^2} = \frac{(8.99 \times 10^9)(2.50 \times 10^{-9})}{(0.144)^2} = \frac{22.48}{0.0208} = 1.08 \times 10^3 \text{ N/C}$$
-</div>
-
-Direction: Away from $$+q_a$$, pointing downward ($$-\hat{y}$$).
-$$\vec{E}_a = -1.08 \times 10^3\hat{y}$$ N/C
-
-**Field from** $$q_b = -8.00$$ **nC** (at -30° or 330°):
-<div class="equation">
- $$E_b = k\frac{|q_b|}{r^2} = \frac{(8.99 \times 10^9)(8.00 \times 10^{-9})}{(0.144)^2} = 3.46 \times 10^3 \text{ N/C}$$
-</div>
-
-Direction: Toward $$-q_b$$, pointing at angle 330° (or -30°).
-$$\vec{E}_b = 3.46 \times 10^3(\cos(-30°)\hat{x} + \sin(-30°)\hat{y}) = 3.00 \times 10^3\hat{x} - 1.73 \times 10^3\hat{y}$$ N/C
-
-**Field from** $$q_c = +1.50$$ **nC** (at 210°):
-<div class="equation">
- $$E_c = k\frac{|q_c|}{r^2} = \frac{(8.99 \times 10^9)(1.50 \times 10^{-9})}{(0.144)^2} = 6.49 \times 10^2 \text{ N/C}$$
-</div>
-
-Direction: Away from $$+q_c$$, pointing at angle 30° (opposite to 210°).
-$$\vec{E}_c = 6.49 \times 10^2(\cos(30°)\hat{x} + \sin(30°)\hat{y}) = 5.62 \times 10^2\hat{x} + 3.25 \times 10^2\hat{y}$$ N/C
-
-**Total field:**
-<div class="equation">
- $$\vec{E}_{\text{total}} = \vec{E}_a + \vec{E}_b + \vec{E}_c$$
-</div>
-
-<div class="equation">
- $$E_x = 0 + 3.00 \times 10^3 + 5.62 \times 10^2 = 3.56 \times 10^3 \text{ N/C}$$
-</div>
-
-<div class="equation">
- $$E_y = -1.08 \times 10^3 - 1.73 \times 10^3 + 3.25 \times 10^2 = -2.49 \times 10^3 \text{ N/C}$$
-</div>
-
-<div class="equation">
- $$|\vec{E}| = \sqrt{(3.56 \times 10^3)^2 + (-2.49 \times 10^3)^2} = \sqrt{1.27 \times 10^7 + 6.20 \times 10^6} = 4.35 \times 10^3 \text{ N/C}$$
-</div>
-
-<div class="equation">
- $$\theta = \tan^{-1}\left(\frac{-2.49}{3.56}\right) = \tan^{-1}(-0.699) = -35.0°$$
-</div>
-
-The electric field at the center is **4.36 × 10³ N/C at 35.0° below the horizontal** (or at -35° from the positive x-axis).
-
-**(b) Can the field be zero for other charge combinations?**
-
-For the electric field to be zero at the center of an equilateral triangle, the vector sum of the three fields must be zero. Since all three charges are equidistant from the center, the field magnitudes are $$E_1 = k|q_1|/r^2$$, $$E_2 = k|q_2|/r^2$$, $$E_3 = k|q_3|/r^2$$, and the directions are determined by whether the charges are positive (field points away from center) or negative (field points toward center).
-
-The three field vectors point along directions 120° apart (or point toward/away from the three vertices). For three vectors 120° apart to sum to zero, they must all have equal magnitude. This requires $$|q_1| = |q_2| = |q_3|$$.
-
-Furthermore, for the directions to work out, all three fields must point in the same sense (all outward or all inward from the center), which requires all charges to have the same sign. Therefore, $$q_a = q_b = q_c$$ is the only solution.
-
-**No**, there is no other combination of charges that will produce zero electric field at the center. The only solution is $$q_a = q_b = q_c$$.
-
-**Discussion**
-
-Part (a): The electric field at the center of 4.36 × 10³ N/C pointing 35.0° below the horizontal results from the dominant contribution of the $$-8.00$$ nC charge at $$q_b$$, which is the largest in magnitude. This charge produces a field of 3.46 × 10³ N/C pointing toward it (at -30\text{ °}). The smaller positive charges at $$q_a$$ and $$q_c$$ contribute fields pointing away from themselves, partially but not completely canceling the contribution from $$q_b$$. The asymmetry in charge values breaks the three-fold rotational symmetry that would exist if all charges were equal, resulting in a net field.
-
-Part (b): The impossibility of achieving zero field with unequal charges is a consequence of the geometry. For an equilateral triangle, the three directions from the center to the vertices are separated by exactly 120°. Three vectors separated by 120° can only sum to zero if they form an equilateral triangle in vector space, which requires all three to have the same magnitude. Since the magnitude of each field contribution is proportional to the charge magnitude ($$E \propto |q|$$), this requires $$|q_a| = |q_b| = |q_c|$$. Additionally, for the directions to align properly (all pointing outward or all pointing inward), all charges must have the same sign. This geometric constraint is fundamental and demonstrates how symmetry (or lack thereof) determines the possibility of field cancellation.
+**(b)** No. The three unit vectors from the centroid toward the vertices are separated by 120°, and their only linear dependence is their equal-weight sum. Hence a zero field at the centroid requires $$q_a=q_b=q_c$$, including sign.
 
 :::
-
 </div>
 
 ::: glossary

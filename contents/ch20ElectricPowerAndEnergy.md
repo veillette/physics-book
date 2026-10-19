@@ -751,56 +751,19 @@ What would be the maximum cost of a CFL such that the total cost (investment plu
 
 ::: solution
 
-**Strategy**
+Use the example's lifecycle model: a 15-W CFL lasts 10,000 hours, while a 60-W incandescent bulb lasts 1000 hours. Allocate one-tenth of the CFL purchase price $$C$$ to each 1000-hour period.
 
-Calculate the total cost (bulb + electricity) for the incandescent for 1000 hours. For a fair comparison, set the CFL total cost equal to the incandescent total cost and solve for the maximum CFL price. The CFL uses 1/4 the power (15 W instead of 60 W).
+The incandescent cost per 1000 hours is
 
-**Solution**
+$$\$0.25+(0.060\ \text{kW})(1000\ \text{h})(\$0.10/\text{kWh})=\$6.25.$$
 
-Calculate incandescent total cost for 1000 hours:
+The CFL uses 15 kWh, costing \$1.50. Equating the allocated total costs,
 
-<div class="equation">
-$$E_{\text{incand}} = Pt = (60 \text{ W})(1000 \text{ h}) = 60 \text{ kW·h}$$
-</div>
+$$\frac{C}{10}+\$1.50=\$6.25,\qquad C=\$47.50.$$
 
-<div class="equation">
-$$\text{Electricity cost} = (60 \text{ kW·h})(\$0.10/\text{kW·h}) = \$6.00$$
-</div>
-
-<div class="equation">
-$$\text{Total incandescent cost} = \$0.25 + \$6.00 = \$6.25$$
-</div>
-
-For the CFL running 1000 hours:
-
-<div class="equation">
-$$E_{\text{CFL}} = Pt = (15 \text{ W})(1000 \text{ h}) = 15 \text{ kW·h}$$
-</div>
-
-<div class="equation">
-$$\text{CFL electricity cost} = (15 \text{ kW·h})(\$0.10/\text{kW·h}) = \$1.50$$
-</div>
-
-For breakeven total cost over 1000 hours:
-
-<div class="equation">
-$$\text{CFL price} + \$1.50 = \$6.25$$
-</div>
-
-<div class="equation">
-$$\text{Maximum CFL price} = \$6.25 - \$1.50 = \$4.75$$
-</div>
-
-However, accounting for the CFL's longer lifetime (10,000 hours vs 1,000 hours), only 1/10 of its cost applies to this period, allowing a maximum price of \$47.50 for true lifecycle equivalence.
-
-**Discussion**
-
-The electricity savings of \$4.50 over 1000 hours means a CFL costing up to \$4.75 more than an incandescent bulb will still break even in this period. When you factor in that the CFL lasts 10× longer, the economics strongly favor CFLs. At typical CFL prices of \$1.50-\$5.00, they offer significant savings over incandescent bulbs.
-
-The maximum CFL cost for equivalent total cost over 1000 hours is \$6.25 (when accounting for the full bulb price during the comparison period).
+The maximum purchase price is **\$47.50**, assuming the stated service lives and allocating cost over the CFL's full lifetime.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1030,38 +993,17 @@ The filament diameter is reduced by a factor of 0.913 (or reduced to 91.3% of it
 
 ::: solution
 
-**Strategy**
+Use the copper resistivity from the section table, $$\rho=1.72\times10^{-8}\ \Omega\cdot\text{m}$$. The wire area is
 
-First calculate the resistance of 1 km of wire using $$R = \rho L/A$$, where $$\rho$$ for copper is $$1.68 \times 10^{-8}$$ Ω·m. Then use $$P = I^{2}R$$ to find the power loss.
+$$A=\pi(9.266\times10^{-3}/2)^2=6.743\times10^{-5}\ \text{m}^2.$$
 
-**Solution**
+$$R=\frac{\rho L}{A}=\frac{(1.72\times10^{-8})(1000)}{6.743\times10^{-5}}=0.255\ \Omega,$$
 
-Calculate the cross-sectional area:
+$$P=I^2R=(100)^2(0.255)=2.55\times10^3\ \text{W}=2.55\ \text{kW}.$$
 
-<div class="equation">
-$$A = \pi r^{2} = \pi \left(\frac{d}{2}\right)^{2} = \pi \left(\frac{9.266 \times 10^{-3} \text{ m}}{2}\right)^{2} = \pi (4.633 \times 10^{-3} \text{ m})^{2} = 6.744 \times 10^{-5} \text{ m}^{2}$$
-</div>
-
-Calculate the resistance of 1 km of wire:
-
-<div class="equation">
-$$R = \frac{\rho L}{A} = \frac{(1.68 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{6.744 \times 10^{-5} \text{ m}^{2}} = 0.249 \text{ Ω}$$
-</div>
-
-Calculate the power loss:
-
-<div class="equation">
-$$P = I^{2}R = (100 \text{ A})^{2}(0.249 \text{ Ω}) = 2490 \text{ W} = 2.49 \text{ kW}$$
-</div>
-
-**Discussion**
-
-The power loss of 2.49 kW in a kilometer of 00-gauge wire carrying 100 A is significant. This demonstrates why power transmission lines use very high voltages—by increasing voltage, the same power can be transmitted with much lower current, dramatically reducing $$I^{2}R$$ losses. For example, transmitting the same power at 10 times the voltage would reduce the current to 10 A, and the power loss would be reduced to 24.9 W (a factor of 100 reduction). This is also why thicker wire gauges are essential for high-current applications; the low resistance of 00-gauge wire (0.249 Ω/km) is necessary to keep losses manageable.
-
-The power loss is 2.49 kW.
+For fixed resistance, reducing current by a factor of ten reduces the loss by a factor of one hundred.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1407,9 +1349,7 @@ The light-rail's acceleration is adequate for urban transit where stations are c
 __Integrated Concepts__
 
 (a) An aluminum power transmission line has a resistance of $$ 0.0580 \Omega /\text{km} $$ . What is its mass per kilometer? (b) What is the mass per
-kilometer of a copper line having the same resistance? A lower resistance would
-shorten the heating time. Discuss the practical limits to speeding the heating
-by lowering the resistance.
+kilometer of a copper line having the same resistance?
 
 :::
 
@@ -1505,11 +1445,9 @@ In practice, immersion heaters are designed to balance heating speed with safety
 
 __Integrated Concepts__
 
-(a) What is the cost of heating a hot tub containing 1500 kg of water from
+(a) What is the cost of heating a hot tub containing 1500 kg of water from $$10.0\ {}^\circ\text{C}$$ to $$40.0\ {}^\circ\text{C}$$, assuming 75.0% efficiency to account for heat transfer to the surroundings? Electricity costs 9 cents/kWh.
 
-10.0\text{ºC} $$ to $$ 40.0\text{ºC} $$ , assuming 75.0% efficiency to account for heat transfer to the surroundings? The cost of electricity is $$9
-\text{cents/kW}\cdot \text{h} $$ . $$
-(b) What current was used by the 220-V AC electric heater, if this took 4.00 h?
+(b) What rms current was used by the 220-V AC electric heater if this took 4.00 h?
 
 :::
 

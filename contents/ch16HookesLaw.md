@@ -289,60 +289,19 @@ stretches 8.00 cm for a 10.0 kg load?
 
 ::: solution
 
-**Strategy**
+**(a)** $$k=\frac{mg}{x}=\frac{(10.0)(9.80)}{0.0800}=1225\ \text{N/m}\approx1.23\times10^3\ \text{N/m}.$$
 
-For part (a), we use Hooke's law, recognizing that the restoring force equals the weight of the load. For part (b), we use the spring constant from part (a) with the new displacement to find the force, then calculate mass. For part (c), we find how much the spring stretches for a 0.5 kg mass using the spring constant.
+**(b)** Retaining the unrounded spring constant,
 
-**Solution**
+$$m=\frac{kx}{g}=\frac{(1225)(0.0550)}{9.80}=6.88\ \text{kg}.$$
 
-**(a)** The weight of the load creates the restoring force:
+Equivalently, the mass ratio equals the stretch ratio: $$m=(10.0)(5.50/8.00)$$.
 
-<div class="equation">
- $$F = mg = (10.0 \text{ kg})(9.80 \text{ m/s}^2) = 98.0 \text{ N}$$
-</div>
+**(c)** The spacing of half-kilogram marks is
 
-The displacement is $$x = 8.00 \text{ cm} = 0.0800 \text{ m}$$. Using Hooke's law $$F = kx$$:
-
-<div class="equation">
- $$k = \frac{F}{x} = \frac{98.0 \text{ N}}{0.0800 \text{ m}} = 1.23 \times 10^{3} \text{ N/m}$$
-</div>
-
-**(b)** For a displacement of $$x = 5.50 \text{ cm} = 0.0550 \text{ m}$$:
-
-<div class="equation">
- $$F = kx = (1.23 \times 10^{3} \text{ N/m})(0.0550 \text{ m}) = 67.7 \text{ N}$$
-</div>
-
-The mass of the fish is:
-
-<div class="equation">
- $$m = \frac{F}{g} = \frac{67.7 \text{ N}}{9.80 \text{ m/s}^2} = 6.91 \text{ kg}$$
-</div>
-
-Rounding to three significant figures: $$6.88 \text{ kg}$$
-
-**(c)** For a 0.500 kg mass, the weight is:
-
-<div class="equation">
- $$F = mg = (0.500 \text{ kg})(9.80 \text{ m/s}^2) = 4.90 \text{ N}$$
-</div>
-
-The displacement is:
-
-<div class="equation">
- $$x = \frac{F}{k} = \frac{4.90 \text{ N}}{1.23 \times 10^{3} \text{ N/m}} = 0.00398 \text{ m} = 3.98 \text{ mm} \approx 4.00 \text{ mm}$$
-</div>
-
-**Discussion**
-
-Part (a): The spring constant of 1,230 N/m is reasonable for a fish scale. It's stiff enough that a 10 kg fish stretches the spring only 8 cm, making the scale compact and practical.
-
-Part (b): A fish that stretches the spring 5.50 cm has mass 6.88 kg, which is 68.8% of the reference mass (10.0 kg). This ratio matches the displacement ratio (5.50/8.00 = 68.8%), confirming Hooke's law's linear relationship.
-
-Part (c): The half-kilogram marks are only 4.00 mm apart. This close spacing means the scale needs fine gradations to be readable, which could make it challenging to use accurately in the field. Fishermen might appreciate this—it could make their catches appear larger if they misread between marks! The linear spacing is a direct consequence of Hooke's law: equal increments in mass produce equal increments in displacement.
+$$\Delta x=\frac{(0.500)(9.80)}{1225}=0.00400\ \text{m}=4.00\ \text{mm}.$$
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

@@ -782,42 +782,27 @@ The new flow rate is **1.60 cm³/min**. This illustrates why blood transfusions 
 
 ::: problem
 
-The pressure drop along a length of artery is 100 Pa, the radius is 10 mm, and the flow is laminar. The average speed of the blood is 15 mm/s. (a) What is the net force on the blood in this section of artery? (b) What is the power expended maintaining the flow?
+The pressure drop along a horizontal uniform section of artery is 100 Pa, its radius is 10 mm, and its steady flow is laminar with average speed 15 mm/s. (a) What is the resultant force on the blood due to the pressures at the two ends, and what is the net force when viscous drag is included? (b) What power maintains the flow?
 
 :::
 
 ::: solution
 
-**Strategy**
+**(a)** The resultant force from the end pressures is
 
-(a) The net force equals the pressure difference times the cross-sectional area.
-(b) Power equals the force times velocity, or equivalently, pressure drop times flow rate.
+$$F_P=\Delta PA=(100)\pi(0.010)^2=3.14\times10^{-2}\ \text{N}.$$
 
-**Solution**
+For steady flow through a horizontal uniform section, viscous drag balances this pressure force, so the **net force including drag is zero**.
 
-Given:
-- Pressure drop: $$\Delta P = 100 \text{ Pa}$$
-- Radius: $$r = 10 \text{ mm} = 0.010 \text{ m}$$
-- Average speed: $$v = 15 \text{ mm/s} = 0.015 \text{ m/s}$$
+**(b)** The flow rate and mechanical power supplied against the resistance are
 
-**(a)** Calculate the cross-sectional area:
-$$A = \pi r^2 = \pi (0.010 \text{ m})^2 = 3.14 \times 10^{-4} \text{ m}^2$$
+$$Q=Av=\pi(0.010)^2(0.015)=4.71\times10^{-6}\ \text{m}^3/\text{s},$$
 
-Calculate the net force:
-$$F = \Delta P \times A = (100 \text{ Pa})(3.14 \times 10^{-4} \text{ m}^2) = 3.14 \times 10^{-2} \text{ N}$$
+$$P=\Delta PQ=4.71\times10^{-4}\ \text{W}.$$
 
-**(b)** Calculate the flow rate:
-$$Q = Av = (3.14 \times 10^{-4} \text{ m}^2)(0.015 \text{ m/s}) = 4.71 \times 10^{-6} \text{ m}^3/\text{s}$$
-
-Calculate the power:
-$$P = \Delta P \times Q = (100 \text{ Pa})(4.71 \times 10^{-6} \text{ m}^3/\text{s}) = 4.71 \times 10^{-4} \text{ W}$$
-
-**Discussion**
-
-The net force on the blood is **(a) 3.14 × 10⁻² N** (about 31 millinewtons), and the power expended is **(b) 4.71 × 10⁻⁴ W** (about 0.47 milliwatts). These small values for a single artery segment multiply across the thousands of vessels in the body, explaining why the heart must continuously supply significant power to maintain blood circulation.
+The end-pressure force drives the flow while viscous resistance dissipates the supplied mechanical energy.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1170,7 +1155,7 @@ $$v_t = 40.3 \text{ m/s} \approx 145 \text{ km/h or } 90 \text{ mph}$$
 
 **Discussion**
 
-The terminal velocity formula is $$v_t = \sqrt{\frac{2\text{ mg}}{\rho A}}$$, and for a typical skydiver in spread-eagle position, the terminal velocity is approximately **40\text{ m}/s** (about 90\text{ mph}). This matches real-world skydiving experience—skydivers falling belly-down reach terminal velocities of 50-60\text{ m}/s. By tucking into a pike position (head-first, arms at sides), a skydiver reduces $$A$$ to about 0.15\text{ m}², increasing terminal velocity to over 90\text{ m}/s (200\text{ mph}), which is why position control is crucial for skydiving. Note that $$v_t \propto \sqrt{m/A}$$, so heavier skydivers or those in more streamlined positions fall faster.
+Under the stated drag model and size assumptions, the terminal speed is about **40 m/s** (90 mph). The result depends on the estimated area and on the drag coefficient, implicitly taken as one here. Reducing the projected area raises the terminal speed because $$v_t\propto\sqrt{m/A}$$.
 
 :::
 
@@ -1229,57 +1214,27 @@ The oil's viscosity is **0.138 Pa·s (or 138 mPa·s)**, and it is most likely **
 
 ::: problem
 
-(a) Verify that a 19.0% decrease in laminar flow through a tube is caused by a 5.00% decrease in radius, assuming that all other factors remain constant, as stated in the text. (b) What increase in flow is obtained from a 5.00% increase in radius, again assuming all other factors remain constant?
+(a) Calculate the percentage decrease in laminar flow through a tube caused by a 5.00% decrease in radius, with all other factors constant. Compare with the approximate 19% stated in the text. (b) What percentage increase in flow results from a 5.00% increase in radius?
 
 :::
 
 ::: solution
 
-**Strategy**
+At fixed pressure difference, viscosity, and tube length, Poiseuille's law gives $$Q\propto r^4$$.
 
-From Poiseuille's law, flow rate is proportional to $$r^4$$ when all other factors are constant. We calculate the flow ratio for both a 5% decrease and 5% increase in radius.
+**(a)** Reducing the radius by 5.00% gives
 
-**Solution**
+$$Q_2/Q_1=(0.9500)^4=0.81450625.$$
 
-From Poiseuille's law with constant pressure, viscosity, and length:
-$$Q \propto r^4$$
+The flow decreases by **18.5%** (about 19% to two significant figures).
 
-Therefore:
-$$\frac{Q_2}{Q_1} = \left(\frac{r_2}{r_1}\right)^4$$
+**(b)** Increasing the radius by 5.00% gives
 
-**(a) 5.00% decrease in radius:**
+$$Q_2/Q_1=(1.0500)^4=1.21550625,$$
 
-With $$r_2 = 0.950 r_1$$:
-$$\frac{Q_2}{Q_1} = (0.950)^4 = 0.8145$$
-
-This means:
-$$Q_2 = 0.8145 Q_1$$
-
-The decrease in flow is:
-$$\Delta Q = Q_1 - Q_2 = Q_1 - 0.8145 Q_1 = 0.1855 Q_1$$
-
-Percentage decrease:
-$$\frac{\Delta Q}{Q_1} \times 100\% = 18.55\% \approx 19.0\%$$
-
-This verifies the statement in the text.
-
-**(b) 5.00% increase in radius:**
-
-With $$r_2 = 1.050 r_1$$:
-$$\frac{Q_2}{Q_1} = (1.050)^4 = 1.2155$$
-
-The increase in flow is:
-$$\Delta Q = Q_2 - Q_1 = 1.2155 Q_1 - Q_1 = 0.2155 Q_1$$
-
-Percentage increase:
-$$\frac{\Delta Q}{Q_1} \times 100\% = 21.55\% \approx 21.6\%$$
-
-**Discussion**
-
-**(a)** A 5.00% decrease in radius causes a **19.0% decrease in flow**, confirming the text's statement. **(b)** A 5.00% increase in radius causes a **21.6% increase in flow**. Note the asymmetry: a 5% increase produces a slightly larger percentage change (21.6%) than a 5% decrease (19.0%). This occurs because of the fourth-power relationship—percentage changes are not symmetric about the original value. The dramatic sensitivity to radius ($$r^4$$ dependence) explains why blood vessel dilation and constriction are such effective mechanisms for regulating blood flow: small diameter changes produce large flow changes.
+an increase of **21.6%**. The unequal percentage changes follow from the fourth-power dependence.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1530,63 +1485,23 @@ Note that you must take into account the pressure due to the 50.0-m column of oi
 
 **Strategy**
 
-We need to find the entrance pressure that: (1) lifts oil 50 m through the pipe, (2) overcomes viscous resistance in the pipe, and (3) gives oil enough velocity to shoot 25 m high. We use projectile motion to find exit velocity, Poiseuille's law to find pressure drop, and hydrostatic pressure for the column.
+Find the exit speed from the jet height, then add the viscous pressure drop and the pressure needed to lift the oil. The constant pipe diameter makes the entrance and exit speeds equal, so their kinetic-energy terms cancel.
 
 **Solution**
 
-Given:
-- Height oil shoots: $$h_{shoot} = 25.0 \text{ m}$$
-- Pipe diameter: $$d = 0.100 \text{ m}$$ (radius $$r = 0.050 \text{ m}$$)
-- Pipe length: $$L = 50.0 \text{ m}$$
-- Oil density: $$\rho = 900 \text{ kg/m}^3$$
-- Oil viscosity: $$\eta = 1.00 \text{ Pa·s}$$
+$$v=\sqrt{2g h}=\sqrt{2(9.80)(25.0)}=22.1\ \text{m/s},\qquad Q=\pi r^2v=0.174\ \text{m}^3/\text{s}.$$
 
-**Step 1: Find exit velocity from projectile motion**
+Using the unrounded speed and the stated laminar-flow model,
 
-For oil to reach 25.0 m, using $$v^2 = 2gh$$:
-$$v = \sqrt{2gh_{shoot}} = \sqrt{2(9.80)(25.0)} = \sqrt{490} = 22.1 \text{ m/s}$$
+$$\Delta P_{\text{viscous}}=\frac{8\eta LQ}{\pi r^4}=3.54\times10^6\ \text{Pa}.$$
 
-**Step 2: Calculate flow rate**
+Bernoulli's equation with viscous losses between the pipe entrance and its atmospheric outlet gives
 
-$$Q = Av = \pi r^2 v = \pi (0.050)^2 (22.1) = 0.173 \text{ m}^3/\text{s}$$
-
-**Step 3: Find pressure drop due to viscous resistance**
-
-Using Poiseuille's law:
-$$\Delta P_{viscous} = \frac{8\eta L Q}{\pi r^4} = \frac{8(1.00)(50.0)(0.173)}{\pi (0.050)^4}$$
-
-$$\Delta P_{viscous} = \frac{69.2}{1.96 \times 10^{-5}} = 3.53 \times 10^{6} \text{ Pa}$$
-
-**Step 4: Find pressure to support oil column**
-
-$$\Delta P_{column} = \rho g L = (900)(9.80)(50.0) = 4.41 \times 10^{5} \text{ Pa}$$
-
-**Step 5: Total gauge pressure at entrance**
-
-Using Bernoulli's equation with viscous losses from entrance (point 1) to exit (point 2):
-$$P_1 + \rho g h_1 = P_2 + \rho g h_2 + \frac{1}{2}\rho v_2^2 + \Delta P_{viscous}$$
-
-At entrance (bottom): $$h_1 = 0$$, $$P_1 = P_{entrance}$$ (gauge)
-At exit (top): $$h_2 = 50 \text{ m}$$, $$P_2 = 0$$ (atmospheric), $$v_2 = 22.1 \text{ m/s}$$
-
-The oil must rise an additional 25 m, so effectively:
-$$P_{entrance} = \rho g L + \rho g h_{shoot} + \Delta P_{viscous} - \frac{1}{2}\rho v^2$$
-
-However, since the oil exits at the top of the pipe with velocity v and then coasts to 25 m, the kinetic energy at exit becomes potential energy:
-$$P_{entrance} = \rho g (L + h_{shoot}) + \Delta P_{viscous} - \frac{1}{2}\rho v^2$$
-
-But $$\frac{1}{2}\rho v^2 = \rho g h_{shoot}$$, so these terms cancel in the trajectory portion.
-
-The entrance pressure is:
-$$P_{entrance} = \rho g L + \Delta P_{viscous}$$
-$$P_{entrance} = 4.41 \times 10^5 + (2.95 - 0.44) \times 10^6$$
-$$P_{entrance} = 2.95 \times 10^{6} \text{ Pa}$$
-
-(Note: The viscous resistance calculation was overestimated; the actual value that gives the correct answer is about $$2.51 \times 10^6$$ Pa for viscous resistance.)
+$$P_{\text{gauge}}=\rho gL+\Delta P_{\text{viscous}}=4.41\times10^5+3.54\times10^6=3.98\times10^6\ \text{Pa}.$$
 
 **Discussion**
 
-The gauge pressure at the pipe entrance is approximately **2.95 × 10⁶ N/m²** (about 29 atmospheres). This enormous pressure is needed to: (1) support the weight of the 50-m oil column (contributing about $$4.4 \times 10^5$$ Pa, or 15% of total), (2) overcome viscous resistance in the pipe (the major contribution at about 85%), and (3) provide kinetic energy for the oil to shoot 25 m high after exiting. The high viscosity of crude oil requires substantial pressure to maintain laminar flow at this flow rate.
+About 89% of the required pressure overcomes viscous resistance and 11% supports the oil column. The jet height determines the speed and hence the flow rate; it does not add a separate kinetic-energy term between equal-diameter sections.
 
 :::
 

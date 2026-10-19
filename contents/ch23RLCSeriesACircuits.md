@@ -591,7 +591,7 @@ The resonant frequency is given by $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. We substit
 **Solution**
 
 <div class="equation">
-$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\ $$
+$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\
 & = & \frac{1}{2\pi\sqrt{(0.500 \times 10^{-3} \text{ H})(40.0 \times 10^{-6} \text{ F})}}\\
 & = & \frac{1}{2\pi\sqrt{2.00 \times 10^{-8}}}\\
 & = & \frac{1}{2\pi(1.414 \times 10^{-4})}\\
@@ -630,7 +630,7 @@ The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. Solving for $$C$$: 
 For the minimum frequency (500 kHz), we need maximum capacitance:
 
 <div class="equation">
-$$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\ $$
+$$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\
 & = & \frac{1}{4\pi^{2}(500 \times 10^3 \text{ Hz})^2(1.00 \times 10^{-6} \text{ H})}\\
 & = & \frac{1}{4\pi^{2}(2.50 \times 10^{11})(1.00 \times 10^{-6})}\\
 & = & \frac{1}{9.870 \times 10^6}\\
@@ -640,7 +640,7 @@ $$\begin{array}{lll}C_{\text{max}} & = & \frac{1}{4\pi^2 f_{\text{min}}^2 L}\\ $
 For the maximum frequency (1650 kHz), we need minimum capacitance:
 
 <div class="equation">
-$$\begin{array}{lll}C_{\text{min}} & = & \frac{1}{4\pi^{2} f_{\text{max}}^2 L}\\ $$
+$$\begin{array}{lll}C_{\text{min}} & = & \frac{1}{4\pi^{2} f_{\text{max}}^2 L}\\
 & = & \frac{1}{4\pi^2(1650 \times 10^3)^2(1.00 \times 10^{-6})}\\
 & = & \frac{1}{4\pi^2(2.7225 \times 10^{12})(1.00 \times 10^{-6})}\\
 & = & \frac{1}{1.075 \times 10^8}\\
@@ -678,7 +678,7 @@ The resonant frequency is $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$. To find the maximum
 For maximum frequency (minimum $$LC$$):
 
 <div class="equation">
-$$\begin{array}{lll}f_{\text{max}} & = & \frac{1}{2\pi\sqrt{L_{\text{min}}C_{\text{min}}}}\\ $$
+$$\begin{array}{lll}f_{\text{max}} & = & \frac{1}{2\pi\sqrt{L_{\text{min}}C_{\text{min}}}}\\
 & = & \frac{1}{2\pi\sqrt{(1.00 \times 10^{-9} \text{ H})(1.00 \times 10^{-12} \text{ F})}}\\
 & = & \frac{1}{2\pi\sqrt{1.00 \times 10^{-21}}}\\
 & = & \frac{1}{2\pi(1.00 \times 10^{-10.5})}\\
@@ -688,7 +688,7 @@ $$\begin{array}{lll}f_{\text{max}} & = & \frac{1}{2\pi\sqrt{L_{\text{min}}C_{\te
 For minimum frequency (maximum $$LC$$):
 
 <div class="equation">
-$$\begin{array}{lll}f_{\text{min}} & = & \frac{1}{2\pi\sqrt{L_{\text{max}}C_{\text{max}}}}\\ $$
+$$\begin{array}{lll}f_{\text{min}} & = & \frac{1}{2\pi\sqrt{L_{\text{max}}C_{\text{max}}}}\\
 & = & \frac{1}{2\pi\sqrt{(10.0 \text{ H})(0.100 \text{ F})}}\\
 & = & \frac{1}{2\pi\sqrt{1.00}}\\
 & = & \frac{1}{2\pi}\\
@@ -732,7 +732,7 @@ $$C = \frac{1}{4\pi^2 f_0^2 L}$$
 Substituting the given values:
 
 <div class="equation">
-$$\begin{array}{lll}C & = & \frac{1}{4\pi^2(1.00 \times 10^9 \text{ Hz})^2(8.00 \times 10^{-9} \text{ H})}\\ $$
+$$\begin{array}{lll}C & = & \frac{1}{4\pi^2(1.00 \times 10^9 \text{ Hz})^2(8.00 \times 10^{-9} \text{ H})}\\
 & = & \frac{1}{4\pi^{2}(1.00 \times 10^{18})(8.00 \times 10^{-9})}\\
 & = & \frac{1}{4\pi^{2}(8.00 \times 10^9)}\\
 & = & \frac{1}{3.158 \times 10^{11}}\\
@@ -781,7 +781,7 @@ $$L = \frac{1}{4\pi^{2} f_0^2 C}$$
 Substituting values:
 
 <div class="equation">
-$$\begin{array}{lll}L & = & \frac{1}{4\pi^{2}(60.0 \text{ Hz})^2(2.00 \times 10^{-6} \text{ F})}\\ $$
+$$\begin{array}{lll}L & = & \frac{1}{4\pi^{2}(60.0 \text{ Hz})^2(2.00 \times 10^{-6} \text{ F})}\\
 & = & \frac{1}{4(9.870)(3600)(2.00 \times 10^{-6})}\\
 & = & \frac{1}{2.838 \times 10^{-1}}\\
 & = & 3.52 \text{ H}\end{array} $$
@@ -824,7 +824,7 @@ $$L = \frac{1}{4\pi^2 f_0^2 C}$$
 Substituting values:
 
 <div class="equation">
-$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 \times 10^{-12} \text{ F})}\\ $$
+$$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 \times 10^{-12} \text{ F})}\\
 & = & \frac{1}{4\pi^{2}(7.744 \times 10^{15})(2.50 \times 10^{-12})}\\
 & = & \frac{1}{4\pi^{2}(1.936 \times 10^4)}\\
 & = & \frac{1}{7.641 \times 10^5}\\
@@ -836,7 +836,7 @@ $$\begin{array}{lll}L & = & \frac{1}{4\pi^2(88.0 \times 10^6 \text{ Hz})^2(2.50 
 Using the inductance from part (a) at the higher frequency:
 
 <div class="equation">
-$$\begin{array}{lll}C & = & \frac{1}{4\pi^{2} f^2 L}\\ $$
+$$\begin{array}{lll}C & = & \frac{1}{4\pi^{2} f^2 L}\\
 & = & \frac{1}{4\pi^2(108 \times 10^6)^2(1.31 \times 10^{-6})}\\
 & = & \frac{1}{4\pi^2(1.166 \times 10^{16})(1.31 \times 10^{-6})}\\
 & = & \frac{1}{6.029 \times 10^{11}}\\
@@ -954,82 +954,21 @@ An *RLC* series circuit has a  $$1.00 \text{k}\Omega $$
 
 ::: solution
 
-**Strategy**
+Use $$X_L=2\pi fL$$, $$X_C=1/(2\pi fC)$$, and $$Z=\sqrt{R^2+(X_L-X_C)^2}$$, with $$R=1000\ \Omega$$, $$L=150\ \mu\text{H}$$, and $$C=25.0\ \text{nF}$$.
 
-We use $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$ where $$X_L = 2\pi fL$$ and $$X_C = 1/(2\pi fC)$$. Current is found from $$I_{\text{rms}} = V_{\text{rms}}/Z$$, and resonant frequency from $$f_0 = 1/(2\pi\sqrt{LC})$$.
+**(a)** At 500 Hz, $$X_L=0.471\ \Omega$$ and $$X_C=12732.4\ \Omega$$, so $$Z=12771\ \Omega\approx12.8\ \text{k}\Omega$$.
 
-**Solution for (a)**
+**(b)** At 7.50 kHz, $$X_L=7.07\ \Omega$$ and $$X_C=848.8\ \Omega$$, so $$Z=1307\ \Omega\approx1.31\ \text{k}\Omega$$.
 
-At 500 Hz:
+**(c)** From $$I_{\text{rms}}=408/Z$$, the currents are **31.9 mA** at 500 Hz and **312 mA** at 7.50 kHz.
 
-<div class="equation">
-$$X_L = 2\pi(500)(150 \times 10^{-6}) = 0.471 \Omega$$
-</div>
+**(d)**
 
-<div class="equation">
-$$X_C = \frac{1}{2\pi(500)(25.0 \times 10^{-9})} = \frac{1}{7.854 \times 10^{-5}} = 12732 \Omega$$
-</div>
+$$f_0=\frac1{2\pi\sqrt{LC}}=82.2\ \text{kHz}.$$
 
-<div class="equation">
-$$Z = \sqrt{(1000)^2 + (0.471 - 12732)^2} = \sqrt{10^6 + 1.620 \times 10^8} = 12738 \Omega = 12.8 \text{ k}\Omega$$
-</div>
-
-**Solution for (b)**
-
-At 7.50 kHz:
-
-<div class="equation">
-$$X_L = 2\pi(7500)(150 \times 10^{-6}) = 7.07 \Omega$$
-</div>
-
-<div class="equation">
-$$X_C = \frac{1}{2\pi(7500)(25.0 \times 10^{-9})} = 849 \Omega$$
-</div>
-
-<div class="equation">
-$$Z = \sqrt{(1000)^2 + (7.07 - 849)^2} = \sqrt{10^6 + 7.087 \times 10^5} = 1307 \Omega = 1.31 \text{ k}\Omega$$
-</div>
-
-**Solution for (c)**
-
-At 500 Hz:
-<div class="equation">
-$$I_{\text{rms}} = \frac{408 \text{ V}}{12738 \Omega} = 0.0320 \text{ A} = 32.0 \text{ mA}$$
-</div>
-
-At 7.50 kHz:
-<div class="equation">
-$$I_{\text{rms}} = \frac{408 \text{ V}}{1307 \Omega} = 0.312 \text{ A} = 312 \text{ mA}$$
-</div>
-
-**Solution for (d)**
-
-<div class="equation">
-$$\begin{array}{lll}f_0 & = & \frac{1}{2\pi\sqrt{LC}}\\ $$
-& = & \frac{1}{2\pi\sqrt{(150 \times 10^{-6})(25.0 \times 10^{-9})}}\\
-& = & \frac{1}{2\pi\sqrt{3.75 \times 10^{-12}}}\\
-& = & \frac{1}{2\pi(1.936 \times 10^{-6})}\\
-& = & 82.2 \times 10^3 \text{ Hz} = 82.2 \text{ kHz}\end{array} $$
-</div>
-
-**Solution for (e)**
-
-At resonance, $$Z = R = 1.00 \text{ k}\Omega$$:
-
-<div class="equation">
-$$I_{\text{rms}} = \frac{408 \text{ V}}{1000 \Omega} = 0.408 \text{ A}$$
-</div>
-
-**Discussion**
-
-At 500 Hz (well below resonance), the capacitive reactance dominates and the impedance is very high, resulting in low current. At 7.50 kHz (closer to but still below resonance), the impedance is lower and current increases. At resonance (82.2 kHz), impedance is minimized to just the resistance, yielding maximum current.
-
-**Final Answer**
-
-(a) 12.8 kΩ at 500 Hz; (b) 1.31 kΩ at 7.50 kHz; (c) 32.0 mA at 500 Hz, 312 mA at 7.50 kHz; (d) 82.2 kHz; (e) 0.408 A.
+**(e)** At resonance, the reactances cancel and $$Z=R$$, so $$I_{\text{rms}}=408/1000=0.408\ \text{A}$$. This is the maximum current for the fixed voltage and resistance.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1204,7 +1143,7 @@ $$X_C = X_L - 200 = 1257 - 200 = 1057 \Omega$$
 </div>
 
 <div class="equation">
-$$C = \frac{1}{2\pi f X_C} = \frac{1}{2\pi(8000)(1057)} = 18.9 \times 10^{-9} \text{ F} = 18.9 \text{ nF}$$
+$$C = \frac{1}{2\pi f X_C} = \frac{1}{2\pi(8000)(1057)} = 18.8 \times 10^{-9} \text{ F} = 18.8 \text{ nF}$$
 </div>
 
 **Solution for (c)**
@@ -1223,7 +1162,7 @@ The 45° phase angle indicates equal contributions from resistance and net react
 
 **Final Answer**
 
-(a) The impedance is 283 Ω; (b) the capacitance is 18.9 nF; (c) the average power is 416 W.
+(a) The impedance is 283 Ω; (b) the capacitance is 18.8 nF; (c) the average power is 416 W.
 
 :::
 

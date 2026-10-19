@@ -1210,38 +1210,25 @@ Referring to [[Figure 5]](#Figure5): (a) Calculate  $${P}_{3} $$
 
 ::: solution
 
-**Strategy**
+Figure 5 has $$R_1=1.00\ \Omega$$ in series with the parallel pair $$R_2=6.00\ \Omega$$ and $$R_3=13.0\ \Omega$$, across 12.0 V.
 
-From previous examples in this module, we know $$I_3 \approx 0.74 \text{ A}$$ and $$R_3 = 13.0 \text{ Ω}$$. Use $$P = I^2R$$ to find power. For total power, use $$P = IV$$ where $$I$$ is total current and $$V$$ is source voltage.
+$$R_{\text{eq}}=1.00+\frac{6.00(13.0)}{6.00+13.0}=5.105\ \Omega,\qquad I=\frac{12.0}{R_{\text{eq}}}=2.35\ \text{A}.$$
 
-**Solution**
+The voltage across the parallel pair is $$V_p=12.0-I(1.00)=9.65\ \text{V}$$.
 
-**(a)** Calculate $$P_3$$ using $$I_3 = 0.742 \text{ A}$$ from the previous problem:
+**(a)**
 
-<div class="equation">
-$$P_3 = I_3^2 R_3 = (0.742 \text{ A})^2 (13.0 \text{ Ω}) = 7.16 \text{ W}$$
-</div>
+$$P_3=\frac{V_p^2}{R_3}=7.16\ \text{W}.$$
 
-This matches the value found in earlier examples (approximately 7.2 W), confirming our calculation.
+This is between the earlier series result of 4.68 W and parallel result of 11.1 W.
 
-**(b)** Total power supplied by source (using $$V = 12.0 \text{ V}$$ and total current $$I = 1.31 \text{ A}$$ from earlier examples):
+**(b)**
 
-<div class="equation">
-$$P_{\text{total}} = IV = (1.31 \text{ A})(12.0 \text{ V}) = 15.7 \text{ W}$$
-</div>
+$$P_{\text{source}}=VI=(12.0)(2.35)=28.2\ \text{W}.$$
 
-Sum of powers dissipated (from earlier examples): $$P_1 + P_2 + P_3 = 1.76 + 6.79 + 7.16 = 15.7 \text{ W}$$
-
-The total power supplied equals the sum of powers dissipated, confirming energy conservation.
-
-**Discussion**
-
-This problem demonstrates the principle of energy conservation in circuits. All electrical energy supplied by the source is dissipated as heat in the resistors. No energy is lost or gained; it's merely transformed from electrical to thermal energy. Any discrepancy between supplied and dissipated power would indicate an error in calculation or an incomplete circuit analysis.
-
-(a) $$P_3 = 7.16 \text{ W}$$, consistent with earlier examples. (b) Total power supplied is 15.7 W, which equals the sum of powers dissipated, confirming energy conservation.
+The individual powers are $$P_1=I^2R_1=5.52\ \text{W}$$, $$P_2=V_p^2/R_2=15.6\ \text{W}$$, and $$P_3=7.16\ \text{W}$$. Their sum agrees with 28.2 W within rounding.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

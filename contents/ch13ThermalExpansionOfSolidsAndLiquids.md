@@ -804,11 +804,11 @@ Given: $$L = 170 \text{ m}$$, $$\Delta T = -10.0\text{ºC} - 35.0\text{ºC} = -4
 
 The new height is:
 <div class="equation" >
- $$L_{\text{new}}=L+\Delta L=170 \text{ m}+(-0.053 \text{ m})=169.95 \text{ m}\approx 169.98 \text{ m} $$
+ $$L_{\text{new}}=L+\Delta L=170 \text{ m}+(-0.053 \text{ m})=169.95 \text{ m} $$
 </div>
 
 **Discussion:**
-The Washington Monument contracts by about 5.3 cm (about 2 inches) when the temperature drops by 45ºC. While this seems like a small change, it's measurable with precision instruments. This thermal contraction must be accounted for in the monument's design to prevent structural damage from thermal stresses. The monument has expansion joints that allow for this temperature-induced size change without cracking the stone.
+The Washington Monument contracts by about 5.3 cm (about 2 inches) when the temperature drops by 45ºC. While this seems like a small change, it's measurable with precision instruments. This thermal contraction must be accounted for in the monument's design to prevent structural damage from thermal stresses. The calculation estimates the height change without specifying structural details of the monument.
 
 :::
 
@@ -856,21 +856,11 @@ What is the change in length of a 3.00-cm-long column of mercury if its temperat
 
 ::: solution
 
-**Strategy:**
-Use the volume expansion equation, but for a column of liquid, the height change is related to volume change by $$\Delta L \approx \frac{\beta L\Delta T}{3}$$ for a column with constant cross-section, or we can use $$\Delta L=\beta L\Delta T$$ treating it as linear expansion in the vertical direction.
+For unconstrained isotropic expansion, each length changes with the effective linear coefficient $$\alpha=\beta/3$$. With $$\beta=180\times10^{-6}\ {}^\circ\text{C}^{-1}$$,
 
-**Solution:**
-From Table 1, for mercury: $$\beta = 180 \times 10^{-6} \text{/ºC}$$
+$$\Delta L=\frac{\beta}{3}L\Delta T=\frac{180\times10^{-6}}{3}(0.0300)(3.0)=5.4\times10^{-6}\ \text{m}.$$
 
-Given: $$L = 3.00 \text{ cm} = 0.0300 \text{ m}$$, $$\Delta T = 40.0\text{ºC} - 37.0\text{ºC} = 3.0\text{ºC}$$
-
-For a column in a narrow tube, we use the linear approximation:
-<div class="equation" >
- $$\Delta L=\frac{\beta L\Delta T}{3}=\frac{\left( 180 \times 10^{-6} \text{/ºC}\right)\left( 0.0300 \text{ m}\right)\left( 3.0\text{ºC}\right)}{3}= 5.4 \times 10^{-6}  \text{ m} $$
-</div>
-
-**Discussion:**
-The column of mercury expands by only 5.4 micrometers (0.0054 mm), which is a very small change. However, this is exactly the principle used in mercury thermometers—the expansion is amplified by using a very narrow bore tube, so that even this tiny volume change creates a noticeable change in the height of the mercury column. Mercury thermometers are effective because mercury has a relatively large coefficient of volume expansion and remains liquid over a wide temperature range.
+The length increases by **5.4 micrometers** under the stated unconstrained assumption. A column confined to a tube of fixed cross-sectional area instead has $$\Delta L=\beta L\Delta T$$; that is a different model.
 
 :::
 
@@ -966,21 +956,19 @@ Global warming will produce rising sea levels partly due to melting ice caps but
 
 ::: solution
 
-**Strategy:**
-Use the volume (or linear) expansion formula. For a column of water, we can use $$\Delta L=\frac{\beta}{3}L\Delta T$$ or approximate using linear expansion.
+**Strategy**
 
-**Solution:**
-From Table 1, for water: $$\beta = 210 \times 10^{-6} \text{/ºC}$$
+Treat the column as laterally confined, with fixed horizontal area. Its entire volume expansion therefore increases its height.
 
-For a vertical column, the height change is:
-<div class="equation" >
- $$\Delta L=\frac{\beta L\Delta T}{3}=\frac{\left( 210 \times 10^{-6} \text{/ºC}\right)\left(1000 \text{ m}\right)\left( 1.00\text{ºC}\right)}{3}= 0.070 \text{ m}= 7.0 \text{ cm} $$
-</div>
+**Solution**
 
-Alternatively, we can say $$\Delta L \approx \beta L\Delta T/3$$, since for isotropic expansion, $$\beta \approx 3\alpha$$.
+Since $$V=Ah$$ and $$\Delta V=\beta V\Delta T$$,
 
-**Discussion:**
-A 1ºC warming of a 1 km column of ocean water produces about 7 cm of sea level rise due to thermal expansion alone. The average ocean depth is about 3.7 km, so if the entire ocean warmed by 1ºC uniformly, thermal expansion would contribute roughly 26 cm (10 inches) to sea level rise. In reality, the warming is concentrated in the upper layers, but even partial ocean warming contributes significantly to sea level rise. Current estimates suggest that thermal expansion accounts for about 30-50% of observed sea level rise, with melting ice accounting for the remainder. This demonstrates that thermal expansion is a major contributor to climate change impacts.
+$$\Delta h=\frac{\Delta V}{A}=\beta h\Delta T=(210\times10^{-6}\ {}^\circ\text{C}^{-1})(1000\ \text{m})(1.00\ {}^\circ\text{C})=0.210\ \text{m}.$$
+
+**Discussion**
+
+The estimated rise is **21 cm**. Applying the same constant coefficient to an entire 3.7-km ocean column warming uniformly by 1 °C gives about **78 cm**. Actual ocean warming and the expansion coefficient vary with depth and temperature, so this is only a scale estimate.
 
 :::
 
@@ -1089,7 +1077,7 @@ Glass beaker expansion:
 
 Volume that overflows:
 <div class="equation" >
- $${V}_{\text{overflow}}=\Delta V_{\text{alcohol}}-\Delta V_{\text{glass}}= 9.35 \text{ mL}- 0.23 \text{ mL}= 9.12 \text{ mL}\approx 9.35 \text{ mL} $$
+ $${V}_{\text{overflow}}=\Delta V_{\text{alcohol}}-\Delta V_{\text{glass}}= 9.35 \text{ mL}- 0.23 \text{ mL}= 9.12 \text{ mL} $$
 </div>
 
 (b) Water expansion:
@@ -1104,7 +1092,7 @@ Volume that overflows with water:
 
 Difference:
 <div class="equation" >
- $$9.35 \text{ mL}- 1.56 \text{ mL}= 7.79 \text{ mL}\approx 7.56 \text{ mL} $$
+ $$9.12 \text{ mL}- 1.56 \text{ mL}= 7.56 \text{ mL} $$
 </div>
 
 **Discussion:**
@@ -1185,11 +1173,11 @@ Volume change due to thermal contraction:
 
 For a cylindrical cup, $$V=\pi r^{2}h$$, so:
 <div class="equation" >
- $$\Delta h=\frac{\Delta V}{\pi r^{2}}=\frac{-3.675 \text{ cm}^{3}}{\pi (3.50 \text{ cm})^{2}}=\frac{-3.675}{38.48}=-0.0955 \text{ cm}=-0.955 \text{ mm}\approx -0.832 \text{ mm} $$
+ $$\Delta h=\frac{\Delta V}{\pi r^{2}}=\frac{-3.675 \text{ cm}^{3}}{\pi (3.50 \text{ cm})^{2}}=\frac{-3.675}{38.48}=-0.0955 \text{ cm}=-0.955 \text{ mm} $$
 </div>
 
 **Discussion:**
-The calculated drop due to thermal contraction is only about 0.83 mm, much less than the observed 3.00 mm drop. This proves that thermal contraction cannot account for the observed decrease in coffee level. The physicist is correct that most of the drop is due to escaping air bubbles. When hot water is used to make coffee, it contains dissolved air that comes out of solution as bubbles as the coffee cools. These bubbles escape, reducing the total volume. This effect is much larger than thermal contraction alone.
+The calculated drop due to thermal contraction is only about 0.955 mm, much less than the observed 3.00 mm drop. This proves that thermal contraction cannot account for the observed decrease in coffee level. The physicist is correct that most of the drop is due to escaping air bubbles. When hot water is used to make coffee, it contains dissolved air that comes out of solution as bubbles as the coffee cools. These bubbles escape, reducing the total volume. This effect is much larger than thermal contraction alone.
 
 :::
 
@@ -1230,7 +1218,7 @@ Fractional volume change:
  $$\frac{\Delta V}{V_{\text{water}}}=\frac{ 9.1 \times 10^{-5}}{ 0.001}= 0.091 = 9.1\% $$
 </div>
 
-Using the bulk modulus relationship $$P=B\frac{\Delta V}{V}$$ with $$B = 2.2 \times 10^{9} $$ Pa for ice:
+Using the bulk modulus relationship $$P=B\frac{\Delta V}{V}$$ with $$B = 2.2 \times 10^{9} $$ Pa for liquid water, used here only as a rough pressure scale:
 <div class="equation" >
  $$P=\left( 2.2 \times 10^{9}  \text{Pa}\right)\left( 0.091\right)= 2.0 \times 10^{8}  \text{Pa}= 2000 \text{ atm} $$
 </div>

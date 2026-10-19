@@ -396,7 +396,7 @@ Substituting values:
 
 **Discussion**
 
-A COP of 3.61 means that for every joule of work input, the refrigerator removes 3.61 joules of heat from the cold environment. This is quite good performance, reflecting the relatively modest temperature difference of 70 K between the reservoirs. Real refrigerators operating between these temperatures would have lower COPs due to irreversibilities. The large temperature difference (70 K) between the cold and hot reservoirs makes this less efficient than a refrigerator operating with a smaller temperature difference, which is why home refrigerators (with smaller temperature differences) typically achieve COPs in the range of 4 to 6.
+A COP of 3.61 means that for every joule of work input, the refrigerator removes 3.61 joules of heat from the cold environment. This is quite good performance, reflecting the relatively modest temperature difference of 70 K between the reservoirs. Real refrigerators operating between these temperatures would have lower COPs due to irreversibilities. The large temperature difference (70 K) between the cold and hot reservoirs makes this less efficient than a refrigerator operating with a smaller temperature difference, which raises the ideal COP for a smaller temperature difference; actual performance also depends on the equipment and its operating conditions.
 
 :::
 
@@ -439,7 +439,7 @@ Substituting values:
 
 **Discussion**
 
-A COP of only 0.311 is quite low, meaning this refrigerator requires about 3.2 joules of work for every joule of heat removed from the cold environment. This poor performance results from the enormous temperature difference of 235 K (235 °C) between the liquid nitrogen temperature and ambient temperature. The extreme cold required to liquefy nitrogen (−200 °C is near nitrogen's boiling point of −196 °C) makes this process very energy-intensive. Real cryogenic refrigeration systems operating at these temperatures would have even lower COPs (perhaps 0.15 to 0.25) due to irreversibilities. This explains why producing and storing liquid nitrogen is expensive and why such systems consume significant electrical power. For comparison, a household refrigerator with a much smaller temperature difference (perhaps 40 K) can achieve COPs of 4 to 6, more than 10 times better than this cryogenic system.
+A COP of only 0.311 is quite low, meaning this refrigerator requires about 3.2 joules of work for every joule of heat removed from the cold environment. This poor performance results from the enormous temperature difference of 235 K (235 °C) between the liquid nitrogen temperature and ambient temperature. The extreme cold required to liquefy nitrogen (−200 °C is near nitrogen's boiling point of −196 °C) makes this process very energy-intensive. Real cryogenic refrigeration systems operating at these temperatures would have even lower COPs (perhaps 0.15 to 0.25) due to irreversibilities. This explains why producing and storing liquid nitrogen is expensive and why such systems consume significant electrical power. For comparison, a household refrigerator with a much smaller temperature difference (perhaps 40 K) has a higher ideal COP; its actual COP depends on losses and operating conditions.
 
 :::
 

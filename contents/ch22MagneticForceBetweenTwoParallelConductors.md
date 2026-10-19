@@ -419,7 +419,7 @@ The currents in hot and neutral wires flow in opposite directions at any instant
 
 **(d) Design considerations:**
 
-These forces (< 4 mN/m) are extremely small—far less than the tensile strength of the cord insulation. No special design features are needed. For comparison, the cord's own weight is about 30-50 N/m (for typical lamp cord), which is 10,000 times larger.
+These forces (< 4 mN/m) are extremely small—far less than the tensile strength of the cord insulation. No special design features are needed. For comparison, the cord's own weight is about 0.3–0.5 N/m (for typical lamp cord), roughly 100 times the peak magnetic force per meter.
 
 **Discussion**
 
@@ -560,44 +560,19 @@ Find the direction and magnitude of the force that each wire experiences in [[Fi
 
 ::: solution
 
-**Strategy**
+Use $$f=F/L=\mu_0I_iI_j/(2\pi r)$$. Parallel currents attract and opposite currents repel. Take rightward as $$+x$$ and upward as $$+y$$, with square side $$s=0.200\ \text{m}$$.
 
-This is a square arrangement with the top two wires carrying current out of the page (10 A each) and the bottom two carrying current into the page (5 A each). Each wire experiences forces from the other three wires.
+For the **top left wire**, the top-right wire contributes $$(1.00\times10^{-4},0)\ \text{N/m}$$; the bottom-left contributes $$(0,5.00\times10^{-5})\ \text{N/m}$$; and the bottom-right contributes $$(-2.50\times10^{-5},2.50\times10^{-5})\ \text{N/m}$$. Thus
 
-**Solution**
+$$\boldsymbol f_{\text{TL}}=(7.50\hat x+7.50\hat y)\times10^{-5}\ \text{N/m}.$$
 
-*Known quantities:*
-- Top wires: $$I_{top} = 10.0 \text{ A}$$ (out of page)
-- Bottom wires: $$I_{bottom} = 5.00 \text{ A}$$ (into page)
-- Side length: $$s = 20.0 \text{ cm} = 0.200 \text{ m}$$
-- Diagonal: $$d = s\sqrt{2} = 0.283 \text{ m}$$
+Its magnitude is **1.06 × 10⁻⁴ N/m**, directed 45° upward and toward the other top wire. The top-right force is its horizontal mirror image.
 
-For each wire, we calculate forces from all three others and add vectorially. Due to symmetry:
-- The two top wires experience equal but mirror-image forces
-- The two bottom wires experience equal but mirror-image forces
+For the **bottom left wire**, the bottom-right contributes $$(2.50\times10^{-5},0)$$; the top-left contributes $$(0,-5.00\times10^{-5})$$; and the top-right contributes $$(-2.50\times10^{-5},-2.50\times10^{-5})$$, all in N/m. Therefore
 
-**Top left wire (10 A out):**
-- From top right (same direction, attractive): pulls right along top edge
-- From bottom left (opposite, repulsive): pushes up along left edge
-- From bottom right (opposite, repulsive): pushes up and left along diagonal
+$$\boldsymbol f_{\text{BL}}=-7.50\times10^{-5}\hat y\ \text{N/m}.$$
 
-Net force on each top wire: directed upward and outward (away from center).
-
-**Bottom left wire (5 A in):**
-- From bottom right (same direction, attractive): pulls right
-- From top left (opposite, repulsive): pushes down
-- From top right (opposite, repulsive): pushes down and left along diagonal
-
-Net force on each bottom wire: directed downward and outward.
-
-Due to the complexity of the calculation, the numerical results require careful vector addition of all components.
-
-**Discussion**
-
-In this symmetric configuration, the forces on opposite corners are mirror images. The system would tend to expand, with all wires pushing outward from the center.
-
-**By symmetry: Top wires experience upward and outward forces; bottom wires experience downward and outward forces. The exact magnitudes require vector addition of three force contributions each.**
+Both bottom wires feel **7.50 × 10⁻⁵ N/m straight downward**. The four force vectors sum to zero, as required for these internal pair forces.
 
 :::
-
 </div>

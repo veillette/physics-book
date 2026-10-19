@@ -587,7 +587,7 @@ The average kinetic energy of atoms in the solar corona is about 100 times great
 ::: problem
 
 The escape velocity of any object from Earth is 11.2 km/s. (a) Express this speed in m/s and km/h. (b) At what temperature would oxygen molecules (molecular mass is equal to 32.0 g/mol) have an average velocity  $${v}_{\text{rms}} $$
- equal to Earth's escape velocity of 11.1 km/s?
+ equal to Earth's escape velocity of 11.2 km/s?
 
 :::
 
@@ -614,11 +614,11 @@ Converting to km/h:
 
 Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
 <div class="equation" >
- $$T=\frac{m{v}_{\text{rms}}^{2}}{3k_{B}}=\frac{\left( 5.32 \times 10^{-26}  \text{kg}\right){\left( 1.11 \times 10^{4}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 1.58 \times 10^{5}  \text{K} $$
+ $$T=\frac{m{v}_{\text{rms}}^{2}}{3k_{B}}=\frac{\left( 5.32 \times 10^{-26}  \text{kg}\right){\left( 1.12 \times 10^{4}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 1.61 \times 10^{5}  \text{K} $$
 </div>
 
 **Discussion:**
-This extremely high temperature (158,000 K) is much higher than any naturally occurring temperature in Earth's atmosphere. This explains why Earth retains its oxygen atmosphere—at normal atmospheric temperatures, very few oxygen molecules have speeds approaching escape velocity. Lighter molecules like hydrogen and helium, however, can reach escape velocity at lower temperatures, which is why Earth has lost most of its primordial hydrogen and helium.
+This extremely high temperature (161,000 K) is much higher than any naturally occurring temperature in Earth's atmosphere. This explains why Earth retains its oxygen atmosphere—at normal atmospheric temperatures, very few oxygen molecules have speeds approaching escape velocity. Lighter molecules like hydrogen and helium, however, can reach escape velocity at lower temperatures, which is why Earth has lost most of its primordial hydrogen and helium.
 
 :::
 
@@ -687,30 +687,17 @@ This incredibly high temperature of about 3 billion kelvin is typical for nuclea
 
 ::: problem
 
-Suppose that the average velocity  $$\left({v}_{\text{rms}}\right) $$
- of carbon dioxide molecules (molecular mass is equal to 44.0 g/mol) in a flame is found to be  $$ 1.05 \times 10^{5}  \text{m/s} $$ .
- What temperature does this represent?
+Suppose that the rms speed $$v_{\text{rms}}$$ of carbon dioxide molecules (molar mass 44.0 g/mol) in a flame is $$1.05\times10^3\ \text{m/s}$$. What temperature does this represent?
 
 :::
 
 ::: solution
 
-**Strategy:**
-Use the rms speed equation and solve for temperature.
+The rms speed satisfies $$v_{\text{rms}}=\sqrt{3RT/M}$$. Thus, with $$M=0.0440\ \text{kg/mol}$$,
 
-**Solution:**
-First find the mass of a CO₂ molecule:
-<div class="equation" >
- $$m=\frac{ 44.0 \times 10^{-3}  \text{kg/mol}}{ 6.02 \times 10^{23}  \text{molecules/mol}}= 7.31 \times 10^{-26}  \text{kg} $$
-</div>
+$$T=\frac{Mv_{\text{rms}}^2}{3R}=\frac{(0.0440)(1.05\times10^3)^2}{3(8.31)}=1.95\times10^3\ \text{K}.$$
 
-Rearranging $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to solve for $$T$$:
-<div class="equation" >
- $$T=\frac{m{v}_{\text{rms}}^{2}}{3k_{B}}=\frac{\left( 7.31 \times 10^{-26}  \text{kg}\right){\left( 1.05 \times 10^{5}  \text{m/s}\right)}^{2}}{3\left( 1.38 \times 10^{-23}  \text{J/K}\right)}= 1.95 \times 10^{7}  \text{K} $$
-</div>
-
-**Discussion:**
-This temperature of about 19.5 million kelvin is extraordinarily high—far beyond any chemical flame, which typically reaches only a few thousand kelvin. This temperature is comparable to the temperature in the core of the Sun (about 15 million K) where nuclear fusion occurs. Such extreme temperatures are not found in ordinary flames. This problem likely describes conditions in a very exotic environment such as a nuclear explosion, a stellar interior, or possibly an extremely high-energy plasma experiment. At such temperatures, matter exists as a fully ionized plasma with nuclei stripped of all electrons.
+This is about 1670 °C, a plausible flame temperature.
 
 :::
 
@@ -799,55 +786,17 @@ There are two important isotopes of uranium—  $${}^{235}\text{U} $$
 
 ::: solution
 
-**Strategy:**
-(a) Use $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$ to find the ratio of velocities. At the same temperature, the ratio depends only on mass. (b) Set up equations for both isotopes and find when the difference equals 1.00 m/s. (c) Evaluate the practical implications.
+**(a)** At equal temperature, the lighter molecules move faster:
 
-**Solution:**
-(a) At the same temperature:
-<div class="equation" >
- $$\frac{{v}_{\text{rms,235}}}{{v}_{\text{rms,238}}}=\sqrt{\frac{m_{238}}{m_{235}}}=\sqrt{\frac{352.0}{349.0}}=\sqrt{1.00859}= 1.00429 $$
-</div>
+$$\frac{v_{235}}{v_{238}}=\sqrt{\frac{M_{238}}{M_{235}}}=\sqrt{\frac{352.0}{349.0}}=1.00429.$$
 
-The lighter isotope moves about 0.429% faster.
+**(b)** Use the molar masses in kg/mol and retain their digits when subtracting:
 
-(b) Using $${v}_{\text{rms}}=\sqrt{\frac{3k_{B}T}{m}}$$:
-<div class="equation" >
- $${v}_{\text{rms,235}}-{v}_{\text{rms,238}}= 1.00 \text{ m/s} $$
-</div>
+$$\Delta v=\sqrt{3RT}\left(\frac{1}{\sqrt{0.3490}}-\frac{1}{\sqrt{0.3520}}\right).$$
 
-<div class="equation" >
- $$\sqrt{\frac{3k_{B}T}{m_{235}}}-\sqrt{\frac{3k_{B}T}{m_{238}}}= 1.00 \text{ m/s} $$
-</div>
+$$T=\frac{(1.00)^2}{3(8.31)\left(1/\sqrt{0.3490}-1/\sqrt{0.3520}\right)^2}=768\ \text{K}\approx495\ {}^\circ\text{C}.$$
 
-This can be rewritten as:
-<div class="equation" >
- $$\sqrt{3k_{B}T}\left(\frac{1}{\sqrt{m_{235}}}-\frac{1}{\sqrt{m_{238}}}\right)= 1.00 \text{ m/s} $$
-</div>
-
-First find the molecular masses in kg:
-- $$m_{235}= 349.0 \times 10^{-3} / 6.02 \times 10^{23}= 5.80 \times 10^{-25}$$ kg
-- $$m_{238}= 352.0 \times 10^{-3} / 6.02 \times 10^{23}= 5.85 \times 10^{-25}$$ kg
-
-<div class="equation" >
- $$\sqrt{3k_{B}T}\left(\frac{1}{\sqrt{ 5.80 \times 10^{-25}}}-\frac{1}{\sqrt{ 5.85 \times 10^{-25}}}\right)= 1.00 $$
-</div>
-
-<div class="equation" >
- $$\sqrt{3k_{B}T}\left( 1.313 \times 10^{12}- 1.307 \times 10^{12}\right)= 1.00 $$
-</div>
-
-<div class="equation" >
- $$\sqrt{3k_{B}T}\left( 6 \times 10^{9}\right)= 1.00 $$
-</div>
-
-<div class="equation" >
- $$T=\frac{(1.00)^{2}}{3k_{B}(6 \times 10^{9})^{2}}=\frac{1}{3( 1.38 \times 10^{-23})( 3.6 \times 10^{19})}= 672 \text{ K}= 399\text{ºC} $$
-</div>
-
-(c) Yes, this technique is very difficult! The velocity difference is less than 0.5%, requiring many stages of separation (diffusion through barriers) to achieve significant enrichment. The process must be done at high temperature (around 400ºC) to achieve even a 1 m/s difference. Historically, gaseous diffusion plants were enormous facilities with thousands of stages, consuming vast amounts of energy. This is why uranium enrichment is technically challenging and why newer methods (like gas centrifuges) have largely replaced diffusion.
-
-**Discussion:**
-This problem illustrates why uranium enrichment was such a challenge during the Manhattan Project and remains a proliferation concern today. The tiny mass difference (less than 1%) between isotopes results in minuscule velocity differences, requiring massive industrial plants with thousands of separation stages. Modern centrifuge methods exploit the same mass difference but are more efficient.
+**(c)** Yes. The speed difference is only about 0.43%, so many diffusion stages are needed for substantial separation.
 
 :::
 

@@ -1014,36 +1014,13 @@ about the premises?
 
 ::: solution
 
-**Strategy**
+**(a)** The cross-sectional area is $$A=(10.0)(2.00)=20.0\ \text{m}^2$$, so
 
-We calculate the velocity using $$Q = Av$$, then evaluate whether the result is physically reasonable for a mountain stream.
+$$v=\frac{Q}{A}=\frac{100\,000}{20.0}=5.00\times10^3\ \text{m/s}.$$
 
-**Solution**
+**(b)** This speed is supersonic in both air and water. The corresponding dynamic pressure scale is $$\tfrac12\rho v^2\approx1.25\times10^{10}\ \text{Pa}$$, far beyond what could drive an ordinary stream.
 
-Given:
-- Stream width: $$w = 10.0 \text{ m}$$
-- Stream depth: $$d = 2.00 \text{ m}$$
-- Flow rate: $$Q = 100\,000 \text{ m}^3/\text{s}$$
-
-**(a)** Calculate the cross-sectional area:
-$$A = w \times d = (10.0 \text{ m})(2.00 \text{ m}) = 20.0 \text{ m}^2$$
-
-Calculate the average velocity:
-$$v = \frac{Q}{A} = \frac{100\,000 \text{ m}^3/\text{s}}{20.0 \text{ m}^2} = 5000 \text{ m/s}$$
-
-**(b)** This velocity is approximately **5000 m/s** (5 km/s or about 18,000 km/h). This is unreasonable because:
-- It is about 15 times the speed of sound in air (343 m/s)
-- It exceeds Earth's escape velocity (11.2 km/s) by nearly half
-- Typical fast-flowing rivers have velocities of 1-10 m/s; even extreme flash floods rarely exceed 20 m/s
-- Water flowing at this speed would vaporize due to friction and impact forces
-
-**(c)** The unreasonable premise is the stated flow rate. A flow rate of 100,000 m³/s is impossibly large for a stream only 10 m wide and 2 m deep. For comparison:
-- The Amazon River (the world's largest by volume) has a flow rate of about 200,000 m³/s, but it is 11 km wide and 50 m deep
-- A reasonable flow rate for a mountain stream of these dimensions during spring runoff might be 50-500 m³/s, giving velocities of 2.5-25 m/s
-
-**Discussion**
-
-This problem illustrates the importance of checking whether given values lead to physically reasonable results. The stated flow rate would require either an impossibly high velocity (as calculated) or a much larger cross-sectional area. A more realistic flow rate for a 10 m × 2 m stream would be about 100-200 m³/s, yielding velocities of 5-10 m/s.
+**(c)** The stated flow rate is inconsistent with the small stream cross section. For example, a speed of $$5\ \text{m/s}$$ through this area would give $$Q=100\ \text{m}^3/\text{s}$$.
 
 :::
 

@@ -520,37 +520,17 @@ Apply the loop rule to loop abcdefghija in [[Figure 8]](#Figure8).
 
 ::: solution
 
-**Strategy**
+Traverse the outer loop abcdefghija in Figure 8. The top branch carries $$I_1$$ and the bottom branch carries $$I_3$$, both in the traversal direction. The sources contribute $$+\mathcal E_1-\mathcal E_4+\mathcal E_3$$. Therefore
 
-Traverse the loop abcdefghija, applying the sign conventions for potential changes across resistors and emfs.
+$$\mathcal E_1-\mathcal E_4+\mathcal E_3-I_1(R_1+r_1+R_5)-I_3(R_3+r_3+r_4)=0.$$
 
-**Solution**
+With the printed values,
 
-Traversing clockwise:
-- a to b: through $$R_1$$ with $$I_1$$: $$-I_1 R_1$$
-- b to c: through $$r_1$$ with $$I_1$$: $$-I_1 r_1$$
-- c to d: through emf₁ from - to +: $$+\text{emf}_1$$
-- d to e: through $$R_5$$ with $$I_1$$: $$-I_1 R_5$$
-- e to f: through $$R_4$$ with $$I_3$$: $$-I_3 R_4$$
-- f to g: through $$r_4$$ with $$I_3$$: $$-I_3 r_4$$
-- g to h: through emf₄ from - to +: $$+\text{emf}_4$$
-- h to i: through $$R_3$$ with $$I_3$$: $$-I_3 R_3$$
-- i to j: through $$r_3$$ with $$I_3$$: $$-I_3 r_3$$
-- j to a: through emf₃ from + to -: $$-\text{emf}_3$$
+$$24.0-36.0+6.0-25.1I_1-78.25I_3=0.$$
 
-Sum equals zero:
-<div class="equation">
-$$-I_1 R_1 - I_1 r_1 + \text{emf}_1 - I_1 R_5 - I_3 R_4 - I_3 r_4 + \text{emf}_4 - I_3 R_3 - I_3 r_3 - \text{emf}_3 = 0$$
-</div>
-
-**Discussion**
-
-This equation relates $$I_1$$ and $$I_3$$ using the loop that connects both branches of the circuit.
-
-The loop equation is: $$-I_1(R_1 + r_1 + R_5) - I_3(R_3 + r_3 + R_4 + r_4) + \text{emf}_1 + \text{emf}_4 - \text{emf}_3 = 0$$.
+There is no resistor $$R_4$$ in this figure.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -583,44 +563,29 @@ the [Problem-Solving Strategies for Series and Parallel Resistors](../contents/c
 
 **Strategy**
 
-Follow the systematic approach: (1) draw the circuit and label currents, (2) apply junction rule, (3) apply loop rule to get enough independent equations, (4) solve the system, (5) check reasonableness.
+Use the labeled current directions in Figure 8, read each cell polarity from its long positive plate, and write one junction equation and two independent loop equations.
 
 **Solution**
 
-**Step 1:** Circuit is given in Figure 8. Label currents $$I_1$$, $$I_2$$, $$I_3$$ as shown.
+At junction a, $$I_3=I_1+I_2$$. The top branch has resistance $$5.0+0.10+20=25.1\ \Omega$$, the middle branch $$40+0.50=40.5\ \Omega$$, and the bottom branch $$78+0.05+0.20=78.25\ \Omega$$.
 
-**Step 2:** Apply junction rule at point a:
-<div class="equation">
-$$I_3 = I_1 + I_2$$
-</div>
+Loop akledcba gives
 
-**Step 3:** Apply loop rules (assuming typical values from the figure):
+$$48.0-40.5I_2+25.1I_1-24.0=0.$$
 
-Loop akledcba (already given in previous problem):
-<div class="equation">
-$$\text{emf}_2 - I_2 r_2 - I_2 R_2 + I_1 R_5 + I_1 r_1 - \text{emf}_1 + I_1 R_1 = 0$$
-</div>
+For the outer loop abcdefghija, the emf sum is $$+24.0-36.0+6.0$$:
 
-Loop abcdefghija:
-<div class="equation">
-$$-I_1(R_1 + r_1 + R_5) - I_3(R_3 + r_3 + R_4 + r_4) + \text{emf}_1 + \text{emf}_4 - \text{emf}_3 = 0$$
-</div>
+$$24.0-36.0+6.0-25.1I_1-78.25I_3=0.$$
 
-**Step 4:** Solve the system of three equations for $$I_1$$, $$I_2$$, $$I_3$$. (Without specific values from Figure 8, we cannot provide numerical results, but the method is established.)
+Solving these with the junction equation gives
 
-**Step 5:** Check that:
-- Junction rule is satisfied
-- All loop equations are satisfied
-- Current magnitudes and signs are reasonable
+$$I_1=-0.345\ \text{A},\qquad I_2=0.379\ \text{A},\qquad I_3=0.0340\ \text{A}.$$
 
-**Discussion**
+**Check**
 
-The problem-solving strategy ensures systematic analysis of complex circuits. The three equations (one junction, two loops) allow solving for the three unknown currents. Without specific numerical values from the figure, we've established the framework for solution.
-
-The solution requires the specific emf and resistance values from Figure 8 to obtain numerical current values.
+The negative $$I_1$$ means flow opposite its arrow. The third loop gives $$48.0-40.5I_2-36.0+6.0-78.25I_3=0$$, consistent with the solution. Substituting unrounded currents satisfies all three loop equations.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -652,37 +617,27 @@ Find the currents flowing in the circuit in [[Figure 7]](#Figure7).
 
 ::: solution
 
-**Strategy**
+Use the labeled directions and the cell polarities in Figure 7. The junction equation at b is
 
-Apply Kirchhoff's rules systematically: identify junctions, apply junction rule, set up loop equations, and solve for all currents.
+$$I_1=I_2+I_3.$$
 
-**Solution**
+The left, middle, and right branch resistances are 35.5 Ω, 6.25 Ω, and 9.25 Ω. The 12-V cell has its positive plate below, and the 24-V cell has its positive plate to the right. Thus, taking node e as zero potential,
 
-Without specific numerical values from Figure 7, we establish the method:
+$$V_b=18.0-35.5I_1=-3.00+6.25I_3=12.0+9.25I_2.$$
 
-**Junction rule** at junction b (or e):
-<div class="equation">
-$$I_1 = I_2 + I_3$$
-</div>
+Equating the three expressions gives two independent equations:
 
-**Loop rule** for loop containing emf₁ and emf₂:
-Apply loop rule traversing through the various resistors and emf sources, summing potential changes to zero.
+$$35.5I_1+6.25I_3=21.0,$$
 
-**Loop rule** for another independent loop:
-Choose a second loop to provide a third independent equation.
+$$6.25I_3-9.25I_2=15.0.$$
 
-**Solve the system** of three equations for $$I_1$$, $$I_2$$, $$I_3$$.
+Solving yields
 
-**Check** that junction and loop rules are satisfied.
+$$I_1=0.381\ \text{A},\qquad I_2=-0.814\ \text{A},\qquad I_3=1.20\ \text{A}.$$
 
-**Discussion**
-
-Figure 7 shows a circuit with four emf sources, requiring careful application of Kirchhoff's rules. The specific current values depend on the given emf and resistance values in the figure. The systematic method ensures all currents are found consistently.
-
-Solution requires specific values from Figure 7 for numerical results.
+Thus $$I_2$$ flows opposite its arrow. The remaining loop condition is $$35.5I_1+9.25I_2=6.00$$, which the unrounded solution also satisfies.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

@@ -524,48 +524,15 @@ result? (c) Which assumptions are responsible?
 
 ::: solution
 
-**Strategy**
+**(a)** From $$E=\tfrac12CV^2$$,
 
-Use the energy equation $$E = \frac{1}{2}CV^{2}$$ and solve for capacitance. Then evaluate whether the result is physically reasonable.
+$$C=\frac{2E}{V^2}=\frac{2(9.60\times10^3)}{(12.0)^2}=133\ \text{F}.$$
 
-**Solution**
+**(b)** This is very large for a conventional capacitor, but modern supercapacitor modules can provide engine-starting energy. The numerical result is not inherently impractical with that technology.
 
-**(a)** Solve for capacitance:
-
-$$E = \frac{1}{2}CV^{2}$$
-
-$$C = \frac{2E}{V^2} = \frac{2(9.60 \times 10^3 \text{ J})}{(12.0 \text{ V})^2}$$
-
-$$C = \frac{1.92 \times 10^4 \text{ J}}{144 \text{ V}^2}$$
-
-$$C = 133 \text{ F}$$
-
-**(b)** This capacitance is unreasonably large. A 133 farad capacitor at 12 V would be enormous. To put this in perspective:
-- Traditional electrolytic capacitors of this size would weigh hundreds of kilograms
-- Even modern supercapacitors rated for 133 F would be the size of a large battery pack
-- The physical volume would be impractical for vehicle applications
-
-**(c)** The unreasonable assumption is that a capacitor operating at only 12 V could practically store the energy needed to start a truck engine. The problem is the low voltage—energy stored scales with $$V^2$$, so higher voltages dramatically reduce the required capacitance. At 12 V, an enormous capacitance is needed.
-
-**Discussion**
-
-This is why vehicles use batteries rather than capacitors for starting. Lead-acid batteries store energy through chemical reactions, achieving much higher energy density than capacitors. However, capacitors are sometimes used in hybrid systems—for example, supercapacitors can assist during engine starting when operating at higher voltages (48 V or more) or in regenerative braking systems where quick charge/discharge cycles are beneficial.
-
-For comparison, if the voltage were increased to 400 V (like in some hybrid vehicles):
-$$C = \frac{2(9.60 \times 10^3)}{(400)^2} = 0.12 \text{ F} = 120 \text{ mF}$$
-
-This is much more reasonable and achievable with modern supercapacitors.
-
-**Final Answer**
-
-(a) The required capacitance is **133 F**.
-
-(b) This is unreasonable because such a capacitor would be far too large and heavy for practical use in a truck.
-
-(c) The assumption that a capacitor at only 12 V could store the required energy is unreasonable. The low operating voltage requires an impractically large capacitance.
+**(c)** The outdated assumption is that no practical capacitor can supply engine-starting energy at low voltage. A real design must account for voltage droop, internal resistance, and the starter's minimum operating voltage. Since the capacitor cannot deliver all its stored energy while maintaining 12.0 V, a usable design would need more than the ideal minimum calculated here. [Eaton describes engine-starting supercapacitor modules](https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/brochure/eaton-supercapacitors-provide-reliable-start-up-for-engine-design.pdf).
 
 :::
-
 </div>
 
 ::: glossary

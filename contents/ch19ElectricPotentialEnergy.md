@@ -1107,7 +1107,7 @@ $$T = \frac{4.60 \times 10^{-16} \text{ J}}{4.14 \times 10^{-23} \text{ J/K}} = 
 
 **Discussion**
 
-The calculated temperature of about 11 million K is similar to the temperature at the Sun's core (15 million K). This is not a coincidence—nuclear fusion in the Sun requires bringing hydrogen nuclei close enough together to fuse, which requires overcoming their Coulomb repulsion. The separation distance of 1 picometer ($$10^{-12}$$ m) is roughly the distance at which nuclear forces can take over from the repulsive Coulomb force. Note that quantum tunneling allows fusion to occur at temperatures somewhat lower than this classical estimate would suggest, which is why fusion occurs in the Sun despite these enormous energy barriers.
+The calculated temperature of about 11 million K is similar to the temperature at the Sun's core (15 million K). This is not a coincidence—nuclear fusion in the Sun requires bringing hydrogen nuclei close enough together to fuse, which requires overcoming their Coulomb repulsion. The specified separation of 1 picometer ($$10^{-12}$$ m) is still about a thousand times larger than the roughly femtometer ($$10^{-15}$$ m) range of the nuclear force. Note that quantum tunneling allows fusion to occur at temperatures somewhat lower than this classical estimate would suggest, which is why fusion occurs in the Sun despite these enormous energy barriers.
 
 **(a) The potential energy is $$2.30 \times 10^{-16}$$ J or 1.44 keV.**
 

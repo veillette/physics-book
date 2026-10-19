@@ -440,34 +440,13 @@ A proton has a magnetic field due to its spin on its axis. The field is similar 
 
 ::: solution
 
-**Strategy**
+For the equivalent single current loop, the maximum torque is $$\tau_{\max}=IAB$$. Retaining the unrounded area,
 
-We model the proton's magnetic moment as a circular current loop and use the torque formula$$\tau_{\max} = NIAB$$. The area is$$ A = \pi r^2$$ where$$ r$$ is the "radius" of the effective current loop.
+$$\tau_{\max}=I\pi r^2B=(1.05\times10^4)\pi(0.650\times10^{-15})^2(2.50)=3.48\times10^{-26}\ \text{N}\cdot\text{m}.$$
 
-**Solution**
-
-*Known quantities:*
-- Equivalent radius:$$ r = 0.650 \times 10^{-15} \text{ m}$$
-- Equivalent current:$$ I = 1.05 \times 10^{4} \text{ A}$$
-- Magnetic field:$$ B = 2.50 \text{ T}$$
-- Number of turns:$$ N = 1$$
-
-*Area of the loop:*
-$$ A = \pi r^2 = \pi (0.650 \times 10^{-15} \text{ m})^2 = 1.33 \times 10^{-30} \text{ m}^2$$
-
-*Maximum torque:*
-$$\tau_{\max} = NIAB = (1)(1.05 \times 10^{4} \text{ A})(1.33 \times 10^{-30} \text{ m}^2)(2.50 \text{ T})$$
-
-$$\tau_{\max} = 3.49 \times 10^{-26} \text{ N·m}$$
-
-**Discussion**
-
-This tiny torque on a single proton is indeed significant at the atomic scale. It's responsible for nuclear magnetic resonance (NMR) and MRI imaging. The torque causes protons to precess in the magnetic field at a characteristic frequency (the Larmor frequency), which is detected to create medical images. The enormous "equivalent current" comes from the extremely rapid quantum mechanical spin of the proton.
-
-**The maximum torque on the proton is$$3.48 \times 10^{-26}$$ N·m.**
+This equivalent current-loop model describes the proton's magnetic moment, not literal rotation of a classical charged sphere.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -508,7 +487,7 @@ $$\tau = (200)(100 \text{ A})(0.785 \text{ m}^2)(3.00 \times 10^{-5} \text{ T})$
 
 $$\tau = 0.471 \text{ N·m}$$
 
-Direction: The torque is$$\boldsymbol{\tau} = \boldsymbol{\mu} \times \boldsymbol{B}$$ (west × north = upward, but torque tends to align moment with field). The torque acts to rotate the loop so that its moment aligns with the field—this means the torque is directed **downward** (or the loop tries to tip so the west-pointing moment rotates toward north).
+Direction: The torque is$$\boldsymbol{\tau} = \boldsymbol{\mu} \times \boldsymbol{B}$$ (west × north = downward). The torque acts to rotate the loop so that its moment aligns with the field—this means the torque is directed **downward** (or the loop tries to tip so the west-pointing moment rotates toward north).
 
 **(b) Practical application as a motor:**
 

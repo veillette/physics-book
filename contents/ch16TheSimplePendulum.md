@@ -823,74 +823,17 @@ Suppose the length of a clock's pendulum is changed by 1.000%, exactly at noon o
 
 ::: solution
 
-**Strategy**
+Since $$T\propto\sqrt L$$, the elapsed time indicated by the clock is
 
-A change in length changes the period. Since $$T \propto \sqrt{L}$$, a 1% change in length produces a 0.5% change in period. We need to consider both cases: length increased by 1% and length decreased by 1%.
+$$t_{\text{clock}}=\frac{24.00\ \text{h}}{\sqrt{L_{\text{new}}/L_{\text{old}}}}.$$
 
-**Solution**
+If the length increases by 1.000%, $$t_{\text{clock}}=24/\sqrt{1.01000}=23.88089\ \text{h}$$. Starting at noon, the clock reads **11:52.85 AM** the next day (about 11:52:51).
 
-The ratio of new to old period is:
+If the length decreases by 1.000%, $$t_{\text{clock}}=24/\sqrt{0.99000}=24.12091\ \text{h}$$. It reads **12:07.25 PM** (about 12:07:15).
 
-<div class="equation">
- $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{\frac{L_{\text{new}}}{L_{\text{old}}}}$$
-</div>
-
-**Case 1: Length increased by 1.000%** ($$L_{\text{new}} = 1.01000 L_{\text{old}}$$)
-
-<div class="equation">
- $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{1.01000} = 1.004988$$
-</div>
-
-The clock runs slow. In 24.00 real hours, the clock measures:
-
-<div class="equation">
- $$t_{\text{clock}} = \frac{24.00}{1.004988} = 23.88 \text{ hours}$$
-</div>
-
-Converting to hours and minutes: $$23.88 \text{ h} = 23 \text{ h } 52.8 \text{ min}$$
-
-So the clock reads 11:52.8 AM (or 11:53 AM to the nearest minute).
-
-**Case 2: Length decreased by 1.000%** ($$L_{\text{new}} = 0.99000 L_{\text{old}}$$)
-
-<div class="equation">
- $$\frac{T_{\text{new}}}{T_{\text{old}}} = \sqrt{0.99000} = 0.99499$$
-</div>
-
-The clock runs fast. In 24.00 real hours, the clock measures:
-
-<div class="equation">
- $$t_{\text{clock}} = \frac{24.00}{0.99499} = 24.12 \text{ hours}$$
-</div>
-
-Converting: $$24.12 \text{ h} = 24 \text{ h } 7.2 \text{ min}$$
-
-So the clock reads 12:07.2 PM (or 12:07 PM to the nearest minute).
-
-**Discussion**
-
-A mere 1.000% change in pendulum length causes the clock to be off by about 7.2 minutes per day, which is quite significant for practical timekeeping. This demonstrates the sensitivity of pendulum clocks to length variations.
-
-The physical mechanism is clear: if the length increases by 1%, the period increases by $$\sqrt{1.01} \approx 1.005$$ (about 0.5%). This means each swing takes slightly longer, so the clock runs slow. Over 24 hours, the accumulated error is substantial—the clock loses about 7 minutes. Conversely, decreasing the length makes the period shorter, so the clock runs fast and gains about 7 minutes per day.
-
-This sensitivity has important practical implications:
-
-**Temperature effects**: Most materials expand when heated. A steel pendulum rod with thermal expansion coefficient $$\alpha \approx 11 \times 10^{-6}/°C$$ would change length by 0.011% per degree Celsius. A 10 °C temperature increase would change the length by 0.11%, causing the clock to lose about 47 seconds per day. This is why precision pendulum clocks used temperature-compensated pendulums (like the "gridiron" pendulum using alternating brass and steel rods, or mercury-filled pendulums where the mercury rises as the rod expands, keeping the effective length constant).
-
-**Adjustment precision**: To keep accurate time, pendulum lengths must be maintained to better than 0.01% precision. This requires careful mechanical design and stable operating conditions.
-
-**Calibration**: The two answers (11:52.8 and 12:07.2) show that without knowing whether the length increased or decreased, we can't determine which way the clock error goes. In practice, clock adjusters would observe whether the clock gains or loses time over several days, then adjust accordingly.
-
-The calculation to four-digit precision (23.88 hours and 24.12 hours) is necessary to distinguish the small but significant timing errors. This problem illustrates why pendulum clocks, while historically important and accurate for their time, have been replaced by quartz and atomic clocks that are far less sensitive to environmental variations.
-
-**Answer**
-
-If length increased by 1.000%: clock reads 11:52:48 (or 11:52.8 hours)
-
-If length decreased by 1.000%: clock reads 12:07:12 (or 12:07.2 hours)
+Retaining digits before converting hours to minutes avoids a significant rounding error in the clock reading.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">

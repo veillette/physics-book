@@ -384,7 +384,7 @@ Part (b): The force on the 2.00 μC charge is 2.16 N, which is substantial for s
 
 **Strategy**
 
-For part (a), the electric force on the electron must equal its weight to support it. Since $$F = qE$$ and weight $$w = mg$$, we can set $$qE = mg$$ and solve for $$E$$. The electron has negative charge, so the field must point upward to produce a downward force that opposes the upward weight (or equivalently, the field points upward to push the negative charge upward). For part (b), we compare this field to typical electric fields to understand the relative strength of electrostatic versus gravitational forces.
+For part (a), the electric force on the electron must equal its weight to support it. Since $$F = qE$$ and weight $$w = mg$$, we can set $$qE = mg$$ and solve for $$E$$. The electron has negative charge, so a downward electric field produces the upward electric force needed to balance its downward weight. For part (b), we compare this field to typical electric fields to understand the relative strength of electrostatic versus gravitational forces.
 
 **Solution**
 
@@ -588,7 +588,7 @@ Part (a): Earth has a net negative charge of approximately $$-6.76 \times 10^5$$
 
 Part (b): The acceleration of $$2.63 \times 10^{13} \text{ m/s}^2$$ is enormous—about $$10^{12}$$ times greater than $$g$$. However, this represents the acceleration in the absence of collisions with air molecules. In reality, free electrons in air undergo frequent collisions that limit their net motion. This calculation shows that even Earth's relatively weak atmospheric field can strongly affect free charges.
 
-Part (c): An object with mass $$2.45 \times 10^{-18}$$ kg (about 2.45 femtograms) with one extra electron would have its weight exactly balanced by the electric force. This is roughly the mass of a few thousand water molecules. This demonstrates that Earth's electric field, while weak compared to laboratory fields, can still support extremely light charged particles. In practice, small charged dust particles and water droplets can be suspended or moved by Earth's electric field, contributing to atmospheric electrical phenomena.
+Part (c): An object with mass $$2.45 \times 10^{-18}$$ kg (about 2.45 femtograms) with one extra electron would have its weight exactly balanced by the electric force. This is roughly the mass of 8 × 10⁷ water molecules. This demonstrates that Earth's electric field, while weak compared to laboratory fields, can still support extremely light charged particles. In practice, small charged dust particles and water droplets can be suspended or moved by Earth's electric field, contributing to atmospheric electrical phenomena.
 
 ::::
 
@@ -840,7 +840,7 @@ Substituting values:
 
 The angular velocity of the electron in the hydrogen atom is approximately $$4.12 \times 10^{16}$$ rad/s. This is an extraordinarily high angular velocity! To put it in perspective, the electron completes one orbit in time $$T = \frac{2\pi}{\omega} = \frac{2\pi}{4.12 \times 10^{16}} \approx 1.52 \times 10^{-16}$$ seconds, or about 0.152 femtoseconds.
 
-The linear speed of the electron would be $$v = \omega r = (4.12 \times 10^{16})(0.530 \times 10^{-10}) \approx 2.18 \times 10^6$$ m/s, which is about 0.7% the speed of light. This demonstrates that electrons in atoms move at relativistic speeds, which is why quantum mechanics is necessary for an accurate description of atomic structure.
+The linear speed of the electron would be $$v = \omega r = (4.12 \times 10^{16})(0.530 \times 10^{-10}) \approx 2.18 \times 10^6$$ m/s, which is about 0.7% the speed of light. At this speed, relativistic corrections are small. Quantum mechanics is needed to explain atomic stability, discrete energy levels, and the electron probability distribution, independently of relativistic effects.
 
 This classical "Bohr model" calculation gives values in the right ballpark but is ultimately inadequate—the true description requires quantum mechanics, where the electron doesn't actually orbit in a well-defined path but exists in a probability cloud. Nevertheless, this calculation illustrates the connection between electrostatic and mechanical principles and shows why atomic processes occur on such short timescales.
 
@@ -1273,7 +1273,7 @@ This experiment was crucial in establishing the electron's charge as a fundament
 
 <div class="exercise" data-element-type="problems-exercises">
 
-:::: problem
+::: problem
 
 **Integrated Concepts**
 
@@ -1287,66 +1287,25 @@ the Coulomb force is to equal the weight of $$m $$ .
 ![Four charged particles each having same magnitude q are placed at the corner of a parallelogram. The sides have length d and fifth charge Q is at a distance d above the plane of intersection of the diagonal of this parallelogram.](../resources/Figure_18_08_12.jpg 'Four equal charges on the corners of a horizontal square support the weight of a fifth charge located directly above the center of the square.')
 {: #Figure10}
 
-::::
+:::
 
-:::: solution
+::: solution
 
-**Strategy**
+**(a)** Each corner is a horizontal distance $$d/\sqrt2$$ from the center. At height $$h=d$$, the corner-to-charge distance is $$r=d\sqrt{3/2}$$. For like-signed charges, the horizontal force components cancel and the vertical components add:
 
-This problem combines electrostatics with statics. The four corner charges each exert a force on the central charge $$Q$$. By symmetry, the horizontal components cancel, leaving only vertical components. We set the total upward electrostatic force equal to the weight and solve for $$q$$. For part (b), we analyze whether small displacements result in restoring or amplifying forces.
+$$F_z=\frac{4k|qQ|d}{r^3}=\frac{8\sqrt2\,k|qQ|}{3\sqrt3\,d^2}.$$
 
-**Solution**
+Setting $$F_z=mg$$ gives
 
-**(a)** First, find the distance from each corner charge to $$Q$$.
+$$|q|=\frac{3\sqrt3\,mgd^2}{8\sqrt2\,k|Q|}\approx\frac{0.459\,mgd^2}{k|Q|}.$$
 
-The diagonal of a square with side $$d$$ is $$\sqrt{2}d$$, so the distance from the center to a corner is $$\frac{\sqrt{2}d}{2} = \frac{d}{\sqrt{2}}$$.
+**(b)** Along the vertical axis,
 
-The distance from a corner charge to $$Q$$ (using Pythagorean theorem):
+$$F_z(h)=\frac{4k|qQ|h}{(h^2+d^2/2)^{3/2}},$$
 
-<div class="equation">
- $$r = \sqrt{\left(\frac{d}{\sqrt{2}}\right)^2 + d^2} = \sqrt{\frac{d^2}{2} + d^2} = \sqrt{\frac{3d^2}{2}} = d\sqrt{\frac{3}{2}}$$
-</div>
+whose derivative is negative at $$h=d$$. A small upward displacement reduces the upward force, so gravity pulls the charge back; a downward displacement increases it. The equilibrium is therefore **stable vertically**. Horizontal displacements produce forces away from the axis, so it is **unstable laterally** and hence unstable overall.
 
-The force from one corner charge on $$Q$$:
-
-<div class="equation">
- $$F_{\text{one}} = k\frac{qQ}{r^2} = k\frac{qQ}{3d^2/2} = \frac{2kqQ}{3d^2}$$
-</div>
-
-The vertical component of this force (angle $$\theta$$ from vertical where $$\cos\theta = \frac{d}{r}$$):
-
-<div class="equation">
- $$F_{\text{vertical}} = F_{\text{one}}\cos\theta = \frac{2kqQ}{3d^2} \cdot \frac{d}{d\sqrt{3/2}} = \frac{2kqQ}{3d^2} \cdot \sqrt{\frac{2}{3}} = \frac{2kqQ\sqrt{2}}{3\sqrt{3}d^2}$$
-</div>
-
-Total upward force from all four charges:
-
-<div class="equation">
- $$F_{\text{total}} = 4F_{\text{vertical}} = \frac{8kqQ\sqrt{2}}{3\sqrt{3}d^2} = \frac{8kqQ}{3\sqrt{6}d^2}$$
-</div>
-
-Setting this equal to the weight:
-
-<div class="equation">
- $$\frac{8kqQ}{3\sqrt{6}d^2} = mg$$
-</div>
-
-Solving for $$q$$:
-
-<div class="equation">
- $$q = \frac{3\sqrt{6}mgd^{2}}{8kQ}$$
-</div>
-
-**(b)** This equilibrium is **unstable** in the vertical direction. If $$Q$$ is displaced slightly upward, the electrostatic forces decrease (inverse square law), so weight dominates and pulls it back. However, if displaced downward, the electrostatic forces increase and can't restore it—gravity pulls it further down. Additionally, any horizontal displacement leads to a net horizontal force away from center (no restoring force), making the equilibrium unstable laterally as well.
-
-**Discussion**
-
-Part (a): The required charge on each corner is $$q = \frac{3\sqrt{6}mgd^{2}}{8kQ}$$. This expression shows that $$q$$ is proportional to the mass (heavier objects need stronger electrostatic support), proportional to $$d^2$$ (larger separation requires more charge to compensate for weaker fields), and inversely proportional to $$Q$$ (larger central charge experiences stronger forces from given corner charges).
-
-Part (b): While this configuration can theoretically support the weight, it's unstable—any perturbation grows rather than diminishes. This is similar to balancing a ball on top of a hill. In practice, such a levitation system would require active feedback control to maintain stability, making it impractical for passive levitation.
-
-::::
-
+:::
 </div>
 
 <div class="exercise"  data-element-type="problems-exercises">
@@ -1460,7 +1419,7 @@ The acceleration:
 
 **(b)** This result is absurdly unreasonable:
 - The acceleration is about $$10^{10}$$ times Earth's gravitational acceleration
-- At this acceleration for even a microsecond, the drops would reach relativistic speeds
+- The initial acceleration would change the speed by about 1.8 × 10⁵ m/s in a microsecond if it remained constant; the force actually decreases as the drops separate
 - The drops would be torn apart by such enormous forces
 - This acceleration is physically impossible for macroscopic objects
 
@@ -1472,7 +1431,7 @@ The acceleration:
 
 **Discussion**
 
-The calculated acceleration of $$1.80 \times 10^{11} \text{ m/s}^2$$ is nonsensical. For comparison, typical accelerations in everyday life range from $$1-100 \text{ m/s}^2$$, and even extreme accelerations (like explosions) rarely exceed $$10^5 \text{ m/s}^2$$. An acceleration of $$10^{11} \text{ m/s}^2$$ would accelerate the drop to the speed of light in about 3 microseconds, violating special relativity.
+The calculated acceleration of $$1.80 \times 10^{11} \text{ m/s}^2$$ is nonsensical. For comparison, typical accelerations in everyday life range from $$1-100 \text{ m/s}^2$$, and even extreme accelerations (like explosions) rarely exceed $$10^5 \text{ m/s}^2$$. Extrapolating the initial acceleration of $$1.80\times10^{11}$$ m/s² as constant would give a time of about 1.7 milliseconds to reach the speed of light. That extrapolation fails because separation changes the force and relativistic dynamics limits the speed.
 
 In real thunderstorms, raindrops acquire charges of about 1-100 pC (picocoulombs), which is about 10 million times smaller than the 1 mC assumed in this problem. This creates manageable forces and explains why raindrops don't fly apart despite the electrical activity in thunderstorms. This problem illustrates the importance of using realistic charge values when analyzing electrostatic situations.
 

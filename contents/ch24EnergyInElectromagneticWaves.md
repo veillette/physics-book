@@ -374,56 +374,17 @@ An AM radio transmitter broadcasts 50.0 kW of power uniformly in all directions.
 
 ::: solution
 
-<div class="title">
-Strategy
-</div>
+**(a)** Half the power spreads over a hemisphere, as the hint specifies:
 
-For part (a), since the ground absorbs the downward radiation, only half the power spreads over a hemisphere. The intensity at distance $$r$$ is $$I=\frac{P/2}{2\pi r^{2}}=\frac{P}{4\pi r^{2}}$$. For part (b), we use $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}$$ and solve for $$E_{0}$$.
+$$I=\frac{P/2}{2\pi r^2}=\frac{P}{4\pi r^2}=\frac{5.00\times10^4}{4\pi(3.00\times10^4)^2}=4.42\times10^{-6}\ \text{W/m}^2.$$
 
-<div class="title">
-Solution
-</div>
+**(b)** For the peak electric field,
 
-**(a)** Given:
-- Power: $$P=50.0 \text{ kW}=5.00 \times 10^{4} \text{ W}$$
-- Distance: $$r=30.0 \text{ km}=3.00 \times 10^{4} \text{ m}$$
+$$E_0=\sqrt{\frac{2I}{c\epsilon_0}}=\sqrt{\frac{2(4.42\times10^{-6})}{(3.00\times10^8)(8.85\times10^{-12})}}=5.77\times10^{-2}\ \text{V/m}.$$
 
-The power spreads over a hemisphere (half a sphere), so:
-
-<div class="equation">
- $$I=\frac{P}{2\pi r^{2}}=\frac{5.00 \times 10^{4} \text{ W}}{2\pi \left(3.00 \times 10^{4} \text{ m}\right)^{2}}=\frac{5.00 \times 10^{4}}{2\pi \times 9.00 \times 10^{8}}$$
-</div>
-
-<div class="equation">
- $$I=\frac{5.00 \times 10^{4}}{5.655 \times 10^{9}}=8.84 \times 10^{-6} \text{ W/m}^{2}=8.84 \text{ }\mu\text{W/m}^{2}$$
-</div>
-
-**(b)** From $$I=\frac{c\epsilon_{0}E_{0}^{2}}{2}$$, solve for $$E_{0}$$:
-
-<div class="equation">
- $$E_{0}=\sqrt{\frac{2I}{c\epsilon_{0}}}=\sqrt{\frac{2\left(8.84 \times 10^{-6} \text{ W/m}^{2}\right)}{\left(3.00 \times 10^{8} \text{ m/s}\right)\left(8.85 \times 10^{-12} \text{ C}^{2}/(\text{N}\cdot\text{m}^{2})\right)}}$$
-</div>
-
-<div class="equation">
- $$E_{0}=\sqrt{\frac{1.768 \times 10^{-5}}{2.655 \times 10^{-3}}}=\sqrt{6.66 \times 10^{-3}}=0.0816 \text{ V/m}=81.6 \text{ mV/m}$$
-</div>
-
-<div class="title">
-Discussion
-</div>
-
-The intensity of 8.84 μW/m² at 30 km is very weak—more than 100 million times weaker than sunlight. Yet AM radios can easily detect this signal because they're specifically tuned to resonate at the transmission frequency, amplifying the weak signal. The electric field of 81.6 mV/m is tiny compared to everyday electric fields, but the radio's antenna and circuitry are designed to pick up these weak oscillating fields.
-
-The inverse-square law is evident here: doubling the distance reduces the intensity by a factor of 4. This is why AM radio stations need powerful transmitters (often 50 kW or more) to cover large areas. The hemisphere model (rather than a full sphere) is reasonable because the ground reflects some radiation upward but also absorbs much of it, and we're interested in the intensity above ground level. In reality, the ground's conductivity, atmospheric conditions, and time of day (affecting ionospheric reflection) all influence actual signal strength.
-
-<div class="title">
-Final Answer
-</div>
-
-(a) The intensity 30.0 km away is $$8.84 \times 10^{-6}$$ W/m² or 8.84 μW/m². (b) The maximum electric field strength at this distance is 81.6 mV/m.
+Thus the intensity is **4.42 µW/m²** and the maximum field is **57.7 mV/m**. The assumed ground absorption removes the downward half of the power; it does not concentrate all transmitter power into the upper hemisphere.
 
 :::
-
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -614,7 +575,7 @@ Solution
 Discussion
 </div>
 
-These numbers are extraordinary! The magnetic field of 333 T is about 7 million times stronger than Earth's magnetic field and rivals the strongest magnetic fields ever produced in laboratories (which can damage equipment and are dangerous to humans). The intensity of $$1.33 \times 10^{19}$$ W/m² is incomprehensibly large—about 10 trillion times the intensity of sunlight!
+These numbers are extraordinary! The magnetic field of 333 T is about 7 million times stronger than Earth's magnetic field and rivals the strongest magnetic fields ever produced in laboratories (which can damage equipment and are dangerous to humans). The intensity of $$1.33 \times 10^{19}$$ W/m² is incomprehensibly large—about 10¹⁶ times the intensity of sunlight!
 
 Such extreme intensities are achieved by concentrating enormous power into a tiny area for a very brief time. This particular laser delivers 13.3 kJ of energy to a 1 mm² area in just 1 nanosecond, corresponding to an instantaneous power of $$1.33 \times 10^{13}$$ W or 13.3 terawatts—more than the total electrical generating capacity of the entire United States, concentrated in a pinpoint!
 
@@ -972,7 +933,7 @@ The vehicle speed of 15.0 m/s (54 km/h or about 34 mph) is a reasonable speed on
 
 The radar unit mixes the returned signal with the original transmitted signal to produce a beat frequency—the difference between the two frequencies. This beat frequency is proportional to the vehicle's speed and is in the audio range (150 Hz in this case), making it easy to measure electronically.
 
-The beauty of this technique is its precision: a beat frequency of 150 Hz measured from a 1.5 GHz carrier translates to a very accurate speed measurement. The frequency of 1.50 GHz (1500 MHz) is typical of X-band police radar, though K-band (24 GHz) and Ka-band (35 GHz) are also common in modern systems.
+The beauty of this technique is its precision: a beat frequency of 150 Hz measured from a 1.5 GHz carrier translates to a very accurate speed measurement. The assumed 1.50 GHz carrier is a hypothetical input for this calculation; X-band police radar instead operates near 10.5 GHz.
 
 The approximation $$v \ll c$$ is extremely valid here: the vehicle speed is only $$5 \times 10^{-8}$$ times the speed of light, so relativistic effects are completely negligible. This same Doppler technique is used in weather radar (to measure wind speeds), astronomical observations (to measure stellar velocities), and medical ultrasound (to measure blood flow).
 

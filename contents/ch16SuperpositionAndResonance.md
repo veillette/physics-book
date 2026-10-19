@@ -405,7 +405,7 @@ This absolute value equation has two solutions:
 
 **Discussion**
 
-Both frequencies are physically possible and would produce the same beat frequency of 1.50 Hz. In piano tuning, this ambiguity is resolved by listening carefully or using a reference tuning fork. If the beats get faster when you slightly tighten the string (increasing its frequency), the string is currently below the target frequency (258.50 Hz). If the beats get slower, the string is above the target (261.50 Hz).
+Both frequencies are physically possible and would produce the same beat frequency of 1.50 Hz. In piano tuning, this ambiguity is resolved by listening carefully or using a reference tuning fork. If the beats get faster when you slightly tighten the string (increasing its frequency), the string is already above the target frequency (261.50 Hz). If the beats initially get slower, the string is below the target (258.50 Hz).
 
 The beat frequency of 1.50 Hz would be easily noticeable—the sound would pulse or throb 1.5 times per second, creating an unpleasant warbling effect. Piano tuners adjust strings until the beat frequency disappears completely, indicating the two strings are perfectly matched. For middle C, having both strings at exactly 260.00 Hz produces a pure, stable tone without the interference pattern that creates beats.
 
@@ -517,11 +517,11 @@ From the first equation:
 
 **Discussion**
 
-The two engines produce sounds that are very close in frequency—differing by only 0.5 Hz out of about 4100 Hz, or about 0.012%. This small difference creates a beat frequency of 0.5 Hz, meaning the sound intensity would fluctuate twice per second (two complete beats per second).
+The two engines produce sounds that are very close in frequency—differing by only 0.5 Hz out of about 4100 Hz, or about 0.012%. This small difference creates a beat frequency of 0.5 Hz, meaning the sound intensity would fluctuate once every two seconds.
 
 This beating effect would be audible to passengers and crew as a slow pulsing or throbbing in the engine noise. While not particularly disturbing at such a low beat frequency, pilots and mechanics monitor engine sounds for such beats because they can indicate that one engine is operating at slightly different conditions than the other—perhaps due to different fuel flow, temperature, or mechanical wear.
 
-The average frequency of 4100 Hz is in the upper range of human hearing and corresponds to a high-pitched whine characteristic of jet engines. The precision needed to match the two engines to better than 0.5 Hz at 4100 Hz demonstrates the remarkably uniform operating conditions modern jet engines can maintain.
+The average frequency of 4100 Hz is within the normal audible range and corresponds to a high-pitched whine characteristic of jet engines. The precision needed to match the two engines to better than 0.5 Hz at 4100 Hz demonstrates the remarkably uniform operating conditions modern jet engines can maintain.
 
 :::
 
