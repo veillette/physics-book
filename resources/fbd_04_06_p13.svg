@@ -5,22 +5,22 @@
 <line x1="40" y1="150" x2="381" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="390,150 380,154.2 380,145.8" fill="#555555"/>
 <line x1="200" y1="310" x2="200" y2="39" stroke="#555555" stroke-width="1.5"/><polygon points="200,30 204.2,40 195.8,40" fill="#555555"/>
 <path d="M 240.96 178.68 A 50 50 0 0 0 250 150" fill="none" stroke="#222222" stroke-width="1.5"/>
-<line x1="200" y1="150" x2="287" y2="150" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="298,150 286,155.04 286,144.96" fill="#c0675e"/>
-<line x1="298" y1="150" x2="298" y2="208" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="298,219 292.96,207 303.04,207" fill="#c0675e"/>
-<line x1="200" y1="150" x2="200" y2="51" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,40 205.04,52 194.96,52" fill="#b03a2e"/>
+<line x1="200" y1="150" x2="211.82" y2="150" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="219.68,150 210.82,153.72 210.82,146.28" fill="#c0675e"/>
+<line x1="219.68" y1="150" x2="219.68" y2="158.58" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="219.68,163.78 217.07,157.58 222.28,157.58" fill="#c0675e"/>
+<line x1="200" y1="150" x2="200" y2="57.22" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,46.22 205.04,58.22 194.96,58.22" fill="#b03a2e"/>
 <line x1="200" y1="150" x2="200" y2="229" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,240 194.96,228 205.04,228" fill="#b03a2e"/>
-<line x1="200" y1="150" x2="289.29" y2="212.52" stroke="#b03a2e" stroke-width="3.5"/><polygon points="298.3,218.83 285.58,216.07 291.36,207.82" fill="#b03a2e"/>
-<line x1="200" y1="150" x2="113" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="102,150 114,144.96 114,155.04" fill="#b03a2e"/>
+<line x1="200" y1="150" x2="211.64" y2="158.15" stroke="#b03a2e" stroke-width="3.5"/><polygon points="219.68,163.78 208.22,161.3 213.43,153.86" fill="#b03a2e"/>
+<line x1="200" y1="150" x2="188.18" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="180.32,150 189.18,146.28 189.18,153.72" fill="#b03a2e"/>
 <circle cx="200" cy="150" r="6" fill="#1f3a5f"/>
 <text x="190" y="126" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">cart</text>
 <text x="406" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
 <text x="200" y="20" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
-<text x="212" y="59" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="212" y="65.22" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
 <text x="178" y="235" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
-<text x="309.77" y="242.86" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
-<text x="284" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 35°</tspan></text>
-<text x="310" y="214" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 35°</tspan></text>
-<text x="116" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="235" y="199" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="285" y="132" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 35°</tspan></text>
+<text x="305" y="212" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 35°</tspan></text>
+<text x="165" y="177" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
 <text x="266.76" y="176.3" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">35°</tspan></text>
 <text x="100" y="66" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
 </svg>

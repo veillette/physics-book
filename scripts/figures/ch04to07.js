@@ -115,18 +115,23 @@ export default {
     // Free-body diagram.
     const cx = 560;
     const cy = 165;
+    const tx = 135;
+    const ty = tx * Math.tan(rad(tip));
     svg.text(cx, 32, 'Free-body diagram', { size: 17, math: false });
-    svg.arrow(cx, cy, cx - 110, cy, { color: FORCE, width: 3, head: 14 });
-    svg.arrow(cx, cy, cx + 110, cy, { color: FORCE, width: 3, head: 14 });
-    svg.arrow(cx, cy, cx, cy - 90, { color: FORCE, width: 3, head: 14 });
-    svg.arrow(cx, cy, cx, cy - 45, { color: FORCE, width: 3, head: 14 });
-    svg.arrow(cx, cy, cx, cy + 90, { color: FORCE, width: 3, head: 14 });
+    svg.arrow(cx, cy, cx - tx, cy, { color: FORCE, width: 3, head: 14 });
+    svg.arrow(cx, cy, cx + tx, cy, { color: FORCE, width: 3, head: 14 });
+    // Separate the equal upward components so both remain visible.
+    svg.arrow(cx - 7, cy, cx - 7, cy - ty, { color: FORCE, width: 3, head: 6 });
+    svg.arrow(cx + 7, cy, cx + 7, cy - ty, { color: FORCE, width: 3, head: 6 });
+    svg.arrow(cx, cy, cx, cy + 2 * ty, { color: FORCE, width: 3, head: 9 });
     svg.circle(cx, cy, 6, { fill: COLORS.blue });
-    svg.text(cx + 10, cy - 82, '**T**_{Ly}', { size: 19, anchor: 'start' });
-    svg.text(cx + 10, cy - 40, '**T**_{Ry}', { size: 19, anchor: 'start' });
+    svg.text(cx - 16, cy - 45, '**T**_{Ly}', { size: 19, anchor: 'end' });
+    svg.text(cx + 16, cy - 45, '**T**_{Ry}', { size: 19, anchor: 'start' });
+    svg.line(cx - 20, cy - 32, cx - 7, cy - ty - 3, { width: 1 });
+    svg.line(cx + 20, cy - 32, cx + 7, cy - ty - 3, { width: 1 });
     svg.text(cx - 60, cy + 22, '**T**_{Lx}', { size: 19 });
     svg.text(cx + 60, cy + 22, '**T**_{Rx}', { size: 19 });
-    svg.text(cx - 10, cy + 60, '**W**', { size: 19, anchor: 'end' });
+    svg.text(cx + 12, cy + 2 * ty + 8, '**W**', { size: 19, anchor: 'start' });
     svg.text(cx, cy + 135, '\\rm{net} F_x = 0;  \\rm{net} F_y = 0', { size: 18 });
     return svg.render();
   },
@@ -523,7 +528,7 @@ export default {
     });
     const a = 305;
     const b = 210;
-    const c = Math.sqrt(a * a - b * b) * 0.95;
+    const c = Math.sqrt(a * a - b * b);
     // (a)
     const cx = 395;
     const cy = 380;

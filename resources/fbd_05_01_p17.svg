@@ -6,23 +6,23 @@
 <line x1="230" y1="320" x2="230" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="230,40 234.2,50 225.8,50" fill="#555555"/>
 <line x1="30" y1="330" x2="30" y2="30" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
 <path d="M 230 110 A 70 70 0 0 0 193.95 120" fill="none" stroke="#222222" stroke-width="1.5"/>
-<path d="M 310 180 A 80 80 0 0 0 307.27 159.29" fill="none" stroke="#222222" stroke-width="1.5"/>
-<line x1="230" y1="180" x2="335" y2="180" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="346,180 334,185.04 334,174.96" fill="#c0675e"/>
-<line x1="346" y1="180" x2="346" y2="160" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="346,149 351.04,161 340.96,161" fill="#c0675e"/>
-<line x1="230" y1="180" x2="169.74" y2="79.71" stroke="#b03a2e" stroke-width="3.5"/><polygon points="164.08,70.28 174.58,77.97 165.94,83.16" fill="#b03a2e"/>
-<line x1="230" y1="180" x2="335.29" y2="151.79" stroke="#b03a2e" stroke-width="3.5"/><polygon points="345.91,148.94 335.62,156.92 333.02,147.18" fill="#b03a2e"/>
+<path d="M 280 180 A 50 50 0 0 0 278.3 167.06" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="230" y1="180" x2="284.73" y2="180" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="295.73,180 283.73,185.04 283.73,174.96" fill="#c0675e"/>
+<line x1="295.73" y1="180" x2="295.73" y2="169.31" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="295.73,162.39 299.06,170.31 292.4,170.31" fill="#c0675e"/>
+<line x1="230" y1="180" x2="169.94" y2="80.04" stroke="#b03a2e" stroke-width="3.5"/><polygon points="164.27,70.61 174.77,78.3 166.13,83.49" fill="#b03a2e"/>
+<line x1="230" y1="180" x2="285.1" y2="165.24" stroke="#b03a2e" stroke-width="3.5"/><polygon points="295.73,162.39 285.44,170.36 282.83,160.63" fill="#b03a2e"/>
 <line x1="230" y1="180" x2="230" y2="296" stroke="#b03a2e" stroke-width="3.5"/><polygon points="230,307 224.96,295 235.04,295" fill="#b03a2e"/>
 <circle cx="230" cy="180" r="6" fill="#1f3a5f"/>
 <text x="218" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">climber</text>
 <text x="38" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="start">cliff</text>
 <text x="426" y="186" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
 <text x="230" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
-<text x="156.86" y="58.28" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
-<text x="359.43" y="148.32" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">leg</tspan><tspan dy="-6"></tspan></text>
-<text x="332" y="204" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
-<text x="358" y="172" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="157.06" y="58.61" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="325" y="139" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">leg</tspan><tspan dy="-6"></tspan></text>
+<text x="265" y="215" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="312" y="181" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
 <text x="242" y="302" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
 <text x="206.48" y="100.45" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">31°</tspan></text>
-<text x="325.18" y="172.72" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">15°</tspan></text>
+<text x="298.44" y="196.77" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">15°</tspan></text>
 <text x="340" y="76" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
 </svg>

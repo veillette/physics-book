@@ -8,7 +8,7 @@
 <polygon points="70,16 74,26 66,26" fill="#333333"/>
 <text x="287.5" y="379.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">t</tspan></text>
 <text x="42" y="190.95" font-family="Helvetica, Arial, sans-serif" font-size="17" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 42 185)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Position</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">x</tspan></text>
-<path d="M 97.07 312.1 C 101.58 296.94 111.24 248.72 124.13 221.17 C 137.02 193.61 153.46 166.92 174.4 146.77 C 195.34 126.62 220.64 110.77 249.8 100.27 C 278.96 89.76 314.89 84.77 349.37 83.73 C 383.84 82.7 438.78 92.34 456.67 94.07" fill="none" stroke="#c0392b" stroke-width="3" stroke-linejoin="round"/>
+<path d="M 97.07 312.1 C 101.58 296.94 111.24 248.72 124.13 221.17 C 137.02 193.61 153.46 166.92 174.4 146.77 C 195.34 126.62 220.64 110.77 249.8 100.27 C 278.96 89.76 314.89 83.73 349.37 83.73 C 383.84 83.73 438.78 92.34 456.67 94.07" fill="none" stroke="#c0392b" stroke-width="3" stroke-linejoin="round"/>
 <circle cx="97.07" cy="312.1" r="6" fill="#c0392b"/>
 <circle cx="124.13" cy="221.17" r="6" fill="#c0392b"/>
 <circle cx="174.4" cy="146.77" r="6" fill="#c0392b"/>

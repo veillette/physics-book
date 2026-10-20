@@ -484,9 +484,10 @@ export class Svg {
 
 /**
  * Catmull-Rom spline through the points, returned as an SVG path string of
- * cubic Bézier segments (the same smoothing spreadsheet charts use).
+ * cubic Bézier segments. `horizontalTangents` lists point indices where both
+ * handles must be horizontal, preserving the zero slopes used in exercises.
  */
-export function smoothPath(points, tension = 0.5) {
+export function smoothPath(points, tension = 0.5, { horizontalTangents = [] } = {}) {
   if (points.length < 3) {
     return points.map(([x, y], k) => `${k ? 'L' : 'M'} ${fmt(x)} ${fmt(y)}`).join(' ');
   }
@@ -499,6 +500,8 @@ export function smoothPath(points, tension = 0.5) {
     const p3 = points[k + 2] || p2;
     const c1 = [p1[0] + (p2[0] - p0[0]) * t, p1[1] + (p2[1] - p0[1]) * t];
     const c2 = [p2[0] - (p3[0] - p1[0]) * t, p2[1] - (p3[1] - p1[1]) * t];
+    if (horizontalTangents.includes(k)) c1[1] = p1[1];
+    if (horizontalTangents.includes(k + 1)) c2[1] = p2[1];
     d += ` C ${fmt(c1[0])} ${fmt(c1[1])} ${fmt(c2[0])} ${fmt(c2[1])} ${fmt(p2[0])} ${fmt(p2[1])}`;
   }
   return d;
@@ -725,11 +728,13 @@ export class Plot {
       markerSize = 5,
       smooth = false,
       tension = 0.5,
+      horizontalTangents = [],
       dash,
     } = {}
   ) {
     const px = points.map(([a, b]) => this.P(a, b));
-    if (smooth) this.svg.path(smoothPath(px, tension), { color, width, dash });
+    if (smooth)
+      this.svg.path(smoothPath(px, tension, { horizontalTangents }), { color, width, dash });
     else this.svg.polyline(px, { color, width, dash });
     if (marker) for (const [a, b] of px) this.svg.marker(a, b, marker, { color, size: markerSize });
   }

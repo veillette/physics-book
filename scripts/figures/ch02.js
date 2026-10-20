@@ -1227,7 +1227,13 @@ export default {
           [289, 248],
           [400, 238],
         ];
-        g.series(pts, { color: POS, smooth: true, marker: 'circle', markerSize: 6 });
+        g.series(pts, {
+          color: POS,
+          smooth: true,
+          horizontalTangents: [4], // d: zero instantaneous velocity
+          marker: 'circle',
+          markerSize: 6,
+        });
         letters(g, svg, pts.slice(1), ['a', 'b', 'c', 'd', 'e'], { a: [-6, -20] });
       },
       { width: 545, height: 410 }
@@ -1254,7 +1260,14 @@ export default {
           [408, 244],
           [443, 253],
         ];
-        g.series(pts, { color: POS, smooth: true, tension: 0.35, marker: 'circle', markerSize: 6 });
+        g.series(pts, {
+          color: POS,
+          smooth: true,
+          tension: 0.35,
+          horizontalTangents: [2, 4, 6, 11], // c, e, g, l: zero velocity
+          marker: 'circle',
+          markerSize: 6,
+        });
         letters(g, svg, pts, 'abcdefghijkl'.split(''), {
           a: [6, -22],
           b: [4, -22],
@@ -1332,7 +1345,13 @@ export default {
           [403, 63],
           [424, 0],
         ];
-        g.series(pts, { color: VEL, smooth: true, marker: 'circle', markerSize: 6 });
+        g.series(pts, {
+          color: VEL,
+          smooth: true,
+          horizontalTangents: [3, 4, 7], // d, e, h: zero acceleration
+          marker: 'circle',
+          markerSize: 6,
+        });
         letters(g, svg, pts, 'abcdefghijkl'.split(''), {
           a: [-12, -14],
           b: [-10, -16],

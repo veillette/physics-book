@@ -185,15 +185,22 @@ export default {
   },
 
   // 6.3 Problem 8 — banked curve taken slower than the ideal speed
-  fbd_06_03_p08: () =>
-    banked({
+  fbd_06_03_p08: () => {
+    const theta = (15 * Math.PI) / 180;
+    const wLen = 80;
+    const accelerationRatio = (20 / 3.6) ** 2 / (100 * 9.8);
+    // f / mg = sin θ − (v²/rg) cos θ, from vertical and radial force balance.
+    const frictionLen = wLen * (Math.sin(theta) - accelerationRatio * Math.cos(theta));
+    return banked({
       theta: 15,
+      wLen,
       name: 'car',
-      friction: { label: 'f', len: 50 },
+      friction: { label: 'f', len: frictionLen },
       note: 'slower than ideal: friction points up the slope',
       title: 'Free-body diagram of a car on a banked curve below the ideal speed',
       desc: 'Free-body diagram with +x horizontally toward the center of the curve and +y up: normal force N tilted theta from the vertical toward the center, with dashed components N sin theta along +x and N cos theta along +y; friction f along the road surface, up the slope (away from the center and upward); weight w down. The acceleration points toward the center.',
-    }),
+    });
+  },
 
   // 6.3 Problem 9 — roller coaster at the top of a loop
   fbd_06_03_p09: () =>

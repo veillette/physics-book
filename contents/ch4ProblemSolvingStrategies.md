@@ -971,10 +971,9 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newtonâ
 
 1. Use Newtonâ€™s laws since we are looking for forces.
 
-2. Draw a free-body
-   diagram of the tooth, with $$ +x $$ along the wire's straight line and $$ +y $$ pointing toward the front of the mouth:
+2. Draw the wire forces acting on the tooth, with $$ +x $$ along the wire's straight line and $$ +y $$ pointing toward the front of the mouth. This diagram shows only the wire forces whose sum we want to calculate; forces from the surrounding tissue are omitted:
 
-   ![Free-body diagram of the tooth with +x to the right and +y up: two wire tensions T, down and to the right and down and to the left, each 15 degrees below the horizontal, with dashed components T cos theta along the x-axis and T sin theta along -y. Their sum F sub app points along -y.](../resources/fbd_04_06_p11.svg){: .fbd #Figure7}
+   ![Wire forces on the tooth with +x to the right and +y up: two tensions T, down and to the right and down and to the left, each 15 degrees below the horizontal, with dashed components T cos theta along the x-axis and T sin theta along -y. Their sum F sub app points along -y. Forces from the surrounding tissue are omitted.](../resources/fbd_04_06_p11.svg){: .fbd #Figure7}
 
 3. The tension is given as $$ T=25.0 \N $$, at $$ \theta = 15^\circ $$ below the $$ x $$-axis on each side. Find $$ F_{\text{app}}$$, the total force of the wire on the tooth. The *x*-components of the tensions cancel:
    $$ \sum F_{x}= T\cos\theta - T\cos\theta = 0. $$ The *y*-components both point along $$ -y $$ and add:
