@@ -26,7 +26,10 @@ import chalk from 'chalk';
 import { printHeader, printDivider, printSuccess, printSummary } from './lib/reporter.js';
 import { runCli } from './lib/cli.js';
 import { getBaseDir, readFile } from './lib/files.js';
-import { getLineNumber } from './lib/parser.js';
+import { getLineNumber, stripDollarMath } from './lib/parser.js';
+
+const BROWSER_USER_AGENT =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
 
 // Default cache settings
 const DEFAULT_CACHE_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
@@ -163,6 +166,9 @@ class LinkChecker {
     let strippedContent = content.replace(/```[\s\S]*?```/g, '');
     // Remove inline code (`...`)
     strippedContent = strippedContent.replace(/`[^`]+`/g, '');
+    // Blank out $$…$$ math so LaTeX like `[a-b](931.5)` is not read as a link.
+    // Same-length replacement keeps match indices valid for line numbers.
+    strippedContent = stripDollarMath(strippedContent);
 
     // Markdown links: [text](url)
     const markdownLinkRegex = /\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
@@ -257,14 +263,35 @@ class LinkChecker {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), this.timeout);
 
-      const response = await fetch(url, {
+      let response = await fetch(url, {
         method: 'HEAD',
         headers: { 'User-Agent': this.userAgent },
         signal: controller.signal,
         redirect: 'follow',
       });
 
+      // Some servers reject HEAD or non-browser clients; retry once with GET
+      // and a browser User-Agent before deciding the link is broken.
+      if (response.status === 403 || response.status === 405) {
+        response = await fetch(url, {
+          method: 'GET',
+          headers: { 'User-Agent': BROWSER_USER_AGENT, Accept: '*/*' },
+          signal: controller.signal,
+          redirect: 'follow',
+        });
+        response.body?.cancel();
+      }
+
       clearTimeout(timeoutId);
+
+      // A persistent 403 is usually bot protection (e.g. Akamai), not a dead
+      // link: report it as a warning so it does not fail the check.
+      if (response.status === 403) {
+        this.checkedUrls.set(url, { success: true, blocked: true, timestamp: Date.now() });
+        this.warnings.push(`${filePath}:${link.line} - HTTP 403 (likely bot-blocked): ${url}`);
+        this.stats.warnings++;
+        return;
+      }
 
       if (!response.ok && response.status !== 405) {
         throw new Error(`HTTP ${response.status}`);
@@ -306,27 +333,33 @@ class LinkChecker {
 
   async checkInternalLink(link, filePath) {
     const { url } = link;
-    let targetPath = url;
-
-    // Handle relative paths
-    if (url.startsWith('./') || url.startsWith('../')) {
-      const currentDir = path.dirname(path.join(this.baseDir, filePath));
-      targetPath = path.resolve(currentDir, url);
-      targetPath = path.relative(this.baseDir, targetPath);
-    } else if (url.startsWith('/')) {
-      targetPath = url.substring(1);
-    }
 
     // Remove anchors
-    targetPath = targetPath.split('#')[0];
-    if (!targetPath) return;
+    const urlPath = url.split('#')[0];
+    if (!urlPath) return;
 
-    const fullTargetPath = path.join(this.baseDir, targetPath);
+    // Root-absolute paths resolve against baseDir. Other relative paths resolve
+    // against the linking file's directory (standard markdown), falling back to
+    // baseDir for links written relative to the site root.
+    const candidates = [];
+    if (urlPath.startsWith('/')) {
+      candidates.push(urlPath.substring(1));
+    } else {
+      const currentDir = path.dirname(path.join(this.baseDir, filePath));
+      candidates.push(path.relative(this.baseDir, path.resolve(currentDir, urlPath)));
+      if (!urlPath.startsWith('./') && !urlPath.startsWith('../')) {
+        candidates.push(urlPath);
+      }
+    }
 
     // Check if file exists (try multiple extensions)
-    const pathsToTry = [fullTargetPath];
-    if (!path.extname(fullTargetPath)) {
-      pathsToTry.push(`${fullTargetPath}.md`, `${fullTargetPath}.html`);
+    const pathsToTry = [];
+    for (const candidate of candidates) {
+      const fullTargetPath = path.join(this.baseDir, candidate);
+      pathsToTry.push(fullTargetPath);
+      if (!path.extname(fullTargetPath)) {
+        pathsToTry.push(`${fullTargetPath}.md`, `${fullTargetPath}.html`);
+      }
     }
 
     const found = pathsToTry.some(p => {
@@ -342,7 +375,7 @@ class LinkChecker {
       // a build artifact (e.g. generated PDFs under /assets/pdf/) that is
       // intentionally absent from a fresh checkout — see decision D6. Treat it
       // as a non-fatal warning so CI link checks pass on generated assets.
-      if (this.respectGitignore && this.isGitignored(targetPath)) {
+      if (this.respectGitignore && candidates.some(c => this.isGitignored(c))) {
         this.skippedLinks.push({
           file: filePath,
           line: link.line,
