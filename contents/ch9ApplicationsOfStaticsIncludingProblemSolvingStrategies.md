@@ -73,7 +73,7 @@ along its length.
 ![A pole vaulter is standing on the ground holding a pole with his two hands. The center of gravity of the pole is between the hands of the pole vaulter and is near the right hand of the man. The weight W is shown as an arrow downward toward center of gravity. The reactions F sub R and F sub L of the hands of the man are shown with vectors in upward direction. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_02.jpg 'A pole vaulter is holding a pole horizontally with both hands. The center of gravity is near his right hand.')
 {: #Figure2}
 
-![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The center of gravity of the pole is to the left of the pole vaulter. The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man’s right hand and F sub L is shown with a vector in upward direction at the location of the man’s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_03.jpg 'A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.')
+![A pole vaulter is standing on the ground holding a pole from one side with his two hands. The center of gravity of the pole is to the right of both of the pole vaulter's hands in the image (on the vaulter's own left side, since he faces the viewer). The weight W is shown as an arrow downward at center of gravity. The reaction F sub R is shown with a vector pointing downward from the man’s right hand and F sub L is shown with a vector in upward direction at the location of the man’s left hand. A free body diagram of the situation is shown on the top right side of the figure.](../resources/Figure_09_04_03.jpg 'A pole vaulter is holding a pole horizontally with both hands. The center of gravity is to the left side of the vaulter.')
 {: #Figure3}
 
 If the pole vaulter holds the pole as shown in [Figure 2](#Figure2), the situation
@@ -397,19 +397,19 @@ Given: Pole mass $$ m = 5.00 \kg $$ (from the earlier example), $$ W = mg = 49.0
 
 - Distance from left hand to cg: 2.00 m
 - Distance between hands: 0.700 m
-- Therefore, distance from right hand to cg: $$ 2.00 - 0.700 = 1.30 \m $$
+- In Figure 3 the right hand is farther from the cg than the left hand, so the distance from the right hand to the cg is $$ 2.00 + 0.700 = 2.70 \m $$
 
-In Figure 3, the cg is to the left of both hands, so the left hand must push UP while the right hand pushes DOWN to create the necessary torques.
+In Figure 3, the cg is to the right of both hands (as seen in the image), so the left hand, nearer the cg, must push UP while the right hand, at the far end, pushes DOWN to create the necessary torques.
 
 **Solution for (a): Force by right hand**
 
 Choose the left hand as the pivot point to eliminate $$ F_L $$ from the torque equation.
 
-The weight creates a counterclockwise torque about the left hand (cg is to the left):
-$$ \tau_{W} = W \times 2.00 \m = (49.0 \N)(2.00 \m) = 98.0 \text{ N·m} $$ (counterclockwise)
+The weight acts 2.00 m to the right of the left hand, so it creates a clockwise torque about the left hand:
+$$ \tau_{W} = W \times 2.00 \m = (49.0 \N)(2.00 \m) = 98.0 \text{ N·m} $$ (clockwise)
 
-The right hand must create a clockwise torque to balance this:
-$$ \tau_{R} = F_R \times 0.700 \m $$ (clockwise, so $$ F_R $$ is downward)
+The right hand is 0.700 m to the left of the pivot, so it must create a counterclockwise torque to balance this, which requires a downward force:
+$$ \tau_{R} = F_R \times 0.700 \m $$ (counterclockwise, so $$ F_R $$ is downward)
 
 For equilibrium:
 
@@ -437,7 +437,7 @@ $$ F_L = W + F_R = 49.0 \N + 140 \N = 189 \N $$
 
 The left hand exerts a force of **189 N upward**.
 
-We can verify this result using torques about the right hand. Because the cg lies to the left of both hands, it is farther from the right hand than from the left:
+We can verify this result using torques about the right hand. Because the cg lies to the right of both hands, it is farther from the right hand than from the left. About the right hand, the weight's torque is clockwise and the left hand's upward force gives a counterclockwise torque:
 
 - Distance from right hand to cg: $$ 2.00 + 0.700 = 2.70 \m $$
 - Distance from right hand to left hand: $$ 0.700 \m $$

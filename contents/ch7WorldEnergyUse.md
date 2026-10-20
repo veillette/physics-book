@@ -509,12 +509,12 @@ $$ \begin{array}{lll}
 Maximum range occurs at $$ \theta = 45^\circ $$:
 
 <div class="equation">
- $$ R_{\max} = \frac{v_0^{2}}{g} = \frac{(12.1\ms)^{2}}{9.80\mss} = 14.9\m $$
+ $$ R_{\max} = \frac{v_0^{2}}{g} = \frac{2\PE_{\text{spring}}}{mg} = \frac{2(0.735\J)}{(0.0100\kg)(9.80\mss)} = 15.0\m $$
 </div>
 
 **Discussion**
 
-The maximum force of 21.0 N (about 4.7 lbs) is easily achievable for compressing a toy gun spring. The maximum height of 7.50 m is impressive for a toy—equivalent to a 2.5-story building! The two possible angles to hit a target (5.8° and 84.2°) demonstrate a fundamental property of projectile motion: any target within range can be hit at two complementary angles, one nearly horizontal and one nearly vertical. The low-angle shot reaches the target quickly, while the high-angle shot has a much longer flight time. The maximum range of 14.9 m (about 49 feet) shows this is quite a powerful toy gun, emphasizing why such toys need appropriate safety precautions.
+The maximum force of 21.0 N (about 4.7 lbs) is easily achievable for compressing a toy gun spring. The maximum height of 7.50 m is impressive for a toy—equivalent to a 2.5-story building! The two possible angles to hit a target (5.8° and 84.2°) demonstrate a fundamental property of projectile motion: any target within range can be hit at two complementary angles, one nearly horizontal and one nearly vertical. The low-angle shot reaches the target quickly, while the high-angle shot has a much longer flight time. The maximum range of 15.0 m (about 49 feet) shows this is quite a powerful toy gun, emphasizing why such toys need appropriate safety precautions.
 
 **Answer**
 
@@ -524,7 +524,7 @@ The maximum force of 21.0 N (about 4.7 lbs) is easily achievable for compressing
 
 (c) The child can aim at **5.8° or 84.2°** above horizontal to hit the target.
 
-(d) The gun's maximum range on level ground is **14.9 m**.
+(d) The gun's maximum range on level ground is **15.0 m**.
 
 :::
 
@@ -671,11 +671,11 @@ Efficiency:
 
 **Discussion**
 
-The calculated efficiency of 81% is unreasonably high and violates fundamental thermodynamic principles. Real gasoline engines are limited by the Carnot efficiency and practical considerations to about 25-30% efficiency, while the best diesel engines achieve 35-40%. Even the most efficient production cars (hybrid electric vehicles) rarely exceed 40% efficiency. An 81% efficiency would mean that only 19% of the fuel's energy is lost to heat, which contradicts the second law of thermodynamics for heat engines operating at these temperature ranges.
+The calculated efficiency of 81% is unreasonably high for a gasoline car. Real gasoline engines achieve only about 25-30% efficiency in practice, while the best diesel engines achieve 35-40%, and even the most efficient production cars rarely exceed about 40%. An 81% efficiency would mean that only 19% of the fuel's energy is lost to heat. The second law of thermodynamics limits a heat engine to the Carnot efficiency, $$ 1 - T_c/T_h $$; 80.8% would not violate that bound for every conceivable pair of reservoir temperatures, but it is far beyond what ordinary car engines can achieve at their operating temperatures. (Showing a true thermodynamic impossibility would require specifying those temperatures and comparing with the Carnot limit.)
 
 The claim is inconsistent with physical reality. Several factors reveal the impossibility:
 
-First, gaining 3.00 km (about 1.86 miles) of altitude while traveling 100 km represents an average grade of 3%, which combined with overcoming friction over such distance requires substantial energy. Second, achieving a final speed of 30.0 m/s (67 mph) adds kinetic energy. The total energy requirement of 96.9 MJ is close to what 1.0 gallon of gasoline can provide (120 MJ), but this would require near-perfect efficiency—impossible for any heat engine.
+First, gaining 3.00 km (about 1.86 miles) of altitude while traveling 100 km represents an average grade of 3%, which combined with overcoming friction over such distance requires substantial energy. Second, achieving a final speed of 30.0 m/s (67 mph) adds kinetic energy. The total energy requirement of 96.9 MJ is close to what 1.0 gallon of gasoline can provide (120 MJ), but this would require an efficiency far beyond that of any real car engine.
 
 In reality, such a trip would require approximately 3-4 gallons of gasoline for a typical car, or about 1.5-2 gallons for a highly efficient hybrid vehicle. The advertising claim is clearly false and misleading.
 
@@ -683,7 +683,7 @@ In reality, such a trip would require approximately 3-4 gallons of gasoline for 
 
 (a) The claimed efficiency is **80.8%**.
 
-(b) This efficiency is **unreasonably high**—it violates thermodynamic limitations for heat engines and exceeds the efficiency of any real vehicle by a factor of 2-3.
+(b) This efficiency is **unreasonably high**—it exceeds the efficiency of any real gasoline vehicle by a factor of 2-3.
 
 (c) The premises are **inconsistent**. The fuel consumption of 1.0 gallon is far too low for the described trip. Realistically, this trip would require **3-4 gallons of gasoline** for a conventional car.
 
@@ -784,7 +784,7 @@ Use the relationship between power, work, and time. The work done climbing stair
 **Key Parameters to Define:**
 
 1. **Person's mass**: Choose a realistic value (60-100 kg)
-2. **Sustainable power output**: From Table 2 in Work Energy And Power In Humans, choose a sustainable long-term power output (e.g., 150-200 W for moderate sustained activity)
+2. **Sustainable power output**: Choose an assumed sustainable long-term **mechanical** power output (e.g., about 100 W). Table 2 in Work, Energy, and Power in Humans lists **metabolic** power consumption, not mechanical output; at a human efficiency of about 20%, 100 W of mechanical output corresponds to about 500 W of metabolic power, comparable to the moderate activities in that table. Do not use a Table 2 entry directly as mechanical output.
 3. **Stair dimensions**: Typical stair step height is 0.18-0.20 m
 4. **Time period**: Consider "long-term" as several hours
 
@@ -812,9 +812,9 @@ Use the relationship between power, work, and time. The work done climbing stair
 
 **Example Answer:**
 
-For a 70 kg person with sustainable power output of 175 W climbing stairs with 0.20 m step height:
-- Rate of vertical climb: P/(mg) = 175 W / (70 kg × 9.8 m/s²) = 0.255 m/s
-- Steps per minute: (0.255 m/s × 60 s/min) / 0.20 m = 76 steps/min
+For a 70 kg person with an assumed sustainable mechanical power output of 100 W (about 500 W metabolic at 20% efficiency) climbing stairs with 0.20 m step height:
+- Rate of vertical climb: P/(mg) = 100 W / (70 kg × 9.8 m/s²) = 0.146 m/s
+- Steps per minute: (0.146 m/s × 60 s/min) / 0.20 m = 44 steps/min
 - This person could descend 2-3 times faster (150-200 steps/min) with less fatigue due to the lower metabolic cost of eccentric muscle work
 
 :::
@@ -849,7 +849,7 @@ Calculate the total power output needed from a large power plant, then determine
 **Key Parameters to Define:**
 
 1. **Power plant capacity**: Choose a realistic power plant size (e.g., 1000 MW for a large coal or nuclear plant, or 500 MW for a medium-sized facility)
-2. **Individual power output**: From Table 2 in Work Energy And Power In Humans, sustained pedaling produces approximately 200-400 W (use ~300 W for vigorous sustained cycling)
+2. **Individual power output**: Choose an explicitly assumed **mechanical** output that a person can sustain for hours, such as 100 W. (Table 2 in Work, Energy, and Power in Humans lists *metabolic* power consumption, about 400 W for cycling, not pedal output. With a human efficiency of about 25%, 400 W of metabolic power gives about 100 W of mechanical power.)
 3. **Work schedule**: Humans cannot pedal continuously 24/7. Consider shifts (e.g., 8-hour shifts with 16 hours rest, or more realistically 4-hour shifts)
 4. **Efficiency**: Include generator efficiency (~90%) converting mechanical to electrical power
 5. **Capacity factor**: Account for breaks, shift changes, and rest periods (realistic capacity factor might be 30-40% per person)
@@ -881,14 +881,17 @@ Calculate the total power output needed from a large power plant, then determine
 
 **Example Answer:**
 
-For a 1000 MW (1 × 10⁹ W) power plant:
-- Individual effective output: 300 W × 0.90 × 0.35 = 95 W per person averaged over 24 hours
-- Number of people needed: 1 × 10⁹ W / 95 W ≈ 10.5 million people
-- This exceeds the population of New York City!
-- Food energy required: Each person needs ~2000 kcal/day minimum, plus ~6000 kcal/day for hard labor = 8000 kcal/day
-- Total food energy: 10.5 million × 8000 kcal = 8.4 × 10¹⁰ kcal/day = 3.5 × 10¹⁴ J/day
+For a 1000 MW (1 × 10⁹ W) power plant, assume 100 W of sustained mechanical output per cyclist, 25% human efficiency, 90% generator efficiency, and a duty factor of 0.35 (about 8.4 h of pedaling per day):
+- Individual effective output: 100 W × 0.90 × 0.35 = 31.5 W per person averaged over 24 hours
+- Number of people needed: 1 × 10⁹ W / 31.5 W ≈ 32 million people
+- This is several times the population of New York City!
+- Food energy for cycling: (100 W / 0.25) × 0.35 × 86400 s = 1.21 × 10⁷ J/day ≈ 2900 kcal/day per person
+- Adding roughly 2000 kcal/day for other metabolism gives about 4900 kcal/day ≈ 2.0 × 10⁷ J/day per person
+- Total food energy: 32 million × 2.0 × 10⁷ J ≈ 6.5 × 10¹⁴ J/day
 - Electrical energy produced: 1 × 10⁹ W × 86400 s = 8.64 × 10¹³ J/day
-- The food energy input (3.5 × 10¹⁴ J) exceeds the electrical output (8.6 × 10¹³ J) by a factor of 4!
+- The food energy input (6.5 × 10¹⁴ J) exceeds the electrical output (8.6 × 10¹³ J) by a factor of about 7.5!
+
+Keep the assumptions consistent: for example, 300 W of mechanical output at the same duty factor and efficiency would require 36 MJ/day (about 8700 kcal) of food energy for cycling alone, which is not a realistic daily intake.
 
 This demonstrates why human-powered electricity generation is impractical at scale—it would require enormous numbers of people and consume more energy (in food) than it produces.
 
@@ -909,7 +912,7 @@ their center of gravity rises 0.950 m above its normal standing erect position.
 floor.
 (b) What average force did the player exert on the floor? (Do not neglect the force to
 support their weight as well as that to accelerate them.)
-(c) What was the player's power output during the acceleration phase?
+(c) What was the player's average power output during the acceleration phase? (Assume the force, and hence the acceleration, is constant during the push-off.)
 
 :::
 
@@ -946,7 +949,7 @@ $$ F_{\text{avg}} = \frac{W_{\text{net}}}{d} + mg = \frac{980\J}{0.400\m} + (105
 
 **(c)** Power output during acceleration:
 
-Time during crouch (using kinematics with $$ v_{\text{avg}} = v/2 $$):
+Time during crouch (for constant acceleration from rest, $$ v_{\text{avg}} = v/2 $$):
 
 <div class="equation">
 $$ t = \frac{d}{v_{\text{avg}}} = \frac{0.400\m}{2.16\ms} = 0.185\s $$
@@ -957,9 +960,9 @@ Total work done by legs (including against gravity):
 $$ W_{\text{total}} = F_{\text{avg}} \cdot d = (3.47 \times 10^{3}\N)(0.400\m) = 1388\J $$
 </div>
 
-Power:
+Average power:
 <div class="equation">
-$$ P = \frac{W_{\text{total}}}{t} = \frac{1388\J}{0.185\s} = 7.5\text{ kW} $$
+$$ P_{\text{avg}} = \frac{W_{\text{total}}}{t} = \frac{1388\J}{0.185\s} = 7.50\text{ kW} $$
 </div>
 
 **Discussion**
@@ -968,7 +971,7 @@ The takeoff velocity of 4.32 m/s (about 9.7 mph) is reasonable for a professiona
 
 The average force of 3470 N is particularly noteworthy—it's about 3.4 times the player's body weight. This demonstrates the tremendous forces that athletes' legs must generate during explosive movements. The force is distributed between both legs, so each leg experiences about 1735 N (390 lbs), which while substantial, is within the capability of well-trained athletes.
 
-The power output calculation reveals an interesting discrepancy. Using average velocity gives approximately 7.5 kW, but accounting for the non-uniform acceleration (the force isn't constant during the jump—it starts high and decreases) gives a peak power of approximately 8.93 kW (about 12 horsepower). This enormous power output is only sustainable for a fraction of a second, which is characteristic of explosive athletic movements. For comparison, this is about 50 times the sustained power output a person can maintain while cycling. Such high peak power outputs are possible because they draw on immediate energy stores (ATP and creatine phosphate) in the muscles, which are quickly depleted.
+The average power output is about 7.50 kW (about 10 horsepower). Under the constant-force idealization, the instantaneous power $$ P = Fv $$ grows as the player speeds up, reaching $$ (3.47 \times 10^{3}\N)(4.32\ms) = 15.0 \text{ kW} $$ at takeoff. A real jump does not have a constant force, and determining its true peak power would require the actual force-time profile, which is not given. This enormous power output lasts only a fraction of a second, which is characteristic of explosive athletic movements; it is many times the mechanical power a person can sustain while cycling. Such high peak power outputs are possible because they draw on immediate energy stores (ATP and creatine phosphate) in the muscles, which are quickly depleted.
 
 The efficiency of this movement is also worth noting—the player's muscles must generate significantly more than the 1388 J of mechanical work due to the ~25% efficiency of muscle contraction, meaning the actual metabolic energy expended is approximately 5500 J or about 1.3 food calories per jump.
 
@@ -978,7 +981,7 @@ The efficiency of this movement is also worth noting—the player's muscles must
 
 (b) The average force exerted on the floor is **3470 N** (about 780 lbs or 3.4 times body weight).
 
-(c) The player's power output during the acceleration phase is approximately **8.93 kW** (about 12 hp), achievable for brief explosive movements.
+(c) The player's average power output during the acceleration phase is **7.50 kW** (about 10 hp), achievable for brief explosive movements.
 
 :::
 

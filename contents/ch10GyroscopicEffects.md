@@ -161,6 +161,41 @@ effective point on the equator, what would its magnitude be?
 
 ::: solution
 
+**Strategy**
+
+Earth's spin angular momentum is $$ L = I\omega $$, with $$ I = \frac{2}{5}MR^2 $$ for a uniform sphere and $$ \omega = 2\pi/(1 \text{ day}) $$. As the axis precesses, $$ \vb{L} $$ keeps its magnitude and its 23.5° tilt but sweeps around a cone. After half a precession period, the component of $$ \vb{L} $$ perpendicular to the orbit's normal has reversed, while the parallel component is unchanged. The change in angular momentum is therefore a vector subtraction: $$ \Delta L = 2L\sin 23.5° $$. The average torque is $$ \Delta L/\Delta t $$, and a single force at the equator has the largest effect with lever arm $$ R $$, so $$ F = \tau/R $$.
+
+**Solution**
+
+Using $$ M = 5.979 \times 10^{24} \kg $$ and $$ R = 6.376 \times 10^{6} \m $$:
+
+<div class="equation">
+$$ I = \frac{2}{5}MR^2 = 9.72 \times 10^{37} \kg \cdot \mm, \quad \omega = \frac{2\pi}{86400 \s} = 7.27 \times 10^{-5} \text{ rad/s}, \quad L = I\omega = 7.07 \times 10^{33} \kg \cdot \mms $$
+</div>
+
+**(a)**
+<div class="equation">
+$$ \Delta L = 2L\sin 23.5° = 2(7.07 \times 10^{33})(0.399) = 5.64 \times 10^{33} \kg \cdot \mms $$
+</div>
+
+**(b)** Half the precession period is $$ \Delta t = \frac{1}{2}(25\,780 \text{ y})(3.156 \times 10^{7} \text{ s/y}) = 4.07 \times 10^{11} \s $$:
+<div class="equation">
+$$ \tau_{\text{avg}} = \frac{\Delta L}{\Delta t} = \frac{5.64 \times 10^{33}}{4.07 \times 10^{11} \s} = 1.39 \times 10^{22} \N \cdot \m $$
+</div>
+
+This is the average of the torque's effect over half a period; the actual torque has constant magnitude but continually changes direction as it turns $$ \vb{L} $$ around the cone.
+
+**(c)**
+<div class="equation">
+$$ F = \frac{\tau}{R} = \frac{1.39 \times 10^{22} \N \cdot \m}{6.376 \times 10^{6} \m} = 2.17 \times 10^{15} \N $$
+</div>
+
+**Discussion**
+
+Although the magnitude of Earth's angular momentum never changes, its direction does, so a large change in the vector $$ \vb{L} $$ builds up over half a precession period. The required torque is enormous by everyday standards but tiny compared with Earth's angular momentum, which is why precession takes nearly 26,000 years. The torque actually comes from the Sun's and Moon's gravitational pull on Earth's equatorial bulge, not from a single force.
+
+**Answer**
+
 (a) $$ 5.64 \times 10^{33}\kg \cdot  \mms $$
 
 (b) $$ 1.39 \times 10^{22}\N \cdot \m $$

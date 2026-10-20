@@ -533,16 +533,16 @@ $$ M = \frac{(9.807\text{ m/s}^2)(6.372 \times 10^6\text{ m})^2}{6.674 \times 10
 </div>
 
 <div class="equation">
-$$ M = \frac{(9.807)(4.060 \times 10^{13})}{6.674 \times 10^{-11}} = \frac{3.982 \times 10^{14}}{6.674 \times 10^{-11}} = 5.972 \times 10^{24}\text{ kg} $$
+$$ M = \frac{(9.807)(4.0602 \times 10^{13})}{6.674 \times 10^{-11}} = \frac{3.9819 \times 10^{14}}{6.674 \times 10^{-11}} = 5.966 \times 10^{24}\text{ kg} $$
 </div>
 
 (b) Compare with the accepted value:
 
-The accepted value is $$ 5.972 \times 10^{24} $$ kg. Our calculated value of $$ 5.972 \times 10^{24} $$ kg is **identical to the accepted value to three significant figures**. This perfect agreement confirms the accuracy of both Newton's law of universal gravitation and our measurement of Earth's radius and surface gravity.
+The accepted value is $$ 5.972 \times 10^{24} $$ kg. Our calculated value of $$ 5.966 \times 10^{24} $$ kg is about 0.096% lower: very close, but not identical at four significant figures. (Both round to $$ 5.97 \times 10^{24} $$ kg at three figures.) The small difference is expected, because the values of $$ g $$ and $$ r $$ supplied in this problem are approximations: real Earth is not a perfect, uniform, nonrotating sphere, so a single surface $$ g $$ and radius cannot reproduce its mass exactly. The close agreement is consistent with Newton's law of universal gravitation, but since the problem's parameters were chosen to approximate Earth, it is not an independent proof.
 
 **Discussion**
 
-This problem demonstrates how Newton's law of universal gravitation can be used to determine the mass of Earth using only surface measurements. The fact that we can calculate Earth's mass so accurately from surface gravity and radius measurements is a powerful validation of Newton's gravitational theory. This same technique has been used to determine the masses of other planets, moons, and even the Sun, making universal gravitation one of the most important tools in astronomy and planetary science.
+This problem demonstrates how Newton's law of universal gravitation can be used to determine the mass of Earth using only surface measurements. The fact that we can calculate Earth's mass to within about 0.1% from surface gravity and radius alone shows how powerful Newton's gravitational theory is. This same technique has been used to determine the masses of other planets, moons, and even the Sun, making universal gravitation one of the most important tools in astronomy and planetary science.
 
 ::::
 
@@ -776,11 +776,17 @@ $$ a_c = (4.70 \times 10^{6})(7.08 \times 10^{-12}) = 3.33 \times 10^{-5}\text{ 
 $$ \frac{a_{\text{gravity}}}{a_c} = \frac{3.41 \times 10^{-5}}{3.33 \times 10^{-5}} = 1.024 $$
 </div>
 
-The values are nearly identical (within 2.4%), which is expected.
+The values are close but differ by 2.4%, and they need not be equal: they are evaluated at different points. Part (a) gives the Moon's gravitational field at the **center of mass**, 3.793 × 10⁸ m from the Moon, whereas the Earth's center, 3.84 × 10⁸ m from the Moon, is what moves on the 4700-km circle. The acceleration of the Earth's center is set by the Moon's field **at the Earth's center**:
+
+<div class="equation">
+$$ a_{\text{at Earth's center}} = G\frac{M_{\text{Moon}}}{(3.84 \times 10^{8})^2} = 3.33 \times 10^{-5}\text{ m/s}^2 $$
+</div>
+
+which does agree with $$ a_c $$.
 
 **Discussion**
 
-The gravitational acceleration due to the Moon ($$ 3.41 \times 10^{-5} $$ m/s²) and the centripetal acceleration of Earth's center ($$3.33 \times 10^{-5}$$ m/s²) are nearly equal, as they must be. At the center of mass, the gravitational attraction from the Moon provides exactly the centripetal force needed to keep Earth orbiting around that point. The small difference (about 2%) is due to rounding in our calculations and the approximation that the orbit is perfectly circular. This problem beautifully demonstrates that the Earth-Moon system is truly a binary system, with both bodies orbiting their common center of mass, rather than the Moon simply orbiting Earth. The center of mass lies inside Earth (about 1690 km below the surface) because Earth is much more massive than the Moon, but both objects orbit this point.
+The gravitational acceleration due to the Moon ($$ 3.41 \times 10^{-5} $$ m/s²) and the centripetal acceleration of Earth's center ($$3.33 \times 10^{-5}$$ m/s²) are close but not equal, and the 2.4% difference is real, not a rounding error. Because gravity falls off as $$ 1/r^2 $$, the Moon's field is stronger at the center of mass, which is 1.2% closer to the Moon, by a factor of about $$ (3.84/3.793)^2 = 1.025 $$. The Earth's center accelerates according to the Moon's gravity at the Earth's center, and that value (3.33 × 10⁻⁵ m/s²) does match the centripetal acceleration found in (b). Nothing requires the field at a different point, such as the center of mass, to equal that acceleration. This problem beautifully demonstrates that the Earth-Moon system is truly a binary system, with both bodies orbiting their common center of mass, rather than the Moon simply orbiting Earth. The center of mass lies inside Earth (about 1690 km below the surface) because Earth is much more massive than the Moon, but both objects orbit this point.
 
 ::::
 
@@ -1019,7 +1025,7 @@ Compare to g:
 $$ \frac{a_c}{g} = \frac{1.66 \times 10^{-10}}{9.80} = 1.69 \times 10^{-11} $$
 </div>
 
-The centripetal acceleration is about $$ 1.7 \times 10^{-11} g $$, which is incredibly small - about 17 billionths of g. This strongly supports the use of the Sun as a nearly inertial reference frame.
+The centripetal acceleration is about $$ 1.7 \times 10^{-11} g $$, which is incredibly small - about 17 trillionths of g. This strongly supports the use of the Sun as a nearly inertial reference frame.
 
 **(b) Average orbital speed:**
 
@@ -1033,7 +1039,7 @@ $$ v = \frac{1.78 \times 10^{21}}{8.21 \times 10^{15}} = 2.17 \times 10^{5}\text
 
 **Discussion**
 
-The Sun orbits the center of the Milky Way galaxy at an impressive speed of 217 km/s (about 780,000 km/h or 485,000 mph)! Despite this tremendous speed, the centripetal acceleration is incredibly small ($$ 1.66 \times 10^{-10}\text{ m/s}^2 $$) because the orbital radius is so enormous. This tiny acceleration - about 17 billionths of the acceleration due to gravity on Earth - confirms that the Sun can be treated as an excellent inertial reference frame for almost all practical purposes.
+The Sun orbits the center of the Milky Way galaxy at an impressive speed of 217 km/s (about 780,000 km/h or 485,000 mph)! Despite this tremendous speed, the centripetal acceleration is incredibly small ($$ 1.66 \times 10^{-10}\text{ m/s}^2 $$) because the orbital radius is so enormous. This tiny acceleration - about 17 trillionths of the acceleration due to gravity on Earth - confirms that the Sun can be treated as an excellent inertial reference frame for almost all practical purposes.
 
 The Sun's orbital speed might seem surprisingly high, but consider that at this speed, it still takes 260 million years to complete one orbit around the galaxy. The Sun has completed only about 18 orbits since the solar system formed 4.6 billion years ago. This motion carries the entire solar system with it - all the planets, moons, asteroids, and comets move together at 217 km/s through the galaxy.
 

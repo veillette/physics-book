@@ -286,7 +286,7 @@ conversion factors.
 | $$ 10^{2} $$   | Length of a football field                                      | $$ 10^{8} $$   | Mass of a large ship                                     | $$ 10^{7} $$   | One year (y) ( $$3.16 \times 10^{7} $$s)              |
 | $$ 10^{4} $$   | Greatest ocean depth                                            | $$ 10^{12} $$  | Mass of a large iceberg                                  | $$ 10^{9} $$   | About half the life expectancy of a human             |
 | $$ 10^{7} $$   | Diameter of the Earth                                           | $$ 10^{15} $$  | Mass of the nucleus of a comet                           | $$ 10^{11} $$  | Recorded history                                      |
-| $$ 10^{11} $$  | Distance from the Earth to the Sun                              | $$ 10^{23} $$  | Mass of the Moon ( $$7.35 \times 10^{22} $$ kg)          | $$ 10^{17} $$  | Age of the Earth                                      |
+| $$ 10^{11} $$  | Distance from the Earth to the Sun ($$1.50 \times 10^{11} $$ m) | $$ 10^{23} $$  | Mass of the Moon ( $$7.35 \times 10^{22} $$ kg)          | $$ 10^{17} $$  | Age of the Earth                                      |
 | $$ 10^{16} $$  | Distance traveled by light in 1 year (a light year)             | $$ 10^{25} $$  | Mass of the Earth ( $$5.97 \times 10^{24} $$ kg)         | $$ 10^{18} $$  | Age of the universe                                   |
 | $$ 10^{21} $$  | Diameter of the Milky Way galaxy                                | $$ 10^{30} $$  | Mass of the Sun ( $$ 1.99 \times 10^{30} $$ kg)          |                |                                                       |
 | $$ 10^{22} $$  | Distance from the Earth to the nearest large galaxy (Andromeda) | $$ 10^{42} $$  | Mass of the Milky Way galaxy (current upper limit)       |                |                                                       |
@@ -524,7 +524,7 @@ $$ 100 \frac{\text{km}}{\text{h}} \times \frac{0.6214 \text{ mi}}{1 \text{km}} =
 
 **Discussion**
 
-The conversion from km/h to m/s requires two conversion factors that work together to change both the distance and time units. The result of 27.8 m/s means the car travels about 28 meters in one second, which is reasonable for highway speeds. Both answers maintain three significant figures, matching the precision of the original measurement of 100 km/h.
+The conversion from km/h to m/s requires two conversion factors that work together to change both the distance and time units. The result of 27.8 m/s means the car travels about 28 meters in one second, which is reasonable for highway speeds. The answers are given to three significant figures on the assumption that the speed limit is known to that precision; strictly, “100 km/h” written without a decimal point is ambiguous (as explained in [Accuracy, Precision, and Significant Figures](./ch1AccuracyPrecisionAndSignificantFigures), such trailing zeros may or may not be significant), and $$ 1.00 \times 10^{2} $$ km/h would state three significant figures unambiguously. Since the limit is described as “roughly” 100 km/h, $$ 28 \ms $$ and $$ 62 \text{ mph} $$ are equally reasonable.
 
 **Answer**
 
@@ -635,7 +635,7 @@ $$ 300 \text{ ft} \times \frac{1 \m}{3.281 \text{ ft}} = 91.4 \m $$
 
 **Discussion**
 
-The result shows that an American football field is slightly less than 100 meters long, which provides a useful reference point for estimating distances. The conversion required using two factors: first yards to feet (3 ft/yd), then feet to meters. The answer of 91.4 m is given to three significant figures, matching the precision of the original 100-yard measurement.
+The result shows that an American football field is slightly less than 100 meters long, which provides a useful reference point for estimating distances. The conversion required using two factors: first yards to feet (3 ft/yd), then feet to meters. The answer of 91.4 m is given to three significant figures because the 100-yd field length is a defined dimension, effectively exact; a measured “100 yd” written without a decimal point would be ambiguous, and $$ 1.00 \times 10^{2} $$ yd would state three significant figures explicitly.
 
 **Answer**
 
@@ -675,11 +675,14 @@ $$ 377 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 4.53 \times 10^{3
 **Width (85 m):**
 
 <div class="equation">
-$$ 85 \m \times \frac{3.281 \text{ ft}}{1 \m} = 279 \text{ ft} \approx 280 \text{ ft} $$
+$$ 85 \m \times \frac{3.281 \text{ ft}}{1 \m} = 278.885 \text{ ft} \approx 280 \text{ ft} $$
 </div>
 
 <div class="equation">
-$$ 280 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 3.3 \times 10^{3} \text{ in.} $$
+$$ 278.885 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 3346.62 \text{ in.} \approx 3.3 \times 10^{3} \text{ in.} $$
+</div>
+
+Keep the unrounded width (guard digits) in the intermediate step: multiplying the rounded 280 ft by 12 would give 3360 in., which rounds to $$ 3.4 \times 10^{3} $$ in. instead.
 </div>
 
 **Discussion**
@@ -882,11 +885,11 @@ From Table 3, find the Earth-Sun distance. Calculate the circumference of Earth'
 
 **Solution**
 
-1. From Table 3, the distance from Earth to Sun is approximately $$ 10^{11} \m $$ (more precisely, about $$ 1.5 \times 10^{11} \m $$).
+1. From Table 3, the distance from Earth to Sun is $$ 1.50 \times 10^{11} \m $$ (order of magnitude $$ 10^{11} \m $$).
 
 2. The circumference of Earth's orbit (assuming circular):
 <div class="equation">
-$$ C = 2\pi r = 2\pi(1.5 \times 10^{11} \m) = 9.42 \times 10^{11} \m $$
+$$ C = 2\pi r = 2\pi(1.50 \times 10^{11} \m) = 9.42 \times 10^{11} \m $$
 </div>
 
 3. Time for one orbit is 1 year. From Table 3, one year = $$ 3.16 \times 10^{7} \s $$.

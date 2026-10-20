@@ -759,7 +759,7 @@ First, identify the masses:
 - Mass of sled with rider:$$m_{\text{sled}} = 210 \kg$$
 - Total system mass:$$m_{\text{total}} = 152 \kg + 210 \kg = 362 \kg$$
 
-(a) Starting from rest (static friction):
+(a) Starting from rest:
 
 1. Calculate the total forward force from all dogs:
 <div class="equation">
@@ -768,18 +768,10 @@ $$F_{\text{dogs}} = 8 \times 185 \N = 1480 \N$$
 
 2. Calculate the maximum static friction force on the sled:
 <div class="equation">
-$$f_{\s} = \mu_{\s} m_{\text{sled}} g = (0.14)(210 \kg)(9.80 \mss) = 288.1 \N$$
+$$f_{\s(\text{max})} = \mu_{\s} m_{\text{sled}} g = (0.14)(210 \kg)(9.80 \mss) = 288.1 \N$$
 </div>
 
-3. Calculate the net force on the system:
-<div class="equation">
-$$F_{\text{net}} = F_{\text{dogs}} - f_{\s} = 1480 \N - 288.1 \N = 1191.9 \N$$
-</div>
-
-4. Calculate the acceleration:
-<div class="equation">
-$$a = \frac{F_{\text{net}}}{m_{\text{total}}} = \frac{1191.9 \N}{362 \kg} = 3.29 \mss$$
-</div>
+3. Compare: $$F_{\text{dogs}} = 1480 \N > f_{\s(\text{max})} = 288.1 \N$$, so static friction cannot hold the sled and the runners begin to slide. Static friction is not subtracted at its maximum value during motion: before slipping it simply adjusts to whatever value keeps the sled at rest (giving zero acceleration), and once the runners slide, kinetic friction applies. The acceleration immediately after the sled starts from rest is therefore the same as in part (b), $$3.52 \mss$$, calculated below. (The maximum static friction matters only as the threshold the dogs must exceed to start the sled.)
 
 (b) Once the sled is moving (kinetic friction):
 
@@ -802,17 +794,11 @@ $$a = \frac{1274.2 \N}{362 \kg} = 3.52 \mss$$
 
 For the sled alone, the coupling force$$T$$must provide enough force to accelerate it against friction.
 
-Starting from rest:
+Since the sled slides with kinetic friction in both situations:
 
 <div class="equation">
-$$T - f_{\s} = m_{\text{sled}} a$$
+$$T - f_{\text{k}} = m_{\text{sled}} a$$
 </div>
-
-<div class="equation">
-$$T = m_{\text{sled}} a + f_{\s} = (210 \kg)(3.29 \mss) + 288.1 \N = 691 \N + 288 \N = 980 \N$$
-</div>
-
-Once moving:
 
 <div class="equation">
 $$T = m_{\text{sled}} a + f_{\text{k}} = (210 \kg)(3.52 \mss) + 205.8 \N = 739 \N + 206 \N = 945 \N$$
@@ -820,7 +806,7 @@ $$T = m_{\text{sled}} a + f_{\text{k}} = (210 \kg)(3.52 \mss) + 205.8 \N = 739 \
 
 **Discussion**
 
-The acceleration starting from rest is$$3.29 \mss$$, and once moving it increases to$$3.52 \mss$$because kinetic friction is less than static friction. The coupling force is$$980 \N$$at the start and$$945 \N$$once moving. The coupling force is less than the total force exerted by the dogs (1480 N) because the dogs must also accelerate their own mass.
+Because the dogs' 1480-N force far exceeds the 288-N maximum static friction, the sled breaks free immediately, and the acceleration is$$3.52 \mss$$from the moment it starts moving. For the same reason, the coupling force is$$945 \N$$in both situations. This is the same reasoning used for the ice skater in the next problem: maximum static friction is a threshold for starting motion, and kinetic friction governs the motion itself. The coupling force is less than the total force exerted by the dogs (1480 N) because the dogs must also accelerate their own mass.
 
 ::::
 
@@ -1416,7 +1402,7 @@ $$a = (9.80 \mss)(0.0499 - 0.0698) = (9.80 \mss)(-0.0199) = -0.195 \mss$$
 
 **Discussion**
 
-The maximum acceleration is$$4.20 \mss$$on dry concrete,$$2.74 \mss$$on wet concrete, and$$-0.195 \mss$$on ice. The negative value for ice means the car cannot accelerate up the hill at all—even at full throttle without wheel spin, the car will slide backward down the slope. This demonstrates why two-wheel drive vehicles struggle on icy inclines. Note that these values are roughly half what they would be with four-wheel drive because only half the weight provides traction.
+The maximum acceleration is$$4.20 \mss$$on dry concrete,$$2.74 \mss$$on wet concrete, and$$-0.195 \mss$$on ice. The negative value for ice means the car cannot accelerate up the hill at all—even at full throttle without wheel spin, the car will slide backward down the slope. This demonstrates why two-wheel drive vehicles struggle on icy inclines. With four-wheel drive (next problem), the available traction force doubles because the full weight provides traction, but the downhill component of gravity does not change, so the accelerations do not simply double.
 
 ::::
 
@@ -1494,7 +1480,7 @@ $$a = (9.80 \mss)(0.0998 - 0.0698) = (9.80 \mss)(0.0300) = 0.294 \mss$$
 
 **Discussion**
 
-With four-wheel drive, the maximum acceleration is$$9.09 \mss$$on dry concrete,$$6.16 \mss$$on wet concrete, and$$0.294 \mss$$on ice. These values are approximately double those for two-wheel drive. Notably, with four-wheel drive on ice, the car can now accelerate (albeit slowly at$$0.29 \mss$$), whereas it would slide backward with two-wheel drive. This demonstrates the significant advantage of four-wheel drive on slippery surfaces and inclines.
+With four-wheel drive, the maximum acceleration is$$9.09 \mss$$on dry concrete,$$6.16 \mss$$on wet concrete, and$$0.294 \mss$$on ice. Compared with two-wheel drive (4.20, 2.74, and −0.195 m/s²), these accelerations are not simply doubled: the maximum friction (traction) force doubles, but the downhill component of gravity, $$ g\sin\theta $$, is the same in both cases and must still be subtracted. Notably, with four-wheel drive on ice, the car can now accelerate (albeit slowly at$$0.29 \mss$$), whereas it would slide backward with two-wheel drive. This demonstrates the significant advantage of four-wheel drive on slippery surfaces and inclines.
 
 ::::
 
@@ -1615,7 +1601,7 @@ by her arms.
 (b) What is the minimum coefficient of friction between her shoes
 and the cliff?
 
-![A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. The angle between her legs and the rock face is fifteen degrees, whereas the angle between the rope and the cliff is thirty one degrees.](../resources/Figure_05_01_08.jpg 'Part of the climber’s weight is supported by her rope and part by friction between her feet and the rock face.')
+![A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. Her legs make an angle of fifteen degrees with the horizontal, whereas the angle between the rope and the cliff is thirty one degrees.](../resources/Figure_05_01_08.jpg 'Part of the climber’s weight is supported by her rope and part by friction between her feet and the rock face.')
 {: #Figure8}
 
 ::::
@@ -1628,13 +1614,13 @@ The climber is in equilibrium, so the sum of forces in both horizontal and verti
 
 **Solution**
 
-Define the forces:
+Define the forces acting **on the climber**:
 
 - Weight:$$w = mg = (52.0 \kg)(9.80 \mss) = 509.6 \N$$(downward)
-- Tension:$$T$$at 31° from vertical (away from cliff)
-- Leg force:$$F_{\text{leg}}$$parallel to the legs, directed into the cliff
-- Normal force from cliff:$$\mag{N}$$(horizontal, away from cliff)
-- Friction:$$f$$(vertical, upward along cliff)
+- Tension:$$T$$along the rope, at 31° from vertical, pointing upward and toward the cliff
+- Leg force:$$F_{\text{leg}}$$, the cliff's force on her feet, directed along her legs, upward and away from the cliff at 15° above horizontal. Its horizontal component is the normal force$$\mag{N}$$(away from the cliff), and its vertical component is the friction$$f$$(upward along the cliff).
+
+Her feet push on the cliff with the equal and opposite reaction force (into the cliff and downward). That force acts on the cliff, so it does not appear in her free-body diagram.
 
 (a) Force equilibrium equations:
 
@@ -1650,7 +1636,7 @@ Vertical (positive = upward):
 $$T\cos 31° + F_{\text{leg}}\sin 15° = w$$
 </div>
 
-For the leg force at 15° above the horizontal on the cliff, the component into the cliff is the normal force and the component along the cliff (upward) is friction:
+For the leg force at 15° above the horizontal, the component perpendicular to the cliff (away from it) is the normal force and the component along the cliff (upward) is friction:
 
 <div class="equation">
 $$\mag{N} = F_{\text{leg}}\cos 15°$$
@@ -1700,7 +1686,7 @@ $$\mu_{\s(\text{min})} = \frac{f}{\mag{N}} = \frac{\sin 15°}{\cos 15°} = \tan 
 
 **Discussion**
 
-The tension in the rope is$$512 \N$$and the leg force is$$273 \N$$. The minimum coefficient of friction required is$$\mu_{\s(\text{min})} = 0.268$$, a value within the range for rubber on rock. Most of the leg force goes into the normal force (into the cliff), with a smaller component along the cliff balanced by friction, which is why$$\mu_{\s(\text{min})}$$equals$$\tan 15°$$.
+The tension in the rope is$$512 \N$$and the leg force is$$273 \N$$. The minimum coefficient of friction required is$$\mu_{\s(\text{min})} = 0.268$$, a value within the range for rubber on rock. Most of the cliff's force on her feet is the normal component (perpendicular to the cliff), with a smaller upward component supplied by friction, which is why$$\mu_{\s(\text{min})}$$equals$$\tan 15°$$.
 
 ::::
 

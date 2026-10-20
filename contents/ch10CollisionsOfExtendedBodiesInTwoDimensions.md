@@ -385,7 +385,7 @@ Repeat [Example 1](#example1) in which the disk originally spins clockwise at 10
 
 **Strategy**
 
-This is similar to Example 1, but now the disk has initial angular momentum from spinning before it strikes the stick. We must add the disk's spin angular momentum to its orbital angular momentum about the pivot point.
+This is similar to Example 1, which asks for the final angular velocity, the initial and final kinetic energies, and the initial and final linear momenta. Now the disk also has spin angular momentum before it strikes the stick, which we must add to its orbital angular momentum about the pivot. In Figure 2 the disk's motion about the nail is **clockwise**, and the problem states that the disk also spins clockwise, so the two contributions have the **same sign**. We take clockwise as positive.
 
 **Solution**
 
@@ -396,48 +396,78 @@ New information: disk radius R = 1.50 cm = 0.0150 m, initial spin ω₀ = 1000 r
 Convert disk's spin to rad/s:
 
 <div class="equation">
-$$ \omega_{0} = 1000 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \s} = 105 \text{ rad/s} $$
+$$ \omega_{0} = 1000 \text{ rpm} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \s} = 104.72 \text{ rad/s} $$
 </div>
 
-Initial angular momentum has two parts:
+**Initial angular momentum about the nail** has two parts:
 
-**Orbital** (disk moving toward stick):
+*Orbital* (disk moving toward the stick):
 
 <div class="equation">
 $$ L_{\text{orbital}} = mvr = (0.0500 \kg)(30.0 \text{ m/s})(1.20 \m) = 1.80 \kg \cdot \mms $$
 </div>
 
-**Spin** (disk rotating about its own axis, treating as a disk):
+*Spin* (disk rotating about its own axis, treated as a uniform disk):
 
 <div class="equation">
 $$ I_{\text{disk}} = \frac{1}{2}mR^{2} = \frac{1}{2}(0.0500 \kg)(0.0150 \m)^2 = 5.625 \times 10^{-6} \kg \cdot \mm $$
 </div>
 
-Since the disk spins clockwise (negative direction):
-
 <div class="equation">
-$$ L_{\text{spin}} = -I_{\text{disk}}\omega_{0} = -(5.625 \times 10^{-6})(105) = -5.91 \times 10^{-4} \kg \cdot \mms $$
+$$ L_{\text{spin}} = I_{\text{disk}}\omega_{0} = (5.625 \times 10^{-6})(104.72) = 5.890 \times 10^{-4} \kg \cdot \mms \text{ (clockwise)} $$
 </div>
 
-Total initial angular momentum:
-
 <div class="equation">
-$$ L = L_{\text{orbital}} + L_{\text{spin}} = 1.80 - 0.000591 \approx 1.80 \kg \cdot \mms $$
+$$ L = L_{\text{orbital}} + L_{\text{spin}} = 1.80 + 0.000589 = 1.800589 \kg \cdot \mms $$
 </div>
 
-The spin contribution is negligible (0.03%), so the final result is essentially the same as Example 1:
+**Final moment of inertia** about the nail: disk at the end of the stick, the stick, and the disk's own spin inertia:
 
 <div class="equation">
-$$ \omega' = \frac{L}{I'} = \frac{1.80}{1.032} = 1.74 \text{ rad/s} $$
+$$ I' = mr^2 + \frac{1}{3}Mr^2 + \frac{1}{2}mR^2 = 0.0720 + 0.960 + 0.000005625 = 1.032006 \kg \cdot \mm $$
 </div>
+
+**(a) Final angular velocity:**
+
+<div class="equation">
+$$ \omega' = \frac{L}{I'} = \frac{1.800589}{1.032006} = 1.74475 \text{ rad/s} \approx 1.74 \text{ rad/s (clockwise)} $$
+</div>
+
+**(b) Kinetic energies:**
+
+<div class="equation">
+$$ \KE_{i} = \frac{1}{2}mv^2 + \frac{1}{2}I_{\text{disk}}\omega_0^2 = 22.5 \J + 0.0308 \J = 22.5308 \J $$
+</div>
+
+<div class="equation">
+$$ \KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(1.032006)(1.74475)^2 = 1.57079 \J $$
+</div>
+
+**(c) Linear momenta** (in the disk's original direction of travel):
+
+<div class="equation">
+$$ p_i = mv = (0.0500 \kg)(30.0 \ms) = 1.50 \kg \cdot \ms $$
+</div>
+
+After the collision, the disk moves at $$ r\omega' $$ and the stick's center of mass at $$ (r/2)\omega' $$:
+
+<div class="equation">
+$$ p_f = m r\omega' + M\frac{r}{2}\omega' = \left[(0.0500)(1.20) + (2.00)(0.600)\right](1.74475) = 2.19838 \kg \cdot \ms $$
+</div>
+
+Linear momentum is not conserved because the nail exerts an external force on the stick during the collision.
 
 **Discussion**
 
-Even though the disk spins at 1000 rpm, its small radius means its spin angular momentum is negligible compared to its orbital angular momentum. The final answer is virtually identical to Example 1. This demonstrates that for small objects, translational motion typically dominates over rotational effects.
+The spin contributes only about 0.03% of the total angular momentum here, so the final angular velocity rounds to the same 1.74 rad/s as in Example 1. That conclusion depends on the numbers, not on the disk being "small": the spin is negligible because $$ \frac{1}{2}R^2\omega_0 = 1.18 \times 10^{-2} \text{ m}^2/\text{s} $$ is much smaller than $$ rv = 36.0 \text{ m}^2/\text{s} $$. A small object spinning fast enough, or striking close to the pivot, could have significant spin angular momentum.
 
 **Answer**
 
-The final angular velocity is **1.74 rad/s**, essentially unchanged from Example 1. The disk's spin contributes only 0.03% to the total angular momentum, demonstrating that orbital motion dominates for small spinning objects.
+(a) The final angular velocity is **1.74 rad/s** clockwise (1.74475 rad/s before rounding).
+
+(b) The kinetic energy is **22.5 J** before the collision (22.5308 J including the spin) and **1.57 J** after.
+
+(c) The linear momentum is **1.50 kg·m/s** before and **2.20 kg·m/s** after (2.19838 kg·m/s before rounding), both in the disk's original direction of travel.
 
 :::
 

@@ -425,7 +425,7 @@ $$ \text{Fraction} = \frac{h_{mountain}}{d_{Earth}} = \frac{10^{4} \m}{10^{7} \m
 
 **Discussion**
 
-The tiny ratio of 1/1000 for both ocean depths and mountain heights reveals that Earth is remarkably smooth relative to its overall size—the deepest trenches and highest peaks represent only about 0.1% of Earth's diameter. This explains why our planet appears as a smooth sphere when viewed from space, with surface irregularities barely visible. To put this in perspective, if Earth were shrunk to the size of a billiard ball, it would actually be smoother than a regulation billiard ball, since these surface features would scale down proportionally.
+The tiny ratio of 1/1000 for both ocean depths and mountain heights reveals that Earth is remarkably smooth relative to its overall size—the deepest trenches and highest peaks represent only about 0.1% of Earth's diameter. This explains why our planet appears as a smooth sphere when viewed from space, with surface irregularities barely visible. If Earth were shrunk to the size of a billiard ball, these surface features would scale down proportionally to about 0.1% of the ball's diameter; whether that is smoother than an actual billiard ball would require a specification of the ball's surface roughness, which is not given here.
 
 **Answer**
 

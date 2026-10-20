@@ -468,7 +468,7 @@ effects of the catapult on the ship.
 
 **Strategy**
 
-For part (a), we use $$ p = mv $$ and solve for velocity. For part (b), we calculate the plane's actual momentum during takeoff. For part (c), we apply conservation of momentum to find the ship's recoil velocity.
+For part (a), we use $$ p = mv $$ and solve for velocity. For part (b), we calculate the plane's actual momentum during takeoff. For part (c), we apply conservation of momentum to find the **change** in the ship's velocity caused by the launch.
 
 **Solution for (a)**
 
@@ -486,14 +486,14 @@ $$ p_{\text{plane}} = m_{\text{plane}} v_{\text{takeoff}} = (2.00 \times 10^{4} 
 
 **Solution for (c)**
 
-By conservation of momentum, when the catapult launches the plane forward, the ship recoils backward. The ship's mass from the previous problem is $$ 1.20 \times 10^{8} \kg $$.
+By conservation of momentum, when the catapult launches the plane forward, the ship recoils backward. The ship in the previous problem is already moving, so we work in a frame in which the ship is initially at rest and treat the launch as accelerating the plane from rest to 60.0 m/s relative to that frame. (Equivalently, we find the **change** in the ship's velocity; the plane's **momentum change** in that frame is $$ 1.20 \times 10^{6} \kg \cdot \ms $$.) The ship's mass from the previous problem is $$ 1.20 \times 10^{8} \kg $$.
 
 <div class="equation">
-$$ m_{\text{ship}} v_{\text{recoil}} = -p_{\text{plane}} $$
+$$ m_{\text{ship}} \Delta v_{\text{ship}} = -\Delta p_{\text{plane}} $$
 </div>
 
 <div class="equation">
-$$ v_{\text{recoil}} = \frac{-1.20 \times 10^{6} \kg \cdot \ms}{1.20 \times 10^{8} \kg} = -0.0100 \ms $$
+$$ \Delta v_{\text{ship}} = \frac{-1.20 \times 10^{6} \kg \cdot \ms}{1.20 \times 10^{8} \kg} = -0.0100 \ms $$
 </div>
 
 **Discussion**
@@ -506,7 +506,7 @@ The airplane's momentum at takeoff is about 1300 times smaller than the ship's m
 
 (b) The plane's momentum at takeoff is **1.20 × 10⁶ kg·m/s**.
 
-(c) The ship recoils at only **0.0100 m/s** (1 cm/s) backward, which is negligible and demonstrates why aircraft carriers remain stable platforms for flight operations.
+(c) The launch changes the ship's velocity by only **0.0100 m/s** (1 cm/s) backward, which is negligible and demonstrates why aircraft carriers remain stable platforms for flight operations.
 
 :::
 
@@ -550,7 +550,7 @@ $$ v_{\text{can}} = \frac{1.20 \times 10^{5} \kg \cdot \ms}{8.00 \kg} = 1.50 \ti
 
 **Discussion**
 
-This speed is about 44 times the speed of sound and roughly half of Earth's escape velocity! The mass ratio between the truck and trash can is 1500:1, so the trash can would need to travel 1500 times faster than the truck to have equal momentum. This dramatically illustrates how mass and velocity contribute equally to momentum—doubling either one doubles the momentum.
+This speed is about 44 times the speed of sound and even exceeds Earth's escape velocity of about 11.2 km/s! The mass ratio between the truck and trash can is 1500:1, so the trash can would need to travel 1500 times faster than the truck to have equal momentum. This dramatically illustrates how mass and velocity contribute equally to momentum—doubling either one doubles the momentum.
 
 **Answer**
 
@@ -666,7 +666,7 @@ $$ p = mv = (5.972 \times 10^{24} \kg)(2.98 \times 10^{4} \ms) = 1.78 \times 10^
 
 **Discussion**
 
-This is an enormous momentum—about $$ 10^{24} $$ times larger than the ship's momentum from earlier problems. Earth's orbital velocity of about 30\text{ km}/s (roughly 108,000\text{ km}/h) combined with its massive $$ 6 \times 10^{24} \kg $$ mass produces this immense momentum. Despite this huge momentum, Earth's orbit is stable because the Sun's gravitational force continuously provides the centripetal acceleration needed to change the direction of this momentum without changing its magnitude.
+This is an enormous momentum—about $$ 1.11 \times 10^{20} $$ times larger than the ship's momentum of $$ 1.60 \times 10^{9} \kg \cdot \ms $$ from earlier problems. Earth's orbital velocity of about 30 km/s (roughly 108,000 km/h) combined with its massive $$ 6 \times 10^{24} \kg $$ mass produces this immense momentum. Despite this huge momentum, Earth's orbit is stable because the Sun's gravitational force continuously provides the centripetal acceleration needed to change the direction of this momentum without changing its magnitude.
 
 **Answer**
 

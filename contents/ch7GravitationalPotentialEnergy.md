@@ -419,7 +419,7 @@ and its center of mass is 36.5 m above the surrounding ground?
 
 For part (a), we use the gravitational potential energy formula$$\PE_{g} = mgh$$, where$$m$$is the mass of the pyramid,$$g = 9.80\mss$$, and$$h$$is the height of the center of mass.
 
-For part (b), we compare this energy to the typical daily food intake of about$$1.2 \times 10^{7}\J$$(or 2400 kcal).
+For part (b), we compare this energy to the typical daily food intake of about$$1.2 \times 10^{7}\J$$(about 2870 kcal).
 
 **Solution for (a)**
 

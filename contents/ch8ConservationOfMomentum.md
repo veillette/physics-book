@@ -471,17 +471,19 @@ For the car-car collision with identical cars moving at equal speeds in opposite
 
 By conservation of momentum:
 
+Equal loaded masses moving at equal speeds in opposite directions have zero total momentum, so the **total** momentum after the collision must also be zero. That alone does not mean each car stops: an elastic rebound, with each car bouncing back at 10 m/s, would also have zero total momentum. If we assume the cars stick together (no rebound), they move with a common final velocity:
+
 $$ m(+10 \ms) + m(-10 \ms) = 2m \times v_f $$
 
 $$ 0 = 2m \times v_f $$
 
 $$ v_f = 0 $$
 
-Both cars come to rest. The passenger's change in momentum is the same: from $$ +700 \kg \cdot \ms $$ to 0.
+Under that assumption both cars come to rest, and the passenger's change in momentum is the same as for the tree: from $$ +700 \kg \cdot \ms $$ to 0.
 
 **Discussion**
 
-The change in momentum is identical in both cases—the passenger goes from 10 m/s to 0. However, the **force** depends on the collision time, which may differ between the two scenarios. A car-car collision might have different deformation characteristics than hitting a rigid tree, potentially changing the stopping time. If the collision time in the car-car crash were longer (due to crumple zones in both cars absorbing energy over a longer distance), the force would be reduced. If shorter, the force would be greater. Without knowing the collision time for the car-car scenario, we cannot definitively compare the forces, but the momentum change remains the same.
+Assuming the cars stick together, the change in momentum is identical in both cases—the passenger goes from 10 m/s to 0. (If the cars rebounded, the passenger's momentum change would be larger.) However, the **force** depends on the collision time, which may differ between the two scenarios. A car-car collision might have different deformation characteristics than hitting a rigid tree, potentially changing the stopping time. If the collision time in the car-car crash were longer (due to crumple zones in both cars absorbing energy over a longer distance), the force would be reduced. If shorter, the force would be greater. Without knowing the collision time for the car-car scenario, we cannot definitively compare the forces, but the momentum change remains the same.
 
 :::
 

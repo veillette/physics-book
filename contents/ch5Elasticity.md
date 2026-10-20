@@ -1003,8 +1003,10 @@ The nylon rope stretches by approximately $$ 9 \text{ cm} $$ under the climber's
 
 A 20.0-m tall hollow aluminum flagpole is equivalent in stiffness to a solid
 cylinder 4.00 cm in diameter. A strong wind bends the pole much as a horizontal
-force of 900 N exerted at the top would. How far to the side does the top of
-the pole flex?
+force of 900 N exerted at the top would. Use the small-deflection bending
+formula for a cantilever, $$ \Delta x = FL_0^3/(3YI) $$ with $$ I = \pi r^4/4 $$,
+to estimate how far to the side the top of the pole flexes. Is this linear
+model valid for the given load and stiffness? Explain.
 
 ::::
 
@@ -1238,7 +1240,7 @@ $$ A = \pi r^2 = \pi(0.00300 \m)^2 = 2.83 \times 10^{-5} \mm $$
 </div>
 
 <div class="equation">
-$$ I = \frac{\pi r^4}{4} = 3.18 \times 10^{-11} \text{ m}^4 $$
+$$ I = \frac{\pi r^4}{4} = \frac{\pi (0.00300 \m)^4}{4} = 6.36 \times 10^{-11} \text{ m}^4 $$
 </div>
 
 2. Decompose the force:
@@ -1248,7 +1250,7 @@ $$ I = \frac{\pi r^4}{4} = 3.18 \times 10^{-11} \text{ m}^4 $$
 (a) Bending deflection of the 2.00-cm cantilever:
 
 <div class="equation">
-$$ \Delta x = \frac{F_\perp L^3}{3YI} = \frac{(5.64 \N)(0.0200 \m)^3}{3(1.5 \times 10^{10} \text{ N/m}^2)(3.18 \times 10^{-11} \text{ m}^4)} $$
+$$ \Delta x = \frac{F_\perp L^3}{3YI} = \frac{(5.64 \N)(0.0200 \m)^3}{3(1.5 \times 10^{10} \text{ N/m}^2)(6.36 \times 10^{-11} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
@@ -1283,7 +1285,7 @@ supporting a traffic light were calculated. The left wire made an angle $$ 30.0^
 below the horizontal with the top of its pole and carried a tension of 108 N.
 The 12.0 m tall hollow aluminum pole is equivalent in stiffness to a 4.50 cm
 diameter solid cylinder.
-(a) How far is it bent to the side?
+(a) Use the small-deflection bending formula $$ \Delta x = F_H L^3/(3YI) $$, with $$ I = \pi r^4/4 $$, to estimate how far it is bent to the side. Is the linear model valid here?
 (b) By how much is it compressed?
 
 ::::
@@ -1354,7 +1356,7 @@ answer, do you think the bottle will survive?
 
 **Strategy**
 
-The bulk modulus relates pressure change to fractional volume change: $$ B = -\Delta P/(\Delta V/V_0) $$. The juice would **increase** its volume by 0.2% if free to expand, so $$ \Delta V/V_0 = +2 \times 10^{-3} $$ for that free expansion. Because the rigid bottle prevents the increase, the juice is under **compression** and exerts outward normal force on the glass. We solve for the magnitude of the pressure.
+The bulk modulus relates pressure change to fractional volume change: $$ B = -\Delta P/(\Delta V/V_0) $$. The juice would **increase** its volume by 0.2% if free to expand; that $$ +2 \times 10^{-3} $$ is the unconstrained thermal expansion. Because the rigid bottle prevents the increase, the juice is held at its original volume, which is equivalent to compressing the freely expanded juice by a fractional amount $$ \Delta V/V_0 = -2 \times 10^{-3} $$. That negative compressive strain is what enters the signed bulk-modulus relation, giving a positive pressure increase. The compressed juice exerts an outward normal force on the glass. We solve for the magnitude of the pressure.
 
 **Solution**
 
@@ -1363,24 +1365,24 @@ The bulk modulus relates pressure change to fractional volume change: $$ B = -\D
 $$ B = -\frac{\Delta P}{\Delta V/V_0} $$
 </div>
 
-2. The prevented expansion corresponds to $$ \Delta V/V_0 = +2 \times 10^{-3} $$ (the volume change the juice would undergo if unconstrained). The resulting compressive pressure magnitude is:
+2. The compressive strain relative to the freely expanded state is $$ \Delta V/V_0 = -2 \times 10^{-3} $$. The resulting pressure increase is:
 <div class="equation">
-$$ |\Delta P| = B \times \frac{\Delta V}{V_0} = (1.8 \times 10^9 \text{ N/m}^2)(2 \times 10^{-3}) = 3.6 \times 10^6 \text{ N/m}^2 $$
+$$ \Delta P = -B \times \frac{\Delta V}{V_0} = -(1.8 \times 10^9 \text{ N/m}^2)(-2 \times 10^{-3}) = 3.6 \times 10^6 \text{ N/m}^2 $$
 </div>
 
 3. Convert to the units requested in the problem ($$ 1 \text{ cm}^2 = 10^{-4} \text{ m}^2 $$):
 <div class="equation">
-$$ \frac{F}{A} = 3.6 \times 10^6 \text{ N/m}^2 \times 10^{-4} \text{ m}^2/\text{cm}^2 = 360 \text{ N/cm}^2 \approx 4 \times 10^{2} \text{ N/cm}^2 $$
+$$ \frac{F}{A} = 3.6 \times 10^6 \text{ N/m}^2 \times 10^{-4} \text{ m}^2/\text{cm}^2 = 3.6 \times 10^{2} \text{ N/cm}^2 $$
 </div>
 
-4. In pascals and atmospheres:
+4. In pascals, bars, and atmospheres ($$ 1 \text{ bar} = 10^5 \text{ Pa} $$, $$ 1 \text{ atm} = 1.013 \times 10^5 \text{ Pa} $$):
 <div class="equation">
-$$ |\Delta P| = 3.6 \times 10^6 \text{ Pa} = 40 \text{ bar} \approx 36 \text{ atm} $$
+$$ |\Delta P| = 3.6 \times 10^6 \text{ Pa} = 36 \text{ bar} \approx 36 \text{ atm} $$
 </div>
 
 **Discussion**
 
-The juice pushes on the bottle with about $$ 360 \text{ N/cm}^2 $$ ($$ 4 \times 10^{2} \text{ N/cm}^2 $$ to two significant figures), or roughly 36 atmospheres. A typical glass bottle can withstand only about 10–20 atm before failing, so the bottle will almost certainly break. This is why wine and juice bottles are not filled completely to the brim—the headspace allows for thermal expansion without building dangerous pressures.
+The juice pushes on the bottle with about $$ 3.6 \times 10^{2} \text{ N/cm}^2 $$ (two significant figures), or roughly 36 atmospheres. Rounded to one significant figure, as the 0.2% input might justify, this is $$ 4 \times 10^{2} \text{ N/cm}^2 $$ or about 40 bar. A typical glass bottle can withstand only about 10–20 atm before failing, so the bottle will almost certainly break. This is why wine and juice bottles are not filled completely to the brim—the headspace allows for thermal expansion without building dangerous pressures.
 
 ::::
 
@@ -1425,7 +1427,7 @@ $$ \Delta P = \frac{2.0 \times 10^8}{1.01 \times 10^5} \approx 2000 \text{ atm} 
 
 (b) Analysis of the result:
 
-This pressure of about 2000 atmospheres is enormous—roughly 200 times greater than the pressure at the bottom of the deepest ocean! The tensile strength of cast iron (used in engine blocks) is about $$ 1-2 \times 10^8 \text{ N/m}^2 $$, and even steel's tensile strength is only about $$ 4 \times 10^8 \text{ N/m}^2 $$. Rocks typically fail at much lower pressures.
+This pressure of about 2000 atmospheres is enormous—roughly twice the pressure at the bottom of the deepest ocean (about 11 km down, where $$ \rho g h \approx 1.1 \times 10^8 \text{ N/m}^2 $$, or about 1100 atm). The tensile strength of cast iron (used in engine blocks) is about $$ 1-2 \times 10^8 \text{ N/m}^2 $$, and even steel's tensile strength is only about $$ 4 \times 10^8 \text{ N/m}^2 $$. Rocks typically fail at much lower pressures.
 
 **Discussion**
 
@@ -1486,7 +1488,7 @@ bend in a power line and is therefore subjected to more shear force than poles
 in straight parts of the line. The tension in each line is $$ 4.00 \times 10^{4}N $$, at the angles shown. The pole is 15.0 m tall, has an 18.0 cm
 diameter, and can be considered to have half the stiffness of hardwood.
 (a) Calculate the compression of the pole.
-(b) Find how much it bends and in what direction.
+(b) Use the small-deflection bending formula $$ \Delta x = F L_0^3/(3YI) $$, with $$ I = \pi r^4/4 $$, to estimate how much it bends and in what direction. Is the linear model valid for this load?
 (c) Find the tension in a guy wire used to keep the pole straight if it is attached
 to the top of the pole at an angle of $$ 30.0^\circ $$ with the vertical. (
 Clearly, the guy wire must be in the opposite direction of the bend.)
@@ -1528,17 +1530,17 @@ $$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4)(15.0)}
 $$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m = 1.1 \text{ mm} $$
 </div>
 
-(b) Formal small-deflection result ($$ I = \pi r^4/4 = 5.15 \times 10^{-6} \text{ m}^4 $$):
+(b) Formal small-deflection result ($$ I = \pi r^4/4 = \pi(0.090 \m)^4/4 = 5.15 \times 10^{-5} \text{ m}^4 $$):
 
 <div class="equation">
-$$ \Delta x_{\text{lin}} = \frac{F_{H,net} L_0^3}{3YI} = \frac{(5.57 \times 10^4 \N)(15.0 \m)^3}{3(7.5 \times 10^9 \text{ N/m}^2)(5.15 \times 10^{-6} \text{ m}^4)} $$
+$$ \Delta x_{\text{lin}} = \frac{F_{H,net} L_0^3}{3YI} = \frac{(5.57 \times 10^4 \N)(15.0 \m)^3}{3(7.5 \times 10^9 \text{ N/m}^2)(5.15 \times 10^{-5} \text{ m}^4)} $$
 </div>
 
 <div class="equation">
-$$ \Delta x_{\text{lin}} = 1.6 \times 10^{3} \m $$
+$$ \Delta x_{\text{lin}} = 1.6 \times 10^{2} \m $$
 </div>
 
-This is over 100 times the pole's length, so **the linear formula cannot give a physical displacement for this load**. The resultant horizontal force points along the bisector of the 90° angle (45° from each wire), but the actual deformation or failure requires further analysis.
+This is about 11 times the pole's length, so **the linear formula cannot give a physical displacement for this load**. The resultant horizontal force points along the bisector of the 90° angle (45° from each wire), but the actual deformation or failure requires further analysis.
 
 (c) Guy wire tension:
 
@@ -1554,7 +1556,7 @@ $$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4}{0.500} = 1.11
 
 **Discussion**
 
-The $$ 1.1 \text{ mm} $$ value in (a) estimates axial compression of a straight pole under the two line tensions. The formal $$ 1.6 \times 10^{3} \m $$ result in (b) demonstrates failure of the small-deflection approximation; it is not an actual bend. The horizontal force balance in (c) gives a guy wire tension of $$ 1.11 \times 10^5 \N $$ to cancel the sideways load on a straight pole. The guy wire also adds downward force, so a supported design must check the resulting compression, stability, and material strength.
+The $$ 1.1 \text{ mm} $$ value in (a) estimates axial compression of a straight pole under the two line tensions. The formal $$ 1.6 \times 10^{2} \m $$ result in (b) demonstrates failure of the small-deflection approximation; it is not an actual bend. The horizontal force balance in (c) gives a guy wire tension of $$ 1.11 \times 10^5 \N $$ to cancel the sideways load on a straight pole. The guy wire also adds downward force, so a supported design must check the resulting compression, stability, and material strength.
 
 ::::
 

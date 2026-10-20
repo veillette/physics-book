@@ -434,13 +434,15 @@ $$ \KE_{i} = \frac{1}{2}m_1 v_1^2 = \frac{1}{2}(60.0 \kg)(4.00 \ms)^2 = 480 \J $
 
 Final kinetic energy (both skaters moving together):
 
-$$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(135 \kg)(1.78 \ms)^2 = 214 \J $$
+$$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{(m_1 v_1)^2}{2(m_1 + m_2)} = \frac{(240 \kg \cdot \ms)^2}{2(135 \kg)} = 213.3 \J $$
+
+(Using the unrounded $$ v_f = 240/135 \ms $$ avoids the rounding error that $$ 1.78 \ms $$ would introduce.)
 
 Kinetic energy lost:
 
-$$ \Delta \KE = \KE_{i} - \KE_{f} = 480 \J - 214 \J = 266 \J $$
+$$ \Delta \KE = \KE_{i} - \KE_{f} = 480 \J - 213.3 \J = 266.7 \J $$
 
-The kinetic energy lost during the catch is 266 J.
+The kinetic energy lost during the catch is 267 J.
 
 **Discussion**
 
@@ -494,11 +496,11 @@ The final velocity is 8.06 m/s in the original direction.
 
 $$ \KE_{i} = \frac{1}{2}(110 \kg)(8.00 \ms)^2 + \frac{1}{2}(0.410 \kg)(25.0 \ms)^2 = 3520 \J + 128 \J = 3648 \J $$
 
-$$ \KE_{f} = \frac{1}{2}(110.41 \kg)(8.06 \ms)^2 = 3586 \J $$
+Subtracting two large, nearly equal energies amplifies rounding errors (with $$ v_f $$ rounded to 8.06 m/s, the difference comes out as 62 J). Instead, use the exact result for a perfectly inelastic collision, which depends only on the reduced mass and the relative velocity:
 
-$$ \Delta \KE = 3586 \J - 3648 \J = -62 \J $$
+$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110)(0.410)}{110.41}\right)\text{kg}\,(8.00 - 25.0)^2 \text{ m}^2/\text{s}^2 = 59.0 \J $$
 
-The kinetic energy lost is approximately 56-62 J.
+The kinetic energy lost is 59.0 J.
 
 **Part (c) - Opposite directions**
 
@@ -512,15 +514,13 @@ $$ v_f = \frac{869.75 \kg \cdot \ms}{110.41 \kg} = 7.88 \ms $$
 
 Energy loss for opposite direction:
 
-$$ \KE_{f} = \frac{1}{2}(110.41 \kg)(7.88 \ms)^2 = 3428 \J $$
+$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110)(0.410)}{110.41}\right)\text{kg}\,(8.00 + 25.0)^2 \text{ m}^2/\text{s}^2 = 222 \J $$
 
-$$ \Delta \KE = 3428 \J - 3648 \J = -220 \J $$
-
-The kinetic energy lost is approximately 220-223 J.
+The kinetic energy lost is 222 J.
 
 **Discussion**
 
-When the ball is coming toward the player (opposite directions), approximately 4 times more kinetic energy is lost (223 J vs. 56 J). This lost energy is absorbed by the player's hands and arms as they decelerate and then accelerate the ball to match the player's velocity. This is why catching a ball thrown against your direction of motion hurts more—more energy must be dissipated in your body.
+When the ball is coming toward the player (opposite directions), 3.77 times more kinetic energy is lost (222 J vs. 59.0 J), the ratio $$ (33.0/17.0)^2 $$ of the squared relative speeds. This lost energy is absorbed by the player's hands and arms as they decelerate and then accelerate the ball to match the player's velocity. This is why catching a ball thrown against your direction of motion hurts more—more energy must be dissipated in your body.
 
 :::
 
@@ -596,7 +596,7 @@ second a mass of $$ 7.50\times 10^{3}\kg $$.
 in which the first satellite was originally at rest.
 (b) What is the loss of kinetic energy in this inelastic collision?
 (c) Repeat both parts by using the frame of reference in which the second
-satellite was originally at rest. Explain why the change in velocity is
+satellite was originally at rest. Explain why the final velocity is
 different in the two frames, whereas the change in kinetic energy is the same in
 both.
 
@@ -631,7 +631,7 @@ $$ 1875 \kg \cdot \ms = (11500 \kg) v_f $$
 </div>
 
 <div class="equation">
-$$ v_f = \frac{1875}{11500} = 0.163 \ms $$
+$$ v_f = \frac{1875}{11500} = 0.16304 \ms \approx 0.163 \ms $$
 </div>
 
 The final velocity is 0.163 m/s in the direction of motion of the more massive satellite.
@@ -641,22 +641,22 @@ The final velocity is 0.163 m/s in the direction of motion of the more massive s
 Initial kinetic energy (only satellite 2 is moving in this frame):
 
 <div class="equation">
-$$ \KE_{i} = \frac{1}{2} m_2 v_2^2 = \frac{1}{2}(7.50 \times 10^3 \kg)(0.250 \ms)^2 = 234 \J $$
+$$ \KE_{i} = \frac{1}{2} m_2 v_2^2 = \frac{1}{2}(7.50 \times 10^3 \kg)(0.250 \ms)^2 = 234.375 \J $$
 </div>
 
 Final kinetic energy:
 
 <div class="equation">
-$$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(11.5 \times 10^3 \kg)(0.163 \ms)^2 = 153 \J $$
+$$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{1}{2}(11.5 \times 10^3 \kg)(0.16304 \ms)^2 = 152.853 \J $$
 </div>
 
 Energy lost:
 
 <div class="equation">
-$$ \Delta \KE = \KE_{f} - \KE_{i} = 153 \J - 234 \J = -81 \J $$
+$$ \Delta \KE = \KE_{f} - \KE_{i} = 152.853 \J - 234.375 \J = -81.522 \J $$
 </div>
 
-The kinetic energy lost is approximately 81.6 J.
+The kinetic energy lost is 81.5 J.
 
 **Part (c) - Frame where second satellite is at rest**
 
@@ -675,7 +675,7 @@ $$ -1000 \kg \cdot \ms = (11500 \kg) v_f $$
 </div>
 
 <div class="equation">
-$$ v_f = -\frac{1000}{11500} = -0.0870 \ms $$
+$$ v_f = -\frac{1000}{11500} = -0.086957 \ms \approx -0.0870 \ms $$
 </div>
 
 The final velocity is $$ 8.70 \times 10^{-2} \ms $$ in the direction of motion of the less massive satellite.
@@ -691,18 +691,18 @@ $$ \KE_{i} = \frac{1}{2} m_1 v_1^2 = \frac{1}{2}(4.00 \times 10^3 \kg)(0.250 \ms
 Final kinetic energy:
 
 <div class="equation">
-$$ \KE_{f} = \frac{1}{2}(11.5 \times 10^3 \kg)(0.0870 \ms)^2 = 43.5 \J $$
+$$ \KE_{f} = \frac{1}{2}(11.5 \times 10^3 \kg)(0.086957 \ms)^2 = 43.478 \J $$
 </div>
 
 <div class="equation">
-$$ \Delta \KE = 43.5 \J - 125 \J = -81.5 \J $$
+$$ \Delta \KE = 43.478 \J - 125 \J = -81.522 \J $$
 </div>
 
-The energy loss is approximately 81.5 J, the same as in part (b).
+The energy loss is 81.5 J, the same as in part (b).
 
 **Discussion**
 
-The final velocities differ in the two reference frames (0.163 m/s vs. -0.0870 m/s) because velocity is frame-dependent. However, the kinetic energy loss is essentially the same in both frames (81.6 J vs. 81.5 J). This is because the energy lost to internal forces—converted to heat, deformation, and vibration during docking—is an invariant quantity independent of the reference frame. The center of mass of the system moves at constant velocity in both frames since there are no external forces, and the energy dissipated in the collision is the same regardless of which frame we use to observe it.
+The final velocities differ in the two reference frames (0.163 m/s vs. -0.0870 m/s) because velocity is frame-dependent. However, the kinetic energy loss is the same in both frames (81.522 J, or 81.5 J). Note that each satellite's **change** in velocity is the same in both frames (Galilean velocity changes do not depend on the frame); it is the final velocity that differs. This is because the energy lost to internal forces—converted to heat, deformation, and vibration during docking—is an invariant quantity independent of the reference frame. The center of mass of the system moves at constant velocity in both frames since there are no external forces, and the energy dissipated in the collision is the same regardless of which frame we use to observe it.
 
 :::
 
@@ -1068,11 +1068,17 @@ $$ \KE_{f} = \frac{1}{2}(7.36 \times 10^{22} \kg)(6.79 \times 10^{-17} \ms)^2 = 
 
 Energy lost is approximately $$ 6.25 \times 10^9 \J $$ (6.25 GJ).
 
-Regarding the plume: The plume consists of ejected material from the Moon's surface. Since this material remains part of the Moon system (gravitationally bound), it does not affect the momentum conservation calculation—the total momentum of the Moon plus plume equals the rocket's initial momentum. However, the plume carries kinetic energy as particles are ejected at high speeds. This means some of the initial kinetic energy goes into the plume's motion rather than being completely converted to heat and deformation. The energy measured as "lost" (converted to heat) may be somewhat less than our calculation suggests, because we haven't separately accounted for the plume's kinetic energy.
+Regarding the plume: The calculations above treat the collision as perfectly inelastic, with no ejecta, so that the rocket and Moon end with a single common velocity. That is a valid idealization, but a real impact throws up a plume of lunar material. Momentum conservation then fixes the total momentum of the **Moon plus plume**, not the momentum of the solid Moon alone:
+
+<div class="equation">
+$$ p_{	ext{Moon}} = p_{	ext{initial}} - p_{	ext{plume}} $$
+</div>
+
+Material ejected back toward the direction the rocket came from carries momentum opposite to the rocket's, so the solid Moon's instantaneous recoil is **larger** than the no-ejecta result. This is true even if the plume is gravitationally bound and later falls back. Its return then changes the Moon's motion again, and only the motion of the combined center of mass of Moon plus plume is fixed by the rocket's initial momentum throughout. The plume also carries kinetic energy, so the final state is not a single body moving with one common velocity, and somewhat less energy is converted to heat and deformation than the no-ejecta calculation suggests.
 
 **Discussion**
 
-The Moon barely recoils in either collision due to its enormous mass—it's about 15 trillion times more massive than the asteroid and about 37 billion times more massive than the rocket. In the asteroid collision, over 99.99999% of the kinetic energy is dissipated, creating the crater, vaporizing rock, generating heat, and producing seismic waves that medieval monks may have observed as a "red glow." The NASA experiment converted all 6.25 GJ of the rocket's kinetic energy into crater formation, vaporization, and the plume—which allowed scientists to analyze the ejected material and discover water ice in the lunar regolith. These examples illustrate why impacts with astronomical bodies are so devastating: the energy cannot go into moving the massive planet or moon, so it must be dissipated locally through destructive processes.
+The Moon barely recoils in either collision due to its enormous mass—it's about $$ 1.47 \times 10^{10} $$ times (15 billion times) more massive than the asteroid and about $$ 3.68 \times 10^{19} $$ times more massive than the rocket. In the asteroid collision, over 99.99999% of the kinetic energy is dissipated, creating the crater, vaporizing rock, generating heat, and producing seismic waves that medieval monks may have observed as a "red glow." The NASA experiment converted essentially all 6.25 GJ of the rocket's kinetic energy into crater formation, vaporization, and the plume's motion—which allowed scientists to analyze the ejected material and discover water ice in the lunar regolith. These examples illustrate why impacts with astronomical bodies are so devastating: the energy cannot go into moving the massive planet or moon, so it must be dissipated locally through destructive processes.
 
 :::
 

@@ -648,7 +648,7 @@ Calculate the final kinetic energy:
  $$ \KE_{f} = 228 \J + 95.6 \J = 324 \J $$
 </div>
 
-Since $$ \KE_{f} > \KE_{i} $$, the collision is NOT elastic. The linear kinetic energy actually increased!
+Since $$ \KE_{f} > \KE_{i} $$, the translational kinetic energy is not conserved, so the collision is not elastic in the point-mass (translational) sense. The linear kinetic energy actually increased!
 
 Part (c): The increase in linear kinetic energy is:
 
@@ -656,17 +656,17 @@ Part (c): The increase in linear kinetic energy is:
  $$ \Delta \KE = \KE_{f} - \KE_{i} = 324 \J - 223 \J = 101 \J $$
 </div>
 
-This increase comes from the rotational kinetic energy of the spinning bowling ball. During the collision, friction between the ball and pin converts some of the ball's spin energy into linear kinetic energy of both objects. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact, making strikes more likely.
+A possible source of this increase is the rotational kinetic energy of the spinning bowling ball: during the collision, friction between the ball and pin could convert some of the ball's spin energy into linear kinetic energy of both objects. This is why experienced bowlers put spin on the ball—it stores additional energy that can be transferred to the pins during impact, making strikes more likely.
 
 **Discussion**
 
-This is a "superelastic" collision where internal energy (from the ball's rotation) is converted to linear kinetic energy. The ball's speed actually increased slightly (9.00 to 9.10 m/s) while also deflecting by 14.7°, demonstrating that rotational energy was added to the linear motion. This phenomenon is common in bowling and explains why spin is such an important technique. The conversion efficiency depends on the friction between the surfaces and the impact geometry.
+In the point-mass sense this is a "superelastic" collision: translational kinetic energy increased. The ball's speed actually increased slightly (9.00 to 9.10 m/s) while also deflecting by 14.7°, which is consistent with rotational energy being converted to linear motion. Without data on the ball's and pin's spin before and after, however, we cannot tell whether the **total** kinetic energy (translational plus rotational) increased, decreased, or was conserved. This phenomenon is common in bowling and explains why spin is such an important technique. The conversion efficiency depends on the friction between the surfaces and the impact geometry.
 
 **Answer**
 
 (a) The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal (or at $$ -14.7^\circ $$).
-(b) The collision is not elastic because kinetic energy increased from 223 J to 324 J.
-(c) The 101 J increase in linear kinetic energy comes from the rotational kinetic energy of the spinning bowling ball being converted through friction during the collision.
+(b) The collision is not elastic in the translational sense, because the translational kinetic energy increased from 223 J to 324 J.
+(c) The 101 J increase in linear kinetic energy can come from the rotational kinetic energy of the spinning bowling ball, converted through friction during the collision.
 
 :::
 

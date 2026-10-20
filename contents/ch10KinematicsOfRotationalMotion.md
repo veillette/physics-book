@@ -470,7 +470,7 @@ $$ \theta = \frac{6.4 \text{ rad}}{2\pi \text{ rad/rev}} = 1.0 \text{ rev} $$
 
 **Discussion**
 
-The gyroscope makes exactly one complete revolution while spinning up to 32 rad/s. The angular acceleration of 80 rad/s² is quite large, reflecting the rapid spin-up from the string pull. This is a typical way to start a gyroscope—a quick pull on a string wrapped around its axis.
+The gyroscope makes about one complete revolution (1.02 revolutions, which rounds to 1.0 at the precision of the data) while spinning up to 32 rad/s. The angular acceleration of 80 rad/s² is quite large, reflecting the rapid spin-up from the string pull. This is a typical way to start a gyroscope—a quick pull on a string wrapped around its axis.
 
 **Answer**
 

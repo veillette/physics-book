@@ -462,7 +462,7 @@ where $$ d $$ represents the horizontal distance of each mass from the hip pivot
 
 **Discussion**
 
-This is the same principle humans use when carrying heavy loads—we lean backward when carrying a backpack or forward when carrying something in front. Bipedal dinosaurs like T. rex, with their massive heads, had correspondingly massive, muscular tails. This counterbalancing also allowed dynamic stability during running and turning.
+This is the same principle humans use when carrying heavy loads—we lean **forward** to counter the backward shift of the cg caused by a backpack, and **backward** to counter a load carried in front. Bipedal dinosaurs like T. rex, with their massive heads, had correspondingly massive, muscular tails. This counterbalancing also allowed dynamic stability during running and turning.
 
 :::
 
@@ -571,21 +571,21 @@ We compare the mechanical advantage and kinematic properties of the hypothetical
 
 2. **Reduced joint forces:** Lower muscle forces mean lower forces in the elbow joint, reducing wear and tear.
 
-3. **More efficient for lifting:** Less metabolic energy would be required to lift and hold heavy objects.
+3. **Larger loads for the same muscle force:** The muscle force needed to lift or hold a given load would be much smaller. (Whether this saves metabolic energy is a separate physiological question; mechanical advantage alone does not determine metabolic cost.)
 
 **Disadvantages of wrist attachment:**
 
-1. **Much slower movement:** When the muscle contracts a small distance $$ \Delta l $$, the hand would move only slightly farther. With the actual attachment, a 1 cm muscle contraction produces about 9.5 cm of hand movement.
+1. **Much slower movement and smaller range per contraction:** When the muscle contracts a small distance $$ \Delta l $$, the hand would move only slightly farther. With the actual attachment, a 1 cm muscle contraction produces about 9.5 cm of hand movement, so the same contraction speed produces a much faster hand.
 
 2. **Reduced range of motion:** The forearm couldn't bend as far because the muscle would reach its minimum length with less angular rotation.
 
-3. **Loss of fine motor control:** Precise movements would be difficult because small muscle contractions would produce proportionally small hand movements.
+3. **Control resolution is not the drawback:** If the muscle can control its length to some fixed resolution, the wrist attachment would actually make hand movements *finer*, because each small muscle contraction would produce a proportionally small hand movement. The cost is speed and range, not precision.
 
 4. **Structural problems:** Long tendons running the length of the forearm would be vulnerable to injury and would interfere with wrist and hand function.
 
 **Discussion**
 
-Evolution has optimized our bodies for speed and precision rather than raw strength. We can use tools (levers, pulleys) to amplify force when needed, but no tool can make us move faster or with finer control—these capabilities must be built in.
+The actual attachment trades force for speed and range of motion: the biceps must exert a large force, but the hand moves quickly and far. Keep these quantities distinct—force, speed, displacement, and control resolution are different properties. Tools can shift the tradeoff in either direction: levers and pulleys can multiply force, and other levers and wheels (such as a bicycle's gears or a baseball bat) can multiply speed.
 
 :::
 
@@ -756,7 +756,7 @@ The horizontal components cancel due to symmetry. The total force is:
 $$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 + (376)^2} = 376 \N $$
 </div>
 
-The total force is **376 N** directed vertically downward (along the tendon).
+The total force is **376 N** directed vertically **upward** (the muscles pull up on the tendon, as shown in Figure 5).
 
 **Discussion**
 
@@ -785,67 +785,55 @@ The kneecap acts as a pulley that changes the direction of the tendon force. The
 
 **Solution**
 
-From [Figure 6](#Figure6), two tension forces act on the kneecap:
-- $$ \vb{T}_1 = 1250 \N $$ at 55° above horizontal (from quadriceps)
-- $$ \vb{T}_2 = 1250 \N $$ at 75° below horizontal (to lower leg)
+From [Figure 6](#Figure6), take $$ +x $$ to the right and $$ +y $$ upward. Both tendon forces on the kneecap point to the **left**, away from the knee's front:
+- $$ \vb{T}_1 = 1250 \N $$ toward the quadriceps, up and to the left at 55° above horizontal
+- $$ \vb{T}_2 = 1250 \N $$ toward the lower leg, down and to the left at 75° below horizontal
 
-The kneecap exerts an equal and opposite force on the femur. First, find the components of each tension force:
-
-For $$ \vb{T}_1 $$ (55° above horizontal):
+For $$ \vb{T}_1 $$:
 
 <div class="equation">
-$$ T_{1x} = (1250 \N)\cos{55°} = (1250)(0.574) = 717 \N $$
+$$ T_{1x} = -(1250 \N)\cos{55°} = -(1250)(0.574) = -717 \N, \quad T_{1y} = (1250 \N)\sin{55°} = (1250)(0.819) = +1024 \N $$
 </div>
 
+For $$ \vb{T}_2 $$:
+
 <div class="equation">
-$$ T_{1y} = (1250 \N)\sin{55°} = (1250)(0.819) = 1024 \N $$
+$$ T_{2x} = -(1250 \N)\cos{75°} = -(1250)(0.259) = -324 \N, \quad T_{2y} = -(1250 \N)\sin{75°} = -(1250)(0.966) = -1207 \N $$
 </div>
 
-For $$ \vb{T}_2 $$ (75° below horizontal, or -75° from horizontal):
+The resultant tendon force on the kneecap:
 
 <div class="equation">
-$$ T_{2x} = (1250 \N)\cos{(-75°)} = (1250)(0.259) = 324 \N $$
+$$ F_x = T_{1x} + T_{2x} = -717 + (-324) = -1041 \N, \quad F_y = T_{1y} + T_{2y} = 1024 + (-1207) = -183 \N $$
 </div>
 
-<div class="equation">
-$$ T_{2y} = (1250 \N)\sin{(-75°)} = (1250)(-0.966) = -1207 \N $$
-</div>
-
-The net force on the kneecap from the tendons:
+**Forces on each body.** The kneecap is in equilibrium, so the femur pushes on the kneecap with the force that balances the tendons, $$ (+1041, +183) \N $$. By Newton's third law, the kneecap pushes on the femur with the opposite force, which has the **same direction as the tendon resultant**:
 
 <div class="equation">
-$$ F_x = T_{1x} + T_{2x} = 717 + 324 = 1041 \N $$
-</div>
-
-<div class="equation">
-$$ F_y = T_{1y} + T_{2y} = 1024 + (-1207) = -183 \N $$
-</div>
-
-By Newton's third law, the kneecap exerts an equal and opposite force on the femur:
-
-<div class="equation">
-$$ F_{\text{femur},x} = -1041 \N, \quad F_{\text{femur},y} = +183 \N $$
+$$ \vb{F}_{\text{kneecap on femur}} = (-1041 \N, -183 \N) $$
 </div>
 
 The magnitude of this force:
 
 <div class="equation">
-$$ F_{\text{femur}} = \sqrt{(-1041)^2 + (183)^2} = \sqrt{1083681 + 33489} = \sqrt{1117170} = 1057 \N \approx 1.1 \times 10^{3} \N $$
+$$ F = \sqrt{(-1041)^2 + (-183)^2} = \sqrt{1083681 + 33489} = \sqrt{1117170} = 1057 \N \approx 1.06 \times 10^{3} \N $$
 </div>
 
-The direction:
+The direction: both components are negative, so the force lies in the third quadrant:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{183}{-1041}\right) = \tan^{-1}(-0.176) = 180° + 10° = 190° \text{ (ccw from positive } x\text{-axis)} $$
+$$ \theta = 180° + \tan^{-1}\left(\frac{183}{1041}\right) = 180° + 10.0° = 190° \text{ (ccw from positive } x\text{-axis)} $$
 </div>
+
+that is, 10° below the negative x-axis, pressing the kneecap back and slightly down into the femur.
 
 **Discussion**
 
-The kneecap exerts a force of approximately 1100 N on the femur at an angle of 190° (or 10° below the negative x-axis). This force is slightly less than the individual tendon tensions of 1250 N because the two tension forces partially cancel in the vertical direction. The kneecap functions as an anatomical pulley, changing the direction of the muscle force and providing mechanical advantage for leg extension. This force on the femur is substantial and explains why knee injuries and arthritis are common, especially in athletes who repeatedly subject their knees to high forces.
+The kneecap exerts a force of approximately 1.06 kN on the femur at an angle of 190° (or 10° below the negative x-axis). This force is slightly less than the individual tendon tensions of 1250 N because the two tension forces partially cancel in the vertical direction. The kneecap functions as an anatomical pulley, changing the direction of the muscle force and providing mechanical advantage for leg extension. This force on the femur is substantial and explains why knee injuries and arthritis are common, especially in athletes who repeatedly subject their knees to high forces.
 
 **Answer**
 
-The kneecap exerts a force of **1.1 × 10³ N** on the femur at an angle of **190° counterclockwise from the positive x-axis** (or 10° below the negative x-axis).
+The kneecap exerts a force of **1.06 × 10³ N** on the femur at an angle of **190° counterclockwise from the positive x-axis** (or 10° below the negative x-axis).
 
 :::
 
@@ -1325,7 +1313,8 @@ $$ F_{\text{B}} $$ as in this example? Assume the rope is held in the hand at
 the same location as the book.
 (b) What force is on the biceps muscle if the exercise rope is pulled straight
 up so that the forearm makes an angle of $$ 25^\circ $$ with the horizontal?
-Assume the biceps muscle is still perpendicular to the forearm.
+Assume the biceps muscle is still perpendicular to the forearm, and that the rope's
+tension is maintained at the value found in part (a) (for example, by moving its anchor point).
 
 :::
 
@@ -1333,7 +1322,7 @@ Assume the biceps muscle is still perpendicular to the forearm.
 
 **Strategy**
 
-For part (a), we need the rope to exert the same downward force as the 4.0-kg book. Using Hooke's Law ($$ F = kx $$), we can find the required stretch. For part (b), when the forearm is at 25° with the rope vertical, the geometry changes and we must recalculate the torques to find the new biceps force.
+For part (a), we need the rope to exert the same downward force as the 4.0-kg book. Using Hooke's Law ($$ F = kx $$), we can find the required stretch. For part (b), when the forearm is at 25° with the rope vertical, the geometry changes and we must recalculate the torques to find the new biceps force. Because a stretched rope's force depends on its extension, which generally changes as the hand moves, the problem specifies that the rope's tension is kept at its part-(a) value.
 
 **Solution for (a)**
 
@@ -1396,7 +1385,7 @@ $$ F_B = \frac{17.05 \text{ N·m}}{0.0400 \m} = 426 \N $$
 
 **Discussion**
 
-In part (a), the rope must stretch only 6.53 cm to replace the 4.0-kg book, demonstrating that the exercise rope has a relatively stiff spring constant of 600 N/m. In part (b), the biceps force decreases from 470 N (at 90°) to 426 N (at 25° from horizontal) because the forearm angle reduces the perpendicular lever arms of the weights by a factor of cos(25°) ≈ 0.906. This explains why holding a weight with the arm nearly straight (small angle from horizontal) is easier than holding it at 90°—the torques are smaller due to geometry, requiring less muscle force. Exercise programs exploit this principle by varying arm positions to change the muscle force required for a given load.
+In part (a), the rope must stretch only 6.53 cm to replace the 4.0-kg book, demonstrating that the exercise rope has a relatively stiff spring constant of 600 N/m. In part (b), the biceps force decreases from 470 N (forearm horizontal) to 426 N (forearm 25° above horizontal) because tilting the forearm reduces the perpendicular lever arms of the vertical loads by a factor of cos(25°) ≈ 0.906. For a fixed vertical load, the lever arm $$ r\cos\theta $$ is largest when the forearm is horizontal ($$ \theta = 0 $$) and decreases as the forearm is raised (or lowered) away from horizontal—so the torques, and the required muscle force, are greatest with the forearm horizontal. Exercise programs exploit this principle by varying arm positions to change the muscle force required for a given load.
 
 **Answer**
 
@@ -1690,6 +1679,46 @@ distances of the scales from the shoulder joint. You must include a free body
 diagram of the arm to direct the analysis. Consider changing the position of the
 scale under the hand to provide more information, if needed. You may wish to
 consult references to obtain reasonable mass values.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Take the arm as the system. Its free-body diagram has four vertical forces: the arm's weight $$ mg $$ at its center of mass (a distance $$ x $$ from the shoulder), the upward force $$ R_1 $$ of the elbow scale, the upward force $$ R_2 $$ of the hand scale, and the vertical force $$ S $$ that the shoulder joint exerts on the arm. Torques about the shoulder eliminate $$ S $$:
+
+<div class="equation">
+$$ R_1 d_1 + R_2 d_2 = mgx $$
+</div>
+
+and the force condition gives $$ S + R_1 + R_2 = mg $$. With only two scale readings, these are two equations in three unknowns ($$ m $$, $$ x $$, $$ S $$): the scales determine the moment $$ mgx $$, but not $$ m $$ and $$ x $$ separately, unless the shoulder force is known. A useful construction must deal with $$ S $$ explicitly. Here we assume the relaxed shoulder exerts no vertical force ($$ S = 0 $$), and then **test** that assumption by moving the hand scale: if $$ S = 0 $$, the total scale reading $$ R_1 + R_2 $$ must be the same in both positions.
+
+**Sample Problem Construction**
+
+A subject lies on her back with her relaxed arm extended horizontally to the side. One scale is 0.200 m from the shoulder joint (under the upper arm, toward the elbow), and the other is 0.650 m from the shoulder, under the back of the hand. The scales read 26.7 N and 7.6 N. When the hand scale is moved to 0.550 m from the shoulder (under the forearm), the readings become 24.5 N and 9.8 N. Find the mass of the arm and the location of its center of mass, and check whether the shoulder supports any of the arm's weight.
+
+**Solution**
+
+*Check the shoulder force.* The totals are $$ 26.7 + 7.6 = 34.3 \N $$ and $$ 24.5 + 9.8 = 34.3 \N $$. Moving the scale changes how the load is shared but not the total, consistent with $$ S = 0 $$. (Had the totals differed, the shoulder would be carrying part of the weight, and only $$ mgx $$ could be found from the scales.)
+
+*Mass:*
+
+<div class="equation">
+$$ m = \frac{R_1 + R_2}{g} = \frac{34.3 \N}{9.80 \mss} = 3.50 \kg $$
+</div>
+
+*Center of mass* (from the first configuration):
+
+<div class="equation">
+$$ x = \frac{R_1 d_1 + R_2 d_2}{R_1 + R_2} = \frac{(26.7 \N)(0.200 \m) + (7.6 \N)(0.650 \m)}{34.3 \N} = 0.300 \m $$
+</div>
+
+The second configuration gives $$ x = [(24.5)(0.200) + (9.8)(0.550)]/34.3 = 0.300 \m $$ as well.
+
+**Discussion**
+
+A 3.50-kg arm is about 5% of the mass of a 70-kg person, consistent with anatomical tables, and a center of mass 0.300 m from the shoulder lies in the upper arm, a bit less than halfway along the arm. Notice that the elbow scale was placed between the shoulder and the center of mass. If both scales were beyond the center of mass, the hand scale would have to pull down to balance the torques, so the shoulder would necessarily support part of the weight. The method relies on the subject truly relaxing; any muscle tension at the shoulder changes $$ S $$, which the consistency check is designed to reveal.
 
 :::
 

@@ -637,21 +637,21 @@ Converting to more familiar units:
 $$ \omega = 200 \text{ rad/s} \times \frac{1 \text{ rev}}{2\pi \text{ rad}} \times \frac{60 \s}{1 \text{ min}} = 1910 \text{ rpm} $$
 </div>
 
-**(b)** This result is unreasonable. A basketball spinning at nearly 2000 rpm (about 32 revolutions per second) would be impossible for a human to control or even perceive as spinning on a fingertip. Professional players typically spin balls at only 3-5 rev/s.
+**(b)** This result is unreasonable. 200 rad/s is about 1910 rpm, or 31.8 revolutions per second. Players typically spin balls at only about 3-5 rev/s.
 
-**(c)** The angular acceleration of 100 rad/s² is unreasonable. A more realistic value would be around 5-10 rad/s² for a ball spun by hand, limited by the friction between the player's hand and the ball surface.
+**(c)** The unreasonable premise is the combination of a 100-rad/s² angular acceleration with a **2.00-s** duration. The acceleration alone does not establish an impossible spin: a brief flick of about 0.2 s at 100 rad/s² would give $$ \omega = 20 \text{ rad/s} \approx 3.2 \text{ rev/s} $$, a typical value. Sustaining that acceleration for 2.00 s would require the hand to keep pushing on the ball's surface while it moves faster and faster; for a ball of radius about 0.12 m, the surface speed would reach $$ (200 \text{ rad/s})(0.12 \m) = 24 \ms $$, far faster than a hand can follow while maintaining contact.
 
 **Discussion**
 
-The calculation reveals the absurdity of the given angular acceleration. A basketball spinning at 1910 rpm would be a blur, impossible to balance on a fingertip, and the air resistance would quickly slow it down. Real basketball spins are limited by human physiology—the torque a player can apply with their hand and the time they have contact with the ball during the spin. Professional players achieve impressive spins of 3-5 rev/s, which is less than 3% of the calculated result.
+The calculation shows that the given acceleration cannot last as long as stated. Real basketball spins are limited by the torque a player can apply with the hand and, above all, by how long the hand can stay in contact with the ball's moving surface. Typical spins of 3-5 rev/s are only about 9.4-15.7% of the calculated 31.8 rev/s.
 
 **Answer**
 
 (a) The final angular velocity would be **200 rad/s** (or **1910 rpm**).
 
-(b) This result is unreasonable because no player could spin a basketball this fast, and it would be impossible to control at such high angular velocity.
+(b) This result, about 31.8 rev/s, is far faster than the 3-5 rev/s that players actually achieve.
 
-(c) The angular acceleration of 100 rad/s² is unreasonably high; realistic values are 5-10 rad/s².
+(c) An angular acceleration of 100 rad/s² cannot be sustained for 2.00 s: the hand would have to keep contact with a ball surface moving at up to about 24 m/s. A brief flick at that acceleration would be reasonable.
 
 ::::
 

@@ -544,22 +544,24 @@ $$ v = 90 \pm 4.5 \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Minimum: } 90 - 4.5 = 85.5 \approx 85 \text{ km/h} $$
+$$ \text{Minimum: } 90 - 4.5 = 85.5 \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Maximum: } 90 + 4.5 = 94.5 \approx 95 \text{ km/h} $$
+$$ \text{Maximum: } 90 + 4.5 = 94.5 \text{ km/h} $$
 </div>
+
+The exact computed range is 85.5 to 94.5 km/h. Rounding the endpoints outward, so that the stated interval still encloses every possible speed, gives 85 to 95 km/h. (This is an outward-rounding convention, not ordinary rounding of each endpoint.)
 
 **(b) Convert to mi/h:**
 
 Using 1 km = 0.6214 mi:
 <div class="equation">
-$$ 85 \text{ km/h} \times 0.6214 = 53 \text{ mi/h} $$
+$$ 85.5 \text{ km/h} \times 0.6214 = 53.1 \text{ mi/h} $$
 </div>
 
 <div class="equation">
-$$ 95 \text{ km/h} \times 0.6214 = 59 \text{ mi/h} $$
+$$ 94.5 \text{ km/h} \times 0.6214 = 58.7 \text{ mi/h} $$
 </div>
 
 **Discussion**
@@ -568,9 +570,9 @@ A 5% uncertainty in speedometer readings is quite significant - it represents a 
 
 **Answer:**
 
-(a) $$ 85\text{ to } 95 \text{ km/h} $$
+(a) $$ 85.5\text{ to } 94.5 \text{ km/h} $$ (85 to 95 km/h when rounded outward)
 
-(b) $$ 53\text{ to } 59 \text{ mi/h} $$
+(b) $$ 53.1\text{ to } 58.7 \text{ mi/h} $$ (53 to 59 mi/h when rounded outward)
 
 ::::
 
@@ -838,7 +840,7 @@ $$ \text{Maximum: } 60 + 1 = 61 \text{ km/h} $$
 
 **Discussion**
 
-This problem demonstrates that percent uncertainty remains constant for a given instrument, while absolute uncertainty changes with the measured value. At lower speeds, the same 2.2% uncertainty translates to a smaller absolute uncertainty (1 km/h at 60 km/h versus 2 km/h at 90 km/h), making the speedometer more useful for detecting small speed differences at lower velocities.
+Under the constant-percent-uncertainty assumption in this question, the absolute uncertainty changes with the measured value. (Real instruments do not necessarily have a constant percent uncertainty; that is an assumption supplied for this problem.) At lower speeds, the same 2.2% uncertainty translates to a smaller absolute uncertainty (1 km/h at 60 km/h versus 2 km/h at 90 km/h), making the speedometer more useful for detecting small speed differences at lower velocities.
 
 **Answer:**
 
@@ -1029,7 +1031,7 @@ A marathon runner completes a  $$ 42.188\text{-km}  $$ course in  $$ 2\text{h}  
 30 min, and  $$12 \s  $$. There is an uncertainty of  $$25 \m  $$
 in the distance traveled and an uncertainty of 1 s in the elapsed time.
 (a) Calculate the percent uncertainty in the distance.
-(b) Calculate the uncertainty in the elapsed time.
+(b) Calculate the percent uncertainty in the elapsed time.
 (c) What is the average speed in meters per second?
 (d) What is the uncertainty in the average speed?
 

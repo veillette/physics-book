@@ -450,6 +450,30 @@ $$ F_{ground} = m_2 a + F_{reaction} = (110 \kg)(1.20 \mss) + 800 \N = 132 \N + 
 
 By Newton's third law, the winning player exerts $$ 932 \N $$ backward on the ground.
 
+**(c) Sketches and free-body diagrams:**
+
+*Sketch.* Draw the two players facing each other on the grass, the winning player on the left pushing to the right ("forward" for him), and the losing player on the right sliding to the right ("backward" for him). For part (a) circle only the losing player; for part (b) circle only the winning player.
+
+*Free-body diagram for part (a): system = losing player (90.0 kg).*
+
+- Weight $$ w_1 = m_1 g = 882 \N $$, straight down
+- Normal force from the ground $$ N_1 = 882 \N $$, straight up
+- Push from the winning player, $$ 800 \N $$, in his backward direction (to the right)
+- Friction from the grass on his feet, $$ f = 692 \N $$, in his forward direction (to the left)
+
+Net force equations (taking his backward direction as positive): $$ \Sigma F_x = 800 \N - f = m_1 a $$ and $$ \Sigma F_y = N_1 - w_1 = 0 $$.
+
+*Free-body diagram for part (b): system = winning player (110 kg).*
+
+- Weight $$ w_2 = m_2 g = 1078 \N $$, straight down
+- Normal force from the ground $$ N_2 = 1078 \N $$, straight up
+- Reaction force from the losing player, $$ 800 \N $$, backward (to the left)
+- Friction from the ground on his feet, $$ F_{ground} = 932 \N $$, forward (to the right)
+
+Net force equations (taking his forward direction as positive): $$ \Sigma F_x = F_{ground} - 800 \N = m_2 a $$ and $$ \Sigma F_y = N_2 - w_2 = 0 $$.
+
+Only forces acting **on** the chosen system appear in each diagram. The 800-N pair acts on different bodies, so it appears once in each diagram, in opposite directions.
+
 **Discussion**
 
 The winning player must exert a larger force on the ground (932 N) than the losing player (692 N) because he must both accelerate his own larger mass and push his opponent backward.
@@ -457,6 +481,8 @@ The winning player must exert a larger force on the ground (932 N) than the losi
 (a) The friction force on the losing player is $$ 692 \N $$ forward.
 
 (b) The winning player exerts $$ 932 \N $$ backward on the ground.
+
+(c) See the free-body diagrams above: losing player, $$ 800 \N - f = m_1 a $$; winning player, $$ F_{ground} - 800 \N = m_2 a $$; in each case the vertical forces balance.
 
 ::::
 

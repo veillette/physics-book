@@ -610,6 +610,37 @@ friction between the riders’ clothing and the wall.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The wall's normal force on the rider points horizontally toward the axis and supplies the centripetal force. Static friction from the wall points up and must balance the rider's weight. Since static friction can be at most $$ \mu_s N $$, the rider will not slide if $$ mg \le \mu_s N = \mu_s m r\omega^2 $$.
+
+**Sample Problem Construction**
+
+A rotor ride has a cylinder of radius 2.50 m, and the coefficient of static friction between the riders' clothing and the wall is 0.600. What minimum angular velocity must the ride have before the floor drops away?
+
+**Solution**
+
+Free-body diagram of a single rider (seen from the side, with the axis to the rider's left):
+- Weight $$ mg $$, straight down
+- Normal force $$ N $$ from the wall, horizontal, pointing toward the axis (centripetal)
+- Static friction $$ f_s $$ from the wall, vertical, pointing up along the wall
+
+Horizontal (centripetal) direction: $$ N = mr\omega^2 $$. Vertical direction: $$ f_s = mg $$. The rider does not slide as long as $$ f_s \le \mu_s N $$:
+
+<div class="equation">
+$$ mg \le \mu_s m r\omega^2 \quad \Rightarrow \quad \omega_{\min} = \sqrt{\frac{g}{\mu_s r}} = \sqrt{\frac{9.80 \mss}{(0.600)(2.50 \m)}} = 2.56 \text{ rad/s} $$
+</div>
+
+This is $$ (2.56 \text{ rad/s})(60 \s/\text{min})/(2\pi \text{ rad/rev}) = 24.4 $$ rev/min.
+
+**Discussion**
+
+The mass cancels, so the same angular velocity works for every rider, light or heavy. At this speed the centripetal acceleration is $$ r\omega^2 = 16.3 \mss $$, about 1.7g, so riders feel pressed firmly against the wall. A real ride runs somewhat faster than $$ \omega_{\min} $$ to provide a safety margin for slippery clothing (smaller $$ \mu_s $$). Note that a smaller radius requires a **larger** angular velocity.
+
+::::
+
 </div>
 
 :::: glossary

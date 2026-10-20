@@ -820,22 +820,22 @@ $$ I = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(12.0 \kg)\left[(0.280 \m)^2 + (
 </div>
 
 <div class="equation">
-$$ I = \frac{1}{2}(12.0 \kg)(0.0784 + 0.1089) \text{ m}^2 = \frac{1}{2}(12.0 \kg)(0.1873 \text{ m}^2) = 1.12 \kg \cdot \mm $$
+$$ I = \frac{1}{2}(12.0 \kg)(0.0784 + 0.1089) \text{ m}^2 = \frac{1}{2}(12.0 \kg)(0.1873 \text{ m}^2) = 1.1238 \kg \cdot \mm $$
 </div>
 
 Now calculate the rotational kinetic energy:
 
 <div class="equation">
-$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(1.12 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.12)(14400) \J = 8.06 \times 10^3 \J $$
+$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(1.1238 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.1238)(14400) \J = 8.09 \times 10^3 \J $$
 </div>
 
 **Discussion**
 
-The wheel stores about 8.06 kJ of rotational kinetic energy at 120 rad/s (about 1150 rpm). This is substantial energy—if released suddenly, it could cause significant damage. This is why motorcycle accidents can be so severe; the rotating wheels carry considerable energy.
+The wheel stores about 8.09 kJ of rotational kinetic energy at 120 rad/s (about 1150 rpm). This is substantial energy—if released suddenly, it could cause significant damage. This is why motorcycle accidents can be so severe; the rotating wheels carry considerable energy.
 
 **Answer**
 
-The rotational kinetic energy is **8.06 × 10³ J** (or **8.06 kJ**).
+The rotational kinetic energy is **8.09 × 10³ J** (or **8.09 kJ**).
 
 ::::
 
@@ -852,12 +852,31 @@ the forearm is $$ 0.500 \kg \cdot \mm $$, what is the rotational kinetic energy 
 
 ::::
 
-<div class="solution">
+:::: solution
+
+**Strategy**
+
+The ball moves with the forearm, so its speed relative to the elbow gives the forearm's angular velocity through $$ v = r\omega $$. Then use $$ \KE_{\text{rot}} = \frac{1}{2}I\omega^2 $$ with the given moment of inertia.
+
+**Solution**
+
 <div class="equation">
- $$ \KE_{\text{rot}}=434 \J $$
+$$ \omega = \frac{v}{r} = \frac{20.0 \ms}{0.480 \m} = 41.7 \text{ rad/s} $$
 </div>
 
+<div class="equation">
+$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(0.500 \kg \cdot \mm)(41.67 \text{ rad/s})^2 = 434 \J $$
 </div>
+
+**Discussion**
+
+The forearm alone stores about 434 J, much more than the ball's own kinetic energy, $$ \frac{1}{2}(0.145 \kg)(20.0 \ms)^2 = 29 \J $$ for a regulation baseball. Most of the energy a pitcher's muscles supply goes into moving the arm itself, which is one reason pitching is so demanding on the elbow and shoulder.
+
+**Answer**
+
+$$ \KE_{\text{rot}}=434 \J $$
+
+::::
 
 </div>
 
@@ -1066,7 +1085,7 @@ $$ h = \frac{v^2}{2g} = \frac{(8.00 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \fr
 
 **Discussion**
 
-When sliding (frictionless), the ball reaches only 3.27 m, compared to 5.44 m when rolling. The difference is that when rolling, the rotational kinetic energy (which is ⅓ of the translational KE for a spherical shell) also converts to potential energy, allowing the ball to climb higher.
+When sliding (frictionless), the ball reaches only 3.27 m, compared to 5.44 m when rolling. The difference is that when rolling, the rotational kinetic energy (which is ⅔ of the translational KE for a thin spherical shell, or ⅖ of the total KE) also converts to potential energy, allowing the ball to climb higher.
 
 **Answer**
 
@@ -1262,7 +1281,7 @@ The initial angular acceleration is 28.2 rad/s². As the forearm rises, the load
 
 :::: problem
 
-Consider two cylinders that start down identical inclines from rest except that one is frictionless. Thus one cylinder rolls without slipping, while the other slides frictionlessly without rolling.
+Consider two uniform solid cylinders that start down identical inclines from rest except that one is frictionless. Thus one cylinder rolls without slipping, while the other slides frictionlessly without rolling.
 They both travel a short distance at the bottom and then start up another incline.
 (a) Show that they both reach the same height on the other incline, and that this height is equal to their original height.
 (b) Find the ratio of the time the rolling cylinder takes to reach the height on the second incline to the time the sliding cylinder takes to reach the height on the second incline.
@@ -1282,7 +1301,7 @@ We use conservation of energy throughout. Both cylinders start with the same pot
 
 For the **sliding** cylinder (no friction): All PE converts to translational KE at the bottom, then all KE converts back to PE on the second incline, reaching height h.
 
-For the **rolling** cylinder: At the bottom, PE converts to both translational and rotational KE. On the second incline, both forms of KE convert back to PE. Since no energy is lost to friction (rolling without slipping is frictionless in the rotational sense), it also reaches height h.
+For the **rolling** cylinder: At the bottom, PE converts to both translational and rotational KE. On the second incline, both forms of KE convert back to PE. Since it rolls without slipping and without dissipative losses, it also reaches height h. Static friction acts on the rolling cylinder and supplies the torque that changes its spin, but it does no work, because the contact point is momentarily at rest on the track.
 
 In both cases: $$ mgh_{i} = mgh_{f} $$, so $$ h_f = h_i = h $$.
 
@@ -1367,15 +1386,15 @@ Substituting values:
 $$ I = \frac{mR^{2}\left[2(9.80)(2.00) - (6.00)^2\right]}{(6.00)^2} = \frac{mR^{2}(39.2 - 36.0)}{36.0} = \frac{3.2mR^{2}}{36.0} = 0.0889 MR^{2} $$
 </div>
 
-Rounding: $$ I \approx 0.0900 MR^{2} $$ or $$ I = \frac{1}{11}MR^{2} $$
+To three significant figures, $$ I = 0.0889 MR^{2} $$ (exactly $$ \frac{2}{22.5}MR^2 = \frac{4}{45}MR^{2} $$). Note that $$ 0.0900 MR^2 $$ and $$ \frac{1}{11}MR^2 = 0.0909 MR^2 $$ are different values, not roundings of this result.
 
 **Discussion**
 
-The moment of inertia is about 0.09 MR², which is quite small. This is smaller than a solid cylinder (0.5 MR²), a solid sphere (0.4 MR²), or even a thin spherical shell (⅔ MR²). This unusually low moment of inertia suggests most of the mass is concentrated very close to the rotation axis—perhaps a thin rod or similar object rolling end-over-end.
+The moment of inertia is about 0.09 MR², which is quite small. This is smaller than a solid cylinder (0.5 MR²), a solid sphere (0.4 MR²), or even a thin spherical shell (⅔ MR²). This unusually low moment of inertia suggests most of the mass is concentrated very close to the rotation axis—for example, a massive central hub or axle with a lightweight outer rim that does the rolling. (A thin rod rolling end over end would not work as an example, because it has no fixed rolling radius, so $$ v = R\omega $$ would not apply.)
 
 **Answer**
 
-The moment of inertia is **I ≈ 0.09 MR²** or **I = (1/11)MR²**.
+The moment of inertia is **I = 0.0889 MR²**.
 
 ::::
 
@@ -1395,7 +1414,7 @@ Suppose a 200-kg motorcycle has two wheels like [Figure 6 of Dynamics Of Rotatio
 
 **Strategy**
 
-We use conservation of energy. The motorcycle has both translational KE and rotational KE in its wheels. From the earlier problem, each wheel has I = 1.12 kg·m² and R₂ = 0.330 m (outer radius).
+We use conservation of energy. The motorcycle has both translational KE and rotational KE in its wheels. From the earlier problem, each wheel has I = 1.1238 kg·m² (carry the unrounded value) and R₂ = 0.330 m (outer radius).
 
 **Solution**
 
@@ -1405,24 +1424,24 @@ We use conservation of energy. The motorcycle has both translational KE and rota
 $$ KE_{\text{trans}} = \frac{1}{2}mv^{2} = \frac{1}{2}(200 \kg)(30.0 \text{ m/s})^2 = 90000 \J $$
 </div>
 
-For the wheels, $$ \omega = v/R = 30.0/0.330 = 90.9 \text{ rad/s} $$
+For the wheels, $$ \omega = v/R = 30.0/0.330 = 90.909 \text{ rad/s} $$
 
 Rotational KE for both wheels:
 
 <div class="equation">
-$$ KE_{\text{rot}} = 2 \times \frac{1}{2}I\omega^{2} = 2 \times \frac{1}{2}(1.12 \kg \cdot \mm)(90.9 \text{ rad/s})^2 = 9240 \J $$
+$$ KE_{\text{rot}} = 2 \times \frac{1}{2}I\omega^{2} = 2 \times \frac{1}{2}(1.1238 \kg \cdot \mm)(90.909 \text{ rad/s})^2 = 9288 \J $$
 </div>
 
 Total initial KE:
 
 <div class="equation">
-$$ KE_{\text{total}} = 90000 + 9240 = 99240 \J $$
+$$ KE_{\text{total}} = 90000 + 9288 = 99288 \J $$
 </div>
 
 At maximum height (neglecting friction):
 
 <div class="equation">
-$$ h = \frac{KE_{\text{total}}}{mg} = \frac{99240 \J}{(200 \kg)(9.80 \text{ m/s}^2)} = 50.6 \m $$
+$$ h = \frac{KE_{\text{total}}}{mg} = \frac{99288 \J}{(200 \kg)(9.80 \text{ m/s}^2)} = 50.7 \m $$
 </div>
 
 **(b)** Actual potential energy gained:
@@ -1434,18 +1453,18 @@ $$ PE = mgh = (200 \kg)(9.80 \text{ m/s}^2)(35.0 \m) = 68600 \J $$
 Energy lost to friction:
 
 <div class="equation">
-$$ E_{\text{lost}} = KE_{\text{total}} - PE = 99240 - 68600 = 30640 \J \approx 30.6 \text{ kJ} $$
+$$ E_{\text{lost}} = KE_{\text{total}} - PE = 99288 - 68600 = 30688 \J \approx 30.7 \text{ kJ} $$
 </div>
 
 **Discussion**
 
-Without friction, the motorcycle could coast to 50.6 m, but it only reaches 35.0 m, losing about 30.6 kJ (31% of its initial energy) to friction. This demonstrates that friction is a significant factor in real-world motion, even for a relatively streamlined motorcycle.
+Without friction, the motorcycle could coast to 50.7 m, but it only reaches 35.0 m, losing about 30.7 kJ (31% of its initial energy) to friction. This demonstrates that friction is a significant factor in real-world motion, even for a relatively streamlined motorcycle.
 
 **Answer**
 
-(a) The motorcycle can coast to a height of **50.6 m** (neglecting friction).
+(a) The motorcycle can coast to a height of **50.7 m** (neglecting friction).
 
-(b) The energy lost to friction is **30.6 kJ**.
+(b) The energy lost to friction is **30.7 kJ**.
 
 ::::
 
@@ -1518,6 +1537,46 @@ Consider the work done by a spinning skater pulling her arms in to increase her
 rate of spin. Construct a problem in which you calculate the work done with a
 “force multiplied by distance” calculation and compare it to the skater’s
 increase in kinetic energy.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Model the skater as a body with a fixed moment of inertia $$ I_0 $$ plus two arms, each treated as a point mass $$ m $$ at radius $$ r $$. With negligible friction, angular momentum $$ L = (I_0 + 2mr^2)\omega $$ is conserved, so $$ \omega $$ increases as $$ r $$ decreases. To keep each arm moving in a circle, she must pull inward on it with the centripetal force $$ F = m\omega^2 r $$, which grows as the arm comes in. The work she does is the force times the distance moved, summed over the motion.
+
+**Sample Problem Construction**
+
+A skater's body (excluding arms) has $$ I_0 = 1.50 \kg \cdot \mm $$. Each arm is modeled as a 4.00-kg point mass. She spins at 2.00 rad/s with her arms extended so that their masses are 0.800 m from the axis, then pulls them in to 0.200 m. (a) Find her final angular velocity and the increase in her kinetic energy. (b) Estimate the work she does from "force multiplied by distance," using the average of the initial and final forces, and compare.
+
+**Solution**
+
+**(a)** Moments of inertia: $$ I_1 = 1.50 + 2(4.00)(0.800)^2 = 6.62 \kg \cdot \mm $$ and $$ I_2 = 1.50 + 2(4.00)(0.200)^2 = 1.82 \kg \cdot \mm $$. Conservation of angular momentum:
+
+<div class="equation">
+$$ \omega_2 = \frac{I_1\omega_1}{I_2} = \frac{(6.62)(2.00 \text{ rad/s})}{1.82} = 7.27 \text{ rad/s} $$
+</div>
+
+<div class="equation">
+$$ \Delta\KE = \frac{1}{2}I_2\omega_2^2 - \frac{1}{2}I_1\omega_1^2 = 48.2 \J - 13.2 \J = 34.9 \J $$
+</div>
+
+**(b)** The inward force on each arm is $$ F = m\omega^2 r $$:
+
+<div class="equation">
+$$ F_1 = (4.00 \kg)(2.00 \text{ rad/s})^2(0.800 \m) = 12.8 \N, \qquad F_2 = (4.00 \kg)(7.27 \text{ rad/s})^2(0.200 \m) = 42.3 \N $$
+</div>
+
+Using the average force for each arm over the 0.600-m distance:
+
+<div class="equation">
+$$ W \approx 2\left(\frac{12.8 \N + 42.3 \N}{2}\right)(0.600 \m) = 33.1 \J $$
+</div>
+
+**Discussion**
+
+The force-times-distance estimate (33.1 J) is close to the 34.9-J increase in kinetic energy, but not equal, because the force does not change linearly with radius: since $$ \omega \propto 1/(I_0 + 2mr^2) $$, it rises steeply as the arms come in. Adding up $$ F\,\Delta r $$ over many small steps (that is, integrating $$ F = mr L^2/(I_0+2mr^2)^2 $$ from 0.800 m to 0.200 m) gives exactly 34.9 J: the skater's work equals her gain in kinetic energy, as the work-energy theorem requires. Angular momentum is conserved but kinetic energy is not, because she does work. The energy comes from her muscles.
 
 ::::
 

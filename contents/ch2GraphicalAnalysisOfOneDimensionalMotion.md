@@ -513,13 +513,13 @@ $$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{2150 - 10
 
 1. The acceleration is the slope of the velocity-time graph in Figure 15.
 
-2. Since Figure 15 is a straight line, the slope is constant. From the graph, we can read approximate values:
-   - At $$ t_1 = 0 \s $$: $$ v_1 = 0 \ms $$
-   - At $$ t_2 = 20 \s $$: $$ v_2 = 100 \ms $$
+2. Since Figure 15 is a straight line, the slope is constant. From the graph, we can read approximate values (note that the line does not start at the origin; its intercept is about 15 m/s):
+   - At $$ t_1 = 0 \s $$: $$ v_1 \approx 15 \ms $$
+   - At $$ t_2 = 20 \s $$: $$ v_2 \approx 115 \ms $$
 
 3. Calculate the slope:
 <div class="equation">
-$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{100 - 0}{20 - 0} = \frac{100}{20} = 5.0 \mss $$
+$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{115 - 15}{20 - 0} = \frac{100}{20} = 5.0 \mss $$
 </div>
 
 **Discussion**
@@ -645,18 +645,18 @@ The slope of a velocity vs. time graph gives the acceleration. Since the curve i
 
 **Solution**
 
-To find the acceleration at $$ t = 10 \s $$, we draw a tangent line to the curve at that point.
+To find the acceleration at $$ t = 10 \s $$, we draw a tangent line to the curve at that point. From Figure 17, the curve passes through about $$ (10 \s,\ 210 \ms) $$, so the tangent line must pass through that point.
 
-From the tangent line at $$ t = 10 \s $$, we can identify two points on the tangent:
+Reading two points on the tangent line, on either side of $$ t = 10 \s $$:
 
-At $$ t_1 \approx 5 \s $$, the tangent line gives $$ v_1 \approx 100 \ms $$
+At $$ t_1 \approx 5 \s $$, the tangent line gives $$ v_1 \approx 194 \ms $$
 
-At $$ t_2 \approx 20 \s $$, the tangent line gives $$ v_2 \approx 148 \ms $$
+At $$ t_2 \approx 20 \s $$, the tangent line gives $$ v_2 \approx 242 \ms $$
 
 Now calculate the slope of the tangent line:
 
 <div class="equation">
-$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{148 \ms - 100 \ms}{20 \s - 5 \s} $$
+$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{242 \ms - 194 \ms}{20 \s - 5 \s} $$
 </div>
 
 <div class="equation">
@@ -665,7 +665,7 @@ $$ a = \frac{48 \ms}{15 \s} = 3.2 \mss $$
 
 **Discussion**
 
-The acceleration at $$ t = 10 \s $$ is positive, indicating that the velocity is increasing at this time. However, the curve shows that the slope (acceleration) is decreasing as time progresses, eventually approaching zero when the velocity becomes constant. This represents a situation where an object is speeding up but the rate at which it speeds up is decreasing over time. This could represent a car accelerating but approaching its maximum speed, or an object experiencing increasing air resistance as it speeds up.
+Because the tangent is drawn by eye, readings that differ by a few m/s change the slope noticeably; any value near 3 m/s² is a reasonable estimate. (The plotted curve bends at the data point at 10 s, with slopes of about 4.5 m/s² just before and 1.8 m/s² just after, so the tangent there is an average of the two.) The acceleration at $$ t = 10 \s $$ is positive, indicating that the velocity is increasing at this time. However, the curve shows that the slope (acceleration) is decreasing as time progresses, eventually approaching zero when the velocity becomes constant. This represents a situation where an object is speeding up but the rate at which it speeds up is decreasing over time. This could represent a car accelerating but approaching its maximum speed, or an object experiencing increasing air resistance as it speeds up.
 
 **Answer**
 
@@ -693,7 +693,7 @@ not produce a discontinuous “kink” in slope on the position graph.
 
 **Strategy**
 
-To construct a position-time graph from velocity and acceleration information, we use the relationships between these quantities. The position changes according to the area under the velocity-time curve. We need to refer to the Acceleration module example to get the specific values for the subway train's motion, then integrate the velocity over time to find position. The graph should show two distinct phases of motion based on the changing velocity.
+Velocity is the slope of the position graph, and acceleration is the rate of change of velocity. Read three points from the supplied position graph, then use the stated assumptions (constant velocity for 0–10 s, constant acceleration for 10–20 s, continuous velocity at 10 s) to find the velocity and acceleration in each phase.
 
 **Solution**
 
@@ -725,18 +725,20 @@ $$ 80 \m = (2.0 \ms)(10 \s) + \frac{1}{2}a(10 \s)^2 = 20 \m + (50 \s^2)a $$
 $$ a = \frac{2(80 \m - 20 \m)}{(10 \s)^2} = \frac{120 \m}{100 \s^2} = 1.2 \mss $$
 </div>
 
-**Constructing the graph:**
-- From $$ t = 0 $$ to $$ 10 \s $$: straight line from (0 s, 4.70 km) to (10 s, 4.72 km)
-- From $$ t = 10 \s $$ to $$ 20 \s $$: smooth parabolic segment from (10 s, 4.72 km) to (20 s, 4.80 km) with increasing slope
-- At $$ t = 10 \s $$ the **velocity** stays continuous (still 2.0 m/s); only the **acceleration** changes, so the position graph bends smoothly rather than forming a slope discontinuity (“kink”)
+**Velocity and acceleration histories:**
+
+- For $$ 0 < t < 10 \s $$: $$ v = 2.0 \ms $$ (constant) and $$ a = 0 $$.
+- For $$ 10 \s < t < 20 \s $$: $$ v = 2.0 \ms + (1.2 \mss)(t - 10 \s) $$, rising linearly from 2.0 m/s to 14 m/s, and $$ a = 1.2 \mss $$.
+- The velocity graph is therefore a horizontal line at 2.0 m/s followed by a straight line of slope 1.2 m/s². The acceleration graph is a step: 0 for the first 10 s, then 1.2 m/s².
+- At $$ t = 10 \s $$ the **velocity** is continuous (2.0 m/s on both sides); only the **acceleration** jumps. Because the slope of the position graph (the velocity) does not jump, the position graph bends smoothly rather than forming a slope discontinuity (“kink”).
 
 **Discussion**
 
-This graph matches the subway context in the Acceleration module (motion along a track in kilometers), but the numerical history here is fixed by Figure 18: 20 m in the first 10 s, then 80 m in the next 10 s while speeding up at $$ 1.2 \mss $$. Total displacement from $$ t = 0 $$ to $$ 20 \s $$ is $$ 0.10 \text{ km} $$, from 4.70 km to 4.80 km.
+This history matches the subway context in the Acceleration module (motion along a track in kilometers), but the numerical history here is fixed by Figure 18: 20 m in the first 10 s, then 80 m in the next 10 s while speeding up at $$ 1.2 \mss $$. Total displacement from $$ t = 0 $$ to $$ 20 \s $$ is $$ 0.10 \text{ km} $$, from 4.70 km to 4.80 km.
 
 **Answer**
 
-The position-time graph starts at 4.70 km at $$ t = 0 $$, rises linearly to 4.72 km at $$ t = 10 \s $$ at 2.0 m/s, then follows a parabolic segment with $$ a = 1.2 \mss $$ to 4.80 km at $$ t = 20 \s $$, with no break in slope at $$ t = 10 \s $$.
+For $$ 0 < t < 10 \s $$: $$ v = 2.0 \ms $$ and $$ a = 0 $$. For $$ 10 \s < t < 20 \s $$: $$ v = 2.0 \ms + (1.2 \mss)(t - 10 \s) $$ (reaching 14 m/s at 20 s) and $$ a = 1.2 \mss $$. The velocity is continuous at $$ t = 10 \s $$, so the position graph has no kink there even though the acceleration changes abruptly.
 
 ![Line graph of position versus time. Line begins with a slight positive slope, then curves smoothly to a steeper positive slope as acceleration begins.](../resources/Figure_02_08_18.jpg)
 {: #Figure18}
@@ -790,29 +792,29 @@ Checking Figure 20, at $$ t = 2.5 \s $$, the velocity graph shows approximately 
 
 **(b) Velocity at $$ t = 7.5 \s $$:**
 
-Draw a tangent line to the position curve at $$ t = 7.5 \s $$. This section of the curve slopes downward, indicating negative velocity. From the tangent line:
+Draw a tangent line to the position curve at $$ t = 7.5 \s $$, where Figure 19 shows $$ x \approx 10 \m $$. This section of the curve slopes downward, indicating negative velocity. From the tangent line, which passes through $$ (7.5 \s,\ 10 \m) $$:
 
-At $$ t_1 \approx 5 \s $$, the tangent gives $$ x_1 \approx 40 \m $$
+At $$ t_1 \approx 5 \s $$, the tangent gives $$ x_1 \approx 18 \m $$
 
-At $$ t_2 \approx 10 \s $$, the tangent gives $$ x_2 \approx 20 \m $$
+At $$ t_2 \approx 10 \s $$, the tangent gives $$ x_2 \approx 2 \m $$
 
 Calculate the slope:
 
 <div class="equation">
-$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{20 \m - 40 \m}{10 \s - 5 \s} = \frac{-20 \m}{5 \s} = -4 \ms $$
+$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{2 \m - 18 \m}{10 \s - 5 \s} = \frac{-16 \m}{5 \s} \approx -3 \ms $$
 </div>
 
-Checking Figure 20, at $$ t = 7.5 \s $$, the velocity graph shows approximately $$ -4 \ms $$. ✓
+Checking Figure 20, at $$ t = 7.5 \s $$, the velocity graph shows approximately $$ -3.5 \ms $$, consistent with our estimate given that tangent lines drawn by eye are only good to about $$ \pm 0.5 \ms $$. ✓
 
 **Discussion**
 
-The results demonstrate the fundamental relationship between position and velocity graphs. At $$ t = 2.5 \s $$, the position graph has a positive slope, meaning the jogger is moving in the positive direction at $$ 4 \ms $$. At $$ t = 7.5 \s $$, the position graph has a negative slope, indicating the jogger is moving in the negative direction (perhaps running back) at $$ -4 \ms $$. The magnitudes are equal but opposite in sign, showing the jogger runs backward at the same speed as forward. The values extracted from the position-time graph are perfectly consistent with the velocity-time graph in Figure 20.
+The results demonstrate the fundamental relationship between position and velocity graphs. At $$ t = 2.5 \s $$, the position graph has a positive slope, meaning the jogger is moving in the positive direction at $$ 4 \ms $$. At $$ t = 7.5 \s $$, the position graph has a negative slope, indicating the jogger is moving in the negative direction (running back) at about $$ -3 \ms $$. Tangents drawn by eye limit these readings to roughly one significant figure, but within that precision the values extracted from the position-time graph agree with the velocity-time graph in Figure 20.
 
 **Answer**
 
 (a) The jogger's velocity at $$ t = 2.5 \s $$ is approximately $$ 4 \ms $$.
 
-(b) The jogger's velocity at $$ t = 7.5 \s $$ is approximately $$ -4 \ms $$.
+(b) The jogger's velocity at $$ t = 7.5 \s $$ is approximately $$ -3 \ms $$ (Figure 20 shows about $$ -3.5 \ms $$).
 
 :::
 

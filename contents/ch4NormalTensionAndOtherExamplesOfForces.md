@@ -600,7 +600,7 @@ In a traction setup for a broken bone, with pulleys and rope available, how migh
 
 :::: problem
 
-Two teams of nine members each engage in a tug of war. Each of the first team's members has an average mass of 68 kg and exerts an average force of 1350 N horizontally. Each of the second team's members has an average mass of 73 kg and exerts an average force of 1365 N horizontally.
+Two teams of nine members each engage in a tug of war. Each of the first team's members has an average mass of 68 kg and exerts an average horizontal force of 1350 N on the ground. Each of the second team's members has an average mass of 73 kg and exerts an average horizontal force of 1365 N on the ground. (Treat the rope as massless.)
 (a) What is magnitude of the acceleration of the two teams?
 (b) What is the tension in the section of rope between the teams?
 
@@ -610,7 +610,7 @@ Two teams of nine members each engage in a tug of war. Each of the first team's 
 
 **Strategy**
 
-Treat both teams as one system to find acceleration. The net force is the difference between the two teams' total forces, and the total mass is the sum of all members' masses. For tension, consider one team as the system.
+Treat both teams plus the rope as one system to find acceleration. The rope pulls are internal to this system. The external horizontal forces are the ground's reactions to each person's push on the ground: by Newton's third law, the ground pushes each person with a force equal and opposite to the force that person exerts on it. The net external force is the difference between the two teams' totals, and the total mass is the sum of all members' masses. For tension, consider one team as the system.
 
 **Solution**
 
@@ -749,11 +749,11 @@ $$ T_{\text{vertical}} = w = mg = (8.00 \times 10^{-5} \kg)(9.80 \mss) = 7.84 \t
 
 **(b) Tension in horizontal strand:**
 
-When the spider sits in the middle of a horizontal strand, the strand sags symmetrically. Each half makes an angle $$ \theta = 12^\circ $$ below horizontal. The vertical components of tension from both sides must balance the spider's weight.
+When the spider sits in the middle of a horizontal strand, the strand sags symmetrically. Each half of the strand slopes $$ \theta = 12^\circ $$ below horizontal as it runs from its support down to the spider, so on the spider each tension force points outward along the strand and $$ 12^\circ $$ **above** horizontal. The vertical components of tension from both sides must balance the spider's weight.
 
 Free-body diagram analysis:
 
-- Two tension forces $$ T $$ at angle $$ \theta $$ below horizontal
+- Two tension forces $$ T $$, pointing outward along the strand at angle $$ \theta $$ above horizontal
 - Weight $$ w $$ downward
 
 Vertical force balance:
@@ -878,8 +878,8 @@ Consider a flexible medium (rope, cable, wire) with a perpendicular force $$ \vb
 **Free-body diagram at the application point:**
 
 - Applied force: $$ F $$ (downward, perpendicular to original horizontal)
-- Tension to the left: $$ T $$ at angle $$ \theta $$ below horizontal
-- Tension to the right: $$ T $$ at angle $$ \theta $$ below horizontal
+- Tension to the left: $$ T $$ pointing up and to the left, at angle $$ \theta $$ above horizontal
+- Tension to the right: $$ T $$ pointing up and to the right, at angle $$ \theta $$ above horizontal
 
 **Horizontal force analysis:**
 

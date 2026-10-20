@@ -1195,7 +1195,7 @@ The runner decelerates at a constant rate. For part (a), we use the kinematic eq
 
 **Solution**
 
-**(a) Distance traveled in 5.00 s:**
+**(a) Displacement during the 5.00 s (constant-acceleration model):**
 
 1. Identify the known values:
    - Initial velocity: $$ v_0 = 9.00 \ms $$
@@ -1215,6 +1215,8 @@ $$ x = (9.00)(5.00) + \frac{1}{2}(-2.00)(5.00)^2 $$
 <div class="equation">
 $$ x = 45.0 + \frac{1}{2}(-2.00)(25.0) = 45.0 - 25.0 = 20.0 \m $$
 </div>
+
+This is a **displacement**. In this mathematical model the runner moves forward 20.25 m in the first 4.50 s, then back 0.25 m in the last 0.50 s, so the total **distance** covered is 20.5 m.
 
 **(b) Final velocity after 5.00 s:**
 
@@ -1236,25 +1238,25 @@ The negative velocity in part (b) indicates a problem. Let's check when the runn
 $$ t_{\text{stop}} = \frac{v - v_0}{a} = \frac{0 - 9.00}{-2.00} = 4.50 \s $$
 </div>
 
-The runner stops after 4.50 s, not 5.00 s. At 5.00 s, the calculation gives a velocity of -1.00 m/s, which would mean running backwards!
+The runner stops after 4.50 s, not 5.00 s. At 5.00 s, the calculation gives a velocity of -1.00 m/s, which would mean running backwards.
 
 **Discussion**
 
-This problem illustrates an important limitation of kinematic equations: they calculate mathematical results without considering physical constraints. In reality, the runner cannot continue decelerating past the point where she stops. The runner decelerates for 4.50 s and comes to rest after traveling:
+This problem illustrates an important limitation of kinematic equations: they assume the acceleration stays constant for the whole interval, and nothing in the equations knows that a braking runner stops. A constant acceleration that reverses an object's motion is perfectly possible in general (a ball thrown upward does exactly this), but braking only slows the runner; it does not push her backward. In the more realistic model, she decelerates for 4.50 s and comes to rest after traveling:
 
 <div class="equation">
 $$ x_{\text{actual}} = v_0 t_{\text{stop}} + \frac{1}{2}at_{\text{stop}}^2 = (9.00)(4.50) + \frac{1}{2}(-2.00)(4.50)^2 = 40.5 - 20.25 = 20.25 \m $$
 </div>
 
-After stopping at $$ t = 4.50 \s $$, she remains at rest. So while the equation predicts $$ x = 20.0 \m $$ and $$ v = -1.00 \ms $$, the physical answer is that she travels about 20.25 m and stops, remaining at rest thereafter. The negative velocity is unphysical in this context - a runner doesn't spontaneously start running backwards after stopping!
+After stopping at $$ t = 4.50 \s $$, she remains at rest. So while the constant-acceleration model predicts a displacement of 20.0 m (distance 20.5 m) and $$ v = -1.00 \ms $$, the braking model gives a distance and displacement of 20.25 m and a final velocity of zero.
 
 **Answer**
 
-(a) According to the kinematic equation, the runner travels 20.0 m in 5.00 s, but this requires careful interpretation.
+(a) The constant-acceleration equation gives a displacement of 20.0 m in 5.00 s (a distance of 20.5 m, since the model has her reverse after 4.50 s). If she instead brakes to rest and stays there, she travels 20.25 m.
 
 (b) The calculated final velocity is -1.00 m/s.
 
-(c) This result does not make physical sense. The runner actually stops after 4.50 s, having traveled about 20.25 m. She cannot continue decelerating to achieve a negative velocity (running backwards). This demonstrates that kinematic equations must be applied with consideration of physical constraints.
+(c) This result does not make sense for a braking runner. She stops after 4.50 s, having traveled 20.25 m, and braking cannot make her run backward, so her final velocity is zero. The constant-acceleration model is valid only up to $$ t = 4.50 \s $$ here.
 
 :::
 
@@ -1433,7 +1435,7 @@ The puck accelerates over a distance of 0.799 m (approximately 80 cm or 31 inche
 
 ::: problem
 
-A powerful motorcycle can accelerate from rest to 26.8 m/s (100 km/h) in only 3.90 s.
+A powerful motorcycle can accelerate from rest to 26.8 m/s (96.5 km/h, or about 60 mi/h) in only 3.90 s.
 (a) What is its average acceleration?
 (b) How far does it travel in that time?
 
@@ -1473,7 +1475,7 @@ $$ x = \frac{1}{2}(6.87)(15.21) \m = 52.3 \m $$
 
 **Discussion**
 
-The acceleration of 6.87 m/s² is about 0.7g, which is quite impressive for a motorcycle. The distance of about 52 meters to reach 100 km/h is consistent with high-performance motorcycle specifications.
+The acceleration of 6.87 m/s² is about 0.7g, which is quite impressive for a motorcycle. The distance of about 52 meters to reach 26.8 m/s (96.5 km/h) is consistent with high-performance motorcycle specifications.
 
 (a) The average acceleration is $$ 6.87 \mss $$.
 
@@ -1697,9 +1699,33 @@ travel before becoming airborne?
 
 ::: solution
 
+**Strategy**
+
+The swan starts from rest and accelerates uniformly at the given average rate. We know $$ v_0 = 0 $$, $$ v = 6.00 \ms $$, and $$ a = 0.350 \mss $$, so we can find the distance from $$ v^2 = v_0^2 + 2ax $$ and the time from $$ v = v_0 + at $$.
+
+**Solution**
+
+**(a)** Solve $$ v^2 = v_0^2 + 2ax $$ for $$ x $$:
+
+<div class="equation">
+$$ x = \frac{v^2 - v_0^2}{2a} = \frac{(6.00 \ms)^2 - 0}{2(0.350 \mss)} = 51.4 \m $$
+</div>
+
+**(b)** Solve $$ v = v_0 + at $$ for $$ t $$:
+
+<div class="equation">
+$$ t = \frac{v - v_0}{a} = \frac{6.00 \ms - 0}{0.350 \mss} = 17.142857 \s = 17.1 \s $$
+</div>
+
+**Discussion**
+
+As a check, the average velocity is $$ (0 + 6.00)/2 = 3.00 \ms $$, and $$ (3.00 \ms)(17.14 \s) = 51.4 \m $$, in agreement with part (a). A run of about 50 m across the water is consistent with the long takeoff runs that large swans need.
+
+**Answer**
+
 (a) $$ 51.4\m $$
 
-(b) $$ 17.0 \s $$
+(b) $$ 17.1 \s $$
 
 :::
 
@@ -2156,15 +2182,17 @@ $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} = \frac{22.0 \pm \sqrt{(-22.0)^2 - 4(0
 </div>
 
 <div class="equation">
-$$ t = \frac{22.0 \pm \sqrt{484 - 63.0}}{0.150} = \frac{22.0 \pm \sqrt{421}}{0.150} = \frac{22.0 \pm 20.5}{0.150} $$
+$$ t = \frac{22.0 \pm \sqrt{484 - 63.0}}{0.150} = \frac{22.0 \pm \sqrt{421}}{0.150} = \frac{22.0 \pm 20.518}{0.150} $$
 </div>
 
 This gives two solutions:
 
-- $$ t_1 = \frac{22.0 + 20.5}{0.150} = \frac{42.5}{0.150} = 283 \s $$
-- $$ t_2 = \frac{22.0 - 20.5}{0.150} = \frac{1.5}{0.150} = 10.0 \s $$
+- $$ t_1 = \frac{22.0 + 20.518}{0.150} = \frac{42.518}{0.150} = 283 \s $$
+- $$ t_2 = \frac{22.0 - 20.518}{0.150} = \frac{1.482}{0.150} = 9.88 \s $$
 
-The physically meaningful solution is $$ t_{\text{nose}} = 10.0 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
+Because $$ 22.0 $$ and $$ \sqrt{421} $$ are nearly equal, keep extra digits of the square root before subtracting; rounding it to 20.5 first would give 10.0 s.
+
+The physically meaningful solution is $$ t_{\text{nose}} = 9.88 \s $$ (the larger time would correspond to the train reversing direction, which is not realistic).
 
 **(b) Velocity when nose leaves the station:**
 
@@ -2173,7 +2201,7 @@ The physically meaningful solution is $$ t_{\text{nose}} = 10.0 \s $$ (the large
 Use $$ v = v_0 + at $$:
 
 <div class="equation">
-$$ v_{\text{nose}} = 22.0 \ms + (-0.150 \mss)(10.0 \s) = 22.0 - 1.50 = 20.5 \ms $$
+$$ v_{\text{nose}} = 22.0 \ms + (-0.150 \mss)(9.878 \s) = 22.0 - 1.48 = 20.5 \ms $$
 </div>
 
 We can verify using $$ v^2 = v_0^2 + 2a(x - x_0) $$:
@@ -2209,15 +2237,15 @@ $$ t = \frac{22.0 \pm \sqrt{484 - 4(0.0750)(340)}}{0.150} = \frac{22.0 \pm \sqrt
 </div>
 
 <div class="equation">
-$$ t = \frac{22.0 \pm \sqrt{382}}{0.150} = \frac{22.0 \pm 19.5}{0.150} $$
+$$ t = \frac{22.0 \pm \sqrt{382}}{0.150} = \frac{22.0 \pm 19.545}{0.150} $$
 </div>
 
 This gives:
 
-- $$ t_1 = \frac{22.0 + 19.5}{0.150} = 277 \s $$ (unphysical)
-- $$ t_2 = \frac{22.0 - 19.5}{0.150} = \frac{2.5}{0.150} = 16.7 \s $$
+- $$ t_1 = \frac{22.0 + 19.545}{0.150} = 277 \s $$ (unphysical)
+- $$ t_2 = \frac{22.0 - 19.545}{0.150} = \frac{2.455}{0.150} = 16.4 \s $$
 
-So $$ t_{\text{end}} = 16.7 \s $$.
+So $$ t_{\text{end}} = 16.4 \s $$.
 
 **(d) Velocity of end of train as it leaves:**
 
@@ -2226,26 +2254,26 @@ So $$ t_{\text{end}} = 16.7 \s $$.
 Use $$ v = v_0 + at $$:
 
 <div class="equation">
-$$ v_{\text{end}} = 22.0 \ms + (-0.150 \mss)(16.7 \s) = 22.0 - 2.51 = 19.5 \ms $$
+$$ v_{\text{end}} = 22.0 \ms + (-0.150 \mss)(16.368 \s) = 22.0 - 2.46 = 19.5 \ms $$
 </div>
 
 **Units check:** All dimensional analysis confirms proper units throughout.
 
 **Discussion**
 
-The results make physical sense. The nose of the train takes 10.0 s to traverse the 210 m station, slowing from 22.0 m/s to 20.5 m/s. The end of the train, entering 130 m behind the nose, takes an additional 6.7 s to clear the station (total of 16.7 s from when the nose entered), and is moving at 19.5 m/s when it exits.
+The results make physical sense. The nose of the train takes 9.88 s to traverse the 210 m station, slowing from 22.0 m/s to 20.5 m/s. The end of the train, entering 130 m behind the nose, takes an additional 6.49 s to clear the station (total of 16.4 s from when the nose entered), and is moving at 19.5 m/s when it exits.
 
-The deceleration of 0.150 m/s² is quite gentle—only about 1.5% of gravitational acceleration. This is typical for passenger trains, ensuring passenger comfort. Over the 16.7 seconds that the train occupies the station, it slows by only 2.5 m/s (from 22.0 to 19.5 m/s), which passengers would barely notice.
+The deceleration of 0.150 m/s² is quite gentle—only about 1.5% of gravitational acceleration. This is typical for passenger trains, ensuring passenger comfort. Over the 16.4 seconds that the train occupies the station, it slows by only 2.5 m/s (from 22.0 to 19.5 m/s), which passengers would barely notice.
 
-The average velocity during the passage can be calculated as $$ \overline{v} = \frac{v_0 + v}{2} = \frac{22.0 + 19.5}{2} = 20.75 \ms $$, and the total distance traveled is $$ 340 \m $$, giving an average time of $$ t = \frac{340}{20.75} = 16.4 \s $$, which is consistent with our calculated 16.7 s (the small difference is due to rounding).
+The average velocity during the passage can be calculated as $$ \overline{v} = \frac{v_0 + v}{2} = \frac{22.0 + 19.5}{2} = 20.75 \ms $$, and the total distance traveled is $$ 340 \m $$, giving $$ t = \frac{340}{20.75} = 16.4 \s $$, which agrees with the quadratic-formula result of 16.4 s.
 
 **Answer**
 
-(a) The nose of the train stays in the station for **10.0 s**.
+(a) The nose of the train stays in the station for **9.88 s**.
 
 (b) The nose is traveling at **20.5 m/s** when it leaves the station.
 
-(c) The end of the train leaves the station at **16.7 s** after the nose entered.
+(c) The end of the train leaves the station at **16.4 s** after the nose entered.
 
 (d) The end of the train is traveling at **19.5 m/s** as it leaves the station.
 
@@ -2498,7 +2526,41 @@ did it take Burt to complete the course?
 
 ::: solution
 
-104 s
+**Strategy**
+
+Convert all quantities to SI units. The motion has two phases: constant acceleration from rest up to the maximum speed, then constant speed for the rest of the course. Find the acceleration from the 0-to-60 mi/h time, then the time and distance for the acceleration phase, and finally the time to cover the remaining distance at top speed.
+
+**Solution**
+
+Conversions (1 mi = 1609.344 m): $$ 60.0 \text{ mi/h} = 26.82 \ms $$, $$ v_{\max} = 183.58 \text{ mi/h} = 82.07 \ms $$, and the course length is $$ L = 5.00 \text{ mi} = 8047 \m $$.
+
+1. Acceleration:
+<div class="equation">
+$$ a = \frac{26.82 \ms}{4.00 \s} = 6.706 \mss $$
+</div>
+
+2. Acceleration phase (from rest to $$ v_{\max} $$):
+<div class="equation">
+$$ t_1 = \frac{v_{\max}}{a} = \frac{82.07 \ms}{6.706 \mss} = 12.24 \s, \qquad x_1 = \frac{v_{\max}^2}{2a} = \frac{(82.07 \ms)^2}{2(6.706 \mss)} = 502 \m $$
+</div>
+
+3. Constant-speed phase for the remaining distance:
+<div class="equation">
+$$ t_2 = \frac{L - x_1}{v_{\max}} = \frac{8047 \m - 502 \m}{82.07 \ms} = 91.9 \s $$
+</div>
+
+4. Total time:
+<div class="equation">
+$$ t = t_1 + t_2 = 12.24 \s + 91.9 \s = 104 \s $$
+</div>
+
+**Discussion**
+
+The acceleration phase takes only about 12 s and 0.5 km; most of the 5-mile run is at top speed. As a check, covering the whole course at top speed would take $$ 8047/82.07 = 98.0 \s $$; the extra 6 s is exactly the time lost during the acceleration phase ($$ t_1/2 $$), because the average speed while accelerating from rest is half the top speed.
+
+**Answer**
+
+It took Burt about **104 s** to complete the course.
 
 :::
 
@@ -2515,7 +2577,34 @@ did it take Burt to complete the course?
 
 ::: solution
 
+**Strategy**
+
+Each race has two phases: constant acceleration from rest for 3.00 s up to the maximum speed $$ v $$, then constant speed $$ v $$ for the rest of the race. During the acceleration phase the average speed is $$ v/2 $$, so the distance covered is $$ \frac{v}{2}(3.00 \s) $$. The remaining time, $$ t - 3.00 \s $$, is run at speed $$ v $$. Set the total distance equal to the race length and solve for $$ v $$.
+
+**Solution**
+
+**(a)** For the 100-m dash with $$ t = 9.69 \s $$:
+<div class="equation">
+$$ 100 \m = \frac{v}{2}(3.00 \s) + v(9.69 \s - 3.00 \s) = v(1.50 \s + 6.69 \s) = v(8.19 \s) $$
+</div>
+
+<div class="equation">
+$$ v = \frac{100 \m}{8.19 \s} = 12.2 \ms, \qquad a = \frac{v}{3.00 \s} = \frac{12.21 \ms}{3.00 \s} = 4.07 \mss $$
+</div>
+
+**(b)** For the 200-m dash with $$ t = 19.30 \s $$:
+<div class="equation">
+$$ 200 \m = v(1.50 \s) + v(19.30 \s - 3.00 \s) = v(17.80 \s) \quad \Rightarrow \quad v = \frac{200 \m}{17.80 \s} = 11.2 \ms $$
+</div>
+
+**Discussion**
+
+The model gives a lower maximum speed for the 200-m race even though Bolt's 200-m average speed (10.36 m/s) is slightly higher than his 100-m average (10.32 m/s). That is a sign of the model's limits: in the 100-m race Bolt slowed down ("coasted") before the finish, and real sprinters accelerate for longer than 3 s and do not hold an exactly constant top speed. The idealization is still useful for estimating speeds of about 11–12 m/s.
+
+**Answer**
+
 (a) $$ v=12.2 \ms $$; $$ a=4.07 \mss $$
+
 (b) $$ v=11.2 \ms $$
 
 :::

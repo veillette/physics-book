@@ -433,9 +433,9 @@ Suppose a mass is moving in a circular path on a frictionless table as shown in 
 
 ::: problem
 
-(a) A 22.0 kg child is riding a playground merry-go-round that is rotating at 40.0 rev/min. What centripetal force must she exert to stay on if she is 1.25 m from its center?
+(a) A 22.0 kg child is riding a playground merry-go-round that is rotating at 40.0 rev/min. What centripetal force must the merry-go-round exert on her to keep her moving in a circle if she is 1.25 m from its center?
 
-(b) What centripetal force does she need to stay on an amusement park
+(b) What centripetal force must be exerted on her to keep her on an amusement park
 merry-go-round that rotates at 3.00 rev/min if she is 8.00 m from its center?
 
 (c) Compare each force with her weight.
@@ -486,7 +486,7 @@ $$\frac{F_{c,b}}{w} = \frac{17.4\text{ N}}{216\text{ N}} = 0.0807$$
 
 **Discussion**
 
-On the playground merry-go-round, the child must exert a centripetal force of 483 N, which is 2.24 times her weight - she would feel significantly "heavier" and need to hold on tightly. On the slower amusement park ride, she needs only 17.4 N, which is just 0.0807 times her weight - barely noticeable. The much larger radius partially compensates for the slower rotation rate in the second case.
+On the playground merry-go-round, the ride (through her grip and the seat) must exert an inward centripetal force of 483 N **on her**, which is 2.24 times her weight, so she would need to hold on tightly. By Newton's third law she pulls outward on the ride with an equal force; that outward force acts on the ride, not on her. On the slower amusement park ride, she needs only 17.4 N, which is just 0.0807 times her weight - barely noticeable. The much larger radius partially compensates for the slower rotation rate in the second case.
 
 :::
 
@@ -807,7 +807,7 @@ $$\omega^{2} = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\te
 $$\omega = \sqrt{6.53} = 2.56\text{ rad/s}$$
 </div>
 
-(b) Draw a free body diagram: The cage experiences its weight$$mg$$downward and the arm force$$F$$at angle$$\theta$$below horizontal. The horizontal component of$$F$$provides centripetal force, while the vertical component balances weight:
+(b) Draw a free body diagram: The cage hangs below the arm's pivot, so its axis tilts $$\theta$$ below horizontal on its way out from the pivot. The forces on the cage are its weight$$mg$$downward and the arm's force$$F$$, which points from the cage back along that axis: inward toward the center and **upward**, at angle$$\theta$$**above** horizontal. The horizontal component of$$F$$provides centripetal force, while the vertical component balances weight:
 
 <div class="equation">
 $$F\cos\theta = ma_{c} \quad \text{and} \quad F\sin\theta = mg$$
@@ -947,7 +947,7 @@ $$v = \sqrt{221\text{ m}^2\text{/s}^2} = 14.9\text{ m/s}$$
 
 **Discussion**
 
-The speed of the roller coaster at the top of the loop is 14.9 m/s (about 54 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, which means passengers experience a downward force 1.50 times their normal weight. This keeps them firmly pressed into their seats even though they are upside down at the top of the loop, creating the thrilling sensation that makes roller coasters exciting while maintaining safety.
+The speed of the roller coaster at the top of the loop is 14.9 m/s (about 54 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, so the **net** downward force on each passenger is $$ 1.50mg $$. Gravity supplies $$ mg $$ of this; the seat (above them, since they are upside down) pushes down on them with the remaining $$ 0.50mg $$. That contact force of half their weight is what keeps them pressed into their seats at the top of the loop.
 
 :::
 

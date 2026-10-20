@@ -478,11 +478,11 @@ $$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
 $$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) = (400 \text{ m/kg})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
 
-The acceleration is $$ 1.80 \times 10^{-3} \mss $$ (about 0.18 mm/s²).
+The acceleration is $$ 1.80 \times 10^{-3} \mss $$ (about 1.80 mm/s²).
 
 **Discussion**
 
-The power of ion propulsion is evident: ejecting only 0.2% of the spacecraft's mass provides a 16 km/s velocity change—more than enough to escape Earth's gravity (11.2 km/s). With chemical rockets, this would require about 87.5% of the mass to be fuel. The tradeoff is the tiny acceleration (0.18 mm/s²), meaning years of continuous operation are needed to achieve these velocities. Ion engines are ideal for deep space missions where time is less critical than fuel efficiency.
+The power of ion propulsion is evident: ejecting only 0.2% of the spacecraft's mass provides a 16 km/s velocity change—more than enough to escape Earth's gravity (11.2 km/s). With a chemical exhaust speed of about 2.00 km/s, the ideal rocket equation gives $$ m_f/m_i = e^{-\Delta v/v_e} = e^{-8} $$, so about 99.966% of the initial mass would have to be propellant. The tradeoff is the tiny acceleration (1.80 mm/s²): expelling the 40.0 kg of propellant at $$ 4.50 \times 10^{-6} $$ kg/s takes $$ 8.9 \times 10^{6} $$ s, about 103 days of continuous operation. Ion engines are ideal for deep space missions where time is less critical than fuel efficiency.
 
 ::::
 
@@ -593,7 +593,7 @@ The maximum mass expulsion rate is $$ 2.45 \times 10^{3} \text{ kg/s} $$ (about 
 
 **(b)** Limiting acceleration is necessary because:
 
-1. **Structural integrity**: High accelerations create enormous forces on the rocket structure. At 7g, every component experiences forces 7 times its weight.
+1. **Structural integrity**: High accelerations create enormous forces on the rocket structure. At an upward acceleration of 7g near Earth's surface, each component must be supported by a force $$ m(a + g) = 8mg $$, eight times its weight.
 
 2. **Payload protection**: Satellites, scientific instruments, and especially human passengers can be damaged by excessive g-forces. Humans can tolerate about 6-8g briefly, but sustained high g-forces cause blackouts and physical harm.
 
@@ -603,7 +603,7 @@ The maximum mass expulsion rate is $$ 2.45 \times 10^{3} \text{ kg/s} $$ (about 
 
 **Discussion**
 
-At 7g (68.6 m/s²), an astronaut would feel as if they weighed 7 times their normal weight. A 70-kg person would feel like 490 kg pressing down on them. This is near the limit of human endurance for brief periods.
+At an upward acceleration of 7g (68.6 m/s²) in Earth-strength gravity, the seat must push up on an astronaut with $$ N = m(a + g) = 8mg $$. A 70-kg person requires $$ (70 \kg)(68.6 + 9.80) \mss = 5488 \N $$ of support, eight times their ordinary weight, so they would feel as if they weighed 8 times their normal weight. This is near the limit of human endurance for brief periods.
 
 ::::
 
@@ -815,19 +815,21 @@ The squid would need to eject $$ 83.1\% $$ of its body mass to achieve this velo
 
 **(c)** The unreasonable result is that a squid would need to eject 83% of its body mass. Squids typically can only eject about 10-20% of their body mass as water from their mantle cavity. Additionally, $$ 21.4 \ms $$ (77 km/h) is an extremely high speed for any marine animal to achieve through jet propulsion.
 
-**(d)** The unreasonable premises are:
+**(d)** The model's premises, not necessarily the observation, are what fail:
 
-1. The reported 30 m horizontal distance is likely exaggerated or measured incorrectly. Real squid jumps are typically 2-5 meters.
+1. The assumption of **negligible lift** is the most questionable. Researchers who filmed flying squid report that the animals spread their fins and arms to generate aerodynamic lift and glide, which can greatly extend the range beyond that of a ballistic projectile.
 
-2. The $$ 20^\circ $$ launch angle may be inaccurate; squids likely leave the water at steeper angles (closer to $$ 45^\circ $$ for maximum range).
+2. The model assumes a **single expulsion** of water before leaving the surface. The same researchers report that squid continue jetting water after they are airborne, so they are not simple projectiles after launch.
 
-3. Ignoring air resistance is problematic—at these speeds, air resistance would significantly reduce the range.
+3. Air resistance is neglected; it would shorten a purely ballistic flight, but it is the same air that provides lift to a gliding squid.
 
-4. The exhaust velocity of $$ 12.0 \ms $$ may be too low; actual jet speeds in squids can be higher (up to 25 m/s in some species), which would reduce the required mass fraction but still not make the scenario realistic.
+4. The $$ 20^\circ $$ launch angle and $$ 12.0 \ms $$ exhaust speed are additional idealizations whose values affect the numbers but do not fix the basic problem.
+
+Because the supplied model omits lift and continued propulsion, the calculation cannot be used to reject the reported 30 m observation; it shows instead that a ballistic, single-jet model cannot explain such a flight. See the [primary research team's account](https://www.global.hokudai.ac.jp/blog/squid-can-fly-flight-behavior-of-the-squid-explained-for-the-first-time/) of squid flight.
 
 **Discussion**
 
-This is a classic "unreasonable results" problem that teaches students to critically evaluate whether calculated answers make physical sense. While squids can indeed jump out of water (a behavior called "jet-propelled aerial locomotion"), the extreme range claimed here would require impossible mass ejection fractions.
+This is a classic "unreasonable results" problem that teaches students to critically evaluate whether calculated answers make physical sense. Here the calculated 83% mass fraction follows correctly from the ideal assumptions, so the unreasonable result signals that those assumptions, especially negligible lift, do not describe the squid's flight.
 
 ::::
 
@@ -859,7 +861,9 @@ This problem requires applying conservation of momentum and the rocket equation 
 
 **Sample Problem Construction:**
 
-An 80-kg astronaut (in a space suit) is floating 15 m from her spacecraft with zero initial velocity. She carries three 5.0-kg packages (total system mass $$ 95 \kg $$ initially). Take **toward the ship** as the $$ +x $$ direction. Each throw gives the package a speed of **8.0 m/s relative to the astronaut immediately after the throw**, in the $$ -x $$ direction (away from the ship). Conserve momentum for the astronaut **plus any packages she still holds** at each step.
+An 80-kg astronaut (in a space suit) is floating 15 m from her spacecraft with zero initial velocity. She carries three 5.0-kg packages (total system mass $$ 95 \kg $$ initially). Take **toward the ship** as the $$ +x $$ direction. Each throw gives the package a speed of **8.0 m/s relative to the astronaut immediately after the throw**, in the $$ -x $$ direction (away from the ship). Conserve momentum for the astronaut **plus any packages she still holds** at each step. Treat each throw as instantaneous, so that no time or distance is used up during the throws, and the travel time is simply 15 m divided by her final speed.
+
+*Modeling choice:* the problem statement mentions the force she can exert through some distance. If she pushed each package with the same force $$ F $$ through the same arm stroke $$ s $$, the work $$ Fs $$ would be shared between her and the package, so the relative launch speed would depend on the package mass: a 15-kg bundle would leave more slowly than a 5-kg package. Here we instead choose the simpler constraint of **equal relative launch speed** (8.0 m/s) for every throw. That is a different, explicitly stated assumption; a more complete construction would specify $$ F $$ and $$ s $$ and find each launch speed from the work-energy theorem.
 
 **(a)** If she throws all three packages (bundled as 15 kg) at once, what speed toward the ship does she acquire?
 

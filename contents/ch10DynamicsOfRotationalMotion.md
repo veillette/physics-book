@@ -766,7 +766,7 @@ $$ I = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(12.0 \kg)\left[(0.280 \m)^2 + (
 </div>
 
 <div class="equation">
-$$ I = \frac{1}{2}(12.0 \kg)(0.0784 \mm + 0.1089 \mm) = \frac{1}{2}(12.0 \kg)(0.1873 \mm) = 1.12 \kg \cdot \mm $$
+$$ I = \frac{1}{2}(12.0 \kg)(0.0784 \mm + 0.1089 \mm) = \frac{1}{2}(12.0 \kg)(0.1873 \mm) = 1.1238 \kg \cdot \mm $$
 </div>
 
 The torque from the chain:
@@ -778,19 +778,19 @@ $$ \tau = Fr = (2200 \N)(0.0500 \m) = 110 \N \cdot \m $$
 The angular acceleration:
 
 <div class="equation">
-$$ \alpha = \frac{\tau}{I} = \frac{110 \N \cdot \m}{1.12 \kg \cdot \mm} = 98.2 \radss $$
+$$ \alpha = \frac{\tau}{I} = \frac{110 \N \cdot \m}{1.1238 \kg \cdot \mm} = 97.9 \radss $$
 </div>
 
 **(b)** The tangential acceleration at the outer edge of the tire (R₂ = 0.330 m):
 
 <div class="equation">
-$$ a_t = R_2 \alpha = (0.330 \m)(98.2 \radss) = 32.4 \text{ m/s}^2 $$
+$$ a_t = R_2 \alpha = (0.330 \m)(97.88 \radss) = 32.3 \text{ m/s}^2 $$
 </div>
 
 **(c)** Time to reach ω = 80.0 rad/s from rest:
 
 <div class="equation">
-$$ t = \frac{\omega - \omega_{0}}{\alpha} = \frac{80.0 \text{ rad/s} - 0}{98.2 \radss} = 0.815 \s $$
+$$ t = \frac{\omega - \omega_{0}}{\alpha} = \frac{80.0 \text{ rad/s} - 0}{97.88 \radss} = 0.817 \s $$
 </div>
 
 **Discussion**
@@ -799,11 +799,11 @@ The wheel reaches 80.0 rad/s (about 760 rpm) in less than a second, which corres
 
 **Answer**
 
-(a) The angular acceleration is **98.2 rad/s²**.
+(a) The angular acceleration is **97.9 rad/s²**.
 
-(b) The tangential acceleration at the outer edge is **32.4 m/s²**.
+(b) The tangential acceleration at the outer edge is **32.3 m/s²**.
 
-(c) It takes **0.815 s** to reach 80.0 rad/s.
+(c) It takes **0.817 s** to reach 80.0 rad/s.
 
 :::
 
@@ -850,7 +850,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{28.0 \times 3600 \s} = 6.24 \times 10^{
 The required change in angular velocity:
 
 <div class="equation">
-$$ \Delta\omega = \omega_{0} - \omega = 7.27 \times 10^{-5} - 6.24 \times 10^{-5} = 1.03 \times 10^{-5} \text{ rad/s} $$
+$$ \Delta\omega = \omega_{0} - \omega = 7.2722 \times 10^{-5} - 6.2333 \times 10^{-5} = 1.0389 \times 10^{-5} \text{ rad/s} $$
 </div>
 
 Earth's moment of inertia (approximating as a uniform solid sphere, M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m):
@@ -868,28 +868,28 @@ $$ \tau = FR = (4.00 \times 10^7 \N)(6.37 \times 10^6 \m) = 2.55 \times 10^{14} 
 The angular deceleration:
 
 <div class="equation">
-$$ \alpha = \frac{\tau}{I} = \frac{2.55 \times 10^{14} \N \cdot \m}{9.69 \times 10^{37} \kg \cdot \mm} = 2.63 \times 10^{-24} \radss $$
+$$ \alpha = \frac{\tau}{I} = \frac{2.548 \times 10^{14} \N \cdot \m}{9.690 \times 10^{37} \kg \cdot \mm} = 2.6296 \times 10^{-24} \radss $$
 </div>
 
 Time required:
 
 <div class="equation">
-$$ t = \frac{\Delta\omega}{\alpha} = \frac{1.03 \times 10^{-5} \text{ rad/s}}{2.63 \times 10^{-24} \radss} = 3.96 \times 10^{18} \s $$
+$$ t = \frac{\Delta\omega}{\alpha} = \frac{1.0389 \times 10^{-5} \text{ rad/s}}{2.6296 \times 10^{-24} \radss} = 3.951 \times 10^{18} \s $$
 </div>
 
 Converting to years:
 
 <div class="equation">
-$$ t = \frac{3.96 \times 10^{18} \s}{3.156 \times 10^7 \text{ s/y}} = 1.26 \times 10^{11} \text{ y} $$
+$$ t = \frac{3.951 \times 10^{18} \s}{3.156 \times 10^7 \text{ s/y}} = 1.25 \times 10^{11} \text{ y} $$
 </div>
 
 **Discussion**
 
-Superman has plenty of time—126 billion years is about 9 times the current age of the universe! This illustrates the enormous moment of inertia of Earth. Even with a force greater than a Saturn V rocket, the tiny angular deceleration (about 10⁻²⁴ rad/s²) means Zorch's plan is essentially impossible on any practical timescale.
+Superman has plenty of time—125 billion years is about 9 times the current age of the universe! This illustrates the enormous moment of inertia of Earth. Even with a force greater than a Saturn V rocket, the tiny angular deceleration (about 10⁻²⁴ rad/s²) means Zorch's plan is essentially impossible on any practical timescale.
 
 **Answer**
 
-Zorch would need to push for **1.26 × 10¹¹ years** (126 billion years) to slow Earth's rotation to once per 28.0 hours.
+Zorch would need to push for **1.25 × 10¹¹ years** (125 billion years) to slow Earth's rotation to once per 28.0 hours.
 
 :::
 
@@ -1095,7 +1095,8 @@ This problem illustrates how unreasonable values for one quantity (moment of ine
 
 An advertisement claims that an 800-kg car is aided by its 20.0-kg flywheel,
 which can accelerate the car from rest to a speed of 30.0 m/s. The flywheel is a
-disk with a 0.150-m radius.
+disk with a 0.150-m radius. Assume the flywheel is made of steel that can
+safely sustain a rim speed of at most about 200 m/s.
 (a) Calculate the angular velocity the flywheel must have if 95.0% of its
 rotational energy is used to get the car up to speed.
 (b) What is unreasonable about the result?
@@ -1139,21 +1140,27 @@ $$ \omega^{2} = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} 
 $$ \omega = 1834 \text{ rad/s} = 1834 \times \frac{60}{2\pi} \text{ rpm} = 17,500 \text{ rpm} $$
 </div>
 
-**(b)** The required **17,500 rpm** ($$ \omega \approx 1.84 \times 10^{3} \text{ rad/s} $$) is demanding but not, by itself, proof that this disk must fail. Laboratory energy-storage flywheels have been tested at tens of thousands of rpm; whether **this** 20.0-kg, 0.150-m-radius disk is safe depends on material strength, rim speed, mounting, and duty cycle—none of which are given. At the rim, $$ a_c = \omega^{2} r \approx 5.0 \times 10^{5} \text{ m/s}^2 $$, a large centripetal demand that must be compared to an allowable stress or rim-speed limit before declaring failure.
+**(b)** High angular speed alone is not a contradiction; laboratory energy-storage flywheels run at tens of thousands of rpm. The relevant test is the stated material limit. The rim speed required here is
 
-**(c)** The **inconsistent premise** is expecting a **small, light** flywheel to deliver 95% of the energy needed to accelerate an 800-kg car to 30.0 m/s without specifying materials or safety margins. A design study would need rim-speed limits, burst containment, bearings rated for continuous operation, and often much greater mass or radius—or a lower claimed fraction of the car’s kinetic energy.
+<div class="equation">
+$$ v_{	ext{rim}} = \omega r = (1834 \text{ rad/s})(0.150 \m) = 275 \ms $$
+</div>
+
+which exceeds the 200-m/s limit the steel can safely sustain. (The corresponding centripetal acceleration at the rim, $$ \omega^{2} r \approx 5.0 \times 10^{5} \text{ m/s}^2 $$, shows how large the stresses would be.) The flywheel would be at risk of bursting.
+
+**(c)** The premises are **inconsistent**: a 20.0-kg steel disk limited to a 200-m/s rim speed cannot store enough energy to accelerate an 800-kg car to 30.0 m/s. At the limit it stores only $$ \frac{1}{2}\left(\frac{1}{2}MR^2\right)\left(\frac{v_{\text{rim}}}{R}\right)^2 = \frac{1}{4}Mv_{\text{rim}}^2 = \frac{1}{4}(20.0)(200)^2 = 2.00 \times 10^{5} \J $$, about half of the $$ 3.79 \times 10^{5} \J $$ required. The flywheel would need more mass, a stronger material permitting a higher rim speed, or a smaller claimed share of the car’s kinetic energy.
 
 **Discussion**
 
-The arithmetic in part (a) is consistent with the stated 95% transfer. Interpreting the result means discussing **engineering requirements** (material, geometry, controls, enclosure) rather than treating rpm alone as a failure criterion. Larger, heavier flywheels, or accepting a smaller energy fraction, are the usual ways to make onboard storage plausible.
+The arithmetic in part (a) is consistent with the stated 95% transfer. What makes the result unreasonable is not the rpm by itself but the comparison with a material limit: for a solid disk, the stored energy at a given rim speed is $$ \frac{1}{4}Mv_{\text{rim}}^2 $$, independent of radius, so only more mass or a stronger material can increase it. Larger, heavier flywheels, stronger composite rims, or accepting a smaller energy fraction are the usual ways to make onboard storage plausible.
 
 **Answer**
 
 (a) The flywheel would need to spin at **$$ 1.84 \times 10^{3} \text{ rad/s} $$** (about **17,500 rpm**).
 
-(b) High rpm and rim acceleration show the design is **stressful**, but failure is **not established** without a material or rim-speed constraint.
+(b) The required rim speed, **275 m/s**, exceeds the 200-m/s limit the steel can safely sustain.
 
-(c) The ad’s claim is **inconsistent** with a 20.0-kg, 0.150-m disk unless additional engineering specifications make that combination feasible.
+(c) The ad’s claim is **inconsistent** with a 20.0-kg steel disk: at its rim-speed limit it can store only about $$ 2.0 \times 10^{5} \J $$, roughly half of what the claim requires.
 
 :::
 

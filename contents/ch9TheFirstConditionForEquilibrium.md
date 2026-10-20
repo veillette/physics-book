@@ -154,8 +154,9 @@ Under these conditions, the body rotates at a **constant angular velocity**—co
 Other examples include:
 
 - A merry-go-round spinning at constant speed (after reaching steady state)
-- Earth rotating on its axis at a nearly constant rate
-- A spinning top that has reached a steady precession rate
+- Earth rotating on its axis at a nearly constant rate (this satisfies the second condition only approximately, and Earth's center of mass still accelerates around the Sun, so it is not in full equilibrium)
+
+A steadily precessing top is **not** an example: its angular momentum keeps changing direction because gravity exerts a nonzero torque on it.
 
 **Discussion**
 

@@ -225,9 +225,13 @@ situation, draw a free-body diagram and write the net force equation.
 
 The car accelerates forward. By Newton's third law, if the wheels push backward on the road with 2100 N, the road pushes forward on the car with 2100 N. Friction opposes motion (acts backward).
 
-Free-body diagram (horizontal forces only):
-- Forward force from road: $$ F = 2100 \N $$
-- Friction force (backward): $$ f = 250 \N $$
+Free-body diagram (system: car plus occupants, drawn as a box with all external forces acting on it):
+- Forward force from road: $$ F = 2100 \N $$ (horizontal, forward)
+- Friction force including air resistance: $$ f = 250 \N $$ (horizontal, backward)
+- Weight: $$ w = mg $$ (vertical, down)
+- Normal force from the road on the tires: $$ N $$ (vertical, up; the total over all four tires)
+
+Because the car does not accelerate vertically, $$ N - w = 0 $$, so the vertical forces cancel and only the horizontal forces enter the net force equation for the acceleration.
 
 **Step 2: Identify knowns and unknowns**
 
@@ -553,13 +557,22 @@ $$ F_{push} = 14{,}830 + 2200 = 17{,}030 \N \approx 1.70 \times 10^{4} \N $$
 
 **(c) Free-body diagrams:**
 
+*Sketch for part (a):* draw the tractor and airplane together, connected by the tow bar, with a boundary around both. *Sketch for part (b):* draw a boundary around the airplane only; the tow bar crosses the boundary, so its force on the airplane is now external.
+
 **Part (a) - System: Tractor + Airplane**
-- →  F = 17,500 N (forward from pavement)
-- ←  f = 2,400 N (total friction backward)
+- →  F = 17,500 N (forward, from pavement on the tractor's drive wheels)
+- ←  f = 2,400 N (total resisting force, backward)
+- ↓  w = (m_tractor + m_airplane)g ≈ 9.87 × 10⁵ N (total weight)
+- ↑  N ≈ 9.87 × 10⁵ N (total normal force from the pavement on all wheels)
+- The tow-bar forces between tractor and airplane are internal and do not appear.
 
 **Part (b) - System: Airplane only**
-- →  F_push = ? (forward from tractor)
-- ←  f = 2,200 N (friction backward)
+- →  F_push = 17,000 N (forward, from the tractor through the tow bar)
+- ←  f = 2,200 N (resisting force on the airplane, backward)
+- ↓  w = m_airplane g ≈ 9.69 × 10⁵ N
+- ↑  N ≈ 9.69 × 10⁵ N (normal force from the pavement on the airplane's wheels)
+
+In both diagrams the vertical forces cancel, so the net force equations involve only the horizontal forces.
 
 **Discussion**
 
@@ -703,16 +716,20 @@ Whether we add $$ \vb{F}_{1} + \vb{F}_{2} $$ or $$ \vb{F}_{2} + \vb{F}_{1} $$, t
 - Method 1: Start with $$ \vb{F}_{1} $$ (right 16.4\text{ N}), then add $$ \vb{F}_{2} $$ (up 11.5 N) → resultant points to upper right
 - Method 2: Start with $$ \vb{F}_{2} $$ (up 11.5\text{ N}), then add $$ \vb{F}_{1} $$ (right 16.4 N) → same resultant
 
+*Scale drawing.* Choose a scale such as 1 cm = 2.0 N. For $$ \vb{F}_{1} + \vb{F}_{2} $$, draw $$ \vb{F}_{1} $$ as an 8.2-cm arrow to the right from the origin, then draw $$ \vb{F}_{2} $$ as a 5.75-cm arrow straight up from the head of $$ \vb{F}_{1} $$. For $$ \vb{F}_{2} + \vb{F}_{1} $$, on the same drawing, start at the origin with the 5.75-cm upward arrow and draw the 8.2-cm rightward arrow from its head. The two paths form opposite sides of a rectangle (a parallelogram) and meet at the same corner. The arrow from the origin to that corner measures 10.0 cm at 35° above horizontal, that is, $$ \vb{F}_{\text{tot}} = 20.0 \N $$ at 35°.
+
 Both paths end at the same point, demonstrating vector addition is commutative.
 
 **(c) Alternative pair of vectors:**
 
 One example that adds to the same $$ \vb{F}_{\text{tot}} $$:
 
-- $$ \vb{F}_{3} $$: **12.0 N at 75° above horizontal** (components 3.11 N right, 11.6 N up)
+- $$ \vb{F}_{3} $$: **11.9 N at 75° above horizontal** (components 3.08 N right, 11.5 N up)
 - $$ \vb{F}_{4} $$: **13.3 N horizontally to the right** (components 13.3 N right, 0 N up)
 
-Check: $$(3.11 + 13.3, 11.6 + 0) = (16.4, 11.6) \N$$, matching parts (a) and (b).
+Check: $$(3.08 + 13.3, 11.5 + 0) = (16.4, 11.5) \N$$, matching parts (a) and (b).
+
+*Scale drawing.* On the same 1 cm = 2.0 N drawing used in part (b), draw $$ \vb{F}_{3} $$ from the origin as a 5.95-cm arrow at 75° above horizontal, then $$ \vb{F}_{4} $$ from its head as a 6.65-cm arrow to the right. Its head lands on the same corner as in part (b), at the tip of $$ \vb{F}_{\text{tot}} $$.
 
 **Discussion**
 
@@ -724,7 +741,7 @@ This problem reinforces the fundamental principle that vector addition is both c
 
 (b) The order of addition doesn't matter - vector addition is commutative.
 
-(c) For example, **F₃ = 12.0 N at 75° above horizontal** and **F₄ = 13.3 N to the right** add to the same total force.
+(c) For example, **F₃ = 11.9 N at 75° above horizontal** and **F₄ = 13.3 N to the right** add to the same total force.
 
 :::
 
@@ -742,8 +759,7 @@ and $$ \vb{F}_{2} $$ as shown from above
 in [Figure below](#Figure5). Find the acceleration of the 49.00-kg sled
 and child system. Note that the direction of the frictional force is
 unspecified; it will be in the opposite direction of the sum of
-
-\vb{F}_{1} $$ and $$ \vb{F}_{2} $$. $$
+$$ \vb{F}_{1} $$ and $$ \vb{F}_{2} $$.
 
 :::
 
@@ -972,10 +988,27 @@ __For Superhero:__
 - ↓ Weight $$ w_H = m_H g $$ (downward)
 - ↓ Tension $$ T_2 $$ (downward pull from Sidekick)
 
-__For the system (both together):__
+__For the upper rope segment (bar to Superhero):__
 
-- ↑ Tension $$ T_1 $$ from bar
+- ↑ Force from the bar, $$ T_1 $$
+- ↓ Force from Superhero's hands, $$ T_1 $$ (reaction to the rope's upward pull on him)
+- No weight, since the rope's mass is negligible
+
+__For the lower rope segment (Superhero to Sidekick):__
+
+- ↑ Force from Superhero (who holds its top end), $$ T_2 $$
+- ↓ Force from Sidekick's hands, $$ T_2 $$
+- No weight, since the rope's mass is negligible
+
+Because each massless segment has zero net force, the forces at its two ends are equal and opposite; that is why each segment transmits a single tension.
+
+__For the system (both together):__ (system of interest for part (b))
+
+- ↑ Tension $$ T_1 $$ from the rope above Superhero
 - ↓ Combined weight $$ (m_H + m_S)g $$
+- The lower rope segment is internal to this system, so $$ T_2 $$ does not appear.
+
+The Sidekick's diagram above is the system of interest for part (c).
 
 __(b) Tension above Superhero:__
 
@@ -1011,7 +1044,7 @@ This problem illustrates how tension varies along a hanging rope depending on ho
 
 **Answer**
 
-(a) Free-body diagrams show tension forces upward and weight forces downward for each person.
+(a) See the free-body diagrams above for Superhero, Sidekick, each massless rope segment, and the combined system.
 
 (b) The tension in the rope above Superhero is __1.42 × 10³ N__ (or __1420 N__), which supports both heroes.
 
@@ -1201,6 +1234,38 @@ children.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Take the toboggan plus the four children as the system and use axes parallel and perpendicular to the slope. The forces on the system are the pushes (assumed parallel to the slope), the weight, the normal force, and kinetic friction from the snow. The perpendicular forces balance; the net force along the slope gives the acceleration.
+
+**Sample Problem Construction**
+
+A 10.0-kg toboggan carries four children of 30.0 kg each up a snow-covered slope inclined at 10.0°. Two people each push on it with a force of 200 N parallel to the slope. The coefficient of kinetic friction between the toboggan and the snow is 0.100. What is the acceleration of the toboggan and its load?
+
+**Solution**
+
+Total mass: $$ m = 10.0 \kg + 4(30.0 \kg) = 130 \kg $$.
+
+Free-body diagram (system: toboggan plus children):
+- Total push: $$ F = 2(200 \N) = 400 \N $$, up the slope
+- Weight: $$ w = mg = 1274 \N $$, straight down; its component down the slope is $$ mg\sin 10.0° = 221.2 \N $$, and its component into the slope is $$ mg\cos 10.0° = 1254.6 \N $$
+- Normal force: $$ N = mg\cos 10.0° = 1254.6 \N $$, perpendicular to the slope
+- Kinetic friction: $$ f = \mu_k N = (0.100)(1254.6 \N) = 125.5 \N $$, down the slope (opposing the motion)
+
+Newton's second law along the slope (up the slope positive):
+
+<div class="equation">
+$$ a = \frac{F - mg\sin\theta - f}{m} = \frac{400 \N - 221.2 \N - 125.5 \N}{130 \kg} = \frac{53.3 \N}{130 \kg} = 0.410 \mss $$
+</div>
+
+**Discussion**
+
+The toboggan accelerates up the slope at 0.410 m/s². Most of the pushers' 400 N goes into overcoming gravity's component along the slope (221 N) and friction (126 N); only about 13% produces acceleration. If each person pushed with only 150 N, the 300-N total would be less than the 347 N of opposing forces, and the toboggan would not accelerate up the slope. A good construction should check that the chosen forces are large enough, and that they are realistic for people pushing while walking up a snowy slope.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1239,7 +1304,7 @@ $$ f_{total} = F - m_{total}a = 1900 - (1800)(1.20) = 1900 - 2160 = -260 \N $$
 
 __(b) What is unreasonable?__
 
-The total friction force is __negative (-260 N)__, which is physically impossible. Friction always opposes motion, so it must be positive (acting backward when the car moves forward).
+The total friction force comes out __negative (-260 N)__. In this model, $$ f $$ is the magnitude of the backward resisting force on the car and trailer (rolling resistance, air drag, and so on), with the 1900-N forward force supplied separately. A resisting force of that kind acts backward, so its magnitude cannot be negative.
 
 __(c) Which premise is unreasonable?__
 
@@ -1254,13 +1319,13 @@ An acceleration of 1.20 m/s² exceeds this maximum, which is impossible.
 
 **Discussion**
 
-Negative friction is physically impossible—friction always opposes relative motion between surfaces. This "unreasonable results" problem teaches us to check whether calculated values make physical sense. When we get a negative friction force, it signals that one of our premises is wrong. In this case, the acceleration is too high for the given driving force and mass. Real friction forces are always positive in magnitude and oppose motion, so they can only reduce acceleration, never increase it.
+This "unreasonable results" problem teaches us to check whether calculated values make physical sense. A negative value for the magnitude of the assumed backward resisting force signals that one of our premises is wrong. In this case, the acceleration is too high for the given driving force and mass. Note that this does not mean friction can never push forward: the static friction of the road on the drive tires is exactly what produces the 1900-N forward force. The contradiction is only with the model's assumption that the remaining resisting force acts backward.
 
 **Answer**
 
 (a) The calculated friction force is __−260 N__.
 
-(b) A negative friction force is unreasonable - friction cannot help accelerate the vehicle forward.
+(b) A negative magnitude for the backward resisting force is unreasonable: within this model, the resisting forces cannot add to the 1900-N forward force.
 
 (c) The premise that the acceleration is 1.20 m/s² is unreasonable because it exceeds the maximum possible acceleration (1.06 m/s²) that the 1900 N force could produce.
 

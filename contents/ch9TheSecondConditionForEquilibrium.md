@@ -541,6 +541,22 @@ to keep the door from moving? Assume friction is negligible.
 
 ::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
+**Strategy**
+
+Take the door as the system and the hinges as the pivot, so the hinge forces produce no torque. The two pushes are on opposite sides of the door, so they produce torques in opposite directions. Because both are perpendicular to the door, each lever arm is simply the distance from the hinges. The door stays at rest if the net torque is zero.
+
+**Solution**
+
+<div class="equation">
+$$ F_2 r_2 = F_1 r_1 \quad \Rightarrow \quad F_2 = \frac{F_1 r_1}{r_2} = \frac{(17.5 \N)(0.600 \m)}{0.450 \m} = 23.3 \N $$
+</div>
+
+**Discussion**
+
+The second child, pushing closer to the hinges, must push harder (by the ratio 0.600/0.450 = 1.33) to produce an equal and opposite torque. The forces themselves do not balance, so the hinges supply the difference, $$ 23.3 \N - 17.5 \N = 5.8 \N $$, to keep the door's net force zero.
+
+**Answer**
+
 23.3 N
 
 :::

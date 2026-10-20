@@ -358,7 +358,7 @@ $$ s = (\text{number of orbits}) \times C = (4 \times 10^9)(9.42 \times 10^{11}\
 
 **Discussion**
 
-Earth has traveled approximately $$ 4 \times 10^{21} $$ meters (4 billion trillion meters) since its birth 4 billion years ago. This staggering distance is about 400 trillion kilometers, or roughly 25 million light-years. Despite this enormous journey through space, Earth remains in a stable orbit due to the gravitational force of the Sun providing the necessary centripetal force.
+Earth has traveled approximately $$ 4 \times 10^{21} $$ meters (4 billion trillion meters) since its birth 4 billion years ago. This staggering distance is about $$ 4 \times 10^{18} $$ kilometers, or roughly $$ 4 \times 10^{5} $$ light-years (1 ly ≈ $$ 9.46 \times 10^{15} $$ m). Despite this enormous journey through space, Earth remains in a stable orbit due to the gravitational force of the Sun providing the necessary centripetal force.
 
 ::::
 
@@ -753,7 +753,7 @@ $$ \omega = \sqrt{0.0980\text{ rad}^2\text{/s}^2} = 0.313\text{ rad/s} $$
 
 **Discussion**
 
-The space station must rotate with an angular velocity of 0.313 rad/s to produce artificial gravity equal to Earth's gravity at the rim. This corresponds to about 3.0 revolutions per minute. At this rotation rate, astronauts standing on the outer wall would experience a centripetal acceleration pushing them toward the floor that would feel very similar to normal gravity, allowing them to maintain muscle and bone mass during extended space missions.
+The space station must rotate with an angular velocity of 0.313 rad/s to produce artificial gravity equal to Earth's gravity at the rim. This corresponds to about 3.0 revolutions per minute. At this rotation rate, astronauts standing on the outer wall would be pushed toward the center by the floor, which supplies the centripetal force for their circular motion. In the station's rotating frame this feels like an outward "gravity" pressing them against the floor, very similar to normal gravity, allowing them to maintain muscle and bone mass during extended space missions.
 
 ::::
 
@@ -906,7 +906,7 @@ The normal force is **5.00 times the rider's weight**.
 
 **Discussion**
 
-This answer is very reasonable. At the bottom of the arc, the rider experiences an apparent weight five times their normal weight—they feel pressed into the seat with a force of 2,940 N. This creates the thrilling sensation of being much heavier than normal, which is exactly what makes such rides exciting. The centripetal acceleration of 39.2 m/s² (about 4g) combined with Earth's gravity (1g) produces a total apparent acceleration of 5g toward the center of the circular path. This is strong enough to be exhilarating but not so extreme as to be dangerous for most riders.
+This answer is very reasonable. At the bottom of the arc, the rider experiences an apparent weight five times their normal weight—they feel pressed into the seat with a force of 2,940 N. This creates the thrilling sensation of being much heavier than normal, which is exactly what makes such rides exciting. The rider's actual acceleration is the centripetal acceleration, 39.2 m/s² (4g) toward the center. The seat must supply both that centripetal force and support against gravity, so the support force is $$ N = m(a_c + g) = 5mg $$; the "5g" describes this support force per unit mass (the apparent weight), not the acceleration. The model compares loads; it does not by itself establish whether a ride is safe, which depends on how long the load lasts, its direction relative to the body, and other factors.
 
 ::::
 
@@ -979,11 +979,17 @@ For the child to swing up to the top of a circular arc (height $$ h = 2r = 4.00 
 $$ PE = mgh = (18.0)(9.80)(4.00) = 706\text{ J} $$
 </div>
 
-Since the kinetic energy (729 J) exceeds the potential energy needed to reach the top (706 J), the child would actually have enough energy to go completely over the top of the swing, which would cause the swing to go slack and the child to be in free fall—a very dangerous situation!
+The kinetic energy (729 J) exceeds the potential energy needed to reach the top (706 J), but having enough energy to reach the height of the top is **not** enough to complete a circular loop. A swing's chains or ropes can only pull, so they stay taut only if the tension is non-negative. At the top that requires $$ mg \le mv_{\text{top}}^2/r $$, or $$ v_{\text{top}}^2 \ge gr $$. Combining this with energy conservation, $$ v_{\text{bottom}}^2 = v_{\text{top}}^2 + 4gr \ge 5gr $$:
+
+<div class="equation">
+$$ v_{\text{bottom, min}} = \sqrt{5gr} = \sqrt{5(9.80)(2.00)} = 9.90 \ms $$
+</div>
+
+Since 9.00 m/s is less than 9.90 m/s, the child cannot complete the loop. The suspension would go slack somewhere in the upper half of the circle, **before** the top, and the child would then move as a projectile until the ropes snapped taut again—a very dangerous situation.
 
 **Discussion**
 
-The fundamental problem is that the specified speed of 9.00 m/s is unrealistically high for a 2.00 m long swing. A typical playground swing might reach speeds of 3-4 m/s at most. The given speed would create forces and accelerations that are not only uncomfortable but also structurally unsafe, and would result in the physically impossible situation of the child looping completely over the top. This problem illustrates the importance of checking whether calculated results make physical sense in real-world contexts.
+The fundamental problem is that the specified speed of 9.00 m/s is unrealistically high for a 2.00 m long swing. A typical playground swing might reach speeds of 3-4 m/s at most. The given speed would create forces and accelerations that are not only uncomfortable but also structurally unsafe, and would carry the child above the level of the swing's pivot, where the ropes go slack. This problem illustrates the importance of checking whether calculated results make physical sense in real-world contexts.
 
 ::::
 

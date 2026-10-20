@@ -224,7 +224,7 @@ We apply the conditions for equilibrium. A system is in equilibrium when the net
 
 **Solution**
 
-**Constant rate (constant velocity):** Yes, the nail puller **is in equilibrium**. When moving at constant velocity, acceleration is zero. By Newton's first law, this means the net force is zero, and the net torque is also zero. All forces and torques are balanced.
+**Constant rate:** To a good approximation, yes, the nail puller **is in equilibrium**. Strictly, a rotating lever is not exactly in equilibrium even when the nail moves at constant speed: points on the rotating puller have centripetal acceleration, and because the lever geometry changes as it rotates, a constant nail speed does not mean a constant angular speed. However, the tool's mass and speed are small, so if we neglect its inertia and treat the motion as **quasistatic**, the net force and net torque on it are essentially zero, as in the elementary lever model.
 
 **With acceleration:** No, the nail puller **is not in equilibrium**. When accelerating, there must be a net force and/or net torque acting on the system.
 

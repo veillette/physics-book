@@ -660,7 +660,7 @@ Answer the following questions for projectile motion on level ground assuming ne
 
 (a) Is the velocity ever zero?
 
-(b) When is the velocity a minimum? A maximum?
+(b) When is the speed (the magnitude of the velocity) a minimum? A maximum?
 
 (c) Can the velocity ever be the same as the initial velocity at a time other
 than at $$ t=0 $$?
@@ -1394,10 +1394,10 @@ $$ h = \frac{v_{0y}^2}{2g} = \frac{(396 \ms)^2}{2(9.80 \mss)} = \frac{156816 \mm
 
 **(c) Earth's curvature effect:**
 
-For a sphere, the vertical drop from a horizontal line over distance $$ d $$ can be approximated using the Pythagorean theorem. If $$ R_E $$ is Earth's radius and $$ d $$ is the horizontal distance, the drop $$ h $$ is:
+For a sphere, the drop of the surface below the horizontal tangent line at the ship can be found with the Pythagorean theorem. If $$ R_E $$ is Earth's radius and $$ d $$ is the horizontal distance along the tangent line, a surface point a distance $$ d $$ from the vertical through the ship lies $$ h $$ below the tangent line, where:
 
 <div class="equation">
-$$ (R_E + h)^2 = R_E^2 + d^2 $$
+$$ (R_E - h)^2 + d^2 = R_E^2 $$
 </div>
 
 For small $$ h $$ compared to $$ R_E $$, this simplifies to:
@@ -1412,19 +1412,19 @@ Substituting values:
 $$ h = \frac{(32.0 \times 10^3 \m)^2}{2(6.37 \times 10^6 \m)} = \frac{1.024 \times 10^9 \m^2}{1.274 \times 10^7 \m} = 80.4 \m $$
 </div>
 
-Rounding to three significant figures: **h = 80.0 m**
+To three significant figures, **h = 80.4 m**. (The exact relation gives $$ h = R_E - \sqrt{R_E^2 - d^2} = 80.4 \m $$ as well; the approximation is excellent because $$ d \ll R_E $$.)
 
 Comparing to the maximum height of 8000 m:
 
 <div class="equation">
-$$ \frac{80.0 \m}{8000 \m} = 0.01 = 1\% $$
+$$ \frac{80.4 \m}{8000 \m} = 0.01 = 1\% $$
 </div>
 
 **Discussion**
 
 The shell reaches an impressive height of 8 km, which is above 60% of Earth's atmosphere (the troposphere extends to about 11 km). At this altitude, air resistance would actually be significantly less than at sea level, making our simplified calculation somewhat more reasonable than it might first appear.
 
-The Earth's curvature causes an 80 m drop over the 32 km range. This is only 1% of the maximum height, so the flat Earth approximation introduces minimal error for this problem. However, for intercontinental ballistic missiles traveling thousands of kilometers, Earth's curvature would be crucial.
+The Earth's curvature causes an 80.4 m drop over the 32 km range. This is only 1% of the maximum height, so the flat Earth approximation introduces minimal error for this problem. However, for intercontinental ballistic missiles traveling thousands of kilometers, Earth's curvature would be crucial.
 
 **Answer**
 
@@ -1432,7 +1432,7 @@ The Earth's curvature causes an 80 m drop over the 32 km range. This is only 1% 
 
 (b) The maximum height reached is **8.00 × 10³ m** or **8.00 km**.
 
-(c) The Earth's surface drops **80.0 m** over the 32 km distance. This is only 1% of the maximum height, so the flat Earth assumption does not introduce significant error for this problem.
+(c) The Earth's surface drops **80.4 m** over the 32 km distance. This is only 1% of the maximum height, so the flat Earth assumption does not introduce significant error for this problem.
 
 ::::
 
@@ -1814,7 +1814,7 @@ Since 5.3 m < 6.40 m, the ball lands **inside** the service box.
 
 **Discussion**
 
-The relatively small angle of 6.1° below horizontal is typical for tennis serves. The server wants to hit the ball hard (high speed) while still getting it over the net and into the service box. A steeper angle would make it easier to clear the net but harder to land in the box.
+The relatively small angle of 6.1° below horizontal is typical for tennis serves. The server wants to hit the ball hard (high speed) while still getting it over the net and into the service box. At fixed speed and release height, a steeper downward angle lowers the ball's height at the net and shortens the landing distance: clearing the net becomes harder, while overshooting the far service line becomes less likely. A shallower angle does the opposite.
 
 The ball lands 5.3 m from the net, well within the 6.40 m service line, with a margin of 1.1 m. This is a good serve.
 
@@ -2662,8 +2662,8 @@ The player needs to jump with an upward velocity of 3.83 m/s to rise 0.750 m. Th
 
 The player must start the jump about 2.0 m from the basket. This timing is crucial for a successful dunk:
 
-- Too close: The player reaches maximum height before getting to the rim
-- Too far: The player is descending when reaching the rim, making it harder to dunk
+- Too close: The player reaches the rim before reaching maximum height, while still rising and below the peak
+- Too far: The player reaches the rim after maximum height, while already descending, making it harder to dunk
 
 The calculation assumes the player maintains exactly 5.00 m/s horizontal velocity during the jump, which is reasonable for skilled athletes. The total jump time would be about 0.78 s (up and down), during which the player travels about 3.9 m horizontally.
 
@@ -2719,57 +2719,56 @@ $$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588} = 24.2 \ms $$
 
 **(b) Range with wind gust:**
 
-First, find the velocity components:
+First, find the velocity components, keeping extra digits to avoid rounding error:
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos(45°) = 24.2 \times 0.707 = 17.1 \ms $$
-</div>
-
-<div class="equation">
-$$ v_{0y} = v_0 \sin(45°) = 24.2 \times 0.707 = 17.1 \ms $$
+$$ v_{0x} = v_{0y} = v_0 \cos(45°) = (24.249 \ms)(0.70711) = 17.146 \ms $$
 </div>
 
 Time to reach maximum height:
 
 <div class="equation">
-$$ t_{up} = \frac{v_{0y}}{g} = \frac{17.1}{9.80} = 1.74 \s $$
+$$ t_{up} = \frac{v_{0y}}{g} = \frac{17.146}{9.80} = 1.7496 \s $$
 </div>
 
-Horizontal distance to maximum height:
+Horizontal distance to maximum height (half the no-wind range):
 
 <div class="equation">
-$$ x_1 = v_{0x} \times t_{up} = 17.1 \times 1.74 = 29.8 \m $$
+$$ x_1 = v_{0x} \times t_{up} = 17.146 \times 1.7496 = 30.0 \m $$
 </div>
 
 After the wind gust, horizontal velocity becomes:
 
 <div class="equation">
-$$ v_x' = 17.1 - 1.50 = 15.6 \ms $$
+$$ v_x' = 17.146 - 1.50 = 15.646 \ms $$
 </div>
 
 Time to fall from maximum height (by symmetry, same as time to rise):
 
 <div class="equation">
-$$ t_{down} = t_{up} = 1.74 \s $$
+$$ t_{down} = t_{up} = 1.7496 \s $$
 </div>
 
 Horizontal distance during descent:
 
 <div class="equation">
-$$ x_2 = v_x' \times t_{down} = 15.6 \times 1.74 = 27.1 \m $$
+$$ x_2 = v_x' \times t_{down} = 15.646 \times 1.7496 = 27.375 \m $$
 </div>
 
 Total horizontal distance:
 
 <div class="equation">
-$$ R_{total} = x_1 + x_2 = 29.8 + 27.1 = 56.9 \m \approx 57.4 \m $$
+$$ R_{total} = x_1 + x_2 = 30.000 + 27.375 = 57.4 \m $$
+</div>
+
+Equivalently, the gust shortens the range by $$ (1.50 \ms)\,t_{down} $$, so $$ R' = 60.0 \m - 1.50\sqrt{30.0/9.80} \m = 57.3755 \m \approx 57.4 \m $$.
 </div>
 
 **Discussion**
 
 The initial speed of 24.2 m/s (about 87 km/h or 54 mph) is reasonable for a punted football. The 45° angle gives maximum range when air resistance is neglected.
 
-The wind gust reduces the horizontal velocity from 17.1 m/s to 15.6 m/s (about a 9% reduction). This causes the ball to land about 2.6-3 m shorter than it would have without wind, reducing the range from 60.0 m to approximately 57 m.
+The wind gust reduces the horizontal velocity from 17.1 m/s to 15.6 m/s (about a 9% reduction). This causes the ball to land about 2.6 m shorter than it would have without wind, reducing the range from 60.0 m to 57.4 m.
 
 The effect is relatively modest because:
 
@@ -3100,9 +3099,9 @@ This problem demonstrates several key concepts:
 
 2. **Choosing vs. calculating**: We chose $$ v_0 = 15.0 \ms $$ and calculated angles. Alternatively, we could choose an angle and calculate the required speed. However, we cannot independently choose both—they're constrained by the trajectory equation.
 
-3. **Minimum speed**: There exists a minimum initial speed below which no angle works. This occurs when the discriminant equals zero: $$ v_0^{\text{min}} = \sqrt{\frac{gx_{f}^2}{2(x_f\sin(2\alpha) - \Delta y\cos^{2}\alpha)}} $$ where $$ \alpha = 45° $$ gives the minimum.
+3. **Minimum speed**: There exists a minimum initial speed below which no angle works; it occurs when the two angle solutions merge (the discriminant of the quadratic in $$ \tan\theta $$ equals zero). For horizontal distance $$ x $$ and height increase $$ \Delta y $$, the result is $$ v_0^{\text{min}} = \sqrt{g\left(\Delta y + \sqrt{x^2 + \Delta y^2}\right)} $$, at the angle $$ \tan\theta_{\text{opt}} = \frac{\Delta y + \sqrt{x^2 + \Delta y^2}}{x} $$. For $$ x = 20.0 \m $$ and $$ \Delta y = 1.0 \m $$, this gives $$ v_0^{\text{min}} = 14.35 \ms $$ at $$ \theta_{\text{opt}} = 46.43° $$. The optimum angle is 45° only when the target is at release height ($$ \Delta y = 0 $$); a target above the release point requires a slightly steeper launch.
 
-4. **Physical reasonableness**: Both angles are realistic for throwing. The steeper angle gives a higher, shorter trajectory; the shallower angle gives a longer, flatter trajectory.
+4. **Physical reasonableness**: Both angles are realistic for throwing. The steeper angle gives a higher arc that takes longer to reach the fence; the shallower angle gives a flatter trajectory with a shorter flight time to the same point.
 
 **Answer**
 

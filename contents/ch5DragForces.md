@@ -756,7 +756,7 @@ $$ v_t = \sqrt{\frac{6.57 \times 10^{-4} \N}{6.85 \times 10^{-6} \text{ kg/m}}} 
 
 **Discussion**
 
-Without air drag, the raindrop would hit the ground at an incredible $$ 313 \ms $$ (about 1130 km/h or 700 mph)—faster than the speed of sound! With air drag, the terminal velocity is only about $$ 9.8 \ms $$ (35 km/h), which is why rain doesn't hurt when it hits us. The raindrop reaches terminal velocity within the first few hundred meters of fall and maintains that speed for the remaining distance. This dramatic difference illustrates the crucial role air resistance plays in everyday phenomena.
+Without air drag, the raindrop would hit the ground at an incredible $$ 313 \ms $$ (about 1130 km/h or 700 mph)—comparable to the speed of sound in air (about 340 m/s at room temperature). With air drag, the terminal velocity is only about $$ 9.8 \ms $$ (35 km/h), which is why rain doesn't hurt when it hits us. The raindrop reaches terminal velocity within the first few hundred meters of fall and maintains that speed for the remaining distance. This dramatic difference illustrates the crucial role air resistance plays in everyday phenomena.
 
 ::::
 
@@ -874,7 +874,7 @@ One can measure the time it takes for a particle to fall a certain distance and
 then use Stokes' law to calculate the viscosity of the liquid. Suppose a
 steel ball bearing (density $$ 7.8\times 10^{3}\text{kg/m}^{3} $$, diameter
 $$ 3.0 \text{mm} $$) is dropped in a container of motor oil.
-It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
+It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil. (Neglect the buoyant force of the oil on the ball.)
 
 ::::
 
@@ -882,7 +882,7 @@ It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil.
 
 **Strategy**
 
-The ball bearing reaches terminal velocity quickly and falls at constant speed. We can determine this speed from the distance and time. At terminal velocity, Stokes' drag equals the ball's weight. The problem does not give the density of the oil, so we neglect buoyancy and then check how much it would change the result.
+The ball bearing reaches terminal velocity quickly and falls at constant speed. We can determine this speed from the distance and time. At terminal velocity, Stokes' drag equals the ball's weight. As the problem instructs, we neglect buoyancy (the density of the oil is not given), and then check how much it would change the result.
 
 **Solution**
 
@@ -919,7 +919,7 @@ which gives $$ \eta = (9.54 \times 10^{-4})/(1.41 \times 10^{-3}) = 0.68 \text{ 
 
 **Discussion**
 
-The viscosity of the motor oil is approximately $$ 0.76 \text{ kg/(m·s)} $$ or $$ 0.76 \text{ Pa·s} $$. This is a relatively high viscosity—about 760 times more viscous than water—which is expected for motor oil. This falling-ball method is a standard technique for measuring viscosity in the lab, known as a falling-ball viscometer. The slow, steady descent of the ball bearing through the oil confirms that the flow is laminar and Stokes' law applies.
+The viscosity of the motor oil is approximately $$ 0.76 \text{ kg/(m·s)} $$ or $$ 0.76 \text{ Pa·s} $$. This is a relatively high viscosity—about 760 times more viscous than water—which is expected for motor oil. This falling-ball method is a standard technique for measuring viscosity in the lab, known as a falling-ball viscometer. A slow, steady descent does not by itself confirm that Stokes' law applies; the test is a small Reynolds number, $$ \text{Re} = \rho d v/\eta $$, which depends on the fluid's density and viscosity and the ball's size as well as its speed. With the illustrative values $$ \rho \approx 900 \text{ kg/m}^3 $$, $$ d = 0.0030 \m $$, $$ v = 0.050 \ms $$, and $$ \eta \approx 0.68 \text{ Pa·s} $$, $$ \text{Re} \approx 0.20 $$, small enough that Stokes' law is a reasonable approximation.
 
 ::::
 

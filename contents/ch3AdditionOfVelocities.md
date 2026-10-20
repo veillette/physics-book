@@ -582,7 +582,7 @@ relative to the Earth. What was his average velocity relative to the air?
 
 **Strategy**
 
-For part (a), use velocity and time to find displacement. For part (b), add the headwind velocity (opposite direction) to the ground velocity to find air velocity. For part (c), use the air velocity and time to find displacement relative to air.
+For part (a), use velocity and time to find displacement. For part (b), subtract the air's velocity relative to the Earth from the plane's velocity relative to the Earth; because the wind points opposite to the motion, this adds the headwind's magnitude. For part (c), use the air velocity and time to find displacement relative to air.
 
 **Solution**
 
@@ -602,18 +602,16 @@ Direction: $$ 45° $$ south of east (same as velocity direction)
 
 **(b) Average velocity relative to the air:**
 
-The headwind is in the opposite direction to his motion. Using vector addition:
-
-The velocity relative to air equals velocity relative to ground plus velocity of wind relative to ground:
+The plane's velocity relative to the Earth is its velocity relative to the air plus the air's velocity relative to the Earth, $$ \vec{v}_{\text{plane/Earth}} = \vec{v}_{\text{plane/air}} + \vec{v}_{\text{air/Earth}} $$. Solving for the velocity relative to the air:
 
 <div class="equation">
-$$ \vec{v}_{air} = \vec{v}_{ground} + \vec{v}_{wind} $$
+$$ \vec{v}_{\text{plane/air}} = \vec{v}_{\text{plane/Earth}} - \vec{v}_{\text{air/Earth}} $$
 </div>
 
-Since the wind is directly opposite to his motion (headwind):
+Take the direction of motion (45° south of east) as positive. The headwind points the opposite way, so $$ v_{\text{air/Earth}} = -2.00 \ms $$:
 
 <div class="equation">
-$$ v_{air} = v_{ground} + v_{wind} = 3.53 \ms + 2.00 \ms = 5.53 \ms $$
+$$ v_{\text{plane/air}} = 3.53 \ms - (-2.00 \ms) = 3.53 \ms + 2.00 \ms = 5.53 \ms $$
 </div>
 
 Direction: $$ 45° $$ south of east (same direction as ground velocity)
@@ -906,10 +904,10 @@ The ball's velocity relative to the quarterback equals the ball's velocity relat
 
 **Step 1: Find ball's initial speed relative to ground**
 
-From a previous problem (Ch. 3, Projectile Motion #14), we found that for these conditions:
+The ball is caught at release height, so the range equation applies (this is the same situation as the quarterback problem in [Projectile Motion](./ch3ProjectileMotion)):
 
 <div class="equation">
-$$ v_{0,ground} = 16.3 \ms $$ at $$ 25.0° $$
+$$ v_{0,ground} = \sqrt{\frac{Rg}{\sin 2\theta_g}} = \sqrt{\frac{(18.0 \m)(9.80 \mss)}{\sin 50.0°}} = 15.17 \ms $$ at $$ 25.0° $$
 </div>
 
 **Step 2: Find velocity components relative to ground**
@@ -917,13 +915,13 @@ $$ v_{0,ground} = 16.3 \ms $$ at $$ 25.0° $$
 Horizontal component:
 
 <div class="equation">
-$$ v_{0x,g} = v_{0,ground} \cos(25°) = 16.3 \times 0.906 = 14.8 \ms $$
+$$ v_{0x,g} = v_{0,ground} \cos(25.0°) = 15.17 \times 0.9063 = 13.75 \ms $$
 </div>
 
 Vertical component:
 
 <div class="equation">
-$$ v_{0y,g} = v_{0,ground} \sin(25°) = 16.3 \times 0.423 = 6.89 \ms $$
+$$ v_{0y,g} = v_{0,ground} \sin(25.0°) = 15.17 \times 0.4226 = 6.413 \ms $$
 </div>
 
 **Step 3: Find velocity relative to quarterback**
@@ -939,13 +937,13 @@ $$ \vec{v}_{ball,QB} = \vec{v}_{ball,ground} - \vec{v}_{QB,ground} $$
 Horizontal component:
 
 <div class="equation">
-$$ v_{x,QB} = v_{0x,g} - v_{QB} = 14.8 - (-2.00) = 14.8 + 2.00 = 16.8 \ms $$
+$$ v_{x,QB} = v_{0x,g} - v_{QB} = 13.75 - (-2.00) = 13.75 + 2.00 = 15.75 \ms $$
 </div>
 
 Vertical component (unchanged):
 
 <div class="equation">
-$$ v_{y,QB} = v_{0y,g} = 6.89 \ms $$
+$$ v_{y,QB} = v_{0y,g} = 6.413 \ms $$
 </div>
 
 **Step 4: Find magnitude and direction**
@@ -953,34 +951,34 @@ $$ v_{y,QB} = v_{0y,g} = 6.89 \ms $$
 Magnitude:
 
 <div class="equation">
-$$ v_{0,QB} = \sqrt{v_{x,QB}^2 + v_{y,QB}^2} = \sqrt{(16.8)^2 + (6.89)^2} = \sqrt{282 + 47.5} = \sqrt{330} = 18.2 \ms $$
+$$ v_{0,QB} = \sqrt{v_{x,QB}^2 + v_{y,QB}^2} = \sqrt{(15.75)^2 + (6.413)^2} = \sqrt{248.2 + 41.1} = \sqrt{289.3} = 17.0 \ms $$
 </div>
 
 Direction:
 
 <div class="equation">
-$$ \theta_{QB} = \tan^{-1}\left(\frac{v_{y,QB}}{v_{x,QB}}\right) = \tan^{-1}\left(\frac{6.89}{16.8}\right) = \tan^{-1}(0.410) = 22.3° $$
+$$ \theta_{QB} = \tan^{-1}\left(\frac{v_{y,QB}}{v_{x,QB}}\right) = \tan^{-1}\left(\frac{6.413}{15.75}\right) = \tan^{-1}(0.4071) = 22.2° $$
 </div>
 
 **Discussion**
 
-The ball's velocity relative to the quarterback (18.2 m/s at 22.3°) is different from its velocity relative to the ground (16.3 m/s at 25.0°). This is because the quarterback is moving backward, which adds to the forward component of the ball's velocity from his perspective.
+The ball's velocity relative to the quarterback (17.0 m/s at 22.2°) is different from its velocity relative to the ground (15.2 m/s at 25.0°). This is because the quarterback is moving backward, which adds to the forward component of the ball's velocity from his perspective.
 
 From the quarterback's viewpoint:
 
-- He throws the ball at about 18.2 m/s
+- He throws the ball at about 17.0 m/s
 - At an angle of about 22° (shallower than the 25° ground angle)
 
 From a ground observer's viewpoint:
 
-- The ball moves at 16.3 m/s
+- The ball moves at 15.2 m/s
 - At 25° above horizontal
 
 The quarterback's backward motion reduces the ball's ground speed but increases its speed relative to him. The angle is also different because the reference frames are different.
 
 **Answer**
 
-The initial velocity of the ball relative to the quarterback is approximately **17.0 m/s** at **22.1°** above horizontal. (Note: Small differences from exact answer may be due to rounding in the intermediate calculations.)
+The initial velocity of the ball relative to the quarterback is **17.0 m/s** at **22.2°** above horizontal.
 
 ::::
 
@@ -1526,7 +1524,7 @@ Since both components are negative (southwest quadrant), the direction is 53.3°
 
 **Discussion**
 
-The wind velocity relative to the water is different from the wind velocity relative to Earth because the ocean current is also moving. The current is moving northeast (30° east of north), so from the water's reference frame, there's an additional apparent wind component from the northeast. This makes the wind relative to the water faster (6.68 m/s vs. 4.50 m/s relative to Earth) and at a slightly different angle. Sailors must account for this: the wind they feel on a moving boat is the wind relative to the water (and boat), not the wind relative to land.
+The wind velocity relative to the water is different from the wind velocity relative to Earth because the ocean current is also moving. The current is moving northeast (30° east of north), so from the water's reference frame, there's an additional apparent wind component from the northeast. This makes the wind relative to the water faster (6.68 m/s vs. 4.50 m/s relative to Earth) and at a slightly different angle. Sailors must account for this: the wind relative to the water, not the wind relative to land, is what a boat drifting with the current would feel. A sailboat that is also moving through the water feels a wind that differs again: the wind relative to the boat is the wind relative to the water minus the boat's velocity through the water.
 
 **Answer**
 
@@ -1805,7 +1803,7 @@ This angle is measured from the perpendicular to the shore (or 32° from the sho
 
 The current (0.8 m/s) is actually faster than the swimmer's speed relative to water (0.5 m/s), which explains why the swimmer is carried so far downstream (40 m while only crossing 25 m). To a friend on shore, the swimmer appears to move at 0.94 m/s at an angle of 58° from the perpendicular direction.
 
-If the swimmer wanted to reach the point directly across from the starting point, they would need to aim upstream at an angle to compensate for the current. However, in this problem, the swimmer simply swims perpendicular to the current (relative to the water) and accepts being carried downstream.
+This swimmer cannot reach the point directly across from the starting point. Aiming upstream at an angle would cancel the downstream drift only if the swimmer's speed through the water (0.5 m/s) exceeded the current's speed (0.8 m/s); since it does not, no heading eliminates the downstream component. Reaching the opposite point would require a faster swimmer or a slower current.
 
 **Answer**
 
@@ -2048,7 +2046,6 @@ This velocity is **extremely high**:
 
 - It's about 79 times the speed of sound (Mach 79)
 - It's about 95,700 km/h (59,500 mph)
-- It's 2.4% of the speed of light
 - It far exceeds the **escape velocity** from Earth (11.2 km/s)
 - No projectile could survive the atmospheric friction at this speed
 - The kinetic energy required would be enormous
@@ -2258,6 +2255,38 @@ the speed of the plane relative to the air mass. Also calculate the speed of the
 airplane relative to the ground. Discuss any last minute maneuvers the pilot
 might have to perform in order for the plane to land with its wheels pointing
 straight down the runway.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Use the relative-velocity relation $$ \vec{v}_{\text{plane/ground}} = \vec{v}_{\text{plane/air}} + \vec{v}_{\text{air/ground}} $$. Require the plane's ground velocity to point along the runway: the component of its air velocity perpendicular to the runway must cancel the crosswind.
+
+**Sample Problem Construction**
+
+A runway points due north. A steady wind blows from the west at 15.0 m/s (that is, toward the east). The plane approaches at an airspeed of 70.0 m/s. (a) In what direction must the pilot point the plane (relative to the air mass) so that its ground velocity is along the runway? (b) What is the plane's speed relative to the ground?
+
+**Solution**
+
+**(a)** To cancel the 15.0-m/s eastward wind, the plane must head partly west, at angle $$ \theta $$ west of north, with
+
+<div class="equation">
+$$ v_{\text{air}}\sin\theta = v_{\text{wind}} \quad \Rightarrow \quad \sin\theta = \frac{15.0 \ms}{70.0 \ms} = 0.214, \quad \theta = 12.4° \text{ west of north} $$
+</div>
+
+**(b)** The remaining (northward) component is the ground speed:
+
+<div class="equation">
+$$ v_{\text{ground}} = v_{\text{air}}\cos\theta = \sqrt{(70.0 \ms)^2 - (15.0 \ms)^2} = 68.4 \ms \text{ due north} $$
+</div>
+
+**Discussion**
+
+The plane flies "crabbed," with its nose pointed 12.4° into the wind while it moves straight along the runway. A pure crosswind always reduces the ground speed along the runway slightly, because part of the airspeed is used to cancel the wind. The construction requires the wind speed to be less than the airspeed; otherwise no heading can cancel the crosswind.
+
+Just before touchdown, the pilot must line the wheels up with the runway, because landing while crabbed would push the tires sideways. Common techniques are to "de-crab" by using the rudder to yaw the nose into line with the runway just before the wheels touch, or to fly a sideslip, lowering the upwind wing so that a sideways component of lift cancels the wind's push while the nose stays aligned with the runway.
 
 ::::
 

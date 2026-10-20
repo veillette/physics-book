@@ -290,7 +290,7 @@ W &=& 1838\J \approx 1.84\times 10^{3}\J
 
 **Discussion**
 
-The work done to climb stairs is 1840 J, which represents the gravitational potential energy gained by the person. This is about 600 times more energy than pushing a can across a checkout counter (Problem 1). The result is reasonable because lifting a 75-kg person (about 165 lbs) through a height of 2.50 m requires significant work against gravity. This amount of energy (approximately 0.44 kcal) is still quite small compared to daily food intake, but climbing stairs repeatedly would add up—climbing 10 flights of similar height would consume about 4.4 kcal. The work done increases linearly with both the mass of the person and the height climbed.
+The work done to climb stairs is 1840 J, which represents the gravitational potential energy gained by the person. This is about 600 times more energy than pushing a can across a checkout counter (Problem 1). The result is reasonable because lifting a 75-kg person (about 165 lbs) through a height of 2.50 m requires significant work against gravity. This amount of mechanical energy (approximately 0.44 kcal) is still quite small compared to daily food intake, but climbing stairs repeatedly would add up—climbing 10 flights of similar height requires about 4.4 kcal of mechanical work. The food energy actually consumed is several times larger, because the body converts food energy to mechanical work with an efficiency of only about 20-25%. The work done increases linearly with both the mass of the person and the height climbed.
 
 **Answer**
 
@@ -729,13 +729,13 @@ At constant speed, the net force along the slope is zero. The tension in the rop
 </div>
 
 <div class="equation">
- $$T = mg\sin{\theta} - f = (90.0\kg)(9.80\mss)\sin{60.0^\circ} - 44.1\N = 765\N - 44.1\N = 721\N$$
+ $$T = mg\sin{\theta} - f = (90.0\kg)(9.80\mss)\sin{60.0^\circ} - 44.1\N = 763.8\N - 44.1\N = 719.7\N$$
 </div>
 
 The tension acts up the slope and the displacement is down the slope ($$\theta = 180^\circ$$):
 
 <div class="equation">
- $$W_{T} = Td\cos{180^\circ} = -(721\N)(30.0\m) = -2.16 \times 10^{4}\J$$
+ $$W_{T} = Td\cos{180^\circ} = -(719.7\N)(30.0\m) = -2.159 \times 10^{4}\J \approx -2.16 \times 10^{4}\J$$
 </div>
 
 **Solution for (c)**
@@ -746,33 +746,33 @@ The gravitational force is$$W = mg = 882\N$$acting vertically downward. The disp
 $$\begin{array}{lll}
 W_{g} &=& (mg\sin{\theta})d\\
 W_{g} &=& (90.0\kg)(9.80\mss)(\sin{60.0^\circ})(30.0\m)\\
-W_{g} &=& (765\N)(30.0\m) = 2.30 \times 10^{4}\J
+W_{g} &=& (763.8\N)(30.0\m) = 2.292 \times 10^{4}\J \approx 2.29 \times 10^{4}\J
 \end{array}$$
 </div>
 
 **Solution for (d)**
 
-The total work is the sum of all work done:
+The total work is the sum of all work done. Use the unrounded values; the rounded three-figure values do not add exactly to zero:
 
 <div class="equation">
 $$\begin{array}{lll}
 W_{\text{total}} &=& W_{f} + W_{T} + W_{g}\\
-W_{\text{total}} &=& -1.32 \times 10^{3}\J - 2.16 \times 10^{4}\J + 2.30 \times 10^{4}\J\\
+W_{\text{total}} &=& -1323\J - 21592\J + 22915\J\\
 W_{\text{total}} &=& 0\J
 \end{array}$$
 </div>
 
 **Discussion**
 
-This problem demonstrates the interplay of multiple forces doing work on an object moving at constant speed. Gravity does positive work (23,000 J) because it has a component along the direction of motion down the slope. Both the rope tension and friction do negative work, removing energy from the system.
+This problem demonstrates the interplay of multiple forces doing work on an object moving at constant speed. Gravity does positive work (22,900 J) because it has a component along the direction of motion down the slope. Both the rope tension and friction do negative work, removing energy from the system.
 
 The rope does the most negative work (-21,600 J), which represents the energy absorbed by the ski patrol as they control the descent. This energy must be dissipated (often as heat in a braking mechanism) or stored (if using a winch system). Friction does a much smaller amount of negative work (-1,320 J), converting mechanical energy to thermal energy that slightly warms the sled runners and snow.
 
 The sum of all work equals zero, confirming the work-energy theorem: at constant speed, kinetic energy is constant, so net work must be zero. This is a controlled descent—without the rope tension, the sled would accelerate down the slope, gaining kinetic energy equal to the difference between gravitational work and friction work.
 
-Interestingly, the rope must do more work than gravity adds because friction also opposes motion. Of the 23,000 J that gravity contributes, 1,320 J is dissipated by friction, leaving 21,680 J that the rope must remove through tension. The small discrepancy (21,600 J vs 21,680 J) is due to rounding in the calculations.
+Because friction also removes energy, the rope removes **less** energy than gravity adds: $$ |W_T| = W_g - |W_f| $$. Of the 22,915 J that gravity contributes, 1,323 J is dissipated by friction, leaving 21,592 J that the rope must remove through tension.
 
-The relatively small friction force (44.1 N compared to 765 N down the slope) shows why steep, icy slopes are dangerous—friction provides minimal resistance, requiring large rope tensions for safe descent.
+The relatively small friction force (44.1 N compared to 764 N down the slope) shows why steep, icy slopes are dangerous—friction provides minimal resistance, requiring large rope tensions for safe descent.
 
 **Answer**
 
@@ -780,7 +780,7 @@ The relatively small friction force (44.1 N compared to 765 N down the slope) sh
 
 (b) The rope does **$$-2.16 \times 10^{4}$$J** (or **-21,600 J**) of work on the sled.
 
-(c) Gravity does **$$+2.30 \times 10^{4}$$J** (or **+23,000 J**) of work on the sled.
+(c) Gravity does **$$+2.29 \times 10^{4}$$J** (or **+22,900 J**) of work on the sled.
 
 (d) The total work done is **0 J**, consistent with the constant speed descent.
 

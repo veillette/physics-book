@@ -637,33 +637,33 @@ To find the north and east components of the displacement, we need to analyze th
 From Figure 18, the hikers' displacement has:
 
 - Magnitude: $$R = 5.00 \text{ km}$$
-- Direction: $$50.0^\circ$$ north of east
+- Direction: $$40.0^\circ$$ north of east
 
 1. **East component** (horizontal):
 <div class="equation">
-$$R_{\text{east}} = R \cos\theta = 5.00 \times \cos(50.0^\circ)$$
+$$R_{\text{east}} = R \cos\theta = 5.00 \times \cos(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{east}} = 5.00 \times 0.643 = 3.21 \text{ km}$$
+$$R_{\text{east}} = 5.00 \times 0.766 = 3.83 \text{ km}$$
 </div>
 
 2. **North component** (vertical):
 <div class="equation">
-$$R_{\text{north}} = R \sin\theta = 5.00 \times \sin(50.0^\circ)$$
+$$R_{\text{north}} = R \sin\theta = 5.00 \times \sin(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{north}} = 5.00 \times 0.766 = 3.83 \text{ km}$$
+$$R_{\text{north}} = 5.00 \times 0.643 = 3.21 \text{ km}$$
 </div>
 
 **Discussion**
 
-Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer:$$\sqrt{(3.21)^2 + (3.83)^2} = \sqrt{10.30 + 14.67} = \sqrt{24.97} \approx 5.00 \text{ km}$$✓. The north component (3.83 km) is larger than the east component (3.21 km) because the displacement is closer to north (50° from east means 40° from north).
+Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer:$$\sqrt{(3.83)^2 + (3.21)^2} = \sqrt{14.67 + 10.30} = \sqrt{24.97} \approx 5.00 \text{ km}$$✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
 
 **Answer**
 
-The north component of the displacement is 3.83 km, and the east component is 3.21 km.
+The north component of the displacement is 3.21 km, and the east component is 3.83 km.
 
 ::::
 
@@ -758,24 +758,24 @@ We need to add two displacement vectors using the head-to-tail method. Vector **
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component:$$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.940 = 11.3 \m$$
-- East component:$$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.342 = -4.10 \m$$(negative because west)
+- North component:$$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
+- East component:$$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$(negative because west)
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component:$$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.766 = 15.3 \m$$
-- South component:$$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.643 = 12.9 \m$$
-- North component:$$B_N = -12.9 \m$$(negative because south)
-- East component:$$B_E = -15.3 \m$$(negative because west)
+- West component:$$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
+- South component:$$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- North component:$$B_N = -12.86 \m$$(negative because south)
+- East component:$$B_E = -15.32 \m$$(negative because west)
 
 **Resultant components:**
 
 <div class="equation">
-$$R_N = A_N + B_N = 11.3 + (-12.9) = -1.6 \m$$
+$$R_N = A_N + B_N = 11.28 + (-12.86) = -1.58 \m$$
 </div>
 
 <div class="equation">
-$$R_E = A_E + B_E = -4.10 + (-15.3) = -19.4 \m$$
+$$R_E = A_E + B_E = -4.104 + (-15.32) = -19.43 \m$$
 </div>
 
 The negative north component means the resultant points south. The negative east component means it points west.
@@ -783,24 +783,24 @@ The negative north component means the resultant points south. The negative east
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.6)^2 + (-19.4)^2} = \sqrt{2.56 + 376.36} = \sqrt{378.92} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58)^2 + (-19.43)^2} = \sqrt{2.50 + 377.5} = \sqrt{380.0} = 19.5 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.6}{19.4}\right) = \tan^{-1}(0.0825) = 4.72^\circ \approx 4.7^\circ$$
+$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579}{19.425}\right) = \tan^{-1}(0.08131) = 4.65^\circ$$
 </div>
 
-Since both components are negative, the resultant points south of west. More specifically, it's 4.7° south of west (or equivalently, 85.3° west of south).
+Since both components are negative, the resultant points south of west. More specifically, it's 4.65° south of west (or equivalently, 85.35° west of south). Because $$ R_N $$ is the small difference of two nearly equal components, carry extra digits until the end: rounding the components to 11.3 m and 12.9 m first would give 4.7° instead.
 
 **Discussion**
 
-The resultant displacement of 19.5 m is close to but slightly less than the length of vector **B** (20.0 m) alone. This makes sense because vector **A** points mostly north (11.3 m north, 4.1 m west) while vector **B** points mostly west and south (15.3 m west, 12.9 m south). The northward component of **A** nearly cancels the southward component of **B**, leaving primarily the westward motion. The final direction, only 4.7° south of west, confirms that the resultant is almost due west.
+The resultant displacement of 19.5 m is close to but slightly less than the length of vector **B** (20.0 m) alone. This makes sense because vector **A** points mostly north (11.3 m north, 4.1 m west) while vector **B** points mostly west and south (15.3 m west, 12.9 m south). The northward component of **A** nearly cancels the southward component of **B**, leaving primarily the westward motion. The final direction, only 4.65° south of west, confirms that the resultant is almost due west.
 
 **Answer**
 
-The final position is 19.5 m from the starting point, in a direction 4.7° south of west.
+The final position is 19.5 m from the starting point, in a direction 4.65° south of west.
 
 ::::
 
@@ -829,47 +829,47 @@ Walking in reverse order: **B** first, then **A**
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component:$$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.766 = 15.3 \m$$
-- South component:$$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.643 = 12.9 \m$$
-- North component:$$B_N = -12.9 \m$$(negative because south)
-- East component:$$B_E = -15.3 \m$$(negative because west)
+- West component:$$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
+- South component:$$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- North component:$$B_N = -12.86 \m$$(negative because south)
+- East component:$$B_E = -15.32 \m$$(negative because west)
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component:$$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.940 = 11.3 \m$$
-- East component:$$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.342 = -4.10 \m$$(negative because west)
+- North component:$$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
+- East component:$$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$(negative because west)
 
 **Resultant components:**
 
 <div class="equation">
-$$R_N = B_N + A_N = -12.9 + 11.3 = -1.6 \m$$
+$$R_N = B_N + A_N = -12.86 + 11.28 = -1.58 \m$$
 </div>
 
 <div class="equation">
-$$R_E = B_E + A_E = -15.3 + (-4.10) = -19.4 \m$$
+$$R_E = B_E + A_E = -15.32 + (-4.104) = -19.43 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.6)^2 + (-19.4)^2} = \sqrt{2.56 + 376.36} = \sqrt{378.92} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58)^2 + (-19.43)^2} = \sqrt{2.50 + 377.5} = \sqrt{380.0} = 19.5 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.6}{19.4}\right) = 4.7^\circ \text{ south of west}$$
+$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579}{19.425}\right) = 4.65^\circ \text{ south of west}$$
 </div>
 
 **Discussion**
 
-As expected, we get exactly the same result: **19.5 m at 4.7° south of west**. This demonstrates the **commutative property of vector addition**: the order in which you add vectors doesn't matter. Mathematically, **A** + **B** = **B** + **A**.
+As expected, we get exactly the same result: **19.5 m at 4.65° south of west**. This demonstrates the **commutative property of vector addition**: the order in which you add vectors doesn't matter. Mathematically, **A** + **B** = **B** + **A**.
 
 Physically, this makes sense: whether you walk displacement **A** then **B**, or **B** then **A**, you end up at the same final position relative to your starting point. The path taken is different (you walk in different directions), but the final displacement vector is identical. This is a fundamental property of vector addition that distinguishes it from some other mathematical operations.
 
 **Answer**
 
-Walking in reverse order gives the same result: **19.5 m at 4.7° south of west**, confirming that **A** + **B** = **B** + **A**.
+Walking in reverse order gives the same result: **19.5 m at 4.65° south of west**, confirming that **A** + **B** = **B** + **A**.
 
 ::::
 
@@ -906,34 +906,34 @@ For **A** - **B**, the second leg is now 20.0 m at 40° **north** of east (oppos
 
 **Vector A components** (unchanged):
 
-- North:$$A_N = 11.3 \m$$
-- East:$$A_E = -4.10 \m$$
+- North:$$A_N = 11.28 \m$$
+- East:$$A_E = -4.104 \m$$
 
 **Vector -B components** (20.0 m, 40° north of east):
 
-- East component:$$(-B)_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.766 = 15.3 \m$$
-- North component:$$(-B)_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.643 = 12.9 \m$$
+- East component:$$(-B)_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
+- North component:$$(-B)_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
 
 **Resultant R' = A - B:**
 
 <div class="equation">
-$$R'_N = A_N + (-B)_N = 11.3 + 12.9 = 24.2 \m$$
+$$R'_N = A_N + (-B)_N = 11.28 + 12.86 = 24.13 \m$$
 </div>
 
 <div class="equation">
-$$R'_E = A_E + (-B)_E = -4.10 + 15.3 = 11.2 \m$$
+$$R'_E = A_E + (-B)_E = -4.104 + 15.32 = 11.22 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R' = \sqrt{(24.2)^2 + (11.2)^2} = \sqrt{585.64 + 125.44} = \sqrt{711.08} = 26.7 \m \approx 26.6 \m$$
+$$R' = \sqrt{(24.13)^2 + (11.22)^2} = \sqrt{582.3 + 125.9} = \sqrt{708.2} = 26.6 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{R'_N}{R'_E}\right) = \tan^{-1}\left(\frac{24.2}{11.2}\right) = \tan^{-1}(2.16) = 65.1^\circ$$
+$$\theta = \tan^{-1}\left(\frac{R'_N}{R'_E}\right) = \tan^{-1}\left(\frac{24.13}{11.22}\right) = \tan^{-1}(2.151) = 65.1^\circ$$
 </div>
 
 Since both components are positive, this is 65.1° north of east.
@@ -943,17 +943,17 @@ Since both components are positive, this is 65.1° north of east.
 This should equal -(**A** - **B**), so:
 
 <div class="equation">
-$$R''_N = -R'_N = -24.2 \m$$
+$$R''_N = -R'_N = -24.13 \m$$
 </div>
 
 <div class="equation">
-$$R''_E = -R'_E = -11.2 \m$$
+$$R''_E = -R'_E = -11.22 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R'' = \sqrt{(-24.2)^2 + (-11.2)^2} = 26.7 \m \approx 26.6 \m$$
+$$R'' = \sqrt{(-24.13)^2 + (-11.22)^2} = 26.6 \m$$
 </div>
 
 **Direction:**

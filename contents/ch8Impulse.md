@@ -351,7 +351,7 @@ The magnitude of the force is approximately $$ 2.7 \times 10^{3} \N $$ (about 60
 
 **Discussion**
 
-While 2700 N is a substantial force (roughly 4 times the passenger's weight), this is survivable because the seat belt distributes the force across the chest and pelvis. Without a seat belt, the passenger would continue at 10 m/s until hitting the dashboard or windshield, stopping in a much shorter time (perhaps 0.01 s), resulting in forces 26 times larger—likely fatal.
+2700 N is a substantial force (roughly 4 times the passenger's weight), and the seat belt spreads it across the chest and pelvis. Without a seat belt, the passenger would continue at 10 m/s until hitting the dashboard or windshield, stopping in a much shorter time (perhaps 0.01 s), so the average force would be about 26 times larger. This model compares average loads; it does not by itself establish whether either case is survivable. Real injury assessment considers which body region is loaded and several responses, including acceleration and deformation, not just one average force.
 
 :::
 
@@ -683,7 +683,7 @@ $$ F = \frac{(75.0 \kg)(20.0 \ms)}{1.50 \times 10^{-2} \s} = 1.00 \times 10^{5} 
 
 **Discussion**
 
-The airbag reduces the force by a factor of 15—exactly the ratio of the stopping distances! The padded dashboard force of 1.5 million N (about 2000 times body weight) would likely be fatal, while the airbag force of 100,000 N (about 135 times body weight), though still very large, is survivable because it's distributed across the body. This dramatically illustrates why airbags save lives: they increase the stopping distance and time, reducing the peak force.
+The airbag reduces the force by a factor of 15—exactly the ratio of the stopping distances! The modeled average force against the padded dashboard is 1.5 million N (about 2000 times body weight), compared with 100,000 N (about 135 times body weight) for the airbag, which also spreads the load over a larger area. These are comparisons of average loads in a simple model; they do not by themselves determine survival, which depends on the body region loaded and on several responses such as acceleration and deformation. The comparison does show why airbags help: they increase the stopping distance and time, reducing the force.
 
 (a) The force on the person from the padded dashboard is $$ 1.50 \times 10^{6} \N $$ (about 337,000 pounds).
 
@@ -774,7 +774,7 @@ $$ \frac{F_{\text{bullet}}}{F_{\text{plunger}}} = \frac{1200 \N}{360 \N} = 3.33 
 
 **Discussion**
 
-The recoil-reducing mechanism decreases the force felt by the shooter by a factor of more than 3. This is achieved by allowing the internal plunger to recoil over a larger distance (20 cm) compared to the short distance over which the bullet accelerates. The same momentum must be absorbed, but extending the distance (and time) reduces the force. This principle is used in many firearms to improve accuracy and reduce shooter fatigue.
+The recoil-reducing mechanism decreases the force felt by the shooter by a factor of more than 3. This is achieved because the plunger is stopped over a **longer time**: decelerating from 12.0 m/s at 360 m/s² takes 33.3 ms, compared with the 10 ms over which the bullet accelerates. (The 20-cm stroke is not longer than the bullet's acceleration distance; with constant acceleration, the bullet travels $$ \frac{1}{2}(600 \ms)(0.0100 \s) = 3.00 \m $$ in those 10 ms.) The same momentum must be absorbed, but extending the time reduces the average force. This principle is used in many firearms to improve accuracy and reduce shooter fatigue.
 
 (a) The recoil velocity of the plunger is $$ 12.0 \ms $$ in the direction opposite to the bullet.
 
@@ -793,7 +793,7 @@ The recoil-reducing mechanism decreases the force felt by the shooter by a facto
 A cruise ship with a mass of $$ 1.00\times 10^{7}\kg $$
 strikes a pier at a speed of 0.750 m/s. It comes to rest 6.00 m later, damaging
 the ship, the pier, and the tugboat captain's finances. Calculate the average
-force exerted on the pier using the concept of impulse. (Hint: First calculate
+force exerted on the pier using the concept of impulse, assuming the ship decelerates uniformly. (Hint: First calculate
 the time it took to bring the ship to rest.)
 
 :::
@@ -802,7 +802,7 @@ the time it took to bring the ship to rest.)
 
 **Strategy**
 
-First, we use kinematics to find the stopping time, then apply the impulse-momentum theorem. The average velocity during uniform deceleration is half the initial velocity.
+First, we use kinematics to find the stopping time, then apply the impulse-momentum theorem. The average velocity during uniform deceleration, as the problem specifies, is half the initial velocity. (Without that assumption, the distance and speeds alone would not determine a unique stopping time.)
 
 **Solution**
 
@@ -922,6 +922,7 @@ This force of 2100 N is substantial—equivalent to the weight of about 210 kg (
 
 A 0.450-kg hammer is moving horizontally at 7.00 m/s when it strikes
 a nail and comes to rest after driving the nail 1.00 cm into a board.
+Assume the hammer's acceleration is constant while it stops.
 (a) Calculate the duration of the impact.
 (b) What was the average force exerted on the nail?
 
@@ -931,7 +932,7 @@ a nail and comes to rest after driving the nail 1.00 cm into a board.
 
 **Strategy**
 
-For part (a), we use kinematics with the stopping distance to find the time. For part (b), we apply the impulse-momentum theorem.
+For part (a), we use kinematics with the stopping distance to find the time; the average velocity $$ (v_i + v_f)/2 $$ is valid because the problem specifies constant acceleration. (Without that assumption, the stopping distance and speeds would determine only a distance-averaged force through the work-energy theorem, not a unique duration.) For part (b), we apply the impulse-momentum theorem.
 
 **Solution**
 
@@ -961,7 +962,7 @@ $$ F_{\text{avg}} = \frac{|\Delta p|}{\Delta t} = \frac{3.15 \kg \cdot \ms}{2.86
 
 **Discussion**
 
-A force of 1100 N—over 2000 times the hammer's weight—is exerted on the nail during the brief 3-millisecond impact. This force is sufficient to drive the nail into wood. The short stopping distance (1 cm) is key to generating such a large force. If the hammer bounced or the stopping distance were larger, the force would be reduced. This is why hammers are made of hard materials—they don't compress on impact, maximizing the force transmitted to the nail.
+A force of 1100 N—about 249 times the hammer's weight, $$ 1100/(0.450 \times 9.80) $$—is exerted on the nail during the brief 3-millisecond impact. This force is sufficient to drive the nail into wood. The short stopping distance (1 cm) is key to generating such a large force; a larger stopping distance would reduce it. A rebound would not by itself reduce the force: for the same contact time, bouncing back increases the hammer's change in momentum and so increases the average force. Without a rebound speed and contact time, no general comparison can be made. This is why hammers are made of hard materials—they don't compress on impact, maximizing the force transmitted to the nail.
 
 (a) The duration of the impact is approximately $$ 2.86 \times 10^{-3} \s $$ (about 3 milliseconds).
 

@@ -327,7 +327,7 @@ The Crab Nebula pulsar’s present power is about $$ 1 \times 10^{-6} $$ of the 
 
 ::: problem
 
-Suppose a star 1000 times brighter than our Sun (that is, emitting 1000 times the power) suddenly goes supernova. Using data from [Table 1](##Table1):
+Suppose a star 1000 times brighter than our Sun (that is, emitting 1000 times the power) suddenly goes supernova. Using data from [Table 1](#Table1):
 (a) By what factor does its power output increase?
 (b) How many times brighter than our entire Milky Way galaxy is the supernova?
 (c) Based on your answers, discuss whether it should be possible to observe supernovas in distant galaxies. Note that there are on the order of $$ 10^{11} $$
@@ -835,7 +835,7 @@ a pocket calculator that consumes energy at the rate of $$ 1.00\times 10^{-3}\te
 
 **Strategy**
 
-For part (a), use $$ E = Pt $$ where the clock runs for 18 months. For part (b), use $$ t = E/P $$.
+For part (a), use $$ E = Pt $$ where the clock runs for 18 months, taking each month to be 30 days. (Using 1.5 average years of $$ 3.156 \times 10^{7} $$ s instead gives $$ 9.47 \times 10^{7} $$ J; either convention is fine if used consistently.) For part (b), use $$ t = E/P $$.
 
 **Solution**
 
@@ -848,7 +848,7 @@ $$ t = 18\text{ months} \times \frac{30\text{ days}}{1\text{ month}} \times \fra
 Energy content of the battery:
 
 <div class="equation">
-$$ E = Pt = (2.00\text{ W})(4.67 \times 10^{7}\s) = 9.34 \times 10^{7}\J \approx 9.46 \times 10^{7}\J $$
+$$ E = Pt = (2.00\text{ W})(4.67 \times 10^{7}\s) = 9.34 \times 10^{7}\J $$
 </div>
 
 **(b)** Calculate how long the calculator can run:
@@ -865,11 +865,11 @@ $$ t = \frac{8.00 \times 10^{7}\s}{3.156 \times 10^{7}\text{ s/year}} = 2.54\tex
 
 **Discussion**
 
-Part (a): The battery contains approximately $$ 9.34 \times 10^{7} $$ J (about 26 kW·h) of energy. This is a substantial amount of energy—roughly equivalent to the energy in about 0.75 liters (0.2 gallons) of gasoline. The large energy storage capacity in a relatively small battery that can power a 2-W clock for 18 months demonstrates the energy density of modern batteries. This calculation shows why batteries are practical for low-power devices but become large and heavy for high-power applications like electric vehicles.
+Part (a): The battery contains approximately $$ 9.34 \times 10^{7} $$ J (about 26 kW·h) of energy. This is a substantial amount of energy—roughly equivalent to the energy in about 0.78 gallons (about 3 liters) of gasoline, using $$ 1.2 \times 10^{8} $$ J/gal. A battery storing 26 kW·h is far from a small clock battery; it is comparable to the battery pack of a small electric car. Real clocks use far less than 2.00 W, which is why their small batteries last so long. This calculation shows why batteries are practical for low-power devices but become large and heavy for high-power applications like electric vehicles.
 
 Part (b): The calculator can run for $$ 8.00 \times 10^{7} $$ s, which is approximately 2.54 years of continuous operation. This extraordinarily long runtime is possible because pocket calculators consume power at an extremely low rate—only 1.00 mW (0.001 W). Modern calculator chips use CMOS technology specifically designed for minimal power consumption. In practice, calculators often last even longer than this calculation suggests because they spend much of their time in sleep mode, consuming even less power. Additionally, many calculators use solar cells that recharge the battery during use.
 
-The stark contrast between the clock battery (2 W for 18 months) and the calculator battery (0.001 W for 2.5 years) illustrates how power consumption, not just energy storage, determines battery life. The calculator's battery stores about 85% of the energy of the clock battery but lasts about 1.7 times longer because it consumes 2000 times less power.
+The stark contrast between the clock battery (2 W for 18 months) and the calculator battery (0.001 W for 2.5 years) illustrates how power consumption, not just energy storage, determines battery life. The calculator's battery stores only about 0.0857% of the energy of the clock battery, yet it lasts about 1.7 times longer because the calculator consumes 2000 times less power.
 
 **Answer**
 

@@ -1274,34 +1274,36 @@ Add all seven displacement vectors using components. Sum east-west and north-sou
 
 **Breaking down each displacement:**
 
-1. 2.50 km, 45° N of W: $$ E_1 = -2.50\cos(45°) = -1.77 $$, $$ N_1 = 2.50\sin(45°) = 1.77 $$
-2. 4.70 km, 60° S of E: $$ E_2 = 4.70\cos(60°) = 2.35 $$, $$ N_2 = -4.70\sin(60°) = -4.07 $$
-3. 1.30 km, 25° S of W: $$ E_3 = -1.30\cos(25°) = -1.18 $$, $$ N_3 = -1.30\sin(25°) = -0.549 $$
-4. 5.10 km, E: $$ E_4 = 5.10 $$, $$ N_4 = 0 $$
-5. 1.70 km, 5° E of N: $$ E_5 = 1.70\sin(5°) = 0.148 $$, $$ N_5 = 1.70\cos(5°) = 1.69 $$
-6. 7.20 km, 55° S of W: $$ E_6 = -7.20\cos(55°) = -4.13 $$, $$ N_6 = -7.20\sin(55°) = -5.90 $$
-7. 2.80 km, 10° N of E: $$ E_7 = 2.80\cos(10°) = 2.76 $$, $$ N_7 = 2.80\sin(10°) = 0.486 $$
+Keep four digits in each component so that rounding errors do not accumulate over seven terms (all in km):
+
+1. 2.50 km, 45° N of W: $$ E_1 = -2.50\cos(45°) = -1.768 $$, $$ N_1 = 2.50\sin(45°) = 1.768 $$
+2. 4.70 km, 60° S of E: $$ E_2 = 4.70\cos(60°) = 2.350 $$, $$ N_2 = -4.70\sin(60°) = -4.070 $$
+3. 1.30 km, 25° S of W: $$ E_3 = -1.30\cos(25°) = -1.178 $$, $$ N_3 = -1.30\sin(25°) = -0.5494 $$
+4. 5.10 km, E: $$ E_4 = 5.100 $$, $$ N_4 = 0 $$
+5. 1.70 km, 5° E of N: $$ E_5 = 1.70\sin(5°) = 0.1482 $$, $$ N_5 = 1.70\cos(5°) = 1.694 $$
+6. 7.20 km, 55° S of W: $$ E_6 = -7.20\cos(55°) = -4.130 $$, $$ N_6 = -7.20\sin(55°) = -5.898 $$
+7. 2.80 km, 10° N of E: $$ E_7 = 2.80\cos(10°) = 2.757 $$, $$ N_7 = 2.80\sin(10°) = 0.4862 $$
 
 **Sum of components:**
 
 <div class="equation">
-$$ R_E = -1.77 + 2.35 - 1.18 + 5.10 + 0.148 - 4.13 + 2.76 = 3.30 \text{ km} $$
+$$ R_E = -1.768 + 2.350 - 1.178 + 5.100 + 0.1482 - 4.130 + 2.757 = 3.280 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ R_N = 1.77 - 4.07 - 0.549 + 0 + 1.69 - 5.90 + 0.486 = -6.57 \text{ km} $$
+$$ R_N = 1.768 - 4.070 - 0.5494 + 0 + 1.694 - 5.898 + 0.4862 = -6.570 \text{ km} $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{(3.30)^2 + (-6.57)^2} = \sqrt{10.9 + 43.2} = \sqrt{54.1} = 7.36 \text{ km} \approx 7.34 \text{ km} $$
+$$ R = \sqrt{(3.280)^2 + (-6.570)^2} = \sqrt{10.76 + 43.16} = \sqrt{53.92} = 7.343 \text{ km} \approx 7.34 \text{ km} $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{6.57}{3.30}\right) = \tan^{-1}(1.99) = 63.3° \approx 63.5° $$
+$$ \theta = \tan^{-1}\left(\frac{6.570}{3.280}\right) = \tan^{-1}(2.003) = 63.47° \approx 63.5° $$
 </div>
 
 Since east is positive and north is negative, the direction is 63.5° south of east.

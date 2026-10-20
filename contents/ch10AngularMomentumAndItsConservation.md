@@ -689,13 +689,13 @@ For part (a), we treat Earth as a point mass orbiting the Sun and use L = mvr, w
 First, find Earth's orbital velocity:
 
 <div class="equation">
-$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 \s} = 2.98 \times 10^4 \text{ m/s} $$
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.50 \times 10^{11} \m)}{3.156 \times 10^7 \s} = 2.9863 \times 10^4 \text{ m/s} $$
 </div>
 
 The orbital angular momentum (treating Earth as a point mass):
 
 <div class="equation">
-$$ L_{\text{orbit}} = Mvr = (5.97 \times 10^{24} \kg)(2.98 \times 10^4 \text{ m/s})(1.50 \times 10^{11} \m) = 2.66 \times 10^{40} \kg \cdot \mms $$
+$$ L_{\text{orbit}} = Mvr = (5.97 \times 10^{24} \kg)(2.9863 \times 10^4 \text{ m/s})(1.50 \times 10^{11} \m) = 2.67 \times 10^{40} \kg \cdot \mms $$
 </div>
 
 **(b)** From the example earlier in this section, Earth's rotational angular momentum is:
@@ -707,20 +707,20 @@ $$ L_{\text{spin}} = 7.07 \times 10^{33} \kg \cdot \mms $$
 The ratio is:
 
 <div class="equation">
-$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.66 \times 10^{40}}{7.07 \times 10^{33}} = 3.77 \times 10^6 $$
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.674 \times 10^{40}}{7.07 \times 10^{33}} = 3.78 \times 10^6 $$
 </div>
 
-Earth's orbital angular momentum is about 3.77 million times larger than its rotational angular momentum.
+The magnitude of Earth's orbital angular momentum is about 3.78 million times that of its rotational angular momentum. (We compare magnitudes, since the two angular momenta point along different axes: Earth's spin axis is tilted about 23° from its orbital axis.)
 
 **Discussion**
 
-The enormous difference between orbital and rotational angular momentum reflects both Earth's large orbital radius (150 million km) compared to its own radius (6,376 km) and its slower rotation (once per day) compared to orbital motion (once per year). This huge orbital angular momentum is extremely well conserved—it would take an enormous external torque to change Earth's orbit significantly.
+The enormous difference arises from Earth's large orbital radius (150 million km) compared to its own radius (6,376 km). Earth's daily rotation actually has the **larger** angular speed (once per day versus once per year, about 365 times faster), but the much larger orbital lever arm dominates the comparison. This huge orbital angular momentum is extremely well conserved—it would take an enormous external torque to change Earth's orbit significantly.
 
 **Answer**
 
-(a) Earth's orbital angular momentum is **2.66 × 10⁴⁰ kg·m²/s**.
+(a) Earth's orbital angular momentum is **2.67 × 10⁴⁰ kg·m²/s**.
 
-(b) This is about **3.77 million times larger** than Earth's rotational angular momentum, demonstrating that orbital motion dominates over spin for planetary bodies.
+(b) This is about **3.78 million times larger** in magnitude than Earth's rotational angular momentum, demonstrating that orbital motion dominates over spin for planetary bodies.
 
 :::
 
@@ -1078,6 +1078,55 @@ Construct Your Own Problem
 ::: problem
 
 Consider the Earth-Moon system. Construct a problem in which you calculate the total angular momentum of the system including the spins of the Earth and the Moon on their axes and the orbital angular momentum of the Earth-Moon system in its nearly monthly rotation. Calculate what happens to the Moon’s orbital radius if the Earth’s rotation decreases due to tidal drag. Among the things to be considered are the amount by which the Earth’s rotation slows and the fact that the Moon will continue to have one side always facing the Earth.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Treat the Earth–Moon system as isolated, so its total angular momentum is conserved. It has three parts: Earth's spin, $$ I_E\omega_E $$; the Moon's spin, $$ I_M\omega_{\text{orb}} $$ (the Moon keeps one side facing Earth, so it spins once per orbit); and the orbital angular momentum, approximately $$ M_M r^2\omega_{\text{orb}} $$ (treating Earth as fixed). Tidal drag transfers angular momentum from Earth's spin to the Moon's orbit. For a circular orbit, $$ v = \sqrt{GM_E/r} $$, so $$ L_{\text{orb}} = M_M\sqrt{GM_E r} \propto \sqrt{r} $$, and a small change satisfies $$ \Delta L_{\text{orb}}/L_{\text{orb}} = \Delta r/(2r) $$.
+
+**Sample Problem Construction**
+
+Use $$ M_E = 5.97 \times 10^{24} \kg $$, $$ R_E = 6.37 \times 10^{6} \m $$, $$ M_M = 7.35 \times 10^{22} \kg $$, $$ R_M = 1.74 \times 10^{6} \m $$, an orbital radius of $$ 3.84 \times 10^{8} \m $$, an orbital period of 27.3 days, and Earth's rotation period of 86 164 s (one sidereal day). Treat both bodies as uniform spheres. (a) Calculate the total angular momentum of the system. (b) Tidal drag lengthens Earth's day by about 1.7 ms per century. How much does the Moon's orbital radius increase per century?
+
+**Solution**
+
+**(a)** Earth's spin:
+<div class="equation">
+$$ I_E = \frac{2}{5}M_E R_E^2 = 9.69 \times 10^{37} \kg \cdot \mm, \quad \omega_E = \frac{2\pi}{86\,164 \s} = 7.29 \times 10^{-5} \text{ rad/s}, \quad L_E = 7.07 \times 10^{33} \kg \cdot \mms $$
+</div>
+
+Moon's orbit and spin, with $$ \omega_{\text{orb}} = 2\pi/(27.3 \times 86\,400 \s) = 2.66 \times 10^{-6} $$ rad/s:
+<div class="equation">
+$$ L_{\text{orb}} = M_M r^2\omega_{\text{orb}} = (7.35 \times 10^{22})(3.84 \times 10^{8})^2(2.66 \times 10^{-6}) = 2.89 \times 10^{34} \kg \cdot \mms $$
+</div>
+
+<div class="equation">
+$$ L_{M,\text{spin}} = \frac{2}{5}M_M R_M^2\,\omega_{\text{orb}} = (8.90 \times 10^{34})(2.66 \times 10^{-6}) = 2.37 \times 10^{29} \kg \cdot \mms $$
+</div>
+
+Total (all three point in nearly the same direction):
+<div class="equation">
+$$ L_{\text{total}} \approx 7.07 \times 10^{33} + 2.89 \times 10^{34} + 2.4 \times 10^{29} = 3.59 \times 10^{34} \kg \cdot \mms $$
+</div>
+
+**(b)** A 1.7-ms increase in Earth's 86 164-s rotation period decreases its angular velocity by $$ \Delta\omega_E = \omega_E\,\Delta T/T = (7.29 \times 10^{-5})(1.7 \times 10^{-3})/86\,164 = 1.44 \times 10^{-12} $$ rad/s, so Earth loses
+
+<div class="equation">
+$$ \Delta L_E = I_E\,\Delta\omega_E = (9.69 \times 10^{37})(1.44 \times 10^{-12}) = 1.39 \times 10^{26} \kg \cdot \mms $$
+</div>
+
+per century. The Moon's spin angular momentum is so small that its change can be neglected, so the orbit gains this amount:
+
+<div class="equation">
+$$ \Delta r = 2r\frac{\Delta L_{\text{orb}}}{L_{\text{orb}}} = 2(3.84 \times 10^{8} \m)\frac{1.39 \times 10^{26}}{2.89 \times 10^{34}} = 3.7 \m \text{ per century} $$
+</div>
+
+**Discussion**
+
+The orbit holds about 80% of the system's angular momentum. Because Earth's spin slows, the Moon recedes by about 3.7 cm per year, close to the roughly 3.8 cm per year measured by laser ranging to reflectors left on the Moon. As the Moon moves outward, its orbital period lengthens, and because it stays tidally locked, its spin slows with it. The kinetic energy of the system decreases even though angular momentum is conserved; the difference is dissipated as heat by the tides.
 
 :::
 

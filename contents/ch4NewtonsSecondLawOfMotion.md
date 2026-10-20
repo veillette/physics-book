@@ -745,15 +745,22 @@ By Newton's third law, when the device exerts a 50.0 N force on the astronaut, t
 
 If the measurement is made relative to the vehicle, the measured acceleration would appear larger than the true acceleration relative to an inertial reference frame, leading to an underestimate of the astronaut's mass.
 
-**Proposed method to avoid recoil:** Anchor the force-exerting device to a very massive part of the spacecraft, or use a spring-loaded chair system where the astronaut oscillates on a spring (Body Mass Measurement Device). The oscillation period depends on mass but doesn't require the vehicle to absorb any net force.
+Simply anchoring the device to a massive part of the same spacecraft does not remove the reaction force: the whole spacecraft still recoils, only with a smaller acceleration.
+
+**Proposed methods to avoid recoil:**
+
+- Use a device that pushes simultaneously and with equal force on two opposed loads (for example, the astronaut on one side and a reference mass on the other), so that the forces on the spacecraft cancel.
+- Alternatively, measure the spacecraft's own acceleration with an accelerometer and use the astronaut's acceleration relative to an inertial frame, correcting for the recoil.
 
 **Discussion**
 
-The actual Space Shuttle and ISS use a device where astronauts sit in a chair attached to springs. The period of oscillation is measured and used to calculate mass, avoiding the recoil problem entirely.
+Space agencies use a related technique: the astronaut sits in a chair attached to springs and the period of oscillation is measured. This does not eliminate recoil. At every instant the spring pushes on the spacecraft as well, so the spacecraft oscillates slightly in the opposite direction. For an isolated two-body system of astronaut mass $$ m $$ and spacecraft mass $$ M $$, the angular frequency is $$ \omega^2 = k\left(\frac{1}{m} + \frac{1}{M}\right) $$ rather than $$ k/m $$. Because $$ M \gg m $$, the correction is small but not zero, and it can be calibrated.
+
+**Answer**
 
 (a) The astronaut's mass is $$ 56.0 \kg $$.
 
-(b) Vehicle recoil would cause errors in the acceleration measurement. Using an oscillating spring system avoids this problem.
+(b) Vehicle recoil makes the acceleration measured relative to the vehicle larger than the inertial acceleration, so the mass would be underestimated. Recoil can be avoided by applying equal, opposite forces simultaneously to two loads, or corrected by measuring the vehicle's acceleration.
 
 :::
 
@@ -1401,12 +1408,15 @@ Compare thrust to weight:
 
 Since the thrust (30,000 N) is less than the weight (98,000 N), the module **cannot lift off from Earth**.
 
-Net force would be:
+Without the ground, the sum of thrust and weight would be:
 <div class="equation">
-$$ F_{\text{net}} = T - w_{\text{Earth}} = 30{,}000 \N - 98{,}000 \N = -68{,}000 \N $$
+$$ T - w_{\text{Earth}} = 30{,}000 \N - 98{,}000 \N = -68{,}000 \N $$
 </div>
 
-The negative net force means the module would remain on the ground.
+This unsupported force sum is negative, so thrust alone cannot lift the module. While it sits on the ground, however, the ground also pushes up on it with a normal force $$ N $$. Because the module remains at rest, the net force is zero:
+<div class="equation">
+$$ F_{\text{net}} = T + N - w_{\text{Earth}} = 0 \quad \Rightarrow \quad N = 98{,}000 \N - 30{,}000 \N = 68{,}000 \N \text{ (upward)} $$
+</div>
 
 **Discussion**
 

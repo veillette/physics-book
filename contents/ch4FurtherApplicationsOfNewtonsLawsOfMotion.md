@@ -656,7 +656,7 @@ The total force on the Achilles tendon is $$ 376 \N $$ directed straight upward,
 ::: problem
 
 A 76.0-kg person is being pulled away from a burning building as shown in the [Figure below](#Figure6). Calculate the 
-tension in the two ropes if the person is momentarily motionless. Include a free-body diagram in your solution.
+tension in the two ropes if the person is held stationary (in equilibrium). Include a free-body diagram in your solution.
 
 :::
 
@@ -664,7 +664,7 @@ tension in the two ropes if the person is momentarily motionless. Include a free
 
 **Strategy**
 
-The person is motionless (in equilibrium), so the net force must be zero. Resolve tension forces into components and apply equilibrium conditions for both x and y directions.
+The person is held stationary, so the acceleration is zero and the net force must be zero. (Being only momentarily at rest would not be enough: zero velocity at an instant does not imply zero acceleration.) Resolve tension forces into components and apply equilibrium conditions for both x and y directions.
 
 **Solution**
 
@@ -769,19 +769,19 @@ First calculate the acceleration (deceleration) using kinematics, then apply New
 
 2. Calculate the acceleration:
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{7.50 \ms - 12.0 \ms}{2.30 \s} = \frac{-4.50 \ms}{2.30 \s} = -1.96 \mss $$
+$$ a = \frac{v - v_0}{t} = \frac{7.50 \ms - 12.0 \ms}{2.30 \s} = \frac{-4.50 \ms}{2.30 \s} = -1.9565 \mss $$
 </div>
 
 3. Apply Newton's second law:
 <div class="equation">
-$$ F = ma = (35.0 \kg)(-1.96 \mss) = -68.6 \N $$
+$$ F = ma = (35.0 \kg)(-1.9565 \mss) = -68.5 \N $$
 </div>
 
 **Discussion**
 
-The negative sign indicates the force is opposite to the direction of motion (i.e., a drag force slowing the dolphin). The magnitude of 68.6 N is reasonable for water resistance on a dolphin at these speeds.
+The negative sign indicates the force is opposite to the direction of motion (i.e., a drag force slowing the dolphin). Keeping the unrounded acceleration matters here: rounding it to 1.96 m/s² first would give 68.6 N. The magnitude of 68.5 N is reasonable for water resistance on a dolphin at these speeds.
 
-The average force exerted to slow the dolphin is $$ 68.6 \N $$ in the direction opposite to motion.
+The average force exerted to slow the dolphin is $$ 68.5 \N $$ in the direction opposite to motion.
 
 :::
 
@@ -1003,7 +1003,7 @@ By Newton's third law, the player exerts 4.31 × 10³ N downward on the floor.
 
 **Discussion**
 
-The player must exert a force 4 times his weight (4312 N versus 1078 N) to achieve the upward acceleration needed for a 0.9 m jump. This represents an acceleration of 3g (29.4 m/s² ÷ 9.8 m/s² = 3). Elite basketball players can generate even greater forces for higher jumps. The force decreases to just the player's weight once he leaves the floor.
+The player must exert a force 4 times his weight (4312 N versus 1078 N) to achieve the upward acceleration needed for a 0.9 m jump. This represents an acceleration of 3g (29.4 m/s² ÷ 9.8 m/s² = 3). Elite basketball players can generate even greater forces for higher jumps. Once he leaves the floor, the floor's contact force on him drops to zero; only his weight acts, so his acceleration is $$ g $$ downward.
 
 **Answer**
 

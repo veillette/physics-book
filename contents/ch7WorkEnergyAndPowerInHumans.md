@@ -268,7 +268,7 @@ Number of flights:
 **Discussion**
 
 (a) You can rapidly climb stairs for approximately 9.5 minutes on the energy in a pat of butter.
-(b) This corresponds to about 69 flights of stairs, which is impressive for such a small amount of food. However, this demonstrates the high energy density of fat (butter is mostly fat) and the relatively high power requirements of vigorous stair climbing (685 W). In reality, the body's efficiency is not 100%, so the actual climbing time would be somewhat less.
+(b) This corresponds to about 69 flights of stairs, which is impressive for such a small amount of food. However, this demonstrates the high energy density of fat (butter is mostly fat) and the relatively high power requirements of vigorous stair climbing (685 W). No separate efficiency correction is needed: the 685 W in Table 2 is already the rate of food-energy (metabolic) consumption during stair climbing, so the body's mechanical inefficiency is built into that figure.
 
 :::
 
@@ -809,7 +809,7 @@ The ratio is:
 
 ::: problem
 
-(a) Calculate the energy in kJ used by a 55.0-kg woman who does 50 deep knee bends in which her center of mass is lowered and raised 0.400 m. (She does work in both directions.) You may assume her efficiency is 20%.
+(a) Calculate the energy in kJ used by a 55.0-kg woman who does 50 deep knee bends in which her center of mass is lowered and raised 0.400 m. (She does work in both directions. Model this by assuming that lowering her center of mass costs the same metabolic energy as raising it, so that each knee bend requires mechanical work of magnitude $$ 2mgh $$, and that her efficiency is 20% for both.)
 (b) What is the average power consumption rate in watts if she does this in 3.00 min?
 
 :::
@@ -818,28 +818,28 @@ The ratio is:
 
 **Strategy**
 
-During each knee bend, the woman does work against gravity when raising her center of mass. Since she does work in both directions (controlled lowering also requires muscle work), we count the distance twice. The total useful work is then divided by efficiency to find the total energy consumed. Power is energy divided by time.
+During each knee bend, the woman does positive work $$ mgh $$ raising her center of mass and negative work $$ -mgh $$ during the controlled lowering, so her net change in mechanical energy over a full cycle is zero. The problem's model assigns the same metabolic cost to each magnitude of work, so we count $$ 2mgh $$ per bend and divide by the 20% efficiency. Power is energy divided by time.
 
 **Solution**
 
 Part (a):
 
-Useful work per knee bend (raising and lowering):
+Magnitude of mechanical work per knee bend (raising plus lowering, as the model counts it):
 
 <div class="equation">
  $$ W_{\text{one}} = 2mgh = 2(55.0\kg)(9.80\mss)(0.400\m) = 431\J $$
 </div>
 
-Total useful work for 50 knee bends:
+Total modeled work for 50 knee bends:
 
 <div class="equation">
- $$ W_{\text{useful}} = 50 \times 431\J = 21550\J = 21.6\text{ kJ} $$
+ $$ W_{\text{model}} = 50 \times 431\J = 21550\J = 21.6\text{ kJ} $$
 </div>
 
 Total energy consumed (with 20% efficiency):
 
 <div class="equation">
- $$ E_{\text{total}} = \frac{W_{\text{useful}}}{\text{Efficiency}} = \frac{21.6\text{ kJ}}{0.20} = 108\text{ kJ} $$
+ $$ E_{\text{total}} = \frac{W_{\text{model}}}{\text{Efficiency}} = \frac{21.6\text{ kJ}}{0.20} = 108\text{ kJ} $$
 </div>
 
 Part (b):
@@ -853,13 +853,13 @@ Time in seconds:
 Average power consumption:
 
 <div class="equation">
- $$ P = \frac{E_{\text{total}}}{t} = \frac{108 \times 10^{3}\J}{180\s} = 600\text{ W} \approx 599\text{ W} $$
+ $$ P = \frac{E_{\text{total}}}{t} = \frac{107.8 \times 10^{3}\J}{180\s} = 599\text{ W} $$
 </div>
 
 **Discussion**
 
 (a) The woman consumes approximately 108 kJ of energy to perform 50 deep knee bends, accounting for her 20% efficiency.
-(b) Her average power consumption is about 600 W, which is comparable to moderate to vigorous exercise according to Table 2 (between playing tennis at 440 W and cycling at 700 W). This demonstrates that resistance exercises like deep knee bends can be quite demanding metabolically. The 80% of energy that doesn't go into useful work (86.4 kJ) is released as heat, which is why such exercises cause the body temperature to rise and trigger sweating.
+(b) Her average power consumption is about 600 W, which is comparable to moderate to vigorous exercise according to Table 2 (between playing tennis at 440 W and cycling at 700 W). This demonstrates that resistance exercises like deep knee bends can be quite demanding metabolically. Because she returns to her starting position, there is no net gain in mechanical energy; within this model essentially all 108 kJ ends up as heat, which is why such exercises cause the body temperature to rise and trigger sweating. The 108 kJ follows from the stated assumption of equal cost for raising and lowering. In reality, controlled lowering (negative work) costs considerably less metabolic energy than raising, as discussed in the stair-descent construction in [World Energy Use](./ch7WorldEnergyUse), and the push-up problem there excludes lowering from useful output. Counting only the raising would give 54 kJ, so the true cost lies between these estimates.
 
 :::
 
@@ -1052,7 +1052,7 @@ block-lifting, versus how much work went into friction and lifting and lowering
 their own bodies?
 (c) Calculate the mass of food that had to be supplied each
 day, assuming that the average worker required 3600 kcal per day and that their
-diet was 5% protein, 60% carbohydrate, and 35% fat. (These proportions neglect
+diet was 5% protein, 60% carbohydrate, and 35% fat, where these percentages are fractions of the food **energy**. (These proportions neglect
 the mass of bulk and nondigestible materials consumed.)
 
 ![A model of a step pyramid is shown with ramps along the sides of each step.](../resources/Figure_07_08_07.png 'Ancient pyramids were probably constructed using ramps as simple machines. (credit: Franck Monnier, Wikimedia Commons)')
@@ -1134,7 +1134,7 @@ Total mass of food:
 **Discussion**
 
 (a) The pyramid stores an enormous amount of gravitational potential energy: 2.50 × 10¹² J.
-(b) The efficiency of only 2.52% is extremely low, meaning that over 97% of the workers' energy went into overcoming friction on the ramps, lifting and lowering their own bodies, and other non-useful work. This low efficiency is not surprising given the primitive tools and methods available, the use of long ramps (which reduce force but increase distance), and the fact that workers had to climb up and down repeatedly.
+(b) The efficiency of only 2.52% is extremely low, meaning that over 97% of the workers' metabolic energy did not end up as the pyramid's potential energy. Much of it is ordinary metabolic heat, including the body's basal metabolism and the inefficiency of muscles; the rest went into overcoming friction on the ramps, lifting and lowering their own bodies, and other non-useful mechanical work. This low efficiency is not surprising given the primitive tools and methods available, the use of long ramps (which reduce force but increase distance), and the fact that workers had to climb up and down repeatedly.
 (c) The daily food requirement of 14 metric tons (about 14,500 kg) for 20,000 workers represents a massive logistical challenge. This quantity of food had to be grown, transported, and distributed daily, which helps explain why most of the workers were involved in support services rather than actually lifting blocks.
 
 :::

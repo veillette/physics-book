@@ -186,23 +186,19 @@ Explain the need for tall towers on a suspension bridge to ensure stable equilib
 
 **Strategy**
 
-We analyze how the height of the towers affects the stability of the bridge by considering the geometry of the suspension cables and how forces are distributed to counteract disturbances.
+We model the bridge simply: two main cables hang between the tops of the towers, and the deck hangs from the cables by vertical suspenders. We ask how tower height affects (1) whether the deck's equilibrium is stable and (2) the forces the cables must carry.
 
 **Solution**
 
-Tall towers on a suspension bridge are necessary to ensure stable equilibrium for several interconnected reasons:
+1. **The deck hangs below its supports.** The weight of the deck is carried by cables attached to the tops of the towers, well above the deck. A load suspended below its support points is in stable equilibrium, like a pendulum: if the deck is displaced sideways or lengthwise, it rises slightly, and gravity tends to bring it back. Tall towers make this arrangement possible while still leaving room for the cables to sag down to the deck.
 
-1. **Lowering the center of gravity of the roadway:** The roadway deck hangs below the main cables. Taller towers allow the cables to drape higher, positioning the heavy roadway relatively lower. A lower center of gravity provides greater stability against tipping or swaying.
+2. **Sag keeps cable forces manageable.** For a cable carrying a uniform load $$ w $$ per unit length over a span $$ S $$ with sag $$ d $$ (the vertical drop from the tower tops to the lowest point of the cable), the horizontal component of the cable tension is approximately $$ H \approx wS^2/(8d) $$. Taller towers allow a larger sag for the same deck elevation, which reduces the cable tension and the horizontal pull on the anchorages. A cable with very little sag would need an enormous tension to carry the same load.
 
-2. **Creating restoring forces:** When the bridge deck is displaced laterally by wind or other forces, the geometry of the cable system creates restoring forces. The cables pull the deck back toward its equilibrium position. Taller towers create more vertical cable segments, which provide stronger horizontal restoring forces when displaced.
-
-3. **Distributing weight effectively:** The cables transfer the weight of the deck to the towers at a steep angle. Taller towers create more vertical cable angles, reducing horizontal forces on the towers and creating a more stable force distribution.
-
-4. **Geometric stability:** The inverted "V" or "A" shape created by the cables from the tall towers to the deck creates a wide base of support for the suspended structure. This is similar to how a person standing with feet apart is more stable than one with feet together.
+3. **What tower height does not do.** Raising the towers while keeping the deck at the same elevation does not lower the deck's center of gravity. Nor do longer suspenders give a stronger restoring force: in a simple pendulum model, the horizontal restoring stiffness of a hanging load is $$ mg/L $$, which *decreases* as the suspension length $$ L $$ increases. Resistance to wind-driven swaying and twisting comes mainly from the stiffness of the deck and its bracing, not from tower height.
 
 **Discussion**
 
-This principle is analogous to lowering the center of gravity in other stable systems. Just as a chicken with its cg below its hips is more stable than a human with cg above the hips, a suspension bridge with the roadway suspended well below tall towers is more stable than one with shorter towers. The famous collapse of the Tacoma Narrows Bridge in 1940 highlighted the importance of proper design for stability against wind-induced oscillations, leading to modern bridge designs that emphasize both vertical and torsional stability.
+Tall towers are needed chiefly so that the main cables can sag enough to carry the deck with acceptable tensions while the deck hangs, in stable equilibrium, below its points of support. The famous collapse of the Tacoma Narrows Bridge in 1940 showed that hanging below the supports is not sufficient: the deck must also be stiff enough to resist wind-induced oscillations, leading to modern bridge designs that emphasize both vertical and torsional stiffness.
 
 :::
 
@@ -222,6 +218,24 @@ Suppose a horse leans against a wall as in [Figure 10](#Figure10). Calculate the
 :::
 
 ::: solution
+
+**Strategy**
+
+Take the horse and rider as the system and choose the pivot at the horse's feet, so the unknown ground forces produce no torque. Only two forces then produce torques: the weight $$ w $$, acting 0.35 m horizontally from the feet, and the horizontal wall force, acting 1.2 m above the ground. Setting the net torque to zero gives the wall force.
+
+**Solution**
+
+The weight is $$ w = mg = (500 \kg)(9.80 \mss) = 4900 \N $$. Its line of action is 0.35 m from the feet (on the wall side), so it tends to rotate the horse toward the wall. The horizontal wall force, applied 1.2 m above the feet, tends to rotate the horse away from the wall. For equilibrium:
+
+<div class="equation">
+$$ F_{\text{wall}}(1.20 \m) = w(0.350 \m) \quad \Rightarrow \quad F_{\text{wall}} = \frac{(4900 \N)(0.350 \m)}{1.20 \m} = 1.43 \times 10^{3} \N $$
+</div>
+
+**Discussion**
+
+The wall supports the horse with a horizontal force of about 29% of its weight; by Newton's third law, the horse pushes on the wall with the same magnitude. The force is less than the weight because its lever arm (1.20 m) is much larger than the weight's (0.350 m).
+
+**Answer**
 
 $$ F_{\text{wall}}=1.43\times 10^{3}\N $$
 
@@ -314,8 +328,39 @@ As expected, the lighter child must sit farther from the pivot to balance the he
 
 ::: solution
 
-a) $$ 2.55\times 10^{3}\N , 16.3^\circ$$ to the left of vertical (i.e., toward the wall)}
-b) 0.292
+**Strategy**
+
+Use the first condition for equilibrium on the horse and rider. The wall force from the previous problem, $$ F_{\text{wall}} = 1.43 \times 10^{3} \N $$, is horizontal and points away from the wall, so the ground must supply an equal horizontal friction force toward the wall. With the center of mass midway between the two feet on the ground, each foot carries half the weight and, by symmetry, half the friction.
+
+**Solution**
+
+**(a)** Each foot:
+
+<div class="equation">
+$$ N_{\text{foot}} = \frac{mg}{2} = \frac{4900 \N}{2} = 2450 \N, \qquad f_{\text{foot}} = \frac{F_{\text{wall}}}{2} = \frac{1429 \N}{2} = 715 \N $$
+</div>
+
+<div class="equation">
+$$ F_{\text{foot}} = \sqrt{(2450 \N)^2 + (715 \N)^2} = 2.55 \times 10^{3} \N, \qquad \theta = \tan^{-1}\left(\frac{715}{2450}\right) = 16.3° $$
+</div>
+
+Each force points 16.3° from vertical, tilted toward the wall.
+
+**(b)** The minimum static friction coefficient is
+
+<div class="equation">
+$$ \mu_s = \frac{f_{\text{foot}}}{N_{\text{foot}}} = \frac{715 \N}{2450 \N} = 0.292 $$
+</div>
+
+**Discussion**
+
+The ground's force on each hoof is tilted toward the wall so that the total ground force balances both the weight and the wall's push. A coefficient of 0.292 is easily provided by hooves on ordinary ground; on ice, the horse would slide away from the wall.
+
+**Answer**
+
+(a) $$ 2.55\times 10^{3}\N $$ on each foot, $$ 16.3^\circ $$ from vertical, tilted toward the wall
+
+(b) 0.292
 
 :::
 
@@ -411,7 +456,31 @@ A 17.0-m-high and 11.0-m-long wall under construction and its bracing are shown 
 
 ::: solution
 
-$$ F_{\text{B}}=2.12\times 10^{4}\N $$
+**Strategy**
+
+Take the wall as the system and choose its base as the pivot, so the forces at the base produce no torque. Because the wall's thickness is neglected, its weight also acts along the pivot line and produces no torque. The wind produces a torque about the base; the braces, pushing on the wall along their lengths at 35° from the wall, produce the opposing torque through their horizontal components.
+
+**Solution**
+
+Total wind force on the 17.0 m × 11.0 m wall, acting halfway up (8.50 m):
+
+<div class="equation">
+$$ F_{\text{wind}} = (650 \text{ N/m}^2)(17.0 \m)(11.0 \m) = 1.216 \times 10^{5} \N $$
+</div>
+
+Each brace pushes on the wall at a height of 8.50 m with a force $$ F_B $$ directed along the brace, 35.0° from the wall (from vertical). Its horizontal component, $$ F_B\sin 35.0° $$, has a lever arm of 8.50 m about the base; its vertical component acts along the wall and has no lever arm. For the ten braces,
+
+<div class="equation">
+$$ 10F_B\sin 35.0°(8.50 \m) = F_{\text{wind}}(8.50 \m) \quad \Rightarrow \quad F_B = \frac{1.216 \times 10^{5} \N}{10\sin 35.0°} = 2.12 \times 10^{4} \N $$
+</div>
+
+**Discussion**
+
+Because the braces meet the wall at the same height as the wind's effective point of application, the lever arms cancel: the braces' horizontal components simply balance the wind force. Steeper braces (smaller angle with the wall) would need even larger forces, because less of each brace's force is horizontal.
+
+**Answer**
+
+$$ F_{\text{B}}=2.12\times 10^{4}\N $$ on each brace
 
 :::
 
@@ -503,9 +572,33 @@ Suppose the weight of the drawbridge in [Figure 13](#Figure13) is supported enti
 
 ::: solution
 
+**Strategy**
+
+Take the bridge as the system, with the cables slack. The forces on it are its weight at the center of gravity, the upward support of the opposite shore at the cable attachment, and the hinge force. Choose the hinge as the pivot to find the shore's support, then use the first condition for equilibrium for the hinge force. From Figure 13, the center of gravity is 1.5 m from the hinges, and the 7.5-m dimension runs from the center of gravity to the cable attachment, so the shore support is 9.0 m from the hinges.
+
+**Solution**
+
+**(a)** Torques about the hinge:
+
+<div class="equation">
+$$ F_{\text{shore}}(9.0 \m) = w(1.5 \m) \quad \Rightarrow \quad \frac{F_{\text{shore}}}{w} = \frac{1.5}{9.0} = 0.167 $$
+</div>
+
+**(b)** No horizontal forces act, so the hinge force is vertical. With $$ w = (2500 \kg)(9.80 \mss) = 2.45 \times 10^{4} \N $$:
+
+<div class="equation">
+$$ F_{\text{hinge}} = w - F_{\text{shore}} = \frac{5}{6}w = \frac{5}{6}(2.45 \times 10^{4} \N) = 2.04 \times 10^{4} \N $$
+</div>
+
+**Discussion**
+
+Because the center of gravity is close to the hinges, the hinges carry five-sixths of the bridge's weight. The same 9.0-m lever arm is used for the cables in the next problem.
+
+**Answer**
+
 a) 0.167, or about one-sixth of the weight is supported by the opposite shore.
 
-b) $$ F=2.0\times 10^{4}\N $$, straight up.
+b) $$ F=2.04\times 10^{4}\N $$, straight up.
 
 :::
 
@@ -525,7 +618,7 @@ Suppose a 900-kg car is on the bridge in [Figure 13](#Figure13) with its center 
 
 **Strategy**
 
-Use the geometry in [Figure 13](#Figure13): the bridge’s center of gravity is **1.5 m** from the hinges, the cable attaches **7.5 m** from the hinges at **40°** above horizontal, and the car’s center of mass is **3.75 m** from the hinges. Apply $$ \sum F = 0 $$ and $$ \sum \tau = 0 $$ about the hinge for the bridge (2500 kg) plus car (900 kg).
+Use the geometry in [Figure 13](#Figure13): the bridge’s center of gravity is **1.5 m** from the hinges, and the 7.5-m dimension runs from the center of gravity to the cable attachment, so the cable attaches **1.5 m + 7.5 m = 9.0 m** from the hinges at **40°** above horizontal, and the car’s center of mass is **3.75 m** from the hinges. Apply $$ \sum F = 0 $$ and $$ \sum \tau = 0 $$ about the hinge for the bridge (2500 kg) plus car (900 kg).
 
 **Solution for (a)**
 
@@ -533,7 +626,7 @@ Given:
 
 - Bridge mass: $$ m_b = 2500 \kg $$, cg at $$ r_b = 1.50 \m $$
 - Car mass: $$ m_c = 900 \kg $$, at $$ r_c = 3.75 \m $$
-- Cable attachment: $$ r_T = 7.50 \m $$, angle $$ \theta = 40° $$ above horizontal
+- Cable attachment: $$ r_T = 1.50 \m + 7.50 \m = 9.00 \m $$, angle $$ \theta = 40° $$ above horizontal
 
 Torque about the hinge (counterclockwise positive):
 
@@ -542,38 +635,38 @@ $$ T\sin{40°} \, r_T = m_b g r_b + m_c g r_c $$
 </div>
 
 <div class="equation">
-$$ T = \frac{(2500 \kg)(9.80 \mss)(1.50 \m) + (900 \kg)(9.80 \mss)(3.75 \m)}{(7.50 \m)\sin{40°}} = \frac{6.98 \times 10^{4} \N \cdot \m}{4.82 \m} = 1.45 \times 10^{4} \N $$
+$$ T = \frac{(2500 \kg)(9.80 \mss)(1.50 \m) + (900 \kg)(9.80 \mss)(3.75 \m)}{(9.00 \m)\sin{40°}} = \frac{6.98 \times 10^{4} \N \cdot \m}{5.785 \m} = 1.21 \times 10^{4} \N $$
 </div>
 
-The cable tension is **14.5 kN** (combined tension if several cables share the load equally, state how many cables and the sharing rule to split this value).
+The combined cable tension is **12.1 kN**. (If several cables share the load equally, divide this value by the number of cables.) As a check, the 9.0-m lever arm is consistent with the preceding problem, where the opposite shore, also 9.0 m from the hinge, supports $$ 1.5/9.0 = 1/6 $$ of the bridge's weight.
 
 **Solution for (b)**
 
-Horizontal equilibrium:
+Horizontal equilibrium: the cable pulls the bridge horizontally toward the hinge (shoreward), so the hinge must push horizontally the other way, toward the opposite shore:
 
 <div class="equation">
-$$ F_{hx} = T\cos{40°} = (1.45 \times 10^{4} \N)(0.766) = 1.11 \times 10^{4} \N $$
+$$ F_{hx} = T\cos{40°} = (1.207 \times 10^{4} \N)(0.766) = 9.25 \times 10^{3} \N $$
 </div>
 
 Vertical equilibrium (upward hinge component positive):
 
 <div class="equation">
-$$ F_{hy} = (m_b + m_c)g - T\sin{40°} = 3.33 \times 10^{4} \N - (1.45 \times 10^{4} \N)(0.643) = 2.40 \times 10^{4} \N $$
+$$ F_{hy} = (m_b + m_c)g - T\sin{40°} = 3.332 \times 10^{4} \N - (1.207 \times 10^{4} \N)(0.643) = 2.56 \times 10^{4} \N $$
 </div>
 
 <div class="equation">
-$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(1.11 \times 10^{4})^2 + (2.40 \times 10^{4})^2} = 2.64 \times 10^{4} \N $$
+$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(9.25 \times 10^{3})^2 + (2.56 \times 10^{4})^2} = 2.72 \times 10^{4} \N $$
 </div>
 
 <div class="equation">
-$$ \phi = \arctan\left(\frac{F_{hy}}{F_{hx}}\right) = \arctan(2.16) = 65.2° \text{ above horizontal} $$
+$$ \phi = \arctan\left(\frac{F_{hy}}{F_{hx}}\right) = \arctan(2.76) = 70.1° \text{ above horizontal} $$
 </div>
 
-The hinge exerts **26.4 kN** at **65.2° above horizontal** (toward the cable side and upward).
+The hinge exerts **27.2 kN** at **70.1° above horizontal**, directed upward and away from the hinge shore (opposite to the cable's horizontal pull).
 
 **Discussion**
 
-With the car closer to the hinge than the bridge cg, the cable must support more than the bridge weight alone. The hinge reaction is not aligned with the cable because the angled tension has both horizontal and vertical components; the hinge supplies the horizontal pull back toward the shore and the remaining vertical support not provided by the cable’s vertical component.
+The car (3.75 m from the hinges) is farther from the hinges than the bridge's center of gravity (1.5 m), so it adds a relatively large torque that the cable must balance. The hinge reaction is not aligned with the cable because the angled tension has both horizontal and vertical components; the hinge supplies a horizontal push that balances the cable's shoreward pull, plus the vertical support not provided by the cable's vertical component.
 
 :::
 
@@ -594,9 +687,33 @@ A sandwich board advertising sign is constructed as shown in [Figure 14](#Figure
 
 ::: solution
 
+**Strategy**
+
+By symmetry, each half of the sign carries half the weight, $$ w/2 = (4.00 \kg)(9.80 \mss) = 39.2 \N $$, and with no friction the ground pushes straight up on each foot with $$ N = 39.2 \N $$. Analyze one half (say, the right one), with the hinge as the pivot. From Figure 14, the foot is 0.550 m horizontally from the hinge, the half's center of gravity is midway along it (0.275 m horizontally from the hinge), and the horizontal chain is attached 0.500 m below the hinge.
+
+**Solution**
+
+**(a)** Torques about the hinge on the right half: the normal force at the foot tends to rotate it one way; the weight and the chain's inward pull tend to rotate it the other way.
+
+<div class="equation">
+$$ N(0.550 \m) = \frac{w}{2}(0.275 \m) + T(0.500 \m) $$
+</div>
+
+<div class="equation">
+$$ T = \frac{(39.2 \N)(0.550 \m) - (39.2 \N)(0.275 \m)}{0.500 \m} = 21.6 \N $$
+</div>
+
+**(b)** Forces on the right half: vertically, $$ N $$ balances the half's weight, so the hinge supplies no vertical force. Horizontally, the chain pulls inward with 21.6 N, so the hinge (that is, the other side) must push outward with **21.6 N**. By Newton's third law, each side pushes the other horizontally outward with 21.6 N at the hinge.
+
+**Discussion**
+
+The chain keeps the legs from spreading: without it (and without friction), the normal forces at the feet would rotate each leg outward about the hinge. The chain's tension is about half the weight of each side.
+
+**Answer**
+
 a) 21.6 N
 
-b) 21.6 N
+b) 21.6 N, horizontal
 
 :::
 
@@ -717,7 +834,31 @@ A gymnast is attempting to perform splits. From the information given in [Figure
 
 ::: solution
 
-350 N directly upwards
+**Strategy**
+
+Take the gymnast as the system. From Figure 15, her feet are symmetric about her center of gravity, each 0.90 m from it horizontally. Choose one foot as the pivot, use the torque condition to find the force on the other foot, and then the force condition. Assume the floor exerts no horizontal force on her feet (any equal and opposite horizontal friction forces at the two feet cannot be determined from equilibrium alone, so we take them to be zero).
+
+**Solution**
+
+Torques about the left foot: the weight (700 N) acts 0.90 m away and the right foot's normal force acts 1.80 m away:
+
+<div class="equation">
+$$ N_R(1.80 \m) = (700 \N)(0.90 \m) \quad \Rightarrow \quad N_R = 350 \N $$
+</div>
+
+Vertical forces:
+
+<div class="equation">
+$$ N_L = w - N_R = 700 \N - 350 \N = 350 \N $$
+</div>
+
+**Discussion**
+
+By symmetry, each foot supports half her weight. The 0.30-m height of the center of gravity above the feet does not enter, because no horizontal forces act; it would matter only if the floor exerted friction (for example, if she were pushing her feet apart).
+
+**Answer**
+
+350 N on each foot, directly upwards
 
 :::
 

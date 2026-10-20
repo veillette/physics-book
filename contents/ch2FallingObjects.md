@@ -1503,7 +1503,7 @@ There is a 250-m-high cliff at Half Dome in Yosemite National Park in California
 
 **Strategy**
 
-Take downward as positive. The boulder falls from rest from a height of 250 m. For part (a), we find the impact velocity. For part (b), we must account for the time it takes for the boulder to fall, plus the time for sound to travel back up, plus the reaction time. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+Take downward as positive. The boulder falls from rest from a height of 250 m. For part (a), we find the impact velocity. For part (b), we place everything on a single timeline that starts when the boulder breaks loose. The sound of the rock breaking loose travels **down** the cliff to the tourist while the boulder falls; the tourist hears it, reacts, and then has whatever time remains before impact. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
 **Solution**
 
@@ -1549,27 +1549,27 @@ $$ 250 = 0 + 0 + \frac{1}{2}(9.80)t_{fall}^2 $$
 </div>
 
 <div class="equation">
-$$ t_{fall} = \sqrt{\frac{2(250)}{9.80}} = \sqrt{51.02} = 7.14 \s $$
+$$ t_{fall} = \sqrt{\frac{2(250)}{9.80}} = \sqrt{51.02} = 7.1429 \s $$
 </div>
 
-2. Time for sound to travel up 250 m:
+2. Time for the sound of the rock breaking loose to travel down 250 m to the tourist:
 <div class="equation">
-$$ t_{sound} = \frac{distance}{speed} = \frac{250 \m}{335 \text{ m/s}} = 0.746 \s $$
+$$ t_{sound} = \frac{distance}{speed} = \frac{250 \m}{335 \text{ m/s}} = 0.7463 \s $$
 </div>
 
-3. Total time from when boulder breaks loose until tourist hears it:
-<div class="equation">
-$$ t_{hear} = t_{fall} + t_{sound} = 7.14 + 0.746 = 7.89 \s $$
-</div>
+3. Timeline, measured from the moment the boulder breaks loose:
+   - $$ t = 0.7463 \s $$: the tourist hears the rock break loose.
+   - $$ t = 0.7463 + 0.300 = 1.0463 \s $$: the tourist begins to move.
+   - $$ t = 7.1429 \s $$: the boulder strikes the ground.
 
-4. After hearing the sound, the tourist needs 0.300 s to react, but the boulder has already hit the ground at $$ t = 7.14 \s $$. The time available to move is:
+4. The time available to move is the time remaining between reacting and impact:
 <div class="equation">
-$$ t_{available} = t_{fall} - t_{sound} - t_{reaction} = 7.14 - 0.746 - 0.300 = 6.09 \s \approx 6.10 \s $$
+$$ t_{available} = t_{fall} - t_{sound} - t_{reaction} = 7.1429 - 0.7463 - 0.300 = 6.0966 \s \approx 6.10 \s $$
 </div>
 
 **Discussion**
 
-The boulder strikes the ground at 70.0 m/s (about 252 km/h or 157 mph), which is extremely fast and dangerous. For part (b), the tourist hears the sound 0.746 seconds after the boulder hits, meaning they must move before hearing the impact! By the time sound travels from the top of the cliff to the bottom (0.746 s) and the tourist reacts (0.300 s), about 1.05 seconds have elapsed. Since the boulder takes 7.14 s to fall, the tourist actually has about 6.10 seconds from when the rock breaks to when it hits. This problem illustrates an important safety consideration: at cliffs, you cannot rely on hearing falling rocks as a warning system since sound takes time to travel.
+The boulder strikes the ground at 70.0 m/s (about 252 km/h or 157 mph), which is extremely fast and dangerous. For part (b), the sound of the rock breaking loose reaches the tourist 0.746 s after release, long before the boulder arrives. After the 0.300-s reaction time, about 1.05 s have elapsed. Since the boulder takes 7.14 s to fall, the tourist has about 6.10 s to move. The warning works because sound (335 m/s) is much faster than the boulder's average speed during the fall (250 m / 7.14 s ≈ 35 m/s).
 
 **Answer**
 
@@ -1805,8 +1805,8 @@ A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds t
 (a) Calculate its velocity just before it strikes the floor.
 (b) Calculate its velocity just after it leaves the floor on its way back up.
 (c) Calculate its acceleration during contact with the floor if that contact lasts 0.0800 ms $$ \left(8.00\times 10^{-5}\s \right) $$.
-(d) How much did the ball compress during its collision with the floor,
-assuming the floor is absolutely rigid?
+(d) Estimate how much the ball compressed during its collision with the floor,
+assuming the floor is absolutely rigid and that the ball's acceleration is constant, with the magnitude found in (c), from impact until it momentarily stops at maximum compression.
 
 ::::
 
@@ -1911,7 +1911,7 @@ $$ d_{\max} = \frac{v_{\text{before}}^{2}}{2a} = \frac{(5.42 \ms)^{2}}{2(1.34 \t
 $$ d_{\max} = 0.109 \text{ mm} $$
 </div>
 
-This idealization does not describe the full rebound phase; it only estimates peak deformation from the impact speed and the average acceleration found in (c).
+This idealization does not describe the full rebound phase; it only estimates peak deformation from the impact speed and the average acceleration found in (c). The speeds and contact time by themselves fix only the average acceleration, and a rigid floor does not tell us how the force varies during contact, so the constant-acceleration assumption stated in the question is what makes this estimate possible.
 
 **Discussion**
 
@@ -2080,8 +2080,8 @@ A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebo
 (a) Calculate its velocity just before it strikes the floor.
 (b) Calculate its velocity just after it leaves the floor on its way back up.
 (c) Calculate its acceleration during contact with the floor if that contact lasts 3.50 ms $$ \left(3.50\times 10^{-3}\s \right) $$.
-(d) How much did the ball compress during its collision with the floor,
-assuming the floor is absolutely rigid?
+(d) Estimate how much the ball compressed during its collision with the floor,
+assuming the floor is absolutely rigid and that the ball's acceleration is constant, with the magnitude found in (c), from impact until it momentarily stops at maximum compression.
 
 ::::
 
@@ -2181,6 +2181,8 @@ As for the steel ball, the average acceleration in (c) applies to the whole cont
 <div class="equation">
 $$ d_{\max} = \frac{(5.42 \ms)^{2}}{2(2.87 \times 10^{3} \mss)} = 5.11 \times 10^{-3} \m = 5.11 \text{ mm} $$
 </div>
+
+As before, this is an estimate that depends on the assumed constant acceleration, not a value fixed by the speeds and contact time alone.
 
 **Discussion**
 
