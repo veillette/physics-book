@@ -372,8 +372,7 @@ We have a system with only conservative forces. Assuming the electron is
 accelerated in a vacuum, and neglecting the gravitational force (we will check
 on this assumption later), all of the electrical potential energy is converted
 into kinetic energy. We can identify the initial and final forms of energy to be
-$${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and }} $$
-\text{PE}_{f}=0.
+$${\text{KE}}_{i}=0, {\text{KE}}_{f}=½mv^{2}, {\text{PE}}_{i}=qV{\text{, and }} \text{PE}_{f}=0.$$
 
 **Solution**
 

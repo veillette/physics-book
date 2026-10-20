@@ -372,7 +372,7 @@ rather than the number of atoms and molecules, $$N $$ . We start from the ideal
 gas law,
 
 <div class="equation" >
- $$PV=\text{Nk_{B}T}\text{,}$$
+ $$PV=Nk_{B}T\text{,}$$
 </div>
 
 and multiply and divide the equation by Avogadro’s number $${N}_{\text{A}} $$ .

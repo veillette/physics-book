@@ -261,8 +261,7 @@ A realistic mass and spring laboratory. Hang masses from springs and adjust the 
  $$f $$ of a simple harmonic oscillator are given by $$T=2\pi \sqrt{\frac{m}{k}} $$ and $$f=\frac{1}{2\pi }\sqrt{\frac{k}{m}} $$ , where $$m $$ is the mass of the system. * Displacement in simple harmonic motion as a function of time is given by $$x\left(t\right)=X \cos \frac{2\pi t}{T}. $$
 * The velocity is given by $$v\left(t\right)=-{v}_{\text{max}}\sin\frac{2\pi t}{T} $$ , where $${v}_{\text{max}}=\sqrt{k/m}X $$ .
 
-* The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos $$
-  \frac{2\pi t}{T}.
+* The acceleration is found to be $$a\left(t\right)=-\frac{kX}{m} \cos \frac{2\pi t}{T}.$$
 
 ### Conceptual Questions
 

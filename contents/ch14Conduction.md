@@ -305,7 +305,7 @@ How does the rate of heat transfer by conduction change when all spatial dimensi
 
 ::: solution
 
-Because area is the product of two spatial dimensions, it increases by a factor of four when each dimension is doubled  $$\left({A}_{\text{final}}=\left(2d{\right)}^{2}=4{d}^{2}=4{A}_{\text{initial}}\right) $$ .
+Because area is the product of two spatial dimensions, it increases by a factor of four when each dimension is doubled  $$\left({A}_{\text{final}}=\left(2d\right)^{2}=4{d}^{2}=4{A}_{\text{initial}}\right) $$ .
  The distance, however, simply doubles. Because the temperature difference and the coefficient of thermal conductivity are independent of the spatial dimensions, the rate of heat transfer by conduction increases by a factor of four divided by two, or two:
 
 <div class="equation">
@@ -979,7 +979,7 @@ Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm
 
 **Strategy**
 
-We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and solve for the temperature difference $$\Delta T$$. From Example 2, we know the rate of heat transfer is 2256\text{ J}/s and the area is $$1.54 \times 10^{-2} \text{ m}^2$$. The thermal conductivity of ceramic is the same as glass and brick (0.84 J/s·m·ºC from Table 1).
+We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ and solve for the temperature difference $$\Delta T$$. From Example 2, we know the rate of heat transfer is 2256 J/s and the area is $$1.54 \times 10^{-2} \text{ m}^2$$. The thermal conductivity of ceramic is the same as glass and brick (0.84 J/s·m·ºC from Table 1).
 
 **Solution**
 

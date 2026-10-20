@@ -104,7 +104,7 @@ are integral multiples of the fundamental, and they are collectively called **ha
 second harmonic, and so on. [[Figure 9]](#Figure9) shows the fundamental and the
 first three overtones (the first four harmonics) in a tube closed at one end.
 
-![A cone of resonance waves reflected at the closed end of the tube is shown as a wave. There is three-fourth of the wave inside the tube and one-fourth outside shown as dotted curve. The length of the tube is given as three-fourth times lambda prime.](../resources/Figure_17_05_08.jpg 'Another resonance for a tube closed at one end. This has maximum air displacements at the open end, and none at the closed end. The wavelength is shorter, with three-fourths ( \\lambda^\\prime) equaling the length of the tube, so that ( \\lambda^\\prime =4L/3 ) . This higher-frequency vibration is the first overtone.')
+![A cone of resonance waves reflected at the closed end of the tube is shown as a wave. There is three-fourth of the wave inside the tube and one-fourth outside shown as dotted curve. The length of the tube is given as three-fourth times lambda prime.](../resources/Figure_17_05_08.jpg 'Another resonance for a tube closed at one end. This has maximum air displacements at the open end, and none at the closed end. The wavelength is shorter, with three-fourths \(\lambda^\prime\) equaling the length of the tube, so that ( \\lambda^\\prime =4L/3 ) . This higher-frequency vibration is the first overtone.')
 {: #Figure8}
 
 ![There are four tubes, each of which is closed at one end. Each tube has resonance waves reflected at the closed end. In the first tube, marked Fundamental, the wavelength is long and only one-fourth of the wave is inside the tube, with the maximum air displacement at the open end. In the second tube, marked First overtone, the wavelength is slightly shorter and three-fourths of the wave is inside the tube, with the maximum air displacement at the open end. In the third tube, marked Second overtone, the wavelength is still shorter and one and one-fourth of the wave is inside the tube, with the maximum air displacement at the open end. In the fourth tube, marked Third overtone, the wavelength is shorter than the others, and one and three-fourths of the wave is inside the tube, with the maximum air displacement at the open end.](../resources/Figure_17_05_09.jpg 'The fundamental and three lowest overtones for a tube closed at one end. All have maximum air displacements at the open end and none at the closed end.')
@@ -1216,7 +1216,7 @@ Calculate the first overtone in an ear canal, which resonates like a 2.40-cm-lon
 
 **Strategy**
 
-For a tube closed at one end, the first overtone is the third harmonic ($$n=3$$). The resonant frequencies follow $$f_n = n\frac{v_w}{4\text{ L}}$$ where $$n = 1, 3, 5,...$$ We first need to calculate the speed of sound at body temperature (37.0\text{ °C}), then use $$n=3$$ to find the first overtone frequency.
+For a tube closed at one end, the first overtone is the third harmonic ($$n=3$$). The resonant frequencies follow $$f_n = n\frac{v_w}{4\text{ L}}$$ where $$n = 1, 3, 5,...$$ We first need to calculate the speed of sound at body temperature (37.0 °C), then use $$n=3$$ to find the first overtone frequency.
 
 **Solution**
 

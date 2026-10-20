@@ -517,8 +517,7 @@ This hypothetical proton has $$\gamma\approx2.0\times10^{18}$$ and kinetic energ
 relativistic momentum
 :  $$p $$ , the momentum of an object moving at relativistic velocity;
 $$p=\text{γmu} $$ , where $$m $$ is the rest mass of the object, $$u $$ is its
-velocity relative to an observer, and the relativistic factor $$\gamma $$
-=\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}
+velocity relative to an observer, and the relativistic factor $$\gamma=\frac{1}{\sqrt{1-\frac{ {u}^{2}}{ {c}^{2}}}}$$
 
 rest mass
 : the mass of an object as measured by a person at rest relative to the object

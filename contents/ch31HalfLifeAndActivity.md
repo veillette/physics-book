@@ -1038,7 +1038,6 @@ rate of decay
 : the number of radioactive events per unit time
 
 curie
-: the activity of 1g of $${}^{226}\text{Ra} $$ , equal to $$ 3.70 \times 10^{10} $$
-\text{Bq}
+: the activity of 1g of $${}^{226}\text{Ra} $$ , equal to $$3.70 \times 10^{10} \text{Bq}$$
 
 :::

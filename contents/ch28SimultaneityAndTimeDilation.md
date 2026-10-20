@@ -172,11 +172,11 @@ gives
 We square this equation, which yields
 
 <div class="equation" >
- $${\left( \Delta t \right)}^{2}=\frac{4{\left( {D}^{2}+\frac{ {v}^{2}\left(\Delta t \right)}^{2}}{4}\right)}{ {c}^{2}}=\frac{ {4D}^{2}}{ {c}^{2}}+\frac{ {v}^{2}}{ {c}^{2}}{\left( \Delta t \right)}^{2}. $$
+ $${\left( \Delta t \right)}^{2}=\frac{4\left(D^{2}+\frac{v^{2}\left(\Delta t\right)^{2}}{4}\right)}{c^{2}}=\frac{4D^{2}}{c^{2}}+\frac{ {v}^{2}}{ {c}^{2}}{\left( \Delta t \right)}^{2}. $$
 </div>
 
 Note that if we square the first expression we had for $$\Delta {t}_{0} $$ , we
-get $${\left( \Delta {t}_{0} \right)}^{2}=\frac{ {4D}^{2}}{ {c}^{2}} $$ . This
+get $${\left( \Delta {t}_{0} \right)}^{2}=\frac{4D^{2}}{c^{2}} $$ . This
 term appears in the preceding equation, giving us a means to relate the two time
 intervals. Thus,
 
@@ -573,7 +573,7 @@ $$\Delta t = \gamma \Delta t_0 = (2.294)(2.60 \times 10^{-8} \text{ s}) = 5.96 \
 
 **Discussion**
 
-The pion lives about 2.3 times longer as observed in the laboratory compared to its rest frame. This time dilation allows the pion to travel much farther before decaying: $$d = v\Delta t = (2.70 \times 10^8)(5.96 \times 10^{-8}) \approx 16.1$$ m in the lab frame, versus only about 7\text{ m} if there were no time dilation. This extended lifetime is crucial for detecting short-lived particles in accelerator experiments. The velocity $$v = 0.900c$$ places this pion firmly in the relativistic regime, where classical mechanics would give completely incorrect predictions for its range and detection probability.
+The pion lives about 2.3 times longer as observed in the laboratory compared to its rest frame. This time dilation allows the pion to travel much farther before decaying: $$d = v\Delta t = (2.70 \times 10^8)(5.96 \times 10^{-8}) \approx 16.1$$ m in the lab frame, versus only about 7 m if there were no time dilation. This extended lifetime is crucial for detecting short-lived particles in accelerator experiments. The velocity $$v = 0.900c$$ places this pion firmly in the relativistic regime, where classical mechanics would give completely incorrect predictions for its range and detection probability.
 
 :::
 
@@ -684,7 +684,7 @@ A neutron lives 900 s when at rest relative to an observer. How fast is the neut
 
 **Strategy**
 
-The neutron's rest lifetime (900 s) is the proper time $$\Delta t_0$$, and the observed lifetime (2065\text{ s}) is the dilated time $$\Delta t$$. From $$\Delta t = \gamma \Delta t_0$$, we can find $$\gamma$$, then solve for the velocity $$v$$.
+The neutron's rest lifetime (900 s) is the proper time $$\Delta t_0$$, and the observed lifetime (2065 s) is the dilated time $$\Delta t$$. From $$\Delta t = \gamma \Delta t_0$$, we can find $$\gamma$$, then solve for the velocity $$v$$.
 
 **Solution**
 
@@ -767,7 +767,7 @@ $$v = c\sqrt{0.0197} = 0.140c$$
 
 **Discussion**
 
-At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000\text{ km}/s. For reference, this is much faster than any macroscopic object humans have ever created—even a spacecraft traveling at 190 km/s would reach only about 0.063% of the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
+At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000 km/s. For reference, this is much faster than any macroscopic object humans have ever created—even a spacecraft traveling at 190 km/s would reach only about 0.063% of the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
 
 :::
 

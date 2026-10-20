@@ -1,6 +1,7 @@
 import { BookConfig } from '../js/book-config.js';
 import { removeTrailingSlash, addTrailingSlash, mdToHtmlFix } from '../js/util.js';
 import { getIcon } from '../js/icons.js';
+import { normalizeCaptionMath } from '../js/caption-math.js';
 
 const BOOK_TEMPLATE = `<div class="book with-summary font-size-2 font-family-1">
         <a href="#" class="btn toggle-summary" aria-label="Toggle navigation">
@@ -339,23 +340,12 @@ function parser() {
       img.parentNode.insertBefore(figure, img);
       figure.appendChild(img);
       const caption = document.createElement('figcaption');
-      // Get title and fix double backslashes from HTML
-      let captionText = img.title;
-      // Convert double backslashes to single: \\theta -> \theta
-      captionText = captionText.replace(/\\\\/g, '\\');
-      // Match entire math pattern and convert: ( \theta_r = \theta_i ) -> $\theta_r = \theta_i$
-      captionText = captionText.replace(/\(\s+([^)]+?)\s+\)/g, '$$$1$$');
-      caption.innerHTML = captionText;
+      caption.innerHTML = normalizeCaptionMath(img.title);
       figure.appendChild(caption);
       if (img.getAttribute('data-title')) {
         const title = document.createElement('div');
         title.className = 'title';
-        let titleText = img.getAttribute('data-title');
-        // Convert double backslashes to single
-        titleText = titleText.replace(/\\\\/g, '\\');
-        // Convert math delimiters
-        titleText = titleText.replace(/\(\s+([^)]+?)\s+\)/g, '$$$1$$');
-        title.textContent = titleText;
+        title.textContent = normalizeCaptionMath(img.getAttribute('data-title'));
         figure.insertBefore(title, img);
       }
       figure.setAttribute('id', id);

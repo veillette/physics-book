@@ -520,7 +520,7 @@ $$v = c\sqrt{0.1639} = 0.405c$$
 
 $$v = (0.405)(3.00 \times 10^8 \text{ m/s}) = 1.21 \times 10^8 \text{ m/s}$$
 
-(b) **Yes, this is entirely consistent** with the fact that relativistic effects are difficult to observe in ordinary circumstances. The athlete would need to run at 40.5% the speed of light—over 121 million meters per second! For comparison, the world record 100-m sprint is run at about 10 m/s, which is $$3.3 \times 10^{-8}c$$. At this actual speed, the relativistic contraction would be utterly negligible—far less than the size of an atomic nucleus. Even if the athlete could somehow run at 1000\text{ m}/s (faster than a rifle bullet), the velocity would still be only $$3.3 \times 10^{-6}c$$, producing immeasurably small relativistic effects.
+(b) **Yes, this is entirely consistent** with the fact that relativistic effects are difficult to observe in ordinary circumstances. The athlete would need to run at 40.5% the speed of light—over 121 million meters per second! For comparison, the world record 100-m sprint is run at about 10 m/s, which is $$3.3 \times 10^{-8}c$$. At this actual speed, the relativistic contraction would be utterly negligible—far less than the size of an atomic nucleus. Even if the athlete could somehow run at 1000 m/s (faster than a rifle bullet), the velocity would still be only $$3.3 \times 10^{-6}c$$, producing immeasurably small relativistic effects.
 
 **Discussion**
 

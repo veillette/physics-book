@@ -164,7 +164,7 @@ temperature—temperature below which a material becomes a superconductor | | $$
 time in which half of the original nuclei decay | | $$\tan \theta $$ | tangent |
 | $$U $$ | internal energy | | $$u $$ | quark flavor up | | $$\text{u} $$ |
 unified atomic mass unit | | $$\vb{u} $$ | velocity of an object
-relative to an observer | | $$\vb{u}^' $$ |
+relative to an observer | | $$\vb{u}' $$ |
 velocity relative to another observer | | $$V $$ | electric potential | | $$V $$
 | terminal voltage | | $$\text{V} $$ | volt (unit) | | $$V $$ | volume | |
 $$\vb{v} $$ | relative velocity between two observers | | $$v $$ |

@@ -1,488 +1,249 @@
 #!/usr/bin/env node
 /**
- * Find Unrendered LaTeX Commands in HTML
- *
- * This script parses HTML files (after MathJax processing) to find LaTeX commands
- * that appear as plain text instead of being properly rendered.
- *
- * It looks for common LaTeX commands like:
- * - Greek letters: \alpha, \beta, \gamma, \theta, etc.
- * - Math operators: \sum, \int, \prod, \partial, etc.
- * - Functions: \sin, \cos, \tan, \log, \sqrt, \frac, etc.
- * - Text commands: \text, \mathrm, \mathbf, etc.
- * - Delimiters: \left, \right, etc.
+ * Check built textbook pages for visible TeX and MathJax rendering errors.
+ * Start the local preview with npm run serve before running this script.
  *
  * Usage:
- *   node scripts/find-unrendered-latex.js                    # Check all pages
- *   node scripts/find-unrendered-latex.js --file ch3*.html   # Check specific files
- *   node scripts/find-unrendered-latex.js --verbose          # Show all matches with context
- *   node scripts/find-unrendered-latex.js --json issues.json # Output to JSON file
- *   node scripts/find-unrendered-latex.js --by-type          # Group by issue type
+ *   npm run find:latex
+ *   npm run find:latex -- --file 'ch3*.html' --verbose
+ *   npm run find:latex -- --base-url http://localhost:4001/physics-book/contents/
+ *   npm run find:latex -- --no-enrichment --json /tmp/latex-issues.json
+ *
+ * Hidden solutions are typeset too. --no-enrichment disables optional speech and
+ * braille enrichment for this audit; the textbook's TeX configuration is retained.
+ * A finding, failed page, or empty build returns a nonzero exit status.
  */
 
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
+import { URL } from 'node:url';
 import { chromium } from '@playwright/test';
 import chalk from 'chalk';
 import { glob } from 'glob';
 
-const baseUrl = 'http://localhost:4000/physics-book/contents/';
-const siteDir = '_site/contents';
-const contentsDir = 'contents';
-
-class LatexFinder {
-  constructor(options = {}) {
-    this.verbose = options.verbose || false;
-    this.filePattern = options.filePattern || '*.html';
-    this.jsonOutput = options.jsonOutput || null;
-    this.groupByType = options.groupByType || false;
-    this.stats = {
-      totalFiles: 0,
-      filesChecked: 0,
-      filesWithIssues: 0,
-      totalIssues: 0,
-      byCategory: {
-        imageAlt: 0,
-        splitDelimiters: 0,
-        missingSpaces: 0,
-        otherLatex: 0,
-      },
-    };
-    this.issues = [];
+const args = process.argv.slice(2);
+function option(name, fallback) {
+  const inline = args.find(arg => arg.startsWith(`${name}=`));
+  if (inline) return inline.slice(name.length + 1);
+  const index = args.indexOf(name);
+  if (index === -1) return fallback;
+  if (!args[index + 1] || args[index + 1].startsWith('--')) {
+    throw new Error(`Missing value for ${name}`);
   }
-
-  async findHtmlFiles() {
-    const pattern = path.join(siteDir, this.filePattern);
-    const files = await glob(pattern);
-    return files.map(f => path.basename(f));
-  }
-
-  getSourceFile(htmlFile) {
-    // Map HTML file to source .md file
-    const baseName = htmlFile.replace('.html', '');
-    const mdPath = path.join(contentsDir, `${baseName}.md`);
-    if (fs.existsSync(mdPath)) {
-      return `${baseName}.md`;
-    }
-    return null;
-  }
-
-  categorizeIssue(context, fullText, commands) {
-    // Categorize the type of issue
-    if (context.includes('![') || context.includes('](') || fullText.includes('alt=')) {
-      return 'imageAlt';
-    }
-
-    if (commands.some(cmd => cmd.includes('\\left') || cmd.includes('\\right'))) {
-      return 'splitDelimiters';
-    }
-
-    // Check for missing space patterns
-    if (fullText.match(/[a-zA-Z]\$\$|\$\$[a-zA-Z]/)) {
-      return 'missingSpaces';
-    }
-
-    return 'otherLatex';
-  }
-
-  extractSearchPattern(fullText, commands) {
-    // Extract a unique search pattern for the .md file
-    // Get 40 chars before and after the first command
-    const firstCmd = commands[0];
-    const cmdIndex = fullText.indexOf(firstCmd);
-
-    if (cmdIndex === -1) return fullText.substring(0, 80);
-
-    const start = Math.max(0, cmdIndex - 40);
-    const end = Math.min(fullText.length, cmdIndex + firstCmd.length + 40);
-
-    return fullText.substring(start, end).trim();
-  }
-
-  async checkPage(htmlFile) {
-    const browser = await chromium.launch({ headless: true });
-    const context = await browser.newContext();
-    const page = await context.newPage();
-
-    try {
-      const url = `${baseUrl}${htmlFile}`;
-      await page.goto(url, { waitUntil: 'networkidle', timeout: 15000 });
-
-      // Wait for MathJax to finish rendering
-      // Give extra time for MathJax to load from CDN and process all math on the page
-      await page.waitForTimeout(5000);
-
-      // Additional wait for MathJax typesetting to complete
-      await page.evaluate(() => {
-        return new Promise(resolve => {
-          if (window.MathJax && window.MathJax.startup && window.MathJax.startup.promise) {
-            window.MathJax.startup.promise
-              .then(() => {
-                // Wait a bit more after startup completes to ensure all rendering is done
-                setTimeout(resolve, 1500);
-              })
-              .catch(() => {
-                // If there's an error, continue anyway
-                setTimeout(resolve, 1500);
-              });
-          } else {
-            // If MathJax isn't available, just wait a bit
-            setTimeout(resolve, 1500);
-          }
-        });
-      });
-
-      // Get the text content of the page body, excluding script tags and MathJax elements
-      const unrenderedLatex = await page.evaluate(() => {
-        const results = [];
-
-        // Get all text nodes, excluding those in script tags, style tags, and MathJax rendered elements
-        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
-          acceptNode: node => {
-            const parent = node.parentElement;
-            if (!parent) return NodeFilter.FILTER_REJECT;
-
-            // Skip script, style, and MathJax elements
-            if (
-              parent.tagName === 'SCRIPT' ||
-              parent.tagName === 'STYLE' ||
-              parent.tagName === 'NOSCRIPT' ||
-              parent.classList.contains('MathJax') ||
-              parent.classList.contains('MathJax_Display') ||
-              parent.classList.contains('MathJax_Preview') ||
-              parent.closest('.MathJax') ||
-              parent.closest('mjx-container') ||
-              parent.closest('[class*="MathJax"]')
-            ) {
-              return NodeFilter.FILTER_REJECT;
-            }
-
-            return NodeFilter.FILTER_ACCEPT;
-          },
-        });
-
-        const textNodes = [];
-        let node;
-        while ((node = walker.nextNode())) {
-          textNodes.push(node);
-        }
-
-        // Check each text node for LaTeX commands
-        textNodes.forEach(textNode => {
-          const text = textNode.textContent;
-
-          // Check for LaTeX command patterns (simple backslash followed by letters)
-          const latexMatches = text.match(/\\[a-zA-Z]+\b|\\[_^{]/g);
-
-          if (latexMatches && latexMatches.length > 0) {
-            // Get context: find the containing paragraph or element
-            let contextElement = textNode.parentElement;
-            while (
-              contextElement &&
-              ![
-                'P',
-                'DIV',
-                'LI',
-                'TD',
-                'TH',
-                'H1',
-                'H2',
-                'H3',
-                'H4',
-                'H5',
-                'H6',
-                'FIGCAPTION',
-              ].includes(contextElement.tagName)
-            ) {
-              contextElement = contextElement.parentElement;
-            }
-
-            const context = contextElement ? contextElement.innerText : text;
-            const truncatedContext =
-              context.length > 100 ? `${context.substring(0, 100)}...` : context;
-
-            // Get parent element type for categorization
-            const parentTag = contextElement ? contextElement.tagName : 'UNKNOWN';
-            const isInImage =
-              contextElement &&
-              (contextElement.querySelector('img') !== null ||
-                contextElement.closest('figure') !== null ||
-                parentTag === 'FIGCAPTION');
-
-            // Extract a better search pattern (surrounding text)
-            const textContent = text.trim();
-            const searchPattern =
-              textContent.length > 150 ? `${textContent.substring(0, 150)}...` : textContent;
-
-            results.push({
-              commands: [...new Set(latexMatches)],
-              context: truncatedContext,
-              searchPattern,
-              fullText: text,
-              parentTag,
-              isInImage,
-            });
-          }
-        });
-
-        return results;
-      });
-
-      await browser.close();
-
-      // Enhance results with categorization and source file info
-      const sourceFile = this.getSourceFile(htmlFile);
-      return unrenderedLatex.map(issue => ({
-        ...issue,
-        sourceFile,
-        category: this.categorizeIssue(issue.context, issue.fullText, issue.commands),
-      }));
-    } catch (error) {
-      await browser.close();
-      throw error;
-    }
-  }
-
-  async run() {
-    console.log(chalk.blue('\n🔍 Scanning for unrendered LaTeX commands...\n'));
-
-    const htmlFiles = await this.findHtmlFiles();
-    this.stats.totalFiles = htmlFiles.length;
-
-    console.log(chalk.gray(`Found ${htmlFiles.length} HTML files to check\n`));
-
-    // Process files in parallel batches
-    const BATCH_SIZE = 5; // Number of concurrent browser instances
-    const batches = [];
-
-    for (let i = 0; i < htmlFiles.length; i += BATCH_SIZE) {
-      batches.push(htmlFiles.slice(i, i + BATCH_SIZE));
-    }
-
-    for (const batch of batches) {
-      // Process each batch in parallel
-      const batchPromises = batch.map(async htmlFile => {
-        try {
-          const issues = await this.checkPage(htmlFile);
-
-          this.stats.filesChecked++;
-
-          if (issues.length > 0) {
-            this.stats.filesWithIssues++;
-            this.stats.totalIssues += issues.length;
-
-            // Update category stats
-            issues.forEach(issue => {
-              this.stats.byCategory[issue.category]++;
-            });
-
-            if (!this.groupByType) {
-              this.printFileIssues(htmlFile, issues);
-            }
-
-            this.issues.push({
-              htmlFile,
-              sourceFile: issues[0].sourceFile,
-              issues,
-            });
-          }
-
-          return { htmlFile, success: true };
-        } catch (error) {
-          this.stats.filesChecked++;
-
-          if (error.message.includes('Timeout')) {
-            console.log(chalk.gray(`    • Skipped (timeout): ${htmlFile}`));
-          } else {
-            console.log(chalk.red(`    • Error checking ${htmlFile}: ${error.message}`));
-          }
-
-          return { htmlFile, success: false, error };
-        }
-      });
-
-      // Wait for the entire batch to complete
-      await Promise.all(batchPromises);
-
-      // Progress indicator after each batch
-      if (!this.verbose) {
-        console.log(
-          chalk.gray(
-            `  Progress: ${this.stats.filesChecked}/${this.stats.totalFiles} files checked...`
-          )
-        );
-      }
-    }
-
-    if (this.groupByType) {
-      this.printByType();
-    }
-
-    this.printSummary();
-
-    if (this.jsonOutput) {
-      this.saveToJson();
-    }
-  }
-
-  printFileIssues(htmlFile, issues) {
-    const sourceFile = issues[0].sourceFile || 'unknown';
-
-    console.log(chalk.yellow(`\n  ${htmlFile}:`));
-    console.log(chalk.gray(`    Source: ${sourceFile}`));
-    console.log(
-      chalk.yellow(`    • ${issues.length} unrendered LaTeX command${issues.length > 1 ? 's' : ''}`)
-    );
-
-    // Group by category
-    const byCategory = {};
-    issues.forEach(issue => {
-      if (!byCategory[issue.category]) {
-        byCategory[issue.category] = [];
-      }
-      byCategory[issue.category].push(issue);
-    });
-
-    Object.entries(byCategory).forEach(([category, categoryIssues]) => {
-      const label =
-        {
-          imageAlt: '📷 Image/Figure',
-          splitDelimiters: '✂️  Split delimiters',
-          missingSpaces: '␣  Missing spaces',
-          otherLatex: '📐 Other LaTeX',
-        }[category] || category;
-
-      console.log(chalk.cyan(`    ${label}: ${categoryIssues.length} issue(s)`));
-
-      // Show first few examples
-      categoryIssues.slice(0, this.verbose ? categoryIssues.length : 2).forEach(issue => {
-        console.log(chalk.yellow(`      → ${issue.commands.join(', ')}`));
-        console.log(chalk.gray(`         "${issue.context}"`));
-        if (this.verbose) {
-          console.log(chalk.gray(`         Search: "${issue.searchPattern}"`));
-        }
-      });
-
-      if (!this.verbose && categoryIssues.length > 2) {
-        console.log(chalk.gray(`      ... and ${categoryIssues.length - 2} more`));
-      }
-    });
-  }
-
-  printByType() {
-    console.log(chalk.blue('\n\n═══════════════════════════════════════════════════════════'));
-    console.log(chalk.blue('                   ISSUES BY TYPE'));
-    console.log(chalk.blue('═══════════════════════════════════════════════════════════\n'));
-
-    const byType = {
-      imageAlt: [],
-      splitDelimiters: [],
-      missingSpaces: [],
-      otherLatex: [],
-    };
-
-    this.issues.forEach(fileIssue => {
-      fileIssue.issues.forEach(issue => {
-        byType[issue.category].push({
-          file: fileIssue.sourceFile || fileIssue.htmlFile,
-          ...issue,
-        });
-      });
-    });
-
-    Object.entries(byType).forEach(([category, items]) => {
-      if (items.length === 0) return;
-
-      const label = {
-        imageAlt: '📷 Image/Figure Alt Text',
-        splitDelimiters: '✂️  Split Delimiters (\\left/\\right)',
-        missingSpaces: '␣  Missing Spaces Around $$',
-        otherLatex: '📐 Other LaTeX Commands',
-      }[category];
-
-      console.log(chalk.yellow(`\n${label}: ${items.length} issue(s)`));
-      console.log(chalk.gray('─'.repeat(60)));
-
-      // Group by file
-      const byFile = {};
-      items.forEach(item => {
-        if (!byFile[item.file]) byFile[item.file] = [];
-        byFile[item.file].push(item);
-      });
-
-      Object.entries(byFile).forEach(([file, fileItems]) => {
-        console.log(chalk.cyan(`\n  ${file}: ${fileItems.length} occurrence(s)`));
-        fileItems.slice(0, 3).forEach(item => {
-          console.log(chalk.gray(`    Commands: ${item.commands.join(', ')}`));
-          console.log(chalk.gray(`    Context: "${item.context}"`));
-          console.log(chalk.gray(`    Search: "${item.searchPattern.substring(0, 100)}..."`));
-        });
-        if (fileItems.length > 3) {
-          console.log(chalk.gray(`    ... and ${fileItems.length - 3} more`));
-        }
-      });
-    });
-  }
-
-  printSummary() {
-    console.log(chalk.blue('\n\n═══════════════════════════════════════════════════════════'));
-    console.log(chalk.blue('                        SUMMARY'));
-    console.log(chalk.blue('═══════════════════════════════════════════════════════════\n'));
-
-    console.log(chalk.white(`Total files checked: ${this.stats.filesChecked}`));
-    console.log(chalk.white(`Files with unrendered LaTeX: ${this.stats.filesWithIssues}`));
-    console.log(chalk.white(`Total issues found: ${this.stats.totalIssues}`));
-
-    console.log(chalk.white('\nBy category:'));
-    console.log(chalk.white(`  📷 Image/Figure alt text: ${this.stats.byCategory.imageAlt}`));
-    console.log(chalk.white(`  ✂️  Split delimiters: ${this.stats.byCategory.splitDelimiters}`));
-    console.log(chalk.white(`  ␣  Missing spaces: ${this.stats.byCategory.missingSpaces}`));
-    console.log(chalk.white(`  📐 Other LaTeX: ${this.stats.byCategory.otherLatex}`));
-
-    if (this.stats.filesWithIssues === 0) {
-      console.log(chalk.green('\n✓ No unrendered LaTeX commands found!\n'));
-    } else {
-      console.log(
-        chalk.yellow(`\n⚠ Found unrendered LaTeX in ${this.stats.filesWithIssues} file(s)`)
-      );
-
-      if (!this.jsonOutput) {
-        console.log(
-          chalk.gray(
-            '\nTip: Use --json output.json to save detailed results for programmatic fixes'
-          )
-        );
-      }
-      console.log(chalk.gray('Tip: Use --by-type to group issues by category'));
-      console.log(chalk.gray('Tip: Use --verbose for full details\n'));
-    }
-  }
-
-  saveToJson() {
-    const output = {
-      summary: this.stats,
-      issues: this.issues,
-      generatedAt: new Date().toISOString(),
-    };
-
-    fs.writeFileSync(this.jsonOutput, JSON.stringify(output, null, 2));
-    console.log(chalk.green(`\n✓ Results saved to ${this.jsonOutput}\n`));
-  }
+  return args[index + 1];
 }
 
-// Parse command line arguments
-const args = process.argv.slice(2);
-const options = {
-  verbose: args.includes('--verbose') || args.includes('-v'),
-  groupByType: args.includes('--by-type') || args.includes('--group'),
-  filePattern:
-    args.find(arg => arg.startsWith('--file='))?.split('=')[1] ||
-    (args.includes('--file') ? args[args.indexOf('--file') + 1] : '*.html'),
-  jsonOutput:
-    args.find(arg => arg.startsWith('--json='))?.split('=')[1] ||
-    (args.includes('--json') ? args[args.indexOf('--json') + 1] : null),
+const labels = {
+  imageAlt: 'Figure captions',
+  splitDelimiters: 'Split delimiters',
+  missingSpaces: 'Leftover math delimiters',
+  otherLatex: 'Other unrendered LaTeX',
+  mathError: 'MathJax errors',
 };
 
-// Run the finder
-const finder = new LatexFinder(options);
-finder.run().catch(console.error);
+async function main() {
+  if (args.includes('--help') || args.includes('-h')) {
+    console.log(fs.readFileSync(new URL(import.meta.url), 'utf8').split(' */')[0]);
+    return;
+  }
+  const baseUrl = `${option('--base-url', 'http://localhost:4000/physics-book/contents/').replace(/\/+$/, '')}/`;
+  const filePattern = option('--file', '*.html');
+  const jsonOutput = option('--json', null);
+  const verbose = args.includes('--verbose') || args.includes('-v');
+  const groupByType = args.includes('--by-type') || args.includes('--group');
+  const concurrency = Number(option('--concurrent', '3'));
+  if (!Number.isInteger(concurrency) || concurrency < 1) {
+    throw new Error('--concurrent must be a positive integer');
+  }
+  const files = (await glob(path.join('_site/contents', filePattern))).sort();
+  if (!files.length) throw new Error('No matching built HTML pages. Run npm run build first.');
+
+  const stats = {
+    totalFiles: files.length,
+    filesChecked: 0,
+    filesFailed: 0,
+    filesWithIssues: 0,
+    totalIssues: 0,
+    byCategory: Object.fromEntries(Object.keys(labels).map(key => [key, 0])),
+  };
+  const issues = [];
+  const failures = [];
+  console.log(chalk.blue(`\nScanning ${files.length} pages for unrendered math at ${baseUrl}\n`));
+
+  const browser = await chromium.launch({ headless: true });
+  try {
+    // Reuse the browser, while giving each page a fresh context to avoid stale
+    // service workers, cached MathJax state, and accumulation of math documents.
+    const queue = [...files];
+    await Promise.all(
+      Array.from({ length: Math.min(concurrency, files.length) }, async () => {
+        while (queue.length) {
+          const file = queue.shift();
+          const htmlFile = path.basename(file);
+          const mdName = htmlFile.replace(/\.html$/, '.md');
+          const sourceFile = fs.existsSync(path.join('contents', mdName)) ? mdName : null;
+          const context = await browser.newContext({ serviceWorkers: 'block' });
+          try {
+            if (args.includes('--no-enrichment')) {
+              await context.route('**/math-config.js', async route => {
+                const response = await route.fetch();
+                await route.fulfill({
+                  response,
+                  body:
+                    `${await response.text()}\nMathJax.options.menuOptions.settings.enrich = false;` +
+                    `\nMathJax.options.menuOptions.settings.speech = false;` +
+                    `\nMathJax.options.menuOptions.settings.braille = false;`,
+                });
+              });
+            }
+            const page = await context.newPage();
+            const response = await page.goto(new URL(htmlFile, baseUrl).href, {
+              waitUntil: 'load',
+              timeout: 60000,
+            });
+            if (!response?.ok()) throw new Error(`HTTP ${response?.status() ?? 'no response'}`);
+            await page.waitForFunction(
+              () => window.MathJax?.startup?.promise && document.querySelector('.contents'),
+              null,
+              { timeout: 30000 }
+            );
+            await page.evaluate(async () => {
+              await window.MathJax.startup.promise;
+              // The viewer creates captions and schedules its own typesetting in
+              // requestAnimationFrame after startup. Await that work and explicitly
+              // typeset hidden solutions as if the reader had revealed them.
+              await new Promise(resolve => window.requestAnimationFrame(resolve));
+              document.querySelectorAll('.mathjax-skip').forEach(el => {
+                el.classList.remove('mathjax-skip');
+              });
+              await window.MathJax.typesetPromise();
+            });
+
+            const found = await page.evaluate(() => {
+              const found = [];
+              for (const item of window.MathJax.startup.document.math) {
+                const errors =
+                  item.typesetRoot?.querySelectorAll('mjx-merror,[data-mjx-error]') || [];
+                for (const error of errors) {
+                  found.push({
+                    category: 'mathError',
+                    message:
+                      error.getAttribute('data-mjx-error') ||
+                      error.getAttribute('title') ||
+                      error.textContent,
+                    fullText: item.math,
+                    context: item.math.trim().slice(0, 160),
+                    searchPattern: item.math.trim(),
+                    commands: [...new Set(item.math.match(/\\[a-zA-Z]+\b/g) || [])],
+                  });
+                }
+              }
+
+              const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+                acceptNode(node) {
+                  return node.parentElement?.closest(
+                    'script,style,noscript,pre,code,mjx-container,[class*="MathJax"]'
+                  )
+                    ? NodeFilter.FILTER_REJECT
+                    : NodeFilter.FILTER_ACCEPT;
+                },
+              });
+              let node;
+              while ((node = walker.nextNode())) {
+                const fullText = node.textContent;
+                const commands = fullText.match(/\\[a-zA-Z]+\b|\\[_^{()[\]]|\$\$/g);
+                if (!commands) continue;
+                const parent = node.parentElement;
+                const container = parent.closest('p,li,td,th,figcaption,h1,h2,h3,h4,h5,h6,div');
+                const isInImage = Boolean(parent.closest('figcaption,figure'));
+                const category = isInImage
+                  ? 'imageAlt'
+                  : commands.some(cmd => cmd === '\\left' || cmd === '\\right')
+                    ? 'splitDelimiters'
+                    : commands.includes('$$')
+                      ? 'missingSpaces'
+                      : 'otherLatex';
+                found.push({
+                  category,
+                  commands: [...new Set(commands)],
+                  context: (container?.textContent || fullText).trim().slice(0, 160),
+                  searchPattern: fullText.trim(),
+                  fullText,
+                  parentTag: container?.tagName || parent.tagName,
+                  isInImage,
+                });
+              }
+              return found;
+            });
+            stats.filesChecked++;
+            if (found.length) {
+              stats.filesWithIssues++;
+              stats.totalIssues += found.length;
+              found.forEach(issue => stats.byCategory[issue.category]++);
+              issues.push({
+                htmlFile,
+                sourceFile,
+                issues: found.map(issue => ({ ...issue, sourceFile })),
+              });
+              if (!groupByType) printIssues(sourceFile || htmlFile, found, verbose);
+            }
+          } catch (error) {
+            stats.filesFailed++;
+            failures.push({ htmlFile, error: error.message });
+            console.error(chalk.red(`Failed: ${htmlFile}: ${error.message}`));
+          } finally {
+            await context.close();
+          }
+          const completed = stats.filesChecked + stats.filesFailed;
+          if (completed % 25 === 0 || completed === stats.totalFiles) {
+            console.log(chalk.gray(`Progress: ${completed}/${stats.totalFiles}`));
+          }
+        }
+      })
+    );
+  } finally {
+    await browser.close();
+  }
+
+  issues.sort((a, b) => a.htmlFile.localeCompare(b.htmlFile));
+  if (groupByType) {
+    for (const [category, label] of Object.entries(labels)) {
+      if (!stats.byCategory[category]) continue;
+      console.log(chalk.blue(`\n${label}: ${stats.byCategory[category]}`));
+      for (const file of issues) {
+        const matches = file.issues.filter(issue => issue.category === category);
+        if (matches.length) printIssues(file.sourceFile || file.htmlFile, matches, verbose);
+      }
+    }
+  }
+  console.log(`\nPages checked: ${stats.filesChecked}; failed: ${stats.filesFailed}`);
+  console.log(`Pages with issues: ${stats.filesWithIssues}; total issues: ${stats.totalIssues}`);
+  for (const [category, label] of Object.entries(labels)) {
+    console.log(`  ${label}: ${stats.byCategory[category]}`);
+  }
+  if (jsonOutput) {
+    fs.writeFileSync(
+      jsonOutput,
+      JSON.stringify(
+        { summary: stats, issues, failures, generatedAt: new Date().toISOString() },
+        null,
+        2
+      )
+    );
+    console.log(`Results saved to ${jsonOutput}`);
+  }
+  if (stats.totalIssues || stats.filesFailed) process.exitCode = 1;
+}
+
+function printIssues(file, issues, verbose) {
+  console.log(chalk.yellow(`\n${file}: ${issues.length} issue(s)`));
+  for (const issue of verbose ? issues : issues.slice(0, 3)) {
+    console.log(`  ${issue.message || labels[issue.category]}: ${issue.context}`);
+  }
+  if (!verbose && issues.length > 3) console.log(`  ... and ${issues.length - 3} more`);
+}
+
+main().catch(error => {
+  console.error(chalk.red(error.message));
+  process.exitCode = 1;
+});

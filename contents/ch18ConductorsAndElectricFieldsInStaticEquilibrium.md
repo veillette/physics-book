@@ -751,7 +751,7 @@ When the charges are allowed to move and friction brings them to rest, they will
 
 Part (a): The electric field is undefined at the location of a point charge because it diverges as $$1/r^2$$ as we approach the charge. This mathematical singularity reminds us that the point charge model is an idealization; real charges have finite extent.
 
-Part (b): The dominant contribution to the field at $$x = 11.00$$ cm comes from the $$+3q$$ charge at $$x = 8.00$$ cm, which contributes about $$1.5 \times 10^5$$ N/C. This is because it's both relatively large (3q) and close (3.00\text{ cm} away). The field from the distant $$-2q$$ charge is much weaker despite its larger magnitude, illustrating the strong distance dependence ($$1/r^2$$) of the electric field.
+Part (b): The dominant contribution to the field at $$x = 11.00$$ cm comes from the $$+3q$$ charge at $$x = 8.00$$ cm, which contributes about $$1.5 \times 10^5$$ N/C. This is because it's both relatively large (3q) and close (3.00 cm away). The field from the distant $$-2q$$ charge is much weaker despite its larger magnitude, illustrating the strong distance dependence ($$1/r^2$$) of the electric field.
 
 Part (c): When conductors carrying different charges are brought into contact, charge redistributes until equilibrium is reached. Eventually, if the conductors merge or are continuously in contact while friction dissipates energy, all charge distributes uniformly over a single combined conductor. The total charge must be conserved, giving $$+q$$ in the final state. This principle is fundamental to electrostatics and is used in many practical applications, such as electrostatic charging by contact.
 
@@ -913,7 +913,7 @@ The electric field is zero at $$x = 6.07$$ cm.
 
 **Discussion**
 
-Part (a): The force of 0.252 N to the left on the 2.00 nC test charge is substantial for such a small charge. The dominant contribution comes from the nearby $$+q$$ charge at $$x = 5.00$$ cm (only 1.00\text{ cm} away), which repels the test charge strongly leftward. The $$+3q$$ charge at 8.00\text{ cm} also repels leftward, while the attractive forces from the negative charges are weaker due to greater distances. The net leftward force demonstrates that proximity matters more than charge magnitude when forces scale as $$1/r^2$$.
+Part (a): The force of 0.252 N to the left on the 2.00 nC test charge is substantial for such a small charge. The dominant contribution comes from the nearby $$+q$$ charge at $$x = 5.00$$ cm (only 1.00 cm away), which repels the test charge strongly leftward. The $$+3q$$ charge at 8.00 cm also repels leftward, while the attractive forces from the negative charges are weaker due to greater distances. The net leftward force demonstrates that proximity matters more than charge magnitude when forces scale as $$1/r^2$$.
 
 Part (b): The zero-field point at $$x = 6.07$$ cm lies between the $$+q$$ and $$+3q$$ charges but closer to the smaller $$+q$$ charge. This makes sense: at this position, the repulsive fields from both positive charges point in opposite directions (the $$+q$$ pushes rightward, the $$+3q$$ pushes leftward). Being closer to the smaller charge allows it to balance the larger $$+3q$$. The contributions from the more distant $$-2q$$ and $$-q$$ charges fine-tune this balance. Finding such zero-field points is important in applications like particle traps and beam focusing systems.
 
@@ -928,7 +928,7 @@ Part (b): The zero-field point at $$x = 6.07$$ cm lies between the $$+q$$ and $$
 Using the symmetry of the arrangement, determine the direction of the force on  $$q $$
  in the figure below, given that  $${q}_{a}={q}_{b}=+7.50 \text{μC} $$
  and  $${q}_{c}={q}_{d}=-7.50 \text{μC} $$ .
- (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0\text{ cm} on a side and  $$q=2.00 \text{μC} $$.
+ (b) Calculate the magnitude of the force on the charge  $$q $$ , given that the square is 10.0 cm on a side and  $$q=2.00 \text{μC} $$.
 
 ![Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.](../resources/Figure_18_07_12.jpg ' ')
 {: #Figure16}
@@ -1200,7 +1200,7 @@ $$\vec{F}_d = 0.0719 \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = -0.0508\hat{x}
 
 The x-components cancel, so the net force points straight down.
 
-The total Coulomb force on $$q$$ is **0.102\text{ N} in the** $$-y$$ **direction (downward)**.
+The total Coulomb force on $$q$$ is **0.102 N in the** $$-y$$ **direction (downward)**.
 
 **Discussion**
 

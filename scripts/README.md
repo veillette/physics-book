@@ -12,6 +12,7 @@ Build and utility scripts for the Physics Book project.
 | check-orphans           | `npm run check:orphans`           | Find unreferenced files           |
 | check-figures           | `npm run check:figures`           | Validate figure references        |
 | check-math              | `npm run check:math`              | Check LaTeX delimiter balance     |
+| find-unrendered-latex   | `npm run find:latex`              | Check math rendering in Chromium  |
 | check-accessibility     | `npm run check:accessibility`     | Check alt text and accessibility  |
 | check-yaml              | `npm run check:yaml`              | Validate YAML front matter        |
 | check-structure         | `npm run check:structure`         | Validate document structure       |
@@ -179,6 +180,24 @@ Checks for unbalanced LaTeX math delimiters.
 ```bash
 npm run check:math               # Check contents/ directory
 ```
+
+### find-unrendered-latex.js
+
+Checks every built textbook page in Chromium for leftover LaTeX and MathJax error
+messages, including math in captions and hidden solutions. Run `npm run serve`
+first. Failed page loads and missing MathJax are reported as failures; findings or
+failures return a nonzero exit status.
+
+```bash
+npm run find:latex
+npm run find:latex -- --no-enrichment --json /tmp/latex-issues.json
+npm run find:latex -- --file 'ch3*.html' --verbose
+npm run find:latex -- --base-url http://localhost:4001/physics-book/contents/
+```
+
+`--no-enrichment` skips optional speech and braille enrichment to speed up the
+audit while retaining the textbook's TeX macros and rendering rules. Use
+`--by-type` to group findings and `--concurrent 3` to set the number of workers.
 
 ### check-accessibility.js
 

@@ -365,7 +365,7 @@ The middle-C hammer of a piano hits two strings, producing beats of 1.50 Hz. One
 
 **Strategy**
 
-The beat frequency is the absolute value of the difference between two frequencies: $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|$$. Given that one string has frequency $${f}_{1}=260.00$$ Hz and the beat frequency is 1.50\text{ Hz}, the other string's frequency $${f}_{2}$$ could be either higher or lower than 260.00 Hz by 1.50 Hz.
+The beat frequency is the absolute value of the difference between two frequencies: $${f}_{\text{B}}=|{f}_{1}-{f}_{2}|$$. Given that one string has frequency $${f}_{1}=260.00$$ Hz and the beat frequency is 1.50 Hz, the other string's frequency $${f}_{2}$$ could be either higher or lower than 260.00 Hz by 1.50 Hz.
 
 **Solution**
 

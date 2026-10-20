@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { load } from 'cheerio';
 import { createMarkdown } from '../lib/eleventy/markdown.js';
 import { kramdownSlugify } from '../lib/eleventy/kramdown-slugify.js';
 
@@ -10,7 +11,7 @@ const md = createMarkdown();
 const span = x => `\\(${x}\\)`;
 const blockDiv = x => `\\[\n${x}\n\\]\n`;
 
-describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () => {
+describe('math rendering with Kramdown-compatible delimiters', () => {
   it('inline $$…$$ becomes \\(...\\) delimiters with trimmed content', () => {
     expect(md.renderInline('$$Q $$')).toBe(span('Q'));
     expect(md.renderInline(String.raw`$$\Delta \text{PE}=q\Delta V $$`)).toBe(
@@ -18,11 +19,21 @@ describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () =>
     );
   });
 
-  it('emits math body RAW (unescaped & and <), exactly as Kramdown does', () => {
-    expect(md.renderInline('$$a& =&b$$')).toBe(span('a& =&b'));
+  it('escapes HTML syntax without changing the TeX read by MathJax', () => {
+    expect(md.renderInline('$$a& =&b$$')).toBe(span('a&amp; =&amp;b'));
     // {d}_{\text{o}}<f  — built by concat so ${ never starts an interpolation
     const inner = `{d}_{${String.raw`\text{o}`}}<f`;
-    expect(md.renderInline(`$$${inner} $$`)).toBe(span(inner));
+    const html = md.renderInline(`$$${inner} $$`);
+    expect(html).toBe(span(inner.replace('<', '&lt;')));
+    expect(load(html)('body').text()).toBe(span(inner));
+  });
+
+  it('keeps inequalities next to letters from becoming HTML elements', () => {
+    const out = md.render('A case 2 image has $$d_o<f$$; the quantum rule is $$l<n$$.');
+    const body = load(out)('body');
+    expect(body.find('f, n')).toHaveLength(0);
+    expect(body.text()).toContain(span('d_o<f'));
+    expect(body.text()).toContain(span('l<n'));
   });
 
   it('does NOT treat single $ as math (currency stays literal)', () => {
@@ -42,7 +53,7 @@ describe('kramdown math parity (roadmap 4.1, verified vs kramdown 2.5.1)', () =>
 
   it('preserves \\\\ row separators and & inside a multi-line display block', () => {
     const body = String.raw`\begin{array}{ll} a & b \\ c & d \end{array}`;
-    expect(md.render(`$$${body}$$`)).toBe(blockDiv(body));
+    expect(md.render(`$$${body}$$`)).toBe(blockDiv(body.replaceAll('&', '&amp;')));
   });
 
   it('$$…$$ embedded in a paragraph stays an inline span', () => {

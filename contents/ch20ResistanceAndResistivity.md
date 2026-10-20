@@ -852,7 +852,7 @@ Comparing with [[Table 2]](#Table2), this value matches **iron**.
 
 **Discussion**
 
-Iron's temperature coefficient of $$5.0 \times 10^{-3}$$ /ºC is among the highest for common conductors. This relatively large temperature dependence makes iron unsuitable for precision resistors but useful for applications like resistance temperature detectors (RTDs). The 40% increase in resistance over 80\text{ °C} is significant—this is why materials like Manganin or Constantan (with $$\alpha$$ near zero) are used when stable resistance is needed across temperature ranges.
+Iron's temperature coefficient of $$5.0 \times 10^{-3}$$ /ºC is among the highest for common conductors. This relatively large temperature dependence makes iron unsuitable for precision resistors but useful for applications like resistance temperature detectors (RTDs). The 40% increase in resistance over 80 °C is significant—this is why materials like Manganin or Constantan (with $$\alpha$$ near zero) are used when stable resistance is needed across temperature ranges.
 
 The resistor is made of iron, which has a temperature coefficient of resistivity of $$5.0 \times 10^{-3}$$ /ºC.
 
@@ -1142,7 +1142,7 @@ when it is at the same temperature as the patient. What is a patient's temperatu
 
 **Strategy**
 
-For part (a), we use $$R = R_{0}(1 + \alpha \Delta T)$$ where $$R_{0}$$ is the resistance at 37.0\text{ °C} (the reference temperature) and $$R = 0.820 R_{0}$$. Note that $$\Delta T = T - 37.0$$ where $$T$$ is the unknown patient temperature. For part (b), we analyze when the linear model breaks down.
+For part (a), we use $$R = R_{0}(1 + \alpha \Delta T)$$ where $$R_{0}$$ is the resistance at 37.0 °C (the reference temperature) and $$R = 0.820 R_{0}$$. Note that $$\Delta T = T - 37.0$$ where $$T$$ is the unknown patient temperature. For part (b), we analyze when the linear model breaks down.
 
 **Solution**
 
@@ -1268,7 +1268,7 @@ Starting from 20 °C: $$T = 20 - 250\,000 = -249\,980$$ ºC
 - To double the resistance would require heating to 500,020 °C, which is approximately 90 times hotter than the surface of the Sun (about 5,500 °C). Constantan would vaporize long before reaching such temperatures—its melting point is around 1,220 °C.
 - To halve the resistance would require cooling to -249,980 °C, which is about 250,000 degrees below absolute zero (-273.15 °C). This is physically impossible since absolute zero is the lowest possible temperature.
 
-**(d)** The unreasonable assumption is that the temperature coefficient of resistivity $$\alpha$$ remains constant over such extreme temperature ranges. The linear model $$R = R_{0}(1 + \alpha \Delta T)$$ is only valid for relatively small temperature changes (typically less than 100\text{ °C}). For large temperature changes, the relationship between resistance and temperature becomes nonlinear, $$\alpha$$ itself changes with temperature, and at extreme temperatures, phase changes occur (melting, vaporization). Additionally, the premise of trying to significantly change constantan's resistance through temperature is fundamentally misguided—constantan is specifically designed and named for its nearly constant resistance over a wide temperature range.
+**(d)** The unreasonable assumption is that the temperature coefficient of resistivity $$\alpha$$ remains constant over such extreme temperature ranges. The linear model $$R = R_{0}(1 + \alpha \Delta T)$$ is only valid for relatively small temperature changes (typically less than 100 °C). For large temperature changes, the relationship between resistance and temperature becomes nonlinear, $$\alpha$$ itself changes with temperature, and at extreme temperatures, phase changes occur (melting, vaporization). Additionally, the premise of trying to significantly change constantan's resistance through temperature is fundamentally misguided—constantan is specifically designed and named for its nearly constant resistance over a wide temperature range.
 
 **Discussion**
 

@@ -267,7 +267,7 @@ This symmetric two-photon decay is characteristic of neutral particles that are 
 
 The equal energy sharing between the two photons is a direct consequence of momentum conservation and the symmetry of the decay. In the pion's rest frame, there is no preferred direction, so the photons must emerge back-to-back with equal energies. If the pion were moving, the photon energies would be different in the lab frame due to Doppler shifting, but in the pion's rest frame they would still be equal.
 
-This decay mode occurs nearly 99% of the time for the $${\pi}^{0}$$. The photons produced have energies in the gamma-ray range (67.5\text{ MeV} is much higher than typical atomic transition energies). These high-energy photons can be detected in particle detectors, and their back-to-back emission pattern is a signature of $${\pi}^{0}$$ decay. This process is important in high-energy physics experiments and also occurs in cosmic ray showers when high-energy protons strike atmospheric nuclei, producing pions that quickly decay into photons.
+This decay mode occurs nearly 99% of the time for the $${\pi}^{0}$$. The photons produced have energies in the gamma-ray range (67.5 MeV is much higher than typical atomic transition energies). These high-energy photons can be detected in particle detectors, and their back-to-back emission pattern is a signature of $${\pi}^{0}$$ decay. This process is important in high-energy physics experiments and also occurs in cosmic ray showers when high-energy protons strike atmospheric nuclei, producing pions that quickly decay into photons.
 
 :::
 

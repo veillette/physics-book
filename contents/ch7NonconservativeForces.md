@@ -491,7 +491,7 @@ Part (a) reveals that without friction, the car could coast up to 47.8 m—rough
 
 In part (b), we see that friction dissipates $$ 1.9 \times 10^5 $$ J, which is 54% of the car's initial kinetic energy. This means friction removes more than half the car's energy, reducing the maximum coasting height from 47.8 m to only 22.0 m—less than half the frictionless height. This substantial energy loss illustrates why cars cannot coast very far uphill with the engine off, and why fuel efficiency is so important in hilly terrain.
 
-Part (c) shows the friction force is about 380 N (approximately 85 pounds). This might seem modest for a 750-kg car, but it acts over a long distance of 504 m. The shallow $$ 2.5\text{ °} $$ slope means the car travels a horizontal distance of nearly 500\text{ m} while climbing 22\text{ m} vertically. The work done by friction, $$ W_f = fd = (380\text{ N})(504\text{ m}) = 1.9 \times 10^5\text{ J} $$, accumulates to a substantial amount over this distance.
+Part (c) shows the friction force is about 380 N (approximately 85 pounds). This might seem modest for a 750-kg car, but it acts over a long distance of 504 m. The shallow $$ 2.5\text{ °} $$ slope means the car travels a horizontal distance of nearly 500 m while climbing 22 m vertically. The work done by friction, $$ W_f = fd = (380\text{ N})(504\text{ m}) = 1.9 \times 10^5\text{ J} $$, accumulates to a substantial amount over this distance.
 
 Comparing parts (a) and (b) demonstrates that friction is a major factor in real-world motion. Engineers must account for these losses when designing vehicles, which is why modern cars use low-friction tires, aerodynamic shapes, and efficient drivetrains to minimize energy waste.
 

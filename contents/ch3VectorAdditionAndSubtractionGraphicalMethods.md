@@ -884,7 +884,7 @@ in a direction $$40.0^\circ$$
 north of east (which is equivalent to subtracting $$\vb{B}$$ from
 $$\vb{A}$$—that is, to finding $$\vb{R}^{\prime} =\vb{A}-\vb{B}$$).
 (b) Repeat the problem two problems prior, but now you first walk 20.0 m in a
-direction $$40.0^\circ$$ south of west and then 12.0\text{ m} in a direction $$20.0^\circ$$ east of south (which is equivalent to subtracting $$\vb{A}$$ from $$\vb{B}$$—that is, to finding
+direction $$40.0^\circ$$ south of west and then 12.0 m in a direction $$20.0^\circ$$ east of south (which is equivalent to subtracting $$\vb{A}$$ from $$\vb{B}$$—that is, to finding
 $$\vb{R}^{\prime\prime} =\vb{B}-\vb{A}=-\vb{R}^{\prime}$$).
 Show that this is the case.
 

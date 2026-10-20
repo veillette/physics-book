@@ -383,7 +383,7 @@ Rearranging the mutual inductance equation to solve for $$M$$:
 $$M=\frac{\left|{\text{emf}}_{2}\right|}{\Delta I_1/\Delta t}$$
 </div>
 
-The change in current is $$\Delta I_1 = 5.00 \text{ A}$$ (from 5.00\text{ A} to zero), and the time interval is $$\Delta t = 1.00 \text{ ms} = 1.00 \times 10^{-3} \text{ s}$$. The induced emf is 9.00 V. Substituting:
+The change in current is $$\Delta I_1 = 5.00 \text{ A}$$ (from 5.00 A to zero), and the time interval is $$\Delta t = 1.00 \text{ ms} = 1.00 \times 10^{-3} \text{ s}$$. The induced emf is 9.00 V. Substituting:
 
 <div class="equation">
 $$M=\frac{9.00 \text{ V}}{5.00 \text{ A}/1.00 \times 10^{-3} \text{ s}}=\frac{9.00 \text{ V} \times 1.00 \times 10^{-3} \text{ s}}{5.00 \text{ A}}=1.80 \times 10^{-3} \text{ H}=1.80 \text{ mH}$$
