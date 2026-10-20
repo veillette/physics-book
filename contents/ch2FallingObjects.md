@@ -449,6 +449,27 @@ What is the acceleration of a rock thrown straight upward on the way up? At the 
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Apply the same gravitational acceleration throughout the flight, neglecting air resistance.
+
+**Solution**
+
+Choose $$+y$$ upward because it makes upward and downward directions explicit. Once the rock leaves the hand, gravity is the only force, so
+
+$$a_y=-g=-9.80\mss$$
+
+on the way up, at the highest point, and on the way down. For example, a launch at $$v_{0y}=+9.80\ms$$ gives $$v_y=+9.80\ms-(9.80\mss)t$$, which becomes zero at $$t=1.00\s$$ even though its rate of change is still $$-9.80\mss$$.
+
+![Rock velocities upward, zero at the top, and downward; acceleration is downward at all three positions.](../resources/concept_02_07_q01.svg){: .sketch}
+
+Neglecting air resistance, the rock’s acceleration is 9.80 m/s² downward on the way up, at the top, and on the way down.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -462,6 +483,29 @@ An object that is thrown straight up falls back to Earth. This is one-dimensiona
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Track the sign of vertical velocity separately from the sign of acceleration.
+
+**Solution**
+
+Take $$+y$$ upward and neglect air resistance. For an illustrative $$v_{0y}=+19.6\ms$$ launch,
+
+$$v_y=v_{0y}-gt=19.6\ms-(9.80\mss)t.$$
+
+**(a)** Setting $$v_y=0\ms$$ gives $$t=(19.6\ms)/(9.80\mss)=2.00\s$$, the highest point.
+
+**(b)** Before that point $$v_y>0$$; afterward $$v_y<0$$. The velocity therefore reverses from upward to downward.
+
+**(c)** The acceleration remains $$a_y=-9.80\mss$$ throughout; it does not reverse when the velocity reverses.
+
+The velocity is zero at the highest point and then reverses downward, while gravitational acceleration keeps the same downward sign throughout the flight.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -472,6 +516,31 @@ Suppose you throw a rock nearly straight up at a coconut in a palm tree, and the
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Compare the speeds at the same height, then distinguish the impact’s speed from the direction in which it loads the coconut’s attachment.
+
+**Solution**
+
+Choose $$+y$$ upward. At coconut height $$h$$ above the release point, the equation
+
+$$v_y^2=v_{0y}^2-2gh$$
+
+has the same right-hand side on both passages. For example, if $$v_{0y}=14.0\ms$$ and $$h=5.00\m$$,
+
+$$|v_y|=\sqrt{(14.0\ms)^2-2(9.80\mss)(5.00\m)}=9.90\ms.$$
+
+The upward velocity is $$+9.90\ms$$ and the downward velocity is $$-9.90\ms$$, so the impact kinetic energies for the same rock are equal.
+
+Dislodging the coconut also depends on the attachment and impact direction. For a coconut hanging from a stem above it, a downward impact can increase stem tension, whereas an upward impact initially relieves tension. In that model the downward hit may be more effective. Equal speed alone does not establish a universal probability of detachment; a different attachment or impact geometry can change the result.
+
+The rock hits at the same speed in either direction, but a downward hit may more readily detach a coconut suspended from above because it loads the stem in tension; that preference depends on the attachment rather than on a greater downward impact speed.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -479,6 +548,27 @@ Suppose you throw a rock nearly straight up at a coconut in a palm tree, and the
 :::: problem
 
 If an object is thrown straight up and air resistance is negligible, then its speed when it returns to the starting point is the same as when it was released. If air resistance were not negligible, how would its speed upon return compare with its initial speed? How would the maximum height to which it rises be affected?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Follow the direction of air resistance and the mechanical energy it removes during ascent and descent.
+
+**Solution**
+
+Air resistance acts opposite the rock’s velocity. On ascent it acts downward along with gravity, so the rock slows faster and reaches a lower maximum height than in vacuum. On descent it acts upward, opposing the gain in speed.
+
+For illustration, a $$0.20\kg$$ rock launched at $$10.0\ms$$ initially has
+
+$$K_i=\tfrac12(0.20\kg)(10.0\ms)^2=10.0\J.$$
+
+Without drag, its maximum rise is $$h=(10.0\ms)^2/[2(9.80\mss)]=5.10\m$$. If drag dissipates an assumed $$2.0\J$$ before the top, only $$8.0\J$$ is available as gravitational potential energy, giving $$h=(8.0\J)/[(0.20\kg)(9.80\mss)]=4.08\m$$. Further energy is dissipated on the descent, so the return kinetic energy is less than the original $$10.0\J$$.
+
+With air resistance, the rock returns to its release height at a lower speed than its initial speed and reaches a lower maximum height because drag removes mechanical energy throughout the flight.
 
 ::::
 
@@ -493,6 +583,29 @@ factors but the acceleration due to gravity being the same, how many times highe
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Hold the impact speed fixed and compare the release heights given by the constant-acceleration equation.
+
+**Solution**
+
+For a fall from rest, ignoring air resistance and taking downward as positive,
+
+$$v^2=2gh\quad\Rightarrow\quad h=\frac{v^2}{2g}.$$
+
+The same impact speed therefore requires height inversely proportional to $$g$$:
+
+$$\frac{h_M}{h_E}=\frac{g_E}{g_M}=6.$$
+
+For example, $$v=4.0\ms$$ corresponds to $$h_E=(4.0\ms)^2/[2(9.80\mss)]=0.82\m$$ on Earth and approximately $$4.9\m$$ on the Moon. This compares speeds only; the question assumes identical landing conditions and does not establish an actual injury threshold.
+
+For the same impact speed and otherwise identical landing conditions, a fall on the Moon could be six times as high as the corresponding fall on Earth.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -501,6 +614,29 @@ factors but the acceleration due to gravity being the same, how many times highe
 
 How many times higher could an astronaut jump on the Moon than on Earth if
 his takeoff speed is the same in both locations (gravitational acceleration on the Moon is about 1/6 of $$ g $$ on Earth)?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Find the height at which upward velocity becomes zero for the same launch speed in both locations.
+
+**Solution**
+
+Take $$+y$$ upward and measure height from takeoff. At the top, $$v_y=0\ms$$, so
+
+$$0=v_0^2-2gh\quad\Rightarrow\quad h=\frac{v_0^2}{2g}.$$
+
+Since $$g_M=g_E/6$$,
+
+$$h_M=\frac{v_0^2}{2(g_E/6)}=6h_E.$$
+
+For an assumed takeoff speed $$v_0=3.0\ms$$, the rises are $$h_E=(3.0\ms)^2/[2(9.80\mss)]=0.46\m$$ and $$h_M\approx2.8\m$$. This assumes the same initial speed, no atmospheric drag, and heights small enough that local gravity is effectively constant.
+
+An astronaut with the same takeoff speed could rise six times as high on the Moon as on Earth because the Moon’s gravitational acceleration is one sixth as large.
 
 ::::
 
@@ -832,27 +968,38 @@ A dolphin in an aquatic show jumps straight up out of the water at a velocity of
 
 :::: solution
 
-**Sketch and coordinate system**
+**Strategy**
 
-![A vertical +y axis points up, with the origin at the water surface. Leaving the water: t = 0, y₀ = 0, v₀ = +13.0 m/s. At the top: y unknown, v = 0. Back at the water (part c): y = 0, t unknown. The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p05.svg){: .sketch}
+Use upward-positive vertical motion, first setting velocity to zero at the top and then setting position to its release value for the return time.
 
-Take $$ +y $$ upward, with the origin at the water surface and $$ t = 0 $$ when the dolphin leaves the water. Then $$ y_0 = 0 $$, $$ v_0 = +13.0 \ms $$, $$ v = 0 $$ at the top, and $$ a = -9.80 \mss $$ throughout.
+**Solution**
 
-(a) $$ a=-9.80 \mss $$; $$ v_{0}=13.0 \ms $$; $$ y_{0}=0 \m $$ (b) $$ v=0 \ms $$. Unknown is distance $$ y $$ to top of trajectory,
-where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ because it contains all known values except for $$ y $$, so we can solve for
-$$ y $$. Solving for $$ y $$ gives
+Choose $$+y$$ upward, the water surface as $$y=0\m$$, and $$t=0\s$$ at takeoff. Neglect drag, size, and orientation as stated.
 
-<div class="equation">
-$$ \begin{array}{lll}
-v^{2}-v_{0}^{2}&=& 2a\left(y-y_{0}\right)\\
-\frac{ v^{2}-v_{0}^{2}}{2a}&=& y-y_{0}\\
-y&=& y_{0}+\frac{ v^{2}-v_{0}^{2}}{2a}=0 m+\frac{ {\left(0 \ms \right)}^{2}-{\left(13.0 \ms \right)}^{2}}{2\left(-9.80 \mss \right)}=8.62 \m
-\end{array} $$
-</div>
+![Vertical axis with origin at the water surface, launch velocity +13.0 m/s, zero vertical velocity at the top, and acceleration −9.80 m/s² throughout.](../resources/sketch_02_07_p05.svg){: .sketch}
 
-Dolphins measure about 2 meters long and can jump several times their length out of the water, so this is a reasonable result.
+**(a)** The knowns are $$y_0=0\m$$, $$v_0=+13.0\ms$$, and $$a=-9.80\mss$$. At the top, $$v=0\ms$$.
 
-(c) $$ 2.65 \s $$
+**(b)** The unknown is the maximum height. The equation $$v^2=v_0^2+2a(y-y_0)$$ uses the known velocities and acceleration without requiring the unknown time. Rearranging and substituting,
+
+$$y=y_0+\frac{v^2-v_0^2}{2a}=0\m+\frac{(0\ms)^2-(13.0\ms)^2}{2(-9.80\mss)}=8.62\m.$$
+
+The units are $$(\m^2/\s^2)/(\m/\s^2)=\m$$. The positive height is consistent with an upward launch. The dolphin rises 8.62 m above the water in the stated point-particle model.
+
+**(c)** On return to the water, $$y-y_0=0\m$$, so
+
+$$0=v_0t-\tfrac12gt^2=t(v_0-\tfrac12gt).$$
+
+The root $$t=0\s$$ is takeoff; the later root is
+
+$$t=\frac{2v_0}{g}=\frac{2(13.0\ms)}{9.80\mss}=2.65\s.$$
+
+**Discussion**
+
+The ascent lasts $$v_0/g=1.3265\s\approx1.33\s$$, and the return to the same height takes twice the unrounded ascent time. The symmetry is expected for constant gravity without drag.
+
+The dolphin’s total time in the air is 2.65 s, reaching a maximum height of 8.62 m above the water.
+
 
 ::::
 

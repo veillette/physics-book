@@ -184,25 +184,22 @@ gravitational potential energy the same in both cases? Is your energy consumptio
 
 **Strategy**
 
-Compare the force and power needed on a steep straight path and on a gentler zigzag path to the same summit. Then compare the change in gravitational potential energy and the total energy the body uses.
+Compare mechanical work and power on two slopes, then state the extra assumptions needed to compare metabolic energy.
 
 **Solution**
 
-Consider a $$ 70 \kg $$ hiker climbing a height of $$ h = 500 \m $$. Take $$ +y $$ upward, so $$ \Delta\PE_{g} = mgh $$.
+Let a $$70\kg$$ hiker gain $$h=500\m$$, with $$+y$$ upward. At steady speed along a slope of angle $$\theta$$, the uphill force component needed against gravity is $$mg\sin\theta$$. On a $$30°$$ route it is $$(70\kg)(9.80\mss)\sin30°=343\N$$; on a $$10°$$ zigzag it is $$119\N$$. At the same path speed $$1.0\ms$$, the mechanical climbing powers are $$343\text{ W}$$ and $$119\text{ W}$$, so the gentler path can be easier to sustain.
 
-**Why the zigzag is easier.** Walking at a steady speed up a slope of angle $$ \theta $$, the hiker must push against the component of gravity along the slope, $$ mg\sin\theta $$. On a $$ 30° $$ straight path that force is $$ (70 \kg)(9.80 \mss)\sin 30° = 343 \N $$. On a $$ 10° $$ zigzag it is only $$ (686 \N)\sin 10° = 119 \N $$. The zigzag path is longer, but each step needs a smaller force and the rate of climbing, and therefore the power, is lower. Walking at $$ 1.0 \ms $$ along the path, the rate of gaining potential energy is $$ (343 \N)(1.0 \ms) = 343 \text{ W} $$ on the straight path and $$ 119 \text{ W} $$ on the zigzag. Muscles can sustain the lower power for much longer.
+Both routes give exactly the same gravitational potential-energy gain:
 
-**Gravitational potential energy: the same.** It depends only on the change in height:
+$$\Delta U_g=mgh=(70\kg)(9.80\mss)(500\m)=3.43\times10^5\J.$$
 
-<div class="equation">
-$$ \Delta\PE_{g} = mgh = (70 \kg)(9.80 \mss)(500 \m) = 3.4 \times 10^{5} \J $$
-</div>
+Metabolic energy need **not** be equal. In a simplified model with the same efficiency $$\eta=0.20$$ and fixed background metabolism $$P_0=100\text{ W}$$ on both routes, $$E_{\text{food}}=mgh/\eta+P_0t$$. At the assumed path speed, $$t=h/(v\sin\theta)$$ gives $$1000\s$$ and $$2879\s$$, respectively. This particular model makes the longer route consume an extra $$(100\text{ W})(2879\s-1000\s)=1.88\times10^5\J$$.
 
-for either path.
+That is a **conditional model result**, not a general rule that zigzags always consume more energy. Real walking efficiency depends on slope, speed, footing, and gait, so the energy ordering requires additional information. The equal $$mgh$$ result does not require those physiological assumptions.
 
-**Energy consumption: not the same.** The body is only about $$ 20\% $$ efficient, so climbing alone requires at least $$ (3.4 \times 10^{5} \J)/0.20 = 1.7 \times 10^{6} \J $$ of food energy. The zigzag path takes longer, and the body uses energy just to stay alive and walk (at a basal rate of about $$ 100 \text{ W} $$) during all that time, so the **total** consumed is usually somewhat **greater** on the zigzag path, even though it feels easier.
+A zigzag climb can be easier because it requires less uphill force and power, the gravitational potential-energy gain is the same, and the total metabolic energy can differ in either direction depending on the walking conditions and physiological model.
 
-It is easier to climb a mountain on a zigzag path because the gentler slope needs a smaller force and power (for example, $$ 119 \text{ W} $$ compared with $$ 343 \text{ W} $$ for a $$ 70 \kg $$ hiker at $$ 1.0 \ms $$); the increase in gravitational potential energy is the same on both paths ($$ 3.4 \times 10^{5} \J $$ for $$ 500 \m $$), but the energy consumed is somewhat greater on the zigzag because the longer climb takes more time.
 
 :::
 
@@ -221,21 +218,24 @@ What is the efficiency of this activity?
 
 **Strategy**
 
-Work is done on the outside world only if a force moves an object outside your body. Identify where the energy goes when you rub your hands, and use the definition of efficiency, $$ \text{Eff} = W_{\text{out}}/E_{\text{in}} $$.
+Choose the whole body as the system and use the relative sliding distance between the hands to calculate frictional heating.
 
 **Solution**
 
-No, you do essentially **no work on the outside world**. Each hand does work on the other, against kinetic friction. If each hand pushes with a friction force of $$ 5.0 \N $$ while sliding $$ 0.10 \m $$, one stroke converts about $$ (5.0 \N)(0.10 \m) = 0.50 \J $$ into thermal energy. But both hands are part of your body, so this is internal work. The thermal energy ends up in your skin, which is exactly the goal.
+Both hands are parts of the body, so friction between them is an internal interaction. They do essentially no mechanical work on an object in the outside world, although the muscles use chemical energy and the hands warm up.
 
-The useful output **to the outside world** is $$ W_{\text{out}} = 0 \J $$, so the efficiency as defined for doing work is
+For a clear numerical example, assume each hand moves $$0.10\m$$ in opposite directions during one stroke and the friction force magnitude is $$5.0\N$$. The relative sliding distance is
 
-<div class="equation">
-$$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} = \frac{0 \J}{E_{\text{in}}} = 0\% $$
-</div>
+$$d_{\text{rel}}=0.10\m+0.10\m=0.20\m,$$
 
-All the food energy used, both by the muscles directly and through friction, becomes thermal energy in your body. For warming your hands, that is just what you want.
+so the frictional energy converted to heat is
 
-Rubbing your hands together does no work on the outside world, because the friction forces act between parts of your own body, so the efficiency of the activity is $$ 0\% $$, with all the food energy used (about $$ 0.50 \J $$ of friction heating per stroke, plus the muscles' own heat) becoming thermal energy that warms your hands.
+$$E_{\text{friction}}=f_kd_{\text{rel}}=(5.0\N)(0.20\m)=1.0\J.$$
+
+The muscles also generate heat internally. With efficiency defined as external mechanical work divided by food-energy input, $$\mathrm{Eff}=W_{\text{out}}/E_{\text{in}}=0\J/E_{\text{in}}=0\%$$. This is mechanical-work efficiency; if useful warmth is the intended output, a different efficiency definition would be appropriate.
+
+Rubbing the hands does essentially no external mechanical work, so its external-work efficiency is zero, while internal friction and muscle activity convert chemical energy into heat, including 1.0 J per stroke in the stated example.
+
 
 :::
 

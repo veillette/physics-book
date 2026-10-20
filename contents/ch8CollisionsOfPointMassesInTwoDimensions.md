@@ -348,7 +348,7 @@ $$ \theta_{1} = 180° - 2\phi = 180° - 2\arcsin\left(\frac{b}{R}\right) $$
 - $$ b = 0.87R $$: $$ \phi = 60° $$, so $$ \theta_{1} = 60° $$.
 - $$ b \to R $$ (grazing): $$ \theta_{1} \to 0° $$.
 
-Every direction from $$ 0° $$ to $$ 180° $$ is possible, and $$ \theta_{1} $$ decreases smoothly as $$ b $$ increases. Rutherford used exactly this kind of reasoning about the distribution of scattering angles to deduce the shape and size of the atomic nucleus.
+Every direction from $$ 0° $$ to $$ 180° $$ is possible, and $$ \theta_{1} $$ decreases smoothly as $$ b $$ increases. Scattering can reveal target properties, but this hard-sphere reflection model is not Rutherford’s atomic model: his alpha-particle analysis used a concentrated electric charge and inverse-square repulsion, giving hyperbolic trajectories rather than contact reflections.
 
 (a) Off the massive cube, the small object reflects from a flat face at $$ \theta_{1} = 2\alpha $$ (for example, $$ 50° $$), which does not depend on $$ b $$ except through which face is struck, so only a few discrete directions are possible; (b) off a massive sphere, $$ \theta_{1} = 180° - 2\arcsin(b/R) $$ varies continuously from $$ 180° $$ for a head-on hit to nearly $$ 0° $$ for a grazing one.
 

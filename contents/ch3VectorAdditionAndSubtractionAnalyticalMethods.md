@@ -444,6 +444,29 @@ magnitude?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Apply the component formula for the magnitude of the sum at relative angle θ.
+
+**Solution**
+
+For magnitudes $$A$$ and $$B$$,
+
+$$R^2=A^2+B^2+2AB\cos\theta.$$
+
+The largest value occurs at $$\cos\theta=1$$, when the vectors point in the same direction: $$R_{\max}=A+B$$. The smallest occurs at $$\cos\theta=-1$$, when they point oppositely: $$R_{\min}=|A-B|$$. The absolute value is necessary because a magnitude cannot be negative.
+
+![Vectors of lengths 4.0 and 3.0 m give resultants 7.0 m when parallel, 5.0 m when perpendicular, and 1.0 m when opposite.](../resources/concept_03_03_q01.svg)
+
+For $$A=4.0\m$$ and $$B=3.0\m$$, the maximum is $$4.0\m+3.0\m=7.0\m$$ and the minimum is $$|4.0\m-3.0\m|=1.0\m$$.
+
+Parallel vectors pointing the same way give the maximum resultant magnitude A + B, while oppositely directed vectors give the minimum magnitude |A − B|.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -454,6 +477,27 @@ Give an example of a nonzero vector that has a component of zero.
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Choose a vector lying entirely along one coordinate axis.
+
+**Solution**
+
+With $$+x$$ east and $$+y$$ north, a displacement $$\vb A$$ of $$5.0\text{ km}$$ north is
+
+$$\vb A=(0\text{ km})\hat{\mathbf{x}}+(5.0\text{ km})\hat{\mathbf{y}}.$$
+
+Its east component is zero, but its magnitude is $$\sqrt{(0\text{ km})^2+(5.0\text{ km})^2}=5.0\text{ km}$$, so the vector is not zero.
+
+![A 5.0 km northward displacement lies along +y and has zero x component.](../resources/concept_03_03_q02.svg)
+
+A displacement of 5.0 km north is a nonzero vector with zero eastward component.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -461,6 +505,25 @@ Give an example of a nonzero vector that has a component of zero.
 :::: problem
 
 Explain why a vector cannot have a component greater than its own magnitude.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Express a component as a projection onto a unit axis.
+
+**Solution**
+
+A component along a chosen axis is $$A_x=A\cos\theta$$. Since $$|\cos\theta|\le1$$, its magnitude satisfies $$|A_x|\le A$$. Equivalently, $$A=\sqrt{A_x^2+A_y^2+A_z^2}$$ cannot be smaller than any one component’s absolute value.
+
+![A vector of magnitude 5.0 m forms the hypotenuse of a component triangle with legs approximately 4.0 and 3.0 m.](../resources/concept_03_03_q03.svg)
+
+For example, $$A=5.0\m$$ at $$37°$$ above $$+x$$ gives $$A_x=(5.0\m)\cos37°\approx4.0\m$$ and $$A_y=(5.0\m)\sin37°\approx3.0\m$$. Components may be negative, so the comparison is between their **absolute values** and the nonnegative vector magnitude.
+
+The magnitude of a vector component cannot exceed the vector’s magnitude because a component is a projection, whose absolute value is multiplied by a factor no larger than one.
 
 ::::
 
@@ -476,6 +539,23 @@ along the direction of $$ \vb{B} $$
 ? What is the component of $$ \vb{B} $$
 along the direction of $$ \vb{A} $$
 ?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Project each vector onto the other’s direction using cos 90°.
+
+**Solution**
+
+For nonzero perpendicular vectors, their angle is $$90°$$. The component of $$\vb A$$ along $$\vb B$$ is $$A\cos90°=0$$; the component of $$\vb B$$ along $$\vb A$$ is $$B\cos90°=0$$.
+
+For example, let $$\vb A=(3.0\m)\hat{\mathbf{x}}$$ and $$\vb B=(4.0\m)\hat{\mathbf{y}}$$. Then $$A_y=0\m$$ and $$B_x=0\m$$. Neither vector has any part along the other’s axis, although both magnitudes are nonzero.
+
+Each perpendicular vector has zero component along the direction of the other.
 
 ::::
 

@@ -21,12 +21,13 @@ import ch02 from './figures/ch02.js';
 import ch03 from './figures/ch03.js';
 import ch04to07 from './figures/ch04to07.js';
 import concepts from './figures/concepts.js';
+import completion from './figures/solution-completion.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = path.join(root, 'resources');
 const filter = process.argv[2] || '';
 
-const figures = { ...ch02, ...ch03, ...ch04to07, ...concepts };
+const figures = { ...ch02, ...ch03, ...ch04to07, ...concepts, ...completion };
 let count = 0;
 for (const [name, build] of Object.entries(figures)) {
   if (filter && !name.includes(filter)) continue;

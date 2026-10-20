@@ -391,7 +391,7 @@ To see how much is at stake, estimate the drag on a cyclist moving at $$ v = 12 
 $$ F_{D} = \tfrac{1}{2}(0.90)(1.21 \kg/\text{m}^3)(0.35 \mm)(12 \ms)^2 = 27 \N $$
 </div>
 
-Overcoming this force at $$ 12 \ms $$ takes a power of $$ F_{D}v = (27 \N)(12 \ms) = 330 \text{ W} $$. A suit that lowers $$ C $$ by just $$ 5\% $$ saves about $$ 1.4 \N $$, or $$ 16 \text{ W} $$, which can decide a race.
+Keeping the unrounded drag force, $$F_D=27.4428\N$$, gives power $$F_Dv=(27.4428\N)(12\ms)=329.3136\text{ W}\approx330\text{ W}$$. A suit that lowers $$C$$ by an assumed $$5\%$$ saves $$0.05(27.4428\N)=1.37\N$$ and $$0.05(329.3136\text{ W})=16.5\text{ W}$$ before final rounding, which can matter in a race.
 
 **Pros**
 
@@ -427,19 +427,28 @@ In which types of motion would each of these expressions be more applicable than
 
 **Strategy**
 
-Compare the two drag laws: the Stokes form $$ F_{s} = 6\pi r \eta v $$, which is proportional to $$ v $$, and $$ F_{D} = \tfrac{1}{2} C \rho A v^{2} $$, which is proportional to $$ v^{2} $$. Sketch both against speed to see where each is larger.
+Identify the flow regime using Reynolds number, then apply each drag law within its regime instead of choosing whichever extrapolated curve is larger.
 
 **Solution**
 
-![Drag force versus speed. The straight line F = bv dominates at low speeds, for small objects, and in viscous fluids, where the flow is smooth (laminar). The parabola F = ½CρAv² grows faster and dominates at high speeds and for large objects, where the flow is turbulent.](../resources/concept_05_02_q02.svg)
+For a sphere of radius $$r$$, Stokes’s law $$F_s=6\pi\eta rv$$ applies to **creeping flow**, with Reynolds number $$\mathrm{Re}=\rho v(2r)/\eta\ll1$$. Merely being laminar is not sufficient. For an illustrative small sphere in water, use $$r=1.0\times10^{-6}\m$$, $$v=1.0\times10^{-5}\ms$$, $$\eta=1.0\times10^{-3}\text{ Pa}\cdot\s$$, and $$\rho=1000\kg/\m^3$$:
 
-**Drag proportional to $$ v $$** applies to **small, slow objects in viscous fluids**, where the fluid flows smoothly (laminar flow) around the object. Viscosity, the fluid's internal friction, sets the drag. Examples are bacteria swimming, red blood cells moving in plasma, pollen or dust settling in air, and fine sediment sinking in water. A sand grain of radius $$ 0.10 \text{ mm} $$ sinking through water at a few $$ \text{mm/s} $$ follows this law.
+$$\mathrm{Re}=\frac{(1000\kg/\m^3)(1.0\times10^{-5}\ms)(2.0\times10^{-6}\m)}{1.0\times10^{-3}\text{ Pa}\cdot\s}=2.0\times10^{-5},$$
 
-**Drag proportional to $$ v^{2} $$** applies to **larger, faster objects**, where the fluid becomes turbulent behind the object. The drag then comes from the momentum given to the fluid pushed out of the way. Examples are a car at $$ 25 \ms $$, a skydiver at $$ 50 \ms $$, a baseball, and a swimmer.
+$$F_s=6\pi(1.0\times10^{-3}\text{ N}\cdot\s/\m^2)(1.0\times10^{-6}\m)(1.0\times10^{-5}\ms)=1.9\times10^{-13}\N.$$
 
-In the graph, the linear law gives the larger drag at low speeds. The quadratic law grows faster and takes over at high speeds, so doubling the speed of a car quadruples its drag, while doubling the speed of a settling dust grain only doubles its drag.
+Here $$1\text{ Pa}=1\N/\m^2$$, so all factors reduce to newtons. Doubling the speed doubles the force.
 
-The drag force proportional to speed (Stokes's law) applies to small, slow objects in viscous fluids with smooth flow, such as bacteria or settling dust, while the drag force proportional to the square of the speed applies to larger, faster objects with turbulent flow, such as cars, balls, and skydivers.
+At much higher Reynolds number, inertial effects and often a separated wake are important. Over a range where drag coefficient $$C$$ is approximately constant, use $$F_D=\tfrac12C\rho Av^2$$. For an illustrative car with $$C=0.30$$, $$A=2.0\m^2$$, $$\rho=1.21\kg/\m^3$$, and $$v=25\ms$$,
+
+$$F_D=\tfrac12(0.30)(1.21\kg/\m^3)(2.0\m^2)(25\ms)^2=2.3\times10^2\N.$$
+
+Doubling speed would quadruple drag if $$C$$ remained the same. Large fast objects such as cars, balls, and swimmers often fit this regime; small slow particles in viscous fluids often fit the first. In transition regions neither limiting approximation need hold.
+
+![Separate drag examples: linear Stokes drag for a microscopic sphere in creeping water flow, and approximately quadratic drag for a car in air; axes include force and speed units.](../resources/concept_05_02_q02.svg)
+
+Drag proportional to speed applies in creeping viscous flow, whereas approximately speed-squared drag applies in an inertial regime with nearly constant drag coefficient; the flow conditions, rather than a comparison of extrapolated curves, determine the appropriate model.
+
 
 ::::
 

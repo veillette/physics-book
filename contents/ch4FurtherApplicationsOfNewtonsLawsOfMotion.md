@@ -510,6 +510,29 @@ their apparent weightlessness in orbit and in the aircraft?
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Use the scale’s normal force as apparent weight and compare it with the acceleration shared by the aircraft or spacecraft.
+
+**Solution**
+
+Choose $$+y$$ upward. For an astronaut of mass $$m$$ standing on a scale, $$N-mg=ma_y$$. During ideal downward free fall, $$a_y=-g$$, hence
+
+$$N=m(g-g)=0\N.$$
+
+For example, a $$70\kg$$ astronaut still has gravitational force $$(70\kg)(9.80\mss)=686\N$$ downward in the aircraft, but the scale does not need to support the astronaut because both fall together.
+
+![In free fall the astronaut’s weight is the only force, normal force is zero, and acceleration is downward.](../resources/fbd_04_07_q01.svg){: .fbd}
+
+In orbit the same principle applies: the astronaut and spacecraft share gravitational acceleration, whose local magnitude need not be $$9.80\mss$$. Locally both situations give zero apparent weight under ideal conditions. The aircraft’s free-fall interval is brief, and residual forces or gravity gradients can distinguish the real environments; neither case removes gravity.
+
+The astronauts appear weightless because the scale’s support force is zero while they and their surroundings fall together, the same local reason astronauts float in orbit.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -519,6 +542,25 @@ their apparent weightlessness in orbit and in the aircraft?
 A cartoon shows the toupee coming off the head of an elevator passenger when the elevator rapidly
 stops during an upward ride. Can this really happen without the person being tied to the floor of
 the elevator? Explain your answer.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Check whether the elevator floor can supply the downward force needed to stop the passenger faster than free fall.
+
+**Solution**
+
+Take $$+y$$ upward. For a passenger following the floor with vertical acceleration $$a_y$$, $$N-mg=ma_y$$, so $$N=m(g+a_y)$$. The floor can push upward but cannot pull downward, requiring $$N\ge0$$ and therefore $$a_y\ge-g$$.
+
+The toupee stays against the head under the same condition. For example, deceleration $$a_y=-5.0\mss$$ leaves a positive support force per unit mass $$g+a_y=4.8\mss$$, so the head still pushes upward on the toupee.
+
+If the elevator stops with $$a_y<-g$$, the unattached passenger loses contact with the floor. Passenger and toupee then accelerate downward together at $$-g$$, so the stop itself does not make the toupee separate from the head. A passenger held down by restraints could instead be forced to decelerate faster than the free toupee. Airflow or a separate impulse could also change the situation, but neither is part of the stated cartoon.
+
+An upward elevator’s stop alone cannot launch the toupee off an unrestrained passenger: if the floor drops away faster than free fall, the passenger and toupee both fall together.
 
 :::
 

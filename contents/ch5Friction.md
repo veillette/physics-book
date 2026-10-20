@@ -504,23 +504,22 @@ friction forces.
 
 **Strategy**
 
-Identify where friction acts during braking. The tires roll on the road, while the brake pads rub on a spinning disc (rotor) attached to each wheel. Compare the friction between pads and disc while they slide (kinetic) with the friction once they stop sliding (static).
+Distinguish the brake pads’ friction from the road force that slows the car, and compare the actual stopping force with the maximum static-friction limit.
 
 **Solution**
 
-Take $$ +x $$ in the direction the car moves; the braking force then points in the $$ -x $$ direction. While the car is moving, the pads slide over the turning discs, so the friction between them is **kinetic**, $$ f_{k} = \mu_{k} N_{\text{pad}} $$, where $$ N_{\text{pad}} $$ is the force with which the brake presses the pads onto the disc. For a $$ 1200 \kg $$ car decelerating at $$ 3.0 \mss $$, the braking force has magnitude
+Choose $$+x$$ forward. With rolling tires, the road exerts a backward force on the braking car. The pads sliding on the discs provide braking torque inside the wheel/brake system; pad friction and tire-road force are related through torques and wheel dynamics, not by simply equating the two forces.
 
-<div class="equation">
-$$ f = ma = (1200 \kg)(3.0 \mss) = 3600 \N $$
-</div>
+While pads slide, a simple model uses kinetic friction $$f_k=\mu_kN_{\text{pad}}$$. When they stop sliding, the friction is static and satisfies $$|f_s|\le\mu_sN_{\text{pad}}$$. The larger maximum $$\mu_sN_{\text{pad}}$$ means the brakes can hold a stationary disc against a torque that would overcome sliding friction; it does **not** imply that the actual force jumps to that maximum at rest. On level ground with no driving force, no longitudinal net force is needed once the car stops.
 
-![Braking force on the car versus time. Firm pedal: while the wheels turn, the brake pads slide on the discs and the force stays at the kinetic value μk N; just as the car stops, the pads stop sliding and grip with static friction, so the force jumps up toward μs N and then drops abruptly to zero. Eased pedal: the force tapers to a small value before the car stops.](../resources/concept_05_01_q03.svg)
+For an assumed $$1200\kg$$ car decelerating at $$a_x=-3.0\mss$$, the net braking force is $$F_x=ma_x=(1200\kg)(-3.0\mss)=-3600\N$$. If this deceleration persists until stopping, the acceleration changes abruptly from $$-3.0\mss$$ to $$0\mss$$, producing a jerk and suspension motion. Easing the pedal reduces the braking torque and the road force before the stop, so the acceleration approaches zero smoothly. Real near-zero-speed pad friction and elastic compliance may add a grab, but the coefficient inequality alone does not predict its size.
 
-Just as the car comes to rest, the pads stop sliding and **grip** the disc. The friction becomes **static**, and static friction can be as large as $$ \mu_{s} N_{\text{pad}} $$, which is larger than $$ \mu_{k} N_{\text{pad}} $$. If $$ \mu_{s}/\mu_{k} = 1.3 $$, the braking force can briefly jump to about $$ 1.3 \times 3600 \N = 4700 \N $$, so the deceleration jumps to about $$ 3.9 \mss $$. An instant later the car is stopped and the deceleration drops to $$ 0 \mss $$. This sudden change in acceleration is the jerk: you lurch forward, and the car body rocks back on its springs.
+![Braking-force magnitudes for equal initial speed: a firm pedal gives an abrupt force drop at rest, while an eased pedal tapers the force to zero and stops later; both deliver the same momentum change.](../resources/concept_05_01_q03.svg)
 
-If you let up on the pedal near the end, $$ N_{\text{pad}} $$ is small, so both $$ \mu_{k} N_{\text{pad}} $$ and $$ \mu_{s} N_{\text{pad}} $$ are small. For example, with a deceleration of only $$ 0.5 \mss $$ just before stopping, the change when the pads grab and the car stops is small and the stop is smooth.
+The graph’s idealized examples start at $$12\ms$$: $$3600\N$$ for $$4.0\s$$ gives impulse magnitude $$14400\N\cdot\s$$, as does $$3600\N$$ for $$2.5\s$$ followed by a $$3.0\s$$ linear taper, since $$3600\N[2.5\s+\tfrac12(3.0\s)]=14400\N\cdot\s$$.
 
-You must ease up on the brake because the pads switch from sliding (kinetic) to gripping (static) friction as the car stops, and since static friction can be larger than kinetic friction, a firm pedal makes the braking force jump (for example, from $$ 3600 \N $$ to about $$ 4700 \N $$) and then drop to zero, which you feel as a jerk.
+Easing the brakes makes the actual deceleration approach zero before rest and reduces the stop jerk; static friction can hold the stopped brakes up to a larger limit than kinetic friction, but that limit does not require a braking-force spike.
+
 
 ::::
 

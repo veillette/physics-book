@@ -476,12 +476,26 @@ A length of pipe over the wrench handle helps by increasing the lever arm, so th
 
 ::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
-a) $$ 46.8 \text{N·m} $$
-b) It does not matter at what height you push. The torque depends on only the
-magnitude of the force applied and the perpendicular distance of the force’s
-application from the hinges. (Children don’t have a tougher time opening a door
-because they push lower than adults, they have a tougher time because they don’t
-push far enough from the hinges.)
+**Strategy**
+
+Calculate torque about the door’s vertical hinge axis using the perpendicular distance to that axis.
+
+**Solution**
+
+**(a)** The force is horizontal and perpendicular to the door at a distance $$r=0.850\m$$ from the hinges, with magnitude $$F=55.0\N$$. Choose positive rotation in the opening direction. The torque magnitude about the vertical hinge axis is
+
+$$\tau=rF\sin90°=(0.850\m)(55.0\N)=46.75\N\cdot\m\approx46.8\N\cdot\m.$$
+
+The opening torque is 46.8 N·m.
+
+**(b)** Raising or lowering the application point along the door does not change the horizontal distance to the vertical hinge axis. Therefore the torque component that opens the door is unchanged for the same horizontal perpendicular force. Height can change other loads on the hinges, but not this opening torque.
+
+**Discussion**
+
+Pushing nearer the hinges reduces the perpendicular lever arm and makes the door harder to open for the same force. A child’s lower pushing height alone does not reduce the opening torque; pushing closer to the hinge axis does.
+
+The force exerts an opening torque of 46.8 N·m, independent of its height on the door when the force and horizontal hinge-axis distance are unchanged.
+
 
 :::
 
@@ -646,6 +660,12 @@ Repeat the seesaw problem in [Example 1](#example1) with the center of mass of t
 
 ::: solution {"class":"solution","data-element-type":"problem-exercises"}
 
+**Strategy**
+
+Balance torques about the pivot, including the seesaw’s offset weight, then balance vertical forces to find the pivot reaction.
+
+**Solution**
+
 Given:
 
 <div class="equation">
@@ -692,6 +712,13 @@ F_{\text{p}}&=& \left(26.0 \kg +32.0 \kg +12.0 \kg \right)\left(9.80 \mss \right
 F_{\text{p}}&=& 686 \N
 \end{array} $$
 </div>
+
+
+**Discussion**
+
+The offset seesaw weight adds torque on the lighter child’s side, so it must be included in the balance rather than treated as acting at the pivot.
+
+The heavier child must sit 1.36 m from the pivot, and the pivot supports the total weight with an upward force of 686 N.
 
 :::
 

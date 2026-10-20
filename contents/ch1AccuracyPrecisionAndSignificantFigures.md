@@ -376,10 +376,26 @@ newton, and it is expressed with the symbol N.)
 
 :::: solution {"class":"solution","data-print-placement":"here"}
 
-(a) 37.2 pounds; Because the number of bags is an exact value, it is not considered in the significant figures.
+**Strategy**
 
-(b) 1.4 N; Because the value 55 kg has only two significant figures, the final
-value must also contain two significant figures.
+Treat the number of bags as exact, use the addition rule for the weights, and use the multiplication rule for the force.
+
+**Solution**
+
+**(a)** Two identical bags and one additional bag have total weight
+
+$$w=2(13.5\text{ lb})+10.2\text{ lb}=27.0\text{ lb}+10.2\text{ lb}=37.2\text{ lb}.$$
+
+The exact count 2 does not limit significant figures. Each measured weight is given to the nearest tenth of a pound, so the sum is reported to that decimal place. The total weight of the bags is 37.2 pounds.
+
+**(b)** Newton’s second law gives force magnitude
+
+$$F=ma=(55\kg)(0.0255\mss)=1.4025\kg\cdot\m/\s^2=1.4025\N.$$
+
+The mass has two significant figures and the acceleration has three, so retain two in the final product rather than rounding an intermediate.
+
+The force on the wagon is 1.4 N, reported to two significant figures.
+
 
 ::::
 
@@ -427,6 +443,29 @@ Estimation
 :::: problem
 
 What is the relationship between the accuracy and uncertainty of a measurement?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Separate closeness to the true value from the range of doubt assigned to a measurement.
+
+**Solution**
+
+**Accuracy** describes agreement with the true or accepted value. **Uncertainty** describes the doubt in the reported result, based on the measurement procedure, calibration, resolution, and variability.
+
+Suppose a calibrated reference has length $$25.00\text{ cm}$$. Measurement B is $$24.62\pm0.05\text{ cm}$$, where its small uncertainty reflects repeatability but omits a calibration bias. Its discrepancy is
+
+$$24.62\text{ cm}-25.00\text{ cm}=-0.38\text{ cm},$$
+
+much larger than $$0.05\text{ cm}$$. The reading is precise but biased, so a small repeatability uncertainty does not establish accuracy. A credible *total* uncertainty must also account for calibration and systematic effects. Measurement A, $$25.1\pm0.3\text{ cm}$$, is consistent with the reference within its stated uncertainty.
+
+![Measurement A has a wide uncertainty interval including the accepted 25.00 cm length, while precise measurement B has a narrow interval that misses it.](../resources/concept_01_03_q01.svg)
+
+Smaller, properly evaluated uncertainty permits a more precise claim of agreement with the true value, but a small quoted uncertainty alone does not guarantee accuracy because unaccounted systematic errors can bias the result.
 
 ::::
 

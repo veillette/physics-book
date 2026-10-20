@@ -138,6 +138,12 @@ in the Problem-Solving Strategy for Newton's laws of motion.
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 **Step 1: Sketch and free-body diagram**
 
 ![Free-body diagram of the rocket with +x to the right and +y up: thrust T up, air resistance f and weight mg both down; the acceleration points up.](../resources/fbd_04_06_p01.svg){: .fbd #Figure2}
@@ -220,6 +226,12 @@ situation, draw a free-body diagram and write the net force equation.
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 **Step 1: Sketch and free-body diagram**
 
 The car accelerates forward. By Newton's third law, if the wheels push backward on the road with 2100 N, the road pushes forward on the car with 2100 N. Friction opposes motion (acts backward).
@@ -285,6 +297,12 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 1. Use Newton’s laws of
    motion. Draw the free-body diagram of the jumper, with $$ +y $$ upward:
 
@@ -304,6 +322,8 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 
 The jumper must exert a force nearly 5 times his weight (3430 N versus 686 N) to achieve an upward acceleration of 4g. This large normal force from the ground is what propels him upward. By Newton's third law, he pushes down on the ground with 3430 N, and the ground pushes up on him with the same force. The acceleration of 39.2 m/s² occurs only during the brief push-off phase while his feet are in contact with the ground.
 
+The jumper must exert a downward force of $$3.43\times10^3\N$$ on the ground during push-off.
+
 :::
 
 </div>
@@ -321,6 +341,12 @@ the Problem-Solving Strategy for Newton's laws of motion.
 :::
 
 ::: solution
+
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
 
 **Step 1: Sketch and free-body diagram**
 
@@ -710,6 +736,12 @@ $$ \vb{F}_{\text{tot}} $$. Draw these to scale on the same drawing used in part 
 
 ::: solution
 
+**Strategy**
+
+Resolve the resultant into perpendicular components and use equal-scale head-to-tail drawings to compare sums.
+
+**Solution**
+
 **(a) Magnitudes of F₁ and F₂:**
 
 From Figure 4, the forces form a right triangle where:
@@ -732,6 +764,8 @@ Verification: $$ \sqrt{(16.4 \N)^2 + (11.5 \N)^2} = \sqrt{269 \N^2 + 132 \N^2} =
 
 **(b) Commutative property:**
 
+![Force-scale drawings show both addition orders and an alternative pair reaching the same 20.0 N resultant; +x is right and +y is up, with a 5.0 N scale bar.](../resources/solution_04_06_p08.svg)
+
 Whether we add $$ \vb{F}_{1} + \vb{F}_{2} $$ or $$ \vb{F}_{2} + \vb{F}_{1} $$, the resultant is the same:
 - Method 1: Start with $$ \vb{F}_{1} $$ (right 16.4 N), then add $$ \vb{F}_{2} $$ (up 11.5 N) → resultant points to upper right
 - Method 2: Start with $$ \vb{F}_{2} $$ (up 11.5 N), then add $$ \vb{F}_{1} $$ (right 16.4 N) → same resultant
@@ -747,7 +781,7 @@ One example that adds to the same $$ \vb{F}_{\text{tot}} $$:
 - $$ \vb{F}_{3} $$: **11.9 N at 75° above horizontal** (components 3.08 N right, 11.5 N up)
 - $$ \vb{F}_{4} $$: **13.3 N horizontally to the right** (components 13.3 N right, 0 N up)
 
-Check: $$(3.08 \N + 13.3 \N, 11.5 \N + 0) = (16.4, 11.5 \N) \N$$, matching parts (a) and (b).
+Check: $$(3.08\N+13.3\N,\ 11.5\N+0\N)\approx(16.4\N,\ 11.5\N)$$, matching parts (a) and (b).
 
 *Scale drawing.* On the same 1 cm = 2.0 N drawing used in part (b), draw $$ \vb{F}_{3} $$ from the origin as a 5.95-cm arrow at 75° above horizontal, then $$ \vb{F}_{4} $$ from its head as a 6.65-cm arrow to the right. Its head lands on the same corner as in part (b), at the tip of $$ \vb{F}_{\text{tot}} $$.
 
@@ -897,6 +931,12 @@ you still apply the force found in part (a) to its center?
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 **(a) Force needed at 2.00° angle:**
 
 **Step 1: Sketch and free-body diagram**
@@ -969,6 +1009,12 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 1. Use Newton’s laws since we are looking for forces.
 
 2. Draw the wire forces acting on the tooth, with $$ +x $$ along the wire's straight line and $$ +y $$ pointing toward the front of the mouth. This diagram shows only the wire forces whose sum we want to calculate; forces from the surrounding tissue are omitted:
@@ -1008,6 +1054,12 @@ while Trusty Sidekick's is 55.0 kg, and the mass of the rope is negligible.
 :::
 
 ::: solution
+
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
 
 __(a) Free-body diagrams:__
 
@@ -1111,6 +1163,12 @@ friction is 60.0 N.
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 __(a) Free-body diagram:__
 
 ![Free-body diagram of the cart with +x forward (to the right) and +y up: applied force F at 35 degrees below +x with dashed components F cos 35 degrees along +x and F sin 35 degrees along -y; friction f along -x; normal force N up; weight w down. a equals zero.](../resources/fbd_04_06_p13.svg){: .fbd}
@@ -1196,6 +1254,8 @@ Choose reasonable values for:
 - Final cruising velocity: typically 1-5 m/s for residential elevators, up to 10 m/s for high-rise buildings
 - Time to reach cruising velocity: typically 2-5 seconds (for passenger comfort, acceleration should be modest)
 
+**Solution**
+
 **Example Solution**
 
 Let's construct a specific example:
@@ -1205,6 +1265,10 @@ Let's construct a specific example:
 - Initial velocity: $$ v_0 = 0 \ms $$ (starts from rest)
 
 **Step 1: Free-body diagram**
+
+Choose the origin at the elevator-plus-load center of mass and $$+y$$ upward, the acceleration direction.
+
+![Free-body diagram of the elevator plus load, with upward tension greater than downward weight, +y up, +x right, and upward acceleration shown separately.](../resources/solution_04_06_p14.svg){: .fbd}
 
 Forces on the elevator system:
 - Tension $$ T $$ in cable (upward)
@@ -1326,6 +1390,12 @@ is produced.
 
 ::: solution
 
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
+
 __(a) Repeat Exercise 7 with a = 1.20 m/s²:__
 
 From Exercise 7:
@@ -1391,6 +1461,12 @@ section.)
 :::
 
 ::: solution
+
+**Strategy**
+
+Identify the system and external forces, choose axes consistent with the stated directions, and apply Newton’s second law before checking the result against the assumptions.
+
+**Solution**
 
 __(a) Initial acceleration:__
 

@@ -510,6 +510,23 @@ What frame or frames of reference do you instinctively use when driving a car? W
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+State velocity relative to the observer or surroundings that matter for the activity.
+
+**Solution**
+
+When driving, one usually judges motion relative to the road and nearby cars. A car moving at $$20\ms$$ relative to the road overtakes another moving the same way at $$15\ms$$ with relative speed $$20\ms-15\ms=5\ms$$.
+
+Inside an airplane, the cabin is the natural frame for walking or observing other passengers. A seated passenger has velocity $$0\ms$$ relative to the aircraft but, if it moves east at $$230\ms$$ relative to Earth, the passenger also moves east at $$230\ms$$ relative to Earth. Pilots additionally distinguish velocity relative to the air from velocity relative to the ground because wind connects the two.
+
+Drivers usually use the road and other vehicles as reference frames, while airline passengers usually use the cabin and pilots also use air-relative and ground-relative frames.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -518,6 +535,25 @@ What frame or frames of reference do you instinctively use when driving a car? W
 
 A basketball player dribbling down the court usually keeps his eyes fixed on
 the players around him. He is moving fast. Why doesn’t he need to keep his eyes on the ball?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Compare the ball’s horizontal motion in the player’s moving frame and in the court frame.
+
+**Solution**
+
+If a player runs at nearly constant velocity and gives the ball the same horizontal velocity, the ball keeps that component while it is airborne. Gravity changes its vertical velocity, not its horizontal velocity, when drag is negligible. For an illustrative running speed $$v=4.0\ms$$ and airborne time $$0.50\s$$, both travel
+
+$$\Delta x=(4.0\ms)(0.50\s)=2.0\m$$
+
+along the court. In the player’s frame the ball’s horizontal velocity is approximately $$4.0\ms-4.0\ms=0\ms$$, so it mainly bounces vertically near the hand. Floor contact and changes in running speed require control and practice; the argument does not imply that the ball automatically follows an accelerating player.
+
+The player need not continuously track the ball because, during approximately steady running and controlled dribbling, the ball shares the player’s horizontal motion and moves mainly up and down relative to the player.
 
 ::::
 
@@ -534,6 +570,27 @@ occur? How would the motion of the ball appear to the person who threw it?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Add the backward velocity relative to the truck to the truck’s forward velocity relative to the road.
+
+**Solution**
+
+Choose $$+x$$ along the truck’s motion and $$+y$$ upward, treating the truck as moving at constant speed and neglecting drag. Then
+
+$$v_{x,\text{ball/ground}}=v_{x,\text{ball/truck}}+v_{x,\text{truck/ground}}.$$
+
+For example, if the truck moves at $$+10\ms$$ and the ball is thrown horizontally at $$-10\ms$$ relative to it, the ground-frame horizontal velocity is $$-10\ms+10\ms=0\ms$$. A roadside observer sees a vertical fall. The thrower sees the ball move backward while accelerating downward, along a parabola if its initial vertical velocity is zero. A larger or smaller backward throwing speed would make the ball move horizontally backward or forward in the ground frame.
+
+![A backward throw matching the truck’s speed makes the ball’s horizontal ground velocity zero, although it moves backward relative to the truck.](../resources/concept_03_05_q03.svg)
+
+The ball can fall straight down in the ground frame if its backward horizontal speed relative to the truck equals the truck’s forward ground speed, while the thrower sees it travel backward and downward.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -543,6 +600,27 @@ occur? How would the motion of the ball appear to the person who threw it?
 The hat of a jogger running at constant velocity falls off the back of
 his head. Draw a sketch showing the path of the hat in the jogger’s
 frame of reference. Draw its path as viewed by a stationary observer.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Use a constant-velocity jogger frame and assume the hat loses contact without a horizontal impulse.
+
+**Solution**
+
+Choose $$+x$$ along the jogger’s motion and $$+y$$ upward. Neglect drag. Relative to the jogger, the hat starts with zero horizontal velocity and falls vertically from its release point. In the ground frame it retains the jogger’s horizontal speed and follows a parabola:
+
+$$x=x_0+ut,\qquad y=h-\tfrac12gt^2.$$
+
+For assumed $$u=3.0\ms$$ and $$h=1.8\m$$, the fall time is $$t=\sqrt{2(1.8\m)/(9.80\mss)}=0.61\s$$ and the horizontal ground displacement is approximately $$(3.0\ms)(0.61\s)=1.8\m$$. A real hat that is blown backward by air need not keep pace; that is an additional force, not a change of reference frame.
+
+![Left: the hat falls vertically relative to the constant-speed jogger. Right: it retains forward speed and follows a parabola relative to the ground.](../resources/concept_03_05_q04.svg)
+
+With no horizontal impulse or air resistance, the hat falls straight down in the jogger’s frame and follows a forward parabola in the stationary observer’s frame.
 
 ::::
 
@@ -557,6 +635,30 @@ ground directly below the end of the truck. What is the direction of
 its velocity relative to the truck just before it hits? Is this the
 same as the direction of its velocity relative to ground just before
 it hits? Explain your answers.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Use velocity addition for a clod released from a truck moving at constant velocity, with negligible drag.
+
+**Solution**
+
+Choose $$+x$$ along the truck’s motion and $$+y$$ upward. The clod initially shares the truck’s horizontal velocity and keeps it during its fall, explaining why it lands below the moving truck’s rear end. Relative to the truck it has no horizontal velocity and points straight down just before impact.
+
+For an example, take $$v_{x,\text{truck/ground}}=10\ms$$ and a fall lasting $$0.50\s$$. Then $$v_y=-(9.80\mss)(0.50\s)=-4.90\ms$$, so
+
+$$\vb v_{\text{clod/truck}}=(0\ms,-4.90\ms),\qquad
+\vb v_{\text{clod/ground}}=(10\ms,-4.90\ms).$$
+
+The ground-frame direction is $$\tan^{-1}(4.90/10)=26°$$ below forward horizontal, rather than straight down.
+
+![Adding the truck’s forward ground velocity to the clod’s downward truck-relative velocity gives a forward-and-downward ground velocity.](../resources/concept_03_05_q05.svg)
+
+The clod’s velocity is vertically downward relative to a constant-speed truck but forward and downward relative to the ground, so the directions are different.
 
 ::::
 

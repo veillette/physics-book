@@ -349,6 +349,25 @@ if you spun a point mass $$ M $$ at the location of the center of mass of the ro
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Compare the mass-weighted mean square distance from the axis with the square of the center-of-mass distance.
+
+**Solution**
+
+Moment of inertia is $$I=\int r^2\,dm$$, so spreading mass away from its center of mass adds to $$I$$. By the parallel-axis theorem, a uniform rod about one end has
+
+$$I_{\text{end}}=I_{\text{CM}}+M(L/2)^2=\frac{ML^2}{12}+\frac{ML^2}{4}=\frac{ML^2}{3}.$$
+
+A point mass located at the rod’s center has only the second term. For $$M=3.0\kg$$ and $$L=2.0\m$$, the rod has $$I=(3.0\kg)(2.0\m)^2/3=4.0\kg\cdot\mm$$, whereas the point mass has $$I=(3.0\kg)(1.0\m)^2=3.0\kg\cdot\mm$$. The rod’s nearer and farther portions do not cancel: the squared distance weights its farther portions more strongly.
+
+The rod’s moment of inertia exceeds that of a point mass at its center because the rod has an additional positive moment ML²/12 from its spread about the center of mass.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -363,6 +382,32 @@ the same mass and radius?
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Compare how much mass lies far from the rotation axis in each pair.
+
+**Solution**
+
+About their central symmetry axes, $$I=\int r_\perp^2\,dm$$ gives greater weight to mass farther from the axis. A thin hoop places all its mass at radius $$R$$, whereas a disk distributes some nearer the center:
+
+$$I_{\text{hoop}}=MR^2,\qquad I_{\text{disk}}=\tfrac12MR^2.$$
+
+For $$M=2.0\kg$$ and $$R=0.50\m$$, these are $$0.50\kg\cdot\mm$$ and $$0.25\kg\cdot\mm$$.
+
+About a diameter, a thin spherical shell likewise puts more mass at larger perpendicular distances than a uniform solid sphere:
+
+$$I_{\text{shell}}=\tfrac23MR^2=0.33\kg\cdot\mm,\qquad
+I_{\text{solid sphere}}=\tfrac25MR^2=0.20\kg\cdot\mm$$
+
+for the same illustrative mass and radius. A spherical shell’s points are not all distance $$R$$ from its axis; the $$2/3$$ factor accounts for that geometry.
+
+The hoop and spherical shell have larger moments of inertia because more of their mass lies farther from the specified central rotation axis than in the corresponding filled disk and sphere.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -370,6 +415,29 @@ the same mass and radius?
 ::: problem
 
 Give an example in which a small force exerts a large torque. Give another example in which a large force exerts a small torque.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Vary the perpendicular lever arm in τ = r_perp F.
+
+**Solution**
+
+A small force can give a large torque if it acts far from the pivot. For example, a $$5.0\N$$ perpendicular push $$1.0\m$$ from a hinge gives
+
+$$\tau=(1.0\m)(5.0\N)=5.0\N\cdot\m.$$
+
+A much larger $$500\N$$ force applied with only a $$0.0010\m$$ perpendicular lever arm gives
+
+$$\tau=(0.0010\m)(500\N)=0.50\N\cdot\m,$$
+
+ten times less torque despite one hundred times greater force. A force directed exactly through the pivot has $$r_\perp=0\m$$ and gives zero torque regardless of its magnitude. Choose positive rotation consistently, for example counterclockwise, when attaching signs to these magnitudes.
+
+A small force far from a pivot can produce a large torque, while a large force near the pivot or directed nearly through it can produce a small torque.
 
 :::
 
@@ -386,6 +454,25 @@ reduction in the mass of the bicycle’s frame?
 
 ![The given figure shows a racing bicycle leaning on a door.](../resources/Figure_10_03_04.jpg 'The image shows a side view of a racing bicycle. Can you see evidence in the design of the wheels on this racing bicycle that their moment of inertia has been purposely reduced? (credit: Jesús Rodriguez)')
 {: #Figure5}
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Include both translation of the bicycle and rotation of its wheels when comparing equal mass reductions.
+
+**Solution**
+
+Removing mass from the frame reduces translational inertia. Removing it from a wheel rim reduces both translational mass and rotational inertia. For rim mass $$\Delta m$$ at wheel radius $$R$$, $$\Delta I=\Delta mR^2$$. With rolling without slipping, $$\omega=v/R$$, so the reduction in kinetic energy at a given speed is
+
+$$\Delta K_{\text{rim}}=\tfrac12\Delta m v^2+\tfrac12\Delta I\omega^2=\Delta m v^2.$$
+
+The same frame mass reduction saves only $$\Delta K_{\text{frame}}=\tfrac12\Delta m v^2$$. For an illustrative $$\Delta m=0.20\kg$$ and $$v=10\ms$$, the savings are $$(0.20\kg)(10\ms)^2=20\J$$ at the rim versus $$10\J$$ at the frame. Material nearer the axle gives a smaller rotational saving. For the same available driving effort, less energy and torque are needed to increase speed; traction and other conditions are assumed unchanged.
+
+Reducing rim and tire mass improves acceleration more than the same frame-mass reduction because it reduces both translational inertia and the rotational inertia that must be accelerated.
 
 :::
 

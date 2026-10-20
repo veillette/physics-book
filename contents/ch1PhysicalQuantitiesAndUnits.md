@@ -488,6 +488,26 @@ Identify some advantages of metric units.
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Relate metric prefixes to powers of ten and distinguish a quantity from the unit used to express it.
+
+**Solution**
+
+Metric units make conversions systematic: a prefix specifies a power of ten, rather than an unrelated conversion factor. For example,
+
+$$ 2.50\text{ km}\times\frac{1000\m}{1\text{ km}}=2500\m,\qquad
+25.0\text{ cm}\times\frac{1\m}{100\text{ cm}}=0.250\m. $$
+
+The unwanted unit cancels in each ratio. Prefixes let the same base unit describe very different scales, from micrometers to kilometers. Derived SI units also fit the base units coherently: $$1\N=1\kg\cdot\m/\s^2$$, so $$F=(2.0\kg)(3.0\mss)=6.0\N$$ requires no extra numerical conversion constant. Shared international units make measurements easier to communicate and compare.
+
+Metric units provide simple power-of-ten conversions, convenient prefixes over many scales, coherent derived units, and a common language for comparing measurements.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises
@@ -596,12 +616,20 @@ steps involved in converting  $$ 1.0 \ms =3.6 \text{km/h.}  $$
 
 ::: solution
 
+**Strategy**
+
+Multiply by unit ratios equal to one so meters and seconds cancel in favor of kilometers and hours.
+
+**Solution**
+
   $$ \frac{1.0 \m }{\s}= \frac{1.0 \m }{\s}× \frac{3600 \s  }{1\text{hr}}× \frac{1 \text{km}}{1000 \m }  $$
  $$ =3.6 \text{km/h}  $$.
 
 **Discussion**
 
 This conversion factor is particularly useful because it relates the SI unit of speed (m/s) to the more common everyday unit of km/h. The factor of 3.6 arises from the combination of 3600 seconds per hour and 1000 meters per kilometer (3600/1000 = 3.6). Memorizing this simple relationship allows for quick mental conversions between these common speed units.
+
+A speed of $$1.0\ms$$ is equivalent to $$3.6\text{ km/h}$$.
 
 :::
 
@@ -683,7 +711,6 @@ $$ 278.885 \text{ ft} \times \frac{12 \text{ in.}}{1 \text{ ft}} = 3346.62 \text
 </div>
 
 Keep the unrounded width (guard digits) in the intermediate step: multiplying the rounded 280 ft by 12 would give 3360 in., which rounds to $$ 3.4 \times 10^{3} $$ in. instead.
-</div>
 
 **Discussion**
 
@@ -691,9 +718,7 @@ The soccer field dimensions in feet (377 ft by 280 ft) show that it is larger th
 
 **Answer**
 
-Length: $$ 377 \text{ft} $$; $$ 4.53 \times 10^{3}\text{in.} $$
-
-Width: $$ 280 \text{ft} $$; $$ 3.3\times 10^{3}\text{in.} $$
+The field is approximately $$377\text{ ft}$$ long and $$280\text{ ft}$$ wide, or $$4.53\times10^3\text{ in.}$$ long and $$3.3\times10^3\text{ in.}$$ wide.
 
 :::
 

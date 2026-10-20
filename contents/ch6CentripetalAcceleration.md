@@ -236,6 +236,27 @@ Can centripetal acceleration change the speed of circular motion? Explain.
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Separate the radial component of acceleration from the tangential component that changes speed.
+
+**Solution**
+
+At any point on a circular path, velocity is tangent to the circle and centripetal acceleration points inward along the radius. They are perpendicular, so
+
+$$\frac{d}{dt}\left(\frac{v^2}{2}\right)=\vb v\cdot\vb a_c=0.$$
+
+For a particle moving at $$v=4.0\ms$$ on radius $$r=2.0\m$$, $$a_c=v^2/r=(4.0\ms)^2/(2.0\m)=8.0\mss$$. Despite that nonzero acceleration, its speed remains $$4.0\ms$$ if no tangential acceleration acts. To increase its speed, a component along the tangent is needed.
+
+![Circular-motion sketch with velocity tangent to the circle and centripetal acceleration directed inward, perpendicular to velocity.](../resources/concept_10_01_q02.svg)
+
+Centripetal acceleration cannot change speed because it is perpendicular to velocity; it changes velocity’s direction, while tangential acceleration changes its magnitude.
+
+::::
+
 </div>
 
 ### Problem Exercises

@@ -473,21 +473,22 @@ Must the total energy of a system be conserved whenever its momentum is conserve
 
 **Strategy**
 
-Separate the conditions for the two conservation laws: momentum is conserved if the net external force is zero, while total energy is conserved for an isolated system; mechanical (kinetic) energy can still change form inside it. Use a perfectly inelastic collision as a test.
+Separate momentum isolation from energy isolation, then distinguish total energy from kinetic energy.
 
 **Solution**
 
-Two $$ 1.0 \kg $$ carts on a frictionless track collide and stick together. One moves at $$ 4.0 \ms $$, the other is at rest. Take $$ +x $$ in the direction of the moving cart. There is no net external force, so momentum is conserved:
+**No, momentum conservation alone is insufficient.** It requires zero net external force, but a system can still receive heat or other energy without receiving net momentum.
 
-<div class="equation">
-$$ (1.0 \kg)(4.0 \ms) = (2.0 \kg)v' \quad \Rightarrow \quad v' = 2.0 \ms $$
-</div>
+For example, take a rigid container at rest with balanced external forces and heat its contents symmetrically with an external supply. If the input is $$Q=100\J$$ and no energy leaves, its internal energy increases by $$100\J$$ while its momentum remains $$0\kg\cdot\ms$$. No conservation law is violated: the supply loses the energy the container gains. A system isolated from **energy transfer** does conserve total energy, but zero net force alone does not establish that isolation.
 
-The kinetic energy goes from $$ \tfrac{1}{2}(1.0 \kg)(4.0 \ms)^2 = 8.0 \J $$ to $$ \tfrac{1}{2}(2.0 \kg)(2.0 \ms)^2 = 4.0 \J $$. Half the **kinetic energy** has disappeared while momentum was conserved.
+Separately, even in an isolated collision, **kinetic energy** need not be conserved. A $$1.0\kg$$ cart at $$4.0\ms$$ sticking to an identical stationary cart gives
 
-The **total energy**, however, is conserved: the missing $$ 4.0 \J $$ became thermal energy, sound, and deformation of the carts. The law of conservation of energy always holds for an isolated system. What need not be conserved when momentum is conserved is the **kinetic** (mechanical) energy. In the other direction, energy can be conserved while momentum is not: a ball bouncing elastically off a wall keeps its kinetic energy, but its momentum reverses because the wall exerts an external force.
+$$v_f=\frac{(1.0\kg)(4.0\ms)}{2.0\kg}=2.0\ms.$$
 
-The total energy of an isolated system is always conserved, but kinetic energy need not be conserved when momentum is: in a perfectly inelastic collision of two $$ 1.0 \kg $$ carts, momentum stays $$ 4.0 \kg \cdot \ms $$ while the kinetic energy drops from $$ 8.0 \J $$ to $$ 4.0 \J $$, the rest becoming thermal energy and sound.
+The kinetic energies are $$K_i=\tfrac12(1.0\kg)(4.0\ms)^2=8.0\J$$ and $$K_f=\tfrac12(2.0\kg)(2.0\ms)^2=4.0\J$$. The difference becomes internal energy and other non-kinetic forms within the isolated system; its total energy is conserved.
+
+A system’s momentum can remain constant while its total energy changes through energy transfer, and an energetically isolated system can conserve total energy while converting kinetic energy into internal energy.
+
 
 :::
 

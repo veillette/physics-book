@@ -570,6 +570,25 @@ Describe the energy transformations involved when a yo-yo is thrown downward and
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Follow gravitational, translational, rotational, and dissipated energy through descent and ascent.
+
+**Solution**
+
+Choose height upward from the lowest point. The initial downward throw supplies translational and usually rotational kinetic energy from the hand’s work. As the yo-yo descends, gravitational potential energy decreases while its translational and rotational kinetic energies grow:
+
+$$K_{\text{trans}}=\tfrac12mv^2,\qquad K_{\text{rot}}=\tfrac12I\omega^2.$$
+
+For an ideal no-slip unwind from a stationary string, $$v=r\omega$$ at the axle. As an energy illustration, $$m=0.10\kg$$ descending $$h=1.0\m$$ releases $$mgh=(0.10\kg)(9.80\mss)(1.0\m)=0.98\J$$, in addition to the energy supplied at launch. Near the bottom, the string and axle interaction redirect the motion so that rotational energy helps the yo-yo climb as the string rewinds. On ascent, kinetic energy becomes gravitational potential energy. Bearing friction, string deformation, and air resistance convert some energy into heat, so without additional hand work it cannot regain more mechanical energy than it started with. The catch converts the remaining kinetic energy into other forms.
+
+The yo-yo converts the hand’s work and lost gravitational potential energy into translational and rotational kinetic energy on descent, then converts kinetic energy back into gravitational potential energy on ascent, with some energy dissipated and the remainder removed at the catch.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -577,6 +596,25 @@ Describe the energy transformations involved when a yo-yo is thrown downward and
 :::: problem
 
 What energy transformations are involved when a dragster engine is revved, its clutch let out rapidly, its tires spun, and it starts to accelerate forward? Describe the source and transformation of energy at each step.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Trace the fuel’s chemical energy through the engine, clutch, wheels, and accelerating vehicle.
+
+**Solution**
+
+Revving the engine converts fuel’s chemical energy into rotational kinetic energy of the crankshaft and flywheel, plus thermal energy and sound. A flywheel of assumed $$I=0.20\kg\cdot\mm$$ at $$\omega=300\rads$$ stores
+
+$$K_{\text{rot}}=\tfrac12(0.20\kg\cdot\mm)(300\rads)^2=9.0\times10^3\J.$$
+
+Releasing the clutch couples the engine to the drivetrain. Some rotational energy is transferred through torque to the wheels, while clutch slip turns some into heat. Continuing fuel combustion supplies more energy. Spinning tires gain rotational kinetic energy; if they slip on the road, kinetic friction dissipates energy in the tires and road. The road’s forward force changes the vehicle’s linear momentum, allowing engine energy to become translational kinetic energy of the car. Under ideal rolling contact, the stationary road is not the energy source; the fuel is. Exhaust, cooling, drivetrain losses, and sound account for the remainder.
+
+Fuel chemical energy first spins the engine and flywheel, then passes through the clutch and drivetrain into wheel rotation and the car’s translation, while clutch slip, tire slip, and engine losses convert part of it into heat and sound.
 
 ::::
 
@@ -590,6 +628,27 @@ The Earth has more rotational kinetic energy now than did the cloud of gas and d
 
 ![The figure shows a closed view of a red planet in the sky, with a sun like object seen at the far right and the planet shown here being surrounded by circles of gas and dust.](../resources/Figure_10_04_07.jpg 'An immense cloud of rotating gas and dust contracted under the influence of gravity to form the Earth and in the process rotational kinetic energy increased. (credit: NASA)')
 {: #Figure7}
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Combine approximate angular-momentum conservation during contraction with the decrease in gravitational potential energy.
+
+**Solution**
+
+For a contracting, approximately isolated cloud, $$L=I\omega$$ is approximately conserved while $$I$$ decreases. Consequently,
+
+$$K_{\text{rot}}=\frac{L^2}{2I}$$
+
+increases. Conservation of angular momentum alone is not an energy source. Gravitational contraction decreases the cloud’s gravitational potential energy, supplying the increased rotational kinetic energy along with other kinetic energy and heat. Accretion impacts and internal processes also redistribute energy during planet formation.
+
+For a simple illustrative rotor with $$L=10\kg\cdot\mm/\s$$, reducing $$I$$ from $$5.0\kg\cdot\mm$$ to $$1.0\kg\cdot\mm$$ raises rotational kinetic energy from $$L^2/(2I)=10\J$$ to $$50\J$$. The extra $$40\J$$ must come from work or a decrease of another energy store, just as gravitational binding energy supplied the forming Earth’s contraction.
+
+Earth’s increased rotational kinetic energy came from the gravitational potential energy released as its precursor material contracted, while approximate angular-momentum conservation made the contracting material spin faster.
 
 ::::
 

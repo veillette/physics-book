@@ -386,6 +386,23 @@ the Earth’s population, the acceleration of gravity?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Check whether a quantity requires a direction in addition to a magnitude.
+
+**Solution**
+
+In the usual meanings in this list, height and altitude are lengths measured relative to a reference, not displacement vectors. Age is a time interval, boiling point is a temperature, cost is an amount of money, and population is a count. All are scalars. A height of $$1.8\m$$ or an age of $$20\text{ yr}$$ does not specify a vector direction.
+
+Gravitational acceleration does require direction. With $$+y$$ upward near Earth’s surface, it has component $$g_y=-9.80\mss$$, or vector $$\vb g=-(9.80\mss)\hat{\mathbf{y}}$$. Its magnitude alone, $$9.80\mss$$, would not say which way an object accelerates.
+
+The acceleration of gravity is the vector in the list; the listed heights, age, boiling point, cost, and population are scalars in their ordinary meanings.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -396,6 +413,25 @@ Give a specific example of a vector, stating its magnitude, units, and direction
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Specify a displacement relative to a chosen coordinate system.
+
+**Solution**
+
+Choose $$+x$$ east and $$+y$$ north. Walking $$3.0\m$$ east and then $$4.0\m$$ north gives the displacement
+
+$$\Delta\vb r=(3.0\m)\hat{\mathbf{x}}+(4.0\m)\hat{\mathbf{y}}.$$
+
+Its magnitude is $$\sqrt{(3.0\m)^2+(4.0\m)^2}=5.0\m$$ and its direction is $$\tan^{-1}(4.0/3.0)=53°$$ north of east. The meters supply the units, while the angle and reference direction identify where the displacement points.
+
+A displacement of 5.0 m at 53° north of east is a specific vector, with magnitude 5.0, units of meters, and a stated direction.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -403,6 +439,23 @@ Give a specific example of a vector, stating its magnitude, units, and direction
 :::: problem
 
 What do vectors and scalars have in common? How do they differ?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Compare the information needed to specify scalars and vectors and how they combine.
+
+**Solution**
+
+Both scalars and vectors describe physical quantities and have magnitudes; dimensional quantities also have units. For example, both speed and velocity can have magnitude $$5.0\ms$$.
+
+A scalar is specified without a spatial direction, whereas a vector requires direction as well. Two speeds of $$5.0\ms$$ do not tell us where the objects travel. Velocities of $$(+5.0\ms)\hat{\mathbf{x}}$$ and $$(-5.0\ms)\hat{\mathbf{x}}$$ point in opposite directions. Their vector sum is $$0\ms$$, even though adding their magnitudes gives $$10.0\ms$$. Vector addition must therefore take directions into account.
+
+Scalars and vectors both have magnitudes and appropriate units, but vectors also have directions and must be combined using vector addition.
 
 ::::
 
@@ -422,6 +475,28 @@ Path 2 is 8.2 km. What is the final displacement of each camper?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Read the straight displacement from the common starting point to the common endpoint, independent of the paths.
+
+**Solution**
+
+Put the origin at the cabin, with $$+x$$ east and $$+y$$ north. Figure 18 gives the displacement arrow as $$5.0\text{ km}$$ at $$40°$$ north of east. Its components are
+
+$$\Delta x=(5.0\text{ km})\cos40°=3.8\text{ km},\qquad
+\Delta y=(5.0\text{ km})\sin40°=3.2\text{ km}.$$
+
+![The two winding routes share a straight 5.0 km displacement arrow from the cabin to the lake at 40° north of east.](../resources/concept_03_02_q04.svg)
+
+The path lengths, $$7.5\text{ km}$$ and $$8.2\text{ km}$$, are distances traveled, not displacements. Since each camper starts and ends at the same respective locations, the two displacement vectors are identical.
+
+Both campers have the same final displacement, 5.0 km at 40° north of east, despite traveling different distances.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -435,6 +510,25 @@ What other information would he need to get to Sacramento?
 
 ![A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.](../resources/Figure_03_02_19.jpg)
 {: #Figure19 height="300"}
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Distinguish the magnitude of a displacement from its direction.
+
+**Solution**
+
+Every point on the shown circle is $$123\text{ km}$$ from San Francisco. A straight flight of that length fixes the displacement magnitude but leaves its heading unspecified. With east and north axes, all possible endpoints satisfy
+
+$$x^2+y^2=(123\text{ km})^2.$$
+
+The pilot also needs a heading or bearing. For the approximately $$45°$$ north-of-east direction in Figure 19, the components would be $$x=(123\text{ km})\cos45°\approx87\text{ km}$$ and $$y=(123\text{ km})\sin45°\approx87\text{ km}$$. These are an illustration based on the schematic angle, not a navigational survey.
+
+The pilot could reach any point on the circle because 123 km specifies only a distance; a direction or bearing toward Sacramento is also needed.
 
 ::::
 
@@ -453,6 +547,25 @@ the sum of the lengths of the two steps?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Use head-to-tail addition and distinguish the resultant vector from its magnitude.
+
+**Solution**
+
+Returning to the start requires $$\vb A+\vb B=0$$, so $$\vb B=-\vb A$$: the steps must have equal lengths and opposite directions. For example, $$3.0\m$$ east followed by $$3.0\m$$ west gives $$\Delta x=3.0\m-3.0\m=0\m$$.
+
+![Equal opposite steps return to the start, oblique steps give a shorter resultant, and same-direction steps give the maximum resultant of 6.0 m.](../resources/concept_03_02_q06.svg)
+
+The maximum possible distance from the starting point is the **scalar** $$|\vb A+\vb B|_{\max}=A+B$$, where $$A$$ and $$B$$ are the step lengths. Equality occurs when both steps point in the same direction. Two $$3.0\m$$ steps then give $$6.0\m$$; the vector $$\vb A+\vb B$$ additionally specifies direction.
+
+Two nonzero steps return to the start only if they are equal and opposite, while their maximum resultant distance is the sum of their lengths when they point in the same direction.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -463,6 +576,23 @@ Explain why it is not possible to add a scalar to a vector.
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Check whether both terms have the same mathematical type as well as compatible dimensions.
+
+**Solution**
+
+Vector addition combines components along specified directions. A scalar has no components or direction to combine with a vector. Thus adding the speed $$3.0\ms$$ directly to a velocity $$(4.0\ms)\hat{\mathbf{x}}$$ is undefined even though the units match.
+
+If the first quantity is instead specified as a velocity eastward, the vector sum is $$(3.0\ms)\hat{\mathbf{x}}+(4.0\ms)\hat{\mathbf{x}}=(7.0\ms)\hat{\mathbf{x}}$$. If it points west, the sum is $$(1.0\ms)\hat{\mathbf{x}}$$. The different outcomes show why the missing direction matters. A scalar may multiply a vector, but that is a different operation.
+
+A scalar cannot be added directly to a vector because it supplies no direction or vector components, even when the two quantities have the same units.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -470,6 +600,27 @@ Explain why it is not possible to add a scalar to a vector.
 :::: problem
 
 If you take two steps of different sizes, can you end up at your starting point? More generally, can two vectors with different magnitudes ever add to zero? Can three or more?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Find the smallest possible resultant of two unequal vectors, then test a closed polygon of three vectors.
+
+**Solution**
+
+For two steps of lengths $$A$$ and $$B$$, the smallest resultant magnitude is $$|A-B|$$, achieved when they oppose one another. If $$A\ne B$$ this is nonzero; for example, $$4.0\m$$ east followed by $$2.0\m$$ west leaves $$2.0\m$$ east.
+
+Three or more unequal vectors can close a polygon. Take steps $$4.0\m$$ east, $$3.0\m$$ north, and a final $$5.0\m$$ step back to the origin. The final step has components $$(-4.0\m,-3.0\m)$$, so both component sums are zero.
+
+![Unequal opposite steps leave a 2.0 m resultant, while steps of 3.0, 4.0, and 5.0 m form a closed triangle.](../resources/concept_03_02_q08.svg)
+
+For a prescribed collection of lengths, closure requires that the longest not exceed the sum of the others; three arbitrary unequal lengths do not necessarily close.
+
+Two vectors of different magnitudes cannot sum to zero, but three or more can if their lengths and directions allow them to form a closed head-to-tail polygon.
 
 ::::
 

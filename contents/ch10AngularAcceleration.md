@@ -365,6 +365,33 @@ Analogies exist between rotational and translational physical quantities. Identi
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Match quantities by their roles in the translational and fixed-axis rotational equations, not merely by similar names.
+
+**Solution**
+
+For rotation about a specified fixed axis, the analogies are:
+
+| Translational quantity | Rotational analog | Rotational units |
+| --- | --- | --- |
+| Acceleration $$a$$ | Angular acceleration $$\alpha$$ | rad/s² |
+| Force $$F$$ | Torque $$\tau$$ | N·m |
+| Mass $$m$$ | Moment of inertia $$I$$ | kg·m² |
+| Work $$\int F\,dx$$ | Rotational work $$\int\tau\,d\theta$$ | J |
+| Kinetic energy $$\tfrac12mv^2$$ | Rotational kinetic energy $$\tfrac12I\omega^2$$ | J |
+| Linear momentum $$p$$ | Angular momentum $$L$$ | kg·m²/s |
+| Impulse $$\int F\,dt$$ | Angular impulse $$\int\tau\,dt=\Delta L$$ | N·m·s |
+
+For example, where $$F=ma$$ determines linear acceleration, $$\tau=I\alpha$$ determines fixed-axis angular acceleration. An assumed $$\tau=2.0\N\cdot\m$$ on $$I=0.50\kg\cdot\mm$$ gives $$\alpha=(2.0\N\cdot\m)/(0.50\kg\cdot\mm)=4.0\text{ rad/s}^2$$. These analogies do not make quantities with different units interchangeable.
+
+The rotational analogs are angular acceleration, torque, moment of inertia, rotational work, rotational kinetic energy, angular momentum, and angular impulse, respectively.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -372,6 +399,27 @@ Analogies exist between rotational and translational physical quantities. Identi
 :::: problem
 
 Explain why centripetal acceleration changes the direction of velocity in circular motion but not its magnitude.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Resolve acceleration into perpendicular and parallel components relative to instantaneous velocity.
+
+**Solution**
+
+Velocity is tangent to the circular path, whereas centripetal acceleration points radially inward. Thus $$\vb v\cdot\vb a_c=0$$ and
+
+$$\frac{d(v^2/2)}{dt}=\vb v\cdot\vb a_c=0.$$
+
+For example, at $$v=4.0\ms$$ on radius $$r=2.0\m$$, $$a_c=v^2/r=(4.0\ms)^2/(2.0\m)=8.0\mss$$. This nonzero acceleration continually turns the velocity vector without increasing or decreasing its length. Choose a local inward radial axis and a forward tangential axis to show this perpendicular relationship.
+
+![Velocity is tangent to a circle while centripetal acceleration is inward and perpendicular to it; the radial and tangential directions are labeled.](../resources/concept_10_01_q02.svg)
+
+Centripetal acceleration changes the direction of velocity but not speed because it is perpendicular to the instantaneous velocity.
 
 ::::
 
@@ -385,6 +433,27 @@ In circular motion, a tangential acceleration can change the magnitude of the ve
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Use the tangential component of acceleration to determine the rate of change of speed.
+
+**Solution**
+
+At an instant when $$v>0$$, write
+
+$$\vb a=\frac{dv}{dt}\hat{\mathbf{t}}+\frac{v^2}{r}\hat{\mathbf{n}},$$
+
+where $$\hat{\mathbf{t}}$$ is along motion and $$\hat{\mathbf{n}}$$ points inward. The tangential component $$a_t=dv/dt=r\alpha$$ changes the velocity’s length. The perpendicular radial component changes its direction. For a point at $$r=0.20\m$$ with $$\alpha=+1.5\text{ rad/s}^2$$, $$a_t=(0.20\m)(1.5\text{ rad/s}^2)=+0.30\mss$$, so its speed increases by $$0.30\ms$$ in $$1.0\s$$ if that acceleration stays constant.
+
+The **total** velocity direction still changes while the object goes around the circle; the statement concerns what the tangential component contributes, not an absence of radial acceleration.
+
+Tangential acceleration changes speed through dv/dt, while the radial component supplies the simultaneous change in direction required for circular motion.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -394,6 +463,29 @@ In circular motion, a tangential acceleration can change the magnitude of the ve
 Suppose a piece of food is on the edge of a rotating microwave oven plate. Does it experience nonzero tangential acceleration, centripetal acceleration, or both when: (a) The plate starts to spin?
 (b) The plate rotates at constant angular velocity?
 (c) The plate slows to a halt?
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Use a_t = rα and a_c = rω², assuming the food does not slip on the plate.
+
+**Solution**
+
+Let the plate have radius $$r=0.15\m$$ and take the positive tangential direction to be its direction of rotation. Static friction must supply the food’s horizontal acceleration.
+
+**(a) Starting:** During spin-up, $$\alpha>0$$ and, once rotating, $$\omega>0$$, so both components are nonzero. For example, $$\alpha=0.20\text{ rad/s}^2$$ and $$\omega=0.50\rads$$ give $$a_t=(0.15\m)(0.20\text{ rad/s}^2)=0.030\mss$$ and $$a_c=(0.15\m)(0.50\rads)^2=0.038\mss$$. At the exact initially stationary instant, $$a_c=0\mss$$.
+
+**(b) Constant angular velocity:** $$\alpha=0$$, so $$a_t=0\mss$$, but $$a_c=r\omega^2$$ remains inward and nonzero.
+
+**(c) Slowing:** Before the stop, $$\alpha<0$$ and $$\omega>0$$, so tangential acceleration opposes motion while centripetal acceleration remains inward. Once the plate is stopped and stays stopped, both are zero.
+
+![Acceleration components for food during spin-up, constant-speed rotation, and slowing: tangential acceleration changes sign, while radial acceleration stays inward while rotating.](../resources/concept_10_01_q04.svg)
+
+The food has both acceleration components during spin-up and slowing, only centripetal acceleration during steady rotation, and neither after it has fully stopped.
 
 ::::
 

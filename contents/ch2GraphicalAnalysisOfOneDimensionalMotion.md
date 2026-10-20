@@ -384,6 +384,25 @@ zero, and
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Read instantaneous velocity from the slope of a tangent to the position–time curve, rather than from the curve’s height.
+
+**Solution**
+
+**(a)** The instantaneous velocity is $$v_x=dx/dt$$. With the graph’s upward coordinate representing positive position, an upward-sloping tangent gives positive velocity, a horizontal tangent gives zero velocity, and a downward-sloping tangent gives negative velocity.
+
+![Position–time curve with tangents at a, d, and e: the slope is largest at a, zero at d, and negative at e.](../resources/concept_02_08_q01.svg)
+
+Among the marked times, the slopes decrease from $$t_a$$ through $$t_d$$ and become negative at $$t_e$$. Thus **(b)** the greatest velocity is at $$t_a$$, **(c)** the zero velocity is at $$t_d$$, and **(d)** the negative velocity is at $$t_e$$. The axes have no numerical scale, so a speed in m/s cannot be read from them. As an illustrative tangent calculation only, a rise of $$4.0\m$$ over $$2.0\s$$ would give $$v_x=(4.0\m)/(2.0\s)=2.0\ms$$.
+
+Velocity is the tangent slope of the position graph, so it is greatest at tₐ, zero at t_d, and negative at t_e among the marked times.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -401,6 +420,29 @@ greatest.
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Sketch the slope of Figure 10 as a function of time, preserving the signs and horizontal tangencies of the original curve.
+
+**Solution**
+
+**(a)** Use $$v_x=dx/dt$$. The position decreases up to $$t_c$$, rises to $$t_e$$, falls to $$t_g$$, and rises again toward $$t_l$$. The corresponding velocity sketch is:
+
+![Velocity versus time obtained from Figure 10: negative at a and b, zero at c, positive at d, zero at e, negative at f, zero at g, positive at h through k, and zero at l.](../resources/concept_02_08_q02.svg)
+
+**(b)** Among the labeled points, $$t_d$$ has the steepest positive position tangent and hence the greatest instantaneous velocity. The later steep rising portion also has a large positive velocity, but the sketch does not provide precise numerical speeds.
+
+**(c)** Horizontal position tangents give zero velocity at $$t_c,t_e,t_g,t_l$$.
+
+**(d)** The labeled negative velocities occur at $$t_a,t_b,t_f$$; more generally velocity is negative wherever position is decreasing. A tangent slope would have units of position/time, such as $$(-2.0\m)/(1.0\s)=-2.0\ms$$ if numerical scales were supplied.
+
+The velocity sketch follows the position slope: among the marked times it is greatest at t_d, zero at t_c, t_e, t_g, and t_l, and negative at tₐ, t_b, and t_f.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -412,6 +454,25 @@ greatest.
 
 ![Line graph of velocity over time with two points labeled. Point P is at v 1 t 1. Point Q is at v 2 t 2. The line has a positive slope that increases over time.](../resources/Figure_02_08_11.svg)
 {: #Figure11}
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Use the slope of the velocity–time curve, which measures the change of velocity per unit time.
+
+**Solution**
+
+**(a)** The acceleration is $$a_x=dv_x/dt$$, the instantaneous tangent slope. The slope of the secant joining P and Q instead gives the average acceleration $$\overline a_x=(v_2-v_1)/(t_2-t_1)$$ over that interval.
+
+![Tangents to a velocity–time curve become steeper from P to Q, indicating increasing positive acceleration.](../resources/concept_02_08_q03.svg)
+
+**(b)** Both tangents slope upward, and the later tangent is steeper. The acceleration is therefore positive and increases over the illustrated interval; it is not constant. For a numerical illustration of the units, a velocity change of $$6.0\ms$$ in $$2.0\s$$ gives $$\overline a_x=(6.0\ms)/(2.0\s)=3.0\mss$$. That example is not a reading from this unnumbered graph.
+
+Acceleration is the slope of the velocity–time curve, so Figure 11 shows positive acceleration that increases as the curve becomes steeper.
 
 :::
 
@@ -428,6 +489,29 @@ greatest.
 
 ![Line graph of velocity over time with 12 points labeled a through l. The line has a positive slope from a at the origin to d where it slopes downward to e, and then back upward to h. It then slopes back down to point l at v equals 0.](../resources/Figure_02_08_12.svg)
 {: #Figure12}
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Differentiate the velocity curve qualitatively: acceleration follows its slope, not its value.
+
+**Solution**
+
+**(a)** Since $$a_x=dv_x/dt$$, the initially increasing velocity gives positive acceleration, the small dip from d to e gives negative acceleration, the next rise gives positive acceleration, and the final decrease after h gives negative acceleration.
+
+![Acceleration sketch for Figure 12, with the greatest marked positive acceleration at a, zeros at d, e, and h, and negative values at i through l.](../resources/concept_02_08_q04.svg)
+
+**(b)** The greatest acceleration among the marked times is at $$t_a$$, where velocity has its steepest positive slope.
+
+**(c)** The horizontal velocity tangents at $$t_d,t_e,t_h$$ give zero acceleration.
+
+**(d)** The marked negative accelerations are $$t_i,t_j,t_k,t_l$$; acceleration is also negative between $$t_d$$ and $$t_e$$. In particular, zero velocity at $$t_l$$ does not imply zero acceleration. Acceleration has units such as $$( -3.0\ms)/(1.0\s)=-3.0\mss$$; the sketch itself supplies no numerical scale.
+
+The acceleration graph is the velocity slope, greatest at tₐ, zero at t_d, t_e, and t_h, and negative at t_i through t_l as well as between t_d and t_e.
 
 :::
 
@@ -451,6 +535,38 @@ Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this tr
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Integrate the three velocity segments for position and take their slopes for acceleration.
+
+**Solution**
+
+Choose the elevator’s initial position as $$y=0\m$$ and $$+y$$ upward, matching the positive velocity in Figure 13. The three accelerations are
+
+$$a_1=\frac{3.0\ms-0\ms}{3.0\s}=1.0\mss,\qquad a_2=0\mss,\qquad
+a_3=\frac{0\ms-3.0\ms}{5.0\s}=-0.60\mss.$$
+
+**(a)** With $$t$$ measured from departure, the position is
+
+$$y(t)=\begin{cases}
+\tfrac12(1.0\mss)t^2,&0\le t\le3.0\s,\\
+4.5\m+(3.0\ms)(t-3.0\s),&3.0\s\le t\le18\s,\\
+49.5\m+(3.0\ms)(t-18\s)-\tfrac12(0.60\mss)(t-18\s)^2,&18\s\le t\le23\s.
+\end{cases}$$
+
+The successive displacements are $$\tfrac12(3.0\s)(3.0\ms)=4.5\m$$, $$(15\s)(3.0\ms)=45\m$$, and $$\tfrac12(5.0\s)(3.0\ms)=7.5\m$$, giving a total of $$57\m$$. Position is continuous and always increases, becoming horizontal at the stop.
+
+**(b)** The acceleration graph has constant levels $$+1.0\mss$$, $$0\mss$$, and $$-0.60\mss$$ over the respective intervals; it is zero before departure and after arrival. Instantaneous jumps between those levels idealize short transitions in a real elevator.
+
+![Elevator position rises parabolically, linearly, and then with decreasing slope to 57 m; acceleration is +1.0, zero, and −0.60 m/s² over the three motion intervals.](../resources/concept_02_08_q05.svg)
+
+The elevator’s position rises smoothly to 57 m, while its acceleration is +1.0 m/s² for the first 3 s, zero for the next 15 s, and −0.60 m/s² for the final 5 s.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -460,6 +576,29 @@ Sketch graphs of (a) position vs. time and (b) acceleration vs. time for this tr
 A cylinder is given a push and then rolls up an inclined plane.
 If the origin is the starting point, sketch the position, velocity, and acceleration of the cylinder vs.
 time as it goes up and then down the plane.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Choose an axis along the incline and use one constant downslope acceleration on both parts of the motion.
+
+**Solution**
+
+Set $$x=0\m$$ at release and choose $$+x$$ uphill. Assume a fixed incline, rolling without slipping, and negligible rolling resistance. Gravity and static friction then give a constant center-of-mass acceleration $$a_x=-a_0$$ downhill. The sign does not change at the turning point. For a uniform solid cylinder, rotational dynamics gives $$a_0=(2/3)g\sin\theta$$; only constancy and direction are needed for these sketches.
+
+For illustration, choose $$v_0=2.0\ms$$ and $$a_0=1.0\mss$$:
+
+$$x=(2.0\ms)t-\tfrac12(1.0\mss)t^2,\quad v_x=2.0\ms-(1.0\mss)t,\quad a_x=-1.0\mss.$$
+
+The position graph is concave down, reaching $$x=2.0\m$$ at $$t=2.0\s$$ and returning to $$x=0\m$$ at $$t=4.0\s$$. Velocity decreases linearly through zero at the top, and acceleration is a horizontal negative line.
+
+![Position, velocity, and acceleration graphs for a cylinder released uphill with +x along the slope, v₀ = 2.0 m/s, and a = −1.0 m/s².](../resources/concept_02_08_q06.svg)
+
+The cylinder’s position is a concave-down parabola, its velocity decreases linearly from positive to negative, and its acceleration remains constant and downhill throughout the ascent and descent.
 
 :::
 
@@ -935,6 +1074,8 @@ This velocity-time graph illustrates a world-class sprinter's race strategy. The
 To construct the velocity graph from the position graph, we calculate the slope of each segment, since velocity equals the slope of the position-time graph. To construct the acceleration graph from the velocity graph, we calculate the slope of the velocity-time graph, since acceleration equals the slope of velocity vs. time. We analyze each distinct segment where the slope is constant.
 
 **Solution**
+
+![Velocity segments at +1, −5, 0, and +1 m/s and zero acceleration between idealized impulsive transitions; axis units and velocity-jump areas are labeled.](../resources/solution_02_08_p08.svg)
 
 **Analyzing the Position Graph (Figure 23):**
 

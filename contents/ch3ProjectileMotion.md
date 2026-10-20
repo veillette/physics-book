@@ -670,6 +670,31 @@ $$ t=0 $$ ?
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Separate the constant horizontal velocity from the changing vertical velocity, with +x horizontal and +y upward.
+
+**Solution**
+
+For launch speed $$v_0$$ and angle $$0<\theta<90°$$, $$v_x=v_0\cos\theta>0$$ and $$v_y=v_0\sin\theta-gt$$.
+
+![Projectile trajectory showing a nonzero horizontal velocity at the top and equal speeds at equal heights.](../resources/concept_03_04_q01.svg)
+
+**(a)** Velocity is never zero during flight because $$v_x$$ remains nonzero, even when $$v_y=0$$ at the top.
+
+**(b)** Speed $$\sqrt{v_x^2+v_y^2}$$ is smallest at the top and greatest at launch and just before landing on the same level. For the illustrated $$v_0=20\ms$$ and horizontal component $$v_x=12\ms$$, the minimum speed is $$12\ms$$; the vertical launch component is $$\sqrt{(20\ms)^2-(12\ms)^2}=16\ms$$ and both endpoint speeds are $$20\ms$$.
+
+**(c)** The initial velocity vector never recurs during uninterrupted flight: $$v_y=v_{0y}$$ would require $$gt=0\ms$$ and hence $$t=0\s$$.
+
+**(d)** The initial **speed** does recur at landing, where $$v_y=-v_{0y}$$ and $$v_x$$ is unchanged.
+
+The velocity never vanishes or repeats its initial vector after launch, while speed is minimum at the top and returns to its maximum initial value upon landing at the launch height.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -687,6 +712,27 @@ Answer the following questions for projectile motion on level ground assuming ne
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Compare the fixed downward acceleration with the directions of the two velocity components.
+
+**Solution**
+
+Choose $$+x$$ horizontally along the launch and $$+y$$ upward. Ignoring drag, $$\vb a=-(9.80\mss)\hat{\mathbf{y}}$$ throughout flight.
+
+**(a)** Acceleration is never zero, including at the top where only $$v_y$$ is zero.
+
+**(b)** On descent, the vertical velocity component is downward and is in the same direction as acceleration. For instance, $$v_y=-3.0\ms$$ becomes $$-3.98\ms$$ after $$0.10\s$$ because $$\Delta v_y=(-9.80\mss)(0.10\s)=-0.98\ms$$.
+
+**(c)** On ascent, $$v_y>0$$ and acceleration is opposite that vertical component. It is always perpendicular to the horizontal component. At the top the vertical component is zero, so it has no direction to compare.
+
+Projectile acceleration is always downward and nonzero, aligns with the vertical velocity on descent, and opposes the vertical velocity on ascent.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -697,6 +743,29 @@ For a fixed initial speed, the range of a projectile is determined by the angle 
 
 ::::
 
+
+:::: solution
+
+**Strategy**
+
+Compare the flight times for two equal-range launch angles and consider clearance and the intended use of the projectile.
+
+**Solution**
+
+For equal launch and landing heights, $$R=v_0^2\sin(2\theta)/g$$ and $$T=2v_0\sin\theta/g$$. Complementary angles have the same range but different flight times. With assumed $$v_0=20\ms$$, the $$30°$$ and $$60°$$ shots both have
+
+$$R=\frac{(20\ms)^2\sin60°}{9.80\mss}=35\m,$$
+
+while $$T_{30}=2(20\ms)\sin30°/(9.80\mss)=2.0\s$$ and $$T_{60}=3.5\s$$.
+
+![Two complementary-angle trajectories share a range, but the higher trajectory stays aloft longer.](../resources/concept_03_04_q03.svg)
+
+The lower trajectory gives wind and target motion less time to affect the shot and is often easier to aim. The larger angle is useful when an obstacle must be cleared or a target must be approached steeply from above. A football punter deliberately seeks hang time so teammates can run downfield before the receiver catches the ball; maximum targeting speed is not the only objective.
+
+An archer usually prefers the shorter flight of the lower angle, uses a higher angle when clearance or approach geometry requires it, and a punter uses a high trajectory to give teammates time to reach the receiver.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -704,6 +773,31 @@ For a fixed initial speed, the range of a projectile is determined by the angle 
 :::: problem
 
 During a lecture demonstration, a professor places two coins on the edge of a table. She then flicks one of the coins horizontally off the table, simultaneously nudging the other over the edge. Describe the subsequent motion of the two coins, in particular discussing whether they hit the floor at the same time.
+
+::::
+
+
+:::: solution
+
+**Strategy**
+
+Apply the same vertical equation to both coins and keep horizontal motion independent.
+
+**Solution**
+
+Take the table edge as $$y=0\m$$ and $$+y$$ upward. Assume both coins begin falling simultaneously with $$v_{0y}=0\ms$$ and negligible air resistance. Their vertical motions are identical:
+
+$$y=-\tfrac12gt^2.$$
+
+For the illustrated table height $$h=1.0\m$$, both reach the floor at
+
+$$t=\sqrt{\frac{2h}{g}}=\sqrt{\frac{2(1.0\m)}{9.80\mss}}=0.45175\s\approx0.45\s.$$
+
+The coin released without horizontal speed falls vertically. With the illustrated $$v_{0x}=1.5\ms$$, the flicked coin travels $$(1.5\ms)(0.45175\s)=0.6776\m\approx0.68\m$$ horizontally while following a parabola. This horizontal motion does not change its fall time.
+
+![One coin drops vertically and the other moves horizontally along a parabola; their vertical positions agree at each equal time.](../resources/concept_03_04_q04.svg)
+
+The coins hit the floor simultaneously because they have identical initial vertical motion and gravitational acceleration, although the flicked coin also travels horizontally.
 
 ::::
 
@@ -2888,7 +2982,6 @@ $$ R_{total} = x_1 + x_2 = 30.000 \m + 27.375 \m = 57.4 \m $$
 </div>
 
 Equivalently, the gust shortens the range by $$ (1.50 \ms)\,t_{down} $$, so $$ R' = 60.0 \m - (1.50 \ms)\sqrt{\frac{30.0 \m}{9.80 \mss}} = 57.3755 \m \approx 57.4 \m $$.
-</div>
 
 **Discussion**
 
@@ -3011,6 +3104,10 @@ expression for $$ x-x_{0} $$, noting that $$ R=x-x_{0} $$
 ::::
 
 :::: solution
+
+**Strategy**
+
+Use the nonzero time at which the projectile returns to launch height, then substitute it into the horizontal displacement equation.
 
 **Sketch and coordinate system**
 

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="670" height="660" viewBox="0 0 670 660" role="img" aria-labelledby="title desc">
+<title id="title">Velocity and acceleration for piecewise-linear position</title>
+<desc id="desc">Velocity is +1 m/s from 0 to 2 s, minus 5 m/s from 2 to 3 s, zero from 3 to 5 s, and +1 m/s from 5 to 6 s. Acceleration is zero on those open intervals. At 2, 3, and 5 s, arrows indicate idealized impulses of areas minus 6, plus 5, and plus 1 m/s, not finite acceleration heights.</desc>
+<rect width="670" height="660" fill="#ffffff"/>
+<line x1="100" y1="107.5" x2="610" y2="107.5" stroke="#333333" stroke-width="1.3"/>
+<line x1="100" y1="280" x2="100" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="100" y1="107.5" x2="100" y2="112.5" stroke="#333333" stroke-width="1.2"/>
+<text x="100" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="178.46" y1="107.5" x2="178.46" y2="112.5" stroke="#333333" stroke-width="1.2"/>
+<text x="178.46" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="256.92" y1="107.5" x2="256.92" y2="112.5" stroke="#333333" stroke-width="1.2"/>
+<text x="256.92" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="335.38" y1="107.5" x2="335.38" y2="112.5" stroke="#333333" stroke-width="1.2"/>
+<text x="335.38" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<line x1="413.85" y1="107.5" x2="413.85" y2="112.5" stroke="#333333" stroke-width="1.2"/>
+<text x="413.85" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<line x1="492.31" y1="107.5" x2="492.31" y2="112.5" stroke="#333333" stroke-width="1.2"/>
+<text x="492.31" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<line x1="570.77" y1="107.5" x2="570.77" y2="112.5" stroke="#333333" stroke-width="1.2"/>
+<text x="570.77" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
+<line x1="95" y1="251.25" x2="100" y2="251.25" stroke="#333333" stroke-width="1.2"/>
+<text x="91" y="256.15" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−5</tspan></text>
+<line x1="95" y1="193.75" x2="100" y2="193.75" stroke="#333333" stroke-width="1.2"/>
+<text x="91" y="198.65" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−3</tspan></text>
+<line x1="95" y1="107.5" x2="100" y2="107.5" stroke="#333333" stroke-width="1.2"/>
+<text x="91" y="112.4" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="95" y1="78.75" x2="100" y2="78.75" stroke="#333333" stroke-width="1.2"/>
+<text x="91" y="83.65" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<text x="355" y="323.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal">)</tspan></text>
+<text x="42" y="170.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 42 165)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Velocity</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="100" y1="78.75" x2="256.92" y2="78.75" stroke="#5e9e1e" stroke-width="3"/>
+<line x1="256.92" y1="251.25" x2="335.38" y2="251.25" stroke="#5e9e1e" stroke-width="3"/>
+<line x1="335.38" y1="107.5" x2="492.31" y2="107.5" stroke="#5e9e1e" stroke-width="3"/>
+<line x1="492.31" y1="78.75" x2="570.77" y2="78.75" stroke="#5e9e1e" stroke-width="3"/>
+<line x1="100" y1="475" x2="610" y2="475" stroke="#333333" stroke-width="1.3"/>
+<line x1="100" y1="550" x2="100" y2="400" stroke="#333333" stroke-width="1.3"/>
+<line x1="100" y1="475" x2="100" y2="480" stroke="#333333" stroke-width="1.2"/>
+<text x="100" y="571.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="178.46" y1="475" x2="178.46" y2="480" stroke="#333333" stroke-width="1.2"/>
+<text x="178.46" y="571.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="256.92" y1="475" x2="256.92" y2="480" stroke="#333333" stroke-width="1.2"/>
+<text x="256.92" y="571.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="335.38" y1="475" x2="335.38" y2="480" stroke="#333333" stroke-width="1.2"/>
+<text x="335.38" y="571.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<line x1="413.85" y1="475" x2="413.85" y2="480" stroke="#333333" stroke-width="1.2"/>
+<text x="413.85" y="571.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<line x1="492.31" y1="475" x2="492.31" y2="480" stroke="#333333" stroke-width="1.2"/>
+<text x="492.31" y="571.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<line x1="570.77" y1="475" x2="570.77" y2="480" stroke="#333333" stroke-width="1.2"/>
+<text x="570.77" y="571.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
+<line x1="95" y1="475" x2="100" y2="475" stroke="#333333" stroke-width="1.2"/>
+<text x="91" y="479.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<text x="355" y="593.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal">)</tspan></text>
+<text x="42" y="480.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 42 475)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Acceleration</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">2</tspan></tspan><tspan dy="6">​</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="100" y1="475" x2="570.77" y2="475" stroke="#6a3d9a" stroke-width="3"/>
+<line x1="256.92" y1="475" x2="256.92" y2="513.4" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="256.92,525 251.88,512.4 261.96,512.4" fill="#6a3d9a"/>
+<text x="256.92" y="542.05" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">v</tspan><tspan font-style="normal"> = −6 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan></text>
+<line x1="335.38" y1="475" x2="335.38" y2="436.6" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="335.38,425 340.42,437.6 330.34,437.6" fill="#6a3d9a"/>
+<text x="335.38" y="417.05" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">v</tspan><tspan font-style="normal"> = +5 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan></text>
+<line x1="492.31" y1="475" x2="492.31" y2="436.6" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="492.31,425 497.35,437.6 487.27,437.6" fill="#6a3d9a"/>
+<text x="492.31" y="417.05" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="normal">v</tspan><tspan font-style="normal"> = +1 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">s</tspan></text>
+<text x="335" y="639.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Impulse</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">arrows</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">show</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">signs</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">and</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">areas</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">they</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">do</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">not</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">represent</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">finite</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">acceleration</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">heights</tspan><tspan font-style="normal">.</tspan></text>
+</svg>

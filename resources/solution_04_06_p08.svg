@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="410" viewBox="0 0 760 410" role="img" aria-labelledby="title desc">
+<title id="title">Two addition orders and an alternative force pair</title>
+<desc id="desc">Force diagrams share x to the right, y up, and a scale of 10 pixels per newton. Left: horizontal F1 and vertical F2 added in either order form the same 20.0 N resultant at 35 degrees. Right: F3 at 75 degrees followed by horizontal F4 reaches the same tip, with magnitudes approximately 11.9 N and 13.3 N.</desc>
+<rect width="760" height="410" fill="#ffffff"/>
+<line x1="55" y1="280" x2="276" y2="280" stroke="#333333" stroke-width="1.5"/>
+<polygon points="285,280 275,284 275,276" fill="#333333"/>
+<line x1="65" y1="290" x2="65" y2="109" stroke="#333333" stroke-width="1.5"/>
+<polygon points="65,100 69,110 61,110" fill="#333333"/>
+<text x="289" y="301.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="51" y="111.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<line x1="65" y1="280" x2="217.23" y2="280" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="228.83,280 216.23,285.04 216.23,274.96" fill="#1f77c8"/>
+<line x1="228.83" y1="280" x2="228.83" y2="176.88" stroke="#c62828" stroke-width="3"/>
+<polygon points="228.83,165.28 233.87,177.88 223.79,177.88" fill="#c62828"/>
+<line x1="65" y1="280" x2="65" y2="176.88" stroke="#c62828" stroke-width="3"/>
+<polygon points="65,165.28 70.04,177.88 59.96,177.88" fill="#c62828"/>
+<line x1="65" y1="165.28" x2="217.23" y2="165.28" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="228.83,165.28 216.23,170.32 216.23,160.24" fill="#1f77c8"/>
+<text x="146.92" y="311.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">1</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 16.4 </tspan><tspan font-style="italic">N</tspan></text>
+<text x="249.83" y="228.94" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">2</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<line x1="65" y1="280" x2="217.53" y2="173.2" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="228.83,165.28 220.1,178.62 213.31,168.92" fill="#8e4f8e"/>
+<text x="179.68" y="185.3" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20.0 </tspan><tspan font-style="italic">N</tspan></text>
+<text x="190" y="40.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Both</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">addition</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">orders</tspan></text>
+<line x1="440" y1="280" x2="661" y2="280" stroke="#333333" stroke-width="1.5"/>
+<polygon points="670,280 660,284 660,276" fill="#333333"/>
+<line x1="450" y1="290" x2="450" y2="109" stroke="#333333" stroke-width="1.5"/>
+<polygon points="450,100 454,110 446,110" fill="#333333"/>
+<text x="674" y="301.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="436" y="111.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<line x1="450" y1="280" x2="477.74" y2="176.49" stroke="#c62828" stroke-width="3"/>
+<polygon points="480.74,165.28 482.35,178.76 472.61,176.15" fill="#c62828"/>
+<line x1="480.74" y1="165.28" x2="602.23" y2="165.28" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="613.83,165.28 601.23,170.32 601.23,160.24" fill="#1f77c8"/>
+<text x="435" y="228.94" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="12.6" dy="5.04"><tspan font-style="normal">3</tspan></tspan><tspan dy="-5.04">​</tspan></text>
+<text x="547.28" y="150.53" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">4</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 13.3 </tspan><tspan font-style="italic">N</tspan></text>
+<line x1="450" y1="280" x2="602.53" y2="173.2" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="613.83,165.28 605.1,178.62 598.31,168.92" fill="#8e4f8e"/>
+<text x="564.68" y="185.3" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20.0 </tspan><tspan font-style="italic">N</tspan></text>
+<text x="575" y="40.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Alternative</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pair</tspan></text>
+<text x="380" y="369.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Both</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">panels</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">use</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">same</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">force</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">scale</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">each</tspan><tspan font-style="normal"> 50-</tspan><tspan font-style="normal">pixel</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">bar</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">represents</tspan><tspan font-style="normal"> 5.0 </tspan><tspan font-style="normal">N</tspan><tspan font-style="normal">.</tspan></text>
+<line x1="320" y1="390" x2="370" y2="390" stroke="#222222" stroke-width="3"/>
+<text x="410" y="394.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5.0 </tspan><tspan font-style="normal">N</tspan></text>
+</svg>

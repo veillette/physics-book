@@ -350,23 +350,26 @@ feet leave it.
 
 **Strategy**
 
-The diving board acts like a spring, with elastic potential energy $$ \PE_{s} = \tfrac{1}{2}kx^{2} $$, where $$ x $$ is how far its end is bent from its unloaded position. Follow the deflection $$ x $$ through the dive.
+Follow elastic energy through deflection and state the board/contact idealization needed to specify its energy at takeoff.
 
 **Solution**
 
-![Sketch of the diving board's elastic potential energy versus time. It is zero before the swimmer steps on, rises as she walks out and the board bends under her weight, rises to a maximum when she drives the board down to its lowest point, and then decreases to zero as the board straightens and launches her, reaching zero when her feet leave the board.](../resources/concept_07_04_q02.svg)
+Model the board as an **ideal massless linear spring**, with the swimmer as a point mass maintaining contact until the spring returns to its unloaded position. Neglect damping and treat the swimmer’s posture as fixed during this release. This is a model for the energy sketch, not a consequence of negligible friction alone. Take deflection $$x$$ positive downward from the unloaded position, so $$U_s=\tfrac12kx^2$$.
 
-Take $$ x $$ positive downward, the direction the board bends. Suppose the board has an effective spring constant $$ k = 6000 \text{ N/m} $$ and the swimmer has a mass of $$ 60 \kg $$.
+For illustrative $$k=6000\text{ N/m}$$ and swimmer mass $$m=60\kg$$:
 
-1. **Before she steps on:** the board is straight, $$ x = 0 \m $$, so $$ \PE_{s} = 0 \J $$.
-2. **Standing at the end:** her weight, $$ (60 \kg)(9.80 \mss) = 588 \N $$, bends the board by $$ x = (588 \N)/(6000 \text{ N/m}) = 0.098 \m $$, so $$ \PE_{s} = \tfrac{1}{2}(6000 \text{ N/m})(0.098 \m)^2 = 29 \J $$.
-3. **Driving the board down:** she jumps and lands on the end, or bounces, and the board bends much farther, say to $$ x = 0.30 \m $$ at the lowest point. Her kinetic energy has gone into the board, and $$ \PE_{s} $$ reaches its **maximum**, $$ \tfrac{1}{2}(6000 \text{ N/m})(0.30 \m)^2 = 270 \J $$.
-4. **Launch:** the board springs back up, pushing her upward. Its potential energy decreases as it does work on her, turning into her kinetic and gravitational potential energy.
-5. **Feet leave the board:** the board is back at $$ x = 0 \m $$ (it then vibrates, but she has left), so $$ \PE_{s} = 0 \J $$ again.
+1. **Before stepping on:** $$x=0\m$$ and $$U_s=0\J$$.
+2. **Standing at the end:** $$kx=mg$$ gives $$x=(60\kg)(9.80\mss)/(6000\text{ N/m})=0.098\m$$ and $$U_s=\tfrac12(6000\text{ N/m})(0.098\m)^2=29\J$$.
+3. **Depressing the board:** assume a maximum deflection $$x=0.30\m$$. Then $$U_s=\tfrac12(6000\text{ N/m})(0.30\m)^2=270\J$$, its maximum in this modeled dive.
+4. **Rebound:** elastic energy decreases as the board does positive work on the rising swimmer, increasing her kinetic and gravitational potential energies.
+5. **Separation in this model:** at $$x=0\m$$ the spring force and elastic energy are zero. The massless spring has no kinetic energy left and does not continue vibrating.
 
-With negligible friction in the board, all the energy stored is returned to the swimmer.
+![Elastic energy for an explicitly idealized massless board rises from zero to 29 J while standing, then to 270 J at maximum depression, and returns to zero at separation.](../resources/concept_07_04_q02.svg)
 
-The diving board's potential energy starts at zero, increases as the swimmer steps on and bends it (about $$ 29 \J $$ while she stands at the end), reaches a maximum when she drives it to its lowest point (about $$ 270 \J $$), and decreases back to zero as the board straightens and launches her, just as her feet leave it.
+A real massive board can retain kinetic and elastic energy and vibrate after the feet leave. Its potential energy need not remain zero afterward, and the separation position depends on the contact and diver dynamics. Negligible internal friction conserves total mechanical energy of board plus swimmer, not necessarily energy of the swimmer alone.
+
+The board stores elastic energy as it bends and releases it during rebound; it returns all of that energy at zero deflection only in the stated massless-spring model, while a real board can retain energy and vibrate after takeoff.
+
 
 ::::
 

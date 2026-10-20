@@ -465,12 +465,12 @@ Compare the stability of a starting position with what is needed to accelerate q
 The starting postures are chosen so that the athlete is **barely stable**, ready to move at once:
 
 1. **The cg is placed at the front edge of the base of support.** A sprinter in the blocks puts much of the weight on the hands, with the cg just behind them. When the hands lift at the gun, the cg is already in front of the feet, so the body starts falling forward and can be driven forward immediately. A swimmer on the block curls the toes over the front edge, with the cg near the edge, ready to tip into the dive.
-2. **The legs are bent and pushing against something solid.** The blocks or the edge of the starting platform let the legs push backward with large forces. By Newton's third law, the blocks push the athlete forward. For a $$ 70 \kg $$ sprinter pushing on the blocks with a forward reaction of $$ 1400 \N $$ for $$ 0.40 \s $$, the impulse is $$ (1400 \N)(0.40 \s) = 560 \N \cdot \s $$, giving a speed of $$ (560 \kg \cdot \ms)/(70 \kg) = 8.0 \ms $$ when leaving the blocks (ignoring the vertical forces).
+2. **The legs are bent and pushing against something solid.** The blocks or the edge of the starting platform let the legs push backward with large forces. By Newton's third law, the blocks push the athlete forward. For an illustrative $$70\kg$$ sprinter, assume an average forward horizontal reaction of $$600\N$$ for $$0.40\s$$, with negligible horizontal drag. The horizontal impulse is $$(600\N)(0.40\s)=240\N\cdot\s$$, giving horizontal speed $$(240\kg\cdot\ms)/(70\kg)=3.43\ms\approx3.4\ms$$ from rest. The average horizontal force is not the peak force or the resultant of horizontal and vertical contact forces.
 3. **The leaning body directs the force forward.** Because the body leans, the force from the ground can point mostly forward through the cg instead of producing a torque that would rotate the athlete upright too early.
 
 Starts matter because in a short race even $$ 0.1 \s $$ is decisive. At $$ 10 \ms $$, a $$ 0.1 \s $$ delay costs $$ (10 \ms)(0.1 \s) = 1 \m $$.
 
-Starting postures place the athlete's center of gravity at the edge of the base of support with bent legs braced against blocks or the platform edge, so the athlete is barely in balance and can immediately tip forward and push off with large forces (for example, $$ 560 \N \cdot \s $$ of impulse, giving $$ 8.0 \ms $$ to a $$ 70 \kg $$ sprinter), which matters because a $$ 0.1 \s $$ delay can cost about $$ 1 \m $$.
+Starting postures place the athlete's center of gravity at the edge of the base of support with bent legs braced against blocks or the platform edge, so the athlete is barely in balance and can immediately tip forward and push off with large forces (for example, $$240\N\cdot\s$$ of horizontal impulse, giving about $$3.4\ms$$ to a $$70\kg$$ sprinter), which matters because a $$ 0.1 \s $$ delay can cost about $$ 1 \m $$.
 
 :::
 
@@ -524,27 +524,31 @@ Suppose the biceps muscle was attached through tendons to the upper arm close to
 
 **Strategy**
 
-Compare the lever arm, and hence the mechanical advantage, of the actual attachment ($$ 4.00 \text{ cm} $$ from the elbow) with that of a hypothetical attachment near the wrist (say $$ 35.0 \text{ cm} $$ from the elbow, with the hand at $$ 38.0 \text{ cm} $$). Then compare how far and how fast the hand moves when the muscle shortens.
+Draw both attachment points and use the perpendicular distance to the muscle’s line of action, rather than the insertion distance alone.
 
 **Solution**
 
-**Advantages.** The mechanical advantage would rise from $$ (4.00 \text{ cm})/(38.0 \text{ cm}) = 0.105 $$ to
+The question changes **both** ends of the connection, so a wrist insertion does not by itself establish a large mechanical advantage. Consider a horizontal forearm with the elbow at the origin, $$+x$$ toward the wrist, and $$+y$$ up the upper arm. Put the upper attachment at $$(0,a)$$ and the forearm attachment at $$(b,0)$$. The straight tendon pulls from the forearm toward the upper attachment, making angle $$\phi$$ with the forearm; its perpendicular lever arm is
 
-<div class="equation">
-$$ \text{MA} = \frac{35.0 \text{ cm}}{38.0 \text{ cm}} = 0.921 $$
-</div>
+$$r_\perp=b\sin\phi=\frac{ab}{\sqrt{a^2+b^2}}.$$
 
-To hold a $$ 39.2 \N $$ ball (ignoring the forearm's weight), the biceps would need only $$ (39.2 \N)/0.921 = 42.6 \N $$ instead of $$ 373 \N $$. The force in the elbow joint would drop by the same large factor, reducing wear on the joint, and much heavier loads could be lifted.
+![Elbow at the origin, an upper-arm attachment a above it, and a forearm attachment b toward the wrist; the oblique tendon’s perpendicular moment arm is shorter than its insertion distance b.](../resources/concept_09_06_q06.svg)
 
-**Disadvantages.**
+For **illustrative, not anatomical**, values $$a=0.0400\m$$, $$b=0.350\m$$, and hand distance $$R=0.380\m$$,
 
-- **Speed and range.** The hand moves only $$ (38.0 \text{ cm})/(35.0 \text{ cm}) = 1.09 $$ times as far and as fast as the muscle contracts, instead of $$ 9.5 $$ times. A $$ 1.0 \text{ cm} $$ contraction would move the hand $$ 1.1 \text{ cm} $$ instead of $$ 9.5 \text{ cm} $$. Throwing, hitting, and other fast movements would be impossible.
-- **Range of motion.** A muscle can shorten only a limited amount, so the arm could bend through only a small angle.
-- **Structure.** The muscle and tendon would have to run along the whole forearm, which would be bulky, exposed to injury, and in the way of the wrist and hand.
+$$r_\perp=\frac{(0.0400\m)(0.350\m)}{\sqrt{(0.0400\m)^2+(0.350\m)^2}}=0.03974\m,$$
 
-(Precision is not the problem: each small contraction would produce an equally small hand motion, so fine control would actually be easier. The cost is speed and range.)
+$$\mathrm{MA}=\frac{r_\perp}{R}=0.1046,\qquad
+F_m=\frac{(39.2\N)(0.380\m)}{0.03974\m}\approx375\N$$
 
-Attaching the biceps near the wrist would greatly increase the arm's mechanical advantage (from $$ 0.105 $$ to about $$ 0.921 $$), so much smaller muscle and joint forces would be needed, but the hand would move only about $$ 1.1 \text{ cm} $$ per centimeter of contraction instead of $$ 9.5 \text{ cm} $$, so the arm would lose its speed and range of motion, and the long tendon would be awkward and vulnerable.
+to balance a $$39.2\N$$ hand load, neglecting forearm weight. The long insertion distance does **not** give a $$0.350\m$$ moment arm or a $$42.6\N$$ muscle force, because the tendon pulls nearly along the forearm. The moment arm cannot exceed the small upper-attachment distance $$a$$ in this geometry.
+
+**Possible advantage:** if a redesigned attachment genuinely increased $$r_\perp$$, less muscle force would be needed for the same load. But placing the proximal attachment close to the elbow can prevent that advantage, so the geometry given does not guarantee greater strength or lower joint forces.
+
+**Motion and structural costs:** instantaneous hand travel per unit shortening is approximately $$R/r_\perp$$ for this planar configuration. Here it is $$0.380\m/0.03974\m=9.56$$, not 1.09. A larger true moment arm would trade this speed and motion range for force. A long connection spanning the forearm also needs room and can impose large along-bone compressive loads; its range and leverage vary with elbow angle.
+
+The hypothetical attachment offers a force advantage only if it increases the perpendicular muscle moment arm; with the upper attachment close to the elbow, the tendon can pull nearly along the forearm, so moving the insertion to the wrist alone does not guarantee stronger lifting, smaller joint forces, or the previously claimed loss of motion range.
+
 
 :::
 
@@ -802,6 +806,12 @@ in [Applications of Statics, Including Problem-Solving Strategies](./ch9Applicat
 
 ::: solution
 
+**Strategy**
+
+Choose the lower leg as the system and take torques about the knee so the unknown joint reaction has zero lever arm.
+
+**Solution**
+
 **Following the Problem-Solving Strategy for Static Equilibrium:**
 
 **Step 1: Identify the system of interest and draw a free-body diagram**
@@ -841,6 +851,8 @@ The quadriceps must exert about **1700 N**, about 17.5 times the 98 N load.
 **Discussion**
 
 This large force ratio reflects the poor mechanical advantage of the quadriceps muscle system. The muscle acts very close to the knee (2.0 cm lever arm), while the load is at the ankle (35 cm lever arm). This is typical of skeletal muscle systems—they trade force for speed and range of motion. This exercise is effective precisely because it requires such large muscle forces, promoting muscle strengthening.
+
+The quadriceps must exert approximately $$1.7\times10^3\N$$ to lift the attached mass at constant speed in the stated lever model.
 
 :::
 

@@ -854,12 +854,16 @@ Use the relationship between power, work, and time. The work done climbing stair
 - Descending can be done faster and with less fatigue because it requires much less metabolic energy, even though the forces on muscles are similar
 - The fundamental difference is that ascending requires continuous energy input to increase potential energy, while descending dissipates existing potential energy
 
+**Solution**
+
 **Example Answer:**
 
 For a 70 kg person with an assumed sustainable mechanical power output of 100 W (about 500 W metabolic at 20% efficiency) climbing stairs with 0.20 m step height:
 - Rate of vertical climb: P/(mg) = 100 W / (70 kg × 9.8 m/s²) = 0.146 m/s
 - Steps per minute: (0.146 m/s × 60 s/min) / 0.20 m = 44 steps/min
-- This person could descend 2-3 times faster (150-200 steps/min) with less fatigue due to the lower metabolic cost of eccentric muscle work
+- If we additionally assume a descent rate of 100 steps/min, this is about 2.3 times the calculated ascent rate of 44 steps/min. The descent rate is a separate illustrative assumption, not a result of the climbing-power equation; negative muscular work still has a metabolic cost.
+
+With the assumed $$100\text{ W}$$ of sustained mechanical output, the $$70\kg$$ person can climb approximately 44 steps per minute on $$0.20\m$$ steps, while estimating a descent rate requires an additional model.
 
 :::
 
@@ -922,6 +926,8 @@ Calculate the total power output needed from a large power plant, then determine
 - Discuss the absurdity of using human power at scale: the food energy required would exceed the electrical energy produced
 - Address practical impossibilities: space requirements, cost, coordination
 - Highlight why mechanical and fuel-based power generation is necessary for modern civilization
+
+**Solution**
 
 **Example Answer:**
 

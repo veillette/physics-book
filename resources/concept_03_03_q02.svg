@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="290" viewBox="0 0 340 290" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="290" viewBox="0 0 400 290" role="img" aria-labelledby="title desc">
 <title id="title">A displacement due north has a zero x-component</title>
 <desc id="desc">On x–y axes with x east and y north, a displacement A of 5.0 km points straight along +y. Its y-component is 5.0 km and its x-component is zero.</desc>
-<rect width="340" height="290" fill="#ffffff"/>
+<rect width="400" height="290" fill="#ffffff"/>
 <line x1="66" y1="240" x2="291" y2="240" stroke="#333333" stroke-width="1.5"/>
 <polygon points="300,240 290,244 290,236" fill="#333333"/>
 <line x1="120" y1="268.8" x2="120" y2="33" stroke="#333333" stroke-width="1.5"/>

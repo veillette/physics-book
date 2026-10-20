@@ -244,26 +244,31 @@ floor for a day care center.
 
 **Strategy**
 
-In a fall, the change in momentum $$ \Delta p $$ of the body part that hits the floor is fixed by its mass and landing speed. Use the impulse-momentum theorem, $$ F_{\text{ave}}\Delta t = \Delta p $$, to see how the stopping time affects the average force.
+Compute the fixed momentum change, distinguish net impulse from the floor’s impulse, and compare two assumed stopping durations.
 
 **Solution**
 
-Take $$ +y $$ upward. Suppose a toddler's head, of mass $$ 3.0 \kg $$, hits the floor at $$ 3.0 \ms $$ moving downward, $$ v_{y} = -3.0 \ms $$, and stops. Its change in momentum is
+Use a point-mass model with only gravity and floor contact during the brief stop, choosing $$+y$$ upward. An assumed $$3.0\kg$$ mass arriving at $$-3.0\ms$$ and stopping has
 
-<div class="equation">
-$$ \Delta p_{y} = m(v_{f} - v_{i}) = (3.0 \kg)[0 \ms - (-3.0 \ms)] = +9.0 \kg \cdot \ms $$
-</div>
+$$\Delta p_y=(3.0\kg)[0\ms-(-3.0\ms)]=9.0\kg\cdot\ms.$$
 
-whatever the floor is made of. The floor must exert an upward impulse $$ F_{\text{ave}}\Delta t = 9.0 \N \cdot \s $$.
+This is the **net-force** impulse. If $$N_{\text{ave}}$$ is the floor force, gravity also acts, so
 
-- **Tile** barely gives, so the head stops in about $$ \Delta t = 0.0020 \s $$: $$ F_{\text{ave}} = (9.0 \N \cdot \s)/(0.0020 \s) = 4500 \N $$.
-- **Padded carpet** compresses by a few millimeters, stretching the stopping time to about $$ 0.020 \s $$: $$ F_{\text{ave}} = (9.0 \N \cdot \s)/(0.020 \s) = 450 \N $$.
+$$(N_{\text{ave}}-mg)\Delta t=\Delta p_y,\qquad N_{\text{ave}}=\frac{\Delta p_y}{\Delta t}+mg.$$
 
-![Force versus time for a child's head (3.0 kg at 3.0 m/s) stopping on a tile floor and on a padded carpet. Both pulses have the same area, the impulse 9.0 kg·m/s. On tile the head stops in about 2 ms with an average force of 4500 N; on carpet it stops in about 20 ms with an average force of about 450 N.](../resources/concept_08_02_q01.svg)
+For illustrative stopping times:
 
-Both pulses have the same area under the force-time curve (the same impulse), but the carpet spreads it over ten times as long, so the force is ten times smaller and far less likely to cause injury.
+- **Hard tile, $$0.0020\s$$:** $$F_{\text{net,ave}}=(9.0\N\cdot\s)/(0.0020\s)=4500\N$$ and $$N_{\text{ave}}=4500\N+(3.0\kg)(9.80\mss)=4529\N$$, approximately $$4.5\text{ kN}$$.
+- **Compliant landing, $$0.020\s$$:** $$F_{\text{net,ave}}=450\N$$ and $$N_{\text{ave}}=450\N+29.4\N=479\N$$, approximately $$0.48\text{ kN}$$.
 
-Padding reduces collision forces by increasing the time over which the momentum changes, so that the same impulse is delivered by a smaller average force; a carpeted day-care floor that stops a child's head in $$ 0.020 \s $$ instead of $$ 0.0020 \s $$ cuts the average force from about $$ 4500 \N $$ to $$ 450 \N $$.
+The **floor-force** impulses differ because gravity acts for different durations: $$N_{\text{ave}}\Delta t=\Delta p_y+mg\Delta t$$ gives $$9.059\N\cdot\s$$ and $$9.588\N\cdot\s$$. The net impulses are both $$9.0\N\cdot\s$$.
+
+![Net upward force versus time: equal-area half-sine pulses deliver the same 9.0 N·s momentum change, with a narrower higher pulse for tile and a broader lower pulse for a compliant landing.](../resources/concept_08_02_q01.svg)
+
+For the symmetric net-force pulses pictured, the average velocity during stopping is $$-1.5\ms$$, so the longer stop involves $$|\Delta y|=(1.5\ms)(0.020\s)=0.030\m$$ of total displacement. This 3 cm includes all compliance in the landing model, not necessarily carpet compression alone. The times illustrate why suitable padding helps; they are not measured specifications for every carpet or child.
+
+Padding reduces collision forces by spreading a given momentum change over more time and stopping displacement; in this example the average floor force falls from about 4.5 kN to 0.48 kN, while the net impulse stays 9.0 N·s.
+
 
 :::
 

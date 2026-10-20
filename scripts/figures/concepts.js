@@ -8,6 +8,12 @@
  * slopes a student reads off the question's figure.
  */
 import { COLORS, Frame, Plot, Svg, fmt, rad, smoothPath, splineSlope } from './svg.js';
+import {
+  brakingPlot,
+  dragRegimesPlot,
+  divingBoardPlot,
+  impulsePlot,
+} from './solution-completion.js';
 
 const POS = COLORS.position;
 const VEL = COLORS.velocity;
@@ -141,6 +147,7 @@ function derivativeSketch({ title, desc, points, tension, flat, yTitle, color, o
   // A short moving average removes the corners that the drawn curve's
   // piecewise construction leaves in its slope; a hand sketch would not show them.
   const slope = exact.map(([x], k) => {
+    if (k % SAMPLES === 0 && flat.includes(k / SAMPLES)) return [x, 0];
     const half = Math.min(6, k, exact.length - 1 - k); // exact at the ends
     const win = exact.slice(k - half, k + half + 1);
     return [x, win.reduce((sum, w) => sum + w[1], 0) / win.length];
@@ -465,7 +472,7 @@ export default {
     g.fn(v, 0.6, 9.9, { color: POS, width: 3.5 });
     for (const [t, name, sub] of [
       [2.3, 'P', '1'],
-      [8.8, 'Q', '2'],
+      [9.6, 'Q', '2'],
     ]) {
       tangent(g, t, v(t), dv(t), 1.4);
       svg.marker(g.X(t), g.Y(v(t)), 'circle', { color: POS, size: 6 });
@@ -799,7 +806,7 @@ export default {
   // 3.3 Q2 — a nonzero vector with a zero component
   concept_03_03_q02: () => {
     const svg = new Svg({
-      width: 340,
+      width: 400,
       height: 290,
       title: 'A displacement due north has a zero x-component',
       desc: 'On x–y axes with x east and y north, a displacement A of 5.0 km points straight along +y. Its y-component is 5.0 km and its x-component is zero.',
@@ -1139,87 +1146,10 @@ export default {
   },
 
   // 5.1 Q3 — braking force as a car comes to a stop
-  concept_05_01_q03: () => {
-    const svg = new Svg({
-      width: 640,
-      height: 360,
-      title: 'Braking force as a car comes to a stop',
-      desc: 'Braking force on the car versus time for two drivers. Firm pedal: while the wheels turn, the brake pads slide on the discs and the force stays at the kinetic value μk N; just as the car stops, the pads stop sliding and grip with static friction, so the force jumps up toward μs N and then drops abruptly to zero, which is felt as a jerk. Eased pedal: the driver lowers the pad force N near the end, so the braking force tapers to a small value before the car stops and the final change is small.',
-    });
-    const g = new Plot(svg, { x: 80, y: 40, w: 480, h: 230, xRange: [0, 10], yRange: [0, 1.3] });
-    g.axes({
-      arrows: true,
-      xTitle: 'Time \\it{t}',
-      yTitle: 'Braking force \\it{f}',
-      titleSize: 16,
-      yTitleOffset: 30,
-      xTitleOffset: 34,
-    });
-    const fk = 0.75;
-    const fs = 1.1;
-    g.line(0, fs, 10, fs, { color: COLORS.guide, width: 1.2, dash: '6 4' });
-    g.line(0, fk, 10, fk, { color: COLORS.guide, width: 1.2, dash: '6 4' });
-    svg.text(g.X(10) + 6, g.Y(fs), 'μ_s N', { size: 16, anchor: 'start' });
-    svg.text(g.X(10) + 6, g.Y(fk), 'μ_k N', { size: 16, anchor: 'start' });
-    // Firm pedal: kinetic friction, a grab at the stop, then nothing.
-    g.series(
-      [
-        [0, fk],
-        [7.6, fk],
-        [7.85, fs],
-        [7.9, 0],
-        [9.6, 0],
-      ],
-      { color: COLORS.red, width: 3 }
-    );
-    // Eased pedal: the force is tapered before the car stops.
-    const eased = t => {
-      if (t < 5.8) return fk - 0.012;
-      if (t < 7.9) return 0.1 + (fk - 0.112) * (0.5 + 0.5 * Math.cos((Math.PI * (t - 5.8)) / 2.1));
-      return t < 7.95 ? 0.1 * (1 - (t - 7.9) / 0.05) : 0;
-    };
-    g.fn(eased, 0, 9.6, { n: 240, color: COLORS.blue, width: 3, dash: '8 5' });
-    g.text(7.75, 1.2, 'grab: jerk', { size: 14, math: false, color: COLORS.red, anchor: 'end' });
-    g.text(2.5, fk + 0.09, 'pads slide: kinetic friction', { size: 14, math: false });
-    g.text(6.4, 0.3, 'pedal eased', { size: 14, math: false, color: COLORS.blue, anchor: 'end' });
-    svg.text(g.X(7.88), g.Y(0) + 16, 'car stops', { size: 13, math: false });
-    svg.line(80, 330, 110, 330, { color: COLORS.red, width: 3 });
-    svg.text(118, 330, 'firm pedal', { size: 14, math: false, anchor: 'start' });
-    svg.line(250, 330, 280, 330, { color: COLORS.blue, width: 3, dash: '8 5' });
-    svg.text(288, 330, 'pedal eased near the stop', { size: 14, math: false, anchor: 'start' });
-    return svg.render();
-  },
+  concept_05_01_q03: brakingPlot,
 
   // 5.2 Q2 — drag proportional to v and to v²
-  concept_05_02_q02: () => {
-    const svg = new Svg({
-      width: 600,
-      height: 380,
-      title: 'Drag force proportional to speed and to speed squared',
-      desc: 'Drag force versus speed. The straight line F = bv (Stokes drag) dominates at low speeds, for small objects, and in viscous fluids, where the flow is smooth (laminar). The parabola F = ½CρAv² grows faster and dominates at high speeds and for large objects, where the flow is turbulent. The two curves cross at one speed; below it the linear law is larger, above it the quadratic law is larger.',
-    });
-    const g = new Plot(svg, { x: 80, y: 40, w: 440, h: 260, xRange: [0, 4], yRange: [0, 4] });
-    g.axes({
-      arrows: true,
-      xTitle: 'Speed \\it{v}',
-      yTitle: 'Drag force \\it{F}_\\rm{D}',
-      titleSize: 16,
-      yTitleOffset: 30,
-      xTitleOffset: 34,
-    });
-    g.fn(v => v, 0, 4, { color: COLORS.blue, width: 3 });
-    g.fn(v => (v * v) / 2, 0, 2.83, { color: COLORS.red, width: 3 });
-    g.line(2, 0, 2, 2, { color: COLORS.guide, width: 1.2, dash: '5 4' });
-    g.text(3.35, 2.95, 'F = bv', { size: 17, anchor: 'start' });
-    g.text(2.6, 3.75, 'F = ½\\it{C}ρ\\it{A}v^2', { size: 17, anchor: 'end' });
-    g.text(1, 3.0, 'linear law larger:', { size: 13, math: false });
-    g.text(1, 2.75, 'slow, small, viscous', { size: 13, math: false });
-    g.text(1, 2.5, '(laminar flow)', { size: 13, math: false });
-    g.text(3.3, 1.2, 'quadratic law larger:', { size: 13, math: false });
-    g.text(3.3, 0.95, 'fast, large objects', { size: 13, math: false });
-    g.text(3.3, 0.7, '(turbulent flow)', { size: 13, math: false });
-    return svg.render();
-  },
+  concept_05_02_q02: dragRegimesPlot,
 
   // 6.3 Q3 — the passenger keeps going straight while the car turns
   concept_06_03_q03: () => {
@@ -1432,84 +1362,10 @@ export default {
   },
 
   // 7.4 Q2 — potential energy of the diving board during a dive
-  concept_07_04_q02: () => {
-    const svg = new Svg({
-      width: 620,
-      height: 360,
-      title: 'Elastic potential energy of a diving board during a dive',
-      desc: 'Sketch of the diving board’s elastic potential energy versus time. It is zero before the swimmer steps on, rises as she walks out and the board bends under her weight, rises to a maximum when she drives the board down to its lowest point, and then decreases to zero as the board straightens and launches her, reaching zero when her feet leave the board.',
-    });
-    const g = new Plot(svg, { x: 80, y: 40, w: 480, h: 220, xRange: [0, 10], yRange: [0, 1.15] });
-    g.axes({
-      arrows: true,
-      xTitle: 'Time \\it{t}',
-      yTitle: 'Potential energy PE_\\rm{el}',
-      titleSize: 16,
-      yTitleOffset: 30,
-      xTitleOffset: 34,
-    });
-    const pts = [
-      [0, 0],
-      [1, 0],
-      [3, 0.3],
-      [4.5, 0.3],
-      [6.3, 1],
-      [8, 0],
-      [9.5, 0],
-    ];
-    g.series(pts, {
-      color: COLORS.red,
-      width: 3,
-      smooth: true,
-      tension: 0.25,
-      horizontalTangents: [0, 1, 3, 4, 5, 6],
-    });
-    const marks = [
-      [1, 0, 'steps on'],
-      [3.75, 0.3, 'standing at the end'],
-      [6.3, 1, 'lowest point: maximum'],
-      [8, 0, 'feet leave'],
-    ];
-    for (const [x, y, s] of marks) {
-      svg.circle(g.X(x), g.Y(y), 4.5, { fill: COLORS.black });
-      g.text(x, y + 0.09, s, { size: 13, math: false });
-    }
-    return svg.render();
-  },
+  concept_07_04_q02: divingBoardPlot,
 
   // 8.2 Q1 — same impulse, different collision times
-  concept_08_02_q01: () => {
-    const svg = new Svg({
-      width: 620,
-      height: 380,
-      title: 'Force on a child’s head hitting tile and carpet',
-      desc: 'Force versus time for a child’s head (3.0 kg at 3.0 m/s) stopping on a tile floor and on a padded carpet. Both pulses have the same area, the impulse 9.0 kg·m/s, because the change in momentum is the same. On tile the head stops in about 2 ms, so the force is a tall narrow spike with an average of 4500 N. On carpet it stops in about 20 ms, so the force is ten times smaller, about 450 N on average, spread over ten times as long.',
-    });
-    const g = new Plot(svg, {
-      x: 90,
-      y: 40,
-      w: 460,
-      h: 240,
-      xRange: [0, 25],
-      yRange: [0, 8],
-      xTicks: [0, 5, 10, 15, 20, 25],
-      yTicks: [0, 2, 4, 6, 8],
-    });
-    g.axes({ xTitle: 'Time, t (ms)', yTitle: 'Force, F (kN)', yTitleOffset: 50 });
-    const half = (peak, T) => t => (t <= T ? peak * Math.sin((Math.PI * t) / T) : 0);
-    // Peak of a half-sine pulse with impulse J and duration T is πJ/(2T).
-    g.fn(half((Math.PI * 9.0) / (2 * 0.002) / 1000, 2), 0, 2, { color: COLORS.red, width: 3 });
-    g.fn(half((Math.PI * 9.0) / (2 * 0.02) / 1000, 20), 0, 20, { color: COLORS.blue, width: 3 });
-    g.text(3, 6.6, 'tile: Δt ≈ 2 ms, average force 4500 N', {
-      size: 14,
-      math: false,
-      anchor: 'start',
-    });
-    g.text(11, 1.35, 'carpet: Δt ≈ 20 ms, average force 450 N', { size: 14, math: false });
-    g.text(14, 4.5, 'same area under each curve:', { size: 14, math: false });
-    g.text(14, 3.95, 'impulse = Δp = 9.0 kg·m/s', { size: 14, math: false });
-    return svg.render();
-  },
+  concept_08_02_q01: impulsePlot,
 
   // 8.6 Q1 — scattering from a cube face and from a sphere
   concept_08_06_q01: () => {
@@ -1517,7 +1373,7 @@ export default {
       width: 720,
       height: 380,
       title: 'Elastic scattering from a massive cube and a massive sphere',
-      desc: 'Two panels. (a) A massive cube whose struck face is tilted 20 degrees from the vertical. Two incoming paths with different impact parameters b both reflect from the flat face with equal angles of incidence and reflection, so both leave at the same angle θ1 = 40 degrees: for a flat face θ1 does not depend on b. (b) A massive sphere of radius R. The normal at the point of impact depends on b: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120 degrees, b = 0.87R leaves at 60 degrees, and a grazing hit (b near R) is barely deflected. For the sphere θ1 = 180° − 2 arcsin(b/R).',
+      desc: 'Two panels. (a) A massive cube whose struck face is tilted 25 degrees above the incoming horizontal path. Two incoming paths with different impact parameters b both reflect from the flat face with equal angles of incidence and reflection, so both leave at the same angle θ1 = 50 degrees: for a flat face θ1 does not depend on b. (b) A massive sphere of radius R. The normal at the point of impact depends on b: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120 degrees, b = 0.87R leaves at 60 degrees, and a grazing hit (b near R) is barely deflected. For the sphere θ1 = 180° − 2 arcsin(b/R).',
     });
     const ray = (P, dir, len, opts = {}) => {
       svg.arrow(P[0], P[1], P[0] + dir[0] * len, P[1] - dir[1] * len, {

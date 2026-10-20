@@ -267,6 +267,27 @@ Describe two different collisions—one in which angular momentum is conserved, 
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Specify the system, axis, and external angular impulse over the collision interval.
+
+**Solution**
+
+Angular momentum about a chosen fixed inertial origin, or about the system’s center of mass, is conserved when the net external angular impulse about that origin is zero or negligible:
+
+$$\Delta\vb L=\int\vb\tau_{\text{ext}}\,dt.$$
+
+**Conserved example:** Two pucks collide on an ideal frictionless horizontal surface. For the pucks together, the external torque about the vertical axis is zero, so total vertical angular momentum is conserved even if energy is dissipated internally.
+
+**Not conserved example:** A ball hits a rod fixed to a massive wall. For ball plus rod, an off-axis wall reaction can exert an external angular impulse. If an assumed external torque $$5.0\N\cdot\m$$ acts for $$0.020\s$$, then $$\Delta L=0.10\kg\cdot\mm/\s$$. Choosing a pivot where that wall force has zero moment may instead conserve a particular component about that point; the origin must be stated.
+
+Angular momentum is conserved in a collision when the system receives negligible net external angular impulse about the specified origin or axis, and it changes when a nonzero external angular impulse acts.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -277,6 +298,27 @@ Suppose an ice hockey puck strikes a hockey stick that lies flat on the ice and 
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Treat puck and stick as one system during a brief collision and separate isolation from elasticity.
+
+**Solution**
+
+Assume negligible horizontal friction and negligible external torque about the vertical axis. The puck-plus-stick system then conserves total horizontal **linear momentum** and total **angular momentum about the vertical axis**, measured about a fixed point on the ice or the system center of mass. The stick can acquire both translation and rotation; the puck’s momentum alone need not be conserved.
+
+If the materials make the collision approximately elastic, total kinetic energy, including the stick’s rotational energy, is also approximately conserved:
+
+$$K=\tfrac12m_pv_p^2+\tfrac12M_sv_{\text{CM},s}^2+\tfrac12I_s\omega_s^2.$$
+
+For example, an initially stationary stick and a $$0.16\kg$$ puck at $$10\ms$$ have initial momentum $$1.6\kg\cdot\ms$$ and kinetic energy $$8.0\J$$. Their combined final momentum remains $$1.6\kg\cdot\ms$$; the final kinetic energy is near $$8.0\J$$ only if deformation and sound losses are small.
+
+The puck and freely moving stick conserve total horizontal linear momentum and vertical-axis angular momentum under the stated isolation assumptions, and approximately conserve total translational-plus-rotational kinetic energy if the collision is nearly elastic.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -284,6 +326,31 @@ Suppose an ice hockey puck strikes a hockey stick that lies flat on the ice and 
 ::: problem
 
 While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Separate the brief steering input that initiates a lean from the steering during the completed turn.
+
+**Solution**
+
+This is **countersteering**: pulling the right grip backward briefly steers the front wheel to the right, which initiates a lean to the left; the steering then adjusts for the sustained left turn. It does not mean that the wheel remains steered right throughout the left turn.
+
+Choose $$+x$$ forward, $$+y$$ left, and $$+z$$ upward. The brief rightward steering moves the contact path to the right and produces a rightward road force below the combined center of mass. Its rolling torque tips the machine left. The spinning wheels also couple steering and lean gyroscopically: a forward-rolling wheel has spin angular momentum toward $$+y$$, and torques change its direction according to $$\vb\tau=d\vb L/dt$$. Road forces and steering geometry are essential too; gyroscopic effects alone are not a complete model of motorcycle steering.
+
+Once in a steady left turn, the machine leans left so that the road’s resultant force supports the weight and supplies inward acceleration. For an illustrative $$v=15\ms$$ and $$r=50\m$$,
+
+$$\tan\phi=\frac{v^2}{rg}=\frac{(15\ms)^2}{(50\m)(9.80\mss)}=0.459,\qquad \phi\approx25°.$$
+
+![Countersteering sketch: a brief rightward steer initiates a left lean, followed by a sustained left turn; forward, left, and upward axes are identified.](../resources/concept_10_07_q01.svg)
+
+This interpretation treats the light pull as an initiating steering input, not a permanently held steering angle. The coupled dynamics are discussed in [research on motorcycle countersteering](https://arxiv.org/abs/1611.03857).
+
+Pulling back briefly on the right handlebar initiates a rightward steer that tips the motorcycle left, after which the steering and road forces establish the left turn; wheel angular momentum contributes to this coupled response but does not by itself explain the whole motion.
 
 :::
 

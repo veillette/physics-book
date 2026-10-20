@@ -259,6 +259,25 @@ Give an example (but not one from the text) of a device used to measure time and
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Choose a physical process with a known rate and count its changes.
+
+**Solution**
+
+An hourglass can measure time by the amount of sand transferred between its bulbs. For an illustrative calibrated hourglass, suppose sand flows at a steady rate of $$2.0\text{ g/s}$$. If $$30\text{ g}$$ has collected in the lower bulb, the elapsed time is
+
+$$\Delta t=\frac{\Delta m}{\dot m}=\frac{30\text{ g}}{2.0\text{ g/s}}=15\s.$$
+
+The increase in sand in the lower bulb, or the corresponding decrease in the upper bulb, indicates elapsed time. Real hourglasses require calibration because flow depends on the grains, aperture, and orientation; the numerical flow rate here is an assumed example.
+
+An hourglass measures time through the calibrated transfer of sand, so the changing amount in either bulb indicates how much time has passed.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -266,6 +285,30 @@ Give an example (but not one from the text) of a device used to measure time and
 ::: problem
 
 There is a distinction between average speed and the magnitude of average velocity. Give an example that illustrates the difference between these two quantities.
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Calculate total path length and net displacement separately for a trip with a reversal.
+
+**Solution**
+
+Take east as $$+x$$. A walker travels $$100\m$$ east and then $$100\m$$ west in a total of $$100\s$$. The path length and displacement are
+
+$$d=100\m+100\m=200\m,\qquad \Delta x=100\m-100\m=0\m.$$
+
+Therefore,
+
+$$\text{average speed}=\frac{200\m}{100\s}=2.0\ms,\qquad
+|\overline v|=\left|\frac{0\m}{100\s}\right|=0\ms.$$
+
+The reversal adds to the distance traveled but cancels the displacement.
+
+On this out-and-back trip the average speed is 2.0 m/s while the magnitude of average velocity is zero, because distance accumulates along the path whereas opposite displacements cancel.
 
 :::
 
@@ -279,6 +322,25 @@ Does a car’s odometer measure distance or displacement? Does its speedometer m
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Ask whether each instrument records a path length, a change in position, or a direction.
+
+**Solution**
+
+An odometer adds the lengths of successive parts of the route. Driving $$3.0\text{ km}$$ east and $$3.0\text{ km}$$ west increases its reading by
+
+$$d=3.0\text{ km}+3.0\text{ km}=6.0\text{ km},$$
+
+although the displacement is $$0\text{ km}$$. A speedometer displays the magnitude of instantaneous velocity, such as $$20\ms$$, without specifying east, west, or any other direction. Two cars traveling in opposite directions can have identical speedometer readings and different velocities.
+
+A car’s odometer measures distance traveled, and its speedometer measures instantaneous speed rather than displacement or velocity.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -289,6 +351,25 @@ If you divide the total distance traveled on a car trip (as determined by the od
 
 :::
 
+
+::: solution
+
+**Strategy**
+
+Compare distance divided by time with displacement magnitude divided by time.
+
+**Solution**
+
+The odometer supplies total distance $$d$$, so $$d/\Delta t$$ is **average speed**. The magnitude of average velocity is $$|\Delta\vb r|/\Delta t$$. Because the shortest path between endpoints is a straight line,
+
+$$d\ge|\Delta\vb r|.$$
+
+For example, a straight $$60\text{ km}$$ journey completed in $$1.0\text{ h}$$, without reversing direction, gives both quantities as $$60\text{ km/h}$$. A return to the starting point in the same time gives zero average velocity even though the odometer has increased. Stops do not invalidate equality if the motion otherwise follows the same straight direction; both calculations include the stopping time.
+
+Dividing odometer distance by elapsed time gives average speed, which equals the magnitude of average velocity only when the path between the endpoints is straight and has no reversal of direction.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -296,6 +377,29 @@ If you divide the total distance traveled on a car trip (as determined by the od
 ::: problem
 
 How are instantaneous velocity and instantaneous speed related to one another? How do they differ?
+
+:::
+
+
+::: solution
+
+**Strategy**
+
+Use the definition of speed as the magnitude of the instantaneous velocity vector.
+
+**Solution**
+
+Instantaneous velocity describes the rate and direction of position change. Instantaneous speed is its nonnegative magnitude:
+
+$$\text{speed}=|\vb v|.$$
+
+In one dimension, take east as positive. A cyclist traveling west can have $$v_x=-4.0\ms$$ and speed $$|-4.0\ms|=4.0\ms$$. In two dimensions, a velocity with components $$v_x=3.0\ms$$ and $$v_y=4.0\ms$$ has speed
+
+$$|\vb v|=\sqrt{(3.0\ms)^2+(4.0\ms)^2}=5.0\ms.$$
+
+Changing direction can change velocity without changing speed.
+
+Instantaneous speed is the magnitude of instantaneous velocity, so speed gives only a nonnegative rate of motion while velocity also specifies its direction.
 
 :::
 
