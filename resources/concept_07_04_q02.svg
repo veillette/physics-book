@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="360" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+<title id="title">Elastic potential energy of a diving board during a dive</title>
+<desc id="desc">Sketch of the diving board’s elastic potential energy versus time. It is zero before the swimmer steps on, rises as she walks out and the board bends under her weight, rises to a maximum when she drives the board down to its lowest point, and then decreases to zero as the board straightens and launches her, reaching zero when her feet leave the board.</desc>
+<rect width="620" height="360" fill="#ffffff"/>
+<line x1="80" y1="260" x2="565" y2="260" stroke="#333333" stroke-width="1.5"/>
+<polygon points="574,260 564,264 564,256" fill="#333333"/>
+<line x1="80" y1="260" x2="80" y2="35" stroke="#333333" stroke-width="1.5"/>
+<polygon points="80,26 84,36 76,36" fill="#333333"/>
+<text x="320" y="299.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">t</tspan></text>
+<text x="50" y="155.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 50 150)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Potential</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">energy</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">PE</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">el</tspan></tspan><tspan dy="-4.48">​</tspan></text>
+<path d="M 80 260 C 84 260 116 260 128 260 C 140 260 210 207.39 224 202.61 C 238 197.83 282.8 202.61 296 202.61 C 309.2 202.61 368.4 68.7 382.4 68.7 C 396.4 68.7 451.2 260 464 260 C 476.8 260 530 260 536 260" fill="none" stroke="#c62828" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="128" cy="260" r="4.5" fill="#222222"/>
+<text x="128" y="247.33" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">steps</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">on</tspan></text>
+<circle cx="260" cy="202.61" r="4.5" fill="#222222"/>
+<text x="260" y="189.94" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">standing</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">at</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">end</tspan></text>
+<circle cx="382.4" cy="68.7" r="4.5" fill="#222222"/>
+<text x="382.4" y="56.03" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">lowest</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">point</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">maximum</tspan></text>
+<circle cx="464" cy="260" r="4.5" fill="#222222"/>
+<text x="464" y="247.33" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">feet</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">leave</tspan></text>
+</svg>

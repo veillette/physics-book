@@ -186,6 +186,28 @@ your example? If so, explain how this is accomplished without doing work.
 
 :::
 
+::: solution
+
+**Strategy**
+
+In physics, work is $$ W = Fd\cos\theta $$, so a force does work on an object only if the object moves and the force has a component along the motion. Find an everyday "work" in which the object does not move, then trace where the energy goes.
+
+**Solution**
+
+Holding a $$ 20 \kg $$ box at rest at chest height for $$ 60 \s $$ feels like hard work. Your arms push up on the box with a force equal to its weight, $$ F = (20 \kg)(9.80 \mss) = 196 \N $$, but the box does not move, so $$ d = 0 \m $$ and
+
+<div class="equation">
+$$ W = Fd\cos\theta = (196 \N)(0 \m)\cos 0° = 0 \J $$
+</div>
+
+No work is done on the box, and its energy does not change.
+
+Energy is nevertheless transformed, inside your body. To keep pushing, muscle fibers repeatedly contract and relax, each contraction pulling on other tissue over small distances. That internal work, and the chemistry that powers it, turns chemical energy from food into thermal energy. If your arm muscles use an extra $$ 50 \text{ W} $$ to hold the box, then in $$ 60 \s $$ they convert about $$ (50 \text{ W})(60 \s) = 3000 \J $$ of chemical energy into heat. This is why you get tired and warm. The energy changes form within your body without any work being done on the box.
+
+Holding a $$ 196 \N $$ box motionless feels like work but does no work on the box, since its displacement is zero ($$ W = 0 \J $$); energy is still transformed, because your muscles convert chemical energy into thermal energy (about $$ 3000 \J $$ in a minute) through the internal contractions of their fibers, not through work on the box.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -197,6 +219,32 @@ the force does no work. Explain why it does no work.
 
 :::
 
+::: solution
+
+**Strategy**
+
+A force does no work when it is perpendicular to the displacement, because then $$ \cos\theta = \cos 90° = 0 $$ in $$ W = Fd\cos\theta $$.
+
+**Solution**
+
+You carry a $$ 10 \kg $$ backpack at constant velocity across a level room, a distance of $$ 8.0 \m $$. Take $$ +x $$ in your direction of walking and $$ +y $$ straight up. To hold the pack up, your shoulders push on it with an upward force equal to its weight:
+
+<div class="equation">
+$$ F = mg = (10 \kg)(9.80 \mss) = 98 \N \quad \text{(along } +y\text{)} $$
+</div>
+
+The displacement is $$ 8.0 \m $$ along $$ +x $$. The angle between the force and the displacement is $$ 90° $$, so
+
+<div class="equation">
+$$ W = Fd\cos\theta = (98 \N)(8.0 \m)\cos 90° = 0 \J $$
+</div>
+
+The upward force has no component along the motion, so it neither speeds the pack up nor slows it down, and its kinetic and gravitational potential energies stay the same. Other examples: the normal force on a box sliding across a level floor, and the tension in a string whirling a ball in a horizontal circle.
+
+When you carry a backpack across a level room, your upward $$ 98 \N $$ supporting force and the $$ 8.0 \m $$ horizontal displacement are perpendicular, so the force does no work ($$ W = Fd\cos 90° = 0 \J $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -204,6 +252,30 @@ the force does no work. Explain why it does no work.
 ::: problem
 
 Describe a situation in which a force is exerted for a long time but does no work. Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The time a force acts does not appear in $$ W = Fd\cos\theta $$. Look for a force that acts for a long time but with zero displacement, or always perpendicular to the motion.
+
+**Solution**
+
+**Example 1: a shelf holding a book.** A shelf supports a $$ 2.0 \kg $$ book for a whole year, pushing up with $$ N = (2.0 \kg)(9.80 \mss) = 19.6 \N $$. The book never moves, so $$ d = 0 \m $$ and
+
+<div class="equation">
+$$ W = (19.6 \N)(0 \m) = 0 \J $$
+</div>
+
+no matter how long the force acts.
+
+**Example 2: Earth's gravity on the Moon.** Earth has pulled on the Moon for billions of years with a force of about $$ 2.0 \times 10^{20} \N $$. The Moon's orbit is nearly circular, so this force, directed toward Earth, is always nearly perpendicular to the Moon's velocity, which is along the orbit. In every short stretch of the orbit $$ \theta = 90° $$, so $$ W = Fd\cos 90° = 0 \J $$. The Moon's speed and kinetic energy therefore stay nearly constant.
+
+Work depends on force and displacement, not on time.
+
+A force can act for a long time without doing work if the object does not move, as when a shelf supports a book with $$ 19.6 \N $$ for a year, or if the force stays perpendicular to the motion, as Earth's gravity does on the Moon's nearly circular orbit; in both cases $$ W = Fd\cos\theta = 0 \J $$.
 
 :::
 

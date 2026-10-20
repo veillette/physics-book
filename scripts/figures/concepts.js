@@ -1,5 +1,5 @@
 /**
- * Figures for the answers to the Conceptual Questions of chapters 1–5.
+ * Figures for the answers to the Conceptual Questions of chapters 1–9.
  *
  * Names follow concept_CC_SS_qNN: chapter, section, and the question's number
  * within that section's Conceptual Questions. The graph answers in section 2.8
@@ -7,7 +7,7 @@
  * `splineSlope`), so the sketched velocity and acceleration agree with the
  * slopes a student reads off the question's figure.
  */
-import { COLORS, Frame, Plot, Svg, smoothPath, splineSlope } from './svg.js';
+import { COLORS, Frame, Plot, Svg, fmt, rad, smoothPath, splineSlope } from './svg.js';
 
 const POS = COLORS.position;
 const VEL = COLORS.velocity;
@@ -1135,6 +1135,494 @@ export default {
     g.series(pts, { color: COLORS.red, width: 3 });
     g.text(2.85, 0.9, 'stick', { size: 14, math: false, anchor: 'end' });
     g.text(3.55, 0.5, 'slip', { size: 14, math: false });
+    return svg.render();
+  },
+
+  // 5.1 Q3 — braking force as a car comes to a stop
+  concept_05_01_q03: () => {
+    const svg = new Svg({
+      width: 640,
+      height: 360,
+      title: 'Braking force as a car comes to a stop',
+      desc: 'Braking force on the car versus time for two drivers. Firm pedal: while the wheels turn, the brake pads slide on the discs and the force stays at the kinetic value μk N; just as the car stops, the pads stop sliding and grip with static friction, so the force jumps up toward μs N and then drops abruptly to zero, which is felt as a jerk. Eased pedal: the driver lowers the pad force N near the end, so the braking force tapers to a small value before the car stops and the final change is small.',
+    });
+    const g = new Plot(svg, { x: 80, y: 40, w: 480, h: 230, xRange: [0, 10], yRange: [0, 1.3] });
+    g.axes({
+      arrows: true,
+      xTitle: 'Time \\it{t}',
+      yTitle: 'Braking force \\it{f}',
+      titleSize: 16,
+      yTitleOffset: 30,
+      xTitleOffset: 34,
+    });
+    const fk = 0.75;
+    const fs = 1.1;
+    g.line(0, fs, 10, fs, { color: COLORS.guide, width: 1.2, dash: '6 4' });
+    g.line(0, fk, 10, fk, { color: COLORS.guide, width: 1.2, dash: '6 4' });
+    svg.text(g.X(10) + 6, g.Y(fs), 'μ_s N', { size: 16, anchor: 'start' });
+    svg.text(g.X(10) + 6, g.Y(fk), 'μ_k N', { size: 16, anchor: 'start' });
+    // Firm pedal: kinetic friction, a grab at the stop, then nothing.
+    g.series(
+      [
+        [0, fk],
+        [7.6, fk],
+        [7.85, fs],
+        [7.9, 0],
+        [9.6, 0],
+      ],
+      { color: COLORS.red, width: 3 }
+    );
+    // Eased pedal: the force is tapered before the car stops.
+    const eased = t => {
+      if (t < 5.8) return fk - 0.012;
+      if (t < 7.9) return 0.1 + (fk - 0.112) * (0.5 + 0.5 * Math.cos((Math.PI * (t - 5.8)) / 2.1));
+      return t < 7.95 ? 0.1 * (1 - (t - 7.9) / 0.05) : 0;
+    };
+    g.fn(eased, 0, 9.6, { n: 240, color: COLORS.blue, width: 3, dash: '8 5' });
+    g.text(7.75, 1.2, 'grab: jerk', { size: 14, math: false, color: COLORS.red, anchor: 'end' });
+    g.text(2.5, fk + 0.09, 'pads slide: kinetic friction', { size: 14, math: false });
+    g.text(6.4, 0.3, 'pedal eased', { size: 14, math: false, color: COLORS.blue, anchor: 'end' });
+    svg.text(g.X(7.88), g.Y(0) + 16, 'car stops', { size: 13, math: false });
+    svg.line(80, 330, 110, 330, { color: COLORS.red, width: 3 });
+    svg.text(118, 330, 'firm pedal', { size: 14, math: false, anchor: 'start' });
+    svg.line(250, 330, 280, 330, { color: COLORS.blue, width: 3, dash: '8 5' });
+    svg.text(288, 330, 'pedal eased near the stop', { size: 14, math: false, anchor: 'start' });
+    return svg.render();
+  },
+
+  // 5.2 Q2 — drag proportional to v and to v²
+  concept_05_02_q02: () => {
+    const svg = new Svg({
+      width: 600,
+      height: 380,
+      title: 'Drag force proportional to speed and to speed squared',
+      desc: 'Drag force versus speed. The straight line F = bv (Stokes drag) dominates at low speeds, for small objects, and in viscous fluids, where the flow is smooth (laminar). The parabola F = ½CρAv² grows faster and dominates at high speeds and for large objects, where the flow is turbulent. The two curves cross at one speed; below it the linear law is larger, above it the quadratic law is larger.',
+    });
+    const g = new Plot(svg, { x: 80, y: 40, w: 440, h: 260, xRange: [0, 4], yRange: [0, 4] });
+    g.axes({
+      arrows: true,
+      xTitle: 'Speed \\it{v}',
+      yTitle: 'Drag force \\it{F}_\\rm{D}',
+      titleSize: 16,
+      yTitleOffset: 30,
+      xTitleOffset: 34,
+    });
+    g.fn(v => v, 0, 4, { color: COLORS.blue, width: 3 });
+    g.fn(v => (v * v) / 2, 0, 2.83, { color: COLORS.red, width: 3 });
+    g.line(2, 0, 2, 2, { color: COLORS.guide, width: 1.2, dash: '5 4' });
+    g.text(3.35, 2.95, 'F = bv', { size: 17, anchor: 'start' });
+    g.text(2.6, 3.75, 'F = ½\\it{C}ρ\\it{A}v^2', { size: 17, anchor: 'end' });
+    g.text(1, 3.0, 'linear law larger:', { size: 13, math: false });
+    g.text(1, 2.75, 'slow, small, viscous', { size: 13, math: false });
+    g.text(1, 2.5, '(laminar flow)', { size: 13, math: false });
+    g.text(3.3, 1.2, 'quadratic law larger:', { size: 13, math: false });
+    g.text(3.3, 0.95, 'fast, large objects', { size: 13, math: false });
+    g.text(3.3, 0.7, '(turbulent flow)', { size: 13, math: false });
+    return svg.render();
+  },
+
+  // 6.3 Q3 — the passenger keeps going straight while the car turns
+  concept_06_03_q03: () => {
+    const svg = new Svg({
+      width: 560,
+      height: 400,
+      title: 'Why you seem to be thrown outward in a turning car',
+      desc: 'Top view of a car turning left along a circular arc. The dashed straight line shows the path the passenger would follow if no force acted on her, tangent to the curve. The car turns away from that line, so the door moves inward into her and pushes her toward the center of the curve with the centripetal force. Relative to the car she seems to slide outward, but no outward force acts on her.',
+    });
+    const cx = 120;
+    const cy = 360;
+    const R = 300;
+    svg.path(
+      `M ${cx + R} ${cy} A ${R} ${R} 0 0 0 ${fmt(cx + R * Math.cos(rad(60)))} ${fmt(cy - R * Math.sin(rad(60)))}`,
+      { color: COLORS.black, width: 2.5 }
+    );
+    svg.circle(cx, cy, 5, { fill: COLORS.black });
+    svg.text(cx - 8, cy - 16, 'center of curve', { size: 13, math: false, anchor: 'start' });
+    const a = 25;
+    const P = [cx + R * Math.cos(rad(a)), cy - R * Math.sin(rad(a))];
+    // Straight-line (inertial) path, tangent to the curve at P.
+    const t = [-Math.sin(rad(a)), -Math.cos(rad(a))];
+    svg.line(P[0], P[1], P[0] + t[0] * 240, P[1] + t[1] * 240, {
+      color: COLORS.guide,
+      width: 2,
+      dash: '8 5',
+    });
+    svg.text(P[0] + t[0] * 150 + 14, P[1] + t[1] * 150 - 8, 'path with no force', {
+      size: 13,
+      math: false,
+      anchor: 'start',
+    });
+    // Car outline at P, aligned with the velocity.
+    const ang = (Math.atan2(t[1], t[0]) * 180) / Math.PI;
+    svg.add(
+      `<g transform="translate(${fmt(P[0])} ${fmt(P[1])}) rotate(${fmt(ang)})"><rect x="-34" y="-17" width="68" height="34" rx="8" fill="#cfe3ea" stroke="#222222" stroke-width="1.5"/><circle cx="2" cy="-6" r="6" fill="#e0a030" stroke="#222222" stroke-width="1"/></g>`
+    );
+    svg.arrow(P[0] + t[0] * 40, P[1] + t[1] * 40, P[0] + t[0] * 95, P[1] + t[1] * 95, {
+      color: VEL,
+      width: 3,
+    });
+    svg.text(P[0] + t[0] * 95 - 18, P[1] + t[1] * 95 + 6, '**v**', { size: 18, anchor: 'end' });
+    // Force of the door on the passenger: toward the center.
+    const inward = [cx - P[0], cy - P[1]];
+    const L = Math.hypot(...inward);
+    const u = [inward[0] / L, inward[1] / L];
+    svg.arrow(P[0] - t[0] * 2 + u[0] * 18, P[1] + u[1] * 18, P[0] + u[0] * 95, P[1] + u[1] * 95, {
+      color: COLORS.red,
+      width: 3.5,
+    });
+    svg.text(P[0] + u[0] * 100 - 4, P[1] + u[1] * 100 + 20, '**F**_c \\rm{(door on passenger)}', {
+      size: 15,
+      anchor: 'end',
+    });
+    svg.text(30, 30, 'top view; the car turns left', { size: 14, math: false, anchor: 'start' });
+    return svg.render();
+  },
+
+  // 6.3 Q8 — the lunch box on the merry-go-round
+  concept_06_03_q08: () => {
+    const svg = new Svg({
+      width: 560,
+      height: 470,
+      title: 'Path of the lunch box released on a merry-go-round',
+      desc: 'Top view of a merry-go-round turning clockwise. The lunch box is released at point P, halfway out, moving with the platform’s velocity at that point, which is tangent to its circle. In Earth’s frame it slides in a straight line along that tangent, path B. Meanwhile the platform turns clockwise underneath it, so the trail it leaves in the dust starts out radially outward and then curves counterclockwise, to the left of its direction of travel, until it reaches the edge.',
+    });
+    const cx = 230;
+    const cy = 215;
+    const S = 85; // px per unit; edge at 2, P at 1
+    const f = new Frame(svg, { ox: cx, oy: cy, scale: S });
+    svg.circle(cx, cy, 2 * S, { fill: '#f6e6dc', stroke: COLORS.black, width: 2 });
+    svg.circle(cx, cy, S, { fill: 'none', stroke: COLORS.guide, width: 1 });
+    svg.circle(cx, cy, 4, { fill: COLORS.black });
+    // Clockwise rotation arrow near the top edge.
+    svg.arc(cx, cy, 2 * S + 18, 70, 130, { color: COLORS.blue, width: 2.5 });
+    const [ax, ay] = [cx + (2 * S + 18) * Math.cos(rad(70)), cy - (2 * S + 18) * Math.sin(rad(70))];
+    svg.arrow(ax - 8, ay - 3.5, ax, ay, { color: COLORS.blue, width: 2.5, head: 12 });
+    svg.text(cx - 20, cy - 2 * S - 32, 'ω (clockwise)', { size: 16, color: COLORS.blue });
+    // Earth frame: straight line along the tangent (clockwise at 3 o'clock is −y).
+    f.vec([1, 0], [1, -2.1], { color: COLORS.red, width: 3 });
+    f.text([1, -2.1], 'B: path in Earth’s frame', {
+      dx: 10,
+      dy: 8,
+      size: 14,
+      math: false,
+      anchor: 'start',
+      color: COLORS.red,
+    });
+    // Trail on the platform: rotate the straight path back by the platform's turn.
+    const pts = [];
+    for (let k = 0; k <= 80; k += 1) {
+      const tau = (Math.sqrt(3) * k) / 80;
+      pts.push(f.p(Math.cos(tau) + tau * Math.sin(tau), Math.sin(tau) - tau * Math.cos(tau)));
+    }
+    svg.polyline(pts, { color: COLORS.green, width: 3, dash: '7 4' });
+    const end = pts[pts.length - 1];
+    svg.arrow(pts[pts.length - 6][0], pts[pts.length - 6][1], end[0], end[1], {
+      color: COLORS.green,
+      width: 3,
+      head: 12,
+    });
+    svg.text(end[0] - 8, end[1] - 16, 'trail left in the dust', {
+      size: 14,
+      math: false,
+      color: COLORS.green,
+      anchor: 'end',
+    });
+    svg.circle(...f.p(1, 0), 6, { fill: COLORS.black });
+    f.text([1, 0], 'P', { dx: -14, dy: -12, size: 18 });
+    svg.text(280, 455, 'top view', { size: 14, math: false });
+    return svg.render();
+  },
+
+  // 6.3 Q10 — what stretches the string
+  concept_06_03_q10: () => {
+    const svg = new Svg({
+      width: 600,
+      height: 300,
+      title: 'Forces on the mass and on the string',
+      desc: 'Top view of a mass circling a nail on a frictionless table. Separate force diagrams: the string pulls the mass toward the nail with tension T (the centripetal force). By Newton’s third law the mass pulls the string outward with an equal force T. The nail pulls the other end of the string inward with T. The two equal and opposite pulls at its ends are what stretch the string.',
+    });
+    const y = 140;
+    // Nail, string, and mass, drawn apart to show the forces on each.
+    svg.circle(70, y, 9, { fill: '#888888', stroke: COLORS.black });
+    svg.text(70, y + 32, 'nail', { size: 14, math: false });
+    svg.line(170, y, 400, y, { color: COLORS.black, width: 3 });
+    svg.text(285, y + 20, 'string', { size: 14, math: false });
+    svg.circle(520, y, 20, { fill: '#e0a030', stroke: COLORS.black });
+    svg.text(545, y + 36, 'mass', { size: 14, math: false, anchor: 'start' });
+    // On the string: nail pulls in, mass pulls out.
+    svg.arrow(170, y, 120, y, { color: COLORS.red, width: 3.5 });
+    svg.text(140, y - 22, 'T \\rm{(nail on string)}', { size: 14, anchor: 'middle' });
+    svg.arrow(400, y, 450, y, { color: COLORS.red, width: 3.5 });
+    svg.text(415, y - 22, 'T \\rm{(mass on string)}', { size: 14, anchor: 'middle' });
+    // On the mass: string pulls toward the nail.
+    svg.arrow(500, y, 462, y, { color: COLORS.red, width: 3.5 });
+    svg.text(470, y + 26, 'T \\rm{(string on mass)}', { size: 14, anchor: 'end' });
+    svg.text(470, y + 46, 'centripetal force', { size: 13, math: false, anchor: 'end' });
+    svg.text(300, 230, 'the mass pulls outward on the string because the string pulls it inward', {
+      size: 14,
+      math: false,
+    });
+    svg.text(300, 254, '(Newton’s third law); pulled at both ends, the string stretches', {
+      size: 14,
+      math: false,
+    });
+    svg.arrow(520, y - 24, 520, y - 84, { color: VEL, width: 3 });
+    svg.text(530, y - 74, '**v**', { size: 17, anchor: 'start' });
+    svg.text(20, 30, 'top view, pieces drawn apart', { size: 14, math: false, anchor: 'start' });
+    return svg.render();
+  },
+
+  // 6.5 Q3 — gravity speeds a satellite up or slows it down on an ellipse
+  concept_06_05_q03: () => {
+    const svg = new Svg({
+      width: 620,
+      height: 420,
+      title: 'Forces on a satellite in an elliptical orbit',
+      desc: 'An elliptical orbit with the planet at one focus; the satellite moves counterclockwise. The only force on the satellite is gravity, pointing toward the planet. At a point where the satellite approaches the planet, the force has a component along the velocity (dashed), so the satellite speeds up. At a point where it moves away, the force has a component opposite the velocity, so it slows down. At the closest and farthest points the force is perpendicular to the velocity and the speed is momentarily neither increasing nor decreasing.',
+    });
+    const ox = 330;
+    const oy = 220;
+    const a = 220;
+    const b = 140;
+    const c = Math.sqrt(a * a - b * b);
+    const f = new Frame(svg, { ox, oy, scale: 1 });
+    svg.ellipse(ox, oy, a, b, { stroke: COLORS.guide, width: 2 });
+    const planet = [-c, 0];
+    svg.circle(...f.p(...planet), 16, { fill: COLORS.blue, stroke: COLORS.black });
+    f.text(planet, 'planet', { dy: 32, size: 14, math: false });
+    const at = (t, name, side) => {
+      const P = [a * Math.cos(rad(t)), b * Math.sin(rad(t))];
+      const v = [-a * Math.sin(rad(t)), b * Math.cos(rad(t))];
+      const vl = Math.hypot(...v);
+      const vu = [v[0] / vl, v[1] / vl];
+      const d = [planet[0] - P[0], planet[1] - P[1]];
+      const dl = Math.hypot(...d);
+      const Fu = [d[0] / dl, d[1] / dl];
+      const FL = 110;
+      f.vec(P, [P[0] + vu[0] * 95, P[1] + vu[1] * 95], { color: VEL, width: 3 });
+      f.text([P[0] + vu[0] * 95, P[1] + vu[1] * 95], '**v**', { dx: 0, dy: side * -16, size: 17 });
+      f.vec(P, [P[0] + Fu[0] * FL, P[1] + Fu[1] * FL], { color: COLORS.red, width: 3.5 });
+      f.text([P[0] + Fu[0] * FL, P[1] + Fu[1] * FL], '**F**', { dx: 4, dy: side * 20, size: 17 });
+      const par = (Fu[0] * vu[0] + Fu[1] * vu[1]) * FL;
+      f.vec(P, [P[0] + vu[0] * par, P[1] + vu[1] * par], {
+        color: COLORS.red,
+        width: 2,
+        dash: '5 3',
+      });
+      svg.circle(...f.p(...P), 8, { fill: '#e0a030', stroke: COLORS.black });
+      f.text(P, name, { dx: 16, dy: side * -26, size: 14, math: false, anchor: 'start' });
+    };
+    at(65, 'approaching: speeds up', 1);
+    at(-65, 'receding: slows down', -1);
+    svg.text(70, 30, 'F: gravity toward the planet', {
+      size: 14,
+      math: false,
+      anchor: 'start',
+      color: COLORS.red,
+    });
+    svg.text(70, 52, 'dashed: component of F along v', {
+      size: 14,
+      math: false,
+      anchor: 'start',
+      color: COLORS.red,
+    });
+    // Direction of travel (counterclockwise) at the far end of the orbit.
+    svg.arrow(ox + a, oy + 10, ox + a, oy - 14, { color: COLORS.guide, width: 2, head: 12 });
+    return svg.render();
+  },
+
+  // 7.4 Q2 — potential energy of the diving board during a dive
+  concept_07_04_q02: () => {
+    const svg = new Svg({
+      width: 620,
+      height: 360,
+      title: 'Elastic potential energy of a diving board during a dive',
+      desc: 'Sketch of the diving board’s elastic potential energy versus time. It is zero before the swimmer steps on, rises as she walks out and the board bends under her weight, rises to a maximum when she drives the board down to its lowest point, and then decreases to zero as the board straightens and launches her, reaching zero when her feet leave the board.',
+    });
+    const g = new Plot(svg, { x: 80, y: 40, w: 480, h: 220, xRange: [0, 10], yRange: [0, 1.15] });
+    g.axes({
+      arrows: true,
+      xTitle: 'Time \\it{t}',
+      yTitle: 'Potential energy PE_\\rm{el}',
+      titleSize: 16,
+      yTitleOffset: 30,
+      xTitleOffset: 34,
+    });
+    const pts = [
+      [0, 0],
+      [1, 0],
+      [3, 0.3],
+      [4.5, 0.3],
+      [6.3, 1],
+      [8, 0],
+      [9.5, 0],
+    ];
+    g.series(pts, {
+      color: COLORS.red,
+      width: 3,
+      smooth: true,
+      tension: 0.25,
+      horizontalTangents: [0, 1, 3, 4, 5, 6],
+    });
+    const marks = [
+      [1, 0, 'steps on'],
+      [3.75, 0.3, 'standing at the end'],
+      [6.3, 1, 'lowest point: maximum'],
+      [8, 0, 'feet leave'],
+    ];
+    for (const [x, y, s] of marks) {
+      svg.circle(g.X(x), g.Y(y), 4.5, { fill: COLORS.black });
+      g.text(x, y + 0.09, s, { size: 13, math: false });
+    }
+    return svg.render();
+  },
+
+  // 8.2 Q1 — same impulse, different collision times
+  concept_08_02_q01: () => {
+    const svg = new Svg({
+      width: 620,
+      height: 380,
+      title: 'Force on a child’s head hitting tile and carpet',
+      desc: 'Force versus time for a child’s head (3.0 kg at 3.0 m/s) stopping on a tile floor and on a padded carpet. Both pulses have the same area, the impulse 9.0 kg·m/s, because the change in momentum is the same. On tile the head stops in about 2 ms, so the force is a tall narrow spike with an average of 4500 N. On carpet it stops in about 20 ms, so the force is ten times smaller, about 450 N on average, spread over ten times as long.',
+    });
+    const g = new Plot(svg, {
+      x: 90,
+      y: 40,
+      w: 460,
+      h: 240,
+      xRange: [0, 25],
+      yRange: [0, 8],
+      xTicks: [0, 5, 10, 15, 20, 25],
+      yTicks: [0, 2, 4, 6, 8],
+    });
+    g.axes({ xTitle: 'Time, t (ms)', yTitle: 'Force, F (kN)', yTitleOffset: 50 });
+    const half = (peak, T) => t => (t <= T ? peak * Math.sin((Math.PI * t) / T) : 0);
+    // Peak of a half-sine pulse with impulse J and duration T is πJ/(2T).
+    g.fn(half((Math.PI * 9.0) / (2 * 0.002) / 1000, 2), 0, 2, { color: COLORS.red, width: 3 });
+    g.fn(half((Math.PI * 9.0) / (2 * 0.02) / 1000, 20), 0, 20, { color: COLORS.blue, width: 3 });
+    g.text(3, 6.6, 'tile: Δt ≈ 2 ms, average force 4500 N', {
+      size: 14,
+      math: false,
+      anchor: 'start',
+    });
+    g.text(11, 1.35, 'carpet: Δt ≈ 20 ms, average force 450 N', { size: 14, math: false });
+    g.text(14, 4.5, 'same area under each curve:', { size: 14, math: false });
+    g.text(14, 3.95, 'impulse = Δp = 9.0 kg·m/s', { size: 14, math: false });
+    return svg.render();
+  },
+
+  // 8.6 Q1 — scattering from a cube face and from a sphere
+  concept_08_06_q01: () => {
+    const svg = new Svg({
+      width: 720,
+      height: 380,
+      title: 'Elastic scattering from a massive cube and a massive sphere',
+      desc: 'Two panels. (a) A massive cube whose struck face is tilted 20 degrees from the vertical. Two incoming paths with different impact parameters b both reflect from the flat face with equal angles of incidence and reflection, so both leave at the same angle θ1 = 40 degrees: for a flat face θ1 does not depend on b. (b) A massive sphere of radius R. The normal at the point of impact depends on b: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120 degrees, b = 0.87R leaves at 60 degrees, and a grazing hit (b near R) is barely deflected. For the sphere θ1 = 180° − 2 arcsin(b/R).',
+    });
+    const ray = (P, dir, len, opts = {}) => {
+      svg.arrow(P[0], P[1], P[0] + dir[0] * len, P[1] - dir[1] * len, {
+        color: VEL,
+        width: 2.5,
+        head: 11,
+        ...opts,
+      });
+    };
+    // (a) Cube turned α = 25° counterclockwise: its top face is a ramp at α.
+    svg.text(20, 26, '(a) massive cube', {
+      size: 16,
+      math: false,
+      weight: 'bold',
+      anchor: 'start',
+    });
+    const C = [235, 235];
+    const s = 120;
+    const alpha = 25;
+    const corner = (dx, dy) => {
+      const c = Math.cos(rad(alpha));
+      const si = Math.sin(rad(alpha));
+      return [C[0] + dx * c - dy * si, C[1] - (dx * si + dy * c)];
+    };
+    svg.polygon(
+      [corner(-s / 2, -s / 2), corner(s / 2, -s / 2), corner(s / 2, s / 2), corner(-s / 2, s / 2)],
+      {
+        fill: COLORS.fill,
+        stroke: COLORS.black,
+      }
+    );
+    const up = [Math.cos(rad(2 * alpha)), Math.sin(rad(2 * alpha))];
+    for (const k of [-0.3, 0.15]) {
+      const H = corner(k * s, s / 2);
+      svg.line(30, H[1], H[0], H[1], { color: VEL, width: 2.5 });
+      ray([30, H[1]], [1, 0], 60);
+      svg.line(H[0], H[1], H[0] + up[0] * 130, H[1] - up[1] * 130, {
+        color: COLORS.red,
+        width: 2.5,
+      });
+      ray([H[0] + up[0] * 100, H[1] - up[1] * 100], up, 40, { color: COLORS.red });
+    }
+    // A lower path strikes the left face instead and goes back down to the left.
+    const back = [Math.cos(rad(180 + 2 * alpha)), Math.sin(rad(180 + 2 * alpha))];
+    const L0 = corner(-s / 2, 0.1 * s);
+    svg.line(30, L0[1], L0[0], L0[1], { color: VEL, width: 2.5 });
+    ray([30, L0[1]], [1, 0], 60);
+    svg.line(L0[0], L0[1], L0[0] + back[0] * 90, L0[1] - back[1] * 90, {
+      color: COLORS.red,
+      width: 2.5,
+      dash: '6 4',
+    });
+    const T0 = corner(-0.3 * s, s / 2);
+    svg.line(T0[0], T0[1], T0[0] + 120, T0[1], { color: COLORS.guide, width: 1.2, dash: '5 4' });
+    svg.arc(T0[0], T0[1], 70, 0, 2 * alpha, { color: COLORS.axis });
+    svg.text(T0[0] + 84, T0[1] - 26, 'θ_1', { size: 16 });
+    svg.text(200, 332, 'same face, any b: θ_1 = 2α = 50°', { size: 15 });
+    svg.text(200, 356, '(α = angle of the struck face to the incoming path)', {
+      size: 13,
+      math: false,
+    });
+    // (b) Sphere.
+    svg.line(380, 20, 380, 360, { color: '#cccccc', width: 1 });
+    svg.text(400, 26, '(b) massive sphere', {
+      size: 16,
+      math: false,
+      weight: 'bold',
+      anchor: 'start',
+    });
+    const O = [590, 220];
+    const R = 70;
+    svg.circle(O[0], O[1], R, { fill: COLORS.fill, stroke: COLORS.black });
+    svg.circle(O[0], O[1], 3, { fill: COLORS.black });
+    const cases = [
+      [0, '180°'],
+      [0.5, '120°'],
+      [0.87, '60°'],
+    ];
+    for (const [bb, lab] of cases) {
+      const yHit = O[1] - bb * R;
+      const xHit = O[0] - Math.sqrt(R * R - (bb * R) ** 2);
+      const th = 180 - (2 * Math.asin(bb) * 180) / Math.PI;
+      const d = [Math.cos(rad(th)), Math.sin(rad(th))];
+      svg.line(400, yHit + (bb === 0 ? 4 : 0), xHit, yHit + (bb === 0 ? 4 : 0), {
+        color: VEL,
+        width: 2.5,
+      });
+      ray([400, yHit + (bb === 0 ? 4 : 0)], [1, 0], 40);
+      const L = bb === 0 ? 120 : 95;
+      const P0 = [xHit, yHit - (bb === 0 ? 4 : 0)];
+      svg.line(P0[0], P0[1], P0[0] + d[0] * L, P0[1] - d[1] * L, { color: COLORS.red, width: 2.5 });
+      svg.arrow(
+        P0[0] + d[0] * (L - 30),
+        P0[1] - d[1] * (L - 30),
+        P0[0] + d[0] * L,
+        P0[1] - d[1] * L,
+        { color: COLORS.red, width: 2.5, head: 11 }
+      );
+      svg.text(P0[0] + d[0] * (L + 16), P0[1] - d[1] * (L + 16) - (bb === 0 ? 10 : 0), lab, {
+        size: 14,
+        math: false,
+      });
+    }
+    svg.text(560, 330, 'θ_1 = 180° − 2 arcsin(b/R)', { size: 15 });
+    svg.text(560, 354, 'b = 0, R/2, 0.87R shown', { size: 13, math: false });
     return svg.render();
   },
 };

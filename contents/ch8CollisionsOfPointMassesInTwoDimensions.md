@@ -319,6 +319,41 @@ and assume that the cube is much more massive than the small object.
 
 :::
 
+::: solution
+
+**Strategy**
+
+When the struck object is much more massive than the small object, it stays essentially at rest, and the small object keeps its speed in an elastic collision. Like light reflecting from a mirror, the small object bounces off the surface with its velocity component perpendicular to the surface at the point of impact reversed. The outgoing direction therefore depends only on the orientation of the surface at the point of impact. Measure $$ \theta_{1} $$ counterclockwise from the incoming direction, $$ +x $$.
+
+**Solution**
+
+![Two panels. (a) A massive cube with its struck face at angle α to the incoming path: two incoming paths with different impact parameters b both reflect from the flat face and leave at the same angle θ1 = 2α; a lower path striking a different face bounces back down to the left. (b) A massive sphere of radius R: a head-on hit (b = 0) bounces straight back (θ1 = 180°), b = R/2 leaves at 120°, b = 0.87R leaves at 60°; θ1 = 180° − 2 arcsin(b/R).](../resources/concept_08_06_q01.svg)
+
+**(a) Cube.** Each face is flat, so the normal to the surface is the same at every point of a face. If the struck face makes an angle $$ \alpha $$ with the incoming path, the angle of reflection equals the angle of incidence, and the object leaves at
+
+<div class="equation">
+$$ \theta_{1} = 2\alpha $$
+</div>
+
+for every impact parameter $$ b $$ that hits that face. For $$ \alpha = 25° $$, $$ \theta_{1} = 50° $$. The angle depends on $$ b $$ only through **which face** is hit. A value of $$ b $$ that hits a different face gives a different, but again constant, angle, so only a few discrete scattering directions are possible (one per face that can be struck), and $$ \theta_{1} $$ jumps suddenly when $$ b $$ crosses an edge.
+
+**(b) Sphere.** The normal to the surface points from the center of the sphere to the point of impact, and its direction changes continuously with $$ b $$. If $$ \phi $$ is the angle between the incoming path and the normal at the point of impact, $$ \sin\phi = b/R $$, and reflection gives
+
+<div class="equation">
+$$ \theta_{1} = 180° - 2\phi = 180° - 2\arcsin\left(\frac{b}{R}\right) $$
+</div>
+
+- $$ b = 0 $$ (head on): $$ \theta_{1} = 180° $$; it bounces straight back.
+- $$ b = R/2 $$: $$ \phi = 30° $$, so $$ \theta_{1} = 120° $$.
+- $$ b = 0.87R $$: $$ \phi = 60° $$, so $$ \theta_{1} = 60° $$.
+- $$ b \to R $$ (grazing): $$ \theta_{1} \to 0° $$.
+
+Every direction from $$ 0° $$ to $$ 180° $$ is possible, and $$ \theta_{1} $$ decreases smoothly as $$ b $$ increases. Rutherford used exactly this kind of reasoning about the distribution of scattering angles to deduce the shape and size of the atomic nucleus.
+
+(a) Off the massive cube, the small object reflects from a flat face at $$ \theta_{1} = 2\alpha $$ (for example, $$ 50° $$), which does not depend on $$ b $$ except through which face is struck, so only a few discrete directions are possible; (b) off a massive sphere, $$ \theta_{1} = 180° - 2\arcsin(b/R) $$ varies continuously from $$ 180° $$ for a head-on hit to nearly $$ 0° $$ for a grazing one.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

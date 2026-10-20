@@ -377,6 +377,40 @@ Formulate a list of pros and cons of such suits.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Use the drag equation $$ F_{D} = \tfrac{1}{2} C \rho A v^{2} $$. A suit can change the drag coefficient $$ C $$ (through surface smoothness and shape) and the frontal area $$ A $$. Then weigh other effects on the athlete.
+
+**Solution**
+
+To see how much is at stake, estimate the drag on a cyclist moving at $$ v = 12 \ms $$ with $$ C = 0.90 $$ and $$ A = 0.35 \mm $$, in air of density $$ \rho = 1.21 \kg/\text{m}^3 $$:
+
+<div class="equation">
+$$ F_{D} = \tfrac{1}{2}(0.90)(1.21 \kg/\text{m}^3)(0.35 \mm)(12 \ms)^2 = 27 \N $$
+</div>
+
+Overcoming this force at $$ 12 \ms $$ takes a power of $$ F_{D}v = (27 \N)(12 \ms) = 330 \text{ W} $$. A suit that lowers $$ C $$ by just $$ 5\% $$ saves about $$ 1.4 \N $$, or $$ 16 \text{ W} $$, which can decide a race.
+
+**Pros**
+
+- A smooth, tight surface lowers the drag coefficient $$ C $$ and reduces turbulence compared with loose clothing, skin, or body hair.
+- Compressing the body smooths its shape and slightly reduces the frontal area $$ A $$.
+- Compression may reduce muscle vibration and fatigue.
+- Some swimsuit materials trap air or add buoyancy, raising the swimmer higher in the water. (Suits made of such materials were banned in 2010.)
+
+**Cons**
+
+- The suits are expensive and wear out quickly.
+- They can be uncomfortable and may restrict movement or breathing.
+- They hold in body heat, which is a problem for a cyclist producing hundreds of watts.
+- They are hard to put on, and some designs are banned, which raises questions of fairness.
+
+Body suits reduce the drag force $$ F_{D} = \tfrac{1}{2} C \rho A v^{2} $$ mainly by lowering $$ C $$ and slightly lowering $$ A $$, which can save several watts out of the roughly $$ 330 \text{ W} $$ a racing cyclist spends on drag at $$ 12 \ms $$, but they are costly, short-lived, hot, and can restrict movement.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -386,6 +420,26 @@ Formulate a list of pros and cons of such suits.
 Two expressions were used for the drag force experienced by a moving object in a liquid.
 One depended upon the speed, while the other was proportional to the square of the speed.
 In which types of motion would each of these expressions be more applicable than the other one?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare the two drag laws: the Stokes form $$ F_{s} = 6\pi r \eta v $$, which is proportional to $$ v $$, and $$ F_{D} = \tfrac{1}{2} C \rho A v^{2} $$, which is proportional to $$ v^{2} $$. Sketch both against speed to see where each is larger.
+
+**Solution**
+
+![Drag force versus speed. The straight line F = bv dominates at low speeds, for small objects, and in viscous fluids, where the flow is smooth (laminar). The parabola F = ½CρAv² grows faster and dominates at high speeds and for large objects, where the flow is turbulent.](../resources/concept_05_02_q02.svg)
+
+**Drag proportional to $$ v $$** applies to **small, slow objects in viscous fluids**, where the fluid flows smoothly (laminar flow) around the object. Viscosity, the fluid's internal friction, sets the drag. Examples are bacteria swimming, red blood cells moving in plasma, pollen or dust settling in air, and fine sediment sinking in water. A sand grain of radius $$ 0.10 \text{ mm} $$ sinking through water at a few $$ \text{mm/s} $$ follows this law.
+
+**Drag proportional to $$ v^{2} $$** applies to **larger, faster objects**, where the fluid becomes turbulent behind the object. The drag then comes from the momentum given to the fluid pushed out of the way. Examples are a car at $$ 25 \ms $$, a skydiver at $$ 50 \ms $$, a baseball, and a swimmer.
+
+In the graph, the linear law gives the larger drag at low speeds. The quadratic law grows faster and takes over at high speeds, so doubling the speed of a car quadruples its drag, while doubling the speed of a settling dust grain only doubles its drag.
+
+The drag force proportional to speed (Stokes's law) applies to small, slow objects in viscous fluids with smooth flow, such as bacteria or settling dust, while the drag force proportional to the square of the speed applies to larger, faster objects with turbulent flow, such as cars, balls, and skydivers.
 
 ::::
 
@@ -401,6 +455,28 @@ Does a heavy rain make any difference?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The braking and steering forces on a car come from static friction between the tires and the road, with a maximum of $$ \mu_{s} N $$. Ask how oil and water change $$ \mu_{s} $$, and use the maximum deceleration $$ a = \mu_{s} g $$ on a level road to compare stopping distances.
+
+**Solution**
+
+Take $$ +x $$ in the car's direction of motion. On a level road $$ N = mg $$, so the largest braking force is $$ \mu_{s} mg $$ in the $$ -x $$ direction, and the largest deceleration is $$ \mu_{s} g $$. From $$ v^{2} = v_{0}^{2} + 2ax $$ with $$ v = 0 $$, the shortest stopping distance from $$ v_{0} = 25 \ms $$ is $$ x = v_{0}^{2}/(2\mu_{s} g) $$:
+
+- dry concrete, $$ \mu_{s} = 1.0 $$: $$ x = (25 \ms)^2 / [2(1.0)(9.80 \mss)] = 32 \m $$
+- wet concrete, $$ \mu_{s} = 0.7 $$: $$ x = 46 \m $$
+- oily, wet surface, $$ \mu_{s} \approx 0.3 $$ (estimate): $$ x \approx 110 \m $$
+
+A **light rain** is the most dangerous. The water lifts the oil out of the pores of the road and mixes it into a thin, slippery film on top. That film makes the coefficient of friction much smaller, so the car can neither brake nor turn as hard. For a turn of radius $$ 50 \m $$, the highest safe speed $$ v = \sqrt{\mu_{s} r g} $$ drops from $$ 22 \ms $$ on dry pavement to about $$ 12 \ms $$ on the oily film.
+
+A **heavy rain** washes the oil off the road, so after a while traction improves to the ordinary wet value. Heavy rain brings another hazard, though. At high speed a layer of water can build up under the tires (hydroplaning), and the tires lose contact with the road almost completely.
+
+A light rain lifts the leaked oil into a slippery film that greatly reduces the coefficient of friction (stopping distances from $$ 25 \ms $$ can grow from about $$ 32 \m $$ to over $$ 100 \m $$), while a heavy rain washes the oil away and restores ordinary wet-road traction, although deep water can then cause hydroplaning.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -409,6 +485,28 @@ Does a heavy rain make any difference?
 
 Why can a squirrel jump from a tree branch to the ground and run away undamaged,
 while a human could break a bone in such a fall?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare the terminal speeds of a squirrel and a human using $$ v_{t} = \sqrt{2mg/(\rho C A)} $$, then compare how hard each body is loaded when it lands, using the way mass and bone cross-section scale with size.
+
+**Solution**
+
+**1. The squirrel falls more slowly.** Use $$ \rho = 1.21 \kg/\text{m}^3 $$ and $$ C \approx 1.0 $$ for a body spread out flat. For a $$ 0.50 \kg $$ squirrel with its legs and tail spread over $$ A = 0.030 \mm $$:
+
+<div class="equation">
+$$ v_{t} = \sqrt{\frac{2(0.50 \kg)(9.80 \mss)}{(1.21 \kg/\text{m}^3)(1.0)(0.030 \mm)}} = 16 \ms $$
+</div>
+
+For a $$ 70 \kg $$ human with $$ A = 0.70 \mm $$, the same calculation gives $$ v_{t} = 40 \ms $$. Mass grows with the cube of an animal's size but area only with the square, so the ratio $$ m/A $$, and with it the terminal speed, is much smaller for the squirrel. In a fall of $$ 10 \m $$, a human hits the ground at nearly the free-fall speed $$ \sqrt{2(9.80 \mss)(10 \m)} = 14 \ms $$, while air resistance holds the spread-out squirrel noticeably below that.
+
+**2. The squirrel's body is loaded less.** A human is about $$ (70 \kg / 0.50 \kg)^{1/3} \approx 5 $$ times larger than a squirrel in each dimension. The force needed to stop a body is proportional to its mass ($$ \propto L^{3} $$), but the cross-sectional area of the bones that must carry that force grows only as $$ L^{2} $$. For the same deceleration, the stress in the bones is about 5 times larger in the human.
+
+A squirrel survives the jump because its small mass compared with its area gives it a low terminal speed (about $$ 16 \ms $$ compared with $$ 40 \ms $$ for a human), so it lands more gently, and because its bones carry about one fifth the stress that a human's would for the same deceleration, whereas a human lands faster with bones loaded closer to their breaking point.
 
 ::::
 

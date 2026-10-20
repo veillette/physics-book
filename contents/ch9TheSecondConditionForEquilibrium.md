@@ -354,21 +354,31 @@ What three factors affect the torque created by a force relative to a specific p
 
 **Strategy**
 
-We analyze the torque equation $$ \tau = rF\sin{\theta} $$ to identify the three factors that determine torque magnitude.
+Use the expression for the magnitude of the torque, $$ \tau = rF\sin\theta $$, and identify its three factors.
 
 **Solution**
 
-The three factors that affect the torque created by a force relative to a specific pivot point are:
+The torque of a force about a pivot is
 
-1. **The magnitude of the force ($$ F $$)**: Greater force produces greater torque. Pushing harder on a door makes it rotate faster.
+<div class="equation">
+$$ \tau = rF\sin\theta $$
+</div>
 
-2. **The distance from the pivot point to where the force is applied ($$ r $$)**: Greater distance produces greater torque. Pushing a door near the handle (far from the hinges) is more effective than pushing near the hinges.
+where the three factors are:
 
-3. **The angle between the force and the lever arm ($$ \theta $$)**: Maximum torque occurs when the force is perpendicular to the lever arm ($$ \theta = 90° $$, so $$ \sin{\theta} = 1 $$). When the force is parallel to the lever arm ($$ \theta = 0° $$ or $$ 180° $$), no torque is produced.
+1. **The magnitude of the force, $$ F $$.** Doubling the force doubles the torque.
+2. **The distance $$ r $$ from the pivot to the point where the force is applied.** Pushing a door at its handle, far from the hinges, is much more effective than pushing near the hinges.
+3. **The angle $$ \theta $$ between the force and the line from the pivot to the point of application.** The torque is largest when the force is perpendicular to that line ($$ \theta = 90° $$, $$ \sin\theta = 1 $$) and zero when the force points straight toward or away from the pivot ($$ \theta = 0° $$ or $$ 180° $$).
 
-**Discussion**
+For example, a $$ 40 \N $$ push on a door $$ 0.80 \m $$ from the hinges gives:
 
-These three factors are combined in the torque equation $$ \tau = rF\sin{\theta} $$, or equivalently $$ \tau = r_{\perp}F $$ where $$ r_{\perp} = r\sin{\theta} $$ is the perpendicular lever arm. Understanding these factors is essential for designing mechanical systems like levers, wrenches, and door handles.
+- perpendicular to the door: $$ \tau = (0.80 \m)(40 \N)\sin 90° = 32 \N \cdot \m $$
+- at $$ 30° $$ to the door: $$ \tau = (0.80 \m)(40 \N)\sin 30° = 16 \N \cdot \m $$
+- at $$ 0.20 \m $$ from the hinges, perpendicular: $$ \tau = (0.20 \m)(40 \N) = 8.0 \N \cdot \m $$
+
+Equivalently, $$ \tau = r_{\perp}F $$, where the lever arm $$ r_{\perp} = r\sin\theta $$ combines the second and third factors.
+
+The torque created by a force about a pivot depends on the magnitude of the force $$ F $$, the distance $$ r $$ from the pivot to where the force is applied, and the angle $$ \theta $$ between the force and that line, through $$ \tau = rF\sin\theta $$ (for example, $$ 32 \N \cdot \m $$ for $$ 40 \N $$ applied perpendicular to a door at $$ 0.80 \m $$).
 
 :::
 
@@ -389,27 +399,26 @@ fall if it is struck with the same force at its base? Note that this depends on 
 
 **Strategy**
 
-We apply the concept of torque to analyze how the point of force application affects the wall's response. The base of the wall acts as a pivot point for rotation.
+Treat the bottom edge of the wall as a possible pivot. Compare the torque about the base, $$ \tau = rF $$, produced by the same force applied near the top and at the base, and compare each with what holds the wall at its base.
 
 **Solution**
 
-**When struck near the top:** The wall is more likely to **fall over by rotating at its base**. Here's why:
+Suppose the wrecking ball delivers an average horizontal force of $$ 2.0 \times 10^{4} \N $$ to a wall $$ 8.0 \m $$ tall.
 
-- The impact force applied near the top creates a large torque about the base because the lever arm (distance from the base to the point of impact) is maximum.
-- Using $$ \tau = rF $$, if $$ r $$ (the height of impact) is large, the torque is large.
-- This large torque causes significant angular acceleration, making the wall rotate about its base.
-- The wall's rotational inertia cannot resist this large torque, so it topples over.
+**Struck near the top** ($$ r \approx 8.0 \m $$ above the base), the torque about the base is
 
-**When struck at the base:** The wall is more likely to **slide or crumble rather than rotate**, or it may fall straight down:
+<div class="equation">
+$$ \tau = rF = (8.0 \m)(2.0 \times 10^{4} \N) = 1.6 \times 10^{5} \N \cdot \m $$
+</div>
 
-- The impact force applied at the base creates minimal torque because the lever arm approaches zero ($$ r \approx 0 $$).
-- With negligible torque, there is no tendency to rotate.
-- Instead, the force acts to translate (push) the wall or to shatter it at the point of impact.
-- If the wall is firmly attached at its base, the impact may cause localized crushing at the base, leading to the wall collapsing straight down.
+This large torque tends to rotate the wall about its base, and an unsupported wall is held up only by the restoring torque of its own weight, which is small when the wall is thin. The wall is most likely to **fall over by rotating at its base**. At the base, the large torque may also crack the wall's connection to its foundation, which then acts as a hinge.
 
-**Discussion**
+**Struck at the base** ($$ r \approx 0 \m $$), the torque about the base is nearly zero, so there is little tendency to tip. The force instead tries to push the bottom of the wall sideways. What happens depends on how firmly the wall is attached at its base:
 
-This principle is used in controlled demolitions. Explosives or wrecking balls applied at the base cause buildings to collapse straight down into their footprint, while impacts higher up can cause unpredictable toppling. The same physics explains why it's easier to tip over a tall bookshelf by pushing at the top rather than at the bottom.
+- If the base is **firmly attached**, the blow crushes or breaks the concrete there, removing the support, and the wall tends to **fall straight down** (or slump) under its own weight.
+- If it is **not firmly attached**, the base is knocked sideways, and the wall may slide, or rotate so that its top falls back toward the side the ball came from.
+
+Struck near the top, the wall is more likely to fall over by rotating at its base, because the force has a large lever arm and produces a large torque (about $$ 1.6 \times 10^{5} \N \cdot \m $$ for $$ 2.0 \times 10^{4} \N $$ at $$ 8.0 \m $$); struck at the base, the torque is nearly zero, so a firmly attached wall is most likely to have its base crushed and fall straight down, while a loosely attached one may slide or have its base kicked out.
 
 :::
 
@@ -428,27 +437,27 @@ tight bolt. How does this help? (It is also hazardous since it can break the bol
 
 **Strategy**
 
-We apply the torque equation $$ \tau = rF $$ to understand how extending the lever arm affects the torque produced.
+The force a mechanic can exert is limited. Use $$ \tau = rF $$ (with the force perpendicular to the handle) to see how extending the handle changes the torque on the bolt.
 
 **Solution**
 
-Adding a pipe over the wrench handle **increases the torque** applied to the bolt by increasing the lever arm (the distance $$ r $$ from the bolt to where the force is applied).
+A mechanic can push with at most about $$ 400 \N $$. On a wrench with a $$ 0.25 \m $$ handle, pushing perpendicular to the handle gives
 
-From the torque equation $$ \tau = rF\sin{\theta} $$:
-- The force $$ F $$ the mechanic can apply is limited by their strength
-- The angle is typically kept at 90° for maximum effectiveness
-- By extending the handle with a pipe, the distance $$ r $$ is increased
+<div class="equation">
+$$ \tau = rF = (0.25 \m)(400 \N) = 100 \N \cdot \m $$
+</div>
 
-For example, if a wrench handle is 20 cm long and a 40 cm pipe is added, the new lever arm is 60 cm—three times longer. This triples the torque produced for the same applied force.
+Sliding a pipe over the handle lets the mechanic push farther from the bolt, increasing the lever arm. With the push applied $$ 0.75 \m $$ from the bolt,
 
-**Why it's hazardous:** The increased torque can exceed what the bolt was designed to withstand, causing:
-- The bolt to shear off (break)
-- The bolt threads to strip
-- The wrench to slip suddenly when the bolt breaks loose, potentially causing injury
+<div class="equation">
+$$ \tau = (0.75 \m)(400 \N) = 300 \N \cdot \m $$
+</div>
 
-**Discussion**
+three times as large for the same effort, which may be enough to break the bolt free.
 
-This is a practical application of the torque equation. The same principle explains why longer wrenches are used for tighter bolts, why door handles are placed far from hinges, and why long-handled tools make work easier. However, the increased mechanical advantage comes with the risk of applying excessive force, which is why proper-sized tools and torque wrenches are important in precision applications.
+**Why it is hazardous:** the wrench and bolt are designed for the torques a person can produce with the normal handle. Tripling the torque can exceed what the bolt can withstand, so it may snap or its threads may strip. The wrench or the pipe can also slip or break, and when the bolt suddenly gives way, the mechanic can lose balance and be injured.
+
+A length of pipe over the wrench handle helps by increasing the lever arm, so the same force produces a larger torque on the bolt (for example, $$ 300 \N \cdot \m $$ instead of $$ 100 \N \cdot \m $$ for a $$ 400 \N $$ push), but that larger torque can also break the bolt.
 
 :::
 

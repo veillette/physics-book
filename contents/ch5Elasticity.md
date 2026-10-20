@@ -671,6 +671,27 @@ The elastic properties of the arteries are essential for blood flow. Explain the
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The heart pumps in pulses, and the arteries are elastic, so they stretch under pressure like a spring. Follow what happens to an artery during the pumping stroke (systole) and during the rest between beats (diastole).
+
+**Solution**
+
+The heart ejects blood only during part of each beat. In a resting adult it ejects about $$ 70 \text{ mL} $$ in about $$ 0.3 \s $$, then rests for about $$ 0.5 \s $$. If the arteries were rigid pipes, blood would surge during each stroke and almost stop between strokes.
+
+Because the large arteries are elastic:
+
+1. **During systole** the pressure rises to about $$ 120 \text{ mm Hg} $$ ($$ 16.0 \text{ kPa} $$). The arteries stretch and store part of the pumped blood, along with elastic potential energy in their walls.
+2. **During diastole** the heart's valve closes, and the stretched walls spring back. They keep pushing blood forward, so the pressure falls only to about $$ 80 \text{ mm Hg} $$ ($$ 10.7 \text{ kPa} $$) rather than to zero.
+
+The elastic arteries therefore turn the heart's jerky, pulsating output into a much smoother, nearly continuous flow through the small vessels and capillaries. This reduces the peak pressure and the stress on vessel walls and lowers the work the heart must do. When arteries stiffen with age (arteriosclerosis), this smoothing is lost, and the systolic pressure rises.
+
+The elasticity of the arteries is essential because the arteries stretch to store blood and energy during each heartbeat (at about $$ 16.0 \text{ kPa} $$) and spring back between beats, keeping the pressure near $$ 10.7 \text{ kPa} $$ and turning the heart's pulsating output into a nearly continuous flow of blood.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -678,6 +699,28 @@ The elastic properties of the arteries are essential for blood flow. Explain the
 :::: problem
 
 What are you feeling when you feel your pulse? Measure your pulse rate for 10 s and for 1 min. Is there a factor of 6 difference?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Identify what physically moves under your fingertip, then compare two ways of finding the beats per minute, including the effect of counting uncertainty.
+
+**Solution**
+
+The pulse you feel is a **pressure wave** traveling along the elastic wall of the artery. Each heartbeat sends a surge of blood into the aorta. The artery wall bulges, and the bulge travels outward along the arteries at a few meters per second, much faster than the blood itself flows. Your fingertip feels the artery wall expanding as each wave passes.
+
+Suppose you count 12 beats in $$ 10 \s $$. The rate is
+
+<div class="equation">
+$$ \frac{12 \text{ beats}}{10 \s} \times \frac{60 \s}{1 \text{ min}} = 72 \text{ beats/min} $$
+</div>
+
+A count for a full minute might give 70 or 74 beats, so the factor of 6 is only approximate. One reason is that you can only count whole beats, so a 10-second count is uncertain by about $$ \pm 1 \text{ beat} $$, which becomes $$ \pm 6 \text{ beats/min} $$ ($$ \pm 8\% $$) when multiplied by 6. The same $$ \pm 1 $$ beat in a 60-second count is only $$ \pm 1 \text{ beat/min} $$ ($$ \pm 1.4\% $$). The heart rate also really changes from moment to moment, with breathing for example.
+
+You feel the pressure wave that each heartbeat sends along the elastic artery wall, and the 1-minute count is about 6 times the 10-second count (for example, $$ 12 \text{ beats}/10 \s $$ gives $$ 72 \text{ beats/min} $$), but not exactly, because counting whole beats makes the 10-second result uncertain by about $$ \pm 6 \text{ beats/min} $$ and the heart rate itself varies.
 
 ::::
 
@@ -691,6 +734,25 @@ Examine different types of shoes, including sports shoes and thongs. In terms of
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+A shoe sole must provide static friction for walking, running, and turning, and it must cushion the foot by deforming. Use $$ f_{s,\text{max}} = \mu_{s} N $$ and the elastic properties of rubber to explain the designs.
+
+**Solution**
+
+Take $$ +y $$ up, perpendicular to the ground, and $$ +x $$ horizontally in the direction the runner pushes off. A $$ 70 \kg $$ person standing has $$ N = (70 \kg)(9.80 \mss) = 686 \N $$. The largest horizontal push the ground can supply is $$ \mu_{s} N $$. With rubber on dry concrete ($$ \mu_{s} = 1.0 $$) that is $$ 686 \N $$; on wet concrete ($$ \mu_{s} = 0.7 $$) it falls to $$ 480 \N $$.
+
+- **Soft rubber soles** have a high coefficient of friction and deform to fit the small bumps of the ground, increasing the true contact area.
+- **Tread patterns, grooves, and studs** let the sole grip uneven ground. On wet surfaces the grooves channel water out from under the sole so the rubber still touches the ground instead of sliding on a water film. Cleats and spikes dig into grass or a track and push against the ground almost like a step.
+- **Sports shoes** have thick, elastic soles that compress on landing. Stretching the stopping time and distance reduces the force on the body, and some of the elastic energy is returned at push-off. Tread patterns are designed for the motion: circular pivot points on basketball shoes, deep lugs on trail shoes.
+- **Thongs (flip-flops)** have thin, flat, often smooth soles. On dry ground they grip adequately, but when wet a water film forms under the flat sole, $$ \mu_{s} $$ drops sharply, and they become slippery. They also offer little cushioning.
+
+Shoe soles use soft, high-friction rubber, tread patterns, and elastic cushioning so that static friction can supply large horizontal forces (about $$ 686 \N $$ for a $$ 70 \kg $$ person on dry concrete) and landings are softened, and wet conditions lower the friction (to about $$ 480 \N $$ here), which is why grooves that channel water away matter and smooth flat soles like those of thongs become slippery.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -698,6 +760,26 @@ Examine different types of shoes, including sports shoes and thongs. In terms of
 :::: problem
 
 Would you expect your height to be different depending upon the time of day? Why or why not?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+The spine contains intervertebral discs of soft, elastic material that carry the weight of the upper body. Ask how a compressive force over many hours changes their thickness.
+
+**Solution**
+
+Yes. You are slightly **taller in the morning** than in the evening. During the day, while you stand and sit, the discs between your vertebrae are compressed by the weight of the upper body, roughly $$ 400 \N $$ for a $$ 70 \kg $$ adult. They are not perfectly elastic: under a steady load, fluid slowly squeezes out of them and they get thinner (a slow deformation called creep). If each of about 23 discs loses $$ 0.5 \text{ mm} $$, the total change is
+
+<div class="equation">
+$$ \Delta L \approx 23 \times 0.5 \text{ mm} \approx 1 \text{ cm} $$
+</div>
+
+At night, lying down removes the compressive load. The discs absorb fluid and spring back to their full thickness. Measurements typically show a difference of $$ 1 \text{ to } 2 \text{ cm} $$. Astronauts, who carry no weight in orbit, grow several centimeters for the same reason.
+
+Your height does depend on the time of day, because the weight of your upper body (about $$ 400 \N $$) compresses the intervertebral discs during the day and makes you about $$ 1 \text{ to } 2 \text{ cm} $$ shorter by evening, and the discs recover overnight when you lie down.
 
 ::::
 
@@ -712,6 +794,28 @@ while a human could break a bone in such a fall?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The question repeats one from Drag Forces. Here, focus on the elastic properties of bone: compare the stress (force per unit area) in the bones of a squirrel and a human, and compare how fast each lands.
+
+**Solution**
+
+**1. Stress scales with size.** A bone breaks when the stress $$ F/A $$ exceeds its strength. Bone has about the same strength in all animals. A human ($$ 70 \kg $$) is about $$ (70 \kg/0.50 \kg)^{1/3} \approx 5 $$ times larger in each dimension than a squirrel ($$ 0.50 \kg $$). The force needed to stop a falling body is proportional to its mass, which grows as $$ L^{3} $$ (a factor of about 140). The cross-sectional area of the bones grows only as $$ L^{2} $$ (a factor of about 27). For the same deceleration, the stress in the human's bones is about
+
+<div class="equation">
+$$ \frac{140}{27} \approx 5 $$
+</div>
+
+times larger. A squirrel's bones are therefore far from their breaking stress when it lands, while a human's are much closer.
+
+**2. The squirrel lands more slowly.** Its small mass compared with its area gives it a terminal speed of only about $$ 16 \ms $$, compared with about $$ 40 \ms $$ for a human. Spreading its legs and tail, the squirrel is slowed by air resistance, and it bends its legs on landing to stretch out the stopping distance.
+
+A squirrel survives the jump because the stress in its bones on landing is only about one fifth of what a human's bones experience for the same deceleration (mass grows with size cubed, bone area only with size squared) and because air resistance gives it a much lower landing speed, so a human's bones are pushed much closer to their breaking stress.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -719,6 +823,34 @@ while a human could break a bone in such a fall?
 :::: problem
 
 Explain why pregnant women often suffer from back strain late in their pregnancy.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Find how the extra mass in front of the body changes the position of the center of gravity, and what torque the back muscles must then supply about the base of the spine.
+
+**Solution**
+
+Late in pregnancy, several kilograms of baby, uterus, and fluid sit in front of the spine. To keep the center of gravity over the feet, a pregnant woman leans backward. Even so, the extra mass exerts a forward torque about the lower spine that the back muscles must balance.
+
+Take the pivot at the lower spine. Say $$ 10 \kg $$ of added mass has its center about $$ 0.20 \m $$ in front of the spine. Its weight produces a forward (bending) torque of
+
+<div class="equation">
+$$ \tau = r_{\perp} w = (0.20 \m)(10 \kg)(9.80 \mss) = 19.6 \N \cdot \m $$
+</div>
+
+The back muscles act only about $$ 0.050 \m $$ behind the pivot, so to balance this torque they need an extra force of
+
+<div class="equation">
+$$ F = \frac{19.6 \N \cdot \m}{0.050 \m} = 392 \N $$
+</div>
+
+That is about four times the extra weight itself. This force, held for hours each day, tires and strains the back muscles. It also adds to the compression of the intervertebral discs. In addition, pregnancy hormones loosen ligaments, so the muscles carry more of the load.
+
+Pregnant women often suffer back strain because the extra mass in front of the spine shifts the center of gravity forward, and the back muscles, which have a short lever arm, must exert large forces (about $$ 392 \N $$ for $$ 10 \kg $$ held $$ 0.20 \m $$ in front of the spine) for hours each day to keep the body balanced.
 
 ::::
 
@@ -733,6 +865,32 @@ materials is to grip the center of the nail firmly with pliers. Why does this he
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+A nail bends when the compressive force from the hammer makes it buckle sideways. The force a slender rod can carry before buckling depends strongly on its unsupported length, so ask what gripping the middle does to that length.
+
+**Solution**
+
+When you hammer a nail into hard wood, the wood resists, and the nail is squeezed between the hammer and the wood. A long, thin rod under compression does not just shorten; at a certain critical force it suddenly bows out sideways (buckles). That critical force is inversely proportional to the square of the unsupported length $$ L $$:
+
+<div class="equation">
+$$ F_{\text{crit}} \propto \frac{1}{L^{2}} $$
+</div>
+
+Gripping the center of the nail firmly with pliers stops the middle of the nail from moving sideways. This splits the nail into two shorter sections, each about $$ L/2 $$ long. The critical force becomes
+
+<div class="equation">
+$$ F_{\text{crit}}' \propto \frac{1}{(L/2)^{2}} = 4 \times \frac{1}{L^{2}} $$
+</div>
+
+so it is about 4 times larger. If a nail with $$ 6.0 \text{ cm} $$ exposed buckles under $$ 400 \N $$, gripping it in the middle lets it carry about $$ 1600 \N $$ without bending. The pliers also keep the nail lined up with the hammer blow, so the force stays along the nail's axis instead of having a sideways component that bends it.
+
+Gripping the center of the nail with pliers keeps the nail from bending because it halves the unsupported length that can buckle, and since the buckling force varies as $$ 1/L^{2} $$, the nail can then take about 4 times the force (for example, $$ 1600 \N $$ instead of $$ 400 \N $$) and stays aligned with the blow.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -744,6 +902,40 @@ but vinegar expands significantly more with temperature than glass. The bottle w
 break if it was filled to its tightly capped lid. Explain why, and also explain how
 a pocket of air above the vinegar would prevent the break. (This is the function of
 the air above liquids in glass containers.)
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Compare how much the vinegar and the bottle expand when heated. Then use the bulk modulus to find the pressure needed to squeeze the extra liquid back into the bottle. Finally, compare this with what happens when there is an easily compressed air pocket.
+
+**Solution**
+
+Suppose the bottle warms by $$ \Delta T = 20 \text{ °C} $$. Vinegar (mostly water) expands by a fraction of about $$ 2.1 \times 10^{-4} \text{ per °C} $$, while the glass's volume grows by only about $$ 2.7 \times 10^{-5} \text{ per °C} $$. The vinegar's volume grows more than the bottle's by a fraction of
+
+<div class="equation">
+$$ \frac{\Delta V}{V} = (2.1 \times 10^{-4} \text{ °C}^{-1} - 2.7 \times 10^{-5} \text{ °C}^{-1})(20 \text{ °C}) = 3.7 \times 10^{-3} $$
+</div>
+
+**Full bottle.** If the bottle is filled right to its tightly capped lid, the vinegar has nowhere to go. The glass must compress the vinegar back by this fraction. Liquids are nearly incompressible, with a bulk modulus of about $$ B = 2.2 \times 10^{9} \text{ N/m}^2 $$, so the pressure needed is
+
+<div class="equation">
+$$ \Delta P = B \frac{\Delta V}{V} = (2.2 \times 10^{9} \text{ N/m}^2)(3.7 \times 10^{-3}) = 8.1 \times 10^{6} \text{ N/m}^2 $$
+</div>
+
+That is about 80 atmospheres. By Newton's third law the vinegar pushes outward on the glass with this pressure, and the stress in the glass exceeds its strength, so the bottle breaks.
+
+**With an air pocket.** Air is very easy to compress. If the air pocket takes up $$ 2.0\% $$ of the bottle's volume, the expanding vinegar takes $$ 0.37\% $$ of the volume from it, leaving the air $$ 1.63\% $$. At constant temperature the air pressure rises only to about
+
+<div class="equation">
+$$ P = (1.0 \text{ atm}) \frac{2.0\%}{1.63\%} = 1.2 \text{ atm} $$
+</div>
+
+(the air warming up raises it a little more). The glass easily withstands this.
+
+A completely full, capped bottle breaks because the vinegar expands more than the glass and, being nearly incompressible, would need a pressure of about $$ 8 \times 10^{6} \text{ N/m}^2 $$ (about 80 atm) to be squeezed back, whereas a small air pocket compresses easily and absorbs the extra volume with a pressure rise of only about $$ 0.2 \text{ atm} $$.
 
 ::::
 

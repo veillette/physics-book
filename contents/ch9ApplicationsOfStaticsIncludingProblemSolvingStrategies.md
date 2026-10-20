@@ -241,27 +241,27 @@ When visiting some countries, you may see a person balancing a load on the head.
 
 **Strategy**
 
-We analyze the conditions for equilibrium when a load is balanced on the head. If the center of mass of the load is not directly above the point of support (the neck vertebrae), a net torque will result.
+Treat the load as the system, with the top of the head beneath the neck vertebrae as the support. Apply the second condition for equilibrium, taking torques about the point of support.
 
 **Solution**
 
-The center of mass of the load must be directly above the person's neck vertebrae for the following reasons:
+The load is acted on by two forces: its weight, acting at its center of mass, and the upward force of the head. If the center of mass is **directly above** the support point, the weight acts along a line through that point, so its lever arm is zero and so is its torque:
 
-1. **Zero torque condition:** When the load's center of mass is directly above the neck vertebrae, the weight of the load acts along a vertical line passing through the point of support. This means the lever arm for the weight is zero, and thus the torque about the neck is zero. No rotational tendency exists.
+<div class="equation">
+$$ \tau = r_{\perp}w = (0 \m)w = 0 \N \cdot \m $$
+</div>
 
-2. **Unstable equilibrium avoided:** If the load's center of mass is even slightly to one side of the vertebrae, the weight creates a torque that will cause the load to tip in that direction. The person would need to exert muscular force and shift their posture to counteract this torque.
+The head's upward push balances the weight, and both conditions for equilibrium are satisfied with no muscular effort to prevent tipping. The weight also passes straight down the neck vertebrae, which are strong in compression, without bending the neck.
 
-3. **Energy efficiency:** With the load directly balanced, no muscular effort is needed to prevent rotation. The normal force from the head directly supports the weight. This allows people to carry heavy loads for long distances with minimal fatigue.
+If the center of mass is off to one side, the weight produces a torque that tends to tip the load and bend the neck. For a $$ 20 \kg $$ load whose center of mass is $$ 0.050 \m $$ to one side,
 
-4. **Analogous to static equilibrium:** This is the same principle as balancing a pencil on its flat end—the center of gravity must be directly above the base of support for stable equilibrium.
+<div class="equation">
+$$ \tau = (0.050 \m)(20 \kg)(9.80 \mss) = 9.8 \N \cdot \m $$
+</div>
 
-**Discussion**
+The neck muscles act only a few centimeters from the vertebrae, so with a $$ 0.030 \m $$ lever arm they would need to pull with an extra $$ (9.8 \N \cdot \m)/(0.030 \m) = 330 \N $$, and the load would also tend to slide off. Practiced carriers can carry heavy loads efficiently over long distances precisely because they keep the load centered.
 
-This carrying technique, common in many cultures, is remarkably efficient. Studies have shown that practiced head-load carriers can carry loads of up to 20% of their body weight with no additional metabolic cost compared to walking unloaded! This is because the balanced load requires no compensatory muscle effort. However, improper positioning of the load—even slightly off-center—dramatically increases the physical demand as muscles must constantly work to prevent the load from falling.
-
-**Answer**
-
-The center of mass of the load must be directly above the person's neck vertebrae to ensure zero torque about the point of support, allowing the load to be carried efficiently without muscular effort to prevent rotation.
+The load's center of mass must be directly above the neck vertebrae so that its weight passes through the point of support and produces zero torque, letting the load balance without muscular effort; even a $$ 0.050 \m $$ offset of a $$ 20 \kg $$ load creates a $$ 9.8 \N \cdot \m $$ torque that the neck muscles would have to resist with several hundred newtons.
 
 ::::
 

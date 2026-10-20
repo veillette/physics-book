@@ -399,6 +399,28 @@ descriptive, or do they contain causal information?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Kepler's laws describe orbits as seen from the central body. Identify when that frame is (nearly) inertial, and then decide whether the laws state causes or only describe patterns.
+
+**Solution**
+
+**Frames of reference.** Kepler's laws hold in a non-rotating frame of reference centered on the central body, provided that body is so massive that it is nearly at rest, which makes the frame nearly inertial. For the planets this is a frame centered on the Sun. (More exactly, the planets orbit the center of mass of the solar system, which lies close to the Sun.) For the Moon and artificial satellites it is a non-rotating frame centered on Earth. The laws do not hold in a rotating frame, such as one attached to Earth's surface, where the planets appear to loop back and forth across the sky.
+
+**Descriptive or causal.** Kepler's laws are **purely descriptive**. Kepler found them by fitting Tycho Brahe's careful measurements. They say *what* the orbits look like (ellipses, equal areas swept in equal times, $$ T^{2} \propto r^{3} $$), not *why*. The cause came later from Newton, who derived all three laws from his laws of motion and gravitation. Newton's version of the third law even contains the cause, the mass of the Sun:
+
+<div class="equation">
+$$ \frac{T^{2}}{r^{3}} = \frac{4\pi^{2}}{GM} = \frac{4\pi^{2}}{(6.67 \times 10^{-11} \N \cdot \mm/\kg^{2})(1.99 \times 10^{30} \kg)} = 2.97 \times 10^{-19} \s^{2}/\text{m}^{3} $$
+</div>
+
+For Earth, $$ T = 3.16 \times 10^{7} \s $$ and $$ r = 1.50 \times 10^{11} \m $$, which gives $$ T^{2}/r^{3} = 2.96 \times 10^{-19} \s^{2}/\text{m}^{3} $$, in agreement.
+
+Kepler's laws are valid in a non-rotating frame of reference centered on the massive central body (the Sun for planets, Earth for satellites), and they are purely descriptive summaries of observations; the causal explanation came from Newton's law of gravitation, which predicts, for example, $$ T^{2}/r^{3} = 4\pi^{2}/(GM) = 2.97 \times 10^{-19} \s^{2}/\text{m}^{3} $$ for the Sun.
+
+::::
+
 </div>
 
 ### Problem Exercises

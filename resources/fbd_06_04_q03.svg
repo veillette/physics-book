@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="300" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of a rider in the rotating barrel</title>
+<desc id="desc">Free-body diagram with +x horizontally toward the axis of the barrel and +y up: the wall pushes the rider toward the axis with the normal force N along +x, which is the centripetal force; static friction from the wall f s points up and balances the weight w, which points down. The acceleration points toward the axis.</desc>
+<rect width="420" height="300" fill="#ffffff"/>
+<line x1="40" y1="150" x2="366" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="375,150 365,154.2 365,145.8" fill="#555555"/>
+<line x1="150" y1="265" x2="150" y2="44" stroke="#555555" stroke-width="1.5"/><polygon points="150,35 154.2,45 145.8,45" fill="#555555"/>
+<line x1="138" y1="260" x2="138" y2="40" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<line x1="150" y1="150" x2="289" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="300,150 288,155.04 288,144.96" fill="#b03a2e"/>
+<line x1="150" y1="150" x2="150" y2="86" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,75 155.04,87 144.96,87" fill="#b03a2e"/>
+<line x1="150" y1="150" x2="150" y2="214" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,225 144.96,213 155.04,213" fill="#b03a2e"/>
+<line x1="210" y1="70" x2="244" y2="70" stroke="#1e8449" stroke-width="3"/><polygon points="255,70 243,75.04 243,64.96" fill="#1e8449"/>
+<circle cx="150" cy="150" r="6" fill="#1f3a5f"/>
+<text x="162" y="126" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">rider</text>
+<text x="391" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="25" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="300" y="168" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="end">toward axis →</text>
+<text x="130" y="50" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="end">wall</text>
+<text x="286" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="162" y="94" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">s</tspan><tspan dy="-6"></tspan></text>
+<text x="162" y="220" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="241" y="58" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</svg>

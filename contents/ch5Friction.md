@@ -425,6 +425,36 @@ Define normal force. What is its relationship to friction when friction behaves 
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Start from the definition of the normal force, then draw a free-body diagram of an object sliding on a level floor and connect the normal force to the friction force through the simple friction laws.
+
+**Solution**
+
+The **normal force** is the component of the contact force that a surface exerts on an object **perpendicular** to the surface. It is the surface's push back against an object that presses on it. The surface deforms very slightly, and its stretched molecular bonds push outward.
+
+![Free-body diagram with +x to the right and +y up: push F to the right, kinetic friction f = μk N to the left, normal force N up perpendicular to the floor, and weight w down. N and w are equal in length because there is no vertical acceleration.](../resources/fbd_05_01_q01.svg){: .fbd}
+
+Choose $$ +x $$ in the direction of the push and $$ +y $$ straight up, perpendicular to the floor, so that the normal force lies along an axis. When friction behaves simply, its size is proportional to the normal force:
+
+<div class="equation">
+$$ f_{k} = \mu_{k} N \qquad \text{and} \qquad f_{s} \le \mu_{s} N $$
+</div>
+
+The friction force acts parallel to the surface, while the normal force acts perpendicular to it. The coefficient $$ \mu $$ has no units, so friction is measured in newtons, like the normal force. For a $$ 20.0 \kg $$ crate on a level wooden floor, there is no vertical acceleration, so Newton's second law along $$ y $$ gives
+
+<div class="equation">
+$$ N - w = 0 \quad \Rightarrow \quad N = mg = (20.0 \kg)(9.80 \mss) = 196 \N $$
+</div>
+
+With $$ \mu_{k} = 0.30 $$ for wood on wood, the kinetic friction while it slides is $$ f_{k} = (0.30)(196 \N) = 58.8 \N $$. If you double the normal force, for example by stacking a second identical crate on top, friction doubles to $$ 118 \N $$.
+
+The normal force is the perpendicular push of a surface on an object, and when friction behaves simply the friction force is proportional to it ($$ f_{k} = \mu_{k} N $$, $$ f_{s} \le \mu_{s} N $$) and acts parallel to the surface, so a $$ 196 \N $$ normal force gives $$ 58.8 \N $$ of kinetic friction when $$ \mu_{k} = 0.30 $$.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -432,6 +462,28 @@ Define normal force. What is its relationship to friction when friction behaves 
 :::: problem
 
 The glue on a piece of tape can exert forces. Can these forces be a type of simple friction? Explain, considering especially that tape can stick to vertical walls and even to ceilings.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Simple friction requires the surfaces to be pressed together ($$ N > 0 $$), is proportional to $$ N $$, and acts only parallel to the surface. Check whether the forces from tape glue meet these conditions, especially on a ceiling.
+
+**Solution**
+
+Consider a strip of tape of mass $$ 2.0 \text{ g} $$ stuck to a ceiling. Take $$ +y $$ upward. The forces on the tape are its weight, $$ w = (0.0020 \kg)(9.80 \mss) = 0.020 \N $$ downward, and the force of the glue on the tape. Nothing presses the tape *against* the ceiling, so the normal force is zero. If the glue force were simple friction, its maximum value would be
+
+<div class="equation">
+$$ f_{s,\text{max}} = \mu_{s} N = \mu_{s}(0 \N) = 0 \N $$
+</div>
+
+and the tape would fall. Instead the glue pulls **up** on the tape with $$ 0.020 \N $$ (or more, if you tug on it), perpendicular to the ceiling. That is an attractive, pulling force, something friction can never provide, since friction only acts parallel to a surface.
+
+On a vertical wall the glue supports the tape's weight parallel to the wall. That looks like friction, but it again works with no normal force pressing the tape into the wall. Glue forces are **adhesion**: attractive molecular (electromagnetic) forces between the glue and the surface. They depend on the contact area and the type of material, not on how hard the tape is pressed at the moment.
+
+Tape glue forces are not simple friction, because they hold the tape even when the normal force is zero (on a ceiling the glue must pull up on a $$ 0.020 \N $$ strip with no push against the surface) and they can act perpendicular to the surface; they are adhesive forces between molecules.
 
 ::::
 
@@ -448,6 +500,30 @@ friction forces.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Identify where friction acts during braking. The tires roll on the road, while the brake pads rub on a spinning disc (rotor) attached to each wheel. Compare the friction between pads and disc while they slide (kinetic) with the friction once they stop sliding (static).
+
+**Solution**
+
+Take $$ +x $$ in the direction the car moves; the braking force then points in the $$ -x $$ direction. While the car is moving, the pads slide over the turning discs, so the friction between them is **kinetic**, $$ f_{k} = \mu_{k} N_{\text{pad}} $$, where $$ N_{\text{pad}} $$ is the force with which the brake presses the pads onto the disc. For a $$ 1200 \kg $$ car decelerating at $$ 3.0 \mss $$, the braking force has magnitude
+
+<div class="equation">
+$$ f = ma = (1200 \kg)(3.0 \mss) = 3600 \N $$
+</div>
+
+![Braking force on the car versus time. Firm pedal: while the wheels turn, the brake pads slide on the discs and the force stays at the kinetic value μk N; just as the car stops, the pads stop sliding and grip with static friction, so the force jumps up toward μs N and then drops abruptly to zero. Eased pedal: the force tapers to a small value before the car stops.](../resources/concept_05_01_q03.svg)
+
+Just as the car comes to rest, the pads stop sliding and **grip** the disc. The friction becomes **static**, and static friction can be as large as $$ \mu_{s} N_{\text{pad}} $$, which is larger than $$ \mu_{k} N_{\text{pad}} $$. If $$ \mu_{s}/\mu_{k} = 1.3 $$, the braking force can briefly jump to about $$ 1.3 \times 3600 \N = 4700 \N $$, so the deceleration jumps to about $$ 3.9 \mss $$. An instant later the car is stopped and the deceleration drops to $$ 0 \mss $$. This sudden change in acceleration is the jerk: you lurch forward, and the car body rocks back on its springs.
+
+If you let up on the pedal near the end, $$ N_{\text{pad}} $$ is small, so both $$ \mu_{k} N_{\text{pad}} $$ and $$ \mu_{s} N_{\text{pad}} $$ are small. For example, with a deceleration of only $$ 0.5 \mss $$ just before stopping, the change when the pads grab and the car stops is small and the stop is smooth.
+
+You must ease up on the brake because the pads switch from sliding (kinetic) to gripping (static) friction as the car stops, and since static friction can be larger than kinetic friction, a firm pedal makes the braking force jump (for example, from $$ 3600 \N $$ to about $$ 4700 \N $$) and then drop to zero, which you feel as a jerk.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -460,6 +536,29 @@ Describe this process in more detail, in particular explaining how it is
 related to the fact that the coefficient of  kinetic friction  is less
 than static friction.
 (The same slip-grab process occurs when tires screech on pavement.)
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Follow the friction force on the chalk through one cycle, using the fact that the maximum static friction $$ \mu_{s} N $$ is larger than the kinetic friction $$ \mu_{k} N $$.
+
+**Solution**
+
+Your hand pushes the chalk along the board, and the chalk tip bends slightly, like a stiff spring. Take $$ +x $$ in the direction your hand moves. The cycle runs as follows:
+
+1. **Stick.** At first the tip does not slide. Static friction from the board holds it, and as your hand keeps moving the tip bends more, so the friction force needed to hold it grows.
+2. **Break loose.** When the needed force reaches the maximum $$ \mu_{s} N $$, the tip breaks free. For example, with $$ N = 2.0 \N $$ and $$ \mu_{s} = 0.60 $$, it breaks loose at $$ f = 1.2 \N $$.
+3. **Slip.** Once sliding, friction drops to the smaller kinetic value. With $$ \mu_{k} = 0.40 $$, that is $$ f_{k} = (0.40)(2.0 \N) = 0.80 \N $$. The bent tip now pushes forward with more force than friction holds back, so the tip springs ahead, releasing its bend, and slows down.
+4. **Stick again.** When the tip's speed relative to the board falls to zero, static friction takes over and the cycle repeats.
+
+![Friction force on the chalk versus time. During each stick phase the static friction grows until it reaches the maximum μs N; the chalk then breaks loose and the friction drops to the smaller kinetic value μk N while it slips. The chalk sticks again and the cycle repeats rapidly, producing a sawtooth pattern.](../resources/concept_05_01_q04.svg)
+
+The cycle can repeat hundreds or thousands of times per second. Each slip gives the board and chalk a small kick, so they vibrate at that rate and we hear a screech. If $$ \mu_{s} $$ and $$ \mu_{k} $$ were equal, the force would not drop when slipping began, the tip would not spring forward, and the motion would be smooth. A skidding tire screeches on pavement in the same way.
+
+The chalk screeches because it repeatedly sticks until static friction reaches its maximum $$ \mu_{s} N $$ (for example, $$ 1.2 \N $$), then slips when friction drops to the smaller kinetic value $$ \mu_{k} N $$ (for example, $$ 0.80 \N $$), and this rapid stick-slip cycle makes the chalk and board vibrate.
 
 ::::
 

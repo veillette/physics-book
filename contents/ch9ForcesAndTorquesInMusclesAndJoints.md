@@ -364,26 +364,21 @@ Why are the forces exerted on the outside world by the limbs of our bodies usual
 
 **Strategy**
 
-We analyze the lever systems in the body, noting that muscles attach close to joints while external forces are applied far from joints.
+Treat a limb as a lever, using the forearm of Figure 1. Compare the lever arm of the muscle with the lever arm of the load at the hand, and apply the second condition for equilibrium about the joint.
 
 **Solution**
 
-The forces exerted on the outside world are smaller than muscle forces because **muscles attach very close to joints**, giving most body lever systems a mechanical advantage much less than 1.
+Most muscles attach to bones **very close to the joint**, while we exert forces on the outside world with our hands and feet, **far from the joint**. In the forearm of Figure 1, the biceps attaches $$ 4.00 \text{ cm} $$ from the elbow, while the hand is $$ 38.0 \text{ cm} $$ from it. Taking torques about the elbow (and ignoring the forearm's own weight),
 
-From the lever equation: $$ F_{\text{out}} \cdot l_{\text{out}} = F_{\text{muscle}} \cdot l_{\text{muscle}} $$
+<div class="equation">
+$$ F_{\text{muscle}}(4.00 \text{ cm}) = F_{\text{hand}}(38.0 \text{ cm}) \quad \Rightarrow \quad F_{\text{muscle}} = 9.5F_{\text{hand}} $$
+</div>
 
-Since $$ l_{\text{muscle}} << l_{\text{out}} $$, we have $$ F_{\text{muscle}} >> F_{\text{out}} $$.
+The mechanical advantage is $$ (4.00 \text{ cm})/(38.0 \text{ cm}) = 0.105 $$. Including the forearm's own weight, the example in this section found that the biceps must pull with $$ 470 \N $$ to hold a $$ 4.00 \kg $$ ball, 7.38 times the $$ 63.7 \N $$ total weight supported.
 
-For example, in the forearm ([Figure 1](#Figure1)):
+This arrangement trades force for speed and range: when the biceps shortens by $$ 1.0 \text{ cm} $$, the hand moves about $$ 9.5 \text{ cm} $$, so the hand moves fast and far.
 
-- Biceps attaches 4.0 cm from the elbow
-- Hand is 38 cm from the elbow
-- MA = 4.0/38 = 0.105
-- This means the biceps must exert about 9.5 times the force delivered by the hand
-
-**Discussion**
-
-This arrangement trades force for speed and range of motion. A small muscle contraction produces large, fast movements at the extremities—essential for activities requiring dexterity and quick responses.
+The forces our limbs exert on the outside world are much smaller than the forces exerted by our muscles because muscles attach very close to the joints while loads are applied far from them, so the limbs are levers with small mechanical advantages (about $$ 0.105 $$ for the forearm, where the biceps pulls with $$ 470 \N $$ to hold a $$ 39.2 \N $$ ball).
 
 :::
 
@@ -401,30 +396,21 @@ Explain why the forces in our joints are several times larger than the forces we
 
 **Strategy**
 
-We apply force equilibrium to analyze joint forces, recognizing that joints must balance both muscle forces and external loads.
+Apply the first condition for equilibrium (zero net force) to the forearm of Figure 1. Take $$ +y $$ upward. Use the values found in this section: the biceps pulls up with $$ F_{B} = 470 \N $$, while the forearm and ball weigh $$ 63.7 \N $$ in total.
 
 **Solution**
 
-Joint forces are large because **joints must counterbalance the large muscle forces** that arise from the MA < 1 lever systems.
+Forces on the forearm in the $$ y $$ direction:
 
-From force equilibrium in the forearm example:
-$$ F_{\text{biceps}} = F_{\text{joint}} + W_{\text{load}} $$
+<div class="equation">
+$$ F_{B} - F_{E} - w_{\text{total}} = 0 \quad \Rightarrow \quad F_{E} = F_{B} - w_{\text{total}} = 470 \N - 63.7 \N = 407 \N $$
+</div>
 
-Since $$ F_{\text{biceps}} >> W_{\text{load}} $$, the joint force must be:
-$$ F_{\text{joint}} = F_{\text{biceps}} - W_{\text{load}} $$
+The upper arm pushes **down** on the forearm at the elbow with $$ 407 \N $$, 6.38 times the weight supported. Because the muscle has a small lever arm, it must pull very hard, and the joint must push back almost as hard to keep the net force zero. The joint force is large because it balances the large muscle force, not just the load.
 
-**Can joint forces exceed muscle forces?** Yes! This happens when the geometry causes muscle forces and external loads to have components in the same direction relative to the joint.
+**Can joint forces exceed muscle forces?** Yes. In the forearm the joint force is slightly less than the muscle force, because the muscle force and the load point in opposite directions. When the muscle force and the load have components in the **same** direction along the bone, those components add in the joint. When a person lifts a box with a bent back (Figure 4), the back muscles pull with $$ F_{B} = 4200 \N $$, but the vertebrae must push with $$ F_{V} = 4660 \N $$, 5.59 times the $$ 833 \N $$ weight supported and more than the muscle force.
 
-In the back-lifting example ([Figure 4](#Figure4)):
-
-- Back muscle force: $$ F_B = 4200 \N $$
-- Vertebral force: $$ F_V = 4660 \N $$ (larger!)
-
-This occurs because both the muscle force and load components add when resolved onto the spine's axis.
-
-**Discussion**
-
-This explains the prevalence of joint problems (arthritis, disc damage). The forces are enormous—often 5-10 times body weight in the spine during improper lifting.
+Joint forces are several times larger than the forces we exert on the outside world because the joint must balance the large muscle force as well as the load ($$ 470 \N - 63.7 \N = 407 \N $$ at the elbow), and they can exceed the muscle forces when the muscle and the load push in the same direction along the bone, as in the spine, where $$ F_{V} = 4660 \N $$ exceeds $$ F_{B} = 4200 \N $$.
 
 :::
 
@@ -442,27 +428,19 @@ Certain types of dinosaurs were bipedal (walked on two legs). What is a good rea
 
 **Strategy**
 
-We apply the principle that for stable balance, the center of gravity must be positioned over the base of support (the feet for a bipedal creature).
+To stand balanced on two legs, the center of gravity (cg) of the whole animal must be above its feet, so that the net torque of gravity about the feet is zero. Ask what a long, heavy neck does to the cg and how a tail can compensate.
 
 **Solution**
 
-Bipedal dinosaurs with long necks needed long tails to **maintain their center of gravity over their feet**.
+Take the hips, above the feet, as the pivot. A long neck and head extended forward put a large weight far in front of the hips, producing a forward torque. Without something behind the hips, the cg would lie in front of the feet and the animal would tip forward. A long, heavy tail extending backward puts weight far behind the hips, producing an opposing torque. For balance,
 
-The physics:
+<div class="equation">
+$$ m_{\text{front}}\,g\,d_{\text{front}} = m_{\text{tail}}\,g\,d_{\text{tail}} $$
+</div>
 
-1. A long neck extending forward moves the creature's center of gravity (cg) forward
-2. Without compensation, the cg would be in front of the feet, causing the dinosaur to tip forward
-3. A long, heavy tail extending backward shifts the cg back toward the feet
-4. The tail acts as a counterbalance, keeping the overall cg positioned above the base of support
+For example, if the neck and head have a mass of $$ 1000 \kg $$ with their cg $$ 4.0 \m $$ in front of the hips, they produce a torque of $$ (1000 \kg)(9.80 \mss)(4.0 \m) = 3.9 \times 10^{4} \N \cdot \m $$. A $$ 800 \kg $$ tail with its cg $$ 5.0 \m $$ behind the hips produces $$ (800 \kg)(9.80 \mss)(5.0 \m) = 3.9 \times 10^{4} \N \cdot \m $$ the other way, balancing it. The tail acts as a counterweight, like the long pole of a tightrope walker. It also helps the animal shift its cg quickly while running and turning.
 
-Mathematically, for torque balance about the hips:
-$$ m_{\text{neck}} \cdot d_{\text{neck}} \approx m_{\text{tail}} \cdot d_{\text{tail}} $$
-
-where $$ d $$ represents the horizontal distance of each mass from the hip pivot.
-
-**Discussion**
-
-This is the same principle humans use when carrying heavy loads—we lean **forward** to counter the backward shift of the cg caused by a backpack, and **backward** to counter a load carried in front. Bipedal dinosaurs like T. rex, with their massive heads, had correspondingly massive, muscular tails. This counterbalancing also allowed dynamic stability during running and turning.
+Long-necked bipedal dinosaurs needed long tails as counterweights: the tail's torque about the hips (for example, $$ 3.9 \times 10^{4} \N \cdot \m $$) balanced the forward torque of the long neck and head, keeping the center of gravity over the feet so the animal did not tip forward.
 
 :::
 
@@ -480,27 +458,19 @@ Swimmers and athletes during competition need to go through certain postures at 
 
 **Strategy**
 
-We analyze the starting posture in terms of equilibrium, center of gravity position, and the ability to generate rapid acceleration.
+Compare the stability of a starting position with what is needed to accelerate quickly. A body tips when its center of gravity (cg) moves beyond its base of support, and to accelerate forward the feet must push backward on the ground (or the blocks) while the body leans forward.
 
 **Solution**
 
-Athletic starting postures are designed to place the body in a state of **unstable equilibrium** that can be converted to maximum acceleration with minimal delay.
+The starting postures are chosen so that the athlete is **barely stable**, ready to move at once:
 
-Key physics principles at work:
+1. **The cg is placed at the front edge of the base of support.** A sprinter in the blocks puts much of the weight on the hands, with the cg just behind them. When the hands lift at the gun, the cg is already in front of the feet, so the body starts falling forward and can be driven forward immediately. A swimmer on the block curls the toes over the front edge, with the cg near the edge, ready to tip into the dive.
+2. **The legs are bent and pushing against something solid.** The blocks or the edge of the starting platform let the legs push backward with large forces. By Newton's third law, the blocks push the athlete forward. For a $$ 70 \kg $$ sprinter pushing on the blocks with a forward reaction of $$ 1400 \N $$ for $$ 0.40 \s $$, the impulse is $$ (1400 \N)(0.40 \s) = 560 \N \cdot \s $$, giving a speed of $$ (560 \kg \cdot \ms)/(70 \kg) = 8.0 \ms $$ when leaving the blocks (ignoring the vertical forces).
+3. **The leaning body directs the force forward.** Because the body leans, the force from the ground can point mostly forward through the cg instead of producing a torque that would rotate the athlete upright too early.
 
-1. **Center of gravity positioning:** The athlete's cg is positioned at the forward edge of the base of support (often over the toes or starting blocks). This creates unstable equilibrium—the slightest forward movement initiates the start.
+Starts matter because in a short race even $$ 0.1 \s $$ is decisive. At $$ 10 \ms $$, a $$ 0.1 \s $$ delay costs $$ (10 \ms)(0.1 \s) = 1 \m $$.
 
-2. **Torque generation:** A crouched position with low cg allows the legs to push against the ground at an optimal angle, generating maximum horizontal force while the body "falls" forward.
-
-3. **Pre-tension in muscles:** The starting posture pre-loads muscles, allowing faster force generation through the stretch-shortening cycle.
-
-4. **Minimizing reaction time:** The unstable position means the athlete doesn't need to shift their cg before accelerating—they can immediately begin forward motion.
-
-For swimmers, the dive angle and entry position also minimize water resistance and maximize the distance covered in the streamlined underwater phase.
-
-**Discussion**
-
-A false start penalty exists because an athlete in this optimized unstable position might anticipate the start signal. The physics of the starting posture provides a significant competitive advantage—fractions of a second gained at the start can determine the outcome of a race.
+Starting postures place the athlete's center of gravity at the edge of the base of support with bent legs braced against blocks or the platform edge, so the athlete is barely in balance and can immediately tip forward and push off with large forces (for example, $$ 560 \N \cdot \s $$ of impulse, giving $$ 8.0 \ms $$ to a $$ 70 \kg $$ sprinter), which matters because a $$ 0.1 \s $$ delay can cost about $$ 1 \m $$.
 
 :::
 
@@ -518,29 +488,25 @@ If the maximum force the biceps muscle can exert is 1000 N, can we pick up an ob
 
 **Strategy**
 
-We apply the mechanical advantage analysis of the forearm system, recognizing that the biceps attaches close to the elbow while the load is held at the hand.
+Use the forearm of Figure 1. The biceps attaches $$ 4.00 \text{ cm} $$ from the elbow and the hand is $$ 38.0 \text{ cm} $$ from it. Apply the second condition for equilibrium about the elbow to find the largest load the hand can hold with a biceps force of $$ 1000 \N $$.
 
 **Solution**
 
-**No**, we cannot pick up a 1000 N object if the biceps can only exert 1000 N.
+Take torques about the elbow, ignoring the forearm's own weight for the moment:
 
-From [Figure 1](#Figure1), the forearm's mechanical advantage is approximately:
+<div class="equation">
+$$ F_{B}(0.0400 \m) = w_{\text{load}}(0.380 \m) \quad \Rightarrow \quad w_{\text{load}} = (1000 \N)\frac{0.0400 \m}{0.380 \m} = 105 \N $$
+</div>
 
-$$ \text{MA} = \frac{l_{\text{biceps}}}{l_{\text{hand}}} = \frac{4.0 \text{ cm}}{38 \text{ cm}} \approx 0.105 $$
+So the biceps can hold at most about $$ 105 \N $$ (a mass of about $$ 10.7 \kg $$) in the hand, and even less once the forearm's own weight is included. To hold a $$ 1000 \N $$ object at the hand, the biceps would need
 
-This means:
-$$ F_{\text{output}} = \text{MA} \times F_{\text{input}} = 0.105 \times 1000 \N \approx 105 \N $$
+<div class="equation">
+$$ F_{B} = (1000 \N)\frac{0.380 \m}{0.0400 \m} = 9500 \N $$
+</div>
 
-A biceps force of 1000 N can only lift about **105 N** (approximately 10.7 kg) at the hand!
+far beyond its $$ 1000 \N $$ maximum.
 
-To lift 1000 N at the hand, we would need:
-$$ F_{\text{biceps}} = \frac{1000 \N}{0.105} \approx 9500 \N $$
-
-The biceps would need to exert nearly 9500 N—far more than its maximum capacity.
-
-**Discussion**
-
-This illustrates why we can lift heavier objects by holding them close to our body (shorter lever arm for the load) or using two hands (distributing the load between multiple muscle systems). It also explains why athletes who lift very heavy weights use techniques that optimize mechanical advantage.
+No, we cannot pick up a $$ 1000 \N $$ object with the hand if the biceps can exert at most $$ 1000 \N $$, because the biceps' lever arm is only $$ 4.00 \text{ cm} $$ compared with $$ 38.0 \text{ cm} $$ for the hand, so it can hold only about $$ 105 \N $$, and lifting $$ 1000 \N $$ would require about $$ 9500 \N $$.
 
 :::
 
@@ -558,34 +524,27 @@ Suppose the biceps muscle was attached through tendons to the upper arm close to
 
 **Strategy**
 
-We compare the mechanical advantage and kinematic properties of the hypothetical wrist attachment versus the actual elbow attachment.
+Compare the lever arm, and hence the mechanical advantage, of the actual attachment ($$ 4.00 \text{ cm} $$ from the elbow) with that of a hypothetical attachment near the wrist (say $$ 35.0 \text{ cm} $$ from the elbow, with the hand at $$ 38.0 \text{ cm} $$). Then compare how far and how fast the hand moves when the muscle shortens.
 
 **Solution**
 
-**Advantages of wrist attachment:**
+**Advantages.** The mechanical advantage would rise from $$ (4.00 \text{ cm})/(38.0 \text{ cm}) = 0.105 $$ to
 
-1. **Greater mechanical advantage:** If the biceps attached at the wrist (say, 35 cm from elbow), the MA would be:
-   $$ \text{MA} = \frac{35 \text{cm}}{38 \text{cm}} \approx 0.92 $$
+<div class="equation">
+$$ \text{MA} = \frac{35.0 \text{ cm}}{38.0 \text{ cm}} = 0.921 $$
+</div>
 
-   This is nearly 9 times better than the actual MA of ~0.105. The muscle would need to exert much less force to lift the same load.
+To hold a $$ 39.2 \N $$ ball (ignoring the forearm's weight), the biceps would need only $$ (39.2 \N)/0.921 = 42.6 \N $$ instead of $$ 373 \N $$. The force in the elbow joint would drop by the same large factor, reducing wear on the joint, and much heavier loads could be lifted.
 
-2. **Reduced joint forces:** Lower muscle forces mean lower forces in the elbow joint, reducing wear and tear.
+**Disadvantages.**
 
-3. **Larger loads for the same muscle force:** The muscle force needed to lift or hold a given load would be much smaller. (Whether this saves metabolic energy is a separate physiological question; mechanical advantage alone does not determine metabolic cost.)
+- **Speed and range.** The hand moves only $$ (38.0 \text{ cm})/(35.0 \text{ cm}) = 1.09 $$ times as far and as fast as the muscle contracts, instead of $$ 9.5 $$ times. A $$ 1.0 \text{ cm} $$ contraction would move the hand $$ 1.1 \text{ cm} $$ instead of $$ 9.5 \text{ cm} $$. Throwing, hitting, and other fast movements would be impossible.
+- **Range of motion.** A muscle can shorten only a limited amount, so the arm could bend through only a small angle.
+- **Structure.** The muscle and tendon would have to run along the whole forearm, which would be bulky, exposed to injury, and in the way of the wrist and hand.
 
-**Disadvantages of wrist attachment:**
+(Precision is not the problem: each small contraction would produce an equally small hand motion, so fine control would actually be easier. The cost is speed and range.)
 
-1. **Much slower movement and smaller range per contraction:** When the muscle contracts a small distance $$ \Delta l $$, the hand would move only slightly farther. With the actual attachment, a 1 cm muscle contraction produces about 9.5 cm of hand movement, so the same contraction speed produces a much faster hand.
-
-2. **Reduced range of motion:** The forearm couldn't bend as far because the muscle would reach its minimum length with less angular rotation.
-
-3. **Control resolution is not the drawback:** If the muscle can control its length to some fixed resolution, the wrist attachment would actually make hand movements *finer*, because each small muscle contraction would produce a proportionally small hand movement. The cost is speed and range, not precision.
-
-4. **Structural problems:** Long tendons running the length of the forearm would be vulnerable to injury and would interfere with wrist and hand function.
-
-**Discussion**
-
-The actual attachment trades force for speed and range of motion: the biceps must exert a large force, but the hand moves quickly and far. Keep these quantities distinct—force, speed, displacement, and control resolution are different properties. Tools can shift the tradeoff in either direction: levers and pulleys can multiply force, and other levers and wheels (such as a bicycle's gears or a baseball bat) can multiply speed.
+Attaching the biceps near the wrist would greatly increase the arm's mechanical advantage (from $$ 0.105 $$ to about $$ 0.921 $$), so much smaller muscle and joint forces would be needed, but the hand would move only about $$ 1.1 \text{ cm} $$ per centimeter of contraction instead of $$ 9.5 \text{ cm} $$, so the arm would lose its speed and range of motion, and the long tendon would be awkward and vulnerable.
 
 :::
 
@@ -603,36 +562,25 @@ Explain one of the reasons why pregnant women often suffer from back strain late
 
 **Strategy**
 
-We analyze how pregnancy shifts the center of gravity and requires postural compensation that loads the back muscles.
+Use the posture diagram of Figure 2: to stay balanced, the center of gravity (cg) must stay over the feet. Find how the extra mass in front changes the posture, and the torque the back muscles must then supply about the lower spine.
 
 **Solution**
 
-Pregnant women suffer from back strain because **the growing fetus shifts the center of gravity forward**, requiring the back muscles to exert large forces to maintain balance.
+Late in pregnancy, several kilograms of baby, uterus, and fluid sit in front of the spine, moving the cg forward. To keep the cg over the feet, a pregnant woman leans backward (her lower back curves more). Even so, the mass in front exerts a forward, bending torque about the lower spine that the back muscles must balance. Take the pivot at the lower spine. Say $$ 10 \kg $$ of added mass has its center about $$ 0.20 \m $$ in front of the spine:
 
-The physics:
+<div class="equation">
+$$ \tau = r_{\perp}w = (0.20 \m)(10 \kg)(9.80 \mss) = 19.6 \N \cdot \m $$
+</div>
 
-1. As pregnancy progresses, the uterus and fetus grow, adding mass to the front of the torso
-2. This shifts the body's center of gravity forward
-3. To keep the cg over the feet (necessary for balance), women must lean backward
-4. This creates a clockwise torque about the hips that must be countered by the back muscles
+The back muscles act only about $$ 0.050 \m $$ behind the pivot, so to balance this torque they need an extra force of
 
-From the posture diagram ([Figure 2](#Figure2)(b)):
-$$ \tau_{\text{forward mass}} = m_{\text{baby+uterus}} \cdot g \cdot d_{\text{forward}} $$
+<div class="equation">
+$$ F = \frac{19.6 \N \cdot \m}{0.050 \m} = 392 \N $$
+</div>
 
-This torque must be balanced by:
-$$ \tau_{\text{back muscles}} = F_{\text{back}} \cdot r_{\text{back}} $$
+about four times the added weight, held for hours each day for months. This tires the back muscles and adds to the compressive force on the lumbar discs. In addition, pregnancy hormones loosen the ligaments, so the muscles carry more of the load.
 
-Since $$ r_{\text{back}} $$ (the perpendicular lever arm for back muscles) is very small, $$ F_{\text{back}} $$ must be very large.
-
-Additional factors:
-
-- Hormonal changes loosen ligaments, reducing spinal stability
-- The added weight increases the load on all spinal structures
-- The posture change is maintained for months, causing muscle fatigue
-
-**Discussion**
-
-This is an example of the body's postural adjustments described in [Figure 3](#Figure3). Similar to carrying a heavy backpack (which requires leaning forward), pregnancy requires leaning backward. The difference is that the load cannot be set down, leading to chronic strain. Proper exercise, supportive footwear, and good body mechanics can help manage this strain.
+Pregnant women often suffer back strain because the mass in front of the spine shifts the center of gravity forward and makes them lean back, so the back muscles, with their short lever arm, must exert large extra forces (about $$ 392 \N $$ for $$ 10 \kg $$ held $$ 0.20 \m $$ in front of the spine) for long periods to keep the body in equilibrium.
 
 :::
 

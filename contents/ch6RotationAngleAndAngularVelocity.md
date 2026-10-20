@@ -268,6 +268,29 @@ There is an analogy between rotational and linear physical quantities. What rota
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Match each linear quantity with the rotational quantity that plays the same role, and connect them through the radius $$ r $$ of the circular path.
+
+**Solution**
+
+- The **rotation angle** $$ \Delta\theta $$ (in radians) is the rotational analog of **distance** (or displacement) $$ \Delta x $$. The arc length traveled is $$ \Delta s = r\,\Delta\theta $$.
+- The **angular velocity** $$ \omega = \Delta\theta/\Delta t $$ (in rad/s) is the rotational analog of **velocity** $$ v = \Delta x/\Delta t $$. They are related by $$ v = r\omega $$.
+
+For example, a bicycle wheel of radius $$ r = 0.30 \m $$ that turns through one revolution, $$ \Delta\theta = 2\pi \text{ rad} $$, carries a point on its rim a distance
+
+<div class="equation">
+$$ \Delta s = r\,\Delta\theta = (0.30 \m)(2\pi \text{ rad}) = 1.9 \m $$
+</div>
+
+If it turns at $$ \omega = 10 \rads $$, the rim moves at $$ v = r\omega = (0.30 \m)(10 \rads) = 3.0 \ms $$. The radian is a ratio of two lengths (arc length over radius), so it drops out of the units, leaving meters and meters per second.
+
+Rotation angle $$ \theta $$ is the rotational analog of distance and angular velocity $$ \omega $$ is the rotational analog of velocity, related to them by $$ \Delta s = r\,\Delta\theta $$ and $$ v = r\omega $$ (for example, $$ 10 \rads $$ on a $$ 0.30 \m $$ wheel gives $$ 3.0 \ms $$).
+
+::::
+
 </div>
 
 ### Problem Exercises

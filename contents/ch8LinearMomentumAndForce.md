@@ -280,6 +280,31 @@ An object that has a small mass and an object that has a large mass have the sam
 
 :::
 
+::: solution
+
+**Strategy**
+
+Write the kinetic energy in terms of momentum. Since $$ p = mv $$, $$ v = p/m $$, and $$ \KE = \tfrac{1}{2}mv^{2} = p^{2}/(2m) $$. Compare the two objects at the same $$ p $$.
+
+**Solution**
+
+With the same momentum $$ p $$ for both,
+
+<div class="equation">
+$$ \KE = \frac{p^{2}}{2m} $$
+</div>
+
+is inversely proportional to the mass, so the **smaller mass** has the larger kinetic energy. For example, let both objects have $$ p = 10 \kg \cdot \ms $$:
+
+- $$ 1.0 \kg $$ object: $$ v = 10 \ms $$ and $$ \KE = (10 \kg \cdot \ms)^2/[2(1.0 \kg)] = 50 \J $$
+- $$ 10 \kg $$ object: $$ v = 1.0 \ms $$ and $$ \KE = (10 \kg \cdot \ms)^2/[2(10 \kg)] = 5.0 \J $$
+
+The small mass must move faster to have the same momentum, and kinetic energy grows with the square of the speed.
+
+The object with the smaller mass has the larger kinetic energy, because $$ \KE = p^{2}/(2m) $$ (for $$ p = 10 \kg \cdot \ms $$, a $$ 1.0 \kg $$ object has $$ 50 \J $$ while a $$ 10 \kg $$ object has only $$ 5.0 \J $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -287,6 +312,31 @@ An object that has a small mass and an object that has a large mass have the sam
 ::: problem
 
 An object that has a small mass and an object that has a large mass have the same kinetic energy. Which mass has the largest momentum?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Write the momentum in terms of kinetic energy. From $$ \KE = p^{2}/(2m) $$, $$ p = \sqrt{2m\KE} $$. Compare the two objects at the same $$ \KE $$.
+
+**Solution**
+
+With the same kinetic energy for both,
+
+<div class="equation">
+$$ p = \sqrt{2m\KE} $$
+</div>
+
+grows with the square root of the mass, so the **larger mass** has the larger momentum. For example, let both objects have $$ \KE = 50 \J $$:
+
+- $$ 1.0 \kg $$ object: $$ p = \sqrt{2(1.0 \kg)(50 \J)} = 10 \kg \cdot \ms $$ (moving at $$ 10 \ms $$)
+- $$ 10 \kg $$ object: $$ p = \sqrt{2(10 \kg)(50 \J)} = 32 \kg \cdot \ms $$ (moving at $$ 3.2 \ms $$)
+
+(Here $$ \sqrt{\kg \cdot \J} = \sqrt{\kg^{2}\,\text{m}^{2}/\s^{2}} = \kg \cdot \ms $$, as it should be.)
+
+The object with the larger mass has the larger momentum, because $$ p = \sqrt{2m\KE} $$ (with $$ 50 \J $$ each, a $$ 10 \kg $$ object has $$ 32 \kg \cdot \ms $$ while a $$ 1.0 \kg $$ object has only $$ 10 \kg \cdot \ms $$).
 
 :::
 
@@ -305,6 +355,28 @@ feet on the ground.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare a player pushing with feet planted on the ground with a player leaping through the air, using $$ F_{\text{net}} = \Delta p/\Delta t $$ and the work-energy theorem. Take $$ +x $$ in the direction the blocker drives the opponent.
+
+**Solution**
+
+**In the air,** a player can only deliver the momentum and kinetic energy he already has at takeoff. A $$ 100 \kg $$ player leaping at $$ 5.0 \ms $$ has $$ p = (100 \kg)(5.0 \ms) = 500 \kg \cdot \ms $$ and $$ \KE = \tfrac{1}{2}(100 \kg)(5.0 \ms)^2 = 1250 \J $$. Once he hits the opponent, nothing pushes him forward any more. If the opponent pushes back, the leaping player has nothing to push against, and he can easily be stopped or knocked off course.
+
+**With feet on the ground,** the player keeps getting a forward external force from the ground. Static friction lets his legs push back on the ground, and the ground pushes him forward. Suppose that force is $$ 1500 \N $$ and he keeps driving for $$ 0.50 \s $$. He delivers an extra impulse of
+
+<div class="equation">
+$$ \Delta p = F\Delta t = (1500 \N)(0.50 \s) = 750 \kg \cdot \ms $$
+</div>
+
+more than the leaping player's entire momentum. Over a $$ 1.0 \m $$ drive the ground lets him do $$ W = Fd = (1500 \N)(1.0 \m) = 1500 \J $$ of work on the opponent, more than the leaper's kinetic energy. He can also adjust his push in direction and size during the contact.
+
+A football player is more effective with his feet on the ground because the ground keeps pushing him forward through friction, so he can keep supplying momentum and doing work on his opponent (for example, an extra $$ 750 \kg \cdot \ms $$ and $$ 1500 \J $$), whereas a player in the air can deliver only the momentum and energy he had at takeoff and has nothing to push against.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -312,6 +384,25 @@ feet on the ground.
 ::: problem
 
 How can a small force impart the same momentum to an object as a large force?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use Newton's second law in terms of momentum, $$ \Delta p = F_{\text{net}}\Delta t $$. The change in momentum depends on both the force and the time it acts.
+
+**Solution**
+
+A small force can give the same momentum as a large force if it acts for a **longer time**, so that the product $$ F\Delta t $$ is the same. For example, to give a $$ 0.50 \kg $$ ball a momentum of $$ 10 \kg \cdot \ms $$ (a speed of $$ 20 \ms $$) starting from rest:
+
+- a large force of $$ 1000 \N $$ must act for $$ \Delta t = (10 \kg \cdot \ms)/(1000 \N) = 0.010 \s $$, as in a quick kick;
+- a small force of $$ 10 \N $$ must act for $$ \Delta t = (10 \kg \cdot \ms)/(10 \N) = 1.0 \s $$, as in a long, steady push.
+
+Both give $$ \Delta p = 10 \kg \cdot \ms $$. (Recall that $$ 1 \N \cdot \s = 1 \kg \cdot \ms $$.)
+
+A small force can impart the same momentum as a large force by acting for a proportionally longer time, since $$ \Delta p = F\Delta t $$ (for example, $$ 10 \N $$ for $$ 1.0 \s $$ and $$ 1000 \N $$ for $$ 0.010 \s $$ both give $$ 10 \kg \cdot \ms $$).
 
 :::
 

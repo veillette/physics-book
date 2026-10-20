@@ -240,6 +240,33 @@ floor for a day care center.
 
 :::
 
+::: solution
+
+**Strategy**
+
+In a fall, the change in momentum $$ \Delta p $$ of the body part that hits the floor is fixed by its mass and landing speed. Use the impulse-momentum theorem, $$ F_{\text{ave}}\Delta t = \Delta p $$, to see how the stopping time affects the average force.
+
+**Solution**
+
+Take $$ +y $$ upward. Suppose a toddler's head, of mass $$ 3.0 \kg $$, hits the floor at $$ 3.0 \ms $$ moving downward, $$ v_{y} = -3.0 \ms $$, and stops. Its change in momentum is
+
+<div class="equation">
+$$ \Delta p_{y} = m(v_{f} - v_{i}) = (3.0 \kg)[0 \ms - (-3.0 \ms)] = +9.0 \kg \cdot \ms $$
+</div>
+
+whatever the floor is made of. The floor must exert an upward impulse $$ F_{\text{ave}}\Delta t = 9.0 \N \cdot \s $$.
+
+- **Tile** barely gives, so the head stops in about $$ \Delta t = 0.0020 \s $$: $$ F_{\text{ave}} = (9.0 \N \cdot \s)/(0.0020 \s) = 4500 \N $$.
+- **Padded carpet** compresses by a few millimeters, stretching the stopping time to about $$ 0.020 \s $$: $$ F_{\text{ave}} = (9.0 \N \cdot \s)/(0.020 \s) = 450 \N $$.
+
+![Force versus time for a child's head (3.0 kg at 3.0 m/s) stopping on a tile floor and on a padded carpet. Both pulses have the same area, the impulse 9.0 kg·m/s. On tile the head stops in about 2 ms with an average force of 4500 N; on carpet it stops in about 20 ms with an average force of about 450 N.](../resources/concept_08_02_q01.svg)
+
+Both pulses have the same area under the force-time curve (the same impulse), but the carpet spreads it over ten times as long, so the force is ten times smaller and far less likely to cause injury.
+
+Padding reduces collision forces by increasing the time over which the momentum changes, so that the same impulse is delivered by a smaller average force; a carpeted day-care floor that stops a child's head in $$ 0.020 \s $$ instead of $$ 0.0020 \s $$ cuts the average force from about $$ 4500 \N $$ to $$ 450 \N $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -248,6 +275,25 @@ floor for a day care center.
 
 While jumping on a trampoline, sometimes you land on your back and other
 times on your feet. In which case can you reach a greater height and why?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The trampoline launches you by storing energy as it stretches. Compare what your body does on landing on your feet and on your back, using energy and the forces you can exert. Take $$ +y $$ upward.
+
+**Solution**
+
+You can reach a greater height when you land on your **feet**. Two effects combine:
+
+1. **You can add energy.** Landing on your feet, you can push down with your legs while the bed is stretched, doing extra work on the trampoline, and straighten your legs as it springs back. The trampoline then stores and returns more energy than you brought in. A $$ 60 \kg $$ jumper whose legs push with an extra $$ 600 \N $$ over the $$ 0.50 \m $$ the bed stretches adds $$ (600 \N)(0.50 \m) = 300 \J $$, enough to rise an extra $$ (300 \J)/[(60 \kg)(9.80 \mss)] = 0.51 \m $$.
+2. **You lose less energy.** Landing on your back, the body is soft and flops, so it deforms and absorbs energy as heat instead of storing it in the springs, and you cannot push. Your legs, held stiff at the right moment, transfer energy to the bed much more effectively.
+
+In terms of impulse: the upward impulse from the bed, $$ F_{\text{ave}}\Delta t $$, determines your takeoff momentum. With your feet, your legs let you increase the force over the contact time, so the upward impulse and the takeoff speed are larger.
+
+You can reach a greater height when you land on your feet, because your legs can push down on the stretched bed to add energy (for example, $$ 300 \J $$, or about $$ 0.5 \m $$ of extra height for a $$ 60 \kg $$ jumper) and increase the upward impulse, while landing on your back you cannot push and your soft body absorbs some of the energy.
 
 :::
 
@@ -262,6 +308,27 @@ times on your feet. In which case can you reach a greater height and why?
 Tennis racquets have “sweet spots.” If the ball hits a sweet spot then the
 player's arm is not jarred as much as it would be otherwise. Explain why this is
 the case.
+
+:::
+
+::: solution
+
+**Strategy**
+
+When the ball hits the racquet, it gives the racquet an impulse. Ask when this impulse makes the handle jerk and when it does not, considering both the racquet's translation and its rotation.
+
+**Solution**
+
+The ball delivers a large impulse to the racquet. For a $$ 0.058 \kg $$ ball arriving at $$ 30 \ms $$ and leaving at $$ 30 \ms $$ the other way, it is $$ (0.058 \kg)(60 \ms) = 3.5 \kg \cdot \ms $$, delivered in about $$ 0.005 \s $$, for an average force of about $$ (3.5 \kg \cdot \ms)/(0.005 \s) = 700 \N $$.
+
+This impulse tends to do two things to a racquet free to move:
+
+1. push the whole racquet backward (translation of its center of mass), and
+2. spin it about its center of mass, which moves the handle **forward**.
+
+For an impact at one particular point, the **sweet spot** (the center of percussion), these two motions cancel at the hand. The backward motion of the center of mass and the forward motion from rotation are equal at the grip, so the handle does not jerk, and the hand feels almost no impulse. For impacts closer to or farther from the hand, one effect wins, and the handle is jolted forward or backward, sending a sharp force of up to hundreds of newtons into the arm. (A second sweet spot reduces vibration: hitting at a node of the frame's main vibration excites little of it.)
+
+The arm is not jarred when the ball hits the sweet spot because, at that point, the impulse's tendency to push the racquet backward and its tendency to rotate the handle forward cancel at the hand, so the handle receives almost none of the roughly $$ 3.5 \kg \cdot \ms $$ impulse (an average force near $$ 700 \N $$).
 
 :::
 

@@ -414,6 +414,32 @@ The person in [Figure 3](#Figure3) does work on the lawn mower. Under what condi
 
 :::
 
+::: solution
+
+**Strategy**
+
+By the work-energy theorem, the mower's kinetic energy increases if the net work done on it is positive and decreases if it is negative. Take $$ +x $$ in the direction the mower moves. Compare the work done by the person's horizontal force component, $$ F\cos\theta $$, with the work done by friction.
+
+**Solution**
+
+The net work over a displacement $$ d $$ is
+
+<div class="equation">
+$$ W_{\text{net}} = Fd\cos\theta - fd = \Delta\KE $$
+</div>
+
+where $$ f $$ is the friction (and grass resistance) opposing the motion. The normal force and the weight are perpendicular to the motion and do no work. Suppose the person pushes with $$ F = 80 \N $$ at $$ \theta = 30° $$ below the horizontal over $$ d = 10 \m $$. The person does $$ (80 \N)(10 \m)\cos 30° = 693 \J $$ of work.
+
+- **The mower gains energy** if friction is smaller than the forward component of the push. With $$ f = 60 \N $$, $$ W_{\text{net}} = 693 \J - (60 \N)(10 \m) = +93 \J $$, so the mower speeds up.
+- **The mower loses energy** if friction is larger than the forward component of the push. In thicker grass, with $$ f = 75 \N $$, $$ W_{\text{net}} = 693 \J - 750 \J = -57 \J $$, so the mower slows down. It also loses energy if the person stops pushing ($$ F = 0 $$) or pulls back on it while it rolls forward.
+- **Its kinetic energy stays constant** when $$ F\cos\theta = f $$ (here $$ f = 69.3 \N $$), the case of steady mowing.
+
+Note that pushing down at a steep angle wastes effort: the downward component $$ F\sin\theta $$ presses the mower into the ground, increasing the normal force and therefore the friction.
+
+The mower gains energy when the net work on it is positive, that is, when the forward component of the push, $$ F\cos\theta $$, is larger than the friction force (for example, $$ +93 \J $$ over $$ 10 \m $$ for $$ 69.3 \N $$ forward against $$ 60 \N $$), and it loses energy when friction is the larger of the two or when the person stops pushing.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -424,6 +450,28 @@ Work done on a system puts energy into it. Work done by a system removes energy 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Choose a system and look for one example of an outside force doing positive work on it, and one example of the system exerting a force that does work on something outside it.
+
+**Solution**
+
+**Work done on a system.** You push a $$ 10 \kg $$ cart, initially at rest on a smooth level floor, with a horizontal force of $$ 50 \N $$ over $$ 4.0 \m $$. Take $$ +x $$ in the direction of the push. You do work
+
+<div class="equation">
+$$ W = Fd = (50 \N)(4.0 \m) = 200 \J $$
+</div>
+
+on the cart, and its kinetic energy increases from $$ 0 \J $$ to $$ 200 \J $$, so it moves at $$ \sqrt{2(200 \J)/(10 \kg)} = 6.3 \ms $$. Energy has gone into the system (the cart).
+
+**Work done by a system.** A moving hammer (the system) drives a nail into wood. The hammer exerts a force of about $$ 500 \N $$ on the nail while the nail moves $$ 0.020 \m $$ into the wood, so the hammer does $$ (500 \N)(0.020 \m) = 10 \J $$ of work on the nail. By Newton's third law the nail pushes back on the hammer, opposite to its motion, doing $$ -10 \J $$ of work on it, so the hammer loses $$ 10 \J $$ of kinetic energy. The energy goes into the nail and wood (mostly as thermal energy).
+
+Pushing a cart with $$ 50 \N $$ over $$ 4.0 \m $$ does $$ 200 \J $$ of work on it and gives it $$ 200 \J $$ of kinetic energy, while a hammer that does $$ 10 \J $$ of work on a nail loses $$ 10 \J $$ of its own kinetic energy.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -431,6 +479,26 @@ Work done on a system puts energy into it. Work done by a system removes energy 
 ::: problem
 
 When solving for speed in [Example 3](#example3), we kept only the positive root. Why?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Look at what the square root represents. Kinetic energy depends on $$ v^{2} $$, so solving for $$ v $$ gives two roots, $$ \pm\sqrt{2\KE/m} $$. Ask which one is physically meaningful in Example 3.
+
+**Solution**
+
+In Example 3 the final kinetic energy was $$ \tfrac{1}{2}mv^{2} = 95.75 \J $$ for a $$ 30.0 \kg $$ package, so
+
+<div class="equation">
+$$ v^{2} = \frac{2(95.75 \J)}{30.0 \kg} = 6.38 \mmss \quad \Rightarrow \quad v = \pm 2.53 \ms $$
+</div>
+
+Both roots satisfy the equation, because $$ (+2.53 \ms)^2 $$ and $$ (-2.53 \ms)^2 $$ are both $$ 6.38 \mmss $$. Kinetic energy depends only on the square of the speed, so it carries no information about direction. What we were solving for is the **speed**, the magnitude of the velocity, and a magnitude cannot be negative, so we keep $$ v = +2.53 \ms $$. The direction comes from the physical situation: the package moves in the direction it was pushed.
+
+We kept only the positive root because kinetic energy depends on $$ v^{2} $$ and gives only the speed, a magnitude that cannot be negative, so the package's speed is $$ 2.53 \ms $$ and its direction is the direction of the push.
 
 :::
 

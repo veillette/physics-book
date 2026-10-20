@@ -248,6 +248,22 @@ significantly more air resistance than the intact shell?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The explosion involves only internal forces, which cannot change the total momentum. Gravity is the only external force on the shell, before and after. Take $$ +x $$ horizontal and $$ +y $$ upward.
+
+**Solution**
+
+**With negligible air resistance:** the forces between the pieces in the explosion are internal, and they cancel in pairs. The only external force is gravity, which is the same total force, $$ Mg $$ downward, before and after the explosion, because the pieces have the same total mass $$ M $$. The center of mass therefore keeps accelerating at $$ 9.80 \mss $$ downward and **follows the same parabolic path** it would have followed had the shell not exploded. For example, if a $$ 3.0 \kg $$ shell is moving horizontally at $$ 20 \ms $$ when it explodes, the total horizontal momentum of the pieces remains $$ (3.0 \kg)(20 \ms) = 60 \kg \cdot \ms $$, and the center of mass keeps moving horizontally at $$ 20 \ms $$. (This holds until the first piece hits the ground, which adds an external force.)
+
+**With significant air resistance on the pieces:** air resistance is an external force. The pieces scatter in different directions, and the drag on each one points opposite to its own velocity. Several small pieces also have more surface area than the single shell. The total drag is then larger than on the intact shell, so the center of mass **slows down more quickly** and no longer follows the original path. Typically it falls short of where the intact shell would have landed.
+
+The explosion does not affect the motion of the center of mass if air resistance is negligible, because the explosive forces are internal and gravity is unchanged, so the center of mass continues on the original parabola (keeping, for example, its $$ 60 \kg \cdot \ms $$ of horizontal momentum), but if the pieces experience more air resistance than the intact shell, that larger external force slows the center of mass and changes its path.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -263,6 +279,26 @@ away from this position, and explain the physics involved.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Take the astronaut plus everything he carries as the system. With no external force, the total momentum stays zero, so he can move only by pushing some mass away from himself, as a rocket does.
+
+**Solution**
+
+The astronaut can **throw an object** he is carrying, such as a tool, a shoe, or a camera, in the direction opposite to the one in which he wants to move. Take $$ +x $$ in his desired direction. Initially the total momentum is $$ 0 \kg \cdot \ms $$. If the $$ 80 \kg $$ astronaut throws a $$ 1.0 \kg $$ tool at $$ 4.0 \ms $$ in the $$ -x $$ direction, momentum conservation gives
+
+<div class="equation">
+$$ 0 = (1.0 \kg)(-4.0 \ms) + (80 \kg)v \quad \Rightarrow \quad v = +0.050 \ms $$
+</div>
+
+He drifts away at $$ 5.0 \text{ cm/s} $$, covering $$ 1 \m $$ in $$ 20 \s $$. By Newton's third law, as he pushes the tool backward the tool pushes him forward. This is the same principle as rocket propulsion. He could also blow air hard in one direction, like a rocket exhaust, but the momentum of exhaled air is tiny, so this works much more slowly. Waving his arms or legs does not help: his center of mass stays where it is, because no mass leaves the system.
+
+The astronaut can move by throwing an object, such as a $$ 1.0 \kg $$ tool at $$ 4.0 \ms $$, in the opposite direction, because his total momentum must stay zero, so he recoils the other way (here at $$ 0.050 \ms $$), just as a rocket is propelled by its exhaust.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -275,6 +311,28 @@ It is possible for the velocity of a rocket to be greater than the exhaust
 velocity of the gases it ejects. When that is the case, the gas velocity and gas
 momentum are in the same direction as that of the rocket. How is the rocket
 still able to obtain thrust by ejecting the gases?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Analyze the ejection of a small mass of gas in the ground frame using conservation of momentum, and compare the gas's velocity before and after it is ejected. Take $$ +x $$ in the direction the rocket moves.
+
+**Solution**
+
+Before it is ejected, the gas is **part of the rocket**, moving forward with it at the rocket's speed. Thrust comes from **changing** the gas's momentum, not from the gas moving backward relative to the ground.
+
+Suppose the rocket moves at $$ v = 3000 \ms $$ and ejects gas at an exhaust speed of $$ v_{e} = 2000 \ms $$ relative to the rocket. Relative to the ground, the gas then moves **forward** at
+
+<div class="equation">
+$$ v_{\text{gas}} = v - v_{e} = 3000 \ms - 2000 \ms = +1000 \ms $$
+</div>
+
+The gas still moves forward, but **more slowly** than it did while inside the rocket. Each kilogram ejected has its momentum reduced from $$ (1 \kg)(3000 \ms) = 3000 \kg \cdot \ms $$ to $$ (1 \kg)(1000 \ms) = 1000 \kg \cdot \ms $$, a change of $$ -2000 \kg \cdot \ms $$. The rocket pushed backward on the gas to slow it, so by Newton's third law the gas pushes forward on the rocket. Total momentum is conserved, so the rocket gains $$ +2000 \kg \cdot \ms $$ for each kilogram of gas ejected. Only the exhaust velocity *relative to the rocket* matters, which is why the thrust, $$ (\Delta m/\Delta t)\,v_{e} $$, does not depend on the rocket's speed.
+
+The rocket still obtains thrust because it pushes the gas backward relative to itself, slowing the gas down (for example, from $$ 3000 \ms $$ to $$ 1000 \ms $$ forward in the ground frame), and by Newton's third law, or conservation of momentum, the momentum the gas loses (here $$ 2000 \kg \cdot \ms $$ per kilogram) is gained by the rocket.
 
 ::::
 

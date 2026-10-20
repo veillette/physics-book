@@ -258,6 +258,26 @@ Most electrical appliances are rated in watts. Does this rating depend on how lo
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the definition of power, $$ P = W/t $$ or $$ P = E/t $$: the rate at which energy is converted.
+
+**Solution**
+
+No. The wattage rating is a **power**, the rate at which the appliance converts electrical energy into other forms, in joules per second ($$ 1 \text{ W} = 1 \J/\s $$). It is fixed by the design of the appliance and does not depend on how long the appliance runs. A $$ 1200 \text{ W} $$ hair dryer uses $$ 1200 \J $$ every second it is on, whether it runs for $$ 1 \text{ min} $$ or $$ 10 \text{ min} $$.
+
+What does depend on the running time is the **energy** used, $$ E = Pt $$:
+
+<div class="equation">
+$$ E = (1200 \text{ W})(60 \s) = 7.2 \times 10^{4} \J \quad \text{in 1 min}, \qquad E = (1200 \text{ W})(600 \s) = 7.2 \times 10^{5} \J \quad \text{in 10 min} $$
+</div>
+
+The power rating does not depend on how long the appliance is on, because power is the rate of energy use (a $$ 1200 \text{ W} $$ dryer uses $$ 1200 \J $$ every second it runs); the time on determines only the total energy used, $$ E = Pt $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -268,6 +288,26 @@ Explain, in terms of the definition of power, why energy consumption is sometime
 
 :::
 
+::: solution
+
+**Strategy**
+
+From $$ P = E/t $$, energy is power times time, $$ E = Pt $$. A power unit multiplied by a time unit is therefore an energy unit. Convert the kilowatt-hour to joules.
+
+**Solution**
+
+Electrical energy is used at a rate given in kilowatts, and appliances run for hours, so multiplying power in kilowatts by time in hours gives a convenient energy unit, the kilowatt-hour. Its value in joules is
+
+<div class="equation">
+$$ 1 \text{ kW} \cdot \text{h} = (1000 \J/\s)(3600 \s) = 3.6 \times 10^{6} \J $$
+</div>
+
+A household might use $$ 900 \text{ kW} \cdot \text{h} $$ in a month. That is $$ 3.2 \times 10^{9} \J $$, an awkwardly large number. The kilowatt-hour also makes bills easy to check: a $$ 1.5 \text{ kW} $$ heater running for $$ 4.0 \text{ h} $$ uses $$ 6.0 \text{ kW} \cdot \text{h} $$ directly.
+
+Energy consumption is listed in kilowatt-hours because energy is power times time and household devices use kilowatts for hours, which makes the kilowatt-hour a convenient size, and $$ 1 \text{ kW} \cdot \text{h} = (1000 \J/\s)(3600 \s) = 3.6 \times 10^{6} \J $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -275,6 +315,26 @@ Explain, in terms of the definition of power, why energy consumption is sometime
 ::: problem
 
 A spark of static electricity, such as that you might receive from a doorknob on a cold dry day, may carry a few hundred watts of power. Explain why you are not injured by such a spark.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Power is the rate of energy transfer. Harm depends on how much energy is actually delivered, $$ E = Pt $$, so consider how long the spark lasts.
+
+**Solution**
+
+A static spark may carry a few hundred watts, say $$ 300 \text{ W} $$, but it lasts only about a microsecond, $$ t = 1 \times 10^{-6} \s $$. The energy delivered is
+
+<div class="equation">
+$$ E = Pt = (300 \text{ W})(1 \times 10^{-6} \s) = 3 \times 10^{-4} \J $$
+</div>
+
+That is a tiny amount of energy. For comparison, lifting a $$ 1 \text{ g} $$ paper clip by $$ 3 \text{ cm} $$ takes about $$ 3 \times 10^{-4} \J $$. It is enough to stimulate nerves, so you feel a sharp sting, but far too little to heat or damage tissue, and the current does not last long enough to disturb the heart. A $$ 300 \text{ W} $$ source sustained for many seconds would deliver thousands of joules and could cause serious injury.
+
+You are not injured by a static spark because, although its power is a few hundred watts, it lasts only about a microsecond, so it delivers only about $$ 3 \times 10^{-4} \J $$ of energy, far too little to damage tissue.
 
 :::
 

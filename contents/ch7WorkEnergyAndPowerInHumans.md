@@ -180,6 +180,32 @@ gravitational potential energy the same in both cases? Is your energy consumptio
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the force and power needed on a steep straight path and on a gentler zigzag path to the same summit. Then compare the change in gravitational potential energy and the total energy the body uses.
+
+**Solution**
+
+Consider a $$ 70 \kg $$ hiker climbing a height of $$ h = 500 \m $$. Take $$ +y $$ upward, so $$ \Delta\PE_{g} = mgh $$.
+
+**Why the zigzag is easier.** Walking at a steady speed up a slope of angle $$ \theta $$, the hiker must push against the component of gravity along the slope, $$ mg\sin\theta $$. On a $$ 30° $$ straight path that force is $$ (70 \kg)(9.80 \mss)\sin 30° = 343 \N $$. On a $$ 10° $$ zigzag it is only $$ (686 \N)\sin 10° = 119 \N $$. The zigzag path is longer, but each step needs a smaller force and the rate of climbing, and therefore the power, is lower. Walking at $$ 1.0 \ms $$ along the path, the rate of gaining potential energy is $$ (343 \N)(1.0 \ms) = 343 \text{ W} $$ on the straight path and $$ 119 \text{ W} $$ on the zigzag. Muscles can sustain the lower power for much longer.
+
+**Gravitational potential energy: the same.** It depends only on the change in height:
+
+<div class="equation">
+$$ \Delta\PE_{g} = mgh = (70 \kg)(9.80 \mss)(500 \m) = 3.4 \times 10^{5} \J $$
+</div>
+
+for either path.
+
+**Energy consumption: not the same.** The body is only about $$ 20\% $$ efficient, so climbing alone requires at least $$ (3.4 \times 10^{5} \J)/0.20 = 1.7 \times 10^{6} \J $$ of food energy. The zigzag path takes longer, and the body uses energy just to stay alive and walk (at a basal rate of about $$ 100 \text{ W} $$) during all that time, so the **total** consumed is usually somewhat **greater** on the zigzag path, even though it feels easier.
+
+It is easier to climb a mountain on a zigzag path because the gentler slope needs a smaller force and power (for example, $$ 119 \text{ W} $$ compared with $$ 343 \text{ W} $$ for a $$ 70 \kg $$ hiker at $$ 1.0 \ms $$); the increase in gravitational potential energy is the same on both paths ($$ 3.4 \times 10^{5} \J $$ for $$ 500 \m $$), but the energy consumed is somewhat greater on the zigzag because the longer climb takes more time.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -188,6 +214,28 @@ gravitational potential energy the same in both cases? Is your energy consumptio
 
 Do you do work on the outside world when you rub your hands together to warm them?
 What is the efficiency of this activity?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Work is done on the outside world only if a force moves an object outside your body. Identify where the energy goes when you rub your hands, and use the definition of efficiency, $$ \text{Eff} = W_{\text{out}}/E_{\text{in}} $$.
+
+**Solution**
+
+No, you do essentially **no work on the outside world**. Each hand does work on the other, against kinetic friction. If each hand pushes with a friction force of $$ 5.0 \N $$ while sliding $$ 0.10 \m $$, one stroke converts about $$ (5.0 \N)(0.10 \m) = 0.50 \J $$ into thermal energy. But both hands are part of your body, so this is internal work. The thermal energy ends up in your skin, which is exactly the goal.
+
+The useful output **to the outside world** is $$ W_{\text{out}} = 0 \J $$, so the efficiency as defined for doing work is
+
+<div class="equation">
+$$ \text{Eff} = \frac{W_{\text{out}}}{E_{\text{in}}} = \frac{0 \J}{E_{\text{in}}} = 0\% $$
+</div>
+
+All the food energy used, both by the muscles directly and through friction, becomes thermal energy in your body. For warming your hands, that is just what you want.
+
+Rubbing your hands together does no work on the outside world, because the friction forces act between parts of your own body, so the efficiency of the activity is $$ 0\% $$, with all the food energy used (about $$ 0.50 \J $$ of friction heating per stroke, plus the muscles' own heat) becoming thermal energy that warms your hands.
 
 :::
 
@@ -201,6 +249,26 @@ Shivering is an involuntary response to lowered body temperature. What is the ef
 
 :::
 
+::: solution
+
+**Strategy**
+
+Ask whether shivering does any work on the outside world, use $$ \text{Eff} = W_{\text{out}}/E_{\text{in}} $$, and consider what the body is trying to achieve.
+
+**Solution**
+
+Shivering is rapid, involuntary contraction of muscles that moves the body back and forth without moving anything outside it. The useful work done on the outside world is $$ W_{\text{out}} = 0 \J $$, so the efficiency is
+
+<div class="equation">
+$$ \text{Eff} = \frac{0 \J}{E_{\text{in}}} = 0\% $$
+</div>
+
+All of the food energy the muscles use is converted into thermal energy in the body. Shivering can raise the body's metabolic rate from a basal value of about $$ 100 \text{ W} $$ to $$ 300 \text{ W} $$ or more, producing $$ 200 \J $$ of extra heat each second. Since the purpose of shivering is to warm a cold body, this $$ 0\% $$ efficiency is exactly the desired value: every joule goes into heat rather than into work.
+
+The body's efficiency when shivering is $$ 0\% $$, because no work is done on the outside world and all the energy used (perhaps $$ 200 \text{ W} $$ above the basal rate) becomes thermal energy, and this is desirable because the purpose of shivering is to produce heat.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -211,6 +279,28 @@ Discuss the relative effectiveness of dieting and exercise in losing weight,
 noting that most athletic activities consume food energy at a rate of 400 to 500 W,
 while a single cup of yogurt can contain 1360 kJ (325 kcal). Specifically, is it likely that
 exercise alone will be sufficient to lose weight? You may wish to consider that regular exercise may increase the metabolic rate, whereas protracted dieting may reduce it.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare how long a typical exercise must last to use up the food energy in one cup of yogurt, $$ t = E/P $$, using the extra power that exercise requires.
+
+**Solution**
+
+Most athletic activities use food energy at $$ 400 \text{ to } 500 \text{ W} $$. Some of that, about $$ 100 \text{ W} $$, the body would use anyway at rest, so the **extra** energy used by exercising is roughly $$ 300 \text{ to } 400 \text{ W} $$. Take $$ 350 \text{ W} $$. Burning off one cup of yogurt, $$ 1360 \text{ kJ} $$, takes
+
+<div class="equation">
+$$ t = \frac{E}{P} = \frac{1.36 \times 10^{6} \J}{350 \J/\s} = 3.9 \times 10^{3} \s \approx 65 \text{ min} $$
+</div>
+
+An hour of hard exercise only offsets a single snack. To lose $$ 1 \kg $$ of fat, which stores about $$ 3.8 \times 10^{7} \J $$, takes about $$ (3.8 \times 10^{7} \J)/(350 \J/\s) = 1.1 \times 10^{5} \s $$, about $$ 30 \text{ h} $$ of exercise. Skipping that one yogurt a day, on the other hand, saves the same $$ 1360 \text{ kJ} $$ with no effort.
+
+So exercise **alone** is unlikely to be enough to lose much weight unless food intake is controlled too. A combination works best. Regular exercise may raise the metabolic rate for hours afterward and builds muscle, which uses energy even at rest. Prolonged dieting may lower the metabolic rate as the body adapts, reducing the effect of eating less.
+
+Exercise alone is unlikely to be sufficient for losing weight, because burning off the $$ 1360 \text{ kJ} $$ in one cup of yogurt takes about an hour of exercise at $$ 350 \text{ W} $$ above the resting rate, so cutting food intake is far more effective, while combining diet with exercise helps keep the metabolic rate up.
 
 :::
 

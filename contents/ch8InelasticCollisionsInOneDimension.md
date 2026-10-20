@@ -307,6 +307,30 @@ What is an inelastic collision? What is a perfectly inelastic collision?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Define each type by what happens to the internal kinetic energy, and illustrate with numbers.
+
+**Solution**
+
+An **inelastic collision** is one in which the **internal kinetic energy changes**, so kinetic energy is not conserved. Usually some is converted into thermal energy, sound, or deformation. (In an explosion-like collision, stored energy can instead add kinetic energy.) Momentum is still conserved if the net external force is zero.
+
+A **perfectly inelastic collision** is one in which the objects **stick together** and move with a common velocity afterward. This gives the largest possible loss of kinetic energy consistent with conservation of momentum.
+
+For example, take $$ +x $$ in the direction of motion. A $$ 2.0 \kg $$ ball of clay moving at $$ 3.0 \ms $$ hits a $$ 1.0 \kg $$ ball of clay at rest, and they stick:
+
+<div class="equation">
+$$ (2.0 \kg)(3.0 \ms) = (3.0 \kg)v' \quad \Rightarrow \quad v' = 2.0 \ms $$
+</div>
+
+The kinetic energy drops from $$ \tfrac{1}{2}(2.0 \kg)(3.0 \ms)^2 = 9.0 \J $$ to $$ \tfrac{1}{2}(3.0 \kg)(2.0 \ms)^2 = 6.0 \J $$. The $$ 3.0 \J $$ difference becomes thermal energy and deformation of the clay. A tennis ball hitting a racquet is an inelastic collision that is not perfectly inelastic: the ball bounces off but loses some kinetic energy.
+
+An inelastic collision is one in which the internal kinetic energy is not conserved, and a perfectly inelastic collision is one in which the objects stick together, losing as much kinetic energy as momentum conservation allows (for example, $$ 3.0 \J $$ of the $$ 9.0 \J $$ when two clay balls of $$ 2.0 \kg $$ and $$ 1.0 \kg $$ stick).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -317,6 +341,32 @@ Mixed-pair ice skaters performing in a show are standing motionless at arms leng
 
 :::
 
+::: solution
+
+**Strategy**
+
+Take the two skaters as the system. With no friction from the ice and the vertical forces balanced, the net external force is zero, so their total momentum is conserved. Take $$ +x $$ from one skater toward the other.
+
+**Solution**
+
+Before they move, both skaters are at rest, so the total momentum is
+
+<div class="equation">
+$$ p_{\text{tot}} = m_{1}(0 \ms) + m_{2}(0 \ms) = 0 \kg \cdot \ms $$
+</div>
+
+Pulling on each other's arms, they exert equal and opposite internal forces, which do not change the total momentum. As they pull together, they move toward each other with momenta that are equal and opposite. A $$ 50 \kg $$ skater moving at $$ +1.2 \ms $$ is matched by a $$ 75 \kg $$ skater moving at $$ -0.80 \ms $$, since $$ (50 \kg)(1.2 \ms) + (75 \kg)(-0.80 \ms) = 0 \kg \cdot \ms $$. When their bodies meet and they hold together, they move with a common velocity $$ v' $$, a perfectly inelastic collision:
+
+<div class="equation">
+$$ (m_{1} + m_{2})v' = 0 \kg \cdot \ms \quad \Rightarrow \quad v' = 0 \ms $$
+</div>
+
+Their center of mass never moved, and they meet there. The kinetic energy they gained from their arm muscles is converted into thermal energy and deformation when they collide.
+
+Their velocity after their bodies meet is zero, because the total momentum of the two skaters was zero before they started and no net external force acts on them, so it remains zero after they come together.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -324,6 +374,34 @@ Mixed-pair ice skaters performing in a show are standing motionless at arms leng
 ::: problem
 
 A small pickup truck that has a camper shell slowly coasts toward a red light with negligible friction. Two dogs in the back of the truck are moving and making various inelastic collisions with each other and the walls. What is the effect of the dogs on the motion of the center of mass of the system (truck plus entire load)? What is their effect on the motion of the truck?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Take the system to be the truck plus its entire load, including the dogs. The forces between the dogs and the truck are internal. Take $$ +x $$ in the direction the truck is coasting.
+
+**Solution**
+
+**Center of mass.** With negligible friction, the net external horizontal force on the system is zero. Gravity and the road's normal force are vertical and balance. So the total momentum, and therefore the velocity of the center of mass, is constant:
+
+<div class="equation">
+$$ v_{\text{cm}} = \frac{p_{\text{tot}}}{M_{\text{tot}}} = \text{constant} $$
+</div>
+
+The dogs have **no effect** on the motion of the center of mass, no matter how they run or collide.
+
+**The truck.** The truck itself does change speed slightly. When a $$ 20 \kg $$ dog runs forward, it pushes back on the truck bed, and the truck slows. When the dog hits the front wall and stops, it pushes the truck forward. Suppose the truck plus everything except the dog has mass $$ 2000 \kg $$. If the dog's velocity relative to the ground increases by $$ 3.0 \ms $$, momentum conservation requires the truck's velocity to change by
+
+<div class="equation">
+$$ \Delta v_{\text{truck}} = -\frac{(20 \kg)(3.0 \ms)}{2000 \kg} = -0.030 \ms $$
+</div>
+
+So the truck jerks back and forth by a few centimeters per second as the dogs move. On average these changes cancel, and the truck moves with the center of mass.
+
+The dogs have no effect on the motion of the center of mass of the truck-plus-load system, which keeps coasting at constant velocity because the dogs' forces are internal, but they make the truck itself speed up and slow down slightly (by about $$ 0.030 \ms $$ when a $$ 20 \kg $$ dog changes its speed by $$ 3.0 \ms $$) as they run and collide.
 
 :::
 

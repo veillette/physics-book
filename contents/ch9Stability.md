@@ -150,25 +150,19 @@ A round pencil lying on its side as in [Figure 4](#Figure4) is in neutral equili
 
 **Strategy**
 
-We analyze what happens to the pencil's center of gravity when it is displaced parallel to its length, and determine whether the resulting torque (if any) would restore it to its original position, move it further away, or have no effect.
+Classify equilibrium by what happens to the center of gravity (cg) after a small displacement: if it rises, gravity produces a restoring torque (stable); if it falls, gravity pushes the object farther away (unstable); if its height does not change, there is no torque (neutral).
 
 **Solution**
 
-A round pencil lying on a flat horizontal surface is also in **neutral equilibrium** for displacements parallel to its length.
+Slide or roll the pencil along its own length on a flat, level table. Take $$ +y $$ upward. Its cg moves horizontally but stays at the same height, the pencil's radius, about $$ 0.0035 \m $$ above the table. The normal force from the table stays directly below the cg, so the weight and the normal force act along the same vertical line and produce no torque. For a $$ 5.0 \text{ g} $$ pencil the gravitational potential energy changes by
 
-Here's why:
+<div class="equation">
+$$ \Delta\PE_{g} = mg\,\Delta y = (0.0050 \kg)(9.80 \mss)(0 \m) = 0 \J $$
+</div>
 
-- When the pencil is pushed along its length (parallel to its axis), the center of gravity (cg) moves horizontally but remains at the same height above the surface.
-- The pencil remains in contact with the surface, and the normal force continues to act directly below the cg.
-- Since the cg doesn't rise or fall, there is no gravitational potential energy change.
-- There is no restoring force or torque that would return the pencil to its original position.
-- There is also no force or torque that would push it further from its original position.
+for any displacement along its length. Nothing pushes the pencil back toward its original position, and nothing pushes it farther away. It simply stays wherever it is placed.
 
-The pencil simply stays wherever it is placed, which is the definition of neutral equilibrium.
-
-**Discussion**
-
-This analysis reveals that the pencil is in neutral equilibrium for any displacement along the flat surface—whether perpendicular or parallel to its length. This makes sense because the flat surface and round cross-section create a situation where the cg height is independent of position. Compare this to a marble on a flat surface, which is similarly in neutral equilibrium in all horizontal directions.
+A round pencil lying on its side is also in neutral equilibrium for displacements parallel to its length, because its center of gravity stays at the same height ($$ \Delta\PE_{g} = 0 \J $$), so no restoring or overturning torque arises.
 
 :::
 
@@ -186,19 +180,28 @@ Explain the need for tall towers on a suspension bridge to ensure stable equilib
 
 **Strategy**
 
-We model the bridge simply: two main cables hang between the tops of the towers, and the deck hangs from the cables by vertical suspenders. We ask how tower height affects (1) whether the deck's equilibrium is stable and (2) the forces the cables must carry.
+Model the bridge simply: the main cables hang from the tops of the towers, and the deck hangs from the cables. Ask how the tower height affects (1) where the load hangs relative to its supports and (2) the tension the cables must carry.
 
 **Solution**
 
-1. **The deck hangs below its supports.** The weight of the deck is carried by cables attached to the tops of the towers, well above the deck. A load suspended below its support points is in stable equilibrium, like a pendulum: if the deck is displaced sideways or lengthwise, it rises slightly, and gravity tends to bring it back. Tall towers make this arrangement possible while still leaving room for the cables to sag down to the deck.
+**1. The deck hangs below its supports.** The deck's weight is carried by cables attached to the tops of the towers, well above the deck. A load suspended below its points of support is in **stable** equilibrium, like a pendulum: if the deck is pushed sideways, its cg rises slightly, and gravity pulls it back. Tall towers make this arrangement possible while leaving room for the cables to sag down to the deck.
 
-2. **Sag keeps cable forces manageable.** For a cable carrying a uniform load $$ w $$ per unit length over a span $$ S $$ with sag $$ d $$ (the vertical drop from the tower tops to the lowest point of the cable), the horizontal component of the cable tension is approximately $$ H \approx wS^2/(8d) $$. Taller towers allow a larger sag for the same deck elevation, which reduces the cable tension and the horizontal pull on the anchorages. A cable with very little sag would need an enormous tension to carry the same load.
+**2. Sag keeps the cable tension manageable.** For a cable carrying a uniform load $$ w $$ per meter over a span $$ S $$ with a sag $$ d $$ (the drop from the tower tops to the lowest point of the cable), the horizontal component of the tension is approximately
 
-3. **What tower height does not do.** Raising the towers while keeping the deck at the same elevation does not lower the deck's center of gravity. Nor do longer suspenders give a stronger restoring force: in a simple pendulum model, the horizontal restoring stiffness of a hanging load is $$ mg/L $$, which *decreases* as the suspension length $$ L $$ increases. Resistance to wind-driven swaying and twisting comes mainly from the stiffness of the deck and its bracing, not from tower height.
+<div class="equation">
+$$ H \approx \frac{wS^{2}}{8d} $$
+</div>
 
-**Discussion**
+For a span of $$ 1000 \m $$ carrying $$ 1.0 \times 10^{5} \text{ N/m} $$:
 
-Tall towers are needed chiefly so that the main cables can sag enough to carry the deck with acceptable tensions while the deck hangs, in stable equilibrium, below its points of support. The famous collapse of the Tacoma Narrows Bridge in 1940 showed that hanging below the supports is not sufficient: the deck must also be stiff enough to resist wind-induced oscillations, leading to modern bridge designs that emphasize both vertical and torsional stiffness.
+- with $$ d = 100 \m $$ of sag: $$ H \approx (1.0 \times 10^{5} \text{ N/m})(1000 \m)^2/[8(100 \m)] = 1.3 \times 10^{8} \N $$
+- with only $$ d = 25 \m $$: $$ H \approx 5.0 \times 10^{8} \N $$, four times as large
+
+Taller towers allow more sag for the same deck height, so the cables and their anchors carry much smaller forces. A cable with almost no sag would need an enormous tension.
+
+Tower height alone does not make the deck rigid. The Tacoma Narrows Bridge collapse in 1940 showed that the deck must also be stiff enough to resist wind-driven twisting and swaying.
+
+A suspension bridge needs tall towers so that the deck can hang, in stable equilibrium, well below the cables' points of support, and so that the cables can sag enough to keep their tension manageable (about $$ 1.3 \times 10^{8} \N $$ with $$ 100 \m $$ of sag versus $$ 5.0 \times 10^{8} \N $$ with $$ 25 \m $$ in this example).
 
 :::
 

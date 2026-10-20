@@ -167,6 +167,28 @@ What is the difference between energy conservation and the law of conservation o
 
 :::
 
+::: solution
+
+**Strategy**
+
+Distinguish between the physical law (the total energy of an isolated system is constant) and the everyday practice (reducing the energy we use from sources such as fuels).
+
+**Solution**
+
+The **law of conservation of energy** is a law of physics: energy is never created or destroyed, only transferred or changed in form, so the total energy of an isolated system stays constant. It always holds. Examples:
+
+- A $$ 2.0 \kg $$ rock falling $$ 10 \m $$ converts $$ (2.0 \kg)(9.80 \mss)(10 \m) = 196 \J $$ of gravitational potential energy into $$ 196 \J $$ of kinetic energy (ignoring air resistance).
+- In a $$ 35\% $$ efficient power plant, every $$ 100 \J $$ of chemical energy in coal becomes $$ 35 \J $$ of electrical energy plus $$ 65 \J $$ of thermal energy: still $$ 100 \J $$ in total.
+
+**Energy conservation** is a practice: using less of our energy resources (fuels, electricity) to do the same tasks, by wasting less or improving efficiency. Energy is not destroyed when we waste it, but it ends up as low-temperature thermal energy that we cannot use again. Examples:
+
+- Replacing a $$ 60 \text{ W} $$ incandescent bulb with a $$ 9 \text{ W} $$ LED bulb giving the same light saves $$ 51 \text{ W} $$, or $$ (0.051 \text{ kW})(4 \text{ h}) = 0.20 \text{ kW} \cdot \text{h} $$ for 4 hours of use each day.
+- Insulating a house, carpooling, and turning off unused devices.
+
+The law of conservation of energy is a law of physics stating that the total energy of an isolated system never changes (a $$ 35\% $$ efficient plant still accounts for all $$ 100 \J $$ of every $$ 100 \J $$ it uses), whereas energy conservation is the practice of using less of our energy resources, for example by replacing a $$ 60 \text{ W} $$ bulb with a $$ 9 \text{ W} $$ LED.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -174,6 +196,28 @@ What is the difference between energy conservation and the law of conservation o
 ::: problem
 
 If the efficiency of a coal-fired electrical generating plant is 35%, then what do we mean when we say that energy is a conserved quantity?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the definition of efficiency and account for all of the energy that goes into the plant.
+
+**Solution**
+
+An efficiency of $$ 35\% $$ means that $$ 35\% $$ of the chemical energy released by burning the coal becomes **electrical energy**, the useful output. The other $$ 65\% $$ is not destroyed. It leaves the plant as **thermal energy**, mostly carried away in the cooling water and the hot exhaust gases, with a little lost as sound and through friction.
+
+For each $$ 1000 \J $$ of chemical energy in the coal:
+
+<div class="equation">
+$$ E_{\text{in}} = 1000 \J = \underbrace{350 \J}_{\text{electrical}} + \underbrace{650 \J}_{\text{thermal}} $$
+</div>
+
+The total energy is the same before and after: energy is **conserved**. The low efficiency means only that most of the energy ends up in a form, low-temperature heat, that we cannot easily use.
+
+Saying that energy is conserved means that all the chemical energy released by the coal is accounted for: in a $$ 35\% $$ efficient plant, each $$ 1000 \J $$ becomes $$ 350 \J $$ of electrical energy and $$ 650 \J $$ of thermal energy released to the surroundings, so none is created or destroyed.
 
 :::
 

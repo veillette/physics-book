@@ -228,6 +228,32 @@ What is an elastic collision?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+State the definition, then check it with a one-dimensional example in which both momentum and kinetic energy are conserved.
+
+**Solution**
+
+An **elastic collision** is one in which the **internal kinetic energy is conserved**: the total kinetic energy of the objects is the same after the collision as before. Momentum is also conserved, as in any collision of an isolated system. No kinetic energy is converted into thermal energy, sound, or permanent deformation.
+
+For example, a $$ 1.0 \kg $$ cart moving at $$ +2.0 \ms $$ hits an identical cart at rest, with frictionless magnetic bumpers. Take $$ +x $$ in the direction of the first cart's motion. Afterward the first cart stops and the second moves at $$ +2.0 \ms $$:
+
+<div class="equation">
+$$ p: \quad (1.0 \kg)(2.0 \ms) = (1.0 \kg)(0 \ms) + (1.0 \kg)(2.0 \ms) = 2.0 \kg \cdot \ms $$
+</div>
+
+<div class="equation">
+$$ \KE: \quad \tfrac{1}{2}(1.0 \kg)(2.0 \ms)^2 = 2.0 \J \text{ before and after} $$
+</div>
+
+Collisions of billiard balls, steel ball bearings, and air-track carts with spring or magnetic bumpers are nearly elastic. Collisions between atoms and molecules in a gas are often perfectly elastic.
+
+An elastic collision is one in which the total internal kinetic energy is conserved, along with momentum (for example, $$ 2.0 \J $$ and $$ 2.0 \kg \cdot \ms $$ before and after two identical carts collide and exchange velocities).
+
+::::
+
 </div>
 
 ### Problems &amp; Exercises

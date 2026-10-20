@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="352" viewBox="0 0 640 352" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagrams of the car at the top of the loop</title>
+<desc id="desc">Two free-body diagrams of the upside-down car at the top of the loop, with +x to the right and +y up; the center of the loop is below the car. (a) Faster than the speed at which gravity alone suffices: the track pushes down on the car with F track, adding to the weight w; both point toward the center. (b) Slower: the track (through the safety wheels) pushes up on the car with F track, smaller than w. In both cases the centripetal acceleration points down, toward the center.</desc>
+<rect width="640" height="352" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(a) faster than √(rg)</text>
+<g transform="translate(0 22)">
+<line x1="40" y1="180" x2="266" y2="180" stroke="#555555" stroke-width="1.5"/><polygon points="275,180 265,184.2 265,175.8" fill="#555555"/>
+<line x1="150" y1="310" x2="150" y2="59" stroke="#555555" stroke-width="1.5"/><polygon points="150,50 154.2,60 145.8,60" fill="#555555"/>
+<line x1="143" y1="180" x2="143" y2="214" stroke="#b03a2e" stroke-width="3.5"/><polygon points="143,225 137.96,213 148.04,213" fill="#b03a2e"/>
+<line x1="157" y1="180" x2="157" y2="249" stroke="#b03a2e" stroke-width="3.5"/><polygon points="157,260 151.96,248 162.04,248" fill="#b03a2e"/>
+<line x1="80" y1="80" x2="80" y2="109" stroke="#1e8449" stroke-width="3"/><polygon points="80,120 74.96,108 85.04,108" fill="#1e8449"/>
+<circle cx="150" cy="180" r="6" fill="#1f3a5f"/>
+<text x="140" y="156" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">car</text>
+<text x="291" y="186" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="40" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="77" y="224" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">track</tspan><tspan dy="-6"></tspan></text>
+<text x="169" y="255" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="92" y="115" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="225" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">center of loop ↓</text>
+</g>
+</g>
+<line x1="320" y1="10" x2="320" y2="342" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(320 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(b) slower than √(rg)</text>
+<g transform="translate(0 22)">
+<line x1="40" y1="180" x2="266" y2="180" stroke="#555555" stroke-width="1.5"/><polygon points="275,180 265,184.2 265,175.8" fill="#555555"/>
+<line x1="150" y1="310" x2="150" y2="59" stroke="#555555" stroke-width="1.5"/><polygon points="150,50 154.2,60 145.8,60" fill="#555555"/>
+<line x1="150" y1="180" x2="150" y2="156" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,145 155.04,157 144.96,157" fill="#b03a2e"/>
+<line x1="150" y1="180" x2="150" y2="249" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,260 144.96,248 155.04,248" fill="#b03a2e"/>
+<line x1="80" y1="80" x2="80" y2="109" stroke="#1e8449" stroke-width="3"/><polygon points="80,120 74.96,108 85.04,108" fill="#1e8449"/>
+<circle cx="150" cy="180" r="6" fill="#1f3a5f"/>
+<text x="140" y="156" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">car</text>
+<text x="291" y="186" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="40" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="162" y="164" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">track</tspan><tspan dy="-6"></tspan></text>
+<text x="162" y="255" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="92" y="115" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="225" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">center of loop ↓</text>
+</g>
+</g>
+</svg>

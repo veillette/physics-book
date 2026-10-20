@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Generate the free-body diagrams (SVG) used in the worked solutions of
- * chapters 4–6.
+ * chapters 4–6, plus those in the Conceptual Question answers through chapter 9.
  *
  * Each diagram is defined in scripts/fbd/chNN.js as a function that returns an
  * SVG string. Files are written to resources/fbd_CC_SS_pNN.svg, where CC is the
@@ -19,12 +19,13 @@ import { fileURLToPath } from 'url';
 import ch04 from './fbd/ch04.js';
 import ch05 from './fbd/ch05.js';
 import ch06 from './fbd/ch06.js';
+import ch09 from './fbd/ch09.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = path.join(root, 'resources');
 const filter = process.argv[2] || '';
 
-const diagrams = { ...ch04, ...ch05, ...ch06 };
+const diagrams = { ...ch04, ...ch05, ...ch06, ...ch09 };
 let count = 0;
 for (const [name, build] of Object.entries(diagrams)) {
   if (filter && !name.includes(filter)) continue;

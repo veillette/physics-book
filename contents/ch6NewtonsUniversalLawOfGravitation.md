@@ -453,6 +453,34 @@ Action at a distance, such as is the case for gravity, was once thought to be il
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Identify how physical theories are tested, then apply this to Newton's law of gravitation with a quantitative test.
+
+**Solution**
+
+The ultimate determinant of truth in physics is **experiment and observation**. A theory is accepted when its predictions agree with measurements, however strange its picture of the world may seem. Many thinkers in Newton's time objected that a force acting across empty space, with nothing touching, was illogical. Newton's law of gravitation was accepted because it worked.
+
+One of its first successes was the "Moon test." If gravity weakens as $$ 1/r^{2} $$, then at the Moon's distance, about 60.3 Earth radii, it should produce an acceleration of
+
+<div class="equation">
+$$ a = g\left(\frac{R_{E}}{r}\right)^{2} = (9.80 \mss)\left(\frac{1}{60.3}\right)^{2} = 2.70 \times 10^{-3} \mss $$
+</div>
+
+The Moon's measured centripetal acceleration, with $$ r = 3.84 \times 10^{8} \m $$ and $$ T = 27.3 \text{ d} = 2.36 \times 10^{6} \s $$, is
+
+<div class="equation">
+$$ a_{c} = \frac{4\pi^{2}r}{T^{2}} = \frac{4\pi^{2}(3.84 \times 10^{8} \m)}{(2.36 \times 10^{6} \s)^2} = 2.72 \times 10^{-3} \mss $$
+</div>
+
+in close agreement. The same law then explained Kepler's laws, the tides, and the motion of comets, and it predicted the return of Halley's comet in 1758 and led to the discovery of Neptune in 1846. Faced with such agreement, physicists accepted action at a distance. (Later, the field concept and general relativity gave a different picture of how gravity acts, which again had to pass experimental tests.)
+
+The ultimate determinant of truth in physics is agreement with experiment and observation, and action at a distance was accepted because Newton's law of gravitation correctly predicted measured motions, such as the Moon's centripetal acceleration of about $$ 2.7 \times 10^{-3} \mss $$, the planets' orbits, the tides, and the return of comets.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -460,6 +488,28 @@ Action at a distance, such as is the case for gravity, was once thought to be il
 :::: problem
 
 Two friends are having a conversation. Anna says a satellite in orbit is in freefall because the satellite keeps falling toward Earth. Tom says a satellite in orbit is not in freefall because the acceleration due to gravity is not $$ 9.80 \mss $$. Who do you agree with and why?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Use the definition of free fall: motion under the influence of gravity alone. Then check the value of $$ g $$ at a typical orbital altitude with Newton's law of gravitation.
+
+**Solution**
+
+Agree with **Anna**. An object is in free fall when **gravity is the only force** acting on it, whatever the value of the gravitational acceleration. A satellite in orbit has no thrust, no support, and essentially no air resistance, so it is in free fall. It falls toward Earth continuously, but it moves sideways fast enough that the ground curves away beneath it, so it keeps missing.
+
+Tom is right that the acceleration is not $$ 9.80 \mss $$, but that does not matter. From $$ g = GM/r^{2} $$, gravity weakens with distance from Earth's center. For the International Space Station, about $$ 400 \text{ km} $$ above the surface, $$ r = 6.77 \times 10^{6} \m $$:
+
+<div class="equation">
+$$ g = \frac{GM}{r^{2}} = \frac{(6.67 \times 10^{-11} \N \cdot \mm/\kg^{2})(5.98 \times 10^{24} \kg)}{(6.77 \times 10^{6} \m)^2} = 8.70 \mss $$
+</div>
+
+The station and the astronauts inside fall with this same acceleration, which is why they float relative to one another.
+
+Anna is right: the satellite is in free fall because gravity is the only force acting on it, and the fact that the gravitational acceleration at its altitude is smaller than $$ 9.80 \mss $$ (about $$ 8.70 \mss $$ at $$ 400 \text{ km} $$) does not change that.
 
 ::::
 
@@ -473,6 +523,34 @@ Draw a free body diagram for a satellite in an elliptical orbit showing why its 
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The only force on the satellite is gravity, directed toward the parent body. Split this force into a component along the velocity (which changes the speed) and a component perpendicular to it (which changes the direction).
+
+**Solution**
+
+![An elliptical orbit with the planet at one focus; the satellite moves counterclockwise. The only force on the satellite is gravity, pointing toward the planet. At a point where the satellite approaches the planet, the force has a component along the velocity (dashed), so the satellite speeds up. At a point where it moves away, the force has a component opposite the velocity, so it slows down.](../resources/concept_06_05_q03.svg)
+
+The free-body diagram has a single force, the gravitational force $$ F = GMm/r^{2} $$, always pointing toward the planet. On a circular orbit this force is always perpendicular to the velocity, so it changes only the direction of motion. On an ellipse it generally is not:
+
+- **Approaching the planet:** the force makes an angle of less than $$ 90° $$ with the velocity. Its component along $$ \vb{v} $$ points forward, so the satellite **speeds up**. Gravity does positive work on it.
+- **Moving away:** the force makes an angle of more than $$ 90° $$ with the velocity. Its component along $$ \vb{v} $$ points backward, so the satellite **slows down**. Gravity does negative work on it.
+- **At the closest and farthest points,** the force is perpendicular to the velocity, and the speed is at its maximum and minimum, respectively.
+
+The force is also strongest near the planet. For a $$ 1000 \kg $$ satellite at $$ r = 7.0 \times 10^{6} \m $$ from Earth's center,
+
+<div class="equation">
+$$ F = \frac{GMm}{r^{2}} = \frac{(6.67 \times 10^{-11} \N \cdot \mm/\kg^{2})(5.98 \times 10^{24} \kg)(1000 \kg)}{(7.0 \times 10^{6} \m)^2} = 8.1 \times 10^{3} \N $$
+</div>
+
+while at twice that distance it is only a quarter as large, $$ 2.0 \times 10^{3} \N $$.
+
+A satellite on an elliptical orbit speeds up as it approaches its parent body because the gravitational force, the only force on it, has a component along its velocity, and it slows down as it moves away because that component then points opposite to its velocity.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -480,6 +558,22 @@ Draw a free body diagram for a satellite in an elliptical orbit showing why its 
 :::: problem
 
 Newton’s laws of motion and gravity were among the first to convincingly demonstrate the underlying simplicity and unity in nature. Many other examples have since been discovered, and we now expect to find such underlying order in complex situations. Is there proof that such order will always be found in new explorations?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Distinguish between what has been found in the past and what can be proven about the future, using the unification Newton achieved as an example.
+
+**Solution**
+
+Newton showed that one law, $$ F = GMm/r^{2} $$, governs both an apple falling at $$ 9.80 \mss $$ near Earth's surface and the Moon, 60 times farther from Earth's center, accelerating at $$ (9.80 \mss)/60^{2} = 2.7 \times 10^{-3} \mss $$. Since then, many other unifications have been found: electricity, magnetism, and light in electromagnetism; heat as the random motion of molecules; and the electromagnetic and weak nuclear forces as two aspects of one interaction.
+
+There is **no proof**, however, that such order will always be found. Science works by induction: we generalize from a limited number of observations, and no number of past successes can logically guarantee future ones. Our expectation of underlying simplicity is a working assumption, strongly supported by experience, that guides research. It could fail in a new area. Today, for example, there is no accepted theory that unifies gravity with quantum mechanics, and the nature of dark matter and dark energy remains unknown.
+
+There is no proof that underlying order will always be found in new explorations; the expectation rests on the repeated success of unifications such as Newton's (one law explaining both the apple's $$ 9.80 \mss $$ and the Moon's $$ 2.7 \times 10^{-3} \mss $$), but past success cannot logically guarantee future discoveries.
 
 ::::
 

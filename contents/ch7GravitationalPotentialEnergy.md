@@ -324,6 +324,34 @@ In [Example 2](#example2), we calculated the final speed of a roller coaster tha
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply conservation of mechanical energy, $$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$, with no friction. Note that kinetic energy depends only on speed, not on direction, and that the change in gravitational potential energy depends only on the change in height.
+
+**Solution**
+
+Measure heights from the final point, with $$ +y $$ upward, so the start is at $$ h = 20.0 \m $$ and the end is at $$ 0 \m $$. With negligible friction, mechanical energy is conserved:
+
+<div class="equation">
+$$ \tfrac{1}{2}mv_{0}^{2} + mgh = \tfrac{1}{2}mv^{2} + 0 \quad \Rightarrow \quad v = \sqrt{v_{0}^{2} + 2gh} $$
+</div>
+
+The initial kinetic energy $$ \tfrac{1}{2}mv_{0}^{2} $$ is the **same** whether the $$ 5.00 \ms $$ is uphill or downhill, because kinetic energy depends on $$ v_{0}^{2} $$, not on direction.
+
+When the coaster coasts uphill, its kinetic energy turns into gravitational potential energy until it stops, about $$ (5.00 \ms)^2/[2(9.80 \mss)] = 1.28 \m $$ above the start. Rolling back down, it regains all of that energy. By the time it passes its starting point again, it is moving downhill at $$ 5.00 \ms $$, exactly the situation of the original example. It then descends the $$ 20.0 \m $$ to the end:
+
+<div class="equation">
+$$ v = \sqrt{(5.00 \ms)^2 + 2(9.80 \mss)(20.0 \m)} = \sqrt{25.0 \mmss + 392 \mmss} = 20.4 \ms $$
+</div>
+
+Only the starting and ending heights matter, because gravity is a conservative force: the energy stored going up is returned completely coming down.
+
+The final speed is still $$ 20.4 \ms $$ because, with no friction, the mechanical energy is conserved: the initial kinetic energy is the same for $$ 5.00 \ms $$ uphill or downhill, the extra climb stores energy that is fully returned on the way back down, and the net drop of $$ 20.0 \m $$ is the same in both cases.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -331,6 +359,29 @@ In [Example 2](#example2), we calculated the final speed of a roller coaster tha
 ::: problem
 
 Does the work you do on a book when you lift it onto a shelf depend on the path taken? On the time taken? On the height of the shelf? On the mass of the book?
+
+:::
+
+::: solution
+
+**Strategy**
+
+When you lift the book slowly (with no change in kinetic energy), the work you do equals the increase in its gravitational potential energy, $$ W = mgh $$. Check which quantities appear in that expression.
+
+**Solution**
+
+Take $$ +y $$ upward and lift a $$ 1.5 \kg $$ book from the floor onto a shelf $$ 2.0 \m $$ high, starting and ending at rest. The work you do is
+
+<div class="equation">
+$$ W = \Delta\PE_{g} = mgh = (1.5 \kg)(9.80 \mss)(2.0 \m) = 29 \J $$
+</div>
+
+- **Path:** No. Gravity is a conservative force, so the change in potential energy, and thus your work, depends only on the change in height. Lifting straight up or along a winding path both take $$ 29 \J $$ (neglecting any friction).
+- **Time:** No. Time does not appear in $$ mgh $$. Lifting the book in $$ 1 \s $$ or in $$ 10 \s $$ takes the same $$ 29 \J $$, although the power differs ($$ 29 \text{ W} $$ compared with $$ 2.9 \text{ W} $$).
+- **Height:** Yes. The work is proportional to $$ h $$. A shelf $$ 1.0 \m $$ high requires half as much, $$ 15 \J $$.
+- **Mass:** Yes. The work is proportional to $$ m $$. A $$ 3.0 \kg $$ book requires twice as much, $$ 59 \J $$.
+
+The work you do lifting a book onto a shelf, $$ W = mgh $$ ($$ 29 \J $$ for a $$ 1.5 \kg $$ book and a $$ 2.0 \m $$ shelf), does not depend on the path or on the time taken, but it is proportional to the height of the shelf and to the mass of the book.
 
 :::
 

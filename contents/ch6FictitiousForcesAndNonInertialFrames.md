@@ -147,6 +147,30 @@ When a toilet is flushed or a sink is drained, the water (and other material) be
 
 :::
 
+::: solution
+
+**Strategy**
+
+Analyze the motion in Earth's rotating frame, where the Coriolis force deflects moving objects to the right in the northern hemisphere. Apply it to water flowing inward from all sides toward the drain, then to water flowing outward.
+
+**Solution**
+
+Water moves toward the drain from all directions. In the northern hemisphere, Earth's rotation deflects each moving parcel of water **to the right** of its direction of motion. Water approaching from the south is deflected toward the east, water from the north toward the west, and so on. Each stream misses the drain slightly to its right, and together they swirl around it **counterclockwise** as seen from above. That is the same direction as the winds around a low-pressure center in a northern-hemisphere hurricane.
+
+The effect is tiny. The Coriolis acceleration is about $$ 2\Omega v \sin\lambda $$, where $$ \Omega = 7.29 \times 10^{-5} \rads $$ is Earth's angular velocity and $$ \lambda $$ is the latitude. For water moving at $$ v = 0.10 \ms $$ at latitude $$ 45° $$:
+
+<div class="equation">
+$$ a = 2(7.29 \times 10^{-5} \rads)(0.10 \ms)(\sin 45°) = 1.0 \times 10^{-5} \mss $$
+</div>
+
+That is about a millionth of $$ g $$, so in a real sink or toilet small leftover currents and the direction of the water jets nearly always decide the swirl.
+
+If water were forced **up** the drain, it would flow **outward** from the drain. Still deflected to the right, it would swirl **clockwise** as seen from above. Yes, the direction reverses, just as winds spiral clockwise out of a northern-hemisphere high-pressure region.
+
+The Coriolis effect of Earth's rotation deflects the water flowing toward the drain to the right in the northern hemisphere, so it rotates counterclockwise as seen from above (although the effect, about $$ 1 \times 10^{-5} \mss $$, is usually overwhelmed by other currents), and water forced up the drain would flow outward and rotate clockwise.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -154,6 +178,30 @@ When a toilet is flushed or a sink is drained, the water (and other material) be
 ::: problem
 
 Is there a real force that throws water from clothes during the spin cycle of a washing machine? Explain how the water is removed.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Describe the spin cycle in Earth's (nearly inertial) frame. Ask what force is needed to keep each drop of water moving in a circle, and what supplies it.
+
+**Solution**
+
+No, there is no real outward force. In the inertial frame, the clothes move in a circle because the wall of the drum pushes them **inward** with a normal force, the centripetal force. A drop of water in the fabric must also be pushed or pulled inward to stay on its circle. For a drum of radius $$ 0.25 \m $$ spinning at $$ 1000 \text{ rev/min} $$:
+
+<div class="equation">
+$$ \omega = 1000 \frac{\text{rev}}{\text{min}} \times \frac{2\pi \text{ rad}}{1 \text{ rev}} \times \frac{1 \text{ min}}{60 \s} = 105 \rads $$
+</div>
+
+<div class="equation">
+$$ a_{c} = r\omega^{2} = (0.25 \m)(105 \rads)^2 = 2.8 \times 10^{3} \mss \approx 280g $$
+</div>
+
+A $$ 1.0 \text{ g} $$ drop needs an inward force of $$ (0.0010 \kg)(2.8 \times 10^{3} \mss) = 2.8 \N $$. The only thing holding the drop is the weak adhesion between water and fibers, which cannot supply such a force. The drop therefore cannot follow the circle; it continues in a straight line, tangent to its circular path, and flies out through the holes in the drum wall. The clothes stay because the drum wall pushes them inward, but the wall has holes, and nothing pushes the water inward where it sits over a hole.
+
+There is no real force throwing the water outward; the drum wall pushes the clothes inward to keep them circling, but the water's adhesion to the fabric cannot provide the large centripetal force needed (about $$ 2.8 \N $$ for a $$ 1.0 \text{ g} $$ drop at $$ 280g $$), so the water moves off in a straight line through the holes in the drum.
 
 :::
 
@@ -167,6 +215,38 @@ In one amusement park ride, riders enter a large vertical barrel and stand again
 
 :::
 
+::: solution
+
+**Strategy**
+
+Describe the riders' motion in Earth's frame: they move in a horizontal circle at the wall, so their acceleration points toward the axis. Draw the free-body diagram with $$ +x $$ horizontally toward the axis and $$ +y $$ straight up.
+
+**Solution**
+
+![Free-body diagram with +x horizontally toward the axis of the barrel and +y up: the wall pushes the rider toward the axis with the normal force N along +x, which is the centripetal force; static friction from the wall f s points up and balances the weight w, which points down. The acceleration points toward the axis.](../resources/fbd_06_04_q03.svg){: .fbd}
+
+Three real forces act on each rider:
+
+1. **The normal force** $$ N $$ from the wall, pointing horizontally toward the axis. This is the centripetal force.
+2. **Static friction** $$ f_{s} $$ from the wall, pointing up along the wall.
+3. **The weight** $$ w = mg $$, pointing down.
+
+What pins the riders to the wall is the wall itself. By inertia each rider tends to move in a straight line, and the curving wall keeps getting in the way, pushing inward to change the direction of the rider's velocity. For a $$ 60 \kg $$ rider moving at $$ 9.0 \ms $$ in a barrel of radius $$ 2.5 \m $$:
+
+<div class="equation">
+$$ x: \quad N = m\frac{v^{2}}{r} = (60 \kg)\frac{(9.0 \ms)^2}{2.5 \m} = 1940 \N $$
+</div>
+
+<div class="equation">
+$$ y: \quad f_{s} - mg = 0 \quad \Rightarrow \quad f_{s} = (60 \kg)(9.80 \mss) = 588 \N $$
+</div>
+
+The large normal force makes a large static friction possible. The rider does not slide down as long as $$ \mu_{s} \ge (588 \N)/(1940 \N) = 0.30 $$. In the barrel's rotating frame, the riders explain the large wall force with an outward "centrifugal" force, but no such force exists in Earth's frame.
+
+In Earth's frame the riders are pinned because the wall pushes them toward the axis with a normal force that supplies the centripetal force (about $$ 1940 \N $$ for a $$ 60 \kg $$ rider at $$ 9.0 \ms $$ in a $$ 2.5 \m $$ barrel), and the real forces on each rider are this normal force, the upward static friction from the wall that balances the weight ($$ 588 \N $$), and the weight itself.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -174,6 +254,34 @@ In one amusement park ride, riders enter a large vertical barrel and stand again
 ::: problem
 
 Action at a distance, such as is the case for gravity, was once thought to be illogical and therefore untrue. What is the ultimate determinant of the truth in physics, and why was this action ultimately accepted?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Identify how physical theories are tested, then apply this to Newton's law of gravitation with a quantitative test.
+
+**Solution**
+
+The ultimate determinant of truth in physics is **experiment and observation**. A theory is accepted when its predictions agree with measurements, however strange its picture of the world may seem. Many thinkers in Newton's time objected that a force acting across empty space, with nothing touching, was illogical. Newton's law of gravitation was accepted because it worked.
+
+One of its first successes was the "Moon test." If gravity weakens as $$ 1/r^{2} $$, then at the Moon's distance, about 60.3 Earth radii, it should produce an acceleration of
+
+<div class="equation">
+$$ a = g\left(\frac{R_{E}}{r}\right)^{2} = (9.80 \mss)\left(\frac{1}{60.3}\right)^{2} = 2.70 \times 10^{-3} \mss $$
+</div>
+
+The Moon's measured centripetal acceleration, with $$ r = 3.84 \times 10^{8} \m $$ and $$ T = 27.3 \text{ d} = 2.36 \times 10^{6} \s $$, is
+
+<div class="equation">
+$$ a_{c} = \frac{4\pi^{2}r}{T^{2}} = \frac{4\pi^{2}(3.84 \times 10^{8} \m)}{(2.36 \times 10^{6} \s)^2} = 2.72 \times 10^{-3} \mss $$
+</div>
+
+in close agreement. The same law then explained Kepler's laws, the tides, and the motion of comets, and it predicted the return of Halley's comet in 1758 and led to the discovery of Neptune in 1846. Faced with such agreement, physicists accepted action at a distance. (Later, the field concept and general relativity gave a different picture of how gravity acts, which again had to pass experimental tests.)
+
+The ultimate determinant of truth in physics is agreement with experiment and observation, and action at a distance was accepted because Newton's law of gravitation correctly predicted measured motions, such as the Moon's centripetal acceleration of about $$ 2.7 \times 10^{-3} \mss $$, the planets' orbits, the tides, and the return of comets.
 
 :::
 
@@ -187,6 +295,28 @@ Two friends are having a conversation. Anna says a satellite in orbit is in free
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the definition of free fall: motion under the influence of gravity alone. Then check the value of $$ g $$ at a typical orbital altitude.
+
+**Solution**
+
+Agree with **Anna**. An object is in free fall when **gravity is the only force** acting on it, whatever the value of the gravitational acceleration. A satellite in orbit has no thrust, no support, and essentially no air resistance, so it is in free fall. It falls toward Earth continuously, but it moves sideways fast enough that the ground curves away beneath it, so it keeps missing.
+
+Tom is right that the acceleration is not $$ 9.80 \mss $$, but that does not matter. The value $$ 9.80 \mss $$ applies only near Earth's surface, and gravity weakens as $$ 1/r^{2} $$. For the International Space Station, about $$ 400 \text{ km} $$ above the surface, $$ r = 6.37 \times 10^{6} \m + 0.40 \times 10^{6} \m = 6.77 \times 10^{6} \m $$:
+
+<div class="equation">
+$$ g = (9.80 \mss)\left(\frac{6.37 \times 10^{6} \m}{6.77 \times 10^{6} \m}\right)^{2} = 8.68 \mss $$
+</div>
+
+The station and the astronauts inside fall with this same acceleration, which is why they float relative to one another.
+
+Anna is right: the satellite is in free fall because gravity is the only force acting on it, and the fact that the gravitational acceleration at its altitude is smaller than $$ 9.80 \mss $$ (about $$ 8.68 \mss $$ at $$ 400 \text{ km} $$) does not change that.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -194,6 +324,36 @@ Two friends are having a conversation. Anna says a satellite in orbit is in free
 ::: problem
 
 A non-rotating frame of reference placed at the center of the Sun is very nearly an inertial one. Why is it not exactly an inertial frame?
+
+:::
+
+::: solution
+
+**Strategy**
+
+An inertial frame is one that is not accelerating. Look for forces on the Sun that make it, and a frame attached to its center, accelerate.
+
+**Solution**
+
+The Sun is not exactly unaccelerated, for two main reasons.
+
+**1. The planets pull on the Sun.** By Newton's third law, every planet attracts the Sun just as the Sun attracts the planet. Jupiter has the largest effect. Its mass is $$ 1.90 \times 10^{27} \kg $$ and its distance is $$ 7.78 \times 10^{11} \m $$, so it gives the Sun an acceleration of
+
+<div class="equation">
+$$ a = \frac{GM_{J}}{r^{2}} = \frac{(6.67 \times 10^{-11} \N \cdot \mm/\kg^{2})(1.90 \times 10^{27} \kg)}{(7.78 \times 10^{11} \m)^2} = 2.1 \times 10^{-7} \mss $$
+</div>
+
+The Sun wobbles around the center of mass of the solar system.
+
+**2. The Sun orbits the center of the Milky Way.** It moves at about $$ 2.2 \times 10^{5} \ms $$ on a circle of radius about $$ 2.5 \times 10^{20} \m $$, with a centripetal acceleration of
+
+<div class="equation">
+$$ a_{c} = \frac{v^{2}}{r} = \frac{(2.2 \times 10^{5} \ms)^2}{2.5 \times 10^{20} \m} = 1.9 \times 10^{-10} \mss $$
+</div>
+
+Both accelerations are tiny, so for most purposes the Sun-centered frame is an excellent inertial frame, but neither is exactly zero.
+
+A non-rotating frame at the Sun's center is not exactly inertial because the Sun accelerates: the planets' gravity (mainly Jupiter's) gives it an acceleration of about $$ 2 \times 10^{-7} \mss $$, and it orbits the center of the galaxy with a centripetal acceleration of about $$ 2 \times 10^{-10} \mss $$.
 
 :::
 

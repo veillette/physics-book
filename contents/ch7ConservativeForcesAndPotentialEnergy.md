@@ -317,6 +317,22 @@ What is a conservative force?
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+State the definition, then test it with the work a force does around a closed path.
+
+**Solution**
+
+A **conservative force** is a force for which the work done on an object moving between two points depends only on the starting and ending points, **not on the path** taken. Equivalently, the work it does around any closed path is zero. Because of this, the work it does can be stored and fully recovered as **potential energy**.
+
+Gravity is an example. Lift a $$ 2.0 \kg $$ ball $$ 3.0 \m $$ and gravity does $$ -(2.0 \kg)(9.80 \mss)(3.0 \m) = -59 \J $$ of work on it. Let it fall back and gravity does $$ +59 \J $$. Around the closed path the total is $$ 0 \J $$. The ideal spring force is also conservative. Friction is not: sliding a box $$ 2.0 \m $$ across a floor and back against $$ 10 \N $$ of friction gives $$ (-10 \N)(2.0 \m) + (-10 \N)(2.0 \m) = -40 \J $$ around the closed path, energy that cannot be recovered.
+
+A conservative force is one whose work depends only on the starting and ending positions and not on the path, so that its work around any closed path is zero (gravity does $$ -59 \J $$ on the way up and $$ +59 \J $$ on the way down), allowing that work to be stored as potential energy.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -330,6 +346,30 @@ feet leave it.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The diving board acts like a spring, with elastic potential energy $$ \PE_{s} = \tfrac{1}{2}kx^{2} $$, where $$ x $$ is how far its end is bent from its unloaded position. Follow the deflection $$ x $$ through the dive.
+
+**Solution**
+
+![Sketch of the diving board's elastic potential energy versus time. It is zero before the swimmer steps on, rises as she walks out and the board bends under her weight, rises to a maximum when she drives the board down to its lowest point, and then decreases to zero as the board straightens and launches her, reaching zero when her feet leave the board.](../resources/concept_07_04_q02.svg)
+
+Take $$ x $$ positive downward, the direction the board bends. Suppose the board has an effective spring constant $$ k = 6000 \text{ N/m} $$ and the swimmer has a mass of $$ 60 \kg $$.
+
+1. **Before she steps on:** the board is straight, $$ x = 0 \m $$, so $$ \PE_{s} = 0 \J $$.
+2. **Standing at the end:** her weight, $$ (60 \kg)(9.80 \mss) = 588 \N $$, bends the board by $$ x = (588 \N)/(6000 \text{ N/m}) = 0.098 \m $$, so $$ \PE_{s} = \tfrac{1}{2}(6000 \text{ N/m})(0.098 \m)^2 = 29 \J $$.
+3. **Driving the board down:** she jumps and lands on the end, or bounces, and the board bends much farther, say to $$ x = 0.30 \m $$ at the lowest point. Her kinetic energy has gone into the board, and $$ \PE_{s} $$ reaches its **maximum**, $$ \tfrac{1}{2}(6000 \text{ N/m})(0.30 \m)^2 = 270 \J $$.
+4. **Launch:** the board springs back up, pushing her upward. Its potential energy decreases as it does work on her, turning into her kinetic and gravitational potential energy.
+5. **Feet leave the board:** the board is back at $$ x = 0 \m $$ (it then vibrates, but she has left), so $$ \PE_{s} = 0 \J $$ again.
+
+With negligible friction in the board, all the energy stored is returned to the swimmer.
+
+The diving board's potential energy starts at zero, increases as the swimmer steps on and bends it (about $$ 29 \J $$ while she stands at the end), reaches a maximum when she drives it to its lowest point (about $$ 270 \J $$), and decreases back to zero as the board straightens and launches her, just as her feet leave it.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -340,6 +380,34 @@ Define mechanical energy. What is the relationship of mechanical energy to nonco
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Define mechanical energy, then use the work-energy relation $$ W_{nc} = \Delta\KE + \Delta\PE $$ to relate it to nonconservative forces.
+
+**Solution**
+
+**Mechanical energy** is the sum of the kinetic energy and the potential energy of a system:
+
+<div class="equation">
+$$ \text{ME} = \KE + \PE $$
+</div>
+
+The work done by nonconservative forces, such as friction, air resistance, or a push from a person, equals the change in mechanical energy:
+
+<div class="equation">
+$$ W_{nc} = (\KE_{f} + \PE_{f}) - (\KE_{i} + \PE_{i}) = \Delta\text{ME} $$
+</div>
+
+Nonconservative forces can remove mechanical energy (friction usually does, turning it into thermal energy) or add it (a person pushing does). For example, a $$ 20 \kg $$ child slides down a $$ 3.0 \m $$ high slide, starting at rest and reaching the bottom at $$ 6.0 \ms $$. Measuring height from the bottom, with $$ +y $$ upward, the mechanical energy goes from $$ (20 \kg)(9.80 \mss)(3.0 \m) = 588 \J $$ to $$ \tfrac{1}{2}(20 \kg)(6.0 \ms)^2 = 360 \J $$, so friction did $$ W_{nc} = 360 \J - 588 \J = -228 \J $$ of work.
+
+If **only conservative forces** act, $$ W_{nc} = 0 \J $$, and mechanical energy is **conserved**: $$ \KE_{i} + \PE_{i} = \KE_{f} + \PE_{f} $$. On a frictionless slide, the child would reach the bottom with all $$ 588 \J $$ as kinetic energy, moving at $$ \sqrt{2(588 \J)/(20 \kg)} = 7.7 \ms $$.
+
+Mechanical energy is the sum of kinetic and potential energy, the work done by nonconservative forces equals its change ($$ W_{nc} = \Delta\text{ME} $$, for example $$ -228 \J $$ of work by friction on a slide), and if only conservative forces act, the mechanical energy stays constant.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -347,6 +415,34 @@ Define mechanical energy. What is the relationship of mechanical energy to nonco
 :::: problem
 
 What is the relationship of potential energy to conservative force?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Potential energy is defined only for conservative forces. Relate the change in potential energy to the work the conservative force does.
+
+**Solution**
+
+Potential energy is the energy associated with the **position or configuration** of a system that is acted on by a conservative force. The change in potential energy equals the **negative** of the work done by the conservative force:
+
+<div class="equation">
+$$ \Delta\PE = -W_{c} $$
+</div>
+
+When the conservative force does positive work, the potential energy decreases. When it does negative work, the potential energy increases, storing energy that can be recovered. This is possible only because the force's work is independent of the path; for friction no potential energy can be defined.
+
+For a spring with $$ k = 200 \text{ N/m} $$ compressed by $$ x = 0.10 \m $$, the spring force does negative work during the compression, and the potential energy stored is
+
+<div class="equation">
+$$ \PE_{s} = \tfrac{1}{2}kx^{2} = \tfrac{1}{2}(200 \text{ N/m})(0.10 \m)^2 = 1.0 \J $$
+</div>
+
+When the spring is released, its force does $$ +1.0 \J $$ of work and the potential energy returns to $$ 0 \J $$. For gravity near Earth's surface, $$ \Delta\PE_{g} = mgh $$.
+
+Potential energy is the stored energy associated with a conservative force, and its change is the negative of the work the conservative force does ($$ \Delta\PE = -W_{c} $$; for example, compressing a $$ 200 \text{ N/m} $$ spring by $$ 0.10 \m $$ stores $$ 1.0 \J $$), which is possible only for forces whose work does not depend on the path.
 
 ::::
 
