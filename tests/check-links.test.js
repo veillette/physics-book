@@ -191,4 +191,22 @@ External link: [Wikipedia](https://en.wikipedia.org)
       expect(checker.stats.brokenLinks).toBe(before + 1);
     });
   });
+
+  describe('extractLinks — math', () => {
+    it('should not treat LaTeX brackets inside $$…$$ as links', () => {
+      const content = 'Energy $$Q=[4(1.007825)-4.002603](931.5)\\text{ MeV}$$ and [real](a.md).';
+      const links = checker.extractLinks(content);
+      expect(links).toHaveLength(1);
+      expect(links[0].url).toBe('a.md');
+    });
+  });
+
+  describe('checkInternalLink — relative paths', () => {
+    it('should resolve bare relative paths against the linking file', async () => {
+      const link = { text: 'CSV', url: 'ch01-10-exercise-coverage.csv', type: 'markdown', line: 1 };
+      const before = checker.stats.brokenLinks;
+      await checker.checkInternalLink(link, 'doc/ch01-10-exercise-review.md');
+      expect(checker.stats.brokenLinks).toBe(before);
+    });
+  });
 });

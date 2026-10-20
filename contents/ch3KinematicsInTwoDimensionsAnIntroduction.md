@@ -133,7 +133,7 @@ in [Vector Addition and Subtraction: Graphical Methods](./ch3VectorAdditionAndSu
 and [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 . We will find such techniques to be useful in many areas of physics.
 
-:::: note {"class":"note","data-label":"PhET Exploration"}
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
 
 <div class="title">
  Ladybug Motion 2D
@@ -148,7 +148,7 @@ and playback the motion to analyze the behavior.
 <figcaption>
 Ladybug Motion 2D
 </figcaption>
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/ladybug-motion-2d/latest/ladybug-motion-2d.html?simulation=ladybug-motion-2d" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://openlyceum.github.io/LadyBug/" width="600" height="450"  allowfullscreen></iframe>
 
 :::
 

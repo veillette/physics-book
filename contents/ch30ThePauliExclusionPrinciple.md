@@ -590,7 +590,7 @@ substructure of atoms.
 ::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
 
 <div class="title">
-PhET Explorations: Stern-Gerlach Experiment
+PhET Explorations: Build an Atom
 </div>
 
 Build an atom out of protons, neutrons, and electrons, and see how the element, charge, and mass change. Then play a game to test your ideas!

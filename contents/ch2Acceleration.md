@@ -486,7 +486,7 @@ If we take east to be positive, then the airplane has negative acceleration, as 
 
 </div>
 
-:::: note {"class":"note","data-label":"PhET Exploration"}
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
 
 <div class="title">
  Moving Man Simulation
@@ -497,7 +497,7 @@ Learn about position, velocity, and acceleration graphs. Move the little man bac
 ::: figure {}
 
 <div class="figure">
-<iframe loading="lazy" src="https://veillette.github.io/simulations/moving-man/" width="750" height="500"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://openlyceum.github.io/MovingMan/" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Moving Man
 </figcaption>

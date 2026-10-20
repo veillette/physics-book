@@ -606,8 +606,7 @@ spring constant and displacement.
 
 ::: figure {}
 
-<iframe loading="lazy" src="https://phet.colorado.
-edu/sims/html/hookes-law/latest/hookes-law_en.html" width="600"
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_en.html" width="600"
 height="450"  allowfullscreen></iframe>
 <figcaption>
 Hooke's Law

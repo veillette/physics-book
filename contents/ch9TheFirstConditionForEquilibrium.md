@@ -72,8 +72,7 @@ Investigate how torque causes an object to rotate. Discover the relationships be
 <figcaption>
 Torque
 </figcaption>
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/rotation/latest/rotation.
-html?simulation=torque" width="800" height="600"
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/rotation/latest/rotation.html?simulation=torque" width="800" height="600"
 allowfullscreen></iframe>
 
 :::

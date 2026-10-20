@@ -370,8 +370,7 @@ constants are adjusted. View the curves for the individual terms (e.g.  $$ y=b x
 
 ::: figure {}
 
-<iframe loading="lazy" src="https://phet.colorado.
-edu/sims/html/graphing-quadratics/latest/graphing-quadratics_en.html"
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/graphing-quadratics/latest/graphing-quadratics_en.html"
 width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 Graphing Quadratics
