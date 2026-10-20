@@ -180,7 +180,6 @@ conservation of mechanical energy can be used. Thus,
 
 <div class="equation">
 $$
-
 \KE_{\text{i}}+\PE_{\text{i}}=
 \KE_{\text{f}}+\PE_{\text{f}} $$
 

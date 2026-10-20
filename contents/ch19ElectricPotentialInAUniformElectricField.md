@@ -67,7 +67,6 @@ The charge cancels, and so the voltage between points A and B is seen to be
 
 <div class="equation" >
 $$
-
 \begin{array}{c}
 \begin{array}{c}
 V_\text{AB}=Ed \\
