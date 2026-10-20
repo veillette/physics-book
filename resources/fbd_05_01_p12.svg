@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="370" viewBox="0 0 440 370" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of an object resting on an incline</title>
+<desc id="desc">Free-body diagram with tilted axes: +x down the slope and +y perpendicular to the slope, away from it. Normal force N along +y, static friction f s up the slope (along -x) equal in length to the weight component mg sin theta along +x, weight w straight down with dashed components mg sin theta and mg cos theta. a = 0.</desc>
+<rect width="440" height="370" fill="#ffffff"/>
+<line x1="90.1" y1="100" x2="359.43" y2="255.5" stroke="#555555" stroke-width="1.5"/><polygon points="367.22,260 356.46,258.64 360.66,251.36" fill="#555555"/>
+<line x1="150" y1="296.24" x2="285.5" y2="61.55" stroke="#555555" stroke-width="1.5"/><polygon points="290,53.76 288.64,64.52 281.36,60.32" fill="#555555"/>
+<line x1="48.46" y1="92.12" x2="377.54" y2="282.12" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 188 230.43 A 64 64 0 0 0 220 239" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="220" y1="175" x2="258.11" y2="197" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="267.63,202.5 254.72,200.86 259.76,192.14" fill="#c0675e"/>
+<line x1="220" y1="175" x2="177.87" y2="247.97" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="172.37,257.5 174,244.59 182.73,249.63" fill="#c0675e"/>
+<line x1="220" y1="175" x2="262.13" y2="102.03" stroke="#b03a2e" stroke-width="3.5"/><polygon points="267.63,92.5 266,105.41 257.27,100.37" fill="#b03a2e"/>
+<line x1="220" y1="175" x2="220" y2="274" stroke="#b03a2e" stroke-width="3.5"/><polygon points="220,285 214.96,273 225.04,273" fill="#b03a2e"/>
+<line x1="222" y1="171.54" x2="183.89" y2="149.54" stroke="#b03a2e" stroke-width="3.5"/><polygon points="174.37,144.04 187.28,145.67 182.24,154.4" fill="#b03a2e"/>
+<circle cx="220" cy="175" r="6" fill="#1f3a5f"/>
+<text x="270" y="153" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">object</text>
+<text x="381.08" y="274" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="298" y="45.9" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="278.63" y="80.38" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="236" y="280" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="276.29" y="238.5" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="113.37" y="280.09" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="162.24" y="137.04" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">s</tspan><tspan dy="-6"></tspan></text>
+<text x="191.44" y="258.42" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="100" y="71" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="360" viewBox="0 0 440 360" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the bobsled on a turn banked at 75 degrees</title>
+<desc id="desc">Free-body diagram with +x horizontally toward the center of the turn and +y up: normal force N tilted 75 degrees from the vertical toward the center, nearly horizontal, with dashed components N sin theta along +x and N cos theta along +y; a short weight w down. No friction. The acceleration points toward the center.</desc>
+<rect width="440" height="360" fill="#ffffff"/>
+<line x1="20" y1="200" x2="391" y2="200" stroke="#555555" stroke-width="1.5"/><polygon points="400,200 390,204.2 390,195.8" fill="#555555"/>
+<line x1="200" y1="330" x2="200" y2="59" stroke="#555555" stroke-width="1.5"/><polygon points="200,50 204.2,60 195.8,60" fill="#555555"/>
+<line x1="227.23" y1="347.99" x2="144.41" y2="38.9" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 257.96 184.47 A 60 60 0 0 0 200 140" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="200" y1="200" x2="338.28" y2="200" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="349.28,200 337.28,205.04 337.28,194.96" fill="#c0675e"/>
+<line x1="194" y1="200" x2="194" y2="171" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="194,160 199.04,172 188.96,172" fill="#c0675e"/>
+<line x1="200" y1="200" x2="338.66" y2="162.85" stroke="#b03a2e" stroke-width="3.5"/><polygon points="349.28,160 339,167.97 336.39,158.24" fill="#b03a2e"/>
+<line x1="200" y1="200" x2="200" y2="229" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,240 194.96,228 205.04,228" fill="#b03a2e"/>
+<line x1="270" y1="305" x2="304" y2="305" stroke="#1e8449" stroke-width="3"/><polygon points="315,305 303,310.04 303,299.96" fill="#1e8449"/>
+<circle cx="200" cy="200" r="6" fill="#1f3a5f"/>
+<text x="188" y="256" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">bobsled</text>
+<text x="30" y="260" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="start">outside</text>
+<text x="370" y="260" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="end">center →</text>
+<text x="416" y="206" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="200" y="40" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="366.8" y="163.38" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="373.28" y="229" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="186" y="177" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="end" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="212" y="235" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="245.05" y="146.89" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="301" y="293" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</svg>

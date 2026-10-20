@@ -552,16 +552,22 @@ Given:
 - Breeze force (horizontal): $$ F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
 - Weight: $$ w = mg = (6.00 \times 10^{-7})(9.80) = 5.88 \times 10^{-6} \N $$
 
+**Free-body diagram**
+
+![Free-body diagram of the flea with +x in the direction of the breeze and +y up: F sub ground up, weight w down, small F sub breeze to the right. The acceleration points up and slightly to the right.](../resources/fbd_04_07_p01.svg){: .fbd}
+
+Take $$ +x $$ in the direction of the breeze and $$ +y $$ upward. $$ F_{\text{ground}} $$ (the ground's reaction to the flea's push) is along $$ +y $$, $$ w $$ along $$ -y $$, and $$ F_{\text{breeze}} $$ along $$ +x $$.
+
 **Vertical forces:**
 
 <div class="equation">
-$$ F_{y} = F_{\text{ground}} - w = 1.20 \times 10^{-5} - 5.88 \times 10^{-6} = 6.12 \times 10^{-6} \N $$
+$$ F_{y} = \sum F_y = F_{\text{ground}} - w = 1.20 \times 10^{-5} - 5.88 \times 10^{-6} = 6.12 \times 10^{-6} \N $$
 </div>
 
 **Horizontal forces:**
 
 <div class="equation">
-$$ F_{x} = F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
+$$ F_{x} = \sum F_x = F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
 </div>
 
 **Acceleration components:**
@@ -614,23 +620,26 @@ The two forces are symmetric, each making a 20° angle with the vertical. Use ve
 
 **Solution**
 
-1. Identify the forces:
+1. Identify the forces, with $$ +x $$ to the right and $$ +y $$ upward:
+
+   ![Forces on the Achilles tendon with +x to the right and +y up: F sub 1 up and 20 degrees right of +y, F sub 2 up and 20 degrees left of +y, with dashed horizontal components F sub 1x along +x and F sub 2x along -x.](../resources/fbd_04_07_p02.svg){: .fbd}
+
    - $$ F_1 = 200 \N $$ at 20° to the right of vertical
    - $$ F_2 = 200 \N $$ at 20° to the left of vertical
 
 2. Find the components of each force:
-   - $$ F_{1x} = 200 \sin(20°) = 200 \times 0.342 = 68.4 \N $$ (right)
-   - $$ F_{1y} = 200 \cos(20°) = 200 \times 0.940 = 188 \N $$ (up)
-   - $$ F_{2x} = 200 \sin(20°) = 68.4 \N $$ (left)
-   - $$ F_{2y} = 200 \cos(20°) = 188 \N $$ (up)
+   - $$ F_{1x} = +200 \sin(20°) = +200 \times 0.342 = +68.4 \N $$ (along $$ +x $$)
+   - $$ F_{1y} = +200 \cos(20°) = +200 \times 0.940 = +188 \N $$ (along $$ +y $$)
+   - $$ F_{2x} = -200 \sin(20°) = -68.4 \N $$ (along $$ -x $$)
+   - $$ F_{2y} = +200 \cos(20°) = +188 \N $$ (along $$ +y $$)
 
 3. Add the components:
 <div class="equation">
-$$ F_{total,x} = 68.4 \N - 68.4 \N = 0 $$
+$$ F_{total,x} = F_{1x} + F_{2x} = 68.4 \N - 68.4 \N = 0 $$
 </div>
 
 <div class="equation">
-$$ F_{total,y} = 188 \N + 188 \N = 376 \N $$
+$$ F_{total,y} = F_{1y} + F_{2y} = 188 \N + 188 \N = 376 \N $$
 </div>
 
 4. The total force is:
@@ -677,20 +686,25 @@ Given:
 
 **Free-body diagram:**
 
-![An object of mass m is shown being pulled by two ropes. Tension T sub two acts toward the right at an angle of ten degrees above the horizontal. Another rope makes an angle fifteen degrees to the left of the vertical direction, and tension in the rope is T sub one, shown by a vector arrow. Weight w is acting vertically downward.](../resources/Figure_04_07_05.jpg){: #Figure5 height="200"}
+![Free-body diagram of the person with +x to the right and +y up: T sub 1 up and to the left at 15 degrees from +y, T sub 2 to the right at 10 degrees above +x, weight w down; dashed components of T sub 1 are T sub 1 sine 15 degrees along -x and T sub 1 cosine 15 degrees along +y. a equals zero.](../resources/fbd_04_07_p03.svg){: .fbd #Figure5}
+
+With $$ +x $$ to the right and $$ +y $$ upward, the components are:
+- $$ T_1 $$: $$ (-T_1\sin 15°,\ +T_1\cos 15°) $$, since it is measured from the vertical
+- $$ T_2 $$: $$ (+T_2\cos 10°,\ +T_2\sin 10°) $$, since it is measured from the horizontal
+- $$ w $$: $$ (0,\ -w) $$
 
 **Equilibrium equations:**
 
-Horizontal (taking right as positive):
+Horizontal:
 
 <div class="equation">
-$$ T_2\cos(10°) - T_1\sin(15°) = 0 $$
+$$ \sum F_x = T_2\cos(10°) - T_1\sin(15°) = 0 $$
 </div>
 
-Vertical (taking up as positive):
+Vertical:
 
 <div class="equation">
-$$ T_1\cos(15°) + T_2\sin(10°) - w = 0 $$
+$$ \sum F_y = T_1\cos(15°) + T_2\sin(10°) - w = 0 $$
 </div>
 
 From the horizontal equation:
@@ -772,14 +786,20 @@ First calculate the acceleration (deceleration) using kinematics, then apply New
 $$ a = \frac{v - v_0}{t} = \frac{7.50 \ms - 12.0 \ms}{2.30 \s} = \frac{-4.50 \ms}{2.30 \s} = -1.9565 \mss $$
 </div>
 
-3. Apply Newton's second law:
+3. Draw the free-body diagram, with $$ +x $$ in the direction of motion and $$ +y $$ upward:
+
+   ![Free-body diagram of the dolphin with +x in the direction of motion and +y up: drag force F to the left, buoyant force F sub B up, weight w down; the acceleration points to the left.](../resources/fbd_04_07_p04.svg){: .fbd}
+
+   The buoyant force and the weight cancel ($$ \sum F_y = F_B - w = 0 $$). The only horizontal force is the water's force $$ F $$, along $$ -x $$.
+
+4. Apply Newton's second law along $$ x $$:
 <div class="equation">
-$$ F = ma = (35.0 \kg)(-1.9565 \mss) = -68.5 \N $$
+$$ \sum F_x = -F = ma_x \quad \Rightarrow \quad F = -ma_x = -(35.0 \kg)(-1.9565 \mss) = 68.5 \N $$
 </div>
 
 **Discussion**
 
-The negative sign indicates the force is opposite to the direction of motion (i.e., a drag force slowing the dolphin). Keeping the unrounded acceleration matters here: rounding it to 1.96 m/s² first would give 68.6 N. The magnitude of 68.5 N is reasonable for water resistance on a dolphin at these speeds.
+The negative acceleration $$ a_x $$ and the force along $$ -x $$ both indicate that the force is opposite to the direction of motion (a drag force slowing the dolphin). Keeping the unrounded acceleration matters here: rounding it to 1.96 m/s² first would give 68.6 N. The magnitude of 68.5 N is reasonable for water resistance on a dolphin at these speeds.
 
 The average force exerted to slow the dolphin is $$ 68.5 \N $$ in the direction opposite to motion.
 
@@ -816,12 +836,18 @@ Given:
 
 By Newton's third law, ground force on sprinter (forward): $$ F = 650 \N $$
 
+**Free-body diagram**
+
+![Free-body diagram of the sprinter with +x forward and +y up: forward force from the ground F to the right, normal force N up, weight w down; the acceleration points to the right.](../resources/fbd_04_07_p05.svg){: .fbd}
+
+With $$ +x $$ forward and $$ +y $$ upward, $$ N $$ and $$ w $$ cancel, and $$ F $$ is the only force along $$ x $$.
+
 **(a) Final speed:**
 
 Acceleration:
 
 <div class="equation">
-$$ a = \frac{F}{m} = \frac{650}{70.0} = 9.29 \mss $$
+$$ a_x = \frac{\sum F_x}{m} = \frac{F}{m} = \frac{650}{70.0} = 9.29 \mss $$
 </div>
 
 Final velocity:
@@ -878,18 +904,21 @@ For part (a), apply Newton's second law considering both thrust (upward) and wei
 
 **(a) Initial acceleration:**
 
-1. Identify the forces on the rocket:
-   - Thrust: $$ F_T = 3.50 \times 10^7 \N $$ (upward)
-   - Weight: $$ w = mg = (2.00 \times 10^6 \kg)(9.80 \mss) = 1.96 \times 10^7 \N $$ (downward)
+1. Identify the forces on the rocket, with $$ +y $$ upward:
+
+   ![Free-body diagram of the rocket with +x to the right and +y up: thrust F sub T up, weight w down; the acceleration points up.](../resources/fbd_04_07_p06.svg){: .fbd}
+
+   - Thrust: $$ F_T = 3.50 \times 10^7 \N $$, along $$ +y $$
+   - Weight: $$ w = mg = (2.00 \times 10^6 \kg)(9.80 \mss) = 1.96 \times 10^7 \N $$, along $$ -y $$
 
 2. Calculate the net force:
 <div class="equation">
-$$ F_{net} = F_T - w = 3.50 \times 10^7 \N - 1.96 \times 10^7 \N = 1.54 \times 10^7 \N $$
+$$ \sum F_y = F_T - w = 3.50 \times 10^7 \N - 1.96 \times 10^7 \N = 1.54 \times 10^7 \N $$
 </div>
 
 3. Apply Newton's second law:
 <div class="equation">
-$$ a = \frac{F_{net}}{m} = \frac{1.54 \times 10^7 \N}{2.00 \times 10^6 \kg} = 7.70 \mss $$
+$$ a_y = \frac{\sum F_y}{m} = \frac{1.54 \times 10^7 \N}{2.00 \times 10^6 \kg} = 7.70 \mss $$
 </div>
 
 **(b) Time to reach 120 km/h:**
@@ -984,15 +1013,17 @@ $$ a = \frac{17.64}{0.600} = 29.4 \mss $$
 
 **(c) Force on floor:**
 
-Forces on player during push-off:
+Forces on player during push-off, with $$ +y $$ upward:
 
-- Normal force from floor (upward): $$ N $$
-- Weight (downward): $$ w = mg = (110)(9.80) = 1078 \N $$
+![Free-body diagram of the basketball player with +x to the right and +y up: normal force N up, four times as long as the weight w pointing down; the acceleration points up.](../resources/fbd_04_07_p07.svg){: .fbd}
 
-Net upward force:
+- Normal force from floor: $$ N $$, along $$ +y $$
+- Weight: $$ w = mg = (110)(9.80) = 1078 \N $$, along $$ -y $$
+
+Net force along $$ y $$, with $$ a_y = +29.4 \mss $$:
 
 <div class="equation">
-$$ F_{\text{net}} = N - w = ma $$
+$$ \sum F_y = N - w = ma_y $$
 </div>
 
 <div class="equation">
@@ -1079,10 +1110,12 @@ $$ a = \frac{(46.4 \ms)^2}{2(0.450 \m)} = \frac{2153 \mmss}{0.900 \m} = 2.39 \ti
 
 **(c) Average force on the shell:**
 
-The net force produces the acceleration. Since the shell accelerates upward, both the applied force and weight act on it:
+The net force produces the acceleration. Two forces act on the shell in the tube: the push of the expanding gases, $$ F_{applied} $$, along $$ +y $$, and its weight $$ w $$, along $$ -y $$:
+
+![Free-body diagram of the shell with +x to the right and +y up: F sub applied up, very much larger than the weight w pointing down; the acceleration points up.](../resources/fbd_04_07_p08.svg){: .fbd}
 
 <div class="equation">
-$$ F_{net} = F_{applied} - w = ma $$
+$$ \sum F_y = F_{applied} - w = ma $$
 </div>
 
 <div class="equation">
@@ -1163,10 +1196,14 @@ $$ a = \frac{v_0^2}{2L} = \frac{(47.1 \ms)^2}{2(0.450 \m)} = \frac{2218 \mmss}{0
 
 **(c) Average force on the shell:**
 
-Along the tube, the component of the weight opposing the motion is $$ mg\cos 10.0^\circ $$. Newton's second law along the tube gives:
+Here it pays to **tilt the axes**: take $$ +x $$ along the tube (in the direction of the acceleration) and $$ +y $$ perpendicular to it. Then only the weight has to be split into components.
+
+![Free-body diagram of the shell with tilted axes: +x along the tube, 10 degrees from vertical, and +y perpendicular to the tube. The gas force F is along +x. The weight w points straight down and has dashed components m g cosine 10 degrees along -x and m g sine 10 degrees along -y. The tube wall pushes with N along +y. The acceleration is along +x.](../resources/fbd_04_07_p09.svg){: .fbd}
+
+The weight makes a $$ 10.0^\circ $$ angle with the $$ -x $$ axis, so its components are $$ (-mg\cos 10.0^\circ,\ -mg\sin 10.0^\circ) $$. Newton's second law along the tube gives:
 
 <div class="equation">
-$$ F - mg\cos 10.0^\circ = ma $$
+$$ \sum F_x = F - mg\cos 10.0^\circ = ma $$
 </div>
 
 <div class="equation">
@@ -1183,7 +1220,7 @@ $$ w = mg = (2.50 \kg)(9.80 \mss) = 24.5 \N $$
 $$ \frac{F}{w} = \frac{6.20 \times 10^{3} \N}{24.5 \N} = 253 $$
 </div>
 
-The tube walls also support the small perpendicular component of the weight, $$ mg\sin 10.0^\circ = 4.25 \N $$, which is negligible compared with $$ F $$.
+Perpendicular to the tube there is no acceleration, so $$ \sum F_y = N - mg\sin 10.0^\circ = 0 $$. The tube walls support this small component of the weight, $$ N = mg\sin 10.0^\circ = 4.25 \N $$, which is negligible compared with $$ F $$.
 
 **Discussion**
 
@@ -1230,9 +1267,15 @@ Given: $$ m = 1700 \kg $$, $$ g = 9.80 \mss $$
 
 Weight: $$ w = mg = (1700 \kg)(9.80 \mss) = 1.67 \times 10^4 \N $$
 
+**Free-body diagram**
+
+![Three free-body diagrams of the elevator with +x to the right and +y up, each with tension T up and weight w down. Speeding up: T longer than w, acceleration up. Constant velocity: T equal to w, a equals zero. Slowing down: T shorter than w, acceleration down.](../resources/fbd_04_07_p10.svg){: .fbd}
+
+In every phase the same two forces act: $$ T $$ along $$ +y $$ and $$ w $$ along $$ -y $$. So $$ \sum F_y = T - w = ma_y $$ every time; only the sign of $$ a_y $$ changes.
+
 **(a) Tension during acceleration:**
 
-Net force: $$ F_{net} = T - w = ma $$
+Net force, with $$ a_y = +1.20 \mss $$: $$ \sum F_y = T - w = ma_y $$
 
 <div class="equation">
 $$ T = ma + mg = m(a + g) = (1700 \kg)(1.20 \mss + 9.80 \mss) $$
@@ -1252,7 +1295,7 @@ $$ T = mg = 1.67 \times 10^4 \N $$
 
 **(c) Tension during deceleration:**
 
-Deceleration is $$ a = -0.600 \mss $$:
+The elevator is moving up but slowing, so the acceleration points down: $$ a_y = -0.600 \mss $$. From $$ \sum F_y = T - w = ma_y $$:
 
 <div class="equation">
 $$ T = m(a + g) = (1700 \kg)(-0.600 \mss + 9.80 \mss) = (1700 \kg)(9.20 \mss) $$
@@ -1423,9 +1466,13 @@ $$ a = \frac{\Delta v}{\Delta t} = \frac{30.0 \ms - 0}{2.00 \s} = 15.0 \mss $$
 $$ w = mg = (75.0 \kg)(9.80 \mss) = 735 \N $$
 </div>
 
-3. Apply Newton's second law (upward positive):
+3. Draw the free-body diagram of the man, with $$ +y $$ upward:
+
+   ![Free-body diagram of the man with +x to the right and +y up: F sub scale up, about 2.5 times as long as the weight w pointing down; the acceleration points up.](../resources/fbd_04_07_p12.svg){: .fbd}
+
+   Apply Newton's second law along $$ y $$:
 <div class="equation">
-$$ F_{net} = F_{scale} - w = ma $$
+$$ \sum F_y = F_{scale} - w = ma $$
 </div>
 
 <div class="equation">

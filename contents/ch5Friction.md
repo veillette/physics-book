@@ -620,6 +620,12 @@ For part (a), we need to find the maximum static friction force, which equals th
 
 **Solution**
 
+**Free-body diagram**
+
+![Two free-body diagrams of the crate with +x in the direction of the push and +y up, each with N up and w down. At rest: F to the right balanced by f sub s max to the left, a equals zero. Sliding: F to the right, smaller f sub k to the left, acceleration to the right.](../resources/fbd_05_01_p04.svg){: .fbd}
+
+With $$+x$$ in the direction of the push and $$+y$$ upward, $$\sum F_y = \mag{N} - w = 0$$ in both diagrams, so $$\mag{N} = mg$$.
+
 (a) Maximum force without moving the crate:
 
 1. Calculate the normal force (equal to the weight on a horizontal surface):
@@ -627,7 +633,7 @@ For part (a), we need to find the maximum static friction force, which equals th
 $$\mag{N} = mg = (120 \kg)(9.80 \mss) = 1176 \N$$
 </div>
 
-2. Calculate the maximum static friction force:
+2. Calculate the maximum static friction force. In diagram (a), $$a = 0$$, so $$\sum F_x = F - f_{\s(\text{max})} = 0$$ and the largest push is $$F = f_{\s(\text{max})}$$:
 <div class="equation">
 $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.5)(1176 \N) = 588 \N$$
 </div>
@@ -639,14 +645,14 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.5)(1176 \N) = 588 \N$$
 $$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.3)(1176 \N) = 352.8 \N$$
 </div>
 
-2. Apply Newton's second law. The net force is the applied force minus friction:
+2. Apply Newton's second law along $$x$$ (diagram (b)): $$F$$ is along $$+x$$ and $$f_{\text{k}}$$ along $$-x$$:
 <div class="equation">
-$$F_{\text{net}} = F_{\text{applied}} - f_{\text{k}} = 588 \N - 352.8 \N = 235.2 \N$$
+$$\sum F_x = F - f_{\text{k}} = 588 \N - 352.8 \N = 235.2 \N$$
 </div>
 
 3. Calculate the acceleration:
 <div class="equation">
-$$a = \frac{F_{\text{net}}}{m} = \frac{235.2 \N}{120 \kg} = 1.96 \mss$$
+$$a_x = \frac{\sum F_x}{m} = \frac{235.2 \N}{120 \kg} = 1.96 \mss$$
 </div>
 
 **Discussion**
@@ -676,6 +682,12 @@ The maximum acceleration is limited by the maximum static friction force between
 
 **Solution**
 
+**Free-body diagram**
+
+![Two free-body diagrams with +x forward and +y up. Truck: N up, w down, static friction from the road f sub s max forward; acceleration forward. Cabinet: N sub cab up, w sub cab down, static friction from the truck bed f sub s forward; acceleration forward.](../resources/fbd_05_01_p05.svg){: .fbd}
+
+Take $$+x$$ forward and $$+y$$ upward. Note the direction of friction: the drive wheels push **backward** on the road, so the road's static friction on the truck points along $$+x$$. Likewise, the only horizontal force that can accelerate the cabinet forward is static friction from the truck bed, also along $$+x$$.
+
 (a) Two-wheel drive maximum acceleration:
 
 1. Calculate the weight supported by drive wheels:
@@ -688,14 +700,14 @@ $$\mag{N}_{\text{drive}} = \frac{1}{2}mg = \frac{1}{2}(1.00 \times 10^{3} \kg)(9
 $$f_{\s(\text{max})} = \mu_{\s} \mag{N}_{\text{drive}} = (1.0)(4900 \N) = 4900 \N$$
 </div>
 
-3. Calculate the maximum acceleration using Newton's second law:
+3. Calculate the maximum acceleration using Newton's second law, $$\sum F_x = f_{\s(\text{max})} = ma_{\text{max}}$$ (diagram (a)):
 <div class="equation">
 $$a_{\text{max}} = \frac{f_{\s(\text{max})}}{m} = \frac{4900 \N}{1.00 \times 10^{3} \kg} = 4.90 \mss$$
 </div>
 
 (b) Will the metal cabinet slip?
 
-1. For the cabinet to not slip, the static friction must provide enough force to accelerate it:
+1. For the cabinet to not slip, the static friction must provide enough force to accelerate it (diagram (b), $$\sum F_x = f_{\s} = m_{\text{cab}}a$$):
 <div class="equation">
 $$f_{\text{needed}} = m_{\text{cab}} a = m_{\text{cab}}(4.90 \mss)$$
 </div>
@@ -759,6 +771,12 @@ First, identify the masses:
 - Mass of sled with rider: $$m_{\text{sled}} = 210 \kg$$
 - Total system mass: $$m_{\text{total}} = 152 \kg + 210 \kg = 362 \kg$$
 
+**Free-body diagram**
+
+![Two free-body diagrams with +x forward and +y up. Dogs plus sled: F sub dogs forward, kinetic friction f sub k backward, N up, w down, acceleration forward. Sled only: coupling force T forward, f sub k backward, N sub sled up, w sub sled down, acceleration forward.](../resources/fbd_05_01_p06.svg){: .fbd}
+
+Take $$+x$$ forward and $$+y$$ upward. The coupling force $$T$$ is internal to the dogs + sled system, so it appears only in the sled-only diagram.
+
 (a) Starting from rest:
 
 1. Calculate the total forward force from all dogs:
@@ -780,9 +798,9 @@ $$f_{\s(\text{max})} = \mu_{\s} m_{\text{sled}} g = (0.14)(210 \kg)(9.80 \mss) =
 $$f_{\text{k}} = \mu_{\text{k}} m_{\text{sled}} g = (0.1)(210 \kg)(9.80 \mss) = 205.8 \N$$
 </div>
 
-2. Calculate the net force:
+2. Calculate the net force along $$x$$ for the dogs + sled system:
 <div class="equation">
-$$F_{\text{net}} = 1480 \N - 205.8 \N = 1274.2 \N$$
+$$\sum F_x = F_{\text{dogs}} - f_{\text{k}} = 1480 \N - 205.8 \N = 1274.2 \N$$
 </div>
 
 3. Calculate the acceleration:
@@ -797,7 +815,7 @@ For the sled alone, the coupling force $$T$$ must provide enough force to accele
 Since the sled slides with kinetic friction in both situations:
 
 <div class="equation">
-$$T - f_{\text{k}} = m_{\text{sled}} a$$
+$$\sum F_x = T - f_{\text{k}} = m_{\text{sled}} a$$
 </div>
 
 <div class="equation">
@@ -876,9 +894,12 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.04)(637 \N) = 25.5 \N$$
 $$f_{\text{k}} = \mu_{\text{k}} \mag{N} = (0.02)(637 \N) = 12.7 \N$$
 </div>
 
-5. Calculate the net force:
+5. Calculate the net force. Choose $$+x$$ along $$\vb{F}_{\text{tot}}$$ and $$+y$$ upward. Friction opposes the motion, so it points along $$-x$$:
+
+   ![Free-body diagram of the skater with +x along the total push and +y up: F sub tot along +x, kinetic friction f sub k along -x, N up, w down; acceleration along +x.](../resources/fbd_05_01_p07.svg){: .fbd}
+
 <div class="equation">
-$$F_{\text{net}} = F_{\text{tot}} - f_{\text{k}} = 32.3 \N - 12.7 \N = 19.6 \N$$
+$$\sum F_x = F_{\text{tot}} - f_{\text{k}} = 32.3 \N - 12.7 \N = 19.6 \N$$
 </div>
 
 6. Calculate the initial acceleration:
@@ -922,20 +943,22 @@ We analyze the forces on an object on a frictionless incline using a coordinate 
    - Weight: $$w = mg$$ (directed straight down)
    - Normal force: $$\mag{N}$$ (perpendicular to the incline surface)
 
-2. Decompose the weight into components relative to the incline:
-   - Perpendicular to incline: $$w_\perp = mg\cos\theta$$
-   - Parallel to incline (down the slope): $$w_\parallel = mg\sin\theta$$
+   ![Free-body diagram on a frictionless incline with tilted axes: +x down the slope, +y perpendicular to the slope. N along +y; weight w straight down with dashed components m g sine theta along +x and m g cosine theta along -y. Acceleration down the slope.](../resources/fbd_05_01_p08.svg){: .fbd}
 
-3. Apply Newton's second law perpendicular to the incline:
+2. Decompose the weight into components along the tilted axes. With $$+x$$ pointing **down the slope** and $$+y$$ perpendicular to the slope (away from it), the normal force lies along $$+y$$ and the weight is the only force that must be split into components: $$mg\sin\theta$$ along $$+x$$ and $$mg\cos\theta$$ along $$-y$$. The angle between $$\vb{w}$$ and the $$-y$$ axis equals the incline angle $$\theta$$.
+   - Along $$-y$$ (perpendicular to incline): $$w_\perp = mg\cos\theta$$
+   - Along $$+x$$ (down the slope): $$w_\parallel = mg\sin\theta$$
+
+3. Apply Newton's second law along $$y$$:
 <div class="equation">
-$$\sum F_\perp = \mag{N} - mg\cos\theta = 0$$
+$$\sum F_y = \mag{N} - mg\cos\theta = 0$$
 </div>
 
 This confirms the object doesn't accelerate perpendicular to the surface.
 
-4. Apply Newton's second law parallel to the incline (taking down the slope as positive):
+4. Apply Newton's second law along $$x$$ (down the slope):
 <div class="equation">
-$$\sum F_\parallel = mg\sin\theta = ma$$
+$$\sum F_x = mg\sin\theta = ma$$
 </div>
 
 5. Solve for acceleration:
@@ -980,13 +1003,15 @@ We follow the same approach as the previous problem, but now include kinetic fri
    - Normal force: $$\mag{N}$$ (perpendicular to the incline surface)
    - Kinetic friction: $$f_{\text{k}}$$ (parallel to incline, opposing motion, so directed up the slope)
 
-2. Decompose the weight into components:
-   - Perpendicular to incline: $$w_\perp = mg\cos\theta$$
-   - Parallel to incline (down the slope): $$w_\parallel = mg\sin\theta$$
+   ![Free-body diagram on an incline with friction, tilted axes: +x down the slope, +y perpendicular to the slope. N along +y; kinetic friction f sub k along -x (up the slope); weight w straight down with dashed components m g sine theta along +x and m g cosine theta along -y. Acceleration down the slope.](../resources/fbd_05_01_p09.svg){: .fbd}
 
-3. Apply Newton's second law perpendicular to the incline:
+2. Decompose the weight into components. With $$+x$$ pointing **down the slope** and $$+y$$ perpendicular to the slope (away from it), the normal force lies along $$+y$$ and the weight is the only force that must be split into components: $$mg\sin\theta$$ along $$+x$$ and $$mg\cos\theta$$ along $$-y$$. The angle between $$\vb{w}$$ and the $$-y$$ axis equals the incline angle $$\theta$$. Friction is along $$-x$$.
+   - Along $$-y$$: $$w_\perp = mg\cos\theta$$
+   - Along $$+x$$ (down the slope): $$w_\parallel = mg\sin\theta$$
+
+3. Apply Newton's second law along $$y$$:
 <div class="equation">
-$$\sum F_\perp = \mag{N} - mg\cos\theta = 0$$
+$$\sum F_y = \mag{N} - mg\cos\theta = 0$$
 </div>
 
 <div class="equation">
@@ -998,9 +1023,9 @@ $$\mag{N} = mg\cos\theta$$
 $$f_{\text{k}} = \mu_{\text{k}} \mag{N} = \mu_{\text{k}} mg\cos\theta$$
 </div>
 
-5. Apply Newton's second law parallel to the incline (taking down the slope as positive):
+5. Apply Newton's second law along $$x$$ (down the slope):
 <div class="equation">
-$$\sum F_\parallel = mg\sin\theta - f_{\text{k}} = ma$$
+$$\sum F_x = mg\sin\theta - f_{\text{k}} = ma$$
 </div>
 
 <div class="equation">
@@ -1044,15 +1069,18 @@ When going uphill, both gravity and friction act to slow the snowboarder down. T
 
 **Solution**
 
-1. Draw a free-body diagram with forces:
-   - Weight component parallel to slope: $$w_\parallel = mg\sin\theta$$ (down the slope)
-   - Weight component perpendicular to slope: $$w_\perp = mg\cos\theta$$
-   - Normal force: $$\mag{N} = mg\cos\theta$$
-   - Kinetic friction: $$f_{\text{k}} = \mu_{\text{k}}\mag{N}$$ (down the slope, opposing uphill motion)
+1. Draw a free-body diagram. With $$+x$$ pointing **up the slope** and $$+y$$ perpendicular to the slope (away from it), the normal force lies along $$+y$$ and the weight has components $$mg\sin\theta$$ along $$-x$$ (down the slope) and $$mg\cos\theta$$ along $$-y$$.
 
-2. Apply Newton's second law parallel to the slope (taking up the slope as positive):
+   ![Free-body diagram of the snowboarder with tilted axes: +x up the slope, +y perpendicular to the slope. N along +y; kinetic friction f sub k along -x (down the slope); weight w straight down with dashed components m g sine theta along -x and m g cosine theta along -y. The snowboarder moves up the slope but the acceleration points down the slope.](../resources/fbd_05_01_p10.svg){: .fbd}
+
+   - Weight component parallel to slope: $$w_\parallel = mg\sin\theta$$, along $$-x$$ (down the slope)
+   - Weight component perpendicular to slope: $$w_\perp = mg\cos\theta$$, along $$-y$$
+   - Normal force: $$\mag{N} = mg\cos\theta$$, along $$+y$$ (from $$\sum F_y = \mag{N} - mg\cos\theta = 0$$)
+   - Kinetic friction: $$f_{\text{k}} = \mu_{\text{k}}\mag{N}$$, along $$-x$$ (opposing the uphill motion)
+
+2. Apply Newton's second law along $$x$$ (up the slope):
 <div class="equation">
-$$\sum F_\parallel = -mg\sin\theta - f_{\text{k}} = ma$$
+$$\sum F_x = -mg\sin\theta - f_{\text{k}} = ma$$
 </div>
 
 3. Substitute the friction force:
@@ -1119,7 +1147,11 @@ For part (a), we use the result derived earlier: $$a = g(\sin\theta - \mu_{\text
 
 (a) Acceleration down the $$10.0°$$ slope:
 
-1. Use the formula for acceleration on an incline with friction:
+1. Draw the free-body diagram. With $$+x$$ pointing **down the slope** and $$+y$$ perpendicular to the slope (away from it), the normal force lies along $$+y$$ and the weight is the only force that must be split into components: $$mg\sin\theta$$ along $$+x$$ and $$mg\cos\theta$$ along $$-y$$. The angle between $$\vb{w}$$ and the $$-y$$ axis equals the incline angle $$\theta$$. Kinetic friction opposes the motion, so it acts along $$-x$$:
+
+   ![Free-body diagram of the skier with tilted axes: +x down the slope, +y perpendicular to the slope. N along +y; kinetic friction f sub k along -x; weight w straight down with dashed components m g sine theta along +x and m g cosine theta along -y. Acceleration down the slope.](../resources/fbd_05_01_p11.svg){: .fbd}
+
+   From $$\sum F_y = \mag{N} - mg\cos\theta = 0$$ and $$\sum F_x = mg\sin\theta - \mu_{\text{k}}\mag{N} = ma$$, we get the formula for acceleration on an incline with friction:
 <div class="equation">
 $$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$
 </div>
@@ -1198,9 +1230,13 @@ For an object at rest on an incline at the verge of slipping, static friction ha
    - Normal force: $$\mag{N} = mg\cos\theta$$
    - Static friction (up the slope, opposing tendency to slide): $$f_{\s}$$
 
-2. Apply Newton's second law parallel to the incline with $$a = 0$$:
+   ![Free-body diagram of an object resting on an incline, tilted axes: +x down the slope, +y perpendicular to the slope. N along +y; static friction f sub s along -x; weight w straight down with dashed components m g sine theta along +x and m g cosine theta along -y. a equals zero.](../resources/fbd_05_01_p12.svg){: .fbd}
+
+   With $$+x$$ pointing **down the slope** and $$+y$$ perpendicular to the slope (away from it), the normal force lies along $$+y$$ and the weight is the only force that must be split into components: $$mg\sin\theta$$ along $$+x$$ and $$mg\cos\theta$$ along $$-y$$. The angle between $$\vb{w}$$ and the $$-y$$ axis equals the incline angle $$\theta$$. Static friction points along $$-x$$.
+
+2. Apply Newton's second law along $$x$$ with $$a = 0$$:
 <div class="equation">
-$$\sum F_\parallel = f_{\s} - mg\sin\theta = 0$$
+$$\sum F_x = mg\sin\theta - f_{\s} = 0$$
 </div>
 
 <div class="equation">
@@ -1267,15 +1303,18 @@ When braking while heading downhill, gravity pulls the car down the slope while 
 
 **Solution**
 
-For a car on a slope, the forces parallel to the slope are:
+**Free-body diagram**
 
-- Gravity component (down slope): $$mg\sin\theta$$
-- Maximum friction (up slope when braking): $$f_{\s(\text{max})} = \mu_{\s}mg\cos\theta$$
+![Free-body diagram of the braking car with tilted axes: +x up the slope, +y perpendicular to the slope. N along +y; maximum static friction f sub s max along +x; weight w straight down with dashed components m g sine theta along -x and m g cosine theta along -y. The car moves down the slope but the acceleration points up the slope.](../resources/fbd_05_01_p13.svg){: .fbd}
+
+The car moves down the slope, but it is slowing down, so its acceleration points **up** the slope. We therefore choose $$+x$$ up the slope, so that the deceleration comes out as a positive $$a$$. With $$+x$$ pointing **up the slope** and $$+y$$ perpendicular to the slope (away from it), the normal force lies along $$+y$$ and the weight has components $$mg\sin\theta$$ along $$-x$$ (down the slope) and $$mg\cos\theta$$ along $$-y$$. Braking friction opposes the motion, so it acts along $$+x$$.
+
+From $$\sum F_y = \mag{N} - mg\cos\theta = 0$$, $$\mag{N} = mg\cos\theta$$, so $$f_{\s(\text{max})} = \mu_{\s}mg\cos\theta$$.
 
 The maximum deceleration occurs when braking force is maximum:
 
 <div class="equation">
-$$ma = f_{\s(\text{max})} - mg\sin\theta = \mu_{\s}mg\cos\theta - mg\sin\theta$$
+$$\sum F_x = f_{\s(\text{max})} - mg\sin\theta = ma \quad\Rightarrow\quad ma = \mu_{\s}mg\cos\theta - mg\sin\theta$$
 </div>
 
 <div class="equation">
@@ -1346,6 +1385,12 @@ When accelerating uphill, the drive wheels push backward on the road, and fricti
 
 **Solution**
 
+**Free-body diagram**
+
+![Free-body diagram of the car accelerating uphill with tilted axes: +x up the slope, +y perpendicular to the slope. N along +y; static friction on the drive wheels f sub s max along +x; weight w straight down with dashed components m g sine theta along -x and m g cosine theta along -y. Acceleration up the slope.](../resources/fbd_05_01_p14.svg){: .fbd}
+
+With $$+x$$ pointing **up the slope** and $$+y$$ perpendicular to the slope (away from it), the normal force lies along $$+y$$ and the weight has components $$mg\sin\theta$$ along $$-x$$ (down the slope) and $$mg\cos\theta$$ along $$-y$$. The road's friction on the drive wheels points along $$+x$$. The total normal force is $$\mag{N} = mg\cos\theta$$ (from $$\sum F_y = 0$$), but only half of it acts on the drive wheels.
+
 The normal force on the drive wheels is half the perpendicular weight component:
 
 <div class="equation">
@@ -1358,10 +1403,10 @@ The maximum friction force (providing forward acceleration):
 $$f_{\s(\text{max})} = \mu_{\s}\mag{N}_{\text{drive}} = \frac{1}{2}\mu_{\s}mg\cos\theta$$
 </div>
 
-Newton's second law parallel to the slope (up is positive):
+Newton's second law along $$x$$ (up the slope):
 
 <div class="equation">
-$$ma = f_{\s(\text{max})} - mg\sin\theta = \frac{1}{2}\mu_{\s}mg\cos\theta - mg\sin\theta$$
+$$\sum F_x = f_{\s(\text{max})} - mg\sin\theta = ma \quad\Rightarrow\quad ma = \frac{1}{2}\mu_{\s}mg\cos\theta - mg\sin\theta$$
 </div>
 
 <div class="equation">
@@ -1424,7 +1469,7 @@ With four-wheel drive, all four wheels are drive wheels, so the full weight of t
 
 **Solution**
 
-With four-wheel drive, the normal force equals the full perpendicular weight:
+The free-body diagram and axes are the same as in the previous problem ($$+x$$ up the slope). The only change is that friction now acts on all four wheels. With four-wheel drive, the normal force equals the full perpendicular weight:
 
 <div class="equation">
 $$\mag{N}_{\text{drive}} = mg\cos\theta$$
@@ -1436,10 +1481,10 @@ The maximum friction force:
 $$f_{\s(\text{max})} = \mu_{\s}mg\cos\theta$$
 </div>
 
-Newton's second law parallel to the slope:
+Newton's second law along $$x$$ (up the slope):
 
 <div class="equation">
-$$ma = f_{\s(\text{max})} - mg\sin\theta = \mu_{\s}mg\cos\theta - mg\sin\theta$$
+$$\sum F_x = f_{\s(\text{max})} - mg\sin\theta = ma \quad\Rightarrow\quad ma = \mu_{\s}mg\cos\theta - mg\sin\theta$$
 </div>
 
 <div class="equation">
@@ -1512,6 +1557,12 @@ For part (a), we apply Newton's second law to the entire train to find the total
 
 **Solution**
 
+**Free-body diagram**
+
+![Two free-body diagrams with +x forward and +y up. Whole train: F sub total to the right, friction f to the left, N up, w down, acceleration forward. Cars 38 to 45: coupling force T to the right, f sub 8 cars to the left, N up, w down, acceleration forward.](../resources/fbd_05_01_p16.svg){: .fbd}
+
+Take $$+x$$ forward and $$+y$$ upward; the vertical forces cancel in both diagrams.
+
 First, calculate the total mass of the train:
 
 <div class="equation">
@@ -1526,7 +1577,7 @@ $$m_{\text{total}} = 1.60 \times 10^6 \kg + 2.475 \times 10^7 \kg = 2.635 \times
 
 1. Apply Newton's second law to find the total required force:
 <div class="equation">
-$$F_{\text{total}} - f = m_{\text{total}} \cdot a$$
+$$\sum F_x = F_{\text{total}} - f = m_{\text{total}} \cdot a$$
 </div>
 
 <div class="equation">
@@ -1566,7 +1617,7 @@ $$f_{\text{8 cars}} = 8 \times 1.596 \times 10^4 \N = 1.277 \times 10^5 \N$$
 
 4. Apply Newton's second law to the 8 cars:
 <div class="equation">
-$$T - f_{\text{8 cars}} = m_{\text{8 cars}} \cdot a$$
+$$\sum F_x = T - f_{\text{8 cars}} = m_{\text{8 cars}} \cdot a$$
 </div>
 
 <div class="equation">
@@ -1622,18 +1673,22 @@ Define the forces acting **on the climber**:
 
 Her feet push on the cliff with the equal and opposite reaction force (into the cliff and downward). That force acts on the cliff, so it does not appear in her free-body diagram.
 
+![Free-body diagram of the climber with +x away from the cliff and +y up: tension T up and toward the cliff at 31 degrees from +y; leg force F sub leg up and away from the cliff at 15 degrees above +x, with dashed components N along +x and f along +y; weight w down. a equals zero.](../resources/fbd_05_01_p17.svg){: .fbd}
+
+With $$+x$$ away from the cliff and $$+y$$ upward, the components are $$\vb{T} = (-T\sin 31°,\ +T\cos 31°)$$, $$\vb{F}_{\text{leg}} = (+F_{\text{leg}}\cos 15°,\ +F_{\text{leg}}\sin 15°)$$, and $$\vb{w} = (0,\ -w)$$.
+
 (a) Force equilibrium equations:
 
-Horizontal (positive = away from cliff):
+Horizontal:
 
 <div class="equation">
-$$T\sin 31° = F_{\text{leg}}\cos 15°$$
+$$\sum F_x = F_{\text{leg}}\cos 15° - T\sin 31° = 0 \quad\Rightarrow\quad T\sin 31° = F_{\text{leg}}\cos 15°$$
 </div>
 
-Vertical (positive = upward):
+Vertical:
 
 <div class="equation">
-$$T\cos 31° + F_{\text{leg}}\sin 15° = w$$
+$$\sum F_y = T\cos 31° + F_{\text{leg}}\sin 15° - w = 0$$
 </div>
 
 For the leg force at 15° above the horizontal, the component perpendicular to the cliff (away from it) is the normal force and the component along the cliff (upward) is friction:
@@ -1712,20 +1767,23 @@ When pushing at an angle below horizontal (25° as shown in Figure 9a), the forc
 
 (a) Minimum force to start the block moving:
 
-1. Decompose the applied force $$F$$ at angle 25° below horizontal:
-   - Horizontal component: $$F_x = F\cos 25\text{ °}$$
-   - Vertical component (downward): $$F_y = F\sin 25\text{ °}$$
+1. Draw the free-body diagram with $$+x$$ forward and $$+y$$ upward, and decompose the applied force $$F$$ at angle 25° below horizontal:
 
-2. Apply Newton's second law in the vertical direction (at rest, $$a_y = 0$$):
+   ![Free-body diagram of the pushed block with +x forward and +y up: F at 25 degrees below +x with dashed components F cos 25 degrees along +x and F sin 25 degrees along -y; friction f along -x; N up; w down.](../resources/fbd_05_01_p18.svg){: .fbd}
+
+   - Along $$+x$$: $$F\cos 25°$$
+   - Along $$-y$$: $$F\sin 25°$$
+
+2. Apply Newton's second law along $$y$$ ($$a_y = 0$$):
 <div class="equation">
-$$\mag{N} - mg - F\sin 25° = 0$$
+$$\sum F_y = \mag{N} - mg - F\sin 25° = 0$$
 </div>
 
 <div class="equation">
 $$\mag{N} = mg + F\sin 25°$$
 </div>
 
-3. To just start moving, the horizontal force must equal maximum static friction:
+3. To just start moving, $$\sum F_x = F\cos 25° - f_{\s(\text{max})} = 0$$, so the horizontal component must equal maximum static friction:
 <div class="equation">
 $$F\cos 25° = \mu_{\s}\mag{N} = \mu_{\s}(mg + F\sin 25°)$$
 </div>
@@ -1770,7 +1828,7 @@ $$f_{\text{k}} = \mu_{\text{k}}\mag{N} = (0.03)(462.6 \N) = 13.9 \N$$
 
 3. Calculate the net horizontal force:
 <div class="equation">
-$$F_{\text{net}} = F\cos 25° - f_{\text{k}} = (51.0 \N)(0.9063) - 13.9 \N = 46.2 \N - 13.9 \N = 32.3 \N$$
+$$\sum F_x = F\cos 25° - f_{\text{k}} = (51.0 \N)(0.9063) - 13.9 \N = 46.2 \N - 13.9 \N = 32.3 \N$$
 </div>
 
 4. Calculate the acceleration:
@@ -1808,20 +1866,23 @@ When pulling at an angle above horizontal (25°), the vertical component of the 
 
 (a) Minimum force to start the block moving:
 
-1. Decompose the applied force $$F$$ at angle 25° above horizontal:
-   - Horizontal component: $$F_x = F\cos 25\text{ °}$$
-   - Vertical component (upward): $$F_y = F\sin 25\text{ °}$$
+1. Draw the free-body diagram with $$+x$$ forward and $$+y$$ upward, and decompose the applied force $$F$$ at angle 25° above horizontal:
 
-2. Apply Newton's second law in the vertical direction (at rest, $$a_y = 0$$):
+   ![Free-body diagram of the pulled block with +x forward and +y up: F at 25 degrees above +x with dashed components F cos 25 degrees along +x and F sin 25 degrees along +y; friction f along -x; N up, shorter than w; w down.](../resources/fbd_05_01_p19.svg){: .fbd}
+
+   - Along $$+x$$: $$F\cos 25°$$
+   - Along $$+y$$: $$F\sin 25°$$
+
+2. Apply Newton's second law along $$y$$ ($$a_y = 0$$):
 <div class="equation">
-$$\mag{N} + F\sin 25° - mg = 0$$
+$$\sum F_y = \mag{N} + F\sin 25° - mg = 0$$
 </div>
 
 <div class="equation">
 $$\mag{N} = mg - F\sin 25°$$
 </div>
 
-3. To just start moving, the horizontal force must equal maximum static friction:
+3. To just start moving, $$\sum F_x = F\cos 25° - f_{\s(\text{max})} = 0$$, so the horizontal component must equal maximum static friction:
 <div class="equation">
 $$F\cos 25° = \mu_{\s}\mag{N} = \mu_{\s}(mg - F\sin 25°)$$
 </div>
@@ -1866,7 +1927,7 @@ $$f_{\text{k}} = \mu_{\text{k}}\mag{N} = (0.03)(421.3 \N) = 12.6 \N$$
 
 3. Calculate the net horizontal force:
 <div class="equation">
-$$F_{\text{net}} = F\cos 25° - f_{\text{k}} = (46.5 \N)(0.9063) - 12.6 \N = 42.1 \N - 12.6 \N = 29.5 \N$$
+$$\sum F_x = F\cos 25° - f_{\text{k}} = (46.5 \N)(0.9063) - 12.6 \N = 42.1 \N - 12.6 \N = 29.5 \N$$
 </div>
 
 4. Calculate the acceleration:

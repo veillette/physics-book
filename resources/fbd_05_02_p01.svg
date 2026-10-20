@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="300" viewBox="0 0 320 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the skydiver at terminal velocity</title>
+<desc id="desc">Free-body diagram with +x to the right and +y up: drag force F D up and weight mg down, equal lengths; the skydiver moves down at constant velocity, so a = 0.</desc>
+<rect width="320" height="300" fill="#ffffff"/>
+<line x1="40" y1="150" x2="266" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="275,150 265,154.2 265,145.8" fill="#555555"/>
+<line x1="150" y1="265" x2="150" y2="44" stroke="#555555" stroke-width="1.5"/><polygon points="150,35 154.2,45 145.8,45" fill="#555555"/>
+<line x1="150" y1="150" x2="150" y2="76" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,65 155.04,77 144.96,77" fill="#b03a2e"/>
+<line x1="150" y1="150" x2="150" y2="224" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,235 144.96,223 155.04,223" fill="#b03a2e"/>
+<circle cx="150" cy="150" r="6" fill="#1f3a5f"/>
+<text x="140" y="176" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">skydiver</text>
+<text x="291" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="25" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="162" y="84" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">D</tspan><tspan dy="-6"></tspan></text>
+<text x="162" y="230" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">mg</tspan></text>
+<text x="80" y="61" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="230" y="180" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">moving down,</text>
+<text x="230" y="196" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">constant speed</text>
+</svg>

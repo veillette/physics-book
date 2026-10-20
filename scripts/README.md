@@ -19,6 +19,7 @@ Build and utility scripts for the Physics Book project.
 | lint-markdown           | `npm run lint:markdown`           | Lint markdown files               |
 | generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters          |
 | generate-icons          | `npm run generate:icons`          | Generate PWA icons                |
+| generate-fbd            | `npm run generate:fbd`            | Generate free-body diagram SVGs   |
 | build-index             | `npm run generate:search-index`   | Generate search index             |
 | parse-summary           | `npm run parse:summary`           | Generate summary.json             |
 | update-front-matter     | `npm run update:front-matter`     | Update YAML front matter          |
@@ -308,6 +309,25 @@ Generates PWA icons and favicons from source logo.
 
 ```bash
 npm run generate:icons
+```
+
+### generate-fbd.js
+
+Generates the free-body diagrams used in the worked solutions of chapters 4–6.
+Each diagram is defined in `scripts/fbd/ch04.js`, `ch05.js`, or `ch06.js` (built
+with the small SVG helper in `scripts/fbd/fbd.js`) and written to
+`resources/fbd_CC_SS_pNN.svg` (chapter, section, problem number). Every diagram
+labels its `+x`/`+y` axes so the signs in the solution's `ΣFx` and `ΣFy`
+equations can be read straight off the picture. Embed them with the `.fbd`
+class, which lets multi-panel diagrams use their full width:
+
+```markdown
+![Alt text](../resources/fbd_04_05_p02.svg){: .fbd}
+```
+
+```bash
+npm run generate:fbd          # all diagrams
+npm run generate:fbd -- 05_01 # only names containing "05_01"
 ```
 
 ### build-index.js

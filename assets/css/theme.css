@@ -928,6 +928,12 @@ h4 {
   margin-inline: auto;
 }
 
+/* Free-body diagrams in worked solutions: show at their natural (SVG) width,
+   so multi-panel diagrams stay readable. */
+.book .book-body .page-wrapper .page-inner section.normal img.fbd {
+  max-inline-size: 100%;
+}
+
 .book .book-body .page-wrapper .page-inner section.normal span.frame {
   display: block;
   overflow: hidden;

@@ -204,7 +204,7 @@ second law we see that
 $$ F_{\text{net}}=ma , $$
 </div>
 
-where the mass of System 2 is 19.0 kg ( $$ m $$ = 12.0\text{ kg} + 7.0\text{ kg}) and its acceleration was found to be $$ a=1.5\mss $$ in the previous example. Thus,
+where the mass of System 2 is 19.0 kg ( $$ m $$ = 12.0 kg + 7.0 kg) and its acceleration was found to be $$ a=1.5\mss $$ in the previous example. Thus,
 
 <div class="equation">
 $$ F_{\text{net}}=ma , $$
@@ -410,6 +410,12 @@ For this situation, draw a free-body diagram and write the net force equation.
 
 For part (a), apply Newton's second law to the losing player. The forces on him are the push from the opposing player (backward) and friction from the ground (forward). For part (b), consider that both players have the same acceleration magnitude and use Newton's second and third laws.
 
+**Free-body diagram**
+
+![Two free-body diagrams with +x to the right and +y up. Losing player: F sub push to the right, friction f to the left, N sub 1 up, w sub 1 down, acceleration to the right. Winning player: F sub ground to the right, F sub reaction to the left, N sub 2 up, w sub 2 down, acceleration to the right.](../resources/fbd_04_04_p02.svg){: .fbd}
+
+The players move to the right, so we take $$ +x $$ to the right for **both** diagrams and $$ +y $$ upward. Then both players have $$ a_x = +1.20 \mss $$. To the right is "backward" for the losing player and "forward" for the winning player.
+
 **Solution**
 
 **(a) Friction force on the losing player:**
@@ -419,9 +425,9 @@ For part (a), apply Newton's second law to the losing player. The forces on him 
    - Mass: $$ m_1 = 90.0 \kg $$
    - Acceleration: $$ a = 1.20 \mss $$ (backward)
 
-2. Apply Newton's second law (taking backward as positive):
+2. Apply Newton's second law along $$ x $$, reading the signs from diagram (a): $$ F_{push} $$ is along $$ +x $$ and $$ f $$ is along $$ -x $$:
 <div class="equation">
-$$ F_{net} = F_{push} - f = m_1 a $$
+$$ \Sigma F_x = F_{push} - f = m_1 a $$
 </div>
 
 3. Solve for friction force:
@@ -437,9 +443,9 @@ $$ f = F_{push} - m_1 a = 800 \N - (90.0 \kg)(1.20 \mss) = 800 \N - 108 \N = 692
    - Mass: $$ m_2 = 110 \kg $$
    - Acceleration: $$ a = 1.20 \mss $$ (forward)
 
-3. The ground must push the winning player forward (reaction to his push backward):
+3. The ground must push the winning player forward (reaction to his push backward). In diagram (b), $$ F_{ground} $$ is along $$ +x $$ and $$ F_{reaction} $$ is along $$ -x $$:
 <div class="equation">
-$$ F_{ground} - F_{reaction} = m_2 a $$
+$$ \Sigma F_x = F_{ground} - F_{reaction} = m_2 a $$
 </div>
 
 Where $$ F_{reaction} = 800 \N $$ is the reaction force from the losing player.
@@ -454,6 +460,8 @@ By Newton's third law, the winning player exerts $$ 932 \N $$ backward on the gr
 
 *Sketch.* Draw the two players facing each other on the grass, the winning player on the left pushing to the right ("forward" for him), and the losing player on the right sliding to the right ("backward" for him). For part (a) circle only the losing player; for part (b) circle only the winning player.
 
+The free-body diagrams are drawn at the top of this solution. They list:
+
 *Free-body diagram for part (a): system = losing player (90.0 kg).*
 
 - Weight $$ w_1 = m_1 g = 882 \N $$, straight down
@@ -461,7 +469,7 @@ By Newton's third law, the winning player exerts $$ 932 \N $$ backward on the gr
 - Push from the winning player, $$ 800 \N $$, in his backward direction (to the right)
 - Friction from the grass on his feet, $$ f = 692 \N $$, in his forward direction (to the left)
 
-Net force equations (taking his backward direction as positive): $$ \Sigma F_x = 800 \N - f = m_1 a $$ and $$ \Sigma F_y = N_1 - w_1 = 0 $$.
+Net force equations ($$ +x $$ to the right, his backward direction): $$ \Sigma F_x = 800 \N - f = m_1 a $$ and $$ \Sigma F_y = N_1 - w_1 = 0 $$.
 
 *Free-body diagram for part (b): system = winning player (110 kg).*
 
@@ -470,7 +478,7 @@ Net force equations (taking his backward direction as positive): $$ \Sigma F_x =
 - Reaction force from the losing player, $$ 800 \N $$, backward (to the left)
 - Friction from the ground on his feet, $$ F_{ground} = 932 \N $$, forward (to the right)
 
-Net force equations (taking his forward direction as positive): $$ \Sigma F_x = F_{ground} - 800 \N = m_2 a $$ and $$ \Sigma F_y = N_2 - w_2 = 0 $$.
+Net force equations ($$ +x $$ to the right, his forward direction): $$ \Sigma F_x = F_{ground} - 800 \N = m_2 a $$ and $$ \Sigma F_y = N_2 - w_2 = 0 $$.
 
 Only forces acting **on** the chosen system appear in each diagram. The 800-N pair acts on different bodies, so it appears once in each diagram, in opposite directions.
 

@@ -612,6 +612,12 @@ Two teams of nine members each engage in a tug of war. Each of the first team's 
 
 Treat both teams plus the rope as one system to find acceleration. The rope pulls are internal to this system. The external horizontal forces are the ground's reactions to each person's push on the ground: by Newton's third law, the ground pushes each person with a force equal and opposite to the force that person exerts on it. The net external force is the difference between the two teams' totals, and the total mass is the sum of all members' masses. For tension, consider one team as the system.
 
+**Free-body diagram**
+
+![Two free-body diagrams with +x to the right, toward team 2, and +y up. Both teams plus rope: F sub 2 to the right, F sub 1 to the left, N up, w down, acceleration to the right. Team 1 alone: rope tension T to the right, F sub 1 to the left, N sub 1 up, w sub 1 down, acceleration to the right.](../resources/fbd_04_05_p01.svg){: .fbd}
+
+Put team 2 on the right and take $$ +x $$ to the right (toward team 2) and $$ +y $$ upward. The ground pushes each team horizontally: $$ F_2 $$ on team 2 points along $$ +x $$, and $$ F_1 $$ on team 1 points along $$ -x $$. The vertical forces balance ($$ \sum F_y = N - w = 0 $$). The rope tension does not appear in diagram (a) because it is internal to that system. It appears in diagram (b), where it pulls team 1 along $$ +x $$.
+
 **Solution**
 
 **(a) Acceleration of the system:**
@@ -620,9 +626,9 @@ Treat both teams plus the rope as one system to find acceleration. The rope pull
    - Team 1: $$ F_1 = 9 \times 1350 \N = 12150 \N $$
    - Team 2: $$ F_2 = 9 \times 1365 \N = 12285 \N $$
 
-2. Calculate net force (Team 2 pulls harder):
+2. Calculate net force along $$ x $$ from diagram (a) (Team 2 pulls harder):
 <div class="equation">
-$$ F_{net} = F_2 - F_1 = 12285 \N - 12150 \N = 135 \N $$
+$$ \sum F_x = F_2 - F_1 = 12285 \N - 12150 \N = 135 \N $$
 </div>
 
 3. Calculate total mass:
@@ -632,15 +638,15 @@ $$ m_{total} = 9 \times 68 \kg + 9 \times 73 \kg = 612 \kg + 657 \kg = 1269 \kg 
 
 4. Apply Newton's second law:
 <div class="equation">
-$$ a = \frac{F_{net}}{m_{total}} = \frac{135 \N}{1269 \kg} = 0.106 \mss \approx 0.11 \mss $$
+$$ a_x = \frac{\sum F_x}{m_{total}} = \frac{135 \N}{1269 \kg} = 0.106 \mss \approx 0.11 \mss $$
 </div>
 
 **(b) Tension in the rope:**
 
-Consider Team 1 as the system. The rope tension T pulls Team 1 toward Team 2, and Team 1's force $$ F_1 $$ opposes this motion:
+Consider Team 1 as the system (diagram (b)). The rope tension $$ T $$ pulls Team 1 toward Team 2, along $$ +x $$, and the ground's force $$ F_1 $$ points along $$ -x $$:
 
 <div class="equation">
-$$ T - F_1 = m_1 \cdot a $$
+$$ \sum F_x = T - F_1 = m_1 a_x $$
 </div>
 
 <div class="equation">
@@ -682,13 +688,16 @@ Apply Newton's second law in the vertical direction. The trampoline exerts an up
    - Acceleration: $$ a = 7.50 \mss $$ (upward)
    - Gravitational acceleration: $$ g = 9.80 \mss $$
 
-2. Draw a free-body diagram (forces on gymnast):
-   - Upward: Normal force from trampoline, $$ N $$
-   - Downward: Weight, $$ w = mg $$
+2. Draw a free-body diagram (forces on gymnast), with $$ +y $$ upward:
 
-3. Apply Newton's second law (taking upward as positive):
+   ![Free-body diagram of the gymnast with +x to the right and +y up: normal force N up, longer than the weight w pointing down; the acceleration points up.](../resources/fbd_04_05_p02.svg){: .fbd}
+
+   - Along $$ +y $$: Normal force from trampoline, $$ N $$
+   - Along $$ -y $$: Weight, $$ w = mg $$
+
+3. Apply Newton's second law along $$ y $$, with $$ a_y = +7.50 \mss $$ because the acceleration points along $$ +y $$:
 <div class="equation">
-$$ F_{net} = N - w = ma $$
+$$ \sum F_y = N - w = ma_y $$
 </div>
 
 4. Solve for the normal force $$ N $$:
@@ -739,9 +748,15 @@ Given:
 - Angle below horizontal: $$ \theta = 12^\circ $$
 - Gravitational acceleration: $$ g = 9.80 \mss $$
 
+**Free-body diagram**
+
+![Two free-body diagrams of the spider with +x to the right and +y up, both with a = 0. Vertical strand: tension T vertical up, weight w down. Horizontal strand: two tensions T up and outward at angle theta above the horizontal on each side, with dashed components T cos theta along the x-axis and T sin theta along +y, and weight w down.](../resources/fbd_04_05_p03.svg){: .fbd}
+
+In both cases the spider is motionless, so $$ \sum F_x = 0 $$ and $$ \sum F_y = 0 $$, with $$ +x $$ to the right and $$ +y $$ upward.
+
 **(a) Tension in vertical strand:**
 
-For a motionless spider hanging on a vertical strand, the tension must equal the weight:
+For a motionless spider hanging on a vertical strand, $$ \sum F_y = T_{\text{vertical}} - w = 0 $$, so the tension must equal the weight:
 
 <div class="equation">
 $$ T_{\text{vertical}} = w = mg = (8.00 \times 10^{-5} \kg)(9.80 \mss) = 7.84 \times 10^{-4} \N $$
@@ -751,15 +766,21 @@ $$ T_{\text{vertical}} = w = mg = (8.00 \times 10^{-5} \kg)(9.80 \mss) = 7.84 \t
 
 When the spider sits in the middle of a horizontal strand, the strand sags symmetrically. Each half of the strand slopes $$ \theta = 12^\circ $$ below horizontal as it runs from its support down to the spider, so on the spider each tension force points outward along the strand and $$ 12^\circ $$ **above** horizontal. The vertical components of tension from both sides must balance the spider's weight.
 
-Free-body diagram analysis:
+Free-body diagram (b) analysis:
 
-- Two tension forces $$ T $$, pointing outward along the strand at angle $$ \theta $$ above horizontal
-- Weight $$ w $$ downward
+- Two tension forces $$ T $$, pointing outward along the strand at angle $$ \theta $$ above horizontal. The right one has components $$ (+T\cos\theta, +T\sin\theta) $$ and the left one $$ (-T\cos\theta, +T\sin\theta) $$.
+- Weight $$ w $$, along $$ -y $$
+
+Horizontal force balance (automatically satisfied by symmetry):
+
+<div class="equation">
+$$ \sum F_x = T\cos(\theta) - T\cos(\theta) = 0 $$
+</div>
 
 Vertical force balance:
 
 <div class="equation">
-$$ 2T\sin(\theta) = w $$
+$$ \sum F_y = T\sin(\theta) + T\sin(\theta) - w = 0 \quad \Rightarrow \quad 2T\sin(\theta) = w $$
 </div>
 
 Solve for tension:
@@ -808,6 +829,12 @@ Suppose a 60.0-kg gymnast climbs a rope.
 
 Apply Newton's second law to the gymnast. The rope tension pulls upward, and weight pulls downward. At constant speed, acceleration is zero; when accelerating upward, acceleration is positive.
 
+**Free-body diagram**
+
+![Two free-body diagrams of the gymnast with +x to the right and +y up. Constant speed: tension T up and weight w down, equal lengths, a equals zero. Accelerating upward: T up, longer than w down; the acceleration points up.](../resources/fbd_04_05_p04.svg){: .fbd}
+
+Both forces are vertical. Take $$ +y $$ upward, so $$ T $$ is along $$ +y $$ and $$ w $$ along $$ -y $$.
+
 **Solution**
 
 Given: $$ m = 60.0 \kg $$, $$ g = 9.80 \mss $$
@@ -817,7 +844,7 @@ Given: $$ m = 60.0 \kg $$, $$ g = 9.80 \mss $$
 Since acceleration is zero, the net force must be zero:
 
 <div class="equation">
-$$ F_{net} = T - w = 0 $$
+$$ \sum F_y = T - w = 0 $$
 </div>
 
 <div class="equation">
@@ -826,16 +853,16 @@ $$ T = w = mg = (60.0 \kg)(9.80 \mss) = 588 \N $$
 
 **(b) Accelerating upward at 1.50 m/s²:**
 
-Apply Newton's second law with upward as positive:
+Apply Newton's second law along $$ y $$, with $$ a_y = +1.50 \mss $$:
 
 <div class="equation">
-$$ F_{net} = T - w = ma $$
+$$ \sum F_y = T - w = ma_y $$
 </div>
 
 Solve for tension:
 
 <div class="equation">
-$$ T = ma + w = ma + mg = m(a + g) $$
+$$ T = ma_y + w = ma_y + mg = m(a_y + g) $$
 </div>
 
 <div class="equation">
@@ -877,16 +904,20 @@ Consider a flexible medium (rope, cable, wire) with a perpendicular force $$ \vb
 
 **Free-body diagram at the application point:**
 
-- Applied force: $$ F $$ (downward, perpendicular to original horizontal)
-- Tension to the left: $$ T $$ pointing up and to the left, at angle $$ \theta $$ above horizontal
-- Tension to the right: $$ T $$ pointing up and to the right, at angle $$ \theta $$ above horizontal
+![Free-body diagram of the point of application with +x to the right and +y up: two tensions T, up and to the left and up and to the right, each at angle theta above the horizontal, with dashed components T cos theta along the x-axis and T sin theta along +y; the applied force F perpendicular points straight down. a equals zero.](../resources/fbd_04_05_p05.svg){: .fbd}
+
+Take $$ +x $$ to the right and $$ +y $$ upward:
+
+- Applied force: $$ F $$, along $$ -y $$ (perpendicular to the original horizontal)
+- Tension to the left: $$ T $$ pointing up and to the left, at angle $$ \theta $$ above horizontal; components $$ (-T\cos\theta, +T\sin\theta) $$
+- Tension to the right: $$ T $$ pointing up and to the right, at angle $$ \theta $$ above horizontal; components $$ (+T\cos\theta, +T\sin\theta) $$
 
 **Horizontal force analysis:**
 
 The horizontal components of tension cancel:
 
 <div class="equation">
-$$ T\cos(\theta) - T\cos(\theta) = 0 $$
+$$ \sum F_x = T\cos(\theta) - T\cos(\theta) = 0 $$
 </div>
 
 **Vertical force analysis:**
@@ -973,15 +1004,15 @@ $$ m_{\text{baby}} = \frac{w_{\text{baby}}}{g} = \frac{55 \N}{9.80 \mss} = 5.61 
 
 **(b) Tension $$ T_1 $$ in cord attaching baby to scale:**
 
-Consider the baby and basket as the system. Forces acting on it:
+Consider the baby and basket as the system (free-body diagram (b) in part (d) below). With $$ +y $$ upward, the forces acting on it are:
 
-- Weight: $$ w_{\text{baby}} = 55 \N $$ (downward)
-- Tension: $$ T_1 $$ (upward)
+- Weight: $$ w_{\text{baby}} = 55 \N $$, along $$ -y $$
+- Tension: $$ T_1 $$, along $$ +y $$
 
 Since the baby is motionless (equilibrium):
 
 <div class="equation">
-$$ T_1 - w_{\text{baby}} = 0 $$
+$$ \sum F_y = T_1 - w_{\text{baby}} = 0 $$
 </div>
 
 <div class="equation">
@@ -990,10 +1021,12 @@ $$ T_1 = w_{\text{baby}} = 55 \N $$
 
 **(c) Tension $$ T_2 $$ in cord attaching scale to ceiling:**
 
-Consider the entire system (baby + basket + scale). Forces acting on this system:
+Consider the entire system (baby + basket + scale), shown in free-body diagram (c) below. Forces acting on this system:
 
-- Combined weight: $$ w_{\text{baby}} + w_{\text{scale}} $$ (downward)
-- Tension from ceiling: $$ T_2 $$ (upward)
+- Weights: $$ w_{\text{baby}} $$ and $$ w_{\text{scale}} $$, both along $$ -y $$
+- Tension from ceiling: $$ T_2 $$, along $$ +y $$
+
+The cord $$ T_1 $$ between the scale and the basket is now inside the system, so it does not appear.
 
 Weight of scale:
 
@@ -1004,7 +1037,7 @@ $$ w_{\text{scale}} = m_{\text{scale}} g = (0.500 \kg)(9.80 \mss) = 4.90 \N $$
 For equilibrium:
 
 <div class="equation">
-$$ T_2 - w_{\text{baby}} - w_{\text{scale}} = 0 $$
+$$ \sum F_y = T_2 - w_{\text{baby}} - w_{\text{scale}} = 0 $$
 </div>
 
 <div class="equation">
@@ -1013,22 +1046,9 @@ $$ T_2 = w_{\text{baby}} + w_{\text{scale}} = 55 \N + 4.90 \N = 59.9 \N \approx 
 
 **(d) System sketches:**
 
-**Part (a) and (b):** System = baby + basket
+The system for parts (a) and (b) is the baby + basket. For part (c) it is the baby + basket + scale. Their free-body diagrams, with $$ +y $$ upward, are:
 
-```
-    T₁ ↑
-    [Baby + Basket]
-    W_baby ↓ (55 N)
-```
-
-**Part (c):** System = baby + basket + scale
-
-```
-    T₂ ↑
-    [Scale (4.90 N)]
-    [Baby + Basket (55 N)]
-    (W_baby + W_scale) ↓ (59.9 N)
-```
+![Two free-body diagrams with +x to the right and +y up, both with a equals zero. Baby plus basket: tension T sub 1 up and weight w sub baby down, equal lengths. Baby plus basket plus scale: tension T sub 2 up, weights w sub baby and a short w sub scale both down.](../resources/fbd_04_05_p06.svg){: .fbd}
 
 **Discussion**
 
@@ -1042,7 +1062,7 @@ This problem demonstrates how forces propagate through a system. The bottom cord
 
 (c) The tension $$ T_2 $$ in the cord attaching the scale to the ceiling is **60 N** (or **59.9 N**).
 
-(d) System sketches are shown above.
+(d) The systems and their free-body diagrams are shown above.
 
 ::::
 

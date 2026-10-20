@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="280" viewBox="0 0 360 280" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the sprinter</title>
+<desc id="desc">Free-body diagram with +x forward (to the right) and +y up: forward force from the ground F to the right, normal force N up, weight w down; the acceleration points to the right.</desc>
+<rect width="360" height="280" fill="#ffffff"/>
+<line x1="40" y1="150" x2="306" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="315,150 305,154.2 305,145.8" fill="#555555"/>
+<line x1="150" y1="255" x2="150" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="150,45 154.2,55 145.8,55" fill="#555555"/>
+<line x1="150" y1="150" x2="150" y2="91" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,80 155.04,92 144.96,92" fill="#b03a2e"/>
+<line x1="150" y1="150" x2="150" y2="209" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,220 144.96,208 155.04,208" fill="#b03a2e"/>
+<line x1="150" y1="150" x2="205" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="216,150 204,155.04 204,144.96" fill="#b03a2e"/>
+<line x1="190" y1="70" x2="229" y2="70" stroke="#1e8449" stroke-width="3"/><polygon points="240,70 228,75.04 228,64.96" fill="#1e8449"/>
+<circle cx="150" cy="150" r="6" fill="#1f3a5f"/>
+<text x="140" y="176" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">sprinter</text>
+<text x="331" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="162" y="99" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="162" y="215" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="202" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="226" y="58" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</svg>

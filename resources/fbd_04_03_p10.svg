@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the motorcycle</title>
+<desc id="desc">Free-body diagram with +x forward and +y up: F ground to the right, resistive force f to the left, normal force N up, weight w down; the acceleration points to the right.</desc>
+<rect width="400" height="280" fill="#ffffff"/>
+<line x1="50" y1="150" x2="341" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="350,150 340,154.2 340,145.8" fill="#555555"/>
+<line x1="180" y1="255" x2="180" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="180,45 184.2,55 175.8,55" fill="#555555"/>
+<line x1="180" y1="150" x2="180" y2="91" stroke="#b03a2e" stroke-width="3.5"/><polygon points="180,80 185.04,92 174.96,92" fill="#b03a2e"/>
+<line x1="180" y1="150" x2="180" y2="209" stroke="#b03a2e" stroke-width="3.5"/><polygon points="180,220 174.96,208 185.04,208" fill="#b03a2e"/>
+<line x1="180" y1="150" x2="294" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="305,150 293,155.04 293,144.96" fill="#b03a2e"/>
+<line x1="180" y1="150" x2="146" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="135,150 147,144.96 147,155.04" fill="#b03a2e"/>
+<line x1="230" y1="75" x2="269" y2="75" stroke="#1e8449" stroke-width="3"/><polygon points="280,75 268,80.04 268,69.96" fill="#1e8449"/>
+<circle cx="180" cy="150" r="6" fill="#1f3a5f"/>
+<text x="188" y="170" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">motorcycle + rider</text>
+<text x="366" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="180" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="192" y="99" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="192" y="215" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="291" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">ground</tspan><tspan dy="-6"></tspan></text>
+<text x="149" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="266" y="63" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</svg>

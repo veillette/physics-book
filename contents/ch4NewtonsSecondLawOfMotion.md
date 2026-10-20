@@ -784,13 +784,19 @@ stopping?
 
 First, find the force the person exerts using the relationship between applied force, friction, and net force. Then, when the applied force is removed, use Newton's second law to find the deceleration due to friction alone, and use kinematics to find the stopping distance.
 
+**Free-body diagram**
+
+![Free-body diagrams of the mower with +x to the right and +y up. Pushing: N up, w down, F to the right, f to the left, acceleration to the right. Coasting: N up, w down, f to the left, acceleration to the left.](../resources/fbd_04_03_p05.svg){: .fbd}
+
+Take $$ +x $$ in the direction of motion and $$ +y $$ upward, as shown. In both diagrams the vertical forces cancel, $$ \sum F_y = N - w = 0 $$, so only the $$ x $$-components matter.
+
 **Solution**
 
 **Part 1: Force exerted by person**
 
-The net force is the applied force minus friction:
+In the "pushing" diagram, $$ F $$ points along $$ +x $$ and $$ f $$ along $$ -x $$, so the net force is
 <div class="equation">
-$$ F_{\text{net}} = F - f $$
+$$ F_{\text{net}} = \sum F_x = F - f $$
 </div>
 
 Solving for $$ F $$:
@@ -800,15 +806,17 @@ $$ F = F_{\text{net}} + f = 51 \N + 24 \N = 75 \N $$
 
 **Part 2: Stopping distance**
 
-When the applied force is removed, only friction acts, so:
+When the applied force is removed, the "coasting" diagram has only friction along $$ x $$, and it points in the $$ -x $$ direction:
 <div class="equation">
-$$ F_{\text{net}} = -f = -24 \N $$
+$$ \sum F_x = -f = -24 \N $$
 </div>
 
 The acceleration (deceleration) is:
 <div class="equation">
-$$ a = \frac{F_{\text{net}}}{m} = \frac{-24 \N}{24 \kg} = -1.0 \mss $$
+$$ a_x = \frac{\sum F_x}{m} = \frac{-24 \N}{24 \kg} = -1.0 \mss $$
 </div>
+
+The negative sign means the acceleration points along $$ -x $$, opposite the motion, exactly as drawn.
 
 Using the kinematic equation $$ v^2 = v_0^2 + 2ax $$ with $$ v = 0 $$, $$ v_0 = 1.5 \ms $$:
 <div class="equation">
@@ -897,6 +905,12 @@ the thrust T is $$ 2.59\times 10^{4} \N $$, and the force of friction opposing t
 
 For part (a), use Newton's second law to find the acceleration. The net force equals thrust minus friction. For part (b), consider how both the driving force and the opposing friction force affect the net force and resulting acceleration.
 
+**Free-body diagram**
+
+![Free-body diagram of the sled with one rocket, with +x to the right and +y up: thrust T to the right, friction f to the left, normal force N up, weight w down; the acceleration points to the right.](../resources/fbd_04_03_p07.svg){: .fbd}
+
+With $$ +x $$ in the direction of the thrust and $$ +y $$ upward, the vertical forces balance ($$ \sum F_y = N - w = 0 $$) and the horizontal forces produce the acceleration.
+
 **Solution**
 
 **(a) Acceleration with one rocket:**
@@ -906,14 +920,14 @@ Given:
 - Thrust from one rocket: $$ T = 2.59 \times 10^{4} \N $$
 - Friction force: $$ f = 650 \N $$
 
-The net force is the thrust minus friction:
+From the diagram, $$ T $$ points along $$ +x $$ and $$ f $$ along $$ -x $$:
 <div class="equation">
-$$ F_{\text{net}} = T - f = 2.59 \times 10^{4} \N - 650 \N = 25{,}250 \N $$
+$$ \sum F_x = T - f = 2.59 \times 10^{4} \N - 650 \N = 25{,}250 \N $$
 </div>
 
-Apply Newton's second law:
+Apply Newton's second law along $$ x $$:
 <div class="equation">
-$$ a = \frac{F_{\text{net}}}{m} = \frac{25{,}250 \N}{2100 \kg} = 12.0 \mss $$
+$$ a_x = \frac{\sum F_x}{m} = \frac{25{,}250 \N}{2100 \kg} = 12.0 \mss $$
 </div>
 
 **(b) Why not one-fourth of the acceleration with four rockets:**
@@ -1032,15 +1046,14 @@ The system is the child in the wagon plus the wagon. This is the object whose ac
 
 **(b) Free-body diagram:**
 
-![An object represented as a dot labeled m is shown at the center. One force represented by an arrow labeled as vector F sub 2 acts toward the right. Another force represented by an arrow labeled as vector F sub 1 having a slightly shorter length in comparison with F sub 2 acts on the object pointing left. A friction force represented by an arrow labeled as vector f having a small length acts on the object toward the left. Weight, represented by an arrow labeled as vector W, acts on the object downward, and normal force, represented by an arrow labeled as vector N, acts upward, having the same length as W.](../resources/Figure_04_03_06.jpg)
-{: #Figure7}
+![Free-body diagram of the child plus wagon with +x to the right and +y up: F sub 2 to the right, a slightly shorter F sub 1 to the left, a short friction force f to the left, normal force N up, and weight w down. The acceleration points to the right.](../resources/fbd_04_03_p09.svg){: .fbd #Figure7}
 
-The diagram shows:
-- $$ F_1 = 75.0 \N $$ (to the left)
-- $$ F_2 = 90.0 \N $$ (to the right)
-- $$ f = 12.0 \N $$ (friction, opposing motion—to the left since net push is rightward)
-- $$ W $$ (weight, downward)
-- $$ N $$ (normal force, upward, equal to weight since no vertical acceleration)
+We choose $$ +x $$ to the right (the direction of the larger push) and $$ +y $$ upward. The diagram shows:
+- $$ F_2 = 90.0 \N $$, along $$ +x $$
+- $$ F_1 = 75.0 \N $$, along $$ -x $$
+- $$ f = 12.0 \N $$ (friction opposes the motion, which is along $$ +x $$ since the net push is rightward), along $$ -x $$
+- $$ w $$ (weight), along $$ -y $$
+- $$ N $$ (normal force), along $$ +y $$; since there is no vertical acceleration, $$ \sum F_y = N - w = 0 $$
 
 **(c) Calculate the acceleration:**
 
@@ -1050,23 +1063,23 @@ Given:
 - Friction: $$ f = 12.0 \N $$ (opposing motion)
 - Mass: $$ m = 23.0 \kg $$
 
-The net horizontal force (taking rightward as positive):
+Reading the signs from the free-body diagram, the net force along $$ x $$ is:
 <div class="equation">
-$$ F_{\text{net}} = F_2 - F_1 - f = 90.0 \N - 75.0 \N - 12.0 \N = 3.0 \N $$
+$$ \sum F_x = F_2 - F_1 - f = 90.0 \N - 75.0 \N - 12.0 \N = 3.0 \N $$
 </div>
 
-Apply Newton's second law:
+Apply Newton's second law along $$ x $$:
 <div class="equation">
-$$ a = \frac{F_{\text{net}}}{m} = \frac{3.0 \N}{23.0 \kg} = 0.130 \mss $$
+$$ a_x = \frac{\sum F_x}{m} = \frac{3.0 \N}{23.0 \kg} = 0.130 \mss $$
 </div>
 
-The acceleration is in the direction of the second child's push (rightward).
+The acceleration is positive, so it points along $$ +x $$, in the direction of the second child's push.
 
 **(d) Acceleration if friction were 15.0 N:**
 
 With increased friction:
 <div class="equation">
-$$ F_{\text{net}} = 90.0 \N - 75.0 \N - 15.0 \N = 0 \N $$
+$$ \sum F_x = 90.0 \N - 75.0 \N - 15.0 \N = 0 \N $$
 </div>
 
 <div class="equation">
@@ -1081,7 +1094,7 @@ This problem illustrates how multiple forces combine to produce acceleration. Th
 
 (a) The system of interest is **the child in the wagon plus the wagon**.
 
-(b) The free-body diagram is shown above in Figure 7.
+(b) The free-body diagram is shown above in part (b).
 
 (c) The acceleration is **0.130 m/s²** in the direction of the second child's push (the stronger push).
 
@@ -1110,26 +1123,32 @@ its acceleration if the mass of the motorcycle with rider is 245 kg?
 
 The net force produces the acceleration. The force the ground exerts on the motorcycle (forward) must overcome the resistive forces and provide the net force for acceleration. By Newton's third law, the motorcycle exerts an equal and opposite force backward on the ground.
 
+**Free-body diagram**
+
+![Free-body diagram of the motorcycle and rider with +x forward (to the right) and +y up: forward force from the ground F sub ground to the right, resistive force f to the left, normal force N up, weight w down; the acceleration points to the right.](../resources/fbd_04_03_p10.svg){: .fbd}
+
+Take $$ +x $$ forward and $$ +y $$ upward. The vertical forces cancel ($$ \sum F_y = N - w = 0 $$); the horizontal ones produce the acceleration $$ a_x = +3.50 \mss $$.
+
 **Solution**
 
 Given:
 - Mass: $$ m = 245 \kg $$
-- Acceleration: $$ a = 3.50 \mss $$
+- Acceleration: $$ a_x = 3.50 \mss $$
 - Resistive forces: $$ f = 400 \N $$
 
 1. Calculate the net force using Newton's second law:
 <div class="equation">
-$$ F_{\text{net}} = ma = (245 \kg)(3.50 \mss) = 858 \N $$
+$$ \sum F_x = ma_x = (245 \kg)(3.50 \mss) = 858 \N $$
 </div>
 
-2. The net force is the difference between the forward force from the ground $$ F_{\text{ground}} $$ and the resistive forces:
+2. From the diagram, the forward force from the ground $$ F_{\text{ground}} $$ points along $$ +x $$ and the resistive forces along $$ -x $$:
 <div class="equation">
-$$ F_{\text{net}} = F_{\text{ground}} - f $$
+$$ \sum F_x = F_{\text{ground}} - f $$
 </div>
 
 3. Solve for the force from the ground:
 <div class="equation">
-$$ F_{\text{ground}} = F_{\text{net}} + f = 858 \N + 400 \N = 1258 \N \approx 1260 \N $$
+$$ F_{\text{ground}} = \sum F_x + f = 858 \N + 400 \N = 1258 \N \approx 1260 \N $$
 </div>
 
 **Discussion**
@@ -1165,17 +1184,23 @@ seat exerts against his body.
 
 For part (a), use Newton's second law to find the horizontal force needed to accelerate the passenger. Compare this to his weight. For part (b), combine the horizontal and vertical components (vertical component equals weight to support the passenger) to find the total force magnitude and direction.
 
+**Free-body diagram**
+
+![Free-body diagram of the passenger with +x forward (to the right) and +y up: the seat force F sub total points forward and slightly upward at angle theta above +x, with dashed components F sub x along +x and F sub y along +y; the weight w points down. The acceleration points to the right.](../resources/fbd_04_03_p11.svg){: .fbd}
+
+Only two objects touch the passenger: the Earth (weight $$ w $$, along $$ -y $$) and the seat, whose single force $$ F_{\text{total}} $$ we split into components $$ F_x $$ and $$ F_y $$ along the axes shown. The acceleration is along $$ +x $$, so $$ a_x = 49.0 \mss $$ and $$ a_y = 0 $$.
+
 **Solution**
 
 Given:
 - Mass of passenger: $$ m = 75.0 \kg $$
-- Acceleration: $$ a = 49.0 \mss $$
+- Acceleration: $$ a_x = 49.0 \mss $$, $$ a_y = 0 $$
 
 **(a) Horizontal component of force and comparison to weight:**
 
-The horizontal force needed to accelerate the passenger:
+Only the seat force has an $$ x $$-component, so Newton's second law along $$ x $$ gives:
 <div class="equation">
-$$ F_{\text{horizontal}} = ma = (75.0 \kg)(49.0 \mss) = 3675 \N \approx 3.68 \times 10^{3} \N $$
+$$ \sum F_x = F_x = ma_x = (75.0 \kg)(49.0 \mss) = 3675 \N \approx 3.68 \times 10^{3} \N $$
 </div>
 
 Calculate the passenger's weight:
@@ -1185,27 +1210,32 @@ $$ w = mg = (75.0 \kg)(9.80 \mss) = 735 \N $$
 
 Compare using a ratio:
 <div class="equation">
-$$ \frac{F_{\text{horizontal}}}{w} = \frac{3675 \N}{735 \N} = 5.00 $$
+$$ \frac{F_x}{w} = \frac{3675 \N}{735 \N} = 5.00 $$
 </div>
 
 **(b) Total force magnitude and direction:**
 
-The seat must exert two force components:
-- Horizontal: $$ F_{\text{horizontal}} = 3675 \N $$ (forward, to accelerate the passenger)
-- Vertical: $$ F_{\text{vertical}} = 735 \N $$ (upward, to support the passenger's weight)
+Along $$ y $$ the diagram shows $$ F_y $$ up and $$ w $$ down, and $$ a_y = 0 $$:
+<div class="equation">
+$$ \sum F_y = F_y - w = 0 \quad \Rightarrow \quad F_y = w = 735 \N $$
+</div>
+
+So the seat force has components:
+- $$ F_x = 3675 \N $$ (along $$ +x $$, to accelerate the passenger)
+- $$ F_y = 735 \N $$ (along $$ +y $$, to support the passenger's weight)
 
 Total force magnitude using the Pythagorean theorem:
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_{\text{horizontal}}^2 + F_{\text{vertical}}^2} = \sqrt{(3675)^2 + (735)^2} $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(3675)^2 + (735)^2} $$
 </div>
 
 <div class="equation">
 $$ F_{\text{total}} = \sqrt{13{,}505{,}625 + 540{,}225} = \sqrt{14{,}045{,}850} = 3748 \N \approx 3750 \N $$
 </div>
 
-Direction above horizontal:
+Direction above the $$ +x $$ axis (the angle $$ \theta $$ in the diagram):
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{F_{\text{vertical}}}{F_{\text{horizontal}}}\right) = \tan^{-1}\left(\frac{735}{3675}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{F_y}{F_x}\right) = \tan^{-1}\left(\frac{735}{3675}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
 </div>
 
 **Discussion**
@@ -1241,17 +1271,25 @@ In this problem, the forces are exerted by the seat and restraining belts.
 
 Similar to the previous problem, calculate the horizontal force the seat and belts exert on the passenger to decelerate him, then find the total force including the upward vertical component that supports his weight. During deceleration this total force points **backward** (opposite the sled's forward motion) and slightly **upward**.
 
+**Free-body diagram**
+
+![Free-body diagram of the decelerating passenger with +x forward (to the right) and +y up: the force of the seat and belts F sub total points backward and slightly upward at angle theta above the -x axis, with dashed components F sub x along -x and F sub y along +y; the weight w points down. The acceleration points to the left.](../resources/fbd_04_03_p12.svg){: .fbd}
+
+We keep $$ +x $$ in the forward direction of the sled and $$ +y $$ upward. The sled is slowing down, so the acceleration points along $$ -x $$: $$ a_x = -201 \mss $$, $$ a_y = 0 $$. The combined force of the seat and belts, $$ F_{\text{total}} $$, has components $$ F_x $$ (which will come out negative) and $$ F_y $$.
+
 **Solution**
 
 Given:
 - Mass of passenger: $$ m = 75.0 \kg $$
-- Deceleration: $$ a = -201 \mss $$ (negative because it opposes motion)
+- Acceleration: $$ a_x = -201 \mss $$ (negative because it points along $$ -x $$, opposite the motion)
 
 **(a) Horizontal component of force:**
 
 <div class="equation">
-$$ F_{\text{horizontal}} = ma = (75.0 \kg)(-201 \mss) = -1.51 \times 10^{4} \N $$
+$$ \sum F_x = F_x = ma_x = (75.0 \kg)(-201 \mss) = -1.51 \times 10^{4} \N $$
 </div>
+
+The negative sign confirms that $$ F_x $$ points along $$ -x $$ (backward), as drawn.
 
 The magnitude is $$ 1.51 \times 10^{4} \N $$ or 15,100 N.
 
@@ -1262,27 +1300,27 @@ $$ w = mg = (75.0 \kg)(9.80 \mss) = 735 \N $$
 
 Ratio:
 <div class="equation">
-$$ \frac{F_{\text{horizontal}}}{w} = \frac{15{,}100 \N}{735 \N} = 20.5 $$
+$$ \frac{|F_x|}{w} = \frac{15{,}100 \N}{735 \N} = 20.5 $$
 </div>
 
 **(b) Total force magnitude and direction:**
 
-The vertical component equals the passenger's weight (upward): $$ F_{\text{vertical}} = 735 \N $$
+Along $$ y $$, $$ a_y = 0 $$, so $$ \sum F_y = F_y - w = 0 $$ and $$ F_y = w = 735 \N $$ (along $$ +y $$).
 
-The horizontal component (backward, opposing the sled's forward motion): $$ F_{\text{horizontal}} = 1.51 \times 10^{4} \N $$
+The horizontal component has magnitude $$ |F_x| = 1.51 \times 10^{4} \N $$ (along $$ -x $$, opposing the sled's forward motion).
 
 Total force magnitude:
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_{\text{horizontal}}^2 + F_{\text{vertical}}^2} = \sqrt{(1.51 \times 10^{4})^2 + (735)^2} $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(1.51 \times 10^{4})^2 + (735)^2} $$
 </div>
 
 <div class="equation">
 $$ F_{\text{total}} = \sqrt{2.28 \times 10^{8} + 5.40 \times 10^{5}} = \sqrt{2.29 \times 10^{8}} = 1.51 \times 10^{4} \N $$
 </div>
 
-Direction above the backward horizontal:
+Direction above the $$ -x $$ axis (the angle $$ \theta $$ in the diagram):
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{F_{\text{vertical}}}{F_{\text{horizontal}}}\right) = \tan^{-1}\left(\frac{735}{15{,}100}\right) = 2.79^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{F_y}{|F_x|}\right) = \tan^{-1}\left(\frac{735}{15{,}100}\right) = 2.79^\circ $$
 </div>
 
 **Discussion**
@@ -1370,6 +1408,12 @@ from the Moon is 10 000 kg. The thrust of its engines is 30 000 N.
 
 For vertical takeoff, the net force is thrust minus weight. Use Newton's second law to find acceleration. Compare the thrust to the weight on the Moon (part a) and on Earth (part b).
 
+**Free-body diagram**
+
+![Two free-body diagrams of the lunar module with +x to the right and +y up. On the Moon: thrust T up, a smaller weight w sub Moon down, acceleration up. On Earth, resting on the ground: thrust T up and normal force N up together balance a large weight w sub Earth down, so a equals zero.](../resources/fbd_04_03_p14.svg){: .fbd}
+
+All forces are vertical, so we only need the $$ y $$-axis, with $$ +y $$ upward. On the Moon the thrust points along $$ +y $$ and the weight along $$ -y $$. On Earth, the module sits on the ground, so the ground also pushes along $$ +y $$ with a normal force $$ N $$.
+
 **Solution**
 
 Given:
@@ -1385,14 +1429,14 @@ Weight on Moon:
 $$ w_{\text{Moon}} = mg_{\text{Moon}} = (10{,}000 \kg)(1.62 \mss) = 1.62 \times 10^{4} \N $$
 </div>
 
-Net force (upward positive):
+Net force along $$ y $$, from diagram (a):
 <div class="equation">
-$$ F_{\text{net}} = T - w_{\text{Moon}} = 30{,}000 \N - 16{,}200 \N = 13{,}800 \N $$
+$$ \sum F_y = T - w_{\text{Moon}} = 30{,}000 \N - 16{,}200 \N = 13{,}800 \N $$
 </div>
 
 Acceleration:
 <div class="equation">
-$$ a = \frac{F_{\text{net}}}{m} = \frac{13{,}800 \N}{10{,}000 \kg} = 1.38 \mss $$
+$$ a_y = \frac{\sum F_y}{m} = \frac{13{,}800 \N}{10{,}000 \kg} = 1.38 \mss $$
 </div>
 
 **(b) Could it lift off from Earth?**
@@ -1415,7 +1459,7 @@ $$ T - w_{\text{Earth}} = 30{,}000 \N - 98{,}000 \N = -68{,}000 \N $$
 
 This unsupported force sum is negative, so thrust alone cannot lift the module. While it sits on the ground, however, the ground also pushes up on it with a normal force $$ N $$. Because the module remains at rest, the net force is zero:
 <div class="equation">
-$$ F_{\text{net}} = T + N - w_{\text{Earth}} = 0 \quad \Rightarrow \quad N = 98{,}000 \N - 30{,}000 \N = 68{,}000 \N \text{ (upward)} $$
+$$ \sum F_y = T + N - w_{\text{Earth}} = 0 \quad \Rightarrow \quad N = 98{,}000 \N - 30{,}000 \N = 68{,}000 \N \text{ (along } +y\text{)} $$
 </div>
 
 **Discussion**

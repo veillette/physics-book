@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="280" viewBox="0 0 460 280" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the center of the rope</title>
+<desc id="desc">Free-body diagram with +x along the car-to-tree line (to the right, toward the tree) and +y perpendicular to it (up the page): tension T toward the car, up and to the left, and tension T toward the tree, up and to the right, each at a small angle theta above the x-axis, with dashed components T sin theta along +y; the applied force F app points along -y. a = 0.</desc>
+<rect width="460" height="280" fill="#ffffff"/>
+<line x1="30" y1="120" x2="421" y2="120" stroke="#555555" stroke-width="1.5"/><polygon points="430,120 420,124.2 420,115.8" fill="#555555"/>
+<line x1="230" y1="260" x2="230" y2="34" stroke="#555555" stroke-width="1.5"/><polygon points="230,25 234.2,35 225.8,35" fill="#555555"/>
+<path d="M 350 120 A 120 120 0 0 0 348.83 103.3" fill="none" stroke="#222222" stroke-width="1.5"/>
+<path d="M 111.17 103.3 A 120 120 0 0 0 110 120" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="236" y1="120" x2="236" y2="105.8" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="236,96 240.54,106.8 231.46,106.8" fill="#c0675e"/>
+<line x1="224" y1="120" x2="224" y2="105.8" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="224,96 228.54,106.8 219.46,106.8" fill="#c0675e"/>
+<line x1="230" y1="120" x2="382.5" y2="98.57" stroke="#b03a2e" stroke-width="3.5"/><polygon points="393.39,97.04 382.21,103.7 380.81,93.72" fill="#b03a2e"/>
+<line x1="230" y1="120" x2="77.5" y2="98.57" stroke="#b03a2e" stroke-width="3.5"/><polygon points="66.61,97.04 79.19,93.72 77.79,103.7" fill="#b03a2e"/>
+<line x1="230" y1="120" x2="230" y2="157" stroke="#b03a2e" stroke-width="3.5"/><polygon points="230,168 224.96,156 235.04,156" fill="#b03a2e"/>
+<circle cx="230" cy="120" r="6" fill="#1f3a5f"/>
+<text x="446" y="126" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="230" y="15" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="379.53" y="79.04" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="80.47" y="79.04" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="248" y="101" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="216" y="89" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="end" xml:space="preserve"><tspan font-style="italic">T</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="242" y="163" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">app</tspan><tspan dy="-6"></tspan></text>
+<text x="363.67" y="116.95" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="96.33" y="116.95" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="70" y="160" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">toward car</text>
+<text x="390" y="160" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">toward tree</text>
+<text x="100" y="46" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="230" y="270" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" font-style="italic">angle θ exaggerated for clarity</text>
+</svg>

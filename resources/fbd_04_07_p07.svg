@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="330" viewBox="0 0 320 330" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the basketball player during push-off</title>
+<desc id="desc">Free-body diagram with +x to the right and +y up: normal force N from the floor up, four times as long as the weight w pointing down; the acceleration points up.</desc>
+<rect width="320" height="330" fill="#ffffff"/>
+<line x1="40" y1="200" x2="266" y2="200" stroke="#555555" stroke-width="1.5"/><polygon points="275,200 265,204.2 265,195.8" fill="#555555"/>
+<line x1="150" y1="300" x2="150" y2="84" stroke="#555555" stroke-width="1.5"/><polygon points="150,75 154.2,85 145.8,85" fill="#555555"/>
+<line x1="150" y1="200" x2="150" y2="99" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,88 155.04,100 144.96,100" fill="#b03a2e"/>
+<line x1="150" y1="200" x2="150" y2="217" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,228 144.96,216 155.04,216" fill="#b03a2e"/>
+<line x1="80" y1="145" x2="80" y2="116" stroke="#1e8449" stroke-width="3"/><polygon points="80,105 85.04,117 74.96,117" fill="#1e8449"/>
+<circle cx="150" cy="200" r="6" fill="#1f3a5f"/>
+<text x="140" y="222" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">player</text>
+<text x="291" y="206" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="65" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="162" y="107" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="162" y="227" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="92" y="124" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</svg>

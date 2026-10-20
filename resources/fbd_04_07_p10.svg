@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="322" viewBox="0 0 690 322" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagrams of the elevator in three phases</title>
+<desc id="desc">Three free-body diagrams with +x to the right and +y up, each with cable tension T up and weight w down. (a) Speeding up: T longer than w, acceleration up. (b) Constant velocity: T equal to w, a = 0. (c) Slowing down while moving up: T shorter than w, acceleration down.</desc>
+<rect width="690" height="322" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(a) Speeding up</text>
+<g transform="translate(0 22)">
+<line x1="20" y1="160" x2="191" y2="160" stroke="#555555" stroke-width="1.5"/><polygon points="200,160 190,164.2 190,155.8" fill="#555555"/>
+<line x1="105" y1="275" x2="105" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="105,45 109.2,55 100.8,55" fill="#555555"/>
+<line x1="105" y1="160" x2="105" y2="73" stroke="#b03a2e" stroke-width="3.5"/><polygon points="105,62 110.04,74 99.96,74" fill="#b03a2e"/>
+<line x1="105" y1="160" x2="105" y2="229" stroke="#b03a2e" stroke-width="3.5"/><polygon points="105,240 99.96,228 110.04,228" fill="#b03a2e"/>
+<line x1="50" y1="110" x2="50" y2="81" stroke="#1e8449" stroke-width="3"/><polygon points="50,70 55.04,82 44.96,82" fill="#1e8449"/>
+<circle cx="105" cy="160" r="6" fill="#1f3a5f"/>
+<text x="216" y="166" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="105" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="117" y="81" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="117" y="235" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="62" y="89" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+<line x1="230" y1="10" x2="230" y2="312" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(230 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(b) Constant v</text>
+<g transform="translate(0 22)">
+<line x1="20" y1="160" x2="191" y2="160" stroke="#555555" stroke-width="1.5"/><polygon points="200,160 190,164.2 190,155.8" fill="#555555"/>
+<line x1="105" y1="275" x2="105" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="105,45 109.2,55 100.8,55" fill="#555555"/>
+<line x1="105" y1="160" x2="105" y2="91" stroke="#b03a2e" stroke-width="3.5"/><polygon points="105,80 110.04,92 99.96,92" fill="#b03a2e"/>
+<line x1="105" y1="160" x2="105" y2="229" stroke="#b03a2e" stroke-width="3.5"/><polygon points="105,240 99.96,228 110.04,228" fill="#b03a2e"/>
+<circle cx="105" cy="160" r="6" fill="#1f3a5f"/>
+<text x="216" y="166" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="105" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="117" y="99" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="117" y="235" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="55" y="71" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+</g>
+</g>
+<line x1="460" y1="10" x2="460" y2="312" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(460 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(c) Slowing down</text>
+<g transform="translate(0 22)">
+<line x1="20" y1="160" x2="191" y2="160" stroke="#555555" stroke-width="1.5"/><polygon points="200,160 190,164.2 190,155.8" fill="#555555"/>
+<line x1="105" y1="275" x2="105" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="105,45 109.2,55 100.8,55" fill="#555555"/>
+<line x1="105" y1="160" x2="105" y2="99" stroke="#b03a2e" stroke-width="3.5"/><polygon points="105,88 110.04,100 99.96,100" fill="#b03a2e"/>
+<line x1="105" y1="160" x2="105" y2="229" stroke="#b03a2e" stroke-width="3.5"/><polygon points="105,240 99.96,228 110.04,228" fill="#b03a2e"/>
+<line x1="50" y1="80" x2="50" y2="99" stroke="#1e8449" stroke-width="3"/><polygon points="50,110 44.96,98 55.04,98" fill="#1e8449"/>
+<circle cx="105" cy="160" r="6" fill="#1f3a5f"/>
+<text x="216" y="166" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="105" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="117" y="107" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="117" y="235" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="62" y="105" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+</svg>

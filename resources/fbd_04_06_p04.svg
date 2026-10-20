@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="340" viewBox="0 0 340 340" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the landing gymnast</title>
+<desc id="desc">Free-body diagram with +x to the right and +y up: normal force N from the mat up, eight times as long as the weight w pointing down; the gymnast is moving down but slowing, so the acceleration points up.</desc>
+<rect width="340" height="340" fill="#ffffff"/>
+<line x1="40" y1="250" x2="276" y2="250" stroke="#555555" stroke-width="1.5"/><polygon points="285,250 275,254.2 275,245.8" fill="#555555"/>
+<line x1="150" y1="325" x2="150" y2="99" stroke="#555555" stroke-width="1.5"/><polygon points="150,90 154.2,100 145.8,100" fill="#555555"/>
+<line x1="150" y1="250" x2="150" y2="125" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,114 155.04,126 144.96,126" fill="#b03a2e"/>
+<line x1="150" y1="250" x2="150" y2="260.35" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,267 146.79,259.35 153.21,259.35" fill="#b03a2e"/>
+<line x1="80" y1="180" x2="80" y2="146" stroke="#1e8449" stroke-width="3"/><polygon points="80,135 85.04,147 74.96,147" fill="#1e8449"/>
+<circle cx="150" cy="250" r="6" fill="#1f3a5f"/>
+<text x="140" y="272" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">gymnast</text>
+<text x="301" y="256" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="80" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="162" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="162" y="268" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="92" y="154" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="250" y="160" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">moving down,</text>
+<text x="250" y="176" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">slowing down</text>
+</svg>

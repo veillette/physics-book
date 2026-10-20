@@ -450,6 +450,12 @@ We'll convert angular velocities to rad/s, then use $$F_c = mr\omega^{2}$$ to ca
 
 **Solution**
 
+**Free-body diagram**
+
+![Free-body diagram of the child with +x horizontally toward the center and +y up: centripetal force F sub c from the ride along +x, normal force N up, weight w down; the acceleration points toward the center.](../resources/fbd_06_03_p01.svg){: .fbd}
+
+Take $$+x$$ horizontally toward the center of the merry-go-round and $$+y$$ upward. Vertically, $$\sum F_{y} = N - w = 0$$. Horizontally, the only force is the inward push of the ride, $$F_{c}$$, so $$\sum F_{x} = F_{c} = ma_c = mr\omega^2$$.
+
 (a) Convert angular velocity and calculate centripetal force:
 
 <div class="equation">
@@ -542,6 +548,18 @@ What is the ideal banking angle for a gentle turn of 1.20 km radius on a highway
 
 For an ideally banked curve, we use $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right)$$. We'll need to convert the speed from km/h to m/s.
 
+**Free-body diagram**
+
+![Free-body diagram of a car on an ideally banked curve with +x horizontally toward the center and +y up: normal force N tilted theta from vertical toward the center, with dashed components N sine theta along +x and N cosine theta along +y; weight w down; acceleration toward the center.](../resources/fbd_06_03_p03.svg){: .fbd}
+
+With $$+x$$ horizontal toward the center of the curve and $$+y$$ upward, the only forces are the weight ($$-y$$) and the normal force, tilted $$\theta$$ from the vertical toward the center, with components $$N\sin\theta$$ along $$+x$$ and $$N\cos\theta$$ along $$+y$$. The acceleration $$v^2/r$$ points along $$+x$$:
+
+<div class="equation">
+$$\sum F_{x} = N\sin\theta = \frac{mv^2}{r}, \qquad \sum F_{y} = N\cos\theta - mg = 0$$
+</div>
+
+Dividing the first equation by the second ($$N\cos\theta = mg$$) gives $$\tan\theta = \dfrac{v^2}{rg}$$.
+
 **Solution**
 
 Convert the speed to m/s:
@@ -587,6 +605,18 @@ What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?
 **Strategy**
 
 For an ideally banked curve (no friction needed), we use the relationship $$\tan\theta = \frac{v^2}{rg}$$. We'll solve for $$v$$ and substitute the known values.
+
+**Free-body diagram**
+
+![Free-body diagram of a car on a curve banked at 20 degrees, +x horizontally toward the center and +y up: normal force N tilted theta from vertical toward the center, with dashed components N sine theta along +x and N cosine theta along +y; weight w down; acceleration toward the center.](../resources/fbd_06_03_p04.svg){: .fbd}
+
+With $$+x$$ horizontal toward the center of the curve and $$+y$$ upward, the only forces are the weight ($$-y$$) and the normal force, tilted $$\theta$$ from the vertical toward the center, with components $$N\sin\theta$$ along $$+x$$ and $$N\cos\theta$$ along $$+y$$. The acceleration $$v^2/r$$ points along $$+x$$:
+
+<div class="equation">
+$$\sum F_{x} = N\sin\theta = \frac{mv^2}{r}, \qquad \sum F_{y} = N\cos\theta - mg = 0$$
+</div>
+
+Dividing the first equation by the second ($$N\cos\theta = mg$$) gives $$\tan\theta = \dfrac{v^2}{rg}$$.
 
 **Solution**
 
@@ -637,6 +667,18 @@ The ideal speed to take the 100 m radius curve banked at 20.0° is 18.9 m/s (abo
 **Strategy**
 
 For an ideally banked curve (no friction required), we use the relationship $$\tan\theta = \frac{v^2}{rg}$$. We'll solve for the radius $$r$$, then calculate the centripetal acceleration using $$a_c = \frac{v^2}{r}$$ and compare it to $$g$$.
+
+**Free-body diagram**
+
+![Free-body diagram of the bobsled on a turn banked at 75 degrees, +x horizontally toward the center and +y up: normal force N tilted 75 degrees from vertical toward the center, with dashed components N sine theta along +x and N cosine theta along +y; short weight w down; acceleration toward the center.](../resources/fbd_06_03_p05.svg){: .fbd}
+
+With $$+x$$ horizontal toward the center of the curve and $$+y$$ upward, the only forces are the weight ($$-y$$) and the normal force, tilted $$\theta$$ from the vertical toward the center, with components $$N\sin\theta$$ along $$+x$$ and $$N\cos\theta$$ along $$+y$$. The acceleration $$v^2/r$$ points along $$+x$$:
+
+<div class="equation">
+$$\sum F_{x} = N\sin\theta = \frac{mv^2}{r}, \qquad \sum F_{y} = N\cos\theta - mg = 0$$
+</div>
+
+Dividing the first equation by the second ($$N\cos\theta = mg$$) gives $$\tan\theta = \dfrac{v^2}{rg}$$. At $$\theta = 75.0°$$ the normal force is almost horizontal: it is mostly centripetal force, and only its small vertical component supports the weight.
 
 **Solution**
 
@@ -720,16 +762,20 @@ roadway—that is, $$\theta ={\tan}^{-1}{v}^{2}/rg$$
 
 **Solution**
 
-(a) The horizontal component of the ground force is the friction $$f$$, which provides the centripetal force:
+(a) Draw the free-body diagram with $$+x$$ horizontally toward the center of the turn and $$+y$$ upward:
+
+![Free-body diagram of the bicycle and rider with +x toward the center and +y up: normal force N up, friction f along +x, weight w down; the total ground force F, the sum of N and f, is tilted theta from the vertical; acceleration toward the center.](../resources/fbd_06_03_p06.svg){: .fbd}
+
+The horizontal component of the ground force is the friction $$f$$ (along $$+x$$), which provides the centripetal force:
 
 <div class="equation">
-$$f = \frac{mv^{2}}{r}$$
+$$\sum F_x = f = \frac{mv^{2}}{r}$$
 </div>
 
-The vertical component is the normal force $$N$$, which equals the weight:
+The vertical component is the normal force $$N$$ (along $$+y$$), which balances the weight:
 
 <div class="equation">
-$$N = mg$$
+$$\sum F_y = N - mg = 0 \quad\Rightarrow\quad N = mg$$
 </div>
 
 The angle $$\theta$$ that the resultant force makes with the vertical is:
@@ -807,10 +853,14 @@ $$\omega^{2} = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\te
 $$\omega = \sqrt{6.53} = 2.56\text{ rad/s}$$
 </div>
 
-(b) Draw a free body diagram: The cage hangs below the arm's pivot, so its axis tilts $$\theta$$ below horizontal on its way out from the pivot. The forces on the cage are its weight $$mg$$ downward and the arm's force $$F$$, which points from the cage back along that axis: inward toward the center and **upward**, at angle $$\theta$$ **above** horizontal. The horizontal component of $$F$$ provides centripetal force, while the vertical component balances weight:
+(b) Draw a free body diagram: The cage hangs below the arm's pivot, so its axis tilts $$\theta$$ below horizontal on its way out from the pivot. The forces on the cage are its weight $$mg$$ downward and the arm's force $$F$$, which points from the cage back along that axis: inward toward the center and **upward**, at angle $$\theta$$ **above** horizontal. The horizontal component of $$F$$ provides centripetal force, while the vertical component balances weight.
+
+![Free-body diagram of the cage with +x toward the center and +y up: arm force F at angle theta above +x with dashed components F cosine theta along +x and F sine theta along +y; weight m g down; acceleration toward the center.](../resources/fbd_06_03_p07.svg){: .fbd}
+
+With $$+x$$ toward the center and $$+y$$ upward ($$a_x = a_c$$, $$a_y = 0$$):
 
 <div class="equation">
-$$F\cos\theta = ma_{c} \quad \text{and} \quad F\sin\theta = mg$$
+$$\sum F_x = F\cos\theta = ma_{c} \quad \text{and} \quad \sum F_y = F\sin\theta - mg = 0$$
 </div>
 
 Dividing the second equation by the first:
@@ -876,10 +926,20 @@ $$v = \sqrt{(980)(0.268)} = \sqrt{262.6} = 16.2\text{ m/s}$$
 $$v = 20.0\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \times \frac{1\text{ h}}{3600\text{ s}} = 5.56\text{ m/s}$$
 </div>
 
-At this slower speed, the car tends to slide down the bank. The required centripetal force is less than what the banked curve would naturally provide, so friction must act up the slope. Using force balance equations for a banked curve with friction:
+At this slower speed, the car tends to slide down the bank. The required centripetal force is less than what the banked curve would naturally provide, so friction must act up the slope.
+
+![Free-body diagram of the car below the ideal speed, +x horizontally toward the center and +y up: normal force N tilted theta from vertical toward the center, with components N sine theta along +x and N cosine theta along +y; friction f along the road, up the slope; weight w down; acceleration toward the center.](../resources/fbd_06_03_p08.svg){: .fbd}
+
+With $$+x$$ horizontal toward the center and $$+y$$ upward, friction (up the slope, at angle $$\theta$$ above the $$-x$$ direction) has components $$(-f\cos\theta,\ +f\sin\theta)$$. Newton's second law gives:
 
 <div class="equation">
-$$\mu_{s} = \frac{\tan\theta - \frac{v^2}{rg}}{1 + \frac{v^2\tan\theta}{rg}}$$
+$$\sum F_{x} = N\sin\theta - f\cos\theta = \frac{mv^2}{r}, \qquad \sum F_{y} = N\cos\theta + f\sin\theta - mg = 0$$
+</div>
+
+At the minimum coefficient, $$f = \mu_{s} N$$. Dividing the first equation by the second and then dividing numerator and denominator by $$\cos\theta$$:
+
+<div class="equation">
+$$\frac{\sin\theta - \mu_{s}\cos\theta}{\cos\theta + \mu_{s}\sin\theta} = \frac{v^2}{rg} \quad\Rightarrow\quad \mu_{s} = \frac{\tan\theta - \frac{v^2}{rg}}{1 + \frac{v^2\tan\theta}{rg}}$$
 </div>
 
 Calculate $$\frac{v^2}{rg}$$:
@@ -945,6 +1005,16 @@ $$v^2 = a_c r = (14.7\text{ m/s}^2)(15.0\text{ m}) = 221\text{ m}^2\text{/s}^2$$
 $$v = \sqrt{221\text{ m}^2\text{/s}^2} = 14.9\text{ m/s}$$
 </div>
 
+**Free-body diagram of a passenger at the top**
+
+![Free-body diagram of an upside-down passenger at the top of the loop with +x to the right and +y up: the seat pushes down with N, and the weight w also points down; N is half as long as w; the acceleration points down, toward the center of the loop.](../resources/fbd_06_03_p09.svg){: .fbd}
+
+At the top of the loop the center of the circle is below the passenger, so with $$+y$$ upward the acceleration is $$a_y = -1.50g$$. Both forces point along $$-y$$:
+
+<div class="equation">
+$$\sum F_y = -N - mg = m(-1.50g) \quad\Rightarrow\quad N = 0.50mg$$
+</div>
+
 **Discussion**
 
 The speed of the roller coaster at the top of the loop is 14.9 m/s (about 54 km/h or 33 mi/h). At this speed with a 15.0 m radius of curvature, the centripetal acceleration is 1.50g, so the **net** downward force on each passenger is $$ 1.50mg $$. Gravity supplies $$ mg $$ of this; the seat (above them, since they are upside down) pushes down on them with the remaining $$ 0.50mg $$. That contact force of half their weight is what keeps them pressed into their seats at the top of the loop.
@@ -977,6 +1047,10 @@ For an unbanked curve, friction provides the centripetal force. We'll set up the
 **Solution**
 
 **(a)** For circular motion on an unbanked curve:
+
+![Free-body diagram of the car with +x horizontally toward the center and +y up: static friction f sub s along +x, normal force N up, weight w down; acceleration toward the center.](../resources/fbd_06_03_p10.svg){: .fbd}
+
+With $$+x$$ toward the center and $$+y$$ upward, $$\sum F_{y} = N - mg = 0$$ gives $$N = mg$$, and $$\sum F_{x} = f = mv^2/r$$.
 
 The centripetal force is provided by friction:
 <div class="equation">

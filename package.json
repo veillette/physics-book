@@ -46,6 +46,7 @@
     "parse:summary": "node scripts/parse-summary.js",
     "update:front-matter": "node scripts/update-front-matter.js",
     "update:figures": "node scripts/rename-figures.js",
+    "generate:fbd": "node scripts/generate-fbd.js",
     "update:mathjax": "cp node_modules/mathjax/tex-chtml.js assets/js/mathjax/ && cp -r node_modules/mathjax/ui assets/js/mathjax/ && cp -r node_modules/mathjax/a11y assets/js/mathjax/ && cp -r node_modules/mathjax/sre assets/js/mathjax/",
     "convert:webp": "node scripts/convert-webp.js",
     "convert:math-delimiters": "node scripts/convert_math_delimiters.js",

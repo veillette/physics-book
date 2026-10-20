@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="370" viewBox="0 0 440 370" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the skier</title>
+<desc id="desc">Free-body diagram with tilted axes: +x down the slope and +y perpendicular to the slope, away from it. Normal force N along +y, kinetic friction f k up the slope (along -x), weight w straight down with dashed components mg sin theta along +x and mg cos theta along -y. The acceleration points down the slope (it is zero at the constant-velocity angle of part b).</desc>
+<rect width="440" height="370" fill="#ffffff"/>
+<line x1="80.92" y1="118.81" x2="369.28" y2="235.31" stroke="#555555" stroke-width="1.5"/><polygon points="377.62,238.68 366.78,238.83 369.92,231.04" fill="#555555"/>
+<line x1="167.56" y1="304.81" x2="269.07" y2="53.54" stroke="#555555" stroke-width="1.5"/><polygon points="272.44,45.19 272.59,56.04 264.8,52.89" fill="#555555"/>
+<line x1="38.59" y1="116.81" x2="390.92" y2="259.16" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 196.03 234.34 A 64 64 0 0 0 220 239" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="220" y1="175" x2="248.01" y2="186.32" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="258.21,190.44 245.19,190.61 248.97,181.27" fill="#c0675e"/>
+<line x1="220" y1="175" x2="185.91" y2="259.36" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="181.79,269.56 181.62,256.55 190.96,260.33" fill="#c0675e"/>
+<line x1="220" y1="175" x2="254.09" y2="90.64" stroke="#b03a2e" stroke-width="3.5"/><polygon points="258.21,80.44 258.38,93.45 249.04,89.67" fill="#b03a2e"/>
+<line x1="220" y1="175" x2="220" y2="274" stroke="#b03a2e" stroke-width="3.5"/><polygon points="220,285 214.96,273 225.04,273" fill="#b03a2e"/>
+<line x1="221.5" y1="171.29" x2="205.74" y2="164.92" stroke="#b03a2e" stroke-width="3.5"/><polygon points="195.54,160.8 208.55,160.62 204.78,169.97" fill="#b03a2e"/>
+<line x1="310" y1="65" x2="341.52" y2="77.74" stroke="#1e8449" stroke-width="3"/><polygon points="351.72,81.86 338.71,82.04 342.49,72.69" fill="#1e8449"/>
+<circle cx="220" cy="175" r="6" fill="#1f3a5f"/>
+<text x="270" y="153" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">skier</text>
+<text x="392.46" y="250.68" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="278.44" y="36.36" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="267.45" y="67.46" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="236" y="280" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="267.48" y="225.18" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="125.05" y="293.25" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="182.56" y="155.56" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">k</tspan><tspan dy="-6"></tspan></text>
+<text x="195.79" y="259.42" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="364.7" y="103.1" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="220" y="363" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="middle" font-style="italic">angle exaggerated (actual 10.0°)</text>
+</svg>

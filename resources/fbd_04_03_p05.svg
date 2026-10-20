@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="322" viewBox="0 0 680 322" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagrams of the lawn mower</title>
+<desc id="desc">Two free-body diagrams with +x to the right and +y up. Part 1, pushing: normal force N up, weight w down, applied force F to the right, friction f to the left; the acceleration points to the right. Part 2, coasting: N up, w down, friction f to the left only; the acceleration points to the left.</desc>
+<rect width="680" height="322" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">Part 1: pushing</text>
+<g transform="translate(0 22)">
+<line x1="35" y1="160" x2="296" y2="160" stroke="#555555" stroke-width="1.5"/><polygon points="305,160 295,164.2 295,155.8" fill="#555555"/>
+<line x1="160" y1="275" x2="160" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="160,45 164.2,55 155.8,55" fill="#555555"/>
+<line x1="160" y1="160" x2="160" y2="96" stroke="#b03a2e" stroke-width="3.5"/><polygon points="160,85 165.04,97 154.96,97" fill="#b03a2e"/>
+<line x1="160" y1="160" x2="160" y2="224" stroke="#b03a2e" stroke-width="3.5"/><polygon points="160,235 154.96,223 165.04,223" fill="#b03a2e"/>
+<line x1="160" y1="160" x2="249" y2="160" stroke="#b03a2e" stroke-width="3.5"/><polygon points="260,160 248,165.04 248,154.96" fill="#b03a2e"/>
+<line x1="160" y1="160" x2="121" y2="160" stroke="#b03a2e" stroke-width="3.5"/><polygon points="110,160 122,154.96 122,165.04" fill="#b03a2e"/>
+<line x1="205" y1="80" x2="244" y2="80" stroke="#1e8449" stroke-width="3"/><polygon points="255,80 243,85.04 243,74.96" fill="#1e8449"/>
+<circle cx="160" cy="160" r="6" fill="#1f3a5f"/>
+<text x="168" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">mower</text>
+<text x="321" y="166" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="160" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="172" y="104" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="172" y="230" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="246" y="148" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="124" y="148" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="241" y="68" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+<line x1="340" y1="10" x2="340" y2="312" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(340 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">Part 2: coasting</text>
+<g transform="translate(0 22)">
+<line x1="45" y1="160" x2="306" y2="160" stroke="#555555" stroke-width="1.5"/><polygon points="315,160 305,164.2 305,155.8" fill="#555555"/>
+<line x1="170" y1="275" x2="170" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="170,45 174.2,55 165.8,55" fill="#555555"/>
+<line x1="170" y1="160" x2="170" y2="96" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,85 175.04,97 164.96,97" fill="#b03a2e"/>
+<line x1="170" y1="160" x2="170" y2="224" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,235 164.96,223 175.04,223" fill="#b03a2e"/>
+<line x1="170" y1="160" x2="131" y2="160" stroke="#b03a2e" stroke-width="3.5"/><polygon points="120,160 132,154.96 132,165.04" fill="#b03a2e"/>
+<line x1="120" y1="80" x2="91" y2="80" stroke="#1e8449" stroke-width="3"/><polygon points="80,80 92,74.96 92,85.04" fill="#1e8449"/>
+<circle cx="170" cy="160" r="6" fill="#1f3a5f"/>
+<text x="178" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">mower</text>
+<text x="331" y="166" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="170" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="182" y="104" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="182" y="230" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="134" y="148" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="94" y="68" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+</svg>

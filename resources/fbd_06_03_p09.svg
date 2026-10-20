@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="330" viewBox="0 0 320 330" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of a passenger at the top of the loop</title>
+<desc id="desc">Free-body diagram with +x to the right and +y up: the seat (above the upside-down passenger) pushes down with N, and the weight w also points down; N is half as long as w. The centripetal acceleration points down, toward the center of the loop.</desc>
+<rect width="320" height="330" fill="#ffffff"/>
+<line x1="40" y1="180" x2="266" y2="180" stroke="#555555" stroke-width="1.5"/><polygon points="275,180 265,184.2 265,175.8" fill="#555555"/>
+<line x1="150" y1="310" x2="150" y2="59" stroke="#555555" stroke-width="1.5"/><polygon points="150,50 154.2,60 145.8,60" fill="#555555"/>
+<line x1="143" y1="180" x2="143" y2="209" stroke="#b03a2e" stroke-width="3.5"/><polygon points="143,220 137.96,208 148.04,208" fill="#b03a2e"/>
+<line x1="157" y1="180" x2="157" y2="249" stroke="#b03a2e" stroke-width="3.5"/><polygon points="157,260 151.96,248 162.04,248" fill="#b03a2e"/>
+<line x1="80" y1="80" x2="80" y2="109" stroke="#1e8449" stroke-width="3"/><polygon points="80,120 74.96,108 85.04,108" fill="#1e8449"/>
+<circle cx="150" cy="180" r="6" fill="#1f3a5f"/>
+<text x="140" y="156" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">passenger</text>
+<text x="291" y="186" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="40" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="115" y="219" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="169" y="255" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="92" y="115" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="225" y="220" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle">center of loop ↓</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="302" viewBox="0 0 720 302" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagrams of the crate</title>
+<desc id="desc">Two free-body diagrams with +x in the direction of the push (to the right) and +y up, each with normal force N up and weight w down. (a) At rest: applied force F to the right balanced by maximum static friction f s max to the left; a = 0. (b) Sliding: the same F to the right and a smaller kinetic friction f k to the left; acceleration to the right.</desc>
+<rect width="720" height="302" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(a) At rest, about to slip</text>
+<g transform="translate(0 22)">
+<line x1="25" y1="145" x2="316" y2="145" stroke="#555555" stroke-width="1.5"/><polygon points="325,145 315,149.2 315,140.8" fill="#555555"/>
+<line x1="170" y1="250" x2="170" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="170,40 174.2,50 165.8,50" fill="#555555"/>
+<line x1="170" y1="145" x2="170" y2="86" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,75 175.04,87 164.96,87" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="170" y2="204" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,215 164.96,203 175.04,203" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="269" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="280,145 268,150.04 268,139.96" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="71" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="60,145 72,139.96 72,150.04" fill="#b03a2e"/>
+<circle cx="170" cy="145" r="6" fill="#1f3a5f"/>
+<text x="160" y="173" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">crate</text>
+<text x="341" y="151" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="170" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="182" y="94" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="182" y="210" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="266" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="74" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">s(max)</tspan><tspan dy="-6"></tspan></text>
+<text x="230" y="66" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+</g>
+</g>
+<line x1="360" y1="10" x2="360" y2="292" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(360 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(b) Sliding</text>
+<g transform="translate(0 22)">
+<line x1="25" y1="145" x2="316" y2="145" stroke="#555555" stroke-width="1.5"/><polygon points="325,145 315,149.2 315,140.8" fill="#555555"/>
+<line x1="170" y1="250" x2="170" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="170,40 174.2,50 165.8,50" fill="#555555"/>
+<line x1="170" y1="145" x2="170" y2="86" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,75 175.04,87 164.96,87" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="170" y2="204" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,215 164.96,203 175.04,203" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="269" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="280,145 268,150.04 268,139.96" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="115" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="104,145 116,139.96 116,150.04" fill="#b03a2e"/>
+<line x1="210" y1="65" x2="239" y2="65" stroke="#1e8449" stroke-width="3"/><polygon points="250,65 238,70.04 238,59.96" fill="#1e8449"/>
+<circle cx="170" cy="145" r="6" fill="#1f3a5f"/>
+<text x="160" y="173" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">crate</text>
+<text x="341" y="151" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="170" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="182" y="94" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="182" y="210" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="266" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="118" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">k</tspan><tspan dy="-6"></tspan></text>
+<text x="236" y="53" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+</svg>

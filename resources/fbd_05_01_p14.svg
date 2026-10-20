@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="370" viewBox="0 0 440 370" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the car accelerating uphill</title>
+<desc id="desc">Free-body diagram with tilted axes: +x up the slope and +y perpendicular to the slope, away from it. Normal force N along +y; static friction from the road on the drive wheels f s max up the slope (along +x); weight w straight down with dashed components mg sin theta along -x and mg cos theta along -y. The acceleration points up the slope.</desc>
+<rect width="440" height="370" fill="#ffffff"/>
+<line x1="79.05" y1="226.3" x2="371.29" y2="119.93" stroke="#555555" stroke-width="1.5"/><polygon points="379.75,116.86 371.79,124.22 368.91,116.33" fill="#555555"/>
+<line x1="267.88" y1="306.56" x2="175.2" y2="51.9" stroke="#555555" stroke-width="1.5"/><polygon points="172.12,43.44 179.48,51.4 171.59,54.28" fill="#555555"/>
+<line x1="403.33" y1="123.17" x2="46.25" y2="253.14" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 220 239 A 64 64 0 0 0 241.89 235.14" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="220" y1="175" x2="194.98" y2="184.11" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="184.65,187.87 194.2,179.03 197.65,188.5" fill="#c0675e"/>
+<line x1="220" y1="175" x2="251.59" y2="261.8" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="255.35,272.13 246.51,262.58 255.99,259.13" fill="#c0675e"/>
+<line x1="220" y1="175" x2="188.41" y2="88.2" stroke="#b03a2e" stroke-width="3.5"/><polygon points="184.65,77.87 193.49,87.42 184.01,90.87" fill="#b03a2e"/>
+<line x1="220" y1="175" x2="220" y2="274" stroke="#b03a2e" stroke-width="3.5"/><polygon points="220,285 214.96,273 225.04,273" fill="#b03a2e"/>
+<line x1="218.63" y1="171.24" x2="274.07" y2="151.06" stroke="#b03a2e" stroke-width="3.5"/><polygon points="284.41,147.3 274.86,156.14 271.41,146.67" fill="#b03a2e"/>
+<line x1="70" y1="135" x2="101.95" y2="123.37" stroke="#1e8449" stroke-width="3"/><polygon points="112.29,119.61 102.73,128.45 99.29,118.98" fill="#1e8449"/>
+<circle cx="220" cy="175" r="6" fill="#1f3a5f"/>
+<text x="170" y="153" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">car</text>
+<text x="394.78" y="117.38" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="166.64" y="34.41" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="139.86" y="64.71" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="200" y="280" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="175.25" y="222.29" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="end" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="311.51" y="296.05" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="297.57" y="149.51" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">s(max)</tspan><tspan dy="-6"></tspan></text>
+<text x="243.11" y="259.63" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="125.44" y="121.82" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="220" y="363" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="middle" font-style="italic">friction acts only on the drive wheels; angle exaggerated (actual 4°)</text>
+</svg>

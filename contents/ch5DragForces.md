@@ -435,9 +435,13 @@ At terminal velocity, the drag force equals the weight, so acceleration is zero.
 
 **Solution**
 
-1. At terminal velocity, drag equals weight:
+1. Draw the free-body diagram with $$ +y $$ upward. The skydiver falls (moves along $$ -y $$), so the drag force, which opposes the motion, points along $$ +y $$. The weight points along $$ -y $$:
+
+   ![Free-body diagram of the skydiver with +x to the right and +y up: drag force F sub D up and weight m g down, equal lengths; moving down at constant speed, so a equals zero.](../resources/fbd_05_02_p01.svg){: .fbd}
+
+   At terminal velocity the acceleration is zero, so drag equals weight:
 <div class="equation">
-$$ F_{\text{D}} = mg $$
+$$ \sum F_y = F_{\text{D}} - mg = 0 \quad \Rightarrow \quad F_{\text{D}} = mg $$
 </div>
 
 <div class="equation">
@@ -491,7 +495,7 @@ Assume all values are accurate to three significant digits.
 
 **Strategy**
 
-We assume both skydivers have similar body proportions, so their frontal areas in pike position are similar. A reasonable assumption for pike position is $$ A \approx 0.14 \mm $$ (as in the previous problem). We use $$ C = 0.70 $$, $$ \rho = 1.21 \text{ kg/m}^3 $$. Once we find terminal velocities, the time to fall 6000\text{ m} is simply $$ t = d/v_t $$ (since we're told to assume they reach terminal velocity quickly).
+We assume both skydivers have similar body proportions, so their frontal areas in pike position are similar. A reasonable assumption for pike position is $$ A \approx 0.14 \mm $$ (as in the previous problem). We use $$ C = 0.70 $$, $$ \rho = 1.21 \text{ kg/m}^3 $$. Once we find terminal velocities, the time to fall 6000 m is simply $$ t = d/v_t $$ (since we're told to assume they reach terminal velocity quickly).
 
 **Solution**
 
@@ -586,7 +590,7 @@ $$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98} = 9.9 \ms $$
 
 **Discussion**
 
-Using the prescribed horizontal-skydiver coefficient $$ C = 1.0 $$, the squirrel's terminal velocity is $$ 9.88 \ms $$, comparable to the $$ 9.9 \ms $$ impact speed of a 56-kg person falling 5.0\text{ m} without drag. Whether a squirrel survives a particular fall depends on more than terminal speed alone (impact duration, landing surface, and anatomy also matter), but the calculation shows why small animals with large drag areas relative to their mass reach relatively low terminal speeds compared with heavier objects.
+Using the prescribed horizontal-skydiver coefficient $$ C = 1.0 $$, the squirrel's terminal velocity is $$ 9.88 \ms $$, comparable to the $$ 9.9 \ms $$ impact speed of a 56-kg person falling 5.0 m without drag. Whether a squirrel survives a particular fall depends on more than terminal speed alone (impact duration, landing surface, and anatomy also matter), but the calculation shows why small animals with large drag areas relative to their mass reach relatively low terminal speeds compared with heavier objects.
 
 ::::
 
@@ -666,7 +670,7 @@ $$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(772) = 1139 \N $$
 
 **Discussion**
 
-The drag forces are: Toyota Camry: $$ 160 \N $$ at 70\text{ km}/h and $$ 327 \N $$ at 100\text{ km}/h. Hummer H2: $$ 558 \N $$ at 70\text{ km}/h and $$ 1139 \N $$ at 100 km/h. The Hummer's larger drag area (about 3.5 times that of the Camry) produces much greater drag, which helps explain the difference in fuel use at highway speeds. Note that drag roughly doubles when speed increases from 70 to 100 km/h (since drag is proportional to $$ v^2 $$).
+The drag forces are: Toyota Camry: $$ 160 \N $$ at 70 km/h and $$ 327 \N $$ at 100 km/h. Hummer H2: $$ 558 \N $$ at 70 km/h and $$ 1139 \N $$ at 100 km/h. The Hummer's larger drag area (about 3.5 times that of the Camry) produces much greater drag, which helps explain the difference in fuel use at highway speeds. Note that drag roughly doubles when speed increases from 70 to 100 km/h (since drag is proportional to $$ v^2 $$).
 
 ::::
 
@@ -700,7 +704,7 @@ $$ = \left(\frac{110}{65}\right)^2 = (1.692)^2 = 2.86 \approx 2.9 $$
 
 **Discussion**
 
-The drag force increases by a factor of $$ 2.9 $$ when speed increases from 65 to 110\text{ km}/h. This nearly tripling of drag force explains why fuel efficiency drops dramatically at highway speeds. Since power required equals force times velocity, the power needed to overcome drag increases even more dramatically—by a factor of about $$ 2.9 \times (110/65) = 4.9 $$! This is why maintaining highway speed limits significantly improves fuel economy.
+The drag force increases by a factor of $$ 2.9 $$ when speed increases from 65 to 110 km/h. This nearly tripling of drag force explains why fuel efficiency drops dramatically at highway speeds. Since power required equals force times velocity, the power needed to overcome drag increases even more dramatically—by a factor of about $$ 2.9 \times (110/65) = 4.9 $$! This is why maintaining highway speed limits significantly improves fuel economy.
 
 ::::
 
@@ -833,7 +837,13 @@ For such a small object moving slowly through a viscous fluid, Stokes' law appli
    - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6})^3 = 4.19 \times 10^{-18} \text{ m}^3 $$
    - Mass: $$ m = \rho_{\text{bact}} V = (1.10 \times 10^3)(4.19 \times 10^{-18}) = 4.61 \times 10^{-15} \kg $$
 
-2. Calculate the effective weight (weight minus buoyancy):
+2. Draw the free-body diagram with $$ +y $$ upward. The bacterium sinks (moves along $$ -y $$), so Stokes drag $$ F_{\s} $$ points along $$ +y $$. The buoyant force $$ F_B = \rho_{\text{water}}Vg $$ also points along $$ +y $$, and the weight $$ w = \rho_{\text{bact}}Vg $$ points along $$ -y $$:
+
+   ![Free-body diagram of the bacterium with +x to the right and +y up: a small Stokes drag F sub s up and a large buoyant force F sub B up together balance the weight w pointing down; a equals zero.](../resources/fbd_05_02_p08.svg){: .fbd}
+
+   At terminal velocity, $$ \sum F_y = F_{\s} + F_B - w = 0 $$, so $$ F_{\s} = w - F_B $$, the effective weight.
+
+   Calculate the effective weight (weight minus buoyancy):
 <div class="equation">
 $$ W_{\text{eff}} = (\rho_{\text{bact}} - \rho_{\text{water}})Vg $$
 </div>

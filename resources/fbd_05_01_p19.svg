@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="330" viewBox="0 0 440 330" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the pulled block of ice</title>
+<desc id="desc">Free-body diagram with +x forward (to the right) and +y up: applied force F at 25 degrees above +x with dashed components F cos 25 along +x and F sin 25 along +y; friction f along -x; normal force N up (shorter than w); weight w down.</desc>
+<rect width="440" height="330" fill="#ffffff"/>
+<line x1="45" y1="175" x2="386" y2="175" stroke="#555555" stroke-width="1.5"/><polygon points="395,175 385,179.2 385,170.8" fill="#555555"/>
+<line x1="210" y1="310" x2="210" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="210,40 214.2,50 205.8,50" fill="#555555"/>
+<path d="M 265 175 A 55 55 0 0 0 259.85 151.76" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="210" y1="175" x2="312" y2="175" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="323,175 311,180.04 311,169.96" fill="#c0675e"/>
+<line x1="323" y1="175" x2="323" y2="133" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="323,122 328.04,134 317.96,134" fill="#c0675e"/>
+<line x1="204" y1="175" x2="204" y2="91" stroke="#b03a2e" stroke-width="3.5"/><polygon points="204,80 209.04,92 198.96,92" fill="#b03a2e"/>
+<line x1="210" y1="175" x2="210" y2="269" stroke="#b03a2e" stroke-width="3.5"/><polygon points="210,280 204.96,268 215.04,268" fill="#b03a2e"/>
+<line x1="210" y1="175" x2="313.32" y2="126.82" stroke="#b03a2e" stroke-width="3.5"/><polygon points="323.29,122.17 314.54,131.81 310.28,122.68" fill="#b03a2e"/>
+<line x1="210" y1="175" x2="161" y2="175" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,175 162,169.96 162,180.04" fill="#b03a2e"/>
+<circle cx="210" cy="175" r="6" fill="#1f3a5f"/>
+<text x="200" y="203" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">block</text>
+<text x="411" y="181" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="210" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="182" y="99" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="222" y="275" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="335.98" y="116.26" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="309" y="199" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 25°</tspan></text>
+<text x="335" y="141" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 25°</tspan></text>
+<text x="164" y="163" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="283.22" y="164.02" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">25°</tspan></text>
+<text x="15" y="306" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="10.5" dy="4.5">s(max)</tspan><tspan dy="-4.5"></tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">in</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">a</tspan><tspan font-style="normal">),  </tspan><tspan font-style="italic">f</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="10.5" dy="4.5">k</tspan><tspan dy="-4.5"></tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">in</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

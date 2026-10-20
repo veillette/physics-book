@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="322" viewBox="0 0 560 322" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagrams of the gymnast on the rope</title>
+<desc id="desc">Two free-body diagrams with +x to the right and +y up. (a) Constant speed: tension T up and weight w down, equal lengths, a = 0. (b) Accelerating upward: T up, longer than w down; the acceleration points up.</desc>
+<rect width="560" height="322" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(a) Constant speed</text>
+<g transform="translate(0 22)">
+<line x1="30" y1="165" x2="221" y2="165" stroke="#555555" stroke-width="1.5"/><polygon points="230,165 220,169.2 220,160.8" fill="#555555"/>
+<line x1="130" y1="280" x2="130" y2="59" stroke="#555555" stroke-width="1.5"/><polygon points="130,50 134.2,60 125.8,60" fill="#555555"/>
+<line x1="130" y1="165" x2="130" y2="101" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130,90 135.04,102 124.96,102" fill="#b03a2e"/>
+<line x1="130" y1="165" x2="130" y2="229" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130,240 124.96,228 135.04,228" fill="#b03a2e"/>
+<circle cx="130" cy="165" r="6" fill="#1f3a5f"/>
+<text x="140" y="187" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">gymnast</text>
+<text x="246" y="171" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="130" y="40" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="142" y="109" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="142" y="235" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="70" y="76" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+</g>
+</g>
+<line x1="280" y1="10" x2="280" y2="312" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(280 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(b) Accelerating upward</text>
+<g transform="translate(0 22)">
+<line x1="30" y1="165" x2="221" y2="165" stroke="#555555" stroke-width="1.5"/><polygon points="230,165 220,169.2 220,160.8" fill="#555555"/>
+<line x1="130" y1="280" x2="130" y2="59" stroke="#555555" stroke-width="1.5"/><polygon points="130,50 134.2,60 125.8,60" fill="#555555"/>
+<line x1="130" y1="165" x2="130" y2="86" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130,75 135.04,87 124.96,87" fill="#b03a2e"/>
+<line x1="130" y1="165" x2="130" y2="229" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130,240 124.96,228 135.04,228" fill="#b03a2e"/>
+<line x1="70" y1="120" x2="70" y2="91" stroke="#1e8449" stroke-width="3"/><polygon points="70,80 75.04,92 64.96,92" fill="#1e8449"/>
+<circle cx="130" cy="165" r="6" fill="#1f3a5f"/>
+<text x="140" y="187" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">gymnast</text>
+<text x="246" y="171" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="130" y="40" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="142" y="94" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="142" y="235" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="82" y="99" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+</svg>

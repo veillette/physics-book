@@ -873,15 +873,14 @@ $$ a_c = \frac{v^2}{r} = \frac{(39.2\text{ m/s})^2}{39.2\text{ m}} = \frac{1536.
 
 (b) Free body diagram:
 
-![A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.](../resources/Figure_06_02_03.jpg)
-{: #Figure3}
+![Free-body diagram of the rider with +x to the right and +y up, toward the center of the circle: normal force N up, five times as long as the weight w pointing down; the centripetal acceleration points up.](../resources/fbd_06_02_p12.svg){: .fbd #Figure3}
 
-The rider experiences two forces: the normal force $$ N $$ upward from the seat, and weight $$ w = mg $$ downward.
+The rider experiences two forces: the normal force $$ N $$ upward from the seat (along $$ +y $$), and weight $$ w = mg $$ downward (along $$ -y $$). At the bottom of the arc the center of the circle is directly above the rider, so the centripetal acceleration points along $$ +y $$: $$ a_y = +a_c $$.
 
-(c) Applying Newton's second law in the vertical direction (upward is positive):
+(c) Applying Newton's second law along $$ y $$:
 
 <div class="equation">
-$$ N - mg = ma_{c} $$
+$$ \sum F_y = N - mg = ma_{c} $$
 </div>
 
 <div class="equation">
@@ -951,10 +950,14 @@ is 18.0 kg?
 $$ a_c = \frac{v^2}{r} = \frac{(9.00\text{ m/s})^2}{2.00\text{ m}} = \frac{81.0}{2.00} = 40.5\text{ m/s}^2 $$
 </div>
 
-(b) Apply Newton's second law at the bottom of the swing (upward positive):
+(b) Draw the free-body diagram of the child at the bottom of the swing, with $$ +y $$ upward, toward the pivot (the center of the circle):
+
+![Free-body diagram of the child with +x to the right and +y up, toward the pivot: force from the seat N up, about five times as long as the weight w pointing down; the centripetal acceleration points up.](../resources/fbd_06_02_p13.svg){: .fbd}
+
+The seat pushes up with $$ N $$ (along $$ +y $$), gravity pulls down with $$ mg $$ (along $$ -y $$), and the acceleration $$ a_c $$ points along $$ +y $$. Apply Newton's second law along $$ y $$:
 
 <div class="equation">
-$$ N - mg = ma_{c} $$
+$$ \sum F_y = N - mg = ma_{c} $$
 </div>
 
 <div class="equation">

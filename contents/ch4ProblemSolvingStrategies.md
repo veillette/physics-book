@@ -140,13 +140,12 @@ in the Problem-Solving Strategy for Newton's laws of motion.
 
 **Step 1: Sketch and free-body diagram**
 
-![An object of mass m is shown. Three forces acting on it are tension T, shown by an arrow acting vertically upward, and friction f and gravity m g, shown by two arrows acting vertically downward.](../resources/Figure_04_06_02.jpg)
-{: #Figure2 height="150"}
+![Free-body diagram of the rocket with +x to the right and +y up: thrust T up, air resistance f and weight mg both down; the acceleration points up.](../resources/fbd_04_06_p01.svg){: .fbd #Figure2}
 
-The rocket experiences three forces:
-- Thrust $$ T $$ (upward from engines)
-- Air resistance $$ f $$ (downward, opposes motion)
-- Weight $$ mg $$ (downward due to gravity)
+We choose $$ +y $$ upward, the direction of the acceleration. The rocket experiences three forces:
+- Thrust $$ T $$ (from the engines), along $$ +y $$
+- Air resistance $$ f $$ (opposes the upward motion), along $$ -y $$
+- Weight $$ mg $$ (due to gravity), along $$ -y $$
 
 **Step 2: Identify knowns and unknowns**
 
@@ -163,10 +162,10 @@ System of interest: the rocket
 
 **Step 3: Apply Newton's second law**
 
-Taking upward as positive, the net force equation is:
+Reading the signs off the free-body diagram, the net force along $$ y $$ is:
 
 <div class="equation">
-$$ F_{\text{net}} = T - f - mg = ma $$
+$$ \sum F_y = T - f - mg = ma $$
 </div>
 
 Solving for acceleration:
@@ -225,13 +224,16 @@ situation, draw a free-body diagram and write the net force equation.
 
 The car accelerates forward. By Newton's third law, if the wheels push backward on the road with 2100 N, the road pushes forward on the car with 2100 N. Friction opposes motion (acts backward).
 
-Free-body diagram (system: car plus occupants, drawn as a box with all external forces acting on it):
-- Forward force from road: $$ F = 2100 \N $$ (horizontal, forward)
-- Friction force including air resistance: $$ f = 250 \N $$ (horizontal, backward)
-- Weight: $$ w = mg $$ (vertical, down)
-- Normal force from the road on the tires: $$ N $$ (vertical, up; the total over all four tires)
+Free-body diagram (system: car plus occupants, drawn as a dot with all external forces acting on it), with $$ +x $$ forward and $$ +y $$ upward:
 
-Because the car does not accelerate vertically, $$ N - w = 0 $$, so the vertical forces cancel and only the horizontal forces enter the net force equation for the acceleration.
+![Free-body diagram of the car with +x forward (to the right) and +y up: forward force from the road F to the right, friction f to the left, normal force N up, weight w down; the acceleration points to the right.](../resources/fbd_04_06_p02.svg){: .fbd}
+
+- Forward force from road: $$ F = 2100 \N $$, along $$ +x $$
+- Friction force including air resistance: $$ f = 250 \N $$, along $$ -x $$
+- Weight: $$ w = mg $$, along $$ -y $$
+- Normal force from the road on the tires: $$ N $$, along $$ +y $$ (the total over all four tires)
+
+Because the car does not accelerate vertically, $$ \sum F_y = N - w = 0 $$, so the vertical forces cancel and only the horizontal forces enter the net force equation for the acceleration.
 
 **Step 2: Identify knowns and unknowns**
 
@@ -247,9 +249,9 @@ System of interest: car plus occupants
 
 **Step 3: Apply Newton's second law**
 
-In the horizontal direction:
+Along $$ x $$, with $$ a_x = +1.80 \mss $$:
 <div class="equation">
-$$ F_{\text{net}} = F - f = ma $$
+$$ \sum F_x = F - f = ma_x $$
 </div>
 
 Solving for mass:
@@ -284,13 +286,14 @@ Calculate the force a 70.0-kg high jumper must exert on the ground to produce an
 ::: solution
 
 1. Use Newton’s laws of
-   motion. ![Two forces are acting on an object of mass m: F, shown by an arrow pointing upward, and its weight w, shown by an arrow pointing downward. Acceleration a is represented by a vector arrow pointing upward. The figure depicts the forces acting on a high jumper.](../resources/Figure_04_06_03.jpg)
-   {: #Figure3 height="150"}
+   motion. Draw the free-body diagram of the jumper, with $$ +y $$ upward:
+
+   ![Free-body diagram of the high jumper with +x to the right and +y up: upward force from the ground F, much longer than the weight w pointing down; the acceleration points up.](../resources/fbd_04_06_p03.svg){: .fbd #Figure3}
 
 2. Given :
    $$ a=4.00g=\left(4.00\right)\left(9.80 \mss \right) =39.2\mss $$; $$ m=70.0 \kg $$, Find: $$ F $$.
 
-3. $$ \sum F = +F - w = m a $$, so that $$ F=ma +w=ma +mg =m\left(a+g\right) $$.
+3. From the diagram, $$ F $$ is along $$ +y $$ and $$ w $$ along $$ -y $$: $$ \sum F_y = +F - w = m a $$, so that $$ F=ma +w=ma +mg =m\left(a+g\right) $$.
    $$ F=\left(70.0 \kg \right) \left[ \left(39.2 \mss \right) +\left(9.80 \mss \right) \right] =3.43\times 10^{3} \N $$. The force exerted by the high-jumper is actually down on the
    ground, but $$ F $$ is up from the ground and makes him jump.
 
@@ -321,9 +324,12 @@ the Problem-Solving Strategy for Newton's laws of motion.
 
 **Step 1: Sketch and free-body diagram**
 
-The gymnast is decelerating upward (slowing her downward motion). Forces acting on her:
-- Normal force from mat (upward): $$ N $$
-- Weight (downward): $$ w = mg $$
+The gymnast is moving downward but slowing down, so her acceleration points **upward**. Forces acting on her, with $$ +y $$ upward:
+
+![Free-body diagram of the landing gymnast with +x to the right and +y up: normal force N up, about eight times as long as the weight w pointing down; she is moving down and slowing down, so the acceleration points up.](../resources/fbd_04_06_p04.svg){: .fbd}
+
+- Normal force from mat: $$ N $$, along $$ +y $$
+- Weight: $$ w = mg $$, along $$ -y $$
 
 **Step 2: Identify knowns and unknowns**
 
@@ -341,9 +347,9 @@ Taking upward as positive, the acceleration is $$ a = +68.6 \mss $$ (she's decel
 
 **Step 3: Apply Newton's second law**
 
-In the vertical direction:
+Along $$ y $$:
 <div class="equation">
-$$ F_{\text{net}} = N - mg = ma $$
+$$ \sum F_y = N - mg = ma $$
 </div>
 
 Solving for $$ N $$:
@@ -398,6 +404,12 @@ and engines?
 
 For part (a), consider the entire train as the system and apply Newton's second law to find the total forward force needed, then divide by two for each engine. For part (b), take the cars behind the coupling (cars 38–45) as the system to find the coupling force.
 
+**Free-body diagram**
+
+![Two free-body diagrams with +x forward (to the right) and +y up. Whole train: F sub engines to the right, friction f to the left, N up, w down, acceleration to the right. Cars 38 to 45: F sub coupling to the right, f sub sys to the left, N sub sys up, w sub sys down, acceleration to the right.](../resources/fbd_04_06_p05.svg){: .fbd}
+
+Take $$ +x $$ in the direction of motion and $$ +y $$ upward. In each diagram the vertical forces cancel, so we only need $$ \sum F_x = ma_x $$ with $$ a_x = +5.00 \times 10^{-2} \mss $$.
+
 **Solution**
 
 Given:
@@ -419,7 +431,7 @@ $$ m_{\text{total}} = 1.60 \times 10^{5} + 2.48 \times 10^{6} = 2.64 \times 10^{
 
 Apply Newton's second law to the entire train. By Newton's third law, if the engines push backward on the track with force $$ F_{\text{engines}} $$, the track pushes forward on the engines with force $$ F_{\text{engines}} $$:
 <div class="equation">
-$$ F_{\text{net}} = F_{\text{engines}} - f = m_{\text{total}}a $$
+$$ \sum F_x = F_{\text{engines}} - f = m_{\text{total}}a $$
 </div>
 
 <div class="equation">
@@ -445,9 +457,9 @@ Friction is distributed evenly among all 47 cars and engines, so this system car
 $$ f_{\text{sys}} = \frac{8}{47} \times 7.50 \times 10^{5} = 1.28 \times 10^{5} \N $$
 </div>
 
-The coupling force $$ F_{\text{coupling}} $$ pulls this system forward. Applying Newton's second law:
+The coupling force $$ F_{\text{coupling}} $$ pulls this system along $$ +x $$, and $$ f_{\text{sys}} $$ acts along $$ -x $$ (diagram (b)). Applying Newton's second law:
 <div class="equation">
-$$ F_{\text{coupling}} - f_{\text{sys}} = m_{\text{sys}}a $$
+$$ \sum F_x = F_{\text{coupling}} - f_{\text{sys}} = m_{\text{sys}}a $$
 </div>
 
 <div class="equation">
@@ -509,13 +521,13 @@ Given:
 
 By Newton's third law, if the tractor pushes backward on the pavement with $$ 1.75 \times 10^{4} \N $$, the pavement pushes forward on the tractor with $$ 1.75 \times 10^{4} \N $$.
 
-Forces on the system:
-- Forward force from pavement: $$ F = 1.75 \times 10^{4} \N $$
-- Total friction (backward): $$ f_{total} = 2400 \N $$
+Forces on the system (diagram (a) in part (c), with $$ +x $$ forward):
+- Forward force from pavement: $$ F = 1.75 \times 10^{4} \N $$, along $$ +x $$
+- Total friction: $$ f_{total} = 2400 \N $$, along $$ -x $$
 
-Apply Newton's second law:
+Apply Newton's second law along $$ x $$:
 <div class="equation">
-$$ F_{\text{net}} = F - f_{total} = (m_{tractor} + m_{airplane})a $$
+$$ \sum F_x = F - f_{total} = (m_{tractor} + m_{airplane})a $$
 </div>
 
 <div class="equation">
@@ -538,13 +550,13 @@ $$ m_{airplane} = 100{,}667 - 1800 = 98{,}867 \kg \approx 9.89 \times 10^{4} \kg
 
 **System of interest:** Airplane only
 
-Forces on airplane:
-- Push from tractor (forward): $$ F_{push} = ? $$
-- Friction on airplane (backward): $$ f_{airplane} = 2200 \N $$
+Forces on airplane (diagram (b) in part (c)):
+- Push from tractor: $$ F_{push} = ? $$, along $$ +x $$
+- Friction on airplane: $$ f_{airplane} = 2200 \N $$, along $$ -x $$
 
-Apply Newton's second law:
+Apply Newton's second law along $$ x $$:
 <div class="equation">
-$$ F_{\text{net}} = F_{push} - f_{airplane} = m_{airplane}a $$
+$$ \sum F_x = F_{push} - f_{airplane} = m_{airplane}a $$
 </div>
 
 <div class="equation">
@@ -558,6 +570,8 @@ $$ F_{push} = 14{,}830 + 2200 = 17{,}030 \N \approx 1.70 \times 10^{4} \N $$
 **(c) Free-body diagrams:**
 
 *Sketch for part (a):* draw the tractor and airplane together, connected by the tow bar, with a boundary around both. *Sketch for part (b):* draw a boundary around the airplane only; the tow bar crosses the boundary, so its force on the airplane is now external.
+
+![Two free-body diagrams with +x forward (to the right) and +y up. Tractor plus airplane: F to the right, f sub total to the left, N up, w down, acceleration to the right. Airplane only: F sub push to the right, f sub airplane to the left, N up, w down, acceleration to the right.](../resources/fbd_04_06_p06.svg){: .fbd}
 
 **Part (a) - System: Tractor + Airplane**
 - →  F = 17,500 N (forward, from pavement on the tractor's drive wheels)
@@ -606,6 +620,12 @@ experienced by the boat and trailer?
 
 For part (a), consider the entire system (car + boat + trailer) and apply Newton's second law. For part (b), consider just the boat and trailer as the system and account for the friction it experiences.
 
+**Free-body diagram**
+
+![Two free-body diagrams with +x forward (to the right) and +y up. Car plus boat plus trailer: F sub road to the right, f sub total to the left, N up, w down, acceleration to the right. Boat plus trailer: F sub hitch to the right, f sub boat to the left, N sub boat up, w sub boat down, acceleration to the right.](../resources/fbd_04_06_p07.svg){: .fbd}
+
+With $$ +x $$ forward and $$ +y $$ upward, the vertical forces cancel in both diagrams. The hitch force is internal to system (a), so it appears only in diagram (b).
+
 **Solution**
 
 Given:
@@ -626,7 +646,7 @@ By Newton's third law, if the car pushes backward on the road with 1900 N, the r
 
 Apply Newton's second law to the entire system:
 <div class="equation">
-$$ F_{\text{net}} = F_{\text{road}} - f_{\text{total}} = m_{\text{total}}a $$
+$$ \sum F_x = F_{\text{road}} - f_{\text{total}} = m_{\text{total}}a $$
 </div>
 
 <div class="equation">
@@ -644,9 +664,9 @@ The boat and trailer experience 80% of the resisting forces:
 $$ f_{\text{boat}} = 0.80 \times f_{\text{total}} = 0.80 \times 910 = 728 \N $$
 </div>
 
-Consider the boat and trailer as the system. The hitch force $$ F_{\text{hitch}} $$ pulls it forward, and friction opposes:
+Consider the boat and trailer as the system (diagram (b)). The hitch force $$ F_{\text{hitch}} $$ pulls it along $$ +x $$, and friction acts along $$ -x $$:
 <div class="equation">
-$$ F_{\text{hitch}} - f_{\text{boat}} = m_{\text{boat}}a $$
+$$ \sum F_x = F_{\text{hitch}} - f_{\text{boat}} = m_{\text{boat}}a $$
 </div>
 
 <div class="equation">
@@ -713,8 +733,8 @@ Verification: $$ \sqrt{(16.4)^2 + (11.5)^2} = \sqrt{269 + 132} = \sqrt{401} \app
 **(b) Commutative property:**
 
 Whether we add $$ \vb{F}_{1} + \vb{F}_{2} $$ or $$ \vb{F}_{2} + \vb{F}_{1} $$, the resultant is the same:
-- Method 1: Start with $$ \vb{F}_{1} $$ (right 16.4\text{ N}), then add $$ \vb{F}_{2} $$ (up 11.5 N) → resultant points to upper right
-- Method 2: Start with $$ \vb{F}_{2} $$ (up 11.5\text{ N}), then add $$ \vb{F}_{1} $$ (right 16.4 N) → same resultant
+- Method 1: Start with $$ \vb{F}_{1} $$ (right 16.4 N), then add $$ \vb{F}_{2} $$ (up 11.5 N) → resultant points to upper right
+- Method 2: Start with $$ \vb{F}_{2} $$ (up 11.5 N), then add $$ \vb{F}_{1} $$ (right 16.4 N) → same resultant
 
 *Scale drawing.* Choose a scale such as 1 cm = 2.0 N. For $$ \vb{F}_{1} + \vb{F}_{2} $$, draw $$ \vb{F}_{1} $$ as an 8.2-cm arrow to the right from the origin, then draw $$ \vb{F}_{2} $$ as a 5.75-cm arrow straight up from the head of $$ \vb{F}_{1} $$. For $$ \vb{F}_{2} + \vb{F}_{1} $$, on the same drawing, start at the origin with the 5.75-cm upward arrow and draw the 8.2-cm rightward arrow from its head. The two paths form opposite sides of a rectangle (a parallelogram) and meet at the same corner. The arrow from the origin to that corner measures 10.0 cm at 35° above horizontal, that is, $$ \vb{F}_{\text{tot}} = 20.0 \N $$ at 35°.
 
@@ -778,6 +798,12 @@ Given (from Figure 5):
 - $$ F_2 = 8.0 \N $$ at $$ 30.0^\circ $$ below the +x-axis (southeast)
 - Friction: $$ f = 7.5 \N $$ (direction opposite to net pulling force)
 
+**Free-body diagram (view from above):**
+
+![Top-view free-body diagram of the sled with +x east and +y north: F sub 1 at 45 degrees above +x, F sub 2 at 30 degrees below +x, and friction f pointing opposite the net pull. The acceleration points 12.4 degrees north of east.](../resources/fbd_04_06_p09.svg){: .fbd}
+
+The weight and the normal force are vertical and cancel, so the diagram shows only the horizontal forces. Take $$ +x $$ east and $$ +y $$ north.
+
 **Resolve forces into components:**
 
 For $$ F_1 $$ (at 45° above +x-axis):
@@ -828,6 +854,12 @@ Friction opposes motion (opposite to pull direction):
 $$ F_{net} = F_{pull} - f = 14.3 - 7.5 = 6.8 \N $$
 </div>
 
+The same result follows from the components in the diagram. Friction points $$ 12.4^\circ $$ south of west, so $$ f_x = -7.5\cos(12.4^\circ) = -7.33 \N $$ and $$ f_y = -7.5\sin(12.4^\circ) = -1.61 \N $$:
+
+<div class="equation">
+$$ \sum F_x = 14.0 - 7.33 = 6.67 \N, \qquad \sum F_y = 3.07 - 1.61 = 1.46 \N, \qquad F_{net} = \sqrt{6.67^2 + 1.46^2} = 6.8 \N $$
+</div>
+
 **Calculate acceleration:**
 
 <div class="equation">
@@ -871,6 +903,10 @@ you still apply the force found in part (a) to its center?
 
 The rope runs from the car to a tree trunk. You pull sideways at the center of the rope, so each half of the rope makes a small angle $$ \theta $$ with the straight line between the car and the tree. The system of interest is the small piece of rope at its center, where you apply the force $$ \vb{F}_{\text{app}} $$. Three forces act on it: your applied force (perpendicular to the car–tree line) and the tension $$ T $$ in each half of the rope, one pulling toward the car and one toward the tree.
 
+![Free-body diagram of the center of the rope with +x along the car-to-tree line and +y perpendicular to it: tension T toward the car and tension T toward the tree, each at a small angle theta above the x-axis, with dashed components T sine theta along +y; the applied force F sub app points along -y. a equals zero.](../resources/fbd_04_06_p10.svg){: .fbd}
+
+Take $$ +x $$ along the car–tree line and $$ +y $$ perpendicular to it, opposite your pull, so $$ F_{\text{app}} $$ points along $$ -y $$. The tension toward the tree has components $$ (+T\cos\theta, +T\sin\theta) $$, and the tension toward the car has components $$ (-T\cos\theta, +T\sin\theta) $$.
+
 **Step 2: Identify knowns and unknowns**
 
 Known:
@@ -884,10 +920,10 @@ Unknown:
 
 **Step 3: Apply Newton's laws**
 
-The center of the rope is in equilibrium. Along the car–tree line, the components of the two tensions cancel. Perpendicular to that line, each tension has a component $$ T\sin\theta $$ opposing your applied force, so
+The center of the rope is in equilibrium. Along $$ x $$, the components of the two tensions cancel: $$ \sum F_x = T\cos\theta - T\cos\theta = 0 $$. Along $$ y $$, each tension has a component $$ +T\sin\theta $$ opposing your applied force, so
 
 <div class="equation">
-$$ F_{\text{app}} = 2T\sin\theta = 2(12\,000 \N)\sin(2.00°) = 838 \N $$
+$$ \sum F_y = 2T\sin\theta - F_{\text{app}} = 0 \quad \Rightarrow \quad F_{\text{app}} = 2T\sin\theta = 2(12\,000 \N)\sin(2.00°) = 838 \N $$
 </div>
 
 **Step 4: Check reasonableness**
@@ -936,15 +972,14 @@ Explicitly show how you follow steps in the Problem-Solving Strategy for Newton�
 1. Use Newton’s laws since we are looking for forces.
 
 2. Draw a free-body
-   diagram: ![A horizontal dotted line with two vectors extending downward from the mid-point of the dotted line, both at angles of fifteen degrees. A third vector points straight downward from the intersection of the first two angles, bisecting them; it is perpendicular to the dotted line.](../resources/Figure_04_06_06.jpg)
-   {: #Figure7}
+   diagram of the tooth, with $$ +x $$ along the wire's straight line and $$ +y $$ pointing toward the front of the mouth:
 
-3. The tension is given as $$ T=25.0 \N $$. Find $$ F_{\text{app}}$$. Using Newton's laws gives:
-   $$ \sum F_{y}=0, $$ so that applied force is due to the _y_-components of the
-   two tensions:
+   ![Free-body diagram of the tooth with +x to the right and +y up: two wire tensions T, down and to the right and down and to the left, each 15 degrees below the horizontal, with dashed components T cos theta along the x-axis and T sin theta along -y. Their sum F sub app points along -y.](../resources/fbd_04_06_p11.svg){: .fbd #Figure7}
 
-   $$ F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right) \sin\left(15^\circ\right)=12.9 \N $$ The *x*-components of the tension
-   cancel. $$ \sum F_{x}=0 $$.
+3. The tension is given as $$ T=25.0 \N $$, at $$ \theta = 15^\circ $$ below the $$ x $$-axis on each side. Find $$ F_{\text{app}}$$, the total force of the wire on the tooth. The *x*-components of the tensions cancel:
+   $$ \sum F_{x}= T\cos\theta - T\cos\theta = 0. $$ The *y*-components both point along $$ -y $$ and add:
+
+   $$ \sum F_{y} = -2T\sin\theta, $$ so the applied force points along $$ -y $$ (toward the back of the mouth) with magnitude $$ F_{\text{app}}=2T\sin{\theta}=2\left(25.0 \N \right) \sin\left(15^\circ\right)=12.9 \N $$.
 
 4. This seems reasonable, since the applied tensions should be greater than the
    force applied to the tooth.
@@ -976,6 +1011,10 @@ while Trusty Sidekick's is 55.0 kg, and the mass of the rope is negligible.
 ::: solution
 
 __(a) Free-body diagrams:__
+
+![Three free-body diagrams with +x to the right and +y up, all with a equals zero. Superhero: T sub 1 up, his weight w sub H and the lower rope's pull T sub 2 both down. Sidekick: T sub 2 up, weight w sub S down. Both together: T sub 1 up, combined weight (m sub H plus m sub S) g down.](../resources/fbd_04_06_p12.svg){: .fbd}
+
+With $$ +y $$ upward, every upward arrow enters $$ \sum F_y $$ with a plus sign and every downward arrow with a minus sign.
 
 __For Trusty Sidekick:__
 
@@ -1017,7 +1056,7 @@ __System of interest:__ Both Superhero and Trusty Sidekick
 Since they're motionless, acceleration = 0, so net force = 0.
 
 <div class="equation">
-$$ T_1 - (m_H + m_S)g = 0 $$
+$$ \sum F_y = T_1 - (m_H + m_S)g = 0 $$
 </div>
 
 <div class="equation">
@@ -1031,8 +1070,10 @@ __System of interest:__ Trusty Sidekick only
 Since Sidekick is motionless:
 
 <div class="equation">
-$$ T_2 - m_S g = 0 $$
+$$ \sum F_y = T_2 - m_S g = 0 $$
 </div>
+
+As a check, Superhero's diagram gives $$ \sum F_y = T_1 - w_H - T_2 = 1421 \N - 882 \N - 539 \N = 0 $$.
 
 <div class="equation">
 $$ T_2 = m_S g = (55.0)(9.80) = 539 \N \approx 5.39 \times 10^{2} \N $$
@@ -1073,14 +1114,16 @@ friction is 60.0 N.
 
 __(a) Free-body diagram:__
 
-Forces on the cart:
+![Free-body diagram of the cart with +x forward (to the right) and +y up: applied force F at 35 degrees below +x with dashed components F cos 35 degrees along +x and F sin 35 degrees along -y; friction f along -x; normal force N up; weight w down. a equals zero.](../resources/fbd_04_06_p13.svg){: .fbd}
+
+Forces on the cart, with $$ +x $$ in the direction of motion and $$ +y $$ upward:
 
 - Applied force $$ \vb{F} $$ at 35.0° below horizontal
-  - Horizontal component: $$ F\cos(35.0\text{ °}) $$ (forward)
-  - Vertical component: $$ F\sin(35.0\text{ °}) $$ (downward)
-- Friction $$ f = 60.0 \N $$ (backward, opposing motion)
-- Normal force $$ N $$ (upward from floor)
-- Weight $$ w = mg = (28.0)(9.80) = 274 \N $$ (downward)
+  - Horizontal component: $$ F\cos(35.0°) $$, along $$ +x $$
+  - Vertical component: $$ F\sin(35.0°) $$, along $$ -y $$
+- Friction $$ f = 60.0 \N $$, along $$ -x $$ (opposing motion)
+- Normal force $$ N $$, along $$ +y $$ (from floor)
+- Weight $$ w = mg = (28.0)(9.80) = 274 \N $$, along $$ -y $$
 
 __(b) Force needed for constant velocity:__
 
@@ -1089,7 +1132,7 @@ At constant velocity, acceleration = 0, so net force = 0 in both directions.
 __Horizontal direction:__
 
 <div class="equation">
-$$ F\cos(35.0°) - f = 0 $$
+$$ \sum F_x = F\cos(35.0°) - f = 0 $$
 </div>
 
 <div class="equation">
@@ -1103,10 +1146,10 @@ $$ F = \frac{f}{\cos(35.0°)} = \frac{60.0}{0.819} = 73.2 \N $$
 __Check vertical equilibrium:__
 
 <div class="equation">
-$$ N - mg - F\sin(35.0°) = 0 $$
+$$ \sum F_y = N - mg - F\sin(35.0°) = 0 $$
 </div>
 
-This confirms the normal force adjusts to balance the downward push and weight.
+This confirms the normal force adjusts to balance the downward push and weight: $$ N = 274 \N + (73.2 \N)(0.574) = 316 \N $$.
 
 **Discussion**
 
@@ -1114,7 +1157,7 @@ Pushing downward at an angle is less efficient than pushing horizontally because
 
 **Answer**
 
-(a) The free-body diagram shows: applied force at 35° below horizontal, friction opposing motion, normal force upward, and weight downward.
+(a) The free-body diagram (above) shows the applied force at 35° below the $$ +x $$-axis, friction along $$ -x $$, the normal force along $$ +y $$, and the weight along $$ -y $$.
 
 (b) The nurse must exert a force of __73.2 N__ at 35.0° below the horizontal to move the cart at constant velocity.
 

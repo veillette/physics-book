@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="280" viewBox="0 0 380 280" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the car</title>
+<desc id="desc">Free-body diagram with +x forward (to the right) and +y up: forward force from the road F to the right, friction f to the left, normal force N up, weight w down; the acceleration points to the right.</desc>
+<rect width="380" height="280" fill="#ffffff"/>
+<line x1="50" y1="150" x2="321" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="330,150 320,154.2 320,145.8" fill="#555555"/>
+<line x1="170" y1="255" x2="170" y2="54" stroke="#555555" stroke-width="1.5"/><polygon points="170,45 174.2,55 165.8,55" fill="#555555"/>
+<line x1="170" y1="150" x2="170" y2="91" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,80 175.04,92 164.96,92" fill="#b03a2e"/>
+<line x1="170" y1="150" x2="170" y2="209" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,220 164.96,208 175.04,208" fill="#b03a2e"/>
+<line x1="170" y1="150" x2="279" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="290,150 278,155.04 278,144.96" fill="#b03a2e"/>
+<line x1="170" y1="150" x2="146" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="135,150 147,144.96 147,155.04" fill="#b03a2e"/>
+<line x1="220" y1="75" x2="259" y2="75" stroke="#1e8449" stroke-width="3"/><polygon points="270,75 258,80.04 258,69.96" fill="#1e8449"/>
+<circle cx="170" cy="150" r="6" fill="#1f3a5f"/>
+<text x="178" y="170" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">car + occupants</text>
+<text x="346" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="170" y="35" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="182" y="99" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="182" y="215" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="276" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="149" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan></text>
+<text x="256" y="63" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</svg>

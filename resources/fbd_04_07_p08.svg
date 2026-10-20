@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="330" viewBox="0 0 320 330" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the shell in the mortar</title>
+<desc id="desc">Free-body diagram with +x to the right and +y up: force from the expanding gases F applied up, very much larger than the weight w pointing down; the acceleration points up.</desc>
+<rect width="320" height="330" fill="#ffffff"/>
+<line x1="40" y1="210" x2="266" y2="210" stroke="#555555" stroke-width="1.5"/><polygon points="275,210 265,214.2 265,205.8" fill="#555555"/>
+<line x1="150" y1="305" x2="150" y2="94" stroke="#555555" stroke-width="1.5"/><polygon points="150,85 154.2,95 145.8,95" fill="#555555"/>
+<line x1="150" y1="210" x2="150" y2="109" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,98 155.04,110 144.96,110" fill="#b03a2e"/>
+<line x1="150" y1="210" x2="150" y2="218.7" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,224 147.35,217.7 152.65,217.7" fill="#b03a2e"/>
+<line x1="80" y1="155" x2="80" y2="126" stroke="#1e8449" stroke-width="3"/><polygon points="80,115 85.04,127 74.96,127" fill="#1e8449"/>
+<circle cx="150" cy="210" r="6" fill="#1f3a5f"/>
+<text x="140" y="232" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">shell</text>
+<text x="291" y="216" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="75" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="162" y="117" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">applied</tspan><tspan dy="-6"></tspan></text>
+<text x="162" y="225" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="92" y="134" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="150" y="320" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="middle" font-style="italic">w is 1/245 of F_applied (not to scale)</text>
+</svg>

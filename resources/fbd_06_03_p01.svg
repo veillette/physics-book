@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="290" viewBox="0 0 400 290" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the child on the merry-go-round</title>
+<desc id="desc">Free-body diagram with +x horizontally toward the center of the merry-go-round and +y up: centripetal force from the ride F c along +x, normal force N up, weight w down; the acceleration points toward the center.</desc>
+<rect width="400" height="290" fill="#ffffff"/>
+<line x1="40" y1="150" x2="346" y2="150" stroke="#555555" stroke-width="1.5"/><polygon points="355,150 345,154.2 345,145.8" fill="#555555"/>
+<line x1="150" y1="260" x2="150" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="150,40 154.2,50 145.8,50" fill="#555555"/>
+<line x1="150" y1="150" x2="150" y2="101" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,90 155.04,102 144.96,102" fill="#b03a2e"/>
+<line x1="150" y1="150" x2="150" y2="199" stroke="#b03a2e" stroke-width="3.5"/><polygon points="150,210 144.96,198 155.04,198" fill="#b03a2e"/>
+<line x1="150" y1="150" x2="273" y2="150" stroke="#b03a2e" stroke-width="3.5"/><polygon points="284,150 272,155.04 272,144.96" fill="#b03a2e"/>
+<line x1="200" y1="75" x2="234" y2="75" stroke="#1e8449" stroke-width="3"/><polygon points="245,75 233,80.04 233,69.96" fill="#1e8449"/>
+<circle cx="150" cy="150" r="6" fill="#1f3a5f"/>
+<text x="140" y="176" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">child</text>
+<text x="371" y="156" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="150" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="300" y="168" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="end">toward center →</text>
+<text x="162" y="109" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="162" y="205" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="270" y="138" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">c</tspan><tspan dy="-6"></tspan></text>
+<text x="231" y="63" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="210" y="270" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="middle" font-style="italic">lengths drawn for part (a)</text>
+</svg>

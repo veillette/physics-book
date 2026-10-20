@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="360" viewBox="0 0 400 360" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the shell in the tilted mortar</title>
+<desc id="desc">Free-body diagram with tilted axes: +x along the tube, 10 degrees from vertical, and +y perpendicular to the tube. The force from the gases F points along +x. The weight w points straight down and is split into dashed components mg cos 10 along -x and mg sin 10 along -y. The tube wall pushes with N along +y. The acceleration points along +x.</desc>
+<rect width="400" height="360" fill="#ffffff"/>
+<line x1="179.16" y1="328.18" x2="222.75" y2="80.99" stroke="#555555" stroke-width="1.5"/><polygon points="224.31,72.13 226.71,82.7 218.44,81.25" fill="#555555"/>
+<line x1="318.18" y1="230.84" x2="90.69" y2="190.73" stroke="#555555" stroke-width="1.5"/><polygon points="81.82,189.16 92.4,186.76 90.94,195.03" fill="#555555"/>
+<path d="M 189.23 271.06 A 62 62 0 0 0 200 272" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="200" y1="210" x2="188.23" y2="276.77" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="186.32,287.6 183.44,274.91 193.36,276.66" fill="#c0675e"/>
+<line x1="200" y1="210" x2="208.51" y2="211.5" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="213.69,212.41 207.07,213.91 207.99,208.74" fill="#c0675e"/>
+<line x1="200" y1="210" x2="218.93" y2="102.66" stroke="#b03a2e" stroke-width="3.5"/><polygon points="220.84,91.82 223.72,104.52 213.79,102.77" fill="#b03a2e"/>
+<line x1="200" y1="210" x2="200" y2="279" stroke="#b03a2e" stroke-width="3.5"/><polygon points="200,290 194.96,278 205.04,278" fill="#b03a2e"/>
+<line x1="200" y1="210" x2="191.43" y2="208.49" stroke="#b03a2e" stroke-width="3.5"/><polygon points="186.21,207.57 192.88,206.06 191.96,211.27" fill="#b03a2e"/>
+<line x1="270" y1="150" x2="275.9" y2="116.52" stroke="#1e8449" stroke-width="3"/><polygon points="277.81,105.68 280.69,118.38 270.77,116.63" fill="#1e8449"/>
+<circle cx="200" cy="210" r="6" fill="#1f3a5f"/>
+<text x="222" y="180" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">shell</text>
+<text x="227.09" y="62.37" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="66.07" y="192.38" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="232.84" y="110.64" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="216" y="285" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="174" y="317" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="end" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> 10°</tspan></text>
+<text x="222" y="250" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0675e" text-anchor="start" xml:space="preserve"><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal"> 10°</tspan></text>
+<text x="194" y="191.57" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="180.6" y="286.66" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">10°</tspan></text>
+<text x="289.81" y="124.5" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="300" viewBox="0 0 380 300" role="img" aria-labelledby="title desc">
+<title id="title">Forces on the Achilles tendon</title>
+<desc id="desc">Diagram with +x to the right and +y up: F1 = 200 N pointing up and 20 degrees to the right of +y, F2 = 200 N pointing up and 20 degrees to the left of +y. Dashed horizontal components F1x along +x and F2x along -x cancel.</desc>
+<rect width="380" height="300" fill="#ffffff"/>
+<line x1="25" y1="240" x2="346" y2="240" stroke="#555555" stroke-width="1.5"/><polygon points="355,240 345,244.2 345,235.8" fill="#555555"/>
+<line x1="190" y1="280" x2="190" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="190,40 194.2,50 185.8,50" fill="#555555"/>
+<path d="M 220.78 155.43 A 90 90 0 0 0 190 150" fill="none" stroke="#222222" stroke-width="1.5"/>
+<path d="M 190 150 A 90 90 0 0 0 159.22 155.43" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="190" y1="240" x2="239" y2="240" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="250,240 238,245.04 238,234.96" fill="#c0675e"/>
+<line x1="190" y1="240" x2="141" y2="240" stroke="#c0675e" stroke-width="2.5" stroke-dasharray="7 5"/><polygon points="130,240 142,234.96 142,245.04" fill="#c0675e"/>
+<line x1="190" y1="240" x2="246.09" y2="85.89" stroke="#b03a2e" stroke-width="3.5"/><polygon points="249.85,75.55 250.49,88.55 241.01,85.11" fill="#b03a2e"/>
+<line x1="190" y1="240" x2="133.91" y2="85.89" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130.15,75.55 138.99,85.11 129.51,88.55" fill="#b03a2e"/>
+<circle cx="190" cy="240" r="6" fill="#1f3a5f"/>
+<text x="250" y="200" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">tendon</text>
+<text x="371" y="246" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="190" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="254.64" y="62.4" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">1</tspan><tspan dy="-6"></tspan></text>
+<text x="125.36" y="62.4" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">2</tspan><tspan dy="-6"></tspan></text>
+<text x="236" y="262" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">1x</tspan><tspan dy="-6"></tspan></text>
+<text x="144" y="262" font-family="'Times New Roman', Times, serif" font-size="20" fill="#c0675e" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">2x</tspan><tspan dy="-6"></tspan></text>
+<text x="208.75" y="138.89" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">20°</tspan></text>
+<text x="171.25" y="138.89" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">20°</tspan></text>
+</svg>

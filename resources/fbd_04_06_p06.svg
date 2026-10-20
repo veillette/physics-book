@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="302" viewBox="0 0 720 302" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagrams for the tractor and airplane</title>
+<desc id="desc">Two free-body diagrams with +x forward (to the right) and +y up. (a) Tractor plus airplane: forward force from the pavement F to the right, total resisting force f total to the left, N up, w down; acceleration to the right. (b) Airplane only: push from the tractor F push to the right, resisting force f airplane to the left, N up, w down; acceleration to the right.</desc>
+<rect width="720" height="302" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(a) System: tractor + airplane</text>
+<g transform="translate(0 22)">
+<line x1="20" y1="145" x2="326" y2="145" stroke="#555555" stroke-width="1.5"/><polygon points="335,145 325,149.2 325,140.8" fill="#555555"/>
+<line x1="170" y1="250" x2="170" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="170,40 174.2,50 165.8,50" fill="#555555"/>
+<line x1="170" y1="145" x2="170" y2="91" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,80 175.04,92 164.96,92" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="170" y2="199" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,210 164.96,198 175.04,198" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="284" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="295,145 283,150.04 283,139.96" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="141" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130,145 142,139.96 142,150.04" fill="#b03a2e"/>
+<line x1="210" y1="65" x2="239" y2="65" stroke="#1e8449" stroke-width="3"/><polygon points="250,65 238,70.04 238,59.96" fill="#1e8449"/>
+<circle cx="170" cy="145" r="6" fill="#1f3a5f"/>
+<text x="160" y="175" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">tractor + airplane</text>
+<text x="351" y="151" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="170" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="182" y="99" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="182" y="205" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="281" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<text x="134" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">total</tspan><tspan dy="-6"></tspan></text>
+<text x="236" y="53" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+<line x1="360" y1="10" x2="360" y2="292" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(360 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(b) System: airplane only</text>
+<g transform="translate(0 22)">
+<line x1="20" y1="145" x2="326" y2="145" stroke="#555555" stroke-width="1.5"/><polygon points="335,145 325,149.2 325,140.8" fill="#555555"/>
+<line x1="170" y1="250" x2="170" y2="49" stroke="#555555" stroke-width="1.5"/><polygon points="170,40 174.2,50 165.8,50" fill="#555555"/>
+<line x1="170" y1="145" x2="170" y2="93" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,82 175.04,94 164.96,94" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="170" y2="197" stroke="#b03a2e" stroke-width="3.5"/><polygon points="170,208 164.96,196 175.04,196" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="281" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="292,145 280,150.04 280,139.96" fill="#b03a2e"/>
+<line x1="170" y1="145" x2="143" y2="145" stroke="#b03a2e" stroke-width="3.5"/><polygon points="132,145 144,139.96 144,150.04" fill="#b03a2e"/>
+<line x1="210" y1="65" x2="239" y2="65" stroke="#1e8449" stroke-width="3"/><polygon points="250,65 238,70.04 238,59.96" fill="#1e8449"/>
+<circle cx="170" cy="145" r="6" fill="#1f3a5f"/>
+<text x="160" y="175" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="end">airplane</text>
+<text x="351" y="151" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="170" y="30" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="182" y="101" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">N</tspan></text>
+<text x="182" y="203" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan></text>
+<text x="278" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-style="normal" font-size="14" dy="6">push</tspan><tspan dy="-6"></tspan></text>
+<text x="126" y="133" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">f</tspan><tspan font-style="normal" font-size="14" dy="6">airplane</tspan><tspan dy="-6"></tspan></text>
+<text x="236" y="53" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+</g>
+</g>
+</svg>
