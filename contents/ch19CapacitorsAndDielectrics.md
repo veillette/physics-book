@@ -699,7 +699,7 @@ What charge is stored in the defibrillator capacitor in [Example 1 of Energy Sto
 
 The [defibrillator example](/contents/ch19EnergyStoredInCapacitors.md#Example1) uses $$C=8.00\ \mu\text{F}$$ charged to $$V=1.00\times10^4\ \text{V}$$. Therefore
 
-$$Q=CV=(8.00\times10^{-6})(1.00\times10^4)=8.00\times10^{-2}\ \text{C}=80.0\ \text{mC}.$$
+$$Q=CV=(8.00\times10^{-6}\ \text{F})(1.00\times10^4\ \text{V})=8.00\times10^{-2}\ \text{C}=80.0\ \text{mC}.$$
 
 The plates carry equal and opposite charges of magnitude 80.0 mC.
 

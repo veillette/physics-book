@@ -163,7 +163,7 @@ The kinetic energy of the car at equilibrium is:
 Substituting the given values:
 
 <div class="equation">
- $$E = \frac{1}{2}(1200)(0.800)^2 = \frac{1}{2}(1200)(0.640)$$
+ $$E = \frac{1}{2}(1200 \text{ kg})(0.800 \text{ m/s})^2 = \frac{1}{2}(1200 \text{ kg})(0.640 \text{ (m/s)}^2)$$
 </div>
 
 <div class="equation">
@@ -202,11 +202,11 @@ The oscillation starts with maximum displacement, so all the energy is initially
 The initial energy stored in the suspension is:
 
 <div class="equation">
- $$E = \frac{1}{2}kx^{2} = \frac{1}{2}(5.00 \times 10^4)(0.0750)^2$$
+ $$E = \frac{1}{2}kx^{2} = \frac{1}{2}(5.00 \times 10^4 \text{ N/m})(0.0750 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$E = \frac{1}{2}(5.00 \times 10^4)(5.625 \times 10^{-3}) = 141 \text{ J}$$
+ $$E = \frac{1}{2}(5.00 \times 10^4 \text{ N/m})(5.625 \times 10^{-3} \text{ m}^2) = 141 \text{ J}$$
 </div>
 
 **Discussion**
@@ -264,7 +264,7 @@ For part (a), when the object hangs motionless, the spring force balances the we
 </div>
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}(40.0)(0.01513) = 0.303 \text{ J} \approx 0.300 \text{ J}$$
+ $$PE_{el} = \frac{1}{2}(40.0 \text{ N/m})(0.01513 \text{ m}^2) = 0.303 \text{ J} \approx 0.300 \text{ J}$$
 </div>
 
 Comparing energies:
@@ -304,7 +304,7 @@ Suppose you have a 0.750-kg object on a horizontal surface connected to a spring
 
 **(a)** At the threshold of motion,
 
-$$x_s=\frac{\mu_smg}{k}=\frac{(0.100)(0.750)(9.80)}{150}=4.90\ \text{mm}.$$
+$$x_s=\frac{\mu_smg}{k}=\frac{(0.100)(0.750\ \text{kg})(9.80\ \text{m/s}^2)}{150\ \text{N/m}}=4.90\ \text{mm}.$$
 
 **(b)** Starting from $$X=2x_s=9.80\ \text{mm}$$, the block initially moves left. During that motion the kinetic-friction force points right, shifting the oscillator's equilibrium to
 
@@ -344,33 +344,33 @@ For part (a), the energy in a harmonic oscillator at maximum displacement is pur
 (a) Energy needed for 0.100 m amplitude:
 
 <div class="equation">
- $$E_1 = \frac{1}{2}kx_{1}^2 = \frac{1}{2}(1.00 \times 10^8)(0.100)^2$$
+ $$E_1 = \frac{1}{2}kx_{1}^2 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.100 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$E_1 = \frac{1}{2}(1.00 \times 10^8)(0.0100) = 5.00 \times 10^5 \text{ J}$$
+ $$E_1 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.0100 \text{ m}^2) = 5.00 \times 10^5 \text{ J}$$
 </div>
 
 (b) Energy at 0.500 m amplitude:
 
 <div class="equation">
- $$E_2 = \frac{1}{2}kx_{2}^2 = \frac{1}{2}(1.00 \times 10^8)(0.500)^2$$
+ $$E_2 = \frac{1}{2}kx_{2}^2 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.500 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$E_2 = \frac{1}{2}(1.00 \times 10^8)(0.250) = 1.25 \times 10^7 \text{ J}$$
+ $$E_2 = \frac{1}{2}(1.00 \times 10^8 \text{ N/m})(0.250 \text{ m}^2) = 1.25 \times 10^7 \text{ J}$$
 </div>
 
 Additional energy needed:
 
 <div class="equation">
- $$\Delta E = E_2 - E_1 = 1.25 \times 10^7 - 5.00 \times 10^5 = 1.20 \times 10^7 \text{ J}$$
+ $$\Delta E = E_2 - E_1 = 1.25 \times 10^7 \text{ J} - 5.00 \times 10^5 \text{ J} = 1.20 \times 10^7 \text{ J}$$
 </div>
 
 Time to add this energy at a rate of $$1.00 \times 10^4$$ J/s:
 
 <div class="equation">
- $$t = \frac{\Delta E}{P} = \frac{1.20 \times 10^7}{1.00 \times 10^4} = 1.20 \times 10^3 \text{ s}$$
+ $$t = \frac{\Delta E}{P} = \frac{1.20 \times 10^7 \text{ J}}{1.00 \times 10^4 \text{ J/s}} = 1.20 \times 10^3 \text{ s}$$
 </div>
 
 **Discussion**

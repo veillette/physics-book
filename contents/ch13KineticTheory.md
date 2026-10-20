@@ -695,7 +695,7 @@ Suppose that the rms speed $$v_{\text{rms}}$$ of carbon dioxide molecules (molar
 
 The rms speed satisfies $$v_{\text{rms}}=\sqrt{3RT/M}$$. Thus, with $$M=0.0440\ \text{kg/mol}$$,
 
-$$T=\frac{Mv_{\text{rms}}^2}{3R}=\frac{(0.0440)(1.05\times10^3)^2}{3(8.31)}=1.95\times10^3\ \text{K}.$$
+$$T=\frac{Mv_{\text{rms}}^2}{3R}=\frac{(0.0440\ \text{kg/mol})(1.05\times10^3\ \text{m/s})^2}{3(8.31\ \text{J/mol}\cdot\text{K})}=1.95\times10^3\ \text{K}.$$
 
 This is about 1670 °C, a plausible flame temperature.
 
@@ -794,7 +794,7 @@ $$\frac{v_{235}}{v_{238}}=\sqrt{\frac{M_{238}}{M_{235}}}=\sqrt{\frac{352.0}{349.
 
 $$\Delta v=\sqrt{3RT}\left(\frac{1}{\sqrt{0.3490}}-\frac{1}{\sqrt{0.3520}}\right).$$
 
-$$T=\frac{(1.00)^2}{3(8.31)\left(1/\sqrt{0.3490}-1/\sqrt{0.3520}\right)^2}=768\ \text{K}\approx495\ {}^\circ\text{C}.$$
+$$T=\frac{(1.00\ \text{m/s})^2}{3(8.31\ \text{J/mol}\cdot\text{K})\left(1/\sqrt{0.3490\ \text{kg/mol}}-1/\sqrt{0.3520\ \text{kg/mol}}\right)^2}=768\ \text{K}\approx495\ {}^\circ\text{C}.$$
 
 **(c)** Yes. The speed difference is only about 0.43%, so many diffusion stages are needed for substantial separation.
 

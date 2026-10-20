@@ -404,7 +404,7 @@ The frequencies to which the ear responds vary by a factor of  $$ 10^{3} $$ .
 
 **Strategy**
 
-The human ear responds to frequencies ranging from 20 Hz to 20,000 Hz, which represents a factor of $$\frac{20,000}{20} = 1000 = 10^3$$. For the speedometer to have the same range factor, we divide the maximum speed by $$10^3$$ to find the minimum speed.
+The human ear responds to frequencies ranging from 20 Hz to 20,000 Hz, which represents a factor of $$\frac{20,000 \text{ Hz}}{20 \text{ Hz}} = 1000 = 10^3$$. For the speedometer to have the same range factor, we divide the maximum speed by $$10^3$$ to find the minimum speed.
 
 **Solution**
 
@@ -493,12 +493,12 @@ $$\Delta f = f_2 - f_1 = 2002 \text{ Hz} - 1999 \text{ Hz} = 3 \text{ Hz}$$
 
 The average frequency is:
 <div class="equation">
-$$f_{\text{avg}} = \frac{f_1 + f_2}{2} = \frac{1999 + 2002}{2} = 2000.5 \text{ Hz}$$
+$$f_{\text{avg}} = \frac{f_1 + f_2}{2} = \frac{1999 \text{ Hz} + 2002 \text{ Hz}}{2} = 2000.5 \text{ Hz}$$
 </div>
 
 The percentage difference is:
 <div class="equation">
-$$\text{Percentage difference} = \frac{\Delta f}{f_{\text{avg}}} \times 100\% = \frac{3}{2000.5} \times 100\% = 0.150\%$$
+$$\text{Percentage difference} = \frac{\Delta f}{f_{\text{avg}}} \times 100\% = \frac{3 \text{ Hz}}{2000.5 \text{ Hz}} \times 100\% = 0.150\%$$
 </div>
 
 Since $$0.150\% < 0.3\%$$, the difference is below the threshold.
@@ -539,7 +539,7 @@ $$\beta_{2} = \beta_{1} - \Delta \beta = 85 \text{ dB} - 3 \text{ dB} = 82 \text
 
 **Discussion**
 
-The next lowest sound intensity level that is clearly less intense than 85 dB is 82 dB. While the average person can detect differences as small as 1 dB under ideal conditions with careful attention, a 3 dB change is considered "easily noticed" without special effort or concentration. This 3 dB difference is significant because it represents a factor of 2 in actual sound intensity (since $$10\log_{10}(2) \approx 3$$ dB). In other words, reducing the volume from 85 dB to 82 dB means the radio is producing approximately half the acoustic power. This is why a 3 dB change is often used as a standard reference in acoustics and audio engineering. From a practical standpoint, 85 dB is at the threshold where prolonged exposure begins to pose a risk for hearing damage—OSHA regulations limit exposure to 85 dB to 8 hours per day. Reducing to 82 dB (half the intensity) provides a small but measurable reduction in hearing damage risk. The ability to perceive a 3 dB change easily is important for everyday activities like adjusting radio volume, evaluating environmental noise levels, and using hearing protection effectively. Most volume controls on audio equipment are designed so that small adjustments produce changes of at least 2-3 dB to ensure perceptible differences.
+The next lowest sound intensity level that is clearly less intense than 85 dB is 82 dB. While the average person can detect differences as small as 1 dB under ideal conditions with careful attention, a 3 dB change is considered "easily noticed" without special effort or concentration. This 3 dB difference is significant because it represents a factor of 2 in actual sound intensity (since $$(10 \text{ dB})\log_{10}(2) \approx 3 \text{ dB}$$). In other words, reducing the volume from 85 dB to 82 dB means the radio is producing approximately half the acoustic power. This is why a 3 dB change is often used as a standard reference in acoustics and audio engineering. From a practical standpoint, 85 dB is at the threshold where prolonged exposure begins to pose a risk for hearing damage—OSHA regulations limit exposure to 85 dB to 8 hours per day. Reducing to 82 dB (half the intensity) provides a small but measurable reduction in hearing damage risk. The ability to perceive a 3 dB change easily is important for everyday activities like adjusting radio volume, evaluating environmental noise levels, and using hearing protection effectively. Most volume controls on audio equipment are designed so that small adjustments produce changes of at least 2-3 dB to ensure perceptible differences.
 
 :::
 
@@ -564,14 +564,14 @@ We need to determine if a 3 dB change in sound intensity level is perceptible. A
 Given:
 - Initial intensity level: $$\beta_{1} = 70 \text{ dB}$$
 - Final intensity level: $$\beta_{2} = 73 \text{ dB}$$
-- Change in intensity level: $$\Delta \beta = 73 - 70 = 3 \text{ dB}$$
+- Change in intensity level: $$\Delta \beta = 73 \text{ dB} - 70 \text{ dB} = 3 \text{ dB}$$
 
 Since the text states that "a change of 3 dB is easily noticed," yes, you would be able to tell that your roommate turned up the sound.
 
 To understand what this change represents in terms of actual intensity, we can calculate the intensity ratio:
 
 <div class="equation">
-$$\beta_{2} - \beta_{1} = 10\log_{10}\left(\frac{I_2}{I_1}\right) = 3 \text{ dB}$$
+$$\beta_{2} - \beta_{1} = (10 \text{ dB})\log_{10}\left(\frac{I_2}{I_1}\right) = 3 \text{ dB}$$
 </div>
 
 <div class="equation">
@@ -769,7 +769,7 @@ Suppose a person has a 50-dB hearing loss at all frequencies. By how many factor
 
 A 50-dB increase in intensity level requires
 
-$$50=10\log_{10}\frac{I_2}{I_1},\qquad \frac{I_2}{I_1}=10^5.$$
+$$50 \text{ dB}=(10 \text{ dB})\log_{10}\frac{I_2}{I_1},\qquad \frac{I_2}{I_1}=10^5.$$
 
 Thus the required low-level intensity gain is **five factors of 10**, or 100,000. Smaller gain for loud sounds is needed to avoid excessive output.
 
@@ -798,23 +798,23 @@ To find the hearing loss in decibels, we need to convert the intensity ratio (am
 Given that the required amplification is $$5.0 \times 10^{12}$$, we can find the hearing loss using:
 
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_{\text{amplified}}}{I_{\text{original}}}\right) = 10\log_{10}(5.0 \times 10^{12})$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_{\text{amplified}}}{I_{\text{original}}}\right) = (10 \text{ dB})\log_{10}(5.0 \times 10^{12})$$
 </div>
 
 Using logarithm properties:
 
 <div class="equation">
-$$\Delta\beta = 10[\log_{10}(5.0) + \log_{10}(10^{12})]$$
+$$\Delta\beta = (10 \text{ dB})[\log_{10}(5.0) + \log_{10}(10^{12})]$$
 </div>
 
 <div class="equation">
-$$\Delta\beta = 10[\log_{10}(5.0) + 12]$$
+$$\Delta\beta = (10 \text{ dB})[\log_{10}(5.0) + 12]$$
 </div>
 
 Since $$\log_{10}(5.0) \approx 0.699$$:
 
 <div class="equation">
-$$\Delta\beta = 10[0.699 + 12] = 10 \times 12.699 = 126.99 \approx 127 \text{ dB}$$
+$$\Delta\beta = (10 \text{ dB})[0.699 + 12] = (10 \text{ dB}) \times 12.699 = 126.99 \text{ dB} \approx 127 \text{ dB}$$
 </div>
 
 **Discussion**
@@ -845,11 +845,11 @@ Use $$I=I_0 10^{\beta/10}$$ with $$I_0=10^{-12}\ \text{W/m}^2$$ and approximate 
 
 **(a)** At 200 Hz the threshold is about 20 dB:
 
-$$I_{200}=10^{-12}10^{20/10}=1\times10^{-10}\ \text{W/m}^2.$$
+$$I_{200}=(10^{-12}\ \text{W/m}^2)\,10^{20/10}=1\times10^{-10}\ \text{W/m}^2.$$
 
 **(b)** At 4000 Hz the threshold is about −7 dB:
 
-$$I_{4000}=10^{-12}10^{-7/10}\approx2\times10^{-13}\ \text{W/m}^2.$$
+$$I_{4000}=(10^{-12}\ \text{W/m}^2)\,10^{-7/10}\approx2\times10^{-13}\ \text{W/m}^2.$$
 
 These graph estimates imply a ratio of about 500. Hearing sensitivity depends strongly on frequency.
 
@@ -878,7 +878,7 @@ From Figure 2, the 60-phon curve at 60 Hz corresponds to approximately 82 dB.
 
 Using the decibel formula:
 <div class="equation">
-$$82 = 10\log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$82 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12}}\right)$$
 </div>
 
 <div class="equation">
@@ -890,7 +890,7 @@ $$\frac{I}{10^{-12}} = 10^{8.2} \approx 1.58 \times 10^{8}$$
 </div>
 
 <div class="equation">
-$$I = 1.58 \times 10^{8} \times 10^{-12} = 1.58 \times 10^{-4} \text{ W/m}^2 \approx 1.6 \times 10^{-4} \text{ W/m}^2$$
+$$I = (1.58 \times 10^{8})(10^{-12} \text{ W/m}^2) = 1.58 \times 10^{-4} \text{ W/m}^2 \approx 1.6 \times 10^{-4} \text{ W/m}^2$$
 </div>
 
 **(b) For 10,000-Hz sound at 60 phons:**
@@ -898,7 +898,7 @@ $$I = 1.58 \times 10^{8} \times 10^{-12} = 1.58 \times 10^{-4} \text{ W/m}^2 \ap
 From Figure 2, the 60-phon curve at 10,000 Hz corresponds to approximately 60 dB (the curves are flatter in this region).
 
 <div class="equation">
-$$60 = 10\log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$60 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12}}\right)$$
 </div>
 
 <div class="equation">
@@ -910,7 +910,7 @@ $$\frac{I}{10^{-12}} = 10^{6}$$
 </div>
 
 <div class="equation">
-$$I = 10^{6} \times 10^{-12} = 10^{-6} \text{ W/m}^2 = 1.0 \times 10^{-6} \text{ W/m}^2$$
+$$I = (10^{6})(10^{-12} \text{ W/m}^2) = 10^{-6} \text{ W/m}^2 = 1.0 \times 10^{-6} \text{ W/m}^2$$
 </div>
 
 **Discussion**
@@ -939,7 +939,7 @@ A person has a hearing threshold 10 dB above normal at 100 Hz and 50 dB above no
 
 From Figure 2, estimate normal thresholds of 38 dB at 100 Hz and −7 dB at 4000 Hz. Adding the specified losses gives thresholds of 48 dB and 43 dB, respectively. Thus
 
-$$\frac{I_{100}}{I_{4000}}=10^{(48-43)/10}=10^{0.5}=3.16\approx3.2.$$
+$$\frac{I_{100}}{I_{4000}}=10^{(48 \text{ dB}-43 \text{ dB})/(10 \text{ dB})}=10^{0.5}=3.16\approx3.2.$$
 
 Using these approximate graph readings, the 100-Hz tone must be about **3.2 times** as intense. The different normal thresholds must be included as well as the person's losses.
 
@@ -968,20 +968,20 @@ From Figure 2, the normal hearing thresholds (0-phon curve) are:
 
 For this child:
 - Threshold at 400 Hz: **9 dB** (normal hearing)
-- Threshold at 5000 Hz: $$-5 + 60 = 55 \text{ dB}$$ (with 60-dB loss)
+- Threshold at 5000 Hz: $$-5 \text{ dB} + 60 \text{ dB} = 55 \text{ dB}$$ (with 60-dB loss)
 
 The difference in threshold levels is:
 <div class="equation">
-$$\Delta\beta = 55 - 9 = 46 \text{ dB}$$
+$$\Delta\beta = 55 \text{ dB} - 9 \text{ dB} = 46 \text{ dB}$$
 </div>
 
 To find the intensity ratio:
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
 </div>
 
 <div class="equation">
-$$46 = 10\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
+$$46 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I_{5000}}{I_{400}}\right)$$
 </div>
 
 <div class="equation">
@@ -1031,11 +1031,11 @@ $$\Delta\beta = 1 \text{ dB}$$
 
 Using the relationship between decibel difference and intensity ratio:
 <div class="equation">
-$$\Delta\beta = 10\log_{10}\left(\frac{I_1}{I_2}\right)$$
+$$\Delta\beta = (10 \text{ dB})\log_{10}\left(\frac{I_1}{I_2}\right)$$
 </div>
 
 <div class="equation">
-$$1 = 10\log_{10}\left(\frac{I_1}{I_2}\right)$$
+$$1 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I_1}{I_2}\right)$$
 </div>
 
 <div class="equation">

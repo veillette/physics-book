@@ -659,7 +659,7 @@ $$Q_{warm} = 100500 \text{ J}$$
 
 Total heat transfer:
 <div class="equation">
-$$Q_{total} = Q_{melt} + Q_{warm} = 267200 + 100500 = 367700 \text{ J} = 368 \text{ kJ}$$
+$$Q_{total} = Q_{melt} + Q_{warm} = 267200 \text{ J} + 100500 \text{ J} = 367700 \text{ J} = 368 \text{ kJ}$$
 </div>
 
 **(c)** The ice bag requires 368 kJ while the water bag requires only 101 kJ to reach the same final state. The ice absorbs **3.64 times more energy** than the water (368/101 ≈ 3.64). This means ice is much more effective at absorbing heat, which is why ice packs are preferred for cooling injuries or keeping items cold.
@@ -718,27 +718,27 @@ Given:
 
 **Step 1:** Heat the aluminum pot from 30.0 °C to 100 °C:
 <div class="equation">
-$$Q_{Al} = m_{Al}c_{Al}\Delta T = (0.750)(900)(100 - 30.0) = (0.750)(900)(70.0) = 47250 \text{ J}$$
+$$Q_{Al} = m_{Al}c_{Al}\Delta T = (0.750 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC})(100\text{ºC} - 30.0\text{ºC}) = (0.750 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC})(70.0\text{ºC}) = 47250 \text{ J}$$
 </div>
 
 **Step 2:** Heat the water from 30.0 °C to 100 °C:
 <div class="equation">
-$$Q_w = m_w c_w \Delta T = (2.50)(4186)(70.0) = 732550 \text{ J}$$
+$$Q_w = m_w c_w \Delta T = (2.50 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(70.0\text{ºC}) = 732550 \text{ J}$$
 </div>
 
 **Step 3:** Boil away 0.750 kg of water:
 <div class="equation">
-$$Q_{evap} = m_{evap}L_v = (0.750)(2256 \times 10^3) = 1692000 \text{ J}$$
+$$Q_{evap} = m_{evap}L_v = (0.750 \text{ kg})(2256 \times 10^3 \text{ J/kg}) = 1692000 \text{ J}$$
 </div>
 
 **Step 4:** Total heat transfer:
 <div class="equation">
-$$Q_{total} = Q_{Al} + Q_w + Q_{evap} = 47250 + 732550 + 1692000 = 2471800 \text{ J}$$
+$$Q_{total} = Q_{Al} + Q_w + Q_{evap} = 47250 \text{ J} + 732550 \text{ J} + 1692000 \text{ J} = 2471800 \text{ J}$$
 </div>
 
 Convert to kilocalories (1 kcal = 4186 J):
 <div class="equation">
-$$Q_{total} = \frac{2471800}{4186} = 591 \text{ kcal}$$
+$$Q_{total} = \frac{2471800 \text{ J}}{4186 \text{ J/kcal}} = 591 \text{ kcal}$$
 </div>
 
 **(b)** Time required at 500 W:
@@ -936,7 +936,7 @@ Using values:
 - $$L_v = 2256 \text{ kJ/kg} = 2.256 \times 10^6 \text{ J/kg}$$
 
 <div class="equation">
-$$f = \frac{(4186)(1.50)}{2.256 \times 10^6} = \frac{6279}{2.256 \times 10^6} = 0.00278 = 0.278\%$$
+$$f = \frac{(4186 \text{ J/kg}\cdot\text{ºC})(1.50\text{ºC})}{2.256 \times 10^6 \text{ J/kg}} = \frac{6279 \text{ J/kg}}{2.256 \times 10^6 \text{ J/kg}} = 0.00278 = 0.278\%$$
 </div>
 
 **Discussion**
@@ -1015,35 +1015,35 @@ Given:
 
 **(a)** Calculate volume and mass:
 <div class="equation">
-$$V = L \times W \times h = (1.60 \times 10^5)(4.00 \times 10^4)(250) = 1.60 \times 10^{12} \text{ m}^3$$
+$$V = L \times W \times h = (1.60 \times 10^5 \text{ m})(4.00 \times 10^4 \text{ m})(250 \text{ m}) = 1.60 \times 10^{12} \text{ m}^3$$
 </div>
 
 <div class="equation">
-$$m = \rho V = (917)(1.60 \times 10^{12}) = 1.47 \times 10^{15} \text{ kg}$$
+$$m = \rho V = (917 \text{ kg/m}^3)(1.60 \times 10^{12} \text{ m}^3) = 1.47 \times 10^{15} \text{ kg}$$
 </div>
 
 **(b)** Heat needed to melt:
 <div class="equation">
-$$Q = mL_{f} = (1.47 \times 10^{15})(3.34 \times 10^5) = 4.91 \times 10^{20} \text{ J}$$
+$$Q = mL_{f} = (1.47 \times 10^{15} \text{ kg})(3.34 \times 10^5 \text{ J/kg}) = 4.91 \times 10^{20} \text{ J}$$
 </div>
 
 **(c)** Time to melt:
 
-Surface area: $$A = L \times W = (1.60 \times 10^5)(4.00 \times 10^4) = 6.40 \times 10^9 \text{ m}^2$$
+Surface area: $$A = L \times W = (1.60 \times 10^5 \text{ m})(4.00 \times 10^4 \text{ m}) = 6.40 \times 10^9 \text{ m}^2$$
 
 Energy absorbed per day:
 <div class="equation">
-$$E_{day} = P \times A \times t = (100)(6.40 \times 10^9)(43200) = 2.76 \times 10^{16} \text{ J/day}$$
+$$E_{day} = P \times A \times t = (100 \text{ W/m}^2)(6.40 \times 10^9 \text{ m}^2)(43200 \text{ s/day}) = 2.76 \times 10^{16} \text{ J/day}$$
 </div>
 
 Time in days:
 <div class="equation">
-$$t_{days} = \frac{Q}{E_{day}} = \frac{4.91 \times 10^{20}}{2.76 \times 10^{16}} = 1.78 \times 10^4 \text{ days}$$
+$$t_{days} = \frac{Q}{E_{day}} = \frac{4.91 \times 10^{20} \text{ J}}{2.76 \times 10^{16} \text{ J/day}} = 1.78 \times 10^4 \text{ days}$$
 </div>
 
 Convert to years:
 <div class="equation">
-$$t_{years} = \frac{1.78 \times 10^4}{365.25} = 48.7 \text{ years}$$
+$$t_{years} = \frac{1.78 \times 10^4 \text{ days}}{365.25 \text{ days/year}} = 48.7 \text{ years}$$
 </div>
 
 **Discussion**
@@ -1127,17 +1127,17 @@ Given:
 
 Calculate the area of the storm:
 <div class="equation">
-$$A = \pi r^2 = \pi(1000)^2 = 3.14 \times 10^6 \text{ m}^2$$
+$$A = \pi r^2 = \pi(1000 \text{ m})^2 = 3.14 \times 10^6 \text{ m}^2$$
 </div>
 
 Calculate the volume of rain:
 <div class="equation">
-$$V = Ah = (3.14 \times 10^6)(0.010) = 3.14 \times 10^4 \text{ m}^3$$
+$$V = Ah = (3.14 \times 10^6 \text{ m}^2)(0.010 \text{ m}) = 3.14 \times 10^4 \text{ m}^3$$
 </div>
 
 Calculate the mass of water:
 <div class="equation">
-$$m = \rho V = (1000)(3.14 \times 10^4) = 3.14 \times 10^7 \text{ kg}$$
+$$m = \rho V = (1000 \text{ kg/m}^3)(3.14 \times 10^4 \text{ m}^3) = 3.14 \times 10^7 \text{ kg}$$
 </div>
 
 Calculate energy released by condensation:
@@ -1238,17 +1238,17 @@ Given:
 
 Heat capacity of system:
 <div class="equation">
-$$C = m_{Al}c_{Al} + m_w c_w = (0.250)(900) + (0.800)(4186) = 225 + 3349 = 3574 \text{ J/ºC}$$
+$$C = m_{Al}c_{Al} + m_w c_w = (0.250 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC}) + (0.800 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC}) = 225 \text{ J/ºC} + 3349 \text{ J/ºC} = 3574 \text{ J/ºC}$$
 </div>
 
 Temperature change if no freezing:
 <div class="equation">
-$$\Delta T = \frac{Q_{total}}{C} = \frac{-377000}{3574} = -105.5\text{ºC}$$
+$$\Delta T = \frac{Q_{total}}{C} = \frac{-377000 \text{ J}}{3574 \text{ J/ºC}} = -105.5\text{ºC}$$
 </div>
 
 Final temperature would be:
 <div class="equation">
-$$T_f = 25.0 - 105.5 = -80.5\text{ºC}$$
+$$T_f = 25.0\text{ºC} - 105.5\text{ºC} = -80.5\text{ºC}$$
 </div>
 
 This is below 0ºC, so freezing DOES occur! We must account for the phase change.
@@ -1257,19 +1257,19 @@ This is below 0ºC, so freezing DOES occur! We must account for the phase change
 
 **(a)** Cool from 25.0ºC to 0ºC:
 <div class="equation">
-$$Q_1 = -C(25.0) = -(3574)(25.0) = -89350 \text{ J}$$
+$$Q_1 = -C(25.0\text{ºC}) = -(3574 \text{ J/ºC})(25.0\text{ºC}) = -89350 \text{ J}$$
 </div>
 
 **(b)** Freeze some soup at 0ºC:
 
 Remaining energy for freezing:
 <div class="equation">
-$$Q_{freeze} = Q_{total} - Q_1 = -377000 - (-89350) = -287650 \text{ J}$$
+$$Q_{freeze} = Q_{total} - Q_1 = -377000 \text{ J} - (-89350 \text{ J}) = -287650 \text{ J}$$
 </div>
 
 Mass of soup frozen:
 <div class="equation">
-$$m_{frozen} = \frac{|Q_{freeze}|}{L_f} = \frac{287650}{334000} = 0.861 \text{ kg}$$
+$$m_{frozen} = \frac{|Q_{freeze}|}{L_f} = \frac{287650 \text{ J}}{334000 \text{ J/kg}} = 0.861 \text{ kg}$$
 </div>
 
 Since $$m_{frozen} = 0.861 \text{ kg} > m_w = 0.800 \text{ kg}$$, ALL the soup freezes with energy left over!
@@ -1280,26 +1280,26 @@ Since $$m_{frozen} = 0.861 \text{ kg} > m_w = 0.800 \text{ kg}$$, ALL the soup f
 
 **(b)** Freeze all 0.800 kg of soup:
 <div class="equation">
-$$Q_2 = -m_w L_f = -(0.800)(334000) = -267200 \text{ J}$$
+$$Q_2 = -m_w L_f = -(0.800 \text{ kg})(334000 \text{ J/kg}) = -267200 \text{ J}$$
 </div>
 
 **(c)** Energy used so far:
 <div class="equation">
-$$Q_{used} = Q_1 + Q_2 = -89350 - 267200 = -356550 \text{ J}$$
+$$Q_{used} = Q_1 + Q_2 = -89350 \text{ J} - 267200 \text{ J} = -356550 \text{ J}$$
 </div>
 
 **(d)** Remaining energy to cool frozen soup and bowl below 0ºC:
 <div class="equation">
-$$Q_{remaining} = -377000 - (-356550) = -20450 \text{ J}$$
+$$Q_{remaining} = -377000 \text{ J} - (-356550 \text{ J}) = -20450 \text{ J}$$
 </div>
 
 **(e)** Cool below 0ºC with new heat capacity:
 - Specific heat of ice: $$c_{ice} = 2090 \text{ J/kg}\cdot\text{ºC}$$
-- New heat capacity: $$C_{frozen} = m_{Al}c_{Al} + m_w c_{ice} = (0.250)(900) + (0.800)(2090) = 225 + 1672 = 1897 \text{ J/ºC}$$
+- New heat capacity: $$C_{frozen} = m_{Al}c_{Al} + m_w c_{ice} = (0.250 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC}) + (0.800 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC}) = 225 \text{ J/ºC} + 1672 \text{ J/ºC} = 1897 \text{ J/ºC}$$
 
 Temperature drop below 0ºC:
 <div class="equation">
-$$\Delta T_{below} = \frac{Q_{remaining}}{C_{frozen}} = \frac{-20450}{1897} = -10.8\text{ºC}$$
+$$\Delta T_{below} = \frac{Q_{remaining}}{C_{frozen}} = \frac{-20450 \text{ J}}{1897 \text{ J/ºC}} = -10.8\text{ºC}$$
 </div>
 
 **Final temperature:**
@@ -1356,23 +1356,23 @@ Given:
 
 Heat to warm ice from -30.0ºC to 0ºC:
 <div class="equation">
-$$Q_1 = m_{ice}c_{ice}\Delta T = (0.0500)(2090)(30.0) = 3135 \text{ J}$$
+$$Q_1 = m_{ice}c_{ice}\Delta T = (0.0500 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})(30.0\text{ºC}) = 3135 \text{ J}$$
 </div>
 
 Heat to melt ice at 0ºC:
 <div class="equation">
-$$Q_2 = m_{ice}L_f = (0.0500)(334000) = 16700 \text{ J}$$
+$$Q_2 = m_{ice}L_f = (0.0500 \text{ kg})(334000 \text{ J/kg}) = 16700 \text{ J}$$
 </div>
 
 Total heat to get ice to 0ºC liquid water:
 <div class="equation">
-$$Q_{ice\to water} = Q_1 + Q_2 = 3135 + 16700 = 19835 \text{ J}$$
+$$Q_{ice\to water} = Q_1 + Q_2 = 3135 \text{ J} + 16700 \text{ J} = 19835 \text{ J}$$
 </div>
 
 **Step 2:** Calculate maximum heat available from water cooling to 0ºC:
 
 <div class="equation">
-$$Q_{available} = m_w c_w \Delta T = (0.400)(4186)(35.0) = 58604 \text{ J}$$
+$$Q_{available} = m_w c_w \Delta T = (0.400 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(35.0\text{ºC}) = 58604 \text{ J}$$
 </div>
 
 Since $$Q_{available} = 58604 \text{ J} > Q_{ice\to water} = 19835 \text{ J}$$, the ice will completely melt and the final temperature will be above 0ºC.
@@ -1393,19 +1393,19 @@ $$m_w c_w T_{w,i} - 19835 = (m_w + m_{ice})c_w T_f$$
 </div>
 
 <div class="equation">
-$$(0.400)(4186)(35.0) - 19835 = (0.400 + 0.0500)(4186)T_f$$
+$$(0.400 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(35.0\text{ºC}) - 19835 \text{ J} = (0.400 \text{ kg} + 0.0500 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})T_f$$
 </div>
 
 <div class="equation">
-$$58604 - 19835 = (0.450)(4186)T_f$$
+$$58604 \text{ J} - 19835 \text{ J} = (0.450 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})T_f$$
 </div>
 
 <div class="equation">
-$$38769 = 1883.7 T_f$$
+$$38769 \text{ J} = (1883.7 \text{ J/ºC}) T_f$$
 </div>
 
 <div class="equation">
-$$T_f = \frac{38769}{1883.7} = 20.6\text{ºC}$$
+$$T_f = \frac{38769 \text{ J}}{1883.7 \text{ J/ºC}} = 20.6\text{ºC}$$
 </div>
 
 **Discussion**
@@ -1413,8 +1413,8 @@ $$T_f = \frac{38769}{1883.7} = 20.6\text{ºC}$$
 The final temperature of 20.6ºC is reasonable. The warm water (0.400 kg at 35ºC) has much more thermal energy than the cold ice (0.050 kg at -30ºC), so we expect the final temperature to be closer to the initial water temperature than to 0ºC.
 
 Energy balance check:
-- Heat lost by water: $$(0.400)(4186)(35.0 - 20.6) = 24,110 \text{ J}$$
-- Heat gained by ice: $$3135 + 16700 + (0.0500)(4186)(20.6) = 3135 + 16700 + 4312 = 24,147 \text{ J}$$
+- Heat lost by water: $$(0.400 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(35.0\text{ºC} - 20.6\text{ºC}) = 24,110 \text{ J}$$
+- Heat gained by ice: $$3135 \text{ J} + 16700 \text{ J} + (0.0500 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(20.6\text{ºC}) = 3135 \text{ J} + 16700 \text{ J} + 4312 \text{ J} = 24,147 \text{ J}$$
 
 The slight difference (24,147 - 24,110 = 37 J) is due to rounding. The values match within calculation precision, confirming our answer.
 
@@ -1459,23 +1459,23 @@ Given:
 
 Heat from cooling water to 0ºC:
 <div class="equation">
-$$Q_1 = m_w c_w \Delta T = (0.0100)(4186)(20.0) = 837.2 \text{ J}$$
+$$Q_1 = m_w c_w \Delta T = (0.0100 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(20.0\text{ºC}) = 837.2 \text{ J}$$
 </div>
 
 Heat from freezing water at 0ºC:
 <div class="equation">
-$$Q_2 = m_w L_f = (0.0100)(334000) = 3340 \text{ J}$$
+$$Q_2 = m_w L_f = (0.0100 \text{ kg})(334000 \text{ J/kg}) = 3340 \text{ J}$$
 </div>
 
 Total heat available if water freezes completely:
 <div class="equation">
-$$Q_{water,total} = Q_1 + Q_2 = 837.2 + 3340 = 4177 \text{ J}$$
+$$Q_{water,total} = Q_1 + Q_2 = 837.2 \text{ J} + 3340 \text{ J} = 4177 \text{ J}$$
 </div>
 
 **Step 2:** Calculate heat needed to warm ice from -15ºC to 0ºC:
 
 <div class="equation">
-$$Q_{ice} = m_{ice} c_{ice} \Delta T = (1.20)(2090)(15.0) = 37620 \text{ J}$$
+$$Q_{ice} = m_{ice} c_{ice} \Delta T = (1.20 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})(15.0\text{ºC}) = 37620 \text{ J}$$
 </div>
 
 **Step 3:** Compare:
@@ -1488,37 +1488,37 @@ All water freezes, releasing 4177 J to the ice. The system (now all ice/frozen w
 
 Heat lost by water:
 <div class="equation">
-$$Q_w = m_w c_w (20.0 - 0) + m_w L_f + m_w c_{ice}(0 - T_f)$$
+$$Q_w = m_w c_w (20.0\text{ºC} - 0\text{ºC}) + m_w L_f + m_w c_{ice}(0\text{ºC} - T_f)$$
 </div>
 
 <div class="equation">
-$$Q_w = 837.2 + 3340 - m_w c_{ice} T_f = 4177.2 - (0.0100)(2090)T_f$$
+$$Q_w = 837.2 \text{ J} + 3340 \text{ J} - m_w c_{ice} T_f = 4177.2 \text{ J} - (0.0100 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})T_f$$
 </div>
 
 Heat gained by ice block:
 <div class="equation">
-$$Q_{ice} = m_{ice} c_{ice} (T_f - (-15.0)) = (1.20)(2090)(T_f + 15.0)$$
+$$Q_{ice} = m_{ice} c_{ice} (T_f - (-15.0\text{ºC})) = (1.20 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})(T_f + 15.0\text{ºC})$$
 </div>
 
 Energy conservation: $$Q_w = Q_{ice}$$
 <div class="equation">
-$$4177.2 - (0.0100)(2090)T_f = (1.20)(2090)(T_f + 15.0)$$
+$$4177.2 \text{ J} - (0.0100 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})T_f = (1.20 \text{ kg})(2090 \text{ J/kg}\cdot\text{ºC})(T_f + 15.0\text{ºC})$$
 </div>
 
 <div class="equation">
-$$4177.2 - 20.9 T_f = 2508 T_f + 37620$$
+$$4177.2 \text{ J} - (20.9 \text{ J/ºC}) T_f = (2508 \text{ J/ºC}) T_f + 37620 \text{ J}$$
 </div>
 
 <div class="equation">
-$$4177.2 - 37620 = 2508 T_f + 20.9 T_f$$
+$$4177.2 \text{ J} - 37620 \text{ J} = (2508 \text{ J/ºC}) T_f + (20.9 \text{ J/ºC}) T_f$$
 </div>
 
 <div class="equation">
-$$-33442.8 = 2528.9 T_f$$
+$$-33442.8 \text{ J} = (2528.9 \text{ J/ºC}) T_f$$
 </div>
 
 <div class="equation">
-$$T_f = \frac{-33442.8}{2528.9} = -13.2\text{ºC}$$
+$$T_f = \frac{-33442.8 \text{ J}}{2528.9 \text{ J/ºC}} = -13.2\text{ºC}$$
 </div>
 
 **Discussion**
@@ -1571,7 +1571,7 @@ Given:
 
 **Heat gained by water:**
 <div class="equation">
-$$Q_w = m_w c_w (T_f - T_{w,i}) = (4.00)(4186)(100 - 15.0) = (4.00)(4186)(85.0)$$
+$$Q_w = m_w c_w (T_f - T_{w,i}) = (4.00 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(100\text{ºC} - 15.0\text{ºC}) = (4.00 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(85.0\text{ºC})$$
 </div>
 
 <div class="equation">
@@ -1580,19 +1580,19 @@ $$Q_w = 1423240 \text{ J}$$
 
 **Heat used to vaporize water:**
 <div class="equation">
-$$Q_v = m_v L_v = (0.0250)(2256000) = 56400 \text{ J}$$
+$$Q_v = m_v L_v = (0.0250 \text{ kg})(2256000 \text{ J/kg}) = 56400 \text{ J}$$
 </div>
 
 **Total heat absorbed:**
 <div class="equation">
-$$Q_{total} = Q_w + Q_v = 1423240 + 56400 = 1479640 \text{ J}$$
+$$Q_{total} = Q_w + Q_v = 1423240 \text{ J} + 56400 \text{ J} = 1479640 \text{ J}$$
 </div>
 
 **Heat lost by rocks:**
 
 Let $$m_r$$ = mass of rocks
 <div class="equation">
-$$Q_r = m_r c_r (T_{r,i} - T_f) = m_r (840)(500 - 100) = m_r (840)(400) = 336000 m_r$$
+$$Q_r = m_r c_r (T_{r,i} - T_f) = m_r (840 \text{ J/kg}\cdot\text{ºC})(500\text{ºC} - 100\text{ºC}) = m_r (840 \text{ J/kg}\cdot\text{ºC})(400\text{ºC}) = (336000 \text{ J/kg}) m_r$$
 </div>
 
 **Apply conservation of energy:**
@@ -1601,11 +1601,11 @@ $$Q_r = Q_{total}$$
 </div>
 
 <div class="equation">
-$$336000 m_r = 1479640$$
+$$(336000 \text{ J/kg}) m_r = 1479640 \text{ J}$$
 </div>
 
 <div class="equation">
-$$m_r = \frac{1479640}{336000} = 4.40 \text{ kg}$$
+$$m_r = \frac{1479640 \text{ J}}{336000 \text{ J/kg}} = 4.40 \text{ kg}$$
 </div>
 
 **Discussion**
@@ -1660,15 +1660,15 @@ Given (from Example 3):
 
 The water that evaporates must first be heated from 20.0ºC to 100ºC, then evaporated:
 <div class="equation">
-$$Q_{evap} = m_{evap}c_w(100 - 20.0) + m_{evap}L_v$$
+$$Q_{evap} = m_{evap}c_w(100\text{ºC} - 20.0\text{ºC}) + m_{evap}L_v$$
 </div>
 
 <div class="equation">
-$$Q_{evap} = (0.0100)(4186)(80.0) + (0.0100)(2256000)$$
+$$Q_{evap} = (0.0100 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(80.0\text{ºC}) + (0.0100 \text{ kg})(2256000 \text{ J/kg})$$
 </div>
 
 <div class="equation">
-$$Q_{evap} = 3348.8 + 22560 = 25909 \text{ J}$$
+$$Q_{evap} = 3348.8 \text{ J} + 22560 \text{ J} = 25909 \text{ J}$$
 </div>
 
 **Step 2:** Find final temperature of pan and remaining water:
@@ -1679,35 +1679,35 @@ The pan cools from 150ºC to $$T_f$$, losing heat that:
 
 Energy conservation:
 <div class="equation">
-$$m_{Al}c_{Al}(150 - T_f) = Q_{evap} + m_w c_w(T_f - 20.0)$$
+$$m_{Al}c_{Al}(150\text{ºC} - T_f) = Q_{evap} + m_w c_w(T_f - 20.0\text{ºC})$$
 </div>
 
 <div class="equation">
-$$(0.500)(900)(150 - T_f) = 25909 + (0.250)(4186)(T_f - 20.0)$$
+$$(0.500 \text{ kg})(900 \text{ J/kg}\cdot\text{ºC})(150\text{ºC} - T_f) = 25909 \text{ J} + (0.250 \text{ kg})(4186 \text{ J/kg}\cdot\text{ºC})(T_f - 20.0\text{ºC})$$
 </div>
 
 <div class="equation">
-$$450(150 - T_f) = 25909 + 1046.5(T_f - 20.0)$$
+$$(450 \text{ J/ºC})(150\text{ºC} - T_f) = 25909 \text{ J} + (1046.5 \text{ J/ºC})(T_f - 20.0\text{ºC})$$
 </div>
 
 <div class="equation">
-$$67500 - 450 T_f = 25909 + 1046.5 T_f - 20930$$
+$$67500 \text{ J} - (450 \text{ J/ºC}) T_f = 25909 \text{ J} + (1046.5 \text{ J/ºC}) T_f - 20930 \text{ J}$$
 </div>
 
 <div class="equation">
-$$67500 - 450 T_f = 4979 + 1046.5 T_f$$
+$$67500 \text{ J} - (450 \text{ J/ºC}) T_f = 4979 \text{ J} + (1046.5 \text{ J/ºC}) T_f$$
 </div>
 
 <div class="equation">
-$$67500 - 4979 = 1046.5 T_f + 450 T_f$$
+$$67500 \text{ J} - 4979 \text{ J} = (1046.5 \text{ J/ºC}) T_f + (450 \text{ J/ºC}) T_f$$
 </div>
 
 <div class="equation">
-$$62521 = 1496.5 T_f$$
+$$62521 \text{ J} = (1496.5 \text{ J/ºC}) T_f$$
 </div>
 
 <div class="equation">
-$$T_f = \frac{62521}{1496.5} = 41.8\text{ºC}$$
+$$T_f = \frac{62521 \text{ J}}{1496.5 \text{ J/ºC}} = 41.8\text{ºC}$$
 </div>
 
 **Discussion**
@@ -1791,7 +1791,7 @@ Given:
 **Step 1:** Heat solid lead from 25.0ºC to 327ºC:
 
 <div class="equation">
-$$Q_1 = mc\Delta T = (0.500)(128)(327 - 25.0) = (0.500)(128)(302)$$
+$$Q_1 = mc\Delta T = (0.500 \text{ kg})(128 \text{ J/kg}\cdot\text{ºC})(327\text{ºC} - 25.0\text{ºC}) = (0.500 \text{ kg})(128 \text{ J/kg}\cdot\text{ºC})(302\text{ºC})$$
 </div>
 
 <div class="equation">
@@ -1801,13 +1801,13 @@ $$Q_1 = 19328 \text{ J} = 19.3 \text{ kJ}$$
 **Step 2:** Melt lead at 327ºC:
 
 <div class="equation">
-$$Q_2 = mL_{f} = (0.500)(24500) = 12250 \text{ J} = 12.3 \text{ kJ}$$
+$$Q_2 = mL_{f} = (0.500 \text{ kg})(24500 \text{ J/kg}) = 12250 \text{ J} = 12.3 \text{ kJ}$$
 </div>
 
 **Step 3:** Total heat transfer:
 
 <div class="equation">
-$$Q_{total} = Q_1 + Q_2 = 19328 + 12250 = 31578 \text{ J} = 31.6 \text{ kJ}$$
+$$Q_{total} = Q_1 + Q_2 = 19328 \text{ J} + 12250 \text{ J} = 31578 \text{ J} = 31.6 \text{ kJ}$$
 </div>
 
 **Discussion**

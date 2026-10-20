@@ -394,7 +394,7 @@ At what net rate does heat radiate from a  $$275{\text{-m}}^{2} $$
 
 The net rate of heat radiation **from** the roof is
 
-$$P_{\text{out}}=e\sigma A(T_{\text{roof}}^4-T_{\text{surr}}^4)=(0.900)(5.67\times10^{-8})(275)(303.15^4-288.15^4)=2.18\times10^4\ \text{W}.$$
+$$P_{\text{out}}=e\sigma A(T_{\text{roof}}^4-T_{\text{surr}}^4)=(0.900)(5.67\times10^{-8}\ \text{W/m}^2\cdot\text{K}^4)(275\ \text{m}^2)\left[(303.15\ \text{K})^4-(288.15\ \text{K})^4\right]=2.18\times10^4\ \text{W}.$$
 
 Thus the roof loses heat at **21.8 kW**. With inward heat flow defined positive, the same result is $$P_{\text{in}}=-21.8\ \text{kW}$$.
 
@@ -436,24 +436,24 @@ $$\frac{Q_{net}}{t} = \sigma eA(T_{embers}^4 - T_{room}^4)$$
 </div>
 
 <div class="equation">
-$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8})(0.980)(0.200)[(1123)^4 - (291)^4]$$
+$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(0.980)(0.200 \text{ m}^2)[(1123 \text{ K})^4 - (291 \text{ K})^4]$$
 </div>
 
 Calculate the fourth powers:
-- $$T_{embers}^4 = (1123)^4 = 1.592 \times 10^{12} \text{ K}^4$$
-- $$T_{room}^4 = (291)^4 = 7.166 \times 10^9 \text{ K}^4$$
+- $$T_{embers}^4 = (1123 \text{ K})^4 = 1.592 \times 10^{12} \text{ K}^4$$
+- $$T_{room}^4 = (291 \text{ K})^4 = 7.166 \times 10^9 \text{ K}^4$$
 
 <div class="equation">
-$$\frac{Q_{net}}{t} = (1.112 \times 10^{-8})(1.592 \times 10^{12} - 0.007166 \times 10^{12})$$
+$$\frac{Q_{net}}{t} = (1.112 \times 10^{-8} \text{ W/K}^4)(1.592 \times 10^{12} \text{ K}^4 - 0.007166 \times 10^{12} \text{ K}^4)$$
 </div>
 
 <div class="equation">
-$$\frac{Q_{net}}{t} = (1.112 \times 10^{-8})(1.585 \times 10^{12}) = 17,600 \text{ W}$$
+$$\frac{Q_{net}}{t} = (1.112 \times 10^{-8} \text{ W/K}^4)(1.585 \times 10^{12} \text{ K}^4) = 17,600 \text{ W}$$
 </div>
 
 Heat entering room (50%):
 <div class="equation">
-$$\frac{Q_{room}}{t} = 0.50 \times 17,600 = 8,800 \text{ W} = 8.80 \text{ kW}$$
+$$\frac{Q_{room}}{t} = 0.50 \times 17,600 \text{ W} = 8,800 \text{ W} = 8.80 \text{ kW}$$
 </div>
 
 **(b)** Yes, absolutely! The radiation alone transfers 8.80 kW into the room, which is substantial. For comparison:
@@ -470,7 +470,7 @@ The huge radiative power (17.6 kW total, 8.8 kW into room) demonstrates why:
 3. Fireplaces can be uncomfortably hot when sitting close
 4. The fourth-power temperature dependence makes hot embers incredibly effective radiators
 
-The cherry-red color indicates temperatures around 850ºC, confirming significant visible light emission. However, most radiated energy is still in the infrared (which we feel as heat but cannot see). The Stefan-Boltzmann law's $$T^4$$ dependence means the $$1123\ \text{K}$$ embers radiate about $(1123/291)^4 \approx 222$ times more power per unit area than room-temperature objects.
+The cherry-red color indicates temperatures around 850ºC, confirming significant visible light emission. However, most radiated energy is still in the infrared (which we feel as heat but cannot see). The Stefan-Boltzmann law's $$T^4$$ dependence means the $$1123\ \text{K}$$ embers radiate about $(1123\ \text{K}/291\ \text{K})^4 \approx 222$ times more power per unit area than room-temperature objects.
 
 Modern fireplace inserts and stoves capture more of this heat through convection and conduction, making them much more efficient than open fireplaces where most heat escapes up the chimney.
 
@@ -537,15 +537,15 @@ $$\frac{Q_{net}}{t} = \sigma eA(T_1^4 - T_2^4)$$
 </div>
 
 Calculate fourth powers:
-- $$T_1^4 = (383)^4 = 2.150 \times 10^{10} \text{ K}^4$$
-- $$T_2^4 = (323)^4 = 1.086 \times 10^{10} \text{ K}^4$$
+- $$T_1^4 = (383 \text{ K})^4 = 2.150 \times 10^{10} \text{ K}^4$$
+- $$T_2^4 = (323 \text{ K})^4 = 1.086 \times 10^{10} \text{ K}^4$$
 
 <div class="equation">
-$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8})(0.750)(1.20)(2.150 - 1.086) \times 10^{10}$$
+$$\frac{Q_{net}}{t} = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(0.750)(1.20 \text{ m}^2)[(2.150 - 1.086) \times 10^{10} \text{ K}^4]$$
 </div>
 
 <div class="equation">
-$$\frac{Q_{net}}{t} = (5.10 \times 10^{-8})(1.064 \times 10^{10}) = 543 \text{ W}$$
+$$\frac{Q_{net}}{t} = (5.10 \times 10^{-8} \text{ W/K}^4)(1.064 \times 10^{10} \text{ K}^4) = 543 \text{ W}$$
 </div>
 
 **(b)** Calculate engine waste heat:
@@ -553,7 +553,7 @@ $$\frac{Q_{net}}{t} = (5.10 \times 10^{-8})(1.064 \times 10^{10}) = 543 \text{ W
 If efficiency is 25%, then 75% of input power becomes waste heat.
 Input power: $$P_{in} = \frac{P_{out}}{\eta} = \frac{150 \text{ kW}}{0.25} = 600 \text{ kW}$$
 
-Waste heat: $$P_{waste} = P_{in} - P_{out} = 600 - 150 = 450 \text{ kW}$$
+Waste heat: $$P_{waste} = P_{in} - P_{out} = 600 \text{ kW} - 150 \text{ kW} = 450 \text{ kW}$$
 
 Fraction of waste heat removed by radiation:
 <div class="equation">
@@ -646,23 +646,23 @@ $$\frac{Q}{t} = \sigma e A(T_{ambient}^4 - T_{skin}^4)$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t} = (5.67 \times 10^{-8})(0.98)(1.50)[(323.15)^4 - (310.15)^4]$$
+$$\frac{Q}{t} = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(0.98)(1.50 \text{ m}^2)[(323.15 \text{ K})^4 - (310.15 \text{ K})^4]$$
 </div>
 
 Calculate the temperature powers:
-- $$(323.15)^4 = 1.0903 \times 10^{10} \text{ K}^4$$
-- $$(310.15)^4 = 9.245 \times 10^9 \text{ K}^4$$
-- Difference: $$1.0903 \times 10^{10} - 9.245 \times 10^9 = 1.658 \times 10^9 \text{ K}^4$$
+- $$(323.15 \text{ K})^4 = 1.0903 \times 10^{10} \text{ K}^4$$
+- $$(310.15 \text{ K})^4 = 9.245 \times 10^9 \text{ K}^4$$
+- Difference: $$1.0903 \times 10^{10} \text{ K}^4 - 9.245 \times 10^9 \text{ K}^4 = 1.658 \times 10^9 \text{ K}^4$$
 
 <div class="equation">
-$$\frac{Q}{t} = (5.67 \times 10^{-8})(0.98)(1.50)(1.658 \times 10^9) = 138 \text{ W}$$
+$$\frac{Q}{t} = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(0.98)(1.50 \text{ m}^2)(1.658 \times 10^9 \text{ K}^4) = 138 \text{ W}$$
 </div>
 
 **(b)** Rate of body temperature increase:
 
 From $$Q = mc\Delta T$$, the rate of temperature change is:
 <div class="equation">
-$$\frac{\Delta T}{t} = \frac{Q/t}{mc} = \frac{138}{(75.0)(3500)} = \frac{138}{262500} = 5.26 \times 10^{-4} \text{ ºC/s}$$
+$$\frac{\Delta T}{t} = \frac{Q/t}{mc} = \frac{138 \text{ W}}{(75.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})} = \frac{138 \text{ W}}{262500 \text{ J/ºC}} = 5.26 \times 10^{-4} \text{ ºC/s}$$
 </div>
 
 Converting to more practical units:
@@ -754,7 +754,7 @@ Given:
 
 Surface area of Sun:
 <div class="equation">
-$$A_s = 4\pi R_s^2 = 4\pi(7.00 \times 10^8)^2 = 6.16 \times 10^{18} \text{ m}^2$$
+$$A_s = 4\pi R_s^2 = 4\pi(7.00 \times 10^8 \text{ m})^2 = 6.16 \times 10^{18} \text{ m}^2$$
 </div>
 
 Using Stefan-Boltzmann law:
@@ -763,38 +763,38 @@ $$P = \sigma e A_s T^4$$
 </div>
 
 <div class="equation">
-$$T^4 = \frac{P}{\sigma e A_s} = \frac{3.80 \times 10^{26}}{(5.67 \times 10^{-8})(1.00)(6.16 \times 10^{18})}$$
+$$T^4 = \frac{P}{\sigma e A_s} = \frac{3.80 \times 10^{26} \text{ W}}{(5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(1.00)(6.16 \times 10^{18} \text{ m}^2)}$$
 </div>
 
 <div class="equation">
-$$T^4 = \frac{3.80 \times 10^{26}}{3.49 \times 10^{11}} = 1.089 \times 10^{15} \text{ K}^4$$
+$$T^4 = \frac{3.80 \times 10^{26} \text{ W}}{3.49 \times 10^{11} \text{ W/K}^4} = 1.089 \times 10^{15} \text{ K}^4$$
 </div>
 
 <div class="equation">
-$$T = (1.089 \times 10^{15})^{1/4} = 5760 \text{ K}$$
+$$T = (1.089 \times 10^{15} \text{ K}^4)^{1/4} = 5760 \text{ K}$$
 </div>
 
 **(b)** Power per square meter at Sun's surface:
 
 <div class="equation">
-$$\frac{P}{A_s} = \frac{3.80 \times 10^{26}}{6.16 \times 10^{18}} = 6.17 \times 10^7 \text{ W/m}^2$$
+$$\frac{P}{A_s} = \frac{3.80 \times 10^{26} \text{ W}}{6.16 \times 10^{18} \text{ m}^2} = 6.17 \times 10^7 \text{ W/m}^2$$
 </div>
 
 Or using Stefan-Boltzmann directly:
 <div class="equation">
-$$\frac{P}{A} = \sigma T^4 = (5.67 \times 10^{-8})(5760)^4 = 6.17 \times 10^7 \text{ W/m}^2$$
+$$\frac{P}{A} = \sigma T^4 = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(5760 \text{ K})^4 = 6.17 \times 10^7 \text{ W/m}^2$$
 </div>
 
 **(c)** Solar constant at Earth's distance:
 
 Power spreads over a sphere of radius $$R_E$$:
 <div class="equation">
-$$A_E = 4\pi R_E^2 = 4\pi(1.50 \times 10^{11})^2 = 2.83 \times 10^{23} \text{ m}^2$$
+$$A_E = 4\pi R_E^2 = 4\pi(1.50 \times 10^{11} \text{ m})^2 = 2.83 \times 10^{23} \text{ m}^2$$
 </div>
 
 Solar constant:
 <div class="equation">
-$$S = \frac{P}{A_E} = \frac{3.80 \times 10^{26}}{2.83 \times 10^{23}} = 1.34 \times 10^3 \text{ W/m}^2 = 1340 \text{ W/m}^2$$
+$$S = \frac{P}{A_E} = \frac{3.80 \times 10^{26} \text{ W}}{2.83 \times 10^{23} \text{ m}^2} = 1.34 \times 10^3 \text{ W/m}^2 = 1340 \text{ W/m}^2$$
 </div>
 
 **Discussion**
@@ -814,7 +814,7 @@ The factor by which power decreases from Sun's surface to Earth is:
 $$\frac{6.17 \times 10^7}{1.34 \times 10^3} = 4.6 \times 10^4$$
 </div>
 
-This illustrates the inverse square law: $$\left(\frac{R_E}{R_s}\right)^2 = \left(\frac{1.50 \times 10^{11}}{7.00 \times 10^8}\right)^2 = (214)^2 \approx 4.6 \times 10^4$$.
+This illustrates the inverse square law: $$\left(\frac{R_E}{R_s}\right)^2 = \left(\frac{1.50 \times 10^{11} \text{ m}}{7.00 \times 10^8 \text{ m}}\right)^2 = (214)^2 \approx 4.6 \times 10^4$$.
 
 **Answer**
 
@@ -878,25 +878,25 @@ $$1000 = \sigma(T_{sky}^4 - T_{body}^4)$$
 </div>
 
 <div class="equation">
-$$1000 = (5.67 \times 10^{-8})(T_{sky}^4 - (300.15)^4)$$
+$$1000 \text{ W/m}^2 = (5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4)(T_{sky}^4 - (300.15 \text{ K})^4)$$
 </div>
 
 Calculate $$T_{body}^4$$:
 <div class="equation">
-$$(300.15)^4 = 8.119 \times 10^9 \text{ K}^4$$
+$$(300.15 \text{ K})^4 = 8.119 \times 10^9 \text{ K}^4$$
 </div>
 
 Solve for $$T_{sky}^4$$:
 <div class="equation">
-$$T_{sky}^4 = \frac{1000}{5.67 \times 10^{-8}} + 8.119 \times 10^9$$
+$$T_{sky}^4 = \frac{1000 \text{ W/m}^2}{5.67 \times 10^{-8} \text{ W/m}^2\cdot\text{K}^4} + 8.119 \times 10^9 \text{ K}^4$$
 </div>
 
 <div class="equation">
-$$T_{sky}^4 = 1.764 \times 10^{10} + 8.119 \times 10^9 = 2.576 \times 10^{10} \text{ K}^4$$
+$$T_{sky}^4 = 1.764 \times 10^{10} \text{ K}^4 + 8.119 \times 10^9 \text{ K}^4 = 2.576 \times 10^{10} \text{ K}^4$$
 </div>
 
 <div class="equation">
-$$T_{sky} = (2.576 \times 10^{10})^{1/4} = 401 \text{ K}$$
+$$T_{sky} = (2.576 \times 10^{10} \text{ K}^4)^{1/4} = 401 \text{ K}$$
 </div>
 
 Convert to Celsius:
@@ -972,15 +972,15 @@ increase could this cause in dry air?
 
 **(a)** From the Chapter 13 table, saturation vapor densities are 30.4 g/m³ at 30 °C and 17.2 g/m³ at 20 °C. Thus the condensed mass per cubic meter is
 
-$$m=(0.750)(30.4)-17.2=5.6\ \text{g}.$$
+$$m=(0.750)(30.4\ \text{g/m}^3)-17.2\ \text{g/m}^3=5.6\ \text{g/m}^3.$$
 
 **(b)** Using the tabulated latent heat $$L_v=2.256\times10^6\ \text{J/kg}$$,
 
-$$Q=mL_v=(0.0056)(2.256\times10^6)=1.26\times10^4\ \text{J}=12.6\ \text{kJ}.$$
+$$Q=mL_v=(0.0056\ \text{kg})(2.256\times10^6\ \text{J/kg})=1.26\times10^4\ \text{J}=12.6\ \text{kJ}.$$
 
 **(c)** If this heat warmed 1.20 kg of dry air at constant pressure,
 
-$$\Delta T=\frac{Q}{mc_p}=\frac{1.26\times10^4}{(1.20)(1005)}\approx10.5\ {}^\circ\text{C}.$$
+$$\Delta T=\frac{Q}{mc_p}=\frac{1.26\times10^4\ \text{J}}{(1.20\ \text{kg})(1005\ \text{J/(kg}\cdot{}^\circ\text{C)})}\approx10.5\ {}^\circ\text{C}.$$
 
 This estimates the heating effect of condensation separately from the cooling that produces it; it is not a prediction of the actual overnight temperature change.
 
@@ -1049,26 +1049,26 @@ Given:
 
 Loss of kinetic energy:
 <div class="equation">
-$$\Delta KE = \frac{1}{2}m(v_i^2 - v_f^2) = \frac{1}{2}(20.0)[(250)^2 - (100)^2]$$
+$$\Delta KE = \frac{1}{2}m(v_i^2 - v_f^2) = \frac{1}{2}(20.0 \text{ kg})[(250 \text{ m/s})^2 - (100 \text{ m/s})^2]$$
 </div>
 
 <div class="equation">
-$$\Delta KE = 10.0[62500 - 10000] = 10.0(52500) = 525000 \text{ J}$$
+$$\Delta KE = (10.0 \text{ kg})[62500 \text{ m}^2/\text{s}^2 - 10000 \text{ m}^2/\text{s}^2] = (10.0 \text{ kg})(52500 \text{ m}^2/\text{s}^2) = 525000 \text{ J}$$
 </div>
 
 Loss of gravitational potential energy:
 <div class="equation">
-$$\Delta PE = mgh = (20.0)(9.80)(12000) = 2.352 \times 10^6 \text{ J}$$
+$$\Delta PE = mgh = (20.0 \text{ kg})(9.80 \text{ m/s}^2)(12000 \text{ m}) = 2.352 \times 10^6 \text{ J}$$
 </div>
 
 Total energy available:
 <div class="equation">
-$$E_{total} = \Delta KE + \Delta PE = 525000 + 2352000 = 2.877 \times 10^6 \text{ J}$$
+$$E_{total} = \Delta KE + \Delta PE = 525000 \text{ J} + 2352000 \text{ J} = 2.877 \times 10^6 \text{ J}$$
 </div>
 
 Mass of ice that can be melted:
 <div class="equation">
-$$m_{melted} = \frac{E_{total}}{L_f} = \frac{2.877 \times 10^6}{334 \times 10^3} = 8.61 \text{ kg}$$
+$$m_{melted} = \frac{E_{total}}{L_f} = \frac{2.877 \times 10^6 \text{ J}}{334 \times 10^3 \text{ J/kg}} = 8.61 \text{ kg}$$
 </div>
 
 **Discussion**
@@ -1086,7 +1086,7 @@ This type of incident, while rare, has actually occurred and caused damage to pr
 - The danger of falling objects from high altitude
 - The significant energy involved in high-altitude, high-velocity objects
 
-If all the energy went into melting, we could melt: $$\frac{2.877 \times 10^6}{334 \times 10^3} = 8.61$$ kg, which matches our answer since the ice starts at 0ºC (no cooling or heating needed before melting).
+If all the energy went into melting, we could melt: $$\frac{2.877 \times 10^6 \text{ J}}{334 \times 10^3 \text{ J/kg}} = 8.61$$ kg, which matches our answer since the ice starts at 0ºC (no cooling or heating needed before melting).
 
 **Answer**
 
@@ -1115,7 +1115,7 @@ electrical power plants?
 
 **(a)** For a steady air flow at constant pressure, use $$c_p\approx1000\ \text{J/(kg}\cdot{}^\circ\text{C)}$$ and $$\rho\approx1.29\ \text{kg/m}^3$$:
 
-$$\dot V=\frac{P}{\rho c_p\Delta T}=\frac{1.600\times10^9}{(1.29)(1000)(5.00)}=2.48\times10^5\ \text{m}^3/\text{s}.$$
+$$\dot V=\frac{P}{\rho c_p\Delta T}=\frac{1.600\times10^9\ \text{W}}{(1.29\ \text{kg/m}^3)(1000\ \text{J/(kg}\cdot{}^\circ\text{C)})(5.00\ {}^\circ\text{C})}=2.48\times10^5\ \text{m}^3/\text{s}.$$
 
 **(b)** The large flow rate is consistent with the need for very large cooling towers. Evaporative towers also remove latent heat by evaporating water, reducing the air flow needed compared with this sensible-heating-only estimate.
 
@@ -1158,33 +1158,33 @@ Given:
 
 Mechanical power output:
 <div class="equation">
-$$P_{mech} = \frac{mgh \times n}{t} = \frac{(76.0)(9.80)(0.20)(116)}{60}$$
+$$P_{mech} = \frac{mgh \times n}{t} = \frac{(76.0 \text{ kg})(9.80 \text{ m/s}^2)(0.20 \text{ m})(116)}{60 \text{ s}}$$
 </div>
 
 <div class="equation">
-$$P_{mech} = \frac{17317}{60} = 289 \text{ W}$$
+$$P_{mech} = \frac{17317 \text{ J}}{60 \text{ s}} = 289 \text{ W}$$
 </div>
 
 Total metabolic power:
 <div class="equation">
-$$P_{total} = \frac{P_{mech}}{\eta} = \frac{289}{0.200} = 1445 \text{ W}$$
+$$P_{total} = \frac{P_{mech}}{\eta} = \frac{289 \text{ W}}{0.200} = 1445 \text{ W}$$
 </div>
 
 Waste heat (power going into raising temperature):
 <div class="equation">
-$$P_{waste} = P_{total} - P_{mech} = 1445 - 289 = 1156 \text{ W}$$
+$$P_{waste} = P_{total} - P_{mech} = 1445 \text{ W} - 289 \text{ W} = 1156 \text{ W}$$
 </div>
 
-Or: $$P_{waste} = (1 - \eta)P_{total} = (0.80)(1445) = 1156 \text{ W}$$
+Or: $$P_{waste} = (1 - \eta)P_{total} = (0.80)(1445 \text{ W}) = 1156 \text{ W}$$
 
 Heat needed to raise temperature by 1.00ºC:
 <div class="equation">
-$$Q = mc\Delta T = (76.0)(3500)(1.00) = 266000 \text{ J}$$
+$$Q = mc\Delta T = (76.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(1.00\text{ºC}) = 266000 \text{ J}$$
 </div>
 
 Time required:
 <div class="equation">
-$$t = \frac{Q}{P_{waste}} = \frac{266000}{1156} = 230 \text{ s} = 3.83 \text{ min}$$
+$$t = \frac{Q}{P_{waste}} = \frac{266000 \text{ J}}{1156 \text{ W}} = 230 \text{ s} = 3.83 \text{ min}$$
 </div>
 
 **(b)** Yes, this is consistent with experience. When exercising vigorously:
@@ -1278,12 +1278,12 @@ Given:
 
 Mass of granite:
 <div class="equation">
-$$m = \rho V = (2700)(1.00 \times 10^9) = 2.70 \times 10^{12} \text{ kg}$$
+$$m = \rho V = (2700 \text{ kg/m}^3)(1.00 \times 10^9 \text{ m}^3) = 2.70 \times 10^{12} \text{ kg}$$
 </div>
 
 Heat extracted:
 <div class="equation">
-$$Q = mc\Delta T = (2.70 \times 10^{12})(840)(100)$$
+$$Q = mc\Delta T = (2.70 \times 10^{12} \text{ kg})(840 \text{ J/kg}\cdot\text{ºC})(100\text{ºC})$$
 </div>
 
 <div class="equation">
@@ -1293,12 +1293,12 @@ $$Q = 2.268 \times 10^{17} \text{ J}$$
 **(b)** Time to extract this heat at 300 MW:
 
 <div class="equation">
-$$t = \frac{Q}{P} = \frac{2.268 \times 10^{17}}{3.00 \times 10^8} = 7.56 \times 10^8 \text{ s}$$
+$$t = \frac{Q}{P} = \frac{2.268 \times 10^{17} \text{ J}}{3.00 \times 10^8 \text{ W}} = 7.56 \times 10^8 \text{ s}$$
 </div>
 
 Convert to years:
 <div class="equation">
-$$t = \frac{7.56 \times 10^8 \text{ s}}{365.25 \times 24 \times 3600 \text{ s/year}} = \frac{7.56 \times 10^8}{31,557,600} = 23.9 \text{ years}$$
+$$t = \frac{7.56 \times 10^8 \text{ s}}{365.25 \times 24 \times 3600 \text{ s/year}} = \frac{7.56 \times 10^8 \text{ s}}{31,557,600 \text{ s/year}} = 23.9 \text{ years}$$
 </div>
 
 **Discussion**
@@ -1395,7 +1395,7 @@ Given:
 
 Gravitational potential energy per unit mass:
 <div class="equation">
-$$gh = (9.80)(55.0) = 539 \text{ J/kg}$$
+$$gh = (9.80 \text{ m/s}^2)(55.0 \text{ m}) = 539 \text{ J/kg}$$
 </div>
 
 This equals the heat absorbed per unit mass:
@@ -1404,7 +1404,7 @@ $$gh = c\Delta T$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{gh}{c} = \frac{539}{4186} = 0.129\text{ºC}$$
+$$\Delta T = \frac{gh}{c} = \frac{539 \text{ J/kg}}{4186 \text{ J/kg}\cdot\text{ºC}} = 0.129\text{ºC}$$
 </div>
 
 **(b)** Fraction that must evaporate:
@@ -1425,7 +1425,7 @@ $$f \cdot m \cdot L_v = mgh$$
 </div>
 
 <div class="equation">
-$$f = \frac{gh}{L_v} = \frac{539}{2256 \times 10^3} = \frac{539}{2256000} = 2.39 \times 10^{-4}$$
+$$f = \frac{gh}{L_v} = \frac{539 \text{ J/kg}}{2256 \times 10^3 \text{ J/kg}} = \frac{539 \text{ J/kg}}{2256000 \text{ J/kg}} = 2.39 \times 10^{-4}$$
 </div>
 
 As a percentage:
@@ -1491,15 +1491,15 @@ rises 1.00 m? Will this cause a significant cooling of the air?
 
 **(a)** At equal pressure, density is inversely proportional to absolute temperature:
 
-$$\frac{F_B}{W}=\frac{\rho_{20}}{\rho_{50}}=\frac{323.15}{293.15}=1.102.$$
+$$\frac{F_B}{W}=\frac{\rho_{20}}{\rho_{50}}=\frac{323.15\ \text{K}}{293.15\ \text{K}}=1.102.$$
 
 **(b)** Taking the initial cubic meter to contain $$m=1.29\ \text{kg}$$, and using $$c_p\approx1000\ \text{J/(kg}\cdot{}^\circ\text{C)}$$ for constant-pressure heating,
 
-$$Q=mc_p\Delta T=(1.29)(1000)(30.0)=3.87\times10^4\ \text{J}.$$
+$$Q=mc_p\Delta T=(1.29\ \text{kg})(1000\ \text{J/(kg}\cdot{}^\circ\text{C)})(30.0\ {}^\circ\text{C})=3.87\times10^4\ \text{J}.$$
 
 **(c)** The gravitational energy gain in rising 1.00 m is
 
-$$\Delta U_g=mgh=(1.29)(9.80)(1.00)=12.6\ \text{J}.$$
+$$\Delta U_g=mgh=(1.29\ \text{kg})(9.80\ \text{m/s}^2)(1.00\ \text{m})=12.6\ \text{J}.$$
 
 This is only about 0.033% of the heating energy, so that energy change alone causes little cooling.
 
@@ -1567,7 +1567,7 @@ Given:
 
 Mass of gasoline:
 <div class="equation">
-$$m_{gas} = \rho V = (0.75)(3.785) = 2.84 \text{ kg}$$
+$$m_{gas} = \rho V = (0.75 \text{ kg/L})(3.785 \text{ L}) = 2.84 \text{ kg}$$
 </div>
 
 Total energy in gasoline:
@@ -1577,12 +1577,12 @@ $$E_{total} = (2.84 \text{ kg})(46 \times 10^6 \text{ J/kg}) = 1.31 \times 10^8 
 
 Waste heat (80%):
 <div class="equation">
-$$Q_{waste} = 0.800 \times 1.31 \times 10^8 = 1.05 \times 10^8 \text{ J}$$
+$$Q_{waste} = 0.800 \times 1.31 \times 10^8 \text{ J} = 1.05 \times 10^8 \text{ J}$$
 </div>
 
 Mass of ice melted:
 <div class="equation">
-$$m_{ice} = \frac{Q_{waste}}{L_f} = \frac{1.05 \times 10^8}{334 \times 10^3} = 314 \text{ kg}$$
+$$m_{ice} = \frac{Q_{waste}}{L_f} = \frac{1.05 \times 10^8 \text{ J}}{334 \times 10^3 \text{ J/kg}} = 314 \text{ kg}$$
 </div>
 
 **(b)** No, this is NOT reasonable! Carrying 314 kg (about 692 pounds) of ice to cool the engine for burning just 1 gallon of gasoline is completely impractical.

@@ -743,15 +743,15 @@ In an air conditioner, 12.65 MJ of heat transfer occurs from a cold environment 
 
 **(a)** With $$L_f=334\ \text{kJ/kg}$$,
 
-$$m=\frac{Q_c}{L_f}=\frac{12650}{334}=37.9\ \text{kg}.$$
+$$m=\frac{Q_c}{L_f}=\frac{12650\ \text{kJ}}{334\ \text{kJ/kg}}=37.9\ \text{kg}.$$
 
-**(b)** Melting 900 kg absorbs $$900(334)=300600\ \text{kJ}$$, equivalent to
+**(b)** Melting 900 kg absorbs $$(900\ \text{kg})(334\ \text{kJ/kg})=300600\ \text{kJ}$$, equivalent to
 
-$$t=\frac{300600}{12650}=23.8\ \text{h}$$
+$$t=\frac{300600\ \text{kJ}}{12650\ \text{kJ/h}}=23.8\ \text{h}$$
 
 of operation at the stated cooling rate.
 
-**(c)** Ice costs $$900(\$0.20)=\$180$$. As an illustrative comparison, assume an air-conditioner COP of 3 and electricity at \$0.12/kWh. Then
+**(c)** Ice costs $$(900\ \text{kg})(\$0.20/\text{kg})=\$180$$. As an illustrative comparison, assume an air-conditioner COP of 3 and electricity at \$0.12/kWh. Then
 
 $$W=\frac{Q_c}{\mathrm{COP}}=\frac{300.6\ \text{MJ}}{3}=100.2\ \text{MJ}=27.8\ \text{kWh},$$
 

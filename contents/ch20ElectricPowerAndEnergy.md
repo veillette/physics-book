@@ -334,7 +334,7 @@ $$P = IV = (2.00 \times 10^{4} \text{ A})(1.00 \times 10^{8} \text{ V}) = 2.00 \
 
 **Discussion**
 
-This 2 terawatt power is enormous—roughly equal to the total average power consumption of the entire United States! However, a lightning bolt lasts only about 0.2 milliseconds, so the total energy delivered is $$E = Pt = (2 \times 10^{12})(2 \times 10^{-4}) = 4 \times 10^{8}$$ J, or about 110 kWh. Despite the impressive power, the brief duration means the energy is similar to running a 100-W light bulb for about 45 days.
+This 2 terawatt power is enormous—roughly equal to the total average power consumption of the entire United States! However, a lightning bolt lasts only about 0.2 milliseconds, so the total energy delivered is $$E = Pt = (2 \times 10^{12} \text{ W})(2 \times 10^{-4} \text{ s}) = 4 \times 10^{8} \text{ J}$$, or about 110 kWh. Despite the impressive power, the brief duration means the energy is similar to running a 100-W light bulb for about 45 days.
 
 The power of the lightning bolt is $$2.00 \times 10^{12}$$ W (2.00 TW).
 
@@ -995,11 +995,11 @@ The filament diameter is reduced by a factor of 0.913 (or reduced to 91.3% of it
 
 Use the copper resistivity from the section table, $$\rho=1.72\times10^{-8}\ \Omega\cdot\text{m}$$. The wire area is
 
-$$A=\pi(9.266\times10^{-3}/2)^2=6.743\times10^{-5}\ \text{m}^2.$$
+$$A=\pi(9.266\times10^{-3}\ \text{m}/2)^2=6.743\times10^{-5}\ \text{m}^2.$$
 
-$$R=\frac{\rho L}{A}=\frac{(1.72\times10^{-8})(1000)}{6.743\times10^{-5}}=0.255\ \Omega,$$
+$$R=\frac{\rho L}{A}=\frac{(1.72\times10^{-8}\ \Omega\cdot\text{m})(1000\ \text{m})}{6.743\times10^{-5}\ \text{m}^2}=0.255\ \Omega,$$
 
-$$P=I^2R=(100)^2(0.255)=2.55\times10^3\ \text{W}=2.55\ \text{kW}.$$
+$$P=I^2R=(100\ \text{A})^2(0.255\ \Omega)=2.55\times10^3\ \text{W}=2.55\ \text{kW}.$$
 
 For fixed resistance, reducing current by a factor of ten reduces the loss by a factor of one hundred.
 
@@ -1123,7 +1123,7 @@ $$Q_{\text{aluminum}} = m_{\text{Al}} c_{\text{Al}} \Delta T = (0.300 \text{ kg}
 </div>
 
 <div class="equation">
-$$Q_{\text{total}} = 4410 + 73255 + 18900 = 96565 \text{ J}$$
+$$Q_{\text{total}} = 4410 \text{ J} + 73255 \text{ J} + 18900 \text{ J} = 96565 \text{ J}$$
 </div>
 
 Calculate the power needed:
@@ -1228,7 +1228,7 @@ $$P_{\text{water}} = \rho \dot{V} g h$$
 Solving for the volume flow rate:
 
 <div class="equation">
-$$\dot{V} = \frac{P_{\text{water}}}{\rho g h} = \frac{2.35 \times 10^{9} \text{ W}}{(1000 \text{ kg/m}^{3})(9.80 \text{ m/s}^{2})(160 \text{ m})} = \frac{2.35 \times 10^{9}}{1.568 \times 10^{6}} = 1500 \text{ m}^{3}\text{/s}$$
+$$\dot{V} = \frac{P_{\text{water}}}{\rho g h} = \frac{2.35 \times 10^{9} \text{ W}}{(1000 \text{ kg/m}^{3})(9.80 \text{ m/s}^{2})(160 \text{ m})} = \frac{2.35 \times 10^{9} \text{ W}}{1.568 \times 10^{6} \text{ J/m}^{3}} = 1500 \text{ m}^{3}\text{/s}$$
 </div>
 
 **Discussion**
@@ -1309,7 +1309,7 @@ $$P_{\text{useful}} = \eta P = (0.950)(410 \text{ kW}) = 389.5 \text{ kW} = 3.89
 The work done equals the change in kinetic energy:
 
 <div class="equation">
-$$W = \Delta KE = \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(5.30 \times 10^{4} \text{ kg})(20.0 \text{ m/s})^{2} = \frac{1}{2}(5.30 \times 10^{4})(400) = 1.06 \times 10^{7} \text{ J}$$
+$$W = \Delta KE = \frac{1}{2}mv^{2} - 0 = \frac{1}{2}(5.30 \times 10^{4} \text{ kg})(20.0 \text{ m/s})^{2} = \frac{1}{2}(5.30 \times 10^{4} \text{ kg})(400 \text{ (m/s)}^2) = 1.06 \times 10^{7} \text{ J}$$
 </div>
 
 Since $$P = W/t$$, we have:
@@ -1400,7 +1400,7 @@ $$Q_{\text{water}} = m_{\text{water}} c_{\text{water}} \Delta T = (0.350 \text{ 
 Total heat:
 
 <div class="equation">
-$$Q_{\text{total}} = 6750 + 109868 = 116618 \text{ J}$$
+$$Q_{\text{total}} = 6750 \text{ J} + 109868 \text{ J} = 116618 \text{ J}$$
 </div>
 
 Power needed:
@@ -1412,7 +1412,7 @@ $$P = \frac{Q}{t} = \frac{116618 \text{ J}}{2.00 \text{ min} \times 60 \text{ s/
 Resistance:
 
 <div class="equation">
-$$R = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{972 \text{ W}} = \frac{14400}{972} = 14.8 \text{ Ω}$$
+$$R = \frac{V^{2}}{P} = \frac{(120 \text{ V})^{2}}{972 \text{ W}} = \frac{14400 \text{ V}^{2}}{972 \text{ W}} = 14.8 \text{ Ω}$$
 </div>
 
 __(b)__
@@ -1421,7 +1421,7 @@ __(b)__
 
 The resistance of 14.8 Ω is reasonable for an immersion heater. Lowering the resistance would increase power and reduce heating time, but several practical limits exist:
 
-1. **Circuit capacity**: Standard 120-V household circuits are typically limited to 15-20 A (1800-2400 W). The current heater draws $$I = P/V = 972/120 = 8.1$$ A. Reducing resistance much further would trip circuit breakers.
+1. **Circuit capacity**: Standard 120-V household circuits are typically limited to 15-20 A (1800-2400 W). The current heater draws $$I = P/V = (972 \text{ W})/(120 \text{ V}) = 8.1 \text{ A}$$. Reducing resistance much further would trip circuit breakers.
 
 2. **Safety**: Higher currents require thicker wires to prevent overheating. The heater cord and connections must safely handle the current.
 
@@ -1570,13 +1570,13 @@ $$P_{\text{loss}} = 0.0100\% \times P = 0.000100 \times 1.00 \times 10^{8} \text
 Find the resistance:
 
 <div class="equation">
-$$R = \frac{P_{\text{loss}}}{I^{2}} = \frac{1.00 \times 10^{4} \text{ W}}{(1.00 \times 10^{4} \text{ A})^{2}} = \frac{1.00 \times 10^{4}}{1.00 \times 10^{8}} = 1.00 \times 10^{-4} \text{ Ω}$$
+$$R = \frac{P_{\text{loss}}}{I^{2}} = \frac{1.00 \times 10^{4} \text{ W}}{(1.00 \times 10^{4} \text{ A})^{2}} = \frac{1.00 \times 10^{4} \text{ W}}{1.00 \times 10^{8} \text{ A}^{2}} = 1.00 \times 10^{-4} \text{ Ω}$$
 </div>
 
 __(c)__ Calculate the cross-sectional area using $$R = \rho L/A$$:
 
 <div class="equation">
-$$A = \frac{\rho L}{R} = \frac{(1.68 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{1.00 \times 10^{-4} \text{ Ω}} = \frac{1.68 \times 10^{-5}}{1.00 \times 10^{-4}} = 0.168 \text{ m}^{2}$$
+$$A = \frac{\rho L}{R} = \frac{(1.68 \times 10^{-8} \text{ Ω·m})(1000 \text{ m})}{1.00 \times 10^{-4} \text{ Ω}} = \frac{1.68 \times 10^{-5} \text{ Ω·m}^{2}}{1.00 \times 10^{-4} \text{ Ω}} = 0.168 \text{ m}^{2}$$
 </div>
 
 Find the diameter:
@@ -1586,7 +1586,7 @@ $$A = \pi r^{2} = \pi \left(\frac{d}{2}\right)^{2}$$
 </div>
 
 <div class="equation">
-$$d = 2\sqrt{\frac{A}{\pi}} = 2\sqrt{\frac{0.168}{\pi}} = 2\sqrt{0.0535} = 2(0.231) = 0.462 \text{ m} = 46.2 \text{ cm}$$
+$$d = 2\sqrt{\frac{A}{\pi}} = 2\sqrt{\frac{0.168 \text{ m}^{2}}{\pi}} = 2\sqrt{0.0535 \text{ m}^{2}} = 2(0.231 \text{ m}) = 0.462 \text{ m} = 46.2 \text{ cm}$$
 </div>
 
 __(d)__ and __(e)__

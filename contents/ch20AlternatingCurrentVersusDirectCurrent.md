@@ -358,13 +358,13 @@ You are riding in a train, gazing into the distance through its window. As close
 
 **(a)** The stated AC voltage is rms:
 
-$$R_{2700}=\frac{V_{\text{rms}}^2}{P}=\frac{120^2}{25}=576\ \Omega.$$
+$$R_{2700}=\frac{V_{\text{rms}}^2}{P}=\frac{(120\ \text{V})^2}{25\ \text{W}}=576\ \Omega.$$
 
 **(b)** The tungsten coefficient $$\alpha=4.5\times10^{-3}\ {}^\circ\text{C}^{-1}$$ is referenced to 20 °C, so apply both temperatures relative to that reference:
 
-$$\frac{R_{2600}}{R_{2700}}=\frac{1+\alpha(2600-20)}{1+\alpha(2700-20)}=\frac{12.61}{13.06}=0.9655.$$
+$$\frac{R_{2600}}{R_{2700}}=\frac{1+\alpha(2600\ {}^\circ\text{C}-20\ {}^\circ\text{C})}{1+\alpha(2700\ {}^\circ\text{C}-20\ {}^\circ\text{C})}=\frac{12.61}{13.06}=0.9655.$$
 
-$$R_{2600}=(576)(0.9655)=556\ \Omega.$$
+$$R_{2600}=(576\ \Omega)(0.9655)=556\ \Omega.$$
 
 Within the stated linear approximation, the 100 °C decrease lowers resistance by about 3.45%.
 
@@ -472,7 +472,7 @@ $$P_{\text{Europe}} = \frac{V^{2}}{R} = \frac{(240 \text{ V})^{2}}{576 \text{ Ω
 Alternatively, since $$P \propto V^{2}$$ for constant resistance, doubling the voltage quadruples the power:
 
 <div class="equation">
-$$P_{\text{Europe}} = P_{\text{rated}} \times \left(\frac{V_{\text{Europe}}}{V_{\text{rated}}}\right)^{2} = 25.0 \text{ W} \times \left(\frac{240}{120}\right)^{2} = 25.0 \text{ W} \times 4 = 100 \text{ W}$$
+$$P_{\text{Europe}} = P_{\text{rated}} \times \left(\frac{V_{\text{Europe}}}{V_{\text{rated}}}\right)^{2} = 25.0 \text{ W} \times \left(\frac{240 \text{ V}}{120 \text{ V}}\right)^{2} = 25.0 \text{ W} \times 4 = 100 \text{ W}$$
 </div>
 
 **Discussion**
@@ -725,7 +725,7 @@ Find the time after  $$t=0 $$
 
 **Strategy**
 
-Use the AC voltage equation $$V = V_{0} \sin(2\pi f t)$$ and the relationship $$V_{\text{rms}} = V_{0}/\sqrt{2}$$. Set the instantaneous voltage equal to $$\pm V_{\text{rms}}$$ and solve for time. For 60-Hz AC, the period is $$T = 1/f = 1/60$$ s = 16.67 ms.
+Use the AC voltage equation $$V = V_{0} \sin(2\pi f t)$$ and the relationship $$V_{\text{rms}} = V_{0}/\sqrt{2}$$. Set the instantaneous voltage equal to $$\pm V_{\text{rms}}$$ and solve for time. For 60-Hz AC, the period is $$T = 1/f = 1/(60 \text{ Hz}) = 16.67 \text{ ms}.$$
 
 **Solution**
 

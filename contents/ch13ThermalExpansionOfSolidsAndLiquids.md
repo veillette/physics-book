@@ -858,7 +858,7 @@ What is the change in length of a 3.00-cm-long column of mercury if its temperat
 
 For unconstrained isotropic expansion, each length changes with the effective linear coefficient $$\alpha=\beta/3$$. With $$\beta=180\times10^{-6}\ {}^\circ\text{C}^{-1}$$,
 
-$$\Delta L=\frac{\beta}{3}L\Delta T=\frac{180\times10^{-6}}{3}(0.0300)(3.0)=5.4\times10^{-6}\ \text{m}.$$
+$$\Delta L=\frac{\beta}{3}L\Delta T=\frac{180\times10^{-6}\ {}^\circ\text{C}^{-1}}{3}(0.0300\ \text{m})(3.0\ {}^\circ\text{C})=5.4\times10^{-6}\ \text{m}.$$
 
 The length increases by **5.4 micrometers** under the stated unconstrained assumption. A column confined to a tube of fixed cross-sectional area instead has $$\Delta L=\beta L\Delta T$$; that is a different model.
 
@@ -1027,7 +1027,7 @@ Invar expansion:
 
 Difference:
 <div class="equation" >
- $$\Delta L_{\text{steel}}-\Delta L_{\text{invar}}= 2.64 \times 10^{-4} - 1.98 \times 10^{-5}= 2.44 \times 10^{-4}  \text{ m}= 0.244 \text{ mm} $$
+ $$\Delta L_{\text{steel}}-\Delta L_{\text{invar}}= 2.64 \times 10^{-4} \text{ m} - 1.98 \times 10^{-5} \text{ m}= 2.44 \times 10^{-4}  \text{ m}= 0.244 \text{ mm} $$
 </div>
 
 (b) For 30.0 m surveyor's tapes, the difference scales linearly:

@@ -807,7 +807,7 @@ $$ A = (0.500 \text{ m})(0.900 \text{ m}) = 0.450 \text{ m}^2 $$
 $$ P = \frac{W}{A} = \frac{490 \text{ N}}{0.450 \text{ m}^2} = 1.09 \times 10^{3} \text{ Pa} $$
 
 **Discussion:**
-The pressure on the bottom of the gas tank is approximately **1.09 × 10³ Pa** (about 1.09 kPa or 0.011 atm). This is a relatively modest pressure—only about 1% of atmospheric pressure. This makes sense because gasoline is not very dense (about 680 kg/m³) and the tank is relatively shallow. For comparison, if we calculate the depth of gasoline: $$ h = V/A = (m/\rho)/A = 50/(680 × 0.45) = 0.164 \text{ m} $$, we can verify using $$ P = \rho g h = (680)(9.80)(0.164) = 1090 \text{ Pa} $$. The tank experiences more pressure from atmospheric pressure (101 kPa) than from its own fuel!
+The pressure on the bottom of the gas tank is approximately **1.09 × 10³ Pa** (about 1.09 kPa or 0.011 atm). This is a relatively modest pressure—only about 1% of atmospheric pressure. This makes sense because gasoline is not very dense (about 680 kg/m³) and the tank is relatively shallow. For comparison, if we calculate the depth of gasoline: $$ h = V/A = (m/\rho)/A = 50 \text{ kg}/((680 \text{ kg/m}^3)(0.45 \text{ m}^2)) = 0.164 \text{ m} $$, we can verify using $$ P = \rho g h = (680 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.164 \text{ m}) = 1090 \text{ Pa} $$. The tank experiences more pressure from atmospheric pressure (101 kPa) than from its own fuel!
 
 :::
 

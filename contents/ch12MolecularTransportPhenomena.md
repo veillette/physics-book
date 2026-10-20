@@ -512,31 +512,31 @@ Let $$t$$ be the time for hydrogen to travel a certain distance $$x$$. Then oxyg
 
 For hydrogen: $$x = \sqrt{2D_{\text{H}_2} t}$$
 
-For oxygen: $$x = \sqrt{2D_{\text{O}_2} (t + 1.00)}$$
+For oxygen: $$x = \sqrt{2D_{\text{O}_2} (t + 1.00 \text{ s})}$$
 
 Since both travel the same distance:
 
-$$\sqrt{2D_{\text{H}_2} t} = \sqrt{2D_{\text{O}_2} (t + 1.00)}$$
+$$\sqrt{2D_{\text{H}_2} t} = \sqrt{2D_{\text{O}_2} (t + 1.00 \text{ s})}$$
 
 Squaring both sides:
 
-$$2D_{\text{H}_2} t = 2D_{\text{O}_2} (t + 1.00)$$
+$$2D_{\text{H}_2} t = 2D_{\text{O}_2} (t + 1.00 \text{ s})$$
 
-$$D_{\text{H}_2} t = D_{\text{O}_2} t + D_{\text{O}_2}(1.00)$$
+$$D_{\text{H}_2} t = D_{\text{O}_2} t + D_{\text{O}_2}(1.00 \text{ s})$$
 
 $$t(D_{\text{H}_2} - D_{\text{O}_2}) = D_{\text{O}_2}(1.00 \text{ s})$$
 
 $$t = \frac{D_{\text{O}_2}}{D_{\text{H}_2} - D_{\text{O}_2}} \times 1.00 \text{ s}$$
 
-$$t = \frac{1.8 \times 10^{-5}}{6.4 \times 10^{-5} - 1.8 \times 10^{-5}} \times 1.00 \text{ s}$$
+$$t = \frac{1.8 \times 10^{-5} \text{ m}^2\text{/s}}{6.4 \times 10^{-5} \text{ m}^2\text{/s} - 1.8 \times 10^{-5} \text{ m}^2\text{/s}} \times 1.00 \text{ s}$$
 
-$$t = \frac{1.8 \times 10^{-5}}{4.6 \times 10^{-5}} \text{ s} = 0.391 \text{ s}$$
+$$t = \frac{1.8 \times 10^{-5} \text{ m}^2\text{/s}}{4.6 \times 10^{-5} \text{ m}^2\text{/s}} \times 1.00 \text{ s} = 0.391 \text{ s}$$
 
 After **0.391 seconds**, the hydrogen will have reached a point that the oxygen won't reach for another 1.00 second.
 
 **Verification:**
-- Distance traveled by H₂ in 0.391 s: $$x = \sqrt{2(6.4 \times 10^{-5})(0.391)} = 7.07 \times 10^{-3} \text{ m}$$
-- Time for O₂ to travel same distance: $$t = \frac{x^2}{2D_{\text{O}_2}} = \frac{(7.07 \times 10^{-3})^2}{2(1.8 \times 10^{-5})} = 1.39 \text{ s}$$
+- Distance traveled by H₂ in 0.391 s: $$x = \sqrt{2(6.4 \times 10^{-5} \text{ m}^2\text{/s})(0.391 \text{ s})} = 7.07 \times 10^{-3} \text{ m}$$
+- Time for O₂ to travel same distance: $$t = \frac{x^2}{2D_{\text{O}_2}} = \frac{(7.07 \times 10^{-3} \text{ m})^2}{2(1.8 \times 10^{-5} \text{ m}^2\text{/s})} = 1.39 \text{ s}$$
 - Difference: $$1.39 - 0.39 = 1.00 \text{ s}$$ ✓
 
 **Discussion**

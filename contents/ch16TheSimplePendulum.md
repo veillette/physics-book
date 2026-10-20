@@ -261,7 +261,7 @@ Solving for $$L$$:
 Substituting the known values $$g = 9.80 \text{ m/s}^2$$ and $$T = 0.500 \text{ s}$$:
 
 <div class="equation">
- $$L = \frac{(9.80)(0.500)^2}{4\pi^{2}} = \frac{(9.80)(0.250)}{39.48} = \frac{2.45}{39.48} = 0.0621 \text{ m}$$
+ $$L = \frac{(9.80 \text{ m/s}^2)(0.500 \text{ s})^2}{4\pi^{2}} = \frac{(9.80 \text{ m/s}^2)(0.250 \text{ s}^2)}{39.48} = \frac{2.45 \text{ m}}{39.48} = 0.0621 \text{ m}$$
 </div>
 
 Converting to centimeters: $$L = 6.21 \text{ cm}$$
@@ -307,7 +307,7 @@ Squaring both sides of $$T = 2\pi\sqrt{\frac{L}{g}}$$:
 Solving for $$L$$:
 
 <div class="equation">
- $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80)(1.00)^2}{4\pi^{2}} = \frac{9.80}{39.48} = 0.248 \text{ m}$$
+ $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80 \text{ m/s}^2)(1.00 \text{ s})^2}{4\pi^{2}} = \frac{9.80 \text{ m}}{39.48} = 0.248 \text{ m}$$
 </div>
 
 **Discussion**
@@ -343,11 +343,11 @@ We can directly use the period formula $$T = 2\pi\sqrt{\frac{L}{g}}$$ with the g
 **Solution**
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{1.00}{9.80}}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{1.00 \text{ m}}{9.80 \text{ m/s}^2}}$$
 </div>
 
 <div class="equation">
- $$T = 2\pi\sqrt{0.102} = 2\pi(0.319) = 2.01 \text{ s}$$
+ $$T = 2\pi\sqrt{0.102 \text{ s}^2} = 2\pi(0.319 \text{ s}) = 2.01 \text{ s}$$
 </div>
 
 **Discussion**
@@ -383,7 +383,7 @@ The time for one complete swing is the period. We use $$T = 2\pi\sqrt{\frac{L}{g
 **Solution**
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{4.00}{9.80}} = 2\pi\sqrt{0.408} = 2\pi(0.639) = 4.01 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{4.00 \text{ m}}{9.80 \text{ m/s}^2}} = 2\pi\sqrt{0.408 \text{ s}^2} = 2\pi(0.639 \text{ s}) = 4.01 \text{ s}$$
 </div>
 
 **Discussion**
@@ -425,13 +425,13 @@ Convert length to meters: $$L = 5.00 \text{ cm} = 0.0500 \text{ m}$$
 Calculate the period:
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.0500}{9.80}} = 2\pi\sqrt{0.00510} = 2\pi(0.0714) = 0.449 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.0500 \text{ m}}{9.80 \text{ m/s}^2}} = 2\pi\sqrt{0.00510 \text{ s}^2} = 2\pi(0.0714 \text{ s}) = 0.449 \text{ s}$$
 </div>
 
 Calculate the frequency:
 
 <div class="equation">
- $$f = \frac{1}{T} = \frac{1}{0.449} = 2.23 \text{ Hz}$$
+ $$f = \frac{1}{T} = \frac{1}{0.449 \text{ s}} = 2.23 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -473,13 +473,13 @@ Convert length to meters: $$L = 10.0 \text{ cm} = 0.100 \text{ m}$$
 Calculate the period:
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.100}{9.80}} = 2\pi\sqrt{0.0102} = 2\pi(0.101) = 0.635 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{L}{g}} = 2\pi\sqrt{\frac{0.100 \text{ m}}{9.80 \text{ m/s}^2}} = 2\pi\sqrt{0.0102 \text{ s}^2} = 2\pi(0.101 \text{ s}) = 0.635 \text{ s}$$
 </div>
 
 Calculate the frequency:
 
 <div class="equation">
- $$f = \frac{1}{T} = \frac{1}{0.635} = 1.57 \text{ Hz}$$
+ $$f = \frac{1}{T} = \frac{1}{0.635 \text{ s}} = 1.57 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -540,11 +540,11 @@ Substituting the given values:
 </div>
 
 <div class="equation">
- $$T_2=(3.00000)\sqrt{0.996945}$$
+ $$T_2=(3.00000 \text{ s})\sqrt{0.996945}$$
 </div>
 
 <div class="equation">
- $$T_2=(3.00000)(0.998469)=2.99541 \text{ s}$$
+ $$T_2=(3.00000 \text{ s})(0.998469)=2.99541 \text{ s}$$
 </div>
 
 **The new period is 2.99541 s.**
@@ -570,7 +570,7 @@ The fractional change in period is:
 Change in period:
 
 <div class="equation">
- $$\Delta T=(3.00000)(-0.001533)=-0.00460 \text{ s}$$
+ $$\Delta T=(3.00000 \text{ s})(-0.001533)=-0.00460 \text{ s}$$
 </div>
 
 **Discussion**
@@ -612,13 +612,13 @@ Since the length of the pendulum doesn't change, we can use the relationship bet
 First, find the length using the original location data:
 
 <div class="equation">
- $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80)(2.00000)^2}{4\pi^{2}} = \frac{39.2}{39.478} = 0.9930 \text{ m}$$
+ $$L = \frac{gT^{2}}{4\pi^{2}} = \frac{(9.80 \text{ m/s}^2)(2.00000 \text{ s})^2}{4\pi^{2}} = \frac{39.2 \text{ m}}{39.478} = 0.9930 \text{ m}$$
 </div>
 
 Now use this length with the new period to find $$g_{\text{new}}$$:
 
 <div class="equation">
- $$g_{\text{new}} = \frac{4\pi^{2} L}{T_{\text{new}}^2} = \frac{4\pi^{2}(0.9930)}{(1.99796)^2} = \frac{39.198}{3.9918} = 9.82 \text{ m/s}^2$$
+ $$g_{\text{new}} = \frac{4\pi^{2} L}{T_{\text{new}}^2} = \frac{4\pi^{2}(0.9930 \text{ m})}{(1.99796 \text{ s})^2} = \frac{39.198 \text{ m}}{3.9918 \text{ s}^2} = 9.82 \text{ m/s}^2$$
 </div>
 
 Alternatively, using the ratio method:
@@ -628,7 +628,7 @@ Alternatively, using the ratio method:
 </div>
 
 <div class="equation">
- $$g_2 = g_1\left(\frac{T_1}{T_2}\right)^2 = 9.80\left(\frac{2.00000}{1.99796}\right)^2 = 9.80(1.00204) = 9.82 \text{ m/s}^2$$
+ $$g_2 = g_1\left(\frac{T_1}{T_2}\right)^2 = (9.80 \text{ m/s}^2)\left(\frac{2.00000}{1.99796}\right)^2 = (9.80 \text{ m/s}^2)(1.00204) = 9.82 \text{ m/s}^2$$
 </div>
 
 **Discussion**
@@ -827,9 +827,9 @@ Since $$T\propto\sqrt L$$, the elapsed time indicated by the clock is
 
 $$t_{\text{clock}}=\frac{24.00\ \text{h}}{\sqrt{L_{\text{new}}/L_{\text{old}}}}.$$
 
-If the length increases by 1.000%, $$t_{\text{clock}}=24/\sqrt{1.01000}=23.88089\ \text{h}$$. Starting at noon, the clock reads **11:52.85 AM** the next day (about 11:52:51).
+If the length increases by 1.000%, $$t_{\text{clock}}=24\ \text{h}/\sqrt{1.01000}=23.88089\ \text{h}$$. Starting at noon, the clock reads **11:52.85 AM** the next day (about 11:52:51).
 
-If the length decreases by 1.000%, $$t_{\text{clock}}=24/\sqrt{0.99000}=24.12091\ \text{h}$$. It reads **12:07.25 PM** (about 12:07:15).
+If the length decreases by 1.000%, $$t_{\text{clock}}=24\ \text{h}/\sqrt{0.99000}=24.12091\ \text{h}$$. It reads **12:07.25 PM** (about 12:07:15).
 
 Retaining digits before converting hours to minutes avoids a significant rounding error in the clock reading.
 

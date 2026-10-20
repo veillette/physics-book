@@ -528,7 +528,7 @@ Use the conversion equation from Celsius to Fahrenheit.
 **Solution:**
 Using the equation $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32$$:
 <div class="equation" >
- $${T}_{\text{ºF}}=\frac{9}{5}(39.0\text{ºC})+32=70.2+32=102.2\text{ºF}\approx 102\text{ºF} $$
+ $${T}_{\text{ºF}}=\frac{9}{5}(39.0\text{ºC})+32\text{ºF}=70.2\text{ºF}+32\text{ºF}=102.2\text{ºF}\approx 102\text{ºF} $$
 </div>
 
 **Discussion:**
@@ -555,12 +555,12 @@ First convert from Fahrenheit to Celsius, then from Celsius to Kelvin.
 **Solution:**
 Convert ºF to ºC:
 <div class="equation" >
- $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right)=\frac{5}{9}\left( 28.0-32\right)=\frac{5}{9}\left(-4.0\right)=-2.22\text{ºC} $$
+ $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right)=\frac{5}{9}\left( 28.0\text{ºF}-32\text{ºF}\right)=\frac{5}{9}\left(-4.0\text{ºF}\right)=-2.22\text{ºC} $$
 </div>
 
 Convert ºC to K:
 <div class="equation" >
- $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15 =-2.22+ 273.15 = 271 \text{ K} $$
+ $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15 =-2.22\text{ºC}+ 273.15\text{ K} = 271 \text{ K} $$
 </div>
 
 **Discussion:**
@@ -590,12 +590,12 @@ Using the equation $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right
 
 Winter temperature:
 <div class="equation" >
- $${T}_{\text{ºC}}=\frac{5}{9}\left(68.0-32\right)=\frac{5}{9}(36.0)=20.0\text{ºC} $$
+ $${T}_{\text{ºC}}=\frac{5}{9}\left(68.0\text{ºF}-32\text{ºF}\right)=\frac{5}{9}(36.0\text{ºF})=20.0\text{ºC} $$
 </div>
 
 Summer temperature:
 <div class="equation" >
- $${T}_{\text{ºC}}=\frac{5}{9}\left(78.0-32\right)=\frac{5}{9}(46.0)=25.6\text{ºC} $$
+ $${T}_{\text{ºC}}=\frac{5}{9}\left(78.0\text{ºF}-32\text{ºF}\right)=\frac{5}{9}(46.0\text{ºF})=25.6\text{ºC} $$
 </div>
 
 **Discussion:**
@@ -621,12 +621,12 @@ First convert from Kelvin to Celsius, then from Celsius to Fahrenheit.
 **Solution:**
 Convert K to ºC:
 <div class="equation" >
- $${T}_{\text{ºC}}={T}_{\text{K}}- 273.15 = 2900- 273.15 = 2627\text{ºC}  $$
+ $${T}_{\text{ºC}}={T}_{\text{K}}- 273.15 = 2900\text{ K}- 273.15\text{ K} = 2627\text{ºC}  $$
 </div>
 
 Convert ºC to ºF:
 <div class="equation" >
- $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32=\frac{9}{5}\left( 2627\right)+32= 4761\text{ºF} $$
+ $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32=\frac{9}{5}\left( 2627\text{ºC}\right)+32\text{ºF}= 4761\text{ºF} $$
 </div>
 
 **Discussion:**
@@ -652,12 +652,12 @@ First convert from Kelvin to Celsius, then from Celsius to Fahrenheit.
 **Solution:**
 Convert K to ºC:
 <div class="equation" >
- $${T}_{\text{ºC}}={T}_{\text{K}}- 273.15 = 5750- 273.15 = 5477\text{ºC} $$
+ $${T}_{\text{ºC}}={T}_{\text{K}}- 273.15 = 5750\text{ K}- 273.15\text{ K} = 5477\text{ºC} $$
 </div>
 
 Convert ºC to ºF:
 <div class="equation" >
- $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32=\frac{9}{5}(5477)+32= 9859+32= 9891\text{ºF}\approx 9890\text{ºF} $$
+ $${T}_{\text{ºF}}=\frac{9}{5}{T}_{\text{ºC}}+32=\frac{9}{5}(5477\text{ºC})+32\text{ºF}= 9859\text{ºF}+32\text{ºF}= 9891\text{ºF}\approx 9890\text{ºF} $$
 </div>
 
 **Discussion:**
@@ -684,12 +684,12 @@ Convert from Fahrenheit to Celsius first, then to Kelvin.
 **Solution:**
 Convert ºF to ºC:
 <div class="equation" >
- $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right)=\frac{5}{9}\left(134-32\right)=\frac{5}{9}\left(102\right)= 56.7\text{ºC} $$
+ $${T}_{\text{ºC}}=\frac{5}{9}\left({T}_{\text{ºF}}-32\right)=\frac{5}{9}\left(134\text{ºF}-32\text{ºF}\right)=\frac{5}{9}\left(102\text{ºF}\right)= 56.7\text{ºC} $$
 </div>
 
 Convert ºC to K:
 <div class="equation" >
- $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15 = 56.7+ 273.15 = 330 \text{ K} $$
+ $${T}_{\text{K}}={T}_{\text{ºC}}+ 273.15 = 56.7\text{ºC}+ 273.15\text{ K} = 330 \text{ K} $$
 </div>
 
 **Discussion:**

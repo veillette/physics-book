@@ -606,13 +606,13 @@ Calculate entropy change for both house (losing heat) and outside (gaining heat)
 Given: $$Q = 5.00 \times 10^{8} \text{ J}$$, $$T_{in} = 21.0°\text{C} = 294 \text{ K}$$, $$T_{out} = 5.00°\text{C} = 278 \text{ K}$$
 
 **(a)** Entropy decrease of house:
-$$\Delta S_{in} = -\frac{Q}{T_{in}} = -\frac{5.00 \times 10^{8}}{294} = -1.70 \times 10^{6} \text{ J/K}$$
+$$\Delta S_{in} = -\frac{Q}{T_{in}} = -\frac{5.00 \times 10^{8} \text{ J}}{294 \text{ K}} = -1.70 \times 10^{6} \text{ J/K}$$
 
 Entropy increase of outside:
-$$\Delta S_{out} = \frac{Q}{T_{out}} = \frac{5.00 \times 10^{8}}{278} = 1.80 \times 10^{6} \text{ J/K}$$
+$$\Delta S_{out} = \frac{Q}{T_{out}} = \frac{5.00 \times 10^{8} \text{ J}}{278 \text{ K}} = 1.80 \times 10^{6} \text{ J/K}$$
 
 Total entropy change:
-$$\Delta S_{total} = -1.70 \times 10^{6} + 1.80 \times 10^{6} = 9.78 \times 10^{4} \text{ J/K}$$
+$$\Delta S_{total} = -1.70 \times 10^{6} \text{ J/K} + 1.80 \times 10^{6} \text{ J/K} = 9.78 \times 10^{4} \text{ J/K}$$
 
 **(b)** We generate energy from furnaces, heat pumps, and appliances within the house. This large entropy increase shows significant energy becomes unavailable for work.
 
@@ -646,10 +646,10 @@ For variable temperature process, use average temperature: $$T_{avg} = \frac{T_1
 Given: $$Q = 4.00 \times 10^{6} \text{ J}$$, $$T_1 = 35.0°\text{C} = 308 \text{ K}$$, $$T_2 = 45.0°\text{C} = 318 \text{ K}$$
 
 Average temperature:
-$$T_{avg} = \frac{308 + 318}{2} = 313 \text{ K}$$
+$$T_{avg} = \frac{308 \text{ K} + 318 \text{ K}}{2} = 313 \text{ K}$$
 
 Entropy increase:
-$$\Delta S = \frac{Q}{T_{avg}} = \frac{4.00 \times 10^{6}}{313} = 1.28 \times 10^{4} \text{ J/K}$$
+$$\Delta S = \frac{Q}{T_{avg}} = \frac{4.00 \times 10^{6} \text{ J}}{313 \text{ K}} = 1.28 \times 10^{4} \text{ J/K}$$
 
 **Discussion**
 
@@ -673,11 +673,11 @@ A hot rock ejected from a volcano’s lava fountain cools from  $$1100 \text{ºC
 
 **Strategy**
 
-Use $$\Delta S = \frac{Q}{T_{avg}}$$ and solve for Q. Average temperature: $$T_{avg} = \frac{1373 + 313}{2} = 843 \text{ K}$$.
+Use $$\Delta S = \frac{Q}{T_{avg}}$$ and solve for Q. Average temperature: $$T_{avg} = \frac{1373 \text{ K} + 313 \text{ K}}{2} = 843 \text{ K}$$.
 
 **Solution**
 
-$$Q = \Delta S \times T_{avg} = (-950)(843) = -8.01 \times 10^{5} \text{ J}$$
+$$Q = \Delta S \times T_{avg} = (-950 \text{ J/K})(843 \text{ K}) = -8.01 \times 10^{5} \text{ J}$$
 
 The negative sign indicates heat leaves the rock.
 
@@ -707,9 +707,9 @@ Use $$\Delta S = \frac{Q}{T_{avg}}$$ to find $$T_{avg}$$, then $$T_f = 2T_{avg} 
 
 **Solution**
 
-$$T_{avg} = \frac{Q}{\Delta S} = \frac{1.60 \times 10^{5}}{480} = 333 \text{ K}$$
+$$T_{avg} = \frac{Q}{\Delta S} = \frac{1.60 \times 10^{5} \text{ J}}{480 \text{ J/K}} = 333 \text{ K}$$
 
-$$T_f = 2(333) - 293 = 373 \text{ K} = 100°\text{C}$$
+$$T_f = 2(333 \text{ K}) - 293 \text{ K} = 373 \text{ K} = 100°\text{C}$$
 
 **Discussion**
 
@@ -738,17 +738,17 @@ Use the introductory two-reservoir model, approximating deep space as a cold res
 
 **Solution**
 
-$$Q=Pt=(3.80\times10^{26})(86400)=3.2832\times10^{31}\ \text{J}.$$
+$$Q=Pt=(3.80\times10^{26}\ \text{W})(86400\ \text{s})=3.2832\times10^{31}\ \text{J}.$$
 
 **(a)**
 
-$$\Delta S=Q\left(\frac1{T_c}-\frac1{T_h}\right)=3.2832\times10^{31}\left(\frac13-\frac1{5773}\right)=1.09\times10^{31}\ \text{J/K}.$$
+$$\Delta S=Q\left(\frac1{T_c}-\frac1{T_h}\right)=3.2832\times10^{31}\ \text{J}\left(\frac1{3\ \text{K}}-\frac1{5773\ \text{K}}\right)=1.09\times10^{31}\ \text{J/K}.$$
 
 The solar contribution is $$-5.69\times10^{27}\ \text{J/K}$$, much smaller than the cold-reservoir contribution of $$1.0944\times10^{31}\ \text{J/K}$$.
 
 **(b)**
 
-$$W_{\text{unavailable}}=T_c\Delta S=3(1.0938\times10^{31})=3.28\times10^{31}\ \text{J}.$$
+$$W_{\text{unavailable}}=T_c\Delta S=(3\ \text{K})(1.0938\times10^{31}\ \text{J/K})=3.28\times10^{31}\ \text{J}.$$
 
 This result assumes eventual heat absorption by a cold reservoir; it does not calculate the entropy carried by freely propagating radiation.
 
@@ -774,7 +774,7 @@ Treat both water samples as an isolated system with constant specific heat. Ener
 
 **(a)**
 
-$$Q=mc(40.0-30.0)=(1.00)(4186)(10.0)=4.19\times10^4\ \text{J}.$$
+$$Q=mc(40.0\ \text{°C}-30.0\ \text{°C})=(1.00\ \text{kg})(4186\ \text{J/(kg}\cdot\text{°C)})(10.0\ \text{°C})=4.19\times10^4\ \text{J}.$$
 
 **(b)** Using temperatures rounded consistently to 313, 303, and 293 K,
 
@@ -782,7 +782,7 @@ $$\Delta S=mc\left[\ln\frac{303}{313}+\ln\frac{303}{293}\right]=4.57\ \text{J/K}
 
 **(c)**
 
-$$W_{\text{unavailable}}=T_c\Delta S=(293)(4.57)=1.34\times10^3\ \text{J}.$$
+$$W_{\text{unavailable}}=T_c\Delta S=(293\ \text{K})(4.57\ \text{J/K})=1.34\times10^3\ \text{J}.$$
 
 The positive total entropy confirms that direct heat exchange is irreversible.
 
@@ -806,7 +806,7 @@ For phase change at constant T: $$\Delta S = -\frac{mL_{v}}{T}$$ (negative for c
 
 **Solution**
 
-$$\Delta S = -\frac{(0.025)(2.45 \times 10^{6})}{308} = -199 \text{ J/K}$$
+$$\Delta S = -\frac{(0.025 \text{ kg})(2.45 \times 10^{6} \text{ J/kg})}{308 \text{ K}} = -199 \text{ J/K}$$
 
 **Discussion**
 
@@ -829,9 +829,9 @@ Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its bo
 
 Boiling and warming the gas contribute separately. With $$T_b=77\ \text{K}$$, $$T_f=293\ \text{K}$$, $$L_v=2.0\times10^5\ \text{J/kg}$$, and $$c_p=1040\ \text{J/(kg}\cdot\text{K)}$$,
 
-$$\Delta S_{\text{boil}}=\frac{mL_v}{T_b}=\frac{(1.00)(2.0\times10^5)}{77}=2.60\times10^3\ \text{J/K},$$
+$$\Delta S_{\text{boil}}=\frac{mL_v}{T_b}=\frac{(1.00\ \text{kg})(2.0\times10^5\ \text{J/kg})}{77\ \text{K}}=2.60\times10^3\ \text{J/K},$$
 
-$$\Delta S_{\text{warm}}=mc_p\ln\frac{T_f}{T_b}=(1.00)(1040)\ln\frac{293}{77}=1.39\times10^3\ \text{J/K}.$$
+$$\Delta S_{\text{warm}}=mc_p\ln\frac{T_f}{T_b}=(1.00\ \text{kg})(1040\ \text{J/(kg}\cdot\text{K)})\ln\frac{293}{77}=1.39\times10^3\ \text{J/K}.$$
 
 Adding the unrounded results gives **3.99 × 10³ J/K**. About 65% of the increase occurs during boiling.
 
@@ -880,7 +880,7 @@ Work output in one day:
 From efficiency:
 
 <div class="equation">
- $$Q_h = \frac{W}{\eta} = \frac{8.64 \times 10^{13}}{0.350} = 2.47 \times 10^{14} \text{ J}$$
+ $$Q_h = \frac{W}{\eta} = \frac{8.64 \times 10^{13} \text{ J}}{0.350} = 2.47 \times 10^{14} \text{ J}$$
 </div>
 
 **The heat input is $$ 2.47 \times 10^{14} \text{ J} $$.**
@@ -888,11 +888,11 @@ From efficiency:
 **(b)** Heat transfer to environment in one day:
 
 <div class="equation">
- $$Q_c = Q_h - W = 2.47 \times 10^{14} - 8.64 \times 10^{13}$$
+ $$Q_c = Q_h - W = 2.47 \times 10^{14} \text{ J} - 8.64 \times 10^{13} \text{ J}$$
 </div>
 
 <div class="equation">
- $$Q_c = 1.606 \times 10^{14} \approx 1.60 \times 10^{14} \text{ J}$$
+ $$Q_c = 1.606 \times 10^{14} \text{ J} \approx 1.60 \times 10^{14} \text{ J}$$
 </div>
 
 **The waste heat is $$ 1.60 \times 10^{14} \text{ J} $$.**
@@ -902,19 +902,19 @@ From efficiency:
 Entropy decrease of cooling water (heat leaves):
 
 <div class="equation">
- $$\Delta S_{\text{water}} = -\frac{Q_c}{T_{\text{water}}} = -\frac{1.60 \times 10^{14}}{308} = -5.19 \times 10^{11} \text{ J/K}$$
+ $$\Delta S_{\text{water}} = -\frac{Q_c}{T_{\text{water}}} = -\frac{1.60 \times 10^{14} \text{ J}}{308 \text{ K}} = -5.19 \times 10^{11} \text{ J/K}$$
 </div>
 
 For air, use average temperature:
 
 <div class="equation">
- $$T_{\text{avg}} = \frac{T_i + T_f}{2} = \frac{291 + 293}{2} = 292 \text{ K}$$
+ $$T_{\text{avg}} = \frac{T_i + T_f}{2} = \frac{291 \text{ K} + 293 \text{ K}}{2} = 292 \text{ K}$$
 </div>
 
 Entropy increase of air (heat enters):
 
 <div class="equation">
- $$\Delta S_{\text{air}} = \frac{Q_c}{T_{\text{avg}}} = \frac{1.60 \times 10^{14}}{292} = 5.48 \times 10^{11} \text{ J/K}$$
+ $$\Delta S_{\text{air}} = \frac{Q_c}{T_{\text{avg}}} = \frac{1.60 \times 10^{14} \text{ J}}{292 \text{ K}} = 5.48 \times 10^{11} \text{ J/K}$$
 </div>
 
 Total entropy increase:
@@ -924,7 +924,7 @@ Total entropy increase:
 </div>
 
 <div class="equation">
- $$\Delta S_{\text{total}} = -5.19 \times 10^{11} + 5.48 \times 10^{11} = 2.9 \times 10^{10} \text{ J/K}$$
+ $$\Delta S_{\text{total}} = -5.19 \times 10^{11} \text{ J/K} + 5.48 \times 10^{11} \text{ J/K} = 2.9 \times 10^{10} \text{ J/K}$$
 </div>
 
 **The total entropy increase is approximately $$ 2.85 \times 10^{10} \text{ J/K} $$.**
@@ -988,7 +988,7 @@ Identify both water samples as the system. Use constant specific heat, conserve 
 
 **(a)** The heat transferred from hot to cold water is
 
-$$Q=mc\Delta T=(20.0)(4186)(40.0)=3.35\times10^6\ \text{J}.$$
+$$Q=mc\Delta T=(20.0\ \text{kg})(4186\ \text{J/(kg}\cdot\text{°C)})(40.0\ \text{°C})=3.35\times10^6\ \text{J}.$$
 
 **(b)** For the specified engine operating between constant-temperature reservoirs,
 
@@ -996,9 +996,9 @@ $$\eta_C=1-\frac{283}{363}=0.2204,\qquad W_C=\eta_C Q=7.38\times10^5\ \text{J}.$
 
 **(c)**
 
-$$\Delta S_h=(20.0)(4186)\ln\frac{323}{363}=-9775\ \text{J/K},$$
+$$\Delta S_h=(20.0\ \text{kg})(4186\ \text{J/(kg}\cdot\text{K)})\ln\frac{323}{363}=-9775\ \text{J/K},$$
 
-$$\Delta S_c=(20.0)(4186)\ln\frac{323}{283}=11070\ \text{J/K}.$$
+$$\Delta S_c=(20.0\ \text{kg})(4186\ \text{J/(kg}\cdot\text{K)})\ln\frac{323}{283}=11070\ \text{J/K}.$$
 
 Adding before rounding gives $$\Delta S=1.29\times10^3\ \text{J/K}$$.
 

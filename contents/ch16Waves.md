@@ -251,13 +251,13 @@ First, convert the distance to meters:
 Calculate the time using $$t = \frac{d}{v_w}$$:
 
 <div class="equation">
- $$t = \frac{12\,000\,000}{15.0} = 800\,000 \text{ s}$$
+ $$t = \frac{12\,000\,000 \text{ m}}{15.0 \text{ m/s}} = 800\,000 \text{ s}$$
 </div>
 
 Convert to days:
 
 <div class="equation">
- $$t = 800\,000 \text{ s} \times \frac{1 \text{ hr}}{3600 \text{ s}} \times \frac{1 \text{ day}}{24 \text{ hr}} = \frac{800\,000}{86\,400} = 9.26 \text{ days}$$
+ $$t = 800\,000 \text{ s} \times \frac{1 \text{ hr}}{3600 \text{ s}} \times \frac{1 \text{ day}}{24 \text{ hr}} = \frac{800\,000 \text{ s}}{86\,400 \text{ s/day}} = 9.26 \text{ days}$$
 </div>
 
 **Discussion**
@@ -291,13 +291,13 @@ The wave travels to the far end and back, so the total distance is twice the poo
 Total distance traveled:
 
 <div class="equation">
- $$d_{\text{total}} = v_w t = (0.750)(30.0) = 22.5 \text{ m}$$
+ $$d_{\text{total}} = v_w t = (0.750 \text{ m/s})(30.0 \text{ s}) = 22.5 \text{ m}$$
 </div>
 
 Pool length:
 
 <div class="equation">
- $$L = \frac{d_{\text{total}}}{2} = \frac{22.5}{2} = 11.25 \text{ m} = 11.3 \text{ m}$$
+ $$L = \frac{d_{\text{total}}}{2} = \frac{22.5 \text{ m}}{2} = 11.25 \text{ m} = 11.3 \text{ m}$$
 </div>
 
 **Discussion**
@@ -337,7 +337,7 @@ Convert the wavelength to meters:
 Calculate the frequency:
 
 <div class="equation">
- $$f = \frac{v_w}{\lambda} = \frac{2.00}{0.0500} = 40.0 \text{ Hz}$$
+ $$f = \frac{v_w}{\lambda} = \frac{2.00 \text{ m/s}}{0.0500 \text{ m}} = 40.0 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -369,7 +369,7 @@ The frequency of bobbing equals the wave frequency. We use $$v_w = f\lambda$$ to
 **Solution**
 
 <div class="equation">
- $$f = \frac{v_w}{\lambda} = \frac{5.00}{40.0} = 0.125 \text{ Hz}$$
+ $$f = \frac{v_w}{\lambda} = \frac{5.00 \text{ m/s}}{40.0 \text{ m}} = 0.125 \text{ Hz}$$
 </div>
 
 Convert to times per minute:
@@ -415,7 +415,7 @@ The frequency is:
 Using the wave equation:
 
 <div class="equation">
- $${v}_w = f\lambda = (2.00)(8.00) = 16.0 \text{ m/s}$$
+ $${v}_w = f\lambda = (2.00 \text{ Hz})(8.00 \text{ m}) = 16.0 \text{ m/s}$$
 </div>
 
 **Discussion**
@@ -447,7 +447,7 @@ The frequency of splashing determines the wave frequency. We use $$v_w = f\lambd
 **Solution**
 
 <div class="equation">
- $$\lambda = \frac{v_w}{f} = \frac{0.800}{2.00} = 0.400 \text{ m} = 40.0 \text{ cm}$$
+ $$\lambda = \frac{v_w}{f} = \frac{0.800 \text{ m/s}}{2.00 \text{ Hz}} = 0.400 \text{ m} = 40.0 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -487,7 +487,7 @@ Calculate the wave speed from the distance and time:
 Now use the wave equation to find wavelength:
 
 <div class="equation">
- $$\lambda = \frac{v_w}{f} = \frac{7\,000}{10.0} = 700 \text{ m}$$
+ $$\lambda = \frac{v_w}{f} = \frac{7\,000 \text{ m/s}}{10.0 \text{ Hz}} = 700 \text{ m}$$
 </div>
 
 **Discussion**
@@ -520,7 +520,7 @@ We use the wave equation $$v_w = f\lambda$$ with the speed of light (radio waves
 **Solution**
 
 <div class="equation">
- $$f = \frac{v_w}{\lambda} = \frac{3.00 \times 10^8}{0.120} = 2.50 \times 10^9 \text{ Hz} = 2.50 \text{ GHz}$$
+ $$f = \frac{v_w}{\lambda} = \frac{3.00 \times 10^8 \text{ m/s}}{0.120 \text{ m}} = 2.50 \times 10^9 \text{ Hz} = 2.50 \text{ GHz}$$
 </div>
 
 **Discussion**
@@ -560,7 +560,7 @@ Convert the time to seconds:
 Calculate the minimum distance:
 
 <div class="equation">
- $$d = v\Delta t = (340)(1.00 \times 10^{-3}) = 0.340 \text{ m} = 34.0 \text{ cm}$$
+ $$d = v\Delta t = (340 \text{ m/s})(1.00 \times 10^{-3} \text{ s}) = 0.340 \text{ m} = 34.0 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -597,29 +597,29 @@ For part (a), the time difference between S- and P-wave arrivals depends on dist
 (a) Let $$d$$ be the distance to the epicenter. The arrival times are:
 
 <div class="equation">
- $$t_P = \frac{d}{v_P} = \frac{d}{7.20}$$
+ $$t_P = \frac{d}{v_P} = \frac{d}{7.20 \text{ km/s}}$$
 </div>
 
 <div class="equation">
- $$t_S = \frac{d}{v_S} = \frac{d}{4.00}$$
+ $$t_S = \frac{d}{v_S} = \frac{d}{4.00 \text{ km/s}}$$
 </div>
 
 The time difference is:
 
 <div class="equation">
- $$\Delta t = t_S - t_P = \frac{d}{4.00} - \frac{d}{7.20} = d\left(\frac{1}{4.00} - \frac{1}{7.20}\right) = d(0.250 - 0.139) = 0.111d$$
+ $$\Delta t = t_S - t_P = \frac{d}{4.00 \text{ km/s}} - \frac{d}{7.20 \text{ km/s}} = d\left(\frac{1}{4.00 \text{ km/s}} - \frac{1}{7.20 \text{ km/s}}\right) = d(0.250 \text{ s/km} - 0.139 \text{ s/km}) = (0.111 \text{ s/km})d$$
 </div>
 
 where $$d$$ is in km and $$\Delta t$$ is in seconds. Solving for $$d$$:
 
 <div class="equation">
- $$d = \frac{\Delta t}{0.111}$$
+ $$d = \frac{\Delta t}{0.111 \text{ s/km}}$$
 </div>
 
 The uncertainty in distance due to timing precision is:
 
 <div class="equation">
- $$\delta d = \frac{\delta(\Delta t)}{0.111} = \frac{0.100}{0.111} = 0.901 \text{ km} \approx 0.90 \text{ km}$$
+ $$\delta d = \frac{\delta(\Delta t)}{0.111 \text{ s/km}} = \frac{0.100 \text{ s}}{0.111 \text{ s/km}} = 0.901 \text{ km} \approx 0.90 \text{ km}$$
 </div>
 
 (b) **Discussion**: A precision of ±0.90 km (±900 m) is quite good for locating earthquake epicenters or nuclear test sites. For detecting nuclear test ban violations, this precision is generally adequate because:

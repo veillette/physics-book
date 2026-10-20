@@ -405,16 +405,16 @@ Given:
 
 Temperature difference:
 <div class="equation">
-$$\Delta T = T_1 - T_2 = 5.00 - (-10.0) = 15.0\text{ºC}$$
+$$\Delta T = T_1 - T_2 = 5.00\text{ºC} - (-10.0\text{ºC}) = 15.0\text{ºC}$$
 </div>
 
 Rate of heat conduction:
 <div class="equation">
-$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.84)(3.00)(15.0)}{0.00635}$$
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(3.00 \text{ m}^2)(15.0\text{ºC})}{0.00635 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{37.8}{0.00635} = 5950 \text{ W} = 5.95 \text{ kW}$$
+$$\frac{Q}{t} = \frac{37.8 \text{ J}\cdot\text{m/s}}{0.00635 \text{ m}} = 5950 \text{ W} = 5.95 \text{ kW}$$
 </div>
 
 **Discussion**
@@ -465,16 +465,16 @@ Given:
 
 Temperature difference:
 <div class="equation">
-$$\Delta T = T_{core} - T_{skin} = 37.0 - 34.0 = 3.0\text{ºC}$$
+$$\Delta T = T_{core} - T_{skin} = 37.0\text{ºC} - 34.0\text{ºC} = 3.0\text{ºC}$$
 </div>
 
 Rate of heat conduction:
 <div class="equation">
-$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.2)(1.40)(3.0)}{0.0100}$$
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.2 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(1.40 \text{ m}^2)(3.0\text{ºC})}{0.0100 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{0.84}{0.0100} = 84.0 \text{ W}$$
+$$\frac{Q}{t} = \frac{0.84 \text{ J}\cdot\text{m/s}}{0.0100 \text{ m}} = 84.0 \text{ W}$$
 </div>
 
 **Discussion**
@@ -531,7 +531,7 @@ Given for both materials:
 - Thickness: $$d = 2.00 \text{ cm} = 0.0200 \text{ m}$$
 - Top temperature: $$T_1 = 33.0\text{ºC}$$
 - Bottom temperature: $$T_2 = 10.0\text{ºC}$$
-- Temperature difference: $$\Delta T = 33.0 - 10.0 = 23.0\text{ºC}$$
+- Temperature difference: $$\Delta T = 33.0\text{ºC} - 10.0\text{ºC} = 23.0\text{ºC}$$
 
 From Table 1:
 - Thermal conductivity of glass (ceramic): $$k_{ceramic} = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
@@ -539,25 +539,25 @@ From Table 1:
 
 **For ceramic floor:**
 <div class="equation">
-$$\frac{Q}{t}_{ceramic} = \frac{k_{ceramic}A\Delta T}{d} = \frac{(0.84)(0.00800)(23.0)}{0.0200}$$
+$$\frac{Q}{t}_{ceramic} = \frac{k_{ceramic}A\Delta T}{d} = \frac{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(0.00800 \text{ m}^2)(23.0\text{ºC})}{0.0200 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t}_{ceramic} = \frac{0.155}{0.0200} = 7.73 \text{ W}$$
+$$\frac{Q}{t}_{ceramic} = \frac{0.155 \text{ J}\cdot\text{m/s}}{0.0200 \text{ m}} = 7.73 \text{ W}$$
 </div>
 
 **For wool carpet:**
 <div class="equation">
-$$\frac{Q}{t}_{wool} = \frac{k_{wool}A\Delta T}{d} = \frac{(0.04)(0.00800)(23.0)}{0.0200}$$
+$$\frac{Q}{t}_{wool} = \frac{k_{wool}A\Delta T}{d} = \frac{(0.04 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(0.00800 \text{ m}^2)(23.0\text{ºC})}{0.0200 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t}_{wool} = \frac{0.00736}{0.0200} = 0.368 \text{ W}$$
+$$\frac{Q}{t}_{wool} = \frac{0.00736 \text{ J}\cdot\text{m/s}}{0.0200 \text{ m}} = 0.368 \text{ W}$$
 </div>
 
 **Ratio:**
 <div class="equation">
-$$\frac{Q_{ceramic}/t}{Q_{wool}/t} = \frac{7.73}{0.368} = 21.0$$
+$$\frac{Q_{ceramic}/t}{Q_{wool}/t} = \frac{7.73 \text{ W}}{0.368 \text{ W}} = 21.0$$
 </div>
 
 **Discussion**
@@ -604,7 +604,7 @@ Half of the food energy (3000 kcal) is lost through water evaporation. We use $$
 
 Given:
 - Total food energy: $$E_{food} = 3000 \text{ kcal}$$
-- Energy lost by evaporation: $$Q = \frac{1}{2} \times 3000 = 1500 \text{ kcal}$$
+- Energy lost by evaporation: $$Q = \frac{1}{2} \times 3000 \text{ kcal} = 1500 \text{ kcal}$$
 - Latent heat of vaporization at body temperature (37°C): $$L_v = 580 \text{ kcal/kg}$$ (from Ch 14, Section 3 footnote)
 
 Convert to consistent units (already in kcal).
@@ -667,13 +667,13 @@ a callus is made of dead cells?
 
 **(a)** Using $$k=0.08\ \text{W/(m}\cdot{}^\circ\text{C)}$$ and an initial foot temperature of 37 °C,
 
-$$Q=\frac{kA\Delta T}{d}t=\frac{(0.08)(0.00250)(700-37)}{0.00300}(1.00)=44.2\ \text{J}.$$
+$$Q=\frac{kA\Delta T}{d}t=\frac{(0.08\ \text{W/(m}\cdot{}^\circ\text{C)})(0.00250\ \text{m}^2)(700\ {}^\circ\text{C}-37\ {}^\circ\text{C})}{0.00300\ \text{m}}(1.00\ \text{s})=44.2\ \text{J}.$$
 
 **(b)** With the stated density and $$c=3500\ \text{J/(kg}\cdot{}^\circ\text{C)}$$,
 
-$$m=\rho V=(300)(25.0\times10^{-6})=0.00750\ \text{kg},$$
+$$m=\rho V=(300\ \text{kg/m}^3)(25.0\times10^{-6}\ \text{m}^3)=0.00750\ \text{kg},$$
 
-$$\Delta T=\frac{Q}{mc}=\frac{44.2}{(0.00750)(3500)}=1.68\ {}^\circ\text{C}.$$
+$$\Delta T=\frac{Q}{mc}=\frac{44.2\ \text{J}}{(0.00750\ \text{kg})(3500\ \text{J/(kg}\cdot{}^\circ\text{C)})}=1.68\ {}^\circ\text{C}.$$
 
 **(c)** The model predicts an average temperature of about 38.7 °C in the affected volume. Low conductivity, a thick callus of dead cells, and brief contact limit heat transfer to living tissue. The average temperature estimate does not describe local hot spots or establish that firewalking is safe.
 
@@ -710,16 +710,16 @@ Given:
 
 Temperature difference:
 <div class="equation">
-$$\Delta T = T_{skin} - T_{air} = 32.0 - (-5.00) = 37.0\text{ºC}$$
+$$\Delta T = T_{skin} - T_{air} = 32.0\text{ºC} - (-5.00\text{ºC}) = 37.0\text{ºC}$$
 </div>
 
 Heat conduction rate:
 <div class="equation">
-$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.023)(1.40)(37.0)}{0.0300}$$
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.023 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(1.40 \text{ m}^2)(37.0\text{ºC})}{0.0300 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{1.1914}{0.0300} = 39.7 \text{ W}$$
+$$\frac{Q}{t} = \frac{1.1914 \text{ J}\cdot\text{m/s}}{0.0300 \text{ m}} = 39.7 \text{ W}$$
 </div>
 
 **(b)** Daily food intake needed:
@@ -740,7 +740,7 @@ The heat loss rate of 39.7 W is quite modest despite the large temperature diffe
 
 The 3-cm thick fur provides an R-factor of:
 <div class="equation">
-$$R = \frac{d}{k} = \frac{0.03}{0.023} = 1.30 \text{ m}^2\cdot\text{ºC/W}$$
+$$R = \frac{d}{k} = \frac{0.03 \text{ m}}{0.023 \text{ J/s}\cdot\text{m}\cdot\text{ºC}} = 1.30 \text{ m}^2\cdot\text{ºC/W}$$
 </div>
 
 For comparison with human clothing:
@@ -802,7 +802,7 @@ Given:
 
 Temperature difference:
 <div class="equation">
-$$\Delta T = T_{core} - T_{water} = 37.0 - (-1.00) = 38.0\text{ºC}$$
+$$\Delta T = T_{core} - T_{water} = 37.0\text{ºC} - (-1.00\text{ºC}) = 38.0\text{ºC}$$
 </div>
 
 Solve the conduction equation for thickness $$d$$:
@@ -811,11 +811,11 @@ $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$
 </div>
 
 <div class="equation">
-$$d = \frac{kA\Delta T}{Q/t} = \frac{(0.2)(2.00)(38.0)}{150}$$
+$$d = \frac{kA\Delta T}{Q/t} = \frac{(0.2 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(2.00 \text{ m}^2)(38.0\text{ºC})}{150 \text{ W}}$$
 </div>
 
 <div class="equation">
-$$d = \frac{15.2}{150} = 0.101 \text{ m} = 10.1 \text{ cm}$$
+$$d = \frac{15.2 \text{ J}\cdot\text{m/s}}{150 \text{ W}} = 0.101 \text{ m} = 10.1 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -859,32 +859,32 @@ We use the heat conduction equation $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$ for b
 Given:
 - Wall thickness: $$d_w = 13.0 \text{ cm} = 0.130 \text{ m}$$
 - Wall area: $$A_w = 10.0 \text{ m}^2$$
-- Wall thermal conductivity: $$k_w = 2k_{glass\ wool} = 2(0.042) = 0.084 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
+- Wall thermal conductivity: $$k_w = 2k_{glass\ wool} = 2(0.042 \text{ J/s}\cdot\text{m}\cdot\text{ºC}) = 0.084 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
 - Window thickness: $$d_{win} = 0.750 \text{ cm} = 0.00750 \text{ m}$$
 - Window area: $$A_{win} = 2.00 \text{ m}^2$$
 - Window thermal conductivity (glass): $$k_{win} = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Table 1)
 
 Heat conduction rate through wall:
 <div class="equation">
-$$\frac{Q_{wall}}{t} = \frac{k_w A_w \Delta T}{d_w} = \frac{(0.084)(10.0)\Delta T}{0.130}$$
+$$\frac{Q_{wall}}{t} = \frac{k_w A_w \Delta T}{d_w} = \frac{(0.084 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(10.0 \text{ m}^2)\Delta T}{0.130 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q_{wall}}{t} = 6.46 \Delta T$$
+$$\frac{Q_{wall}}{t} = (6.46 \text{ J/(s}\cdot\text{ºC)})\Delta T$$
 </div>
 
 Heat conduction rate through window:
 <div class="equation">
-$$\frac{Q_{win}}{t} = \frac{k_{win} A_{win} \Delta T}{d_{win}} = \frac{(0.84)(2.00)\Delta T}{0.00750}$$
+$$\frac{Q_{win}}{t} = \frac{k_{win} A_{win} \Delta T}{d_{win}} = \frac{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(2.00 \text{ m}^2)\Delta T}{0.00750 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q_{win}}{t} = 224 \Delta T$$
+$$\frac{Q_{win}}{t} = (224 \text{ J/(s}\cdot\text{ºC)})\Delta T$$
 </div>
 
 Ratio of window to wall:
 <div class="equation">
-$$\frac{Q_{win}/t}{Q_{wall}/t} = \frac{224\Delta T}{6.46\Delta T} = \frac{224}{6.46} = 34.7 \approx 35$$
+$$\frac{Q_{win}/t}{Q_{wall}/t} = \frac{(224 \text{ J/(s}\cdot\text{ºC)})\Delta T}{(6.46 \text{ J/(s}\cdot\text{ºC)})\Delta T} = \frac{224 \text{ J/(s}\cdot\text{ºC)}}{6.46 \text{ J/(s}\cdot\text{ºC)}} = 34.7 \approx 35$$
 </div>
 
 **Discussion**
@@ -940,11 +940,11 @@ $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(50.0)(0.0200)}{(0.04)(1.40)}$$
+$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(50.0 \text{ W})(0.0200 \text{ m})}{(0.04 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(1.40 \text{ m}^2)}$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{1.00}{0.056} = 17.9\text{ºC}$$
+$$\Delta T = \frac{1.00 \text{ W}\cdot\text{m}}{0.056 \text{ W}\cdot\text{m/ºC}} = 17.9\text{ºC}$$
 </div>
 
 **Discussion**
@@ -995,11 +995,11 @@ $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(2256)(0.00600)}{(0.84)(1.54 \times 10^{-2})}$$
+$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(2256 \text{ J/s})(0.00600 \text{ m})}{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(1.54 \times 10^{-2} \text{ m}^2)}$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{13.536}{0.01294} = 1046 \text{ºC} = 1046 \text{ K}$$
+$$\Delta T = \frac{13.536 \text{ J}\cdot\text{m/s}}{0.01294 \text{ J}\cdot\text{m}/(\text{s}\cdot\text{ºC})} = 1046 \text{ºC} = 1046 \text{ K}$$
 </div>
 
 Or approximately:
@@ -1068,11 +1068,11 @@ Given:
 - Thermal conductivity of glass wool (fiberglass): $$k = 0.042 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$ (from Table 1)
 
 Calculate surface areas:
-- Attic (ceiling): $$A_{attic} = 10 \times 15 = 150 \text{ m}^2$$
-- Two long walls: $$A_{long} = 2 \times (15 \times 3.0) = 90 \text{ m}^2$$
-- Two short walls: $$A_{short} = 2 \times (10 \times 3.0) = 60 \text{ m}^2$$
+- Attic (ceiling): $$A_{attic} = 10 \text{ m} \times 15 \text{ m} = 150 \text{ m}^2$$
+- Two long walls: $$A_{long} = 2 \times (15 \text{ m} \times 3.0 \text{ m}) = 90 \text{ m}^2$$
+- Two short walls: $$A_{short} = 2 \times (10 \text{ m} \times 3.0 \text{ m}) = 60 \text{ m}^2$$
 - Floor: $$A_{floor} = 150 \text{ m}^2$$
-- Total wall area: $$A_{walls} = 90 + 60 = 150 \text{ m}^2$$
+- Total wall area: $$A_{walls} = 90 \text{ m}^2 + 60 \text{ m}^2 = 150 \text{ m}^2$$
 
 For constant $$\Delta T$$, the heat loss rate is $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$.
 
@@ -1082,7 +1082,7 @@ $$\left(\frac{Q}{t}\right)_{before} = \frac{kA_{attic}\Delta T}{d_1} + \frac{kA_
 </div>
 
 <div class="equation">
-$$\left(\frac{Q}{t}\right)_{before} = k\Delta T \left(\frac{150}{0.15} + \frac{150}{0.15} + \frac{150}{0.15}\right) = k\Delta T(1000 + 1000 + 1000) = 3000 k\Delta T$$
+$$\left(\frac{Q}{t}\right)_{before} = k\Delta T \left(\frac{150 \text{ m}^2}{0.15 \text{ m}} + \frac{150 \text{ m}^2}{0.15 \text{ m}} + \frac{150 \text{ m}^2}{0.15 \text{ m}}\right) = k\Delta T(1000 \text{ m} + 1000 \text{ m} + 1000 \text{ m}) = (3000 \text{ m}) k\Delta T$$
 </div>
 
 **After adding insulation:**
@@ -1091,7 +1091,7 @@ $$\left(\frac{Q}{t}\right)_{after} = \frac{kA_{attic}\Delta T}{d_2} + \frac{kA_{
 </div>
 
 <div class="equation">
-$$\left(\frac{Q}{t}\right)_{after} = k\Delta T \left(\frac{150}{0.23} + \frac{150}{0.15} + \frac{150}{0.15}\right) = k\Delta T(652 + 1000 + 1000) = 2652 k\Delta T$$
+$$\left(\frac{Q}{t}\right)_{after} = k\Delta T \left(\frac{150 \text{ m}^2}{0.23 \text{ m}} + \frac{150 \text{ m}^2}{0.15 \text{ m}} + \frac{150 \text{ m}^2}{0.15 \text{ m}}\right) = k\Delta T(652 \text{ m} + 1000 \text{ m} + 1000 \text{ m}) = (2652 \text{ m}) k\Delta T$$
 </div>
 
 **Percentage reduction:**
@@ -1100,7 +1100,7 @@ $$\text{Reduction} = \frac{(Q/t)_{before} - (Q/t)_{after}}{(Q/t)_{before}} \time
 </div>
 
 <div class="equation">
-$$\text{Reduction} = \frac{3000 - 2652}{3000} \times 100\% = \frac{348}{3000} \times 100\% = 11.6\%$$
+$$\text{Reduction} = \frac{3000 \text{ m} - 2652 \text{ m}}{3000 \text{ m}} \times 100\% = \frac{348 \text{ m}}{3000 \text{ m}} \times 100\% = 11.6\%$$
 </div>
 
 **Discussion**
@@ -1153,7 +1153,7 @@ Given:
 - Air gap thickness: $$d_a = 1.00 \text{ cm} = 0.0100 \text{ m}$$
 - Inside temperature: $$T_{in} = 15.0\text{ºC}$$
 - Outside temperature: $$T_{out} = -10.0\text{ºC}$$
-- Temperature difference: $$\Delta T_{total} = 15.0 - (-10.0) = 25.0\text{ºC}$$
+- Temperature difference: $$\Delta T_{total} = 15.0\text{ºC} - (-10.0\text{ºC}) = 25.0\text{ºC}$$
 - Thermal conductivity of glass: $$k_g = 0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
 - Thermal conductivity of air: $$k_a = 0.023 \text{ J/s}\cdot\text{m}\cdot\text{ºC}$$
 
@@ -1176,20 +1176,20 @@ $$\frac{k_g \Delta T_g}{d_g} = \frac{k_a \Delta T_a}{d_a}$$
 </div>
 
 <div class="equation">
-$$\Delta T_a = \frac{k_g d_a}{k_a d_g} \Delta T_g = \frac{(0.84)(0.0100)}{(0.023)(0.00800)} \Delta T_g$$
+$$\Delta T_a = \frac{k_g d_a}{k_a d_g} \Delta T_g = \frac{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(0.0100 \text{ m})}{(0.023 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(0.00800 \text{ m})} \Delta T_g$$
 </div>
 
 <div class="equation">
-$$\Delta T_a = \frac{0.0084}{0.000184} \Delta T_g = 45.65 \Delta T_g$$
+$$\Delta T_a = \frac{0.0084 \text{ J/(s}\cdot\text{ºC)}}{0.000184 \text{ J/(s}\cdot\text{ºC)}} \Delta T_g = 45.65 \Delta T_g$$
 </div>
 
 Substituting into the total:
 <div class="equation">
-$$2\Delta T_g + 45.65\Delta T_g = 25.0$$
+$$2\Delta T_g + 45.65\Delta T_g = 25.0\text{ºC}$$
 </div>
 
 <div class="equation">
-$$47.65\Delta T_g = 25.0$$
+$$47.65\Delta T_g = 25.0\text{ºC}$$
 </div>
 
 <div class="equation">
@@ -1197,32 +1197,32 @@ $$\Delta T_g = 0.525\text{ºC}$$
 </div>
 
 <div class="equation">
-$$\Delta T_a = 45.65 \times 0.525 = 23.95\text{ºC}$$
+$$\Delta T_a = 45.65 \times 0.525\text{ºC} = 23.95\text{ºC}$$
 </div>
 
 Now calculate heat flow rate:
 <div class="equation">
-$$\frac{Q}{t} = \frac{k_g A \Delta T_g}{d_g} = \frac{(0.84)(1.50)(0.525)}{0.00800}$$
+$$\frac{Q}{t} = \frac{k_g A \Delta T_g}{d_g} = \frac{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(1.50 \text{ m}^2)(0.525\text{ºC})}{0.00800 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{0.6615}{0.00800} = 82.7 \text{ W} \approx 83 \text{ W}$$
+$$\frac{Q}{t} = \frac{0.6615 \text{ J}\cdot\text{m/s}}{0.00800 \text{ m}} = 82.7 \text{ W} \approx 83 \text{ W}$$
 </div>
 
 **(b)** For a single 1.60-cm thick glass window:
 - Thickness: $$d = 1.60 \text{ cm} = 0.0160 \text{ m}$$
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{k_g A \Delta T_{total}}{d} = \frac{(0.84)(1.50)(25.0)}{0.0160}$$
+$$\frac{Q}{t} = \frac{k_g A \Delta T_{total}}{d} = \frac{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(1.50 \text{ m}^2)(25.0\text{ºC})}{0.0160 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{31.5}{0.0160} = 1969 \text{ W} \approx 2000 \text{ W}$$
+$$\frac{Q}{t} = \frac{31.5 \text{ J}\cdot\text{m/s}}{0.0160 \text{ m}} = 1969 \text{ W} \approx 2000 \text{ W}$$
 </div>
 
 Comparison:
 <div class="equation">
-$$\frac{Q_{single}}{Q_{double}} = \frac{1969}{82.7} = 23.8 \approx 24$$
+$$\frac{Q_{single}}{Q_{double}} = \frac{1969 \text{ W}}{82.7 \text{ W}} = 23.8 \approx 24$$
 </div>
 
 **Discussion**
@@ -1270,7 +1270,7 @@ Many decisions are made on the basis of the payback period: the time it will tak
 
 The installation costs $$150\ \text{m}^2\times\$4.00/\text{m}^2=\$600$$. The reduction in heat-loss rate is
 
-$$\Delta P=kA\Delta T\left(\frac1{d_1}-\frac1{d_2}\right)=(0.042)(150)(15.0)\left(\frac1{0.15}-\frac1{0.23}\right)=219\ \text{W}.$$
+$$\Delta P=kA\Delta T\left(\frac1{d_1}-\frac1{d_2}\right)=(0.042\ \text{J/s}\cdot\text{m}\cdot\text{ºC})(150\ \text{m}^2)(15.0\text{ºC})\left(\frac{1}{0.15\ \text{m}}-\frac{1}{0.23\ \text{m}}\right)=219\ \text{W}.$$
 
 Over the 120-day heating season, this saves $$2.27\times10^9\ \text{J}$$, worth \$2270 at the stated energy price. Thus
 
@@ -1309,11 +1309,11 @@ Given:
 **Part 1:** Calculate heat conduction rate through tissue:
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.20)(1.50)(2.00)}{0.0300}$$
+$$\frac{Q}{t} = \frac{kA\Delta T}{d} = \frac{(0.20 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(1.50 \text{ m}^2)(2.00\text{ºC})}{0.0300 \text{ m}}$$
 </div>
 
 <div class="equation">
-$$\frac{Q}{t} = \frac{0.60}{0.0300} = 20.0 \text{ W}$$
+$$\frac{Q}{t} = \frac{0.60 \text{ J}\cdot\text{m/s}}{0.0300 \text{ m}} = 20.0 \text{ W}$$
 </div>
 
 **Part 2:** Convert metabolic rate to watts:
@@ -1323,7 +1323,7 @@ $$\frac{E}{t} = \frac{2400 \text{ kcal}}{1 \text{ day}} = \frac{2400 \text{ kcal
 </div>
 
 <div class="equation">
-$$\frac{E}{t} = \frac{2400}{86400} \text{ kcal/s} = 0.02778 \text{ kcal/s}$$
+$$\frac{E}{t} = \frac{2400 \text{ kcal}}{86400 \text{ s}} = 0.02778 \text{ kcal/s}$$
 </div>
 
 Convert to joules per second (watts):

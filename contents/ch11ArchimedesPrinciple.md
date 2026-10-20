@@ -992,7 +992,7 @@ $$ \frac{F_B}{W} = \frac{\rho_{\text{fluid}} V g}{\rho_{\text{iron}} V g} = \fra
 
 Using $$ \rho_{\text{saltwater}} = 1025 \text{ kg/m}^3 $$ and $$ \rho_{\text{iron}} = 7870 \text{ kg/m}^3 $$:
 
-$$ \frac{F_B}{W} = \frac{1025}{7870} = 0.130 = 13.0\% $$
+$$ \frac{F_B}{W} = \frac{1025 \text{ kg/m}^3}{7870 \text{ kg/m}^3} = 0.130 = 13.0\% $$
 
 **Discussion:**
 Approximately **13%** of the iron anchor's weight is supported by the buoyant force when submerged in saltwater. This means the anchor has an "apparent weight" of about 87% of its true weight when underwater. While this doesn't make the anchor float (since 13% < 100%), it does explain why heavy objects feel lighter when submerged—divers can lift anchors and other heavy equipment underwater more easily than in air.
@@ -1025,10 +1025,10 @@ For an ingot of mass $$ m $$ and density $$ \rho $$:
 - Apparent mass loss in water: $$ \Delta m = \rho_{\text{water}} V = \rho_{\text{water}} (m/\rho) = m(\rho_{\text{water}}/\rho) $$
 
 For gold:
-$$ \Delta m_{\text{Au}} = m \frac{1000}{19,320} = 0.0517598m $$
+$$ \Delta m_{\text{Au}} = m \frac{1000 \text{ kg/m}^3}{19,320 \text{ kg/m}^3} = 0.0517598m $$
 
 For tungsten:
-$$ \Delta m_{\text{W}} = m \frac{1000}{19,300} = 0.0518135m $$
+$$ \Delta m_{\text{W}} = m \frac{1000 \text{ kg/m}^3}{19,300 \text{ kg/m}^3} = 0.0518135m $$
 
 The apparent mass losses differ by:
 $$ \Delta m_{\text{W}} - \Delta m_{\text{Au}} = 0.0518135m - 0.0517598m = 5.37 \times 10^{-5} m $$

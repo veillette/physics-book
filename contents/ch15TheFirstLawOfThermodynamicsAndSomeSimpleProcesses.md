@@ -450,7 +450,7 @@ Substituting the known values:
 </div>
 
 <div class="equation">
- $$\Delta U = 2.5 \times 8.36 \times 10^{3} \text{ J}$$
+ $$\Delta U = 2.5 \times (8.36 \times 10^{3} \text{ J})$$
 </div>
 
 <div class="equation">
@@ -547,7 +547,7 @@ Given values:
 </div>
 
 <div class="equation">
- $$\Delta V = \pi (0.0400)(0.800) = 0.1005 \text{ m}^{3}$$
+ $$\Delta V = \pi (0.0400 \text{ m}^{2})(0.800 \text{ m}) = 0.1005 \text{ m}^{3}$$
 </div>
 
 Work done using $$W = P\Delta V$$:
@@ -571,7 +571,7 @@ Work done using $$W = P\Delta V$$:
 </div>
 
 <div class="equation">
- $$F = (1.75 \times 10^{6})(0.1257) = 2.20 \times 10^{5} \text{ N}$$
+ $$F = (1.75 \times 10^{6} \text{ N/m}^{2})(0.1257 \text{ m}^{2}) = 2.20 \times 10^{5} \text{ N}$$
 </div>
 
 Work done using $$W = Fd$$:
@@ -620,25 +620,25 @@ Given values:
 **(a)** Calculate volume change:
 
 <div class="equation">
- $$\Delta V = \pi r^{2} d = \pi(0.0125)^{2}(0.300) = 1.47 \times 10^{-4} \text{ m}^{3}$$
+ $$\Delta V = \pi r^{2} d = \pi(0.0125 \text{ m})^{2}(0.300 \text{ m}) = 1.47 \times 10^{-4} \text{ m}^{3}$$
 </div>
 
 Work done:
 
 <div class="equation">
- $$W = P\Delta V = (2.40 \times 10^{5})(1.47 \times 10^{-4}) = 35.3 \text{ J}$$
+ $$W = P\Delta V = (2.40 \times 10^{5} \text{ N/m}^{2})(1.47 \times 10^{-4} \text{ m}^{3}) = 35.3 \text{ J}$$
 </div>
 
 **(b)** Average force:
 
 <div class="equation">
- $$F = PA = P\pi r^{2} = (2.40 \times 10^{5})\pi(0.0125)^{2} = 118 \text{ N}$$
+ $$F = PA = P\pi r^{2} = (2.40 \times 10^{5} \text{ N/m}^{2})\pi(0.0125 \text{ m})^{2} = 118 \text{ N}$$
 </div>
 
 Alternatively, from $$W = Fd$$:
 
 <div class="equation">
- $$F = \frac{W}{d} = \frac{35.3}{0.300} = 118 \text{ N}$$
+ $$F = \frac{W}{d} = \frac{35.3 \text{ J}}{0.300 \text{ m}} = 118 \text{ N}$$
 </div>
 
 **Discussion**
@@ -664,9 +664,9 @@ Calculate the net work output of a heat engine following path ABCDA in the figur
 
 The enclosed quadrilateral is a trapezoid with parallel vertical sides AD and BC. Their pressure spans are 1.6 MPa and 1.4 MPa, respectively, separated by a volume change of 3.0 L. The clockwise cycle produces positive work:
 
-$$W=\frac{1.6+1.4}{2}\times10^6(3.0\times10^{-3})=4.5\times10^3\ \text{J}.$$
+$$W=\left(\frac{1.6+1.4}{2}\times10^6\ \text{Pa}\right)(3.0\times10^{-3}\ \text{m}^3)=4.5\times10^3\ \text{J}.$$
 
-Equivalently, $$W_{AB}=\tfrac12(2.6+2.0)\times10^6(0.003)=6.9\ \text{kJ}$$ and $$W_{CD}=\tfrac12(0.6+1.0)\times10^6(-0.003)=-2.4\ \text{kJ}$$. The constant-volume legs do no work, so the net output is **4.5 kJ**.
+Equivalently, $$W_{AB}=\left(\tfrac12(2.6+2.0)\times10^6\ \text{Pa}\right)(0.003\ \text{m}^3)=6.9\ \text{kJ}$$ and $$W_{CD}=\left(\tfrac12(0.6+1.0)\times10^6\ \text{Pa}\right)(-0.003\ \text{m}^3)=-2.4\ \text{kJ}$$. The constant-volume legs do no work, so the net output is **4.5 kJ**.
 
 :::
 </div>
@@ -690,7 +690,7 @@ Identify the gas as the system and compute the signed area enclosed by its clock
 
 Triangle ABD has a vertical side $$AD=(2.6-1.0)\times10^6\ \text{Pa}$$ and perpendicular width $$\Delta V=(4.0-1.0)\times10^{-3}\ \text{m}^3$$. Thus
 
-$$W=\frac12(1.6\times10^6)(3.0\times10^{-3})=2.4\times10^3\ \text{J}.$$
+$$W=\frac12(1.6\times10^6\ \text{Pa})(3.0\times10^{-3}\ \text{m}^3)=2.4\times10^3\ \text{J}.$$
 
 As a check, expansion AB does $$6.9\ \text{kJ}$$ of work and compression BD does $$-4.5\ \text{kJ}$$; DA is at constant volume and does no work.
 
@@ -735,7 +735,7 @@ For a complete cycle, $$\Delta U = 0$$, so:
 Calculate net heat:
 
 <div class="equation">
- $$Q_{net} = 24.0 - 16.0 = 8.00 \text{ kJ}$$
+ $$Q_{net} = 24.0 \text{ kJ} - 16.0 \text{ kJ} = 8.00 \text{ kJ}$$
 </div>
 
 But the claim states $$W = 4.00 \text{ kJ}$$.
@@ -789,14 +789,14 @@ Given values:
 **(a)** Heat transfer to environment:
 
 <div class="equation">
- $$Q_{out} = Q_{in} - W = 5.00 - 4.00 = 1.00 \text{ MJ}$$
+ $$Q_{out} = Q_{in} - W = 5.00 \text{ MJ} - 4.00 \text{ MJ} = 1.00 \text{ MJ}$$
 </div>
 
 **(b)** Check the efficiency:
 
 Actual efficiency:
 <div class="equation">
- $$\eta_{actual} = \frac{W}{Q_{in}} = \frac{4.00}{5.00} = 0.800 = 80.0\%$$
+ $$\eta_{actual} = \frac{W}{Q_{in}} = \frac{4.00 \text{ MJ}}{5.00 \text{ MJ}} = 0.800 = 80.0\%$$
 </div>
 
 Maximum possible (Carnot) efficiency:
@@ -809,7 +809,7 @@ The actual efficiency (80.0%) exceeds the Carnot efficiency (41.5%), which is im
 **(c)** The unreasonable premise is most likely the work output of 4.00 MJ. Given 5.00 MJ input between these temperatures, the maximum possible work is:
 
 <div class="equation">
- $$W_{max} = \eta_{Carnot} \times Q_{in} = 0.415 \times 5.00 = 2.08 \text{ MJ}$$
+ $$W_{max} = \eta_{Carnot} \times Q_{in} = 0.415 \times 5.00 \text{ MJ} = 2.08 \text{ MJ}$$
 </div>
 
 The claimed 4.00 MJ exceeds this theoretical maximum.

@@ -531,7 +531,7 @@ Solving for the charge magnitude:
 </div>
 
 <div class="equation">
- $$q = \frac{(150)(4.06 \times 10^{13})}{8.99 \times 10^9} = \frac{6.09 \times 10^{15}}{8.99 \times 10^9}$$
+ $$q = \frac{(150 \text{ N/C})(4.06 \times 10^{13} \text{ m}^2)}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} = \frac{6.09 \times 10^{15} \text{ N·m}^2/\text{C}}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}$$
 </div>
 
 <div class="equation">
@@ -612,7 +612,7 @@ For part (a), the electric field is zero where the fields from the two charges c
 
 **Solution**
 
-**(a)** Let the distance from the $$25.0 \mu\text{C}$$ charge to the zero-field point be $$x$$. Then the distance from the $$45.0 \mu\text{C}$$ charge is $$(0.500 - x)$$.
+**(a)** Let the distance from the $$25.0 \mu\text{C}$$ charge to the zero-field point be $$x$$. Then the distance from the $$45.0 \mu\text{C}$$ charge is $$(0.500 \text{ m} - x)$$.
 
 At the zero-field point:
 
@@ -621,37 +621,37 @@ At the zero-field point:
 </div>
 
 <div class="equation">
- $$k\frac{q_1}{x^2} = k\frac{q_2}{(0.500 - x)^2}$$
+ $$k\frac{q_1}{x^2} = k\frac{q_2}{(0.500 \text{ m} - x)^2}$$
 </div>
 
 <div class="equation">
- $$\frac{25.0}{x^2} = \frac{45.0}{(0.500 - x)^2}$$
+ $$\frac{25.0 \mu\text{C}}{x^2} = \frac{45.0 \mu\text{C}}{(0.500 \text{ m} - x)^2}$$
 </div>
 
 Cross-multiplying:
 
 <div class="equation">
- $$25.0(0.500 - x)^2 = 45.0x^2$$
+ $$(25.0 \mu\text{C})(0.500 \text{ m} - x)^2 = (45.0 \mu\text{C})\, x^2$$
 </div>
 
 <div class="equation">
- $$(0.500 - x)^2 = 1.80x^2$$
+ $$(0.500 \text{ m} - x)^2 = 1.80x^2$$
 </div>
 
 Taking the square root:
 
 <div class="equation">
- $$0.500 - x = \pm\sqrt{1.80}\,x = \pm 1.342x$$
+ $$0.500 \text{ m} - x = \pm\sqrt{1.80}\,x = \pm 1.342x$$
 </div>
 
 Taking the positive root (the negative root gives a position outside the region):
 
 <div class="equation">
- $$0.500 - x = 1.342x$$
+ $$0.500 \text{ m} - x = 1.342x$$
 </div>
 
 <div class="equation">
- $$0.500 = 2.342x$$
+ $$0.500 \text{ m} = 2.342x$$
 </div>
 
 <div class="equation">
@@ -665,27 +665,27 @@ The zero-field point is **0.213 m from the 25.0 μC charge** (or 0.287 m from th
 Field from $$q_1 = 25.0 \mu\text{C}$$:
 
 <div class="equation">
- $$E_1 = k\frac{q_1}{r^2} = \frac{(8.99 \times 10^9)(25.0 \times 10^{-6})}{(0.250)^2}$$
+ $$E_1 = k\frac{q_1}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(25.0 \times 10^{-6} \text{ C})}{(0.250 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$E_1 = \frac{2.248 \times 10^5}{0.0625} = 3.60 \times 10^6 \text{ N/C}$$
+ $$E_1 = \frac{2.248 \times 10^5 \text{ N·m}^2/\text{C}}{0.0625 \text{ m}^2} = 3.60 \times 10^6 \text{ N/C}$$
 </div>
 
 Field from $$q_2 = 45.0 \mu\text{C}$$:
 
 <div class="equation">
- $$E_2 = k\frac{q_2}{r^2} = \frac{(8.99 \times 10^9)(45.0 \times 10^{-6})}{(0.250)^2}$$
+ $$E_2 = k\frac{q_2}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(45.0 \times 10^{-6} \text{ C})}{(0.250 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$E_2 = \frac{4.046 \times 10^5}{0.0625} = 6.47 \times 10^6 \text{ N/C}$$
+ $$E_2 = \frac{4.046 \times 10^5 \text{ N·m}^2/\text{C}}{0.0625 \text{ m}^2} = 6.47 \times 10^6 \text{ N/C}$$
 </div>
 
 Since both point toward the smaller charge (from right to left if $$q_1$$ is on the left):
 
 <div class="equation">
- $$E_{\text{net}} = E_2 - E_1 = 6.47 \times 10^6 - 3.60 \times 10^6 = 2.87 \times 10^6 \text{ N/C}$$
+ $$E_{\text{net}} = E_2 - E_1 = 6.47 \times 10^6 \text{ N/C} - 3.60 \times 10^6 \text{ N/C} = 2.87 \times 10^6 \text{ N/C}$$
 </div>
 
 Direction: **toward the 25.0 μC charge** (away from the larger charge)
@@ -821,26 +821,26 @@ Solving for $$\omega$$:
 Substituting values:
 
 <div class="equation">
- $$\omega = \sqrt{\frac{(8.99 \times 10^9)(1.60 \times 10^{-19})^2}{(9.11 \times 10^{-31})(0.530 \times 10^{-10})^3}}$$
+ $$\omega = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{(9.11 \times 10^{-31} \text{ kg})(0.530 \times 10^{-10} \text{ m})^3}}$$
 </div>
 
 <div class="equation">
- $$\omega = \sqrt{\frac{(8.99 \times 10^9)(2.56 \times 10^{-38})}{(9.11 \times 10^{-31})(1.49 \times 10^{-31})}}$$
+ $$\omega = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.56 \times 10^{-38} \text{ C}^2)}{(9.11 \times 10^{-31} \text{ kg})(1.49 \times 10^{-31} \text{ m}^3)}}$$
 </div>
 
 <div class="equation">
- $$\omega = \sqrt{\frac{2.30 \times 10^{-28}}{1.36 \times 10^{-61}}}$$
+ $$\omega = \sqrt{\frac{2.30 \times 10^{-28} \text{ N·m}^2}{1.36 \times 10^{-61} \text{ kg·m}^3}}$$
 </div>
 
 <div class="equation">
- $$\omega = \sqrt{1.69 \times 10^{33}} = 4.12 \times 10^{16} \text{ rad/s}$$
+ $$\omega = \sqrt{1.69 \times 10^{33} \text{ s}^{-2}} = 4.12 \times 10^{16} \text{ rad/s}$$
 </div>
 
 **Discussion**
 
-The angular velocity of the electron in the hydrogen atom is approximately $$4.12 \times 10^{16}$$ rad/s. This is an extraordinarily high angular velocity! To put it in perspective, the electron completes one orbit in time $$T = \frac{2\pi}{\omega} = \frac{2\pi}{4.12 \times 10^{16}} \approx 1.52 \times 10^{-16}$$ seconds, or about 0.152 femtoseconds.
+The angular velocity of the electron in the hydrogen atom is approximately $$4.12 \times 10^{16}$$ rad/s. This is an extraordinarily high angular velocity! To put it in perspective, the electron completes one orbit in time $$T = \frac{2\pi}{\omega} = \frac{2\pi}{4.12 \times 10^{16} \text{ rad/s}} \approx 1.52 \times 10^{-16} \text{ s}$$, or about 0.152 femtoseconds.
 
-The linear speed of the electron would be $$v = \omega r = (4.12 \times 10^{16})(0.530 \times 10^{-10}) \approx 2.18 \times 10^6$$ m/s, which is about 0.7% the speed of light. At this speed, relativistic corrections are small. Quantum mechanics is needed to explain atomic stability, discrete energy levels, and the electron probability distribution, independently of relativistic effects.
+The linear speed of the electron would be $$v = \omega r = (4.12 \times 10^{16} \text{ rad/s})(0.530 \times 10^{-10} \text{ m}) \approx 2.18 \times 10^6 \text{ m/s}$$, which is about 0.7% the speed of light. At this speed, relativistic corrections are small. Quantum mechanics is needed to explain atomic stability, discrete energy levels, and the electron probability distribution, independently of relativistic effects.
 
 This classical "Bohr model" calculation gives values in the right ballpark but is ultimately inadequate—the true description requires quantum mechanics, where the electron doesn't actually orbit in a well-defined path but exists in a probability cloud. Nevertheless, this calculation illustrates the connection between electrostatic and mechanical principles and shows why atomic processes occur on such short timescales.
 
@@ -886,11 +886,11 @@ Given values:
 </div>
 
 <div class="equation">
- $$a = \frac{eE}{m_e} = \frac{(1.60 \times 10^{-19})(2.00 \times 10^5)}{9.11 \times 10^{-31}}$$
+ $$a = \frac{eE}{m_e} = \frac{(1.60 \times 10^{-19} \text{ C})(2.00 \times 10^5 \text{ N/C})}{9.11 \times 10^{-31} \text{ kg}}$$
 </div>
 
 <div class="equation">
- $$a = \frac{3.20 \times 10^{-14}}{9.11 \times 10^{-31}} = 3.51 \times 10^{16} \text{ m/s}^2$$
+ $$a = \frac{3.20 \times 10^{-14} \text{ N}}{9.11 \times 10^{-31} \text{ kg}} = 3.51 \times 10^{16} \text{ m/s}^2$$
 </div>
 
 This acceleration is opposite to the velocity (deceleration). Using $$v^2 = v_0^2 - 2ad$$ where $$v = 0$$:
@@ -900,17 +900,17 @@ This acceleration is opposite to the velocity (deceleration). Using $$v^2 = v_0^
 </div>
 
 <div class="equation">
- $$d = \frac{v_0^2}{2a} = \frac{(5.00 \times 10^6)^2}{2(3.51 \times 10^{16})}$$
+ $$d = \frac{v_0^2}{2a} = \frac{(5.00 \times 10^6 \text{ m/s})^2}{2(3.51 \times 10^{16} \text{ m/s}^2)}$$
 </div>
 
 <div class="equation">
- $$d = \frac{2.50 \times 10^{13}}{7.02 \times 10^{16}} = 3.56 \times 10^{-4} \text{ m} = 0.356 \text{ mm}$$
+ $$d = \frac{2.50 \times 10^{13} \text{ m}^2/\text{s}^2}{7.02 \times 10^{16} \text{ m/s}^2} = 3.56 \times 10^{-4} \text{ m} = 0.356 \text{ mm}$$
 </div>
 
 **(c)** Using $$v = v_0 - at$$ where $$v = 0$$:
 
 <div class="equation">
- $$t = \frac{v_0}{a} = \frac{5.00 \times 10^6}{3.51 \times 10^{16}}$$
+ $$t = \frac{v_0}{a} = \frac{5.00 \times 10^6 \text{ m/s}}{3.51 \times 10^{16} \text{ m/s}^2}$$
 </div>
 
 <div class="equation">
@@ -964,28 +964,28 @@ This problem combines electrostatics with kinematics. The electric field acceler
 
 Given values:
 - Electric field: $$E = 3.00 \times 10^6 \text{ N/C}$$
-- Target velocity: $$v = 0.0300c = 0.0300(3.00 \times 10^8) = 9.00 \times 10^6 \text{ m/s}$$
+- Target velocity: $$v = 0.0300c = 0.0300(3.00 \times 10^8 \text{ m/s}) = 9.00 \times 10^6 \text{ m/s}$$
 - Proton mass: $$m_p = 1.67 \times 10^{-27} \text{ kg}$$
 - Proton charge: $$e = 1.60 \times 10^{-19} \text{ C}$$
 
 **(a)** The acceleration of the proton:
 
 <div class="equation">
- $$a = \frac{eE}{m_p} = \frac{(1.60 \times 10^{-19})(3.00 \times 10^6)}{1.67 \times 10^{-27}}$$
+ $$a = \frac{eE}{m_p} = \frac{(1.60 \times 10^{-19} \text{ C})(3.00 \times 10^6 \text{ N/C})}{1.67 \times 10^{-27} \text{ kg}}$$
 </div>
 
 <div class="equation">
- $$a = \frac{4.80 \times 10^{-13}}{1.67 \times 10^{-27}} = 2.87 \times 10^{14} \text{ m/s}^2$$
+ $$a = \frac{4.80 \times 10^{-13} \text{ N}}{1.67 \times 10^{-27} \text{ kg}} = 2.87 \times 10^{14} \text{ m/s}^2$$
 </div>
 
 Using $$v^2 = 2ad$$:
 
 <div class="equation">
- $$d = \frac{v^2}{2a} = \frac{(9.00 \times 10^6)^2}{2(2.87 \times 10^{14})}$$
+ $$d = \frac{v^2}{2a} = \frac{(9.00 \times 10^6 \text{ m/s})^2}{2(2.87 \times 10^{14} \text{ m/s}^2)}$$
 </div>
 
 <div class="equation">
- $$d = \frac{8.10 \times 10^{13}}{5.74 \times 10^{14}} = 0.141 \text{ m} = 14.1 \text{ cm}$$
+ $$d = \frac{8.10 \times 10^{13} \text{ m}^2/\text{s}^2}{5.74 \times 10^{14} \text{ m/s}^2} = 0.141 \text{ m} = 14.1 \text{ cm}$$
 </div>
 
 **(b)** This is **not practical in air**. The distance of 14.1 cm is substantial, and maintaining such a high electric field (at the breakdown limit) over this distance in air would cause ionization and sparking. The field would be reduced as the air becomes conducting. This acceleration **must occur in a vacuum** where there are no air molecules to ionize. Particle accelerators that achieve such energies use evacuated tubes to avoid this problem.
@@ -996,7 +996,7 @@ Part (a): A proton needs to travel only 14.1 cm in a field of $$3.00 \times 10^6
 
 Part (b): However, this cannot be done in air. At $$3.00 \times 10^6$$ N/C, air is at its breakdown threshold—any sparking would create conducting paths that would short out the field. Real particle accelerators solve this by operating in vacuum chambers. Additionally, even in vacuum, generating and maintaining such a strong uniform field over 14 cm requires sophisticated electrode design.
 
-The time required for this acceleration would be $$t = \frac{v}{a} = \frac{9.00 \times 10^6}{2.87 \times 10^{14}} \approx 31.4$$ nanoseconds, which is very brief. This problem illustrates the practical challenges of particle acceleration and why modern accelerators require both high vacuum and careful engineering to achieve high energies.
+The time required for this acceleration would be $$t = \frac{v}{a} = \frac{9.00 \times 10^6 \text{ m/s}}{2.87 \times 10^{14} \text{ m/s}^2} \approx 31.4 \text{ ns}$$, which is very brief. This problem illustrates the practical challenges of particle acceleration and why modern accelerators require both high vacuum and careful engineering to achieve high energies.
 
 ::::
 
@@ -1060,22 +1060,22 @@ Solving for $$E$$:
 Substituting values:
 
 <div class="equation">
- $$E = \frac{(5.00 \times 10^{-3})(9.80)\tan(8.00°)}{1.00 \times 10^{-6}}$$
+ $$E = \frac{(5.00 \times 10^{-3} \text{ kg})(9.80 \text{ m/s}^2)\tan(8.00°)}{1.00 \times 10^{-6} \text{ C}}$$
 </div>
 
 <div class="equation">
- $$E = \frac{(4.90 \times 10^{-2})(0.1405)}{1.00 \times 10^{-6}}$$
+ $$E = \frac{(4.90 \times 10^{-2} \text{ N})(0.1405)}{1.00 \times 10^{-6} \text{ C}}$$
 </div>
 
 <div class="equation">
- $$E = \frac{6.88 \times 10^{-3}}{1.00 \times 10^{-6}} = 6.88 \times 10^{3} \text{ N/C} = 6.88 \text{ kN/C}$$
+ $$E = \frac{6.88 \times 10^{-3} \text{ N}}{1.00 \times 10^{-6} \text{ C}} = 6.88 \times 10^{3} \text{ N/C} = 6.88 \text{ kN/C}$$
 </div>
 
 **Discussion**
 
 The electric field strength is $$6.88 \times 10^3$$ N/C or 6.88 kN/C. This is a moderate field strength—much weaker than the breakdown field in air ($$3 \times 10^6$$ N/C) but much stronger than Earth's atmospheric field (150 N/C).
 
-The relatively small deflection angle of 8.00° tells us the electric force is much smaller than the gravitational force. This makes sense: $$F_e = qE = (1.00 \times 10^{-6})(6.88 \times 10^3) = 6.88 \times 10^{-3}$$ N, while $$F_g = mg = 4.90 \times 10^{-2}$$ N. The electric force is about 14% of the weight, producing a tan(8°) ≈ 0.14 ratio.
+The relatively small deflection angle of 8.00° tells us the electric force is much smaller than the gravitational force. This makes sense: $$F_e = qE = (1.00 \times 10^{-6} \text{ C})(6.88 \times 10^3 \text{ N/C}) = 6.88 \times 10^{-3} \text{ N}$$, while $$F_g = mg = 4.90 \times 10^{-2} \text{ N}$$. The electric force is about 14% of the weight, producing a tan(8°) ≈ 0.14 ratio.
 
 This problem demonstrates equilibrium under multiple forces and shows how even modest electric fields can produce observable effects on charged objects. The setup is similar to Millikan's oil drop experiment, though that used vertical rather than horizontal fields. Such configurations are used to measure charges and fields in laboratory settings.
 
@@ -1121,27 +1121,27 @@ Given values:
 **Step 1:** Find the vertical acceleration.
 
 <div class="equation">
- $$a_y = \frac{eE}{m_e} = \frac{(1.60 \times 10^{-19})(100)}{9.11 \times 10^{-31}}$$
+ $$a_y = \frac{eE}{m_e} = \frac{(1.60 \times 10^{-19} \text{ C})(100 \text{ N/C})}{9.11 \times 10^{-31} \text{ kg}}$$
 </div>
 
 <div class="equation">
- $$a_y = \frac{1.60 \times 10^{-17}}{9.11 \times 10^{-31}} = 1.76 \times 10^{13} \text{ m/s}^2$$
+ $$a_y = \frac{1.60 \times 10^{-17} \text{ N}}{9.11 \times 10^{-31} \text{ kg}} = 1.76 \times 10^{13} \text{ m/s}^2$$
 </div>
 
 **Step 2:** Find the time in the field.
 
 <div class="equation">
- $$t = \frac{x}{v_x} = \frac{0.0400}{3.00 \times 10^6} = 1.33 \times 10^{-8} \text{ s}$$
+ $$t = \frac{x}{v_x} = \frac{0.0400 \text{ m}}{3.00 \times 10^6 \text{ m/s}} = 1.33 \times 10^{-8} \text{ s}$$
 </div>
 
 **(a)** Find the vertical deflection using $$y = \frac{1}{2}a_y t^2$$:
 
 <div class="equation">
- $$y = \frac{1}{2}(1.76 \times 10^{13})(1.33 \times 10^{-8})^2$$
+ $$y = \frac{1}{2}(1.76 \times 10^{13} \text{ m/s}^2)(1.33 \times 10^{-8} \text{ s})^2$$
 </div>
 
 <div class="equation">
- $$y = \frac{1}{2}(1.76 \times 10^{13})(1.78 \times 10^{-16})$$
+ $$y = \frac{1}{2}(1.76 \times 10^{13} \text{ m/s}^2)(1.78 \times 10^{-16} \text{ s}^2)$$
 </div>
 
 <div class="equation">
@@ -1151,7 +1151,7 @@ Given values:
 **(b)** Find the vertical velocity component using $$v_y = a_y t$$:
 
 <div class="equation">
- $$v_y = (1.76 \times 10^{13})(1.33 \times 10^{-8})$$
+ $$v_y = (1.76 \times 10^{13} \text{ m/s}^2)(1.33 \times 10^{-8} \text{ s})$$
 </div>
 
 <div class="equation">
@@ -1161,7 +1161,7 @@ Given values:
 **(c)** Find the exit angle:
 
 <div class="equation">
- $$\tan\theta = \frac{v_y}{v_x} = \frac{2.34 \times 10^5}{3.00 \times 10^6} = 0.0780$$
+ $$\tan\theta = \frac{v_y}{v_x} = \frac{2.34 \times 10^5 \text{ m/s}}{3.00 \times 10^6 \text{ m/s}} = 0.0780$$
 </div>
 
 <div class="equation">
@@ -1218,23 +1218,23 @@ Given values:
 **(a)** Find the volume of the spherical drop:
 
 <div class="equation">
- $$V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6})^3$$
+ $$V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6} \text{ m})^3$$
 </div>
 
 <div class="equation">
- $$V = \frac{4}{3}\pi(1.00 \times 10^{-18}) = 4.19 \times 10^{-18} \text{ m}^3$$
+ $$V = \frac{4}{3}\pi(1.00 \times 10^{-18} \text{ m}^3) = 4.19 \times 10^{-18} \text{ m}^3$$
 </div>
 
 Find the mass:
 
 <div class="equation">
- $$m = \rho V = (920)(4.19 \times 10^{-18}) = 3.85 \times 10^{-15} \text{ kg}$$
+ $$m = \rho V = (920 \text{ kg/m}^3)(4.19 \times 10^{-18} \text{ m}^3) = 3.85 \times 10^{-15} \text{ kg}$$
 </div>
 
 Find the weight:
 
 <div class="equation">
- $$w = mg = (3.85 \times 10^{-15})(9.80) = 3.77 \times 10^{-14} \text{ N}$$
+ $$w = mg = (3.85 \times 10^{-15} \text{ kg})(9.80 \text{ m/s}^2) = 3.77 \times 10^{-14} \text{ N}$$
 </div>
 
 **(b)** For the drop to be suspended, the upward electric force must equal the downward weight:
@@ -1250,7 +1250,7 @@ Find the weight:
 Solving for $$E$$:
 
 <div class="equation">
- $$E = \frac{mg}{e} = \frac{3.77 \times 10^{-14}}{1.60 \times 10^{-19}}$$
+ $$E = \frac{mg}{e} = \frac{3.77 \times 10^{-14} \text{ N}}{1.60 \times 10^{-19} \text{ C}}$$
 </div>
 
 <div class="equation">
@@ -1345,7 +1345,7 @@ The electric field at the surface:
 </div>
 
 <div class="equation">
- $$E = \frac{8.99 \times 10^9}{2.50 \times 10^{-3}} = 3.60 \times 10^{12} \text{ N/C}$$
+ $$E = \frac{8.99 \times 10^9 \text{ N·m}^2/\text{C}}{2.50 \times 10^{-3} \text{ m}^2} = 3.60 \times 10^{12} \text{ N/C}$$
 </div>
 
 **(b)** This result is unreasonable because:
@@ -1404,11 +1404,11 @@ We calculate the electrostatic force using Coulomb's law, then find the accelera
 The electrostatic force:
 
 <div class="equation">
- $$F = k\frac{q_1 q_2}{r^2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-3})^2}{(1.00 \times 10^{-2})^2}$$
+ $$F = k\frac{q_1 q_2}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-3} \text{ C})^2}{(1.00 \times 10^{-2} \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F = \frac{(8.99 \times 10^9)(1.00 \times 10^{-6})}{1.00 \times 10^{-4}} = 8.99 \times 10^7 \text{ N}$$
+ $$F = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-6} \text{ C}^2)}{1.00 \times 10^{-4} \text{ m}^2} = 8.99 \times 10^7 \text{ N}$$
 </div>
 
 The acceleration:
@@ -1487,17 +1487,17 @@ The required charge:
 </div>
 
 <div class="equation">
- $$q = \sqrt{\frac{9800}{8.99 \times 10^9}} = \sqrt{1.09 \times 10^{-6}} = 1.04 \times 10^{-3} \text{ C} = 1.04 \text{ mC}$$
+ $$q = \sqrt{\frac{9800 \text{ N·m}^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}} = \sqrt{1.09 \times 10^{-6} \text{ C}^2} = 1.04 \times 10^{-3} \text{ C} = 1.04 \text{ mC}$$
 </div>
 
 **(b)** The ball's radius is $$R = 0.200 \text{ m}$$. The electric field at its surface:
 
 <div class="equation">
- $$E = k\frac{q}{R^2} = \frac{(8.99 \times 10^9)(1.04 \times 10^{-3})}{(0.200)^2}$$
+ $$E = k\frac{q}{R^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.04 \times 10^{-3} \text{ C})}{(0.200 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$E = \frac{9.35 \times 10^6}{0.0400} = 2.34 \times 10^8 \text{ N/C}$$
+ $$E = \frac{9.35 \times 10^6 \text{ N·m}^2/\text{C}}{0.0400 \text{ m}^2} = 2.34 \times 10^8 \text{ N/C}$$
 </div>
 
 **(c)** These results are unreasonable because:
@@ -1639,9 +1639,9 @@ For balance: $$F_e = F_g$$, so:
 2. **Mass Dependence**: The charge needed is directly proportional to mass
 
 3. **The Ratio $$\sqrt{G/k}$$**: Calculate this fundamental constant:
-   $$\sqrt{\frac{6.67 \times 10^{-11}}{8.99 \times 10^9}} \approx 8.61 \times 10^{-11}$$ C/kg
+   $$\sqrt{\frac{6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}} \approx 8.61 \times 10^{-11} \text{ C/kg}$$
 
-4. **For your chosen mass**: $$q = (10,000)(8.61 \times 10^{-11}) \approx 8.61 \times 10^{-7}$$ C = 0.861 μC
+4. **For your chosen mass**: $$q = (10,000 \text{ kg})(8.61 \times 10^{-11} \text{ C/kg}) \approx 8.61 \times 10^{-7} \text{ C}$$ = 0.861 μC
 
 **Practical Considerations:**
 

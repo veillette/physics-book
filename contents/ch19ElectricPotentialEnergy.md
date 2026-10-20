@@ -940,7 +940,7 @@ $$Q_a = m_a c_a \Delta T = (0.200 \text{ kg})(900 \text{ J/(kg·°C)})(70.0°\te
 
 Total thermal energy:
 
-$$Q_{\text{total}} = Q_g + Q_f + Q_a = 2940 + 73,255 + 12,600 = 88,795 \text{ J}$$
+$$Q_{\text{total}} = Q_g + Q_f + Q_a = 2940 \text{ J} + 73,255 \text{ J} + 12,600 \text{ J} = 88,795 \text{ J}$$
 
 Using the energy-voltage relationship $$E = qV$$:
 
@@ -1026,7 +1026,7 @@ $$E_3 = Fd = (500 \text{ N})(90,000 \text{ m}) = 45,000,000 \text{ J}$$
 
 **Total energy:**
 
-$$E_{\text{total}} = E_1 + E_2 + E_3 = 234,375 + 1,470,000 + 45,000,000$$
+$$E_{\text{total}} = E_1 + E_2 + E_3 = 234,375 \text{ J} + 1,470,000 \text{ J} + 45,000,000 \text{ J}$$
 
 $$E_{\text{total}} = 46,704,375 \text{ J} \approx 4.67 \times 10^{7} \text{ J}$$
 
@@ -1080,7 +1080,7 @@ First, find the electric potential at distance $$r$$ from one nucleus:
 
 $$V = \frac{kq}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})}{1.00 \times 10^{-12} \text{ m}}$$
 
-$$V = \frac{1.44 \times 10^{-9} \text{ J/C}}{1.00 \times 10^{-12}} = 1.44 \times 10^{3} \text{ V} = 1.44 \text{ kV}$$
+$$V = \frac{1.44 \times 10^{-9} \text{ V·m}}{1.00 \times 10^{-12} \text{ m}} = 1.44 \times 10^{3} \text{ V} = 1.44 \text{ kV}$$
 
 The potential energy is the voltage times the charge of the second nucleus:
 
@@ -1090,7 +1090,7 @@ $$\text{PE} = 2.30 \times 10^{-16} \text{ J}$$
 
 This can also be written as:
 
-$$\text{PE} = \frac{kq^{2}}{r} = \frac{(8.99 \times 10^{9})(1.60 \times 10^{-19})^2}{1.00 \times 10^{-12}} = 2.30 \times 10^{-16} \text{ J}$$
+$$\text{PE} = \frac{kq^{2}}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{1.00 \times 10^{-12} \text{ m}} = 2.30 \times 10^{-16} \text{ J}$$
 
 Or in electron volts: $$\text{PE} = 1.44 \text{ keV}$$
 
@@ -1157,7 +1157,7 @@ This voltage of 1.44 trillion volts (1.44 TV) is absurdly high and physically im
 
 2. **Comparison to real systems:** The highest voltages achieved in laboratory settings are around 10–25 MV (megavolts), using specialized Van de Graaff generators. This calculated voltage is about 100,000 times higher.
 
-3. **Energy considerations:** The energy stored would be $$E = \frac{1}{2}QV = 5.8 \times 10^{12}$$ J, equivalent to about 1.4 kilotons of TNT—a small nuclear weapon.
+3. **Energy considerations:** The energy stored would be $$E = \frac{1}{2}QV = 5.8 \times 10^{12} \text{ J}$$, equivalent to about 1.4 kilotons of TNT—a small nuclear weapon.
 
 **(c) Which assumptions are responsible:**
 
@@ -1169,7 +1169,7 @@ The unreasonable assumption is the charge value of 8.00 C. One coulomb is an eno
 
 The maximum charge that can be placed on a sphere is limited by the breakdown field of the surrounding medium. For a 10 cm diameter sphere in air:
 
-$$Q_{\text{max}} = \frac{E_{\text{breakdown}} \cdot r^2}{k} = \frac{(3 \times 10^6)(0.05)^2}{8.99 \times 10^9} \approx 8 \times 10^{-7} \text{ C}$$
+$$Q_{\text{max}} = \frac{E_{\text{breakdown}} \cdot r^2}{k} = \frac{(3 \times 10^6 \text{ V/m})(0.05 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} \approx 8 \times 10^{-7} \text{ C}$$
 
 This is about 10 million times less than the assumed 8.00 C.
 
@@ -1232,11 +1232,11 @@ Key relationships to use:
 For the example problem above:
 
 (a) Energy: Convert 3000 mAh to coulombs:
-$$q = 3000 \text{ mAh} = 3.0 \text{ Ah} = 3.0 \times 3600 \text{ C} = 10,800 \text{ C}$$
+$$q = 3000 \text{ mAh} = 3.0 \text{ Ah} = (3.0 \text{ Ah})(3600 \text{ C/Ah}) = 10,800 \text{ C}$$
 
 $$E = qV = (10,800 \text{ C})(3.7 \text{ V}) = 39,960 \text{ J} \approx 40 \text{ kJ}$$
 
-Alternatively: $$E = (3.7 \text{ V})(3.0 \text{ Ah}) = 11.1 \text{ Wh} = 11.1 \times 3600 \text{ J} = 40 \text{ kJ}$$
+Alternatively: $$E = (3.7 \text{ V})(3.0 \text{ Ah}) = 11.1 \text{ Wh} = (11.1 \text{ Wh})(3600 \text{ J/Wh}) = 40 \text{ kJ}$$
 
 (b) Charge: 10,800 C (as calculated above)
 

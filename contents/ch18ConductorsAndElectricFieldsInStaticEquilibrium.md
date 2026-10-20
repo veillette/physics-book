@@ -592,36 +592,36 @@ Given:
 
 **Force from charge at** $$x = 3.00$$ **cm:**
 
-Distance: $$r_1 = 8.00 - 3.00 = 5.00 \text{ cm} = 0.0500 \text{ m}$$
+Distance: $$r_1 = 8.00 \text{ cm} - 3.00 \text{ cm} = 5.00 \text{ cm} = 0.0500 \text{ m}$$
 
 <div class="equation">
  $$F_1 = k\frac{|q||2q|}{r_1^2} = k\frac{2q^2}{r_1^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = \frac{(8.99 \times 10^9)(2)(1.00 \times 10^{-6})^2}{(0.0500)^2}$$
+ $$F_1 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2)(1.00 \times 10^{-6} \text{ C})^2}{(0.0500 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = \frac{(8.99 \times 10^9)(2.00 \times 10^{-12})}{2.50 \times 10^{-3}} = \frac{17.98 \times 10^{-3}}{2.50 \times 10^{-3}} = 7.19 \text{ N}$$
+ $$F_1 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-12} \text{ C}^2)}{2.50 \times 10^{-3} \text{ m}^2} = \frac{17.98 \times 10^{-3} \text{ N·m}^2}{2.50 \times 10^{-3} \text{ m}^2} = 7.19 \text{ N}$$
 </div>
 
 Direction: Since the charges have opposite signs ($$+q$$ and $$-2q$$), the force is attractive, pulling the $$-2q$$ charge toward $$x = 3.00$$ cm. This is in the **negative x-direction** (to the left).
 
 **Force from charge at** $$x = 11.0$$ **cm:**
 
-Distance: $$r_2 = 11.0 - 8.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_2 = 11.0 \text{ cm} - 8.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
  $$F_2 = k\frac{|q||2q|}{r_2^2} = k\frac{2q^2}{r_2^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = \frac{(8.99 \times 10^9)(2)(1.00 \times 10^{-6})^2}{(0.0300)^2}$$
+ $$F_2 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2)(1.00 \times 10^{-6} \text{ C})^2}{(0.0300 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = \frac{(8.99 \times 10^9)(2.00 \times 10^{-12})}{9.00 \times 10^{-4}} = \frac{17.98 \times 10^{-3}}{9.00 \times 10^{-4}} = 20.0 \text{ N}$$
+ $$F_2 = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-12} \text{ C}^2)}{9.00 \times 10^{-4} \text{ m}^2} = \frac{17.98 \times 10^{-3} \text{ N·m}^2}{9.00 \times 10^{-4} \text{ m}^2} = 20.0 \text{ N}$$
 </div>
 
 Direction: Since the charges have opposite signs ($$+q$$ and $$-2q$$), the force is attractive, pulling the $$-2q$$ charge toward $$x = 11.0$$ cm. This is in the **positive x-direction** (to the right).
@@ -631,7 +631,7 @@ Direction: Since the charges have opposite signs ($$+q$$ and $$-2q$$), the force
 Taking rightward (positive x-direction) as positive:
 
 <div class="equation">
- $$F_{\text{net}} = F_2 - F_1 = 20.0 - 7.19 = 12.8 \text{ N}$$
+ $$F_{\text{net}} = F_2 - F_1 = 20.0 \text{ N} - 7.19 \text{ N} = 12.8 \text{ N}$$
 </div>
 
 The net force on the charge at $$x = 8.00$$ cm is **12.8 N in the positive x-direction** (to the right).
@@ -686,33 +686,33 @@ The negative infinity indicates the field diverges in the negative direction at 
 Calculate the field contribution from each charge. Taking rightward (positive x-direction) as positive:
 
 **From** $$-2q$$ **at** $$x = 1.00$$ **cm:**
-Distance: $$r_1 = 11.00 - 1.00 = 10.00 \text{ cm} = 0.1000 \text{ m}$$
+Distance: $$r_1 = 11.00 \text{ cm} - 1.00 \text{ cm} = 10.00 \text{ cm} = 0.1000 \text{ m}$$
 
 <div class="equation">
- $$E_1 = -k\frac{2q}{r_1^2} = -\frac{(8.99 \times 10^9)(2)(5.00 \times 10^{-9})}{(0.1000)^2} = -\frac{8.99 \times 10}{0.01} = -8.99 \times 10^3 \text{ N/C}$$
+ $$E_1 = -k\frac{2q}{r_1^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2)(5.00 \times 10^{-9} \text{ C})}{(0.1000 \text{ m})^2} = -\frac{8.99 \times 10 \text{ N·m}^2/\text{C}}{0.01 \text{ m}^2} = -8.99 \times 10^3 \text{ N/C}$$
 </div>
 
 (Negative because the field points toward the negative charge, i.e., leftward)
 
 **From** $$+q$$ **at** $$x = 5.00$$ **cm:**
-Distance: $$r_2 = 11.00 - 5.00 = 6.00 \text{ cm} = 0.0600 \text{ m}$$
+Distance: $$r_2 = 11.00 \text{ cm} - 5.00 \text{ cm} = 6.00 \text{ cm} = 0.0600 \text{ m}$$
 
 <div class="equation">
- $$E_2 = +k\frac{q}{r_2^2} = +\frac{(8.99 \times 10^9)(5.00 \times 10^{-9})}{(0.0600)^2} = +\frac{44.95}{0.0036} = +1.25 \times 10^4 \text{ N/C}$$
+ $$E_2 = +k\frac{q}{r_2^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-9} \text{ C})}{(0.0600 \text{ m})^2} = +\frac{44.95 \text{ N·m}^2/\text{C}}{0.0036 \text{ m}^2} = +1.25 \times 10^4 \text{ N/C}$$
 </div>
 
 **From** $$+3q$$ **at** $$x = 8.00$$ **cm:**
-Distance: $$r_3 = 11.00 - 8.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_3 = 11.00 \text{ cm} - 8.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
- $$E_3 = +k\frac{3q}{r_3^2} = +\frac{(8.99 \times 10^9)(3)(5.00 \times 10^{-9})}{(0.0300)^2} = +\frac{134.85}{0.0009} = +1.50 \times 10^5 \text{ N/C}$$
+ $$E_3 = +k\frac{3q}{r_3^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(3)(5.00 \times 10^{-9} \text{ C})}{(0.0300 \text{ m})^2} = +\frac{134.85 \text{ N·m}^2/\text{C}}{0.0009 \text{ m}^2} = +1.50 \times 10^5 \text{ N/C}$$
 </div>
 
 **From** $$-q$$ **at** $$x = 14.0$$ **cm:**
-Distance: $$r_4 = 14.0 - 11.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_4 = 14.0 \text{ cm} - 11.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
- $$E_4 = +k\frac{q}{r_4^2} = +\frac{(8.99 \times 10^9)(5.00 \times 10^{-9})}{(0.0300)^2} = +\frac{44.95}{0.0009} = +5.00 \times 10^4 \text{ N/C}$$
+ $$E_4 = +k\frac{q}{r_4^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-9} \text{ C})}{(0.0300 \text{ m})^2} = +\frac{44.95 \text{ N·m}^2/\text{C}}{0.0009 \text{ m}^2} = +5.00 \times 10^4 \text{ N/C}$$
 </div>
 
 (Positive because the field points toward the negative charge, i.e., rightward)
@@ -724,11 +724,11 @@ Distance: $$r_4 = 14.0 - 11.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 </div>
 
 <div class="equation">
- $$E_{\text{total}} = -8.99 \times 10^3 + 1.25 \times 10^4 + 1.50 \times 10^5 + 5.00 \times 10^4$$
+ $$E_{\text{total}} = -8.99 \times 10^3 \text{ N/C} + 1.25 \times 10^4 \text{ N/C} + 1.50 \times 10^5 \text{ N/C} + 5.00 \times 10^4 \text{ N/C}$$
 </div>
 
 <div class="equation">
- $$E_{\text{total}} = -0.90 \times 10^4 + 1.25 \times 10^4 + 15.0 \times 10^4 + 5.00 \times 10^4 = 20.4 \times 10^4 \text{ N/C}$$
+ $$E_{\text{total}} = -0.90 \times 10^4 \text{ N/C} + 1.25 \times 10^4 \text{ N/C} + 15.0 \times 10^4 \text{ N/C} + 5.00 \times 10^4 \text{ N/C} = 20.4 \times 10^4 \text{ N/C}$$
 </div>
 
 <div class="equation">
@@ -776,7 +776,7 @@ Take rightward as positive. In Figure 15(a), the charges are $$+q$$ at 3.00 cm, 
 
 **(a)** At 5.00 cm,
 
-$$E=kq\left[\frac1{(0.0200)^2}+\frac2{(0.0300)^2}-\frac1{(0.0600)^2}\right]=4.00\times10^7\ \text{N/C},$$
+$$E=kq\left[\frac1{(0.0200\ \text{m})^2}+\frac2{(0.0300\ \text{m})^2}-\frac1{(0.0600\ \text{m})^2}\right]=4.00\times10^7\ \text{N/C},$$
 
 directed rightward.
 
@@ -826,53 +826,53 @@ Test charge: $$q_{\text{test}} = 2.00 \text{ nC} = 2.00 \times 10^{-9} \text{ C}
 Taking rightward (positive x-direction) as positive:
 
 **From** $$-2q$$ **at** $$x = 1.00$$ **cm:**
-Distance: $$r_1 = 4.00 - 1.00 = 3.00 \text{ cm} = 0.0300 \text{ m}$$
+Distance: $$r_1 = 4.00 \text{ cm} - 1.00 \text{ cm} = 3.00 \text{ cm} = 0.0300 \text{ m}$$
 
 <div class="equation">
- $$F_1 = -k\frac{(2 \times 10^{-6})(2.00 \times 10^{-9})}{(0.0300)^2} = -\frac{(8.99 \times 10^9)(4.00 \times 10^{-15})}{9.00 \times 10^{-4}}$$
+ $$F_1 = -k\frac{(2 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.0300 \text{ m})^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(4.00 \times 10^{-15} \text{ C}^2)}{9.00 \times 10^{-4} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = -\frac{35.96 \times 10^{-6}}{9.00 \times 10^{-4}} = -0.0400 \text{ N}$$
+ $$F_1 = -\frac{35.96 \times 10^{-6} \text{ N·m}^2}{9.00 \times 10^{-4} \text{ m}^2} = -0.0400 \text{ N}$$
 </div>
 
 (Negative: attractive force pulls leftward)
 
 **From** $$+q$$ **at** $$x = 5.00$$ **cm:**
-Distance: $$r_2 = 5.00 - 4.00 = 1.00 \text{ cm} = 0.0100 \text{ m}$$
+Distance: $$r_2 = 5.00 \text{ cm} - 4.00 \text{ cm} = 1.00 \text{ cm} = 0.0100 \text{ m}$$
 
 <div class="equation">
- $$F_2 = -k\frac{(1.00 \times 10^{-6})(2.00 \times 10^{-9})}{(0.0100)^2} = -\frac{(8.99 \times 10^9)(2.00 \times 10^{-15})}{1.00 \times 10^{-4}}$$
+ $$F_2 = -k\frac{(1.00 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.0100 \text{ m})^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-15} \text{ C}^2)}{1.00 \times 10^{-4} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = -\frac{17.98 \times 10^{-6}}{1.00 \times 10^{-4}} = -0.1798 \text{ N}$$
+ $$F_2 = -\frac{17.98 \times 10^{-6} \text{ N·m}^2}{1.00 \times 10^{-4} \text{ m}^2} = -0.1798 \text{ N}$$
 </div>
 
 (Negative: the $$+q$$ charge is to the right, so its repulsive force pushes leftward)
 
 **From** $$+3q$$ **at** $$x = 8.00$$ **cm:**
-Distance: $$r_3 = 8.00 - 4.00 = 4.00 \text{ cm} = 0.0400 \text{ m}$$
+Distance: $$r_3 = 8.00 \text{ cm} - 4.00 \text{ cm} = 4.00 \text{ cm} = 0.0400 \text{ m}$$
 
 <div class="equation">
- $$F_3 = -k\frac{(3.00 \times 10^{-6})(2.00 \times 10^{-9})}{(0.0400)^2} = -\frac{(8.99 \times 10^9)(6.00 \times 10^{-15})}{1.60 \times 10^{-3}}$$
+ $$F_3 = -k\frac{(3.00 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.0400 \text{ m})^2} = -\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(6.00 \times 10^{-15} \text{ C}^2)}{1.60 \times 10^{-3} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_3 = -\frac{53.94 \times 10^{-6}}{1.60 \times 10^{-3}} = -0.0337 \text{ N}$$
+ $$F_3 = -\frac{53.94 \times 10^{-6} \text{ N·m}^2}{1.60 \times 10^{-3} \text{ m}^2} = -0.0337 \text{ N}$$
 </div>
 
 (Negative: the $$+3q$$ charge is to the right, so its repulsive force pushes leftward)
 
 **From** $$-q$$ **at** $$x = 14.0$$ **cm:**
-Distance: $$r_4 = 14.0 - 4.00 = 10.0 \text{ cm} = 0.100 \text{ m}$$
+Distance: $$r_4 = 14.0 \text{ cm} - 4.00 \text{ cm} = 10.0 \text{ cm} = 0.100 \text{ m}$$
 
 <div class="equation">
- $$F_4 = +k\frac{(1.00 \times 10^{-6})(2.00 \times 10^{-9})}{(0.100)^2} = +\frac{(8.99 \times 10^9)(2.00 \times 10^{-15})}{1.00 \times 10^{-2}}$$
+ $$F_4 = +k\frac{(1.00 \times 10^{-6} \text{ C})(2.00 \times 10^{-9} \text{ C})}{(0.100 \text{ m})^2} = +\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-15} \text{ C}^2)}{1.00 \times 10^{-2} \text{ m}^2}$$
 </div>
 
 <div class="equation">
- $$F_4 = +\frac{17.98 \times 10^{-6}}{1.00 \times 10^{-2}} = +0.001798 \text{ N}$$
+ $$F_4 = +\frac{17.98 \times 10^{-6} \text{ N·m}^2}{1.00 \times 10^{-2} \text{ m}^2} = +0.001798 \text{ N}$$
 </div>
 
 (Positive: attractive force pulls rightward)
@@ -884,7 +884,7 @@ Distance: $$r_4 = 14.0 - 4.00 = 10.0 \text{ cm} = 0.100 \text{ m}$$
 </div>
 
 <div class="equation">
- $$F_{\text{total}} = -0.0400 - 0.1798 - 0.0337 + 0.0018 = -0.252 \text{ N}$$
+ $$F_{\text{total}} = -0.0400 \text{ N} - 0.1798 \text{ N} - 0.0337 \text{ N} + 0.0018 \text{ N} = -0.252 \text{ N}$$
 </div>
 
 The total force is **0.252 N to the left** (in the negative x-direction).
@@ -896,18 +896,18 @@ The electric field will be zero where contributions from all charges cancel. Thi
 Let $$x$$ be the position where $$E = 0$$. Taking rightward as positive:
 
 <div class="equation">
- $$-k\frac{2q}{(x-1.00)^2} + k\frac{q}{(x-5.00)^2} - k\frac{3q}{(8.00-x)^2} + k\frac{q}{(14.0-x)^2} = 0$$
+ $$-k\frac{2q}{(x-1.00 \text{ cm})^2} + k\frac{q}{(x-5.00 \text{ cm})^2} - k\frac{3q}{(8.00 \text{ cm}-x)^2} + k\frac{q}{(14.0 \text{ cm}-x)^2} = 0$$
 </div>
 
 <div class="equation">
- $$-\frac{2}{(x-1.00)^2} + \frac{1}{(x-5.00)^2} - \frac{3}{(8.00-x)^2} + \frac{1}{(14.0-x)^2} = 0$$
+ $$-\frac{2}{(x-1.00 \text{ cm})^2} + \frac{1}{(x-5.00 \text{ cm})^2} - \frac{3}{(8.00 \text{ cm}-x)^2} + \frac{1}{(14.0 \text{ cm}-x)^2} = 0$$
 </div>
 
 This transcendental equation requires numerical solution. Testing $$x = 6.07$$ cm:
 
-$$-\frac{2}{(5.07)^2} + \frac{1}{(1.07)^2} - \frac{3}{(1.93)^2} + \frac{1}{(7.93)^2}$$
+$$-\frac{2}{(5.07 \text{ cm})^2} + \frac{1}{(1.07 \text{ cm})^2} - \frac{3}{(1.93 \text{ cm})^2} + \frac{1}{(7.93 \text{ cm})^2}$$
 
-$$= -0.0778 + 0.873 - 0.805 + 0.0159 \approx 0.006 \approx 0$$
+$$= -0.0778 \text{ cm}^{-2} + 0.873 \text{ cm}^{-2} - 0.805 \text{ cm}^{-2} + 0.0159 \text{ cm}^{-2} \approx 0.006 \text{ cm}^{-2} \approx 0$$
 
 The electric field is zero at $$x = 6.07$$ cm.
 
@@ -963,26 +963,26 @@ By symmetry, all horizontal components cancel, and vertical components from all 
 
 Distance from center to each corner:
 <div class="equation">
- $$r = \frac{s}{\sqrt{2}} = \frac{0.100}{\sqrt{2}} = 0.0707 \text{ m}$$
+ $$r = \frac{s}{\sqrt{2}} = \frac{0.100 \text{ m}}{\sqrt{2}} = 0.0707 \text{ m}$$
 </div>
 
 Force magnitude from each corner charge:
 <div class="equation">
- $$F_{\text{corner}} = k\frac{|q_{\text{corner}}||q|}{r^2} = \frac{(8.99 \times 10^9)(7.50 \times 10^{-6})(2.00 \times 10^{-6})}{(0.0707)^2}$$
+ $$F_{\text{corner}} = k\frac{|q_{\text{corner}}||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(7.50 \times 10^{-6} \text{ C})(2.00 \times 10^{-6} \text{ C})}{(0.0707 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_{\text{corner}} = \frac{(8.99 \times 10^9)(15.0 \times 10^{-12})}{5.00 \times 10^{-3}} = \frac{134.85 \times 10^{-3}}{5.00 \times 10^{-3}} = 27.0 \text{ N}$$
+ $$F_{\text{corner}} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(15.0 \times 10^{-12} \text{ C}^2)}{5.00 \times 10^{-3} \text{ m}^2} = \frac{134.85 \times 10^{-3} \text{ N·m}^2}{5.00 \times 10^{-3} \text{ m}^2} = 27.0 \text{ N}$$
 </div>
 
 Each force makes a 45° angle with the vertical. The vertical component from each:
 <div class="equation">
- $$F_y = F_{\text{corner}} \cos(45°) = 27.0 \times \frac{1}{\sqrt{2}} = 19.1 \text{ N}$$
+ $$F_y = F_{\text{corner}} \cos(45°) = (27.0 \text{ N}) \times \frac{1}{\sqrt{2}} = 19.1 \text{ N}$$
 </div>
 
 All four charges contribute vertical components in the same direction (downward):
 <div class="equation">
- $$F_{\text{total}} = 4 \times F_y = 4 \times 19.1 = 76.4 \text{ N}$$
+ $$F_{\text{total}} = 4 \times F_y = 4 \times 19.1 \text{ N} = 76.4 \text{ N}$$
 </div>
 
 The magnitude of the force on $$q$$ is **76.4 N downward**.
@@ -1053,11 +1053,11 @@ Place $$q_a$$ at the origin. Assuming standard orientation:
 
 **From** $$q_b$$ **at** $$(0.200, 0)$$:
 <div class="equation">
- $$E_b = k\frac{q_b}{s^2} = \frac{(8.99 \times 10^9)(2.00 \times 10^{-9})}{(0.200)^2} = \frac{17.98}{0.04} = 450 \text{ N/C}$$
+ $$E_b = k\frac{q_b}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-9} \text{ C})}{(0.200 \text{ m})^2} = \frac{17.98 \text{ N·m}^2/\text{C}}{0.04 \text{ m}^2} = 450 \text{ N/C}$$
 </div>
 
 Direction: Pointing away from $$q_b$$ toward $$q_a$$, i.e., $$-\hat{x}$$ direction.
-$$\vec{E}_b = -450\hat{x}$$ N/C
+$$\vec{E}_b = (-450 \text{ N/C})\hat{x}$$
 
 **From** $$q_d$$ **at** $$(0, 0.200)$$:
 <div class="equation">
@@ -1065,23 +1065,23 @@ $$\vec{E}_b = -450\hat{x}$$ N/C
 </div>
 
 Direction: Pointing away from $$q_d$$ toward $$q_a$$, i.e., $$-\hat{y}$$ direction.
-$$\vec{E}_d = -450\hat{y}$$ N/C
+$$\vec{E}_d = (-450 \text{ N/C})\hat{y}$$
 
 **From** $$q_c$$ **at** $$(0.200, 0.200)$$:
 <div class="equation">
- $$E_c = k\frac{q_c}{(s\sqrt{2})^2} = k\frac{q_c}{2s^2} = \frac{450}{2} = 225 \text{ N/C}$$
+ $$E_c = k\frac{q_c}{(s\sqrt{2})^2} = k\frac{q_c}{2s^2} = \frac{450 \text{ N/C}}{2} = 225 \text{ N/C}$$
 </div>
 
 Direction: Pointing away from $$q_c$$ toward $$q_a$$, i.e., along $$(-\hat{x} - \hat{y})/\sqrt{2}$$.
-$$\vec{E}_c = 225 \times \frac{-\hat{x} - \hat{y}}{\sqrt{2}} = -159\hat{x} - 159\hat{y}$$ N/C
+$$\vec{E}_c = (225 \text{ N/C}) \times \frac{-\hat{x} - \hat{y}}{\sqrt{2}} = (-159 \text{ N/C})\hat{x} - (159 \text{ N/C})\hat{y}$$
 
 **From** $$q$$ **at center** $$(0.100, 0.100)$$:
 <div class="equation">
- $$E_q = k\frac{|q|}{(s/\sqrt{2})^2} = k\frac{|q|}{s^2/2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-9})}{0.02} = 450 \text{ N/C}$$
+ $$E_q = k\frac{|q|}{(s/\sqrt{2})^2} = k\frac{|q|}{s^2/2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-9} \text{ C})}{0.02 \text{ m}^2} = 450 \text{ N/C}$$
 </div>
 
 Direction: Pointing toward $$q$$ (negative charge), i.e., along $$(\hat{x} + \hat{y})/\sqrt{2}$$.
-$$\vec{E}_q = 450 \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = 318\hat{x} + 318\hat{y}$$ N/C
+$$\vec{E}_q = (450 \text{ N/C}) \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = (318 \text{ N/C})\hat{x} + (318 \text{ N/C})\hat{y}$$
 
 **Total electric field:**
 <div class="equation">
@@ -1089,15 +1089,15 @@ $$\vec{E}_q = 450 \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = 318\hat{x} + 318\h
 </div>
 
 <div class="equation">
- $$\vec{E}_{\text{total}} = (-450 - 159 + 318)\hat{x} + (-450 - 159 + 318)\hat{y}$$
+ $$\vec{E}_{\text{total}} = (-450 \text{ N/C} - 159 \text{ N/C} + 318 \text{ N/C})\hat{x} + (-450 \text{ N/C} - 159 \text{ N/C} + 318 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$\vec{E}_{\text{total}} = -291\hat{x} - 291\hat{y} \text{ N/C}$$
+ $$\vec{E}_{\text{total}} = (-291 \text{ N/C})\hat{x} - (291 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$|\vec{E}_{\text{total}}| = \sqrt{291^2 + 291^2} = 291\sqrt{2} = 412 \text{ N/C}$$
+ $$|\vec{E}_{\text{total}}| = \sqrt{(291 \text{ N/C})^2 + (291 \text{ N/C})^2} = (291 \text{ N/C})\sqrt{2} = 412 \text{ N/C}$$
 </div>
 
 Direction: 45° below the negative x-axis (toward the third quadrant).
@@ -1146,44 +1146,44 @@ Given:
 
 Distance from center to each corner:
 <div class="equation">
- $$r = \frac{s}{\sqrt{2}} = \frac{0.500}{\sqrt{2}} = 0.354 \text{ m}$$
+ $$r = \frac{s}{\sqrt{2}} = \frac{0.500 \text{ m}}{\sqrt{2}} = 0.354 \text{ m}$$
 </div>
 
 **Force from** $$q_a = 2.00 \text{ μC}$$ **(top-left):**
 <div class="equation">
- $$F_a = k\frac{|q_a||q|}{r^2} = \frac{(8.99 \times 10^9)(2.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2}$$
+ $$F_a = k\frac{|q_a||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_a = \frac{17.98 \times 10^{-3}}{0.125} = 0.144 \text{ N}$$
+ $$F_a = \frac{17.98 \times 10^{-3} \text{ N·m}^2}{0.125 \text{ m}^2} = 0.144 \text{ N}$$
 </div>
 
 Direction: Repulsive (both positive), pointing away from top-left, at 45° below the horizontal (toward bottom-right).
-$$\vec{F}_a = 0.144 \times \frac{\hat{x} - \hat{y}}{\sqrt{2}} = 0.102\hat{x} - 0.102\hat{y}$$ N
+$$\vec{F}_a = (0.144 \text{ N}) \times \frac{\hat{x} - \hat{y}}{\sqrt{2}} = (0.102 \text{ N})\hat{x} - (0.102 \text{ N})\hat{y}$$
 
 **Force from** $$q_b = -3.00 \text{ μC}$$ **(top-right):**
 <div class="equation">
- $$F_b = k\frac{|q_b||q|}{r^2} = \frac{(8.99 \times 10^9)(3.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2} = 0.216 \text{ N}$$
+ $$F_b = k\frac{|q_b||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(3.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2} = 0.216 \text{ N}$$
 </div>
 
 Direction: Attractive (opposite signs), pointing toward top-right, at 45° above the horizontal (toward top-right).
-$$\vec{F}_b = 0.216 \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = 0.153\hat{x} + 0.153\hat{y}$$ N
+$$\vec{F}_b = (0.216 \text{ N}) \times \frac{\hat{x} + \hat{y}}{\sqrt{2}} = (0.153 \text{ N})\hat{x} + (0.153 \text{ N})\hat{y}$$
 
 **Force from** $$q_c = -4.00 \text{ μC}$$ **(bottom-left):**
 <div class="equation">
- $$F_c = k\frac{|q_c||q|}{r^2} = \frac{(8.99 \times 10^9)(4.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2} = 0.288 \text{ N}$$
+ $$F_c = k\frac{|q_c||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(4.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2} = 0.288 \text{ N}$$
 </div>
 
 Direction: Attractive (opposite signs), pointing toward bottom-left, at 45° below the horizontal.
-$$\vec{F}_c = 0.288 \times \frac{-\hat{x} - \hat{y}}{\sqrt{2}} = -0.204\hat{x} - 0.204\hat{y}$$ N
+$$\vec{F}_c = (0.288 \text{ N}) \times \frac{-\hat{x} - \hat{y}}{\sqrt{2}} = (-0.204 \text{ N})\hat{x} - (0.204 \text{ N})\hat{y}$$
 
 **Force from** $$q_d = +1.00 \text{ μC}$$ **(bottom-right):**
 <div class="equation">
- $$F_d = k\frac{|q_d||q|}{r^2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-6})(1.00 \times 10^{-6})}{(0.354)^2} = 0.0719 \text{ N}$$
+ $$F_d = k\frac{|q_d||q|}{r^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-6} \text{ C})(1.00 \times 10^{-6} \text{ C})}{(0.354 \text{ m})^2} = 0.0719 \text{ N}$$
 </div>
 
 Direction: Repulsive (both positive), pointing away from bottom-right, at 45° above the horizontal (toward top-left).
-$$\vec{F}_d = 0.0719 \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = -0.0508\hat{x} + 0.0508\hat{y}$$ N
+$$\vec{F}_d = (0.0719 \text{ N}) \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = (-0.0508 \text{ N})\hat{x} + (0.0508 \text{ N})\hat{y}$$
 
 **Total force:**
 <div class="equation">
@@ -1191,11 +1191,11 @@ $$\vec{F}_d = 0.0719 \times \frac{-\hat{x} + \hat{y}}{\sqrt{2}} = -0.0508\hat{x}
 </div>
 
 <div class="equation">
- $$F_x = 0.102 + 0.153 - 0.204 - 0.051 = 0.000 \text{ N}$$
+ $$F_x = 0.102 \text{ N} + 0.153 \text{ N} - 0.204 \text{ N} - 0.051 \text{ N} = 0.000 \text{ N}$$
 </div>
 
 <div class="equation">
- $$F_y = -0.102 + 0.153 - 0.204 + 0.051 = -0.102 \text{ N}$$
+ $$F_y = -0.102 \text{ N} + 0.153 \text{ N} - 0.204 \text{ N} + 0.051 \text{ N} = -0.102 \text{ N}$$
 </div>
 
 The x-components cancel, so the net force points straight down.
@@ -1247,42 +1247,42 @@ Set up coordinates with $$q_a$$ at the origin, $$q_b$$ along the positive x-axis
 
 **Field from** $$q_b$$:
 <div class="equation">
- $$E_b = k\frac{|q_b|}{s^2} = \frac{(8.99 \times 10^9)(1.00 \times 10^{-5})}{(0.250)^2} = \frac{8.99 \times 10^4}{0.0625} = 1.44 \times 10^6 \text{ N/C}$$
+ $$E_b = k\frac{|q_b|}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-5} \text{ C})}{(0.250 \text{ m})^2} = \frac{8.99 \times 10^4 \text{ N·m}^2/\text{C}}{0.0625 \text{ m}^2} = 1.44 \times 10^6 \text{ N/C}$$
 </div>
 
 Direction: Away from $$q_b$$ (positive charge), pointing in $$-\hat{x}$$ direction.
-$$\vec{E}_b = -1.44 \times 10^6\hat{x}$$ N/C
+$$\vec{E}_b = (-1.44 \times 10^6 \text{ N/C})\hat{x}$$
 
 **Field from** $$q_c$$:
 <div class="equation">
- $$E_c = k\frac{|q_c|}{s^2} = \frac{(8.99 \times 10^9)(5.00 \times 10^{-6})}{(0.250)^2} = \frac{4.495 \times 10^4}{0.0625} = 7.19 \times 10^5 \text{ N/C}$$
+ $$E_c = k\frac{|q_c|}{s^2} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.00 \times 10^{-6} \text{ C})}{(0.250 \text{ m})^2} = \frac{4.495 \times 10^4 \text{ N·m}^2/\text{C}}{0.0625 \text{ m}^2} = 7.19 \times 10^5 \text{ N/C}$$
 </div>
 
 Direction: Toward $$q_c$$ (negative charge), pointing at 60° from x-axis: $$\hat{r} = 0.5\hat{x} + 0.866\hat{y}$$.
-$$\vec{E}_c = 7.19 \times 10^5(0.5\hat{x} + 0.866\hat{y}) = (3.60 \times 10^5)\hat{x} + (6.22 \times 10^5)\hat{y}$$ N/C
+$$\vec{E}_c = (7.19 \times 10^5 \text{ N/C})(0.5\hat{x} + 0.866\hat{y}) = (3.60 \times 10^5 \text{ N/C})\hat{x} + (6.22 \times 10^5 \text{ N/C})\hat{y}$$
 
 **Total field:**
 <div class="equation">
- $$\vec{E}_{\text{total}} = \vec{E}_b + \vec{E}_c = (-1.44 \times 10^6 + 3.60 \times 10^5)\hat{x} + (6.22 \times 10^5)\hat{y}$$
+ $$\vec{E}_{\text{total}} = \vec{E}_b + \vec{E}_c = (-1.44 \times 10^6 \text{ N/C} + 3.60 \times 10^5 \text{ N/C})\hat{x} + (6.22 \times 10^5 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$\vec{E}_{\text{total}} = (-1.08 \times 10^6)\hat{x} + (6.22 \times 10^5)\hat{y} \text{ N/C}$$
+ $$\vec{E}_{\text{total}} = (-1.08 \times 10^6 \text{ N/C})\hat{x} + (6.22 \times 10^5 \text{ N/C})\hat{y}$$
 </div>
 
 <div class="equation">
- $$|\vec{E}| = \sqrt{(-1.08 \times 10^6)^2 + (6.22 \times 10^5)^2} = \sqrt{1.17 \times 10^{12} + 3.87 \times 10^{11}} = 1.25 \times 10^6 \text{ N/C}$$
+ $$|\vec{E}| = \sqrt{(-1.08 \times 10^6 \text{ N/C})^2 + (6.22 \times 10^5 \text{ N/C})^2} = \sqrt{1.17 \times 10^{12} (\text{N/C})^2 + 3.87 \times 10^{11} (\text{N/C})^2} = 1.25 \times 10^6 \text{ N/C}$$
 </div>
 
 <div class="equation">
- $$\theta = \tan^{-1}\left(\frac{6.22 \times 10^5}{-1.08 \times 10^6}\right) = \tan^{-1}(-0.576) = 150°$$
+ $$\theta = \tan^{-1}\left(\frac{6.22 \times 10^5 \text{ N/C}}{-1.08 \times 10^6 \text{ N/C}}\right) = \tan^{-1}(-0.576) = 150°$$
 </div>
 
 The electric field at $$q_a$$ is **1.25 × 10⁶ N/C at 150° from the positive x-axis** (pointing up and to the left).
 
 **(b) Force on** $$q_a$$:
 <div class="equation">
- $$\vec{F} = q_a\vec{E} = (1.50 \times 10^{-9})(1.25 \times 10^6) = 1.88 \times 10^{-3} \text{ N}$$
+ $$\vec{F} = q_a\vec{E} = (1.50 \times 10^{-9} \text{ C})(1.25 \times 10^6 \text{ N/C}) = 1.88 \times 10^{-3} \text{ N}$$
 </div>
 
 The force on $$q_a$$ is **1.88 × 10⁻³ N (or 1.88 mN) at 150° from the positive x-axis**, in the same direction as the electric field.
@@ -1313,9 +1313,9 @@ Part (b): The force on the positive $$q_a$$ is in the same direction as the elec
 
 **(a)** Take the center as the origin, with $$q_a$$ above it and $$q_b$$ to the lower right. The common vertex distance is $$r=s/\sqrt3$$, with $$s=0.250\ \text{m}$$. Adding the fields using the unrounded value of $$r$$ gives
 
-$$E_x=\frac{k}{r^2}\left[(8.00+1.50)\times10^{-9}\cos30^\circ\right]=3.55\times10^3\ \text{N/C},$$
+$$E_x=\frac{k}{r^2}\left[(8.00+1.50)\times10^{-9}\ \text{C}\cos30^\circ\right]=3.55\times10^3\ \text{N/C},$$
 
-$$E_y=\frac{k}{r^2}\left[(-2.50-4.00+0.750)\times10^{-9}\right]=-2.48\times10^3\ \text{N/C}.$$
+$$E_y=\frac{k}{r^2}\left[(-2.50-4.00+0.750)\times10^{-9}\ \text{C}\right]=-2.48\times10^3\ \text{N/C}.$$
 
 Thus $$E=4.33\times10^3\ \text{N/C}$$, directed **35.0° below the horizontal toward the right**.
 

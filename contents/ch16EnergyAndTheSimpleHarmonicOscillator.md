@@ -269,7 +269,7 @@ of nylon rope is used.
 
 **(a)** About the suspended equilibrium position,
 
-$$f=\frac1{2\pi}\sqrt{\frac{k}{m}}=\frac1{2\pi}\sqrt{\frac{1.40\times10^4}{90.0}}=1.99\ \text{Hz}.$$
+$$f=\frac1{2\pi}\sqrt{\frac{k}{m}}=\frac1{2\pi}\sqrt{\frac{1.40\times10^4\ \text{N/m}}{90.0\ \text{kg}}}=1.99\ \text{Hz}.$$
 
 **(b)** The climber falls 2.00 m before the rope becomes taut and an additional distance $$x$$ as it stretches. Conservation of energy gives
 
@@ -328,21 +328,21 @@ Solve for $$k$$:
 Substitute the given values:
 
 <div class="equation">
- $$k = \frac{4\pi^{2}(4.00 \times 10^{5})}{(2.00)^2} = \frac{4(9.870)(4.00 \times 10^{5})}{4.00}$$
+ $$k = \frac{4\pi^{2}(4.00 \times 10^{5} \text{ kg})}{(2.00 \text{ s})^2} = \frac{4(9.870)(4.00 \times 10^{5} \text{ kg})}{4.00 \text{ s}^2}$$
 </div>
 
 <div class="equation">
- $$k = 4\pi^{2}(1.00 \times 10^{5}) = 3.95 \times 10^{6} \text{ N/m}$$
+ $$k = 4\pi^{2}(1.00 \times 10^{5} \text{ kg/s}^2) = 3.95 \times 10^{6} \text{ N/m}$$
 </div>
 
 **(b)** The elastic potential energy for a displacement of $$x = 2.00$$ m:
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}kx^{2} = \frac{1}{2}(3.95 \times 10^{6})(2.00)^2$$
+ $$PE_{el} = \frac{1}{2}kx^{2} = \frac{1}{2}(3.95 \times 10^{6} \text{ N/m})(2.00 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$PE_{el} = \frac{1}{2}(3.95 \times 10^{6})(4.00) = 7.90 \times 10^{6} \text{ J}$$
+ $$PE_{el} = \frac{1}{2}(3.95 \times 10^{6} \text{ N/m})(4.00 \text{ m}^2) = 7.90 \times 10^{6} \text{ J}$$
 </div>
 
 **Discussion**

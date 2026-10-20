@@ -551,7 +551,7 @@ $$R = \frac{\rho L}{A} = \frac{(1.72 \times 10^{-8} \text{ Ω}\cdot\text{m})(20.
 
 **Discussion**
 
-This resistance of about 0.1 Ω is typical for household wiring. 12-gauge wire is commonly used for 20-amp circuits in homes. The low resistance minimizes power loss and voltage drop across the wire, ensuring that appliances receive adequate voltage. For a 20-A current, this wire would dissipate $$P = I^{2}R = (20)^{2}(0.104) = 41.6$$ W over its 20-meter length, which is acceptable.
+This resistance of about 0.1 Ω is typical for household wiring. 12-gauge wire is commonly used for 20-amp circuits in homes. The low resistance minimizes power loss and voltage drop across the wire, ensuring that appliances receive adequate voltage. For a 20-A current, this wire would dissipate $$P = I^{2}R = (20 \text{ A})^{2}(0.104 \text{ Ω}) = 41.6 \text{ W}$$ over its 20-meter length, which is acceptable.
 
 The resistance of the 12-gauge copper wire is 0.104 Ω.
 
@@ -589,7 +589,7 @@ $$R = \frac{\rho L}{A} = \frac{(1.72 \times 10^{-8} \text{ Ω}\cdot\text{m})(1.0
 
 **Discussion**
 
-This relatively low resistance of about a third of an ohm for a full kilometer of wire is why copper is preferred for power transmission. The thick 0-gauge wire (diameter about 8 mm) is used for high-current applications. Even this small resistance causes power loss in long transmission lines; for a 1000 A current, the power dissipated in this wire would be $$P = I^{2}R = (1000)^{2}(0.322) = 322$$ kW. This is why high-voltage, lower-current transmission is preferred for long distances.
+This relatively low resistance of about a third of an ohm for a full kilometer of wire is why copper is preferred for power transmission. The thick 0-gauge wire (diameter about 8 mm) is used for high-current applications. Even this small resistance causes power loss in long transmission lines; for a 1000 A current, the power dissipated in this wire would be $$P = I^{2}R = (1000 \text{ A})^{2}(0.322 \text{ Ω}) = 322 \text{ kW}$$. This is why high-voltage, lower-current transmission is preferred for long distances.
 
 The resistance of a 1.00-km length of 0-gauge copper wire is 0.322 Ω.
 
@@ -611,11 +611,11 @@ If the 0.100-mm diameter tungsten filament in a light bulb is to have a resistan
 
 The wire area is
 
-$$A=\pi(d/2)^2=\pi(5.00\times10^{-5})^2=7.85\times10^{-9}\ \text{m}^2.$$
+$$A=\pi(d/2)^2=\pi(5.00\times10^{-5}\ \text{m})^2=7.85\times10^{-9}\ \text{m}^2.$$
 
 With tungsten resistivity $$\rho=5.6\times10^{-8}\ \Omega\cdot\text{m}$$,
 
-$$L=\frac{RA}{\rho}=\frac{(0.200)(7.85\times10^{-9})}{5.6\times10^{-8}}=0.0281\ \text{m}=2.81\ \text{cm}.$$
+$$L=\frac{RA}{\rho}=\frac{(0.200\ \Omega)(7.85\times10^{-9}\ \text{m}^2)}{5.6\times10^{-8}\ \Omega\cdot\text{m}}=0.0281\ \text{m}=2.81\ \text{cm}.$$
 
 This is the required wire length at 20.0 °C.
 
@@ -794,11 +794,11 @@ $$|\Delta T| = \frac{0.01}{\alpha} = \frac{0.01}{0.4 \times 10^{-3} \text{ /ºC}
 The temperature can vary by ±25 °C from the reference temperature of 20.0 °C:
 
 <div class="equation">
-$$T_{\text{min}} = 20.0 - 25 = -5 \text{ ºC}$$
+$$T_{\text{min}} = 20.0 \text{ ºC} - 25 \text{ ºC} = -5 \text{ ºC}$$
 </div>
 
 <div class="equation">
-$$T_{\text{max}} = 20.0 + 25 = 45 \text{ ºC}$$
+$$T_{\text{max}} = 20.0 \text{ ºC} + 25 \text{ ºC} = 45 \text{ ºC}$$
 </div>
 
 **Discussion**
@@ -882,13 +882,13 @@ Using 20 °C as the reference temperature, find the resistance at each extreme:
 At -10 °C ($$\Delta T = -30$$ °C):
 
 <div class="equation">
-$$R_{-10} = R_{0}[1 + (-0.5 \times 10^{-3})(-30)] = R_{0}(1 + 0.015) = 1.015 R_{0}$$
+$$R_{-10} = R_{0}[1 + (-0.5 \times 10^{-3} \text{ /ºC})(-30 \text{ ºC})] = R_{0}(1 + 0.015) = 1.015 R_{0}$$
 </div>
 
 At 55 °C ($$\Delta T = +35$$ °C):
 
 <div class="equation">
-$$R_{55} = R_{0}[1 + (-0.5 \times 10^{-3})(35)] = R_{0}(1 - 0.0175) = 0.9825 R_{0}$$
+$$R_{55} = R_{0}[1 + (-0.5 \times 10^{-3} \text{ /ºC})(35 \text{ ºC})] = R_{0}(1 - 0.0175) = 0.9825 R_{0}$$
 </div>
 
 The factor by which resistance changes from lowest to highest temperature:
@@ -988,7 +988,7 @@ $$\Delta T = -273.15 \text{ ºC} - 20.0 \text{ ºC} = -293 \text{ ºC}$$
 Calculate the resistance at absolute zero:
 
 <div class="equation">
-$$R = R_{0}(1 + \alpha \Delta T) = R_{0}[1 + (0.002 \times 10^{-3})(-293)]$$
+$$R = R_{0}(1 + \alpha \Delta T) = R_{0}[1 + (0.002 \times 10^{-3} \text{ /ºC})(-293 \text{ ºC})]$$
 </div>
 
 <div class="equation">
@@ -1091,31 +1091,31 @@ $$R_{0,\text{Cu}}(1 + \alpha_{\text{Cu}} \Delta T) = R_{0,\text{Fe}}(1 + \alpha_
 </div>
 
 <div class="equation">
-$$0.500(1 + 3.9 \times 10^{-3} \Delta T) = 0.525(1 + 5.0 \times 10^{-3} \Delta T)$$
+$$(0.500 \text{ Ω})(1 + 3.9 \times 10^{-3} \text{ /ºC}\,\Delta T) = (0.525 \text{ Ω})(1 + 5.0 \times 10^{-3} \text{ /ºC}\,\Delta T)$$
 </div>
 
 Expand and solve:
 
 <div class="equation">
-$$0.500 + 1.95 \times 10^{-3} \Delta T = 0.525 + 2.625 \times 10^{-3} \Delta T$$
+$$0.500 \text{ Ω} + 1.95 \times 10^{-3} \text{ Ω/ºC}\,\Delta T = 0.525 \text{ Ω} + 2.625 \times 10^{-3} \text{ Ω/ºC}\,\Delta T$$
 </div>
 
 <div class="equation">
-$$0.500 - 0.525 = (2.625 - 1.95) \times 10^{-3} \Delta T$$
+$$0.500 \text{ Ω} - 0.525 \text{ Ω} = (2.625 - 1.95) \times 10^{-3} \text{ Ω/ºC}\,\Delta T$$
 </div>
 
 <div class="equation">
-$$-0.025 = 0.675 \times 10^{-3} \Delta T$$
+$$-0.025 \text{ Ω} = 0.675 \times 10^{-3} \text{ Ω/ºC}\,\Delta T$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{-0.025}{0.675 \times 10^{-3}} = -37 \text{ ºC}$$
+$$\Delta T = \frac{-0.025 \text{ Ω}}{0.675 \times 10^{-3} \text{ Ω/ºC}} = -37 \text{ ºC}$$
 </div>
 
 The temperature at which resistances are equal:
 
 <div class="equation">
-$$T = 20.0 + (-37) = -17 \text{ ºC}$$
+$$T = 20.0 \text{ ºC} + (-37 \text{ ºC}) = -17 \text{ ºC}$$
 </div>
 
 **Discussion**
@@ -1173,10 +1173,10 @@ $$T = 37.0 \text{ ºC} + 3.00 \text{ ºC} = 40.0 \text{ ºC}$$
 **(b)** The negative temperature coefficient means resistance decreases as temperature increases. However, the linear model $$R = R_{0}(1 + \alpha \Delta T)$$ would predict zero resistance when $$1 + \alpha \Delta T = 0$$, which occurs at:
 
 <div class="equation">
-$$\Delta T = \frac{-1}{\alpha} = \frac{-1}{-0.0600} = 16.7 \text{ ºC}$$
+$$\Delta T = \frac{-1}{\alpha} = \frac{-1}{-0.0600 \text{ /ºC}} = 16.7 \text{ ºC}$$
 </div>
 
-This corresponds to $$T = 37.0 + 16.7 = 53.7$$ ºC, meaning at about 53.7 °C the model would predict zero resistance, and above that temperature negative resistance—which is physically impossible. However, in part (a), we found the patient is at 40.0 °C, which is only 3 °C above 37 °C—well within the valid range of the linear model. For the expected range of human body temperatures (roughly 35-42 °C), the linear approximation is acceptable.
+This corresponds to $$T = 37.0 \text{ ºC} + 16.7 \text{ ºC} = 53.7 \text{ ºC}$$, meaning at about 53.7 °C the model would predict zero resistance, and above that temperature negative resistance—which is physically impossible. However, in part (a), we found the patient is at 40.0 °C, which is only 3 °C above 37 °C—well within the valid range of the linear model. For the expected range of human body temperatures (roughly 35-42 °C), the linear approximation is acceptable.
 
 **Discussion**
 
@@ -1202,9 +1202,9 @@ A temperature of 40.0 °C (104 °F) indicates a significant fever and would warr
 
 **(a)** The hot-filament example uses $$R_0=0.350\ \Omega$$ at 20 °C and $$\Delta T=2830\ {}^\circ\text{C}$$. Without geometric expansion, its unrounded prediction is
 
-$$R_{\text{hot}}=0.350[1+(4.5\times10^{-3})(2830)]=4.80725\ \Omega.$$
+$$R_{\text{hot}}=0.350\ \Omega[1+(4.5\times10^{-3}\ {}^\circ\text{C}^{-1})(2830\ {}^\circ\text{C})]=4.80725\ \Omega.$$
 
-Let the linear expansion factor be $$s=1+\alpha_L\Delta T=1+(12\times10^{-6})(2830)=1.03396$$. Isotropic expansion gives $$L'=sL$$ and $$A'=s^2A$$, so, retaining the same hot resistivity,
+Let the linear expansion factor be $$s=1+\alpha_L\Delta T=1+(12\times10^{-6}\ {}^\circ\text{C}^{-1})(2830\ {}^\circ\text{C})=1.03396$$. Isotropic expansion gives $$L'=sL$$ and $$A'=s^2A$$, so, retaining the same hot resistivity,
 
 $$R'=\frac{\rho_{\text{hot}}sL}{s^2A}=\frac{R_{\text{hot}}}{s}=4.65\ \Omega.$$
 
@@ -1250,7 +1250,7 @@ $$2 = 1 + \alpha \Delta T$$
 $$\Delta T = \frac{1}{\alpha} = \frac{1}{0.002 \times 10^{-3} \text{ /ºC}} = \frac{1}{2 \times 10^{-6} \text{ /ºC}} = 5.0 \times 10^{5} \text{ ºC}$$
 </div>
 
-Starting from 20 °C: $$T = 20 + 500\,000 = 500\,020$$ ºC
+Starting from 20 °C: $$T = 20 \text{ ºC} + 500\,000 \text{ ºC} = 500\,020 \text{ ºC}$$
 
 **(b)** To halve the resistance ($$R = 0.5R_{0}$$):
 
@@ -1262,7 +1262,7 @@ $$0.5 = 1 + \alpha \Delta T$$
 $$\Delta T = \frac{-0.5}{\alpha} = \frac{-0.5}{2 \times 10^{-6} \text{ /ºC}} = -2.5 \times 10^{5} \text{ ºC}$$
 </div>
 
-Starting from 20 °C: $$T = 20 - 250\,000 = -249\,980$$ ºC
+Starting from 20 °C: $$T = 20 \text{ ºC} - 250\,000 \text{ ºC} = -249\,980 \text{ ºC}$$
 
 **(c)** Both results are unreasonable:
 - To double the resistance would require heating to 500,020 °C, which is approximately 90 times hotter than the surface of the Sun (about 5,500 °C). Constantan would vaporize long before reaching such temperatures—its melting point is around 1,220 °C.

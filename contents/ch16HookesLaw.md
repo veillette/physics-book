@@ -289,17 +289,17 @@ stretches 8.00 cm for a 10.0 kg load?
 
 ::: solution
 
-**(a)** $$k=\frac{mg}{x}=\frac{(10.0)(9.80)}{0.0800}=1225\ \text{N/m}\approx1.23\times10^3\ \text{N/m}.$$
+**(a)** $$k=\frac{mg}{x}=\frac{(10.0\ \text{kg})(9.80\ \text{m/s}^2)}{0.0800\ \text{m}}=1225\ \text{N/m}\approx1.23\times10^3\ \text{N/m}.$$
 
 **(b)** Retaining the unrounded spring constant,
 
-$$m=\frac{kx}{g}=\frac{(1225)(0.0550)}{9.80}=6.88\ \text{kg}.$$
+$$m=\frac{kx}{g}=\frac{(1225\ \text{N/m})(0.0550\ \text{m})}{9.80\ \text{m/s}^2}=6.88\ \text{kg}.$$
 
-Equivalently, the mass ratio equals the stretch ratio: $$m=(10.0)(5.50/8.00)$$.
+Equivalently, the mass ratio equals the stretch ratio: $$m=(10.0\ \text{kg})(5.50\ \text{cm}/8.00\ \text{cm})$$.
 
 **(c)** The spacing of half-kilogram marks is
 
-$$\Delta x=\frac{(0.500)(9.80)}{1225}=0.00400\ \text{m}=4.00\ \text{mm}.$$
+$$\Delta x=\frac{(0.500\ \text{kg})(9.80\ \text{m/s}^2)}{1225\ \text{N/m}}=0.00400\ \text{m}=4.00\ \text{mm}.$$
 
 :::
 </div>
@@ -387,7 +387,7 @@ Solving for $$k$$:
 </div>
 
 <div class="equation">
- $$k = \frac{(0.0500)(400)}{0.0225} = \frac{20.0}{0.0225} = 889 \text{ N/m}$$
+ $$k = \frac{(0.0500 \text{ kg})(400 \text{ (m/s)}^2)}{0.0225 \text{ m}^2} = \frac{20.0 \text{ J}}{0.0225 \text{ m}^2} = 889 \text{ N/m}$$
 </div>
 
 **(b)** The force required to compress the spring is:
@@ -398,7 +398,7 @@ Solving for $$k$$:
 
 **Discussion**
 
-Part (a): The spring constant of 889 N/m indicates a moderately stiff spring, which is appropriate for a BB gun. The energy stored in the spring when compressed 15 cm is $$\frac{1}{2}(889)(0.150)^2 = 10.0$$ J, which equals the kinetic energy of the 50-gram plunger at 20 m/s: $$\frac{1}{2}(0.0500)(20.0)^2 = 10.0$$ J. This confirms our calculation.
+Part (a): The spring constant of 889 N/m indicates a moderately stiff spring, which is appropriate for a BB gun. The energy stored in the spring when compressed 15 cm is $$\frac{1}{2}(889 \text{ N/m})(0.150 \text{ m})^2 = 10.0 \text{ J}$$, which equals the kinetic energy of the 50-gram plunger at 20 m/s: $$\frac{1}{2}(0.0500 \text{ kg})(20.0 \text{ m/s})^2 = 10.0 \text{ J}$$. This confirms our calculation.
 
 Part (b): A force of 133 N (about 30 pounds-force or 13.6 kg-force) is reasonable for manually cocking a BB gun. It's manageable for most users but requires definite effort, providing appropriate resistance that makes the gun safe and controllable. The linear relationship between force and compression is a direct consequence of Hooke's law: compressing twice as far requires twice the force.
 
@@ -516,7 +516,7 @@ Part (b): The spring compression during hopping exceeds the static value for sev
 2. **Impact forces**: Dynamic forces during landing can be 2-3 times static weight (1,600-2,400 N vs. 784 N static).
 3. **Momentum transfer**: The abrupt deceleration when landing requires greater force than simply supporting static weight.
 
-For example, if the man lands with a downward velocity of 2 m/s, his kinetic energy is $$\frac{1}{2}(80.0)(2.0)^2 = 160$$ J. This energy compresses the spring an additional distance $$\Delta x$$ where $$\frac{1}{2}k(\Delta x)^2 = 160$$ J, giving $$\Delta x = \sqrt{2(160)/6530} = 0.22$$ m. Combined with the 12 cm static compression, the total compression would be about 34 cm during landing.
+For example, if the man lands with a downward velocity of 2 m/s, his kinetic energy is $$\frac{1}{2}(80.0 \text{ kg})(2.0 \text{ m/s})^2 = 160 \text{ J}$$. This energy compresses the spring an additional distance $$\Delta x$$ where $$\frac{1}{2}k(\Delta x)^2 = 160 \text{ J}$$, giving $$\Delta x = \sqrt{2(160 \text{ J})/(6530 \text{ N/m})} = 0.22 \text{ m}$$. Combined with the 12 cm static compression, the total compression would be about 34 cm during landing.
 
 This extra compression is what makes pogo sticks fun—the spring stores more energy during landing and releases it to propel the user upward on the next bounce!
 
@@ -567,7 +567,7 @@ Subtracting the first length equation from the second:
 </div>
 
 <div class="equation">
- $$0.750 - 0.200 = \frac{19.11 - 2.94}{k}$$
+ $$0.750 \text{ m} - 0.200 \text{ m} = \frac{19.11 \text{ N} - 2.94 \text{ N}}{k}$$
 </div>
 
 <div class="equation">
@@ -581,7 +581,7 @@ Subtracting the first length equation from the second:
 (b) Now we can find $$L_0$$ using the first case:
 
 <div class="equation">
- $$L_0 = L_1 - x_1 = 0.200 \text{ m} - \frac{2.94 \text{ N}}{29.4 \text{ N/m}} = 0.200 - 0.100 = 0.100 \text{ m}$$
+ $$L_0 = L_1 - x_1 = 0.200 \text{ m} - \frac{2.94 \text{ N}}{29.4 \text{ N/m}} = 0.200 \text{ m} - 0.100 \text{ m} = 0.100 \text{ m}$$
 </div>
 
 **Discussion**

@@ -888,7 +888,7 @@ What length should an oboe have to produce a fundamental frequency of 110 Hz on 
 
 Using the specified open-tube frequency relation,
 
-$$f_1=\frac{v}{2L},\qquad L=\frac{v}{2f_1}=\frac{343}{2(110)}=1.56\ \text{m}.$$
+$$f_1=\frac{v}{2L},\qquad L=\frac{v}{2f_1}=\frac{343\ \text{m/s}}{2(110\ \text{Hz})}=1.56\ \text{m}.$$
 
 This is the effective acoustic length required by the idealized model. A real oboe has a reed at its narrow end and a conical bore. Its resonance series resembles that of an open cylindrical tube; replacing it with a cylindrical tube closed at one end would give the wrong harmonic structure. See [UNSW's explanation of double-reed acoustics](https://phys.unsw.edu.au/jw/double-reed-acoustics.html).
 
@@ -1043,7 +1043,7 @@ The physical reason for this change is that the speed of sound increases with te
 We can verify the reasonableness of the frequency change using the ratio:
 
 <div class="equation">
- $$\frac{f_2}{f_1} = \frac{v_{w,2}}{v_{w,1}} = \frac{346}{342} = 1.012$$
+ $$\frac{f_2}{f_1} = \frac{v_{w,2}}{v_{w,1}} = \frac{346\text{ m/s}}{342\text{ m/s}} = 1.012$$
 </div>
 
 So $$f_2 = 1.012 \times 256\text{ Hz} = 259\text{ Hz}$$ ✓
@@ -1285,15 +1285,15 @@ A crude approximation of voice production is to consider the breathing passages 
 
 **(a)** Approximate the tract as a tube closed at one end. At 37.0 °C,
 
-$$v_{\text{air}}=(331)\sqrt{310.15/273.15}=352.7\ \text{m/s},$$
+$$v_{\text{air}}=(331\ \text{m/s})\sqrt{310.15/273.15}=352.7\ \text{m/s},$$
 
-$$f_{1,\text{air}}=\frac{v_{\text{air}}}{4L}=\frac{352.7}{4(0.240)}=367\ \text{Hz}.$$
+$$f_{1,\text{air}}=\frac{v_{\text{air}}}{4L}=\frac{352.7\ \text{m/s}}{4(0.240\ \text{m})}=367\ \text{Hz}.$$
 
 **(b)** Using the tabulated helium speed of 965 m/s at 0 °C and the same square-root temperature dependence,
 
-$$v_{\text{He}}=(965)\sqrt{310.15/273.15}=1028\ \text{m/s},$$
+$$v_{\text{He}}=(965\ \text{m/s})\sqrt{310.15/273.15}=1028\ \text{m/s},$$
 
-$$f_{1,\text{He}}=\frac{1028}{4(0.240)}=1.07\ \text{kHz}.$$
+$$f_{1,\text{He}}=\frac{1028\ \text{m/s}}{4(0.240\ \text{m})}=1.07\ \text{kHz}.$$
 
 These are resonances of the simplified vocal tract. Changing the gas shifts these resonances (formants), rather than directly multiplying the vocal-fold vibration frequency.
 
@@ -1357,7 +1357,7 @@ Solving for $$T$$:
 Convert to Celsius:
 
 <div class="equation">
- $$T = 295\text{ K} - 273 = 22°\text{C}$$
+ $$T = 295\text{ K} - 273\text{ K} = 22°\text{C}$$
 </div>
 
 **(b) Finding the length for the first overtone:**
@@ -1421,13 +1421,13 @@ Use $$v=343\ \text{m/s}$$ and the conventional audible range 20–20,000 Hz. Ret
 
 **(a)** For a tube closed at one end,
 
-$$f_n=n\frac{v}{4L}=n\frac{343}{7.20}\ \text{Hz},\qquad n=1,3,5,\ldots,419.$$
+$$f_n=n\frac{v}{4L}=n\frac{343\ \text{m/s}}{7.20\ \text{m}}\ \text{Hz},\qquad n=1,3,5,\ldots,419.$$
 
 There are **210** audible resonances, from 47.6 Hz through 19,961 Hz.
 
 **(b)** For a tube open at both ends,
 
-$$f_n=n\frac{v}{2L}=n\frac{343}{3.60}\ \text{Hz},\qquad n=1,2,3,\ldots,209.$$
+$$f_n=n\frac{v}{2L}=n\frac{343\ \text{m/s}}{3.60\ \text{m}}\ \text{Hz},\qquad n=1,2,3,\ldots,209.$$
 
 There are **209** audible resonances, from 95.3 Hz through 19,913 Hz. The 210th is 20,008 Hz and exceeds 20 kHz. A harmonic index must be rounded down to the allowed integer, rather than to the nearest integer.
 

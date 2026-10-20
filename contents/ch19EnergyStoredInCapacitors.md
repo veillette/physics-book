@@ -298,7 +298,7 @@ For each connection type, first find the equivalent capacitance, then calculate 
 
 Find equivalent capacitance:
 
-$$\frac{1}{C_S} = \frac{1}{2.00 \text{ μF}} + \frac{1}{7.40 \text{ μF}} = 0.500 + 0.135 = 0.635 \text{ μF}^{-1}$$
+$$\frac{1}{C_S} = \frac{1}{2.00 \text{ μF}} + \frac{1}{7.40 \text{ μF}} = 0.500 \text{ μF}^{-1} + 0.135 \text{ μF}^{-1} = 0.635 \text{ μF}^{-1}$$
 
 $$C_S = 1.575 \text{ μF}$$
 
@@ -477,19 +477,19 @@ Use the energy equation $$E = \frac{1}{2}CV^{2}$$ to find voltage, and $$Q = CV$
 
 **(a)** Voltage range for external defibrillation:
 
-For 50 J: $$V = \sqrt{\frac{2E}{C}} = \sqrt{\frac{2(50)}{32 \times 10^{-6}}} = \sqrt{3.125 \times 10^6} = 1,770 \text{ V}$$
+For 50 J: $$V = \sqrt{\frac{2E}{C}} = \sqrt{\frac{2(50 \text{ J})}{32 \times 10^{-6} \text{ F}}} = \sqrt{3.125 \times 10^6 \text{ V}^2} = 1,770 \text{ V}$$
 
-For 360 J: $$V = \sqrt{\frac{2(360)}{32 \times 10^{-6}}} = \sqrt{2.25 \times 10^7} = 4,740 \text{ V}$$
+For 360 J: $$V = \sqrt{\frac{2(360 \text{ J})}{32 \times 10^{-6} \text{ F}}} = \sqrt{2.25 \times 10^7 \text{ V}^2} = 4,740 \text{ V}$$
 
 **(b)** Charge range:
 
-For 50 J: $$Q = CV = (32 \times 10^{-6})(1,770) = 56.6 \text{ mC}$$
+For 50 J: $$Q = CV = (32 \times 10^{-6} \text{ F})(1,770 \text{ V}) = 56.6 \text{ mC}$$
 
-For 360 J: $$Q = CV = (32 \times 10^{-6})(4,740) = 152 \text{ mC}$$
+For 360 J: $$Q = CV = (32 \times 10^{-6} \text{ F})(4,740 \text{ V}) = 152 \text{ mC}$$
 
 **(c)** Voltage range for internal defibrillation:
 
-For 10 J: $$V = \sqrt{\frac{2(10)}{32 \times 10^{-6}}} = 791 \text{ V}$$
+For 10 J: $$V = \sqrt{\frac{2(10 \text{ J})}{32 \times 10^{-6} \text{ F}}} = 791 \text{ V}$$
 
 For 50 J: $$V = 1,770 \text{ V}$$ (same as above)
 
@@ -526,7 +526,7 @@ result? (c) Which assumptions are responsible?
 
 **(a)** From $$E=\tfrac12CV^2$$,
 
-$$C=\frac{2E}{V^2}=\frac{2(9.60\times10^3)}{(12.0)^2}=133\ \text{F}.$$
+$$C=\frac{2E}{V^2}=\frac{2(9.60\times10^3\ \text{J})}{(12.0\ \text{V})^2}=133\ \text{F}.$$
 
 **(b)** This is very large for a conventional capacitor, but modern supercapacitor modules can provide engine-starting energy. The numerical result is not inherently impractical with that technology.
 

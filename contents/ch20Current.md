@@ -737,12 +737,12 @@ If $$R$$ increases by a factor of 50 while $$I$$ remains constant, the power inc
 
 Original power:
 <div class="equation">
- $$P = (6.00)^2(1{,}667) = 60{,}000 \text{ W} = 60 \text{ kW}$$
+ $$P = (6.00 \text{ A})^2(1{,}667 \text{ Ω}) = 60{,}000 \text{ W} = 60 \text{ kW}$$
 </div>
 
 New power:
 <div class="equation">
- $$P' = 50 \times 60 = 3{,}000 \text{ kW} = 3.0 \text{ MW}$$
+ $$P' = 50 \times 60 \text{ kW} = 3{,}000 \text{ kW} = 3.0 \text{ MW}$$
 </div>
 
 **Discussion**
@@ -1156,7 +1156,7 @@ The new cross-sectional area:
 $$A_{\text{new}} = \pi \left(\frac{4.106 \times 10^{-3} \text{ m}}{2}\right)^2 = 1.324 \times 10^{-5} \text{ m}^2$$
 </div>
 
-This is 4 times the original area ($$4 \times 3.310 \times 10^{-6} = 1.324 \times 10^{-5}$$ m²).
+This is 4 times the original area ($$4 \times 3.310 \times 10^{-6} \text{ m}^2 = 1.324 \times 10^{-5} \text{ m}^2$$).
 
 Using the electron density from Example 3 ($$n = 8.342 \times 10^{28}$$ electrons/m³ for copper):
 

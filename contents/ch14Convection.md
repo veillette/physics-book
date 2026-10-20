@@ -569,7 +569,7 @@ Given:
 
 **(a)** Heat to be removed from body:
 <div class="equation">
-$$Q = Mc\Delta T = (60.0)(3500)(0.750) = 157500 \text{ J} = 157.5 \text{ kJ}$$
+$$Q = Mc\Delta T = (60.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(0.750\text{ºC}) = 157500 \text{ J} = 157.5 \text{ kJ}$$
 </div>
 
 This heat is removed by evaporation:
@@ -654,11 +654,11 @@ $$Q = mL_{v}$$
 
 Solve for mass:
 <div class="equation">
-$$m = \frac{Q}{L_v} = \frac{3.60 \times 10^6}{2430 \times 10^3}$$
+$$m = \frac{Q}{L_v} = \frac{(3.60 \times 10^6 \text{ J/m}^2)(1.00 \text{ m}^2)}{2430 \times 10^3 \text{ J/kg}}$$
 </div>
 
 <div class="equation">
-$$m = \frac{3.60 \times 10^6}{2.43 \times 10^6} = 1.48 \text{ kg}$$
+$$m = \frac{(3.60 \times 10^6 \text{ J/m}^2)(1.00 \text{ m}^2)}{2.43 \times 10^6 \text{ J/kg}} = 1.48 \text{ kg}$$
 </div>
 
 **Step 6: Insert knowns with units**
@@ -899,13 +899,13 @@ rates. Will this breathing be a major form of heat transfer for this person?
 
 **(a)** With $$L_v=2.43\times10^6\ \text{J/kg}$$ near body temperature,
 
-$$Q_{\text{evap}}=(4.00\times10^{-5})(2.43\times10^6)=97.2\ \text{J per breath}.$$
+$$Q_{\text{evap}}=(4.00\times10^{-5}\ \text{kg})(2.43\times10^6\ \text{J/kg})=97.2\ \text{J per breath}.$$
 
-**(b)** At 18.0 breaths/min, $$P_{\text{evap}}=97.2(18.0/60)=29.2\ \text{W}$$.
+**(b)** At 18.0 breaths/min, $$P_{\text{evap}}=(97.2\ \text{J})(18.0\ \text{min}^{-1}/60\ \text{s/min})=29.2\ \text{W}$$.
 
 **(c)** Warming an open air flow at approximately constant pressure requires $$c_p\approx1000\ \text{J/(kg}\cdot{}^\circ\text{C)}$$. Using $$\rho\approx1.29\ \text{kg/m}^3$$,
 
-$$P_{\text{air}}=\rho Vc_p\Delta T\frac{18.0}{60}=(1.29)(0.00200)(1000)(17.0)(0.300)=13.2\ \text{W}.$$
+$$P_{\text{air}}=\rho Vc_p\Delta T\frac{18.0\ \text{min}^{-1}}{60\ \text{s/min}}=(1.29\ \text{kg/m}^3)(0.00200\ \text{m}^3)(1000\ \text{J/(kg}\cdot{}^\circ\text{C)})(17.0\ {}^\circ\text{C})(0.300\ \text{s}^{-1})=13.2\ \text{W}.$$
 
 **(d)** The total is about **42 W**. This is a substantial fraction of a resting metabolic rate of order 100 W, although other routes of heat transfer remain important.
 
@@ -948,7 +948,7 @@ Given:
 
 Calculate the area of the circular bottom:
 <div class="equation">
-$$A = \pi r^2 = \pi(0.0450)^2 = 6.36 \times 10^{-3} \text{ m}^2$$
+$$A = \pi r^2 = \pi(0.0450 \text{ m})^2 = 6.36 \times 10^{-3} \text{ m}^2$$
 </div>
 
 Solve for temperature difference across the glass:
@@ -957,16 +957,16 @@ $$\frac{Q}{t} = \frac{kA\Delta T}{d}$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(50.0)(0.00300)}{(0.84)(6.36 \times 10^{-3})}$$
+$$\Delta T = \frac{(Q/t) \cdot d}{kA} = \frac{(50.0 \text{ W})(0.00300 \text{ m})}{(0.84 \text{ J/s}\cdot\text{m}\cdot\text{ºC})(6.36 \times 10^{-3} \text{ m}^2)}$$
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{0.150}{5.34 \times 10^{-3}} = 28.1\text{ºC}$$
+$$\Delta T = \frac{0.150 \text{ W}\cdot\text{m}}{5.34 \times 10^{-3} \text{ W}\cdot\text{m/ºC}} = 28.1\text{ºC}$$
 </div>
 
 Temperature of the bottom (heating element side):
 <div class="equation">
-$$T_{bottom} = T_{inside} + \Delta T = 60.0 + 28.1 = 88.1\text{ºC}$$
+$$T_{bottom} = T_{inside} + \Delta T = 60.0\text{ºC} + 28.1\text{ºC} = 88.1\text{ºC}$$
 </div>
 
 **(b)** Mass evaporated per minute:

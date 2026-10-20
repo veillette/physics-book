@@ -691,7 +691,7 @@ Given:
 **(a)** Calculate the viscous force:
 $$F = \eta \frac{vA}{L} = (1.81 \times 10^{-5} \text{ Pa·s}) \frac{(0.400 \text{ m/s})(2.50 \times 10^{-2} \text{ m}^2)}{6.00 \times 10^{-5} \text{ m}}$$
 
-$$F = (1.81 \times 10^{-5}) \frac{0.0100}{6.00 \times 10^{-5}} = (1.81 \times 10^{-5})(166.7) = 3.02 \times 10^{-3} \text{ N}$$
+$$F = (1.81 \times 10^{-5} \text{ Pa·s}) \frac{0.0100 \text{ m}^3/\text{s}}{6.00 \times 10^{-5} \text{ m}} = (1.81 \times 10^{-5} \text{ Pa·s})(166.7 \text{ m}^2/\text{s}) = 3.02 \times 10^{-3} \text{ N}$$
 
 **(b)** Calculate the weight and ratio:
 $$W = mg = (0.300 \text{ kg})(9.80 \text{ m/s}^2) = 2.94 \text{ N}$$
@@ -732,7 +732,7 @@ Given:
 Calculate the force:
 $$F = \eta \frac{vA}{L} = (1.002 \times 10^{-3} \text{ Pa·s}) \frac{(0.0100 \text{ m/s})(8.00 \times 10^{-4} \text{ m}^2)}{5.00 \times 10^{-4} \text{ m}}$$
 
-$$F = (1.002 \times 10^{-3}) \frac{8.00 \times 10^{-6}}{5.00 \times 10^{-4}} = (1.002 \times 10^{-3})(0.0160) = 1.60 \times 10^{-5} \text{ N}$$
+$$F = (1.002 \times 10^{-3} \text{ Pa·s}) \frac{8.00 \times 10^{-6} \text{ m}^3/\text{s}}{5.00 \times 10^{-4} \text{ m}} = (1.002 \times 10^{-3} \text{ Pa·s})(0.0160 \text{ m}^2/\text{s}) = 1.60 \times 10^{-5} \text{ N}$$
 
 **Discussion**
 
@@ -790,13 +790,13 @@ The pressure drop along a horizontal uniform section of artery is 100 Pa, its ra
 
 **(a)** The resultant force from the end pressures is
 
-$$F_P=\Delta PA=(100)\pi(0.010)^2=3.14\times10^{-2}\ \text{N}.$$
+$$F_P=\Delta PA=(100\ \text{Pa})\pi(0.010\ \text{m})^2=3.14\times10^{-2}\ \text{N}.$$
 
 For steady flow through a horizontal uniform section, viscous drag balances this pressure force, so the **net force including drag is zero**.
 
 **(b)** The flow rate and mechanical power supplied against the resistance are
 
-$$Q=Av=\pi(0.010)^2(0.015)=4.71\times10^{-6}\ \text{m}^3/\text{s},$$
+$$Q=Av=\pi(0.010\ \text{m})^2(0.015\ \text{m/s})=4.71\times10^{-6}\ \text{m}^3/\text{s},$$
 
 $$P=\Delta PQ=4.71\times10^{-4}\ \text{W}.$$
 
@@ -835,7 +835,7 @@ $$Q = \frac{\Delta P \cdot \pi r^4}{8\eta l}$$
 
 $$Q = \frac{(1300 \text{ Pa}) \cdot \pi (2.5 \times 10^{-5} \text{ m})^4}{8(2.084 \times 10^{-3} \text{ Pa·s})(1.1 \times 10^{-3} \text{ m})}$$
 
-$$Q = \frac{(1300) \cdot \pi (3.91 \times 10^{-19})}{8(2.29 \times 10^{-6})} = \frac{1.60 \times 10^{-15}}{1.83 \times 10^{-5}}$$
+$$Q = \frac{(1300 \text{ Pa}) \cdot \pi (3.91 \times 10^{-19} \text{ m}^4)}{8(2.29 \times 10^{-6} \text{ Pa·s}\cdot\text{m})} = \frac{1.60 \times 10^{-15} \text{ Pa}\cdot\text{m}^4}{1.83 \times 10^{-5} \text{ Pa·s}\cdot\text{m}}$$
 
 $$Q = 8.7 \times 10^{-11} \text{ m}^3/\text{s}$$
 
@@ -869,19 +869,19 @@ Original flow rate: $$Q_0 = 100 \text{ cm}^3/\text{s}$$
 From Poiseuille's law: $$Q \propto \frac{\Delta P \cdot r^4}{\eta \cdot l}$$
 
 **(a)** Pressure difference increases by 1.50:
-$$Q_a = Q_0 \times 1.50 = 100 \times 1.50 = 150 \text{ cm}^3/\text{s}$$
+$$Q_a = Q_0 \times 1.50 = (100 \text{ cm}^3/\text{s}) \times 1.50 = 150 \text{ cm}^3/\text{s}$$
 
 **(b)** Viscosity increases by 3.00:
-$$Q_b = Q_0 \times \frac{1}{3.00} = 100 \times \frac{1}{3.00} = 33.3 \text{ cm}^3/\text{s}$$
+$$Q_b = Q_0 \times \frac{1}{3.00} = (100 \text{ cm}^3/\text{s}) \times \frac{1}{3.00} = 33.3 \text{ cm}^3/\text{s}$$
 
 **(c)** Length increases by 4.00:
-$$Q_c = Q_0 \times \frac{1}{4.00} = 100 \times \frac{1}{4.00} = 25.0 \text{ cm}^3/\text{s}$$
+$$Q_c = Q_0 \times \frac{1}{4.00} = (100 \text{ cm}^3/\text{s}) \times \frac{1}{4.00} = 25.0 \text{ cm}^3/\text{s}$$
 
 **(d)** Radius becomes 0.100 times original:
-$$Q_d = Q_0 \times (0.100)^4 = 100 \times 0.0001 = 0.0100 \text{ cm}^3/\text{s}$$
+$$Q_d = Q_0 \times (0.100)^4 = (100 \text{ cm}^3/\text{s}) \times 0.0001 = 0.0100 \text{ cm}^3/\text{s}$$
 
 **(e)** Radius 0.100 times, length half, pressure 1.50 times:
-$$Q_e = Q_0 \times (0.100)^4 \times \frac{1}{0.5} \times 1.50 = 100 \times 0.0001 \times 2 \times 1.50 = 0.0300 \text{ cm}^3/\text{s}$$
+$$Q_e = Q_0 \times (0.100)^4 \times \frac{1}{0.5} \times 1.50 = (100 \text{ cm}^3/\text{s}) \times 0.0001 \times 2 \times 1.50 = 0.0300 \text{ cm}^3/\text{s}$$
 
 **Discussion**
 
@@ -1274,7 +1274,7 @@ This verifies the stated pressure.
 **(b) New flow rate at height 1.50 m:**
 
 New pressure from saline at 1.50 m:
-$$P_{\text{new}} = \rho g h = (1025)(9.80)(1.50) = 1.507 \times 10^4 \text{ Pa}$$
+$$P_{\text{new}} = \rho g h = (1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(1.50 \text{ m}) = 1.507 \times 10^4 \text{ Pa}$$
 
 Pressure difference driving flow:
 $$\Delta P_{\text{new}} = P_{\text{new}} - P_{\text{vein}} = 1.507 \times 10^4 - 1.066 \times 10^3 = 1.400 \times 10^4 \text{ Pa}$$
@@ -1292,7 +1292,7 @@ $$Q_2 = 0.120 \times 0.925 = 0.111 \text{ cm}^3/\text{s}$$
 Flow reverses when $$P_{\text{saline}} = P_{\text{vein}}$$:
 $$\rho g h = 1.066 \times 10^3 \text{ Pa}$$
 
-$$h = \frac{1.066 \times 10^3 \text{ Pa}}{(1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{1.066 \times 10^3}{10,045} \text{ m}$$
+$$h = \frac{1.066 \times 10^3 \text{ Pa}}{(1025 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{1.066 \times 10^3 \text{ Pa}}{10,045 \text{ Pa/m}}$$
 
 $$h = 0.106 \text{ m} = 10.6 \text{ cm}$$
 
@@ -1431,9 +1431,9 @@ Water supplied to a house by a water main has a pressure of  $$ 3.00 \times 10^{
 Since $$Q = \frac{\Delta P}{R}$$ and resistance is constant:
 $$\frac{P_2}{P_1} = \frac{Q_{hose,2}}{Q_{hose,1}}$$
 
-$$P_2 = P_1 \times \frac{Q_{hose,2}}{Q_{hose,1}} = (3.00 \times 10^5 \text{ Pa}) \times \frac{8.00}{20.0}$$
+$$P_2 = P_1 \times \frac{Q_{hose,2}}{Q_{hose,1}} = (3.00 \times 10^5 \text{ Pa}) \times \frac{8.00 \text{ L/min}}{20.0 \text{ L/min}}$$
 
-$$P_2 = 3.00 \times 10^5 \times 0.400 = 1.20 \times 10^5 \text{ Pa}$$
+$$P_2 = 3.00 \times 10^5 \text{ Pa} \times 0.400 = 1.20 \times 10^5 \text{ Pa}$$
 
 **(b) Factor increase in water main flow:**
 
@@ -1441,10 +1441,10 @@ The pressure drop in the water main is:
 $$\Delta P = P_{main} - P_{house} = RQ_{main}$$
 
 Morning:
-$$\Delta P_1 = 5.00 \times 10^5 - 3.00 \times 10^5 = 2.00 \times 10^5 \text{ Pa}$$
+$$\Delta P_1 = 5.00 \times 10^5 \text{ Pa} - 3.00 \times 10^5 \text{ Pa} = 2.00 \times 10^5 \text{ Pa}$$
 
 Afternoon:
-$$\Delta P_2 = 5.00 \times 10^5 - 1.20 \times 10^5 = 3.80 \times 10^5 \text{ Pa}$$
+$$\Delta P_2 = 5.00 \times 10^5 \text{ Pa} - 1.20 \times 10^5 \text{ Pa} = 3.80 \times 10^5 \text{ Pa}$$
 
 Since $$\Delta P = RQ_{main}$$:
 $$\frac{Q_{main,2}}{Q_{main,1}} = \frac{\Delta P_2}{\Delta P_1} = \frac{3.80 \times 10^5}{2.00 \times 10^5} = 1.90$$
@@ -1489,7 +1489,7 @@ Find the exit speed from the jet height, then add the viscous pressure drop and 
 
 **Solution**
 
-$$v=\sqrt{2g h}=\sqrt{2(9.80)(25.0)}=22.1\ \text{m/s},\qquad Q=\pi r^2v=0.174\ \text{m}^3/\text{s}.$$
+$$v=\sqrt{2g h}=\sqrt{2(9.80\ \text{m/s}^2)(25.0\ \text{m})}=22.1\ \text{m/s},\qquad Q=\pi r^2v=0.174\ \text{m}^3/\text{s}.$$
 
 Using the unrounded speed and the stated laminar-flow model,
 
@@ -1525,7 +1525,7 @@ Concrete is pumped from a cement mixer to the place it is being laid, instead of
 **Solution**
 
 Given:
-- Flow rate: $$Q = 200.0 \text{ L/min} = \frac{200.0}{60 \times 1000} \text{ m}^3/\text{s} = 3.33 \times 10^{-3} \text{ m}^3/\text{s}$$
+- Flow rate: $$Q = 200.0 \text{ L/min} = \frac{200.0 \text{ L/min}}{(60 \text{ s/min})(1000 \text{ L/m}^3)} = 3.33 \times 10^{-3} \text{ m}^3/\text{s}$$
 - Hose length: $$L = 50.0 \text{ m}$$
 - Hose diameter: $$d = 8.00 \text{ cm}$$ (radius $$r = 4.00 \text{ cm} = 0.0400 \text{ m}$$)
 - Pump pressure: $$\Delta P = 8.00 \times 10^6 \text{ Pa}$$
@@ -1543,11 +1543,11 @@ From Poiseuille's law for resistance:
 $$R = \frac{8\eta L}{\pi r^4}$$
 
 Solving for viscosity:
-$$\eta = \frac{R \pi r^4}{8L} = \frac{(2.40 \times 10^9) \pi (0.0400)^4}{8(50.0)}$$
+$$\eta = \frac{R \pi r^4}{8L} = \frac{(2.40 \times 10^9 \text{ Pa·s/m}^3) \pi (0.0400 \text{ m})^4}{8(50.0 \text{ m})}$$
 
-$$\eta = \frac{(2.40 \times 10^9) \pi (2.56 \times 10^{-6})}{400}$$
+$$\eta = \frac{(2.40 \times 10^9 \text{ Pa·s/m}^3) \pi (2.56 \times 10^{-6} \text{ m}^4)}{400 \text{ m}}$$
 
-$$\eta = \frac{1.93 \times 10^{4}}{400} = 48.2 \text{ Pa·s}$$
+$$\eta = \frac{1.93 \times 10^{4} \text{ Pa·s}\cdot\text{m}}{400 \text{ m}} = 48.2 \text{ Pa·s}$$
 
 **(c) Power supplied:**
 

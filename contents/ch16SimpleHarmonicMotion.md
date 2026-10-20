@@ -371,7 +371,7 @@ Substituting the given values ($$m = 0.0150$$ kg, $$T = 0.500$$ s):
 </div>
 
 <div class="equation">
- $$k = \frac{4(9.870)(0.0150)}{0.250} = \frac{0.592}{0.250} = 2.37 \text{ N/m}$$
+ $$k = \frac{4(9.870)(0.0150 \text{ kg})}{0.250 \text{ s}^2} = \frac{0.592 \text{ kg}}{0.250 \text{ s}^2} = 2.37 \text{ N/m}$$
 </div>
 
 **The spring constant needed is 2.37 N/m.**
@@ -382,7 +382,7 @@ The spring constant of 2.37 N/m is quite small, indicating a very soft spring. T
 
 A stiffer spring would require either a heavier mass or would oscillate too quickly to keep accurate time. The 0.5-second period means the mass completes one full oscillation (up and down) twice per second, or 120 complete cycles per minute. This regular oscillation can be used to drive the clock's timekeeping mechanism.
 
-To put this in perspective, if you hung the 15-gram cherub from this spring, it would stretch only $$x = \frac{mg}{k} = \frac{(0.015)(9.8)}{2.37} = 0.062$$ m or about 6.2 cm under its own weight—a reasonable deflection for a decorative clock ornament.
+To put this in perspective, if you hung the 15-gram cherub from this spring, it would stretch only $$x = \frac{mg}{k} = \frac{(0.015 \text{ kg})(9.8 \text{ m/s}^2)}{2.37 \text{ N/m}} = 0.062 \text{ m}$$ or about 6.2 cm under its own weight—a reasonable deflection for a decorative clock ornament.
 
 :::
 
@@ -457,19 +457,19 @@ The period of a mass-spring system is $$T = 2\pi\sqrt{\frac{m}{k}}$$. The spring
 From the initial conditions, solve for $$k$$:
 
 <div class="equation">
- $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500)}{(1.50)^2} = \frac{19.74}{2.25} = 8.77 \text{ N/m}$$
+ $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500 \text{ kg})}{(1.50 \text{ s})^2} = \frac{19.74 \text{ kg}}{2.25 \text{ s}^2} = 8.77 \text{ N/m}$$
 </div>
 
 For the new period $$T_2 = 2.00$$ s, find the total mass needed:
 
 <div class="equation">
- $$m_2 = \frac{kT_{2}^2}{4\pi^{2}} = \frac{(8.77)(2.00)^2}{4\pi^{2}} = \frac{35.08}{39.48} = 0.889 \text{ kg}$$
+ $$m_2 = \frac{kT_{2}^2}{4\pi^{2}} = \frac{(8.77 \text{ N/m})(2.00 \text{ s})^2}{4\pi^{2}} = \frac{35.08 \text{ kg}}{39.48} = 0.889 \text{ kg}$$
 </div>
 
 The mass to be added is:
 
 <div class="equation">
- $$\Delta m = m_2 - m_1 = 0.889 - 0.500 = 0.389 \text{ kg}$$
+ $$\Delta m = m_2 - m_1 = 0.889 \text{ kg} - 0.500 \text{ kg} = 0.389 \text{ kg}$$
 </div>
 
 **Discussion**
@@ -503,25 +503,25 @@ From the previous problem, we found that adding 0.389 kg to the 0.500 kg mass gi
 From the previous problem, $$T_1 = 1.50$$ s with $$m_1 = 0.500$$ kg. Using $$T = 2\pi\sqrt{\frac{m}{k}}$$:
 
 <div class="equation">
- $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500)}{(1.50)^2} = 8.77 \text{ N/m}$$
+ $$k = \frac{4\pi^{2} m_1}{T_1^2} = \frac{4\pi^{2}(0.500 \text{ kg})}{(1.50 \text{ s})^2} = 8.77 \text{ N/m}$$
 </div>
 
 For $$T = 1.99$$ s:
 
 <div class="equation">
- $$m_{\text{min}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77)(1.99)^2}{4\pi^{2}} = 0.878 \text{ kg}$$
+ $$m_{\text{min}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77 \text{ N/m})(1.99 \text{ s})^2}{4\pi^{2}} = 0.878 \text{ kg}$$
 </div>
 
 For $$T = 2.01$$ s:
 
 <div class="equation">
- $$m_{\text{max}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77)(2.01)^2}{4\pi^{2}} = 0.896 \text{ kg}$$
+ $$m_{\text{max}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77 \text{ N/m})(2.01 \text{ s})^2}{4\pi^{2}} = 0.896 \text{ kg}$$
 </div>
 
 The target mass is 0.889 kg, so the leeway is:
 
 <div class="equation">
- $$\Delta m = 0.896 - 0.878 = 0.018 \text{ kg} = 18 \text{ g}$$
+ $$\Delta m = 0.896 \text{ kg} - 0.878 \text{ kg} = 0.018 \text{ kg} = 18 \text{ g}$$
 </div>
 
 This is $$\pm 0.009$$ kg from the target. The percentage leeway is:
@@ -592,13 +592,13 @@ This proves the spring exerts an upward force of $$2mg$$ at the lowest point.
 Substituting values:
 
 <div class="equation">
- $$X = \frac{(0.25)(9.80)}{10.0} = 0.245 \text{ m}$$
+ $$X = \frac{(0.25 \text{ kg})(9.80 \text{ m/s}^2)}{10.0 \text{ N/m}} = 0.245 \text{ m}$$
 </div>
 
 (c) The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.245\sqrt{\frac{10.0}{0.25}} = 0.245\sqrt{40.0} = 1.55 \text{ m/s}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.245 \text{ m})\sqrt{\frac{10.0 \text{ N/m}}{0.25 \text{ kg}}} = (0.245 \text{ m})\sqrt{40.0 \text{ 1/s}^2} = 1.55 \text{ m/s}$$
 </div>
 
 **Discussion**
@@ -629,7 +629,7 @@ A diver on a diving board is undergoing simple harmonic motion. Her mass is 55.0
 
 The same board has the same effective force constant for both divers. Since $$T=2\pi\sqrt{m/k}$$,
 
-$$\frac{m_2}{m_1}=\left(\frac{T_2}{T_1}\right)^2,\qquad m_2=(55.0)\left(\frac{1.05}{0.800}\right)^2=94.746\ \text{kg}\approx94.7\ \text{kg}.$$
+$$\frac{m_2}{m_1}=\left(\frac{T_2}{T_1}\right)^2,\qquad m_2=(55.0\ \text{kg})\left(\frac{1.05}{0.800}\right)^2=94.746\ \text{kg}\approx94.7\ \text{kg}.$$
 
 The longer period corresponds to the larger mass. Taking the ratio avoids rounding an intermediate spring constant.
 
@@ -655,7 +655,7 @@ We can find the spring constant of the diving board from its initial frequency a
 First, find the spring constant using the board's frequency without a diver. From $$f = \frac{1}{2\pi}\sqrt{\frac{k}{m}}$$:
 
 <div class="equation">
- $$k = 4\pi^{2} f^2 m = 4\pi^{2}(4.00)^2(10.0) = 6320 \text{ N/m}$$
+ $$k = 4\pi^{2} f^2 m = 4\pi^{2}(4.00 \text{ Hz})^2(10.0 \text{ kg}) = 6320 \text{ N/m}$$
 </div>
 
 When the 75.0-kg diver stands on the board, the total mass becomes:
@@ -667,11 +667,11 @@ When the 75.0-kg diver stands on the board, the total mass becomes:
 The new frequency is:
 
 <div class="equation">
- $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{\frac{k}{m_{\text{total}}}} = \frac{1}{2\pi}\sqrt{\frac{6320}{85.0}}$$
+ $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{\frac{k}{m_{\text{total}}}} = \frac{1}{2\pi}\sqrt{\frac{6320 \text{ N/m}}{85.0 \text{ kg}}}$$
 </div>
 
 <div class="equation">
- $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{74.35} = \frac{8.62}{2\pi} = 1.37 \text{ Hz}$$
+ $$f_{\text{new}} = \frac{1}{2\pi}\sqrt{74.35 \text{ 1/s}^2} = \frac{8.62 \text{ 1/s}}{2\pi} = 1.37 \text{ Hz}$$
 </div>
 
 **Discussion**
@@ -719,19 +719,19 @@ For part (a), at equilibrium the spring force equals the child's weight, so we c
 </div>
 
 <div class="equation">
- $$k = \frac{mg}{x} = \frac{(8.0)(9.80)}{0.250} = \frac{78.4}{0.250} = 314 \text{ N/m}$$
+ $$k = \frac{mg}{x} = \frac{(8.0 \text{ kg})(9.80 \text{ m/s}^2)}{0.250 \text{ m}} = \frac{78.4 \text{ N}}{0.250 \text{ m}} = 314 \text{ N/m}$$
 </div>
 
 (b) The period of oscillation is:
 
 <div class="equation">
- $$T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{8.0}{314}} = 2\pi\sqrt{0.0255} = 2\pi(0.160) = 1.00 \text{ s}$$
+ $$T = 2\pi\sqrt{\frac{m}{k}} = 2\pi\sqrt{\frac{8.0 \text{ kg}}{314 \text{ N/m}}} = 2\pi\sqrt{0.0255 \text{ s}^2} = 2\pi(0.160 \text{ s}) = 1.00 \text{ s}$$
 </div>
 
 (c) The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.200\sqrt{\frac{314}{8.0}} = 0.200\sqrt{39.25} = 0.200(6.27) = 1.25 \text{ m/s}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.200 \text{ m})\sqrt{\frac{314 \text{ N/m}}{8.0 \text{ kg}}} = (0.200 \text{ m})\sqrt{39.25 \text{ 1/s}^2} = (0.200 \text{ m})(6.27 \text{ 1/s}) = 1.25 \text{ m/s}$$
 </div>
 
 **Discussion**
@@ -778,7 +778,7 @@ Since $$T = 2\pi\sqrt{\frac{m}{k}}$$, the ratio of periods is:
 The new period is:
 
 <div class="equation">
- $$T_2 = T_1 \times 1.291 = 1.50 \times 1.291 = 1.94 \text{ s}$$
+ $$T_2 = T_1 \times 1.291 = (1.50 \text{ s}) \times 1.291 = 1.94 \text{ s}$$
 </div>
 
 **Discussion**

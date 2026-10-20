@@ -776,7 +776,7 @@ $$ P = \frac{4\gamma}{r} = \frac{4(0.0370 \text{ N/m})}{0.0500 \text{ m}} = \fra
 
 Convert to mm Hg using $$ P = \rho g h $$, where $$ \rho_{\text{Hg}} = 13.6 \times 10^3 \text{ kg/m}^3 $$:
 
-$$ h = \frac{P}{\rho g} = \frac{2.96 \text{ Pa}}{(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{2.96}{1.33 \times 10^5} \text{ m} $$
+$$ h = \frac{P}{\rho g} = \frac{2.96 \text{ Pa}}{(13.6 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = \frac{2.96 \text{ Pa}}{1.33 \times 10^5 \text{ Pa/m}} $$
 
 $$ h = 2.23 \times 10^{-5} \text{ m} = 2.23 \times 10^{-2} \text{ mm Hg} $$
 
@@ -853,7 +853,7 @@ $$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(10
 </div>
 
 <div class="equation">
-$$ h = \frac{0.1456}{88.2} = 1.65 \times 10^{-3} \text{ m} = 1.65 \text{ mm} $$
+$$ h = \frac{0.1456 \text{ N/m}}{88.2 \text{ N/m}^2} = 1.65 \times 10^{-3} \text{ m} = 1.65 \text{ mm} $$
 </div>
 
 **(b) Radius of tube that raises water to h = 4.00 cm:**
@@ -864,7 +864,7 @@ $$ r = \frac{2\gamma \cos\theta}{\rho g h} = \frac{2(0.0728 \text{ N/m})(1)}{(10
 </div>
 
 <div class="equation">
-$$ r = \frac{0.1456}{392} = 3.71 \times 10^{-4} \text{ m} = 0.371 \text{ mm} $$
+$$ r = \frac{0.1456 \text{ N/m}}{392 \text{ N/m}^2} = 3.71 \times 10^{-4} \text{ m} = 0.371 \text{ mm} $$
 </div>
 
 The results are: (a) **1.65 × 10⁻³ m** (1.65 mm), and (b) **3.71 × 10⁻⁴ m** (0.371 mm).
@@ -1030,17 +1030,17 @@ From Table 1:
 
 **Water bubble:**
 <div class="equation">
-$$ P_w = \frac{4\gamma_{w}}{r} = \frac{4(0.0728 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.2912}{0.0200} = 14.6 \text{ Pa} $$
+$$ P_w = \frac{4\gamma_{w}}{r} = \frac{4(0.0728 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.2912 \text{ N/m}}{0.0200 \text{ m}} = 14.6 \text{ Pa} $$
 </div>
 
 **Alcohol bubble:**
 <div class="equation">
-$$ P_a = \frac{4\gamma_{a}}{r} = \frac{4(0.0223 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.0892}{0.0200} = 4.46 \text{ Pa} $$
+$$ P_a = \frac{4\gamma_{a}}{r} = \frac{4(0.0223 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.0892 \text{ N/m}}{0.0200 \text{ m}} = 4.46 \text{ Pa} $$
 </div>
 
 **Soapy water bubble:**
 <div class="equation">
-$$ P_{sw} = \frac{4\gamma_{sw}}{r} = \frac{4(0.0370 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.148}{0.0200} = 7.40 \text{ Pa} $$
+$$ P_{sw} = \frac{4\gamma_{sw}}{r} = \frac{4(0.0370 \text{ N/m})}{0.0200 \text{ m}} = \frac{0.148 \text{ N/m}}{0.0200 \text{ m}} = 7.40 \text{ Pa} $$
 </div>
 
 The gauge pressures are:
@@ -1137,7 +1137,7 @@ $$ \cos\theta = \frac{(0.0707 \text{ m})(920 \text{ kg/m}^3)(9.80 \text{ m/s}^2)
 </div>
 
 <div class="equation">
-$$ \cos\theta = \frac{63.8 \times 10^{-3}}{0.064} = 0.9966 $$
+$$ \cos\theta = \frac{63.8 \times 10^{-3} \text{ N/m}}{0.064 \text{ N/m}} = 0.9966 $$
 </div>
 
 <div class="equation">
@@ -1197,7 +1197,7 @@ $$ V_1 + V_2 = V_f $$
 
 $$ \frac{4}{3}\pi r_1^3 + \frac{4}{3}\pi r_2^3 = \frac{4}{3}\pi r_f^3 $$
 
-$$ r_f^3 = r_1^3 + r_2^3 = (0.0150)^3 + (0.0400)^3 = 3.375 \times 10^{-6} + 6.40 \times 10^{-5} $$
+$$ r_f^3 = r_1^3 + r_2^3 = (0.0150 \text{ m})^3 + (0.0400 \text{ m})^3 = 3.375 \times 10^{-6} \text{ m}^3 + 6.40 \times 10^{-5} \text{ m}^3 $$
 
 $$ r_f^3 = 6.74 \times 10^{-5} \text{ m}^3 $$
 
@@ -1245,11 +1245,11 @@ From Tables 1 and 2:
 
 Substitute values:
 <div class="equation">
-$$ \frac{h_w}{h_{Hg}} = \frac{0.0728 \times 1}{0.465 \times (-0.766)} \times \frac{13,600}{1000} $$
+$$ \frac{h_w}{h_{Hg}} = \frac{0.0728 \text{ N/m} \times 1}{0.465 \text{ N/m} \times (-0.766)} \times \frac{13,600 \text{ kg/m}^3}{1000 \text{ kg/m}^3} $$
 </div>
 
 <div class="equation">
-$$ \frac{h_w}{h_{Hg}} = \frac{0.0728}{-0.356} \times 13.6 = (-0.204) \times 13.6 = -2.78 $$
+$$ \frac{h_w}{h_{Hg}} = \frac{0.0728 \text{ N/m}}{-0.356 \text{ N/m}} \times 13.6 = (-0.204) \times 13.6 = -2.78 $$
 </div>
 
 The ratio is **-2.78**. The negative sign indicates that water is raised while mercury is depressed (lowered) in the same glass tube.

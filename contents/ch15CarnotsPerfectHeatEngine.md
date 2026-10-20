@@ -239,7 +239,7 @@ Solving for $$T_H$$:
 Converting to Celsius:
 
 <div class="equation">
- $$T_H = 676 - 273 = 403°\text{C}$$
+ $$T_H = 676 \text{ K} - 273 = 403°\text{C}$$
 </div>
 
 **Discussion**
@@ -309,10 +309,10 @@ For (a), solve $$0.420 = 1 - \frac{300}{T_H}$$ for $$T_H$$. For (b), if real eng
 
 Given: $$\eta = 42.0\% = 0.420$$, $$T_C = 27.0°\text{C} = 300 \text{ K}$$
 
-**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{300}{0.580} = 517 \text{ K} = 244°\text{C}$$
+**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{300 \text{ K}}{0.580} = 517 \text{ K} = 244°\text{C}$$
 
 **(b)** If real efficiency is 70% of Carnot: $$0.420 = 0.700 \times \eta_{C}$$, so $$\eta_{C} = 0.600$$
-Then $$T_H = \frac{300}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
+Then $$T_H = \frac{300 \text{ K}}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
 
 **(c)** Yes, car engines cannot sustain 477 °C without overheating, limiting practical efficiency to well below 42%.
 
@@ -343,7 +343,7 @@ For (a), use $$\eta = 1 - \frac{T_C}{T_H}$$ and solve for $$T_C$$. For (b), calc
 
 Given: $$\eta = 0.170$$, $$T_H = 425°\text{C} = 698 \text{ K}$$
 
-**(a)** $$T_C = T_H(1-\eta) = 698(0.830) = 579 \text{ K} = 306°\text{C}$$
+**(a)** $$T_C = T_H(1-\eta) = (698 \text{ K})(0.830) = 579 \text{ K} = 306°\text{C}$$
 
 **(b)** With $$T_C = 150°\text{C} = 423 \text{ K}$$:
 $$\eta_{max} = 1 - \frac{423}{698} = 0.394 = 39.4\%$$
@@ -451,7 +451,7 @@ Calculate the claimed efficiency:
 Alternatively, using heat transfers:
 
 <div class="equation">
- $$\text{Eff}_{\text{claimed}} = 1 - \frac{Q_c}{Q_h} = 1 - \frac{13}{25} = 0.480 = 48.0\%$$
+ $$\text{Eff}_{\text{claimed}} = 1 - \frac{Q_c}{Q_h} = 1 - \frac{13 \text{ kJ}}{25 \text{ kJ}} = 0.480 = 48.0\%$$
 </div>
 
 Calculate the maximum possible (Carnot) efficiency:
@@ -507,7 +507,7 @@ Solve $$0.800 = 1 - \frac{T_C}{T_H}$$ for $$T_H$$ with $$T_C = 270°\text{C} = 5
 
 **Solution**
 
-**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{543}{0.200} = 2715 \text{ K} = 2442°\text{C}$$
+**(a)** $$T_H = \frac{T_C}{1-\eta} = \frac{543 \text{ K}}{0.200} = 2715 \text{ K} = 2442°\text{C}$$
 
 **(b)** This temperature (2442 °C) far exceeds the critical point of water (374 °C) and melting points of most steels (~1500 °C). No practical steam engine materials can withstand this.
 
@@ -562,7 +562,7 @@ Given values:
 Converting to Celsius:
 
 <div class="equation">
- $$T_c = 217 - 273 = -56.3\text{°C}$$
+ $$T_c = 217 \text{ K} - 273 = -56.3\text{°C}$$
 </div>
 
 **The cold reservoir temperature would be −56.3 °C or 217 K.**

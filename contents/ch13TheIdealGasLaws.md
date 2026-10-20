@@ -1217,17 +1217,17 @@ Given:
 
 Volume of one ball:
 <div class="equation" >
- $$V_{\text{ball}}=\frac{4}{3}\pi r^{3}=\frac{4}{3}\pi (0.01875)^{3}= 2.76 \times 10^{-5}  \text{ m}^{3} $$
+ $$V_{\text{ball}}=\frac{4}{3}\pi r^{3}=\frac{4}{3}\pi (0.01875 \text{ m})^{3}= 2.76 \times 10^{-5}  \text{ m}^{3} $$
 </div>
 
 Total volume including spaces:
 <div class="equation" >
- $$V_{\text{total}}=N_{A} \times V_{\text{ball}} \times 1.25=\left( 6.02 \times 10^{23}\right)\left( 2.76 \times 10^{-5}\right)(1.25)= 2.08 \times 10^{19}  \text{ m}^{3} $$
+ $$V_{\text{total}}=N_{A} \times V_{\text{ball}} \times 1.25=\left( 6.02 \times 10^{23}\right)\left( 2.76 \times 10^{-5} \text{ m}^{3}\right)(1.25)= 2.08 \times 10^{19}  \text{ m}^{3} $$
 </div>
 
 Earth's surface area:
 <div class="equation" >
- $$A_{E}=4\pi R_{E}^{2}=4\pi (6.37 \times 10^{6})^{2}= 5.10 \times 10^{14}  \text{ m}^{2} $$
+ $$A_{E}=4\pi R_{E}^{2}=4\pi (6.37 \times 10^{6} \text{ m})^{2}= 5.10 \times 10^{14}  \text{ m}^{2} $$
 </div>
 
 Depth:

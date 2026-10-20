@@ -853,7 +853,7 @@ For water in glass at 20 °C:
 - Radius: $$ r = 0.500 \text{ mm} = 5.00 \times 10^{-4} \text{ m} $$
 
 <div class="equation">
-$$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(5.00 \times 10^{-4} \text{ m})} = \frac{0.1456}{4.90} = 0.0297 \text{ m} = 2.97 \text{ cm} $$
+$$ h = \frac{2\gamma \cos\theta}{\rho g r} = \frac{2(0.0728 \text{ N/m})(1)}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(5.00 \times 10^{-4} \text{ m})} = \frac{0.1456 \text{ N/m}}{4.90 \text{ N/m}^2} = 0.0297 \text{ m} = 2.97 \text{ cm} $$
 </div>
 
 **(b) Gravitational potential energy gained:**
@@ -962,7 +962,7 @@ Suppose you hit a steel nail with a 0.500-kg hammer, initially moving at  $$15.0
 Using work-energy theorem: $$ F_{\text{avg}} \cdot d = \Delta KE = \frac{1}{2}mv^{2} $$
 
 <div class="equation">
-$$ F_{\text{avg}} = \frac{mv^{2}}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{112.5}{5.60 \times 10^{-3}} = 2.01 \times 10^{4} \text{ N} $$
+$$ F_{\text{avg}} = \frac{mv^{2}}{2d} = \frac{(0.500 \text{ kg})(15.0 \text{ m/s})^2}{2(2.80 \times 10^{-3} \text{ m})} = \frac{112.5 \text{ N·m}}{5.60 \times 10^{-3} \text{ m}} = 2.01 \times 10^{4} \text{ N} $$
 </div>
 
 **(b) Compression of the nail:**
@@ -978,7 +978,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(2.01 \times 10^{4} \text{ N})(0.0600 \t
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{1.206 \times 10^{3}}{9.82 \times 10^{5}} = 1.23 \times 10^{-3} \text{ m} $$
+$$ \Delta L = \frac{1.206 \times 10^{3} \text{ N·m}}{9.82 \times 10^{5} \text{ N}} = 1.23 \times 10^{-3} \text{ m} $$
 </div>
 
 **(c) Pressure on the tip:**
@@ -1295,17 +1295,17 @@ For normal alveoli with $$ r_{\text{normal}} = 0.10 \text{ mm} = 1.0 \times 10^{
 
 $$ P_{\text{normal}} = \frac{4\gamma}{r} = \frac{4(0.050 \text{ N/m})}{1.0 \times 10^{-4} \text{ m}} = 2000 \text{ Pa} $$
 
-Converting to mm Hg: $$ P_{\text{normal}} = \frac{2000}{133} = 15.0 \text{ mm Hg} $$
+Converting to mm Hg: $$ P_{\text{normal}} = \frac{2000 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 15.0 \text{ mm Hg} $$
 
 For emphysematous alveoli with $$ r_{\text{emphysema}} = 0.50 \text{ mm} = 5.0 \times 10^{-4} \text{ m} $$:
 
 $$ P_{\text{emphysema}} = \frac{4\gamma}{r} = \frac{4(0.050 \text{ N/m})}{5.0 \times 10^{-4} \text{ m}} = 400 \text{ Pa} $$
 
-Converting to mm Hg: $$ P_{\text{emphysema}} = \frac{400}{133} = 3.0 \text{ mm Hg} $$
+Converting to mm Hg: $$ P_{\text{emphysema}} = \frac{400 \text{ Pa}}{133 \text{ Pa/mm Hg}} = 3.0 \text{ mm Hg} $$
 
 The percent reduction in pressure:
 
-$$ \text{Percent reduction} = \frac{P_{\text{normal}} - P_{\text{emphysema}}}{P_{\text{normal}}} \times 100\% = \frac{2000 - 400}{2000} \times 100\% = 80\% $$
+$$ \text{Percent reduction} = \frac{P_{\text{normal}} - P_{\text{emphysema}}}{P_{\text{normal}}} \times 100\% = \frac{2000 \text{ Pa} - 400 \text{ Pa}}{2000 \text{ Pa}} \times 100\% = 80\% $$
 
 Normal alveoli produce approximately **15.0 mm Hg** (2000 Pa) of pressure for exhalation, while emphysematous alveoli produce only **3.0 mm Hg** (400 Pa)—an **80% reduction** in surface-tension-driven exhalation pressure.
 

@@ -272,7 +272,7 @@ Solving $$V = kQ/r$$ for $$r$$:
 
 $$r = \frac{kQ}{V} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \text{ C})}{5.00 \times 10^{6} \text{ V}}$$
 
-$$r = \frac{8.99 \times 10^{9} \text{ m}}{5.00 \times 10^{6}} = 1.80 \times 10^{3} \text{ m} = 1.80 \text{ km}$$
+$$r = \frac{8.99 \times 10^{9} \text{ V·m}}{5.00 \times 10^{6} \text{ V}} = 1.80 \times 10^{3} \text{ m} = 1.80 \text{ km}$$
 
 **(b) Practical implications:**
 
@@ -282,7 +282,7 @@ A sphere of radius 1.80 km would be about 3.6 km (over 2 miles) in diameter! Thi
 
 2. **Charge limitations:** Real objects can only hold microcoulombs or less. A Van de Graaff generator, one of the highest-voltage laboratory devices, might hold microcoulombs on a meter-scale sphere.
 
-3. **Breakdown limitations:** Even if you could build such a sphere, the electric field near its surface would be $$E = V/r = 5 \times 10^6/1800 \approx 2800$$ V/m, which is very weak. However, storing 1 C would require starting at an impossibly small sphere that would immediately discharge.
+3. **Breakdown limitations:** Even if you could build such a sphere, the electric field near its surface would be $$E = V/r = (5 \times 10^6 \text{ V})/(1800 \text{ m}) \approx 2800 \text{ V/m}$$, which is very weak. However, storing 1 C would require starting at an impossibly small sphere that would immediately discharge.
 
 **Discussion**
 
@@ -323,11 +323,11 @@ $$r = \frac{kQ}{V}$$
 
 **For V = 100 V:**
 
-$$r = \frac{(8.99 \times 10^{9})(1.00 \times 10^{-6})}{100} = \frac{8990}{100} = 89.9 \text{ m}$$
+$$r = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-6} \text{ C})}{100 \text{ V}} = \frac{8990 \text{ V·m}}{100 \text{ V}} = 89.9 \text{ m}$$
 
 **For V = 200 V:**
 
-$$r = \frac{(8.99 \times 10^{9})(1.00 \times 10^{-6})}{200} = \frac{8990}{200} = 45.0 \text{ m}$$
+$$r = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \times 10^{-6} \text{ C})}{200 \text{ V}} = \frac{8990 \text{ V·m}}{200 \text{ V}} = 45.0 \text{ m}$$
 
 **Discussion**
 
@@ -395,7 +395,7 @@ Use $$V = kQ/r$$ and solve for $$Q$$. The positive potential indicates a positiv
 - Distance: $$r = 15.0 \text{ m}$$
 - Coulomb constant: $$k = 8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2$$
 
-$$Q = \frac{Vr}{k} = \frac{(500 \text{ V})(15.0 \text{ m})}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = \frac{7500}{8.99 \times 10^{9}} = 8.34 \times 10^{-7} \text{ C}$$
+$$Q = \frac{Vr}{k} = \frac{(500 \text{ V})(15.0 \text{ m})}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = \frac{7500 \text{ V·m}}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = 8.34 \times 10^{-7} \text{ C}$$
 
 $$Q = +0.834 \text{ µC}$$
 
@@ -434,9 +434,9 @@ The fission fragment with 46 protons has a charge of $$+46e$$. Use $$V = kQ/r$$ 
 
 **(a) Electric potential:**
 
-$$V = \frac{kQ}{r} = \frac{(8.99 \times 10^{9})(7.36 \times 10^{-18})}{2.00 \times 10^{-14}}$$
+$$V = \frac{kQ}{r} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(7.36 \times 10^{-18} \text{ C})}{2.00 \times 10^{-14} \text{ m}}$$
 
-$$V = \frac{6.62 \times 10^{-8}}{2.00 \times 10^{-14}} = 3.31 \times 10^{6} \text{ V} = 3.31 \text{ MV}$$
+$$V = \frac{6.62 \times 10^{-8} \text{ V·m}}{2.00 \times 10^{-14} \text{ m}} = 3.31 \times 10^{6} \text{ V} = 3.31 \text{ MV}$$
 
 **(b) Potential energy:**
 
@@ -470,11 +470,11 @@ A research Van de Graaff generator has a 2.00-m-diameter metal sphere with a cha
 
 **(a)** The sphere has radius $$R=1.00\ \text{m}$$, so
 
-$$V_s=\frac{kQ}{R}=\frac{(8.99\times10^9)(5.00\times10^{-3})}{1.00}=4.50\times10^7\ \text{V}=45.0\ \text{MV}.$$
+$$V_s=\frac{kQ}{R}=\frac{(8.99\times10^9\ \text{N·m}^2/\text{C}^2)(5.00\times10^{-3}\ \text{C})}{1.00\ \text{m}}=4.50\times10^7\ \text{V}=45.0\ \text{MV}.$$
 
 **(b)**
 
-$$r=\frac{kQ}{V}=\frac{(8.99\times10^9)(5.00\times10^{-3})}{1.00\times10^6}=45.0\ \text{m}.$$
+$$r=\frac{kQ}{V}=\frac{(8.99\times10^9\ \text{N·m}^2/\text{C}^2)(5.00\times10^{-3}\ \text{C})}{1.00\times10^6\ \text{V}}=45.0\ \text{m}.$$
 
 **(c)** Released from rest near the surface, the $$\mathrm{O}^{3+}$$ ion gains kinetic energy as its electric potential energy decreases:
 
@@ -507,7 +507,7 @@ For part (a), use $$V = kQ/r$$ to find the charge on the sphere. For part (b), u
 - Diameter: $$d = 0.200 \text{ m}$$, radius $$r = 0.100 \text{ m}$$
 - Potential: $$V = 25.0 \text{ kV} = 2.50 \times 10^{4} \text{ V}$$
 
-$$Q = \frac{Vr}{k} = \frac{(2.50 \times 10^{4})(0.100)}{8.99 \times 10^{9}} = 2.78 \times 10^{-7} \text{ C}$$
+$$Q = \frac{Vr}{k} = \frac{(2.50 \times 10^{4} \text{ V})(0.100 \text{ m})}{8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2} = 2.78 \times 10^{-7} \text{ C}$$
 
 **(b) Charge on paint droplet:**
 
@@ -519,7 +519,7 @@ The droplet starts at the sphere's potential and ends at ground (0 V). Using ene
 
 $$q \cdot V = \frac{1}{2}mv^{2}$$
 
-$$q = \frac{mv^{2}}{2V} = \frac{(1.00 \times 10^{-7})(10.0)^2}{2(2.50 \times 10^{4})} = \frac{1.00 \times 10^{-5}}{5.00 \times 10^{4}} = 2.00 \times 10^{-10} \text{ C}$$
+$$q = \frac{mv^{2}}{2V} = \frac{(1.00 \times 10^{-7} \text{ kg})(10.0 \text{ m/s})^2}{2(2.50 \times 10^{4} \text{ V})} = \frac{1.00 \times 10^{-5} \text{ J}}{5.00 \times 10^{4} \text{ V}} = 2.00 \times 10^{-10} \text{ C}$$
 
 **Discussion**
 
@@ -558,9 +558,9 @@ At closest approach:
 
 $$\text{KE} = \frac{kq_\alpha Q_{Au}}{r_{\text{min}}}$$
 
-$$r_{\text{min}} = \frac{kq_\alpha Q_{Au}}{\text{KE}} = \frac{(8.99 \times 10^{9})(3.20 \times 10^{-19})(1.264 \times 10^{-17})}{8.00 \times 10^{-13}}$$
+$$r_{\text{min}} = \frac{kq_\alpha Q_{Au}}{\text{KE}} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(3.20 \times 10^{-19} \text{ C})(1.264 \times 10^{-17} \text{ C})}{8.00 \times 10^{-13} \text{ J}}$$
 
-$$r_{\text{min}} = \frac{3.64 \times 10^{-26}}{8.00 \times 10^{-13}} = 4.55 \times 10^{-14} \text{ m} = 45.5 \text{ fm}$$
+$$r_{\text{min}} = \frac{3.64 \times 10^{-26} \text{ J·m}}{8.00 \times 10^{-13} \text{ J}} = 4.55 \times 10^{-14} \text{ m} = 45.5 \text{ fm}$$
 
 **Discussion**
 
@@ -596,23 +596,23 @@ The potential difference between two points is $$\Delta V = V_1 - V_2 = kQ(1/r_1
 - $$r_1 = 10 \text{ cm} = 0.10 \text{ m}$$
 - $$r_2 = 20 \text{ cm} = 0.20 \text{ m}$$
 
-$$\Delta V = kQ\left(\frac{1}{r_1} - \frac{1}{r_2}\right) = (8.99 \times 10^{9})(3.0 \times 10^{-6})\left(\frac{1}{0.10} - \frac{1}{0.20}\right)$$
+$$\Delta V = kQ\left(\frac{1}{r_1} - \frac{1}{r_2}\right) = (8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(3.0 \times 10^{-6} \text{ C})\left(\frac{1}{0.10 \text{ m}} - \frac{1}{0.20 \text{ m}}\right)$$
 
-$$\Delta V = (2.70 \times 10^{4})(10 - 5) = (2.70 \times 10^{4})(5) = 1.35 \times 10^{5} \text{ V} = 135 \text{ kV}$$
+$$\Delta V = (2.70 \times 10^{4} \text{ V·m})(10 \text{ m}^{-1} - 5 \text{ m}^{-1}) = (2.70 \times 10^{4} \text{ V·m})(5 \text{ m}^{-1}) = 1.35 \times 10^{5} \text{ V} = 135 \text{ kV}$$
 
 **(b) New location for doubled potential difference:**
 
-We want $$\Delta V' = 2 \times 135 = 270 \text{ kV}$$
+We want $$\Delta V' = 2 \times 135 \text{ kV} = 270 \text{ kV}$$
 
-$$270 \times 10^{3} = (8.99 \times 10^{9})(3.0 \times 10^{-6})\left(\frac{1}{0.10} - \frac{1}{r_2'}\right)$$
+$$270 \times 10^{3} \text{ V} = (8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(3.0 \times 10^{-6} \text{ C})\left(\frac{1}{0.10 \text{ m}} - \frac{1}{r_2'}\right)$$
 
-$$270 \times 10^{3} = (2.70 \times 10^{4})\left(10 - \frac{1}{r_2'}\right)$$
+$$270 \times 10^{3} \text{ V} = (2.70 \times 10^{4} \text{ V·m})\left(10 \text{ m}^{-1} - \frac{1}{r_2'}\right)$$
 
-$$10 = 10 - \frac{1}{r_2'}$$
+$$10 \text{ m}^{-1} = 10 \text{ m}^{-1} - \frac{1}{r_2'}$$
 
 This gives $$\frac{1}{r_2'} = 0$$, meaning $$r_2' \rightarrow \infty$$. Check: with the outer point at infinity,
 
-$$\Delta V = (2.70 \times 10^{4})(10 - 0) = 270 \text{ kV}$$ ✓
+$$\Delta V = (2.70 \times 10^{4} \text{ V·m})(10 \text{ m}^{-1} - 0) = 270 \text{ kV}$$ ✓
 
 **Discussion**
 
@@ -660,9 +660,9 @@ Using energy conservation (classical):
 
 $$\frac{1}{2}m_e v^2 = eV$$
 
-$$v = \sqrt{\frac{2eV}{m_e}} = \sqrt{\frac{2(1.60 \times 10^{-19})(2.50 \times 10^{7})}{9.11 \times 10^{-31}}}$$
+$$v = \sqrt{\frac{2eV}{m_e}} = \sqrt{\frac{2(1.60 \times 10^{-19} \text{ C})(2.50 \times 10^{7} \text{ V})}{9.11 \times 10^{-31} \text{ kg}}}$$
 
-$$v = \sqrt{\frac{8.00 \times 10^{-12}}{9.11 \times 10^{-31}}} = \sqrt{8.78 \times 10^{18}} = 2.96 \times 10^{9} \text{ m/s}$$
+$$v = \sqrt{\frac{8.00 \times 10^{-12} \text{ J}}{9.11 \times 10^{-31} \text{ kg}}} = \sqrt{8.78 \times 10^{18} \text{ m}^2/\text{s}^2} = 2.96 \times 10^{9} \text{ m/s}$$
 
 **(b) What is unreasonable:**
 

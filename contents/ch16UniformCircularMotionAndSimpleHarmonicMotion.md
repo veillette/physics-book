@@ -182,21 +182,21 @@ For part (a), we use the relationship between maximum velocity, amplitude, and t
 The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.00200\sqrt{\frac{1.50 \times 10^6}{85.0}}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.00200 \text{ m})\sqrt{\frac{1.50 \times 10^6 \text{ N/m}}{85.0 \text{ kg}}}$$
 </div>
 
 <div class="equation">
- $$v_{\text{max}} = 0.00200\sqrt{17647} = 0.00200(132.8) = 0.266 \text{ m/s}$$
+ $$v_{\text{max}} = (0.00200 \text{ m})\sqrt{17647 \text{ 1/s}^2} = (0.00200 \text{ m})(132.8 \text{ 1/s}) = 0.266 \text{ m/s}$$
 </div>
 
 (b) The maximum energy stored in the spring is:
 
 <div class="equation">
- $$\text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.50 \times 10^6)(0.00200)^2$$
+ $$\text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.50 \times 10^6 \text{ N/m})(0.00200 \text{ m})^2$$
 </div>
 
 <div class="equation">
- $$\text{PE}_{\text{max}} = \frac{1}{2}(1.50 \times 10^6)(4.00 \times 10^{-6}) = 3.00 \text{ J}$$
+ $$\text{PE}_{\text{max}} = \frac{1}{2}(1.50 \times 10^6 \text{ N/m})(4.00 \times 10^{-6} \text{ m}^2) = 3.00 \text{ J}$$
 </div>
 
 **Discussion**
@@ -232,19 +232,19 @@ The object bounces 3.00 cm above and below equilibrium, so the amplitude is $$X 
 (a) The maximum velocity is:
 
 <div class="equation">
- $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = 0.0300\sqrt{\frac{1.25}{0.0100}} = 0.0300\sqrt{125} = 0.0300(11.18) = 0.335 \text{ m/s}$$
+ $$v_{\text{max}} = X\sqrt{\frac{k}{m}} = (0.0300 \text{ m})\sqrt{\frac{1.25 \text{ N/m}}{0.0100 \text{ kg}}} = (0.0300 \text{ m})\sqrt{125 \text{ 1/s}^2} = (0.0300 \text{ m})(11.18 \text{ 1/s}) = 0.335 \text{ m/s}$$
 </div>
 
 (b) The kinetic energy at maximum velocity is:
 
 <div class="equation">
- $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2 = \frac{1}{2}(0.0100)(0.335)^2 = 0.00500(0.112) = 5.62 \times 10^{-4} \text{ J}$$
+ $$\text{KE} = \frac{1}{2}mv_{\text{max}}^2 = \frac{1}{2}(0.0100 \text{ kg})(0.335 \text{ m/s})^2 = (0.00500 \text{ kg})(0.112 \text{ (m/s)}^2) = 5.62 \times 10^{-4} \text{ J}$$
 </div>
 
 Alternatively, we can use energy conservation. At maximum displacement, all energy is potential:
 
 <div class="equation">
- $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.25)(0.0300)^2 = 5.63 \times 10^{-4} \text{ J}$$
+ $$\text{KE}_{\text{max}} = \text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.25 \text{ N/m})(0.0300 \text{ m})^2 = 5.63 \times 10^{-4} \text{ J}$$
 </div>
 
 **Discussion**
@@ -339,7 +339,7 @@ The shadow of the ladybug on the wall undergoes simple harmonic motion as the re
 First, convert the rotation rate to angular velocity:
 
 <div class="equation">
- $$\omega = 33.33 \text{ rpm} = 33.33 \times \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{33.33 \times 2\pi}{60} = 3.49 \text{ rad/s}$$
+ $$\omega = 33.33 \text{ rpm} = 33.33 \times \frac{2\pi \text{ rad}}{60 \text{ s}} = \frac{33.33 \times 2\pi \text{ rad}}{60 \text{ s}} = 3.49 \text{ rad/s}$$
 </div>
 
 The radius is $$r = 12.0 \text{ cm} = 0.120 \text{ m}$$
@@ -347,7 +347,7 @@ The radius is $$r = 12.0 \text{ cm} = 0.120 \text{ m}$$
 The maximum velocity of the shadow (which equals the tangential velocity) is:
 
 <div class="equation">
- $$v_{\text{max}} = r\omega = (0.120)(3.49) = 0.419 \text{ m/s}$$
+ $$v_{\text{max}} = r\omega = (0.120 \text{ m})(3.49 \text{ rad/s}) = 0.419 \text{ m/s}$$
 </div>
 
 **Discussion**

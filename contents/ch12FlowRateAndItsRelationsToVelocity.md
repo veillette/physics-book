@@ -600,7 +600,7 @@ Solving for the velocity ratio:
 $$\frac{v_2}{v_1} = \frac{A_1}{A_{\text{total}}} = \frac{1.00 \text{ cm}^2}{7.20 \text{ cm}^2} = 0.139$$
 
 The reduction factor is:
-$$\frac{v_1}{v_2} = \frac{7.20}{1.00} = 7.20$$
+$$\frac{v_1}{v_2} = \frac{7.20 \text{ cm}^2}{1.00 \text{ cm}^2} = 7.20$$
 
 **Discussion**
 
@@ -980,7 +980,7 @@ $$Q = A_1 v_1 = (2.54 \text{ cm}^2)(50.0 \text{ cm/s}) = 127 \text{ cm}^3/\text{
 **(b)** Find the velocity after falling 0.200 m using kinematics:
 $$v_2^2 = v_1^2 + 2gh$$
 $$v_2^2 = (0.500 \text{ m/s})^2 + 2(9.80 \text{ m/s}^2)(0.200 \text{ m})$$
-$$v_2^2 = 0.250 + 3.92 = 4.17 \text{ m}^2/\text{s}^2$$
+$$v_2^2 = 0.250 \text{ m}^2/\text{s}^2 + 3.92 \text{ m}^2/\text{s}^2 = 4.17 \text{ m}^2/\text{s}^2$$
 $$v_2 = 2.04 \text{ m/s}$$
 
 Apply continuity to find the new area:
@@ -1014,9 +1014,9 @@ about the premises?
 
 ::: solution
 
-**(a)** The cross-sectional area is $$A=(10.0)(2.00)=20.0\ \text{m}^2$$, so
+**(a)** The cross-sectional area is $$A=(10.0\ \text{m})(2.00\ \text{m})=20.0\ \text{m}^2$$, so
 
-$$v=\frac{Q}{A}=\frac{100\,000}{20.0}=5.00\times10^3\ \text{m/s}.$$
+$$v=\frac{Q}{A}=\frac{100\,000\ \text{m}^3/\text{s}}{20.0\ \text{m}^2}=5.00\times10^3\ \text{m/s}.$$
 
 **(b)** This speed is supersonic in both air and water. The corresponding dynamic pressure scale is $$\tfrac12\rho v^2\approx1.25\times10^{10}\ \text{Pa}$$, far beyond what could drive an ordinary stream.
 

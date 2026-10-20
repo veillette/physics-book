@@ -707,7 +707,7 @@ $$\Delta T = \frac{Q}{mc} = \frac{60.0 \text{ J}}{(0.100 \text{ kg})(3500 \text{
 </div>
 
 <div class="equation">
-$$\Delta T = \frac{60.0}{350} = 0.171\text{ºC}$$
+$$\Delta T = \frac{60.0 \text{ J}}{350 \text{ J/ºC}} = 0.171\text{ºC}$$
 </div>
 
 **Discussion**
@@ -761,7 +761,7 @@ $$\Delta T = T_f - T_i = 65.0\text{ºC} - 20.0\text{ºC} = 45.0\text{ºC}$$
 
 Solve $$Q = mc\Delta T$$ for $$c$$:
 <div class="equation">
-$$c = \frac{Q}{m\Delta T} = \frac{4350 \text{ J}}{(0.250 \text{ kg})(45.0\text{ºC})} = \frac{4350}{11.25} = 387 \text{ J/kg}\cdot\text{ºC}$$
+$$c = \frac{Q}{m\Delta T} = \frac{4350 \text{ J}}{(0.250 \text{ kg})(45.0\text{ºC})} = \frac{4350 \text{ J}}{11.25 \text{ kg}\cdot\text{ºC}} = 387 \text{ J/kg}\cdot\text{ºC}$$
 </div>
 
 Comparing to Table 1, we find that copper has a specific heat of 387 J/kg·ºC.
@@ -824,7 +824,7 @@ From Table 1:
 - Specific heat of copper: $$c_{Cu} = 387 \text{ J/kg}\cdot\text{ºC}$$
 
 <div class="equation">
-$$\frac{m_{Cu}}{m_w} = \frac{4186}{387} = 10.8$$
+$$\frac{m_{Cu}}{m_w} = \frac{4186 \text{ J/kg}\cdot\text{ºC}}{387 \text{ J/kg}\cdot\text{ºC}} = 10.8$$
 </div>
 
 **Discussion**
@@ -885,7 +885,7 @@ $$Q_{Al} = m_{Al} c_{Al} \Delta T = (100 \text{ g})(0.215 \text{ cal/g}\cdot\tex
 
 Total heat released by peanut:
 <div class="equation">
-$$Q_{total} = Q_w + Q_{Al} = 27450 + 1180 = 28630 \text{ cal} = 28.6 \text{ kcal}$$
+$$Q_{total} = Q_w + Q_{Al} = 27450 \text{ cal} + 1180 \text{ cal} = 28630 \text{ cal} = 28.6 \text{ kcal}$$
 </div>
 
 Energy per gram of peanut:
@@ -938,11 +938,11 @@ Given:
 
 **Step 1:** Calculate heat that must be removed to cool the body:
 <div class="equation">
-$$Q_{cool} = mc\Delta T = (80.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(40.0 - 37.0)\text{ºC}$$
+$$Q_{cool} = mc\Delta T = (80.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(40.0\text{ºC} - 37.0\text{ºC})$$
 </div>
 
 <div class="equation">
-$$Q_{cool} = (80.0)(3500)(3.0) = 840000 \text{ J} = 8.40 \times 10^5 \text{ J}$$
+$$Q_{cool} = (80.0 \text{ kg})(3500 \text{ J/kg}\cdot\text{ºC})(3.0\text{ºC}) = 840000 \text{ J} = 8.40 \times 10^5 \text{ J}$$
 </div>
 
 **Step 2:** Calculate rate needed to remove this heat in 30 minutes:
@@ -957,7 +957,7 @@ The body must transfer out both:
 - Metabolic heat being produced: 150 W
 
 <div class="equation">
-$$P_{total} = P_{cool} + P_{metabolic} = 467 + 150 = 617 \text{ W}$$
+$$P_{total} = P_{cool} + P_{metabolic} = 467 \text{ W} + 150 \text{ W} = 617 \text{ W}$$
 </div>
 
 **Discussion**
@@ -1017,7 +1017,7 @@ $$\frac{\Delta T}{t} = \frac{P}{mc} = \frac{1.50 \times 10^8 \text{ J/s}}{(1.60 
 </div>
 
 <div class="equation">
-$$\frac{\Delta T}{t} = \frac{1.50 \times 10^8}{5.358 \times 10^7} = 2.80\text{ ºC/s}$$
+$$\frac{\Delta T}{t} = \frac{1.50 \times 10^8 \text{ J/s}}{5.358 \times 10^7 \text{ J/ºC}} = 2.80\text{ ºC/s}$$
 </div>
 
 **(b)** Time to reach $$\Delta T = 2000\text{ºC}$$:

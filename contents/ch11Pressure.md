@@ -430,16 +430,16 @@ where:
 *760 mm Hg (standard atmosphere):*
 - $$ \rho_{\text{Hg}} = 13,600 \text{ kg/m}^3 $$
 - $$ h = 760 \text{ mm} = 0.760 \text{ m} $$
-- $$ P = (13,600)(9.80)(0.760) = 101,300 \text{ Pa} $$
+- $$ P = (13,600 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.760 \text{ m}) = 101,300 \text{ Pa} $$
 
 *10 cm H₂O:*
 - $$ \rho_{\text{water}} = 1000 \text{ kg/m}^3 $$
 - $$ h = 10 \text{ cm} = 0.10 \text{ m} $$
-- $$ P = (1000)(9.80)(0.10) = 980 \text{ Pa} $$
+- $$ P = (1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.10 \text{ m}) = 980 \text{ Pa} $$
 
 *30 inches Hg:*
 - $$ h = 30 \text{ in} \times 0.0254 \text{ m/in} = 0.762 \text{ m} $$
-- $$ P = (13,600)(9.80)(0.762) = 101,600 \text{ Pa} $$
+- $$ P = (13,600 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.762 \text{ m}) = 101,600 \text{ Pa} $$
 
 **Discussion:**
 This method requires knowing only the fluid's density and basic unit conversions. The approach works because these pressure units were historically defined by manometer measurements—literally the height of a fluid column that a pressure could support. Mercury is commonly used because its high density (13.6× water) gives convenient column heights, while water columns are used for lower pressures. Understanding this conversion method also helps in reading manometers and barometers directly.

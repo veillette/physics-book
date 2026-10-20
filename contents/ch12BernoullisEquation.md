@@ -945,7 +945,7 @@ $$\frac{h_2}{h_1} = \frac{v_2^2}{v_1^2}$$
 Solving for $$h_2$$:
 $$h_2 = h_1 \times \frac{v_2^2}{v_1^2} = 15.0 \text{ mm Hg} \times \frac{(700 \text{ km/h})^2}{(200 \text{ km/h})^2}$$
 
-$$h_2 = 15.0 \text{ mm Hg} \times \frac{490,000}{40,000} = 15.0 \text{ mm Hg} \times 12.25$$
+$$h_2 = 15.0 \text{ mm Hg} \times \frac{490,000 \text{ km}^2/\text{h}^2}{40,000 \text{ km}^2/\text{h}^2} = 15.0 \text{ mm Hg} \times 12.25$$
 
 $$h_2 = 184 \text{ mm Hg}$$
 
@@ -978,10 +978,10 @@ $$\frac{1}{2}v^2 = gh_{max}$$
 $$h_{max} = \frac{v^2}{2g}$$
 
 **(a)** With nozzle (v = 25.5 m/s):
-$$h_{max} = \frac{(25.5 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{650.25}{19.6} = 33.2 \text{ m}$$
+$$h_{max} = \frac{(25.5 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{650.25 \text{ m}^2/\text{s}^2}{19.6 \text{ m/s}^2} = 33.2 \text{ m}$$
 
 **(b)** Without nozzle (v = 1.96 m/s):
-$$h_{max} = \frac{(1.96 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3.84}{19.6} = 0.196 \text{ m} \approx 0.20 \text{ m}$$
+$$h_{max} = \frac{(1.96 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3.84 \text{ m}^2/\text{s}^2}{19.6 \text{ m/s}^2} = 0.196 \text{ m} \approx 0.20 \text{ m}$$
 
 **Discussion**
 
@@ -1018,7 +1018,7 @@ Given:
 Using Bernoulli's principle, the pressure difference is:
 $$\Delta P = \frac{1}{2}\rho v^2 = \frac{1}{2}(1.14 \text{ kg/m}^3)(45.0 \text{ m/s})^2$$
 
-$$\Delta P = \frac{1}{2}(1.14)(2025) = 1154 \text{ N/m}^2 \approx 1.15 \text{ kPa}$$
+$$\Delta P = \frac{1}{2}(1.14 \text{ kg/m}^3)(2025 \text{ m}^2/\text{s}^2) = 1154 \text{ N/m}^2 \approx 1.15 \text{ kPa}$$
 
 The upward force on the roof is:
 $$F = \Delta P \times A = (1154 \text{ N/m}^2)(220 \text{ m}^2) = 2.54 \times 10^5 \text{ N}$$
@@ -1062,7 +1062,7 @@ $$\Delta P = P_b - P_f = \frac{1}{2}\rho(v_f^2 - v_b^2)$$
 
 $$\Delta P = \frac{1}{2}(1.29 \text{ kg/m}^3)[(6.00 \text{ m/s})^2 - (3.50 \text{ m/s})^2]$$
 
-$$\Delta P = \frac{1}{2}(1.29)(36.0 - 12.25) = \frac{1}{2}(1.29)(23.75) = 15.3 \text{ N/m}^2$$
+$$\Delta P = \frac{1}{2}(1.29 \text{ kg/m}^3)(36.0 \text{ m}^2/\text{s}^2 - 12.25 \text{ m}^2/\text{s}^2) = \frac{1}{2}(1.29 \text{ kg/m}^3)(23.75 \text{ m}^2/\text{s}^2) = 15.3 \text{ N/m}^2$$
 
 Force per square meter:
 $$F = \Delta P \times A = 15.3 \text{ N/m}^2 \times 1.00 \text{ m}^2 = 15.3 \text{ N}$$
@@ -1116,12 +1116,12 @@ $$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
 
 $$\Delta P = P_1 - P_2 = \frac{1}{2}\rho(v_2^2 - v_1^2)$$
 
-$$\Delta P = \frac{1}{2}(1000 \text{ kg/m}^3)[(56.6)^2 - (6.29)^2] \text{ m}^2/\text{s}^2$$
+$$\Delta P = \frac{1}{2}(1000 \text{ kg/m}^3)[(56.6 \text{ m/s})^2 - (6.29 \text{ m/s})^2]$$
 
-$$\Delta P = \frac{1}{2}(1000)(3204 - 39.6) = \frac{1}{2}(1000)(3164) = 1.58 \times 10^6 \text{ N/m}^2$$
+$$\Delta P = \frac{1}{2}(1000 \text{ kg/m}^3)(3204 \text{ m}^2/\text{s}^2 - 39.6 \text{ m}^2/\text{s}^2) = \frac{1}{2}(1000 \text{ kg/m}^3)(3164 \text{ m}^2/\text{s}^2) = 1.58 \times 10^6 \text{ N/m}^2$$
 
 **(b)** Maximum height from nozzle exit velocity:
-$$h_{max} = \frac{v_2^2}{2g} = \frac{(56.6 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3204}{19.6} = 163 \text{ m}$$
+$$h_{max} = \frac{v_2^2}{2g} = \frac{(56.6 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{3204 \text{ m}^2/\text{s}^2}{19.6 \text{ m/s}^2} = 163 \text{ m}$$
 
 **Discussion**
 
@@ -1192,7 +1192,7 @@ Given:
 
 $$v = \sqrt{\frac{2(13,600 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.200 \text{ m})}{1.29 \text{ kg/m}^3}}$$
 
-$$v = \sqrt{\frac{53,312}{1.29}} = \sqrt{41,327} = 203 \text{ m/s}$$
+$$v = \sqrt{\frac{53,312 \text{ Pa}}{1.29 \text{ kg/m}^3}} = \sqrt{41,327 \text{ m}^2/\text{s}^2} = 203 \text{ m/s}$$
 
 **Discussion**
 

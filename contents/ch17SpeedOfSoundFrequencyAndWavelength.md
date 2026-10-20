@@ -533,7 +533,7 @@ Given:
 Step 1: Convert temperature to Kelvin:
 
 <div class="equation">
-$$T = 20.0 + 273 = 293 \text{ K}$$
+$$T = 20.0\text{°C} + 273 = 293 \text{ K}$$
 </div>
 
 Step 2: Substitute into the speed of sound formula:
@@ -576,7 +576,7 @@ Given:
 Step 1: Convert temperature to Kelvin:
 
 <div class="equation">
-$$T = 56.0 + 273 = 329 \text{ K}$$
+$$T = 56.0\text{°C} + 273 = 329 \text{ K}$$
 </div>
 
 Step 2: Substitute into the speed of sound formula:
@@ -766,10 +766,10 @@ $$d = v_w t = (345 \text{ m/s})(0.400 \text{ s}) = 138 \text{ m}$$
 Solving for $$d$$:
 
 <div class="equation">
-$$0.400 = d\left(\frac{1}{345} - \frac{1}{3.00 \times 10^8}\right) = d\left(\frac{1}{345}\right)\left(1 - \frac{345}{3.00 \times 10^8}\right)$$
+$$0.400 \text{ s} = d\left(\frac{1}{345 \text{ m/s}} - \frac{1}{3.00 \times 10^8 \text{ m/s}}\right) = d\left(\frac{1}{345 \text{ m/s}}\right)\left(1 - \frac{345 \text{ m/s}}{3.00 \times 10^8 \text{ m/s}}\right)$$
 </div>
 
-Since $$345/(3.00 \times 10^8) = 1.15 \times 10^{-6} \ll 1$$, we can approximate:
+Since $$345 \text{ m/s}/(3.00 \times 10^8 \text{ m/s}) = 1.15 \times 10^{-6} \ll 1$$, we can approximate:
 
 <div class="equation">
 $$d = \frac{0.400 \text{ s}}{1/345 \text{ s/m}} = 138 \text{ m}$$
@@ -836,7 +836,7 @@ $$t_2 = \frac{2d}{v_2} = \frac{2(3.00 \text{ m})}{351 \text{ m/s}} = 0.0171 \tex
 **(b)** Percent uncertainty (using the difference relative to the average):
 
 <div class="equation">
-$$\text{Percent uncertainty} = \frac{t_1 - t_2}{t_1} \times 100\% = \frac{18.0 - 17.1}{18.0} \times 100\% = \frac{0.9}{18.0} \times 100\% = 5.00\%$$
+$$\text{Percent uncertainty} = \frac{t_1 - t_2}{t_1} \times 100\% = \frac{18.0 \text{ ms} - 17.1 \text{ ms}}{18.0 \text{ ms}} \times 100\% = \frac{0.9 \text{ ms}}{18.0 \text{ ms}} \times 100\% = 5.00\%$$
 </div>
 
 **(c)** A 5% uncertainty in echo time translates to a 5% uncertainty in the perceived distance to the prey. For a target 3.00 m away, this represents an uncertainty of about 15 cm (0.15 m). This could definitely cause difficulties for the bat if it relied on a single echo measurement. Since a bat is typically 5-10 cm in length and catches insects with its mouth or wing membranes, an error of 15 cm could mean the difference between a successful catch and a miss—the bat might strike too early or too late. However, in practice, bats continuously emit sound pulses as they approach prey (often increasing the pulse rate as they close in), which allows them to update their distance measurements many times per second. This continuous tracking, combined with the bat's ability to adjust for temperature through experience or neural processing, largely eliminates the difficulties that would arise from temperature-induced speed variations. Additionally, the bat uses other cues such as the Doppler shift of echoes to determine relative motion.

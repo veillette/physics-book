@@ -223,7 +223,7 @@ Apply Coulomb's law:
 </div>
 
 <div class="equation">
- $$F = \left(8.99 \times 10^9\right) \frac{9.00 \times 10^{-16}}{6.40 \times 10^{-3}} \text{ N}$$
+ $$F = \left(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2\right) \frac{9.00 \times 10^{-16} \text{ C}^2}{6.40 \times 10^{-3} \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -281,7 +281,7 @@ Apply Coulomb's law:
 </div>
 
 <div class="equation">
- $$F = \left(8.99 \times 10^9\right) \frac{4.20 \times 10^{-13}}{1.44 \times 10^{-2}} \text{ N}$$
+ $$F = \left(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2\right) \frac{4.20 \times 10^{-13} \text{ C}^2}{1.44 \times 10^{-2} \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -463,11 +463,11 @@ Substitute the values:
 </div>
 
 <div class="equation">
- $$r = \sqrt{\frac{(8.99 \times 10^9)(5.625 \times 10^{-15})}{1.00}} \text{ m}$$
+ $$r = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(5.625 \times 10^{-15} \text{ C}^2)}{1.00 \text{ N}}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{5.06 \times 10^{-5}} \text{ m}$$
+ $$r = \sqrt{5.06 \times 10^{-5} \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -523,7 +523,7 @@ Apply Coulomb's law:
 </div>
 
 <div class="equation">
- $$F = (8.99 \times 10^9) \frac{1}{1.00 \times 10^6} \text{ N}$$
+ $$F = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{1 \text{ C}^2}{1.00 \times 10^6 \text{ m}^2}$$
 </div>
 
 <div class="equation">
@@ -581,21 +581,21 @@ Given values:
 **(a)** Calculate the force from the $$+6 \mu\text{C}$$ charge:
 
 <div class="equation">
- $$F_1 = k\frac{q_1 q_{\text{test}}}{r_1^2} = (8.99 \times 10^9) \frac{(6 \times 10^{-6})(2 \times 10^{-6})}{(5.0 \times 10^{-2})^2}$$
+ $$F_1 = k\frac{q_1 q_{\text{test}}}{r_1^2} = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{(6 \times 10^{-6} \text{ C})(2 \times 10^{-6} \text{ C})}{(5.0 \times 10^{-2} \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_1 = (8.99 \times 10^9) \frac{12 \times 10^{-12}}{2.5 \times 10^{-3}} = 43.2 \text{ N}$$
+ $$F_1 = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{12 \times 10^{-12} \text{ C}^2}{2.5 \times 10^{-3} \text{ m}^2} = 43.2 \text{ N}$$
 </div>
 
 Calculate the force from the $$+4 \mu\text{C}$$ charge:
 
 <div class="equation">
- $$F_2 = k\frac{q_2 q_{\text{test}}}{r_2^2} = (8.99 \times 10^9) \frac{(4 \times 10^{-6})(2 \times 10^{-6})}{(5.0 \times 10^{-2})^2}$$
+ $$F_2 = k\frac{q_2 q_{\text{test}}}{r_2^2} = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{(4 \times 10^{-6} \text{ C})(2 \times 10^{-6} \text{ C})}{(5.0 \times 10^{-2} \text{ m})^2}$$
 </div>
 
 <div class="equation">
- $$F_2 = (8.99 \times 10^9) \frac{8 \times 10^{-12}}{2.5 \times 10^{-3}} = 28.8 \text{ N}$$
+ $$F_2 = (8.99 \times 10^9 \text{ N·m}^2/\text{C}^2) \frac{8 \times 10^{-12} \text{ C}^2}{2.5 \times 10^{-3} \text{ m}^2} = 28.8 \text{ N}$$
 </div>
 
 The forces point in opposite directions. Let's define the direction toward the $$+4 \mu\text{C}$$ charge as positive. Then $$F_1$$ pushes the test charge away from the $$+6 \mu\text{C}$$ charge (positive direction) and $$F_2$$ pushes it away from the $$+4 \mu\text{C}$$ charge (negative direction).
@@ -603,7 +603,7 @@ The forces point in opposite directions. Let's define the direction toward the $
 Net force:
 
 <div class="equation">
- $$F_{\text{net}} = F_1 - F_2 = 43.2 - 28.8 = 14.4 \text{ N}$$
+ $$F_{\text{net}} = F_1 - F_2 = 43.2 \text{ N} - 28.8 \text{ N} = 14.4 \text{ N}$$
 </div>
 
 **(b)** Since $$F_{\text{net}}$$ is positive, the net force is directed away from the $$+6 \mu\text{C}$$ charge (toward the $$+4 \mu\text{C}$$ charge).
@@ -673,11 +673,11 @@ We follow the problem-solving strategy for electrostatics:
 </div>
 
 <div class="equation">
- $$a = \frac{(9.00 \times 10^9)(2.56 \times 10^{-38})}{(1.67 \times 10^{-27})(4.00 \times 10^{-18})}$$
+ $$a = \frac{(9.00 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.56 \times 10^{-38} \text{ C}^2)}{(1.67 \times 10^{-27} \text{ kg})(4.00 \times 10^{-18} \text{ m}^2)}$$
 </div>
 
 <div class="equation">
- $$a = \frac{2.304 \times 10^{-28}}{6.68 \times 10^{-45}} = 3.45 \times 10^{16} \text{ m/s}^2$$
+ $$a = \frac{2.304 \times 10^{-28} \text{ N·m}^2}{6.68 \times 10^{-45} \text{ kg·m}^2} = 3.45 \times 10^{16} \text{ m/s}^2$$
 </div>
 
 **Discussion**
@@ -888,15 +888,15 @@ Substituting values:
 </div>
 
 <div class="equation">
- $$q = (1.00 \times 10^{-2})\sqrt{\frac{9.80 \times 10^{-5}}{8.99 \times 10^9}} \text{ C}$$
+ $$q = (1.00 \times 10^{-2} \text{ m})\sqrt{\frac{9.80 \times 10^{-5} \text{ N}}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}}$$
 </div>
 
 <div class="equation">
- $$q = (1.00 \times 10^{-2})\sqrt{1.09 \times 10^{-14}} \text{ C}$$
+ $$q = (1.00 \times 10^{-2} \text{ m})\sqrt{1.09 \times 10^{-14} \text{ C}^2/\text{m}^2}$$
 </div>
 
 <div class="equation">
- $$q = (1.00 \times 10^{-2})(1.04 \times 10^{-7}) = 1.04 \times 10^{-9} \text{ C}$$
+ $$q = (1.00 \times 10^{-2} \text{ m})(1.04 \times 10^{-7} \text{ C/m}) = 1.04 \times 10^{-9} \text{ C}$$
 </div>
 
 **(b)** The charge is approximately 1.04 nC, which is indeed consistent with typical static electricity. Static charges commonly range from nanocoulombs to microcoulombs. The fact that such a small charge (about 1 nC) can levitate a piece of tape demonstrates the strength of electrostatic forces at small separations.
@@ -941,15 +941,15 @@ Known constants:
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9)(1.60 \times 10^{-19})^2}{(6.67 \times 10^{-11})(9.11 \times 10^{-31})^2}$$
+ $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(9.11 \times 10^{-31} \text{ kg})^2}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9)(2.56 \times 10^{-38})}{(6.67 \times 10^{-11})(8.30 \times 10^{-61})}$$
+ $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.56 \times 10^{-38} \text{ C}^2)}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(8.30 \times 10^{-61} \text{ kg}^2)}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28}}{5.54 \times 10^{-71}} = 4.16 \times 10^{42}$$
+ $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28} \text{ N·m}^2}{5.54 \times 10^{-71} \text{ N·m}^2} = 4.16 \times 10^{42}$$
 </div>
 
 **(b)** For two protons:
@@ -959,15 +959,15 @@ Known constants:
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9)(1.60 \times 10^{-19})^2}{(6.67 \times 10^{-11})(1.67 \times 10^{-27})^2}$$
+ $$\frac{F_e}{F_g} = \frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(1.67 \times 10^{-27} \text{ kg})^2}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28}}{(6.67 \times 10^{-11})(2.79 \times 10^{-54})}$$
+ $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28} \text{ N·m}^2}{(6.67 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(2.79 \times 10^{-54} \text{ kg}^2)}$$
 </div>
 
 <div class="equation">
- $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28}}{1.86 \times 10^{-64}} = 1.24 \times 10^{36}$$
+ $$\frac{F_e}{F_g} = \frac{2.30 \times 10^{-28} \text{ N·m}^2}{1.86 \times 10^{-64} \text{ N·m}^2} = 1.24 \times 10^{36}$$
 </div>
 
 **(c)** The ratio is different because it depends on the mass of the particles ($$\frac{1}{m^2}$$), while the electrostatic force depends on charge (which is the same for electrons and protons). Electrons have much smaller mass than protons ($$m_e \approx \frac{1}{1836} m_p$$), so the gravitational force between electrons is much weaker relative to their electrostatic force. The ratio is inversely proportional to the square of the mass, making the ratio about $$(1836)^2 \approx 3.4 \times 10^6$$ times larger for electrons than for protons.
@@ -1027,19 +1027,19 @@ Substitute the values:
 - $$g = 9.80 \text{ m/s}^2$$
 
 <div class="equation">
- $$r = \sqrt{\frac{(8.99 \times 10^9)(1.60 \times 10^{-19})^2}{(1.67 \times 10^{-27})(9.80)}}$$
+ $$r = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(1.60 \times 10^{-19} \text{ C})^2}{(1.67 \times 10^{-27} \text{ kg})(9.80 \text{ m/s}^2)}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{\frac{(8.99 \times 10^9)(2.56 \times 10^{-38})}{1.64 \times 10^{-26}}}$$
+ $$r = \sqrt{\frac{(8.99 \times 10^9 \text{ N·m}^2/\text{C}^2)(2.56 \times 10^{-38} \text{ C}^2)}{1.64 \times 10^{-26} \text{ N}}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{\frac{2.30 \times 10^{-28}}{1.64 \times 10^{-26}}}$$
+ $$r = \sqrt{\frac{2.30 \times 10^{-28} \text{ N·m}^2}{1.64 \times 10^{-26} \text{ N}}}$$
 </div>
 
 <div class="equation">
- $$r = \sqrt{1.40 \times 10^{-2}} = 0.118 \text{ m} = 11.8 \text{ cm}$$
+ $$r = \sqrt{1.40 \times 10^{-2} \text{ m}^2} = 0.118 \text{ m} = 11.8 \text{ cm}$$
 </div>
 
 **Discussion**
@@ -1091,7 +1091,7 @@ The electrostatic force must equal the weight:
 </div>
 
 <div class="equation">
- $$q = \sqrt{5.45 \times 10^{-12}} = 2.34 \times 10^{-6} \text{ C}$$
+ $$q = (1.00 \text{ m})\sqrt{5.45 \times 10^{-12} \text{ C}^2/\text{m}^2} = 2.34 \times 10^{-6} \text{ C}$$
 </div>
 
 **Step 3:** Calculate the number of electrons removed.
@@ -1149,7 +1149,7 @@ Even though we're only removing about 14.6 trillion electrons (which sounds like
 
 The algebraic charge sum is $$S=q_1+q_2=8.00\ \mu\text{C}$$. Coulomb's law gives
 
-$$|q_1q_2|=\frac{Fr^2}{k}=\frac{(0.150)(0.500)^2}{8.99\times10^9}=4.17\times10^{-12}\ \text{C}^2.$$
+$$|q_1q_2|=\frac{Fr^2}{k}=\frac{(0.150\ \text{N})(0.500\ \text{m})^2}{8.99\times10^9\ \text{N·m}^2/\text{C}^2}=4.17\times10^{-12}\ \text{C}^2.$$
 
 **(a)** Repulsion requires a positive product. The charges are the roots of
 
@@ -1188,7 +1188,7 @@ For the net force on a third charge to be zero, the forces from the two existing
 
 Since the charges have opposite signs, the third charge $$q_3$$ cannot be placed between them (both forces would point in the same direction). The equilibrium point must be beyond the negative charge.
 
-Let $$x$$ be the distance from the negative charge ($$q_2$$) to the test charge, on the side away from $$q_1$$. Then the distance from $$q_1$$ to the test charge is $$d + x = 0.250 + x$$.
+Let $$x$$ be the distance from the negative charge ($$q_2$$) to the test charge, on the side away from $$q_1$$. Then the distance from $$q_1$$ to the test charge is $$d + x = 0.250 \text{ m} + x$$.
 
 For equilibrium:
 
@@ -1197,93 +1197,93 @@ For equilibrium:
 </div>
 
 <div class="equation">
- $$k\frac{\mid q_1 q_3 \mid}{(0.250 + x)^2} = k\frac{\mid q_2 q_3 \mid}{x^2}$$
+ $$k\frac{\mid q_1 q_3 \mid}{(0.250 \text{ m} + x)^2} = k\frac{\mid q_2 q_3 \mid}{x^2}$$
 </div>
 
 <div class="equation">
- $$\frac{5.00}{(0.250 + x)^2} = \frac{3.00}{x^2}$$
+ $$\frac{5.00 \text{ μC}}{(0.250 \text{ m} + x)^2} = \frac{3.00 \text{ μC}}{x^2}$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.250 + x)^2$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.250 \text{ m} + x)^2$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.0625 + 0.500x + x^2)$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.0625 \text{ m}^2 + 0.500 \text{ m}\, x + x^2)$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 0.1875 + 1.50x + 3.00x^2$$
+ $$5.00 \text{ μC}\, x^2 = 0.1875 \text{ μC·m}^2 + 1.50 \text{ μC·m}\, x + 3.00 \text{ μC}\, x^2$$
 </div>
 
 <div class="equation">
- $$2.00 x^2 - 1.50x - 0.1875 = 0$$
+ $$2.00 \text{ μC}\, x^2 - 1.50 \text{ μC·m}\, x - 0.1875 \text{ μC·m}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$x = \frac{1.50 \pm \sqrt{(1.50)^2 + 4(2.00)(0.1875)}}{2(2.00)}$$
+ $$x = \frac{1.50 \text{ μC·m} \pm \sqrt{(1.50 \text{ μC·m})^2 + 4(2.00 \text{ μC})(0.1875 \text{ μC·m}^2)}}{2(2.00 \text{ μC})}$$
 </div>
 
 <div class="equation">
- $$x = \frac{1.50 \pm \sqrt{2.25 + 1.50}}{4.00} = \frac{1.50 \pm \sqrt{3.75}}{4.00}$$
+ $$x = \frac{1.50 \text{ μC·m} \pm \sqrt{2.25 (\text{ μC·m})^2 + 1.50 (\text{ μC·m})^2}}{4.00 \text{ μC}} = \frac{1.50 \text{ μC·m} \pm \sqrt{3.75 (\text{ μC·m})^2}}{4.00 \text{ μC}}$$
 </div>
 
 <div class="equation">
- $$x = \frac{1.50 \pm 1.936}{4.00}$$
+ $$x = \frac{1.50 \text{ μC·m} \pm 1.936 \text{ μC·m}}{4.00 \text{ μC}}$$
 </div>
 
 Taking the positive solution:
 
 <div class="equation">
- $$x = \frac{1.50 + 1.936}{4.00} = 0.859 \text{ m}$$
+ $$x = \frac{1.50 \text{ μC·m} + 1.936 \text{ μC·m}}{4.00 \text{ μC}} = 0.859 \text{ m}$$
 </div>
 
 The third charge should be placed **0.859 m beyond the −3.00 μC charge** on the line connecting the two charges.
 
 **(b)** With both charges positive: $$q_1 = +5.00 \text{ μC}$$ and $$q_2 = +3.00 \text{ μC}$$.
 
-Now the equilibrium point must be between the charges. Let $$x$$ be the distance from the smaller charge ($$q_2 = 3.00 \text{ μC}$$). Then the distance from the larger charge is $$0.250 - x$$.
+Now the equilibrium point must be between the charges. Let $$x$$ be the distance from the smaller charge ($$q_2 = 3.00 \text{ μC}$$). Then the distance from the larger charge is $$0.250 \text{ m} - x$$.
 
 <div class="equation">
- $$\frac{q_1}{(0.250 - x)^2} = \frac{q_2}{x^2}$$
+ $$\frac{q_1}{(0.250 \text{ m} - x)^2} = \frac{q_2}{x^2}$$
 </div>
 
 <div class="equation">
- $$\frac{5.00}{(0.250 - x)^2} = \frac{3.00}{x^2}$$
+ $$\frac{5.00 \text{ μC}}{(0.250 \text{ m} - x)^2} = \frac{3.00 \text{ μC}}{x^2}$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.250 - x)^2$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.250 \text{ m} - x)^2$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 3.00(0.0625 - 0.500x + x^2)$$
+ $$(5.00 \text{ μC})\, x^2 = (3.00 \text{ μC})(0.0625 \text{ m}^2 - 0.500 \text{ m}\, x + x^2)$$
 </div>
 
 <div class="equation">
- $$5.00 x^2 = 0.1875 - 1.50x + 3.00x^2$$
+ $$5.00 \text{ μC}\, x^2 = 0.1875 \text{ μC·m}^2 - 1.50 \text{ μC·m}\, x + 3.00 \text{ μC}\, x^2$$
 </div>
 
 <div class="equation">
- $$2.00 x^2 + 1.50x - 0.1875 = 0$$
+ $$2.00 \text{ μC}\, x^2 + 1.50 \text{ μC·m}\, x - 0.1875 \text{ μC·m}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$x = \frac{-1.50 \pm \sqrt{(1.50)^2 + 4(2.00)(0.1875)}}{2(2.00)}$$
+ $$x = \frac{-1.50 \text{ μC·m} \pm \sqrt{(1.50 \text{ μC·m})^2 + 4(2.00 \text{ μC})(0.1875 \text{ μC·m}^2)}}{2(2.00 \text{ μC})}$$
 </div>
 
 <div class="equation">
- $$x = \frac{-1.50 \pm 1.936}{4.00}$$
+ $$x = \frac{-1.50 \text{ μC·m} \pm 1.936 \text{ μC·m}}{4.00 \text{ μC}}$$
 </div>
 
 Taking the positive solution:
 
 <div class="equation">
- $$x = \frac{-1.50 + 1.936}{4.00} = 0.109 \text{ m}$$
+ $$x = \frac{-1.50 \text{ μC·m} + 1.936 \text{ μC·m}}{4.00 \text{ μC}} = 0.109 \text{ m}$$
 </div>
 
 The third charge should be placed **0.109 m from the +3.00 μC charge** (the lesser charge) on the line connecting the two charges.
@@ -1327,11 +1327,11 @@ Given:
 From Coulomb's law:
 
 <div class="equation">
- $$q_1 q_2 = \frac{Fr^{2}}{k} = \frac{(0.075)(3.00)^2}{8.99 \times 10^9}$$
+ $$q_1 q_2 = \frac{Fr^{2}}{k} = \frac{(0.075 \text{ N})(3.00 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2}$$
 </div>
 
 <div class="equation">
- $$q_1 q_2 = \frac{0.675}{8.99 \times 10^9} = 7.51 \times 10^{-11} \text{ C}^2$$
+ $$q_1 q_2 = \frac{0.675 \text{ N·m}^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} = 7.51 \times 10^{-11} \text{ C}^2$$
 </div>
 
 With $$q_1 + q_2 = 20 \times 10^{-6}$$ and $$q_1 q_2 = 7.51 \times 10^{-11}$$:
@@ -1339,29 +1339,29 @@ With $$q_1 + q_2 = 20 \times 10^{-6}$$ and $$q_1 q_2 = 7.51 \times 10^{-11}$$:
 Let $$q_2 = 20 \times 10^{-6} - q_1$$:
 
 <div class="equation">
- $$q_1(20 \times 10^{-6} - q_1) = 7.51 \times 10^{-11}$$
+ $$q_1(20 \times 10^{-6} \text{ C} - q_1) = 7.51 \times 10^{-11} \text{ C}^2$$
 </div>
 
 <div class="equation">
- $$q_1^2 - 20 \times 10^{-6} q_1 + 7.51 \times 10^{-11} = 0$$
+ $$q_1^2 - (20 \times 10^{-6} \text{ C}) q_1 + 7.51 \times 10^{-11} \text{ C}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm \sqrt{(20 \times 10^{-6})^2 - 4(7.51 \times 10^{-11})}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{(20 \times 10^{-6} \text{ C})^2 - 4(7.51 \times 10^{-11} \text{ C}^2)}}{2}$$
 </div>
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm \sqrt{4.00 \times 10^{-10} - 3.00 \times 10^{-10}}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{4.00 \times 10^{-10} \text{ C}^2 - 3.00 \times 10^{-10} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm \sqrt{1.00 \times 10^{-10}}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{1.00 \times 10^{-10} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$q_1 = \frac{20 \times 10^{-6} \pm 10 \times 10^{-6}}{2}$$
+ $$q_1 = \frac{20 \times 10^{-6} \text{ C} \pm 10 \times 10^{-6} \text{ C}}{2}$$
 </div>
 
 This gives:
@@ -1375,7 +1375,7 @@ or vice versa.
 **(b)** Attractive force $$F = 0.525 \text{ N}$$ (opposite sign charges)
 
 <div class="equation">
- $$q_1 q_2 = \frac{(0.525)(3.00)^2}{8.99 \times 10^9} = \frac{4.725}{8.99 \times 10^9} = 5.26 \times 10^{-10} \text{ C}^2$$
+ $$q_1 q_2 = \frac{(0.525 \text{ N})(3.00 \text{ m})^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} = \frac{4.725 \text{ N·m}^2}{8.99 \times 10^9 \text{ N·m}^2/\text{C}^2} = 5.26 \times 10^{-10} \text{ C}^2$$
 </div>
 
 For opposite signs, if $$q_1$$ is positive and $$q_2$$ is negative, the total charge is $$q_1 - \mid q_2 \mid = 20 \times 10^{-6}$$.
@@ -1383,35 +1383,35 @@ For opposite signs, if $$q_1$$ is positive and $$q_2$$ is negative, the total ch
 Let $$q_1 = x$$ and $$\mid q_2 \mid = x - 20 \times 10^{-6}$$:
 
 <div class="equation">
- $$x(x - 20 \times 10^{-6}) = 5.26 \times 10^{-10}$$
+ $$x(x - 20 \times 10^{-6} \text{ C}) = 5.26 \times 10^{-10} \text{ C}^2$$
 </div>
 
 <div class="equation">
- $$x^2 - 20 \times 10^{-6} x - 5.26 \times 10^{-10} = 0$$
+ $$x^2 - (20 \times 10^{-6} \text{ C}) x - 5.26 \times 10^{-10} \text{ C}^2 = 0$$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm \sqrt{(20 \times 10^{-6})^2 + 4(5.26 \times 10^{-10})}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{(20 \times 10^{-6} \text{ C})^2 + 4(5.26 \times 10^{-10} \text{ C}^2)}}{2}$$
 </div>
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm \sqrt{4.00 \times 10^{-10} + 2.10 \times 10^{-9}}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{4.00 \times 10^{-10} \text{ C}^2 + 2.10 \times 10^{-9} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm \sqrt{2.50 \times 10^{-9}}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm \sqrt{2.50 \times 10^{-9} \text{ C}^2}}{2}$$
 </div>
 
 <div class="equation">
- $$x = \frac{20 \times 10^{-6} \pm 50 \times 10^{-6}}{2}$$
+ $$x = \frac{20 \times 10^{-6} \text{ C} \pm 50 \times 10^{-6} \text{ C}}{2}$$
 </div>
 
 Taking the positive solution:
 
 <div class="equation">
- $$x = \frac{70 \times 10^{-6}}{2} = 35 \text{ μC}$$
+ $$x = \frac{70 \times 10^{-6} \text{ C}}{2} = 35 \text{ μC}$$
 </div>
 
 Therefore: $$q_1 = +35 \text{ μC}$$ and $$q_2 = -15 \text{ μC}$$ (or vice versa).

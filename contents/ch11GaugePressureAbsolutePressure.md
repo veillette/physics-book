@@ -369,7 +369,7 @@ The measured blood pressure will be **higher** than at heart level. The leg is b
 $$ P_{\text{leg}} = P_{\text{heart}} + \rho_{\text{blood}} g h $$
 
 For leg ~80 cm below heart:
-$$ \Delta P \approx (1050)(9.8)(0.80) \approx 8200 \text{ Pa} \approx 62 \text{ mm Hg} $$
+$$ \Delta P \approx (1050 \text{ kg/m}^3)(9.8 \text{ m/s}^2)(0.80 \text{ m}) \approx 8200 \text{ Pa} \approx 62 \text{ mm Hg} $$
 
 Blood pressure might read ~182/142 instead of 120/80.
 
@@ -571,7 +571,7 @@ $$ P = 4.00 \times 10^4 \text{ Pa} $$
 
 $$ h_{\text{water}} = \frac{P}{\rho_{\text{water}} g} = \frac{4.00 \times 10^4 \text{ Pa}}{(1.00 \times 10^3 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} $$
 
-$$ h_{\text{water}} = \frac{4.00 \times 10^4}{9.80 \times 10^3} \text{ m} = 4.08 \text{ m} $$
+$$ h_{\text{water}} = \frac{4.00 \times 10^4 \text{ Pa}}{9.80 \times 10^3 \text{ Pa/m}} = 4.08 \text{ m} $$
 
 **Discussion:**
 The water manometer must be approximately **4.08 meters tall** (about 13.4 feet). This is much taller than a mercury manometer, which would only need 0.30 m (30 cm) for the same pressure. The ratio of heights equals the inverse ratio of densities: water is 13.6 times less dense than mercury, so it requires a column 13.6 times taller to create the same pressure. This is why mercury is traditionally used for blood pressure measurements—its high density allows for compact instruments. A 4-meter water manometer would be impractical in clinical settings, though water manometers are sometimes used in research or when mercury's toxicity is a concern.
