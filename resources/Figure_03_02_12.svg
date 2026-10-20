@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="440" viewBox="0 0 560 440" role="img" aria-labelledby="title desc">
+<title id="title">Resultant of C + A + B</title>
+<desc id="desc">Vectors C, A, B placed head to tail. The resultant R, drawn from the tail of the first to the head of the last, is 50.8 m at 5.47° below the +x axis.</desc>
+<rect width="560" height="440" fill="#ffffff"/>
+<line x1="40" y1="150" x2="527" y2="150" stroke="#333333" stroke-width="1.5"/>
+<polygon points="536,150 526,154 526,146" fill="#333333"/>
+<line x1="40" y1="358" x2="40" y2="31" stroke="#333333" stroke-width="1.5"/>
+<polygon points="40,22 44,32 36,32" fill="#333333"/>
+<text x="540" y="172.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="26" y="34.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<line x1="40" y1="150" x2="129.91" y2="372.52" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="135.9,387.36 123.23,374.14 135.84,369.05" fill="#8e4f8e"/>
+<text x="71.26" y="282.07" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">C</tspan></tspan></text>
+<line x1="135.9" y1="387.36" x2="256.61" y2="248.49" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="267.11,236.42 261.09,253.71 250.83,244.79" fill="#8e4f8e"/>
+<text x="187.92" y="306.73" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">A</tspan></tspan></text>
+<line x1="267.11" y1="236.42" x2="429.39" y2="192.94" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="444.84,188.79 430.18,199.76 426.66,186.63" fill="#8e4f8e"/>
+<text x="361.15" y="238.57" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">B</tspan></tspan></text>
+<line x1="40" y1="150" x2="425.93" y2="186.98" stroke="#8e4f8e" stroke-width="5"/>
+<polygon points="444.84,188.79 424.17,194.85 425.7,178.92" fill="#8e4f8e"/>
+<text x="240.13" y="199.94" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">R</tspan></tspan></text>
+<text x="126.78" y="188.73" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">50.8 </tspan><tspan font-style="normal">m</tspan></text>
+<path d="M 294.83 174.42 A 256 256 0 0 0 296 150" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="331.71" y="166.39" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5.47°</tspan></text>
+</svg>

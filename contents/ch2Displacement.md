@@ -156,7 +156,7 @@ with points for final position and initial position. Displacement 1, shown
 by an arrow pointing leftward, equals negative 3 kilometers. Displacement 2, 
 shown by an arrow pointing rightward, equals 2 kilometers. To the right is a 
 pair of x and y axes, showing that east is the positive x direction and west 
-is the negative x direction.](../resources/Figure_02_01_04.jpg 'Displacements 
+is the negative x direction.](../resources/Figure_02_01_04.svg 'Displacements 
 '){: #Figure4}
 
 (a) The rider’s displacement is $$ \Delta x=x_{f}-x_{0}=\text{−1 km} $$. (The
@@ -231,7 +231,7 @@ size, while its displacement is small. Why is this?
 
 ### Problems &amp; Exercises
 
-![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 10. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01_05.jpg 'Displacement Paths')
+![An x axis starts at 0 meters and ends at 12 meters. There are four points on the graph with displacement paths. Path A starts at 0 and stops at 7. Path B starts at 12 and ends at 7. Path C starts at 2, goes to 10, turns around and goes back to 8, then turns around again and stops at 10. Path D starts at 9, goes to 3, then turns around and stops at 5.](../resources/Figure_02_01_05.svg 'Displacement Paths')
 {: #Figure5}
 
 <div class="exercise" data-element-type="problems-exercises">

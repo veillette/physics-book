@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="1000" viewBox="0 0 560 1000" role="img" aria-labelledby="title desc">
+<title id="title">Position, velocity and speed versus time for a round trip</title>
+<desc id="desc">Position rises linearly from 0 to 3 km at 0.25 h and returns to 0 at 0.5 h. Velocity is +12 km/h for the first 0.25 h and −12 km/h for the second. Speed is a constant 12 km/h.</desc>
+<rect width="560" height="1000" fill="#ffffff"/>
+<line x1="85" y1="280" x2="520" y2="280" stroke="#333333" stroke-width="1.3"/>
+<line x1="85" y1="280" x2="85" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="157.5" y1="280" x2="157.5" y2="285" stroke="#333333" stroke-width="1.2"/>
+<text x="157.5" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.1</tspan></text>
+<line x1="230" y1="280" x2="230" y2="285" stroke="#333333" stroke-width="1.2"/>
+<text x="230" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.2</tspan></text>
+<line x1="302.5" y1="280" x2="302.5" y2="285" stroke="#333333" stroke-width="1.2"/>
+<text x="302.5" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.3</tspan></text>
+<line x1="375" y1="280" x2="375" y2="285" stroke="#333333" stroke-width="1.2"/>
+<text x="375" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.4</tspan></text>
+<line x1="447.5" y1="280" x2="447.5" y2="285" stroke="#333333" stroke-width="1.2"/>
+<text x="447.5" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.5</tspan></text>
+<line x1="520" y1="280" x2="520" y2="285" stroke="#333333" stroke-width="1.2"/>
+<text x="520" y="301.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.6</tspan></text>
+<line x1="80" y1="280" x2="85" y2="280" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="284.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="80" y1="214.29" x2="85" y2="214.29" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="219.19" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="80" y1="148.57" x2="85" y2="148.57" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="153.47" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="80" y1="82.86" x2="85" y2="82.86" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="87.76" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<text x="302.5" y="323.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">hours</tspan><tspan font-style="normal">)</tspan></text>
+<text x="40" y="170.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 40 165)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Position</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">)</tspan></text>
+<text x="302.5" y="37.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Position</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">vs</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Time</tspan></text>
+<polyline points="85,280 266.25,82.86 447.5,280" fill="none" stroke="#c0392b" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="85,275 90,280 85,285 80,280" fill="#c0392b"/>
+<polygon points="266.25,77.86 271.25,82.86 266.25,87.86 261.25,82.86" fill="#c0392b"/>
+<polygon points="447.5,275 452.5,280 447.5,285 442.5,280" fill="#c0392b"/>
+<line x1="85" y1="495" x2="520" y2="495" stroke="#333333" stroke-width="1.3"/>
+<line x1="85" y1="610" x2="85" y2="380" stroke="#333333" stroke-width="1.3"/>
+<line x1="157.5" y1="495" x2="157.5" y2="500" stroke="#333333" stroke-width="1.2"/>
+<text x="157.5" y="516.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.1</tspan></text>
+<line x1="230" y1="495" x2="230" y2="500" stroke="#333333" stroke-width="1.2"/>
+<text x="230" y="516.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.2</tspan></text>
+<line x1="302.5" y1="495" x2="302.5" y2="500" stroke="#333333" stroke-width="1.2"/>
+<text x="302.5" y="516.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.3</tspan></text>
+<line x1="375" y1="495" x2="375" y2="500" stroke="#333333" stroke-width="1.2"/>
+<text x="375" y="516.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.4</tspan></text>
+<line x1="447.5" y1="495" x2="447.5" y2="500" stroke="#333333" stroke-width="1.2"/>
+<text x="447.5" y="516.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.5</tspan></text>
+<line x1="520" y1="495" x2="520" y2="500" stroke="#333333" stroke-width="1.2"/>
+<text x="520" y="516.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.6</tspan></text>
+<line x1="80" y1="610" x2="85" y2="610" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="614.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−15</tspan></text>
+<line x1="80" y1="571.67" x2="85" y2="571.67" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="576.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−10</tspan></text>
+<line x1="80" y1="533.33" x2="85" y2="533.33" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="538.23" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−5</tspan></text>
+<line x1="80" y1="495" x2="85" y2="495" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="499.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="80" y1="456.67" x2="85" y2="456.67" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="461.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<line x1="80" y1="418.33" x2="85" y2="418.33" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="423.23" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan></text>
+<line x1="80" y1="380" x2="85" y2="380" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="384.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">15</tspan></text>
+<text x="302.5" y="653.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">hours</tspan><tspan font-style="normal">)</tspan></text>
+<text x="35" y="500.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 35 495)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Velocity</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">h</tspan><tspan font-style="normal">)</tspan></text>
+<text x="302.5" y="367.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Velocity</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">vs</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Time</tspan></text>
+<polyline points="85,403 266.25,403 266.25,587 447.5,587" fill="none" stroke="#5e9e1e" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="85,398 90,403 85,408 80,403" fill="#5e9e1e"/>
+<polygon points="266.25,398 271.25,403 266.25,408 261.25,403" fill="#5e9e1e"/>
+<polygon points="266.25,582 271.25,587 266.25,592 261.25,587" fill="#5e9e1e"/>
+<polygon points="447.5,582 452.5,587 447.5,592 442.5,587" fill="#5e9e1e"/>
+<line x1="85" y1="940" x2="520" y2="940" stroke="#333333" stroke-width="1.3"/>
+<line x1="85" y1="940" x2="85" y2="710" stroke="#333333" stroke-width="1.3"/>
+<line x1="157.5" y1="940" x2="157.5" y2="945" stroke="#333333" stroke-width="1.2"/>
+<text x="157.5" y="961.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.1</tspan></text>
+<line x1="230" y1="940" x2="230" y2="945" stroke="#333333" stroke-width="1.2"/>
+<text x="230" y="961.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.2</tspan></text>
+<line x1="302.5" y1="940" x2="302.5" y2="945" stroke="#333333" stroke-width="1.2"/>
+<text x="302.5" y="961.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.3</tspan></text>
+<line x1="375" y1="940" x2="375" y2="945" stroke="#333333" stroke-width="1.2"/>
+<text x="375" y="961.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.4</tspan></text>
+<line x1="447.5" y1="940" x2="447.5" y2="945" stroke="#333333" stroke-width="1.2"/>
+<text x="447.5" y="961.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.5</tspan></text>
+<line x1="520" y1="940" x2="520" y2="945" stroke="#333333" stroke-width="1.2"/>
+<text x="520" y="961.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.6</tspan></text>
+<line x1="80" y1="940" x2="85" y2="940" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="944.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="80" y1="907.14" x2="85" y2="907.14" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="912.04" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="80" y1="874.29" x2="85" y2="874.29" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="879.19" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<line x1="80" y1="841.43" x2="85" y2="841.43" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="846.33" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
+<line x1="80" y1="808.57" x2="85" y2="808.57" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="813.47" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">8</tspan></text>
+<line x1="80" y1="775.71" x2="85" y2="775.71" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="780.61" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">10</tspan></text>
+<line x1="80" y1="742.86" x2="85" y2="742.86" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="747.76" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12</tspan></text>
+<line x1="80" y1="710" x2="85" y2="710" stroke="#333333" stroke-width="1.2"/>
+<text x="76" y="714.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">14</tspan></text>
+<text x="302.5" y="983.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Time</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">hours</tspan><tspan font-style="normal">)</tspan></text>
+<text x="40" y="830.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" transform="rotate(-90 40 825)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Speed</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">h</tspan><tspan font-style="normal">)</tspan></text>
+<text x="302.5" y="697.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Speed</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">vs</tspan><tspan font-style="normal">. </tspan><tspan font-style="normal">Time</tspan></text>
+<polyline points="85,742.86 266.25,742.86 447.5,742.86" fill="none" stroke="#c0392b" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="85,737.86 90,742.86 85,747.86 80,742.86" fill="#c0392b"/>
+<polygon points="266.25,737.86 271.25,742.86 266.25,747.86 261.25,742.86" fill="#c0392b"/>
+<polygon points="447.5,737.86 452.5,742.86 447.5,747.86 442.5,742.86" fill="#c0392b"/>
+</svg>

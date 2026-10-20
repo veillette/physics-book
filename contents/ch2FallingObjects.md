@@ -111,7 +111,7 @@ is thrown, neglecting the effects of air resistance.
 
 Draw a sketch.
 
-![Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.](../resources/Figure_02_07_02.jpg
+![Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.](../resources/Figure_02_07_02.svg
 "Velocity and Acceleration Sketch")
 {: #Figure2}
 
@@ -183,7 +183,7 @@ in [Table 1](#Table1) and illustrated in [Figure 3](#Figure3).
 
 Graphing the data helps us understand it more clearly.
 
-![Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.](../resources/Figure_02_07_03.jpg 'Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. Misconception Alert! Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion;the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is time, not space. The actual path of the rock in space is straight up, and straight down.')
+![Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.](../resources/Figure_02_07_03.svg 'Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. Misconception Alert! Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion;the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is time, not space. The actual path of the rock in space is straight up, and straight down.')
 {: #Figure3}
 
 **Discussion**
@@ -228,7 +228,7 @@ What happens if the person on the cliff throws the rock straight down, instead o
 
 Draw a sketch.
 
-![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_07_04.jpg 'Velocity and Accelerator Sketch')
+![Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.](../resources/Figure_02_07_04.svg 'Velocity and Accelerator Sketch')
 {: #Figure4}
 
 Since up is positive, the final position of the rock will be negative because it
@@ -314,7 +314,7 @@ location?
 
 Draw a sketch.
 
-![The figure shows a green dot labeled v sub zero equals zero meters per second, a purple downward pointing arrow labeled a equals question mark, and an x y coordinate system with the y axis pointing vertically up and the x axis pointing horizontally to the right.](../resources/Figure_02_07_07.jpg)
+![The figure shows a green dot labeled v sub zero equals zero meters per second, a purple downward pointing arrow labeled a equals question mark, and an x y coordinate system with the y axis pointing vertically up and the x axis pointing horizontally to the right.](../resources/Figure_02_07_07.svg)
 {: #Figure7}
 
 We need to solve for acceleration $$ a $$. Note that in this case, displacement

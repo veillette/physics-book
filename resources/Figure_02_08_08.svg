@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="190" viewBox="0 0 330 190" role="img" aria-labelledby="title desc">
+<title id="title">Acceleration versus time for the ship</title>
+<desc id="desc">Acceleration versus time for the ship</desc>
+<rect width="330" height="190" fill="#ffffff"/>
+<line x1="70" y1="75" x2="295" y2="75" stroke="#333333" stroke-width="1.5"/>
+<polygon points="304,75 294,79 294,71" fill="#333333"/>
+<line x1="70" y1="120" x2="70" y2="25" stroke="#333333" stroke-width="1.5"/>
+<polygon points="70,16 74,26 66,26" fill="#333333"/>
+<line x1="70" y1="75" x2="114" y2="75" stroke="#6a3d9a" stroke-width="3.5"/>
+<line x1="116.2" y1="102" x2="153.6" y2="102" stroke="#6a3d9a" stroke-width="3.5"/>
+<line x1="160.2" y1="88.5" x2="237.2" y2="88.5" stroke="#6a3d9a" stroke-width="3.5"/>
+<text x="52" y="46" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan></text>
+<text x="296" y="104" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan></text>
+</svg>

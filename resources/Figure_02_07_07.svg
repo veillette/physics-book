@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="573" height="175" viewBox="0 0 573 175" role="img" aria-labelledby="title desc">
+<title id="title">Knowns for a dropped object</title>
+<desc id="desc">The object starts at rest (v0 = 0 m/s); the downward acceleration a is unknown.</desc>
+<rect width="573" height="175" fill="#ffffff"/>
+<text x="100" y="88.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<circle cx="192" cy="82" r="8" fill="#5e9e1e"/>
+<line x1="250" y1="62" x2="250" y2="111" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="250,125 244,110 256,110" fill="#6a3d9a"/>
+<text x="300" y="88.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="455" y1="128" x2="517" y2="128" stroke="#333333" stroke-width="1.5"/>
+<polygon points="525,128 516,131.6 516,124.4" fill="#333333"/>
+<line x1="455" y1="128" x2="455" y2="66" stroke="#333333" stroke-width="1.5"/>
+<polygon points="455,58 458.6,67 451.4,67" fill="#333333"/>
+<text x="535" y="133.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="455" y="51.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+</svg>

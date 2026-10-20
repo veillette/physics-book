@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="413" height="289" viewBox="0 0 413 289" role="img" aria-labelledby="title desc">
+<title id="title">Knowns for finding the time to travel 200 m</title>
+<desc id="desc">Starting at x0 = 0 with v0 = 10.0 m/s and acceleration 2.00 m/s² to the right, the object reaches x = 200 m at an unknown time t and with unknown velocity v.</desc>
+<rect width="413" height="289" fill="#ffffff"/>
+<text x="180" y="46.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">t</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="65" y1="78" x2="297" y2="78" stroke="#222222" stroke-width="2"/>
+<line x1="65" y1="53" x2="65" y2="103" stroke="#222222" stroke-width="2"/>
+<line x1="297" y1="53" x2="297" y2="103" stroke="#222222" stroke-width="2"/>
+<text x="30" y="134.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="30" y="161.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 10.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<text x="268" y="134.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-style="normal"> = 200 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="268" y="161.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="30" y1="186" x2="146" y2="186" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="160,186 145,192 145,180" fill="#5e9e1e"/>
+<line x1="222" y1="186" x2="374" y2="186" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="388,186 373,192 373,180" fill="#5e9e1e"/>
+<text x="200" y="232.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 2.00 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="13.3" dy="-7.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.6">​</tspan></text>
+<line x1="170" y1="256" x2="239" y2="256" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="253,256 238,262 238,250" fill="#6a3d9a"/>
+</svg>

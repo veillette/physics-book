@@ -19,7 +19,7 @@ chapterNumber: 3
 Suppose you want to walk from one point to another in a city with uniform square
 blocks, as pictured in [Figure 2](#Figure2).
 
-![An X Y graph with origin at zero zero with x axis labeled nine blocks east and y axis labeled five blocks north. Starting point at the origin and destination at point nine on the x axis and point five on the y axis.](../resources/Figure_03_01_02.jpg 'A pedestrian walks a two-dimensional path between two points in a city. In this scene, all blocks are square and are the same size.')
+![An X Y graph with origin at zero zero with x axis labeled nine blocks east and y axis labeled five blocks north. Starting point at the origin and destination at point nine on the x axis and point five on the y axis.](../resources/Figure_03_01_02.svg 'A pedestrian walks a two-dimensional path between two points in a city. In this scene, all blocks are square and are the same size.')
 {: #Figure2}
 
 The straight-line path that a helicopter might fly is blocked to you as a
@@ -47,7 +47,7 @@ significant digit, they are discrete numbers. In this case “9 blocks” is the
 same as “9.0 or 9.00 blocks.” We have decided to use three significant figures
 in the answer in order to show the result more precisely.)
 
-![An X Y graph with origin at zero zero with x-axis labeled nine blocks east and y axis labeled five blocks north. A diagonal vector arrow joining starting point at point zero on x axis and destination at point five on y axis with its direction northeast is shown. A helicopter is flying along the diagonal vector arrow with helicopter path of ten point three blocks. The angle formed by diagonal vector arrow and the x-axis is equal to twenty-nine point one degrees.](../resources/Figure_03_01_04.jpg 'The straight-line path followed by a helicopter between the two points is shorter than the 14 blocks walked by the pedestrian. All blocks are square and the same size.')
+![An X Y graph with origin at zero zero with x-axis labeled nine blocks east and y axis labeled five blocks north. A diagonal vector arrow joining starting point at point zero on x axis and destination at point five on y axis with its direction northeast is shown. A helicopter is flying along the diagonal vector arrow with helicopter path of ten point three blocks. The angle formed by diagonal vector arrow and the x-axis is equal to twenty-nine point one degrees.](../resources/Figure_03_01_04.svg 'The straight-line path followed by a helicopter between the two points is shorter than the 14 blocks walked by the pedestrian. All blocks are square and the same size.')
 {: #Figure4}
 
 The fact that the straight-line distance (10.3 blocks)

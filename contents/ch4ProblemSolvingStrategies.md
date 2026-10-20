@@ -767,7 +767,7 @@ This problem reinforces the fundamental principle that vector addition is both c
 
 </div>
 
-![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](../resources/Figure_04_06_04.jpg)
+![A right triangle is shown made up of three vectors. The first vector, F sub one, is along the triangle&#x2019;s base toward the right; the second vector, F sub two, is along the perpendicular side pointing upward; and the third vector, F sub tot, is along the hypotenuse pointing up the incline. The magnitude of F sub tot is twenty newtons. In a free-body diagram, F sub one is shown by an arrow pointing right and F sub two is shown by an arrow acting vertically upward.](../resources/Figure_04_06_04.svg)
 {: #Figure4}
 
 <div class="exercise" data-element-type="problems-exercises">

@@ -21,6 +21,7 @@ Build and utility scripts for the Physics Book project.
 | generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters          |
 | generate-icons          | `npm run generate:icons`          | Generate PWA icons                |
 | generate-fbd            | `npm run generate:fbd`            | Generate free-body diagram SVGs   |
+| generate-figures        | `npm run generate:figures`        | Generate line-art figure SVGs     |
 | build-index             | `npm run generate:search-index`   | Generate search index             |
 | parse-summary           | `npm run parse:summary`           | Generate summary.json             |
 | update-front-matter     | `npm run update:front-matter`     | Update YAML front matter          |
@@ -347,6 +348,28 @@ class, which lets multi-panel diagrams use their full width:
 ```bash
 npm run generate:fbd          # all diagrams
 npm run generate:fbd -- 05_01 # only names containing "05_01"
+```
+
+### generate-figures.js
+
+Generates the line-art figures (graphs, vector diagrams, geometry) in chapters
+2–7 that replaced raster originals. Each figure is a function in
+`scripts/figures/ch02.js`, `ch03.js`, or `ch04to07.js`, keyed by its file name,
+and is written to `resources/Figure_CC_SS_NN.svg`. The drawing helpers live in
+`scripts/figures/svg.js`: `Svg` (primitives, arrows, labels), `Frame` (math
+coordinates for vector diagrams), and `Plot` (data graphs with ticks).
+
+Graph data and vector magnitudes come from the text, so values read off a figure
+agree with the worked examples and solutions. Edit the spec and regenerate
+rather than editing an SVG by hand.
+
+Label markup: `v_0` and `F_{app}` for subscripts, `m/s^2` for superscripts,
+`**A**` for a bold vector, `\bar{v}` for an overbar, `\rm{m/s}` for upright
+units, and `\it{t}` for an italic variable inside plain text.
+
+```bash
+npm run generate:figures          # all figures
+npm run generate:figures -- 02_08 # only names containing "02_08"
 ```
 
 ### build-index.js

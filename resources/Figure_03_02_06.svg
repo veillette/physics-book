@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img" aria-labelledby="title desc">
+<title id="title">Step 2: the second vector placed head to tail</title>
+<desc id="desc">A vector 9 units along +x, followed by a vector 5 units in the +y direction starting at the head of the first.</desc>
+<rect width="360" height="360" fill="#ffffff"/>
+<line x1="30" y1="280" x2="329" y2="280" stroke="#333333" stroke-width="1.5"/>
+<polygon points="338,280 328,284 328,276" fill="#333333"/>
+<line x1="30" y1="305.2" x2="30" y2="28.6" stroke="#333333" stroke-width="1.5"/>
+<polygon points="30,19.6 34,29.6 26,29.6" fill="#333333"/>
+<text x="342" y="302.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="16" y="31.9" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<line x1="30" y1="280" x2="265" y2="280" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="282,280 264,287.2 264,272.8" fill="#8e4f8e"/>
+<line x1="282" y1="280" x2="282" y2="157" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="282,140 289.2,158 274.8,158" fill="#8e4f8e"/>
+</svg>

@@ -123,7 +123,7 @@ taking his initial position to be zero?
 
 Draw a sketch.
 
-![Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.](../resources/Figure_02_05_02.jpg)
+![Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.](../resources/Figure_02_05_02.svg)
 {: #Figure2}
 
 The final position $$ x $$ is given by the equation
@@ -160,7 +160,7 @@ When graphed, linear functions look like straight lines with a constant slope.)
 On a car trip, for example, we will get twice as far in a given time if we
 average 90 km/h than if we average 45 km/h.
 
-![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.jpg 'There is a linear relationship between displacement and average velocity. For a given time ( t) , an object moving twice as fast as another object will move twice as far as the other object.')
+![Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.](../resources/Figure_02_05_03.svg 'There is a linear relationship between displacement and average velocity. For a given time ( t) , an object moving twice as fast as another object will move twice as far as the other object.')
 {: #Figure3}
 
 ::: note {"class":"note","data-label":""}
@@ -203,7 +203,7 @@ An airplane lands with an initial velocity of 70.0 m/s and then decelerates at $
 Draw a sketch. We draw the acceleration vector in the direction opposite the
 velocity vector because the plane is decelerating.
 
-![Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.](../resources/Figure_02_05_04.jpg)
+![Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.](../resources/Figure_02_05_04.svg)
 {: #Figure4}
 
 **Solution**
@@ -316,7 +316,7 @@ does it travel in this time?
 
 Draw a sketch.
 
-![Acceleration vector arrow pointing toward the right in the positive x direction, labeled a equals twenty-six point 0 meters per second squared. x position graph with initial position at the left end of the graph. The right end of the graph is labeled x equals question mark.](../resources/Figure_02_05_08.jpg)
+![Acceleration vector arrow pointing toward the right in the positive x direction, labeled a equals twenty-six point 0 meters per second squared. x position graph with initial position at the left end of the graph. The right end of the graph is labeled x equals question mark.](../resources/Figure_02_05_08.svg)
 {: #Figure8}
 
 We are asked to find displacement, which is $$ x $$ if we take $$ x_{0} $$ to be
@@ -409,7 +409,7 @@ using information about time.
 
 Draw a sketch.
 
-![Acceleration vector arrow pointing toward the right, labeled twenty-six point zero meters per second squared. Initial velocity equals 0. Final velocity equals question mark.](../resources/Figure_02_05_09.jpg)
+![Acceleration vector arrow pointing toward the right, labeled twenty-six point zero meters per second squared. Initial velocity equals 0. Final velocity equals question mark.](../resources/Figure_02_05_09.svg)
 {: #Figure9}
 
 The equation $$ v^{2}=v_{0}^{2}+2a\left(x-x_{0}\right) $$ is ideally suited to
@@ -512,7 +512,7 @@ the brake.
 
 Draw a sketch.
 
-![Initial velocity equals thirty meters per second. Final velocity equals 0. Acceleration dry equals negative 7 point zero zero meters per second squared. Acceleration wet equals negative 5 point zero zero meters per second squared.](../resources/Figure_02_05_10.jpg)
+![Initial velocity equals thirty meters per second. Final velocity equals 0. Acceleration dry equals negative 7 point zero zero meters per second squared. Acceleration wet equals negative 5 point zero zero meters per second squared.](../resources/Figure_02_05_10.svg)
 {: #Figure10}
 
 In order to determine which equations are best to use, we need to list all of
@@ -625,7 +625,7 @@ how long does it take to travel the 200 m up the ramp?
 
 Draw a sketch.
 
-![A line segment with ends labeled x subs zero equals zero and x = two hundred. Above the line segment, the equation t equals question mark indicates that time is unknown. Three vectors, all pointing in the direction of x equals 200, represent the other knowns and unknowns. They are labeled v sub zero equals ten point zero meters per second, v equals question mark, and a equals two point zero zero meters per second squared.](../resources/Figure_02_05_12.jpg)
+![A line segment with ends labeled x subs zero equals zero and x = two hundred. Above the line segment, the equation t equals question mark indicates that time is unknown. Three vectors, all pointing in the direction of x equals 200, represent the other knowns and unknowns. They are labeled v sub zero equals ten point zero meters per second, v equals question mark, and a equals two point zero zero meters per second squared.](../resources/Figure_02_05_12.svg)
 {: #Figure12}
 
 We are asked to solve for the time $$ t $$. As before, we identify the known
@@ -847,7 +847,7 @@ $$ x = \frac{1}{2}at^{2} = \frac{1}{2}(4.50)t^2 = 2.25t^2 $$
 
 This is a parabolic function, as shown in the graph below. The position increases quadratically with time, and the slope of the graph (which represents velocity) increases linearly with time.
 
-![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/Figure_02_05_13.jpg)
+![Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.](../resources/Figure_02_05_13.svg)
 {: #Figure13}
 
 **Discussion**

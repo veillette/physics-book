@@ -70,7 +70,7 @@ object and the direction of the force.
 
 ::::
 
-![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.jpg 'A graph of deformation \( \Delta L \) versus applied force \( F \) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is \( 1/k \). For larger forces, the graph is curved but the deformation is still elastic— \( \Delta L \) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force \( F \) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in \( F \) is producing a large increase in \( L \) near the fracture.')
+![Line graph of change in length versus applied force. The line has a constant positive slope from the origin in the region where Hooke’s law is obeyed. The slope then decreases, with a lower, still positive slope until the end of the elastic region. The slope then increases dramatically in the region of permanent deformation until fracturing occurs.](../resources/Figure_05_03_01.svg 'A graph of deformation \( \Delta L \) versus applied force \( F \) . The straight segment is the linear region where Hooke’s law is obeyed. The slope of the straight region is \( 1/k \). For larger forces, the graph is curved but the deformation is still elastic— \( \Delta L \) will return to zero if the force is removed. Still greater forces permanently deform the object until it finally fractures. The shape of the curve near fracture depends on several factors, including how the force \( F \) is applied. Note that in this graph the slope increases just before fracture, indicating that a small increase in \( F \) is producing a large increase in \( L \) near the fracture.')
 {: #Figure1}
 
 The proportionality constant $$ k $$ depends upon a number of factors for the
@@ -243,7 +243,7 @@ given in the problems at end of this chapter. Ligaments (tissue connecting bone
 to bone)
 behave in a similar way.
 
-![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_05_03_05.jpg 'Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.')
+![The strain on mammalian tendon is shown by a graph, with strain along the x axis and tensile stress along the y axis. The stress strain curve obtained has three regions, namely, toe region at the bottom, linear region between, and failure region at the top.](../resources/Figure_05_03_05.svg 'Typical stress-strain curve for mammalian tendon. Three regions are shown: (1) toe region (2) linear region, and (3) failure region.')
 {: #Figure5}
 
 Unlike bones and tendons, which need to be strong as well as elastic, the

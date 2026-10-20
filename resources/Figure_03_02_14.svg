@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" role="img" aria-labelledby="title desc">
+<title id="title">Vectors A and B for the sailing trip</title>
+<desc id="desc">A is 27.5 m at 66° above the horizontal; B is 30.0 m at 112°.</desc>
+<rect width="720" height="260" fill="#ffffff"/>
+<line x1="35" y1="190" x2="112" y2="190" stroke="#333333" stroke-width="1.5"/>
+<polygon points="120,190 111,193.6 111,186.4" fill="#333333"/>
+<line x1="35" y1="190" x2="35" y2="113" stroke="#333333" stroke-width="1.5"/>
+<polygon points="35,105 38.6,114 31.4,114" fill="#333333"/>
+<text x="130" y="195.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="35" y="98.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<line x1="201.4" y1="190" x2="313.4" y2="190" stroke="#222222" stroke-width="1.5"/>
+<line x1="235" y1="190" x2="290.72" y2="64.84" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="297.64,49.31 296.89,68.69 283.74,62.83" fill="#8e4f8e"/>
+<path d="M 269 190 A 34 34 0 0 0 248.83 158.94" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="281.26" y="169.11" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">66°</tspan></text>
+<text x="265.01" y="75.15" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">A</tspan></tspan></text>
+<text x="302.2" y="118.25" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-style="normal"> = 27.5 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="506.4" y1="190" x2="573.6" y2="190" stroke="#222222" stroke-width="1.5"/>
+<line x1="540" y1="190" x2="483.43" y2="50" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="477.07,34.23 490.48,48.23 477.13,53.62" fill="#8e4f8e"/>
+<path d="M 574 190 A 34 34 0 0 0 527.26 158.48" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="581.08" y="152.14" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">112°</tspan></text>
+<text x="510.05" y="63.8" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">B</tspan></tspan></text>
+<text x="596" y="118.25" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">B</tspan><tspan font-style="normal"> = 30.0 </tspan><tspan font-style="normal">m</tspan></text>
+</svg>

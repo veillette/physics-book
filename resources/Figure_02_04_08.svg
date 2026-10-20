@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="510" height="220" viewBox="0 0 510 220" role="img" aria-labelledby="title desc">
+<title id="title">Knowns for the accelerating subway train</title>
+<desc id="desc">The train starts at v0 = 0 km/h and reaches vf = 30.0 km/h to the right; the acceleration a points right and is unknown.</desc>
+<rect width="510" height="220" fill="#ffffff"/>
+<circle cx="130" cy="33" r="7" fill="#5e9e1e"/>
+<text x="130" y="66.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 0 </tspan><tspan font-style="normal">km/h</tspan></text>
+<line x1="28" y1="95" x2="228" y2="95" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="242,95 227,101 227,89" fill="#5e9e1e"/>
+<text x="130" y="126.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 30.0 </tspan><tspan font-style="normal">km/h</tspan></text>
+<line x1="80" y1="157" x2="189" y2="157" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="203,157 188,163 188,151" fill="#6a3d9a"/>
+<text x="130" y="196.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="390" y1="155" x2="452" y2="155" stroke="#333333" stroke-width="1.5"/>
+<polygon points="460,155 451,158.6 451,151.4" fill="#333333"/>
+<line x1="390" y1="155" x2="390" y2="93" stroke="#333333" stroke-width="1.5"/>
+<polygon points="390,85 393.6,94 386.4,94" fill="#333333"/>
+<text x="470" y="160.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="390" y="78.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+</svg>

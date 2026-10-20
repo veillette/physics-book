@@ -72,7 +72,7 @@ system:
  $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right). $$
 </div>
 
-![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03.jpg 'The velocity, \( \vb{v} \) of an object traveling at an angle \( \theta \) to the horizontal axis is the sum of component vectors .')
+![The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.](../resources/Figure_03_05_03.svg 'The velocity, \( \vb{v} \) of an object traveling at an angle \( \theta \) to the horizontal axis is the sum of component vectors .')
 {: #Figure3}
 
 These equations are valid for any vectors and are adapted specifically for

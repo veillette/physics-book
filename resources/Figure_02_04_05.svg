@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="246" viewBox="0 0 620 246" role="img" aria-labelledby="title desc">
+<title id="title">Knowns for the racehorse</title>
+<desc id="desc">The acceleration a is unknown and points west. The horse starts at rest (v0 = 0) and ends with vf = −15.0 m/s, pointing west. A compass shows north as +y and east as +x.</desc>
+<rect width="620" height="246" fill="#ffffff"/>
+<text x="130" y="52.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="205" y1="70" x2="74" y2="70" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="60,70 75,64 75,76" fill="#6a3d9a"/>
+<circle cx="148" cy="118" r="7" fill="#5e9e1e"/>
+<text x="148" y="148.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<line x1="235" y1="175" x2="44" y2="175" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="30,175 45,169 45,181" fill="#5e9e1e"/>
+<text x="140" y="204.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = −15.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="387" y1="125" x2="455" y2="125" stroke="#222222" stroke-width="1.5"/>
+<line x1="455" y1="125" x2="511" y2="125" stroke="#222222" stroke-width="3"/>
+<polygon points="525,125 510,131 510,119" fill="#222222"/>
+<line x1="455" y1="185" x2="455" y2="125" stroke="#222222" stroke-width="1.5"/>
+<line x1="455" y1="125" x2="455" y2="67" stroke="#222222" stroke-width="3"/>
+<polygon points="455,53 461,68 449,68" fill="#222222"/>
+<text x="455" y="43.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">N</tspan><tspan font-style="normal"> (+</tspan><tspan font-style="italic">y</tspan><tspan font-style="normal">)</tspan></text>
+<text x="455" y="211.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">S</tspan><tspan font-style="normal"> (−</tspan><tspan font-style="italic">y</tspan><tspan font-style="normal">)</tspan></text>
+<text x="533" y="131.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">E</tspan><tspan font-style="normal"> (+</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal">)</tspan></text>
+<text x="380" y="131.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">W</tspan><tspan font-style="normal"> (−</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="573" height="175" viewBox="0 0 573 175" role="img" aria-labelledby="title desc">
+<title id="title">Knowns for the dragster final velocity</title>
+<desc id="desc">Motion from initial velocity v0 to an unknown final velocity v with acceleration 26.0 m/s² to the right.</desc>
+<rect width="573" height="175" fill="#ffffff"/>
+<line x1="37" y1="52" x2="345" y2="52" stroke="#222222" stroke-width="2"/>
+<line x1="37" y1="27" x2="37" y2="77" stroke="#222222" stroke-width="2"/>
+<line x1="345" y1="27" x2="345" y2="77" stroke="#222222" stroke-width="2"/>
+<text x="40" y="104.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan></text>
+<text x="350" y="104.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="147" y1="115" x2="241" y2="115" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="255,115 240,121 240,109" fill="#6a3d9a"/>
+<text x="225" y="148.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 26.0 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="13.3" dy="-7.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.6">​</tspan></text>
+<line x1="455" y1="128" x2="517" y2="128" stroke="#333333" stroke-width="1.5"/>
+<polygon points="525,128 516,131.6 516,124.4" fill="#333333"/>
+<line x1="455" y1="128" x2="455" y2="66" stroke="#333333" stroke-width="1.5"/>
+<polygon points="455,58 458.6,67 451.4,67" fill="#333333"/>
+<text x="535" y="133.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="455" y="51.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+</svg>

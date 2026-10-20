@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="310" viewBox="0 0 800 310" role="img" aria-labelledby="title desc">
+<title id="title">Weight resolved into components on an incline</title>
+<desc id="desc">On an incline at angle θ, the weight w is split into w∥ = w sin θ = mg sin θ down the slope and w⊥ = w cos θ = mg cos θ into the slope. The tilted axes have x along the incline and y perpendicular to it; the angle between w and w⊥ is θ.</desc>
+<rect width="800" height="310" fill="#ffffff"/>
+<polyline points="228.05,153.39 10,295 315,295" fill="none" stroke="#2b3990" stroke-width="4" stroke-linejoin="round"/>
+<path d="M 65 295 A 55 55 0 0 0 56.13 265.04" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="76" y="286" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<line x1="315" y1="100" x2="397.19" y2="46.63" stroke="#222222" stroke-width="1.8"/>
+<polygon points="407.25,40.09 399.18,51.53 393.52,42.81" fill="#222222"/>
+<line x1="315" y1="100" x2="264.35" y2="22" stroke="#222222" stroke-width="1.8"/>
+<polygon points="257.81,11.94 269.25,20.01 260.53,25.67" fill="#222222"/>
+<text x="417.96" y="56.73" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">x</tspan></text>
+<text x="243.09" y="20.75" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">y</tspan></text>
+<line x1="232.78" y1="153.39" x2="315" y2="280" stroke="#d98b84" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="397.22" y1="226.61" x2="315" y2="280" stroke="#d98b84" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="315" y1="100" x2="244.52" y2="145.77" stroke="#b03a2e" stroke-width="2.5"/>
+<polygon points="232.78,153.39 242.09,140.19 248.63,150.26" fill="#b03a2e"/>
+<line x1="315" y1="100" x2="389.59" y2="214.86" stroke="#b03a2e" stroke-width="2.5"/>
+<polygon points="397.22,226.61 384.02,217.29 394.08,210.76" fill="#b03a2e"/>
+<line x1="315" y1="100" x2="315" y2="263" stroke="#b03a2e" stroke-width="4"/>
+<polygon points="315,280 307.8,262 322.2,262" fill="#b03a2e"/>
+<path d="M 315 160 A 60 60 0 0 0 347.68 150.32" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="336.59" y="179.87" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="226.78" y="142.74" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">w</tspan></tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">∥</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="407.22" y="235.96" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">w</tspan></tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="329" y="291" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">w</tspan></text>
+<text x="485" y="127.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">∥</tspan></tspan><tspan dy="-5.88">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">w</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal">(</tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal">) = </tspan><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">sin</tspan><tspan font-style="normal">(</tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal">)</tspan></text>
+<text x="485" y="157.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">⊥</tspan></tspan><tspan dy="-5.88">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">w</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal">(</tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal">) = </tspan><tspan font-style="italic">mg</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal">(</tspan><tspan font-style="italic">θ</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

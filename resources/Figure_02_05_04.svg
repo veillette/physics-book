@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="511" height="209" viewBox="0 0 511 209" role="img" aria-labelledby="title desc">
+<title id="title">Knowns for the landing airplane</title>
+<desc id="desc">Initial velocity 70.0 m/s to the right, acceleration −1.50 m/s² to the left, final velocity unknown and to the right.</desc>
+<rect width="511" height="209" fill="#ffffff"/>
+<line x1="33" y1="37" x2="234" y2="37" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="248,37 233,43 233,31" fill="#5e9e1e"/>
+<text x="140" y="66.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 70.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="198" y1="97" x2="79" y2="97" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="65,97 80,91 80,103" fill="#6a3d9a"/>
+<text x="140" y="126.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = −1.50 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="13.3" dy="-7.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.6">​</tspan></text>
+<line x1="63" y1="155" x2="206" y2="155" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="220,155 205,161 205,149" fill="#5e9e1e"/>
+<text x="140" y="186.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="392" y1="147" x2="454" y2="147" stroke="#333333" stroke-width="1.5"/>
+<polygon points="462,147 453,150.6 453,143.4" fill="#333333"/>
+<line x1="392" y1="147" x2="392" y2="85" stroke="#333333" stroke-width="1.5"/>
+<polygon points="392,77 395.6,86 388.4,86" fill="#333333"/>
+<text x="472" y="152.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="392" y="70.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+</svg>

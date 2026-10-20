@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="456" height="253" viewBox="0 0 456 253" role="img" aria-labelledby="title desc">
+<title id="title">Knowns for the braking car</title>
+<desc id="desc">A car moving at 30.0 m/s stops (vf = 0 m/s) over an unknown distance Δx, with acceleration −7.00 m/s² on dry pavement or −5.00 m/s² on wet pavement.</desc>
+<rect width="456" height="253" fill="#ffffff"/>
+<text x="225" y="48.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> = ?</tspan></text>
+<line x1="70" y1="78" x2="380" y2="78" stroke="#222222" stroke-width="2"/>
+<line x1="70" y1="53" x2="70" y2="103" stroke="#222222" stroke-width="2"/>
+<line x1="380" y1="53" x2="380" y2="103" stroke="#222222" stroke-width="2"/>
+<text x="105" y="134.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">0</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 30.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<text x="385" y="134.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">f</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = 0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="25" y1="153" x2="186" y2="153" stroke="#5e9e1e" stroke-width="3"/>
+<polygon points="200,153 185,159 185,147" fill="#5e9e1e"/>
+<circle cx="380" cy="153" r="7" fill="#5e9e1e"/>
+<text x="230" y="192.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">dry</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = −7.00 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="13.3" dy="-7.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.6">​</tspan></text>
+<text x="230" y="220.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="13.3" dy="5.32"><tspan font-style="normal">wet</tspan></tspan><tspan dy="-5.32">​</tspan><tspan font-style="normal"> = −5.00 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="13.3" dy="-7.6"><tspan font-style="normal">2</tspan></tspan><tspan dy="7.6">​</tspan></text>
+</svg>

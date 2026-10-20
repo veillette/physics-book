@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="330" viewBox="0 0 470 330" role="img" aria-labelledby="title desc">
+<title id="title">Two displacements A and B and their sum R</title>
+<desc id="desc">A is 12 m at 20° west of north; B is 20 m at 40° south of west, starting at the head of A. The resultant R runs from the origin to the head of B, at angle θ below the −x axis.</desc>
+<rect width="470" height="330" fill="#ffffff"/>
+<line x1="70" y1="265" x2="361" y2="265" stroke="#333333" stroke-width="1.5"/>
+<polygon points="370,265 360,269 360,261" fill="#333333"/>
+<line x1="280" y1="305" x2="280" y2="64" stroke="#333333" stroke-width="1.5"/>
+<polygon points="280,55 284,65 276,65" fill="#333333"/>
+<text x="374" y="287.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan></text>
+<text x="266" y="67.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
+<line x1="375" y1="85" x2="435" y2="85" stroke="#333333" stroke-width="1.3"/>
+<line x1="405" y1="115" x2="405" y2="63" stroke="#333333" stroke-width="1.3"/>
+<polygon points="405,55 408.6,64 401.4,64" fill="#333333"/>
+<text x="405" y="49.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">N</tspan></text>
+<text x="405" y="131.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">S</tspan></text>
+<text x="441" y="90.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">E</tspan></text>
+<text x="369" y="90.6" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">W</tspan></text>
+<line x1="238.96" y1="152.24" x2="178.96" y2="152.24" stroke="#222222" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="85.75" y1="280.79" x2="280" y2="280.79" stroke="#222222" stroke-width="1.2"/>
+<line x1="280" y1="265" x2="243.75" y2="165.39" stroke="#7b1145" stroke-width="3"/>
+<polygon points="238.96,152.24 249.73,164.28 238.45,168.38" fill="#7b1145"/>
+<line x1="238.96" y1="152.24" x2="96.47" y2="271.8" stroke="#7b1145" stroke-width="3"/>
+<polygon points="85.75,280.79 93.38,266.56 101.1,275.75" fill="#7b1145"/>
+<line x1="280" y1="265" x2="102.69" y2="279.42" stroke="#7b1145" stroke-width="4"/>
+<polygon points="85.75,280.79 103.11,272.16 104.27,286.51" fill="#7b1145"/>
+<text x="268.36" y="192.88" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">A</tspan></tspan></text>
+<text x="228.05" y="245.16" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-style="normal"> = 12 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="166.1" y="196.52" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">B</tspan></tspan></text>
+<text x="97.05" y="222.43" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">B</tspan><tspan font-style="normal"> = 20 </tspan><tspan font-style="normal">m</tspan></text>
+<text x="184.33" y="297.49" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">R</tspan></tspan></text>
+<path d="M 210.96 152.24 A 28 28 0 0 0 217.51 170.23" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="206.77" y="145.75" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">40°</tspan></text>
+<path d="M 280 209 A 56 56 0 0 0 260.85 212.38" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="305" y="212.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">20°</tspan></text>
+<path d="M 160 265 A 120 120 0 0 0 160.39 274.73" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="172.09" y="266.63" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+<text x="110" y="141.65" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">A</tspan></tspan><tspan font-style="normal"> + </tspan><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">B</tspan></tspan><tspan font-style="normal"> = </tspan><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">R</tspan></tspan></text>
+</svg>
