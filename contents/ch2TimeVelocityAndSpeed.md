@@ -661,6 +661,12 @@ for the entire trip?
 
 Average speed uses total distance traveled divided by time. Average velocity uses displacement (straight-line distance with direction) divided by time. For the round trip, the displacement is zero since she returns to her starting point.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at home. The road (dashed) is 12.0 km long; the straight-line displacement Δx (red) from home to the university is 10.3 km at 25.0° south of east, that is, 25.0° below the +x axis. The return trip ends back at the origin, so the round-trip displacement is zero.](../resources/sketch_02_03_p07.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at her home. The displacement $$ \Delta \vb{x} $$ points from home to the university, $$ 25.0^\circ $$ below the $$ +x $$ axis (south of east). The odometer measures the length of the road, not of $$ \Delta \vb{x} $$, which is why distance traveled and displacement differ.
+
 **Solution**
 
 **(a) Average speed to university:**
@@ -841,6 +847,12 @@ velocity (a) for each of the three intervals and (b) for the entire motion.
 **Strategy**
 
 Average velocity is displacement divided by time. For each interval, we identify the displacement (with sign indicating direction) and time, then calculate the average velocity. For the entire motion, we sum the displacements and times.
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points down the field (forward), with the origin where the quarterback starts. Interval 1: Δx₁ = +15.0 m in 2.50 s, ending at x = 15.0 m. Interval 2: pushed backward, Δx₂ = −3.00 m in 1.75 s, ending at x = 12.0 m. Interval 3: Δx₃ = +21.0 m in 5.20 s, ending at x = 33.0 m.](../resources/sketch_02_03_p10.svg){: .sketch}
+
+Take $$ +x $$ down the field (forward), with the origin where the quarterback starts. Forward displacements are then positive and the backward push is negative: $$ \Delta x_1 = +15.0 \m $$, $$ \Delta x_2 = -3.00 \m $$, $$ \Delta x_3 = +21.0 \m $$.
 
 **Solution**
 

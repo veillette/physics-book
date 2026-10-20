@@ -530,6 +530,12 @@ Take the point of release to be $$ y_{0}=0 $$.
 
 Use the kinematic equations for free-fall with upward as positive. Since the ball is thrown upward, the initial velocity is positive, while the acceleration due to gravity is negative ($$ a = -g = -9.80 \mss $$).
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the point of release. Release: t = 0, y₀ = 0, v₀ = +15.0 m/s. The ball’s position y and velocity v are wanted at t = 0.500, 1.00, 1.50, and 2.00 s (open circles; the last one is on the way down). The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p01.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the point of release and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = +15.0 \ms $$, and $$ a = -g = -9.80 \mss $$. Positions above the release point are positive; a negative velocity means the ball is moving down.
+
 **Solution**
 
 For position: $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} = v_0 t - \frac{1}{2}gt^{2} $$
@@ -610,6 +616,12 @@ Calculate the displacement and velocity at times of
 **Strategy**
 
 Take downward as positive since the rock is thrown downward. This means the initial velocity $$ v_0 = +14.0 \ms $$ and $$ a = +g = +9.80 \mss $$. Set $$ y_0 = 0 $$ at the bridge.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the bridge roadway where the rock is released. Release: t = 0, y₀ = 0, v₀ = +14.0 m/s (downward). The water is at y = 70.0 m. The rock’s position y and velocity v are wanted at t = 0.500, 1.00, 1.50, 2.00, and 2.50 s. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p02.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the bridge roadway and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = +14.0 \ms $$, and $$ a = +g = +9.80 \mss $$; each $$ y $$ is a distance below the bridge, and the water is at $$ y = 70.0 \m $$.
 
 **Solution**
 
@@ -701,6 +713,12 @@ above the floor in an attempt to get the ball?
 
 At the maximum height, the player's velocity is zero. We can use the kinematic equation relating velocity, displacement, and acceleration to find the initial velocity needed to reach 1.25 m.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the player’s starting height on the floor. Takeoff: y₀ = 0, v₀ unknown (upward). Top of the jump: y = 1.25 m, v = 0. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p03.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the player's starting height. Then $$ y_0 = 0 $$, $$ y = +1.25 \m $$ at the top, $$ v = 0 $$ there, and $$ a = -9.80 \mss $$.
+
 **Solution**
 
 1. Identify the known values:
@@ -752,6 +770,12 @@ A rescue helicopter is hovering over a person whose boat has sunk. One of the re
 **Strategy**
 
 Take downward as positive since the preserver is thrown downward. Use the kinematic equation for displacement.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin where the rescuer releases the life preserver. Release: t = 0, y₀ = 0, v₀ = +1.40 m/s (downward). At the water: t = 1.8 s, y unknown. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p04.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the release point and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = +1.40 \ms $$, $$ a = +9.80 \mss $$, and the answer $$ y $$ is the height of the release point above the water.
 
 **Solution**
 
@@ -809,6 +833,12 @@ A dolphin in an aquatic show jumps straight up out of the water at a velocity of
 
 :::: solution
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the water surface. Leaving the water: t = 0, y₀ = 0, v₀ = +13.0 m/s. At the top: y unknown, v = 0. Back at the water (part c): y = 0, t unknown. The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p05.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the water surface and $$ t = 0 $$ when the dolphin leaves the water. Then $$ y_0 = 0 $$, $$ v_0 = +13.0 \ms $$, $$ v = 0 $$ at the top, and $$ a = -9.80 \mss $$ throughout.
+
 (a) $$ a=-9.80 \mss $$; $$ v_{0}=13.0 \ms $$; $$ y_{0}=0 \m $$ (b) $$ v=0 \ms $$. Unknown is distance $$ y $$ to top of trajectory,
 where velocity is zero. Use equation $$ v^{2}=v_{0}^{2}+2a\left(y-y_{0}\right) $$ because it contains all known values except for $$ y $$, so we can solve for
 $$ y $$. Solving for $$ y $$ gives
@@ -846,6 +876,12 @@ She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above th
 **Strategy**
 
 Take upward as positive. The swimmer launches upward from the diving board with initial velocity $$ v_0 = 4.00 \ms $$, reaches a maximum height, then falls through the air until her feet hit the water 1.80 m below the starting point. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the diving board. Takeoff: t = 0, y₀ = 0, v₀ = +4.00 m/s. Highest point: y unknown, v = 0. Feet reach the water: y = −1.80 m, t and v unknown (v is negative, downward). The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p06.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the diving board. Then $$ y_0 = 0 $$, $$ v_0 = +4.00 \ms $$, $$ a = -9.80 \mss $$, and the water is *below* the origin, at $$ y = -1.80 \m $$. Her velocity at the water must come out negative (downward).
 
 **Solution**
 
@@ -969,11 +1005,15 @@ The swimmer is in the air for about 1.1 seconds, which is reasonable for a dive.
 
 :::: solution
 
-![Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.](../resources/Figure_02_07_05.jpg){: #Figure8}
-
 **Strategy**
 
 Take upward as positive. The rock is thrown upward, goes up, then comes back down past the cliff and hits the ground below. The final position is negative (below the starting point).
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the top of the cliff where the rock is released. Part (a): v₀ = +8.00 m/s (thrown up); the rock rises, falls past the cliff top, and hits the ground at t = 2.35 s at unknown y (negative, below the origin). Part (b): v₀ = −8.00 m/s (thrown down); the time to reach the same ground level is unknown. The acceleration is a = −9.80 m/s² throughout.](../resources/sketch_02_07_p07.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the top of the cliff where the rock is released. The ground is below the origin, so its position $$ y $$ comes out negative and the height of the cliff is $$ |y| $$. In part (a) $$ v_0 = +8.00 \ms $$ (thrown up); in part (b) $$ v_0 = -8.00 \ms $$ (thrown down). In both, $$ a = -9.80 \mss $$.
 
 **Solution**
 
@@ -1066,6 +1106,12 @@ and he is 1.80 m tall?
 
 Take upward as positive. The shot is released at height 2.20 m with initial upward velocity of 11.0 m/s. The shot putter is 1.80 m tall, so his head is at 1.80 m. We need to find when the shot returns to this height on its way back down. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground. Release: t = 0, y₀ = 2.20 m, v₀ = +11.0 m/s. The shot comes back down to the top of the putter’s head at y = 1.80 m at an unknown time t. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p08.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground. Then the shot starts at $$ y_0 = +2.20 \m $$ with $$ v_0 = +11.0 \ms $$, the top of the putter's head is at $$ y = +1.80 \m $$, and $$ a = -9.80 \mss $$.
+
 **Solution**
 
 1. Identify the known values:
@@ -1149,6 +1195,12 @@ You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a t
 
 Take upward as positive. The ball passes the tree branch twice: once on the way up and once on the way down. We need to find both times when the ball is at height 7.00 m, then calculate the difference between these times.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the point of release. Release: t = 0, y₀ = 0, v₀ = +15.0 m/s. The ball passes the branch at y = 7.00 m twice, on the way up at t₁ and on the way down at t₂ (both unknown). The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p09.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the point of release. Then $$ y_0 = 0 $$, $$ v_0 = +15.0 \ms $$, $$ a = -9.80 \mss $$, and the branch is at $$ y = +7.00 \m $$. The equation for $$ y = 7.00 \m $$ has two positive roots: the earlier one on the way up, the later one on the way down.
+
 **Solution**
 
 Given:
@@ -1230,6 +1282,12 @@ A kangaroo can jump over an object 2.50 m high.
 **Strategy**
 
 Take upward as positive. The kangaroo leaves the ground with some initial velocity, reaches a maximum height of 2.50 m where its velocity becomes zero, then returns to the ground. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground. Takeoff: t = 0, y₀ = 0, v₀ unknown (upward). Top: y = 2.50 m, v = 0. Landing: y = 0 at an unknown time. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p10.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground. Then $$ y_0 = 0 $$, $$ v = 0 $$ at the top ($$ y = 2.50 \m $$), and $$ a = -9.80 \mss $$.
 
 **Solution**
 
@@ -1321,6 +1379,12 @@ a height of 105 m. He can't see the rock right away but then does, 1.50 s later.
 
 Take downward as positive. The 1.50 s interval begins when the hiker **hears** the rock break loose, so sound has already traveled from the cliff to the hiker. We first find how long the rock has been falling when it becomes visible, then find its height and the remaining fall time.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin where the rock breaks loose, 105 m above the hiker. Start: t = 0, y₀ = 0, v₀ = 0. The hiker hears the break when sound has traveled 105 m, and sees the rock 1.50 s later, at t = 1.81 s, when it is at unknown y. The hiker’s head is at y = 105 m. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p11.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin where the rock breaks loose and $$ t = 0 $$ at that instant. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the hiker's head is at $$ y = 105 \m $$, so the rock's height above the hiker is $$ 105 \m - y $$.
+
 **Solution**
 
 **(a) Height of rock when hiker sees it:**
@@ -1392,6 +1456,12 @@ An object is dropped from a height of 75.0 m above ground level.
 **Strategy**
 
 Take downward as positive since the object is dropped and falls downward. The initial velocity is zero (dropped, not thrown). Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the release point, 75.0 m above the ground. Release: t = 0, y₀ = 0, v₀ = 0. After the first second: t = 1.00 s, y unknown. At the ground: y = 75.0 m, v unknown. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p12.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the release point and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the ground is at $$ y = 75.0 \m $$.
 
 **Solution**
 
@@ -1505,6 +1575,12 @@ There is a 250-m-high cliff at Half Dome in Yosemite National Park in California
 
 Take downward as positive. The boulder falls from rest from a height of 250 m. For part (a), we find the impact velocity. For part (b), we place everything on a single timeline that starts when the boulder breaks loose. The sound of the rock breaking loose travels **down** the cliff to the tourist while the boulder falls; the tourist hears it, reacts, and then has whatever time remains before impact. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
 
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the top of the 250-m cliff. Start: t = 0, y₀ = 0, v₀ = 0. At the ground: y = 250 m, v unknown (positive, downward). The acceleration is a = +9.80 m/s² (downward). The tourist stands at the bottom.](../resources/sketch_02_07_p13.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the top of the cliff and $$ t = 0 $$ when the boulder breaks loose. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the ground is at $$ y = 250 \m $$. The impact velocity comes out positive, which in this coordinate system means downward.
+
 **Solution**
 
 **(a) Velocity when striking the ground:**
@@ -1529,13 +1605,10 @@ $$ v^2 = 4900 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = 70.0 \ms $$
+$$ v = +70.0 \ms $$
 </div>
 
-Taking the coordinate system with upward as positive (more conventional):
-<div class="equation">
-$$ v = -70.0 \ms $$ (downward)
-</div>
+The positive root is the physical one: in this coordinate system, positive means downward.
 
 **(b) Time available to move:**
 
@@ -1573,7 +1646,7 @@ The boulder strikes the ground at 70.0 m/s (about 252 km/h or 157 mph), which is
 
 **Answer**
 
-(a) The boulder will be traveling at 70.0 m/s downward (or -70.0 m/s with upward positive) when it strikes the ground.
+(a) The boulder will be traveling at 70.0 m/s downward ($$ v = +70.0 \ms $$ with downward positive) when it strikes the ground.
 
 (b) The tourist has 6.10 s to get out of the way.
 
@@ -1597,6 +1670,12 @@ Take upward as positive. We'll solve this in two steps as suggested by the hint:
 
 1. First, analyze the motion through the window to find the velocity at the bottom of the window
 2. Then, analyze the motion from ground to the bottom of the window to find the initial velocity
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground where the ball is thrown. Launch: y₀ = 0, v₀ unknown (upward). The window’s bottom is at y = 7.50 m and its top at y = 9.50 m; the ball takes 0.312 s to rise from bottom to top. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p14.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground where the ball is thrown. The bottom of the window is at $$ y = 7.50 \m $$ and the top at $$ y = 9.50 \m $$, so the ball's displacement across the window is $$ \Delta y = +2.00 \m $$; $$ a = -9.80 \mss $$.
 
 **Solution**
 
@@ -1694,6 +1773,12 @@ Suppose you drop a rock into a dark well and, using precision equipment, you mea
 **Strategy**
 
 Take downward as positive. For part (a), we neglect the time for sound to travel up and assume all 2.0000 s is the time for the rock to fall. For part (b), we must account for the fact that the total time includes both the fall time and the sound travel time. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity and a sound speed of 332.00 m/s.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points down, with the origin at the top of the well where the rock is released. Release: t = 0, y₀ = 0, v₀ = 0. The water is at an unknown depth d. The rock falls for t fall, then the splash sound travels back up at 332.00 m/s for t sound; the total is 2.0000 s. The acceleration is a = +9.80 m/s² (downward).](../resources/sketch_02_07_p15.svg){: .sketch}
+
+Take $$ +y $$ downward, with the origin at the top of the well and $$ t = 0 $$ at release. Then $$ y_0 = 0 $$, $$ v_0 = 0 $$, $$ a = +9.80 \mss $$, and the water is at the unknown depth $$ y = d $$. The sound then travels the same distance $$ d $$ back up at constant speed.
 
 **Solution**
 
@@ -1815,6 +1900,12 @@ assuming the floor is absolutely rigid and that the ball's acceleration is const
 **Strategy**
 
 Take upward as positive. The ball falls from rest, hits the floor, and rebounds. We'll analyze the motion in stages: before impact, during collision, and after rebound. Use $$ g = 9.80 \mss $$ for the acceleration due to gravity.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the floor. Falling: y₀ = 1.50 m, v₀ = 0; just before impact, y = 0 and v₁ is unknown (negative, downward). Rebounding: just after leaving the floor, y = 0 and v₂ is unknown (positive, upward); at the top of the rebound, y = 1.45 m and v = 0. The acceleration is a = −9.80 m/s² while the ball is in the air; during the 8.00 × 10⁻⁵ s contact it is unknown.](../resources/sketch_02_07_p16.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the floor. The ball falls from $$ y_0 = 1.50 \m $$ and rebounds to $$ y = 1.45 \m $$; in the air $$ a = -9.80 \mss $$. Its velocity just before impact is negative (downward) and just after leaving the floor is positive (upward), so the acceleration during contact, $$ (v_{\text{after}} - v_{\text{before}})/\Delta t $$, is positive.
 
 **Solution**
 
@@ -1947,6 +2038,12 @@ A coin is dropped from a hot-air balloon that is 300 m above the ground and risi
 **Strategy**
 
 Take upward as positive. The coin is released from a balloon that is already moving upward at 10.0 m/s, so the coin inherits this initial velocity. After release, the coin decelerates, reaches a maximum height, then falls back down. We'll analyze the motion in stages using $$ g = 9.80 \mss $$.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the ground. Release: t = 0, y₀ = 300 m, v₀ = +10.0 m/s (the balloon’s upward velocity). Top of the coin’s path: y unknown, v = 0. At t = 4.00 s: y and v unknown. At the ground: y = 0, t unknown. The acceleration is a = −9.80 m/s².](../resources/sketch_02_07_p17.svg){: .sketch}
+
+Take $$ +y $$ upward, with the origin at the ground and $$ t = 0 $$ at release. The coin starts with the balloon's position and velocity, $$ y_0 = +300 \m $$ and $$ v_0 = +10.0 \ms $$, and then has $$ a = -9.80 \mss $$. It hits the ground when $$ y = 0 $$.
 
 **Solution**
 

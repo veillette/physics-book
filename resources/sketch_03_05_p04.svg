@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the coin falling in the moving airplane (Earth frame)</title>
+<desc id="desc">Earth frame: axes with +x in the airplane’s direction of motion and +y up, origin where the coin is released. The coin starts with the airplane’s horizontal velocity, v_0x = +260 m/s, and v_0y = 0; it falls 1.50 m to the floor (y = −1.50 m) while moving an unknown horizontal distance x. The acceleration is a_y = −9.80 m/s², a_x = 0. The vertical scale is greatly exaggerated.</desc>
+<rect width="480" height="200" fill="#ffffff"/>
+<line x1="20" y1="150" x2="406" y2="150" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="26" y1="150" x2="18" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="40" y1="150" x2="32" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="54" y1="150" x2="46" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="68" y1="150" x2="60" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="82" y1="150" x2="74" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="96" y1="150" x2="88" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="110" y1="150" x2="102" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="124" y1="150" x2="116" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="138" y1="150" x2="130" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="152" y1="150" x2="144" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="166" y1="150" x2="158" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="180" y1="150" x2="172" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="194" y1="150" x2="186" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="208" y1="150" x2="200" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="222" y1="150" x2="214" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="236" y1="150" x2="228" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="250" y1="150" x2="242" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="264" y1="150" x2="256" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="278" y1="150" x2="270" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="292" y1="150" x2="284" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="306" y1="150" x2="298" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="320" y1="150" x2="312" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="334" y1="150" x2="326" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="348" y1="150" x2="340" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="362" y1="150" x2="354" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="376" y1="150" x2="368" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="390" y1="150" x2="382" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="404" y1="150" x2="396" y2="159" stroke="#8d6e63" stroke-width="1.1"/>
+<line x1="20" y1="60" x2="50" y2="60" stroke="#555555" stroke-width="1.6"/>
+<line x1="50" y1="60" x2="420" y2="60" stroke="#555555" stroke-width="1.6"/>
+<polygon points="430,60 419,64.4 419,55.6" fill="#555555"/>
+<line x1="50" y1="180" x2="50" y2="60" stroke="#555555" stroke-width="1.6"/>
+<line x1="50" y1="60" x2="50" y2="30" stroke="#555555" stroke-width="1.6"/>
+<polygon points="50,20 54.4,31 45.6,31" fill="#555555"/>
+<text x="438" y="65.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="50" y="13.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="66" y="12.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<text x="42" y="78.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<polyline points="50,60 55.75,60.02 61.5,60.1 67.25,60.22 73,60.4 78.76,60.62 84.51,60.9 90.26,61.22 96.01,61.6 101.76,62.02 107.51,62.5 113.26,63.02 119.01,63.6 124.77,64.22 130.52,64.89 136.27,65.62 142.02,66.39 147.77,67.22 153.52,68.09 159.27,69.02 165.02,69.99 170.78,71.01 176.53,72.09 182.28,73.21 188.03,74.39 193.78,75.61 199.53,76.88 205.28,78.21 211.03,79.58 216.78,81 222.54,82.48 228.29,84 234.04,85.57 239.79,87.2 245.54,88.87 251.29,90.59 257.04,92.37 262.79,94.19 268.55,96.06 274.3,97.99 280.05,99.96 285.8,101.98 291.55,104.05 297.3,106.18 303.05,108.35 308.8,110.57 314.56,112.85 320.31,115.17 326.06,117.54 331.81,119.96 337.56,122.44 343.31,124.96 349.06,127.53 354.81,130.15 360.56,132.83 366.32,135.55 372.07,138.32 377.82,141.14 383.57,144.01 389.32,146.94 395.07,149.91" fill="none" stroke="#7f8c8d" stroke-width="1.8" stroke-dasharray="6 5" stroke-linejoin="round"/>
+<line x1="50" y1="60" x2="98.4" y2="60" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="110,60 97.4,65.04 97.4,54.96" fill="#3f8a1e"/>
+<text x="120" y="81.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#3f8a1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">0</tspan><tspan font-style="normal">x</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = +260 </tspan><tspan font-style="normal">m/s</tspan></text>
+<circle cx="395.36" cy="150" r="5" fill="#ffffff" stroke="#1f3a5f" stroke-width="2"/>
+<text x="385.36" y="177.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan><tspan font-style="normal"> = −1.50 </tspan><tspan font-style="normal">m</tspan><tspan font-style="normal">,  </tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> = ?</tspan></text>
+<text x="240" y="194.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">vertical</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">scale</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">exaggerated</tspan></text>
+<line x1="450" y1="80" x2="450" y2="108.4" stroke="#6a3d9a" stroke-width="3"/>
+<polygon points="450,120 444.96,107.4 455.04,107.4" fill="#6a3d9a"/>
+<text x="442" y="99.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#6a3d9a" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">y</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = −9.80 </tspan><tspan font-style="normal">m/s</tspan><tspan font-size="10.5" dy="-6"><tspan font-style="normal">2</tspan></tspan><tspan dy="6">​</tspan></text>
+<text x="442" y="119.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#6a3d9a" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">x</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+</svg>

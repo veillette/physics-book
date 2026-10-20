@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="190" viewBox="0 0 600 190" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the two runners</title>
+<desc id="desc">A +x axis points toward the finish line, with the origin at the second runner. The front runner is at x = 45.0 m and the finish line at x = 295 m (250 m beyond the front runner). Velocities: second runner +4.20 m/s, front runner +3.50 m/s.</desc>
+<rect width="600" height="190" fill="#ffffff"/>
+<line x1="30" y1="98" x2="540" y2="98" stroke="#8d6e63" stroke-width="2.2"/>
+<line x1="30" y1="120" x2="580" y2="120" stroke="#555555" stroke-width="1.6"/>
+<polygon points="590,120 579,124.4 579,115.6" fill="#555555"/>
+<text x="606" y="125.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="590" y="144.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">toward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">finish</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="60" y1="115" x2="60" y2="125" stroke="#555555" stroke-width="1.6"/>
+<text x="60" y="141.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="123" y1="115" x2="123" y2="125" stroke="#555555" stroke-width="1.6"/>
+<text x="123" y="141.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">45.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="473" y1="115" x2="473" y2="125" stroke="#555555" stroke-width="1.6"/>
+<text x="473" y="141.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">295 </tspan><tspan font-style="normal">m</tspan></text>
+<circle cx="60" cy="90" r="7" fill="#1f3a5f"/>
+<text x="60" y="80.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#1f3a5f" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">second</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">runner</tspan></text>
+<line x1="70" y1="64" x2="118.4" y2="64" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="130,64 117.4,69.04 117.4,58.96" fill="#3f8a1e"/>
+<text x="136" y="68.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#3f8a1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+4.20 </tspan><tspan font-style="normal">m/s</tspan></text>
+<circle cx="123" cy="90" r="7" fill="#d35400"/>
+<text x="133" y="114.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#d35400" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">front</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">runner</tspan></text>
+<line x1="133" y1="90" x2="171.4" y2="90" stroke="#3f8a1e" stroke-width="3"/>
+<polygon points="183,90 170.4,95.04 170.4,84.96" fill="#3f8a1e"/>
+<text x="189" y="94.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#3f8a1e" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+3.50 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="473" y1="50" x2="473" y2="98" stroke="#222222" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="473" y="46.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#444444" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">finish</tspan></text>
+</svg>

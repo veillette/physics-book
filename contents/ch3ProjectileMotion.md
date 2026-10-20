@@ -728,6 +728,12 @@ distances from where the projectile was launched to where it lands?
 
 Resolve the initial velocity into horizontal and vertical components. Use the kinematic equations for each direction separately, with time as the common variable.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of launch and +y up, origin at the launch point on the ground. v₀ = 50.0 m/s at 30.0° above +x. After t = 3.00 s the projectile strikes the target at unknown (x, y). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p01.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the launch point, $$ x_0 = y_0 = 0 $$, $$ a_x = 0 $$, and $$ a_y = -9.80 \mss $$; a positive $$ y $$ at 3.00 s means the target is above the launch point.
+
 **Solution**
 
 1. Find the initial velocity components:
@@ -779,6 +785,12 @@ A ball is kicked with an initial velocity of 16 m/s in the horizontal direction 
 **Strategy**
 
 The horizontal and vertical velocity components are given directly. Use projectile motion equations to find the time of flight, maximum height, and final velocity.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the kick and +y up, origin at the kick point on level ground. Initial components v₀x = +16 m/s and v₀y = +12 m/s. The ball reaches maximum height y max (unknown) and lands at y = 0 at an unknown time, with v x = 16 m/s and v y negative. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p02.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick, $$ v_{0x} = +16 \ms $$, $$ v_{0y} = +12 \ms $$, and $$ a_y = -9.80 \mss $$. The ball lands when $$ y = 0 $$ again, with $$ v_y $$ negative (downward).
 
 **Solution**
 
@@ -856,16 +868,22 @@ A ball is thrown horizontally from the top of a 60.0-m building and lands 100.0 
 
 Since the ball is thrown horizontally, $$ v_{0y} = 0 $$. The vertical motion determines the time of flight, which then determines the required horizontal velocity.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal, away from the building, and +y up, origin on the ground at the base of the building. The ball leaves the roof at (0, 60.0 m) with horizontal velocity v₀x (unknown) and v₀y = 0. It lands at (100.0 m, 0) after an unknown time. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p03.svg){: .sketch}
+
+Take $$ +x $$ horizontal, away from the building, and $$ +y $$ up, with the origin on the ground at the base of the building. Then $$ y_0 = +60.0 \m $$, the ball lands at $$ y = 0 $$, $$ v_{0y} = 0 $$, and $$ a_y = -9.80 \mss $$; a negative $$ v_y $$ means downward.
+
 **Solution**
 
 Given: $$ y_0 = 60.0 \m $$, $$ y = 0 $$, $$ x = 100.0 \m $$, $$ v_{0y} = 0 $$
 
 **(a) Time in the air:**
 
-Using the vertical motion equation with $$ v_{0y} = 0 $$ and taking downward as positive:
+Using the vertical motion equation with $$ v_{0y} = 0 $$ (upward positive, so the displacement to the ground is $$ y - y_0 = -60.0 \m $$):
 
 <div class="equation">
-$$ y - y_0 = v_{0y}t + \frac{1}{2}gt^{2} $$
+$$ y - y_0 = v_{0y}t + \frac{1}{2}a_y t^{2} $$
 </div>
 
 <div class="equation">
@@ -949,6 +967,12 @@ bus. (Neglect air resistance.)
 
 Since the takeoff and landing heights are equal, use the range equation for level ground. Calculate the range and determine how many 20.0 m buses fit within it.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the buses and +y up, origin at the top of the takeoff ramp, level with the bus roofs. v₀ = 40.0 m/s at 32.0° above +x. The motorcycle lands back at y = 0 at an unknown range R; each bus is 20.0 m long. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p04.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the top of the ramp, the landing point (the bus roofs) is also at $$ y = 0 $$, so the level-ground range equation applies.
+
 **Solution**
 
 Given: $$ v_0 = 40.0 \ms $$, $$ \theta_{0} = 32° $$, bus length = 20.0 m
@@ -1006,6 +1030,12 @@ An archer shoots an arrow at a 75.0 m distant target; the bull's-eye of the targ
 **Strategy**
 
 For part (a), use the range equation to find the launch angle. Since the arrow lands at the same height as release, we can use $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$. For part (b), calculate the arrow's height at the midpoint (37.5 m horizontally) and compare it to 3.50 m.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the target and +y up, origin at the release point. v₀ = 35.0 m/s at unknown angle θ above +x; the bull’s-eye is at (75.0 m, 0). Halfway, at x = 37.5 m, a branch is 3.50 m above the release height. The acceleration is a y = −9.80 m/s², a x = 0. The vertical scale is exaggerated.](../resources/sketch_03_04_p05.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the target and $$ +y $$ up, with the origin at the release point. The bull's-eye is at $$ (75.0 \m, 0) $$, and the branch is at $$ y = +3.50 \m $$ when $$ x = 37.5 \m $$. Heights computed below are measured from this origin.
 
 **Solution**
 
@@ -1111,6 +1141,12 @@ A rugby player passes the ball 7.00 m across the field, where it is caught at th
 **Strategy**
 
 Since the ball is caught at the same height as it was thrown, we can use the range equation for level ground. The range equation gives two possible angles that produce the same range. The smaller angle gives a flatter, faster trajectory.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the pass and +y up, origin at the release point. v₀ = 12.0 m/s at unknown angle θ above +x. The ball is caught at the same height, at (7.00 m, 0). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p06.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the release point, the catch is at $$ (7.00 \m, 0) $$, so the level-ground range equation applies.
 
 **Solution**
 
@@ -1360,6 +1396,12 @@ significant here?
 
 For part (a), use the range equation. Maximum range occurs at 45°. For part (b), calculate the maximum height using the vertical component of initial velocity. For part (c), use geometry to find the Earth's curvature over the horizontal distance.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of fire and +y up, origin at the cannon. For maximum range the shell is fired at 45.0° above +x with unknown speed v₀, rises to an unknown maximum height h, and lands at y = 0 at x = R = 32.0 km. The acceleration is a y = −9.80 m/s², a x = 0 (air resistance neglected).](../resources/sketch_03_04_p09.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the cannon, the shell lands at $$ y = 0 $$ (flat-ocean model for parts a and b); $$ h $$ is the $$ y $$-coordinate at the top.
+
 **Solution**
 
 **(a) Initial velocity for maximum range:**
@@ -1455,6 +1497,12 @@ above the horizontal. It lands on the top edge of the cliff 4.0 s later.
 **Strategy**
 
 For part (a), use the vertical motion equation to find the final height. For part (b), calculate the maximum height using the vertical component of initial velocity. For part (c), find the velocity components at impact time and combine them.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the cliff and +y up, origin on the ground below the archer. The arrow leaves from y₀ = 1.5 m with v₀ = 30 m/s at 60° above horizontal and lands on the top edge of the cliff, of unknown height H, at t = 4.0 s. Its maximum height y max is unknown. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p10.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the cliff and $$ +y $$ up, with the origin on the ground below the archer. Then $$ y_0 = +1.5 \m $$, and the $$ y $$-coordinate of the arrow at $$ t = 4.0 \s $$ is the cliff height $$ H $$.
 
 **Solution**
 
@@ -1572,6 +1620,12 @@ achieved by swinging the arms in the direction of the jump.)
 
 First, find the launch velocity using kinematics during the acceleration phase. Then use the range equation to find the horizontal distance. Assume the optimal launch angle of 45° for maximum range.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the jump and +y up, origin at the takeoff point. Assumed: takeoff at 45° above +x with speed v₀ (found from the 0.600-m push at 1.25g), landing at the same height, at unknown range R. In flight, a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p11.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at takeoff, and assuming a $$ 45^\circ $$ takeoff and landing at the same height, the range equation applies.
+
 **Solution**
 
 **Assumptions:**
@@ -1645,6 +1699,12 @@ the maximum range obtainable by a person if he has a take-off speed of 9.5 m/s? 
 
 Use the range equation for projectile motion. Maximum range occurs at a 45° launch angle. Compare the calculated maximum to the actual world record.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the jump and +y up, origin at the takeoff point. Assumed: takeoff speed v₀ = 9.5 m/s at 45° above +x, landing at the same height, at unknown maximum range R. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p12.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at takeoff and landing at the same height, the range equation applies.
+
 **Solution**
 
 **Assumptions:**
@@ -1705,6 +1765,12 @@ net?
 **Strategy**
 
 Convert the speed to m/s. Find the angle that makes the ball just clear the net at x = 11.9 m. Then find where the ball lands (y = 0) to check if it's within 6.40 m from the net.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the net and +y up, origin on the court directly below the point where the ball is hit. The ball leaves from y₀ = 2.5 m with v₀ = 170 km/h at unknown angle θ below the horizontal. The net, 0.91 m high, is at x = 11.9 m; the service line is 6.40 m beyond the net, at x = 18.3 m. The acceleration is a y = −9.80 m/s², a x = 0. The vertical scale is exaggerated.](../resources/sketch_03_04_p13.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the net and $$ +y $$ up, with the origin on the court below the point of contact. Then $$ y_0 = +2.5 \m $$, the net top is at $$ (11.9 \m, 0.91 \m) $$, and because the ball is hit *below* the horizontal, $$ v_{0y} = -v_0 \sin\theta $$ is negative.
 
 **Solution**
 
@@ -1847,6 +1913,12 @@ caught at the same height as it is released, what is its initial speed relative 
 
 The question gives launch speed and angle **relative to the ground**. With equal launch and landing heights, use the range equation directly for the ground-frame speed. The quarterback's backward motion matters only when finding the ball's velocity relative to the quarterback, not in this ground-frame range calculation.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal downfield and +y up, origin at the release point, fixed to the ground. The ball leaves at unknown speed v₀ at 25.0° above +x (relative to the ground) and is caught at the same height at (18.0 m, 0). Its maximum height h above the release point is unknown. The quarterback himself moves backward, in −x, at 2.00 m/s. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p14.svg){: .sketch}
+
+Take $$ +x $$ horizontal downfield and $$ +y $$ up, with the origin at the release point and the axes fixed to the ground (not to the moving quarterback). The given angle and the speed found are relative to the ground.
+
 **Solution**
 
 **Given:**
@@ -1914,6 +1986,12 @@ Gun sights are adjusted to aim high to compensate for the effect of gravity, eff
 **Strategy**
 
 First, find the launch angle needed to hit a target 100.0 m away. Then calculate where the bullet lands vertically when aimed at this same angle but for a horizontal distance of 150.0 m.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the target and +y up, origin at the muzzle. The barrel points a small angle θ above +x so that, with v₀ = 275 m/s, the bullet returns to y = 0 at x = 100.0 m. At x = 150.0 m the bullet is at unknown y, below the aiming line. The acceleration is a y = −9.80 m/s², a x = 0. Angles and heights are greatly exaggerated.](../resources/sketch_03_04_p15.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the target and $$ +y $$ up, with the origin at the muzzle. The sight angle $$ \theta $$ makes $$ y = 0 $$ at $$ x = 100.0 \m $$; at $$ x = 150.0 \m $$ the bullet's $$ y $$ comes out negative, meaning below the aiming line.
 
 **Solution**
 
@@ -2030,6 +2108,12 @@ An eagle is flying horizontally at a speed of 3.00 m/s when the fish in her talo
 
 The fish initially has the same horizontal velocity as the eagle (3.00 m/s) and zero vertical velocity. Use kinematic equations to find the vertical velocity component when the fish has fallen 5.00 m, then combine with the horizontal component to find the total velocity.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the eagle’s direction of flight and +y up, origin where the fish is released. The fish starts with v₀x = +3.00 m/s and v₀y = 0 and hits the water at y = −5.00 m with unknown velocity v. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p16.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the eagle's direction of flight and $$ +y $$ up, with the origin at the release point. Then the water is at $$ \Delta y = -5.00 \m $$, $$ v_{0x} = +3.00 \ms $$, $$ v_{0y} = 0 $$, and $$ a_y = -9.80 \mss $$.
+
 **Solution**
 
 **Given:**
@@ -2105,6 +2189,12 @@ horizontal position of the mouse when it has fallen 12.0 m.
 **Strategy**
 
 The mouse initially has the same velocity as the owl: 3.50 m/s at 30° below horizontal. Find the velocity components, then determine the time to fall 12.0 m. Use this time to calculate the horizontal distance traveled.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y DOWN, origin where the owl drops the mouse. The mouse starts with the owl’s velocity, 3.50 m/s at 30.0° below the horizontal, so v₀x = +3.03 m/s and v₀y = +1.75 m/s. The 30.0-cm nest is centered at x = 4.00 m, y = 12.0 m. The acceleration is a y = +9.80 m/s² (down), a x = 0. The question is the mouse’s x when y = 12.0 m.](../resources/sketch_03_04_p17.svg){: .sketch}
+
+This solution takes $$ +x $$ east and $$ +y $$ **downward**, with the origin where the mouse is dropped. With this choice, the downward initial velocity component and the acceleration are both positive: $$ v_{0y} = +1.75 \ms $$, $$ a_y = +9.80 \mss $$, and the nest is at $$ y = +12.0 \m $$.
 
 **Solution**
 
@@ -2203,6 +2293,12 @@ above the horizontal.
 
 Use the projectile motion equations to relate the horizontal distance (30 m), vertical height (2.4 m), and launch angle (40°) to find the initial speed. Use the horizontal and vertical equations simultaneously.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the goal and +y up, origin at the kick. The ball leaves at unknown speed v₀ at 40° above +x and just passes over the crossbar at (30 m, 2.4 m). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p18.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick, the ball must pass the point $$ (30 \m, 2.4 \m) $$.
+
 **Solution**
 
 **Given:**
@@ -2297,6 +2393,12 @@ Can a goalkeeper at their goal kick a soccer ball into the opponent's goal witho
 
 Calculate the maximum range achievable with an initial speed of 30 m/s. Maximum range occurs at a 45° launch angle. Compare this to the required distance of 95 m.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the opponent’s goal and +y up, origin at the kick. For maximum range the ball leaves at 45° above +x with v₀ = 30 m/s and lands at y = 0 at unknown range R; the opponent’s goal is 95 m away. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p19.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick and the ball landing at $$ y = 0 $$, the maximum range occurs at $$ 45^\circ $$.
+
 **Solution**
 
 **Given:**
@@ -2358,6 +2460,12 @@ The free throw line in basketball is 4.57 m (15 ft) from the basket, which is 3.
 **Strategy**
 
 Follow the standard projectile motion problem-solving steps: identify knowns and unknowns, set up coordinate system, break into horizontal and vertical components, apply kinematic equations, and solve for the unknown angle.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the basket and +y up, origin at the release point, 2.44 m above the floor. The ball leaves with v₀ = 8.15 m/s at unknown angle θ above +x and enters the basket at (4.57 m, +0.61 m), since the rim is 3.05 m above the floor. The floor is at y = −2.44 m. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p20.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the basket and $$ +y $$ up, with the origin at the release point. The basket is then at $$ (4.57 \m, +0.61 \m) $$ and the floor at $$ y = -2.44 \m $$.
 
 **Solution**
 
@@ -2511,6 +2619,12 @@ ground is achieved at $$ 45^\circ $$ when air resistance is neglected, a positiv
 
 Since the shot is released above ground level and lands on the ground, we cannot use the simple range equation. Instead, use the projectile motion equations with the release height of 2.10 m and landing height of 0 m.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of the throw and +y up, origin on the ground directly below the release point. The shot leaves from y₀ = 2.10 m with unknown speed v₀ at 38.0° above the horizontal and lands at (24.77 m, 0). The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p21.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of the throw and $$ +y $$ up, with the origin on the ground below the release point. Then $$ y_0 = +2.10 \m $$ and the shot lands at $$ y = 0 $$, so the level-ground range equation does not apply.
+
 **Solution**
 
 **Given:**
@@ -2602,6 +2716,12 @@ same time as he reaches the basket?
 **Strategy**
 
 For part (a), use the kinematic equation relating velocity and displacement for vertical motion. For part (b), find the time to reach maximum height, then use horizontal motion to find the starting distance.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal toward the basket and +y up, origin at the takeoff point on the floor. The player keeps v x = +5.00 m/s and leaves with unknown v₀y, reaching the top of the jump, 0.750 m up (v y = 0), exactly under the basket at unknown horizontal distance x. The acceleration is a y = −9.80 m/s², a x = 0.](../resources/sketch_03_04_p22.svg){: .sketch}
+
+Take $$ +x $$ horizontal toward the basket and $$ +y $$ up, with the origin at the takeoff point on the floor. Then $$ v_x = +5.00 \ms $$ (constant), $$ a_y = -9.80 \mss $$, and the top of the jump is at $$ y = +0.750 \m $$, where $$ v_y = 0 $$.
 
 **Solution**
 
@@ -2696,6 +2816,12 @@ horizontally?
 **Strategy**
 
 For part (a), use the range equation to find the initial speed. For part (b), find the time to maximum height, calculate distance before and after the wind gust, then sum them.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal downfield and +y up, origin at the kick on level ground. The ball leaves at unknown speed v₀ at 45.0° above +x; without wind it would land at x = 60.0 m. At the top of its path a gust reduces v x by 1.50 m/s, so it lands short of 60.0 m, at an unknown distance. The acceleration is a y = −9.80 m/s², a x = 0 except during the gust.](../resources/sketch_03_04_p23.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the kick, the gust changes only $$ v_x $$ at the top of the path; $$ v_y $$ and the time to fall are unchanged.
 
 **Solution**
 
@@ -2807,6 +2933,12 @@ where $$ a $$ and $$ b $$ are constants.
 
 Start with the parametric equations for projectile motion (x and y as functions of time), eliminate time by solving for t from the x-equation, then substitute into the y-equation to get y as a function of x.
 
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of launch and +y up, origin at the launch point. The projectile leaves with speed v₀ at angle θ₀ above +x, so v₀x = v₀ cos θ₀ and v₀y = v₀ sin θ₀. The acceleration is a y = −g, a x = 0. Landing condition: y(x) = ?.](../resources/sketch_03_04_p24.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of launch and $$ +y $$ up, with the origin at the launch point, so $$ x_0 = y_0 = 0 $$, $$ a_x = 0 $$, and $$ a_y = -g $$. These are the assumptions behind the given equations for $$ x $$ and $$ y $$.
+
 **Solution**
 
 **Given equations:**
@@ -2879,6 +3011,12 @@ expression for $$ x-x_{0} $$, noting that $$ R=x-x_{0} $$
 ::::
 
 :::: solution
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of launch and +y up, origin at the launch point. The projectile leaves with speed v₀ at angle θ₀ above +x, so v₀x = v₀ cos θ₀ and v₀y = v₀ sin θ₀. The acceleration is a y = −g, a x = 0. Landing condition: y = 0 at x = R.](../resources/sketch_03_04_p25.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of launch and $$ +y $$ up, with the origin at the launch point on level ground. The projectile lands when $$ y $$ returns to zero, and the range is $$ R = x - x_0 $$ at that time.
 
 **Solution**
 
@@ -2956,6 +3094,12 @@ range of the super cannon.
 **Strategy**
 
 Use the range formula for projectile motion, then analyze whether the result is physically reasonable. Consider factors like Earth's curvature, atmosphere, and the validity of the projectile motion equations.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal in the direction of fire and +y up, origin at the cannon. For maximum range on level ground the shell leaves at 45° above +x with v₀ = 4.0 km/s and lands at y = 0 at unknown range R. The model assumes a y = −9.80 m/s², a x = 0, no air resistance, and a flat Earth.](../resources/sketch_03_04_p26.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the direction of motion and $$ +y $$ up. With the origin at the cannon, the range equation assumes level ground, constant $$ g $$, and no air resistance; parts (b)–(d) examine those assumptions.
 
 **Solution**
 

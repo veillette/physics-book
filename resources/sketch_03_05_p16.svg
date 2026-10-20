@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="220" viewBox="0 0 520 220" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the puck’s velocities for the shot on goal</title>
+<desc id="desc">Axes with +x toward the goal (east) and +y along the player’s motion (north). The player’s velocity relative to the ice is v_P/I = 8.00 m/s along +y. The puck’s velocity relative to the player, v_p/P = 29.0 m/s at unknown angle θ from the player’s direction (+y), plus v_P/I must give a puck velocity relative to the ice, v_p/I, along +x, toward the goal.</desc>
+<rect width="520" height="220" fill="#ffffff"/>
+<line x1="20" y1="70" x2="50" y2="70" stroke="#555555" stroke-width="1.6"/>
+<line x1="50" y1="70" x2="410" y2="70" stroke="#555555" stroke-width="1.6"/>
+<polygon points="420,70 409,74.4 409,65.6" fill="#555555"/>
+<line x1="50" y1="200" x2="50" y2="70" stroke="#555555" stroke-width="1.6"/>
+<line x1="50" y1="70" x2="50" y2="30" stroke="#555555" stroke-width="1.6"/>
+<polygon points="50,20 54.4,31 45.6,31" fill="#555555"/>
+<text x="428" y="75.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="428" y="92.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">toward</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">goal</tspan><tspan font-style="normal">)</tspan></text>
+<text x="50" y="13.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="66" y="12.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">player</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">motion</tspan><tspan font-style="normal">)</tspan></text>
+<text x="42" y="88.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="50" y1="70" x2="373.29" y2="162.8" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="384.44,166 370.94,167.37 373.72,157.68" fill="#1f77c8"/>
+<text x="212.25" y="140.55" font-family="'Times New Roman', Times, serif" font-size="15" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.03" dy="-6.3">→</tspan><tspan dx="-0.53" dy="6.3">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">p</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">P</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 29.0 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="384.44" y1="166" x2="384.44" y2="81.6" stroke="#2e8b57" stroke-width="3"/>
+<polygon points="384.44,70 389.48,82.6 379.4,82.6" fill="#2e8b57"/>
+<text x="400.44" y="123.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#2e8b57" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.03" dy="-6.3">→</tspan><tspan dx="-0.53" dy="6.3">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">P</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">I</tspan></tspan><tspan dy="-4.2">​</tspan></text>
+<line x1="50" y1="70" x2="372.84" y2="70" stroke="#c0392b" stroke-width="3"/>
+<polygon points="384.44,70 371.84,75.04 371.84,64.96" fill="#c0392b"/>
+<text x="250.66" y="59.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.03" dy="-6.3">→</tspan><tspan dx="-0.53" dy="6.3">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">p</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">I</tspan></tspan><tspan dy="-4.2">​</tspan></text>
+<path d="M 78.84 78.27 A 30 30 0 0 0 50 40" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="85.14" y="48.77" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+</svg>

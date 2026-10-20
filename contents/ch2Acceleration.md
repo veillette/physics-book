@@ -592,6 +592,12 @@ A cheetah can accelerate from rest to a speed of 30.0 m/s in 7.00 s. What is its
 
 We are given initial velocity, final velocity, and time. We can use the definition of average acceleration to find the acceleration.
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the cheetah runs, with the origin at its starting point. Initial state: t = 0, v₀ = 0. Final state: t = 7.00 s, v = +30.0 m/s. The acceleration a, unknown, points in the +x direction.](../resources/sketch_02_04_p01.svg){: .sketch}
+
+Take $$ +x $$ in the direction the cheetah runs, with $$ t_0 = 0 $$ when it starts from rest. Then $$ v_0 = 0 $$ and $$ v_f = +30.0 \ms $$, and a positive answer for $$ \overline{a} $$ means the acceleration points in the direction of motion.
+
 **Solution**
 
 1. Identify the known values:
@@ -638,6 +644,12 @@ acceleration and (b) deceleration. Express each in multiples of $$ g $$, $$ \lef
 **Strategy**
 
 This problem involves two phases of motion: acceleration and deceleration. For each phase, we use the definition of average acceleration. To express the results in multiples of g, we divide each acceleration by 9.80 m/s².
+
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the sled travels, with the origin at its starting point. Start: t = 0, v₀ = 0. End of the burn: t = 5.00 s, v = +282 m/s. Stop: t = 6.40 s, v = 0. While speeding up the acceleration a₁ points in +x; while stopping a₂ points in −x.](../resources/sketch_02_04_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the sled travels. Its velocity is positive the whole time, so in part (a) the velocity increases ($$ a > 0 $$, along $$ +x $$) and in part (b) it decreases to zero ($$ a < 0 $$, along $$ -x $$). A deceleration is reported as the magnitude of that negative acceleration.
 
 **Solution**
 
@@ -703,6 +715,12 @@ A commuter backs her car out of her garage with an acceleration of $$ 1.40 \mss 
 
 For part (a), we know the acceleration and need to find time. We rearrange the acceleration equation to solve for time. For part (b), we use the definition of acceleration with the new initial velocity and final velocity (zero).
 
+**Sketch and coordinate system**
+
+![A horizontal +x axis points in the direction the car backs out of the garage (away from the garage), with the origin where the car starts. Start: t = 0, v₀ = 0. After backing up: v₁ = +2.00 m/s at an unknown time. Stopped 0.800 s later: v₂ = 0. While speeding up a₁ = +1.40 m/s² (in +x); while braking a₂ is unknown and points in −x.](../resources/sketch_02_04_p03.svg){: .sketch}
+
+Take $$ +x $$ in the direction the car backs out of the garage. With this choice the backward motion is positive: $$ v_0 = 0 $$, $$ a = +1.40 \mss $$, and the speed reached is $$ v_f = +2.00 \ms $$. While braking, the velocity is still positive but shrinking, so the acceleration found in part (b) comes out negative (it points back toward the garage).
+
 **Solution**
 
 **(a) Time to reach 2.00 m/s:**
@@ -760,6 +778,12 @@ $$ \left(9.80 \mss \right)? $$
 **Strategy**
 
 We use the definition of average acceleration. First, we need to convert the final velocity from km/s to m/s to get the answer in SI units.
+
+**Sketch and coordinate system**
+
+![A +x axis points along the missile’s direction of travel, with the origin at the launch point. Start: t = 0, v₀ = 0. End of boost: t = 60.0 s, v = +6.50 km/s. The average acceleration, unknown, points in +x.](../resources/sketch_02_04_p04.svg){: .sketch}
+
+Take $$ +x $$ along the missile's direction of travel, with $$ t_0 = 0 $$ at launch. Then $$ v_0 = 0 $$ and $$ v_f = +6.50 \text{ km/s} $$.
 
 **Solution**
 

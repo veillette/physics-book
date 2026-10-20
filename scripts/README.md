@@ -22,6 +22,7 @@ Build and utility scripts for the Physics Book project.
 | generate-icons          | `npm run generate:icons`          | Generate PWA icons                |
 | generate-fbd            | `npm run generate:fbd`            | Generate free-body diagram SVGs   |
 | generate-figures        | `npm run generate:figures`        | Generate line-art figure SVGs     |
+| generate-sketches       | `npm run generate:sketches`       | Generate kinematics sketch SVGs   |
 | build-index             | `npm run generate:search-index`   | Generate search index             |
 | parse-summary           | `npm run parse:summary`           | Generate summary.json             |
 | update-front-matter     | `npm run update:front-matter`     | Update YAML front matter          |

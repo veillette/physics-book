@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="420" viewBox="0 0 440 420" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of Gilligan’s raft trip</title>
+<desc id="desc">Axes with +x east and +y north, origin at the island. Seven displacements are drawn head to tail (blue): 2.50 km at 45.0° north of west, 4.70 km at 60.0° south of east, 1.30 km at 25.0° south of west, 5.10 km east, 1.70 km at 5.0° east of north, 7.20 km at 55.0° south of west, and 2.80 km at 10.0° north of east. The resultant R runs from the island to the end of the last leg, in the fourth quadrant (south of east).</desc>
+<rect width="440" height="420" fill="#ffffff"/>
+<line x1="40" y1="120" x2="200" y2="120" stroke="#555555" stroke-width="1.6"/>
+<line x1="200" y1="120" x2="380" y2="120" stroke="#555555" stroke-width="1.6"/>
+<polygon points="390,120 379,124.4 379,115.6" fill="#555555"/>
+<line x1="200" y1="400" x2="200" y2="120" stroke="#555555" stroke-width="1.6"/>
+<line x1="200" y1="120" x2="200" y2="40" stroke="#555555" stroke-width="1.6"/>
+<polygon points="200,30 204.4,41 195.6,41" fill="#555555"/>
+<text x="398" y="125.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="398" y="142.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="200" y="23.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="216" y="22.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<text x="192" y="138.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="200" y1="120" x2="146.85" y2="66.85" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="139.9,59.9 150.63,64.49 144.49,70.63" fill="#1f77c8"/>
+<text x="161.46" y="102.98" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="139.9" y1="59.9" x2="214.88" y2="189.77" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="219.8,198.29 210.62,191.07 218.13,186.73" fill="#1f77c8"/>
+<text x="190.24" y="127.64" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="219.8" y1="198.29" x2="188.66" y2="212.81" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="179.74,216.97 187.73,208.46 191.39,216.32" fill="#1f77c8"/>
+<text x="204.84" y="223.05" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<line x1="179.74" y1="216.97" x2="343.3" y2="216.97" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="353.14,216.97 342.3,221.3 342.3,212.63" fill="#1f77c8"/>
+<text x="266.44" y="209.52" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<line x1="353.14" y1="216.97" x2="357.32" y2="169.19" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="358.17,159.39 361.55,170.56 352.91,169.81" fill="#1f77c8"/>
+<text x="343.7" y="191.68" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<line x1="358.17" y1="159.39" x2="223.41" y2="351.85" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="217.76,359.91 220.43,348.55 227.53,353.52" fill="#1f77c8"/>
+<text x="297.8" y="271.08" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">6</tspan></text>
+<line x1="217.76" y1="359.91" x2="301.83" y2="345.09" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="311.52,343.38 301.59,349.54 300.09,341" fill="#1f77c8"/>
+<text x="262.56" y="344.38" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">7</tspan></text>
+<line x1="200" y1="120" x2="306.34" y2="333" stroke="#c0392b" stroke-width="3"/>
+<polygon points="311.52,343.38 301.38,334.36 310.4,329.86" fill="#c0392b"/>
+<text x="241.44" y="244.44" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan></text>
+<text x="208" y="112.2" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">island</tspan></text>
+</svg>

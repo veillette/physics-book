@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="320" viewBox="0 0 420 320" role="img" aria-labelledby="title desc">
+<title id="title">Sketch of the flight and the headwind</title>
+<desc id="desc">Axes with +x east and +y north. The aircraft’s velocity relative to the Earth, v_p/E = 3.53 m/s, points 45° south of east; the wind’s velocity relative to the Earth, v_a/E = 2.00 m/s, points the opposite way, 45° north of west. Along the line of motion (dashed), the positive direction is the direction of travel, 45° south of east.</desc>
+<rect width="420" height="320" fill="#ffffff"/>
+<line x1="30" y1="140" x2="160" y2="140" stroke="#555555" stroke-width="1.6"/>
+<line x1="160" y1="140" x2="350" y2="140" stroke="#555555" stroke-width="1.6"/>
+<polygon points="360,140 349,144.4 349,135.6" fill="#555555"/>
+<line x1="160" y1="300" x2="160" y2="140" stroke="#555555" stroke-width="1.6"/>
+<line x1="160" y1="140" x2="160" y2="40" stroke="#555555" stroke-width="1.6"/>
+<polygon points="160,30 164.4,41 155.6,41" fill="#555555"/>
+<text x="368" y="145.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="368" y="162.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="160" y="23.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#555555" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="176" y="22.38" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<text x="152" y="158.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#555555" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="86.46" y1="66.46" x2="275.97" y2="255.97" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="281.97" y="274.17" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#444444" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+ (</tspan><tspan font-style="normal">direction</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">travel</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="160" y1="140" x2="251.64" y2="231.64" stroke="#c0392b" stroke-width="3"/>
+<polygon points="259.84,239.84 247.37,234.5 254.5,227.37" fill="#c0392b"/>
+<text x="198.61" y="206.49" font-family="'Times New Roman', Times, serif" font-size="15" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.03" dy="-6.3">→</tspan><tspan dx="-0.53" dy="6.3">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">p</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">E</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 3.53 </tspan><tspan font-style="normal">m/s</tspan></text>
+<line x1="160" y1="140" x2="111.63" y2="91.63" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="103.43,83.43 115.9,88.78 108.78,95.9" fill="#1f77c8"/>
+<text x="120.4" y="128.28" font-family="'Times New Roman', Times, serif" font-size="15" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="9.3" font-weight="normal" dx="-8.03" dy="-6.3">→</tspan><tspan dx="-0.53" dy="6.3">​</tspan></tspan><tspan font-size="10.5" dy="4.2"><tspan font-style="normal">a</tspan><tspan font-style="normal">/</tspan><tspan font-style="normal">E</tspan></tspan><tspan dy="-4.2">​</tspan><tspan font-style="normal"> = 2.00 </tspan><tspan font-style="normal">m/s</tspan></text>
+<path d="M 192.53 172.53 A 46 46 0 0 0 206 140" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="217.28" y="172.98" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">45°</tspan></text>
+</svg>

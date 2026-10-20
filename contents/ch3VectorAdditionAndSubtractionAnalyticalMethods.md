@@ -500,6 +500,12 @@ Find the following for path C in [Figure 11](#Figure11): (a) the total distance 
 
 For part (a), add up the lengths of all individual segments. For part (b), use the analytical method of vector addition: break the path into east-west and north-south components, sum each component separately, then find the magnitude and direction of the resultant displacement.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start; each block is 120 m. Path C goes 1 block north, 5 east, 2 south, 1 west, 1 north, and 3 west, ending at (x, y) = (+120 m, 0). The displacement R runs from the origin along +x.](../resources/sketch_03_03_p01.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the start. East legs are positive $$ x $$-components, west legs negative; north legs are positive $$ y $$-components, south legs negative.
+
 **Solution**
 
 **(a) Total distance traveled:**
@@ -569,6 +575,12 @@ Find the following for path D in [Figure 11](#Figure11): (a) the total distance 
 **Strategy**
 
 Path D consists of multiple straight-line segments. For (a), sum the lengths of all segments. For (b), break each segment into components, sum components, then find resultant magnitude and direction using the analytical method.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start; each block is 120 m. Path D goes 2 blocks south, 6 east, 4 north, and 1 west, ending at (x, y) = (+600 m, +240 m). The displacement R runs from the origin to that point, at angle θ north of east (counterclockwise from +x).](../resources/sketch_03_03_p02.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the start. In the steps below, $$ R_{\text{east}} = R_x $$ and $$ R_{\text{north}} = R_y $$; south and west legs enter with negative signs.
 
 **Solution**
 
@@ -644,6 +656,12 @@ Find the north and east components of the displacement from San Francisco to Sac
 
 The displacement from San Francisco to Sacramento is 123 km at 45° north of east. We'll use trigonometry to find the north and east components: east component = R cos θ, north component = R sin θ, where θ is measured from the east direction.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at San Francisco. The displacement R is 123 km at 45.0° north of east (45.0° counterclockwise from +x). Its east component R x and north component R y are both positive.](../resources/sketch_03_03_p03.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at San Francisco. The angle $$ \theta = 45^\circ $$ is measured from $$ +x $$ toward $$ +y $$, so $$ R_{\text{east}} = R_x = R\cos\theta $$ and $$ R_{\text{north}} = R_y = R\sin\theta $$.
+
 **Solution**
 
 Given:
@@ -704,6 +722,12 @@ graphical technique.
 **Strategy**
 
 Use the analytical method: identify components of each displacement vector, sum the components, then calculate the resultant magnitude and direction. Compare this to graphical methods.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 18.0 m west (along −x) and B is 25.0 m north (along +y), drawn head to tail with A first. The resultant R runs from the origin to (x, y) = (−18.0 m, +25.0 m); its direction θ is measured from the +y (north) axis toward west.](../resources/sketch_03_03_p04.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the start. Here $$ A_E $$, $$ A_N $$ mean $$ A_x $$, $$ A_y $$: the westward $$ \vb{A} $$ has $$ A_x = -18.0 \m $$, the northward $$ \vb{B} $$ has $$ B_y = +25.0 \m $$. The direction angle $$ \theta $$ is measured from $$ +y $$ (north) toward west.
 
 **Solution**
 
@@ -777,6 +801,12 @@ overcome an obstacle blocking your other path.
 
 We'll solve this problem by reversing the order: first walk 25.0 m north (**B**), then 18.0 m west (**A**). Using the analytical method, we'll find the components, sum them, and calculate the resultant. The result should match the previous problem, demonstrating that vector addition is commutative: **A** + **B** = **B** + **A**.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 18.0 m west (along −x) and B is 25.0 m north (along +y), drawn head to tail with B first. The resultant R runs from the origin to (x, y) = (−18.0 m, +25.0 m); its direction θ is measured from the +y (north) axis toward west.](../resources/sketch_03_03_p05.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the start: $$ B_y = +25.0 \m $$, $$ A_x = -18.0 \m $$. The direction angle $$ \theta $$ is measured from $$ +y $$ (north) toward west.
+
 **Solution**
 
 **Vector B** (25.0 m north):
@@ -848,6 +878,12 @@ north legs are reversed in order.
 
 Resolve the displacement into east and north components using trigonometry. The angle is 15° east of north, meaning we measure 15° from the north axis toward the east.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. The displacement R is 7.50 km at 15.0° east of north, so it makes 15.0° with the +y axis. Driving its components instead: east R x then north R y (dashed, lower right), or north R y then east R x (dashed, upper left), reaches the same point.](../resources/sketch_03_03_p06.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The angle $$ 15^\circ $$ is measured from the $$ +y $$ axis, not the $$ +x $$ axis, which is why the north component uses cosine and the east component uses sine.
+
 **Solution**
 
 Given:
@@ -916,6 +952,12 @@ is, to find $$ \vb{R}^{\prime\prime}=\vb{B}-\vb{A}=-\vb{R}^{\prime} $$. Confirm 
 **Strategy**
 
 In the original problem, $$ \vb{A} $$ is 18.0 m west and $$ \vb{B} $$ is 25.0 m north. For part (a), we find $$ \vb{R}^\prime = \vb{A} - \vb{B} = \vb{A} + (-\vb{B}) $$, where $$ -\vb{B} $$ is 25.0 m south. For part (b), we reverse the order to find $$ \vb{B} - \vb{A} $$, which should give the opposite result.
+
+**Sketch and coordinate system**
+
+![Two panels, each with +x east and +y north and the origin at the start. (a) A, 18.0 m west (−x), then −B, 25.0 m south (−y): R′ = A − B ends at (−18.0 m, −25.0 m), at angle θ south of west. (b) B, 25.0 m north (+y), then −A, 18.0 m east (+x): R″ = B − A ends at (+18.0 m, +25.0 m), opposite to R′.](../resources/sketch_03_03_p07.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north in both parts. $$ -\vb{B} $$ (25.0 m south) has $$ y $$-component $$ -25.0 \m $$; $$ -\vb{A} $$ (18.0 m east) has $$ x $$-component $$ +18.0 \m $$.
 
 **Solution**
 
@@ -1013,6 +1055,12 @@ orientation of the third side $$ \text{C} $$. What is her result?
 
 The three sides form a closed triangle: A + B + C = 0, so C = -(A + B). Find components of A and B, sum them, then find the magnitude and direction of -C.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the west corner. A is 80.0 m at 21.0° south of east (−21.0° from +x); B is 105 m at 11.0° west of north (101° from +x), drawn from the tip of A. The third side C closes the triangle back to the origin, so A + B + C = 0.](../resources/sketch_03_03_p08.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the west corner. Going around the triangle returns to the origin, so $$ \vb{A} + \vb{B} + \vb{C} = 0 $$ and $$ \vb{C} = -(\vb{A} + \vb{B}) $$. Subscripts $$ E $$ and $$ N $$ below mean $$ x $$ and $$ y $$.
+
 **Solution**
 
 **Vector A** (80.0 m at 21° south of east):
@@ -1104,6 +1152,12 @@ set of axes—one rotated $$ 45^\circ $$.
 
 For part (a), resolve the 32.0 km displacement into south and west components. For part (b), resolve into components along axes rotated 45°.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. The displacement R is 32.0 km at 35.0° south of west (215° from +x). (a) Its west and south components lie along −x and −y. (b) Rotated axes, drawn in orange: +x′ points 45.0° south of west and +y′ points 45.0° west of north; R makes 10.0° with +x′, on the +y′ side.](../resources/sketch_03_03_p09.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north for part (a): both components come out negative (west and south), and the solution reports their magnitudes. Part (b) uses a *rotated* coordinate system: $$ +x' $$ points $$ 45.0^\circ $$ south of west and $$ +y' $$ points $$ 45.0^\circ $$ west of north. The same vector has different components in the two systems.
+
 **Solution**
 
 Given: $$ R = 32.0 \text{ km} $$ at $$ 35.0° $$ south of west
@@ -1172,6 +1226,12 @@ $$ \vb{B}, $$ and $$ \vb{C} $$ in [Figure 15](#Figure15), and then correctly cal
 **Strategy**
 
 For a closed quadrilateral, A + B + C + D = 0, so D = -(A + B + C). Calculate components of A, B, and C, sum them, then find -D.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start of A. A is 4.70 km at 7.5° south of east (−7.5° from +x); B is 2.48 km at 16.0° west of north (106° from +x); C is 3.02 km at 19.0° north of west (161° from +x). The fourth side D closes the figure back to the origin, so A + B + C + D = 0.](../resources/sketch_03_03_p10.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the start of $$ \vb{A} $$. The four sides close the figure, so $$ \vb{D} = -(\vb{A} + \vb{B} + \vb{C}) $$. Subscripts $$ E $$ and $$ N $$ below mean $$ x $$ and $$ y $$.
 
 **Solution**
 
@@ -1269,6 +1329,12 @@ relative to the island?
 **Strategy**
 
 Add all seven displacement vectors using components. Sum east-west and north-south components separately, then find the resultant magnitude and direction.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the island. Seven displacements are drawn head to tail (blue): 2.50 km at 45.0° north of west, 4.70 km at 60.0° south of east, 1.30 km at 25.0° south of west, 5.10 km east, 1.70 km at 5.0° east of north, 7.20 km at 55.0° south of west, and 2.80 km at 10.0° north of east. The resultant R runs from the island to the end of the last leg, in the fourth quadrant (south of east).](../resources/sketch_03_03_p11.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the island. In the list below, $$ E_i $$ is the $$ x $$-component and $$ N_i $$ the $$ y $$-component of leg $$ i $$; west and south components are negative.
 
 **Solution**
 

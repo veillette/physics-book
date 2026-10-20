@@ -584,6 +584,12 @@ relative to the Earth. What was his average velocity relative to the air?
 
 For part (a), use velocity and time to find displacement. For part (b), subtract the air's velocity relative to the Earth from the plane's velocity relative to the Earth; because the wind points opposite to the motion, this adds the headwind's magnitude. For part (c), use the air velocity and time to find displacement relative to air.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The aircraft’s velocity relative to the Earth, v p/E = 3.53 m/s, points 45° south of east; the wind’s velocity relative to the Earth, v a/E = 2.00 m/s, points the opposite way, 45° north of west. Along the line of motion (dashed), the positive direction is the direction of travel, 45° south of east.](../resources/sketch_03_05_p01.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. Because the headwind is exactly opposite to the motion, both velocities lie on one line, so part (b) can be done in one dimension with the positive direction along the motion ($$ 45^\circ $$ south of east): $$ v_{\text{plane/Earth}} = +3.53 \ms $$ and $$ v_{\text{air/Earth}} = -2.00 \ms $$.
+
 **Solution**
 
 **Given:**
@@ -667,6 +673,12 @@ total round-trip time compared to what it would be with no wind.
 
 The seagull's velocity relative to the Earth is its velocity relative to the air minus the wind velocity (when flying into the wind). Use distance and time to find the ground velocity, then solve for wind velocity.
 
+**Sketch and coordinate system**
+
+![A +x axis points in the direction the seagull first flies, into the wind. The gull’s velocity relative to the air is +9.00 m/s; the wind’s velocity relative to the Earth is negative (it blows toward −x) with unknown magnitude; the gull’s velocity relative to the Earth is +5.00 m/s (6.00 km in 20.0 min). On the return trip the gull flies toward −x, with the wind.](../resources/sketch_03_05_p02.svg){: .sketch}
+
+Take $$ +x $$ in the direction the gull first flies (into the wind). Then the gull's velocity relative to the air is $$ +9.00 \ms $$, relative to the Earth $$ +5.00 \ms $$, and the wind's velocity is negative; the solution works with its magnitude, $$ v_{\text{wind}} $$. On the way back every velocity reverses sign.
+
 **Solution**
 
 **(a) Wind velocity:**
@@ -728,6 +740,12 @@ line, who will win the race, assuming they run at constant velocity?
 **Strategy**
 
 For part (a), find the relative velocity by subtracting velocities (both in same direction). For part (b), calculate the time each runner takes to reach the finish line. For part (c), determine how far the loser still has to go when the winner finishes.
+
+**Sketch and coordinate system**
+
+![A +x axis points toward the finish line, with the origin at the second runner. The front runner is at x = 45.0 m and the finish line at x = 295 m (250 m beyond the front runner). Velocities: second runner +4.20 m/s, front runner +3.50 m/s.](../resources/sketch_03_05_p03.svg){: .sketch}
+
+Take $$ +x $$ toward the finish line, with the origin at the second runner. Then both velocities are positive, the front runner starts at $$ x = 45.0 \m $$, and the finish line is at $$ x = 295 \m $$.
 
 **Solution**
 
@@ -853,6 +871,12 @@ travels 144 m horizontally while falling 1.50 m in the frame of reference of the
 
 Calculate the time it takes the coin to fall 1.50 m, then use that time and the horizontal velocity (plane's velocity) to find the horizontal distance.
 
+**Sketch and coordinate system**
+
+![Earth frame: axes with +x in the airplane’s direction of motion and +y up, origin where the coin is released. The coin starts with the airplane’s horizontal velocity, v₀x = +260 m/s, and v₀y = 0; it falls 1.50 m to the floor (y = −1.50 m) while moving an unknown horizontal distance x. The acceleration is a y = −9.80 m/s², a x = 0. The vertical scale is greatly exaggerated.](../resources/sketch_03_05_p04.svg){: .sketch}
+
+In the Earth's frame, take $$ +x $$ in the airplane's direction of motion and $$ +y $$ up, with the origin at the release point. The coin starts with the plane's velocity, $$ v_{0x} = +260 \ms $$, and $$ v_{0y} = 0 $$; the floor is $$ 1.50 \m $$ below the origin.
+
 **Solution**
 
 1. Find the time to fall 1.50 m using free-fall equation (starting from rest vertically):
@@ -893,6 +917,12 @@ is the initial velocity of the ball
 **Strategy**
 
 The ball's velocity relative to the quarterback equals the ball's velocity relative to the ground minus the quarterback's velocity relative to the ground. First find the ball's initial speed relative to the ground using projectile motion, then apply vector subtraction.
+
+**Sketch and coordinate system**
+
+![Axes with +x horizontal downfield and +y up (fixed to the ground). The quarterback’s velocity relative to the ground is v Q/G = −2.00 m/s (backward). The ball’s velocity relative to the ground, v b/G, is 15.2 m/s at 25.0° above +x. The ball’s velocity relative to the quarterback is v b/Q = v b/G − v Q/G, drawn as v b/G followed by +2.00 m/s; its magnitude and angle are unknown.](../resources/sketch_03_05_p05.svg){: .sketch}
+
+Take $$ +x $$ downfield and $$ +y $$ up, with axes fixed to the ground. The quarterback moves backward, so $$ v_{\text{QB}} = -2.00 \ms $$ along $$ x $$; the ball's velocity relative to him is $$ \vec{v}_{\text{ball,QB}} = \vec{v}_{\text{ball,ground}} - \vec{v}_{\text{QB,ground}} $$.
 
 **Solution**
 
@@ -998,6 +1028,12 @@ A ship sets sail from Rotterdam, The Netherlands, heading due north at 7.00 m/s 
 
 The ship's velocity relative to Earth is the vector sum of its velocity relative to water and the water's velocity (current) relative to Earth. Break both velocities into components, add them, then find the magnitude and direction of the resultant.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The ship’s velocity relative to the water, v s/w = 7.00 m/s, points north (+y). The current, v w/E = 1.50 m/s at 40.0° north of east, is drawn from its tip. Their sum is the ship’s velocity relative to the Earth, v s/E, unknown.](../resources/sketch_03_05_p06.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The velocity relative to the Earth is the head-to-tail sum $$ \vec{v}_{\text{s/E}} = \vec{v}_{\text{s/w}} + \vec{v}_{\text{w/E}} $$, and both the current's components are positive.
+
 **Solution**
 
 **Given:**
@@ -1087,6 +1123,12 @@ effect of the wind on the plane's path.
 **Strategy**
 
 The plane's velocity relative to Earth equals its velocity relative to air (airspeed) plus the wind velocity. Break both into components, add, then find magnitude and direction.
+
+**Sketch and coordinate system**
+
+![This solution uses +x pointing WEST and +y pointing SOUTH, origin at the airplane. The airplane’s velocity relative to the air, v p/a = 260 m/s, points 5.0° south of west (just below +x). The wind, v a/E = 35.0 m/s at 15° south of east, has a negative x-component and a positive y-component. Their sum is v p/E, unknown.](../resources/sketch_03_05_p07.svg){: .sketch}
+
+This solution uses a less common but perfectly valid choice: $$ +x $$ points **west** and $$ +y $$ points **south**, because the airplane moves mostly west and slightly south. With these axes the airplane's components are positive, and the eastward part of the wind is a *negative* $$ x $$-component.
 
 **Solution**
 
@@ -1186,6 +1228,12 @@ travel in order to have a velocity straight north relative to the Earth, assumin
 
 To travel straight north relative to Earth, the ship must aim at an angle that compensates for the eastward component of the current. The ship's velocity relative to water and the current velocity must add vectorially to produce a resultant pointing due north.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The ship’s velocity relative to the water, v s/w = 7.00 m/s, points at unknown angle θ west of north. The current, v w/E = 1.50 m/s at 40.0° north of east, is drawn from its tip. The sum, v s/E, must point due north (+y), so its x-component is zero.](../resources/sketch_03_05_p08.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The condition \"straight north relative to the Earth\" becomes the equation $$ v_{\text{Earth},x} = 0 $$, which fixes the ship's heading angle $$ \theta $$ west of north.
+
 **Solution**
 
 **Given:**
@@ -1264,6 +1312,12 @@ speed relative to the air mass?
 **Strategy**
 
 This is a relative velocity problem in two dimensions. The airplane's velocity relative to Earth equals the airplane's velocity relative to air plus the air's (wind's) velocity relative to Earth. We need to set up vector equations and solve for the unknowns.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The airplane’s velocity relative to the air, v p/a, points 5.00° south of west, magnitude unknown. The wind, v a/E = 45.0 m/s at 20.0° south of east, is drawn from its tip. Their sum, the airplane’s velocity relative to the Earth v p/E, points 45.0° south of west, magnitude unknown.](../resources/sketch_03_05_p09.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. Both unknown speeds are magnitudes; their directions are known, so each velocity's components carry signs set by those directions (west and south negative).
 
 **Solution**
 
@@ -1374,6 +1428,12 @@ A sandal is dropped from the top of a 15.0-m-high mast on a ship moving at 1.75 
 
 This is analogous to Example 3 (coin dropped in airplane). Relative to the ship, the sandal has no horizontal velocity and falls straight down. Relative to shore, it has both horizontal (ship's velocity) and vertical (falling) components.
 
+**Sketch and coordinate system**
+
+![Two side views with +x horizontal in the ship’s direction of motion (south) and +y up, origin on the deck at the foot of the mast; the sandal starts at y₀ = 15.0 m. (a) Ship frame: v₀ = 0 and the sandal falls straight down to the deck. (b) Shore frame: the sandal starts with the ship’s velocity, v₀x = +1.75 m/s, and follows a parabola, landing at the foot of the mast, which has moved forward with the ship. In both, a y = −9.80 m/s².](../resources/sketch_03_05_p10.svg){: .sketch}
+
+Take $$ +x $$ horizontal in the ship's direction of motion (south) and $$ +y $$ up, with the origin on the deck at the foot of the mast. In both frames the sandal falls $$ 15.0 \m $$ with $$ a_y = -9.80 \mss $$; only $$ v_{0x} $$ differs ($$ 0 $$ relative to the ship, $$ +1.75 \ms $$ relative to the shore). The solution reports the magnitude of the downward $$ v_y $$.
+
 **Solution**
 
 **Given:**
@@ -1472,6 +1532,12 @@ $$ \vec{v}_{wind/water} = \vec{v}_{wind/Earth} - \vec{v}_{water/Earth} $$
 </div>
 
 We'll break each velocity into components, subtract, then find the magnitude and direction.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The wind relative to the Earth, v a/E = 4.50 m/s at 50.0° south of west (230° from +x), is followed by the negative of the water’s velocity, −v w/E (2.20 m/s at 30.0° east of north, reversed). Their sum is the wind relative to the water, v a/w = v a/E − v w/E, unknown.](../resources/sketch_03_05_p11.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The wind relative to the water is $$ \vec{v}_{\text{wind/Earth}} + (-\vec{v}_{\text{water/Earth}}) $$: reverse the water's velocity and add it head to tail.
 
 **Solution**
 
@@ -1754,6 +1820,12 @@ An athlete crosses a 25-m-wide river by swimming perpendicular to the water curr
 
 The swimmer moves perpendicular to the current relative to the water. Use the time to cross and the downstream displacement to find the current speed. Then use vector addition to find the swimmer's speed relative to the ground.
 
+**Sketch and coordinate system**
+
+![Axes with +x downstream (along the current) and +y straight across the river, origin at the starting point on one bank. The far bank is at y = 25 m; the swimmer lands at x = 40 m. Velocities: swimmer relative to the water v s/w = 0.5 m/s along +y; current v w/G along +x, unknown; swimmer relative to the ground v s/G = v s/w + v w/G, unknown.](../resources/sketch_03_05_p14.svg){: .sketch}
+
+Take $$ +x $$ downstream (along the current) and $$ +y $$ straight across, with the origin at the starting point. The swimmer's velocity relative to the water is along $$ +y $$, the current is along $$ +x $$, and the far bank is at $$ y = 25 \m $$.
+
 **Solution**
 
 **Given:**
@@ -1832,6 +1904,12 @@ Stream a few hundred kilometers off the east coast of the United States.)
 **Strategy**
 
 The ship's velocity relative to Earth equals its velocity relative to water plus the water's velocity (Gulf Stream) relative to Earth. We can rearrange to find the Gulf Stream velocity: $$ \vb{v}_{\text{stream}} = \vb{v}_{\text{Earth}} - \vb{v}_{\text{water}} $$. Break both known velocities into components, subtract, then find magnitude and direction.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The ship’s velocity relative to the water, v s/w = 4.00 m/s at 25.0° west of north, is followed by the stream’s velocity v w/E (unknown) to reach the ship’s velocity relative to the Earth, v s/E = 4.80 m/s at 5.00° west of north.](../resources/sketch_03_05_p15.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. Both of the ship's velocities point west of north, so their $$ x $$-components are negative; the stream's velocity is the difference $$ \vb{v}_{\text{ship/Earth}} - \vb{v}_{\text{ship/water}} $$.
 
 **Solution**
 
@@ -1921,6 +1999,12 @@ reference) to hit the center of the goal?
 **Strategy**
 
 The puck must reach the goal, which is perpendicular to the player's path. The puck's velocity relative to the ice equals the puck's velocity relative to the player plus the player's velocity. Set up a coordinate system and use vector addition to find the required angle.
+
+**Sketch and coordinate system**
+
+![Axes with +x toward the goal (east) and +y along the player’s motion (north). The player’s velocity relative to the ice is v P/I = 8.00 m/s along +y. The puck’s velocity relative to the player, v p/P = 29.0 m/s at unknown angle θ from the player’s direction (+y), plus v P/I must give a puck velocity relative to the ice, v p/I, along +x, toward the goal.](../resources/sketch_03_05_p16.svg){: .sketch}
+
+Take $$ +y $$ along the player's motion (\"north\") and $$ +x $$ toward the goal (\"east\"), with $$ \theta $$ measured from $$ +y $$. The puck must move along $$ +x $$ relative to the ice, so its $$ y $$-component relative to the ice must be zero.
 
 **Solution**
 
@@ -2019,6 +2103,12 @@ Explain your answer.
 **Strategy**
 
 Use kinematic equations to find the launch velocity needed for the supplies to reach the given height. Then analyze whether this result is reasonable.
+
+**Sketch and coordinate system**
+
+![A vertical +y axis points up, with the origin at the launch point on the Earth’s surface. Launch: y₀ = 0, v₀ unknown (upward). Top: y = 36 000 km = 3.6 × 10⁷ m, v = 0. The model assumes constant a = −9.80 m/s².](../resources/sketch_03_05_p17.svg){: .sketch}
+
+Take $$ +y $$ up, with the origin at the launch point. Then $$ v = 0 $$ at $$ y = h = 3.6 \times 10^{7} \m $$ and $$ a = -9.80 \mss $$, assuming (unreasonably, as the problem asks you to notice) that $$ g $$ stays constant all the way up.
 
 **Solution**
 
@@ -2131,6 +2221,12 @@ in 1.50 h.
 **Strategy**
 
 Calculate the ground velocity from distance and time. Then find the wind velocity using vector subtraction. Analyze whether the results are reasonable.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north. The airplane’s velocity relative to the air, v p/a = 280 m/s, points east. Its velocity relative to the ground, v p/G = 3000 km / 1.50 h, points 5° south of east. The wind v a/G = v p/G − v p/a, drawn from the tip of v p/a to the tip of v p/G, is unknown.](../resources/sketch_03_05_p18.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north. The wind is the difference $$ \vec{v}_{\text{ground}} - \vec{v}_{\text{plane}} $$, the vector from the tip of the airspeed vector to the tip of the ground-velocity vector.
 
 **Solution**
 

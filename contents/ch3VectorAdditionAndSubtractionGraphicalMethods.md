@@ -499,6 +499,12 @@ Find the following for path A in [Figure 20](#Figure20):
 
 For part (a), we add up the lengths of all segments of the path. For part (b), we find the displacement vector from start to finish using the Pythagorean theorem for magnitude and trigonometry for direction. Each block is 120 m on a side.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. Path A goes 3 blocks (360 m) north, then 1 block (120 m) east. The displacement R runs from the origin to (x, y) = (120 m, 360 m); its direction θ is measured from the +y (north) axis toward east.](../resources/sketch_03_02_p01.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Then the displacement of path A has components $$ \Delta x = +120 \m $$ and $$ \Delta y = +360 \m $$, and its direction $$ \theta $$ is measured from the $$ +y $$ (north) axis toward east.
+
 **Solution**
 
 **(a) Total distance traveled:**
@@ -563,6 +569,12 @@ Find the following for path B in [Figure 20](#Figure20):
 **Strategy**
 
 Similar to path A, we add up all path segments for distance and use vector components for displacement. Each block is 120 m on a side.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. Path B goes 4 blocks (480 m) east, 3 blocks (360 m) north, then 3 blocks (360 m) west, ending at (x, y) = (120 m, 360 m). The displacement R runs from the origin to that point; its direction θ is measured from the +y (north) axis toward east.](../resources/sketch_03_02_p02.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. East legs add to $$ \Delta x $$ and west legs subtract, giving $$ \Delta x = 480 \m - 360 \m = +120 \m $$ and $$ \Delta y = +360 \m $$; $$ \theta $$ is measured from the $$ +y $$ (north) axis toward east.
 
 **Solution**
 
@@ -631,6 +643,12 @@ the hikers shown in [Figure 18](#Figure18).
 
 To find the north and east components of the displacement, we need to analyze the hiker's path from Figure 18. The total displacement can be broken down into perpendicular components: one pointing north and one pointing east. We'll use trigonometry to find these components based on the direction and magnitude of the displacement vector.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the cabin. The displacement S is 5.00 km at 40.0° north of east, that is, 40.0° counterclockwise from +x. Its east component S x lies along +x and its north component S y is parallel to +y.](../resources/sketch_03_02_p03.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the cabin. The displacement makes $$ 40.0^\circ $$ with the $$ +x $$ axis, so its east component is $$ R\cos 40.0^\circ $$ and its north component is $$ R\sin 40.0^\circ $$, both positive.
+
 **Solution**
 
 From Figure 18, the hikers' displacement has:
@@ -694,6 +712,12 @@ having magnitude \( \mag{R} \) and direction \( \theta \) .')
 
 We have two perpendicular displacements: 18.0 m west and 25.0 m north. Use the Pythagorean theorem to find the magnitude of the resultant displacement and trigonometry to find its direction.
 
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 18.0 m west, along −x, ending at (−18.0 m, 0). B is 25.0 m north, along +y, from the tip of A. The resultant R = A + B runs from the origin to (−18.0 m, 25.0 m); its direction θ is measured from the −x (west) axis toward north.](../resources/sketch_03_02_p04.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Then $$ \vb{A} $$ lies along $$ -x $$ ($$ A_x = -18.0 \m $$), $$ \vb{B} $$ lies along $$ +y $$ ($$ B_y = +25.0 \m $$), and the resultant ends in the second quadrant (north of west).
+
 **Solution**
 
 Given:
@@ -752,6 +776,12 @@ finds their sum $$\vb{R} = \vb{A} + \vb{B}$$.)
 **Strategy**
 
 We need to add two displacement vectors using the head-to-tail method. Vector **A** is 12.0 m at 20° west of north, and vector **B** is 20.0 m at 40° south of west. We'll break each vector into north and east components, add the components separately, then find the magnitude and direction of the resultant.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 12.0 m at 20.0° west of north (110° counterclockwise from +x); B is 20.0 m at 40.0° south of west (220° from +x). The legs are drawn head to tail, A first, then B. The resultant R runs from the origin to the end of the second leg, just south of the −x (west) axis; its direction θ is measured from west toward south.](../resources/sketch_03_02_p05.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. An east component is then an $$ x $$-component and a north component is a $$ y $$-component; west and south components are negative. Here $$ A_E $$ and $$ A_N $$ mean $$ A_x $$ and $$ A_y $$.
 
 **Solution**
 
@@ -821,6 +851,12 @@ of north. (This problem shows that $$\vb{A}+\vb{B}=\vb{B}+\vb{A}$$.)
 **Strategy**
 
 We'll calculate **B** + **A** by walking vector **B** first, then vector **A**. The components should add up to give the same resultant as **A** + **B** from the previous problem, demonstrating the commutative property of vector addition.
+
+**Sketch and coordinate system**
+
+![Axes with +x east and +y north, origin at the start. A is 12.0 m at 20.0° west of north (110° counterclockwise from +x); B is 20.0 m at 40.0° south of west (220° from +x). The legs are drawn head to tail, B first, then A. The resultant R runs from the origin to the end of the second leg, just south of the −x (west) axis; its direction θ is measured from west toward south.](../resources/sketch_03_02_p06.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. An east component is then an $$ x $$-component and a north component is a $$ y $$-component; west and south components are negative. Walking $$ \vb{B} $$ first changes the path but not the end point.
 
 **Solution**
 
@@ -894,6 +930,12 @@ Show that this is the case.
 **Strategy**
 
 For part (a), we're finding **A** - **B**, which means we add **A** and -**B** (the opposite of **B**). For part (b), we're finding **B** - **A**, which equals -(**A** - **B**). We'll use component methods to solve both, then verify that the results are opposite vectors.
+
+**Sketch and coordinate system**
+
+![Two panels, each with +x east and +y north and the origin at the start. (a) A, 12.0 m at 20.0° west of north (110° from +x), followed by −B, 20.0 m at 40.0° north of east (40° from +x); their sum R′ = A − B ends in the first quadrant. (b) B, 20.0 m at 40.0° south of west (220° from +x), followed by −A, 12.0 m at 20.0° east of south (290° from +x); their sum R″ = B − A ends in the third quadrant, opposite to R′.](../resources/sketch_03_02_p07.svg){: .sketch}
+
+Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Subtracting $$ \vb{B} $$ means adding $$ -\vb{B} $$, the same length pointing the opposite way. In (a), $$ -\vb{B} $$ is $$ 40.0^\circ $$ north of east; in (b), $$ -\vb{A} $$ is $$ 20.0^\circ $$ east of south. An east component is then an $$ x $$-component and a north component is a $$ y $$-component; west and south components are negative.
 
 **Solution**
 
@@ -991,6 +1033,12 @@ added; choose only one.)
 **Strategy**
 
 Choose three vectors with different magnitudes and directions, then add them in two different orders (e.g., A+B+C and B+C+A). Use the graphical head-to-tail method or analytical component method to show the resultant is the same regardless of order.
+
+**Sketch and coordinate system**
+
+![Axes with +x and +y, angles measured counterclockwise from +x. A is 10.0 units at 30°, B is 8.0 units at 120°, and C is 6.0 units at 240°. Solid arrows: A, then B, then C, head to tail. Dashed arrows: B, then C, then A. Both chains end at the same point, so the resultant R is the same.](../resources/sketch_03_02_p08.svg){: .sketch}
+
+Take $$ +x $$ to the right and $$ +y $$ up, and measure each angle counterclockwise from $$ +x $$, so $$ A_x = A\cos\theta_A $$ and $$ A_y = A\sin\theta_A $$ with the signs coming out automatically. The two head-to-tail chains end at the same point.
 
 **Solution**
 
