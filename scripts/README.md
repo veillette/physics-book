@@ -4,30 +4,29 @@ Build and utility scripts for the Physics Book project.
 
 ## Quick Reference
 
-| Script                  | Command                           | Description                           |
-| ----------------------- | --------------------------------- | ------------------------------------- |
-| content                 | `npm run check:content`           | Validate and fix content quality      |
-| equations               | `npm run check:equations`         | Validate and fix equations            |
-| check-links             | `npm run check:links`             | Validate internal/external links      |
-| check-orphans           | `npm run check:orphans`           | Find unreferenced files               |
-| check-figures           | `npm run check:figures`           | Validate figure references            |
-| check-math              | `npm run check:math`              | Check LaTeX delimiter balance         |
-| check-accessibility     | `npm run check:accessibility`     | Check alt text and accessibility      |
-| check-yaml              | `npm run check:yaml`              | Validate YAML front matter            |
-| check-structure         | `npm run check:structure`         | Validate document structure           |
-| check-cross-references  | `npm run check:cross-refs`        | Validate cross-references             |
-| lint-markdown           | `npm run lint:markdown`           | Lint markdown files                   |
-| standardize-links       | `npm run fix:links`               | Convert links to root-relative format |
-| generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters              |
-| generate-icons          | `npm run generate:icons`          | Generate PWA icons                    |
-| build-index             | `npm run generate:search-index`   | Generate search index                 |
-| parse-summary           | `npm run parse:summary`           | Generate summary.json                 |
-| update-front-matter     | `npm run update:front-matter`     | Update YAML front matter              |
-| rename-figures          | `npm run update:figures`          | Rename figures and update refs        |
-| convert-webp            | `npm run convert:webp`            | Convert images to WebP                |
-| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters              |
-| validate-deploy         | `npm run deploy:validate`         | Validate deployment                   |
-| crawl-all-pages         | `npm run crawl`                   | Navigate all pages to find errors     |
+| Script                  | Command                           | Description                       |
+| ----------------------- | --------------------------------- | --------------------------------- |
+| content                 | `npm run check:content`           | Validate and fix content quality  |
+| equations               | `npm run check:equations`         | Validate and fix equations        |
+| check-links             | `npm run check:links`             | Validate internal/external links  |
+| check-orphans           | `npm run check:orphans`           | Find unreferenced files           |
+| check-figures           | `npm run check:figures`           | Validate figure references        |
+| check-math              | `npm run check:math`              | Check LaTeX delimiter balance     |
+| check-accessibility     | `npm run check:accessibility`     | Check alt text and accessibility  |
+| check-yaml              | `npm run check:yaml`              | Validate YAML front matter        |
+| check-structure         | `npm run check:structure`         | Validate document structure       |
+| check-cross-references  | `npm run check:cross-refs`        | Validate cross-references         |
+| lint-markdown           | `npm run lint:markdown`           | Lint markdown files               |
+| generate-pdf            | `npm run generate:pdf`            | Generate PDF of chapters          |
+| generate-icons          | `npm run generate:icons`          | Generate PWA icons                |
+| build-index             | `npm run generate:search-index`   | Generate search index             |
+| parse-summary           | `npm run parse:summary`           | Generate summary.json             |
+| update-front-matter     | `npm run update:front-matter`     | Update YAML front matter          |
+| rename-figures          | `npm run update:figures`          | Rename figures and update refs    |
+| convert-webp            | `npm run convert:webp`            | Convert images to WebP            |
+| convert-math-delimiters | `npm run convert:math-delimiters` | Convert LaTeX delimiters          |
+| validate-deploy         | `npm run deploy:validate`         | Validate deployment               |
+| crawl-all-pages         | `npm run crawl`                   | Navigate all pages to find errors |
 
 ---
 
@@ -38,7 +37,7 @@ All scripts follow a consistent naming convention using colons as separators:
 | Prefix       | Purpose                   | Examples                               |
 | ------------ | ------------------------- | -------------------------------------- |
 | `check:*`    | Validation/quality checks | check:links, check:yaml, check:content |
-| `fix:*`      | Auto-fix issues           | fix:content, fix:equations, fix:links |
+| `fix:*`      | Auto-fix issues           | fix:content, fix:equations             |
 | `lint:*`     | Lint files                | lint:markdown                          |
 | `generate:*` | File/asset generation     | generate:pdf, generate:icons           |
 | `parse:*`    | Parse/extract data        | parse:summary                          |
@@ -50,7 +49,7 @@ All scripts follow a consistent naming convention using colons as separators:
 
 - `:strict` - Enable stricter validation (e.g., `check:content:strict`)
 - `:fix` - Apply fixes (e.g., `check:content:fix`)
-- `:apply` - Apply changes to files (e.g., `fix:links:apply`)
+- `:apply` - Apply changes to files (e.g., `lint:markdown:apply`)
 
 ---
 
@@ -227,14 +226,7 @@ npm run check:cross-refs:strict   # Strict mode
 
 ## Fix Scripts (`fix:*`)
 
-### standardize-links.js
-
-Converts internal links to root-relative convention.
-
-```bash
-npm run fix:links               # Dry run
-npm run fix:links:apply         # Apply changes
-```
+`fix:content` and `fix:equations` apply the auto-fixes from `content.js` and `equations.js`.
 
 ---
 
@@ -360,12 +352,17 @@ npm run update:figures -- Figure_01_02_03 Figure_01_02_04
 
 ### convert-webp.js
 
-Converts images to WebP format for better compression.
+Converts figure JPG/PNG files to WebP next to the originals in `resources/`. A WebP is kept
+only when it is at least `--min-savings` percent smaller (default 10). Dry run by default.
 
 ```bash
-npm run convert:webp
-npm run convert:webp -- --dry-run   # Preview changes
+npm run convert:webp                                              # Preview all figures
+npm run convert:webp -- --files Figure_01_01_01.jpg --update-refs # Preview one figure + refs
+npm run convert:webp -- --apply --update-refs                     # Convert and repoint contents/
 ```
+
+`--update-refs` rewrites `../resources/<name>.jpg` references in `contents/` to the WebP name.
+The originals are then unreferenced; `npm run check:orphans` lists them for cleanup.
 
 ### convert_math_delimiters.js
 

@@ -88,7 +88,7 @@ To contribute to this project, you'll need:
 
    ```bash
    npm run build
-   npm run check-links
+   npm run check:links
    npm run check-math
    ```
 
@@ -264,7 +264,7 @@ Ensure the build completes without errors.
 ### Link Validation
 
 ```bash
-npm run check-links
+npm run check:links
 ```
 
 Verify all links are valid and not broken.
