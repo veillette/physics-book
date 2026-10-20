@@ -87,6 +87,26 @@ Explain why the magnetic field would not be unique (that is, not have a single v
 
 :::
 
+::: solution
+
+**Strategy**
+
+The direction of the field at a point is the tangent to the field line through that point. Ask what two crossing lines would say about the field's direction there.
+
+**Solution**
+
+If two field lines crossed at a point, there would be two different tangent directions there, so a compass needle placed at that point would have to point in two directions at once. But the field at any point is a single vector: if several sources contribute, their fields add to one net field. For example, a field of $$ 3.0 \times 10^{-5} \text{ T} $$ east and one of $$ 4.0 \times 10^{-5} \text{ T} $$ north combine to
+
+<div class="equation">
+$$ B = \sqrt{(3.0 \times 10^{-5} \text{ T})^2 + (4.0 \times 10^{-5} \text{ T})^2} = 5.0 \times 10^{-5} \text{ T}, \qquad \theta = \tan^{-1}\frac{4.0}{3.0} = 53^\circ \text{ north of east} $$
+</div>
+
+so exactly one field line, in that single direction, passes through the point.
+
+The magnetic field would not be unique where field lines crossed because the field there would have two different directions; since the net field at any point has only one magnitude and one direction, magnetic field lines can never cross.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -94,6 +114,32 @@ Explain why the magnetic field would not be unique (that is, not have a single v
 ::: problem
 
 List the ways in which magnetic field lines and electric field lines are similar. For example, the field direction is tangent to the line at any point in space. Also list the ways in which they differ. For example, electric force is parallel to electric field lines, whereas magnetic force on moving charges is perpendicular to magnetic field lines.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the rules for drawing the two kinds of field lines and the forces they describe. Use a proton ($$ q = 1.60 \times 10^{-19} \text{ C} $$) in an electric field $$ E = 1.00 \times 10^{3} \text{ N/C} $$ and in a magnetic field $$ B = 0.100 \text{ T} $$ to compare the forces.
+
+**Solution**
+
+**Similarities**
+
+- The field direction is tangent to the line at every point.
+- The strength of the field is proportional to the density of lines (closer lines mean a stronger field).
+- Field lines never cross.
+- Both patterns can have the same shape: the field of a bar magnet looks like that of an electric dipole outside the magnet.
+
+**Differences**
+
+- Electric field lines begin on positive charges and end on negative charges. Magnetic field lines have no beginning or end; they form closed loops (from N to S outside a magnet and from S to N inside), because there are no magnetic monopoles.
+- The electric force is parallel to the field lines, $$ \vb{F} = q\vb{E} $$: on the proton, $$ F = (1.60 \times 10^{-19} \text{ C})(1.00 \times 10^{3} \text{ N/C}) = 1.60 \times 10^{-16} \N $$ along the line. The magnetic force is perpendicular to both the field lines and the velocity. At $$ v = 1.00 \times 10^{5} \ms $$ perpendicular to $$ \vb{B} $$, $$ F = qvB = (1.60 \times 10^{-19} \text{ C})(1.00 \times 10^{5} \ms)(0.100 \text{ T}) = 1.60 \times 10^{-15} \N $$, perpendicular to the line.
+- The electric force acts on charges at rest; the magnetic force acts only on moving charges and is zero for motion along the field line.
+- The electric force can do work and change a particle's speed; the magnetic force does no work and changes only the direction of motion.
+
+Magnetic and electric field lines are alike in that the field is tangent to the lines, the line density shows the field strength, and the lines never cross; they differ in that electric lines start and end on charges while magnetic lines form closed loops, and the electric force is along the field lines and acts on charges at rest, while the magnetic force is perpendicular to the lines and acts only on moving charges.
 
 :::
 
@@ -107,6 +153,26 @@ Noting that the magnetic field lines of a bar magnet resemble the electric field
 
 :::
 
+::: solution
+
+**Strategy**
+
+Far from a pair of equal and opposite charges, their fields nearly cancel, and the net field falls off as $$ 1/r^3 $$ rather than $$ 1/r^2 $$. The same is true of a bar magnet's field. Compare the field at distances $$ r $$ and $$ 2r $$.
+
+**Solution**
+
+For a dipole field, far from the source,
+
+<div class="equation">
+$$ \frac{B(2r)}{B(r)} = \frac{1/(2r)^3}{1/r^3} = \frac{1}{8} $$
+</div>
+
+Each doubling of the distance reduces the field to $$ 1/8 $$ of its value, and moving 10 times farther reduces it by a factor of $$ 1000 $$. Yes, this is consistent with experience: a refrigerator magnet holds firmly through a sheet of paper but has no noticeable pull on a steel object a few centimeters away, and two magnets snap together only when they are very close.
+
+Yes, the magnetic field should decrease rapidly with distance, approximately as $$ 1/r^3 $$ far from the magnet (to $$ 1/8 $$ of its value each time the distance doubles), which is consistent with everyday experience that magnets have a strong pull only at short distances.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -114,6 +180,22 @@ Noting that the magnetic field lines of a bar magnet resemble the electric field
 ::: problem
 
 Is the Earth’s magnetic field parallel to the ground at all locations? If not, where is it parallel to the surface? Is its strength the same at all locations? If not, where is it greatest?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Earth's field resembles that of a bar magnet inside Earth, with field lines leaving the Southern Hemisphere, running roughly northward, and re-entering the Northern Hemisphere. Compare the field direction and strength at the magnetic equator and near the magnetic poles.
+
+**Solution**
+
+No, the field is not parallel to the ground everywhere. At the magnetic equator, the field lines run parallel to the surface, so a dip needle is horizontal there. Moving toward either magnetic pole, the lines tilt more steeply; at the magnetic poles they are vertical, pointing straight into the ground in the north and out of it in the south. In the central United States the dip angle is about $$ 65^\circ $$ to $$ 70^\circ $$ below horizontal.
+
+No, the strength is not the same everywhere either. The field lines crowd together near the magnetic poles, where the field is about $$ 6 \times 10^{-5} \text{ T} $$, roughly twice the value of about $$ 3 \times 10^{-5} \text{ T} $$ at the magnetic equator.
+
+Earth's magnetic field is not parallel to the ground at all locations; it is parallel to the surface only near the magnetic equator and becomes vertical at the magnetic poles, and its strength is not uniform but is greatest near the magnetic poles (about $$ 6 \times 10^{-5} \text{ T} $$, compared with about $$ 3 \times 10^{-5} \text{ T} $$ at the equator).
 
 :::
 

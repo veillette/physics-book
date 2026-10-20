@@ -170,6 +170,28 @@ Why must part of the circuit be moving relative to other parts, to have usable m
 
 :::
 
+::: solution
+
+**Strategy**
+
+A usable emf drives current around a complete circuit, so it requires a change in the flux through the circuit, or equivalently a net motional emf $$ Blv $$ around the loop. Compare a circuit that moves as a whole through a uniform field with one in which only the rod moves along stationary rails, as in [[Figure 1]](#Figure1). Use $$ B = 0.500 \text{ T} $$, a rod length $$ l = 0.200 \m $$, and $$ v = 2.00 \ms $$.
+
+**Solution**
+
+**Whole circuit moving in a uniform field:** every side moving across the field has an emf $$ Blv $$, but the emfs in the two sides perpendicular to the motion push charges in the same absolute direction, which is opposite senses around the loop, so they cancel. Equivalently, the area inside the loop and the field through it do not change, so $$ \Delta\Phi = 0 $$ and the net emf is zero.
+
+**Only the rod moving:** the rails and the resistor are at rest and contribute no emf, while the rod's emf is not cancelled. The enclosed area grows at the rate $$ lv $$, so
+
+<div class="equation">
+$$ \text{emf} = \frac{\Delta\Phi}{\Delta t} = B\frac{\Delta A}{\Delta t} = Blv = (0.500 \text{ T})(0.200 \m)(2.00 \ms) = 0.200 \text{ V} $$
+</div>
+
+and a current flows around the circuit.
+
+Part of the circuit must move relative to the rest because if the whole circuit moved together through a uniform field, the emfs in its opposite sides would cancel and the flux through it would not change; when only the rod moves on stationary rails, the enclosed area and flux change, and the rod's emf $$ Blv $$ (for example, $$ 0.200 \text{ V} $$) is left unbalanced to drive a current.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -177,6 +199,28 @@ Why must part of the circuit be moving relative to other parts, to have usable m
 ::: problem
 
 A powerful induction cannon can be made by placing a metal cylinder inside a solenoid coil. The cylinder is forcefully expelled when solenoid current is turned on rapidly. Use Faraday’s and Lenz’s laws to explain how this works. Why might the cylinder get live/hot when the cannon is fired?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Treat the metal cylinder as a stack of conducting loops inside the solenoid. A rapid increase of solenoid current produces a rapidly increasing flux through these loops, inducing large currents (Faraday's law) in the direction that opposes the increase (Lenz's law). Estimate the emf around the cylinder for a field rising from $$ 0 $$ to $$ 5.00 \text{ T} $$ in $$ 1.00 \text{ ms} $$ in a cylinder of radius $$ 2.00 \text{ cm} $$.
+
+**Solution**
+
+The emf around the cylinder's circumference is
+
+<div class="equation">
+$$ \text{emf} = \frac{\Delta\Phi}{\Delta t} = \frac{\pi r^2\,\Delta B}{\Delta t} = \frac{\pi(0.0200 \m)^2(5.00 \text{ T})}{1.00 \times 10^{-3} \s} = 6.28 \text{ V} $$
+</div>
+
+Because the metal's resistance around this path is tiny, a very large induced current flows. By Lenz's law, it circulates **opposite** to the solenoid's current, so the cylinder becomes a magnet with its poles reversed relative to the solenoid's (like poles facing). Antiparallel currents repel, so the cylinder is pushed toward the end of the solenoid, where the field spreads out and the repulsive force has a component along the axis, and it is expelled forcefully.
+
+The cylinder gets hot because the large induced currents dissipate energy as $$ P = I^2R $$ in the metal.
+
+The induction cannon works because the rapidly rising solenoid current increases the flux through the cylinder, inducing large currents in it (Faraday's law, an emf of several volts around it in this example) that circulate opposite to the solenoid's current (Lenz's law), so the cylinder is repelled and shot out of the coil; the cylinder gets hot because these large induced currents dissipate energy as $$ I^2R $$ heating.
 
 :::
 
@@ -190,6 +234,22 @@ An induction stove heats a pot with a coil carrying an alternating current locat
 
 :::
 
+::: solution
+
+**Strategy**
+
+The coil's alternating current creates a changing magnetic field that passes up through the stove surface into the pot, inducing eddy currents that heat the pot. Consider what eddy currents would do in a conducting surface, and what a steady field does. A typical induction stove uses a frequency of about $$ 25 \text{ kHz} $$.
+
+**Solution**
+
+**Conducting surface:** the changing field would induce eddy currents in the surface as well, heating it and partially shielding the pot from the field. The surface would become a hot surface, defeating the purpose, and the pot would be heated less. The surface is therefore made of an insulator such as glass-ceramic, which the field passes through without inducing currents. (It gets warm only from the hot pot sitting on it.)
+
+**Direct current:** a DC coil produces a constant field, so the flux through the pot's bottom does not change: $$ \Delta\Phi/\Delta t = 0 $$, and no emf and no eddy currents are induced. With AC at $$ 25 \text{ kHz} $$, the field reverses $$ 5.0 \times 10^{4} $$ times per second, so $$ \Delta\Phi/\Delta t $$ is large and the eddy currents are strong.
+
+No, the stove surface should not be a conductor, because eddy currents would be induced in it too, heating it and shielding the pot; a coil carrying direct current will not work because its constant magnetic field produces no change in flux, and therefore no induced emf or eddy currents in the pot.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -197,6 +257,28 @@ An induction stove heats a pot with a coil carrying an alternating current locat
 ::: problem
 
 Explain how you could thaw out a frozen water pipe by wrapping a coil carrying an alternating current around it. Does it matter whether or not the pipe is a conductor? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+An alternating current in the coil produces a changing magnetic field along the pipe. By Faraday's law, the changing flux induces emfs around the pipe; if the pipe conducts, eddy currents flow around it and heat it by $$ I^2R $$ losses. Consider metal and plastic pipes, with $$ B = 0.0100 \text{ T} $$ (peak) at $$ 60 \text{ Hz} $$ in a pipe of radius $$ 1.00 \text{ cm} $$.
+
+**Solution**
+
+The field changes from $$ +B $$ to $$ -B $$ in half a cycle, $$ 1/120 \s $$, so the average emf around the pipe wall is about
+
+<div class="equation">
+$$ \text{emf} \approx \frac{2\pi r^2B}{\Delta t} = \frac{2\pi(0.0100 \m)^2(0.0100 \text{ T})}{(1/120) \s} = 7.5 \times 10^{-4} \text{ V} $$
+</div>
+
+The resistance around a copper pipe's wall is very small, so this emf drives substantial eddy currents. These currents heat the pipe, and the heat conducts into the ice and melts it. The coil's own resistive heating helps a little too.
+
+Yes, it matters. If the pipe is a nonconductor, such as plastic, no eddy currents flow in it, and ice and water are poor conductors, so almost no heat is generated by induction. Only the small resistive heating of the coil itself would warm the pipe.
+
+You could thaw the pipe because the coil's alternating current produces a changing magnetic flux in the pipe, inducing eddy currents that heat it by $$ I^2R $$ losses; it does matter whether the pipe is a conductor, because a nonconducting (plastic) pipe carries no eddy currents and so would not be heated by induction.
 
 :::
 

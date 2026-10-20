@@ -452,6 +452,26 @@ Does the resonant frequency of an AC circuit depend on the peak voltage of the A
 
 :::
 
+::: solution
+
+**Strategy**
+
+Resonance occurs when the inductive and capacitive reactances are equal, $$ 2\pi f_0L = 1/(2\pi f_0C) $$, which gives $$ f_0 = 1/(2\pi\sqrt{LC}) $$. Check which quantities appear in this expression.
+
+**Solution**
+
+For $$ L = 1.00 \text{ mH} $$ and $$ C = 1.00 \ \mu\text{F} $$:
+
+<div class="equation">
+$$ f_0 = \frac{1}{2\pi\sqrt{LC}} = \frac{1}{2\pi\sqrt{(1.00 \times 10^{-3} \text{ H})(1.00 \times 10^{-6} \text{ F})}} = 5.03 \times 10^{3} \text{ Hz} $$
+</div>
+
+This is the same whether the source's peak voltage is $$ 1.00 \text{ V} $$ or $$ 100 \text{ V} $$. Changing the voltage changes the size of the current at every frequency, $$ I = V/Z $$, so the resonance peak is taller for a larger voltage, but the frequency at which the peak occurs, where $$ Z = R $$, stays the same.
+
+No, the resonant frequency does not depend on the peak voltage of the source, because $$ f_0 = 1/(2\pi\sqrt{LC}) $$ depends only on the inductance and capacitance (for example, $$ 5.03 \text{ kHz} $$ for $$ 1.00 \text{ mH} $$ and $$ 1.00 \ \mu\text{F} $$); the voltage affects only the size of the current, not the frequency at which it peaks.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -459,6 +479,32 @@ Does the resonant frequency of an AC circuit depend on the peak voltage of the A
 ::: problem
 
 Suppose you have a motor with a power factor significantly less than 1. Explain why it would be better to improve the power factor as a method of improving the motor’s output, rather than to increase the voltage input.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The average power is $$ P = I_{\text{rms}}V_{\text{rms}}\cos\phi = I_{\text{rms}}^2R $$, with $$ I_{\text{rms}} = V_{\text{rms}}/Z $$ and $$ \cos\phi = R/Z $$. Model the motor as $$ R = 10.0 \ \Omega $$ in series with $$ X_L = 17.3 \ \Omega $$ on a $$ 240\text{-V} $$ supply, and compare two ways of increasing its power: adding a series capacitor to cancel the reactance, or raising the voltage.
+
+**Solution**
+
+Initially,
+
+<div class="equation">
+$$ Z = \sqrt{(10.0 \ \Omega)^2 + (17.3 \ \Omega)^2} = 20.0 \ \Omega, \qquad \cos\phi = \frac{10.0 \ \Omega}{20.0 \ \Omega} = 0.500 $$
+</div>
+
+<div class="equation">
+$$ I_{\text{rms}} = \frac{240 \text{ V}}{20.0 \ \Omega} = 12.0 \text{ A}, \qquad P = I_{\text{rms}}V_{\text{rms}}\cos\phi = (12.0 \text{ A})(240 \text{ V})(0.500) = 1.44 \times 10^{3} \text{ W} $$
+</div>
+
+**Improve the power factor:** a capacitor with $$ X_C = 17.3 \ \Omega $$ cancels the inductive reactance, so $$ Z = R = 10.0 \ \Omega $$ and $$ \cos\phi = 1 $$. Then $$ I_{\text{rms}} = (240 \text{ V})/(10.0 \ \Omega) = 24.0 \text{ A} $$ and $$ P = (24.0 \text{ A})(240 \text{ V})(1.00) = 5.76 \times 10^{3} \text{ W} $$. All of the current is now in phase with the voltage and does useful work.
+
+**Raise the voltage instead:** to get the same $$ 5.76 \text{ kW} $$ at $$ \cos\phi = 0.500 $$, the power, proportional to $$ V^2 $$, must rise by a factor of 4, so the voltage must double to $$ 480 \text{ V} $$. The current is then $$ (480 \text{ V})/(20.0 \ \Omega) = 24.0 \text{ A} $$ in the motor, the same as before, but the source must supply apparent power $$ (480 \text{ V})(24.0 \text{ A}) = 11.5 \text{ kVA} $$, twice the useful power, and the motor's insulation must withstand twice its rated voltage. The reactive part of the power only sloshes energy back and forth between the source and the motor's inductance, yet the supply wiring must still be sized for it.
+
+It is better to improve the power factor, because cancelling the motor's reactance puts the current in phase with the voltage so that more of it delivers real power (in this example, raising the output from $$ 1.44 \text{ kW} $$ to $$ 5.76 \text{ kW} $$ at the same $$ 240 \text{ V} $$), whereas getting the same power by raising the voltage would require twice the voltage, exceeding the motor's ratings and requiring the supply to provide twice the apparent power, with greater losses in the wiring.
 
 :::
 

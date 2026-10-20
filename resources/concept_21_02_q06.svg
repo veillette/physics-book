@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+<title id="title">Four 12-volt batteries connected for 24 volts and for 12 volts</title>
+<desc id="desc">Two arrangements of four 12-volt batteries. Left, for 24 volts: two pairs of batteries, each pair connected in series, with the two pairs connected in parallel. Right, for 12 volts: all four batteries connected in parallel.</desc>
+<rect width="760" height="360" fill="#ffffff"/>
+<text x="12" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) 24 </tspan><tspan font-style="normal">V</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">series</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">pairs</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">parallel</tspan></text>
+<polyline points="60,100 60,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="320,100 320,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="60" cy="100" r="4" fill="#222222"/>
+<circle cx="320" cy="100" r="4" fill="#222222"/>
+<line x1="60" y1="100" x2="120" y2="100" stroke="#222222" stroke-width="2"/>
+<line x1="130" y1="100" x2="190" y2="100" stroke="#222222" stroke-width="2"/>
+<line x1="120" y1="91" x2="120" y2="109" stroke="#c62828" stroke-width="5"/>
+<line x1="130" y1="83" x2="130" y2="117" stroke="#c62828" stroke-width="3"/>
+<line x1="190" y1="100" x2="250" y2="100" stroke="#222222" stroke-width="2"/>
+<line x1="260" y1="100" x2="320" y2="100" stroke="#222222" stroke-width="2"/>
+<line x1="250" y1="91" x2="250" y2="109" stroke="#c62828" stroke-width="5"/>
+<line x1="260" y1="83" x2="260" y2="117" stroke="#c62828" stroke-width="3"/>
+<text x="125" y="78.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<text x="255" y="78.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<circle cx="60" cy="190" r="4" fill="#222222"/>
+<circle cx="320" cy="190" r="4" fill="#222222"/>
+<line x1="60" y1="190" x2="120" y2="190" stroke="#222222" stroke-width="2"/>
+<line x1="130" y1="190" x2="190" y2="190" stroke="#222222" stroke-width="2"/>
+<line x1="120" y1="181" x2="120" y2="199" stroke="#c62828" stroke-width="5"/>
+<line x1="130" y1="173" x2="130" y2="207" stroke="#c62828" stroke-width="3"/>
+<line x1="190" y1="190" x2="250" y2="190" stroke="#222222" stroke-width="2"/>
+<line x1="260" y1="190" x2="320" y2="190" stroke="#222222" stroke-width="2"/>
+<line x1="250" y1="181" x2="250" y2="199" stroke="#c62828" stroke-width="5"/>
+<line x1="260" y1="173" x2="260" y2="207" stroke="#c62828" stroke-width="3"/>
+<text x="125" y="168.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<text x="255" y="168.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<polyline points="60,250 60,290" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="320,250 320,290" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="60" cy="296" r="6" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<circle cx="320" cy="296" r="6" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<text x="60" y="327" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="320" y="327" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="190" y="306.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">24 </tspan><tspan font-style="normal">V</tspan></text>
+<line x1="380" y1="10" x2="380" y2="350" stroke="#cccccc" stroke-width="1"/>
+<text x="392" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) 12 </tspan><tspan font-style="normal">V</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">all</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">four</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">parallel</tspan></text>
+<polyline points="470,70 470,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="670,70 670,250" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="470" cy="70" r="4" fill="#222222"/>
+<circle cx="670" cy="70" r="4" fill="#222222"/>
+<line x1="470" y1="70" x2="565" y2="70" stroke="#222222" stroke-width="2"/>
+<line x1="575" y1="70" x2="670" y2="70" stroke="#222222" stroke-width="2"/>
+<line x1="565" y1="61" x2="565" y2="79" stroke="#c62828" stroke-width="5"/>
+<line x1="575" y1="53" x2="575" y2="87" stroke="#c62828" stroke-width="3"/>
+<text x="610" y="62.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<circle cx="470" cy="120" r="4" fill="#222222"/>
+<circle cx="670" cy="120" r="4" fill="#222222"/>
+<line x1="470" y1="120" x2="565" y2="120" stroke="#222222" stroke-width="2"/>
+<line x1="575" y1="120" x2="670" y2="120" stroke="#222222" stroke-width="2"/>
+<line x1="565" y1="111" x2="565" y2="129" stroke="#c62828" stroke-width="5"/>
+<line x1="575" y1="103" x2="575" y2="137" stroke="#c62828" stroke-width="3"/>
+<text x="610" y="112.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<circle cx="470" cy="170" r="4" fill="#222222"/>
+<circle cx="670" cy="170" r="4" fill="#222222"/>
+<line x1="470" y1="170" x2="565" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="575" y1="170" x2="670" y2="170" stroke="#222222" stroke-width="2"/>
+<line x1="565" y1="161" x2="565" y2="179" stroke="#c62828" stroke-width="5"/>
+<line x1="575" y1="153" x2="575" y2="187" stroke="#c62828" stroke-width="3"/>
+<text x="610" y="162.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<circle cx="470" cy="220" r="4" fill="#222222"/>
+<circle cx="670" cy="220" r="4" fill="#222222"/>
+<line x1="470" y1="220" x2="565" y2="220" stroke="#222222" stroke-width="2"/>
+<line x1="575" y1="220" x2="670" y2="220" stroke="#222222" stroke-width="2"/>
+<line x1="565" y1="211" x2="565" y2="229" stroke="#c62828" stroke-width="5"/>
+<line x1="575" y1="203" x2="575" y2="237" stroke="#c62828" stroke-width="3"/>
+<text x="610" y="212.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+<polyline points="470,250 470,290" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="670,250 670,290" fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="470" cy="296" r="6" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<circle cx="670" cy="296" r="6" fill="#ffffff" stroke="#222222" stroke-width="2"/>
+<text x="470" y="327" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="670" y="327" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="570" y="306.3" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">12 </tspan><tspan font-style="normal">V</tspan></text>
+</svg>

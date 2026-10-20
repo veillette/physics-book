@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="400" viewBox="0 0 620 400" role="img" aria-labelledby="title desc">
+<title id="title">Emfs in the sides of a generator loop</title>
+<desc id="desc">Front view of a generator loop between N on the left and S on the right, with the field pointing right. The left side moves out of the page and the right side moves into the page. RHR-1 gives a force on positive charges up along the left side and down along the right side, so both emfs drive current the same way around the loop and add.</desc>
+<rect width="620" height="400" fill="#ffffff"/>
+<rect x="20" y="80" width="80" height="240" fill="#e57373" stroke="#222222" stroke-width="1.5"/>
+<text x="60" y="209.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">N</tspan></text>
+<rect x="520" y="80" width="80" height="240" fill="#90a4ae" stroke="#222222" stroke-width="1.5"/>
+<text x="560" y="209.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">S</tspan></text>
+<line x1="110" y1="110" x2="501" y2="110" stroke="#c2185b" stroke-width="1.6"/>
+<polygon points="510,110 500,114 500,106" fill="#c2185b"/>
+<line x1="110" y1="200" x2="501" y2="200" stroke="#c2185b" stroke-width="1.6"/>
+<polygon points="510,200 500,204 500,196" fill="#c2185b"/>
+<line x1="110" y1="290" x2="501" y2="290" stroke="#c2185b" stroke-width="1.6"/>
+<polygon points="510,290 500,294 500,286" fill="#c2185b"/>
+<text x="495" y="103.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-9.9" dy="-9.92">→</tspan><tspan dx="0.77" dy="9.92">​</tspan></tspan></text>
+<line x1="310" y1="40" x2="310" y2="360" stroke="#666666" stroke-width="1.4" stroke-dasharray="8 5"/>
+<text x="318" y="50.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">axis</tspan></text>
+<rect x="220" y="90" width="180" height="220" fill="none" stroke="#b8860b" stroke-width="5"/>
+<circle cx="188" cy="200" r="10" fill="#ffffff" stroke="#222222" stroke-width="1.8"/>
+<circle cx="188" cy="200" r="3" fill="#222222"/>
+<circle cx="432" cy="200" r="10" fill="#ffffff" stroke="#222222" stroke-width="1.8"/>
+<line x1="426" y1="194" x2="438" y2="206" stroke="#222222" stroke-width="1.8"/>
+<line x1="426" y1="206" x2="438" y2="194" stroke="#222222" stroke-width="1.8"/>
+<text x="188" y="234.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="8.68" font-weight="normal" dx="-7.49" dy="-5.88">→</tspan><tspan dx="-0.49" dy="5.88">​</tspan></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">out</tspan></text>
+<text x="432" y="234.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="8.68" font-weight="normal" dx="-7.49" dy="-5.88">→</tspan><tspan dx="-0.49" dy="5.88">​</tspan></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan></text>
+<line x1="220" y1="230" x2="220" y2="173" stroke="#c62828" stroke-width="3.5"/>
+<polygon points="220,160 225.6,174 214.4,174" fill="#c62828"/>
+<line x1="400" y1="160" x2="400" y2="217" stroke="#c62828" stroke-width="3.5"/>
+<polygon points="400,230 394.4,216 405.6,216" fill="#c62828"/>
+<text x="232" y="154.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c62828" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">up</tspan></text>
+<text x="388" y="254.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c62828" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">emf</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan></text>
+<line x1="290" y1="90" x2="319" y2="90" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="330,90 318,94.8 318,85.2" fill="#1f77c8"/>
+<line x1="330" y1="310" x2="301" y2="310" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="290,310 302,305.2 302,314.8" fill="#1f77c8"/>
+<text x="310" y="79.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">I</tspan></text>
+<text x="310" y="384.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Both</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">emfs</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">drive</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">current</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">same</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">way</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">around</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">the</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">loop</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">so</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">they</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">add</tspan><tspan font-style="normal">.</tspan></text>
+</svg>

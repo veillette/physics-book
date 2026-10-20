@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340" role="img" aria-labelledby="title desc">
+<title id="title">Force on the electrons in a wire between magnet poles</title>
+<desc id="desc">Cross-section view between the magnet poles: the magnetic field points to the right. Electrons in the wire move into the page, opposite to the conventional current, which points out of the page. For the electrons, v cross B points down, so the force on the negative electrons, and therefore on the wire, points up.</desc>
+<rect width="600" height="340" fill="#ffffff"/>
+<rect x="30" y="90" width="90" height="160" fill="#e57373" stroke="#222222" stroke-width="1.5"/>
+<text x="75" y="179.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">N</tspan></text>
+<rect x="480" y="90" width="90" height="160" fill="#90a4ae" stroke="#222222" stroke-width="1.5"/>
+<text x="525" y="179.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">S</tspan></text>
+<line x1="130" y1="115" x2="460" y2="115" stroke="#c2185b" stroke-width="2"/>
+<polygon points="470,115 459,119.4 459,110.6" fill="#c2185b"/>
+<line x1="130" y1="170" x2="460" y2="170" stroke="#c2185b" stroke-width="2"/>
+<polygon points="470,170 459,174.4 459,165.6" fill="#c2185b"/>
+<line x1="130" y1="225" x2="460" y2="225" stroke="#c2185b" stroke-width="2"/>
+<polygon points="470,225 459,229.4 459,220.6" fill="#c2185b"/>
+<text x="455" y="105.95" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="10.54" font-weight="normal" dx="-10.52" dy="-10.54">→</tspan><tspan dx="0.82" dy="10.54">​</tspan></tspan></text>
+<circle cx="300" cy="170" r="30" fill="#f0d9b5" stroke="#222222" stroke-width="2"/>
+<circle cx="288" cy="170" r="9" fill="#ffffff" stroke="#1f77c8" stroke-width="1.8"/>
+<circle cx="288" cy="170" r="2.7" fill="#1f77c8"/>
+<circle cx="313" cy="172" r="8" fill="#ffffff" stroke="#555555" stroke-width="1.8"/>
+<line x1="308.2" y1="167.2" x2="317.8" y2="176.8" stroke="#555555" stroke-width="1.8"/>
+<line x1="308.2" y1="176.8" x2="317.8" y2="167.2" stroke="#555555" stroke-width="1.8"/>
+<line x1="300" y1="136" x2="300" y2="63" stroke="#c62828" stroke-width="3.5"/>
+<polygon points="300,50 305.6,64 294.4,64" fill="#c62828"/>
+<text x="312" y="63.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="9.3" font-weight="normal" dx="-8.86" dy="-9.3">→</tspan><tspan dx="0.3" dy="9.3">​</tspan></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">on</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">wire</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">up</tspan><tspan font-style="normal">)</tspan></text>
+<text x="280" y="276.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f77c8" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">I</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">out</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">page</tspan></text>
+<text x="320" y="276.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#555555" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">electrons</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">into</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">page</tspan></text>
+<text x="300" y="314.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">electrons</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">v</tspan><tspan font-style="normal"> × </tspan><tspan font-style="normal">B</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">points</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">down</tspan><tspan font-style="normal">; </tspan><tspan font-style="normal">q</tspan><tspan font-style="normal"> &lt; 0 </tspan><tspan font-style="normal">reverses</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">it</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">so</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">F</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">points</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">up</tspan></text>
+</svg>

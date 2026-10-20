@@ -150,6 +150,30 @@ Draw a diagram and use RHR-1 to show that the forces on the top and bottom segme
 
 :::
 
+::: solution
+
+**Strategy**
+
+In [[Figure 1]](#Figure1), the rotation axis is vertical and $$ \vb{B} $$ is horizontal, from N to S. The top and bottom segments (each of width $$ w $$) are horizontal, in the plane of the loop. Apply RHR-1, $$ \vb{F} = I\vb{l} \times \vb{B} $$, to each, and then find the torque about the vertical axis.
+
+**Solution**
+
+![Front view of the motor loop, tilted at an angle phi to the magnetic field, which points to the right. On the top segment the current points into the page and to the right, and the force on it is straight down; on the bottom segment the current is reversed and the force is straight up. Both forces are parallel to the vertical axis of rotation, so they produce no torque about it.](../resources/concept_22_08_q01.svg)
+
+Take $$ +x $$ along $$ \vb{B} $$, $$ +z $$ up along the axis, and let the top segment's current make an angle $$ \phi $$ with $$ \vb{B} $$ in the horizontal plane, $$ \vb{l} = w(\cos\phi\,\hat{x} + \sin\phi\,\hat{y}) $$. Then
+
+<div class="equation">
+$$ \vb{F}_{\text{top}} = I\vb{l} \times \vb{B} = IwB(\cos\phi\,\hat{x} + \sin\phi\,\hat{y}) \times \hat{x} = -IwB\sin\phi\,\hat{z} $$
+</div>
+
+Both $$ \vb{l} $$ and $$ \vb{B} $$ are horizontal, so their cross product is vertical; at this orientation the force on the top segment points down. In the bottom segment the current is reversed, so $$ \vb{F}_{\text{bottom}} = +IwB\sin\phi\,\hat{z} $$, straight up. With $$ I = 2.00 \text{ A} $$, $$ w = 0.100 \m $$, $$ B = 0.500 \text{ T} $$, and $$ \phi = 30.0^\circ $$, each force has magnitude $$ (2.00 \text{ A})(0.100 \m)(0.500 \text{ T})\sin 30.0^\circ = 0.0500 \N $$.
+
+A force parallel to the axis of rotation cannot turn the loop about that axis: its lever arm in the horizontal plane is zero, and $$ \vb{r} \times \vb{F} $$ has no vertical component. The two forces are also equal and opposite along the same vertical line, so they merely squeeze (or stretch) the loop.
+
+The forces on the top and bottom segments are vertical, because the current in those segments and the field are both horizontal, so $$ I\vb{l} \times \vb{B} $$ is vertical (down on the top segment and up on the bottom one in this orientation); being parallel to the axis of rotation, they produce no torque about it.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

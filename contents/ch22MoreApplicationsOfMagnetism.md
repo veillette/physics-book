@@ -238,6 +238,30 @@ Measurements of the weak and fluctuating magnetic fields associated with brain a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Each nerve impulse is a tiny current that produces a tiny magnetic field. Compare the net field from $$ N $$ neurons whose currents are aligned (coordinated) with that from $$ N $$ neurons whose currents point in random directions. Aligned fields add directly, giving $$ N B_1 $$; random fields partly cancel, and the net field grows only as $$ \sqrt{N}B_1 $$.
+
+**Solution**
+
+Take $$ N = 1.0 \times 10^{6} $$ neurons, each contributing a field $$ B_1 = 1.0 \times 10^{-19} \text{ T} $$ at the detector.
+
+<div class="equation">
+$$ B_{\text{coordinated}} = NB_1 = (1.0 \times 10^{6})(1.0 \times 10^{-19} \text{ T}) = 1.0 \times 10^{-13} \text{ T} $$
+</div>
+
+<div class="equation">
+$$ B_{\text{random}} = \sqrt{N}B_1 = (1.0 \times 10^{3})(1.0 \times 10^{-19} \text{ T}) = 1.0 \times 10^{-16} \text{ T} $$
+</div>
+
+Measured MEG fields are of order $$ 10^{-13} \text{ T} $$ (about $$ 100 \text{ fT} $$), which is detectable with SQUID magnetometers, whereas the random case gives a field 1000 times smaller, far too weak to detect.
+
+The brain's measurable magnetic fields imply coordinated nerve impulses, because only when many neurons carry currents in the same direction at the same time do their fields add to a detectable value (about $$ 10^{-13} \text{ T} $$); uncoordinated currents point in random directions, and their fields largely cancel.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -245,6 +269,28 @@ Measurements of the weak and fluctuating magnetic fields associated with brain a
 ::: problem
 
 Discuss the possibility that a Hall voltage would be generated on the moving heart of a patient during MRI imaging. Also discuss the same effect on the wires of a pacemaker. (The fact that patients with pacemakers are not given MRIs is significant.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+A Hall-type voltage appears across any conductor moving through a magnetic field: $$ \text{emf} = Bvw $$, where $$ w $$ is the width of conductor perpendicular to both $$ \vb{v} $$ and $$ \vb{B} $$. Blood and heart tissue are conducting salt solutions, and a pacemaker lead is a metal wire. Use an MRI field $$ B = 1.50 \text{ T} $$, blood speed in the aorta $$ v = 0.50 \ms $$, and an aorta width $$ w = 2.5 \text{ cm} $$.
+
+**Solution**
+
+For blood flowing in the aorta,
+
+<div class="equation">
+$$ \text{emf} = Bvw = (1.50 \text{ T})(0.50 \ms)(0.025 \m) = 1.9 \times 10^{-2} \text{ V} = 19 \text{ mV} $$
+</div>
+
+This is larger than the ECG signal of about $$ 1 \text{ mV} $$, so the heart's motion and blood flow in the MRI field produce voltages that distort ECG monitoring during the scan. The voltages are too small to stimulate the heart directly.
+
+A pacemaker's leads are conductors running through the moving heart and the body. Their motion in the strong field and, more importantly, the rapidly switched gradient fields and radio-frequency pulses of the MRI induce voltages and currents in them. These can be mistaken by the pacemaker for heartbeats or can stimulate the heart at the wrong times, and the induced currents can heat the lead tips and burn tissue. The strong field also exerts forces and torques on any ferromagnetic parts and can switch the pacemaker's magnetic reed switch into a fixed-rate mode. These dangers are why patients with pacemakers have traditionally not been given MRIs (newer "MRI-conditional" pacemakers are designed to tolerate them).
+
+A Hall voltage would be generated on the moving heart and in the flowing blood (about $$ 19 \text{ mV} $$ across the aorta in a $$ 1.5\text{-T} $$ field), which is harmless to the patient but distorts ECG readings; in a pacemaker's wires, the induced voltages and currents can interfere with its sensing and pacing and heat the lead tips, which is why pacemaker patients are generally not given MRIs.
 
 :::
 
@@ -258,6 +304,29 @@ A patient in an MRI unit turns his head quickly to one side and experiences mome
 
 :::
 
+::: solution
+
+**Strategy**
+
+Turning the head quickly in the strong field changes the magnetic flux through conducting loops in the head (the fluid-filled inner ear and the conductive tissues of the mouth), inducing emfs by Faraday's law, $$ \text{emf} \approx \Delta\Phi/\Delta t $$. Estimate the emf for $$ B = 3.00 \text{ T} $$, a loop of area $$ A = 1.0 \times 10^{-2} \ \text{m}^2 $$, and a $$ 90^\circ $$ turn in $$ 0.50 \s $$, which changes the flux from $$ BA $$ to zero.
+
+**Solution**
+
+<div class="equation">
+$$ \text{emf} \approx \frac{\Delta\Phi}{\Delta t} = \frac{BA}{\Delta t} = \frac{(3.00 \text{ T})(1.0 \times 10^{-2} \ \text{m}^2)}{0.50 \s} = 6.0 \times 10^{-2} \text{ V} $$
+</div>
+
+An emf of tens of millivolts drives small currents through the body's conducting fluids:
+
+- **Dizziness:** induced currents in the inner ear's balance organs (the vestibular system), and magnetic forces on the ion currents there, disturb the nerve signals that sense head rotation, so the brain receives a false signal of motion.
+- **Strange taste:** induced currents through the tongue stimulate the taste nerves directly (a metallic taste), especially near metal dental fillings, which are good conductors.
+
+The effects are momentary because the emf exists only while the flux is changing.
+
+The dizziness and strange taste are probably caused by electromagnetic induction: turning the head quickly in the strong field changes the magnetic flux through the head, inducing emfs (about $$ 0.06 \text{ V} $$ in this estimate) and currents in the inner ear, which disturb its sense of balance, and in the tongue and around metal fillings, which stimulate the sense of taste.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -265,6 +334,24 @@ A patient in an MRI unit turns his head quickly to one side and experiences mome
 ::: problem
 
 You are told that in a certain region there is either a uniform electric or magnetic field. What measurement or observation could you make to determine the type? (Ignore the Earth’s magnetic field.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+An electric field exerts a force $$ q\vb{E} $$ on any charge, moving or not; a magnetic field exerts a force $$ qvB\sin\theta $$ only on a moving charge, perpendicular to its velocity. Design a test that tells them apart. Use a small object with charge $$ q = 1.0 \times 10^{-8} \text{ C} $$ and fields $$ E = 1.0 \times 10^{4} \text{ N/C} $$ or $$ B = 1.0 \text{ T} $$.
+
+**Solution**
+
+**Test 1: hold a charge at rest.** In the electric field, it feels $$ F = qE = (1.0 \times 10^{-8} \text{ C})(1.0 \times 10^{4} \text{ N/C}) = 1.0 \times 10^{-4} \N $$, which a sensitive balance or a light charged pith ball on a thread would show. In the magnetic field, $$ v = 0 $$ and $$ F = 0 $$.
+
+**Test 2: move a charge (or send a beam of charged particles) in various directions.** In the electric field, the force is the same in magnitude and direction regardless of the velocity. In the magnetic field, the force is perpendicular to the velocity, changes direction when the velocity changes direction, and vanishes for motion along one particular direction (along $$ \vb{B} $$).
+
+A simpler alternative: bring a compass. Its needle aligns with a magnetic field but is not affected by an electric field (as long as it is uncharged).
+
+You could place a charge at rest in the region: if it experiences a force, the field is electric (for example, $$ 10^{-4} \N $$ on a $$ 10\text{-nC} $$ charge in a $$ 10^{4}\text{-N/C} $$ field); if it feels a force only when it moves, and that force is perpendicular to its velocity, the field is magnetic (a compass needle aligning with the field would also identify a magnetic field).
 
 :::
 
@@ -278,6 +365,28 @@ An example of magnetohydrodynamics (MHD) comes from the flow of a river (salty w
 
 :::
 
+::: solution
+
+**Strategy**
+
+The moving salt water carries positive and negative ions through Earth's magnetic field. The vertical component of the field pushes the ions sideways, toward the two banks, until the resulting electric field balances the magnetic force, just as in the Hall effect. The resulting voltage across the river is $$ \text{emf} = B_{\perp}vw $$, where $$ B_{\perp} $$ is the field component perpendicular to both the flow and the line between the banks (the vertical component for a horizontal flow). Use $$ v = 2.00 \ms $$, a width $$ w = 100 \m $$, and $$ B_{\perp} = 4.00 \times 10^{-5} \text{ T} $$.
+
+**Solution**
+
+1. Find the vertical component of Earth's field at the river's location, $$ B_{\perp} = B\sin\phi $$, where $$ \phi $$ is the dip angle; for $$ B = 5.00 \times 10^{-5} \text{ T} $$ and $$ \phi = 53^\circ $$, $$ B_{\perp} = 4.00 \times 10^{-5} \text{ T} $$.
+2. Measure the speed of the current and the width of the river.
+3. Multiply:
+
+<div class="equation">
+$$ \text{emf} = B_{\perp}vw = (4.00 \times 10^{-5} \text{ T})(2.00 \ms)(100 \m) = 8.00 \times 10^{-3} \text{ V} = 8.00 \text{ mV} $$
+</div>
+
+Because the flow is fastest in the middle and slower near the banks and the bottom, a more careful estimate uses the average speed.
+
+You would calculate the potential difference as a Hall (motional) emf, $$ \text{emf} = B_{\perp}vw $$, multiplying the vertical component of Earth's field by the average speed of the water and the width of the river (for example, $$ (4.00 \times 10^{-5} \text{ T})(2.00 \ms)(100 \m) = 8.00 \text{ mV} $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -285,6 +394,27 @@ An example of magnetohydrodynamics (MHD) comes from the flow of a river (salty w
 ::: problem
 
 Draw gravitational field lines between 2 masses, electric field lines between a positive and a negative charge, electric field lines between 2 positive charges and magnetic field lines around a magnet. Qualitatively describe the differences between the fields and the entities responsible for the field lines.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Draw each field using the usual rules: lines are tangent to the field, are dense where the field is strong, never cross, and point in the direction of the force on a test mass, a positive test charge, or a north pole. Then compare the sources: masses, positive and negative charges, and magnetic poles that always come in pairs.
+
+**Solution**
+
+![Four field-line drawings. (a) Gravitational field of two masses: all lines point inward, ending on the masses, and the region between them has a point of zero field. (b) Electric field of a positive and a negative charge: lines start on the positive charge and end on the negative charge, many of them crossing the gap between the two. (c) Electric field of two positive charges: lines start on both charges and point outward, bending away from each other, with a point of zero field midway between them. (d) Magnetic field of a bar magnet: lines leave the north pole, loop around to the south pole outside the magnet, and continue from south to north inside it, forming closed loops.](../resources/concept_22_11_q06.svg)
+
+**Differences**
+
+- **Gravity:** the lines point *into* every mass and never out, because gravity is only attractive and there is only one sign of mass. The pattern of two masses looks like that of two *negative* charges. Its strength is tiny: two $$ 1.00\text{-kg} $$ masses $$ 1.00 \m $$ apart attract with $$ F = Gm^2/r^2 = 6.67 \times 10^{-11} \N $$.
+- **Positive and negative charges:** the lines begin on the positive charge and end on the negative charge. Opposite charges attract, and many lines connect them. Two $$ 1.00\text{-}\mu\text{C} $$ charges $$ 1.00 \m $$ apart attract with $$ F = kq^2/r^2 = 8.99 \times 10^{-3} \N $$, about $$ 10^{8} $$ times the gravitational force above.
+- **Two positive charges:** the lines start on both charges and bend away from each other, with a point of zero field between them, showing repulsion. Gravity never produces this repulsive pattern.
+- **Bar magnet:** the outside pattern resembles the field of a positive and a negative charge, but the lines do not end on the poles; they continue through the magnet from S to N and form **closed loops**. There are no isolated magnetic poles (monopoles); the field is produced by moving charges (currents and electron spins) in the magnet.
+
+Gravitational field lines all end on masses, which only attract; electric field lines begin on positive charges and end on negative charges, which can either attract or repel; and magnetic field lines form closed loops with no beginning or end, because they are produced by moving charges rather than by isolated magnetic poles.
 
 :::
 

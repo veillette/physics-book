@@ -919,6 +919,26 @@ If you live in a region that has a particular TV station, you can sometimes pick
 
 :::
 
+::: solution
+
+**Strategy**
+
+An FM receiver can pick up any signal whose carrier frequency lies within its tuning range and that is frequency modulated. Compare the frequencies of the TV audio carriers with the FM band, $$ 88 $$ to $$ 108 \text{ MHz} $$.
+
+**Solution**
+
+In analog (NTSC) television, each channel's audio was broadcast as an FM signal on its own carrier, $$ 4.5 \text{ MHz} $$ above the picture carrier. Channel 6 spans $$ 82 $$ to $$ 88 \text{ MHz} $$, and its audio carrier is at $$ 87.75 \text{ MHz} $$, just below the bottom of the FM band, where many FM radios can still tune. Its wavelength is
+
+<div class="equation">
+$$ \lambda = \frac{c}{f} = \frac{3.00 \times 10^{8} \ms}{8.775 \times 10^{7} \text{ Hz}} = 3.42 \m $$
+</div>
+
+close to that of FM stations, so the radio's antenna receives it well. Because the receiver demodulates FM, it reproduces the audio correctly only if the audio was frequency modulated. So yes, this implies that TV audio was broadcast as FM. (Since the change to digital TV broadcasting, this no longer works for most stations.)
+
+You can pick up TV audio on an FM radio because the audio carrier of a nearby channel (such as channel 6 at $$ 87.75 \text{ MHz} $$) lies at or just below the edge of the FM band, within the radio's tuning range; and yes, the fact that the FM receiver reproduces the sound correctly implies that the TV audio was broadcast as FM.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -926,6 +946,26 @@ If you live in a region that has a particular TV station, you can sometimes pick
 ::: problem
 
 Explain why people who have the lens of their eye removed because of cataracts are able to see low-frequency ultraviolet.
+
+:::
+
+::: solution
+
+**Strategy**
+
+What we see depends on which wavelengths reach the retina and on which of them the retina's pigments can absorb. The eye's lens absorbs ultraviolet strongly. Compare the eye's response with and without the lens for low-frequency (near) ultraviolet, wavelengths of about $$ 320 $$ to $$ 400 \text{ nm} $$.
+
+**Solution**
+
+The normal lens absorbs nearly all ultraviolet radiation, protecting the retina, so no UV reaches the cones. The pigment in the blue-sensitive cones, however, has some sensitivity extending below $$ 400 \text{ nm} $$, into the near UV. When the lens is removed (and not replaced by a UV-blocking implant), near-UV light reaches the retina and is absorbed by these cones. Radiation at $$ 350 \text{ nm} $$ has a frequency of
+
+<div class="equation">
+$$ f = \frac{c}{\lambda} = \frac{3.00 \times 10^{8} \ms}{3.50 \times 10^{-7} \m} = 8.57 \times 10^{14} \text{ Hz} $$
+</div>
+
+only a little above that of violet light ($$ 7.5 \times 10^{14} \text{ Hz} $$ at $$ 400 \text{ nm} $$), and it is seen as a bluish violet. Higher-frequency UV is absorbed by the cornea and does not reach the retina even without the lens.
+
+People whose lenses have been removed can see low-frequency ultraviolet because the lens, which normally absorbs UV, no longer blocks it, and the blue-sensitive cones of the retina are slightly sensitive to wavelengths just below $$ 400 \text{ nm} $$ (for example, $$ 350 \text{ nm} $$, or $$ 8.57 \times 10^{14} \text{ Hz} $$).
 
 :::
 
@@ -939,6 +979,26 @@ How do fluorescent soap residues make clothing look “brighter and whiter” in
 
 :::
 
+::: solution
+
+**Strategy**
+
+Fluorescent brighteners absorb ultraviolet radiation and re-emit part of its energy as visible light. Compare the photon energies, $$ E = hc/\lambda $$, for absorbed UV at $$ 350 \text{ nm} $$ and emitted blue light at $$ 440 \text{ nm} $$, using $$ hc = 1240 \text{ eV}\cdot\text{nm} $$.
+
+**Solution**
+
+<div class="equation">
+$$ E_{\text{UV}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV}\cdot\text{nm}}{350 \text{ nm}} = 3.54 \text{ eV}, \qquad E_{\text{blue}} = \frac{1240 \text{ eV}\cdot\text{nm}}{440 \text{ nm}} = 2.82 \text{ eV} $$
+</div>
+
+Each absorbed UV photon has enough energy to produce one blue photon, with the rest going into heat. Sunlight contains a good deal of UV, which we cannot see. The brightener converts it to visible blue light, so the fabric gives off **more visible light than falls on it in the visible range**, looking "brighter." The added blue also cancels the slight yellow tint of aging fabric, making it look "whiter."
+
+In candlelight it would be ineffective, because a candle flame, at about $$ 1500 \text{ K} $$, emits almost no ultraviolet, so there is nothing for the brightener to convert.
+
+Fluorescent soap residues make clothing look brighter and whiter by absorbing invisible ultraviolet in outdoor light (photons of about $$ 3.5 \text{ eV} $$) and re-emitting visible blue light (about $$ 2.8 \text{ eV} $$), which adds to the reflected light and offsets yellowing; this would not be effective in candlelight, which contains almost no ultraviolet.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -946,6 +1006,24 @@ How do fluorescent soap residues make clothing look “brighter and whiter” in
 ::: problem
 
 Give an example of resonance in the reception of electromagnetic waves.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Resonance occurs when a system with a natural frequency is driven at that frequency. A radio receiver's tuning circuit is an $$ LC $$ circuit with resonant frequency $$ f_0 = 1/(2\pi\sqrt{LC}) $$. Find the capacitance needed to receive an FM station at $$ 100 \text{ MHz} $$ with $$ L = 1.00 \ \mu\text{H} $$.
+
+**Solution**
+
+<div class="equation">
+$$ C = \frac{1}{4\pi^2f_0^2L} = \frac{1}{4\pi^2(1.00 \times 10^{8} \text{ Hz})^2(1.00 \times 10^{-6} \text{ H})} = 2.53 \times 10^{-12} \text{ F} $$
+</div>
+
+The antenna delivers small currents at many frequencies at once, but only the station whose frequency matches $$ f_0 $$ produces a large oscillating current in the circuit; turning the dial changes $$ C $$ (or $$ L $$) to choose another station. A receiving antenna cut to half a wavelength is a second example: it resonates at the frequency for which it was designed.
+
+Tuning a radio is an example of resonance: the receiver's $$ LC $$ circuit responds strongly only to waves at its resonant frequency $$ f_0 = 1/(2\pi\sqrt{LC}) $$ (for example, $$ 100 \text{ MHz} $$ with $$ L = 1.00 \ \mu\text{H} $$ and $$ C = 2.53 \text{ pF} $$), selecting one station from all those reaching the antenna.
 
 :::
 
@@ -959,6 +1037,33 @@ Illustrate that the size of details of an object that can be detected with elect
 
 :::
 
+::: solution
+
+**Strategy**
+
+A wave can reveal details only about as small as its wavelength; smaller features do not change how the wave is scattered or reflected in a way that can be resolved. Compare the wavelengths of radar, infrared, visible light, and X-rays.
+
+**Solution**
+
+| Radiation | Typical wavelength | Smallest detail detectable | Example |
+| --- | --- | --- | --- |
+| Radar | $$ 3 \text{ cm} = 3 \times 10^{-2} \m $$ | a few centimeters | aircraft, raindrops in clouds, but not the rivets on a plane |
+| Infrared | $$ 10 \ \mu\text{m} = 1 \times 10^{-5} \m $$ | about $$ 10 \ \mu\text{m} $$ | warm and cool regions of skin, not individual cells |
+| Visible light | $$ 500 \text{ nm} = 5 \times 10^{-7} \m $$ | about $$ 0.5 \ \mu\text{m} $$ | cells and bacteria in a microscope, not viruses or molecules |
+| X-rays | $$ 0.1 \text{ nm} = 1 \times 10^{-10} \m $$ | about $$ 0.1 \text{ nm} $$ | spacing of atoms in crystals (X-ray diffraction) |
+
+Radar and visible light differ in wavelength by a factor of
+
+<div class="equation">
+$$ \frac{3 \times 10^{-2} \m}{5 \times 10^{-7} \m} = 6 \times 10^{4} $$
+</div>
+
+so visible light can show details about $$ 60\,000 $$ times smaller. For example, radar sees a plane as a blip, but our eyes can see its windows and markings; X-rays reveal the arrangement of atoms in a crystal, which is far beyond the reach of a light microscope.
+
+The size of the smallest details that electromagnetic waves can detect is about one wavelength, so radar ($$ \lambda \approx 3 \text{ cm} $$) shows only objects and features of centimeter size, visible light ($$ \lambda \approx 500 \text{ nm} $$) can show details as small as about half a micrometer, and X-rays ($$ \lambda \approx 0.1 \text{ nm} $$) can reveal the arrangement of individual atoms.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -966,6 +1071,26 @@ Illustrate that the size of details of an object that can be detected with elect
 ::: problem
 
 Why don’t buildings block radio waves as completely as they do visible light?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Compare the wavelengths of radio waves and visible light with the sizes of buildings and their openings, and consider how ordinary building materials interact with each. Use an FM wave at $$ 100 \text{ MHz} $$ and visible light at $$ 500 \text{ nm} $$.
+
+**Solution**
+
+<div class="equation">
+$$ \lambda_{\text{FM}} = \frac{c}{f} = \frac{3.00 \times 10^{8} \ms}{1.00 \times 10^{8} \text{ Hz}} = 3.00 \m, \qquad \lambda_{\text{light}} = 5.00 \times 10^{-7} \m $$
+</div>
+
+**Diffraction:** radio wavelengths of meters to hundreds of meters are comparable to the size of buildings, doorways, and windows, so the waves bend around buildings and spread through openings and into the region behind them. Light's wavelength is millions of times smaller than these objects, so it travels in straight lines and casts sharp shadows.
+
+**Absorption:** wood, brick, plaster, glass, and dry concrete are poor conductors, and their molecules have no resonances at radio frequencies, so radio waves pass through them with only partial absorption. The same materials absorb visible light in a thin surface layer because visible frequencies match electronic transitions in their molecules. Only conductors, such as steel frames and metal-coated windows, block radio waves well, which is why reception is poor in elevators and steel buildings.
+
+Buildings don't block radio waves as completely as visible light because radio wavelengths (meters, such as $$ 3.00 \m $$ for FM) are comparable to the size of buildings and their openings, so the waves diffract around and into them, and because most nonmetallic building materials are largely transparent at radio frequencies but strongly absorb visible light.
 
 :::
 
@@ -979,6 +1104,32 @@ Make a list of some everyday objects and decide whether they are transparent or 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Whether a material transmits a band of radiation depends on whether its charges can respond strongly at that frequency: conductors reflect radio waves and microwaves; water absorbs microwaves and infrared; electronic transitions absorb visible and ultraviolet light in many materials; and X-rays pass through light elements but are absorbed by heavy ones. The wavelengths range from about $$ 1 \m $$ (radio) through $$ 1 \text{ cm} $$ (microwave), $$ 10 \ \mu\text{m} $$ (infrared), $$ 500 \text{ nm} $$ (visible), and $$ 100 \text{ nm} $$ (UV) to $$ 0.1 \text{ nm} $$ (X-ray).
+
+**Solution**
+
+T = transparent (mostly transmitted), P = partly transmitted, O = opaque.
+
+| Object | Radio | Microwave | Infrared | Visible | Ultraviolet | X-ray |
+| --- | --- | --- | --- | --- | --- | --- |
+| Window glass | T | T | P (near IR) / O (far IR) | T | O (most) | P |
+| Aluminum foil | O | O | O | O | O | P |
+| Wooden door | T | P | O | O | O | T |
+| Human body | P | O | O | O | O | P |
+| Cotton shirt | T | T | P | P | P | T |
+| Glass of water | P | O | O | T | P | P |
+| Plastic food wrap | T | T | P | T | P | T |
+
+Some useful consequences: glass lets sunlight in but traps the far infrared emitted by warm objects (the greenhouse effect); a microwave oven's metal mesh door reflects microwaves but transmits light; X-rays pass through soft tissue but are absorbed by bone and by metal.
+
+Common objects differ greatly by band: metals such as aluminum foil are opaque to nearly everything except X-rays; glass is transparent to radio, microwaves, and visible light but opaque to most UV and far infrared; water transmits visible light but absorbs microwaves and infrared; and wood and cloth transmit radio waves and X-rays but block visible and UV light.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -986,6 +1137,20 @@ Make a list of some everyday objects and decide whether they are transparent or 
 ::: problem
 
 Your friend says that more patterns and colors can be seen on the wings of birds if viewed in ultraviolet light. Would you agree with your friend? Explain your answer.
+
+:::
+
+::: solution
+
+**Strategy**
+
+What an animal can see depends on the types of cones in its eyes. Many birds have four cone types, including one sensitive to ultraviolet near $$ 370 \text{ nm} $$, while humans have three, none sensitive below about $$ 400 \text{ nm} $$. Compare what appears in feathers under visible and ultraviolet light.
+
+**Solution**
+
+Yes. Many feathers reflect ultraviolet in patterns that are invisible to us because our eyes do not detect UV. Birds with UV-sensitive cones see these patterns, and use them to recognize species and choose mates; males and females that look identical to us often differ strongly in UV. Photographing birds with a UV-sensitive camera and a filter that passes only wavelengths around $$ 350 $$ to $$ 400 \text{ nm} $$ reveals these extra patterns and colors (displayed in false color). The UV light has a frequency of $$ f = c/\lambda = (3.00 \times 10^{8} \ms)/(3.70 \times 10^{-7} \m) = 8.1 \times 10^{14} \text{ Hz} $$, just above the visible range.
+
+Yes, you should agree, because many feathers reflect ultraviolet in patterns that human eyes cannot detect but that birds, which have UV-sensitive cones (near $$ 370 \text{ nm} $$), and UV cameras can see, so more patterns and colors are revealed in ultraviolet light.
 
 :::
 
@@ -999,6 +1164,34 @@ The rate at which information can be transmitted on an electromagnetic wave is p
 
 :::
 
+::: solution
+
+**Strategy**
+
+If the information rate is proportional to the carrier frequency, compare the frequencies used in each case: visible light in an optical fiber (about $$ 2 \times 10^{14} $$ to $$ 5 \times 10^{14} \text{ Hz} $$), electronic signals in a wire (up to about $$ 1 \times 10^{9} \text{ Hz} $$), and ELF radio (about $$ 76 \text{ Hz} $$).
+
+**Solution**
+
+Light at $$ 1550 \text{ nm} $$, a common fiber wavelength, has
+
+<div class="equation">
+$$ f = \frac{c}{\lambda} = \frac{3.00 \times 10^{8} \ms}{1.55 \times 10^{-6} \m} = 1.94 \times 10^{14} \text{ Hz} $$
+</div>
+
+which is about $$ (1.94 \times 10^{14} \text{ Hz})/(1 \times 10^{9} \text{ Hz}) \approx 2 \times 10^{5} $$ times the highest frequencies carried in a wire. Yes, this is consistent: a single optical fiber can carry vastly more telephone conversations than a wire.
+
+For ELF communication at $$ 76 \text{ Hz} $$, the ratio to a $$ 1\text{-GHz} $$ signal is
+
+<div class="equation">
+$$ \frac{76 \text{ Hz}}{1 \times 10^{9} \text{ Hz}} = 7.6 \times 10^{-8} $$
+</div>
+
+so information can be sent only extremely slowly, a few characters per minute. ELF is used for submarines because these long waves (about $$ 4000 \text{ km} $$ in wavelength) penetrate seawater, but it is good only for short coded messages, such as an order to surface and receive a longer message by another method.
+
+Yes, the proportionality is consistent with optical fibers carrying far more conversations, since visible and near-infrared light has frequencies about $$ 10^{5} $$ times higher than the electronic signals in a wire; the implication for ELF communication with submarines is that its very low frequency (tens of hertz) allows only an extremely slow rate of transmission, limiting it to short coded messages.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -1006,6 +1199,32 @@ The rate at which information can be transmitted on an electromagnetic wave is p
 ::: problem
 
 Give an example of energy carried by an electromagnetic wave.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Any absorption of electromagnetic radiation transfers energy to the absorber. Choose a familiar example and estimate the energy, using $$ E = Pt $$ and $$ Q = mc\,\Delta T $$.
+
+**Solution**
+
+**Microwave oven:** a $$ 1000\text{-W} $$ oven running for $$ 60.0 \s $$ delivers
+
+<div class="equation">
+$$ E = Pt = (1000 \text{ W})(60.0 \s) = 6.00 \times 10^{4} \J $$
+</div>
+
+to the food. If all of it goes into $$ 0.250 \kg $$ of water,
+
+<div class="equation">
+$$ \Delta T = \frac{Q}{mc} = \frac{6.00 \times 10^{4} \J}{(0.250 \kg)(4186 \text{ J/kg}\cdot\text{ºC})} = 57.3 \text{ ºC} $$
+</div>
+
+Other examples: sunlight carries about $$ 1000 \text{ W/m}^2 $$ to Earth's surface, warming the ground and powering solar cells and photosynthesis; the infrared from a heat lamp warms your skin.
+
+An example of energy carried by an electromagnetic wave is the microwave radiation in a microwave oven, which delivers about $$ 6.00 \times 10^{4} \J $$ per minute in a $$ 1000\text{-W} $$ oven, enough to raise the temperature of a cup ($$ 0.250 \kg $$) of water by about $$ 57 \text{ ºC} $$; sunlight warming the ground is another.
 
 :::
 
@@ -1019,6 +1238,28 @@ In an MRI scan, a higher magnetic field requires higher frequency radio waves to
 
 :::
 
+::: solution
+
+**Strategy**
+
+The resonant (Larmor) frequency of hydrogen nuclei is proportional to the field, $$ f = (42.6 \text{ MHz/T})B $$. An efficient antenna has a size comparable to a wavelength (for example, half a wavelength), and $$ \lambda = c/f $$. Compare fields of $$ 1.50 \text{ T} $$ and $$ 3.00 \text{ T} $$.
+
+**Solution**
+
+<div class="equation">
+$$ f_{1.5} = (42.6 \text{ MHz/T})(1.50 \text{ T}) = 63.9 \text{ MHz}, \qquad \lambda = \frac{3.00 \times 10^{8} \ms}{6.39 \times 10^{7} \text{ Hz}} = 4.69 \m $$
+</div>
+
+<div class="equation">
+$$ f_{3.0} = (42.6 \text{ MHz/T})(3.00 \text{ T}) = 128 \text{ MHz}, \qquad \lambda = \frac{3.00 \times 10^{8} \ms}{1.28 \times 10^{8} \text{ Hz}} = 2.35 \m $$
+</div>
+
+Doubling the field doubles the frequency and halves the wavelength, so a half-wave antenna shrinks from $$ 2.35 \m $$ to $$ 1.17 \m $$.
+
+Going to a larger magnetic field raises the required frequency in proportion and shortens the wavelength (from $$ 4.69 \m $$ at $$ 1.50 \text{ T} $$ to $$ 2.35 \m $$ at $$ 3.00 \text{ T} $$), so it favors a smaller antenna, since the most efficient antenna size is proportional to the wavelength.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -1026,6 +1267,28 @@ In an MRI scan, a higher magnetic field requires higher frequency radio waves to
 ::: problem
 
 Laser vision correction often uses an excimer laser that produces 193-nm electromagnetic radiation. This wavelength is extremely strongly absorbed by the cornea and ablates it in a manner that reshapes the cornea to correct vision defects. Explain how the strong absorption helps concentrate the energy in a thin layer and thus give greater accuracy in shaping the cornea. Also explain how this strong absorption limits damage to the lens and retina of the eye.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Strongly absorbed radiation loses its intensity over a short distance: the intensity falls as $$ I = I_0e^{-x/\delta} $$, where $$ \delta $$ is the absorption depth. For $$ 193\text{-nm} $$ light in the cornea, $$ \delta $$ is less than about $$ 1 \ \mu\text{m} $$. Compare this with the cornea's thickness of about $$ 500 \ \mu\text{m} $$. Take $$ \delta = 0.5 \ \mu\text{m} $$.
+
+**Solution**
+
+**Concentration of energy:** after $$ 1 \ \mu\text{m} $$, only $$ e^{-(1 \ \mu\text{m})/(0.5 \ \mu\text{m})} = e^{-2} = 0.14 $$, or 14%, of the light remains, so nearly all of each pulse's energy is deposited in the top micrometer or so. That thin layer is heated so quickly that it is vaporized (ablated), while the tissue just below barely warms. Each pulse removes only about $$ 0.25 \ \mu\text{m} $$, so by controlling the number and pattern of pulses the surgeon can sculpt the cornea's curvature with sub-micrometer accuracy.
+
+**Protection of deeper tissue:** after passing through even a thin fraction of the cornea, say $$ 20 \ \mu\text{m} $$, the fraction remaining is
+
+<div class="equation">
+$$ \frac{I}{I_0} = e^{-(20 \ \mu\text{m})/(0.5 \ \mu\text{m})} = e^{-40} = 4 \times 10^{-18} $$
+</div>
+
+so essentially no radiation reaches the lens or the retina.
+
+The strong absorption concentrates the laser's energy in a very thin surface layer (nearly all of it within about a micrometer), so each pulse removes only a fraction of a micrometer of tissue and the cornea can be shaped very precisely; for the same reason, essentially none of the radiation penetrates deep enough to reach and damage the lens or retina.
 
 :::
 

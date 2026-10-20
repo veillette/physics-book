@@ -449,6 +449,22 @@ Is every emf a potential difference? Is every potential difference an emf? Expla
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the definitions. An emf is the potential difference a source supplies when no current flows, produced by a non-electrostatic process such as a chemical reaction or a changing magnetic flux. A potential difference is the difference in electric potential between any two points, in joules per coulomb.
+
+**Solution**
+
+**Every emf is a potential difference.** Both are measured in volts ($$ 1 \text{ V} = 1 \text{ J/C} $$), and an emf is the potential difference across the terminals of a source when no current flows. A $$ 1.5\text{-V} $$ cell raises each coulomb of charge by $$ 1.5 \text{ J} $$ of potential energy.
+
+**Not every potential difference is an emf.** A potential difference also exists across an ordinary resistor carrying a current: $$ 2.0 \text{ A} $$ through a $$ 6.0\text{-}\Omega $$ resistor gives $$ V = IR = (2.0 \text{ A})(6.0 \ \Omega) = 12 \text{ V} $$. That resistor converts electrical energy into thermal energy; it is not a source and does not supply energy to the charges. Similarly, the potential difference between two charged plates of a capacitor is not an emf.
+
+Every emf is a potential difference, namely the potential difference of a source when no current flows, but not every potential difference is an emf, because potential differences also appear across resistors and other devices (for example, $$ 12 \text{ V} $$ across a $$ 6.0\text{-}\Omega $$ resistor carrying $$ 2.0 \text{ A} $$) that remove energy from the charges rather than supply it.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -456,6 +472,34 @@ Is every emf a potential difference? Is every potential difference an emf? Expla
 ::: problem
 
 Explain which battery is doing the charging and which is being charged in [[Figure 14]](#Figure14).
+
+:::
+
+::: solution
+
+**Strategy**
+
+The two positive terminals are connected together, so the batteries oppose each other. The larger emf drives current around the loop; a battery is being charged when current enters its positive terminal. Find the current and the terminal voltages.
+
+**Solution**
+
+Going around the loop, the emfs subtract and the internal resistances add:
+
+<div class="equation">
+$$ I = \frac{\text{emf}_2 - \text{emf}_1}{r_1 + r_2} = \frac{18.0 \text{ V} - 12.0 \text{ V}}{1.0 \ \Omega + 0.5 \ \Omega} = 4.0 \text{ A} $$
+</div>
+
+The current leaves the positive terminal of the 18.0-V battery, flows along the top wire, and **enters the positive terminal of the 12.0-V battery**, forcing current backward through it. The terminal voltages agree, as they must for batteries connected in parallel:
+
+<div class="equation">
+$$ V_1 = \text{emf}_1 + Ir_1 = 12.0 \text{ V} + (4.0 \text{ A})(1.0 \ \Omega) = 16.0 \text{ V} $$
+</div>
+
+<div class="equation">
+$$ V_2 = \text{emf}_2 - Ir_2 = 18.0 \text{ V} - (4.0 \text{ A})(0.5 \ \Omega) = 16.0 \text{ V} $$
+</div>
+
+The 18.0-V battery is doing the charging and the 12.0-V battery is being charged, because the larger emf drives a $$ 4.0\text{-A} $$ current into the positive terminal of the 12.0-V battery, raising that battery's terminal voltage above its emf to $$ 16.0 \text{ V} $$.
 
 :::
 
@@ -472,6 +516,28 @@ Given a battery, an assortment of resistors, and a variety of voltage and curren
 
 :::
 
+::: solution
+
+**Strategy**
+
+The terminal voltage is $$ V = \text{emf} - Ir $$. Measure the emf when (almost) no current flows, then measure $$ V $$ and $$ I $$ with a known load, and solve for $$ r $$.
+
+**Solution**
+
+1. Connect a high-resistance voltmeter alone across the terminals. It draws almost no current, so it reads the emf. Suppose it reads $$ 1.58 \text{ V} $$.
+2. Connect a resistor, for example $$ 2.00 \ \Omega $$, across the battery with an ammeter in series. Measure the current $$ I $$ and the terminal voltage $$ V $$ with the voltmeter across the terminals. Suppose $$ I = 0.700 \text{ A} $$ and $$ V = 1.40 \text{ V} $$.
+3. Solve for the internal resistance:
+
+<div class="equation">
+$$ r = \frac{\text{emf} - V}{I} = \frac{1.58 \text{ V} - 1.40 \text{ V}}{0.700 \text{ A}} = 0.257 \ \Omega $$
+</div>
+
+For a more reliable result, repeat with several load resistors and plot $$ V $$ against $$ I $$; the graph is a straight line whose intercept is the emf and whose slope is $$ -r $$. Choose loads small enough that $$ Ir $$ is a measurable fraction of the emf.
+
+You would determine the internal resistance by measuring the emf with a voltmeter alone, then measuring the terminal voltage $$ V $$ and current $$ I $$ with a known resistor connected, and calculating $$ r = (\text{emf} - V)/I $$ (for example, $$ (1.58 \text{ V} - 1.40 \text{ V})/(0.700 \text{ A}) = 0.257 \ \Omega $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -479,6 +545,30 @@ Given a battery, an assortment of resistors, and a variety of voltage and curren
 ::: problem
 
 Two different 12-V automobile batteries on a store shelf are rated at 600 and 850 “cold cranking amps.” Which has the smallest internal resistance?
+
+:::
+
+::: solution
+
+**Strategy**
+
+The cold cranking rating is the current a battery can supply (at $$ -18 ^\circ \text{C} $$) while keeping its terminal voltage above $$ 7.2 \text{ V} $$. Use $$ V = \text{emf} - Ir $$ to estimate the internal resistance of each battery.
+
+**Solution**
+
+Solving for $$ r $$ with $$ \text{emf} = 12.0 \text{ V} $$ and $$ V = 7.2 \text{ V} $$:
+
+<div class="equation">
+$$ r_{600} = \frac{\text{emf} - V}{I} = \frac{12.0 \text{ V} - 7.2 \text{ V}}{600 \text{ A}} = 8.0 \times 10^{-3} \ \Omega $$
+</div>
+
+<div class="equation">
+$$ r_{850} = \frac{12.0 \text{ V} - 7.2 \text{ V}}{850 \text{ A}} = 5.6 \times 10^{-3} \ \Omega $$
+</div>
+
+For the same allowed voltage drop, a larger current means a smaller internal resistance.
+
+The battery rated at 850 cold cranking amps has the smaller internal resistance (about $$ 5.6 \text{ m}\Omega $$, compared with $$ 8.0 \text{ m}\Omega $$ for the 600-A battery), because it can supply a larger current with the same drop $$ Ir $$ in terminal voltage.
 
 :::
 
@@ -492,6 +582,28 @@ What are the advantages and disadvantages of connecting batteries in series? In 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Combine $$ N $$ identical batteries, each with emf $$ \text{emf}_1 $$ and internal resistance $$ r_1 $$. In series, emfs and internal resistances add; in parallel, the emf is that of one battery and the internal resistance is $$ r_1/N $$. Illustrate with two $$ 1.5\text{-V} $$ cells, each with $$ r_1 = 0.20 \ \Omega $$.
+
+**Solution**
+
+**Series:** $$ \text{emf} = 2(1.5 \text{ V}) = 3.0 \text{ V} $$ and $$ r = 2(0.20 \ \Omega) = 0.40 \ \Omega $$.
+
+- *Advantage:* a larger emf, so more voltage and power can be delivered to a load that needs it.
+- *Disadvantages:* the internal resistances add, and the same current passes through every cell, so one weak or dead cell limits or blocks the current for the whole string.
+
+**Parallel:** $$ \text{emf} = 1.5 \text{ V} $$ and $$ r = (0.20 \ \Omega)/2 = 0.10 \ \Omega $$.
+
+- *Advantages:* the internal resistance is smaller, so the batteries can supply a larger current with less drop in terminal voltage, and each cell supplies only part of the current, so the combination lasts longer.
+- *Disadvantages:* the voltage is no larger than one battery's, and if the emfs are unequal, the stronger battery drives current backward through the weaker one, wasting energy even with no load (see the previous question about [[Figure 14]](#Figure14)).
+
+Connecting batteries in series increases the emf (for example, to $$ 3.0 \text{ V} $$ for two $$ 1.5\text{-V} $$ cells) but also adds their internal resistances ($$ 0.40 \ \Omega $$), whereas connecting them in parallel keeps the emf the same ($$ 1.5 \text{ V} $$) but lowers the internal resistance ($$ 0.10 \ \Omega $$) so that more current can be supplied; series strings fail if one cell fails, and parallel batteries with unequal emfs drain into each other.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -499,6 +611,36 @@ What are the advantages and disadvantages of connecting batteries in series? In 
 ::: problem
 
 Semitractor trucks use four large 12-V batteries. The starter system requires 24 V, while normal operation of the truck’s other electrical components utilizes 12 V. How could the four batteries be connected to produce 24 V? To produce 12 V? Why is 24 V better than 12 V for starting the truck’s engine (a very heavy load)?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Batteries in series add their emfs; batteries in parallel keep the emf of one battery and reduce the internal resistance. Find arrangements of four 12-V batteries that give 24 V and 12 V, then compare the current and power a heavy load draws at each voltage. Take each battery to have $$ r = 0.0100 \ \Omega $$.
+
+**Solution**
+
+![Two arrangements of four 12-volt batteries. Left, for 24 volts: two pairs of batteries, each pair connected in series, with the two pairs connected in parallel. Right, for 12 volts: all four batteries connected in parallel.](../resources/concept_21_02_q06.svg)
+
+**For 24 V:** connect the batteries in two pairs, each pair in series ($$ 12 \text{ V} + 12 \text{ V} = 24 \text{ V} $$), then connect the two pairs in parallel. The emf is $$ 24 \text{ V} $$, and the internal resistance is
+
+<div class="equation">
+$$ r_{24} = \frac{2(0.0100 \ \Omega)}{2} = 0.0100 \ \Omega $$
+</div>
+
+**For 12 V:** connect all four in parallel. The emf is $$ 12 \text{ V} $$, and $$ r_{12} = (0.0100 \ \Omega)/4 = 0.00250 \ \Omega $$.
+
+**Why 24 V for starting:** the starter must deliver a large power. For a given power, the current is $$ I = P/V $$, so doubling the voltage halves the current. For a $$ 12.0\text{-kW} $$ starter,
+
+<div class="equation">
+$$ I_{24} = \frac{12\,000 \text{ W}}{24 \text{ V}} = 500 \text{ A}, \qquad I_{12} = \frac{12\,000 \text{ W}}{12 \text{ V}} = 1000 \text{ A} $$
+</div>
+
+The power lost in the cables, $$ I^2 R_{\text{wire}} $$, is four times smaller at $$ 24 \text{ V} $$. With $$ R_{\text{wire}} = 0.00200 \ \Omega $$, the loss is $$ (500 \text{ A})^2(0.00200 \ \Omega) = 500 \text{ W} $$ instead of $$ (1000 \text{ A})^2(0.00200 \ \Omega) = 2000 \text{ W} $$, and the starter and cables can be made with thinner wire.
+
+To produce 24 V, connect the batteries in two series pairs and connect the pairs in parallel; to produce 12 V, connect all four in parallel; 24 V is better for starting because the same power is delivered with half the current (for example, $$ 500 \text{ A} $$ instead of $$ 1000 \text{ A} $$ for a $$ 12\text{-kW} $$ starter), which reduces the $$ I^2R $$ losses in the cables and the battery by a factor of four.
 
 :::
 
@@ -1012,6 +1154,40 @@ Electric fish generate current with biological cells called electroplaques, whic
 
 :::
 
+::: solution
+
+**Strategy**
+
+Within each row, the 5000 electroplaques are in series, so their emfs and internal resistances add. The 140 identical rows are in parallel, so the combined emf is that of one row, and the combined internal resistance is that of one row divided by 140. The water is the load in series with this equivalent source.
+
+**Solution**
+
+For one row:
+
+<div class="equation">
+$$ \text{emf}_{\text{row}} = 5000(0.15 \text{ V}) = 750 \text{ V}, \qquad r_{\text{row}} = 5000(0.25 \ \Omega) = 1250 \ \Omega $$
+</div>
+
+For the 140 rows in parallel:
+
+<div class="equation">
+$$ \text{emf} = 750 \text{ V}, \qquad r = \frac{1250 \ \Omega}{140} = 8.93 \ \Omega $$
+</div>
+
+The current through the water is
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R_{\text{water}}} = \frac{750 \text{ V}}{8.93 \ \Omega + 800 \ \Omega} = 0.927 \text{ A} $$
+</div>
+
+**Discussion**
+
+The series arrangement in each row gives the eel its high voltage, while the many parallel rows keep the internal resistance small compared with the $$ 800 \ \Omega $$ of the water, so almost all of the $$ 750 \text{ V} $$ appears across the water. A current of nearly an ampere is enough to stun prey.
+
+The eel can produce a current of $$ 0.927 \text{ A} $$ in the water.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -1026,6 +1202,48 @@ b) What power is dissipated inside the battery? (c) At what rate (in
 $$\text{º}\text{C/min} $$ )
 will its temperature increase if its mass is 20.0 kg and it has a specific heat
 of $$ 0.300 \text{kcal/kg}\cdot\text{ºC} $$ , assuming no heat escapes?
+
+:::
+
+::: solution
+
+**Strategy**
+
+While the battery is being charged, the current flows into its positive terminal, so its terminal voltage exceeds its emf: $$ V = \text{emf} + Ir $$. Solve for $$ r $$, find the power $$ I^2 r $$ dissipated inside, and use $$ Q = mc\Delta T $$ for the heating rate, converting kilocalories to joules with $$ 1 \text{ kcal} = 4186 \text{ J} $$.
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ r = \frac{V - \text{emf}}{I} = \frac{16.0 \text{ V} - 12.0 \text{ V}}{10.0 \text{ A}} = 0.400 \ \Omega $$
+</div>
+
+**(b)**
+
+<div class="equation">
+$$ P = I^2 r = (10.0 \text{ A})^2(0.400 \ \Omega) = 40.0 \text{ W} $$
+</div>
+
+**(c)** In one minute the battery receives
+
+<div class="equation">
+$$ Q = Pt = (40.0 \text{ J/s})(60.0 \s) = 2400 \J = \frac{2400 \J}{4186 \text{ J/kcal}} = 0.573 \text{ kcal} $$
+</div>
+
+so the temperature rises by
+
+<div class="equation">
+$$ \Delta T = \frac{Q}{mc} = \frac{0.573 \text{ kcal}}{(20.0 \kg)(0.300 \text{ kcal/kg}\cdot\text{ºC})} = 0.0956 \text{ ºC} $$
+</div>
+
+each minute, a rate of $$ 0.0956 \text{ ºC/min} $$.
+
+**Discussion**
+
+Of the $$ (16.0 \text{ V})(10.0 \text{ A}) = 160 \text{ W} $$ delivered by the charger, $$ 40.0 \text{ W} $$, or 25%, becomes thermal energy in the battery. The temperature rise is slow, about $$ 5.7 \text{ ºC} $$ per hour, so heat loss to the surroundings keeps the battery from overheating in normal charging.
+
+(a) The internal resistance is $$ 0.400 \ \Omega $$. (b) The power dissipated inside the battery is $$ 40.0 \text{ W} $$. (c) The temperature increases at $$ 0.0956 \text{ ºC/min} $$.
 
 :::
 
@@ -1067,6 +1285,44 @@ its internal resistance.
 (a) What is the internal resistance of a 1.54-V dry cell that supplies 1.00 W of
 power to a $$ 15.0-\Omega $$ bulb? (b) What is unreasonable about this result? (
 c) Which assumptions are unreasonable or inconsistent?
+
+:::
+
+::: solution
+
+**Strategy**
+
+From the power delivered to the bulb, $$ P = I^2 R $$, find the current and the terminal voltage $$ V = IR $$. Then solve $$ V = \text{emf} - Ir $$ for the internal resistance.
+
+**Solution**
+
+**(a)** The current through the bulb is
+
+<div class="equation">
+$$ I = \sqrt{\frac{P}{R}} = \sqrt{\frac{1.00 \text{ W}}{15.0 \ \Omega}} = 0.258 \text{ A} $$
+</div>
+
+and the terminal voltage is
+
+<div class="equation">
+$$ V = IR = (0.258 \text{ A})(15.0 \ \Omega) = 3.87 \text{ V} $$
+</div>
+
+The internal resistance is then
+
+<div class="equation">
+$$ r = \frac{\text{emf} - V}{I} = \frac{1.54 \text{ V} - 3.87 \text{ V}}{0.258 \text{ A}} = -9.04 \ \Omega $$
+</div>
+
+**(b)** A resistance cannot be negative. The result would also mean that the terminal voltage, $$ 3.87 \text{ V} $$, is larger than the emf of $$ 1.54 \text{ V} $$, which is impossible for a cell that is supplying current.
+
+**(c)** The assumption that a 1.54-V cell can supply 1.00 W to a $$ 15.0\text{-}\Omega $$ bulb is inconsistent. Even with zero internal resistance, the most power the cell can deliver to this bulb is $$ (1.54 \text{ V})^2/(15.0 \ \Omega) = 0.158 \text{ W} $$.
+
+**Discussion**
+
+Checking the maximum possible power, $$ \text{emf}^2/R $$, first would have revealed the inconsistency. To deliver $$ 1.00 \text{ W} $$ to $$ 15.0 \ \Omega $$ requires at least $$ 3.87 \text{ V} $$, which would take three cells in series.
+
+(a) The calculated internal resistance is $$ -9.04 \ \Omega $$. (b) A negative internal resistance, and a terminal voltage larger than the emf, are impossible. (c) The assumed power of 1.00 W is too large for a 1.54-V cell driving a $$ 15.0\text{-}\Omega $$ bulb; at most $$ 0.158 \text{ W} $$ is possible.
 
 :::
 

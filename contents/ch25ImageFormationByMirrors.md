@@ -401,6 +401,36 @@ What are the differences between real and virtual images? How can you tell (by l
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare where the light actually goes. A real image forms where rays from each point of the object actually converge; a virtual image is where rays only *appear* to come from when traced back. Use the thin-lens (or mirror) equation with a converging lens or concave mirror of $$ f = 10.0 \text{ cm} $$ and objects at $$ 30.0 \text{ cm} $$ and $$ 5.00 \text{ cm} $$.
+
+**Solution**
+
+For $$ d_{\text{o}} = 30.0 \text{ cm} $$:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{i}}} = \frac{1}{10.0 \text{ cm}} - \frac{1}{30.0 \text{ cm}} \quad \Rightarrow \quad d_{\text{i}} = 15.0 \text{ cm}, \qquad m = -\frac{15.0 \text{ cm}}{30.0 \text{ cm}} = -0.500 $$
+</div>
+
+The image is real ($$ d_{\text{i}} > 0 $$) and inverted ($$ m < 0 $$). For $$ d_{\text{o}} = 5.00 \text{ cm} $$:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{i}}} = \frac{1}{10.0 \text{ cm}} - \frac{1}{5.00 \text{ cm}} \quad \Rightarrow \quad d_{\text{i}} = -10.0 \text{ cm}, \qquad m = -\frac{-10.0 \text{ cm}}{5.00 \text{ cm}} = +2.00 $$
+</div>
+
+The image is virtual ($$ d_{\text{i}} < 0 $$) and upright ($$ m > 0 $$).
+
+**Differences:** a real image can be projected onto a screen placed where it forms, and for a lens it lies on the opposite side from the object (for a mirror, in front of the mirror). A virtual image cannot be projected; it lies on the same side as the object for a lens (behind a mirror).
+
+**Telling by looking:** for a single lens or mirror, real images are always inverted and virtual images are always upright. So an upside-down image is real, and a right-side-up image is virtual.
+
+A real image is formed where light rays actually converge and can be projected on a screen, while a virtual image is formed only where rays appear to diverge from and cannot be projected; for a single lens or mirror you can tell them apart by looking, because a real image is inverted (for example, $$ m = -0.500 $$) and a virtual image is upright (for example, $$ m = +2.00 $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -411,6 +441,30 @@ Can you see a virtual image? Can you photograph one? Can one be projected onto a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Seeing and photographing both use a lens (the eye's or the camera's) that takes diverging rays and forms a real image on the retina or sensor. Ask whether rays that appear to diverge from a virtual image can be treated the same way. Use a flat mirror, with a person standing $$ 1.00 \m $$ in front of it.
+
+**Solution**
+
+**Seeing:** yes. Rays reflected from a flat mirror diverge as if from an image $$ 1.00 \m $$ behind the mirror. The eye's lens cannot tell the difference between rays that really come from a point and rays that only appear to, so it focuses them onto the retina, and you see your image, $$ 2.00 \m $$ away from your eye.
+
+**Photographing:** yes, for the same reason. The camera must be focused at $$ 1.00 \m + 1.00 \m = 2.00 \m $$, the distance to the virtual image, not at the mirror's surface $$ 1.00 \m $$ away.
+
+**Projecting with additional optics:** yes. The virtual image acts as the object for a second lens or mirror, which can form a real image of it on a screen. A converging lens of $$ f = 0.500 \m $$ placed $$ 1.00 \m $$ in front of the mirror, with the virtual image $$ 2.00 \m $$ from it, forms a real image at
+
+<div class="equation">
+$$ d_{\text{i}} = \left( \frac{1}{0.500 \m} - \frac{1}{2.00 \m} \right)^{-1} = 0.667 \m $$
+</div>
+
+behind the lens, where a screen would display it. This is what a camera does internally.
+
+Yes, you can see a virtual image, and you can photograph one, because the eye or camera lens takes the diverging rays that appear to come from it and forms a real image on the retina or sensor; and yes, a virtual image can be projected onto a screen with an additional lens or mirror, which uses the virtual image as its object and forms a real image of it.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -418,6 +472,20 @@ Can you see a virtual image? Can you photograph one? Can one be projected onto a
 ::: problem
 
 Is it necessary to project a real image onto a screen for it to exist?
+
+:::
+
+::: solution
+
+**Strategy**
+
+A real image is the place where rays from each point of the object actually come together. Ask whether that convergence depends on a screen being present, and what a screen does.
+
+**Solution**
+
+No. The rays converge at the image location whether or not anything is there; after crossing, they continue on and diverge from each image point, just as rays do from a real object. A screen merely scatters the light in all directions so that many viewers can see the image at once. Without a screen, you can still see a real image by placing your eye beyond it, in the diverging rays, and looking back toward the lens or mirror: the image appears to float in the air. For a lens of $$ f = 10.0 \text{ cm} $$ and an object at $$ 30.0 \text{ cm} $$, the image hangs in space $$ 15.0 \text{ cm} $$ behind the lens, and an eye about $$ 25 \text{ cm} $$ beyond that sees it clearly. Concave-mirror "floating object" toys rely on this.
+
+No, a real image does not need to be projected onto a screen to exist, because the rays converge at the image location regardless; a screen only scatters the light so that it can be seen from many directions, and an eye placed beyond the image can see it directly, floating in space.
 
 :::
 
@@ -433,6 +501,20 @@ At what distance is an image **always** located—at  $${d}_{\text{o}} $$ ,
 
 :::
 
+::: solution
+
+**Strategy**
+
+Recall the definitions of the three distances: $$ d_{\text{o}} $$ is the distance from the lens or mirror to the object, $$ d_{\text{i}} $$ is the distance to the image, and $$ f $$ is the distance to the focal point.
+
+**Solution**
+
+By definition, the image is always located at the image distance $$ d_{\text{i}} $$ from the lens or mirror. The object is at $$ d_{\text{o}} $$, which is generally different from $$ d_{\text{i}} $$. The image is at $$ f $$ only in the special case of a very distant object: for $$ f = 10.0 \text{ cm} $$ and $$ d_{\text{o}} = 30.0 \text{ cm} $$, the image is at $$ d_{\text{i}} = 15.0 \text{ cm} $$, neither at $$ d_{\text{o}} $$ nor at $$ f $$.
+
+An image is always located at $$ d_{\text{i}} $$, the image distance, which is defined as the distance from the lens or mirror to the image.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -440,6 +522,26 @@ At what distance is an image **always** located—at  $${d}_{\text{o}} $$ ,
 ::: problem
 
 Under what circumstances will an image be located at the focal point of a lens or mirror?
+
+:::
+
+::: solution
+
+**Strategy**
+
+From $$ \frac{1}{d_{\text{i}}} = \frac{1}{f} - \frac{1}{d_{\text{o}}} $$, the image distance equals $$ f $$ when $$ 1/d_{\text{o}} = 0 $$, that is, when the object is infinitely far away. Check how far is "far enough" with $$ f = 0.500 \m $$.
+
+**Solution**
+
+For an object $$ 100 \m $$ away:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{i}}} = \frac{1}{0.500 \m} - \frac{1}{100 \m} = 1.990 \ \text{m}^{-1} \quad \Rightarrow \quad d_{\text{i}} = 0.5025 \m $$
+</div>
+
+within 0.5% of $$ f $$. For the Sun, $$ d_{\text{o}} = 1.5 \times 10^{11} \m $$, and $$ d_{\text{i}} $$ equals $$ f $$ to about 3 parts in $$ 10^{12} $$. Rays from such distant objects arrive parallel, and parallel rays are brought to (or appear to diverge from) the focal point by definition. This holds for converging and diverging elements alike: a diverging lens or convex mirror forms a virtual image of a distant object at its (virtual) focal point.
+
+An image is located at the focal point when the object is very far away (in the limit, infinitely far), so that the rays from it arrive parallel; for example, a $$ 0.500\text{-m} $$ focal-length lens images an object $$ 100 \m $$ away at $$ 0.5025 \m $$, essentially at $$ f $$, and the Sun exactly at $$ f $$.
 
 :::
 
@@ -453,6 +555,24 @@ What is meant by a negative magnification? What is meant by a magnification that
 
 :::
 
+::: solution
+
+**Strategy**
+
+The magnification is $$ m = h_{\text{i}}/h_{\text{o}} = -d_{\text{i}}/d_{\text{o}} $$. Its sign tells the image's orientation and its magnitude tells its size relative to the object. Use $$ m = -0.500 $$ for a $$ 2.00\text{-cm} $$ object.
+
+**Solution**
+
+<div class="equation">
+$$ h_{\text{i}} = mh_{\text{o}} = (-0.500)(2.00 \text{ cm}) = -1.00 \text{ cm} $$
+</div>
+
+The negative sign means the image is **inverted** (upside down) relative to the object; for a single lens or mirror, it is also real. A magnitude $$ |m| = 0.500 < 1 $$ means the image is **smaller** than the object, here half its height. (A magnification of $$ +0.500 $$ would be an upright image, also half size.)
+
+A negative magnification means that the image is inverted relative to the object, and a magnification less than 1 in magnitude means that the image is smaller than the object (for example, $$ m = -0.500 $$ gives an inverted image half the object's height).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -460,6 +580,28 @@ What is meant by a negative magnification? What is meant by a magnification that
 ::: problem
 
 Can a case 1 image be larger than the object even though its magnification is always negative? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A case 1 image is formed by a converging lens or concave mirror with the object beyond the focal point, $$ d_{\text{o}} > f $$. The magnification $$ m = -d_{\text{i}}/d_{\text{o}} $$ is negative because the image is real and inverted, but its *magnitude* can be larger or smaller than 1. Compare objects between $$ f $$ and $$ 2f $$ and beyond $$ 2f $$ for $$ f = 10.0 \text{ cm} $$.
+
+**Solution**
+
+![Ray diagram for a converging lens with focal length 10 centimeters and an object 15 centimeters away, between f and 2f. Three principal rays from the tip of the object meet 30 centimeters on the other side of the lens, forming a real, inverted image twice as tall as the object.](../resources/concept_25_07_q07.svg)
+
+For $$ d_{\text{o}} = 15.0 \text{ cm} $$, between $$ f $$ and $$ 2f $$:
+
+<div class="equation">
+$$ d_{\text{i}} = \left( \frac{1}{10.0 \text{ cm}} - \frac{1}{15.0 \text{ cm}} \right)^{-1} = 30.0 \text{ cm}, \qquad m = -\frac{30.0 \text{ cm}}{15.0 \text{ cm}} = -2.00 $$
+</div>
+
+The image is inverted and twice as tall as the object. For $$ d_{\text{o}} = 30.0 \text{ cm} $$, beyond $$ 2f $$, $$ d_{\text{i}} = 15.0 \text{ cm} $$ and $$ m = -0.500 $$, a smaller image. At exactly $$ d_{\text{o}} = 2f $$, $$ m = -1.00 $$. A slide projector and a microscope objective use the first arrangement to form large images; a camera uses the second.
+
+Yes, a case 1 image can be larger than the object: the negative sign of the magnification only means the image is inverted, and when the object is between $$ f $$ and $$ 2f $$ the image is farther away than the object and larger (for example, $$ m = -2.00 $$ for an object $$ 15.0 \text{ cm} $$ from a $$ 10.0\text{-cm} $$ focal-length lens).
 
 :::
 
@@ -476,6 +618,34 @@ Can a case 1 image be larger than the object even though its magnification is al
 
 :::
 
+::: solution
+
+**Strategy**
+
+For the large mirror to send out parallel rays, the source must be at its focal point. For the small mirror to return light back through the filament toward the large mirror, rays from the filament must strike it along radii, so that they reflect straight back; that happens when the source is at its center of curvature, $$ R = 2f $$. Check with the mirror equation, using focal lengths of $$ 5.00 \text{ cm} $$ for the large mirror and $$ 2.00 \text{ cm} $$ for the small one.
+
+**Solution**
+
+**Large mirror:** with the filament at its focal point, $$ d_{\text{o}} = f = 5.00 \text{ cm} $$:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{i}}} = \frac{1}{5.00 \text{ cm}} - \frac{1}{5.00 \text{ cm}} = 0 \quad \Rightarrow \quad d_{\text{i}} = \infty $$
+</div>
+
+so the reflected rays are parallel and form the beam.
+
+**Small mirror:** with the filament at its center of curvature, $$ d_{\text{o}} = R = 2f = 4.00 \text{ cm} $$:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{i}}} = \frac{1}{2.00 \text{ cm}} - \frac{1}{4.00 \text{ cm}} = \frac{1}{4.00 \text{ cm}} \quad \Rightarrow \quad d_{\text{i}} = 4.00 \text{ cm} $$
+</div>
+
+so the light that would escape forward is reflected back and focused on the filament itself (with $$ m = -1 $$). It then passes on to the large mirror, as if it came from the filament, and joins the parallel beam.
+
+The filament is at the focal point of the large mirror, so that its light reflects into a beam of parallel rays, and at the center of curvature of the small mirror (twice that mirror's focal length away), so that light striking the small mirror is reflected straight back through the filament to the large mirror and is added to the beam.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -486,6 +656,22 @@ Devise an arrangement of mirrors allowing you to see the back of your head. What
 
 :::
 
+::: solution
+
+**Strategy**
+
+To see the back of your head, light from the back of your head must reach your eyes, which face forward. A single flat mirror reflects light back toward its source, so with one mirror behind you, your eyes cannot see it. Add a second mirror in front of you, and use the fact that the image formed by one mirror acts as an object for the other.
+
+**Solution**
+
+![Top view of a person standing between two flat mirrors, one behind the head and one held in front. Light from the back of the head reflects from the rear mirror, travels forward past the head to the front mirror, and reflects back into the eyes, so the person sees an image of the back of their head.](../resources/concept_25_07_q09.svg)
+
+Place a large mirror on the wall behind you and hold a hand mirror in front of you, slightly to one side, angled so that you can see the wall mirror in it. Light from the back of your head reflects from the rear mirror, travels forward past your head, and reflects from the hand mirror into your eyes. Suppose the back of your head is $$ 0.50 \m $$ from the rear mirror, your eyes are $$ 0.20 \m $$ in front of the back of your head, and the hand mirror is $$ 0.30 \m $$ in front of your eyes. The rear mirror forms an image of the back of your head $$ 0.50 \m $$ behind the rear mirror. That image is $$ 0.50 \m + 0.50 \m + 0.20 \m + 0.30 \m = 1.50 \m $$ from the hand mirror, which therefore forms a second image $$ 1.50 \m $$ behind itself. You see the back of your head about $$ 0.30 \m + 1.50 \m = 1.80 \m $$ from your eyes. A barber shows you the back of your head this way. Alternatively, two mirrors hinged at an angle (as in a three-panel dressing mirror) produce the same double reflection.
+
+The minimum number of mirrors needed is two: one behind your head to reflect light from the back of your head forward, and one in front of you to reflect that light back into your eyes.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -493,6 +679,40 @@ Devise an arrangement of mirrors allowing you to see the back of your head. What
 ::: problem
 
 If you wish to see your entire body in a flat mirror (from head to toe), how tall should the mirror be? Does its size depend upon your distance away from the mirror? Provide a sketch.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Light from the top of your head and from your toes must reflect from the mirror into your eyes. By the law of reflection, the ray from your toes to your eye reflects from the point on the mirror halfway (vertically) between your toes and your eye, and the ray from the top of your head reflects from the point halfway between your head and your eye. Use a person $$ 1.80 \m $$ tall with eyes $$ 0.10 \m $$ below the top of the head.
+
+**Solution**
+
+![A person 1.80 meters tall stands in front of a flat wall mirror. The ray from the toes reflects into the eye from a point at half the eye height, and the ray from the top of the head reflects from a point halfway between the eye and the top of the head. The mirror needs to extend only between these two points, 0.90 meters, half the person's height, whatever the distance from the mirror.](../resources/concept_25_07_q10.svg)
+
+The eyes are at a height of $$ 1.80 \m - 0.10 \m = 1.70 \m $$. The ray from the toes reflects at half the eye height,
+
+<div class="equation">
+$$ h_{\text{bottom}} = \frac{1.70 \m}{2} = 0.85 \m $$
+</div>
+
+and the ray from the top of the head reflects halfway between the top of the head and the eyes,
+
+<div class="equation">
+$$ h_{\text{top}} = \frac{1.70 \m + 1.80 \m}{2} = 1.75 \m $$
+</div>
+
+The mirror's length must be
+
+<div class="equation">
+$$ h_{\text{top}} - h_{\text{bottom}} = 1.75 \m - 0.85 \m = 0.90 \m $$
+</div>
+
+exactly half your height. The distance to the mirror does not appear in the calculation: if you step back, the reflection points stay halfway between the heights involved, because the image is always as far behind the mirror as you are in front, and the triangles formed by the rays simply scale. The mirror must, however, be hung at the right height, with its bottom edge at $$ 0.85 \m $$.
+
+To see your entire body, the mirror must be half your height ($$ 0.90 \m $$ for a $$ 1.80\text{-m} $$ person), mounted with its top edge halfway between your eyes and the top of your head, and this size does not depend on your distance from the mirror.
 
 :::
 
@@ -508,6 +728,30 @@ It can be argued that a flat mirror has an infinite focal length. If so, where d
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the mirror equation, $$ \frac{1}{d_{\text{o}}} + \frac{1}{d_{\text{i}}} = \frac{1}{f} $$, with $$ f \to \infty $$. Use an object $$ 1.50 \m $$ in front of the mirror.
+
+**Solution**
+
+With $$ 1/f = 0 $$:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{o}}} + \frac{1}{d_{\text{i}}} = 0 \quad \Rightarrow \quad d_{\text{i}} = -d_{\text{o}} = -1.50 \m $$
+</div>
+
+<div class="equation">
+$$ m = -\frac{d_{\text{i}}}{d_{\text{o}}} = -\frac{-1.50 \m}{1.50 \m} = +1.00 $$
+</div>
+
+For a mirror, a negative image distance means a virtual image behind the mirror. The image is $$ 1.50 \m $$ behind the mirror, as far behind it as the object is in front, upright, and the same size, which agrees with the law-of-reflection analysis of a flat mirror.
+
+A flat mirror forms a virtual, upright, same-size image as far behind the mirror as the object is in front of it, since with $$ 1/f = 0 $$ the mirror equation gives $$ d_{\text{i}} = -d_{\text{o}} $$ (for example, $$ 1.50 \m $$ behind the mirror for an object $$ 1.50 \m $$ in front) and $$ m = +1 $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -515,6 +759,30 @@ It can be argued that a flat mirror has an infinite focal length. If so, where d
 ::: problem
 
 Why are diverging mirrors often used for rear-view mirrors in vehicles? What is the main disadvantage of using such a mirror compared with a flat one?
+
+:::
+
+::: solution
+
+**Strategy**
+
+A diverging (convex) mirror always forms a virtual, upright, reduced image. Find the image size and location for a car behind you, using a mirror with $$ f = -2.00 \m $$ and a car $$ 10.0 \m $$ away, and compare with a flat mirror ($$ m = 1 $$).
+
+**Solution**
+
+<div class="equation">
+$$ \frac{1}{d_{\text{i}}} = \frac{1}{-2.00 \m} - \frac{1}{10.0 \m} = -0.600 \ \text{m}^{-1} \quad \Rightarrow \quad d_{\text{i}} = -1.67 \m $$
+</div>
+
+<div class="equation">
+$$ m = -\frac{d_{\text{i}}}{d_{\text{o}}} = -\frac{-1.67 \m}{10.0 \m} = +0.167 $$
+</div>
+
+**Advantage:** because every image is reduced, a small convex mirror shows a much wider field of view than a flat mirror of the same size, so the driver can see adjacent lanes and reduce blind spots.
+
+**Disadvantage:** the image is only $$ 0.167 $$ times the size of the car. We judge distance largely from apparent size, so the car looks smaller and therefore farther away than it is, by about a factor of 6 here. This is why such mirrors carry the warning "Objects in mirror are closer than they appear." A flat mirror gives a true-size image that is easy to judge, but covers a narrower field.
+
+Diverging mirrors are used as rear-view mirrors because their reduced, upright images give a much wider field of view than a flat mirror of the same size; their main disadvantage is that the images are smaller (only $$ 0.167 $$ times the size for a car $$ 10.0 \m $$ behind a mirror with $$ f = -2.00 \m $$), so vehicles appear farther away than they really are.
 
 :::
 
@@ -940,6 +1208,60 @@ This is about 0.6 times the intensity of direct sunlight at Earth's surface. The
 ::: problem
 
 Consider a 250-W heat lamp fixed to the ceiling in a bathroom. If the filament in one light burns out then the remaining three still work. Construct a problem in which you determine the resistance of each filament in order to obtain a certain intensity projected on the bathroom floor. The ceiling is 3.0 m high. The problem will need to involve concave mirrors behind the filaments. Your instructor may wish to guide you on the level of complexity to consider in the electrical components.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The four filaments must be wired in parallel, since one can burn out without turning off the others; each then has the full line voltage across it, and $$ R = V^2/P $$. Behind each filament, a small concave mirror shapes the light into a beam. For the beam to spread over a chosen patch of floor, the filament is placed just inside the mirror's focal point, so that the reflected light diverges from a virtual image behind the mirror. The intensity on the floor is the beam power divided by the area of the patch.
+
+**Sample Problem Construction**
+
+A heat lamp on a $$ 3.00\text{-m} $$ ceiling has four identical filaments, each backed by a concave mirror of focal length $$ 5.00 \text{ cm} $$ and diameter $$ 10.0 \text{ cm} $$. The lamp should deliver an average intensity of $$ 100 \text{ W/m}^2 $$ over a circle $$ 1.50 \m $$ in diameter on the floor, and 70.0% of the electrical power ends up in the beams. (a) What total electrical power is needed? (b) What must the resistance of each filament be on $$ 120 \text{ V} $$? (c) How far from each mirror must its filament be placed so that the beam just covers the circle? (d) What intensity reaches the floor if one filament burns out?
+
+**Solution**
+
+**(a)** The area of the patch and the beam power are
+
+<div class="equation">
+$$ A = \frac{\pi D^2}{4} = \frac{\pi(1.50 \m)^2}{4} = 1.77 \ \text{m}^2, \qquad P_{\text{beam}} = IA = (100 \text{ W/m}^2)(1.77 \ \text{m}^2) = 177 \text{ W} $$
+</div>
+
+<div class="equation">
+$$ P_{\text{total}} = \frac{P_{\text{beam}}}{0.700} = \frac{177 \text{ W}}{0.700} = 252 \text{ W} \approx 250 \text{ W} $$
+</div>
+
+**(b)** Each filament dissipates $$ (250 \text{ W})/4 = 62.5 \text{ W} $$, so
+
+<div class="equation">
+$$ R = \frac{V^2}{P} = \frac{(120 \text{ V})^2}{62.5 \text{ W}} = 230 \ \Omega $$
+</div>
+
+**(c)** For the beam to widen from the mirror's $$ 0.100\text{-m} $$ diameter to $$ 1.50 \m $$ at the floor, it must diverge from a virtual image a distance $$ x $$ behind the mirror, with $$ \frac{1.50 \m}{0.100 \m} = \frac{x + 3.00 \m}{x} $$:
+
+<div class="equation">
+$$ x = \frac{(3.00 \m)(0.100 \m)}{1.50 \m - 0.100 \m} = 0.214 \m, \qquad d_{\text{i}} = -0.214 \m $$
+</div>
+
+The mirror equation then gives the filament's distance:
+
+<div class="equation">
+$$ \frac{1}{d_{\text{o}}} = \frac{1}{0.0500 \m} - \frac{1}{-0.214 \m} = 24.7 \ \text{m}^{-1} \quad \Rightarrow \quad d_{\text{o}} = 4.05 \text{ cm} $$
+</div>
+
+just inside the focal point.
+
+**(d)** With three filaments, the beam power is three-quarters as large:
+
+<div class="equation">
+$$ I = \frac{3}{4}(100 \text{ W/m}^2) = 75 \text{ W/m}^2 $$
+</div>
+
+**Discussion**
+
+Moving the filament from $$ 4.05 \text{ cm} $$ to $$ 5.00 \text{ cm} $$ (the focal point) would produce a parallel beam only $$ 10 \text{ cm} $$ wide, concentrating the power into a hot spot about 225 times more intense; moving it beyond $$ f $$ would bring the beam to a focus below the ceiling. The calculation ignores the filament's finite size and the change of its resistance with temperature; a cold filament has a much lower resistance than $$ 230 \ \Omega $$, so it draws a surge of current when first switched on.
 
 :::
 

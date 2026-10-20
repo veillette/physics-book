@@ -92,6 +92,28 @@ Volcanic and other such activity at the mid-Atlantic ridge extrudes material to 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Hot rock extruded at the ridge becomes magnetized along the direction of Earth's field as it cools, and then it is carried away from the ridge by the spreading plates. A rock's distance from the ridge therefore records when it formed: $$ t = d/v_{\text{spread}} $$.
+
+**Solution**
+
+Stripes of rock with alternating magnetization, symmetric on both sides of the ridge, mean that **Earth's magnetic field has reversed its direction many times**, with the north and south magnetic poles exchanging places. Rocks that cooled during one polarity carry that direction; rocks that cooled after a reversal carry the opposite direction.
+
+If the spreading rate is known, for example $$ v = 2.5 \text{ cm/yr} = 0.025 \text{ m/yr} $$ on each side of the ridge, a boundary between stripes found $$ 20 \text{ km} $$ from the ridge marks a reversal that occurred
+
+<div class="equation">
+$$ t = \frac{d}{v} = \frac{2.0 \times 10^{4} \m}{0.025 \text{ m/yr}} = 8.0 \times 10^{5} \text{ yr} $$
+</div>
+
+ago. Measuring the positions of all the boundaries gives a timeline of reversals, showing that they occur irregularly, typically every few hundred thousand years.
+
+The coordinated reversals imply that Earth's magnetic field has reversed its direction repeatedly in the past, and knowing the spreading rate converts each stripe's distance from the ridge into the time at which the rock formed ($$ t = d/v $$, for example $$ 8.0 \times 10^{5} \text{ yr} $$ for a boundary $$ 20 \text{ km} $$ away at $$ 2.5 \text{ cm/yr} $$), giving a historical record of the field's reversals.
+
+:::
+
 </div>
 
 ::: glossary

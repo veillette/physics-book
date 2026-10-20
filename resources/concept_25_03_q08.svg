@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+<title id="title">Refraction into a material with a negative index</title>
+<desc id="desc">A ray in air strikes a surface at 40 degrees to the perpendicular. In an ordinary material of index 1.3, it refracts to 29.6 degrees on the opposite side of the perpendicular and continues forward. In a material of index negative 1.3, it refracts to 29.6 degrees on the same side of the perpendicular as the incident ray, bending back toward the side it came from.</desc>
+<rect width="560" height="420" fill="#ffffff"/>
+<rect x="20" y="200" width="520" height="200" fill="#e8eaf6"/>
+<line x1="20" y1="200" x2="540" y2="200" stroke="#222222" stroke-width="2"/>
+<line x1="280" y1="30" x2="280" y2="390" stroke="#666666" stroke-width="1.3" stroke-dasharray="6 4"/>
+<line x1="151.44" y1="46.79" x2="280" y2="200" stroke="#c62828" stroke-width="2.2"/>
+<line x1="211.86" y1="118.8" x2="215.59" y2="123.24" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="219.58,127.99 212.74,124.33 217.16,120.63" fill="#c62828"/>
+<line x1="280" y1="200" x2="378.89" y2="373.84" stroke="#666666" stroke-width="2.2" stroke-dasharray="8 5"/>
+<line x1="326.48" y1="281.71" x2="329.35" y2="286.75" stroke="#666666" stroke-width="2.2"/>
+<polygon points="332.41,292.14 326.35,287.3 331.36,284.45" fill="#666666"/>
+<line x1="280" y1="200" x2="181.11" y2="373.84" stroke="#c62828" stroke-width="2.8"/>
+<line x1="233.52" y1="281.71" x2="230.65" y2="286.75" stroke="#c62828" stroke-width="2.8"/>
+<polygon points="227.59,292.14 228.64,284.45 233.65,287.3" fill="#c62828"/>
+<path d="M 280 140 A 60 60 0 0 0 241.43 154.04" fill="none" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="246" y="130.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">40.0°</tspan></text>
+<path d="M 245.39 260.84 A 70 70 0 0 0 280 270" fill="none" stroke="#c62828" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="254" y="296.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#c62828" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">29.6°</tspan></text>
+<text x="384.89" y="373.09" font-family="'Times New Roman', Times, serif" font-size="15" fill="#666666" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = +1.3</tspan></text>
+<text x="175.11" y="373.09" font-family="'Times New Roman', Times, serif" font-size="15" fill="#c62828" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">n</tspan><tspan font-style="normal"> = −1.3</tspan></text>
+<text x="40" y="188.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">air</tspan><tspan font-style="normal">, </tspan><tspan font-style="italic">n</tspan><tspan font-style="normal"> = 1.00</tspan></text>
+<text x="530" y="228.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">material</tspan></text>
+</svg>

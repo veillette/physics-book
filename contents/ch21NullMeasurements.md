@@ -188,6 +188,33 @@ Why can a null measurement be more accurate than one using standard voltmeters a
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare what happens to the circuit under test in each kind of measurement. A standard voltmeter or ammeter draws or blocks some current, which changes the quantity being measured. In a null measurement, the circuit is adjusted until the galvanometer reads zero, so no current flows through the measuring device or the unknown at balance.
+
+**Solution**
+
+A voltmeter of resistance $$ R_{\text{V}} $$ across a cell of emf $$ 1.500 \text{ V} $$ and internal resistance $$ 0.50 \ \Omega $$ draws current and reads the terminal voltage. With $$ R_{\text{V}} = 1000 \ \Omega $$:
+
+<div class="equation">
+$$ V = \text{emf}\,\frac{R_{\text{V}}}{r + R_{\text{V}}} = (1.500 \text{ V})\frac{1000 \ \Omega}{1000.5 \ \Omega} = 1.499 \text{ V} $$
+</div>
+
+At potentiometer balance, $$ I = 0 $$ through the cell, so $$ Ir = 0 $$ and the reading is the emf itself, $$ 1.500 \text{ V} $$. The meter's resistance no longer matters, and the result depends only on a ratio, $$ \text{emf}_{x} = \text{emf}_{\text{s}}R_{x}/R_{\text{s}} $$.
+
+The accuracy of a null measurement is still limited by:
+
+- the accuracy with which the standard emf is known;
+- the accuracy of the resistances (or the slide-wire lengths) used in the ratio;
+- the sensitivity of the galvanometer, that is, the smallest current it can detect, which sets how precisely the balance point can be found;
+- small stray effects such as contact resistance, thermal emfs at junctions, and temperature changes of the resistors.
+
+A null measurement can be more accurate because at balance no current flows through the measuring device, so the device does not disturb the circuit and its own resistance does not enter the result; its accuracy is limited by the accuracy of the standard emf and resistances and by how small a current the galvanometer can detect.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -196,6 +223,28 @@ Why can a null measurement be more accurate than one using standard voltmeters a
 
 If a potentiometer is used to measure cell emfs on the order of a few volts, why is it most accurate for the standard  $${\text{emf}}_{\text{s}} $$
  to be the same order of magnitude and the resistances to be in the range of a few ohms?
+
+:::
+
+::: solution
+
+**Strategy**
+
+At balance, $$ \text{emf}_{x} = \text{emf}_{\text{s}}R_{x}/R_{\text{s}} $$. Consider how precisely the ratio can be determined, and how large a galvanometer current a small imbalance produces. Use an unknown of about $$ 1.5 \text{ V} $$ and an imbalance of $$ 1.0 \text{ mV} $$.
+
+**Solution**
+
+**Similar emfs:** if $$ \text{emf}_{\text{s}} $$ is close to $$ \text{emf}_{x} $$, then $$ R_{x} \approx R_{\text{s}} $$ and the two balance points lie close together on the same part of the slide wire. Each length (or resistance) is read with about the same absolute uncertainty, say $$ \pm 1 \text{ mm} $$ on a $$ 1.000\text{-m} $$ slide wire, so the relative uncertainty is smallest when both readings are large. Balance points of $$ 0.900 \m $$ and $$ 0.950 \m $$ are each uncertain by only about $$ (0.001 \m)/(0.9 \m) = 0.1\% $$. With a standard of $$ 0.0150 \text{ V} $$, the standard would balance at only $$ 0.0100 \m $$ ($$ \pm 10\% $$) while a $$ 1.5\text{-V} $$ cell would need $$ 100 $$ times that length, more than the whole wire.
+
+**Small resistances:** at a small imbalance $$ \Delta V $$, the galvanometer current is roughly $$ \Delta V/R_{\text{total}} $$. With resistances of a few ohms, say $$ 5.0 \ \Omega $$ in total,
+
+<div class="equation">
+$$ I_{\text{G}} = \frac{\Delta V}{R_{\text{total}}} = \frac{1.0 \times 10^{-3} \text{ V}}{5.0 \ \Omega} = 2.0 \times 10^{-4} \text{ A} $$
+</div>
+
+which a galvanometer easily detects. With resistances of $$ 5.0 \text{ k}\Omega $$, the same imbalance gives only $$ 2.0 \times 10^{-7} \text{ A} $$, which may go unnoticed, so the balance point could not be found as precisely.
+
+It is most accurate for $$ \text{emf}_{\text{s}} $$ to be of the same order as the unknown emfs because then $$ R_{x}/R_{\text{s}} $$ is near 1 and both resistances can be read with the same small relative uncertainty, and the resistances should be a few ohms so that even a small imbalance produces a galvanometer current large enough to detect (about $$ 0.2 \text{ mA} $$ for a $$ 1\text{-mV} $$ imbalance through $$ 5 \ \Omega $$).
 
 :::
 

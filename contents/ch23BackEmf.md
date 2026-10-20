@@ -71,6 +71,32 @@ Suppose you find that the belt drive connecting a powerful motor to an air condi
 
 :::
 
+::: solution
+
+**Strategy**
+
+A spinning motor coil acts as a generator, producing a back emf that opposes the supply voltage and is proportional to the rotation rate. The current is $$ I = (V - \text{emf}_{\text{back}})/R $$, where $$ R $$ is the coil resistance, and the power drawn is $$ IV $$. Compare loaded and unloaded operation for a motor with $$ V = 240 \text{ V} $$ and $$ R = 1.00 \ \Omega $$, with back emfs of $$ 200 \text{ V} $$ under load and $$ 238 \text{ V} $$ running freely.
+
+**Solution**
+
+Under load:
+
+<div class="equation">
+$$ I = \frac{V - \text{emf}_{\text{back}}}{R} = \frac{240 \text{ V} - 200 \text{ V}}{1.00 \ \Omega} = 40.0 \text{ A}, \qquad P = IV = (40.0 \text{ A})(240 \text{ V}) = 9.60 \text{ kW} $$
+</div>
+
+Running freely, the motor speeds up until its back emf almost equals the supply voltage:
+
+<div class="equation">
+$$ I = \frac{240 \text{ V} - 238 \text{ V}}{1.00 \ \Omega} = 2.00 \text{ A}, \qquad P = IV = (2.00 \text{ A})(240 \text{ V}) = 480 \text{ W} $$
+</div>
+
+The free-running motor draws only enough power to overcome its friction and other losses; the heating in the coil is just $$ I^2R = (2.00 \text{ A})^2(1.00 \ \Omega) = 4.00 \text{ W} $$.
+
+No, you need not be very worried, because a motor running freely spins so fast that its back emf nearly cancels the supply voltage, so it draws only a small current and consumes only the power needed to overcome friction (about $$ 480 \text{ W} $$ compared with $$ 9.6 \text{ kW} $$ under load in this example), although it does still waste some energy and should be switched off.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

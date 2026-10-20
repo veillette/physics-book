@@ -159,6 +159,28 @@ If a charged particle moves in a straight line through some region of space, can
 
 :::
 
+::: solution
+
+**Strategy**
+
+The magnetic force on a moving charge has magnitude $$ F = qvB\sin\theta $$, where $$ \theta $$ is the angle between $$ \vb{v} $$ and $$ \vb{B} $$. Look for situations in which a nonzero field produces no net deflection.
+
+**Solution**
+
+**Motion along the field.** If $$ \vb{v} $$ is parallel or antiparallel to $$ \vb{B} $$, then $$ \theta = 0^\circ $$ or $$ 180^\circ $$, and a proton moving at $$ 1.0 \times 10^{6} \ms $$ in a $$ 1.0\text{-T} $$ field feels
+
+<div class="equation">
+$$ F = qvB\sin 0^\circ = (1.60 \times 10^{-19} \text{ C})(1.0 \times 10^{6} \ms)(1.0 \text{ T})(0) = 0 $$
+</div>
+
+**Balancing forces.** An electric field can cancel the magnetic force, as in a velocity selector. A proton moving at $$ v = E/B $$, for example $$ (1.0 \times 10^{5} \text{ N/C})/(0.10 \text{ T}) = 1.0 \times 10^{6} \ms $$, feels electric and magnetic forces of equal size, $$ qE = qvB = 1.6 \times 10^{-14} \N $$, in opposite directions, and moves in a straight line.
+
+**Neutral particles.** A neutron or other uncharged particle is not deflected at all.
+
+No, a charged particle moving in a straight line does not mean the magnetic field is zero: the particle may be moving parallel to the field, so that $$ F = qvB\sin\theta = 0 $$, or another force, such as an electric force in a velocity selector, may exactly balance the magnetic force.
+
+:::
+
 </div>
 
 ### Problems &amp; Exercises

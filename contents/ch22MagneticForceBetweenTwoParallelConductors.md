@@ -119,6 +119,26 @@ Is the force attractive or repulsive between the hot and neutral lines hung from
 
 :::
 
+::: solution
+
+**Strategy**
+
+The hot and neutral wires form the two sides of one circuit, so at every instant the current goes out along one and returns along the other. Parallel wires with currents in opposite directions repel. Estimate the force per meter with $$ F/l = \mu_0 I_1I_2/(2\pi r) $$, using $$ I = 100 \text{ A} $$ and a separation of $$ r = 1.00 \m $$.
+
+**Solution**
+
+When the AC current reverses, it reverses in both wires at the same time, so the currents are always opposite to each other and the force is always repulsive (it pulses at $$ 120 \text{ Hz} $$ but never changes sign). Its size is
+
+<div class="equation">
+$$ \frac{F}{l} = \frac{\mu_0 I^2}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A})(100 \text{ A})^2}{2\pi(1.00 \m)} = 2.00 \times 10^{-3} \text{ N/m} $$
+</div>
+
+which is far too small to notice compared with the weight of the wires.
+
+The force between the hot and neutral lines is repulsive, because they carry the current of the same circuit in opposite directions at every instant (both reverse together), and parallel wires with opposite currents repel (with only about $$ 2 \times 10^{-3} \text{ N/m} $$ for $$ 100 \text{ A} $$ wires $$ 1 \m $$ apart).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -132,6 +152,31 @@ If you have three parallel wires in the same plane, as in [[Figure 2]](#Figure2)
 
 :::
 
+::: solution
+
+**Strategy**
+
+Parallel currents attract and antiparallel currents repel. Wire 2 carries some current $$ I_2 $$; check whether it can be antiparallel to both outer currents (repelled by both) or parallel to both (attracted by both).
+
+**Solution**
+
+Since $$ I_1 $$ and $$ I_3 $$ point in opposite directions, whichever way $$ I_2 $$ points, it is parallel to one of them and antiparallel to the other.
+
+- If $$ I_2 $$ is parallel to $$ I_1 $$, wire 2 is attracted toward wire 1 and repelled by wire 3. Both forces point toward wire 1, so they add.
+- If $$ I_2 $$ is parallel to $$ I_3 $$, wire 2 is attracted toward wire 3 and repelled by wire 1. Both forces point toward wire 3.
+
+For example, with $$ I_1 = I_2 = 10.0 \text{ A} $$ and $$ I_3 = -10.0 \text{ A} $$, with wire 2 at $$ 3.00 \text{ cm} $$ from wire 1 and $$ 2.00 \text{ cm} $$ from wire 3, the force per meter on wire 2 is
+
+<div class="equation">
+$$ \frac{F}{l} = \frac{\mu_0 I^2}{2\pi}\left( \frac{1}{0.0300 \m} + \frac{1}{0.0200 \m} \right) = (2.00 \times 10^{-5} \text{ N}\cdot\text{m})(83.3 \ \text{m}^{-1}) = 1.67 \times 10^{-3} \text{ N/m} $$
+</div>
+
+toward wire 1.
+
+No, the middle wire cannot be repelled by both, and it cannot be attracted by both, because the outer currents run in opposite directions, so the middle current is always parallel to one of them (attraction) and antiparallel to the other (repulsion); the two forces then point the same way, toward the wire whose current is parallel to its own.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -139,6 +184,28 @@ If you have three parallel wires in the same plane, as in [[Figure 2]](#Figure2)
 ::: problem
 
 Suppose two long straight wires run perpendicular to one another without touching. Does one exert a net force on the other? If so, what is its direction? Does one exert a net torque on the other? If so, what is its direction? Justify your responses by using the right hand rules.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Let wire 1 lie along the $$ x $$ axis carrying current in the $$ +x $$ direction, and let wire 2 cross above it along the $$ y $$ direction at height $$ d $$, carrying current in the $$ +y $$ direction. Use RHR-2 to find the field of wire 1 at points along wire 2, then RHR-1 to find the force on each piece of wire 2.
+
+**Solution**
+
+By RHR-2, wire 1's field circles it. At a point of wire 2 at horizontal position $$ y $$ (directly above wire 1 when $$ y = 0 $$), the field is perpendicular to the line from wire 1 to that point. Working out RHR-1 for each piece of wire 2 gives a force along $$ +x $$ (parallel to wire 1's current) for pieces with $$ y > 0 $$, along $$ -x $$ for pieces with $$ y < 0 $$, and zero for the piece directly above wire 1, where the field is parallel to wire 2. In vector form, with $$ \vb{r} = (0, y, d) $$, $$ \vb{B} \propto \hat{x} \times \vb{r} = (0, -d, y) $$ and
+
+<div class="equation">
+$$ d\vb{F} \propto \hat{y} \times (0, -d, y) = (y, 0, 0) $$
+</div>
+
+**Net force:** the forces on pieces at $$ +y $$ and $$ -y $$ are equal and opposite, so the net force is **zero**.
+
+**Net torque:** the forces at $$ +y $$ (along $$ +x $$) and at $$ -y $$ (along $$ -x $$) form a couple about the point where the wires cross. Its axis is along the line joining the wires (the $$ z $$ axis), and it turns wire 2 so that its current rotates from $$ +y $$ toward $$ +x $$: the torque tends to make the currents **parallel**. By Newton's third law, wire 2 exerts an equal and opposite torque on wire 1, turning it toward wire 2's current. Once the wires are parallel with parallel currents, they attract.
+
+No, two perpendicular wires exert no net force on each other, because the forces on the two halves of each wire are equal and opposite; yes, each exerts a net torque on the other, directed along the line joining the wires, which tends to rotate the wires until their currents are parallel.
 
 :::
 
@@ -155,6 +222,28 @@ Use the right hand rules to show that the force between the two loops in [[Figur
 
 :::
 
+::: solution
+
+**Strategy**
+
+Opposite points of the two loops in [[Figure 3]](#Figure3) carry short pieces of current that are nearly parallel straight wires, a small distance apart. Apply the rule that parallel currents attract and antiparallel currents repel to each pair of facing pieces. Then use RHR-2 to find each loop's north and south faces.
+
+**Solution**
+
+![Side view of two horizontal current loops, one above the other. Left: both currents circulate in the same direction; facing segments carry parallel currents and attract, and each loop's north face (on top) faces the other loop's south face. Right: currents in opposite directions; facing segments carry antiparallel currents and repel, and the loops' like poles face each other.](../resources/concept_22_10_q04.svg)
+
+**Same direction:** at every point around the loops, the facing pieces of wire carry currents in the same direction, so each pair attracts and the loops attract. By RHR-2, counterclockwise current (viewed from above) makes the field through each loop point up, so each loop has its north face on top. The upper loop's south face (its bottom) faces the lower loop's north face (its top): **unlike poles face each other, and they attract**. For two loops of radius $$ 5.00 \text{ cm} $$ carrying $$ 10.0 \text{ A} $$ each, $$ 1.00 \text{ cm} $$ apart, treating them as parallel wires of length $$ 2\pi(0.0500 \m) = 0.314 \m $$ gives
+
+<div class="equation">
+$$ F \approx \frac{\mu_0 I^2 l}{2\pi r} = \frac{(4\pi \times 10^{-7} \text{ T}\cdot\text{m/A})(10.0 \text{ A})^2(0.314 \m)}{2\pi(0.0100 \m)} = 6.3 \times 10^{-4} \N $$
+</div>
+
+**Opposite directions:** the facing pieces carry antiparallel currents and repel. One loop now has its north face on top and the other its north face on the bottom, so **like poles face each other, and they repel**.
+
+The right-hand rules show that loops with currents in the same direction attract, because each pair of facing segments carries parallel currents, and loops with opposite currents repel; this is consistent with the pole picture, since same-direction currents make the loops' unlike poles face each other and opposite currents make like poles face each other.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -165,6 +254,22 @@ If one of the loops in [[Figure 3]](#Figure3) is tilted slightly relative to the
 
 :::
 
+::: solution
+
+**Strategy**
+
+Treat each loop as a small bar magnet whose axis is perpendicular to its plane (RHR-2). A torque on a magnetic dipole tends to align it with the field it is in. Alternatively, look at the facing segments: those that tilted apart attract each other back, and those that tilted closer together are attracted less strongly.
+
+**Solution**
+
+With currents in the same direction, the two loops' fields point the same way along their common axis. If one loop is tilted, the field of each loop at the other is no longer along the other's axis, and each loop experiences a torque $$ \tau = NIAB\sin\theta $$ that rotates its axis back toward the direction of the other loop's field. For a loop with $$ I = 10.0 \text{ A} $$ and area $$ 7.85 \times 10^{-3} \ \text{m}^2 $$, tilted $$ 10.0^\circ $$ in a field of $$ 1.00 \times 10^{-4} \text{ T} $$ from the other loop, $$ \tau = (10.0 \text{ A})(7.85 \times 10^{-3} \ \text{m}^2)(1.00 \times 10^{-4} \text{ T})\sin 10.0^\circ = 1.4 \times 10^{-7} \N \cdot \m $$. The torques the loops exert on each other are equal and opposite, each rotating its loop back toward being parallel to the other.
+
+Yes, this means that if the loops are free to rotate, they line up with their axes parallel, the north face of one facing the south face of the other, just as two bar magnets line up end to end, N to S.
+
+The torques the loops exert on each other are equal and opposite, and each rotates its loop back toward being parallel to the other, which means that loops free to rotate will line up with their magnetic poles aligned, north face toward south face, like two bar magnets.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -172,6 +277,26 @@ If one of the loops in [[Figure 3]](#Figure3) is tilted slightly relative to the
 ::: problem
 
 Electric field lines can be shielded by the Faraday cage effect. Can we have magnetic shielding? Can we have gravitational shielding?
+
+:::
+
+::: solution
+
+**Strategy**
+
+A Faraday cage works because free charges in a conductor rearrange themselves to cancel the electric field inside. Ask whether any material can similarly exclude or redirect magnetic field lines, and whether anything can do the same for gravity.
+
+**Solution**
+
+**Magnetic shielding: yes, to a large degree.** There are no magnetic charges to rearrange, so the field cannot be cancelled the way an electric field is, but it can be redirected:
+
+- An enclosure of a high-permeability material such as mu-metal (relative permeability around $$ 5 \times 10^{4} $$) provides an easy path for field lines, which travel through the walls instead of the interior. A single shell can reduce Earth's field of $$ 5 \times 10^{-5} \text{ T} $$ to about $$ 5 \times 10^{-8} \text{ T} $$ inside, a factor of 1000; several nested shells do better.
+- A superconductor expels magnetic fields from its interior (the Meissner effect), shielding the region it encloses.
+- Rapidly changing fields can also be shielded by the eddy currents they induce in a good conductor.
+
+**Gravitational shielding: no.** Gravity is always attractive; there is no negative mass that could rearrange to cancel a gravitational field, and no material is known to block or redirect it.
+
+Yes, magnetic shielding is possible, by enclosing a region in a high-permeability material that diverts the field lines around it or in a superconductor that expels them (a mu-metal shell can reduce Earth's field by about 1000 times), but gravitational shielding is not, because there is no negative mass that could cancel a gravitational field.
 
 :::
 

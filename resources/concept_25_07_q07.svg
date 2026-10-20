@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+<title id="title">Ray diagram: object between f and 2f of a converging lens</title>
+<desc id="desc">Ray diagram for a converging lens with focal length 10 centimeters and an object 15 centimeters away, between f and 2f. Three principal rays from the tip of the object meet 30 centimeters on the other side of the lens, forming a real, inverted image twice as tall as the object.</desc>
+<rect width="720" height="400" fill="#ffffff"/>
+<line x1="20" y1="150" x2="700" y2="150" stroke="#666666" stroke-width="1.2"/>
+<ellipse cx="270" cy="150" rx="10" ry="125" fill="#d9f0f7" stroke="#1f77c8" stroke-width="1.5"/>
+<circle cx="150" cy="150" r="3.5" fill="#222222"/>
+<text x="150" y="172.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">F</tspan></text>
+<circle cx="390" cy="150" r="3.5" fill="#222222"/>
+<text x="390" y="172.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">F</tspan></text>
+<circle cx="30" cy="150" r="3.5" fill="#222222"/>
+<text x="30" y="172.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan><tspan font-style="normal">F</tspan></text>
+<circle cx="510" cy="150" r="3.5" fill="#222222"/>
+<text x="510" y="172.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan><tspan font-style="normal">F</tspan></text>
+<line x1="90" y1="150" x2="90" y2="114" stroke="#3f9a2b" stroke-width="3.5"/>
+<polygon points="90,102 95.2,115 84.8,115" fill="#3f9a2b"/>
+<line x1="630" y1="150" x2="630" y2="234" stroke="#6a3d9a" stroke-width="3.5"/>
+<polygon points="630,246 624.8,233 635.2,233" fill="#6a3d9a"/>
+<line x1="90" y1="102" x2="270" y2="102" stroke="#c62828" stroke-width="2.2"/>
+<line x1="174" y1="102" x2="179.8" y2="102" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="186,102 178.8,104.88 178.8,99.12" fill="#c62828"/>
+<line x1="270" y1="102" x2="630" y2="246" stroke="#c62828" stroke-width="2.2"/>
+<line x1="444.43" y1="171.77" x2="449.81" y2="173.93" stroke="#c62828" stroke-width="2.2"/>
+<polygon points="455.57,176.23 447.82,176.23 449.96,170.88" fill="#c62828"/>
+<line x1="90" y1="102" x2="630" y2="246" stroke="#ef7d22" stroke-width="2.2"/>
+<line x1="354.2" y1="172.45" x2="359.81" y2="173.95" stroke="#ef7d22" stroke-width="2.2"/>
+<polygon points="365.8,175.55 358.1,176.47 359.58,170.91" fill="#ef7d22"/>
+<line x1="90" y1="102" x2="270" y2="246" stroke="#1f77c8" stroke-width="2.2"/>
+<line x1="175.31" y1="170.25" x2="179.84" y2="173.88" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="184.69,177.75 177.26,175.5 180.86,171" fill="#1f77c8"/>
+<line x1="270" y1="246" x2="630" y2="246" stroke="#1f77c8" stroke-width="2.2"/>
+<line x1="444" y1="246" x2="449.8" y2="246" stroke="#1f77c8" stroke-width="2.2"/>
+<polygon points="456,246 448.8,248.88 448.8,243.12" fill="#1f77c8"/>
+<text x="90" y="90.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">object</tspan></text>
+<text x="622" y="272.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">image</tspan><tspan font-style="normal"> (</tspan><tspan font-style="italic">m</tspan><tspan font-style="normal"> = −2.00)</tspan></text>
+<path d="M 90 300 Q 90 305 100 305 L 168 305 Q 178 305 178 310 Q 178 305 188 305 L 256 305 Q 266 305 266 300" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="180" y="330.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">o</tspan></tspan><tspan dy="-3.92">​</tspan><tspan font-style="normal"> = 15.0 </tspan><tspan font-style="normal">cm</tspan></text>
+<path d="M 274 300 Q 274 305 284 305 L 442 305 Q 452 305 452 310 Q 452 305 462 305 L 620 305 Q 630 305 630 300" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="450" y="330.9" font-family="'Times New Roman', Times, serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan><tspan font-size="9.8" dy="3.92"><tspan font-style="normal">i</tspan></tspan><tspan dy="-3.92">​</tspan><tspan font-style="normal"> = 30.0 </tspan><tspan font-style="normal">cm</tspan></text>
+</svg>

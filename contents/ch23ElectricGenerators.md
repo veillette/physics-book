@@ -241,6 +241,31 @@ Using RHR-1, show that the emfs in the sides of the generator loop in [[Figure 4
 
 :::
 
+::: solution
+
+**Strategy**
+
+Take $$ +x $$ to the right (along $$ \vb{B} $$, from N to S), $$ +y $$ up along the rotation axis, and $$ +z $$ out of the page. At the instant shown, the loop's plane is parallel to $$ \vb{B} $$ and the loop rotates counterclockwise as seen from above, so its left side moves out of the page ($$ +z $$) and its right side moves into the page ($$ -z $$). Apply RHR-1, $$ \vb{F} = q\vb{v} \times \vb{B} $$, to a positive charge in each side.
+
+**Solution**
+
+![Front view of a generator loop between N on the left and S on the right, with the field pointing right. The left side moves out of the page and the right side moves into the page. RHR-1 gives a force on positive charges up along the left side and down along the right side, so both emfs drive current the same way around the loop and add.](../resources/concept_23_05_q01.svg)
+
+- Left side: $$ \vb{v} $$ along $$ +z $$, so $$ \hat{z} \times \hat{x} = +\hat{y} $$: charges are pushed **up** the left side.
+- Right side: $$ \vb{v} $$ along $$ -z $$, so $$ (-\hat{z}) \times \hat{x} = -\hat{y} $$: charges are pushed **down** the right side.
+
+Up the left side, across the top, and down the right side is one consistent direction around the loop (clockwise as seen from the front), so the two emfs are in the same sense and add. In the top and bottom sides, $$ \vb{v} \times \vb{B} $$ is vertical, perpendicular to those horizontal wires, so they contribute no emf along their length. For sides of length $$ l = 0.200 \m $$, a loop width $$ w = 0.100 \m $$, $$ \omega = 377 \rads $$, and $$ B = 0.500 \text{ T} $$, each side moves at $$ v = \omega w/2 = (377 \rads)(0.0500 \m) = 18.9 \ms $$, and
+
+<div class="equation">
+$$ \text{emf} = 2Blv = 2(0.500 \text{ T})(0.200 \m)(18.9 \ms) = 3.77 \text{ V} $$
+</div>
+
+which equals $$ BA\omega = (0.500 \text{ T})(0.0200 \ \text{m}^2)(377 \rads) $$, the peak emf of a single-loop generator.
+
+RHR-1 shows that positive charges are pushed up the side moving out of the page and down the side moving into the page, which is the same direction of circulation around the loop, so the emfs in the two sides are in the same sense and add, giving a total emf of $$ 2Blv $$ (for example, $$ 3.77 \text{ V} $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -248,6 +273,26 @@ Using RHR-1, show that the emfs in the sides of the generator loop in [[Figure 4
 ::: problem
 
 The source of a generator’s electrical energy output is the work done to turn its coils. How is the work needed to turn the generator related to Lenz’s law?
+
+:::
+
+::: solution
+
+**Strategy**
+
+When the generator supplies current, that current flows in the coil while the coil is in the magnetic field, so the coil experiences magnetic forces, $$ \vb{F} = I\vb{l} \times \vb{B} $$. Lenz's law determines their direction. The work done against the resulting torque equals the electrical energy delivered, $$ P = \tau\omega = IV $$. Use the generator of the previous question delivering $$ 1.00 \text{ A} $$ at $$ 3.77 \text{ V} $$ with $$ \omega = 377 \rads $$.
+
+**Solution**
+
+By Lenz's law, the induced current flows in the direction that opposes the change in flux causing it, which here is the rotation of the coil. The forces on the current-carrying sides of the coil therefore produce a torque **opposing the rotation**, like a brake. To keep the coil turning at constant speed, whatever turns it must supply an equal and opposite torque and do work at the rate
+
+<div class="equation">
+$$ \tau = \frac{P}{\omega} = \frac{IV}{\omega} = \frac{(1.00 \text{ A})(3.77 \text{ V})}{377 \rads} = 1.00 \times 10^{-2} \N \cdot \m $$
+</div>
+
+This mechanical work is converted into the electrical energy delivered. If more current is drawn, the opposing torque is greater and the generator is harder to turn; if no current is drawn (open circuit), there is no opposing torque other than friction. If the induced current instead aided the rotation, the generator would speed up by itself and create energy from nothing, violating conservation of energy.
+
+The work needed to turn the generator is related to Lenz's law because the induced current flows in the direction that opposes the rotation, so magnetic forces on the coil exert a torque against the motion (about $$ 0.010 \N \cdot \m $$ when delivering $$ 3.77 \text{ W} $$ at $$ 377 \rads $$ in this example), and the work done against this torque is the source of the electrical energy, with more current requiring more work.
 
 :::
 

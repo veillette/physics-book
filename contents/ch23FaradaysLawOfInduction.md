@@ -241,6 +241,26 @@ A person who works with large magnets sometimes places her head inside a strong 
 
 :::
 
+::: solution
+
+**Strategy**
+
+Turning the head in a strong field changes the orientation of conducting loops in the head relative to the field, changing the flux through them. By Faraday's law, $$ \text{emf} = \Delta\Phi/\Delta t $$, so a quick turn induces emfs and currents in the conducting fluids of the head. Estimate for $$ B = 2.00 \text{ T} $$, an effective loop area of $$ 2.0 \times 10^{-2} \ \text{m}^2 $$, and a $$ 90^\circ $$ turn in $$ 0.300 \s $$.
+
+**Solution**
+
+The flux changes from $$ BA $$ to nearly zero, so
+
+<div class="equation">
+$$ \text{emf} \approx \frac{BA}{\Delta t} = \frac{(2.00 \text{ T})(2.0 \times 10^{-2} \ \text{m}^2)}{0.300 \s} = 0.13 \text{ V} $$
+</div>
+
+This drives small currents through the conducting fluids of the head, in particular the fluid of the inner ear's balance organs (the semicircular canals). The currents stimulate or disturb the vestibular nerves, which normally signal head rotation, so the brain receives a confusing signal and the person feels dizzy. Turning slowly makes $$ \Delta t $$ larger and the emf smaller, which is why the effect appears only with quick motions.
+
+The dizziness is associated with induction because quickly turning the head in a strong field rapidly changes the magnetic flux through it, inducing emfs (about $$ 0.1 \text{ V} $$ in this estimate) and currents in the conducting fluids of the head, which disturb the balance organs of the inner ear.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -248,6 +268,28 @@ A person who works with large magnets sometimes places her head inside a strong 
 ::: problem
 
 A particle accelerator sends high-velocity charged particles down an evacuated pipe. Explain how a coil of wire wrapped around the pipe could detect the passage of individual particles. Sketch a graph of the voltage output of the coil as a single particle passes through it.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A moving charged particle is a tiny current, and its magnetic field forms circles around its path. To catch this field, wind the coil as a ring around the pipe, a toroid, so that the circular field lines pass through each of its turns. As the particle approaches, passes, and recedes, the flux through the turns rises and then falls, and Faraday's law, $$ \text{emf} = -N\,\Delta\Phi/\Delta t $$, gives a voltage pulse.
+
+**Solution**
+
+![Top: the magnetic flux through the coil versus time, a symmetric peak centered on the instant the particle passes through the coil. Bottom: the induced voltage versus time, a positive pulse while the flux is rising and an equal negative pulse while it is falling, crossing zero at the instant the particle passes.](../resources/concept_23_02_q02.svg)
+
+The field at the coil is strongest when the particle is in the plane of the coil. Before that, the flux is increasing, and the emf has one sign; after it, the flux is decreasing, and the emf has the opposite sign. At the instant the particle passes the coil, the flux is at its maximum and momentarily not changing, so the emf is zero. The output is therefore a pair of pulses of opposite sign, with a zero crossing at the moment of passage. A positive and a negative particle give opposite pulse patterns, and a faster particle gives a shorter, taller pulse. For a coil of radius $$ r = 5.0 \text{ cm} $$ and a particle moving at $$ v = 2.0 \times 10^{8} \ms $$, the pulse lasts about
+
+<div class="equation">
+$$ \Delta t \approx \frac{2r}{v} = \frac{2(0.050 \m)}{2.0 \times 10^{8} \ms} = 5.0 \times 10^{-10} \s $$
+</div>
+
+The signal from one particle is very small, so such detectors are most often used for bunches of many particles.
+
+A coil wound around the pipe detects a particle because the particle's circular magnetic field passes through the coil's turns, and as the particle approaches and then recedes, the changing flux induces an emf; the voltage output is a positive pulse followed by an equal negative pulse (or the reverse), passing through zero at the instant the particle goes through the coil, and lasting about $$ 2r/v $$ (about $$ 0.5 \text{ ns} $$ here).
 
 :::
 

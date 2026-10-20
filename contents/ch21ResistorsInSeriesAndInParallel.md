@@ -691,6 +691,34 @@ A switch has a variable resistance that is nearly zero when closed and extremely
 
 :::
 
+::: solution
+
+**Strategy**
+
+The switch, the load $$ R $$, and the internal resistance $$ r $$ are in series, so the same current flows through all of them and $$ I = \text{emf}/(r + R + R_{\text{switch}}) $$. Compare this current for a nearly zero and an extremely large switch resistance, using sample values $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.100 \ \Omega $$, and $$ R = 10.0 \ \Omega $$.
+
+**Solution**
+
+With the switch **closed**, take $$ R_{\text{switch}} = 0.001 \ \Omega $$:
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R + R_{\text{switch}}} = \frac{12.0 \text{ V}}{0.100 \ \Omega + 10.0 \ \Omega + 0.001 \ \Omega} = 1.19 \text{ A} $$
+</div>
+
+This is essentially the current that would flow with no switch at all.
+
+With the switch **open**, take $$ R_{\text{switch}} = 1.0 \times 10^{12} \ \Omega $$ (the air gap):
+
+<div class="equation">
+$$ I = \frac{12.0 \text{ V}}{0.100 \ \Omega + 10.0 \ \Omega + 1.0 \times 10^{12} \ \Omega} = 1.2 \times 10^{-11} \text{ A} $$
+</div>
+
+which is zero for all practical purposes.
+
+When closed, the switch adds almost no resistance, so the full current (about $$ 1.19 \text{ A} $$ in this example) flows through the device; when open, its enormous resistance dominates the series sum and reduces the current to essentially zero, turning the device off.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -698,6 +726,30 @@ A switch has a variable resistance that is nearly zero when closed and extremely
 ::: problem
 
 What is the voltage across the open switch in [[Figure 7]](#Figure7)?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Apply the series rule: the emf equals the sum of the voltage drops $$ Ir + IR + V_{\text{switch}} $$. With the switch open, the current is essentially zero, so find each drop.
+
+**Solution**
+
+With the switch open, $$ I \approx 1.2 \times 10^{-11} \text{ A} $$ (see the previous question, with $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.100 \ \Omega $$, $$ R = 10.0 \ \Omega $$). The drops across the internal resistance and the load are
+
+<div class="equation">
+$$ Ir + IR = (1.2 \times 10^{-11} \text{ A})(10.1 \ \Omega) = 1.2 \times 10^{-10} \text{ V} \approx 0 $$
+</div>
+
+so the loop rule gives
+
+<div class="equation">
+$$ V_{\text{switch}} = \text{emf} - Ir - IR \approx 12.0 \text{ V} - 0 = 12.0 \text{ V} $$
+</div>
+
+The voltage across the open switch equals the emf of the source (for example, the full $$ 12.0 \text{ V} $$ of a $$ 12.0\text{-V} $$ battery), because no current flows and so there is no voltage drop across the internal resistance or the load.
 
 :::
 
@@ -711,6 +763,26 @@ There is a voltage across an open switch, such as in [[Figure 7]](#Figure7). Why
 
 :::
 
+::: solution
+
+**Strategy**
+
+Power dissipated in any element is $$ P = IV $$. Use the open-switch voltage and current from the previous two questions.
+
+**Solution**
+
+The open switch has the full emf across it, $$ V = 12.0 \text{ V} $$, but almost no current, $$ I \approx 1.2 \times 10^{-11} \text{ A} $$:
+
+<div class="equation">
+$$ P = IV = (1.2 \times 10^{-11} \text{ A})(12.0 \text{ V}) = 1.4 \times 10^{-10} \text{ W} $$
+</div>
+
+Equivalently, $$ P = V^2/R_{\text{switch}} = (12.0 \text{ V})^2/(1.0 \times 10^{12} \ \Omega) = 1.4 \times 10^{-10} \text{ W} $$; the huge resistance in the denominator makes the power tiny.
+
+The power dissipated by the open switch is small because, although the full emf appears across it, the current through it is essentially zero, and power is the product $$ P = IV $$ (about $$ 10^{-10} \text{ W} $$ in this example).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -718,6 +790,32 @@ There is a voltage across an open switch, such as in [[Figure 7]](#Figure7). Why
 ::: problem
 
 Why is the power dissipated by a closed switch, such as in [[Figure 7]](#Figure7), small?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Again use $$ P = IV $$, or $$ P = I^2 R_{\text{switch}} $$ since the current through the series switch is known.
+
+**Solution**
+
+With the switch closed, the full current $$ I = 1.19 \text{ A} $$ flows through it, but its resistance is only about $$ R_{\text{switch}} = 0.001 \ \Omega $$. The voltage across it is
+
+<div class="equation">
+$$ V_{\text{switch}} = IR_{\text{switch}} = (1.19 \text{ A})(0.001 \ \Omega) = 1.2 \times 10^{-3} \text{ V} $$
+</div>
+
+so the power is
+
+<div class="equation">
+$$ P = I^2 R_{\text{switch}} = (1.19 \text{ A})^2(0.001 \ \Omega) = 1.4 \times 10^{-3} \text{ W} $$
+</div>
+
+compared with $$ I^2 R = (1.19 \text{ A})^2(10.0 \ \Omega) = 14.2 \text{ W} $$ delivered to the load.
+
+The power dissipated by a closed switch is small because, although the full current flows through it, its resistance is nearly zero, so the voltage across it is nearly zero and $$ P = IV = I^2 R_{\text{switch}} $$ is tiny (about $$ 1.4 \text{ mW} $$ here, compared with $$ 14.2 \text{ W} $$ in the load).
 
 :::
 
@@ -734,6 +832,42 @@ A student in a physics lab mistakenly wired a light bulb, battery, and switch as
 
 :::
 
+::: solution
+
+**Strategy**
+
+The switch is now in **parallel** with the bulb $$ R $$. Find the equivalent resistance of the parallel pair with the switch open and closed, then find the current and the voltage across the bulb. Use $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.100 \ \Omega $$, $$ R = 10.0 \ \Omega $$, and a closed-switch resistance of $$ 0.001 \ \Omega $$.
+
+**Solution**
+
+![Two circuit diagrams. Left: switch open, all of the current flows through the bulb, which lights. Right: switch closed, nearly all of the current flows through the switch, which shorts out the bulb, and a large current flows through the battery's internal resistance.](../resources/concept_21_01_q05.svg)
+
+**Switch open:** no current can pass through the switch, so all of the current goes through the bulb, exactly as if the switch were not there:
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R} = \frac{12.0 \text{ V}}{0.100 \ \Omega + 10.0 \ \Omega} = 1.19 \text{ A}, \qquad V_{R} = IR = (1.19 \text{ A})(10.0 \ \Omega) = 11.9 \text{ V} $$
+</div>
+
+The bulb has nearly the full emf across it and is on.
+
+**Switch closed:** the switch and bulb in parallel have
+
+<div class="equation">
+$$ R_{p} = \left( \frac{1}{10.0 \ \Omega} + \frac{1}{0.001 \ \Omega} \right)^{-1} = 1.0 \times 10^{-3} \ \Omega $$
+</div>
+
+The current from the battery and the voltage across the parallel pair are
+
+<div class="equation">
+$$ I = \frac{12.0 \text{ V}}{0.100 \ \Omega + 0.001 \ \Omega} = 119 \text{ A}, \qquad V_{R} = IR_{p} = (119 \text{ A})(1.0 \times 10^{-3} \ \Omega) = 0.12 \text{ V} $$
+</div>
+
+Only $$ 0.12 \text{ V} $$ is across the bulb, so it carries $$ (0.12 \text{ V})/(10.0 \ \Omega) = 0.012 \text{ A} $$ and is dark. Almost the whole emf is lost across the internal resistance, which dissipates $$ I^2 r = (119 \text{ A})^2(0.100 \ \Omega) = 1.4 \times 10^{3} \text{ W} $$; that is why this wiring is hard on the battery.
+
+The bulb is on when the switch is open because all the current must then pass through the bulb (about $$ 11.9 \text{ V} $$ across it in this example), and it is off when the switch is closed because the nearly zero-resistance switch short-circuits the bulb, leaving almost no voltage across it ($$ 0.12 \text{ V} $$ here) while a very large current flows through the battery.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -741,6 +875,32 @@ A student in a physics lab mistakenly wired a light bulb, battery, and switch as
 ::: problem
 
 Knowing that the severity of a shock depends on the magnitude of the current through your body, would you prefer to be in series or parallel with a resistance, such as the heating element of a toaster, if shocked by it? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The severity of a shock depends on the current through the body. Compare the current through a person of resistance $$ R_{\text{body}} $$ who is in series with the heating element and one who is in parallel with it, connected to $$ 120 \text{ V} $$. Take the heating element to be $$ R_{\text{h}} = 12.0 \ \Omega $$ (a $$ 1200\text{-W} $$ toaster) and the body to be $$ R_{\text{body}} = 1000 \ \Omega $$.
+
+**Solution**
+
+**In series** with the element, the element's resistance adds to the body's and the same current passes through both:
+
+<div class="equation">
+$$ I_{\text{series}} = \frac{V}{R_{\text{h}} + R_{\text{body}}} = \frac{120 \text{ V}}{12.0 \ \Omega + 1000 \ \Omega} = 0.119 \text{ A} $$
+</div>
+
+**In parallel** with the element, the person has the full $$ 120 \text{ V} $$ directly across them, whatever the element does:
+
+<div class="equation">
+$$ I_{\text{parallel}} = \frac{V}{R_{\text{body}}} = \frac{120 \text{ V}}{1000 \ \Omega} = 0.120 \text{ A} $$
+</div>
+
+For a toaster the difference is small because the element's resistance is much less than the body's, but the series current is always the smaller of the two, and the advantage grows when the series resistance is large. For example, in series with a $$ 10.0\text{-k}\Omega $$ resistance the current drops to $$ (120 \text{ V})/(11\,000 \ \Omega) = 0.0109 \text{ A} $$.
+
+You would prefer to be in series with the resistance, because the resistance then adds to your body's resistance and reduces the current through you (to $$ 0.119 \text{ A} $$ rather than $$ 0.120 \text{ A} $$ for a toaster element, and far less for a large resistance), whereas in parallel you receive the full voltage regardless of the other resistance.
 
 :::
 
@@ -754,6 +914,32 @@ Would your headlights dim when you start your car’s engine if the wires in you
 
 :::
 
+::: solution
+
+**Strategy**
+
+The headlights and the starter motor are connected in parallel to the battery. Even with perfect wires, the total current passes through the battery's internal resistance $$ r $$, so the terminal voltage is $$ V = \text{emf} - Ir $$. Compare $$ V $$ with and without the starter current, using $$ \text{emf} = 12.0 \text{ V} $$, $$ r = 0.0100 \ \Omega $$, headlight current $$ 10 \text{ A} $$, and starter current $$ 200 \text{ A} $$.
+
+**Solution**
+
+Lights only:
+
+<div class="equation">
+$$ V = \text{emf} - Ir = 12.0 \text{ V} - (10 \text{ A})(0.0100 \ \Omega) = 11.9 \text{ V} $$
+</div>
+
+Lights plus starter:
+
+<div class="equation">
+$$ V = 12.0 \text{ V} - (210 \text{ A})(0.0100 \ \Omega) = 9.9 \text{ V} $$
+</div>
+
+The power of the headlights is roughly proportional to $$ V^2 $$, so it falls to about $$ (9.9/11.9)^2 = 0.69 $$ of its original value. Superconducting wires remove only the voltage drop in the wiring, not the drop across the internal resistance inside the battery.
+
+Yes, the headlights would still dim, because the large starter current flows through the battery's internal resistance and lowers the terminal voltage (from about $$ 11.9 \text{ V} $$ to $$ 9.9 \text{ V} $$ in this example), even if the wires have zero resistance.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -761,6 +947,32 @@ Would your headlights dim when you start your car’s engine if the wires in you
 ::: problem
 
 Some strings of holiday lights are wired in series to save wiring costs. An old version utilized bulbs that break the electrical connection, like an open switch, when they burn out. If one such bulb burns out, what happens to the others? If such a string operates on 120 V and has 40 identical bulbs, what is the normal operating voltage of each? Newer versions use bulbs that short circuit, like a closed switch, when they burn out. If one such bulb burns out, what happens to the others? If such a string operates on 120 V and has 39 remaining identical bulbs, what is then the operating voltage of each?
+
+:::
+
+::: solution
+
+**Strategy**
+
+In a series string, the same current passes through every bulb and the voltage divides among the bulbs. An open bulb breaks the only path; a shorted bulb removes its resistance from the string.
+
+**Solution**
+
+**Old bulbs (fail open):** a burned-out bulb acts like an open switch, so the current in the entire string becomes zero and **all the other bulbs go out**. Normally, the 40 identical bulbs share the voltage equally:
+
+<div class="equation">
+$$ V_{\text{bulb}} = \frac{120 \text{ V}}{40} = 3.00 \text{ V} $$
+</div>
+
+**Newer bulbs (fail shorted):** a burned-out bulb acts like a closed switch, so the current continues and **the others stay lit**. The 120 V is now shared by 39 bulbs:
+
+<div class="equation">
+$$ V_{\text{bulb}} = \frac{120 \text{ V}}{39} = 3.08 \text{ V} $$
+</div>
+
+The total resistance is smaller, so the current and the voltage across each remaining bulb are slightly larger, and the remaining bulbs burn slightly brighter and wear out a little faster.
+
+If an old-style bulb burns out, all the others go out, and each of the 40 bulbs normally operates at $$ 3.00 \text{ V} $$; if a new-style bulb burns out, the others stay lit, and each of the 39 remaining bulbs then operates at $$ 3.08 \text{ V} $$.
 
 :::
 
@@ -774,6 +986,34 @@ If two household lightbulbs rated 60 W and 100 W are connected in series to hous
 
 :::
 
+::: solution
+
+**Strategy**
+
+The ratings refer to operation at $$ 120 \text{ V} $$, so find each bulb's resistance from $$ P = V^2/R $$. In series, both bulbs carry the same current, so the power in each is $$ P = I^2 R $$: the larger resistance gets more power.
+
+**Solution**
+
+<div class="equation">
+$$ R_{60} = \frac{V^2}{P} = \frac{(120 \text{ V})^2}{60 \text{ W}} = 240 \ \Omega, \qquad R_{100} = \frac{(120 \text{ V})^2}{100 \text{ W}} = 144 \ \Omega $$
+</div>
+
+In series across $$ 120 \text{ V} $$:
+
+<div class="equation">
+$$ I = \frac{120 \text{ V}}{240 \ \Omega + 144 \ \Omega} = 0.3125 \text{ A} $$
+</div>
+
+<div class="equation">
+$$ P_{60} = I^2 R_{60} = (0.3125 \text{ A})^2(240 \ \Omega) = 23.4 \text{ W}, \qquad P_{100} = (0.3125 \text{ A})^2(144 \ \Omega) = 14.1 \text{ W} $$
+</div>
+
+(The calculation assumes the resistances stay constant; real filaments have lower resistance when cooler, but the conclusion is the same.)
+
+The 60-W bulb will be brighter, because it has the larger resistance ($$ 240 \ \Omega $$ compared with $$ 144 \ \Omega $$), and in series the same current flows through both, so the larger resistance dissipates more power ($$ 23.4 \text{ W} $$ compared with $$ 14.1 \text{ W} $$).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -781,6 +1021,26 @@ If two household lightbulbs rated 60 W and 100 W are connected in series to hous
 ::: problem
 
 Suppose you are doing a physics lab that asks you to put a resistor into a circuit, but all the resistors supplied have a larger resistance than the requested value. How would you connect the available resistances to attempt to get the smaller value asked for?
+
+:::
+
+::: solution
+
+**Strategy**
+
+A series combination is always larger than its largest resistor, while a parallel combination is always smaller than its smallest resistor. Illustrate with a requested $$ 50 \ \Omega $$ when only $$ 100\text{-}\Omega $$ resistors are available.
+
+**Solution**
+
+Two $$ 100\text{-}\Omega $$ resistors in parallel give
+
+<div class="equation">
+$$ R_{p} = \left( \frac{1}{100 \ \Omega} + \frac{1}{100 \ \Omega} \right)^{-1} = 50.0 \ \Omega $$
+</div>
+
+For other values, combine parallel and series groups. For example, three $$ 100\text{-}\Omega $$ resistors in parallel give $$ 33.3 \ \Omega $$, and two in parallel in series with one more give $$ 150 \ \Omega $$.
+
+You would connect the available resistors in parallel, because the equivalent resistance of a parallel combination is always less than the smallest individual resistance (for example, two $$ 100\text{-}\Omega $$ resistors in parallel give $$ 50.0 \ \Omega $$), adding series and parallel groups as needed to reach the requested value.
 
 :::
 
@@ -794,6 +1054,32 @@ Before World War II, some radios got power through a “resistance cord” that 
 
 :::
 
+::: solution
+
+**Strategy**
+
+The resistance cord is in series with the radio, so it carries the radio's full current and has part of the supply voltage across it. The power it dissipates is $$ P = IV = I^2 R $$. Take a radio that needs $$ 0.300 \text{ A} $$ at $$ 50.0 \text{ V} $$ from a $$ 120\text{-V} $$ outlet.
+
+**Solution**
+
+The cord must drop the remaining voltage:
+
+<div class="equation">
+$$ V_{\text{cord}} = 120 \text{ V} - 50.0 \text{ V} = 70.0 \text{ V}, \qquad R_{\text{cord}} = \frac{V_{\text{cord}}}{I} = \frac{70.0 \text{ V}}{0.300 \text{ A}} = 233 \ \Omega $$
+</div>
+
+The power converted to thermal energy in the cord is
+
+<div class="equation">
+$$ P_{\text{cord}} = IV_{\text{cord}} = (0.300 \text{ A})(70.0 \text{ V}) = 21.0 \text{ W} $$
+</div>
+
+compared with the $$ (0.300 \text{ A})(50.0 \text{ V}) = 15.0 \text{ W} $$ used by the radio. More than half of the energy taken from the outlet heats the cord and does nothing useful.
+
+Resistance cords become warm and waste energy because they carry the radio's full current while dropping a large share of the supply voltage, so they convert electrical energy to thermal energy at a rate $$ P = IV = I^2R $$ (about $$ 21 \text{ W} $$ in this example, more than the radio itself uses).
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -801,6 +1087,26 @@ Before World War II, some radios got power through a “resistance cord” that 
 ::: problem
 
 Some light bulbs have three power settings (not including zero), obtained from multiple filaments that are individually switched and wired in parallel. What is the minimum number of filaments needed for three power settings?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Filaments in parallel each have the full line voltage across them, so each switched-on filament contributes its own fixed power, and the total is the sum of the powers of the filaments that are on. Count the distinct nonzero powers available from $$ n $$ filaments.
+
+**Solution**
+
+With **one** filament there is only one nonzero setting. With **two** filaments of different powers, say $$ 50 \text{ W} $$ and $$ 100 \text{ W} $$ at $$ 120 \text{ V} $$, the possible combinations are
+
+<div class="equation">
+$$ 50 \text{ W}, \qquad 100 \text{ W}, \qquad 50 \text{ W} + 100 \text{ W} = 150 \text{ W} $$
+</div>
+
+which are three different settings (this is how a "50–100–150 W" three-way bulb works). The filaments must have different resistances, $$ R = V^2/P $$: $$ (120 \text{ V})^2/(50 \text{ W}) = 288 \ \Omega $$ and $$ (120 \text{ V})^2/(100 \text{ W}) = 144 \ \Omega $$. Two identical filaments would give only two settings.
+
+The minimum number of filaments is two, provided they have different powers (for example, $$ 50 \text{ W} $$ and $$ 100 \text{ W} $$), because switching on either one alone or both together in parallel gives three different power settings ($$ 50 \text{ W} $$, $$ 100 \text{ W} $$, and $$ 150 \text{ W} $$).
 
 :::
 

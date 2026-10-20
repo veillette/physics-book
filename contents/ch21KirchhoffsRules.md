@@ -317,6 +317,26 @@ Can all of the currents going into the junction in [[Figure 6]](#Figure6) be pos
 
 :::
 
+::: solution
+
+**Strategy**
+
+Apply the junction rule, which expresses conservation of charge: charge does not pile up at a junction, so the currents into it must add to zero when all three are drawn as entering.
+
+**Solution**
+
+With all three currents defined as entering the junction,
+
+<div class="equation">
+$$ I_1 + I_2 + I_3 = 0 $$
+</div>
+
+If all three were positive, charge would flow into the junction each second and none would leave. For example, $$ 2.0 \text{ A} + 1.0 \text{ A} + 3.0 \text{ A} = 6.0 \text{ A} $$ would mean $$ 6.0 \text{ C} $$ of charge accumulating at the junction every second, which does not happen in a steady circuit. At least one current must be negative, meaning that it actually flows out of the junction; for example, $$ I_1 = 2.0 \text{ A} $$, $$ I_2 = 1.0 \text{ A} $$, and $$ I_3 = -3.0 \text{ A} $$.
+
+No, not all of the currents into the junction can be positive, because conservation of charge requires $$ I_1 + I_2 + I_3 = 0 $$, so at least one of them must be negative, that is, must actually flow out of the junction.
+
+:::
+
 </div>
 
 ![The diagram shows a T junction with currents I sub one, I sub two, and I sub three entering the T junction.](../resources/Figure_21_03_06.jpg " ")
@@ -327,6 +347,32 @@ Can all of the currents going into the junction in [[Figure 6]](#Figure6) be pos
 ::: problem
 
 Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new information gained by applying the junction rule at e? (In the figure, each emf is represented by script E.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+At a junction, the current entering equals the current leaving. Read the current directions off [[Figure 7]](#Figure7): $$ I_1 $$ enters b from the left, $$ I_2 $$ leaves toward c, and $$ I_3 $$ leaves downward toward g. Then examine junction e, where the same three branches meet.
+
+**Solution**
+
+At junction b:
+
+<div class="equation">
+$$ I_1 = I_2 + I_3 $$
+</div>
+
+At junction e, $$ I_3 $$ arrives from the middle branch and $$ I_2 $$ arrives from the right branch (through $$ r_4 $$ and $$ \text{emf}_4 $$), while $$ I_1 $$ leaves through $$ R_4 $$ toward f:
+
+<div class="equation">
+$$ I_2 + I_3 = I_1 $$
+</div>
+
+This is the same equation. With the currents found in the problems for this figure, $$ I_1 = 0.381 \text{ A} $$, $$ I_2 = -0.814 \text{ A} $$, and $$ I_3 = 1.20 \text{ A} $$, both equations read $$ 0.381 \text{ A} = -0.814 \text{ A} + 1.195 \text{ A} $$. A circuit with two junctions gives only one independent junction equation; the other two equations needed must come from the loop rule.
+
+The junction rule at b gives $$ I_1 = I_2 + I_3 $$, and applying it at e gives no new information, because it yields the same equation, $$ I_2 + I_3 = I_1 $$.
 
 :::
 
@@ -343,6 +389,44 @@ Apply the junction rule to junction b in [[Figure 7]](#Figure7). Is any new info
 
 :::
 
+::: solution
+
+**Strategy**
+
+Follow each path in the stated direction. Crossing a resistor in the direction of its current is a drop of $$ IR $$; crossing it against the current is a rise of $$ IR $$. Crossing an emf from its $$ - $$ terminal (short plate) to its $$ + $$ terminal (long plate) is a rise; the opposite is a drop. In [[Figure 7]](#Figure7), $$ \text{emf}_2 $$ has its positive (long) plate toward e and $$ \text{emf}_4 $$ has its positive plate toward d. The potential difference "from x to y" is $$ V_y - V_x $$. Use $$ I_1 = 0.381 \text{ A} $$, $$ I_2 = -0.814 \text{ A} $$, and $$ I_3 = 1.20 \text{ A} $$ to evaluate each result.
+
+**Solution**
+
+**(a)** From a to b we cross $$ R_1 $$ in the direction of $$ I_1 $$, a drop:
+
+<div class="equation">
+$$ V_b - V_a = -I_1R_1 = -(0.381 \text{ A})(20 \ \Omega) = -7.6 \text{ V} $$
+</div>
+
+**(b)** From c to b we cross $$ R_3 $$ against the direction of $$ I_2 $$, a rise:
+
+<div class="equation">
+$$ V_b - V_c = +I_2R_3 = (-0.814 \text{ A})(8 \ \Omega) = -6.5 \text{ V} $$
+</div>
+
+The result is negative because $$ I_2 $$ actually flows opposite to its arrow.
+
+**(c)** From e to g we cross $$ r_2 $$ against $$ I_3 $$ (a rise of $$ I_3r_2 $$), then cross $$ \text{emf}_2 $$ from its $$ + $$ to its $$ - $$ terminal (a drop of $$ 3.0 \text{ V} $$):
+
+<div class="equation">
+$$ V_g - V_e = I_3r_2 - \text{emf}_2 = (1.20 \text{ A})(0.25 \ \Omega) - 3.0 \text{ V} = -2.7 \text{ V} $$
+</div>
+
+**(d)** From e to d we cross $$ \text{emf}_4 $$ from $$ - $$ to $$ + $$ (a rise of $$ 24 \text{ V} $$), then cross $$ r_4 $$ against $$ I_2 $$, which flows from d toward e (a rise of $$ I_2r_4 $$):
+
+<div class="equation">
+$$ V_d - V_e = \text{emf}_4 + I_2r_4 = 24 \text{ V} + (-0.814 \text{ A})(0.75 \ \Omega) = 23.4 \text{ V} $$
+</div>
+
+The potential differences are (a) $$ V_b - V_a = -I_1R_1 = -7.6 \text{ V} $$, (b) $$ V_b - V_c = I_2R_3 = -6.5 \text{ V} $$, (c) $$ V_g - V_e = I_3r_2 - \text{emf}_2 = -2.7 \text{ V} $$, and (d) $$ V_d - V_e = \text{emf}_4 + I_2r_4 = 23.4 \text{ V} $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -353,6 +437,43 @@ Apply the loop rule to loop afedcba in [[Figure 7]](#Figure7).
 
 :::
 
+::: solution
+
+**Strategy**
+
+Go around the outer loop a → f → e → d → c → b → a and add every change in potential; the sum must be zero. Use the sign rules from the previous question. $$ I_1 $$ flows up the left branch (from f to a), and $$ I_2 $$ flows down the right branch (from c to d) and back along d → e.
+
+**Solution**
+
+Term by term:
+
+- a → f: through $$ r_1 $$ against $$ I_1 $$: $$ +I_1r_1 $$; through $$ \text{emf}_1 $$ from $$ + $$ to $$ - $$: $$ -18 \text{ V} $$
+- f → e: through $$ R_4 $$ against $$ I_1 $$: $$ +I_1R_4 $$
+- e → d: through $$ \text{emf}_4 $$ from $$ - $$ to $$ + $$: $$ +24 \text{ V} $$; through $$ r_4 $$ against $$ I_2 $$: $$ +I_2r_4 $$
+- d → c: through $$ r_3 $$ against $$ I_2 $$: $$ +I_2r_3 $$; through $$ \text{emf}_3 $$ from $$ + $$ to $$ - $$: $$ -12 \text{ V} $$
+- c → b: through $$ R_3 $$ against $$ I_2 $$: $$ +I_2R_3 $$
+- b → a: through $$ R_1 $$ against $$ I_1 $$: $$ +I_1R_1 $$
+
+The loop rule gives
+
+<div class="equation">
+$$ I_1(r_1 + R_4 + R_1) + I_2(r_4 + r_3 + R_3) - 18 \text{ V} + 24 \text{ V} - 12 \text{ V} = 0 $$
+</div>
+
+<div class="equation">
+$$ I_1(0.5 \ \Omega + 15 \ \Omega + 20 \ \Omega) + I_2(0.75 \ \Omega + 0.5 \ \Omega + 8 \ \Omega) = 6 \text{ V} $$
+</div>
+
+<div class="equation">
+$$ (35.5 \ \Omega)I_1 + (9.25 \ \Omega)I_2 = 6.0 \text{ V} $$
+</div>
+
+Check with the solved currents: $$ (35.5 \ \Omega)(0.381 \text{ A}) + (9.25 \ \Omega)(-0.814 \text{ A}) = 13.5 \text{ V} - 7.5 \text{ V} = 6.0 \text{ V} $$.
+
+The loop rule for loop afedcba gives $$ (35.5 \ \Omega)I_1 + (9.25 \ \Omega)I_2 = 6.0 \text{ V} $$, which is $$ I_1(r_1 + R_4 + R_1) + I_2(r_4 + r_3 + R_3) - \text{emf}_1 + \text{emf}_4 - \text{emf}_3 = 0 $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -360,6 +481,47 @@ Apply the loop rule to loop afedcba in [[Figure 7]](#Figure7).
 ::: problem
 
 Apply the loop rule to loops abgefa and cbgedc in [[Figure 7]](#Figure7).
+
+:::
+
+::: solution
+
+**Strategy**
+
+Use the same sign rules as before. In loop abgefa, go a → b → g → e → f → a; in loop cbgedc, go c → b → g → e → d → c. $$ I_3 $$ flows down the middle branch from b through g to e.
+
+**Solution**
+
+**Loop abgefa:**
+
+- a → b: through $$ R_1 $$ with $$ I_1 $$: $$ -I_1R_1 $$
+- b → g: through $$ R_2 $$ with $$ I_3 $$: $$ -I_3R_2 $$
+- g → e: through $$ \text{emf}_2 $$ from $$ - $$ to $$ + $$: $$ +3.0 \text{ V} $$; through $$ r_2 $$ with $$ I_3 $$: $$ -I_3r_2 $$
+- e → f: through $$ R_4 $$ with $$ I_1 $$: $$ -I_1R_4 $$
+- f → a: through $$ \text{emf}_1 $$ from $$ - $$ to $$ + $$: $$ +18 \text{ V} $$; through $$ r_1 $$ with $$ I_1 $$: $$ -I_1r_1 $$
+
+<div class="equation">
+$$ -I_1(R_1 + R_4 + r_1) - I_3(R_2 + r_2) + 3.0 \text{ V} + 18 \text{ V} = 0 \quad \Rightarrow \quad (35.5 \ \Omega)I_1 + (6.25 \ \Omega)I_3 = 21.0 \text{ V} $$
+</div>
+
+Check: $$ (35.5 \ \Omega)(0.381 \text{ A}) + (6.25 \ \Omega)(1.195 \text{ A}) = 13.5 \text{ V} + 7.5 \text{ V} = 21.0 \text{ V} $$.
+
+**Loop cbgedc:**
+
+- c → b: through $$ R_3 $$ against $$ I_2 $$: $$ +I_2R_3 $$
+- b → g → e: as above, $$ -I_3R_2 + 3.0 \text{ V} - I_3r_2 $$
+- e → d: through $$ \text{emf}_4 $$ from $$ - $$ to $$ + $$: $$ +24 \text{ V} $$; through $$ r_4 $$ against $$ I_2 $$: $$ +I_2r_4 $$
+- d → c: through $$ r_3 $$ against $$ I_2 $$: $$ +I_2r_3 $$; through $$ \text{emf}_3 $$ from $$ + $$ to $$ - $$: $$ -12 \text{ V} $$
+
+<div class="equation">
+$$ I_2(R_3 + r_4 + r_3) - I_3(R_2 + r_2) + 3.0 \text{ V} + 24 \text{ V} - 12 \text{ V} = 0 \quad \Rightarrow \quad (6.25 \ \Omega)I_3 - (9.25 \ \Omega)I_2 = 15.0 \text{ V} $$
+</div>
+
+Check: $$ (6.25 \ \Omega)(1.195 \text{ A}) - (9.25 \ \Omega)(-0.814 \text{ A}) = 7.5 \text{ V} + 7.5 \text{ V} = 15.0 \text{ V} $$.
+
+Subtracting the second equation from the first gives the equation for loop afedcba, so only two of the three loop equations are independent.
+
+The loop rule gives $$ (35.5 \ \Omega)I_1 + (6.25 \ \Omega)I_3 = 21.0 \text{ V} $$ for loop abgefa and $$ (6.25 \ \Omega)I_3 - (9.25 \ \Omega)I_2 = 15.0 \text{ V} $$ for loop cbgedc.
 
 :::
 

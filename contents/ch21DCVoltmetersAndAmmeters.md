@@ -236,6 +236,30 @@ Why should you not connect an ammeter directly across a voltage source as shown 
 
 :::
 
+::: solution
+
+**Strategy**
+
+An ammeter is designed to go in series and therefore has a very small resistance $$ R_{\text{A}} $$. Connected directly across the source, it is the only load, so $$ I = \text{emf}/(r + R_{\text{A}}) $$. Use a $$ 12.0\text{-V} $$ car battery with $$ r = 0.0200 \ \Omega $$ and an ammeter with $$ R_{\text{A}} = 0.0100 \ \Omega $$ and a $$ 1.00\text{-A} $$ full-scale reading.
+
+**Solution**
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R_{\text{A}}} = \frac{12.0 \text{ V}}{0.0200 \ \Omega + 0.0100 \ \Omega} = 400 \text{ A} $$
+</div>
+
+This is 400 times the meter's full-scale current. The power dissipated in the ammeter would be
+
+<div class="equation">
+$$ P = I^2 R_{\text{A}} = (400 \text{ A})^2(0.0100 \ \Omega) = 1.60 \times 10^{3} \text{ W} $$
+</div>
+
+enough to burn out its shunt and galvanometer (or blow its fuse), and the battery would also heat up and drain rapidly.
+
+You should not connect an ammeter directly across a voltage source because its very small resistance short-circuits the source, so a huge current flows (about $$ 400 \text{ A} $$ for a $$ 12.0\text{-V} $$ battery in this example) that can destroy the meter and damage the source.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -243,6 +267,34 @@ Why should you not connect an ammeter directly across a voltage source as shown 
 ::: problem
 
 Suppose you are using a multimeter (one designed to measure a range of voltages, currents, and resistances) to measure current in a circuit and you inadvertently leave it in a voltmeter mode. What effect will the meter have on the circuit? What would happen if you were measuring voltage but accidentally put the meter in the ammeter mode?
+
+:::
+
+::: solution
+
+**Strategy**
+
+A voltmeter has a very large resistance and is meant to be connected in parallel; an ammeter has a very small resistance and is meant to be connected in series. Examine what each does when connected the wrong way. Take a circuit with a $$ 12.0\text{-V} $$ source and a $$ 100\text{-}\Omega $$ load, a voltmeter of $$ 1.00 \text{ M}\Omega $$, and an ammeter of $$ 0.100 \ \Omega $$.
+
+**Solution**
+
+**Voltmeter mode in series:** the meter adds $$ 1.00 \text{ M}\Omega $$ in series with the load, so the current falls from $$ (12.0 \text{ V})/(100 \ \Omega) = 0.120 \text{ A} $$ to
+
+<div class="equation">
+$$ I = \frac{12.0 \text{ V}}{100 \ \Omega + 1.00 \times 10^{6} \ \Omega} = 1.20 \times 10^{-5} \text{ A} $$
+</div>
+
+The circuit effectively stops working, and the meter reads nearly the full $$ 12.0 \text{ V} $$ rather than a current. Nothing is damaged, but the measurement is useless.
+
+**Ammeter mode in parallel:** the meter's $$ 0.100 \ \Omega $$ is placed across the load, nearly short-circuiting it. If the full $$ 12.0 \text{ V} $$ appeared across the meter, the current through it would be
+
+<div class="equation">
+$$ I = \frac{12.0 \text{ V}}{0.100 \ \Omega} = 120 \text{ A} $$
+</div>
+
+In practice, the source's internal resistance limits the current, but it is still far above the meter's rating, so the meter's fuse blows or the meter is damaged, and the load loses its voltage.
+
+Left in voltmeter mode while measuring current, the meter's large resistance in series nearly stops the current in the circuit (from $$ 0.120 \text{ A} $$ to $$ 12 \ \mu\text{A} $$ in this example) and gives a meaningless reading; left in ammeter mode while measuring voltage, the meter's small resistance in parallel short-circuits the element, drawing a very large current that can blow the meter's fuse or damage it.
 
 :::
 
@@ -261,6 +313,28 @@ Specify the points to which you could connect a voltmeter to measure the followi
 
 :::
 
+::: solution
+
+**Strategy**
+
+A voltmeter measures the potential difference between the two points it touches. Points joined by a wire with no resistor between them are at the same potential, so any point on a wire can be used. In [[Figure 9]](#Figure9), the top wire a–b–c (including i above $$ R_1 $$) is at one potential, the bottom wire h–g–f (including j below $$ R_1 $$) at another, and d and e (joined by a wire) are at a third. For reference, the circuit has $$ R_{23} = 6.0 \ \Omega + 1.5 \ \Omega = 7.5 \ \Omega $$ in parallel with $$ R_1 = 3.0 \ \Omega $$, an equivalent of $$ 2.14 \ \Omega $$, so $$ I = (90 \text{ V})/(2.14 \ \Omega + 0.25 \ \Omega) = 37.6 \text{ A} $$ and the terminal voltage is $$ 90 \text{ V} - (37.6 \text{ A})(0.25 \ \Omega) = 80.6 \text{ V} $$.
+
+**Solution**
+
+**(a)** The voltage source: a and h, or any top point (a, b, i, c) with any bottom point (h, g, j, f). The meter reads the terminal voltage, $$ 80.6 \text{ V} $$.
+
+**(b)** Across $$ R_1 $$: i and j. Because $$ R_1 $$ connects the top and bottom wires directly, b and g, a and h, or c and f also work; all read $$ 80.6 \text{ V} $$.
+
+**(c)** Across $$ R_2 $$: c and d, or any top point (a, b, i, c) with d or e. The reading is $$ (80.6 \text{ V})(6.0 \ \Omega/7.5 \ \Omega) = 64.5 \text{ V} $$.
+
+**(d)** Across $$ R_3 $$: e and f, or d or e with any bottom point (h, g, j, f). The reading is $$ (80.6 \text{ V})(1.5 \ \Omega/7.5 \ \Omega) = 16.1 \text{ V} $$.
+
+**(e)** Across $$ R_2 $$ and $$ R_3 $$ together: c and f, or any top point with any bottom point, reading $$ 80.6 \text{ V} $$.
+
+Connect the voltmeter (a) between a and h for the source, (b) between i and j for $$ R_1 $$, (c) between c and d for $$ R_2 $$, (d) between e and f for $$ R_3 $$, and (e) between c and f for $$ R_2 $$ and $$ R_3 $$ together; any points joined to these by wire alone give the same readings, and (a), (b), and (e) all measure the same terminal voltage because $$ R_1 $$ and the $$ R_2 $$–$$ R_3 $$ branch are in parallel with the source.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -269,6 +343,26 @@ Specify the points to which you could connect a voltmeter to measure the followi
 
 To measure currents in [[Figure 9]](#Figure9), you would replace a wire between two points with an ammeter. Specify the points between which you would place an ammeter to measure the following: (a) the total current; (b) the current flowing through  $${R}_{1} $$ ;  (c) through  $${R}_{2} $$ ;  (d) through  $${R}_{3} $$ .
  Note that there may be more than one answer to each part.
+
+:::
+
+::: solution
+
+**Strategy**
+
+An ammeter must carry exactly the current to be measured, so it replaces a piece of wire through which that current, and only that current, flows. Trace the currents in [[Figure 9]](#Figure9): the total current leaves the source at a, divides at b into the $$ R_1 $$ branch and the c branch, and recombines at g before returning to h. Using the values from the previous question, $$ I = 37.6 \text{ A} $$, $$ I_1 = (80.6 \text{ V})/(3.0 \ \Omega) = 26.9 \text{ A} $$, and $$ I_{23} = (80.6 \text{ V})/(7.5 \ \Omega) = 10.7 \text{ A} $$.
+
+**Solution**
+
+**(a)** Total current: between a and b, or between g and h. The meter reads $$ 37.6 \text{ A} $$.
+
+**(b)** Through $$ R_1 $$: between b and i, or between j and g ($$ 26.9 \text{ A} $$).
+
+**(c)** Through $$ R_2 $$: between b and c, between d and e, or between f and g ($$ 10.7 \text{ A} $$).
+
+**(d)** Through $$ R_3 $$: the same places as for $$ R_2 $$, because $$ R_2 $$ and $$ R_3 $$ are in series and carry the same current: b and c, d and e, or f and g ($$ 10.7 \text{ A} $$).
+
+Place the ammeter (a) between a and b (or g and h) for the total current, (b) between b and i (or j and g) for $$ R_1 $$, and (c, d) between b and c, d and e, or f and g for both $$ R_2 $$ and $$ R_3 $$, which carry the same current because they are in series.
 
 :::
 
@@ -556,6 +650,40 @@ Suppose you measure the terminal voltage of a 3.200-V lithium cell having an int
 
 :::
 
+::: solution
+
+**Strategy**
+
+The voltmeter is the only load, so it is in series with the internal resistance: $$ I = \text{emf}/(r + R_{\text{V}}) $$. The voltmeter reads the terminal voltage $$ V = IR_{\text{V}} $$.
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ I = \frac{\text{emf}}{r + R_{\text{V}}} = \frac{3.200 \text{ V}}{5.00 \ \Omega + 1000 \ \Omega} = 3.184 \times 10^{-3} \text{ A} $$
+</div>
+
+**(b)**
+
+<div class="equation">
+$$ V = IR_{\text{V}} = (3.184 \times 10^{-3} \text{ A})(1000 \ \Omega) = 3.184 \text{ V} $$
+</div>
+
+**(c)**
+
+<div class="equation">
+$$ \frac{V}{\text{emf}} = \frac{3.184 \text{ V}}{3.200 \text{ V}} = 0.9950 $$
+</div>
+
+**Discussion**
+
+The ratio is $$ R_{\text{V}}/(r + R_{\text{V}}) = (1000 \ \Omega)/(1005 \ \Omega) $$, so the reading is 0.5% below the emf. A voltmeter with a much larger resistance, such as $$ 10 \text{ M}\Omega $$, would draw far less current and read the emf almost exactly.
+
+(a) A current of $$ 3.18 \text{ mA} $$ flows. (b) The terminal voltage is $$ 3.184 \text{ V} $$. (c) The ratio of the measured terminal voltage to the emf is $$ 0.9950 $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="problems-exercises">
@@ -585,6 +713,50 @@ A  $$ 1.00\text{-MΩ} $$
  resistor in a circuit. (a) Draw a circuit diagram of the connection. (b) What is the resistance of the combination? (c) If the voltage across the combination is kept the same as it was across the  $$ 75.0\text{-k}\Omega  $$
  resistor alone, what is the percent increase in current? (d) If the current through the combination is kept the same as it was through the  $$ 75.0\text{-k}\Omega  $$
  resistor alone, what is the percentage decrease in voltage? (e) Are the changes found in parts (c) and (d) significant? Discuss.
+
+:::
+
+::: solution
+
+**Strategy**
+
+The voltmeter and resistor are in parallel, so combine them with $$ 1/R_{p} = 1/R_1 + 1/R_2 $$. At fixed voltage, current is inversely proportional to resistance, $$ I = V/R $$; at fixed current, voltage is proportional to resistance, $$ V = IR $$.
+
+**Solution**
+
+**(a)**
+
+![Circuit diagram: a 75.0-kilohm resistor connected in a circuit, with a 1.00-megohm voltmeter connected in parallel across it.](../resources/concept_21_04_p12.svg)
+
+**(b)**
+
+<div class="equation">
+$$ R_{p} = \left( \frac{1}{1.00 \times 10^{6} \ \Omega} + \frac{1}{7.50 \times 10^{4} \ \Omega} \right)^{-1} = 6.98 \times 10^{4} \ \Omega = 69.8 \text{ k}\Omega $$
+</div>
+
+**(c)** At the same voltage $$ V $$,
+
+<div class="equation">
+$$ \frac{I_{\text{new}}}{I_{\text{old}}} = \frac{V/R_{p}}{V/R} = \frac{R}{R_{p}} = \frac{75.0 \text{ k}\Omega}{69.77 \text{ k}\Omega} = 1.075 $$
+</div>
+
+an increase of $$ 7.50\% $$.
+
+**(d)** At the same current $$ I $$,
+
+<div class="equation">
+$$ \frac{V_{\text{new}}}{V_{\text{old}}} = \frac{IR_{p}}{IR} = \frac{69.77 \text{ k}\Omega}{75.0 \text{ k}\Omega} = 0.930 $$
+</div>
+
+a decrease of $$ 6.98\% $$.
+
+**(e)** Yes. Changes of about 7% are significant for most measurements: the voltmeter itself alters the circuit it is measuring, because its resistance is only about 13 times the resistance it is measuring across.
+
+**Discussion**
+
+A voltmeter disturbs a circuit very little only when its resistance is much larger than the resistance it is connected across. A digital meter of $$ 10 \text{ M}\Omega $$ would reduce the effect to under 1%.
+
+(b) The combination has a resistance of $$ 69.8 \text{ k}\Omega $$. (c) The current increases by $$ 7.50\% $$. (d) The voltage decreases by $$ 6.98\% $$. (e) These changes are significant; the $$ 1.00\text{-M}\Omega $$ voltmeter's resistance is not large enough compared with $$ 75.0 \text{ k}\Omega $$ to make an accurate measurement.
 
 :::
 
@@ -629,6 +801,38 @@ Suppose you have a $$ 40.0-\Omega $$ galvanometer with a $$ 25.0-\mu A $$
 sensitivity. (a) What resistance would you put in series with it to allow it to
 be used as a voltmeter that has a full-scale deflection for 0.500 mV? (b) What
 is unreasonable about this result? (c) Which assumptions are responsible?
+
+:::
+
+::: solution
+
+**Strategy**
+
+For a voltmeter, the series resistance $$ R $$ plus the galvanometer resistance $$ r $$ must carry the full-scale current $$ I_{\text{G}} $$ when the full-scale voltage is applied: $$ V = I_{\text{G}}(R + r) $$. Solve for $$ R $$.
+
+**Solution**
+
+**(a)**
+
+<div class="equation">
+$$ R = \frac{V}{I_{\text{G}}} - r = \frac{0.500 \times 10^{-3} \text{ V}}{25.0 \times 10^{-6} \text{ A}} - 40.0 \ \Omega = 20.0 \ \Omega - 40.0 \ \Omega = -20.0 \ \Omega $$
+</div>
+
+**(b)** A resistance cannot be negative.
+
+**(c)** The galvanometer alone already needs
+
+<div class="equation">
+$$ V_{\text{G}} = I_{\text{G}}r = (25.0 \times 10^{-6} \text{ A})(40.0 \ \Omega) = 1.00 \times 10^{-3} \text{ V} $$
+</div>
+
+for full-scale deflection, so it cannot be made into a voltmeter with a smaller full-scale reading of $$ 0.500 \text{ mV} $$ by adding series resistance. The assumed full-scale voltage is too small for this galvanometer.
+
+**Discussion**
+
+Adding series resistance can only increase the full-scale voltage. To read $$ 0.500 \text{ mV} $$ full scale, one would need a more sensitive galvanometer, such as $$ 25.0 \ \mu\text{A} $$ with less than $$ 20 \ \Omega $$ of resistance, or an amplifier.
+
+(a) The required resistance would be $$ -20.0 \ \Omega $$. (b) A negative resistance is impossible. (c) The full-scale voltage of 0.500 mV is less than the $$ 1.00 \text{ mV} $$ the galvanometer itself needs for full-scale deflection, so the assumption is inconsistent.
 
 :::
 

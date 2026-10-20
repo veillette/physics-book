@@ -2,7 +2,8 @@
 /**
  * Generate the line-art figures (graphs, vector diagrams, geometry) that
  * replaced raster originals in chapters 2–7, plus the figures in the answers to
- * the chapter 1–5 Conceptual Questions (scripts/figures/concepts.js).
+ * the Conceptual Questions of chapters 1–9 (scripts/figures/concepts.js) and
+ * chapters 21–25 (scripts/figures/concepts21to25.js).
  *
  * Each figure is defined in scripts/figures/chNN.js as a function that returns
  * an SVG string, keyed by its file name (e.g. Figure_02_08_05). Files are
@@ -21,13 +22,14 @@ import ch02 from './figures/ch02.js';
 import ch03 from './figures/ch03.js';
 import ch04to07 from './figures/ch04to07.js';
 import concepts from './figures/concepts.js';
+import concepts21to25 from './figures/concepts21to25.js';
 import completion from './figures/solution-completion.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = path.join(root, 'resources');
 const filter = process.argv[2] || '';
 
-const figures = { ...ch02, ...ch03, ...ch04to07, ...concepts, ...completion };
+const figures = { ...ch02, ...ch03, ...ch04to07, ...concepts, ...concepts21to25, ...completion };
 let count = 0;
 for (const [name, build] of Object.entries(figures)) {
   if (filter && !name.includes(filter)) continue;

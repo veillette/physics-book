@@ -163,6 +163,28 @@ Does plastic insulation on live/hot wires prevent shock hazards, thermal hazards
 
 :::
 
+::: solution
+
+**Strategy**
+
+A shock hazard arises when current passes through a person; a thermal hazard arises when excessive current heats wires, for example in a short circuit. Consider what insulation prevents in each case. Use $$ 120 \text{ V} $$, a body resistance of $$ 1.00 \text{ k}\Omega $$, and a short circuit with $$ 0.0500 \ \Omega $$ of wiring resistance.
+
+**Solution**
+
+**Shock hazard:** insulation keeps a person from touching the live conductor. Without it, a person touching the wire while grounded would carry
+
+<div class="equation">
+$$ I = \frac{V}{R_{\text{body}}} = \frac{120 \text{ V}}{1.00 \times 10^{3} \ \Omega} = 0.120 \text{ A} $$
+</div>
+
+which can be fatal.
+
+**Thermal hazard:** insulation also prevents the hot wire from touching the neutral wire, a ground wire, or a metal case, which would create a short circuit with a current of about $$ (120 \text{ V})/(0.0500 \ \Omega) = 2400 \text{ A} $$ and intense heating. But insulation does nothing to stop overheating from an overload, such as too many appliances on one circuit; that is the job of fuses and circuit breakers. Insulation can itself melt or burn if the wire overheats, and then both hazards appear.
+
+Plastic insulation prevents both hazards to a degree: it prevents shock hazards by keeping people from contacting the live wire, and it helps prevent thermal hazards by preventing short circuits between conductors, but it cannot prevent overheating due to overloads, which require fuses or circuit breakers.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -173,6 +195,26 @@ Why are ordinary circuit breakers and fuses ineffective in preventing shocks?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the current at which a breaker or fuse opens with the current that is dangerous to a person. A household circuit breaker trips at about $$ 15 \text{ A} $$ or $$ 20 \text{ A} $$; currents of about $$ 0.1 \text{ A} $$ through the chest can cause ventricular fibrillation.
+
+**Solution**
+
+A person who touches a $$ 120\text{-V} $$ conductor while grounded, with a body resistance of $$ 1.00 \text{ k}\Omega $$, carries
+
+<div class="equation">
+$$ I = \frac{120 \text{ V}}{1.00 \times 10^{3} \ \Omega} = 0.120 \text{ A} $$
+</div>
+
+This adds only $$ 0.12 \text{ A} $$ to the circuit's current, far below the $$ 15 \text{ A} $$ needed to trip the breaker; a person would need a resistance below $$ (120 \text{ V})/(15 \text{ A}) = 8 \ \Omega $$ to trip it. Fuses and breakers also respond in a fraction of a second to a few seconds, while fibrillation can begin within a fraction of a second. They are designed to protect the wiring from overheating, not people.
+
+Ordinary circuit breakers and fuses are ineffective in preventing shocks because they open only at currents of about $$ 15 \text{ A} $$ or more, which is more than 100 times the roughly $$ 0.1 \text{ A} $$ that can be lethal to a person, so a dangerous current through a body does not trip them.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -180,6 +222,26 @@ Why are ordinary circuit breakers and fuses ineffective in preventing shocks?
 ::: problem
 
 A GFI may trip just because the live/hot and neutral wires connected to it are significantly different in length. Explain why.
+
+:::
+
+::: solution
+
+**Strategy**
+
+A GFI (ground fault interrupter) passes the hot and neutral wires through a ring-shaped core with a sensing coil. Normally the two currents are equal and opposite, so their magnetic fluxes cancel and no emf is induced. If they differ by more than about $$ 5 \text{ mA} $$, the net changing flux induces an emf in the sensing coil and trips the circuit. Look for a reason other than a person's body why the hot current could leak to ground instead of returning through the neutral.
+
+**Solution**
+
+Every wire has a small capacitance to ground and a small leakage current through its insulation, both proportional to its length. Current that leaks from the hot wire to ground along its route never returns through the neutral wire. If the hot wire is much longer than the neutral, or runs near grounded metal for a long distance, the leakage currents do not balance, and the GFI sees a difference. For a capacitance of $$ 100 \text{ pF/m} $$ to ground at $$ 120 \text{ V} $$, $$ 60 \text{ Hz} $$, each meter of hot wire leaks
+
+<div class="equation">
+$$ I = V(2\pi fC) = (120 \text{ V})(2\pi)(60 \text{ Hz})(100 \times 10^{-12} \text{ F}) = 4.5 \times 10^{-6} \text{ A} $$
+</div>
+
+A few hundred meters of extra length gives about $$ 1 \text{ mA} $$, and together with leakage through aging insulation or in connected appliances, this can reach the GFI's $$ 5\text{-mA} $$ trip level even though no one is being shocked.
+
+A GFI may trip because it compares the currents in the live/hot and neutral wires, and when the wires differ significantly in length, the longer wire leaks more current to ground (through its capacitance and insulation, about $$ 4.5 \ \mu\text{A} $$ per meter here), so the currents in the two wires no longer balance; the GFI interprets the few-milliampere difference as a ground fault and trips.
 
 :::
 
