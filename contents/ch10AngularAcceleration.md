@@ -504,7 +504,7 @@ $$ a_c = \omega^{2} r = (10472 \text{ rad/s})^2(0.0950 \m) = 1.04 \times 10^7 \t
 In multiples of g:
 
 <div class="equation">
-$$ a_c = \frac{1.04 \times 10^7 \text{ m/s}^2}{9.80 \text{ m/s}^2} = 1.06 \times 10^6 \text{ g} $$
+$$ \frac{a_c}{g} = \frac{1.04 \times 10^7 \text{ m/s}^2}{9.80 \text{ m/s}^2} = 1.06 \times 10^6 $$
 </div>
 
 **Discussion**
@@ -573,7 +573,7 @@ $$ \alpha = -\frac{\tau}{I} = -\frac{1.36 \N \cdot \m}{5.20 \kg \cdot \mm} = -0.
 **(b)** First, convert the initial angular velocity:
 
 <div class="equation">
-$$ \omega_{0} = 90.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 9.42 \text{ rad/s} $$
+$$ \omega_{0} = 90.0 \frac{\text{rev}}{\text{min}} \times \frac{2\pi \text{rad}}{1 \text{rev}} \times \frac{1 \text{min}}{60 \s} = 9.42 \text{ rad/s} $$
 </div>
 
 Using ω² = ω₀² + 2αθ with ω = 0:

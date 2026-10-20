@@ -150,7 +150,7 @@ yielding
 The direction of the total velocity $$ \theta $$ is given by:
 
 <div class="equation">
- $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(0.750 \ms/1.20 \ms\right). $$
+ $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(\frac{0.750 \ms}{1.20 \ms}\right). $$
 </div>
 
 This equation gives
@@ -260,7 +260,7 @@ so that
 The direction is:
 
 <div class="equation">
- $$ \theta ={\tan}^{-1}\left(v_{\text{w}y}/v_{\text{w}x}\right)={\tan}^{-1}\left(-9.29/-13.0\right) $$
+ $$ \theta ={\tan}^{-1}\left(v_{\text{w}y}/v_{\text{w}x}\right)={\tan}^{-1}\left(\frac{-9.29 \ms}{-13.0 \ms}\right) $$
 </div>
 
 giving
@@ -411,7 +411,7 @@ yielding
 The direction is given by:
 
 <div class="equation">
- $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(-5.42 \ms/260 \ms \right) $$
+ $$ \theta ={\tan}^{-1}\left(v_{y}/v_{x}\right)={\tan}^{-1}\left(\frac{-5.42 \ms}{260 \ms}\right) $$
 </div>
 
 so that
@@ -812,7 +812,7 @@ $$ t_{catch} = \frac{45.0 \m}{0.70 \ms} = 64.3 \s $$
 After catching up, the second runner still has:
 
 <div class="equation">
-$$ d = 250 \m - (3.50 \m)(64.3 \m) = 250 \m - 225 \m = 25 \m $$ to go
+$$ d = 250 \m - (3.50 \ms)(64.3 \s) = 250 \m - 225 \m = 25 \m $$ to go
 </div>
 
 Time to cover this distance:
@@ -981,7 +981,7 @@ $$ v_{y,QB} = v_{0y,g} = 6.413 \ms $$
 Magnitude:
 
 <div class="equation">
-$$ v_{0,QB} = \sqrt{v_{x,QB}^2 + v_{y,QB}^2} = \sqrt{(15.75 \ms)^2 + (6.413 \ms)^2} = \sqrt{248.2 \text{m}^2/\text{s}^2 + 41.1 \text{m}^2/\text{s}^2} = \sqrt{289.3 \text{m}^2/\text{s}^2} = 17.0 \ms $$
+$$ v_{0,QB} = \sqrt{v_{x,QB}^2 + v_{y,QB}^2} = \sqrt{(15.75 \ms)^2 + (6.413 \ms)^2} = \sqrt{248.2 \mmss + 41.1 \mmss} = \sqrt{289.3 \mmss} = 17.0 \ms $$
 </div>
 
 Direction:
@@ -1082,7 +1082,7 @@ $$ v_{Earth,y} = v_{ship,y} + v_{current,y} = 7.00 \ms + 0.965 \ms = 7.97 \ms $$
 Magnitude:
 
 <div class="equation">
-$$ v_{Earth} = \sqrt{v_{Earth,x}^2 + v_{Earth,y}^2} = \sqrt{(1.15 \ms)^2 + (7.97 \ms)^2} = \sqrt{1.32 \text{m}^2/\text{s}^2 + 63.5 \text{m}^2/\text{s}^2} = \sqrt{64.8 \text{m}^2/\text{s}^2} = 8.05 \ms $$
+$$ v_{Earth} = \sqrt{v_{Earth,x}^2 + v_{Earth,y}^2} = \sqrt{(1.15 \ms)^2 + (7.97 \ms)^2} = \sqrt{1.32 \mmss + 63.5 \mmss} = \sqrt{64.8 \mmss} = 8.05 \ms $$
 </div>
 
 Direction (angle from north toward east):
@@ -1180,7 +1180,7 @@ $$ v_{Earth,y} = v_{plane,y} + v_{wind,y} = 22.7 \ms + 9.07 \ms = 31.8 \ms $$ (s
 Magnitude:
 
 <div class="equation">
-$$ v_{Earth} = \sqrt{(225 \ms)^2 + (31.8 \ms)^2} = \sqrt{50625 \text{m}^2/\text{s}^2 + 1011 \text{m}^2/\text{s}^2} = \sqrt{51636 \text{m}^2/\text{s}^2} = 227 \ms \approx 230 \ms $$
+$$ v_{Earth} = \sqrt{(225 \ms)^2 + (31.8 \ms)^2} = \sqrt{50625 \mmss + 1011 \mmss} = \sqrt{51636 \mmss} = 227 \ms \approx 230 \ms $$
 </div>
 
 Direction:
@@ -1261,7 +1261,7 @@ The ship must have a westward component to cancel the current's eastward push.
 Using the Pythagorean theorem:
 
 <div class="equation">
-$$ v_{ship,y} = \sqrt{v_{ship,water}^2 - v_{ship,x}^2} = \sqrt{(7.00 \ms)^2 - (1.15 \ms)^2} = \sqrt{49.0 \text{m}^2/\text{s}^2 - 1.32 \text{m}^2/\text{s}^2} = \sqrt{47.7 \text{m}^2/\text{s}^2} = 6.91 \ms $$
+$$ v_{ship,y} = \sqrt{v_{ship,water}^2 - v_{ship,x}^2} = \sqrt{(7.00 \ms)^2 - (1.15 \ms)^2} = \sqrt{49.0 \mmss - 1.32 \mmss} = \sqrt{47.7 \mmss} = 6.91 \ms $$
 </div>
 
 The angle west of north is:
@@ -1330,11 +1330,11 @@ Let's set up a coordinate system with east as +x and north as +y.
 
 **Wind velocity components:**
 <div class="equation">
-$$ v_{wind,x} = 45.0 \ms \cos(20°) = 45.0(0.940) = 42.3 \ms $$ (east)
+$$ v_{wind,x} = 45.0 \ms \cos(20°) = 45.0 \ms(0.940) = 42.3 \ms $$ (east)
 </div>
 
 <div class="equation">
-$$ v_{wind,y} = -45.0 \ms \sin(20°) = -45.0(0.342) = -15.4 \ms $$ (south)
+$$ v_{wind,y} = -45.0 \ms \sin(20°) = -45.0 \ms(0.342) = -15.4 \ms $$ (south)
 </div>
 
 **Vector equation:**
@@ -1365,13 +1365,13 @@ $$ v_{p/E,y} = -v_{p/E} \sin(45.0°) = -0.707 v_{p/E} $$
 
 **Setting up equations from vector addition:**
 
-x-component: $$ -0.707 v_{p/E} = -0.996 v_{p/a} + 42.3 $$
+x-component: $$ -0.707 v_{p/E} = -0.996 v_{p/a} + 42.3 \ms $$
 
-y-component: $$ -0.707 v_{p/E} = -0.0872 v_{p/a} - 15.4 $$
+y-component: $$ -0.707 v_{p/E} = -0.0872 v_{p/a} - 15.4 \ms $$
 
 Since both left sides are equal:
 <div class="equation">
-$$ -0.996 v_{p/a} + 42.3 = -0.0872 v_{p/a} - 15.4 $$
+$$ -0.996 v_{p/a} + 42.3 \ms = -0.0872 v_{p/a} - 15.4 \ms $$
 </div>
 
 <div class="equation">
@@ -1469,7 +1469,7 @@ The horizontal component equals the ship's velocity: $$ v_x = 1.75 \ms $$ (south
 Magnitude:
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(1.75 \ms)^2 + (17.1 \ms)^2} = \sqrt{3.06 \text{m}^2/\text{s}^2 + 292 \text{m}^2/\text{s}^2} = \sqrt{295 \text{m}^2/\text{s}^2} = 17.2 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(1.75 \ms)^2 + (17.1 \ms)^2} = \sqrt{3.06 \mmss + 292 \mmss} = \sqrt{295 \mmss} = 17.2 \ms $$
 </div>
 
 Direction below horizontal (south):
@@ -1549,22 +1549,22 @@ Set up coordinates with east as +x and north as +y.
 
 **Ocean current (water) components:**
 <div class="equation">
-$$ v_{water,x} = 2.20 \ms \sin(30.0°) = 2.20(0.500) = 1.10 \ms $$ (east)
+$$ v_{water,x} = 2.20 \ms \sin(30.0°) = 2.20 \ms(0.500) = 1.10 \ms $$ (east)
 </div>
 
 <div class="equation">
-$$ v_{water,y} = 2.20 \ms \cos(30.0°) = 2.20(0.866) = 1.90 \ms $$ (north)
+$$ v_{water,y} = 2.20 \ms \cos(30.0°) = 2.20 \ms(0.866) = 1.90 \ms $$ (north)
 </div>
 
 **Wind velocity relative to Earth components:**
 
 50.0° south of west means 180° + 50° = 230° from east (or in the third quadrant).
 <div class="equation">
-$$ v_{wind,x} = -4.50 \ms \cos(50.0°) = -4.50(0.643) = -2.89 \ms $$ (west)
+$$ v_{wind,x} = -4.50 \ms \cos(50.0°) = -4.50 \ms(0.643) = -2.89 \ms $$ (west)
 </div>
 
 <div class="equation">
-$$ v_{wind,y} = -4.50 \ms \sin(50.0°) = -4.50(0.766) = -3.45 \ms $$ (south)
+$$ v_{wind,y} = -4.50 \ms \sin(50.0°) = -4.50 \ms(0.766) = -3.45 \ms $$ (south)
 </div>
 
 **Wind velocity relative to water:**
@@ -1578,7 +1578,7 @@ $$ v_{wind/water,y} = v_{wind,y} - v_{water,y} = -3.45 \ms - 1.90 \ms = -5.35 \m
 
 **Magnitude:**
 <div class="equation">
-$$ v_{wind/water} = \sqrt{(-3.99 \ms)^2 + (-5.35 \ms)^2} = \sqrt{15.9 \text{m}^2/\text{s}^2 + 28.6 \text{m}^2/\text{s}^2} = \sqrt{44.5 \text{m}^2/\text{s}^2} = 6.67 \ms \approx 6.68 \ms $$
+$$ v_{wind/water} = \sqrt{(-3.99 \ms)^2 + (-5.35 \ms)^2} = \sqrt{15.9 \mmss + 28.6 \mmss} = \sqrt{44.5 \mmss} = 6.67 \ms \approx 6.68 \ms $$
 </div>
 
 **Direction:**
@@ -1646,10 +1646,10 @@ $$ v_{rel} = v_{galaxy} - v_2 $$
 
 Distances from Galaxy 2:
 
-- Galaxy 1: $$ 300 - 150 = 150 \text{ Mly} $$ (to the left)
+- Galaxy 1: $$ 300 \text{Mly} - 150 \text{Mly} = 150 \text{ Mly} $$ (to the left)
 - Milky Way: $$ 150 \text{ Mly} $$ (to the right)
-- Galaxy 4: $$ 150 + 190 = 340 \text{ Mly} $$ (to the right)
-- Galaxy 5: $$ 150 + 450 = 600 \text{ Mly} $$ (to the right)
+- Galaxy 4: $$ 150 \text{Mly} + 190 \text{Mly} = 340 \text{ Mly} $$ (to the right)
+- Galaxy 5: $$ 150 \text{Mly} + 450 \text{Mly} = 600 \text{ Mly} $$ (to the right)
 
 **(b) Velocities relative to Galaxy 5:**
 
@@ -1666,10 +1666,10 @@ $$ v_{rel} = v_{galaxy} - v_5 $$
 
 Distances from Galaxy 5:
 
-- Galaxy 1: $$ 300 + 450 = 750 \text{ Mly} $$ (to the left)
-- Galaxy 2: $$ 150 + 450 = 600 \text{ Mly} $$ (to the left)
+- Galaxy 1: $$ 300 \text{Mly} + 450 \text{Mly} = 750 \text{ Mly} $$ (to the left)
+- Galaxy 2: $$ 150 \text{Mly} + 450 \text{Mly} = 600 \text{ Mly} $$ (to the left)
 - Milky Way: $$ 450 \text{ Mly} $$ (to the left)
-- Galaxy 4: $$ 450 - 190 = 260 \text{ Mly} $$ (to the left)
+- Galaxy 4: $$ 450 \text{Mly} - 190 \text{Mly} = 260 \text{ Mly} $$ (to the left)
 
 **Discussion**
 
@@ -1759,7 +1759,7 @@ $$ H_5 = \frac{6700 \text{ km/s}}{450 \text{ Mly}} = 14.9 \frac{\text{km/s}}{\te
 
 Average Hubble constant:
 <div class="equation">
-$$ H_{average} = \frac{15.0 \frac{\text{km/s}}{\text{Mly}} + 14.7 \frac{\text{km/s}}{\text{Mly}} + 14.9 \frac{\text{km/s}}{\text{Mly}} + 14.9 \frac{\text{km/s}}{\text{Mly}}}{4} = \frac{59.5 \frac{\text{km/s}}{\text{Mly}}}{4} = 14.9 \frac{\text{km/s}}{\text{Mly}} \frac{\text{km/s}}{\text{Mly}} $$
+$$ H_{average} = \frac{15.0 \frac{\text{km/s}}{\text{Mly}} + 14.7 \frac{\text{km/s}}{\text{Mly}} + 14.9 \frac{\text{km/s}}{\text{Mly}} + 14.9 \frac{\text{km/s}}{\text{Mly}}}{4} = \frac{59.5 \frac{\text{km/s}}{\text{Mly}}}{4} = 14.9 \frac{\text{km/s}}{\text{Mly}} $$
 </div>
 
 **(b) Time since the Big Bang:**
@@ -1771,7 +1771,7 @@ $$ t = \frac{1}{H} = \frac{1}{14.9 \text{ km/s per Mly}} $$
 
 First, convert units. One million light years (Mly) in km:
 <div class="equation">
-$$ 1 \text{ Mly} = 10^6 \text{ ly} \times (3.00 \times 10^8 \text{ m/s}) \times (3.156 \times 10^7 \text{ s/year}) $$
+$$ 1 \text{ Mly} = (10^6 \text{ years}) \times (3.00 \times 10^8 \text{ m/s}) \times (3.156 \times 10^7 \text{ s/year}) $$
 </div>
 
 <div class="equation">
@@ -1860,7 +1860,7 @@ The swimmer's velocity has two perpendicular components:
 Magnitude:
 
 <div class="equation">
-$$ v_{ground} = \sqrt{v_{\perp}^2 + v_{\parallel}^2} = \sqrt{(0.5 \ms)^2 + (0.8 \ms)^2} = \sqrt{0.25 \text{m}^2/\text{s}^2 + 0.64 \text{m}^2/\text{s}^2} = \sqrt{0.89 \text{m}^2/\text{s}^2} = 0.94 \ms $$
+$$ v_{ground} = \sqrt{v_{\perp}^2 + v_{\parallel}^2} = \sqrt{(0.5 \ms)^2 + (0.8 \ms)^2} = \sqrt{0.25 \mmss + 0.64 \mmss} = \sqrt{0.89 \mmss} = 0.94 \ms $$
 </div>
 
 Direction:
@@ -1959,7 +1959,7 @@ $$ v_{\text{stream},y} = v_{\text{ship/Earth},y} - v_{\text{ship/water},y} = 4.7
 Magnitude:
 
 <div class="equation">
-$$ v_{\text{stream}} = \sqrt{(1.27 \ms)^2 + (1.15 \ms)^2} = \sqrt{1.61 \text{m}^2/\text{s}^2 + 1.32 \text{m}^2/\text{s}^2} = \sqrt{2.93 \text{m}^2/\text{s}^2} = 1.71 \ms \approx 1.72 \ms $$
+$$ v_{\text{stream}} = \sqrt{(1.27 \ms)^2 + (1.15 \ms)^2} = \sqrt{1.61 \mmss + 1.32 \mmss} = \sqrt{2.93 \mmss} = 1.71 \ms \approx 1.72 \ms $$
 </div>
 
 Direction (measured from east toward north):
@@ -2030,7 +2030,7 @@ $$ \vec{v}_{puck,ice} = \vec{v}_{puck,player} + \vec{v}_{player} $$
 Let the puck's velocity relative to player make angle $$ \theta $$ measured from the player's direction of motion (north, positive y-axis). In this coordinate system:
 
 <div class="equation">
-$$ \vec{v}_{puck,player} = (29.0 \sin\theta, 29.0 \cos\theta) $$
+$$ \vec{v}_{puck,player} = (29.0 \ms \sin\theta, 29.0 \ms \cos\theta) $$
 </div>
 
 **Step 3: Apply vector addition**
@@ -2038,13 +2038,13 @@ $$ \vec{v}_{puck,player} = (29.0 \sin\theta, 29.0 \cos\theta) $$
 x-component (east):
 
 <div class="equation">
-$$ v_{puck,x} = 29.0 \sin\theta + 0 = 29.0 \sin\theta $$
+$$ v_{puck,x} = 29.0 \ms \sin\theta + 0 = 29.0 \ms \sin\theta $$
 </div>
 
 y-component (north):
 
 <div class="equation">
-$$ 0 = 29.0 \cos\theta + 8.00 $$
+$$ 0 = 29.0 \ms \cos\theta + 8.00 \ms $$
 </div>
 
 **Step 4: Solve for angle**
@@ -2052,7 +2052,7 @@ $$ 0 = 29.0 \cos\theta + 8.00 $$
 From the y-component equation:
 
 <div class="equation">
-$$ 29.0 \cos\theta = -8.00 $$
+$$ 29.0 \ms \cos\theta = -8.00 \ms $$
 </div>
 
 <div class="equation">
@@ -2278,7 +2278,7 @@ Wind:
 Magnitude:
 
 <div class="equation">
-$$ v_{wind} = \sqrt{(274 \ms)^2 + (-48.5 \ms)^2} = \sqrt{75{,}076 \text{m}^2/\text{s}^2 + 2{,}352 \text{m}^2/\text{s}^2} = \sqrt{77{,}428 \text{m}^2/\text{s}^2} = 278 \ms $$
+$$ v_{wind} = \sqrt{(274 \ms)^2 + (-48.5 \ms)^2} = \sqrt{75{,}076 \mmss + 2{,}352 \mmss} = \sqrt{77{,}428 \mmss} = 278 \ms $$
 </div>
 
 Direction:

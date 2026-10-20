@@ -1039,7 +1039,7 @@ $$ \omega_{f} = 3.00 \text{ rev/s} \times 2\pi = 18.8 \text{ rad/s} $$
 Change in angular momentum:
 
 <div class="equation">
-$$ \Delta L = I(\omega_{f} - \omega_{0}) = (0.400 \kg \cdot \mm)(18.8 - 37.7) \text{ rad/s} = -7.56 \kg \cdot \mms $$
+$$ \Delta L = I(\omega_{f} - \omega_{0}) = (0.400 \kg \cdot \mm)(18.8\rads - 37.7\rads) = -7.56 \kg \cdot \mms $$
 </div>
 
 Average torque:
@@ -1098,7 +1098,7 @@ Use $$ M_E = 5.97 \times 10^{24} \kg $$, $$ R_E = 6.37 \times 10^{6} \m $$, $$ M
 $$ I_E = \frac{2}{5}M_E R_E^2 = 9.69 \times 10^{37} \kg \cdot \mm, \quad \omega_E = \frac{2\pi}{86\,164 \s} = 7.29 \times 10^{-5} \text{ rad/s}, \quad L_E = 7.07 \times 10^{33} \kg \cdot \mms $$
 </div>
 
-Moon's orbit and spin, with $$ \omega_{\text{orb}} = 2\pi/(27.3 \times 86\,400 \s) = 2.66 \times 10^{-6} $$ rad/s:
+Moon's orbit and spin, with $$ \omega_{\text{orb}} = 2\pi/(27.3 \times 86\,400 \s) = 2.66 \times 10^{-6} \rads $$ rad/s:
 <div class="equation">
 $$ L_{\text{orb}} = M_M r^2\omega_{\text{orb}} = (7.35 \times 10^{22} \kg)(3.84 \times 10^{8} \m)^2(2.66 \times 10^{-6} \rads) = 2.89 \times 10^{34} \kg \cdot \mms $$
 </div>
@@ -1109,7 +1109,7 @@ $$ L_{M,\text{spin}} = \frac{2}{5}M_M R_M^2\,\omega_{\text{orb}} = (8.90 \times 
 
 Total (all three point in nearly the same direction):
 <div class="equation">
-$$ L_{\text{total}} \approx 7.07 \times 10^{33} + 2.89 \times 10^{34} + 2.4 \times 10^{29} = 3.59 \times 10^{34} \kg \cdot \mms $$
+$$ L_{\text{total}} \approx 7.07 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s} + 2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s} + 2.4 \times 10^{29} \text{kg}\cdot\text{m}^2/\text{s} = 3.59 \times 10^{34} \kg \cdot \mms $$
 </div>
 
 **(b)** A 1.7-ms increase in Earth's 86 164-s rotation period decreases its angular velocity by $$ \Delta\omega_E = \omega_E\,\Delta T/T = \frac{(7.29 \times 10^{-5} \rads)(1.7 \times 10^{-3} \s)}{86\,164 \s} = 1.44 \times 10^{-12} \rads $$ rad/s, so Earth loses

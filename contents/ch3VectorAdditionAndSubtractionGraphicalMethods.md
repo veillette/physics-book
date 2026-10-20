@@ -511,8 +511,8 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Th
 
 From Figure 20, path A consists of:
 
-- 3 blocks north: $$3 \times 120 = 360 \m$$
-- 1 block east: $$1 \times 120 = 120 \m$$
+- 3 blocks north: $$3 \times 120 \m = 360 \m$$
+- 1 block east: $$1 \times 120 \m = 120 \m$$
 
 Total distance:
 
@@ -532,7 +532,7 @@ $$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120 \m)^2 + (360 \m)^2}$$
 </div>
 
 <div class="equation">
-$$R = \sqrt{14,400 (\m)^2 + 129,600 (\m)^2} = \sqrt{144,000 (\m)^2} = 379 \m$$
+$$R = \sqrt{14,400 \mm + 129,600 \mm} = \sqrt{144,000 \mm} = 379 \m$$
 </div>
 
 3. Direction (angle east of north):
@@ -604,7 +604,7 @@ $$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120 \m)^2 + (360 \m)^2}$$
 </div>
 
 <div class="equation">
-$$R = \sqrt{14,400 (\m)^2 + 129,600 (\m)^2} = \sqrt{144,000 (\m)^2} = 379 \m$$
+$$R = \sqrt{14,400 \mm + 129,600 \mm} = \sqrt{144,000 \mm} = 379 \m$$
 </div>
 
 3. Direction (angle east of north):
@@ -658,25 +658,25 @@ From Figure 18, the hikers' displacement has:
 
 1. **East component** (horizontal):
 <div class="equation">
-$$R_{\text{east}} = R \cos\theta = 5.00 \times \cos(40.0^\circ)$$
+$$R_{\text{east}} = R \cos\theta = 5.00 \text{km} \times \cos(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{east}} = 5.00 \text{ km} \times 0.766 = 3.83 \text{ km}$$
+$$R_{\text{east}} = 5.00 \text{km} \times 0.766 = 3.83 \text{ km}$$
 </div>
 
 2. **North component** (vertical):
 <div class="equation">
-$$R_{\text{north}} = R \sin\theta = 5.00 \times \sin(40.0^\circ)$$
+$$R_{\text{north}} = R \sin\theta = 5.00 \text{km} \times \sin(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{north}} = 5.00 \text{ km} \times 0.643 = 3.21 \text{ km}$$
+$$R_{\text{north}} = 5.00 \text{km} \times 0.643 = 3.21 \text{ km}$$
 </div>
 
 **Discussion**
 
-Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer: $$\sqrt{(3.83 \text{ km})^2 + (3.21 \text{ km})^2} = \sqrt{14.67 (\text{ km})^2 + 10.30 (\text{ km})^2} = \sqrt{24.97 (\text{ km})^2} \approx 5.00 \text{ km}$$ ✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
+Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer: $$\sqrt{(3.83 \text{ km})^2 + (3.21 \text{ km})^2} = \sqrt{14.67 \text{km}^2 + 10.30 \text{km}^2} = \sqrt{24.97 \text{km}^2} \approx 5.00 \text{ km}$$ ✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
 
 **Answer**
 
@@ -730,7 +730,7 @@ These vectors are perpendicular to each other, forming a right triangle.
 **Magnitude of resultant:**
 
 <div class="equation">
-$$R = \sqrt{A^2 + B^2} = \sqrt{(18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m$$
+$$R = \sqrt{A^2 + B^2} = \sqrt{(18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 \mm + 625 \mm} = \sqrt{949 \mm} = 30.8 \m$$
 </div>
 
 **Direction:**
@@ -812,7 +812,7 @@ The negative north component means the resultant points south. The negative east
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 (\m)^2 + 377.5 (\m)^2} = \sqrt{380.0 (\m)^2} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 \mm + 377.5 \mm} = \sqrt{380.0 \mm} = 19.5 \m$$
 </div>
 
 **Direction:**
@@ -887,7 +887,7 @@ $$R_E = B_E + A_E = -15.32 \m + (-4.104 \m) = -19.43 \m$$
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 (\m)^2 + 377.5 (\m)^2} = \sqrt{380.0 (\m)^2} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 \mm + 377.5 \mm} = \sqrt{380.0 \mm} = 19.5 \m$$
 </div>
 
 **Direction:**
@@ -968,7 +968,7 @@ $$R'_E = A_E + (-B)_E = -4.104 \m + 15.32 \m = 11.22 \m$$
 **Magnitude:**
 
 <div class="equation">
-$$R' = \sqrt{(24.13 \m)^2 + (11.22 \m)^2} = \sqrt{582.3 (\m)^2 + 125.9 (\m)^2} = \sqrt{708.2 (\m)^2} = 26.6 \m$$
+$$R' = \sqrt{(24.13 \m)^2 + (11.22 \m)^2} = \sqrt{582.3 \mm + 125.9 \mm} = \sqrt{708.2 \mm} = 26.6 \m$$
 </div>
 
 **Direction:**
@@ -1053,31 +1053,31 @@ Let's choose three vectors:
 Components of A:
 
 <div class="equation">
-$$A_x = 10.0 \text{ units}\cos(30°) = 10.0(0.866) = 8.66 \text{ units}$$
+$$A_x = 10.0 \text{ units}\cos(30°) = 10.0 \text{units}(0.866) = 8.66 \text{ units}$$
 </div>
 
 <div class="equation">
-$$A_y = 10.0 \text{ units}\sin(30°) = 10.0(0.500) = 5.00 \text{ units}$$
+$$A_y = 10.0 \text{ units}\sin(30°) = 10.0 \text{units}(0.500) = 5.00 \text{ units}$$
 </div>
 
 Components of B:
 
 <div class="equation">
-$$B_x = 8.0 \text{ units}\cos(120°) = 8.0(-0.500) = -4.00 \text{ units}$$
+$$B_x = 8.0 \text{ units}\cos(120°) = 8.0 \text{units}(-0.500) = -4.00 \text{ units}$$
 </div>
 
 <div class="equation">
-$$B_y = 8.0 \text{ units}\sin(120°) = 8.0(0.866) = 6.93 \text{ units}$$
+$$B_y = 8.0 \text{ units}\sin(120°) = 8.0 \text{units}(0.866) = 6.93 \text{ units}$$
 </div>
 
 Components of C:
 
 <div class="equation">
-$$C_x = 6.0 \text{ units}\cos(240°) = 6.0(-0.500) = -3.00 \text{ units}$$
+$$C_x = 6.0 \text{ units}\cos(240°) = 6.0 \text{units}(-0.500) = -3.00 \text{ units}$$
 </div>
 
 <div class="equation">
-$$C_y = 6.0 \text{ units}\sin(240°) = 6.0(-0.866) = -5.20 \text{ units}$$
+$$C_y = 6.0 \text{ units}\sin(240°) = 6.0 \text{units}(-0.866) = -5.20 \text{ units}$$
 </div>
 
 Sum A + B + C:
@@ -1095,7 +1095,7 @@ $$R_y = A_y + B_y + C_y = 5.00 \text{ units} + 6.93 \text{ units} + (-5.20 \text
 Components are the same as above. Sum B + C + A:
 
 <div class="equation">
-$$R_x = B_x + C_x + A_x = (-4.00) + (-3.00) + 8.66 = 1.66 \text{ units}$$
+$$R_x = B_x + C_x + A_x = (-4.00 \text{units}) + (-3.00 \text{units}) + 8.66 \text{units} = 1.66 \text{ units}$$
 </div>
 
 <div class="equation">
@@ -1105,7 +1105,7 @@ $$R_y = B_y + C_y + A_y = 6.93 \text{ units} + (-5.20 \text{ units}) + 5.00 \tex
 **Resultant magnitude and direction (same for both orders):**
 
 <div class="equation">
-$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(1.66 \text{ units})^2 + (6.73 \text{ units})^2} = \sqrt{2.76 (\text{ units})^2 + 45.3 (\text{ units})^2} = \sqrt{48.06 (\text{ units})^2} = 6.93 \text{ units}$$
+$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(1.66 \text{ units})^2 + (6.73 \text{ units})^2} = \sqrt{2.76 \text{units}^2 + 45.3 \text{units}^2} = \sqrt{48.06 \text{units}^2} = 6.93 \text{ units}$$
 </div>
 
 <div class="equation">
@@ -1295,7 +1295,7 @@ $$v_{tot,y} = v_{tot}\sin(\theta) = 6.72 \ms\sin(49.0°) = 6.72 \ms \times 0.755
 **Verification:**
 
 <div class="equation">
-$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41 \ms)^2 + (5.07 \ms)^2} = \sqrt{19.4 \text{m}^2/\text{s}^2 + 25.7 \text{m}^2/\text{s}^2} = \sqrt{45.1 \text{m}^2/\text{s}^2} = 6.72 \ms$$ ✓
+$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41 \ms)^2 + (5.07 \ms)^2} = \sqrt{19.4 \mmss + 25.7 \mmss} = \sqrt{45.1 \mmss} = 6.72 \ms$$ ✓
 </div>
 
 **Discussion**

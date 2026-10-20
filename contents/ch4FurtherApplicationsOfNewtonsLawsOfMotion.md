@@ -561,7 +561,7 @@ Take $$ +x $$ in the direction of the breeze and $$ +y $$ upward. $$ F_{\text{gr
 **Vertical forces:**
 
 <div class="equation">
-$$ F_{y} = \sum F_y = F_{\text{ground}} - w = 1.20 \times 10^{-5} - 5.88 \times 10^{-6} = 6.12 \times 10^{-6} \N $$
+$$ F_{y} = \sum F_y = F_{\text{ground}} - w = 1.20 \times 10^{-5} \N - 5.88 \times 10^{-6} \N = 6.12 \times 10^{-6} \N $$
 </div>
 
 **Horizontal forces:**
@@ -583,7 +583,7 @@ $$ a_x = \frac{F_x}{m} = \frac{0.500 \times 10^{-6} \N}{6.00 \times 10^{-7} \kg}
 **Magnitude and direction:**
 
 <div class="equation">
-$$ a = \sqrt{a_x^2 + a_y^2} = \sqrt{(0.833 \mss)^2 + (10.2 \mss)^2} = \sqrt{0.694 (\mss)^2 + 104 (\mss)^2} = \sqrt{104.7 (\mss)^2} = 10.2 \mss $$
+$$ a = \sqrt{a_x^2 + a_y^2} = \sqrt{(0.833 \mss)^2 + (10.2 \mss)^2} = \sqrt{0.694 \text{m}^2/\text{s}^4 + 104 \text{m}^2/\text{s}^4} = \sqrt{104.7 \text{m}^2/\text{s}^4} = 10.2 \mss $$
 </div>
 
 <div class="equation">
@@ -716,19 +716,19 @@ $$ T_2 = \frac{T_1\sin(15°)}{\cos(10°)} = \frac{T_1(0.2588)}{0.9848} = 0.2627T
 Substitute into vertical equation:
 
 <div class="equation">
-$$ T_1\cos(15°) + (0.2627T_1)\sin(10°) = 745 $$
+$$ T_1\cos(15°) + (0.2627T_1)\sin(10°) = 745 \N $$
 </div>
 
 <div class="equation">
-$$ T_1(0.9659) + 0.2627T_1(0.1736) = 745 $$
+$$ T_1(0.9659) + 0.2627T_1(0.1736) = 745 \N $$
 </div>
 
 <div class="equation">
-$$ T_1(0.9659 + 0.0456) = 745 $$
+$$ T_1(0.9659 + 0.0456) = 745 \N $$
 </div>
 
 <div class="equation">
-$$ T_1(1.0115) = 745 $$
+$$ T_1(1.0115) = 745 \N $$
 </div>
 
 <div class="equation">
@@ -853,7 +853,7 @@ $$ a_x = \frac{\sum F_x}{m} = \frac{F}{m} = \frac{650 \N}{70.0 \kg} = 9.29 \mss 
 Final velocity:
 
 <div class="equation">
-$$ v = v_0 + at = 0 \ms + (9.29 \ms)(0.800 \ms) = 7.43 \ms $$
+$$ v = v_0 + at = 0 + (9.29 \mss)(0.800 \s) = 7.43 \ms $$
 </div>
 
 **(b) Distance traveled:**
@@ -992,7 +992,7 @@ $$ 0 = v_0^2 - 2gh $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{2gh} = \sqrt{2(9.80 \mss)(0.900 \m)} = \sqrt{17.64 \text{m}^2/\text{s}^2} = 4.20 \ms $$
+$$ v_0 = \sqrt{2gh} = \sqrt{2(9.80 \mss)(0.900 \m)} = \sqrt{17.64 \mmss} = 4.20 \ms $$
 </div>
 
 **(b) Acceleration while straightening legs:**
@@ -1027,7 +1027,7 @@ $$ \sum F_y = N - w = ma_y $$
 </div>
 
 <div class="equation">
-$$ N = ma + w = m(a + g) = 110 \N(29.4 \N + 9.80 \N) = 110 \kg(39.2 \mss) = 4312 \N \approx 4.31 \times 10^{3} \N $$
+$$ N = ma + w = m(a + g) = 110 \kg(29.4 \mss + 9.80 \mss) = 110 \kg(39.2 \mss) = 4312 \N \approx 4.31 \times 10^{3} \N $$
 </div>
 
 By Newton's third law, the player exerts 4.31 × 10³ N downward on the floor.

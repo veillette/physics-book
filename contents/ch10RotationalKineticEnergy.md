@@ -619,7 +619,7 @@ From the referenced example: merry-go-round mass M = 50.0 kg, radius R = 1.50 m,
 
 **(a)** From the example, total moment of inertia: $$ I = \frac{1}{2}MR^{2} + mr^{2} = 56.25 \text{kg}\cdot\text{m}^2 + 28.13 \text{kg}\cdot\text{m}^2 = 84.38 \kg \cdot \mm $$
 
-Convert angular velocity: $$ \omega = 20.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 2.09 \text{ rad/s} $$
+Convert angular velocity: $$ \omega = 20.0 \frac{\text{rev}}{\text{min}} \times \frac{2\pi \text{rad}}{1 \text{rev}} \times \frac{1 \text{min}}{60 \s} = 2.09 \text{ rad/s} $$
 
 Rotational kinetic energy:
 
@@ -820,13 +820,13 @@ $$ I = \frac{1}{2}M(R_1^2 + R_2^2) = \frac{1}{2}(12.0 \kg)\left[(0.280 \m)^2 + (
 </div>
 
 <div class="equation">
-$$ I = \frac{1}{2}(12.0 \kg)(0.0784 + 0.1089) \text{ m}^2 = \frac{1}{2}(12.0 \kg)(0.1873 \text{ m}^2) = 1.1238 \kg \cdot \mm $$
+$$ I = \frac{1}{2}(12.0 \kg)(0.0784\mm + 0.1089\mm) = \frac{1}{2}(12.0 \kg)(0.1873 \text{ m}^2) = 1.1238 \kg \cdot \mm $$
 </div>
 
 Now calculate the rotational kinetic energy:
 
 <div class="equation">
-$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(1.1238 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.1238)(14400) \J = 8.09 \times 10^3 \J $$
+$$ \KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(1.1238 \kg \cdot \mm)(120 \text{ rad/s})^2 = \frac{1}{2}(1.1238\kg\cdot\mm)(14400\text{ s}^{-2}) = 8.09 \times 10^3 \J $$
 </div>
 
 **Discussion**
@@ -1008,7 +1008,7 @@ $$ E_f = 45000 \J + (98000 \N)h \J $$
 Accounting for 90% efficiency, the available energy is:
 
 <div class="equation">
-$$ E_{\text{available}} = 0.900(2.21 \times 10^6) = 1.99 \times 10^6 \J $$
+$$ E_{\text{available}} = 0.900(2.21 \times 10^6 \J) = 1.99 \times 10^6 \J $$
 </div>
 
 Setting $$ E_{\text{available}} = E_f $$:
@@ -1453,7 +1453,7 @@ $$ PE = mgh = (200 \kg)(9.80 \text{ m/s}^2)(35.0 \m) = 68600 \J $$
 Energy lost to friction:
 
 <div class="equation">
-$$ E_{\text{lost}} = KE_{\text{total}} - PE = 99288 - 68600 = 30688 \J \approx 30.7 \text{ kJ} $$
+$$ E_{\text{lost}} = KE_{\text{total}} - PE = 99288 \J - 68600 \J = 30688 \J \approx 30.7 \text{ kJ} $$
 </div>
 
 **Discussion**

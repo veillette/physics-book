@@ -389,8 +389,7 @@ $$ y=y_{0}+v_{0}t+\frac{1}{2}a t^{2} $$ to solve for $$ t $$. Inserting $$ a=-g 
 $$ \begin{array}{lll}
 y&=& 0+0-\frac{1}{2}g t^{2} \\
 t^{2}&=& \frac{2y}{-g}\\
-t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.
-80 \mss }}= \pm \sqrt{6.12 \s^{2}}=2.47 \s \approx 2.5 \s
+t&=& \pm \sqrt{\frac{2y}{-g}}= \pm \sqrt{\frac{2\left(-30.0 \m \right)}{-9.80 \mss }}= \pm \sqrt{6.12 \s^{2}}=2.47 \s \approx 2.5 \s
 \end{array} $$
 </div>
 
@@ -1318,7 +1317,7 @@ $$ v_0^2 = 2(9.80 \mss)(2.50 \m) = 49.0 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{49.0 \text{m}^2/\text{s}^2} = 7.00 \ms $$
+$$ v_0 = \sqrt{49.0 \mmss} = 7.00 \ms $$
 </div>
 
 __(b) Time in the air:__
@@ -1332,11 +1331,11 @@ $$ v = v_0 + at $$
 
 2. At maximum height, $$ v = 0 $$:
 <div class="equation">
-$$ 0 = 7.00 + (-9.80)t $$
+$$ 0 = 7.00 \ms + (-9.80 \mss)t $$
 </div>
 
 <div class="equation">
-$$ 9.80t = 7.00 $$
+$$ (9.80 \mss)t = 7.00 \ms $$
 </div>
 
 <div class="equation">
@@ -1345,7 +1344,7 @@ $$ t = \frac{7.00 \ms}{9.80 \mss} = 0.714 \s $$
 
 3. This is the time to reach maximum height. By symmetry, the total time in the air is:
 <div class="equation">
-$$ t_{total} = 2 \s \times 0.714 \s = 1.43 \s $$
+$$ t_{total} = 2 \times 0.714 \s = 1.43 \s $$
 </div>
 
 **Discussion**
@@ -1509,7 +1508,7 @@ $$ v^2 = 1470 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{1470 \text{m}^2/\text{s}^2} = 38.3 \ms $$
+$$ v = \sqrt{1470 \mmss} = 38.3 \ms $$
 </div>
 
 __(c) Distance traveled during the last second:__
@@ -1622,7 +1621,7 @@ $$ 250 \m = 0 + 0 + \frac{1}{2}(9.80 \mss)t_{fall}^2 $$
 </div>
 
 <div class="equation">
-$$ t_{fall} = \sqrt{\frac{2(250 \m)}{9.80 \mss}} = \sqrt{51.02 \text{s}^2 (\s)^2} = 7.1429 \s $$
+$$ t_{fall} = \sqrt{\frac{2(250 \m)}{9.80 \mss}} = \sqrt{51.02 \s^2} = 7.1429 \s $$
 </div>
 
 2. Time for the sound of the rock breaking loose to travel down 250 m to the tourist:
@@ -1699,7 +1698,7 @@ $$ 2.00 \m = v_{bottom}(0.312 \s) + \frac{1}{2}(-9.80 \mss)(0.312 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ 2.00 \m = v_{bottom}(0.312 \s) - 4.90(0.0973) $$
+$$ 2.00 \m = v_{bottom}(0.312 \s) - 4.90 \mss(0.0973 \text{s}^2) $$
 </div>
 
 <div class="equation">
@@ -1743,7 +1742,7 @@ $$ v_0^2 = 63.0 \mmss + 147 \mmss = 210 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{210 \text{m}^2/\text{s}^2} = 14.5 \ms $$
+$$ v_0 = \sqrt{210 \mmss} = 14.5 \ms $$
 </div>
 
 **Discussion**
@@ -1964,7 +1963,7 @@ $$ v_0^2 = 2(9.80 \mss)(1.45 \m) = 28.42 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{28.42 \text{m}^2/\text{s}^2} = +5.33 \ms $$
+$$ v_0 = \sqrt{28.42 \mmss} = +5.33 \ms $$
 </div>
 
 __(c) Acceleration during contact with the floor:__
@@ -2155,7 +2154,7 @@ $$ t = \frac{10.0 \ms + 77.33 \ms}{9.80 \mss} = \frac{87.33 \ms}{9.80 \mss} = 8.
 
 **Discussion**
 
-This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0 \ms}{9.80 \mss} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300)}{9.80 \mss}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
+This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0 \ms}{9.80 \mss} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300 \m)}{9.80 \mss}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
 
 **Answer**
 
@@ -2245,7 +2244,7 @@ $$ v_0^2 = 2(9.80 \mss)(1.10 \m) = 21.56 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{21.56 \text{m}^2/\text{s}^2} = +4.64 \ms $$
+$$ v_0 = \sqrt{21.56 \mmss} = +4.64 \ms $$
 </div>
 
 __(c) Acceleration during contact with the floor:__

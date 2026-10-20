@@ -1052,9 +1052,9 @@ $$ v_{fy} = v \sin 60^\circ = (10 \ms)(0.866) = 8.66 \ms $$
 
 Calculate the change in momentum components:
 
-$$ \Delta p_x = m(v_{fx} - v_{ix}) = (0.055 \kg)(-5.00 - 5.00) \ms = -0.55 \kg \cdot \ms $$
+$$ \Delta p_x = m(v_{fx} - v_{ix}) = (0.055 \kg)(-5.00\ms - 5.00\ms) = -0.55 \kg \cdot \ms $$
 
-$$ \Delta p_y = m(v_{fy} - v_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
+$$ \Delta p_y = m(v_{fy} - v_{iy}) = (0.055 \kg)(8.66\ms - 8.66\ms) = 0 $$
 
 Find the magnitude of the impulse:
 
@@ -1153,7 +1153,7 @@ Calculate the impulse components:
 
 $$ J_x = p_{fx} - p_{ix} = 0.775 \text{kg}\cdot\text{m/s} - 0 = 0.775 \kg \cdot \ms $$
 
-$$ J_y = p_{fy} - p_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
+$$ J_y = p_{fy} - p_{iy} = 1.11 \text{kg}\cdot\text{m/s} - (-0.332 \text{kg}\cdot\text{m/s}) = 1.44 \kg \cdot \ms $$
 
 Find the magnitude and direction:
 

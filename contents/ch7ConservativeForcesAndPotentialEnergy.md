@@ -459,8 +459,8 @@ Substituting known values:
 <div class="equation">
 $$ \begin{array}{lll}
 h &=& \frac{(2.50 \times 10^{4}\text{N/m})(0.120\m)^{2}}{2(40.0\kg)(9.80\mss)}\\
-h &=& \frac{(2.50 \times 10^{4})(0.0144)}{784}\m\\
-h &=& \frac{360}{784}\m = 0.459\m
+h &=& \frac{(2.50 \times 10^{4}\text{ N/m})(0.0144\mm)}{784\N}\\
+h &=& \frac{360\N\cdot\m}{784\N} = 0.459\m
 \end{array} $$
 </div>
 

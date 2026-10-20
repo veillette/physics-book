@@ -157,7 +157,7 @@ value of $$ v^{\prime}_{1} $$ is used to find the velocity of the second object
 after the collision, we get
 
 <div class="equation">
- $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right)=\frac{0.500 \kg }{3.50 \kg }\left[4.00-\left(-3.00\right)\right] \ms $$
+ $$ v^{\prime}_{2}=\frac{ m_{1}}{ m_{2}}\left(v_{1}-v^{\prime}_{1}\right)=\frac{0.500 \kg }{3.50 \kg }\left[4.00\ms-\left(-3.00\ms\right)\right] $$
 </div>
 
 or

@@ -460,7 +460,7 @@ Apply the rocket velocity equation:
 
 $$ \Delta v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
-$$ \Delta v = (8.00 \times 10^{6} \ms) \ln\left(\frac{20\,000}{19\,960}\right) $$
+$$ \Delta v = (8.00 \times 10^{6} \ms) \ln\left(\frac{20\,000 \kg}{19\,960 \kg}\right) $$
 
 $$ \Delta v = (8.00 \times 10^{6} \ms) \ln(1.002) = (8.00 \times 10^{6} \ms)(0.002) = 1.60 \times 10^{4} \ms $$
 
@@ -476,7 +476,7 @@ With negligible gravity, the rocket acceleration equation becomes:
 
 $$ a = \frac{v_{\text{e}}}{m}\frac{\Delta m}{\Delta t} $$
 
-$$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) = (400 \text{ m/kg})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
+$$ a = \frac{8.00 \times 10^{6} \ms}{20\,000 \kg}(4.50 \times 10^{-6} \text{ kg/s}) = (400 \text{ m/(kg}\cdot\text{s)})(4.50 \times 10^{-6} \text{ kg/s}) = 1.80 \times 10^{-3} \mss $$
 
 The acceleration is $$ 1.80 \times 10^{-3} \mss $$ (about 1.80 mm/s²).
 
@@ -793,7 +793,7 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 
 Solving for initial speed:
 
-$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} = \sqrt{\frac{294 \mmss}{0.643}} = \sqrt{457 \text{m}^2/\text{s}^2} = 21.4 \ms $$
+$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} = \sqrt{\frac{294 \mmss}{0.643}} = \sqrt{457 \mmss} = 21.4 \ms $$
 
 The squid would need an initial speed of approximately $$ 21.4 \ms $$ (about 77 km/h or 48 mph).
 

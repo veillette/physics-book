@@ -436,7 +436,7 @@ Final kinetic energy (both skaters moving together):
 
 $$ \KE_{f} = \frac{1}{2}(m_1 + m_2) v_f^2 = \frac{(m_1 v_1)^2}{2(m_1 + m_2)} = \frac{(240 \kg \cdot \ms)^2}{2(135 \kg)} = 213.3 \J $$
 
-(Using the unrounded $$ v_f = 240/135 \ms $$ avoids the rounding error that $$ 1.78 \ms $$ would introduce.)
+(Using the unrounded $$ v_f = \frac{240\kg\cdot\ms}{135\kg} $$ avoids the rounding error that $$ 1.78 \ms $$ would introduce.)
 
 Kinetic energy lost:
 
@@ -498,7 +498,7 @@ $$ \KE_{i} = \frac{1}{2}(110 \kg)(8.00 \ms)^2 + \frac{1}{2}(0.410 \kg)(25.0 \ms)
 
 Subtracting two large, nearly equal energies amplifies rounding errors (with $$ v_f $$ rounded to 8.06 m/s, the difference comes out as 62 J). Instead, use the exact result for a perfectly inelastic collision, which depends only on the reduced mass and the relative velocity:
 
-$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110)(0.410)}{110.41}\right)\text{kg}\,(8.00 - 25.0)^2 \text{ m}^2/\text{s}^2 = 59.0 \J $$
+$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110\kg)(0.410\kg)}{110.41\kg}\right)(8.00\ms - 25.0\ms)^2 = 59.0 \J $$
 
 The kinetic energy lost is 59.0 J.
 
@@ -514,7 +514,7 @@ $$ v_f = \frac{869.75 \kg \cdot \ms}{110.41 \kg} = 7.88 \ms $$
 
 Energy loss for opposite direction:
 
-$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110)(0.410)}{110.41}\right)\text{kg}\,(8.00 + 25.0)^2 \text{ m}^2/\text{s}^2 = 222 \J $$
+$$ \Delta \KE_{\text{loss}} = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2}\right)(v_1 - v_2)^2 = \frac{1}{2}\left(\frac{(110\kg)(0.410\kg)}{110.41\kg}\right)(8.00\ms + 25.0\ms)^2 = 222 \J $$
 
 The kinetic energy lost is 222 J.
 
@@ -805,11 +805,11 @@ Substitute $$ v_2 = -3.2 v_1 $$:
 
 $$ \frac{1}{2}(4800 \kg) v_1^2 + \frac{1}{2}(1500 \kg)(-3.2 v_1)^2 = 5000 \J $$
 
-$$ 2400 v_1^2 + 750(10.24) v_1^2 = 5000 $$
+$$ 2400 \kg v_1^2 + 750 \kg(10.24) v_1^2 = 5000 \J $$
 
-$$ 2400 v_1^2 + 7680 v_1^2 = 5000 $$
+$$ 2400 \kg v_1^2 + 7680 \kg v_1^2 = 5000 \J $$
 
-$$ 10080 v_1^2 = 5000 $$
+$$ 10080 \kg v_1^2 = 5000 \J $$
 
 $$ v_1 = \sqrt{\frac{5000 \J}{10080 \kg}} = 0.704 \ms $$
 
@@ -938,7 +938,7 @@ Substituting $$ v_{\text{U}} = -0.01704 v_{\text{He}} $$:
 
 $$ \frac{1}{2}(6.68 \times 10^{-27} \kg) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25} \kg)(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
-$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
+$$ (3.34 \times 10^{-27} \kg + 5.69 \times 10^{-29} \kg) v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
 $$ (3.40 \times 10^{-27} \kg) v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 

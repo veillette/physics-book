@@ -311,7 +311,7 @@ The smaller child sits **1.80 m** from the pivot point.
 
 **Discussion**
 
-As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = \frac{30.0 \kg}{20.0 \kg} = 1.5 $$. We can verify: $$ r_2 = 3.00 \m - 1.80 \m = 1.20 \m $$, and indeed $$ 1.80/1.20 = 1.5 $$. This is the same principle used in balance scales and lever systems.
+As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = \frac{30.0 \kg}{20.0 \kg} = 1.5 $$. We can verify: $$ r_2 = 3.00 \m - 1.80 \m = 1.20 \m $$, and indeed $$ \frac{1.80 \m}{1.20 \m} = 1.5 $$. This is the same principle used in balance scales and lever systems.
 
 :::
 

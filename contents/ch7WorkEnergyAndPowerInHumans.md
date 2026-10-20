@@ -588,7 +588,7 @@ where $$ P_{\text{in}} = (2.00\text{ L/min})(20\text{ kJ/L})(1\text{ min}/60\s) 
 
 **Discussion**
 
-The treadmill subject has an efficiency of approximately 15.0%, which is typical for sustained aerobic exercise. This means that only about 15% of the metabolic energy is converted to useful mechanical work, while the remaining 85% is converted to thermal energy (heat). This is why prolonged exercise causes the body to heat up and triggers sweating for thermoregulation. [Table 2](#Table2) lists 700 W of metabolic power at 2.00 L/min for fast cycling; using that rounded table value would give $$ 100/700 = 14.3\% $$, but the problem’s oxygen-to-energy rule and the given 2.00 L/min rate are the consistent basis for the 15.0% result here.
+The treadmill subject has an efficiency of approximately 15.0%, which is typical for sustained aerobic exercise. This means that only about 15% of the metabolic energy is converted to useful mechanical work, while the remaining 85% is converted to thermal energy (heat). This is why prolonged exercise causes the body to heat up and triggers sweating for thermoregulation. [Table 2](#Table2) lists 700 W of metabolic power at 2.00 L/min for fast cycling; using that rounded table value would give $$ \frac{100 \text{ W}}{700 \text{ W}} \times 100\% = 14.3\% $$, but the problem’s oxygen-to-energy rule and the given 2.00 L/min rate are the consistent basis for the 15.0% result here.
 
 :::
 

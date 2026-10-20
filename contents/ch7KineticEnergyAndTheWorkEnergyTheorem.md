@@ -582,7 +582,7 @@ Calculate kinetic energy:
 <div class="equation">
 $$ \begin{array}{lll}
 \KE &=& \frac{1}{2}mv^{2} = \frac{1}{2}(9.00 \times 10^{7}\kg)(15.4\ms)^{2}\\
-\KE &=& \frac{1}{2}(9.00 \times 10^{7})(237.16)\J\\
+\KE &=& \frac{1}{2}(9.00 \times 10^{7}\kg)(237.16\mmss)\\
 \KE &=& 1.07 \times 10^{10}\J \approx 1.1 \times 10^{10}\J
 \end{array} $$
 </div>
@@ -814,7 +814,7 @@ Calculate the change in kinetic energy:
 $$ \begin{array}{lll}
 \Delta \KE &=& \frac{1}{2}m(v_{f}^{2} - v_{i}^{2})\\
 \Delta \KE &=& \frac{1}{2}(60.0\kg)[(8.00\ms)^{2} - (2.00\ms)^{2}]\\
-\Delta \KE &=& \frac{1}{2}(60.0\kg)(64.0 - 4.00)\text{ m}^{2}/\text{s}^{2}\\
+\Delta \KE &=& \frac{1}{2}(60.0\kg)(64.0\mmss - 4.00\mmss)\\
 \Delta \KE &=& 1800\J
 \end{array} $$
 </div>

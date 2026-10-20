@@ -599,7 +599,7 @@ $$v_f = \sqrt{v_0^2 - 2gh} = \sqrt{(2.00\ms)^2 - 2(9.80\mss)(0.180\m)}$$
 </div>
 
 <div class="equation">
-$$v_f = \sqrt{4.00 \text{m}^2/\text{s}^2 - 3.528 \text{m}^2/\text{s}^2} = \sqrt{0.472 \text{m}^2/\text{s}^2} = 0.687\ms$$
+$$v_f = \sqrt{4.00 \mmss - 3.528 \mmss} = \sqrt{0.472 \mmss} = 0.687\ms$$
 </div>
 
 **Discussion**
@@ -660,7 +660,7 @@ $$\begin{array}{lll}
 \frac{1}{2}mv_{0}^{2} + mgh &=& \frac{1}{2}mv^{2}\\
 v &=& \sqrt{v_{0}^{2} + 2gh}\\
 v &=& \sqrt{(2.50\ms)^{2} + 2(9.80\mss)(35.0\m)}\\
-v &=& \sqrt{6.25 + 686}\text{ m/s} = \sqrt{692.25}\text{ m/s}\\
+v &=& \sqrt{6.25\mmss + 686\mmss} = \sqrt{692.25\mmss}\\
 v &=& 26.3\ms
 \end{array}$$
 </div>

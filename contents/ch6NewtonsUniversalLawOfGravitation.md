@@ -738,7 +738,7 @@ they are equal and why they should or should not be.
 The distance from the center of mass to the Moon is:
 - Earth-Moon distance: $$ 3.84 \times 10^{8} $$ m
 - Distance from Earth's center to center of mass: $$ r_1 = 4.70 \times 10^{6} $$ m
-- Distance from center of mass to Moon: $$ r_2 = 3.84 \times 10^{8} - 4.70 \times 10^{6} = 3.793 \times 10^{8} $$ m
+- Distance from center of mass to Moon: $$ r_2 = 3.84 \times 10^{8} \m - 4.70 \times 10^{6} \m = 3.793 \times 10^{8} \m $$ m
 
 Using:
 - Mass of Moon: $$ M_{\text{Moon}} = 7.35 \times 10^{22} $$ kg

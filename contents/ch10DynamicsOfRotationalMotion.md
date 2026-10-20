@@ -850,7 +850,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{28.0 \times 3600 \s} = 6.24 \times 10^{
 The required change in angular velocity:
 
 <div class="equation">
-$$ \Delta\omega = \omega_{0} - \omega = 7.2722 \times 10^{-5} - 6.2333 \times 10^{-5} = 1.0389 \times 10^{-5} \text{ rad/s} $$
+$$ \Delta\omega = \omega_{0} - \omega = 7.2722 \times 10^{-5} \rads - 6.2333 \times 10^{-5} \rads = 1.0389 \times 10^{-5} \text{ rad/s} $$
 </div>
 
 Earth's moment of inertia (approximating as a uniform solid sphere, M = 5.97 × 10²⁴ kg, R = 6.37 × 10⁶ m):

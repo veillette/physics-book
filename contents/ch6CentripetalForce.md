@@ -571,7 +571,7 @@ $$v = 105\frac{\text{km}}{\text{h}} \times \frac{1000\text{ m}}{1\text{ km}} \ti
 Convert the radius to meters:
 
 <div class="equation">
-$$r = 1.20\text{ km} \times 1000 = 1200\text{ m}$$
+$$r = 1.20\text{ km} \times \frac{1000 \m}{1 \text{ km}} = 1200\text{ m}$$
 </div>
 
 Calculate the ideal banking angle:
@@ -834,7 +834,7 @@ what the angle $$\theta$$ should be.)
 
 **Strategy**
 
-(a) We'll use $$a_c = r\omega^{2}$$ with $$a_c = 10g = 98.0$$ m/s² and solve for $$\omega$$.
+(a) We'll use $$a_c = r\omega^{2}$$ with $$a_c = 10g = 98.0 \mss$$ m/s² and solve for $$\omega$$.
 (b) We'll draw a free body diagram and use the fact that the cage hangs at an angle where the arm force can simultaneously provide the centripetal force and support the weight. Using geometry, $$\tan\theta = \frac{g}{a_c}$$.
 
 **Solution**

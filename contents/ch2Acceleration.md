@@ -750,7 +750,7 @@ $$ a = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{282 \ms - 
 
 3. Express in multiples of g:
 <div class="equation">
-$$ \frac{a}{g} = \frac{56.4 \mss}{9.80 \mss} = 5.76g $$
+$$ \frac{a}{g} = \frac{56.4 \mss}{9.80 \mss} = 5.76 $$
 </div>
 
 **(b) Deceleration phase:**
@@ -767,7 +767,7 @@ $$ a = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac{0 - 282 \m
 
 3. Express in multiples of g:
 <div class="equation">
-$$ \frac{|a|}{g} = \frac{201 \mss}{9.80 \mss} = 20.5g $$
+$$ \frac{|a|}{g} = \frac{201 \mss}{9.80 \mss} = 20.5 $$
 </div>
 
 **Discussion**
@@ -882,7 +882,7 @@ $$ \overline{a} = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{\Delta t} = \frac
 
 3. Express in multiples of g:
 <div class="equation">
-$$ \frac{\overline{a}}{g} = \frac{108 \mss}{9.80 \mss} = 11.0g $$
+$$ \frac{\overline{a}}{g} = \frac{108 \mss}{9.80 \mss} = 11.0 $$
 </div>
 
 **Discussion**

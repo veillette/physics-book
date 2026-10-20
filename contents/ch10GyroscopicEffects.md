@@ -180,7 +180,7 @@ $$ \Delta L = 2L\sin 23.5° = 2(7.07 \times 10^{33} \text{kg}\cdot\text{m}^2/\te
 
 **(b)** Half the precession period is $$ \Delta t = \frac{1}{2}(25\,780 \text{ y})(3.156 \times 10^{7} \text{ s/y}) = 4.07 \times 10^{11} \s $$:
 <div class="equation">
-$$ \tau_{\text{avg}} = \frac{\Delta L}{\Delta t} = \frac{5.64 \times 10^{33}}{4.07 \times 10^{11} \s} = 1.39 \times 10^{22} \N \cdot \m $$
+$$ \tau_{\text{avg}} = \frac{\Delta L}{\Delta t} = \frac{5.64 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s}}{4.07 \times 10^{11} \s} = 1.39 \times 10^{22} \N \cdot \m $$
 </div>
 
 This is the average of the torque's effect over half a period; the actual torque has constant magnitude but continually changes direction as it turns $$ \vb{L} $$ around the cone.

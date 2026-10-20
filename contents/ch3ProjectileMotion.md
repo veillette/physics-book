@@ -467,7 +467,7 @@ The direction $$\theta_{v} $$ is found from the equation:
 so that
 
 <div class="equation">
- $$\theta_{v}={\tan}^{-1}\left(-24.5 \ms/20.5 \ms\right)={\tan}^{-1}\left(-1.19\right). $$
+ $$\theta_{v}={\tan}^{-1}\left(\frac{-24.5 \ms}{20.5 \ms}\right)={\tan}^{-1}\left(-1.19\right). $$
 </div>
 
 Thus,
@@ -805,7 +805,7 @@ The horizontal velocity remains constant: $$ v_x = 16 \ms $$
 Calculate the total speed:
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(16 \ms)^2 + (-12 \ms)^2} = \sqrt{256 + 144} \mmss = \sqrt{400} \mmss = 20 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(16 \ms)^2 + (-12 \ms)^2} = \sqrt{256 \mmss + 144 \mmss} = \sqrt{400 \mmss} = 20 \ms $$
 </div>
 
 **(b) Time in the air:**
@@ -921,7 +921,7 @@ The horizontal component remains: $$ v_x = 28.6 \ms $$
 Magnitude:
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(28.6 \ms)^2 + (34.3 \ms)^2} = \sqrt{818 + 1176} \mmss = 44.7 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(28.6 \ms)^2 + (34.3 \ms)^2} = \sqrt{818 \mmss + 1176 \mmss} = 44.7 \ms $$
 </div>
 
 Direction (angle below horizontal):
@@ -1080,7 +1080,7 @@ Both launch angles clear the branch. Measure height **above the release height**
 **Low trajectory (θ = 18.4°):**
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta = 35.0 \times \cos(18.4°) = 35.0 \ms \times 0.949 = 33.2 \ms $$
+$$ v_{0x} = v_0 \cos\theta = 35.0 \ms \times \cos(18.4°) = 35.0 \ms \times 0.949 = 33.2 \ms $$
 </div>
 
 <div class="equation">
@@ -1088,7 +1088,7 @@ $$ t = \frac{x}{v_{0x}} = \frac{37.5 \m}{33.2 \ms} = 1.13 \s $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = 35.0 \times \sin(18.4°) = 35.0 \ms \times 0.316 = 11.1 \ms $$
+$$ v_{0y} = v_0 \sin\theta = 35.0 \ms \times \sin(18.4°) = 35.0 \ms \times 0.316 = 11.1 \ms $$
 </div>
 
 <div class="equation">
@@ -1583,7 +1583,7 @@ $$ v_y = v_{0y} - gt = 26.0 \ms - (9.80 \mss)(4.0 \s) = 26.0 \ms - 39.2 \ms = -1
 The speed (magnitude of velocity):
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(15 \ms)^2 + (-13.2 \ms)^2} = \sqrt{225 \text{m}^2/\text{s}^2 + 174 \text{m}^2/\text{s}^2} = \sqrt{399 \text{m}^2/\text{s}^2} = 20.0 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(15 \ms)^2 + (-13.2 \ms)^2} = \sqrt{225 \mmss + 174 \mmss} = \sqrt{399 \mmss} = 20.0 \ms $$
 </div>
 
 **Discussion**
@@ -1655,7 +1655,7 @@ $$ v_0^2 = 2 \times 12.25 \mss \times 0.600 \m = 14.7 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{14.7 \text{m}^2/\text{s}^2} = 3.83 \ms $$
+$$ v_0 = \sqrt{14.7 \mmss} = 3.83 \ms $$
 </div>
 
 **Step 2: Calculate the range**
@@ -1787,11 +1787,11 @@ Take $$ +x $$ horizontal toward the net and $$ +y $$ up, with the origin on the 
 The velocity components are (with $$ \theta $$ below horizontal, so $$ v_{0y} $$ is negative):
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta = 47.2 \cos\theta $$
+$$ v_{0x} = v_0 \cos\theta = 47.2 \ms \cos\theta $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = -v_0 \sin\theta = -47.2 \sin\theta $$
+$$ v_{0y} = -v_0 \sin\theta = -47.2 \ms \sin\theta $$
 </div>
 
 Time to reach the net:
@@ -1867,7 +1867,7 @@ $$ t = \frac{-5.00 \ms + \sqrt{25.0 \mmss + 49.0 \mmss}}{9.80 \mss} = \frac{-5.0
 Horizontal distance:
 
 <div class="equation">
-$$ x = v_{0x}t = 46.9 \m \times 0.367 \s = 17.2 \m $$
+$$ x = v_{0x}t = 46.9 \ms \times 0.367 \s = 17.2 \m $$
 </div>
 
 Distance from net:
@@ -1938,7 +1938,7 @@ $$ v_0^2 = \frac{Rg}{\sin(2\theta)} = \frac{(18.0 \m)(9.80 \mss)}{\sin(50°)} = 
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{230 \text{m}^2/\text{s}^2} = 15.2 \ms $$
+$$ v_0 = \sqrt{230 \mmss} = 15.2 \ms $$
 </div>
 
 **(b) Time to reach the receiver:**
@@ -2131,7 +2131,7 @@ $$ v_y^2 = v_{0y}^2 - 2g\Delta y = 0^2 - 2(9.80 \mss)(-5.00 \m) = 98.0 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_y = \sqrt{98.0 \text{m}^2/\text{s}^2} = 9.90 \ms $$ (downward)
+$$ v_y = \sqrt{98.0 \mmss} = 9.90 \ms $$ (downward)
 </div>
 
 **Step 2: Find horizontal velocity component**
@@ -2145,7 +2145,7 @@ $$ v_x = v_{0x} = 3.00 \ms $$
 **Step 3: Calculate the magnitude of velocity**
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00 \ms)^2 + (9.90 \ms)^2} = \sqrt{9.00 \text{m}^2/\text{s}^2 + 98.0 \text{m}^2/\text{s}^2} = \sqrt{107 \text{m}^2/\text{s}^2} = 10.3 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00 \ms)^2 + (9.90 \ms)^2} = \sqrt{9.00 \mmss + 98.0 \mmss} = \sqrt{107 \mmss} = 10.3 \ms $$
 </div>
 
 **Step 4: Find the direction**
@@ -2355,7 +2355,7 @@ $$ v_0^2 = \frac{7526 \text{m}^3/\text{s}^2}{22.8 \m} = 330 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{330 \text{m}^2/\text{s}^2} = 18.2 \ms $$
+$$ v_0 = \sqrt{330 \mmss} = 18.2 \ms $$
 </div>
 
 **Verification:**
@@ -2430,7 +2430,7 @@ $$ 95 \m - 92 \m = 3 \m $$
 To reach 95 m, the goalkeeper would need an initial speed of:
 
 <div class="equation">
-$$ v_0 = \sqrt{Rg} = \sqrt{95 \m \times 9.80 \mss} = \sqrt{931 \text{m}^2/\text{s}^2} = 30.5 \ms $$
+$$ v_0 = \sqrt{Rg} = \sqrt{95 \m \times 9.80 \mss} = \sqrt{931 \mmss} = 30.5 \ms $$
 </div>
 
 So the goalkeeper would need to kick just 0.5 m/s faster (about 2% harder) to reach the opponent's goal.
@@ -2493,13 +2493,13 @@ Origin at release point, x-axis horizontal (toward basket), y-axis vertical (up 
 Horizontal component (constant velocity):
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta = 8.15\cos\theta $$
+$$ v_{0x} = v_0 \cos\theta = 8.15 \ms\cos\theta $$
 </div>
 
 Vertical component (constant acceleration):
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = 8.15\sin\theta $$
+$$ v_{0y} = v_0 \sin\theta = 8.15 \ms\sin\theta $$
 </div>
 
 **Step 4: Apply kinematic equations**
@@ -2511,7 +2511,7 @@ $$ x = v_{0x}t $$
 </div>
 
 <div class="equation">
-$$ 4.57 = 8.15\cos\theta \cdot t $$
+$$ 4.57 \m = 8.15 \ms\cos\theta \cdot t $$
 </div>
 
 Solving for time:
@@ -2557,7 +2557,7 @@ $$ 0.61 \m = 4.57 \m\tan\theta - 1.54 \m - 1.54 \m\tan^{2}\theta $$
 </div>
 
 <div class="equation">
-$$ 1.54\tan^{2}\theta - 4.57\tan\theta + (1.54 + 0.61) = 0 $$
+$$ 1.54 \m\tan^{2}\theta - 4.57 \m\tan\theta + (1.54 \m + 0.61 \m) = 0 $$
 </div>
 
 <div class="equation">
@@ -2680,7 +2680,7 @@ $$ v_0^2 = \frac{4831 \text{m}^3/\text{s}^2}{21.44 \m} = 225.3 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{225.3 \text{m}^2/\text{s}^2} = 15.0 \ms $$
+$$ v_0 = \sqrt{225.3 \mmss} = 15.0 \ms $$
 </div>
 
 **Discussion**
@@ -2749,7 +2749,7 @@ $$ v_{0y}^2 = 2(9.80 \mss)(0.750 \m) = 14.7 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = \sqrt{14.7 \text{m}^2/\text{s}^2} = 3.83 \ms $$
+$$ v_{0y} = \sqrt{14.7 \mmss} = 3.83 \ms $$
 </div>
 
 **(b) Starting distance from basket:**
@@ -2763,7 +2763,7 @@ $$ v_y = v_{0y} - gt $$
 At maximum height, $$ v_y = 0 $$:
 
 <div class="equation">
-$$ 0 = 3.83 - (9.80)t $$
+$$ 0 = 3.83 \ms - (9.80 \mss)t $$
 </div>
 
 <div class="equation">
@@ -2840,7 +2840,7 @@ $$ R = \frac{v_0^2}{g} $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588 \text{m}^2/\text{s}^2} = 24.2 \ms $$
+$$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588 \mmss} = 24.2 \ms $$
 </div>
 
 **(b) Range with wind gust:**
@@ -2887,7 +2887,7 @@ Total horizontal distance:
 $$ R_{total} = x_1 + x_2 = 30.000 \m + 27.375 \m = 57.4 \m $$
 </div>
 
-Equivalently, the gust shortens the range by $$ (1.50 \ms)\,t_{down} $$, so $$ R' = 60.0 \m - 1.50\sqrt{30.0/9.80} \m = 57.3755 \m \approx 57.4 \m $$.
+Equivalently, the gust shortens the range by $$ (1.50 \ms)\,t_{down} $$, so $$ R' = 60.0 \m - (1.50 \ms)\sqrt{\frac{30.0 \m}{9.80 \mss}} = 57.3755 \m \approx 57.4 \m $$.
 </div>
 
 **Discussion**
@@ -3214,11 +3214,11 @@ $$ 1.0 \m = 20.0 \m\tan\theta - \frac{8.71 \m}{\cos^{2}\theta} $$
 
 Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$:
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - 8.71(1 + \tan^{2}\theta) $$
+$$ 1.0 \m = 20.0 \m\tan\theta - 8.71 \m(1 + \tan^{2}\theta) $$
 </div>
 
 <div class="equation">
-$$ 8.71\tan^{2}\theta - 20.0 \m\tan\theta + 9.71 \m = 0 $$
+$$ 8.71 \m\tan^{2}\theta - 20.0 \m\tan\theta + 9.71 \m = 0 $$
 </div>
 
 **Using quadratic formula** with $$ a = 8.71 $$, $$ b = -20.0 \m $$, $$ c = 9.71 \m $$:

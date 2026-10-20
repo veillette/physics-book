@@ -897,7 +897,7 @@ Total time:
 $$ t_{\text{total}} = 4 \s + 6.33 \s = 10.33 \s $$
 </div>
 
-By $$ t = 10 \s $$ the graph’s plateau has covered only $$ 24 + (12 \ms)(6 \s) = 96 \m $$, so the plotted motion alone does not reach 100 m until about 10.33 s if the 12 m/s speed continues.
+By $$ t = 10 \s $$ the graph’s plateau has covered only $$ 24 \m + (12 \ms)(6 \s) = 96 \m $$, so the plotted motion alone does not reach 100 m until about 10.33 s if the 12 m/s speed continues.
 
 **Discussion**
 

@@ -552,7 +552,7 @@ Energy per year:
 Converting to joules (1 kW·h = 3.6 × 10⁶ J):
 
 <div class="equation">
- $$ E_{\text{year}} = (1825\text{ kW}\cdot\text{h})(3.6 \times 10^{6}\text{ J/kW}\cdot\text{h}) = 6.57 \times 10^{9}\J $$
+ $$ E_{\text{year}} = (1825\text{ kW}\cdot\text{h})(3.6 \times 10^{6}\frac{\J}{\text{kW}\cdot\text{h}}) = 6.57 \times 10^{9}\J $$
 </div>
 
 **Discussion**
@@ -1092,7 +1092,7 @@ For part (b), the actual power collected per m² is $$ (1300\text{ W/m}^2)(0.02)
 <div class="equation">
 $$ \begin{array}{lll}
 \text{Power per m}^2 &=& \frac{4.00 \times 10^{26}\text{ W}}{4\pi(1.50 \times 10^{11}\m)^{2}}\\
-&=& \frac{4.00 \times 10^{26}}{2.83 \times 10^{23}}\text{ W/m}^2\\
+&=& \frac{4.00 \times 10^{26}\text{ W}}{2.83 \times 10^{23}\mm}\\
 &=& 1.41 \times 10^{3}\text{ W/m}^2 = 1.41\text{ kW/m}^2
 \end{array}
 $$

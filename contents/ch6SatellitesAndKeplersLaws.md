@@ -585,8 +585,8 @@ $$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{r_{\text{Io}}^3 / T_{\text
 </div>
 
 From Table 1, we can read the $$r^3/T^2$$ values directly:
-- Moon: $$r^3/T^2 = 1.01 \times 10^{19}$$ km³/y²
-- Io: $$r^3/T^2 = 3.19 \times 10^{21}$$ km³/y²
+- Moon: $$r^3/T^2 = 1.01 \times 10^{19} \text{m}^3/\text{s}^2$$ km³/y²
+- Io: $$r^3/T^2 = 3.19 \times 10^{21} \text{m}^3/\text{s}^2$$ km³/y²
 
 <div class="equation">
 $$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21} \text{m}^3/\text{s}^2}{1.01 \times 10^{19} \text{m}^3/\text{s}^2} = 316$$
@@ -626,7 +626,7 @@ very massive black holes at the centers of some galaxies.
 
 (a) Convert the given values to SI units:
 
-- Galaxy mass: $$M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} = 1.59 \times 10^{42}$$ kg
+- Galaxy mass: $$M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} \kg = 1.59 \times 10^{42} \kg$$ kg
 - Orbital radius: $$r = 6.0 \times 10^4 \text{ly} \times 9.46 \times 10^{15} \text{m/ly} = 5.68 \times 10^{20} \m$$ m
 
 Calculate the orbital period:
@@ -876,7 +876,7 @@ $$ v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{4.46 \times 10^{5} \text{m}^3/\text{s}^
 
 **(b)**
 <div class="equation">
-$$ g = \frac{GM}{R^2} = \frac{4.46 \times 10^{5}}{(8.42 \times 10^{3} \m)^2} = 6.29 \times 10^{-3} \mss $$
+$$ g = \frac{GM}{R^2} = \frac{4.46 \times 10^{5} \text{m}^3/\text{s}^2}{(8.42 \times 10^{3} \m)^2} = 6.29 \times 10^{-3} \mss $$
 </div>
 
 **(c)**

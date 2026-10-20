@@ -753,7 +753,7 @@ $$ F_y = F_{y,L} + F_{y,R} = 188 \N + 188 \N = 376 \N $$
 The horizontal components cancel due to symmetry. The total force is:
 
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 (\N)^2 + (376 \N)^2} = 376 \N $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 \N^2 + (376 \N)^2} = 376 \N $$
 </div>
 
 The total force is **376 N** directed vertically **upward** (the muscles pull up on the tendon, as shown in Figure 5).
@@ -816,7 +816,7 @@ $$ \vb{F}_{\text{kneecap on femur}} = (-1041 \N, -183 \N) $$
 The magnitude of this force:
 
 <div class="equation">
-$$ F = \sqrt{(-1041 \N)^2 + (-183 \N)^2} = \sqrt{1083681 (\N)^2 + 33489 (\N)^2} = \sqrt{1117170 (\N)^2} = 1057 \N \approx 1.06 \times 10^{3} \N $$
+$$ F = \sqrt{(-1041 \N)^2 + (-183 \N)^2} = \sqrt{1083681 \N^2 + 33489 \N^2} = \sqrt{1117170 \N^2} = 1057 \N \approx 1.06 \times 10^{3} \N $$
 </div>
 
 The direction: both components are negative, so the force lies in the third quadrant:
@@ -930,8 +930,8 @@ From [Figure 8](#Figure8):
 - Muscle force: $$ F_{\text{M}} = 60 \N $$ at $$ 33^\circ $$ below the horizontal, pulling to the right and down
 
 Components of the muscle force:
-- $$ F_{\text{M},x} = 60\cos{33^\circ} = 50.3 \N $$
-- $$ F_{\text{M},y} = -60\sin{33^\circ} = -32.7 \N $$
+- $$ F_{\text{M},x} = 60 \N\cos{33^\circ} = 50.3 \N $$
+- $$ F_{\text{M},y} = -60 \N\sin{33^\circ} = -32.7 \N $$
 
 For equilibrium, $$ \sum F_x = 0 $$ and $$ \sum F_y = 0 $$:
 
@@ -1478,7 +1478,7 @@ $$ \text{Total work} = 25 \times 118 \text{ J} = 2950 \text{ J} $$
 </div>
 
 <div class="equation">
-$$ P = \frac{\text{Work}}{\text{time}} = \frac{2950 \text{ J}}{60 \s} = 49.2 \W \approx 49.0 \W $$
+$$ P = \frac{\text{Work}}{\text{time}} = \frac{2950 \text{ J}}{60 \s} = 49.2 \text{W} \approx 49.0 \text{W} $$
 </div>
 
 **Discussion**
@@ -1714,7 +1714,7 @@ $$ m = \frac{R_1 + R_2}{g} = \frac{34.3 \N}{9.80 \mss} = 3.50 \kg $$
 $$ x = \frac{R_1 d_1 + R_2 d_2}{R_1 + R_2} = \frac{(26.7 \N)(0.200 \m) + (7.6 \N)(0.650 \m)}{34.3 \N} = 0.300 \m $$
 </div>
 
-The second configuration gives $$ x = [(24.5 \N)(0.200 \m) + (9.8 \N)(0.550 \m)]/34.3 \N = 0.300 \m $$ as well.
+The second configuration gives $$ x = \frac{(24.5 \N)(0.200 \m) + (9.8 \N)(0.550 \m)}{34.3 \N} = 0.300 \m $$ as well.
 
 **Discussion**
 

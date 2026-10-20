@@ -540,7 +540,7 @@ $$ \delta v = 90 \text{ km/h} \times \frac{5.0\%}{100\%} = 90 \text{ km/h} \time
 
 2. Calculate the range:
 <div class="equation">
-$$ v = 90 \pm 4.5 \text{ km/h} $$
+$$ v = (90 \pm 4.5) \text{ km/h} $$
 </div>
 
 <div class="equation">
@@ -903,7 +903,7 @@ This uncertainty level (about 2%) is typical for manual blood pressure measureme
 
 A person measures their heart rate by counting the number of beats in
  $$30 \s  $$. If  $$ 40 \pm 1  $$ beats are counted in
- $$ 30.0 \pm 0.5\s   $$,
+ $$ (30.0 \pm 0.5) \s   $$,
 what is the heart rate and its uncertainty in beats per minute?
 
 ::::
@@ -1105,8 +1105,8 @@ The extremely small percent uncertainties (0.06% and 0.01%) reflect the high pre
 
 :::: problem
 
-The sides of a small rectangular box are measured to be  $$ 1.80 \pm 0.01\text{cm}  $$,
- $$ 2.05 \pm 0.02\text{cm} $$,and  $$3.0 \pm 0.1 \text{cm}  $$
+The sides of a small rectangular box are measured to be  $$ (1.80 \pm 0.01) \text{cm}  $$,
+ $$ (2.05 \pm 0.02) \text{cm} $$,and  $$(3.0 \pm 0.1) \text{cm}  $$
 long. Calculate its volume and uncertainty in cubic centimeters.
 
 ::::
@@ -1149,14 +1149,14 @@ $$ \delta V = 11.07 \text{ cm}^{3} \times 0.048 = 0.54 \text{ cm}^{3} \approx 0.
 
 5. Keep guard digits until this step, then round the uncertainty to one significant figure and the volume to the same decimal place:
 <div class="equation">
-$$ V = 11.1 \pm 0.5 \text{ cm}^{3} $$
+$$ V = (11.1 \pm 0.5) \text{ cm}^{3} $$
 </div>
 
 **Discussion**
 
 This problem demonstrates how uncertainties accumulate in multi-dimensional calculations. The third dimension (3.0 ± 0.1 cm) has the largest percent uncertainty (3.3%), which dominates the total uncertainty. The final uncertainty of about 4.8% shows that when multiplying measurements, even small individual uncertainties can combine to produce significant uncertainty in the result. The volume of 11.1 cm³ with ±0.5 cm³ uncertainty means the actual volume could range from about 10.6 to 11.6 cm³. Rounding the percent uncertainty to 5% or the absolute uncertainty up to 1 cm³ before the last step would roughly double this interval, so retain guard digits until the end.
 
-**Answer:** $$ 11.1 \pm 0.5 \text{ cm}^{3} $$
+**Answer:** $$ (11.1 \pm 0.5) \text{ cm}^{3} $$
 
 ::::
 
@@ -1225,7 +1225,7 @@ This problem illustrates how conversion factors have their own uncertainties tha
 :::: problem
 
 The length and width of a rectangular room are measured to be
- $$ 3.955 \pm 0.005\m  $$ and  $$ 3.050 \pm 0.005\m  $$.
+ $$ (3.955 \pm 0.005) \m  $$ and  $$ (3.050 \pm 0.005) \m  $$.
 Calculate the area of the room and its uncertainty in square meters.
 
 ::::
@@ -1264,14 +1264,14 @@ $$ \delta A = 12.063 \mm \times 0.003 = 0.036 \mm \approx 0.04 \mm $$
 
 5. Round the area appropriately:
 <div class="equation">
-$$ A = 12.06 \pm 0.04 \mm $$
+$$ A = (12.06 \pm 0.04) \mm $$
 </div>
 
 **Discussion**
 
 The very small percent uncertainty (0.3%) indicates high-quality measurements, likely made with a precision measuring tape or laser distance meter. The absolute uncertainty of 0.04 m² means the actual area could range from about 12.02 to 12.10 m², which is excellent precision for a room measurement. This level of accuracy would be important for applications like ordering flooring materials where precise quantities are needed.
 
-**Answer:** $$ 12.06 \pm 0.04 \mm $$
+**Answer:** $$ (12.06 \pm 0.04) \mm $$
 
 ::::
 
@@ -1282,7 +1282,7 @@ The very small percent uncertainty (0.3%) indicates high-quality measurements, l
 :::: problem
 
 A car engine moves a piston with a circular cross-section of
- $$ 7.500 \pm 0.002\text{cm}  $$ diameter a distance of  $$ 3.250 \pm 0.001\text{cm}  $$
+ $$ (7.500 \pm 0.002) \text{cm}  $$ diameter a distance of  $$ (3.250 \pm 0.001) \text{cm}  $$
 to compress the gas in the cylinder.
 (a) By what amount is the gas decreased in
 volume in cubic centimeters?

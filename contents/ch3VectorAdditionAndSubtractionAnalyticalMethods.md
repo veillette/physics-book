@@ -121,10 +121,10 @@ following relationships:
 Note that the equation $$ A=\sqrt{ A_{x}^{2}+ A_{y}^{2}} $$ is just the
 Pythagorean theorem relating the legs of a right triangle to the length of the
 hypotenuse. For example, if $$ A_{x} $$ and $$ A_{y} $$ are 9 and 5 blocks,
-respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
+respectively, then $$ A=\sqrt{ (9 \text{blocks})^{2}+(5 \text{blocks})^{2}}=10.3 \text{blocks} $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is
 
-$$ \theta ={\tan}^{-1}\left(5 \m/9 \m \right) =29.1^\circ $$, as before.
+$$ \theta ={\tan}^{-1}\left(5 \text{blocks}/9 \text{blocks} \right) =29.1^\circ $$, as before.
 
 Be careful: a calculator's inverse tangent always returns an angle between
 $$ -90^\circ $$ and $$ +90^\circ $$. If $$ A_{x} $$ is negative, the vector
@@ -615,7 +615,7 @@ $$ R_{\text{north}} = -240 \m + 0 \m + 480 \m + 0 \m = 240 \m $$
 
 **Step 3: Calculate magnitude**
 <div class="equation">
-$$ R = \sqrt{R_{\text{east}}^2 + R_{\text{north}}^2} = \sqrt{(600 \m)^2 + (240 \m)^2} = \sqrt{360{,}000 (\m)^2 + 57{,}600 (\m)^2} = \sqrt{417{,}600 (\m)^2} = 646 \m $$
+$$ R = \sqrt{R_{\text{east}}^2 + R_{\text{north}}^2} = \sqrt{(600 \m)^2 + (240 \m)^2} = \sqrt{360{,}000 \mm + 57{,}600 \mm} = \sqrt{417{,}600 \mm} = 646 \m $$
 </div>
 
 **Step 4: Calculate direction**
@@ -670,11 +670,11 @@ Given:
 
 **East component:**
 <div class="equation">
-$$ R_{\text{east}} = R \cos\theta = 123 \times \cos(45^\circ) $$
+$$ R_{\text{east}} = R \cos\theta = 123 \text{km} \times \cos(45^\circ) $$
 </div>
 
 <div class="equation">
-$$ R_{\text{east}} = 123 \text{ km} \times 0.707 = 87.0 \text{ km} $$
+$$ R_{\text{east}} = 123 \text{km} \times 0.707 = 87.0 \text{ km} $$
 </div>
 
 **North component:**
@@ -683,12 +683,12 @@ $$ R_{\text{north}} = R \sin\theta = 123 \text{km} \times \sin(45^\circ) $$
 </div>
 
 <div class="equation">
-$$ R_{\text{north}} = 123 \text{ km} \times 0.707 = 87.0 \text{ km} $$
+$$ R_{\text{north}} = 123 \text{km} \times 0.707 = 87.0 \text{ km} $$
 </div>
 
 **Discussion**
 
-At 45°, the displacement is equally divided between the north and east directions, which is why both components are equal (87.0 km each). This makes sense geometrically: a 45° angle bisects the right angle between north and east, so the components must be equal. We can verify: $$ \sqrt{(87.0 \text{ km})^2 + (87.0 \text{ km})^2} = \sqrt{7569 (\text{ km})^2 + 7569 (\text{ km})^2} = \sqrt{15,138 (\text{ km})^2} = 123 \text{ km} $$ ✓. This confirms our component calculations are correct. The fact that Sacramento is northeast of San Francisco at exactly 45° creates this symmetric result.
+At 45°, the displacement is equally divided between the north and east directions, which is why both components are equal (87.0 km each). This makes sense geometrically: a 45° angle bisects the right angle between north and east, so the components must be equal. We can verify: $$ \sqrt{(87.0 \text{ km})^2 + (87.0 \text{ km})^2} = \sqrt{7569 \text{km}^2 + 7569 \text{km}^2} = \sqrt{15,138 \text{km}^2} = 123 \text{ km} $$ ✓. This confirms our component calculations are correct. The fact that Sacramento is northeast of San Francisco at exactly 45° creates this symmetric result.
 
 **Answer**
 
@@ -754,7 +754,7 @@ $$ R_N = A_N + B_N = 0 \m + 25.0 \m = 25.0 \m $$
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m $$
+$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 \mm + 625 \mm} = \sqrt{949 \mm} = 30.8 \m $$
 </div>
 
 **Direction:**
@@ -832,7 +832,7 @@ $$ R_N = B_N + A_N = 25.0 \m + 0 \m = 25.0 \m $$
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m $$
+$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 \mm + 625 \mm} = \sqrt{949 \mm} = 30.8 \m $$
 </div>
 
 **Direction:**
@@ -982,7 +982,7 @@ $$ R'_N = A_N - B_N = 0 \m - 25.0 \m = -25.0 \m $$
 **Magnitude:**
 
 <div class="equation">
-$$ R' = \sqrt{(-18.0 \m)^2 + (-25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m $$
+$$ R' = \sqrt{(-18.0 \m)^2 + (-25.0 \m)^2} = \sqrt{324 \mm + 625 \mm} = \sqrt{949 \mm} = 30.8 \m $$
 </div>
 
 **Direction:** Both components are negative (west and south), so the vector points southwest. Measured from the west axis,
@@ -1066,21 +1066,21 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the west corner. Going
 **Vector A** (80.0 m at 21° south of east):
 
 <div class="equation">
-$$ A_E = 80.0 \m\cos(21°) = 80.0(0.934) = 74.7 \m $$
+$$ A_E = 80.0 \m\cos(21°) = 80.0 \m(0.934) = 74.7 \m $$
 </div>
 
 <div class="equation">
-$$ A_N = -80.0 \m\sin(21°) = -80.0(0.358) = -28.6 \m $$
+$$ A_N = -80.0 \m\sin(21°) = -80.0 \m(0.358) = -28.6 \m $$
 </div>
 
 **Vector B** (105 m at 11° west of north):
 
 <div class="equation">
-$$ B_E = -105 \m\sin(11°) = -105(0.191) = -20.1 \m $$
+$$ B_E = -105 \m\sin(11°) = -105 \m(0.191) = -20.1 \m $$
 </div>
 
 <div class="equation">
-$$ B_N = 105 \m\cos(11°) = 105(0.982) = 103 \m $$
+$$ B_N = 105 \m\cos(11°) = 105 \m(0.982) = 103 \m $$
 </div>
 
 **Sum A + B:**
@@ -1106,7 +1106,7 @@ $$ C_N = -74.4 \m $$
 **Magnitude:**
 
 <div class="equation">
-$$ C = \sqrt{(-54.6 \m)^2 + (-74.4 \m)^2} = \sqrt{2981 (\m)^2 + 5535 (\m)^2} = \sqrt{8516 (\m)^2} = 92.3 \m $$
+$$ C = \sqrt{(-54.6 \m)^2 + (-74.4 \m)^2} = \sqrt{2981 \mm + 5535 \mm} = \sqrt{8516 \mm} = 92.3 \m $$
 </div>
 
 **Direction:**
@@ -1167,13 +1167,13 @@ Given: $$ R = 32.0 \text{ km} $$ at $$ 35.0° $$ south of west
 **West component:**
 
 <div class="equation">
-$$ R_W = R\cos(35.0°) = 32.0(0.819) = 26.2 \text{ km} $$
+$$ R_W = R\cos(35.0°) = 32.0 \text{km}(0.819) = 26.2 \text{ km} $$
 </div>
 
 **South component:**
 
 <div class="equation">
-$$ R_S = R\sin(35.0°) = 32.0(0.574) = 18.4 \text{ km} $$
+$$ R_S = R\sin(35.0°) = 32.0 \text{km}(0.574) = 18.4 \text{ km} $$
 </div>
 
 **(b) Components along rotated axes (45° south of west and 45° west of north):**
@@ -1183,13 +1183,13 @@ The displacement is 35° south of west. The new axes are at 45° south of west (
 **Component along 45° south of west:**
 
 <div class="equation">
-$$ R_{x'} = R\cos(10°) = 32.0(0.985) = 31.5 \text{ km} $$
+$$ R_{x'} = R\cos(10°) = 32.0 \text{km}(0.985) = 31.5 \text{ km} $$
 </div>
 
 **Component along 45° west of north:**
 
 <div class="equation">
-$$ R_{y'} = R\sin(10°) = 32.0(0.174) = 5.56 \text{ km} $$
+$$ R_{y'} = R\sin(10°) = 32.0 \text{km}(0.174) = 5.56 \text{ km} $$
 </div>
 
 Both components are positive: the displacement lies between the 45° south of west axis and the 45° west of north axis.
@@ -1238,31 +1238,31 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the start of $$ \vb{A}
 **Vector A** (4.70 km at 7.5° below horizontal, toward the east):
 
 <div class="equation">
-$$ A_E = 4.70 \text{ km}\cos(7.5°) = 4.70(0.991) = 4.66 \text{ km} $$
+$$ A_E = 4.70 \text{ km}\cos(7.5°) = 4.70 \text{km}(0.991) = 4.66 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ A_N = -4.70 \text{ km}\sin(7.5°) = -4.70(0.131) = -0.616 \text{ km} $$
+$$ A_N = -4.70 \text{ km}\sin(7.5°) = -4.70 \text{km}(0.131) = -0.616 \text{ km} $$
 </div>
 
 **Vector B** (2.48 km at 16° west of north):
 
 <div class="equation">
-$$ B_E = -2.48 \text{ km}\sin(16°) = -2.48(0.276) = -0.684 \text{ km} $$
+$$ B_E = -2.48 \text{ km}\sin(16°) = -2.48 \text{km}(0.276) = -0.684 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ B_N = 2.48 \text{ km}\cos(16°) = 2.48(0.961) = 2.38 \text{ km} $$
+$$ B_N = 2.48 \text{ km}\cos(16°) = 2.48 \text{km}(0.961) = 2.38 \text{ km} $$
 </div>
 
 **Vector C** (3.02 km at 19° north of west):
 
 <div class="equation">
-$$ C_E = -3.02 \text{ km}\cos(19°) = -3.02(0.946) = -2.86 \text{ km} $$
+$$ C_E = -3.02 \text{ km}\cos(19°) = -3.02 \text{km}(0.946) = -2.86 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ C_N = 3.02 \text{ km}\sin(19°) = 3.02(0.326) = 0.984 \text{ km} $$
+$$ C_N = 3.02 \text{ km}\sin(19°) = 3.02 \text{km}(0.326) = 0.984 \text{ km} $$
 </div>
 
 **Sum A + B + C:**
@@ -1288,7 +1288,7 @@ $$ D_N = -2.75 \text{ km} $$
 **Magnitude:**
 
 <div class="equation">
-$$ D = \sqrt{(-1.12 \text{ km})^2 + (-2.75 \text{ km})^2} = \sqrt{1.25 (\text{ km})^2 + 7.56 (\text{ km})^2} = \sqrt{8.81 (\text{ km})^2} = 2.97 \text{ km} $$
+$$ D = \sqrt{(-1.12 \text{ km})^2 + (-2.75 \text{ km})^2} = \sqrt{1.25 \text{km}^2 + 7.56 \text{km}^2} = \sqrt{8.81 \text{km}^2} = 2.97 \text{ km} $$
 </div>
 
 **Direction:**
@@ -1342,13 +1342,13 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the island. In the lis
 
 Keep four digits in each component so that rounding errors do not accumulate over seven terms (all in km):
 
-1. 2.50 km, 45° N of W: $$ E_1 = -2.50\cos(45°) = -1.768 $$, $$ N_1 = 2.50\sin(45°) = 1.768 $$
-2. 4.70 km, 60° S of E: $$ E_2 = 4.70\cos(60°) = 2.350 $$, $$ N_2 = -4.70\sin(60°) = -4.070 $$
-3. 1.30 km, 25° S of W: $$ E_3 = -1.30\cos(25°) = -1.178 $$, $$ N_3 = -1.30\sin(25°) = -0.5494 $$
-4. 5.10 km, E: $$ E_4 = 5.100 $$, $$ N_4 = 0 $$
-5. 1.70 km, 5° E of N: $$ E_5 = 1.70\sin(5°) = 0.1482 $$, $$ N_5 = 1.70\cos(5°) = 1.694 $$
-6. 7.20 km, 55° S of W: $$ E_6 = -7.20\cos(55°) = -4.130 $$, $$ N_6 = -7.20\sin(55°) = -5.898 $$
-7. 2.80 km, 10° N of E: $$ E_7 = 2.80\cos(10°) = 2.757 $$, $$ N_7 = 2.80\sin(10°) = 0.4862 $$
+1. 2.50 km, 45° N of W: $$ E_1 = -2.50 \text{km}\cos(45°) = -1.768 \text{km} $$, $$ N_1 = 2.50 \text{km}\sin(45°) = 1.768 \text{km} $$
+2. 4.70 km, 60° S of E: $$ E_2 = 4.70 \text{km}\cos(60°) = 2.350 \text{km} $$, $$ N_2 = -4.70 \text{km}\sin(60°) = -4.070 \text{km} $$
+3. 1.30 km, 25° S of W: $$ E_3 = -1.30 \text{km}\cos(25°) = -1.178 \text{km} $$, $$ N_3 = -1.30 \text{km}\sin(25°) = -0.5494 \text{km} $$
+4. 5.10 km, E: $$ E_4 = 5.100 \text{km} $$, $$ N_4 = 0 $$
+5. 1.70 km, 5° E of N: $$ E_5 = 1.70 \text{km}\sin(5°) = 0.1482 \text{km} $$, $$ N_5 = 1.70 \text{km}\cos(5°) = 1.694 \text{km} $$
+6. 7.20 km, 55° S of W: $$ E_6 = -7.20 \text{km}\cos(55°) = -4.130 \text{km} $$, $$ N_6 = -7.20 \text{km}\sin(55°) = -5.898 \text{km} $$
+7. 2.80 km, 10° N of E: $$ E_7 = 2.80 \text{km}\cos(10°) = 2.757 \text{km} $$, $$ N_7 = 2.80 \text{km}\sin(10°) = 0.4862 \text{km} $$
 
 **Sum of components:**
 
@@ -1363,7 +1363,7 @@ $$ R_N = 1.768 \text{ km} - 4.070 \text{ km} - 0.5494 \text{ km} + 0 \text{ km} 
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{(3.280 \text{ km})^2 + (-6.570 \text{ km})^2} = \sqrt{10.76 (\text{ km})^2 + 43.16 (\text{ km})^2} = \sqrt{53.92 (\text{ km})^2} = 7.343 \text{ km} \approx 7.34 \text{ km} $$
+$$ R = \sqrt{(3.280 \text{ km})^2 + (-6.570 \text{ km})^2} = \sqrt{10.76 \text{km}^2 + 43.16 \text{km}^2} = \sqrt{53.92 \text{km}^2} = 7.343 \text{ km} \approx 7.34 \text{ km} $$
 </div>
 
 **Direction:**
@@ -1417,21 +1417,21 @@ Find components of both flight segments, sum them, then calculate the resultant 
 **Vector A** (40.0 km at 60° north of east):
 
 <div class="equation">
-$$ A_E = 40.0 \text{ km}\cos(60°) = 40.0(0.500) = 20.0 \text{ km} $$
+$$ A_E = 40.0 \text{ km}\cos(60°) = 40.0 \text{km}(0.500) = 20.0 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ A_N = 40.0 \text{ km}\sin(60°) = 40.0(0.866) = 34.6 \text{ km} $$
+$$ A_N = 40.0 \text{ km}\sin(60°) = 40.0 \text{km}(0.866) = 34.6 \text{ km} $$
 </div>
 
 **Vector B** (30.0 km at 15° north of east):
 
 <div class="equation">
-$$ B_E = 30.0 \text{ km}\cos(15°) = 30.0(0.966) = 29.0 \text{ km} $$
+$$ B_E = 30.0 \text{ km}\cos(15°) = 30.0 \text{km}(0.966) = 29.0 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ B_N = 30.0 \text{ km}\sin(15°) = 30.0(0.259) = 7.77 \text{ km} $$
+$$ B_N = 30.0 \text{ km}\sin(15°) = 30.0 \text{km}(0.259) = 7.77 \text{ km} $$
 </div>
 
 **Resultant R = A + B:**
@@ -1447,7 +1447,7 @@ $$ R_N = 34.6 \text{ km} + 7.77 \text{ km} = 42.4 \text{ km} $$
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{(49.0 \text{ km})^2 + (42.4 \text{ km})^2} = \sqrt{2401 (\text{ km})^2 + 1798 (\text{ km})^2} = \sqrt{4199 (\text{ km})^2} = 64.8 \text{ km} $$
+$$ R = \sqrt{(49.0 \text{ km})^2 + (42.4 \text{ km})^2} = \sqrt{2401 \text{km}^2 + 1798 \text{km}^2} = \sqrt{4199 \text{km}^2} = 64.8 \text{ km} $$
 </div>
 
 **Direction:**

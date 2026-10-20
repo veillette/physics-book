@@ -365,7 +365,7 @@ By Newton's third law, the force the gymnast exerts on the mat equals the normal
 
 **Step 4: Check reasonableness**
 
-A force of 3140 N (about 706 pounds) is large but reasonable for an Olympic-level gymnast landing from a somersault. This is about 8 times her weight ($$ 40.0 \times 9.80 = 392 \N $$), which makes sense given the 7g deceleration plus supporting her weight.
+A force of 3140 N (about 706 pounds) is large but reasonable for an Olympic-level gymnast landing from a somersault. This is about 8 times her weight ($$ 40.0 \kg \times 9.80 \mss = 392 \N $$), which makes sense given the 7g deceleration plus supporting her weight.
 
 **Discussion**
 
@@ -422,11 +422,11 @@ Given:
 
 Total mass of train:
 <div class="equation">
-$$ m_{\text{total}} = 2m_{\text{engine}} + 45m_{\text{car}} = 2(8.00 \times 10^{4}) + 45(5.50 \times 10^{4}) $$
+$$ m_{\text{total}} = 2m_{\text{engine}} + 45m_{\text{car}} = 2(8.00 \times 10^{4} \kg) + 45(5.50 \times 10^{4} \kg) $$
 </div>
 
 <div class="equation">
-$$ m_{\text{total}} = 1.60 \times 10^{5} + 2.48 \times 10^{6} = 2.64 \times 10^{6} \kg $$
+$$ m_{\text{total}} = 1.60 \times 10^{5} \kg + 2.48 \times 10^{6} \kg = 2.64 \times 10^{6} \kg $$
 </div>
 
 Apply Newton's second law to the entire train. By Newton's third law, if the engines push backward on the track with force $$ F_{\text{engines}} $$, the track pushes forward on the engines with force $$ F_{\text{engines}} $$:
@@ -439,7 +439,7 @@ $$ F_{\text{engines}} = m_{\text{total}}a + f = (2.64 \times 10^{6} \kg)(5.00 \t
 </div>
 
 <div class="equation">
-$$ F_{\text{engines}} = 1.32 \times 10^{5} + 7.50 \times 10^{5} \N = 8.82 \times 10^{5} \N $$
+$$ F_{\text{engines}} = 1.32 \times 10^{5} \N + 7.50 \times 10^{5} \N = 8.82 \times 10^{5} \N $$
 </div>
 
 Force per engine:
@@ -467,7 +467,7 @@ $$ F_{\text{coupling}} = m_{\text{sys}}a + f_{\text{sys}} = (4.40 \times 10^{5} 
 </div>
 
 <div class="equation">
-$$ F_{\text{coupling}} = 2.20 \times 10^{4} + 1.28 \times 10^{5} = 1.50 \times 10^{5} \N $$
+$$ F_{\text{coupling}} = 2.20 \times 10^{4} \N + 1.28 \times 10^{5} \N = 1.50 \times 10^{5} \N $$
 </div>
 
 **Discussion**
@@ -531,11 +531,11 @@ $$ \sum F_x = F - f_{total} = (m_{tractor} + m_{airplane})a $$
 </div>
 
 <div class="equation">
-$$ 1.75 \times 10^{4} - 2400 = (1800 + m_{airplane})(0.150) $$
+$$ 1.75 \times 10^{4} \N - 2400 \N = (1800 \kg + m_{airplane})(0.150 \mss) $$
 </div>
 
 <div class="equation">
-$$ 15{,}100 = (1800 + m_{airplane})(0.150) $$
+$$ 15{,}100 \N = (1800 \kg + m_{airplane})(0.150 \mss) $$
 </div>
 
 <div class="equation">
@@ -728,7 +728,7 @@ $$ F_{1} = F_{\text{tot}} \cos\theta = 20.0 \N \cos(35°) = 20.0 \N \times 0.819
 $$ F_{2} = F_{\text{tot}} \sin\theta = 20.0 \N \sin(35°) = 20.0 \N \times 0.574 = 11.5 \N $$
 </div>
 
-Verification: $$ \sqrt{(16.4 \N)^2 + (11.5 \N)^2} = \sqrt{269 (\N)^2 + 132 (\N)^2} = \sqrt{401 (\N)^2} \approx 20.0 \N $$ ✓
+Verification: $$ \sqrt{(16.4 \N)^2 + (11.5 \N)^2} = \sqrt{269 \N^2 + 132 \N^2} = \sqrt{401 \N^2} \approx 20.0 \N $$ ✓
 
 **(b) Commutative property:**
 
@@ -747,7 +747,7 @@ One example that adds to the same $$ \vb{F}_{\text{tot}} $$:
 - $$ \vb{F}_{3} $$: **11.9 N at 75° above horizontal** (components 3.08 N right, 11.5 N up)
 - $$ \vb{F}_{4} $$: **13.3 N horizontally to the right** (components 13.3 N right, 0 N up)
 
-Check: $$(3.08 + 13.3, 11.5 + 0) = (16.4, 11.5) \N$$, matching parts (a) and (b).
+Check: $$(3.08 \N + 13.3 \N, 11.5 \N + 0) = (16.4, 11.5 \N) \N$$, matching parts (a) and (b).
 
 *Scale drawing.* On the same 1 cm = 2.0 N drawing used in part (b), draw $$ \vb{F}_{3} $$ from the origin as a 5.95-cm arrow at 75° above horizontal, then $$ \vb{F}_{4} $$ from its head as a 6.65-cm arrow to the right. Its head lands on the same corner as in part (b), at the tip of $$ \vb{F}_{\text{tot}} $$.
 
@@ -839,7 +839,7 @@ $$ F_{pull,y} = F_{1y} + F_{2y} = 7.07 \N - 4.00 \N = 3.07 \N $$
 **Magnitude and direction of net pull:**
 
 <div class="equation">
-$$ F_{pull} = \sqrt{F_{pull,x}^2 + F_{pull,y}^2} = \sqrt{(14.0 \N)^2 + (3.07 \N)^2} = \sqrt{196 (\N)^2 + 9.42 (\N)^2} = \sqrt{205.42 (\N)^2} = 14.3 \N $$
+$$ F_{pull} = \sqrt{F_{pull,x}^2 + F_{pull,y}^2} = \sqrt{(14.0 \N)^2 + (3.07 \N)^2} = \sqrt{196 \N^2 + 9.42 \N^2} = \sqrt{205.42 \N^2} = 14.3 \N $$
 </div>
 
 <div class="equation">
@@ -1059,7 +1059,7 @@ $$ \sum F_y = T_1 - (m_H + m_S)g = 0 $$
 </div>
 
 <div class="equation">
-$$ T_1 = (m_H + m_S)g = (90.0 \N + 55.0 \N)(9.80 \N) = (145.0 \kg)(9.80 \mss) = 1421 \N \approx 1.42 \times 10^{3} \N $$
+$$ T_1 = (m_H + m_S)g = (90.0 \kg + 55.0 \kg)(9.80 \mss) = (145.0 \kg)(9.80 \mss) = 1421 \N \approx 1.42 \times 10^{3} \N $$
 </div>
 
 __(c) Tension between Superhero and Trusty Sidekick:__
@@ -1230,14 +1230,14 @@ $$ T = ma + mg = m(a + g) $$
 </div>
 
 <div class="equation">
-$$ T = 1200 \kg (1.33 \mss + 9.80 \mss) = 1200(11.13) = 13{,}360 \N = 1.34 \times 10^{4} \N $$
+$$ T = 1200 \kg (1.33 \mss + 9.80 \mss) = 1200 \kg(11.13 \mss) = 13{,}360 \N = 1.34 \times 10^{4} \N $$
 </div>
 
 **Step 4: Check reasonableness**
 
 The elevator's weight is:
 <div class="equation">
-$$ w = mg = 1200(9.80) = 11{,}760 \N $$
+$$ w = mg = 1200 \kg(9.80 \mss) = 11{,}760 \N $$
 </div>
 
 The tension (13,360 N) is greater than the weight (11,760 N) by about 14%, which makes sense since the cable must not only support the elevator but also provide the upward force needed for acceleration. The acceleration of 1.33 m/s² is modest and comfortable for passengers.
@@ -1341,7 +1341,7 @@ $$ F - f_{total} = m_{total}a $$
 </div>
 
 <div class="equation">
-$$ f_{total} = F - m_{total}a = 1900 \N - (1800 \N)(1.20 \N) = 1900 \N - 2160 \N = -260 \N $$
+$$ f_{total} = F - m_{total}a = 1900 \N - (1800 \kg)(1.20 \mss) = 1900 \N - 2160 \N = -260 \N $$
 </div>
 
 __(b) What is unreasonable?__
@@ -1431,7 +1431,7 @@ $$ T_{min} = mg = 1.47 \times 10^{7} \N $$
 
 The given thrust is only 14% of what's needed for liftoff! A typical thrust-to-weight ratio for rockets is 1.2 to 1.5 at launch, meaning:
 <div class="equation">
-$$ T_{typical} = (1.2 \text{ to } 1.5) \times mg \approx 1.76 \times 10^{7} \text{ to } 2.21 \times 10^{7} \N $$
+$$ T_{typical} = (1.2 \text{ to } 1.5) \times mg \approx 1.76 \times 10^{7} \N \text{ to } 2.21 \times 10^{7} \N $$
 </div>
 
 The premise is unreasonable because no rocket could launch with such inadequate thrust.

@@ -248,7 +248,7 @@ $$ W_{\text{total}} = 25 \times 118\J = 2950\J $$
 </div>
 
 <div class="equation">
-$$ P = \frac{W_{\text{total}}}{t} = \frac{2950\J}{60.0\s} = 49.2\W \approx 49.0\W $$
+$$ P = \frac{W_{\text{total}}}{t} = \frac{2950\J}{60.0\s} = 49.2\text{W} \approx 49.0\text{W} $$
 </div>
 
 **Discussion**
@@ -654,7 +654,7 @@ Work done against friction:
 Total energy needed:
 
 <div class="equation">
- $$ E_{\text{total}} = \KE + \PE + W_{f} = 4.05 \times 10^{5} + 2.65 \times 10^{7} + 7.00 \times 10^{7} = 9.69 \times 10^{7}\J $$
+ $$ E_{\text{total}} = \KE + \PE + W_{f} = 4.05 \times 10^{5} \J + 2.65 \times 10^{7} \J + 7.00 \times 10^{7} \J = 9.69 \times 10^{7}\J $$
 </div>
 
 Energy available from gasoline:

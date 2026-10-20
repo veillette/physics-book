@@ -646,19 +646,17 @@ it will be easier to plug in the knowns first.
  $$ 200 \m =0 \m +\left(10.0 \ms \right)t+\frac{1}{2}\left(2.00 \mss \right){t}^{2} $$
 </div>
 
-4\. Simplify the equation. The units of meters (m) cancel because they are in each term.
-We can get the units of seconds (s) to cancel by taking $$ t=t\s $$, where $$ t $$
-is the magnitude of time and s is the unit. Doing so leaves
+4\. Divide every term by $$ 1.00 \mss $$ to make the coefficient of $$ t^2 $$ equal to one, carrying the units through the division:
 
 <div class="equation">
- $$ 200 =10 t+ t^{2}. $$
+ $$ 200 \text{s}^2 =10 \s t+ t^{2}. $$
 </div>
 
 5\. Use the quadratic formula to solve for $$ t $$.
 (a) Rearrange the equation to get 0 on one side of the equation.
 
 <div class="equation">
- $$ t^{2}+10 t-200 =0 $$
+ $$ t^{2}+10 \s t-200 \text{s}^2 =0 $$
 </div>
 
 This is a quadratic equation of the form
@@ -667,7 +665,7 @@ This is a quadratic equation of the form
  $$ a t^{2} + b t +c=0, $$
 </div>
 
-where the constants are $$a=1.00$$, $$b=10.0$$,  and $$c=-200$$.
+where the constants are $$a=1.00$$, $$b=10.0 \s$$,  and $$c=-200 \s^2$$.
 
 (b) Its solutions are given by the quadratic formula:
 
@@ -678,10 +676,10 @@ where the constants are $$a=1.00$$, $$b=10.0$$,  and $$c=-200$$.
 This yields two solutions for $$ t $$, which are
 
 <div class="equation">
- $$t=10.0 \text{ and } - 20.0 . $$
+ $$t=10.0 \s \text{ and } - 20.0 \s . $$
 </div>
 
-In this case, then, the time is $$ t=t $$ in seconds, or
+The two roots retain units of seconds:
 
 <div class="equation">
  $$ t=10.0\s \text{ and }-20.0\s . $$
@@ -840,7 +838,7 @@ $$ v = v_0 + at $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v = 0 \ms + (4.50 \ms)(2.40 \ms) = 10.8 \ms $$
+$$ v = 0 + (4.50 \mss)(2.40 \s) = 10.8 \ms $$
 </div>
 
 **(b) Position-time graph:**
@@ -1145,7 +1143,7 @@ $$ x = \frac{1}{2}(2.40 \mss)(12.0 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ x = \frac{1}{2}(2.40)(144) \m = (1.20)(144) \m = 173 \m $$
+$$ x = \frac{1}{2}(2.40 \mss)(144 \s^2) = (1.20 \mss)(144 \s^2) = 173 \m $$
 </div>
 
 **Units check:** $$ \mss \times \s^2 = \m $$ ✓
@@ -1261,7 +1259,7 @@ $$ v = v_0 + at $$
 
 2. Substitute the known values:
 <div class="equation">
-$$ v = 9.00 \ms + (-2.00 \ms)(5.00 \ms) = 9.00 \ms - 10.0 \ms = -1.00 \ms $$
+$$ v = 9.00 \ms + (-2.00 \mss)(5.00 \s) = 9.00 \ms - 10.0 \ms = -1.00 \ms $$
 </div>
 
 **(c) Evaluation of the result:**
@@ -1520,7 +1518,7 @@ $$ x = x_0 + v_0 t + \frac{1}{2}at^{2} = 0 + 0 + \frac{1}{2}(6.87 \mss)(3.90 \s)
 </div>
 
 <div class="equation">
-$$ x = \frac{1}{2}(6.87)(15.21) \m = 52.3 \m $$
+$$ x = \frac{1}{2}(6.87 \mss)(15.21 \s^2) = 52.3 \m $$
 </div>
 
 **Discussion**
@@ -1582,7 +1580,7 @@ $$ v = v_0 + at $$
 
 4. Substitute the known values:
 <div class="equation">
-$$ v = 4.00 \ms + (0.0500 \ms)(480 \ms) = 4.00 \ms + 24.0 \ms = 28.0 \ms $$
+$$ v = 4.00 \ms + (0.0500 \mss)(480 \s) = 4.00 \ms + 24.0 \ms = 28.0 \ms $$
 </div>
 
 **(b) Time to decelerate to rest:**
@@ -1787,7 +1785,7 @@ $$ t = \frac{v - v_0}{a} = \frac{6.00 \ms - 0}{0.350 \mss} = 17.142857 \s = 17.1
 
 **Discussion**
 
-As a check, the average velocity is $$ (0 + 6.00)/2 = 3.00 \ms $$, and $$ (3.00 \ms)(17.14 \s) = 51.4 \m $$, in agreement with part (a). A run of about 50 m across the water is consistent with the long takeoff runs that large swans need.
+As a check, the average velocity is $$ (0 + 6.00 \ms)/2 = 3.00 \ms $$, and $$ (3.00 \ms)(17.14 \s) = 51.4 \m $$, in agreement with part (a). A run of about 50 m across the water is consistent with the long takeoff runs that large swans need.
 
 **Answer**
 
@@ -2159,7 +2157,7 @@ $$ v^2 = 0 + 2(9.80 \mss)(3.0 \m) = 58.8 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{58.8 \text{m}^2/\text{s}^2} = 7.67 \ms \approx 7.7 \ms $$
+$$ v = \sqrt{58.8 \mmss} = 7.67 \ms \approx 7.7 \ms $$
 </div>
 
 **(b) Deceleration upon landing:**
@@ -2309,7 +2307,7 @@ $$ v_{\text{nose}}^2 = (22.0 \ms)^2 + 2(-0.150 \mss)(210 \m) = 484 \mmss - 63.0 
 </div>
 
 <div class="equation">
-$$ v_{\text{nose}} = \sqrt{421 \text{m}^2/\text{s}^2} = 20.5 \ms $$ ✓
+$$ v_{\text{nose}} = \sqrt{421 \mmss} = 20.5 \ms $$ ✓
 </div>
 
 **(c) Time for end of train to leave the station:**
@@ -2321,11 +2319,11 @@ The end of the train must travel the station length plus the train length: $$ 21
 Using $$ x = x_0 + v_0 t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
-$$ 340 = 22.0 t - 0.0750 t^2 $$
+$$ 340 \m = 22.0 \ms t - 0.0750 \mss t^2 $$
 </div>
 
 <div class="equation">
-$$ 0.0750 t^2 - 22.0 t + 340 = 0 $$
+$$ 0.0750 \mss t^2 - 22.0 \ms t + 340 \m = 0 $$
 </div>
 
 Using the quadratic formula:
@@ -2436,7 +2434,7 @@ $$ v^2 = 0 + 2(32.6 \mss)(402 \m) = 26,210 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{26,210 \text{m}^2/\text{s}^2} = 162 \ms $$
+$$ v = \sqrt{26,210 \mmss} = 162 \ms $$
 </div>
 
 **(c) Why is the final velocity greater?**
@@ -2532,7 +2530,7 @@ $$ x_{\text{accel}} = (11.5 \ms)(7.00 \s) + \frac{1}{2}(0.500 \mss)(7.00 \s)^2 $
 </div>
 
 <div class="equation">
-$$ x_{\text{accel}} = 80.5 \m + \frac{1}{2}(0.500)(49.0) \m = 80.5 \m + 12.25 \m = 92.75 \m $$
+$$ x_{\text{accel}} = 80.5 \m + \frac{1}{2}(0.500 \mss)(49.0 \s^2) = 80.5 \m + 12.25 \m = 92.75 \m $$
 </div>
 
 Remaining distance to finish line:
@@ -2672,7 +2670,7 @@ $$ t = t_1 + t_2 = 12.24 \s + 91.9 \s = 104 \s $$
 
 **Discussion**
 
-The acceleration phase takes only about 12 s and 0.5 km; most of the 5-mile run is at top speed. As a check, covering the whole course at top speed would take $$ 8047/82.07 = 98.0 \s $$; the extra 6 s is exactly the time lost during the acceleration phase ($$ t_1/2 $$), because the average speed while accelerating from rest is half the top speed.
+The acceleration phase takes only about 12 s and 0.5 km; most of the 5-mile run is at top speed. As a check, covering the whole course at top speed would take $$ \frac{8047 \m}{82.07 \ms} = 98.0 \s $$; the extra 6 s is exactly the time lost during the acceleration phase ($$ t_1/2 $$), because the average speed while accelerating from rest is half the top speed.
 
 **Answer**
 

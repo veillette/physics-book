@@ -633,7 +633,7 @@ Horizontal (centripetal) direction: $$ N = mr\omega^2 $$. Vertical direction: $$
 $$ mg \le \mu_s m r\omega^2 \quad \Rightarrow \quad \omega_{\min} = \sqrt{\frac{g}{\mu_s r}} = \sqrt{\frac{9.80 \mss}{(0.600)(2.50 \m)}} = 2.56 \text{ rad/s} $$
 </div>
 
-This is $$ (2.56 \text{ rad/s})(60 \s/\text{min})/(2\pi \text{ rad/rev}) = 24.4 $$ rev/min.
+This is $$ (2.56 \text{ rad/s})(60 \s/\text{min})/(2\pi \text{ rad/rev}) = 24.4 \text{rev/min} $$ rev/min.
 
 **Discussion**
 

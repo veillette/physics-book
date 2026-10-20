@@ -579,13 +579,13 @@ $$ v_t = \sqrt{\frac{2mg}{C\rho A}} = \sqrt{\frac{2(0.560 \kg)(9.80 \mss)}{(1.0)
 </div>
 
 <div class="equation">
-$$ v_t = \sqrt{\frac{10.98 \N}{0.1125 \text{kg/m}}} = \sqrt{97.6 \text{m}^2/\text{s}^2} = 9.88 \ms \approx 10 \ms $$
+$$ v_t = \sqrt{\frac{10.98 \N}{0.1125 \text{kg/m}}} = \sqrt{97.6 \mmss} = 9.88 \ms \approx 10 \ms $$
 </div>
 
 For the person falling 5.0 m without drag:
 
 <div class="equation">
-$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98 \text{m}^2/\text{s}^2} = 9.9 \ms $$
+$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98 \mmss} = 9.9 \ms $$
 </div>
 
 **Discussion**
@@ -739,7 +739,7 @@ First, calculate the raindrop's properties:
 (a) Speed without air drag:
 
 <div class="equation">
-$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5000 \m)} = \sqrt{98000 \text{m}^2/\text{s}^2} = 313 \ms $$
+$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5000 \m)} = \sqrt{98000 \mmss} = 313 \ms $$
 </div>
 
 (b) Terminal velocity with air drag:
@@ -925,7 +925,7 @@ $$ \eta = \frac{W}{6\pi r v_t} = \frac{1.08 \times 10^{-3} \N}{6\pi(1.5 \times 1
 $$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg = (6900 \text{kg/m}^3)(1.41 \times 10^{-8} \text{m}^3)(9.80 \mss) = 9.54 \times 10^{-4} \N $$
 </div>
 
-which gives $$ \eta = (9.54 \times 10^{-4})/(1.41 \times 10^{-3}) = 0.68 \text{ kg/(m·s)} $$. Neglecting buoyancy overestimates the viscosity by about 12%.
+which gives $$ \eta = (9.54 \times 10^{-4} \N)/(1.41 \times 10^{-3} \text{m}^2/\text{s}) = 0.68 \text{ kg/(m·s)} $$. Neglecting buoyancy overestimates the viscosity by about 12%.
 
 **Discussion**
 

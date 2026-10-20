@@ -603,7 +603,7 @@ Substituting known values:
 Solving for $$ v'_{\text{ball},x} $$:
 
 <div class="equation">
- $$ v'_{\text{ball},x} = \frac{49.5 - 1.11}{5.50} \ms = 8.80 \ms $$
+ $$ v'_{\text{ball},x} = \frac{49.5\kg\cdot\ms - 1.11\kg\cdot\ms}{5.50\kg} = 8.80 \ms $$
 </div>
 
 Apply conservation of y-momentum (initially zero):
@@ -621,7 +621,7 @@ Solving for $$ v'_{\text{ball},y} $$:
 The final ball velocity magnitude is:
 
 <div class="equation">
- $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80 \ms)^2 + (-2.31 \ms)^2} = \sqrt{77.4 \text{m}^2/\text{s}^2 + 5.34 \text{m}^2/\text{s}^2} = 9.10 \ms $$
+ $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80 \ms)^2 + (-2.31 \ms)^2} = \sqrt{77.4 \mmss + 5.34 \mmss} = 9.10 \ms $$
 </div>
 
 The direction is:
@@ -741,7 +741,7 @@ From the y-momentum equation:
 From the x-momentum equation:
 
 <div class="equation">
- $$ v'_{\text{Au}} \cos{\theta_{\text{Au}}} = \frac{m_{\text{He}}}{m_{\text{Au}}} \left(v_{\text{He}} - v'_{\text{He}} \cos{120^\circ}\right) = 0.0203\left(1.55\times 10^{7} + 0.500 v'_{\text{He}}\right) $$
+ $$ v'_{\text{Au}} \cos{\theta_{\text{Au}}} = \frac{m_{\text{He}}}{m_{\text{Au}}} \left(v_{\text{He}} - v'_{\text{He}} \cos{120^\circ}\right) = 0.0203\left(1.55\times 10^{7} \ms + 0.500 v'_{\text{He}}\right) $$
 </div>
 
 Solving this system of three equations with three unknowns is algebraically complex. The momentum equations can be squared and added to eliminate the angle $$ \theta_{\text{Au}} $$, then combined with the energy equation to solve for the unknowns. The detailed algebra involves solving a quadratic equation.
@@ -838,7 +838,7 @@ Apply conservation of y-momentum:
 The final velocity magnitude is:
 
 <div class="equation">
- $$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05 \ms)^2 + (-4.68 \ms)^2} = \sqrt{49.7 \text{m}^2/\text{s}^2 + 21.9 \text{m}^2/\text{s}^2} = 8.46 \ms $$
+ $$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05 \ms)^2 + (-4.68 \ms)^2} = \sqrt{49.7 \mmss + 21.9 \mmss} = 8.46 \ms $$
 </div>
 
 The direction (angle from west toward south):

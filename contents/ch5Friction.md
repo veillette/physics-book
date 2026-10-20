@@ -867,7 +867,7 @@ $$F_{\text{tot}} = \sqrt{F_1^2 + F_2^2} = \sqrt{(26.4 \N)^2 + (18.6 \N)^2}$$
 </div>
 
 <div class="equation">
-$$F_{\text{tot}} = \sqrt{697.0 (\N)^2 + 346.0 (\N)^2} = \sqrt{1043 (\N)^2} = 32.3 \N$$
+$$F_{\text{tot}} = \sqrt{697.0 \N^2 + 346.0 \N^2} = \sqrt{1043 \N^2} = 32.3 \N$$
 </div>
 
 2. Find the direction (angle above the horizontal, measured from $$F_1$$):
