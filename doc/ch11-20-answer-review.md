@@ -1,14 +1,16 @@
 # Review of problem answers: Chapters 11–20
 
-Reviewed **2026-10-20**, against the working-tree content associated with HEAD `21bb448a`. This is a review report; textbook sources have not been edited.
+Reviewed **2026-10-20**, against the working-tree content associated with HEAD `21bb448a`. **Updated 2026-10-20** to record the corrections made in commits `d701d26e`, `44b502cc`, and `1c9c5e3a`, and the second opinions of two further reviewers (Codex and Cursor) on the findings left open. The original findings are kept below, each with a status line.
 
-**The answer set needs correction and completion.** The review records **39 numbered findings**, plus smaller corrections below. There are **183 exercises with no supplied answer**: **15 numerical/sketch/constructed problems** and **168 conceptual questions**. Some supplied answers also omit requested subparts or diagrams.
+**Current status.** Of the 39 numbered findings, 34 have been fixed, 4 were declined after review (F08, F09, F13, F29), and 1 was withdrawn (F12). All rows of the smaller-corrections table have been fixed. The 14 requested sketches in 18.7 and 19.4, the worked example in 18.8 P17, and the three incomplete answers in A02 (14.3 P7, 15.7 P7, 18.4 P2) have been supplied. **Still open: 15 problems and 168 conceptual questions with no answer** (A01 and the section ledger), plus the field-line sketches in 18.5 P1–P4 and the diagram in 18.6 C1, which are among them.
+
+_Original summary:_ The answer set needs correction and completion. The review records **39 numbered findings**, plus smaller corrections below. There are **183 exercises with no supplied answer**: **15 numerical/sketch/constructed problems** and **168 conceptual questions**. Some supplied answers also omit requested subparts or diagrams.
 
 ## Scope and method
 
 The inventory covers **1,080 end-of-section exercises** in Chapters 11 through 20 inclusive: **759 Problems & Exercises** and **321 Conceptual Questions**. **897 have nonempty solution blocks**. I compared the questions, solution equations, and stated results across all ten chapters, followed up suspect answers in their full source, independently recalculated the findings below, and inspected the relevant source diagrams. This is a first-pass correctness review, not a claim that every intermediate equation or incidental biological/engineering assertion has been independently proved.
 
-**P1, P2, …** count problems locally within a section file; **C1, C2, …** count conceptual questions locally. Thus **18.7 P8** means the eighth problem in section 18.7, not global Chapter 18 problem 8. Source links point to exercise opening lines in the reviewed files; later edits can move those lines.
+**P1, P2, …** count problems locally within a section file; **C1, C2, …** count conceptual questions locally. **Correction to this numbering:** the 321 "conceptual questions" counted here are 277 end-of-section Conceptual Questions plus 44 Check Your Understanding boxes (all of which have answers). C-numbers therefore run one, two, or three higher than the book's own numbering in sections with such boxes (two in several sections of chapters 13, 16, and 17, and three in 13.3 and 16.10). The line links are correct; use them rather than the C-numbers. Thus **18.7 P8** means the eighth problem in section 18.7, not global Chapter 18 problem 8. Source links point to exercise opening lines in the reviewed files; later edits can move those lines.
 
 **Correction** identifies a demonstrable error, a false explanation, or a missing part of the mathematical answer. **Model clarification** identifies a result that depends on an unstated or inconsistent interpretation. These are separate from the automated write-up-format checks at the end. No finding is a recommendation to silently change the problem's givens.
 
@@ -36,11 +38,15 @@ The most consequential clusters are the first-law/entropy reasoning in Chapter 1
 
 #### F01 — Gold-alloy result changes during “rounding”
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [11.2 P9](../contents/ch11Density.md#L753).
 
 The additive-volume calculation correctly leads to about **15.8 g/cm³**, then changes this to **15.6 g/cm³** as a purported rounding step. With the stated constituent densities and exact mass fractions, `rho = 1/[(18/24)/19.32 + (5/24)/10.5 + (1/24)/8.8] = 15.7739 g/cm³`. Keep **15.8 g/cm³**. Also clarify the prompt's “weighted densities”: mass fractions weight **specific volumes**, whereas volume fractions weight densities.
 
 #### F02 — Atmospheric-pressure explanation reverses the curvature
+
+**Status:** Fixed in `d701d26e`; question reworded to "nonlinearly" in `1c9c5e3a`.
 
 **Correction.** [11.4 C2](../contents/ch11VariationOfPressure.md#L291).
 
@@ -48,11 +54,15 @@ Both the question and answer say atmospheric pressure decreases “more rapidly 
 
 #### F03 — Hydraulic force is not 5,760 N
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [11.5 P3](../contents/ch11PascalsPrinciple.md#L281).
 
 The solution obtains **5,880 N**, then writes `5.88 × 10³ N ≈ 5.76 × 10³ N`, attributing the change to rounding. The exact area ratio gives `120(14.0/2.00)² = 5880 N`. Delete the 5,760 N alternative. The discussion already gives the correct value.
 
 #### F04 — Manometer levels are described backward, and a conversion loses a factor of ten
+
+**Status:** Fixed in `d701d26e`.
 
 **Correction.** [11.6 P1](../contents/ch11GaugePressureAbsolutePressure.md#L423).
 
@@ -60,11 +70,15 @@ The answer says the balloon-side liquid is higher for positive pressure and the 
 
 #### F05 — Weightlessness removes a pressure gradient, not pressure itself
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [11.7 C2](../contents/ch11ArchimedesPrinciple.md#L467).
 
 The qualitative conclusion of zero ordinary gravitational buoyancy in ideal free fall is correct. The displayed `P = rho(0)h = 0` incorrectly makes the fluid's pressure vanish. Write `Delta P = rho g_effective Delta h = 0`: pressure is spatially uniform in this idealization but can be nonzero.
 
 #### F06 — Waterfowl are treated as giant water striders
+
+**Status:** Fixed in `d701d26e`; question premise reworded in `1c9c5e3a`.
 
 **Correction.** [11.8 C4](../contents/ch11CohesionAndAdhesionInLiquids.md#L549).
 
@@ -72,17 +86,23 @@ The answer attributes support of a duck's weight primarily to a direct upward su
 
 #### F07 — Rubber-balloon tension needs a membrane definition
 
+**Status:** Kept 3.68 N/m (the book's two-surface convention); a note giving the membrane tension 7.35 N/m was added in `1c9c5e3a`.
+
 **Model clarification.** [11.8 P8](../contents/ch11CohesionAndAdhesionInLiquids.md#L971).
 
 The solution uses the two-interface soap-film formula `Delta P = 4 gamma/r` and reports **3.68 N/m** as the balloon's effective surface tension. For the **total tension of one elastic membrane**, force balance gives `Delta P = 2T/r`, hence `T = (147 Pa)(0.100 m)/2 = 7.35 N/m`. Either use that effective membrane tension or explicitly define the reported gamma as half of it under a two-surface convention. The two definitions should not be interchanged.
 
 #### F08 — Lowest bubble pressure does not establish greatest bubble stability
 
+**Status:** Declined. The pressures follow the book's model, the stated answer is the textbook's intended one, and the Discussion already says soapy water is more stable in practice. (Codex recommended rewording; Cursor agreed with leaving it.)
+
 **Correction.** [11.8 P9](../contents/ch11CohesionAndAdhesionInLiquids.md#L1009).
 
 The pressure results **14.6 Pa, 4.46 Pa, and 7.40 Pa** follow the imposed thin-film model. The answer's conclusion that alcohol makes the most stable bubble because its pressure is nearest atmospheric does not follow. Film drainage and resistance to thinning/rupture matter even when evaporation is excluded. Soapy films have surfactant stabilization; surface-tension values alone cannot rank lifetimes. Revise the stability explanation, distinguishing it from the valid pressure calculation. See the primary study [Interfacial mechanisms for stability of surfactant-laden films](https://pmc.ncbi.nlm.nih.gov/articles/PMC5436193/).
 
 #### F09 — Alveolar calculations silently use two liquid surfaces
+
+**Status:** Declined. The two-surface model matches the neighbouring problems, and the 80% reduction does not depend on it. (Codex preferred 2γ/r; Cursor agreed with leaving it.)
 
 **Model clarification.** [11.8 C8](../contents/ch11CohesionAndAdhesionInLiquids.md#L657), [11.9 P20](../contents/ch11PressuresInTheBody.md#L1274).
 
@@ -92,11 +112,15 @@ The neighboring **11.8 P1 and P2 explicitly instruct a spherical-bubble approxim
 
 #### F10 — Capillary work uses the center-of-mass displacement in place of the meniscus displacement
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [11.9 P12](../contents/ch11PressuresInTheBody.md#L830).
 
 The **2.97 cm** rise and **3.39 microjoules** of gained gravitational energy are correct under the stated model. Part (c) claims that the constant capillary force `F = 2 pi r gamma` does work through an “effective distance” h/2, even though its point of application moves through h. The wetting-energy release is `Fh ≈ 6.80 microjoules`, twice the final gravitational energy. During a settling rise the balance is dissipated; during a transient it can include kinetic energy. Explain the reduced solid–liquid versus solid–air interfacial energy and the energy budget; the present equality does not establish conservation.
 
 #### F11 — Suspended steel wire is assigned the wrong load and an arbitrary length
+
+**Status:** Fixed in `d701d26e`; with the stated constants the stretch is 1.21 cm, not 1.22 cm.
 
 **Correction.** [11.9 P13](../contents/ch11PressuresInTheBody.md#L898).
 
@@ -106,17 +130,23 @@ Part (a)'s **258 m** is consistent with the stated negative gauge pressure. Part
 
 #### F12 — Boot leaks are not at the same height
 
+**Status:** Withdrawn. The figure's own description says the leaks are at the same height, and the drawn offset is a few percent of the water depth. Wording ("equal speeds", "upper bound") tightened in `1c9c5e3a`.
+
 **Correction.** [12.3 C3](../contents/ch12TheMostGeneralApplicationsOfBernouillisEquation.md#L270).
 
 The answer says the two leaks are at the same height and therefore have the same exit speed. In [the actual figure](../resources/Figure_12_03_03.jpg), **Leak 2 is lower than Leak 1**. With the same free surface, `h2 > h1` and `v2/v1 = sqrt(h2/h1) > 1`. Correct the speed comparison and its energy explanation. The free-surface level remains the ideal upper bound on the height obtainable by redirecting the jet upward.
 
 #### F13 — Additional water users are counted without a demand model
 
+**Status:** Declined. Part (c) assumes each user consumes 20.0 L/min, which gives the intended 9 users. (Codex considered the wording ambiguous; Cursor agreed with leaving it.)
+
 **Model clarification.** [12.4 P18](../contents/ch12ViscosityAndLaminarFlow.md#L1404).
 
 Parts (a) and (b), **1.20 × 10⁵ Pa** and a **1.90** main-flow multiplier, are consistent. Part (c)'s **9 additional users** divides the 180 L/min main-flow increase by a **morning** demand of 20 L/min and silently keeps existing demand unchanged. Under identical, unchanged hose resistances, each user's afternoon flow is 8 L/min: `N_old = 200/20 = 10`, `N_new = 380/8 = 47.5`, or approximately **38 additional users** in this simplified continuous estimate. Nine is conditional on an imposed 20-L/min demand per added user and unchanged original consumption. State which model is intended; the morning rate alone does not settle this.
 
 #### F14 — Raindrop answer applies Stokes drag without a regime restriction
+
+**Status:** Fixed in `1c9c5e3a` (Stokes-regime caveat; the density remark corrected).
 
 **Model clarification.** [12.6 C2](../contents/ch12MotionOfAnObjectInAViscousFluid.md#L160).
 
@@ -126,6 +156,8 @@ The colder-air conclusion is derived entirely from `F_drag = 6 pi eta r v`. Rest
 
 #### F15 — Balloon solution conserves molecules although the prompt replaces the gas
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [13.3 P4](../contents/ch13TheIdealGasLaws.md#L794).
 
 The prompt maintains lab pressure at **1.00 atm** and makes membrane inward pressure negligible. Mechanical equilibrium therefore requires balloon **absolute pressure 1.00 atm** and **gauge pressure zero**. The solution instead uses constant `PV/T`, obtaining approximately **0.0394 atm absolute** and **−0.96 atm gauge**, which such a flexible balloon cannot maintain. The amount of helium is changed when the balloon is filled to twenty times the volume: `n_final/n_initial = 20(283.15/223.15) ≈ 25.4`. Use the pressure boundary condition and allow the gas amount to change.
@@ -134,11 +166,15 @@ The prompt maintains lab pressure at **1.00 atm** and makes membrane inward pres
 
 #### F16 — Two-stage engine efficiency is 41.5%, not 47.6%
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [15.4 P5](../contents/ch15CarnotsPerfectHeatEngine.md#L359).
 
 Parts (a) and (b), **24.9%** and **22.1%**, are consistent. Parts (c) and (d) give **47.6%**, including the internally contradictory `0.415 or 47.6%`. The correct overall efficiency is `1 - (1-eta1)(1-eta2) = 1 - 423/723 ≈ 0.415`, or **41.5%**. Update both the combined-engine calculation and the single-Carnot comparison.
 
 #### F17 — A below-Carnot engine is incorrectly declared impossible and fraudulent
+
+**Status:** Fixed in `1c9c5e3a`: the claim passes the Carnot and entropy tests; the answer now asks for evidence instead of alleging fraud.
 
 **Correction.** [15.4 P7](../contents/ch15CarnotsPerfectHeatEngine.md#L417).
 
@@ -146,11 +182,15 @@ The proposed engine has `eta = 12/25 = 48%`, below the **50%** Carnot limit. Its
 
 #### F18 — Hot-reservoir temperature is confused with component temperature
 
+**Status:** Fixed in `1c9c5e3a`: the hot reservoir is the burning gas, and the practical limit comes from irreversibilities and heat loss.
+
 **Correction.** [15.4 P3](../contents/ch15CarnotsPerfectHeatEngine.md#L293).
 
 The **244 °C** and **477 °C** results in (a) and (b) follow the formulas. Part (c) incorrectly says car engines cannot sustain a **477 °C hot reservoir**, treating that temperature as the temperature of oil and engine components. Working-gas and component temperatures differ, with cooling and heat transfer between them. The Carnot calculation by itself does not impose the claimed practical efficiency ceiling. Explain actual irreversibilities and material/heat-transfer constraints without identifying the idealized hot reservoir with the oil or engine block. [NASA's Otto-cycle account](https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/internal-combustion-engine-otto-cycle/) distinguishes the heated working gas and the engine cycle.
 
 #### F19 — Constant body temperature is mistaken for constant total internal energy
+
+**Status:** Fixed in `d701d26e`.
 
 **Correction.** [15.1 P6](../contents/ch15TheFirstLawOfThermodynamics.md#L688).
 
@@ -158,11 +198,15 @@ The strategy and intermediate derivation set `Delta U = 0` merely because temper
 
 #### F20 — Large-range entropy calculation substitutes an arithmetic mean for an integral
 
+**Status:** Fixed in `1c9c5e3a`: the 801 kJ is labelled as the average-temperature approximation, with the constant-heat-capacity value 681 kJ.
+
 **Correction.** [15.6 P3](../contents/ch15EntropyAndTheSecondLaw.md#L662).
 
 The answer uses `Delta S = Q/T_average` with the arithmetic mean **843 K**, obtaining **801 kJ** released while cooling from 1,100 °C to 40 °C. For a changing temperature, use `Delta S = integral(C(T)/T dT)`. Assuming constant heat capacity C, `Delta S = C ln(Tf/Ti)` and `Q = C(Tf-Ti)`, giving **681 kJ released**. This differs by about **18%** from the stated heat magnitude. If constant C is not assumed, the two endpoints and total entropy change do not uniquely determine Q; the arithmetic-mean shortcut must not be presented as exact.
 
 #### F21 — Meat-pie entropy answer also uses an unstated mean-temperature approximation
+
+**Status:** Fixed in `1c9c5e3a`: the 100 °C is labelled as an approximation, with the constant-heat-capacity value 104 °C.
 
 **Model clarification.** [15.6 P4](../contents/ch15EntropyAndTheSecondLaw.md#L692).
 
@@ -172,17 +216,23 @@ The answer obtains **100 °C** from `Tf = 2(Q/Delta S) - Ti`. That follows an ar
 
 #### F22 — Oscillator mass-range endpoints do not match the stated periods
 
+**Status:** Fixed in `1c9c5e3a`: bounds 0.880–0.898 kg; ±1.0% of the total mass or ±2.3% of the added mass.
+
 **Correction.** [16.3 P4](../contents/ch16SimpleHarmonicMotion.md#L487).
 
 The stated total-mass bounds **0.878 kg** and **0.896 kg** do not follow the formula. Avoid rounding the spring constant: `m(T) = 0.500(T/1.50)²`. This gives **0.88002 kg to 0.89780 kg**, centered near the 0.88889-kg target. The added-mass range is **0.38002–0.39780 kg**. The approximately **±9 g** absolute tolerance is reasonable; it is approximately **±1.0% of total mass**, or **±2.3% of the mass being added**. Specify which percentage is requested.
 
 #### F23 — Scale answer calls oscillation energy the spring’s maximum elastic energy
 
+**Status:** Kept 3.00 J as the oscillation energy; the attached-oscillator model and the 4.90 J figure were added in `1c9c5e3a`.
+
 **Model clarification.** [16.6 P1](../contents/ch16UniformCircularMotionAndSimpleHarmonicMotion.md#L160).
 
 The computed **3.00 J** is `kA²/2`, the effective oscillation energy about equilibrium. For an attached vertical mass and a spring unstretched before loading, maximum spring compression is `mg/k + A`, so maximum **spring elastic energy** is **4.90 J**. A real person merely standing on the scale also loses contact when the demanded normal force becomes negative; here A = 2.00 mm exceeds `mg/k = 0.555 mm`. State the intended attached-oscillator idealization and ask for oscillation energy if 3.00 J is the intended answer.
 
 #### F24 — Longitudinal/transverse distinction is assigned to energy instead of displacement
+
+**Status:** Fixed in `d701d26e`; surface-wave caveat added in `1c9c5e3a`. This is a Check Your Understanding box, not a conceptual question.
 
 **Correction.** [16.9 C1](../contents/ch16Waves.md#L158).
 
@@ -192,17 +242,23 @@ The answer says energy propagates in a different direction relative to the motio
 
 #### F25 — Loudness is not directly proportional to amplitude
 
+**Status:** Fixed in `d701d26e`. This is a Check Your Understanding box, not a conceptual question.
+
 **Correction.** [17.3 C1](../contents/ch17SoundIntensityAndSoundLevel.md#L334).
 
 Increasing amplitude generally makes a fixed-frequency tone sound louder, but “directly proportional to the experience of loudness” asserts an incorrect linear law. For the same medium and frequency, **intensity is proportional to amplitude squared**, and intensity level changes as `20 log10(A2/A1)`. Perceived loudness also depends on frequency and level. Replace the proportionality claim with the qualitative trend and these distinctions.
 
 #### F26 — 40-phon curve is misread at 8,000 Hz
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [17.6 P8](../contents/ch17Hearing.md#L627).
 
 The answer gives **43 dB** at 8,000 Hz. In [the supplied equal-loudness graph](../resources/Figure_17_06_02.jpg), the 40-phon curve is around **52 dB** there. The other estimates, approximately **70 dB at 60 Hz** and **37 dB at 3,000 Hz**, are consistent. Correct the high-frequency value and the discussion based on it; this is too large a discrepancy to dismiss as graph-reading precision.
 
 #### F27 — Equal-loudness table repeatedly follows the wrong curves
+
+**Status:** Fixed in `d701d26e`.
 
 **Correction.** [17.6 P10](../contents/ch17Hearing.md#L703).
 
@@ -220,11 +276,15 @@ These are readings of this textbook's figure, not replacements with a different 
 
 #### F28 — 60-phon intensities inherit incorrect graph readings
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [17.6 P14](../contents/ch17Hearing.md#L859).
 
 The solution reads **82 dB at 60 Hz** and **60 dB at 10,000 Hz**. The supplied 60-phon curve is approximately **76–77 dB** and **72 dB**, respectively. Those correspond to roughly **(4–5) × 10⁻⁵ W/m²** and **1.6 × 10⁻⁵ W/m²**, rather than `1.6 × 10⁻⁴` and `1.0 × 10⁻⁶ W/m²`. The claimed **160:1** intensity ratio therefore also fails; the graph implies a ratio of order **3:1**. Keep the logarithmic conversion method and correct its inputs.
 
 #### F29 — SPL-to-intensity conversion omits its reference pressure
+
+**Status:** Declined. The chapter itself states that sound pressure levels run 60–70 dB above the intensity level (`contents/ch17Ultrasound.md`, around line 65), and the answer applies that rule. (Codex recommended the reference-pressure formula; Cursor agreed with leaving it.) This exercise is end-of-section C4, not C5.
 
 **Model clarification.** [17.7 C5](../contents/ch17Ultrasound.md#L548).
 
@@ -234,11 +294,15 @@ The answer asserts that a 210-dB SPL value becomes about **145 dB intensity leve
 
 #### F30 — Field at a point charge is assigned a one-sided infinity
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [18.7 P6](../contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md#L649).
 
 Part (a) correctly notices that the evaluation point contains a point charge, but then writes **E = −infinity** as its value. The field is **undefined there**; approaching a negative charge from the left and right gives opposite signed limits. If the intended question asks for the external field acting on that charge, explicitly exclude its self-field and sum the other three contributions: **−5.30 × 10⁴ N/C**, leftward. The question needs to distinguish those interpretations. Part (b)'s approximately **2.04 × 10⁵ N/C rightward** is consistent. Part (c)'s single final +5.00-nC object additionally assumes contact/coalescence and charge transfer, not just charge conservation and friction.
 
 #### F31 — Only one of three zero-field positions is reported
+
+**Status:** Fixed in `d701d26e`.
 
 **Correction.** [18.7 P8](../contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md#L798).
 
@@ -246,17 +310,23 @@ Part (a)'s **0.252 N leftward** is consistent. Part (b) gives only **6.07 cm**, 
 
 #### F32 — Insulator field lines are incorrectly required to be normal to its surface
 
+**Status:** Fixed in `d701d26e`; sketches added in `44b502cc`.
+
 **Correction.** [18.7 P4](../contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md#L509), [19.4 P8](../contents/ch19EquipotentialLines.md#L461).
 
 Both answers say the electric field lines emerge perpendicular to the nonuniformly charged insulating rod. That condition is guaranteed for an **equipotential conductor in electrostatic equilibrium**, not for a fixed-charge insulator. For the pictured nonuniform rod, tangential components generally exist. The Chapter 18 answer also says a conductor would redistribute charge uniformly over its outer surface; charge density on an irregular conductor is generally **nonuniform**. Rework the requested sketches using superposition; keep field lines perpendicular to equipotentials.
 
 #### F33 — Square-corner field is described in the wrong direction relative to the drawing
 
+**Status:** Fixed in `d701d26e`.
+
 **Correction.** [18.7 P11](../contents/ch18ConductorsAndElectricFieldsInStaticEquilibrium.md#L1024).
 
 The **approximately 412 N/C** magnitude is consistent because all three other corner charges are equal. However, the answer swaps the pictured lower-corner labels and places positive y downward without declaring that convention, then describes the result as **bottom-left, 225°**. In the supplied figure qa is the **upper-left** corner. With x rightward and y upward, the field is approximately **(−291, +291) N/C**, **upper-left at 135°**. Define coordinates consistent with the illustration, or explicitly transform back before reporting the physical direction.
 
 #### F39 — Constructed dipole problem is guidance only and calls a minimum a maximum
+
+**Status:** Fixed in `d701d26e` with a fully worked example.
 
 **Correction.** [18.8 P17](../contents/ch18ApplicationOfElectrostatics.md#L1526).
 
@@ -266,11 +336,15 @@ The answer offers example parameters but never carries out the requested calcula
 
 #### F34 — Equal-charge saddle is described as a straight equipotential line
 
+**Status:** Fixed in `d701d26e`; sketch added in `44b502cc`.
+
 **Correction.** [19.4 P2](../contents/ch19EquipotentialLines.md#L215).
 
 For two equal positive charges the perpendicular bisector is **not** an equipotential: `V(0,y) = 2kq/sqrt(a²+y²)` varies along it. The midpoint has zero field and is a saddle of potential; its equipotential contour has crossing branches locally, not one straight perpendicular line. Replace this description with an actual contour sketch. Near charges the usual approximately circular contours remain appropriate.
 
 #### F35 — Equipotentials are said to connect opposite point charges
+
+**Status:** Fixed in `d701d26e`; sketch added in `44b502cc`.
 
 **Correction.** [19.4 P3](../contents/ch19EquipotentialLines.md#L256).
 
@@ -278,11 +352,15 @@ The answer says zero and small positive/negative equipotentials connect the two 
 
 #### F36 — Equal voltage steps around a point charge are called equally spaced in radius
 
+**Status:** Fixed in `d701d26e`; sketch added in `44b502cc`.
+
 **Correction.** [19.4 P4](../contents/ch19EquipotentialLines.md#L294).
 
 The answer twice asserts equal radial spacing for equal voltage intervals. Since `V = kQ/r`, equal voltage steps require **unequal** radii; locally `Delta r ≈ |Delta V| r²/(k|Q|)`, increasing with distance. Keep the far-field circular shape and outward direction of increasing potential for the negative net charge, and correct the spacing.
 
 #### F37 — Electric-ray answer confuses conductor boundaries and dipole far fields
+
+**Status:** Fixed in `d701d26e`; sketch added in `44b502cc`.
 
 **Correction.** [19.4 P10](../contents/ch19EquipotentialLines.md#L561).
 
@@ -290,11 +368,15 @@ Part (b) says equipotential lines meet the conducting ship perpendicularly. **Fi
 
 #### F38 — One coulomb is declared essentially impossible without a size or field constraint
 
+**Status:** Fixed in `d701d26e`; the potential statement refined in `1c9c5e3a`.
+
 **Correction.** [19.3 P3](../contents/ch19ElectricPotentialDueToAPointCharge.md#L248).
 
 The distance **1.80 km** is correct for the exterior point-charge model. The explanation then claims real objects can hold only microcoulombs, that accumulating 1 C requires starting with a tiny sphere, and that 1 C isolated charge is essentially impossible. Those statements do not follow: size and surrounding breakdown strength are what constrain the field. For example, the stated air-breakdown approximation requires `R >= sqrt(kQ/E_breakdown) ≈ 54.7 m` to hold 1 C, already a very large object but not a logical impossibility. Explain the practical scale without inventing a small-sphere starting requirement.
 
 ## Smaller corrections and wording issues
+
+**Status:** all rows below were fixed in `44b502cc`. A follow-up in `1c9c5e3a` reworded the 14.7 P24 heat-gain comparison and restored 8.21 N in the grouper calculation.
 
 | Source                                                                | Finding and correction                                                                                                                                                                                                                                                                                                                                        |
 | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -311,6 +393,8 @@ The distance **1.80 km** is correct for the exterior point-charge model. The exp
 ## Missing and incomplete answers
 
 ### A01 — Fifteen problems have no solution block
+
+**Status:** still open. Recommended order (from the Codex and Cursor reviews): 18.4 P1, P3, P5 (short numerical answers); the 18.5 P1–P4 sketches (reuse `scripts/figures/fields18to19.js`); then the eight Construct Your Own Problem exercises with worked illustrative examples. Two unanswered conceptual questions need attention first: 18.7 C11 had contradictory charge signs (fixed in `1c9c5e3a`), and 18.6 C1 should state its thin-membrane approximation when answered.
 
 These are missing answers, including open-ended problems for which a worked illustrative answer can be supplied. They are not included among the 39 numbered correctness/model findings above.
 
@@ -334,11 +418,11 @@ These are missing answers, including open-ended problems for which a worked illu
 
 ### A02 — Supplied text does not always complete the requested task
 
-- [14.3 P7](../contents/ch14PhaseChangeAndLatentHeat.md#L958) gives heat and five stage times but omits the requested **temperature-versus-time graph in (c)**. Its stage times imply breakpoints near **0, 0.418, 3.758, 7.948, 30.548, and 31.004 s**, with melting and boiling plateaus.
-- [15.7 P7](../contents/ch15StatisticalInterpretationOfEntropy.md#L712) omits **part (a)'s table and all 64 individual six-coin microstates**. Parts (b)–(e) are supplied and their counts/ratios are consistent.
-- [18.4 P2](../contents/ch18ElectricField.md#L225) supplies **8.75 × 10⁻⁴ N**, but omits the requested **eastward direction**.
-- **18.7 P1–P4** and **19.4 P1–P10** provide verbal sketch instructions/descriptions, without an actual solution sketch. Add the requested diagrams; some descriptions themselves need correction under F32–F37. The linked illustrations in these exercises are the **question figures**, not completed solution drawings.
-- [18.8 P17](../contents/ch18ApplicationOfElectrostatics.md#L1526) gives construction guidance without a worked numerical example; see F39 as well.
+- **Done in `1c9c5e3a` (graph added).** [14.3 P7](../contents/ch14PhaseChangeAndLatentHeat.md#L958) gives heat and five stage times but omits the requested **temperature-versus-time graph in (c)**. Its stage times imply breakpoints near **0, 0.418, 3.758, 7.948, 30.548, and 31.004 s**, with melting and boiling plateaus.
+- **Done in `1c9c5e3a` (table of all 64 microstates added).** [15.7 P7](../contents/ch15StatisticalInterpretationOfEntropy.md#L712) omits **part (a)'s table and all 64 individual six-coin microstates**. Parts (b)–(e) are supplied and their counts/ratios are consistent.
+- **Done in `1c9c5e3a`.** [18.4 P2](../contents/ch18ElectricField.md#L225) supplies **8.75 × 10⁻⁴ N**, but omits the requested **eastward direction**.
+- **Done in `44b502cc` (computed sketches).** **18.7 P1–P4** and **19.4 P1–P10** provide verbal sketch instructions/descriptions, without an actual solution sketch. Add the requested diagrams; some descriptions themselves need correction under F32–F37. The linked illustrations in these exercises are the **question figures**, not completed solution drawings.
+- **Done in `d701d26e`.** [18.8 P17](../contents/ch18ApplicationOfElectrostatics.md#L1526) gives construction guidance without a worked numerical example; see F39 as well.
 
 The section ledger below separately lists every absent conceptual answer. An answer's presence, or the presence of three headings, does not establish that every requested part was answered.
 
@@ -426,14 +510,15 @@ This ledger accounts for every exercise in scope. “Missing” lists **all 183 
 
 ## Checks and limits
 
-| Check                                                                                       | Observed result                                                                                                                                                                                                                                                                 | What it establishes                                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Exercise inventory using balanced exercise wrappers plus section headings and element types | 1,080 exercises in 75 section files; 86 chapter files considered, including introductions                                                                                                                                                                                       | Coverage and answer-block presence; conceptual questions are counted even when their element-type attribute is absent.                                                                    |
-| `python3 -B find_incomplete_solutions.py --range 11-20 --summary`                           | 759 problems; 129 fail the format/completeness check: 15 have no answer and 114 supplied answers lack recognized write-up parts; no unclosed problem/solution containers reported                                                                                               | Availability and structure only; it excludes conceptual questions.                                                                                                                        |
-| `python3 -B check_math.py --range 11-20`                                                    | 86 files scanned; 69 existing worked-example checks; zero “likely errors” at its default threshold; one 2.6% comparison flag at Chapter 11 Archimedes P9                                                                                                                        | Selected arithmetic checks, **not** an all-answer correctness certificate. The findings above include errors this script cannot detect.                                                   |
-| Review of the Archimedes P9 arithmetic flag                                                 | Unrounded buoyancy is approximately 841.207 N; weight is 833 N; difference 8.207 N rounds to the supplied **8.21 N**                                                                                                                                                            | The result is consistent. The displayed **841 − 833 = 8.21** should say guard digits were retained or display the unrounded buoyancy. This is presentation, not a wrong net-force answer. |
-| `node scripts/check-math.js`                                                                | Pass: balanced math delimiters in 282 content files                                                                                                                                                                                                                             | Delimiter balance only; mathematical and physical truth are not checked.                                                                                                                  |
-| Independent calculations and figure inspection                                              | Recomputed the corrected gold density, hanging-wire strain, entropy examples, Carnot checks, oscillator bounds, and all finite roots for 18.7 P8; inspected the boot leaks, pressure–volume cycle, equal-loudness chart, square/triangle charge layouts, and capacitor networks | Supports the specific findings and avoids treating a diagram description as ground truth.                                                                                                 |
+| Check                                                                                       | Observed result                                                                                                                                                                                                                                                                     | What it establishes                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Exercise inventory using balanced exercise wrappers plus section headings and element types | 1,080 exercises in 75 section files; 86 chapter files considered, including introductions                                                                                                                                                                                           | Coverage and answer-block presence; conceptual questions are counted even when their element-type attribute is absent.                                                                    |
+| `python3 -B find_incomplete_solutions.py --range 11-20 --summary`                           | 759 problems; 129 fail the format/completeness check: 15 have no answer and 114 supplied answers lack recognized write-up parts; no unclosed problem/solution containers reported                                                                                                   | Availability and structure only; it excludes conceptual questions.                                                                                                                        |
+| `python3 -B check_math.py --range 11-20`                                                    | 86 files scanned; 69 existing worked-example checks; zero “likely errors” at its default threshold; one 2.6% comparison flag at Chapter 11 Archimedes P9                                                                                                                            | Selected arithmetic checks, **not** an all-answer correctness certificate. The findings above include errors this script cannot detect.                                                   |
+| Review of the Archimedes P9 arithmetic flag                                                 | Unrounded buoyancy is approximately 841.207 N; weight is 833 N; difference 8.207 N rounds to the supplied **8.21 N**                                                                                                                                                                | The result is consistent. The displayed **841 − 833 = 8.21** should say guard digits were retained or display the unrounded buoyancy. This is presentation, not a wrong net-force answer. |
+| Re-run after the corrections (HEAD `1c9c5e3a`)                                              | `find_incomplete_solutions.py`: 127 problems fail, 15 absent + 112 supplied answers lacking recognized write-up parts; `check_math.py`: zero flags (the Archimedes P9 calculation now keeps a guard digit and gives 8.21 N); `check-math.js`, figure, and accessibility checks pass | The open items are now the missing answers, not correctness findings.                                                                                                                     |
+| `node scripts/check-math.js`                                                                | Pass: balanced math delimiters in 282 content files                                                                                                                                                                                                                                 | Delimiter balance only; mathematical and physical truth are not checked.                                                                                                                  |
+| Independent calculations and figure inspection                                              | Recomputed the corrected gold density, hanging-wire strain, entropy examples, Carnot checks, oscillator bounds, and all finite roots for 18.7 P8; inspected the boot leaks, pressure–volume cycle, equal-loudness chart, square/triangle charge layouts, and capacitor networks     | Supports the specific findings and avoids treating a diagram description as ground truth.                                                                                                 |
 
 The **4.5 kJ / 2.4 kJ** cycle-area answers in 15.2 P5–P6 and the three capacitor-network answers in 19.6 P1/P4/P5 agree with their supplied diagrams. They are examples of figure-dependent answers checked without a new correctness finding.
 
