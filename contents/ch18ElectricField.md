@@ -149,14 +149,14 @@ situations.
 ::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
 
 <div class="title">
-PhET Explorations: Electric Field of Dreams
+OpenLyceum Explorations: Electric Field of Dreams
 </div>
 
 Play ball! Add charges to the Field of Dreams and see how they react to the electric field. Turn on a background electric field and adjust the direction and magnitude.
 {: class="newline"}
 
 <div class="media"  data-alt="electric field">
-<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/electric-field-of-dreams/#sim-electric-field-of-dreams"></iframe>
+<iframe width="660" height="371.4" src="https://openlyceum.github.io/ElectricFieldOfDreams/"></iframe>
 </div>
 
 :::

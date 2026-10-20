@@ -320,7 +320,7 @@ the substructure of matter and its interactions.
 ::: interactive {"class":"interactive","data-has-label":"true","data-label":""}
 
 <div class="title">
-PhET Explorations: Stern-Gerlach Experiment
+OpenLyceum Explorations: Stern-Gerlach Experiment
 </div>
 
 The classic Stern-Gerlach Experiment shows that atoms have a property called spin. Spin is a kind of intrinsic angular momentum, which has no classical counterpart. When the z-component of the spin is measured, one always gets one of two values: spin up or spin down.
@@ -329,7 +329,7 @@ The classic Stern-Gerlach Experiment shows that atoms have a property called spi
 {: class="newline"}
 
 <div class="media" id="PhET_module" data-alt="">
-<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/stern-gerlach/stern-gerlach_en.html"></iframe>
+<iframe width="660" height="371.4" src="https://openlyceum.github.io/SternGerlach/"></iframe>
 </div>
 
 :::

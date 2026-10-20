@@ -325,7 +325,7 @@ east), so that right triangles are involved. The analytical techniques presented
 in [Vector Addition and Subtraction: Analytical Methods](./ch3VectorAdditionAndSubtractionAnalyticalMethods)
 are ideal for finding vector components.
 
-:::: note {"class":"note","data-label":"PhET Exploration"}
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
 
 <div class="title">
  Maze Game
@@ -338,8 +338,7 @@ game more difficult. Try to make a goal as fast as you can.
 ::: figure {}
 
 <div class="cnxsim">
-<iframe loading="lazy" src="https://veillette.github.io/simulations/maze-game/#sim-maze-game
-" width="750" height="500"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://openlyceum.github.io/MazeGame/" width="750" height="500"  allowfullscreen></iframe>
 <figcaption>
 Maze Game
 </figcaption>

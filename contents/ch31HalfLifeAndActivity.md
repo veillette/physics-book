@@ -447,7 +447,7 @@ PhET Explorations: Alpha Decay
 Watch alpha particles escape from a polonium nucleus, causing radioactive alpha decay. See how random decay times relate to the half life.
 
 <div class="media" id="PhET_module" data-alt="Alpha Decay">
-<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/cheerpj/alpha-decay/latest/alpha-decay.html?simulation=alpha-decay"></iframe>
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/alpha-decay/latest/alpha-decay_en.html"></iframe>
 </div>
 
 :::

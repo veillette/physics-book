@@ -513,18 +513,17 @@ answer to both questions is yes, as will be seen in the next few sections.
 :::: note {"class":"note","data-label":"PhET Exploration"}
 
 <div class="title">
- Forces in 1 Dimension
+ Forces and Motion: Basics
 </div>
 
-Explore the forces at work when you try to push a filing cabinet. Create an applied force and see the resulting friction force and total force acting on the cabinet. Charts show the forces, position, velocity, and acceleration vs. time. View a free-body diagram of all the forces (including gravitational and normal forces).
+Explore the forces at work when you push objects. Change the applied force, mass, and friction, and observe the resulting motion. Display the forces, sum of forces, speed, and acceleration to connect the net force to acceleration.
 
 ::: figure {}
 
 <figcaption>
-Forces in 1 Dimension
+Forces and Motion: Basics
 </figcaption>
-<iframe loading="lazy" src="https://phet.colorado.
-edu/sims/cheerpj/forces-1d/latest/forces-1d.html?simulation=forces-1d"
+<iframe loading="lazy" src="https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html"
 width="800" height="600"  allowfullscreen></iframe>
 
 :::

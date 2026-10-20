@@ -323,7 +323,7 @@ An electronics kit in your computer! Build circuits with resistors, light bulbs,
 {: class="newline"}
 
 <div class="media"  data-alt="circuit construction kit">
-<iframe width="660" height="371.4" src="https://veillette.github.io/simulations/circuit-construction-kit-dc-only/#sim-cck"></iframe>
+<iframe width="660" height="371.4" src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_en.html"></iframe>
 </div>
 
 :::

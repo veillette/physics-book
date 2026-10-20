@@ -453,20 +453,20 @@ Because Einstein was able to clearly define how measurements are made (some invo
 
 ::::
 
-:::: note {"class":"note","data-label":"PhET Exploration"}
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
 
 <div class="title">
- Motion in 2D
+ Ladybug Motion 2D
 </div>
 
-Try the new \"Ladybug Motion 2D\" simulation for the latest updated version. Learn about position, velocity, and acceleration vectors. Move the ball with the mouse or let the simulation move the ball in four types of motion (2 types of linear, simple harmonic, circle).
+Learn about position, velocity, and acceleration vectors. Move the ladybug with the mouse or use the remote control to set its position, velocity, or acceleration. Compare linear, circular, and elliptical motion.
 
 ::: figure {}
 
 <figcaption>
-Motion in 2D
+Ladybug Motion 2D
 </figcaption>
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/motion-2d/latest/motion-2d.html?simulation=motion-2d" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://openlyceum.github.io/LadyBug/" width="600" height="450"  allowfullscreen></iframe>
 
 :::
 

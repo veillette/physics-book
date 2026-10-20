@@ -286,7 +286,7 @@ proportional to the mass of the steel and glass marbles?
 
 ::::
 
-:::: note {"class":"note","data-label":"PhET Exploration"}
+:::: note {"class":"note","data-label":"OpenLyceum Exploration"}
 
 <div class="title">
  The Ramp
@@ -298,7 +298,7 @@ cabinet. Graphs show forces, energy and work.
 
 ::: figure {}
 
-<iframe loading="lazy" src="https://phet.colorado.edu/sims/cheerpj/the-ramp/latest/the-ramp.html?simulation=the-ramp" width="600" height="450"  allowfullscreen></iframe>
+<iframe loading="lazy" src="https://openlyceum.github.io/TheRamp/" width="600" height="450"  allowfullscreen></iframe>
 <figcaption>
 The Ramp
 </figcaption>
