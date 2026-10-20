@@ -26,5 +26,5 @@
 <circle cx="203.49" cy="87.83" r="22" fill="#c9d3e6" stroke="#5b6f99" stroke-width="2"/>
 <text x="201.49" y="57.78" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Planet</tspan></text>
 <text x="243.49" y="115.88" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">m</tspan></text>
-<text x="53.49" y="125.88" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">v</tspan></tspan></text>
+<text x="53.49" y="125.88" font-family="'Times New Roman', Times, serif" font-size="23" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="14.26" font-weight="normal" dx="-12.31" dy="-9.66">→</tspan><tspan dx="-0.81" dy="9.66">​</tspan></tspan></text>
 </svg>

@@ -74,7 +74,7 @@ export default {
     f.angle([0, 0], -90, th - 90, 60, 'θ', { labelR: 76, size: 20 });
     f.text(par, '**w**_∥', { dx: -6, dy: -18, size: 21, anchor: 'end' });
     f.text(perp, '**w**_⊥', { dx: 10, dy: 2, size: 21, anchor: 'start' });
-    f.text(wv, 'w', { dx: 14, dy: 4, size: 20, anchor: 'start', math: false });
+    f.text(wv, '**w**', { dx: 14, dy: 4, size: 21, anchor: 'start' });
     svg.text(485, 120, 'w_∥ = w sin(θ) = mg sin(θ)', { size: 21, anchor: 'start' });
     svg.text(485, 150, 'w_⊥ = w cos(θ) = mg cos(θ)', { size: 21, anchor: 'start' });
     return svg.render();
@@ -127,7 +127,7 @@ export default {
     svg.text(cx - 60, cy + 22, '**T**_{Lx}', { size: 19 });
     svg.text(cx + 60, cy + 22, '**T**_{Rx}', { size: 19 });
     svg.text(cx - 10, cy + 60, '**W**', { size: 19, anchor: 'end' });
-    svg.text(cx, cy + 135, 'net **F**_x = 0;  net **F**_y = 0', { size: 18 });
+    svg.text(cx, cy + 135, '\\rm{net} F_x = 0;  \\rm{net} F_y = 0', { size: 18 });
     return svg.render();
   },
 
@@ -292,15 +292,15 @@ export default {
     svg.circle(cx, cy, 7, { fill: blue });
     svg.arc(cx, cy, 34, a1, a2, { color: BLACK });
     svg.text(cx + 52, cy - 44, 'Δθ', { size: 20 });
-    svg.text(cx + 100, cy - 6, '**r**', { size: 20 });
+    svg.text(cx + 100, cy - 6, 'r', { size: 20 });
     svg.text(cx - 12, cy + 25, 'O', { size: 20, math: false, weight: 'bold' });
     svg.text(A[0] + 18, A[1] - 6, 'A', { size: 20, math: false, weight: 'bold' });
     svg.text(B[0] - 4, B[1] - 16, 'B', { size: 20, math: false, weight: 'bold' });
-    svg.text(cx + r * Math.cos(rad(47)) + 22, cy - r * Math.sin(rad(47)) - 14, 'Δ**s**', {
+    svg.text(cx + r * Math.cos(rad(47)) + 22, cy - r * Math.sin(rad(47)) - 14, 'Δs', {
       size: 20,
     });
     svg.text(338, 265, 'Δθ =', { size: 20, anchor: 'end' });
-    fraction(svg, 362, 265, 'Δ**s**', '**r**', { size: 20, width: 36 });
+    fraction(svg, 362, 265, 'Δs', 'r', { size: 20, width: 36 });
     return svg.render();
   },
 
@@ -381,7 +381,7 @@ export default {
     svg.text((cx + B[0]) / 2 + 14, (cy + B[1]) / 2 + 26, 'r', { size: 21 });
     svg.text((cx + C[0]) / 2 - 22, (cy + C[1]) / 2, 'r', { size: 21 });
     svg.text((B[0] + C[0]) / 2 + 22, (B[1] + C[1]) / 2 + 2, 'Δr', { size: 21 });
-    svg.text(cx + r * Math.cos(rad(47)) + 26, cy - r * Math.sin(rad(47)) - 14, 'Δ**s**', {
+    svg.text(cx + r * Math.cos(rad(47)) + 26, cy - r * Math.sin(rad(47)) - 14, 'Δs', {
       size: 21,
     });
     // Vector triangle: v1 from P to Q, v2 from P to R, Δv from Q to R.
@@ -440,14 +440,14 @@ export default {
       svg.text(70, 60, 'Path', { size: 20, math: false });
       svg.text(px - 40, py - 85, '**v**', { size: 20 });
       svg.text(170 + (px - 170) * 0.5 + 18, 300 + (py - 300) * 0.5 + 18, 'r', { size: 21 });
-      svg.text(px + ux * 120 - 30, py + uy * 120 - 12, 'f', { size: 24 });
+      svg.text(px + ux * 120 - 30, py + uy * 120 - 12, '**f**', { size: 24 });
       svg.text(px + ux * 75 + 18, py + uy * 75 + 4, 'large r', {
         size: 20,
         math: false,
         rotate: -50,
       });
     });
-    svg.text(280, 455, '\\it{f} = **F**_c is parallel to **a**_c since **F**_c = \\it{m}**a**_c', {
+    svg.text(280, 455, '**f** = **F**_c is parallel to **a**_c since **F**_c = \\it{m}**a**_c', {
       size: 20,
       italic: false,
     });

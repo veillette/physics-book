@@ -10,11 +10,11 @@
 <text x="26" y="30.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan></text>
 <line x1="40" y1="250" x2="160.71" y2="111.13" stroke="#8e4f8e" stroke-width="3.5"/>
 <polygon points="171.21,99.06 165.19,116.35 154.93,107.43" fill="#8e4f8e"/>
-<text x="92.02" y="169.37" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">A</tspan></tspan></text>
+<text x="92.02" y="169.37" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">A<tspan font-size="11.78" font-weight="normal" dx="-12.28" dy="-11.78">→</tspan><tspan dx="1.44" dy="11.78">​</tspan></tspan></text>
 <line x1="171.21" y1="99.06" x2="333.49" y2="55.58" stroke="#8e4f8e" stroke-width="3.5"/>
 <polygon points="348.94,51.44 334.28,62.4 330.76,49.27" fill="#8e4f8e"/>
-<text x="265.25" y="101.22" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">B</tspan></tspan></text>
+<text x="265.25" y="101.22" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="11.78" font-weight="normal" dx="-11.76" dy="-11.78">→</tspan><tspan dx="0.92" dy="11.78">​</tspan></tspan></text>
 <line x1="348.94" y1="51.44" x2="438.85" y2="273.96" stroke="#8e4f8e" stroke-width="3.5"/>
 <polygon points="444.84,288.79 432.17,275.58 444.78,270.48" fill="#8e4f8e"/>
-<text x="380.2" y="183.51" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal"><tspan font-style="normal">C</tspan></tspan></text>
+<text x="380.2" y="183.51" font-family="'Times New Roman', Times, serif" font-size="19" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">C<tspan font-size="11.78" font-weight="normal" dx="-12.28" dy="-11.78">→</tspan><tspan dx="1.44" dy="11.78">​</tspan></tspan></text>
 </svg>

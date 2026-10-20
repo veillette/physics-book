@@ -10,7 +10,7 @@
  * Label markup (see `renderLabel`) is shared by every text call:
  *   v_0, F_{app}   → subscripts (upright, smaller)
  *   m/s^2, x^{-1}  → superscripts
- *   **A**          → bold upright vector symbol
+ *   **A**          → bold upright vector symbol with an arrow, like \vb{A}
  *   ā, v̄           → overbars: write `\bar{v}`
  *   \rm{m/s}       → upright text (units, so "m" and "s" are not italic)
  *   \it{t}         → italic text (variables inside plain annotations)
@@ -51,6 +51,84 @@ export const escapeXml = s =>
 
 // Zero-width space: an empty tspan would be dropped, losing its baseline reset.
 const ZWSP = String.fromCharCode(0x200b);
+
+// Advance widths (em) of Times bold letters, used to center the vector arrow.
+// Times New Roman, Times and Liberation Serif share these metrics.
+const BOLD_WIDTH = {
+  A: 0.722,
+  B: 0.667,
+  C: 0.722,
+  D: 0.722,
+  E: 0.667,
+  F: 0.611,
+  G: 0.778,
+  H: 0.778,
+  I: 0.389,
+  J: 0.5,
+  K: 0.778,
+  L: 0.667,
+  M: 0.944,
+  N: 0.722,
+  O: 0.778,
+  P: 0.611,
+  Q: 0.778,
+  R: 0.722,
+  S: 0.556,
+  T: 0.667,
+  U: 0.722,
+  V: 0.722,
+  W: 1.0,
+  X: 0.722,
+  Y: 0.722,
+  Z: 0.667,
+  a: 0.5,
+  b: 0.556,
+  c: 0.444,
+  d: 0.556,
+  e: 0.444,
+  f: 0.333,
+  g: 0.5,
+  h: 0.556,
+  i: 0.278,
+  j: 0.333,
+  k: 0.556,
+  l: 0.278,
+  m: 0.833,
+  n: 0.556,
+  o: 0.5,
+  p: 0.556,
+  q: 0.556,
+  r: 0.444,
+  s: 0.389,
+  t: 0.333,
+  u: 0.556,
+  v: 0.5,
+  w: 0.722,
+  x: 0.5,
+  y: 0.5,
+  z: 0.444,
+};
+const ASCENDERS = /[A-Zbdfhklt]/;
+
+/**
+ * An arrow accent over the letter just written, as tspans: step back over half
+ * the letter, raise a small "→" above it, then step forward and down again so
+ * the following text starts where it would have without the arrow. Only the
+ * arrow's own width is estimated, so a font with slightly different metrics
+ * shifts the arrow by a pixel or so but never the rest of the label.
+ */
+function vectorArrow(letter, size) {
+  const arrowSize = size * 0.62;
+  const arrowWidth = arrowSize * 0.92;
+  const letterWidth = (BOLD_WIDTH[letter] ?? 0.6) * size;
+  const raise = (ASCENDERS.test(letter) ? 0.62 : 0.42) * size;
+  const back = -(letterWidth + arrowWidth) / 2;
+  const forward = (letterWidth + arrowWidth) / 2 - arrowWidth;
+  return (
+    `<tspan font-size="${fmt(arrowSize)}" font-weight="normal" dx="${fmt(back)}" dy="${fmt(-raise)}">→</tspan>` +
+    `<tspan dx="${fmt(forward)}" dy="${fmt(raise)}">${ZWSP}</tspan>`
+  );
+}
 
 const LETTER = /[A-Za-zͰ-Ͽ]/;
 
@@ -119,8 +197,12 @@ export function renderLabel(markup, size, { italic = true } = {}) {
       flushPlain();
       const end = markup.indexOf('**', i + 2);
       const body = markup.slice(i + 2, end);
+      // The symbol letter gets an arrow accent, as \vb{A} does in the text;
+      // anything after it (a prime, say) is plain bold.
+      const head = body[0];
+      const rest = body.slice(1);
       out.push(
-        `<tspan font-weight="bold" font-style="normal">${renderLabel(body, size, { italic: false })}</tspan>`
+        `<tspan font-weight="bold" font-style="normal">${escapeXml(head)}${vectorArrow(head, size)}${rest ? renderLabel(rest, size, { italic: false }) : ''}</tspan>`
       );
       i = end + 2;
     } else if (markup.startsWith('\\rm', i) || markup.startsWith('\\it', i)) {
