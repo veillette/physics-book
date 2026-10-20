@@ -873,7 +873,7 @@ An electronic device designed to operate at any temperature in the range from  $
 
 **Strategy**
 
-Use $$R = R_{0}(1 + \alpha \Delta T)$$ with carbon's negative temperature coefficient ($$\alpha = -0.5 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)). Note that for carbon, resistance *decreases* with increasing temperature. We compare resistance at the two temperature extremes.
+Use $$R = R_{0}(1 + \alpha \Delta T)$$ with carbon's negative temperature coefficient ($$\alpha = -0.5 \times 10^{-3}$$ /ºC from [[Table 2]](#Table2)). Note that for carbon, resistance *decreases* with increasing temperature. We compare resistance at the two temperature extremes. Because the resistance *falls* as the device warms, the increase the question asks about happens as the temperature goes from the top of the range (55.0 °C) to the bottom (−10.0 °C).
 
 **Solution**
 
@@ -891,17 +891,19 @@ At 55 °C ($$\Delta T = +35$$ °C):
 $$R_{55} = R_{0}[1 + (-0.5 \times 10^{-3} \text{ /ºC})(35 \text{ ºC})] = R_{0}(1 - 0.0175) = 0.9825 R_{0}$$
 </div>
 
-The factor by which resistance changes from lowest to highest temperature:
+The factor by which the resistance increases as the device cools from 55 °C to −10 °C:
 
 <div class="equation">
 $$\text{Factor} = \frac{R_{-10}}{R_{55}} = \frac{1.015 R_{0}}{0.9825 R_{0}} = 1.03$$
 </div>
 
+Going the other way, warming from −10 °C to 55 °C multiplies the resistance by $$R_{55}/R_{-10} = 0.9825/1.015 = 0.968$$, a decrease of about 3%.
+
 **Discussion**
 
 The resistance changes by only 3% over this 65 °C temperature range. This is because carbon has a small (and negative) temperature coefficient. The resistance is highest at the cold extreme (-10 °C) and lowest at the warm extreme (55 °C). Carbon's negative coefficient means it behaves opposite to metals—its resistance decreases as temperature increases. This property, combined with carbon's small coefficient, makes carbon resistors useful in applications requiring moderate temperature stability.
 
-The resistance increases by a factor of 1.03 (or about 3%) from the highest to lowest temperature in this range.
+The resistance increases by a factor of 1.03 (about 3%) as the temperature drops from 55.0 °C to −10.0 °C; over the same range it decreases by the same 3% on warming.
 
 :::
 

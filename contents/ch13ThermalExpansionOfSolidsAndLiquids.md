@@ -559,11 +559,11 @@ Two blocks, A and B, are made of the same material. Block A has dimensions  $$l�
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-(a) The change in volume is proportional to the original volume. Block A has a volume of  $$L×2L×L={2L}^{3}\text{.} $$  Block B has a volume of  $$2L×2L×2L={8L}^{3}, $$
+(a) The change in volume is proportional to the original volume. Block A has a volume of  $$L×2L×L=2L^{3}\text{.} $$  Block B has a volume of  $$2L×2L×2L=8L^{3}, $$
  which is 4 times that of Block A. Thus the change in volume of Block B should be 4 times the change in volume of Block A.
 
 (b) The change in area is proportional to the area. The cross-sectional area of
-Block A is $$L×2L={2L}^{2}, $$ while that of Block B is $$2L×2L={4L}^{2}\text{.} $$
+Block A is $$L×2L=2L^{2}, $$ while that of Block B is $$2L×2L=4L^{2}\text{.} $$
 Because cross-sectional area of Block B is twice that of Block A, the change
 in the cross-sectional area of Block B is twice that of Block A.
 

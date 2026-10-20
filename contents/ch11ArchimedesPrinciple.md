@@ -455,7 +455,7 @@ $$ F = P \times A = \rho g h A $$
 For a plug with area 20 cm² at 30 cm depth:
 $$ F = (1000 \text{ kg/m}^3)(9.8 \text{ m/s}^2)(0.30 \text{ m})(0.002 \text{ m}^2) \approx 6 \text{ N} $$
 
-Archimedes' principle concerns the buoyant force on a *submerged object*, which equals the weight of displaced fluid. The plug displaces very little water (it mostly fills the drain hole), so its buoyant force is small. The significant force is the hydrostatic pressure acting on the plug's surface.
+Archimedes' principle describes an object *completely surrounded* by fluid. The buoyant force is the difference between the upward pressure force on its bottom and the downward pressure force on its top. The plug is not surrounded: its underside faces the air-filled drain pipe, at roughly atmospheric pressure, not water at the bathtub's floor pressure. With no water underneath to push up, nothing balances the water's downward push on the top, so the full $$ \rho g h A $$ acts on the plug. Archimedes' principle simply does not apply to an object sealed against the bottom with its underside dry.
 
 **Discussion:**
 Archimedes' principle and hydrostatic pressure are related but distinct concepts. The buoyant force results from the *difference* in pressure on top and bottom of an object. For the plug, water pushes mainly on one side (top), with air at atmospheric pressure below. This pressure difference, not buoyancy, explains why pulling the plug is harder when the tub is full.
@@ -822,21 +822,21 @@ Since the fish density is less than saltwater density, the buoyant force exceeds
 
 *Step 1: Calculate the fish's volume*
 
-$$ V = \frac{m}{\rho_{\text{fish}}} = \frac{85.0 \text{ kg}}{1015 \text{ kg/m}^3} = 0.0837 \text{ m}^3 $$
+$$ V = \frac{m}{\rho_{\text{fish}}} = \frac{85.0 \text{ kg}}{1015 \text{ kg/m}^3} = 0.08374 \text{ m}^3 $$ (keeping a guard digit)
 
 *Step 2: Calculate the buoyant force*
 
 Using saltwater density $$ \rho_{\text{saltwater}} = 1025 \text{ kg/m}^3 $$:
 
-$$ F_B = \rho_{\text{saltwater}} V g = (1025 \text{ kg/m}^3)(0.0837 \text{ m}^3)(9.80 \text{ m/s}^2) = 841 \text{ N} $$
+$$ F_B = \rho_{\text{saltwater}} V g = (1025 \text{ kg/m}^3)(0.08374 \text{ m}^3)(9.80 \text{ m/s}^2) = 841.2 \text{ N} $$
 
 *Step 3: Calculate the fish's weight*
 
-$$ W = mg = (85.0 \text{ kg})(9.80 \text{ m/s}^2) = 833 \text{ N} $$
+$$ W = mg = (85.0 \text{ kg})(9.80 \text{ m/s}^2) = 833.0 \text{ N} $$
 
 *Step 4: Find the required downward force*
 
-$$ F_{\text{down}} = F_B - W = 841 \text{ N} - 833 \text{ N} = 8.21 \text{ N} $$
+$$ F_{\text{down}} = F_B - W = 841.2 \text{ N} - 833.0 \text{ N} = 8.2 \text{ N} $$
 
 **Discussion:**
 The grouper must exert a downward force of approximately **8.2 N** to stay submerged. This is less than 1% of its weight—a relatively small effort. The fish achieves this by swimming with a slight downward angle or adjusting its swim bladder volume. Since the grouper's density (1015 kg/m³) is close to but less than saltwater (1025 kg/m³), it's nearly neutrally buoyant. Many fish adjust their swim bladder (a gas-filled organ) to achieve neutral buoyancy, allowing them to hover effortlessly at a chosen depth. This grouper is slightly "light" and naturally wants to float upward, requiring active swimming to maintain depth.

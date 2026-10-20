@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400" role="img" aria-labelledby="title desc">
+<title id="title">Equipotentials of +q and of −3q</title>
+<desc id="desc">Two panels drawn with the same potential step between neighbouring equipotentials. (a) A charge +q: the equipotentials are concentric circles at +1, +2, +3, and +4 units, crowding together toward the charge; the potential increases inward. (b) A charge −3q: the circles at −3, −4, −6, −8, and −12 units are also concentric; for the same step, three times as many circles fit in a given region because the charge is three times larger, and the potential increases outward, away from the charge. Radial field lines point outward from +q and inward toward −3q.</desc>
+<rect width="760" height="400" fill="#ffffff"/>
+<line x1="380" y1="10" x2="380" y2="390" stroke="#cccccc" stroke-width="1"/>
+<text x="12" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Charge</tspan><tspan font-style="normal"> +</tspan><tspan font-style="normal">q</tspan></text>
+<line x1="204.78" y1="226.12" x2="348.91" y2="285.82" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="269.45" y1="252.91" x2="277.77" y2="256.35" stroke="#c62828" stroke-width="1"/>
+<polygon points="284.24,259.03 275.62,258.93 278.07,253.02" fill="#c62828"/>
+<line x1="196.12" y1="234.78" x2="255.82" y2="378.91" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="222.91" y1="299.45" x2="226.35" y2="307.77" stroke="#c62828" stroke-width="1"/>
+<polygon points="229.03,314.24 223.02,308.07 228.93,305.62" fill="#c62828"/>
+<line x1="183.88" y1="234.78" x2="124.18" y2="378.91" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="157.09" y1="299.45" x2="153.65" y2="307.77" stroke="#c62828" stroke-width="1"/>
+<polygon points="150.97,314.24 151.07,305.62 156.98,308.07" fill="#c62828"/>
+<line x1="175.22" y1="226.12" x2="31.09" y2="285.82" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="110.55" y1="252.91" x2="102.23" y2="256.35" stroke="#c62828" stroke-width="1"/>
+<polygon points="95.76,259.03 101.93,253.02 104.38,258.93" fill="#c62828"/>
+<line x1="175.22" y1="213.88" x2="31.09" y2="154.18" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="110.55" y1="187.09" x2="102.23" y2="183.65" stroke="#c62828" stroke-width="1"/>
+<polygon points="95.76,180.97 104.38,181.07 101.93,186.98" fill="#c62828"/>
+<line x1="183.88" y1="205.22" x2="124.18" y2="61.09" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="157.09" y1="140.55" x2="153.65" y2="132.23" stroke="#c62828" stroke-width="1"/>
+<polygon points="150.97,125.76 156.98,131.93 151.07,134.38" fill="#c62828"/>
+<line x1="196.12" y1="205.22" x2="255.82" y2="61.09" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="222.91" y1="140.55" x2="226.35" y2="132.23" stroke="#c62828" stroke-width="1"/>
+<polygon points="229.03,125.76 228.93,134.38 223.02,131.93" fill="#c62828"/>
+<line x1="204.78" y1="213.88" x2="348.91" y2="154.18" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="269.45" y1="187.09" x2="277.77" y2="183.65" stroke="#c62828" stroke-width="1"/>
+<polygon points="284.24,180.97 278.07,186.98 275.62,181.07" fill="#c62828"/>
+<circle cx="190" cy="220" r="150" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="300.5" y="111.7" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+1</tspan></text>
+<circle cx="190" cy="220" r="75" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="247.25" y="164.95" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+2</tspan></text>
+<circle cx="190" cy="220" r="50" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="229.5" y="182.7" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+3</tspan></text>
+<circle cx="190" cy="220" r="37.5" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="220.63" y="191.57" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+4</tspan></text>
+<circle cx="190" cy="220" r="12" fill="#c62828" stroke="#222222" stroke-width="1"/>
+<text x="190" y="225.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan></text>
+<text x="212" y="243.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">q</tspan></text>
+<line x1="40" y1="340" x2="122.53" y2="266.64" stroke="#3f9a2b" stroke-width="2.5"/>
+<polygon points="130,260 124.7,270.6 118.86,264.02" fill="#3f9a2b"/>
+<text x="34" y="290.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#3f9a2b" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">increases</tspan></text>
+<text x="392" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">) </tspan><tspan font-style="normal">Charge</tspan><tspan font-style="normal"> −3</tspan><tspan font-style="normal">q</tspan></text>
+<line x1="584.78" y1="226.12" x2="728.91" y2="285.82" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="664.24" y1="259.03" x2="655.92" y2="255.59" stroke="#c62828" stroke-width="1"/>
+<polygon points="649.45,252.91 658.07,253.02 655.62,258.93" fill="#c62828"/>
+<line x1="576.12" y1="234.78" x2="635.82" y2="378.91" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="609.03" y1="314.24" x2="605.59" y2="305.92" stroke="#c62828" stroke-width="1"/>
+<polygon points="602.91,299.45 608.93,305.62 603.02,308.07" fill="#c62828"/>
+<line x1="563.88" y1="234.78" x2="504.18" y2="378.91" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="530.97" y1="314.24" x2="534.41" y2="305.92" stroke="#c62828" stroke-width="1"/>
+<polygon points="537.09,299.45 536.98,308.07 531.07,305.62" fill="#c62828"/>
+<line x1="555.22" y1="226.12" x2="411.09" y2="285.82" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="475.76" y1="259.03" x2="484.08" y2="255.59" stroke="#c62828" stroke-width="1"/>
+<polygon points="490.55,252.91 484.38,258.93 481.93,253.02" fill="#c62828"/>
+<line x1="555.22" y1="213.88" x2="411.09" y2="154.18" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="475.76" y1="180.97" x2="484.08" y2="184.41" stroke="#c62828" stroke-width="1"/>
+<polygon points="490.55,187.09 481.93,186.98 484.38,181.07" fill="#c62828"/>
+<line x1="563.88" y1="205.22" x2="504.18" y2="61.09" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="530.97" y1="125.76" x2="534.41" y2="134.08" stroke="#c62828" stroke-width="1"/>
+<polygon points="537.09,140.55 531.07,134.38 536.98,131.93" fill="#c62828"/>
+<line x1="576.12" y1="205.22" x2="635.82" y2="61.09" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="609.03" y1="125.76" x2="605.59" y2="134.08" stroke="#c62828" stroke-width="1"/>
+<polygon points="602.91,140.55 603.02,131.93 608.93,134.38" fill="#c62828"/>
+<line x1="584.78" y1="213.88" x2="728.91" y2="154.18" stroke="#c62828" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="664.24" y1="180.97" x2="655.92" y2="184.41" stroke="#c62828" stroke-width="1"/>
+<polygon points="649.45,187.09 655.62,181.07 658.07,186.98" fill="#c62828"/>
+<circle cx="570" cy="220" r="150" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="680.5" y="111.7" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−3</tspan></text>
+<circle cx="570" cy="220" r="112.5" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="653.88" y="138.32" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−4</tspan></text>
+<circle cx="570" cy="220" r="90" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="637.9" y="154.3" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−5</tspan></text>
+<circle cx="570" cy="220" r="75" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="627.25" y="164.95" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−6</tspan></text>
+<circle cx="570" cy="220" r="56.25" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="613.94" y="178.26" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−8</tspan></text>
+<circle cx="570" cy="220" r="37.5" fill="none" stroke="#1f77c8" stroke-width="1.6"/>
+<text x="600.63" y="191.57" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#1f77c8" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−12</tspan></text>
+<circle cx="570" cy="220" r="12" fill="#1f77c8" stroke="#222222" stroke-width="1"/>
+<text x="570" y="225.6" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">−</tspan></text>
+<text x="592" y="243.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−3</tspan><tspan font-style="italic">q</tspan></text>
+<line x1="510" y1="260" x2="427.47" y2="333.36" stroke="#3f9a2b" stroke-width="2.5"/>
+<polygon points="420,340 425.3,329.4 431.14,335.98" fill="#3f9a2b"/>
+<text x="410" y="362.55" font-family="'Times New Roman', Times, serif" font-size="13" fill="#3f9a2b" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">V</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">increases</tspan></text>
+<text x="380" y="390.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Same</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">potential</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">step</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">Δ</tspan><tspan font-style="normal">V</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">between</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">neighbouring</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">circles</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">both</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">panels</tspan></text>
+</svg>

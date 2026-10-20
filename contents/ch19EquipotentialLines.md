@@ -204,6 +204,8 @@ The equipotential lines are also concentric circles, but:
 - Arrows indicating increasing potential point **outward** away from the charge
 - The equipotential lines are more closely spaced near the charge (for the same voltage intervals) because the charge magnitude is 3 times larger
 
+![Two panels drawn with the same potential step between neighbouring equipotentials. (a) A charge +q: the equipotentials are concentric circles at +1, +2, +3, and +4 units, crowding together toward the charge; the potential increases inward. (b) A charge −3q: the circles at −3, −4, −6, −8, and −12 units are also concentric; for the same step, three times as many circles fit in a given region because the charge is three times larger, and the potential increases outward, away from the charge. Radial field lines point outward from +q and inward toward −3q.](../resources/concept_19_04_p01.svg)
+
 **Discussion**
 
 The key difference is the direction of increasing potential: toward a positive charge, away from a negative charge. This is consistent with the fact that positive charges create positive potentials and negative charges create negative potentials. The spacing of equipotential lines indicates the strength of the electric field—closer spacing means stronger field.
@@ -248,6 +250,8 @@ The equipotential lines must be perpendicular to the electric field lines at eve
 
 5. **Between the charges:** The potential is higher than at infinity but lower than very close to either charge. Every equipotential is a closed curve around one or both charges; only the figure-eight at $$V = V_0$$ passes through the midpoint.
 
+![Computed equipotentials of two equal positive charges. Close to each charge they are small circles. The equipotential through the midpoint, drawn heavier, is a figure eight whose two lobes enclose the two charges and cross at the midpoint, where the field is zero (a saddle point of the potential). Lower potentials give single closed curves around both charges, pinched at the waist at first and becoming nearly circular farther out. The perpendicular bisector is not an equipotential: the potential is highest at the midpoint along it. Faint field lines run outward from both charges, crossing every equipotential at right angles. The potential increases toward either charge.](../resources/concept_19_04_p02.svg)
+
 **Discussion**
 
 The equipotential lines form closed curves that must either encircle one charge or both charges. Since both charges are positive, the potential is positive everywhere and increases as you approach either charge.
@@ -285,6 +289,8 @@ From the figure, $$q_1$$ is negative (field lines point toward it) and $$q_2$$ i
 3. **Between the charges:** No equipotential connects the two charges, because the potential goes to $$-\infty$$ at $$q_1$$ and to $$+\infty$$ at $$q_2$$, so no single finite value can reach both. (It is the *field lines* that run from one charge to the other.) The $$V = 0$$ equipotential is the set of points where $$k|q_1|/r_1 = kq_2/r_2$$, that is, $$r_1 = 4r_2$$. This is a **circle around the smaller positive charge** (a sphere in three dimensions). If the charges are a distance $$d$$ apart, the circle crosses the line joining them at $$d/5$$ from $$q_2$$ on the side toward $$q_1$$, and at $$d/3$$ from $$q_2$$ on the far side. Its radius is $$4d/15$$. Inside this circle the equipotentials are positive closed loops around $$q_2$$. Outside it they are negative: small loops around $$q_1$$ close to it, and, farther out, closed curves that enclose both charges and the zero circle.
 
 4. **Direction of increasing potential:** Arrows point **away from $$q_1$$** (the negative charge) and **toward $$q_2$$** (the positive charge).
+
+![Computed equipotentials of a charge q1 = −4q on the left and q2 = +q a distance d to its right. The zero-potential equipotential, drawn heavier, is a circle around the smaller positive charge: it crosses the line between the charges one fifth of the way from q2 to q1, and crosses the axis again d/3 beyond q2; its radius is 4d/15. Inside it, positive equipotentials are small loops around q2. Outside it, the potential is negative: small loops surround q1 closely, and farther out closed curves enclose both charges and the zero circle. No equipotential connects the two charges. Faint field lines run from q2 to q1 and in toward q1 from far away. The potential increases toward q2 and away from q1.](../resources/concept_19_04_p03.svg)
 
 **Discussion**
 
@@ -325,6 +331,8 @@ At large distances, any system of charges appears as a single point charge with 
 
 4. **Spacing:** For equal voltage intervals, the circles are **not** evenly spaced. From $$V = kQ_{\text{net}}/r$$, the radial gap between neighbouring equipotentials is approximately $$\Delta r \approx |\Delta V|\, r^2/(k|Q_{\text{net}}|)$$, so the gaps grow as $$r^2$$ and the circles get farther apart with distance. For example, the $$-30$$ V, $$-20$$ V, and $$-10$$ V circles lie at radii in the ratio $$1 : 1.5 : 3$$.
 
+![Seen from far away, the charges −4q and +q, drawn as a tiny pair at the centre, act like a single charge −3q. Computed equipotentials at equal potential steps, −1, −2, −3, and −4 units, are circles centred on the pair at radii in the ratio 1 : 1/2 : 1/3 : 1/4, so the gaps between neighbouring circles grow with distance (roughly as r squared). The potential is negative and increases outward, toward zero at infinity.](../resources/concept_19_04_p04.svg)
+
 **Discussion**
 
 This is an example of the far-field approximation: any charge distribution looks like a point charge from sufficiently far away. The net charge determines the far-field behavior.
@@ -362,6 +370,8 @@ With $$q_{-} = -3q$$ and $$q_{+} = +q$$, the net charge is $$-2q$$.
 4. **Direction of increasing potential:** Arrows point **toward the positive charge** and **away from the negative charge**.
 
 5. **Far away:** Equipotential lines become circular, representing the net charge of $$-2q$$.
+
+![Computed equipotentials of a charge −3q on the left and +q a distance d to its right. The zero equipotential, drawn heavier, is a circle around the positive charge: it crosses the line between the charges a quarter of the way from +q to −3q, and crosses the axis again d/2 beyond +q; its radius is 3d/8. Inside it, positive equipotentials are loops around +q. Outside it, the potential is negative: loops surround −3q closely, and farther out closed curves enclose both charges, becoming circles like those of a single charge −2q. Faint field lines run from +q to −3q and in toward −3q from far away. The potential increases toward the positive charge and away from the negative charge.](../resources/concept_19_04_p05.svg)
 
 **Discussion**
 
@@ -404,6 +414,8 @@ Conductors in electrostatic equilibrium are equipotential surfaces—all points 
 
 The equipotential lines become **circular** (spherical surfaces in 3D), centered on the object. From far away, any finite charge distribution appears as a point charge.
 
+![Computed equipotentials around a negatively charged, rounded oblong conductor. The conductor itself is one equipotential. The nearest equipotentials follow its oblong shape and are most crowded off the rounded ends, where the negative surface charge, shown by minus signs, is most dense and the field is strongest. Farther out they become rounder, and far away they are circles centred on the object, like those of a point charge. Faint field lines point inward, meeting the conductor at right angles. The potential increases outward, away from the conductor.](../resources/concept_19_04_p06.svg)
+
 **Discussion**
 
 The transition from conductor-shaped equipotentials near the surface to circular equipotentials far away is gradual. This is a general principle: local geometry matters near an object, but far away, only the total charge matters.
@@ -427,7 +439,7 @@ Sketch the equipotential lines surrounding the two conducting plates shown in [[
 
 **Strategy**
 
-For parallel conducting plates, charge concentrates on facing surfaces due to attraction between opposite charges. Between the plates, the field is approximately uniform ($$E = V/d$$), creating parallel, evenly-spaced equipotentials. Where plates are closer, the same voltage difference exists over a smaller distance, yielding stronger field ($$E = V/d$$ increases as $$d$$ decreases) and closer equipotential spacing.
+Each plate is a conductor, so each is an equipotential, and charge concentrates on the facing surfaces because opposite charges attract. These plates are not parallel. The same potential difference is spread across a gap that widens from left to right, so the equipotentials between the plates fan out: they are crowded where the gap is small and spread apart where it is large. Since $$E \approx \Delta V/d$$ locally, the field is strongest where the plates are closest.
 
 **Solution**
 
@@ -437,11 +449,11 @@ The charge concentrates on the **facing surfaces** of the plates (the surfaces c
 
 **Equipotential lines:**
 
-1. **Between the plates (close region):** Equipotential lines are approximately **parallel and evenly spaced**, indicating a nearly uniform field. Higher potential (more positive) is near the top plate.
+1. **Between the plates:** The equipotentials fan out from the narrow end like the ribs of a partly open fan. Each one runs between the plates roughly parallel to them, and they are evenly divided across the gap at any one place. They are crowded where the plates are closest and spread apart toward the open end. Higher potential (more positive) is near the top plate.
 
 2. **Near the edges:** Equipotential lines curve outward, following the fringe fields.
 
-3. **Outside the plates:** Equipotential lines curve around the plates, becoming more circular at large distances.
+3. **Outside the plates:** Positive equipotentials wrap around the top plate and negative ones around the bottom plate, with the $$V = 0$$ equipotential running between them. The plates carry equal and opposite charges, so far away the pattern is that of a dipole, not of a single charge. Positive loops lie on the top side, negative loops on the bottom side, and the equipotentials do not become circles around the pair.
 
 **Is the field strongest where the plates are closest?**
 
@@ -452,6 +464,8 @@ The charge concentrates on the **facing surfaces** of the plates (the surfaces c
 2. **Closer equipotential lines:** Where plates are closer, the same potential difference is spread over less distance, so equipotential lines are more closely spaced—indicating stronger field.
 
 3. **Charge concentration:** Opposite charges attract, so charges migrate toward the facing surfaces, increasing the surface charge density and field there.
+
+![Computed equipotentials around two conducting plates that are closest at the left and spread apart toward the right; the top plate is positive and the bottom plate negative. Between the plates the equipotentials fan out from the narrow left end like the ribs of a partly open fan: they are crowded together where the plates are closest, so the field is strongest there, and spread apart toward the open right end. Around the outer edges they curve around the plates. Positive charge, shown by plus signs, sits mainly on the lower face of the top plate, and negative charge on the upper face of the bottom plate, most densely at the narrow end and at the corners. The potential increases from the bottom plate toward the top plate.](../resources/concept_19_04_p07.svg)
 
 **Discussion**
 
@@ -497,6 +511,8 @@ The electric field lines radiate outward from the positive charges, with density
 3. **Direction of increasing potential:** Arrows point **toward** the rod (toward the positive charges). The highest potential is at the heavily charged end.
 
 4. **Far from the rod:** Equipotential lines become approximately circular, centered on the center of charge of the distribution.
+
+![Two computed panels for a diagonal insulating rod whose positive charges are crowded near its upper-right end, with a few in the middle and one at the lower-left end. (a) Field lines start on the charges and run outward; they are dense near the heavily charged end, and lines from the middle and lower parts tilt away from that end instead of leaving at right angles. (b) Equipotentials: small, closely spaced loops wrap the heavily charged end; the lower contours cross the rod, because an insulator surface is not an equipotential; farther out the contours become larger, rounder closed curves around the whole rod. The potential increases toward the rod and is highest at the heavily charged end. Equipotentials and field lines cross at right angles.](../resources/concept_19_04_p08.svg)
 
 **Discussion**
 
@@ -546,6 +562,8 @@ The potential is positive at height because we moved upward against the downward
 - **Electric field lines:** Vertical lines pointing downward (toward the ground), uniformly spaced.
 - **Equipotential lines:** Horizontal lines parallel to the ground, with equal spacing for equal voltage intervals. Potential increases with height.
 - Ground level is 0 V; at 3 m height, it's about 340 V.
+
+![The ground carries negative charge, shown by minus signs along its surface. The electric field lines are vertical, evenly spaced, and point down toward the ground; the field is 113 V/m. The equipotentials are horizontal lines parallel to the ground, equally spaced for equal potential steps: 0 V at the ground, 113 V at 1 m, 226 V at 2 m, and 339 V at 3 m. The potential increases with height.](../resources/concept_19_04_p09.svg)
 
 **Discussion**
 
@@ -608,6 +626,8 @@ The electric ray uses this charge distribution for several purposes:
 3. **Navigation/sensing:** Some electric fish use their electric field to sense their environment (electrolocation), detecting distortions in the field caused by nearby objects.
 
 4. **Communication:** Electric signals may be used for communication with other electric rays.
+
+![Two computed panels treating the electric ray as a dipole, positive head on the right and negative tail on the left. (a) In open water: nearly circular equipotentials surround each end; the zero-potential equipotential is the straight perpendicular bisector between head and tail; positive loops lie on the head side and negative loops on the tail side, and no equipotential encloses both ends. Larger loops have smaller potentials and are pinched toward the middle, never becoming circles around the ray. (b) Above a grounded conducting hull along the bottom: the hull is itself the zero equipotential, and the equipotentials between the ray and the hull are flattened and squeezed to run along it, while those above the ray look much as in (a). The potential increases toward the head and away from the tail.](../resources/concept_19_04_p10.svg)
 
 **Discussion**
 

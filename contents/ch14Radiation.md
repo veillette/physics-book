@@ -1640,10 +1640,10 @@ responsible?
 
 :::: solution
 
-(a) 1.46 kW
+(a) 1.46 kW, flowing **into** the room, since the outer surface (35.0 °C) is hotter than the inner surface (22.0 °C)
 
-(b) Very high power loss through a window. An electric heater of this power can
-keep an entire room warm.
+(b) This is a very high rate of heat gain through a single window. It is comparable to the cooling power of a
+room air conditioner, so one window would overwhelm the cooling of an entire room.
 
 (c) The surface temperatures of the window do not differ by as great an amount
 as assumed. The inner surface will be warmer, and the outer surface will be

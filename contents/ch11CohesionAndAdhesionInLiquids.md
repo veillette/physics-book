@@ -1139,11 +1139,11 @@ $$ \cos\theta = \frac{(0.0707 \text{ m})(920 \text{ kg/m}^3)(9.80 \text{ m/s}^2)
 </div>
 
 <div class="equation">
-$$ \cos\theta = \frac{63.8 \times 10^{-3} \text{ N/m}}{0.064 \text{ N/m}} = 0.9966 $$
+$$ \cos\theta = \frac{63.74 \times 10^{-3} \text{ N/m}}{0.0640 \text{ N/m}} = 0.99599 $$
 </div>
 
 <div class="equation">
-$$ \theta = \cos^{-1}(0.9966) = 4.7° \approx 5.1° $$
+$$ \theta = \cos^{-1}(0.99599) = 5.13° \approx 5.1° $$
 </div>
 
 The contact angle is approximately **5.1°**.

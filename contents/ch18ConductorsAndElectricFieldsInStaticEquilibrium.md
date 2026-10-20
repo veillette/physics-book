@@ -397,6 +397,8 @@ The sketch should show the following features:
 
 Yes, the resulting field is indeed small near the long sides of the object. This is because the surface there is relatively flat with a large radius of curvature, so charges spread out more uniformly and are less concentrated.
 
+![Computed field lines around a neutral, rounded oblong conductor placed in a field that was uniform and pointing to the right. Far away the lines are straight and evenly spaced. Near the conductor they bend so that they meet its surface at right angles: lines crowd into the left end, where negative charge is induced, and crowd out of the right end, where positive charge is induced. Along the long flat sides the lines are sparse and few charges sit there, so the field near the sides is small. There is no field inside the conductor.](../resources/concept_18_07_p01.svg)
+
 **Discussion**
 
 The behavior illustrated in this problem demonstrates key principles of conductors in electrostatic equilibrium. The field concentration at the pointed ends occurs because the electrostatic repulsion between like charges is less effective at moving them apart on highly curved surfaces. The parallel component of the force between charges is smaller on the pointed ends compared to the flat sides, so charges remain more concentrated there.
@@ -442,6 +444,8 @@ The sketch should include these key features:
 
 Yes, the resulting field is small near the long sides of the object. The flatter surfaces have lower charge concentration and therefore produce weaker fields. The field magnitude is inversely related to the radius of curvature of the surface.
 
+![Computed field lines around a neutral, lens-shaped conductor with pointed ends, placed in a field that was uniform and pointing to the right. The lines meet the surface at right angles. They are concentrated very strongly at the two sharp tips, where the induced charge is most dense: negative at the left tip, positive at the right tip. Along the broad curved sides the lines are sparse, so the field there is small. There is no field inside the conductor.](../resources/concept_18_07_p02.svg)
+
 **Discussion**
 
 This problem reinforces the relationship between surface curvature and field strength for conductors in electrostatic equilibrium. The dramatic difference between field strength at pointed ends versus flat sides explains many practical phenomena. For instance, St. Elmo's fire (a corona discharge) occurs at the pointed masts and rigging of ships but not on the flat deck because the field exceeds the breakdown threshold only at the sharp points.
@@ -474,9 +478,9 @@ For two conducting plates with opposite charges, the electric field lines must b
 The sketch should show the following features:
 
 1. **Charge distribution on the plates**:
-   - On the **positive (top) plate**: Draw + symbols distributed along the inner surface (facing the negative plate). The charge density should be relatively uniform in the central region but may be higher near the edges.
-   - On the **negative (bottom) plate**: Draw − symbols distributed along the inner surface (facing the positive plate). Similar distribution pattern.
-   - Both plates should have most charge on the inner surfaces, with little to no charge on the outer surfaces.
+   - On the **positive (top) plate**: Draw + symbols mainly along the inner surface (facing the negative plate). Because the gap is not uniform, neither is the charge: the + symbols are most crowded at the narrow end, where the plates are closest, thin out toward the wide end, and bunch up again at the sharp corners.
+   - On the **negative (bottom) plate**: Draw − symbols along its inner surface with the same pattern, densest at the narrow end.
+   - Most of the charge is on the inner surfaces. Some sits on the outer surfaces, especially near the edges, where the fringe field lines begin and end.
 
 2. **Field lines in the central region**:
    - Draw field lines starting perpendicular to the positive plate and ending perpendicular to the negative plate.
@@ -493,6 +497,8 @@ The sketch should show the following features:
    - Most field lines connect the positive plate to the negative plate, perpendicular to both surfaces.
    - The varying separation between plates creates a non-uniform field—stronger where plates are closer.
    - Field lines should never cross each other.
+
+![Computed field lines between two conducting plates that are closest together at the left and spread apart toward the right. The top plate is positive and the bottom plate negative. Field lines leave the top plate at right angles and arrive at the bottom plate at right angles, curving between them. The lines are most crowded, and the field strongest, where the plates are closest. Positive charge sits mainly on the lower face of the top plate and negative charge on the upper face of the bottom plate, with the greatest density at the narrow left end and at the corners; little charge is on the outer faces. Fringe lines bulge outward beyond the open right end and around the edges.](../resources/concept_18_07_p03.svg)
 
 **Discussion**
 
@@ -550,6 +556,8 @@ The sketch should illustrate the following:
 
 5. **Contrast with a conductor**:
    - On a conductor, the charge would redistribute until the surface became an equipotential. Field lines would then meet the surface perpendicularly everywhere, and the charge would still be nonuniform: it would concentrate where the surface curves most sharply, such as the rounded ends. On this insulator the charge stays where it was placed, so the field lines emerge mainly where charge exists, can meet the surface at an angle, and the nonuniform distribution is permanent.
+
+![Computed field lines of a diagonal insulating rod whose positive charges are crowded near its upper-right end, with a few in the middle and one at the lower-left end. Lines start on the charges and run outward. They are dense around the heavily charged upper end and sparse elsewhere. Lines leaving the middle and lower parts of the rod do not leave at right angles: they are pushed away from the crowded upper end and tilt downward along the rod. Far from the rod the lines spread out radially, as from a single positive charge.](../resources/concept_18_07_p04.svg)
 
 **Discussion**
 

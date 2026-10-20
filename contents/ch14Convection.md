@@ -472,7 +472,7 @@ This is why:
 1. **Windbreaks matter**: Standing behind a wall or in a forest significantly reduces wind chill
 2. **Clothing works**: Wind-resistant outer layers trap still air and block convection
 3. **Activity helps**: Moving generates metabolic heat to offset increased losses
-4. **Wind makes cold dangerous**: -10 °C with wind is far more hazardous than -29 °C in calm conditions where you can dress appropriately
+4. **Wind makes cold dangerous**: for exposed skin, −10 °C air moving at 10 m/s removes heat about as fast as still air at −29 °C, so a windy −10 °C day calls for the same precautions as a calm −29 °C day
 
 **Answer**
 

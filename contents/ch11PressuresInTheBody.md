@@ -496,13 +496,21 @@ When your lungs are 60.0 cm below the surface:
 
 Converting to cm water: $$ P_{\text{water}} = 60.0 \text{ cm H}_2\text{O} $$
 
-If you can achieve −3.00 cm water pressure at the lung surface while submerged at 60.0 cm depth, you must create a pressure difference of:
+The water squeezes the chest from outside, so the pressure outside the chest wall is
 
-$$ P_{\text{lung, abs}} = P_{\text{atm}} + 60.0 \text{ cm H}_2\text{O} - 3.00 \text{ cm H}_2\text{O} $$
+$$ P_{\text{outside}} = P_{\text{atm}} + 60.0 \text{ cm H}_2\text{O} $$
 
-To inhale, you must reduce lung pressure from atmospheric to this value. The total negative gauge pressure you can create is:
+while the air in the lungs, connected to the atmosphere through the reed, is at a gauge pressure of −3.00 cm water:
 
-$$ P_{\text{max negative}} = -(60.0 + 3.00) \text{ cm H}_2\text{O} = -63.0 \text{ cm H}_2\text{O} $$
+$$ P_{\text{lung}} = P_{\text{atm}} - 3.00 \text{ cm H}_2\text{O} $$
+
+The respiratory muscles must therefore hold the lung pressure below the pressure just outside the chest by
+
+$$ P_{\text{lung}} - P_{\text{outside}} = (P_{\text{atm}} - 3.00 \text{ cm H}_2\text{O}) - (P_{\text{atm}} + 60.0 \text{ cm H}_2\text{O}) = -63.0 \text{ cm H}_2\text{O} $$
+
+On dry land, the pressure outside the chest is atmospheric, so the same muscular effort gives a lung gauge pressure of
+
+$$ P_{\text{max negative}} = -63.0 \text{ cm H}_2\text{O} $$
 
 **Discussion:**
 The maximum negative gauge pressure you can create in your lungs on dry land is approximately **−63.0 cm H₂O** (about −0.062 atm or −6.2 kPa). This represents the total pressure difference your respiratory muscles can generate. When submerged 60 cm deep, you need 60 cm H₂O just to counteract water pressure on your chest, leaving only 3 cm H₂O for actual air flow. Beyond about 60-70 cm depth, most people cannot generate sufficient negative pressure to inhale through a snorkel, which is why snorkels are limited to ~30-40 cm length (half the theoretical maximum, with safety margin). This limitation explains why scuba tanks are necessary for deeper diving—they provide pressurized air matching ambient water pressure.

@@ -1748,7 +1748,7 @@ nitrogen and raise its temperature to $$3.00\text{ºC} $$ .
 (Use $${c}_{p} $$ and assume it is constant over the temperature range.) This
 value is the amount of cooling the liquid nitrogen supplies.
 
-(b) What is this heat transfer rate in kilowatt-hours?
+(b) Express this heat transfer in kilowatt-hours. What average rate of heat transfer (in kilowatts) does it supply over the 3.00-hour trip?
 
 (c) Compare the amount of cooling obtained from melting an identical mass of
 $$0\text{ºC} $$ ice with that from evaporating the liquid nitrogen.
@@ -1758,7 +1758,7 @@ $$0\text{ºC} $$ ice with that from evaporating the liquid nitrogen.
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 (a)  $$ 1.57 \times 10^{4}  \text{kcal} $$
-(b)  $$18.3\text{ kW}\cdot \text{h} $$
+(b)  $$18.3\text{ kW}\cdot \text{h} $$ of heat transfer, supplied at an average rate of $$ 18.3 \text{ kW}\cdot\text{h}/3.00 \text{ h} = 6.10 \text{ kW} $$
 (c)  $$ 1.29 \times 10^{4}  \text{kcal} $$
 
 :::

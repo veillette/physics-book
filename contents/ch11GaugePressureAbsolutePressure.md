@@ -353,7 +353,7 @@ Apply the hydrostatic pressure relationship $$ P = \rho g h $$ to understand how
 **Solution:**
 
 **If the manometer is lowered:**
-No effect on the measured pressure. The manometer measures the pressure transmitted through the cuff, which depends on the blood pressure at the cuff level, not the manometer position. The manometer tubing contains air (or flexible hydraulic connection), and lowering it doesn't change the pressure being transmitted.
+No noticeable effect on the measured pressure. The manometer reads the pressure of the air in the cuff, which is set by the blood pressure at the cuff's level, not by where the manometer sits. The tubing between them is filled with air, whose density is so small that lowering the manometer by even half a metre changes the pressure by only about $$ \rho_{\text{air}} g h = (1.29 \text{ kg/m}^3)(9.80 \text{ m/s}^2)(0.50 \text{ m}) \approx 6 \text{ Pa} $$, less than 0.05 mm Hg. (If the tubing were filled with a liquid, lowering the gauge *would* raise its reading by $$ \rho g \Delta h $$ of that liquid; a flexible tube does not remove this effect.)
 
 **Raising the arm above the shoulder:**
 The measured blood pressure will be **lower** than at heart level. Blood must be pumped upward against gravity to reach the elevated arm. The pressure decrease is:
