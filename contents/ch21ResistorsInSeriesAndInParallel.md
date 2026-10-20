@@ -1371,12 +1371,12 @@ Show that if two resistors  $${R}_{1} $$
 
 ::: solution
 
-(a)  $$\begin{array}{}{R}_{\text{s}}={R}_{1}+{R}_{2}\\ ⇒{R}_{\text{s}} \approx  {R}_{1}\left({R}_{1} \gg {R}_{2}\right)\end{array} $$
+(a)  $$\begin{array}{l}{R}_{\text{s}}={R}_{1}+{R}_{2}\\ ⇒{R}_{\text{s}} \approx  {R}_{1}\left({R}_{1} \gg {R}_{2}\right)\end{array} $$
 (b)  $$\frac{1}{ {R}_{p}}=\frac{1}{ {R}_{1}}+\frac{1}{ {R}_{2}}=\frac{ {R}_{1}+{R}_{2}}{ {R}_{1}{R}_{2}} $$ ,
 
 so that
 
-$$\begin{array}{}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{ {R}_{1}{R}_{2}}{ {R}_{1}}={R}_{2}\left({R}_{1} \gg {R}_{2}\right)\text{.}\end{array}$$
+$$\begin{array}{l}{R}_{p}=\frac{ {R}_{1}{R}_{2}}{ {R}_{1}+{R}_{2}}\approx \frac{ {R}_{1}{R}_{2}}{ {R}_{1}}={R}_{2}\left({R}_{1} \gg {R}_{2}\right)\text{.}\end{array}$$
 
 :::
 

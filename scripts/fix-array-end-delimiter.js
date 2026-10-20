@@ -44,8 +44,8 @@ class ArrayEndDelimiterFixer {
     const filename = path.basename(filepath);
 
     // Pattern: \end{array} $$ $$ → \end{array} $$
-    // Match \end{array} followed by whitespace and double $$
-    const pattern = /\\end\{array\}\s*\$\$\s*\$\$/g;
+    // Only when the second $$ does not open another math span (e.g. not `$$ {}^{4}He $$`).
+    const pattern = /\\end\{array\}\s*\$\$\s*\$\$(?!\S)/g;
 
     const matches = [];
     let match;
@@ -61,7 +61,10 @@ class ArrayEndDelimiterFixer {
     if (matches.length > 0) {
       // Replace all occurrences - keep one $$, remove the extra one
       // Note: $$$$ in replacement string outputs $$  (each $$ becomes one $)
-      const newContent = content.replace(/\\end\{array\}\s*\$\$\s*\$\$/g, '\\end{array} $$$$');
+      const newContent = content.replace(
+        /\\end\{array\}\s*\$\$\s*\$\$(?!\S)/g,
+        '\\end{array} $$$$'
+      );
       const fileFixCount = matches.length;
       this.stats.filesModified++;
       this.stats.totalFixes += fileFixCount;

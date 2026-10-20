@@ -60,8 +60,9 @@ class ArrayDelimiterChecker {
       });
     }
 
-    // Pattern 2: \end{array} $$ $$ (double $$ after end)
-    const endArrayDoublePattern = /\\end\{array\}\s*\$\$\s*\$\$/g;
+    // Pattern 2: \end{array} $$ $$ with an empty trailing pair.
+    // Do not flag `\end{array} $$ $${…}$$` — the second $$ opens the next math span.
+    const endArrayDoublePattern = /\\end\{array\}\s*\$\$\s*\$\$(?!\S)/g;
     while ((match = endArrayDoublePattern.exec(content)) !== null) {
       const lineNum = content.substring(0, match.index).split('\n').length;
       issues.push({

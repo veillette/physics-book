@@ -75,13 +75,13 @@ be determined using **vector addition**.
 The electric field strength at the origin due to $${q}_{1} $$ is labeled $${E}_{1} $$ and is calculated:
 
 <div class="equation" >
- $$\begin{array}{}{E}_{1}=k\frac{ {q}_{1}}{ {r}_{1}^{2}}=\left( 8.99 \times 10^{9} \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right) \frac{\left( 5.00 \times 10^{-9} \text{C}\right)}{ {\left( 2.00 \times 10^{-2} \text{m} \right)}^{2}}\\ {E}_{1}= 1.124 \times 10^{5} \text{N/C}.\end{array} $$ 
+ $$\begin{array}{l}{E}_{1}=k\frac{ {q}_{1}}{ {r}_{1}^{2}}=\left( 8.99 \times 10^{9} \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right) \frac{\left( 5.00 \times 10^{-9} \text{C}\right)}{ {\left( 2.00 \times 10^{-2} \text{m} \right)}^{2}}\\ {E}_{1}= 1.124 \times 10^{5} \text{N/C}.\end{array} $$ 
 </div>
 
 Similarly,  $${E}_{2} $$  is
 
 <div class="equation" >
- $$\begin{array}{}{E}_{2}=k\frac{ {q}_{2}}{ {r}_{2}^{2}}=\left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)\frac{\left( 10.0 \times 10^{-9}  \text{C}\right)}{ {\left( 4.00 \times 10^{-2}  \text{m}\right)}^{2}}\\ {E}_{2}= 0.5619 \times 10^{5}  \text{N/C}.\end{array} $$
+ $$\begin{array}{l}{E}_{2}=k\frac{ {q}_{2}}{ {r}_{2}^{2}}=\left( 8.99 \times 10^{9}  \text{N}\cdot {\text{m}}^{2}{\text{/C}}^{2}\right)\frac{\left( 10.0 \times 10^{-9}  \text{C}\right)}{ {\left( 4.00 \times 10^{-2}  \text{m}\right)}^{2}}\\ {E}_{2}= 0.5619 \times 10^{5}  \text{N/C}.\end{array} $$
 </div>
 
 Four digits have been retained in this solution to illustrate that  $${E}_{1} $$

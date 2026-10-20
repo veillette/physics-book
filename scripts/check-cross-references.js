@@ -21,7 +21,7 @@
 import path from 'path';
 import matter from '@11ty/gray-matter';
 import { kramdownSlugify } from '../lib/eleventy/kramdown-slugify.js';
-import { ContentParser } from './lib/parser.js';
+import { ContentParser, stripDollarMath } from './lib/parser.js';
 import {
   printHeader,
   printDivider,
@@ -183,11 +183,15 @@ class CrossReferenceValidator {
       const result = this.parser.processLine(line);
       if (!result.isContent) continue;
 
+      // Strip $$…$$ so LaTeX like [a-b](931.5) inside math is not read as a markdown link.
+      // Mid-prose lines can mix real links with math on the same line.
+      const linkScanLine = stripDollarMath(line);
+
       // Find all markdown links
       const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
       let match;
 
-      while ((match = linkRegex.exec(line)) !== null) {
+      while ((match = linkRegex.exec(linkScanLine)) !== null) {
         const linkText = match[1];
         const linkTarget = match[2];
 

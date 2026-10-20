@@ -154,7 +154,7 @@ where the temperature must be in units of kelvins, because  $${T}_{0} $$
 1. Convert temperatures from Celsius to Kelvin.
 
 <div class="equation" >
- $$\begin{array}{}{T}_{0}=\left( 18.0+273\right)\text{K}=291 \text{K}\\ {T}_{\text{f}}=\left( 35.0+273\right)\text{K}=308 \text{K}\end{array} $$
+ $$\begin{array}{l}{T}_{0}=\left( 18.0+273\right)\text{K}=291 \text{K}\\ {T}_{\text{f}}=\left( 35.0+273\right)\text{K}=308 \text{K}\end{array} $$
 </div>
 
 2. Substitute the known values into the equation.
@@ -212,7 +212,7 @@ ideal gas law $$PV=Nk_{B}T $$ , to find $$N $$.
 3. Rearrange the ideal gas law to solve for $$N $$.
 
 <div class="equation" >
- $$\begin{array}{}PV=Nk_{B}T\\ N=\frac{PV}{k_{B}T}\end{array} $$
+ $$\begin{array}{l}PV=Nk_{B}T\\ N=\frac{PV}{k_{B}T}\end{array} $$
 </div>
 
 4. Substitute the known values into the equation and solve for  $$N $$.
@@ -281,7 +281,7 @@ The active ingredient in a Tylenol pill is 325 mg of acetaminophen  $$\left({\te
 We first need to calculate the molar mass (the mass of one mole) of acetaminophen. To do this, we need to multiply the number of atoms of each element by the element’s atomic mass.
 
 <div class="equation" >
- $$\begin{array}{}\left(8 \text{moles of carbon}\right)\left(12 \text{grams/mole}\right)+\left(9 \text{moles hydrogen}\right)\left(1 \text{gram/mole}\right)\\ +\left(1 \text{mole nitrogen}\right)\left(14 \text{grams/mole}\right)+\left(2 \text{moles oxygen}\right)\left(16 \text{grams/mole}\right)=151 \text{g}\end{array} $$
+ $$\begin{array}{l}\left(8 \text{moles of carbon}\right)\left(12 \text{grams/mole}\right)+\left(9 \text{moles hydrogen}\right)\left(1 \text{gram/mole}\right)\\ +\left(1 \text{mole nitrogen}\right)\left(14 \text{grams/mole}\right)+\left(2 \text{moles oxygen}\right)\left(16 \text{grams/mole}\right)=151 \text{g}\end{array} $$
 </div>
 
 Then we need to calculate the number of moles in 325 mg.

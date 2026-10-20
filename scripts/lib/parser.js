@@ -272,6 +272,17 @@ export function extractInlineMath(line) {
 }
 
 /**
+ * Remove $$…$$ math spans so markdown link/reference scanners do not treat
+ * LaTeX brackets as `[text](url)` links. This project uses $$ for math only;
+ * a lone `$` is literal text (e.g. currency).
+ * @param {string} text - Source text (typically one line)
+ * @returns {string} - Text with math spans replaced by spaces
+ */
+export function stripDollarMath(text) {
+  return text.replace(/\$\$[\s\S]*?\$\$/g, match => ' '.repeat(match.length));
+}
+
+/**
  * Check if a line is an image markdown line.
  * @param {string} line - Text line
  * @returns {boolean}

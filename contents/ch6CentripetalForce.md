@@ -295,7 +295,7 @@ which can also be expressed as
   <div class="equation">
   $$  \begin{array}{c}
    F_{\text{c}}=m\frac{ v^{2}}{r}\\
-  \begin{array}{}
+  \begin{array}{l}
    \text{or}\\
   F_{\text{c}}=mr \omega^{2}
   \end{array}

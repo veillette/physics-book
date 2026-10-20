@@ -982,7 +982,7 @@ and
 Subtracting these equations gives
 
 <div class="equation" >
- $$\begin{array}{}d\left(\sin {\theta }_{\text{m}+1}-\sin {\theta }_{\text{m}}\right)=\left[ \left(m+1\right)-m\right]  \lambda \\ d\left({\theta }_{\text{m}+1}-{\theta }_{\text{m}}\right)=\lambda \\ \tan {\theta }_{\text{m}}=\frac{ {y}_{\text{m}}}{x}\approx {\theta }_{\text{m}}⇒d\left(\frac{ {y}_{\text{m}+1}}{x}-\frac{ {y}_{\text{m}}}{x}\right)=\lambda \\ d\frac{\Delta y}{x}=\lambda ⇒\Delta y=\frac{x\lambda }{d}\end{array} $$
+ $$\begin{array}{l}d\left(\sin {\theta }_{\text{m}+1}-\sin {\theta }_{\text{m}}\right)=\left[ \left(m+1\right)-m\right]  \lambda \\ d\left({\theta }_{\text{m}+1}-{\theta }_{\text{m}}\right)=\lambda \\ \tan {\theta }_{\text{m}}=\frac{ {y}_{\text{m}}}{x}\approx {\theta }_{\text{m}}⇒d\left(\frac{ {y}_{\text{m}+1}}{x}-\frac{ {y}_{\text{m}}}{x}\right)=\lambda \\ d\frac{\Delta y}{x}=\lambda ⇒\Delta y=\frac{x\lambda }{d}\end{array} $$
 </div>
 
 :::

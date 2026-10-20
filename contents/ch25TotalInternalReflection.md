@@ -97,7 +97,7 @@ The critical angle is given by
 Substituting the identified values gives
 
 <div class="equation" >
- $$\begin{array}{}{\theta }_{c}={\sin}^{-1}\left( 1.00/ 1.49\right)={\sin}^{-1}\left( 0.671\right)\\ 42.2 \text{º.}\end{array} $$
+ $$\begin{array}{l}{\theta }_{c}={\sin}^{-1}\left( 1.00/ 1.49\right)={\sin}^{-1}\left( 0.671\right)\\ 42.2 \text{º.}\end{array} $$
 </div>
 
 **Discussion**

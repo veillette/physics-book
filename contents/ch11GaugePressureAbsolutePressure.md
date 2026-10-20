@@ -653,7 +653,7 @@ At leg level (0.500 m below heart):
 - Diastolic: $$ 80 + 38.7 = 118.7 \approx 119 \text{ mm Hg} $$
 
 <div class="equation">
-$$\begin{array}{}\Delta P=38.7 \text{ mm Hg,}\\ \text{Leg blood pressure}=\frac{159}{119}\text{.}\end{array} $$
+$$\begin{array}{l}\Delta P=38.7 \text{ mm Hg,}\\ \text{Leg blood pressure}=\frac{159}{119}\text{.}\end{array} $$
 </div>
 
 **Discussion:**

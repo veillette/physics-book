@@ -650,7 +650,7 @@ r_{1}&=& 1.60 \m , r_{\s}=0.160 \m , \text{find (a)}r_{2,}\text{(b)}{F}_{\text{p
 a) Since children are balancing:
 
 <div class="equation">
-$$ \begin{array}{}
+$$ \begin{array}{l}
 \text{net}{\tau }_{\text{cw}}=-\text{net}{\tau }_{\text{ccw}}\\
 ⇒w_{1}r_{1}+m_{\s}{gr}_{\s}=w_{2}r_{2}\\
 \end{array} $$
@@ -669,7 +669,7 @@ r_{2}&=& 1.36 \m
 b) Since the children are not moving:
 
 <div class="equation">
-$$ \begin{array}{}
+$$ \begin{array}{l}
 \text{net}F=0=F_{\text{p}}-w_{1}-w_{2}-w_{\s}\\
 ⇒{F}_{\text{p}}=w_{1}+w_{2}+w_{s}
 \end{array} $$

@@ -259,13 +259,11 @@ the classical Doppler shift.
 
 1. Identify the knowns. $$u= 0.825c $$ ; $${\lambda }_{s}= 0.525 \text{m} $$
 2. Identify the unknown. $${\lambda }_{\text{obs}} $$
-3. Choose the appropriate equation. $${\lambda }_{\text{obs}}=\lambda_ $$
-   {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}
+3. Choose the appropriate equation. $${\lambda }_{\text{obs}}={\lambda }_{s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}$$
 
 4. Plug the knowns into the equation.
    <div class="equation" >
-   $$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\text{λ}}_
-   {s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}\\ & =& \left(0.525 m\right)
+   $$\begin{array}{lll}{\lambda }_{\text{obs}}& =& {\lambda }_{s}\sqrt{\frac{1+\frac{u}{c}}{1-\frac{u}{c}}}\\ & =& \left(0.525 m\right)
    \sqrt{\frac{1+\frac{ 0.825\text{c}}{c}}{1-\frac{ 0.825\text{c}}{c}}}\\ & =&
    1.70 \text{m} \text{.} \end{array} $$
    </div>

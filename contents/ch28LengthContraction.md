@@ -417,7 +417,7 @@ The sports car would have to be traveling at 40% the speed of light, or approxim
 
 (b) 0.433 km
 
-(c) $$\begin{array}{}L=\frac{ {L}_{0}}{\gamma }=\frac{1.387 \times 10^{3} \text{m}}{3.20}\\ & =& 433.4\text{ m}=0.433 \text{km}\end{array} $$ Thus, the distances
+(c) $$\begin{array}{lll}L=\frac{ {L}_{0}}{\gamma }=\frac{1.387 \times 10^{3} \text{m}}{3.20}\\ & =& 433.4\text{ m}=0.433 \text{km}\end{array} $$ Thus, the distances
 in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
 :::

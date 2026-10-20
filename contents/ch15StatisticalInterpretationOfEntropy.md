@@ -36,7 +36,7 @@ and tails and not with the order in which heads and tails appear. The following
 possibilities exist:
 
 <div class="equation">
- $$\begin{array}{}5 \text{heads, 0 tails}\\ 4 \text{heads, 1 tail}\\ 3 \text{heads, 2 tails}\\ 2 \text{heads, 3 tails}\\ 1 \text{head, 4 tails}\\ 0 \text{head, 5 tails}\end{array} $$
+ $$\begin{array}{l}5 \text{heads, 0 tails}\\ 4 \text{heads, 1 tail}\\ 3 \text{heads, 2 tails}\\ 2 \text{heads, 3 tails}\\ 1 \text{head, 4 tails}\\ 0 \text{head, 5 tails}\end{array} $$
 </div>
 
 These are what we call macrostates. A **macrostate** is an overall property of a

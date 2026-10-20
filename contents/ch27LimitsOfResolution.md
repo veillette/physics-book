@@ -118,7 +118,7 @@ The Rayleigh criterion for the minimum resolvable angle is
 Entering known values gives
 
 <div class="equation" >
- $$\begin{array}{}\theta =1.22\frac{550 \times 10^{-9}  \text{m}}{2.40 \text{m}}\\ = 2.80 \times 10^{-7}  \text{rad} \text{.} \end{array} $$
+ $$\begin{array}{l}\theta =1.22\frac{550 \times 10^{-9}  \text{m}}{2.40 \text{m}}\\ = 2.80 \times 10^{-7}  \text{rad} \text{.} \end{array} $$
 </div>
 
 **Solution for (b)**

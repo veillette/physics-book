@@ -262,7 +262,7 @@ of reactions that take place is therefore
 The total energy output is the number of reactions times the energy per reaction:
 
 <div class="equation" >
- $$\begin{array}{}E=\left( 1.20 \times 10^{26}  \text{reactions}\right)\left(17.59 \text{MeV/reaction}\right)\left( 1.602 \times 10^{-13}  \text{J/MeV}\right)\\  = 3.37 \times 10^{14}  \text{J}\text{.}\end{array} $$
+ $$\begin{array}{l}E=\left( 1.20 \times 10^{26}  \text{reactions}\right)\left(17.59 \text{MeV/reaction}\right)\left( 1.602 \times 10^{-13}  \text{J/MeV}\right)\\  = 3.37 \times 10^{14}  \text{J}\text{.}\end{array} $$
 </div>
 
 **Solution for (b)**
