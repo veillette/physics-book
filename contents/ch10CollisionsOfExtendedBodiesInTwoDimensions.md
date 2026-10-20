@@ -321,7 +321,7 @@ For the stick rotating about one end: $$ I_{\text{stick}} = \frac{1}{3}ML^{2} = 
 
 For the disk at r = 0.100 m: $$ I_{\text{disk}} = mr^{2} = (0.0500 \kg)(0.100 \m)^2 = 5.00 \times 10^{-4} \kg \cdot \mm $$
 
-Total: $$ I' = 0.960 + 0.000500 = 0.9605 \kg \cdot \mm $$
+Total: $$ I' = 0.960 \text{kg}\cdot\text{m}^2 + 0.000500 \text{kg}\cdot\text{m}^2 = 0.9605 \kg \cdot \mm $$
 
 Using conservation of angular momentum:
 
@@ -347,14 +347,14 @@ $$ KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(0.9605 \kg \cdot \mm)(0.156 \te
 $$ p_i = mv = (0.0500 \kg)(30.0 \text{ m/s}) = 1.50 \kg \cdot \ms $$
 </div>
 
-After collision, the disk moves at $$ v_{\text{disk}} = r\omega' = (0.100)(0.156) = 0.0156 \text{ m/s} $$
+After collision, the disk moves at $$ v_{\text{disk}} = r\omega' = (0.100 \m)(0.156 \rads) = 0.0156 \text{ m/s} $$
 
-The stick's center of mass is at L/2 = 0.600 m from pivot, moving at $$ v_{\text{CM}} = (0.600)(0.156) = 0.0936 \text{ m/s} $$
+The stick's center of mass is at L/2 = 0.600 m from pivot, moving at $$ v_{\text{CM}} = (0.600 \m)(0.156 \rads) = 0.0936 \text{ m/s} $$
 
 Final momentum:
 
 <div class="equation">
-$$ p_f = mv_{\text{disk}} + Mv_{\text{CM}} = (0.0500)(0.0156) + (2.00)(0.0936) = 0.188 \kg \cdot \ms $$
+$$ p_f = mv_{\text{disk}} + Mv_{\text{CM}} = (0.0500 \kg)(0.0156 \ms) + (2.00 \kg)(0.0936 \ms) = 0.188 \kg \cdot \ms $$
 </div>
 
 **Discussion**
@@ -414,23 +414,23 @@ $$ I_{\text{disk}} = \frac{1}{2}mR^{2} = \frac{1}{2}(0.0500 \kg)(0.0150 \m)^2 = 
 </div>
 
 <div class="equation">
-$$ L_{\text{spin}} = I_{\text{disk}}\omega_{0} = (5.625 \times 10^{-6})(104.72) = 5.890 \times 10^{-4} \kg \cdot \mms \text{ (clockwise)} $$
+$$ L_{\text{spin}} = I_{\text{disk}}\omega_{0} = (5.625 \times 10^{-6} \text{kg}\cdot\text{m}^2)(104.72 \rads) = 5.890 \times 10^{-4} \kg \cdot \mms \text{ (clockwise)} $$
 </div>
 
 <div class="equation">
-$$ L = L_{\text{orbital}} + L_{\text{spin}} = 1.80 + 0.000589 = 1.800589 \kg \cdot \mms $$
+$$ L = L_{\text{orbital}} + L_{\text{spin}} = 1.80 \text{kg}\cdot\text{m}^2/\text{s} + 0.000589 \text{kg}\cdot\text{m}^2/\text{s} = 1.800589 \kg \cdot \mms $$
 </div>
 
 **Final moment of inertia** about the nail: disk at the end of the stick, the stick, and the disk's own spin inertia:
 
 <div class="equation">
-$$ I' = mr^2 + \frac{1}{3}Mr^2 + \frac{1}{2}mR^2 = 0.0720 + 0.960 + 0.000005625 = 1.032006 \kg \cdot \mm $$
+$$ I' = mr^2 + \frac{1}{3}Mr^2 + \frac{1}{2}mR^2 = 0.0720 \text{kg}\cdot\text{m}^2 + 0.960 \text{kg}\cdot\text{m}^2 + 0.000005625 \text{kg}\cdot\text{m}^2 = 1.032006 \kg \cdot \mm $$
 </div>
 
 **(a) Final angular velocity:**
 
 <div class="equation">
-$$ \omega' = \frac{L}{I'} = \frac{1.800589}{1.032006} = 1.74475 \text{ rad/s} \approx 1.74 \text{ rad/s (clockwise)} $$
+$$ \omega' = \frac{L}{I'} = \frac{1.800589 \text{kg}\cdot\text{m}^2/\text{s}}{1.032006 \text{kg}\cdot\text{m}^2} = 1.74475 \text{ rad/s} \approx 1.74 \text{ rad/s (clockwise)} $$
 </div>
 
 **(b) Kinetic energies:**
@@ -440,7 +440,7 @@ $$ \KE_{i} = \frac{1}{2}mv^2 + \frac{1}{2}I_{\text{disk}}\omega_0^2 = 22.5 \J + 
 </div>
 
 <div class="equation">
-$$ \KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(1.032006)(1.74475)^2 = 1.57079 \J $$
+$$ \KE_{f} = \frac{1}{2}I'\omega'^2 = \frac{1}{2}(1.032006 \text{kg}\cdot\text{m}^2)(1.74475 \rads)^2 = 1.57079 \J $$
 </div>
 
 **(c) Linear momenta** (in the disk's original direction of travel):
@@ -452,7 +452,7 @@ $$ p_i = mv = (0.0500 \kg)(30.0 \ms) = 1.50 \kg \cdot \ms $$
 After the collision, the disk moves at $$ r\omega' $$ and the stick's center of mass at $$ (r/2)\omega' $$:
 
 <div class="equation">
-$$ p_f = m r\omega' + M\frac{r}{2}\omega' = \left[(0.0500)(1.20) + (2.00)(0.600)\right](1.74475) = 2.19838 \kg \cdot \ms $$
+$$ p_f = m r\omega' + M\frac{r}{2}\omega' = \left[(0.0500 \kg)(1.20 \m) + (2.00 \kg)(0.600 \m)\right](1.74475 \rads) = 2.19838 \kg \cdot \ms $$
 </div>
 
 Linear momentum is not conserved because the nail exerts an external force on the stick during the collision.
@@ -503,7 +503,7 @@ $$ L_{\text{each}} = mvr = (70.0 \kg)(2.50 \text{ m/s})(0.800 \m) = 140 \kg \cdo
 Total initial angular momentum (both skaters):
 
 <div class="equation">
-$$ L_{\text{total}} = 2 \times 140 = 280 \kg \cdot \mms $$
+$$ L_{\text{total}} = 2 \times 140 \text{kg}\cdot\text{m}^2/\text{s} = 280 \kg \cdot \mms $$
 </div>
 
 After locking hands, the moment of inertia (treating each as a point mass):
@@ -583,7 +583,7 @@ $$ m_{\text{ball}}v_{\text{ball}} = (m_{\text{ball}} + m_{\text{person}})v' $$
 </div>
 
 <div class="equation">
-$$ v' = \frac{m_{\text{ball}}v_{\text{ball}}}{m_{\text{ball}} + m_{\text{person}}} = \frac{(0.250 \kg)(15.0 \text{ m/s})}{0.250 + 70.0} = \frac{3.75}{70.25} = 0.0534 \text{ m/s} $$
+$$ v' = \frac{m_{\text{ball}}v_{\text{ball}}}{m_{\text{ball}} + m_{\text{person}}} = \frac{(0.250 \kg)(15.0 \text{ m/s})}{0.250 \kg + 70.0 \kg} = \frac{3.75 \text{kg}\cdot\text{m/s}}{70.25 \kg} = 0.0534 \text{ m/s} $$
 </div>
 
 **(b)** For angular momentum, assume the ball is caught at arm's length (0.900 m from center).
@@ -613,7 +613,7 @@ $$ I_{\text{ball}} = m_{\text{ball}}r^2 = (0.250 \kg)(0.900 \m)^2 = 0.203 \kg \c
 
 Total moment of inertia:
 <div class="equation">
-$$ I_{\text{total}} = 0.972 + 2.70 + 0.203 = 3.875 \kg \cdot \mm $$
+$$ I_{\text{total}} = 0.972 \text{kg}\cdot\text{m}^2 + 2.70 \text{kg}\cdot\text{m}^2 + 0.203 \text{kg}\cdot\text{m}^2 = 3.875 \kg \cdot \mm $$
 </div>
 
 Angular velocity:
@@ -638,7 +638,7 @@ $$ KE_{\text{rot}} = \frac{1}{2}I_{\text{total}}\omega^{2} = \frac{1}{2}(3.875 \
 </div>
 
 <div class="equation">
-$$ KE_{f} = 0.100 + 1.47 = 1.57 \J $$
+$$ KE_{f} = 0.100 \J + 1.47 \J = 1.57 \J $$
 </div>
 
 **Discussion**

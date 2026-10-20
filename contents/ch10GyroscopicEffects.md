@@ -175,7 +175,7 @@ $$ I = \frac{2}{5}MR^2 = 9.72 \times 10^{37} \kg \cdot \mm, \quad \omega = \frac
 
 **(a)**
 <div class="equation">
-$$ \Delta L = 2L\sin 23.5° = 2(7.07 \times 10^{33})(0.399) = 5.64 \times 10^{33} \kg \cdot \mms $$
+$$ \Delta L = 2L\sin 23.5° = 2(7.07 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s})(0.399) = 5.64 \times 10^{33} \kg \cdot \mms $$
 </div>
 
 **(b)** Half the precession period is $$ \Delta t = \frac{1}{2}(25\,780 \text{ y})(3.156 \times 10^{7} \text{ s/y}) = 4.07 \times 10^{11} \s $$:

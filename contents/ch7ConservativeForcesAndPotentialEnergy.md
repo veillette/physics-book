@@ -396,7 +396,7 @@ $$ k = \frac{(5.00 \times 10^{5}\text{ kg})(0.500\ms)^2}{(0.400\text{ m})^2} $$
 </div>
 
 <div class="equation">
-$$ k = \frac{(5.00 \times 10^{5})(0.250)}{0.160} = \frac{1.25 \times 10^{5}}{0.160} = 7.81 \times 10^{5}\text{ N/m} $$
+$$ k = \frac{(5.00 \times 10^{5} \text{N/m})(0.250 \m)}{0.160 \m} = \frac{1.25 \times 10^{5} \N}{0.160 \m} = 7.81 \times 10^{5}\text{ N/m} $$
 </div>
 
 **Discussion**

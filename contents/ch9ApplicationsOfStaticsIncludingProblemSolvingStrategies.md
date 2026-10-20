@@ -299,7 +299,7 @@ Given:
 The angle $$ \theta $$ the ladder makes with the horizontal:
 
 <div class="equation">
-$$ \cos\theta = \frac{d}{L} = \frac{2.00}{6.00} = 0.333, \quad \sin\theta = \sqrt{1-\cos^{2}\theta} = 0.943 $$
+$$ \cos\theta = \frac{d}{L} = \frac{2.00 \m}{6.00 \m} = 0.333, \quad \sin\theta = \sqrt{1-\cos^{2}\theta} = 0.943 $$
 </div>
 
 **Step 2: Identify forces**
@@ -307,8 +307,8 @@ $$ \cos\theta = \frac{d}{L} = \frac{2.00}{6.00} = 0.333, \quad \sin\theta = \sqr
 - $$ F_{top} $$ = Force from the gutter (perpendicular to the ladder, at the top)
 - $$ N_g $$ = Normal force from ground (vertical, at the bottom)
 - $$ f $$ = Friction force from ground (horizontal, at the bottom)
-- $$ W_L = m_L g = (10.0)(9.80) = 98.0 \N $$ (weight of ladder)
-- $$ W_p = m_p g = (70.0)(9.80) = 686 \N $$ (weight of person)
+- $$ W_L = m_L g = (10.0 \kg)(9.80 \mss) = 98.0 \N $$ (weight of ladder)
+- $$ W_p = m_p g = (70.0 \kg)(9.80 \mss) = 686 \N $$ (weight of person)
 
 **Step 3: Torque about the base of the ladder** (this eliminates $$ N_g $$ and $$ f $$)
 
@@ -327,7 +327,7 @@ $$ F_{top} = \frac{751.3 \text{ N·m}}{6.00 \m} = 125 \N $$
 The gutter force is perpendicular to the ladder, pointing away from the house and tilted upward at angle $$ \theta $$ from the vertical. Its components are
 
 <div class="equation">
-$$ F_{top,x} = F_{top}\sin\theta = (125.2)(0.943) = 118 \N \text{ (away from the house)}, \quad F_{top,y} = F_{top}\cos\theta = (125.2)(0.333) = 41.7 \N \text{ (up)} $$
+$$ F_{top,x} = F_{top}\sin\theta = (125.2 \N)(0.943) = 118 \N \text{ (away from the house)}, \quad F_{top,y} = F_{top}\cos\theta = (125.2 \N)(0.333) = 41.7 \N \text{ (up)} $$
 </div>
 
 Horizontal balance gives the friction force at the base, directed toward the house:
@@ -345,18 +345,18 @@ $$ N_g = W_L + W_p - F_{top,y} = 784 \N - 41.7 \N = 742 \N $$
 **Step 5: Find the force at the bottom**
 
 <div class="equation">
-$$ F_{bottom} = \sqrt{N_g^2 + f^2} = \sqrt{(742)^2 + (118)^2} = 752 \N $$
+$$ F_{bottom} = \sqrt{N_g^2 + f^2} = \sqrt{(742 \N)^2 + (118 \N)^2} = 752 \N $$
 </div>
 
 The direction of the force at the bottom (from the vertical, tilted toward the house):
 
 <div class="equation">
-$$ \phi = \tan^{-1}\left(\frac{f}{N_g}\right) = \tan^{-1}\left(\frac{118}{742}\right) = 9.0° $$
+$$ \phi = \tan^{-1}\left(\frac{f}{N_g}\right) = \tan^{-1}\left(\frac{118 \N}{742 \N}\right) = 9.0° $$
 </div>
 
 **Discussion**
 
-Because the gutter force is perpendicular to the ladder, it has a small upward component (41.7 N) that supports part of the weight, so the ground supports a little less than the full 784 N. The force at the bottom is nearly vertical, with a modest horizontal friction force (118 N) that keeps the ladder from slipping. This is why a ladder on a slippery floor is dangerous—if friction at the bottom cannot supply the 118 N horizontal force, the ladder will slide out. The minimum coefficient of static friction needed is $$ \mu_{min} = f/N_g = 118/742 = 0.16 $$.
+Because the gutter force is perpendicular to the ladder, it has a small upward component (41.7 N) that supports part of the weight, so the ground supports a little less than the full 784 N. The force at the bottom is nearly vertical, with a modest horizontal friction force (118 N) that keeps the ladder from slipping. This is why a ladder on a slippery floor is dangerous—if friction at the bottom cannot supply the 118 N horizontal force, the ladder will slide out. The minimum coefficient of static friction needed is $$ \mu_{min} = f/N_g = \frac{118 \N}{742 \N} = 0.16 $$.
 
 **Answer**
 
@@ -397,7 +397,7 @@ Given: Pole mass $$ m = 5.00 \kg $$ (from the earlier example), $$ W = mg = 49.0
 
 - Distance from left hand to cg: 2.00 m
 - Distance between hands: 0.700 m
-- In Figure 3 the right hand is farther from the cg than the left hand, so the distance from the right hand to the cg is $$ 2.00 + 0.700 = 2.70 \m $$
+- In Figure 3 the right hand is farther from the cg than the left hand, so the distance from the right hand to the cg is $$ 2.00 \m + 0.700 \m = 2.70 \m $$
 
 In Figure 3, the cg is to the right of both hands (as seen in the image), so the left hand, nearer the cg, must push UP while the right hand, at the far end, pushes DOWN to create the necessary torques.
 
@@ -418,7 +418,7 @@ $$ F_R \times 0.700 \m = 98.0 \text{ N·m} $$
 </div>
 
 <div class="equation">
-$$ F_R = \frac{98.0}{0.700} = 140 \N $$
+$$ F_R = \frac{98.0 \text{N}\cdot\text{m}}{0.700 \m} = 140 \N $$
 </div>
 
 The right hand exerts a force of **140 N downward**.
@@ -439,12 +439,12 @@ The left hand exerts a force of **189 N upward**.
 
 We can verify this result using torques about the right hand. Because the cg lies to the right of both hands, it is farther from the right hand than from the left. About the right hand, the weight's torque is clockwise and the left hand's upward force gives a counterclockwise torque:
 
-- Distance from right hand to cg: $$ 2.00 + 0.700 = 2.70 \m $$
+- Distance from right hand to cg: $$ 2.00 \m + 0.700 \m = 2.70 \m $$
 - Distance from right hand to left hand: $$ 0.700 \m $$
 
 $$ W \times 2.70 \m = F_L \times 0.700 \m $$
-$$ (49.0)(2.70) = F_L (0.700) $$
-$$ F_L = \frac{132.3}{0.700} = 189 \N $$ (upward) ✓ This confirms part (b).
+$$ (49.0 \N)(2.70 \m) = F_L (0.700 \m) $$
+$$ F_L = \frac{132.3 \text{N}\cdot\text{m}}{0.700 \m} = 189 \N $$ (upward) ✓ This confirms part (b).
 
 **Solution for (c): Verifying equilibrium with an alternative pivot**
 

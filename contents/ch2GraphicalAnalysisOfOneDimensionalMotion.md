@@ -506,7 +506,7 @@ For part (a), we find the velocity by calculating the slope of the position-time
 
 3. Calculate the slope:
 <div class="equation">
-$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{2150 - 1000}{25 - 15} = \frac{1150}{10} = 115 \ms $$
+$$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{2150 \m - 1000 \m}{25 \s - 15 \s} = \frac{1150 \m}{10 \s} = 115 \ms $$
 </div>
 
 **(b) Finding acceleration from the velocity-time graph:**
@@ -519,7 +519,7 @@ $$ v = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1} = \frac{2150 - 10
 
 3. Calculate the slope:
 <div class="equation">
-$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{115 - 15}{20 - 0} = \frac{100}{20} = 5.0 \mss $$
+$$ a = \frac{\Delta v}{\Delta t} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{115 \ms - 15 \ms}{20 \s - 0} = \frac{100 \ms}{20 \s} = 5.0 \mss $$
 </div>
 
 **Discussion**
@@ -855,7 +855,7 @@ $$ \bar{v} = \frac{\Delta x}{\Delta t} $$
 From Figure 22, the velocity increases linearly from 0 to 12 m/s during the first 4 seconds. The displacement is the area under the velocity curve:
 
 <div class="equation">
-$$ \Delta x = \frac{1}{2}(v_0 + v)(t) = \frac{1}{2}(0 + 12)(4) = 24 \m $$
+$$ \Delta x = \frac{1}{2}(v_0 + v)(t) = \frac{1}{2}(0 + 12 \ms)(4 \s) = 24 \m $$
 </div>
 
 Therefore:
@@ -878,7 +878,7 @@ $$ \bar{a} = \frac{\Delta v}{\Delta t} = \frac{v_f - v_0}{t_f - t_0} $$
 </div>
 
 <div class="equation">
-$$ \bar{a} = \frac{12 \ms - 0 \ms}{4 \s - 0 \s} = \frac{12}{4} = 3 \mss $$
+$$ \bar{a} = \frac{12 \ms - 0 \ms}{4 \s - 0 \s} = \frac{12 \ms}{4 \s} = 3 \mss $$
 </div>
 
 **(d) Time for the 100-m race:**
@@ -886,15 +886,15 @@ $$ \bar{a} = \frac{12 \ms - 0 \ms}{4 \s - 0 \s} = \frac{12}{4} = 3 \mss $$
 The total displacement must equal 100 m. The graph shows two phases:
 
 **Phase 1 (0 to 4 s): Acceleration**
-- Displacement: $$ x_1 = \frac{1}{2}(12)(4) = 24 \m $$
+- Displacement: $$ x_1 = \frac{1}{2}(12 \ms)(4 \s) = 24 \m $$
 
 **Phase 2 (4 s to $$ t_f $$): Constant velocity of 12 m/s**
-- Remaining distance: $$ 100 - 24 = 76 \m $$
+- Remaining distance: $$ 100 \m - 24 \m = 76 \m $$
 - Time for remaining distance: $$ t_2 = \frac{76 \m}{12 \ms} = 6.33 \s $$
 
 Total time:
 <div class="equation">
-$$ t_{\text{total}} = 4 + 6.33 = 10.33 \s $$
+$$ t_{\text{total}} = 4 \s + 6.33 \s = 10.33 \s $$
 </div>
 
 By $$ t = 10 \s $$ the graph’s plateau has covered only $$ 24 + (12 \ms)(6 \s) = 96 \m $$, so the plotted motion alone does not reach 100 m until about 10.33 s if the 12 m/s speed continues.

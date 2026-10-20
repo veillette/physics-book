@@ -617,7 +617,7 @@ From the referenced example: merry-go-round mass M = 50.0 kg, radius R = 1.50 m,
 
 **Solution**
 
-**(a)** From the example, total moment of inertia: $$ I = \frac{1}{2}MR^{2} + mr^{2} = 56.25 + 28.13 = 84.38 \kg \cdot \mm $$
+**(a)** From the example, total moment of inertia: $$ I = \frac{1}{2}MR^{2} + mr^{2} = 56.25 \text{kg}\cdot\text{m}^2 + 28.13 \text{kg}\cdot\text{m}^2 = 84.38 \kg \cdot \mm $$
 
 Convert angular velocity: $$ \omega = 20.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 2.09 \text{ rad/s} $$
 
@@ -627,7 +627,7 @@ Rotational kinetic energy:
 $$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(84.38 \kg \cdot \mm)(2.09 \text{ rad/s})^2 = 185 \J $$
 </div>
 
-**(b)** Work done equals the change in kinetic energy: $$ W = \Delta KE = 185 - 0 = 185 \J $$
+**(b)** Work done equals the change in kinetic energy: $$ W = \Delta KE = 185 \J - 0 \J = 185 \J $$
 
 The father pushes at radius R = 1.50 m with force F = 250 N perpendicular to r:
 
@@ -761,7 +761,7 @@ $$ \omega = \frac{2\pi}{T} = \frac{2\pi}{86400 \s} = 7.27 \times 10^{-5} \text{ 
 Rotational kinetic energy:
 
 <div class="equation">
-$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(9.69 \times 10^{37})(7.27 \times 10^{-5})^2 = 2.57 \times 10^{29} \J $$
+$$ KE_{\text{rot}} = \frac{1}{2}I\omega^{2} = \frac{1}{2}(9.69 \times 10^{37} \text{kg}\cdot\text{m}^2)(7.27 \times 10^{-5} \rads)^2 = 2.57 \times 10^{29} \J $$
 </div>
 
 **(b)** Earth's orbital kinetic energy:
@@ -975,7 +975,7 @@ $$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(1500 \kg)(0.600 \m)^2 = 270 \kg \cdot \mm
 Solving for ω:
 
 <div class="equation">
-$$ \omega^{2} = \frac{2(2.00 \times 10^6 \J)}{0.900(270 \kg \cdot \mm)} = \frac{4.00 \times 10^6}{243} = 16,460 \text{ rad}^2/\text{s}^2 $$
+$$ \omega^{2} = \frac{2(2.00 \times 10^6 \J)}{0.900(270 \kg \cdot \mm)} = \frac{4.00 \times 10^6 \J}{243 \text{kg}\cdot\text{m}^2} = 16,460 \text{ rad}^2/\text{s}^2 $$
 </div>
 
 <div class="equation">
@@ -992,17 +992,17 @@ $$ \omega = 128 \text{ rad/s} $$
 Initial state: flywheel spinning at 128 rad/s
 
 <div class="equation">
-$$ E_i = \frac{1}{2}I\omega^{2} = \frac{1}{2}(270)(128)^2 = 2.21 \times 10^6 \J $$
+$$ E_i = \frac{1}{2}I\omega^{2} = \frac{1}{2}(270 \text{kg}\cdot\text{m}^2)(128 \rads)^2 = 2.21 \times 10^6 \J $$
 </div>
 
 Final state: bus at speed 3.00 m/s at height h
 
 <div class="equation">
-$$ E_f = \frac{1}{2}Mv_{f}^2 + Mgh = \frac{1}{2}(10000)(3.00)^2 + (10000)(9.80)h $$
+$$ E_f = \frac{1}{2}Mv_{f}^2 + Mgh = \frac{1}{2}(10000 \kg)(3.00 \ms)^2 + (10000 \kg)(9.80 \mss)h $$
 </div>
 
 <div class="equation">
-$$ E_f = 45000 + 98000h \J $$
+$$ E_f = 45000 \J + (98000 \N)h \J $$
 </div>
 
 Accounting for 90% efficiency, the available energy is:
@@ -1014,11 +1014,11 @@ $$ E_{\text{available}} = 0.900(2.21 \times 10^6) = 1.99 \times 10^6 \J $$
 Setting $$ E_{\text{available}} = E_f $$:
 
 <div class="equation">
-$$ 1.99 \times 10^6 = 45000 + 98000h $$
+$$ 1.99 \times 10^6 \J = 45000 \J + (98000 \N)h $$
 </div>
 
 <div class="equation">
-$$ h = \frac{1.99 \times 10^6 - 45000}{98000} = 19.9 \m $$
+$$ h = \frac{1.99 \times 10^6 \J - 45000 \J}{98000 \N} = 19.9 \m $$
 </div>
 
 **Discussion**
@@ -1070,7 +1070,7 @@ $$ mgh = \frac{5}{6}mv^{2} $$
 Solving for h:
 
 <div class="equation">
-$$ h = \frac{5v^2}{6g} = \frac{5(8.00 \text{ m/s})^2}{6(9.80 \text{ m/s}^2)} = \frac{5(64.0)}{58.8} = 5.44 \m $$
+$$ h = \frac{5v^2}{6g} = \frac{5(8.00 \text{ m/s})^2}{6(9.80 \text{ m/s}^2)} = \frac{5(64.0 \mmss)}{58.8 \mss} = 5.44 \m $$
 </div>
 
 **(b)** If the ball slides without rolling, only translational kinetic energy is present:
@@ -1080,7 +1080,7 @@ $$ mgh = \frac{1}{2}mv^{2} $$
 </div>
 
 <div class="equation">
-$$ h = \frac{v^2}{2g} = \frac{(8.00 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{64.0}{19.6} = 3.27 \m $$
+$$ h = \frac{v^2}{2g} = \frac{(8.00 \text{ m/s})^2}{2(9.80 \text{ m/s}^2)} = \frac{64.0 \mmss}{19.6 \mss} = 3.27 \m $$
 </div>
 
 **Discussion**
@@ -1139,13 +1139,13 @@ $$ \tau_{\text{weight}} = -mgr = -(10.0 \kg)(9.80 \text{ m/s}^2)(0.280 \m) = -27
 Net torque:
 
 <div class="equation">
-$$ \tau_{\text{net}} = 45.0 - 27.4 = 17.6 \N \cdot \m $$
+$$ \tau_{\text{net}} = 45.0 \text{N}\cdot\text{m} - 27.4 \text{N}\cdot\text{m} = 17.6 \N \cdot \m $$
 </div>
 
 Total moment of inertia (leg plus weight):
 
 <div class="equation">
-$$ I_{\text{total}} = I_{\text{leg}} + mr^{2} = 0.900 + (10.0)(0.280)^2 = 0.900 + 0.784 = 1.684 \kg \cdot \mm $$
+$$ I_{\text{total}} = I_{\text{leg}} + mr^{2} = 0.900 \text{kg}\cdot\text{m}^2 + (10.0 \kg)(0.280 \m)^2 = 0.900 \text{kg}\cdot\text{m}^2 + 0.784 \text{kg}\cdot\text{m}^2 = 1.684 \kg \cdot \mm $$
 </div>
 
 Angular acceleration:
@@ -1230,13 +1230,13 @@ $$ \tau_{\text{weight}} = -mgr = -(2.00 \kg)(9.80 \text{ m/s}^2)(0.240 \m) = -4.
 The net torque is:
 
 <div class="equation">
-$$ \tau_{\text{net}} = 15.0 - 4.70 = 10.3 \N \cdot \m $$
+$$ \tau_{\text{net}} = 15.0 \text{N}\cdot\text{m} - 4.70 \text{N}\cdot\text{m} = 10.3 \N \cdot \m $$
 </div>
 
 The total moment of inertia includes the forearm and the weight:
 
 <div class="equation">
-$$ I_{\text{total}} = I_{\text{arm}} + I_{\text{weight}} = 0.250 \kg \cdot \mm + (2.00 \kg)(0.240 \m)^2 = 0.250 + 0.115 = 0.365 \kg \cdot \mm $$
+$$ I_{\text{total}} = I_{\text{arm}} + I_{\text{weight}} = 0.250 \kg \cdot \mm + (2.00 \kg)(0.240 \m)^2 = 0.250 \text{kg}\cdot\text{m}^2 + 0.115 \text{kg}\cdot\text{m}^2 = 0.365 \kg \cdot \mm $$
 </div>
 
 The angular acceleration is:
@@ -1383,7 +1383,7 @@ $$ I = \frac{R^2(2mgh - mv^{2})}{v^2} = \frac{mR^{2}(2gh - v^2)}{v^2} $$
 Substituting values:
 
 <div class="equation">
-$$ I = \frac{mR^{2}\left[2(9.80)(2.00) - (6.00)^2\right]}{(6.00)^2} = \frac{mR^{2}(39.2 - 36.0)}{36.0} = \frac{3.2mR^{2}}{36.0} = 0.0889 MR^{2} $$
+$$ I = \frac{mR^{2}\left[2(9.80 \mss)(2.00 \m) - (6.00 \ms)^2\right]}{(6.00 \ms)^2} = \frac{mR^{2}(39.2 \mmss - 36.0 \mmss)}{36.0 \mmss} = \frac{(3.2 \mmss)mR^{2}}{36.0 \mmss} = 0.0889 MR^{2} $$
 </div>
 
 To three significant figures, $$ I = 0.0889 MR^{2} $$ (exactly $$ \frac{2}{22.5}MR^2 = \frac{4}{45}MR^{2} $$). Note that $$ 0.0900 MR^2 $$ and $$ \frac{1}{11}MR^2 = 0.0909 MR^2 $$ are different values, not roundings of this result.
@@ -1424,7 +1424,7 @@ We use conservation of energy. The motorcycle has both translational KE and rota
 $$ KE_{\text{trans}} = \frac{1}{2}mv^{2} = \frac{1}{2}(200 \kg)(30.0 \text{ m/s})^2 = 90000 \J $$
 </div>
 
-For the wheels, $$ \omega = v/R = 30.0/0.330 = 90.909 \text{ rad/s} $$
+For the wheels, $$ \omega = v/R = \frac{30.0 \ms}{0.330 \m} = 90.909 \text{ rad/s} $$
 
 Rotational KE for both wheels:
 
@@ -1435,7 +1435,7 @@ $$ KE_{\text{rot}} = 2 \times \frac{1}{2}I\omega^{2} = 2 \times \frac{1}{2}(1.12
 Total initial KE:
 
 <div class="equation">
-$$ KE_{\text{total}} = 90000 + 9288 = 99288 \J $$
+$$ KE_{\text{total}} = 90000 \J + 9288 \J = 99288 \J $$
 </div>
 
 At maximum height (neglecting friction):
@@ -1552,10 +1552,10 @@ A skater's body (excluding arms) has $$ I_0 = 1.50 \kg \cdot \mm $$. Each arm is
 
 **Solution**
 
-**(a)** Moments of inertia: $$ I_1 = 1.50 + 2(4.00)(0.800)^2 = 6.62 \kg \cdot \mm $$ and $$ I_2 = 1.50 + 2(4.00)(0.200)^2 = 1.82 \kg \cdot \mm $$. Conservation of angular momentum:
+**(a)** Moments of inertia: $$ I_1 = 1.50 \text{kg}\cdot\text{m}^2 + 2(4.00 \kg)(0.800 \m)^2 = 6.62 \kg \cdot \mm $$ and $$ I_2 = 1.50 \text{kg}\cdot\text{m}^2 + 2(4.00 \kg)(0.200 \m)^2 = 1.82 \kg \cdot \mm $$. Conservation of angular momentum:
 
 <div class="equation">
-$$ \omega_2 = \frac{I_1\omega_1}{I_2} = \frac{(6.62)(2.00 \text{ rad/s})}{1.82} = 7.27 \text{ rad/s} $$
+$$ \omega_2 = \frac{I_1\omega_1}{I_2} = \frac{(6.62 \text{kg}\cdot\text{m}^2)(2.00 \text{ rad/s})}{1.82 \text{kg}\cdot\text{m}^2} = 7.27 \text{ rad/s} $$
 </div>
 
 <div class="equation">

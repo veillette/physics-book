@@ -183,6 +183,26 @@ What information do you need in order to choose which equation or equations to u
 
 :::
 
+::: solution
+
+**Strategy**
+
+Recall the problem-solving steps of this section.
+
+**Solution**
+
+To choose an equation you need to know:
+
+1. **Which quantities are known** (including those implied by the wording, such as "starts from rest," which means $$ v_{0} = 0 $$, or "comes to a stop," which means $$ v = 0 $$).
+2. **Which quantity is unknown** and must be found.
+3. **Which physical principles apply**, such as whether the acceleration is constant, so that the kinematic equations are valid.
+
+Then choose an equation that contains the unknown and otherwise only known quantities. For example, if a car starts from rest ($$ v_{0} = 0 $$) with $$ a = 2.0 \mss $$ and we want its displacement after $$ t = 5.0 \s $$, the equation $$ x = x_{0} + v_{0}t + \frac{1}{2}at^{2} $$ contains only the unknown $$ x - x_{0} $$, giving $$ \frac{1}{2}(2.0 \mss)(5.0 \s)^{2} = 25 \m $$.
+
+You need to know which quantities are given, which quantity is unknown, and which physical principles (such as constant acceleration) apply, so that you can choose an equation in which the unknown is the only quantity not known.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -190,6 +210,20 @@ What information do you need in order to choose which equation or equations to u
 ::: problem
 
 What is the last thing you should do when solving a problem? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Recall the last step of the problem-solving strategy in this section.
+
+**Solution**
+
+The last step is to **check whether the answer is reasonable**. Check that the units are correct, that the sign makes sense for the direction chosen, and that the size of the answer is sensible. For example, if a calculation gives a car's acceleration as $$ 300 \mss $$, about 30 times the acceleration of gravity, something has gone wrong, since a typical car accelerates at about $$ 3 \mss $$. An unreasonable result points to an error in the calculation, a wrong assumption, or incorrect given information.
+
+The last thing you should do is check that the answer is reasonable, with sensible units, sign, and magnitude, because an unreasonable answer reveals an error or a bad assumption.
 
 :::
 

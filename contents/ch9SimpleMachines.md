@@ -122,7 +122,7 @@ wheel exerts on the ground is $$ 409 \N $$.
 **Discussion**
 
 An even longer handle would reduce the force needed to lift the load. The MA
-here is $$\text{MA}=1.02/0.0750=13.6 $$.
+here is $$\text{MA}=\frac{1.02 \m}{0.0750 \m}=13.6 $$.
 
 :::
 
@@ -139,7 +139,7 @@ of its actions remain the same. The MA for a crank is simply the ratio of the
 radii $$ r_{\text{i}}/r_{0} $$. Wheels and gears have this simple expression for
 their MAs too. The MA can be greater than 1, as it is for the crank, or less
 than 1, as it is for the simplified car axle driving the wheels, as shown. If
-the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0 \text{cm} $$, then $$ \text{MA}=2.0/24.0=0.083 $$ and the axle would have to
+the axle’s radius is $$ 2.0 \text{cm} $$ and the wheel’s radius is $$ 24.0 \text{cm} $$, then $$ \text{MA}=\frac{2.0 \text{cm}}{24.0 \text{cm}}=0.083 $$ and the axle would have to
 exert a force of $$ 12 000 \N $$ on the wheel to enable it to exert a force of
 $$ 1000 \N $$ on the ground.
 
@@ -271,7 +271,7 @@ This occurs because:
 
 Since $$ l_i < l_o $$ in most body systems, $$ \text{MA} < 1 $$, which means $$ F_{\text{muscle}} > F_{\text{output}} $$.
 
-**Example:** In the forearm system, the biceps attaches about 4 cm from the elbow, but the hand is about 35 cm from the elbow. This gives $$ \text{MA} \approx 4/35 \approx 0.11 $$, meaning the muscle force must be about 9 times larger than the force exerted by the hand.
+**Example:** In the forearm system, the biceps attaches about 4 cm from the elbow, but the hand is about 35 cm from the elbow. This gives $$ \text{MA} \approx \frac{4 \text{cm}}{35 \text{cm}} \approx 0.11 $$, meaning the muscle force must be about 9 times larger than the force exerted by the hand.
 
 **Discussion**
 
@@ -307,7 +307,7 @@ Consider the forearm example from [Figure 1](#Figure1) in the text:
 **Why this happens:**
 1. The muscle pulls up on the forearm with a large force (due to MA < 1)
 2. For force equilibrium: $$ F_B = F_E + W $$ where W is the load
-3. Therefore: $$ F_E = F_B - W = 470 - 63.7 = 407 \N $$
+3. Therefore: $$ F_E = F_B - W = 470 \N - 63.7 \N = 407 \N $$
 
 **Can joint forces exceed muscle forces?** Yes, they can!
 
@@ -560,7 +560,7 @@ Apply the equilibrium condition: the sum of all forces on the nail puller must e
 - Input force: $$ F_i = 50\text{ N} $$ (downward at handle)
 - Reaction force from nail: $$ F_N = 1250\text{ N} $$ (downward, equal and opposite to force on nail)
 - Mass of nail puller: $$ m = 2.10\text{ kg} $$
-- Weight of nail puller: $$ W = mg = (2.10)(9.80) = 20.6\text{ N} $$ (downward)
+- Weight of nail puller: $$ W = mg = (2.10 \kg)(9.80 \mss) = 20.6\text{ N} $$ (downward)
 
 For equilibrium, the sum of vertical forces equals zero:
 <div class="equation">
@@ -667,7 +667,7 @@ For [Figure 4](#Figure4)(c), this is a more complex pulley system with a mechani
 **Given:**
 - Engine mass: $$ m_{engine} = 115\text{ kg} $$
 - Pulley system mass: $$ m_{pulley} = 7.00\text{ kg} $$
-- Total mass: $$ m_{total} = 115 + 7.00 = 122\text{ kg} $$
+- Total mass: $$ m_{total} = 115 \kg + 7.00 \kg = 122\text{ kg} $$
 
 **(a) Tension in the rope:**
 

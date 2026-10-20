@@ -445,11 +445,11 @@ $$r_2^3 = r_1^3 \left(\frac{T_2}{T_1}\right)^2$$
 </div>
 
 <div class="equation">
-$$r_2 = r_1 \left(\frac{T_2}{T_1}\right)^{2/3} = (3.84 \times 10^5\text{ km})\left(\frac{1.00}{27.3}\right)^{2/3}$$
+$$r_2 = r_1 \left(\frac{T_2}{T_1}\right)^{2/3} = (3.84 \times 10^5\text{ km})\left(\frac{1.00 \text{days}}{27.3 \text{days}}\right)^{2/3}$$
 </div>
 
 <div class="equation">
-$$r_2 = (3.84 \times 10^5)\left(0.0366\right)^{2/3} = (3.84 \times 10^5)(0.110) = 4.23 \times 10^4\text{ km}$$
+$$r_2 = (3.84 \times 10^5 \text{km})\left(0.0366\right)^{2/3} = (3.84 \times 10^5 \text{km})(0.110) = 4.23 \times 10^4\text{ km}$$
 </div>
 
 **Discussion**
@@ -490,7 +490,7 @@ $$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (1.50 \times 10^{11}\text{ m}
 </div>
 
 <div class="equation">
-$$M = \frac{4\pi^{2} (3.375 \times 10^{33})}{(6.67 \times 10^{-11})(9.96 \times 10^{14})} = \frac{1.33 \times 10^{35}}{6.64 \times 10^{4}} = 2.00 \times 10^{30}\text{ kg}$$
+$$M = \frac{4\pi^{2} (3.375 \times 10^{33} \text{m}^3)}{(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(9.96 \times 10^{14} \text{s}^2)} = \frac{1.33 \times 10^{35} \text{m}^3}{6.64 \times 10^{4} \text{m}^3/\text{kg}} = 2.00 \times 10^{30}\text{ kg}$$
 </div>
 
 The actual mass of the Sun is $$1.989 \times 10^{30}$$ kg.
@@ -533,11 +533,11 @@ $$T = 0.00485\text{ y} \times \frac{365.25\text{ d}}{1\text{ y}} \times \frac{24
 Solve for Jupiter's mass using $$M = \frac{4\pi^{2} r^3}{GT^{2}}$$:
 
 <div class="equation">
-$$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (4.22 \times 10^8)^3}{(6.67 \times 10^{-11})(1.53 \times 10^5)^2}$$
+$$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (4.22 \times 10^8 \m)^3}{(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(1.53 \times 10^5 \s)^2}$$
 </div>
 
 <div class="equation">
-$$M = \frac{4\pi^{2} (7.51 \times 10^{25})}{(6.67 \times 10^{-11})(2.34 \times 10^{10})} = \frac{2.97 \times 10^{27}}{1.56 \times 10^{0}} = 1.90 \times 10^{27}\text{ kg}$$
+$$M = \frac{4\pi^{2} (7.51 \times 10^{25} \text{m}^3)}{(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(2.34 \times 10^{10} \text{s}^2)} = \frac{2.97 \times 10^{27} \text{m}^3}{1.56 \times 10^{0} \text{m}^3/\text{kg}} = 1.90 \times 10^{27}\text{ kg}$$
 </div>
 
 The actual mass of Jupiter is $$1.90 \times 10^{27}$$ kg.
@@ -589,7 +589,7 @@ From Table 1, we can read the $$r^3/T^2$$ values directly:
 - Io: $$r^3/T^2 = 3.19 \times 10^{21}$$ km³/y²
 
 <div class="equation">
-$$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21}}{1.01 \times 10^{19}} = 316$$
+$$\frac{M_{\text{Jupiter}}}{M_{\text{Earth}}} = \frac{3.19 \times 10^{21} \text{m}^3/\text{s}^2}{1.01 \times 10^{19} \text{m}^3/\text{s}^2} = 316$$
 </div>
 
 **Discussion**
@@ -627,16 +627,16 @@ very massive black holes at the centers of some galaxies.
 (a) Convert the given values to SI units:
 
 - Galaxy mass: $$M = 8.0 \times 10^{11} \times 1.99 \times 10^{30} = 1.59 \times 10^{42}$$ kg
-- Orbital radius: $$r = 6.0 \times 10^4 \times 9.46 \times 10^{15} = 5.68 \times 10^{20}$$ m
+- Orbital radius: $$r = 6.0 \times 10^4 \text{ly} \times 9.46 \times 10^{15} \text{m/ly} = 5.68 \times 10^{20} \m$$ m
 
 Calculate the orbital period:
 
 <div class="equation">
-$$T^2 = \frac{4\pi^{2} r^3}{GM} = \frac{4\pi^{2} (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.59 \times 10^{42})}$$
+$$T^2 = \frac{4\pi^{2} r^3}{GM} = \frac{4\pi^{2} (5.68 \times 10^{20} \m)^3}{(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(1.59 \times 10^{42} \kg)}$$
 </div>
 
 <div class="equation">
-$$T^2 = \frac{7.21 \times 10^{63}}{1.06 \times 10^{32}} = 6.79 \times 10^{31}\text{ s}^2$$
+$$T^2 = \frac{7.21 \times 10^{63} \text{m}^3}{1.06 \times 10^{32} \text{m}^3/\text{s}^2} = 6.79 \times 10^{31}\text{ s}^2$$
 </div>
 
 <div class="equation">
@@ -645,17 +645,17 @@ $$T = 8.24 \times 10^{15}\text{ s} = 8.24 \times 10^{15}\text{ s} \times \frac{1
 
 (b) If the actual period is $$6.0 \times 10^7$$ years, calculate the implied mass:
 
-Convert period to seconds: $$T = 6.0 \times 10^7 \times 3.156 \times 10^7 = 1.89 \times 10^{15}$$ s
+Convert period to seconds: $$T = 6.0 \times 10^7 \text{y} \times 3.156 \times 10^7 \text{s/y} = 1.89 \times 10^{15} \s$$ s
 
 <div class="equation">
-$$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (5.68 \times 10^{20})^3}{(6.67 \times 10^{-11})(1.89 \times 10^{15})^2}$$
+$$M = \frac{4\pi^{2} r^3}{GT^{2}} = \frac{4\pi^{2} (5.68 \times 10^{20} \m)^3}{(6.67 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(1.89 \times 10^{15} \s)^2}$$
 </div>
 
 <div class="equation">
-$$M = \frac{7.21 \times 10^{63}}{2.38 \times 10^{20}} = 3.03 \times 10^{43}\text{ kg}$$
+$$M = \frac{7.21 \times 10^{63} \text{m}^3}{2.38 \times 10^{20} \text{m}^3/\text{kg}} = 3.03 \times 10^{43}\text{ kg}$$
 </div>
 
-Convert to solar masses: $$M = \frac{3.03 \times 10^{43}}{1.99 \times 10^{30}} = 1.5 \times 10^{13}$$ solar masses
+Convert to solar masses: $$\frac{M}{M_{\odot}} = \frac{3.03 \times 10^{43} \kg}{1.99 \times 10^{30} \kg} = 1.5 \times 10^{13}$$ solar masses
 
 **Discussion**
 
@@ -708,13 +708,13 @@ $$r = R_{\text{Earth}} + h = 6.38 \times 10^6\text{ m} + 9.00 \times 10^5\text{ 
 </div>
 
 <div class="equation">
-$$v = \sqrt{\frac{GM_{\text{Earth}}}{r}} = \sqrt{\frac{(6.674 \times 10^{-11})(5.97 \times 10^{24})}{7.28 \times 10^6}} = \sqrt{5.48 \times 10^7} = 7.40 \times 10^3\text{ m/s}$$
+$$v = \sqrt{\frac{GM_{\text{Earth}}}{r}} = \sqrt{\frac{(6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(5.97 \times 10^{24} \kg)}{7.28 \times 10^6 \m}} = \sqrt{5.48 \times 10^7 \mmss} = 7.40 \times 10^3\text{ m/s}$$
 </div>
 
 (b) The rivet has the same orbital speed but at 90°. The relative velocity is:
 
 <div class="equation">
-$$v_{\text{rel}} = \sqrt{v^2 + v^2} = v\sqrt{2} = (7.40 \times 10^3)\sqrt{2} = 1.05 \times 10^4\text{ m/s}$$
+$$v_{\text{rel}} = \sqrt{v^2 + v^2} = v\sqrt{2} = (7.40 \times 10^3 \ms)\sqrt{2} = 1.05 \times 10^4\text{ m/s}$$
 </div>
 
 (c) Collision duration (time for rivet to pass through):
@@ -730,13 +730,13 @@ $$F_{\text{avg}} = \frac{\Delta p}{\Delta t} = \frac{m v_{\text{rel}}}{\Delta t}
 </div>
 
 <div class="equation">
-$$F_{\text{avg}} = \frac{5.25}{2.86 \times 10^{-7}} = 1.84 \times 10^7\text{ N}$$
+$$F_{\text{avg}} = \frac{5.25 \text{kg}\cdot\text{m/s}}{2.86 \times 10^{-7} \s} = 1.84 \times 10^7\text{ N}$$
 </div>
 
 (e) Energy generated (kinetic energy of rivet in satellite's reference frame):
 
 <div class="equation">
-$$E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3})(1.05 \times 10^4)^2 = (2.50 \times 10^{-4})(1.10 \times 10^8) = 2.76 \times 10^4\text{ J}$$
+$$E = \frac{1}{2}m v_{\text{rel}}^2 = \frac{1}{2}(0.500 \times 10^{-3} \kg)(1.05 \times 10^4 \ms)^2 = (2.50 \times 10^{-4} \kg)(1.10 \times 10^8 \mmss) = 2.76 \times 10^4\text{ J}$$
 </div>
 
 **Discussion**
@@ -789,15 +789,15 @@ __Given:__
 -$$M_{\text{Earth}} = 5.972 \times 10^{24}\text{ kg}$$
 
 <div class="equation">
-$$r = \left(\frac{(6.674 \times 10^{-11})(5.972 \times 10^{24})(3600)^2}{4\pi^{2}}\right)^{1/3}$$
+$$r = \left(\frac{(6.674 \times 10^{-11} \text{N}\cdot\text{m}^2/\text{kg}^2)(5.972 \times 10^{24} \kg)(3600 \s)^2}{4\pi^{2}}\right)^{1/3}$$
 </div>
 
 <div class="equation">
-$$r = \left(\frac{(3.985 \times 10^{14})(1.296 \times 10^{7})}{39.48}\right)^{1/3}$$
+$$r = \left(\frac{(3.985 \times 10^{14} \text{m}^3/\text{s}^2)(1.296 \times 10^{7} \text{s}^2)}{39.48}\right)^{1/3}$$
 </div>
 
 <div class="equation">
-$$r = \left(\frac{5.17 \times 10^{21}}{39.48}\right)^{1/3} = (1.31 \times 10^{20})^{1/3}$$
+$$r = \left(\frac{5.17 \times 10^{21} \text{m}^3}{39.48}\right)^{1/3} = (1.31 \times 10^{20} \text{m}^3)^{1/3}$$
 </div>
 
 <div class="equation">
@@ -813,11 +813,11 @@ __(c) What is unreasonable about the premise?__
 The premise of a 1-hour orbital period is physically impossible for an Earth satellite. The __minimum possible orbital period__ occurs when a satellite orbits just above Earth's surface (ignoring atmospheric drag). This minimum period can be calculated:
 
 <div class="equation">
-$$T_{\text{min}} = 2\pi\sqrt{\frac{R_{\text{Earth}}^3}{GM_{\text{Earth}}}} = 2\pi\sqrt{\frac{(6.371 \times 10^{6})^3}{3.985 \times 10^{14}}}$$
+$$T_{\text{min}} = 2\pi\sqrt{\frac{R_{\text{Earth}}^3}{GM_{\text{Earth}}}} = 2\pi\sqrt{\frac{(6.371 \times 10^{6} \m)^3}{3.985 \times 10^{14} \text{m}^3/\text{s}^2}}$$
 </div>
 
 <div class="equation">
-$$T_{\text{min}} = 2\pi\sqrt{\frac{2.586 \times 10^{20}}{3.985 \times 10^{14}}} = 2\pi\sqrt{6.49 \times 10^{5}} = 2\pi(806) = 5063\text{ s} \approx 84.4\text{ min}$$
+$$T_{\text{min}} = 2\pi\sqrt{\frac{2.586 \times 10^{20} \text{m}^3}{3.985 \times 10^{14} \text{m}^3/\text{s}^2}} = 2\pi\sqrt{6.49 \times 10^{5} \text{s}^2} = 2\pi(806 \s) = 5063\text{ s} \approx 84.4\text{ min}$$
 </div>
 
 Therefore, the minimum orbital period for an Earth satellite is about 84.4 minutes. A 60-minute (1-hour) orbit would require the satellite to be inside Earth, which is impossible.
@@ -871,7 +871,7 @@ First, $$ GM = (6.674 \times 10^{-11} \text{ N·m}^2/\text{kg}^2)(6.69 \times 10
 
 **(a)**
 <div class="equation">
-$$ v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{4.46 \times 10^{5}}{5.00 \times 10^{4}}} = 2.99 \ms, \qquad T = \frac{2\pi r}{v} = \frac{2\pi(5.00 \times 10^{4} \m)}{2.99 \ms} = 1.05 \times 10^{5} \s \approx 29 \text{ h} $$
+$$ v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{4.46 \times 10^{5} \text{m}^3/\text{s}^2}{5.00 \times 10^{4} \m}} = 2.99 \ms, \qquad T = \frac{2\pi r}{v} = \frac{2\pi(5.00 \times 10^{4} \m)}{2.99 \ms} = 1.05 \times 10^{5} \s \approx 29 \text{ h} $$
 </div>
 
 **(b)**
@@ -881,7 +881,7 @@ $$ g = \frac{GM}{R^2} = \frac{4.46 \times 10^{5}}{(8.42 \times 10^{3} \m)^2} = 6
 
 **(c)**
 <div class="equation">
-$$ v_{\text{esc}} = \sqrt{\frac{2GM}{R}} = \sqrt{\frac{2(4.46 \times 10^{5})}{8.42 \times 10^{3}}} = 10.3 \ms $$
+$$ v_{\text{esc}} = \sqrt{\frac{2GM}{R}} = \sqrt{\frac{2(4.46 \times 10^{5} \text{m}^3/\text{s}^2)}{8.42 \times 10^{3} \m}} = 10.3 \ms $$
 </div>
 
 **Discussion**

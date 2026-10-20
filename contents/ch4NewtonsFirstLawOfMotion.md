@@ -129,6 +129,20 @@ How are inertia and mass related?
 
 :::
 
+::: solution
+
+**Strategy**
+
+Recall the definition of inertia and how it is measured.
+
+**Solution**
+
+Inertia is the tendency of an object to remain at rest or to keep moving with constant velocity. Mass is the quantitative measure of inertia: the greater the mass, the harder it is to change the object's velocity. A $$ 2000 \text{ kg} $$ car is much harder to start or stop than a $$ 10 \text{ kg} $$ bicycle.
+
+Inertia and mass are directly related: an object's mass is the measure of its inertia, so a larger mass means more inertia.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -136,6 +150,20 @@ How are inertia and mass related?
 ::: problem
 
 What is the relationship between weight and mass? Which is an intrinsic, unchanging property of a body?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Weight is the gravitational force on an object, $$ w = mg $$.
+
+**Solution**
+
+Weight is proportional to mass, $$ w = mg $$, where $$ g $$ is the local acceleration due to gravity. A $$ 70.0 \text{ kg} $$ person weighs $$ (70.0 \text{ kg})(9.80 \mss) = 686 \N $$ on Earth but only $$ (70.0 \text{ kg})(1.63 \mss) = 114 \N $$ on the Moon, and nearly nothing in deep space. The mass of $$ 70.0 \text{ kg} $$ is the same everywhere.
+
+Weight is the gravitational force on a body, equal to its mass times the local acceleration due to gravity ($$ w = mg $$), and mass is the intrinsic, unchanging property, while weight changes from place to place.
 
 :::
 

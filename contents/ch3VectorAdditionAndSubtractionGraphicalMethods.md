@@ -517,7 +517,7 @@ From Figure 20, path A consists of:
 Total distance:
 
 <div class="equation">
-$$d = 360 + 120 = 480 \m$$
+$$d = 360 \m + 120 \m = 480 \m$$
 </div>
 
 **(b) Displacement magnitude and direction:**
@@ -528,16 +528,16 @@ $$d = 360 + 120 = 480 \m$$
 
 2. Magnitude using the Pythagorean theorem:
 <div class="equation">
-$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120)^2 + (360)^2}$$
+$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120 \m)^2 + (360 \m)^2}$$
 </div>
 
 <div class="equation">
-$$R = \sqrt{14,400 + 129,600} = \sqrt{144,000} = 379 \m$$
+$$R = \sqrt{14,400 (\m)^2 + 129,600 (\m)^2} = \sqrt{144,000 (\m)^2} = 379 \m$$
 </div>
 
 3. Direction (angle east of north):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120}{360}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
+$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120 \m}{360 \m}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
 </div>
 
 **Discussion**
@@ -582,34 +582,34 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. Ea
 
 From Figure 20, path B consists of:
 
-- 4 blocks east: $$4 \times 120 = 480 \m$$
-- 3 blocks north: $$3 \times 120 = 360 \m$$
-- 3 blocks west: $$3 \times 120 = 360 \m$$
+- 4 blocks east: $$4 \times 120 \m = 480 \m$$
+- 3 blocks north: $$3 \times 120 \m = 360 \m$$
+- 3 blocks west: $$3 \times 120 \m = 360 \m$$
 
 Total distance:
 
 <div class="equation">
-$$d = 480 + 360 + 360 = 1200 \m$$
+$$d = 480 \m + 360 \m + 360 \m = 1200 \m$$
 </div>
 
 **(b) Displacement magnitude and direction:**
 
 1. The displacement components are:
    - Net north displacement: $$\Delta y = 360 \m$$ (3 blocks north)
-   - Net east displacement: $$\Delta x = 480 - 360 = 120 \m$$ (4 blocks east and 3 blocks west)
+   - Net east displacement: $$\Delta x = 480 \m - 360 \m = 120 \m$$ (4 blocks east and 3 blocks west)
 
 2. Magnitude using the Pythagorean theorem:
 <div class="equation">
-$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120)^2 + (360)^2}$$
+$$R = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(120 \m)^2 + (360 \m)^2}$$
 </div>
 
 <div class="equation">
-$$R = \sqrt{14,400 + 129,600} = \sqrt{144,000} = 379 \m$$
+$$R = \sqrt{14,400 (\m)^2 + 129,600 (\m)^2} = \sqrt{144,000 (\m)^2} = 379 \m$$
 </div>
 
 3. Direction (angle east of north):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120}{360}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
+$$\theta = \tan^{-1}\left(\frac{\Delta x}{\Delta y}\right) = \tan^{-1}\left(\frac{120 \m}{360 \m}\right) = \tan^{-1}(0.333) = 18.4^\circ$$
 </div>
 
 The displacement is **18.4° east of north**.
@@ -662,7 +662,7 @@ $$R_{\text{east}} = R \cos\theta = 5.00 \times \cos(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{east}} = 5.00 \times 0.766 = 3.83 \text{ km}$$
+$$R_{\text{east}} = 5.00 \text{ km} \times 0.766 = 3.83 \text{ km}$$
 </div>
 
 2. **North component** (vertical):
@@ -671,12 +671,12 @@ $$R_{\text{north}} = R \sin\theta = 5.00 \times \sin(40.0^\circ)$$
 </div>
 
 <div class="equation">
-$$R_{\text{north}} = 5.00 \times 0.643 = 3.21 \text{ km}$$
+$$R_{\text{north}} = 5.00 \text{ km} \times 0.643 = 3.21 \text{ km}$$
 </div>
 
 **Discussion**
 
-Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer: $$\sqrt{(3.83)^2 + (3.21)^2} = \sqrt{14.67 + 10.30} = \sqrt{24.97} \approx 5.00 \text{ km}$$ ✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
+Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer: $$\sqrt{(3.83 \text{ km})^2 + (3.21 \text{ km})^2} = \sqrt{14.67 (\text{ km})^2 + 10.30 (\text{ km})^2} = \sqrt{24.97 (\text{ km})^2} \approx 5.00 \text{ km}$$ ✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
 
 **Answer**
 
@@ -730,7 +730,7 @@ These vectors are perpendicular to each other, forming a right triangle.
 **Magnitude of resultant:**
 
 <div class="equation">
-$$R = \sqrt{A^2 + B^2} = \sqrt{(18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m$$
+$$R = \sqrt{A^2 + B^2} = \sqrt{(18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m$$
 </div>
 
 **Direction:**
@@ -738,7 +738,7 @@ $$R = \sqrt{A^2 + B^2} = \sqrt{(18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{9
 The angle north of west is:
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{B}{A}\right) = \tan^{-1}\left(\frac{25.0}{18.0}\right) = \tan^{-1}(1.389) = 54.2^\circ$$
+$$\theta = \tan^{-1}\left(\frac{B}{A}\right) = \tan^{-1}\left(\frac{25.0 \m}{18.0 \m}\right) = \tan^{-1}(1.389) = 54.2^\circ$$
 </div>
 
 The resultant displacement is 54.2° north of west (or equivalently, 35.8° west of north).
@@ -787,24 +787,24 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the starting point. An
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component: $$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
-- East component: $$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$ (negative because west)
+- North component: $$A_N = 12.0 \m \cos(20.0^\circ) = 12.0 \m \times 0.9397 = 11.28 \m$$
+- East component: $$A_E = -12.0 \m \sin(20.0^\circ) = -12.0 \m \times 0.3420 = -4.104 \m$$ (negative because west)
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component: $$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- South component: $$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- West component: $$B_W = 20.0 \m \cos(40.0^\circ) = 20.0 \m \times 0.7660 = 15.32 \m$$
+- South component: $$B_S = 20.0 \m \sin(40.0^\circ) = 20.0 \m \times 0.6428 = 12.86 \m$$
 - North component: $$B_N = -12.86 \m$$ (negative because south)
 - East component: $$B_E = -15.32 \m$$ (negative because west)
 
 **Resultant components:**
 
 <div class="equation">
-$$R_N = A_N + B_N = 11.28 + (-12.86) = -1.58 \m$$
+$$R_N = A_N + B_N = 11.28 \m + (-12.86 \m) = -1.58 \m$$
 </div>
 
 <div class="equation">
-$$R_E = A_E + B_E = -4.104 + (-15.32) = -19.43 \m$$
+$$R_E = A_E + B_E = -4.104 \m + (-15.32 \m) = -19.43 \m$$
 </div>
 
 The negative north component means the resultant points south. The negative east component means it points west.
@@ -812,13 +812,13 @@ The negative north component means the resultant points south. The negative east
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58)^2 + (-19.43)^2} = \sqrt{2.50 + 377.5} = \sqrt{380.0} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 (\m)^2 + 377.5 (\m)^2} = \sqrt{380.0 (\m)^2} = 19.5 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579}{19.425}\right) = \tan^{-1}(0.08131) = 4.65^\circ$$
+$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579 \m}{19.425 \m}\right) = \tan^{-1}(0.08131) = 4.65^\circ$$
 </div>
 
 Since both components are negative, the resultant points south of west. More specifically, it's 4.65° south of west (or equivalently, 85.35° west of south). Because $$ R_N $$ is the small difference of two nearly equal components, carry extra digits until the end: rounding the components to 11.3 m and 12.9 m first would give 4.7° instead.
@@ -864,36 +864,36 @@ Walking in reverse order: **B** first, then **A**
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component: $$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- South component: $$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- West component: $$B_W = 20.0 \m \cos(40.0^\circ) = 20.0 \m \times 0.7660 = 15.32 \m$$
+- South component: $$B_S = 20.0 \m \sin(40.0^\circ) = 20.0 \m \times 0.6428 = 12.86 \m$$
 - North component: $$B_N = -12.86 \m$$ (negative because south)
 - East component: $$B_E = -15.32 \m$$ (negative because west)
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component: $$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
-- East component: $$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$ (negative because west)
+- North component: $$A_N = 12.0 \m \cos(20.0^\circ) = 12.0 \m \times 0.9397 = 11.28 \m$$
+- East component: $$A_E = -12.0 \m \sin(20.0^\circ) = -12.0 \m \times 0.3420 = -4.104 \m$$ (negative because west)
 
 **Resultant components:**
 
 <div class="equation">
-$$R_N = B_N + A_N = -12.86 + 11.28 = -1.58 \m$$
+$$R_N = B_N + A_N = -12.86 \m + 11.28 \m = -1.58 \m$$
 </div>
 
 <div class="equation">
-$$R_E = B_E + A_E = -15.32 + (-4.104) = -19.43 \m$$
+$$R_E = B_E + A_E = -15.32 \m + (-4.104 \m) = -19.43 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58)^2 + (-19.43)^2} = \sqrt{2.50 + 377.5} = \sqrt{380.0} = 19.5 \m$$
+$$R = \sqrt{R_N^2 + R_E^2} = \sqrt{(-1.58 \m)^2 + (-19.43 \m)^2} = \sqrt{2.50 (\m)^2 + 377.5 (\m)^2} = \sqrt{380.0 (\m)^2} = 19.5 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579}{19.425}\right) = 4.65^\circ \text{ south of west}$$
+$$\theta = \tan^{-1}\left(\frac{|R_N|}{|R_E|}\right) = \tan^{-1}\left(\frac{1.579 \m}{19.425 \m}\right) = 4.65^\circ \text{ south of west}$$
 </div>
 
 **Discussion**
@@ -952,29 +952,29 @@ For **A** - **B**, the second leg is now 20.0 m at 40° **north** of east (oppos
 
 **Vector -B components** (20.0 m, 40° north of east):
 
-- East component: $$(-B)_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- North component: $$(-B)_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- East component: $$(-B)_E = 20.0 \m \cos(40.0^\circ) = 20.0 \m \times 0.7660 = 15.32 \m$$
+- North component: $$(-B)_N = 20.0 \m \sin(40.0^\circ) = 20.0 \m \times 0.6428 = 12.86 \m$$
 
 **Resultant R' = A - B:**
 
 <div class="equation">
-$$R'_N = A_N + (-B)_N = 11.28 + 12.86 = 24.13 \m$$
+$$R'_N = A_N + (-B)_N = 11.28 \m + 12.86 \m = 24.13 \m$$
 </div>
 
 <div class="equation">
-$$R'_E = A_E + (-B)_E = -4.104 + 15.32 = 11.22 \m$$
+$$R'_E = A_E + (-B)_E = -4.104 \m + 15.32 \m = 11.22 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R' = \sqrt{(24.13)^2 + (11.22)^2} = \sqrt{582.3 + 125.9} = \sqrt{708.2} = 26.6 \m$$
+$$R' = \sqrt{(24.13 \m)^2 + (11.22 \m)^2} = \sqrt{582.3 (\m)^2 + 125.9 (\m)^2} = \sqrt{708.2 (\m)^2} = 26.6 \m$$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{R'_N}{R'_E}\right) = \tan^{-1}\left(\frac{24.13}{11.22}\right) = \tan^{-1}(2.151) = 65.1^\circ$$
+$$\theta = \tan^{-1}\left(\frac{R'_N}{R'_E}\right) = \tan^{-1}\left(\frac{24.13 \m}{11.22 \m}\right) = \tan^{-1}(2.151) = 65.1^\circ$$
 </div>
 
 Since both components are positive, this is 65.1° north of east.
@@ -994,7 +994,7 @@ $$R''_E = -R'_E = -11.22 \m$$
 **Magnitude:**
 
 <div class="equation">
-$$R'' = \sqrt{(-24.13)^2 + (-11.22)^2} = 26.6 \m$$
+$$R'' = \sqrt{(-24.13 \m)^2 + (-11.22 \m)^2} = 26.6 \m$$
 </div>
 
 **Direction:**
@@ -1053,41 +1053,41 @@ Let's choose three vectors:
 Components of A:
 
 <div class="equation">
-$$A_x = 10.0\cos(30°) = 10.0(0.866) = 8.66 \text{ units}$$
+$$A_x = 10.0 \text{ units}\cos(30°) = 10.0(0.866) = 8.66 \text{ units}$$
 </div>
 
 <div class="equation">
-$$A_y = 10.0\sin(30°) = 10.0(0.500) = 5.00 \text{ units}$$
+$$A_y = 10.0 \text{ units}\sin(30°) = 10.0(0.500) = 5.00 \text{ units}$$
 </div>
 
 Components of B:
 
 <div class="equation">
-$$B_x = 8.0\cos(120°) = 8.0(-0.500) = -4.00 \text{ units}$$
+$$B_x = 8.0 \text{ units}\cos(120°) = 8.0(-0.500) = -4.00 \text{ units}$$
 </div>
 
 <div class="equation">
-$$B_y = 8.0\sin(120°) = 8.0(0.866) = 6.93 \text{ units}$$
+$$B_y = 8.0 \text{ units}\sin(120°) = 8.0(0.866) = 6.93 \text{ units}$$
 </div>
 
 Components of C:
 
 <div class="equation">
-$$C_x = 6.0\cos(240°) = 6.0(-0.500) = -3.00 \text{ units}$$
+$$C_x = 6.0 \text{ units}\cos(240°) = 6.0(-0.500) = -3.00 \text{ units}$$
 </div>
 
 <div class="equation">
-$$C_y = 6.0\sin(240°) = 6.0(-0.866) = -5.20 \text{ units}$$
+$$C_y = 6.0 \text{ units}\sin(240°) = 6.0(-0.866) = -5.20 \text{ units}$$
 </div>
 
 Sum A + B + C:
 
 <div class="equation">
-$$R_x = A_x + B_x + C_x = 8.66 + (-4.00) + (-3.00) = 1.66 \text{ units}$$
+$$R_x = A_x + B_x + C_x = 8.66 \text{ units} + (-4.00 \text{ units}) + (-3.00 \text{ units}) = 1.66 \text{ units}$$
 </div>
 
 <div class="equation">
-$$R_y = A_y + B_y + C_y = 5.00 + 6.93 + (-5.20) = 6.73 \text{ units}$$
+$$R_y = A_y + B_y + C_y = 5.00 \text{ units} + 6.93 \text{ units} + (-5.20 \text{ units}) = 6.73 \text{ units}$$
 </div>
 
 **Order 2: B + C + A**
@@ -1099,17 +1099,17 @@ $$R_x = B_x + C_x + A_x = (-4.00) + (-3.00) + 8.66 = 1.66 \text{ units}$$
 </div>
 
 <div class="equation">
-$$R_y = B_y + C_y + A_y = 6.93 + (-5.20) + 5.00 = 6.73 \text{ units}$$
+$$R_y = B_y + C_y + A_y = 6.93 \text{ units} + (-5.20 \text{ units}) + 5.00 \text{ units} = 6.73 \text{ units}$$
 </div>
 
 **Resultant magnitude and direction (same for both orders):**
 
 <div class="equation">
-$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(1.66)^2 + (6.73)^2} = \sqrt{2.76 + 45.3} = \sqrt{48.06} = 6.93 \text{ units}$$
+$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(1.66 \text{ units})^2 + (6.73 \text{ units})^2} = \sqrt{2.76 (\text{ units})^2 + 45.3 (\text{ units})^2} = \sqrt{48.06 (\text{ units})^2} = 6.93 \text{ units}$$
 </div>
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{R_y}{R_x}\right) = \tan^{-1}\left(\frac{6.73}{1.66}\right) = \tan^{-1}(4.05) = 76.1°$$
+$$\theta = \tan^{-1}\left(\frac{R_y}{R_x}\right) = \tan^{-1}\left(\frac{6.73 \text{units}}{1.66 \text{units}}\right) = \tan^{-1}(4.05) = 76.1°$$
 </div>
 
 **Discussion**
@@ -1149,35 +1149,35 @@ From Example 2, the displacement vectors (with angles measured counterclockwise 
 **Vector A components:**
 
 <div class="equation">
-$$A_x = 27.5 \cos(66.0^\circ) = 11.185 \m, \qquad A_y = 27.5 \sin(66.0^\circ) = 25.123 \m$$
+$$A_x = 27.5 \m \cos(66.0^\circ) = 11.185 \m, \qquad A_y = 27.5 \m \sin(66.0^\circ) = 25.123 \m$$
 </div>
 
 **Vector B components:**
 
 <div class="equation">
-$$B_x = 30.0 \cos(112.0^\circ) = -11.238 \m, \qquad B_y = 30.0 \sin(112.0^\circ) = 27.816 \m$$
+$$B_x = 30.0 \m \cos(112.0^\circ) = -11.238 \m, \qquad B_y = 30.0 \m \sin(112.0^\circ) = 27.816 \m$$
 </div>
 
 **Resultant components:**
 
 <div class="equation">
-$$R_x = A_x + B_x = 11.185 + (-11.238) = -0.053 \m$$
+$$R_x = A_x + B_x = 11.185 \m + (-11.238 \m) = -0.053 \m$$
 </div>
 
 <div class="equation">
-$$R_y = A_y + B_y = 25.123 + 27.816 = 52.939 \m$$
+$$R_y = A_y + B_y = 25.123 \m + 27.816 \m = 52.939 \m$$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(-0.053)^2 + (52.939)^2} = 52.9 \m$$
+$$R = \sqrt{R_x^2 + R_y^2} = \sqrt{(-0.053 \m)^2 + (52.939 \m)^2} = 52.9 \m$$
 </div>
 
 **Direction:** Since $$R_x$$ is very slightly negative and $$R_y$$ is positive, the resultant points just west of north:
 
 <div class="equation">
-$$\theta = 90^\circ + \tan^{-1}\left(\frac{0.053}{52.939}\right) = 90^\circ + 0.06^\circ = 90.1^\circ$$
+$$\theta = 90^\circ + \tan^{-1}\left(\frac{0.053 \m}{52.939 \m}\right) = 90^\circ + 0.06^\circ = 90.1^\circ$$
 </div>
 
 **Discussion**
@@ -1233,7 +1233,7 @@ $$\frac{v_B}{\sin(26.5°)} = \frac{v_{tot}}{\sin(130.5°)}$$
 </div>
 
 <div class="equation">
-$$v_B = v_{tot} \times \frac{\sin(26.5°)}{\sin(130.5°)} = 6.72 \times \frac{0.446}{0.757} = 6.72 \times 0.589 = 3.96 \ms$$
+$$v_B = v_{tot} \times \frac{\sin(26.5°)}{\sin(130.5°)} = 6.72 \ms \times \frac{0.446}{0.757} = 6.72 \ms \times 0.589 = 3.96 \ms$$
 </div>
 
 **Finding vA:**
@@ -1243,7 +1243,7 @@ $$\frac{v_A}{\sin(23.0°)} = \frac{v_{tot}}{\sin(130.5°)}$$
 </div>
 
 <div class="equation">
-$$v_A = v_{tot} \times \frac{\sin(23.0°)}{\sin(130.5°)} = 6.72 \times \frac{0.391}{0.757} = 6.72 \times 0.517 = 3.47 \ms$$
+$$v_A = v_{tot} \times \frac{\sin(23.0°)}{\sin(130.5°)} = 6.72 \ms \times \frac{0.391}{0.757} = 6.72 \ms \times 0.517 = 3.47 \ms$$
 </div>
 
 **Discussion**
@@ -1283,19 +1283,19 @@ Given:
 **x-component:**
 
 <div class="equation">
-$$v_{tot,x} = v_{tot}\cos(\theta) = 6.72\cos(49.0°) = 6.72 \times 0.656 = 4.41 \ms$$
+$$v_{tot,x} = v_{tot}\cos(\theta) = 6.72 \ms\cos(49.0°) = 6.72 \ms \times 0.656 = 4.41 \ms$$
 </div>
 
 **y-component:**
 
 <div class="equation">
-$$v_{tot,y} = v_{tot}\sin(\theta) = 6.72\sin(49.0°) = 6.72 \times 0.755 = 5.07 \ms$$
+$$v_{tot,y} = v_{tot}\sin(\theta) = 6.72 \ms\sin(49.0°) = 6.72 \ms \times 0.755 = 5.07 \ms$$
 </div>
 
 **Verification:**
 
 <div class="equation">
-$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41)^2 + (5.07)^2} = \sqrt{19.4 + 25.7} = \sqrt{45.1} = 6.72 \ms$$ ✓
+$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41 \ms)^2 + (5.07 \ms)^2} = \sqrt{19.4 \text{m}^2/\text{s}^2 + 25.7 \text{m}^2/\text{s}^2} = \sqrt{45.1 \text{m}^2/\text{s}^2} = 6.72 \ms$$ ✓
 </div>
 
 **Discussion**
@@ -1338,13 +1338,13 @@ Given:
 **Component along new x'-axis:**
 
 <div class="equation">
-$$v'_{tot,x'} = v_{tot}\cos(\theta') = 6.72\cos(19.0°) = 6.72 \times 0.946 = 6.35 \ms$$
+$$v'_{tot,x'} = v_{tot}\cos(\theta') = 6.72 \ms\cos(19.0°) = 6.72 \ms \times 0.946 = 6.35 \ms$$
 </div>
 
 **Component along new y'-axis:**
 
 <div class="equation">
-$$v'_{tot,y'} = v_{tot}\sin(\theta') = 6.72\sin(19.0°) = 6.72 \times 0.326 = 2.19 \ms$$
+$$v'_{tot,y'} = v_{tot}\sin(\theta') = 6.72 \ms\sin(19.0°) = 6.72 \ms \times 0.326 = 2.19 \ms$$
 </div>
 
 **Alternative method using rotation formulas:**
@@ -1352,11 +1352,11 @@ $$v'_{tot,y'} = v_{tot}\sin(\theta') = 6.72\sin(19.0°) = 6.72 \times 0.326 = 2.
 We could also transform the original components (4.41, 5.07) using rotation matrices:
 
 <div class="equation">
-$$v'_{x'} = v_x\cos(30°) + v_y\sin(30°) = 4.41(0.866) + 5.07(0.500) = 3.82 + 2.54 = 6.36 \ms$$
+$$v'_{x'} = v_x\cos(30°) + v_y\sin(30°) = 4.41 \ms(0.866) + 5.07 \ms(0.500) = 3.82 \ms + 2.54 \ms = 6.36 \ms$$
 </div>
 
 <div class="equation">
-$$v'_{y'} = -v_x\sin(30°) + v_y\cos(30°) = -4.41(0.500) + 5.07(0.866) = -2.21 + 4.39 = 2.18 \ms$$
+$$v'_{y'} = -v_x\sin(30°) + v_y\cos(30°) = -4.41 \ms(0.500) + 5.07 \ms(0.866) = -2.21 \ms + 4.39 \ms = 2.18 \ms$$
 </div>
 
 Both methods agree (within rounding).

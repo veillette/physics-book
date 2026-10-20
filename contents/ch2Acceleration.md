@@ -534,6 +534,22 @@ Is it possible for speed to be constant while acceleration is not zero? Give an 
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Acceleration is the rate of change of *velocity*, a vector. Velocity can change in direction even when its magnitude (the speed) stays the same.
+
+**Solution**
+
+![A car moves around a circular track of radius 50 m at a constant speed of 20 m/s. At three positions, the velocity arrow is tangent to the circle and has the same length, while the acceleration arrow points toward the center.](../resources/concept_02_04_q01.svg){: .sketch}
+
+Yes. A car going around a circular track at a constant speed is a good example. Suppose the speed is $$ 20 \ms $$ and the radius is $$ 50 \m $$. The speed never changes, but the direction of the velocity changes continuously, so the velocity is changing and the car is accelerating. As you will learn in Uniform Circular Motion and Gravitation, this acceleration points toward the center of the circle and has magnitude $$ v^{2}/r = (20 \ms)^{2}/(50 \m) = 8.0 \mss $$.
+
+Yes, the speed can be constant while the acceleration is not zero, as for a car going around a circular track at a constant $$ 20 \ms $$, whose changing direction of motion gives it an acceleration toward the center.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -541,6 +557,20 @@ Is it possible for speed to be constant while acceleration is not zero? Give an 
 :::: problem
 
 Is it possible for velocity to be constant while acceleration is not zero? Explain.
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Use the definition of acceleration, $$ \overline{a} = \Delta v / \Delta t $$.
+
+**Solution**
+
+No. Constant velocity means that neither the magnitude nor the direction of the velocity changes, so $$ \Delta v = 0 $$ over any time interval. Then $$ \overline{a} = \Delta v / \Delta t = 0 $$. A car moving in a straight line at a steady $$ 25 \ms $$ has zero acceleration.
+
+No, it is not possible for the velocity to be constant while the acceleration is nonzero, because a nonzero acceleration always means the velocity is changing.
 
 ::::
 
@@ -554,6 +584,22 @@ Give an example in which velocity is zero yet acceleration is not.
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Look for an instant when an object is momentarily at rest but its velocity is still changing.
+
+**Solution**
+
+![Three snapshots of a rock thrown straight up. On the way up the velocity points up; at the top the velocity is zero; on the way down at the same height the velocity points down with the same length. At all three snapshots the acceleration points down: a = −g = −9.80 m/s².](../resources/concept_02_07_q01.svg){: .sketch}
+
+A rock thrown straight up is momentarily at rest at the top of its flight, so its velocity is zero there. Its acceleration, however, is still that of gravity, $$ 9.80 \mss $$ downward: just before the top the velocity is upward, and just after it the velocity is downward, so the velocity is changing even at the instant it is zero.
+
+A rock thrown straight up has zero velocity at the top of its flight, yet its acceleration there is $$ 9.80 \mss $$ downward.
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -564,6 +610,28 @@ If a subway train is moving to the left (has a negative velocity) and then comes
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+Take the usual convention: $$ +x $$ to the right. The train slows down, so the change in velocity is opposite its velocity.
+
+**Solution**
+
+![A train moves to the left, so its velocity arrow points left (v < 0). It is slowing down, so its acceleration arrow points to the right (a > 0). The +x direction is to the right.](../resources/concept_02_04_q04.svg){: .sketch}
+
+The velocity is negative (to the left) and increases toward zero as the train stops. For example, if the velocity changes from $$ -12 \ms $$ to $$ 0 $$ in $$ 8.0 \s $$, then
+
+<div class="equation">
+$$ \overline{a} = \frac{v_{f} - v_{0}}{\Delta t} = \frac{0 - (-12 \ms)}{8.0 \s} = +1.5 \mss $$
+</div>
+
+The acceleration points to the right, opposite to the velocity, which is what slows the train.
+
+The train's acceleration is directed to the right, so it is positive (for example, $$ +1.5 \mss $$ if it stops from $$ 12 \ms $$ in $$ 8.0 \s $$).
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -571,6 +639,21 @@ If a subway train is moving to the left (has a negative velocity) and then comes
 :::: problem
 
 Plus and minus signs are used in one-dimensional motion to indicate direction. What is the sign of an acceleration that reduces the magnitude of a negative velocity? Of a positive velocity?
+
+::::
+
+:::: solution
+
+**Strategy**
+
+An acceleration reduces the magnitude of the velocity (slows the object) when it points opposite to the velocity.
+
+**Solution**
+
+- For a negative velocity, such as $$ -10 \ms $$ becoming $$ -6 \ms $$, the change $$ \Delta v = +4 \ms $$ is positive, so the acceleration is **positive**.
+- For a positive velocity, such as $$ +10 \ms $$ becoming $$ +6 \ms $$, the change $$ \Delta v = -4 \ms $$ is negative, so the acceleration is **negative**.
+
+An acceleration that reduces the magnitude of a negative velocity is positive, and one that reduces the magnitude of a positive velocity is negative; in both cases the acceleration has the sign opposite to the velocity.
 
 ::::
 

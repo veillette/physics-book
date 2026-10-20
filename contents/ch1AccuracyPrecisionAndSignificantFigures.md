@@ -544,11 +544,11 @@ $$ v = 90 \pm 4.5 \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Minimum: } 90 - 4.5 = 85.5 \text{ km/h} $$
+$$ \text{Minimum: } 90 \text{km/h} - 4.5 \text{km/h} = 85.5 \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Maximum: } 90 + 4.5 = 94.5 \text{ km/h} $$
+$$ \text{Maximum: } 90 \text{km/h} + 4.5 \text{km/h} = 94.5 \text{ km/h} $$
 </div>
 
 The exact computed range is 85.5 to 94.5 km/h. Rounding the endpoints outward, so that the stated interval still encloses every possible speed, gives 85 to 95 km/h. (This is an outward-rounding convention, not ordinary rounding of each endpoint.)
@@ -557,11 +557,11 @@ The exact computed range is 85.5 to 94.5 km/h. Rounding the endpoints outward, s
 
 Using 1 km = 0.6214 mi:
 <div class="equation">
-$$ 85.5 \text{ km/h} \times 0.6214 = 53.1 \text{ mi/h} $$
+$$ 85.5 \text{ km/h} \times \frac{0.6214 \text{ mi}}{1 \text{ km}} = 53.1 \text{ mi/h} $$
 </div>
 
 <div class="equation">
-$$ 94.5 \text{ km/h} \times 0.6214 = 58.7 \text{ mi/h} $$
+$$ 94.5 \text{ km/h} \times \frac{0.6214 \text{ mi}}{1 \text{ km}} = 58.7 \text{ mi/h} $$
 </div>
 
 **Discussion**
@@ -831,11 +831,11 @@ $$ \delta v = 60 \text{ km/h} \times \frac{2.2\%}{100\%} = 60 \text{ km/h} \time
 
 2. Calculate the range:
 <div class="equation">
-$$ \text{Minimum: } 60 - 1 = 59 \text{ km/h} $$
+$$ \text{Minimum: } 60 \text{km/h} - 1 \text{km/h} = 59 \text{ km/h} $$
 </div>
 
 <div class="equation">
-$$ \text{Maximum: } 60 + 1 = 61 \text{ km/h} $$
+$$ \text{Maximum: } 60 \text{km/h} + 1 \text{km/h} = 61 \text{ km/h} $$
 </div>
 
 **Discussion**
@@ -1057,7 +1057,7 @@ $$ \%\text{unc}_{d} = \frac{\delta d}{d} \times 100\% = \frac{25 \m}{42{,}188 \m
 
 Time = 2 h 30 min 12 s. Convert to seconds:
 <div class="equation">
-$$ t = 2 \times 3600 \s + 30 \times 60 \s + 12 \s = 7200 + 1800 + 12 = 9012 \s $$
+$$ t = 2 \times 3600 \s + 30 \times 60 \s + 12 \s = 7200 \s + 1800 \s + 12 \s = 9012 \s $$
 </div>
 
 With uncertainty δt = 1 s:

@@ -88,7 +88,7 @@ ball’s mass and speed into the equation.
 The ratio of the player’s momentum to that of the ball is
 
 <div class="equation">
- $$ \frac{ p_{\text{player}}}{ p_{\text{ball}}}=\frac{880}{10.3}=85.9 . $$
+ $$ \frac{ p_{\text{player}}}{ p_{\text{ball}}}=\frac{880 \text{kg}\cdot\text{m/s}}{10.3 \text{kg}\cdot\text{m/s}}=85.9 . $$
 </div>
 
 **Discussion**

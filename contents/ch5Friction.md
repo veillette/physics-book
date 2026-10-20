@@ -736,7 +736,7 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N}_{\text{drive}} = (1.0)(9800 \N) = 9800 \
 $$a_{\text{max}} = \frac{9800 \N}{1.00 \times 10^{3} \kg} = 9.80 \mss$$
 </div>
 
-4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = 4.90\text{ m}_{\text{cab}}$$) is less than the force needed to accelerate it at $$9.80 \mss$$ ($$F = 9.80\text{ m}_{\text{cab}}$$).
+4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = m_{\text{cab}}(4.90 \mss)$$) is less than the force needed to accelerate it at $$9.80 \mss$$ ($$F = m_{\text{cab}}(9.80 \mss)$$).
 
 **Discussion**
 
@@ -867,12 +867,12 @@ $$F_{\text{tot}} = \sqrt{F_1^2 + F_2^2} = \sqrt{(26.4 \N)^2 + (18.6 \N)^2}$$
 </div>
 
 <div class="equation">
-$$F_{\text{tot}} = \sqrt{697.0 + 346.0} = \sqrt{1043} = 32.3 \N$$
+$$F_{\text{tot}} = \sqrt{697.0 (\N)^2 + 346.0 (\N)^2} = \sqrt{1043 (\N)^2} = 32.3 \N$$
 </div>
 
 2. Find the direction (angle above the horizontal, measured from $$F_1$$):
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{F_2}{F_1}\right) = \tan^{-1}\left(\frac{18.6}{26.4}\right) = \tan^{-1}(0.704) = 35.1°$$
+$$\theta = \tan^{-1}\left(\frac{F_2}{F_1}\right) = \tan^{-1}\left(\frac{18.6 \N}{26.4 \N}\right) = \tan^{-1}(0.704) = 35.1°$$
 </div>
 
 (b) Initial acceleration (starting from rest):

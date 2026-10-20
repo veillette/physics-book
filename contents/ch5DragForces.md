@@ -579,13 +579,13 @@ $$ v_t = \sqrt{\frac{2mg}{C\rho A}} = \sqrt{\frac{2(0.560 \kg)(9.80 \mss)}{(1.0)
 </div>
 
 <div class="equation">
-$$ v_t = \sqrt{\frac{10.98}{0.1125}} = \sqrt{97.6} = 9.88 \ms \approx 10 \ms $$
+$$ v_t = \sqrt{\frac{10.98 \N}{0.1125 \text{kg/m}}} = \sqrt{97.6 \text{m}^2/\text{s}^2} = 9.88 \ms \approx 10 \ms $$
 </div>
 
 For the person falling 5.0 m without drag:
 
 <div class="equation">
-$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98} = 9.9 \ms $$
+$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5.0 \m)} = \sqrt{98 \text{m}^2/\text{s}^2} = 9.9 \ms $$
 </div>
 
 **Discussion**
@@ -633,17 +633,17 @@ $$ F_{\text{D}} = \frac{1}{2}(1.21 \text{ kg/m}^3)(0.70 \mm)(19.44 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(378) = 160 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(0.70 \mm)(378 \mmss) = 160 \N $$
 </div>
 
 At 100 km/h (27.78 m/s):
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(27.78 \ms)^2 $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(0.70 \mm)(27.78 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(772) = 327 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(0.70 \mm)(772 \mmss) = 327 \N $$
 </div>
 
 (b) Hummer H2 (drag area $$ C_{\text{d}}A = 2.44 \mm $$):
@@ -651,21 +651,21 @@ $$ F_{\text{D}} = \frac{1}{2}(1.21)(0.70)(772) = 327 \N $$
 At 70 km/h (19.44 m/s):
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(19.44)^2 $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(19.44 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(378) = 558 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(378 \mmss) = 558 \N $$
 </div>
 
 At 100 km/h (27.78 m/s):
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(27.78)^2 $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(27.78 \ms)^2 $$
 </div>
 
 <div class="equation">
-$$ F_{\text{D}} = \frac{1}{2}(1.21)(2.44)(772) = 1139 \N $$
+$$ F_{\text{D}} = \frac{1}{2}(1.21 \text{kg/m}^3)(2.44 \mm)(772 \mmss) = 1139 \N $$
 </div>
 
 **Discussion**
@@ -732,14 +732,14 @@ For part (a), we use kinematics without air resistance: $$ v = \sqrt{2gh} $$. Fo
 First, calculate the raindrop's properties:
 
 - Diameter: 4 mm, so radius $$ r = 2 \text{ mm} = 0.002 \m $$
-- Cross-sectional area: $$ A = \pi r^2 = \pi(0.002)^2 = 1.257 \times 10^{-5} \mm $$
-- Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(0.002)^3 = 3.35 \times 10^{-8} \text{ m}^3 $$
+- Cross-sectional area: $$ A = \pi r^2 = \pi(0.002 \m)^2 = 1.257 \times 10^{-5} \mm $$
+- Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(0.002 \m)^3 = 3.35 \times 10^{-8} \text{ m}^3 $$
 - Mass: $$ m = \rho V = (1.00 \times 10^3 \text{ kg/m}^3)(3.35 \times 10^{-8} \text{ m}^3) = 3.35 \times 10^{-5} \kg $$
 
 (a) Speed without air drag:
 
 <div class="equation">
-$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5000 \m)} = \sqrt{98000} = 313 \ms $$
+$$ v = \sqrt{2gh} = \sqrt{2(9.80 \mss)(5000 \m)} = \sqrt{98000 \text{m}^2/\text{s}^2} = 313 \ms $$
 </div>
 
 (b) Terminal velocity with air drag:
@@ -834,8 +834,8 @@ For such a small object moving slowly through a viscous fluid, Stokes' law appli
 
 1. Calculate the bacterium's properties:
    - Radius: $$ r = 1.00 \text{ μm} = 1.00 \times 10^{-6} \m $$
-   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6})^3 = 4.19 \times 10^{-18} \text{ m}^3 $$
-   - Mass: $$ m = \rho_{\text{bact}} V = (1.10 \times 10^3)(4.19 \times 10^{-18}) = 4.61 \times 10^{-15} \kg $$
+   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.00 \times 10^{-6} \m)^3 = 4.19 \times 10^{-18} \text{ m}^3 $$
+   - Mass: $$ m = \rho_{\text{bact}} V = (1.10 \times 10^3 \text{kg/m}^3)(4.19 \times 10^{-18} \text{m}^3) = 4.61 \times 10^{-15} \kg $$
 
 2. Draw the free-body diagram with $$ +y $$ upward. The bacterium sinks (moves along $$ -y $$), so Stokes drag $$ F_{\s} $$ points along $$ +y $$. The buoyant force $$ F_B = \rho_{\text{water}}Vg $$ also points along $$ +y $$, and the weight $$ w = \rho_{\text{bact}}Vg $$ points along $$ -y $$:
 
@@ -849,7 +849,7 @@ $$ W_{\text{eff}} = (\rho_{\text{bact}} - \rho_{\text{water}})Vg $$
 </div>
 
 <div class="equation">
-$$ W_{\text{eff}} = (1100 - 1000)(4.19 \times 10^{-18})(9.80) = 4.11 \times 10^{-15} \N $$
+$$ W_{\text{eff}} = (1100 \text{kg/m}^3 - 1000 \text{kg/m}^3)(4.19 \times 10^{-18} \text{m}^3)(9.80 \mss) = 4.11 \times 10^{-15} \N $$
 </div>
 
 3. At terminal velocity, Stokes drag equals effective weight:
@@ -863,7 +863,7 @@ $$ v_t = \frac{W_{\text{eff}}}{6\pi r\eta} = \frac{4.11 \times 10^{-15} \N}{6\pi
 </div>
 
 <div class="equation">
-$$ v_t = \frac{4.11 \times 10^{-15}}{1.89 \times 10^{-8}} = 2.18 \times 10^{-7} \ms = 0.218 \text{ μm/s} $$
+$$ v_t = \frac{4.11 \times 10^{-15} \N}{1.89 \times 10^{-8} \text{N}\cdot\text{s/m}} = 2.18 \times 10^{-7} \ms = 0.218 \text{ μm/s} $$
 </div>
 
 **Discussion**
@@ -903,11 +903,11 @@ $$ v_t = \frac{d}{t} = \frac{0.60 \m}{12 \s} = 0.050 \ms $$
 
 2. Calculate the ball bearing's properties:
    - Radius: $$ r = 1.5 \text{ mm} = 1.5 \times 10^{-3} \m $$
-   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.5 \times 10^{-3})^3 = 1.41 \times 10^{-8} \text{ m}^3 $$
+   - Volume: $$ V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi(1.5 \times 10^{-3} \m)^3 = 1.41 \times 10^{-8} \text{ m}^3 $$
 
 3. Calculate the weight of the ball bearing:
 <div class="equation">
-$$ W = \rho_{\text{steel}}Vg = (7800)(1.41 \times 10^{-8})(9.80) = 1.08 \times 10^{-3} \N $$
+$$ W = \rho_{\text{steel}}Vg = (7800 \text{kg/m}^3)(1.41 \times 10^{-8} \text{m}^3)(9.80 \mss) = 1.08 \times 10^{-3} \N $$
 </div>
 
 4. At terminal velocity, Stokes drag equals the weight:
@@ -917,12 +917,12 @@ $$ 6\pi r\eta v_t = W $$
 
 5. Solve for viscosity:
 <div class="equation">
-$$ \eta = \frac{W}{6\pi r v_t} = \frac{1.08 \times 10^{-3} \N}{6\pi(1.5 \times 10^{-3} \m)(0.050 \ms)} = \frac{1.08 \times 10^{-3}}{1.41 \times 10^{-3}} = 0.76 \text{ kg/(m·s)} $$
+$$ \eta = \frac{W}{6\pi r v_t} = \frac{1.08 \times 10^{-3} \N}{6\pi(1.5 \times 10^{-3} \m)(0.050 \ms)} = \frac{1.08 \times 10^{-3} \N}{1.41 \times 10^{-3} \text{m}^2/\text{s}} = 0.76 \text{ kg/(m·s)} $$
 </div>
 
 6. Check the effect of buoyancy. Motor oil has a density of about $$ 900 \text{ kg/m}^3 $$, so the buoyant force reduces the effective weight to
 <div class="equation">
-$$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg = (6900)(1.41 \times 10^{-8})(9.80) = 9.54 \times 10^{-4} \N $$
+$$ W_{\text{eff}} = (\rho_{\text{steel}} - \rho_{\text{oil}})Vg = (6900 \text{kg/m}^3)(1.41 \times 10^{-8} \text{m}^3)(9.80 \mss) = 9.54 \times 10^{-4} \N $$
 </div>
 
 which gives $$ \eta = (9.54 \times 10^{-4})/(1.41 \times 10^{-3}) = 0.68 \text{ kg/(m·s)} $$. Neglecting buoyancy overestimates the viscosity by about 12%.

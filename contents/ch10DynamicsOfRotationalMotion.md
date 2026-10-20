@@ -938,12 +938,12 @@ $$ I_{\text{tread}} = MR^{2} = (10.0 \kg)(0.330 \m)^2 = 1.089 \kg \cdot \mm $$
 
 Moment of inertia per wheel:
 <div class="equation">
-$$ I_{\text{wheel}} = 0.243 + 0.135 + 1.089 = 1.467 \kg \cdot \mm $$
+$$ I_{\text{wheel}} = 0.243 \text{kg}\cdot\text{m}^2 + 0.135 \text{kg}\cdot\text{m}^2 + 1.089 \text{kg}\cdot\text{m}^2 = 1.467 \kg \cdot \mm $$
 </div>
 
 For two wheels:
 <div class="equation">
-$$ I_{\text{wheels}} = 2 \times 1.467 = 2.934 \kg \cdot \mm $$
+$$ I_{\text{wheels}} = 2 \times 1.467 \text{kg}\cdot\text{m}^2 = 2.934 \kg \cdot \mm $$
 </div>
 
 **For the axle** (solid cylinder, 14.0 kg, R = 0.0200 m):
@@ -958,7 +958,7 @@ $$ I_{\text{shaft}} = \frac{1}{2}MR^{2} = \frac{1}{2}(30.0 \kg)(0.0320 \m)^2 = 0
 
 **Total moment of inertia:**
 <div class="equation">
-$$ I_{\text{total}} = 2.934 + 0.00280 + 0.0154 = 2.95 \kg \cdot \mm $$
+$$ I_{\text{total}} = 2.934 \text{kg}\cdot\text{m}^2 + 0.00280 \text{kg}\cdot\text{m}^2 + 0.0154 \text{kg}\cdot\text{m}^2 = 2.95 \kg \cdot \mm $$
 </div>
 
 **Angular acceleration:**
@@ -1058,7 +1058,7 @@ We use the rotational form of Newton's second law and the relationship between t
 **(a)** The change in angular velocity is:
 
 <div class="equation">
-$$ \Delta\omega = \omega_{f} - \omega_{i} = -10.0 - 10.0 = -20.0 \text{ rad/s} $$
+$$ \Delta\omega = \omega_{f} - \omega_{i} = -10.0 \rads - 10.0 \rads = -20.0 \text{ rad/s} $$
 </div>
 
 Using $$ \tau = I\alpha = I\frac{\Delta\omega}{\Delta t} $$:
@@ -1133,7 +1133,7 @@ $$ I = \frac{1}{2}MR^{2} = \frac{1}{2}(20.0 \kg)(0.150 \m)^2 = 0.225 \kg \cdot \
 Solving for ω:
 
 <div class="equation">
-$$ \omega^{2} = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} = \frac{7.20 \times 10^5}{0.214} = 3.36 \times 10^6 \text{ rad}^2/\text{s}^2 $$
+$$ \omega^{2} = \frac{2(3.60 \times 10^5 \J)}{0.950 \times 0.225 \kg \cdot \mm} = \frac{7.20 \times 10^5 \J}{0.214 \text{kg}\cdot\text{m}^2} = 3.36 \times 10^6 \text{ rad}^2/\text{s}^2 $$
 </div>
 
 <div class="equation">
@@ -1148,7 +1148,7 @@ $$ v_{	ext{rim}} = \omega r = (1834 \text{ rad/s})(0.150 \m) = 275 \ms $$
 
 which exceeds the 200-m/s limit the steel can safely sustain. (The corresponding centripetal acceleration at the rim, $$ \omega^{2} r \approx 5.0 \times 10^{5} \text{ m/s}^2 $$, shows how large the stresses would be.) The flywheel would be at risk of bursting.
 
-**(c)** The premises are **inconsistent**: a 20.0-kg steel disk limited to a 200-m/s rim speed cannot store enough energy to accelerate an 800-kg car to 30.0 m/s. At the limit it stores only $$ \frac{1}{2}\left(\frac{1}{2}MR^2\right)\left(\frac{v_{\text{rim}}}{R}\right)^2 = \frac{1}{4}Mv_{\text{rim}}^2 = \frac{1}{4}(20.0)(200)^2 = 2.00 \times 10^{5} \J $$, about half of the $$ 3.79 \times 10^{5} \J $$ required. The flywheel would need more mass, a stronger material permitting a higher rim speed, or a smaller claimed share of the car’s kinetic energy.
+**(c)** The premises are **inconsistent**: a 20.0-kg steel disk limited to a 200-m/s rim speed cannot store enough energy to accelerate an 800-kg car to 30.0 m/s. At the limit it stores only $$ \frac{1}{2}\left(\frac{1}{2}MR^2\right)\left(\frac{v_{\text{rim}}}{R}\right)^2 = \frac{1}{4}Mv_{\text{rim}}^2 = \frac{1}{4}(20.0 \kg)(200 \ms)^2 = 2.00 \times 10^{5} \J $$, about half of the $$ 3.79 \times 10^{5} \J $$ required. The flywheel would need more mass, a stronger material permitting a higher rim speed, or a smaller claimed share of the car’s kinetic energy.
 
 **Discussion**
 

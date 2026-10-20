@@ -582,7 +582,7 @@ $$ F = \frac{m\Delta v}{\Delta t} = \frac{(0.500\text{ kg})(20.0\text{ m/s} - 0)
 (c) Calculate the maximum range (at 45° launch angle):
 
 <div class="equation">
-$$ R = \frac{v^2\sin(2\theta)}{g} = \frac{(20.0\text{ m/s})^2\sin(90°)}{9.80\text{ m/s}^2} = \frac{400 \times 1}{9.80} = 40.8\text{ m} $$
+$$ R = \frac{v^2\sin(2\theta)}{g} = \frac{(20.0\text{ m/s})^2\sin(90°)}{9.80\text{ m/s}^2} = \frac{400 \mmss \times 1}{9.80 \mss} = 40.8\text{ m} $$
 </div>
 
 **Discussion**

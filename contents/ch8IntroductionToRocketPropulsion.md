@@ -397,7 +397,7 @@ Given:
 
 - Initial mass: $$ m_0 = 4000 \kg $$
 - Mass expelled: $$ \Delta m = 3500 \kg $$
-- Remaining mass: $$ m_{\text{r}} = m_0 - \Delta m = 4000 - 3500 = 500 \kg $$
+- Remaining mass: $$ m_{\text{r}} = m_0 - \Delta m = 4000 \kg - 3500 \kg = 500 \kg $$
 - Exhaust velocity: $$ v_{\text{e}} = 2.00 \times 10^{3} \ms $$
 
 Apply the rocket velocity equation:
@@ -453,7 +453,7 @@ For part (a), use the rocket velocity equation. For part (b), use the rocket acc
 
 - Initial mass: $$ m_0 = 20\,000 \kg $$
 - Mass expelled: $$ \Delta m = 40.0 \kg $$
-- Remaining mass: $$ m_{\text{r}} = 20\,000 - 40 = 19\,960 \kg $$
+- Remaining mass: $$ m_{\text{r}} = 20\,000 \kg - 40 \kg = 19\,960 \kg $$
 - Exhaust velocity: $$ v_{\text{e}} = 8.00 \times 10^{6} \ms $$
 
 Apply the rocket velocity equation:
@@ -639,7 +639,7 @@ Solve for exhaust velocity:
 
 $$ v_{\text{e}} = \frac{v}{\ln\left(\frac{m_0}{m_{\text{r}}}\right)} $$
 
-$$ v_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0}{70.0}\right)} $$
+$$ v_{\text{e}} = \frac{10.0 \ms}{\ln\left(\frac{75.0 \kg}{70.0 \kg}\right)} $$
 
 $$ v_{\text{e}} = \frac{10.0 \ms}{\ln(1.0714)} $$
 
@@ -684,7 +684,7 @@ $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 Solve for the mass ratio:
 
-$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v_{\text{e}}} = \frac{8.00 \times 10^{3}}{2.20 \times 10^{3}} = 3.636 $$
+$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{v}{v_{\text{e}}} = \frac{8.00 \times 10^{3} \ms}{2.20 \times 10^{3} \ms} = 3.636 $$
 
 $$ \frac{m_0}{m_{\text{r}}} = e^{3.636} = 37.9 $$
 
@@ -793,7 +793,7 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 
 Solving for initial speed:
 
-$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} = \sqrt{\frac{294}{0.643}} = \sqrt{457} = 21.4 \ms $$
+$$ v_0 = \sqrt{\frac{Rg}{\sin(2\theta)}} = \sqrt{\frac{(30.0 \m)(9.80 \mss)}{\sin(40.0^\circ)}} = \sqrt{\frac{294 \mmss}{0.643}} = \sqrt{457 \text{m}^2/\text{s}^2} = 21.4 \ms $$
 
 The squid would need an initial speed of approximately $$ 21.4 \ms $$ (about 77 km/h or 48 mph).
 
@@ -803,7 +803,7 @@ $$ v = v_{\text{e}} \ln\left(\frac{m_0}{m_{\text{r}}}\right) $$
 
 With $$ v = 21.4 \ms $$ and $$ v_{\text{e}} = 12.0 \ms $$:
 
-$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{21.4}{12.0} = 1.78 $$
+$$ \ln\left(\frac{m_0}{m_{\text{r}}}\right) = \frac{21.4 \ms}{12.0 \ms} = 1.78 $$
 
 $$ \frac{m_0}{m_{\text{r}}} = e^{1.78} = 5.93 $$
 
@@ -889,7 +889,7 @@ $$ (90 \kg) v_1 = (85 \kg) v_2 + (5.0 \kg)(v_2 - 8.0 \ms) \quad \Rightarrow \qua
 
 Third throw ($$ 85 \kg $$ moving at $$ v_2 $$):
 
-$$ v_3 = v_2 + \frac{(5.0 \kg)(8.0 \ms)}{85 \kg} = (8.0 \ms)\left(\frac{5.0}{95}+\frac{5.0}{90}+\frac{5.0}{85}\right) = 1.34 \ms $$
+$$ v_3 = v_2 + \frac{(5.0 \kg)(8.0 \ms)}{85 \kg} = (8.0 \ms)\left(\frac{5.0 \kg}{95 \kg}+\frac{5.0 \kg}{90 \kg}+\frac{5.0 \kg}{85 \kg}\right) = 1.34 \ms $$
 
 Time to reach the ship:
 
@@ -938,9 +938,9 @@ Both projectiles are cylindrical with diameter 30 mm and length 150 mm, fired at
 
 Calculate mass (density = $$ 19\,100 \text{ kg/m}^3 $$):
 
-$$ V = \pi r^2 h = \pi (0.015)^2(0.150) = 1.06 \times 10^{-4} \text{ m}^3 $$
+$$ V = \pi r^2 h = \pi (0.015 \m)^2(0.150 \m) = 1.06 \times 10^{-4} \text{ m}^3 $$
 
-$$ m = \rho V = (19\,100)(1.06 \times 10^{-4}) = 2.02 \kg $$
+$$ m = \rho V = (19\,100 \text{kg/m}^3)(1.06 \times 10^{-4} \text{m}^3) = 2.02 \kg $$
 
 Using the work-energy theorem, where the projectile penetrates distance $$ d = 0.060 \m $$:
 
@@ -954,7 +954,7 @@ Average force: $$ 37.9 \text{ MN} $$ (about 3860 tons-force)
 
 Mass (density = $$ 11\,300 \text{ kg/m}^3 $$):
 
-$$ m = (11\,300)(1.06 \times 10^{-4}) = 1.20 \kg $$
+$$ m = (11\,300 \text{kg/m}^3)(1.06 \times 10^{-4} \text{m}^3) = 1.20 \kg $$
 
 Average force:
 

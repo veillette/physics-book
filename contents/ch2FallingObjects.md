@@ -900,32 +900,32 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ -1.80 = 0 + (4.00)t + \frac{1}{2}(-9.80)t^2 $$
+$$ -1.80 \m = 0 + (4.00 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ -1.80 = 4.00t - 4.90t^2 $$
+$$ -1.80 \m = (4.00 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 Rearranging into standard quadratic form:
 
 <div class="equation">
-$$ 4.90t^2 - 4.00t - 1.80 = 0 $$
+$$ (4.90 \mss)t^2 - (4.00 \ms)t - 1.80 \m = 0 $$
 </div>
 
 4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
 <div class="equation">
-$$ t = \frac{4.00 \pm \sqrt{(-4.00)^2 + 4(4.90)(1.80)}}{2(4.90)} = \frac{4.00 \pm \sqrt{16.0 + 35.28}}{9.80} $$
+$$ t = \frac{4.00 \ms \pm \sqrt{(-4.00 \ms)^2 + 4(4.90 \mss)(1.80 \m)}}{2(4.90 \mss)} = \frac{4.00 \ms \pm \sqrt{16.0 \mmss + 35.28 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{4.00 \pm \sqrt{51.28}}{9.80} = \frac{4.00 \pm 7.16}{9.80} $$
+$$ t = \frac{4.00 \ms \pm \sqrt{51.28 \mmss}}{9.80 \mss} = \frac{4.00 \ms \pm 7.16 \ms}{9.80 \mss} $$
 </div>
 
 Taking the positive root:
 
 <div class="equation">
-$$ t = \frac{4.00 + 7.16}{9.80} = \frac{11.16}{9.80} = 1.14 \s $$
+$$ t = \frac{4.00 \ms + 7.16 \ms}{9.80 \mss} = \frac{11.16 \ms}{9.80 \mss} = 1.14 \s $$
 </div>
 
 __(b) Highest point above the board:__
@@ -939,15 +939,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for the height $$ y $$:
 <div class="equation">
-$$ 0 = (4.00)^2 + 2(-9.80)(y - 0) $$
+$$ 0 = (4.00 \ms)^2 + 2(-9.80 \mss)(y - 0) $$
 </div>
 
 <div class="equation">
-$$ 0 = 16.0 - 19.6y $$
+$$ 0 = 16.0 \mmss - (19.6 \mss)y $$
 </div>
 
 <div class="equation">
-$$ y = \frac{16.0}{19.6} = 0.816 \m $$
+$$ y = \frac{16.0 \mmss}{19.6 \mss} = 0.816 \m $$
 </div>
 
 __(c) Velocity when feet hit the water:__
@@ -961,15 +961,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 Substitute known values:
 
 <div class="equation">
-$$ v^2 = (4.00)^2 + 2(-9.80)(-1.80 - 0) $$
+$$ v^2 = (4.00 \ms)^2 + 2(-9.80 \mss)(-1.80 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ v^2 = 16.0 + 2(-9.80)(-1.80) = 16.0 + 35.28 = 51.28 \mmss $$
+$$ v^2 = 16.0 \mmss + 2(-9.80 \mss)(-1.80 \m) = 16.0 \mmss + 35.28 \mmss = 51.28 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \pm \sqrt{51.28} = \pm 7.16 \ms $$
+$$ v = \pm \sqrt{51.28 \mmss} = \pm 7.16 \ms $$
 </div>
 
 Taking the negative root (downward motion):
@@ -1058,25 +1058,25 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ -8.26 = 0 + (-8.00)t + \frac{1}{2}(-9.80)t^2 $$
+$$ -8.26 \m = 0 + (-8.00 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ -8.26 = -8.00t - 4.90t^2 $$
+$$ -8.26 \m = -(8.00 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
-Rearranging: $$ 4.90t^2 + 8.00t - 8.26 = 0 $$
+Rearranging: $$ (4.90 \mss)t^2 + (8.00 \ms)t - 8.26 \m = 0 $$
 
 3. Apply the quadratic formula:
 <div class="equation">
-$$ t = \frac{-8.00 \pm \sqrt{(8.00)^2 + 4(4.90)(8.26)}}{2(4.90)} = \frac{-8.00 \pm \sqrt{64.0 + 161.9}}{9.80} $$
+$$ t = \frac{-8.00 \ms \pm \sqrt{(8.00 \ms)^2 + 4(4.90 \mss)(8.26 \m)}}{2(4.90 \mss)} = \frac{-8.00 \ms \pm \sqrt{64.0 \mmss + 161.9 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{-8.00 \pm 15.03}{9.80} $$
+$$ t = \frac{-8.00 \ms \pm 15.03 \ms}{9.80 \mss} $$
 </div>
 
-Taking the positive root: $$ t = \frac{-8.00 + 15.03}{9.80} = 0.717 \s $$
+Taking the positive root: $$ t = \frac{-8.00 \ms + 15.03 \ms}{9.80 \mss} = 0.717 \s $$
 
 **Discussion**
 
@@ -1127,46 +1127,46 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ 1.80 = 2.20 + (11.0)t + \frac{1}{2}(-9.80)t^2 $$
+$$ 1.80 \m = 2.20 \m + (11.0 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 1.80 = 2.20 + 11.0t - 4.90t^2 $$
+$$ 1.80 \m = 2.20 \m + (11.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 Rearranging:
 
 <div class="equation">
-$$ 1.80 - 2.20 = 11.0t - 4.90t^2 $$
+$$ 1.80 \m - 2.20 \m = (11.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ -0.40 = 11.0t - 4.90t^2 $$
+$$ -0.40 \m = (11.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 Rearranging into standard quadratic form:
 
 <div class="equation">
-$$ 4.90t^2 - 11.0t - 0.40 = 0 $$
+$$ (4.90 \mss)t^2 - (11.0 \ms)t - 0.40 \m = 0 $$
 </div>
 
 4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
 <div class="equation">
-$$ t = \frac{11.0 \pm \sqrt{(-11.0)^2 + 4(4.90)(0.40)}}{2(4.90)} = \frac{11.0 \pm \sqrt{121 + 7.84}}{9.80} $$
+$$ t = \frac{11.0 \ms \pm \sqrt{(-11.0 \ms)^2 + 4(4.90 \mss)(0.40 \m)}}{2(4.90 \mss)} = \frac{11.0 \ms \pm \sqrt{121 \mmss + 7.84 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{11.0 \pm \sqrt{128.84}}{9.80} = \frac{11.0 \pm 11.35}{9.80} $$
+$$ t = \frac{11.0 \ms \pm \sqrt{128.84 \mmss}}{9.80 \mss} = \frac{11.0 \ms \pm 11.35 \ms}{9.80 \mss} $$
 </div>
 
 This gives two solutions:
 
 <div class="equation">
-$$ t_1 = \frac{11.0 - 11.35}{9.80} = \frac{-0.35}{9.80} = -0.036 \s $$ (not physical)
+$$ t_1 = \frac{11.0 \ms - 11.35 \ms}{9.80 \mss} = \frac{-0.35 \ms}{9.80 \mss} = -0.036 \s $$ (not physical)
 </div>
 
 <div class="equation">
-$$ t_2 = \frac{11.0 + 11.35}{9.80} = \frac{22.35}{9.80} = 2.28 \s $$
+$$ t_2 = \frac{11.0 \ms + 11.35 \ms}{9.80 \mss} = \frac{22.35 \ms}{9.80 \mss} = 2.28 \s $$
 </div>
 
 **Discussion**
@@ -1216,38 +1216,38 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 2. Substitute the known values:
 <div class="equation">
-$$ 7.00 = 0 + (15.0)t + \frac{1}{2}(-9.80)t^2 $$
+$$ 7.00 \m = 0 + (15.0 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 7.00 = 15.0t - 4.90t^2 $$
+$$ 7.00 \m = (15.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 3. Rearrange into standard quadratic form:
 <div class="equation">
-$$ 4.90t^2 - 15.0t + 7.00 = 0 $$
+$$ (4.90 \mss)t^2 - (15.0 \ms)t + 7.00 \m = 0 $$
 </div>
 
 4. Apply the quadratic formula $$ t = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$:
 <div class="equation">
-$$ t = \frac{15.0 \pm \sqrt{(15.0)^2 - 4(4.90)(7.00)}}{2(4.90)} $$
+$$ t = \frac{15.0 \ms \pm \sqrt{(15.0 \ms)^2 - 4(4.90 \mss)(7.00 \m)}}{2(4.90 \mss)} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{15.0 \pm \sqrt{225 - 137.2}}{9.80} = \frac{15.0 \pm \sqrt{87.8}}{9.80} $$
+$$ t = \frac{15.0 \ms \pm \sqrt{225 \mmss - 137.2 \mmss}}{9.80 \mss} = \frac{15.0 \ms \pm \sqrt{87.8 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{15.0 \pm 9.37}{9.80} $$
+$$ t = \frac{15.0 \ms \pm 9.37 \ms}{9.80 \mss} $$
 </div>
 
 5. This gives two solutions:
 <div class="equation">
-$$ t_1 = \frac{15.0 - 9.37}{9.80} = \frac{5.63}{9.80} = 0.575 \s $$ (on the way up)
+$$ t_1 = \frac{15.0 \ms - 9.37 \ms}{9.80 \mss} = \frac{5.63 \ms}{9.80 \mss} = 0.575 \s $$ (on the way up)
 </div>
 
 <div class="equation">
-$$ t_2 = \frac{15.0 + 9.37}{9.80} = \frac{24.37}{9.80} = 2.49 \s $$ (on the way down)
+$$ t_2 = \frac{15.0 \ms + 9.37 \ms}{9.80 \mss} = \frac{24.37 \ms}{9.80 \mss} = 2.49 \s $$ (on the way down)
 </div>
 
 6. The additional time between passing the branch on the way up and on the way down:
@@ -1257,7 +1257,7 @@ $$ \Delta t = t_2 - t_1 = 2.49 \s - 0.575 \s = 1.91 \s $$
 
 **Discussion**
 
-The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on its way down, giving an additional time of 1.91 s. This result makes sense because of the symmetry of projectile motion: the ball takes the same amount of time to go from the branch to its maximum height as it does to fall from maximum height back to the branch. Since the ball reaches its maximum height at $$ t = \frac{v_0}{g} = \frac{15.0}{9.80} = 1.53 \s $$, the time from the first branch crossing to the peak is $$ 1.53 - 0.575 = 0.96 \s $$, and from the peak back to the branch is another 0.96 s, giving a total of 1.91 s. This symmetry is a fundamental property of motion under constant acceleration.
+The ball passes the tree branch at 0.575 s on its way up and again at 2.49 s on its way down, giving an additional time of 1.91 s. This result makes sense because of the symmetry of projectile motion: the ball takes the same amount of time to go from the branch to its maximum height as it does to fall from maximum height back to the branch. Since the ball reaches its maximum height at $$ t = \frac{v_0}{g} = \frac{15.0 \ms}{9.80 \mss} = 1.53 \s $$, the time from the first branch crossing to the peak is $$ 1.53 \s - 0.575 \s = 0.96 \s $$, and from the peak back to the branch is another 0.96 s, giving a total of 1.91 s. This symmetry is a fundamental property of motion under constant acceleration.
 
 **Answer**
 
@@ -1306,19 +1306,19 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity $$ v_0 $$:
 <div class="equation">
-$$ 0 = v_0^2 + 2(-9.80)(2.50 - 0) $$
+$$ 0 = v_0^2 + 2(-9.80 \mss)(2.50 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ 0 = v_0^2 - 2(9.80)(2.50) $$
+$$ 0 = v_0^2 - 2(9.80 \mss)(2.50 \m) $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 2(9.80)(2.50) = 49.0 \mmss $$
+$$ v_0^2 = 2(9.80 \mss)(2.50 \m) = 49.0 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{49.0} = 7.00 \ms $$
+$$ v_0 = \sqrt{49.0 \text{m}^2/\text{s}^2} = 7.00 \ms $$
 </div>
 
 __(b) Time in the air:__
@@ -1340,12 +1340,12 @@ $$ 9.80t = 7.00 $$
 </div>
 
 <div class="equation">
-$$ t = \frac{7.00}{9.80} = 0.714 \s $$
+$$ t = \frac{7.00 \ms}{9.80 \mss} = 0.714 \s $$
 </div>
 
 3. This is the time to reach maximum height. By symmetry, the total time in the air is:
 <div class="equation">
-$$ t_{total} = 2 \times 0.714 = 1.43 \s $$
+$$ t_{total} = 2 \s \times 0.714 \s = 1.43 \s $$
 </div>
 
 **Discussion**
@@ -1397,33 +1397,33 @@ $$ t_{\text{sound}} = \frac{105 \m}{343 \text{ m/s}} = 0.306 \s $$
 2. The rock has been falling for $$ t = t_{\text{sound}} + 1.50 \s = 1.81 \s $$ when the hiker sees it (from rest, $$ g = 9.80 \mss $$ downward):
 
 <div class="equation">
-$$ y = \frac{1}{2}gt^{2} = \frac{1}{2}(9.80)(1.81)^2 = 16.0 \m $$
+$$ y = \frac{1}{2}gt^{2} = \frac{1}{2}(9.80 \mss)(1.81 \s)^2 = 16.0 \m $$
 </div>
 
 3. The rock is above the hiker by:
 <div class="equation">
-$$ h = 105 - 16.0 = 89.0 \m $$
+$$ h = 105 \m - 16.0 \m = 89.0 \m $$
 </div>
 
 **(b) Time remaining before impact:**
 
 1. The rock still needs to fall 89.0 m. Its speed after 1.81 s is:
 <div class="equation">
-$$ v = gt = (9.80)(1.81) = 17.7 \ms $$
+$$ v = gt = (9.80 \mss)(1.81 \s) = 17.7 \ms $$
 </div>
 
 2. Use the kinematic equation for the remaining fall:
 <div class="equation">
-$$ 89.0 = (17.7)t + \frac{1}{2}(9.80)t^2 $$
+$$ 89.0 \m = (17.7 \ms)t + \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 + 17.7t - 89.0 = 0 $$
+$$ (4.90 \mss)t^2 + (17.7 \ms)t - 89.0 \m = 0 $$
 </div>
 
 3. Using the quadratic formula:
 <div class="equation">
-$$ t = \frac{-17.7 + \sqrt{(17.7)^2 + 4(4.90)(89.0)}}{2(4.90)} = 2.82 \s $$
+$$ t = \frac{-17.7 \ms + \sqrt{(17.7 \ms)^2 + 4(4.90 \mss)(89.0 \m)}}{2(4.90 \mss)} = 2.82 \s $$
 </div>
 
 **Discussion**
@@ -1480,11 +1480,11 @@ $$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ y = 0 + 0 + \frac{1}{2}(9.80)(1.00)^2 $$
+$$ y = 0 + 0 + \frac{1}{2}(9.80 \mss)(1.00 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = \frac{1}{2}(9.80)(1.00) = 4.90 \m $$
+$$ y = \frac{1}{2}(9.80 \mss)(1.00 \text{s}^2) = 4.90 \m $$
 </div>
 
 __(b) Final velocity when hitting the ground:__
@@ -1501,7 +1501,7 @@ $$ v^2 = v_0^2 + 2ay $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(9.80)(75.0) $$
+$$ v^2 = 0 + 2(9.80 \mss)(75.0 \m) $$
 </div>
 
 <div class="equation">
@@ -1509,7 +1509,7 @@ $$ v^2 = 1470 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \sqrt{1470} = 38.3 \ms $$
+$$ v = \sqrt{1470 \text{m}^2/\text{s}^2} = 38.3 \ms $$
 </div>
 
 __(c) Distance traveled during the last second:__
@@ -1522,11 +1522,11 @@ $$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 75.0 = 0 + 0 + \frac{1}{2}(9.80)t^2 $$
+$$ 75.0 \m = 0 + 0 + \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ t^2 = \frac{2(75.0)}{9.80} = 15.31 \s^2 $$
+$$ t^2 = \frac{2(75.0 \m)}{9.80 \mss} = 15.31 \s^2 $$
 </div>
 
 <div class="equation">
@@ -1535,12 +1535,12 @@ $$ t = 3.91 \s $$
 
 2. Now find the distance fallen at $$ t = 2.91 \s $$ (one second before hitting the ground):
 <div class="equation">
-$$ y_{2.91} = \frac{1}{2}(9.80)(2.91)^2 = \frac{1}{2}(9.80)(8.468) = 41.5 \m $$
+$$ y_{2.91} = \frac{1}{2}(9.80 \mss)(2.91 \s)^2 = \frac{1}{2}(9.80 \mss)(8.468 \text{s}^2) = 41.5 \m $$
 </div>
 
 3. The distance traveled during the last second is:
 <div class="equation">
-$$ \Delta y = 75.0 - 41.5 = 33.5 \m $$
+$$ \Delta y = 75.0 \m - 41.5 \m = 33.5 \m $$
 </div>
 
 **Discussion**
@@ -1597,7 +1597,7 @@ $$ v^2 = v_0^2 + 2ay $$
 </div>
 
 <div class="equation">
-$$ v^2 = 0 + 2(9.80)(250) $$
+$$ v^2 = 0 + 2(9.80 \mss)(250 \m) $$
 </div>
 
 <div class="equation">
@@ -1618,11 +1618,11 @@ $$ y = y_0 + v_0 t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 250 = 0 + 0 + \frac{1}{2}(9.80)t_{fall}^2 $$
+$$ 250 \m = 0 + 0 + \frac{1}{2}(9.80 \mss)t_{fall}^2 $$
 </div>
 
 <div class="equation">
-$$ t_{fall} = \sqrt{\frac{2(250)}{9.80}} = \sqrt{51.02} = 7.1429 \s $$
+$$ t_{fall} = \sqrt{\frac{2(250 \m)}{9.80 \mss}} = \sqrt{51.02 \text{s}^2 (\s)^2} = 7.1429 \s $$
 </div>
 
 2. Time for the sound of the rock breaking loose to travel down 250 m to the tourist:
@@ -1632,12 +1632,12 @@ $$ t_{sound} = \frac{distance}{speed} = \frac{250 \m}{335 \text{ m/s}} = 0.7463 
 
 3. Timeline, measured from the moment the boulder breaks loose:
    - $$ t = 0.7463 \s $$: the tourist hears the rock break loose.
-   - $$ t = 0.7463 + 0.300 = 1.0463 \s $$: the tourist begins to move.
+   - $$ t = 0.7463 \s + 0.300 \s = 1.0463 \s $$: the tourist begins to move.
    - $$ t = 7.1429 \s $$: the boulder strikes the ground.
 
 4. The time available to move is the time remaining between reacting and impact:
 <div class="equation">
-$$ t_{available} = t_{fall} - t_{sound} - t_{reaction} = 7.1429 - 0.7463 - 0.300 = 6.0966 \s \approx 6.10 \s $$
+$$ t_{available} = t_{fall} - t_{sound} - t_{reaction} = 7.1429 \s - 0.7463 \s - 0.300 \s = 6.0966 \s \approx 6.10 \s $$
 </div>
 
 **Discussion**
@@ -1695,23 +1695,23 @@ $$ \Delta y = v_{bottom} t + \frac{1}{2}at^{2} $$
 
 3. Substitute and solve for $$ v_{bottom} $$:
 <div class="equation">
-$$ 2.00 = v_{bottom}(0.312) + \frac{1}{2}(-9.80)(0.312)^2 $$
+$$ 2.00 \m = v_{bottom}(0.312 \s) + \frac{1}{2}(-9.80 \mss)(0.312 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ 2.00 = v_{bottom}(0.312) - 4.90(0.0973) $$
+$$ 2.00 \m = v_{bottom}(0.312 \s) - 4.90(0.0973) $$
 </div>
 
 <div class="equation">
-$$ 2.00 = v_{bottom}(0.312) - 0.477 $$
+$$ 2.00 \m = v_{bottom}(0.312 \s) - 0.477 \m $$
 </div>
 
 <div class="equation">
-$$ v_{bottom}(0.312) = 2.00 + 0.477 = 2.477 $$
+$$ v_{bottom}(0.312 \s) = 2.00 \m + 0.477 \m = 2.477 \m $$
 </div>
 
 <div class="equation">
-$$ v_{bottom} = \frac{2.477}{0.312} = 7.94 \ms $$
+$$ v_{bottom} = \frac{2.477 \m}{0.312 \s} = 7.94 \ms $$
 </div>
 
 __Step 2: Find initial velocity from ground to bottom of window__
@@ -1731,19 +1731,19 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity $$ v_0 $$:
 <div class="equation">
-$$ (7.94)^2 = v_0^2 + 2(-9.80)(7.50 - 0) $$
+$$ (7.94 \ms)^2 = v_0^2 + 2(-9.80 \mss)(7.50 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ 63.0 = v_0^2 - 147 $$
+$$ 63.0 \mmss = v_0^2 - 147 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 63.0 + 147 = 210 \mmss $$
+$$ v_0^2 = 63.0 \mmss + 147 \mmss = 210 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{210} = 14.5 \ms $$
+$$ v_0 = \sqrt{210 \text{m}^2/\text{s}^2} = 14.5 \ms $$
 </div>
 
 **Discussion**
@@ -1797,11 +1797,11 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ y = 0 + 0 + \frac{1}{2}(9.80)(2.0000)^2 $$
+$$ y = 0 + 0 + \frac{1}{2}(9.80 \mss)(2.0000 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = \frac{1}{2}(9.80)(4.0000) = 19.6 \m $$
+$$ y = \frac{1}{2}(9.80 \mss)(4.0000 \text{s}^2) = 19.6 \m $$
 </div>
 
 __(b) Accounting for sound travel time:__
@@ -1828,49 +1828,49 @@ $$ t_{\text{sound}} = \frac{d}{v_{\text{sound}}} = \frac{d}{332.00} $$
 
 3. Substitute into the total time equation:
 <div class="equation">
-$$ t_{\text{fall}} + \frac{d}{332.00} = 2.0000 $$
+$$ t_{\text{fall}} + \frac{d}{332.00 \ms} = 2.0000 \s $$
 </div>
 
-4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 t_{\text{fall}}^2 $$, so:
+4. But $$ d = \frac{1}{2}gt_{\text{fall}}^2 = 4.90 \mss t_{\text{fall}}^2 $$, so:
 <div class="equation">
-$$ t_{\text{fall}} + \frac{4.90 t_{\text{fall}}^2}{332.00} = 2.0000 $$
-</div>
-
-<div class="equation">
-$$ t_{\text{fall}} + 0.01476 t_{\text{fall}}^2 = 2.0000 $$
+$$ t_{\text{fall}} + \frac{4.90 \mss t_{\text{fall}}^2}{332.00 \ms} = 2.0000 \s $$
 </div>
 
 <div class="equation">
-$$ 0.01476 t_{\text{fall}}^2 + t_{\text{fall}} - 2.0000 = 0 $$
+$$ t_{\text{fall}} + 0.01476 \text{s}^{-1} t_{\text{fall}}^2 = 2.0000 \s $$
+</div>
+
+<div class="equation">
+$$ 0.01476 \text{s}^{-1} t_{\text{fall}}^2 + t_{\text{fall}} - 2.0000 \s = 0 $$
 </div>
 
 5. Using the quadratic formula:
 <div class="equation">
-$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 4(0.01476)(2.0000)}}{2(0.01476)} $$
+$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 4(0.01476 \text{s}^{-1})(2.0000 \s)}}{2(0.01476 \text{s}^{-1})} $$
 </div>
 
 <div class="equation">
-$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 0.11808}}{0.02952} = \frac{-1 \pm \sqrt{1.11808}}{0.02952} $$
+$$ t_{\text{fall}} = \frac{-1 \pm \sqrt{1 + 0.11808}}{0.02952 \text{s}^{-1}} = \frac{-1 \pm \sqrt{1.11808}}{0.02952 \text{s}^{-1}} $$
 </div>
 
 <div class="equation">
-$$ t_{\text{fall}} = \frac{-1 \pm 1.0574}{0.02952} $$
+$$ t_{\text{fall}} = \frac{-1 \pm 1.0574}{0.02952 \text{s}^{-1}} $$
 </div>
 
 Taking the positive root:
 
 <div class="equation">
-$$ t_{\text{fall}} = \frac{0.0574}{0.02952} = 1.944 \s $$
+$$ t_{\text{fall}} = \frac{0.0574}{0.02952 \text{s}^{-1}} = 1.944 \s $$
 </div>
 
 6. Calculate the distance:
 <div class="equation">
-$$ d = 4.90 \times (1.944)^2 = 4.90 \times 3.779 = 18.5 \m $$
+$$ d = 4.90 \mss \times (1.944 \s)^2 = 4.90 \mss \times 3.779 \text{s}^2 = 18.5 \m $$
 </div>
 
 **Discussion**
 
-When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t_{\text{sound}} = 2.0000 - 1.944 = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
+When we account for the time it takes sound to travel up the well, the calculated depth is less than when we ignore it. This makes sense: if the total time is 2.0000 s and some of that time is used for sound to travel up, less time is available for the rock to fall, so it doesn't fall as far. The sound travel time is $$ t_{\text{sound}} = 2.0000 \s - 1.944 \s = 0.056 \s $$, which is about 2.8% of the total time. The difference in calculated depth is about 1.1 m, or about 6% - relatively small but not negligible for precision measurements. This problem illustrates that for accurate measurements, we must consider all relevant physical processes, not just the primary one.
 
 **Answer**
 
@@ -1924,15 +1924,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(-9.80)(0 - 1.50) $$
+$$ v^2 = 0 + 2(-9.80 \mss)(0 - 1.50 \m) $$
 </div>
 
 <div class="equation">
-$$ v^2 = 2(-9.80)(-1.50) = 29.4 \mmss $$
+$$ v^2 = 2(-9.80 \mss)(-1.50 \m) = 29.4 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
+$$ v = \pm \sqrt{29.4 \mmss} = \pm 5.42 \ms $$
 </div>
 
 Taking the negative root (downward motion):
@@ -1956,15 +1956,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity after rebound $$ v_0 $$:
 <div class="equation">
-$$ 0 = v_0^2 + 2(-9.80)(1.45 - 0) $$
+$$ 0 = v_0^2 + 2(-9.80 \mss)(1.45 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 2(9.80)(1.45) = 28.42 \mmss $$
+$$ v_0^2 = 2(9.80 \mss)(1.45 \m) = 28.42 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{28.42} = +5.33 \ms $$
+$$ v_0 = \sqrt{28.42 \text{m}^2/\text{s}^2} = +5.33 \ms $$
 </div>
 
 __(c) Acceleration during contact with the floor:__
@@ -1983,11 +1983,11 @@ $$ v = v_0 + at $$
 
 3. Solve for acceleration:
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{5.33 - (-5.42)}{8.00 \times 10^{-5}} $$
+$$ a = \frac{v - v_0}{t} = \frac{5.33 \ms - (-5.42 \ms)}{8.00 \times 10^{-5} \s} $$
 </div>
 
 <div class="equation">
-$$ a = \frac{10.75}{8.00 \times 10^{-5}} = 1.34 \times 10^{5} \mss $$
+$$ a = \frac{10.75 \ms}{8.00 \times 10^{-5} \s} = 1.34 \times 10^{5} \mss $$
 </div>
 
 __(d) Maximum compression during collision:__
@@ -2062,19 +2062,19 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for the maximum height $$ y $$:
 <div class="equation">
-$$ 0 = (10.0)^2 + 2(-9.80)(y - 300) $$
+$$ 0 = (10.0 \ms)^2 + 2(-9.80 \mss)(y - 300 \m) $$
 </div>
 
 <div class="equation">
-$$ 0 = 100 - 19.6(y - 300) $$
+$$ 0 = 100 \mmss - 19.6 \mss(y - 300 \m) $$
 </div>
 
 <div class="equation">
-$$ 19.6(y - 300) = 100 $$
+$$ 19.6 \mss(y - 300 \m) = 100 \mmss $$
 </div>
 
 <div class="equation">
-$$ y - 300 = \frac{100}{19.6} = 5.10 \m $$
+$$ y - 300 \m = \frac{100 \mmss}{19.6 \mss} = 5.10 \m $$
 </div>
 
 <div class="equation">
@@ -2089,15 +2089,15 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ y = 300 + (10.0)(4.00) + \frac{1}{2}(-9.80)(4.00)^2 $$
+$$ y = 300 \m + (10.0 \ms)(4.00 \s) + \frac{1}{2}(-9.80 \mss)(4.00 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = 300 + 40.0 + \frac{1}{2}(-9.80)(16.0) $$
+$$ y = 300 \m + 40.0 \m + \frac{1}{2}(-9.80 \mss)(16.0 \text{s}^2) $$
 </div>
 
 <div class="equation">
-$$ y = 300 + 40.0 - 78.4 = 262 \m $$
+$$ y = 300 \m + 40.0 \m - 78.4 \m = 262 \m $$
 </div>
 
 2. Velocity after 4.00 s:
@@ -2106,11 +2106,11 @@ $$ v = v_0 + at $$
 </div>
 
 <div class="equation">
-$$ v = 10.0 + (-9.80)(4.00) $$
+$$ v = 10.0 \ms + (-9.80 \mss)(4.00 \s) $$
 </div>
 
 <div class="equation">
-$$ v = 10.0 - 39.2 = -29.2 \ms $$
+$$ v = 10.0 \ms - 39.2 \ms = -29.2 \ms $$
 </div>
 
 The negative sign indicates the coin is moving downward.
@@ -2123,39 +2123,39 @@ $$ y = y_0 + v_0 t + \frac{1}{2}at^{2} $$
 </div>
 
 <div class="equation">
-$$ 0 = 300 + 10.0t + \frac{1}{2}(-9.80)t^2 $$
+$$ 0 = 300 \m + (10.0 \ms)t + \frac{1}{2}(-9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 0 = 300 + 10.0t - 4.90t^2 $$
+$$ 0 = 300 \m + (10.0 \ms)t - (4.90 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 - 10.0t - 300 = 0 $$
+$$ (4.90 \mss)t^2 - (10.0 \ms)t - 300 \m = 0 $$
 </div>
 
 2. Using the quadratic formula:
 <div class="equation">
-$$ t = \frac{10.0 \pm \sqrt{(10.0)^2 + 4(4.90)(300)}}{2(4.90)} $$
+$$ t = \frac{10.0 \ms \pm \sqrt{(10.0 \ms)^2 + 4(4.90 \mss)(300 \m)}}{2(4.90 \mss)} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{10.0 \pm \sqrt{100 + 5880}}{9.80} = \frac{10.0 \pm \sqrt{5980}}{9.80} $$
+$$ t = \frac{10.0 \ms \pm \sqrt{100 \mmss + 5880 \mmss}}{9.80 \mss} = \frac{10.0 \ms \pm \sqrt{5980 \mmss}}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{10.0 \pm 77.33}{9.80} $$
+$$ t = \frac{10.0 \ms \pm 77.33 \ms}{9.80 \mss} $$
 </div>
 
 Taking the positive root:
 
 <div class="equation">
-$$ t = \frac{10.0 + 77.33}{9.80} = \frac{87.33}{9.80} = 8.91 \s $$
+$$ t = \frac{10.0 \ms + 77.33 \ms}{9.80 \mss} = \frac{87.33 \ms}{9.80 \mss} = 8.91 \s $$
 </div>
 
 **Discussion**
 
-This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0}{9.80} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300)}{9.80}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
+This problem demonstrates motion with an initial upward velocity. The coin doesn't immediately fall - it first continues upward for $$ \frac{v_0}{g} = \frac{10.0 \ms}{9.80 \mss} = 1.02 \s $$, rising an additional 5.10 m to reach 305 m. At $$ t = 4.00 \s $$, the coin has passed through its maximum height and is falling downward at 29.2 m/s. The total time to hit the ground (8.91 s) is longer than it would be if dropped from rest at 300 m (which would take $$ \sqrt{\frac{2(300)}{9.80 \mss}} = 7.82 \s $$) because the initial upward velocity adds extra time. The coin actually falls from a maximum height of 305 m, not 300 m.
 
 **Answer**
 
@@ -2205,15 +2205,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Substitute the known values:
 <div class="equation">
-$$ v^2 = 0 + 2(-9.80)(0 - 1.50) $$
+$$ v^2 = 0 + 2(-9.80 \mss)(0 - 1.50 \m) $$
 </div>
 
 <div class="equation">
-$$ v^2 = 2(-9.80)(-1.50) = 29.4 \mmss $$
+$$ v^2 = 2(-9.80 \mss)(-1.50 \m) = 29.4 \mmss $$
 </div>
 
 <div class="equation">
-$$ v = \pm \sqrt{29.4} = \pm 5.42 \ms $$
+$$ v = \pm \sqrt{29.4 \mmss} = \pm 5.42 \ms $$
 </div>
 
 Taking the negative root (downward motion):
@@ -2237,15 +2237,15 @@ $$ v^2 = v_0^2 + 2a(y - y_0) $$
 
 3. Solve for initial velocity after rebound $$ v_0 $$:
 <div class="equation">
-$$ 0 = v_0^2 + 2(-9.80)(1.10 - 0) $$
+$$ 0 = v_0^2 + 2(-9.80 \mss)(1.10 \m - 0) $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = 2(9.80)(1.10) = 21.56 \mmss $$
+$$ v_0^2 = 2(9.80 \mss)(1.10 \m) = 21.56 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{21.56} = +4.64 \ms $$
+$$ v_0 = \sqrt{21.56 \text{m}^2/\text{s}^2} = +4.64 \ms $$
 </div>
 
 __(c) Acceleration during contact with the floor:__
@@ -2264,11 +2264,11 @@ $$ v = v_0 + at $$
 
 3. Solve for acceleration:
 <div class="equation">
-$$ a = \frac{v - v_0}{t} = \frac{4.64 - (-5.42)}{3.50 \times 10^{-3}} $$
+$$ a = \frac{v - v_0}{t} = \frac{4.64 \ms - (-5.42 \ms)}{3.50 \times 10^{-3} \s} $$
 </div>
 
 <div class="equation">
-$$ a = \frac{10.06}{3.50 \times 10^{-3}} = 2.87 \times 10^{3} \mss $$
+$$ a = \frac{10.06 \ms}{3.50 \times 10^{-3} \s} = 2.87 \times 10^{3} \mss $$
 </div>
 
 __(d) Maximum compression during collision:__

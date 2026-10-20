@@ -355,7 +355,7 @@ Use the work-energy theorem including friction. The initial kinetic energy is co
 
 **Step 1: Find the distance traveled along the incline**
 <div class="equation">
-$$ d = \frac{h}{\sin\theta} = \frac{2.50\text{ m}}{\sin(35°)} = \frac{2.50}{0.574} = 4.36\text{ m} $$
+$$ d = \frac{h}{\sin\theta} = \frac{2.50\text{ m}}{\sin(35°)} = \frac{2.50 \m}{0.574} = 4.36\text{ m} $$
 </div>
 
 **Step 2: Calculate the friction force**
@@ -364,7 +364,7 @@ The normal force on an incline: $$ N = mg\cos\theta $$
 
 Friction force:
 <div class="equation">
-$$ f_k = \mu_{k} N = \mu_{k} mg\cos\theta = (0.0800)(60.0)(9.80)\cos(35°) = (0.0800)(60.0)(9.80)(0.819) = 38.5\text{ N} $$
+$$ f_k = \mu_{k} N = \mu_{k} mg\cos\theta = (0.0800)(60.0 \kg)(9.80 \mss)\cos(35°) = (0.0800)(60.0 \kg)(9.80 \mss)(0.819) = 38.5\text{ N} $$
 </div>
 
 **Step 3: Calculate work done by friction**
@@ -383,16 +383,16 @@ $$ \frac{1}{2}mv_{f}^2 = \frac{1}{2}mv_{i}^2 + W_f - mgh $$
 </div>
 
 Calculate each term:
-- Initial KE: $$ \frac{1}{2}(60.0)(12.0)^2 = 4320\text{ J} $$
+- Initial KE: $$ \frac{1}{2}(60.0 \kg)(12.0 \ms)^2 = 4320\text{ J} $$
 - Work by friction: $$ -168\text{ J} $$
-- Potential energy gained: $$ (60.0)(9.80)(2.50) = 1470\text{ J} $$
+- Potential energy gained: $$ (60.0 \kg)(9.80 \mss)(2.50 \m) = 1470\text{ J} $$
 
 <div class="equation">
 $$ \frac{1}{2}mv_{f}^2 = 4320 - 168 - 1470 = 2682\text{ J} $$
 </div>
 
 <div class="equation">
-$$ v_f = \sqrt{\frac{2(2682)}{60.0}} = \sqrt{89.4} = 9.46\ms $$
+$$ v_f = \sqrt{\frac{2(2682 \J)}{60.0 \kg}} = \sqrt{89.4 \text{m}^2/\text{s}^2} = 9.46\ms $$
 </div>
 
 **Discussion**

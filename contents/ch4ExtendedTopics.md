@@ -264,6 +264,26 @@ weak force.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Compare the range and the sign (attractive or repulsive) of the four basic forces.
+
+**Solution**
+
+Gravity is extremely weak between individual particles, but it has three properties that make it noticeable:
+
+- **It is always attractive.** There is no negative mass, so the gravitational pulls of all $$ 6.0 \times 10^{24} \text{ kg} $$ of the Earth add up instead of canceling.
+- **It has an infinite range**, decreasing only as $$ 1/r^{2} $$, so the whole Earth, not just nearby matter, pulls on you.
+- **The other forces cancel or do not reach us.** The electromagnetic force is far stronger, but matter has nearly equal amounts of positive and negative charge, so attractions and repulsions cancel over large distances. The strong and weak nuclear forces have very short ranges (about $$ 10^{-15} \m $$ and $$ 10^{-18} \m $$) and act only inside nuclei.
+
+The result is a large net force: the weight of a $$ 70 \text{ kg} $$ person is $$ (70 \text{ kg})(9.80 \mss) = 690 \N $$.
+
+People notice gravity because it is always attractive and has an infinite range, so the pull of the Earth's enormous mass adds up, while the stronger electromagnetic forces cancel between neutral objects and the nuclear forces act only over nuclear distances.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -274,6 +294,20 @@ What is the dominant force between astronomical objects? Why are the other three
 
 :::
 
+::: solution
+
+**Strategy**
+
+Use the same properties of the forces as in the previous question.
+
+**Solution**
+
+Gravity dominates between astronomical objects such as planets, stars, and galaxies. The strong and weak nuclear forces have ranges of only about $$ 10^{-15} \m $$ and $$ 10^{-18} \m $$, so they have no effect between objects millions of kilometers apart. The electromagnetic force has an infinite range, but planets and stars are electrically neutral overall, so the attractions and repulsions of their charges cancel. Gravity is always attractive and adds up over enormous masses; for example, the Sun pulls on the Earth with a force of about $$ 3.5 \times 10^{22} \N $$.
+
+Gravity is the dominant force between astronomical objects, because the nuclear forces have extremely short ranges and the electromagnetic forces cancel between electrically neutral bodies, while gravity is always attractive and adds up over their huge masses.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -281,6 +315,22 @@ What is the dominant force between astronomical objects? Why are the other three
 ::: problem
 
 Give a detailed example of how the exchange of a particle can result in an **attractive** force. (For example, consider one child pulling a toy out of the hands of another.)
+
+:::
+
+::: solution
+
+**Strategy**
+
+Build on the suggested analogy of two children and a toy, then connect it to particle physics.
+
+**Solution**
+
+Two children, A and B, stand on a frictionless surface (on ice skates). A holds a toy, and B grabs it and pulls. A pulls back to keep it, so each child pulls the toy toward themselves. By Newton's third law, the toy pulls A toward B and pulls B toward A. As long as the toy is being passed back and forth in this tug of war, each child feels a force toward the other, which is an **attractive** force carried by the exchanged toy. (Throwing a ball back and forth, in contrast, pushes the children apart: a repulsive exchange.)
+
+In particle physics the exchanged object is a carrier particle. Protons and neutrons in a nucleus attract each other through the strong nuclear force by exchanging pions, and a proton and an electron attract each other through the electromagnetic force by exchanging virtual photons.
+
+Exchange of a particle can produce attraction just as two children tugging on a toy each pull it toward themselves and are, by Newton's third law, pulled toward each other; nucleons in a nucleus attract each other in this way by exchanging pions.
 
 :::
 

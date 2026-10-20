@@ -566,7 +566,7 @@ $$ t = 13 \text{ h} + \frac{4 \text{ min}}{60 \text{ min/h}} + \frac{58 \s}{3600
 </div>
 
 <div class="equation">
-$$ t = 13 + 0.06667 + 0.01611 = 13.083 \text{ h} $$
+$$ t = 13 \text{h} + 0.06667 \text{h} + 0.01611 \text{h} = 13.083 \text{ h} $$
 </div>
 
 **Step 2: Calculate average speed in km/h**

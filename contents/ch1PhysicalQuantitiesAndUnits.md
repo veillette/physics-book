@@ -564,7 +564,7 @@ $$ 33 \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} \times \frac{3600 \s}{1 
 Alternatively, using the conversion factor from Problem 3: 1.0 m/s = 3.6 km/h:
 
 <div class="equation">
-$$ 33 \ms \times 3.6 = 119 \text{ km/h} \approx 120 \text{ km/h} $$
+$$ 33 \ms \times \frac{3.6 \text{ km/h}}{1 \ms} = 119 \text{ km/h} \approx 120 \text{ km/h} $$
 </div>
 
 **(b) Comparison with speed limit:**
@@ -794,7 +794,7 @@ $$ 342 \frac{\m}{\s} \times \frac{1 \text{ km}}{1000 \m} \times \frac{3600 \s}{1
 Alternatively, using the conversion 1.0 m/s = 3.6 km/h:
 
 <div class="equation">
-$$ 342 \ms \times 3.6 = 1231 \text{ km/h} \approx 1.23 \times 10^{3} \text{ km/h} $$
+$$ 342 \ms \times \frac{3.6 \text{ km/h}}{1 \ms} = 1231 \text{ km/h} \approx 1.23 \times 10^{3} \text{ km/h} $$
 </div>
 
 **Discussion**

@@ -1058,7 +1058,7 @@ $$ \Delta p_y = m(v_{fy} - v_{iy}) = (0.055 \kg)(8.66 - 8.66) \ms = 0 $$
 
 Find the magnitude of the impulse:
 
-$$ J = |\Delta \vb{p}| = \sqrt{(\Delta p_x)^2 + (\Delta p_y)^2} = \sqrt{(-0.55)^2 + 0^2} = 0.55 \kg \cdot \ms $$
+$$ J = |\Delta \vb{p}| = \sqrt{(\Delta p_x)^2 + (\Delta p_y)^2} = \sqrt{(-0.55 \text{kg}\cdot\text{m/s})^2 + 0^2} = 0.55 \kg \cdot \ms $$
 
 The impulse delivered by the wall is 0.55 kg·m/s in the $$ -x $$ direction (perpendicular to the wall, away from the ball's initial approach).
 
@@ -1151,15 +1151,15 @@ $$ p_{fy} = m v_f \sin 55^\circ = (0.075 \kg)(18 \ms)(0.819) = 1.11 \kg \cdot \m
 
 Calculate the impulse components:
 
-$$ J_x = p_{fx} - p_{ix} = 0.775 - 0 = 0.775 \kg \cdot \ms $$
+$$ J_x = p_{fx} - p_{ix} = 0.775 \text{kg}\cdot\text{m/s} - 0 = 0.775 \kg \cdot \ms $$
 
 $$ J_y = p_{fy} - p_{iy} = 1.11 - (-0.332) = 1.44 \kg \cdot \ms $$
 
 Find the magnitude and direction:
 
-$$ J = \sqrt{J_x^2 + J_y^2} = \sqrt{(0.775)^2 + (1.44)^2} = 1.64 \kg \cdot \ms $$
+$$ J = \sqrt{J_x^2 + J_y^2} = \sqrt{(0.775 \text{kg}\cdot\text{m/s})^2 + (1.44 \text{kg}\cdot\text{m/s})^2} = 1.64 \kg \cdot \ms $$
 
-$$ \theta = \tan^{-1}\left(\frac{J_y}{J_x}\right) = \tan^{-1}\left(\frac{1.44}{0.775}\right) = 61.7^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{J_y}{J_x}\right) = \tan^{-1}\left(\frac{1.44 \text{kg}\cdot\text{m/s}}{0.775 \text{kg}\cdot\text{m/s}}\right) = 61.7^\circ $$
 
 The impulse delivered by the foot is 1.64 kg·m/s at 61.7° above the horizontal.
 

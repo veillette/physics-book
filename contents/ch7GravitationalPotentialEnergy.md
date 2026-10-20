@@ -385,7 +385,7 @@ $$E_{bomb} = 9 \times 4.18 \times 10^{15}\text{ J} = 3.76 \times 10^{16}\text{ J
 
 Ratio:
 <div class="equation">
-$$\frac{\PE_{g}}{E_{bomb}} = \frac{1.96 \times 10^{16}}{3.76 \times 10^{16}} = 0.52$$
+$$\frac{\PE_{g}}{E_{bomb}} = \frac{1.96 \times 10^{16} \J}{3.76 \times 10^{16} \J} = 0.52$$
 </div>
 
 **Discussion**
@@ -599,7 +599,7 @@ $$v_f = \sqrt{v_0^2 - 2gh} = \sqrt{(2.00\ms)^2 - 2(9.80\mss)(0.180\m)}$$
 </div>
 
 <div class="equation">
-$$v_f = \sqrt{4.00 - 3.528} = \sqrt{0.472} = 0.687\ms$$
+$$v_f = \sqrt{4.00 \text{m}^2/\text{s}^2 - 3.528 \text{m}^2/\text{s}^2} = \sqrt{0.472 \text{m}^2/\text{s}^2} = 0.687\ms$$
 </div>
 
 **Discussion**

@@ -463,7 +463,7 @@ $$\omega = 40.0\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
-$$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0)(1.25)(17.6) = 483\text{ N}$$
+$$F_c = mr\omega^{2} = (22.0\text{ kg})(1.25\text{ m})(4.19\text{ rad/s})^2 = (22.0 \kg)(1.25 \m)(17.6 \text{s}^{-2}) = 483\text{ N}$$
 </div>
 
 (b) For the amusement park ride:
@@ -473,7 +473,7 @@ $$\omega = 3.00\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\tex
 </div>
 
 <div class="equation">
-$$F_c = mr\omega^{2} = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0)(8.00)(0.0987) = 17.4\text{ N}$$
+$$F_c = mr\omega^{2} = (22.0\text{ kg})(8.00\text{ m})(0.314\text{ rad/s})^2 = (22.0 \kg)(8.00 \m)(0.0987 \text{s}^{-2}) = 17.4\text{ N}$$
 </div>
 
 (c) Calculate the child's weight and compare:
@@ -523,7 +523,7 @@ $$\omega = 0.5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ 
 Calculate the centripetal force:
 
 <div class="equation">
-$$F_c = mr\omega^{2} = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4)(100)(9.87) = 3.95 \times 10^3\text{ N}$$
+$$F_c = mr\omega^{2} = (4\text{ kg})(100\text{ m})(3.14\text{ rad/s})^2 = (4 \kg)(100 \m)(9.87 \text{s}^{-2}) = 3.95 \times 10^3\text{ N}$$
 </div>
 
 **Discussion**
@@ -581,7 +581,7 @@ $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(29.2\tex
 </div>
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{853}{11{,}760}\right) = \tan^{-1}(0.0725) = 4.14°$$
+$$\theta = \tan^{-1}\left(\frac{853 \N}{11{,}760 \N}\right) = \tan^{-1}(0.0725) = 4.14°$$
 </div>
 
 **Discussion**
@@ -639,7 +639,7 @@ $$v = \sqrt{rg\tan\theta}$$
 Substitute known values ($$r = 100$$ m, $$g = 9.80$$ m/s², $$\theta = 20.0°$$):
 
 <div class="equation">
-$$v = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(20.0°)} = \sqrt{(980)(0.364)} = \sqrt{357} = 18.9\text{ m/s}$$
+$$v = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(20.0°)} = \sqrt{(980 \mmss)(0.364)} = \sqrt{357 \mmss} = 18.9\text{ m/s}$$
 </div>
 
 **Discussion**
@@ -703,13 +703,13 @@ $$r = \frac{v^2}{g\tan\theta}$$
 Substitute values:
 
 <div class="equation">
-$$r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900}{(9.80)(3.732)} = \frac{900}{36.6} = 24.6\text{ m}$$
+$$r = \frac{(30.0\text{ m/s})^2}{(9.80\text{ m/s}^2)\tan(75.0°)} = \frac{900 \mmss}{(9.80 \mss)(3.732)} = \frac{900 \mmss}{36.6 \mss} = 24.6\text{ m}$$
 </div>
 
 **(b) Centripetal acceleration:**
 
 <div class="equation">
-$$a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900}{24.6} = 36.6\text{ m/s}^2$$
+$$a_c = \frac{v^2}{r} = \frac{(30.0\text{ m/s})^2}{24.6\text{ m}} = \frac{900 \mmss}{24.6 \m} = 36.6\text{ m/s}^2$$
 </div>
 
 **(c) Comparison to g:**
@@ -799,7 +799,7 @@ $$\theta = \tan^{-1}\left(\frac{v^2}{rg}\right) = \tan^{-1}\left(\frac{(12.0\tex
 </div>
 
 <div class="equation">
-$$\theta = \tan^{-1}\left(\frac{144}{294}\right) = \tan^{-1}(0.490) = 26.1°$$
+$$\theta = \tan^{-1}\left(\frac{144 \N}{294 \N}\right) = \tan^{-1}(0.490) = 26.1°$$
 </div>
 
 **Discussion**
@@ -850,7 +850,7 @@ $$\omega^{2} = \frac{a_c}{r} = \frac{98.0\text{ m/s}^2}{15.0\text{ m}} = 6.53\te
 </div>
 
 <div class="equation">
-$$\omega = \sqrt{6.53} = 2.56\text{ rad/s}$$
+$$\omega = \sqrt{6.53 \text{s}^{-2}} = 2.56\text{ rad/s}$$
 </div>
 
 (b) Draw a free body diagram: The cage hangs below the arm's pivot, so its axis tilts $$\theta$$ below horizontal on its way out from the pivot. The forces on the cage are its weight $$mg$$ downward and the arm's force $$F$$, which points from the cage back along that axis: inward toward the center and **upward**, at angle $$\theta$$ **above** horizontal. The horizontal component of $$F$$ provides centripetal force, while the vertical component balances weight.
@@ -870,7 +870,7 @@ $$\frac{F\sin\theta}{F\cos\theta} = \frac{mg}{ma_{c}}$$
 </div>
 
 <div class="equation">
-$$\tan\theta = \frac{g}{a_c} = \frac{9.80}{98.0} = 0.100$$
+$$\tan\theta = \frac{g}{a_c} = \frac{9.80 \mss}{98.0 \mss} = 0.100$$
 </div>
 
 <div class="equation">
@@ -917,7 +917,7 @@ $$v = \sqrt{rg\tan\theta} = \sqrt{(100\text{ m})(9.80\text{ m/s}^2)\tan(15.0^\ci
 </div>
 
 <div class="equation">
-$$v = \sqrt{(980)(0.268)} = \sqrt{262.6} = 16.2\text{ m/s}$$
+$$v = \sqrt{(980 \mmss)(0.268)} = \sqrt{262.6 \mmss} = 16.2\text{ m/s}$$
 </div>
 
 (b) Convert the actual speed to m/s:
@@ -945,7 +945,7 @@ $$\frac{\sin\theta - \mu_{s}\cos\theta}{\cos\theta + \mu_{s}\sin\theta} = \frac{
 Calculate $$\frac{v^2}{rg}$$:
 
 <div class="equation">
-$$\frac{v^2}{rg} = \frac{(5.56)^2}{(100)(9.80)} = \frac{30.9}{980} = 0.0316$$
+$$\frac{v^2}{rg} = \frac{(5.56 \ms)^2}{(100 \m)(9.80 \mss)} = \frac{30.9 \mmss}{980 \mmss} = 0.0316$$
 </div>
 
 Now calculate $$\mu_{s}$$:
@@ -1064,7 +1064,7 @@ $$\mu_{s} mg = \frac{mv^{2}}{r}$$
 
 Solving for the coefficient of friction (mass cancels):
 <div class="equation">
-$$\mu_{s} = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900}{490} = 1.84$$
+$$\mu_{s} = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \text{ m/s}^2)} = \frac{900 \mmss}{490 \mmss} = 1.84$$
 </div>
 
 **(b)** A coefficient of friction of 1.84 is unreasonable. Typical coefficients of static friction between rubber tires and dry pavement range from 0.7 to 1.0. Values significantly greater than 1.0 are not physically achievable with normal road surfaces and tires.
@@ -1074,7 +1074,7 @@ $$\mu_{s} = \frac{v^2}{rg} = \frac{(30.0 \text{ m/s})^2}{(50.0 \text{ m})(9.80 \
 **Discussion**
 
 This problem illustrates why highway curves are designed with specific speed limits based on their radius. For a 50.0 m radius curve with μ = 0.7 (wet conditions), the maximum safe speed would be:
-$$v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0)(9.80)} = 18.5 \text{ m/s} \approx 67 \text{ km/h}$$
+$$v = \sqrt{\mu rg} = \sqrt{(0.7)(50.0 \m)(9.80 \mss)} = 18.5 \text{ m/s} \approx 67 \text{ km/h}$$
 
 This is why tight curves on roads have reduced speed limits and are often banked.
 

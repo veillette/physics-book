@@ -85,6 +85,20 @@ Propose a force standard different from the example of a stretched spring discus
 
 :::
 
+::: solution
+
+**Strategy**
+
+A force standard must produce the same, known force every time it is used.
+
+**Solution**
+
+A good standard is the weight of a standard mass at a fixed location. Hang a $$ 1.000 \text{ kg} $$ reference mass from a string at a place where $$ g = 9.80 \mss $$. The string then pulls with a force of $$ w = mg = (1.000 \text{ kg})(9.80 \mss) = 9.80 \N $$, and it does so every time, because neither the mass nor the local value of $$ g $$ changes. Passing the string over a frictionless pulley lets this force be applied in any direction. Larger standard forces are made by hanging several identical masses.
+
+A suitable force standard is the weight of a reference mass at a fixed location, such as a $$ 1.000 \text{ kg} $$ mass that always exerts $$ 9.80 \N $$ on its supporting string where $$ g = 9.80 \mss $$.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -92,6 +106,20 @@ Propose a force standard different from the example of a stretched spring discus
 ::: problem
 
 What properties do forces have that allow us to classify them as vectors?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Recall what makes a quantity a vector.
+
+**Solution**
+
+A force has both a **magnitude** and a **direction**: a $$ 10 \N $$ push to the right has a different effect from a $$ 10 \N $$ push upward. Experiments also show that forces **add like vectors**. Two forces of $$ 3.0 \N $$ east and $$ 4.0 \N $$ north acting on the same object have the same effect as a single force of $$ 5.0 \N $$ at $$ 53^\circ $$ north of east, which is the result of head-to-tail vector addition.
+
+Forces can be classified as vectors because they have both magnitude and direction and they combine according to the rules of vector addition.
 
 :::
 

@@ -707,7 +707,7 @@ $$ L_{\text{spin}} = 7.07 \times 10^{33} \kg \cdot \mms $$
 The ratio is:
 
 <div class="equation">
-$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.674 \times 10^{40}}{7.07 \times 10^{33}} = 3.78 \times 10^6 $$
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.674 \times 10^{40} \text{kg}\cdot\text{m}^2/\text{s}}{7.07 \times 10^{33} \text{kg}\cdot\text{m}^2/\text{s}} = 3.78 \times 10^6 $$
 </div>
 
 The magnitude of Earth's orbital angular momentum is about 3.78 million times that of its rotational angular momentum. (We compare magnitudes, since the two angular momenta point along different axes: Earth's spin axis is tilted about 23° from its orbital axis.)
@@ -786,7 +786,7 @@ $$ L_{\text{spin}} = I\omega = (8.87 \times 10^{34} \kg \cdot \mm)(2.66 \times 1
 The ratio:
 
 <div class="equation">
-$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34}}{2.36 \times 10^{29}} = 1.22 \times 10^5 $$
+$$ \frac{L_{\text{orbit}}}{L_{\text{spin}}} = \frac{2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s}}{2.36 \times 10^{29} \text{kg}\cdot\text{m}^2/\text{s}} = 1.22 \times 10^5 $$
 </div>
 
 **(c)** The orbital angular momentum is about 122,000 times larger than the rotational angular momentum. This is consistent with tidal locking. Tidal forces from Earth exerted torques on the Moon's rotation, gradually slowing it until the rotational period matched the orbital period. The much smaller rotational angular momentum compared to orbital angular momentum meant the Moon's rotation was relatively easy for Earth's tidal forces to alter, while the orbital angular momentum remained largely unchanged.
@@ -884,7 +884,7 @@ $$ L = I\omega_{0} = (194.4 \kg \cdot \mm)(3.14 \text{ rad/s}) = 611 \kg \cdot \
 Final moment of inertia (merry-go-round + child at edge):
 
 <div class="equation">
-$$ I' = I + m_{\text{child}}R^2 = 194.4 + (22.0 \kg)(1.80 \m)^2 = 194.4 + 71.3 = 265.7 \kg \cdot \mm $$
+$$ I' = I + m_{\text{child}}R^2 = 194.4 \text{kg}\cdot\text{m}^2 + (22.0 \kg)(1.80 \m)^2 = 194.4 \text{kg}\cdot\text{m}^2 + 71.3 \text{kg}\cdot\text{m}^2 = 265.7 \kg \cdot \mm $$
 </div>
 
 Using conservation of angular momentum:
@@ -934,7 +934,7 @@ $$ I = \frac{1}{2}MR^{2} + (m_1 + m_2 + m_3)R^2 $$
 </div>
 
 <div class="equation">
-$$ I = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 + 28.0 + 33.0 \kg)(1.60 \m)^2 $$
+$$ I = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 \kg + 28.0 \kg + 33.0 \kg)(1.60 \m)^2 $$
 </div>
 
 <div class="equation">
@@ -950,7 +950,7 @@ $$ \omega_{0} = 20.0 \text{ rpm} $$
 Final moment of inertia (one child at center contributes negligibly):
 
 <div class="equation">
-$$ I' = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 + 33.0 \kg)(1.60 \m)^2 $$
+$$ I' = \frac{1}{2}(100 \kg)(1.60 \m)^2 + (22.0 \kg + 33.0 \kg)(1.60 \m)^2 $$
 </div>
 
 <div class="equation">
@@ -1100,11 +1100,11 @@ $$ I_E = \frac{2}{5}M_E R_E^2 = 9.69 \times 10^{37} \kg \cdot \mm, \quad \omega_
 
 Moon's orbit and spin, with $$ \omega_{\text{orb}} = 2\pi/(27.3 \times 86\,400 \s) = 2.66 \times 10^{-6} $$ rad/s:
 <div class="equation">
-$$ L_{\text{orb}} = M_M r^2\omega_{\text{orb}} = (7.35 \times 10^{22})(3.84 \times 10^{8})^2(2.66 \times 10^{-6}) = 2.89 \times 10^{34} \kg \cdot \mms $$
+$$ L_{\text{orb}} = M_M r^2\omega_{\text{orb}} = (7.35 \times 10^{22} \kg)(3.84 \times 10^{8} \m)^2(2.66 \times 10^{-6} \rads) = 2.89 \times 10^{34} \kg \cdot \mms $$
 </div>
 
 <div class="equation">
-$$ L_{M,\text{spin}} = \frac{2}{5}M_M R_M^2\,\omega_{\text{orb}} = (8.90 \times 10^{34})(2.66 \times 10^{-6}) = 2.37 \times 10^{29} \kg \cdot \mms $$
+$$ L_{M,\text{spin}} = \frac{2}{5}M_M R_M^2\,\omega_{\text{orb}} = (8.90 \times 10^{34} \text{kg}\cdot\text{m}^2)(2.66 \times 10^{-6} \rads) = 2.37 \times 10^{29} \kg \cdot \mms $$
 </div>
 
 Total (all three point in nearly the same direction):
@@ -1112,16 +1112,16 @@ Total (all three point in nearly the same direction):
 $$ L_{\text{total}} \approx 7.07 \times 10^{33} + 2.89 \times 10^{34} + 2.4 \times 10^{29} = 3.59 \times 10^{34} \kg \cdot \mms $$
 </div>
 
-**(b)** A 1.7-ms increase in Earth's 86 164-s rotation period decreases its angular velocity by $$ \Delta\omega_E = \omega_E\,\Delta T/T = (7.29 \times 10^{-5})(1.7 \times 10^{-3})/86\,164 = 1.44 \times 10^{-12} $$ rad/s, so Earth loses
+**(b)** A 1.7-ms increase in Earth's 86 164-s rotation period decreases its angular velocity by $$ \Delta\omega_E = \omega_E\,\Delta T/T = \frac{(7.29 \times 10^{-5} \rads)(1.7 \times 10^{-3} \s)}{86\,164 \s} = 1.44 \times 10^{-12} \rads $$ rad/s, so Earth loses
 
 <div class="equation">
-$$ \Delta L_E = I_E\,\Delta\omega_E = (9.69 \times 10^{37})(1.44 \times 10^{-12}) = 1.39 \times 10^{26} \kg \cdot \mms $$
+$$ \Delta L_E = I_E\,\Delta\omega_E = (9.69 \times 10^{37} \text{kg}\cdot\text{m}^2)(1.44 \times 10^{-12} \rads) = 1.39 \times 10^{26} \kg \cdot \mms $$
 </div>
 
 per century. The Moon's spin angular momentum is so small that its change can be neglected, so the orbit gains this amount:
 
 <div class="equation">
-$$ \Delta r = 2r\frac{\Delta L_{\text{orb}}}{L_{\text{orb}}} = 2(3.84 \times 10^{8} \m)\frac{1.39 \times 10^{26}}{2.89 \times 10^{34}} = 3.7 \m \text{ per century} $$
+$$ \Delta r = 2r\frac{\Delta L_{\text{orb}}}{L_{\text{orb}}} = 2(3.84 \times 10^{8} \m)\frac{1.39 \times 10^{26} \text{kg}\cdot\text{m}^2/\text{s}}{2.89 \times 10^{34} \text{kg}\cdot\text{m}^2/\text{s}} = 3.7 \m \text{ per century} $$
 </div>
 
 **Discussion**

@@ -579,7 +579,7 @@ $$ \omega_{0} = 90.0 \text{ rpm} \times \frac{2\pi \text{ rad}}{60 \s} = 9.42 \t
 Using ω² = ω₀² + 2αθ with ω = 0:
 
 <div class="equation">
-$$ \theta = \frac{-\omega_{0}^2}{2\alpha} = \frac{-(9.42)^2}{2(-0.26)} = 171 \text{ rad} $$
+$$ \theta = \frac{-\omega_{0}^2}{2\alpha} = \frac{-(9.42 \rads)^2}{2(-0.26 \radss)} = 171 \text{ rad} $$
 </div>
 
 Converting to revolutions:

@@ -95,6 +95,20 @@ What has the student actually described? Explain.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Speed is a scalar, the magnitude of velocity. A minus sign indicates a direction in one-dimensional motion.
+
+**Solution**
+
+Speed cannot be negative, because it has no direction. A negative sign indicates a direction relative to a chosen coordinate system, which is a property of a vector. With the usual convention of $$ +y $$ upward, the student has actually described the bird's **velocity**: $$ v = -10 \ms $$ means $$ 10 \ms $$ downward.
+
+The statement is wrong because speed is a scalar and cannot be negative; the student has actually described the bird's velocity, $$ 10 \ms $$ downward, which is $$ -10 \ms $$ when up is taken as positive.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -102,6 +116,20 @@ What has the student actually described? Explain.
 ::: problem
 
 What is the speed of the bird in the previous exercise?
+
+:::
+
+::: solution
+
+**Strategy**
+
+Speed is the magnitude of velocity.
+
+**Solution**
+
+The speed is the magnitude of the velocity $$ -10 \ms $$, that is, $$ \lvert -10 \ms \rvert = 10 \ms $$.
+
+The bird's speed is $$ 10 \ms $$.
 
 :::
 
@@ -116,6 +144,20 @@ Given this information, is acceleration a vector or a scalar quantity? Explain.
 
 :::
 
+::: solution
+
+**Strategy**
+
+Consider the nature of the quantities in $$ a = \Delta v/\Delta t $$.
+
+**Solution**
+
+Velocity is a vector, so a change in velocity, $$ \Delta v $$, is also a vector, with a direction. Dividing a vector by the time interval $$ \Delta t $$, a positive scalar, gives a vector in the same direction. For example, a car that changes velocity from $$ 0 $$ to $$ 20 \ms $$ east in $$ 10 \s $$ has an acceleration of $$ 2.0 \mss $$ east.
+
+Acceleration is a vector quantity, because it is a change in velocity (a vector) divided by time (a scalar) and so has both magnitude and direction.
+
+:::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -125,6 +167,20 @@ Given this information, is acceleration a vector or a scalar quantity? Explain.
 A weather forecast states that the temperature is predicted to be
 $$ -5^\circ \text{C} $$ the following day. Is this temperature a
 vector or a scalar quantity? Explain.
+
+:::
+
+::: solution
+
+**Strategy**
+
+Ask whether the quantity has a direction in space.
+
+**Solution**
+
+Temperature has a magnitude and units but no direction. The minus sign in $$ -5^\circ \text{C} $$ does not indicate a direction; it means the temperature is $$ 5^\circ \text{C} $$ below the zero of the Celsius scale (the freezing point of water). On the Kelvin scale the same temperature is $$ 268 \text{ K} $$, a positive number.
+
+A temperature of $$ -5^\circ \text{C} $$ is a scalar, because temperature has no direction; the negative sign only means the value is below the zero point of the Celsius scale.
 
 :::
 

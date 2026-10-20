@@ -175,7 +175,7 @@ Note that the unitless radians are discarded in order to get the correct units f
 yields
 
 <div class="equation">
- $$ \frac{ \ac}{g}=\frac{4.63\times 10^{6}}{9.80}=4.72\times 10^{5}. $$
+ $$ \frac{ \ac}{g}=\frac{4.63\times 10^{6} \mss}{9.80 \mss}=4.72\times 10^{5}. $$
 </div>
 
 **Discussion**
@@ -269,7 +269,7 @@ $$ \omega^{2} = \frac{a_c}{r} = \frac{14.7\text{ m/s}^2}{8.00\text{ m}} = 1.84\t
 </div>
 
 <div class="equation">
-$$ \omega = \sqrt{1.84} = 1.36\text{ rad/s} $$
+$$ \omega = \sqrt{1.84 \text{s}^{-2}} = 1.36\text{ rad/s} $$
 </div>
 
 Convert to rev/min:
@@ -459,7 +459,7 @@ $$ \omega = 6500\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\te
 (a) Calculate the centripetal acceleration (with radius in meters: $$ r = 0.0750 $$ m):
 
 <div class="equation">
-$$ a_c = r\omega^{2} = (0.0750\text{ m})(681\text{ rad/s})^2 = (0.0750)(464{,}000) = 3.47 \times 10^4\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (0.0750\text{ m})(681\text{ rad/s})^2 = (0.0750 \m)(464{,}000 \text{s}^{-2}) = 3.47 \times 10^4\text{ m/s}^2 $$
 </div>
 
 Express as a multiple of $$ g $$:
@@ -576,7 +576,7 @@ $$ \omega = 5\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ r
 (b) Calculate the centripetal acceleration for the Olympic skater:
 
 <div class="equation">
-$$ a_c = r\omega^{2} = (0.120\text{ m})(31.4\text{ rad/s})^2 = (0.120)(986) = 118\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (0.120\text{ m})(31.4\text{ rad/s})^2 = (0.120 \m)(986 \text{s}^{-2}) = 118\text{ m/s}^2 $$
 </div>
 
 (c) For Dick Button spinning at 9 rev/s:
@@ -586,7 +586,7 @@ $$ \omega = 9\frac{\text{rev}}{\text{s}} \times \frac{2\pi\text{ rad}}{1\text{ r
 </div>
 
 <div class="equation">
-$$ a_c = r\omega^{2} = (0.120\text{ m})(56.5\text{ rad/s})^2 = (0.120)(3192) = 383\text{ m/s}^2 $$
+$$ a_c = r\omega^{2} = (0.120\text{ m})(56.5\text{ rad/s})^2 = (0.120 \m)(3192 \text{s}^{-2}) = 383\text{ m/s}^2 $$
 </div>
 
 (d) Compare to gravity:
@@ -640,10 +640,10 @@ $$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{GM/r_{\text{satellite
 where:
 
 - $$ r_{\text{Earth}} = 6.38 \times 10^6 $$ m
-- $$ r_{\text{satellite}} = 6.38 \times 10^6 + 3.00 \times 10^5 = 6.68 \times 10^6 $$ m
+- $$ r_{\text{satellite}} = 6.38 \times 10^6 \m + 3.00 \times 10^5 \m = 6.68 \times 10^6 \m $$ m
 
 <div class="equation">
-$$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{(6.38 \times 10^6\text{ m})^2}{(6.68 \times 10^6\text{ m})^2} = \frac{4.07 \times 10^{13}}{4.46 \times 10^{13}} = 0.912 $$
+$$ \frac{g_{\text{satellite}}}{g_{\text{surface}}} = \frac{(6.38 \times 10^6\text{ m})^2}{(6.68 \times 10^6\text{ m})^2} = \frac{4.07 \times 10^{13} \mm}{4.46 \times 10^{13} \mm} = 0.912 $$
 </div>
 
 Convert to percentage:
@@ -686,7 +686,7 @@ on the radius of Earth's orbit and approximate it as being circular).
 (a) Convert angular velocity to rad/s:
 
 <div class="equation">
-$$ \omega = 50{,}000\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = \frac{50{,}000 \times 2\pi}{60} = 5236\text{ rad/s} $$
+$$ \omega = 50{,}000\frac{\text{rev}}{\text{min}} \times \frac{2\pi\text{ rad}}{1\text{ rev}} \times \frac{1\text{ min}}{60\text{ s}} = \frac{50{,}000 \times 2\pi}{60} \text{ rad/s} = 5236\text{ rad/s} $$
 </div>
 
 Calculate the linear speed:
@@ -704,7 +704,7 @@ $$ T = 1\text{ year} \times \frac{365.25\text{ days}}{1\text{ year}} \times \fra
 Calculate the linear speed:
 
 <div class="equation">
-$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.5 \times 10^{11}\text{ m})}{3.156 \times 10^7\text{ s}} = \frac{9.42 \times 10^{11}}{3.156 \times 10^7} = 2.99 \times 10^4\text{ m/s} = 29.9\text{ km/s} $$
+$$ v = \frac{2\pi r}{T} = \frac{2\pi(1.5 \times 10^{11}\text{ m})}{3.156 \times 10^7\text{ s}} = \frac{9.42 \times 10^{11} \m}{3.156 \times 10^7 \s} = 2.99 \times 10^4\text{ m/s} = 29.9\text{ km/s} $$
 </div>
 
 **Discussion**
@@ -787,7 +787,7 @@ cling to the rim?
 
 **Solution**
 
-The radius is half the diameter: $$ r = \frac{0.850}{2} = 0.425 $$ m.
+The radius is half the diameter: $$ r = \frac{0.850 \m}{2} = 0.425 \m $$ m.
 
 (a) Calculate the angular velocity:
 
@@ -798,13 +798,13 @@ $$ \omega = \frac{v}{r} = \frac{60.0\text{ m/s}}{0.425\text{ m}} = 141\text{ rad
 Convert to rev/min:
 
 <div class="equation">
-$$ \omega = 141\frac{\text{rad}}{\text{s}} \times \frac{1\text{ rev}}{2\pi\text{ rad}} \times \frac{60\text{ s}}{1\text{ min}} = \frac{141 \times 60}{2\pi} = 1.35 \times 10^3\text{ rpm} $$
+$$ \omega = 141\frac{\text{rad}}{\text{s}} \times \frac{1\text{ rev}}{2\pi\text{ rad}} \times \frac{60\text{ s}}{1\text{ min}} = \frac{141 \times 60}{2\pi} \text{ rev/min} = 1.35 \times 10^3\text{ rpm} $$
 </div>
 
 (b) Calculate the centripetal acceleration:
 
 <div class="equation">
-$$ a_c = \frac{v^2}{r} = \frac{(60.0\text{ m/s})^2}{0.425\text{ m}} = \frac{3600}{0.425} = 8.47 \times 10^3\text{ m/s}^2 $$
+$$ a_c = \frac{v^2}{r} = \frac{(60.0\text{ m/s})^2}{0.425\text{ m}} = \frac{3600 \mmss}{0.425 \m} = 8.47 \times 10^3\text{ m/s}^2 $$
 </div>
 
 (c) Calculate the centripetal force on the bacterium:
@@ -868,7 +868,7 @@ weight.
 (a) Using the relationship $$ a_c = \frac{v^2}{r} $$ with $$ v = 39.2 $$ m/s and $$ r = 39.2 $$ m:
 
 <div class="equation">
-$$ a_c = \frac{v^2}{r} = \frac{(39.2\text{ m/s})^2}{39.2\text{ m}} = \frac{1536.64}{39.2} = 39.2\text{ m/s}^2 $$
+$$ a_c = \frac{v^2}{r} = \frac{(39.2\text{ m/s})^2}{39.2\text{ m}} = \frac{1536.64 \mmss}{39.2 \m} = 39.2\text{ m/s}^2 $$
 </div>
 
 (b) Free body diagram:
@@ -888,7 +888,7 @@ $$ N = mg + ma_{c} = m(g + a_c) $$
 </div>
 
 <div class="equation">
-$$ N = (60.0\text{ kg})(9.80\text{ m/s}^2 + 39.2\text{ m/s}^2) = (60.0)(49.0) = 2.94 \times 10^3\text{ N} $$
+$$ N = (60.0\text{ kg})(9.80\text{ m/s}^2 + 39.2\text{ m/s}^2) = (60.0 \kg)(49.0 \mss) = 2.94 \times 10^3\text{ N} $$
 </div>
 
 Compare to weight:
@@ -898,7 +898,7 @@ $$ w = mg = (60.0\text{ kg})(9.80\text{ m/s}^2) = 588\text{ N} $$
 </div>
 
 <div class="equation">
-$$ \frac{N}{w} = \frac{2940}{588} = 5.00 $$
+$$ \frac{N}{w} = \frac{2940 \N}{588 \N} = 5.00 $$
 </div>
 
 The normal force is **5.00 times the rider's weight**.
@@ -947,7 +947,7 @@ is 18.0 kg?
 (a) Calculate the centripetal acceleration with $$ v = 9.00 $$ m/s and $$ r = 2.00 $$ m:
 
 <div class="equation">
-$$ a_c = \frac{v^2}{r} = \frac{(9.00\text{ m/s})^2}{2.00\text{ m}} = \frac{81.0}{2.00} = 40.5\text{ m/s}^2 $$
+$$ a_c = \frac{v^2}{r} = \frac{(9.00\text{ m/s})^2}{2.00\text{ m}} = \frac{81.0 \mmss}{2.00 \m} = 40.5\text{ m/s}^2 $$
 </div>
 
 (b) Draw the free-body diagram of the child at the bottom of the swing, with $$ +y $$ upward, toward the pivot (the center of the circle):
@@ -961,7 +961,7 @@ $$ \sum F_y = N - mg = ma_{c} $$
 </div>
 
 <div class="equation">
-$$ N = m(g + a_c) = (18.0\text{ kg})(9.80\text{ m/s}^2 + 40.5\text{ m/s}^2) = (18.0)(50.3) = 905\text{ N} $$
+$$ N = m(g + a_c) = (18.0\text{ kg})(9.80\text{ m/s}^2 + 40.5\text{ m/s}^2) = (18.0 \kg)(50.3 \mss) = 905\text{ N} $$
 </div>
 
 (c) **Analysis of unreasonable results:**
@@ -973,19 +973,19 @@ The centripetal acceleration of 40.5 m/s² is about **4.1 times gravity**—this
 The speed of 9.00 m/s at the bottom is far too large for a typical swing. To check this, we can use energy conservation. At the bottom, the child has kinetic energy:
 
 <div class="equation">
-$$ KE = \frac{1}{2}mv^{2} = \frac{1}{2}(18.0)(9.00)^2 = 729\text{ J} $$
+$$ KE = \frac{1}{2}mv^{2} = \frac{1}{2}(18.0 \kg)(9.00 \ms)^2 = 729\text{ J} $$
 </div>
 
-For the child to swing up to the top of a circular arc (height $$ h = 2r = 4.00 $$ m above the bottom), the potential energy needed would be:
+For the child to swing up to the top of a circular arc (height $$ h = 2r = 4.00 \m $$ m above the bottom), the potential energy needed would be:
 
 <div class="equation">
-$$ PE = mgh = (18.0)(9.80)(4.00) = 706\text{ J} $$
+$$ PE = mgh = (18.0 \kg)(9.80 \mss)(4.00 \m) = 706\text{ J} $$
 </div>
 
 The kinetic energy (729 J) exceeds the potential energy needed to reach the top (706 J), but having enough energy to reach the height of the top is **not** enough to complete a circular loop. A swing's chains or ropes can only pull, so they stay taut only if the tension is non-negative. At the top that requires $$ mg \le mv_{\text{top}}^2/r $$, or $$ v_{\text{top}}^2 \ge gr $$. Combining this with energy conservation, $$ v_{\text{bottom}}^2 = v_{\text{top}}^2 + 4gr \ge 5gr $$:
 
 <div class="equation">
-$$ v_{\text{bottom, min}} = \sqrt{5gr} = \sqrt{5(9.80)(2.00)} = 9.90 \ms $$
+$$ v_{\text{bottom, min}} = \sqrt{5gr} = \sqrt{5(9.80 \mss)(2.00 \m)} = 9.90 \ms $$
 </div>
 
 Since 9.00 m/s is less than 9.90 m/s, the child cannot complete the loop. The suspension would go slack somewhere in the upper half of the circle, **before** the top, and the child would then move as a projectile until the ropes snapped taut again—a very dangerous situation.

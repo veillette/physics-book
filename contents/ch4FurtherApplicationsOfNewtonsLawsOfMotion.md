@@ -550,7 +550,7 @@ Given:
 - Mass: $$ m = 6.00 \times 10^{-7} \kg $$
 - Force from ground (upward): $$ F_{\text{ground}} = 1.20 \times 10^{-5} \N $$
 - Breeze force (horizontal): $$ F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
-- Weight: $$ w = mg = (6.00 \times 10^{-7})(9.80) = 5.88 \times 10^{-6} \N $$
+- Weight: $$ w = mg = (6.00 \times 10^{-7} \kg)(9.80 \mss) = 5.88 \times 10^{-6} \N $$
 
 **Free-body diagram**
 
@@ -573,21 +573,21 @@ $$ F_{x} = \sum F_x = F_{\text{breeze}} = 0.500 \times 10^{-6} \N $$
 **Acceleration components:**
 
 <div class="equation">
-$$ a_y = \frac{F_y}{m} = \frac{6.12 \times 10^{-6}}{6.00 \times 10^{-7}} = 10.2 \mss $$
+$$ a_y = \frac{F_y}{m} = \frac{6.12 \times 10^{-6} \N}{6.00 \times 10^{-7} \kg} = 10.2 \mss $$
 </div>
 
 <div class="equation">
-$$ a_x = \frac{F_x}{m} = \frac{0.500 \times 10^{-6}}{6.00 \times 10^{-7}} = 0.833 \mss $$
+$$ a_x = \frac{F_x}{m} = \frac{0.500 \times 10^{-6} \N}{6.00 \times 10^{-7} \kg} = 0.833 \mss $$
 </div>
 
 **Magnitude and direction:**
 
 <div class="equation">
-$$ a = \sqrt{a_x^2 + a_y^2} = \sqrt{(0.833)^2 + (10.2)^2} = \sqrt{0.694 + 104} = \sqrt{104.7} = 10.2 \mss $$
+$$ a = \sqrt{a_x^2 + a_y^2} = \sqrt{(0.833 \mss)^2 + (10.2 \mss)^2} = \sqrt{0.694 (\mss)^2 + 104 (\mss)^2} = \sqrt{104.7 (\mss)^2} = 10.2 \mss $$
 </div>
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{a_x}{a_y}\right) = \tan^{-1}\left(\frac{0.833}{10.2}\right) = \tan^{-1}(0.0816) = 4.67^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{a_x}{a_y}\right) = \tan^{-1}\left(\frac{0.833 \mss}{10.2 \mss}\right) = \tan^{-1}(0.0816) = 4.67^\circ $$
 </div>
 
 from vertical (or 85.3° from horizontal).
@@ -628,10 +628,10 @@ The two forces are symmetric, each making a 20° angle with the vertical. Use ve
    - $$ F_2 = 200 \N $$ at 20° to the left of vertical
 
 2. Find the components of each force:
-   - $$ F_{1x} = +200 \sin(20°) = +200 \times 0.342 = +68.4 \N $$ (along $$ +x $$)
-   - $$ F_{1y} = +200 \cos(20°) = +200 \times 0.940 = +188 \N $$ (along $$ +y $$)
-   - $$ F_{2x} = -200 \sin(20°) = -68.4 \N $$ (along $$ -x $$)
-   - $$ F_{2y} = +200 \cos(20°) = +188 \N $$ (along $$ +y $$)
+   - $$ F_{1x} = +200 \N \sin(20°) = +200 \N \times 0.342 = +68.4 \N $$ (along $$ +x $$)
+   - $$ F_{1y} = +200 \N \cos(20°) = +200 \N \times 0.940 = +188 \N $$ (along $$ +y $$)
+   - $$ F_{2x} = -200 \N \sin(20°) = -68.4 \N $$ (along $$ -x $$)
+   - $$ F_{2y} = +200 \N \cos(20°) = +188 \N $$ (along $$ +y $$)
 
 3. Add the components:
 <div class="equation">
@@ -680,7 +680,7 @@ The person is held stationary, so the acceleration is zero and the net force mus
 Given:
 
 - Mass: $$ m = 76.0 \kg $$
-- Weight: $$ w = mg = (76.0)(9.80) = 745 \N $$
+- Weight: $$ w = mg = (76.0 \kg)(9.80 \mss) = 745 \N $$
 - $$ T_1 $$ at 15° from vertical (or 75° from horizontal)
 - $$ T_2 $$ at 10° above horizontal
 
@@ -732,11 +732,11 @@ $$ T_1(1.0115) = 745 $$
 </div>
 
 <div class="equation">
-$$ T_1 = \frac{745}{1.0115} = 736 \N $$
+$$ T_1 = \frac{745 \N}{1.0115} = 736 \N $$
 </div>
 
 <div class="equation">
-$$ T_2 = 0.2627 \times 736 = 193 \N \approx 194 \N $$
+$$ T_2 = 0.2627 \times 736 \N = 193 \N \approx 194 \N $$
 </div>
 
 **Discussion**
@@ -847,13 +847,13 @@ With $$ +x $$ forward and $$ +y $$ upward, $$ N $$ and $$ w $$ cancel, and $$ F 
 Acceleration:
 
 <div class="equation">
-$$ a_x = \frac{\sum F_x}{m} = \frac{F}{m} = \frac{650}{70.0} = 9.29 \mss $$
+$$ a_x = \frac{\sum F_x}{m} = \frac{F}{m} = \frac{650 \N}{70.0 \kg} = 9.29 \mss $$
 </div>
 
 Final velocity:
 
 <div class="equation">
-$$ v = v_0 + at = 0 + (9.29)(0.800) = 7.43 \ms $$
+$$ v = v_0 + at = 0 \ms + (9.29 \ms)(0.800 \ms) = 7.43 \ms $$
 </div>
 
 **(b) Distance traveled:**
@@ -861,7 +861,7 @@ $$ v = v_0 + at = 0 + (9.29)(0.800) = 7.43 \ms $$
 Using $$ x = v_0t + \frac{1}{2}at^{2} $$:
 
 <div class="equation">
-$$ x = 0 + \frac{1}{2}(9.29)(0.800)^2 = \frac{1}{2}(9.29)(0.640) = 2.97 \m $$
+$$ x = 0 + \frac{1}{2}(9.29 \mss)(0.800 \s)^2 = \frac{1}{2}(9.29 \mss)(0.640 \text{s}^2) = 2.97 \m $$
 </div>
 
 **Discussion**
@@ -992,7 +992,7 @@ $$ 0 = v_0^2 - 2gh $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{2gh} = \sqrt{2(9.80)(0.900)} = \sqrt{17.64} = 4.20 \ms $$
+$$ v_0 = \sqrt{2gh} = \sqrt{2(9.80 \mss)(0.900 \m)} = \sqrt{17.64 \text{m}^2/\text{s}^2} = 4.20 \ms $$
 </div>
 
 **(b) Acceleration while straightening legs:**
@@ -1000,15 +1000,15 @@ $$ v_0 = \sqrt{2gh} = \sqrt{2(9.80)(0.900)} = \sqrt{17.64} = 4.20 \ms $$
 During push-off, accelerating from rest to 4.20 m/s over 0.300 m. Using $$ v^2 = v_i^2 + 2ad $$:
 
 <div class="equation">
-$$ (4.20)^2 = 0 + 2a(0.300) $$
+$$ (4.20 \ms)^2 = 0 + 2a(0.300 \m) $$
 </div>
 
 <div class="equation">
-$$ 17.64 = 0.600a $$
+$$ 17.64 \mmss = (0.600 \m)a $$
 </div>
 
 <div class="equation">
-$$ a = \frac{17.64}{0.600} = 29.4 \mss $$
+$$ a = \frac{17.64 \mmss}{0.600 \m} = 29.4 \mss $$
 </div>
 
 **(c) Force on floor:**
@@ -1018,7 +1018,7 @@ Forces on player during push-off, with $$ +y $$ upward:
 ![Free-body diagram of the basketball player with +x to the right and +y up: normal force N up, four times as long as the weight w pointing down; the acceleration points up.](../resources/fbd_04_07_p07.svg){: .fbd}
 
 - Normal force from floor: $$ N $$, along $$ +y $$
-- Weight: $$ w = mg = (110)(9.80) = 1078 \N $$, along $$ -y $$
+- Weight: $$ w = mg = (110 \kg)(9.80 \mss) = 1078 \N $$, along $$ -y $$
 
 Net force along $$ y $$, with $$ a_y = +29.4 \mss $$:
 
@@ -1027,7 +1027,7 @@ $$ \sum F_y = N - w = ma_y $$
 </div>
 
 <div class="equation">
-$$ N = ma + w = m(a + g) = 110(29.4 + 9.80) = 110(39.2) = 4312 \N \approx 4.31 \times 10^{3} \N $$
+$$ N = ma + w = m(a + g) = 110 \N(29.4 \N + 9.80 \N) = 110 \kg(39.2 \mss) = 4312 \N \approx 4.31 \times 10^{3} \N $$
 </div>
 
 By Newton's third law, the player exerts 4.31 × 10³ N downward on the floor.

@@ -296,22 +296,22 @@ $$ (20.0 \kg) r_1 = (30.0 \kg)(3.00 \m - r_1) $$
 </div>
 
 <div class="equation">
-$$ 20.0 r_1 = 90.0 - 30.0 r_1 $$
+$$ 20.0 \kg r_1 = 90.0 \text{kg}\cdot\text{m} - 30.0 \kg r_1 $$
 </div>
 
 <div class="equation">
-$$ 50.0 r_1 = 90.0 $$
+$$ 50.0 \kg r_1 = 90.0 \text{kg}\cdot\text{m} $$
 </div>
 
 <div class="equation">
-$$ r_1 = \frac{90.0}{50.0} = 1.80 \m $$
+$$ r_1 = \frac{90.0 \text{kg}\cdot\text{m}}{50.0 \kg} = 1.80 \m $$
 </div>
 
 The smaller child sits **1.80 m** from the pivot point.
 
 **Discussion**
 
-As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = 30.0/20.0 = 1.5 $$. We can verify: $$ r_2 = 3.00 - 1.80 = 1.20 \m $$, and indeed $$ 1.80/1.20 = 1.5 $$. This is the same principle used in balance scales and lever systems.
+As expected, the lighter child must sit farther from the pivot to balance the heavier child. The ratio of distances is inversely proportional to the ratio of masses: $$ r_1/r_2 = m_2/m_1 = \frac{30.0 \kg}{20.0 \kg} = 1.5 $$. We can verify: $$ r_2 = 3.00 \m - 1.80 \m = 1.20 \m $$, and indeed $$ 1.80/1.20 = 1.5 $$. This is the same principle used in balance scales and lever systems.
 
 :::
 
@@ -341,7 +341,7 @@ $$ N_{\text{foot}} = \frac{mg}{2} = \frac{4900 \N}{2} = 2450 \N, \qquad f_{\text
 </div>
 
 <div class="equation">
-$$ F_{\text{foot}} = \sqrt{(2450 \N)^2 + (715 \N)^2} = 2.55 \times 10^{3} \N, \qquad \theta = \tan^{-1}\left(\frac{715}{2450}\right) = 16.3° $$
+$$ F_{\text{foot}} = \sqrt{(2450 \N)^2 + (715 \N)^2} = 2.55 \times 10^{3} \N, \qquad \theta = \tan^{-1}\left(\frac{715 \N}{2450 \N}\right) = 16.3° $$
 </div>
 
 Each force points 16.3° from vertical, tilted toward the wall.
@@ -581,7 +581,7 @@ Take the bridge as the system, with the cables slack. The forces on it are its w
 **(a)** Torques about the hinge:
 
 <div class="equation">
-$$ F_{\text{shore}}(9.0 \m) = w(1.5 \m) \quad \Rightarrow \quad \frac{F_{\text{shore}}}{w} = \frac{1.5}{9.0} = 0.167 $$
+$$ F_{\text{shore}}(9.0 \m) = w(1.5 \m) \quad \Rightarrow \quad \frac{F_{\text{shore}}}{w} = \frac{1.5 \m}{9.0 \m} = 0.167 $$
 </div>
 
 **(b)** No horizontal forces act, so the hinge force is vertical. With $$ w = (2500 \kg)(9.80 \mss) = 2.45 \times 10^{4} \N $$:
@@ -638,7 +638,7 @@ $$ T\sin{40°} \, r_T = m_b g r_b + m_c g r_c $$
 $$ T = \frac{(2500 \kg)(9.80 \mss)(1.50 \m) + (900 \kg)(9.80 \mss)(3.75 \m)}{(9.00 \m)\sin{40°}} = \frac{6.98 \times 10^{4} \N \cdot \m}{5.785 \m} = 1.21 \times 10^{4} \N $$
 </div>
 
-The combined cable tension is **12.1 kN**. (If several cables share the load equally, divide this value by the number of cables.) As a check, the 9.0-m lever arm is consistent with the preceding problem, where the opposite shore, also 9.0 m from the hinge, supports $$ 1.5/9.0 = 1/6 $$ of the bridge's weight.
+The combined cable tension is **12.1 kN**. (If several cables share the load equally, divide this value by the number of cables.) As a check, the 9.0-m lever arm is consistent with the preceding problem, where the opposite shore, also 9.0 m from the hinge, supports $$ \frac{1.5 \m}{9.0 \m} = 1/6 $$ of the bridge's weight.
 
 **Solution for (b)**
 
@@ -655,7 +655,7 @@ $$ F_{hy} = (m_b + m_c)g - T\sin{40°} = 3.332 \times 10^{4} \N - (1.207 \times 
 </div>
 
 <div class="equation">
-$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(9.25 \times 10^{3})^2 + (2.56 \times 10^{4})^2} = 2.72 \times 10^{4} \N $$
+$$ F_h = \sqrt{F_{hx}^2 + F_{hy}^2} = \sqrt{(9.25 \times 10^{3} \N)^2 + (2.56 \times 10^{4} \N)^2} = 2.72 \times 10^{4} \N $$
 </div>
 
 <div class="equation">
@@ -779,7 +779,7 @@ $$ F_{h,horizontal} \times 1.30 \m = 10.78 \text{ N·m} $$
 </div>
 
 <div class="equation">
-$$ F_{h,horizontal} = \frac{10.78}{1.30} = 8.29 \N $$
+$$ F_{h,horizontal} = \frac{10.78 \text{N}\cdot\text{m}}{1.30 \m} = 8.29 \N $$
 </div>
 
 For horizontal equilibrium of one leg:

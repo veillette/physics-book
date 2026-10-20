@@ -459,7 +459,7 @@ $$ \alpha = \frac{\Delta\omega}{\Delta t} = \frac{32 \text{ rad/s} - 0}{0.40 \s}
 **(b)** Using the kinematic equation $$ \theta = \omega_{0} t + \frac{1}{2}\alpha t^2 $$ with $$ \omega_{0} = 0 $$:
 
 <div class="equation">
-$$ \theta = 0 + \frac{1}{2}(80 \radss)(0.40 \s)^2 = \frac{1}{2}(80)(0.16) = 6.4 \text{ rad} $$
+$$ \theta = 0 + \frac{1}{2}(80 \radss)(0.40 \s)^2 = \frac{1}{2}(80 \radss)(0.16 \text{s}^2) = 6.4 \text{ rad} $$
 </div>
 
 Converting to revolutions:
@@ -557,7 +557,7 @@ $$ t = \frac{\omega - \omega_{0}}{\alpha} = \frac{0 - 32.0 \text{ rad/s}}{-0.700
 **(b)** Using $$ \omega^{2} = \omega_{0}^2 + 2\alpha\theta $$ with $$ \omega = 0 $$:
 
 <div class="equation">
-$$ \theta = \frac{-\omega_{0}^2}{2\alpha} = \frac{-(32.0 \text{ rad/s})^2}{2(-0.700 \radss)} = \frac{-1024}{-1.40} = 731 \text{ rad} $$
+$$ \theta = \frac{-\omega_{0}^2}{2\alpha} = \frac{-(32.0 \text{ rad/s})^2}{2(-0.700 \radss)} = \frac{-1024 \text{rad}^2/\text{s}^2}{-1.40 \radss} = 731 \text{ rad} $$
 </div>
 
 Converting to revolutions:

@@ -631,7 +631,7 @@ $$ 1875 \kg \cdot \ms = (11500 \kg) v_f $$
 </div>
 
 <div class="equation">
-$$ v_f = \frac{1875}{11500} = 0.16304 \ms \approx 0.163 \ms $$
+$$ v_f = \frac{1875 \text{kg}\cdot\text{m/s}}{11500 \kg} = 0.16304 \ms \approx 0.163 \ms $$
 </div>
 
 The final velocity is 0.163 m/s in the direction of motion of the more massive satellite.
@@ -675,7 +675,7 @@ $$ -1000 \kg \cdot \ms = (11500 \kg) v_f $$
 </div>
 
 <div class="equation">
-$$ v_f = -\frac{1000}{11500} = -0.086957 \ms \approx -0.0870 \ms $$
+$$ v_f = -\frac{1000 \text{kg}\cdot\text{m/s}}{11500 \kg} = -0.086957 \ms \approx -0.0870 \ms $$
 </div>
 
 The final velocity is $$ 8.70 \times 10^{-2} \ms $$ in the direction of motion of the less massive satellite.
@@ -795,7 +795,7 @@ $$ m_1 v_1 + m_2 v_2 = 0 $$
 
 $$ (4800 \kg) v_1 + (1500 \kg) v_2 = 0 $$
 
-$$ v_2 = -\frac{4800}{1500} v_1 = -3.2 v_1 $$
+$$ v_2 = -\frac{4800 \kg}{1500 \kg} v_1 = -3.2 v_1 $$
 
 The kinetic energy supplied:
 
@@ -811,7 +811,7 @@ $$ 2400 v_1^2 + 7680 v_1^2 = 5000 $$
 
 $$ 10080 v_1^2 = 5000 $$
 
-$$ v_1 = \sqrt{\frac{5000}{10080}} = 0.704 \ms $$
+$$ v_1 = \sqrt{\frac{5000 \J}{10080 \kg}} = 0.704 \ms $$
 
 Now find $$ v_2 $$:
 
@@ -883,7 +883,7 @@ Football player momentum: $$ p = (110 \kg)(8.00 \ms) = 880 \kg \cdot \ms $$
 
 Football momentum: $$ p = (0.410 \kg)(25.0 \ms) = 10.25 \kg \cdot \ms $$
 
-Ratio: $$ \frac{880}{10.25} = 85.9 $$
+Ratio: $$ \frac{880 \text{kg}\cdot\text{m/s}}{10.25 \text{kg}\cdot\text{m/s}} = 85.9 $$
 
 The player has about 86 times more momentum than the football.
 
@@ -928,7 +928,7 @@ Conservation of momentum (plutonium initially at rest):
 
 $$ m_{\text{He}} v_{\text{He}} + m_{\text{U}} v_{\text{U}} = 0 $$
 
-$$ v_{\text{U}} = -\frac{m_{\text{He}}}{m_{\text{U}}} v_{\text{He}} = -\frac{6.68 \times 10^{-27}}{3.92 \times 10^{-25}} v_{\text{He}} = -0.01704 v_{\text{He}} $$
+$$ v_{\text{U}} = -\frac{m_{\text{He}}}{m_{\text{U}}} v_{\text{He}} = -\frac{6.68 \times 10^{-27} \kg}{3.92 \times 10^{-25} \kg} v_{\text{He}} = -0.01704 v_{\text{He}} $$
 
 Total kinetic energy:
 
@@ -936,13 +936,13 @@ $$ \frac{1}{2} m_{\text{He}} v_{\text{He}}^2 + \frac{1}{2} m_{\text{U}} v_{\text
 
 Substituting $$ v_{\text{U}} = -0.01704 v_{\text{He}} $$:
 
-$$ \frac{1}{2}(6.68 \times 10^{-27}) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25})(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ \frac{1}{2}(6.68 \times 10^{-27} \kg) v_{\text{He}}^2 + \frac{1}{2}(3.92 \times 10^{-25} \kg)(0.01704)^2 v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
-$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.34 \times 10^{-27} + 5.69 \times 10^{-29}) v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
-$$ (3.40 \times 10^{-27}) v_{\text{He}}^2 = 8.40 \times 10^{-13} $$
+$$ (3.40 \times 10^{-27} \kg) v_{\text{He}}^2 = 8.40 \times 10^{-13} \J $$
 
-$$ v_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13}}{3.40 \times 10^{-27}}} = 1.57 \times 10^{7} \ms $$
+$$ v_{\text{He}} = \sqrt{\frac{8.40 \times 10^{-13} \J}{3.40 \times 10^{-27} \kg}} = 1.57 \times 10^{7} \ms $$
 
 $$ v_{\text{U}} = -0.01704 (1.57 \times 10^{7} \ms) = -2.68 \times 10^{5} \ms $$
 

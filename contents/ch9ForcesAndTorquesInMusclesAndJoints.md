@@ -99,7 +99,7 @@ $$ \left(6.50 \kg \right)\left(9.80\mss \right)=63.7 \N $$,
 so that the ratio of the force exerted by the biceps to the total weight is
 
 <div class="equation">
- $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}= \frac{470}{63.7}=7.38. $$ 
+ $$ \frac{ F_{\text{B}}}{ w_{\text{a}}+ w_{\text{b}}}= \frac{470 \N}{63.7 \N}=7.38. $$ 
 </div>
 
 **Discussion**
@@ -565,7 +565,7 @@ We compare the mechanical advantage and kinematic properties of the hypothetical
 **Advantages of wrist attachment:**
 
 1. **Greater mechanical advantage:** If the biceps attached at the wrist (say, 35 cm from elbow), the MA would be:
-   $$ \text{MA} = \frac{35}{38} \approx 0.92 $$
+   $$ \text{MA} = \frac{35 \text{cm}}{38 \text{cm}} \approx 0.92 $$
 
    This is nearly 9 times better than the actual MA of ~0.105. The muscle would need to exert much less force to lift the same load.
 
@@ -732,8 +732,8 @@ From [Figure 5](#Figure5), each muscle exerts 200 N at an angle of 20° from ver
 
 For the left muscle (force at -20° from vertical):
 
-- Vertical component: $$ F_{y,L} = (200 \N)\cos{20°} = (200)(0.940) = 188 \N $$
-- Horizontal component: $$ F_{x,L} = -(200 \N)\sin{20°} = -(200)(0.342) = -68.4 \N $$ (leftward)
+- Vertical component: $$ F_{y,L} = (200 \N)\cos{20°} = (200 \N)(0.940) = 188 \N $$
+- Horizontal component: $$ F_{x,L} = -(200 \N)\sin{20°} = -(200 \N)(0.342) = -68.4 \N $$ (leftward)
 
 For the right muscle (force at +20° from vertical):
 
@@ -743,17 +743,17 @@ For the right muscle (force at +20° from vertical):
 Adding the components:
 
 <div class="equation">
-$$ F_x = F_{x,L} + F_{x,R} = -68.4 + 68.4 = 0 \N $$
+$$ F_x = F_{x,L} + F_{x,R} = -68.4 \N + 68.4 \N = 0 \N $$
 </div>
 
 <div class="equation">
-$$ F_y = F_{y,L} + F_{y,R} = 188 + 188 = 376 \N $$
+$$ F_y = F_{y,L} + F_{y,R} = 188 \N + 188 \N = 376 \N $$
 </div>
 
 The horizontal components cancel due to symmetry. The total force is:
 
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 + (376)^2} = 376 \N $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{0 (\N)^2 + (376 \N)^2} = 376 \N $$
 </div>
 
 The total force is **376 N** directed vertically **upward** (the muscles pull up on the tendon, as shown in Figure 5).
@@ -792,19 +792,19 @@ From [Figure 6](#Figure6), take $$ +x $$ to the right and $$ +y $$ upward. Both 
 For $$ \vb{T}_1 $$:
 
 <div class="equation">
-$$ T_{1x} = -(1250 \N)\cos{55°} = -(1250)(0.574) = -717 \N, \quad T_{1y} = (1250 \N)\sin{55°} = (1250)(0.819) = +1024 \N $$
+$$ T_{1x} = -(1250 \N)\cos{55°} = -(1250 \N)(0.574) = -717 \N, \quad T_{1y} = (1250 \N)\sin{55°} = (1250 \N)(0.819) = +1024 \N $$
 </div>
 
 For $$ \vb{T}_2 $$:
 
 <div class="equation">
-$$ T_{2x} = -(1250 \N)\cos{75°} = -(1250)(0.259) = -324 \N, \quad T_{2y} = -(1250 \N)\sin{75°} = -(1250)(0.966) = -1207 \N $$
+$$ T_{2x} = -(1250 \N)\cos{75°} = -(1250 \N)(0.259) = -324 \N, \quad T_{2y} = -(1250 \N)\sin{75°} = -(1250 \N)(0.966) = -1207 \N $$
 </div>
 
 The resultant tendon force on the kneecap:
 
 <div class="equation">
-$$ F_x = T_{1x} + T_{2x} = -717 + (-324) = -1041 \N, \quad F_y = T_{1y} + T_{2y} = 1024 + (-1207) = -183 \N $$
+$$ F_x = T_{1x} + T_{2x} = -717 \N + (-324 \N) = -1041 \N, \quad F_y = T_{1y} + T_{2y} = 1024 \N + (-1207 \N) = -183 \N $$
 </div>
 
 **Forces on each body.** The kneecap is in equilibrium, so the femur pushes on the kneecap with the force that balances the tendons, $$ (+1041, +183) \N $$. By Newton's third law, the kneecap pushes on the femur with the opposite force, which has the **same direction as the tendon resultant**:
@@ -816,13 +816,13 @@ $$ \vb{F}_{\text{kneecap on femur}} = (-1041 \N, -183 \N) $$
 The magnitude of this force:
 
 <div class="equation">
-$$ F = \sqrt{(-1041)^2 + (-183)^2} = \sqrt{1083681 + 33489} = \sqrt{1117170} = 1057 \N \approx 1.06 \times 10^{3} \N $$
+$$ F = \sqrt{(-1041 \N)^2 + (-183 \N)^2} = \sqrt{1083681 (\N)^2 + 33489 (\N)^2} = \sqrt{1117170 (\N)^2} = 1057 \N \approx 1.06 \times 10^{3} \N $$
 </div>
 
 The direction: both components are negative, so the force lies in the third quadrant:
 
 <div class="equation">
-$$ \theta = 180° + \tan^{-1}\left(\frac{183}{1041}\right) = 180° + 10.0° = 190° \text{ (ccw from positive } x\text{-axis)} $$
+$$ \theta = 180° + \tan^{-1}\left(\frac{183 \N}{1041 \N}\right) = 180° + 10.0° = 190° \text{ (ccw from positive } x\text{-axis)} $$
 </div>
 
 that is, 10° below the negative x-axis, pressing the kneecap back and slightly down into the femur.
@@ -946,13 +946,13 @@ $$ F_{\text{V},y} = -F_{\text{M},y} - W_y = 32.7 \N + 50 \N = 82.7 \N $$
 Magnitude:
 
 <div class="equation">
-$$ F_{\text{V}} = \sqrt{(50.3)^2 + (82.7)^2} = 96.8 \N \approx 97 \N $$
+$$ F_{\text{V}} = \sqrt{(50.3 \N)^2 + (82.7 \N)^2} = 96.8 \N \approx 97 \N $$
 </div>
 
 Direction, measured from the horizontal (the vertebral force points up and to the left, as in the figure):
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{82.7}{50.3}\right) = 58.7^\circ \approx 59^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{82.7 \N}{50.3 \N}\right) = 58.7^\circ \approx 59^\circ $$
 </div>
 
 **Discussion**
@@ -1287,7 +1287,7 @@ $$ F_J = F_M - F_T = 200 \N - 116 \N = 84 \N $$
 
 **Discussion**
 
-The mechanical advantage of this system is $$ r_M/r_c = 2.9/5.0 = 0.58 $$, so the 200 N muscle force produces a 116 N bite force. That is much better than most skeletal muscle systems, whose mechanical advantage is often below 0.1. The masseter is one of the strongest muscles in the body relative to its size. The joint force of 84 N is less than the muscle force, which is unusual—in most body lever systems, the joint force exceeds the muscle force. This more favorable geometry reduces stress on the jaw joint (TMJ), though TMJ disorders are still common from chronic clenching. The example of biting a bullet during surgery (before anesthesia) demonstrates that even with pain, humans can generate substantial bite forces through the masseter muscles.
+The mechanical advantage of this system is $$ r_M/r_c = \frac{2.9 \text{cm}}{5.0 \text{cm}} = 0.58 $$, so the 200 N muscle force produces a 116 N bite force. That is much better than most skeletal muscle systems, whose mechanical advantage is often below 0.1. The masseter is one of the strongest muscles in the body relative to its size. The joint force of 84 N is less than the muscle force, which is unusual—in most body lever systems, the joint force exceeds the muscle force. This more favorable geometry reduces stress on the jaw joint (TMJ), though TMJ disorders are still common from chronic clenching. The example of biting a bullet during surgery (before anesthesia) demonstrates that even with pain, humans can generate substantial bite forces through the masseter muscles.
 
 **Answer**
 
@@ -1700,7 +1700,7 @@ A subject lies on her back with her relaxed arm extended horizontally to the sid
 
 **Solution**
 
-*Check the shoulder force.* The totals are $$ 26.7 + 7.6 = 34.3 \N $$ and $$ 24.5 + 9.8 = 34.3 \N $$. Moving the scale changes how the load is shared but not the total, consistent with $$ S = 0 $$. (Had the totals differed, the shoulder would be carrying part of the weight, and only $$ mgx $$ could be found from the scales.)
+*Check the shoulder force.* The totals are $$ 26.7 \N + 7.6 \N = 34.3 \N $$ and $$ 24.5 \N + 9.8 \N = 34.3 \N $$. Moving the scale changes how the load is shared but not the total, consistent with $$ S = 0 $$. (Had the totals differed, the shoulder would be carrying part of the weight, and only $$ mgx $$ could be found from the scales.)
 
 *Mass:*
 
@@ -1714,7 +1714,7 @@ $$ m = \frac{R_1 + R_2}{g} = \frac{34.3 \N}{9.80 \mss} = 3.50 \kg $$
 $$ x = \frac{R_1 d_1 + R_2 d_2}{R_1 + R_2} = \frac{(26.7 \N)(0.200 \m) + (7.6 \N)(0.650 \m)}{34.3 \N} = 0.300 \m $$
 </div>
 
-The second configuration gives $$ x = [(24.5)(0.200) + (9.8)(0.550)]/34.3 = 0.300 \m $$ as well.
+The second configuration gives $$ x = [(24.5 \N)(0.200 \m) + (9.8 \N)(0.550 \m)]/34.3 \N = 0.300 \m $$ as well.
 
 **Discussion**
 

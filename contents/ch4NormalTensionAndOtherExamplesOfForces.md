@@ -581,6 +581,28 @@ If a leg is suspended by a traction setup as shown in [Figure 11](#Figure11), wh
 
 ::::
 
+:::: solution
+
+**Strategy**
+
+The rope runs over frictionless pulleys, so its tension is the same everywhere. Apply Newton's second law to the hanging mass, which is at rest.
+
+**Solution**
+
+![Free-body diagram of the hanging mass, with +y up: the rope tension T up and the weight w = mg down, equal in length. The acceleration is zero.](../resources/fbd_04_05_q01.svg){: .fbd}
+
+The hanging mass has zero acceleration, so the net force on it is zero:
+
+<div class="equation">
+$$ T - mg = 0 \quad\Rightarrow\quad T = mg $$
+</div>
+
+The tension in the whole rope equals the weight of the hanging mass. For a $$ 5.0 \text{ kg} $$ mass, $$ T = (5.0 \text{ kg})(9.80 \mss) = 49 \N $$. The vertical section of rope above the leg also pulls up with $$ T $$, so in equilibrium it supports the weight of the leg, $$ w_{\text{leg}} = T $$.
+
+The tension in the rope equals the weight of the hanging mass, $$ T = mg $$ (for example, $$ 49 \N $$ for a $$ 5.0 \text{ kg} $$ mass).
+
+::::
+
 </div>
 
 <div class="exercise" data-element-type="conceptual-questions">
@@ -588,6 +610,31 @@ If a leg is suspended by a traction setup as shown in [Figure 11](#Figure11), wh
 :::: problem
 
 In a traction setup for a broken bone, with pulleys and rope available, how might we be able to increase the force along the tibia using the same weight? (See [Figure 10](#Figure10).) (Note that the tibia is the shin bone shown in this image.)
+
+::::
+
+:::: solution
+
+**Strategy**
+
+Find the force the rope exerts on the pulley attached to the foot, which pulls along the tibia. Two rope segments, each with tension $$ T = mg $$, pull on that pulley at angles $$ \theta $$ above and below the horizontal.
+
+**Solution**
+
+![Two free-body diagrams of the pulley at the foot. Each rope segment pulls with tension T at angle θ above and below the horizontal; the vertical parts cancel and the horizontal parts add to 2T cos θ. (a) With θ = 60°, the pull is T. (b) With θ = 20°, the pull is 1.9T.](../resources/fbd_04_05_q02.svg){: .fbd}
+
+The vertical components of the two tensions cancel, and their horizontal components add:
+
+<div class="equation">
+$$ F_{\text{tibia}} = 2T\cos\theta $$
+</div>
+
+With a $$ 5.0 \text{ kg} $$ weight ($$ T = 49 \N $$), $$ \theta = 60^\circ $$ gives $$ F = 2(49 \N)\cos 60^\circ = 49 \N $$, while $$ \theta = 20^\circ $$ gives $$ F = 2(49 \N)\cos 20^\circ = 92 \N $$. So:
+
+- **Reduce the angle $$ \theta $$** by moving the two pulleys on the frame closer to the line of the leg; the force approaches its maximum, $$ 2T $$, as $$ \theta $$ approaches $$ 0^\circ $$.
+- **Add more pulleys** (a block and tackle) so that more segments of the same rope pull on the foot along the tibia. Each additional segment adds up to $$ T $$, so three segments give up to $$ 3T = 147 \N $$ with the same $$ 49 \N $$ weight.
+
+The force along the tibia can be increased with the same weight by reducing the angle $$ \theta $$ between the rope segments and the leg (since the force is $$ 2T\cos\theta $$, rising from $$ 49 \N $$ at $$ 60^\circ $$ to $$ 92 \N $$ at $$ 20^\circ $$ for $$ T = 49 \N $$), or by adding pulleys so that more rope segments pull on the foot.
 
 ::::
 

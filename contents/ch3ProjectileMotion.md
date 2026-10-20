@@ -467,7 +467,7 @@ The direction $$\theta_{v} $$ is found from the equation:
 so that
 
 <div class="equation">
- $$\theta_{v}={\tan}^{-1}\left(-24.5/20.5\right)={\tan}^{-1}\left(-1.19\right). $$
+ $$\theta_{v}={\tan}^{-1}\left(-24.5 \ms/20.5 \ms\right)={\tan}^{-1}\left(-1.19\right). $$
 </div>
 
 Thus,
@@ -927,7 +927,7 @@ $$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(28.6 \ms)^2 + (34.3 \ms)^2} = \sqrt{818 + 1
 Direction (angle below horizontal):
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{34.3}{28.6}\right) = 50.2° $$
+$$ \theta = \tan^{-1}\left(\frac{|v_y|}{v_x}\right) = \tan^{-1}\left(\frac{34.3 \ms}{28.6 \ms}\right) = 50.2° $$
 </div>
 
 **Discussion**
@@ -1060,7 +1060,7 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 **Step 3: Solve for θ**
 
 <div class="equation">
-$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(75.0 \m)(9.80 \mss)}{(35.0 \ms)^2} = \frac{735}{1225} = 0.600 $$
+$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(75.0 \m)(9.80 \mss)}{(35.0 \ms)^2} = \frac{735 \mmss}{1225 \mmss} = 0.600 $$
 </div>
 
 <div class="equation">
@@ -1080,7 +1080,7 @@ Both launch angles clear the branch. Measure height **above the release height**
 **Low trajectory (θ = 18.4°):**
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos\theta = 35.0 \times \cos(18.4°) = 35.0 \times 0.949 = 33.2 \ms $$
+$$ v_{0x} = v_0 \cos\theta = 35.0 \times \cos(18.4°) = 35.0 \ms \times 0.949 = 33.2 \ms $$
 </div>
 
 <div class="equation">
@@ -1088,25 +1088,25 @@ $$ t = \frac{x}{v_{0x}} = \frac{37.5 \m}{33.2 \ms} = 1.13 \s $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = 35.0 \times \sin(18.4°) = 35.0 \times 0.316 = 11.1 \ms $$
+$$ v_{0y} = v_0 \sin\theta = 35.0 \times \sin(18.4°) = 35.0 \ms \times 0.316 = 11.1 \ms $$
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1)(1.13) - \frac{1}{2}(9.80)(1.13)^2 = 6.25 \m $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (11.1 \ms)(1.13 \s) - \frac{1}{2}(9.80 \mss)(1.13 \s)^2 = 6.25 \m $$
 </div>
 
 **High trajectory (θ = 71.6°):**
 
 <div class="equation">
-$$ v_{0x} = 35.0 \cos(71.6°) = 11.0 \ms, \quad t = \frac{37.5}{11.0} = 3.41 \s $$
+$$ v_{0x} = 35.0 \s \cos(71.6°) = 11.0 \ms, \quad t = \frac{37.5 \m}{11.0 \ms} = 3.41 \s $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = 35.0 \sin(71.6°) = 33.2 \ms $$
+$$ v_{0y} = 35.0 \ms \sin(71.6°) = 33.2 \ms $$
 </div>
 
 <div class="equation">
-$$ y = (33.2)(3.41) - \frac{1}{2}(9.80)(3.41)^2 = 56.3 \m $$
+$$ y = (33.2 \ms)(3.41 \s) - \frac{1}{2}(9.80 \mss)(3.41 \s)^2 = 56.3 \m $$
 </div>
 
 Since 6.25 m > 3.50 m (and 56.3 m > 3.50 m), the arrow **will go over the branch** for either launch angle.
@@ -1163,7 +1163,7 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 Solve for $$ \sin(2\theta) $$:
 
 <div class="equation">
-$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(7.00 \m)(9.80 \mss)}{(12.0 \ms)^2} = \frac{68.6}{144} = 0.476 $$
+$$ \sin(2\theta) = \frac{Rg}{v_0^2} = \frac{(7.00 \m)(9.80 \mss)}{(12.0 \ms)^2} = \frac{68.6 \mmss}{144 \mmss} = 0.476 $$
 </div>
 
 <div class="equation">
@@ -1198,7 +1198,7 @@ This angle would not be used because:
 First, find the vertical component of initial velocity:
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin\theta = (12.0 \ms)(\sin 14.2°) = (12.0)(0.245) = 2.94 \ms $$
+$$ v_{0y} = v_0 \sin\theta = (12.0 \ms)(\sin 14.2°) = (12.0 \ms)(0.245) = 2.94 \ms $$
 </div>
 
 At maximum height, $$ v_y = 0 $$. Time to reach maximum height:
@@ -1531,11 +1531,11 @@ $$ y = 1.5 \m + (26.0 \ms)(4.0 \s) - \frac{1}{2}(9.80 \mss)(4.0 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = 1.5 + 104.0 - \frac{1}{2}(9.80)(16.0) $$
+$$ y = 1.5 \m + 104.0 \m - \frac{1}{2}(9.80 \mss)(16.0 \text{s}^2) $$
 </div>
 
 <div class="equation">
-$$ y = 1.5 + 104.0 - 78.4 = 27.1 \m $$
+$$ y = 1.5 \m + 104.0 \m - 78.4 \m = 27.1 \m $$
 </div>
 
 The cliff height is **H = 27.1 m**.
@@ -1555,15 +1555,15 @@ $$ 0 = (26.0 \ms)^2 - 2(9.80 \mss)(y_{max} - 1.5 \m) $$
 </div>
 
 <div class="equation">
-$$ 2(9.80)(y_{max} - 1.5) = 676 $$
+$$ 2(9.80 \mss)(y_{max} - 1.5 \m) = 676 \mmss $$
 </div>
 
 <div class="equation">
-$$ y_{max} - 1.5 = \frac{676}{19.6} = 34.5 $$
+$$ y_{max} - 1.5 \m = \frac{676 \mmss}{19.6 \mss} = 34.5 \m $$
 </div>
 
 <div class="equation">
-$$ y_{max} = 34.5 + 1.5 = 36.0 \m $$
+$$ y_{max} = 34.5 \m + 1.5 \m = 36.0 \m $$
 </div>
 
 **(c) Impact speed:**
@@ -1577,13 +1577,13 @@ $$ v_x = v_{0x} = 15 \ms $$
 The vertical velocity at impact:
 
 <div class="equation">
-$$ v_y = v_{0y} - gt = 26.0 \ms - (9.80 \mss)(4.0 \s) = 26.0 - 39.2 = -13.2 \ms $$
+$$ v_y = v_{0y} - gt = 26.0 \ms - (9.80 \mss)(4.0 \s) = 26.0 \ms - 39.2 \ms = -13.2 \ms $$
 </div>
 
 The speed (magnitude of velocity):
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(15)^2 + (-13.2)^2} = \sqrt{225 + 174} = \sqrt{399} = 20.0 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(15 \ms)^2 + (-13.2 \ms)^2} = \sqrt{225 \text{m}^2/\text{s}^2 + 174 \text{m}^2/\text{s}^2} = \sqrt{399 \text{m}^2/\text{s}^2} = 20.0 \ms $$
 </div>
 
 **Discussion**
@@ -1655,7 +1655,7 @@ $$ v_0^2 = 2 \times 12.25 \mss \times 0.600 \m = 14.7 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{14.7} = 3.83 \ms $$
+$$ v_0 = \sqrt{14.7 \text{m}^2/\text{s}^2} = 3.83 \ms $$
 </div>
 
 **Step 2: Calculate the range**
@@ -1776,7 +1776,7 @@ Take $$ +x $$ horizontal toward the net and $$ +y $$ up, with the origin on the 
 
 **Given:**
 
-- Initial speed: $$ v_0 = 170 \text{ km/h} = \frac{170 \times 1000}{3600} = 47.2 \ms $$
+- Initial speed: $$ v_0 = 170 \text{ km/h} = \frac{(170 \text{ km/h})(1000 \m/\text{km})}{3600 \s/\text{h}} = 47.2 \ms $$
 - Initial height: $$ y_0 = 2.5 \m $$
 - Net distance: $$ x_{net} = 11.9 \m $$
 - Net height: $$ y_{net} = 0.91 \m $$
@@ -1797,7 +1797,7 @@ $$ v_{0y} = -v_0 \sin\theta = -47.2 \sin\theta $$
 Time to reach the net:
 
 <div class="equation">
-$$ t_{net} = \frac{x_{net}}{v_{0x}} = \frac{11.9}{47.2 \cos\theta} $$
+$$ t_{net} = \frac{x_{net}}{v_{0x}} = \frac{11.9 \m}{47.2 \ms \cos\theta} $$
 </div>
 
 Height at the net:
@@ -1807,29 +1807,29 @@ $$ y_{net} = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 0.91 = 2.5 - 47.2\sin\theta \left(\frac{11.9}{47.2\cos\theta}\right) - \frac{1}{2}(9.80)\left(\frac{11.9}{47.2\cos\theta}\right)^2 $$
+$$ 0.91 \m = 2.5 \m - 47.2 \ms\sin\theta \left(\frac{11.9 \m}{47.2 \ms\cos\theta}\right) - \frac{1}{2}(9.80 \mss)\left(\frac{11.9 \m}{47.2 \ms\cos\theta}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9\left(\frac{11.9}{47.2\cos\theta}\right)^2 $$
+$$ 0.91 \m = 2.5 \m - 11.9 \m\tan\theta - 4.9 \mss\left(\frac{11.9 \m}{47.2 \ms\cos\theta}\right)^2 $$
 </div>
 
 For small angles, $$ \cos\theta \approx 1 $$:
 
 <div class="equation">
-$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9\left(\frac{11.9}{47.2}\right)^2 $$
+$$ 0.91 \m = 2.5 \m - 11.9 \m\tan\theta - 4.9 \mss\left(\frac{11.9 \m}{47.2 \ms}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 0.91 = 2.5 - 11.9\tan\theta - 4.9(0.252)^2 = 2.5 - 11.9\tan\theta - 0.31 $$
+$$ 0.91 \m = 2.5 \m - 11.9 \m\tan\theta - 4.9 \mss(0.252 \s)^2 = 2.5 \m - 11.9 \m\tan\theta - 0.31 \m $$
 </div>
 
 <div class="equation">
-$$ 11.9\tan\theta = 2.5 - 0.91 - 0.31 = 1.28 $$
+$$ 11.9 \m\tan\theta = 2.5 \m - 0.91 \m - 0.31 \m = 1.28 \m $$
 </div>
 
 <div class="equation">
-$$ \tan\theta = \frac{1.28}{11.9} = 0.1076 $$
+$$ \tan\theta = \frac{1.28 \m}{11.9 \m} = 0.1076 $$
 </div>
 
 <div class="equation">
@@ -1841,39 +1841,39 @@ $$ \theta = \tan^{-1}(0.1076) = 6.1° $$
 Using $$ \theta = 6.1° $$:
 
 <div class="equation">
-$$ v_{0x} = 47.2\cos(6.1°) = 47.2 \times 0.994 = 46.9 \ms $$
+$$ v_{0x} = 47.2 \ms\cos(6.1°) = 47.2 \ms \times 0.994 = 46.9 \ms $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = -47.2\sin(6.1°) = -47.2 \times 0.106 = -5.00 \ms $$
+$$ v_{0y} = -47.2 \ms\sin(6.1°) = -47.2 \ms \times 0.106 = -5.00 \ms $$
 </div>
 
 Find when y = 0:
 
 <div class="equation">
-$$ 0 = 2.5 - 5.00t - \frac{1}{2}(9.80)t^2 $$
+$$ 0 = 2.5 \m - (5.00 \ms)t - \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 + 5.00t - 2.5 = 0 $$
+$$ (4.90 \mss)t^2 + (5.00 \ms)t - 2.5 \m = 0 $$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
-$$ t = \frac{-5.00 + \sqrt{25.0 + 49.0}}{9.80} = \frac{-5.00 + 8.60}{9.80} = 0.367 \s $$
+$$ t = \frac{-5.00 \ms + \sqrt{25.0 \mmss + 49.0 \mmss}}{9.80 \mss} = \frac{-5.00 \ms + 8.60 \ms}{9.80 \mss} = 0.367 \s $$
 </div>
 
 Horizontal distance:
 
 <div class="equation">
-$$ x = v_{0x}t = 46.9 \times 0.367 = 17.2 \m $$
+$$ x = v_{0x}t = 46.9 \m \times 0.367 \s = 17.2 \m $$
 </div>
 
 Distance from net:
 
 <div class="equation">
-$$ x - x_{net} = 17.2 - 11.9 = 5.3 \m $$
+$$ x - x_{net} = 17.2 \m - 11.9 \m = 5.3 \m $$
 </div>
 
 Since 5.3 m < 6.40 m, the ball lands **inside** the service box.
@@ -1934,23 +1934,23 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = \frac{Rg}{\sin(2\theta)} = \frac{(18.0 \m)(9.80 \mss)}{\sin(50°)} = \frac{176.4}{0.766} = 230 \text{ m}^2\text{/s}^2 $$
+$$ v_0^2 = \frac{Rg}{\sin(2\theta)} = \frac{(18.0 \m)(9.80 \mss)}{\sin(50°)} = \frac{176.4 \mmss}{0.766} = 230 \text{ m}^2\text{/s}^2 $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{230} = 15.2 \ms $$
+$$ v_0 = \sqrt{230 \text{m}^2/\text{s}^2} = 15.2 \ms $$
 </div>
 
 **(b) Time to reach the receiver:**
 
 <div class="equation">
-$$ t = \frac{2v_0\sin(25°)}{g} = \frac{2(15.2)(0.423)}{9.80} = \frac{12.9}{9.80} = 1.31 \s $$
+$$ t = \frac{2v_0\sin(25°)}{g} = \frac{2(15.2 \ms)(0.423)}{9.80 \mss} = \frac{12.9 \ms}{9.80 \mss} = 1.31 \s $$
 </div>
 
 **(c) Maximum height above the release point:**
 
 <div class="equation">
-$$ h = \frac{[v_0\sin(25°)]^2}{2g} = \frac{[(15.2)(0.423)]^2}{2(9.80)} = \frac{(6.43)^2}{19.6} = 2.10 \m $$
+$$ h = \frac{[v_0\sin(25°)]^2}{2g} = \frac{[(15.2 \ms)(0.423)]^2}{2(9.80 \mss)} = \frac{(6.43 \ms)^2}{19.6 \mss} = 2.10 \m $$
 </div>
 
 **Discussion**
@@ -2012,11 +2012,11 @@ $$ R = \frac{v_0^2 \sin(2\theta)}{g} $$
 </div>
 
 <div class="equation">
-$$ 100.0 = \frac{(275)^2 \sin(2\theta)}{9.80} $$
+$$ 100.0 \m = \frac{(275 \ms)^2 \sin(2\theta)}{9.80 \mss} $$
 </div>
 
 <div class="equation">
-$$ \sin(2\theta) = \frac{100.0 \times 9.80}{75625} = \frac{980}{75625} = 0.01296 $$
+$$ \sin(2\theta) = \frac{100.0 \m \times 9.80 \mss}{75625 \mmss} = \frac{980 \mmss}{75625 \mmss} = 0.01296 $$
 </div>
 
 <div class="equation">
@@ -2030,25 +2030,25 @@ $$ \theta = 0.372° $$
 **Step 2: Find time to reach 150.0 m**
 
 <div class="equation">
-$$ v_{0x} = v_0\cos\theta = 275\cos(0.372°) = 275 \times 0.99998 = 275.0 \ms $$
+$$ v_{0x} = v_0\cos\theta = 275 \ms\cos(0.372°) = 275 \ms \times 0.99998 = 275.0 \ms $$
 </div>
 
 <div class="equation">
-$$ t = \frac{x}{v_{0x}} = \frac{150.0}{275.0} = 0.545 \s $$
+$$ t = \frac{x}{v_{0x}} = \frac{150.0 \m}{275.0 \ms} = 0.545 \s $$
 </div>
 
 **Step 3: Find vertical position at 150.0 m**
 
 <div class="equation">
-$$ v_{0y} = v_0\sin\theta = 275\sin(0.372°) = 275 \times 0.00649 = 1.786 \ms $$
+$$ v_{0y} = v_0\sin\theta = 275 \ms\sin(0.372°) = 275 \ms \times 0.00649 = 1.786 \ms $$
 </div>
 
 <div class="equation">
-$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (1.786)(0.545) - \frac{1}{2}(9.80)(0.545)^2 $$
+$$ y = v_{0y}t - \frac{1}{2}gt^{2} = (1.786 \ms)(0.545 \s) - \frac{1}{2}(9.80 \mss)(0.545 \s)^2 $$
 </div>
 
 <div class="equation">
-$$ y = 0.974 - \frac{1}{2}(9.80)(0.297) = 0.974 - 1.46 = -0.486 \m $$
+$$ y = 0.974 \m - \frac{1}{2}(9.80 \mss)(0.297 \text{s}^2) = 0.974 \m - 1.46 \m = -0.486 \m $$
 </div>
 
 The bullet hits **0.486 m below** the target (or -0.486 m).
@@ -2131,7 +2131,7 @@ $$ v_y^2 = v_{0y}^2 - 2g\Delta y = 0^2 - 2(9.80 \mss)(-5.00 \m) = 98.0 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_y = \sqrt{98.0} = 9.90 \ms $$ (downward)
+$$ v_y = \sqrt{98.0 \text{m}^2/\text{s}^2} = 9.90 \ms $$ (downward)
 </div>
 
 **Step 2: Find horizontal velocity component**
@@ -2145,7 +2145,7 @@ $$ v_x = v_{0x} = 3.00 \ms $$
 **Step 3: Calculate the magnitude of velocity**
 
 <div class="equation">
-$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00)^2 + (9.90)^2} = \sqrt{9.00 + 98.0} = \sqrt{107} = 10.3 \ms $$
+$$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00 \ms)^2 + (9.90 \ms)^2} = \sqrt{9.00 \text{m}^2/\text{s}^2 + 98.0 \text{m}^2/\text{s}^2} = \sqrt{107 \text{m}^2/\text{s}^2} = 10.3 \ms $$
 </div>
 
 **Step 4: Find the direction**
@@ -2153,7 +2153,7 @@ $$ v = \sqrt{v_x^2 + v_y^2} = \sqrt{(3.00)^2 + (9.90)^2} = \sqrt{9.00 + 98.0} = 
 The angle below horizontal is:
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{9.90}{3.00}\right) = \tan^{-1}(3.30) = 73.1° $$
+$$ \theta = \tan^{-1}\left(\frac{v_y}{v_x}\right) = \tan^{-1}\left(\frac{9.90 \ms}{3.00 \ms}\right) = \tan^{-1}(3.30) = 73.1° $$
 </div>
 
 **Discussion**
@@ -2211,11 +2211,11 @@ This solution takes $$ +x $$ east and $$ +y $$ **downward**, with the origin whe
 Taking east as positive x and down as positive y:
 
 <div class="equation">
-$$ v_{0x} = v_0 \cos(30°) = 3.50 \times 0.866 = 3.03 \ms $$ (eastward)
+$$ v_{0x} = v_0 \cos(30°) = 3.50 \ms \times 0.866 = 3.03 \ms $$ (eastward)
 </div>
 
 <div class="equation">
-$$ v_{0y} = v_0 \sin(30°) = 3.50 \times 0.500 = 1.75 \ms $$ (downward)
+$$ v_{0y} = v_0 \sin(30°) = 3.50 \ms \times 0.500 = 1.75 \ms $$ (downward)
 </div>
 
 **Step 2: Find the time to fall 12.0 m**
@@ -2227,27 +2227,27 @@ $$ y = v_{0y}t + \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 12.0 = 1.75t + \frac{1}{2}(9.80)t^2 $$
+$$ 12.0 \m = (1.75 \ms)t + \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 <div class="equation">
-$$ 4.90t^2 + 1.75t - 12.0 = 0 $$
+$$ (4.90 \mss)t^2 + (1.75 \ms)t - 12.0 \m = 0 $$
 </div>
 
 Using the quadratic formula:
 
 <div class="equation">
-$$ t = \frac{-1.75 + \sqrt{(1.75)^2 + 4(4.90)(12.0)}}{2(4.90)} $$
+$$ t = \frac{-1.75 \ms + \sqrt{(1.75 \ms)^2 + 4(4.90 \mss)(12.0 \m)}}{2(4.90 \mss)} $$
 </div>
 
 <div class="equation">
-$$ t = \frac{-1.75 + \sqrt{3.06 + 235.2}}{9.80} = \frac{-1.75 + \sqrt{238.3}}{9.80} = \frac{-1.75 + 15.44}{9.80} = \frac{13.69}{9.80} = 1.397 \s $$
+$$ t = \frac{-1.75 \ms + \sqrt{3.06 \mmss + 235.2 \mmss}}{9.80 \mss} = \frac{-1.75 \ms + \sqrt{238.3 \mmss}}{9.80 \mss} = \frac{-1.75 \ms + 15.44 \ms}{9.80 \mss} = \frac{13.69 \ms}{9.80 \mss} = 1.397 \s $$
 </div>
 
 **Step 3: Calculate horizontal distance traveled**
 
 <div class="equation">
-$$ x = v_{0x}t = 3.03 \times 1.397 = 4.23 \m $$
+$$ x = v_{0x}t = 3.03 \ms \times 1.397 \s = 4.23 \m $$
 </div>
 
 **Step 4: Determine if mouse hits the nest**
@@ -2257,7 +2257,7 @@ The mouse travels 4.23 m east from its release point. Since it was released 4.00
 Distance from nest center:
 
 <div class="equation">
-$$ d = 4.23 - 4.00 = 0.23 \m = 23 \text{ cm} $$
+$$ d = 4.23 \m - 4.00 \m = 0.23 \m = 23 \text{ cm} $$
 </div>
 
 The nest has a radius of 15.0 cm (diameter 30.0 cm). Since 23 cm > 15 cm, the mouse **misses the nest**.
@@ -2323,7 +2323,7 @@ $$ v_{0y} = v_0 \sin(40°) = 0.643 v_0 $$
 Since horizontal velocity is constant:
 
 <div class="equation">
-$$ t = \frac{x}{v_{0x}} = \frac{30}{0.766 v_0} = \frac{39.2}{v_0} $$
+$$ t = \frac{x}{v_{0x}} = \frac{30 \m}{0.766 v_0} = \frac{39.2 \m}{v_0} $$
 </div>
 
 **Step 3: Use vertical motion equation**
@@ -2335,35 +2335,35 @@ $$ y = v_{0y}t - \frac{1}{2}gt^{2} $$
 Substituting known values:
 
 <div class="equation">
-$$ 2.4 = (0.643 v_0)\left(\frac{39.2}{v_0}\right) - \frac{1}{2}(9.80)\left(\frac{39.2}{v_0}\right)^2 $$
+$$ 2.4 \m = (0.643 v_0)\left(\frac{39.2 \m}{v_0}\right) - \frac{1}{2}(9.80 \mss)\left(\frac{39.2 \m}{v_0}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 2.4 = 0.643(39.2) - 4.90\left(\frac{1536}{v_0^2}\right) $$
+$$ 2.4 \m = 0.643(39.2 \m) - 4.90 \mss\left(\frac{1536 \mm}{v_0^2}\right) $$
 </div>
 
 <div class="equation">
-$$ 2.4 = 25.2 - \frac{7526}{v_0^2} $$
+$$ 2.4 \m = 25.2 \m - \frac{7526 \text{m}^3/\text{s}^2}{v_0^2} $$
 </div>
 
 <div class="equation">
-$$ \frac{7526}{v_0^2} = 25.2 - 2.4 = 22.8 $$
+$$ \frac{7526 \text{m}^3/\text{s}^2}{v_0^2} = 25.2 \m - 2.4 \m = 22.8 \m $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = \frac{7526}{22.8} = 330 $$
+$$ v_0^2 = \frac{7526 \text{m}^3/\text{s}^2}{22.8 \m} = 330 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{330} = 18.2 \ms $$
+$$ v_0 = \sqrt{330 \text{m}^2/\text{s}^2} = 18.2 \ms $$
 </div>
 
 **Verification:**
 
 Let's verify this answer:
 
-- Time: $$ t = \frac{39.2}{18.2} = 2.15 \s $$
-- Vertical position: $$ y = (0.643)(18.2)(2.15) - \frac{1}{2}(9.80)(2.15)^2 = 25.1 - 22.7 = 2.4 \m $$ ✓
+- Time: $$ t = \frac{39.2 \m}{18.2 \ms} = 2.15 \s $$
+- Vertical position: $$ y = (0.643)(18.2 \ms)(2.15 \s) - \frac{1}{2}(9.80 \mss)(2.15 \s)^2 = 25.1 \m - 22.7 \m = 2.4 \m $$ ✓
 
 **Discussion**
 
@@ -2424,13 +2424,13 @@ The maximum range of 92 m is less than the required 95 m, so the goalkeeper **ca
 The goalkeeper falls short by:
 
 <div class="equation">
-$$ 95 - 92 = 3 \m $$
+$$ 95 \m - 92 \m = 3 \m $$
 </div>
 
 To reach 95 m, the goalkeeper would need an initial speed of:
 
 <div class="equation">
-$$ v_0 = \sqrt{Rg} = \sqrt{95 \times 9.80} = \sqrt{931} = 30.5 \ms $$
+$$ v_0 = \sqrt{Rg} = \sqrt{95 \m \times 9.80 \mss} = \sqrt{931 \text{m}^2/\text{s}^2} = 30.5 \ms $$
 </div>
 
 So the goalkeeper would need to kick just 0.5 m/s faster (about 2% harder) to reach the opponent's goal.
@@ -2476,7 +2476,7 @@ Take $$ +x $$ horizontal toward the basket and $$ +y $$ up, with the origin at t
 - Horizontal distance: $$ x = 4.57 \m $$
 - Initial height: $$ y_0 = 2.44 \m $$
 - Final height: $$ y = 3.05 \m $$
-- Vertical displacement: $$ \Delta y = 3.05 - 2.44 = 0.61 \m $$
+- Vertical displacement: $$ \Delta y = 3.05 \m - 2.44 \m = 0.61 \m $$
 - Initial speed: $$ v_0 = 8.15 \ms $$
 - Acceleration: $$ a_y = -g = -9.80 \mss $$ (taking up as positive)
 
@@ -2517,7 +2517,7 @@ $$ 4.57 = 8.15\cos\theta \cdot t $$
 Solving for time:
 
 <div class="equation">
-$$ t = \frac{4.57}{8.15\cos\theta} $$
+$$ t = \frac{4.57 \m}{8.15 \ms\cos\theta} $$
 </div>
 
 **Vertical motion:**
@@ -2527,7 +2527,7 @@ $$ \Delta y = v_{0y}t - \frac{1}{2}gt^{2} $$
 </div>
 
 <div class="equation">
-$$ 0.61 = 8.15\sin\theta \cdot t - \frac{1}{2}(9.80)t^2 $$
+$$ 0.61 \m = 8.15 \ms\sin\theta \cdot t - \frac{1}{2}(9.80 \mss)t^2 $$
 </div>
 
 **Step 5: Substitute and solve for θ**
@@ -2535,25 +2535,25 @@ $$ 0.61 = 8.15\sin\theta \cdot t - \frac{1}{2}(9.80)t^2 $$
 Substitute the expression for t from horizontal motion:
 
 <div class="equation">
-$$ 0.61 = 8.15\sin\theta \left(\frac{4.57}{8.15\cos\theta}\right) - 4.90\left(\frac{4.57}{8.15\cos\theta}\right)^2 $$
+$$ 0.61 \m = 8.15 \ms\sin\theta \left(\frac{4.57 \m}{8.15 \ms\cos\theta}\right) - 4.90 \mss\left(\frac{4.57 \m}{8.15 \ms\cos\theta}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - 4.90\left(\frac{20.9}{66.4\cos^{2}\theta}\right) $$
+$$ 0.61 \m = 4.57 \m\tan\theta - 4.90 \mss\left(\frac{20.9 \mm}{66.4 \mmss\cos^{2}\theta}\right) $$
 </div>
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - \frac{102.4}{66.4\cos^{2}\theta} $$
+$$ 0.61 \m = 4.57 \m\tan\theta - \frac{102.4 \text{m}^3/\text{s}^2}{66.4 \mmss\cos^{2}\theta} $$
 </div>
 
 Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$, so $$ \frac{1}{\cos^{2}\theta} = 1 + \tan^{2}\theta $$:
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - 1.54(1 + \tan^{2}\theta) $$
+$$ 0.61 \m = 4.57 \m\tan\theta - 1.54 \m(1 + \tan^{2}\theta) $$
 </div>
 
 <div class="equation">
-$$ 0.61 = 4.57\tan\theta - 1.54 - 1.54\tan^{2}\theta $$
+$$ 0.61 \m = 4.57 \m\tan\theta - 1.54 \m - 1.54 \m\tan^{2}\theta $$
 </div>
 
 <div class="equation">
@@ -2561,27 +2561,27 @@ $$ 1.54\tan^{2}\theta - 4.57\tan\theta + (1.54 + 0.61) = 0 $$
 </div>
 
 <div class="equation">
-$$ 1.54\tan^{2}\theta - 4.57\tan\theta + 2.15 = 0 $$
+$$ 1.54 \m\tan^{2}\theta - 4.57 \m\tan\theta + 2.15 \m = 0 $$
 </div>
 
 Using the quadratic formula with $$ u = \tan\theta $$:
 
 <div class="equation">
-$$ u = \frac{4.57 \pm \sqrt{(4.57)^2 - 4(1.54)(2.15)}}{2(1.54)} $$
+$$ u = \frac{4.57 \m \pm \sqrt{(4.57 \m)^2 - 4(1.54 \m)(2.15 \m)}}{2(1.54 \m)} $$
 </div>
 
 <div class="equation">
-$$ u = \frac{4.57 \pm \sqrt{20.9 - 13.2}}{3.08} = \frac{4.57 \pm \sqrt{7.7}}{3.08} = \frac{4.57 \pm 2.77}{3.08} $$
+$$ u = \frac{4.57 \m \pm \sqrt{20.9 \mm - 13.2 \mm}}{3.08 \m} = \frac{4.57 \m \pm \sqrt{7.7 \mm}}{3.08 \m} = \frac{4.57 \m \pm 2.77 \m}{3.08 \m} $$
 </div>
 
 Two solutions:
 
 <div class="equation">
-$$ u_1 = \frac{4.57 + 2.77}{3.08} = \frac{7.34}{3.08} = 2.38 \Rightarrow \theta_{1} = \tan^{-1}(2.38) = 67.2° $$
+$$ u_1 = \frac{4.57 \m + 2.77 \m}{3.08 \m} = \frac{7.34 \m}{3.08 \m} = 2.38 \Rightarrow \theta_{1} = \tan^{-1}(2.38) = 67.2° $$
 </div>
 
 <div class="equation">
-$$ u_2 = \frac{4.57 - 2.77}{3.08} = \frac{1.80}{3.08} = 0.584 \Rightarrow \theta_{2} = \tan^{-1}(0.584) = 30.3° $$
+$$ u_2 = \frac{4.57 \m - 2.77 \m}{3.08 \m} = \frac{1.80 \m}{3.08 \m} = 0.584 \Rightarrow \theta_{2} = \tan^{-1}(0.584) = 30.3° $$
 </div>
 
 **Discussion**
@@ -2648,7 +2648,7 @@ $$ v_{0y} = v_0 \sin(38.0°) = 0.616 v_0 $$
 **Step 2: Find time from horizontal motion**
 
 <div class="equation">
-$$ t = \frac{R}{v_{0x}} = \frac{24.77}{0.788 v_0} = \frac{31.4}{v_0} $$
+$$ t = \frac{R}{v_{0x}} = \frac{24.77 \m}{0.788 v_0} = \frac{31.4 \m}{v_0} $$
 </div>
 
 **Step 3: Apply vertical motion equation**
@@ -2660,27 +2660,27 @@ $$ y = y_0 + v_{0y}t - \frac{1}{2}gt^{2} $$
 At landing, $$ y = 0 $$:
 
 <div class="equation">
-$$ 0 = 2.10 + (0.616 v_0)\left(\frac{31.4}{v_0}\right) - \frac{1}{2}(9.80)\left(\frac{31.4}{v_0}\right)^2 $$
+$$ 0 = 2.10 \m + (0.616 v_0)\left(\frac{31.4 \m}{v_0}\right) - \frac{1}{2}(9.80 \mss)\left(\frac{31.4 \m}{v_0}\right)^2 $$
 </div>
 
 <div class="equation">
-$$ 0 = 2.10 + 0.616(31.4) - 4.90\left(\frac{986}{v_0^2}\right) $$
+$$ 0 = 2.10 \m + 0.616(31.4 \m) - 4.90 \mss\left(\frac{986 \mm}{v_0^2}\right) $$
 </div>
 
 <div class="equation">
-$$ 0 = 2.10 + 19.34 - \frac{4831}{v_0^2} $$
+$$ 0 = 2.10 \m + 19.34 \m - \frac{4831 \text{m}^3/\text{s}^2}{v_0^2} $$
 </div>
 
 <div class="equation">
-$$ \frac{4831}{v_0^2} = 21.44 $$
+$$ \frac{4831 \text{m}^3/\text{s}^2}{v_0^2} = 21.44 \m $$
 </div>
 
 <div class="equation">
-$$ v_0^2 = \frac{4831}{21.44} = 225.3 $$
+$$ v_0^2 = \frac{4831 \text{m}^3/\text{s}^2}{21.44 \m} = 225.3 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{225.3} = 15.0 \ms $$
+$$ v_0 = \sqrt{225.3 \text{m}^2/\text{s}^2} = 15.0 \ms $$
 </div>
 
 **Discussion**
@@ -2745,11 +2745,11 @@ $$ 0 = v_{0y}^2 - 2(9.80 \mss)(0.750 \m) $$
 </div>
 
 <div class="equation">
-$$ v_{0y}^2 = 2(9.80)(0.750) = 14.7 \mmss $$
+$$ v_{0y}^2 = 2(9.80 \mss)(0.750 \m) = 14.7 \mmss $$
 </div>
 
 <div class="equation">
-$$ v_{0y} = \sqrt{14.7} = 3.83 \ms $$
+$$ v_{0y} = \sqrt{14.7 \text{m}^2/\text{s}^2} = 3.83 \ms $$
 </div>
 
 **(b) Starting distance from basket:**
@@ -2767,7 +2767,7 @@ $$ 0 = 3.83 - (9.80)t $$
 </div>
 
 <div class="equation">
-$$ t = \frac{3.83}{9.80} = 0.391 \s $$
+$$ t = \frac{3.83 \ms}{9.80 \mss} = 0.391 \s $$
 </div>
 
 Horizontal distance traveled during this time:
@@ -2840,7 +2840,7 @@ $$ R = \frac{v_0^2}{g} $$
 </div>
 
 <div class="equation">
-$$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588} = 24.2 \ms $$
+$$ v_0 = \sqrt{Rg} = \sqrt{(60.0 \m)(9.80 \mss)} = \sqrt{588 \text{m}^2/\text{s}^2} = 24.2 \ms $$
 </div>
 
 **(b) Range with wind gust:**
@@ -2854,19 +2854,19 @@ $$ v_{0x} = v_{0y} = v_0 \cos(45°) = (24.249 \ms)(0.70711) = 17.146 \ms $$
 Time to reach maximum height:
 
 <div class="equation">
-$$ t_{up} = \frac{v_{0y}}{g} = \frac{17.146}{9.80} = 1.7496 \s $$
+$$ t_{up} = \frac{v_{0y}}{g} = \frac{17.146 \ms}{9.80 \mss} = 1.7496 \s $$
 </div>
 
 Horizontal distance to maximum height (half the no-wind range):
 
 <div class="equation">
-$$ x_1 = v_{0x} \times t_{up} = 17.146 \times 1.7496 = 30.0 \m $$
+$$ x_1 = v_{0x} \times t_{up} = 17.146 \ms \times 1.7496 \s = 30.0 \m $$
 </div>
 
 After the wind gust, horizontal velocity becomes:
 
 <div class="equation">
-$$ v_x' = 17.146 - 1.50 = 15.646 \ms $$
+$$ v_x' = 17.146 \ms - 1.50 \ms = 15.646 \ms $$
 </div>
 
 Time to fall from maximum height (by symmetry, same as time to rise):
@@ -2878,13 +2878,13 @@ $$ t_{down} = t_{up} = 1.7496 \s $$
 Horizontal distance during descent:
 
 <div class="equation">
-$$ x_2 = v_x' \times t_{down} = 15.646 \times 1.7496 = 27.375 \m $$
+$$ x_2 = v_x' \times t_{down} = 15.646 \ms \times 1.7496 \s = 27.375 \m $$
 </div>
 
 Total horizontal distance:
 
 <div class="equation">
-$$ R_{total} = x_1 + x_2 = 30.000 + 27.375 = 57.4 \m $$
+$$ R_{total} = x_1 + x_2 = 30.000 \m + 27.375 \m = 57.4 \m $$
 </div>
 
 Equivalently, the gust shortens the range by $$ (1.50 \ms)\,t_{down} $$, so $$ R' = 60.0 \m - 1.50\sqrt{30.0/9.80} \m = 57.3755 \m \approx 57.4 \m $$.
@@ -3115,7 +3115,7 @@ Maximum range occurs at $$ \theta_{0} = 45° $$, where $$ \sin(2\theta_{0}) = \s
 Given: $$ v_0 = 4.0 \text{ km/s} = 4000 \ms $$, $$ g = 9.80 \mss $$
 
 <div class="equation">
-$$ R_{\text{max}} = \frac{v_0^2}{g} = \frac{(4000)^2}{9.80} = \frac{16{,}000{,}000}{9.80} = 1{,}633{,}000 \m \approx 1630 \text{ km} $$
+$$ R_{\text{max}} = \frac{v_0^2}{g} = \frac{(4000 \ms)^2}{9.80 \mss} = \frac{16{,}000{,}000 \mmss}{9.80 \mss} = 1{,}633{,}000 \m \approx 1630 \text{ km} $$
 </div>
 
 **(b) What is unreasonable:**
@@ -3190,7 +3190,7 @@ A baseball player throws a ball to clear a 3.0 m high fence. The fence is 20.0 m
 - Horizontal distance to fence: $$ x_f = 20.0 \m $$
 - Release height: $$ y_0 = 2.0 \m $$
 - Height ball must reach: $$ y_f = 3.0 \m $$
-- Net vertical distance: $$ \Delta y = 3.0 - 2.0 = 1.0 \m $$
+- Net vertical distance: $$ \Delta y = 3.0 \m - 2.0 \m = 1.0 \m $$
 
 **Approach:** Choose an initial speed (say $$ v_0 = 15.0 \ms $$) and find the launch angle(s) needed.
 
@@ -3201,15 +3201,15 @@ $$ y - y_0 = x\tan\theta - \frac{gx^{2}}{2v_0^2\cos^{2}\theta} $$
 
 At the fence ($$ x = 20.0 \m $$, $$ y - y_0 = 1.0 \m $$):
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{(9.80)(20.0)^2}{2(15.0)^2\cos^{2}\theta} $$
+$$ 1.0 \m = 20.0 \m\tan\theta - \frac{(9.80 \mss)(20.0 \m)^2}{2(15.0 \ms)^2\cos^{2}\theta} $$
 </div>
 
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{3920}{450\cos^{2}\theta} $$
+$$ 1.0 \m = 20.0 \m\tan\theta - \frac{3920 \text{m}^3/\text{s}^2}{450 \mmss\cos^{2}\theta} $$
 </div>
 
 <div class="equation">
-$$ 1.0 = 20.0\tan\theta - \frac{8.71}{\cos^{2}\theta} $$
+$$ 1.0 \m = 20.0 \m\tan\theta - \frac{8.71 \m}{\cos^{2}\theta} $$
 </div>
 
 Using $$ \sec^{2}\theta = 1 + \tan^{2}\theta $$:
@@ -3218,21 +3218,21 @@ $$ 1.0 = 20.0\tan\theta - 8.71(1 + \tan^{2}\theta) $$
 </div>
 
 <div class="equation">
-$$ 8.71\tan^{2}\theta - 20.0\tan\theta + 9.71 = 0 $$
+$$ 8.71\tan^{2}\theta - 20.0 \m\tan\theta + 9.71 \m = 0 $$
 </div>
 
-**Using quadratic formula** with $$ a = 8.71 $$, $$ b = -20.0 $$, $$ c = 9.71 $$:
+**Using quadratic formula** with $$ a = 8.71 $$, $$ b = -20.0 \m $$, $$ c = 9.71 \m $$:
 <div class="equation">
-$$ \tan\theta = \frac{20.0 \pm \sqrt{400 - 338}}{17.4} = \frac{20.0 \pm \sqrt{62}}{17.4} = \frac{20.0 \pm 7.87}{17.4} $$
+$$ \tan\theta = \frac{20.0 \m \pm \sqrt{400 \mm - 338 \mm}}{17.4 \m} = \frac{20.0 \m \pm \sqrt{62 \mm}}{17.4 \m} = \frac{20.0 \m \pm 7.87 \m}{17.4 \m} $$
 </div>
 
 **Two solutions:**
 <div class="equation">
-$$ \tan\theta_{1} = \frac{27.9}{17.4} = 1.60 \quad \Rightarrow \quad \theta_{1} = 58.0° $$
+$$ \tan\theta_{1} = \frac{27.9 \m}{17.4 \m} = 1.60 \quad \Rightarrow \quad \theta_{1} = 58.0° $$
 </div>
 
 <div class="equation">
-$$ \tan\theta_{2} = \frac{12.1}{17.4} = 0.695 \quad \Rightarrow \quad \theta_{2} = 34.8° $$
+$$ \tan\theta_{2} = \frac{12.1 \m}{17.4 \m} = 0.695 \quad \Rightarrow \quad \theta_{2} = 34.8° $$
 </div>
 
 **Discussion**

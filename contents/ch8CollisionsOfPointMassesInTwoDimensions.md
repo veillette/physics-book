@@ -621,13 +621,13 @@ Solving for $$ v'_{\text{ball},y} $$:
 The final ball velocity magnitude is:
 
 <div class="equation">
- $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80)^2 + (-2.31)^2} = \sqrt{77.4 + 5.34} = 9.10 \ms $$
+ $$ v'_{\text{ball}} = \sqrt{{v'_{\text{ball},x}}^2 + {v'_{\text{ball},y}}^2} = \sqrt{(8.80 \ms)^2 + (-2.31 \ms)^2} = \sqrt{77.4 \text{m}^2/\text{s}^2 + 5.34 \text{m}^2/\text{s}^2} = 9.10 \ms $$
 </div>
 
 The direction is:
 
 <div class="equation">
- $$ \theta = \tan^{-1}\left(\frac{v'_{\text{ball},y}}{v'_{\text{ball},x}}\right) = \tan^{-1}\left(\frac{-2.31}{8.80}\right) = -14.7^\circ $$
+ $$ \theta = \tan^{-1}\left(\frac{v'_{\text{ball},y}}{v'_{\text{ball},x}}\right) = \tan^{-1}\left(\frac{-2.31 \ms}{8.80 \ms}\right) = -14.7^\circ $$
 </div>
 
 The bowling ball's final velocity is 9.10 m/s at 14.7° below the horizontal.
@@ -707,7 +707,7 @@ Part (a): First, find the initial speed of the helium nucleus from its kinetic e
 </div>
 
 <div class="equation">
- $$ v_{\text{He}} = \sqrt{\frac{2\KE_{i}}{m_{\text{He}}}} = \sqrt{\frac{2(8.00\times 10^{-13}\J)}{6.68\times 10^{-27}\kg}} = \sqrt{2.395\times 10^{14}\mss} = 1.55\times 10^{7}\ms $$
+ $$ v_{\text{He}} = \sqrt{\frac{2\KE_{i}}{m_{\text{He}}}} = \sqrt{\frac{2(8.00\times 10^{-13}\J)}{6.68\times 10^{-27}\kg}} = \sqrt{2.395\times 10^{14}\mmss} = 1.55\times 10^{7}\ms $$
 </div>
 
 Apply conservation of momentum in the x-direction:
@@ -838,13 +838,13 @@ Apply conservation of y-momentum:
 The final velocity magnitude is:
 
 <div class="equation">
- $$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05)^2 + (-4.68)^2} = \sqrt{49.7 + 21.9} = 8.46 \ms $$
+ $$ v_f = \sqrt{v_{fx}^2 + v_{fy}^2} = \sqrt{(-7.05 \ms)^2 + (-4.68 \ms)^2} = \sqrt{49.7 \text{m}^2/\text{s}^2 + 21.9 \text{m}^2/\text{s}^2} = 8.46 \ms $$
 </div>
 
 The direction (angle from west toward south):
 
 <div class="equation">
- $$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68}{7.05}\right) = 33.6^\circ $$
+ $$ \theta = \tan^{-1}\left(\frac{|v_{fy}|}{|v_{fx}|}\right) = \tan^{-1}\left(\frac{4.68 \ms}{7.05 \ms}\right) = 33.6^\circ $$
 </div>
 
 The final velocity is 8.46 m/s in a direction $$ 33.6^\circ $$ south of west.

@@ -792,7 +792,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(882 \N)(0.350 \m)}{(1.018 \times 10^{-3
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{308.7}{1.629 \times 10^{7}} = 1.90 \times 10^{-5} \m = 1.90 \times 10^{-3} \text{ cm} $$
+$$ \Delta L = \frac{308.7 \text{N}\cdot\text{m}}{1.629 \times 10^{7} \N} = 1.90 \times 10^{-5} \m = 1.90 \times 10^{-3} \text{ cm} $$
 </div>
 
 **Discussion**
@@ -838,7 +838,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(1470 \N)(0.380 \m)}{(1.385 \times 10^{-
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{558.6}{1.247 \times 10^{7}} = 4.48 \times 10^{-5} \m = 0.0448 \text{ mm} $$
+$$ \Delta L = \frac{558.6 \text{N}\cdot\text{m}}{1.247 \times 10^{7} \N} = 4.48 \times 10^{-5} \m = 0.0448 \text{ mm} $$
 </div>
 
 **Discussion**
@@ -883,7 +883,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(4.0 \N)(0.060 \m)}{(1.96 \times 10^{-7}
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{0.24}{196} = 1.22 \times 10^{-3} \m \approx 1 \text{ mm} $$
+$$ \Delta L = \frac{0.24 \text{N}\cdot\text{m}}{196 \N} = 1.22 \times 10^{-3} \m \approx 1 \text{ mm} $$
 </div>
 
 (b) Reasonableness check:
@@ -933,7 +933,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(4626 \N)(610 \m)}{(0.0707 \mm)(2.1 \tim
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{2.82 \times 10^6}{1.48 \times 10^{10}} = 1.90 \times 10^{-4} \m = 0.190 \text{ mm} $$
+$$ \Delta L = \frac{2.82 \times 10^6 \text{N}\cdot\text{m}}{1.48 \times 10^{10} \N} = 1.90 \times 10^{-4} \m = 0.190 \text{ mm} $$
 </div>
 
 **Discussion**
@@ -981,7 +981,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(637 \N)(35.0 \m)}{(5.03 \times 10^{-5} 
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{22295}{2.515 \times 10^5} = 0.089 \m \approx 9 \text{ cm} $$
+$$ \Delta L = \frac{22295 \text{N}\cdot\text{m}}{2.515 \times 10^5 \N} = 0.089 \m \approx 9 \text{ cm} $$
 </div>
 
 (b) Reasonableness check:
@@ -1078,7 +1078,7 @@ $$ \Delta L = \frac{FL_{0}}{AY} = \frac{(5.89 \times 10^5 \N)(6.00 \m)}{(1.96 \t
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{3.53 \times 10^6}{4.12 \times 10^8} = 8.59 \times 10^{-3} \m = 8.59 \text{ mm} $$
+$$ \Delta L = \frac{3.53 \times 10^6 \text{N}\cdot\text{m}}{4.12 \times 10^8 \N} = 8.59 \times 10^{-3} \m = 8.59 \text{ mm} $$
 </div>
 
 **Discussion**
@@ -1121,7 +1121,7 @@ $$ F = \frac{\Delta L \cdot A \cdot Y}{L_0} = \frac{(8.00 \times 10^{-3} \m)(5.6
 </div>
 
 <div class="equation">
-$$ F = \frac{9.53 \times 10^2}{1.35} = 706 \N $$
+$$ F = \frac{9.53 \times 10^2 \text{N}\cdot\text{m}}{1.35 \m} = 706 \N $$
 </div>
 
 **Discussion**
@@ -1160,7 +1160,7 @@ $$ \Delta x = \frac{FL_{0}}{AS} = \frac{(500 \N)(0.0300 \m)}{(1.257 \times 10^{-
 </div>
 
 <div class="equation">
-$$ \Delta x = \frac{15.0}{3.77 \times 10^{6}} = 3.98 \times 10^{-6} \m $$
+$$ \Delta x = \frac{15.0 \text{N}\cdot\text{m}}{3.77 \times 10^{6} \N} = 3.98 \times 10^{-6} \m $$
 </div>
 
 **Discussion**
@@ -1202,7 +1202,7 @@ $$ \Delta x = \frac{FL_{0}}{AS} = \frac{(600 \N)(0.00700 \m)}{(1.257 \times 10^{
 </div>
 
 <div class="equation">
-$$ \Delta x = \frac{4.20}{1.257 \times 10^6} = 3.34 \times 10^{-6} \m = 3.34 \text{ μm} $$
+$$ \Delta x = \frac{4.20 \text{N}\cdot\text{m}}{1.257 \times 10^6 \N} = 3.34 \times 10^{-6} \m = 3.34 \text{ μm} $$
 </div>
 
 **Discussion**
@@ -1243,8 +1243,8 @@ $$ I = \frac{\pi r^4}{4} = \frac{\pi (0.00300 \m)^4}{4} = 6.36 \times 10^{-11} \
 </div>
 
 2. Decompose the force:
-   - Transverse component (perpendicular to pencil): $$ F_\perp = F\cos 20° = 6.00 \cos 20° = 5.64 \N $$
-   - Compressive component (along pencil): $$ F_\parallel = F\sin 20° = 6.00 \sin 20° = 2.05 \N $$
+   - Transverse component (perpendicular to pencil): $$ F_\perp = F\cos 20° = 6.00 \N \cos 20° = 5.64 \N $$
+   - Compressive component (along pencil): $$ F_\parallel = F\sin 20° = 6.00 \N \sin 20° = 2.05 \N $$
 
 (a) Bending deflection of the 2.00-cm cantilever:
 
@@ -1263,7 +1263,7 @@ $$ \Delta L = \frac{F_\parallel L}{AY} = \frac{(2.05 \N)(0.0200 \m)}{(2.83 \time
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{0.0410}{4.24 \times 10^5} = 9.67 \times 10^{-8} \m $$
+$$ \Delta L = \frac{0.0410 \text{N}\cdot\text{m}}{4.24 \times 10^5 \N} = 9.67 \times 10^{-8} \m $$
 </div>
 
 **Discussion**
@@ -1307,8 +1307,8 @@ $$ I = \frac{\pi r^4}{4} = 2.01 \times 10^{-7} \text{ m}^4 $$
 </div>
 
 2. Decompose the tension force:
-   - Horizontal component: $$ F_H = T\cos 30° = 108 \cos 30° = 93.5 \N $$
-   - Vertical component: $$ F_V = T\sin 30° = 108 \sin 30° = 54.0 \N $$
+   - Horizontal component: $$ F_H = T\cos 30° = 108 \N \cos 30° = 93.5 \N $$
+   - Vertical component: $$ F_V = T\sin 30° = 108 \N \sin 30° = 54.0 \N $$
 
 (a) Formal small-deflection result at the top:
 
@@ -1327,7 +1327,7 @@ $$ \Delta L = \frac{F_V L}{AY} = \frac{(54.0 \N)(12.0 \m)}{(1.59 \times 10^{-3} 
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{648}{1.11 \times 10^8} = 5.82 \times 10^{-6} \m = 0.00582 \text{ mm} $$
+$$ \Delta L = \frac{648 \text{N}\cdot\text{m}}{1.11 \times 10^8 \N} = 5.82 \times 10^{-6} \m = 0.00582 \text{ mm} $$
 </div>
 
 **Discussion**
@@ -1421,7 +1421,7 @@ $$ \Delta P = 1.99 \times 10^8 \text{ N/m}^2 \approx 2.0 \times 10^8 \text{ N/m}
 Convert to atmospheres:
 
 <div class="equation">
-$$ \Delta P = \frac{2.0 \times 10^8}{1.01 \times 10^5} \approx 2000 \text{ atm} $$
+$$ \Delta P = \frac{2.0 \times 10^8 \text{Pa}}{1.01 \times 10^5 \text{Pa/atm}} \approx 2000 \text{ atm} $$
 </div>
 
 (b) Analysis of the result:
@@ -1467,7 +1467,7 @@ $$ \Delta L = \frac{TL_{0}}{AY} = \frac{(3.94 \times 10^3 \N)(15 \m)}{(1.96 \tim
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{5.91 \times 10^4}{4.12 \times 10^6} = 1.44 \times 10^{-2} \m = 1.4 \text{ cm} $$
+$$ \Delta L = \frac{5.91 \times 10^4 \text{N}\cdot\text{m}}{4.12 \times 10^6 \N} = 1.44 \times 10^{-2} \m = 1.4 \text{ cm} $$
 </div>
 
 **Discussion**
@@ -1501,7 +1501,7 @@ Clearly, the guy wire must be in the opposite direction of the bend.)
 
 **Strategy**
 
-At a 90° bend, the two wire tensions at 80° from vertical combine to create net horizontal and vertical forces on the pole. The vertical components compress the pole; the horizontal components (which don't cancel at a bend) bend it as a cantilever. Test the small-deflection estimate $$ \Delta x_{\text{lin}} = F_{H,\text{net}} L_0^3/(3YI) $$ with $$ I = \pi r^4/4 $$. For hardwood at half stiffness: $$ Y = 0.5 \times 1.5 \times 10^{10} = 7.5 \times 10^9 \text{ N/m}^2 $$.
+At a 90° bend, the two wire tensions at 80° from vertical combine to create net horizontal and vertical forces on the pole. The vertical components compress the pole; the horizontal components (which don't cancel at a bend) bend it as a cantilever. Test the small-deflection estimate $$ \Delta x_{\text{lin}} = F_{H,\text{net}} L_0^3/(3YI) $$ with $$ I = \pi r^4/4 $$. For hardwood at half stiffness: $$ Y = 0.5 \times 1.5 \times 10^{10} \text{Pa} = 7.5 \times 10^9 \text{ N/m}^2 $$.
 
 **Solution**
 
@@ -1511,22 +1511,22 @@ $$ A = \pi r^2 = \pi(0.090 \m)^2 = 2.54 \times 10^{-2} \mm $$
 </div>
 
 2. Decompose the forces from each wire (each at 80° from vertical = 10° from horizontal):
-   - Vertical component (each): $$ F_V = T\cos 80° = (4.00 \times 10^4)\cos 80° = 6.95 \times 10^3 \N $$
-   - Horizontal component (each): $$ F_H = T\sin 80° = (4.00 \times 10^4)\sin 80° = 3.94 \times 10^4 \N $$
+   - Vertical component (each): $$ F_V = T\cos 80° = (4.00 \times 10^4 \N)\cos 80° = 6.95 \times 10^3 \N $$
+   - Horizontal component (each): $$ F_H = T\sin 80° = (4.00 \times 10^4 \N)\sin 80° = 3.94 \times 10^4 \N $$
 
 3. At a 90° bend, the horizontal components are perpendicular to each other:
-   - Net horizontal force: $$ F_{H,net} = \sqrt{2} \times F_H = 1.414 \times 3.94 \times 10^4 = 5.57 \times 10^4 \N $$
-   - Total vertical force: $$ F_{V,total} = 2 \times F_V = 2 \times 6.95 \times 10^3 = 1.39 \times 10^4 \N $$
+   - Net horizontal force: $$ F_{H,net} = \sqrt{2} \times F_H = 1.414 \times 3.94 \times 10^4 \N = 5.57 \times 10^4 \N $$
+   - Total vertical force: $$ F_{V,total} = 2 \times F_V = 2 \times 6.95 \times 10^3 \N = 1.39 \times 10^4 \N $$
    - Direction of bend: 45° from each wire direction (bisecting the 90° angle)
 
 (a) Compression of the pole:
 
 <div class="equation">
-$$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4)(15.0)}{(2.54 \times 10^{-2})(7.5 \times 10^9)} $$
+$$ \Delta L = \frac{F_{V,total} \cdot L_0}{AY} = \frac{(1.39 \times 10^4 \N)(15.0 \m)}{(2.54 \times 10^{-2} \mm)(7.5 \times 10^9 \text{Pa})} $$
 </div>
 
 <div class="equation">
-$$ \Delta L = \frac{2.09 \times 10^5}{1.91 \times 10^8} = 1.09 \times 10^{-3} \m = 1.1 \text{ mm} $$
+$$ \Delta L = \frac{2.09 \times 10^5 \text{N}\cdot\text{m}}{1.91 \times 10^8 \N} = 1.09 \times 10^{-3} \m = 1.1 \text{ mm} $$
 </div>
 
 (b) Formal small-deflection result ($$ I = \pi r^4/4 = \pi(0.090 \m)^4/4 = 5.15 \times 10^{-5} \text{ m}^4 $$):
@@ -1550,7 +1550,7 @@ $$ T_{guy}\sin 30° = F_{H,net} $$
 </div>
 
 <div class="equation">
-$$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4}{0.500} = 1.11 \times 10^5 \N $$
+$$ T_{guy} = \frac{F_{H,net}}{\sin 30°} = \frac{5.57 \times 10^4 \N}{0.500} = 1.11 \times 10^5 \N $$
 </div>
 
 **Discussion**

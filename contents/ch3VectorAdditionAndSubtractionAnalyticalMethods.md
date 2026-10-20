@@ -124,7 +124,7 @@ hypotenuse. For example, if $$ A_{x} $$ and $$ A_{y} $$ are 9 and 5 blocks,
 respectively, then $$ A=\sqrt{ 9^{2}+5^{2}}=10.3 $$ blocks, again consistent
 with the example of the person walking in a city. Finally, the direction is
 
-$$ \theta ={\tan}^{-1}\left(5/9 \right) =29.1^\circ $$, as before.
+$$ \theta ={\tan}^{-1}\left(5 \m/9 \m \right) =29.1^\circ $$, as before.
 
 Be careful: a calculator's inverse tangent always returns an angle between
 $$ -90^\circ $$ and $$ +90^\circ $$. If $$ A_{x} $$ is negative, the vector
@@ -520,7 +520,7 @@ From Figure 11, path C consists of:
 
 Total distance:
 <div class="equation">
-$$ d = 120 + 600 + 240 + 120 + 120 + 360 = 1560 \m = 1.56 \text{ km} $$
+$$ d = 120 \m + 600 \m + 240 \m + 120 \m + 120 \m + 360 \m = 1560 \m = 1.56 \text{ km} $$
 </div>
 
 **(b) Displacement using analytical method:**
@@ -531,17 +531,17 @@ East-West components (taking east as positive):
 - 5 blocks east: +600 m
 - 1 block west: -120 m
 - 3 blocks west: -360 m
-- Total: $$ E = 600 - 120 - 360 = 120 \m $$ east
+- Total: $$ E = 600 \m - 120 \m - 360 \m = 120 \m $$ east
 
 North-South components (taking north as positive):
 - 1 block north: +120 m
 - 2 blocks south: -240 m
 - 1 block north: +120 m
-- Total: $$ N = 120 - 240 + 120 = 0 \m $$
+- Total: $$ N = 120 \m - 240 \m + 120 \m = 0 \m $$
 
 **Step 2: Calculate magnitude**
 <div class="equation">
-$$ R = \sqrt{E^2 + N^2} = \sqrt{(120)^2 + 0^2} = 120 \m $$
+$$ R = \sqrt{E^2 + N^2} = \sqrt{(120 \m)^2 + (0 \m)^2} = 120 \m $$
 </div>
 
 **Step 3: Calculate direction**
@@ -593,7 +593,7 @@ From Figure 11, Path D consists of (reading the figure), with each block 120 m o
 
 **(a) Total distance:**
 <div class="equation">
-$$ d_{\text{total}} = 240 + 720 + 480 + 120 = 1560 \m $$
+$$ d_{\text{total}} = 240 \m + 720 \m + 480 \m + 120 \m = 1560 \m $$
 </div>
 
 **(b) Displacement using analytical method:**
@@ -606,21 +606,21 @@ $$ d_{\text{total}} = 240 + 720 + 480 + 120 = 1560 \m $$
 
 **Step 2: Sum the components**
 <div class="equation">
-$$ R_{\text{east}} = 0 + 720 + 0 + (-120) = 600 \m $$
+$$ R_{\text{east}} = 0 \m + 720 \m + 0 \m + (-120 \m) = 600 \m $$
 </div>
 
 <div class="equation">
-$$ R_{\text{north}} = -240 + 0 + 480 + 0 = 240 \m $$
+$$ R_{\text{north}} = -240 \m + 0 \m + 480 \m + 0 \m = 240 \m $$
 </div>
 
 **Step 3: Calculate magnitude**
 <div class="equation">
-$$ R = \sqrt{R_{\text{east}}^2 + R_{\text{north}}^2} = \sqrt{(600)^2 + (240)^2} = \sqrt{360{,}000 + 57{,}600} = \sqrt{417{,}600} = 646 \m $$
+$$ R = \sqrt{R_{\text{east}}^2 + R_{\text{north}}^2} = \sqrt{(600 \m)^2 + (240 \m)^2} = \sqrt{360{,}000 (\m)^2 + 57{,}600 (\m)^2} = \sqrt{417{,}600 (\m)^2} = 646 \m $$
 </div>
 
 **Step 4: Calculate direction**
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{R_{\text{north}}}{R_{\text{east}}}\right) = \tan^{-1}\left(\frac{240}{600}\right) = \tan^{-1}(0.400) = 21.8° $$
+$$ \theta = \tan^{-1}\left(\frac{R_{\text{north}}}{R_{\text{east}}}\right) = \tan^{-1}\left(\frac{240 \m}{600 \m}\right) = \tan^{-1}(0.400) = 21.8° $$
 </div>
 
 Since both components are positive, the direction is 21.8° north of east.
@@ -674,21 +674,21 @@ $$ R_{\text{east}} = R \cos\theta = 123 \times \cos(45^\circ) $$
 </div>
 
 <div class="equation">
-$$ R_{\text{east}} = 123 \times 0.707 = 87.0 \text{ km} $$
+$$ R_{\text{east}} = 123 \text{ km} \times 0.707 = 87.0 \text{ km} $$
 </div>
 
 **North component:**
 <div class="equation">
-$$ R_{\text{north}} = R \sin\theta = 123 \times \sin(45^\circ) $$
+$$ R_{\text{north}} = R \sin\theta = 123 \text{km} \times \sin(45^\circ) $$
 </div>
 
 <div class="equation">
-$$ R_{\text{north}} = 123 \times 0.707 = 87.0 \text{ km} $$
+$$ R_{\text{north}} = 123 \text{ km} \times 0.707 = 87.0 \text{ km} $$
 </div>
 
 **Discussion**
 
-At 45°, the displacement is equally divided between the north and east directions, which is why both components are equal (87.0 km each). This makes sense geometrically: a 45° angle bisects the right angle between north and east, so the components must be equal. We can verify: $$ \sqrt{(87.0)^2 + (87.0)^2} = \sqrt{7569 + 7569} = \sqrt{15,138} = 123 \text{ km} $$ ✓. This confirms our component calculations are correct. The fact that Sacramento is northeast of San Francisco at exactly 45° creates this symmetric result.
+At 45°, the displacement is equally divided between the north and east directions, which is why both components are equal (87.0 km each). This makes sense geometrically: a 45° angle bisects the right angle between north and east, so the components must be equal. We can verify: $$ \sqrt{(87.0 \text{ km})^2 + (87.0 \text{ km})^2} = \sqrt{7569 (\text{ km})^2 + 7569 (\text{ km})^2} = \sqrt{15,138 (\text{ km})^2} = 123 \text{ km} $$ ✓. This confirms our component calculations are correct. The fact that Sacramento is northeast of San Francisco at exactly 45° creates this symmetric result.
 
 **Answer**
 
@@ -744,23 +744,23 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the start. Here $$ A_E
 **Resultant R = A + B:**
 
 <div class="equation">
-$$ R_E = A_E + B_E = -18.0 + 0 = -18.0 \m $$
+$$ R_E = A_E + B_E = -18.0 \m + 0 \m = -18.0 \m $$
 </div>
 
 <div class="equation">
-$$ R_N = A_N + B_N = 0 + 25.0 = 25.0 \m $$
+$$ R_N = A_N + B_N = 0 \m + 25.0 \m = 25.0 \m $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{|R_E|}{R_N}\right) = \tan^{-1}\left(\frac{18.0}{25.0}\right) = \tan^{-1}(0.720) = 35.8° $$
+$$ \theta = \tan^{-1}\left(\frac{|R_E|}{R_N}\right) = \tan^{-1}\left(\frac{18.0 \m}{25.0 \m}\right) = \tan^{-1}(0.720) = 35.8° $$
 </div>
 
 Since RE is negative (west) and RN is positive (north), the compass direction is **35.8° west of north** (or equivalently, N35.8°W).
@@ -822,23 +822,23 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the start: $$ B_y = +2
 **Resultant R = B + A:**
 
 <div class="equation">
-$$ R_E = B_E + A_E = 0 + (-18.0) = -18.0 \m $$
+$$ R_E = B_E + A_E = 0 \m + (-18.0 \m) = -18.0 \m $$
 </div>
 
 <div class="equation">
-$$ R_N = B_N + A_N = 25.0 + 0 = 25.0 \m $$
+$$ R_N = B_N + A_N = 25.0 \m + 0 \m = 25.0 \m $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0)^2 + (25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+$$ R = \sqrt{R_E^2 + R_N^2} = \sqrt{(-18.0 \m)^2 + (25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{|R_E|}{R_N}\right) = \tan^{-1}\left(\frac{18.0}{25.0}\right) = \tan^{-1}(0.720) = 35.8^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{|R_E|}{R_N}\right) = \tan^{-1}\left(\frac{18.0 \m}{25.0 \m}\right) = \tan^{-1}(0.720) = 35.8^\circ $$
 </div>
 
 Since the east component is negative and the north component is positive, the direction is 35.8° west of north.
@@ -896,13 +896,13 @@ Given:
 **North component:**
 
 <div class="equation">
-$$ R_{\text{north}} = R\cos(15°) = 7.50 \times 0.966 = 7.24 \text{ km} $$
+$$ R_{\text{north}} = R\cos(15°) = 7.50 \text{ km} \times 0.966 = 7.24 \text{ km} $$
 </div>
 
 **East component:**
 
 <div class="equation">
-$$ R_{\text{east}} = R\sin(15°) = 7.50 \times 0.259 = 1.94 \text{ km} $$
+$$ R_{\text{east}} = R\sin(15°) = 7.50 \text{ km} \times 0.259 = 1.94 \text{ km} $$
 </div>
 
 **(b) Reversed order:**
@@ -972,23 +972,23 @@ Take east and north as positive.
 **Resultant R' = A − B:**
 
 <div class="equation">
-$$ R'_E = A_E - B_E = -18.0 - 0 = -18.0 \m $$
+$$ R'_E = A_E - B_E = -18.0 \m - 0 \m = -18.0 \m $$
 </div>
 
 <div class="equation">
-$$ R'_N = A_N - B_N = 0 - 25.0 = -25.0 \m $$
+$$ R'_N = A_N - B_N = 0 \m - 25.0 \m = -25.0 \m $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R' = \sqrt{(-18.0)^2 + (-25.0)^2} = \sqrt{324 + 625} = \sqrt{949} = 30.8 \m $$
+$$ R' = \sqrt{(-18.0 \m)^2 + (-25.0 \m)^2} = \sqrt{324 (\m)^2 + 625 (\m)^2} = \sqrt{949 (\m)^2} = 30.8 \m $$
 </div>
 
 **Direction:** Both components are negative (west and south), so the vector points southwest. Measured from the west axis,
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{25.0}{18.0}\right) = 54.2^\circ \text{ south of west}. $$
+$$ \theta = \tan^{-1}\left(\frac{25.0 \m}{18.0 \m}\right) = 54.2^\circ \text{ south of west}. $$
 </div>
 
 **(b) Finding B - A (walking 25.0 m north then 18.0 m east):**
@@ -1006,17 +1006,17 @@ $$ \theta = \tan^{-1}\left(\frac{25.0}{18.0}\right) = 54.2^\circ \text{ south of
 **Resultant:**
 
 <div class="equation">
-$$ R_E = 0 + 18.0 = 18.0 \m $$
+$$ R_E = 0 \m + 18.0 \m = 18.0 \m $$
 </div>
 
 <div class="equation">
-$$ R_N = 25.0 + 0 = 25.0 \m $$
+$$ R_N = 25.0 \m + 0 \m = 25.0 \m $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{(18.0)^2 + (25.0)^2} = 30.8 \m $$
+$$ R = \sqrt{(18.0 \m)^2 + (25.0 \m)^2} = 30.8 \m $$
 </div>
 
 **Direction:**
@@ -1066,31 +1066,31 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the west corner. Going
 **Vector A** (80.0 m at 21° south of east):
 
 <div class="equation">
-$$ A_E = 80.0\cos(21°) = 80.0(0.934) = 74.7 \m $$
+$$ A_E = 80.0 \m\cos(21°) = 80.0(0.934) = 74.7 \m $$
 </div>
 
 <div class="equation">
-$$ A_N = -80.0\sin(21°) = -80.0(0.358) = -28.6 \m $$
+$$ A_N = -80.0 \m\sin(21°) = -80.0(0.358) = -28.6 \m $$
 </div>
 
 **Vector B** (105 m at 11° west of north):
 
 <div class="equation">
-$$ B_E = -105\sin(11°) = -105(0.191) = -20.1 \m $$
+$$ B_E = -105 \m\sin(11°) = -105(0.191) = -20.1 \m $$
 </div>
 
 <div class="equation">
-$$ B_N = 105\cos(11°) = 105(0.982) = 103 \m $$
+$$ B_N = 105 \m\cos(11°) = 105(0.982) = 103 \m $$
 </div>
 
 **Sum A + B:**
 
 <div class="equation">
-$$ (A+B)_E = 74.7 + (-20.1) = 54.6 \m $$
+$$ (A+B)_E = 74.7 \m + (-20.1 \m) = 54.6 \m $$
 </div>
 
 <div class="equation">
-$$ (A+B)_N = -28.6 + 103 = 74.4 \m $$
+$$ (A+B)_N = -28.6 \m + 103 \m = 74.4 \m $$
 </div>
 
 **Vector C = -(A + B):**
@@ -1106,13 +1106,13 @@ $$ C_N = -74.4 \m $$
 **Magnitude:**
 
 <div class="equation">
-$$ C = \sqrt{(-54.6)^2 + (-74.4)^2} = \sqrt{2981 + 5535} = \sqrt{8516} = 92.3 \m $$
+$$ C = \sqrt{(-54.6 \m)^2 + (-74.4 \m)^2} = \sqrt{2981 (\m)^2 + 5535 (\m)^2} = \sqrt{8516 (\m)^2} = 92.3 \m $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{74.4}{54.6}\right) = \tan^{-1}(1.36) = 53.7° $$
+$$ \theta = \tan^{-1}\left(\frac{74.4 \m}{54.6 \m}\right) = \tan^{-1}(1.36) = 53.7° $$
 </div>
 
 Since both components are negative, the direction is 53.7° south of west (or equivalently, W53.7°S).
@@ -1238,41 +1238,41 @@ Take $$ +x $$ east and $$ +y $$ north, with the origin at the start of $$ \vb{A}
 **Vector A** (4.70 km at 7.5° below horizontal, toward the east):
 
 <div class="equation">
-$$ A_E = 4.70\cos(7.5°) = 4.70(0.991) = 4.66 \text{ km} $$
+$$ A_E = 4.70 \text{ km}\cos(7.5°) = 4.70(0.991) = 4.66 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ A_N = -4.70\sin(7.5°) = -4.70(0.131) = -0.616 \text{ km} $$
+$$ A_N = -4.70 \text{ km}\sin(7.5°) = -4.70(0.131) = -0.616 \text{ km} $$
 </div>
 
 **Vector B** (2.48 km at 16° west of north):
 
 <div class="equation">
-$$ B_E = -2.48\sin(16°) = -2.48(0.276) = -0.684 \text{ km} $$
+$$ B_E = -2.48 \text{ km}\sin(16°) = -2.48(0.276) = -0.684 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ B_N = 2.48\cos(16°) = 2.48(0.961) = 2.38 \text{ km} $$
+$$ B_N = 2.48 \text{ km}\cos(16°) = 2.48(0.961) = 2.38 \text{ km} $$
 </div>
 
 **Vector C** (3.02 km at 19° north of west):
 
 <div class="equation">
-$$ C_E = -3.02\cos(19°) = -3.02(0.946) = -2.86 \text{ km} $$
+$$ C_E = -3.02 \text{ km}\cos(19°) = -3.02(0.946) = -2.86 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ C_N = 3.02\sin(19°) = 3.02(0.326) = 0.984 \text{ km} $$
+$$ C_N = 3.02 \text{ km}\sin(19°) = 3.02(0.326) = 0.984 \text{ km} $$
 </div>
 
 **Sum A + B + C:**
 
 <div class="equation">
-$$ (A+B+C)_E = 4.66 + (-0.684) + (-2.86) = 1.12 \text{ km} $$
+$$ (A+B+C)_E = 4.66 \text{ km} + (-0.684 \text{ km}) + (-2.86 \text{ km}) = 1.12 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ (A+B+C)_N = -0.616 + 2.38 + 0.984 = 2.75 \text{ km} $$
+$$ (A+B+C)_N = -0.616 \text{ km} + 2.38 \text{ km} + 0.984 \text{ km} = 2.75 \text{ km} $$
 </div>
 
 **Vector D = -(A + B + C):**
@@ -1288,13 +1288,13 @@ $$ D_N = -2.75 \text{ km} $$
 **Magnitude:**
 
 <div class="equation">
-$$ D = \sqrt{(-1.12)^2 + (-2.75)^2} = \sqrt{1.25 + 7.56} = \sqrt{8.81} = 2.97 \text{ km} $$
+$$ D = \sqrt{(-1.12 \text{ km})^2 + (-2.75 \text{ km})^2} = \sqrt{1.25 (\text{ km})^2 + 7.56 (\text{ km})^2} = \sqrt{8.81 (\text{ km})^2} = 2.97 \text{ km} $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{2.75}{1.12}\right) = \tan^{-1}(2.46) = 67.9° $$
+$$ \theta = \tan^{-1}\left(\frac{2.75 \text{km}}{1.12 \text{km}}\right) = \tan^{-1}(2.46) = 67.9° $$
 </div>
 
 Since both components are negative, direction is 67.9° south of west.
@@ -1353,23 +1353,23 @@ Keep four digits in each component so that rounding errors do not accumulate ove
 **Sum of components:**
 
 <div class="equation">
-$$ R_E = -1.768 + 2.350 - 1.178 + 5.100 + 0.1482 - 4.130 + 2.757 = 3.280 \text{ km} $$
+$$ R_E = -1.768 \text{ km} + 2.350 \text{ km} - 1.178 \text{ km} + 5.100 \text{ km} + 0.1482 \text{ km} - 4.130 \text{ km} + 2.757 \text{ km} = 3.280 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ R_N = 1.768 - 4.070 - 0.5494 + 0 + 1.694 - 5.898 + 0.4862 = -6.570 \text{ km} $$
+$$ R_N = 1.768 \text{ km} - 4.070 \text{ km} - 0.5494 \text{ km} + 0 \text{ km} + 1.694 \text{ km} - 5.898 \text{ km} + 0.4862 \text{ km} = -6.570 \text{ km} $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{(3.280)^2 + (-6.570)^2} = \sqrt{10.76 + 43.16} = \sqrt{53.92} = 7.343 \text{ km} \approx 7.34 \text{ km} $$
+$$ R = \sqrt{(3.280 \text{ km})^2 + (-6.570 \text{ km})^2} = \sqrt{10.76 (\text{ km})^2 + 43.16 (\text{ km})^2} = \sqrt{53.92 (\text{ km})^2} = 7.343 \text{ km} \approx 7.34 \text{ km} $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{6.570}{3.280}\right) = \tan^{-1}(2.003) = 63.47° \approx 63.5° $$
+$$ \theta = \tan^{-1}\left(\frac{6.570 \text{km}}{3.280 \text{km}}\right) = \tan^{-1}(2.003) = 63.47° \approx 63.5° $$
 </div>
 
 Since east is positive and north is negative, the direction is 63.5° south of east.
@@ -1417,43 +1417,43 @@ Find components of both flight segments, sum them, then calculate the resultant 
 **Vector A** (40.0 km at 60° north of east):
 
 <div class="equation">
-$$ A_E = 40.0\cos(60°) = 40.0(0.500) = 20.0 \text{ km} $$
+$$ A_E = 40.0 \text{ km}\cos(60°) = 40.0(0.500) = 20.0 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ A_N = 40.0\sin(60°) = 40.0(0.866) = 34.6 \text{ km} $$
+$$ A_N = 40.0 \text{ km}\sin(60°) = 40.0(0.866) = 34.6 \text{ km} $$
 </div>
 
 **Vector B** (30.0 km at 15° north of east):
 
 <div class="equation">
-$$ B_E = 30.0\cos(15°) = 30.0(0.966) = 29.0 \text{ km} $$
+$$ B_E = 30.0 \text{ km}\cos(15°) = 30.0(0.966) = 29.0 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ B_N = 30.0\sin(15°) = 30.0(0.259) = 7.77 \text{ km} $$
+$$ B_N = 30.0 \text{ km}\sin(15°) = 30.0(0.259) = 7.77 \text{ km} $$
 </div>
 
 **Resultant R = A + B:**
 
 <div class="equation">
-$$ R_E = 20.0 + 29.0 = 49.0 \text{ km} $$
+$$ R_E = 20.0 \text{ km} + 29.0 \text{ km} = 49.0 \text{ km} $$
 </div>
 
 <div class="equation">
-$$ R_N = 34.6 + 7.77 = 42.4 \text{ km} $$
+$$ R_N = 34.6 \text{ km} + 7.77 \text{ km} = 42.4 \text{ km} $$
 </div>
 
 **Magnitude:**
 
 <div class="equation">
-$$ R = \sqrt{(49.0)^2 + (42.4)^2} = \sqrt{2401 + 1798} = \sqrt{4199} = 64.8 \text{ km} $$
+$$ R = \sqrt{(49.0 \text{ km})^2 + (42.4 \text{ km})^2} = \sqrt{2401 (\text{ km})^2 + 1798 (\text{ km})^2} = \sqrt{4199 (\text{ km})^2} = 64.8 \text{ km} $$
 </div>
 
 **Direction:**
 
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{42.4}{49.0}\right) = \tan^{-1}(0.865) = 40.9° $$
+$$ \theta = \tan^{-1}\left(\frac{42.4 \text{km}}{49.0 \text{km}}\right) = \tan^{-1}(0.865) = 40.9° $$
 </div>
 
 The direction is 40.9° north of east.

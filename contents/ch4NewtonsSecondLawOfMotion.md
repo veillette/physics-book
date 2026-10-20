@@ -1226,16 +1226,16 @@ So the seat force has components:
 
 Total force magnitude using the Pythagorean theorem:
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(3675)^2 + (735)^2} $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(3675 \N)^2 + (735 \N)^2} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{13{,}505{,}625 + 540{,}225} = \sqrt{14{,}045{,}850} = 3748 \N \approx 3750 \N $$
+$$ F_{\text{total}} = \sqrt{13{,}505{,}625 (\N)^2 + 540{,}225 (\N)^2} = \sqrt{14{,}045{,}850 (\N)^2} = 3748 \N \approx 3750 \N $$
 </div>
 
 Direction above the $$ +x $$ axis (the angle $$ \theta $$ in the diagram):
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{F_y}{F_x}\right) = \tan^{-1}\left(\frac{735}{3675}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{F_y}{F_x}\right) = \tan^{-1}\left(\frac{735 \N}{3675 \N}\right) = \tan^{-1}(0.200) = 11.3^\circ $$
 </div>
 
 **Discussion**
@@ -1311,16 +1311,16 @@ The horizontal component has magnitude $$ |F_x| = 1.51 \times 10^{4} \N $$ (alon
 
 Total force magnitude:
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(1.51 \times 10^{4})^2 + (735)^2} $$
+$$ F_{\text{total}} = \sqrt{F_x^2 + F_y^2} = \sqrt{(1.51 \times 10^{4} \N)^2 + (735 \N)^2} $$
 </div>
 
 <div class="equation">
-$$ F_{\text{total}} = \sqrt{2.28 \times 10^{8} + 5.40 \times 10^{5}} = \sqrt{2.29 \times 10^{8}} = 1.51 \times 10^{4} \N $$
+$$ F_{\text{total}} = \sqrt{2.28 \times 10^{8} (\N)^2 + 5.40 \times 10^{5} (\N)^2} = \sqrt{2.29 \times 10^{8} (\N)^2} = 1.51 \times 10^{4} \N $$
 </div>
 
 Direction above the $$ -x $$ axis (the angle $$ \theta $$ in the diagram):
 <div class="equation">
-$$ \theta = \tan^{-1}\left(\frac{F_y}{|F_x|}\right) = \tan^{-1}\left(\frac{735}{15{,}100}\right) = 2.79^\circ $$
+$$ \theta = \tan^{-1}\left(\frac{F_y}{|F_x|}\right) = \tan^{-1}\left(\frac{735 \N}{15{,}100 \N}\right) = 2.79^\circ $$
 </div>
 
 **Discussion**

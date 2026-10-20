@@ -537,7 +537,7 @@ E_{\text{study}} &=& (210\text{ W})(6.00\text{ h})(3600\s/\text{h}) = 4.54 \time
 Total daily energy:
 
 <div class="equation">
- $$ E_{\text{total}} = 2.09 + 2.02 + 3.02 + 2.88 + 1.30 + 4.54 = 15.85 \times 10^{6}\J \approx 1.59 \times 10^{7}\J $$
+ $$ E_{\text{total}} = 2.09 \text{ MJ} + 2.02 \text{ MJ} + 3.02 \text{ MJ} + 2.88 \text{ MJ} + 1.30 \text{ MJ} + 4.54 \text{ MJ} = 15.85 \times 10^{6}\J \approx 1.59 \times 10^{7}\J $$
 </div>
 
 **Discussion**
@@ -1128,7 +1128,7 @@ m_{\text{fat}} &=& \frac{(0.35)(7.20 \times 10^{7}\text{ kcal})}{9\text{ kcal/g}
 Total mass of food:
 
 <div class="equation">
- $$ m_{\text{total}} = 900 + 10800 + 2800 = 14500\kg \approx 1.4 \times 10^{4}\kg $$
+ $$ m_{\text{total}} = 900 \kg + 10800 \kg + 2800 \kg = 14500\kg \approx 1.4 \times 10^{4}\kg $$
 </div>
 
 **Discussion**
