@@ -558,17 +558,19 @@ Birds such as ducks, geese, and swans have greater densities than water, yet the
 
 **Strategy**
 
-We need to analyze how surface tension supports these birds and explain why their water-repellent feathers are essential for this phenomenon.
+We need to compare the possible upward forces on the bird: surface tension acting along the waterline, and buoyancy from the water the bird displaces. Then we explain why water-repellent feathers matter and what soap changes.
 
 **Solution**
 
-Waterfowl can sit on water because their oily, water-repellent feathers allow surface tension to support their weight. Because water does not wet their feathers (the feathers are hydrophobic), the water surface curves around the bird without breaking through. This curved water surface creates an upward component of the surface tension force that helps support the bird's weight. The bird essentially sits in a depression on the water surface, much like a water strider walks on water or a needle floats on a water surface.
+The bird's *tissue* is denser than water, but the bird as a whole is not. Its feathers trap a thick layer of air, and the air sacs and lungs add more. Because water does not wet the feathers, the water cannot push into this layer and displace the air. The average density of the bird plus its trapped air is therefore less than that of water, and the bird floats by **buoyancy**: it settles until the water it displaces weighs as much as it does.
 
-When soap is added to the water, the surface tension is significantly reduced (from about 0.073 N/m to about 0.037 N/m). This lower surface tension cannot provide sufficient upward force to support the bird's weight, causing the bird to sink into the water. Additionally, soap may allow the water to penetrate the feathers, eliminating the hydrophobic barrier.
+Surface tension cannot be the main support. A 1.0-kg duck weighs $$ (1.0 \text{ kg})(9.80 \text{ m/s}^2) = 9.8 \text{ N} $$. The largest surface-tension force is about $$ \gamma L = (0.073 \text{ N/m})(1.0 \text{ m}) \approx 0.07 \text{ N} $$ for a waterline about 1.0 m around, less than 1% of the weight. Surface tension supports water striders because they are tiny; it cannot hold up a duck.
+
+Surface tension still matters indirectly, because it keeps water out of the feather structure. Water would have to bend sharply to enter the narrow gaps between the waxy barbs and barbules, and the cohesive pull of the water surface resists this. Soap lowers the surface tension (from about 0.073 N/m to about 0.037 N/m) and lets water wet the feathers. Water then soaks into the plumage and pushes out the trapped air. The bird displaces less water for its weight, loses buoyancy, and rides much lower or sinks.
 
 **Discussion**
 
-This explains why waterfowl spend considerable time preening and spreading oil from their preen gland over their feathers—maintaining water-repellent feathers is essential for buoyancy and insulation. Oil spills are devastating to waterfowl precisely because petroleum products destroy this water-repellent coating, causing birds to become waterlogged and lose the surface tension support they depend on.
+This explains why waterfowl spend considerable time preening and spreading oil from their preen gland over their feathers: water-repellent feathers are essential for buoyancy and insulation. Oil spills are devastating to waterfowl for the same reason. Petroleum mats the feathers and destroys their water repellency, so the plumage becomes waterlogged, the trapped air is lost, and the birds lose both their buoyancy and their insulation.
 
 :::
 

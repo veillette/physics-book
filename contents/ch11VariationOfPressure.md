@@ -302,22 +302,22 @@ Why does atmospheric pressure decrease more rapidly than linearly with altitude?
 Consider how the density of air varies with altitude due to its compressibility, and how this affects the pressure-altitude relationship.
 
 **Solution:**
-Atmospheric pressure decreases more rapidly than linearly because **air is compressible, so its density decreases with altitude, causing pressure to drop exponentially rather than linearly.**
+The decrease is not linear because **air is compressible: its density is greatest near the ground and decreases with altitude, so most of the drop in pressure happens in the lowest few kilometres.**
 
 Detailed explanation:
-1. The equation $$ P = \rho g h $$ assumes constant density
-2. For incompressible fluids (like water), this gives linear pressure increase with depth
-3. Air is highly compressible—at lower altitudes, the weight of air above compresses the air, increasing its density
-4. At higher altitudes, less air above means less compression and lower density
-5. Since pressure depends on the weight of air above, and that air has decreasing density at higher altitudes, pressure drops off faster than linear
+1. The equation $$ \Delta P = \rho g \Delta h $$ gives a linear change only when the density is constant.
+2. For a nearly incompressible fluid such as water, the pressure therefore changes linearly with depth.
+3. Air is highly compressible. Near the ground, the weight of all the air above compresses it, so its density is high and each metre of height removes a large amount of weight from above.
+4. Higher up, the air is less compressed and less dense, so each metre of height removes less weight, and the pressure falls more slowly.
+5. The slope of the pressure-versus-altitude graph is $$ dP/dh = -\rho g $$, so it is steepest at the ground and flattens as the density drops. The graph is a curve, not a straight line.
 
-Mathematically, for an isothermal atmosphere:
-$$ P = P_0 e^{-h/H} $$
+For an isothermal atmosphere, density is proportional to pressure, and the result is
+$$ P = P_0 e^{-h/H}, \qquad \frac{dP}{dh} = -\frac{P}{H} $$
 
-where $$ H $$ is the scale height (about 8.5 km for Earth). This exponential decay is faster than linear at low altitudes.
+where $$ H $$ is the scale height (about 8.5 km for Earth). The magnitude of the slope decreases as $$ P $$ decreases. The pressure therefore falls *more rapidly than linearly* in the sense that it drops far faster near the ground than a straight-line decrease spread over the full ~100 km height of the atmosphere would: at 8.5 km the pressure is already down to $$ e^{-1} \approx 37\% $$ of its sea-level value. It does not fall faster than the tangent line at the ground: that line, $$ P_0(1 - h/H) $$, which describes a uniform-density atmosphere, reaches zero at $$ h = H $$, while the real pressure stays above it.
 
 **Discussion:**
-At sea level, about 50% of the atmosphere's mass is below 5.5 km altitude. The next 50% is spread over the remaining ~115 km to the edge of space. This concentration of air at low altitudes is why aircraft pressurize cabins for high-altitude flight, and why weather phenomena occur primarily in the lowest layer of the atmosphere (troposphere).
+About 50% of the atmosphere's mass lies below 5.5 km altitude; the other 50% is spread over the remaining ~100 km to the edge of space. This concentration of air at low altitudes is why aircraft pressurize cabins for high-altitude flight, and why weather phenomena occur primarily in the lowest layer of the atmosphere (troposphere).
 
 :::
 

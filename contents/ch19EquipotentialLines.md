@@ -237,13 +237,16 @@ The equipotential lines must be perpendicular to the electric field lines at eve
 
 1. **Near each charge:** The equipotential lines are nearly circular, centered on each charge individually.
 
-2. **In the region between the charges:** The equipotential lines curve around both charges. At the exact midpoint between the charges, there is a saddle point where the equipotential line is a straight line perpendicular to the line connecting the charges.
+2. **In the region between the charges:** Let the charges be a distance $$2a$$ apart. At the midpoint, the fields cancel and the potential is $$V_0 = 2kq/a$$. The midpoint is a **saddle point** of the potential. Along the line joining the charges, $$V$$ is lowest at the midpoint and rises toward each charge. Along the perpendicular bisector, $$V$$ is *highest* at the midpoint and falls off as $$V(0, y) = 2kq/\sqrt{a^2 + y^2}$$. The perpendicular bisector is therefore **not** an equipotential. The equipotentials are:
+   - $$V > V_0$$: two separate closed loops, one around each charge;
+   - $$V = V_0$$: a single figure-eight curve whose two lobes enclose the two charges and cross each other at the midpoint;
+   - $$V < V_0$$: single closed curves enclosing both charges. Just below $$V_0$$ they are pinched at the waist (peanut-shaped); at lower potentials they become ovals and then circles.
 
 3. **Far from both charges:** The equipotential lines become approximately circular, centered on the midpoint between the charges (the system looks like a single charge of +2q from far away).
 
 4. **Direction of increasing potential:** Arrows point **toward** either charge. The highest potential regions are closest to either positive charge.
 
-5. **Between the charges:** The potential is higher than at infinity but lower than very close to either charge. There is no equipotential line that passes between the charges without encircling one or both.
+5. **Between the charges:** The potential is higher than at infinity but lower than very close to either charge. Every equipotential is a closed curve around one or both charges; only the figure-eight at $$V = V_0$$ passes through the midpoint.
 
 **Discussion**
 
@@ -279,7 +282,7 @@ From the figure, $$q_1$$ is negative (field lines point toward it) and $$q_2$$ i
 
 2. **Near $$q_2$$ (positive, smaller):** Equipotential lines are nearly circular but more widely spaced. Potential is positive but smaller in magnitude.
 
-3. **Between the charges:** Some equipotential lines connect the two charges (for the zero and small positive/negative potentials). There is a point where $$V = 0$$ along the line connecting the charges, closer to the smaller charge.
+3. **Between the charges:** No equipotential connects the two charges, because the potential goes to $$-\infty$$ at $$q_1$$ and to $$+\infty$$ at $$q_2$$, so no single finite value can reach both. (It is the *field lines* that run from one charge to the other.) The $$V = 0$$ equipotential is the set of points where $$k|q_1|/r_1 = kq_2/r_2$$, that is, $$r_1 = 4r_2$$. This is a **circle around the smaller positive charge** (a sphere in three dimensions). If the charges are a distance $$d$$ apart, the circle crosses the line joining them at $$d/5$$ from $$q_2$$ on the side toward $$q_1$$, and at $$d/3$$ from $$q_2$$ on the far side. Its radius is $$4d/15$$. Inside this circle the equipotentials are positive closed loops around $$q_2$$. Outside it they are negative: small loops around $$q_1$$ close to it, and, farther out, closed curves that enclose both charges and the zero circle.
 
 4. **Direction of increasing potential:** Arrows point **away from $$q_1$$** (the negative charge) and **toward $$q_2$$** (the positive charge).
 
@@ -306,7 +309,7 @@ Sketch the equipotential lines a long distance from the charges shown in [[Figur
 
 **Strategy**
 
-At large distances from any charge configuration, the system appears as a single point charge with net charge $$Q_{\text{net}} = q_1 + q_2$$. The equipotential lines become spherical surfaces (circles in 2D) centered on the charge system. We use the far-field approximation where $$V \approx kQ_{\text{net}}/r$$, which produces evenly-spaced circular equipotentials for equal voltage intervals.
+At large distances from any charge configuration, the system appears as a single point charge with net charge $$Q_{\text{net}} = q_1 + q_2$$. The equipotential lines become spherical surfaces (circles in 2D) centered on the charge system. We use the far-field approximation $$V \approx kQ_{\text{net}}/r$$, which produces circular equipotentials. Because $$V$$ depends on $$1/r$$, equipotentials drawn at equal voltage intervals are *not* evenly spaced in radius.
 
 **Solution**
 
@@ -320,7 +323,7 @@ At large distances, any system of charges appears as a single point charge with 
 
 3. **Direction of increasing potential:** Arrows point **outward** (away from the charge system), since potential increases (becomes less negative) as distance increases.
 
-4. **Spacing:** The lines are evenly spaced for equal voltage intervals, characteristic of the $$V = kQ_{net}/r$$ dependence.
+4. **Spacing:** For equal voltage intervals, the circles are **not** evenly spaced. From $$V = kQ_{\text{net}}/r$$, the radial gap between neighbouring equipotentials is approximately $$\Delta r \approx |\Delta V|\, r^2/(k|Q_{\text{net}}|)$$, so the gaps grow as $$r^2$$ and the circles get farther apart with distance. For example, the $$-30$$ V, $$-20$$ V, and $$-10$$ V circles lie at radii in the ratio $$1 : 1.5 : 3$$.
 
 **Discussion**
 
@@ -483,7 +486,7 @@ The electric field lines radiate outward from the positive charges, with density
 - **Near the heavily charged end:** Many field lines radiate outward in all directions, closely spaced.
 - **Near the middle:** Fewer field lines, more widely spaced.
 - **Near the lightly charged end:** Very few field lines.
-- Field lines never cross and are perpendicular to the rod surface where they originate.
+- Field lines never cross. They are **not** required to leave the rod perpendicular to its surface. That rule holds for a conductor in equilibrium, whose surface is an equipotential, and an insulator's surface is not an equipotential. Lines leaving the lightly charged middle and far end tilt away from the heavily charged end, because its charge pushes on them.
 
 **(b) Equipotential lines:**
 
@@ -497,7 +500,7 @@ The electric field lines radiate outward from the positive charges, with density
 
 **Discussion**
 
-Unlike conductors, insulators can maintain non-uniform charge distributions. The field and potential pattern reflects this non-uniformity. The electric field lines are always perpendicular to equipotential lines everywhere.
+Unlike conductors, insulators can maintain non-uniform charge distributions. The field and potential pattern reflects this non-uniformity. Because the rod's surface is not an equipotential, equipotential lines cross the rod (the heavily charged end is at a higher potential than the far end), and field lines meet its surface at an angle. The one rule that always holds is that field lines are perpendicular to equipotential lines everywhere.
 
 :::
 
@@ -573,7 +576,7 @@ The lesser electric ray (**Narcine bancroftii**) maintains an incredible charge 
 
 **Strategy**
 
-The ray's charge configuration forms an electric dipole with equal and opposite charges separated by a distance. For part (a), we sketch dipole equipotentials: concentric circles near each charge, a zero-potential surface between them, and elongated ovals far away. For part (b), conducting surfaces are equipotentials that distort nearby field patterns through induced charges. For part (c), we consider biological uses of electric fields: stunning prey, defense, electrolocation, and communication.
+The ray's charge configuration forms an electric dipole with equal and opposite charges separated by a distance. For part (a), we sketch dipole equipotentials: nearly circular loops near each charge, a zero-potential surface between them, and, far away, the dipole pattern $$V \approx kp\cos\theta/r^2$$. For part (b), a conducting surface is itself an equipotential; charges induced on it distort the nearby pattern so that field lines meet it at right angles. For part (c), we consider biological uses of electric fields: stunning prey, defense, electrolocation, and communication.
 
 **Solution**
 
@@ -584,16 +587,15 @@ The ray acts like an electric dipole with positive charge on its head and negati
 - **Near the head (positive):** Equipotential lines are closely spaced, concentric, and positive in value.
 - **Near the tail (negative):** Equipotential lines are closely spaced, concentric, and negative in value.
 - **Between head and tail:** There is a $$V = 0$$ equipotential line passing through the middle region, forming a plane perpendicular to the axis of the ray.
-- **Far from the ray:** Equipotential lines become elongated ovals that enclose both charges, eventually becoming circular.
+- **Far from the ray:** No equipotential encloses both charges, because the $$V = 0$$ plane separates the positive potentials on the head side from the negative potentials on the tail side. Far away, the potential is approximately $$V \approx kp\cos\theta/r^2$$, where $$p$$ is the dipole moment and $$\theta$$ is measured from the tail-to-head axis. An equipotential $$V$$ = constant is the curve $$r^2 \propto \cos\theta$$: a closed loop on one side of the zero plane that bulges out along the axis and pinches in toward the ray's middle. Larger loops correspond to smaller $$|V|$$. Unlike the far field of a net charge, these loops never become circles centered on the ray, and the potential falls off as $$1/r^2$$ instead of $$1/r$$.
 - This pattern resembles that of a classic electric dipole.
 
 **(b) Equipotentials near a conducting ship:**
 
 When the ray approaches a conducting surface:
-- The conducting ship acts as a grounded surface ($$V = 0$$).
-- The equipotential lines must meet the conductor perpendicularly.
-- The pattern is distorted: field lines and equipotentials near the ship curve to meet it at right angles.
-- Image charges are induced in the conductor, further modifying the pattern.
+- The ship's conducting hull is an **equipotential**: in electrostatic equilibrium the whole surface is at one potential. Its value is a boundary condition, not something conductivity sets by itself. If the hull is effectively grounded through the surrounding seawater, we can take it as $$V = 0$$.
+- **Field lines** meet the conductor perpendicularly. The **equipotential lines** near the hull run parallel to its surface, hugging its shape, because the surface is itself one of them.
+- Charges induced on the hull (negative near the ray's head, positive near its tail) distort the dipole pattern: equipotentials between the ray and the hull are squeezed and flattened to follow the hull, and the field there is strengthened. The image-charge method models this by replacing the hull with a mirror-image dipole.
 
 **(c) How the charge distribution is useful:**
 

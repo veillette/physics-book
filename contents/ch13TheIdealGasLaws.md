@@ -804,35 +804,30 @@ volume is twenty times the original volume?
 ::: solution
 
 __Strategy:__
-This is a multi-step problem. First find the amount of helium (moles) in the initial state. Then use this with the new conditions to find the new pressure.
+The balloon is flexible and its membrane exerts negligible inward pressure, so the pressure inside must equal the pressure outside; otherwise the balloon would keep expanding or shrinking. This mechanical-equilibrium condition fixes the final pressure. The ideal gas law then tells us how much helium is needed, because the original helium is *replaced*: the amount of gas is not conserved, so we cannot use $$ P_0V_0/T_0 = P_fV_f/T_f $$.
 
 __Solution:__
-(a) Initial conditions: $$T_0 = 10.0ºC = 283 K$$, $$P_0 = 1.00 atm$$, $$V_0$$
+(a) The lab pressure is maintained at 1.00 atm and the membrane adds negligible pressure, so the absolute pressure inside the balloon is
 
-Final conditions: $$T_f = -50.0ºC = 223 K$$, $$V_f = 20V_0$$, $$P_f = ?$$
-
-Using ideal gas law for both states:
 <div class="equation" >
- $$\frac{P_0V_0}{T_0}=\frac{P_fV_{f}}{T_f} $$
+ $$P_f = P_{\text{lab}} = 1.00 \text{ atm} = 1.01 \times 10^{5} \text{ Pa}$$
 </div>
 
-Solving for $$P_f$$:
-<div class="equation" >
- $$P_f=P_0\frac{V_0}{V_f}\frac{T_f}{T_0}=(1.00 \text{ atm})\frac{V_0}{20V_0}\frac{223 \text{ K}}{283 \text{ K}}= 0.0394 \text{ atm} $$
-</div>
+This holds at any temperature and volume, as long as the balloon is free to expand.
 
-Converting to Pa:
+To see how much helium this requires, apply $$ PV = nRT $$ to the initial and final states at the same pressure:
+
 <div class="equation" >
- $$P_f= 0.0394 \text{ atm} \times 1.01 \times 10^{5}  \text{Pa/atm}= 3.98 \times 10^{3}  \text{Pa} $$
+ $$\frac{n_f}{n_0}=\frac{P_fV_f/(RT_f)}{P_0V_0/(RT_0)}=\frac{V_f}{V_0}\frac{T_0}{T_f}=(20.0)\frac{283.15 \text{ K}}{223.15 \text{ K}}= 25.4$$
 </div>
 
 (b) Gauge pressure:
 <div class="equation" >
- $${P}_{\text{gauge}}=P_f-{P}_{\text{atm}}= 0.0394 \text{ atm}- 1.00 \text{ atm}=-0.96 \text{ atm} $$
+ $${P}_{\text{gauge}}=P_f-{P}_{\text{atm}}= 1.00 \text{ atm}- 1.00 \text{ atm}= 0$$
 </div>
 
 __Discussion:__
-The negative gauge pressure indicates that the pressure inside the balloon is less than atmospheric pressure—the balloon would be partially deflated or collapsed. This makes sense: the temperature decreased (reducing pressure), and the volume increased dramatically (also reducing pressure). The combined effect overwhelms the initial pressure, resulting in a final pressure well below atmospheric.
+A gauge pressure of zero is what we expect for a balloon whose membrane exerts no force: the gas inside simply matches the surrounding pressure. Filling it to twenty times the volume with colder helium does not lower the pressure; it takes about 25 times as many moles of helium. That is 20 times for the larger volume, times a further factor of $$ 283/223 = 1.27 $$ because colder gas needs more molecules to exert the same pressure. If the same helium were kept and simply expanded twentyfold and cooled, $$ PV/T $$ would predict an internal pressure of only 0.0394 atm. A flexible balloon cannot hold such a pressure difference; it would collapse until the inside pressure again matched the lab's.
 
 :::
 

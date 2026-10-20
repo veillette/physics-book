@@ -698,7 +698,7 @@ in [Problem-Solving Strategies for Thermodynamics](../contents/ch15ApplicationsO
 
 **Strategy**
 
-For part (a), efficiency is defined as $$\text{Eff} = \frac{W}{E_{\text{metabolized}}}$$, where $$W$$ is useful work and $$E_{\text{metabolized}}$$ is total food energy metabolized. We solve for $$E_{\text{metabolized}}$$. For part (b), we use the first law of thermodynamics. Since temperature remains constant, $$\Delta U = 0$$. From $$\Delta U = Q - W$$, we can solve for $$Q$$, which represents the heat transfer to the environment.
+For part (a), efficiency is defined as $$\text{Eff} = \frac{W}{E_{\text{metabolized}}}$$, where $$W$$ is useful work and $$E_{\text{metabolized}}$$ is total food energy metabolized. We solve for $$E_{\text{metabolized}}$$. For part (b), we use the first law of thermodynamics, $$\Delta U = Q - W$$, for the man's body. Constant temperature means the body's *thermal* energy does not change, but its stored chemical energy does: metabolizing food lowers the body's internal energy by the energy metabolized, so $$\Delta U = -E_{\text{metabolized}}$$, not zero. We solve for $$Q$$.
 
 **Solution**
 
@@ -726,35 +726,23 @@ Solving for $$E_{\text{metabolized}}$$:
  $$E_{\text{metabolized}} = 700{,}000 \text{ J} = 700 \text{ kJ}$$
 </div>
 
-**(b)** Since temperature is constant, the change in internal energy is zero:
+**(b)** The temperature is constant, so the body's thermal energy is unchanged. The only change in internal energy is the loss of 700 kJ of stored chemical energy:
 
 <div class="equation">
- $$\Delta U = 0$$
+ $$\Delta U = -E_{\text{metabolized}} = -700 \text{ kJ}$$
 </div>
 
-Using the first law of thermodynamics:
+Using the first law of thermodynamics, with $$W = +35.0 \text{ kJ}$$ of work done by the man:
 
 <div class="equation">
  $$\Delta U = Q - W$$
 </div>
 
 <div class="equation">
- $$0 = Q - W$$
+ $$Q = \Delta U + W = -700 \text{ kJ} + 35.0 \text{ kJ} = -665 \text{ kJ}$$
 </div>
 
-<div class="equation">
- $$Q = W$$
-</div>
-
-But this represents net heat transfer. Since the man metabolizes 700 kJ and does 35.0 kJ of work, the heat transferred to the environment is:
-
-<div class="equation">
- $$Q_{\text{out}} = E_{\text{metabolized}} - W$$
-</div>
-
-<div class="equation">
- $$Q_{\text{out}} = 700 \text{ kJ} - 35.0 \text{ kJ}$$
-</div>
+The negative sign means heat flows out of the body. The heat transferred to the environment is:
 
 <div class="equation">
  $$Q_{\text{out}} = 665 \text{ kJ}$$
@@ -769,7 +757,7 @@ Part (b): Of the 700 kJ metabolized, only 35.0 kJ (5%) becomes useful work, whil
 Following the thermodynamics problem-solving strategy:
 1. **Identify the system**: The man's body
 2. **Identify the process**: Metabolism of food to do work while maintaining constant temperature
-3. **Apply relevant principles**: Efficiency definition and first law with $$\Delta U = 0$$
+3. **Apply relevant principles**: Efficiency definition and first law with $$\Delta U = -700 \text{ kJ}$$ (stored chemical energy used up; thermal energy constant)
 4. **Solve systematically**: Calculate energy input from efficiency, then heat output from energy balance
 5. **Check reasonableness**: 665 kJ of heat from 700 kJ metabolized with 35 kJ work is consistent with low efficiency
 

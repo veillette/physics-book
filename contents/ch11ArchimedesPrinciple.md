@@ -486,7 +486,7 @@ $$ F_B = (P_{\text{bottom}} - P_{\text{top}}) \times A = \rho g h A = \rho g V $
 This pressure difference exists because fluid pressure increases with depth due to gravity ($$ P = \rho g h $$). In orbit or free-fall:
 - The spacecraft and everything in it are accelerating equally toward Earth
 - Effective gravity inside is zero ($$ g_{\text{effective}} = 0 $$)
-- Pressure no longer varies with position: $$ P = \rho (0) h = 0 $$
+- Pressure no longer varies with position: $$ \Delta P = \rho g_{\text{effective}} \Delta h = \rho (0) \Delta h = 0 $$. The fluid can still have a nonzero pressure (the air in the station is at about 1 atm), but that pressure is the same everywhere, so it pushes equally on all sides of an object.
 - No pressure difference means no buoyant force: $$ F_B = \rho (0) V = 0 $$
 
 **Discussion:**

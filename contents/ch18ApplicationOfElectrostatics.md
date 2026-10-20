@@ -1545,34 +1545,49 @@ a more complex array of charges, such as those in a water molecule.
 
 :::: solution
 
-**Guidance for Constructing This Problem**
+**Constructed Problem**
 
-When constructing this problem, consider the following framework:
+Two insulating balls, each of radius 5.00 cm, carry charges spread evenly over their surfaces: $$+10.0 \text{ nC}$$ on ball A, centered at $$x = 0$$, and $$-10.0 \text{ nC}$$ on ball B, centered at $$x = 30.0$$ cm. Find the electric field (magnitude and direction) on the line through their centers at: (a) the midpoint, $$x = 15.0$$ cm; (b) just outside ball A on the side facing B, $$x = 5.00$$ cm; (c) the center of ball A, $$x = 0$$; (d) $$x = -10.0$$ cm, outside ball A on the far side; (e) $$x = -3.00$$ m; and (f) $$x = -30.0$$ m. Comment on the meaning of each result.
 
-**Choose Your Parameters:**
-- Select reasonable charge magnitudes (e.g., ±10 μC on each ball)
-- Choose ball radii (e.g., 5 cm) and separation distance (e.g., 30 cm between centers)
-- Ensure the balls don't overlap
+**Strategy**
 
-**Interesting Points to Analyze:**
+Outside a uniformly charged spherical shell, the field is the same as that of a point charge at its center. Inside the shell, that ball's own field is zero. At each point we add the two contributions, taking $$+x$$ (from A toward B) as positive. The field of A points away from A; the field of B points toward B. With $$k|q| = (8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(10.0 \times 10^{-9} \text{ C}) = 89.9 \text{ N·m}^2/\text{C}$$, each contribution has magnitude $$89.9/r^2$$ N/C with $$r$$ in meters.
 
-1. **Midpoint between balls**: The fields from each charge point in the same direction here (both toward the negative charge), creating a maximum field point
+We chose nanocoulomb charges deliberately. With $$\pm 10.0 \text{ μC}$$, the field at a ball's surface would be about $$3.6 \times 10^{7} \text{ N/C}$$, more than ten times the breakdown strength of air (about $$3 \times 10^{6}$$ N/C).
 
-2. **Just outside each ball**: Calculate the field very close to each surface—should approach that of a point charge at the center
+**Solution**
 
-3. **Far from both balls** (e.g., 10× the separation distance): The fields nearly cancel since the balls appear as a dipole from far away; field falls off as $$1/r^3$$ (dipole field) rather than $$1/r^2$$
+(a) Midpoint, $$x = 0.150$$ m. Both fields point toward B:
 
-4. **Between the balls but offset from center**: Explore how the field varies as you move along the axis
+$$E = +\frac{89.9}{(0.150)^2} + \frac{89.9}{(0.150)^2} = 4.00 \times 10^{3} + 4.00 \times 10^{3} = +7.99 \times 10^{3} \text{ N/C}$$
 
-**Analysis to Include:**
-- Calculate $$E = k\frac{q}{r^2}$$ for each ball at your chosen points
-- Use vector addition to find the net field
-- Discuss the direction (toward negative charge) and magnitude
-- Explain why the field behaves differently at different locations
-- Consider the transition from near-field (where individual charges dominate) to far-field (dipole behavior)
+(b) Just outside A, $$x = 0.0500$$ m. Both fields point toward B:
 
-**Physical Interpretation:**
-Comment on how this configuration models electric dipoles found in nature (like polar molecules), and how the field pattern explains molecular interactions.
+$$E = +\frac{89.9}{(0.0500)^2} + \frac{89.9}{(0.250)^2} = 3.60 \times 10^{4} + 1.44 \times 10^{3} = +3.74 \times 10^{4} \text{ N/C}$$
+
+(c) Center of A, $$x = 0$$. Ball A's own field is zero inside it, so only B contributes:
+
+$$E = 0 + \frac{89.9}{(0.300)^2} = +999 \text{ N/C}$$
+
+(d) $$x = -0.100$$ m. A's field points away from A (in the $$-x$$ direction); B's field points toward B ($$+x$$):
+
+$$E = -\frac{89.9}{(0.100)^2} + \frac{89.9}{(0.400)^2} = -8.99 \times 10^{3} + 562 = -8.43 \times 10^{3} \text{ N/C}$$
+
+(e) $$x = -3.00$$ m:
+
+$$E = -\frac{89.9}{(3.00)^2} + \frac{89.9}{(3.30)^2} = -9.99 + 8.26 = -1.73 \text{ N/C}$$
+
+(f) $$x = -30.0$$ m:
+
+$$E = -\frac{89.9}{(30.0)^2} + \frac{89.9}{(30.3)^2} = -0.0999 + 0.0979 = -1.97 \times 10^{-3} \text{ N/C}$$
+
+**Discussion**
+
+- Between the balls, both fields point from the positive ball toward the negative ball. On the axis, $$E(x) = k|q|\left[x^{-2} + (0.300 \text{ m} - x)^{-2}\right]$$ is **smallest** at the midpoint (7.99 × 10³ N/C) and grows toward either surface (3.74 × 10⁴ N/C at (b)). The midpoint is a minimum along the axis, not a maximum.
+- At (b), 96% of the field comes from ball A alone. Close to a ball, the field is essentially that of one charge.
+- At (c), the field is exactly that of the *other* ball, because a uniformly charged shell produces no field inside itself. (A real insulating ball would also be polarized slightly by B's field, which we neglect.)
+- Outside the pair, on the far side of A, the field points away from the positive ball. The negative ball reduces it only a little at (d), but at (e) and (f) the two contributions nearly cancel. Far away, the pair acts as a dipole with dipole moment $$p = qd = (10.0 \times 10^{-9} \text{ C})(0.300 \text{ m}) = 3.00 \times 10^{-9} \text{ C·m}$$. On the axis, $$E \approx 2kp/r^3$$, measured from the dipole's center. At $$r = 3.15$$ m this gives 1.73 N/C, and at $$r = 30.15$$ m it gives $$1.97 \times 10^{-3}$$ N/C, matching (e) and (f). Moving 10 times farther away reduces the field by a factor of about 1000 ($$1/r^3$$), not 100 as for a single charge ($$1/r^2$$). By (f), the field is negligible: about $$2 \times 10^{-7}$$ of its value at the midpoint.
+- The same pattern describes polar molecules such as water, whose fields fall off as $$1/r^3$$ beyond a few molecular diameters. That is why interactions between neutral polar molecules are much shorter range than those between ions.
 
 ::::
 

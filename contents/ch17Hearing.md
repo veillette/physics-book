@@ -644,11 +644,11 @@ Since a 40-dB sound at 1000 Hz has a loudness of 40 phons, we need to follow the
 
 - At 60 Hz: The 40-phon curve intersects at approximately **70 dB**
 - At 3000 Hz: The 40-phon curve intersects at approximately **37 dB**
-- At 8000 Hz: The 40-phon curve intersects at approximately **43 dB**
+- At 8000 Hz: The 40-phon curve intersects at approximately **52 dB**
 
 **Discussion**
 
-These values demonstrate the remarkable frequency-dependent nature of loudness perception. To sound equally loud to a 40-dB tone at 1000 Hz, a 60-Hz tone must be 30 dB more intense (70 dB vs. 40 dB), which represents a factor of $$10^{3} = 1000$$ times more intensity! This occurs because the ear is far less sensitive to low frequencies. Conversely, at 3000 Hz (near the ear's peak sensitivity), a sound needs only 37 dB to achieve the same perceived loudness—3 dB less than the reference, meaning about half the intensity. At 8000 Hz, 43 dB is required, slightly more than the reference.
+These values demonstrate the remarkable frequency-dependent nature of loudness perception. To sound equally loud to a 40-dB tone at 1000 Hz, a 60-Hz tone must be 30 dB more intense (70 dB vs. 40 dB), which represents a factor of $$10^{3} = 1000$$ times more intensity! This occurs because the ear is far less sensitive to low frequencies. Conversely, at 3000 Hz (near the ear's peak sensitivity), a sound needs only 37 dB to achieve the same perceived loudness—3 dB less than the reference, meaning about half the intensity. At 8000 Hz, about 52 dB is required, 12 dB more than the reference, or about $$10^{1.2} \approx 16$$ times the intensity, because the ear's sensitivity falls off above about 4000 Hz.
 
 This frequency dependence has crucial practical applications in audio engineering and hearing protection. Sound systems must compensate for this non-uniform sensitivity through equalization, boosting low frequencies to achieve balanced perceived loudness across the spectrum. This is why bass controls exist on audio equipment and why "loudness" buttons on older stereos would boost bass at low volumes—to compensate for the ear's reduced sensitivity to low frequencies at lower overall sound levels. For hearing conservation, this explains why low-frequency industrial noise (like heavy machinery rumble) may be perceived as less loud than it actually is, potentially leading to underestimation of hearing damage risk. Workers might not realize that a 70-dB, 60-Hz sound, while seeming only moderately loud, actually carries far more acoustic energy than its perceived loudness suggests. Similarly, this is why subwoofers in home theater systems require much more power than mid-range or high-frequency speakers to achieve balanced sound—the ear's insensitivity to low frequencies must be overcome by higher actual sound intensities.
 
@@ -718,40 +718,40 @@ To find the loudness in phons for a given frequency and intensity level, we use 
 
 **(a) At 60.0-dB intensity level:**
 
-For each frequency, we locate where 60 dB intersects the frequency and interpolate between phon curves:
+For each frequency, we locate where 60 dB intersects the frequency and interpolate between phon curves. Readings from a graph are uncertain by a few phons.
 
-- **200 Hz**: approximately **50 phons** (below the 60-phon curve)
+- **200 Hz**: approximately **50 phons** (on the 50-phon curve)
 - **1000 Hz**: **60 phons** (by definition, phons equal dB at 1000 Hz)
-- **5000 Hz**: approximately **70 phons** (above the 60-phon curve)
-- **10,000 Hz**: approximately **60 phons** (approximately on the 60-phon curve)
+- **5000 Hz**: approximately **59 phons** (just below the 60-phon curve)
+- **10,000 Hz**: approximately **47 phons** (between the 40- and 50-phon curves)
 
 **(b) At 110-dB intensity level:**
 
 For each frequency at this high intensity level:
 
-- **200 Hz**: approximately **103 phons**
+- **200 Hz**: approximately **109 phons**
 - **1000 Hz**: **110 phons**
-- **5000 Hz**: approximately **113 phons**
-- **10,000 Hz**: approximately **108 phons**
+- **5000 Hz**: approximately **117 phons** (between the 110- and 120-phon curves)
+- **10,000 Hz**: approximately **105 phons**
 
 **(c) At 20.0-dB intensity level:**
 
 For each frequency at this low intensity level:
 
-- **200 Hz**: approximately **10 phons** (well below the 20-phon curve)
+- **200 Hz**: **inaudible**; 20 dB is below the threshold of hearing (the 0-phon curve is at about 23 dB at 200 Hz)
 - **1000 Hz**: **20 phons**
-- **5000 Hz**: approximately **28 phons** (above the 20-phon curve)
-- **10,000 Hz**: approximately **15 phons**
+- **5000 Hz**: approximately **21 phons**
+- **10,000 Hz**: approximately **10 phons**
 
 **Discussion**
 
-These results beautifully illustrate how loudness perception varies dramatically with frequency, especially at lower intensity levels. In part (a), even though all four sounds have the same physical intensity (60 dB), they sound quite different: the 5000-Hz tone sounds loudest (70 phons) because it's near the ear's peak sensitivity, while the 200-Hz tone sounds noticeably quieter (50 phons)—a difference of 20 phons represents a very substantial perceptual difference.
+These results illustrate how loudness perception varies with frequency, especially at low intensity levels. In part (a), all four sounds have the same intensity (60 dB), yet the 1000-Hz and 5000-Hz tones sound about equally loud (59–60 phons), while the 200-Hz tone (50 phons) and the 10,000-Hz tone (47 phons) sound noticeably quieter. The ear is most sensitive in the range of about 1000 to 5000 Hz.
 
-Part (c) shows this effect is most pronounced at low intensities. At 20 dB, the loudness varies from 10 phons (200 Hz) to 28 phons (5000 Hz)—the 5000-Hz tone sounds nearly three times as loud despite having identical intensity! This is why soft background music often seems to lack bass—the low frequencies simply don't sound as loud to our ears.
+Part (c) shows that the effect is most pronounced at low intensities. At 20 dB, the 200-Hz tone cannot be heard at all, the 10,000-Hz tone is a faint 10 phons, and the 1000-Hz and 5000-Hz tones are about 20 phons. This is why soft background music often seems to lack bass: at low levels the low frequencies may fall below the threshold of hearing.
 
-Part (b) reveals that at very high intensity levels (110 dB), the variation in perceived loudness becomes much smaller. All frequencies sound more similar because the equal-loudness curves flatten out considerably at high intensities. This flattening means our ears become less discriminatory about frequency at high sound levels.
+Part (b) shows that at a high intensity level (110 dB) the readings are much closer together: 105 to 117 phons, compared with "inaudible" to 21 phons at 20 dB. The equal-loudness curves flatten considerably at high levels, especially at low frequencies, so the ear discriminates less between frequencies when sounds are loud.
 
-This phenomenon has critical implications: (1) In hearing conservation, a 60-dB, 200-Hz sound might be underestimated as a hazard because it sounds less loud than a 60-dB, 5000-Hz sound, even though both carry equal energy. (2) For hearing aid design, frequency-specific amplification must account for these variations—simply amplifying all frequencies equally doesn't restore normal loudness perception. (3) In audio mixing and mastering, engineers must carefully balance frequency content because listeners will perceive different frequencies as having different loudness even when they measure the same dB level. (4) Age-related hearing loss exacerbates these effects, as high-frequency sensitivity declines, making sounds at 5000-10,000 Hz seem even quieter relative to mid-range frequencies.
+This has practical implications: (1) In hearing conservation, a 60-dB, 200-Hz sound might be underestimated as a hazard because it sounds quieter than a 60-dB, 1000-Hz sound, even though both carry the same intensity. (2) For hearing aid design, frequency-specific amplification must account for these variations; simply amplifying all frequencies equally does not restore normal loudness perception. (3) In audio mixing and mastering, engineers must balance frequency content because listeners perceive different frequencies at the same dB level as having different loudness. (4) Age-related hearing loss makes these effects worse: as high-frequency sensitivity declines, sounds at 5000–10,000 Hz seem even quieter relative to mid-range frequencies.
 
 :::
 
@@ -874,54 +874,54 @@ To find the intensity for a given loudness in phons, we first use Figure 2 to fi
 
 **(a) For 60.0-Hz sound at 60 phons:**
 
-From Figure 2, the 60-phon curve at 60 Hz corresponds to approximately 82 dB.
+From Figure 2, the 60-phon curve at 60 Hz corresponds to approximately 77 dB.
 
 Using the decibel formula:
 <div class="equation">
-$$82 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$77 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$8.2 = \log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$7.7 = \log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$\frac{I}{10^{-12}} = 10^{8.2} \approx 1.58 \times 10^{8}$$
+$$\frac{I}{10^{-12} \text{ W/m}^2} = 10^{7.7} \approx 5.0 \times 10^{7}$$
 </div>
 
 <div class="equation">
-$$I = (1.58 \times 10^{8})(10^{-12} \text{ W/m}^2) = 1.58 \times 10^{-4} \text{ W/m}^2 \approx 1.6 \times 10^{-4} \text{ W/m}^2$$
+$$I = (5.0 \times 10^{7})(10^{-12} \text{ W/m}^2) = 5.0 \times 10^{-5} \text{ W/m}^2$$
 </div>
 
 **(b) For 10,000-Hz sound at 60 phons:**
 
-From Figure 2, the 60-phon curve at 10,000 Hz corresponds to approximately 60 dB (the curves are flatter in this region).
+From Figure 2, the 60-phon curve at 10,000 Hz corresponds to approximately 72 dB; the curves rise steeply above about 4000 Hz.
 
 <div class="equation">
-$$60 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$72 \text{ dB} = (10 \text{ dB})\log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$6.0 = \log_{10}\left(\frac{I}{10^{-12}}\right)$$
+$$7.2 = \log_{10}\left(\frac{I}{10^{-12} \text{ W/m}^2}\right)$$
 </div>
 
 <div class="equation">
-$$\frac{I}{10^{-12}} = 10^{6}$$
+$$\frac{I}{10^{-12} \text{ W/m}^2} = 10^{7.2} \approx 1.6 \times 10^{7}$$
 </div>
 
 <div class="equation">
-$$I = (10^{6})(10^{-12} \text{ W/m}^2) = 10^{-6} \text{ W/m}^2 = 1.0 \times 10^{-6} \text{ W/m}^2$$
+$$I = (1.6 \times 10^{7})(10^{-12} \text{ W/m}^2) = 1.6 \times 10^{-5} \text{ W/m}^2$$
 </div>
 
 **Discussion**
 
-The results show that to achieve the same perceived loudness of 60 phons, the 60-Hz sound must have an intensity of approximately $$1.6 \times 10^{-4}$$ W/m², while the 10,000-Hz sound needs only $$1.0 \times 10^{-6}$$ W/m². This means the low-frequency sound requires about 160 times more intensity to sound equally loud! This dramatic difference (22 dB) illustrates why low-frequency sounds need much more power to be perceived as equally loud as mid- to high-frequency sounds.
+To sound as loud as a 60-dB, 1000-Hz tone, the 60-Hz sound needs an intensity of about $$5.0 \times 10^{-5}$$ W/m² (77 dB) and the 10,000-Hz sound about $$1.6 \times 10^{-5}$$ W/m² (72 dB). Both are well above the $$1.0 \times 10^{-6}$$ W/m² (60 dB) needed at 1000 Hz: the ear is less sensitive at both ends of the audible range. The 60-Hz sound needs about $$10^{0.5} \approx 3$$ times the intensity of the 10,000-Hz sound (a 5-dB difference). Graph readings are uncertain by a few dB, so these intensities are good to within a factor of about 1.5.
 
-This has profound implications for sound system design and energy consumption. Subwoofers that reproduce low-frequency sounds must handle far more power than tweeters (high-frequency speakers) to achieve balanced perceived volume across the frequency spectrum. A home theater system might use a 200-watt subwoofer alongside 50-watt mid-range and tweeter speakers precisely because of this frequency-dependent sensitivity.
+The low-frequency penalty grows at lower loudness levels: at 40 phons, a 60-Hz tone needs about 70 dB, 30 dB more than at 1000 Hz. This is one reason subwoofers must deliver more acoustic power than mid-range speakers to give balanced perceived volume, especially at modest listening levels.
 
-From a physiological perspective, this difference arises from several factors: (1) The ear canal resonates at frequencies around 2000-4000 Hz, naturally amplifying those frequencies. (2) The ossicular chain (hammer, anvil, stirrup) in the middle ear is most efficient at transferring mid-frequency vibrations. (3) The basilar membrane in the cochlea has frequency-dependent mechanical properties that favor mid-range frequencies. (4) Low-frequency sounds have longer wavelengths that don't couple as efficiently to the small structures of the inner ear.
+Several physiological factors contribute to this frequency dependence: (1) the ear canal resonates at about 2000–4000 Hz, boosting those frequencies; (2) the middle-ear ossicles transfer mid-frequency vibrations most efficiently; and (3) the mechanical properties of the basilar membrane in the cochlea favor the mid-range.
 
-For hearing protection, this means that low-frequency industrial noise at 60 Hz might not seem dangerously loud even when it carries substantial acoustic power. A 82-dB sound at 60 Hz (which sounds moderately loud, like 60 phons) is approaching the threshold where extended exposure begins to pose hearing damage risk, yet it might be underestimated because it doesn't sound as loud as its 82-dB intensity level might suggest if it were at a higher frequency. Conversely, at 10,000 Hz, the ear's reduced sensitivity at high frequencies (compared to its peak at 3000-4000 Hz) means that age-related hearing loss, which typically affects high frequencies first, will make these sounds seem even quieter as people age.
+For hearing protection, low-frequency noise at 60 Hz can carry more acoustic power than its loudness suggests: a 77-dB, 60-Hz hum sounds only as loud as a 60-dB mid-range tone. At 10,000 Hz, age-related hearing loss, which typically affects high frequencies first, makes such sounds seem even quieter as people age.
 
 :::
 

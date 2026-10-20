@@ -344,7 +344,7 @@ Describe how amplitude is related to the loudness of a sound.
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-Amplitude is directly proportional to the experience of loudness. As amplitude increases, loudness increases.
+For a sound of a given frequency, a larger amplitude sounds louder, but loudness is not directly proportional to amplitude. Intensity is proportional to the amplitude squared, and the sound intensity level changes by $$ 20 \log_{10}(A_2/A_1) $$ dB, so doubling the amplitude raises the level by about 6 dB. Perceived loudness also depends on frequency and on the level itself.
 
 :::
 

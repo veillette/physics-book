@@ -432,7 +432,7 @@ Find the gauge and absolute pressures in the balloon and peanut jar shown in [[F
 ::: solution
 
 **Strategy:**
-For the balloon, the fluid rises on the side connected to the balloon, indicating positive gauge pressure equal to $$ h \rho g $$ in cm H₂O. For the jar, the fluid is depressed, indicating negative gauge pressure (vacuum). Convert h = 0.0500 m to appropriate units. Calculate absolute pressure by adding atmospheric pressure.
+For the balloon, the gas pushes the liquid down on the side connected to the balloon, so the liquid stands higher on the open side; this indicates a positive gauge pressure equal to $$ h \rho g $$, that is, $$ h $$ in cm H₂O. For the jar, the reduced pressure lets the atmosphere push the mercury up on the jar side, indicating a negative gauge pressure (partial vacuum). Convert h = 0.0500 m to appropriate units. Calculate absolute pressure by adding atmospheric pressure.
 
 **Solution:**
 
@@ -440,24 +440,24 @@ Given: $$ h = 0.0500 \text{ m} = 5.00 \text{ cm} = 50.0 \text{ mm} $$
 
 **Balloon (positive gauge pressure):**
 
-From Figure 2(b), the water column is higher on the side connected to the balloon, so:
+From Figure 2(b), the water is pushed down on the balloon side and stands higher on the open side, so:
 <div class="equation">
 $$ P_{\text{g, balloon}} = h = 5.00 \text{ cm H}_2\text{O} $$
 </div>
 
 To find absolute pressure, add atmospheric pressure. Standard atmospheric pressure is 760 mm Hg, which equals:
 <div class="equation">
-$$ P_{\text{atm}} = 760 \text{ mm Hg} \times \frac{13.6 \text{ g/cm}^3}{1.00 \text{ g/cm}^3} = 10,336 \text{ cm H}_2\text{O} \approx 1.03 \times 10^{3} \text{ cm H}_2\text{O} $$
+$$ P_{\text{atm}} = 760 \text{ mm Hg} \times \frac{13.6 \text{ g/cm}^3}{1.00 \text{ g/cm}^3} = 10{,}336 \text{ mm H}_2\text{O} = 1033.6 \text{ cm H}_2\text{O} $$
 </div>
 
 Therefore:
 <div class="equation">
-$$ P_{\text{abs, balloon}} = P_{\text{atm}} + P_{\text{g}} = 1.030 \times 10^{3} + 5.00 = 1.035 \times 10^{3} \text{ cm H}_2\text{O} $$
+$$ P_{\text{abs, balloon}} = P_{\text{atm}} + P_{\text{g}} = 1033.6 \text{ cm H}_2\text{O} + 5.00 \text{ cm H}_2\text{O} = 1038.6 \text{ cm H}_2\text{O} \approx 1.04 \times 10^{3} \text{ cm H}_2\text{O} $$
 </div>
 
 **Jar (negative gauge pressure):**
 
-From Figure 2(c), the mercury is depressed on the jar side, indicating pressure less than atmospheric:
+From Figure 2(c), the mercury is raised on the jar side and depressed on the open side, indicating pressure less than atmospheric:
 <div class="equation">
 $$ P_{\text{g, jar}} = -h = -50.0 \text{ mm Hg} $$
 </div>
@@ -473,7 +473,7 @@ Balloon:
 
 $$
 \begin{array}{lll}{P}_{\text{g}}& =& 5.00 \text{ cm } {\text{H}}_{2}\text{O} \text{,}
-\\ {P}_{\text{abs}}& =& 1.035 \times 10^{3} \text{ cm } {\text{H}}_{2}\text{O}
+\\ {P}_{\text{abs}}& =& 1.04 \times 10^{3} \text{ cm } {\text{H}}_{2}\text{O}
 \text{.} \end{array}
 $$
 

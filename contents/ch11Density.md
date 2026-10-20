@@ -761,7 +761,7 @@ What is the density of 18.0-karat gold that is a mixture of 18 parts gold, 5 par
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 **Strategy:**
-Calculate the weighted average of the densities based on mass fractions. First determine mass fractions, then find volumes occupied by each component, and finally calculate overall density.
+Because the parts are given by mass, the mass fractions weight the *volumes per unit mass* (specific volumes) of the constituents, not their densities. First determine the mass fractions, then add the volumes occupied by each component, and finally divide the total mass by the total volume.
 
 **Solution:**
 
@@ -796,10 +796,10 @@ Substituting values:
 $$ \rho_{\text{avg}} = \frac{1}{\frac{0.750}{19.32} + \frac{0.208}{10.5} + \frac{0.0417}{8.8}} = \frac{1}{0.03882 + 0.01981 + 0.00474} = \frac{1}{0.06337} = 15.8 \text{ g/cm}^3 $$
 </div>
 
-Rounding to three significant figures: $$ \rho_{\text{avg}} \approx 15.6 \text{ g/cm}^3 $$
+Keeping three significant figures (unrounded value 15.77 g/cm³): $$ \rho_{\text{avg}} \approx 15.8 \text{ g/cm}^3 $$
 
 **Discussion:**
-The density of 18-karat gold is approximately **15.6 g/cm³** (or 15,600 kg/m³). This is significantly less than pure 24-karat gold (19.32 g/cm³) because the added silver and copper are less dense. The 18-karat designation means 18/24 = 75% gold by mass, with the remainder being alloying metals. These alloys are used in jewelry because pure gold is too soft for practical use—the added metals increase hardness and durability while reducing cost. Different karat values indicate different gold fractions: 14-karat is 14/24 = 58.3% gold, 10-karat is 41.7% gold. Measuring density is one method jewelers use to verify gold purity, though it cannot distinguish between different alloy compositions with similar densities.
+The density of 18-karat gold is approximately **15.8 g/cm³** (or 15,800 kg/m³). This is significantly less than pure 24-karat gold (19.32 g/cm³) because the added silver and copper are less dense. The 18-karat designation means 18/24 = 75% gold by mass, with the remainder being alloying metals. These alloys are used in jewelry because pure gold is too soft for practical use—the added metals increase hardness and durability while reducing cost. Different karat values indicate different gold fractions: 14-karat is 14/24 = 58.3% gold, 10-karat is 41.7% gold. Measuring density is one method jewelers use to verify gold purity, though it cannot distinguish between different alloy compositions with similar densities.
 
 :::
 

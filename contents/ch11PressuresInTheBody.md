@@ -875,21 +875,16 @@ $$ \Delta PE = mg(h/2) = (2.33 \times 10^{-5} \text{ kg})(9.80 \text{ m/s}^2)(0.
 
 **(c) Source of the energy:**
 
-Work is done by the surface tension force through an effective distance $$ h/2 $$ to raise the column of water. The surface tension acts along the perimeter of the meniscus ($$ 2\pi r $$) with force $$ F = \gamma (2\pi r) $$. As the water rises to height $$ h $$, the point of application (the meniscus) moves upward by $$ h $$, but the center of mass only rises by $$ h/2 $$. The work done equals:
+The energy comes from the surface energy released as water wets the glass. The surface-tension force acts along the perimeter of the meniscus ($$ 2\pi r $$) with magnitude $$ F = \gamma (2\pi r) $$ (for a contact angle of 0°), and its point of application, the meniscus, moves up the full height $$ h $$. The work it does is therefore:
 
 <div class="equation">
-$$ W = F \cdot d = [\gamma (2\pi r)] \cdot (h/2) = \gamma \pi r h $$
+$$ W = F h = \gamma (2\pi r) h = (0.0728 \text{ N/m})(2\pi)(5.00 \times 10^{-4} \text{ m})(0.0297 \text{ m}) = 6.79 \times 10^{-6} \text{ J} $$
 </div>
 
-This can be verified:
-<div class="equation">
-$$ W = (0.0728 \text{ N/m})(\pi)(5.00 \times 10^{-4} \text{ m})(0.0297 \text{ m}) = 3.40 \times 10^{-6} \text{ J} $$
-</div>
-
-This matches the potential energy gain (within rounding error), confirming energy conservation.
+Physically, $$ \gamma (2\pi r h) $$ is the energy released when an area $$ 2\pi r h $$ of glass changes from a glass–air surface to a lower-energy glass–water surface. This is **twice** the gravitational potential energy gained, $$ 3.39 \times 10^{-6} \text{ J} $$. Energy is still conserved: the remaining $$ 3.40 \times 10^{-6} \text{ J} $$ first appears as kinetic energy of the rising water and is then converted to thermal energy by viscous friction as the column settles (or oscillates and comes to rest) at its final height.
 
 **Discussion:**
-Water rises to **2.97 cm** and gains **3.39 µJ** of potential energy. The energy comes from the work done by adhesive forces (water-glass attraction) as manifested through surface tension. As the water climbs the tube walls, the surface area of the water-glass interface increases while the water-air interface decreases. The favorable water-glass interaction (lower energy) compared to water-air interaction drives this process. Energy conservation requires that the work done by surface tension equals the gravitational potential energy gained, which our calculations confirm.
+Water rises to **2.97 cm** and gains **3.39 µJ** of potential energy. The source is the **6.79 µJ** of surface energy released as the water–glass interface replaces the air–glass interface; adhesion between water and glass makes this change favorable. Exactly half of that energy ends up as gravitational potential energy and half is dissipated as heat, much like charging a capacitor from a battery, where half the energy supplied is stored and half is dissipated.
 
 :::
 
@@ -911,7 +906,7 @@ A negative pressure of 25.0 atm can sometimes be achieved with the device in [[F
 **Strategy**
 
 (a) We use $$ h = \frac{P}{\rho g} $$ to find the height water could be raised by the negative pressure.
-(b) For the steel wire, we use the relationship between stress, strain, and Young's modulus: $$ \frac{\Delta L}{L} = \frac{\sigma}{Y} = \frac{P}{Y} $$.
+(b) The wire has the same length as the water column in (a), $$ L = 258 \text{ m} $$, and hangs under its own weight. The tension at a point equals the weight of the wire below it, so the stress grows linearly from zero at the bottom to $$ \rho_{\text{steel}} g L $$ at the top. We add up the stretch of each small piece using $$ \Delta L = F L_0/(AY) $$. The diameter cancels out.
 
 **Solution**
 
@@ -921,19 +916,23 @@ Calculate the height:
 
 $$ h = \frac{P}{\rho g} = \frac{2.53 \times 10^{6} \text{ Pa}}{(1000 \text{ kg/m}^3)(9.80 \text{ m/s}^2)} = 258 \text{ m} $$
 
-(b) For steel, Young's modulus is $$ Y = 2.10 \times 10^{11} \text{ N/m}^2 $$. The strain is:
+(b) A piece of wire of length $$ dy $$ at height $$ y $$ above the bottom supports the weight of the wire below it, $$ F = \rho_{\text{steel}} g A y $$. Its stretch is
 
-$$ \frac{\Delta L}{L} = \frac{P}{Y} = \frac{2.53 \times 10^{6} \text{ Pa}}{2.10 \times 10^{11} \text{ Pa}} = 1.20 \times 10^{-5} $$
+$$ d(\Delta L) = \frac{F\,dy}{AY} = \frac{\rho_{\text{steel}} g\, y\, dy}{Y} $$
 
-For a capillary tube length of, say, $$ L = 10 \text{ cm} = 0.10 \text{ m} $$:
+Adding up these stretches from $$ y = 0 $$ to $$ y = L $$ gives
 
-$$ \Delta L = (1.20 \times 10^{-5})(0.10 \text{ m}) = 1.2 \times 10^{-6} \text{ m} = 1.2 \text{ μm} $$
+$$ \Delta L = \frac{\rho_{\text{steel}} g L^{2}}{2Y} $$
 
-A negative gauge pressure of 25.0 atm could raise water to a height of approximately **258 m**. A steel wire under the same tensile stress would stretch by a fractional amount of **1.2 × 10⁻⁵** (or about 1.2 μm for every 10 cm of length).
+This is the stretch a uniform stress equal to the *average* stress, $$ \rho_{\text{steel}} g L/2 $$, would produce. With $$ \rho_{\text{steel}} = 7.80 \times 10^{3} \text{ kg/m}^3 $$, $$ Y = 2.10 \times 10^{11} \text{ N/m}^2 $$, and $$ L = 258 \text{ m} $$:
+
+$$ \Delta L = \frac{(7.80 \times 10^{3} \text{ kg/m}^3)(9.80 \text{ m/s}^2)(258 \text{ m})^{2}}{2(2.10 \times 10^{11} \text{ N/m}^2)} = 1.21 \times 10^{-2} \text{ m} = 1.21 \text{ cm} $$
+
+A negative gauge pressure of 25.0 atm could raise water to a height of approximately **258 m**. A steel wire of the same length hanging from its top would stretch by about **1.21 cm** under its own weight. The stress at the top of the wire, $$ \rho_{\text{steel}} g L = 1.97 \times 10^{7} \text{ Pa} $$, is about 8 times the 25.0-atm tension in the water.
 
 **Discussion**
 
-The 258 m height is remarkable—far exceeding the ~10.3 m limit imposed by atmospheric pressure pushing water up into a vacuum. This demonstrates that water under tension (negative pressure) can "pull" rather than just "push." This is directly relevant to how trees transport water to heights exceeding 100 m. The cohesion-tension theory proposes that evaporation from leaves creates negative pressure that pulls water up through the xylem, with cohesive forces between water molecules preventing the water column from breaking. The comparison with steel shows that water under such tension behaves somewhat like a solid, though its cohesive strength is much less than steel's tensile strength.
+The 258 m height is remarkable—far exceeding the ~10.3 m limit imposed by atmospheric pressure pushing water up into a vacuum. This demonstrates that water under tension (negative pressure) can "pull" rather than just "push." This is directly relevant to how trees transport water to heights exceeding 100 m. The cohesion-tension theory proposes that evaporation from leaves creates negative pressure that pulls water up through the xylem, with cohesive forces between water molecules preventing the water column from breaking. The steel comparison shows that a column this tall is demanding even for a solid: steel hanging 258 m carries about 8 times the stress in the water column, which is still far below steel's breaking strength.
 
 :::
 

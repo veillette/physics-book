@@ -276,21 +276,31 @@ $$r = \frac{8.99 \times 10^{9} \text{ V·m}}{5.00 \times 10^{6} \text{ V}} = 1.8
 
 **(b) Practical implications:**
 
-A sphere of radius 1.80 km would be about 3.6 km (over 2 miles) in diameter! This is larger than many cities. The implications are:
+Even 1.80 km from the center of the sphere, the potential is still 5.00 MV, and it is higher everywhere closer in, including on the sphere's own surface if the sphere is smaller than 1.80 km. What actually limits the charge an isolated object can hold is the electric field at its surface. If that field exceeds the breakdown strength of the surrounding air, about $$E_{\text{max}} = 3 \times 10^{6} \text{ V/m}$$, the air conducts and the charge leaks away. For a sphere of radius $$R$$, the surface field is $$E = kQ/R^2$$, so holding $$Q = 1.00 \text{ C}$$ requires
 
-1. **One coulomb is an enormous charge:** To maintain even a modest potential (5 MV is achievable in laboratories), you would need an impossibly large sphere.
+<div class="equation">
+$$R \geq \sqrt{\frac{kQ}{E_{\text{max}}}} = \sqrt{\frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \text{ C})}{3 \times 10^{6} \text{ V/m}}} = 54.7 \text{ m}$$
+</div>
 
-2. **Charge limitations:** Real objects can only hold microcoulombs or less. A Van de Graaff generator, one of the highest-voltage laboratory devices, might hold microcoulombs on a meter-scale sphere.
+The surface of such a sphere would be at a potential of
 
-3. **Breakdown limitations:** Even if you could build such a sphere, the electric field near its surface would be $$E = V/r = (5 \times 10^6 \text{ V})/(1800 \text{ m}) \approx 2800 \text{ V/m}$$, which is very weak. However, storing 1 C would require starting at an impossibly small sphere that would immediately discharge.
+<div class="equation">
+$$V = \frac{kQ}{R} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \text{ C})}{54.7 \text{ m}} = 1.64 \times 10^{8} \text{ V} = 164 \text{ MV}$$
+</div>
+
+The implications are:
+
+1. **One coulomb is an enormous static charge:** Isolating it in air is not forbidden by physics, but it would require a conducting sphere more than 100 m across, held at over 160 MV. That is far beyond any laboratory device.
+
+2. **Typical laboratory charges are much smaller:** By the same breakdown limit, a Van de Graaff sphere of radius 0.20 m can hold at most about $$(3 \times 10^{6} \text{ V/m})(0.20 \text{ m})^2/(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2) \approx 13 \text{ μC}$$, and in practice usually holds less. Since the maximum charge grows as $$R^2$$, large charges need very large objects.
 
 **Discussion**
 
-This problem illustrates why the coulomb is such a large unit of charge for electrostatics. Lightning, which involves millions of volts, transfers only about 20-350 coulombs total (in pulses), and this causes massive destruction. One coulomb of isolated, static charge is essentially impossible to achieve.
+This problem illustrates why the coulomb is such a large unit of charge for electrostatics. A lightning stroke transfers tens of coulombs, but that charge is spread through a thundercloud kilometers across, not stored on a compact object. The practical limit on stored charge is set by the size of the object and the breakdown strength of the surrounding medium.
 
 **(a) The distance is 1.80 km from the center of the sphere.**
 
-**(b) Isolating 1.00 C of charge is impractical because it would require a sphere nearly 2 km in radius just to limit the potential to 5 MV. One coulomb is a vastly larger charge than can realistically be accumulated in static electricity situations.**
+**(b) Isolating 1.00 C is impractical: the potential is still 5.00 MV at 1.80 km, and to keep the surface field below the breakdown strength of air the charged sphere would need a radius of at least about 55 m, at a surface potential of about 160 MV. Everyday and laboratory static charges are microcoulombs or less.**
 
 :::
 
