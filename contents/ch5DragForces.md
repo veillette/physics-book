@@ -194,7 +194,7 @@ Gather together some nested coffee filters. Leaving them in their original shape
 takes for one, two, three, four, and five nested filters to fall to the floor from the same height
 (roughly 2 m). (Note that, due to the way the filters are nested, drag is constant and only mass varies.)
 They obtain terminal velocity quite quickly, so find this velocity as a function of mass.
-Plot the terminal velocity$$ v $$ versus mass. Also plot $$ v^{2} $$ versus mass.
+Plot the terminal velocity $$ v $$ versus mass. Also plot $$ v^{2} $$ versus mass.
 Which of these relationships is more linear? What can you conclude from these graphs?
 
 ::::
@@ -209,7 +209,7 @@ Find the terminal velocity of an 85-kg skydiver falling in a spread-eagle positi
 
 **Strategy**
 
-At terminal velocity,$$ F_{\text{net}}=0 $$. Thus the drag force on the skydiver
+At terminal velocity, $$ F_{\text{net}}=0 $$. Thus the drag force on the skydiver
 must equal the force of gravity (the person’s weight). Using the equation of
 drag force, we find $$ mg =\frac{1}{2}\rho C A v^{2} $$.
 

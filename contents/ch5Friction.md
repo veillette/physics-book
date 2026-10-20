@@ -153,7 +153,7 @@ approximate description of friction given by the above two equations.
 
 #### Table 1: Coefficients of friction
 
-| System                            | Coefficients of Static friction$$\mu_{\s}$$| Coefficients of Kinetic friction$$\mu_{\text{k}}$$|
+| System                            | Coefficients of Static friction $$\mu_{\s}$$| Coefficients of Kinetic friction $$\mu_{\text{k}}$$|
 | --------------------------------- | ----------------------------------------------- | ------------------------------------------------------ |
 | Rubber on dry concrete            | 1.0                                             | 0.7                                                    |
 | Rubber on wet concrete            | 0.7                                             | 0.5                                                    |
@@ -234,7 +234,7 @@ A skier with a mass of 62 kg is sliding down a snowy slope. Find the coefficient
 **Strategy**
 
 The magnitude of kinetic friction was given in to be 45.0 N. Kinetic friction is
-related to the normal force$$\mag{N}$$as$$f_{\text{k}}=\mu_{\text{k}} \mag{N}$$; thus, the coefficient of kinetic friction can be found if we can
+related to the normal force $$\mag{N}$$ as $$f_{\text{k}}=\mu_{\text{k}} \mag{N}$$; thus, the coefficient of kinetic friction can be found if we can
 find the normal force of the skier on a slope. The normal force is always
 perpendicular to the surface, and since there is no motion perpendicular to the
 surface, the normal force should equal the component of the skier’s weight
@@ -257,11 +257,11 @@ Substituting this into our expression for kinetic friction, we get
  $$f_{\text{k}}=\mu_{\text{k}}mg \cos{ 25^\circ },$$
 </div>
 
-which can now be solved for the coefficient of kinetic friction$$\mu_{\text{k}}$$.
+which can now be solved for the coefficient of kinetic friction $$\mu_{\text{k}}$$.
 
 **Solution**
 
-Solving for$$\mu_{\text{k} }$$gives
+Solving for $$\mu_{\text{k} }$$ gives
 
 <div class="equation">
  $$\mu_{\text{k}}=\frac{ f_{\text{k}}}{\mag{N}}=\frac{ f_{\text{k}}}{w\cos{ 25^\circ }}=\frac{ f_{\text{k}}}{mg \cos{ 25^\circ }.}$$ 
@@ -279,7 +279,7 @@ Substituting known values on the right-hand side of the equation,
 This result is a little smaller than the coefficient listed
 in [Table 1](#Table1) for waxed wood on snow, but it is still reasonable since
 values of the coefficients of friction can vary greatly. In situations like
-this, where an object of mass$$m$$slides down a slope that makes an angle$$\theta$$with the horizontal, friction is given by$$f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta}$$. All objects will slide down a slope
+this, where an object of mass $$m$$ slides down a slope that makes an angle $$\theta$$ with the horizontal, friction is given by $$f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta}$$. All objects will slide down a slope
 with constant acceleration under these circumstances. Proof of this is left for
 this chapter’s Problems and Exercises.
 
@@ -295,7 +295,7 @@ An object will slide down an inclined plane at a constant velocity if the net fo
 is zero. We can use this fact to measure the coefficient of kinetic friction between two objects.
 As shown in [Example 1](#example1), the kinetic friction force on a slope
 $$f_{\text{k}}=\mu_{\text{k}}mg \cos{\theta}$$.
-The component of the weight down the slope is equal to$$mg \sin{\theta}$$
+The component of the weight down the slope is equal to $$mg \sin{\theta}$$
 (see the free-body diagram in [Figure 3](#Figure3)). These
 forces act in opposite directions, so when they have equal magnitude, the
 acceleration is zero. Writing these out:
@@ -308,16 +308,16 @@ acceleration is zero. Writing these out:
  $$\mu_{\text{k}}mg \cos{\theta} =mg \sin{\theta} .$$
 </div>
 
-Solving for$$\mu_{\text{k}}$$, we find that
+Solving for $$\mu_{\text{k}}$$, we find that
 
 <div class="equation">
  $$\mu_{\text{k}}=\frac{mg \sin{\theta} }{mg \cos{\theta} }=\tan{\theta} .$$
 </div>
 
-Put a coin on a book and tilt it until the coin slides at a constant velocity down the book. You might need to tap the book lightly to get the coin to move. Measure the angle of tilt relative to the horizontal and find$$\mu_{\text{k}}$$. Note that the coin will not start to slide at all until an angle greater than
+Put a coin on a book and tilt it until the coin slides at a constant velocity down the book. You might need to tap the book lightly to get the coin to move. Measure the angle of tilt relative to the horizontal and find $$\mu_{\text{k}}$$. Note that the coin will not start to slide at all until an angle greater than
 $$\theta$$
 is attained, since the coefficient of static friction is larger than the
-coefficient of kinetic friction. Discuss how this may affect the value for$$\mu_{\text{k}}$$
+coefficient of kinetic friction. Discuss how this may affect the value for $$\mu_{\text{k}}$$
 and its uncertainty.
 
 ::::
@@ -361,7 +361,7 @@ surfaces. [Figure 5](#Figure5) shows how the tip of a probe drawn across another
 material is deformed by atomic-scale friction. The force needed to drag the tip
 can be measured and is found to be related to shear stress, which will be
 discussed later in this chapter. The variation in shear stress is remarkable (
-more than a factor of$$10^{12}$$)
+more than a factor of $$10^{12}$$)
 and difficult to predict theoretically, but shear stress is yielding a
 fundamental understanding of a large-scale phenomenon known since ancient
 times—friction.
@@ -394,25 +394,25 @@ Forces and Motion
 
 - Friction is a contact force between systems that opposes the motion or
   attempted motion between them. Kinetic friction and the maximum static
-  friction are proportional to the magnitude of the normal force$$\mag{N}$$pushing the systems together. (A
+  friction are proportional to the magnitude of the normal force $$\mag{N}$$ pushing the systems together. (A
   normal force is always perpendicular to the contact surface between systems.)
   Friction depends on both of the materials involved. The magnitude of static
-  friction$$f_{\s}$$between systems stationary relative to one another is
+  friction $$f_{\s}$$ between systems stationary relative to one another is
   given by
   <div class="equation">
   $$f_{\s}\le \mu_{\s} \mag{N},$$
   </div>
 
-where$$\mu_{\s}$$is the coefficient of static friction, which depends on
+where $$\mu_{\s}$$ is the coefficient of static friction, which depends on
 both of the materials.
 
-- The kinetic friction force$$f_{\text{k}}$$between systems moving relative
+- The kinetic friction force $$f_{\text{k}}$$ between systems moving relative
   to one another is given by
   <div class="equation">
    $$f_{\text{k}}=\mu_{\text{k}} \mag{N},$$
   </div>
 
-where$$\mu_{\text{k}}$$is the coefficient of kinetic friction, which also
+where $$\mu_{\text{k}}$$ is the coefficient of kinetic friction, which also
 depends on both materials.
 
 ### Conceptual Questions
@@ -480,7 +480,7 @@ spatula and his Teflon frying pan is only 0.200 N. Knowing the coefficient of ki
 
 **Strategy**
 
-We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is$$\mu_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
+We use the relationship between kinetic friction force and normal force. From Table 1, the coefficient of kinetic friction between Teflon and steel is $$\mu_{\text{k}} = 0.04$$. Since the spatula is moving across the pan, kinetic friction applies.
 
 **Solution**
 
@@ -501,7 +501,7 @@ $$\mag{N} = \frac{0.200 \N}{0.04} = 5.00 \N$$
 
 **Discussion**
 
-The normal force on the spatula is$$5.00 \N$$. This relatively small normal force makes sense for a lightweight spatula resting on a pan. The very low coefficient of friction for Teflon (0.04) means even small normal forces can produce measurable friction forces, which is why Teflon is such an effective non-stick coating.
+The normal force on the spatula is $$5.00 \N$$. This relatively small normal force makes sense for a lightweight spatula resting on a pan. The very low coefficient of friction for Teflon (0.04) means even small normal forces can produce measurable friction forces, which is why Teflon is such an effective non-stick coating.
 
 ::::
 
@@ -520,7 +520,7 @@ The normal force on the spatula is$$5.00 \N$$. This relatively small normal forc
 
 **Strategy**
 
-The force required to insert the piston must overcome the kinetic friction between the steel surfaces. From Table 1, we find$$\mu_{\text{k}} = 0.3$$for dry steel on steel, and$$\mu_{\text{k}} = 0.03$$for oiled steel on steel. We first find the normal force from part (a), then use it to find the required force when oiled.
+The force required to insert the piston must overcome the kinetic friction between the steel surfaces. From Table 1, we find $$\mu_{\text{k}} = 0.3$$ for dry steel on steel, and $$\mu_{\text{k}} = 0.03$$ for oiled steel on steel. We first find the normal force from part (a), then use it to find the required force when oiled.
 
 **Solution**
 
@@ -547,7 +547,7 @@ $$F_{\text{oiled}} = \mu_{\text{k,oiled}} \mag{N} = (0.03)(1000 \N) = 30 \N$$
 
 **Discussion**
 
-The magnitude of the normal force between the piston and cylinder is$$1000 \N$$or$$1.00 \times 10^3 \N$$. When the steel parts are oiled, the force required to insert the piston is only$$30 \N$$, which is just 10% of the force needed for dry steel. This demonstrates why lubrication is essential in engines—it dramatically reduces friction and wear between moving metal parts.
+The magnitude of the normal force between the piston and cylinder is $$1000 \N$$ or $$1.00 \times 10^3 \N$$. When the steel parts are oiled, the force required to insert the piston is only $$30 \N$$, which is just 10% of the force needed for dry steel. This demonstrates why lubrication is essential in engines—it dramatically reduces friction and wear between moving metal parts.
 
 ::::
 
@@ -566,7 +566,7 @@ The magnitude of the normal force between the piston and cylinder is$$1000 \N$$o
 
 **Strategy**
 
-The knee joint is lubricated by synovial fluid. From Table 1, the coefficient of friction for bone lubricated by synovial fluid is$$\mu_{\s} = 0.016$$. The normal force in the joint equals the weight supported, and the maximum friction force is found using$$f_{\s(\text{max})} = \mu_{\s} \mag{N}$$.
+The knee joint is lubricated by synovial fluid. From Table 1, the coefficient of friction for bone lubricated by synovial fluid is $$\mu_{\s} = 0.016$$. The normal force in the joint equals the weight supported, and the maximum friction force is found using $$f_{\s(\text{max})} = \mu_{\s} \mag{N}$$.
 
 **Solution**
 
@@ -596,7 +596,7 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N}_{\text{exercise}} = (0.016)(6468 \N) = 1
 
 **Discussion**
 
-The maximum frictional force in the knee joint is$$10.3 \N$$during normal standing and$$103 \N$$during strenuous exercise. These values are remarkably small considering the large forces involved, demonstrating how effectively synovial fluid lubricates our joints. The low coefficient of friction (0.016) is about 6 times lower than ice on ice, which explains why healthy joints move so smoothly. When joints deteriorate from arthritis or injury, this coefficient increases significantly, leading to pain and restricted movement.
+The maximum frictional force in the knee joint is $$10.3 \N$$ during normal standing and $$103 \N$$ during strenuous exercise. These values are remarkably small considering the large forces involved, demonstrating how effectively synovial fluid lubricates our joints. The low coefficient of friction (0.016) is about 6 times lower than ice on ice, which explains why healthy joints move so smoothly. When joints deteriorate from arthritis or injury, this coefficient increases significantly, leading to pain and restricted movement.
 
 ::::
 
@@ -616,7 +616,7 @@ Suppose you have a 120-kg wooden crate resting on a wood floor.
 
 **Strategy**
 
-For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1,$$\mu_{\s} = 0.5$$for wood on wood. For part (b), once the crate moves, kinetic friction applies with$$\mu_{\text{k}} = 0.3$$. We use Newton's second law to find the acceleration.
+For part (a), we need to find the maximum static friction force, which equals the maximum force that can be applied without moving the crate. From Table 1, $$\mu_{\s} = 0.5$$ for wood on wood. For part (b), once the crate moves, kinetic friction applies with $$\mu_{\text{k}} = 0.3$$. We use Newton's second law to find the acceleration.
 
 **Solution**
 
@@ -651,7 +651,7 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{235.2 \N}{120 \kg} = 1.96 \mss$$
 
 **Discussion**
 
-The maximum force you can exert horizontally without moving the crate is$$588 \N$$. Once the crate starts to slip with this same applied force, its acceleration is$$1.96 \mss$$. This problem illustrates why it's harder to start an object moving than to keep it moving—static friction (requiring 588 N to overcome) is greater than kinetic friction (only 352.8 N), so once the crate starts sliding, there's a net force that accelerates it.
+The maximum force you can exert horizontally without moving the crate is $$588 \N$$. Once the crate starts to slip with this same applied force, its acceleration is $$1.96 \mss$$. This problem illustrates why it's harder to start an object moving than to keep it moving—static friction (requiring 588 N to overcome) is greater than kinetic friction (only 352.8 N), so once the crate starts sliding, there's a net force that accelerates it.
 
 ::::
 
@@ -661,7 +661,7 @@ The maximum force you can exert horizontally without moving the crate is$$588 \N
 
 :::: problem
 
-(a) If half of the weight of a small$$1.00\times 10^{3}\kg$$utility truck is supported by its two drive wheels, what is the magnitude of the
+(a) If half of the weight of a small $$1.00\times 10^{3}\kg$$ utility truck is supported by its two drive wheels, what is the magnitude of the
 maximum acceleration it can achieve on dry concrete?
 (b) Will a metal cabinet lying on the wooden bed of the truck slip if it accelerates at this rate?
 (c) Solve both problems assuming the truck has four-wheel drive.
@@ -672,7 +672,7 @@ maximum acceleration it can achieve on dry concrete?
 
 **Strategy**
 
-The maximum acceleration is limited by the maximum static friction force between the drive wheels and the road. From Table 1,$$\mu_{\s} = 1.0$$for rubber on dry concrete. For part (b), we compare the friction available for the cabinet (metal on wood,$$\mu_{\s} = 0.5$$) with the friction force needed to accelerate it.
+The maximum acceleration is limited by the maximum static friction force between the drive wheels and the road. From Table 1, $$\mu_{\s} = 1.0$$ for rubber on dry concrete. For part (b), we compare the friction available for the cabinet (metal on wood, $$\mu_{\s} = 0.5$$) with the friction force needed to accelerate it.
 
 **Solution**
 
@@ -705,7 +705,7 @@ $$f_{\text{needed}} = m_{\text{cab}} a = m_{\text{cab}}(4.90 \mss)$$
 $$f_{\text{available}} = \mu_{\s} m_{\text{cab}} g = (0.5) m_{\text{cab}}(9.80 \mss) = m_{\text{cab}}(4.90 \mss)$$
 </div>
 
-3. Since$$f_{\text{available}} = f_{\text{needed}}$$, the cabinet is right at the verge of slipping. Any slight increase in acceleration would cause it to slip.
+3. Since $$f_{\text{available}} = f_{\text{needed}}$$, the cabinet is right at the verge of slipping. Any slight increase in acceleration would cause it to slip.
 
 (c) Four-wheel drive:
 
@@ -724,11 +724,11 @@ $$f_{\s(\text{max})} = \mu_{\s} \mag{N}_{\text{drive}} = (1.0)(9800 \N) = 9800 \
 $$a_{\text{max}} = \frac{9800 \N}{1.00 \times 10^{3} \kg} = 9.80 \mss$$
 </div>
 
-4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = 4.90\text{ m}_{\text{cab}}$$) is less than the force needed to accelerate it at$$9.80 \mss$$($$F = 9.80\text{ m}_{\text{cab}}$$).
+4. The cabinet will definitely slip since the maximum friction force it can experience ($$\mu_{\s} m_{\text{cab}} g = 4.90\text{ m}_{\text{cab}}$$) is less than the force needed to accelerate it at $$9.80 \mss$$ ($$F = 9.80\text{ m}_{\text{cab}}$$).
 
 **Discussion**
 
-For two-wheel drive, the maximum acceleration is$$4.90 \mss$$, and the cabinet is on the verge of slipping. For four-wheel drive, the maximum acceleration doubles to$$9.80 \mss$$(equal to g), and the cabinet will definitely slip. This explains why cargo must be properly secured in trucks, especially those with high-traction four-wheel drive systems.
+For two-wheel drive, the maximum acceleration is $$4.90 \mss$$, and the cabinet is on the verge of slipping. For four-wheel drive, the maximum acceleration doubles to $$9.80 \mss$$ (equal to g), and the cabinet will definitely slip. This explains why cargo must be properly secured in trucks, especially those with high-traction four-wheel drive systems.
 
 ::::
 
@@ -749,15 +749,15 @@ A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). T
 
 **Strategy**
 
-By Newton's third law, when the dogs push backward on the snow with 185 N each, the snow pushes forward on each dog with 185 N. From Table 1, for waxed wood on wet snow:$$\mu_{\s} = 0.14$$and$$\mu_{\text{k}} = 0.1$$. We'll apply Newton's second law to the entire system (dogs + sled) to find acceleration, and then to just the sled to find the coupling force.
+By Newton's third law, when the dogs push backward on the snow with 185 N each, the snow pushes forward on each dog with 185 N. From Table 1, for waxed wood on wet snow: $$\mu_{\s} = 0.14$$ and $$\mu_{\text{k}} = 0.1$$. We'll apply Newton's second law to the entire system (dogs + sled) to find acceleration, and then to just the sled to find the coupling force.
 
 **Solution**
 
 First, identify the masses:
 
-- Total mass of dogs:$$m_{\text{dogs}} = 8 \times 19.0 \kg = 152 \kg$$
-- Mass of sled with rider:$$m_{\text{sled}} = 210 \kg$$
-- Total system mass:$$m_{\text{total}} = 152 \kg + 210 \kg = 362 \kg$$
+- Total mass of dogs: $$m_{\text{dogs}} = 8 \times 19.0 \kg = 152 \kg$$
+- Mass of sled with rider: $$m_{\text{sled}} = 210 \kg$$
+- Total system mass: $$m_{\text{total}} = 152 \kg + 210 \kg = 362 \kg$$
 
 (a) Starting from rest:
 
@@ -792,7 +792,7 @@ $$a = \frac{1274.2 \N}{362 \kg} = 3.52 \mss$$
 
 (c) Force in the coupling:
 
-For the sled alone, the coupling force$$T$$must provide enough force to accelerate it against friction.
+For the sled alone, the coupling force $$T$$ must provide enough force to accelerate it against friction.
 
 Since the sled slides with kinetic friction in both situations:
 
@@ -806,7 +806,7 @@ $$T = m_{\text{sled}} a + f_{\text{k}} = (210 \kg)(3.52 \mss) + 205.8 \N = 739 \
 
 **Discussion**
 
-Because the dogs' 1480-N force far exceeds the 288-N maximum static friction, the sled breaks free immediately, and the acceleration is$$3.52 \mss$$from the moment it starts moving. For the same reason, the coupling force is$$945 \N$$in both situations. This is the same reasoning used for the ice skater in the next problem: maximum static friction is a threshold for starting motion, and kinetic friction governs the motion itself. The coupling force is less than the total force exerted by the dogs (1480 N) because the dogs must also accelerate their own mass.
+Because the dogs' 1480-N force far exceeds the 288-N maximum static friction, the sled breaks free immediately, and the acceleration is $$3.52 \mss$$ from the moment it starts moving. For the same reason, the coupling force is $$945 \N$$ in both situations. This is the same reasoning used for the ice skater in the next problem: maximum static friction is a threshold for starting motion, and kinetic friction governs the motion itself. The coupling force is less than the total force exerted by the dogs (1480 N) because the dogs must also accelerate their own mass.
 
 ::::
 
@@ -817,13 +817,13 @@ Because the dogs' 1480-N force far exceeds the 288-N maximum static friction, th
 :::: problem
 
 Consider the 65.0-kg ice skater being pushed by two others shown in [Figure 7](#Figure7).
-(a) Find the direction and magnitude of$$\vb{F}_{\text{tot}}$$,
-the total force exerted on her by the others, given that the magnitudes$$F_{1}$$and$$F_{2}$$are 26.4 N and 18.6 N, respectively.
+(a) Find the direction and magnitude of $$\vb{F}_{\text{tot}}$$,
+the total force exerted on her by the others, given that the magnitudes $$F_{1}$$ and $$F_{2}$$ are 26.4 N and 18.6 N, respectively.
 (b) What is her initial acceleration if she
 is initially stationary and wearing steel-bladed skates that point in the
-direction of$$\vb{F}_{\text{tot}}$$?
+direction of $$\vb{F}_{\text{tot}}$$?
 (c) What is her acceleration assuming she is already moving in the direction
-of$$\vb{F}_{\text{tot}}$$?
+of $$\vb{F}_{\text{tot}}$$?
 (Remember that friction always acts in the direction opposite that of motion
 or attempted motion between surfaces in contact.)
 
@@ -837,13 +837,13 @@ Free-body diagram showing only the forces acting on the skater.](../resources/Fi
 
 **Strategy**
 
-We use vector addition to find the total force from the two perpendicular forces. From Table 1, for steel on ice:$$\mu_{\s} = 0.04$$and$$\mu_{\text{k}} = 0.02$$. For part (b), since she starts at rest, static friction opposes the attempted motion. For part (c), kinetic friction applies since she's already moving.
+We use vector addition to find the total force from the two perpendicular forces. From Table 1, for steel on ice: $$\mu_{\s} = 0.04$$ and $$\mu_{\text{k}} = 0.02$$. For part (b), since she starts at rest, static friction opposes the attempted motion. For part (c), kinetic friction applies since she's already moving.
 
 **Solution**
 
-(a) Find the magnitude and direction of$$\vb{F}_{\text{tot}}$$:
+(a) Find the magnitude and direction of $$\vb{F}_{\text{tot}}$$:
 
-1. Since$$F_1$$and$$F_2$$are perpendicular, use the Pythagorean theorem:
+1. Since $$F_1$$ and $$F_2$$ are perpendicular, use the Pythagorean theorem:
 <div class="equation">
 $$F_{\text{tot}} = \sqrt{F_1^2 + F_2^2} = \sqrt{(26.4 \N)^2 + (18.6 \N)^2}$$
 </div>
@@ -852,7 +852,7 @@ $$F_{\text{tot}} = \sqrt{F_1^2 + F_2^2} = \sqrt{(26.4 \N)^2 + (18.6 \N)^2}$$
 $$F_{\text{tot}} = \sqrt{697.0 + 346.0} = \sqrt{1043} = 32.3 \N$$
 </div>
 
-2. Find the direction (angle above the horizontal, measured from$$F_1$$):
+2. Find the direction (angle above the horizontal, measured from $$F_1$$):
 <div class="equation">
 $$\theta = \tan^{-1}\left(\frac{F_2}{F_1}\right) = \tan^{-1}\left(\frac{18.6}{26.4}\right) = \tan^{-1}(0.704) = 35.1°$$
 </div>
@@ -869,7 +869,7 @@ $$\mag{N} = mg = (65.0 \kg)(9.80 \mss) = 637 \N$$
 $$f_{\s(\text{max})} = \mu_{\s} \mag{N} = (0.04)(637 \N) = 25.5 \N$$
 </div>
 
-3. Since$$F_{\text{tot}} = 32.3 \N > f_{\s(\text{max})} = 25.5 \N$$, the skater will begin to move.
+3. Since $$F_{\text{tot}} = 32.3 \N > f_{\s(\text{max})} = 25.5 \N$$, the skater will begin to move.
 
 4. Once motion begins, kinetic friction applies:
 <div class="equation">
@@ -896,7 +896,7 @@ $$a = 0.302 \mss$$
 
 **Discussion**
 
-The total force on the skater is$$32.3 \N$$at an angle of$$35.1°$$above the horizontal (from$$F_1$$). Her acceleration is$$0.302 \mss$$in both cases (b) and (c) because once she begins moving, kinetic friction determines the friction force regardless of whether she just started or was already moving. The very low coefficient of friction on ice (0.02 kinetic) allows even modest forces to produce noticeable acceleration.
+The total force on the skater is $$32.3 \N$$ at an angle of $$35.1°$$ above the horizontal (from $$F_1$$). Her acceleration is $$0.302 \mss$$ in both cases (b) and (c) because once she begins moving, kinetic friction determines the friction force regardless of whether she just started or was already moving. The very low coefficient of friction on ice (0.02 kinetic) allows even modest forces to produce noticeable acceleration.
 
 ::::
 
@@ -906,7 +906,7 @@ The total force on the skater is$$32.3 \N$$at an angle of$$35.1°$$above the hor
 
 :::: problem
 
-Show that the acceleration of any object down a frictionless incline that makes an angle$$\theta$$with the horizontal is$$a=g\sin{\theta}$$. (Note that this acceleration is independent of mass.)
+Show that the acceleration of any object down a frictionless incline that makes an angle $$\theta$$ with the horizontal is $$a=g\sin{\theta}$$. (Note that this acceleration is independent of mass.)
 
 ::::
 
@@ -919,12 +919,12 @@ We analyze the forces on an object on a frictionless incline using a coordinate 
 **Solution**
 
 1. Identify the forces on the object:
-   - Weight:$$w = mg$$(directed straight down)
-   - Normal force:$$\mag{N}$$(perpendicular to the incline surface)
+   - Weight: $$w = mg$$ (directed straight down)
+   - Normal force: $$\mag{N}$$ (perpendicular to the incline surface)
 
 2. Decompose the weight into components relative to the incline:
-   - Perpendicular to incline:$$w_\perp = mg\cos\theta$$
-   - Parallel to incline (down the slope):$$w_\parallel = mg\sin\theta$$
+   - Perpendicular to incline: $$w_\perp = mg\cos\theta$$
+   - Parallel to incline (down the slope): $$w_\parallel = mg\sin\theta$$
 
 3. Apply Newton's second law perpendicular to the incline:
 <div class="equation">
@@ -949,7 +949,7 @@ $$a = g\sin\theta$$
 
 **Discussion**
 
-The acceleration of any object on a frictionless incline is$$a = g\sin\theta$$, which depends only on the angle of the incline and the acceleration due to gravity. The mass$$m$$cancels out, confirming that all objects slide down a frictionless incline with the same acceleration, regardless of their mass. This is consistent with Galileo's observation that objects fall at the same rate in the absence of air resistance. Note that when$$\theta = 0\text{ °}$$,$$a = 0$$(horizontal surface), and when$$\theta = 90\text{ °}$$,$$a = g$$(free fall).
+The acceleration of any object on a frictionless incline is $$a = g\sin\theta$$, which depends only on the angle of the incline and the acceleration due to gravity. The mass $$m$$ cancels out, confirming that all objects slide down a frictionless incline with the same acceleration, regardless of their mass. This is consistent with Galileo's observation that objects fall at the same rate in the absence of air resistance. Note that when $$\theta = 0\text{ °}$$, $$a = 0$$ (horizontal surface), and when $$\theta = 90\text{ °}$$, $$a = g$$ (free fall).
 
 ::::
 
@@ -960,10 +960,10 @@ The acceleration of any object on a frictionless incline is$$a = g\sin\theta$$, 
 :::: problem
 
 Show that the acceleration of any object down an incline where friction behaves simply
-(that is, where$$f_{\text{k}}=\mu_{\text{k}} \mag{N}$$)
-is$$a=g\left( \sin{\theta} - \mu_{\text{k}}\cos{\theta} \right).$$Note
+(that is, where $$f_{\text{k}}=\mu_{\text{k}} \mag{N}$$)
+is $$a=g\left( \sin{\theta} - \mu_{\text{k}}\cos{\theta} \right).$$ Note
 that the acceleration is independent of mass and reduces to the expression found
-in the previous problem when friction becomes negligibly small$$\left( \mu_{\text{k}}=0\right).$$
+in the previous problem when friction becomes negligibly small $$\left( \mu_{\text{k}}=0\right).$$
 
 ::::
 
@@ -976,13 +976,13 @@ We follow the same approach as the previous problem, but now include kinetic fri
 **Solution**
 
 1. Identify the forces on the object:
-   - Weight:$$w = mg$$(directed straight down)
-   - Normal force:$$\mag{N}$$(perpendicular to the incline surface)
-   - Kinetic friction:$$f_{\text{k}}$$(parallel to incline, opposing motion, so directed up the slope)
+   - Weight: $$w = mg$$ (directed straight down)
+   - Normal force: $$\mag{N}$$ (perpendicular to the incline surface)
+   - Kinetic friction: $$f_{\text{k}}$$ (parallel to incline, opposing motion, so directed up the slope)
 
 2. Decompose the weight into components:
-   - Perpendicular to incline:$$w_\perp = mg\cos\theta$$
-   - Parallel to incline (down the slope):$$w_\parallel = mg\sin\theta$$
+   - Perpendicular to incline: $$w_\perp = mg\cos\theta$$
+   - Parallel to incline (down the slope): $$w_\parallel = mg\sin\theta$$
 
 3. Apply Newton's second law perpendicular to the incline:
 <div class="equation">
@@ -1007,7 +1007,7 @@ $$\sum F_\parallel = mg\sin\theta - f_{\text{k}} = ma$$
 $$mg\sin\theta - \mu_{\text{k}} mg\cos\theta = ma$$
 </div>
 
-6. Solve for acceleration by factoring out$$mg$$:
+6. Solve for acceleration by factoring out $$mg$$:
 <div class="equation">
 $$mg(\sin\theta - \mu_{\text{k}}\cos\theta) = ma$$
 </div>
@@ -1018,7 +1018,7 @@ $$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$
 
 **Discussion**
 
-The acceleration down an incline with friction is$$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$. This result is independent of mass because both the gravitational force component and the friction force are proportional to mass. When$$\mu_{\text{k}} = 0$$(no friction), the equation reduces to$$a = g\sin\theta$$, matching the frictionless case from the previous problem. If friction is large enough that$$\mu_{\text{k}}\cos\theta > \sin\theta$$, the acceleration would be negative, meaning the object would decelerate (as when going up a slope) or wouldn't slide at all without an initial push.
+The acceleration down an incline with friction is $$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$. This result is independent of mass because both the gravitational force component and the friction force are proportional to mass. When $$\mu_{\text{k}} = 0$$ (no friction), the equation reduces to $$a = g\sin\theta$$, matching the frictionless case from the previous problem. If friction is large enough that $$\mu_{\text{k}}\cos\theta > \sin\theta$$, the acceleration would be negative, meaning the object would decelerate (as when going up a slope) or wouldn't slide at all without an initial push.
 
 ::::
 
@@ -1028,7 +1028,7 @@ The acceleration down an incline with friction is$$a = g(\sin\theta - \mu_{\text
 
 :::: problem
 
-Calculate the deceleration of a snow boarder going up a$$5.0^\circ$$, slope
+Calculate the deceleration of a snow boarder going up a $$5.0^\circ$$, slope
 assuming the coefficient of friction for waxed wood on wet snow. The
 result of [Example 1](#example1) may be useful, but be careful to consider the
 fact that the snow boarder is going uphill. Explicitly show how you follow the
@@ -1040,15 +1040,15 @@ steps in [Problem-Solving Strategies](./ch4ProblemSolvingStrategies).
 
 **Strategy**
 
-When going uphill, both gravity and friction act to slow the snowboarder down. The component of gravity parallel to the slope points downhill (opposing uphill motion), and kinetic friction also opposes the uphill motion (so it also points downhill). From Table 1, for waxed wood on wet snow:$$\mu_{\text{k}} = 0.1$$.
+When going uphill, both gravity and friction act to slow the snowboarder down. The component of gravity parallel to the slope points downhill (opposing uphill motion), and kinetic friction also opposes the uphill motion (so it also points downhill). From Table 1, for waxed wood on wet snow: $$\mu_{\text{k}} = 0.1$$.
 
 **Solution**
 
 1. Draw a free-body diagram with forces:
-   - Weight component parallel to slope:$$w_\parallel = mg\sin\theta$$(down the slope)
-   - Weight component perpendicular to slope:$$w_\perp = mg\cos\theta$$
-   - Normal force:$$\mag{N} = mg\cos\theta$$
-   - Kinetic friction:$$f_{\text{k}} = \mu_{\text{k}}\mag{N}$$(down the slope, opposing uphill motion)
+   - Weight component parallel to slope: $$w_\parallel = mg\sin\theta$$ (down the slope)
+   - Weight component perpendicular to slope: $$w_\perp = mg\cos\theta$$
+   - Normal force: $$\mag{N} = mg\cos\theta$$
+   - Kinetic friction: $$f_{\text{k}} = \mu_{\text{k}}\mag{N}$$ (down the slope, opposing uphill motion)
 
 2. Apply Newton's second law parallel to the slope (taking up the slope as positive):
 <div class="equation">
@@ -1065,7 +1065,7 @@ $$-mg\sin\theta - \mu_{\text{k}}mg\cos\theta = ma$$
 $$a = -g(\sin\theta + \mu_{\text{k}}\cos\theta)$$
 </div>
 
-5. Substitute values ($$\theta = 5.0°$$,$$\mu_{\text{k}} = 0.1$$,$$g = 9.80 \mss$$):
+5. Substitute values ($$\theta = 5.0°$$, $$\mu_{\text{k}} = 0.1$$, $$g = 9.80 \mss$$):
 <div class="equation">
 $$a = -(9.80 \mss)(\sin 5.0° + 0.1 \cos 5.0°)$$
 </div>
@@ -1090,7 +1090,7 @@ $$|a| = 1.83 \mss$$
 
 **Discussion**
 
-The snowboarder decelerates at$$1.83 \mss$$while going uphill. Note that when going uphill, friction adds to the deceleration (both gravity component and friction point downhill), whereas when going downhill, friction subtracts from the acceleration. This is why the formula changes from$$g(\sin\theta - \mu_{\text{k}}\cos\theta)$$for downhill motion to$$g(\sin\theta + \mu_{\text{k}}\cos\theta)$$for uphill motion.
+The snowboarder decelerates at $$1.83 \mss$$ while going uphill. Note that when going uphill, friction adds to the deceleration (both gravity component and friction point downhill), whereas when going downhill, friction subtracts from the acceleration. This is why the formula changes from $$g(\sin\theta - \mu_{\text{k}}\cos\theta)$$ for downhill motion to $$g(\sin\theta + \mu_{\text{k}}\cos\theta)$$ for uphill motion.
 
 ::::
 
@@ -1100,7 +1100,7 @@ The snowboarder decelerates at$$1.83 \mss$$while going uphill. Note that when go
 
 :::: problem
 
-(a) Calculate the acceleration of a skier heading down a$$10.0^\circ$$
+(a) Calculate the acceleration of a skier heading down a $$10.0^\circ$$
 slope, assuming the coefficient of friction for waxed wood on wet snow.
 (b) Find the angle of the slope down which this skier could coast at a constant velocity.
 You can neglect air resistance in both parts, and you will find the result
@@ -1113,18 +1113,18 @@ steps in the [Problem-Solving Strategies](./ch4ProblemSolvingStrategies).
 
 **Strategy**
 
-For part (a), we use the result derived earlier:$$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$for an object sliding down an incline. From Table 1, for waxed wood on wet snow:$$\mu_{\text{k}} = 0.1$$. For part (b), constant velocity means zero acceleration, so we set$$a = 0$$and solve for the angle.
+For part (a), we use the result derived earlier: $$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$ for an object sliding down an incline. From Table 1, for waxed wood on wet snow: $$\mu_{\text{k}} = 0.1$$. For part (b), constant velocity means zero acceleration, so we set $$a = 0$$ and solve for the angle.
 
 **Solution**
 
-(a) Acceleration down the$$10.0°$$slope:
+(a) Acceleration down the $$10.0°$$ slope:
 
 1. Use the formula for acceleration on an incline with friction:
 <div class="equation">
 $$a = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$
 </div>
 
-2. Substitute values ($$\theta = 10.0°$$,$$\mu_{\text{k}} = 0.1$$,$$g = 9.80 \mss$$):
+2. Substitute values ($$\theta = 10.0°$$, $$\mu_{\text{k}} = 0.1$$, $$g = 9.80 \mss$$):
 <div class="equation">
 $$a = (9.80 \mss)(\sin 10.0° - 0.1 \cos 10.0°)$$
 </div>
@@ -1143,12 +1143,12 @@ $$a = (9.80 \mss)(0.0751) = 0.736 \mss$$
 
 (b) Angle for constant velocity (zero acceleration):
 
-1. Set$$a = 0$$in the acceleration formula:
+1. Set $$a = 0$$ in the acceleration formula:
 <div class="equation">
 $$0 = g(\sin\theta - \mu_{\text{k}}\cos\theta)$$
 </div>
 
-2. Since$$g \neq 0$$:
+2. Since $$g \neq 0$$:
 <div class="equation">
 $$\sin\theta - \mu_{\text{k}}\cos\theta = 0$$
 </div>
@@ -1157,7 +1157,7 @@ $$\sin\theta - \mu_{\text{k}}\cos\theta = 0$$
 $$\sin\theta = \mu_{\text{k}}\cos\theta$$
 </div>
 
-3. Divide both sides by$$\cos\theta$$:
+3. Divide both sides by $$\cos\theta$$:
 <div class="equation">
 $$\tan\theta = \mu_{\text{k}} = 0.1$$
 </div>
@@ -1169,7 +1169,7 @@ $$\theta = \tan^{-1}(0.1) = 5.71°$$
 
 **Discussion**
 
-The skier accelerates at$$0.736 \mss$$on the$$10.0°$$slope. To coast at constant velocity, the skier would need a slope of$$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship$$\tan\theta = \mu_{\text{k}}$$provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
+The skier accelerates at $$0.736 \mss$$ on the $$10.0°$$ slope. To coast at constant velocity, the skier would need a slope of $$5.71°$$. At this angle, the component of gravity pulling the skier downhill exactly equals the friction force opposing the motion. On steeper slopes, the skier accelerates; on gentler slopes, the skier decelerates. This relationship $$\tan\theta = \mu_{\text{k}}$$ provides a simple way to measure the coefficient of kinetic friction by finding the angle at which an object slides at constant velocity.
 
 ::::
 
@@ -1179,7 +1179,7 @@ The skier accelerates at$$0.736 \mss$$on the$$10.0°$$slope. To coast at constan
 
 :::: problem
 
-If an object is to rest on an incline without slipping, then friction must equal the component of the weight of the object parallel to the incline. This requires greater and greater friction for steeper slopes. Show that the maximum angle of an incline above the horizontal for which an object will not slide down is$$\theta ={\tan}^{-1}{\text{μ}}_{\s}$$. You may use the result of the previous problem. Assume that$$a=0$$
+If an object is to rest on an incline without slipping, then friction must equal the component of the weight of the object parallel to the incline. This requires greater and greater friction for steeper slopes. Show that the maximum angle of an incline above the horizontal for which an object will not slide down is $$\theta ={\tan}^{-1}{\text{μ}}_{\s}$$. You may use the result of the previous problem. Assume that $$a=0$$
 and that static friction force has reached its maximum value.
 
 ::::
@@ -1188,17 +1188,17 @@ and that static friction force has reached its maximum value.
 
 **Strategy**
 
-For an object at rest on an incline at the verge of slipping, static friction has reached its maximum value and the object has zero acceleration. We apply Newton's second law with$$a = 0$$and$$f_{\s} = \mu_{\s}\mag{N}$$(maximum static friction) to find the critical angle.
+For an object at rest on an incline at the verge of slipping, static friction has reached its maximum value and the object has zero acceleration. We apply Newton's second law with $$a = 0$$ and $$f_{\s} = \mu_{\s}\mag{N}$$ (maximum static friction) to find the critical angle.
 
 **Solution**
 
 1. Identify forces on the object at rest on the incline:
-   - Weight component parallel to slope (down):$$w_\parallel = mg\sin\theta$$
-   - Weight component perpendicular to slope:$$w_\perp = mg\cos\theta$$
-   - Normal force:$$\mag{N} = mg\cos\theta$$
-   - Static friction (up the slope, opposing tendency to slide):$$f_{\s}$$
+   - Weight component parallel to slope (down): $$w_\parallel = mg\sin\theta$$
+   - Weight component perpendicular to slope: $$w_\perp = mg\cos\theta$$
+   - Normal force: $$\mag{N} = mg\cos\theta$$
+   - Static friction (up the slope, opposing tendency to slide): $$f_{\s}$$
 
-2. Apply Newton's second law parallel to the incline with$$a = 0$$:
+2. Apply Newton's second law parallel to the incline with $$a = 0$$:
 <div class="equation">
 $$\sum F_\parallel = f_{\s} - mg\sin\theta = 0$$
 </div>
@@ -1217,7 +1217,7 @@ $$f_{\s(\text{max})} = \mu_{\s}\mag{N} = \mu_{\s}mg\cos\theta$$
 $$mg\sin\theta = \mu_{\s}mg\cos\theta$$
 </div>
 
-5. Cancel$$mg$$from both sides and solve:
+5. Cancel $$mg$$ from both sides and solve:
 <div class="equation">
 $$\sin\theta = \mu_{\s}\cos\theta$$
 </div>
@@ -1237,7 +1237,7 @@ $$\theta_{\text{max}} = \tan^{-1}(\mu_{\s})$$
 
 **Discussion**
 
-The maximum angle at which an object can rest on an incline without sliding is$$\theta = \tan^{-1}(\mu_{\s})$$. This result is independent of the object's mass. For angles less than this, static friction is sufficient to prevent sliding. For angles greater than this, the object will begin to slide. This relationship provides a practical method for measuring the coefficient of static friction: tilt a surface until an object just begins to slide, then$$\mu_{\s} = \tan\theta_{\text{critical}}$$.
+The maximum angle at which an object can rest on an incline without sliding is $$\theta = \tan^{-1}(\mu_{\s})$$. This result is independent of the object's mass. For angles less than this, static friction is sufficient to prevent sliding. For angles greater than this, the object will begin to slide. This relationship provides a practical method for measuring the coefficient of static friction: tilt a surface until an object just begins to slide, then $$\mu_{\s} = \tan\theta_{\text{critical}}$$.
 
 ::::
 
@@ -1247,15 +1247,15 @@ The maximum angle at which an object can rest on an incline without sliding is$$
 
 :::: problem
 
-Calculate the maximum deceleration of a car that is heading down a$$6^\circ$$
-slope (one that makes an angle of$$6^\circ$$
+Calculate the maximum deceleration of a car that is heading down a $$6^\circ$$
+slope (one that makes an angle of $$6^\circ$$
 with the horizontal) under the following road conditions. You may assume that
 the weight of the car is evenly distributed on all four tires and that the
 coefficient of static friction is involved—that is, the tires are not allowed to
 slip during the deceleration. (Ignore rolling.) Calculate for a car:
 (a) On dry concrete.
 (b) On wet concrete.
-(c) On ice, assuming that$$\mu_{\s}=0.100$$, the same as for shoes on ice.
+(c) On ice, assuming that $$\mu_{\s}=0.100$$, the same as for shoes on ice.
 
 ::::
 
@@ -1263,14 +1263,14 @@ slip during the deceleration. (Ignore rolling.) Calculate for a car:
 
 **Strategy**
 
-When braking while heading downhill, gravity pulls the car down the slope while friction (from braking) acts up the slope. The maximum deceleration occurs when static friction reaches its maximum value (tires at the verge of slipping). All four tires contribute to braking, so the full weight contributes to the normal force. From Table 1: rubber on dry concrete$$\mu_{\s} = 1.0$$, rubber on wet concrete$$\mu_{\s} = 0.7$$.
+When braking while heading downhill, gravity pulls the car down the slope while friction (from braking) acts up the slope. The maximum deceleration occurs when static friction reaches its maximum value (tires at the verge of slipping). All four tires contribute to braking, so the full weight contributes to the normal force. From Table 1: rubber on dry concrete $$\mu_{\s} = 1.0$$, rubber on wet concrete $$\mu_{\s} = 0.7$$.
 
 **Solution**
 
 For a car on a slope, the forces parallel to the slope are:
 
-- Gravity component (down slope):$$mg\sin\theta$$
-- Maximum friction (up slope when braking):$$f_{\s(\text{max})} = \mu_{\s}mg\cos\theta$$
+- Gravity component (down slope): $$mg\sin\theta$$
+- Maximum friction (up slope when braking): $$f_{\s(\text{max})} = \mu_{\s}mg\cos\theta$$
 
 The maximum deceleration occurs when braking force is maximum:
 
@@ -1282,7 +1282,7 @@ $$ma = f_{\s(\text{max})} - mg\sin\theta = \mu_{\s}mg\cos\theta - mg\sin\theta$$
 $$a = g(\mu_{\s}\cos\theta - \sin\theta)$$
 </div>
 
-With$$\theta = 6°$$:$$\sin 6° = 0.1045$$,$$\cos 6° = 0.9945$$
+With $$\theta = 6°$$: $$\sin 6° = 0.1045$$, $$\cos 6° = 0.9945$$
 
 (a) On dry concrete ($$\mu_{\s} = 1.0$$):
 
@@ -1316,7 +1316,7 @@ $$a = (9.80 \mss)(0.0995 - 0.1045) = (9.80 \mss)(-0.005) = -0.049 \mss$$
 
 **Discussion**
 
-The maximum deceleration is$$8.72 \mss$$on dry concrete,$$5.80 \mss$$on wet concrete, and$$-0.049 \mss$$on ice. The negative value for ice is significant: it means the car cannot decelerate at all on this slope! Instead, even with maximum braking, the car will accelerate down the hill at about$$0.05 \mss$$. The friction force is insufficient to overcome the gravitational component pulling the car downhill. This illustrates why icy hills are so dangerous—braking can be nearly impossible.
+The maximum deceleration is $$8.72 \mss$$ on dry concrete, $$5.80 \mss$$ on wet concrete, and $$-0.049 \mss$$ on ice. The negative value for ice is significant: it means the car cannot decelerate at all on this slope! Instead, even with maximum braking, the car will accelerate down the hill at about $$0.05 \mss$$. The friction force is insufficient to overcome the gravitational component pulling the car downhill. This illustrates why icy hills are so dangerous—braking can be nearly impossible.
 
 ::::
 
@@ -1326,15 +1326,15 @@ The maximum deceleration is$$8.72 \mss$$on dry concrete,$$5.80 \mss$$on wet conc
 
 :::: problem
 
-Calculate the maximum acceleration of a car that is heading up a$$4^\circ$$
-slope (one that makes an angle of$$4^\circ$$
+Calculate the maximum acceleration of a car that is heading up a $$4^\circ$$
+slope (one that makes an angle of $$4^\circ$$
 with the horizontal) under the following road conditions. Assume that only half
 the weight of the car is supported by the two drive wheels and that the
 coefficient of static friction is involved—that is, the tires are not allowed to
 slip during the acceleration. (Ignore rolling.)
 (a) On dry concrete.
 (b) On wet concrete.
-(c) On ice, assuming that$$\mu_{\s}=0.100$$, the same as for shoes on ice.
+(c) On ice, assuming that $$\mu_{\s}=0.100$$, the same as for shoes on ice.
 
 ::::
 
@@ -1368,7 +1368,7 @@ $$ma = f_{\s(\text{max})} - mg\sin\theta = \frac{1}{2}\mu_{\s}mg\cos\theta - mg\
 $$a = g\left(\frac{1}{2}\mu_{\s}\cos\theta - \sin\theta\right)$$
 </div>
 
-With$$\theta = 4°$$:$$\sin 4° = 0.0698$$,$$\cos 4° = 0.9976$$
+With $$\theta = 4°$$: $$\sin 4° = 0.0698$$, $$\cos 4° = 0.9976$$
 
 (a) On dry concrete ($$\mu_{\s} = 1.0$$):
 
@@ -1402,7 +1402,7 @@ $$a = (9.80 \mss)(0.0499 - 0.0698) = (9.80 \mss)(-0.0199) = -0.195 \mss$$
 
 **Discussion**
 
-The maximum acceleration is$$4.20 \mss$$on dry concrete,$$2.74 \mss$$on wet concrete, and$$-0.195 \mss$$on ice. The negative value for ice means the car cannot accelerate up the hill at all—even at full throttle without wheel spin, the car will slide backward down the slope. This demonstrates why two-wheel drive vehicles struggle on icy inclines. With four-wheel drive (next problem), the available traction force doubles because the full weight provides traction, but the downhill component of gravity does not change, so the accelerations do not simply double.
+The maximum acceleration is $$4.20 \mss$$ on dry concrete, $$2.74 \mss$$ on wet concrete, and $$-0.195 \mss$$ on ice. The negative value for ice means the car cannot accelerate up the hill at all—even at full throttle without wheel spin, the car will slide backward down the slope. This demonstrates why two-wheel drive vehicles struggle on icy inclines. With four-wheel drive (next problem), the available traction force doubles because the full weight provides traction, but the downhill component of gravity does not change, so the accelerations do not simply double.
 
 ::::
 
@@ -1420,7 +1420,7 @@ Repeat the previous exercise for a car with four-wheel drive.
 
 **Strategy**
 
-With four-wheel drive, all four wheels are drive wheels, so the full weight of the car (times$$\cos\theta$$) contributes to the normal force for friction. This doubles the available friction force compared to two-wheel drive.
+With four-wheel drive, all four wheels are drive wheels, so the full weight of the car (times $$\cos\theta$$) contributes to the normal force for friction. This doubles the available friction force compared to two-wheel drive.
 
 **Solution**
 
@@ -1446,7 +1446,7 @@ $$ma = f_{\s(\text{max})} - mg\sin\theta = \mu_{\s}mg\cos\theta - mg\sin\theta$$
 $$a = g(\mu_{\s}\cos\theta - \sin\theta)$$
 </div>
 
-With$$\theta = 4°$$:$$\sin 4° = 0.0698$$,$$\cos 4° = 0.9976$$
+With $$\theta = 4°$$: $$\sin 4° = 0.0698$$, $$\cos 4° = 0.9976$$
 
 (a) On dry concrete ($$\mu_{\s} = 1.0$$):
 
@@ -1480,7 +1480,7 @@ $$a = (9.80 \mss)(0.0998 - 0.0698) = (9.80 \mss)(0.0300) = 0.294 \mss$$
 
 **Discussion**
 
-With four-wheel drive, the maximum acceleration is$$9.09 \mss$$on dry concrete,$$6.16 \mss$$on wet concrete, and$$0.294 \mss$$on ice. Compared with two-wheel drive (4.20, 2.74, and −0.195 m/s²), these accelerations are not simply doubled: the maximum friction (traction) force doubles, but the downhill component of gravity, $$ g\sin\theta $$, is the same in both cases and must still be subtracted. Notably, with four-wheel drive on ice, the car can now accelerate (albeit slowly at$$0.29 \mss$$), whereas it would slide backward with two-wheel drive. This demonstrates the significant advantage of four-wheel drive on slippery surfaces and inclines.
+With four-wheel drive, the maximum acceleration is $$9.09 \mss$$ on dry concrete, $$6.16 \mss$$ on wet concrete, and $$0.294 \mss$$ on ice. Compared with two-wheel drive (4.20, 2.74, and −0.195 m/s²), these accelerations are not simply doubled: the maximum friction (traction) force doubles, but the downhill component of gravity, $$ g\sin\theta $$, is the same in both cases and must still be subtracted. Notably, with four-wheel drive on ice, the car can now accelerate (albeit slowly at $$0.29 \mss$$), whereas it would slide backward with two-wheel drive. This demonstrates the significant advantage of four-wheel drive on slippery surfaces and inclines.
 
 ::::
 
@@ -1490,11 +1490,11 @@ With four-wheel drive, the maximum acceleration is$$9.09 \mss$$on dry concrete,$
 
 :::: problem
 
-A freight train consists of two$$8.00 \times 10^{5}\text{-kg}$$
-engines and 45 cars with average masses of$$5.50 \times 10^{5}\kg$$.
+A freight train consists of two $$8.00 \times 10^{5}\text{-kg}$$
+engines and 45 cars with average masses of $$5.50 \times 10^{5}\kg$$.
 (a) What force must each engine exert backward on the track to accelerate the
-train at a rate of$$5.00 \times 10^{-2} \mss  $$
-if the force of friction is$$7.50 \times 10^{5}\N$$, assuming the engines
+train at a rate of $$5.00 \times 10^{-2} \mss  $$
+if the force of friction is $$7.50 \times 10^{5}\N$$, assuming the engines
 exert identical forces? This is not a large frictional
 force for such a massive system. Rolling friction for trains is small, and
 consequently trains are very energy-efficient transportation systems.
@@ -1583,7 +1583,7 @@ $$T = 2.20 \times 10^5 \N + 1.277 \times 10^5 \N = 3.48 \times 10^5 \N$$
 
 **Discussion**
 
-Each engine must exert a force of$$1.03 \times 10^6 \N$$backward on the track. The force in the coupling between cars 37 and 38 is$$3.48 \times 10^5 \N$$. This coupling force is less than the engine force because it only needs to accelerate the 8 cars behind it (plus overcome their friction), not the entire train. Couplings closer to the engines experience larger forces because they must accelerate more cars.
+Each engine must exert a force of $$1.03 \times 10^6 \N$$ backward on the track. The force in the coupling between cars 37 and 38 is $$3.48 \times 10^5 \N$$. This coupling force is less than the engine force because it only needs to accelerate the 8 cars behind it (plus overcome their friction), not the entire train. Couplings closer to the engines experience larger forces because they must accelerate more cars.
 
 ::::
 
@@ -1616,9 +1616,9 @@ The climber is in equilibrium, so the sum of forces in both horizontal and verti
 
 Define the forces acting **on the climber**:
 
-- Weight:$$w = mg = (52.0 \kg)(9.80 \mss) = 509.6 \N$$(downward)
-- Tension:$$T$$along the rope, at 31° from vertical, pointing upward and toward the cliff
-- Leg force:$$F_{\text{leg}}$$, the cliff's force on her feet, directed along her legs, upward and away from the cliff at 15° above horizontal. Its horizontal component is the normal force$$\mag{N}$$(away from the cliff), and its vertical component is the friction$$f$$(upward along the cliff).
+- Weight: $$w = mg = (52.0 \kg)(9.80 \mss) = 509.6 \N$$ (downward)
+- Tension: $$T$$ along the rope, at 31° from vertical, pointing upward and toward the cliff
+- Leg force: $$F_{\text{leg}}$$, the cliff's force on her feet, directed along her legs, upward and away from the cliff at 15° above horizontal. Its horizontal component is the normal force $$\mag{N}$$ (away from the cliff), and its vertical component is the friction $$f$$ (upward along the cliff).
 
 Her feet push on the cliff with the equal and opposite reaction force (into the cliff and downward). That force acts on the cliff, so it does not appear in her free-body diagram.
 
@@ -1686,7 +1686,7 @@ $$\mu_{\s(\text{min})} = \frac{f}{\mag{N}} = \frac{\sin 15°}{\cos 15°} = \tan 
 
 **Discussion**
 
-The tension in the rope is$$512 \N$$and the leg force is$$273 \N$$. The minimum coefficient of friction required is$$\mu_{\s(\text{min})} = 0.268$$, a value within the range for rubber on rock. Most of the cliff's force on her feet is the normal component (perpendicular to the cliff), with a smaller upward component supplied by friction, which is why$$\mu_{\s(\text{min})}$$equals$$\tan 15°$$.
+The tension in the rope is $$512 \N$$ and the leg force is $$273 \N$$. The minimum coefficient of friction required is $$\mu_{\s(\text{min})} = 0.268$$, a value within the range for rubber on rock. Most of the cliff's force on her feet is the normal component (perpendicular to the cliff), with a smaller upward component supplied by friction, which is why $$\mu_{\s(\text{min})}$$ equals $$\tan 15°$$.
 
 ::::
 
@@ -1697,7 +1697,7 @@ The tension in the rope is$$512 \N$$and the leg force is$$273 \N$$. The minimum 
 :::: problem
 
 A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in [Figure 9](#Figure9)(a).
-(a) Calculate the minimum force$$F$$he must exert to get the block moving.
+(a) Calculate the minimum force $$F$$ he must exert to get the block moving.
 (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?
 
 ::::
@@ -1706,17 +1706,17 @@ A contestant in a winter sporting event pushes a 45.0-kg block of ice across a f
 
 **Strategy**
 
-When pushing at an angle below horizontal (25° as shown in Figure 9a), the force has a horizontal component that moves the block and a vertical component that increases the normal force (and thus friction). From Table 1, for ice on ice:$$\mu_{\s} = 0.1$$and$$\mu_{\text{k}} = 0.03$$.
+When pushing at an angle below horizontal (25° as shown in Figure 9a), the force has a horizontal component that moves the block and a vertical component that increases the normal force (and thus friction). From Table 1, for ice on ice: $$\mu_{\s} = 0.1$$ and $$\mu_{\text{k}} = 0.03$$.
 
 **Solution**
 
 (a) Minimum force to start the block moving:
 
-1. Decompose the applied force$$F$$at angle 25° below horizontal:
-   - Horizontal component:$$F_x = F\cos 25\text{ °}$$
-   - Vertical component (downward):$$F_y = F\sin 25\text{ °}$$
+1. Decompose the applied force $$F$$ at angle 25° below horizontal:
+   - Horizontal component: $$F_x = F\cos 25\text{ °}$$
+   - Vertical component (downward): $$F_y = F\sin 25\text{ °}$$
 
-2. Apply Newton's second law in the vertical direction (at rest,$$a_y = 0$$):
+2. Apply Newton's second law in the vertical direction (at rest, $$a_y = 0$$):
 <div class="equation">
 $$\mag{N} - mg - F\sin 25° = 0$$
 </div>
@@ -1730,7 +1730,7 @@ $$\mag{N} = mg + F\sin 25°$$
 $$F\cos 25° = \mu_{\s}\mag{N} = \mu_{\s}(mg + F\sin 25°)$$
 </div>
 
-4. Solve for$$F$$:
+4. Solve for $$F$$:
 <div class="equation">
 $$F\cos 25° = \mu_{\s} mg + \mu_{\s} F\sin 25°$$
 </div>
@@ -1754,7 +1754,7 @@ $$F = \frac{44.1 \N}{0.9063 - 0.0423} = \frac{44.1 \N}{0.864} = 51.0 \N$$
 
 (b) Acceleration once moving:
 
-1. Calculate the normal force with$$F = 51.0 \N$$:
+1. Calculate the normal force with $$F = 51.0 \N$$:
 <div class="equation">
 $$\mag{N} = mg + F\sin 25° = (45.0 \kg)(9.80 \mss) + (51.0 \N)(0.4226)$$
 </div>
@@ -1780,7 +1780,7 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{32.3 \N}{45.0 \kg} = 0.718 \mss \approx 0
 
 **Discussion**
 
-The minimum force required to start the block moving is$$51.0 \N$$. Once moving, maintaining this force produces an acceleration of$$0.720 \mss$$. The acceleration is possible because kinetic friction ($$\mu_{\text{k}} = 0.03$$) is less than static friction ($$\mu_{\text{k}} = 0.1$$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
+The minimum force required to start the block moving is $$51.0 \N$$. Once moving, maintaining this force produces an acceleration of $$0.720 \mss$$. The acceleration is possible because kinetic friction ($$\mu_{\text{k}} = 0.03$$) is less than static friction ($$\mu_{\text{k}} = 0.1$$), so the net force increases once motion begins. Note that pushing at an angle increases the normal force (and hence friction), which is why the required force is higher than if pushing horizontally.
 
 ::::
 
@@ -1802,17 +1802,17 @@ angle above the horizontal as shown in [Figure 9](#Figure9)(b).
 
 **Strategy**
 
-When pulling at an angle above horizontal (25°), the vertical component of the force is upward, which reduces the normal force and thus reduces friction. This is the opposite of pushing, where the vertical component adds to the normal force. From Table 1, for ice on ice:$$\mu_{\s} = 0.1$$and$$\mu_{\text{k}} = 0.03$$.
+When pulling at an angle above horizontal (25°), the vertical component of the force is upward, which reduces the normal force and thus reduces friction. This is the opposite of pushing, where the vertical component adds to the normal force. From Table 1, for ice on ice: $$\mu_{\s} = 0.1$$ and $$\mu_{\text{k}} = 0.03$$.
 
 **Solution**
 
 (a) Minimum force to start the block moving:
 
-1. Decompose the applied force$$F$$at angle 25° above horizontal:
-   - Horizontal component:$$F_x = F\cos 25\text{ °}$$
-   - Vertical component (upward):$$F_y = F\sin 25\text{ °}$$
+1. Decompose the applied force $$F$$ at angle 25° above horizontal:
+   - Horizontal component: $$F_x = F\cos 25\text{ °}$$
+   - Vertical component (upward): $$F_y = F\sin 25\text{ °}$$
 
-2. Apply Newton's second law in the vertical direction (at rest,$$a_y = 0$$):
+2. Apply Newton's second law in the vertical direction (at rest, $$a_y = 0$$):
 <div class="equation">
 $$\mag{N} + F\sin 25° - mg = 0$$
 </div>
@@ -1826,7 +1826,7 @@ $$\mag{N} = mg - F\sin 25°$$
 $$F\cos 25° = \mu_{\s}\mag{N} = \mu_{\s}(mg - F\sin 25°)$$
 </div>
 
-4. Solve for$$F$$:
+4. Solve for $$F$$:
 <div class="equation">
 $$F\cos 25° = \mu_{\s} mg - \mu_{\s} F\sin 25°$$
 </div>
@@ -1850,7 +1850,7 @@ $$F = \frac{44.1 \N}{0.9063 + 0.0423} = \frac{44.1 \N}{0.949} = 46.5 \N$$
 
 (b) Acceleration once moving:
 
-1. Calculate the normal force with$$F = 46.5 \N$$:
+1. Calculate the normal force with $$F = 46.5 \N$$:
 <div class="equation">
 $$\mag{N} = mg - F\sin 25° = (45.0 \kg)(9.80 \mss) - (46.5 \N)(0.4226)$$
 </div>
@@ -1876,7 +1876,7 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{29.5 \N}{45.0 \kg} = 0.656 \mss$$
 
 **Discussion**
 
-When pulling, the minimum force required is$$46.5 \N$$, and the acceleration once moving is$$0.656 \mss$$. Comparing with pushing (51.0 N required, 0.720 m/s² acceleration): pulling requires less force to start the block moving because the upward component reduces the normal force and friction. However, the acceleration when pulling is slightly less because the horizontal component of the smaller pulling force (42.1 N) is less than the horizontal component of the larger pushing force (46.2 N). Overall, pulling is more efficient for starting motion, which is why it's generally easier to pull heavy objects at an angle than to push them.
+When pulling, the minimum force required is $$46.5 \N$$, and the acceleration once moving is $$0.656 \mss$$. Comparing with pushing (51.0 N required, 0.720 m/s² acceleration): pulling requires less force to start the block moving because the upward component reduces the normal force and friction. However, the acceleration when pulling is slightly less because the horizontal component of the smaller pulling force (42.1 N) is less than the horizontal component of the larger pushing force (46.2 N). Overall, pulling is more efficient for starting motion, which is why it's generally easier to pull heavy objects at an angle than to push them.
 
 ::::
 
@@ -1900,11 +1900,11 @@ static friction
 contact and are not moving relative to one another
 
 magnitude of static friction
-:$$f_{\s}\le \mu_{\s}\mag{N}$$, where$$\mu_{\s}$$is the coefficient of
-static friction and$$\mag{N}$$is the magnitude of the normal force
+: $$f_{\s}\le \mu_{\s}\mag{N}$$, where $$\mu_{\s}$$ is the coefficient of
+static friction and $$\mag{N}$$ is the magnitude of the normal force
 
 magnitude of kinetic friction
-:$$f_{\text{k}}=\mu_{\text{k} }\mag{N}$$, where$$\mu_{\text{k} }$$is the
+: $$f_{\text{k}}=\mu_{\text{k} }\mag{N}$$, where $$\mu_{\text{k} }$$ is the
 coefficient of kinetic friction
 
 ::::

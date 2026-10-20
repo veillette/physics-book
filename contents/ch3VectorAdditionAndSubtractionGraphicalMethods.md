@@ -137,7 +137,7 @@ direction.
 ![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis.](../resources/Figure_03_02_09.jpg)
 {: #Figure9}
 
-(3) Draw the resultant vector,$$\vb{R}$$.
+(3) Draw the resultant vector, $$\vb{R}$$.
 
 ![In this figure a vector A with a positive slope is drawn from the origin. Then from the head of the vector A another vector B with positive slope is drawn and then another vector C with negative slope from the head of the vector B is drawn which cuts the x axis. From the tail of the vector A a vector R of magnitude of fifty point eight meters and with negative slope of five point four seven degrees is drawn. The head of this vector R meets the head of the vector C. The vector R is known as the resultant vector.](../resources/Figure_03_02_10.jpg)
 {: #Figure10}
@@ -204,7 +204,7 @@ subtraction matters: reversing the order reverses the resultant vector.
  $$\vb{A} - \vb{B} = \vb{A} + \left( -\vb{B} \right).$$
 </div>
 
-This is analogous to the subtraction of scalars (where, for example,$$5 - 2 = 5 + \left( -2 \right)$$). For example, $$5 - 2 = 3$$, but $$2 - 5 = -3$$. The same change
+This is analogous to the subtraction of scalars (where, for example, $$5 - 2 = 5 + \left( -2 \right)$$). For example, $$5 - 2 = 3$$, but $$2 - 5 = -3$$. The same change
 of sign occurs when the order of vector subtraction is reversed. When vectors are subtracted graphically, the
 techniques outlined above are used, as the following example illustrates.
 
@@ -506,8 +506,8 @@ For part (a), we add up the lengths of all segments of the path. For part (b), w
 
 From Figure 20, path A consists of:
 
-- 3 blocks north:$$3 \times 120 = 360 \m$$
-- 1 block east:$$1 \times 120 = 120 \m$$
+- 3 blocks north: $$3 \times 120 = 360 \m$$
+- 1 block east: $$1 \times 120 = 120 \m$$
 
 Total distance:
 
@@ -518,8 +518,8 @@ $$d = 360 + 120 = 480 \m$$
 **(b) Displacement magnitude and direction:**
 
 1. The displacement components are:
-   - North component:$$\Delta y = 360 \m$$
-   - East component:$$\Delta x = 120 \m$$
+   - North component: $$\Delta y = 360 \m$$
+   - East component: $$\Delta x = 120 \m$$
 
 2. Magnitude using the Pythagorean theorem:
 <div class="equation">
@@ -571,9 +571,9 @@ Similar to path A, we add up all path segments for distance and use vector compo
 
 From Figure 20, path B consists of:
 
-- 4 blocks east:$$4 \times 120 = 480 \m$$
-- 3 blocks north:$$3 \times 120 = 360 \m$$
-- 3 blocks west:$$3 \times 120 = 360 \m$$
+- 4 blocks east: $$4 \times 120 = 480 \m$$
+- 3 blocks north: $$3 \times 120 = 360 \m$$
+- 3 blocks west: $$3 \times 120 = 360 \m$$
 
 Total distance:
 
@@ -584,8 +584,8 @@ $$d = 480 + 360 + 360 = 1200 \m$$
 **(b) Displacement magnitude and direction:**
 
 1. The displacement components are:
-   - Net north displacement:$$\Delta y = 360 \m$$(3 blocks north)
-   - Net east displacement:$$\Delta x = 480 - 360 = 120 \m$$(4 blocks east and 3 blocks west)
+   - Net north displacement: $$\Delta y = 360 \m$$ (3 blocks north)
+   - Net east displacement: $$\Delta x = 480 - 360 = 120 \m$$ (4 blocks east and 3 blocks west)
 
 2. Magnitude using the Pythagorean theorem:
 <div class="equation">
@@ -659,7 +659,7 @@ $$R_{\text{north}} = 5.00 \times 0.643 = 3.21 \text{ km}$$
 
 **Discussion**
 
-Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer:$$\sqrt{(3.83)^2 + (3.21)^2} = \sqrt{14.67 + 10.30} = \sqrt{24.97} \approx 5.00 \text{ km}$$✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
+Breaking a vector into components is fundamental to vector analysis. The north and east components are perpendicular to each other, forming the legs of a right triangle where the displacement is the hypotenuse. We can verify our answer: $$\sqrt{(3.83)^2 + (3.21)^2} = \sqrt{14.67 + 10.30} = \sqrt{24.97} \approx 5.00 \text{ km}$$ ✓. The east component (3.83 km) is larger than the north component (3.21 km) because the displacement is closer to east (40° from east means 50° from north).
 
 **Answer**
 
@@ -758,15 +758,15 @@ We need to add two displacement vectors using the head-to-tail method. Vector **
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component:$$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
-- East component:$$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$(negative because west)
+- North component: $$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
+- East component: $$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$ (negative because west)
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component:$$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- South component:$$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
-- North component:$$B_N = -12.86 \m$$(negative because south)
-- East component:$$B_E = -15.32 \m$$(negative because west)
+- West component: $$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
+- South component: $$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- North component: $$B_N = -12.86 \m$$ (negative because south)
+- East component: $$B_E = -15.32 \m$$ (negative because west)
 
 **Resultant components:**
 
@@ -829,15 +829,15 @@ Walking in reverse order: **B** first, then **A**
 
 **Vector B components** (20.0 m, 40.0° south of west):
 
-- West component:$$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- South component:$$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
-- North component:$$B_N = -12.86 \m$$(negative because south)
-- East component:$$B_E = -15.32 \m$$(negative because west)
+- West component: $$B_W = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
+- South component: $$B_S = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- North component: $$B_N = -12.86 \m$$ (negative because south)
+- East component: $$B_E = -15.32 \m$$ (negative because west)
 
 **Vector A components** (12.0 m, 20° west of north):
 
-- North component:$$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
-- East component:$$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$(negative because west)
+- North component: $$A_N = 12.0 \cos(20.0^\circ) = 12.0 \times 0.9397 = 11.28 \m$$
+- East component: $$A_E = -12.0 \sin(20.0^\circ) = -12.0 \times 0.3420 = -4.104 \m$$ (negative because west)
 
 **Resultant components:**
 
@@ -906,13 +906,13 @@ For **A** - **B**, the second leg is now 20.0 m at 40° **north** of east (oppos
 
 **Vector A components** (unchanged):
 
-- North:$$A_N = 11.28 \m$$
-- East:$$A_E = -4.104 \m$$
+- North: $$A_N = 11.28 \m$$
+- East: $$A_E = -4.104 \m$$
 
 **Vector -B components** (20.0 m, 40° north of east):
 
-- East component:$$(-B)_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
-- North component:$$(-B)_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
+- East component: $$(-B)_E = 20.0 \cos(40.0^\circ) = 20.0 \times 0.7660 = 15.32 \m$$
+- North component: $$(-B)_N = 20.0 \sin(40.0^\circ) = 20.0 \times 0.6428 = 12.86 \m$$
 
 **Resultant R' = A - B:**
 
@@ -1177,7 +1177,7 @@ This means:
 - The angle between vA and vB is: 26.5° + 23.0° = 49.5°
 - The third angle in the triangle: 180° - 26.5° - 23.0° = 130.5°
 
-Using the **law of sines**:$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
+Using the **law of sines**: $$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$
 
 **Finding vB:**
 
@@ -1248,7 +1248,7 @@ $$v_{tot,y} = v_{tot}\sin(\theta) = 6.72\sin(49.0°) = 6.72 \times 0.755 = 5.07 
 **Verification:**
 
 <div class="equation">
-$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41)^2 + (5.07)^2} = \sqrt{19.4 + 25.7} = \sqrt{45.1} = 6.72 \ms$$✓
+$$v_{tot} = \sqrt{v_{tot,x}^2 + v_{tot,y}^2} = \sqrt{(4.41)^2 + (5.07)^2} = \sqrt{19.4 + 25.7} = \sqrt{45.1} = 6.72 \ms$$ ✓
 </div>
 
 **Discussion**

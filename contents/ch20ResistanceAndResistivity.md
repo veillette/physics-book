@@ -286,7 +286,7 @@ a temperature-independent resistance standard, for example.
 
 <table id="Table2" aria-describedby="Table 21_03_02"><caption><span class="title">Temperature Coefficients of Resistivity    $$\alpha  $$     </span></caption><thead><tr>
             <th><span class="space" data-count="2">  </span>Material</th>
-            <th>Coefficient  $$\alpha  $$<em></em>(1/ºC)<sup class="footnote-number" id="footnote-ref2"><a class="footnote-link" href="#footnote2">2</a></sup></th>
+            <th>Coefficient  $$\alpha  $$<em></em> (1/ºC)<sup class="footnote-number" id="footnote-ref2"><a class="footnote-link" href="#footnote2">2</a></sup></th>
           </tr></thead><tbody><tr>
             <td><em>Conductors</em></td>
             <td></td>

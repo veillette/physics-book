@@ -56,8 +56,8 @@ experienced on the macroscopic scale.
 | --------------- | ------------------------------ | -------------- | ------------------------ | ---------------- |
 | Gravitational   | $$ 10^{−38}$$                  | $$\infty$$     | attractive only          | Graviton         |
 | Electromagnetic | $$10^{-2}$$                    | $$\infty$$     | attractive and repulsive | Photon           |
-| Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$m | attractive and repulsive | W+, W–, Z0       |
-| Strong nuclear  | $$1$$                          | $$<10^{-15}$$m | attractive and repulsive | Gluons           |
+| Weak nuclear    | $$10^{-6}$$                    | $$<10^{-18}$$ m | attractive and repulsive | W+, W–, Z0       |
+| Strong nuclear  | $$1$$                          | $$<10^{-15}$$ m | attractive and repulsive | Gluons           |
 
 {: #Table1}
 

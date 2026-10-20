@@ -176,7 +176,7 @@ experiences only the downward force of gravity, which has magnitude $$ w $$.
 Newton’s second law states that the magnitude of the net external force on an
 object is $$ \mag{F}_{\text{net}}=m \mag{a} $$.
 
-Since the object experiences only the downward force of gravity,$$ F_{\text{net}}=w $$. We know that the acceleration of an object due to gravity is
+Since the object experiences only the downward force of gravity, $$ F_{\text{net}}=w $$. We know that the acceleration of an object due to gravity is
 $$ g $$, or $$ a=g $$. Substituting these into Newton’s second law gives
 
 ::: note {"class":"note","data-label":""}

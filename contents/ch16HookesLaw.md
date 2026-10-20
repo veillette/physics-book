@@ -81,7 +81,7 @@ solve the force constant $$k $$ .
 
 **Solution**
 
-1. Solve Hooke’s law,$$F=-kx $$ , for $$k $$ \:
+1. Solve Hooke’s law, $$F=-kx $$ , for $$k $$ \:
    <div class="equation" >
    $$k=-\frac{F}{x}. $$
    </div>

@@ -300,9 +300,11 @@ Generate electricity with a bar magnet! Discover the physics behind the phenomen
 
 - Direct current (DC) is the flow of electric current in only one direction. It
   refers to systems where the source voltage is constant.
-- The voltage source of an alternating current (AC) system puts out $$V={V}_{0} \sin 2\pi \text{ft} $$ , where $$V $$ is the voltage at time $$t $$ , $${V}_ $$
-  {0} $$ is the peak voltage, and $$f $$ is the frequency in hertz. - In a simple circuit, $$I=V/R $$ and AC current is $$I={I}_{0} \sin 2\pi
-  \text{ft} $$ , where $$I $$ is the current at time $$t $$ , and $${I}_{0}={V}_{0}\text{/R} $$ is the peak current. - The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0} $$ . - Average (rms) current $${I}_{\text{rms}} $$ and average (rms) voltage $${V}_{\text{rms}} $$ are $${I}_{\text{rms}}=\frac{ {I}_{0}}{\sqrt{2}} $$ and $${V}_{\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}} $$ , where rms stands for root mean square. - Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}} $$ . $$
+- The voltage source of an alternating current (AC) system puts out $$V={V}_{0} \sin 2\pi \text{ft}$$, where $$V$$ is the voltage at time $$t$$, $${V}_{0}$$ is the peak voltage, and $$f$$ is the frequency in hertz.
+- In a simple circuit, $$I=V/R$$ and AC current is $$I={I}_{0} \sin 2\pi \text{ft}$$, where $$I$$ is the current at time $$t$$, and $${I}_{0}={V}_{0}\text{/R}$$ is the peak current.
+- The average AC power is $${P}_{\text{ave}}=\frac{1}{2}{I}_{0}{V}_{0}$$.
+- Average (rms) current $${I}_{\text{rms}}$$ and average (rms) voltage $${V}_{\text{rms}}$$ are $${I}_{\text{rms}}=\frac{ {I}_{0}}{\sqrt{2}}$$ and $${V}_{\text{rms}}=\frac{ {V}_{0}}{\sqrt{2}}$$, where rms stands for root mean square.
+- Thus, $${P}_{\text{ave}}={I}_{\text{rms}}{V}_{\text{rms}}$$.
 
 - Ohm’s law for AC is $${I}_{\text{rms}}=\frac{ {V}_{\text{rms}}}{R} $$ .
 

@@ -1258,7 +1258,7 @@ The fourth side **D** is **2.97 km** long at **67.9° south of west**.
 In an attempt to escape his island, Gilligan builds a raft and sets to sea.
 The wind shifts a great deal during the day, and he is blown along the following straight lines: $$ 2.50 \text{km} $$,
 $$ 45.0^\circ $$ north of west; then $$ 4.70 \text{km} $$, $$ 60.0^\circ $$ south
-of east; then $$ 1.30\text{km} $$,$$ 25.0^\circ $$ south of west; then $$ 5.10 \text{km} $$ straight east; then $$ 1.70\text{km} $$, $$ 5.00^\circ $$ east of
+of east; then $$ 1.30\text{km} $$, $$ 25.0^\circ $$ south of west; then $$ 5.10 \text{km} $$ straight east; then $$ 1.70\text{km} $$, $$ 5.00^\circ $$ east of
 north; then $$ 7.20 \text{km} $$, $$ 55.0^\circ $$ south of west; and finally $$ 2.80 \text{km} $$, $$ 10.0^\circ $$ north of east. What is his final position
 relative to the island?
 

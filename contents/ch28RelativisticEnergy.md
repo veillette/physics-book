@@ -1323,7 +1323,7 @@ More precisely: $$E = \sqrt{(pc)^2 + (mc^{2})^2} = \sqrt{899 + 1}(mc^{2}) = 30.0
 
 Part (a) proves that for ultra-relativistic particles ($$\gamma \gg 1$$), the momentum energy $$pc$$ dominates over rest energy $$mc^{2}$$. Specifically, $$pc/mc^{2} = \sqrt{\gamma^{2} - 1} \approx \gamma$$ when $$\gamma$$ is large.
 
-Part (b) shows that at $$\gamma = 30$$, the total energy (30$$mc^{2}$$) is almost entirely kinetic, with rest energy ($$mc^{2}$$) contributing only about 3%. The approximation $$E \approx pc$$ holds to within 0.07%. This is the ultra-relativistic regime where particles behave almost like massless particles (photons). The astronaut in the twin paradox traveling at $$\gamma = 30$$ has so much kinetic energy that treating the spaceship as nearly massless simplifies calculations without significant error.
+Part (b) shows that at $$\gamma = 30$$, the total energy (30 $$mc^{2}$$) is almost entirely kinetic, with rest energy ($$mc^{2}$$) contributing only about 3%. The approximation $$E \approx pc$$ holds to within 0.07%. This is the ultra-relativistic regime where particles behave almost like massless particles (photons). The astronaut in the twin paradox traveling at $$\gamma = 30$$ has so much kinetic energy that treating the spaceship as nearly massless simplifies calculations without significant error.
 
 This relation is crucial in particle physics: at high energies (GeV to TeV scales), all particles effectively behave as if massless, and $$E = pc$$ becomes an excellent approximation.
 

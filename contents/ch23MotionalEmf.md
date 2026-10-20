@@ -45,7 +45,7 @@ of induction without the sign:
 $$\text{emf}=N\frac{\Delta \Phi }{\Delta t}\text{.}$$
 </div>
 
-Here and below, “emf” implies the magnitude of the emf. In this equation,$$ N=1$$ and the flux $$\Phi =BA \cos \theta $$ . We have $$\theta =0º$$ and $$\cos \theta =1$$ , since $$ B $$ is perpendicular to $$ A $$ . Now $$\Delta \Phi =\Delta \left(BA\right)=B\Delta A $$ , since $$ B $$ is uniform. Note that the area swept out by the rod is $$\Delta A=\ell \Delta x $$ . Entering these
+Here and below, “emf” implies the magnitude of the emf. In this equation, $$ N=1$$ and the flux $$\Phi =BA \cos \theta $$ . We have $$\theta =0º$$ and $$\cos \theta =1$$ , since $$ B $$ is perpendicular to $$ A $$ . Now $$\Delta \Phi =\Delta \left(BA\right)=B\Delta A $$ , since $$ B $$ is uniform. Note that the area swept out by the rod is $$\Delta A=\ell \Delta x $$ . Entering these
 quantities into the expression for **emf** yields
 
 <div class="equation">
@@ -258,7 +258,7 @@ As the tethered satellite moves through Earth's magnetic field at orbital veloci
 
 By Lenz's law, the induced current must flow in a direction that creates a magnetic field opposing the flux change. As the system moves forward through Earth's magnetic field, the induced current flows in such a direction to oppose this motion.
 
-Using RHR-1 (force on a current-carrying conductor in a magnetic field): Point your fingers in the direction of the current in the tether, curl them toward the direction of Earth's magnetic field, and your thumb points in the direction of the magnetic force. This force,$$ F=I\ell B $$, is directed opposite to the satellite's velocity.
+Using RHR-1 (force on a current-carrying conductor in a magnetic field): Point your fingers in the direction of the current in the tether, curl them toward the direction of Earth's magnetic field, and your thumb points in the direction of the magnetic force. This force, $$ F=I\ell B $$, is directed opposite to the satellite's velocity.
 
 **Discussion**
 
@@ -285,7 +285,7 @@ The moving tether induces an emf by Faraday's law. The resulting current (whose 
 
 **Strategy**
 
-(a) Use the motional emf formula $$\text{emf}=B\ell v $$ where $$\ell $$ is the wingspan,$$ v $$ is the airplane's speed, and $$ B $$ is the vertical component of Earth's magnetic field.
+(a) Use the motional emf formula $$\text{emf}=B\ell v $$ where $$\ell $$ is the wingspan, $$ v $$ is the airplane's speed, and $$ B $$ is the vertical component of Earth's magnetic field.
 (b) Assess whether 0.630 V is significant in the context of an aircraft's electrical system.
 
 **Solution**
@@ -332,7 +332,7 @@ While the induced emf exists, it's insignificant compared to the voltages used i
 
 **Solution**
 
-**(a)** Given:$$ B = 2.00 \text{ T}$$,$$\ell = 12.0 \text{ cm} = 0.120 \text{ m}$$,$$ v = 6.00 \text{ m/s}$$
+**(a)** Given: $$ B = 2.00 \text{ T}$$, $$\ell = 12.0 \text{ cm} = 0.120 \text{ m}$$, $$ v = 6.00 \text{ m/s}$$
 
 <div class="equation">
 $$\text{emf}=B\ell v=(2.00 \text{ T})(0.120 \text{ m})(6.00 \text{ m/s})=1.44 \text{ V}$$
@@ -372,7 +372,7 @@ Rearrange $$\text{emf}=B\ell v $$ to solve for $$ v $$.
 
 **Solution**
 
-Given:$$\text{emf} = 1.00 \text{ V}$$,$$ B = 1.50 \text{ T}$$,$$\ell = 30.0 \text{ cm} = 0.300 \text{ m}$$
+Given: $$\text{emf} = 1.00 \text{ V}$$, $$ B = 1.50 \text{ T}$$, $$\ell = 30.0 \text{ cm} = 0.300 \text{ m}$$
 
 <div class="equation">
 $$ v=\frac{\text{emf}}{B\ell}=\frac{1.00 \text{ V}}{(1.50 \text{ T})(0.300 \text{ m})}=\frac{1.00}{0.450}=2.22 \text{ m/s}$$
@@ -406,7 +406,7 @@ Rearrange $$\text{emf}=B\ell v $$ to solve for $$ B $$.
 
 **Solution**
 
-Given:$$\ell = 12.0 \text{ cm} = 0.120 \text{ m}$$,$$ v = 4.00 \text{ m/s}$$,$$\text{emf} = 95.0 \text{ V}$$
+Given: $$\ell = 12.0 \text{ cm} = 0.120 \text{ m}$$, $$ v = 4.00 \text{ m/s}$$, $$\text{emf} = 95.0 \text{ V}$$
 
 <div class="equation">
 $$ B=\frac{\text{emf}}{\ell v}=\frac{95.0 \text{ V}}{(0.120 \text{ m})(4.00 \text{ m/s})}=\frac{95.0}{0.480}=198 \text{ T}$$
@@ -447,7 +447,7 @@ Start with Faraday's law and consider the component of either $$\ell $$ or $$ v 
 
 **Solution**
 
-From Faraday's law,$$\text{emf}=\frac{\Delta \Phi}{\Delta t}=\frac{B\Delta A}{\Delta t}$$, where $$\Delta A $$ is the change in area.
+From Faraday's law, $$\text{emf}=\frac{\Delta \Phi}{\Delta t}=\frac{B\Delta A}{\Delta t}$$, where $$\Delta A $$ is the change in area.
 
 **Case 1:** If $$ v $$ is perpendicular to $$ B $$, then $$\theta $$ is the angle between $$\ell $$ and $$ B $$. The effective length perpendicular to $$ B $$ is $$\ell_{\perp}=\ell \sin \theta $$. The area swept out in time $$\Delta t $$ is:
 
@@ -477,7 +477,7 @@ This proves that motional emf depends on the sine of the angle between the vecto
 
 **Final Answer**
 
-Proven:$$\text{emf}=B\ell v \sin \theta $$ where $$\theta $$ is defined as stated depending on which pair of vectors are perpendicular.
+Proven: $$\text{emf}=B\ell v \sin \theta $$ where $$\theta $$ is defined as stated depending on which pair of vectors are perpendicular.
 
 :::
 
@@ -551,7 +551,7 @@ Find the total resistance of the circuit (including the rails and rod) and use O
 
 **Solution**
 
-The motional emf is:$$\text{emf}=B\ell v $$
+The motional emf is: $$\text{emf}=B\ell v $$
 
 At time $$ t $$, the rod has moved a distance $$ x = vt $$ from the resistance $$ R $$. The circuit consists of:
 - Resistance $$ R $$
@@ -731,11 +731,11 @@ This illustrates a fundamental trade-off: the tethered satellite can generate su
 
 (a) 10.0 N
 
-(b)$$2.81 \times 10^{8} \text{ J}$$
+(b) $$2.81 \times 10^{8} \text{ J}$$
 
 (c) 0.360 m/s
 
-(d) For a week-long mission,$$\Delta v \approx 60$$ m/s (about 0.8% of orbital velocity). This velocity decrease would cause orbital decay, requiring the shuttle to use additional fuel to maintain altitude. The long-term consequence is that the electrical energy generated comes at the cost of orbital energy, making sustained operation impractical without continuous propulsion to compensate.
+(d) For a week-long mission, $$\Delta v \approx 60$$ m/s (about 0.8% of orbital velocity). This velocity decrease would cause orbital decay, requiring the shuttle to use additional fuel to maintain altitude. The long-term consequence is that the electrical energy generated comes at the cost of orbital energy, making sustained operation impractical without continuous propulsion to compensate.
 
 :::
 
