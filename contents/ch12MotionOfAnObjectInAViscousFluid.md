@@ -183,13 +183,13 @@ Typical values:
 - Air viscosity at 5°C: approximately $$1.73 \times 10^{-5} \text{ Pa} \cdot \text{s}$$
 - Air viscosity at 25°C: approximately $$1.84 \times 10^{-5} \text{ Pa} \cdot \text{s}$$
 
-Since terminal velocity is reached when viscous drag equals the net downward force, and Stokes' law gives $$F_S = 6\pi r\eta v$$, a higher viscosity means more drag at any given speed. More drag results in a lower terminal velocity.
+Terminal velocity is reached when the drag equals the net downward force. For small, slow drops (the creeping-flow regime, Reynolds number $$N_R \ll 1$$), Stokes' law gives $$F_S = 6\pi r\eta v$$, so a higher viscosity means more drag at any given speed and a lower terminal velocity: $$v_T \propto 1/\eta$$.
 
-Therefore, raindrops reach a **higher terminal velocity in colder (5 °C) air** because the lower viscosity produces less drag force.
+Therefore, in the Stokes regime, drops reach a **higher terminal velocity in colder (5 °C) air** because the lower viscosity produces less drag force.
 
 **Discussion**
 
-This may seem counterintuitive since we often associate warmth with faster processes. However, for gases, viscosity increases with temperature—the opposite of liquids. The effect is relatively small (about 6% difference between these temperatures) but measurable. This principle is relevant to atmospheric science and precipitation studies. Note: if we hadn't neglected density differences as instructed, the lower density of warm air would reduce drag, partially offsetting the viscosity effect.
+This may seem counterintuitive since we often associate warmth with faster processes. However, for gases, viscosity increases with temperature—the opposite of liquids. The effect is relatively small (about 6% difference between these temperatures). This argument holds for drops small enough that Stokes' law applies, such as cloud droplets a few micrometres across. Ordinary millimetre-sized raindrops fall at several metres per second with $$N_R$$ in the hundreds; their drag comes mainly from pushing air aside (it depends on the air's density, not its viscosity), so for them the temperature dependence of viscosity has little effect on the terminal speed.
 
 :::
 

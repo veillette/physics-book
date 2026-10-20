@@ -299,7 +299,7 @@ Using the symmetry of the arrangement, show that the net Coulomb force on the ch
 (a) What is the direction of the total Coulomb force on  $$q $$
  in [[Figure 10]](#Figure10) if  $$q $$
  is negative,  $${q}_{a}={q}_{c} $$
- and both are negative, and  $${q}_{b}={q}_{c} $$
+ and both are negative, and  $${q}_{b}={q}_{d} $$
  and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?
 
 :::

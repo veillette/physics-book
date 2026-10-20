@@ -838,8 +838,10 @@ $$ W = mg = (85.0 \text{ kg})(9.80 \text{ m/s}^2) = 833.0 \text{ N} $$
 
 $$ F_{\text{down}} = F_B - W = 841.2 \text{ N} - 833.0 \text{ N} = 8.2 \text{ N} $$
 
+Because this is a small difference between two nearly equal numbers, it is better computed directly: $$ F_{\text{down}} = \left(\frac{\rho_{\text{saltwater}}}{\rho_{\text{fish}}} - 1\right) mg = \left(\frac{1025}{1015} - 1\right)(833.0 \text{ N}) = 8.21 \text{ N} $$
+
 **Discussion:**
-The grouper must exert a downward force of approximately **8.2 N** to stay submerged. This is less than 1% of its weight—a relatively small effort. The fish achieves this by swimming with a slight downward angle or adjusting its swim bladder volume. Since the grouper's density (1015 kg/m³) is close to but less than saltwater (1025 kg/m³), it's nearly neutrally buoyant. Many fish adjust their swim bladder (a gas-filled organ) to achieve neutral buoyancy, allowing them to hover effortlessly at a chosen depth. This grouper is slightly "light" and naturally wants to float upward, requiring active swimming to maintain depth.
+The grouper must exert a downward force of approximately **8.21 N** to stay submerged. This is less than 1% of its weight—a relatively small effort. The fish achieves this by swimming with a slight downward angle or adjusting its swim bladder volume. Since the grouper's density (1015 kg/m³) is close to but less than saltwater (1025 kg/m³), it's nearly neutrally buoyant. Many fish adjust their swim bladder (a gas-filled organ) to achieve neutral buoyancy, allowing them to hover effortlessly at a chosen depth. This grouper is slightly "light" and naturally wants to float upward, requiring active swimming to maintain depth.
 
 :::
 

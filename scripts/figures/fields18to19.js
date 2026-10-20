@@ -624,7 +624,7 @@ export default {
       width: W,
       height: H,
       title: 'Equipotentials of +q and of −3q',
-      desc: 'Two panels drawn with the same potential step between neighbouring equipotentials. (a) A charge +q: the equipotentials are concentric circles at +1, +2, +3, and +4 units, crowding together toward the charge; the potential increases inward. (b) A charge −3q: the circles at −3, −4, −6, −8, and −12 units are also concentric; for the same step, three times as many circles fit in a given region because the charge is three times larger, and the potential increases outward, away from the charge. Radial field lines point outward from +q and inward toward −3q.',
+      desc: 'Two panels drawn with the same potential step between neighbouring equipotentials. (a) A charge +q: the equipotentials are concentric circles at +1, +2, +3, and +4 units, crowding together toward the charge; the potential increases inward. (b) A charge −3q: the circles at every whole-number potential from −3 to −12 units are also concentric; with the same step, the circles are three times as far out for a given potential, so three times as many fit in a given region because the charge is three times larger, and the potential increases outward, away from the charge. Radial field lines point outward from +q and inward toward −3q.',
     });
     divider(svg, W / 2, H);
     const R = 150;
@@ -634,7 +634,7 @@ export default {
         cx: (3 * W) / 4,
         q: -3,
         label: '−3q',
-        levels: [-3, -4, -5, -6, -8, -12],
+        levels: [-3, -4, -5, -6, -7, -8, -9, -10, -11, -12],
         title: '(b) Charge −3q',
       },
     ];
@@ -661,6 +661,8 @@ export default {
         const r = (R * Math.abs(p.q)) / Math.abs(L);
         if (r > 170) continue;
         svg.circle(p.cx, cy, r, { fill: 'none', stroke: EQUIP, width: 1.6 });
+        // Label every circle in (a), but only some of the crowded circles in (b).
+        if (p.q < 0 && ![-3, -4, -6, -12].includes(L)) continue;
         svg.text(p.cx + r * 0.71 + 4, cy - r * 0.71 - 6, `${L > 0 ? '+' : '−'}${Math.abs(L)}`, {
           size: 12,
           math: false,
@@ -712,8 +714,12 @@ export default {
         fieldLine(svg, pts, { at: 0.75, color: '#e57373', width: 1 });
       }
     }
-    const levels = [0.5, 0.62, 0.78, 0.9, 1, 1.15, 1.4, 1.9].map(f => f * V0);
-    equipotentials(svg, V, view, levels, { emphasis: [V0] });
+    // The saddle contour V = V0 is drawn as the two contours just above and just
+    // below it, which together trace the figure eight crossing at the midpoint
+    // (a grid contour exactly at a saddle splits into two separated loops).
+    const saddle = [V0 * 0.998, V0 * 1.002];
+    const levels = [0.5, 0.62, 0.78, 0.9, 1.15, 1.4, 1.9].map(f => f * V0);
+    equipotentials(svg, V, view, [...levels, ...saddle], { emphasis: saddle });
     src.forEach(s => charge(svg, s.x, s.y, '+q', 1));
     svg.circle(cx, cy, 3.5, { fill: COLORS.black });
     svg.leader(cx + 70, cy - 120, cx + 3, cy - 4);

@@ -290,7 +290,7 @@ $$V = \frac{kQ}{R} = \frac{(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2)(1.00 \
 
 The implications are:
 
-1. **One coulomb is an enormous static charge:** Isolating it in air is not forbidden by physics, but it would require a conducting sphere more than 100 m across, held at over 160 MV. That is far beyond any laboratory device.
+1. **One coulomb is an enormous static charge:** Isolating it in air is not forbidden by physics, but it would require a conducting sphere more than 100 m across. At that minimum size its potential would be about 164 MV; a larger sphere would have a lower potential and a weaker surface field, but would be larger still. Either way, it is far beyond any laboratory device.
 
 2. **Typical laboratory charges are much smaller:** By the same breakdown limit, a Van de Graaff sphere of radius 0.20 m can hold at most about $$(3 \times 10^{6} \text{ V/m})(0.20 \text{ m})^2/(8.99 \times 10^{9} \text{ N·m}^2/\text{C}^2) \approx 13 \text{ μC}$$, and in practice usually holds less. Since the maximum charge grows as $$R^2$$, large charges need very large objects.
 
@@ -300,7 +300,7 @@ This problem illustrates why the coulomb is such a large unit of charge for elec
 
 **(a) The distance is 1.80 km from the center of the sphere.**
 
-**(b) Isolating 1.00 C is impractical: the potential is still 5.00 MV at 1.80 km, and to keep the surface field below the breakdown strength of air the charged sphere would need a radius of at least about 55 m, at a surface potential of about 160 MV. Everyday and laboratory static charges are microcoulombs or less.**
+**(b) Isolating 1.00 C is impractical: the potential is still 5.00 MV at 1.80 km, and to keep the surface field below the breakdown strength of air the charged sphere would need a radius of at least about 55 m, at which size its surface potential would be about 164 MV. Typical laboratory static charges, such as those on a Van de Graaff sphere, are microcoulombs to tens of microcoulombs.**
 
 :::
 

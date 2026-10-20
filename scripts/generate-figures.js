@@ -25,6 +25,7 @@ import ch04to07 from './figures/ch04to07.js';
 import concepts from './figures/concepts.js';
 import concepts21to25 from './figures/concepts21to25.js';
 import fields18to19 from './figures/fields18to19.js';
+import answers11to20 from './figures/answers11to20.js';
 import completion from './figures/solution-completion.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -38,6 +39,7 @@ const figures = {
   ...concepts,
   ...concepts21to25,
   ...fields18to19,
+  ...answers11to20,
   ...completion,
 };
 let count = 0;

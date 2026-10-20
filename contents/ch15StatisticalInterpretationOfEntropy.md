@@ -719,13 +719,26 @@ Part (a) shows that nearly two-thirds of all tosses produce one of the three mos
 
 ::: solution
 
+(a) Each microstate is an ordered list of the six results (first coin, second coin, …). The macrostate is the number of heads; its number of microstates is the number of ways to choose which coins show heads, $$ W = \binom{6}{n_H} $$.
+
+| Heads | Tails | Microstates | Number of microstates (*W*) |
+| ---: | ---: | --- | ---: |
+| 6 | 0 | HHHHHH | 1 |
+| 5 | 1 | HHHHHT, HHHHTH, HHHTHH, HHTHHH, HTHHHH, THHHHH | 6 |
+| 4 | 2 | HHHHTT, HHHTHT, HHHTTH, HHTHHT, HHTHTH, HHTTHH, HTHHHT, HTHHTH, HTHTHH, HTTHHH, THHHHT, THHHTH, THHTHH, THTHHH, TTHHHH | 15 |
+| 3 | 3 | HHHTTT, HHTHTT, HHTTHT, HHTTTH, HTHHTT, HTHTHT, HTHTTH, HTTHHT, HTTHTH, HTTTHH, THHHTT, THHTHT, THHTTH, THTHHT, THTHTH, THTTHH, TTHHHT, TTHHTH, TTHTHH, TTTHHH | 20 |
+| 2 | 4 | HHTTTT, HTHTTT, HTTHTT, HTTTHT, HTTTTH, THHTTT, THTHTT, THTTHT, THTTTH, TTHHTT, TTHTHT, TTHTTH, TTTHHT, TTTHTH, TTTTHH | 15 |
+| 1 | 5 | HTTTTT, THTTTT, TTHTTT, TTTHTT, TTTTHT, TTTTTH | 6 |
+| 0 | 6 | TTTTTT | 1 |
+|  |  | **Total** | **64** |
+
 (b) 7
 
 (c) 64
 
-(d) 9.38%
+(d) $$ 6/64 = 0.0938 = 9.38\% $$
 
-(e) 3.33 times more likely (20 to 6)
+(e) $$ 20/6 = 3.33 $$ times more likely (20 to 6)
 
 :::
 

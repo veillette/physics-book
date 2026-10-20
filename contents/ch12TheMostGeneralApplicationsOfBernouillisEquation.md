@@ -287,12 +287,12 @@ We apply Torricelli's theorem, recognizing that the velocity of efflux depends o
 **Solution**
 
 **Maximum height from Leak 1:**
-By Torricelli's theorem, water exits with velocity $$v = \sqrt{2gh}$$ where $$h$$ is the height of the water surface above the leak. The water can squirt to a maximum height equal to the height of the water surface above the leak—i.e., it can rise back to the level of the water surface in the boot.
+By Torricelli's theorem, water exits with velocity $$v = \sqrt{2gh}$$ where $$h$$ is the height of the water surface above the leak. Ideally, the water can rise at most to the level of the water surface in the boot. That upper bound is reached only by a jet aimed straight up; a jet that leaves at an angle, like the spray from Leak 1, keeps its horizontal velocity at the top of its arc and so rises less high.
 
 This makes sense from energy conservation: the gravitational potential energy at the water surface converts to kinetic energy at the leak, which then converts back to gravitational potential energy as the water rises.
 
 **Velocity comparison for Leak 1 and Leak 2:**
-Since both leaks are at the same height (as shown in the figure), and both have the same height of water above them, **the velocities are the same**. Torricelli's theorem gives $$v = \sqrt{2gh}$$ where $$h$$ is measured from the water surface to the leak—this depends only on vertical distance, not horizontal position.
+Since both leaks are at the same height (as stated for the figure), and both have the same height of water above them, **the speeds are the same**; only the directions of the two jets differ. Torricelli's theorem gives $$v = \sqrt{2gh}$$ where $$h$$ is measured from the water surface to the leak—this depends only on vertical distance, not horizontal position.
 
 Both streams have the same kinetic energy per unit volume because they come from the same depth below the water surface.
 

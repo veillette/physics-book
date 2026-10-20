@@ -233,7 +233,19 @@ What is the magnitude and direction of the force exerted on a  $$3.50 \mu \text{
 
 ::: solution
 
- $$ 8.75 \times 10^{-4}  $$  N
+**Strategy**
+
+The force on a charge in an electric field is $$ \vec{F} = q\vec{E} $$. A positive charge feels a force in the direction of the field.
+
+**Solution**
+
+$$ F = qE = (3.50 \times 10^{-6} \text{ C})(250 \text{ N/C}) = 8.75 \times 10^{-4} \text{ N} $$
+
+Because the charge is positive, the force points the same way as the field: **$$ 8.75 \times 10^{-4} $$ N, due east**.
+
+**Discussion**
+
+A negative charge of the same magnitude would feel a force of the same size pointing due west.
 
 :::
 

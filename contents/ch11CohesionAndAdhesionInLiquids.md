@@ -550,7 +550,7 @@ The contact angle directly reflects the balance between cohesive and adhesive fo
 
 ::: problem
 
-Birds such as ducks, geese, and swans have greater densities than water, yet they are able to sit on its surface. Explain this ability, noting that water does not wet their feathers and that they cannot sit on soapy water.
+The bodies of birds such as ducks, geese, and swans are made of tissue denser than water, yet these birds float high on its surface. Explain this ability, noting that water does not wet their feathers and that they cannot float this way on soapy water.
 
 :::
 
@@ -562,7 +562,7 @@ We need to compare the possible upward forces on the bird: surface tension actin
 
 **Solution**
 
-The bird's *tissue* is denser than water, but the bird as a whole is not. Its feathers trap a thick layer of air, and the air sacs and lungs add more. Because water does not wet the feathers, the water cannot push into this layer and displace the air. The average density of the bird plus its trapped air is therefore less than that of water, and the bird floats by **buoyancy**: it settles until the water it displaces weighs as much as it does.
+The bird's tissue is denser than water, but the bird as a whole is not. Its feathers trap a thick layer of air, and the air sacs and lungs add more. Because water does not wet the feathers, the water cannot push into this layer and displace the air. The average density of the bird plus its trapped air is therefore less than that of water, and the bird floats by **buoyancy**: it settles until the water it displaces weighs as much as it does.
 
 Surface tension cannot be the main support. A 1.0-kg duck weighs $$ (1.0 \text{ kg})(9.80 \text{ m/s}^2) = 9.8 \text{ N} $$. The largest surface-tension force is about $$ \gamma L = (0.073 \text{ N/m})(1.0 \text{ m}) \approx 0.07 \text{ N} $$ for a waterline about 1.0 m around, less than 1% of the weight. Surface tension supports water striders because they are tiny; it cannot hold up a duck.
 
@@ -998,7 +998,7 @@ With radius $$ r = 10.0 \text{ cm} = 0.100 \text{ m} $$:
 
 $$ \gamma = \frac{(147 \text{ Pa})(0.100 \text{ m})}{4} = \frac{14.7 \text{ N/m}}{4} = 3.68 \text{ N/m} $$
 
-The effective surface tension of the rubber balloon is approximately **3.7 N/m**.
+The effective surface tension of the rubber balloon is approximately **3.7 N/m**. This value is defined by the bubble formula $$ P = 4\gamma/r $$, which counts two surfaces, as for a soap film. The rubber is a single membrane, and its total tension $$ T $$ satisfies $$ P = 2T/r $$, so $$ T = 2\gamma = 7.35 \text{ N/m} $$. The two numbers describe the same balloon under different conventions.
 
 **Discussion**
 

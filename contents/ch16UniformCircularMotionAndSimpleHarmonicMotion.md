@@ -189,7 +189,7 @@ The maximum velocity is:
  $$v_{\text{max}} = (0.00200 \text{ m})\sqrt{17647 \text{ 1/s}^2} = (0.00200 \text{ m})(132.8 \text{ 1/s}) = 0.266 \text{ m/s}$$
 </div>
 
-(b) The maximum energy stored in the spring is:
+(b) We treat the person as attached to the scale's spring and oscillating about the equilibrium position, with $$X$$ measured from equilibrium. The energy of this oscillation, which equals the maximum elastic energy measured relative to equilibrium, is:
 
 <div class="equation">
  $$\text{PE}_{\text{max}} = \frac{1}{2}kX^{2} = \frac{1}{2}(1.50 \times 10^6 \text{ N/m})(0.00200 \text{ m})^2$$
@@ -201,7 +201,7 @@ The maximum velocity is:
 
 **Discussion**
 
-Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relatively large mass (85.0 kg), the small amplitude (only 2.00 mm) results in a modest maximum velocity of 0.266 m/s. The maximum energy of 3.00 J is also small, which makes sense given the tiny amplitude. This demonstrates that bathroom scales are designed to be very stiff to minimize deflection under a person's weight while still providing accurate measurements.
+Despite the very stiff spring (force constant of 1.50 × 10⁶ N/m) and relatively large mass (85.0 kg), the small amplitude (only 2.00 mm) results in a modest maximum velocity of 0.266 m/s. The oscillation energy of 3.00 J is also small, which makes sense given the tiny amplitude. Measured from the spring's *unloaded* length, the spring is already compressed by $$mg/k = 0.555$$ mm at equilibrium, so at the bottom of the bounce it stores $$\tfrac{1}{2}k(mg/k + X)^2 = 4.90$$ J; the 3.00 J is the part that goes back and forth between kinetic and potential energy. A person merely standing on a real scale would leave its surface during such a bounce, since the amplitude (2.00 mm) is larger than the 0.555 mm static compression. This demonstrates that bathroom scales are designed to be very stiff to minimize deflection under a person's weight while still providing accurate measurements.
 
 **Answer**
 

@@ -509,25 +509,27 @@ From the previous problem, $$T_1 = 1.50$$ s with $$m_1 = 0.500$$ kg. Using $$T =
 For $$T = 1.99$$ s:
 
 <div class="equation">
- $$m_{\text{min}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77 \text{ N/m})(1.99 \text{ s})^2}{4\pi^{2}} = 0.878 \text{ kg}$$
+ $$m_{\text{min}} = \frac{kT^{2}}{4\pi^{2}} = m_1\left(\frac{T}{T_1}\right)^{2} = (0.500 \text{ kg})\left(\frac{1.99 \text{ s}}{1.50 \text{ s}}\right)^{2} = 0.880 \text{ kg}$$
 </div>
 
 For $$T = 2.01$$ s:
 
 <div class="equation">
- $$m_{\text{max}} = \frac{kT^{2}}{4\pi^{2}} = \frac{(8.77 \text{ N/m})(2.01 \text{ s})^2}{4\pi^{2}} = 0.896 \text{ kg}$$
+ $$m_{\text{max}} = m_1\left(\frac{T}{T_1}\right)^{2} = (0.500 \text{ kg})\left(\frac{2.01 \text{ s}}{1.50 \text{ s}}\right)^{2} = 0.898 \text{ kg}$$
 </div>
 
 The target mass is 0.889 kg, so the leeway is:
 
 <div class="equation">
- $$\Delta m = 0.896 \text{ kg} - 0.878 \text{ kg} = 0.018 \text{ kg} = 18 \text{ g}$$
+ $$\Delta m = 0.898 \text{ kg} - 0.880 \text{ kg} = 0.018 \text{ kg} = 18 \text{ g}$$
 </div>
 
 This is $$\pm 0.009$$ kg from the target. The percentage leeway is:
 
 <div class="equation">
- $$\frac{0.009}{0.889} \times 100\% = 1.0\%$$
+ $$\frac{0.009}{0.889} \times 100\% = 1.0\%$$ of the total mass.
+
+Measured against the mass being *added* (0.389 kg, so the added mass may range from 0.380 kg to 0.398 kg), the same ±9 g is $$\pm 0.009/0.389 = \pm 2.3\%$$.
 </div>
 
 **Discussion**
@@ -538,7 +540,7 @@ The relatively small leeway of ±9 g (±1.0%) shows that the period is quite sen
 
 Mass leeway: ±9 g or ±0.009 kg
 
-Percentage leeway: ±1.0%
+Percentage leeway: ±1.0% of the total mass, or ±2.3% of the added mass
 
 :::
 

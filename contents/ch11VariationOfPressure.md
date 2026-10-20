@@ -292,7 +292,7 @@ This is similar to why fish don't feel crushed by water pressure—their interna
 
 ::: problem
 
-Why does atmospheric pressure decrease more rapidly than linearly with altitude?
+Why does atmospheric pressure decrease nonlinearly with altitude?
 
 :::
 
@@ -314,7 +314,7 @@ Detailed explanation:
 For an isothermal atmosphere, density is proportional to pressure, and the result is
 $$ P = P_0 e^{-h/H}, \qquad \frac{dP}{dh} = -\frac{P}{H} $$
 
-where $$ H $$ is the scale height (about 8.5 km for Earth). The magnitude of the slope decreases as $$ P $$ decreases. The pressure therefore falls *more rapidly than linearly* in the sense that it drops far faster near the ground than a straight-line decrease spread over the full ~100 km height of the atmosphere would: at 8.5 km the pressure is already down to $$ e^{-1} \approx 37\% $$ of its sea-level value. It does not fall faster than the tangent line at the ground: that line, $$ P_0(1 - h/H) $$, which describes a uniform-density atmosphere, reaches zero at $$ h = H $$, while the real pressure stays above it.
+where $$ H $$ is the scale height (about 8.5 km for Earth). The magnitude of the slope is proportional to $$ P $$ itself, so it shrinks with altitude: the pressure halves about every 5.9 km ($$ H\ln 2 $$), dropping by 50 kPa in the first 5.9 km but by only 25 kPa in the next. The graph of pressure versus altitude is a curve that is steep near the ground and flattens higher up, not a straight line. (A straight line with the ground-level slope, $$ P_0(1 - h/H) $$, would describe an atmosphere of uniform density and would reach zero at $$ h = H $$; the real pressure stays above it.)
 
 **Discussion:**
 About 50% of the atmosphere's mass lies below 5.5 km altitude; the other 50% is spread over the remaining ~100 km to the edge of space. This concentration of air at low altitudes is why aircraft pressurize cabins for high-altitude flight, and why weather phenomena occur primarily in the lowest layer of the atmosphere (troposphere).

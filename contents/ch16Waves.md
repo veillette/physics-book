@@ -168,7 +168,7 @@ Why is it important to differentiate between longitudinal and transverse waves?
 
 ::: solution {"class":"solution","data-print-placement":"here"}
 
-The two types differ in the direction the medium moves relative to the direction the wave travels. In a transverse wave the particles of the medium move perpendicular to the direction of propagation; in a longitudinal wave they move back and forth parallel to it. In both types, energy travels along the direction of propagation. The distinction matters because it determines which media can carry a wave and how the wave affects the material: fluids such as air can carry only longitudinal waves (they cannot sustain the shear needed for transverse motion), while solids can carry both.
+The two types differ in the direction the medium moves relative to the direction the wave travels. In a transverse wave the particles of the medium move perpendicular to the direction of propagation; in a longitudinal wave they move back and forth parallel to it. In both types, energy travels along the direction of propagation. The distinction matters because it determines which media can carry a wave and how the wave affects the material: sound waves travelling through the bulk of a fluid such as air are longitudinal, because a fluid cannot sustain the shear needed for transverse motion, while solids can carry both types. (Waves on the surface of a fluid, like ocean waves, are a special case: gravity or surface tension supplies the restoring force, and the water moves both up and down and back and forth.)
 
 :::
 

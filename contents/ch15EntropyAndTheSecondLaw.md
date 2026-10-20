@@ -683,7 +683,7 @@ The negative sign indicates heat leaves the rock.
 
 **Discussion**
 
-The rock releases 801 kJ as it cools. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
+The rock releases about 801 kJ as it cools. This uses the average-temperature approximation $$\Delta S \approx Q/T_{\text{avg}}$$, which the text recommends only for small temperature changes; here the temperature falls by more than a factor of four. If the rock's heat capacity $$C$$ is constant, the exact relations are $$\Delta S = C\ln(T_f/T_i)$$ and $$Q = C(T_f - T_i)$$, so $$Q = \Delta S\,(T_f - T_i)/\ln(T_f/T_i) = (-950 \text{ J/K})(-1060 \text{ K})/\ln(313/1373) = -6.81 \times 10^{5} \text{ J}$$: the rock releases 681 kJ, about 15% less than the approximate value. The entropy decrease reflects the rock becoming more ordered at lower temperature, but the universe's total entropy increases as the environment gains more entropy than the rock loses.
 
 :::
 
@@ -713,7 +713,7 @@ $$T_f = 2(333 \text{ K}) - 293 \text{ K} = 373 \text{ K} = 100°\text{C}$$
 
 **Discussion**
 
-The pie heats to 100 °C (boiling point), reasonable for cooking. The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
+This uses the average-temperature approximation $$\Delta S \approx Q/T_{\text{avg}}$$, which gives a final temperature of about 100 °C. If the pie's heat capacity is constant and no water boils away, the exact relation $$\Delta S = Q\ln(T_f/T_i)/(T_f - T_i)$$ gives $$T_f = 377 \text{ K} \approx 104$$ °C instead, so the approximation is good to a few degrees here. (The closeness to water's boiling point is a coincidence of the numbers chosen; a pie that actually reached 100 °C would start to boil off water, which the calculation ignores.) The 480 J/K entropy increase reflects increased molecular motion at higher temperature.
 
 :::
 

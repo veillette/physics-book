@@ -314,11 +314,11 @@ Given: $$\eta = 42.0\% = 0.420$$, $$T_C = 27.0°\text{C} = 300 \text{ K}$$
 **(b)** If real efficiency is 70% of Carnot: $$0.420 = 0.700 \times \eta_{C}$$, so $$\eta_{C} = 0.600$$
 Then $$T_H = \frac{300 \text{ K}}{1-0.600} = 750 \text{ K} = 477°\text{C}$$
 
-**(c)** Yes, car engines cannot sustain 477 °C without overheating, limiting practical efficiency to well below 42%.
+**(c)** Yes, but not because 477 °C is too hot for the engine. The hot reservoir here stands for the burning fuel–air mixture, which briefly reaches well over 1000 °C; the engine block and oil are kept far cooler by the cooling system. The practical limit comes from the factor of 0.700 in (b): a real engine falls short of the Carnot efficiency because of irreversibilities (rapid, uncontrolled combustion, friction, turbulence), heat lost through the cylinder walls to the cooling system, and exhaust gas that leaves while still hot. Material limits matter indirectly, because the walls must be cooled, and that cooling discards heat. The calculation shows that efficiency rises with the effective temperature at which heat is taken in, and that losses, not the gas temperature alone, keep car engines well below the ideal.
 
 **Discussion**
 
-Part (a) shows 244 °C hot reservoir for Carnot engine at 42% efficiency—achievable but high. Part (b) reveals that for a real engine at 70% of Carnot to reach 42% actual efficiency, it needs 477 °C, which exceeds practical limits for car engines (materials degrade, oil breaks down). This explains why car engines achieve only 20-30% efficiency despite extensive engineering optimization.
+Part (a) shows that a Carnot engine would need only a 244 °C hot reservoir to reach 42%. Part (b) shows that an engine reaching only 70% of the Carnot efficiency would need an effective hot-reservoir temperature of 477 °C. Real gasoline engines typically convert only about 25–30% of the fuel's energy to work, because the irreversibilities and heat losses described in (c) take them much further below the Carnot limit than the 70% assumed here.
 
 :::
 
@@ -466,21 +466,19 @@ Compare the claimed efficiency to Carnot efficiency:
  $$\frac{\text{Eff}_{\text{claimed}}}{\text{Eff}_C} = \frac{0.480}{0.500} = 0.96 = 96\%$$
 </div>
 
-**Conclusion: No, I would not financially back this inventor. The claimed device operates at 96% of the Carnot efficiency, which is impossible in practice.**
+**Conclusion: Not without independent tests of a working prototype. The claim does not violate the laws of thermodynamics, but it is extraordinary.**
+
+The second law allows the claim. The efficiency, 48.0%, is below the 50.0% Carnot limit. Equivalently, the entropy change of the two reservoirs per cycle is
+
+<div class="equation">
+ $$\Delta S = \frac{Q_c}{T_c} - \frac{Q_h}{T_h} = \frac{13{,}000 \text{ J}}{300 \text{ K}} - \frac{25{,}000 \text{ J}}{600 \text{ K}} = 43.3 \text{ J/K} - 41.7 \text{ J/K} = +1.7 \text{ J/K}$$
+</div>
+
+which is positive, as the second law requires.
 
 **Discussion**
 
-The inventor's device claims to achieve 48% efficiency, which is 96% of the theoretical maximum (Carnot) efficiency of 50%. This is extraordinarily suspicious for several reasons:
-
-1. **Real-world efficiency limits**: Even the most advanced heat engines, built with the best materials and engineering, achieve only about 60-70% of Carnot efficiency. Typical power plants reach 40-42% actual efficiency when the Carnot limit might be 60-65%, giving them about 65% of Carnot. Gas turbines might reach 70% of Carnot under ideal conditions.
-
-2. **Irreversibilities**: All real processes involve friction, turbulence, heat losses, and other irreversibilities that prevent achieving Carnot efficiency. A device at 96% of Carnot would be nearly reversible, which is physically unrealistic for any macroscopic heat engine.
-
-3. **The 2:1 temperature ratio**: With $$T_h = 600$$ K and $$T_c = 300$$ K (exactly 2:1), this looks like a contrived example designed to appear legitimate while being fraudulent.
-
-4. **Red flags**: The inventor is "marketing" the device rather than publishing peer-reviewed results or demonstrating it to independent engineers. This is a classic sign of pseudoscience or fraud.
-
-**Verdict**: This scheme is almost certainly fraudulent. The claimed performance is thermodynamically implausible. Real devices with such exceptional efficiency would be revolutionary and would be demonstrated to scientists and engineers, not marketed to investors. The inventor is likely either deceiving investors deliberately or has made fundamental measurement errors. Either way, investment would be unwise.
+The device would be allowed, but it would have to be remarkably close to reversible: it claims 96% of the Carnot efficiency. Real engines lose a large share of the ideal because of friction, turbulence, heat leaks, and finite-rate heat transfer, and even the best power plants reach only about 70% of their Carnot limit. A claim this close to the ideal is therefore not impossible, but it calls for strong evidence: independent measurements of the heat input, the heat output, and the work over many cycles. Thermodynamics can rule out a claim that exceeds the Carnot limit; it cannot by itself prove that a claim below the limit is false. A prudent investor would ask for that evidence before committing money.
 
 :::
 

@@ -204,7 +204,7 @@ The equipotential lines are also concentric circles, but:
 - Arrows indicating increasing potential point **outward** away from the charge
 - The equipotential lines are more closely spaced near the charge (for the same voltage intervals) because the charge magnitude is 3 times larger
 
-![Two panels drawn with the same potential step between neighbouring equipotentials. (a) A charge +q: the equipotentials are concentric circles at +1, +2, +3, and +4 units, crowding together toward the charge; the potential increases inward. (b) A charge −3q: the circles at −3, −4, −6, −8, and −12 units are also concentric; for the same step, three times as many circles fit in a given region because the charge is three times larger, and the potential increases outward, away from the charge. Radial field lines point outward from +q and inward toward −3q.](../resources/concept_19_04_p01.svg)
+![Two panels drawn with the same potential step between neighbouring equipotentials. (a) A charge +q: the equipotentials are concentric circles at +1, +2, +3, and +4 units, crowding together toward the charge; the potential increases inward. (b) A charge −3q: the circles at every whole-number potential from −3 to −12 units are also concentric; with the same step, the circles are three times as far out for a given potential, so three times as many fit in a given region because the charge is three times larger, and the potential increases outward, away from the charge. Radial field lines point outward from +q and inward toward −3q.](../resources/concept_19_04_p01.svg)
 
 **Discussion**
 
@@ -459,7 +459,7 @@ The charge concentrates on the **facing surfaces** of the plates (the surfaces c
 
 **Yes.** The field is strongest where the plates are closest because:
 
-1. **Same voltage difference over smaller distance:** $$E = V/d$$, so smaller $$d$$ means larger $$E$$.
+1. **Same voltage difference over smaller distance:** locally $$E \approx \Delta V/d$$, so smaller $$d$$ means larger $$E$$.
 
 2. **Closer equipotential lines:** Where plates are closer, the same potential difference is spread over less distance, so equipotential lines are more closely spaced—indicating stronger field.
 
@@ -469,7 +469,7 @@ The charge concentrates on the **facing surfaces** of the plates (the surfaces c
 
 **Discussion**
 
-This configuration is the basis of a parallel-plate capacitor. The approximately uniform field between the plates is useful for many applications. The non-uniform fringe fields at the edges are often neglected in calculations but become important in precise applications.
+These tilted plates form a capacitor whose field is not uniform: the widening gap makes the field strongest at the narrow end and weaker toward the open end, in addition to the fringe fields at the edges. The parallel-plate result $$E = \Delta V/d$$ applies only locally, over a region small enough that the gap is nearly constant. When the plates are made parallel, the equipotentials between them become evenly spaced and the field becomes uniform away from the edges.
 
 :::
 

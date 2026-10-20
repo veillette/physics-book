@@ -1642,8 +1642,8 @@ responsible?
 
 (a) 1.46 kW, flowing **into** the room, since the outer surface (35.0 °C) is hotter than the inner surface (22.0 °C)
 
-(b) This is a very high rate of heat gain through a single window. It is comparable to the cooling power of a
-room air conditioner, so one window would overwhelm the cooling of an entire room.
+(b) This is a very high rate of heat gain through a single window: 1.46 kW is comparable to the
+cooling power of a typical room air conditioner, which would have to work full time just to offset this one window.
 
 (c) The surface temperatures of the window do not differ by as great an amount
 as assumed. The inner surface will be warmer, and the outer surface will be

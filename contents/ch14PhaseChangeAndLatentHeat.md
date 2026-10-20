@@ -978,6 +978,10 @@ of heat transfer?
 
 (b) 0.418 s, 3.34 s, 4.19 s, 22.6 s, 0.456 s
 
+(c) Adding the stage times gives the breakpoints of the graph: 0.418 s, 3.76 s, 7.95 s, 30.5 s, and 31.0 s. The temperature rises while a single phase is heated and stays constant during melting (0 °C) and boiling (100 °C).
+
+![Temperature in degrees Celsius versus time in seconds for 0.200 kg of ice heated at a constant 20.0 kJ/s. The ice warms from −20 °C to 0 °C in 0.418 s; the temperature stays at 0 °C while the ice melts, until 3.76 s; the water warms from 0 °C to 100 °C, reaching it at 7.95 s; the temperature stays at 100 °C while the water boils, until 30.5 s; finally the steam warms from 100 °C to 130 °C, reaching it at 31.0 s. The two flat plateaus are the phase changes; the boiling plateau is by far the longest because the latent heat of vaporization is largest.](../resources/concept_14_03_p07.svg)
+
 :::
 
 </div>
