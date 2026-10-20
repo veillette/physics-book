@@ -24,7 +24,7 @@ describe('math rendering with Kramdown-compatible delimiters', () => {
     // {d}_{\text{o}}<f  — built by concat so ${ never starts an interpolation
     const inner = `{d}_{${String.raw`\text{o}`}}<f`;
     const html = md.renderInline(`$$${inner} $$`);
-    expect(html).toBe(span(inner.replace('<', '&lt;')));
+    expect(html).toBe(span(inner.replaceAll('<', '&lt;')));
     expect(load(html)('body').text()).toBe(span(inner));
   });
 
