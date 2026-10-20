@@ -20,7 +20,7 @@ The [current exercise tracker](ch01-10-solution-audit.csv) has been refreshed wi
 | 10        |                       29 |                          0 |
 | **Total** |                   **83** |                      **0** |
 
-Each new answer explains a strategy and its application, uses unit-bearing substitutions when calculating, identifies illustrative assumptions, and closes with an answer sentence. Multipart answers address each requested part. Purely qualitative conclusions are distinguished from numerical models. The diopter research answer cites clinical repeatability research and distinguishes it from prescription increments and a dated manufacturing-tolerance example.
+Each new answer explains a strategy and its application, uses unit-bearing substitutions when calculating, identifies illustrative assumptions, and closes with an answer sentence. Multipart answers address each requested part. Purely qualitative conclusions are distinguished from numerical models. The diopter answer retains the user’s short introductory explanation, focused on the unit, prescription increments, and sources of uncertainty.
 
 All **790 question statements were compared with the pre-implementation snapshot and preserved**. Relative to that snapshot, 83 previously empty exercises gained solutions and 35 existing solutions were corrected, expanded, or given consistent headings: **118 changed solution texts** in total. This count does not reclassify the earlier agent’s 86 additions as new work in this completion step.
 
@@ -56,7 +56,7 @@ There are **eight newly generated SVGs** in this completion step: radial/tangent
 - Compiled all **1,152 MathJax expressions** in the 118 changed solutions using the repository’s installed MathJax and macro configuration: **zero parse errors**.
 - Recomputed numerical examples and checked units, directions, frame assumptions, and figure consistency; rendered and visually inspected the new, revised, and reused solution figures.
 - Passed the 541-problem completeness check, math-delimiter, figure, cross-reference, structure, accessibility, orphan, ESLint, and configured Prettier checks.
-- Passed all **174 unit tests** and the Eleventy build.
+- Passed all **177 unit tests**, including three new checks of perpendicular acceleration, the actual muscle moment arm, and equal net impulses in the rendered diagrams, plus the Eleventy build.
 - The chapter 1–10 arithmetic checker reports zero likely numerical errors. Its one remaining small comparison is the unchanged order-of-magnitude lifetime estimate in chapter 1, not a newly supplied solution.
 
 Presence and heading checks do not establish the correctness of every older solution in the book. The tracker retains `presence_checked_only` for older exercises without a substantive review or identified task; completed follow-ups refer to the specific work described here.
