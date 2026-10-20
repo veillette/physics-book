@@ -182,7 +182,7 @@ and our human goals.
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -224,7 +224,7 @@ Diamond disperses light more than polystyrene, which contributes to its greater 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -273,7 +273,7 @@ The difference in refraction angles (0.5°) demonstrates dispersion—the separa
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -318,7 +318,7 @@ Although this difference seems small, it's significant for diamond cutting. Sinc
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -331,64 +331,31 @@ Although this difference seems small, it's significant for diamond cutting. Sinc
 
 **Strategy**
 
-**(a)** Use Snell's law for each wavelength. From [[Table 1]](#Table1), $$n_{\text{yellow}} = 1.492$$ and $$n_{\text{green}} = 1.493$$ for polystyrene.
-**(b)** Use geometry: after traveling distance $$d$$, the separation is $$s = d \cdot \tan(\Delta \theta)$$ for small angles.
+Apply Snell's law separately to the two wavelengths, retaining unrounded angles when subtracting them.
 
 **Solution**
 
-**(a)** For yellow light (580 nm):
-<div class="equation">
-$$n_{\text{yellow}} \sin(30.0°) = n_{\text{air}} \sin \theta_{\text{yellow}}$$
-</div>
+**(a)** From Table 1, $$n_{\text{yellow}}=1.492$$ and $$n_{\text{green}}=1.493$$. In air,
 
-<div class="equation">
-$$\sin \theta_{\text{yellow}} = 1.492 \times 0.500 = 0.746$$
-</div>
+$$\theta_{\text{yellow}}=\sin^{-1}(1.492\sin30.0°)=48.25°,$$
 
-<div class="equation">
-$$\theta_{\text{yellow}} = 48.24°$$
-</div>
+$$\theta_{\text{green}}=\sin^{-1}(1.493\sin30.0°)=48.29°.$$
 
-For green light (550 nm):
-<div class="equation">
-$$\sin \theta_{\text{green}} = 1.493 \times 0.500 = 0.7465$$
-</div>
+The angular separation from the unrounded values is $$\Delta\theta=0.043°=7.51\times10^{-4}\text{ rad}$$.
 
-<div class="equation">
-$$\theta_{\text{green}} = 48.20°$$
-</div>
+**(b)** For small angular separation, $$s\approx d\Delta\theta$$, so
 
-Angle between them:
-<div class="equation">
-$$\Delta \theta = 48.24° - 48.20° = 0.04°$$
-</div>
-
-**(b)** For small angles, the separation after distance $$d$$ is:
-<div class="equation">
-$$s = d \cdot \Delta \theta_{\text{radians}}$$
-</div>
-
-Convert $$\Delta \theta = 0.04°$$ to radians:
-<div class="equation">
-$$\Delta \theta = 0.04° \times \frac{\pi}{180°} = 6.98 \times 10^{-4} \text{ rad}$$
-</div>
-
-Solve for $$d$$ when $$s = 1.00 \text{ mm} = 0.00100 \text{ m}$$:
-<div class="equation">
-$$d = \frac{s}{\Delta \theta} = \frac{0.00100 \text{ m}}{6.98 \times 10^{-4}} = 1.43 \text{ m}$$
-</div>
-
-**Answer:** **(a)** The angle between the colors is **0.04°** or **0.043°**. **(b)** They would need to travel **1.43 m** (approximately **1.33 m** accounting for rounding).
+$$d=\frac{1.00\times10^{-3}\text{ m}}{7.51\times10^{-4}}=1.33\text{ m}.$$
 
 **Discussion**
 
-The very small angular separation (0.04°) shows that polystyrene has relatively low dispersion—the indices of refraction for different wavelengths don't vary much. Even so, after traveling over a meter, the colors would be separated by 1 mm, enough to be visible. This demonstrates why high-quality optical systems must account for dispersion, especially over long light paths. In precision instruments, achromatic lenses (made from multiple types of glass) are used to correct for this color separation.
+The higher-index green ray emerges farther from the normal. Even this small angular separation produces a 1.00-mm separation after about 1.33 m.
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -442,7 +409,7 @@ The very small angular separation (0.1°) occurs because the difference in refra
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -495,7 +462,7 @@ The significantly larger incident angle (71.3° vs. 55.0°) is required because 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -508,71 +475,37 @@ A narrow beam of light containing red (660 nm) and blue (470 nm) wavelengths tra
 
 **Strategy**
 
-For a parallel-sided plate, light emerges parallel to its incident direction but laterally displaced. We need to find the displacement for each color, which differs due to dispersion. From [[Table 1]](#Table1): $$n_{\text{red}} = 1.512$$ and $$n_{\text{blue}} = 1.524$$ for crown glass.
+A parallel-sided plate returns each ray to its original direction. Dispersion produces different lateral displacements.
 
 **Solution**
 
-**(a)** For a parallel-sided glass plate, the emerging ray is parallel to the incident ray. Therefore, both colors emerge at **30.0°** (the same angle as incidence).
+**(a)** Both colors emerge at **30.0°** to the normal.
 
-**(b)** First, find the refraction angle in the glass for each color.
+**(b)** With $$n_{\text{red}}=1.512$$ and $$n_{\text{blue}}=1.524$$,
 
-For red light:
-<div class="equation">
-$$\sin \theta_{2,\text{red}} = \frac{\sin(30.0°)}{1.512} = \frac{0.500}{1.512} = 0.3307$$
-</div>
+$$\theta_{2,\text{red}}=\sin^{-1}(0.500/1.512)=19.31°,$$
 
-<div class="equation">
-$$\theta_{2,\text{red}} = 19.3°$$
-</div>
+$$\theta_{2,\text{blue}}=\sin^{-1}(0.500/1.524)=19.15°.$$
 
-For blue light:
-<div class="equation">
-$$\sin \theta_{2,\text{blue}} = \frac{0.500}{1.524} = 0.3281$$
-</div>
+For plate thickness $$t=1.00\text{ cm}$$, the displacement perpendicular to the emerging ray is
 
-<div class="equation">
-$$\theta_{2,\text{blue}} = 19.2°$$
-</div>
+$$d=\frac{t\sin(30.0°-\theta_2)}{\cos\theta_2}.$$
 
-The lateral displacement for each color is:
-<div class="equation">
-$$d = \frac{t \sin(\theta_{1} - \theta_{2})}{\cos \theta_{2}}$$
-</div>
+Using unrounded angles gives $$d_{\text{red}}=0.1965\text{ cm}$$ and $$d_{\text{blue}}=0.1992\text{ cm}$$. The perpendicular separation of the parallel beams is therefore **0.027 mm**.
 
-For red:
-<div class="equation">
-$$d_{\text{red}} = \frac{1.00 \text{ cm} \times \sin(30.0° - 19.3°)}{\cos(19.3°)} = \frac{1.00 \times \sin(10.7°)}{\cos(19.3°)}$$
-</div>
+Measured along the exit face instead, the separation is
 
-<div class="equation">
-$$d_{\text{red}} = \frac{1.00 \times 0.1857}{0.9434} = 0.197 \text{ cm}$$
-</div>
-
-For blue:
-<div class="equation">
-$$d_{\text{blue}} = \frac{1.00 \times \sin(30.0° - 19.2°)}{\cos(19.2°)} = \frac{1.00 \times \sin(10.8°)}{\cos(19.2°)}$$
-</div>
-
-<div class="equation">
-$$d_{\text{blue}} = \frac{1.00 \times 0.1874}{0.9441} = 0.198 \text{ cm}$$
-</div>
-
-Separation:
-<div class="equation">
-$$\Delta d = 0.198 - 0.197 = 0.001 \text{ cm} = 0.01 \text{ mm}$$
-</div>
-
-**Answer:** (a) Both colors emerge at **30.0°**. (b) They are separated by approximately **0.01 mm** or **10 micrometers**.
+$$t(\tan\theta_{2,\text{red}}-\tan\theta_{2,\text{blue}})=0.032\text{ mm}.$$
 
 **Discussion**
 
-Although both colors emerge parallel to their original direction, they are laterally displaced by slightly different amounts due to dispersion. The separation is very small (only 10 μm for 1 cm of glass) because crown glass has relatively low dispersion. This demonstrates why windowpanes don't noticeably separate colors—the dispersion and thickness are too small to create visible color fringing in normal viewing.
+The small separation explains why an ordinary windowpane does not noticeably separate colors. The numerical distance depends on whether it is measured along the exit face or perpendicular to the emerging beams.
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -643,10 +576,10 @@ $$\sin \theta_{\text{V}} = 1.530 \times \sin(32.48°) = 1.530 \times 0.5372 = 0.
 </div>
 
 <div class="equation">
-$$\theta_{\text{V}} = 55.3°$$
+$$\theta_{\text{V}} = 55.2°$$
 </div>
 
-**Answer:** Red light emerges at **53.5°** and violet light emerges at **55.3°** (or **55.2°** with rounding).
+**Answer:** Red light emerges at **53.5°** and violet light emerges at **55.2°**.
 
 **Discussion**
 

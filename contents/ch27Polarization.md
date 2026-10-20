@@ -934,7 +934,7 @@ $$n_2 = n_1 \tan \theta_{b} = (1.00) \tan 55.6° = 1.46$$
 
 **Discussion**
 
-An index of refraction of 1.46 is typical of **window glass** (common soda-lime glass has n ≈ 1.46-1.52). This could also be Plexiglas (n ≈ 1.49) or other transparent plastics used in windows.
+An index of refraction of 1.46 matches **fused quartz** in Table 1 of the refraction section. Refractive index alone does not uniquely identify the material.
 
 :::
 
@@ -967,7 +967,7 @@ $$n_2 = n_1 \tan \theta_{b} = (1.00) \tan 62.5° = 1.92$$
 
 Diamond has n = 2.419, which is significantly higher than 1.92. Therefore, **this gem cannot be diamond**.
 
-The index of 1.92 is consistent with **zircon** (n ≈ 1.92-1.98) or **cubic zirconia** (n ≈ 2.15-2.18), which are common diamond simulants.
+The index of 1.92 could be consistent with zircon. It does not match cubic zirconia, whose index is about 2.15–2.18. The measurement rules out diamond without uniquely identifying the gem.
 
 **(b) Brewster's angle if the gem is in water:**
 
@@ -1144,11 +1144,19 @@ the polarizing filters get hot? Explain.
 
 ::: solution
 
-(a)  $$2.07 \times 10^{-2} $$
- ºC/s
+**Solution**
 
-(b) Yes, the polarizing filters get hot because they absorb some of the lost
-energy from the sunlight.
+**(a)** The lens area is $$A=\pi(0.100\text{ m})^2=0.0314\text{ m}^2$$, so the incident power is 31.4 W. Unpolarized light loses half its intensity at the first ideal polarizer. Malus's law then gives
+
+$$P_{\text{absorbed}}=(31.4\text{ W})\frac12\cos^2(20.0°)(0.800)=11.1\text{ W}.$$
+
+The combined heat capacity is
+
+$$C=(0.0300\text{ kg})(900\text{ J/(kg·°C)})+(0.250\text{ kg})(4186\text{ J/(kg·°C)})=1073.5\text{ J/°C}.$$
+
+Thus $$dT/dt=P_{\text{absorbed}}/C=1.03\times10^{-2}\text{ °C/s}$$.
+
+**(b)** Yes. The sheets absorb the rejected polarization components and therefore heat up.
 
 :::
 

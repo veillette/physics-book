@@ -75,7 +75,7 @@ The part of optics dealing with the ray aspect of light is called geometric opti
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 

@@ -692,18 +692,20 @@ Suppose a person swallows some radioactive material by accident. What informatio
 
 ::: problem
 
-What is the dose in mSv for: (a) a 0.1 Gy x-ray? (b) 2.5 mGy of neutron exposure to the eye? (c) 1.5 mGy of  $$\alpha  $$
+What is the equivalent dose in mSv for: (a) 0.1 Gy of x-rays? (b) 2.5 mGy of neutrons, assuming $$w_R=10$$ at the neutron energy used? (c) 1.5 mGy of  $$\alpha  $$
  exposure?
 
 :::
 
 ::: solution
 
-(a) 100 mSv
+Use $$H=w_RD$$. From Table 1, x-rays have $$w_R=1$$ and alpha particles have $$w_R=20$$; the neutron factor is supplied in the question.
 
-(b) 80 mSv
+**(a)** $$H=(1)(0.1\text{ Gy})=100\text{ mSv}$$.
 
-(c) ~30 mSv
+**(b)** $$H=(10)(2.5\text{ mGy})=25\text{ mSv}$$.
+
+**(c)** $$H=(20)(1.5\text{ mGy})=30\text{ mSv}$$.
 
 :::
 
@@ -725,31 +727,19 @@ Find the radiation dose in Gy for: (a) A 10-mSv fluoroscopic x-ray series. (b) 5
 
 **Strategy**
 
-To convert from dose equivalent in Sv (or mSv) to absorbed dose in Gy, we use the relationship $$\text{Sv} = \text{Gy} \times \text{RBE}$$ or equivalently $$\text{Gy} = \frac{\text{Sv}}{\text{RBE}}$$. We need to identify the appropriate RBE for each type of radiation from Table 1: x-rays have RBE = 1, alpha particles have RBE = 10-20, and beta/gamma rays have RBE = 1.
+Convert equivalent dose H to absorbed dose D using $$D=H/w_R$$. Table 1 gives $$w_R=1$$ for photons and electrons and $$w_R=20$$ for alpha particles.
 
 **Solution**
 
-(a) For x-rays, RBE = 1:
+**(a)** $$D=(10\text{ mSv})/1=0.010\text{ Gy}$$.
 
-<div class="equation">
-$$ \text{Dose in Gy} = \frac{10 \text{ mSv}}{1} = 10 \text{ mGy} = 0.010 \text{ Gy} $$
-</div>
+**(b)** $$D=(50\text{ mSv})/20=0.0025\text{ Gy}$$.
 
-(b) For $$\alpha$$ particles, using RBE = 20 (the higher value for maximum biological effect):
-
-<div class="equation">
-$$ \text{Dose in Gy} = \frac{50 \text{ mSv}}{20} = 2.5 \text{ mGy} = 0.0025 \text{ Gy} $$
-</div>
-
-(c) For $${\beta}^{-}$$ and $$\gamma$$ rays, RBE = 1:
-
-<div class="equation">
-$$ \text{Dose in Gy} = \frac{160 \text{ mSv}}{1} = 160 \text{ mGy} = 0.16 \text{ Gy} $$
-</div>
+**(c)** $$D=(160\text{ mSv})/1=0.160\text{ Gy}$$.
 
 **Discussion**
 
-These conversions illustrate an important principle in radiation dosimetry: the absorbed dose in Gy can be much smaller than the dose equivalent in Sv for high-RBE radiation. Notice that in part (b), although the alpha exposure gives 50 mSv (five times the x-ray dose), the actual energy deposited is only 2.5 mGy (one-fourth the x-ray energy deposition of 10 mGy). This is because alpha particles, with their short range and high ionization density, cause 20 times more biological damage per unit of absorbed energy. For x-rays, beta particles, and gamma rays (RBE = 1), the numerical values in mSv and mGy are identical, which is why these units are often used interchangeably in practice for these common types of radiation. The $${}^{40}\text{K}$$ in part (c) is a natural source of background radiation that exists in everyone's body, contributing to the unavoidable radiation exposure we all experience.
+Equivalent dose is a radiation-protection quantity. The weighting factor accounts for radiation type; it is distinct from an experimentally measured RBE. Gy and Sv represent different quantities even when their numerical values coincide.
 
 :::
 
@@ -759,14 +749,13 @@ These conversions illustrate an important principle in radiation dosimetry: the 
 
 ::: problem
 
-How many Gy of exposure is needed to give a cancerous tumor a dose of 40 Sv if it is exposed to  $$\alpha  $$
- activity?
+What absorbed dose in Gy corresponds to an equivalent dose of 40 mSv from alpha particles? Use the radiation weighting factor in Table 1.
 
 :::
 
 ::: solution
 
-~2 Gy
+With $$w_R=20$$, $$D=H/w_R=(0.040\text{ Sv})/20=0.0020\text{ Gy}=2.0\text{ mGy}$$.
 
 :::
 
@@ -776,26 +765,15 @@ How many Gy of exposure is needed to give a cancerous tumor a dose of 40 Sv if i
 
 ::: problem
 
-What is the dose in Sv in a cancer treatment that exposes the patient to 200 Gy of  $$\gamma  $$
- rays?
+A localized gamma-ray treatment delivers an absorbed dose of 2.00 Gy per fraction to a tumor. How many fractions deliver 60.0 Gy? Explain why absorbed dose in Gy is used for this calculation.
 
 :::
 
 ::: solution
 
-**Strategy**
+The number of fractions is $$60.0\text{ Gy}/(2.00\text{ Gy/fraction})=30$$, matching the illustrative conventional course in the therapy section's Table 1.
 
-To convert from absorbed dose in Gy to dose equivalent in Sv, we use $$\text{Sv} = \text{Gy} \times \text{RBE}$$. From Table 1, gamma rays have RBE = 1.
-
-**Solution**
-
-<div class="equation">
-$$ \text{Dose in Sv} = (200 \text{ Gy})(1) = 200 \text{ Sv} $$
-</div>
-
-**Discussion**
-
-This is an extremely large dose of 200 Sv, which would be lethal if given to the whole body. However, in cancer radiotherapy, such large doses are acceptable because they are highly localized to the tumor region and delivered in fractionated treatments over several weeks rather than all at once. The treatment schedule allows normal tissue to repair itself between sessions while the more radiation-sensitive cancer cells accumulate lethal damage. Typical radiotherapy protocols deliver 200 rem (2 Sv) per treatment, 3-5 times per week, for a total cumulative dose to the tumor that can reach 50-80+ Sv as shown in Table 1. The fact that gamma rays have RBE = 1 means the numerical values in Gy and Sv are the same, simplifying dosimetry calculations for this common therapeutic radiation. The tolerance of the surrounding normal tissue ultimately limits the maximum dose that can be safely delivered to the tumor.
+Absorbed dose measures energy deposited per unit mass and is used to prescribe radiotherapy. Equivalent and effective doses in Sv are radiation-protection quantities, rather than measures for prescribing tumor treatment. Fraction size, treatment geometry, and the response of nearby normal tissue also matter.
 
 :::
 

@@ -811,7 +811,7 @@ $$ m_l = -2, -1, 0, +1, +2 $$
 
 This gives $$ 2l + 1 = 2(2) + 1 = 5 $$ possible orientations. Therefore, $$ \mathbf{L} $$ can make **5 different angles** with the $$ z $$ -axis.
 
-(b) The smallest angle occurs when $$ m_l $$ has its maximum value, $$ m_l = +2 $$ (or minimum value $$ m_l = -2 $$ , which gives the same angle by symmetry). The magnitude of $$ \mathbf{L} $$ is:
+(b) The smallest angle occurs when $$ m_l $$ has its maximum value, $$ m_l = +2 $$ (the negative value gives the supplementary angle). The magnitude of $$ \mathbf{L} $$ is:
 
 <div class="equation">
 $$ L = \sqrt{l(l+1)} \frac{h}{2\pi} = \sqrt{2(2+1)} \frac{h}{2\pi} = \sqrt{6} \frac{h}{2\pi} $$
@@ -835,7 +835,7 @@ The smallest angle is **35.3°** (or **0.616 radians**).
 
 **Discussion**
 
-This problem illustrates the concept of space quantization—the remarkable fact that the angular momentum vector can only point in certain discrete directions relative to an external reference direction (the $$ z $$ -axis, typically defined by an external magnetic field). For $$ l = 2 $$ (a d-orbital), the five allowed angles correspond to the five d-orbitals in chemistry ( $$ d_{z^2}, d_{xz}, d_{yz}, d_{xy}, d_{x^2-y^2} $$ ). The smallest angle of 35.3° represents the most closely aligned orientation—even at this "closest" alignment, the angular momentum vector cannot point directly along the $$ z $$ -axis. This is fundamentally different from classical physics, where a rotating object could have its angular momentum pointing in any direction. The fact that even the maximum value of $$ m_l = l $$ doesn't allow perfect alignment ( $$ \theta = 0° $$ ) is due to the quantum mechanical relationship $$ L = \sqrt{l(l+1)} \frac{h}{2\pi} $$ rather than $$ l\frac{h}{2\pi} $$ . This " $$ \sqrt{l(l+1)} $$ " factor, rather than just " $$ l $$ ," ensures that $$ L > L_z $$ for all states, preventing perfect alignment and reflecting the uncertainty principle's constraint on simultaneously knowing all components of angular momentum.
+This problem illustrates the concept of space quantization—the remarkable fact that the angular momentum vector can only point in certain discrete directions relative to an external reference direction (the $$ z $$ -axis, typically defined by an external magnetic field). For $$ l = 2 $$ (a d-orbital), the five m_l values label angular-momentum projection states. The usual real d orbitals in chemistry are linear combinations of those states, except d_z², which corresponds to m_l = 0. The smallest angle of 35.3° represents the most closely aligned orientation—even at this "closest" alignment, the angular momentum vector cannot point directly along the $$ z $$ -axis. This is fundamentally different from classical physics, where a rotating object could have its angular momentum pointing in any direction. The fact that even the maximum value of $$ m_l = l $$ doesn't allow perfect alignment ( $$ \theta = 0° $$ ) is due to the quantum mechanical relationship $$ L = \sqrt{l(l+1)} \frac{h}{2\pi} $$ rather than $$ l\frac{h}{2\pi} $$ . This " $$ \sqrt{l(l+1)} $$ " factor, rather than just " $$ l $$ ," ensures that $$ L > L_z $$ for all states, preventing perfect alignment and reflecting the uncertainty principle's constraint on simultaneously knowing all components of angular momentum.
 
 :::
 

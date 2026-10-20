@@ -125,13 +125,17 @@ Radiotherapy is more likely to be used to treat cancer in elderly patients than 
 
 ::: problem
 
-A beam of 168-MeV nitrogen nuclei is used for cancer therapy. If this beam is directed onto a 0.200-kg tumor and gives it a 2.00-Sv dose, how many nitrogen nuclei were stopped? (Use an RBE of 20 for heavy ions.)
+A beam of 168-MeV nitrogen nuclei is used for cancer therapy. If this beam is directed onto a 0.200-kg tumor and gives it an absorbed dose of 2.00 Gy, how many nitrogen nuclei were stopped? Assume each nucleus deposits its full kinetic energy in the tumor.
 
 :::
 
-::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
- $$ 7.44 \times 10^{8}  $$
+The absorbed energy is $$E=Dm=(2.00\text{ J/kg})(0.200\text{ kg})=0.400\text{ J}$$. Each stopped nucleus deposits $$168\text{ MeV}=2.69\times10^{-11}\text{ J}$$, so
+
+$$N=\frac{0.400\text{ J}}{2.69\times10^{-11}\text{ J}}=1.49\times10^{10}\text{ nuclei}.$$
+
+RBE would be relevant to comparing biological effects with a reference beam, but is not needed to calculate absorbed energy.
 
 :::
 
@@ -141,7 +145,7 @@ A beam of 168-MeV nitrogen nuclei is used for cancer therapy. If this beam is di
 
 ::: problem
 
-(a) If the average molecular mass of compounds in food is 50.0 g, how many molecules are there in 1.00 kg of food? (b) How many ion pairs are created in 1.00 kg of food, if it is exposed to 1000 Sv and it takes 32.0 eV to create an ion pair? (c) Find the ratio of ion pairs to molecules. (d) If these ion pairs recombine into a distribution of 2000 new compounds, how many parts per billion is each?
+(a) If the average molar mass of compounds in food is 50.0 g/mol, how many molecules are there in 1.00 kg of food? (b) How many ion pairs are created in 1.00 kg of food, if it is given an absorbed dose of 1000 Gy and it takes 32.0 eV to create an ion pair? (c) Find the ratio of ion pairs to molecules. (d) If these ion pairs recombine into a distribution of 2000 new compounds, how many parts per billion is each?
 
 :::
 
@@ -165,10 +169,10 @@ $$ N_{\text{molecules}} = (20.0 \text{ mol})(6.022 \times 10^{23} \text{ molecul
 
 (b) Number of ion pairs created:
 
-First, find energy deposited. Since $$1 \text{ Sv} = 1 \text{ J/kg}$$:
+First, find energy deposited. Since $$1 \text{ Gy} = 1 \text{ J/kg}$$:
 
 <div class="equation">
-$$ E = (1000 \text{ Sv})(1.00 \text{ kg}) = 1000 \text{ J} $$
+$$ E = (1000 \text{ Gy})(1.00 \text{ kg}) = 1000 \text{ J} $$
 </div>
 
 Convert to eV:
@@ -205,8 +209,7 @@ $$ \text{Parts per billion} = \frac{9.75 \times 10^{16}}{1.20 \times 10^{25}} \t
 
 **Discussion**
 
-This problem illustrates the chemical effects of food irradiation. Even at the massive dose of 1000 Sv (which would be instantly lethal to a human), only about 1 in 61,500 molecules is ionized. This relatively small fraction nevertheless creates $$1.95 \times 10^{20}$$ ion pairs, which can recombine to form new chemical compounds. If these reorganize into 2000 different new compounds (a reasonable estimate), each compound would be present at about 8 parts per billion. These trace amounts are generally considered safe and are similar to or less than concentrations of compounds formed during conventional food processing like cooking, canning, or freezing. The key safety consideration is whether any of these new compounds are harmful at such low concentrations. Extensive testing has shown that irradiated food is safe because: (1) the concentrations of radiolytic products are very low, (2) most such products are also formed during cooking, and (3) the compounds formed are generally simple and well-characterized. Food irradiation at much lower doses (typically 0.1-10 kGy or 0.1-10 Sv for RBE=1) is used to kill pathogens, extend shelf life, and control insects, making it a valuable food safety tool that has been approved by the FDA and WHO.
-
+The 1000-Gy dose is 1 kGy, within the food-treatment range of about 0.1–10 kGy (100–10,000 Gy). The small ion-pair fraction follows from the large number of molecules. The 8-ppb result assumes equal distribution among 2000 products; concentrations alone do not establish their biological effects. Food irradiation doses are expressed as absorbed dose in Gy.
 :::
 
 </div>
@@ -236,67 +239,26 @@ Calculate the dose in Sv to the chest of a patient given an x-ray under the foll
 (a) A cancer patient is exposed to  $$\gamma  $$
  rays from a 5000-Ci  $${}^{60}\text{Co} $$
  transillumination unit for 32.0 s. The  $$\gamma  $$
- rays are collimated in such a manner that only 1.00% of them strike the patient. Of those, 20.0% are absorbed in a tumor having a mass of 1.50 kg. What is the dose in rem to the tumor, if the average  $$\gamma  $$
- energy per decay is 1.25 MeV? None of the  $$\beta  $$
+ rays are collimated in such a manner that only 1.00% of them strike the patient. Of those, 20.0% are absorbed in a tumor having a mass of 1.50 kg. What is the absorbed dose in Gy to the tumor, if the total gamma-ray energy per decay is taken to be 1.25 MeV for this simplified calculation? None of the  $$\beta  $$
  s from the decay reach the patient. (b) Is the dose consistent with stated therapeutic doses?
 
 :::
 
 ::: solution
 
-**Strategy**
-
-(a) Calculate the number of decays in 32.0 s using the activity in Bq. Then find how many gamma rays are absorbed (1.00% strike × 20.0% absorbed = 0.200% total absorbed). Multiply by energy per gamma to get total energy absorbed, convert to joules, divide by tumor mass to get dose in Gy, then note that for gamma rays RBE = 1, so dose in rem equals dose in rad. (b) Compare with Table 1 therapeutic doses.
-
 **Solution**
 
-(a) Convert activity to Bq:
+**(a)** The activity is $$R=(5000\text{ Ci})(3.70\times10^{10}\text{ s}^{-1}/\text{Ci})=1.85\times10^{14}\text{ s}^{-1}$$. With the stipulated energy per decay,
 
-<div class="equation">
-$$ R = 5000 \text{ Ci} \times \frac{3.70 \times 10^{10} \text{ Bq}}{1 \text{ Ci}} = 1.85 \times 10^{14} \text{ Bq} $$
-</div>
+$$E_{\text{absorbed}}=Rt(0.0100)(0.200)(1.25\text{ MeV})(1.602\times10^{-13}\text{ J/MeV})=2.37\text{ J}.$$
 
-Number of decays in 32.0 s:
+The absorbed dose is $$D=E/m=2.37\text{ J}/1.50\text{ kg}=1.58\text{ Gy}$$.
 
-<div class="equation">
-$$ N_{\text{decays}} = (1.85 \times 10^{14} \text{ s}^{-1})(32.0 \text{ s}) = 5.92 \times 10^{15} \text{ decays} $$
-</div>
-
-Fraction absorbed in tumor:
-
-<div class="equation">
-$$ f = (0.0100)(0.200) = 0.00200 $$
-</div>
-
-Energy absorbed:
-
-<div class="equation">
-$$ E = (5.92 \times 10^{15})(0.00200)(1.25 \text{ MeV}) = 1.48 \times 10^{13} \text{ MeV} $$
-</div>
-
-Convert to joules:
-
-<div class="equation">
-$$ E = (1.48 \times 10^{13} \text{ MeV})(1.602 \times 10^{-13} \text{ J/MeV}) = 2.37 \text{ J} $$
-</div>
-
-Dose in Gy:
-
-<div class="equation">
-$$ \text{Dose in Gy} = \frac{2.37 \text{ J}}{1.50 \text{ kg}} = 1.58 \text{ Gy} = 158 \text{ rad} $$
-</div>
-
-Since RBE = 1 for gamma rays:
-
-<div class="equation">
-$$ \text{Dose in rem} = (158 \text{ rad})(1) = 158 \text{ rem} = 1.58 \text{ Sv} $$
-</div>
-
-(b) From Table 1, therapeutic doses range from 10-20 Sv for lung cancer up to 80+ Sv for brain, neck, bone, soft tissue, and thyroid cancers. A typical treatment protocol delivers about 2 Sv (200 rem) per session. Our calculated dose of 1.58 Sv (158 rem) is **consistent with a single therapeutic treatment**, slightly below the typical 200 rem per fraction. Multiple treatments would bring the total cumulative dose into the therapeutic range shown in Table 1.
+**(b)** This is of the same order as a conventional 2-Gy fraction in Table 1, rather than a complete 60-Gy course. Clinical suitability cannot be judged from tumor dose alone; fractionation and normal-tissue doses also matter.
 
 **Discussion**
 
-This problem demonstrates a realistic cancer radiotherapy scenario. The 5000-Ci (185 TBq) $${}^{60}\text{Co}$$ source produces an enormous number of decays—nearly 6 quadrillion in just 32 seconds! However, careful collimation ensures that only 1% of the radiation strikes the patient, and only 20% of that is absorbed in the tumor, so that only 0.2% of the emitted radiation energy is actually deposited in the tumor. This geometric focusing, achieved by rotating the source around the patient as shown in Figure 2, is critical for delivering high doses to the tumor while minimizing exposure to healthy tissue. The dose of 158 rem to the tumor in a single 32-second exposure is substantial but safe when localized. This would typically be one of multiple fractionated treatments delivered over several weeks, with the tumor receiving total cumulative doses of 50-80 Sv or more depending on cancer type and location. The fact that no beta particles reach the patient is important because $${}^{60}\text{Co}$$ emits both beta particles and gamma rays; the betas are easily stopped by the source housing and collimator, while the 1.17 and 1.33\text{ MeV} gamma rays penetrate to reach the tumor. Modern linear accelerators have largely replaced $${}^{60}\text{Co}$$ units in developed countries, but cobalt-60 therapy remains important in developing nations due to its simplicity, reliability, and lower cost.
+The calculation uses the question's simplified total of 1.25 MeV per decay. Actual cobalt-60 emits two principal gamma rays per decay, about 1.17 and 1.33 MeV, totaling about 2.50 MeV. Using that total with the same geometry and absorption assumptions would double the calculated dose.
 
 :::
 
@@ -336,7 +298,7 @@ Large amounts of  $${}^{65}\text{Zn} $$
 
 **Strategy**
 
-Calculate the number of decays in one day from the activity, multiply by the energy per decay and the absorption fraction to get total energy deposited, convert to joules, and divide by body mass to get dose in Gy. Since gamma rays have RBE = 1, the dose in Sv equals the dose in Gy, then convert to mSv.
+Calculate the number of decays in one day from the activity, multiply by the energy per decay and the absorption fraction to get total energy deposited, convert to joules, and divide by body mass to get dose in Gy. Since gamma rays have radiation weighting factor w_R = 1, the dose in Sv equals the dose in Gy, then convert to mSv.
 
 **Solution**
 
@@ -370,7 +332,7 @@ Dose in Gy:
 $$ \text{Dose in Gy} = \frac{5.64 \times 10^{-3} \text{ J}}{75.0 \text{ kg}} = 7.52 \times 10^{-5} \text{ Gy} $$
 </div>
 
-Since RBE = 1 for gamma rays:
+Since w_R = 1 for gamma rays:
 
 <div class="equation">
 $$ \text{Dose in Sv} = 7.52 \times 10^{-5} \text{ Sv} = 0.0752 \text{ mSv} $$
@@ -420,63 +382,21 @@ Naturally occurring  $${}^{40}\text{K} $$
 
 **Strategy**
 
-(a) Work backwards from dose to find mass. For alpha particles, RBE = 20, so $$\text{dose in Sv} = \text{dose in Gy} \times 20$$. Convert dose to energy deposited per year, assuming 100% absorption since alphas have short range. Find number of decays per year, then use $$R = \frac{0.693\text{ N}}{t_{1/2}}$$ to find N, and convert to mass. The half-life of $${}^{226}\text{Ra}$$ is 1600 years. (b) Consider the high RBE and energy of alpha particles.
+Use the alpha-particle radiation weighting factor $$w_R=20$$ to convert the stated equivalent dose to absorbed energy. Then infer activity and mass.
 
 **Solution**
 
-(a) Convert dose in Sv to dose in Gy:
+**(a)** The annual absorbed dose is $$D=H/w_R=(2.50\text{ mSv})/20=1.25\times10^{-4}\text{ Gy}$$. In 80.0 kg this is 0.0100 J per year. Each decay deposits $$4.80\text{ MeV}=7.69\times10^{-13}\text{ J}$$, giving $$1.30\times10^{10}$$ decays per year, or 412 Bq.
 
-<div class="equation">
-$$ \text{Dose in Gy} = \frac{\text{Dose in Sv}}{\text{RBE}} = \frac{2.50 \text{ mSv}}{20} = 0.125 \text{ mGy} = 1.25 \times 10^{-4} \text{ Gy} $$
-</div>
+With $$t_{1/2}=1600\text{ y}$$,
 
-Energy deposited per year:
+$$N=\frac{Rt_{1/2}}{\ln2}=3.00\times10^{13},\qquad m=\frac{N}{N_A}(226\text{ g/mol})=1.13\times10^{-8}\text{ g}=11.3\text{ ng}.$$
 
-<div class="equation">
-$$ E = (1.25 \times 10^{-4} \text{ J/kg})(80.0 \text{ kg}) = 0.0100 \text{ J} $$
-</div>
-
-Convert to MeV:
-
-<div class="equation">
-$$ E = \frac{0.0100 \text{ J}}{1.602 \times 10^{-13} \text{ J/MeV}} = 6.24 \times 10^{10} \text{ MeV} $$
-</div>
-
-Number of decays per year (assuming 100% absorption):
-
-<div class="equation">
-$$ N_{\text{decays}} = \frac{6.24 \times 10^{10} \text{ MeV}}{4.80 \text{ MeV/decay}} = 1.30 \times 10^{10} \text{ decays/y} $$
-</div>
-
-Convert to activity in Bq:
-
-<div class="equation">
-$$ R = \frac{1.30 \times 10^{10} \text{ decays/y}}{3.156 \times 10^{7} \text{ s/y}} = 412 \text{ Bq} $$
-</div>
-
-Convert half-life to seconds:
-
-<div class="equation">
-$$ t_{1/2} = 1600 \text{ y} \times 3.156 \times 10^{7} \text{ s/y} = 5.05 \times 10^{10} \text{ s} $$
-</div>
-
-Find number of nuclei using $$R = \frac{0.693N}{t_{1/2}}$$:
-
-<div class="equation">
-$$ N = \frac{R \times t_{1/2}}{0.693} = \frac{(412)(5.05 \times 10^{10})}{0.693} = 3.00 \times 10^{13} \text{ nuclei} $$
-</div>
-
-Convert to mass:
-
-<div class="equation">
-$$ m = \frac{N}{N_A} \times M = \frac{3.00 \times 10^{13}}{6.022 \times 10^{23}} \times 226 \text{ g/mol} = 1.13 \times 10^{-8} \text{ g} = 11.3 \text{ ng} $$
-</div>
-
-(b) Yes, it is remarkable that only 11.3 nanograms of $${}^{226}\text{Ra}$$ can cause a measurable 2.50 mSv/y dose. This is not surprising when we consider: (1) Alpha particles have very high RBE = 20, causing 20 times more biological damage per unit energy than gamma rays; (2) The 4.80 MeV energy per decay is substantial; (3) Alpha particles deposit all their energy within the body due to their short range; (4) The long half-life of 1600 years means the activity persists essentially unchanged over a human lifetime.
+**(b)** A small mass still contains many radioactive atoms, each depositing MeV-scale energy. The large radiation weighting factor also contributes to the equivalent dose.
 
 **Discussion**
 
-This problem illustrates why alpha emitters are particularly hazardous when ingested or inhaled. A mass of only 11.3 nanograms—invisible to the naked eye and containing only 30 trillion atoms—produces 412 decays per second continuously over years. Because alpha particles have a range of only about 40 micrometers in tissue, they deposit all 4.80 MeV of energy locally, and their high ionization density (RBE = 20) makes them 20 times more damaging than gamma rays for the same energy deposition. The actual average background dose from $${}^{226}\text{Ra}$$ is only 0.01 mSv/y, which would correspond to a body burden of only 0.045 ng—an incredibly tiny amount. The elevated dose of 2.50 mSv/y in this problem could occur in regions with high natural radium in soil and groundwater, such as certain areas with granite geology. Radium is chemically similar to calcium and concentrates in bones when ingested, where its alpha emissions can damage bone marrow and potentially cause bone cancer or leukemia. This is what tragically occurred to the "Radium Girls" who painted watch dials with radium-containing luminous paint in the 1920s and ingested radium by licking their brushes. Their cases led to improved occupational safety standards and our modern understanding of internal alpha emitter hazards.
+This uses the stipulated uniform distribution and complete absorption, while neglecting daughter nuclides. Real radium distributions and dose assessments require more detailed models. The radiation weighting factor used here is a protection convention, not a universal RBE for every biological effect.
 
 :::
 
@@ -490,15 +410,22 @@ The annual radiation dose from  $${}^{14}\text{C} $$
  in our bodies is 0.01 mSv/y. Each  $${}^{14}\text{C} $$
  decay emits a  $${\beta }^{-} $$
  averaging 0.0750 MeV. Taking the fraction of  $${}^{14}\text{C} $$
- to be  $$1.3 \times 10^{-12}  \text{N} $$
- of normal  $${}^{12}\text{C} $$ ,
+ to be $$N({}^{14}\text{C})/N({}^{12}\text{C})=1.3\times10^{-12}$$ ,
  and assuming the body is 13% carbon, estimate the fraction of the decay energy absorbed. (The rest escapes, exposing those close to you.)
 
 :::
 
-::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
-95%
+For 1.00 kg of body mass, the carbon mass is 130 g. Hence
+
+$$N_{14}=\frac{130\text{ g}}{12\text{ g/mol}}N_A(1.3\times10^{-12})=8.5\times10^{12}.$$
+
+Using $$t_{1/2}=5730\text{ y}$$ gives an activity of 32.5 Bq/kg. The emitted energy per kilogram per year is
+
+$$E_{\text{emitted}}=(32.5\text{ s}^{-1})(3.156\times10^7\text{ s})(0.0750\text{ MeV})(1.602\times10^{-13}\text{ J/MeV})=1.23\times10^{-5}\text{ J}.$$
+
+For beta particles, $$w_R=1$$, so the stated equivalent dose corresponds to $$D=1.0\times10^{-5}\text{ Gy/y}$$. The absorbed fraction is therefore $$f=(1.0\times10^{-5})/(1.23\times10^{-5})\approx0.81$$, or **81%**.
 
 :::
 
@@ -508,48 +435,20 @@ The annual radiation dose from  $${}^{14}\text{C} $$
 
 ::: problem
 
-If everyone in Australia received an extra 0.05 mSv per year of radiation, what would be the increase in the number of cancer deaths per year? (Assume that time had elapsed for the effects to become apparent.) Assume that there are  $$200 \times 10^{-4}  $$
- deaths per Sv of radiation per year. What percent of the actual number of cancer deaths recorded is this?
-
+For an illustrative population model, take Australia's population to be 26.0 million and a baseline cancer mortality of 110 deaths per 100,000 people per year. Suppose everyone receives an extra 0.05 mSv each year. After allowing for latency, estimate the annual increase in cancer deaths using the stipulated model coefficient of 0.0200 deaths per person-Sv of annual exposure. What percentage of the baseline mortality is this? Treat these population and risk inputs as assumptions for the exercise.
 :::
 
 ::: solution
 
-**Strategy**
+The annual collective dose is
 
-Multiply Australia's population by the dose to get total person-Sv, then multiply by the death rate per Sv. Compare this to the natural cancer death rate. Australia's population is approximately 26 million (as of 2025). The natural cancer death rate is about 20% of all deaths over a lifetime, which translates to roughly 200,000 cancer deaths per million people over 70 years, or about 2850 cancer deaths per million people per year.
+$$(26.0\times10^6)(0.05\times10^{-3}\text{ Sv})=1300\text{ person-Sv}.$$
 
-**Solution**
+The stipulated model gives $$1300(0.0200)=26$$ additional deaths per year after latency. The assumed baseline is $$(26.0\times10^6)(110/100000)=28600$$ deaths per year, so the relative increase is
 
-Total collective dose for Australia:
+$$\frac{26}{28600}\times100\%=0.091\%.$$
 
-<div class="equation">
-$$ \text{Collective dose} = (26 \times 10^{6} \text{ people})(0.05 \text{ mSv}) = 1.3 \times 10^{6} \text{ mSv} = 1300 \text{ person-Sv} $$
-</div>
-
-Increase in cancer deaths per year using the given rate of $$200 \times 10^{-4} = 0.0200$$ deaths per Sv per year:
-
-<div class="equation">
-$$ \Delta \text{deaths} = (1300 \text{ person-Sv})(0.0200 \text{ deaths/Sv·y}) = 26 \text{ deaths/y} $$
-</div>
-
-Expected cancer deaths per year in Australia without additional radiation:
-
-Australia has about 26 million people. With a crude cancer death rate of approximately 110 deaths per 100,000 people per year:
-
-<div class="equation">
-$$ \text{Natural cancer deaths} = (26 \times 10^{6})\left(\frac{110}{100,000}\right) \approx 28,600 \text{ deaths/y} $$
-</div>
-
-Percentage increase:
-
-<div class="equation">
-$$ \text{Percent increase} = \frac{26}{28,600} \times 100\% = 0.091\% \approx 0.09\% $$
-</div>
-
-**Discussion**
-
-An additional 26 cancer deaths per year from an extra 0.05 mSv annual dose across Australia's entire population would represent only about 0.09% of the natural cancer death rate. This increase would be completely undetectable statistically, lost in the natural variations in cancer rates that occur from year to year and region to region. This calculation demonstrates several important points about low-dose radiation risk: (1) Even a population-wide exposure produces effects that are statistically invisible against the natural cancer rate; (2) The linear hypothesis predicts that collective doses matter—26 million people each receiving a tiny dose has the same predicted effect as 26 people each receiving a large dose; (3) Individual risk remains very small—each person's additional risk is only $$0.05 \text{ mSv} \times 0.0200 \text{ deaths/Sv} = 10^{-6}$$ or one in a million. This level of dose and risk is comparable to natural variations in background radiation between locations (for example, moving from sea level to a mile-high city increases annual dose by about 0.5 mSv). The inability to detect such small increases in cancer rates is one reason why the health effects of low-dose radiation remain controversial—we must rely on extrapolation from high-dose data using the linear hypothesis, which may overestimate risks at very low doses. Nevertheless, radiation protection standards use this conservative approach to minimize all unnecessary exposures following the ALARA principle (As Low As Reasonably Achievable).
+This is a model estimate using the supplied coefficients and comparison rate. Such a small predicted increment does not constitute an observable count attributable to the exposure.
 
 :::
 

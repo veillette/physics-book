@@ -538,7 +538,7 @@ From a physics perspective, this demonstrates that optical power arises from ref
 
 **Unless otherwise stated, the lens-to-retina distance is 2.00 cm.**
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -586,7 +586,7 @@ The power of the eye when viewing an object 50.0 cm away is 52.0 D. This represe
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -634,7 +634,7 @@ The power of the eye when viewing an object 3.00 m away is 50.3 D, which is only
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -701,7 +701,7 @@ The fovea contains approximately 200,000 cones packed into a ~1.5 mm diameter ar
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -765,7 +765,7 @@ This calculation assumes ideal viewing conditions (clear air, good contrast, pro
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 

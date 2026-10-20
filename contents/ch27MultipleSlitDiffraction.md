@@ -316,7 +316,7 @@ $$\theta = \arcsin(0.104) = 5.97°$$
 
 **Discussion**
 
-The small angle (5.97°) for the first-order maximum indicates that the grating constant (5.00 μm) is about 10 times the wavelength (520 nm). Diffraction gratings with 2000 lines/cm are relatively coarse gratings. Finer gratings (e.g., 10,000 lines/cm) would produce larger diffraction angles and better spectral separation. The green wavelength (520 nm) falls in the middle of the visible spectrum. Higher orders (m = 2, 3, ...) would appear at larger angles: the second order at about 11.96° and the third at about 18.05°.
+The small angle (5.97°) for the first-order maximum indicates that the grating constant (5.00 μm) is about 10 times the wavelength (520 nm). Diffraction gratings with 2000 lines/cm are relatively coarse gratings. Finer gratings (e.g., 10,000 lines/cm) would produce larger diffraction angles and better spectral separation. The green wavelength (520 nm) falls in the middle of the visible spectrum. Higher orders (m = 2, 3, ...) would appear at larger angles: the second order at about 12.0° and the third at about 18.2°.
 
 :::
 
@@ -414,7 +414,7 @@ $$N = \frac{1 \text{ cm}}{d} = \frac{0.01 \text{ m}}{1.112 \times 10^{-6} \text{
 
 **Discussion**
 
-A grating with approximately 9000 lines/cm is a moderately fine diffraction grating. This spacing of about 1.11 μm (about 2.4 wavelengths of blue light) produces the first-order maximum at 25.0°, which is a convenient angle for observation. This is close to commercial gratings often available with 5000-10,000 lines/cm. Higher orders would appear at larger angles: the second order at about 57.1° and the third order at about 80.8°, with a maximum possible order of m_max = d/λ ≈ 2.4, meaning only orders 0, 1, and 2 would be fully observable.
+A grating with approximately 9000 lines/cm is a moderately fine diffraction grating. This spacing of about 1.11 μm (about 2.4 wavelengths of blue light) produces the first-order maximum at 25.0°, which is a convenient angle for observation. This is close to commercial gratings often available with 5000-10,000 lines/cm. Higher orders would appear at larger angles: the second order at about 57.7°. A third order would require sin θ = 3 sin 25.0° = 1.27 and cannot exist. Since d/λ ≈ 2.4, the largest integer order is 2; the pattern contains m = 0, ±1, and ±2.
 
 :::
 
@@ -457,7 +457,7 @@ The line spacing of 1.76 μm is very small - just over twice the wavelength of r
 
 We can verify this makes sense: if the second-order maximum is at 60°, the first-order would be at θ₁ where sin θ₁ = (1)(760)/(1.76 × 10³) = 0.432, giving θ₁ = 25.6°. This seems reasonable.
 
-For this grating, the maximum order observable would be: m_max = d/λ = 1.76/0.76 ≈ 2.3, so only second-order maxima (and possibly a dim third-order) would be observable before reaching 90°.
+For this grating, the maximum order observable would be: m_max = d/λ = 1.76/0.76 ≈ 2.3, so the allowed orders are m = 0, ±1, and ±2. A third-order maximum would require sin θ = 1.30 and cannot exist.
 
 :::
 
@@ -784,7 +784,7 @@ $$\lambda_{2} = (1.00 \times 10^{-6})(0.58963) = 5.896 \times 10^{-7} \text{ m} 
 
 **Discussion**
 
-These two wavelengths, 589.1 nm and 589.6 nm, form the famous **sodium D-line doublet**. The two lines are separated by only 0.5 nm (or about 6 nm), which is why sodium light appears to be pure yellow to the eye - the two wavelengths are too close for the eye to distinguish.
+These computed wavelengths, 589.1 nm and 589.6 nm, approximate the **sodium D-line doublet**; the measured shorter-wavelength line is about 589.0 nm. The two lines are separated by only 0.5 nm for the rounded wavelengths calculated here, which is why sodium light appears to be pure yellow to the eye - the two wavelengths are too close for the eye to distinguish.
 
 The doublet arises from the fine structure of sodium's electron energy levels: transitions from two closely spaced upper states (²P₃/₂ and ²P₁/₂) to the same ground state (²S₁/₂) produce the D₂ line (589.0 nm) and D₁ line (589.6 nm).
 
@@ -1308,7 +1308,7 @@ $$\theta = \tan^{-1}(0.400) = 21.8°$$
 </div>
 
 <div class="equation">
-$$\sin \theta = \sin 21.8° = 0.371$$
+$$\sin \theta = \sin 21.8° = 0.3714$$
 </div>
 
 **Step 2: Find the groove spacing**
@@ -1316,16 +1316,16 @@ $$\sin \theta = \sin 21.8° = 0.371$$
 Using $$d \sin \theta = m\lambda$$:
 
 <div class="equation">
-$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(633 \times 10^{-9} \text{ m})}{0.371}$$
+$$d = \frac{m\lambda}{\sin \theta} = \frac{(1)(633 \times 10^{-9} \text{ m})}{0.3714}$$
 </div>
 
 <div class="equation">
-$$d = 1.71 \times 10^{-6} \text{ m} = 1.71 \text{ μm}$$
+$$d = 1.70 \times 10^{-6} \text{ m} = 1.70 \text{ μm}$$
 </div>
 
 **Discussion**
 
-The groove spacing of 1.71 μm is typical for CDs. The actual standard spacing for CDs is 1.6 μm (corresponding to about 625 grooves per mm). Our calculated value of 1.71 μm is quite close, with the small difference possibly due to:
+The groove spacing of 1.70 μm is typical for CDs. The actual standard spacing for CDs is 1.6 μm (corresponding to about 625 grooves per mm). Our calculated value of 1.70 μm is quite close, with the small difference possibly due to:
 - Measurement uncertainties in the fringe position
 - The angle of incidence affecting the effective spacing
 - Rounding in the given measurements
@@ -1390,7 +1390,7 @@ The fringe spacing of 1.13 cm is quite large and easily observable. This is beca
 - Larger wavelength (λ) increases fringe spacing
 - Smaller slit separation (d) increases fringe spacing
 
-With adjacent fringes separated by over 1 cm at a distance of 1.5 m, this pattern would be very easy to observe and measure. Finer gratings (more lines/cm) would produce smaller fringe spacings. For example, a 1000 lines/cm grating would have fringes separated by only 1.4 mm at the same distance.
+With adjacent fringes separated by over 1 cm at a distance of 1.5 m, this pattern would be very easy to observe and measure. Finer gratings (more lines/cm) produce wider fringe spacings. For example, 1000 lines/cm gives d = 10 μm and Δy ≈ 9.0 cm at the same distance.
 
 :::
 
@@ -1474,77 +1474,13 @@ unreasonable or inconsistent?
 
 ::: solution
 
-**Strategy**
+**(a)** The spacing is $$d=0.0100\text{ m}/25000=400\text{ nm}$$, so
 
-Use $$d \sin \theta = m\lambda$$ to find the wavelength. First, calculate the grating spacing d from the line density, then solve for λ with m = 4. Examine whether the result makes sense.
+$$\lambda=\frac{d\sin25.0°}{4}=42.3\text{ nm}.$$
 
-**Solution**
+**(b)** This wavelength is extreme ultraviolet, outside the book's 380–760-nm visible interval.
 
-**(a) Calculate the wavelength:**
-
-Given:
-- Line density: 25,000 lines/cm
-- $$\theta = 25.0°$$
-- $$m = 4$$ (fourth-order maximum)
-
-**Step 1: Find the grating spacing**
-
-<div class="equation">
-$$d = \frac{1 \text{ cm}}{25,000 \text{ lines}} = \frac{0.01 \text{ m}}{25,000} = 4.00 \times 10^{-7} \text{ m} = 400 \text{ nm}$$
-</div>
-
-**Step 2: Find the wavelength**
-
-Using $$d \sin \theta = m\lambda$$:
-
-<div class="equation">
-$$\lambda = \frac{d \sin \theta}{m} = \frac{(4.00 \times 10^{-7} \text{ m}) \sin 25.0°}{4}$$
-</div>
-
-<div class="equation">
-$$\lambda = \frac{(4.00 \times 10^{-7})(0.4226)}{4} = \frac{1.690 \times 10^{-7}}{4}$$
-</div>
-
-<div class="equation">
-$$\lambda = 4.23 \times 10^{-8} \text{ m} = 42.3 \text{ nm}$$
-</div>
-
-**(b) What is unreasonable about this result?**
-
-The calculated wavelength of **42.3 nm is NOT visible light**. The visible spectrum ranges from approximately 380 nm (violet) to 760 nm (red). A wavelength of 42.3 nm falls in the **extreme ultraviolet (EUV) range**, which is far beyond what the human eye can detect. The problem asks for a "visible wavelength," but the result is not visible at all.
-
-**(c) Which assumptions are unreasonable or inconsistent?**
-
-There are two unreasonable aspects to this problem:
-
-**1. The grating is too fine for visible light diffraction:**
-
-The grating spacing is only 400 nm, which is barely larger than the shortest visible wavelength (380 nm). For a fourth-order maximum to exist for visible light, we would need:
-
-<div class="equation">
-$$\sin \theta = \frac{4\lambda}{d} \leq 1$$
-</div>
-
-For the shortest visible wavelength (380 nm):
-
-<div class="equation">
-$$\sin \theta = \frac{4 \times 380}{400} = 3.8 > 1 \quad \text{(impossible!)}$$
-</div>
-
-**No visible wavelength can produce even a first-order maximum** with a 400 nm grating spacing at any reasonable angle, let alone a fourth-order maximum at 25°.
-
-**2. Practical manufacturing limitations:**
-
-A grating with 25,000 lines/cm (d = 400 nm) is at the very edge of what can be manufactured using advanced nanofabrication techniques. While modern electron-beam lithography can achieve features around 50 nm, creating uniform, large-area diffraction gratings with such fine spacing is extremely challenging and expensive. Such gratings would be more suitable for X-ray or EUV spectroscopy, not visible light.
-
-**The inconsistent assumptions are:**
-- Expecting visible light to produce a fourth-order maximum with such fine grating spacing
-- Assuming 25,000 lines/cm is reasonable for a visible-light spectrometer (it's far too fine)
-- For visible light spectroscopy, gratings typically have 300-10,000 lines/cm
-
-**Discussion**
-
-This problem highlights the importance of matching grating spacing to wavelength. The grating spacing should be several times larger than the wavelength of interest to produce observable higher-order maxima. A grating with d = 400 nm is appropriate for ultraviolet or extreme ultraviolet radiation (wavelengths < 100 nm), not for visible light. For visible light and fourth-order maxima, a grating with d ≥ 4 × 760 nm = 3040 nm (corresponding to ~3300 lines/cm or fewer) would be more appropriate.
+**(c)** A fourth-order maximum requires $$4\lambda/d\le1$$, or $$\lambda\le100\text{ nm}$$ for this grating. Thus the fourth-order and visible-light assumptions are incompatible. First-order visible maxima can occur for wavelengths from 380 nm up to 400 nm at large angles (400 nm reaches the grazing limit). The grating spacing itself is not an impossible manufacturing requirement.
 
 :::
 

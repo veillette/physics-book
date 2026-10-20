@@ -55,7 +55,7 @@ hydrogen atom. Thus the binding energy of a nuclide $${}^{A}\text{X} $$ is
  $$\text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left({}^{A}X\right)\right\}{c}^{2}. $$
 </div>
 
-The atomic masses can be found in [Appendix A](../contents/appendixA), most conveniently
+The atomic masses can be found in [Appendix A, Atomic Masses](../contents/appendixA#Atomic-Masses), most conveniently
 expressed in unified atomic mass units u ( $$1 \text{u}= 931.5 \text{MeV}/{c}^{2} $$ ). BE is thus calculated from known atomic masses.
 
 ![The image shows some spherical protons and neutrons pulled out from a nucleus. The work done to pull them apart is binding energy.](../resources/Figure_31_06_01.jpg 'Work done to pull a nucleus apart into its constituent protons and neutrons increases the mass of the system. The work to disassemble the nucleus equals its binding energy BE. A bound system has less mass than the sum of its parts, especially noticeable in the nuclei, where forces and energies are very large.')
@@ -189,7 +189,7 @@ To find $$\text{BE}/A $$ , we first find BE using the Equation
 
 $$ \text{BE}=\left\{\left[Z m\left({}^{1}\text{H}\right)+N m_{n}\right]  -m\left( {}^{A}\text{X}\right)\right\}{c}^{2} $$ and then divide by $$A $$ . This is
 straightforward once we have looked up the appropriate atomic masses
-in [Appendix A](../contents/appendixA).
+in [Appendix A, Atomic Masses](../contents/appendixA#Atomic-Masses).
 
 **Solution**
 
@@ -206,7 +206,7 @@ For  $${}^{4}\text{He} $$ ,
  $$\text{BE}=\left\{\left[ 2m\left({}^{1}\text{H}\right)+{2m}_{n}\right]  -m\left({}^{4}\text{He}\right)\right\}{c}^{2}\text{.} $$
 </div>
 
-[Appendix A](../contents/appendixA) gives these masses as  $$m\left({}^{4}\text{He}\right)=4.002602 \text{u} $$ ,
+[Appendix A, Atomic Masses](../contents/appendixA#Atomic-Masses) gives these masses as  $$m\left({}^{4}\text{He}\right)=4.002602 \text{u} $$ ,
   $$m\left({}^{1}\text{H}\right)=1.007825 \text{u} $$ ,
  and  $${m}_{n}=1.008665 \text{u} $$ .
  Thus,
@@ -445,9 +445,9 @@ The fact that  $$\text{BE}/A $$  is greatest for  $$A $$
 
 The purpose of this problem is to show in three ways that the binding energy of the electron in a hydrogen atom is
 negligible compared with the masses of the proton and electron. (a) Calculate the mass equivalent in u of the 13.6-eV
-binding energy of an electron in a hydrogen atom, and compare this with the mass of the hydrogen atom obtained from [Appendix A](../contents/appendixA). (b) Subtract the mass of the proton given
+binding energy of an electron in a hydrogen atom, and compare this with the mass of the hydrogen atom obtained from [Appendix A, Atomic Masses](../contents/appendixA#Atomic-Masses). (b) Subtract the mass of the proton given
 in [[Table 1]](../contents/ch31SubstructureOfTheNucleus#Table1) from
-the mass of the hydrogen atom given in [Appendix A](../contents/appendixA).
+the mass of the hydrogen atom given in [Appendix A, Atomic Masses](../contents/appendixA#Atomic-Masses).
 You will find the difference is equal to the electron’s mass to
 three digits, implying the binding energy is small in comparison.
 (c) Take the ratio of the binding energy of the electron (13.6 eV)

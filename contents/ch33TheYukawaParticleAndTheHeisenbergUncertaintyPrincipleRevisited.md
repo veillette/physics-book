@@ -151,37 +151,21 @@ Calculate the mass in  $$\text{GeV/}{c}^{2} $$
 
 **Strategy**
 
-The approach is similar to the worked example in this section. We'll use the Heisenberg uncertainty principle to find the energy uncertainty $$\Delta E$$ based on the time uncertainty $$\Delta t$$ during which the virtual particle can exist. The range of the particle is related to the distance it can travel at approximately the speed of light during this time: $$d \approx c\Delta t$$. Once we find $$\Delta E$$, we can determine the mass using $$\Delta E = mc^{2}$$.
+Use the section's energy–time uncertainty estimate, $$\Delta E\approx h/(4\pi\Delta t)$$, with $$\Delta t\approx d/c$$. Interpret the result as an approximate carrier rest-energy scale.
 
 **Solution**
 
-First, calculate the time the virtual particle can exist from the range and speed of light:
+$$\Delta t\approx\frac{10^{-30}\text{ m}}{3.00\times10^8\text{ m/s}}=3.33\times10^{-39}\text{ s},$$
 
-<div class="equation">
-$$\Delta t \approx \frac{d}{c} = \frac{10^{-30} \text{ m}}{3.0 \times 10^8 \text{ m/s}} = 3.33 \times 10^{-39} \text{ s}$$
-</div>
+$$\Delta E\approx\frac{6.626\times10^{-34}\text{ J·s}}{4\pi(3.33\times10^{-39}\text{ s})}=1.58\times10^4\text{ J}.$$
 
-Using the Heisenberg uncertainty principle $$\Delta E \Delta t \geq \frac{h}{4\pi}$$, solve for $$\Delta E$$:
+Since $$1\text{ GeV}=1.602\times10^{-10}\text{ J}$$,
 
-<div class="equation">
-$$\Delta E \approx \frac{h}{4\pi \Delta t} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (3.33 \times 10^{-39} \text{ s})} = 1.58 \times 10^{-5} \text{ J}$$
-</div>
-
-Convert this energy to GeV:
-
-<div class="equation">
-$$\Delta E = (1.58 \times 10^{-5} \text{ J}) \times \frac{1 \text{ GeV}}{1.6 \times 10^{-10} \text{ J}} = 9.9 \times 10^{4} \text{ GeV} \approx 10^{5} \text{ GeV} = 100 \text{ TeV}$$
-</div>
-
-The mass of the particle is:
-
-<div class="equation">
-$$m = \frac{\Delta E}{c^2} \approx 10^{5} \text{ GeV/}c^2 = 100 \text{ TeV/}c^2$$
-</div>
+$$m\sim\frac{\Delta E}{c^2}=9.9\times10^{13}\text{ GeV}/c^2\approx10^{14}\text{ GeV}/c^2.$$
 
 **Discussion**
 
-This mass is extraordinarily large—about 100,000 times the mass of a proton (0.938 GeV/$$c^2$$). Such particles would require energies far beyond what any conceivable accelerator could produce. This is why grand unified theories that predict these particles cannot be directly tested in the laboratory. The very short range ($$10^{-30}$$ m) corresponds to extremely high energy scales, characteristic of conditions that may have existed only in the very early universe, fractions of a second after the Big Bang. This illustrates why cosmology and particle physics are intimately connected in exploring grand unification.
+This is about $$10^{14}$$ proton masses, consistent with the preceding problem's energy and time scales. It is an order-of-magnitude range estimate, not evidence that such a particle or grand unification has been observed.
 
 :::
 

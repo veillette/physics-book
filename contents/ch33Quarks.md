@@ -1067,7 +1067,7 @@ The quark-antiquark pairs annihilate to produce the two photons.
 
 **Discussion**
 
-This two-photon decay is characteristic of the $${\eta}^{0}$$ being its own antiparticle. The particle-antiparticle pair (quark and antiquark) annihilate completely, converting all the rest mass into electromagnetic energy. The energy uncertainty of 1.31 keV is tiny compared to the total energy of 547.9 MeV (about 0.0002%), showing that the short lifetime introduces only a small uncertainty in the energy. This decay proceeds via the electromagnetic force, as evidenced by the photon production and the relatively short (but not extremely short) lifetime of $$2.53 \times 10^{-19}$$ s. Compare this to $${\pi}^{0} \to \gamma + \gamma$$ with an even shorter lifetime of $$8.4 \times 10^{-17}$$ s—both are electromagnetic decays of neutral mesons that are their own antiparticles.
+This two-photon decay is characteristic of the $${\eta}^{0}$$ being its own antiparticle. The particle-antiparticle pair (quark and antiquark) annihilate completely, converting all the rest mass into electromagnetic energy. The energy uncertainty of 1.31 keV is tiny compared to the total energy of 547.9 MeV (about 0.0002%), showing that the short lifetime introduces only a small uncertainty in the energy. This decay proceeds via the electromagnetic force, as evidenced by the photon production and the relatively short (but not extremely short) lifetime of $$2.53 \times 10^{-19}$$ s. Compare this to $${\pi}^{0} \to \gamma + \gamma$$ with a longer lifetime of $$8.4 \times 10^{-17}$$ s—both are electromagnetic decays of neutral mesons that are their own antiparticles.
 
 :::
 
@@ -1217,7 +1217,7 @@ This shows that the strange quark changes to a down quark, consistent with the w
 
 **Discussion**
 
-This decay is allowed and does occur in nature, proceeding via the weak force. The key signature is the change in strangeness ($$\Delta S = +1$$), which can only occur through weak interactions. The quark-level process involves the strange quark transforming into a down quark via emission of a $$W^{+}$$ boson (the carrier of the weak force), which then creates quark-antiquark pairs that form the $${\pi}^{0}$$. The relatively long lifetime of the $${\Lambda}^{0}$$ ($$2.63 \times 10^{-10}$$ s) is characteristic of weak decay—much longer than strong force decays but shorter than typical beta decay. This is actually one of the dominant decay modes of the $${\Lambda}^{0}$$, occurring about 36% of the time. The energy release of 41.1 MeV is shared between the kinetic energies of the neutron and pion.
+This decay is allowed and does occur in nature, proceeding via the weak force. The key signature is the change in strangeness ($$\Delta S = +1$$), which can only occur through weak interactions. A charged-current quark process is $$s\to u+W^-$$ followed by $$W^-\to d+\bar u$$. Together with the spectator u and d quarks, the products can form $$n(udd)$$ and the $$u\bar u$$ component of $$\pi^0$$. Charge is conserved at each vertex. The relatively long lifetime of the $${\Lambda}^{0}$$ ($$2.63 \times 10^{-10}$$ s) is characteristic of weak decay—much longer than strong force decays but shorter than typical beta decay. This is actually one of the dominant decay modes of the $${\Lambda}^{0}$$, occurring about 36% of the time. The energy release of 41.1 MeV is shared between the kinetic energies of the neutron and pion.
 
 :::
 
@@ -1601,15 +1601,15 @@ The $${B}^{-}$$ meson has a relatively long lifetime for a particle containing a
 
 (a) What particle has the quark composition  $$\stackrel{-}{u}\stackrel{-}{u}\stackrel{-}{d} $$ ?
 
-(b) What should its decay mode be?
+(b) If a GUT allowed $$p\to\pi^0+e^+$$, what would the charge-conjugate antiproton decay be?
 
 :::
 
-::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
-a)The antiproton
+**(a)** The quark composition $$\bar u\bar u\bar d$$ identifies the antiproton.
 
-b) $$\stackrel{-}{p}\to {\pi }^{0}+{e}^{-} $$
+**(b)** The hypothetical charge-conjugate GUT process is $$\bar p\to\pi^0+e^-$$. No such decay has been observed; the antiproton is stable in isolation in the Standard Model.
 
 :::
 

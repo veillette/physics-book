@@ -710,8 +710,9 @@ This remarkably short time—just over one second—shows how fast light travels
 
 A scuba diver training in a pool looks at his instructor as shown in [[Figure 5]](#Figure5). What angle does the ray from the instructor's face make with the perpendicular to the water at the point where the ray enters? The angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$.
 
-![A scuba diver and his trainer look at each other. For the trainer, the scuba diver appears less deep than he actually is, and to the diver, the trainer appears much higher than she actually is. To the trainer, the scuba diver's feet appear to be at a depth of two point zero meters. The incident ray from the trainer strikes the water surface at a point, the point of incidence, and the trainer is at a horizontal distance of two point zero meters from a perpendicular drawn at the point of incidence.](../resources/Figure_25_03_05.jpg 'A scuba diver in a pool and his trainer look at each other. ')
-{: #Figure5}
+<span id="Figure5"></span>
+
+![A diver’s head is 2.0 m below the water surface. A ray from the instructor’s face enters the water 2.0 m horizontally from the instructor and bends toward the normal before reaching the diver. Dashed extensions show their apparent positions.](../resources/Figure_25_03_05.jpg 'A scuba diver in a pool and his trainer look at each other. ')
 
 :::
 
@@ -793,7 +794,7 @@ Although this seems like an incredibly short time, it's significant in high-spee
 ::: problem
 
 (a) Given that the angle between the ray in the water and the perpendicular to the water is  $$ 25.0º $$ ,
- and using information in [[Figure 3]](#Figure3), find the height of the instructor's head above the water, noting that you will first have to calculate the angle of incidence. (b) Find the apparent depth of the diver's head below water as seen by the instructor.
+ and using information in [[Figure 5]](#Figure5), find the height of the instructor's head above the water, noting that you will first have to calculate the angle of incidence. (b) Find the apparent depth of the diver's head below water as seen by the instructor.
 
 :::
 
@@ -801,38 +802,29 @@ Although this seems like an incredibly short time, it's significant in high-spee
 
 **Strategy**
 
-From [[Figure 5]](#Figure5), we can use geometry and Snell's law. The horizontal distance from the point where the ray enters the water to the instructor is 2.00 m. We first find the angle in air using Snell's law (from the previous problem, $$\theta_{1} = 34.3°$$), then use trigonometry.
+Use Snell's law to find the angle in air, then extend the air ray backward to locate the apparent depth.
 
 **Solution**
 
-**(a)** From the previous problem, we found $$\theta_{1} = 34.3°$$.
+**(a)** With water's index 1.333,
 
-The horizontal distance is 2.00 m. Using trigonometry:
-<div class="equation">
-$$\tan \theta_{1} = \frac{\text{horizontal distance}}{\text{height}} = \frac{2.00 \text{ m}}{h}$$
-</div>
+$$\theta_1=\sin^{-1}(1.333\sin25.0°)=34.3°.$$
 
-<div class="equation">
-$$h = \frac{2.00 \text{ m}}{\tan(34.3°)} = \frac{2.00 \text{ m}}{0.6822} = 2.93 \text{ m}$$
-</div>
+The instructor is 2.00 m horizontally from the point where the ray crosses the surface, so
 
-**(b)** For the diver, the horizontal distance underwater is also 2.00 m, and $$\theta_{2} = 25.0°$$:
+$$h=\frac{2.00\text{ m}}{\tan34.3°}=2.93\text{ m}.$$
 
-<div class="equation">
-$$\tan \theta_{2} = \frac{2.00 \text{ m}}{d}$$
-</div>
+**(b)** Figure 5 gives the diver's actual depth as 2.0 m. The underwater horizontal offset is
 
-<div class="equation">
-$$d = \frac{2.00 \text{ m}}{\tan(25.0°)} = \frac{2.00 \text{ m}}{0.4663} = 4.29 \text{ m}$$
-</div>
+$$x=(2.0\text{ m})\tan25.0°=0.93\text{ m}.$$
 
-However, the actual depth is greater. The apparent depth can be found using $$d_{\text{apparent}} = d_{\text{actual}}/n = d_{\text{actual}}/1.333$$. From geometry, the actual depth is approximately 2.00/tan(25.0°) = 4.29 m, but the diver appears to be at:
+Extending the ray in air backward gives
 
-$$d_{\text{apparent}} = 4.29/1.333 = 3.22 \text{ m}$$
+$$d_{\text{apparent}}=\frac{x}{\tan34.3°}\approx1.4\text{ m}.$$
 
 **Discussion**
 
-The instructor's head is 2.93 m above the water. The apparent depth effect makes underwater objects appear about 25% shallower than they actually are when viewed from air. This is why pools always look shallower than they really are.
+The diver appears shallower than the actual 2.0-m depth. The paraxial estimate, $$d/n=1.5\text{ m}$$, applies near normal viewing; the ray here makes a finite angle with the normal.
 
 :::
 
@@ -924,7 +916,7 @@ Percent correction:
 $$\frac{\Delta d}{2 \times 3.84 \times 10^{8} \text{ m}} \times 100\% = \frac{18}{7.68 \times 10^{8}} \times 100\% = 2.3 \times 10^{-6}\%$$
 </div>
 
-**Answer:** The percent correction needed is approximately **0.0000023%** or about **2.3 parts per million**.
+**Answer:** The percent correction needed is approximately **0.0000023%** or about **23 parts per billion**.
 
 **Discussion**
 

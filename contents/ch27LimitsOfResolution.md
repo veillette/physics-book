@@ -397,7 +397,7 @@ Converting to degrees: θ = 1.46 × 10⁻⁵ rad × (180°/π) = 8.4 × 10⁻⁴
 
 **Discussion**
 
-This extremely small diffraction angle (0.00146 milliradians or about 3 arcseconds) is indeed negligible compared to other optical imperfections. Typical flashlight beams have divergence angles of several degrees due to:
+This extremely small diffraction angle (0.0146 milliradians or about 3 arcseconds) is indeed negligible compared to other optical imperfections. Typical flashlight beams have divergence angles of several degrees due to:
 - Spherical aberration in the reflector
 - Imperfect parabolic shape
 - Extended source size (the bulb filament or LED)
@@ -429,31 +429,27 @@ in [Problem-Solving Strategies for Wave Optics](../contents/ch27ThinFilmInterfer
 
 **Strategy**
 
-**Step 1:** This is a diffraction spreading problem.
-**Step 2:** Use θ = 1.22λ/D for circular beam diffraction.
-**Step 3:** (a) Find θ; (b) find spot size at 15 km; (c) find spot size at Moon distance.
-**Step 4:** Given: λ = 633 nm, D = 1.00 mm.
+Identify diffraction through a circular aperture as the limiting effect. Use the beam diameter and wavelength to find the angle to the first minimum, then convert that angle to a spot diameter at each distance.
 
-**(a) Angular spread:**
-<div class="equation">
-$$\theta = 1.22\frac{\lambda}{D} = 1.22\frac{633 \times 10^{-9}}{1.00 \times 10^{-3}} = 7.72 \times 10^{-4} \text{ rad}$$
-</div>
+**Solution**
 
-**(b) Spot size at 15.0 km:**
-<div class="equation">
-$$s = r\theta = (15.0 \times 10^3)(7.72 \times 10^{-4}) = 11.6 \text{ m (diameter)}$$
-</div>
+**(a)** The half-angle to the first minimum is
 
-**(c) Spot size on Moon (r = 3.84 × 10⁸ m):**
-<div class="equation">
-$$s = (3.84 \times 10^8)(7.72 \times 10^{-4}) = 2.96 \times 10^5 \text{ m} = 296 \text{ km}$$
-</div>
+$$\theta=1.22\frac{\lambda}{D}=1.22\frac{633\times10^{-9}\text{ m}}{1.00\times10^{-3}\text{ m}}=7.72\times10^{-4}\text{ rad}.$$
 
-**Step 5:** These results are reasonable - laser beams spread due to diffraction despite being highly collimated.
+The full angular width is $$2\theta=1.54\times10^{-3}\text{ rad}$$.
+
+**(b)** The spot diameter at 15.0 km is
+
+$$s=2r\theta=2(15.0\times10^3\text{ m})(7.72\times10^{-4})=23.2\text{ m}.$$
+
+**(c)** At the Moon,
+
+$$s=2(3.84\times10^8\text{ m})(7.72\times10^{-4})=5.92\times10^5\text{ m}=592\text{ km}.$$
 
 **Discussion**
 
-A 296-km spot on the Moon from a 1-mm beam shows significant diffraction spreading. To reduce this, lasers sent to the Moon are expanded through telescopes to increase D, reducing θ = 1.22λ/D.
+These large spot diameters follow from the small 1.00-mm aperture. Expanding a laser beam through a telescope reduces its diffraction angle and is useful for lunar ranging.
 
 :::
 
@@ -478,7 +474,7 @@ make on the Moon, assuming a lunar distance of $$ 3.84 \times 10^{8} \text{m} $$
 
 **Strategy**
 
-Use θ = 1.22λ/D for part (a), then s = rθ for part (b) to find the spot diameter on the Moon.
+Use θ = 1.22λ/D for part (a), then s = 2rθ for part (b) to find the spot diameter on the Moon.
 
 **Solution**
 
@@ -507,7 +503,7 @@ Diameter: **2 × 117 m = 235 m**
 
 **Discussion**
 
-By expanding the laser beam to 2.54 m diameter using the telescope, the diffraction spreading is dramatically reduced compared to the 1-mm beam in the previous problem (which gave a 296-km spot). The spot size on the Moon is now only 235 m in diameter—over 1000 times smaller!
+By expanding the laser beam to 2.54 m diameter using the telescope, the diffraction spreading is dramatically reduced compared to the 1-mm beam in the previous problem (which gave a 592-km-diameter spot). The spot size on the Moon is now only 235 m in diameter—over 1000 times smaller!
 
 This technique is actually used in lunar laser ranging experiments, where pulses from Earth-based lasers reflect off corner retroreflectors left by Apollo astronauts. The expanded beam reduces diffraction spreading, allowing more photons to hit the small retroreflector targets and return to Earth for precise distance measurements (accurate to a few centimeters).
 
@@ -733,7 +729,7 @@ $$r = \frac{s}{\theta} = \frac{1.3}{1.68 \times 10^{-4}} = 7740 \text{ m} \appro
 
 **Discussion**
 
-The maximum distance is about 7.7 km. At night with dilated pupils (larger D), this distance would be somewhat shorter. In practice, atmospheric effects, haze, and the need to see the headlights' size (not just their separation) reduce the effective distance.
+The maximum distance is about 7.7 km. At night with dilated pupils (larger D), this diffraction-limited distance would be greater, although aberrations at large pupil sizes can limit the gain. In practice, atmospheric effects, haze, and the need to see the headlights' size (not just their separation) reduce the effective distance.
 
 :::
 

@@ -519,30 +519,9 @@ What is the energy in joules and eV of a photon in a radio wave from an AM stati
 
 ::: solution
 
-**Strategy**
+Using $$h=6.626\times10^{-34}\text{ J·s}$$ and $$1\text{ eV}=1.602\times10^{-19}\text{ J}$$,
 
-Use $$E = hf$$ to calculate the photon energy in joules, then convert to electron volts.
-
-**Solution**
-
-The photon energy is:
-
-<div class="equation">
- $$E = hf = (6.63 \times 10^{-34} \text{ J·s})(1530 \times 10^{3} \text{ Hz}) = 1.01 \times 10^{-27} \text{ J}$$
-</div>
-
-Converting to eV:
-
-<div class="equation">
- $$E = \frac{1.01 \times 10^{-27} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 6.31 \times 10^{-9} \text{ eV}$$
-</div>
-
-**Discussion**
-
-This extremely small energy (about 6 billionths of an eV) demonstrates why radio wave photons exhibit classical wave behavior—individual photon energies are far too small to detect. An AM radio station must emit an astronomical number of photons (typically $$10^{30}$$ or more per second) to transmit even modest power levels. This is why quantum effects are completely negligible for radio waves, and Maxwell's classical electromagnetic theory works perfectly.
-
- $$ 6.34 \times 10^{-9}  \text{eV} $$ ,
-  $$ 1.01 \times 10^{-27}  \text{J} $$
+$$E=hf=(6.626\times10^{-34})(1.530\times10^6)\text{ J}=1.01\times10^{-27}\text{ J}=6.33\times10^{-9}\text{ eV}.$$
 
 :::
 
@@ -558,39 +537,9 @@ This extremely small energy (about 6 billionths of an eV) demonstrates why radio
 
 ::: solution
 
-**Strategy**
+**(a)** $$E=hf=(6.626\times10^{-34}\text{ J·s})(90.0\times10^6\text{ Hz})=5.96\times10^{-26}\text{ J}=3.72\times10^{-7}\text{ eV}$$, using $$1\text{ eV}=1.602\times10^{-19}\text{ J}$$.
 
-Use $$E = hf$$ to find the photon energy, then convert to eV. The extremely small energy per photon implies an enormous number of photons must be emitted for typical broadcast powers.
-
-**Solution for (a)**
-
-The photon energy is:
-
-<div class="equation">
- $$E = hf = (6.63 \times 10^{-34} \text{ J·s})(90.0 \times 10^{6} \text{ Hz}) = 5.97 \times 10^{-26} \text{ J}$$
-</div>
-
-Converting to eV:
-
-<div class="equation">
- $$E = \frac{5.97 \times 10^{-26} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 3.73 \times 10^{-7} \text{ eV}$$
-</div>
-
-**Solution for (b)**
-
-For a typical FM station broadcasting at, say, 50 kW, the number of photons per second would be:
-
-<div class="equation">
- $$N = \frac{P}{E} = \frac{50,000 \text{ J/s}}{5.97 \times 10^{-26} \text{ J}} = 8.38 \times 10^{29} \text{ photons/s}$$
-</div>
-
-**Discussion**
-
-The incredibly small energy per photon (about $$ 10^{-7}$$ eV) means that an enormous number of photons—more than $$10^{29}$$ per second—must be broadcast to transmit significant power. This vast number is why radio waves appear continuous and classical wave behavior is observed; individual photon effects are completely undetectable. The quantum nature of EM radiation only becomes apparent at much higher frequencies where individual photons carry significant energy.
-
-(a)  $$ 5.97 \times 10^{-26} \text{ J}$$,  $$ 3.73 \times 10^{-7} \text{ eV}$$
-
-(b) An extremely large number (on the order of $$10^{29}$$ to $$10^{30}$$ photons/s for typical broadcast power)
+**(b)** The photon rate is $$\dot N=P/E$$. For example, 1.00 kW requires $$1.68\times10^{28}$$ photons per second.
 
 :::
 
@@ -607,29 +556,9 @@ Calculate the frequency in hertz of a 1.00-MeV  $$\gamma  $$
 
 ::: solution
 
-**Strategy**
+With $$h=6.626\times10^{-34}\text{ J·s}$$ and $$E=1.00\times10^6(1.602\times10^{-19})\text{ J}$$,
 
-Use $$E = hf$$ and solve for frequency. Convert the energy from MeV to joules first.
-
-**Solution**
-
-Convert energy to joules:
-
-<div class="equation">
- $$E = 1.00 \text{ MeV} \times 10^{6} \text{ eV/MeV} \times 1.60 \times 10^{-19} \text{ J/eV} = 1.60 \times 10^{-13} \text{ J}$$
-</div>
-
-Calculate frequency using $$f = \frac{E}{h}$$:
-
-<div class="equation">
- $$f = \frac{E}{h} = \frac{1.60 \times 10^{-13} \text{ J}}{6.63 \times 10^{-34} \text{ J·s}} = 2.41 \times 10^{20} \text{ Hz}$$
-</div>
-
-**Discussion**
-
-This extremely high frequency ($$2.4 \times 10^{20}$$ Hz) is characteristic of gamma rays—the most energetic form of electromagnetic radiation. Gamma rays with MeV energies are produced in nuclear reactions and radioactive decay. Their high energy makes them highly penetrating and dangerous to biological tissue, but also useful in medical applications like cancer treatment and sterilization.
-
- $$ 2.42 \times 10^{20}  \text{Hz} $$
+$$f=E/h=2.42\times10^{20}\text{ Hz}.$$
 
 :::
 
@@ -645,39 +574,13 @@ This extremely high frequency ($$2.4 \times 10^{20}$$ Hz) is characteristic of g
 
 ::: solution
 
-**Strategy**
+With $$hc\approx1240\text{ eV·nm}$$ and $$h=6.626\times10^{-34}\text{ J·s}$$,
 
-Use $$\lambda = \frac{hc}{E}$$ to find wavelength, then $$f = \frac{c}{\lambda}$$ for frequency. Compare the wavelength to the EM spectrum to identify the type of radiation.
+**(a)** $$\lambda=hc/E=1240\text{ nm}=1.24\text{ μm}$$.
 
-**Solution for (a)**
+**(b)** $$f=E/h=(1.602\times10^{-19}\text{ J})/(6.626\times10^{-34}\text{ J·s})=2.42\times10^{14}\text{ Hz}$$.
 
-Using $$hc = 1240 \text{ eV·nm}$$:
-
-<div class="equation">
- $$\lambda = \frac{hc}{E} = \frac{1240 \text{ eV·nm}}{1.00 \text{ eV}} = 1240 \text{ nm} = 1.24 \text{ μm}$$
-</div>
-
-**Solution for (b)**
-
-The frequency is:
-
-<div class="equation">
- $$f = \frac{c}{\lambda} = \frac{3.00 \times 10^{8} \text{ m/s}}{1.24 \times 10^{-6} \text{ m}} = 2.42 \times 10^{14} \text{ Hz}$$
-</div>
-
-**Solution for (c)**
-
-A wavelength of 1.24 μm (1240 nm) is in the **infrared** region of the electromagnetic spectrum. Infrared radiation has wavelengths ranging from about 760 nm to 1 mm.
-
-**Discussion**
-
-A 1.00-eV photon corresponds to near-infrared radiation, just beyond the red end of the visible spectrum (which extends to about 760 nm). This energy is typical for molecular vibrational transitions and is commonly encountered in thermal radiation and IR spectroscopy. The relatively long wavelength means these photons carry much less energy than visible light photons (1.63-3.26 eV) and cannot ionize atoms or molecules.
-
-(a) 1240 nm or 1.24 μm
-
-(b)  $$ 2.42 \times 10^{14} \text{ Hz}$$
-
-(c) Infrared radiation
+**(c)** This is near-infrared radiation.
 
 :::
 
@@ -711,29 +614,11 @@ Confirm the statement in the text that the range of photon energies for visible 
 
 ::: solution
 
-**Strategy**
+Using $$hc\approx1240\text{ eV·nm}$$,
 
-Calculate the photon energy at both ends of the visible spectrum using $$E = \frac{hc}{\lambda}$$ with $$hc = 1240 \text{ eV·nm}$$.
+$$E_{\min}=\frac{1240}{760}\text{ eV}=1.63\text{ eV},\qquad E_{\max}=\frac{1240}{380}\text{ eV}=3.26\text{ eV}.$$
 
-**Solution**
-
-For the longest wavelength (red end, 760 nm):
-
-<div class="equation">
- $$E_{\text{red}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{760 \text{ nm}} = 1.63 \text{ eV}$$
-</div>
-
-For the shortest wavelength (violet end, 380 nm):
-
-<div class="equation">
- $$E_{\text{violet}} = \frac{hc}{\lambda} = \frac{1240 \text{ eV·nm}}{380 \text{ nm}} = 3.26 \text{ eV}$$
-</div>
-
-**Discussion**
-
-These calculations confirm that visible light photons have energies ranging from 1.63 eV (red) to 3.26 eV (violet). This energy range is significant because it falls within the range of atomic and molecular transition energies, which is why different substances absorb and reflect different colors. The energy is sufficient to excite electrons between outer shells in atoms but generally insufficient to ionize atoms (which typically requires 10+ eV).
-
-Confirmed: visible light ranges from 1.63 eV (760 nm, red) to 3.26 eV (380 nm, violet)
+The visible interval therefore corresponds to photon energies from **1.63 to 3.26 eV**.
 
 :::
 
@@ -752,47 +637,15 @@ Confirmed: visible light ranges from 1.63 eV (760 nm, red) to 3.26 eV (380 nm, v
 
 ::: solution
 
-**Strategy**
+Use $$h=6.626\times10^{-34}\text{ J·s}$$, $$1\text{ eV}=1.602\times10^{-19}\text{ J}$$, and the idealized 10-eV molecular binding energy used in the text.
 
-(a) Use $$E = hf$$ with $$h = 4.14 \times 10^{-15} \text{ eV·s}$$. (b) Assume a tightly bound molecule requires ~10\text{ eV} to break apart. (c) Use $$E = hf$$ for the gamma ray. (d) Divide gamma ray energy by molecular binding energy.
+**(a)** $$E_{\text{IR}}=hf=0.0827\text{ eV}$$.
 
-**Solution for (a)**
+**(b)** $$10\text{ eV}/E_{\text{IR}}=120.9$$, so at least **121** such photons must supply their energy to one molecule.
 
-<div class="equation">
- $$E_{\text{IR}} = hf = (4.14 \times 10^{-15} \text{ eV·s})(2.00 \times 10^{13} \text{ Hz}) = 0.0828 \text{ eV}$$
-</div>
+**(c)** $$E_\gamma=hf=1.24\text{ MeV}$$.
 
-**Solution for (b)**
-
-A tightly bound molecule requires approximately 10 eV to break apart:
-
-<div class="equation">
- $$N = \frac{10 \text{ eV}}{0.0828 \text{ eV}} = 121 \text{ photons}$$
-</div>
-
-**Solution for (c)**
-
-<div class="equation">
- $$E_{\gamma} = hf = (4.14 \times 10^{-15} \text{ eV·s})(3.00 \times 10^{20} \text{ Hz}) = 1.24 \times 10^{6} \text{ eV} = 1.24 \text{ MeV}$$
-</div>
-
-**Solution for (d)**
-
-<div class="equation">
- $$N = \frac{1.24 \times 10^{6} \text{ eV}}{10 \text{ eV}} = 1.24 \times 10^{5} \text{ molecules}$$
-</div>
-
-**Discussion**
-
-This problem dramatically illustrates the vast difference in energy between infrared photons and gamma rays. An IR photon carries only 0.083 eV—too weak to break even one molecular bond. It would require 121 IR photons absorbed simultaneously (an extremely unlikely event) to break one molecule apart. In contrast, a single 1.24-MeV gamma ray carries enough energy to destroy 124,000 molecules, highlighting why gamma radiation is so damaging to biological tissue and why it's effective for sterilization and cancer treatment.
-
-(a) 0.0829 eV
-
-(b) 121
-
-(c) 1.24 MeV
-
-(d) $$ 1.24 \times 10^{5} $$
+**(d)** The available energy could supply at most about $$1.24\times10^5$$ dissociations at 10 eV each. This is an ideal energy-budget limit; actual energy deposition includes other processes.
 
 :::
 
@@ -809,33 +662,7 @@ Prove that, to three-digit accuracy,  $$h= 4.14 \times 10^{-15}  \text{eV}\cdot 
 
 ::: solution
 
-**Strategy**
-
-Start with Planck's constant in SI units and convert to eV·s using the conversion factor 1 eV = $$1.60 \times 10^{-19}$$ J.
-
-**Solution**
-
-Planck's constant in SI units:
-
-<div class="equation">
- $$h = 6.626 \times 10^{-34} \text{ J·s}$$
-</div>
-
-Convert joules to electron volts:
-
-<div class="equation">
- $$h = 6.626 \times 10^{-34} \text{ J·s} \times \frac{1 \text{ eV}}{1.60 \times 10^{-19} \text{ J}} = \frac{6.626 \times 10^{-34}}{1.60 \times 10^{-19}} \text{ eV·s}$$
-</div>
-
-<div class="equation">
- $$h = 4.14 \times 10^{-15} \text{ eV·s}$$
-</div>
-
-**Discussion**
-
-This conversion is verified to three-digit accuracy. The value $$h = 4.14 \times 10^{-15} \text{ eV·s}$$ is particularly useful in quantum mechanics problems involving atomic and molecular energies, which are typically measured in electron volts. Using this form of Planck's constant eliminates the need for repeated unit conversions when working with photon energies in eV.
-
-Proven:  $$h = 4.14 \times 10^{-15} \text{ eV·s}$$
+$$h=(6.626\times10^{-34}\text{ J·s})\frac{1\text{ eV}}{1.602\times10^{-19}\text{ J}}=4.136\times10^{-15}\text{ eV·s}\approx4.14\times10^{-15}\text{ eV·s}.$$
 
 :::
 
@@ -868,35 +695,9 @@ What is the accelerating voltage of an x-ray tube that produces X-rays with a sh
 
 ::: solution
 
-**Strategy**
+The most energetic photon has $$E=eV=hc/\lambda$$. Thus
 
-The shortest wavelength corresponds to the maximum photon energy, which equals the kinetic energy of the electron: $$eV = \frac{hc}{\lambda}$$. Solve for the voltage V.
-
-**Solution**
-
-The maximum photon energy equals the electron's kinetic energy:
-
-<div class="equation">
- $$eV = \frac{hc}{\lambda}$$
-</div>
-
-Solving for V and using $$hc = 1240 \text{ eV·nm}$$:
-
-<div class="equation">
- $$V = \frac{hc}{e\lambda} = \frac{1240 \text{ eV·nm}}{e \times 0.0103 \text{ nm}}$$
-</div>
-
-Since $$e$$ cancels in the eV units:
-
-<div class="equation">
- $$V = \frac{1240 \text{ V·nm}}{0.0103 \text{ nm}} = 1.20 \times 10^{5} \text{ V} = 120 \text{ kV}$$
-</div>
-
-**Discussion**
-
-An accelerating voltage of 120 kV is required to produce X-rays with a minimum wavelength of 0.0103 nm. This wavelength corresponds to photon energy of 120 keV, which is typical for medical and industrial X-ray applications. Higher voltages produce more energetic (shorter wavelength) X-rays that can penetrate deeper into materials, while lower voltages produce "softer" X-rays useful for imaging less dense tissues.
-
-120 kV
+$$V=\frac{hc}{e\lambda}=\frac{1240\text{ V·nm}}{0.0103\text{ nm}}=1.20\times10^5\text{ V}=120\text{ kV}.$$
 
 :::
 
@@ -930,29 +731,9 @@ How many photons per second are emitted by the antenna of a microwave oven, if i
 
 ::: solution
 
-**Strategy**
+Each photon has energy $$E=hf=(6.626\times10^{-34}\text{ J·s})(2.560\times10^9\text{ Hz})=1.6963\times10^{-24}\text{ J}$$. Hence
 
-Find the energy per photon using $$E = hf$$, then divide the total power by the energy per photon to get the number of photons per second.
-
-**Solution**
-
-Energy per photon:
-
-<div class="equation">
- $$E = hf = (6.63 \times 10^{-34} \text{ J·s})(2560 \times 10^{6} \text{ Hz}) = 1.70 \times 10^{-24} \text{ J}$$
-</div>
-
-Number of photons per second:
-
-<div class="equation">
- $$N = \frac{P}{E} = \frac{1.00 \times 10^{3} \text{ W}}{1.70 \times 10^{-24} \text{ J}} = 5.89 \times 10^{26} \text{ photons/s}$$
-</div>
-
-**Discussion**
-
-The microwave oven emits nearly $$6 \times 10^{26}$$ photons per second, an enormous number that demonstrates why microwave radiation appears continuous and classical. Each individual photon carries very little energy (about $$1.7 \times 10^{-24}$$ J or $$1.06 \times 10^{-5}$$ eV), so vast numbers are needed to deliver meaningful power. This is characteristic of low-frequency electromagnetic radiation—the quantum nature is completely masked by the sheer number of photons involved.
-
- $$ 5.89 \times 10^{26} \text{ photons/s}$$
+$$\dot N=\frac{P}{E}=\frac{1.00\times10^3\text{ W}}{1.6963\times10^{-24}\text{ J}}=5.90\times10^{26}\text{ photons/s}.$$
 
 :::
 
@@ -988,45 +769,13 @@ Some satellites use nuclear power. (a) If such a satellite emits a 1.00-W flux o
 
 ::: solution
 
-**Strategy**
+**(a)** The photon energy is $$E=hf=(6.626\times10^{-34})(650\times10^3)\text{ J}=4.3069\times10^{-28}\text{ J}$$, giving
 
-(a) Calculate the energy per photon using $$E = hf$$, then find the number of photons from $$N = P/E$$. (b) The photons spread over a spherical surface of radius 100\text{ km}, so divide the photon rate by the surface area $$4\pi r^2$$.
+$$\dot N=P/E=1.16\times10^{32}\text{ photons/s}.$$
 
-**Solution for (a)**
+**(b)** At $$r=100\text{ km}=1.00\times10^5\text{ m}$$, the unattenuated isotropic photon flux is
 
-Energy per photon:
-
-<div class="equation">
- $$E = hf = (6.63 \times 10^{-34} \text{ J·s})(650 \times 10^{3} \text{ Hz}) = 4.31 \times 10^{-28} \text{ J}$$
-</div>
-
-Number of photons per second:
-
-<div class="equation">
- $$N = \frac{P}{E} = \frac{50.0 \times 10^{3} \text{ W}}{4.31 \times 10^{-28} \text{ J}} = 1.16 \times 10^{32} \text{ photons/s}$$
-</div>
-
-**Solution for (b)**
-
-Surface area of sphere at 100 km:
-
-<div class="equation">
- $$A = 4\pi r^2 = 4\pi (100 \times 10^{3} \text{ m})^2 = 1.26 \times 10^{11} \text{ m}^2$$
-</div>
-
-Photons per second per square meter:
-
-<div class="equation">
- $$\frac{N}{A} = \frac{1.16 \times 10^{32} \text{ photons/s}}{1.26 \times 10^{11} \text{ m}^2} = 9.21 \times 10^{20} \text{ photons/(s·m}^2\text{)}$$
-</div>
-
-**Discussion**
-
-The radio station emits over $$10^{32}$$ photons per second, yet each photon carries extremely little energy ($$4.31 \times 10^{-28}$$ J). Even at 100\text{ km} distance, more than $$10^{20}$$ photons pass through each square meter every second. These enormous numbers explain why radio waves behave classically—individual photon effects are completely unobservable. The vast number of photons ensures that radio reception appears continuous and wave-like.
-
-(a)  $$ 1.16 \times 10^{32} \text{ photons/s}$$
-
-(b)  $$ 9.21 \times 10^{20} \text{ photons/(s·m}^2\text{)}$$
+$$\Phi=\frac{\dot N}{4\pi r^2}=9.24\times10^{20}\text{ photons/(s·m}^2\text{)}.$$
 
 :::
 
@@ -1042,7 +791,7 @@ How many x-ray photons per second are created by an x-ray tube that produces a f
 
 ::: solution
 
- $$ 8.33 \times 10^{13}  \text{photons/s} $$
+Using $$1\text{ eV}=1.602\times10^{-19}\text{ J}$$, the mean photon energy is $$E=(75.0\times10^3)(1.602\times10^{-19})\text{ J}=1.2015\times10^{-14}\text{ J}$$. Thus $$\dot N=P/E=8.32\times10^{13}\text{ photons/s}$$.
 
 :::
 
@@ -1058,51 +807,11 @@ How many x-ray photons per second are created by an x-ray tube that produces a f
 
 ::: solution
 
-**Strategy**
+**(a)** Using $$h=6.626\times10^{-34}\text{ J·s}$$, the 650-kHz photon energy is $$4.3069\times10^{-28}\text{ J}$$ and the photon rate is $$\dot N=1.16\times10^{32}\text{ s}^{-1}$$. With $$\Phi=\dot N/(4\pi r^2)=1\text{ photon/(s·m}^2\text{)}$$,
 
-(a) Use the relationship that total photon rate divided by the surface area of a sphere equals one photon/(s·m²). Solve for the radius. (b) Consider the implications of this distance for interstellar communication.
+$$r=\sqrt{\frac{\dot N}{4\pi\Phi}}=3.04\times10^{15}\text{ m}=0.321\text{ ly}.$$
 
-**Solution for (a)**
-
-From the previous problem, we know the radio station emits $$N = 1.16 \times 10^{32}$$ photons/s.
-
-For one photon per second per square meter:
-
-<div class="equation">
- $$\frac{N}{4\pi r^2} = 1 \text{ photon/(s·m}^2\text{)}$$
-</div>
-
-Solving for r:
-
-<div class="equation">
- $$r = \sqrt{\frac{N}{4\pi}} = \sqrt{\frac{1.16 \times 10^{32}}{4\pi}} = \sqrt{9.22 \times 10^{30}} = 3.04 \times 10^{15} \text{ m}$$
-</div>
-
-Converting to light-years (1 ly = $$9.46 \times 10^{15}$$ m):
-
-<div class="equation">
- $$r = \frac{3.04 \times 10^{15} \text{ m}}{9.46 \times 10^{15} \text{ m/ly}} = 0.321 \text{ light-years}$$
-</div>
-
-**Solution for (b)**
-
-This distance of about a third of a light-year is only about 1/13 of the way to the nearest star (Proxima Centauri, 4.2 ly away). By the time a 50-kW broadcast reached even the nearest star, it would deliver well under one photon per second per square meter, so detecting ordinary broadcasts would require an enormous collecting area or a far more powerful, directed transmitter. Several other factors make detecting alien broadcasts challenging:
-
-1. The inverse square law means signal strength drops dramatically with distance
-2. Background cosmic noise competes with the signal
-3. We must be tuned to the right frequency
-4. The signal must be distinguishable from natural radio sources
-5. Interstellar distances are vast—most stars are hundreds or thousands of light-years away
-
-This is why radio SETI (Search for Extraterrestrial Intelligence) programs use large radio telescopes and concentrate on strong, narrow-band signals, such as deliberate beacons, rather than expecting to overhear ordinary broadcasts.
-
-**Discussion**
-
-A terrestrial radio station drops to one photon per second per square meter only a third of a light-year away, far short of even the nearest star, and most stars are much farther still. Much more powerful, directed transmitters and very large, sensitive receivers would be needed for realistic interstellar communication.
-
-(a)  $$ 3.04 \times 10^{15} \text{ m}$$, or about 0.321 light-years
-
-(b) This distance is a small fraction of the distance to the nearest star, so ordinary broadcasts from other solar systems would be extremely faint here; detecting them would require huge receivers or powerful, directed transmitters, on top of the challenges of frequency uncertainty and background noise
+**(b)** This is much less than the distance to the nearest star. Ordinary isotropic broadcasts would be very faint at interstellar distances. Detection depends on transmitter power and direction, receiver area and sensitivity, observing bandwidth, and background noise; a photon-count threshold alone does not establish detectability.
 
 :::
 

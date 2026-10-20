@@ -455,7 +455,7 @@ The shortest wavelength is **0.0413 nm** or **4.13 × 10⁻¹¹ m**.
 
 **Discussion**
 
-This wavelength is characteristic of the bremsstrahlung (braking radiation) X-rays produced when electrons are rapidly decelerated upon striking the screen material. The 30 kV accelerating voltage in old CRT televisions was sufficient to produce X-rays, which is why TV manufacturers included lead shielding in the glass screen and around the tube. The X-ray energy of 30 keV is relatively low compared to medical X-rays (which typically use 50-150 kV), but prolonged exposure could still pose a health risk, hence the shielding requirements. Modern flat-panel displays (LCD, LED, OLED) do not produce X-rays because they don't use high-voltage electron beams. The inverse relationship between accelerating voltage and minimum wavelength ( $$ \lambda_{\text{min}} = \frac{hc}{eV} $$ ) is fundamental to X-ray production: higher voltages produce shorter wavelengths (more penetrating X-rays). This wavelength of 0.0413 nm is about 1000 times shorter than visible light wavelengths (400-700 nm), placing it firmly in the X-ray region of the electromagnetic spectrum. The fact that we can calculate this precisely from just the accelerating voltage demonstrates the direct connection between electrical energy and photon energy in quantum mechanics.
+This wavelength is characteristic of the bremsstrahlung (braking radiation) X-rays produced when electrons are rapidly decelerated upon striking the screen material. The 30 kV accelerating voltage in old CRT televisions was sufficient to produce X-rays, which is why TV manufacturers included lead shielding in the glass screen and around the tube. The X-ray energy of 30 keV is relatively low compared to medical X-rays (which typically use 50-150 kV), but prolonged exposure could still pose a health risk, hence the shielding requirements. Modern flat-panel displays (LCD, LED, OLED) do not produce X-rays because they don't use high-voltage electron beams. The inverse relationship between accelerating voltage and minimum wavelength ( $$ \lambda_{\text{min}} = \frac{hc}{eV} $$ ) is fundamental to X-ray production: higher voltages produce shorter wavelengths (more penetrating X-rays). This wavelength of 0.0413 nm is about 13,000 times shorter than 550-nm visible light, placing it firmly in the X-ray region of the electromagnetic spectrum. The fact that we can calculate this precisely from just the accelerating voltage demonstrates the direct connection between electrical energy and photon energy in quantum mechanics.
 
 :::
 
@@ -508,7 +508,7 @@ The 100 kV accelerating voltage is typical for medical diagnostic X-rays, partic
 
 To put this wavelength in perspective: it's about 40,000 times shorter than visible light, about 10 times smaller than the size of a typical atom (0.1 nm), and comparable to the spacing between atoms in a crystal. This last fact is crucial for X-ray crystallography—X-rays with wavelengths comparable to atomic spacings can be diffracted by crystals, revealing atomic arrangements.
 
-The energy of 100 keV (or $$ 1.60 \times 10^{-14} \text{ J} $$ ) might seem tiny in everyday terms, but it's enormous on the atomic scale. This is about 7 million times the ionization energy of hydrogen (13.6 eV). Such energetic photons can easily ionize atoms by knocking out inner-shell electrons, which is why X-rays are classified as ionizing radiation and why they can damage biological tissue. The biological effects of X-rays depend on both the dose (total energy deposited) and the photon energy—higher energy photons penetrate deeper but are less likely to be absorbed per unit thickness. Modern medical imaging carefully balances the need for good image quality (requiring sufficient X-ray penetration and dose) against minimizing radiation exposure to the patient. This optimization has led to dramatic reductions in medical radiation doses while improving image quality through better detectors and image processing.
+The energy of 100 keV (or $$ 1.60 \times 10^{-14} \text{ J} $$ ) might seem tiny in everyday terms, but it's enormous on the atomic scale. This is about 7400 times the ionization energy of hydrogen (13.6 eV). Such energetic photons can easily ionize atoms by knocking out inner-shell electrons, which is why X-rays are classified as ionizing radiation and why they can damage biological tissue. The biological effects of X-rays depend on both the dose (total energy deposited) and the photon energy—higher energy photons penetrate deeper but are less likely to be absorbed per unit thickness. Modern medical imaging carefully balances the need for good image quality (requiring sufficient X-ray penetration and dose) against minimizing radiation exposure to the patient. This optimization has led to dramatic reductions in medical radiation doses while improving image quality through better detectors and image processing.
 
 :::
 
@@ -552,8 +552,7 @@ The maximum characteristic X-ray photon energy for tungsten is **72.5 keV**.
 
 **Discussion**
 
-This energy represents the absolute maximum characteristic X-ray that tungsten can emit—it occurs when a completely free electron (from outside the atom) falls directly into a K-shell vacancy. This is slightly higher than the $$ K_\alpha $$ X-ray energy of 54.4\text{ keV} calculated in Example 1 of this chapter, which corresponds to an $$ n = 2 $$ to $$ n = 1 $$ transition (an electron from the L shell filling a K shell vacancy). The difference of about 18\text{ keV} represents the binding energy of the L shell. This 72.5\text{ keV} result matches the K-edge absorption energy for tungsten—the minimum photon energy needed to knock a K-shell electron completely out of the atom. The high energy of this X-ray (72.5\text{ keV}) explains why tungsten is used as the anode material in X-ray tubes: it can produce very penetrating X-rays suitable for medical imaging. The calculation also explains why an X-ray tube operating at less than 72.5\text{ kV} cannot produce K-shell characteristic X-rays from tungsten—the accelerating voltage must be at least this high to create K-shell vacancies in the first place. The $$ Z^2 $$ dependence of the binding energy (and thus the characteristic X-ray energy) means that heavier elements produce much more energetic characteristic X-rays: for example, lead ( $$ Z = 82 $$ ) produces K-shell X-rays near 88\text{ keV}, while copper ( $$ Z = 29 $$ ) produces them near 9 keV.
-
+The 72.5-keV value is the prediction of the simplified screened hydrogen-like model. Tungsten's [measured K edge](https://physics.nist.gov/cgi-bin/XrayTrans/search.pl?element=W&lower=50000&trans=All&units=eV&upper=80000) is about 69.5 keV, so the model overestimates the binding energy by about 4%. The threshold to create a K-shell vacancy corresponds to the measured edge, rather than exactly to this model estimate.
 :::
 
 </div>
@@ -572,60 +571,17 @@ What are the approximate energies of the  $${K}_{\alpha } $$
 
 **Strategy**
 
-Characteristic X-rays are produced when inner-shell vacancies are filled. A $$ K_\alpha $$ X-ray results from an $$ n = 2 $$ to $$ n = 1 $$ transition (L to K shell), while a $$ K_\beta $$ X-ray comes from an $$ n = 3 $$ to $$ n = 1 $$ transition (M to K shell). We can use the hydrogen-like atom approximation with an effective nuclear charge $$ Z_{\text{eff}} = Z - 1 $$ to account for the screening by the remaining K-shell electron. For copper, $$ Z = 29 $$ . The energy levels are $$ E_n = -\frac{Z_{\text{eff}}^2}{n^2} E_0 $$ where $$ E_0 = 13.6 \text{ eV} $$ , and the photon energy is $$ E_{\text{photon}} = E_{\text{initial}} - E_{\text{final}} $$ .
+Use the screened hydrogen-like model with $$Z_{\text{eff}}=Z-1=28$$ for copper, retaining guard digits until the transition energy is found.
 
 **Solution**
 
-For copper with $$ Z = 29 $$ , the effective nuclear charge experienced by a K-shell electron is approximately:
-<div class="equation">
-$$ Z_{\text{eff}} = Z - 1 = 29 - 1 = 28 $$
-</div>
+$$E_{K_\alpha}=13.6(28)^2\left(1-\frac14\right)\text{ eV}=8.00\text{ keV},$$
 
-The energy levels are:
-<div class="equation">
-$$ E_n = -\frac{Z_{\text{eff}}^2}{n^2} E_0 = -\frac{(28)^2}{n^2} (13.6 \text{ eV}) = -\frac{784}{n^2} (13.6 \text{ eV}) $$
-</div>
-
-For $$ n = 1 $$ (K shell):
-<div class="equation">
-$$ E_1 = -\frac{784}{1} (13.6 \text{ eV}) = -10,662 \text{ eV} = -10.7 \text{ keV} $$
-</div>
-
-For $$ n = 2 $$ (L shell):
-<div class="equation">
-$$ E_2 = -\frac{784}{4} (13.6 \text{ eV}) = -2,666 \text{ eV} = -2.67 \text{ keV} $$
-</div>
-
-For $$ n = 3 $$ (M shell):
-<div class="equation">
-$$ E_3 = -\frac{784}{9} (13.6 \text{ eV}) = -1,185 \text{ eV} = -1.19 \text{ keV} $$
-</div>
-
-**For K-alpha ( $$ n = 2 \to n = 1 $$ ):**
-<div class="equation">
-$$ E_{K_\alpha} = E_2 - E_1 = (-2.67) - (-10.7) = 8.03 \text{ keV} $$
-</div>
-
-**For K-beta ( $$ n = 3 \to n = 1 $$ ):**
-<div class="equation">
-$$ E_{K_\beta} = E_3 - E_1 = (-1.19) - (-10.7) = 9.51 \text{ keV} $$
-</div>
-
-Rounding to three significant figures:
-- **K-alpha: 8.00 keV**
-- **K-beta: 9.48 keV**
+$$E_{K_\beta}=13.6(28)^2\left(1-\frac19\right)\text{ eV}=9.48\text{ keV}.$$
 
 **Discussion**
 
-These calculated values for copper's characteristic X-rays are quite close to the measured values ( $$ K_\alpha = 8.05 \text{ keV} $$ and $$ K_\beta = 8.91 \text{ keV} $$ experimentally). The slight discrepancy comes from our simplified model using $$ Z_{\text{eff}} = Z - 1 $$ , which doesn't account for the different screening experienced by electrons in different shells. More sophisticated calculations would use different effective charges for each shell.
-
-Copper is commonly used as an anode material in X-ray diffraction studies because its $$ K_\alpha $$ X-rays (8.05\text{ keV}, wavelength 0.154\text{ nm}) have a wavelength well-suited for studying crystal structures. The wavelength is comparable to interatomic spacings in crystals, making copper K-alpha radiation ideal for X-ray crystallography. The characteristic X-ray energy depends approximately on $$ Z^2 $$ (since $$ E \propto Z_{\text{eff}}^2 $$ ), so heavier elements produce much more energetic characteristic X-rays. For comparison:
-- Aluminum ( $$ Z = 13 $$ ): $$ K_\alpha \approx 1.5 \text{ keV} $$
-- Copper ( $$ Z = 29 $$ ): $$ K_\alpha \approx 8.0 \text{ keV} $$
-- Molybdenum ( $$ Z = 42 $$ ): $$ K_\alpha \approx 17.5 \text{ keV} $$
-- Tungsten ( $$ Z = 74 $$ ): $$ K_\alpha \approx 59 \text{ keV} $$
-
-The $$ K_\beta $$ X-ray is always more energetic than the $$ K_\alpha $$ because the electron falls from a higher shell (M vs L), releasing more energy. However, $$ K_\alpha $$ X-rays are typically more intense than $$ K_\beta $$ X-rays because transitions from the L shell are more probable than from the M shell. In X-ray spectroscopy and crystallography, filters or monochromators are often used to select predominantly the $$ K_\alpha $$ radiation, which provides sharper, more well-defined wavelengths for precision measurements.
+The model agrees within about 1% with the [measured copper Kα energy](https://physics.nist.gov/cgi-bin/XrayTrans/search.pl?element=Cu&units=eV) near 8.05 keV, but overestimates the Kβ energy near 8.91 keV by about 6%. The same effective charge does not describe screening equally well for every shell.
 
 :::
 

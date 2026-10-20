@@ -277,7 +277,7 @@ $$ m = \frac{E}{c^{2}} = \frac{4.184 \times 10^{15}}{(3.00 \times 10^{8})^{2}} =
 
 **Discussion**
 
-Only 46.5 grams of mass—about 1.6 ounces—is converted to energy in a 1-megaton nuclear explosion! This demonstrates the incredible mass-energy equivalence of $$E=mc^{2}$$. A typical thermonuclear bomb contains several kilograms of nuclear fuel, but only a tiny fraction (about 1%) of that mass is actually converted to energy through fission and fusion reactions. The rest remains as fission products and unconsumed fuel. This small mass conversion releases energy equivalent to one million tons of TNT, capable of destroying an entire city. Compare this to chemical explosives where molecular bonds rearrange but no mass is converted—nuclear reactions are millions of times more energy-dense.
+Only 46.5 grams of mass—about 1.6 ounces—is converted to energy in a 1-megaton nuclear explosion! This demonstrates the incredible mass-energy equivalence of $$E=mc^{2}$$. A typical thermonuclear bomb contains several kilograms of nuclear fuel, but only a tiny fraction (about 1%) of that mass is actually converted to energy through fission and fusion reactions. The rest remains as fission products and unconsumed fuel. This small mass conversion releases energy equivalent to one million tons of TNT, capable of destroying an entire city. Compare this to chemical explosives where molecular bonds rearrange and a much smaller fraction of mass is converted to energy—nuclear reactions are millions of times more energy-dense.
 
 :::
 
@@ -341,7 +341,7 @@ $$ \text{Value} = (4.65 \times 10^{12} \text{ kWh})(\$0.10/\text{kWh}) = \$4.65 
 
 **Discussion**
 
-The world's nuclear arsenal contains energy worth about $465 billion if it could be peacefully converted to electricity—equivalent to about half a trillion dollars. To put this in perspective, world annual electricity consumption is about 25,000 TWh = $$2.5 \times 10^{13}$$ kWh, so these weapons contain enough energy to power the world for about 2-3 weeks. However, this comparison is somewhat misleading: nuclear weapons release their energy in microseconds in an uncontrolled explosion, while peaceful power generation requires controlled, sustained reactions over months or years. The uranium and plutonium in weapons could theoretically be "downblended" and used as reactor fuel, and some weapons-grade material has indeed been converted for civilian power use under nonproliferation agreements. This problem highlights both the enormous destructive potential and the tragic waste represented by nuclear arsenals—energy that could power cities instead threatens to destroy them.
+The 2006 arsenal estimate used in this problem corresponds to energy worth about $465 billion if it could be peacefully converted to electricity—equivalent to about half a trillion dollars. To put this in perspective, using an illustrative annual world electricity consumption of 25,000 TWh = $$2.5 \times 10^{13}$$ kWh, so these weapons contain enough energy to supply that electricity consumption for about 10 weeks. However, this comparison is somewhat misleading: nuclear weapons release their energy in microseconds in an uncontrolled explosion, while peaceful power generation requires controlled, sustained reactions over months or years. The uranium and plutonium in weapons could theoretically be "downblended" and used as reactor fuel, and some weapons-grade material has indeed been converted for civilian power use under nonproliferation agreements. This problem highlights both the enormous destructive potential and the tragic waste represented by nuclear arsenals—energy that could power cities instead threatens to destroy them.
 
 :::
 
@@ -441,12 +441,7 @@ the mass of a warhead.
 
 (b) $$ 3.2 \times 10^{26} \text{fusions} $$ , 2.7 kg
 
-(c) The nuclear fuel totals only 6 kg, so it is quite reasonable that some
-missiles carry 10 overheads. The mass of the fuel would only be 60 kg and
-therefore the mass of the 10 warheads, weighing about 10 times the nuclear fuel,
-would be only 1500 lbs. If the fuel for the missiles weighs 5 times the total
-weight of the warheads, the missile would weigh about 9000 lbs or 4.5 tons. This
-is not an unreasonable weight for a missile.
+(c) The calculated fuel masses total about 7 kg per warhead. Ten such fuel loads would total about 70 kg, which by itself does not preclude multiple warheads. The complete warheads, delivery systems, and missile propulsion add substantial mass; the fuel mass alone cannot determine a missile's total mass.
 
 :::
 
@@ -456,7 +451,7 @@ is not an unreasonable weight for a missile.
 
 ::: problem
 
-This problem gives some idea of the magnitude of the energy yield of a small tactical bomb. Assume that half the energy of a 1.00-kT nuclear depth charge set off under an aircraft carrier goes into lifting it out of the water—that is, into gravitational potential energy. How high is the carrier lifted if its mass is 90 000 tons?
+This problem gives some idea of the magnitude of the energy yield of a small tactical bomb. Assume that half the energy of a 1.00-kT nuclear depth charge set off under an aircraft carrier goes into lifting it out of the water—that is, into gravitational potential energy. How high is the carrier lifted if its mass is 90 000 US short tons (907 kg per ton)?
 
 :::
 
@@ -464,7 +459,7 @@ This problem gives some idea of the magnitude of the energy yield of a small tac
 
 **Strategy**
 
-Use $$PE = mgh$$. Half the bomb energy (0.50 kT) goes into lifting. Convert to joules, solve for h using $$m = 90,000 \text{ tons} = 9.0 \times 10^{7} \text{ kg}$$.
+Use $$PE = mgh$$. Half the bomb energy (0.50 kT) goes into lifting. Convert to joules, solve for h using $$m = 90,000 \text{ short tons} = 8.16 \times 10^{7} \text{ kg}$$.
 
 **Solution**
 
@@ -565,7 +560,7 @@ $$ \Delta T = \frac{Q}{mc} = \frac{19.8 \text{ cal}}{(1 \text{ g})(1 \text{ cal/
 
 **Discussion**
 
-At 10 km from a 1-megaton airburst, exposed skin receives about 20 cal/cm², causing a temperature rise of 20 °C. This is enough to cause second-degree burns (blistering) on exposed skin. The thermal pulse lasts only a few seconds, but delivers intense heat almost instantaneously. This explains the horrific burn injuries at Hiroshima and Nagasaki—people 10 km away received severe burns on exposed skin facing the blast. Closer distances are far worse: at 5 km the energy scales as $$1/r^{2}$$, giving ~80 cal/cm² and nearly instant third-degree burns. At 2 km, it's ~500 cal/cm²—enough to ignite clothing and vaporize skin. This thermal radiation, traveling at the speed of light, arrives before the blast wave, giving no warning. The combination of thermal and blast effects creates a zone of near-total lethality extending kilometers from a large nuclear explosion. This problem demonstrates why nuclear weapons cause such widespread casualties—the thermal effects alone can inflict mass casualties over enormous areas.
+At 10 km from a 1-megaton airburst, exposed skin receives about 20 cal/cm², causing a temperature rise of 20 °C. This is enough to cause second-degree burns (blistering) on exposed skin. The thermal pulse lasts only a few seconds, but delivers intense heat almost instantaneously. The 10-km distance belongs to this hypothetical 1-megaton case. The much smaller Hiroshima and Nagasaki weapons caused severe thermal burns at distances of roughly 3–4 km. Closer distances are far worse: at 5 km the energy scales as $$1/r^{2}$$, giving ~80 cal/cm² and nearly instant third-degree burns. At 2 km, it's ~500 cal/cm²—enough to ignite clothing and vaporize skin. This thermal radiation, traveling at the speed of light, arrives before the blast wave, giving no warning. The combination of thermal and blast effects creates a zone of near-total lethality extending kilometers from a large nuclear explosion. This problem demonstrates why nuclear weapons cause such widespread casualties—the thermal effects alone can inflict mass casualties over enormous areas.
 
 :::
 

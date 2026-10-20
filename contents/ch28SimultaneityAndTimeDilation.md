@@ -426,9 +426,7 @@ Check Your Understanding
 - The equation relating proper time and time measured by an Earth-bound observer
   implies that relative velocity cannot exceed the speed of light.
 - The twin paradox asks why a twin traveling at a relativistic speed away and
-  then back toward the Earth ages less than the Earth-bound twin. The premise
-  to the paradox is faulty because the traveling twin is accelerating. Special
-  relativity does not apply to accelerating frames of reference.
+  then back toward the Earth ages less than the Earth-bound twin. The twins follow different paths through spacetime, and the traveling twin changes inertial frames on the round trip. Special relativity describes the acceleration using inertial frames and successive instantaneous rest frames; one Lorentz transformation does not cover the entire journey.
 - Time dilation is usually negligible at low relative velocities, but it does
   occur, and it has been verified by experiment.
 
@@ -498,7 +496,7 @@ $$\gamma = \frac{1}{\sqrt{1-\frac{(0.500c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.2500}}
 
 **Discussion**
 
-At 25% the speed of light, $$\gamma = 1.033$$, representing only a 3.3% increase from the non-relativistic value of 1. Time dilation and length contraction effects would be barely noticeable. However, at 50% the speed of light, $$\gamma = 1.15$$, meaning time dilation effects become significant—clocks would run 15% slower. This illustrates how relativistic effects increase rapidly as velocity approaches $$c$$. The difference between $$\gamma$$ values at 25% and 50% of $$c$$ is substantial, showing the non-linear nature of relativistic effects.
+At 25% the speed of light, $$\gamma = 1.033$$, representing only a 3.3% increase from the non-relativistic value of 1. Time dilation and length contraction effects would be barely noticeable. However, at 50% the speed of light, $$\gamma = 1.15$$, meaning time dilation effects become significant—moving clocks would run about 13% slower, since their rate is 1/γ. This illustrates how relativistic effects increase rapidly as velocity approaches $$c$$. The difference between $$\gamma$$ values at 25% and 50% of $$c$$ is substantial, showing the non-linear nature of relativistic effects.
 
 :::
 
@@ -769,7 +767,7 @@ $$v = c\sqrt{0.0197} = 0.140c$$
 
 **Discussion**
 
-At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000\text{ km}/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
+At approximately 14% the speed of light, relativistic effects reach 1%. This corresponds to a velocity of about $$4.2 \times 10^7$$ m/s or 42,000\text{ km}/s. For reference, this is much faster than any macroscopic object humans have ever created—even a spacecraft traveling at 190 km/s would reach only about 0.063% of the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed. The 1% threshold is often used as a practical criterion for when classical mechanics begins to give slightly inaccurate results that might matter for precision measurements. Below this speed ($$v < 0.14c$$), relativistic corrections are less than 1% and can often be neglected for practical calculations.
 
 :::
 
@@ -814,7 +812,7 @@ $$v = 0.240c$$
 
 **Discussion**
 
-At approximately 24% the speed of light, relativistic effects reach 3%. This corresponds to a velocity of about $$7.2 \times 10^7$$ m/s or 72,000 km/s. For reference, this is much faster than any macroscopic object humans have ever created—the fastest spacecraft travel at only about 0.01% the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed, making relativistic corrections essential in particle physics. The 3% threshold is often used as a practical criterion for when classical mechanics begins to give noticeably inaccurate results.
+At approximately 24% the speed of light, relativistic effects reach 3%. This corresponds to a velocity of about $$7.2 \times 10^7$$ m/s or 72,000 km/s. For reference, this is much faster than any macroscopic object humans have ever created—even a spacecraft traveling at 190 km/s would reach only about 0.063% of the speed of light. However, subatomic particles in accelerators and cosmic rays routinely exceed this speed, making relativistic corrections essential in particle physics. The 3% threshold is often used as a practical criterion for when classical mechanics begins to give noticeably inaccurate results.
 
 :::
 
@@ -989,8 +987,6 @@ $$ \Delta t=\frac{ {\Delta t}_{0}}{\sqrt{1-\frac{ {v}^{2}}{ {c}^{2}}}}={\gamma \
 
 twin paradox
 : this asks why a twin traveling at a relativistic speed away and then back
-toward the Earth ages less than the Earth-bound twin. The premise to the
-paradox is faulty because the traveling twin is accelerating, and special
-relativity does not apply to accelerating frames of reference
+toward the Earth ages less than the Earth-bound twin; the twins follow different spacetime paths, and the traveling twin changes inertial frames. Special relativity accounts for their different elapsed proper times
 
 :::

@@ -351,7 +351,7 @@ Because of energy loss due to synchrotron radiation in the LHC at CERN, only 5.0
 
 ::: problem
 
-A proton and an antiproton collide head-on, with each having a kinetic energy of 7.00 TeV (such as in the LHC at CERN). How much collision energy is available, taking into account the annihilation of the two masses? (Note that this is not significantly greater than the extremely relativistic kinetic energy.)
+A proton and an antiproton collide head-on, with each having a kinetic energy of 7.00 TeV (a hypothetical proton–antiproton collider; the LHC at CERN instead collides protons with protons). How much collision energy is available, taking into account the annihilation of the two masses? (Note that this is not significantly greater than the extremely relativistic kinetic energy.)
 
 :::
 
@@ -383,7 +383,7 @@ $$E_{\text{total}} = 14,001.876 \text{ GeV} \approx 14.0 \text{ TeV}$$
 
 **Discussion**
 
-The total collision energy is approximately 14.0 TeV, which is essentially just twice the kinetic energy (14.0 TeV versus 14.00 TeV). The rest mass energies of the proton and antiproton contribute only about 1.88 GeV out of 14,000 GeV total—less than 0.014% of the total energy. This confirms the note in the problem that the annihilation energy is not significantly greater than the extremely relativistic kinetic energy. At these ultra-high energies, the particles are moving at speeds extremely close to the speed of light, and their kinetic energies vastly exceed their rest mass energies. This is characteristic of the ultra-relativistic regime. The advantage of colliding beams is evident here: all 14 TeV is available for particle creation, whereas if a 7 TeV proton struck a stationary target, much of the energy would go into recoil momentum rather than particle creation.
+The total collision energy is approximately 14.0 TeV, which is essentially just twice the kinetic energy (14.001876 TeV including rest energies versus 14.000000 TeV from kinetic energies alone). The rest mass energies of the proton and antiproton contribute only about 1.88 GeV out of 14,000 GeV total—less than 0.014% of the total energy. This confirms the note in the problem that the annihilation energy is not significantly greater than the extremely relativistic kinetic energy. At these ultra-high energies, the particles are moving at speeds extremely close to the speed of light, and their kinetic energies vastly exceed their rest mass energies. This is characteristic of the ultra-relativistic regime. The advantage of colliding beams is evident here: all 14 TeV is available for particle creation, whereas if a 7 TeV proton struck a stationary target, much of the energy would go into recoil momentum rather than particle creation.
 
 :::
 

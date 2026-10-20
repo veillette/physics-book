@@ -163,7 +163,7 @@ $${}^{239}\text{Pu} $$ .
 The reason $${}^{235}\text{U} $$ and $${}^{239}\text{Pu} $$ are easier to
 fission than $${}^{238}\text{U} $$ is that the nuclear force is more attractive
 for an even number of neutrons in a nucleus than for an odd number. Consider
-that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_{94}^{239}{\text{P}}_{145} $$ has 145 neutrons, whereas $${}_{92}^{238}{\text{U}}_{146} $$ has 146. When a neutron encounters a nucleus with 
+that $${}_{92}^{235}{\text{U}}_{143} $$ has 143 neutrons, and $${}_{94}^{239}{\text{Pu}}_{145} $$ has 145 neutrons, whereas $${}_{92}^{238}{\text{U}}_{146} $$ has 146. When a neutron encounters a nucleus with
 an odd number of neutrons, the nuclear force is more attractive, because the
 additional neutron will make the number even. About 2-MeV more energy is
 deposited in the resulting nucleus than would be the case if the number of
@@ -274,7 +274,7 @@ Uranium-239 then $${\beta }^{-} $$ decays:
 Neptunium-239 also $${\beta }^{-} $$ decays:
 
 <div class="equation" >
- $${}^{239}\text{Np}\to {}^{239}\text{Pu}+{\beta }^{-}+{\nu}_{e}  \left( t_{1 \text{/2}}= 2.4 \text{d} \right) \text{.} $$
+ $${}^{239}\text{Np}\to {}^{239}\text{Pu}+{\beta }^{-}+{\overline{\nu}}_{e}  \left( t_{1 \text{/2}}= 2.4 \text{d} \right) \text{.} $$
 </div>
 
 Plutonium-239 builds up in reactor fuel at a rate that depends on the
@@ -424,14 +424,14 @@ given  $$m\left({}^{96}\text{Sr}\right)=95.921750 \text{u} $$
 
 :::
 
-::: solution {"class":"solution","data-element-type":"conceptual-questions"}
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 (a) 177.1 MeV
 
 (b) Because the gain of an external neutron yields about 6 MeV, which is the
 average $$BE/A $$ for heavy nuclei.
 
-(c)  $$A=1+238=96+140+1+1+1, Z=92=38+53, \text{efn}=0=0 $$
+(c)  $$A=1+238=96+140+1+1+1, Z=92=38+54, \text{efn}=0=0 $$
 
 :::
 
@@ -457,27 +457,23 @@ this reaction.
 
 ::: solution
 
-**Strategy**
-
-(a) Calculate mass defect and convert to energy. Use $$m(n) = 1.008665$$ u and $$m({}^{235}\text{U}) = 235.043930$$ u. (b) Count A, Z, and efn on both sides.
-
 **Solution**
 
-(a) Reactant mass: $$m_i = 1.008665 + 235.043930 = 236.052595 \text{ u}$$
+**(a)** Using the supplied masses and $$m_n=1.008665\text{ u}$$, $$m({}^{235}\text{U})=235.043930\text{ u}$$,
 
-Product mass: $$m_f = 91.926269 + 141.916361 + 2(1.008665) = 234.859960 \text{ u}$$
+$$m_i=1.008665+235.043930=236.052595\text{ u},$$
 
-Mass defect: $$\Delta m = 236.052595 - 234.859960 = 1.192635 \text{ u}$$
+$$m_f=91.926269+141.916361+2(1.008665)=235.859960\text{ u}.$$
 
-Energy: $$E = (1.192635)(931.5) = 1111.1 \text{ MeV}$$
+Therefore $$\Delta m=0.192635\text{ u}$$ and
 
-(b) **Before:** $$A = 1 + 235 = 236$$, $$Z = 0 + 92 = 92$$, efn = 0
+$$Q=(0.192635\text{ u})(931.5\text{ MeV/u})=179.4\text{ MeV}.$$
 
-**After:** $$A = 92 + 142 + 2(1) = 236$$ ✓, $$Z = 36 + 56 = 92$$ ✓, efn = 0 ✓
+**(b)** The nucleon numbers sum to $$1+235=92+142+2=236$$. The atomic numbers sum to $$0+92=36+56=92$$, so nucleon number and charge are conserved.
 
 **Discussion**
 
-This enormous energy release of ~1111 MeV per fission demonstrates the power of nuclear fission. However, the number given in this problem appears unusually high. Typical U-235 fission releases about 200 MeV. The issue may be related to the specific fission fragments chosen. Nevertheless, the calculation methodology is correct: find mass defect and convert using 931.5 MeV/u. All conservation laws are satisfied.
+The 179.4-MeV energy release for this fragment channel is on the expected fission energy scale. Any subsequent radioactive decays of the fragments release additional energy.
 
 :::
 
@@ -501,7 +497,7 @@ this reaction.
 
 :::
 
-::: solution {"class":"solution","data-element-type":"conceptual-questions"}
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 (a) 180.6 MeV
 
@@ -533,17 +529,17 @@ The plutonium breeding reactions are: (1) $${}^{238}\text{U} + n \to {}^{239}\te
 
 **Reaction 2:** $${}^{239}\text{U} \to {}^{239}\text{Np} + \beta^{-} + \bar{\nu}_e$$
 - **Before:** A = 239, Z = 92, efn = 0
-- **After:** A = 239, Z = 93 - 1 = 92, efn = -1 + (+1) = 0 ✓
+- **After:** A = 239, Z = 93 - 1 = 92, efn = +1 + (-1) = 0 ✓
 
 **Reaction 3:** $${}^{239}\text{Np} \to {}^{239}\text{Pu} + \beta^{-} + \bar{\nu}_e$$
 - **Before:** A = 239, Z = 93, efn = 0
-- **After:** A = 239, Z = 94 - 1 = 93, efn = -1 + (+1) = 0 ✓
+- **After:** A = 239, Z = 94 - 1 = 93, efn = +1 + (-1) = 0 ✓
 
 All conservation laws are satisfied in each reaction.
 
 **Discussion**
 
-This three-step breeding process converts fertile $${}^{238}\text{U}$$ into fissile $${}^{239}\text{Pu}$$. The first step (neutron capture) is followed by two beta decays, each increasing Z by 1 while A remains constant at 239. The electron family number is conserved because each $$\beta^{-}$$ (efn = -1) is accompanied by an antineutrino (efn = +1), giving net zero. This process is how breeder reactors create more fuel than they consume, potentially extending nuclear fuel supplies for thousands of years.
+This three-step breeding process converts fertile $${}^{238}\text{U}$$ into fissile $${}^{239}\text{Pu}$$. The first step (neutron capture) is followed by two beta decays, each increasing Z by 1 while A remains constant at 239. The electron family number is conserved because each $$\beta^{-}$$ (efn = +1) is accompanied by an antineutrino (efn = -1), giving net zero. This process is how breeder reactors create more fuel than they consume, potentially extending nuclear fuel supplies for thousands of years.
 
 :::
 
@@ -553,20 +549,27 @@ This three-step breeding process converts fertile $${}^{238}\text{U}$$ into fiss
 
 ::: problem
 
-Breeding plutonium produces energy even before any plutonium is fissioned. (The primary purpose of the four nuclear reactors at Chernobyl was breeding plutonium for weapons. Electrical power was a by-product used by the civilian population.) Calculate the energy produced in each of the reactions listed for plutonium breeding just following [[Example 2]](#Example2). The pertinent masses are  $$m\left({}^{239}\text{U}\right)=239.054289 \text{u} $$ ,
+Breeding plutonium produces energy even before any plutonium is fissioned. Calculate the energy produced in each of the reactions listed for plutonium breeding just following [[Example 2]](#Example2). The pertinent masses are  $$m\left({}^{239}\text{U}\right)=239.054289 \text{u} $$ ,
   $$m\left({}^{239}\text{Np}\right)=239.052932 \text{u} $$ ,
  and  $$m\left({}^{239}\text{Pu}\right)=239.052157 \text{u} $$.
 
 :::
 
-::: solution {"class":"solution","data-element-type":"conceptual-questions"}
+::: solution
 
- $${}^{238}\text{U}+n \to {}^{239}\text{U}+\gamma  $$
- 4.81 MeV
+**Solution**
 
-$${}^{239}\text{U}\to {}^{239}\text{Np}+{\beta }^{-}+{\nu}_{e} $$ 0.753 MeV
+The neutron-capture step releases
 
-$${}^{239} \text{Np}\to {}^{239} \text{Pu}+{\beta }^{-}+{\nu}_{e} $$ 0.211 MeV
+$$Q=[238.050784+1.008665-239.054289](931.5)\text{ MeV}=4.81\text{ MeV}.$$
+
+For beta-minus decay, neutral atomic masses already account for the electron masses, so $$Q=(M_i-M_f)c^2$$ without an extra electron-mass subtraction:
+
+$$ {}^{239}\text{U}\to{}^{239}\text{Np}+\beta^-+\bar\nu_e,\qquad Q=(239.054289-239.052932)(931.5)=1.264\text{ MeV},$$
+
+$$ {}^{239}\text{Np}\to{}^{239}\text{Pu}+\beta^-+\bar\nu_e,\qquad Q=(239.052932-239.052157)(931.5)=0.722\text{ MeV}.$$
+
+The beta-decay energy is shared among the electron, antineutrino, and recoiling daughter.
 
 :::
 
@@ -578,7 +581,7 @@ $${}^{239} \text{Np}\to {}^{239} \text{Pu}+{\beta }^{-}+{\nu}_{e} $$ 0.211 MeV
 
 The naturally occurring radioactive isotope  $${}^{232}\text{Th} $$
  does not make good fission fuel, because it has an even number of neutrons; however, it can be bred into a suitable fuel (much as  $${}^{238}\text{U} $$
- is bred into  $${}^{239}\text{P} $$ ).
+ is bred into  $${}^{239}\text{Pu} $$ ).
 
 (a) What are $$Z $$ and $$N $$ for $${}^{232}\text{Th} $$ ?
 
@@ -646,7 +649,7 @@ operation?
 
 :::
 
-::: solution {"class":"solution","data-element-type":"conceptual-questions"}
+::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
 (a)  $$ 2.57 \times 10^{3}  \text{MW} $$
 (b)  $$ 8.03 \times 10^{19}  \text{fission/s} $$

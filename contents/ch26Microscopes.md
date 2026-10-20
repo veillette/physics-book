@@ -382,7 +382,7 @@ When $$D >> \lambda$$ (where $$D$$ is the characteristic size of optical element
 **When Wave Optics Becomes Necessary:**
 
 While geometric optics correctly describes **image formation and magnification** in microscopes, it has limitations:
-- **Diffraction limits resolution**: The ultimate resolving power of the microscope is determined by wave optics (Rayleigh criterion: $$d = 1.22\lambda/\text{NA}$$)
+- **Diffraction limits resolution**: The ultimate resolving power of the microscope is determined by wave optics (Rayleigh criterion: $$d = 0.61\lambda/\text{NA}$$)
 - **Interference effects**: Phenomena like thin-film interference in optical coatings require wave analysis
 - **Coherence effects**: Phase relationships in techniques like phase-contrast microscopy
 
@@ -716,7 +716,7 @@ Today, oil immersion objectives are indispensable for:
 - **Fluorescence microscopy**: Maximizing photon collection
 - **Super-resolution microscopy**: Techniques like STED and PALM
 
-Some advanced techniques use even higher refractive index immersion media:
+Different applications use different immersion media; water and glycerol have lower refractive indices than standard immersion oil, while special oils can have higher indices:
 - **Water immersion** ($$n = 1.33$$): For live cell imaging
 - **Glycerol immersion** ($$n = 1.47$$): Intermediate between water and oil
 - **Special oils** ($$n = 1.78$$): For pushing resolution even further

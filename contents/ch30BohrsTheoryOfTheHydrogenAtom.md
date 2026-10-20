@@ -595,7 +595,7 @@ This wavelength of 97.2 nm is in the **ultraviolet (UV)** region of the electrom
 
 **Discussion**
 
-The entire Lyman series lies in the UV region, which makes sense because these transitions all end at the ground state (n = 1), which means they involve relatively large energy changes. As we move to higher lines in the series (from the first to the second to the third, etc.), the wavelength increases (the photon energy decreases) because the energy difference between successive levels decreases. The third line at 97.2 nm is still well into the UV (UV extends from about 10 nm to 400 nm), though it's longer than the first line (121 nm) and second line (103 nm). The series limit (as $$ n_i \to \infty $$ ) approaches 91.2 nm, which represents the minimum energy needed to ionize hydrogen from its ground state.
+The entire Lyman series lies in the UV region, which makes sense because these transitions all end at the ground state (n = 1), which means they involve relatively large energy changes. As we move to higher lines in the series (from the first to the second to the third, etc.), the wavelength decreases (the photon energy increases) because the energy released in a transition to the ground state increases. The third line at 97.2 nm is still well into the UV (UV extends from about 10 nm to 400 nm), and it is shorter than the first line (121 nm) and second line (103 nm). The series limit (as $$ n_i \to \infty $$ ) approaches 91.2 nm, which represents the minimum energy needed to ionize hydrogen from its ground state.
 
 :::
 
@@ -822,7 +822,7 @@ The $$ n = 2 $$ state has a radius exactly 4 times larger than the ground state 
 
 ::: problem
 
-Show that  $$\left(13.6 \text{eV}\right)/hc= 1.097 \times 10^{7}  \text{m}=R $$
+Show that  $$\left(13.6 \text{eV}\right)/hc= 1.097 \times 10^{7}  \text{m}^{-1}=R $$
  (Rydberg's constant), as discussed in the text.
 
 :::
@@ -993,7 +993,7 @@ Since **365 nm > 122 nm**, the Balmer and Lyman series **do not overlap**.
 
 **Discussion**
 
-The Balmer series spans from 365 nm (series limit) to 656 nm (H-alpha line), while the Lyman series spans from 91.2 nm (series limit) to 122 nm (Lyman-alpha). There's a clear gap of 243 nm (from 122 nm to 365 nm) between these two series. This gap is significant—it's nearly twice the width of the Lyman series itself. This separation makes sense because the Balmer series involves transitions to $$ n = 2 $$ while Lyman involves transitions to $$ n = 1 $$ , and the energy difference between these final states is substantial (10.2 eV). The non-overlapping nature of hydrogen's spectral series made it easier for early spectroscopists to identify and categorize the different series. In contrast, for heavier hydrogen-like ions with larger $$ Z $$ values, the energy levels scale as $$ Z^2 $$ , which can cause different series to overlap in wavelength even though they correspond to different transitions.
+The Balmer series spans from 365 nm (series limit) to 656 nm (H-alpha line), while the Lyman series spans from 91.2 nm (series limit) to 122 nm (Lyman-alpha). There's a clear gap of 243 nm (from 122 nm to 365 nm) between these two series. This gap is significant—it's about eight times the width of the Lyman series itself. This separation makes sense because the Balmer series involves transitions to $$ n = 2 $$ while Lyman involves transitions to $$ n = 1 $$ , and the energy difference between these final states is substantial (10.2 eV). The non-overlapping nature of hydrogen's spectral series made it easier for early spectroscopists to identify and categorize the different series. In contrast, for heavier hydrogen-like ions with larger $$ Z $$ values, the energy levels scale as $$ Z^2 $$ , which can cause different series to overlap in wavelength even though they correspond to different transitions.
 
 :::
 
@@ -1015,70 +1015,21 @@ The Balmer series spans from 365 nm (series limit) to 656 nm (H-alpha line), whi
 
 **Strategy**
 
-The Balmer series corresponds to transitions ending at $$ n_{\text{f}} = 2 $$ , with initial states $$ n_i = 3, 4, 5, 6, ... $$ . The visible spectrum extends from approximately 400 nm (violet) to 700 nm (red), while ultraviolet (UV) radiation has wavelengths shorter than 400 nm. We'll calculate the wavelength for each Balmer line using the Rydberg formula until we find the transition into the UV region. Since wavelength decreases as $$ n_i $$ increases, we need to find which value of $$ n_i $$ produces the first wavelength below 400 nm.
-
-<div class="equation">
-$$ \frac{1}{\lambda} = R \left( \frac{1}{n_{\text{f}}^2} - \frac{1}{n_i^2} \right) $$
-</div>
+Use the book's visible wavelength interval, **380–760 nm**, and the Balmer formula $$1/\lambda=R(1/4-1/n_i^2)$$.
 
 **Solution**
 
-For the Balmer series, $$ n_{\text{f}} = 2 $$ . Let's calculate wavelengths for successive values of $$ n_i $$ :
+The wavelengths for $$n_i=3,4,5,6,7,8,9,10$$ are approximately 656, 486, 434, 410, 397, 389, 383.6, and 379.8 nm.
 
-For $$ n_i = 3 $$ (H-alpha line):
-<div class="equation">
-$$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{9} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{5}{36} \right) = 1.524 \times 10^6 \text{ m}^{-1} $$
-</div>
+**(a)** The first ultraviolet line is $$n_i=10\to n_f=2$$ at **379.8 nm**.
 
-<div class="equation">
-$$ \lambda = 656 \text{ nm (red, visible)} $$
-</div>
+**(b)** **Seven** lines lie within 380–760 nm, from $$n_i=3$$ through $$n_i=9$$.
 
-For $$ n_i = 4 $$ (H-beta line):
-<div class="equation">
-$$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{16} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{3}{16} \right) = 2.057 \times 10^6 \text{ m}^{-1} $$
-</div>
-
-<div class="equation">
-$$ \lambda = 486 \text{ nm (blue-green, visible)} $$
-</div>
-
-For $$ n_i = 5 $$ (H-gamma line):
-<div class="equation">
-$$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{25} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{21}{100} \right) = 2.304 \times 10^6 \text{ m}^{-1} $$
-</div>
-
-<div class="equation">
-$$ \lambda = 434 \text{ nm (violet, visible)} $$
-</div>
-
-For $$ n_i = 6 $$ (H-delta line):
-<div class="equation">
-$$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{36} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{8}{36} \right) = 2.438 \times 10^6 \text{ m}^{-1} $$
-</div>
-
-<div class="equation">
-$$ \lambda = 410 \text{ nm (violet, visible)} $$
-</div>
-
-For $$ n_i = 7 $$ (H-epsilon line):
-<div class="equation">
-$$ \frac{1}{\lambda} = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{1}{4} - \frac{1}{49} \right) = \left(1.097 \times 10^7 \text{ m}^{-1}\right) \left( \frac{45}{196} \right) = 2.519 \times 10^6 \text{ m}^{-1} $$
-</div>
-
-<div class="equation">
-$$ \lambda = 397 \text{ nm (UV)} $$
-</div>
-
-**(a)** The line corresponding to the transition from $$ n_i = 7 $$ to $$ n_f = 2 $$ (H-epsilon line) is the first one in the UV part of the spectrum, with $$ \lambda = 397 \text{ nm} $$ .
-
-**(b)** Four Balmer series lines are in the visible part of the spectrum (corresponding to $$ n_i = 3, 4, 5, 6 $$ ).
-
-**(c)** Infinitely many Balmer lines are in the UV. As $$ n_i $$ increases from 7 to infinity, all wavelengths become progressively shorter, remaining in the UV and approaching the series limit of 365 nm.
+**(c)** **Infinitely many** lines lie in the UV, from $$n_i=10$$ onward, approaching the series limit near 365 nm.
 
 **Discussion**
 
-The Balmer series is special because it's the only hydrogen spectral series with lines in the visible region—this is why it was discovered first and studied most extensively in early spectroscopy. The four visible lines (H-alpha at 656 nm appearing red, H-beta at 486 nm appearing blue-green, H-gamma at 434 nm appearing violet, and H-delta at 410 nm appearing violet) can be seen with the naked eye in hydrogen discharge tubes and in astronomical observations of nebulae and stars. The fact that only four lines are visible while infinitely many are in the UV illustrates how the energy levels become more closely spaced as $$ n $$ increases. The series limit (as $$ n_i \to \infty $$ ) is at 365 nm, representing the energy needed to ionize hydrogen from the $$ n = 2 $$ state. This wavelength marks the shortest possible Balmer line and separates discrete spectral lines from the continuum that appears beyond the series limit.
+The line count depends on the adopted visible boundary. The shorter-wavelength violet lines are much harder to see than the four prominent Balmer lines; the wavelength interval alone does not guarantee visual detection.
 
 :::
 
@@ -1147,7 +1098,7 @@ The electron was initially in the **n = 7** level.
 
 **Discussion**
 
-This transition from $$ n = 7 $$ to $$ n = 5 $$ produces infrared radiation at 4.653 μm, which is well beyond the visible range. This is part of what we might call an extended Pfund series (transitions ending at $$ n = 5 $$ ). The Pfund series includes several lines in the mid-infrared, all invisible to the human eye but detectable with infrared spectrometers. The long wavelength (low energy) of this transition makes sense because both initial and final states are highly excited, so the energy difference is relatively small. Transitions between high-lying states are important in astrophysics for studying the conditions in stellar atmospheres and interstellar gas clouds, where hydrogen atoms can be excited to these high levels by the intense radiation fields. These infrared hydrogen lines are also used to study the kinematics of gas in galaxies through Doppler shifts.
+This transition from $$ n = 7 $$ to $$ n = 5 $$ produces infrared radiation at 4.653 μm, which is well beyond the visible range. This is part of the Pfund series (transitions ending at $$ n = 5 $$ ). The Pfund series includes several lines in the mid-infrared, all invisible to the human eye but detectable with infrared spectrometers. The long wavelength (low energy) of this transition makes sense because both initial and final states are highly excited, so the energy difference is relatively small. Transitions between high-lying states are important in astrophysics for studying the conditions in stellar atmospheres and interstellar gas clouds, where hydrogen atoms can be excited to these high levels by the intense radiation fields. These infrared hydrogen lines are also used to study the kinematics of gas in galaxies through Doppler shifts.
 
 :::
 
@@ -1259,7 +1210,7 @@ The ionization energy is **54.4 eV**.
 
 **Discussion**
 
-This problem beautifully illustrates how the $$ Z^2 $$ scaling affects both orbital radii and energies in hydrogen-like ions. The Be³⁺ ion has $$ Z = 4 $$ , so its orbitals are compressed by a factor of $$ Z = 4 $$ (radius scales as $$ 1/Z $$ ) compared to hydrogen at the same $$ n $$ . To match hydrogen's ground state radius, the Be³⁺ electron must be in $$ n = 2 $$ , which is its first excited state. However, despite having the same radius as hydrogen's ground state, the Be³⁺ ion in $$ n = 2 $$ is much more tightly bound—it requires 54.4 eV to ionize, exactly 4 times the 13.6 eV needed for hydrogen's ground state (energy scales as $$ Z^2 $$ ). This shows that nuclear charge dominates the binding energy. Be³⁺ is created in very hot environments like stellar interiors or in high-energy laboratory plasmas. The high ionization energy of 54.4 eV (even from an excited state!) means that only very energetic photons (in the soft X-ray region, around 23 nm wavelength) or very energetic collisions can ionize it. For comparison, the ground state ($$ n = 1 $$ ) of Be³⁺ would require 217.6 eV to ionize, placing it in the extreme UV to soft X-ray spectral region.
+This problem beautifully illustrates how the $$ Z^2 $$ scaling affects both orbital radii and energies in hydrogen-like ions. The Be³⁺ ion has $$ Z = 4 $$ , so its orbitals are compressed by a factor of $$ Z = 4 $$ (radius scales as $$ 1/Z $$ ) compared to hydrogen at the same $$ n $$ . To match hydrogen's ground state radius, the Be³⁺ electron must be in $$ n = 2 $$ , which is its first excited state. However, despite having the same radius as hydrogen's ground state, the Be³⁺ ion in $$ n = 2 $$ is much more tightly bound—it requires 54.4 eV to ionize, exactly 4 times the 13.6 eV needed for hydrogen's ground state (energy scales as $$ Z^2 $$ ). This shows that nuclear charge dominates the binding energy. Be³⁺ is created in very hot environments like stellar interiors or in high-energy laboratory plasmas. The high ionization energy of 54.4 eV (even from an excited state!) means that only very energetic photons (in the extreme ultraviolet region, around 23 nm wavelength) or very energetic collisions can ionize it. For comparison, the ground state ($$ n = 1 $$ ) of Be³⁺ would require 217.6 eV to ionize, placing it in the extreme UV to soft X-ray spectral region.
 
 :::
 

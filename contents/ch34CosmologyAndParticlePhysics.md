@@ -571,7 +571,7 @@ $$ T = 2.26 \times 10^8 \text{ years} = 226 \text{ million years} $$
 
 **Discussion**
 
-Our solar system takes approximately **226 million years** to complete one orbit around the center of the Milky Way galaxy. This immense period is often called a "galactic year" or "cosmic year." Since the Sun formed about 4.6 billion years ago, it has completed roughly 20 orbits around the galactic center during its lifetime. This long orbital period reflects the enormous size of our galaxy and the relatively modest orbital speed of the Sun. During one complete orbit, the solar system travels a distance of nearly 190,000 light years—a truly astronomical journey! This orbital motion has important implications for Earth's long-term evolution: as we move through different regions of the galaxy, we may encounter varying densities of interstellar material, different radiation environments, and even spiral arm crossings that could affect the rate of star formation and supernova frequency in our cosmic neighborhood. The last time the Sun was in its current position in the galaxy, dinosaurs had not yet evolved on Earth, illustrating the vast timescales involved in galactic dynamics.
+Our solar system takes approximately **226 million years** to complete one orbit around the center of the Milky Way galaxy. This immense period is often called a "galactic year" or "cosmic year." Since the Sun formed about 4.6 billion years ago, it has completed roughly 20 orbits around the galactic center during its lifetime. This long orbital period reflects the enormous size of our galaxy and the relatively modest orbital speed of the Sun. During one complete orbit, the solar system travels a distance of nearly 190,000 light years—a truly astronomical journey! This orbital motion has important implications for Earth's long-term evolution: as we move through different regions of the galaxy, we may encounter varying densities of interstellar material, different radiation environments, and even spiral arm crossings that could affect the rate of star formation and supernova frequency in our cosmic neighborhood. The last time the Sun was in its current position in the galaxy, early dinosaurs already existed during the Late Triassic, illustrating the vast timescales involved in galactic dynamics.
 
 :::
 
@@ -639,7 +639,7 @@ $$ t = \frac{4.73 \times 10^{17} \text{ s}}{3.156 \times 10^7 \text{ s/year}} = 
 
 (a) Our calculation gives an approximate age of the universe of **15 billion years** (or 1.5 × 10¹⁰ years). This is reasonably close to the currently accepted age of approximately 13.8 billion years, demonstrating that the Hubble constant provides a useful way to estimate the universe's age. This calculation assumes the expansion rate has been constant throughout the universe's history, which is why we call it the "Hubble time."
 
-(b) The reasoning for part (b) is crucial: If the universe has been decelerating (as was long believed due to gravitational attraction between galaxies), this means the expansion was faster in the past. If galaxies were moving apart faster in the earlier universe, they would have reached their current separations in less time than our constant-rate calculation suggests. Think of it this way: if you're currently traveling at 20 km/s but you used to be traveling at 30 km/s and have been slowing down, you would have covered the same distance in less time than if you had been traveling at a constant 20 km/s the entire time. Therefore, accounting for deceleration would give a younger universe than our Hubble time estimate. Interestingly, recent observations suggest the universe's expansion may actually be accelerating (not decelerating), which is attributed to dark energy. If acceleration is occurring, the actual age would be greater than our estimate, since the universe was expanding more slowly in the past. This shows how the dynamics of cosmic expansion directly affect our understanding of the universe's age and evolution.
+(b) The reasoning for part (b) is crucial: If the universe has been decelerating (as was long believed due to gravitational attraction between galaxies), this means the expansion was faster in the past. If galaxies were moving apart faster in the earlier universe, they would have reached their current separations in less time than our constant-rate calculation suggests. Think of it this way: if you're currently traveling at 20 km/s but you used to be traveling at 30 km/s and have been slowing down, you would have covered the same distance in less time than if you had been traveling at a constant 20 km/s the entire time. Therefore, accounting for deceleration would give a younger universe than our Hubble time estimate. Observations establish that the universe's expansion is now accelerating, commonly attributed to dark energy. The earlier universe also underwent decelerating expansion. Its age depends on the full expansion history; present acceleration alone does not imply an age greater than the Hubble time.
 
 :::
 
@@ -719,7 +719,7 @@ $$ \frac{F}{W} = \frac{2.6 \times 10^{-10} \text{ N}}{686 \text{ N}} = 3.8 \time
 
 **Discussion**
 
-The gravitational force exerted by the entire Andromeda galaxy on a person is extraordinarily small: only **2.6 × 10⁻¹⁰ N**. To put this in perspective, this is about the weight of a single bacterium! The ratio of this force to the person's weight is **3.8 × 10⁻¹³**, meaning Andromeda's gravitational pull is less than a trillionth of Earth's pull on the same person. This demonstrates a fundamental principle: while gravity has infinite range and never goes to zero, it becomes vanishingly weak over astronomical distances due to the inverse square law. Even though Andromeda contains hundreds of billions of stars and has a total mass 10 trillion times that of our Sun, its enormous distance (2 million light years) makes its gravitational effect on us utterly negligible. This is why we don't feel the gravitational pull of distant galaxies in our daily lives, and why the universe's expansion can overcome gravity on the largest scales. The calculation also shows that local gravitational effects (from Earth, the Sun, and even our own galaxy) completely dominate over the pull from external galaxies. This is reassuring—if Andromeda's gravity were significant, we'd be in serious trouble, as it's on a collision course with the Milky Way (though that collision won't happen for about 4 billion years)!
+The gravitational force exerted by the entire Andromeda galaxy on a person is extraordinarily small: only **2.6 × 10⁻¹⁰ N**. To put this in perspective, this is about the weight of 26 nanograms of matter! The ratio of this force to the person's weight is **3.8 × 10⁻¹³**, meaning Andromeda's gravitational pull is less than a trillionth of Earth's pull on the same person. This demonstrates a fundamental principle: while gravity has infinite range and never goes to zero, it becomes vanishingly weak over astronomical distances due to the inverse square law. Even though Andromeda contains hundreds of billions of stars and has a total mass 10 trillion times that of our Sun, its enormous distance (2 million light years) makes its gravitational effect on us utterly negligible. This is why we don't feel the gravitational pull of distant galaxies in our daily lives, and why the universe's expansion can overcome gravity on the largest scales. The calculation also shows that local gravitational effects (from Earth, the Sun, and even our own galaxy) completely dominate over the pull from external galaxies. This is reassuring—if Andromeda's gravity were significant, we'd be in serious trouble, as it's on a collision course with the Milky Way (though that collision won't happen for about 4 billion years)!
 
 :::
 
@@ -1042,7 +1042,7 @@ $$ \Delta KE = KE_{f} - KE_{i} = 1.9 \times 10^{45} - 7.6 \times 10^{35} \approx
 
 **Discussion**
 
-The increase in rotational kinetic energy is approximately **1.9 × 10⁴⁵ J**, which is an absolutely staggering amount of energy. To put this in perspective, this is about 100,000 times the energy our Sun will radiate over its entire 10-billion-year lifetime! The initial rotational kinetic energy (7.6 × 10³⁵ J) is completely negligible compared to the final value, demonstrating the dramatic acceleration that occurs during collapse.
+The increase in rotational kinetic energy is approximately **1.9 × 10⁴⁵ J**, which is an absolutely staggering amount of energy. To put this in perspective, this is about 16 times the energy our Sun would radiate in 10 billion years at its present luminosity! The initial rotational kinetic energy (7.6 × 10³⁵ J) is completely negligible compared to the final value, demonstrating the dramatic acceleration that occurs during collapse.
 
 This energy comes from gravitational potential energy released as the core contracts. When a star's core collapses during a supernova, it falls inward under its own gravity, releasing enormous amounts of gravitational potential energy. Most of this energy (about 99%) is actually carried away by neutrinos, but some goes into the kinetic energy of the explosion, heating the surrounding material, and—as we see here—into rotational kinetic energy. Because angular momentum is conserved during the collapse ($$ L = I\omega = \text{constant} $$), as the moment of inertia decreases by a factor of about $$ 10^9 $$ (due to the radius shrinking by a factor of 50,000), the angular velocity must increase by the same factor. This results in the spectacular increase in rotational kinetic energy we calculated.
 
@@ -1076,62 +1076,23 @@ Distances to the nearest stars (up to 500 ly away) can be measured by a techniqu
 ::: problem
 
 (a) Use the Heisenberg uncertainty principle to calculate the uncertainty in energy for a corresponding time interval of  $$ 10^{-43} \text{s} $$ .
- (b) Compare this energy with the  $$ 10^{19} \text{GeV} $$
- unification-of-forces energy and discuss why they are similar.
+ (b) Compare this energy with the Planck energy, about $$10^{19}\text{ GeV}$$, and discuss why they are similar.
 
 :::
 
 ::: solution
 
-**Strategy**
-
-(a) The Heisenberg uncertainty principle relating energy and time states that $$ \Delta E \Delta t \geq \hbar/2 $$, where $$ \hbar = h/(2\pi) $$ is the reduced Planck constant. We can rearrange this to find the minimum energy uncertainty for a given time interval.
-
-(b) We'll compare our calculated energy with the unification energy and explain the physical significance of the time interval $$ 10^{-43} \text{ s} $$, which is the Planck time.
-
 **Solution**
 
-(a) The Heisenberg uncertainty principle for energy and time is:
-<div class="equation">
-$$ \Delta E \Delta t \geq \frac{\hbar}{2} $$
-</div>
+**(a)** Using the section's energy–time uncertainty estimate,
 
-where $$ \hbar = \frac{h}{2\pi} = \frac{6.626 \times 10^{-34}}{2\pi} = 1.055 \times 10^{-34} \text{ J·s} $$.
+$$\Delta E\approx\frac{\hbar}{2\Delta t}=\frac{1.055\times10^{-34}\text{ J·s}}{2\times10^{-43}\text{ s}}=5.28\times10^8\text{ J}=3.3\times10^{18}\text{ GeV}.$$
 
-For the minimum uncertainty:
-<div class="equation">
-$$ \Delta E = \frac{\hbar}{2\Delta t} = \frac{1.055 \times 10^{-34} \text{ J·s}}{2 \times 10^{-43} \text{ s}} = 5.28 \times 10^{8} \text{ J} $$
-</div>
-
-Converting to GeV (using $$ 1 \text{ GeV} = 1.60 \times 10^{-10} \text{ J} $$):
-<div class="equation">
-$$ \Delta E = \frac{5.28 \times 10^{8} \text{ J}}{1.60 \times 10^{-10} \text{ J/GeV}} = 3.3 \times 10^{18} \text{ GeV} $$
-</div>
-
-(b) Comparing with the unification energy:
-<div class="equation">
-$$ \frac{\Delta E}{E_{\text{unification}}} = \frac{3.3 \times 10^{18} \text{ GeV}}{10^{19} \text{ GeV}} \approx 0.3 $$
-</div>
-
-The calculated energy uncertainty is **of the same order of magnitude** as the unification-of-forces energy (within a factor of 3).
+**(b)** This is about 0.3 times $$10^{19}\text{ GeV}$$, the same order of magnitude as the Planck energy.
 
 **Discussion**
 
-The remarkable similarity between these two energies is not a coincidence—it reveals a profound connection between quantum mechanics, gravity, and the fundamental structure of spacetime. The time interval $$ 10^{-43} \text{ s} $$ is known as the **Planck time**, the fundamental quantum timescale below which our current understanding of physics breaks down. It is defined as:
-
-<div class="equation">
-$$ t_{\text{Planck}} = \sqrt{\frac{\hbar G}{c^5}} \approx 5.4 \times 10^{-44} \text{ s} $$
-</div>
-
-At this timescale, quantum fluctuations in spacetime itself become significant, and a complete theory of quantum gravity (Theory of Everything) would be needed to describe physics. The corresponding energy scale, called the **Planck energy**, is:
-
-<div class="equation">
-$$ E_{\text{Planck}} = \sqrt{\frac{\hbar c^5}{G}} \approx 1.2 \times 10^{19} \text{ GeV} $$
-</div>
-
-This is exactly the energy scale at which all four fundamental forces (electromagnetic, weak, strong, and gravitational) are expected to unify into a single superforce! The Heisenberg uncertainty principle provides the bridge: for processes occurring on the Planck timescale, the energy uncertainty is necessarily on the order of the Planck energy.
-
-This connection tells us that the TOE epoch immediately after the Big Bang (before $$ 10^{-43} \text{ s} $$) was governed by physics at the Planck scale, where spacetime itself was subject to violent quantum fluctuations. At these energies and timescales, the distinctions between forces disappear, and the universe was truly unified. The fact that these fundamental scales emerge from combining the constants of quantum mechanics ($$ \hbar $$), gravity ($$ G $$), and relativity ($$ c $$) suggests that a complete theory of nature must incorporate all three domains—which is exactly what physicists are striving to achieve with theories like string theory and loop quantum gravity.
+The Planck time $$t_P=\sqrt{\hbar G/c^5}\approx5.4\times10^{-44}\text{ s}$$ and Planck energy $$E_P=\sqrt{\hbar c^5/G}\approx1.2\times10^{19}\text{ GeV}$$ obey $$E_Pt_P=\hbar$$. Thus an energy estimate based on $$\hbar/\Delta t$$ near the Planck time naturally lies near the Planck energy. This is the scale where a quantum theory of gravity is expected to be needed. Unification of all four forces at this scale remains a hypothesis.
 
 :::
 
@@ -1218,7 +1179,7 @@ Students constructing their own version of this problem should choose reasonable
 {: class="glossary-title"}
 
 Big Bang
-: a gigantic explosion that threw out matter a few billion years ago
+: the early hot, dense state from which the universe expanded about 13.8 billion years ago; it was an expansion of space, not an explosion into pre-existing space
 
 cosmic microwave background
 : the spectrum of microwave radiation of cosmic origin
@@ -1231,28 +1192,25 @@ cosmology
 : the study of the character and evolution of the universe
 
 electroweak epoch
-: the stage before 10<sup>−11</sup> back to 10<sup>−34</sup> after the Big Bang
+: an early era before electroweak symmetry breaking, ending roughly 10<sup>−11</sup> s after the Big Bang; its proposed earlier boundary depends on the high-energy model
 
 GUT epoch
-: the time period from 10<sup>−43</sup> to 10<sup>−34</sup> after the Big Bang,
-when Grand Unification Theory, in which all forces except gravity are identical,
-governed the universe
+: a hypothetical era, roughly 10<sup>−43</sup> to 10<sup>−34</sup> s after the Big Bang in some models, when a grand unified description of the strong and electroweak interactions might apply
 
 Hubble constant
 : a central concept in cosmology whose value is determined by taking the slope
 of a graph of velocity versus distance, obtained from red shift measurements
 
 inflationary scenario
-: the rapid expansion of the universe by an incredible factor of 10<sup>
-−50</sup> for the brief time from 10<sup>−35</sup> to about 10<sup>−32</sup>s
+: a proposed brief era of accelerated expansion, often illustrated by expansion factors as large as 10<sup>50</sup> between about 10<sup>−35</sup> and 10<sup>−32</sup> s; the factor and times depend on the model
 
 spontaneous symmetry breaking
-: the transition from GUT to electroweak where the forces were no longer unified
+: a change in which a system’s state no longer has all the symmetries of the underlying laws; proposed early-universe transitions depend on the model
 
 superforce
 : hypothetical unified force in TOE epoch
 
 TOE epoch
-: before 10<sup>−43</sup> after the Big Bang
+: a hypothetical era before roughly 10<sup>−43</sup> s after the Big Bang, where a quantum theory of gravity would be needed
 
 :::

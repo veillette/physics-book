@@ -363,7 +363,7 @@ This problem illustrates the **correspondence principle**: quantum mechanics red
 
 To observe a discrete jump of $$2.21 \times 10^{-34}$$ J against a background of 5 J would be like trying to detect whether one atom was added to Earth—utterly impossible with any conceivable measurement apparatus. This is why we never notice quantization in everyday life: Planck's constant is so tiny that quantum jumps in macroscopic systems are far below any possible measurement precision.
 
-If Planck's constant were billions of times larger (say $$h \sim 10^{-6}$$ J·s), we would actually see the orangutan's swing restricted to discrete amplitudes, jerking from one allowed energy level to another!
+If Planck's constant were about $$10^{27}$$ times larger (say $$h \sim 10^{-6}$$ J·s), we would actually see the orangutan's swing restricted to discrete amplitudes, jerking from one allowed energy level to another!
 
 :::
 

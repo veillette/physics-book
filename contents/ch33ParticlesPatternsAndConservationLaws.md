@@ -227,7 +227,7 @@ particles are bosons.
                $${\overline{v}}_{e} $$ 
             </td>
             <td>
-               $$0\left( 7.0\text{eV}\right) $$ 
+               See note 3
 <sup class="footnote-number" id="footnote-ref3"><a class="footnote-link" href="#footnote3">3</a></sup>
             </td>
             <td>0</td>
@@ -265,7 +265,7 @@ particles are bosons.
             <td>
                $${\stackrel{-}{v}}_{\mu } $$ 
             </td>
-            <td> $$0\left(<0.27\right) $$
+            <td> See note 3
 </td>
             <td>0</td>
             <td>0</td>
@@ -302,7 +302,7 @@ particles are bosons.
             <td>
                $${\stackrel{-}{v}}_{\tau } $$ 
             </td>
-            <td> $$0\left(<31\right) $$</td>
+            <td> $$<18.2$$ (see note 3)</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -924,7 +924,7 @@ $$Q = (139.6 - 105.7 - 0) \text{ MeV} = 33.9 \text{ MeV}$$
 
 **Discussion**
 
-The decay releases 33.9 MeV of energy, which is shared between the kinetic energy of the muon and the energy carried away by the massless muon antineutrino. This represents about 24% of the pion's rest mass energy being converted into kinetic energy of the decay products. The fact that this decay is energetically favorable (positive Q-value) means it can occur spontaneously. This is the dominant decay mode of the $${\pi}^{-}$$, occurring about 99.99% of the time. The energy is shared unequally between the products due to momentum conservation—since the neutrino is massless and the muon is massive, the neutrino carries away most of the energy while the muon carries most of the momentum. The muon itself is unstable and will subsequently decay via $${\mu}^{-} \to e^{-} + \overline{\nu}_e + \nu_{\mu}$$, but with a much longer lifetime ($$2.20 \times 10^{-6}$$ s compared to the pion's $$2.60 \times 10^{-8}$$ s).
+The decay releases 33.9 MeV of energy, which is shared between the kinetic energy of the muon and the energy carried away by the massless muon antineutrino. This represents about 24% of the pion's rest mass energy being converted into kinetic energy of the decay products. The fact that this decay is energetically favorable (positive Q-value) means it can occur spontaneously. This is the dominant decay mode of the $${\pi}^{-}$$, occurring about 99.99% of the time. The energy is shared unequally between the products due to momentum conservation—since the neutrino is massless and the muon is massive, the two momenta in the pion rest frame are equal and opposite. The neutrino receives about 29.8 MeV while the muon receives about 4.1 MeV of kinetic energy. The muon itself is unstable and will subsequently decay via $${\mu}^{-} \to e^{-} + \overline{\nu}_e + \nu_{\mu}$$, but with a much longer lifetime ($$2.20 \times 10^{-6}$$ s compared to the pion's $$2.60 \times 10^{-8}$$ s).
 
 :::
 
@@ -1026,11 +1026,17 @@ those in the decay of the $${\tau }^{-} $$ given in the text.
 
 :::
 
-::: solution {"class":"solution","data-element-type":"problems-exercises"}
+::: solution
 
-(a)  $$1671 \text{MeV} $$
-(b)  $$\begin{array}{}Q=1, Q^{\prime}=1+0+0=1. {L}_{\tau }=-1; L^{\prime}{\tau }_{}=-1; L{\mu }_{}=0; L^{\prime}{\mu }_{}=-1+1=0\\ \end{array} $$
-(c)  $$\begin{array}{}{\tau }^{-}\to {\mu }^{-}+{\nu}_{\mu}+{\overline{v}}_{\tau }\\ ⇒{\mu }^{-}\text{  antiparticle of }{\mu }^{+}\mathrm{; }{\nu}_{\mu}\text{  of }{\overline{v}}_{\mu }\mathrm{; }{\overline{v}}_{\tau }\text{  of }{v}_{\tau }\end{array} $$
+**(a)** Neglecting neutrino masses, $$Q=(1777-105.7)\text{ MeV}\approx1671\text{ MeV}$$.
+
+**(b)** For $$\tau^+\to\mu^++\nu_\mu+\bar\nu_\tau$$, charge is $$+1=+1+0+0$$. Tau family number is $$-1=0+0-1$$, muon family number is $$0=-1+1+0$$, and electron family number is zero on both sides.
+
+**(c)** The conjugate decay is
+
+$$\tau^-\to\mu^-+\bar\nu_\mu+\nu_\tau.$$
+
+Each product is the antiparticle of the corresponding product in the positive-tau decay.
 
 :::
 
@@ -1057,37 +1063,17 @@ responsible? State why or why not.
 
 ::: solution
 
-**Strategy**
+**(a)** $$Q=(1192.6-1115.7)\text{ MeV}=76.9\text{ MeV}$$, shared by the photon and the recoiling Λ⁰.
 
-For part (a), we use the masses from [[Table 1]](#Table1): $${\Sigma}^{0}$$ has mass 1192.6 MeV/$$c^2$$ and $${\Lambda}^{0}$$ has mass 1115.7 MeV/$$c^2$$. For parts (b)-(d), we examine quark structure, conservation laws, and force characteristics.
+**(b)** Both baryons have uds quark content and total spin ½. The Σ⁰ is a higher-energy configuration, with the u and d quarks coupled to isospin 1, while the Λ⁰ has isospin 0. Their difference is not a difference in total spin.
 
-**Solution**
+**(c)** Strangeness is $$-1=-1+0$$, charge is $$0=0+0$$, and baryon number is $$1=1+0$$.
 
-(a) The energy released is the mass difference:
-
-<div class="equation">
-$$Q = (m_{\Sigma^{0}} - m_{\Lambda^{0}} - m_{\gamma}) c^2 = (1192.6 - 1115.7 - 0) \text{ MeV} = 76.9 \text{ MeV}$$
-</div>
-
-(b) From quark tables, both $${\Sigma}^{0}$$ and $${\Lambda}^{0}$$ have the quark composition _uds_ (one up, one down, one strange quark). Since they have identical quark content but different masses and spins, **yes, the $${\Sigma}^{0}$$ appears to be an excited state of the $${\Lambda}^{0}$$**. The extra 76.9 MeV represents the excitation energy.
-
-(c) **Conservation checks:**
-- **Strangeness:** $$S = -1$$ before ($${\Sigma}^{0}$$), $$S = -1 + 0 = -1$$ after ($${\Lambda}^{0} + \gamma$$) ✓
-- **Charge:** $$Q = 0$$ before, $$Q = 0 + 0 = 0$$ after ✓
-- **Baryon number:** $$B = +1$$ before, $$B = +1 + 0 = +1$$ after ✓
-
-All three quantum numbers are conserved.
-
-(d) **No, the weak force cannot be responsible** for this decay. The evidence:
-1. **Strangeness is conserved**, which indicates the strong or electromagnetic force (the weak force violates strangeness conservation)
-2. **The lifetime is extremely short** ($$7.4 \times 10^{-20}$$ s), characteristic of electromagnetic decay, not weak decay which typically has lifetimes of $$10^{-10}$$ s or longer
-3. **A photon is emitted**, which is characteristic of an electromagnetic transition
-
-This is an electromagnetic decay of an excited baryon state, analogous to an atomic electron transitioning to a lower energy level and emitting a photon.
+**(d)** The very short lifetime and photon emission identify an electromagnetic transition. Conservation of strangeness alone does not exclude a weak process, but the observed rate is characteristic of electromagnetic decay.
 
 **Discussion**
 
-This decay is a beautiful example of how particle physics mirrors atomic physics. Just as atoms have excited states that decay by photon emission, baryons can also exist in excited states. The $${\Sigma}^{0}$$ is essentially a $${\Lambda}^{0}$$ with its quarks in an excited configuration—perhaps with different relative spins or orbital angular momenta. The electromagnetic force mediates the transition, conserving strangeness (unlike weak decays), and the process is very rapid (unlike weak decays). The photon carries away the 76.9 MeV excitation energy. After this electromagnetic decay, the $${\Lambda}^{0}$$ itself will eventually decay via the weak force (which can change strangeness) with its much longer lifetime of $$2.63 \times 10^{-10}$$ s.
+Different internal quark configurations can have different masses even when quark content and total spin agree. The electromagnetic transition connects the higher-mass Σ⁰ to the Λ⁰.
 
 :::
 
@@ -1130,45 +1116,15 @@ in the mass of the tau neutrino? Discuss the source of the uncertainty.
 
 ::: solution
 
-**Strategy**
+**(a)** With $$\Delta t=2.91\times10^{-13}\text{ s}$$, the section's uncertainty estimate gives
 
-For part (a), we use the Heisenberg uncertainty principle $$\Delta E \Delta t \geq \frac{h}{4\pi}$$ with the lifetime of the tau from [[Table 1]](#Table1): $$\tau = 2.91 \times 10^{-13}$$ s. For part (b), we compare this energy uncertainty to the experimental upper limit on the tau neutrino mass.
+$$\Delta E\approx\frac{h}{4\pi\Delta t}=1.81\times10^{-22}\text{ J}=1.13\times10^{-3}\text{ eV}.$$
 
-**Solution**
-
-(a) Using the Heisenberg uncertainty principle:
-
-<div class="equation">
-$$\Delta E \approx \frac{h}{4\pi \Delta t} = \frac{6.63 \times 10^{-34} \text{ J·s}}{4\pi (2.91 \times 10^{-13} \text{ s})}$$
-</div>
-
-<div class="equation">
-$$\Delta E \approx \frac{6.63 \times 10^{-34}}{3.66 \times 10^{-12}} \text{ J} = 1.81 \times 10^{-22} \text{ J}$$
-</div>
-
-Converting to eV:
-
-<div class="equation">
-$$\Delta E = \frac{1.81 \times 10^{-22} \text{ J}}{1.60 \times 10^{-19} \text{ J/eV}} = 1.13 \times 10^{-3} \text{ eV} \approx 1.1 \text{ meV}$$
-</div>
-
-(b) From [[Table 1]](#Table1), the experimental upper limit on the tau neutrino mass is less than 31 MeV/$$c^2$$ = 31,000,000 eV. The uncertainty in the tau decay energy ($$\sim 1.1 \times 10^{-3}$$ eV) is **vastly smaller** than the uncertainty in the neutrino mass.
-
-The ratio is:
-
-<div class="equation">
-$$\frac{\Delta E_{\tau}}{\Delta m_{\nu_{\tau}}c^2} = \frac{1.1 \times 10^{-3} \text{ eV}}{3.1 \times 10^{7} \text{ eV}} \approx 3.5 \times 10^{-11}$$
-</div>
+**(b)** The direct kinematic upper bound quoted in Table 1 is $$m_{\nu_\tau}^{\mathrm{eff}}c^2<18.2\text{ MeV}$$. The lifetime energy scale is about $$6.2\times10^{-11}$$ of that bound. An upper bound is not a measured mass uncertainty; this comparison shows that the intrinsic lifetime scale is far below the scale of the quoted experimental bound.
 
 **Discussion**
 
-The energy uncertainty from the tau's finite lifetime is about 1.1 millielectronvolts (meV), which is incredibly small—ten billion times smaller than the upper limit on the tau neutrino mass. This demonstrates two different sources of uncertainty:
-
-1. **Quantum uncertainty from finite lifetime**: The tau's lifetime of $$2.91 \times 10^{-13}$$ s leads to an intrinsic energy uncertainty via the Heisenberg principle. This is a fundamental quantum mechanical effect—short-lived particles have broader energy distributions.
-
-2. **Experimental uncertainty in neutrino mass**: The much larger uncertainty in the neutrino mass (< 31 MeV) comes from experimental limitations in measuring such tiny masses. Neutrinos interact so weakly that determining their masses precisely is extremely challenging.
-
-The fact that the lifetime-induced uncertainty is negligible compared to the neutrino mass uncertainty means that the tau's finite lifetime doesn't significantly hamper our ability to measure the neutrino mass—the limitation is purely experimental. Recent experiments suggest the tau neutrino mass is actually much smaller than 31 MeV, possibly even zero like its counterparts, but this remains an area of active research.
+Finite-lifetime energy spread and limitations of a kinematic mass measurement are distinct. Neutrino oscillations establish that at least two neutrino mass eigenstates have nonzero mass, but do not fix the absolute masses.
 
 :::
 
@@ -1183,8 +1139,7 @@ The fact that the lifetime-induced uncertainty is negligible compared to the neu
 * [2](#footnote-ref2){: class=" footnote-ref-link"} <span class="footnote-ref-content">Lifetimes are
   traditionally given as $${t}_{1/2}/ 0.693 $$
   (which is $$1/\lambda $$ , the inverse of the decay constant).</span> {: class="footnote-ref" #footnote2}
-* [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content">Neutrino masses may be
-  zero. Experimental upper limits are given in parentheses.</span> {: class="footnote-ref" #footnote3}
+* [3](#footnote-ref3){: class=" footnote-ref-link"} <span class="footnote-ref-content">Neutrino flavors are mixtures of mass eigenstates. Oscillations establish nonzero mass differences, so at least two mass eigenstates have nonzero mass; the lightest mass is not yet determined. The tau-neutrino entry is a direct kinematic bound on an effective mass, not a measured mass. See the [Particle Data Group review](https://pdg.lbl.gov/2025/reviews/rpp2025-rev-neutrino-mixing.pdf).</span> {: class="footnote-ref" #footnote3}
 * [4](#footnote-ref4){: class=" footnote-ref-link"} <span class="footnote-ref-content">Experimental lower
   limit is $$>5 \times 10^{32} $$ for proposed mode of decay.</span>
   { data-list-type="bulleted" data-bullet-style="none"} {: class="footnote-ref" #footnote4}

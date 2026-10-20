@@ -6,6 +6,8 @@ This appendix is broken into several tables.
 
 - [Important Constants](#Important-Constants)
 - [Submicroscopic Masses](#Submicroscopic-Masses)
+- [Atomic Masses for Nuclear Exercises](#Atomic-Masses)
+- [Selected Radioactive Isotopes](#Radioactive-Isotopes)
 - [The Greek Alphabet](#The-Greek-Alphabet)
 - [Metric Prefixes for Powers of Ten and Their Symbols](#Metric-Prefixes-for-Powers-of-Ten-and-Their-Symbols)
 - [Solar System Data](#Solar-System-Data)
@@ -157,3 +159,69 @@ Numbers without uncertainties are exact as defined.
 | |1 millimeter of mercury ( mm Hg ) $$=133.3 \text{Pa} $$ |
 | |1 torricelli ( torr ) = 1 mmHg $$ =133.3 \text{Pa} $$ |
 | Nuclear decay rate |1 curie ( Ci ) $$ =3.70 \times 10^{10} \text{Bq} $$ |
+
+
+### Atomic Masses for Nuclear Exercises
+{: #Atomic-Masses}
+
+These are **neutral-atom masses**, in u; the neutron is listed separately. Use masses explicitly supplied in a problem when they differ in the last digits. Values are rounded for the exercises from the [OpenStax atomic-mass table](https://openstax.org/books/college-physics/pages/a-atomic-masses).
+
+| Nuclide | Z | Mass (u) |
+| --- | ---: | ---: |
+| n | 0 | 1.008665 |
+| ¹H | 1 | 1.007825 |
+| ²H | 1 | 2.014102 |
+| ³H | 1 | 3.016050 |
+| ³He | 2 | 3.016030 |
+| ⁴He | 2 | 4.002603 |
+| ⁶Li | 3 | 6.015121 |
+| ⁷Li | 3 | 7.016003 |
+| ⁷Be | 4 | 7.016928 |
+| ¹²C | 6 | 12.000000 |
+| ¹⁴C | 6 | 14.003241 |
+| ¹⁴N | 7 | 14.003074 |
+| ¹⁵N | 7 | 15.000108 |
+| ¹⁵O | 8 | 15.003065 |
+| ⁵⁶Fe | 26 | 55.934939 |
+| ⁵⁸Ni | 28 | 57.935346 |
+| ⁹⁰Sr | 38 | 89.907738 |
+| ⁹⁰Y | 39 | 89.907152 |
+| ⁹⁸Mo | 42 | 97.905406 |
+| ²⁰⁸Pb | 82 | 207.976627 |
+| ²⁰⁹Bi | 83 | 208.980374 |
+| ²²²Rn | 86 | 222.017570 |
+| ²²⁶Ra | 88 | 226.025402 |
+| ²³¹Pa | 91 | 231.035880 |
+| ²³⁵U | 92 | 235.043924 |
+| ²³⁸U | 92 | 238.050784 |
+| ²³⁹U | 92 | 239.054289 |
+| ²³⁹Np | 93 | 239.052933 |
+| ²³⁹Pu | 94 | 239.052157 |
+| ²⁴⁵Cm | 96 | 245.065483 |
+| ²⁴⁹Cf | 98 | 249.074844 |
+
+### Selected Radioactive Isotopes
+{: #Radioactive-Isotopes}
+
+Rounded half-lives used in the exercises are listed below; a value supplied in an individual problem takes precedence. Sources: OpenStax [atomic masses](https://openstax.org/books/college-physics/pages/a-atomic-masses) and [selected radioactive isotopes](https://openstax.org/books/college-physics/pages/b-selected-radioactive-isotopes).
+
+| Isotope | Half-life |
+| --- | ---: |
+| ³H | 12.33 y |
+| ¹⁴C | 5730 y |
+| ⁴⁰K | 1.277 × 10⁹ y |
+| ⁶⁰Co | 5.271 y |
+| ⁶⁵Zn | 244 d |
+| ⁹⁰Sr | 28.8 y |
+| ¹³¹I | 8.040 d |
+| ¹³⁷Cs | 30.2 y |
+| ²²⁶Ra | 1600 y |
+| ²³²Th | 1.405 × 10¹⁰ y |
+| ²³³U | 1.59 × 10⁵ y |
+| ²³⁴U | 2.45 × 10⁵ y |
+| ²³⁵U | 7.04 × 10⁸ y |
+| ²³⁸U | 4.47 × 10⁹ y |
+| ²³⁸Pu | 87.7 y |
+| ²³⁹Pu | 2.41 × 10⁴ y |
+
+For the uranium-glass activity exercise, use natural uranium number fractions of **0.0055% ²³⁴U, 0.7200% ²³⁵U, and 99.2745% ²³⁸U**, with approximate molar masses equal to their mass numbers in g/mol. Include all three parent isotopes, and neglect their daughters as instructed. These rounded abundances are the conventions used by the exercises.

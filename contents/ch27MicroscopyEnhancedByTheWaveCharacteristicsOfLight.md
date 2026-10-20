@@ -221,7 +221,7 @@ If the prism is made of glass (n ≈ 1.5-1.9) or plastic (n ≈ 1.4-1.6), and th
 - The angular separation between colors will be smaller than in air
 - Colors still appear in the standard sequence: violet deviates most, red deviates least
 
-**Case 2: Crown glass prism where n_prism < n_water**
+**Case 2: Hypothetical lower-index prism where n_prism < n_water**
 
 For some materials (though rare), if n_prism < n_water:
 - Total internal reflection might occur at certain angles

@@ -311,12 +311,11 @@ Why don’t we feel the momentum of sunlight when we are on the beach?
 
 **Solution for (b)**
 
-The momentum is very small because the wavelength is large (4.00 cm = 0.04 m). Since photon momentum is inversely proportional to wavelength ($$p = h/\lambda$$), long-wavelength radiation like microwaves carries very little momentum. This is about 20 orders of magnitude smaller than the momentum of a slowly moving baseball, making the momentum of individual microwave photons essentially negligible for any macroscopic application.
+The momentum is very small because the wavelength is large (4.00 cm = 0.04 m). Since photon momentum is inversely proportional to wavelength ($$p = h/\lambda$$), long-wavelength radiation like microwaves carries very little momentum. This is about 31 orders of magnitude smaller than the momentum of a slowly moving baseball, making the momentum of individual microwave photons essentially negligible for any macroscopic application.
 
 **Discussion**
 
-This tiny momentum ($$1.66 \times 10^{-32}$$ kg·m/s) explains why radiation pressure from microwaves is unmeasurable in everyday situations. Even though a microwave oven might emit $$10^{29}$$ photons per second, the total momentum transfer per second (force) would only be about $$10^{-3}$$ N—roughly the weight of a mosquito. This is why we don't feel pushed by microwave ovens despite their high power output.
-
+A microwave photon has momentum $$1.66\times10^{-32}\text{ kg·m/s}$$. A 1-kW beam at the stated frequency emits about $$5.9\times10^{26}$$ photons per second and exerts a force $$P/c\approx3.3\times10^{-6}\text{ N}$$ if fully absorbed. The collective force is small despite the large photon rate.
 (a)  $$ 1.66 \times 10^{-32}  \text{kg}\cdot \text{m/s} $$
 (b) The wavelength of microwave photons is large, so the momentum they carry is very small.
 

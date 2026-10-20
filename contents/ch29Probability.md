@@ -551,7 +551,7 @@ Solve for minimum lifetime:
 
 **Discussion**
 
-This incredibly short lifetime ($$3.3 \times 10^{-22}$$ s) is typical for unstable elementary particles. For comparison, this is the time it takes light to travel about 0.1 femtometers—less than the diameter of a proton! Such short-lived particles cannot be directly observed; their existence is inferred from the energy distribution of their decay products, which reflects the MeV-scale energy uncertainty predicted by the uncertainty principle.
+This incredibly short lifetime ($$3.3 \times 10^{-22}$$ s) is typical for unstable elementary particles. For comparison, this is the time it takes light to travel about 100 femtometers—many times the diameter of a proton! Such short-lived particles cannot be directly observed; their existence is inferred from the energy distribution of their decay products, which reflects the MeV-scale energy uncertainty predicted by the uncertainty principle.
 
  $$ 3.3 \times 10^{-22}  \text{s} $$
 
@@ -631,7 +631,7 @@ Convert to mass uncertainty using $$\Delta m = \frac{\Delta E}{c^2}$$:
 
 **Discussion**
 
-The mass uncertainty ($$2.67 \times 10^{-46}$$ kg) is incredibly small—about $$10^{-18}$$ times the muon's rest mass ($$1.88 \times 10^{-28}$$ kg). This tiny uncertainty results from the muon's relatively long lifetime of 2.2 microseconds. Despite this small uncertainty, it's measurable and places a fundamental limit on how precisely we can determine the muon's mass. This demonstrates that even "stable" (long-lived) particles have inherent mass uncertainties due to quantum mechanics.
+The mass uncertainty ($$2.67 \times 10^{-46}$$ kg) is incredibly small—about $$10^{-18}$$ times the muon's rest mass ($$1.88 \times 10^{-28}$$ kg). This tiny uncertainty results from the muon's relatively long lifetime of 2.2 microseconds. This intrinsic scale is far below experimental mass-measurement precision; it is not a measurable mass uncertainty at present. This demonstrates that even "stable" (long-lived) particles have inherent mass uncertainties due to quantum mechanics.
 
  $$ 2.66 \times 10^{-46}  \text{kg} $$
 

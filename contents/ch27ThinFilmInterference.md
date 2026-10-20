@@ -896,7 +896,7 @@ At thicknesses less than 33.9 nm, the oil film appears uniformly dark across all
 
 **Strategy**
 
-The air wedge creates a varying thickness that produces interference fringes. There are two phase changes (both at glass surfaces from air), so they cancel. Dark bands occur when $$2t = m\lambda$$ for the air gap. The spacing between dark bands depends on how quickly the thickness changes along the slide.
+The air wedge creates a varying thickness that produces interference fringes. The reflection from the lower surface of the top slide (glass to air) has no phase reversal, while reflection from the bottom slide (air to glass) has a π phase reversal. There is one reflection phase change. Dark bands occur when $$2t = m\lambda$$ for the air gap. The spacing between dark bands depends on how quickly the thickness changes along the slide.
 
 **Solution**
 
@@ -917,7 +917,7 @@ At position x from the contact point, the air gap thickness is:
 $$t(x) = x \tan \alpha \approx x\alpha$$
 </div>
 
-For dark fringes (with two phase changes, net = zero):
+For dark fringes (with one reflection phase change):
 <div class="equation">
 $$2t = m\lambda$$
 </div>
@@ -960,40 +960,19 @@ The fringe spacing of 0.221 mm means there are about 340 dark fringes across the
 
 **Strategy**
 
-This is the inverse of the previous problem. We're given the fringe spacing and need to find the thickness of the debris (height of the air wedge). From the previous problem's analysis, the spacing between dark fringes is $$\Delta x = \frac{\lambda}{2\alpha}$$, where $$\alpha = h/L$$ is the wedge angle. We can rearrange this to solve for h. Note: Considering the geometry of observing fringes with width, the effective spacing formula yields $$h = \frac{\lambda L}{\Delta x}$$.
+For an air wedge, adjacent dark bands differ in thickness by λ/2. With wedge angle $$\alpha\approx h/L$$, their spacing is $$\Delta x=\lambda/(2\alpha)$$.
 
 **Solution**
 
-Given:
-- Length of slides: $$L = 7.50 \text{ cm} = 0.0750 \text{ m}$$
-- Wavelength: $$\lambda = 589 \text{ nm} = 589 \times 10^{-9} \text{ m}$$
-- Dark band spacing: $$\Delta x = 1.00 \text{ mm} = 1.00 \times 10^{-3} \text{ m}$$
+Rearranging gives
 
-For an air wedge with small angle $$\alpha = h/L$$, the relationship between fringe spacing and wedge height is:
+$$h=\frac{\lambda L}{2\Delta x}=\frac{(589\times10^{-9}\text{ m})(0.0750\text{ m})}{2(1.00\times10^{-3}\text{ m})}=2.21\times10^{-5}\text{ m}.$$
 
-<div class="equation">
-$$h = \frac{\lambda L}{\Delta x}$$
-</div>
-
-Substituting the values:
-
-<div class="equation">
-$$h = \frac{(589 \times 10^{-9} \text{ m})(0.0750 \text{ m})}{1.00 \times 10^{-3} \text{ m}}$$
-</div>
-
-<div class="equation">
-$$h = \frac{44.175 \times 10^{-9} \text{ m}^2}{1.00 \times 10^{-3} \text{ m}} = 44.175 \times 10^{-6} \text{ m}$$
-</div>
-
-<div class="equation">
-$$h = 4.42 \times 10^{-5} \text{ m}$$
-</div>
-
-**The thickness of the debris is $$4.42 \times 10^{-5} \text{ m}$$ (or 44.2 μm or 0.0442 mm).**
+The debris is **22.1 μm** thick.
 
 **Discussion**
 
-The debris thickness of 44.2 μm (0.0442 mm) is about half the width of a human hair (~100 μm). This creates a very small wedge angle of $$\alpha = h/L = 4.42 \times 10^{-5}/0.0750 = 5.89 \times 10^{-4}$$ radians (about 0.034°). Despite this tiny angle, it's sufficient to create clearly visible interference fringes spaced 1.00 mm apart. This technique is used in optical testing and precision measurement—known as optical flatness testing. Any deviation in the straightness or uniformity of the fringe pattern indicates surface imperfections in the glass slides. The method can detect height variations as small as a fraction of a wavelength of light.
+The wedge angle is $$h/L=2.95\times10^{-4}\text{ rad}$$. A thickness change of only half a wavelength moves the pattern by one dark fringe, making the method sensitive to small surface irregularities.
 
 :::
 
@@ -1011,45 +990,23 @@ Repeat [[Exercise 1]](#Exercise1), but take the light to be incident at a  $$45 
 
 **Strategy**
 
-Exercise 1 involves calculating wavelengths for thin film interference. At non-normal incidence, we must account for the angle of refraction in the film using Snell's law, and the path length in the film changes. The condition becomes $$2tn\cos \theta_{2} = (m + \frac{1}{2})\lambda$$ where θ₂ is the refraction angle in the film.
+Use the 100-nm soap film with n = 1.33 from Exercise 1. With one reflection phase reversal, constructive reflection requires $$2tn\cos\theta_2=(m+\tfrac12)\lambda$$.
 
 **Solution**
 
-Exercise 1 asks about interference from a thin film. When light is incident at 45°, we need to find the refraction angle in the film.
+Snell's law gives
 
-Using Snell's law at the air-film interface (assuming n_film ~ 1.33 for soap):
+$$\theta_2=\sin^{-1}\left(\frac{\sin45°}{1.33}\right)=32.1°.$$
 
-<div class="equation">
-$$n_1 \sin \theta_{1} = n_2 \sin \theta_{2}$$
-</div>
+For m = 0,
 
-<div class="equation">
-$$(1.00) \sin 45° = (1.33) \sin \theta_{2}$$
-</div>
+$$\lambda=4tn\cos\theta_2=4(100\text{ nm})(1.33)\cos32.1°=450\text{ nm}.$$
 
-<div class="equation">
-$$\sin \theta_{2} = \frac{0.7071}{1.33} = 0.532$$
-</div>
-
-<div class="equation">
-$$\theta_{2} = 32.1°$$
-</div>
-
-The optical path length in the film is now 2tn cos θ₂ (where the cos factor accounts for the longer path at an angle).
-
-For constructive interference with one phase change:
-
-<div class="equation">
-$$2tn\cos \theta_{2} = \left(m + \frac{1}{2}\right)\lambda$$
-</div>
-
-Compared to normal incidence where $$2tn = (m + \frac{1}{2})\lambda$$, the factor $$\cos 32.1° = 0.846$$ means the effective optical path is reduced by about 15%.
-
-This causes the interference pattern to shift - wavelengths that were constructively interfering at normal incidence will no longer do so at 45°, and different colors will be reflected. The film will appear to change color when viewed from different angles.
+Higher orders are ultraviolet. The bubble appears **blue**, compared with the 532-nm green reflection at normal incidence.
 
 **Discussion**
 
-This angle-dependence of color is why soap bubbles and oil slicks show different colors when viewed from different angles. The color you see depends on your viewing angle. This effect is also exploited in security features on currency and in decorative coatings. The exact color shift calculation would require the specific film thickness from Exercise 1, but the principle is clear: tilting the film effectively reduces the optical path length, shifting the interference pattern toward shorter wavelengths.
+The cosine factor reduces the optical path difference at oblique incidence, shifting the reflected maximum toward shorter wavelengths.
 
 :::
 
@@ -1068,54 +1025,21 @@ Repeat [[Exercise 2]](#Exercise2), but take the light to be incident at a  $$45 
 
 **Strategy**
 
-Exercise 2 involved a 120-nm-thick oil slick (n = 1.40) on water that appeared red (672 nm) at normal incidence. At 45° incidence, we must account for the refraction angle in the oil using Snell's law, and the optical path length changes by a factor of cos θ₂. The constructive interference condition becomes: $$2tn\cos\theta_{2} = (m + \frac{1}{2})\lambda$$.
+Use the 120-nm oil film with n = 1.40 from Exercise 2. There is one reflection phase change, so constructive reflection requires $$2tn\cos\theta_2=(m+\tfrac12)\lambda$$.
 
 **Solution**
 
-Given (from Exercise 2):
-- Thickness: $$t = 120 \text{ nm}$$
-- Index of refraction of oil: $$n = 1.40$$
-- Incident angle: $$\theta_{1} = 45°$$
+$$\theta_2=\sin^{-1}\left(\frac{\sin45°}{1.40}\right)=30.3°.$$
 
-First, find the refraction angle in the oil using Snell's law:
+The m = 0 maximum is
 
-<div class="equation">
-$$n_{\text{air}} \sin \theta_{1} = n_{\text{oil}} \sin \theta_{2}$$
-</div>
+$$\lambda=4tn\cos\theta_2=4(120\text{ nm})(1.40)\cos30.3°=580\text{ nm}.$$
 
-<div class="equation">
-$$(1.00) \sin 45° = (1.40) \sin \theta_{2}$$
-</div>
-
-<div class="equation">
-$$\sin \theta_{2} = \frac{0.7071}{1.40} = 0.505$$
-</div>
-
-<div class="equation">
-$$\theta_{2} = 30.3°, \quad \cos \theta_{2} = 0.862$$
-</div>
-
-For constructive interference with one phase change at oblique incidence:
-
-<div class="equation">
-$$2tn\cos\theta_{2} = \left(m + \frac{1}{2}\right)\lambda$$
-</div>
-
-Solving for wavelength:
-
-<div class="equation">
-$$\lambda = \frac{2tn\cos\theta_{2}}{m + \frac{1}{2}} = \frac{2(120)(1.40)(0.862)}{m + 0.5} = \frac{290}{m + 0.5} \text{ nm}$$
-</div>
-
-Calculate for different orders:
-- **m = 0:** $$\lambda = 290/0.5 = 580 \text{ nm}$$ (yellow-orange, borderline visible)
-- **m = 1:** $$\lambda = 290/1.5 = 193 \text{ nm}$$ (UV, not visible)
-
-Compared to normal incidence (672 nm red), the reflected wavelength shifts to 580 nm at 45°. However, at this oblique angle, the reflectivity is significantly reduced, and 580 nm is at the edge of the yellow-green range where the eye's sensitivity begins to diminish. Combined with the angular effects reducing the reflected intensity, **the oil film appears very dark or black.**
+The next order is 193 nm, in the ultraviolet. The visible reflection is **yellow**.
 
 **Discussion**
 
-The shift from 672 nm (red) at normal incidence to 580 nm (yellow) at 45° demonstrates how thin film colors change dramatically with viewing angle. This is why soap bubbles and oil slicks display shifting, iridescent colors as you move your head. The reduced wavelength (from 672 to 580 nm, about 14% shorter) occurs because the factor cos θ₂ = 0.862 reduces the effective optical path length. Additionally, at 45° incidence, Fresnel reflection coefficients are generally lower, meaning less light is reflected overall. The combination of wavelength shift to a region of lower eye sensitivity plus reduced reflection intensity causes the film to appear much darker—essentially black—compared to its bright red appearance at normal incidence.
+The film's reflected maximum shifts from 672-nm red at normal incidence to 580-nm yellow at 45°. This wavelength is near the eye's peak sensitivity; the interference calculation provides no basis for declaring the film black.
 
 :::
 
@@ -1141,7 +1065,7 @@ assumptions are unreasonable or inconsistent?
 
 **Strategy**
 
-For a non-reflective (anti-reflection) coating, we need destructive interference of reflected waves. With n_air (1.00) < n_coating (1.20) < n_aircraft (assume ~metal, very high n), there's one phase change. For destructive interference: $$2tn = (m + \frac{1}{2})\lambda$$. The minimum thickness uses m = 0.
+For a non-reflective (anti-reflection) coating, we need destructive interference of reflected waves. With n_air (1.00) < n_coating (1.20) < n_aircraft (assume ~metal, very high n), there are two reflection phase reversals, with no net relative reversal in this idealized higher-index substrate model. For destructive interference: $$2tn = (m + \frac{1}{2})\lambda$$. The minimum thickness uses m = 0.
 
 **Solution**
 
@@ -1180,7 +1104,7 @@ A coating thickness of **8.33 mm (almost 1 cm)** is extremely impractical for ai
 
 **(c) Which assumptions are unreasonable or inconsistent?**
 
-The main unreasonable assumptions are:
+A real metal has a complex refractive index, so its reflection phase and amplitude require a more complete model. Phase opposition alone does not ensure cancellation unless the reflected amplitudes match. Other limitations are:
 
 1. **Radar wavelengths are much longer than optical wavelengths**: Radar operates at cm wavelengths, while anti-reflection coatings for visible light are only ~100 nm thick. The coating thickness scales with wavelength.
 

@@ -544,7 +544,7 @@ The enormous $$\gamma$$ factor of $$10^5$$ shows that despite having a tiny mass
 
 The photon arrives only about 3 minutes sooner after a journey of 120,000 years! This tiny difference is completely negligible compared to the uncertainties in when specific neutrinos and photons were emitted and the detection efficiency. The fact that neutrinos from SN 1987A were detected within hours of the optical brightening places strong constraints on the neutrino mass but cannot determine it precisely.
 
-This observation was historic—it was the first time neutrinos were detected from a supernova, confirming theoretical predictions about stellar collapse and supernova mechanisms. The near-simultaneous arrival of neutrinos and photons after traveling 120,000 light years demonstrates that neutrinos have very small (possibly zero) mass and travel at speeds indistinguishable from light speed over astronomical distances. Modern experiments suggest neutrino masses are even smaller than 7 eV/$$c^2$$, possibly less than 0.1 eV/$$c^2$$.
+This observation was historic—it was the first time neutrinos were detected from a supernova, confirming theoretical predictions about stellar collapse and supernova mechanisms. The near-simultaneous arrival of neutrinos and photons after traveling 120,000 light years demonstrates that neutrinos have very small masses on this energy scale and travel at speeds indistinguishable from light speed over astronomical distances. Neutrino oscillations establish nonzero mass differences and at least two nonzero mass eigenvalues. The time-of-flight argument alone sets an upper bound, rather than determining the absolute masses.
 
 :::
 

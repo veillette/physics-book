@@ -920,18 +920,18 @@ Use $$P = 1/f$$ for both the minimum and maximum focal lengths, converting to me
 
 **Solution**
 
-For the minimum focal length (telephoto setting):
+For the maximum focal length (longer telephoto setting):
 <div class="equation">
-$$f_{\text{min}} = 200 \text{ mm} = 0.200 \text{ m}$$
+$$f_{\text{max}} = 200 \text{ mm} = 0.200 \text{ m}$$
 </div>
 
 <div class="equation">
 $$P_{\text{min}} = \frac{1}{0.200 \text{ m}} = 5.00 \text{ D}$$
 </div>
 
-For the maximum focal length (wide-angle setting):
+For the minimum focal length (shorter telephoto setting):
 <div class="equation">
-$$f_{\text{max}} = 80.0 \text{ mm} = 0.0800 \text{ m}$$
+$$f_{\text{min}} = 80.0 \text{ mm} = 0.0800 \text{ m}$$
 </div>
 
 <div class="equation">
@@ -942,7 +942,7 @@ $$P_{\text{max}} = \frac{1}{0.0800 \text{ m}} = 12.5 \text{ D}$$
 
 **Discussion**
 
-The zoom lens can vary its power from 5.00 D (telephoto, longer focal length) to 12.5 D (wide-angle, shorter focal length). This 2.5× zoom range is typical for standard camera zoom lenses. Note that higher power (shorter focal length) provides a wider field of view, while lower power (longer focal length) magnifies distant objects. This is a 80-200 mm zoom, which in 35 mm camera terms goes from a moderate telephoto to a longer telephoto focal length.
+The zoom lens can vary its power from 5.00 D (telephoto, longer focal length) to 12.5 D (shorter telephoto focal length). This 2.5× zoom range is typical for standard camera zoom lenses. Note that higher power (shorter focal length) provides a wider field of view, while lower power (longer focal length) magnifies distant objects. This is a 80-200 mm zoom, which in 35 mm camera terms goes from a moderate telephoto to a longer telephoto focal length.
 
 :::
 
@@ -1179,7 +1179,7 @@ A camera lens used for taking close-up photographs has a focal length of 22.0 mm
 
 (a) 6.60 cm
 
-(b) –0.333
+(b) −0.500
 
 :::
 

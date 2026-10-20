@@ -369,7 +369,7 @@ Use the de Broglie relation $$\lambda = \frac{h}{mv}$$ and solve for velocity.
 
 **Discussion**
 
-This velocity is absurdly small—about $$10^{-32}$$ m/s! For comparison, this is so slow that the billiard ball would take longer than the age of the universe to move the diameter of a proton. This demonstrates why we never observe wave behavior in macroscopic objects: their de Broglie wavelengths only become significant at impossibly low velocities. For reasonable velocities, macroscopic objects have wavelengths far too small to produce observable quantum effects.
+This velocity is absurdly small—about $$10^{-32}$$ m/s! For comparison, this is so slow that the billiard ball would take about 2.4 billion years to move a proton diameter, less than the age of the universe but still enormously long. This demonstrates why we never observe wave behavior in macroscopic objects: their de Broglie wavelengths only become significant at impossibly low velocities. For reasonable velocities, macroscopic objects have wavelengths far too small to produce observable quantum effects.
 
  $$ 2.21 \times 10^{-32} \text{ m/s}$$
 

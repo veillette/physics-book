@@ -328,7 +328,7 @@ A neutron generator uses an  $$\alpha  $$
 
 Neutrons from a source (perhaps the one discussed in the preceding problem) bombard natural molybdenum, which is 24 percent  $${}^{98}\text{Mo} $$ .
  What is the energy output of the reaction  $${}^{98}\text{Mo}+n\to {}^{99}\text{Mo}+\gamma  $$ ?
-The mass of  $${}^{98}\text{Mo} $$ is given in [Appendix A: Atomic Masses](../contents/appendixA), and that of  $${}^{99}\text{Mo} $$
+The mass of  $${}^{98}\text{Mo} $$ is given in [Appendix A, Atomic Masses](../contents/appendixA#Atomic-Masses), and that of  $${}^{99}\text{Mo} $$
  is 98.907711 u.
 
 :::
@@ -337,7 +337,7 @@ The mass of  $${}^{98}\text{Mo} $$ is given in [Appendix A: Atomic Masses](../co
 
 **Strategy**
 
-The energy released in this neutron capture reaction is found from the mass defect: $$E = (\Delta m)c^{2}$$, where $$\Delta m = m_{\text{reactants}} - m_{\text{products}}$$. We need to look up the mass of $${}^{98}\text{Mo}$$ from Appendix A (97.905406 u) and use the given mass of $${}^{99}\text{Mo}$$ (98.907711 u). The neutron mass is 1.008665 u.
+The energy released in this neutron capture reaction is found from the mass defect: $$E = (\Delta m)c^{2}$$, where $$\Delta m = m_{\text{reactants}} - m_{\text{products}}$$. We need to look up the mass of $${}^{98}\text{Mo}$$ from [Appendix A](../contents/appendixA#Atomic-Masses) (97.905406 u) and use the given mass of $${}^{99}\text{Mo}$$ (98.907711 u). The neutron mass is 1.008665 u.
 
 **Solution**
 
@@ -409,35 +409,17 @@ to get a position resolution of 1.00 mm?
 
 ::: solution
 
-**Strategy**
+**(a)** The 9.00-cm difference in photon path lengths gives
 
-Gamma rays (photons) travel at the speed of light $$c = 3.00 \times 10^{8} \text{ m/s}$$. The time difference is found from $$\Delta t = \Delta d / c$$, where $$\Delta d$$ is the difference in distance traveled. For part (a), $$\Delta d = 9.00 \text{ cm}$$. For part (b), we need $$\Delta d = 1.00 \text{ mm}$$ resolution.
+$$\Delta t=\frac{0.0900\text{ m}}{3.00\times10^8\text{ m/s}}=0.300\text{ ns}.$$
 
-**Solution**
+**(b)** Moving the origin by x along the line between the detectors shortens one path by x and lengthens the other by x. Hence a 1.00-mm position change produces a 2.00-mm change in path difference:
 
-(a) Convert distance to meters and calculate time difference:
-
-<div class="equation">
-$$ \Delta d = 9.00 \text{ cm} = 0.0900 \text{ m} $$
-</div>
-
-<div class="equation">
-$$ \Delta t = \frac{\Delta d}{c} = \frac{0.0900 \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 3.00 \times 10^{-10} \text{ s} = 0.300 \text{ ns} $$
-</div>
-
-(b) For 1.00 mm resolution:
-
-<div class="equation">
-$$ \Delta d = 1.00 \text{ mm} = 1.00 \times 10^{-3} \text{ m} $$
-</div>
-
-<div class="equation">
-$$ \Delta t = \frac{1.00 \times 10^{-3} \text{ m}}{3.00 \times 10^{8} \text{ m/s}} = 3.33 \times 10^{-12} \text{ s} = 3.33 \text{ ps} $$
-</div>
+$$\delta t=\frac{2\delta x}{c}=\frac{2(1.00\times10^{-3}\text{ m})}{3.00\times10^8\text{ m/s}}=6.67\text{ ps}.$$
 
 **Discussion**
 
-These incredibly short time intervals illustrate both the potential and the challenge of using time-of-flight information in PET imaging. In part (a), the time difference of 0.300 nanoseconds for a 9-cm offset is at the edge of what modern electronics can reliably measure. Current state-of-the-art PET scanners can achieve timing resolution of about 200-500 picoseconds, which would give position resolution of about 3-7.5 cm. To achieve the 1-mm resolution specified in part (b) would require measuring time differences of only 3.33 picoseconds—more than 60 times better than current technology! This is why conventional PET relies primarily on coincidence detection (detecting that two photons arrived at nearly the same time on opposite detectors) rather than precise time-of-flight measurements. The coincidence requirement determines that the photons came from somewhere along the line connecting the two detectors, and computer tomography techniques reconstruct the image from many such lines. Modern "time-of-flight PET" (TOF-PET) scanners do use the achievable ~200-500 ps timing resolution to narrow down the position along each line to about 3-7 cm, which significantly improves image quality and reduces scanning time. However, the fundamental spatial resolution of PET (about 4-6 mm) is still limited by other factors including positron range (the distance the positron travels before annihilation) and photon non-collinearity (the annihilation photons aren't exactly 180° apart due to the momentum of the positron-electron pair).
+Position resolution along the detector line follows $$\delta x=c\delta t/2$$. Measuring picosecond arrival-time differences is challenging, so time-of-flight information narrows a region along the line rather than specifying an exact interaction point.
 
 :::
 

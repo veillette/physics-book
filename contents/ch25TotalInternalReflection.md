@@ -335,7 +335,7 @@ The most common type of mirage is an illusion that light from faraway objects is
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -368,7 +368,7 @@ This confirms that the critical angle for light going from water to air is $$48.
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -405,7 +405,7 @@ Diamond's very small critical angle (24.4°) is why it sparkles so brilliantly. 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -421,7 +421,7 @@ An optical fiber uses flint glass clad with crown glass. What is the critical an
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -455,7 +455,7 @@ This very large critical angle (close to 90°) means that light must be travelin
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -472,7 +472,7 @@ Suppose you are using total internal reflection to make an efficient corner refl
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -510,7 +510,7 @@ The critical angle changes significantly depending on the surrounding medium. Wh
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -529,7 +529,7 @@ A ray of light, emitted beneath the surface of an unknown liquid with air above 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 

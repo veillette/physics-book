@@ -444,7 +444,7 @@ For a highly relativistic particle, $$E \approx pc$$, so:
 
 **Discussion**
 
-This electron has a Lorentz factor of nearly 100,000, meaning it's traveling at 0.9999999% of the speed of light. Its wavelength (0.0248 fm) is about 1/200 the size of a proton, making it suitable for probing quark structure inside nucleons. The Stanford Linear Accelerator produced such high-energy electrons to study the fundamental structure of matter at the smallest accessible scales.
+This electron has a Lorentz factor of nearly 100,000, meaning it's traveling at about 99.999999995% of the speed of light. Its wavelength (0.0248 fm) is about 1/200 the size of a proton, making it suitable for probing quark structure inside nucleons. The Stanford Linear Accelerator produced such high-energy electrons to study the fundamental structure of matter at the smallest accessible scales.
 
 (a) $$ 9.78 \times 10^{4}$$
 
@@ -516,7 +516,7 @@ Or in arcseconds:
 
 **Discussion**
 
-The electron microscope can resolve points separated by an angle as small as $$6.10 \times 10^{-7}$$ radians or 0.126 arcseconds. This extraordinary resolution results from the extremely short wavelength (1.00 pm) of the electrons compared to the aperture size. This is about 500,000 times better angular resolution than the human eye and demonstrates why electron microscopes can image atomic-scale features. The resolution is limited only by the wavelength and aperture size, not by the wave nature of the electrons themselves.
+The electron microscope can resolve points separated by an angle as small as $$6.10 \times 10^{-7}$$ radians or 0.126 arcseconds. This extraordinary resolution results from the extremely short wavelength (1.00 pm) of the electrons compared to the aperture size. This is about 400 times better angular resolution than the human eye and demonstrates why electron microscopes can image atomic-scale features. The resolution is limited only by the wavelength and aperture size, not by the wave nature of the electrons themselves.
 
 $$ 6.10 \times 10^{-7} \text{ rad}$$ or $$ 3.49 \times 10^{-5}°$$ or 0.126 arcsec
 
@@ -567,8 +567,13 @@ produce the same pattern for 1.00-keV protons.
 
 ::: solution
 
-(a)  $$ 2.30 \times 10^{-6}  \text{m} $$
-(b)  $$ 3.20 \times 10^{-12}  \text{m} $$
+**Solution**
+
+The second minimum has $$d\sin\theta=\tfrac32\lambda$$ (the first has $$\tfrac12\lambda$$).
+
+**(a)** $$d=1.5(650\text{ nm})/\sin45.0°=1.38\times10^{-6}\text{ m}$$.
+
+**(b)** For 1.00-keV protons, $$\lambda=h/\sqrt{2m_pK}=9.06\times10^{-13}\text{ m}$$. Thus $$d=1.5\lambda/\sin45.0°=1.92\times10^{-12}\text{ m}$$.
 
 :::
 
@@ -752,7 +757,7 @@ From $$\gamma = 1/\sqrt{1-v^2/c^2}$$:
 
 **Discussion**
 
-This 1-fm gamma ray carries enormous energy (1.24 GeV), typical of nuclear processes. An electron with the same momentum would be extremely relativistic ($$\gamma = 2430$$), traveling at 99.999991% the speed of light. Interestingly, the electron's kinetic energy nearly equals the photon energy because both are highly relativistic. Such high energies are needed to probe nuclear structure because the wavelength must be comparable to nuclear dimensions (1-10 fm).
+This 1-fm gamma ray carries energy of 1.24 GeV, far above typical MeV-scale nuclear decay energies. An electron with the same momentum would be extremely relativistic ($$\gamma = 2430$$), traveling at 99.999991% the speed of light. Interestingly, the electron's kinetic energy nearly equals the photon energy because both are highly relativistic. Such high energies are needed to probe nuclear structure because the wavelength must be comparable to nuclear dimensions (1-10 fm).
 
 (a) $$ 6.63 \times 10^{-19} \text{ kg·m/s}$$
 

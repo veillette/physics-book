@@ -465,7 +465,7 @@ $$d = \frac{410 \times 10^{-9}}{1.4142} = 2.90 \times 10^{-7} \text{ m} = 290 \t
 
 **Discussion**
 
-This slit separation is remarkably small - less than the wavelength of visible light! At such a small separation (d < λ), only the central maximum and perhaps one or two orders would be visible before reaching 90°. The fact that the first minimum occurs at 45° indicates that this is a very closely spaced double slit. Such small separations are at the limits of conventional optical fabrication and would require specialized techniques like electron beam lithography to create.
+This slit separation is remarkably small - less than the wavelength of visible light! At such a small separation (d < λ), only the central maximum exists; no first-order or higher maxima can occur. The fact that the first minimum occurs at 45° indicates that this is a very closely spaced double slit. Such small separations are at the limits of conventional optical fabrication and would require specialized techniques like electron beam lithography to create.
 
 :::
 

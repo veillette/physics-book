@@ -603,7 +603,7 @@ If you use an Earth-based telescope to project a laser beam onto the Moon, you c
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -636,7 +636,7 @@ The electron's rest energy of 0.512 MeV (or 511 keV) is one of the most importan
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -668,7 +668,7 @@ The proton's rest mass energy is approximately 938 MeV, a fundamental constant i
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -706,7 +706,7 @@ The neutron is heavier than the proton by about 1.3 MeV/c², or $$2.3 \times 10^
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -735,7 +735,7 @@ $$N = \frac{E_{\text{available}}}{E_{\text{star}}} = \frac{5 \times 10^{67}}{3.6
 
 **Discussion**
 
-Half the Big Bang energy could theoretically create about $$1.4 \times 10^{20}$$ (140 billion) stars the size of our Sun! For perspective, the observable universe contains an estimated $$10^{24}$$ stars, which is 10,000 times more than this calculation suggests. This apparent discrepancy makes sense because:
+Half the Big Bang energy could theoretically create about $$1.4 \times 10^{20}$$ (140 quintillion) stars the size of our Sun! For perspective, the observable universe contains an estimated $$10^{24}$$ stars, which is 10,000 times more than this calculation suggests. This apparent discrepancy makes sense because:
 
 1. Not all Big Bang energy went into creating matter—much went into kinetic energy, radiation, and dark energy
 2. Most matter in the universe is not in stars (dark matter comprises ~85% of all matter)
@@ -747,7 +747,7 @@ This problem illustrates the mind-boggling energy scale of the Big Bang and demo
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -778,15 +778,15 @@ $$\frac{\Delta m}{m} = \frac{1.11 \times 10^{27}}{2.00 \times 10^{31}} = 5.56 \t
 
 **Discussion**
 
-About $$1.11 \times 10^{27}$$ kg of mass—roughly 0.6% of Earth's mass or 1/1800 of a solar mass—is converted to energy in this supernova explosion. Yet this represents only 0.0056% of the star's total mass! Even this tiny fraction produces an explosion bright enough to briefly outshine an entire galaxy. The ratio $$5.56 \times 10^{-5}$$ (about 1 part in 18,000) demonstrates that nuclear processes, while far more efficient than chemical reactions, still convert only a small percentage of available mass to energy.
+About $$1.11 \times 10^{27}$$ kg of mass—about 190 Earth masses or 1/1800 of a solar mass—is converted to energy in this supernova explosion. Yet this represents only 0.0056% of the star's total mass! Even this tiny fraction produces an explosion bright enough to briefly outshine an entire galaxy. The ratio $$5.56 \times 10^{-5}$$ (about 1 part in 18,000) demonstrates that nuclear processes, while far more efficient than chemical reactions, still convert only a small percentage of available mass to energy.
 
-Most supernova energy comes from gravitational collapse releasing the star's gravitational binding energy, not from mass directly converting to energy in the explosion itself. The actual mass defect in the nuclear reactions forming iron-peak elements is much smaller. This problem illustrates the immense energy scales involved in stellar death—$$10^{44}$$ J is roughly the energy output of our Sun over several million years, all released in seconds!
+Most supernova energy comes from gravitational collapse releasing the star's gravitational binding energy, not from mass directly converting to energy in the explosion itself. The actual mass defect in the nuclear reactions forming iron-peak elements is much smaller. This problem illustrates the immense energy scales involved in stellar death—$$10^{44}$$ J is roughly the energy output of our Sun over about 8 billion years, all released in seconds!
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -822,7 +822,7 @@ The small mass loss (0.89 grams per kilogram) explains why mass-energy equivalen
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -866,7 +866,7 @@ The mass converted (7.1 grams per kilogram) is substantial enough to be measurab
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -894,7 +894,7 @@ $$m_{\text{water}} = \frac{\Delta m}{0.0008} = \frac{1.11 \times 10^{16}}{0.0008
 
 Volume (using density = 1000 kg/m³):
 
-$$V = \frac{m_{\text{water}}}{\rho} = \frac{1.39 \times 10^{19}}{1000} = 1.39 \times 10^{16} \text{ m}^3 = 1.39 \times 10^{13} \text{ km}^3$$
+$$V = \frac{m_{\text{water}}}{\rho} = \frac{1.39 \times 10^{19}}{1000} = 1.39 \times 10^{16} \text{ m}^3 = 1.39 \times 10^{7} \text{ km}^3$$
 
 (c) The oceans contain approximately $$1.4 \times 10^{21}$$ kg of water. The fraction used:
 
@@ -902,13 +902,13 @@ $$\frac{m_{\text{water}}}{m_{\text{oceans}}} = \frac{1.39 \times 10^{19}}{1.4 \t
 
 **Discussion**
 
-Remarkably, utilizing just 10% of the available fusion energy ($$10^{33}$$ out of $$10^{34}$$ J) would consume only about 1% of the ocean's water! This demonstrates the incredible energy density of fusion. The volume involved ($$1.4 \times 10^{13}$$ km³) sounds enormous, but it's tiny compared to the total ocean volume ($$1.4 \times 10^9$$ km³). If fusion power becomes practical, the deuterium in Earth's oceans could power human civilization for millions of years without significantly depleting the oceans. This is one reason fusion is considered the "ultimate" energy source—the fuel is virtually inexhaustible and readily available.
+Remarkably, utilizing just 10% of the available fusion energy ($$10^{33}$$ out of $$10^{34}$$ J) would consume only about 1% of the ocean's water! This demonstrates the incredible energy density of fusion. The volume involved ($$1.4 \times 10^{7}$$ km³) sounds enormous, but it's tiny compared to the total ocean volume ($$1.4 \times 10^9$$ km³). If fusion power becomes practical, the deuterium in Earth's oceans could power human civilization for millions of years without significantly depleting the oceans. This is one reason fusion is considered the "ultimate" energy source—the fuel is virtually inexhaustible and readily available.
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -959,7 +959,7 @@ Such energetic electrons from muon decay are important in cosmic ray physics and
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1004,13 +1004,12 @@ $$v = 0.653c$$
 
 **Discussion**
 
-The muon emerges traveling at about 65% the speed of light. This problem illustrates several important principles: (1) energy conservation applies to particle decays, (2) "missing mass" is converted to kinetic energy, and (3) momentum conservation also applies (the massless particle—a neutrino—carries away momentum to balance the muon's momentum). The fact that the muon takes most of the available energy but not all of it is due to momentum conservation: in the pion's rest frame, the products must have equal and opposite momenta, so the massless neutrino (traveling at $$c$$) must carry significant energy despite having no mass.
-
+The result 0.653c follows from the stipulated assumption that the muon receives all 33.9 MeV. That assumption violates momentum conservation for a pion initially at rest. In the actual two-body decay, the muon and neutrino have equal and opposite momenta. Neglecting the neutrino mass, the muon receives about 4.1 MeV of kinetic energy and moves at about 0.27c; the neutrino receives about 29.8 MeV.
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1050,13 +1049,13 @@ $$\frac{KE_{\text{rel}}}{KE_{\text{class}}} = \frac{6.92 \times 10^5}{4.50 \time
 
 In this imaginary universe with $$c = 45$$ m/s (about 100\text{ mph}), everyday velocities would show dramatic relativistic effects! A car traveling at 30\text{ m}/s (67\text{ mph}) would have $$\gamma = 1.34$$, and its kinetic energy would be 54% greater than classical predictions. The driver would also age more slowly, observers would see the car contracted in length, and accelerating the car would get progressively harder as it approached 45 m/s.
 
-This thought experiment helps us understand why we don't notice relativity in daily life: in our universe with $$c = 3 \times 10^8$$ m/s, this same 30\text{ m}/s represents only $$10^{-7}c$$, giving $$\gamma = 1.0000000000005$$—indistinguishable from 1 for all practical purposes. Relativistic effects scale with $$v^2/c^2$$, so reducing $$c$$ from $$3 \times 10^8$$ to 45\text{ m}/s increases this ratio by a factor of $$10^{13}$$, making relativistic effects readily observable.
+This thought experiment helps us understand why we don't notice relativity in daily life: in our universe with $$c = 3 \times 10^8$$ m/s, this same 30\text{ m}/s represents only $$10^{-7}c$$, giving $$\gamma - 1 \approx 5\times10^{-15}$$—indistinguishable from 1 for all practical purposes. Relativistic effects scale with $$v^2/c^2$$, so reducing $$c$$ from $$3 \times 10^8$$ to 45\text{ m}/s increases this ratio by a factor of $$10^{13}$$, making relativistic effects readily observable.
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1097,7 +1096,7 @@ The alpha particle travels at about 5% the speed of light, or 15,400 km/s. At th
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1145,7 +1144,7 @@ In beta decay, electrons are emitted with a continuous energy spectrum from near
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1199,7 +1198,7 @@ Part (a) shows that electron-positron annihilation releases 1.02 MeV, which appe
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1230,7 +1229,7 @@ $$KE = (0.667)(135) = 90.0 \text{ MeV}$$
 
 **Discussion**
 
-The pion's lifetime measured in the lab ($$1.40 \times 10^{-16}$$ s) is 1.67 times longer than its proper lifetime ($$0.840 \times 10^{-16}$$ s), indicating $$\gamma = 1.67$$. This corresponds to a velocity of about $$v = 0.745c$$. The kinetic energy of 90 MeV is substantial—about 67% of the pion's rest energy.
+The pion's lifetime measured in the lab ($$1.40 \times 10^{-16}$$ s) is 1.67 times longer than its proper lifetime ($$0.840 \times 10^{-16}$$ s), indicating $$\gamma = 1.67$$. This corresponds to a velocity of about $$v = 0.800c$$. The kinetic energy of 90 MeV is substantial—about 67% of the pion's rest energy.
 
 This problem beautifully illustrates the connection between time dilation and energy. The pion's extended lifetime in the lab frame is a direct consequence of its high energy and velocity. Such relativistic pions are commonly produced in particle accelerators and cosmic ray interactions. The fact that we can infer the pion's kinetic energy simply by measuring how long it lives (compared to its known rest lifetime) is a practical application of relativity in particle physics. Detectors routinely use lifetime measurements to determine particle energies and velocities.
 
@@ -1238,7 +1237,7 @@ This problem beautifully illustrates the connection between time dilation and en
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1272,7 +1271,7 @@ This relativistic neutron has kinetic energy of about 1.22 GeV, which is greater
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1332,7 +1331,7 @@ This relation is crucial in particle physics: at high energies (GeV to TeV scale
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1386,7 +1385,7 @@ At $$v = 0.250c$$, the neutron is mildly relativistic but not ultra-relativistic
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1425,7 +1424,7 @@ At this energy, the protons' momentum, time dilation, and length contraction are
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1468,7 +1467,7 @@ At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v =
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1481,41 +1480,25 @@ At $$\gamma = 10^5$$, the electron's velocity is extremely close to $$c$$: $$v =
 
 **Strategy**
 
-(a) From energy tables, crude oil releases about $$4.2 \times 10^7$$ J/kg. Calculate mass of 200 L of oil, multiply by energy density, then use $$E = \Delta mc^{2}$$. (b) Calculate the ratio.
+Find the oil mass and use the table's specific energy, $$4.2\times10^7\text{ J/kg}$$, consistently throughout.
 
 **Solution**
 
-(a) Mass of oil in 200 L barrel:
+**(a)** $$m=\rho V=(750\text{ kg/m}^3)(0.200\text{ m}^3)=150\text{ kg}$$. The released energy is $$E=(150)(4.2\times10^7)=6.3\times10^9\text{ J}$$, so
 
-$$m = \rho V = (750 \text{ kg/m}^3)(200 \text{ L} \times 10^{-3} \text{ m}^3/\text{L}) = (750)(0.200) = 150 \text{ kg}$$
+$$\Delta m=\frac{E}{c^2}=\frac{6.3\times10^9}{9.00\times10^{16}}\text{ kg}=7.0\times10^{-8}\text{ kg}.$$
 
-Energy released:
-
-$$E = (150 \text{ kg})(4.2 \times 10^7 \text{ J/kg}) = 6.3 \times 10^9 \text{ J}$$
-
-(Actually, for crude oil: $$E \approx 5.9 \times 10^9$$ J per barrel)
-
-Let's use $$E = 5.9 \times 10^9$$ J:
-
-Mass destroyed:
-
-$$\Delta m = \frac{E}{c^2} = \frac{5.9 \times 10^9}{(3.00 \times 10^8)^2} = \frac{5.9 \times 10^9}{9.00 \times 10^{16}} = 6.56 \times 10^{-8} \text{ kg}$$
-
-(b) Ratio:
-
-$$\frac{\Delta m}{m} = \frac{6.56 \times 10^{-8}}{150} = 4.37 \times 10^{-10}$$
+**(b)** $$\Delta m/m=(7.0\times10^{-8})/150=4.7\times10^{-10}$$.
 
 **Discussion**
 
-Burning a 200-liter barrel of crude oil releases about 5.9 billion joules, which corresponds to a mass loss of only $$6.56 \times 10^{-8}$$ kg (65.6 nanograms). The ratio $$4.37 \times 10^{-10}$$ means less than one part in two billion of the oil's mass is converted to energy! This is why we didn't discover mass-energy equivalence through chemical reactions—the mass changes are utterly negligible.
-
-Compare this to nuclear fission ($$\Delta m/m \approx 10^{-3}$$) or fusion ($$\Delta m/m \approx 10^{-2}$$): chemical reactions are a million times less efficient at converting mass to energy. Nevertheless, that tiny 65 nanogram mass loss represents enough energy to drive a car several hundred kilometers. If we could convert the entire 150 kg barrel to energy (rather than just 0.00000001% of it), the energy released would equal several thousand nuclear weapons!
+This is about 70 μg of mass equivalent, an extremely small fraction of the original oil mass. Chemical reactions obey mass–energy equivalence, but their fractional mass changes are much smaller than those of nuclear reactions.
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1546,9 +1529,9 @@ $$m = 9.18 \times 10^{11} \text{ kg}$$
 **Discussion**
 
 Complete conversion of just 1 kg of mass releases $$9 \times 10^{16}$$ J—enough energy to lift over 900 billion kilograms to a height of 10 km! To put this in perspective, that's roughly:
-- The mass of 6 million full Boeing 747 aircraft
+- The mass of 2 million loaded Boeing 747 aircraft
 - Enough to lift all the buildings in a major city to that height
-- About 10,000 times the energy released by the Hiroshima bomb
+- About 1400 times the energy released by the Hiroshima bomb
 
 This staggering energy density explains why even tiny amounts of mass-energy conversion (as in nuclear reactions) produce enormous energy outputs, and why complete matter-antimatter annihilation would be the ultimate energy source—if we could harness it practically.
 
@@ -1556,7 +1539,7 @@ This staggering energy density explains why even tiny amounts of mass-energy con
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1608,7 +1591,7 @@ Van de Graaff accelerators can achieve potentials up to about 25 MV in practice,
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1656,7 +1639,7 @@ One gram of mass, converted to electricity at 38% efficiency (typical for a good
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1692,21 +1675,12 @@ $$\frac{\Delta m}{m_{\text{fuel}}} = \frac{1.00}{10^4} = 10^{-4} = 0.01\%$$
 
 **Discussion**
 
-A 1000 MW nuclear plant destroys exactly 1 kg of mass per year when operating at 35% efficiency. This mass loss represents 0.01% of the 10,000 kg fuel load—measurable with precise scales but not visually observable. You couldn't tell by looking whether the fuel rods had lost 100 grams or 1 kilogram.
-
-However, this mass loss IS routinely measured in practice. Nuclear fuel is weighed before and after use, and the decrease matches predictions from Einstein's equation. The "missing" mass appears as:
-- Heat (used to make steam)
-- Radioactive decay products with slightly less total mass
-- Neutrinos carrying away energy
-- Kinetic energy of fission fragments
-
-For perspective, consuming 1 kg/year means the plant converts mass to energy at $$\Delta m/\Delta t = 32$$ nanograms per second—tiny, yet sufficient to power a city. If coal plants could convert mass with the same efficiency, 1 kg of coal would power the same city for over a year instead of for seconds!
-
+The calculated mass equivalent of the released energy is about 1.00 kg per year, or 0.01% of the 10,000-kg fuel load. It is not visually observable. Fuel inventories include cladding, retained fission products, and released gases; simply weighing fuel before and after use does not isolate this mass deficit. The energy release is accounted for through nuclear reaction energies and the plant's energy output.
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1759,7 +1733,7 @@ Chemical rockets burn thousands of tons of fuel to reach orbit because chemical 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1809,13 +1783,13 @@ At this rate, the Sun can shine for 45 billion years before exhausting its fusio
 2. Fusion rate increases with age as the core contracts and heats
 3. Red giant phase begins when core hydrogen is depleted, even though envelope hydrogen remains
 
-Over its 10-billion-year main sequence lifetime, the Sun will lose only 0.32% of its mass—a tiny fraction, yet representing $$6 \times 10^{27}$$ kg, or 3000 times Earth's mass! This lost mass becomes the light, heat, and solar wind that make life on Earth possible. Every photon we receive from the Sun represents a tiny piece of the Sun's vanishing mass, converted to energy 150 million kilometers away.
+Over the hypothetical 45-billion-year span in part (b), this constant fusion rate would convert about 0.32% of the Sun's mass to energy: approximately $$6.3 \times 10^{27}$$ kg, or 1000 Earth masses. This calculation concerns radiation from fusion; mass carried away by the solar wind is a separate contribution. Every photon we receive from the Sun represents a tiny piece of the Sun's vanishing mass, converted to energy 150 million kilometers away.
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1858,7 +1832,7 @@ This "unreasonable results" problem teaches an important lesson about total vs. 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -1877,7 +1851,7 @@ energy.
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 

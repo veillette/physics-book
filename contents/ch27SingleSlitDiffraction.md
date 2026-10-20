@@ -544,7 +544,7 @@ For m = 13: $$\sin \theta_{13} = \frac{13(589)}{7500} = 1.021 > 1$$ (impossible)
 
 **Discussion**
 
-Sodium vapor light (589 nm average of the D-line doublet at 589.0 and 589.6 nm) is commonly used in spectroscopy and diffraction experiments. The relatively large slit width (7.50 μm ≈ 12.7λ) allows many diffraction orders. The small angle for the second minimum (9.04°) indicates that higher-order minima are closely spaced near the central maximum but spread out at larger angles. The 12th-order minimum appears at about 70.6°, showing how the diffraction pattern extends over a wide angular range. This creates a complex pattern with 13 bright regions: the central maximum plus 12 secondary maxima on each side.
+Sodium vapor light (589 nm average of the D-line doublet at 589.0 and 589.6 nm) is commonly used in spectroscopy and diffraction experiments. The relatively large slit width (7.50 μm ≈ 12.7λ) allows many diffraction orders. The small angle for the second minimum (9.04°) indicates that higher-order minima are closely spaced near the central maximum but spread out at larger angles. The 12th-order minimum appears at about 70.6°, showing how the diffraction pattern extends over a wide angular range. There are 12 minima on each side of the central maximum, with secondary bright regions between successive minima.
 
 :::
 
@@ -631,76 +631,21 @@ For part (b), placing the third minimum at 85.0° (near grazing angle) requires 
 
 **Strategy**
 
-For each sodium D-line wavelength, we calculate the angle of the first minimum using $$D \sin \theta = \lambda$$. The angle difference gives us part (a). For part (b), we use geometry to find the separation on the screen using $$y = L \tan \theta$$ or the small angle approximation $$\Delta y \approx L \Delta \theta$$ (with Δθ in radians).
+Find each first-minimum angle from $$\sin\theta=\lambda/D$$, then use $$y=L\tan\theta$$ for the screen positions.
 
 **Solution**
 
-Given:
-- Wavelengths: $$\lambda_{1} = 589.1 \text{ nm}$$ and $$\lambda_{2} = 589.6 \text{ nm}$$
-- Slit width: $$D = 2.00 \text{ μm} = 2.00 \times 10^{-6} \text{ m}$$
-- Screen distance: $$L = 1.00 \text{ m}$$
+**(a)** With $$D=2000\text{ nm}$$,
 
-**(a) Angle between first minima:**
+$$\Delta\theta=\sin^{-1}(589.6/2000)-\sin^{-1}(589.1/2000)=2.62\times10^{-4}\text{ rad}=0.0150°.$$
 
-For the first minimum (m = 1) of each wavelength:
+**(b)** The minima are near 17.1°, so retain the tangent:
 
-<div class="equation">
-$$\sin \theta_{1} = \frac{\lambda_{1}}{D} = \frac{589.1 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29455$$
-</div>
+$$\Delta y=(1.00\text{ m})[\tan\theta_2-\tan\theta_1]=2.86\times10^{-4}\text{ m}=0.286\text{ mm}.$$
 
-<div class="equation">
-$$\theta_{1} = \arcsin(0.29455) = 17.125°$$
-</div>
+For a small angle difference at finite θ, $$\Delta y\approx L\sec^2\theta\,\Delta\theta$$, rather than $$L\Delta\theta$$.
 
-<div class="equation">
-$$\sin \theta_{2} = \frac{\lambda_{2}}{D} = \frac{589.6 \times 10^{-9}}{2.00 \times 10^{-6}} = 0.29480$$
-</div>
-
-<div class="equation">
-$$\theta_{2} = \arcsin(0.29480) = 17.140°$$
-</div>
-
-The angle difference is:
-
-<div class="equation">
-$$\Delta \theta = \theta_{2} - \theta_{1} = 17.140° - 17.125° = 0.0150°$$
-</div>
-
-**The angle between the first minima is 0.0150°.**
-
-**(b) Distance on screen:**
-
-Converting the angle difference to radians:
-
-<div class="equation">
-$$\Delta \theta_{\text{rad}} = 0.0150° \times \frac{\pi}{180°} = 2.618 \times 10^{-4} \text{ rad}$$
-</div>
-
-For small angle differences, the separation on the screen is approximately:
-
-<div class="equation">
-$$\Delta y = L \Delta \theta_{\text{rad}} = (1.00 \text{ m})(2.618 \times 10^{-4}) = 2.62 \times 10^{-4} \text{ m}$$
-</div>
-
-<div class="equation">
-$$\Delta y = 0.262 \text{ mm}$$
-</div>
-
-**The distance between the minima on the screen is 0.262 mm.**
-
-**(c) Ease of measurement:**
-
-A separation of 0.262 mm (about one-quarter millimeter) is **not easily measured by the naked human eye**, which can typically resolve details down to about 0.1 mm at best under ideal conditions. However, this distance is **quite easily measurable with basic optical aids**:
-- Under a microscope or magnifying glass
-- With a precision ruler or calipers
-- Using digital imaging and analysis software
-- With a traveling microscope used in physics labs
-
-This measurement demonstrates the resolving power of single-slit diffraction. The sodium D-lines differ by only 0.5 nm (less than 0.1% difference), yet single-slit diffraction can spatially separate them sufficiently to be measured with modest equipment. This technique forms the basis of spectroscopy for measuring small wavelength differences.
-
-**Discussion**
-
-The small angular separation (0.0150°) between the two sodium D-lines highlights the challenge of spectral resolution. The wavelength difference is Δλ = 0.5 nm out of λ ≈ 589 nm, giving a fractional difference of about 0.08%. The ability to distinguish these lines depends on having sharp, well-defined minima, which requires coherent, monochromatic light sources. Sodium vapor lamps produce these doublet lines due to the fine structure of sodium's electronic energy levels. This problem demonstrates why high-resolution spectroscopy requires careful optical design and precise measurements.
+**(c)** This small displacement would require careful optical measurement. In the combined doublet pattern the broad single-slit features overlap, so the geometric separation of their individual minima does not by itself imply that the two lines are easily resolved.
 
 :::
 

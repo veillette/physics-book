@@ -1,6 +1,24 @@
 # Correctness review: exercises and problems, Chapters 25–34
 
-Date: 2026-10-19. Source revision: `78fbfb3ffab182371728c5c666e8f61c92ecf765`. **Review findings only; textbook files have not been corrected by this review.** This continues [the Chapter 12–24 exercise review](https://github.com/veillette/physics-book/blob/5c89d7db/doc/exercise-review-ch12-24.md) with the same conventions. It covers the end-of-section questions that [the Chapter 24–34 content review](https://github.com/veillette/physics-book/blob/fd2d554c/doc/content-review-ch24-34.md) left out of scope.
+Date: 2026-10-19. Source revision: `78fbfb3ffab182371728c5c666e8f61c92ecf765`. **Resolved in the textbook on 2026-10-19; the original findings below are retained as the review record.** This continues [the Chapter 12–24 exercise review](https://github.com/veillette/physics-book/blob/5c89d7db/doc/exercise-review-ch12-24.md) with the same conventions. It covers the end-of-section questions that [the Chapter 24–34 content review](https://github.com/veillette/physics-book/blob/fd2d554c/doc/content-review-ch24-34.md) left out of scope.
+
+## Application of findings (2026-10-19)
+
+All substantive findings **E01–E50** have been addressed in the textbook, together with the additional precision, modeling, labeling, and glossary notes below. Strategies, calculations, answer keys, and discussions were corrected together. The pre-edit working tree was saved in commit `1afede2a`.
+
+- **E33:** Added selected neutral-atom masses, half-lives, and uranium abundances to [Appendix A](../contents/appendixA.md#Atomic-Masses), and redirected the stale appendix references.
+- **E34–E36:** Radiation-protection exercises now use the radiation weighting factor; therapy exercises use absorbed dose in Gy and the revised fractionation table. Necessary factors and assumptions are explicit.
+- **Additional notes:** Corrected duplicate answer lines and standardized the two affected photon sections to h = 6.626 × 10⁻³⁴ J·s and e = 1.602 × 10⁻¹⁹ C, with c = 2.998 × 10⁸ m/s and hc ≈ 1240 eV·nm. Guard digits are retained before subtractions.
+
+Independent recalculation refined several details in this review:
+
+- Particle–Wave Duality problem 6 has γ ≈ 9.78 × 10⁴, giving **99.999999995% of c**, rather than the suggested 99.99999995%.
+- Cosmology problem 10's 2.6 × 10⁻¹⁰ N corresponds to **26 ng**, rather than the suggested 26 μg.
+- Pauli Exclusion Principle problem 8's stipulated **1.2-fm diameter** gives **1.8 × 10¹⁸ kg/m³**, about eight times the chapter's estimate, which uses a 1.2-fm radius parameter. The solution's original density arithmetic also needed correction.
+- The oil-barrel problem consistently uses its stated specific energy, giving **6.3 × 10⁹ J, 7.0 × 10⁻⁸ kg (70 μg), and Δm/m = 4.7 × 10⁻¹⁰**.
+- The laser pumping problem now explicitly requests excitation of half the atoms from the ground state to the 20.66-eV upper level. This is the specified energy-estimate model, not a general condition for multilevel population inversion.
+
+Validation of the application: all 82 chapter files retain their question and solution fence counts; 29 principal numerical corrections were independently recalculated; the chapter-range physics scan and math-delimiter check pass. MathJax also successfully typeset the new or modified equations. The site build and checks of added internal links and rendered anchors pass. These checks do not certify all unlisted exercises.
 
 ## Scope and method
 
@@ -462,4 +480,4 @@ Independent calculations used c = 3.00 × 10⁸ m/s, h = 6.626 × 10⁻³⁴ J·
 - **Answer-key forcing.** These were identified only when the solution's own displayed arithmetic or relation gives a different value from the one it reports (E15, E40).
 - **Unchanged answers.** Keys that were checked and found correct are not listed. Ch31 and much of ch33 consist of bare answer keys, and every numerical key in those sections was recomputed.
 
-This review did not modify textbook content. A site build or link-linter pass would not validate the physics in these exercises and was not used as evidence of correctness.
+The original review did not modify textbook content; the application recorded above does. Build and link checks validate rendering and navigation, while the physics corrections rely on independent calculations and the cited source data.

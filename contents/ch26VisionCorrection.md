@@ -330,9 +330,9 @@ Think of the cornea as a lens:
 
 **Discussion**
 
-The cornea provides approximately 2/3 of the eye's total optical power (~43 D out of ~50 D total). Small changes in corneal curvature can significantly affect focusing:
+The cornea provides approximately 2/3 of the eye's total optical power (~43 D out of ~60–65 D total). Small changes in corneal curvature can significantly affect focusing:
 
-- **1 D change** requires approximately 6 μm depth of tissue removal centrally
+- **1 D change** requires roughly 12 μm of central tissue removal for a 6-mm optical zone (the depth depends on zone diameter)
 - **Myopia correction**: Central ablation creates a flatter optical zone
 - **Hyperopia correction**: Peripheral ablation creates relatively steeper central zone
 
@@ -513,160 +513,17 @@ A person with presbyopia has lost some or all of the ability to accommodate the 
 
 ::: solution
 
-**Strategy**
-
-To answer this question, we must distinguish between two separate optical functions of the eye: (1) the static refractive power that determines distant vision, and (2) the dynamic accommodation ability that allows near vision. LASIK corrects only one of these.
-
 **Solution**
 
-**Yes, a person with presbyopia will still need reading glasses after LASIK correction for distant vision.**
+Yes. LASIK correction for distant vision changes the cornea's refractive power but does not restore accommodation lost through presbyopia.
 
-Here's why:
+For example, consider a person with −3.0 D of myopia and 1.0 D of accommodation. Without glasses, the far point is 33 cm and the near point is 25 cm. A page at 33 cm can be read with the eye relaxed. A page at 40 cm is beyond the far point and requires a −0.5 D lens in the contact-lens approximation, rather than plus reading glasses.
 
-**Understanding Presbyopia:**
-
-Presbyopia is the **loss of accommodation**—the eye's ability to change its optical power to focus on near objects. It results from:
-- Hardening of the crystalline lens with age
-- Weakening of the ciliary muscles
-- Reduced elasticity of the lens capsule
-- Typically begins around age 40-45 and progresses with age
-
-**What LASIK Does:**
-
-LASIK reshapes the cornea to correct the eye's **static refractive error**:
-- For myopia: flattens the cornea to reduce power
-- For hyperopia: steepens the cornea to increase power
-- For astigmatism: reshapes to create uniform curvature
-
-**What LASIK Does NOT Do:**
-
-LASIK **does not restore accommodation**. It cannot:
-- Make the crystalline lens more flexible
-- Strengthen the ciliary muscles
-- Change the eye's ability to alter its power dynamically
-- Provide different powers for different viewing distances
-
-**The Two-Part Vision System:**
-
-Think of vision as requiring two independent capabilities:
-
-1. **Static refraction** (corrected by LASIK):
-   - The fixed optical power of the eye when relaxed
-   - Determines whether distant objects focus on the retina
-   - Problems: myopia, hyperopia, astigmatism
-
-2. **Dynamic accommodation** (NOT corrected by LASIK):
-   - The ability to increase power for near objects
-   - Provides additional +2 to +3 D for reading
-   - Problem: presbyopia (loss of this ability)
-
-**Numerical Example:**
-
-Consider a 50-year-old with -3.0 D myopia and presbyopia:
-
-**Before LASIK:**
-- Relaxed eye power: 53 D (too strong for distance)
-- Accommodation ability: ~1 D (reduced due to presbyopia)
-- **Distance vision:** Blurry (needs -3 D glasses)
-- **Near vision at 40 cm:** Requires +2.5 D additional power
-  - Can accommodate only +1 D
-  - **Still needs +1.5 D reading glasses** (even with myopia helping near vision!)
-
-**After LASIK (correcting the -3 D myopia):**
-- Relaxed eye power: ~50 D (corrected for distance)
-- Accommodation ability: ~1 D (unchanged—presbyopia persists)
-- **Distance vision:** Clear (no glasses needed!)
-- **Near vision at 40 cm:** Requires +2.5 D additional power
-  - Can accommodate only +1 D
-  - **Needs +2.5 D reading glasses** (actually needs MORE correction than before)
-
-**Why Reading Glasses Are MORE Necessary After LASIK:**
-
-Paradoxically, correcting myopia can make presbyopia more noticeable:
-- **Myopic people** naturally have good near vision (even without accommodation)
-- Many remove their distance glasses to read
-- After LASIK corrects distant vision, this "built-in reading correction" is lost
-- The full presbyopic deficit becomes apparent
-
-**Solutions for Presbyopia with LASIK:**
-
-Several approaches address both issues:
-
-**1. Monovision LASIK:**
-- One eye corrected for distance (typically dominant eye)
-- Other eye left slightly myopic (-1.25 to -1.75 D) for near vision
-- Brain adapts to use appropriate eye for each distance
-- About 70-80% of people adapt successfully
-- Trade-off: reduced depth perception, slightly compromised vision at each distance
-
-**2. Blended Vision (Modified Monovision):**
-- Dominant eye: fully corrected for distance
-- Non-dominant eye: corrected for intermediate distance
-- Creates overlap in functional range
-- Better depth perception than traditional monovision
-
-**3. Multifocal LASIK:**
-- Experimental technique creating different zones on cornea
-- Some zones for distance, some for near
-- Similar concept to multifocal contact lenses or IOLs
-- Mixed success; can cause halos and reduced contrast
-
-**4. PresbyLASIK:**
-- Creates aspherical corneal shape with increased depth of focus
-- Non-dominant eye treated to enhance near vision
-- Still evolving technology
-
-**5. Combine LASIK with Reading Glasses:**
-- LASIK corrects distance vision
-- Use reading glasses (+1.50 to +2.50 D) for near tasks
-- Most straightforward and reliable approach
-- No compromise in visual quality
+After correcting the myopia for distance, a page at 40 cm requires 2.5 D of additional power. The eye supplies 1.0 D by accommodation, leaving **+1.5 D** to be supplied by reading glasses.
 
 **Discussion**
 
-It's crucial to understand that **refractive error and accommodation are independent optical properties:**
-
-**Refractive Error (Static):**
-- Due to mismatch between eye's power and length
-- Present at all ages
-- Correctable with glasses, contacts, or refractive surgery
-- LASIK addresses this problem
-
-**Presbyopia (Dynamic):**
-- Due to loss of lens flexibility
-- Age-related, universal (everyone gets it eventually)
-- Currently cannot be permanently corrected by reshaping cornea
-- LASIK does NOT address this problem
-
-**Patient Education Importance:**
-
-Many patients mistakenly believe LASIK will eliminate all need for glasses. It's essential they understand:
-- LASIK corrects distance vision (static refraction)
-- Presbyopia is a separate condition affecting near vision
-- Reading glasses will still be needed after age 40-45
-- LASIK doesn't accelerate or prevent presbyopia
-
-**The Biology Constraint:**
-
-Presbyopia is a biological aging process affecting the lens, not an optical problem with the cornea:
-- The lens continues to grow throughout life, adding layers like an onion
-- This makes it increasingly rigid
-- The ciliary muscles also weaken with age
-- Reshaping the cornea cannot reverse these biological changes
-
-**Future Possibilities:**
-
-Research is ongoing into:
-- **Accommodating corneal inlays:** Small implants that change corneal shape with accommodation effort
-- **Lens replacement:** Removing the presbyopic lens and replacing with an accommodating IOL
-- **Pharmacological approaches:** Drugs to soften the lens
-- **Laser lens treatments:** Using femtosecond lasers to soften the lens
-
-Currently, none of these has proven as reliable as simply using reading glasses or multifocal lenses for near tasks.
-
-**Conclusion:**
-
-A person with presbyopia who undergoes LASIK to correct distant vision will definitely still need reading glasses because LASIK corrects the eye's static refractive error (enabling clear distant vision) but does not restore the dynamic accommodation ability (necessary for near vision). The presbyopia—the underlying loss of accommodation—remains unchanged by corneal reshaping. This is an important distinction for patient counseling and managing expectations for refractive surgery in the presbyopic population.
+Correcting myopia removes the ability to read nearby with the relaxed, uncorrected eye. Presbyopia remains, so distance correction can make the need for reading glasses more apparent.
 
 :::
 
@@ -1179,50 +1036,17 @@ The far point of a myopic administrator is 50.0 cm. (a) What is the relaxed powe
 
 ::: solution
 
-**Strategy**
+**(a)** With the section's 2.00-cm lens-to-retina distance,
 
-For part (a), we use $$P = \frac{1}{d_o} + \frac{1}{d_i}$$ with the far point distance (50.0 cm) as $$d_o$$ to find the relaxed power. For part (b), an 8.00% accommodation ability means the accommodated power is 1.08 times the relaxed power. We then use the power equation to find the near point.
+$$P_{\text{relaxed}}=1/(0.500\text{ m})+1/(0.0200\text{ m})=52.0\text{ D}.$$
 
-**Solution**
+**(b)** The maximum power is $$1.0800(52.0\text{ D})=56.16\text{ D}$$, retaining guard digits. Hence
 
-Given values:
-- Far point: $$d_o = 50.0 \text{ cm} = 0.500 \text{ m}$$
-- Lens-to-retina distance: $$d_i = 2.00 \text{ cm} = 0.0200 \text{ m}$$
-- Accommodation ability: 8.00%
-
-**(a)** Calculate the relaxed power:
-
-<div class="equation">
- $$P_{\text{relaxed}} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{0.500 \text{ m}} + \frac{1}{0.0200 \text{ m}}$$
-</div>
-
-<div class="equation">
- $$P_{\text{relaxed}} = 2.00 \text{ D} + 50.0 \text{ D} = 52.0 \text{ D}$$
-</div>
-
-**(b)** Calculate the accommodated power:
-
-<div class="equation">
- $$P_{\text{accommodated}} = 1.08 \times P_{\text{relaxed}} = 1.08 \times 52.0 \text{ D} = 56.2 \text{ D}$$
-</div>
-
-Find the near point using the accommodated power:
-
-<div class="equation">
- $$\frac{1}{d_o} = P_{\text{accommodated}} - \frac{1}{d_i} = 56.2 \text{ D} - 50.0 \text{ D} = 6.2 \text{ m}^{-1}$$
-</div>
-
-<div class="equation">
- $$d_o = \frac{1}{6.2 \text{ m}^{-1}} = 0.161 \text{ m} = 16.1 \text{ cm}$$
-</div>
+$$d_{\text{near}}=\frac{1}{56.16-50.0}\text{ m}=0.162\text{ m}=16.2\text{ cm}.$$
 
 **Discussion**
 
-Part (a): The relaxed power of 52.0 D is higher than the normal 50.0 D, confirming this person is myopic (nearsighted). The excess 2.0 D of power causes distant objects beyond 50.0 cm to appear blurry.
-
-Part (b): The near point of 16.1 cm is actually closer than the normal 25 cm. This is an interesting benefit of mild myopia—myopic people can see close objects more clearly than people with normal vision. The administrator can read comfortably at 16.1 cm, which is advantageous for detailed close work.
-
-This problem illustrates that myopia has a "silver lining": while distant vision is compromised, near vision is enhanced. This is why some older people with presbyopia may deliberately under-correct their myopia or use reading glasses weaker than needed—they want to preserve their advantage in close-up tasks. However, for most daily activities requiring both near and distant vision, corrective lenses for myopia are still beneficial. The administrator would need -2.00 D corrective lenses to see distant objects clearly.
+The extra relaxed power gives a 50.0-cm far point; accommodation raises the power further, allowing the near point calculated here.
 
 :::
 
@@ -1417,7 +1241,7 @@ Using the power equation:
 
 The required spectacle lens power is -4.30 D, compared to the -4.00 D contact lens. The spectacle lens must be 0.30 D stronger (more negative) because it sits 1.75 cm from the eye. This vertex distance effect is important for accurate vision correction.
 
-For this moderate myopia prescription, the vertex distance correction is about 7.5% of the contact lens power. This difference becomes more pronounced with stronger prescriptions. An optometrist typically uses the formula $$P_{\text{spectacle}} = \frac{P_{\text{contact}}}{1 - d \cdot P_{\text{contact}}}$$ where $$d$$ is the vertex distance, to accurately convert between contact and spectacle prescriptions.
+For this moderate myopia prescription, the vertex distance correction is about 7.5% of the contact lens power. This difference becomes more pronounced with stronger prescriptions. An optometrist typically uses the formula $$P_{\text{spectacle}} = \frac{P_{\text{contact}}}{1 + d \cdot P_{\text{contact}}}$$ where $$d$$ is the vertex distance, to accurately convert between contact and spectacle prescriptions.
 
 The fact that spectacle lenses need to be stronger than contact lenses for myopia correction is one reason why some people prefer contacts—they provide correction with less optical power, which can reduce optical distortions and weight of the lenses. However, for mild to moderate myopia like this case, the difference is small enough that either option provides excellent vision correction.
 
@@ -1648,12 +1472,9 @@ Rounding to two significant figures:
 
 **Discussion**
 
-The required spectacle lens power is +0.89 D, compared to the +0.750 D contact lens. The spectacle lens must be stronger (more positive) by about 0.14 D because it sits 2.20 cm from the eye. This is consistent with the vertex distance effect—for hyperopia (farsightedness), spectacle lenses require more positive power than contact lenses.
+The required spectacle power is +0.89 D for this near-point task. It follows from the finite object and image distances measured from the spectacle lens.
 
-The 19% increase in power (from +0.75 D to +0.89 D) may seem large, but it's typical for the vertex distance effect with positive lenses. For hyperopia corrections, the relationship is $$P_{\text{spectacle}} = \frac{P_{\text{contact}}}{1 + d \cdot P_{\text{contact}}}$$, where $$d$$ is the vertex distance. This formula confirms our calculation.
-
-For children, eyeglasses are often preferred over contact lenses for safety and ease of use, despite requiring slightly stronger prescriptions. The child would wear +0.89 D glasses to achieve the same vision correction as +0.75 D contacts. This demonstrates why prescriptions must always specify whether they're for contacts or spectacles—using the wrong prescription could result in under-correction or over-correction.
-
+The distance-vision conversion $$P_{\text{spectacle}}=P_{\text{contact}}/(1+dP_{\text{contact}})$$ would give $$0.750/(1+0.0220\times0.750)=0.738\text{ D}$$. That formula concerns a distant object and does not apply to this near-point calculation. For distance correction, a positive spectacle lens has less plus power than the corresponding contact lens.
 :::
 
 </div>
@@ -1783,12 +1604,7 @@ The proposed -4.00 D lens is **20 times stronger** than needed. This lens would 
 
 **Discussion**
 
-No, a -4.00 D lens will **not** correct the boy's far point to infinity—it will severely over-correct his vision. The boy only needs a -0.20 D lens, but the proposed lens is 20 times too strong. With a -4.00 D lens, distant objects would appear as images only 25 cm from his eyes, which is actually at his near point!
-
-This demonstrates an unreasonable result. The problem reveals that the boy's vision defect is very mild—his far point of 500 cm (5 meters) is quite distant, requiring only minimal correction. In fact, many people with such mild myopia might not need correction at all for daily activities, though it would help for tasks requiring sharp distant vision like driving or reading a blackboard.
-
-The combination of a 50 cm near point and 500 cm far point is unusual but not impossible. It suggests either early presbyopia (loss of accommodation) combined with mild myopia, or simply a person with limited accommodation range. The key lesson is that lens prescriptions must be carefully matched to the actual vision defect—a stronger lens is not necessarily better and can create new vision problems. Using a -4.00 D lens when only -0.20 D is needed would make the boy effectively very nearsighted, with a new far point of only 25 cm!
-
+No. The required correction is −0.20 D. With the proposed −4.00 D contact lens, a distant object produces a virtual image 25 cm from the eye, inside the boy's 50-cm near point. Any finite real object produces an image even closer to the eye. He therefore cannot focus any real object through this lens within the stated accommodation range.
 :::
 
 </div>

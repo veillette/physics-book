@@ -384,7 +384,7 @@ All galaxies farther away than about  $$50 \times 10^{6}  \text{ly} $$
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -422,7 +422,7 @@ Classically, we would add velocities linearly: (a) $$0.750c + 0.500c = 1.250c$$ 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -460,7 +460,7 @@ When the ship heads away from Earth, the situation reverses from the original pr
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -496,7 +496,7 @@ The capsule approaches the spaceship at $$0.198c$$ as measured in the ship's fra
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -540,7 +540,7 @@ This thought experiment illustrates that the relativistic nature of our universe
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -588,7 +588,7 @@ The observed wavelength increases from 656 nm to 658 nm—a 2-nm red shift corre
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -619,7 +619,7 @@ The received frequency is 0.775 GHz or 775 MHz, which is lower than the transmit
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -659,7 +659,7 @@ The canister must be shot at $$0.991c$$ relative to ship 1 to approach ship 2 at
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -693,7 +693,7 @@ This problem illustrates an interesting asymmetry: if you simply add $$0.615c + 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -735,7 +735,7 @@ The negative sign indicates the ships are moving apart (receding from each other
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -778,7 +778,7 @@ Classically, we might think $$v = 0.950 - 0.750 = 0.200c$$, but the relativistic
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -838,7 +838,7 @@ The hydrogen gas is receding from us at approximately 1.32% of the speed of ligh
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -880,7 +880,7 @@ The vehicle is traveling at 22.5 m/s (about 50 mph or 81 km/h)—a typical highw
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -922,7 +922,7 @@ This elegant proof demonstrates the **constancy of the speed of light**, which i
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -965,7 +965,7 @@ This is profoundly counterintuitive but has been verified in countless experimen
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 

@@ -316,7 +316,7 @@ Suppose an astronaut is moving relative to the Earth at a significant fraction o
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -359,7 +359,7 @@ At 97% the speed of light, the spaceship appears dramatically compressed to less
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -403,7 +403,7 @@ The sports car would have to be traveling at 40% the speed of light, or approxim
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -424,7 +424,7 @@ in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -437,39 +437,31 @@ in parts (a) and (b) are related when $$\gamma =3.20 $$.
 
 **Strategy**
 
-The muon's rest lifetime is $$\Delta t_0 = 2.20 \times 10^{-6}$$ s (from Example 1 in the Time Dilation section). For part (a), find the dilated time using $$\Delta t = \gamma \Delta t_0$$. For part (b), calculate the distance traveled on Earth using $$L_0 = v\Delta t$$. For part (c), use the muon's proper time to find the contracted distance in its frame.
+Use the 1.52-μs proper lifetime specified in Example 1, with $$\Delta t=\gamma\Delta t_0$$ and $$L_0=v\Delta t$$.
 
 **Solution**
 
-(a) First, calculate $$\gamma$$ for $$v = 0.0500c$$:
+**(a)** $$\gamma=1/\sqrt{1-0.0500^2}=1.00125$$, so
 
-$$\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}} = \frac{1}{\sqrt{1-\frac{(0.0500c)^2}{c^2}}} = \frac{1}{\sqrt{1-0.00250}} = \frac{1}{\sqrt{0.9975}} = \frac{1}{0.9987} = 1.0013$$
+$$\Delta t=(1.00125)(1.52\text{ μs})=1.522\text{ μs}.$$
 
-Now find the observed lifetime:
+**(b)** In the Earth frame,
 
-$$\Delta t = \gamma \Delta t_0 = (1.0013)(2.20 \times 10^{-6} \text{ s}) = 2.203 \times 10^{-6} \text{ s}$$
+$$L_0=(0.0500)(3.00\times10^8\text{ m/s})(1.522\times10^{-6}\text{ s})=22.8\text{ m}.$$
 
-(b) Distance traveled as observed on Earth:
+**(c)** The corresponding Earth-frame separation is contracted in the muon's frame:
 
-$$L_0 = v\Delta t = (0.0500)(3.00 \times 10^8 \text{ m/s})(2.203 \times 10^{-6} \text{ s}) = 33.0 \text{ m}$$
-
-(c) Distance in the muon's frame (using proper time):
-
-$$L = v\Delta t_0 = (0.0500)(3.00 \times 10^8 \text{ m/s})(2.20 \times 10^{-6} \text{ s}) = 33.0 \text{ m}$$
-
-Alternatively, using length contraction:
-
-$$L = \frac{L_0}{\gamma} = \frac{33.0 \text{ m}}{1.0013} = 33.0 \text{ m}$$
+$$L=L_0/\gamma=v\Delta t_0=22.8\text{ m}.$$
 
 **Discussion**
 
-At only 5% the speed of light, relativistic effects are minuscule. The time dilation factor $$\gamma = 1.0013$$ means the muon lives only 0.13% longer than its rest lifetime, and the distances in parts (b) and (c) are essentially identical (both 33.0\text{ m} to three significant figures). This demonstrates that at low velocities ($$v \ll c$$), relativistic and classical predictions converge. The muon would travel only 33 meters before decaying—much less than the distance in the high-speed example where $$v = 0.950c$$ and the muon traveled over 2000 meters due to significant time dilation.
+The two distances agree to three significant figures at this speed. They are much smaller than the 1.39-km Earth-frame distance in the 0.950c example.
 
 :::
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -492,7 +484,7 @@ related when $$\text{γ} = 30.00 $$.
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -538,7 +530,7 @@ This problem beautifully illustrates why special relativity seemed counterintuit
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -564,7 +556,7 @@ unreasonable to assume a longer length.
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 

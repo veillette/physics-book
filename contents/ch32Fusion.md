@@ -243,7 +243,7 @@ energy per reaction is 17.59 MeV. To find the total energy released, we must
 find the number of deuterium and tritium atoms in a kilogram. Deuterium has an
 atomic mass of about 2 and tritium has an atomic mass of about 3, for a total of
 about 5 g per mole of reactants or about 200 mol in 1.00 kg. To get a more
-precise figure, we will use the atomic masses from Appendix A. The power output
+precise figure, we will use the atomic masses from [Appendix A](../contents/appendixA#Atomic-Masses). The power output
 is best expressed in watts, and so the energy output needs to be calculated in
 joules and then divided by the number of seconds in a year.
 
@@ -428,7 +428,7 @@ Calculate the energy output in each of the fusion reactions in the proton-proton
 
 **Strategy**
 
-For each reaction, calculate the mass defect and convert to energy using $$E = (\Delta m)c^{2}$$. The three reactions are: (1) $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}}$$, (2) $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$, and (3) $${}^{3}\text{He}+{}^{3}\text{He}\to {}^{4}\text{He}+{}^{1}\text{H}+{}^{1}\text{H}$$. Use atomic masses from Appendix A: $$m({}^{1}\text{H}) = 1.007825$$ u, $$m({}^{2}\text{H}) = 2.014102$$ u, $$m({}^{3}\text{He}) = 3.016029$$ u, $$m({}^{4}\text{He}) = 4.002603$$ u, $$m(e) = 0.000549$$ u.
+For each reaction, calculate the mass defect and convert to energy using $$E = (\Delta m)c^{2}$$. The three reactions are: (1) $${}^{1}\text{H}+{}^{1}\text{H}\to {}^{2}\text{H}+{e}^{+}+{v}_{\text{e}}$$, (2) $${}^{1}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+\gamma$$, and (3) $${}^{3}\text{He}+{}^{3}\text{He}\to {}^{4}\text{He}+{}^{1}\text{H}+{}^{1}\text{H}$$. Use atomic masses from [Appendix A](../contents/appendixA#Atomic-Masses): $$m({}^{1}\text{H}) = 1.007825$$ u, $$m({}^{2}\text{H}) = 2.014102$$ u, $$m({}^{3}\text{He}) = 3.016029$$ u, $$m({}^{4}\text{He}) = 4.002603$$ u, $$m(e) = 0.000549$$ u.
 
 **Solution**
 
@@ -468,7 +468,7 @@ $$ E_3 = (0.013805)(931.5) = 12.86 \text{ MeV} \quad \checkmark $$
 
 **Discussion**
 
-The calculated values of 0.42 MeV, 5.49 MeV, and 12.86 MeV match the values given in the text for the proton-proton cycle. These energies represent the kinetic energy available to the products. The first reaction has the smallest energy release, which partially explains why it has the lowest probability and longest timescale—the Sun will last about 10 billion years because this bottleneck reaction is so slow. The energy released in each step increases, with the third reaction releasing the most energy per event. However, note that the third reaction requires two $${}^{3}\text{He}$$ nuclei, each of which must be produced by reactions 1 and 2, so the full cycle must have reactions 1 and 2 occur twice before reaction 3 can occur once.
+The calculated values of 0.42 MeV, 5.49 MeV, and 12.86 MeV match the values given in the text for the proton-proton cycle. These energies represent the kinetic energy available to the products. The first reaction is the bottleneck because a proton must convert into a neutron through the weak interaction. Its slow rate is central to the Sun’s long lifetime; the small energy release alone does not determine the reaction probability. The energy released in each step increases, with the third reaction releasing the most energy per event. However, note that the third reaction requires two $${}^{3}\text{He}$$ nuclei, each of which must be produced by reactions 1 and 2, so the full cycle must have reactions 1 and 2 occur twice before reaction 3 can occur once.
 
 :::
 
@@ -540,7 +540,7 @@ The energy produced by the fusion of a 1.00-kg mixture of deuterium and tritium 
 ::: solution {"class":"solution","data-element-type":"problems-exercises"}
 
  $$ 3.12 \times 10^{5}  \text{kg} $$
- (about 200 tons)
+ (about 310 metric tonnes)
 
 :::
 
@@ -573,7 +573,7 @@ $$ E = (0.006718)(931.5) = 6.26 \text{ MeV} $$
 
 **Discussion**
 
-This 6.26 MeV neutron capture reaction is an important way to produce tritium for fusion reactors, since tritium doesn't exist naturally (half-life only 12.3 years). The reaction can occur when neutrons from D-D or D-T fusion reactions are captured by deuterium. This creates a self-sustaining fuel cycle where fusion neutrons breed more fusion fuel.
+This neutron-capture reaction releases 6.26 MeV and can produce tritium, but fusion-reactor breeding blankets are designed to use lithium, especially $$n+{}^6\text{Li}\to{}^4\text{He}+{}^3\text{H}$$. Tritium also occurs naturally in trace amounts through cosmic-ray reactions; its 12.3-y half-life limits its natural abundance.
 
 :::
 
@@ -608,7 +608,7 @@ $${}^{4}\text{He} $$ or $${}^{2}\text{H} $$.
 
 ::: problem
 
-(a) Calculate the number of grams of deuterium in an 80 000-L swimming pool, given deuterium is 0.0150% of natural hydrogen.
+(a) Calculate the number of grams of deuterium in an 80 000-L swimming pool, given deuterium is 0.0150% by number of natural hydrogen.
 
 (b) Find the energy released in joules if this deuterium is fused via the
 reaction $${}^{2}\text{H}+{}^{2}\text{H}\to {}^{3}\text{He}+n $$.
@@ -625,29 +625,29 @@ far more abundant.
 
 **Strategy**
 
-(a) Find mass of water, then mass of hydrogen (11.1% of water mass), then mass of deuterium (0.0150% of hydrogen). (b) Use the D-D reaction energy of 3.27 MeV and calculate number of reactions. (c) Consider neutron capture reactions. (d) Compare with gasoline energy density.
+Convert water mass to the number of hydrogen atoms before applying deuterium's abundance by number. Two deuterium nuclei are consumed per D–D reaction.
 
 **Solution**
 
-(a) Mass of water in pool: $$(80,000 \text{ L})(1 \text{ kg/L}) = 80,000 \text{ kg} = 8.0 \times 10^{7} \text{ g}$$
+**(a)** The pool contains 80,000 kg of water. Using 18.0 g/mol for water,
 
-Mass of hydrogen: $$(8.0 \times 10^{7})(0.111) = 8.88 \times 10^{6} \text{ g}$$
+$$n_H=2\frac{8.00\times10^7\text{ g}}{18.0\text{ g/mol}}\approx8.88\times10^6\text{ mol}.$$
 
-Mass of deuterium: $$(8.88 \times 10^{6})(0.000150) = 1.33 \times 10^{3} \text{ g} = 1.33 \text{ kg}$$
+Thus $$n_D=(0.000150)n_H=1332\text{ mol}$$ and
 
-(b) Moles of D: $$1330/2.014 = 660 \text{ mol}$$, giving $$N = (660)(6.022 \times 10^{23}) = 3.97 \times 10^{26}$$ atoms.
+$$m_D=(1332\text{ mol})(2.014\text{ g/mol})=2.68\times10^3\text{ g}=2.68\text{ kg}.$$
 
-Number of D-D reactions: $$3.97 \times 10^{26}/2 = 1.99 \times 10^{26}$$
+**(b)** The number of reactions is $$n_DN_A/2=4.01\times10^{26}$$. At 3.27 MeV per reaction,
 
-Energy: $$E = (1.99 \times 10^{26})(3.27 \text{ MeV})(1.602 \times 10^{-13} \text{ J/MeV}) = 1.04 \times 10^{14} \text{ J}$$
+$$E=(4.01\times10^{26})(3.27\text{ MeV})(1.602\times10^{-13}\text{ J/MeV})=2.10\times10^{14}\text{ J}.$$
 
-(c) Yes! The neutrons can capture on hydrogen to form deuterium (releasing 2.22 MeV) or on other nuclei, extracting additional energy.
+**(c)** Yes. Neutron capture by hydrogen can form deuterium and release an additional 2.22 MeV per capture; other capture reactions can also release energy.
 
-(d) Gasoline has energy density ~$$ 1.3 \times 10^{8} \text{ J/gallon}$$. The pool's deuterium energy equals $$(1.04 \times 10^{14})/(1.3 \times 10^{8}) \approx 800,000$$ gallons of gasoline—an enormous amount from just the deuterium in a backyard pool! And water is essentially free and unlimited compared to fossil fuels.
+**(d)** At $$1.3\times10^8\text{ J/gallon}$$, the energy is equivalent to about **1.6 million gallons of gasoline**.
 
 **Discussion**
 
-This problem dramatically illustrates fusion's potential: a single swimming pool contains deuterium fuel equivalent to 800,000 gallons of gasoline. The oceans contain enough deuterium to power human civilization for billions of years. The challenge isn't fuel availability but achieving the extreme conditions (100 million K temperatures, sufficient density and confinement time) needed to make fusion practical. If fusion can be controlled economically, humanity will have virtually unlimited clean energy, since deuterium comprises 0.015% of all hydrogen in water—a practically inexhaustible supply.
+The energy inventory is large, but obtaining useful power requires a controlled fusion reaction and energy conversion. The abundance must be applied to atom numbers, since a deuterium atom has about twice the mass of a protium atom.
 
 :::
 
@@ -754,21 +754,13 @@ annihilate electrons to form more  $$\gamma  $$  rays.
 
 **Strategy**
 
-Calculate using $$E = (4m({}^{1}\text{H}) - m({}^{4}\text{He}))c^{2}$$, which is the same as for the p-p cycle since the carbon is just a catalyst. Add 2 positron annihilations ($$2 \times 2m_ec^{2} = 2.044$$ MeV).
+Carbon is a catalyst. The net conversion, including positron annihilation, changes four neutral hydrogen atoms into one neutral helium-4 atom, two neutrinos, and released energy. Use neutral atomic masses without an extra annihilation term.
 
 **Solution**
 
-(a) Net reaction: $$4{}^{1}\text{H} \to {}^{4}\text{He} + 2e^{+} + 2\nu_{e} + 7\gamma$$
+**(a)** $$Q=[4m({}^1\text{H})-m({}^4\text{He})]c^2=[4(1.007825)-4.002603](931.5)\text{ MeV}=26.73\text{ MeV}$$, or **26.7 MeV**.
 
-Nuclear energy: $$E = [4(1.007825) - 4.002603] \times 931.5 = 26.73 \text{ MeV}$$
-
-Including annihilation of 2 positrons with 2 electrons from surroundings, the total is **26.7 MeV** (same as p-p cycle).
-
-(b) The carbon cycle releases the same 26.7 MeV as the proton-proton cycle. This makes sense because both cycles have the same net reaction: converting 4 protons into 1 helium-4 nucleus. The carbon acts only as a catalyst, being regenerated at the end.
-
-**Discussion**
-
-Both the carbon cycle and proton-proton cycle yield identical energy because they accomplish the same net nuclear transformation. The carbon cycle dominates in stars hotter than the Sun (above ~17 million K) because it has a stronger temperature dependence, while the p-p cycle dominates in cooler stars like our Sun. The carbon cycle's reliance on heavier nuclei (C, N, O) means it's only possible in second-generation stars formed from material enriched by earlier stellar nucleosynthesis.
+**(b)** This equals the total proton–proton-cycle output, since both cycles accomplish the same net conversion. Some released energy is carried away by neutrinos rather than heating the star.
 
 :::
 
@@ -897,27 +889,21 @@ controlled fusion?
 
 **Strategy**
 
-(a) Two $${}^{3}\text{He}$$ nuclei (each with charge +2e) need $$\frac{3}{2}kT = \frac{1}{2}U_e$$ where $$U_e = \frac{k(2e)(2e)}{r}$$ and $$r \approx 2 \times 10^{-15}$$ m (sum of nuclear radii). Solve for T. (b) Consider plasma confinement challenges.
+Use $$R=r_0A^{1/3}$$ to estimate each nuclear radius, and set the pair's total mean kinetic energy, 3kT, equal to the Coulomb energy at contact.
 
 **Solution**
 
-(a) Electric potential energy when just touching:
+**(a)** Each ³He nucleus has radius $$R=(1.2\text{ fm})3^{1/3}=1.73\text{ fm}$$. The center-to-center contact distance is $$r=2R=3.46\text{ fm}$$. Thus
 
-<div class="equation">
-$$ U_e = \frac{k(2e)(2e)}{r} = \frac{(8.99 \times 10^{9})(4)(1.602 \times 10^{-19})^{2}}{2 \times 10^{-15}} = 4.61 \times 10^{-13} \text{ J} = 2.88 \text{ MeV} $$
-</div>
+$$U=\frac{k_e(2e)^2}{r}=2.66\times10^{-13}\text{ J}=1.66\text{ MeV},$$
 
-Average kinetic energy needed per nucleus: $$\frac{3}{2}kT = \frac{1}{2}U_e$$
+$$T=\frac{U}{3k}=6.4\times10^9\text{ K}.$$
 
-<div class="equation">
-$$ T = \frac{U_e}{3k} = \frac{4.61 \times 10^{-13}}{3(1.38 \times 10^{-23})} = 1.11 \times 10^{10} \text{ K} $$
-</div>
-
-(b) Yes! This temperature of 11 billion kelvin is extremely high—much higher than typical fusion reactor targets (100-200 million K for D-T fusion). At such temperatures, containing the plasma becomes extraordinarily difficult. The plasma would vaporize any material container instantly, requiring advanced magnetic or inertial confinement. This explains why $${}^{3}\text{He}$$ fusion, despite being "cleaner" (no neutrons), is much harder to achieve than D-T fusion which requires "only" 100 million K.
+**(b)** Yes. Confinement and energy losses at such high temperatures pose major difficulties.
 
 **Discussion**
 
-The $${}^{3}\text{He} + {}^{3}\text{He}$$ reaction requires such high temperatures because both nuclei carry charge +2e, creating a strong Coulomb barrier. D-T fusion is easier because the products (neutron and alpha) carry less initial charge to overcome. The 100-fold higher temperature requirement for He-3 fusion makes it impractical with current technology, though it remains attractive for future advanced fusion systems due to its lack of neutron production.
+This is a classical barrier estimate; quantum tunneling permits fusion below this temperature. The ³He–³He barrier is higher than the D–T barrier because each ³He reactant has charge +2e, while D and T each have charge +e. It is the reactants' charges that determine the initial Coulomb barrier.
 
 :::
 

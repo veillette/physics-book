@@ -841,9 +841,15 @@ Which of the following spectroscopic notations are not allowed?
 
 ::: solution
 
-(b)  $$n\ge l $$ is violated,
-(c) cannot have 3 electrons in  $$s $$ subshell since  $$3>\left(2l+1\right)=2  $$
-(d) cannot have 7 electrons in  $$p $$ subshell since  $$7>\left(2l+1\right)=2\left(2+1\right)=6 $$
+**(a)** 5s¹ is allowed.
+
+**(b)** 1d¹ is forbidden: $$l=2$$ violates $$0\le l\le n-1$$ for n = 1.
+
+**(c)** 4s³ is forbidden: an s subshell has capacity $$2(2l+1)=2$$, less than 3.
+
+**(d)** 3p⁷ is forbidden: a p subshell has capacity $$2(2l+1)=6$$, less than 7.
+
+**(e)** 5g¹⁵ is allowed: l = 4 is permitted for n = 5, and its capacity is 18.
 
 :::
 
@@ -893,7 +899,7 @@ The allowed configurations are **(a), (c), and (e)**. This problem reinforces th
 ::: problem
 
 (a) Using the Pauli exclusion principle and the rules relating the allowed values of the quantum numbers  $$\left(n, l, {m}_{l}, {m}_{s}\right) $$ ,
- prove that the maximum number of electrons in a subshell is  $$2{n}^{2} $$.
+ prove that the maximum number of electrons in a subshell is $$2(2l+1)$$.
 
 (b) In a similar manner, prove that the maximum number of electrons in a shell
 is 2*n*<sup>2</sup>.
@@ -902,16 +908,11 @@ is 2*n*<sup>2</sup>.
 
 ::: solution
 
-(a) The number of different values of  $${m}_{l} $$
- is  $$±l,±\left(l-1\right),\text{...,}0 $$
- for each  $$l>0 $$
- and one for  $$l=0⇒\left(2l+1\right)\text{.} $$
- Also an overall factor of 2 since each  $${m}_{l} $$
- can have  $${m}_{s} $$
- equal to either  $$+1/2 $$
- or  $$-1/2⇒2\left(2l+1\right) $$.
+**(a)** For fixed n and l, the magnetic quantum number has $$2l+1$$ values, $$m_l=-l,\ldots,+l$$. Each admits two spin values, $$m_s=\pm\tfrac12$$. By the exclusion principle, the subshell therefore holds at most $$2(2l+1)$$ electrons.
 
-(b) for each value of $$l$$, you get $$2\left(2l+1\right)=0 \text{, 1, 2, ...,}\left(n-1\right)⇒2\left\{\left[ \left(2\right)\left(0\right)+1\right]+\left[ \left(2\right)\left(1\right)+1\right]+\text{...}\text{.}+\left[ \left(2\right)\left(n-1\right)+1\right]\right\}=\underset{\underset{n \text{terms}}{︸}}{2\left[ 1+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)\right]}$$ to see that the expression in the box is $$={n}^{2}$$, imagine taking $$\left(n-1\right)$$ from the last term and adding it to first term $$=2\left[ 1+\left(n-1\right)+3+\text{...}+\left(2n-3\right)+\left(2n-1\right)-\left(n-1\right)\right] =2\left[ n+3+\text{....}+\left(2n-3\right)+n\right]  \text{.}$$ Now take $$\left(n-3\right)$$ from penultimate term and add to the second term $$2\underset{\underset{n \text{terms}}{︸}}{\left[ n+n+\text{...}+n+n\right] }={2n}^{2}$$.
+**(b)** A shell contains subshells with $$l=0,\ldots,n-1$$. Its capacity is
+
+$$2\sum_{l=0}^{n-1}(2l+1)=2\left[2\frac{n(n-1)}2+n\right]=2n^2.$$
 
 :::
 
@@ -931,33 +932,11 @@ estimated in this chapter.
 
 ::: solution
 
-**Strategy**
+With the stipulated diameter $$d=1.2\text{ fm}$$, the radius is $$r=0.60\text{ fm}$$ and
 
-We can estimate nuclear density by treating a proton as a sphere with diameter $$d=1.2 \text{ fm}=1.2\times 10^{-15} \text{ m} $$ . The density is $$\rho =m/V $$ , where the mass of a proton is $${m}_{p}=1.67\times 10^{-27} \text{ kg} $$ and the volume is $$V=\frac{4}{3}\pi {r}^{3} $$ .
+$$V=\frac43\pi r^3=9.05\times10^{-46}\text{ m}^3,\qquad \rho=\frac{1.67\times10^{-27}\text{ kg}}{9.05\times10^{-46}\text{ m}^3}=1.8\times10^{18}\text{ kg/m}^3.$$
 
-**Solution**
-
-The radius of the proton is:
-
-<div class="equation" >
- $$r=\frac{d}{2}=\frac{1.2\times 10^{-15} \text{ m}}{2}= 6.0\times 10^{-16} \text{ m} $$
-</div>
-
-The volume is:
-
-<div class="equation" >
- $$V=\frac{4}{3}\pi {r}^{3}=\frac{4}{3}\pi {\left( 6.0\times 10^{-16} \text{ m}\right)}^{3}= 9.05\times 10^{-46} {\text{ m}}^{3} $$
-</div>
-
-The density is:
-
-<div class="equation" >
- $$\rho =\frac{m}{V}=\frac{1.67\times 10^{-27} \text{ kg}}{ 9.05\times 10^{-46} {\text{ m}}^{3}}= 1.8\times 10^{17} \text{ kg/}{\text{m}}^{3} $$
-</div>
-
-**Discussion**
-
-This density is extraordinarily large—about $$10^{14} $$ times greater than the density of water ( $$10^{3} \text{ kg/}{\text{m}}^{3} $$ ) or solid matter ( $$\sim 10^{4} \text{ kg/}{\text{m}}^{3} $$ ). This result is typical of nuclear densities and demonstrates that nuclei are incredibly compact objects. All atomic nuclei have approximately the same density because they are composed of closely packed nucleons (protons and neutrons). This uniform density is a key feature of the nuclear structure and validates the liquid drop model of the nucleus.
+This is about eight times the chapter's nuclear-density estimate of $$2.3\times10^{17}\text{ kg/m}^3$$. The chapter uses a radius parameter of 1.2 fm, whereas the question stipulates that size as a diameter; halving a spherical radius increases density by a factor of eight.
 
 :::
 
@@ -1114,7 +1093,7 @@ The star is moving **toward** Earth at approximately **526 km/s**.
 
 **Discussion**
 
-This large velocity is typical of stellar motions in our galaxy. The blueshift (shorter observed wavelength) indicates motion toward us. This Lyman series limit transition ( $$n=\infty $$ to $$n=1 $$ ) corresponds to the ionization edge of hydrogen and is an important feature in stellar spectra. Such Doppler measurements are crucial for understanding galactic dynamics and stellar velocities.
+This is a large stellar speed, well above typical disk-star random speeds in our galaxy. The blueshift (shorter observed wavelength) indicates motion toward us. This Lyman series limit transition ( $$n=\infty $$ to $$n=1 $$ ) corresponds to the ionization edge of hydrogen and is an important feature in stellar spectra. Such Doppler measurements are crucial for understanding galactic dynamics and stellar velocities.
 
 :::
 
@@ -1137,8 +1116,9 @@ density of olive oil?
 
 ::: solution
 
-(a)  $$ 6.54 \times 10^{-16}  \text{kg} $$
-(b)  $$ 5.54 \times 10^{-7}  \text{m} $$
+**(a)** The electric field is $$E=500\text{ V}/0.0250\text{ m}=2.00\times10^4\text{ V/m}$$. Balancing forces gives $$m=2eE/g=6.54\times10^{-16}\text{ kg}$$.
+
+**(b)** Using olive oil's density, $$\rho=920\text{ kg/m}^3$$, the volume is $$V=m/\rho=7.11\times10^{-19}\text{ m}^3$$. Hence $$r=(3V/4\pi)^{1/3}=5.54\times10^{-7}\text{ m}$$ and the **diameter** is $$2r=1.11\times10^{-6}\text{ m}$$.
 
 :::
 
@@ -1311,9 +1291,7 @@ nucleus.
 
 **Integrated Concepts**
 
-Calculate the minimum amount of energy in joules needed to create a population
-inversion in a helium-neon laser containing $$ 1.00 \times 10^{-4} $$ moles of
-neon.
+For an idealized pumping-energy estimate, calculate the minimum energy needed to raise half the atoms in $$1.00\times10^{-4}$$ moles of neon from the ground state to the upper helium-neon laser level, 20.66 eV above the ground state. Neglect energy losses.
 
 :::
 
@@ -1321,41 +1299,21 @@ neon.
 
 **Strategy**
 
-A helium-neon laser produces red light at $$\lambda =632.8 \text{ nm} $$ . To create a population inversion, at least half of the neon atoms must be excited to the upper laser level. The energy per photon is $$E=hc/\lambda $$ . We need to find the total energy to excite half of the neon atoms.
+Use the upper level's excitation energy above the ground state, 20.66 eV, rather than the 1.96-eV energy of the emitted laser photon.
 
 **Solution**
 
-The energy per photon is:
+The specified number of excited atoms is
 
-<div class="equation" >
- $$E=\frac{hc}{\lambda }=\frac{\left( 6.63\times 10^{-34} \text{ J}\cdot \text{s}\right)\left( 3.00\times 10^{8} \text{ m/s}\right)}{632.8\times 10^{-9} \text{ m}} $$
-</div>
+$$N_{\text{excited}}=\frac12(1.00\times10^{-4}\text{ mol})(6.022\times10^{23}\text{ mol}^{-1})=3.01\times10^{19}.$$
 
-<div class="equation" >
- $$E=\frac{ 1.989\times 10^{-25} \text{ J}\cdot \text{m}}{ 6.328\times 10^{-7} \text{ m}}= 3.14\times 10^{-19} \text{ J} $$
-</div>
+Thus
 
-The number of neon atoms is:
-
-<div class="equation" >
- $$N=n{N}_{\text{A}}=\left( 1.00\times 10^{-4} \text{ mol}\right)\left( 6.022\times 10^{23} {\text{ atoms/mol}}\right)= 6.022\times 10^{19} \text{ atoms} $$
-</div>
-
-For a population inversion, at least half the atoms must be in the excited state:
-
-<div class="equation" >
- $${N}_{\text{excited}}=\frac{N}{2}=\frac{ 6.022\times 10^{19}}{2}= 3.01\times 10^{19} \text{ atoms} $$
-</div>
-
-The total energy required is:
-
-<div class="equation" >
- $${E}_{\text{total}}={N}_{\text{excited}}\times E=\left( 3.01\times 10^{19}\right)\left( 3.14\times 10^{-19} \text{ J}\right)=9.45 \text{ J} $$
-</div>
+$$E_{\text{pump}}=N_{\text{excited}}(20.66\text{ eV})(1.602\times10^{-19}\text{ J/eV})=99.7\text{ J}.$$
 
 **Discussion**
 
-This represents the minimum energy needed to create a population inversion. In practice, more energy is required because not all the pump energy efficiently excites the neon atoms, and some atoms spontaneously emit before stimulated emission occurs. Helium-neon lasers use electrical discharge to excite helium atoms first, which then transfer energy to neon atoms through collisions, creating the population inversion necessary for laser action. The relatively modest energy requirement (less than 10 J) explains why He-Ne lasers are efficient and commonly used in laboratories and laser pointers.
+Actual pumping requires more energy because transfer and excitation are inefficient. This estimate assumes that half the atoms are raised from the ground state; in a multilevel laser, inversion means a greater population of the upper laser level than the lower laser level, rather than necessarily half of all atoms.
 
 :::
 
@@ -1369,11 +1327,11 @@ This represents the minimum energy needed to create a population inversion. In p
 
 A carbon dioxide laser used in surgery emits infrared radiation with a
 wavelength of $$10.6 \text{μm} $$ . In 1.00 ms, this laser raised the
-temperature of $${1.00 \text{cm}}^{3} $$ of flesh to $$100 \text{ºC} $$ and
+temperature of $${1.00 \text{cm}}^{3}$$ of flesh from $$37.0\text{ °C}$$ to $$100\text{ °C}$$ and
 evaporated it.
 
-(a) How many photons were required? You may assume flesh has the same heat of
-vaporization as water. (b) What was the minimum power output during the flash?
+(a) How many photons were required? Assume flesh has the density, specific heat, and heat of
+vaporization of water. (b) What was the minimum power output during the flash?
 
 :::
 
@@ -1457,12 +1415,13 @@ implications.
 
 ::: solution
 
-(a) 6.42 eV
+**(a)** $$E_\gamma=hc/\lambda=6.42\text{ eV}$$.
 
-(b)  $$ 7.27 \times 10^{-20} \text{J/molecule} $$
-(c) 0.454 eV, 14.1 times less than a single UV photon. Therefore, each photon
-will evaporate approximately 14 molecules of tissue. This gives the surgeon a
-rather precise method of removing corneal tissue from the surface of the eye.
+**(b)** Using the book's $$L_v=2256\text{ kJ/kg}$$ and molar mass $$0.0180\text{ kg/mol}$$,
+
+$$E_{\text{molecule}}=\frac{(2.256\times10^6\text{ J/kg})(0.0180\text{ kg/mol})}{6.022\times10^{23}\text{ mol}^{-1}}=6.75\times10^{-20}\text{ J}.$$
+
+**(c)** This is 0.421 eV per molecule, so the photon energy is about 15.2 times larger. That ratio is an ideal energy budget, not a fixed number of molecules removed per photon. Actual tissue ablation includes absorption, bond breaking, and energy losses.
 
 :::
 

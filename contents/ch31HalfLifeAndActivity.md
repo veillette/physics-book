@@ -270,7 +270,7 @@ Calculate the activity due to  $${}^{14}\text{C} $$
 
 To find the activity $$R $$ using the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$
 , we must know $$N $$ and $${t}_{1/2} $$ . The half-life of $${}^{14}\text{C} $$
-can be found in [Appendix B](../contents/appendixB), and was stated above as 5730 y. To find
+can be found in [Appendix A, Selected Radioactive Isotopes](../contents/appendixA#Radioactive-Isotopes), and was stated above as 5730 y. To find
 $$N $$ , we first find the number of $${}^{12}\text{C} $$ nuclei in 1.00 kg of
 carbon using the concept of a mole. As indicated, we then multiply by $$ 1.3 \times 10^{-12} $$ (the abundance of $${}^{14}\text{C} $$ in a carbon sample from a living
 organism) to get the number of $${}^{14}\text{C} $$ nuclei in a living organism.
@@ -374,7 +374,7 @@ It is estimated that the Chernobyl disaster released 6.0 MCi of  $${}^{137}\text
 We can calculate the mass released using Avogadro’s number and the concept of a
 mole if we can first find the number of nuclei $$N $$ released. Since the
 activity $$R $$ is given, and the half-life of $${}^{137}\text{Cs} $$ is found
-in [Appendix B](../contents/appendixB) to be 30.2 y, we can use the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$ to find $$N $$.
+in [Appendix A, Selected Radioactive Isotopes](../contents/appendixA#Radioactive-Isotopes) to be 30.2 y, we can use the equation $$R=\frac{ 0.693N}{ {t}_{1/2}} $$ to find $$N $$.
 
 **Solution**
 
@@ -590,8 +590,7 @@ How does the finite range of the nuclear force relate to the fact that  $$\text{
 
 ### Problems &amp; Exercises
 
-Data from the appendices and the periodic table may be needed for these
-problems.
+Use the [selected isotope data in Appendix A](../contents/appendixA#Radioactive-Isotopes) and the periodic table for these problems.
 
 <div class="exercise" data-element-type="problems-exercises">
 
@@ -729,7 +728,7 @@ There is more than one isotope of natural uranium. If a researcher isolates 1.00
 
 ::: solution
 
- $$ 1.48 \times 10^{17}  \text{y} $$
+ $$ 1.51 \times 10^{17}  \text{y} $$
 
 :::
 

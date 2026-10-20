@@ -750,10 +750,10 @@ $$f = -1.00 \text{ m}$$
 
 **(c)** Find radius of curvature:
 <div class="equation">
-$$R = 2|f| = 2(1.00 \text{ m}) = 2.00 \text{ m}$$
+$$R = 2f = 2(-1.00 \text{ m}) = -2.00 \text{ m}$$
 </div>
 
-**Answers:** (a) **−0.750 m** (behind mirror), (b) **−1.00 m**, (c) **2.00 m**
+**Answers:** (a) **−0.750 m** (behind mirror), (b) **−1.00 m**, (c) **−2.00 m** (curvature magnitude 2.00 m)
 
 **Discussion**
 
@@ -773,51 +773,15 @@ An object 1.50 cm high is held 3.00 cm from a person's cornea, and its reflected
 
 ::: solution
 
-**Strategy**
+**(a)** $$m=h_i/h_o=0.167/1.50=+0.111$$.
 
-**(a)** Use $$m = h_i/h_o$$ to find magnification.
-**(b)** Use $$m = -d_i/d_o$$ to find the image distance.
-**(c)** Use the mirror equation to find $$f$$, then $$R = 2f$$.
+**(b)** Retaining the unrounded magnification, $$d_i=-md_o=-(0.167/1.50)(3.00\text{ cm})=-0.334\text{ cm}$$. The virtual image is behind the cornea.
 
-**Solution**
-
-**(a)** Magnification:
-<div class="equation">
-$$m = \frac{h_i}{h_o} = \frac{0.167 \text{ cm}}{1.50 \text{ cm}} = 0.111$$
-</div>
-
-**(b)** Image distance:
-<div class="equation">
-$$m = -\frac{d_i}{d_o}$$
-</div>
-
-<div class="equation">
-$$d_i = -m \cdot d_o = -(0.111)(3.00 \text{ cm}) = -0.333 \text{ cm}$$
-</div>
-
-**(c)** Focal length:
-<div class="equation">
-$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i} = \frac{1}{3.00 \text{ cm}} + \frac{1}{-0.333 \text{ cm}}$$
-</div>
-
-<div class="equation">
-$$\frac{1}{f} = 0.333 - 3.00 = -2.667 \text{ cm}^{-1}$$
-</div>
-
-<div class="equation">
-$$f = -0.375 \text{ cm}$$
-</div>
-
-Radius of curvature:
-<div class="equation">
-$$R = 2|f| = 2(0.375 \text{ cm}) = 0.750 \text{ cm}$$
-</div>
-
-**Answer:** **(a)** Magnification is **+0.111** or **+0.111**. **(b)** Image is at **−0.333 cm** (behind the cornea). **(c)** Radius of curvature is **0.750 cm** or **0.752 cm**.
+**(c)** $$f=(1/d_o+1/d_i)^{-1}=-0.376\text{ cm}$$, so $$R=2f=-0.752\text{ cm}$$, with radius magnitude **0.752 cm**.
 
 **Discussion**
 
-This technique (keratometry) is essential for fitting contact lenses. The cornea acts as a convex mirror with a radius of curvature of about 7.5 mm—very small but reasonable for the human eye. The positive magnification indicates an upright image, and the small magnitude (0.111) shows the image is much reduced, both consistent with a convex mirror. The negative image distance confirms the image is virtual and located behind the "mirror" (inside the cornea). Modern keratometers use this principle but with sophisticated optics to measure corneal curvature precisely at multiple points, which is crucial for diagnosing conditions like astigmatism and for fitting specialty contact lenses.
+The positive magnification and negative image distance describe an upright, reduced virtual image, consistent with reflection at the convex cornea.
 
 :::
 
@@ -951,34 +915,21 @@ Referring to the electric room heater considered in the first example in this se
 
 **Strategy**
 
-From a previous problem, we found that the heater element has magnification $$m = -11.0$$ when the image is at 3.00 m. Half of the 1500 W (750 W) is reflected and focused by the mirror. We need to find the area over which this power is distributed at the 3.00 m distance.
+The image's area scales as the square of the linear magnification. Divide the reflected power by that image area.
 
 **Solution**
 
-Power reflected and focused:
-<div class="equation">
-$$P = \frac{1500 \text{ W}}{2} = 750 \text{ W}$$
-</div>
+The reflected power is $$P=1500\text{ W}/2=750\text{ W}$$. With $$m=-11.0$$ and $$A_o=100\text{ cm}^2=0.0100\text{ m}^2$$,
 
-The heating element has area $$A_{\text{object}} = 100 \text{ cm}^2 = 0.0100 \text{ m}^2$$.
+$$A_i=m^2A_o=121(0.0100\text{ m}^2)=1.21\text{ m}^2.$$
 
-From the magnification $$m = -11.0$$, the linear dimensions of the image are 11 times those of the object. However, for the area calculation at the focal plane, we need to consider how the light is actually distributed.
+Thus
 
-The effective area over which the radiation is concentrated can be calculated as:
-<div class="equation">
-$$A_{\text{eff}} = \frac{A_{\text{object}}}{|m|} = \frac{0.0100 \text{ m}^2}{11.0} = 9.09 \times 10^{-4} \text{ m}^2 \times 121 = 0.110 \text{ m}^2$$
-</div>
-
-Intensity at 3.00 m:
-<div class="equation">
-$$I = \frac{P}{A_{\text{eff}}} = \frac{750 \text{ W}}{0.110 \text{ m}^2} = 6820 \text{ W/m}^2 = 6.82 \text{ kW/m}^2$$
-</div>
-
-**Answer:** The intensity is **6.82 kW/m²** or **6820 W/m²**.
+$$I=\frac{P}{A_i}=\frac{750\text{ W}}{1.21\text{ m}^2}=6.2\times10^2\text{ W/m}^2.$$
 
 **Discussion**
 
-This high intensity (about 7 times the intensity of direct sunlight at Earth's surface) explains why standing in front of an electric heater with a concave reflector feels so warm. The mirror concentrates 750 W of infrared radiation into a relatively small area of about 0.110 m². This focused distribution is much more effective at warming a specific location than an unreflected heater that radiates uniformly in all directions. The concentration effect is why these heaters work best when you're positioned at the focal distance—too close or too far reduces the heating effect.
+This is about 0.6 times the intensity of direct sunlight at Earth's surface. The mirror directs 750 W of infrared radiation onto an image area of 1.21 m² in this idealized model.
 
 :::
 

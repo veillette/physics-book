@@ -164,7 +164,7 @@ Is it possible for an external force to be acting on a system and relativistic m
 
 ### Problem Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -199,7 +199,7 @@ At 20% the speed of light, the helium nucleus (alpha particle) is only mildly re
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -233,7 +233,7 @@ The electron's relativistic momentum is $$1.35 \times 10^{-21}$$ kg·m/s. For co
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -278,7 +278,7 @@ The asteroid's velocity (30 km/s) is only $$10^{-4}c$$, making it essentially no
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -325,7 +325,7 @@ The satellite's velocity (4 km/s) is only $$1.33 \times 10^{-5}c$$, making relat
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -368,7 +368,7 @@ The electron is traveling at 99.60% the speed of light, differing from $$c$$ by 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -420,7 +420,7 @@ The proton is traveling at about 69% the speed of light. At this velocity, $$\ga
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -462,13 +462,13 @@ This problem beautifully illustrates the vast difference between atomic and macr
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
 (a) Calculate  $$\gamma  $$
  for a proton that has a momentum of  $$1.00 \text{kg⋅m/s}\text{.} $$
- (b) What is its speed? Such protons form a rare component of cosmic radiation with uncertain origins.
+ (b) What is its speed? Treat this as a hypothetical proton; its momentum far exceeds that of observed cosmic rays.
 
 :::
 
@@ -504,10 +504,7 @@ Or more practically: $$u \approx c - 3.8 \times 10^{-29}$$ m/s
 
 **Discussion**
 
-This ultra-relativistic proton has $$\gamma \approx 2 \times 10^{18}$$—an almost incomprehensibly large Lorentz factor! Its speed differs from $$c$$ by less than one part in $$10^{36}$$. Such particles, known as ultra-high-energy cosmic rays, are among the most energetic particles ever detected. Their kinetic energy is roughly $$\gamma mc^{2} \approx (2 \times 10^{18})(938 \text{ MeV}) \approx 10^{21}$$ eV or 1 ZeV (zettaelectronvolt)—equivalent to the kinetic energy of a baseball traveling at 100 km/h, concentrated in a single proton!
-
-The origins of such particles remain mysterious. They require acceleration mechanisms far more powerful than any human-made accelerator. Possible sources include active galactic nuclei, gamma-ray bursts, or exotic physics beyond the Standard Model. The detection of even a single such proton is a significant scientific event, as they are extraordinarily rare and provide insights into the most violent astrophysical processes in the universe.
-
+This hypothetical proton has $$\gamma\approx2.0\times10^{18}$$ and kinetic energy approximately $$pc=3.0\times10^8\text{ J}=1.9\times10^{27}\text{ eV}$$. This is about seven orders of magnitude above the highest observed cosmic-ray energies, of order $$3\times10^{20}\text{ eV}$$. The example illustrates relativistic momentum at an extreme hypothetical energy.
 :::
 
 </div>

@@ -103,7 +103,7 @@ Using the law of reflection, explain how powder takes the shine off of a personâ
 
 ### Problems &amp; Exercises
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -148,7 +148,7 @@ The result is independent of the incident angle, which is why corner reflectors 
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
@@ -195,7 +195,7 @@ This 2:1 relationship between mirror rotation and beam deflection is also used i
 
 </div>
 
-<div class="exercise" data-element-type="problem-exercises">
+<div class="exercise" data-element-type="problems-exercises">
 
 ::: problem
 
