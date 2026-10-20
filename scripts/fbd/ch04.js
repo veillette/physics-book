@@ -926,4 +926,101 @@ export default {
     d.objectLabel('man', { dx: -10, dy: -22, anchor: 'end' });
     return d.render();
   },
+
+  // 4.3 Conceptual Question 6 — rock at the top of its flight
+  fbd_04_03_q06: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of the rock at the top of its flight',
+      desc: 'Free-body diagram with +x to the right and +y up: the only force is the weight w = mg pointing down. The velocity is momentarily zero, but the acceleration still points down.',
+      width: 300,
+      height: 300,
+      cx: 140,
+      cy: 130,
+    });
+    d.axes({ xLen: 120, yLen: 105, xNeg: 110, yNeg: 140 });
+    d.force(270, 95, 'w = mg');
+    d.accel(270, 50, { at: [-70, -20], label: 'a = g' });
+    d.note(-12, 75, 'v = 0 at the top', { anchor: 'end' });
+    d.objectLabel('rock', { dx: 12, dy: -18 });
+    return d.render();
+  },
+
+  // 4.4 Conceptual Question 5 — the lineman can still out-push the opponent
+  fbd_04_04_q05: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of the lineman',
+      desc: 'Free-body diagram of the lineman alone, with +x forward (toward the opponent) and +y up: the opponent pushes him backward with force P, the ground pushes his feet forward with static friction f, which is longer than P; the normal force N points up and the weight w points down. The net force and acceleration point forward.',
+      width: 480,
+      height: 320,
+      cx: 190,
+      cy: 150,
+    });
+    d.axes({ xLen: 165, yLen: 115, xNeg: 160, yNeg: 115, xLabel: '+x (forward)' });
+    d.force(90, 80, 'N');
+    d.force(270, 80, 'w');
+    d.force(0, 130, 'f');
+    d.force(180, 95, 'P');
+    d.accel(0, 45, { at: [40, 85] });
+    d.note(-180, -140, 'P: push of the opponent on the lineman', { anchor: 'start' });
+    d.note(-180, -158, 'f: static friction of the ground on his feet', { anchor: 'start' });
+    d.objectLabel('lineman', { dx: -10, dy: -22, anchor: 'end' });
+    return d.render();
+  },
+
+  // 4.5 Conceptual Question 1 — the hanging weight sets the tension
+  fbd_04_05_q01: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of the hanging traction weight',
+      desc: 'Free-body diagram of the hanging mass, with +y up: the rope tension T up and the weight w = mg down, equal in length, so T = mg. The acceleration is zero.',
+      width: 280,
+      height: 280,
+      cx: 130,
+      cy: 140,
+    });
+    d.axes({ xLen: 110, yLen: 115, xNeg: 100, yNeg: 115 });
+    d.force(90, 85, 'T');
+    d.force(270, 85, 'w = mg');
+    d.accel(0, 0, { at: [-65, 60] });
+    d.objectLabel('hanging mass', { dx: 12, dy: -18 });
+    return d.render();
+  },
+
+  // 4.5 Conceptual Question 2 — a smaller rope angle pulls harder on the tibia
+  fbd_04_05_q02: () => {
+    const build = (caption, theta) => {
+      const d = new FBD({ width: 340, height: 280, cx: 80, cy: 140, caption });
+      d.axes({ xLen: 230, yLen: 110, xNeg: 60, yNeg: 110, xLabel: '+x' });
+      d.force(theta, 85, 'T');
+      d.force(-theta, 85, 'T');
+      const pull = 2 * 85 * Math.cos((theta * Math.PI) / 180);
+      d.force(0, pull, '2T cos θ', { color: '#1f5fa8', labelOpts: { dy: 2 } });
+      d.arc(0, theta, 40, 'θ', { labelR: 54 });
+      d.objectLabel('pulley at foot', { dx: -60, dy: -100, anchor: 'start' });
+      return d;
+    };
+    const a = build('(a) θ = 60°: pull = 2T cos 60° = T', 60);
+    const b = build('(b) θ = 20°: pull = 2T cos 20° = 1.9T', 20);
+    return panels([a, b], {
+      title: 'Effect of the rope angle on the traction force',
+      desc: 'Two free-body diagrams of the pulley attached to the foot. Each rope segment pulls with tension T at angle θ above and below the horizontal; the vertical parts cancel and the horizontal parts add to a pull of 2T cos θ along the tibia (blue). (a) With θ = 60° the pull is 2T cos 60° = T. (b) With θ = 20° the pull is 2T cos 20° = 1.9T, nearly twice as large, using the same weight.',
+    });
+  },
+
+  // 4.7 Conceptual Question 1 — astronaut on a scale in a plane falling at g
+  fbd_04_07_q01: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of an astronaut on a scale in free fall',
+      desc: 'Free-body diagram with +y up: only the weight w points down; the scale force is zero because the scale falls with the astronaut. The acceleration is g downward.',
+      width: 300,
+      height: 300,
+      cx: 140,
+      cy: 120,
+    });
+    d.axes({ xLen: 120, yLen: 100, xNeg: 110, yNeg: 150 });
+    d.force(270, 100, 'w = mg');
+    d.accel(270, 50, { at: [-70, -20], label: 'a = g' });
+    d.text(-14, 60, 'N_{scale} = 0', { size: 17, vshift: 6, anchor: 'end' });
+    d.objectLabel('astronaut', { dx: 12, dy: -18 });
+    return d.render();
+  },
 };

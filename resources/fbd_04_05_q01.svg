@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the hanging traction weight</title>
+<desc id="desc">Free-body diagram of the hanging mass, with +y up: the rope tension T up and the weight w = mg down, equal in length, so T = mg. The acceleration is zero.</desc>
+<rect width="280" height="280" fill="#ffffff"/>
+<line x1="30" y1="140" x2="231" y2="140" stroke="#555555" stroke-width="1.5"/><polygon points="240,140 230,144.2 230,135.8" fill="#555555"/>
+<line x1="130" y1="255" x2="130" y2="34" stroke="#555555" stroke-width="1.5"/><polygon points="130,25 134.2,35 125.8,35" fill="#555555"/>
+<line x1="130" y1="140" x2="130" y2="66" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130,55 135.04,67 124.96,67" fill="#b03a2e"/>
+<line x1="130" y1="140" x2="130" y2="214" stroke="#b03a2e" stroke-width="3.5"/><polygon points="130,225 124.96,213 135.04,213" fill="#b03a2e"/>
+<circle cx="130" cy="140" r="6" fill="#1f3a5f"/>
+<text x="142" y="158" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">hanging mass</text>
+<text x="256" y="146" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="130" y="15" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="142" y="74" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="142" y="220" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">mg</tspan></text>
+<text x="65" y="86" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = 0</tspan></text>
+</svg>

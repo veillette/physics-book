@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="302" viewBox="0 0 680 302" role="img" aria-labelledby="title desc">
+<title id="title">Effect of the rope angle on the traction force</title>
+<desc id="desc">Two free-body diagrams of the pulley attached to the foot. Each rope segment pulls with tension T at angle θ above and below the horizontal; the vertical parts cancel and the horizontal parts add to a pull of 2T cos θ along the tibia (blue). (a) With θ = 60° the pull is 2T cos 60° = T. (b) With θ = 20° the pull is 2T cos 20° = 1.9T, nearly twice as large, using the same weight.</desc>
+<rect width="680" height="302" fill="#ffffff"/>
+<g transform="translate(0 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(a) θ = 60°: pull = 2T cos 60° = T</text>
+<g transform="translate(0 22)">
+<line x1="20" y1="140" x2="301" y2="140" stroke="#555555" stroke-width="1.5"/><polygon points="310,140 300,144.2 300,135.8" fill="#555555"/>
+<line x1="80" y1="250" x2="80" y2="39" stroke="#555555" stroke-width="1.5"/><polygon points="80,30 84.2,40 75.8,40" fill="#555555"/>
+<path d="M 120 140 A 40 40 0 0 0 100 105.36" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="80" y1="140" x2="117" y2="75.91" stroke="#b03a2e" stroke-width="3.5"/><polygon points="122.5,66.39 120.86,79.3 112.14,74.26" fill="#b03a2e"/>
+<line x1="80" y1="140" x2="117" y2="204.09" stroke="#b03a2e" stroke-width="3.5"/><polygon points="122.5,213.61 112.14,205.74 120.86,200.7" fill="#b03a2e"/>
+<line x1="80" y1="140" x2="154" y2="140" stroke="#1f5fa8" stroke-width="3.5"/><polygon points="165,140 153,145.04 153,134.96" fill="#1f5fa8"/>
+<circle cx="80" cy="140" r="6" fill="#1f3a5f"/>
+<text x="20" y="240" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">pulley at foot</text>
+<text x="326" y="146" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="80" y="20" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="129.5" y="54.26" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="129.5" y="241.74" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="151" y="126" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">2</tspan><tspan font-style="italic">T</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="126.77" y="119.3" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+</g>
+</g>
+<line x1="340" y1="10" x2="340" y2="292" stroke="#cccccc" stroke-width="1"/>
+<g transform="translate(340 0)">
+<text x="12" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222">(b) θ = 20°: pull = 2T cos 20° = 1.9T</text>
+<g transform="translate(0 22)">
+<line x1="20" y1="140" x2="301" y2="140" stroke="#555555" stroke-width="1.5"/><polygon points="310,140 300,144.2 300,135.8" fill="#555555"/>
+<line x1="80" y1="250" x2="80" y2="39" stroke="#555555" stroke-width="1.5"/><polygon points="80,30 84.2,40 75.8,40" fill="#555555"/>
+<path d="M 120 140 A 40 40 0 0 0 117.59 126.32" fill="none" stroke="#222222" stroke-width="1.5"/>
+<line x1="80" y1="140" x2="149.54" y2="114.69" stroke="#b03a2e" stroke-width="3.5"/><polygon points="159.87,110.93 150.32,119.77 146.87,110.3" fill="#b03a2e"/>
+<line x1="80" y1="140" x2="149.54" y2="165.31" stroke="#b03a2e" stroke-width="3.5"/><polygon points="159.87,169.07 146.87,169.7 150.32,160.23" fill="#b03a2e"/>
+<line x1="80" y1="140" x2="228.75" y2="140" stroke="#1f5fa8" stroke-width="3.5"/><polygon points="239.75,140 227.75,145.04 227.75,134.96" fill="#1f5fa8"/>
+<circle cx="80" cy="140" r="6" fill="#1f3a5f"/>
+<text x="20" y="240" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">pulley at foot</text>
+<text x="326" y="146" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="80" y="20" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="173.03" y="113.14" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="173.03" y="180.86" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">T</tspan></text>
+<text x="225.75" y="126" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">2</tspan><tspan font-style="italic">T</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">cos</tspan><tspan font-style="normal"> </tspan><tspan font-style="italic">θ</tspan></text>
+<text x="133.18" y="136.92" font-family="'Times New Roman', Times, serif" font-size="18" fill="#222222" text-anchor="middle" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
+</g>
+</g>
+</svg>

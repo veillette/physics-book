@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="250" viewBox="0 0 640 250" role="img" aria-labelledby="title desc">
+<title id="title">A walk to the store and partway back</title>
+<desc id="desc">A number line in kilometers with east positive. The walker goes from home at x = 0 to a store at x = 4.0 km, then walks 1.5 km back west to x = 2.5 km. The distance traveled is 5.5 km, the displacement is +2.5 km (2.5 km east), and the magnitude of the displacement is 2.5 km.</desc>
+<rect width="640" height="250" fill="#ffffff"/>
+<line x1="60" y1="173" x2="537.49" y2="173" stroke="#333333" stroke-width="1.5"/>
+<polygon points="546.49,173 536.49,177 536.49,169" fill="#333333"/>
+<text x="552.49" y="178.25" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="101.23" y1="177.5" x2="101.23" y2="168.5" stroke="#333333" stroke-width="1.2"/>
+<text x="101.23" y="195.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0</tspan></text>
+<line x1="183.68" y1="177.5" x2="183.68" y2="168.5" stroke="#333333" stroke-width="1.2"/>
+<text x="183.68" y="195.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1</tspan></text>
+<line x1="266.14" y1="177.5" x2="266.14" y2="168.5" stroke="#333333" stroke-width="1.2"/>
+<text x="266.14" y="195.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2</tspan></text>
+<line x1="348.6" y1="177.5" x2="348.6" y2="168.5" stroke="#333333" stroke-width="1.2"/>
+<text x="348.6" y="195.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">3</tspan></text>
+<line x1="431.05" y1="177.5" x2="431.05" y2="168.5" stroke="#333333" stroke-width="1.2"/>
+<text x="431.05" y="195.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4</tspan></text>
+<line x1="513.51" y1="177.5" x2="513.51" y2="168.5" stroke="#333333" stroke-width="1.2"/>
+<text x="513.51" y="195.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">5</tspan></text>
+<text x="286.75" y="222.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Position</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">)</tspan></text>
+<text x="101.23" y="157.65" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">home</tspan></text>
+<text x="431.05" y="157.65" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">store</tspan></text>
+<line x1="101.23" y1="47" x2="419.05" y2="47" stroke="#c0392b" stroke-width="3"/>
+<polygon points="431.05,47 418.05,52.2 418.05,41.8" fill="#c0392b"/>
+<text x="266.14" y="36.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1: 4.0 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">east</tspan></text>
+<line x1="431.05" y1="83" x2="319.37" y2="83" stroke="#c0392b" stroke-width="3"/>
+<polygon points="307.37,83 320.37,77.8 320.37,88.2" fill="#c0392b"/>
+<text x="369.21" y="72.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">2: 1.5 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">west</tspan></text>
+<line x1="101.23" y1="125.75" x2="293.37" y2="125.75" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="307.37,125.75 292.37,131.75 292.37,119.75" fill="#8e4f8e"/>
+<text x="204.3" y="114.35" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Δ</tspan><tspan font-style="italic">x</tspan><tspan font-style="normal"> = +2.5 </tspan><tspan font-style="normal">km</tspan></text>
+<line x1="101.23" y1="173" x2="101.23" y2="38" stroke="#666666" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="307.37" y1="173" x2="307.37" y2="74" stroke="#666666" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="431.05" y1="173" x2="431.05" y2="38" stroke="#666666" stroke-width="1" stroke-dasharray="4 4"/>
+</svg>

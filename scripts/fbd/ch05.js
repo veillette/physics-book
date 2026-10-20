@@ -445,4 +445,24 @@ export default {
     d.objectLabel('bacterium', { dx: -10, dy: -26, anchor: 'end' });
     return d.render();
   },
+
+  // 5.1 Conceptual Question 1 — normal force and kinetic friction
+  fbd_05_01_q01: () => {
+    const d = new FBD({
+      title: 'Free-body diagram of a crate pushed across a floor',
+      desc: 'Free-body diagram with +x to the right and +y up: push F to the right, kinetic friction f = μk N to the left, normal force N up perpendicular to the floor, and weight w down. N and w are equal in length because there is no vertical acceleration.',
+      width: 380,
+      height: 300,
+      cx: 180,
+      cy: 150,
+    });
+    d.axes({ xLen: 160, yLen: 115, xNeg: 150, yNeg: 115 });
+    d.force(90, 85, 'N');
+    d.force(270, 85, 'w');
+    d.force(0, 120, 'F');
+    d.force(180, 75, 'f');
+    d.text(-140, -60, 'f = μ_k N', { size: 18, vshift: 6, anchor: 'start' });
+    d.objectLabel('crate', { dx: 10, dy: -22 });
+    return d.render();
+  },
 };

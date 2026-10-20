@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="250" viewBox="0 0 720 250" role="img" aria-labelledby="title desc">
+<title id="title">Resultant of A = 4.0 m and B = 3.0 m at three relative directions</title>
+<desc id="desc">Left: A and B parallel give the largest resultant, R = A + B = 7.0 m. Middle: A and B perpendicular give R = 5.0 m. Right: A and B antiparallel give the smallest resultant, R = A − B = 1.0 m, in the direction of A.</desc>
+<rect width="720" height="250" fill="#ffffff"/>
+<text x="12" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Parallel</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">R</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">A</tspan><tspan font-style="normal"> + </tspan><tspan font-style="normal">B</tspan></text>
+<line x1="25" y1="133.2" x2="125.4" y2="133.2" stroke="#c62828" stroke-width="3"/>
+<polygon points="137,133.2 124.4,138.24 124.4,128.16" fill="#c62828"/>
+<line x1="137" y1="133.2" x2="209.4" y2="133.2" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="221,133.2 208.4,138.24 208.4,128.16" fill="#1f77c8"/>
+<line x1="25" y1="166.8" x2="208.3" y2="166.8" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="221,166.8 207.3,172.28 207.3,161.32" fill="#8e4f8e"/>
+<text x="81" y="120.8" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">A<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan></text>
+<text x="179" y="120.8" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-9.9" dy="-9.92">→</tspan><tspan dx="0.77" dy="9.92">​</tspan></tspan></text>
+<text x="123" y="194.4" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> = 7.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="240" y1="10" x2="240" y2="240" stroke="#cccccc" stroke-width="1"/>
+<text x="252" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Perpendicular</tspan></text>
+<line x1="300" y1="200" x2="400.4" y2="200" stroke="#c62828" stroke-width="3"/>
+<polygon points="412,200 399.4,205.04 399.4,194.96" fill="#c62828"/>
+<line x1="412" y1="200" x2="412" y2="127.6" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="412,116 417.04,128.6 406.96,128.6" fill="#1f77c8"/>
+<line x1="300" y1="200" x2="401.84" y2="123.62" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="412,116 404.33,128.6 397.75,119.84" fill="#8e4f8e"/>
+<polyline points="402,200 402,190 412,190" fill="none" stroke="#333333" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="356" y="223.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">A<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan></text>
+<text x="426" y="163.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-9.9" dy="-9.92">→</tspan><tspan dx="0.77" dy="9.92">​</tspan></tspan></text>
+<text x="331.6" y="154.4" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> = 5.0 </tspan><tspan font-style="normal">m</tspan></text>
+<line x1="480" y1="10" x2="480" y2="240" stroke="#cccccc" stroke-width="1"/>
+<text x="492" y="29.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Antiparallel</tspan><tspan font-style="normal">: </tspan><tspan font-style="normal">R</tspan><tspan font-style="normal"> = </tspan><tspan font-style="normal">A</tspan><tspan font-style="normal"> − </tspan><tspan font-style="normal">B</tspan></text>
+<line x1="530" y1="133.2" x2="630.4" y2="133.2" stroke="#c62828" stroke-width="3"/>
+<polygon points="642,133.2 629.4,138.24 629.4,128.16" fill="#c62828"/>
+<line x1="642" y1="155.6" x2="569.6" y2="155.6" stroke="#1f77c8" stroke-width="3"/>
+<polygon points="558,155.6 570.6,150.56 570.6,160.64" fill="#1f77c8"/>
+<line x1="530" y1="180.8" x2="545.3" y2="180.8" stroke="#8e4f8e" stroke-width="3.5"/>
+<polygon points="558,180.8 544.3,186.28 544.3,175.32" fill="#8e4f8e"/>
+<text x="586" y="120.8" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">A<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan></text>
+<text x="600" y="179.2" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-9.9" dy="-9.92">→</tspan><tspan dx="0.77" dy="9.92">​</tspan></tspan></text>
+<text x="574" y="208.4" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">R</tspan><tspan font-style="normal"> = 1.0 </tspan><tspan font-style="normal">m</tspan></text>
+</svg>

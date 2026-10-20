@@ -491,8 +491,21 @@ export function smoothPath(points, tension = 0.5, { horizontalTangents = [] } = 
   if (points.length < 3) {
     return points.map(([x, y], k) => `${k ? 'L' : 'M'} ${fmt(x)} ${fmt(y)}`).join(' ');
   }
-  const t = tension / 3;
   let d = `M ${fmt(points[0][0])} ${fmt(points[0][1])}`;
+  for (const [, c1, c2, p2] of splineSegments(points, tension, { horizontalTangents })) {
+    d += ` C ${fmt(c1[0])} ${fmt(c1[1])} ${fmt(c2[0])} ${fmt(c2[1])} ${fmt(p2[0])} ${fmt(p2[1])}`;
+  }
+  return d;
+}
+
+/**
+ * The cubic Bézier segments [p1, c1, c2, p2] that `smoothPath` draws. The
+ * construction is affine-invariant, so it can be run on data coordinates to
+ * differentiate a graph exactly as it is drawn.
+ */
+export function splineSegments(points, tension = 0.5, { horizontalTangents = [] } = {}) {
+  const t = tension / 3;
+  const segments = [];
   for (let k = 0; k < points.length - 1; k += 1) {
     const p0 = points[k - 1] || points[k];
     const p1 = points[k];
@@ -502,9 +515,31 @@ export function smoothPath(points, tension = 0.5, { horizontalTangents = [] } = 
     const c2 = [p2[0] - (p3[0] - p1[0]) * t, p2[1] - (p3[1] - p1[1]) * t];
     if (horizontalTangents.includes(k)) c1[1] = p1[1];
     if (horizontalTangents.includes(k + 1)) c2[1] = p2[1];
-    d += ` C ${fmt(c1[0])} ${fmt(c1[1])} ${fmt(c2[0])} ${fmt(c2[1])} ${fmt(p2[0])} ${fmt(p2[1])}`;
+    segments.push([p1, c1, c2, p2]);
   }
-  return d;
+  return segments;
+}
+
+/**
+ * Slope dy/dx along a `smoothPath` curve, sampled `n` times per segment.
+ * Returns [x, slope] pairs; the first sample of segment k is the data point k.
+ */
+export function splineSlope(points, tension = 0.5, { horizontalTangents = [], n = 24 } = {}) {
+  const out = [];
+  const segments = splineSegments(points, tension, { horizontalTangents });
+  segments.forEach(([p1, c1, c2, p2], k) => {
+    const last = k === segments.length - 1;
+    for (let j = 0; j <= (last ? n : n - 1); j += 1) {
+      const s = j / n;
+      const u = 1 - s;
+      const at = i =>
+        u * u * u * p1[i] + 3 * u * u * s * c1[i] + 3 * u * s * s * c2[i] + s * s * s * p2[i];
+      const d = i =>
+        3 * u * u * (c1[i] - p1[i]) + 6 * u * s * (c2[i] - c1[i]) + 3 * s * s * (p2[i] - c2[i]);
+      out.push([at(0), d(1) / d(0)]);
+    }
+  });
+  return out;
 }
 
 /**

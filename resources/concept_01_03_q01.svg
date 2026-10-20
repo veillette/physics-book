@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="title desc">
+<title id="title">Two measurements of a 25.00 cm length</title>
+<desc id="desc">A number line from 24.4 cm to 25.6 cm with the accepted value, 25.00 cm, marked by a dashed line. Measurement A, 25.1 ± 0.3 cm, has a wide uncertainty bar that includes 25.00 cm. Measurement B, 24.62 ± 0.05 cm, has a narrow bar that lies entirely below 25.00 cm: it is precise but not accurate.</desc>
+<rect width="600" height="260" fill="#ffffff"/>
+<line x1="40" y1="190" x2="560" y2="190" stroke="#333333" stroke-width="1.5"/>
+<line x1="40" y1="190" x2="40" y2="183.6" stroke="#333333" stroke-width="1.2"/>
+<text x="40" y="213.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">24.4</tspan></text>
+<line x1="126.67" y1="190" x2="126.67" y2="183.6" stroke="#333333" stroke-width="1.2"/>
+<text x="126.67" y="213.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">24.6</tspan></text>
+<line x1="213.33" y1="190" x2="213.33" y2="183.6" stroke="#333333" stroke-width="1.2"/>
+<text x="213.33" y="213.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">24.8</tspan></text>
+<line x1="300" y1="190" x2="300" y2="183.6" stroke="#333333" stroke-width="1.2"/>
+<text x="300" y="213.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25.0</tspan></text>
+<line x1="386.67" y1="190" x2="386.67" y2="183.6" stroke="#333333" stroke-width="1.2"/>
+<text x="386.67" y="213.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25.2</tspan></text>
+<line x1="473.33" y1="190" x2="473.33" y2="183.6" stroke="#333333" stroke-width="1.2"/>
+<text x="473.33" y="213.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25.4</tspan></text>
+<line x1="560" y1="190" x2="560" y2="183.6" stroke="#333333" stroke-width="1.2"/>
+<text x="560" y="213.57" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">25.6</tspan></text>
+<text x="300" y="243.25" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Length</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="300" y1="190" x2="300" y2="30" stroke="#666666" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="300" y="40.23" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">accepted</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">value</tspan><tspan font-style="normal"> 25.00 </tspan><tspan font-style="normal">cm</tspan></text>
+<line x1="213.33" y1="88.67" x2="473.33" y2="88.67" stroke="#1f77c8" stroke-width="3"/>
+<line x1="213.33" y1="96.67" x2="213.33" y2="80.67" stroke="#1f77c8" stroke-width="3"/>
+<line x1="473.33" y1="96.67" x2="473.33" y2="80.67" stroke="#1f77c8" stroke-width="3"/>
+<circle cx="343.33" cy="88.67" r="6" fill="#1f77c8"/>
+<text x="343.33" y="71.17" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">A</tspan><tspan font-style="normal">: 25.1 ± 0.3 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">accurate</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="113.67" y1="142" x2="157" y2="142" stroke="#c62828" stroke-width="3"/>
+<line x1="113.67" y1="150" x2="113.67" y2="134" stroke="#c62828" stroke-width="3"/>
+<line x1="157" y1="150" x2="157" y2="134" stroke="#c62828" stroke-width="3"/>
+<circle cx="135.33" cy="142" r="6" fill="#c62828"/>
+<text x="135.33" y="124.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">B</tspan><tspan font-style="normal">: 24.62 ± 0.05 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">precise</tspan><tspan font-style="normal">, </tspan><tspan font-style="normal">not</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">accurate</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

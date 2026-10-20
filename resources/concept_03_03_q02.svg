@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="290" viewBox="0 0 340 290" role="img" aria-labelledby="title desc">
+<title id="title">A displacement due north has a zero x-component</title>
+<desc id="desc">On x–y axes with x east and y north, a displacement A of 5.0 km points straight along +y. Its y-component is 5.0 km and its x-component is zero.</desc>
+<rect width="340" height="290" fill="#ffffff"/>
+<line x1="66" y1="240" x2="291" y2="240" stroke="#333333" stroke-width="1.5"/>
+<polygon points="300,240 290,244 290,236" fill="#333333"/>
+<line x1="120" y1="268.8" x2="120" y2="33" stroke="#333333" stroke-width="1.5"/>
+<polygon points="120,24 124,34 116,34" fill="#333333"/>
+<text x="304" y="261.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">x</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">east</tspan><tspan font-style="normal">)</tspan></text>
+<text x="106" y="35.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">y</tspan><tspan font-style="normal"> (</tspan><tspan font-style="normal">north</tspan><tspan font-style="normal">)</tspan></text>
+<line x1="120" y1="240" x2="120" y2="75" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="120,60 126.4,76 113.6,76" fill="#8e4f8e"/>
+<text x="134" y="137.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">A<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan><tspan font-style="normal"> = 5.0 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">north</tspan></text>
+<text x="134" y="184.4" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">x</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 0</tspan></text>
+<text x="134" y="209.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan><tspan font-size="11.2" dy="4.48"><tspan font-style="normal">y</tspan></tspan><tspan dy="-4.48">​</tspan><tspan font-style="normal"> = 5.0 </tspan><tspan font-style="normal">km</tspan></text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+<title id="title">Free-body diagram of the rock at the top of its flight</title>
+<desc id="desc">Free-body diagram with +x to the right and +y up: the only force is the weight w = mg pointing down. The velocity is momentarily zero, but the acceleration still points down.</desc>
+<rect width="300" height="300" fill="#ffffff"/>
+<line x1="30" y1="130" x2="251" y2="130" stroke="#555555" stroke-width="1.5"/><polygon points="260,130 250,134.2 250,125.8" fill="#555555"/>
+<line x1="140" y1="270" x2="140" y2="34" stroke="#555555" stroke-width="1.5"/><polygon points="140,25 144.2,35 135.8,35" fill="#555555"/>
+<line x1="140" y1="130" x2="140" y2="214" stroke="#b03a2e" stroke-width="3.5"/><polygon points="140,225 134.96,213 145.04,213" fill="#b03a2e"/>
+<line x1="70" y1="150" x2="70" y2="189" stroke="#1e8449" stroke-width="3"/><polygon points="70,200 64.96,188 75.04,188" fill="#1e8449"/>
+<circle cx="140" cy="130" r="6" fill="#1f3a5f"/>
+<text x="152" y="148" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f3a5f" text-anchor="start">rock</text>
+<text x="276" y="136" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">x</tspan></text>
+<text x="140" y="15" font-family="'Times New Roman', Times, serif" font-size="18" fill="#555555" text-anchor="middle" xml:space="preserve"><tspan font-style="normal">+</tspan><tspan font-style="italic">y</tspan></text>
+<text x="152" y="220" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" xml:space="preserve"><tspan font-style="italic">w</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">mg</tspan></text>
+<text x="82" y="195" font-family="'Times New Roman', Times, serif" font-size="20" fill="#1e8449" text-anchor="start" xml:space="preserve"><tspan font-style="italic">a</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">g</tspan></text>
+<text x="128" y="55" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#444444" text-anchor="end">v = 0 at the top</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="400" viewBox="0 0 520 400" role="img" aria-labelledby="title desc">
+<title id="title">Two paths from the cabin to the lake with the same displacement</title>
+<desc id="desc">From the cabin at the lower left, Path 1 (7.5 km) and Path 2 (8.2 km) wind along different routes to the same spot on the lake at the upper right. A single straight arrow S from the cabin to the lake, 5.0 km long at 40° north of east, is the displacement for both campers.</desc>
+<rect width="520" height="400" fill="#ffffff"/>
+<ellipse cx="382.79" cy="95.88" rx="85" ry="45" fill="#cfe3f5" stroke="#5d8fc0" stroke-width="2"/>
+<text x="412.79" y="89.13" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">lake</tspan></text>
+<path d="M 90 330 C 103.2 333.3 142.8 354.2 169.2 349.8 C 195.6 345.4 229.7 323.4 248.4 303.6 C 267.1 283.8 270.4 248.6 281.4 231 C 292.4 213.4 304.17 216.85 314.4 198 C 324.63 179.15 338.06 131.23 342.79 117.88" fill="none" stroke="#666666" stroke-width="2.2" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<path d="M 90 330 C 86.7 316.8 65.8 276.1 70.2 250.8 C 74.6 225.5 97.7 193.6 116.4 178.2 C 135.1 162.8 162.6 171.6 182.4 158.4 C 202.2 145.2 216.5 108.9 235.2 99 C 253.9 89.1 276.67 95.85 294.6 99 C 312.53 102.15 334.76 114.73 342.79 117.88" fill="none" stroke="#666666" stroke-width="2.2" stroke-dasharray="7 5" stroke-linejoin="round"/>
+<text x="275.6" y="318.4" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Path</tspan><tspan font-style="normal"> 1, 7.5 </tspan><tspan font-style="normal">km</tspan></text>
+<text x="103.8" y="143.5" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Path</tspan><tspan font-style="normal"> 2, 8.2 </tspan><tspan font-style="normal">km</tspan></text>
+<line x1="90" y1="330" x2="331.3" y2="127.52" stroke="#8e4f8e" stroke-width="4"/>
+<polygon points="342.79,117.88 334.65,133.07 326.42,123.26" fill="#8e4f8e"/>
+<text x="197.11" y="206.91" font-family="'Times New Roman', Times, serif" font-size="17" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">S<tspan font-size="10.54" font-weight="normal" dx="-9.57" dy="-10.54">→</tspan><tspan dx="-0.12" dy="10.54">​</tspan></tspan><tspan font-style="normal"> = 5.0 </tspan><tspan font-style="normal">km</tspan></text>
+<line x1="90" y1="330" x2="195.6" y2="330" stroke="#666666" stroke-width="1.2" stroke-dasharray="4 4"/>
+<path d="M 136 330 A 46 46 0 0 0 125.24 300.43" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="146.38" y="314.73" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">40°</tspan></text>
+<rect x="68" y="318" width="34" height="24" fill="#c8a27a" stroke="#222222" stroke-width="1.5"/>
+<polygon points="64,318 85,302 106,318" fill="#8b5a2b" stroke="#222222" stroke-width="1"/>
+<text x="85" y="367.25" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">cabin</tspan></text>
+<line x1="426" y1="330" x2="474" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="450" y1="354" x2="450" y2="314" stroke="#333333" stroke-width="1.3"/>
+<polygon points="450,306 453.6,315 446.4,315" fill="#333333"/>
+<text x="450" y="299.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">N</tspan></text>
+<text x="450" y="369.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">S</tspan></text>
+<text x="480" y="334.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">E</tspan></text>
+<text x="420" y="334.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">W</tspan></text>
+</svg>
