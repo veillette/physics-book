@@ -88,7 +88,10 @@
     "test:watch": "vitest",
     "check:all": "npm run audit && npm run check:physics && npm run test:unit && python3 -B -m unittest tests/test_check_math.py",
     "audit": "npm run check:links && npm run check:orphans && npm run check:figures && npm run check:yaml && npm run check:accessibility && npm run check:math && npm run check:content && npm run check:structure && npm run check:cross-refs && npm run check:equations",
-    "update:minisearch": "node scripts/vendor-minisearch.js"
+    "update:minisearch": "node scripts/vendor-minisearch.js",
+    "pace:agents": "node scripts/pace-agents.js",
+    "pace:agents:once": "node scripts/pace-agents.js --once",
+    "pace:agents:status": "node scripts/pace-agents.js --status"
   },
   "devDependencies": {
     "@11ty/eleventy": "4.0.0-alpha.10",

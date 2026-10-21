@@ -583,6 +583,39 @@ npm run generate:figures          # all figures
 npm run generate:figures -- 02_08 # only names containing "02_08"
 ```
 
+### pace-agents.js
+
+Asks Claude for one chapter per hour, then asks Codex to review that
+chapter before anything is committed. Figure redraws run first. Solution
+updates start only after every chapter's figure pass has settled.
+
+Figure pass: Claude turns remaining line-art JPEGs into generated SVGs
+under `scripts/figures/`, leaves photographs as raster images, and does
+not commit. Codex reviews the diff. This script commits on the worktree
+branch only when the review accepts.
+
+Solution pass: Claude rewrites incomplete Problems & Exercises and
+Conceptual Questions into the layout `scripts/find_incomplete_solutions.py`
+already checks: **Strategy**, **Solution**, **Discussion**, plus a final
+**Answer**. Codex reviews again. A solution commit happens only when that
+review accepts. A rejected solution review stops the loop. The review and
+a patch of the discarded diff are written under `logs/paced-agents/`.
+
+Work is done in a separate worktree on branch `paced-chapters`, so
+the checkout you start from is left as it is. The worktree is marked trusted
+in the Codex config the first time it is created. Nothing is pushed. Chapters
+with no rasters left, or with no incomplete solutions, are marked skipped
+and do not spend a Claude request.
+
+```bash
+npm run pace:agents                 # hourly loop
+npm run pace:agents:once            # one Claude request, then exit
+npm run pace:agents:status          # chapter progress
+node scripts/pace-agents.js --dry-run
+node scripts/pace-agents.js --phase svg
+node scripts/pace-agents.js --retry 12
+```
+
 ### build-index.js
 
 Creates a searchable index for the PWA using MiniSearch.
