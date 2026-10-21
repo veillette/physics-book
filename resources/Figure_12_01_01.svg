@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="710" height="380" viewBox="0 0 710 380" role="img" aria-labelledby="title desc">
+<title id="title">Flow rate through a pipe</title>
+<desc id="desc">A shaded cylinder of fluid of cross-sectional area A and length d flows past point P in a uniform pipe in time t. The cylinder’s volume is V = Ad and the average velocity is v̄ = d/t, so the flow rate is Q = V/t = Ad/t = Av̄.</desc>
+<rect width="710" height="380" fill="#ffffff"/>
+<defs><linearGradient id="pipe_40_660_160_80" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9a6c9"/><stop offset="0.4" stop-color="#f1eaf5"/><stop offset="0.65" stop-color="#f1eaf5"/><stop offset="1" stop-color="#b9a6c9"/></linearGradient></defs>
+<path d="M 40 80 L 660 80 A 24 80 0 0 1 660 240 L 40 240 Z" fill="url(#pipe_40_660_160_80)" stroke="#8d7ca0" stroke-width="1.5"/>
+<ellipse cx="40" cy="160" rx="24" ry="80" fill="#f1eaf5" stroke="#8d7ca0" stroke-width="1.5"/>
+<rect x="210" y="80" width="210" height="160" fill="#e26a7a" fill-opacity="0.45"/>
+<ellipse cx="210" cy="160" rx="24" ry="80" fill="#f2a3ae" fill-opacity="0.9" stroke="#c0392b" stroke-width="1.6"/>
+<ellipse cx="420" cy="160" rx="24" ry="80" fill="#ffffff" fill-opacity="0" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="6 5"/>
+<circle cx="420" cy="236" r="6" fill="#c0392b"/>
+<text x="424" y="276.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">P</tspan></text>
+<line x1="430" y1="160" x2="519" y2="160" stroke="#5aa832" stroke-width="5"/>
+<polygon points="540,160 518,168.8 518,151.2" fill="#5aa832"/>
+<text x="560" y="169.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v̄</tspan></text>
+<line x1="221" y1="48" x2="409" y2="48" stroke="#222222" stroke-width="1.5"/>
+<polygon points="419,48 408,52.4 408,43.6" fill="#222222"/>
+<polygon points="211,48 222,43.6 222,52.4" fill="#222222"/>
+<line x1="210" y1="38" x2="210" y2="58" stroke="#222222" stroke-width="1.4"/>
+<line x1="420" y1="38" x2="420" y2="58" stroke="#222222" stroke-width="1.4"/>
+<text x="315" y="39.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">d</tspan></text>
+<path d="M 170 36 Q 217.2 64.8 214.41 113.01" fill="none" stroke="#333333" stroke-width="1.6" stroke-linejoin="round"/>
+<line x1="214.52" y1="111.02" x2="214.25" y2="115.61" stroke="#333333" stroke-width="1.6"/>
+<polygon points="214,120 212.16,114.48 216.47,114.73" fill="#333333"/>
+<text x="160" y="43.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<text x="60" y="319.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v̄</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">d</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">t</tspan></text>
+<text x="300" y="339.8" font-family="'Times New Roman', Times, serif" font-size="28" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">Q</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">V</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">t</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">Ad</tspan><tspan font-style="normal">/</tspan><tspan font-style="italic">t</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">Av̄</tspan></text>
+</svg>

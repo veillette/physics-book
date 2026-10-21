@@ -79,7 +79,7 @@ than putting a measuring device into a system, such as a person’s artery.
 in use today. In all mechanical pressure gauges, pressure results in a force
 that is converted (or transduced) into some type of readout.
 
-![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](../resources/Figure_11_06_01.jpg 'This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.')
+![Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.](/resources/Figure_11_06_01.svg 'This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.')
 {: #Figure1}
 
 An entire class of gauges uses the property that pressure due to the weight of a
@@ -207,7 +207,7 @@ Mercury barometers and manometers are so common that units of mm Hg are often
 quoted for atmospheric pressure and blood pressures. [[Table 1]](#Table1) gives
 conversion factors for some of the more commonly used units of pressure.
 
-![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](../resources/Figure_11_06_04.jpg 'A mercury barometer measures atmospheric pressure. The pressure due to the mercury’s weight, ( h\\rho g ), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height ( h ) because the pressure above the mercury is zero.')
+![Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.](/resources/Figure_11_06_04.svg 'A mercury barometer measures atmospheric pressure. The pressure due to the mercury’s weight, ( h\\rho g ), equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height ( h ) because the pressure above the mercury is zero.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="Conversion Factors for Various Pressure Units"><caption><span class="title">Conversion Factors for Various Pressure Units</span></caption><thead>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="560" viewBox="0 0 700 560" role="img" aria-labelledby="title desc">
+<title id="title">Origin of the buoyant force</title>
+<desc id="desc">A cylinder of cross-sectional area A is submerged in a fluid of density ρ, with its top at depth h1 and its bottom at depth h2. The fluid pushes down on the top with force F1 = P1A = h1ρgA and up on the bottom with the larger force F2 = P2A = h2ρgA, because pressure increases with depth. Their difference is the buoyant force, F_B = F2 − F1. The horizontal forces cancel.</desc>
+<rect width="700" height="560" fill="#ffffff"/>
+<rect x="30" y="110" width="300" height="410" fill="#a9c9dc"/>
+<ellipse cx="180" cy="110" rx="150" ry="24" fill="#b7d6ea" stroke="#7fb6d6" stroke-width="1.5"/>
+<line x1="30" y1="30" x2="30" y2="520" stroke="#9fd0de" stroke-width="4"/>
+<line x1="330" y1="30" x2="330" y2="520" stroke="#9fd0de" stroke-width="4"/>
+<path d="M 30 520 A 150 28 0 0 0 330 520" fill="none" stroke="#9fd0de" stroke-width="4"/>
+<rect x="145" y="230" width="110" height="170" fill="#dbe9f6" stroke="#6f8fb0" stroke-width="1.2"/>
+<ellipse cx="200" cy="230" rx="55" ry="12" fill="#dbe9f6" stroke="#333333" stroke-width="1.6" stroke-dasharray="6 4"/>
+<ellipse cx="200" cy="400" rx="55" ry="12" fill="#dbe9f6" stroke="#333333" stroke-width="1.6" stroke-dasharray="6 4"/>
+<line x1="200" y1="150" x2="200" y2="207" stroke="#e0245e" stroke-width="5"/>
+<polygon points="200,226 192,206 208,206" fill="#e0245e"/>
+<line x1="200" y1="520" x2="200" y2="423" stroke="#e0245e" stroke-width="5"/>
+<polygon points="200,404 208,424 192,424" fill="#e0245e"/>
+<text x="218" y="178.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="218" y="498.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<line x1="60" y1="121" x2="60" y2="219" stroke="#222222" stroke-width="1.5"/>
+<polygon points="60,229 55.6,218 64.4,218" fill="#222222"/>
+<polygon points="60,111 64.4,122 55.6,122" fill="#222222"/>
+<line x1="50" y1="110" x2="70" y2="110" stroke="#222222" stroke-width="1.4"/>
+<line x1="50" y1="230" x2="70" y2="230" stroke="#222222" stroke-width="1.4"/>
+<text x="76" y="178.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<line x1="90" y1="121" x2="90" y2="389" stroke="#222222" stroke-width="1.5"/>
+<polygon points="90,399 85.6,388 94.4,388" fill="#222222"/>
+<polygon points="90,111 94.4,122 85.6,122" fill="#222222"/>
+<line x1="80" y1="110" x2="100" y2="110" stroke="#222222" stroke-width="1.4"/>
+<line x1="80" y1="400" x2="100" y2="400" stroke="#222222" stroke-width="1.4"/>
+<text x="106" y="263.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">h</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<path d="M 150 180 Q 167.6 198 162.11 215.33" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="162.72" y1="213.42" x2="161.33" y2="217.81" stroke="#333333" stroke-width="1.4"/>
+<polygon points="160,222 159.57,216.2 163.69,217.5" fill="#333333"/>
+<text x="140" y="186.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<path d="M 140 450 Q 162 436 160.54 416.98" fill="none" stroke="#333333" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="160.69" y1="418.97" x2="160.34" y2="414.39" stroke="#333333" stroke-width="1.4"/>
+<polygon points="160,410 162.57,415.22 158.26,415.55" fill="#333333"/>
+<text x="130" y="460.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<text x="360" y="208.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">P</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="italic">A</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">h</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal">ρgA</tspan></text>
+<text x="400" y="328.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">B</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> − </tspan><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">1</tspan></tspan><tspan dy="-6.72">​</tspan></text>
+<text x="360" y="468.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">P</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="italic">A</tspan><tspan font-style="normal"> = </tspan><tspan font-style="italic">h</tspan><tspan font-size="16.8" dy="6.72"><tspan font-style="normal">2</tspan></tspan><tspan dy="-6.72">​</tspan><tspan font-style="normal">ρgA</tspan></text>
+<text x="100" y="555.7" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Fluid</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">of</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">density</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">ρ</tspan></text>
+</svg>

@@ -10,6 +10,7 @@ import ch03 from '../scripts/figures/ch03.js';
 import ch04to07 from '../scripts/figures/ch04to07.js';
 import ch08 from '../scripts/figures/ch08.js';
 import ch09 from '../scripts/figures/ch09.js';
+import ch11to12 from '../scripts/figures/ch11to12.js';
 
 // Measure the rendered arrow from the shaft's start to the triangular head's tip.
 // SVG y points down; return vectors in math coordinates so force sums use +y up.
@@ -154,8 +155,61 @@ it('places the ellipse foci so the sum of distances is constant', () => {
   }
 });
 
+describe('fluid diagrams preserve the relationships explained in the text', () => {
+  it('shows equal volumes and conserves flow rate in the narrowing pipe', () => {
+    const svg = ch11to12.Figure_12_01_02();
+    const $ = load(svg, { xmlMode: true });
+    const volumes = $('rect[fill="#9b86b4"]')
+      .toArray()
+      .map(el => ({
+        length: Number($(el).attr('width')),
+        radius: Number($(el).attr('height')) / 2,
+      }));
+    expect(volumes).toHaveLength(2);
+    expect(volumes[0].length * volumes[0].radius ** 2).toBeCloseTo(
+      volumes[1].length * volumes[1].radius ** 2,
+      2
+    );
+    const speeds = arrows(svg, '#5aa832');
+    expect(speeds).toHaveLength(2);
+    expect(speeds[0].dx * volumes[0].radius ** 2).toBeCloseTo(
+      speeds[1].dx * volumes[1].radius ** 2,
+      2
+    );
+  });
+
+  it('directs the laminar streamlines and drag to the left past the sphere', () => {
+    const svg = ch11to12.Figure_12_06_01();
+    const flow = arrows(svg, '#1aa0b0').filter(v => v.start[0] < 290);
+    expect(flow.length).toBeGreaterThan(5);
+    for (const arrow of [...flow, ...arrows(svg, '#e0245e')]) {
+      expect(arrow.dx).toBeLessThan(0);
+    }
+  });
+
+  it('balances weight against buoyancy and drag at terminal velocity', () => {
+    const svg = ch11to12.Figure_12_06_02();
+    for (const color of ['#e0245e', '#222222']) {
+      // Exclude the horizontal dimension arrows from the free-body diagram.
+      const forces = arrows(svg, color).filter(v => Math.abs(v.dy) > 1);
+      expect(forces).toHaveLength(3);
+      expect(resultant(forces)[1]).toBeCloseTo(0, 2);
+    }
+  });
+});
+
 it('keeps the checked-in SVGs identical to their generator output', () => {
-  const figures = { ...ch02, ...ch03, ...ch04to07, ...ch08, ...ch09, ...fbd04, ...fbd05, ...fbd06 };
+  const figures = {
+    ...ch02,
+    ...ch03,
+    ...ch04to07,
+    ...ch08,
+    ...ch09,
+    ...ch11to12,
+    ...fbd04,
+    ...fbd05,
+    ...fbd06,
+  };
   for (const [name, build] of Object.entries(figures)) {
     const svg = readFileSync(new URL(`../resources/${name}.svg`, import.meta.url), 'utf8');
     expect(svg, name).toBe(build());

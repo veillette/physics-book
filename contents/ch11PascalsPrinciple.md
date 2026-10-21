@@ -62,7 +62,7 @@ found in a _hydraulic system_, which is an enclosed fluid system used to exert
 forces. The most common hydraulic systems are those that operate car brakes. Let
 us first consider the simple hydraulic system shown in [[Figure 1]](#Figure1).
 
-![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](../resources/Figure_11_05_01.jpg 'A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force ( F_{1} ) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force ( F_{2} ) on the right piston that is larger than ( F_{1} ) because the right piston has a larger area.')
+![A small force can be converted into a larger force when pressure is transmitted through liquids in different containers with pistons that are connected.](/resources/Figure_11_05_01.svg 'A typical hydraulic system with two fluid-filled cylinders, capped with pistons and connected by a tube called a hydraulic line. A downward force ( F_{1} ) on the left piston creates a pressure that is transmitted undiminished to all parts of the enclosed fluid. This results in an upward force ( F_{2} ) on the right piston that is larger than ( F_{1} ) because the right piston has a larger area.')
 {: #Figure1}
 
 ### Relationship Between Forces in a Hydraulic System

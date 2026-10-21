@@ -44,14 +44,14 @@ The buoyant force is the net upward force on any object in any fluid.
 
 :::
 
-![A cylinder of cross-sectional area A experiences an upward force F sub 2 on the bottom of the cylinder and a downward force F sub 1 on its top. Buoyant force is due to the difference between the upward force on the bottom of the cylinder and the downward force on its top.](../resources/Figure_11_07_02.jpg 'Pressure due to the weight of a fluid increases with depth since ( P=h\\rho g ) . This pressure and associated upward force on the bottom of the cylinder are greater than the downward force on the top of the cylinder. Their difference is the buoyant force ( F_{B} ). (Horizontal forces cancel.)')
+![A cylinder of cross-sectional area A experiences an upward force F sub 2 on the bottom of the cylinder and a downward force F sub 1 on its top. Buoyant force is due to the difference between the upward force on the bottom of the cylinder and the downward force on its top.](/resources/Figure_11_07_02.svg 'Pressure due to the weight of a fluid increases with depth since ( P=h\\rho g ) . This pressure and associated upward force on the bottom of the cylinder are greater than the downward force on the top of the cylinder. Their difference is the buoyant force ( F_{B} ). (Horizontal forces cancel.)')
 {: #Figure2}
 
 Just how great is this buoyant force? To answer this question, think about what
 happens when a submerged object is removed from a fluid, as
 in [[Figure 3]](#Figure3).
 
-![An object immersed in a fluid rises if its buoyant force is greater than its weight and sinks if its buoyant force is less than its weight. By Archimedes’ principle the buoyant force equals the weight of the fluid displaced.](../resources/Figure_11_07_03.jpg '(a) An object submerged in a fluid experiences a buoyant force ( F_{B} ). If ( F_{B} ) is greater than the weight of the object, the object will rise. If ( F_{B} ) is less than the weight of the object, the object will sink. (b) If the object is removed, it is replaced by fluid having weight ( w_\\text{fl} ). Since this weight is supported by surrounding fluid, the buoyant force must equal the weight of the fluid displaced. That is, ( F_B= w_\\text{fl} ) ,a statement of Archimedes’ principle.')
+![An object immersed in a fluid rises if its buoyant force is greater than its weight and sinks if its buoyant force is less than its weight. By Archimedes’ principle the buoyant force equals the weight of the fluid displaced.](/resources/Figure_11_07_03.svg '(a) An object submerged in a fluid experiences a buoyant force ( F_{B} ). If ( F_{B} ) is greater than the weight of the object, the object will rise. If ( F_{B} ) is less than the weight of the object, the object will sink. (b) If the object is removed, it is replaced by fluid having weight ( w_\\text{fl} ). Since this weight is supported by surrounding fluid, the buoyant force must equal the weight of the fluid displaced. That is, ( F_B= w_\\text{fl} ) ,a statement of Archimedes’ principle.')
 {: #Figure3}
 
 The space it occupied is filled by fluid having a weight $${w}_{\text{fl}} $$ .
@@ -267,7 +267,7 @@ Specific gravity is the ratio of the density of an object to a fluid (usually wa
 
 :::
 
-![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](../resources/Figure_11_07_05.jpg 'This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.')
+![A hydrometer has lead at the bottom and air on top. It floats on the fluid and specific gravity can be directly read from it.](/resources/Figure_11_07_05.svg 'This hydrometer is floating in a fluid of specific gravity 0.87. The glass hydrometer is filled with air and weighted with lead at the bottom. It floats highest in the densest fluids and has been calibrated and labeled so that specific gravity can be read from it directly.')
 {: #Figure5}
 
 ::: example {"class":"example","id":"floating-woman"}

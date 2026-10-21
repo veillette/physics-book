@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="520" viewBox="0 0 660 520" role="img" aria-labelledby="title desc">
+<title id="title">Negative pressure in a liquid</title>
+<desc id="desc">(a) A piston resting on a liquid in a closed cylinder is pulled up with force F. The liquid, stuck to the piston, is stretched slightly and put under tension, so its absolute pressure is negative: P = −F/A, where A is the piston’s area. (b) Pulled harder with force F′, the liquid separates and a gap opens beneath the piston; this sets an experimental limit on how negative the pressure in the liquid can be.</desc>
+<rect width="660" height="520" fill="#ffffff"/>
+<rect x="44" y="236" width="242" height="214" fill="#dfe3f3"/>
+<polyline points="40,70 40,450 290,450 290,70" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
+<rect x="156" y="130" width="18" height="80" fill="#9b86b4" stroke="#5f4f78" stroke-width="1.2"/>
+<rect x="44" y="210" width="242" height="26" fill="#7dbb3a" stroke="#4f7f22" stroke-width="1.5"/>
+<line x1="165" y1="190" x2="165" y2="119" stroke="#e0245e" stroke-width="5"/>
+<polygon points="165,100 173,120 157,120" fill="#e0245e"/>
+<text x="185" y="133.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan></text>
+<text x="135" y="348.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">P</tspan><tspan font-style="normal"> = </tspan></text>
+<text x="161" y="328.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">−</tspan><tspan font-style="italic">F</tspan></text>
+<line x1="141" y1="342" x2="183" y2="342" stroke="#222222" stroke-width="1.6"/>
+<text x="161" y="374.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<path d="M 20 300 Q 27 255 63.39 242.31" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="61.5" y1="242.96" x2="65.85" y2="241.45" stroke="#333333" stroke-width="1.5"/>
+<polygon points="70,240 65.61,243.82 64.19,239.74" fill="#333333"/>
+<text x="20" y="311" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+<text x="165" y="499" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<path d="M 364 176 L 606 176 L 606 196 C 550 210 490 186 364 204 Z" fill="#dfe3f3" stroke="#7d8cc4" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M 364 270 C 430 246 500 282 606 254 L 606 450 L 364 450 Z" fill="#dfe3f3" stroke="#7d8cc4" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="360,70 360,450 610,450 610,70" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
+<rect x="476" y="70" width="18" height="80" fill="#9b86b4" stroke="#5f4f78" stroke-width="1.2"/>
+<rect x="364" y="150" width="242" height="26" fill="#7dbb3a" stroke="#4f7f22" stroke-width="1.5"/>
+<line x1="485" y1="130" x2="485" y2="19" stroke="#e0245e" stroke-width="5"/>
+<polygon points="485,0 493,20 477,20" fill="#e0245e"/>
+<text x="505" y="53.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="14.88" font-weight="normal" dx="-14.77" dy="-19.68">→</tspan><tspan dx="-0.11" dy="19.68">​</tspan></tspan><tspan font-style="normal">′</tspan></text>
+<text x="485" y="499" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

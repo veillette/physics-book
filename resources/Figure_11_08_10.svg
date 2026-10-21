@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="480" viewBox="0 0 760 480" role="img" aria-labelledby="title desc">
+<title id="title">Capillary action depends on tube radius and fluid density</title>
+<desc id="desc">(a) Four glass tubes of decreasing radius, the widest about 1.8 cm across, stand in the same liquid. The liquid rises higher in narrower tubes, h ∝ 1/r: negligibly in the widest, up to 4 cm in the narrowest. (b) In two identical tubes, a denser fluid rises less than a less dense fluid, since h ∝ 1/ρ.</desc>
+<rect width="760" height="480" fill="#ffffff"/>
+<rect x="20" y="380" width="380" height="40" fill="#a9d2ec"/>
+<polyline points="20,300 20,420 400,420 400,300" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
+<rect x="60" y="370.22" width="60" height="9.78" fill="#a9d2ec"/>
+<line x1="60" y1="60" x2="60" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<line x1="120" y1="60" x2="120" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<rect x="166" y="360.44" width="33" height="19.56" fill="#a9d2ec"/>
+<line x1="166" y1="60" x2="166" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<line x1="199" y1="60" x2="199" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<rect x="245" y="340" width="19.2" height="40" fill="#a9d2ec"/>
+<line x1="245" y1="60" x2="245" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<line x1="264.2" y1="60" x2="264.2" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<rect x="310.2" y="292" width="12" height="88" fill="#a9d2ec"/>
+<line x1="310.2" y1="60" x2="310.2" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<line x1="322.2" y1="60" x2="322.2" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<line x1="352.2" y1="303" x2="352.2" y2="369" stroke="#222222" stroke-width="1.5"/>
+<polygon points="352.2,379 347.8,368 356.6,368" fill="#222222"/>
+<polygon points="352.2,293 356.6,304 347.8,304" fill="#222222"/>
+<line x1="342.2" y1="292" x2="362.2" y2="292" stroke="#222222" stroke-width="1.4"/>
+<line x1="342.2" y1="380" x2="362.2" y2="380" stroke="#222222" stroke-width="1.4"/>
+<text x="368.2" y="343" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">4 </tspan><tspan font-style="normal">cm</tspan></text>
+<text x="20" y="36.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">∼1.8 </tspan><tspan font-style="normal">cm</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">diameter</tspan></text>
+<line x1="80" y1="40" x2="80" y2="58" stroke="#222222" stroke-width="1.2"/>
+<text x="210" y="473" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="450" y="380" width="130" height="40" fill="#c7cfe0"/>
+<polyline points="450,300 450,420 580,420 580,300" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
+<rect x="506" y="330" width="18" height="50" fill="#c7cfe0"/>
+<line x1="506" y1="160" x2="506" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<line x1="524" y1="160" x2="524" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<text x="515" y="451" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">More</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">dense</tspan></text>
+<rect x="610" y="380" width="130" height="40" fill="#a9d2ec"/>
+<polyline points="610,300 610,420 740,420 740,300" fill="none" stroke="#9fd0de" stroke-width="4" stroke-linejoin="round"/>
+<rect x="666" y="220" width="18" height="160" fill="#a9d2ec"/>
+<line x1="666" y1="160" x2="666" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<line x1="684" y1="160" x2="684" y2="400" stroke="#9fd0de" stroke-width="3"/>
+<text x="675" y="451" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Less</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">dense</tspan></text>
+<text x="595" y="473" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

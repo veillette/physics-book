@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="470" viewBox="0 0 660 470" role="img" aria-labelledby="title desc">
+<title id="title">Archimedes’ principle</title>
+<desc id="desc">(a) An object submerged in a fluid has weight w_obj acting down and a buoyant force F_B acting up; in this case the weight is larger, so the object sinks. (b) If the object is removed, the space it occupied fills with fluid of weight w_fl. That fluid is held up by the same buoyant force, so F_B = w_fl: the buoyant force equals the weight of the fluid displaced. A free-body diagram beside each panel shows the forces.</desc>
+<rect width="660" height="470" fill="#ffffff"/>
+<rect x="10" y="10" width="310" height="420" fill="#bcd9df" stroke="#2a8a96" stroke-width="2"/>
+<rect x="43" y="90" width="144" height="200" fill="#f3a65a" stroke="#b5651d" stroke-width="1.5"/>
+<ellipse cx="115" cy="90" rx="72" ry="20" fill="#f6bb79" stroke="#b5651d" stroke-width="1.5"/>
+<path d="M 43 290 A 72 20 0 0 0 187 290" fill="none" stroke="#b5651d" stroke-width="1.5"/>
+<line x1="85" y1="290" x2="85" y2="385" stroke="#e0245e" stroke-width="4"/>
+<polygon points="85,400 78.6,384 91.4,384" fill="#e0245e"/>
+<line x1="155" y1="350" x2="155" y2="309" stroke="#e0245e" stroke-width="4"/>
+<polygon points="155,294 161.4,310 148.6,310" fill="#e0245e"/>
+<text x="85" y="429.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="13.02" font-weight="normal" dx="-14.09" dy="-10.92">→</tspan><tspan dx="1.07" dy="10.92">​</tspan></tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">obj</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="155" y="381.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.02" font-weight="normal" dx="-12.93" dy="-17.22">→</tspan><tspan dx="-0.09" dy="17.22">​</tspan></tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">B</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="260" y="56.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan></text>
+<text x="260" y="78.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">diagram</tspan></text>
+<circle cx="260" cy="190" r="6" fill="#222222"/>
+<line x1="260" y1="184" x2="260" y2="141" stroke="#222222" stroke-width="2"/>
+<polygon points="260,130 264.8,142 255.2,142" fill="#222222"/>
+<line x1="260" y1="196" x2="260" y2="281" stroke="#222222" stroke-width="2"/>
+<polygon points="260,292 255.2,280 264.8,280" fill="#222222"/>
+<text x="272" y="157" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="12.4" font-weight="normal" dx="-12.31" dy="-16.4">→</tspan><tspan dx="-0.09" dy="16.4">​</tspan></tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">B</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="272" y="243" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="12.4" font-weight="normal" dx="-13.42" dy="-10.4">→</tspan><tspan dx="1.02" dy="10.4">​</tspan></tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">obj</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="165" y="465" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">a</tspan><tspan font-style="normal">)</tspan></text>
+<rect x="340" y="10" width="310" height="420" fill="#bcd9df" stroke="#2a8a96" stroke-width="2"/>
+<ellipse cx="445" cy="90" rx="72" ry="20" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="6 4"/>
+<ellipse cx="445" cy="290" rx="72" ry="20" fill="none" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="6 4"/>
+<line x1="373" y1="90" x2="373" y2="290" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="6 4"/>
+<line x1="517" y1="90" x2="517" y2="290" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="6 4"/>
+<line x1="415" y1="290" x2="415" y2="331" stroke="#e0245e" stroke-width="4"/>
+<polygon points="415,346 408.6,330 421.4,330" fill="#e0245e"/>
+<line x1="485" y1="350" x2="485" y2="309" stroke="#e0245e" stroke-width="4"/>
+<polygon points="485,294 491.4,310 478.6,310" fill="#e0245e"/>
+<text x="415" y="375.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="13.02" font-weight="normal" dx="-14.09" dy="-10.92">→</tspan><tspan dx="1.07" dy="10.92">​</tspan></tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">fl</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="485" y="381.35" font-family="'Times New Roman', Times, serif" font-size="21" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="13.02" font-weight="normal" dx="-12.93" dy="-17.22">→</tspan><tspan dx="-0.09" dy="17.22">​</tspan></tspan><tspan font-size="14.7" dy="5.88"><tspan font-style="normal">B</tspan></tspan><tspan dy="-5.88">​</tspan></text>
+<text x="590" y="56.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">Free</tspan><tspan font-style="normal">-</tspan><tspan font-style="normal">body</tspan></text>
+<text x="590" y="78.3" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">diagram</tspan></text>
+<circle cx="590" cy="190" r="6" fill="#222222"/>
+<line x1="590" y1="184" x2="590" y2="141" stroke="#222222" stroke-width="2"/>
+<polygon points="590,130 594.8,142 585.2,142" fill="#222222"/>
+<line x1="590" y1="196" x2="590" y2="239" stroke="#222222" stroke-width="2"/>
+<polygon points="590,250 585.2,238 594.8,238" fill="#222222"/>
+<text x="602" y="157" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="12.4" font-weight="normal" dx="-12.31" dy="-16.4">→</tspan><tspan dx="-0.09" dy="16.4">​</tspan></tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">B</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="602" y="243" font-family="'Times New Roman', Times, serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">w<tspan font-size="12.4" font-weight="normal" dx="-13.42" dy="-10.4">→</tspan><tspan dx="1.02" dy="10.4">​</tspan></tspan><tspan font-size="14" dy="5.6"><tspan font-style="normal">fl</tspan></tspan><tspan dy="-5.6">​</tspan></text>
+<text x="495" y="465" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">(</tspan><tspan font-style="normal">b</tspan><tspan font-style="normal">)</tspan></text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="560" viewBox="0 0 520 560" role="img" aria-labelledby="title desc">
+<title id="title">A hydrometer</title>
+<desc id="desc">A glass hydrometer, air-filled and weighted with lead at the bottom, floats upright in a fluid. Its stem is marked with specific gravities from 0.65 at the top to 1.00 lower down; it floats highest in the densest fluids. Here the fluid surface crosses the stem at 0.87, the fluid’s specific gravity.</desc>
+<rect width="520" height="560" fill="#ffffff"/>
+<rect x="0" y="246.57" width="520" height="313.43" fill="#cfd5e6"/>
+<path d="M 230 385 L 230 40 A 30 30 0 0 1 290 40 L 290 385 C 330 415 330 485 260 535 C 190 485 190 415 230 385 Z" fill="#eef2f8" fill-opacity="0.85" stroke="#7d93b5" stroke-width="2"/>
+<path d="M 210 475 Q 260 457 310 475 C 300 505 280 520 260 533 C 240 520 220 505 210 475 Z" fill="#59708a"/>
+<line x1="232" y1="80" x2="250" y2="80" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="88.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.65</tspan></text>
+<line x1="232" y1="87.57" x2="242" y2="87.57" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="95.14" x2="242" y2="95.14" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="102.71" x2="242" y2="102.71" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="110.29" x2="242" y2="110.29" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="117.86" x2="250" y2="117.86" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="126.26" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.70</tspan></text>
+<line x1="232" y1="125.43" x2="242" y2="125.43" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="133" x2="242" y2="133" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="140.57" x2="242" y2="140.57" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="148.14" x2="242" y2="148.14" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="155.71" x2="250" y2="155.71" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="164.11" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.75</tspan></text>
+<line x1="232" y1="163.29" x2="242" y2="163.29" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="170.86" x2="242" y2="170.86" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="178.43" x2="242" y2="178.43" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="186" x2="242" y2="186" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="193.57" x2="250" y2="193.57" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="201.97" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.80</tspan></text>
+<line x1="232" y1="201.14" x2="242" y2="201.14" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="208.71" x2="242" y2="208.71" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="216.29" x2="242" y2="216.29" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="223.86" x2="242" y2="223.86" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="231.43" x2="250" y2="231.43" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="239.83" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.85</tspan></text>
+<line x1="232" y1="239" x2="242" y2="239" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="246.57" x2="242" y2="246.57" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="254.14" x2="242" y2="254.14" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="261.71" x2="242" y2="261.71" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="269.29" x2="250" y2="269.29" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="277.69" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.90</tspan></text>
+<line x1="232" y1="276.86" x2="242" y2="276.86" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="284.43" x2="242" y2="284.43" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="292" x2="242" y2="292" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="299.57" x2="242" y2="299.57" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="307.14" x2="250" y2="307.14" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="315.54" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">0.95</tspan></text>
+<line x1="232" y1="314.71" x2="242" y2="314.71" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="322.29" x2="242" y2="322.29" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="329.86" x2="242" y2="329.86" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="337.43" x2="242" y2="337.43" stroke="#4a6a94" stroke-width="1.5"/>
+<line x1="232" y1="345" x2="250" y2="345" stroke="#4a6a94" stroke-width="1.5"/>
+<text x="256" y="353.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">1.00</tspan></text>
+<text x="340" y="512" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">lead</tspan></text>
+<text x="340" y="127" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">air</tspan></text>
+</svg>

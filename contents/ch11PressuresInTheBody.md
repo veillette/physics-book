@@ -904,7 +904,7 @@ Water rises to **2.97 cm** and gains **3.39 µJ** of potential energy. The sourc
 
 A negative pressure of 25.0 atm can sometimes be achieved with the device in [[Figure 5]](#Figure5) before the water separates. (a) To what height could such a negative gauge pressure raise water? (b) How much would a steel wire of the same diameter and length as this capillary stretch if suspended from above?
 
-![When the piston is raised the liquid separates and results in negative pressure.](../resources/Figure_11_09_05.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \).  (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
+![When the piston is raised the liquid separates and results in negative pressure.](/resources/Figure_11_09_05.svg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \).  (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
 {: #Figure5}
 
 :::
@@ -1063,7 +1063,7 @@ This problem illustrates the limitations of assuming constant density for deep o
 The hydraulic system of a backhoe is used to lift a load as shown in [[Figure 6]](#Figure6). (a) Calculate the force  $$F $$
  the slave cylinder must exert to support the 400-kg load and the 150-kg brace and shovel. (b) What is the pressure in the hydraulic fluid if the slave cylinder is 2.50 cm in diameter? (c) What force would you have to exert on a lever with a mechanical advantage of 5.00 acting on a master cylinder 0.800 cm in diameter to create this pressure?
 
-![Diagram of the arm and shovel of a backhoe lifting a load of dirt. The weight of the arm, w sub arm, is depicted as a vector extending vertically downward from the arm one point one zero meters from the top of the arm; w sub arm forms a thirty degree angle with the arm of the shovel. The weight of the load, w sub load, is depicted as a vector extending downward from the middle of the shovel one point seven zero meters from the top of the arm. Force F is a vector pushing the arm of the shovel zero point three zero meters from the top of the arm and perpendicular to the arm.](../resources/Figure_11_09_06.jpg "Hydraulic and mechanical lever systems are used in heavy machinery such as this back hoe. ")
+![Diagram of the arm and shovel of a backhoe lifting a load of dirt. The weight of the arm, w sub arm, is depicted as a vector extending vertically downward from the arm one point one zero meters from the top of the arm; w sub arm forms a thirty degree angle with the arm of the shovel. The weight of the load, w sub load, is depicted as a vector extending downward from the middle of the shovel one point seven zero meters from the top of the arm. Force F is a vector pushing the arm of the shovel zero point three zero meters from the top of the arm and perpendicular to the arm.](/resources/Figure_11_09_06.svg "Hydraulic and mechanical lever systems are used in heavy machinery such as this back hoe. ")
 {: #Figure6}
 
 :::

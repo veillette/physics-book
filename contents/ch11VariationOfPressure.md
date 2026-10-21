@@ -76,7 +76,7 @@ compressible, one can apply this equation as long as the density changes are
 small over the depth considered. [[Example 2]](#Example2) illustrates this
 situation.
 
-![A container with fluid filled to a depth h. The fluid’s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](../resources/Figure_11_04_01.jpg 'The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.')
+![A container with fluid filled to a depth h. The fluid’s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.](/resources/Figure_11_04_01.svg 'The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.')
 {: #Figure1}
 
 ::: example {"id":"Example1","class":"example"}
@@ -156,7 +156,7 @@ This relationship means that, on average, at sea level, a column of air above
 $$1.00 {\text{m}}^{2} $$ of the Earth’s surface has a weight of $$ 1.01 \times 10^{5} \text{N} $$ , equivalent to $$1 \text{atm} $$ .
 (See [[Figure 3]](#Figure3).)
 
-![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](../resources/Figure_11_04_03.jpg 'Atmospheric pressure at sea level averages ( 1.01 \\times 10^5 \\text{Pa} ) (equivalent to 1 atm), since the column of air over this ( 1 \\text{m}^2 ), extending to the top of the atmosphere, weighs ( 1.01 \\times 10^5 \\text{N} ) .')
+![Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.](/resources/Figure_11_04_03.svg 'Atmospheric pressure at sea level averages ( 1.01 \\times 10^5 \\text{Pa} ) (equivalent to 1 atm), since the column of air over this ( 1 \\text{m}^2 ), extending to the top of the atmosphere, weighs ( 1.01 \\times 10^5 \\text{N} ) .')
 {: #Figure3}
 
 ::: example {"id":"Example2","class":"example"}

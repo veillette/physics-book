@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+<title id="title">Laminar flow between two plates</title>
+<desc id="desc">Fluid fills the gap of thickness L between two plates of area A. The bottom plate is fixed. A force F pushes the top plate to the right at speed v, and it drags the fluid along in layers: the layer touching the top plate moves at v, each layer below moves a little slower, and the layer on the fixed bottom plate has v = 0.</desc>
+<rect width="760" height="440" fill="#ffffff"/>
+<polygon points="80,365.56 400,365.56 500,295.56 180,295.56" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="98,336.67 418,336.67 518,266.67 198,266.67" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="116,307.78 436,307.78 536,237.78 216,237.78" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="134,278.89 454,278.89 554,208.89 234,208.89" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="152,250 472,250 572,180 252,180" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="170,221.11 490,221.11 590,151.11 270,151.11" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="188,192.22 508,192.22 608,122.22 288,122.22" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="206,163.33 526,163.33 626,93.33 306,93.33" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="224,134.44 544,134.44 644,64.44 324,64.44" fill="#a9d6f2" stroke="#3f8cc2" stroke-width="1"/>
+<polygon points="80,394 400,394 500,324 180,324" fill="#7f9a80" stroke="#4f6a50" stroke-width="1.2"/>
+<polygon points="242,120 562,120 662,50 342,50" fill="#9fb4a0" stroke="#4f6a50" stroke-width="1.5"/>
+<line x1="152" y1="94" x2="243" y2="94" stroke="#e0245e" stroke-width="5"/>
+<polygon points="262,94 242,102 242,86" fill="#e0245e"/>
+<text x="182" y="78.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">F</tspan></text>
+<line x1="562" y1="120" x2="665" y2="120" stroke="#5aa832" stroke-width="4"/>
+<polygon points="682,120 664,127.2 664,112.8" fill="#5aa832"/>
+<text x="694" y="128.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan></text>
+<line x1="110" y1="131" x2="110" y2="383" stroke="#222222" stroke-width="1.5"/>
+<polygon points="110,393 105.6,382 114.4,382" fill="#222222"/>
+<polygon points="110,121 114.4,132 105.6,132" fill="#222222"/>
+<line x1="100" y1="120" x2="120" y2="120" stroke="#222222" stroke-width="1.4"/>
+<line x1="100" y1="394" x2="120" y2="394" stroke="#222222" stroke-width="1.4"/>
+<text x="94" y="265.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">L</tspan></text>
+<text x="460" y="422.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">v</tspan><tspan font-style="normal"> = 0</tspan></text>
+<path d="M 412 24 Q 424 72 465.21 82.3" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="463.27" y1="81.82" x2="467.73" y2="82.93" stroke="#333333" stroke-width="1.5"/>
+<polygon points="472,84 466.24,84.79 467.29,80.59" fill="#333333"/>
+<text x="402" y="30.4" font-family="'Times New Roman', Times, serif" font-size="24" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">A</tspan></text>
+</svg>

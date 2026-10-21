@@ -128,10 +128,10 @@ illustrated in [[Figure 4]](#Figure4). When air is allowed to flow between two
 balloons of unequal size, the smaller balloon tends to collapse, filling the
 larger balloon.
 
-![Sliding wire device which is used to measure surface tension shows the force exerted on the two surfaces of the liquid. This force remains a constant until the film’s breaking point.](../resources/Figure_11_08_04.jpg 'Sliding wire device used for measuring surface tension; the device exerts a force to reduce the film’s surface area. The force needed to hold the wire in place is \(F=\gamma L=\gamma (2l)\), since there are two liquid surfaces attached to the wire. This force remains nearly constant as the film is stretched, until the film approaches its breaking point.')
+![Sliding wire device which is used to measure surface tension shows the force exerted on the two surfaces of the liquid. This force remains a constant until the film’s breaking point.](/resources/Figure_11_08_04.svg 'Sliding wire device used for measuring surface tension; the device exerts a force to reduce the film’s surface area. The force needed to hold the wire in place is \(F=\gamma L=\gamma (2l)\), since there are two liquid surfaces attached to the wire. This force remains nearly constant as the film is stretched, until the film approaches its breaking point.')
 {: #Figure3}
 
-![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](../resources/Figure_11_08_05.jpg 'With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.')
+![When two balloons are attached to the ends of a glass tube air flows from one to the other if their sizes are different.](/resources/Figure_11_08_05.svg 'With the valve closed, two balloons of different sizes are attached to each end of a tube. Upon opening the valve, the smaller balloon decreases in size with the air moving to fill the larger balloon. The pressure in a spherical balloon is inversely proportional to its radius, so that the smaller balloon has a greater internal pressure than the larger balloon, resulting in this flow.')
 {: #Figure4}
 
 <table id="Table1" aria-describedby="The table gives the surface tension of water at zero, twenty, and one hundred degrees Celsius. The surface tension of some other liquids at twenty degrees Celsius is also given."><caption><span class="title">Surface Tension of Some Liquids<sup class="footnote-number" id="footnote-ref1"><a class="footnote-link" href="#footnote1">1</a></sup></span></caption><thead><tr>
@@ -252,7 +252,7 @@ don’t collapse and large alveoli are prevented from expanding too much. This
 tension change is a unique property of these surfactants, and is not shared by
 detergents (which simply lower surface tension). (See [[Figure 6]](#Figure6).)
 
-![Graph of surface tension as a function of surface area for detergents and interstitial fluids.](../resources/Figure_11_08_07.jpg "Surface tension as a function of surface area. The surface tension for lung surfactant decreases with decreasing area. This ensures that small alveoli don&#x2019;t collapse and large alveoli are not able to over expand. ")
+![Graph of surface tension as a function of surface area for detergents and interstitial fluids.](/resources/Figure_11_08_07.svg "Surface tension as a function of surface area. The surface tension for lung surfactant decreases with decreasing area. This ensures that small alveoli don&#x2019;t collapse and large alveoli are not able to over expand. ")
 {: #Figure6}
 
 If water gets into the lungs, the surface tension is too great and you cannot
@@ -337,7 +337,7 @@ is always to reduce the surface area. Surface tension thus flattens the curved
 liquid surface in a capillary tube. This results in a downward force in mercury
 and an upward force in water, as seen in [[Figure 8]](#Figure8).
 
-![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](../resources/Figure_11_08_09.jpg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
+![Mercury kept in a container into which a narrow tube is inserted lowers its level inside the tube relative to the level in the rest of the container. In a similar situation, water rises in the tube so that the water level in the tube is above the water level in the rest of the container. This phenomenon is due to the large contact angle of mercury with glass and the smaller contact angle of water with glass.](/resources/Figure_11_08_09.svg "(a) Mercury is suppressed in a glass tube because its contact angle is greater than 90&#xBA;. Surface tension exerts a downward force as it flattens the mercury, suppressing it in the tube. The dashed line shows the shape the mercury surface would have without the flattening effect of surface tension. (b) Water is raised in a glass tube because its contact angle is nearly 0&#xBA;. Surface tension therefore exerts an upward force when it flattens the surface to reduce its area.")
 {: #Figure8}
 
 <table id="Table2" aria-describedby="The table gives the contact angles of some substances."><caption><span class="title">Contact Angles of Some Substances</span></caption><thead><tr>
@@ -400,7 +400,7 @@ can be raised, since a smaller tube holds less mass. The height is also
 inversely proportional to fluid density $$\rho $$ , since a larger density means
 a greater mass in the same volume. (See [[Figure 9]](#Figure9).)
 
-![The left image shows liquid in a container with four tubes of progressively smaller diameter inserted into the liquid. The liquid rises higher in the smaller-diameter tubes. The right image shows two containers, one holding a dense liquid and the other holding a less-dense liquid. Identical tubes are inserted into each liquid. The less-dense liquid rises higher in its tube than the more-dense liquid does in its tube.](../resources/Figure_11_08_10.jpg "(a) Capillary action depends on the radius of a tube. The smaller the tube, the greater the height reached. The height is negligible for large-radius tubes. (b) A denser fluid in the same tube rises to a smaller height, all other factors being the same.")
+![The left image shows liquid in a container with four tubes of progressively smaller diameter inserted into the liquid. The liquid rises higher in the smaller-diameter tubes. The right image shows two containers, one holding a dense liquid and the other holding a less-dense liquid. Identical tubes are inserted into each liquid. The less-dense liquid rises higher in its tube than the more-dense liquid does in its tube.](/resources/Figure_11_08_10.svg "(a) Capillary action depends on the radius of a tube. The smaller the tube, the greater the height reached. The height is negligible for large-radius tubes. (b) A denser fluid in the same tube rises to a smaller height, all other factors being the same.")
 {: #Figure9}
 
 ::: example {"id":"Example2","class":"example"}
@@ -450,7 +450,7 @@ shows one device for studying negative pressure. Some experiments have
 demonstrated that negative pressures sufficient to pull sap to the tops of the
 tallest trees *can* be achieved.
 
-![When the piston is raised the liquid stretches somewhat, which results in negative pressure.](../resources/Figure_11_08_11.jpg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \) . (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
+![When the piston is raised the liquid stretches somewhat, which results in negative pressure.](/resources/Figure_11_08_11.svg "(a) When the piston is raised, it stretches the liquid slightly, putting it under tension and creating a negative absolute pressure \( P= -F/A \) . (b) The liquid eventually separates, giving an experimental limit to negative pressure in this liquid.")
 {: #Figure10}
 
 ### Section Summary
