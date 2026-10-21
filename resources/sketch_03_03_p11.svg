@@ -36,6 +36,6 @@
 <text x="262.56" y="344.38" font-family="'Times New Roman', Times, serif" font-size="13" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">7</tspan></text>
 <line x1="200" y1="120" x2="306.34" y2="333" stroke="#c0392b" stroke-width="3"/>
 <polygon points="311.52,343.38 301.38,334.36 310.4,329.86" fill="#c0392b"/>
-<text x="241.44" y="244.44" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan></text>
+<text x="241.44" y="244.44" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan></text>
 <text x="208" y="112.2" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">island</tspan></text>
 </svg>

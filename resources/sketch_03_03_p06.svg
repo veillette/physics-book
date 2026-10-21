@@ -25,7 +25,7 @@
 <polygon points="154.06,70.93 143.66,75.09 143.66,66.77" fill="#2e8b57"/>
 <line x1="90" y1="310" x2="151.06" y2="82.14" stroke="#c0392b" stroke-width="3"/>
 <polygon points="154.06,70.93 155.66,84.41 145.93,81.8" fill="#c0392b"/>
-<text x="124.52" y="132.68" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan><tspan font-style="normal"> (7.50 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">)</tspan></text>
+<text x="124.52" y="132.68" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan><tspan font-style="normal"> (7.50 </tspan><tspan font-style="normal">km</tspan><tspan font-style="normal">)</tspan></text>
 <path d="M 108.12 242.39 A 70 70 0 0 0 90 240" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
 <text x="106.01" y="224.04" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">15.0°</tspan></text>
 </svg>

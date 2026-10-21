@@ -27,6 +27,6 @@
 <polygon points="113.2,115 124.04,110.66 124.04,119.34" fill="#1f77c8"/>
 <line x1="70" y1="115" x2="100.5" y2="115" stroke="#c0392b" stroke-width="3.5"/>
 <polygon points="113.2,115 99.5,120.48 99.5,109.52" fill="#c0392b"/>
-<text x="91.6" y="106.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan></text>
+<text x="91.6" y="106.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan></text>
 <text x="178" y="62.7" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">path</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">C</tspan></text>
 </svg>

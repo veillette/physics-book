@@ -47,7 +47,7 @@
 <text x="350" y="228.4" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">35°</tspan></text>
 <line x1="150" y1="115" x2="266" y2="115" stroke="#e0245e" stroke-width="4"/>
 <polygon points="287,115 265,123.8 265,106.2" fill="#e0245e"/>
-<text x="152" y="101.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-15.36" dy="-16.12">→</tspan><tspan dx="0.53" dy="16.12">​</tspan></tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">wind</tspan></tspan><tspan dy="-7.28">​</tspan></text>
+<text x="152" y="101.1" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="16.12" font-weight="normal" dx="-16" dy="-21.32">→</tspan><tspan dx="-0.12" dy="21.32">​</tspan></tspan><tspan font-size="18.2" dy="7.28"><tspan font-style="normal">wind</tspan></tspan><tspan dy="-7.28">​</tspan></text>
 <line x1="328" y1="2" x2="700" y2="2" stroke="#222222" stroke-width="1.4" stroke-dasharray="7 5"/>
 <line x1="332" y1="122" x2="530" y2="122" stroke="#222222" stroke-width="1.4" stroke-dasharray="7 5"/>
 <line x1="499" y1="122" x2="521" y2="122" stroke="#222222" stroke-width="1.5"/>

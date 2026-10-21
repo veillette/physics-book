@@ -23,7 +23,7 @@
 <polygon points="286,38.6 296.84,34.26 296.84,42.94" fill="#1f77c8"/>
 <line x1="70" y1="125" x2="275.23" y2="42.91" stroke="#c0392b" stroke-width="3"/>
 <polygon points="286,38.6 276.17,47.96 272.43,38.6" fill="#c0392b"/>
-<text x="172.8" y="74.4" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.34" dy="-9.92">→</tspan><tspan dx="1.21" dy="9.92">​</tspan></tspan></text>
+<text x="172.8" y="74.4" font-family="'Times New Roman', Times, serif" font-size="16" fill="#c0392b" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">R<tspan font-size="9.92" font-weight="normal" dx="-10.74" dy="-13.12">→</tspan><tspan dx="0.82" dy="13.12">​</tspan></tspan></text>
 <path d="M 130 125 A 60 60 0 0 0 125.71 102.72" fill="none" stroke="#333333" stroke-width="1.5" stroke-linejoin="round"/>
 <text x="142.66" y="116.26" font-family="'Times New Roman', Times, serif" font-size="15" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="italic">θ</tspan></text>
 <text x="199.6" y="232.3" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f77c8" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">path</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">D</tspan></text>

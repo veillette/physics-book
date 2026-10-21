@@ -12,7 +12,7 @@
 <polygon points="510,200 500,204 500,196" fill="#c2185b"/>
 <line x1="110" y1="290" x2="501" y2="290" stroke="#c2185b" stroke-width="1.6"/>
 <polygon points="510,290 500,294 500,286" fill="#c2185b"/>
-<text x="495" y="103.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-9.9" dy="-9.92">→</tspan><tspan dx="0.77" dy="9.92">​</tspan></tspan></text>
+<text x="495" y="103.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-10.3" dy="-13.12">→</tspan><tspan dx="0.38" dy="13.12">​</tspan></tspan></text>
 <line x1="310" y1="40" x2="310" y2="360" stroke="#666666" stroke-width="1.4" stroke-dasharray="8 5"/>
 <text x="318" y="50.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">axis</tspan></text>
 <rect x="220" y="90" width="180" height="220" fill="none" stroke="#b8860b" stroke-width="5"/>
@@ -21,8 +21,8 @@
 <circle cx="432" cy="200" r="10" fill="#ffffff" stroke="#222222" stroke-width="1.8"/>
 <line x1="426" y1="194" x2="438" y2="206" stroke="#222222" stroke-width="1.8"/>
 <line x1="426" y1="206" x2="438" y2="194" stroke="#222222" stroke-width="1.8"/>
-<text x="188" y="234.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="8.68" font-weight="normal" dx="-7.49" dy="-5.88">→</tspan><tspan dx="-0.49" dy="5.88">​</tspan></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">out</tspan></text>
-<text x="432" y="234.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="8.68" font-weight="normal" dx="-7.49" dy="-5.88">→</tspan><tspan dx="-0.49" dy="5.88">​</tspan></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan></text>
+<text x="188" y="234.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="8.68" font-weight="normal" dx="-7.84" dy="-7.28">→</tspan><tspan dx="-0.84" dy="7.28">​</tspan></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">out</tspan></text>
+<text x="432" y="234.9" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">v<tspan font-size="8.68" font-weight="normal" dx="-7.84" dy="-7.28">→</tspan><tspan dx="-0.84" dy="7.28">​</tspan></tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">in</tspan></text>
 <line x1="220" y1="230" x2="220" y2="173" stroke="#c62828" stroke-width="3.5"/>
 <polygon points="220,160 225.6,174 214.4,174" fill="#c62828"/>
 <line x1="400" y1="160" x2="400" y2="217" stroke="#c62828" stroke-width="3.5"/>

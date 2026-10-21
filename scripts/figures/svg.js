@@ -276,9 +276,12 @@ const ASCENDERS = /[A-Zbdfhklt]/;
  */
 function vectorArrow(letter, size) {
   const arrowSize = size * 0.62;
-  const arrowWidth = arrowSize * 0.92;
+  const arrowWidth = arrowSize;
   const letterWidth = (BOLD_WIDTH[letter] ?? 0.6) * size;
-  const raise = (ASCENDERS.test(letter) ? 0.62 : 0.42) * size;
+  // The arrow glyph's lowest point is 0.05 em above its baseline; caps and
+  // ascenders reach about 0.69 em (more in some Times builds) and the x-height
+  // is 0.46 em, so these raises leave a clear gap above the letter.
+  const raise = (ASCENDERS.test(letter) ? 0.82 : 0.52) * size;
   const back = -(letterWidth + arrowWidth) / 2;
   const forward = (letterWidth + arrowWidth) / 2 - arrowWidth;
   return (

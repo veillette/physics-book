@@ -11,7 +11,7 @@
 <polygon points="510,130 500,134 500,126" fill="#c2185b"/>
 <line x1="110" y1="260" x2="501" y2="260" stroke="#c2185b" stroke-width="1.8"/>
 <polygon points="510,260 500,264 500,256" fill="#c2185b"/>
-<text x="495" y="123.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-9.9" dy="-9.92">→</tspan><tspan dx="0.77" dy="9.92">​</tspan></tspan></text>
+<text x="495" y="123.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="middle" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">B<tspan font-size="9.92" font-weight="normal" dx="-10.3" dy="-13.12">→</tspan><tspan dx="0.38" dy="13.12">​</tspan></tspan></text>
 <line x1="200" y1="195" x2="420" y2="195" stroke="#b8860b" stroke-width="6"/>
 <circle cx="200" cy="195" r="10" fill="#ffffff" stroke="#1f77c8" stroke-width="1.8"/>
 <circle cx="200" cy="195" r="3" fill="#1f77c8"/>
@@ -24,8 +24,8 @@
 <polygon points="200,115 205.2,128 194.8,128" fill="#c62828"/>
 <line x1="420" y1="209" x2="420" y2="263" stroke="#c62828" stroke-width="3"/>
 <polygon points="420,275 414.8,262 425.2,262" fill="#c62828"/>
-<text x="210" y="130.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="9.92" font-weight="normal" dx="-9.45" dy="-9.92">→</tspan><tspan dx="0.32" dy="9.92">​</tspan></tspan></text>
-<text x="410" y="272.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="9.92" font-weight="normal" dx="-9.45" dy="-9.92">→</tspan><tspan dx="0.32" dy="9.92">​</tspan></tspan></text>
+<text x="210" y="130.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="9.92" font-weight="normal" dx="-9.85" dy="-13.12">→</tspan><tspan dx="-0.07" dy="13.12">​</tspan></tspan></text>
+<text x="410" y="272.6" font-family="'Times New Roman', Times, serif" font-size="16" fill="#222222" text-anchor="end" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-weight="bold" font-style="normal">F<tspan font-size="9.92" font-weight="normal" dx="-9.85" dy="-13.12">→</tspan><tspan dx="-0.07" dy="13.12">​</tspan></tspan></text>
 <line x1="310" y1="189" x2="310" y2="112" stroke="#3f9a2b" stroke-width="3"/>
 <polygon points="310,100 315.2,113 304.8,113" fill="#3f9a2b"/>
 <text x="318" y="95.55" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3f9a2b" text-anchor="start" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" paint-order="stroke" xml:space="preserve"><tspan font-style="normal">loop</tspan><tspan font-style="normal">’</tspan><tspan font-style="normal">s</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">own</tspan><tspan font-style="normal"> </tspan><tspan font-style="normal">field</tspan></text>
